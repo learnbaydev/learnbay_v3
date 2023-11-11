@@ -38,3 +38,114 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+//form function
+// const getEndPoint = () => {
+// let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
+// if (event) {
+// endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
+// }
+
+// if (router.pathname === "/organic") {
+// endPoint = "https://getform.io/f/a876146f-2c5d-4a1f-b177-f993db3d7aaf";
+// }
+
+// if (router.pathname === "/referrals") {
+// endPoint = "https://getform.io/f/a876146f-2c5d-4a1f-b177-f993db3d7aaf";
+// }
+
+// if (
+// router.pathname === "/learning-learnbay" ||
+// router.pathname === "/learning-learnbay-select"
+// ) {
+// endPoint = "https://getform.io/f/fd68bf82-a911-435e-9719-7c134a89a731";
+// }
+// if (router.pathname === "/resume-builder") {
+// endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
+// }
+// return endPoint;
+// // ... (Logic to determine the endpoint based on the router)
+// };
+
+// const redirectionThankYou = () => {
+// let routerPath = "";
+// if (router.pathname === "/learning-learnbay") {
+// routerPath = "/learning-learnbay-select";
+// }
+// if (router.pathname === "/learning-learnbay-select") {
+// routerPath = "/Thank-you-counselling";
+// }
+// if (router.pathname === "resume-builder") {
+// routerPath = "Thank-you-counselling";
+// }
+// if (fullStack) {
+// routerPath = "/Thank-you-fsd";
+// }
+// if (event) {
+// routerPath = "/event/Thank-You-event";
+// }
+// if (dataScience) {
+// routerPath = "/Thank-you";
+// }
+// if (dataScienceGeneric) {
+// redirection();
+// }
+// if (dataScienceCounselling) {
+// routerPath = "/Thank-you-counselling";
+// }
+// if (router.pathname === "/organic" || router.pathname === "/referrals") {
+// setToggle(false);
+// setAlertMSG("Form Submitted successfully");
+// }
+// if (router.pathname === "/Thank-you") {
+// setToggle(false);
+// setAlertMSG("Form Submitted successfully");
+// }
+// return routerPath;
+// };
+
+// const getValidation = () => {
+// if (
+// radio === true &&
+// (interstedInHide === false || interstedInHide === undefined)
+// ) {
+// if (query.interstedIn === "Interested In") {
+// setError(true);
+// return false;
+// } else if (query.interstedIn === "") {
+// setError(true);
+// return false;
+// } else if (query.platform === "Select an option") {
+// setError(true);
+// return false;
+// } else if (query.platform === "") {
+// setError(true);
+// return false;
+// } else {
+// setError(false);
+// return true;
+// }
+// } else if (
+// interstedInHide === true &&
+// (radio === undefined || radio === false)
+// ) {
+// setError(false);
+// return true;
+// } else if (
+// interstedInHide === false ||
+// interstedInHide === undefined ||
+// radio === false ||
+// radio === undefined
+// ) {
+// if (query.interstedIn === "Interested In") {
+// setError(true);
+// return false;
+// } else if (query.interstedIn === "") {
+// setError(true);
+// return false;
+// } else {
+// setError(false);
+// return true;
+// }
+// }
+// };
