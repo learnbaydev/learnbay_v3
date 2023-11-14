@@ -1,31 +1,33 @@
+import { useState } from "react";
 import dynamic from "next/dynamic";
-import React, { useState } from "react";
+import styles from "./ProjectSection.module.css";
+const ProjectContent = dynamic(() => import("./ProjectContent"));
 const PopupContent = dynamic(() =>
   import("../../Global/PopupContent/PopupContent")
 );
-const FirstSectionContent = dynamic(() => import("./FirstSectionContent"));
 
-const FirstSection = ({
+const ProjectSection = ({
+  ids,
   dataScience,
   radio,
+
   dataScienceCounselling,
-  interstedInHide,
 }) => {
-  console.log("first section");
   const [popups, setPopups] = useState(false);
+
   return (
-    <>
+    <section className={styles.container} id="ProjectLab">
       <PopupContent
         dataScience={dataScience}
-        radio={radio}
         dataScienceCounselling={dataScienceCounselling}
+        radio={radio}
         popups={popups}
         setPopups={setPopups}
-        interstedInHide={interstedInHide}
         heading="Apply For Counselling"
       />
-      <FirstSectionContent setPopups={setPopups} />
-    </>
+      <ProjectContent ids={ids} />
+    </section>
   );
 };
-export default React.memo(FirstSection);
+
+export default ProjectSection;

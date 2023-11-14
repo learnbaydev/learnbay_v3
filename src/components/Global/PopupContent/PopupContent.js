@@ -1,7 +1,7 @@
 import React from "react";
 import dynamic from "next/dynamic";
-const Popup = dynamic(() => import("../../Global/Popup/Popup"));
-const Form = dynamic(() => import("../../Global/Form/Form"));
+const Popup = dynamic(() => import("../Popup/Popup"));
+const Form = dynamic(() => import("../Form/Form"));
 
 const PopupContent = ({
   dataScience,
@@ -10,6 +10,9 @@ const PopupContent = ({
   popups,
   setPopups,
   heading,
+  fullStack,
+  upSkillingHide,
+  dataScienceGeneric,
   interstedInHide,
 }) => {
   return (

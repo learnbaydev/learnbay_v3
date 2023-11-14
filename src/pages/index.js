@@ -1,11 +1,32 @@
 import Head from "next/head";
 import Navbar from "../components/Global/Navbar/Navbar";
 import dynamic from "next/dynamic";
-const FirstSection = dynamic(() =>
-  import("../components/Home/FirstSection/FirstSection")
-);
+import { DataScienceCourseData } from "../Data/AdvanceDataScienceCourse";
+import FirstSection from "@/components/Home/FirstSection/FirstSection";
+import HomeLine from "@/components/Home/HomeLine/HomeLine";
 const Course = dynamic(() => import("@/components/Home/Course/Course"));
-const HomeLine = dynamic(() => import("@/components/Home/HomeLine/HomeLine"));
+const WhyLearnbay = dynamic(() =>
+  import("@/components/Home/WhyLearnbay/WhyLearnbay")
+);
+const ProjectSection = dynamic(() =>
+  import("@/components/Home/ProjectSection/ProjectSection")
+);
+const Testimonial = dynamic(() =>
+  import("@/components/Global/Testimonial/Testimonial")
+);
+const ContactUs = dynamic(() =>
+  import("@/components/Home/ContactUs/ContactUs")
+);
+const GetHire = dynamic(() => import("@/components/Home/GetHire/GetHire"));
+const TrainerSection = dynamic(() =>
+  import("@/components/Home/TrainerSection/TrainerSection")
+);
+const SeventhSection = dynamic(() =>
+  import("@/components/Global/SeventhSection/SeventhSection")
+);
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+import BottomBar from "@/components/Global/BottomBar/BottomBar";
+const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
 
 export default function Home() {
   return (
@@ -39,6 +60,20 @@ export default function Home() {
       />
       <HomeLine />
       <Course dataScience={true} radio={true} />
+      <WhyLearnbay ids="bfl64ANfSV0" />
+      <ProjectSection ids="bfl64ANfSV0" />
+      <GetHire />
+      <TrainerSection ids="eautK0odE7Q" />
+      <Testimonial
+        redirectDS={true}
+        heading=""
+        Testimonial={DataScienceCourseData[0].testimonial}
+      />
+      <ContactUs dataScienceCounselling={true} radio={true} />
+      <SeventhSection />
+      <Footer />
+      <WhatsappFloat chat360code1={true} />
+      <BottomBar radio={true} />
     </>
   );
 }
