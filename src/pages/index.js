@@ -27,8 +27,16 @@ export default function Home() {
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
       </Head>
-      <Navbar radio={true} dataScienceCounselling={true} />
-      <FirstSection dataScienceCounselling={true} radio={true} />
+      <Navbar
+        radio={true}
+        dataScienceCounselling={true}
+        interstedInHide={true}
+      />
+      <FirstSection
+        dataScienceCounselling={true}
+        radio={true}
+        interstedInHide={true}
+      />
       <HomeLine />
       <Course dataScience={true} radio={true} />
     </>
