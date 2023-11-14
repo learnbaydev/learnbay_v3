@@ -6,6 +6,7 @@ const FirstSection = dynamic(() =>
 );
 const Course = dynamic(() => import("@/components/Home/Course/Course"));
 const HomeLine = dynamic(() => import("@/components/Home/HomeLine/HomeLine"));
+const ContactUs = dynamic(() => import("@/components/Home/ContactUs/ContactUs"))
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
       <FirstSection dataScienceCounselling={true} radio={true} />
       <HomeLine />
       <Course dataScience={true} radio={true} />
+      <ContactUs dataScienceCounselling={true} radio={true} />
     </>
   );
 }
