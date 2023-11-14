@@ -17,6 +17,7 @@
     "react-icons": "^4.11.0",
     "react-phone-input-2": "^2.15.1",
     "react-phone-number-input": "^3.3.7",
+    "request": "^2.88.2",
     "swiper": "^9.4.1"
   },
   "devDependencies": {

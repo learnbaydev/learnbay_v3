@@ -5,7 +5,7 @@ const nextConfig = {
   experimental: {
     optimizePackageImports: ["package-name"],
     webVitalsAttribution: ["CLS", "LCP", "FCP"],
-    nextScriptWorkers: true,
+    // nextScriptWorkers: true,
   },
 
   reactStrictMode: true,
