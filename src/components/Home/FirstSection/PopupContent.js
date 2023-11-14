@@ -9,6 +9,8 @@ const PopupContent = ({
   dataScienceCounselling,
   popups,
   setPopups,
+  heading,
+  interstedInHide,
 }) => {
   return (
     <Popup
@@ -24,13 +26,13 @@ const PopupContent = ({
         ></div>
       </div>
       <div className="RightPopup">
-        <h5>Apply For Counselling</h5>
+        <h5>{heading}</h5>
         <Form
           dataScience={dataScience}
           dataScienceCounselling={dataScienceCounselling}
           radio={radio}
           upSkillingHide={true}
-          interstedInHide={true}
+          interstedInHide={interstedInHide}
         />
       </div>
     </Popup>
