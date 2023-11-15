@@ -193,6 +193,10 @@ a {
   left: 40% !important;
 }
 
+.react-tel-input .form-control {
+  width: 100% !important;
+}
+
 @media (max-width: 1281px) {
   .wrapper {
     padding: 40px 80px;

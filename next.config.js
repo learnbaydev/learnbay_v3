@@ -5,7 +5,7 @@ const nextConfig = {
   experimental: {
     optimizePackageImports: ["react-icons", "react-phone-input-2", "swiper"],
     webVitalsAttribution: ["CLS", "LCP", "FCP"],
-    nextScriptWorkers: true,
+    // nextScriptWorkers: true,
   },
   swcMinify: true,
   reactStrictMode: true,

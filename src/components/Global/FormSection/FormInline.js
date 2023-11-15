@@ -1,29 +1,57 @@
 import React, { useState, useEffect } from "react";
 import styles from "./FormInline.module.css";
-import "react-phone-number-input/style.css";
-import PhoneInput from "react-phone-number-input";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
+import {
+  getEndPoint,
+  getValidation,
+  redirectionThankYou,
+  getFormFields,
+} from "../Form/formFunction";
 import { useRouter } from "next/router";
 
-const FormInline = ({
+const Form = ({
   popup,
   setTrigger,
-  upSkillingHide,
+  downloadBrochure,
   radio,
+  event,
   dataScience,
+  fullStack,
+  google,
+  referrals,
+  syllabus,
+  learning,
+  titleCourse,
+  brochureLink,
   dataScienceCounselling,
   dataScienceGeneric,
+  interstedInHide,
 }) => {
   const router = useRouter();
-
+  console.log(radio, google, referrals, interstedInHide);
   //offset to maintain time zone difference
+  const [formFields, setFormFields] = useState(
+    getFormFields(radio, google, referrals, interstedInHide)
+  );
   const [value, setValue] = useState();
   const [error, setError] = useState();
+  const [alertMSG, setAlertMSG] = useState("");
+  const [toggle, setToggle] = useState(true);
   const [query, setQuery] = useState({
     name: "",
     email: "",
     phone: "",
     upskillPlanning: "",
     upskillingObjective: "",
+    platform: "",
+    workExperience: "",
+    Brief: "",
+    dateTime: "",
+    WAdropdown: "",
+    currentOrganization: "",
+    currentDesignation: "",
+    interstedIn: "",
     url: router.asPath,
   });
   useEffect(() => {
@@ -39,7 +67,6 @@ const FormInline = ({
       [name]: value,
     }));
   };
-
   const redirection = async () => {
     console.log("redirect");
     const myTimeout = setTimeout(() => {
@@ -47,308 +74,172 @@ const FormInline = ({
     }, 500);
   };
 
-  let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
+  let btnText = "Request A Callback";
+  if (event) {
+    btnText = "Register Now";
+  }
 
-  if (router.pathname === "/resume-builder") {
-    endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
+  if (learning) {
+    btnText = "Download Resources";
   }
 
   // Form Submit function
-  const formSubmit = (e) => {
+  const formSubmit = async (e) => {
     e.preventDefault();
-    if (
-      query.upskillingObjective === "Tell us about your upskilling objective?"
-    ) {
-      setError(true);
-    } else if (
-      query.upskillPlanning === "How soon are you planning to upskill?"
-    ) {
-      setError(true);
-    } else if (query.upskillPlanning === "Select an option") {
-      setError(true);
-    } else if (query.upskillingObjective === "Select an option") {
-      setError(true);
-    } else if (query.upskillPlanning === "") {
-      setError(true);
-    } else if (query.upskillingObjective === "") {
-      setError(true);
-    } else {
-      setError(false);
-      const formData = new FormData();
-      Object.entries(query).forEach(([key, value]) => {
-        formData.append(key, value);
-      });
-      fetch(`${endPoint}`, {
-        method: "POST",
-        body: formData,
-      }).then(() =>
-        setQuery({
-          name: "",
-          email: "",
-          phone: "",
-          upskillPlanning: "",
-          upskillingObjective: "",
-          url: router.asPath,
-        })
-      );
-      if (popup) {
-        const off = () => {
-          setTrigger(false);
-        };
-        off();
-      }
-      if (dataScience) {
-        router.push("/Thank-you");
-      }
-      if (dataScienceCounselling) {
-        router.push("/Thank-you-counselling");
-      }
-      if (dataScienceGeneric) {
-        redirection();
-      }
-    }
-  };
+    const endPoint = getEndPoint(router.pathname, event);
+    const pushPath = redirectionThankYou(
+      router.pathname,
+      fullStack,
+      event,
+      dataScience,
+      dataScienceGeneric,
+      dataScienceCounselling,
+      redirection
+    );
+    setError(getValidation(radio, interstedInHide, query));
+    const validation = getValidation(radio, interstedInHide, query);
 
-  const formSubmitDownload = (e) => {
-    e.preventDefault();
     const formData = new FormData();
     Object.entries(query).forEach(([key, value]) => {
       formData.append(key, value);
     });
-    fetch(`${endPoint}`, {
-      method: "POST",
-      body: formData,
-    }).then(() =>
+
+    if (validation === false) {
+      const sendData = await fetch(`${endPoint}`, {
+        method: "POST",
+        body: formData,
+      });
       setQuery({
         name: "",
         email: "",
         phone: "",
         upskillPlanning: "",
         upskillingObjective: "",
+        jobDescription: "",
+        platform: "",
+        workExperience: "",
+        dateTime: "",
+        WAdropdown: "",
+        currentOrganization: "",
+        currentDesignation: "",
+        interstedIn: "",
         url: router.asPath,
-      })
-    );
-    if (popup) {
-      const off = () => {
-        setTrigger(false);
-      };
-      off();
-    }
-    if (dataScience) {
-      router.push("/Thank-you");
-    }
-    if (dataScienceCounselling) {
-      router.push("/Thank-you-counselling");
-    }
-    if (dataScienceGeneric) {
-      redirection();
+      });
+      setValue(false);
+      if (popup) {
+        const off = () => {
+          setTrigger(false);
+        };
+        off();
+      }
+      if (sendData.status === 200) {
+        console.log(pushPath, "inside 200");
+        router.push(
+          pushPath,
+          dataScience
+            ? {
+                pathname: "/Thank-you",
+                query: { titleCourse: titleCourse, brochureLink: brochureLink },
+              }
+            : {
+                pathname: pushPath,
+              }
+        );
+      }
     }
   };
 
-  const [mobile, setMobile] = useState(false);
-
-  useEffect(() => {
-    let width = window.innerWidth;
-
-    if (width < 481) {
-      setMobile(true);
-    }
-    if (width > 481) {
-      setMobile(false);
-    }
-  }, [mobile]);
-
   return (
     <div className={styles.App}>
-      <form onSubmit={upSkillingHide ? formSubmitDownload : formSubmit}>
+      <form onSubmit={formSubmit}>
         <div className={styles.formGrid}>
-          <div className={styles.formWrapper}>
-            <input
-              type="text"
-              name="name"
-              className={popup ? styles.NameInputs : styles.NameInput}
-              required
-              placeholder="Enter your Full Name"
-              value={query.name}
-              onChange={handleParam()}
-            />
-          </div>
-          <div className={styles.formWrapper}>
-            <input
-              type="email"
-              name="email"
-              required
-              placeholder="Enter your Email"
-              className={popup ? styles.EmailInputs : styles.EmailInput}
-              value={query.email}
-              onChange={handleParam()}
-            />
-          </div>
-          <div className={styles.formWrapper}>
-            <PhoneInput
-              style={
-                popup
-                  ? {
-                      borderRadius: "6px",
-                      border: "1px solid #D3D3D3",
-                      padding: "10px",
-                    }
-                  : {
-                      borderRadius: "6px",
-                      border: "1px solid #D3D3D3",
-                      padding: "10px",
-                    }
-              }
-              name="phone"
-              rules={{ required: true }}
-              defaultCountry="IN"
-              placeholder="Enter Phone Number"
-              className={popup ? styles.Phones : styles.Phone}
-              value={value}
-              onChange={setValue}
-              required
-            />
-          </div>
-          {/* {upSkillingHide ? (
-            ""
-          ) : (
-            <div className={popup ? styles.formWrapper : styles.formWrapper}>
-              <select
-                name="upskillPlanning"
-                required
-                value={query.upskillPlanning}
-                onChange={handleParam()}
-                placeholder="dsfghj"
-              >
-                <option
-                  value="How soon are you planning to upskill?"
-                  selected
-                  hidden
-                >
-                  How soon are you planning to upskill?
-                </option>
-                <option value="Select an option" disabled>
-                  Select an option
-                </option>
-                <option value="Immediately">Immediately</option>
-                <option
-                  value="Within 1 to 2 weeks
-"
-                >
-                  Within 1 to 2 weeks
-                </option>
-                <option value="Within a Month ">Within a Month</option>
-                <option value="Not yet decided">Not yet decided</option>
-              </select>
-            </div>
-          )} */}
-
-          {/* {upSkillingHide ? (
-            ""
-          ) : (
-            <div className={popup ? styles.formWrapper : styles.formWrapper}>
-              <select
-                name="upskillingObjective"
-                required
-                value={query.upskillingObjective}
-                onChange={handleParam()}
-              >
-                <option
-                  value="Tell us about your upskilling objective?"
-                  selected
-                  hidden
-                >
-                  Tell us about your upskilling objective?
-                </option>
-                <option value="Select an option" disabled>
-                  Select an option
-                </option>
-                <option value="Upskilling">Upskilling</option>
-                <option value="Salary hike">Salary hike</option>
-                <option value="Career switch">Career switch</option>
-              </select>
-            </div>
-          )} */}
-          {radio ? (
-            <div className={popup ? styles.formWrappers : styles.formWrapper}>
-              <select
-                id="platform"
-                name="platform"
-                required
-                value={query.platform}
-                onChange={handleParam()}
-              >
-                <option value=" " selected hidden>
-                  Select an option
-                </option>
-                <option value="Data Science & AI Courses">
-                  Data Science & AI Courses
-                </option>
-                <option value="Software (DSA & System Design)">
-                  Software (DSA & System Design)
-                </option>
-              </select>
-              {/* <input
-              id="Data Science Program"
-              value="Data Science & AI Courses "
-              name="platform"
-              required
-              type="radio"
-              onChange={handleParam()}
-            />
-            Data Science & AI Courses &nbsp;
-            <br />
-            <input
-              id="Software (DSA & System Design)"
-              value="Software (DSA & System Design)"
-              name="platform"
-              required
-              type="radio"
-              onChange={handleParam()}
-            />
-            Software (DSA & System Design) */}
-            </div>
-          ) : (
-            ""
-          )}
-          {popup ? (
-            <div className={popup ? styles.formWrappers : styles.formWrapper}>
-              <input
-                type="hidden"
-                id="url"
-                name="url"
-                value={router.asPath}
-              ></input>
-            </div>
-          ) : (
-            ""
-          )}
-        </div>
-        <input type="hidden" id="zc_gad" name="zc_gad" value="" />
-        {error ? (
-          <p
-            style={{
-              margin: "0px 0px 5px 0px",
-              color: "#0072bc",
-              fontSize: "18px",
-            }}
-          >
-            Please select a valid option
-          </p>
-        ) : (
-          ""
+        {formFields.map(
+          (field) =>
+            field.showField && ( // Only render the field if showField is true
+              <div key={field.name} className={styles.formWrapper}>
+              
+                {field.type === "phone" ? (
+                  <PhoneInput
+                    inputStyle={field.inputStyle}
+                    containerStyle={field.containerStyle}
+                    name={field.name}
+                    inputProps={field.inputProps}
+                    country="in"
+                    placeholder={field.placeholder}
+                    value={value}
+                    onChange={(phone) => setValue(phone)}
+                    required={field.required}
+    
+                  
+                  />
+                ) : field.type === "select" ? (
+                  <select
+                    name={field.name}
+                    required={field.required}
+                    value={query[field.name]}
+                    onChange={handleParam(field.name)}
+                  >
+                    {field.options.map((option) => (
+                      <option
+                        key={option.value}
+                        value={option.value}
+                        hidden={option.hidden}
+                      >
+                        {option.label}
+                      </option>
+                    ))}
+                  </select>
+                ) : (
+                  <input
+                    type={field.type}
+                    name={field.name}
+                    className={styles.EmailInputs}
+                    required={field.required}
+                    placeholder={field.placeholder}
+                    value={query[field.name]}
+                    onChange={handleParam(field.name)}
+                  />
+                )}
+              </div>
+            )
         )}
-        <p className={styles.FormText} style={{ fontSize: "10px" }}>
-          By submitting the form, you agree to our Terms and Conditions and our
-          Privacy Policy.
-        </p>
-        <button type="submit" className={styles.button}>
-          Request A Callback
-        </button>
+        {error && (
+          <p className={styles.errorMsg}>
+            Please fill all the fields marked with *
+          </p>
+        )}
+        {popup && (
+          <input type="hidden" id="url" name="url" value={router.asPath} />
+        )}
+        <div>{toggle ? "" : <p className={styles.alert}>{alertMSG}</p>}</div>
+     
         <input type="hidden" id="zc_gad" name="zc_gad" value="" />
+
+        </div>
+        {syllabus ? (
+          <div className={styles.bottomWrap}>
+            <p className={styles.FormText}>
+              By submitting the form, you agree to our Terms and Conditions and
+              our Privacy Policy.
+            </p>
+            <button type="submit" className={styles.button}>
+              {downloadBrochure ? "Download Now" : btnText}{" "}
+            </button>
+          </div>
+        ) : (
+          <>
+            <p className={styles.FormText}>
+              By submitting the form, you agree to our Terms and Conditions and
+              our Privacy Policy.
+            </p>
+            <button type="submit" className={styles.button}>
+              {downloadBrochure ? "Download Now" : btnText}{" "}
+            </button>
+          </>
+        )}
       </form>
     </div>
   );
 };
 
-export default FormInline;
+export default Form;
