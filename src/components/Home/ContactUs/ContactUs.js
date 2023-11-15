@@ -46,7 +46,7 @@ function ContactUs({ dataScience, dataScienceCounselling, radio }) {
           dataScience={dataScience}
           dataScienceCounselling={dataScienceCounselling}
           radio={radio}
-          upSkillingHide={true}
+          upSkillingHide={true} 
         />
       </div>
     </section>
