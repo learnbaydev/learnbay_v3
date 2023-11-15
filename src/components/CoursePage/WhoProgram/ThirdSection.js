@@ -56,7 +56,13 @@ const ThirdSection = ({
       <h4>Choose Your Domain Elective</h4>
       <div className={styles.programWrap}>
         <div className={styles.left}>
-          <Image src={leftImage} width={500} height={514} alt="who" />
+          <Image
+            src={leftImage}
+            width={500}
+            height={514}
+            alt="who"
+            loading="lazy"
+          />
         </div>
         <div>
           <div className={styles.boxWrap}>
@@ -66,8 +72,14 @@ const ThirdSection = ({
                 <div className={styles.leftSide} key={index}>
                   <div className={styles.boxIcon}>
                     <div className={styles.icons}>
-                      {" "}
-                      <Image src={icon} loading="lazy" width={40} height={40} />
+                      <Image
+                        src={icon}
+                        loading="lazy"
+                        width={40}
+                        height={40}
+                        quality={30}
+                        alt="domain Electives data science"
+                      />
                     </div>
                   </div>
                   <h5 className={styles.heading}>{heading}</h5>

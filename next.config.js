@@ -3,11 +3,11 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   experimental: {
-    optimizePackageImports: ["package-name"],
+    optimizePackageImports: ["react-icons", "react-phone-input-2", "swiper"],
     webVitalsAttribution: ["CLS", "LCP", "FCP"],
     // nextScriptWorkers: true,
   },
-
+  swcMinify: true,
   reactStrictMode: true,
   images: {
     remotePatterns: [
@@ -18,7 +18,7 @@ const nextConfig = {
       },
     ],
     formats: ["image/avif", "image/webp"],
-    minimumCacheTTL: 120,
+    minimumCacheTTL: 604800, // 7 days
   },
   async redirects() {
     return [
