@@ -3,64 +3,45 @@ import Image from "next/image";
 import styles from "./SecondSection.module.css";
 
 function SecondSection({ SecondSectionData }) {
+  const featureData = [
+    {
+      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Mask+group+(4).png",
+      alt: "data science course",
+      text: "Globally Recognized Degree",
+    },
+    {
+      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Mask+group+(5).png",
+      alt: "data science course",
+      text: "Immigration Opportunities",
+    },
+    {
+      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Mask+group+(6).png",
+      alt: "data science course",
+      text: "Integrated Generative AI",
+    },
+    {
+      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Mask+group+(7).png",
+      alt: "data science course",
+      text: "Transferable ECTS Credits",
+    },
+  ];
+
   return (
     <div className={styles.boxP}>
-      <div className={styles.boxD}>
-        <div className={styles.boxC}>
+      {featureData.map((feature, index) => (
+        <div className={styles.boxC} key={index}>
           <div className={styles.imgBox}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Mask+group+(4).png"
+              src={feature.src}
               width="35"
               height="35"
               priority={true}
-              alt="data science course"
+              alt={feature.alt}
             />
-          </div>{" "}
-          <p>Globally Recognized Degree</p>
+          </div>
+          <p>{feature.text}</p>
         </div>
-      </div>
-      <div className={styles.boxE}>
-        <div className={styles.boxC}>
-          <div className={styles.imgBox}>
-            <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Mask+group+(5).png"
-              width="35"
-              height="35"
-              priority={true}
-              alt="data science course"
-            />
-          </div>{" "}
-          <p>Immigration Opportunities</p>
-        </div>
-      </div>
-      <div className={styles.boxE}>
-        <div className={styles.boxC}>
-          <div className={styles.imgBox}>
-            <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Mask+group+(6).png"
-              width="35"
-              height="35"
-              priority={true}
-              alt="data science course"
-            />
-          </div>{" "}
-          <p>Integrated Generative AI</p>
-        </div>
-      </div>
-      <div className={styles.boxD}>
-        <div className={styles.boxC}>
-          <div className={styles.imgBox}>
-            <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Mask+group+(7).png"
-              width="35"
-              height="35"
-              priority={true}
-              alt="data science course"
-            />
-          </div>{" "}
-          <p>Transferable ECTS Credits</p>
-        </div>
-      </div>
+      ))}
     </div>
   );
 }

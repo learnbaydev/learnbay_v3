@@ -86,15 +86,7 @@
   /* height: 40px; */
 }
 .animationText {
-  /* display: inline-block; */
-  /* width: max-content; */
-  font-size: 20px;
-  color: #fff;
-  font-weight: 700;
-  /* position: absolute; */
-  /* left: 33%; */
-  animation: animate 2s linear infinite;
-  transform: translate(-50%, -50%);
+  color: white;
 }
 .btnImageMobile {
   display: none;
@@ -105,14 +97,7 @@
 .Desktop {
   display: block;
 }
-@keyframes animate {
-  50% {
-    transform: translate(-50%, -50%) perspective(200px) rotateX(-360deg);
-  }
-  100% {
-    transform: translate(-50%, -50%) perspective(200px) rotateX(-360deg);
-  }
-}
+
 .btnImage {
   display: flex;
   gap: 20px;
@@ -277,7 +262,7 @@
   }
 
   .ptop {
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-size: 15px;
     font-weight: 400;
@@ -288,7 +273,7 @@
     border-radius: 0;
   }
   .ptopCiity {
-display: none;
+    display: none;
   }
   .animationTextWrap {
     justify-content: left;

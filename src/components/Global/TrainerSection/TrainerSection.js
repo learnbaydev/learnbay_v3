@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Styles from "./TrainerSection.module.css";
 import Image from "next/image";
-import VideoPopup from "../../Global/VideoPopup/VideoPopup";
+import VideoPopup from "../VideoPopup/VideoPopup";
 
 function TrainerSection({ ids }) {
   // const [vId, setVId] = useState("");

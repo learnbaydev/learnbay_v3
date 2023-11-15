@@ -19,7 +19,7 @@ const ContactUs = dynamic(() =>
 );
 const GetHire = dynamic(() => import("@/components/Home/GetHire/GetHire"));
 const TrainerSection = dynamic(() =>
-  import("@/components/Home/TrainerSection/TrainerSection")
+  import("@/components/Global/TrainerSection/TrainerSection")
 );
 const SeventhSection = dynamic(() =>
   import("@/components/Global/SeventhSection/SeventhSection")

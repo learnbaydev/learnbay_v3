@@ -10,8 +10,11 @@ const PopupContent = ({
   popups,
   setPopups,
   heading,
+  downloadBrochure,
   fullStack,
   upSkillingHide,
+  titleCourse,
+  brochureLink,
   dataScienceGeneric,
   interstedInHide,
 }) => {
@@ -34,7 +37,12 @@ const PopupContent = ({
           dataScience={dataScience}
           dataScienceCounselling={dataScienceCounselling}
           radio={radio}
-          upSkillingHide={true}
+          downloadBrochure={downloadBrochure}
+          fullStack={fullStack}
+          titleCourse={titleCourse}
+          brochureLink={brochureLink}
+          dataScienceGeneric={dataScienceGeneric}
+          upSkillingHide={upSkillingHide}
           interstedInHide={interstedInHide}
         />
       </div>
