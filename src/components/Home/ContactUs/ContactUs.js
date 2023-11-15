@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./ContactUs.module.css";
-// import FormInline from "../../FormSection/FormInline";
+import FormInline from "../../Global/FormSection/FormInline";
 import Image from "next/image";
 
 function ContactUs({ dataScience, dataScienceCounselling, radio }) {
@@ -28,7 +28,6 @@ function ContactUs({ dataScience, dataScienceCounselling, radio }) {
             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/preksha-home.png"
             width={50}
             height={50}
-            loading="lazy"
           />
 
           <p>
@@ -43,12 +42,12 @@ function ContactUs({ dataScience, dataScienceCounselling, radio }) {
         <p className={styles.NormalPForm}>
           Apply for <span className={styles.span}>Career Counselling</span>
         </p>
-        {/* <FormInline
+        <FormInline
           dataScience={dataScience}
           dataScienceCounselling={dataScienceCounselling}
           radio={radio}
-          upSkillingHide={true}
-        /> */}
+          upSkillingHide={true} 
+        />
       </div>
     </section>
   );

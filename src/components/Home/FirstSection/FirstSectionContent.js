@@ -3,7 +3,7 @@ import { FaBell, FaChevronDown } from "react-icons/fa";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import styles from "./FirstSection.module.css";
-import Button from "@/components/Global/Button/Button";
+const Button = dynamic(() => import("../../Global/Button/Button"));
 
 const FirstSectionContent = ({ setPopups }) => {
   const popupShow = () => {
@@ -28,7 +28,7 @@ const FirstSectionContent = ({ setPopups }) => {
                 width="580"
                 height="450"
                 priority
-                quality={40}
+                quality={60}
                 alt="data science course"
               />
             </div>

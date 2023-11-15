@@ -1,6 +1,5 @@
 import dynamic from "next/dynamic";
 import React, { useState } from "react";
-import PopupContent from "../PopupContent/PopupContent";
 const NavbarContent = dynamic(() => import("./NavbarContent"));
 const Popup = dynamic(() => import("../Popup/Popup"));
 const FormCareer = dynamic(() => import("../CareerPortal/Form/Form"));
@@ -22,15 +21,6 @@ const Navbar = ({
 
   return (
     <div>
-      {/* <PopupContent 
-      radio={radio}
-      fullStack={fullStack}
-      dataScience={dataScience}
-      dataScienceGeneric={dataScienceGeneric}
-      dataScienceCounselling={dataScienceCounselling}
-      upSkillingHide={true}
-      interstedInHide={interstedInHide}
-      heading="Apply For Counselling"/> */}
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
         <div className="leftPopup">
           <div className="whiteP" />

@@ -1,32 +1,12 @@
 import Head from "next/head";
 import Navbar from "../components/Global/Navbar/Navbar";
 import dynamic from "next/dynamic";
-import { DataScienceCourseData } from "../Data/AdvanceDataScienceCourse";
-import FirstSection from "@/components/Home/FirstSection/FirstSection";
-import HomeLine from "@/components/Home/HomeLine/HomeLine";
+const FirstSection = dynamic(() =>
+  import("../components/Home/FirstSection/FirstSection")
+);
 const Course = dynamic(() => import("@/components/Home/Course/Course"));
-const WhyLearnbay = dynamic(() =>
-  import("@/components/Home/WhyLearnbay/WhyLearnbay")
-);
-const ProjectSection = dynamic(() =>
-  import("@/components/Home/ProjectSection/ProjectSection")
-);
-const Testimonial = dynamic(() =>
-  import("@/components/Global/Testimonial/Testimonial")
-);
-const ContactUs = dynamic(() =>
-  import("@/components/Home/ContactUs/ContactUs")
-);
-const GetHire = dynamic(() => import("@/components/Home/GetHire/GetHire"));
-const TrainerSection = dynamic(() =>
-  import("@/components/Global/TrainerSection/TrainerSection")
-);
-const SeventhSection = dynamic(() =>
-  import("@/components/Global/SeventhSection/SeventhSection")
-);
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
+const HomeLine = dynamic(() => import("@/components/Home/HomeLine/HomeLine"));
+const ContactUs = dynamic(() => import("@/components/Home/ContactUs/ContactUs"))
 
 export default function Home() {
   return (
@@ -60,20 +40,7 @@ export default function Home() {
       />
       <HomeLine />
       <Course dataScience={true} radio={true} />
-      <WhyLearnbay ids="bfl64ANfSV0" />
-      <ProjectSection ids="bfl64ANfSV0" />
-      <GetHire />
-      <TrainerSection ids="eautK0odE7Q" />
-      <Testimonial
-        redirectDS={true}
-        heading=""
-        Testimonial={DataScienceCourseData[0].testimonial}
-      />
       <ContactUs dataScienceCounselling={true} radio={true} />
-      <SeventhSection />
-      <Footer />
-      <WhatsappFloat chat360code1={true} />
-      <BottomBar radio={true} />
     </>
   );
 }

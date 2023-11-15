@@ -2,7 +2,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { AiOutlineRise } from "react-icons/ai";
 import { IoClose } from "react-icons/io5";
-import styles from "./ReviewPopup.module.css";
+import styles from "./ReviewPopup.module.scss";
 // import { TestimonialDS, TestimonialFS } from "./TestimonialData";
 
 const ReviewPopup = (props) => {
