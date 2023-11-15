@@ -16,6 +16,16 @@ const TrainerSection = dynamic(() =>
 const Testimonial = dynamic(() =>
   import("../../../components/Global/Testimonial/Testimonial")
 );
+const WhoIsProgram = dynamic(() =>
+  import("../../CoursePage/WhoIsProgram/WhoIsProgram")
+);
+const WhyLearnbay = dynamic(() =>
+  import("../../CoursePage/WhyLearnbay/WhyLearnbay")
+);
+const GetHire = dynamic(() => import("../../Home/GetHire/GetHire"));
+const ContactConsellor = dynamic(() =>
+  import("../../CoursePage/ContactCounsellor/ContactCounsellor")
+);
 const FirstPart = () => {
   return (
     <>
@@ -53,6 +63,15 @@ const FirstPart = () => {
         heading=""
         Testimonial={DataScienceCourseData[0].testimonial}
       />
+      <WhoIsProgram
+        first="Non-tech professionals with 6 months experience"
+        second="Minimum 1 year of IT work experience"
+        third="Mid-career professionals interested in data science & AI"
+        forth="Achieving higher career growth in data science and AI"
+      />
+      <WhyLearnbay idss="bfl64ANfSV0" />
+      <GetHire />
+      <ContactConsellor />
     </>
   );
 };
