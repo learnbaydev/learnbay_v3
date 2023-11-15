@@ -121,7 +121,7 @@ function Blockchain({}) {
           FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/advance-header.webp"
           firstToparaImg="with Domain Specialization"
           firstHeading="Advance Data Science & AI Program"
-          firstTopPara="Curriculum Inclusive of Gen-AI"
+          firstTopPara="Curriculum Inclusive of Gen-AI "
         />
         <SecondSection
           SecondSectionData={DataScienceCourseData[0].secondSection}
