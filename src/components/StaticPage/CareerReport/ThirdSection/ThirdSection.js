@@ -1,13 +1,12 @@
-import React from "react";
-import { IoRocketOutline } from "react-icons/io5";
-import Image from "next/image";
-import styles from "./ThirdSection.module.css";
-import { FaArrowCircleRight, FaArrowRight, FaDownload } from "react-icons/fa";
-import { BiTimeFive } from "react-icons/bi";
-import { AiOutlineFundProjectionScreen } from "react-icons/ai";
-import { TbCurrencyRupee } from "react-icons/tb";
 import dynamic from "next/dynamic";
-const Button = dynamic(() => import("../../Global/Button/Button"));
+import Image from "next/image";
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+import { BiTimeFive } from "react-icons/bi";
+import { FaArrowRight, FaDownload } from "react-icons/fa";
+import { IoRocketOutline } from "react-icons/io5";
+import { TbCurrencyRupee } from "react-icons/tb";
+import styles from "./ThirdSection.module.css";
+const Button = dynamic(() => import("../../../Global/Button/Button"));
 
 function ThirdSection() {
   return (
@@ -59,13 +58,13 @@ function ThirdSection() {
           </div>
         </div>
         <div className="imgWrapper">
-        <div className={styles.upLine}>
-          <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Straight-Line.png"
-            width={4}
-            height={440}
-          />
-        </div>
+          <div className={styles.upLine}>
+            <Image
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Straight-Line.png"
+              width={4}
+              height={440}
+            />
+          </div>
         </div>
         <div className={styles.headCont}>
           <h4>Expected Placements</h4>

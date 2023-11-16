@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import styles from "./FirstSection.module.css";
-import Form from "../../Form/Form";
-import Popup from "../../Popup/Popup";
-import { FaCheckCircle, FaBell } from "react-icons/fa";
 import dynamic from "next/dynamic";
+import { useState } from "react";
+import { FaBell, FaCheckCircle } from "react-icons/fa";
+import Form from "../../Global/Form/Form";
+import Popup from "../../Global/Popup/Popup";
+import styles from "./FirstSection.module.css";
 const Button = dynamic(() => import("../../Global/Button/Button"));
 
 const FirstSection = ({ dataScience, dataScienceCounselling }) => {
@@ -59,16 +59,14 @@ const FirstSection = ({ dataScience, dataScienceCounselling }) => {
               </p>
             </div>
           </div>
-    
 
           <div onClick={popupShow} className={styles.centerButton}>
-          <Button
-     
+            <Button
               className={styles.Btn}
               text="Enquire Now"
               passIcon={<FaBell className="bIconS" />}
             />
-            </div>
+          </div>
         </div>
         <div className={styles.rightSectionIcon}></div>
       </div>

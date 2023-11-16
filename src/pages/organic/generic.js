@@ -1,21 +1,21 @@
 import Head from "next/head";
 import dynamic from "next/dynamic";
-import FirstSection from "../../../components/NewDesign/HomePage/FirstSection/FirstSection";
+import FirstSection from "../../components/OrganicGeneric/FirstSection/FirstSection";
 import styles from "../../styles/Home.module.css";
-import Navbar from "../../../components/Navbar/Navbar";
-import Footer from "../../../components/Footer/Footer";
-import WhatsappFloat from "../../../components/WhatappsFloat/WhatsappFloat";
-import Switch from "../../../components/NewDesign/HomePage/switch/switch";
-import HomeLine from "../../../components/NewDesign/HomePage/HomeLine/HomeLine";
-import Testimonial from "../../../components/NewDesign/HomePage/Testimonial/Testimonial";
+import Navbar from "../../components/Global/Navbar/Navbar";
+import Footer from "../../components/Global/Footer/Footer";
+import WhatsappFloat from "../../components/Global/WhatappsFloat/WhatsappFloat";
+import Switch from "../../components/OrganicGeneric/switch/switch";
+import HomeLine from "../../components/OrganicGeneric/HomeLine/HomeLine";
+import Testimonial from "../../components/OrganicGeneric/Testimonial/Testimonial";
 const SeventhSection = dynamic(() =>
-  import("../../../components/Global/SeventhSection/SeventhSection")
+  import("../../components/Global/SeventhSection/SeventhSection")
 );
 const Course = dynamic(() =>
-  import("../../../components/HomePage/Course/Course")
+  import("../../components/Home/Course/Course")
 );
-import ContactUs from "../../../components/NewDesign/HomePage/ContactUs/ContactUs";
-import BoxShape from "../../../components/NewDesign/HomePage/BoxShape/BoxShape";
+import ContactUs from "../../components/Home/ContactUs/ContactUs";
+import BoxShape from "../../components/OrganicGeneric/BoxShape/BoxShape";
 
 export default function Home() {
   return (

@@ -2,7 +2,7 @@ import Head from "next/head";
 import styles from '../styles/Counseling.module.css';
 import { React } from "react";
 import Image from "next/image";
-import Form from "../components/Global/Form";
+import Form from "../components/Global/Form/Form";
 import Navbar from "../components/Global/Navbar/Navbar";
 
 

@@ -3,8 +3,8 @@ import Head from "next/head";
 import Navbar from "../components/Global/Navbar/Navbar";
 import Footer from "../components/Global//Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
-import WhoProgram from "../../components/CoursePage/WhoProgram/ThirdSection"
-import { DataScienceCourseData } from "../../Data/AdvanceDataScienceCourse";
+import WhoProgram from "../components/CoursePage/WhoProgram/ThirdSection"
+import { DataScienceCourseData } from "../Data/AdvanceDataScienceCourse";
 
 const sumbit = () => {
   return (

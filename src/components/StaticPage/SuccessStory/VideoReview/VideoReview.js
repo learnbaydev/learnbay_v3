@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./VideoReview.module.css";
 import Image from "next/image";
-import VideoPopup from "../../VideoPopup/VideoPopup";
+import VideoPopup from "../../../Global/VideoPopup/VideoPopup";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import 'swiper/swiper-bundle.css';

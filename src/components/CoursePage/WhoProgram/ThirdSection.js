@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { useState } from "react";
 import { FaDownload } from "react-icons/fa";
-import Form from "../../Global/Form/Form";
 import Button from "../../Global/Button/Button";
+import Form from "../../Global/Form/Form";
 import Popup from "../../Global/Popup/Popup";
 import styles from "./ThirdSection.module.css";
 

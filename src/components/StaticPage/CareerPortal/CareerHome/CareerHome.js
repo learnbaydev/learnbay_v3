@@ -1,11 +1,11 @@
-import { React, useState } from "react";
-import styles from "./CareerHome.module.css";
-import { FaArrowRight, FaCheckCircle, FaUserGraduate } from "react-icons/fa";
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
+import { FaArrowRight, FaCheckCircle } from "react-icons/fa";
+import styles from "./CareerHome.module.css";
 import { CareerHomeData } from "./CareerHomeData";
-import dynamic from "next/dynamic";
-const Button = dynamic(() => import("../../Global/Button/Button"));
+const Button = dynamic(() => import("../../../Global/Button/Button"));
 
 function CareerHome() {
   const [selectedValue, setSelectedValue] = useState("default");
@@ -19,17 +19,16 @@ function CareerHome() {
             work EXPERIENCE
           </h4>
         </div>
-      <div className="imgWrapper">
-        <div className={styles.right}>
-          <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/Career-Portal.png"
-      
-            width="522"
-            height="380"
-            alt="data science course"
-            loading="lazy"
-          />
-        </div>
+        <div className="imgWrapper">
+          <div className={styles.right}>
+            <Image
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/Career-Portal.png"
+              width="522"
+              height="380"
+              alt="data science course"
+              loading="lazy"
+            />
+          </div>
         </div>
       </div>
       <div className={styles.Placement}>
@@ -59,7 +58,7 @@ function CareerHome() {
                         );
                       })}
 
-                      <p className={styles.CareerP}> 
+                      <p className={styles.CareerP}>
                         <b className={styles.CareerP}>{jobQ}</b>
                       </p>
 
@@ -76,14 +75,12 @@ function CareerHome() {
                         href={`/career-apply-now?selectedValue=${"HR-Manager"}`}
                       >
                         <div>
-                          
-                            <Button
-                                className={styles.btn}
-                                style={{ marginTop: "25px" }}
-                                text={Applybtn}
-                                passIcon={<FaArrowRight className="bIconS" />}
-                              />
-                          
+                          <Button
+                            className={styles.btn}
+                            style={{ marginTop: "25px" }}
+                            text={Applybtn}
+                            passIcon={<FaArrowRight className="bIconS" />}
+                          />
                         </div>
                       </Link>
                     </div>

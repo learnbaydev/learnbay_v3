@@ -1,13 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { BsCloudUploadFill } from "react-icons/bs";
 import Image from "next/image";
 import "react-phone-number-input/style.css";
 import styles from "./MasterApplicationForm.module.css";
 import PhoneInput from "react-phone-number-input";
-import data from "../CoursePage/Gethired/GEtHireData";
 import { useRouter } from "next/router";
-import Navbar from "../Navbar/Navbar";
-import Footer from "../Footer/Footer";
+import Navbar from "../../Global/Navbar/Navbar";
 const MasterApplicationForm = ({ secondForm, title }) => {
   const router = useRouter();
   const [value, setValue] = useState();

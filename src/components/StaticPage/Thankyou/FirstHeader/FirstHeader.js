@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./FirstHeader.module.css";
 import Head from "next/head";
-import Navbar from "../../../Navbar/Navbar";
+import Navbar from "../../../Global/Navbar/Navbar";
 import { PopupButton } from "@typeform/embed-react";
 import { AiOutlineDownload } from "react-icons/ai";
 import Link from "next/link";

@@ -1,8 +1,6 @@
-import React from "react";
-import styles from "./TyPageCta.module.css";
-import Link from "next/link";
-import { AiOutlineDownload } from "react-icons/ai";
 import dynamic from "next/dynamic";
+import { AiOutlineDownload } from "react-icons/ai";
+import styles from "./TyPageCta.module.css";
 const Button = dynamic(() => import("../../../Global/Button/Button"));
 
 const TyPageCta = ({ heading, para, brochureLink }) => {
@@ -13,11 +11,7 @@ const TyPageCta = ({ heading, para, brochureLink }) => {
           <h4>{heading}</h4>
         </div>
         <a href={brochureLink}>
-          <Button
-             
-              text="Download Brochure" 
-              passIcon={<AiOutlineDownload />}
-            />
+          <Button text="Download Brochure" passIcon={<AiOutlineDownload />} />
         </a>
       </div>
     </div>

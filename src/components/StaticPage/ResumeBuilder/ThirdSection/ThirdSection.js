@@ -1,12 +1,12 @@
-import React, { useState } from "react";
-import styles from "./ThirdSection.module.css";
-import FormInline from "../../FormSection/FormInline";
-import Image from "next/image";
-import VideoPopup from "../../VideoPopup/VideoPopup";
-import { FaBell } from "react-icons/fa";
-import Popup from "../../Popup/Popup";
-import Form from "../../Form/Form";
 import dynamic from "next/dynamic";
+import Image from "next/image";
+import { useState } from "react";
+import { FaBell } from "react-icons/fa";
+import FormInline from "../../../Global/FormSection/FormInline";
+import Form from "../../../Global/Form/Form";
+import Popup from "../../../Global/Popup/Popup";
+import VideoPopup from "../../../Global/VideoPopup/VideoPopup";
+import styles from "./ThirdSection.module.css";
 const Button = dynamic(() => import("../../../Global/Button/Button"));
 
 function ection({ idss }) {

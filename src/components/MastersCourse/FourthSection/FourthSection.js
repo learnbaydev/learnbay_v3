@@ -121,15 +121,13 @@
 
 // export default FourthSection;
 
-import React, { useState, useEffect } from "react";
-import styles from "./FourthSection.module.css";
 import Image from "next/image";
-import Form from "../../Form/Form";
-import Popup from "../../Popup/Popup";
-import { FaDownload } from "react-icons/fa";
+import { useEffect, useState } from "react";
 import "swiper/css";
 import "swiper/css/navigation";
-import Button from "../../Global/Button/Button";
+import Form from "../../Form/Form";
+import Popup from "../../Popup/Popup";
+import styles from "./FourthSection.module.css";
 // import {
 //   PlacementDS,
 //   PlacementFS,
@@ -192,7 +190,6 @@ function FourthSection({
             upSkillingHide={true}
             titleCourse={titleCourse}
             brochureLink={brochureLink}
-            
           />
         </div>
       </Popup>

@@ -1,9 +1,9 @@
 import React from "react";
 import Form from "../components/Global/Form/Form";
 import styles from "../styles/Submit.module.css";
-import Navbar from "../../components/Navbar/Navbar";
-import Footer from "../../components/Footer/Footer";
-import BottomBar from "../../components/WebPage/BottomBar/BottomBar";
+import Navbar from "../components/Global/Navbar/Navbar";
+import Footer from "../components/Global/Footer/Footer";
+import BottomBar from "../components/Global/BottomBar/BottomBar";
 import Image from "next/image";
 import Head from "next/head";
 

@@ -1,8 +1,7 @@
-import React from "react";
-import { FaMapMarkedAlt, FaEnvelope, FaWhatsapp } from "react-icons/fa";
-import styles from "./ContactUs.module.css";
-import Image from "next/image";
 import dynamic from "next/dynamic";
+import Image from "next/image";
+import { FaEnvelope, FaMapMarkedAlt, FaWhatsapp } from "react-icons/fa";
+import styles from "./ContactUs.module.css";
 const Button = dynamic(() => import("../../Global/Button/Button"));
 
 function ContactUs() {
@@ -20,7 +19,6 @@ function ContactUs() {
             src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/contact-us.png"
             width="400"
             height="300"
-             
             alt="data science course"
           />
         </div>
@@ -62,7 +60,6 @@ function ContactUs() {
             </a>
             <h3>Whatsapp</h3>
             <a href="https://wa.me/+917795687988" target="_blank">
-
               <Button
                 className={styles.btn}
                 style={{ marginTop: "25px" }}
