@@ -5,9 +5,9 @@ const nextConfig = {
   experimental: {
     optimizePackageImports: [
       "react-phone-input-2",
-      "react-phone-number-input",
       "react-icons",
       "swiper",
+      "mongodb",
     ],
     webVitalsAttribution: ["CLS", "LCP", "FCP"],
     // nextScriptWorkers: true,
