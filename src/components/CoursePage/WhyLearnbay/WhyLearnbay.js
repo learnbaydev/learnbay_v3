@@ -16,23 +16,18 @@ import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { BsBank, BsFillPeopleFill } from "react-icons/bs";
 import { FaClinicMedical } from "react-icons/fa";
 import { MdOutlinePrecisionManufacturing } from "react-icons/md";
-import { BsFillPeopleFill } from "react-icons/bs";
 
 function WhyLearnbay({ idss }) {
   const [domainSpec, setDomainSpec] = useState(false);
   const [projectInno, setProjectInno] = useState(true);
   const [projectCert, setProjectCert] = useState(false);
 
-  const [popups, setPopups] = useState(false);
   const [video, setVideo] = useState(false);
 
   const videoSHow = () => {
     setVideo(true);
   };
   // const el = useRef(null);
-  const popupShow = () => {
-    setPopups(true);
-  };
 
   useEffect(() => {
     let width = window.innerWidth;

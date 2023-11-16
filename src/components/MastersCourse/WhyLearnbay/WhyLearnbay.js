@@ -12,15 +12,10 @@ import {
 } from "react-icons/fa";
 import { IoRocketOutline } from "react-icons/io5";
 import { MdOutlinePrecisionManufacturing } from "react-icons/md";
-import { PiTruck } from "react-icons/pi";
 import { TbCertificate } from "react-icons/tb";
 import VideoPopup from "../../Global/VideoPopup/VideoPopup";
 import Styles from "./WhyLearnbay.module.css";
-import { BsBank, BsTruck } from "react-icons/bs";
-import { FaClinicMedical } from "react-icons/fa";
-import { AiOutlineFundProjectionScreen } from "react-icons/ai";
-import { MdOutlinePrecisionManufacturing } from "react-icons/md";
-import { BsFillPeopleFill } from "react-icons/bs";
+import { BsTruck } from "react-icons/bs";
 
 import "swiper/css";
 import "swiper/css/free-mode";

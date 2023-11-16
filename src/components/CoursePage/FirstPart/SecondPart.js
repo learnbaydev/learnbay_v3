@@ -36,7 +36,6 @@ const SecondPart = ({
   projectSection,
   FAQNewData,
 }) => {
-  console.log(CertificateData);
   return (
     <div>
       <SyllabusNew

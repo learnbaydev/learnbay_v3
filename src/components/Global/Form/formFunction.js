@@ -74,10 +74,8 @@ const redirectionThankYou = (
 
 const getValidation = (radio, interstedInHide, query) => {
   if (query.phone === "" || query.phone === undefined) {
-    console.log("inside phone");
     return true;
   } else if (radio === true && interstedInHide === true) {
-    console.log("inside both true");
     if (query.interstedIn === "Interested In") {
       return true;
     } else if (query.interstedIn === "") {
@@ -93,7 +91,6 @@ const getValidation = (radio, interstedInHide, query) => {
     interstedInHide === true &&
     (radio === undefined || radio === false)
   ) {
-    console.log("intrested true");
     return false;
   } else if (
     interstedInHide === false ||
@@ -101,7 +98,6 @@ const getValidation = (radio, interstedInHide, query) => {
     radio === false ||
     radio === undefined
   ) {
-    console.log("both False");
     return false;
   }
 };
