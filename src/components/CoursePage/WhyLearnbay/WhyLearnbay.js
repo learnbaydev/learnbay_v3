@@ -127,7 +127,6 @@ function WhyLearnbay({ idss }) {
                       />
                       <p>MARKETING</p>
                     </div>
-
                     <div className={Styles.BoxIconinner}>
                       <Image
                         src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/hr.gif"
