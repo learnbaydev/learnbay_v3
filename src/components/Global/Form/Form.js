@@ -96,6 +96,7 @@ const Form = ({
       dataScienceCounselling,
       redirection
     );
+
     setError(getValidation(radio, interstedInHide, query));
     const validation = getValidation(radio, interstedInHide, query);
 
@@ -125,7 +126,7 @@ const Form = ({
         interstedIn: "",
         url: router.asPath,
       });
-      setValue(false);
+
       if (popup) {
         const off = () => {
           setTrigger(false);
