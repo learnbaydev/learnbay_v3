@@ -1,7 +1,7 @@
 import React from "react";
 import dynamic from "next/dynamic";
-const Popup = dynamic(() => import("../../Global/Popup/Popup"));
-const Form = dynamic(() => import("../../Global/Form/Form"));
+const Popup = dynamic(() => import("../Popup/Popup"));
+const Form = dynamic(() => import("../Form/Form"));
 
 const PopupContent = ({
   dataScience,
@@ -10,6 +10,12 @@ const PopupContent = ({
   popups,
   setPopups,
   heading,
+  downloadBrochure,
+  fullStack,
+  upSkillingHide,
+  titleCourse,
+  brochureLink,
+  dataScienceGeneric,
   interstedInHide,
 }) => {
   return (
@@ -31,7 +37,12 @@ const PopupContent = ({
           dataScience={dataScience}
           dataScienceCounselling={dataScienceCounselling}
           radio={radio}
-          upSkillingHide={true}
+          downloadBrochure={downloadBrochure}
+          fullStack={fullStack}
+          titleCourse={titleCourse}
+          brochureLink={brochureLink}
+          dataScienceGeneric={dataScienceGeneric}
+          upSkillingHide={upSkillingHide}
           interstedInHide={interstedInHide}
         />
       </div>

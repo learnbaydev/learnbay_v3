@@ -1,6 +1,8 @@
 import dynamic from "next/dynamic";
 import React, { useState } from "react";
-const PopupContent = dynamic(() => import("./PopupContent"));
+const PopupContent = dynamic(() =>
+  import("../../Global/PopupContent/PopupContent")
+);
 const FirstSectionContent = dynamic(() => import("./FirstSectionContent"));
 
 const FirstSection = ({
