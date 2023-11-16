@@ -1,15 +1,18 @@
 import dynamic from "next/dynamic";
 import Head from "next/head";
+import { parseJSONData } from "@/Util/JsonConvertor";
 import { useEffect, useState } from "react";
 import FirstPart from "@/components/MastersCourse/PagePart/FirstPart";
 const SecondPart = dynamic(() =>
   import("@/components/MastersCourse/PagePart/SecondPart")
 );
 
-const Blockchain = () => {
+const Blockchain = ({ DataScienceCourseDataJson }) => {
+  const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
+
   // POPUP GET METHOD
   const [popupData, setPopupData] = useState([]);
-  // console.log(popupData);
+  console.log(popupData);
   useEffect(() => {
     // console.log("inside UseEFFect");
     const fetchPopup = async () => {
@@ -122,11 +125,33 @@ const Blockchain = () => {
         />
       </Head>
       <main>
-        <FirstPart />
-        <SecondPart />
-        {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
+        <FirstPart
+          TestimonialData={
+            DataScienceCourseData.DataScienceMastersinCS[0].testimonial
+          }
+        />
+        <SecondPart
+          masterSyllabusMobile={
+            DataScienceCourseData.DataScienceMastersinCS[0].masterSyllabusMobile
+          }
+          CertificateData={
+            DataScienceCourseData.DataScienceMastersinCS[0].Certificate
+          }
+          projectSection={
+            DataScienceCourseData.DataScienceMastersinCS[0].projectSection
+          }
+        />
+        {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>
     </>
   );
 };
 export default Blockchain;
+export async function getStaticProps() {
+  const data = await import("../../Data/DataScienceAiMastersinCS");
+  function getDataScienceCourseDataJSON(dataScienceCourseData) {
+    return JSON.stringify(dataScienceCourseData);
+  }
+  const DataScienceCourseDataJson = getDataScienceCourseDataJSON(data);
+  return { props: { DataScienceCourseDataJson } };
+}

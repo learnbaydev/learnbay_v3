@@ -3,7 +3,12 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   experimental: {
-    optimizePackageImports: ["package-name"],
+    optimizePackageImports: [
+      "react-phone-input-2",
+      "react-phone-number-input",
+      "react-icons",
+      "swiper",
+    ],
     webVitalsAttribution: ["CLS", "LCP", "FCP"],
     // nextScriptWorkers: true,
   },
@@ -1316,8 +1321,8 @@ const nextConfig = {
   },
 };
 
-// const withBundleAnalyzer = require("@next/bundle-analyzer")({
-//   enabled: process.env.ANALYZE === "true",
-// });
-// module.exports = withBundleAnalyzer(nextConfig);
-module.exports = nextConfig;
+const withBundleAnalyzer = require("@next/bundle-analyzer")({
+  enabled: process.env.ANALYZE === "true",
+});
+module.exports = withBundleAnalyzer(nextConfig);
+// module.exports = nextConfig;

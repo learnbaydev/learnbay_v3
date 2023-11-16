@@ -44,6 +44,16 @@ function CertificateTab({ data }) {
                 </>
               );
             })}
+            {data.degreeCertificate.link ? (
+              <a
+                href={data.degreeCertificate.linkUrl}
+                style={{ color: "#0072bc" }}
+              >
+                {data.degreeCertificate.linkText}
+              </a>
+            ) : (
+              ""
+            )}
 
             <Image
               className={styles.clogo}
