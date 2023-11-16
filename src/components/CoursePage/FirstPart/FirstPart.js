@@ -1,12 +1,13 @@
 import React from "react";
 import dynamic from "next/dynamic";
-import { DataScienceCourseData } from "../../../Data/AdvanceDataScienceCourse";
+
 import Navbar from "@/components/Global/Navbar/Navbar";
 import FirstSection from "@/components/CoursePage/FirstSection/FirstSection";
 import SecondSection from "@/components/CoursePage/SecondSection/SecondSection";
 const SecondNavbar = dynamic(() =>
   import("../../../components/CoursePage/SecondNavbar/SecondNavbar")
 );
+import { ThirdSectionData } from "@/Data/ThirdSectionData";
 const WhoProgram = dynamic(() =>
   import("../../../components/CoursePage/WhoProgram/ThirdSection")
 );
@@ -26,7 +27,7 @@ const GetHire = dynamic(() => import("../../Home/GetHire/GetHire"));
 const ContactConsellor = dynamic(() =>
   import("../../CoursePage/ContactCounsellor/ContactCounsellor")
 );
-const FirstPart = () => {
+const FirstPart = ({ SecondSectionData, TestimonialData }) => {
   return (
     <>
       <Navbar
@@ -48,21 +49,15 @@ const FirstPart = () => {
         firstHeading="Advance Data Science & AI Program"
         firstTopPara="Curriculum Inclusive of Gen-AI "
       />
-      <SecondSection
-        SecondSectionData={DataScienceCourseData[0].secondSection}
-      />
+      <SecondSection SecondSectionData={SecondSectionData} />
       <SecondNavbar />
       <WhoProgram
         dataScience={true}
         leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/advance-who.webp"
-        ThirdSectionData={DataScienceCourseData[0].thirdSection}
+        ThirdSectionData={ThirdSectionData}
       />
       <TrainerSection idss="eautK0odE7Q" />
-      <Testimonial
-        redirectDS={true}
-        heading=""
-        Testimonial={DataScienceCourseData[0].testimonial}
-      />
+      <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} />
       <WhoIsProgram
         first="Non-tech professionals with 6 months experience"
         second="Minimum 1 year of IT work experience"

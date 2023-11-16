@@ -11,10 +11,9 @@ import { IoRocketOutline } from "react-icons/io5";
 import { TbCertificate } from "react-icons/tb";
 import VideoPopup from "../../Global/VideoPopup/VideoPopup";
 import Styles from "./WhyLearnbay.module.css";
-import { BsBank } from "react-icons/bs";
+import { BsBank, BsTruck } from "react-icons/bs";
 import { FaClinicMedical } from "react-icons/fa";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
-import { PiTruck } from "react-icons/pi";
 import { MdOutlinePrecisionManufacturing } from "react-icons/md";
 import { BsFillPeopleFill } from "react-icons/bs";
 
@@ -134,7 +133,9 @@ function WhyLearnbay({ idss }) {
                         width={40}
                         height={40}
                       /> */}
-                      <AiOutlineFundProjectionScreen className={Styles.domainicon} />
+                      <AiOutlineFundProjectionScreen
+                        className={Styles.domainicon}
+                      />
                       <p>MARKETING</p>
                     </div>
 
@@ -155,7 +156,7 @@ function WhyLearnbay({ idss }) {
                         width={40}
                         height={40}
                       /> */}
-                      <PiTruck className={Styles.domainicon} />
+                      <BsTruck className={Styles.domainicon} />
                       <p>SUPPLY CHAIN</p>
                     </div>
                     <div className={Styles.BoxIconinner}>
@@ -172,12 +173,12 @@ function WhyLearnbay({ idss }) {
                     </div>
                   </div>
                   <div className={Styles.iconButton}>
-                  <Link href="/domain">
-                    <Button
-                      text="Download Domain Brochures"
-                      passIcon={<FaDownload className="bIconS" />}
-                    />
-                  </Link>
+                    <Link href="/domain">
+                      <Button
+                        text="Download Domain Brochures"
+                        passIcon={<FaDownload className="bIconS" />}
+                      />
+                    </Link>
                   </div>
                 </div>
                 <div className={Styles.iconBoxMobile}>
@@ -209,7 +210,9 @@ function WhyLearnbay({ idss }) {
                         width={40}
                         height={40}
                       /> */}
-                      <AiOutlineFundProjectionScreen className={Styles.domainicon} />
+                      <AiOutlineFundProjectionScreen
+                        className={Styles.domainicon}
+                      />
                       <p>MARKETING & HR</p>
                     </div>
                     <div className={Styles.BoxIconinner}>
@@ -219,7 +222,7 @@ function WhyLearnbay({ idss }) {
                         width={40}
                         height={40}
                       /> */}
-                      <PiTruck className={Styles.domainicon} />
+                      <BsTruck className={Styles.domainicon} />
                       <p>SUPPLYCHAIN</p>
                     </div>
                     <div className={Styles.BoxIconinner}>

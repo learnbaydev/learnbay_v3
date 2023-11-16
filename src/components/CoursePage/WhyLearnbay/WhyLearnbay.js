@@ -16,7 +16,7 @@ import Button from "../../Global/Button/Button";
 import { BsBank } from "react-icons/bs";
 import { FaClinicMedical } from "react-icons/fa";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
-import { PiTruck } from "react-icons/pi";
+import { BsTruck } from "react-icons/bs";
 import { MdOutlinePrecisionManufacturing } from "react-icons/md";
 import { BsFillPeopleFill } from "react-icons/bs";
 
@@ -154,7 +154,7 @@ function WhyLearnbay({ idss }) {
                         width={40}
                         height={40}
                       /> */}
-                      <PiTruck className={Styles.domainicon} />
+                      <BsTruck className={Styles.domainicon} />
                       <p>SUPPLY CHAIN</p>
                     </div>
                     <div className={Styles.BoxIconinner}>
@@ -220,7 +220,7 @@ function WhyLearnbay({ idss }) {
                         width={40}
                         height={40}
                       /> */}
-                      <PiTruck className={Styles.domainicon} />
+                      <BsTruck className={Styles.domainicon} />
                       <p>SUPPLYCHAIN</p>
                     </div>
                     <div className={Styles.BoxIconinner}>

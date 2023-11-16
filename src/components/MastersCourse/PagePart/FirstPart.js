@@ -1,5 +1,4 @@
 import React from "react";
-import { DataScienceMastersinCS } from "../../../Data/DataScienceAiMastersinCS";
 import dynamic from "next/dynamic";
 import Navbar from "@/components/Global/Navbar/Navbar";
 import FirstSection from "@/components/MastersCourse/FirstSection/FirstSection";
@@ -18,7 +17,7 @@ const WhyLearnbay = dynamic(() =>
   import("../../MastersCourse/WhyLearnbay/WhyLearnbay")
 );
 
-const FirstPart = () => {
+const FirstPart = ({ TestimonialData }) => {
   return (
     <>
       {" "}
@@ -38,10 +37,7 @@ const FirstPart = () => {
       <JobAbroad />
       <SecondNavbar dataScienceCounselling={true} interstedInHide={true} />
       <TrainerSection idss="eautK0odE7Q" />
-      <Testimonial
-        redirectDS={true}
-        Testimonial={DataScienceMastersinCS[0].testimonial}
-      />
+      <Testimonial redirectDS={true} Testimonial={TestimonialData} />
       <WhyLearnbay idss="fzXzUSvMPv0" />
     </>
   );

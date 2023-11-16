@@ -9,16 +9,8 @@ import styles from "./ThirdSection.module.css";
 const ThirdSection = ({
   leftImage,
   ThirdSectionData,
-
-  FeeHeading,
-  Fee,
   dataScience,
-  FeeContent2,
-  FeeContent3,
-  FeeContent4,
-  FeeContent5,
   dataScienceCounselling,
-  FeeEmi,
 }) => {
   const [popups, setPopups] = useState(false);
   const [titleCourse, setTitleCourse] = useState();

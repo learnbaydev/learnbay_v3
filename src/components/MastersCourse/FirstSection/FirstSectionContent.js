@@ -25,7 +25,11 @@ const FirstSectionContent = ({
     <section className={styles.container}>
       <div className="bgWrap">
         <Image
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/masterPage/newmaster-web.webp"
+          src={
+            mobile
+              ? "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/masterPage/newmaster-web.webp"
+              : "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Masters+header+BG+Mobile+View+(1).webp"
+          }
           fill
           priority
           alt="Master program by learnbay"

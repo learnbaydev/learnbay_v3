@@ -1,6 +1,5 @@
 import React from "react";
 import dynamic from "next/dynamic";
-import { DataScienceCourseData } from "../../../Data/AdvanceDataScienceCourse";
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
 const Certificate = dynamic(() =>
@@ -31,11 +30,17 @@ const FAQNew = dynamic(() =>
   import("../../../components/CoursePage/FAQNew/FAQNew")
 );
 
-const SecondPart = () => {
+const SecondPart = ({
+  masterSyllabusMobile,
+  CertificateData,
+  projectSection,
+  FAQNewData,
+}) => {
+  console.log(CertificateData);
   return (
     <div>
       <SyllabusNew
-        masterSyllabusMobile={DataScienceCourseData[0].masterSyllabusMobile}
+        masterSyllabusMobile={masterSyllabusMobile}
         dataScienceCounselling={true}
         dataScience={true}
         titleCourse="Advanced Data Science and AI Program with domain specialization"
@@ -43,7 +48,7 @@ const SecondPart = () => {
         buttonHide={true}
       />
       <ToolsCovered />
-      <Certificate data={DataScienceCourseData[0].Certificate} />
+      <Certificate data={CertificateData} />
       <FeeSection
         Fee="₹ 1,25,000"
         FeeEmi="₹ 8,194/month"
@@ -70,10 +75,10 @@ const SecondPart = () => {
         dataScience={true}
         titleCourse="Advanced Data Science and AI Program with domain specialization"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
-        projectSection={DataScienceCourseData[0].projectSection}
+        projectSection={projectSection}
       />
 
-      <FAQNew FAQNewData={DataScienceCourseData[0].faq} />
+      <FAQNew FAQNewData={FAQNewData} />
     </div>
   );
 };

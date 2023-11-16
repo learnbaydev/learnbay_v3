@@ -1,6 +1,5 @@
 import React from "react";
 import dynamic from "next/dynamic";
-import { DataScienceMastersinCS } from "../../../Data/DataScienceAiMastersinCS";
 import BottomBar from "../../Global/BottomBar/BottomBar";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 const GetHire = dynamic(() => import("../GetHire/GetHire"));
@@ -32,30 +31,28 @@ const SeventhSection = dynamic(() =>
 );
 const Footer = dynamic(() => import("../../Global/Footer/Footer"));
 
-const SecondPart = () => {
+const SecondPart = ({
+  CertificateData,
+  masterSyllabusMobile,
+  projectSection,
+}) => {
   return (
     <>
       <GetHire />
       <ContactCounsellor dataScienceCounselling={true} interstedInHide={true} />
       <SyllabusNew
-        masterSyllabusMobile={DataScienceMastersinCS[0].masterSyllabusMobile}
-        syllabusHead={DataScienceMastersinCS[0].syllabusHead}
-        masterSyllabus={DataScienceMastersinCS[0].masterSyllabus}
-        MasterSyllabusDefault={DataScienceMastersinCS[0].MasterSyllabusDefault}
+        masterSyllabusMobile={masterSyllabusMobile}
         dataScienceCounselling={true}
         dataScience={true}
         interstedInHide={true}
         titleCourse="Masters in Computer Science: Data Science and AI"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters+in+CS+Data+Science+%26+AI.pdf"
-        syllabus={DataScienceMastersinCS[0].syllabus}
-        syllabusDesc={DataScienceMastersinCS[0].syllabusDesc}
-        popupHead={DataScienceMastersinCS[0].popupHead}
       />
       <ToolsCovered
         deskImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Tools-Logo.png"
         mobImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Mobile-Tools-Covered.png"
       />
-      <Certificate data={DataScienceMastersinCS[0].Certificate} />
+      <Certificate data={CertificateData} />
       <FeeSection
         Fee="₹ 2,50,000"
         FeeEmi="12,292/month."
@@ -83,7 +80,7 @@ const SecondPart = () => {
         interstedInHide={true}
         titleCourse="Masters in Computer Science: Data Science and AI"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters+in+CS+Data+Science+%26+AI.pdf"
-        projectSection={DataScienceMastersinCS[0].projectSection}
+        projectSection={projectSection}
       />
       {/* <FAQNew FAQNewData={DataScienceMastersinCS[0].faq} /> */}
       <SeventhSection />

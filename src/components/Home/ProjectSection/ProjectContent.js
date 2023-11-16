@@ -4,7 +4,7 @@ import styles from "./ProjectSection.module.css";
 import { BsBank } from "react-icons/bs";
 import { FaClinicMedical } from "react-icons/fa";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
-import { PiTruck } from "react-icons/pi";
+import { BsTruck } from "react-icons/bs";
 import Image from "next/image";
 import { FaCheckCircle, FaDownload } from "react-icons/fa";
 import Button from "@/components/Global/Button/Button";
@@ -104,7 +104,7 @@ const ProjectContent = ({ ids }) => {
             </div>
             <div className={styles.iconButton}>
               <div className={styles.BoxIconinner}>
-                <PiTruck className={styles.icon1} />
+                <BsTruck className={styles.icon1} />
                 <p>SUPPLYCHAIN</p>
               </div>
               <Link href="/domain">
@@ -131,7 +131,7 @@ const ProjectContent = ({ ids }) => {
                 <p>MARKETING & HR</p>
               </div>
               <div className={styles.BoxIconinner}>
-                <PiTruck className={styles.icon1} />
+                <BsTruck className={styles.icon1} />
                 <p>SUPPLYCHAIN</p>
               </div>
             </div>
