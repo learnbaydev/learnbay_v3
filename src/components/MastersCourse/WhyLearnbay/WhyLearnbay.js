@@ -16,6 +16,11 @@ import { PiTruck } from "react-icons/pi";
 import { TbCertificate } from "react-icons/tb";
 import VideoPopup from "../../Global/VideoPopup/VideoPopup";
 import Styles from "./WhyLearnbay.module.css";
+import { BsBank, BsTruck } from "react-icons/bs";
+import { FaClinicMedical } from "react-icons/fa";
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+import { MdOutlinePrecisionManufacturing } from "react-icons/md";
+import { BsFillPeopleFill } from "react-icons/bs";
 
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -156,7 +161,7 @@ function WhyLearnbay({ idss }) {
                         width={40}
                         height={40}
                       /> */}
-                      <PiTruck className={Styles.domainicon} />
+                      <BsTruck className={Styles.domainicon} />
                       <p>SUPPLY CHAIN</p>
                     </div>
                     <div className={Styles.BoxIconinner}>
@@ -222,7 +227,7 @@ function WhyLearnbay({ idss }) {
                         width={40}
                         height={40}
                       /> */}
-                      <PiTruck className={Styles.domainicon} />
+                      <BsTruck className={Styles.domainicon} />
                       <p>SUPPLYCHAIN</p>
                     </div>
                     <div className={Styles.BoxIconinner}>

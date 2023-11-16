@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Form.module.css";
-import "react-phone-number-input/style.css";
-import PhoneInput from "react-phone-number-input";
+
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
 import { useRouter } from "next/router";
 
 const Form = ({
@@ -122,6 +123,24 @@ const Form = ({
         </div>
         <div className={styles.formWrapper}>
           <PhoneInput
+            inputStyle={
+              popup
+                ? {
+                    height: "50px",
+                    borderRadius: "8px",
+                    border: "1px solid grey",
+                    padding: "10px",
+                  }
+                : {
+                    border: "0",
+                    height: "50px",
+                    borderRadius: "3px",
+                    borderBottom: "1px solid grey",
+                  }
+            }
+            inputProps={{ required: true }}
+            country="in"
+            onChange={(phone) => setValue(phone)}
             style={
               popup
                 ? {
@@ -138,12 +157,9 @@ const Form = ({
                   }
             }
             name="phone"
-            rules={{ required: true }}
             defaultCountry="IN"
             placeholder="Enter Phone Number"
-            className={popup ? styles.Phones : styles.Phone}
             value={value}
-            onChange={setValue}
             required
           />
         </div>

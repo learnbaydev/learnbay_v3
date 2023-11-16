@@ -1,6 +1,6 @@
 import { BsBriefcase } from "react-icons/bs";
 import { AiOutlinePieChart } from "react-icons/ai";
-import { GiTeacher } from "react-icons/gi";
+import { FaChalkboardTeacher } from "react-icons/fa";
 import { TbCertificate } from "react-icons/tb";
 import { FiVideo } from "react-icons/fi";
 import { BsCodeSquare } from "react-icons/bs";
@@ -34,6 +34,6 @@ export const KeyFeaturesSwiper = [
   {
     id: 6,
     para: "  Get on-demand doubt-solving with experienced industry mentors",
-    icon: <GiTeacher className="numberIcon" />,
+    icon: <FaChalkboardTeacher className="numberIcon" />,
   },
 ];
