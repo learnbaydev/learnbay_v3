@@ -1,11 +1,11 @@
-import React, { useState } from "react";
-import styles from "./Syllabus.module.css";
-import Form from "../../Global/Form/Form";
-import Button from "../../Global/Button/Button";
-import Link from "next/link";
-import { FaRegUser } from "react-icons/fa";
-import NewSyllabusMap from "./NewSyllabusMap";
 import PopupContent from "@/components/Global/PopupContent/PopupContent";
+import Link from "next/link";
+import { useState } from "react";
+import { FaRegUser } from "react-icons/fa";
+import Button from "../../Global/Button/Button";
+import Form from "../../Global/Form/Form";
+import NewSyllabusMap from "./NewSyllabusMap";
+import styles from "./Syllabus.module.css";
 
 function SyllabusNew({
   masterSyllabusMobile,

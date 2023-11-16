@@ -1,22 +1,20 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import {
   FaCheckCircle,
+  FaDownload,
   FaRocket,
   FaUserShield,
-  FaDownload,
 } from "react-icons/fa";
 import { IoRocketOutline } from "react-icons/io5";
 import { TbCertificate } from "react-icons/tb";
-import Styles from "./WhyLearnbay.module.css";
-import { useState, useEffect } from "react";
 import VideoPopup from "../../Global/VideoPopup/VideoPopup";
+import Styles from "./WhyLearnbay.module.css";
 
-import Button from "../../Global/Button/Button";
-import { BsBank } from "react-icons/bs";
-import { FaClinicMedical } from "react-icons/fa";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
-import { BsTruck } from "react-icons/bs";
+import { BsBank, BsFillPeopleFill } from "react-icons/bs";
+import { FaClinicMedical } from "react-icons/fa";
 import { MdOutlinePrecisionManufacturing } from "react-icons/md";
 import { BsFillPeopleFill } from "react-icons/bs";
 

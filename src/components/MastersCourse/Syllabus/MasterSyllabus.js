@@ -1,19 +1,15 @@
-import React, { useEffect, useState } from "react";
-import styles from "./Syllabus.module.css";
-import { FaChevronUp, FaChevronDown, FaRegUser } from "react-icons/fa";
-import { FaDownload } from "react-icons/fa";
-import Form from "../../Form/Form";
-import Image from "next/image";
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/scrollbar";
-import Popup from "../../Popup/Popup";
-import Button from "../../Global/Button/Button";
+import { useEffect, useState } from "react";
+import { FaChevronDown, FaChevronUp, FaRegUser } from "react-icons/fa";
 import { Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/navigation";
+import "swiper/css/scrollbar";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Form from "../../Form/Form";
+import Button from "../../Global/Button/Button";
+import Popup from "../../Popup/Popup";
+import styles from "./Syllabus.module.css";
 
 function SyllabusNew({
   syllabus,

@@ -1,12 +1,11 @@
-import React, { useEffect, useState, useRef, useMemo } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
-import Link from "next/link";
 import Image from "next/image";
-import dynamic from "next/dynamic";
-import Popup from "../../Global/Popup/Popup";
+import Link from "next/link";
 import Button from "../../Global/Button/Button";
-import styles from "./SecondNavbar.module.css";
 import Form from "../../Global/Form/Form";
+import Popup from "../../Global/Popup/Popup";
+import styles from "./SecondNavbar.module.css";
 
 // const FormCareer = dynamic(() => import("../../Global/Form/FormCareer"));
 

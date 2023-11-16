@@ -1,14 +1,13 @@
-import React, { useEffect, useState } from "react";
-import styles from "./Syllabus.module.css";
-import { FaChevronUp, FaChevronDown } from "react-icons/fa";
-import { FaDownload } from "react-icons/fa";
-import Form from "../../Form/Form";
 import Image from "next/image";
+import { useEffect, useState } from "react";
+import { FaChevronDown, FaChevronUp, FaDownload } from "react-icons/fa";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/scrollbar";
-import Popup from "../../Popup/Popup";
+import Form from "../../Form/Form";
 import Button from "../../Global/Button/Button";
+import Popup from "../../Popup/Popup";
+import styles from "./Syllabus.module.css";
 
 function SyllabusNew({
   syllabus,
