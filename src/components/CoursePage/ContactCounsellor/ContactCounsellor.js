@@ -123,6 +123,7 @@ const ContactCounsellor = ({
           src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/masterPage/contact-counseller.webp"
           width={300}
           height={200}
+          alt="contact-counseller"
         />
       </div>
     </div>

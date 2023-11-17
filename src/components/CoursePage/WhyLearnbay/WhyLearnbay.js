@@ -23,16 +23,12 @@ function WhyLearnbay({ idss }) {
   const [projectInno, setProjectInno] = useState(true);
   const [projectCert, setProjectCert] = useState(false);
 
-  const [popups, setPopups] = useState(false);
   const [video, setVideo] = useState(false);
 
   const videoSHow = () => {
     setVideo(true);
   };
   // const el = useRef(null);
-  const popupShow = () => {
-    setPopups(true);
-  };
 
   useEffect(() => {
     let width = window.innerWidth;

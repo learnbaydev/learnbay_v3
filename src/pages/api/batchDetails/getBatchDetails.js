@@ -11,8 +11,6 @@ export default async function handler(req, res) {
         timeInfo: timeInfo,
         page: page,
       });
-    } catch (error) {
-      console.log("cccc", error);
-    }
+    } catch (error) {}
   }
 }

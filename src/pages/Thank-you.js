@@ -5,6 +5,7 @@ import BottomBar from "../components/Global/BottomBar/BottomBar";
 import FirstHeader from "../components/StaticPage/Thankyou/FirstHeader/FirstHeader";
 import ThankStats from "../components/StaticPage/Thankyou/ThankStat/ThankStats";
 import Survey from "../components/StaticPage/Thankyou/Survey/Survey";
+import TyPageCta from "@/components/StaticPage/Thankyou/TyPageCta/TyPageCta";
 
 const ThankYouDemo = () => {
   const dataArray = [];

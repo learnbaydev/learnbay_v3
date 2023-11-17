@@ -29,7 +29,7 @@ const Form = ({
   interstedInHide,
 }) => {
   const router = useRouter();
-  console.log(radio, google, referrals, interstedInHide);
+
   //offset to maintain time zone difference
   const [formFields, setFormFields] = useState(
     getFormFields(radio, google, referrals, interstedInHide)
@@ -68,7 +68,6 @@ const Form = ({
     }));
   };
   const redirection = async () => {
-    console.log("redirect");
     const myTimeout = setTimeout(() => {
       router.push("https://course.learnbay.co/Thank-you");
     }, 500);
@@ -134,7 +133,6 @@ const Form = ({
         off();
       }
       if (sendData.status === 200) {
-        console.log(pushPath, "inside 200");
         router.push(
           pushPath,
           dataScience

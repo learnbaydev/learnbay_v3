@@ -29,7 +29,7 @@ const Form = ({
   interstedInHide,
 }) => {
   const router = useRouter();
-  console.log(radio, google, referrals, interstedInHide);
+
   //offset to maintain time zone difference
   const [formFields, setFormFields] = useState(
     getFormFields(radio, google, referrals, interstedInHide)
@@ -68,7 +68,6 @@ const Form = ({
     }));
   };
   const redirection = async () => {
-    console.log("redirect");
     const myTimeout = setTimeout(() => {
       router.push("https://course.learnbay.co/Thank-you");
     }, 500);
@@ -133,7 +132,6 @@ const Form = ({
         off();
       }
       if (sendData.status === 200) {
-        console.log(pushPath, "inside 200");
         router.push(
           pushPath,
           dataScience
@@ -153,68 +151,64 @@ const Form = ({
     <div className={styles.App}>
       <form onSubmit={formSubmit}>
         <div className={styles.formGrid}>
-        {formFields.map(
-          (field) =>
-            field.showField && ( // Only render the field if showField is true
-              <div key={field.name} className={styles.formWrapper}>
-              
-                {field.type === "phone" ? (
-                  <PhoneInput
-                    inputStyle={field.inputStyle}
-                    containerStyle={field.containerStyle}
-                    name={field.name}
-                    inputProps={field.inputProps}
-                    country="in"
-                    placeholder={field.placeholder}
-                    value={value}
-                    onChange={(phone) => setValue(phone)}
-                    required={field.required}
-    
-                  
-                  />
-                ) : field.type === "select" ? (
-                  <select
-                    name={field.name}
-                    required={field.required}
-                    value={query[field.name]}
-                    onChange={handleParam(field.name)}
-                  >
-                    {field.options.map((option) => (
-                      <option
-                        key={option.value}
-                        value={option.value}
-                        hidden={option.hidden}
-                      >
-                        {option.label}
-                      </option>
-                    ))}
-                  </select>
-                ) : (
-                  <input
-                    type={field.type}
-                    name={field.name}
-                    className={styles.EmailInputs}
-                    required={field.required}
-                    placeholder={field.placeholder}
-                    value={query[field.name]}
-                    onChange={handleParam(field.name)}
-                  />
-                )}
-              </div>
-            )
-        )}
-        {error && (
-          <p className={styles.errorMsg}>
-            Please fill all the fields marked with *
-          </p>
-        )}
-        {popup && (
-          <input type="hidden" id="url" name="url" value={router.asPath} />
-        )}
-        <div>{toggle ? "" : <p className={styles.alert}>{alertMSG}</p>}</div>
-     
-        <input type="hidden" id="zc_gad" name="zc_gad" value="" />
+          {formFields.map(
+            (field) =>
+              field.showField && ( // Only render the field if showField is true
+                <div key={field.name} className={styles.formWrapper}>
+                  {field.type === "phone" ? (
+                    <PhoneInput
+                      inputStyle={field.inputStyle}
+                      containerStyle={field.containerStyle}
+                      name={field.name}
+                      inputProps={field.inputProps}
+                      country="in"
+                      placeholder={field.placeholder}
+                      value={value}
+                      onChange={(phone) => setValue(phone)}
+                      required={field.required}
+                    />
+                  ) : field.type === "select" ? (
+                    <select
+                      name={field.name}
+                      required={field.required}
+                      value={query[field.name]}
+                      onChange={handleParam(field.name)}
+                    >
+                      {field.options.map((option) => (
+                        <option
+                          key={option.value}
+                          value={option.value}
+                          hidden={option.hidden}
+                        >
+                          {option.label}
+                        </option>
+                      ))}
+                    </select>
+                  ) : (
+                    <input
+                      type={field.type}
+                      name={field.name}
+                      className={styles.EmailInputs}
+                      required={field.required}
+                      placeholder={field.placeholder}
+                      value={query[field.name]}
+                      onChange={handleParam(field.name)}
+                    />
+                  )}
+                </div>
+              )
+          )}
+          {error && (
+            <p className={styles.errorMsg}>
+              Please fill all the fields marked with *
+            </p>
+          )}
+          {popup && (
+            <input type="hidden" id="url" name="url" value={router.asPath} />
+          )}
+          <div>{toggle ? "" : <p className={styles.alert}>{alertMSG}</p>}</div>
 
+          <input type="hidden" id="zc_gad" name="zc_gad" value="" />
         </div>
         {syllabus ? (
           <div className={styles.bottomWrap}>

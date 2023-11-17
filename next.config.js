@@ -8,6 +8,7 @@ const nextConfig = {
       "react-icons",
       "swiper",
       "mongodb",
+      "typed.js",
     ],
     webVitalsAttribution: ["CLS", "LCP", "FCP"],
     // nextScriptWorkers: true,

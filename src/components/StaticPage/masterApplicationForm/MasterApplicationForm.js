@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import "react-phone-number-input/style.css";
 import styles from "./MasterApplicationForm.module.css";
-import PhoneInput from "react-phone-number-input";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
 import { useRouter } from "next/router";
 import Navbar from "../../Global/Navbar/Navbar";
 const MasterApplicationForm = ({ secondForm, title }) => {
@@ -114,8 +114,6 @@ const MasterApplicationForm = ({ secondForm, title }) => {
             value={router.asPath}
           ></input>
 
-
-
           <div className={styles.phoneWrap}>
             <label htmlFor="PhoneNumber">
               Phone Number<span className={styles.spanLabel}>*</span>
@@ -123,9 +121,13 @@ const MasterApplicationForm = ({ secondForm, title }) => {
             <div className={styles.phoneInput}>
               <PhoneInput
                 name="phoneNumber"
-                rules={{ required: true }}
-                defaultCountry="IN"
-                className={styles.Phone}
+                inputProps={{
+                  name: "phoneNumber",
+                  required: true,
+                  placeholder: "Enter Phone Number",
+                  className: styles.Phone,
+                }}
+                country="IN" // Set the default country code
                 value={value}
                 onChange={setValue}
                 required

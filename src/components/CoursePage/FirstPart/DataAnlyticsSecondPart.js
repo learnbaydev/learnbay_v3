@@ -29,6 +29,11 @@ const NewProjectSection = dynamic(() =>
 const FAQNew = dynamic(() =>
   import("../../../components/CoursePage/FAQNew/FAQNew")
 );
+import BottomBar from "@/components/Global/BottomBar/BottomBar";
+const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
+const SeventhSection = dynamic(() =>
+  import("@/components/Global/SeventhSection/SeventhSection")
+);
 
 const SecondPart = ({
   masterSyllabusMobile,
@@ -50,8 +55,8 @@ const SecondPart = ({
       <ToolsCovered />
       <Certificate data={CertificateData} />
       <FeeSection
-        Fee="₹ 1,10,000 + 18% GST"
-        FeeEmi="₹ 10,817/"
+        Fee="₹ 80,000"
+        FeeEmi="₹ 7,866/month"
         weekdaybatch="Weekday Batch"
         weekendbatch="Weekend Batch"
         weekday="MON - FRI"
@@ -79,6 +84,10 @@ const SecondPart = ({
       />
 
       <FAQNew FAQNewData={FAQNewData} />
+      <SeventhSection />
+      <Footer />
+
+      <BottomBar />
     </div>
   );
 };

@@ -1,14 +1,20 @@
 import React, { useState, useEffect, useRef } from "react";
 import dynamic from "next/dynamic";
 import styles from "./FirstSection.module.css";
-import { FaChevronDown, FaBell, FaDownload } from "react-icons/fa";
+import { FaChevronDown } from "react-icons/fa";
 import Popup from "../../Global/Popup/Popup";
 import Form from "../../Global/Form/Form";
 import Image from "next/image";
 import Typed from "typed.js";
 const Button = dynamic(() => import("../../Global/Button/Button"));
 
-const FirstSection = ({ dataScience, radio, btnHide, second, third, dataScienceGeneric, dataScienceCounselling, organicADS}) => {
+const FirstSection = ({
+  dataScience,
+  radio,
+  dataScienceGeneric,
+  dataScienceCounselling,
+  organicADS,
+}) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
@@ -16,9 +22,6 @@ const FirstSection = ({ dataScience, radio, btnHide, second, third, dataScienceG
 
   const popupShow = () => {
     setPopups(true);
-  };
-  const showMenu = () => {
-    setShow(!show);
   };
 
   useEffect(() => {
@@ -88,7 +91,7 @@ const FirstSection = ({ dataScience, radio, btnHide, second, third, dataScienceG
             Take the first step in your blockchain development journey with our
           </p> */}
           <h1 className={styles.h1}>
-          #1 Domain Specialised Certification Program For{" "}
+            #1 Domain Specialised Certification Program For{" "}
             <span className={styles.h1Span}>Working Professionals</span>
           </h1>
           <div className={styles.IBMlogoPlay}>
@@ -121,12 +124,14 @@ const FirstSection = ({ dataScience, radio, btnHide, second, third, dataScienceG
             />
           </div> */}
           <div className={styles.btnWrapper}>
-            {organicADS ? ("") : (
-            <a href="#course">
-              <button className={styles.outLineBtn}>
-                Courses <FaChevronDown className="bIconS" />
-              </button>
-            </a>
+            {organicADS ? (
+              ""
+            ) : (
+              <a href="#course">
+                <button className={styles.outLineBtn}>
+                  Courses <FaChevronDown className="bIconS" />
+                </button>
+              </a>
             )}
             <div onClick={popupShow}>
               <Button outline={true} text="Enquire Now" />

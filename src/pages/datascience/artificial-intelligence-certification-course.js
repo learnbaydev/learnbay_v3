@@ -97,9 +97,10 @@ function Blockchain({ DataScienceCourseDataJson }) {
             DataScienceCourseData.AIMLDataScienceCourseData[0].testimonial
           }
         />
-        {/* <AISecondPart
+        <AISecondPart
           masterSyllabusMobile={
-            DataScienceCourseData.DataScienceCourseData[0].masterSyllabusMobile
+            DataScienceCourseData.AIMLDataScienceCourseData[0]
+              .masterSyllabusMobile
           }
           CertificateData={
             DataScienceCourseData.AIMLDataScienceCourseData[0].Certificate
@@ -108,7 +109,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
             DataScienceCourseData.AIMLDataScienceCourseData[0].projectSection
           }
           FAQNewData={DataScienceCourseData.AIMLDataScienceCourseData[0].faq}
-        /> */}
+        />
       </main>
     </>
   );
