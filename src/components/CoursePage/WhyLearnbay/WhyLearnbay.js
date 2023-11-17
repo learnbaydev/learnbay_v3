@@ -16,6 +16,7 @@ import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { BsBank, BsFillPeopleFill } from "react-icons/bs";
 import { FaClinicMedical } from "react-icons/fa";
 import { MdOutlinePrecisionManufacturing } from "react-icons/md";
+// import { BsFillPeopleFill } from "react-icons/bs";
 
 function WhyLearnbay({ idss }) {
   const [domainSpec, setDomainSpec] = useState(false);
