@@ -3,11 +3,10 @@ import Head from "next/head";
 import { useState } from "react";
 import { FullStackDubaiCourseData } from "../../../CityData/Dubai/fullstackSoftwareDeveloperCourseInDubai";
 import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
-import Footer from "../../../../components/Footer/Footer";
-import Form from "../../../../components/Form/Form";
-import Testimonial from "../../../../components/HomePage/Testimonial/Testimonial";
-import Navbar from "../../../../components/Navbar/Navbar";
-import Popup from "../../../../components/Popup/Popup";
+import Footer from "../../../components/Global/Footer/Footer";
+import Form from "../../../components/Global/Form/Form";
+import Navbar from "../../../components/Global/Navbar/Navbar";
+import Popup from "../../../components/Global/Popup/Popup";
 import styles from "../../../styles/Home.module.css";
 const FirstSection = dynamic(() =>
   import("../../../components/Seo/FirstSection/FirstSection")
@@ -33,9 +32,7 @@ const CitiesLeft = dynamic(() =>
 const CitiesRight = dynamic(() =>
   import("../../../components/Seo/CitiesRight/CitiesRight")
 );
-const FAQNew = dynamic(() =>
-  import("../../../components/Seo/FAQNew/FAQNew")
-);
+const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -144,19 +141,19 @@ export default function Home() {
           para="Discover the impact of our programs on career growth"
         /> */}
         <div className={styles.cityFee}>
-        <FeeSection
-          Fee="₹ 1,15,000"
-          FeeEmi="₹ 7,538/month"
-          WeekdayDate="Nov 10th"
-          WeekendDate="Nov 17th"
-          WeekendTime="7:30 AM to 9:30 AM"
-          WeekdayTime="8:00 PM to 10:00 PM"
-          FeeContent3="Flexible payment"
-          FeeContent4="Easy loan procedure"
-          FeeContent5="15 days refund policy"
-          FeeContent6="No additional cost"
-          dataScienceCounselling={true}
-        />
+          <FeeSection
+            Fee="₹ 1,15,000"
+            FeeEmi="₹ 7,538/month"
+            WeekdayDate="Nov 10th"
+            WeekendDate="Nov 17th"
+            WeekendTime="7:30 AM to 9:30 AM"
+            WeekdayTime="8:00 PM to 10:00 PM"
+            FeeContent3="Flexible payment"
+            FeeContent4="Easy loan procedure"
+            FeeContent5="15 days refund policy"
+            FeeContent6="No additional cost"
+            dataScienceCounselling={true}
+          />
         </div>
         <div className="MainCities">
           <div className="CitiesLeft">
