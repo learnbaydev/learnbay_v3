@@ -2,10 +2,10 @@ import dynamic from "next/dynamic";
 import Head from "next/head";
 import { useEffect, useState } from "react";
 import { DataScienceCourseData } from "../../Data/AdvanceDataScienceCourse";
-
+import Footer from '../../components/Global/Footer/Footer';
 const Certificate = dynamic(() =>
   import("../../components/CoursePage/Certificate/Certificate")
-);
+)
 
 const FeeSection = dynamic(() =>
   import("../../components/CoursePage/FeeSection/FeeSection")
@@ -148,7 +148,10 @@ function Blockchain({}) {
         />
 
         <FAQNew FAQNewData={DataScienceCourseData[0].faq} />
+
+        <Footer/>
       </main>
+
     </>
   );
 }
