@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import { TbListDetails } from "react-icons/tb";
+import { MdChecklist } from "react-icons/md";
 import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import styles from "./Course.module.css";
@@ -414,7 +414,7 @@ const Course = ({
                                               }
                                             >
                                               View Details
-                                              <TbListDetails
+                                              <MdChecklist
                                                 className={styles.bellIcon}
                                               />
                                             </button>
@@ -443,7 +443,7 @@ const Course = ({
                                               }
                                             >
                                               View Details
-                                              <TbListDetails
+                                              <MdChecklist
                                                 className={styles.bellIcon}
                                               />
                                             </button>

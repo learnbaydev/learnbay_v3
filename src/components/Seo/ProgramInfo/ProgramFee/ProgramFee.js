@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { BsFillCreditCard2FrontFill, BsLaptopFill } from "react-icons/bs";
-import { GiWallet } from "react-icons/gi";
+import { FaWallet } from "react-icons/fa";
 import styles from "./ProgramFee.module.css";
 import Image from "next/image";
 import Popup from "../../../Global/Popup/Popup";
@@ -51,7 +51,6 @@ const ProgramFee = ({ Fee, Emi, fullStack, dataScience }) => {
               src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/programFeeIcon.png"
               width="225"
               height="111"
-               
               alt="programFeeIcon"
             />
             <div className={styles.bottom}>
@@ -76,7 +75,7 @@ const ProgramFee = ({ Fee, Emi, fullStack, dataScience }) => {
                 <p>Internet Banking</p>
               </div>
               <div className={styles.rights}>
-                <GiWallet className={styles.icon} />
+                <FaWallet className={styles.icon} />
                 <p>No Cost EMI</p>
               </div>
             </div>

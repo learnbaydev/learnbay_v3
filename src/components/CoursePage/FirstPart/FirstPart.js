@@ -1,6 +1,6 @@
 import React from "react";
 import dynamic from "next/dynamic";
-
+import { DataScienceCourseData } from "@/Data/AdvanceDataScienceCourse";
 import Navbar from "@/components/Global/Navbar/Navbar";
 import FirstSection from "@/components/CoursePage/FirstSection/FirstSection";
 import SecondSection from "@/components/CoursePage/SecondSection/SecondSection";
@@ -49,7 +49,10 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         firstHeading="Advance Data Science & AI Program"
         firstTopPara="Curriculum Inclusive of Gen-AI "
       />
-      <SecondSection SecondSectionData={SecondSectionData} />
+      <SecondSection
+        // SecondSectionData={SecondSectionData}
+        SecondSectionData={DataScienceCourseData[0].secondSection}
+      />
       <SecondNavbar />
       <WhoProgram
         dataScience={true}
@@ -57,7 +60,11 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         ThirdSectionData={ThirdSectionData}
       />
       <TrainerSection idss="eautK0odE7Q" />
-      <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} />
+      <Testimonial
+        redirectDS={true}
+        heading=""
+        Testimonial={DataScienceCourseData[0].secondSection}
+      />
       <WhoIsProgram
         first="Non-tech professionals with 6 months experience"
         second="Minimum 1 year of IT work experience"
