@@ -1,5 +1,8 @@
 import React from "react";
 import dynamic from "next/dynamic";
+import Footer from "@/components/Global/Footer/Footer";
+import BottomBar from "@/components/Global/BottomBar/BottomBar";
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
 const Certificate = dynamic(() =>
@@ -78,6 +81,9 @@ const SecondPart = ({
       />
 
       <FAQNew FAQNewData={FAQNewData} />
+      <Footer />
+      <BottomBar />
+      <WhatsappFloat />
     </div>
   );
 };
