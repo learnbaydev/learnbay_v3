@@ -23,8 +23,10 @@ const nextConfig = {
       },
     ],
     formats: ["image/avif", "image/webp"],
-    minimumCacheTTL: 120,
+    minimumCacheTTL: 2678400,
+    domains: ["learnbay-wb.s3.ap-south-1.amazonaws.com"],
   },
+
   async redirects() {
     return [
       {
@@ -1321,8 +1323,8 @@ const nextConfig = {
   },
 };
 
-const withBundleAnalyzer = require("@next/bundle-analyzer")({
-  enabled: process.env.ANALYZE === "true",
-});
-module.exports = withBundleAnalyzer(nextConfig);
-// module.exports = nextConfig;
+// const withBundleAnalyzer = require("@next/bundle-analyzer")({
+//   enabled: process.env.ANALYZE === "true",
+// });
+// module.exports = withBundleAnalyzer(nextConfig);
+module.exports = nextConfig;
