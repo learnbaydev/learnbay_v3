@@ -3,8 +3,9 @@ import Head from "next/head";
 import Navbar from "../components/Global/Navbar/Navbar";
 import Footer from "../components/Global//Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
-import WhoProgram from "../components/CoursePage/WhoProgram/ThirdSection"
-import { DataScienceCourseData } from "../Data/AdvanceDataScienceCourse";
+
+import WhoProgram from "../components/CoursePage/WhoProgram/ThirdSection";
+import { ThirdSectionData } from "@/Data/ThirdSectionData";
 
 const sumbit = () => {
   return (
@@ -24,10 +25,10 @@ const sumbit = () => {
       </Head>
       <Navbar popup={true} radio={true} />
       <WhoProgram
-          dataScience={true}
-          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/advance-who.webp"
-          ThirdSectionData={DataScienceCourseData[0].thirdSection}
-        />
+        dataScience={true}
+        leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/advance-who.webp"
+        ThirdSectionData={ThirdSectionData}
+      />
       <BottomBar radio={true} />
       <Footer />
     </div>

@@ -44,11 +44,11 @@
 
 .cutText {
   color: #484848bf !important;
-text-align: center;
-font-size: 26.153px;
-font-weight: 300;
-text-decoration: line-through;
-margin: 20px 0px 0px 0px;
+  text-align: center;
+  font-size: 26.153px;
+  font-weight: 300;
+  text-decoration: line-through;
+  margin: 20px 0px 0px 0px;
 }
 
 .divContent {
@@ -62,15 +62,15 @@ margin: 20px 0px 0px 0px;
 
 .divContent .boxSpan {
   color: #2db621;
-font-size: 20px;
-font-weight: 700;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .spanText {
   color: #484848;
-text-align: center;
-font-size: 14.814px;
-font-weight: 400;
+  text-align: center;
+  font-size: 14.814px;
+  font-weight: 400;
 }
 
 .pTop {
@@ -139,6 +139,7 @@ font-weight: 400;
 
 .iconImage img {
   width: 100%;
+  height: auto;
 }
 
 .third {
@@ -233,11 +234,11 @@ font-weight: 400;
     margin-top: 50px;
   }
 
-.second {
-  padding: 20px;
-}
+  .second {
+    padding: 20px;
+  }
 
-.box {
-  padding: 20px 10px;
-}
+  .box {
+    padding: 20px 10px;
+  }
 }

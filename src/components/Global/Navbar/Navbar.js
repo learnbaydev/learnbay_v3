@@ -15,8 +15,6 @@ const Navbar = ({
   dataScienceGeneric,
   interstedInHide,
 }) => {
-  console.log("navbar");
-
   const [popups, setPopups] = useState(false);
 
   return (

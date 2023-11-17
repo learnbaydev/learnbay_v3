@@ -12,7 +12,7 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
 
   // POPUP GET METHOD
   const [popupData, setPopupData] = useState([]);
-  console.log(popupData);
+
   useEffect(() => {
     // console.log("inside UseEFFect");
     const fetchPopup = async () => {
@@ -54,13 +54,10 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
         },
       });
 
-      console.log(data.status);
       if (data.status === 200) {
         const { batchDate } = await data.json();
 
         setBatchDateData(batchDate);
-
-        console.log("Batch Date Response:", batchDate);
       }
     };
     fetchBatch();
