@@ -1,0 +1,40 @@
+import styles from "./HomeLine.module.css";
+import React from "react";
+import Image from "next/image";
+
+const HomeLine = () => {
+  return (
+    <div className={styles.feature}>
+      <p>
+        Get Coached by the Industry's Best: <span>Top 1% Tech Mentors</span>
+      </p>
+      <div className={styles.container}>
+        <div className="imgWrapper">
+          <Image
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/homeline.webp"
+            width="1200"
+            height="60"
+            loading="lazy"
+            quality={40}
+            alt="data science course"
+          />
+        </div>
+      </div>
+
+      <div className={styles.containerMobile}>
+        <div className="imgWrapper">
+          <Image
+            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/MobileSecond.webp"
+            width="450"
+            height="152"
+            loading="lazy"
+            quality={40}
+            alt="data science course"
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default React.memo(HomeLine);
