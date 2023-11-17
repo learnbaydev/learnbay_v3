@@ -92,6 +92,7 @@ const PlacementCall = () => {
                       src="      https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/secondimg.png"
                       height={60}
                       width={450}
+                      alt="placement"
                     />
                   </div>
                 </div>
@@ -111,6 +112,7 @@ const PlacementCall = () => {
                       src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/thirdimg.png"
                       height={60}
                       width={400}
+                      alt="placement"
                     />
                   </div>
                 </div>

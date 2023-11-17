@@ -1,5 +1,6 @@
 import { FaUserGraduate } from "react-icons/fa";
-import { GiStairsGoal } from "react-icons/gi";
+import { FaArrowUpWideShort } from "react-icons/fa6";
+
 import {
   MdOutlineCastForEducation,
   MdOutlineWorkOutline,
@@ -34,7 +35,7 @@ function WhoIsProgram({ first, second, third, forth }) {
         </div>
         <div className={Styles.InnerBox}>
           <div className={Styles.imgBox}>
-            <GiStairsGoal className={Styles.icon} />
+            <FaArrowUpWideShort className={Styles.icon} />
             <p className={Styles.BgCont2}>Aspirations</p>
           </div>
           <p className={Styles.BoxCont}>{forth}</p>

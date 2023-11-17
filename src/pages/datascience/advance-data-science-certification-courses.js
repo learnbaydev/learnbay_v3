@@ -1,11 +1,11 @@
-import dynamic from "next/dynamic";
 import Head from "next/head";
+import { parseJSONData } from "@/Util/JsonConvertor";
 import { useEffect, useState } from "react";
 import { DataScienceCourseData } from "../../Data/AdvanceDataScienceCourse";
-import Footer from '../../components/Global/Footer/Footer';
+
 const Certificate = dynamic(() =>
   import("../../components/CoursePage/Certificate/Certificate")
-)
+);
 
 const FeeSection = dynamic(() =>
   import("../../components/CoursePage/FeeSection/FeeSection")
@@ -90,8 +90,6 @@ function Blockchain({}) {
     fetchData();
   }, []);
 
-  const [progress, setProgress] = useState(20);
-
   return (
     <>
       <Head>
@@ -148,11 +146,17 @@ function Blockchain({}) {
         />
 
         <FAQNew FAQNewData={DataScienceCourseData[0].faq} />
-
-        <Footer/>
       </main>
 
     </>
   );
 }
 export default Blockchain;
+export async function getStaticProps() {
+  const data = await import("../../Data/AdvanceDataScienceCourse");
+  function getDataScienceCourseDataJSON(dataScienceCourseData) {
+    return JSON.stringify(dataScienceCourseData);
+  }
+  const DataScienceCourseDataJson = getDataScienceCourseDataJSON(data);
+  return { props: { DataScienceCourseDataJson } };
+}

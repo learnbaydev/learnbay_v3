@@ -22,7 +22,11 @@ import {
 } from "./FooterData";
 
 const Footer = ({ adPage, adPageCity }) => {
+<<<<<<< HEAD
   console.log("Footer");
+=======
+  // console.log("Footer");
+>>>>>>> 23c0198be213493970f359d53012899331648f1c
   return (
     <section className={styles.FooterSection}>
       <div className={styles.FooterDiv}>
