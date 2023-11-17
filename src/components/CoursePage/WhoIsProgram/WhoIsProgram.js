@@ -1,5 +1,4 @@
-import { FaUserGraduate } from "react-icons/fa";
-import { FaArrowUpWideShort } from "react-icons/fa6";
+import { FaUserGraduate, FaArrowUp } from "react-icons/fa";
 
 import {
   MdOutlineCastForEducation,
@@ -35,7 +34,7 @@ function WhoIsProgram({ first, second, third, forth }) {
         </div>
         <div className={Styles.InnerBox}>
           <div className={Styles.imgBox}>
-            <FaArrowUpWideShort className={Styles.icon} />
+            <FaArrowUp className={Styles.icon} />
             <p className={Styles.BgCont2}>Aspirations</p>
           </div>
           <p className={Styles.BoxCont}>{forth}</p>

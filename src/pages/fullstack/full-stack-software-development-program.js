@@ -79,8 +79,6 @@ function Blockchain({ DataScienceCourseDataJson }) {
           }
           FAQNewData={DataScienceCourseData.FSSPDataScienceCourseData[0].faq}
         />
-
-        {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
       </main>
     </>
   );

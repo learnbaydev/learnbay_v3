@@ -4,7 +4,7 @@ import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { BiTimeFive } from "react-icons/bi";
 import { FaArrowRight, FaDownload } from "react-icons/fa";
 import { IoRocketOutline } from "react-icons/io5";
-import { TbCurrencyRupee } from "react-icons/tb";
+import { MdCurrencyRupee } from "react-icons/md";
 import styles from "./ThirdSection.module.css";
 const Button = dynamic(() => import("../../../Global/Button/Button"));
 
@@ -99,7 +99,7 @@ function ThirdSection() {
               12 Advance + 4 Capstone
             </p>
             <p className={styles.pCont}>
-              <TbCurrencyRupee className={styles.checkCircle} />
+              <MdCurrencyRupee className={styles.checkCircle} />
               Course Fee : ₹ 1,29,000 | No cost EMI
             </p>
           </div>
@@ -137,7 +137,7 @@ function ThirdSection() {
               12 Advance + 4 Capstone
             </p>
             <p className={styles.pCont}>
-              <TbCurrencyRupee className={styles.checkCircle} />
+              <MdCurrencyRupee className={styles.checkCircle} />
               Course Fee : ₹ 1,29,000 | No cost EMI
             </p>
           </div>
@@ -175,7 +175,7 @@ function ThirdSection() {
               12 Advance + 4 Capstone
             </p>
             <p className={styles.pCont}>
-              <TbCurrencyRupee className={styles.checkCircle} />
+              <MdCurrencyRupee className={styles.checkCircle} />
               Course Fee : ₹ 1,29,000 | No cost EMI
             </p>
           </div>

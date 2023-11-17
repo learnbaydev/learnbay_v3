@@ -12,7 +12,8 @@ import {
 } from "react-icons/fa";
 import { IoRocketOutline } from "react-icons/io5";
 import { MdOutlinePrecisionManufacturing } from "react-icons/md";
-import { TbCertificate } from "react-icons/tb";
+import { FaUserGraduate } from "react-icons/fa";
+
 import VideoPopup from "../../Global/VideoPopup/VideoPopup";
 import Styles from "./WhyLearnbay.module.css";
 import { BsTruck } from "react-icons/bs";
@@ -92,7 +93,7 @@ function WhyLearnbay({ idss }) {
             className={domainSpec ? Styles.ActiveInnerBox : Styles.InnerBox}
           >
             <p className={domainSpec ? Styles.ActiveCont : Styles.Cont}>
-              <TbCertificate
+              <FaUserGraduate
                 className={domainSpec ? Styles.Activeicon : Styles.icon}
               />
               Domain Specialization
