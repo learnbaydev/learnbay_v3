@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import { parseJSONData } from "@/Util/JsonConvertor";
-import { useEffect, useState } from "react";
+
 import FirstPart from "@/components/MastersCourse/PagePart/FirstPart";
 const SecondPart = dynamic(() =>
   import("@/components/MastersCourse/PagePart/SecondPart")
@@ -9,59 +9,6 @@ const SecondPart = dynamic(() =>
 
 const Blockchain = ({ DataScienceCourseDataJson }) => {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
-
-  // POPUP GET METHOD
-  const [popupData, setPopupData] = useState([]);
-
-  useEffect(() => {
-    // console.log("inside UseEFFect");
-    const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
-      });
-      if (data.status === 200) {
-        const { popData } = await data.json();
-        // console.log(popData, "get data");
-        if (popData == []) {
-          setPopupData([]);
-        }
-
-        popData.map((data, i) => {
-          // console.log(data);
-          data.page.map((popupData, i) => {
-            // console.log(popData);
-            if (popupData === "Adv Data Science and AI") {
-              setPopupData(data);
-
-              return;
-            }
-          });
-        });
-      }
-    };
-    fetchPopup();
-  }, []);
-
-  const [batchDateData, setBatchDateData] = useState("");
-
-  useEffect(() => {
-    const fetchBatch = async () => {
-      const data = await fetch("/api/BatchDetails/getBatchDetails", {
-        method: "POST",
-        body: JSON.stringify("Data Science and AI"),
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
-
-      if (data.status === 200) {
-        const { batchDate } = await data.json();
-
-        setBatchDateData(batchDate);
-      }
-    };
-    fetchBatch();
-  }, []);
 
   return (
     <>

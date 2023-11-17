@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { parseJSONData } from "@/Util/JsonConvertor";
-import { useEffect, useState } from "react";
 
 import FirstPart from "@/components/CoursePage/FirstPart/FirstPart";
 import SecondPart from "@/components/CoursePage/FirstPart/SecondPart";
@@ -8,62 +7,7 @@ import SecondPart from "@/components/CoursePage/FirstPart/SecondPart";
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
 
-  const [popupData, setPopupData] = useState([]);
   // console.log(popupData);
-  useEffect(() => {
-    const fetchData = async () => {
-      const popupResponse = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
-      });
-      if (popupResponse.status === 200) {
-        const { popData } = await popupResponse.json();
-        const foundPopup = popData.find((data) =>
-          data.page.includes("Adv Data Science and AI")
-        );
-        if (foundPopup) {
-          setPopupData(foundPopup);
-        }
-      }
-    };
-
-    fetchData();
-  }, []);
-
-  const [batchDateData, setBatchDateData] = useState("");
-
-  useEffect(() => {
-    const fetchData = async () => {
-      // Fetch Popup Data
-      const popupResponse = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
-      });
-      if (popupResponse.status === 200) {
-        const { popData } = await popupResponse.json();
-        const foundPopup = popData.find((data) =>
-          data.page.includes("Adv Data Science and AI")
-        );
-        if (foundPopup) {
-          setPopupData(foundPopup);
-        }
-      }
-
-      // Fetch Batch Data
-      const batchResponse = await fetch("/api/BatchDetails/getBatchDetails", {
-        method: "POST",
-        body: JSON.stringify("Data Science and AI"),
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
-
-      if (batchResponse.status === 200) {
-        const { batchDate } = await batchResponse.json();
-        setBatchDateData(batchDate);
-      }
-    };
-
-    fetchData();
-  }, []);
 
   return (
     <>
