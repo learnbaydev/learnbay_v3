@@ -356,33 +356,6 @@ export const CourseData = [
     Courses: [
       {
         id: 1,
-<<<<<<< HEAD
-        url: "/datascience/data-science-certification-courses",
-        name: "Data Science Foundation Program",
-      },
-      {
-        id: 2,
-        url: "/datascience/advance-data-science-certification-courses",
-        name: "Advance Data Science & AI Program",
-      },
-      {
-        id: 3,
-        url: "/datascience/artificial-intelligence-certification-course",
-        name: "Advance AI & ML Program for Tech Professionals",
-      },
-      {
-        id: 4,
-        url: "/datascience/data-science-ai-for-managers",
-        name: " Data Science & AI For Managers",
-      },
-      {
-        id: 5,
-        url: "/datascience/data-science-ai-masters-program",
-        name: "Data Science & AI Master Program",
-      },
-      {
-        id: 6,
-=======
         url: "/datascience/advance-data-science-certification-courses",
         name: "Advance Data Science and AI Certification",
       },
@@ -403,39 +376,16 @@ export const CourseData = [
       },
       {
         id: 5,
->>>>>>> 23c0198be213493970f359d53012899331648f1c
         url: "/datascience/business-analytics-certification-course",
         name: "Business Analytics Program",
       },
       {
-<<<<<<< HEAD
-        id: 7,
-        url: "/datascience/data-analytics-certification-course",
-        name: "Data Analytics Program",
-      },
-      {
-        id: 8,
-        url: "/fullstack/full-stack-software-development-program",
-        name: "Software Development Master Program",
-      },
-      {
-        id: 9,
-        url: "/fullstack/software-development-program-with-specialization-in-blockchain",
-        name: "Software Development Program in Blockchain",
-      },
-      {
-        id: 10,
-        url: "/fullstack/software-development-program-with-specialization-in-cloud-computing-&-devops",
-        name: "Software Development Program in Cloud and Devops",
-      },
-=======
         id: 6,
         url: "/datascience/data-analytics-certification-course",
         name: "Data Analytics Program",
       },
     
   
->>>>>>> 23c0198be213493970f359d53012899331648f1c
     ],
   },
 ];
