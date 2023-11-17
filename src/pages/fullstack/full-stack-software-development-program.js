@@ -1,6 +1,5 @@
 import dynamic from "next/dynamic";
 import Head from "next/head";
-import { useEffect, useState } from "react";
 import { parseJSONData } from "@/Util/JsonConvertor";
 import FullStackSoftwareDevelopmentFirstPart from "@/components/CoursePage/FirstPart/FullStackSoftwareDevelopmentFirstPart";
 import FullStackSoftwareDevelopmentSecondPart from "@/components/CoursePage/FirstPart/FullStackSoftwareDevelopmentSecondPart";
@@ -11,61 +10,6 @@ const OfferPopup = dynamic(() =>
 
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
-  // POPUP GET METHOD
-  const [popupData, setPopupData] = useState([]);
-  // console.log(popupData);
-  useEffect(() => {
-    // console.log("inside UseEFFect");
-    const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
-      });
-      if (data.status === 200) {
-        const { popData } = await data.json();
-        // console.log(popData, "get data");
-        if (popData == []) {
-          setPopupData([]);
-        }
-
-        popData.map((data, i) => {
-          // console.log(data);
-          data.page.map((popupData, i) => {
-            // console.log(popData);
-            if (popupData === "Adv Data Science and AI") {
-              setPopupData(data);
-              // console.log(popupData);
-              return;
-            }
-          });
-        });
-      }
-    };
-    fetchPopup();
-  }, []);
-
-  const [batchDateData, setBatchDateData] = useState("");
-
-  useEffect(() => {
-    const fetchBatch = async () => {
-      const data = await fetch("/api/BatchDetails/getBatchDetails", {
-        method: "POST",
-        body: JSON.stringify("Data Science and AI"),
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
-
-      console.log(data.status);
-      if (data.status === 200) {
-        const { batchDate } = await data.json();
-
-        setBatchDateData(batchDate);
-
-        console.log("Batch Date Response:", batchDate);
-      }
-    };
-    fetchBatch();
-  }, []);
 
   return (
     <>

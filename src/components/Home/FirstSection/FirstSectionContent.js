@@ -24,7 +24,7 @@ const FirstSectionContent = ({ setPopups }) => {
           <div className={styles.imgWrapperMobile}>
             <div className="imgWrapper">
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/newHeaderOne.webp"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/newHeaderOne.webp"
                 width="580"
                 height="450"
                 priority
