@@ -21,6 +21,7 @@ const Course = ({
   dataScienceCounselling,
   organicADS,
   dataScienceGeneric,
+  interstedInHide,
 }) => {
   // console.log("course component");
   const [mobile, setMobile] = useState(false);
@@ -102,6 +103,7 @@ const Course = ({
             radio={radio}
             downloadBrochure
             upSkillingHide={true}
+            interstedInHide={interstedInHide}
           />
         </div>
       </Popup>

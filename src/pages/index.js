@@ -1,8 +1,10 @@
-import Head from "next/head";
-import Navbar from "../components/Global/Navbar/Navbar";
-import dynamic from "next/dynamic";
+import BottomBar from "@/components/Global/BottomBar/BottomBar";
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import FirstSection from "@/components/Home/FirstSection/FirstSection";
 import HomeLine from "@/components/Home/HomeLine/HomeLine";
+import dynamic from "next/dynamic";
+import Head from "next/head";
+import Navbar from "../components/Global/Navbar/Navbar";
 const Course = dynamic(() => import("@/components/Home/Course/Course"));
 const WhyLearnbay = dynamic(() =>
   import("@/components/Home/WhyLearnbay/WhyLearnbay")
@@ -23,8 +25,6 @@ const TrainerSection = dynamic(() =>
 const SeventhSection = dynamic(() =>
   import("@/components/Global/SeventhSection/SeventhSection")
 );
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
 
 export default function Home() {
@@ -120,13 +120,13 @@ export default function Home() {
         interstedInHide={true}
       />
       <HomeLine />
-      <Course dataScience={true} radio={true} />
+      <Course dataScience={true} radio={true} interstedInHide={true}/>
       <WhyLearnbay ids="bfl64ANfSV0" />
       <ProjectSection ids="bfl64ANfSV0" />
       <GetHire />
       <TrainerSection ids="eautK0odE7Q" />
       <Testimonial redirectDS={true} heading="" Testimonial={testimonial} />
-      <ContactUs dataScienceCounselling={true} radio={true} />
+      <ContactUs dataScienceCounselling={true} radio={true} interstedInHide={true}/>
       <SeventhSection />
       <Footer />
       <WhatsappFloat chat360code1={true} />

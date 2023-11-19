@@ -7,7 +7,7 @@
 }
 .formWrapper {
   margin-bottom: 10px;
-  width: 80%;
+  width: 90%;
   height: 100%;
   margin-bottom: 20px;
   text-align: left;
@@ -290,8 +290,6 @@ padding: 10px;
 .formGrid{
   width: 100%;
   display: grid;
-  grid-gap: 10px;
-  gap: 10px;
   grid-template-columns: 49% 49%;
   align-items: center;
   justify-content: center;
