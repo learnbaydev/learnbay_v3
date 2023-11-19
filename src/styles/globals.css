@@ -378,7 +378,6 @@ a {
   margin-left: 8px;
   color: #0072bc;
 }
-
 @media (max-width: 481px) {
   .divWrapper {
     display: flex;
@@ -391,10 +390,11 @@ a {
     align-items: center;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(255, 255, 255);
-    border-radius: 12px;
-    border-top: 1px solid rgba(98, 98, 98, 0.125);
-    height: 60px;
+    background-color: #0072bc;
+    border-radius: 12px 12px 0px 0px;
+    color: #fff;
+    font-size: 20px;
+    height: 50px;
     width: 100vw;
     left: 0;
     position: fixed;
@@ -406,7 +406,7 @@ a {
     align-items: center;
   }
   .flDivLeft {
-    border-right: 2px solid #2d9cd7;
+    /* border-right: 2px solid #2d9cd7;s */
     padding-right: 10px;
     margin: 0;
   }
