@@ -1,11 +1,12 @@
 import Head from "next/head";
 import { parseJSONData } from "@/Util/JsonConvertor";
+import { useEffect, useState } from "react";
 
 import FirstPart from "@/components/CoursePage/FirstPart/FirstPart";
 import SecondPart from "@/components/CoursePage/FirstPart/SecondPart";
 
 function Blockchain({ DataScienceCourseDataJson }) {
-  // const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
+  const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
 
   // console.log(popupData);
 
@@ -35,35 +36,35 @@ function Blockchain({ DataScienceCourseDataJson }) {
       </Head>
       <main>
         <FirstPart
-        // SecondSectionData={
-        //   DataScienceCourseData.DataScienceCourseData[0].secondSection
-        // }
-        // TestimonialData={
-        //   DataScienceCourseData.DataScienceCourseData[0].testimonial
-        // }
+          SecondSectionData={
+            DataScienceCourseData.DataScienceCourseData[0].secondSection
+          }
+          TestimonialData={
+            DataScienceCourseData.DataScienceCourseData[0].testimonial
+          }
         />
         <SecondPart
-        // masterSyllabusMobile={
-        //   DataScienceCourseData.DataScienceCourseData[0].masterSyllabusMobile
-        // }
-        // CertificateData={
-        //   DataScienceCourseData.DataScienceCourseData[0].Certificate
-        // }
-        // projectSection={
-        //   DataScienceCourseData.DataScienceCourseData[0].projectSection
-        // }
-        // FAQNewData={DataScienceCourseData.DataScienceCourseData[0].faq}
+          masterSyllabusMobile={
+            DataScienceCourseData.DataScienceCourseData[0].masterSyllabusMobile
+          }
+          CertificateData={
+            DataScienceCourseData.DataScienceCourseData[0].Certificate
+          }
+          projectSection={
+            DataScienceCourseData.DataScienceCourseData[0].projectSection
+          }
+          FAQNewData={DataScienceCourseData.DataScienceCourseData[0].faq}
         />
       </main>
     </>
   );
 }
 export default Blockchain;
-// export async function getStaticProps() {
-//   const data = await import("../../Data/AdvanceDataScienceCourse");
-//   function getDataScienceCourseDataJSON(dataScienceCourseData) {
-//     return JSON.stringify(dataScienceCourseData);
-//   }
-//   const DataScienceCourseDataJson = getDataScienceCourseDataJSON(data);
-//   return { props: { DataScienceCourseDataJson } };
-// }
+export async function getStaticProps() {
+  const data = await import("../../Data/AdvanceDataScienceCourse");
+  function getDataScienceCourseDataJSON(dataScienceCourseData) {
+    return JSON.stringify(dataScienceCourseData);
+  }
+  const DataScienceCourseDataJson = getDataScienceCourseDataJSON(data);
+  return { props: { DataScienceCourseDataJson } };
+}
