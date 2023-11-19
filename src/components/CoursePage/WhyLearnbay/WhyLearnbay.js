@@ -11,9 +11,9 @@ import { IoRocketOutline } from "react-icons/io5";
 import { FaUserGraduate } from "react-icons/fa";
 import VideoPopup from "../../Global/VideoPopup/VideoPopup";
 import Styles from "./WhyLearnbay.module.css";
-
+import Button from "@/components/Global/Button/Button";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
-import { BsBank, BsFillPeopleFill } from "react-icons/bs";
+import { BsBank, BsFillPeopleFill, BsTruck } from "react-icons/bs";
 import { FaClinicMedical } from "react-icons/fa";
 import { MdOutlinePrecisionManufacturing } from "react-icons/md";
 // import { BsFillPeopleFill } from "react-icons/bs";
