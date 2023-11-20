@@ -124,7 +124,7 @@ const Form = ({
         interstedIn: "",
         url: router.asPath,
       });
-      setValue(false);
+  
       if (popup) {
         const off = () => {
           setTrigger(false);
