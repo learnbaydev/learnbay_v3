@@ -39,12 +39,11 @@ const SecondPart = ({
   return (
     <>
       <GetHire />
-      <ContactCounsellor dataScienceCounselling={true} interstedInHide={true} />
+      <ContactCounsellor dataScienceCounselling={true} />
       <SyllabusNew
         masterSyllabusMobile={masterSyllabusMobile}
         dataScienceCounselling={true}
         dataScience={true}
-        interstedInHide={true}
         titleCourse="Masters in Computer Science: Data Science and AI"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters+in+CS+Data+Science+%26+AI.pdf"
       />
@@ -70,14 +69,12 @@ const SecondPart = ({
         FeeContent5="15 days refund policy"
         FeeContent6="No additional cost"
         dataScienceCounselling={true}
-        interstedInHide={true}
       />
       <MentorsSection />
       <SliderTabs />
       <PlacementCall />
       <NewProjectSection
         dataScience={true}
-        interstedInHide={true}
         titleCourse="Masters in Computer Science: Data Science and AI"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters+in+CS+Data+Science+%26+AI.pdf"
         projectSection={projectSection}

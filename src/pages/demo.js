@@ -22,8 +22,13 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScienceCounselling={true} />
-        <Demo demos={true}/>
+        <Navbar
+          popup={true}
+          dataScienceCounselling={true}
+          interstedInHide={true}
+          radio={true}
+        />
+        <Demo demos={true} />
         <Footer />
         <BottomBar radio={true} />
       </main>
