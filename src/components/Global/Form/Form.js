@@ -147,7 +147,7 @@ const Form = ({
       }
     }
   };
-
+  console.log("hellos");
   return (
     <div className={styles.App}>
       <form onSubmit={formSubmit}>
