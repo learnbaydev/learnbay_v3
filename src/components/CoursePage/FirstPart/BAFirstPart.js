@@ -22,14 +22,9 @@ const ContactConsellor = dynamic(() =>
 const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
   return (
     <>
-      <Navbar
-        radio={true}
-        dataScienceCounselling={true}
-        interstedInHide={true}
-      />
+      <Navbar dataScienceCounselling={true} interstedInHide={true} />
       <FirstSection
         dataScienceCounselling={true}
-        radio={true}
         interstedInHide={true}
         dataScience={true}
         ThirdTyped="Live Interactive Classes"
@@ -48,6 +43,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         dataScience={true}
         leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/advance-who.webp"
         ThirdSectionData={ThirdSectionData}
+        interstedInHide={true}
       />
       <TrainerSection idss="eautK0odE7Q" />
       <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} />
@@ -59,7 +55,12 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       />
       <WhyLearnbay idss="bfl64ANfSV0" />
       <GetHire />
-      <ContactConsellor />
+      <ContactConsellor
+        dataScience={true}
+        titleCourse="Businesss Analytics Certification Program"
+        interstedInHide={true}
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
+      />
     </>
   );
 };

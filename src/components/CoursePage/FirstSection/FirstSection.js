@@ -7,6 +7,7 @@ function FirstSection({
   dataScience,
   softwareBtnHide,
   idss,
+  interstedInHide,
   firstToparaImg,
   firstHeading,
   FirstRightImg,
@@ -28,6 +29,7 @@ function FirstSection({
         heading="Apply For Counselling"
         downloadBrochure
         dataScience={true}
+        interstedInHide={interstedInHide}
         upSkillingHide={true}
         titleCourse={titleCourse}
         brochureLink={brochureLink}

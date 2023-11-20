@@ -10,6 +10,7 @@ const ThirdSection = ({
   leftImage,
   ThirdSectionData,
   dataScience,
+  interstedInHide,
   dataScienceCounselling,
 }) => {
   const [popups, setPopups] = useState(false);
@@ -39,6 +40,7 @@ const ThirdSection = ({
             dataScienceCounselling={dataScienceCounselling}
             upSkillingHide={true}
             downloadBrochure
+            interstedInHide={true}
             titleCourse={titleCourse}
             brochureLink={brochureLinks}
           />

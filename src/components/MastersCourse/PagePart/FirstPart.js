@@ -35,7 +35,7 @@ const FirstPart = ({ TestimonialData }) => {
       />
       <MasterSecondSection />
       <JobAbroad />
-      <SecondNavbar dataScienceCounselling={true} interstedInHide={true} />
+      <SecondNavbar dataScienceCounselling={true} />
       <TrainerSection idss="eautK0odE7Q" />
       <Testimonial redirectDS={true} Testimonial={TestimonialData} />
       <WhyLearnbay idss="fzXzUSvMPv0" />

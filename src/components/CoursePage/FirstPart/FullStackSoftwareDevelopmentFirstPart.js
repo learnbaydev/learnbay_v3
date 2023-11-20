@@ -21,7 +21,11 @@ const ContactConsellor = dynamic(() =>
 const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData }) => {
   return (
     <div>
-      <Navbar popup={true} dataScienceCounselling={true} />
+      <Navbar
+        popup={true}
+        dataScienceCounselling={true}
+        interstedInHide={true}
+      />
       <FirstSection
         // FirstTyped="Guaranteed Interview Calls"
         // SecondTyped="Capstone Project Certificate"
@@ -36,6 +40,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData }) => {
         firstTopPara="Crack Interview in Top MNCs"
         idss="bfl64ANfSV0"
         softwareBtnHide={true}
+        interstedInHide={true}
       />
       <SecondSection SecondSectionData={SecondSectionData} />
       {/* <WhoProgram
@@ -53,7 +58,12 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData }) => {
         forth="For individuals seeking software development skills"
       />
       <GetHire />
-      <ContactConsellor />
+      <ContactConsellor
+        titleCourse="Software Development Certification Program"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
+        dataScience={true}
+        interstedInHide={true}
+      />
     </div>
   );
 };

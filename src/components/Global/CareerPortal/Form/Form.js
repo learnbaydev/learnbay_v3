@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Form.module.css";
-
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import { useRouter } from "next/router";

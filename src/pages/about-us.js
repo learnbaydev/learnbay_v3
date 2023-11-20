@@ -5,7 +5,7 @@ import Footer from "../components/Global//Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
 export default function Home() {
   return (
-    <div> 
+    <div>
       <Head>
         <title>Learnbay - About Us</title>
         <meta name="robots" content="index, follow" />
@@ -20,7 +20,7 @@ export default function Home() {
         />
       </Head>
       <main>
-        <Navbar radio={true} />
+        <Navbar radio={true} interstedInHide={true} />
         <AboutUs />
         <Footer />
         <BottomBar radio={true} />

@@ -12,8 +12,11 @@ import styles from "./SecondNavbar.module.css";
 function SecondNavbar({
   careerForm,
   radio,
+  interstedInHide,
   dataScience,
   fullStack,
+  brochureLink,
+  titleCourse,
   dataScienceCounselling,
 }) {
   const [popups, setPopups] = useState(false);
@@ -116,8 +119,11 @@ function SecondNavbar({
               popup={true}
               setTrigger={setPopups}
               radio={radio}
+              titleCourse={titleCourse}
+              brochureLink={brochureLink}
               fullStack={fullStack}
               dataScience={dataScience}
+              interstedInHide={interstedInHide}
               dataScienceCounselling={dataScienceCounselling}
               upSkillingHide={true}
             />
