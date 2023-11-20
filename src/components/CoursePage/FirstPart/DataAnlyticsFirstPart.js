@@ -22,20 +22,15 @@ const ContactConsellor = dynamic(() =>
 const DataAnlyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
   return (
     <>
-      <Navbar
-        radio={true}
-        dataScienceCounselling={true}
-        interstedInHide={true}
-      />
+      <Navbar dataScienceCounselling={true} interstedInHide={true} />
       <FirstSection
         dataScienceCounselling={true}
-        radio={true}
         interstedInHide={true}
         dataScience={true}
         ThirdTyped="Live Interactive Classes"
         titleCourse="Data Analytics Certification Program"
         cityParaCont="Upskill yourself to the top within 6 months with curricullum designed by industry experts"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program.pdf"
         FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/advance-header.webp"
         firstToparaImg=""
         firstHeading="Data Analytics Certification Program"
@@ -43,9 +38,15 @@ const DataAnlyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         idss="bfl64ANfSV0"
       />
       <SecondSection SecondSectionData={SecondSectionData} />
-      <SecondNavbar />
+      <SecondNavbar
+        titleCourse="Data Analytics Certification Program"
+        dataScience={true}
+        interstedInHide={true}
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program.pdf"
+      />
       <WhoProgram
         dataScience={true}
+        interstedInHide={true}
         leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/advance-who.webp"
         ThirdSectionData={ThirdSectionData}
       />
@@ -59,7 +60,12 @@ const DataAnlyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       />
       <WhyLearnbay idss="bfl64ANfSV0" />
       <GetHire />
-      <ContactConsellor />
+      <ContactConsellor
+        titleCourse="Data Analytics Certification Program"
+        dataScience={true}
+        interstedInHide={true}
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program.pdf"
+      />
     </>
   );
 };

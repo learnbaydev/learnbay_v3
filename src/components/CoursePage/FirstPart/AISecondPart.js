@@ -51,6 +51,7 @@ const SecondPart = ({
         titleCourse="Advanced Data Science and AI Program with domain specialization"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
         buttonHide={true}
+        interstedInHide={true}
       />
       <ToolsCovered />
       <Certificate data={CertificateData} />
@@ -70,6 +71,10 @@ const SecondPart = ({
         FeeContent5="15 days refund policy"
         FeeContent6="No additional cost"
         dataScienceCounselling={true}
+        dataScience={true}
+        titleCourse="Advanced Data Science and AI Program with domain specialization"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+        interstedInHide={true}
       />
 
       <MentorsSection />
@@ -81,6 +86,7 @@ const SecondPart = ({
         titleCourse="Advanced Data Science and AI Program with domain specialization"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
         projectSection={projectSection}
+        interstedInHide={true}
       />
 
       <FAQNew FAQNewData={FAQNewData} />

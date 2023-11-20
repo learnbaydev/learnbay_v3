@@ -2,8 +2,8 @@ import Head from "next/head";
 import Navbar from "../components/Global/Navbar/Navbar";
 import Footer from "../components/Global/Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
-  import { DataScienceCourseData } from "../Data/AdvanceDataScienceCourse";
- import dynamic from "next/dynamic";
+import { DataScienceCourseData } from "../Data/AdvanceDataScienceCourse";
+import dynamic from "next/dynamic";
 const Button = dynamic(() => import("../components/Global/Button/Button"));
 const GoogleReview = dynamic(() =>
   import("../components/StaticPage/SuccessStory/GoogleReview/GoogleReview")
@@ -44,7 +44,12 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScienceCounselling={true} radio={true} />
+        <Navbar
+          popup={true}
+          dataScienceCounselling={true}
+          radio={true}
+          interstedInHide={true}
+        />
         <TrainerSection idss="eautK0odE7Q" />
         <LinkedinReview />
         <GoogleReview />

@@ -29,7 +29,12 @@ function learning() {
           href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
         />
       </Head>
-      <Navbar popup={true} dataScienceCounselling={true} radio={true} />
+      <Navbar
+        popup={true}
+        dataScienceCounselling={true}
+        radio={true}
+        interstedInHide={true}
+      />
       <FirstSectionLearning
         first="Tools"
         second="Tips"
@@ -38,7 +43,7 @@ function learning() {
         dataScienceCounselling={true}
         radio={true}
       />{" "}
-      <BottomBar radio={true}/>
+      <BottomBar radio={true} />
       <Footer />
     </div>
   );

@@ -8,15 +8,11 @@ import Popup from "../../Global/Popup/Popup";
 import Form from "../../Global/Form/Form";
 
 const ContactCounsellor = ({
-  FeeHeading,
-  Fee,
   dataScience,
-  FeeContent2,
-  FeeContent3,
-  FeeContent4,
-  FeeContent5,
   dataScienceCounselling,
-  FeeEmi,
+  interstedInHide,
+  titleCourse,
+  brochureLink,
 }) => {
   const [popups, setPopups] = useState(false);
 
@@ -29,35 +25,35 @@ const ContactCounsellor = ({
     const whatsappURL = `https://wa.me/${phoneNumber}`;
     window.open(whatsappURL, "_blank");
   };
-  const sendEmailViaApi = () => {
-    // Replace with the API endpoint that triggers the email
-    const apiEndpoint = "https://example.com/send-email";
+  // const sendEmailViaApi = () => {
+  //   // Replace with the API endpoint that triggers the email
+  //   const apiEndpoint = "https://example.com/send-email";
 
-    fetch(apiEndpoint, {
-      method: "POST", // Adjust the HTTP method as needed
-      headers: {
-        "Content-Type": "application/json",
-      },
-      // You can send any necessary data in the request body
-      body: JSON.stringify({
-        to: "contacts@learnbay.co",
-        subject: "Your email subject",
-        message: "Your email message",
-      }),
-    })
-      .then((response) => {
-        if (response.status === 200) {
-          // If the API responds with a success status, open the email client
-          window.location.href = "mailto:contacts@learnbay.co";
-        } else {
-          // Handle API error here
-          console.error("API error:", response.statusText);
-        }
-      })
-      .catch((error) => {
-        console.error("Fetch error:", error);
-      });
-  };
+  //   fetch(apiEndpoint, {
+  //     method: "POST", // Adjust the HTTP method as needed
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //     },
+  //     // You can send any necessary data in the request body
+  //     body: JSON.stringify({
+  //       to: "contacts@learnbay.co",
+  //       subject: "Your email subject",
+  //       message: "Your email message",
+  //     }),
+  //   })
+  //     .then((response) => {
+  //       if (response.status === 200) {
+  //         // If the API responds with a success status, open the email client
+  //         window.location.href = "mailto:contacts@learnbay.co";
+  //       } else {
+  //         // Handle API error here
+  //         console.error("API error:", response.statusText);
+  //       }
+  //     })
+  //     .catch((error) => {
+  //       console.error("Fetch error:", error);
+  //     });
+  // };
 
   const sendEmail = () => {
     const recipient = "contacts@learnbay.co";
@@ -88,7 +84,10 @@ const ContactCounsellor = ({
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           <Form
+            titleCourse={titleCourse}
+            brochureLink={brochureLink}
             dataScience={dataScience}
+            interstedInHide={interstedInHide}
             dataScienceCounselling={dataScienceCounselling}
             upSkillingHide={true}
             // radio={radio}

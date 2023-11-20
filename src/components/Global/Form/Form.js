@@ -23,7 +23,7 @@ const Form = ({
   interstedInHide,
 }) => {
   const router = useRouter();
-
+  console.log(radio, interstedInHide, dataScience);
   //offset to maintain time zone difference
   const [disable, setDisable] = useState(false);
   const [value, setValue] = useState();
