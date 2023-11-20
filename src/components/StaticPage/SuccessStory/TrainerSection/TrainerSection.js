@@ -23,7 +23,7 @@ function TrainerSection({ idss }) {
           <div className={Styles.hear}>
             <div>
               <h4>Hear it from our Alumni</h4>
-              <p> Hear it from our Alumni lorem ipsum text</p>
+              <p></p>
             </div>
             <div className={Styles.switch}>
               <div className={Styles.switchInnerBlue}>

@@ -22,14 +22,9 @@ const ContactConsellor = dynamic(() =>
 const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
   return (
     <>
-      <Navbar
-        radio={true}
-        dataScienceCounselling={true}
-        interstedInHide={true}
-      />
+      <Navbar dataScienceCounselling={true} interstedInHide={true} />
       <FirstSection
         dataScienceCounselling={true}
-        radio={true}
         interstedInHide={true}
         dataScience={true}
         FirstTyped="Guaranteed Interview Calls"
@@ -44,7 +39,12 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
         firstTopPara="Expand beyond technology"
       />
       <SecondSection SecondSectionData={SecondSectionData} />
-      <SecondNavbar />
+      <SecondNavbar
+        titleCourse="AI & ML Program for tech professionals"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
+        interstedInHide={true}
+        dataScience={true}
+      />
       <WhoProgram
         dataScience={true}
         leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/advance-who.webp"
@@ -60,7 +60,12 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
       />
       <WhyLearnbay idss="bfl64ANfSV0" />
       <GetHire />
-      <ContactConsellor />
+      <ContactConsellor
+        titleCourse="AI & ML Program for tech professionals"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
+        interstedInHide={true}
+        dataScience={true}
+      />
     </>
   );
 };

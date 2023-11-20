@@ -6,7 +6,7 @@ import Navbar from "../../components/Global/Navbar/Navbar";
 import Footer from "../../components/Global/Footer/Footer";
 import WhatsappFloat from "../../components/Global/WhatappsFloat/WhatsappFloat";
 import Switch from "../../components/OrganicGeneric/switch/switch";
-import HomeLine from "../../components/OrganicGeneric/HomeLine/HomeLine";
+import HomeLine from "../../components//Home/HomeLine/HomeLine";
 import Testimonial from "../../components/OrganicGeneric/Testimonial/Testimonial";
 const SeventhSection = dynamic(() =>
   import("../../components/Global/SeventhSection/SeventhSection")

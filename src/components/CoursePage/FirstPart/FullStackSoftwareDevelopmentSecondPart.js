@@ -36,6 +36,7 @@ const FullStackSoftwareDevelopmentSecondPart = ({
         titleCourse="Software Development Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
         buttonHide={true}
+        interstedInHide={true}
       />
       {/* <Certificate data={FSSPDataScienceCourseData[0].Certificate} /> */}
       <FeeSection
@@ -54,6 +55,10 @@ const FullStackSoftwareDevelopmentSecondPart = ({
         FeeContent5="15 days refund policy"
         FeeContent6="No additional cost"
         dataScienceCounselling={true}
+        titleCourse="Software Development Certification Program"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
+        dataScience={true}
+        interstedInHide={true}
       />
       <MentorsSection />
       <SliderTab />

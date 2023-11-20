@@ -3,6 +3,7 @@ import "@/styles/Button.css";
 import Script from "next/script";
 // import { GoogleTagManager } from "@next/third-parties/google";
 import { Open_Sans } from "next/font/google";
+import FacebookPixel from "@/components/Global/Pixel/FacebookPixel";
 const openSans = Open_Sans({
   weight: ["300", "400", "500", "600", "700", "800"],
   style: ["normal", "italic"],
@@ -19,8 +20,9 @@ export default function App({ Component, pageProps }) {
       </main>
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=GTM-NN8XWH8"
-        strategy="worker"
+        strategy="afterInteractive"
       />
+      <FacebookPixel />
     </>
   );
 }

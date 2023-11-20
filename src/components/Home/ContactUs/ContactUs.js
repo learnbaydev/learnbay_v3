@@ -1,9 +1,8 @@
-import React from "react";
-import styles from "./ContactUs.module.css";
-// import FormInline from "../../FormSection/FormInline";
 import Image from "next/image";
+import FormInline from "../../Global/FormSection/FormInline";
+import styles from "./ContactUs.module.css";
 
-function ContactUs({ dataScience, dataScienceCounselling, radio }) {
+function ContactUs({ dataScience, dataScienceCounselling, radio, upSkillingHide, interstedInHide }) {
   // console.log("Contact us");
   return (
     <section className={styles.ContactUs}>
@@ -44,12 +43,13 @@ function ContactUs({ dataScience, dataScienceCounselling, radio }) {
         <p className={styles.NormalPForm}>
           Apply for <span className={styles.span}>Career Counselling</span>
         </p>
-        {/* <FormInline
+        <FormInline
           dataScience={dataScience}
           dataScienceCounselling={dataScienceCounselling}
           radio={radio}
-          upSkillingHide={true}
-        /> */}
+          upSkillingHide={upSkillingHide}
+          interstedInHide={interstedInHide}
+        />
       </div>
     </section>
   );

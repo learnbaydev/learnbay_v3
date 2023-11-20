@@ -30,14 +30,9 @@ const ContactConsellor = dynamic(() =>
 const FirstPart = ({ SecondSectionData, TestimonialData }) => {
   return (
     <>
-      <Navbar
-        radio={true}
-        dataScienceCounselling={true}
-        interstedInHide={true}
-      />
+      <Navbar dataScienceCounselling={true} interstedInHide={true} />
       <FirstSection
         dataScienceCounselling={true}
-        radio={true}
         interstedInHide={true}
         ThirdTyped="Live Interactive Classes"
         dataScience={true}
@@ -50,7 +45,12 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         firstTopPara="Curriculum Inclusive of Gen-AI "
       />
       <SecondSection SecondSectionData={SecondSectionData} />
-      <SecondNavbar />
+      <SecondNavbar
+        interstedInHide={true}
+        dataScience={true}
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
+        titleCourse="Advance Data Science & AI Program with Domain Specialization"
+      />
       <WhoProgram
         dataScience={true}
         leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/advance-who.webp"
@@ -66,7 +66,12 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       />
       <WhyLearnbay idss="bfl64ANfSV0" />
       <GetHire />
-      <ContactConsellor />
+      <ContactConsellor
+        dataScience={true}
+        interstedInHide={true}
+        titleCourse="Advance Data Science & AI Program with Domain Specialization"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
+      />
     </>
   );
 };
