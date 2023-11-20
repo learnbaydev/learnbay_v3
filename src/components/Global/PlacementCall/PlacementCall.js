@@ -88,7 +88,7 @@ const PlacementCall = () => {
                   <div className={styles.number}>
                     <div className={styles.imged}>
                       <Image
-                        src={`https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/${courseData[0].imgSrc}`}
+                        src={`https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/${courseData[index].imgSrc}`}
                         height={60}
                         width={course.imgWidth}
                         loading="lazy"

@@ -120,14 +120,16 @@ const MasterApplicationForm = ({ secondForm, title }) => {
             </label>
             <div className={styles.phoneInput}>
               <PhoneInput
+                inputStyle={{
+                  border: 0,
+                }}
                 name="phoneNumber"
                 inputProps={{
                   name: "phoneNumber",
                   required: true,
                   placeholder: "Enter Phone Number",
-                  className: styles.Phone,
                 }}
-                country="IN" // Set the default country code
+                country="in" // Set the default country code
                 value={value}
                 onChange={setValue}
                 required
