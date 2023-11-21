@@ -3,7 +3,7 @@ import Styles from "./TrainerSection.module.css";
 import Image from "next/image";
 import VideoPopup from "../VideoPopup/VideoPopup";
 
-function TrainerSection({ ids }) {
+function TrainerSection({ idss }) {
   // const [vId, setVId] = useState("");
 
   const [popups, setPopups] = useState(false);
@@ -26,7 +26,7 @@ function TrainerSection({ ids }) {
   return (
     <>
       <section className={Styles.container}>
-        <VideoPopup triggers={video} setTriggers={setVideo} ids={ids} />
+        <VideoPopup triggers={video} setTriggers={setVideo} ids={idss} />
         <h4>Hear it from our Alumni</h4>
         <div className={Styles.First}>
           <div className={Styles.reviewMain}>

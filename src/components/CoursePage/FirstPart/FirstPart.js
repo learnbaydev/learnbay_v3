@@ -43,6 +43,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         firstToparaImg="with Domain Specialization"
         firstHeading="Advance Data Science & AI Program"
         firstTopPara="Curriculum Inclusive of Gen-AI "
+        idss="bfl64ANfSV0"
       />
       <SecondSection SecondSectionData={SecondSectionData} />
       <SecondNavbar
@@ -64,7 +65,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         third="Mid-career professionals interested in data science & AI"
         forth="Achieving higher career growth in data science and AI"
       />
-      <WhyLearnbay idss="bfl64ANfSV0" />
+      <WhyLearnbay idss="ZPOTy4PEnNU" />
       <GetHire />
       <ContactConsellor
         dataScience={true}
