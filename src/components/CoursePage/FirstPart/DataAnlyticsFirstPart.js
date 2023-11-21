@@ -58,7 +58,7 @@ const DataAnlyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         third="Mid-career professionals interested in data science & AI"
         forth="Achieving higher career growth in data science and AI"
       />
-      <WhyLearnbay idss="bfl64ANfSV0" />
+      <WhyLearnbay idss="ZPOTy4PEnNU" />
       <GetHire />
       <ContactConsellor
         titleCourse="Data Analytics Certification Program"

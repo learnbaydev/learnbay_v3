@@ -12,6 +12,15 @@ const ContactCounsellor = ({ dataScience, dataScienceCounselling }) => {
   const popupShow = () => {
     setPopups(true);
   };
+  const sendEmail = () => {
+    const recipient = "contacts@learnbay.co";
+    const subject = "";
+    const body = "";
+    const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${recipient}&su=${subject}&body=${body}`;
+
+    // Open Gmail link in a new tab or window
+    window.open(gmailLink, "_blank");
+  };
 
   return (
     <div className={styles.consmain}>
@@ -54,7 +63,7 @@ const ContactCounsellor = ({ dataScience, dataScienceCounselling }) => {
             (+91) 77956 87988
           </button>
           <button
-            onClick={() => window.open("mailto:contacts@learnbay.co", "_blank")}
+            onClick={sendEmail}
             className={styles.inf}
           >
             <AiOutlineMail className={styles.conicon} /> contacts@learnbay.co
