@@ -5,7 +5,6 @@ import styles from "./Syllabus.module.css";
 const NewSyllabusMap = ({ Syllabus }) => {
   const [mSyllabus, setMSyllabus] = useState(Syllabus);
   const handleChangeMobile = (index) => {
-    // console.log(index, "handelChange");
     setMSyllabus(
       mSyllabus.map((faq, i) => {
         if (i === index) {

@@ -8,7 +8,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
 
   const [popupData, setPopupData] = useState([]);
-  // console.log(popupData);
+
   useEffect(() => {
     const fetchData = async () => {
       const popupResponse = await fetch("/api/Popup/popupGenerate", {

@@ -2,8 +2,13 @@ import Image from "next/image";
 import FormInline from "../../Global/FormSection/FormInline";
 import styles from "./ContactUs.module.css";
 
-function ContactUs({ dataScience, dataScienceCounselling, radio, upSkillingHide, interstedInHide }) {
-  // console.log("Contact us");
+function ContactUs({
+  dataScience,
+  dataScienceCounselling,
+  radio,
+  upSkillingHide,
+  interstedInHide,
+}) {
   return (
     <section className={styles.ContactUs}>
       <div className={styles.LeftSide}>

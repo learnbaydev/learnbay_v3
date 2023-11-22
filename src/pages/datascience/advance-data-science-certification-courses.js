@@ -8,8 +8,6 @@ import SecondPart from "@/components/CoursePage/FirstPart/SecondPart";
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
 
-  // console.log(popupData);
-
   return (
     <>
       <Head>

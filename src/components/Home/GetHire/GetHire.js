@@ -4,7 +4,6 @@ import Image from "next/image";
 import { FcCheckmark } from "react-icons/fc";
 
 function GetHire() {
-  // console.log("Get Hire");
   return (
     <div id="servicePro">
       <div className={Styles.GetHireMain}>

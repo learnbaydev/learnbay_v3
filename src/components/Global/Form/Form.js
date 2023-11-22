@@ -29,7 +29,7 @@ const Form = ({
   interstedInHide,
 }) => {
   const router = useRouter();
-  console.log(radio, interstedInHide, dataScience);
+
   //offset to maintain time zone difference
   const [formFields, setFormFields] = useState(
     getFormFields(radio, google, referrals, interstedInHide)
@@ -147,7 +147,7 @@ const Form = ({
       }
     }
   };
-  console.log("hellos");
+
   return (
     <div className={styles.App}>
       <form onSubmit={formSubmit}>

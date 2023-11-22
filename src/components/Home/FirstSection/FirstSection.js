@@ -11,7 +11,6 @@ const FirstSection = ({
   dataScienceCounselling,
   interstedInHide,
 }) => {
-  console.log("first section");
   const [popups, setPopups] = useState(false);
   return (
     <>

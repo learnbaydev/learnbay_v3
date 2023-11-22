@@ -4,8 +4,6 @@ import { AiFillCloseCircle } from "react-icons/ai";
 // import Button from "../Global/Button/Button";
 
 const OfferPopup = ({ popupData }) => {
-  // console.log(popupData);
-
   const [open, setOpen] = useState(false);
   const handelOpen = () => {
     setOpen(false);
