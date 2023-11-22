@@ -224,6 +224,7 @@
 
   .ActiveSpan {
     margin: 0;
+    margin-bottom: 10px;
   }
   .Course h2 {
     font-size: 24px;
@@ -248,13 +249,14 @@
     overflow-x: auto;
     padding-left: 0;
   }
-  .listPanel span {
+  .listPanel .span {
     font-size: 16px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 15px 10px;
     background-color: aliceblue;
+    margin-bottom: 10px;
   }
   .listPanel .gridPanel {
     grid-template-columns: 85% 85% 85% 85% 85% 85% 85%;
@@ -267,9 +269,7 @@
     height: auto;
     margin-top: 0px;
   }
-  .gridPanel {
-    display: none;
-  }
+ 
   .leftSide,
   .middleSide,
   .rightSide {
@@ -290,5 +290,8 @@
   }
   .gridPanel .left {
     margin-bottom: 20px;
+  }
+  .middlePanel .gridPanel{
+display: none;
   }
 }

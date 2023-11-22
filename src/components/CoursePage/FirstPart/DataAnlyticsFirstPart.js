@@ -29,12 +29,12 @@ const DataAnlyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         dataScience={true}
         ThirdTyped="Live Interactive Classes"
         titleCourse="Data Analytics Certification Program"
-        cityParaCont="Upskill yourself to the top within 6 months with curricullum designed by industry experts"
+        cityParaCont="Upskill yourself to the top within 6 months with curriculum designed by industry experts"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program.pdf"
-        FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/advance-header.webp"
+        FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/dahead.webp"
         firstToparaImg=""
         firstHeading="Data Analytics Certification Program"
-        firstTopPara="Upskill yourself to the top within 6 months with curricullum designed by industry expert"
+        firstTopPara="Curriculum Inclusive of Gen-AI"
         idss="bfl64ANfSV0"
       />
       <SecondSection SecondSectionData={SecondSectionData} />
@@ -44,19 +44,19 @@ const DataAnlyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         interstedInHide={true}
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program.pdf"
       />
-      <WhoProgram
+      {/* <WhoProgram
         dataScience={true}
         interstedInHide={true}
         leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/advance-who.webp"
         ThirdSectionData={ThirdSectionData}
-      />
+      /> */}
       <TrainerSection idss="eautK0odE7Q" />
       <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} />
       <WhoIsProgram
-        first="Non-tech professionals with 6 months experience"
-        second="Minimum 1 year of IT work experience"
-        third="Mid-career professionals interested in data science & AI"
-        forth="Achieving higher career growth in data science and AI"
+        first="Bachelor's degree with consistent good academic"
+        second="Minimum 1 year of IT/Non-IT work experience"
+        third="Early to mid-career professionals interested in data analytics"
+        forth="Developing skills in data analytics for future opportunities"
       />
       <WhyLearnbay idss="ZPOTy4PEnNU" />
       <GetHire />

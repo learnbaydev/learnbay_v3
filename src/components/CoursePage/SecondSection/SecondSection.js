@@ -5,24 +5,24 @@ import styles from "./SecondSection.module.css";
 function SecondSection({ SecondSectionData }) {
   const featureData = [
     {
-      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Mask+group+(4).png",
+      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/sec1.webp",
       alt: "data science course",
-      text: "Globally Recognized Degree",
+      text: "1:1 Doubt Session",
     },
     {
       src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Mask+group+(5).png",
       alt: "data science course",
-      text: "Immigration Opportunities",
+      text: "Guaranteed Interview Calls",
     },
     {
-      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Mask+group+(6).png",
+      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/sec3.webp",
       alt: "data science course",
-      text: "Integrated Generative AI",
+      text: "IBM Project Certificate",
     },
     {
-      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Mask+group+(7).png",
+      src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/sec4.webp",
       alt: "data science course",
-      text: "Transferable ECTS Credits",
+      text: "Designed For Professionals  ",
     },
   ];
 

@@ -5,7 +5,7 @@ import Navbar from "@/components/Global/Navbar/Navbar";
 import FirstSection from "@/components/CoursePage/FirstSection/FirstSection";
 import SecondSection from "@/components/CoursePage/SecondSection/SecondSection";
 const SecondNavbar = dynamic(() => import("../SecondNavbar/SecondNavbar"));
-import { ThirdSectionData } from "@/Data/ThirdSectionData";
+import { BAThirdSectionData } from "@/Data/ThirdSectionData";
 const WhoProgram = dynamic(() => import("../WhoProgram/ThirdSection"));
 const TrainerSection = dynamic(() =>
   import("../../Global/TrainerSection/TrainerSection")
@@ -30,8 +30,8 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         ThirdTyped="Live Interactive Classes"
         titleCourse="Businesss Analytics Certification Program"
         cityParaCont="Elevate your tech career with our programs"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
-        FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/advance-header.webp"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program.pdf"
+        FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/busihead1.webp"
         firstToparaImg=""
         firstHeading="Businesss Analytics Certification Program"
         firstTopPara="Get real-world experience with capstone projects"
@@ -42,16 +42,16 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       <WhoProgram
         dataScience={true}
         leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/advance-who.webp"
-        ThirdSectionData={ThirdSectionData}
+        ThirdSectionData={BAThirdSectionData}
         interstedInHide={true}
       />
       <TrainerSection idss="eautK0odE7Q" />
       <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} />
       <WhoIsProgram
-        first="Non-tech professionals with 6 months experience"
-        second="Minimum 1 year of IT work experience"
-        third="Mid-career professionals interested in data science & AI"
-        forth="Achieving higher career growth in data science and AI"
+        first="Bachelor's degree with consistent good academic"
+        second="Minimum 1 year of IT/Non-IT work experience"
+        third="Early to mid-career professionals interested in data analytics"
+        forth="Developing skills in data analytics for future opportunities"
       />
       <WhyLearnbay idss="ZPOTy4PEnNU" />
       <GetHire />
@@ -59,7 +59,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         dataScience={true}
         titleCourse="Businesss Analytics Certification Program"
         interstedInHide={true}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program.pdf"
       />
     </>
   );

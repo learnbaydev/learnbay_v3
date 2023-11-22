@@ -38,7 +38,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         dataScience={true}
         titleCourse="Advance Data Science & AI Program with Domain Specialization"
         cityParaCont="Elevate your tech career with our Master's programs"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
         FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/advance-header.webp"
         firstToparaImg="with Domain Specialization"
         firstHeading="Advance Data Science & AI Program"
@@ -49,7 +49,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       <SecondNavbar
         interstedInHide={true}
         dataScience={true}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
         titleCourse="Advance Data Science & AI Program with Domain Specialization"
       />
       <WhoProgram
@@ -60,10 +60,10 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       <TrainerSection idss="eautK0odE7Q" />
       <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} />
       <WhoIsProgram
-        first="Non-tech professionals with 6 months experience"
-        second="Minimum 1 year of IT work experience"
-        third="Mid-career professionals interested in data science & AI"
-        forth="Achieving higher career growth in data science and AI"
+        first="Bachelor's degree with consistent good academic"
+        second="Minimum 6 Months of IT/Non-IT work experience"
+        third="Early to mid-career professionals interested in data science"
+        forth="Developing skills in data science for future opportunities"
       />
       <WhyLearnbay idss="ZPOTy4PEnNU" />
       <GetHire />
@@ -71,7 +71,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         dataScience={true}
         interstedInHide={true}
         titleCourse="Advance Data Science & AI Program with Domain Specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
       />
     </>
   );

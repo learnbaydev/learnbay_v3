@@ -1,3 +1,9 @@
+.IOS {
+  background-color: red;
+  width: 400px;
+  height: 100px;
+}
+
 .First {
   background-size: contain;
   margin-top: 80px;

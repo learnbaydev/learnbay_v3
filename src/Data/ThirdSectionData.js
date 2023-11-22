@@ -2,6 +2,10 @@ import { MdOutlinePrecisionManufacturing } from "react-icons/md";
 import { FaClinicMedical } from "react-icons/fa";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { BsBank } from "react-icons/bs";
+import { FaUsers } from "react-icons/fa";
+import { FaTruckRampBox } from "react-icons/fa6";
+
+
 
 export const ThirdSectionData = [
   {
@@ -22,11 +26,11 @@ export const ThirdSectionData = [
   },
   {
     id: 1,
-    icon: <AiOutlineFundProjectionScreen />,
-    heading: "HR & Marketing",
-    para: "For recruiter, talent acquisition specialist and marketing pros.",
+    icon: <FaTruckRampBox/>,
+    heading: "Supply Chain",
+    para: " For retail, e-commerce & supplychain professionals.",
     brochureLink:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales%2C+Marketing+and+HR+Domain.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf",
   },
   {
     id: 1,
@@ -36,4 +40,32 @@ export const ThirdSectionData = [
     brochureLink:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf",
   },
+];
+export const BAThirdSectionData = [
+  {
+    id: 1,
+    icon: <BsBank />,
+    heading: "BFSI",
+    para: "Designed for executive-level BFSI professionals, accountant.",
+    brochureLink:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf",
+  },
+ 
+  {
+    id: 2,
+    icon: <AiOutlineFundProjectionScreen />,
+    heading: "Marketing",
+    para: "Designed for marketing researchers and professionals.",
+    brochureLink:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales%2C+Marketing+and+HR+Domain.pdf",
+  },
+  {
+    id: 3,
+    icon: <FaUsers />,
+    heading: "HR ",
+    para: "For recruiters and talent acquisition professionals,",
+    brochureLink:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales%2C+Marketing+and+HR+Domain.pdf",
+  },
+ 
 ];
