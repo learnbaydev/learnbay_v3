@@ -6,7 +6,6 @@ import { FaRegBuilding } from "react-icons/fa";
 import { FiVideo } from "react-icons/fi";
 
 function WhyLearnbay() {
-  // console.log("why learnbays");
   return (
     <section className={styles.Container}>
       <div>

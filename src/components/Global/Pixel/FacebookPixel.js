@@ -4,7 +4,6 @@ import Script from "next/script";
 
 const FacebookPixel = () => (
   <Script
-    strategy="lazyOnload"
     dangerouslySetInnerHTML={{
       __html: `
         !function(f,b,e,v,n,t,s)

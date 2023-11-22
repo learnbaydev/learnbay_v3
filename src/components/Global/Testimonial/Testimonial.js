@@ -34,7 +34,7 @@ function Testimonial({ redirectDS, para, heading, Testimonial }) {
       setMobile(true);
     }
   }, []);
-  // console.log("testimonial");
+
   return (
     <div className={styles.testimonial} id="alumni">
       <VideoPopup triggers={video} setTriggers={setVideo} ids={vId} />

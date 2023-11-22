@@ -39,7 +39,7 @@ const MasterApplicationForm = ({ secondForm, title }) => {
     Object.entries(query).forEach(([key, value]) => {
       formData.append(key, value);
     });
-    // console.log(query);
+
     const sendData = await fetch(
       secondForm
         ? "https://getform.io/f/c97e799c-c954-4fc8-80c9-47b33ce2bb5d"
@@ -63,7 +63,6 @@ const MasterApplicationForm = ({ secondForm, title }) => {
       // Default: "no"
     });
 
-    // console.log(sendData.status);
     setValue();
     if (sendData.status === 200) router.push("/Thank-you-counselling");
   };

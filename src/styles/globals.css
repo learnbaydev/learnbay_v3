@@ -410,4 +410,7 @@ a {
     padding-right: 10px;
     margin: 0;
   }
+  .RightPopup {
+    margin-left: 0;
+  }
 }

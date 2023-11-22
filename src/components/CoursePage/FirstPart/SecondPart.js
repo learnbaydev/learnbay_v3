@@ -12,19 +12,15 @@ const Certificate = dynamic(() =>
 const FeeSection = dynamic(() =>
   import("../../../components/CoursePage/FeeSection/FeeSection")
 );
-
 const MentorsSection = dynamic(() =>
   import("../../../components/Global/MentorsSection/MentorsSection")
 );
-
 const SliderTab = dynamic(() =>
   import("../../../components/Global/SliderTabs/SliderTabs")
 );
-
 const PlacementCall = dynamic(() =>
   import("../../../components/Global/PlacementCall/PlacementCall")
 );
-
 const NewProjectSection = dynamic(() =>
   import("../../../components/Global/NewProjectSection/NewProjectSection")
 );

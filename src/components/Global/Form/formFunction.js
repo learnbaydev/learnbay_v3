@@ -73,7 +73,6 @@ const redirectionThankYou = (
 };
 
 const getValidation = (radio, interstedInHide, query) => {
-  console.log(radio, interstedInHide);
   if (query.phone === "" || query.phone === undefined) {
     return true;
   } else if (radio === true && interstedInHide === true) {

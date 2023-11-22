@@ -23,7 +23,6 @@ const Course = ({
   dataScienceGeneric,
   interstedInHide,
 }) => {
-  // console.log("course component");
   const [mobile, setMobile] = useState(false);
   const [value, setValue] = useState(3.68);
   const [popups, setPopups] = useState(false);

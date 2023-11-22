@@ -7,7 +7,9 @@ import "swiper/css/free-mode";
 import "swiper/css/scrollbar";
 import { AiOutlineRise } from "react-icons/ai";
 import dynamic from "next/dynamic";
-const ReviewPopup = dynamic(() => import("../../../components/Global/ReviewPopup/ReviewPopup"));
+const ReviewPopup = dynamic(() =>
+  import("../../../components/Global/ReviewPopup/ReviewPopup")
+);
 import VideoPopup from "../../Global/VideoPopup/VideoPopup";
 import { Pagination, Navigation } from "swiper";
 import "swiper/css/scrollbar";
@@ -40,7 +42,7 @@ function Testimonial({ redirectDS, para, heading, Testimonial }) {
       setMobile(true);
     }
   }, []);
-  console.log("testimonial");
+
   return (
     <div className={styles.testimonial} id="alumni">
       <VideoPopup triggers={video} setTriggers={setVideo} ids={vId} />

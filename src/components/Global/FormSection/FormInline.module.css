@@ -8,7 +8,6 @@
 .formWrapper {
   margin-bottom: 10px;
   width: 90%;
-  height: 100%;
   margin-bottom: 20px;
   text-align: left;
   display: flex;
@@ -19,9 +18,9 @@
 }
 
 .spanLabel {
-  color: #FF3131 !important;
+  color: #ff3131 !important;
   font-size: 15px;
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .formWrappers {
@@ -50,11 +49,11 @@
 .NameInputs {
   width: 100%;
   border-radius: 6px;
-border: 1px solid #D3D3D3;
+  border: 1px solid #d3d3d3;
   outline: none;
   background-color: rgba(255, 255, 255);
-padding: 10px;
-color: #828282;
+  padding: 10px;
+  color: #828282;
 }
 .EmailInput {
   border-radius: 2px;
@@ -71,7 +70,7 @@ color: #828282;
   border: 0;
   width: 100%;
   border-radius: 6px;
-border: 1px solid #D3D3D3;
+  border: 1px solid #d3d3d3;
   outline: none;
   background-color: rgba(255, 255, 255);
   padding: 10px;
@@ -82,10 +81,9 @@ border: 1px solid #D3D3D3;
   display: flex;
   align-items: center;
   border-radius: 6px;
-  border: 1px solid #D3D3D3;
+  border: 1px solid #d3d3d3;
   padding: 10px;
   color: #828282;
-
 }
 
 .NameInput::placeholder,
@@ -114,20 +112,36 @@ border: 1px solid #D3D3D3;
   font-size: 14px;
 }
 
+@media not all and (min-resolution: 0.001dpcm) {
+  /* Exclude Webkit 582+ */
+  @supports (-webkit-appearance: none) {
+    .formWrapper select,
+    .formWrappers select,
+    .formWrappers select,
+    .DateFormWrappers select {
+      -webkit-appearance: none;
+      background-image: url("/down-arrow.png"); /* Replace with the path to your arrow image */
+      background-position: right center;
+      background-repeat: no-repeat;
+      padding-right: 30px;
+    }
+  }
+}
 .formWrapper select {
   width: 100%;
   border-radius: 6px;
-border: 1px solid #D3D3D3;
+  border: 1px solid #d3d3d3;
   outline: none;
+
   background-color: rgba(255, 255, 255);
-padding: 10px;
+  padding: 10px;
 }
 .formWrapper select option {
   width: 100%;
   border: 0;
 }
 .FormText {
-  color: #B7B5B5;
+  color: #b7b5b5;
   font-size: 8px;
   text-align: center;
   margin: 0;
@@ -140,10 +154,10 @@ padding: 10px;
 .formWrappers select {
   width: 100%;
   border-radius: 6px;
-border: 1px solid #D3D3D3;
+  border: 1px solid #d3d3d3;
   outline: none;
   background-color: rgba(255, 255, 255);
-padding: 10px;
+  padding: 10px;
   color: #828282;
 }
 .formWrappers select::placeholder {
@@ -228,10 +242,8 @@ padding: 10px;
   align-items: center;
   justify-content: center;
   font-size: 14px;
-
-
 }
-.buttonDiv{
+.buttonDiv {
   margin-top: 20px;
 }
 
@@ -287,7 +299,7 @@ padding: 10px;
   width: 80%;
 }
 
-.formGrid{
+.formGrid {
   width: 100%;
   display: grid;
   grid-template-columns: 49% 49%;
@@ -295,15 +307,10 @@ padding: 10px;
   justify-content: center;
 }
 
-
-
-
 @media (max-width: 800px) {
-
-  .button{
+  .button {
     font-size: 15px;
   }
-  
 }
 
 @media (min-width: 961px) and (max-width: 1281px) {
