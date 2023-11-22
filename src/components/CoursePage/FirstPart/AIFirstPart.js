@@ -31,9 +31,9 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
         SecondTyped="Capstone Project Certificate"
         ThirdTyped="Live Interactive Classes"
         titleCourse="AI & ML Program for tech professionals"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf"
         idss="Jn2puEQC8yk"
-        FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/AIML-Header.png"
+        FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/art-header1.webp"
         firstToparaImg="AI & ML Program for tech professionals"
         firstHeading="Transform your future with our certified"
         firstTopPara="Expand beyond technology"
@@ -41,7 +41,7 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
       <SecondSection SecondSectionData={SecondSectionData} />
       <SecondNavbar
         titleCourse="AI & ML Program for tech professionals"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf"
         interstedInHide={true}
         dataScience={true}
       />
@@ -53,16 +53,16 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
       <TrainerSection idss="eautK0odE7Q" />
       <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} />
       <WhoIsProgram
-        first="Non-tech professionals with 6 months experience"
-        second="Minimum 1 year of IT work experience"
-        third="Mid-career professionals interested in data science & AI"
-        forth="Achieving higher career growth in data science and AI"
+   first="Bachelor's degree with consistent good academic"
+   second="Minimum 1 year of IT/Non-IT work experience"
+   third="Early to mid-career professionals interested in data analytics"
+   forth="Developing skills in data analytics for future opportunities"
       />
       <WhyLearnbay idss="ZPOTy4PEnNU" />
       <GetHire />
       <ContactConsellor
         titleCourse="AI & ML Program for tech professionals"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf"
         interstedInHide={true}
         dataScience={true}
       />

@@ -49,7 +49,7 @@ const FirstSectionContent = ({ setPopups }) => {
               />
             </div>
             <p className={styles.TextGreen}>
-              Curricullum inclusive of GenAI and ChatGPT
+              Curriculum inclusive of GenAI and ChatGPT
             </p>
           </div>
           <div className={styles.btnWrapper}>
@@ -73,7 +73,7 @@ const FirstSectionContent = ({ setPopups }) => {
         <div className={styles.secondLeft}>
           <div className={styles.imgWrapperDesktop}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/newHeaderOne.webp"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/newHeaderOne.webp"
               width="580"
               height="450"
               priority

@@ -68,6 +68,10 @@ const SecondPart = ({
         FeeContent5="15 days refund policy"
         FeeContent6="No additional cost"
         dataScienceCounselling={true}
+        interstedInHide={true}
+        dataScience={true}
+        titleCourse="Advanced Data Science and AI Program with domain specialization"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program.pdf"
       />
 
       <MentorsSection />

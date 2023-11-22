@@ -56,8 +56,8 @@ const SecondPart = ({
       <ToolsCovered />
       <Certificate data={CertificateData} />
       <FeeSection
-        Fee="₹ 1,10,000 + 18% GST"
-        FeeEmi="₹ 10,817/"
+        Fee="₹ 1,10,000"
+        FeeEmi="₹ 7,211/ Month"
         weekdaybatch="Weekday Batch"
         weekendbatch="Weekend Batch"
         weekday="MON - FRI"

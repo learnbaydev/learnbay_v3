@@ -124,7 +124,7 @@ export default function Home() {
       <WhyLearnbay ids="bfl64ANfSV0" />
       <ProjectSection ids="bfl64ANfSV0" />
       <GetHire />
-      <TrainerSection ids="eautK0odE7Q" />
+      <TrainerSection idss="eautK0odE7Q" />
       <Testimonial redirectDS={true} heading="" Testimonial={testimonial} />
       <ContactUs dataScienceCounselling={true} radio={true} interstedInHide={true}/>
       <SeventhSection />

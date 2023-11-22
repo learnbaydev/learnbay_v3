@@ -143,8 +143,11 @@ function FirstSection({
                 <Button
                   whiteBgButton={true}
                   text="INTRO VIDEO"
+                  
                   passIcon={<FaPlay className="bIconS" fontSize="14px" />}
                 />
+            
+
               </div>
             )}
           </div>

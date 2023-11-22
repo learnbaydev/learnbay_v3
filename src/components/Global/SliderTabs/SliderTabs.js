@@ -53,6 +53,7 @@ const SliderTabs = ({ dataScience, dataScienceCounselling }) => {
       index === activeService ? styles.ActiveSpan : styles.span;
 
     return (
+      <div className={styles.panel}>
       <div
         key={index}
         onClick={() => setActiveService(index)}
@@ -75,6 +76,29 @@ const SliderTabs = ({ dataScience, dataScienceCounselling }) => {
           <IoIosArrowForward className={styles.rightIcon} />
         </div>
       </div>
+{  index === activeService ?<div className={styles.gridPanel}>
+            <div className={styles.left}>
+              <h6>{currentService.title}</h6>
+
+              {currentService.content.map((point) => (
+                <div key={point} className={styles.mainCont}>
+                  <BsCheckCircle className={styles.checkCircle} />
+                  <p className={styles.para}>{point}</p>
+                </div>
+              ))}
+            </div>
+            <div className={`imgWrapper ${styles.right}`}>
+              <Image
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/coursePage/doamain-new.webp"
+                width="200"
+                height="200"
+                quality={40}
+                alt="projectLabs"
+              />
+            </div>
+          </div>:""}
+       
+          </div>
     );
   };
 
@@ -92,6 +116,7 @@ const SliderTabs = ({ dataScience, dataScienceCounselling }) => {
         <div className={styles.listPanel}>
           {services.map(renderServiceItem)}
         </div>
+        
 
         <div className={styles.middlePanel}>
           <div className={styles.gridPanel}>

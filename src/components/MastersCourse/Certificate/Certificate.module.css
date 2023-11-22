@@ -63,7 +63,7 @@
 .rightSide {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: normal;
   flex-flow: column;
   margin-top: 50px;
 
