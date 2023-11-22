@@ -88,7 +88,7 @@ a {
   height: 100%;
   left: 0;
   top: 0;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   width: 100%;
   overflow: hidden;
   z-index: -1;
@@ -409,5 +409,8 @@ a {
     /* border-right: 2px solid #2d9cd7;s */
     padding-right: 10px;
     margin: 0;
+  }
+  .RightPopup {
+    margin-left: 0;
   }
 }

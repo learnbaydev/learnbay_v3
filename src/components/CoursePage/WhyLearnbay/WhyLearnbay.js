@@ -29,6 +29,9 @@ function WhyLearnbay({ idss }) {
     setVideo(true);
   };
   // const el = useRef(null);
+  const popupShow = () => {
+    setPopups(true);
+  };
 
   useEffect(() => {
     let width = window.innerWidth;
@@ -267,7 +270,7 @@ function WhyLearnbay({ idss }) {
                   width="200"
                   height="212"
                   alt="profile-Img"
-                  // onClick={() => videoSHow()}
+                  onClick={() => videoSHow()}
                 />
               </div>
               <div className={Styles.BlueBox}>

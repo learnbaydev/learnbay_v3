@@ -12,19 +12,15 @@ const Certificate = dynamic(() =>
 const FeeSection = dynamic(() =>
   import("../../../components/CoursePage/FeeSection/FeeSection")
 );
-
 const MentorsSection = dynamic(() =>
   import("../../../components/Global/MentorsSection/MentorsSection")
 );
-
 const SliderTab = dynamic(() =>
   import("../../../components/Global/SliderTabs/SliderTabs")
 );
-
 const PlacementCall = dynamic(() =>
   import("../../../components/Global/PlacementCall/PlacementCall")
 );
-
 const NewProjectSection = dynamic(() =>
   import("../../../components/Global/NewProjectSection/NewProjectSection")
 );
@@ -68,6 +64,10 @@ const SecondPart = ({
         FeeContent5="15 days refund policy"
         FeeContent6="No additional cost"
         dataScienceCounselling={true}
+        interstedInHide={true}
+        dataScience={true}
+        titleCourse="Advanced Data Science and AI Program with domain specialization"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program.pdf"
       />
 
       <MentorsSection />

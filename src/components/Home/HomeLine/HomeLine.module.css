@@ -1,6 +1,6 @@
 .feature {
   width: 100%;
-  margin-top: -0px; /* Is this intentional? It looks like a typo */
+  margin-top: 20px; /* Is this intentional? It looks like a typo */
   text-align: center;
   padding: 20px;
 }

@@ -18,7 +18,7 @@ export const courseDetails = [
             titleCourse: "Advance Data Science and AI Certification",
             para: [
               "11 months | 4 projects",
-              "Project Certification form IBM",
+              "Project Certification from IBM",
               "3+ domain specialization",
             ],
             link1: "/datascience/advance-data-science-certification-courses",
@@ -75,7 +75,7 @@ export const courseDetails = [
             titleCourse: "Business Analytics Program",
             para: [
               "9 months | 2 projects",
-              "Project certification form IBM",
+              "Project certification from IBM",
               "3 domain electives",
             ],
             link1: "/datascience/business-analytics-certification-course",
@@ -165,7 +165,7 @@ export const courseDetails = [
             titleCourse: "Advance Data Science and AI Certification",
             para: [
               "11 months | 4 projects",
-              "Project Certification form IBM",
+              "Project Certification from IBM",
               "3+ domain specialization",
             ],
             link1: "/datascience/advance-data-science-certification-courses",
@@ -203,7 +203,7 @@ export const courseDetails = [
             titleCourse: "Business Analytics Program",
             para: [
               "9 months | 2 projects",
-              "Project certification form IBM",
+              "Project certification from IBM",
               "3 domain electives",
             ],
             link1: "/datascience/business-analytics-certification-course",

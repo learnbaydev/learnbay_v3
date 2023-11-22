@@ -178,6 +178,7 @@ const Form = ({
                     name={field.name}
                     required={field.required}
                     value={query[field.name]}
+                    className=""
                     onChange={handleParam(field.name)}
                   >
                     {field.options.map((option) => (

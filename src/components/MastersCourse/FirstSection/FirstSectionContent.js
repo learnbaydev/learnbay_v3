@@ -27,11 +27,13 @@ const FirstSectionContent = ({
         <Image
           src={
             mobile
-              ? "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/masterPage/newmaster-web.webp"
-              : "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Masters+header+BG+Mobile+View+(1).webp"
+              ? " https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Masters+header+BG+Mobile+View+(1).webp"
+              : "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/masterPage/newmaster-web.webp"
           }
           fill
-          priority
+          
+         
+         
           alt="Master program by learnbay"
         />
       </div>

@@ -2,6 +2,9 @@ import Image from "next/image";
 import React from "react";
 import Button from "../../Global/Button/Button";
 import styles from "./FirstSection.module.css";
+import { FaPlay } from "react-icons/fa";
+
+
 
 const FirstContent = ({
   softwareBtnHide,
@@ -75,7 +78,8 @@ const FirstContent = ({
               ""
             ) : (
               <div onClick={videoSHow}>
-                <Button whiteBgButton={true} text="INTRO VIDEO" />
+                <Button whiteBgButton={true} text="INTRO VIDEO" passIcon={ < FaPlay />} />
+              
               </div>
             )}
           </div>

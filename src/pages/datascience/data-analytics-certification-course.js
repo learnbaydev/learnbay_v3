@@ -68,16 +68,16 @@ function Blockchain({ DataScienceCourseDataJson }) {
     <>
       <Head>
         <title>
-          Artificial Intelligence and Data Science Course - Learnbay
+         Data Analaytics and Data Science Course - Learnbay
         </title>
         <meta
           name="description"
-          content="Upskill yourself with cutting edge Artificial Intelligence and Data Science Skills, Techniques by enrolling into the Learnbay's Advanced Data Science Course."
+          content="Upskill yourself with cutting edge Data Analytics and Data Science Skills, Techniques by enrolling into the Learnbay's Data Analytics Course"
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="Advanced Data Science and AI Program with domain specialization"
+          content="Data Anlaytics course and AI Program with domain specialization"
         />
         <link
           rel="icon"
@@ -85,7 +85,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/advance-data-science-certification-courses"
+          href="https://www.learnbay.co/datascience/data-analytics-certification-course"
         />
       </Head>
       <main>
