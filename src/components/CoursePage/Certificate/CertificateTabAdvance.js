@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import styles from "./Certificate.module.css";
 import Image from "next/image";
 import { BsCheckCircle } from "react-icons/bs";
-function CertificateTab({ data }) {
+function CertificateTab({
+   data,
+  singlecertificate }) {
   const [MActive, setMActive] = useState(false);
   const [IActive, setIActive] = useState(true);
   const [IBCActive, setIBCActive] = useState(false);
@@ -20,8 +22,7 @@ function CertificateTab({ data }) {
           >
             IBM
           </p>
-
-          <p
+          {singlecertificate ? "":<> <p
             onClick={() => {
               setIActive(false);
               setMActive(true);
@@ -42,6 +43,9 @@ function CertificateTab({ data }) {
           >
             Project Certificate
           </p>
+          </>}
+
+         
         </div>
       </div>
 

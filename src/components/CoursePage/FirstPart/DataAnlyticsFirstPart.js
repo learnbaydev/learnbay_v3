@@ -30,19 +30,19 @@ const DataAnlyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         ThirdTyped="Live Interactive Classes"
         titleCourse="Data Analytics Certification Program"
         cityParaCont="Upskill yourself to the top within 6 months with curriculum designed by industry experts"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
         FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/dahead.webp"
         firstToparaImg=""
         firstHeading="Data Analytics Certification Program"
-        firstTopPara="Curriculum Inclusive of Gen-AI"
-        idss="bfl64ANfSV0"
+        firstTopPara="Curriculum designed by industry experts"
+        idss="y_0IdhFKJKM"
       />
       <SecondSection SecondSectionData={SecondSectionData} />
       <SecondNavbar
         titleCourse="Data Analytics Certification Program"
         dataScience={true}
         interstedInHide={true}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
       />
       {/* <WhoProgram
         dataScience={true}
@@ -64,7 +64,7 @@ const DataAnlyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         titleCourse="Data Analytics Certification Program"
         dataScience={true}
         interstedInHide={true}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
       />
     </>
   );

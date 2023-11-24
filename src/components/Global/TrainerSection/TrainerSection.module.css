@@ -67,6 +67,7 @@
   }
   .proImgWrap {
     padding: 13px 30px 0px 0px;
+    display: none;
   }
   .proImgWrap h2 {
     color: #414141;
@@ -87,7 +88,21 @@
   }
   .mobileView{
     display: block;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
+
+    
+    
   }
+  .mobileView h2{
+
+  color: #414141;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 126.5%;
+    display: flex;
+    justify-content: space-around;
+    margin: 14px;
+}
 }

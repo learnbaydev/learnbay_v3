@@ -141,7 +141,8 @@ function SecondNavbar({
             alt="Learnbay"
             loading="lazy"
             width={mobile ? "135" : "230"}
-            height={60}
+          
+            height={50}
           />
         </Link>
         <div className={styles.innerP}>

@@ -40,6 +40,7 @@ const SecondPart = ({
   CertificateData,
   projectSection,
   FAQNewData,
+  singlecertificate
 }) => {
   return (
     <div>
@@ -48,12 +49,12 @@ const SecondPart = ({
         dataScienceCounselling={true}
         dataScience={true}
         titleCourse="Advanced Data Science and AI Program with domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
         interstedInHide={true}
         buttonHide={true}
       />
       <ToolsCovered />
-      <Certificate data={CertificateData} />
+      <Certificate data={CertificateData} singlecertificate={singlecertificate}/>
       <FeeSection
         Fee="₹ 80,000"
         FeeEmi="₹ 5,244/month"
@@ -73,7 +74,7 @@ const SecondPart = ({
         interstedInHide={true}
         dataScience={true}
         titleCourse="Advanced Data Science and AI Program with domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
       />
 
       <MentorsSection />
@@ -83,7 +84,7 @@ const SecondPart = ({
       <NewProjectSection
         dataScience={true}
         titleCourse="Advanced Data Science and AI Program with domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
         projectSection={projectSection}
         interstedInHide={true}
       />

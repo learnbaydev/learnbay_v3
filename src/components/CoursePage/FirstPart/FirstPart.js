@@ -43,7 +43,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         firstToparaImg="with Domain Specialization"
         firstHeading="Advance Data Science & AI Program"
         firstTopPara="Curriculum Inclusive of Gen-AI "
-        idss="bfl64ANfSV0"
+        idss="YWxTtvb3x-U"
       />
       <SecondSection SecondSectionData={SecondSectionData} />
       <SecondNavbar

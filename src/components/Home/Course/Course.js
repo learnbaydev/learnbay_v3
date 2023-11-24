@@ -28,8 +28,8 @@ const Course = ({
   const [popups, setPopups] = useState(false);
 
   const [CourseLoop, setCourseLoop] = useState([
-    { title: "Popular Courses", value: true },
-    { title: "Certification Program", value: false },
+   
+    { title: "Certification Program", value: true },
     { title: "Master's Degree Program", value: false },
   ]);
 

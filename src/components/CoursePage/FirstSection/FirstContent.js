@@ -129,7 +129,7 @@ const FirstContent = ({
           ""
         ) : (
           <div onClick={videoSHow}>
-            <Button whiteBgButton={true} text="INTRO VIDEO" />
+            <Button whiteBgButton={true} text="INTRO VIDEO" passIcon={ < FaPlay />} />
           </div>
         )}
       </div>

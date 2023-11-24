@@ -1,42 +1,38 @@
-.infop {
-  color: black;
-  margin: 100px 0px 0px 0px;
+.toolmain {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.toolmobile img {
+  display: none;
+}
+
+
+
+
+
+@media screen and (max-width: 641px) {
+.toolmain img {
+  display: none;
+}
+.toolmobile img {
+  display: block;
+  margin: 6px;
+  padding: 0px 10px;
+}
+.toolmain h2{
+  font-size: 20px;
+  display: flex;
   text-align: center;
-  font-size: 32px;
-  font-weight: 700;
-}
-/* FiveColumnSlider.module.css */
-.sliderContainer {
-  width: 100%;
-  margin-top: 100px;
-  padding: 0px 50px 0px 50px;
-  margin: 30px 0px 10px 0px;
-}
-
-.margin {
-  margin: 10px 0px 30px 0px;
+  justify-content: center;
+  margin: 20px;
 }
 
 
-@media (max-width: 1025px) {
-  .toolscoverd {
-    padding: 50px 20px;
-  }
-}
-
-@media (max-width: 641px) {
-  .toolscoverd {
-    padding: 50px 20px;
-  }
-  .infop {
-    font-size: 24px;
-    margin: 20px;
-  }
 
 
-
-  .sliderContainer {
-    padding: 0px 5px;
-    margin: 20px 0px;
-  }
 }
