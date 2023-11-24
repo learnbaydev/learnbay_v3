@@ -64,7 +64,7 @@ function SecondNavbar({
       const scrollY = window.scrollY || window.pageYOffset;
 
       // Adjust this value based on when you want to show the button
-      if (scrollY >= 1500) {
+      if (scrollY >=1000) {
         setShowApplyButton(true);
         setShowLogo(true);
       } else {

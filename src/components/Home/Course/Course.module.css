@@ -1134,8 +1134,9 @@
   .listPanel {
     display: grid;
     width: 100%;
+    grid-gap: 0;
     gap: 0;
-    grid-template-columns: 42% 53% 60% 30%;
+    grid-template-columns: 50% 32% 30% 10%;
     height: max-content;
     overflow-x: scroll;
     overflow-y: hidden;

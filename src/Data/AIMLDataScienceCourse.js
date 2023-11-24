@@ -229,7 +229,7 @@ export const AIMLDataScienceCourseData = [
     masterSyllabusMobile: [
       {
         Module0: {
-          title: "L1 :- Module 0 :- Preparatory Classes (Programming + Maths)",
+          title: "Module 0 :- Preparatory Classes (Programming + Maths)",
           content: [
             {
               chap: {
@@ -270,39 +270,27 @@ export const AIMLDataScienceCourseData = [
       },
       {
         Module0: {
-          title: "L2 :- Module 1 :- Basic Python",
+          title: "TERM 1 :- Python Programming",
           content: [
             {
               chap: {
+                title: "Module 1 :- Basic Python",
                 desc: [
-                  "Programming Basics & Environment Setup",
-                  "Python Programming Overview",
-                  "Strings, Decisions & Loop Control",
+                  "Programming Basics & Environment Setup ",
+                  "Strings, Decisions & Loop Control ",
                   "Python Data Types",
-                  "Functions And Modules",
-                  "Class hands-on: 8+ Programs to be covered in the functions, Lambda, modules, Generators, and Packages class",
-                  "File I/O And Exceptional Handling and Regular Expression",
-                  "Class hands-on: 10+ Programs to be covered in class from File IO, Reg-ex and exception handling",
+                  "File I/O An d Exceptional Handling and Regular Expression",
                 ],
               },
             },
-          ],
-          id: 1,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "L2 :- Module 2 :- Advance Python",
-          content: [
             {
               chap: {
+                title: "Module 2 :- Advance Python",
                 desc: [
                   "Data Analysis Using Numpy",
                   "Data Analysis Using Pandas",
                   "Data Visualization using Matplotlib",
                   "Data Visualization using Seaborn",
-                  "Case Study on Numpy, Pandas, Matplotlib 1 Case Study on Pandas And Seaborn",
                 ],
               },
             },
@@ -311,36 +299,50 @@ export const AIMLDataScienceCourseData = [
           open: false,
         },
       },
+      // {
+      //   Module0: {
+      //     title: "L2 :- Module 2 :- Advance Python",
+      //     content: [
+      //       {
+      //         chap: {
+      //           desc: [
+      //             "Data Analysis Using Numpy",
+      //             "Data Analysis Using Pandas",
+      //             "Data Visualization using Matplotlib",
+      //             "Data Visualization using Seaborn",
+      //             "Case Study on Numpy, Pandas, Matplotlib 1 Case Study on Pandas And Seaborn",
+      //           ],
+      //         },
+      //       },
+      //     ],
+      //     id: 1,
+      //     open: false,
+      //   },
+      // },
       {
         Module0: {
-          title: "L3 :- Module 1 :- Statistics",
+          title: " TERM 2 :- Statistics and Machine Learning ",
           content: [
             {
               chap: {
+                title: "Module 1 :- Statistics",
                 desc: [
                   " Fundamentals of Math and Probability",
                   "All about Population & Sample",
-                  "Introduction to Statistics, Statistical Thinking",
+                  "Introduction to Statistics, ",
+                  "Statistical Thinking",
                   "Descriptive Statistics",
                   " Inferential Statistics",
                   "Hypothesis Testing",
                   " Linear Algebra",
                   "Data Processing & Exploratory Data Analysis",
-                  "EDA EDA Statistics Assignments: Total 4 practice sets and Assignments from Statistics",
+                  
                 ],
               },
             },
-          ],
-          id: 2,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "L3 :- Module 2 :- Machine Learning",
-          content: [
             {
               chap: {
+                title: " Module 2 :- Machine Learning",
                 desc: [
                   "Introduction to Machine Learning",
                   "Regression and Classification Models",
@@ -357,7 +359,7 @@ export const AIMLDataScienceCourseData = [
                   "K Means and Hierarchical Clustering",
                   "Hierarchical Clustering",
                   "Principal Component Analysis (PCA):",
-                  " Support Vector Machine (SVM) Case Study on Recommendation Engine for e-commerce/retail chain & Twitter data analysis using NLP",
+                  " Support Vector Machine (SVM)",
                 ],
               },
             },
@@ -366,12 +368,14 @@ export const AIMLDataScienceCourseData = [
           open: false,
         },
       },
+      
       {
         Module0: {
-          title: "L4 :- Module 1 :- SQL",
+          title: "TERM 3 :- Big Data Analytics and Visualization",
           content: [
             {
               chap: {
+                title:"Module 1 :- SQL",
                 desc: [
                   "SQL and RDBMS",
                   "NoSQL, HBase & MongoDB",
@@ -380,17 +384,9 @@ export const AIMLDataScienceCourseData = [
                 ],
               },
             },
-          ],
-          id: 6,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "L4 :- Module 2 :- MongoDB",
-          content: [
             {
               chap: {
+                title: " Module 2 :- MongoDB",
                 desc: [
                   "MongoDB Ecosystem",
                   "MongoDB Structures",
@@ -402,17 +398,9 @@ export const AIMLDataScienceCourseData = [
                 ],
               },
             },
-          ],
-          id: 6,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "L4 :- Module 3 :- Tableau",
-          content: [
             {
               chap: {
+                title: " Module 3 :- Tableau",
                 desc: [
                   "Dashboard and Stories",
                   "Visual Analytics",
@@ -422,17 +410,9 @@ export const AIMLDataScienceCourseData = [
                 ],
               },
             },
-          ],
-          id: 6,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "L4 :- Module 4 :-PowerBI",
-          content: [
             {
               chap: {
+                title: " Module 4 :-PowerBI",
                 desc: [
                   "Overview of the Workflow in",
                   "Power BI Desktop",
@@ -444,17 +424,9 @@ export const AIMLDataScienceCourseData = [
                 ],
               },
             },
-          ],
-          id: 6,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "L4 :- Module 5 :- Sparks Analytics",
-          content: [
             {
               chap: {
+                title: " Module 5 :- Sparks Analytics",
                 desc: [
                   "Introduction To Hadoop & Big Data",
                   "Hadoop Master: Slave Architecture",
@@ -464,17 +436,9 @@ export const AIMLDataScienceCourseData = [
                 ],
               },
             },
-          ],
-          id: 6,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "L4 :- Module 6 :- Time Series",
-          content: [
             {
               chap: {
+                title: "Module 6 :- Time Series",
                 desc: [
                   "Basics of Time Series Analysis and Forecasting",
                   "Method Selection in Forecasting",
@@ -492,102 +456,100 @@ export const AIMLDataScienceCourseData = [
           open: false,
         },
       },
+  
+    
+    
+   
+     
       {
         Module0: {
-          title: "L5 :- Module 1 :-Excel",
+          title: "TERM 4:- Advance AI ",
           content: [
             {
               chap: {
-                desc: [
-                  "Introduction to Excel",
-                  "Basic Formulas and Functions",
-                  "Data Formatting and Cell Styles",
-                  "Data Sorting and Filtering",
-                  "Charts and Graphs",
-                  "Data Validation and Protection",
-                  "PivotTables and PivotCharts",
-                  "Advanced Formulas and Functions",
-                  "Data Analysis Tools",
-                  "Excel Macros and Automation",
-                ],
-              },
-            },
-          ],
-          id: 6,
-          open: true,
-        },
-      },
-      {
-        Module0: {
-          title: "L5 :- Module 2 :- MLops",
-          content: [
-            {
-              chap: {
-                desc: [
-                  "Introduction to MLOps",
-                  "Version Control for ML",
-                  "Containerization and Docker",
-                  "Orchestration with Kubernetes",
-                  "Continuous Integration (CI) for ML",
-                ],
-              },
-            },
-          ],
-          id: 6,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "L5 :- Module 3 :- Deep Learning",
-          content: [
-            {
-              chap: {
+                title: "Module 1:-Deep Learning using TensorFlow ",
                 desc: [
                   "Neural Network",
                   "Simple Computation, Constants, and Variables",
-                  "Feature selection and engineering techniques (e.g. PCA, feature importance)",
-                  "Back-propagation",
+                  "Back-propagation – Learning Algorithm and visual representation",
                   "TensorBoard",
+                  "Convolutional Neural Network (CNN)",
+                  "Deep CNN",
+                  "Introducing Recurrent Neural Networks skflow: RNNs in skflow",
+                  "Understanding Of TFLearn APIs",
+                  "Understanding Keras API for implementing Neural Networks",
+                  "Building a CNN for Image Classification",
+                  "Project on backpropagation using Neural Networks with Tensor Flow",
+                  "SPAM Prediction using RNN",
+                  "Image Classifier using PyTorch",
                 ],
               },
             },
-          ],
-          id: 6,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "L5 :- Module 4 :- Deployment AWS+Azure",
-          content: [
+
             {
               chap: {
+                title: "Module 2:- Natural Language Processing ",
                 desc: [
-                  "Data Preparation and Feature Engineering",
+                  "Text Analysis",
+                  "Text Pre Processing Techniques",
+                  "Back-propagation – Learning Algorithm and visual representation",
+                  "Levenshtein distance - measuring the difference between two sequences",
+                  "Problems and solutions, LCS Algorithms",
+                  "Information Retrieval - Precision, Recall,F- score TF-IDF",
+                  "Sentiment analysis for marketing",
+                  "Toxic comments classification",
+                  "Language identification",
+                  "Generating research papers titles",
+                  "Application to translate and summarize the news",
+                  "RESTful API for similarity check",
+
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 3:-   Computer Vision ",
+                desc: [
+                  "Image Filtering",       
+                  "Image Processing",
+                 "Image Classification and segmentation",
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 4:- Reinforcement Learning ",
+                desc: [
+                  "OpenAI Gym Basics",       
+                  "Dynamic Programming Prediction, Control, and  Value Approximation",
+                 "Approximation Method for Reinforcement Learning",
+                  
+                ],
+              },
+            },
+
+              {
+              chap: {
+                title: "Module 5:-  Deployment AWS+Azure ",
+                desc: [
+                  "Data Preparation and Feature Engineering",       
                   "Model Training and Evaluation",
                   "Model Deployment and Management",
                   "Advanced Topics in Machine Learning on AWS and Azure",
                 ],
               },
             },
-          ],
-          id: 6,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title:
-            "L6 :- Module 1 :- Emerging Trends in AI and Generative Modeling",
-          content: [
-            {
+              {
               chap: {
+                title: "Module 6:-MLops ",
                 desc: [
-                  "Exploring other AI generative tools beyond ChatGPT and DALL·E",
-                  "Overview of Midjourney",
-                  "Discussion on future trends and advancements in AI generative tools",
-                  "Open-ended project and/or presentation on a selected topic, incorporating learned concepts",
+                  "Introduction to MLOps",       
+                  "Version Control for ML",
+                 "Containerization and Docker",
+                 "Orchestration with Kubernetes",
+                 "Continuous Integration (CI) for ML",
+                  
                 ],
               },
             },
@@ -598,10 +560,55 @@ export const AIMLDataScienceCourseData = [
       },
       {
         Module0: {
-          title: "L6 :- Module 2 :- Natural Language Processing and ChatGPT",
+          title: " TERM 5 :- Essentials",
           content: [
             {
               chap: {
+               title: " Module 1 :- DSA",
+                desc: [
+                  "Array Overview",
+                  "String",
+                  "Linked List",
+                  "Queue",
+                  "Stack",
+                  "Heap",
+                  "Trie",
+                  "Tree, Binary Search Tree and AVL Tree",
+                  "Segment Tree",
+                  "Graph & Recursion",
+                  "Introduction to recursion",
+                  "Backtracking Algorithm",
+                  "Searching",
+                  "Sorting",
+                  "Greedy Algorithm",
+                  "Pattern Searching",
+                  "Dynamic Programming",
+                ],
+              },
+            },
+            
+          ],
+          id: 6,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "TERM 6  :-AI Generative Tools and Future Trends ",
+          content: [
+            {
+              chap: {
+                 title: "Module 1 :- Emerging Trends in AI and Generative Modeling",
+                desc: [
+                  "Exploring other AI generative tools beyond ChatGPT and DALL·E",
+                  "Discussion on future trends and advancements in AI generative tools",
+                  "Open-ended project and/or presentation on a selected topic, incorporating learned concepts",
+                ],
+              },
+            },
+              {
+              chap: {
+                 title: "Module 2 :- Natural Language Processing and ChatGPT",
                 desc: [
                   "Introduction to natural language processing techniques",
                   "Understanding ChatGPT and its architecture",
@@ -610,38 +617,23 @@ export const AIMLDataScienceCourseData = [
                 ],
               },
             },
-          ],
-          id: 6,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "L6 :- Module 3 :- DALL·E: Image Generation with AI",
-          content: [
-            {
+
+                 {
               chap: {
+                 title: "Module 3 :- DALL·E: Image Generation with AI",
                 desc: [
                   "Exploring image generation using DALL·E",
                   "Hands-on exercises for creating unique images with DALL·E",
                   "Ethical considerations and limitations of AI-generated images",
+                 
                 ],
               },
             },
-          ],
-          id: 6,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title:
-            "L6 :- Module 4 :- Graph Neural Networks (GNN) for Data Analysis",
-          content: [
-            {
+                 {
               chap: {
+                 title: "Module 4 :-  Graph Neural Networks (GNN) for Data Analysis",
                 desc: [
-                  "Overview of Graph Neural Networks (GNN) and their applications",
+                "Overview of Graph Neural Networks (GNN) and their applications",
                   "Hands-on exercises using GNN for tasks such as node classification and link prediction",
                   "Case studies on real-world applications of GNN in data science",
                 ],
@@ -652,25 +644,7 @@ export const AIMLDataScienceCourseData = [
           open: false,
         },
       },
-      {
-        Module0: {
-          title: "L6 :- Term 5 :- AI Generative Tools and Future Trends ",
-
-          content: [
-            {
-              chap: {
-                desc: [
-                  "Overview of Graph Neural Networks (GNN) and their applications",
-                  "Hands-on exercises using GNN for tasks such as node classification and link prediction",
-                  "Case studies on real-world applications of GNN in data science",
-                ],
-              },
-            },
-          ],
-          id: 6,
-          open: false,
-        },
-      },
+    
     ],
     faq: [
       {
@@ -679,8 +653,8 @@ export const AIMLDataScienceCourseData = [
         data: [
           {
             id: 0,
-            ques: "What are the prerequisites for the Advanced Data Science and AI Program?",
-            ans: "There are no prerequisites for Advanced Data Science and AI Program, as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+            ques: "What are the prerequisites for the  AI & ML Program?",
+            ans: "There are no prerequisites for AI & ML Program, as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
             open: true,
           },
           {
@@ -691,13 +665,13 @@ export const AIMLDataScienceCourseData = [
           },
           {
             id: 2,
-            ques: "What is a Flexi Subscription in the Advance Data Science and AI Program?",
+            ques: "What is a Flexi Subscription in the  AI & ML Program?",
             ans: `Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 2 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
             open: false,
           },
           {
             id: 3,
-            ques: "What’s the duration of the Advance Data Science and AI Program?",
+            ques: "What’s the duration of the AI & ML Program?",
             ans: "The duration of this course is about 9 months (275 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch – 7 months, Monday to Friday – 2 hours/day, Weekend batch – 9 months, Saturday & Sunday – 3.5 hours/day",
             open: false,
           },
@@ -769,19 +743,19 @@ export const AIMLDataScienceCourseData = [
         data: [
           {
             id: 0,
-            ques: "What is the total Fee for the Advanced Data Science and AI Program?",
-            ans: "The total program fee for the Advanced Data Science and AI Program with Domain Specialization is INR 95,000 + 18% GST.",
+            ques: "What is the total Fee for the AI & ML Program?",
+            ans: "The total program fee for the AI & ML Program with Domain Specialization is INR 1,10,000 + 18% GST.",
             open: true,
           },
           {
             id: 1,
-            ques: "Can I pay in installments for the Advanced Data Science and AI Program?",
-            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 9,735/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+            ques: "Can I pay in installments for the AI & ML Program?",
+            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 7,211/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
             open: false,
           },
           {
             id: 2,
-            ques: "Is there any scholarship/discount available for Advanced Data Science and AI Program? What is Group Discount?",
+            ques: "Is there any scholarship/discount available for AI & ML Program? What is Group Discount?",
             ans: `Learnbay offers a 15 – 20% scholarship for early birds occasionally.
             Please check our website or contact our sales team to know more about the applicable discounts.
             
@@ -794,7 +768,7 @@ export const AIMLDataScienceCourseData = [
           },
           {
             id: 3,
-            ques: "What is the refund policy for the Advanced Data Science and AI Program at Learnbay?",
+            ques: "What is the refund policy for the AI & ML Program at Learnbay?",
             ans: "Candidates are advised to read  ",
             linkText1: "Learnbay’s Refund/Cancellation Policy",
             link1: "/refund-cancellation-policy",

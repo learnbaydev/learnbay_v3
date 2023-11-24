@@ -551,7 +551,7 @@ export const DataScienceMastersinCS = [
 
       {
         Module0: {
-          title: "S2 :- Deploymnet & Gen-AI (15 ECTS Credits)",
+          title: "S2 :- Deployment & Gen-AI (15 ECTS Credits)",
           content: [
             {
               chap: {

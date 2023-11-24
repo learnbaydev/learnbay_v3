@@ -32,10 +32,10 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
         ThirdTyped="Live Interactive Classes"
         titleCourse="AI & ML Program for tech professionals"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf"
-        idss="Jn2puEQC8yk"
-        FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/art-header1.webp"
-        firstToparaImg="AI & ML Program for tech professionals"
-        firstHeading="Transform your future with our certified"
+        idss="qxwIns6z2Bc"
+        FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ai-ml-main.webp"
+        firstToparaImg="for Tech Professionals"
+        firstHeading="Advance AI & ML Certification Program "
         firstTopPara="Expand beyond technology"
       />
       <SecondSection SecondSectionData={SecondSectionData} />

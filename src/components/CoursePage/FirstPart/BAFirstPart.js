@@ -30,12 +30,12 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         ThirdTyped="Live Interactive Classes"
         titleCourse="Businesss Analytics Certification Program"
         cityParaCont="Elevate your tech career with our programs"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
         FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/busihead1.webp"
         firstToparaImg=""
         firstHeading="Businesss Analytics Certification Program"
         firstTopPara="Get real-world experience with capstone projects"
-        idss="bfl64ANfSV0"
+        idss="CHut_wm-P2s"
       />
       <SecondSection SecondSectionData={SecondSectionData} />
       <SecondNavbar />
@@ -59,7 +59,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         dataScience={true}
         titleCourse="Businesss Analytics Certification Program"
         interstedInHide={true}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
       />
     </>
   );

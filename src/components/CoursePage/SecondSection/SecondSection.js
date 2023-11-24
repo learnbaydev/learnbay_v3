@@ -7,7 +7,7 @@ function SecondSection({ SecondSectionData }) {
     {
       src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/sec1.webp",
       alt: "data science course",
-      text: "1:1 Doubt Session",
+      text: "1-on-1 Doubt Session",
     },
     {
       src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Mask+group+(5).png",

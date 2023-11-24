@@ -136,11 +136,13 @@ const ProjectContent = ({ ids }) => {
               </div>
             </div>
             <div className={styles.buttonDiv}>
+            <Link href="/domain">
               <Button
                 bannerButton={true}
                 text="Download Domain Brochures"
                 passIcon={<FaDownload className="bIconS" />}
               />
+              </Link>
             </div>
           </div>
         </div>

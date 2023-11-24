@@ -19,12 +19,12 @@ const FirstSectionContent = ({ setPopups }) => {
           </h1>
           <p className={styles.blinkMobile}>
             Master real world skills with our domain specialised certification
-            and Degree programs
+            and Degree program
           </p>
           <div className={styles.imgWrapperMobile}>
             <div className="imgWrapper">
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/newHeaderOne.webp"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/newHeaderOne.webp"
                 width="580"
                 height="450"
                 priority
@@ -73,7 +73,7 @@ const FirstSectionContent = ({ setPopups }) => {
         <div className={styles.secondLeft}>
           <div className={styles.imgWrapperDesktop}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/newHeaderOne.webp"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/newHeaderOne.webp"
               width="580"
               height="450"
               priority

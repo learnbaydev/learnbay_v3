@@ -45,13 +45,17 @@ function TrainerSection({ idss }) {
           </div>
 
           <div className={Styles.mobileView}>
+          <h2>Alumni Spotlight</h2>
+          <div className="imgWrapper">
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/trainerMobile.webp"
+              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tariner_sec.webp"
               loading="lazy"
               width="350"
               height="100"
               alt="trainer mobile"
+              onClick={() => videoSHow(popupShow)}
             />
+            </div>
           </div>
 
           <div className={Styles.proImgWrap}>
@@ -62,7 +66,7 @@ function TrainerSection({ idss }) {
                 loading="lazy"
                 quality={100}
                 width="358"
-                height="212"
+                height="100"
                 alt="profile-Img"
                 onClick={() => videoSHow(popupShow)}
               />

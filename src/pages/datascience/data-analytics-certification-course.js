@@ -105,6 +105,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
           CertificateData={
             DataScienceCourseData.DADataScienceCourseData[0].Certificate
           }
+          singlecertificate={true}
           projectSection={
             DataScienceCourseData.DADataScienceCourseData[0].projectSection
           }
