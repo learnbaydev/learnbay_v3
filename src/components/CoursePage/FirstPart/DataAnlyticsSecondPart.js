@@ -87,7 +87,7 @@ const SecondPart = ({
       <PlacementCall />
       <NewProjectSection
         dataScience={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
+        titleCourse="Advanced Data Science and AI Program with domain specializations"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
         projectSection={projectSection}
         interstedInHide={true}
