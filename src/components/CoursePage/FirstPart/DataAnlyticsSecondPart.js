@@ -2,6 +2,9 @@ import React from "react";
 import dynamic from "next/dynamic";
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
+const WhatsappFloat = dynamic(() =>
+  import("@/components/Global/WhatappsFloat/WhatsappFloat")
+);
 const Certificate = dynamic(() =>
   import("../../../components/CoursePage/Certificate/Certificate")
 );
@@ -40,7 +43,7 @@ const SecondPart = ({
   CertificateData,
   projectSection,
   FAQNewData,
-  singlecertificate
+  singlecertificate,
 }) => {
   return (
     <div>
@@ -54,7 +57,10 @@ const SecondPart = ({
         buttonHide={true}
       />
       <ToolsCovered />
-      <Certificate data={CertificateData} singlecertificate={singlecertificate}/>
+      <Certificate
+        data={CertificateData}
+        singlecertificate={singlecertificate}
+      />
       <FeeSection
         Fee="₹ 80,000"
         FeeEmi="₹ 5,244/month"
@@ -76,11 +82,9 @@ const SecondPart = ({
         titleCourse="Advanced Data Science and AI Program with domain specialization"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
       />
-
       <MentorsSection />
       <SliderTab />
       <PlacementCall />
-
       <NewProjectSection
         dataScience={true}
         titleCourse="Advanced Data Science and AI Program with domain specialization"
@@ -88,12 +92,11 @@ const SecondPart = ({
         projectSection={projectSection}
         interstedInHide={true}
       />
-
       <FAQNew FAQNewData={FAQNewData} />
       <SeventhSection />
       <Footer />
-
       <BottomBar />
+      <WhatsappFloat />
     </div>
   );
 };

@@ -28,7 +28,6 @@ const Course = ({
   const [popups, setPopups] = useState(false);
 
   const [CourseLoop, setCourseLoop] = useState([
-   
     { title: "Certification Program", value: true },
     { title: "Master's Degree Program", value: false },
   ]);
@@ -250,7 +249,7 @@ const Course = ({
                                         newDesign
                                           ? { borderRadius: "20px" }
                                           : {
-                                              borderRadius: "8px",
+                                              borderRadius: "0px 0px 8px 8px",
                                               width: "92%",
                                               marginTop: "-12px",
                                               zIndex: "0",
@@ -301,7 +300,15 @@ const Course = ({
                                         ""
                                       )}
                                       <div className={styles.contentBox}>
-                                        <div className={styles.headWrapper}>
+                                        <div
+                                          className={styles.headWrapper}
+                                          style={
+                                            title === "Master in CS:" ||
+                                            title === "Advance Certification"
+                                              ? { marginTop: "5px" }
+                                              : { marginTop: "15px" }
+                                          }
+                                        >
                                           <h6
                                             className={
                                               Green

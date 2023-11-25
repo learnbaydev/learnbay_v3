@@ -2,6 +2,9 @@ import React from "react";
 import dynamic from "next/dynamic";
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
+const WhatsappFloat = dynamic(() =>
+  import("@/components/Global/WhatappsFloat/WhatsappFloat")
+);
 const Certificate = dynamic(() =>
   import("../../../components/CoursePage/Certificate/Certificate")
 );
@@ -91,7 +94,7 @@ const SecondPart = ({
       <FAQNew FAQNewData={FAQNewData} />
       <SeventhSection />
       <Footer />
-
+      <WhatsappFloat />
       <BottomBar />
     </div>
   );

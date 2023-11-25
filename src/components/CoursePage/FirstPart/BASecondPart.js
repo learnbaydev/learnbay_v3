@@ -2,6 +2,9 @@ import React from "react";
 import dynamic from "next/dynamic";
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
+const WhatsappFloat = dynamic(() =>
+  import("@/components/Global/WhatappsFloat/WhatsappFloat")
+);
 const Certificate = dynamic(() =>
   import("../../../components/CoursePage/Certificate/Certificate")
 );
@@ -75,11 +78,9 @@ const SecondPart = ({
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
         dataScience={true}
       />
-
       <MentorsSection />
       <SliderTab />
       <PlacementCall />
-
       <NewProjectSection
         dataScience={true}
         titleCourse="Advanced Data Science and AI Program with domain specialization"
@@ -87,12 +88,11 @@ const SecondPart = ({
         projectSection={projectSection}
         interstedInHide={true}
       />
-
       <FAQNew FAQNewData={FAQNewData} />
       <SeventhSection />
       <Footer />
-
       <BottomBar />
+      <WhatsappFloat />
     </div>
   );
 };
