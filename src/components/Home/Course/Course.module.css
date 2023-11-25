@@ -19,6 +19,7 @@
 }
 .listPanel {
   display: flex;
+  gap: 20px;
   width: 100%;
 }
 
@@ -869,6 +870,9 @@
   background-color: white;
   /* hello */
 }
+.contButton .imgWrap {
+  margin: 8px 11px 0px 0px;
+}
 .imgWrap {
   display: flex;
 
@@ -877,7 +881,7 @@
   border-radius: 30px;
   position: relative;
   z-index: 1;
-  margin: 8px 8px 8px 0px;
+  margin: 8px 12px 8px 0px;
 }
 
 .leftSide h6 {
@@ -887,6 +891,7 @@
   width: 100%;
   color: #000;
 }
+
 .headWrapper {
   display: flex;
   flex-flow: column;
@@ -1134,8 +1139,8 @@
   .listPanel {
     display: grid;
     width: 100%;
-    grid-gap: 0;
-    gap: 0;
+
+    gap: 50px;
     grid-template-columns: 50% 32% 30% 10%;
     height: max-content;
     overflow-x: scroll;
@@ -1164,7 +1169,7 @@
     height: 155px;
   }
   .hr {
-    top: 36%;
+    top: 37.8%;
     margin-left: -15px;
     width: 100%;
   }

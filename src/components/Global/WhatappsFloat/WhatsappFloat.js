@@ -1,16 +1,41 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Script from "next/script";
 
 function WhatsappFloat({ chat360code1 }) {
   // console.log("whatsapp");
+  const [shouldLoadScripts, setShouldLoadScripts] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPercentage =
+        (window.scrollY /
+          (document.documentElement.scrollHeight - window.innerHeight)) *
+        100;
+
+      if (scrollPercentage >= 40) {
+        setShouldLoadScripts(true);
+        // Remove the scroll event listener to avoid unnecessary checks
+        window.removeEventListener("scroll", handleScroll);
+      }
+    };
+
+    // Attach the scroll event listener
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup: remove the event listener when the component is unmounted
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <>
-      {chat360code1 ? (
-        <Script
-          strategy="lazyOnload"
-          dangerouslySetInnerHTML={{
-            __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
+      {shouldLoadScripts ? (
+        chat360code1 ? (
+          <Script
+            strategy="lazyOnload"
+            dangerouslySetInnerHTML={{
+              __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
 
                 var s = document.createElement('script');
 
@@ -79,13 +104,13 @@ function WhatsappFloat({ chat360code1 }) {
                 var x = document.getElementsByTagName('script')[0];
 
                 x.parentNode.insertBefore(s, x);`,
-          }}
-        />
-      ) : (
-        <Script
-          strategy="lazyOnload"
-          dangerouslySetInnerHTML={{
-            __html: `(function (botId) {
+            }}
+          />
+        ) : (
+          <Script
+            strategy="lazyOnload"
+            dangerouslySetInnerHTML={{
+              __html: `(function (botId) {
 
               var s = document.createElement("script");
 
@@ -112,11 +137,14 @@ function WhatsappFloat({ chat360code1 }) {
             })("25650848-8eaa-4160-ad08-5f3a3b1ffaa2");
 
       `,
-          }}
-        />
+            }}
+          />
+        )
+      ) : (
+        ""
       )}
     </>
   );
 }
 
-export default WhatsappFloat;
+export default React.memo(WhatsappFloat);

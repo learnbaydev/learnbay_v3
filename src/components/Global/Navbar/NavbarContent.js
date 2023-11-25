@@ -74,16 +74,17 @@ const NavbarContent = ({ adPage, setPopups }) => {
             height={60}
           />
         ) : (
-          <Link href="/">
-            <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png"
-              alt="Learnbay"
-              quality={100}
-              priority
-              style={{ objectFit: "contain" }}
-              width={mobile ? "135" : "230"}
-              height={60}
-            />
+          <Link href="/" className={styles.logo}>
+            <div className="imgWrapper">
+              <Image
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png"
+                alt="Learnbay"
+                quality={100}
+                priority
+                width={mobile ? "135" : "230"}
+                height={60}
+              />
+            </div>
           </Link>
         )}
 
