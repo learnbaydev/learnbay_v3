@@ -16,6 +16,7 @@ const FirstContent = ({
   cityParaCont,
   setPopups,
   setVideo,
+
 }) => {
   const popupShow = () => {
     setPopups(true);
@@ -42,14 +43,14 @@ const FirstContent = ({
               priority
             />
           </div>
-          <div className={styles.Desktop}>
+          <div className={ibmOnly ?  styles.DAibm: styles.Desktop}>
             <p className={styles.ptop}>In Collaboration With</p>
             <div className={styles.ImageBlock}>
               {ibmOnly ? (
                 <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/ibm-single-home.png"
-                  width="127"
-                  height="51"
+                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ibmnew.webp"
+                  width="80"
+                  height="30"
                   priority
                   alt="data science course"
                 />
@@ -62,6 +63,7 @@ const FirstContent = ({
                   alt="data science course"
                 />
               )}
+              
             </div>
           </div>
           <div className={styles.animationTextWrap}>
@@ -102,9 +104,9 @@ const FirstContent = ({
           <div className={styles.ImageBlock}>
             {ibmOnly ? (
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/ibm-single-home.png"
-                width="127"
-                height="51"
+                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ibmnew.webp"
+                width="80"
+                height="30"
                 priority
                 alt="data science course"
               />

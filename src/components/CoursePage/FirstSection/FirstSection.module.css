@@ -104,6 +104,11 @@
   display: block;
 }
 
+
+.DAibm{
+display: flex;
+gap: 14px;
+}
 .btnImage {
   display: flex;
   gap: 20px;
@@ -133,6 +138,7 @@
 .ImageBlock {
   width: 300px;
   height: max-content;
+  margin-top: 10px;
 }
 .secondLeft img {
   height: 440px;
@@ -235,6 +241,9 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
+  }
+  .DAibm {
+    display: none;
   }
 
   .Desktop {

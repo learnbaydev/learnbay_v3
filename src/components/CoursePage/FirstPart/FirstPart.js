@@ -39,7 +39,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         titleCourse="Advance Data Science & AI Program with Domain Specialization"
         cityParaCont="Elevate your tech career with our Master's programs"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
-        FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/advance-header.webp"
+        FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Adv-dsai-_1_-min.webp"
         firstToparaImg="with Domain Specialization"
         firstHeading="Advance Data Science & AI Program"
         firstTopPara="Curriculum Inclusive of Gen-AI "
