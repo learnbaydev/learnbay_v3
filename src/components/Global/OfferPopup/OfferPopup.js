@@ -10,11 +10,10 @@ const OfferPopup = ({ popupData }) => {
     setOpen(false);
   };
   useEffect(() => {
-    const audioElement = document.getElementById("popup-entry-sound");
+    // const audioElement = document.getElementById("popup-entry-sound");
 
     const timeOut = setTimeout(() => {
       setOpen(true);
-      audioElement.play();
     }, 10000);
 
     return () => {
@@ -26,7 +25,7 @@ const OfferPopup = ({ popupData }) => {
   return (
     open && (
       <div className={open ? styles.OfferPopup : styles.hide}>
-        <button
+        <p
           className={styles.Icon}
           onClick={() => {
             console.log("Close button clicked");
@@ -34,7 +33,7 @@ const OfferPopup = ({ popupData }) => {
           }}
         >
           close[X]
-        </button>
+        </p>
         <div className={styles.header}>
           <h6>{popupData.heading}</h6>
           <span>For Our Upcoming Batches</span>
@@ -71,11 +70,11 @@ const OfferPopup = ({ popupData }) => {
             </button>
           </a>
         </div>
-        <audio
+        {/* <audio
           id="popup-entry-sound"
           src="/pop.wav"
           onError={(error) => console.error("Audio playback error:", error)}
-        ></audio>
+        ></audio> */}
       </div>
     )
   );
