@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "../../../styles/Home.module.css";
 import dynamic from "next/dynamic";
+import { useEffect, useState } from "react";
 const FirstSection = dynamic(() =>
   import("../../../components/Seo/FirstSection/FirstSection")
 );
@@ -26,30 +27,56 @@ const CitiesRight = dynamic(() =>
   import("../../../components/Seo/CitiesRight/CitiesRight")
 );
 import { DSPuneCourseData } from "../../../CityData/Pune/dataScienceCourseTrainingInPune";
-const FAQNew = dynamic(() =>
-  import("../../../components/Seo/FAQNew/FAQNew")
-);
+const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
 import Popup from "../../../components/Global/Popup/Popup";
 import Navbar from "@/components/Global/Navbar/Navbar";
 import Footer from "../../../components/Global/Footer/Footer";
 import Form from "../../../components/Global/Form/Form";
-import React, { useState } from "react";
 import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
 import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
-
+const OfferPopup = dynamic(() =>
+  import("../../../components/Global/OfferPopup/OfferPopup")
+);
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
     setPopups(true);
   };
+  const [popupData, setPopupData] = useState([]);
+  // console.log(popupData);
+  useEffect(() => {
+    // console.log("inside UseEFFect");
+    const fetchPopup = async () => {
+      const data = await fetch("/api/Popup/popupGenerate", {
+        method: "GET",
+      });
+      if (data.status === 200) {
+        const { popData } = await data.json();
+        // console.log(popData, "get data");
+        if (popData == []) {
+          setPopupData([]);
+        }
+
+        popData.map((data, i) => {
+          // console.log(data);
+          data.page.map((popupData, i) => {
+            // console.log(popData);
+            if (popupData === "Adv Data Science and AI") {
+              setPopupData(data);
+              // console.log(popupData);
+              return;
+            }
+          });
+        });
+      }
+    };
+    fetchPopup();
+  }, []);
   return (
     <div className={styles.container}>
       <Head>
-      <title>
-            Best Data Science Courses Training in Pune- Learnbay
-
-        </title>
+        <title>Best Data Science Courses Training in Pune- Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -59,8 +86,7 @@ export default function Home() {
           name="keywords"
           content="data science online course, data science certification in pune, data science course in india, data science course in pune, data science training in pune, data science courses, data science courses in pune, data science course, data science training, data science institute, data science certification,"
         />
-
-<meta
+        <meta
           property="og:url"
           content="https://www.learnbay.co/datascience/pune/data-science-course-training-in-pune"
         />
@@ -199,7 +225,7 @@ export default function Home() {
             __html: ` ${DSPuneCourseData[0].script4} `,
           }}
         />
-<script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
@@ -282,9 +308,6 @@ export default function Home() {
 } `,
           }}
         />
-        
-
-
       </Head>
       <main>
         {" "}
@@ -302,7 +325,7 @@ export default function Home() {
           FirstTyped="Guaranteed Interview Calls"
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
-          dataScience={true}  
+          dataScience={true}
           titleCourse="Advanced Data Science and AI Program with domain specialization"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
           idss="bfl64ANfSV0"
@@ -319,19 +342,19 @@ export default function Home() {
           para="Discover the impact of our programs on career growth"
         />
         <div className={styles.cityFee}>
-        <FeeSection
- Fee="₹ 1,25,000"
- FeeEmi="₹ 8,194/month"
- WeekdayDate="NOV 17th"
- WeekendDate="NOV 26th"
- WeekendTime="09:30 AM - 1:00 PM"
- WeekdayTime="08:00 AM - 10:00 AM"
- FeeContent3="Flexible payment"
- FeeContent4="Easy loan procedure"
- FeeContent5="15 days refund policy"
- FeeContent6="No additional cost"
- dataScienceCounselling={true}
-        />
+          <FeeSection
+            Fee="₹ 1,25,000"
+            FeeEmi="₹ 8,194/month"
+            WeekdayDate="NOV 17th"
+            WeekendDate="NOV 26th"
+            WeekendTime="09:30 AM - 1:00 PM"
+            WeekdayTime="08:00 AM - 10:00 AM"
+            FeeContent3="Flexible payment"
+            FeeContent4="Easy loan procedure"
+            FeeContent5="15 days refund policy"
+            FeeContent6="No additional cost"
+            dataScienceCounselling={true}
+          />
         </div>
         <div className="MainCities">
           <div className="CitiesLeft">
@@ -425,9 +448,7 @@ export default function Home() {
               JobHead2={DSPuneCourseData[0].JobHead2}
               JobBot3={DSPuneCourseData[0].JobBot3}
               ProjectsBot1={DSPuneCourseData[0].ProjectsBot1}
-              ProjectsBot2= {DSPuneCourseData[0].ProjectsBot2}
-  
-        
+              ProjectsBot2={DSPuneCourseData[0].ProjectsBot2}
               src1={DSPuneCourseData[0].src1}
               ProjectsH1={DSPuneCourseData[0].ProjectsH1}
               Projectsp1={DSPuneCourseData[0].Projectsp1}
@@ -453,7 +474,6 @@ export default function Home() {
               Asrc4={DSPuneCourseData[0].Asrc4}
               AlumniH4={DSPuneCourseData[0].AlumniH4}
               Alumnip4={DSPuneCourseData[0].Alumnip4}
-          
             />
             <div className={styles.faqCity}>
               <FAQNew FAQNewData={DSPuneCourseData[0].faq} />
@@ -468,6 +488,7 @@ export default function Home() {
           CityTextL={DSPuneCourseData[0].CityTextL}
         />
         <Footer />
+        {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
       </main>
     </div>
   );
