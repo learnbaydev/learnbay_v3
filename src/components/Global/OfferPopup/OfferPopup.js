@@ -24,9 +24,17 @@ const OfferPopup = ({ popupData }) => {
   const firstPoint = popupData.para1.split("$$$");
   const secondPoint = popupData.para2.split("$$$");
   return (
-    <>
+    open && (
       <div className={open ? styles.OfferPopup : styles.hide}>
-        <p className={styles.Icon}>close[X]</p>
+        <button
+          className={styles.Icon}
+          onClick={() => {
+            console.log("Close button clicked");
+            setOpen(false);
+          }}
+        >
+          close[X]
+        </button>
         <div className={styles.header}>
           <h6>{popupData.heading}</h6>
           <span>For Our Upcoming Batches</span>
@@ -69,7 +77,7 @@ const OfferPopup = ({ popupData }) => {
           onError={(error) => console.error("Audio playback error:", error)}
         ></audio>
       </div>
-    </>
+    )
   );
 };
 
