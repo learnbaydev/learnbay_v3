@@ -1,9 +1,9 @@
 import Head from "next/head";
 import { parseJSONData } from "@/Util/JsonConvertor";
-import { useEffect, useState } from "react";
-
 import FirstPart from "@/components/CoursePage/FirstPart/FirstPart";
 import SecondPart from "@/components/CoursePage/FirstPart/SecondPart";
+import Navbar from "@/components/Global/Navbar/Navbar";
+import FirstSection from "@/components/CoursePage/FirstSection/FirstSection";
 
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
@@ -33,6 +33,21 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
       </Head>
       <main>
+        <Navbar dataScienceCounselling={true} interstedInHide={true} />
+        <FirstSection
+          dataScienceCounselling={true}
+          interstedInHide={true}
+          ThirdTyped="Live Interactive Classes"
+          dataScience={true}
+          titleCourse="Advance Data Science & AI Program with Domain Specialization"
+          cityParaCont="Elevate your tech career with our Master's programs"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Adv-dsai-_1_-min.webp"
+          firstToparaImg="with Domain Specialization"
+          firstHeading="Advance Data Science & AI Program"
+          firstTopPara="Curriculum Inclusive of Gen-AI "
+          idss="YWxTtvb3x-U"
+        />
         <FirstPart
           SecondSectionData={
             DataScienceCourseData.DataScienceCourseData[0].secondSection
@@ -41,6 +56,8 @@ function Blockchain({ DataScienceCourseDataJson }) {
             DataScienceCourseData.DataScienceCourseData[0].testimonial
           }
         />
+      </main>
+      <main>
         <SecondPart
           masterSyllabusMobile={
             DataScienceCourseData.DataScienceCourseData[0].masterSyllabusMobile
