@@ -9,7 +9,7 @@
   margin-top: 80px;
   padding: 45px 100px 40px 130px;
   display: grid;
-  grid-template-columns: 53% 43%;
+  grid-template-columns: 53% 47%;
   gap: 50px;
   background: linear-gradient(180deg, #232323 16.69%, #012f4e 99.97%);
   align-items: center;
@@ -103,7 +103,14 @@
 .Desktop {
   display: block;
 }
-
+.secondLeft {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
 .btnImage {
   display: flex;
   gap: 20px;
@@ -134,10 +141,7 @@
   width: 300px;
   height: max-content;
 }
-.secondLeft img {
-  height: 440px;
-  width: 634px;
-}
+
 @media (max-width: 1281px) {
   .First {
     padding: 40px 80px;
@@ -203,6 +207,7 @@
     justify-content: center;
   }
   .secondLeft {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -242,16 +247,22 @@
   }
   .Mobile {
     display: block;
-    width: -webkit-fill-available;
+    width: 100%;
   }
   .btnImage {
     display: none;
   }
-  .secondLeft img {
-    height: fit-content;
-    width: 100vw;
-    padding: 0px 20px 0px 20px;
-    margin: -20px 0px 20px 0px;
+  .secondLeft {
+    position: relative;
+    height: 340px;
+  }
+  .secondInner {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
   }
   .h1 {
     font-size: 27px;
@@ -293,7 +304,6 @@
     margin: auto;
     display: flex;
     justify-content: center;
-    
   }
   .animationText {
     display: none;

@@ -53,35 +53,36 @@ const SliderTabs = ({ dataScience, dataScienceCounselling }) => {
       index === activeService ? styles.ActiveSpan : styles.span;
 
     return (
-      <div className={styles.panel}>
-      <div
-        key={index}
-        onClick={() => setActiveService(index)}
-        className={activeClass}
-      >
-        <div className={styles.img}>
-          <Image
-            src={service.icon}
-            loading="lazy"
-            width="25"
-            height="25"
-            alt="Bulb"
-            quality={40}
-          />
-          <span>{service.title}</span>
-          {/* {mobile ? bfsiButton ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""} */}
-        </div>
+      <div className={styles.panel} key={index}>
+        <div
+          key={index}
+          onClick={() => setActiveService(index)}
+          className={activeClass}
+        >
+          <div className={styles.img}>
+            <Image
+              src={service.icon}
+              loading="lazy"
+              width="25"
+              height="25"
+              alt="Bulb"
+              quality={40}
+            />
+            <span>{service.title}</span>
+            {/* {mobile ? bfsiButton ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""} */}
+          </div>
 
-        <div>
-          <IoIosArrowForward className={styles.rightIcon} />
+          <div>
+            <IoIosArrowForward className={styles.rightIcon} />
+          </div>
         </div>
-      </div>
-{  index === activeService ?<div className={styles.gridPanel}>
+        {index === activeService ? (
+          <div className={styles.gridPanel}>
             <div className={styles.left}>
               <h6>{currentService.title}</h6>
 
-              {currentService.content.map((point) => (
-                <div key={point} className={styles.mainCont}>
+              {currentService.content.map((point, i) => (
+                <div key={i} className={styles.mainCont}>
                   <BsCheckCircle className={styles.checkCircle} />
                   <p className={styles.para}>{point}</p>
                 </div>
@@ -96,9 +97,11 @@ const SliderTabs = ({ dataScience, dataScienceCounselling }) => {
                 alt="projectLabs"
               />
             </div>
-          </div>:""}
-       
           </div>
+        ) : (
+          ""
+        )}
+      </div>
     );
   };
 
@@ -116,15 +119,14 @@ const SliderTabs = ({ dataScience, dataScienceCounselling }) => {
         <div className={styles.listPanel}>
           {services.map(renderServiceItem)}
         </div>
-        
 
         <div className={styles.middlePanel}>
           <div className={styles.gridPanel}>
             <div className={styles.left}>
               <h6>{currentService.title}</h6>
 
-              {currentService.content.map((point) => (
-                <div key={point} className={styles.mainCont}>
+              {currentService.content.map((point, i) => (
+                <div key={i} className={styles.mainCont}>
                   <BsCheckCircle className={styles.checkCircle} />
                   <p className={styles.para}>{point}</p>
                 </div>
