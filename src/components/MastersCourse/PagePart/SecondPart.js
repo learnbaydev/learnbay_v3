@@ -56,7 +56,7 @@ const SecondPart = ({
           // console.log(data);
           data.page.map((popupData, i) => {
             // console.log(popData);
-            if (popupData === "Adv Data Science and AI") {
+            if (popupData === "Master in Cs") {
               setPopupData(data);
               // console.log(popupData);
               return;
