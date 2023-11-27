@@ -131,7 +131,7 @@
     font-size: 16px;
   }
   .Offer button {
-    width: max-content;
+    display: none;
   }
   .bHeading {
     font-size: 18px;
