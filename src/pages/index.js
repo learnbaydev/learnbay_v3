@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from "react";
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import FirstSection from "@/components/Home/FirstSection/FirstSection";
@@ -8,6 +9,9 @@ import Navbar from "../components/Global/Navbar/Navbar";
 const Course = dynamic(() => import("@/components/Home/Course/Course"));
 const WhyLearnbay = dynamic(() =>
   import("@/components/Home/WhyLearnbay/WhyLearnbay")
+);
+const OfferPopup = dynamic(() =>
+  import("../components/Global/OfferPopup/OfferPopup")
 );
 const ProjectSection = dynamic(() =>
   import("@/components/Home/ProjectSection/ProjectSection")
@@ -90,6 +94,36 @@ export default function Home() {
       statLogo: " 150% Hike",
     },
   ];
+  const [popupData, setPopupData] = useState([]);
+  // console.log(popupData);
+  useEffect(() => {
+    // console.log("inside UseEFFect");
+    const fetchPopup = async () => {
+      const data = await fetch("/api/Popup/popupGenerate", {
+        method: "GET",
+      });
+      if (data.status === 200) {
+        const { popData } = await data.json();
+        // console.log(popData, "get data");
+        if (popData == []) {
+          setPopupData([]);
+        }
+
+        popData.map((data, i) => {
+          // console.log(data);
+          data.page.map((popupData, i) => {
+            // console.log(popData);
+            if (popupData === "Adv Data Science and AI") {
+              setPopupData(data);
+              // console.log(popupData);
+              return;
+            }
+          });
+        });
+      }
+    };
+    fetchPopup();
+  }, []);
   return (
     <>
       <Head>
@@ -120,17 +154,22 @@ export default function Home() {
         interstedInHide={true}
       />
       <HomeLine />
-      <Course dataScience={true} radio={true} interstedInHide={true}/>
+      <Course dataScience={true} radio={true} interstedInHide={true} />
       <WhyLearnbay ids="bfl64ANfSV0" />
       <ProjectSection ids="bfl64ANfSV0" />
       <GetHire />
       <TrainerSection idss="eautK0odE7Q" />
       <Testimonial redirectDS={true} heading="" Testimonial={testimonial} />
-      <ContactUs dataScienceCounselling={true} radio={true} interstedInHide={true}/>
+      <ContactUs
+        dataScienceCounselling={true}
+        radio={true}
+        interstedInHide={true}
+      />
       <SeventhSection />
       <Footer />
       <WhatsappFloat chat360code1={true} />
       <BottomBar radio={true} />
+      {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
     </>
   );
 }

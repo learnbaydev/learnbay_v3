@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { useEffect, useState } from "react";
 import styles from "../../../styles/Home.module.css";
 import dynamic from "next/dynamic";
 const FirstSection = dynamic(() =>
@@ -26,23 +27,52 @@ const CitiesRight = dynamic(() =>
   import("../../../components/Seo/CitiesRight/CitiesRight")
 );
 import { DSDelhiCourseData } from "../../../CityData/Delhi/DataScienceCourseTrainingDelhiData";
-const FAQNew = dynamic(() =>
-  import("../../../components/Seo/FAQNew/FAQNew")
-);
+const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
 import Popup from "../../../components/Global/Popup/Popup";
 import Navbar from "../../../components/Global/Navbar/Navbar";
 import Footer from "../../../components/Global/Footer/Footer";
 import Form from "../../../components/Global/Form/Form";
-import React, { useState } from "react";
 import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
 import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
-
+const OfferPopup = dynamic(() =>
+  import("../../../components/Global/OfferPopup/OfferPopup")
+);
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
     setPopups(true);
   };
+  const [popupData, setPopupData] = useState([]);
+  // console.log(popupData);
+  useEffect(() => {
+    // console.log("inside UseEFFect");
+    const fetchPopup = async () => {
+      const data = await fetch("/api/Popup/popupGenerate", {
+        method: "GET",
+      });
+      if (data.status === 200) {
+        const { popData } = await data.json();
+        // console.log(popData, "get data");
+        if (popData == []) {
+          setPopupData([]);
+        }
+
+        popData.map((data, i) => {
+          // console.log(data);
+          data.page.map((popupData, i) => {
+            // console.log(popData);
+            if (popupData === "Adv Data Science and AI") {
+              setPopupData(data);
+              // console.log(popupData);
+              return;
+            }
+          });
+        });
+      }
+    };
+    fetchPopup();
+  }, []);
   return (
     <div className={styles.container}>
       <Head>
@@ -168,19 +198,19 @@ export default function Home() {
           para="Discover the impact of our programs on career growth"
         />
         <div className={styles.cityFee}>
-        <FeeSection
- Fee="₹ 1,25,000"
- FeeEmi="₹ 8,194/month"
- WeekdayDate="NOV 17th"
- WeekendDate="NOV 26th"
- WeekendTime="09:30 AM - 1:00 PM"
- WeekdayTime="08:00 AM - 10:00 AM"
- FeeContent3="Flexible payment"
- FeeContent4="Easy loan procedure"
- FeeContent5="15 days refund policy"
- FeeContent6="No additional cost"
- dataScienceCounselling={true}
-        />
+          <FeeSection
+            Fee="₹ 1,25,000"
+            FeeEmi="₹ 8,194/month"
+            WeekdayDate="NOV 17th"
+            WeekendDate="NOV 26th"
+            WeekendTime="09:30 AM - 1:00 PM"
+            WeekdayTime="08:00 AM - 10:00 AM"
+            FeeContent3="Flexible payment"
+            FeeContent4="Easy loan procedure"
+            FeeContent5="15 days refund policy"
+            FeeContent6="No additional cost"
+            dataScienceCounselling={true}
+          />
         </div>
         <div className="MainCities">
           <div className="CitiesLeft">
@@ -188,7 +218,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-            cityTextDSDelhi={true}
+              cityTextDSDelhi={true}
               DomainHead1={DSDelhiCourseData[0].DomainHead1}
               DomainBot1={DSDelhiCourseData[0].DomainBot1}
               DomainBot2={DSDelhiCourseData[0].DomainBot2}
@@ -318,6 +348,7 @@ export default function Home() {
           CityTextL={DSDelhiCourseData[0].CityTextL}
         />
         <Footer />
+        {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
       </main>
     </div>
   );

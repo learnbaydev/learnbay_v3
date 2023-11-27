@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { useEffect, useState } from "react";
 import styles from "../../../styles/Home.module.css";
 import dynamic from "next/dynamic";
 const FirstSection = dynamic(() =>
@@ -26,23 +27,52 @@ const CitiesRight = dynamic(() =>
   import("../../../components/Seo/CitiesRight/CitiesRightdomain")
 );
 import { BusinessAnalyticsHyderabadCourseData } from "../../../CityData/Hyderabad/businessAnalyticsCourseTrainingInHyderabad";
-const FAQNew = dynamic(() =>
-  import("../../../components/Seo/FAQNew/FAQNew")
-);
+const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
 import Popup from "../../../components/Global/Popup/Popup";
 import Navbar from "../../../components/Global/Navbar/Navbar";
 import Footer from "../../../components/Global/Footer/Footer";
 import Form from "../../../components/Global/Form/Form";
-import React, { useState } from "react";
 import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
 import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
-
+const OfferPopup = dynamic(() =>
+  import("../../../components/Global/OfferPopup/OfferPopup")
+);
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
     setPopups(true);
   };
+  const [popupData, setPopupData] = useState([]);
+  // console.log(popupData);
+  useEffect(() => {
+    // console.log("inside UseEFFect");
+    const fetchPopup = async () => {
+      const data = await fetch("/api/Popup/popupGenerate", {
+        method: "GET",
+      });
+      if (data.status === 200) {
+        const { popData } = await data.json();
+        // console.log(popData, "get data");
+        if (popData == []) {
+          setPopupData([]);
+        }
+
+        popData.map((data, i) => {
+          // console.log(data);
+          data.page.map((popupData, i) => {
+            // console.log(popData);
+            if (popupData === "Adv Data Science and AI") {
+              setPopupData(data);
+              // console.log(popupData);
+              return;
+            }
+          });
+        });
+      }
+    };
+    fetchPopup();
+  }, []);
   return (
     <div className={styles.container}>
       <Head>
@@ -58,8 +88,7 @@ export default function Home() {
           name="keywords"
           content="Business Analytics course in Hyderabad, Business Analytics training in Hyderabad, Business Analytics institute in Hyderabad, best Business Analytics institute in Hyderabad, Business Analytics course in Hyderabad, Business Analytics certification in Hyderabad, Business Analytics training institute in Hyderabad, advanced Business Analytics course in Hyderabad, Business Analytics course with Placement Assistance, Business Analytics course"
         />
-
-<meta
+        <meta
           property="og:url"
           content="https://www.learnbay.co/datascience/hyderabad/business-analytics-course-training-in-hyderabad"
         />
@@ -175,7 +204,7 @@ export default function Home() {
           para="Discover the impact of our programs on career growth"
         />
         <div className={styles.cityFee}>
-        <FeeSection
+          <FeeSection
             Fee="₹ 90,000"
             FeeEmi="₹ 5,900/month"
             WeekdayDate="NOV 17th"
@@ -271,7 +300,6 @@ export default function Home() {
               ModuleBot1={BusinessAnalyticsHyderabadCourseData[0].ModuleBot1}
               ModuleBot2={BusinessAnalyticsHyderabadCourseData[0].ModuleBot2}
               ModuleBot3={BusinessAnalyticsHyderabadCourseData[0].ModuleBot3}
-          
               ModuleHead3={BusinessAnalyticsHyderabadCourseData[0].ModuleHead3}
               ModuleBot4={BusinessAnalyticsHyderabadCourseData[0].ModuleBot4}
               syllabush1={BusinessAnalyticsHyderabadCourseData[0].syllabush1}
@@ -363,8 +391,12 @@ export default function Home() {
               JobBot3={BusinessAnalyticsHyderabadCourseData[0].JobBot3}
               JobBot4={BusinessAnalyticsHyderabadCourseData[0].JobBot4}
               JobBot6={BusinessAnalyticsHyderabadCourseData[0].JobBot6}
-              ProjectsBot1={BusinessAnalyticsHyderabadCourseData[0].ProjectsBot1}
-              ProjectsBot2={BusinessAnalyticsHyderabadCourseData[0].ProjectsBot2}
+              ProjectsBot1={
+                BusinessAnalyticsHyderabadCourseData[0].ProjectsBot1
+              }
+              ProjectsBot2={
+                BusinessAnalyticsHyderabadCourseData[0].ProjectsBot2
+              }
               src1={BusinessAnalyticsHyderabadCourseData[0].src1}
               ProjectsH1={BusinessAnalyticsHyderabadCourseData[0].ProjectsH1}
               Projectsp1={BusinessAnalyticsHyderabadCourseData[0].Projectsp1}
@@ -406,6 +438,7 @@ export default function Home() {
           CityTextL={BusinessAnalyticsHyderabadCourseData[0].CityTextL}
         />
         <Footer />
+        {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
       </main>
     </div>
   );

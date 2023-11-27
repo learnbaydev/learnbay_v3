@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import BottomBar from "../../Global/BottomBar/BottomBar";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
@@ -12,6 +12,7 @@ const SyllabusNew = dynamic(() =>
 const ToolsCovered = dynamic(() =>
   import("../../CoursePage/ToolsCovered/ToolsCovered")
 );
+const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
 const Certificate = dynamic(() => import("../Certificate/Certificate"));
 const FeeSection = dynamic(() =>
   import("../../CoursePage/FeeSection/FeeSection")
@@ -36,6 +37,36 @@ const SecondPart = ({
   masterSyllabusMobile,
   projectSection,
 }) => {
+  const [popupData, setPopupData] = useState([]);
+  // console.log(popupData);
+  useEffect(() => {
+    // console.log("inside UseEFFect");
+    const fetchPopup = async () => {
+      const data = await fetch("/api/Popup/popupGenerate", {
+        method: "GET",
+      });
+      if (data.status === 200) {
+        const { popData } = await data.json();
+        // console.log(popData, "get data");
+        if (popData == []) {
+          setPopupData([]);
+        }
+
+        popData.map((data, i) => {
+          // console.log(data);
+          data.page.map((popupData, i) => {
+            // console.log(popData);
+            if (popupData === "Master in Cs") {
+              setPopupData(data);
+              // console.log(popupData);
+              return;
+            }
+          });
+        });
+      }
+    };
+    fetchPopup();
+  }, []);
   return (
     <>
       <GetHire />
@@ -84,6 +115,7 @@ const SecondPart = ({
       <Footer />
       <BottomBar masterdegree={true} />
       <WhatsappFloat />
+      {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
     </>
   );
 };

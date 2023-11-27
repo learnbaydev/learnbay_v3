@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { useEffect, useState } from "react";
 import styles from "../../../styles/Home.module.css";
 import dynamic from "next/dynamic";
 const FirstSection = dynamic(() =>
@@ -26,23 +27,52 @@ const CitiesRight = dynamic(() =>
   import("../../../components/Seo/CitiesRight/CitiesRightdomain")
 );
 import { BADelhiCourseData } from "../../../CityData/Delhi/BusinessAnalyticsCourseTrainingDelhiData";
-const FAQNew = dynamic(() =>
-  import("../../../components/Seo/FAQNew/FAQNew")
-);
+const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
 import Popup from "../../../components/Global/Popup/Popup";
 import Navbar from "../../../components/Global/Navbar/Navbar";
 import Footer from "../../../components/Global/Footer/Footer";
 import Form from "../../../components/Global/Form/Form";
-import React, { useState } from "react";
 import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
 import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
-
+const OfferPopup = dynamic(() =>
+  import("../../../components/Global/OfferPopup/OfferPopup")
+);
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
     setPopups(true);
   };
+  const [popupData, setPopupData] = useState([]);
+  // console.log(popupData);
+  useEffect(() => {
+    // console.log("inside UseEFFect");
+    const fetchPopup = async () => {
+      const data = await fetch("/api/Popup/popupGenerate", {
+        method: "GET",
+      });
+      if (data.status === 200) {
+        const { popData } = await data.json();
+        // console.log(popData, "get data");
+        if (popData == []) {
+          setPopupData([]);
+        }
+
+        popData.map((data, i) => {
+          // console.log(data);
+          data.page.map((popupData, i) => {
+            // console.log(popData);
+            if (popupData === "Adv Data Science and AI") {
+              setPopupData(data);
+              // console.log(popupData);
+              return;
+            }
+          });
+        });
+      }
+    };
+    fetchPopup();
+  }, []);
   return (
     <div className={styles.container}>
       <Head>
@@ -56,7 +86,7 @@ export default function Home() {
           name="keywords"
           content="Business Analytics course in Delhi, Business Analytics training in Delhi, Business Analytics institute in Delhi, best Business Analytics institute in Delhi, Business Analytics course in Delhi, Business Analytics certification in Delhi, Business Analytics training institute in Delhi, advanced Business Analytics course in Delhi, Business Analytics course with Placement Assistance, Business Analytics course"
         />
-<meta
+        <meta
           property="og:url"
           content="https://www.learnbay.co/datascience/delhi/business-analytics-course-training-in-delhi"
         />
@@ -95,9 +125,6 @@ export default function Home() {
           name="twitter:image"
           content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
         />
-
-
-
         <link
           rel="canonical"
           href="https://www.learnbay.co/datascience/delhi/business-analytics-course-training-in-delhi"
@@ -177,7 +204,6 @@ export default function Home() {
           firstHeading="Business Analytics Course "
           firstTopPara="Industry-oriented business analytics program co-developed by IBM"
           cityParaCont="The best-suited course for working professionals with less than a year of work experience and dreaming for a lucrative and even growing future. "
-
         />
         <SecondSection SecondSectionData={BADelhiCourseData[0].secondSection} />
         <Testimonial
@@ -187,7 +213,7 @@ export default function Home() {
           para="Discover the impact of our programs on career growth"
         />
         <div className={styles.cityFee}>
-        <FeeSection
+          <FeeSection
             Fee="₹ 90,000"
             FeeEmi="₹ 5,900/month"
             WeekdayDate="NOV 17th"
@@ -207,7 +233,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-             ProgramHead1={BADelhiCourseData[0].ProgramHead1}
+              ProgramHead1={BADelhiCourseData[0].ProgramHead1}
               ProgramBot1={BADelhiCourseData[0].ProgramBot1}
               ProgramBot2={BADelhiCourseData[0].ProgramBot2}
               ProgramHead3={BADelhiCourseData[0].ProgramHead3}
@@ -261,11 +287,11 @@ export default function Home() {
               src={BADelhiCourseData[0].src}
               src22={BADelhiCourseData[0].src22}
               src33={BADelhiCourseData[0].src33}
-             ModuleHead1={BADelhiCourseData[0].ModuleHead1}
+              ModuleHead1={BADelhiCourseData[0].ModuleHead1}
               ModuleBot1={BADelhiCourseData[0].ModuleBot1}
               ModuleBot2={BADelhiCourseData[0].ModuleBot2}
               ModuleBot3={BADelhiCourseData[0].ModuleBot3}
-              ModuleHead3={BADelhiCourseData[0] .ModuleHead3}
+              ModuleHead3={BADelhiCourseData[0].ModuleHead3}
               ModuleBot4={BADelhiCourseData[0].ModuleBot4}
               ModuleHead2={BADelhiCourseData[0].ModuleHead2}
               syllabush1={BADelhiCourseData[0].syllabush1}
@@ -306,7 +332,6 @@ export default function Home() {
               JobBot2={BADelhiCourseData[0].JobBot2}
               JobBot3={BADelhiCourseData[0].JobBot3}
               JobHead3={BADelhiCourseData[0].JobHead3}
-
               JobHead2={BADelhiCourseData[0].JobHead2}
               JobBot5={BADelhiCourseData[0].JobBot5}
               JobBot4={BADelhiCourseData[0].JobBot4}
@@ -362,6 +387,7 @@ export default function Home() {
           CityTextL={BADelhiCourseData[0].CityTextL}
         />
         <Footer />
+        {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
       </main>
     </div>
   );

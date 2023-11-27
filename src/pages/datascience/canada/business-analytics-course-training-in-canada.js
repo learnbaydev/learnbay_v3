@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { useEffect, useState } from "react";
 import styles from "../../../styles/Home.module.css";
 import dynamic from "next/dynamic";
 const FirstSection = dynamic(() =>
@@ -26,26 +27,55 @@ const CitiesRight = dynamic(() =>
   import("../../../components/Seo/CitiesRight/CitiesRightdomain")
 );
 import { BAcanadaCourseData } from "../../../CityData/Canada/BusinessAnalyticsCourseTraininData";
-const FAQNew = dynamic(() =>
-  import("../../../components/Seo/FAQNew/FAQNew")
-);
+const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
 import Popup from "../../../components/Global/Popup/Popup";
 import Navbar from "../../../components/Global/Navbar/Navbar";
 import Footer from "../../../components/Global/Footer/Footer";
 import Form from "../../../components/Global/Form/Form";
-import React, { useState } from "react";
 import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
 import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
-
+const OfferPopup = dynamic(() =>
+  import("../../../components/Global/OfferPopup/OfferPopup")
+);
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
     setPopups(true);
   };
+  const [popupData, setPopupData] = useState([]);
+  // console.log(popupData);
+  useEffect(() => {
+    // console.log("inside UseEFFect");
+    const fetchPopup = async () => {
+      const data = await fetch("/api/Popup/popupGenerate", {
+        method: "GET",
+      });
+      if (data.status === 200) {
+        const { popData } = await data.json();
+        // console.log(popData, "get data");
+        if (popData == []) {
+          setPopupData([]);
+        }
+
+        popData.map((data, i) => {
+          // console.log(data);
+          data.page.map((popupData, i) => {
+            // console.log(popData);
+            if (popupData === "Adv Data Science and AI") {
+              setPopupData(data);
+              // console.log(popupData);
+              return;
+            }
+          });
+        });
+      }
+    };
+    fetchPopup();
+  }, []);
   return (
     <div className={styles.container}>
-    <Head>
+      <Head>
         <title>Business Analyst Course in Canada with IBM Certification</title>
         <meta name="robots" content="index, follow" />
         <meta
@@ -56,7 +86,7 @@ export default function Home() {
           name="keywords"
           content="Business Analytics course in Canada, Business Analytics training in Canada, Business Analytics institute in Canada, best Business Analytics institute in Canada, Business Analytics course in Canada, Business Analytics certification in Canada, Business Analytics training institute in Canada, advanced Business Analytics course in Canada, Business Analytics course with Placement Assistance, Business Analytics course"
         />
-<meta
+        <meta
           property="og:url"
           content="https://www.learnbay.co/datascience/canada/business-analytics-course-training-in-canada"
         />
@@ -95,8 +125,6 @@ export default function Home() {
           name="twitter:image"
           content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
         />
-
-
         <link
           rel="canonical"
           href="https://www.learnbay.co/datascience/canada/business-analytics-course-training-in-canada"
@@ -177,7 +205,9 @@ export default function Home() {
           firstTopPara="Industrial Business Analytics Program for working professionals"
           cityParaCont="The best-suited course for working professionals with less than a year of work experience and dreaming for a lucrative and even growing future. "
         />
-        <SecondSection SecondSectionData={BAcanadaCourseData[0].secondSection} />
+        <SecondSection
+          SecondSectionData={BAcanadaCourseData[0].secondSection}
+        />
         <Testimonial
           redirectDS={true}
           Testimonial={BAcanadaCourseData[0].testimonial}
@@ -185,7 +215,7 @@ export default function Home() {
           para="Discover the impact of our programs on career growth"
         />
         <div className={styles.cityFee}>
-        <FeeSection
+          <FeeSection
             Fee="₹ 90,000"
             FeeEmi="₹ 5,900/month"
             WeekdayDate="NOV 17th"
@@ -205,7 +235,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-             ProgramHead1={BAcanadaCourseData[0].ProgramHead1}
+              ProgramHead1={BAcanadaCourseData[0].ProgramHead1}
               ProgramBot1={BAcanadaCourseData[0].ProgramBot1}
               ProgramBot2={BAcanadaCourseData[0].ProgramBot2}
               ProgramHead3={BAcanadaCourseData[0].ProgramHead3}
@@ -259,11 +289,11 @@ export default function Home() {
               src={BAcanadaCourseData[0].src}
               src22={BAcanadaCourseData[0].src22}
               src33={BAcanadaCourseData[0].src33}
-             ModuleHead1={BAcanadaCourseData[0].ModuleHead1}
+              ModuleHead1={BAcanadaCourseData[0].ModuleHead1}
               ModuleBot1={BAcanadaCourseData[0].ModuleBot1}
               ModuleBot2={BAcanadaCourseData[0].ModuleBot2}
               ModuleBot3={BAcanadaCourseData[0].ModuleBot3}
-              ModuleHead3={BAcanadaCourseData[0] .ModuleHead3}
+              ModuleHead3={BAcanadaCourseData[0].ModuleHead3}
               ModuleBot4={BAcanadaCourseData[0].ModuleBot4}
               ModuleHead2={BAcanadaCourseData[0].ModuleHead2}
               syllabush1={BAcanadaCourseData[0].syllabush1}
@@ -358,6 +388,7 @@ export default function Home() {
           CityTextL={BAcanadaCourseData[0].CityTextL}
         />
         <Footer />
+        {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
       </main>
     </div>
   );
