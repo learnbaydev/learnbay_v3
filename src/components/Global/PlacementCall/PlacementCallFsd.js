@@ -56,7 +56,7 @@ const PlacementCall = () => {
       </div>
       <div className={styles.imgsection}>
         <img
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/coursePage/Dedicated-Placement-Cell.gif"
+          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/Dedicated-Placement-Cell.gif"
           width={600}
           height={200}
         />
@@ -82,14 +82,14 @@ const PlacementCall = () => {
               <div className={styles.slideWrap}>
                 <div className={styles.number}>
                   {/* <Image
-                        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/2.png"
+                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/2.png"
                         width={37}
                         height={50}
                         layout="intrinsic"
                       /> */}
                   <div className={styles.imged}>
                     <Image
-                      src="      https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/secondimg.png"
+                      src="      https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/secondimg.png"
                       height={60}
                       width={450}
                       alt="placement"
@@ -102,14 +102,14 @@ const PlacementCall = () => {
               <div className={styles.slideWrap}>
                 <div className={styles.number}>
                   {/* <Image
-                        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/2.png"
+                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/2.png"
                         width={37}
                         height={50}
                         layout="intrinsic"
                       /> */}
                   <div className={styles.imged}>
                     <Image
-                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/thirdimg.png"
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/thirdimg.png"
                       height={60}
                       width={400}
                       alt="placement"

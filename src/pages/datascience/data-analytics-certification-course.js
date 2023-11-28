@@ -67,9 +67,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>
-         Data Analaytics and Data Science Course - Learnbay
-        </title>
+        <title>Data Analaytics and Data Science Course - Learnbay</title>
         <meta
           name="description"
           content="Upskill yourself with cutting edge Data Analytics and Data Science Skills, Techniques by enrolling into the Learnbay's Data Analytics Course"
@@ -81,7 +79,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
         <link
           rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Learnbay-Favicon-L.png"
         />
         <link
           rel="canonical"

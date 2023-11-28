@@ -24,7 +24,7 @@ const FirstSectionContent = ({ setPopups }) => {
           <div className={styles.imgWrapperMobile}>
             <div className="imgWrapper">
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/newHeaderOne.webp"
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/newHeaderOne.webp"
                 width="580"
                 height="450"
                 priority
@@ -41,7 +41,7 @@ const FirstSectionContent = ({ setPopups }) => {
           <div className={styles.GenAiBox}>
             <div className={styles.GenImageBlock}>
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/genAi.png"
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/genAi.png"
                 width="32"
                 height="32"
                 priority
@@ -73,7 +73,7 @@ const FirstSectionContent = ({ setPopups }) => {
         <div className={styles.secondLeft}>
           <div className={styles.imgWrapperDesktop}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/newHeaderOne.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/newHeaderOne.webp"
               width="580"
               height="450"
               priority

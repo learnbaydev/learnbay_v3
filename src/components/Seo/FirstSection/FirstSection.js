@@ -99,8 +99,7 @@ function FirstSection({
               width="508"
               height="327"
               alt="data science course"
-          
-             priority={true}
+              priority={true}
             />
           </div>
           <div className={styles.Desktop}>
@@ -108,7 +107,7 @@ function FirstSection({
             <div className={styles.ImageBlock}>
               {ibmOnly ? (
                 <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/ibm-single-home.png"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/ibm-single-home.png"
                   width="127"
                   height="51"
                   loading="lazy"
@@ -117,7 +116,7 @@ function FirstSection({
                 />
               ) : (
                 <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/ibm%26microsoft.webp"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp"
                   width="266"
                   height="48"
                   priority
@@ -143,11 +142,8 @@ function FirstSection({
                 <Button
                   whiteBgButton={true}
                   text="INTRO VIDEO"
-                  
                   passIcon={<FaPlay className="bIconS" fontSize="14px" />}
                 />
-            
-
               </div>
             )}
           </div>
@@ -169,7 +165,7 @@ function FirstSection({
           <div className={styles.ImageBlock}>
             {ibmOnly ? (
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/ibm-single-home.png"
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/ibm-single-home.png"
                 width="127"
                 height="51"
                 loading="lazy"
@@ -178,7 +174,7 @@ function FirstSection({
               />
             ) : (
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/ibm%26microsoft.webp"
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp"
                 width="283"
                 height="51"
                 priority={true}

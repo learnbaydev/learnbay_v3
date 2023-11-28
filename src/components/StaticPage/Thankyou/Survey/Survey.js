@@ -31,7 +31,7 @@ const Survey = ({ topPara, para, header }) => {
       <div className={styles.lineWrap}>
         <div className={styles.lineImg}>
           <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Line-with-dots.webp"
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Line-with-dots.webp"
             width={1493}
             height={752}
             alt="lines"
@@ -49,7 +49,7 @@ const Survey = ({ topPara, para, header }) => {
             </div>
             <div className={styles.imgWrap}>
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/thank-you-no-1.png"
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/thank-you-no-1.png"
                 width={56}
                 height={86}
                 alt="lines"
@@ -67,7 +67,7 @@ const Survey = ({ topPara, para, header }) => {
             </div>
             <div className={styles.imgWrap}>
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/thank-you-no-2.png"
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/thank-you-no-2.png"
                 width={65}
                 height={88}
                 alt="lines"
@@ -84,7 +84,7 @@ const Survey = ({ topPara, para, header }) => {
             </div>
             <div className={styles.imgWrap}>
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/thank-you-no-3.png"
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/thank-you-no-3.png"
                 width={61}
                 height={88}
                 alt="lines"

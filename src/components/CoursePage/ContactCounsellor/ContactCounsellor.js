@@ -119,7 +119,7 @@ const ContactCounsellor = ({
       </div>
       <div className={styles.conimg}>
         <Image
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/masterPage/contact-counseller.webp"
+          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/masterPage/contact-counseller.webp"
           width={300}
           height={200}
           alt="contact-counseller"

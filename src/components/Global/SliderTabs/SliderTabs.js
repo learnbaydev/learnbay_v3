@@ -12,7 +12,7 @@ const SliderTabs = ({ dataScience, dataScienceCounselling }) => {
   const services = [
     {
       title: "Placement Support",
-      icon: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/coursePage/career1.webp",
+      icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/career1.webp",
       content: [
         "Unleash your career potential with unlimited job access, interview support, and profile review.",
         "Receive unlimited interview calls from a diverse pool of interested employers/recruiters until you successfully secure a job.",
@@ -21,7 +21,7 @@ const SliderTabs = ({ dataScience, dataScienceCounselling }) => {
     },
     {
       title: "Mock Interviews",
-      icon: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/coursePage/career2.webp",
+      icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/career2.webp",
       content: [
         "LearnBay's targeted mock interviews sessions to ready you for your dream role.",
         "Actionable feedback for skill enhancement that keeps you in pace with interview trends.",
@@ -30,7 +30,7 @@ const SliderTabs = ({ dataScience, dataScienceCounselling }) => {
     },
     {
       title: "Resume BuildUp",
-      icon: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/coursePage/career3.webp",
+      icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/career3.webp",
       content: [
         "LearnBay's tailored resume-building guidance.",
         "Strategic advice for impactful resumes.",
@@ -39,7 +39,7 @@ const SliderTabs = ({ dataScience, dataScienceCounselling }) => {
     },
     {
       title: "Unlimited Interview Calls",
-      icon: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/coursePage/career4.webp",
+      icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/career4.webp",
       content: [
         "LearnBay's promise of unlimited interview calls.",
         "Continuous interview opportunities.",
@@ -90,7 +90,7 @@ const SliderTabs = ({ dataScience, dataScienceCounselling }) => {
             </div>
             <div className={`imgWrapper ${styles.right}`}>
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/coursePage/doamain-new.webp"
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/doamain-new.webp"
                 width="200"
                 height="200"
                 quality={40}
@@ -134,7 +134,7 @@ const SliderTabs = ({ dataScience, dataScienceCounselling }) => {
             </div>
             <div className={`imgWrapper ${styles.right}`}>
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/coursePage/doamain-new.webp"
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/doamain-new.webp"
                 width="200"
                 height="200"
                 quality={40}

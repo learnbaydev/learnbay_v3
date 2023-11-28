@@ -146,7 +146,7 @@ export default function Home() {
         {/* <meta name="robots" content="ALL" /> */}
         <link
           rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Learnbay-Favicon-L.png"
         />
         <script
           type="application/ld+json"
@@ -199,7 +199,7 @@ export default function Home() {
           titleCourse="business analytics course training in canada"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf"
           idss="4j80WXLTvGE"
-          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/manager+header+image.webp"
+          FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/manager+header+image.webp"
           firstToparaImg="Training In Canada"
           firstHeading="Business Analytics Course"
           firstTopPara="Industrial Business Analytics Program for working professionals"

@@ -96,7 +96,7 @@
 //             <div className={`${styles.RightWrap}  `}>
 //               <div className="imgWrapper">
 //                 <Image
-//                   src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Placement+Logos+No+Map.png"
+//                   src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Placement+Logos+No+Map.png"
 //                   width="480"
 //                   height="360"
 //                   alt="Learnbay placement partners"
@@ -221,14 +221,14 @@ function FourthSection({
               <div className="imgWrapper">
                 {mobile ? (
                   <Image
-                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/company-mobile.png"
+                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/company-mobile.png"
                     width="1200"
                     height="250"
                     alt="Learnbay placement partners"
                   />
                 ) : (
                   <Image
-                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/work-place.png"
+                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/work-place.png"
                     width="1200"
                     height="250"
                     alt="Learnbay placement partners"

@@ -16,7 +16,7 @@ function ContactUs() {
 
         <div>
           <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/contact-us.png"
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/contact-us.png"
             width="400"
             height="300"
             alt="data science course"

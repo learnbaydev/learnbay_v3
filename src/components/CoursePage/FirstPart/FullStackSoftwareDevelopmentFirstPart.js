@@ -34,7 +34,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData }) => {
         titleCourse="Software Development Certification Program"
         cityParaCont="Upskill and switch from service-based to product-based companies"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
-        FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/fullhead.webp"
+        FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/fullhead.webp"
         firstToparaImg=""
         firstHeading="Software Development Certification Program"
         firstTopPara="Crack Interview in Top MNCs"
@@ -45,7 +45,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData }) => {
       <SecondSection SecondSectionData={SecondSectionData} />
       {/* <WhoProgram
           dataScience={true}
-          leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/advance-who.webp"
+          leftImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/advance-who.webp"
           ThirdSectionData={FSSPDataScienceCourseData[0].thirdSection}
         /> */}
       <TrainerSection idss="eautK0odE7Q" />

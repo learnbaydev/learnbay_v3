@@ -22,7 +22,7 @@ function CareerHome() {
         <div className="imgWrapper">
           <div className={styles.right}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/Career-Portal.png"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course.learnbay.co/Career-Portal.png"
               width="522"
               height="380"
               alt="data science course"

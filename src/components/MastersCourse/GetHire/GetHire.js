@@ -44,7 +44,7 @@ function GetHire() {
               </div>
               <div>
                 <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/masterPage/getHiremasteer.webp"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/masterPage/getHiremasteer.webp"
                   width={200}
                   height={180}
                   loading="lazy"
@@ -61,7 +61,7 @@ function GetHire() {
             </p>
             <div className={Styles.showDesktop}>
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/company-logos.webp"
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/company-logos.webp"
                 width={550}
                 height={260}
                 loading="lazy"
@@ -70,7 +70,7 @@ function GetHire() {
             </div>
             <div className={Styles.showMobile}>
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Group+683-min.webp"
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Group+683-min.webp"
                 width={550}
                 height={260}
                 loading="lazy"

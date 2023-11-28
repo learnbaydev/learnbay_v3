@@ -35,7 +35,7 @@ function FullStackSecondSection({ fullStackReview }) {
       <div className={styles.testimonial}>
         <div className={styles.line}>
           <img
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/alumni-arrow.png"
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/alumni-arrow.png"
             width="80px"
           />
         </div>
@@ -65,7 +65,7 @@ function FullStackSecondSection({ fullStackReview }) {
                           <div>
                             <div className="imgWrapper">
                               <Image
-                                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/preksha-home.png"
+                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/preksha-home.png"
                                 loading="lazy"
                                 width="100"
                                 height="100"
@@ -92,9 +92,9 @@ function FullStackSecondSection({ fullStackReview }) {
                                 );
                                 setImg({
                                   cLogo:
-                                    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/HCL-logo.png",
+                                    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/HCL-logo.png",
                                   pLogo:
-                                    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/preksha-home.png",
+                                    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/preksha-home.png",
                                 });
                               }}
                             >
@@ -107,7 +107,7 @@ function FullStackSecondSection({ fullStackReview }) {
                           <div>
                             <div className="imgWrapper">
                               <Image
-                                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/HCL-logo.png"
+                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/HCL-logo.png"
                                 loading="lazy"
                                 width={mobile ? 130 : 140}
                                 height={mobile ? 21 : 23}
@@ -134,7 +134,7 @@ function FullStackSecondSection({ fullStackReview }) {
                           <div>
                             <div className="imgWrapper">
                               <Image
-                                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/asrar-home.png"
+                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/asrar-home.png"
                                 loading="lazy"
                                 width="100"
                                 height="100"
@@ -161,9 +161,9 @@ function FullStackSecondSection({ fullStackReview }) {
                                 );
                                 setImg({
                                   cLogo:
-                                    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/TCS.png",
+                                    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/TCS.png",
                                   pLogo:
-                                    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/asrar-home.png",
+                                    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/asrar-home.png",
                                 });
                               }}
                             >
@@ -176,7 +176,7 @@ function FullStackSecondSection({ fullStackReview }) {
                           <div>
                             <div className="imgWrapper">
                               <Image
-                                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/TCS.png"
+                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/TCS.png"
                                 loading="lazy"
                                 width={mobile ? 40 : 63}
                                 height={mobile ? 25 : 40}
@@ -203,7 +203,7 @@ function FullStackSecondSection({ fullStackReview }) {
                           <div>
                             <div className="imgWrapper">
                               <Image
-                                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/aravind-home.png"
+                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/aravind-home.png"
                                 loading="lazy"
                                 width="100"
                                 height="100"
@@ -230,9 +230,9 @@ function FullStackSecondSection({ fullStackReview }) {
                                 );
                                 setImg({
                                   cLogo:
-                                    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/themathcompany-logo.png",
+                                    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/themathcompany-logo.png",
                                   pLogo:
-                                    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/aravind-home.png",
+                                    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/aravind-home.png",
                                 });
                               }}
                             >
@@ -245,7 +245,7 @@ function FullStackSecondSection({ fullStackReview }) {
                           <div>
                             <div className="imgWrapper">
                               <Image
-                                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/themathcompany-logo.png"
+                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/themathcompany-logo.png"
                                 loading="lazy"
                                 width={mobile ? 150 : 200}
                                 height={mobile ? 18 : 24}
@@ -272,7 +272,7 @@ function FullStackSecondSection({ fullStackReview }) {
                           <div>
                             <div className="imgWrapper">
                               <Image
-                                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ritesh-home.png"
+                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ritesh-home.png"
                                 loading="lazy"
                                 width="100"
                                 height="100"
@@ -299,9 +299,9 @@ function FullStackSecondSection({ fullStackReview }) {
                                 );
                                 setImg({
                                   cLogo:
-                                    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Capgemni-logo.png",
+                                    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Capgemni-logo.png",
                                   pLogo:
-                                    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ritesh-home.png",
+                                    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ritesh-home.png",
                                 });
                               }}
                             >
@@ -314,7 +314,7 @@ function FullStackSecondSection({ fullStackReview }) {
                           <div>
                             <div className="imgWrapper">
                               <Image
-                                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Capgemni-logo.png"
+                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Capgemni-logo.png"
                                 loading="lazy"
                                 width={mobile ? 130 : 150}
                                 height={mobile ? 29 : 34}
@@ -341,7 +341,7 @@ function FullStackSecondSection({ fullStackReview }) {
                           <div>
                             <div className="imgWrapper">
                               <Image
-                                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/saurabh-home.png"
+                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/saurabh-home.png"
                                 loading="lazy"
                                 width="100"
                                 height="100"
@@ -368,9 +368,9 @@ function FullStackSecondSection({ fullStackReview }) {
                                 );
                                 setImg({
                                   cLogo:
-                                    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/HCL-logo.png",
+                                    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/HCL-logo.png",
                                   pLogo:
-                                    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/saurabh-home.png",
+                                    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/saurabh-home.png",
                                 });
                               }}
                             >
@@ -383,7 +383,7 @@ function FullStackSecondSection({ fullStackReview }) {
                           <div>
                             <div className="imgWrapper">
                               <Image
-                                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/HCL-logo.png"
+                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/HCL-logo.png"
                                 loading="lazy"
                                 width={mobile ? 130 : 140}
                                 height={mobile ? 21 : 23}
@@ -410,7 +410,7 @@ function FullStackSecondSection({ fullStackReview }) {
                           <div>
                             <div className="imgWrapper">
                               <Image
-                                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/abhishek-home.png"
+                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/abhishek-home.png"
                                 loading="lazy"
                                 width="100"
                                 height="100"
@@ -437,9 +437,9 @@ function FullStackSecondSection({ fullStackReview }) {
                                 );
                                 setImg({
                                   cLogo:
-                                    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/AGS-logo.png",
+                                    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/AGS-logo.png",
                                   pLogo:
-                                    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/abhishek-home.png",
+                                    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/abhishek-home.png",
                                 });
                               }}
                             >
@@ -452,7 +452,7 @@ function FullStackSecondSection({ fullStackReview }) {
                           <div>
                             <div className="imgWrapper">
                               <Image
-                                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/AGS-logo.png"
+                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/AGS-logo.png"
                                 loading="lazy"
                                 width={mobile ? 63 : 71}
                                 height={mobile ? 30 : 34}
@@ -479,7 +479,7 @@ function FullStackSecondSection({ fullStackReview }) {
                           <div>
                             <div className="imgWrapper">
                               <Image
-                                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/vishal-home.png"
+                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/vishal-home.png"
                                 layout="intrinsic"
                                 loading="lazy"
                                 width="100"
@@ -507,9 +507,9 @@ function FullStackSecondSection({ fullStackReview }) {
                                 );
                                 setImg({
                                   cLogo:
-                                    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Bridgei2i-logo.png",
+                                    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Bridgei2i-logo.png",
                                   pLogo:
-                                    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/vishal-home.png",
+                                    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/vishal-home.png",
                                 });
                               }}
                             >
@@ -522,7 +522,7 @@ function FullStackSecondSection({ fullStackReview }) {
                           <div>
                             <div className="imgWrapper">
                               <Image
-                                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Bridgei2i-logo.png"
+                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Bridgei2i-logo.png"
                                 layout="intrinsic"
                                 loading="lazy"
                                 width={mobile ? 75 : 85}
@@ -564,7 +564,7 @@ function FullStackSecondSection({ fullStackReview }) {
                           <div>
                             <div className="imgWrapper">
                               <Image
-                                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/Qudsia.png"
+                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Alumni+Images/Qudsia.png"
                                 loading="lazy"
                                 width="100"
                                 height="100"
@@ -593,7 +593,7 @@ function FullStackSecondSection({ fullStackReview }) {
                           <div>
                             <div className="imgWrapper">
                               <Image
-                                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/binit.png"
+                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Alumni+Images/binit.png"
                                 loading="lazy"
                                 width="100"
                                 height="100"
@@ -622,7 +622,7 @@ function FullStackSecondSection({ fullStackReview }) {
                           <div>
                             <div className="imgWrapper">
                               <Image
-                                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/swarup.png"
+                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Alumni+Images/swarup.png"
                                 loading="lazy"
                                 width="100"
                                 height="100"
@@ -651,7 +651,7 @@ function FullStackSecondSection({ fullStackReview }) {
                           <div>
                             <div className="imgWrapper">
                               <Image
-                                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/karanveer.png"
+                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Alumni+Images/karanveer.png"
                                 loading="lazy"
                                 width="100"
                                 height="100"
@@ -679,7 +679,7 @@ function FullStackSecondSection({ fullStackReview }) {
                           <div>
                             <div className="imgWrapper">
                               <Image
-                                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/Gowthaman.png"
+                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Alumni+Images/Gowthaman.png"
                                 loading="lazy"
                                 width="100"
                                 height="100"
@@ -708,7 +708,7 @@ function FullStackSecondSection({ fullStackReview }) {
                           <div>
                             <div className="imgWrapper">
                               <Image
-                                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/Abhishek+Pakhide.png"
+                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Alumni+Images/Abhishek+Pakhide.png"
                                 loading="lazy"
                                 width="100"
                                 height="100"

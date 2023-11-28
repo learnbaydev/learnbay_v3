@@ -21,7 +21,6 @@ const FeeSection = ({
   weekdaybatch,
   weekendbatch,
   interstedInHide,
-  
 }) => {
   const [popups, setPopups] = useState(false);
 
@@ -59,7 +58,9 @@ const FeeSection = ({
       </Popup>
       <h2>Fee & Batch Details</h2>
       <p className={styles.pTop}>
-      Invest in your future with affordable degree fees and flexible batch options</p>
+        Invest in your future with affordable degree fees and flexible batch
+        options
+      </p>
 
       <div className={styles.ThreeCard}>
         <div className={styles.first}>
@@ -68,7 +69,7 @@ const FeeSection = ({
           </p>
           <div className={styles.imgFee}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/feeSection.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/feeSection.webp"
               width="367"
               height="221"
               alt="data science course"
@@ -91,23 +92,39 @@ const FeeSection = ({
         <div className={styles.second}>
           <p className={styles.pTop}>Program Fee</p>
           <p className={styles.cutText}>{CutFee}</p>
-          <p className={styles.price}>{Fee} <span className={styles.spanText}>+ 18% GST</span></p>
+          <p className={styles.price}>
+            {Fee} <span className={styles.spanText}>+ 18% GST</span>
+          </p>
           <div className={styles.divButton} onClick={popupShow}>
             <Button className={styles.Btn} text="Check EMI Options" />
           </div>
-          <hr style={{ color: "rgba(0, 0, 0, 0.20)", margin: "30px 20px", border:"0.9px solid" }} />
+          <hr
+            style={{
+              color: "rgba(0, 0, 0, 0.20)",
+              margin: "30px 20px",
+              border: "0.9px solid",
+            }}
+          />
           <p style={{ textAlign: "center", margin: "0" }}>
             <b>EMI Options</b>
           </p>
           <div className={styles.divContent}>
-          <p>Pay in easy EMIs starting as low as</p>
-          <p className={styles.boxSpan}> {FeeEmi} </p>
-          <p>For <b>No Cost EMI options</b> <span onClick={popupShow} style={{color:"#0072BC", cursor:"pointer"}}>click here.</span></p>
+            <p>Pay in easy EMIs starting as low as</p>
+            <p className={styles.boxSpan}> {FeeEmi} </p>
+            <p>
+              For <b>No Cost EMI options</b>{" "}
+              <span
+                onClick={popupShow}
+                style={{ color: "#0072BC", cursor: "pointer" }}
+              >
+                click here.
+              </span>
+            </p>
           </div>
           <p className={styles.orangeText}>Payment Partners</p>
           <div className={styles.iconImage}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/coursePage/Finance+partners.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/Finance+partners.webp"
               alt="Zest"
               width="370"
               height="36"
@@ -127,7 +144,13 @@ const FeeSection = ({
               </div>
             </div>
           </div>
-          <hr style={{ color: "rgba(0, 0, 0, 0.20)", margin: "30px", border:"0.9px solid" }} />
+          <hr
+            style={{
+              color: "rgba(0, 0, 0, 0.20)",
+              margin: "30px",
+              border: "0.9px solid",
+            }}
+          />
           <div className={styles.boxOrange}>
             <div className={styles.batchImg}>
               <p>{weekendbatch}</p>

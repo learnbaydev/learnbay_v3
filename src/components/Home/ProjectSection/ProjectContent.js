@@ -24,7 +24,7 @@ const ProjectContent = ({ ids }) => {
         <div className={styles.InnerBox1}>
           <div className="imgWrapper">
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/project-innovation.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/project-innovation.webp"
               loading="lazy"
               quality={40}
               width="358"
@@ -54,7 +54,7 @@ const ProjectContent = ({ ids }) => {
         <div className={styles.InnerBox2}>
           <div className="imgWrapper">
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Project-Certification.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Project-Certification.webp"
               loading="lazy"
               quality={40}
               width="358"
@@ -136,12 +136,12 @@ const ProjectContent = ({ ids }) => {
               </div>
             </div>
             <div className={styles.buttonDiv}>
-            <Link href="/domain">
-              <Button
-                bannerButton={true}
-                text="Download Domain Brochures"
-                passIcon={<FaDownload className="bIconS" />}
-              />
+              <Link href="/domain">
+                <Button
+                  bannerButton={true}
+                  text="Download Domain Brochures"
+                  passIcon={<FaDownload className="bIconS" />}
+                />
               </Link>
             </div>
           </div>
@@ -149,7 +149,7 @@ const ProjectContent = ({ ids }) => {
         <div className={styles.image}>
           <div className="imgWrapper">
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/domainSlider.png"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/domainSlider.png"
               loading="lazy"
               quality={40}
               width="517"

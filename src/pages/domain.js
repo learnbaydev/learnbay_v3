@@ -19,14 +19,14 @@ const sumbit = () => {
         <meta name="robots" content="index, follow" />
         <link
           rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Learnbay-Favicon-L.png"
         />
         <link rel="canonical" href="https://www.learnbay.co/submit-info" />
       </Head>
       <Navbar popup={true} radio={true} />
       <WhoProgram
         dataScience={true}
-        leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/advance-who.webp"
+        leftImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/advance-who.webp"
         ThirdSectionData={ThirdSectionData}
       />
       <BottomBar radio={true} />

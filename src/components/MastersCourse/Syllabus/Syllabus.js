@@ -360,7 +360,7 @@ function SyllabusNew({
           <div className={styles.formWrapper}>
             <div className="imgWrapper">
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Form-Girl.png"
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Form-Girl.png"
                 width={535}
                 height={239}
                 alt="girl"

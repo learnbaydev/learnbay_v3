@@ -3,7 +3,7 @@ export const BADataScienceCourseData = [
     secondSection: [
       {
         id: 1,
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon1.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon1.png",
         height: "40",
         width: "43",
         heading: "1:1 Doubt Session",
@@ -11,7 +11,7 @@ export const BADataScienceCourseData = [
       },
       {
         id: 1,
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon3.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
         heading: "Guaranteed Interview Calls",
@@ -19,7 +19,7 @@ export const BADataScienceCourseData = [
       },
       {
         id: 1,
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon2.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon2.png",
         height: "50",
         width: "53",
         heading: "IBM Project Certificate",
@@ -27,7 +27,7 @@ export const BADataScienceCourseData = [
       },
       {
         id: 1,
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon4.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon4.png",
         height: "40",
         width: "40",
         heading: "Designed For Professionals",
@@ -41,13 +41,13 @@ export const BADataScienceCourseData = [
         working: "HCL",
         link: "vSjfKdIzUjY",
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/preksha-testimonial.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/preksha-testimonial.webp",
         sDesc:
           "I had a great learning experience at Learnbay. The faculties here are top notch. Right from enrollment to getting a good job ...",
         lDesc:
           "I had a great learning experience at Learnbay. The faculties here are top notch. Right from enrollment to getting a good job, they keep putting enormous efforts for each and every candidate. Thanks to all the trainers, backend team, the HR team and to the directors for making this journey smooth.",
         complogo:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/microsoft.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
         statLogo: "140% Hike",
       },
       {
@@ -56,13 +56,13 @@ export const BADataScienceCourseData = [
         working: "Cendrol Technology",
         link: "JoKquvfAhZU",
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Shubham-kumar-thumb+.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Shubham-kumar-thumb+.webp",
         sDesc:
           "I moved from teaching to data science with Learnbay's help. Their course was easy to follow, even for someone like me without a tech...",
         lDesc:
           "I moved from teaching to data science with Learnbay's help. Their course was easy to follow, even for someone like me without a tech background. In six months, I got to learn how data science is used in the real world. Their mock interviews also prepared me for job interviews, and I got a data analyst job at Cendrol. This course really helped me change my career.",
         complogo:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/microsoft.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
         statLogo: "  210% Hike",
       },
       {
@@ -71,13 +71,13 @@ export const BADataScienceCourseData = [
         working: "The Math Company",
         link: "hewBtR_WoDM",
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/aravind-k-thumb.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/aravind-k-thumb.webp",
         sDesc:
           "Choosing Learnbay was my best decision ever. The instructors were encouraging and glad to answer questions. The best feature is that...",
         lDesc:
           "Choosing Learnbay was my best decision ever. The instructors were encouraging and glad to answer questions. The best feature is that their flexible modules & small size batches. I was able to manage my time and learn while working. Thanks to Learnbay for my lucrative placement.",
         complogo:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/microsoft.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
         statLogo: " 150% Hike",
       },
       {
@@ -86,13 +86,13 @@ export const BADataScienceCourseData = [
         working: "Amazon",
         link: "A-BkcEM0rQM",
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/jaya-sinha-thumb.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/jaya-sinha-thumb.webp",
         sDesc:
           "Transitioning from a non-tech role, LearnBay's IBM data science certification equipped me with the skills needed in today's...",
         lDesc:
           "Transitioning from a non-tech role, LearnBay's IBM data science certification equipped me with the skills needed in today's market. The course's interactive sessions and personalized guidance from Abhishek sir were invaluable. Post-completion, I had received two offers, one from Amazon and other from Infosys for the role of senior data analyst. Highly recommend for anyone stepping into data science.",
         complogo:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/amazon.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/amazon.webp",
         statLogo: " 150% Hike",
       },
       // {
@@ -101,13 +101,13 @@ export const BADataScienceCourseData = [
       //   working: "Working at AGS",
       //   link: "D-gcPaK_-x4",
       //   proImg:
-      //     "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/reviewNew.webp",
+      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/reviewNew.webp",
       //   sDesc:
       //     "I got placed at AGS within 9 months of joining Learnbay institute. Live interaction sessions are the best part here since ...",
       //   lDesc:
       //     "I got placed at AGS within 9 months of joining Learnbay institute. Live interaction sessions are  the best part here since we could clear all queries. The projects are excellent. Overall I had a great  experience and I urge everyone to enroll in this institute.",
       //   complogo:
-      //     "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/microsoft.webp",
+      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
       //   statLogo: "  132% Hike",
       // },
       // {
@@ -116,13 +116,13 @@ export const BADataScienceCourseData = [
       //   working: "Working at Bridge i2i",
       //   link: "D-gcPaK_-x4",
       //   proImg:
-      //     "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/reviewNew.webp",
+      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/reviewNew.webp",
       //   sDesc:
       //     "One on One counseling from experts has guided me to  make the right decision. The Learnbay team was amazing in assisting me with ...",
       //   lDesc:
       //     "One on One counseling from experts has guided me to make the right decision. The Learnbay team was amazing in assisting me with live projects and preparing for the placements. Thank you! Learnbay for your tremendous support in excelling in my Data Science Career.",
       //   complogo:
-      //     "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/microsoft.webp",
+      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
       //   statLogo: "  127% Hike",
       // },
       // {
@@ -131,13 +131,13 @@ export const BADataScienceCourseData = [
       //   working: "SA - Data Scientist",
       //   link: "D-gcPaK_-x4",
       //   proImg:
-      //     "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/reviewNew.webp",
+      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/reviewNew.webp",
       //   sDesc:
       //     "Choosing Learnbay was my best decision ever. The instructors were encouraging and glad to answer questions. The best feature is that ...",
       //   lDesc:
       //     "Choosing Learnbay was my best decision ever. The instructors were encouraging and glad to answer questions. The best feature is that their flexible modules & small size batches. I was able to manage  my time and learn while working. Thanks to Learnbay for my lucrative placement.",
       //   complogo:
-      //     "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/microsoft.webp",
+      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
       //   statLogo: "142% Hike",
       // },
     ],
@@ -149,10 +149,10 @@ export const BADataScienceCourseData = [
         logo: "",
         heading:
           "Learn and develop classification techniques for the digital transformation of banking",
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/image+675+(1)-min.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+675+(1)-min.png",
         para: "JPMorgan offers tax-friendly insurance choices. You can help them forecastinsurance premiums. Targeted marketing using your random forest algorithm skills can help obtain better premium values.",
         toolImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/morgan-strip.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/morgan-strip.webp",
         learnMore: "Learn more",
       },
       {
@@ -161,10 +161,10 @@ export const BADataScienceCourseData = [
         logo: "",
         heading:
           "Building a content recommendation model on the basis of regional viewer categorization",
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/image+674-min.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+674-min.png",
         para: "Netflix is a global entertainment video streaming site. They offer content in various regional languages. Build a local recommendation engine for Netflix customers residing in south Bangalore on their weekend and weekdays activities, utilizing NLP.",
         toolImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Netfliix.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Netfliix.webp",
         learnMore: "Learn more",
       },
       {
@@ -173,10 +173,10 @@ export const BADataScienceCourseData = [
         logo: "",
         heading:
           "Understanding in-depth about logging while drilling (LWD) technique",
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/image+683-min.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+683-min.png",
         para: "Saudi Aramco company is working onthe development of high-efficiency drilling models. Use the bright sides of big data analytics to identify the most cost-effective and highly productive drilling sites.",
         toolImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/saudi-aramco-strip.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/saudi-aramco-strip.webp",
         learnMore: "Learn more",
       },
       {
@@ -185,10 +185,10 @@ export const BADataScienceCourseData = [
         logo: "",
         heading:
           "Career progression planning of employees with workforce defections & efficiency",
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/image+688-min.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+688-min.png",
         para: "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities.",
         toolImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/IBM-Strip.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/IBM-Strip.webp",
         learnMore: "Learn more",
       },
     ],
@@ -196,7 +196,7 @@ export const BADataScienceCourseData = [
     Certificate: {
       degreeCertificate: {
         id: 1,
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/ibm-min.webp",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm-min.webp",
         title: "Course Completion Certificate from IBM",
         para: [
           "Complete your training with the internationally recognized certificate.",
@@ -206,7 +206,7 @@ export const BADataScienceCourseData = [
       },
       microCertificate: {
         id: 2,
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Azure%2BAI%2BFundamentals.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
         title: "Certification in Collaboration with Microsoft",
         para: [
           "Industry-certified Microsoft certificates",
@@ -216,7 +216,7 @@ export const BADataScienceCourseData = [
       },
       projectCertificate: {
         id: 3,
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Certification-min.webp",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Certification-min.webp",
         title: "Capstone Project Certificate from IBM",
         para: [
           "Globally recognized IBM certification based on industrial-level projects.",
@@ -244,8 +244,6 @@ export const BADataScienceCourseData = [
                 ],
               },
             },
-
-          
           ],
           id: 0,
           open: true,
@@ -302,7 +300,6 @@ export const BADataScienceCourseData = [
                 desc: [
                   "Key components of Data Science and AI (data, algorithms, computing power).",
                   "Popular programming language (R) and development tools (Jupyter Notebook, Spyder)",
-                
                 ],
               },
             },
@@ -313,7 +310,6 @@ export const BADataScienceCourseData = [
                   "Supervised, unsupervised, and reinforcement learning.",
                   "Bias-variance tradeoff, overfitting, and underfitting.",
                   "Model selection and evaluation metrics (accuracy, precision, recall,F1 score, ROC curve, AUC).",
-                
                 ],
               },
             },
@@ -323,7 +319,6 @@ export const BADataScienceCourseData = [
                 desc: [
                   "Named Entity Recognition (NER), Topic Modeling, Text Generation.",
                   "Pre-trained language models (BERT, GPT, XLNet) and Transfer Learning in NLP",
-                
                 ],
               },
             },
@@ -338,7 +333,7 @@ export const BADataScienceCourseData = [
           content: [
             {
               chap: {
-                title:"Module 1 :- SQL",
+                title: "Module 1 :- SQL",
                 desc: [
                   "SQL and RDBMS",
                   "NoSQL, HBase & MongoDB",
@@ -387,7 +382,6 @@ export const BADataScienceCourseData = [
                 ],
               },
             },
-           
           ],
           id: 6,
           open: false,
@@ -399,26 +393,19 @@ export const BADataScienceCourseData = [
           content: [
             {
               chap: {
-          
                 desc: [
                   "Data Preparation and Feature Engineering",
                   "Model Training and Evaluation",
                   "Model Deployment and Management",
                   "Advanced Topics in Machine Learning on AWS and Azure",
-                
                 ],
               },
             },
-           
           ],
           id: 1,
           open: false,
         },
       },
-
-
-
-
 
       {
         Module0: {
@@ -426,7 +413,8 @@ export const BADataScienceCourseData = [
           content: [
             {
               chap: {
-                 title: "Module 1 :- Emerging Trends in AI and Generative Modeling",
+                title:
+                  "Module 1 :- Emerging Trends in AI and Generative Modeling",
                 desc: [
                   "Exploring other AI generative tools beyond ChatGPT and DALL·E",
                   "Discussion on future trends and advancements in AI generative tools",
@@ -434,9 +422,9 @@ export const BADataScienceCourseData = [
                 ],
               },
             },
-              {
+            {
               chap: {
-                 title: "Module 2 :- Natural Language Processing and ChatGPT",
+                title: "Module 2 :- Natural Language Processing and ChatGPT",
                 desc: [
                   "Introduction to natural language processing techniques",
                   "Understanding ChatGPT and its architecture",
@@ -446,22 +434,22 @@ export const BADataScienceCourseData = [
               },
             },
 
-                 {
+            {
               chap: {
-                 title: "Module 3 :- DALL·E: Image Generation with AI",
+                title: "Module 3 :- DALL·E: Image Generation with AI",
                 desc: [
                   "Exploring image generation using DALL·E",
                   "Hands-on exercises for creating unique images with DALL·E",
                   "Ethical considerations and limitations of AI-generated images",
-                 
                 ],
               },
             },
-                 {
+            {
               chap: {
-                 title: "Module 4 :-  Graph Neural Networks (GNN) for Data Analysis",
+                title:
+                  "Module 4 :-  Graph Neural Networks (GNN) for Data Analysis",
                 desc: [
-                "Overview of Graph Neural Networks (GNN) and their applications",
+                  "Overview of Graph Neural Networks (GNN) and their applications",
                   "Hands-on exercises using GNN for tasks such as node classification and link prediction",
                   "Case studies on real-world applications of GNN in data science",
                 ],
@@ -472,9 +460,6 @@ export const BADataScienceCourseData = [
           open: false,
         },
       },
-     
-      
-     
     ],
     faq: [
       {

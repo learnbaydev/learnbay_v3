@@ -12,7 +12,7 @@ const ThankYouDemo = () => {
       <Navbar radio={true} />
       <FirstHeader />
       <ThankStats
-        img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/GIF.gif"
+        img1="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/GIF.gif"
         heading="Gain Clarity: Explore the possibilities and chart your Career Journey"
         head1="Explore Career Options:"
         head2="Embrace Opportunities:"

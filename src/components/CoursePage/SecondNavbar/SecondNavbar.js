@@ -137,11 +137,10 @@ function SecondNavbar({
           }
         >
           <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png"
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
             alt="Learnbay"
             loading="lazy"
             width={mobile ? "135" : "230"}
-          
             height={50}
           />
         </Link>

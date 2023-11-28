@@ -48,7 +48,7 @@ const ProgramFee = ({ Fee, Emi, fullStack, dataScience }) => {
               hidden costs.
             </p>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/programFeeIcon.png"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/programFeeIcon.png"
               width="225"
               height="111"
               alt="programFeeIcon"

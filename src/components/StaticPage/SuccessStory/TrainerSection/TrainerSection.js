@@ -29,7 +29,7 @@ function TrainerSection({ idss }) {
               <div className={Styles.switchInnerBlue}>
                 <div>
                   <Image
-                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/topRated.png"
+                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/topRated.png"
                     width={50}
                     height={60}
                     alt="topRated"
@@ -38,7 +38,7 @@ function TrainerSection({ idss }) {
                 </div>
                 <div className="imgWrapper">
                   <Image
-                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/linkedin.png"
+                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/linkedin.png"
                     width={120}
                     height={60}
                     alt="LinkedIn"
@@ -87,7 +87,7 @@ function TrainerSection({ idss }) {
             <h2>Alumni Spotlight</h2>
             <div className="imgWrapper">
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-review.webp"
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-review.webp"
                 loading="lazy"
                 width="358"
                 height="212"

@@ -50,7 +50,7 @@ function ection({ idss }) {
           </p>
           <div className={styles.imgDiv}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Counsellors-min.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Counsellors-min.webp"
               width="400"
               height="71"
               alt="data science course"
@@ -83,7 +83,7 @@ function ection({ idss }) {
           <div className="imgWrapper">
             <Image
               onClick={videoSHow}
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/whylearnbay-left-image.png"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/whylearnbay-left-image.png"
               width={686}
               height={393}
               className={styles.LeftWrapImg}

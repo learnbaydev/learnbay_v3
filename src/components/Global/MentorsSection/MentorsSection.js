@@ -12,42 +12,48 @@ SwiperCore.use([Navigation, Pagination, A11y]);
 
 function MentorsSection() {
   const mentorImg = [
-    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/mentor-icon-sec.webp",
-    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/mentor-sec-min.webp",
-    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/secmentor1.webp",
-    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/mentor-desktop.webp",
-    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/puulkit.webp",
-    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/tripti.webp",
-    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/AnkurK.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/mentor-icon-sec.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/mentor-sec-min.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/secmentor1.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/mentor-desktop.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/puulkit.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/tripti.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/AnkurK.webp",
   ];
- 
- 
+
   const companyImg = [
-    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/walmart.webp",
-    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/mentor-icon.webp",
-    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/walmart.webp",
-    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/kryndal.webp",
-    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/paypal.webp",
-    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/paytm.webp",
-    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/walmart.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/walmart.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/mentor-icon.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/walmart.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/kryndal.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/paypal.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/paytm.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/walmart.webp",
   ];
- 
- 
-  const mentorNames = ["Disha Jindgar","Disha M.","Tammanna V.","Mohit S.", "Pulkit Jain", "Tripti Jain", "Ankur K."];
- 
+
+  const mentorNames = [
+    "Disha Jindgar",
+    "Disha M.",
+    "Tammanna V.",
+    "Mohit S.",
+    "Pulkit Jain",
+    "Tripti Jain",
+    "Ankur K.",
+  ];
+
   return (
     <section className={styles.container}>
       <h4>Meet Our Mentors</h4>
       <p>Guiding You Every Step of the Way Towards Professional Excellence</p>
       <div className={styles.SliderDiv}>
-      <Swiper
+        <Swiper
           navigation
           pagination={{ clickable: true }}
           spaceBetween={20}
-          slidesPerView={1}  // This will show 4 cards on desktop
+          slidesPerView={1} // This will show 4 cards on desktop
           breakpoints={{
             768: {
-              slidesPerView: 4,  // This will show only 1 card on mobile (adjust as needed)
+              slidesPerView: 4, // This will show only 1 card on mobile (adjust as needed)
             },
           }}
         >

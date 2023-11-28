@@ -64,7 +64,7 @@ function SecondNavbar({
       const scrollY = window.scrollY || window.pageYOffset;
 
       // Adjust this value based on when you want to show the button
-      if (scrollY >=1000) {
+      if (scrollY >= 1000) {
         setShowApplyButton(true);
         setShowLogo(true);
       } else {
@@ -123,7 +123,7 @@ function SecondNavbar({
           }
         >
           <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png"
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
             alt="Learnbay"
             quality={100}
             style={{ objectFit: "contain" }}

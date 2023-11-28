@@ -60,7 +60,7 @@ const PlacementCall = () => {
       </div>
       <div className={styles.imgsection}>
         <img
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/coursePage/Dedicated-Placement-Cell.gif"
+          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/Dedicated-Placement-Cell.gif"
           width={600}
           height={200}
           loading="lazy"
@@ -88,7 +88,7 @@ const PlacementCall = () => {
                   <div className={styles.number}>
                     <div className={styles.imged}>
                       <Image
-                        src={`https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/${courseData[index].imgSrc}`}
+                        src={`https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/${courseData[index].imgSrc}`}
                         height={60}
                         width={course.imgWidth}
                         loading="lazy"

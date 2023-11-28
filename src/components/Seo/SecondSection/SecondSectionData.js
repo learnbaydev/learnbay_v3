@@ -1,7 +1,7 @@
 export const SecondSectionData = [
   {
     id: 1,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon1.png",
+    img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon1.png",
     height: "40",
     width: "43",
     heading: "1:1 Doubt Session",
@@ -9,7 +9,7 @@ export const SecondSectionData = [
   },
   {
     id: 1,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon3.png",
+    img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
     height: "42",
     width: "42",
     heading: "Guaranteed Interview Calls",
@@ -17,7 +17,7 @@ export const SecondSectionData = [
   },
   {
     id: 1,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon2.png",
+    img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon2.png",
     height: "50",
     width: "53",
     heading: "IBM Project Certificate",
@@ -25,7 +25,7 @@ export const SecondSectionData = [
   },
   {
     id: 1,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon4.png",
+    img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon4.png",
     height: "40",
     width: "40",
     heading: "Designed For Professionals",
