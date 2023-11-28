@@ -1,8 +1,6 @@
 import React from "react";
 import dynamic from "next/dynamic";
 
-import Navbar from "@/components/Global/Navbar/Navbar";
-import FirstSection from "@/components/CoursePage/FirstSection/FirstSection";
 import SecondSection from "@/components/CoursePage/SecondSection/SecondSection";
 const SecondNavbar = dynamic(() =>
   import("../../../components/CoursePage/SecondNavbar/SecondNavbar")
@@ -30,21 +28,6 @@ const ContactConsellor = dynamic(() =>
 const FirstPart = ({ SecondSectionData, TestimonialData }) => {
   return (
     <>
-      <Navbar dataScienceCounselling={true} interstedInHide={true} />
-      <FirstSection
-        dataScienceCounselling={true}
-        interstedInHide={true}
-        ThirdTyped="Live Interactive Classes"
-        dataScience={true}
-        titleCourse="Advance Data Science & AI Program with Domain Specialization"
-        cityParaCont="Elevate your tech career with our Master's programs"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
-        FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Adv-dsai-_1_-min.webp"
-        firstToparaImg="with Domain Specialization"
-        firstHeading="Advance Data Science & AI Program"
-        firstTopPara="Curriculum Inclusive of Gen-AI "
-        idss="YWxTtvb3x-U"
-      />
       <SecondSection SecondSectionData={SecondSectionData} />
       <SecondNavbar
         interstedInHide={true}

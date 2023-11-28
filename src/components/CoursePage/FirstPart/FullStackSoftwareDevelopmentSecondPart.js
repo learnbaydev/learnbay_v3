@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import Footer from "@/components/Global/Footer/Footer";
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
@@ -10,6 +10,7 @@ const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const FeeSection = dynamic(() =>
   import("../../../components/CoursePage/FeeSection/FeeSection")
 );
+const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
 const MentorsSection = dynamic(() =>
   import("../../../components/Global/MentorsSection/MentorsSection")
 );
@@ -27,6 +28,36 @@ const FullStackSoftwareDevelopmentSecondPart = ({
   masterSyllabusMobile,
   FAQNewData,
 }) => {
+  const [popupData, setPopupData] = useState([]);
+  // console.log(popupData);
+  useEffect(() => {
+    // console.log("inside UseEFFect");
+    const fetchPopup = async () => {
+      const data = await fetch("/api/Popup/popupGenerate", {
+        method: "GET",
+      });
+      if (data.status === 200) {
+        const { popData } = await data.json();
+        // console.log(popData, "get data");
+        if (popData == []) {
+          setPopupData([]);
+        }
+
+        popData.map((data, i) => {
+          // console.log(data);
+          data.page.map((popupData, i) => {
+            // console.log(popData);
+            if (popupData === "Full Stack Developer course") {
+              setPopupData(data);
+              // console.log(popupData);
+              return;
+            }
+          });
+        });
+      }
+    };
+    fetchPopup();
+  }, []);
   return (
     <div>
       <SyllabusNew
@@ -68,6 +99,7 @@ const FullStackSoftwareDevelopmentSecondPart = ({
       <Footer />
       <BottomBar />
       <WhatsappFloat />
+      {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
     </div>
   );
 };
