@@ -89,11 +89,12 @@ function Blockchain({ DataScienceCourseDataJson }) {
       <main>
         <DataAnlyticsFirstPart
           SecondSectionData={
-            DataScienceCourseData.DADataScienceCourseData[0].secondSection
+            DataScienceCourseData.DADataScienceCourseData[0].secondSection       
           }
           TestimonialData={
             DataScienceCourseData.DADataScienceCourseData[0].testimonial
           }
+          ibmOnly ={true}
         />
         <DataAnlyticsSecondPart
           masterSyllabusMobile={

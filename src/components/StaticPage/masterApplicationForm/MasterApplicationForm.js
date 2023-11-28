@@ -5,6 +5,7 @@ import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import { useRouter } from "next/router";
 import Navbar from "../../Global/Navbar/Navbar";
+import Head from "next/head";
 const MasterApplicationForm = ({ secondForm, title }) => {
   const router = useRouter();
   const [value, setValue] = useState();
@@ -12,7 +13,7 @@ const MasterApplicationForm = ({ secondForm, title }) => {
     name: "",
     email: "",
     url: router.asPath,
-    phoneNumber: "",
+    phone: "",
     highestEducation: "",
     graduationMarks: "",
     workExperience: "",
@@ -22,7 +23,7 @@ const MasterApplicationForm = ({ secondForm, title }) => {
     // Default: "no"
   });
   useEffect(() => {
-    setQuery({ ...query, phoneNumber: value });
+    setQuery({ ...query, phone: value });
   }, [value]);
   const handleChange = (e) => {
     const { name, value, type } = e.target;
@@ -53,7 +54,7 @@ const MasterApplicationForm = ({ secondForm, title }) => {
       name: "",
       email: "",
       url: router.asPath,
-      phoneNumber: "",
+      phone: "",
       highestEducation: "",
       graduationMarks: "",
       workExperience: "",
@@ -69,6 +70,19 @@ const MasterApplicationForm = ({ secondForm, title }) => {
 
   return (
     <>
+    <Head>
+        <title>Learnbay - Counselling Form - Apply</title>
+        <meta
+          name="description"
+          content="Submit your information to LearnBay to unlock a world of learning opportunities. Join our platform today and start your path to success."
+        />
+        <meta name="robots" content="index, follow" />
+        <link
+          rel="icon"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Learnbay-Favicon-L.png"
+        />
+        <link rel="canonical" href="https://www.learnbay.co/submit-info" />
+      </Head>
       <Navbar masterApplication={true} />
       <div className={styles.formWrapper}>
         <div className={styles.leftWrap}>
@@ -114,7 +128,7 @@ const MasterApplicationForm = ({ secondForm, title }) => {
           ></input>
 
           <div className={styles.phoneWrap}>
-            <label htmlFor="PhoneNumber">
+            <label htmlFor="phone">
               Phone Number<span className={styles.spanLabel}>*</span>
             </label>
             <div className={styles.phoneInput}>
@@ -122,9 +136,9 @@ const MasterApplicationForm = ({ secondForm, title }) => {
                 inputStyle={{
                   border: 0,
                 }}
-                name="phoneNumber"
+                name="phone"
                 inputProps={{
-                  name: "phoneNumber",
+                  name: "phone",
                   required: true,
                   placeholder: "Enter Phone Number",
                 }}

@@ -25,8 +25,8 @@ const FeeContent = ({
     <div className={styles.feesmain}>
       <h2>Fee & Batch Details</h2>
       <p className={styles.pTop}>
-        Invest in your future with affordable degree fees and flexible batch
-        options
+      Invest in your future with affordable program fees and flexible batch options
+
       </p>
 
       <div className={styles.ThreeCard}>

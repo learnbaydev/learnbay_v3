@@ -19,7 +19,7 @@ const GetHire = dynamic(() => import("../../Home/GetHire/GetHire"));
 const ContactConsellor = dynamic(() =>
   import("../ContactCounsellor/ContactCounsellor")
 );
-const DataAnlyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
+const DataAnlyticsFirstPart = ({ SecondSectionData, TestimonialData, ibmOnly, }) => {
   return (
     <>
       <Navbar dataScienceCounselling={true} interstedInHide={true} />
@@ -36,6 +36,8 @@ const DataAnlyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         firstHeading="Data Analytics Certification Program"
         firstTopPara="Curriculum designed by industry experts"
         idss="y_0IdhFKJKM"
+        ibmOnly={ibmOnly}
+     
       />
       <SecondSection SecondSectionData={SecondSectionData} />
       <SecondNavbar
@@ -54,7 +56,7 @@ const DataAnlyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} />
       <WhoIsProgram
         first="Bachelor's degree with consistent good academic"
-        second="Minimum 1 year of IT/Non-IT work experience"
+        second="Minimum 6 Month of IT/Non-IT work experience"
         third="Early to mid-career professionals interested in data analytics"
         forth="Developing skills in data analytics for future opportunities"
       />
