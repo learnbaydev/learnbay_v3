@@ -1,18 +1,17 @@
 .First {
-  background: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/FirstSectionBg.png");
+  background: url("https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/FirstSectionBg.png");
   background-size: contain;
   margin-top: 70px;
   padding: 70px 100px 70px 100px;
   display: grid;
   grid-template-columns: 53% 43%;
   gap: 50px;
-
 }
 
-.animationTextWrap{
+.animationTextWrap {
   font-size: 22px;
-  height: 24px ;
-    font-weight: 600;
+  height: 24px;
+  font-weight: 600;
 }
 
 .ptop {
@@ -22,8 +21,7 @@
 }
 
 .h1Span {
-  color:  #f99600;
-  
+  color: #f99600;
 }
 
 .h1 {
@@ -109,7 +107,6 @@
   background: #fff;
   color: #0072bc;
 }
-
 
 @media (max-width: 641px) {
   .First {

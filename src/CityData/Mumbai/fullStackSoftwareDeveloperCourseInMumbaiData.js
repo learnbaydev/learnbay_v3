@@ -7,7 +7,7 @@ export const FullStackMumbaiCourseData = [
       description:
         "You just have to follow 3 easy steps to enroll in our advanced data science course",
       image:
-        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp",
       totalTime: "PT6M",
       estimatedCost: {
         "@type": "MonetaryAmount",
@@ -27,7 +27,7 @@ export const FullStackMumbaiCourseData = [
           "@type": "HowToStep",
           text: "Visit our website and fill the enquiry form",
           image:
-            "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp",
           name: "Fill Enquiry Form",
           url: "https://www.learnbay.co/data-science-course/",
         },
@@ -35,7 +35,7 @@ export const FullStackMumbaiCourseData = [
           "@type": "HowToStep",
           text: "Talk to our experts for career counseling",
           image:
-            "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
           name: "Talk to Expert",
           url: "https://www.learnbay.co/data-science-course/",
         },
@@ -43,7 +43,7 @@ export const FullStackMumbaiCourseData = [
           "@type": "HowToStep",
           text: "Get enrollment in our data science course",
           image:
-            "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp",
           name: "Get enrollment",
           url: "https://www.learnbay.co/",
         },
@@ -60,7 +60,7 @@ export const FullStackMumbaiCourseData = [
       description:
         "Data science course in Mumbai. Learnbay is Advanced Data Science Course Training Institute in Mumbai. Data science course in Mumbai will enhance your career",
       image:
-        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp",
       author: {
         "@type": "Organization",
         name: "Learnbay",
@@ -71,7 +71,7 @@ export const FullStackMumbaiCourseData = [
         name: "Learnbay",
         logo: {
           "@type": "ImageObject",
-          url: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+          url: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png",
         },
       },
       datePublished: "2021-10-01",
@@ -270,7 +270,7 @@ export const FullStackMumbaiCourseData = [
     secondSection: [
       {
         id: 1,
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon1.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon1.png",
         height: "40",
         width: "43",
         heading: "On-Demand Doubt Session",
@@ -278,7 +278,7 @@ export const FullStackMumbaiCourseData = [
       },
       {
         id: 1,
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon3.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
         heading: "IBM+ Microsoft Certificate",
@@ -286,7 +286,7 @@ export const FullStackMumbaiCourseData = [
       },
       {
         id: 1,
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon2.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon2.png",
         height: "50",
         width: "53",
         heading: "Peer Learning & Networking",
@@ -294,7 +294,7 @@ export const FullStackMumbaiCourseData = [
       },
       {
         id: 1,
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon4.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon4.png",
         height: "40",
         width: "40",
         heading: "Designed For Professionals",
@@ -307,7 +307,7 @@ export const FullStackMumbaiCourseData = [
         name: "Qudsia Tahniyath",
 
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/Qudsia.png",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Alumni+Images/Qudsia.png",
         // sDesc:
         //   "Learnbay has helped me a lot to learn data science applications in the e-commerce industry...",
         sDesc:
@@ -318,7 +318,7 @@ export const FullStackMumbaiCourseData = [
         name: "Binit Kumar ",
 
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/binit.png",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Alumni+Images/binit.png",
         // sDesc:
         //   "Learnbay has helped me a lot to learn data science applications in the e-commerce industry...",
         sDesc:
@@ -329,7 +329,7 @@ export const FullStackMumbaiCourseData = [
         name: "Swarup Halder",
 
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/swarup.png",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Alumni+Images/swarup.png",
         // sDesc:
         //   "I have enrolled in Software Development course. I had basic knowledge of DSA and since then it has been a wonderful learning experience...",
         sDesc:
@@ -340,7 +340,7 @@ export const FullStackMumbaiCourseData = [
         name: "Karanveer Bansal",
 
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/karanveer.png",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Alumni+Images/karanveer.png",
         // sDesc:
         //   "I enrolled in Learnbay's full stack program. I already completed basic DSA and the live sessions were clear, with good teaching pace...",
         sDesc:
@@ -351,7 +351,7 @@ export const FullStackMumbaiCourseData = [
         name: "Gowthaman Jeganathan",
 
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/Gowthaman.png",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Alumni+Images/Gowthaman.png",
         // sDesc:
         //   "I'm currently enrolled in the Full Stack course and have completed the DSA and System Design modules...",
         sDesc:
@@ -362,7 +362,7 @@ export const FullStackMumbaiCourseData = [
         name: "Abhishek Pakhide",
 
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/Abhishek+Pakhide.png",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Alumni+Images/Abhishek+Pakhide.png",
         // sDesc:
         //   "I recently finished Learnbay's Basic DSA Course online. The course is well-structured, taught by knowledgeable...",
         sDesc:
@@ -727,35 +727,35 @@ export const FullStackMumbaiCourseData = [
       "Our Full-stack software developer projects in Mumbai are real-world capstone projects for learning about real-world tech problems and finding a solution for them. We have special hybrid classes for project completion powered by an offline project innovation lab.Our Full-stack software developer projects in Mumbai are real-world capstone projects for learning about real-world tech problems and finding a solution for them. We have special hybrid classes for project completion powered by an offline project innovation lab.",
     ProjectsHead2:
       "Learnbay project innovation labs for Full-stack software development projects. Examples are:",
-    src1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project/2.png",
+    src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/project/2.png",
     Projectsp1:
       "Create an online application that displays the contents of a database in list form, modify or delete each record and add new ones.",
-    src2: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project/4.png",
+    src2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/project/4.png",
     Projectsp2:
       "Learn advanced API integration to connect two or more applications, via their APIs, that lets those systems exchange data.",
-    src3: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project/5.png",
+    src3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/project/5.png",
     Projectsp3:
       "The connected website must offer signup, login/logout, and profile creation/editing. This must include a wishlist box, a order tracker, personalized suggestions, personalized and occasional discount features, a chatbot, etc.",
-    src4: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project/6.png",
+    src4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/project/6.png",
     Projectsp4:
       "This is a full-stack web development project at the advanced level that includes seamless audio-video call management services.",
     AlumniBot1:
       "We have transited more than 1000+ careers of our alumni to land top-notch lucrative jobs. Around 80% of our alumni who have completed our full stack developer course got emplaced within three months and others in the following months.",
     AlumniHead1: "Our Alumni sharing their success and learning experiences:",
-    Asrc1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/akanksha.jpg",
+    Asrc1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/akanksha.jpg",
     AlumniH1: "Neha Gour",
     Alumnip1:
       "Have taken S/W Development course at this institute. Irrespective of implementation languages, one can join this. Cleared many tough concepts in an easy way. I was trying to switch to product based MNC and this course just made it possible.",
-    Asrc2: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/rahul.jpg",
+    Asrc2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/rahul.jpg",
     AlumniH2: "Rahul Anand",
     Alumnip2:
       "Excellent training and awesome environment! I took data structures and algorithm training in LearnBay . They teach concepts clearly and solved as many programs as possible. I was getting interview calls even before course completion.",
-    Asrc3: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/kamlesh.jpg",
+    Asrc3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/kamlesh.jpg",
     AlumniH3: "Kamlesh Sahu",
     Alumnip3:
       "This Course Helped me in getting 6 month SDE INTERNSHIP at AMAZON,India. The advance DSA topics are taught and explained in such a simplified manner that even a newbie can catch up very easily.",
     Asrc4:
-      "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/Qudsia.png",
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Alumni+Images/Qudsia.png",
     AlumniH4: "Qudsia Tahniyath",
     Alumnip4:
       "Learnbay has helped me a lot to learn data science applications in the e-commerce industry. The live class concept was really helpful in receiving proper DS training. Thanks to all my mentors and the placement team.",

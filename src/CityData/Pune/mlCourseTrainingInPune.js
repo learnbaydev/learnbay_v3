@@ -7,7 +7,7 @@ export const MLPuneCourseData = [
       description:
         "You just have to follow 3 easy steps to enroll in our advanced data science course",
       image:
-        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp",
       totalTime: "PT6M",
       estimatedCost: {
         "@type": "MonetaryAmount",
@@ -27,7 +27,7 @@ export const MLPuneCourseData = [
           "@type": "HowToStep",
           text: "Visit our website and fill the enquiry form",
           image:
-            "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp",
           name: "Fill Enquiry Form",
           url: "https://www.learnbay.co/data-science-course/",
         },
@@ -35,7 +35,7 @@ export const MLPuneCourseData = [
           "@type": "HowToStep",
           text: "Talk to our experts for career counseling",
           image:
-            "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
           name: "Talk to Expert",
           url: "https://www.learnbay.co/data-science-course/",
         },
@@ -43,7 +43,7 @@ export const MLPuneCourseData = [
           "@type": "HowToStep",
           text: "Get enrollment in our data science course",
           image:
-            "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp",
           name: "Get enrollment",
           url: "https://www.learnbay.co/",
         },
@@ -60,7 +60,7 @@ export const MLPuneCourseData = [
       description:
         "Machine learning course in Pune. Learnbay is Advanced Machine Learning Course Training Institute in Pune. Machine Learning course in Pune will enhance your career.",
       image:
-        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp",
       author: {
         "@type": "Organization",
         name: "Learnbay",
@@ -71,7 +71,7 @@ export const MLPuneCourseData = [
         name: "Learnbay",
         logo: {
           "@type": "ImageObject",
-          url: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+          url: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png",
         },
       },
       datePublished: "2021-10-01",
@@ -330,7 +330,7 @@ export const MLPuneCourseData = [
       description:
         "Machine learning course in Pune. Learnbay is Advanced Machine Learning Course Training Institute in Pune. Machine Learning course in Pune will enhance your career.",
       image:
-        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png",
       performer: "Learnbay",
       offers: {
         "@type": "AggregateOffer",
@@ -380,7 +380,7 @@ export const MLPuneCourseData = [
     secondSection: [
       {
         id: 1,
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon1.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon1.png",
         height: "40",
         width: "43",
         heading: "On-Demand Doubt Session",
@@ -388,7 +388,7 @@ export const MLPuneCourseData = [
       },
       {
         id: 1,
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon3.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
         heading: "IBM+ Microsoft Certificate",
@@ -396,7 +396,7 @@ export const MLPuneCourseData = [
       },
       {
         id: 1,
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon2.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon2.png",
         height: "50",
         width: "53",
         heading: "Peer Learning & Networking",
@@ -404,7 +404,7 @@ export const MLPuneCourseData = [
       },
       {
         id: 1,
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon4.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon4.png",
         height: "40",
         width: "40",
         heading: "Designed For Professionals",
@@ -417,7 +417,7 @@ export const MLPuneCourseData = [
         name: "Qudsia Tahniyath",
 
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/Qudsia.png",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Alumni+Images/Qudsia.png",
         // sDesc:
         //   "Learnbay has helped me a lot to learn data science applications in the e-commerce industry...",
         sDesc:
@@ -428,7 +428,7 @@ export const MLPuneCourseData = [
         name: "Binit Kumar ",
 
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/binit.png",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Alumni+Images/binit.png",
         // sDesc:
         //   "Learnbay has helped me a lot to learn data science applications in the e-commerce industry...",
         sDesc:
@@ -439,7 +439,7 @@ export const MLPuneCourseData = [
         name: "Swarup Halder",
 
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/swarup.png",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Alumni+Images/swarup.png",
         // sDesc:
         //   "I have enrolled in Software Development course. I had basic knowledge of DSA and since then it has been a wonderful learning experience...",
         sDesc:
@@ -450,7 +450,7 @@ export const MLPuneCourseData = [
         name: "Karanveer Bansal",
 
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/karanveer.png",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Alumni+Images/karanveer.png",
         // sDesc:
         //   "I enrolled in Learnbay's full stack program. I already completed basic DSA and the live sessions were clear, with good teaching pace...",
         sDesc:
@@ -461,7 +461,7 @@ export const MLPuneCourseData = [
         name: "Gowthaman Jeganathan",
 
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/Gowthaman.png",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Alumni+Images/Gowthaman.png",
         // sDesc:
         //   "I'm currently enrolled in the Full Stack course and have completed the DSA and System Design modules...",
         sDesc:
@@ -472,7 +472,7 @@ export const MLPuneCourseData = [
         name: "Abhishek Pakhide",
 
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/Abhishek+Pakhide.png",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Alumni+Images/Abhishek+Pakhide.png",
         // sDesc:
         //   "I recently finished Learnbay's Basic DSA Course online. The course is well-structured, taught by knowledgeable...",
         sDesc:
@@ -793,7 +793,7 @@ export const MLPuneCourseData = [
       "At Learnbay, Students get 6 globally recognized certifications by IBM in a single Machine learning course program.",
     CertificationBot2:
       "The students who completed the course and the projects get separate certificates for gaining different Machine Learning skills like Deep Learning, Machine Learning with Python, Tensorflow, capstone project certificates, and many more. The most important is IBM Machine Learning project completion certificates for two new capstone projects.",
-    src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Advanced-AI-ML.jpeg",
+    src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Advanced-AI-ML.jpeg",
     ModuleBot1:
       "The Learnbay Machine Learning program in Pune consists of 300 hrs of uninterrupted live classes from PRODUCT Based Companies experts. More than 18 specially planned Machine Learning modules are there, so students can be thoroughly trained for super industrial skills. Every module at Learnbay has its sub-module, from basic to advanced.",
     ModuleBot2:
@@ -842,37 +842,37 @@ export const MLPuneCourseData = [
       "Learnbay assures guaranteed interview calls from 250+ recruiters channels across Pune as well as all over India. Learnbay teaching faculty conducts Mock-interviews with Artificial Intelligence and Machine Learning experts of specified domains and product MNC'S job roles. Our job Assistance team program also teaches industry-specific tips and tricks that are handy during the interview process.",
     ProjectsBot1:
       "Learnbay knows the importance of projects and their value if added to a resume or Portfolio. Learnbay machine Learning training in Pune has 15 real-time projects and 2 capstone projects. All our projects and courses are certified by IBM and are recognized globally.",
-    src1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/SAMSUNG.png",
+    src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
     ProjectsH1: "Samsung Health Monitor App",
     Projectsp1:
       "Samsung will launch a new healthcare app soon. The key goal of this app is the accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app.",
-    src2: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/IBM.png",
+    src2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IBM.png",
     ProjectsH2: "IBM HR Analytics",
     Projectsp2:
       "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other Data science abilities.",
-    src3: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/amazon1.png",
+    src3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/amazon1.png",
     ProjectsH3: "Amazon Customer Review Analysis",
     Projectsp3:
       "Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can participate in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach.",
-    src4: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BMW.png",
+    src4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BMW.png",
     ProjectsH4: "BMW Used Car Price Optimization",
     Projectsp4:
       "BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects.",
     AlumniBot1:
       "We have an excellent rate of almost 100% on placement success. Our whole team at Learnbay works until you get recruited by a company. This is why the Learnbay Machine training program is widely known in companies in Pune. Many MNCs and startups have recruited more than 1000+ Learnbay students across Pune. You can read some of our student's true success stories below here:",
-    Asrc1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/devraj.jpg",
+    Asrc1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/devraj.jpg",
     AlumniH1: "Deveraj",
     Alumnip1:
       "The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around.",
-    Asrc2: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shezan.png",
+    Asrc2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/shezan.png",
     AlumniH2: "Shezan Baig",
     Alumnip2:
       "Learnbay is one of the most remarkable Machine Learning institutes I've come across. Compared to other institutes in India, it offers a Machine Learning course at a low cost. Excellent value for money. Finally, I achieved job satisfaction. I would strongly advise everyone to attend this institute.",
-    Asrc3: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/viraj.png",
+    Asrc3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/viraj.png",
     AlumniH3: "Viraj Ghodke",
     Alumnip3:
       "For me, learning using the Learnbay platform has been a great experience. The teaching and management team are very helpful. They are constantly willing to clarify each individual's doubts and meet the needs of working professionals. The practice interview sessions were simply like a clone of MNC interviews.",
-    Asrc4: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png",
+    Asrc4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/shubhangi.png",
     AlumniH4: "Shubhangi J. Waghmare ",
     Alumnip4:
       "The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment.",

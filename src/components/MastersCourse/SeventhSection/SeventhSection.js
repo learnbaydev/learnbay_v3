@@ -21,14 +21,14 @@ function SeventhSection({ fullStackCont }) {
         <div className="bgWrap">
           {mobile ? (
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/learner's-support.png"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/learner's-support.png"
               fill={true}
               className={styles.deskImage}
               alt="Learners support"
             />
           ) : (
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/learners-support-bg.png"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/learners-support-bg.png"
               fill={true}
               alt="Learners support"
             />
@@ -38,7 +38,8 @@ function SeventhSection({ fullStackCont }) {
           <p className={styles.pTop}>Got more questions?</p>
           <h5>Talk to our team directly</h5>
           <p className={styles.pBot}>
-          Reach us and a learning consultant will get in touch with you shortly
+            Reach us and a learning consultant will get in touch with you
+            shortly
           </p>
           {fullStackCont ? (
             <div className={styles.btnWrap}>
@@ -84,7 +85,7 @@ function SeventhSection({ fullStackCont }) {
         <div className={styles.rightPart}>
           <div className="imgWrapper">
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/learners-support-guy.png"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/learners-support-guy.png"
               width={681}
               height={515}
               alt="data science course"

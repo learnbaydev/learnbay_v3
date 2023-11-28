@@ -9,7 +9,7 @@ function SecondSection({ SecondSectionData }) {
         <div className={styles.boxC}>
           <div className={styles.imgBox}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/sec1.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/sec1.webp"
               width="35"
               height="35"
               priority={true}
@@ -23,7 +23,7 @@ function SecondSection({ SecondSectionData }) {
         <div className={styles.boxC}>
           <div className={styles.imgBox}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/sec2.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/sec2.webp"
               width="35"
               height="35"
               priority={true}
@@ -37,7 +37,7 @@ function SecondSection({ SecondSectionData }) {
         <div className={styles.boxC}>
           <div className={styles.imgBox}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/sec3.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/sec3.webp"
               width="35"
               height="35"
               priority={true}
@@ -51,7 +51,7 @@ function SecondSection({ SecondSectionData }) {
         <div className={styles.boxC}>
           <div className={styles.imgBox}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/sec4.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/sec4.webp"
               width="35"
               height="35"
               priority={true}

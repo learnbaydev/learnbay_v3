@@ -15,7 +15,7 @@
   }
   .popup .popupInner {
     background: #fff;
-    background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/popup-left.webp");
+    background-image: url("https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/popup-left.webp");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
@@ -69,7 +69,7 @@
   }
   .popup .popupInners {
     background: #fff;
-    background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/popup-left.webp");
+    background-image: url("https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/popup-left.webp");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
@@ -113,7 +113,7 @@
   }
   .popup .popupInner {
     background: #fff;
-    background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/popup-left.webp");
+    background-image: url("https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/popup-left.webp");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
@@ -166,7 +166,7 @@
     font-size: 25px;
   }
   .popup .popupInnersW {
-    background-image: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Form-Side-Image.png");
+    background-image: url("https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Form-Side-Image.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;

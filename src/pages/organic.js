@@ -14,14 +14,14 @@ function Counselling() {
         <meta name="description" content="Learnbay Courses" />
         <link
           rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Learnbay-Favicon-L.png"
         />
       </Head>
       <Navbar event={true} eventO={true} />
       <div className={styles.formq}>
         <div className={styles.forml}>
           <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/popup-back+3.png"
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/popup-back+3.png"
             width="400"
             height="500"
             alt="LearnsupportImg"

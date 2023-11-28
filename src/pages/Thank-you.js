@@ -31,7 +31,7 @@ const ThankYouDemo = () => {
       <FirstHeader donwnload={true} brochureLink={data[1]} />
 
       <ThankStats
-        img1="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/GIF.gif"
+        img1="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/GIF.gif"
         heading="Gain Clarity: Explore the possibilities and chart your Career Journey"
         // desc="tat point 1 here lorem ipsum doret trinkettat point 1 here lorem ipsum doret trinket tat point 1 here lorem ipsum doret trinket"
         head1="Explore Career Options:"

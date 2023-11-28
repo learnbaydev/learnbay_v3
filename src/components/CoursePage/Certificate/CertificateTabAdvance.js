@@ -2,9 +2,7 @@ import React, { useState } from "react";
 import styles from "./Certificate.module.css";
 import Image from "next/image";
 import { BsCheckCircle } from "react-icons/bs";
-function CertificateTab({
-   data,
-  singlecertificate }) {
+function CertificateTab({ data, singlecertificate }) {
   const [MActive, setMActive] = useState(false);
   const [IActive, setIActive] = useState(true);
   const [IBCActive, setIBCActive] = useState(false);
@@ -22,30 +20,33 @@ function CertificateTab({
           >
             IBM
           </p>
-          {singlecertificate ? "":<> <p
-            onClick={() => {
-              setIActive(false);
-              setMActive(true);
-              setIBCActive(false);
-            }}
-            className={MActive ? styles.activeP : styles.inactiveP}
-          >
-            Microsoft
-          </p>
-
-          <p
-            onClick={() => {
-              setIActive(false);
-              setMActive(false);
-              setIBCActive(true);
-            }}
-            className={IBCActive ? styles.activeP : styles.inactiveP}
-          >
-            Project Certificate
-          </p>
-          </>}
-
-         
+          {singlecertificate ? (
+            ""
+          ) : (
+            <>
+              {" "}
+              <p
+                onClick={() => {
+                  setIActive(false);
+                  setMActive(true);
+                  setIBCActive(false);
+                }}
+                className={MActive ? styles.activeP : styles.inactiveP}
+              >
+                Microsoft
+              </p>
+              <p
+                onClick={() => {
+                  setIActive(false);
+                  setMActive(false);
+                  setIBCActive(true);
+                }}
+                className={IBCActive ? styles.activeP : styles.inactiveP}
+              >
+                Project Certificate
+              </p>
+            </>
+          )}
         </div>
       </div>
 
@@ -64,7 +65,7 @@ function CertificateTab({
           </div>
           <div className={styles.leftSide}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/cert-arrow.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/cert-arrow.webp"
               alt="arrow"
               width={100}
               height={50}
@@ -104,7 +105,7 @@ function CertificateTab({
           </div>
           <div className={styles.leftSide}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/cert-arrow.png"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/cert-arrow.png"
               alt="arrow"
               quality={100}
               width={100}
@@ -143,7 +144,7 @@ function CertificateTab({
           </div>
           <div className={styles.leftSide}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/cert-arrow.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/cert-arrow.webp"
               alt="arrow"
               width={100}
               height={50}

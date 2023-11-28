@@ -11,7 +11,7 @@ const HomeLine = () => {
       <div className={styles.container}>
         <div className="imgWrapper">
           <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/homeline.webp"
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/homeline.webp"
             width="1200"
             height="60"
             loading="lazy"
@@ -24,7 +24,7 @@ const HomeLine = () => {
       <div className={styles.containerMobile}>
         <div className="imgWrapper">
           <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/MobileSecond.webp"
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/MobileSecond.webp"
             width="450"
             height="152"
             loading="lazy"

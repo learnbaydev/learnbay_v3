@@ -16,7 +16,7 @@ const JobAbroad = () => {
             <div className={Styles.leftpoints}>
               <div className={Styles.imgBox}>
                 <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/job4.webp"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp"
                   width={90}
                   height={90}
                   loading="lazy"
@@ -35,7 +35,7 @@ const JobAbroad = () => {
             <div className={Styles.leftpoints}>
               <div className={Styles.imgBox}>
                 <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/job2.webp"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp"
                   width={90}
                   height={90}
                   loading="lazy"
@@ -54,7 +54,7 @@ const JobAbroad = () => {
             <div className={Styles.leftpoints}>
               <div className={Styles.imgBox}>
                 <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/job3.webp"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp"
                   width={90}
                   height={90}
                   loading="lazy"
@@ -87,7 +87,7 @@ const JobAbroad = () => {
 
           <div className={Styles.JobAbroadRight}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/job1.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job1.webp"
               width={600}
               height={400}
               priority

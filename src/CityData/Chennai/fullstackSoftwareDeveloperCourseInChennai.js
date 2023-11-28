@@ -396,7 +396,7 @@ export const FullStackChennaiCourseData = [
     secondSection: [
       {
         id: 1,
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon1.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon1.png",
         height: "40",
         width: "43",
         heading: "On-Demand Doubt Session",
@@ -404,7 +404,7 @@ export const FullStackChennaiCourseData = [
       },
       {
         id: 1,
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon3.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
         heading: "IBM+ Microsoft Certificate",
@@ -412,7 +412,7 @@ export const FullStackChennaiCourseData = [
       },
       {
         id: 1,
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon2.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon2.png",
         height: "50",
         width: "53",
         heading: "Peer Learning & Networking",
@@ -420,7 +420,7 @@ export const FullStackChennaiCourseData = [
       },
       {
         id: 1,
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon4.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon4.png",
         height: "40",
         width: "40",
         heading: "Designed For Professionals",
@@ -433,7 +433,7 @@ export const FullStackChennaiCourseData = [
         name: "Qudsia Tahniyath",
 
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/Qudsia.png",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Alumni+Images/Qudsia.png",
         // sDesc:
         //   "Learnbay has helped me a lot to learn data science applications in the e-commerce industry...",
         sDesc:
@@ -444,7 +444,7 @@ export const FullStackChennaiCourseData = [
         name: "Binit Kumar ",
 
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/binit.png",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Alumni+Images/binit.png",
         // sDesc:
         //   "Learnbay has helped me a lot to learn data science applications in the e-commerce industry...",
         sDesc:
@@ -455,7 +455,7 @@ export const FullStackChennaiCourseData = [
         name: "Swarup Halder",
 
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/swarup.png",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Alumni+Images/swarup.png",
         // sDesc:
         //   "I have enrolled in Software Development course. I had basic knowledge of DSA and since then it has been a wonderful learning experience...",
         sDesc:
@@ -466,7 +466,7 @@ export const FullStackChennaiCourseData = [
         name: "Karanveer Bansal",
 
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/karanveer.png",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Alumni+Images/karanveer.png",
         // sDesc:
         //   "I enrolled in Learnbay's full stack program. I already completed basic DSA and the live sessions were clear, with good teaching pace...",
         sDesc:
@@ -477,7 +477,7 @@ export const FullStackChennaiCourseData = [
         name: "Gowthaman Jeganathan",
 
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/Gowthaman.png",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Alumni+Images/Gowthaman.png",
         // sDesc:
         //   "I'm currently enrolled in the Full Stack course and have completed the DSA and System Design modules...",
         sDesc:
@@ -488,7 +488,7 @@ export const FullStackChennaiCourseData = [
         name: "Abhishek Pakhide",
 
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/Abhishek+Pakhide.png",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Alumni+Images/Abhishek+Pakhide.png",
         // sDesc:
         //   "I recently finished Learnbay's Basic DSA Course online. The course is well-structured, taught by knowledgeable...",
         sDesc:
@@ -858,35 +858,35 @@ export const FullStackChennaiCourseData = [
       "A full stack developer course in Chennai from Learnbay includes a real-time capstone project. Students get to experience and work with real-world problems. This increases the demand for Learnbay alumni in the present job market.",
     ProjectsBot2:
       "A Capstone project is essential to your resume. Our full stack developer course in Chennai has a project innovation lab for students to work on projects under the direct guidance of industry leads.",
-    src1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project/2.png",
+    src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/project/2.png",
     Projectsp1:
       "Create an online application that displays the contents of a database in list form, modify or delete each record and add new ones.",
-    src2: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project/4.png",
+    src2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/project/4.png",
     Projectsp2:
       "Learn advanced API integration to connect two or more applications, via their APIs, that lets those systems exchange data.",
-    src3: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project/5.png",
+    src3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/project/5.png",
     Projectsp3:
       "The connected website must offer signup, login/logout, and profile creation/editing. This must include a wishlist box, a order tracker, personalized suggestions, personalized and occasional discount features, a chatbot, etc.",
-    src4: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/project/6.png",
+    src4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/project/6.png",
     Projectsp4:
       "This is a full-stack web development project at the advanced level that includes seamless audio-video call management services.",
     AlumniBot1:
       "Till now, we have reshaped 1000+careers via Learnbay's full-stack development course online. Most of our alumni got recruited within three months after completing the course, and others in the following cycling months.",
     AlumniHead1: "Our Alumni sharing their success and learning experiences:",
-    Asrc1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/akanksha.jpg",
+    Asrc1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/akanksha.jpg",
     AlumniH1: "Neha Gour",
     Alumnip1:
       "Have taken S/W Development course at this institute. Irrespective of implementation languages, one can join this. Cleared many tough concepts in an easy way. I was trying to switch to product based MNC and this course just made it possible.",
-    Asrc2: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/rahul.jpg",
+    Asrc2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/rahul.jpg",
     AlumniH2: "Rahul Anand",
     Alumnip2:
       "Excellent training and awesome environment! I took data structures and algorithm training in LearnBay . They teach concepts clearly and solved as many programs as possible. I was getting interview calls even before course completion.",
-    Asrc3: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/kamlesh.jpg",
+    Asrc3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/kamlesh.jpg",
     AlumniH3: "Kamlesh Sahu",
     Alumnip3:
       "This Course Helped me in getting 6 month SDE INTERNSHIP at AMAZON,India. The advance DSA topics are taught and explained in such a simplified manner that even a newbie can catch up very easily.",
     Asrc4:
-      "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Alumni+Images/Qudsia.png",
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Alumni+Images/Qudsia.png",
     AlumniH4: "Qudsia Tahniyath",
     Alumnip4:
       "Learnbay has helped me a lot to learn data science applications in the e-commerce industry. The live class concept was really helpful in receiving proper DS training. Thanks to all my mentors and the placement team.",

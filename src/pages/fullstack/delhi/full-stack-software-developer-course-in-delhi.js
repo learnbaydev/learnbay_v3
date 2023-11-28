@@ -136,7 +136,7 @@ export default function Home() {
         />
         <link
           rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Learnbay-Favicon-L.png"
         />
       </Head>
       <main>
@@ -159,7 +159,7 @@ export default function Home() {
           titleCourse="Full-Stack Software Developer Course In Delhi"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
           idss="Jn2puEQC8yk"
-          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/W+Dev.png"
+          FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/head/W+Dev.png"
           firstToparaImg="To Achieve Your Dream Job"
           firstHeading="Full-Stack Software Developer Course In Delhi"
           firstTopPara="Job-oriented Data Science Training for working professionals"

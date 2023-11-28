@@ -19,7 +19,7 @@ const sumbit = () => {
         <meta name="robots" content="index, follow" />
         <link
           rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Learnbay-Favicon-L.png"
         />
         <link rel="canonical" href="https://www.learnbay.co/submit-info" />
       </Head>
@@ -31,7 +31,7 @@ const sumbit = () => {
         </div>
         <div className={styles.right}>
           <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Submit-info.png"
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Submit-info.png"
             width="441"
             height="600"
           />

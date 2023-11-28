@@ -4,21 +4,23 @@ import Navbar from "../components/Global/Navbar/Navbar";
 import Footer from "../components/Global//Footer/Footer";
 import Head from "next/head";
 
-
 const sumbit = () => {
   return (
     <div>
       <Head>
         <title>Learnbay - Career Portal</title>
-        <meta name="description" content="Learnbay offers a comprehensive job portal with a variety of career opportunities. With us, you can find your ideal job and advance your career."/>
-        <meta name="robots" content="index, follow"/>
+        <meta
+          name="description"
+          content="Learnbay offers a comprehensive job portal with a variety of career opportunities. With us, you can find your ideal job and advance your career."
+        />
+        <meta name="robots" content="index, follow" />
         <link
           rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Learnbay-Favicon-L.png"
         />
         <link rel="canonical" href="https://www.learnbay.co/career-portal" />
       </Head>
-      <Navbar careerForm={true}/>
+      <Navbar careerForm={true} />
       <CareerHome />
       <Footer />
     </div>

@@ -49,7 +49,7 @@ const FirstContent = ({
                 <div className={styles.ImageBlock}>
                   {ibmOnly ? (
                     <Image
-                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/ibm-single-home.png"
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/ibm-single-home.png"
                       width="127"
                       height="51"
                       priority
@@ -57,7 +57,7 @@ const FirstContent = ({
                     />
                   ) : (
                     <Image
-                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/ibm%26microsoft.webp"
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp"
                       width="266"
                       height="48"
                       priority
@@ -113,7 +113,7 @@ const FirstContent = ({
               <div className={styles.ImageBlock}>
                 {ibmOnly ? (
                   <Image
-                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/ibm-single-home.png"
+                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/ibm-single-home.png"
                     width="127"
                     height="51"
                     priority
@@ -121,7 +121,7 @@ const FirstContent = ({
                   />
                 ) : (
                   <Image
-                    src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/ibm%26microsoft.webp"
+                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp"
                     width="283"
                     height="51"
                     priority

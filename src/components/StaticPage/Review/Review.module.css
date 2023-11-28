@@ -4,7 +4,7 @@
 }
 
 .Back {
-  background: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/review.png");
+  background: url("https://d32and0ii3b8oy.cloudfront.net/web/s3_main/review.png");
   height: 50vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -57,28 +57,26 @@
   color: #000;
 }
 
-@media (max-width: 1024px){
-
-    .gridPanel{
-        padding: 0px 20px;
-    }
-
+@media (max-width: 1024px) {
+  .gridPanel {
+    padding: 0px 20px;
+  }
 }
 @media (max-width: 961px) {
-    .gridPanel {
-      display: grid;
-      grid-template-columns: 50% 50%;
-      padding: 0px 10px;
-    }
+  .gridPanel {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0px 10px;
+  }
 }
 
 @media (max-width: 800px) {
-    .gridPanel {
-      display: grid;
-      grid-template-columns: 50% 50%;
-      padding: 0px 10px;
-    }
+  .gridPanel {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0px 10px;
   }
+}
 
 @media (max-width: 641px) {
   .Review {

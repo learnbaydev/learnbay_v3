@@ -135,7 +135,7 @@ export default function Home() {
         />
         <link
           rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Learnbay-Favicon-L.png"
         />
         <script
           type="application/ld+json"
@@ -188,7 +188,7 @@ export default function Home() {
           titleCourse="Data Science and AI Program For Manager & Leaders"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
           idss="osYNvuuI1_8"
-          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Business-Analytics-Masters-Header.png"
+          FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Business-Analytics-Masters-Header.png"
           firstToparaImg="For Managers and Leaders"
           firstHeading="Artificial Intelligence(Ai) Course Training In Canada"
           firstTopPara="Job-Assured Artificial Intelligence Training  Program"

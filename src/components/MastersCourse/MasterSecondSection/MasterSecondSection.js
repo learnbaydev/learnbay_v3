@@ -28,7 +28,7 @@ const MasterSecondSection = () => {
         <div className={styles.secondbox}>
           <div className={styles.imgBox}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/review1.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp"
               width={280}
               height={130}
               priority
@@ -38,7 +38,7 @@ const MasterSecondSection = () => {
 
           <div className={`${styles.imgDesc}`}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/review2.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp"
               width={380}
               height={130}
               priority
@@ -47,7 +47,7 @@ const MasterSecondSection = () => {
           </div>
           <div className={`imgWrapper ${styles.imgMobile}`}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/review-mobile.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review-mobile.webp"
               width={380}
               height={200}
               priority

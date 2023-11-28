@@ -1,7 +1,14 @@
 import React, { useState } from "react";
 import styles from "./KeyFeatures.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { FaChair, FaChartLine, FaClock, FaDownload, FaRupeeSign, FaUser } from "react-icons/fa";
+import {
+  FaChair,
+  FaChartLine,
+  FaClock,
+  FaDownload,
+  FaRupeeSign,
+  FaUser,
+} from "react-icons/fa";
 import VideoPopup from "../../Global/VideoPopup/VideoPopup";
 // Import Swiper styles
 import "swiper/css";
@@ -74,7 +81,7 @@ const KeyFeatures = ({
         <div className={styles.imgWrap}>
           <div className={`${styles.imgShow} imgWrapper`}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Network-reach-company-logos.png"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Network-reach-company-logos.png"
               width={1148}
               height={414}
               alt="Learnbay"

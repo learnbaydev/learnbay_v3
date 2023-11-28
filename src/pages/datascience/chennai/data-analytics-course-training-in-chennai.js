@@ -131,7 +131,7 @@ export default function Home() {
         />
         <link
           rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Learnbay-Favicon-L.png"
         />
         <script
           type="application/ld+json"
@@ -184,7 +184,7 @@ export default function Home() {
           cityParaCont=" Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
           titleCourse="Data Analytics Course Training in Chennai For Professionals"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf"
-          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/data+analytics+header+image.webp"
+          FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/data+analytics+header+image.webp"
           firstToparaImg="For Professionals"
           firstHeading="Data Analytics Course Training in Chennai "
           firstTopPara="Industrial Program For Early Pros"

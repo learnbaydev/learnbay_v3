@@ -10,7 +10,7 @@ function Switch({ organicADS }) {
         {organicADS ? (
           <div className={styles.switchInner}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course-report.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course-report.webp"
               width="180"
               height="94"
               alt="Course Report"
@@ -26,7 +26,7 @@ function Switch({ organicADS }) {
           >
             <div className={styles.switchInner}>
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course-report.webp"
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course-report.webp"
                 width="180"
                 height="94"
                 alt="Course Report"
@@ -41,7 +41,7 @@ function Switch({ organicADS }) {
         {organicADS ? (
           <div className={styles.switchInner}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/switch-UP.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/switch-UP.webp"
               width="256"
               height="125"
               layout="intrinsic"
@@ -55,7 +55,7 @@ function Switch({ organicADS }) {
           <a href="https://www.switchup.org/bootcamps/learnbay" target="_blank">
             <div className={styles.switchInner}>
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/switch-UP.webp"
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/switch-UP.webp"
                 width="256"
                 height="125"
                 layout="intrinsic"
@@ -71,7 +71,7 @@ function Switch({ organicADS }) {
         {organicADS ? (
           <div className={styles.switchInner}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Google-review.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Google-review.webp"
               width="206"
               height="121"
               layout="intrinsic"
@@ -88,7 +88,7 @@ function Switch({ organicADS }) {
           >
             <div className={styles.switchInner}>
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Google-review.webp"
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Google-review.webp"
                 width="206"
                 height="121"
                 layout="intrinsic"

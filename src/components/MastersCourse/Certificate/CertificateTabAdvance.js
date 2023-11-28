@@ -57,7 +57,7 @@ function CertificateTab({ data }) {
 
             <Image
               className={styles.clogo}
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/certificate/clogo.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/certificate/clogo.webp"
               alt="Certificate"
               loading="lazy"
               width={350}
@@ -97,7 +97,7 @@ function CertificateTab({ data }) {
 
             <Image
               className={styles.clogo}
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/certificate/clogo.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/certificate/clogo.webp"
               alt="Certificate"
               loading="lazy"
               width={380}

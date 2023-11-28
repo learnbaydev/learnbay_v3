@@ -1,5 +1,5 @@
 .First {
-  background: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/learning-Header.png");
+  background: url("https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/learning-Header.png");
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 70px;
@@ -9,10 +9,10 @@
   gap: 50px;
 }
 
-.animationTextWrap{
+.animationTextWrap {
   font-size: 22px;
-  height: 24px ;
-    font-weight: 600;
+  height: 24px;
+  font-weight: 600;
 }
 
 .ptop {
@@ -22,8 +22,7 @@
 }
 
 .h1Span {
-  color:  #f99600;
-  
+  color: #f99600;
 }
 
 .h1 {
@@ -117,11 +116,10 @@
   background-color: #fff;
   padding: 50px 0px;
   box-shadow: 0px 0px 14px rgba(0, 114, 188, 0.25);
-border-radius: 10px;
+  border-radius: 10px;
 }
 
 .secondLeft h4 {
-
   padding: 0px 50px;
   font-size: 22px;
   color: black;
@@ -157,19 +155,20 @@ border-radius: 10px;
   justify-content: center;
 }
 
-.orange, .blue {
+.orange,
+.blue {
   font-size: 45px;
   padding: 8px;
   border-radius: 5px;
 }
 
 .orange {
-  background-color: #F996001A;
-  color: #F99600;
+  background-color: #f996001a;
+  color: #f99600;
 }
 
 .blue {
-  background-color: #0072BC1A;
+  background-color: #0072bc1a;
   color: #0072bc;
 }
 
@@ -182,7 +181,7 @@ border-radius: 10px;
   border-radius: 5px;
   text-align: center;
   padding: 5px 30px;
-  background: rgba(4,135,217,0.05);
+  background: rgba(4, 135, 217, 0.05);
 }
 
 .iconB {
@@ -200,7 +199,7 @@ border-radius: 10px;
 
 .second {
   margin: 50px 100px;
-  background: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/CTA-learning.png");
+  background: url("https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/CTA-learning.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 70px 0px 70px 70px;
@@ -221,7 +220,7 @@ border-radius: 10px;
   color: #616161;
 }
 
-.LeftSectionIcon h4{
+.LeftSectionIcon h4 {
   margin-bottom: 20px;
   margin-top: 0;
   color: #000;
@@ -258,10 +257,9 @@ border-radius: 10px;
   justify-content: center;
   align-items: center;
   margin-top: 15px;
-
 }
 
-.secondSection h4{
+.secondSection h4 {
   font-size: 32px;
   margin-bottom: 20px;
   margin-top: 0;
@@ -271,11 +269,7 @@ border-radius: 10px;
   text-align: center;
 }
 
-
 @media (max-width: 961px) {
-
- 
-
   .second {
     margin: 50px 100px;
     background: none;
@@ -283,7 +277,7 @@ border-radius: 10px;
     background-repeat: no-repeat;
     padding: 0px;
     display: block;
-    
+
     gap: 50px;
     align-items: flex-end;
     border-radius: 20px;
@@ -293,25 +287,20 @@ border-radius: 10px;
   }
 
   .centerButton {
-    
     margin-top: 30px;
     justify-content: start;
-  
   }
 
-  .secondLeft h4{
+  .secondLeft h4 {
     font-size: 15px;
   }
-
 }
-
-
 
 @media (max-width: 641px) {
   .First {
     padding: 60px 20px;
     display: block;
-    background: url("https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Mobile-View-learning.png");
+    background: url("https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Mobile-View-learning.png");
     background-size: contain;
     margin-top: 60px;
   }
@@ -409,7 +398,7 @@ border-radius: 10px;
     flex-flow: wrap;
     gap: 20px;
   }
-  
+
   .boxes {
     width: fit-content;
     display: flex;
@@ -419,16 +408,17 @@ border-radius: 10px;
     align-items: center;
     gap: 20px;
   }
-  
-  .orange, .blue {
+
+  .orange,
+  .blue {
     font-size: 45px;
     padding: 8px;
     border-radius: 5px;
   }
 
   .second {
-    margin: 0px ;
-    background: #F6F6F6;
+    margin: 0px;
+    background: #f6f6f6;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
@@ -438,7 +428,7 @@ border-radius: 10px;
     gap: 50px;
     align-items: flex-end;
   }
-  
+
   .Btn {
     position: inherit;
     margin: 0;
@@ -453,7 +443,7 @@ border-radius: 10px;
     background-color: #fff;
     padding: 20px 0px;
     box-shadow: 0px 0px 14px rgba(0, 114, 188, 0.25);
-  border-radius: 10px;
+    border-radius: 10px;
   }
 
   .LeftSectionIcon {
@@ -469,7 +459,7 @@ border-radius: 10px;
     padding: 100px 20px 50px 20px;
   }
 
-  .second h4 { 
+  .second h4 {
     font-size: 21px;
   }
 }

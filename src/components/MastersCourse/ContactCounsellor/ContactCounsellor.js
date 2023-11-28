@@ -62,10 +62,7 @@ const ContactCounsellor = ({ dataScience, dataScienceCounselling }) => {
             <MdOutlineWhatsapp className={styles.conicon} />
             (+91) 77956 87988
           </button>
-          <button
-            onClick={sendEmail}
-            className={styles.inf}
-          >
+          <button onClick={sendEmail} className={styles.inf}>
             <AiOutlineMail className={styles.conicon} /> contacts@learnbay.co
           </button>
         </div>
@@ -76,7 +73,7 @@ const ContactCounsellor = ({ dataScience, dataScienceCounselling }) => {
       </div>
       <div className={styles.conimg}>
         <Image
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/masterPage/contact-counseller.webp"
+          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/masterPage/contact-counseller.webp"
           width={300}
           height={200}
           loading="lazy"

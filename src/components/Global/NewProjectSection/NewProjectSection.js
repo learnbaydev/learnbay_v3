@@ -120,7 +120,7 @@ function NewProjectSection({
                     <p className={Styles.heading}>{data.heading}</p>
                     <div className={Styles.strip}>
                       <Image
-                        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Group+502.png"
+                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Group+502.png"
                         loading="lazy"
                         width="370"
                         height="41"

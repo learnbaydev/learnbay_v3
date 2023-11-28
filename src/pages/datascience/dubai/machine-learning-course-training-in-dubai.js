@@ -137,7 +137,7 @@ export default function Home() {
         />
         <link
           rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Learnbay-Favicon-L.png"
         />
         <script
           type="application/ld+json"
@@ -190,7 +190,7 @@ export default function Home() {
           titleCourse="AI & ML Program for tech professionals"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
           idss="Jn2puEQC8yk"
-          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/AIML-Header.png"
+          FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/AIML-Header.png"
           firstToparaImg="For Managers and Leaders"
           firstHeading="Artificial Intelligence (AI) Course Training in Dubai"
           firstTopPara="Job-oriented Data Science Training for working professionals"

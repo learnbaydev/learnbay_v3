@@ -29,7 +29,7 @@ function ContactUs({
 
         <div className={styles.leftpaerson}>
           <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/preksha-home.png"
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/preksha-home.png"
             width={50}
             height={50}
             loading="lazy"

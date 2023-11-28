@@ -1,22 +1,22 @@
 export const PlacementDS = [
   {
     id: 1,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/1.png",
+    img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/1.png",
     desc: "Get 1 year of job & placement support",
   },
   {
     id: 2,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/2.png",
+    img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/2.png",
     desc: "Get 3 mock interviews with industry leaders",
   },
   {
     id: 3,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/3.png",
+    img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/3.png",
     desc: "Resume build up session",
   },
   {
     id: 4,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/4.png",
+    img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/4.png",
     desc: "Get 5-8 interview calls",
   },
 ];
@@ -24,22 +24,22 @@ export const PlacementDS = [
 export const PlacementFS = [
   {
     id: 1,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/1.png",
+    img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/1.png",
     desc: "Enjoy 3+ years of career service access",
   },
   {
     id: 2,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/2.png",
+    img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/2.png",
     desc: "Get 6 mock interviews with industry leaders",
   },
   {
     id: 3,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/3.png",
+    img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/3.png",
     desc: "Resume build up session",
   },
   {
     id: 4,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/4.png",
+    img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/4.png",
     desc: "100% placement support",
   },
 ];
@@ -47,22 +47,22 @@ export const PlacementFS = [
 export const PlacementMasters = [
   {
     id: 1,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/1.png",
+    img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/1.png",
     desc: "Get 3 years of Job and Placement support",
   },
   {
     id: 2,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/2.png",
+    img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/2.png",
     desc: "Get 6 mock interviews with industry leaders",
   },
   {
     id: 3,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/3.png",
+    img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/3.png",
     desc: "Get 1:1 Resume/Linkedin Review and Buildup",
   },
   {
     id: 4,
-    img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/4.png",
+    img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/4.png",
     desc: "Get unlimited interview calls",
   },
 ];

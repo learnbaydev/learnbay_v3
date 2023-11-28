@@ -137,7 +137,7 @@ export default function Home() {
         />
         <link
           rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Learnbay-Favicon-L.png"
         />
         <script
           type="application/ld+json"
@@ -190,7 +190,7 @@ export default function Home() {
           titleCourse="Machine Learning Course Training In Canada"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
           idss="Jn2puEQC8yk"
-          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ML.png"
+          FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/head/ML.png"
           firstToparaImg="Training In Canada"
           firstHeading="Machine Learning Course"
           firstTopPara="Machine Learning Course For Experienced Tech Professionals"

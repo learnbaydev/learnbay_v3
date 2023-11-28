@@ -11,9 +11,7 @@ import Testimonial from "../../components/OrganicGeneric/Testimonial/Testimonial
 const SeventhSection = dynamic(() =>
   import("../../components/Global/SeventhSection/SeventhSection")
 );
-const Course = dynamic(() =>
-  import("../../components/Home/Course/Course")
-);
+const Course = dynamic(() => import("../../components/Home/Course/Course"));
 import ContactUs from "../../components/Home/ContactUs/ContactUs";
 import BoxShape from "../../components/OrganicGeneric/BoxShape/BoxShape";
 
@@ -34,7 +32,7 @@ export default function Home() {
         />
         <link
           rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Learnbay-Favicon-L.png"
         />
       </Head>
       <Navbar

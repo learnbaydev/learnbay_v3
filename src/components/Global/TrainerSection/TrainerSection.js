@@ -17,10 +17,10 @@ function TrainerSection({ idss }) {
   };
 
   const images = [
-    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/alu1.webp",
-    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/alu2.webp",
-    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/alu3.webp",
-    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/alu4.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/alu1.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/alu2.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/alu3.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/alu4.webp",
   ];
 
   return (
@@ -45,16 +45,16 @@ function TrainerSection({ idss }) {
           </div>
 
           <div className={Styles.mobileView}>
-          <h2>Alumni Spotlight</h2>
-          <div className="imgWrapper">
-            <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/tariner_sec.webp"
-              loading="lazy"
-              width="350"
-              height="100"
-              alt="trainer mobile"
-              onClick={() => videoSHow(popupShow)}
-            />
+            <h2>Alumni Spotlight</h2>
+            <div className="imgWrapper">
+              <Image
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/tariner_sec.webp"
+                loading="lazy"
+                width="350"
+                height="100"
+                alt="trainer mobile"
+                onClick={() => videoSHow(popupShow)}
+              />
             </div>
           </div>
 
@@ -62,7 +62,7 @@ function TrainerSection({ idss }) {
             <h2>Alumni Spotlight</h2>
             <div className="imgWrapper">
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-review.webp"
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-review.webp"
                 loading="lazy"
                 quality={100}
                 width="358"

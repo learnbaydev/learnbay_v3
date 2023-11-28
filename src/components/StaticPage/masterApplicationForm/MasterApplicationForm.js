@@ -74,7 +74,7 @@ const MasterApplicationForm = ({ secondForm, title }) => {
         <div className={styles.leftWrap}>
           <div className="bgWrap">
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/master-program-form-image.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/master-program-form-image.webp"
               fill={true}
               alt="form master class"
             />

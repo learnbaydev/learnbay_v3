@@ -27,8 +27,8 @@ const FirstSectionContent = ({
         <Image
           src={
             mobile
-              ? " https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Masters+header+BG+Mobile+View+(1).webp"
-              : "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/masterPage/newmaster-web.webp"
+              ? " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Masters+header+BG+Mobile+View+(1).webp"
+              : "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/masterPage/newmaster-web.webp"
           }
           fill
           priority
@@ -47,7 +47,7 @@ const FirstSectionContent = ({
             </h1>
             <div className={styles.paraCollab}>
               <Image
-                src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/coursePage/woolf-univer.webp"
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/woolf-univer.webp"
                 alt="woolf-university"
                 priority
                 width="268"

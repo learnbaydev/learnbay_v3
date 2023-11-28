@@ -33,7 +33,7 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
         titleCourse="AI & ML Program for tech professionals"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf"
         idss="qxwIns6z2Bc"
-        FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ai-ml-main.webp"
+        FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ai-ml-main.webp"
         firstToparaImg="for Tech Professionals"
         firstHeading="Advance AI & ML Certification Program "
         firstTopPara="Expand beyond technology"
@@ -47,16 +47,16 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
       />
       <WhoProgram
         dataScience={true}
-        leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/advance-who.webp"
+        leftImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/advance-who.webp"
         ThirdSectionData={ThirdSectionData}
       />
       <TrainerSection idss="eautK0odE7Q" />
       <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} />
       <WhoIsProgram
-   first="Bachelor's degree with consistent good academic"
-   second="Minimum 1 year of IT/Non-IT work experience"
-   third="Early to mid-career professionals interested in data analytics"
-   forth="Developing skills in data analytics for future opportunities"
+        first="Bachelor's degree with consistent good academic"
+        second="Minimum 1 year of IT/Non-IT work experience"
+        third="Early to mid-career professionals interested in data analytics"
+        forth="Developing skills in data analytics for future opportunities"
       />
       <WhyLearnbay idss="ZPOTy4PEnNU" />
       <GetHire />

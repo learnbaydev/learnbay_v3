@@ -96,7 +96,7 @@ const FirstSection = ({
           </h1>
           <div className={styles.IBMlogoPlay}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Home-Page-Header.png"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Home-Page-Header.png"
               width="580"
               height="450"
               layout="intrinsic"
@@ -106,7 +106,7 @@ const FirstSection = ({
           <p className={styles.ptop}>In collaboration with</p>
           <div className={styles.IBMlogo}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/FirstSection.png"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/FirstSection.png"
               width="283"
               height="51"
               layout="intrinsic"
@@ -119,7 +119,7 @@ const FirstSection = ({
           </p>
           {/* <div className={styles.line}>
             <img
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Vector-1-line.png"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Vector-1-line.png"
               width="80px"
             />
           </div> */}
@@ -142,7 +142,7 @@ const FirstSection = ({
         <div className={styles.secondLeft}>
           <div className={styles.PlayImg}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Home-Page-Header.png"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Home-Page-Header.png"
               width="580"
               height="450"
               layout="intrinsic"

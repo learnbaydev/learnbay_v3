@@ -31,7 +31,7 @@ const DataAnlyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         titleCourse="Data Analytics Certification Program"
         cityParaCont="Upskill yourself to the top within 6 months with curriculum designed by industry experts"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
-        FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/dahead.webp"
+        FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/dahead.webp"
         firstToparaImg=""
         firstHeading="Data Analytics Certification Program"
         firstTopPara="Curriculum designed by industry experts"
@@ -47,7 +47,7 @@ const DataAnlyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       {/* <WhoProgram
         dataScience={true}
         interstedInHide={true}
-        leftImage="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/advance-who.webp"
+        leftImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/advance-who.webp"
         ThirdSectionData={ThirdSectionData}
       /> */}
       <TrainerSection idss="eautK0odE7Q" />

@@ -11,7 +11,7 @@ export const BADelhiCourseData = [
       description:
         "Business Analytics Course in Delhi. Learnbay is Advanced Business Analytics Course Training Institute in Delhi. Business Analytics course in Delhi will enhance your career",
       image:
-        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp",
       author: {
         "@type": "Organization",
         name: "Learnbay",
@@ -22,7 +22,7 @@ export const BADelhiCourseData = [
         name: "Learnbay",
         logo: {
           "@type": "ImageObject",
-          url: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+          url: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png",
         },
       },
       datePublished: "2021-10-01",
@@ -217,7 +217,7 @@ export const BADelhiCourseData = [
       description:
         "Learnbay is Advanced Business Analytics Course Training Institute in Delhi. Business Analytics course in Delhi will enhance your career.",
       image:
-        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png",
       performer: "Learnbay",
       offers: {
         "@type": "AggregateOffer",
@@ -271,7 +271,7 @@ export const BADelhiCourseData = [
       description:
         "You just have to follow 3 easy steps to enroll in our advanced data science course",
       image:
-        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp",
       totalTime: "PT6M",
       estimatedCost: {
         "@type": "MonetaryAmount",
@@ -291,7 +291,7 @@ export const BADelhiCourseData = [
           "@type": "HowToStep",
           text: "Visit our website and fill the enquiry form",
           image:
-            "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp",
           name: "Fill Enquiry Form",
           url: "https://www.learnbay.co/data-science-course/",
         },
@@ -299,7 +299,7 @@ export const BADelhiCourseData = [
           "@type": "HowToStep",
           text: "Talk to our experts for career counseling",
           image:
-            "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
           name: "Talk to Expert",
           url: "https://www.learnbay.co/data-science-course/",
         },
@@ -307,7 +307,7 @@ export const BADelhiCourseData = [
           "@type": "HowToStep",
           text: "Get enrollment in our data science course",
           image:
-            "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp",
           name: "Get enrollment",
           url: "https://www.learnbay.co/",
         },
@@ -316,7 +316,7 @@ export const BADelhiCourseData = [
     secondSection: [
       {
         id: 1,
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon1.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon1.png",
         height: "40",
         width: "43",
         heading: "1:1 Doubt Session",
@@ -324,7 +324,7 @@ export const BADelhiCourseData = [
       },
       {
         id: 1,
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon3.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
         heading: "Guaranteed Interview Calls",
@@ -332,7 +332,7 @@ export const BADelhiCourseData = [
       },
       {
         id: 1,
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon2.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon2.png",
         height: "50",
         width: "53",
         heading: "IBM Project Certificate",
@@ -340,7 +340,7 @@ export const BADelhiCourseData = [
       },
       {
         id: 1,
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon4.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon4.png",
         height: "40",
         width: "40",
         heading: "Designed For Professionals",
@@ -354,13 +354,13 @@ export const BADelhiCourseData = [
         working: "HCL",
         link: "vSjfKdIzUjY",
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/preksha-testimonial.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/preksha-testimonial.webp",
         sDesc:
           "I had a great learning experience at Learnbay. The faculties here are top notch. Right from enrollment to getting a good job ...",
         lDesc:
           "I had a great learning experience at Learnbay. The faculties here are top notch. Right from enrollment to getting a good job, they keep putting enormous efforts for each and every candidate. Thanks to all the trainers, backend team, the HR team and to the directors for making this journey smooth.",
         complogo:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/microsoft.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
         statLogo: "140% Hike",
       },
       {
@@ -369,13 +369,13 @@ export const BADelhiCourseData = [
         working: "Cendrol Technology",
         link: "JoKquvfAhZU",
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Shubham-kumar-thumb+.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Shubham-kumar-thumb+.webp",
         sDesc:
           "I moved from teaching to data science with Learnbay's help. Their course was easy to follow, even for someone like me without a tech...",
         lDesc:
           "I moved from teaching to data science with Learnbay's help. Their course was easy to follow, even for someone like me without a tech background. In six months, I got to learn how data science is used in the real world. Their mock interviews also prepared me for job interviews, and I got a data analyst job at Cendrol. This course really helped me change my career.",
         complogo:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/microsoft.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
         statLogo: "  210% Hike",
       },
       {
@@ -384,13 +384,13 @@ export const BADelhiCourseData = [
         working: "The Math Company",
         link: "hewBtR_WoDM",
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/aravind-k-thumb.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/aravind-k-thumb.webp",
         sDesc:
           "Choosing Learnbay was my best decision ever. The instructors were encouraging and glad to answer questions. The best feature is that...",
         lDesc:
           "Choosing Learnbay was my best decision ever. The instructors were encouraging and glad to answer questions. The best feature is that their flexible modules & small size batches. I was able to manage my time and learn while working. Thanks to Learnbay for my lucrative placement.",
         complogo:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/microsoft.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
         statLogo: " 150% Hike",
       },
       {
@@ -399,13 +399,13 @@ export const BADelhiCourseData = [
         working: "Amazon",
         link: "A-BkcEM0rQM",
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/jaya-sinha-thumb.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/jaya-sinha-thumb.webp",
         sDesc:
           "Transitioning from a non-tech role, LearnBay's IBM data science certification equipped me with the skills needed in today's...",
         lDesc:
           "Transitioning from a non-tech role, LearnBay's IBM data science certification equipped me with the skills needed in today's market. The course's interactive sessions and personalized guidance from Abhishek sir were invaluable. Post-completion, I had received two offers, one from Amazon and other from Infosys for the role of senior data analyst. Highly recommend for anyone stepping into data science.",
         complogo:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/amazon.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/amazon.webp",
         statLogo: " 150% Hike",
       },
       // {
@@ -414,13 +414,13 @@ export const BADelhiCourseData = [
       //   working: "Working at AGS",
       //   link: "D-gcPaK_-x4",
       //   proImg:
-      //     "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/reviewNew.webp",
+      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/reviewNew.webp",
       //   sDesc:
       //     "I got placed at AGS within 9 months of joining Learnbay institute. Live interaction sessions are the best part here since ...",
       //   lDesc:
       //     "I got placed at AGS within 9 months of joining Learnbay institute. Live interaction sessions are  the best part here since we could clear all queries. The projects are excellent. Overall I had a great  experience and I urge everyone to enroll in this institute.",
       //   complogo:
-      //     "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/microsoft.webp",
+      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
       //   statLogo: "  132% Hike",
       // },
       // {
@@ -429,13 +429,13 @@ export const BADelhiCourseData = [
       //   working: "Working at Bridge i2i",
       //   link: "D-gcPaK_-x4",
       //   proImg:
-      //     "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/reviewNew.webp",
+      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/reviewNew.webp",
       //   sDesc:
       //     "One on One counseling from experts has guided me to  make the right decision. The Learnbay team was amazing in assisting me with ...",
       //   lDesc:
       //     "One on One counseling from experts has guided me to make the right decision. The Learnbay team was amazing in assisting me with live projects and preparing for the placements. Thank you! Learnbay for your tremendous support in excelling in my Data Science Career.",
       //   complogo:
-      //     "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/microsoft.webp",
+      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
       //   statLogo: "  127% Hike",
       // },
       // {
@@ -444,13 +444,13 @@ export const BADelhiCourseData = [
       //   working: "SA - Data Scientist",
       //   link: "D-gcPaK_-x4",
       //   proImg:
-      //     "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/reviewNew.webp",
+      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/reviewNew.webp",
       //   sDesc:
       //     "Choosing Learnbay was my best decision ever. The instructors were encouraging and glad to answer questions. The best feature is that ...",
       //   lDesc:
       //     "Choosing Learnbay was my best decision ever. The instructors were encouraging and glad to answer questions. The best feature is that their flexible modules & small size batches. I was able to manage  my time and learn while working. Thanks to Learnbay for my lucrative placement.",
       //   complogo:
-      //     "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/microsoft.webp",
+      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
       //   statLogo: "142% Hike",
       // },
     ],
@@ -727,10 +727,10 @@ export const BADelhiCourseData = [
     CertificationBot2:
       "After the completion of the Business analytics course with placement, students will be awarded an IBM Certification. To be eligible for this certification, students must successfully complete all business analytics course modules, assessments, assignments, real-time projects as well as the final IBM Exams. Possessing this certificate will undoubtedly boost your portfolio and make you stand out in the business analytics job market.",
     src33:
-      "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Microsoft-certificate-data.png",
-    src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Certificate-blue.png",
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
-      "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Certificate-Yellow.png",
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
     ModuleBot1:
       "The business analytics course in Delhi comprises 200+ hours of live classes taught by PRODUCT Based Companies experts. The course modules are designed in such a way that they not only make you aware of various analytical techniques but also help you understand their application scenarios and how they can be effectively woven into daily work practices.",
     ModuleBot2:
@@ -788,37 +788,37 @@ export const BADelhiCourseData = [
       "Projects play an important role in showcasing your acquired skills, particularly professions involving business analytics and business intelligence. As a part of our IBM business analytics course, you will get the opportunity to work on 5 industry-oriented business analytics projects with the help of project supervisors.",
     ProjectsBot2:
       "Additionally, Learnbay offers a premium cloud lab feature that enables learners to access and collaborate on ongoing business analytics projects at different startups and multinational companies. Learnbay students have previously worked on various projects:",
-    src1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/amazon1.png",
+    src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/amazon1.png",
     ProjectsH1: "Amazon Customer Review Analysis",
     Projectsp1:
       "Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach.",
-    src2: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/IBM.png",
+    src2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IBM.png",
     ProjectsH2: "IBM HR Analytics",
     Projectsp2:
       "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities.",
-    src3: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BMW.png",
+    src3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BMW.png",
     ProjectsH3: "BMW Used Car Price Optimization",
     Projectsp3:
       "BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects.",
-    src4: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/SAMSUNG.png",
+    src4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
     ProjectsH4: "Samsung Health Monitor App",
     Projectsp4:
       "Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app.",
     AlumniBot1:
       "Learnbay’s  IBM business analytics training course has helped several professionals and job seekers develop the skills necessary to succeed as Business analysts in Delhi. It has aided more than 700 business analytics aspirants across Delhi in achieving their desired jobs with minimal possible timelines. Some of the feedback from our successful alumni:",
-    Asrc1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/devraj.jpg",
+    Asrc1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/devraj.jpg",
     AlumniH1: "Deveraj",
     Alumnip1:
       "The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around.",
-    Asrc2: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shezan.png",
+    Asrc2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/shezan.png",
     AlumniH2: "Shezan Baig",
     Alumnip2:
       "Learnbay is one of the most remarkable data science institutes I've come across. Compared to other institutes in India, it offers a data science course at a low cost. Excellent value for money. Finally, I achieved job satisfaction. I would strongly advise everyone to attend this institute.",
-    Asrc3: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/viraj.png",
+    Asrc3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/viraj.png",
     AlumniH3: "Viraj Ghodke",
     Alumnip3:
       "For me, learning using the Learnbay platform has been a great experience. The teaching and management team are very helpful. They are constantly willing to clarify each individual's doubts and meet the needs of working professionals. The practice interview sessions were simply like a clone of MNC interviews.",
-    Asrc4: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png",
+    Asrc4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/shubhangi.png",
     AlumniH4: "Shubhangi J. Waghmare ",
     Alumnip4:
       "The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment.",

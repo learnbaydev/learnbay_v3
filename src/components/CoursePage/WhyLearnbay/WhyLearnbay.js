@@ -103,7 +103,7 @@ function WhyLearnbay({ idss }) {
                   <div className={Styles.iconBox}>
                     <div className={Styles.BoxIconinner}>
                       {/* <Image
-                        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/bank.gif"
+                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/bank.gif"
                         loading="lazy"
                         width={40}
                         height={40}
@@ -113,7 +113,7 @@ function WhyLearnbay({ idss }) {
                     </div>
                     <div className={Styles.BoxIconinner}>
                       {/* <Image
-                        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/heartbeat.gif"
+                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/heartbeat.gif"
                         loading="lazy"
                         width={40}
                         height={40}
@@ -123,7 +123,7 @@ function WhyLearnbay({ idss }) {
                     </div>
                     <div className={Styles.BoxIconinner}>
                       {/* <Image
-                        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/live.gif"
+                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/live.gif"
                         loading="lazy"
                         width={40}
                         height={40}
@@ -136,7 +136,7 @@ function WhyLearnbay({ idss }) {
 
                     <div className={Styles.BoxIconinner}>
                       {/* <Image
-                        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/hr.gif"
+                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/hr.gif"
                         loading="lazy"
                         width={40}
                         height={40}
@@ -146,7 +146,7 @@ function WhyLearnbay({ idss }) {
                     </div>
                     <div className={Styles.BoxIconinner}>
                       {/* <Image
-                        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/supplychain.gif"
+                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/supplychain.gif"
                         loading="lazy"
                         width={40}
                         height={40}
@@ -156,7 +156,7 @@ function WhyLearnbay({ idss }) {
                     </div>
                     <div className={Styles.BoxIconinner}>
                       {/* <Image
-                        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/manufacturing.gif"
+                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/manufacturing.gif"
                         loading="lazy"
                         width={40}
                         height={40}
@@ -180,7 +180,7 @@ function WhyLearnbay({ idss }) {
                   <div className={Styles.iconBox}>
                     <div className={Styles.BoxIconinner}>
                       {/* <Image
-                        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/bank.gif"
+                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/bank.gif"
                         loading="lazy"
                         width={40}
                         height={40}
@@ -190,7 +190,7 @@ function WhyLearnbay({ idss }) {
                     </div>
                     <div className={Styles.BoxIconinner}>
                       {/* <Image
-                        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/heartbeat.gif"
+                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/heartbeat.gif"
                         loading="lazy"
                         width={40}
                         height={40}
@@ -200,7 +200,7 @@ function WhyLearnbay({ idss }) {
                     </div>
                     <div className={Styles.BoxIconinner}>
                       {/* <Image
-                        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/live.gif"
+                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/live.gif"
                         loading="lazy"
                         width={40}
                         height={40}
@@ -212,7 +212,7 @@ function WhyLearnbay({ idss }) {
                     </div>
                     <div className={Styles.BoxIconinner}>
                       {/* <Image
-                        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/delivery-truck.gif"
+                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/delivery-truck.gif"
                         loading="lazy"
                         width={40}
                         height={40}
@@ -222,7 +222,7 @@ function WhyLearnbay({ idss }) {
                     </div>
                     <div className={Styles.BoxIconinner}>
                       {/* <Image
-                        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/delivery-truck.gif"
+                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/delivery-truck.gif"
                         loading="lazy"
                         width={40}
                         height={40}
@@ -234,7 +234,7 @@ function WhyLearnbay({ idss }) {
                     </div>
                     <div className={Styles.BoxIconinner}>
                       {/* <Image
-                        src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/delivery-truck.gif"
+                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/delivery-truck.gif"
                         loading="lazy"
                         width={40}
                         height={40}
@@ -265,7 +265,7 @@ function WhyLearnbay({ idss }) {
             <div className={Styles.firstBox}>
               <div className="imgWrapper">
                 <Image
-                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/masterPage/whylearn1.webp"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/masterPage/whylearn1.webp"
                   loading="lazy"
                   width="200"
                   height="212"
@@ -304,7 +304,7 @@ function WhyLearnbay({ idss }) {
         {projectCert ? (
           <div className={`${Styles.RightSideCert} imgWrapper`}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Certification-min.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Certification-min.webp"
               loading="lazy"
               width="350"
               height="212"

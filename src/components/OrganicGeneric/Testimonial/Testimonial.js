@@ -43,7 +43,7 @@ function Testimonial() {
       <h2 className={styles.h1}>Our Alumni Profile</h2>
       <div className={styles.line}>
         <img
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/alumni-arrow.png"
+          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/alumni-arrow.png"
           width="80px"
         />
       </div>
@@ -71,7 +71,7 @@ function Testimonial() {
                       </div>
                       <div>
                         <Image
-                          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/preksha-home.png"
+                          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/preksha-home.png"
                           layout="intrinsic"
                           loading="lazy"
                           width="100"
@@ -98,9 +98,9 @@ function Testimonial() {
                             );
                             setImg({
                               cLogo:
-                                "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/HCL-logo.png",
+                                "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/HCL-logo.png",
                               pLogo:
-                                "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/preksha-home.png",
+                                "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/preksha-home.png",
                             });
                           }}
                         >
@@ -112,7 +112,7 @@ function Testimonial() {
                     <div className={styles.imgHike}>
                       <div>
                         <Image
-                          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/HCL-logo.png"
+                          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/HCL-logo.png"
                           layout="intrinsic"
                           loading="lazy"
                           width={mobile ? 130 : 140}
@@ -138,7 +138,7 @@ function Testimonial() {
                       </div>
                       <div>
                         <Image
-                          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/asrar-home.png"
+                          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/asrar-home.png"
                           layout="intrinsic"
                           loading="lazy"
                           width="100"
@@ -165,9 +165,9 @@ function Testimonial() {
                             );
                             setImg({
                               cLogo:
-                                "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/TCS.png",
+                                "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/TCS.png",
                               pLogo:
-                                "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/asrar-home.png",
+                                "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/asrar-home.png",
                             });
                           }}
                         >
@@ -179,7 +179,7 @@ function Testimonial() {
                     <div className={styles.imgHike}>
                       <div>
                         <Image
-                          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/TCS.png"
+                          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/TCS.png"
                           layout="intrinsic"
                           loading="lazy"
                           width={mobile ? 40 : 63}
@@ -205,7 +205,7 @@ function Testimonial() {
                       </div>
                       <div>
                         <Image
-                          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/aravind-home.png"
+                          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/aravind-home.png"
                           layout="intrinsic"
                           loading="lazy"
                           width="100"
@@ -232,9 +232,9 @@ function Testimonial() {
                             );
                             setImg({
                               cLogo:
-                                "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/themathcompany-logo.png",
+                                "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/themathcompany-logo.png",
                               pLogo:
-                                "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/aravind-home.png",
+                                "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/aravind-home.png",
                             });
                           }}
                         >
@@ -246,7 +246,7 @@ function Testimonial() {
                     <div className={styles.imgHike}>
                       <div>
                         <Image
-                          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/themathcompany-logo.png"
+                          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/themathcompany-logo.png"
                           layout="intrinsic"
                           loading="lazy"
                           width={mobile ? 150 : 200}
@@ -272,7 +272,7 @@ function Testimonial() {
                       </div>
                       <div>
                         <Image
-                          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ritesh-home.png"
+                          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ritesh-home.png"
                           layout="intrinsic"
                           loading="lazy"
                           width="100"
@@ -299,9 +299,9 @@ function Testimonial() {
                             );
                             setImg({
                               cLogo:
-                                "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Capgemni-logo.png",
+                                "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Capgemni-logo.png",
                               pLogo:
-                                "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/ritesh-home.png",
+                                "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ritesh-home.png",
                             });
                           }}
                         >
@@ -313,7 +313,7 @@ function Testimonial() {
                     <div className={styles.imgHike}>
                       <div>
                         <Image
-                          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Capgemni-logo.png"
+                          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Capgemni-logo.png"
                           layout="intrinsic"
                           loading="lazy"
                           width={mobile ? 130 : 150}
@@ -339,7 +339,7 @@ function Testimonial() {
                       </div>
                       <div>
                         <Image
-                          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/saurabh-home.png"
+                          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/saurabh-home.png"
                           layout="intrinsic"
                           loading="lazy"
                           width="100"
@@ -366,9 +366,9 @@ function Testimonial() {
                             );
                             setImg({
                               cLogo:
-                                "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/HCL-logo.png",
+                                "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/HCL-logo.png",
                               pLogo:
-                                "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/saurabh-home.png",
+                                "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/saurabh-home.png",
                             });
                           }}
                         >
@@ -380,7 +380,7 @@ function Testimonial() {
                     <div className={styles.imgHike}>
                       <div>
                         <Image
-                          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/HCL-logo.png"
+                          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/HCL-logo.png"
                           layout="intrinsic"
                           loading="lazy"
                           width={mobile ? 130 : 140}
@@ -406,7 +406,7 @@ function Testimonial() {
                       </div>
                       <div>
                         <Image
-                          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/abhishek-home.png"
+                          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/abhishek-home.png"
                           layout="intrinsic"
                           loading="lazy"
                           width="100"
@@ -433,9 +433,9 @@ function Testimonial() {
                             );
                             setImg({
                               cLogo:
-                                "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/AGS-logo.png",
+                                "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/AGS-logo.png",
                               pLogo:
-                                "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/abhishek-home.png",
+                                "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/abhishek-home.png",
                             });
                           }}
                         >
@@ -447,7 +447,7 @@ function Testimonial() {
                     <div className={styles.imgHike}>
                       <div>
                         <Image
-                          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/AGS-logo.png"
+                          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/AGS-logo.png"
                           layout="intrinsic"
                           loading="lazy"
                           width={mobile ? 63 : 71}
@@ -473,7 +473,7 @@ function Testimonial() {
                       </div>
                       <div>
                         <Image
-                          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/vishal-home.png"
+                          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/vishal-home.png"
                           layout="intrinsic"
                           loading="lazy"
                           width="100"
@@ -500,9 +500,9 @@ function Testimonial() {
                             );
                             setImg({
                               cLogo:
-                                "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Bridgei2i-logo.png",
+                                "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Bridgei2i-logo.png",
                               pLogo:
-                                "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/vishal-home.png",
+                                "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/vishal-home.png",
                             });
                           }}
                         >
@@ -514,7 +514,7 @@ function Testimonial() {
                     <div className={styles.imgHike}>
                       <div>
                         <Image
-                          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Bridgei2i-logo.png"
+                          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Bridgei2i-logo.png"
                           layout="intrinsic"
                           loading="lazy"
                           width={mobile ? 75 : 85}

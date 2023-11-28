@@ -1,6 +1,4 @@
 export const courseDetails = [
- 
-
   {
     id: "Certification Program",
     title: "Certification Program",
@@ -11,7 +9,7 @@ export const courseDetails = [
         courseDetails: [
           {
             id: 1,
-            img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/course-1.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-1.webp",
             title: "Advance Data Science",
             title1: "and AI Certification",
             tag: "Data science",
@@ -29,7 +27,7 @@ export const courseDetails = [
           },
           {
             id: 2,
-            img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/course-2.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-2.webp",
             title: "Advance AI and ML",
             title1: "Certification Program",
             tag: "Data science",
@@ -48,7 +46,7 @@ export const courseDetails = [
           },
           {
             id: 3,
-            img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/course-3.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-3.webp",
             title: "Business Analytics",
             title1: "Program",
             tagHead: "For Working Professional",
@@ -67,7 +65,7 @@ export const courseDetails = [
           },
           {
             id: 4,
-            img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/course-4.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-4.webp",
             title: "Data Analytics",
             title1: "Program",
             tagHead: "Guaranteed Interview Call",
@@ -86,7 +84,7 @@ export const courseDetails = [
           },
           {
             id: 5,
-            img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/course-5.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-5.webp",
             title: "Software Developer",
             title1: "Certification",
             tagHead: "Guaranteed Interview Call",
@@ -118,7 +116,7 @@ export const courseDetails = [
         courseDetails: [
           {
             id: 1,
-            img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/masters-1.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/masters-1.webp",
             title: "Master in CS:",
             title1: "Data Science and AI",
             tagHead: "Crack Job Interviews",
@@ -135,7 +133,7 @@ export const courseDetails = [
           },
           {
             id: 3,
-            img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Add-on-3.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Add-on-3.webp",
             title: "Advance Certification",
             title1: "Program in generative AI",
             tagHead: "Be a Product Design Pro",
@@ -155,11 +153,3 @@ export const courseDetails = [
     ],
   },
 ];
-
-
-
-
-
-
-
-

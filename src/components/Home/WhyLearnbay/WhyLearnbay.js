@@ -38,7 +38,7 @@ function WhyLearnbay() {
       <div className={styles.boxSecond}>
         <div className={styles.imgBoy}>
           <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/global-boy.webp"
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/global-boy.webp"
             width={420}
             height={420}
             alt="Learnbay"
@@ -48,7 +48,7 @@ function WhyLearnbay() {
         </div>
         <div className={styles.imgShow}>
           <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/globe.webp"
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/globe.webp"
             width={370}
             height={370}
             alt="Learnbay"

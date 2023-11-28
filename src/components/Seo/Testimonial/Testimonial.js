@@ -57,7 +57,7 @@ function Testimonial({ redirectDS, para, heading, Testimonial }) {
       {para === undefined ? "" : <p className={styles.ptop}>{para}</p>}
       {/* <div className={styles.line}>
         <img
-          src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/alumni-arrow.png"
+          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/alumni-arrow.png"
           width="80px"
         />
       </div> */}
@@ -174,7 +174,7 @@ function Testimonial({ redirectDS, para, heading, Testimonial }) {
                             <div>
                               <div>
                                 <Image
-                                  src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Arrow+6.png"
+                                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Arrow+6.png"
                                   loading="lazy"
                                   width="30"
                                   height="15"

@@ -7,7 +7,7 @@ export const MLcanadaCourseData = [
       description:
         "You just have to follow 3 easy steps to enroll in our advanced data science course",
       image:
-        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp",
       totalTime: "PT6M",
       estimatedCost: {
         "@type": "MonetaryAmount",
@@ -27,7 +27,7 @@ export const MLcanadaCourseData = [
           "@type": "HowToStep",
           text: "Visit our website and fill the enquiry form",
           image:
-            "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp",
           name: "Fill Enquiry Form",
           url: "https://www.learnbay.co/data-science-course/",
         },
@@ -35,7 +35,7 @@ export const MLcanadaCourseData = [
           "@type": "HowToStep",
           text: "Talk to our experts for career counseling",
           image:
-            "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course.learnbay.co/NImages/data-science-ai-for-managers.png",
           name: "Talk to Expert",
           url: "https://www.learnbay.co/data-science-course/",
         },
@@ -43,7 +43,7 @@ export const MLcanadaCourseData = [
           "@type": "HowToStep",
           text: "Get enrollment in our data science course",
           image:
-            "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp",
           name: "Get enrollment",
           url: "https://www.learnbay.co/",
         },
@@ -60,7 +60,7 @@ export const MLcanadaCourseData = [
       description:
         "Machine learning course in Canada. Learnbay is Advanced Machine Learning Course Training Institute in Canada. Machine Learning course in Canada will enhance your career",
       image:
-        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/home-page-header.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp",
       author: {
         "@type": "Organization",
         name: "Learnbay",
@@ -71,7 +71,7 @@ export const MLcanadaCourseData = [
         name: "Learnbay",
         logo: {
           "@type": "ImageObject",
-          url: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+          url: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png",
         },
       },
       datePublished: "2021-10-01",
@@ -330,7 +330,7 @@ export const MLcanadaCourseData = [
       description:
         "Learnbay offers a Machine learning course in canada, the most comprehensive Machine learning course in the market, covering the complete Data Science lifecycle.",
       image:
-        "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png",
       performer: "Learnbay",
       offers: {
         "@type": "AggregateOffer",
@@ -381,7 +381,7 @@ export const MLcanadaCourseData = [
     secondSection: [
       {
         id: 1,
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon1.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon1.png",
         height: "40",
         width: "43",
         heading: "1:1 Doubt Session",
@@ -389,7 +389,7 @@ export const MLcanadaCourseData = [
       },
       {
         id: 1,
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon3.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
         heading: "Unlimited Interview Calls",
@@ -397,7 +397,7 @@ export const MLcanadaCourseData = [
       },
       {
         id: 1,
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon2.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon2.png",
         height: "50",
         width: "53",
         heading: "IBM Project Certificate",
@@ -405,7 +405,7 @@ export const MLcanadaCourseData = [
       },
       {
         id: 1,
-        img: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/icon4.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon4.png",
         height: "40",
         width: "40",
         heading: "Designed For Professionals",
@@ -419,13 +419,13 @@ export const MLcanadaCourseData = [
         working: "HCL",
         link: "vSjfKdIzUjY",
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/preksha-testimonial.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/preksha-testimonial.webp",
         sDesc:
           "I had a great learning experience at Learnbay. The faculties here are top notch. Right from enrollment to getting a good job ...",
         lDesc:
           "I had a great learning experience at Learnbay. The faculties here are top notch. Right from enrollment to getting a good job, they keep putting enormous efforts for each and every candidate. Thanks to all the trainers, backend team, the HR team and to the directors for making this journey smooth.",
         complogo:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/microsoft.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
         statLogo: "140% Hike",
       },
       {
@@ -434,13 +434,13 @@ export const MLcanadaCourseData = [
         working: "Cendrol Technology",
         link: "JoKquvfAhZU",
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/Shubham-kumar-thumb+.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Shubham-kumar-thumb+.webp",
         sDesc:
           "I moved from teaching to data science with Learnbay's help. Their course was easy to follow, even for someone like me without a tech...",
         lDesc:
           "I moved from teaching to data science with Learnbay's help. Their course was easy to follow, even for someone like me without a tech background. In six months, I got to learn how data science is used in the real world. Their mock interviews also prepared me for job interviews, and I got a data analyst job at Cendrol. This course really helped me change my career.",
         complogo:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/microsoft.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
         statLogo: "  210% Hike",
       },
       {
@@ -449,13 +449,13 @@ export const MLcanadaCourseData = [
         working: "The Math Company",
         link: "hewBtR_WoDM",
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/aravind-k-thumb.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/aravind-k-thumb.webp",
         sDesc:
           "Choosing Learnbay was my best decision ever. The instructors were encouraging and glad to answer questions. The best feature is that...",
         lDesc:
           "Choosing Learnbay was my best decision ever. The instructors were encouraging and glad to answer questions. The best feature is that their flexible modules & small size batches. I was able to manage my time and learn while working. Thanks to Learnbay for my lucrative placement.",
         complogo:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/microsoft.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
         statLogo: " 150% Hike",
       },
       {
@@ -464,13 +464,13 @@ export const MLcanadaCourseData = [
         working: "Amazon",
         link: "A-BkcEM0rQM",
         proImg:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/jaya-sinha-thumb.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/jaya-sinha-thumb.webp",
         sDesc:
           "Transitioning from a non-tech role, LearnBay's IBM data science certification equipped me with the skills needed in today's...",
         lDesc:
           "Transitioning from a non-tech role, LearnBay's IBM data science certification equipped me with the skills needed in today's market. The course's interactive sessions and personalized guidance from Abhishek sir were invaluable. Post-completion, I had received two offers, one from Amazon and other from Infosys for the role of senior data analyst. Highly recommend for anyone stepping into data science.",
         complogo:
-          "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/amazon.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/amazon.webp",
         statLogo: " 150% Hike",
       },
       // {
@@ -479,13 +479,13 @@ export const MLcanadaCourseData = [
       //   working: "Working at AGS",
       //   link: "D-gcPaK_-x4",
       //   proImg:
-      //     "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/reviewNew.webp",
+      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/reviewNew.webp",
       //   sDesc:
       //     "I got placed at AGS within 9 months of joining Learnbay institute. Live interaction sessions are the best part here since ...",
       //   lDesc:
       //     "I got placed at AGS within 9 months of joining Learnbay institute. Live interaction sessions are  the best part here since we could clear all queries. The projects are excellent. Overall I had a great  experience and I urge everyone to enroll in this institute.",
       //   complogo:
-      //     "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/microsoft.webp",
+      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
       //   statLogo: "  132% Hike",
       // },
       // {
@@ -494,13 +494,13 @@ export const MLcanadaCourseData = [
       //   working: "Working at Bridge i2i",
       //   link: "D-gcPaK_-x4",
       //   proImg:
-      //     "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/reviewNew.webp",
+      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/reviewNew.webp",
       //   sDesc:
       //     "One on One counseling from experts has guided me to  make the right decision. The Learnbay team was amazing in assisting me with ...",
       //   lDesc:
       //     "One on One counseling from experts has guided me to make the right decision. The Learnbay team was amazing in assisting me with live projects and preparing for the placements. Thank you! Learnbay for your tremendous support in excelling in my Data Science Career.",
       //   complogo:
-      //     "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/microsoft.webp",
+      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
       //   statLogo: "  127% Hike",
       // },
       // {
@@ -509,13 +509,13 @@ export const MLcanadaCourseData = [
       //   working: "SA - Data Scientist",
       //   link: "D-gcPaK_-x4",
       //   proImg:
-      //     "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/reviewNew.webp",
+      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/reviewNew.webp",
       //   sDesc:
       //     "Choosing Learnbay was my best decision ever. The instructors were encouraging and glad to answer questions. The best feature is that ...",
       //   lDesc:
       //     "Choosing Learnbay was my best decision ever. The instructors were encouraging and glad to answer questions. The best feature is that their flexible modules & small size batches. I was able to manage  my time and learn while working. Thanks to Learnbay for my lucrative placement.",
       //   complogo:
-      //     "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/microsoft.webp",
+      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
       //   statLogo: "142% Hike",
       // },
     ],
@@ -824,10 +824,10 @@ export const MLcanadaCourseData = [
     CertificationBot1:
       "Learnbay has made a collaboration with IBM to provide students with all-inclusive machine learning modules. After finishing the professional machine learning course, you will be provided the course completion IBM certificate. Overall, you will receive 6 certificates for successfully completing different modules of artificial intelligence and machine learning courses. The IBM project experience certificate is the most crucial one, which will give weight to your portfolio and get you shortlisted instantly.",
     src33:
-      "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Microsoft-certificate-data.png",
-    src: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Certificate-blue.png",
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
-      "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Certificate-Yellow.png",
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
     ModuleBot1:
       "Learnbay’s IBM machine learning course provides a comprehensive journey in Machine Learning and artificial intelligence. It covers topics such as regression algorithms, decision tree methods, and clustering techniques. Our artificial intelligence and machine learning course gives an equal emphasis to theoretical foundations and practical applications of these algorithms so that you can understand the mechanics behind each method & algorithm. The Machine Learning course in Canada is a 9.5-month training program that covers the essential foundational material of intelligent systems from an interdisciplinary perspective and provides exposure to real-world machine learning applications.",
     ModuleHead2: "Module 0 : ",
@@ -876,37 +876,37 @@ export const MLcanadaCourseData = [
       "Machine learning is the study of algorithms that allow computers to adapt behavior based on data fed to them. Data scientists and ML engineers have been using statistical techniques and machine learning methods for decades. In simple terms, Machine learning, also known as Artificial Intelligence (AI), refers to techniques by which computer software or a system learns from data. Mastering machine learning tools and techniques are essential to solving any kind of data problem. Machine Learning is a powerful technique that can be used in a wide variety of applications, regardless of the industry. It is not an easy task for beginners, though, and that's where this professional machine learning course comes in.",
     ProjectsBot1:
       "Learnbay’s unique feature of cloud lab has aided students by allowing them to participate in various live machine Learning and artificial intelligence projects. This will facilitate the learning process of our students to prepare for the real world. In the IBM machine learning course, you will get a chance to work on 15 live industrial MNC projects along with 2 fresh capstone projects based on your selected domain(s). Following the completion of the projects, you’ll obtain an IBM project certificate. Our alumni have already worked on various projects, which are listed below.",
-    src1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/SAMSUNG.png",
+    src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
     ProjectsH1: "Samsung Health Monitor App",
     Projectsp1:
       "Samsung will launch a new healthcare app soon. The key goal of this app is the accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app.",
-    src2: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/IBM.png",
+    src2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IBM.png",
     ProjectsH2: "IBM HR Analytics",
     Projectsp2:
       "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities.",
-    src3: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/amazon1.png",
+    src3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/amazon1.png",
     ProjectsH3: "Amazon Customer Review Analysis",
     Projectsp3:
       "Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach.",
-    src4: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/BMW.png",
+    src4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BMW.png",
     ProjectsH4: "BMW Used Car Price Optimization",
     Projectsp4:
       "BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects.",
     AlumniBot1:
       "The purpose of Learnbay is to develop world-class competent machine learning professionals across Canada. It has already satisfied the professions of many aspirants within a span of course training. They have taken advantage of our job support in the machine learning and artificial intelligence course, which helped them land their desired positions in top learning MNCs. Read the success stories of our satisfied learners:",
-    Asrc1: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/devraj.jpg",
+    Asrc1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/devraj.jpg",
     AlumniH1: "Deveraj",
     Alumnip1:
       "The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around.",
-    Asrc2: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shezan.png",
+    Asrc2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/shezan.png",
     AlumniH2: "Shezan Baig",
     Alumnip2:
       "Learnbay is one of the most remarkable Machine Learning institutes I've come across. Compared to other institutes in India, it offers a Machine Learning course at a low cost. Excellent value for money. Finally, I achieved job satisfaction. I would strongly advise everyone to attend this institute.",
-    Asrc3: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/viraj.png",
+    Asrc3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/viraj.png",
     AlumniH3: "Viraj Ghodke",
     Alumnip3:
       "For me, learning using the Learnbay platform has been a great experience. The teaching and management team are very helpful. They are constantly willing to clarify each individual's doubts and meet the needs of working professionals. The practice interview sessions were simply like a clone of MNC interviews.",
-    Asrc4: "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/shubhangi.png",
+    Asrc4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/shubhangi.png",
     AlumniH4: "Shubhangi J. Waghmare ",
     Alumnip4:
       "The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment.",

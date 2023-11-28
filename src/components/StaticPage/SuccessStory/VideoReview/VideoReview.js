@@ -4,22 +4,22 @@ import Image from "next/image";
 import VideoPopup from "../../../Global/VideoPopup/VideoPopup";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
-import 'swiper/swiper-bundle.css';
+import "swiper/swiper-bundle.css";
 const VideoReview = ({ idss }) => {
-    const [popups, setPopups] = useState(false);
-    const [video, setVideo] = useState(false);
-    const videoSHow = () => {
-        setVideo(true);
-    };
-    // const el = useRef(null);
-    const popupShow = () => {
-        setPopups(true);
-    };
+  const [popups, setPopups] = useState(false);
+  const [video, setVideo] = useState(false);
+  const videoSHow = () => {
+    setVideo(true);
+  };
+  // const el = useRef(null);
+  const popupShow = () => {
+    setPopups(true);
+  };
   const images = [
-    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/coursePage/video-review.webp",
-    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/coursePage/video-review.webp",
-    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/coursePage/video-review.webp",
-    "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/coursePage/video-review.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/video-review.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/video-review.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/video-review.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/video-review.webp",
   ];
   return (
     <section className={styles.container}>
@@ -46,16 +46,16 @@ const VideoReview = ({ idss }) => {
           modules={[Pagination]}
           className="mySwiper"
         >
-            {images.map((image, index) => (
-                <SwiperSlide key={index}>
-                  <div className={`imgWrapper ${styles.imgwrapper}`}>
-                  <Image
-                      src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/coursePage/video-review.webp"
-                      width={548}
-                      height={364}
-                      style={{ height: "fit-content" }}
-                      onClick={() => videoSHow()}
-                  />
+          {images.map((image, index) => (
+            <SwiperSlide key={index}>
+              <div className={`imgWrapper ${styles.imgwrapper}`}>
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/video-review.webp"
+                  width={548}
+                  height={364}
+                  style={{ height: "fit-content" }}
+                  onClick={() => videoSHow()}
+                />
               </div>
             </SwiperSlide>
           ))}

@@ -32,7 +32,7 @@
     "speakerName": "Utkarsh Kulshrestha",
     "speakerDesignation": "Designation : Data Scientist",
     "speakerComp": "JP Morgan",
-    "img4": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/Untitled-1.jpg",
+    "img4": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course.learnbay.co/Untitled-1.jpg",
 
     "h1": "100% Live Classes",
     "h2": "Customized Learning",
@@ -67,7 +67,7 @@
     ]
   },
   "headImg": {
-    "deskimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/WebsiteImg.png",
-    "mobimg": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/course.learnbay.co/30_12Mobile.png"
+    "deskimg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course.learnbay.co/WebsiteImg.png",
+    "mobimg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course.learnbay.co/30_12Mobile.png"
   }
 }

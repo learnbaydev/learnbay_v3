@@ -11,12 +11,12 @@ function FirstSection() {
       <div className={styles.firstSection}>
         <LeftSection />
         <div className="imgWrapper">
-        <div className={styles.upLine}>
-          <Image
-            src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/NewDesignImage/Straight-Line.png"
-            width={4}
-            height={700}
-          />
+          <div className={styles.upLine}>
+            <Image
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Straight-Line.png"
+              width={4}
+              height={700}
+            />
           </div>
         </div>
         <RightSection />

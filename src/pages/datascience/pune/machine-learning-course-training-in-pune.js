@@ -136,7 +136,7 @@ export default function Home() {
         />
         <link
           rel="icon"
-          href="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/Learnbay-Favicon-L.png"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Learnbay-Favicon-L.png"
         />
         <script
           type="application/ld+json"
@@ -189,7 +189,7 @@ export default function Home() {
           titleCourse="Machine Learning Course Training In Pune"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
           idss="Jn2puEQC8yk"
-          FirstRightImg="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/head/ML.png"
+          FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/head/ML.png"
           firstHeading="Machine Learning Course "
           firstToparaImg="Training In Pune"
           firstTopPara="Industry-Curated & IBM Certified Professionals ML Training"

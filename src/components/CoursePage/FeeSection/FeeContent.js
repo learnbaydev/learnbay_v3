@@ -36,7 +36,7 @@ const FeeContent = ({
           </p>
           <div className={styles.imgFee}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/feeSection.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/feeSection.webp"
               width="367"
               height="221"
               alt="data science course"
@@ -91,7 +91,7 @@ const FeeContent = ({
           <p className={styles.orangeText}>Payment Partners</p>
           <div className={styles.iconImage}>
             <Image
-              src="https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/coursePage/Finance+partners.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/Finance+partners.webp"
               alt="Zest"
               width="370"
               height="36"
