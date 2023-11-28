@@ -1,4 +1,6 @@
+const isProd = true;
 const nextConfig = {
+  assetPrefix: isProd ? "https://d32and0ii3b8oy.cloudfront.net/" : undefined,
   eslint: {
     ignoreDuringBuilds: true,
   },
