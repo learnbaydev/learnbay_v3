@@ -45,14 +45,14 @@ const FirstContent = ({
             ""
           ) : (
             <>
-              <div className={styles.Desktop}>
+            <div className={ibmOnly ?  styles.DAibm: styles.Desktop}>
                 <p className={styles.ptop}>In Collaboration With</p>
                 <div className={styles.ImageBlock}>
                   {ibmOnly ? (
                     <Image
-                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/ibm-single-home.png"
-                      width="127"
-                      height="51"
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ibmnew.webp"
+                      width="70"
+                      height="30"
                       priority
                       alt="data science course"
                     />
@@ -114,9 +114,9 @@ const FirstContent = ({
               <div className={styles.ImageBlock}>
                 {ibmOnly ? (
                   <Image
-                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/ibm-single-home.png"
-                    width="127"
-                    height="51"
+                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ibmnew.webp"
+                    width="70"
+                    height="30"
                     priority
                     alt="data science course"
                   />
