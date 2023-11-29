@@ -28,8 +28,9 @@ const Course = ({
   const [popups, setPopups] = useState(false);
 
   const [CourseLoop, setCourseLoop] = useState([
-    { title: "Certification Program", value: true },
-    { title: "Master's Degree Program", value: false },
+    { title: "Popular Courses", value: true },
+    // { title: "Certification Program", value: true },
+    // { title: "Master's Degree Program", value: false },
   ]);
 
   const menuChange = (title, index) => {

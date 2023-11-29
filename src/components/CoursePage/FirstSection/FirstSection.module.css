@@ -102,7 +102,14 @@
 }
 .Desktop {
   display: block;
+  align-items: center;
+  gap: 10px;
 }
+.DAibm{
+  display: flex;
+  gap: 14px;
+  align-items:  center;
+  }
 .secondLeft {
   display: flex;
   position: relative;
@@ -304,6 +311,7 @@
     margin: auto;
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
   }
   .animationText {
     display: none;
