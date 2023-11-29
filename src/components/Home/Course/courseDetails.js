@@ -71,7 +71,7 @@ export const courseDetails = [
             tagHead: "For Working Professional",
             tag: "Data science",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf",
             titleCourse: "Business Analytics Program",
             para: [
               "9 months | 2 projects",
@@ -80,7 +80,7 @@ export const courseDetails = [
             ],
             link1: "/datascience/business-analytics-certification-course",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf",
           },
           {
             id: 4,
@@ -90,7 +90,7 @@ export const courseDetails = [
             tagHead: "Guaranteed Interview Call",
             tag: "Data science",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
             titleCourse: "Data Analytics Program",
             para: [
               "5 months | 3 Projects",
@@ -99,7 +99,7 @@ export const courseDetails = [
             ],
             link1: "/datascience/data-analytics-certification-course",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
           },
         ],
       },
