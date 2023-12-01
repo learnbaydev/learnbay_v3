@@ -36,6 +36,7 @@ const SecondPart = ({
   mbldevops,
   FAQNewData,
   devops,
+  devopfee ,
   
 }) => {
   const [popupData, setPopupData] = useState([]);
@@ -83,6 +84,7 @@ const SecondPart = ({
       mbldevops={mbldevops} />
       <Certificate data={CertificateData} />
       <FeeSection
+        devopfee ={devopfee }
         Fee=" ₹ 1,35,000"
         FeeEmi="₹ 8,850/month"
         weekdaybatch="Weekday Evening"
@@ -102,6 +104,7 @@ const SecondPart = ({
         dataScience={true}
         titleCourse="Advanced Data Science and AI Program with domain specialization"
         brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
+      
       />
 
       <MentorsSection />
@@ -110,7 +113,7 @@ const SecondPart = ({
 
       <DevOpsProject
         titleCourse="Advanced Data Science and AI Program with domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+        brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
         dataScience={true}
         interstedInHide={true}
       />

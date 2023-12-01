@@ -13,12 +13,13 @@ const DevOpsProject = ({ titleCourse,
   brochureLink, dataScience,   interstedInHide, }) => {
 
   const projectImg = [
-    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/c1.webp",
-    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/c2.webp",
+    
     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/c3.webp",
     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/c4.webp",
     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/c5.webp",
     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/c6.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/c1.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/c2.webp",
   ];
 
   const [popups, setPopups] = useState(false);

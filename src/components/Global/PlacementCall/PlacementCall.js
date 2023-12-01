@@ -19,18 +19,17 @@ const courseData = [
   { title: "DataBase Admin", imgSrc: "secondimg.webp", imgWidth: 400 },
   { title: "Data Science Manger", imgSrc: "thirdimg.webp", imgWidth: 400 },
 
-  // Add more data as needed
 ];
 const DevopsData = [
-  { title: "Cloud Engineer", imgSrc: "firstimg.webp", imgWidth: 450 },
-  { title: "DevOps Engineer", imgSrc: "secondimg.webp", imgWidth: 450 },
-  { title: "System Admin", imgSrc: "thirdimg.webp", imgWidth: 400 },
-  { title: "Cloud Architect", imgSrc: "firstimg.webp", imgWidth: 400 },
+  { title: "Cloud Engineer", imgSrc: "secondimg.webp", imgWidth: 450 },
+  { title: "DevOps Engineer", imgSrc: "thirdimg.webp", imgWidth: 450 },
+  { title: "System Admin", imgSrc: "secondimg.webp", imgWidth: 400 },
+  { title: "Cloud Architect", imgSrc: "thirdimg.webp", imgWidth: 400 },
   { title: "Automation Engineer", imgSrc: "secondimg.webp", imgWidth: 400 },
   { title: "Infrastructure Engineer", imgSrc: "thirdimg.webp", imgWidth: 400 },
-  { title: "Solutions Architecht", imgSrc: "firstimg.webp", imgWidth: 400 },
-  { title: "Cloud Security Specialist", imgSrc: "secondimg.webp", imgWidth: 400 },
-  { title: "Site Reliability Engineer ", imgSrc: "thirdimg.webp", imgWidth: 400 },
+  { title: "Solutions Architecht", imgSrc: "secondimg.webp", imgWidth: 400 },
+  { title: "Cloud Security Specialist", imgSrc: "thirdimg.webp", imgWidth: 400 },
+  { title: "Site Reliability Engineer ", imgSrc: "secondimg.webp", imgWidth: 400 },
 
   // Add more data as needed
 ];
@@ -97,13 +96,13 @@ const PlacementCall = ({devops}) => {
             modules={[Autoplay]}
             className="mySwiper"
           >
-            {courseData.map((course, index) => (
+            {DevopsData.map((course, index) => (
               <SwiperSlide className={styles.slide} key={index}>
                 <div className={styles.slideWrap}>
                   <div className={styles.number}>
                     <div className={styles.imged}>
                       <Image
-                        src={`https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/${courseData[index].imgSrc}`}
+                        src={`https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/${DevopsData[index].imgSrc}`}
                         height={60}
                         width={course.imgWidth}
                         loading="lazy"

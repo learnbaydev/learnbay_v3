@@ -62,9 +62,11 @@ function Blockchain({ CloudAndDevOpsCourseDataJson }) {
           }
           devops ={true}
           mbldevops={true}
+         
           CertificateData={
             CloudAndDevOpsCourseData.CloudAndDevOpsCourseData[0].Certificate
           }
+          devopfee ={true}
           projectSection={
             CloudAndDevOpsCourseData.CloudAndDevOpsCourseData[0].projectSection
           }
