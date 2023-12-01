@@ -21,8 +21,8 @@ const SliderTab = dynamic(() =>
 const PlacementCall = dynamic(() =>
   import("../../../components/Global/PlacementCall/PlacementCall")
 );
-const NewProjectSection = dynamic(() =>
-  import("../../../components/Global/NewProjectSection/NewProjectSection")
+const DevOpsProject = dynamic(() =>
+  import("../DevOps/DevOpsProject/DevOpsProject")
 );
 
 const FAQNew = dynamic(() =>
@@ -34,7 +34,6 @@ const SecondPart = ({
   CertificateData,
   projectSection,
   FAQNewData,
-  
 }) => {
   const [popupData, setPopupData] = useState([]);
   // console.log(popupData);
@@ -73,8 +72,8 @@ const SecondPart = ({
         dataScienceCounselling={true}
         dataScience={true}
         interstedInHide={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+        titleCourse="Advance Cloud Computing & DevOps Certification Program"
+        brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
         buttonHide={true}
       />
       <ToolsCovered />
@@ -103,14 +102,13 @@ const SecondPart = ({
 
       <MentorsSection />
       <SliderTab />
-      <PlacementCall  devops={true}/>
+      {/* <PlacementCall devops={true} /> */}
 
-      <NewProjectSection
-        dataScience={true}
-        interstedInHide={true}
+      <DevOpsProject
         titleCourse="Advanced Data Science and AI Program with domain specialization"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
-        projectSection={projectSection}
+        dataScience={true}
+        interstedInHide={true}
       />
 
       <FAQNew FAQNewData={FAQNewData} />
