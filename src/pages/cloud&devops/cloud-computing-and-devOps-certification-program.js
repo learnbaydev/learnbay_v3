@@ -3,7 +3,7 @@ import { parseJSONData } from "@/Util/JsonConvertor";
 import FirstPart from "@/components/CoursePage/FirstPart/DevOpsFirstpart";
 import SecondPart from "@/components/CoursePage/FirstPart/DevopsSecondPart";
 import Navbar from "@/components/Global/Navbar/Navbar";
-import FirstSection from "@/components/CoursePage/FirstSection/FirstSection";
+import FirstSection from "@/components/CoursePage/cloud&devops/Devopsfirstsection/DevopFirstSection";
 
 function Blockchain({ CloudAndDevOpsCourseDataJson }) {
   const CloudAndDevOpsCourseData = parseJSONData(CloudAndDevOpsCourseDataJson);
@@ -41,12 +41,12 @@ function Blockchain({ CloudAndDevOpsCourseDataJson }) {
           dataScience={true}
           titleCourse="Adavance Cloud Computing & DevOps Certification Program"
           cityParaCont="Elevate your career to a Cloud Solution Architect or DevOps Engineer"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+          brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-first-devops-min.webp"
           firstToparaImg=""
           firstHeading="Advance Cloud Computing & DevOps Certification Program"
           firstTopPara="Crack Interview in top MNCs "
-          idss="YWxTtvb3x-U"
+          idss="gaQYhVPCudQ"
         />
         <FirstPart
           SecondSectionData={
@@ -60,6 +60,8 @@ function Blockchain({ CloudAndDevOpsCourseDataJson }) {
           masterSyllabusMobile={
             CloudAndDevOpsCourseData.CloudAndDevOpsCourseData[0].masterSyllabusMobile
           }
+          devops ={true}
+          mbldevops={true}
           CertificateData={
             CloudAndDevOpsCourseData.CloudAndDevOpsCourseData[0].Certificate
           }

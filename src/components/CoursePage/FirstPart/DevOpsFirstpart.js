@@ -1,6 +1,6 @@
 import React from "react";
 import dynamic from "next/dynamic";
-import CloudDevopsecond from "../ DevOps/DevOpsSecondSection/DevOpsSecondSection";
+import CloudDevopsecond from "../cloud&devops/DevOpsSecondSection/DevOpsSecondSection";
 
 // import SecondSection from "@/components/CoursePage/SecondSection/SecondSection";
 const SecondNavbar = dynamic(() =>
@@ -26,7 +26,7 @@ const GetHire = dynamic(() => import("../../Home/GetHire/GetHire"));
 const ContactConsellor = dynamic(() =>
   import("../../CoursePage/ContactCounsellor/ContactCounsellor")
 );
-const CloudDevopstestimonials = dynamic (() =>import ("../ DevOps/CloudDevopstestimonial/Clouddevoptestimonials"))
+const CloudDevopstestimonials = dynamic (() =>import ("../cloud&devops/CloudDevopstestimonial/Clouddevoptestimonials"))
 
 const FirstPart = ({ SecondSectionData, TestimonialData }) => {
   return (
@@ -36,7 +36,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       <SecondNavbar
         interstedInHide={true}
         dataScience={true}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+        brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
         titleCourse="Advance Data Science & AI Program with Domain Specialization"
       />
       {/* <WhoProgram
@@ -59,7 +59,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         dataScience={true}
         interstedInHide={true}
         titleCourse="Advance Data Science & AI Program with Domain Specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+        brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
       />
     </>
   );

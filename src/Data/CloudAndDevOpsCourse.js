@@ -643,26 +643,26 @@ export const CloudAndDevOpsCourseData = [
           },
           {
             id: 2,
-            ques: "What is a Flexi Subscription in the Advance Data Science and AI Program?",
-            ans: `Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 2 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+            ques: "What is a Flexi Subscription in the Advance Cloud Computing and Devops Certification Program?",
+            ans: ` Those who enroll for Cloud Computing and Devops live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 2 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
             open: false,
           },
           {
             id: 3,
-            ques: "What’s the duration of the Advance Data Science and AI Program?",
-            ans: "The duration of this course is about 9 months (275 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch – 7 months, Monday to Friday – 2 hours/day, Weekend batch – 9 months, Saturday & Sunday – 3.5 hours/day",
+            ques: "What’s the duration of the Advance Cloud Computing and Devops Certification Program?",
+            ans: "The duration of this course is about 10 months (300+ hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch – 10 months, Monday to Friday – 2 hours/day, Weekend batch – 12 months, Saturday",
             open: false,
           },
           {
             id: 4,
-            ques: "What is the mode of training at Learnbay?",
+            ques: "What is the mode of training at Learnbay?            ",
             ans: "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.",
             open: false,
           },
           {
             id: 5,
             ques: "How can I opt for a Hybrid mode of learning?",
-            ans: "Simply, you can choose an online mode of study for the theoretical classes and classroom mode for all the capstone projects and interview preparation sessions.",
+            ans: " Simply, you can choose an online mode of study for the theoretical classes and classroom mode for all the capstone projects and interview preparation sessions.",
             open: false,
           },
         ],
@@ -721,33 +721,26 @@ export const CloudAndDevOpsCourseData = [
         data: [
           {
             id: 0,
-            ques: "What is the total Fee for the Advanced Data Science and AI Program?",
-            ans: "The total program fee for the Advanced Data Science and AI Program with Domain Specialization is INR 1,25,000 + 18% GST.",
+            ques: "What is the total Fee for the Advance Cloud Computing and Devops Certification Program?",
+            ans: "The total program fee for the Advance Cloud Computing and Devops Certification Program is INR 1,35,000/- +18% GST",
             open: true,
           },
           {
             id: 1,
             ques: "Can I pay in installments for the Advanced Data Science and AI Program?",
-            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 8,194/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+            ans: " Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 8,850/month for up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
             open: false,
           },
           {
             id: 2,
-            ques: "Is there any scholarship/discount available for Advanced Data Science and AI Program? What is Group Discount?",
-            ans: `Learnbay offers a 15 – 20% scholarship for early birds occasionally.
-            Please check our website or contact our sales team to know more about the applicable discounts.
-            
-            Group Discount :
-            Group Discount is applicable only if you’re joining with your friends.
-            5% extra discount : Group of 2,
-            8% extra discount : Group of 3,
-            Max 10% discount : Groupe of 4+.`,
+            ques: "Can I pay in installments for the Advance Cloud Computing and Devops Certification Program?",
+            ans: "Is there any scholarship/discount available for the Advance Cloud Computing and Devops Certification Program ? What is Group Discount? Learnbay offers a 15 – 20% scholarship for early birds occasionally. Please check our website or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount : Group of 2, 8% extra discount : Group of 3, Max 10% discount : Groupe of 4+.",
             open: false,
           },
           {
             id: 3,
-            ques: "What is the refund policy for the Advanced Data Science and AI Program at Learnbay?",
-            ans: "Candidates are advised to read  ",
+            ques: "What is the refund policy for the Advance Cloud Computing and Devops Certification Program?",
+            ans: "Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the program. ",
             linkText1: "Learnbay’s Refund/Cancellation Policy",
             link1: "/refund-cancellation-policy",
             ansAfter: " before enrolling in the program.",
@@ -829,18 +822,20 @@ export const CloudAndDevOpsCourseData = [
           },
           {
             id: 2,
-            ques: "What is a job-readiness program?",
-            ans: `Job readiness program helps you prepare for interviews which include:
-            Resume preparation sessions, 
-            Preparing projects for a strong portfolio, 
-            Interview guidance and prep sessions, 
-            1:1 Mock interviews based on targeted companies and roles.`,
+            ques: "How many interview calls will I get at Learnbay?            ",
+            ans: "You’ll be provided 10 interview calls after the completion of the course.",
             open: false,
           },
           {
             id: 3,
-            ques: "Will I get job referrals at Learnbay?",
-            ans: "Yes, we offer dedicated placement assistance by referring your profile through our partnered consultancies and companies.",
+            ques: "What is a job-readiness program?            ",
+            ans: " Job readiness program helps you prepare for interviews which include: Resume preparation sessions, Preparing projects for a strong portfolio, Interview guidance and prep sessions, 1:1 Mock interviews based on targeted companies and roles.",
+            open: false,
+          },
+          {
+            id: 4,
+            ques: " Will I get job referrals at Learnbay?         ",
+            ans: "Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies.",
             open: false,
           },
         ],

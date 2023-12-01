@@ -296,6 +296,7 @@
   }
   .Certificate img {
     background: linear-gradient(90deg, #262626 0%, #002C48 99.02%);
+    width: 330px;
 
   }
 }

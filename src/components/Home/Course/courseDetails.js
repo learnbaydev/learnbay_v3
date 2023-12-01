@@ -101,6 +101,26 @@ export const courseDetails = [
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
           },
+
+          {
+            id: 4,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-4.webp",
+            title: "DevOps & Cloud Computing",
+            title1: "Program",
+            tagHead: "Guaranteed Interview Call",
+            tag: "Data science",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
+            titleCourse: "Advance Cloud Computing & DevOps Certification Program",
+            para: [
+              "10 months | 3 Projects",
+              "Global Certification",
+              "Designed by industry experts",,
+            ],
+            link1: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
+          },
         ],
       },
       {
