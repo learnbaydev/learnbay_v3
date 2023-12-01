@@ -34,6 +34,7 @@ const SecondPart = ({
   CertificateData,
   projectSection,
   FAQNewData,
+  
 }) => {
   const [popupData, setPopupData] = useState([]);
   // console.log(popupData);
@@ -79,8 +80,8 @@ const SecondPart = ({
       <ToolsCovered />
       <Certificate data={CertificateData} />
       <FeeSection
-        Fee="₹ 1,25,000"
-        FeeEmi="₹ 8,194/month"
+        Fee=" ₹ 1,35,000"
+        FeeEmi="₹ 8,850/month"
         weekdaybatch="Weekday Evening"
         weekendbatch="Weekday  Evening"
         weekday="MON - FRI"
@@ -102,7 +103,7 @@ const SecondPart = ({
 
       <MentorsSection />
       <SliderTab />
-      <PlacementCall/>
+      <PlacementCall  devops={true}/>
 
       <NewProjectSection
         dataScience={true}
