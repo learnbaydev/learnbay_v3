@@ -52,7 +52,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         third="Early to mid-career professionals interested in Cloud & DevOps"
         forth="Achieving higher career growth in Cloud & DevoOps        "
       />
-      <WhyLearnbay idss="ZPOTy4PEnNU" />
+      <WhyLearnbay idss="ZPOTy4PEnNU" targetjobs={true} />
       <GetHire />
       
       <ContactConsellor
