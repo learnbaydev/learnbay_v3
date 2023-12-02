@@ -36,6 +36,7 @@ export const CityFooterData = [
             name: "Full stack software developer course in Pune",
             url: "/fullstack/pune/full-stack-software-developer-course-in-pune",
           },
+         
         ],
       },
       {
@@ -383,6 +384,11 @@ export const CourseData = [
         id: 6,
         url: "/datascience/data-analytics-certification-course",
         name: "Data Analytics Program",
+      },
+      {
+        id: 7,
+        name: "Advance Cloud Computing & DevOps Certification Program",
+        url: "/cloud&devops/cloud-computing-and-devOps-certification-program",
       },
     
   

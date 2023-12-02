@@ -33,6 +33,11 @@ export const TabData = [
         hours: "5 Months",
         url: "/datascience/data-analytics-certification-course",
       },
+      {
+        CName: "Advance Cloud Computing & DevOps Certification Program",
+        hours: "10 Months",
+        url: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+      },
      
     ],
   },
@@ -66,6 +71,11 @@ export const TabData = [
         hours: "5 Months",
         url: "/datascience/data-analytics-certification-course",
       },
+      {
+        CName: "Advance Cloud Computing & DevOps Certification Program",
+        hours: "10 Months",
+        url: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+      },
     ],
   },
   {
@@ -77,6 +87,7 @@ export const TabData = [
         hours: "18 Months",
         url: "/datascience/data-science-and-ai-masters-in-cs",
       },
+      
     ],
   },
 ];

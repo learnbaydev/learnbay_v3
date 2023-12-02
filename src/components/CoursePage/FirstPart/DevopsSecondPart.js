@@ -21,8 +21,8 @@ const SliderTab = dynamic(() =>
 const PlacementCall = dynamic(() =>
   import("../../../components/Global/PlacementCall/PlacementCall")
 );
-const NewProjectSection = dynamic(() =>
-  import("../../../components/Global/NewProjectSection/NewProjectSection")
+const DevOpsProject = dynamic(() =>
+  import("../DevOps/DevOpsProject/DevOpsProject")
 );
 
 const FAQNew = dynamic(() =>
@@ -33,7 +33,11 @@ const SecondPart = ({
   masterSyllabusMobile,
   CertificateData,
   projectSection,
+  mbldevops,
   FAQNewData,
+  devops,
+  devopfee ,
+  
 }) => {
   const [popupData, setPopupData] = useState([]);
   // console.log(popupData);
@@ -72,15 +76,17 @@ const SecondPart = ({
         dataScienceCounselling={true}
         dataScience={true}
         interstedInHide={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+        titleCourse="Advance Cloud Computing & DevOps Certification Program"
+        brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
         buttonHide={true}
       />
-      <ToolsCovered />
+      <ToolsCovered  devops={true} 
+      mbldevops={mbldevops} />
       <Certificate data={CertificateData} />
       <FeeSection
-        Fee="₹ 1,25,000"
-        FeeEmi="₹ 8,194/month"
+        devopfee ={devopfee }
+        Fee=" ₹ 1,35,000"
+        FeeEmi="₹ 8,850/month"
         weekdaybatch="Weekday Evening"
         weekendbatch="Weekday  Evening"
         weekday="MON - FRI"
@@ -97,19 +103,19 @@ const SecondPart = ({
         interstedInHide={true}
         dataScience={true}
         titleCourse="Advanced Data Science and AI Program with domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program.pdf"
+        brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
+      
       />
 
       <MentorsSection />
       <SliderTab />
-      <PlacementCall/>
+      <PlacementCall  devops={devops}/>
 
-      <NewProjectSection
+      <DevOpsProject
+        titleCourse="Advanced Data Science and AI Program with domain specialization"
+        brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
         dataScience={true}
         interstedInHide={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
-        projectSection={projectSection}
       />
 
       <FAQNew FAQNewData={FAQNewData} />
