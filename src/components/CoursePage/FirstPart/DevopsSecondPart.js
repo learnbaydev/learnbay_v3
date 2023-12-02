@@ -102,7 +102,7 @@ const SecondPart = ({
         dataScienceCounselling={true}
         interstedInHide={true}
         dataScience={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
+        titleCourse="Advance Cloud Computing & DevOps Certification Program"
         brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
       
       />
@@ -112,7 +112,7 @@ const SecondPart = ({
       <PlacementCall  devops={devops}/>
 
       <DevOpsProject
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
+        titleCourse="Advance Cloud Computing & DevOps Certification Program"
         brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
         dataScience={true}
         interstedInHide={true}
