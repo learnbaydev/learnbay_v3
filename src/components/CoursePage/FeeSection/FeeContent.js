@@ -17,6 +17,7 @@ const FeeContent = ({
   weekend,
   weekdaybatch,
   weekendbatch,
+  devopfee ,
 }) => {
   const popupShow = () => {
     setPopups(true);
@@ -25,8 +26,8 @@ const FeeContent = ({
     <div className={styles.feesmain}>
       <h2>Fee & Batch Details</h2>
       <p className={styles.pTop}>
-        Invest in your future with affordable degree fees and flexible batch
-        options
+      Invest in your future with affordable program fees and flexible batch options
+
       </p>
 
       <div className={styles.ThreeCard}>
@@ -35,14 +36,32 @@ const FeeContent = ({
             <b>Scholarship Details</b>
           </p>
           <div className={styles.imgFee}>
+            {devopfee ? (
+
             <Image
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/devop-fee.webp"
+            height="221"
+            alt="data science course"
+           loading="lazy"
+            width="367"
+
+            quality={40}
+            />
+            ):(
+              
+              <Image
               src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/feeSection.webp"
               width="367"
               height="221"
               alt="data science course"
               loading="lazy"
               quality={40}
-            />
+            />    
+              
+              
+              
+             )}
+            
           </div>
           <p style={{ marginTop: "10px" }}>
             Scholarships are awarded based on profile review. Eligible

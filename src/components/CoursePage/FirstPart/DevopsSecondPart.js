@@ -1,16 +1,17 @@
-import React, { useEffect, useState } from "react";
+import React, { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
 import Footer from "@/components/Global/Footer/Footer";
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-const SeventhSection = dynamic(() =>
-  import("@/components/Global/SeventhSection/SeventhSection")
-);
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
+const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
+const Certificate = dynamic(() =>
+  import("../../../components/CoursePage/Certificate/Certificate")
+);
+const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
 const FeeSection = dynamic(() =>
   import("../../../components/CoursePage/FeeSection/FeeSection")
 );
-const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
 const MentorsSection = dynamic(() =>
   import("../../../components/Global/MentorsSection/MentorsSection")
 );
@@ -20,13 +21,23 @@ const SliderTab = dynamic(() =>
 const PlacementCall = dynamic(() =>
   import("../../../components/Global/PlacementCall/PlacementCall")
 );
+const DevOpsProject = dynamic(() =>
+  import("../DevOps/DevOpsProject/DevOpsProject")
+);
+
 const FAQNew = dynamic(() =>
   import("../../../components/CoursePage/FAQNew/FAQNew")
 );
 
-const FullStackSoftwareDevelopmentSecondPart = ({
+const SecondPart = ({
   masterSyllabusMobile,
+  CertificateData,
+  projectSection,
+  mbldevops,
   FAQNewData,
+  devops,
+  devopfee ,
+  
 }) => {
   const [popupData, setPopupData] = useState([]);
   // console.log(popupData);
@@ -47,7 +58,7 @@ const FullStackSoftwareDevelopmentSecondPart = ({
           // console.log(data);
           data.page.map((popupData, i) => {
             // console.log(popData);
-            if (popupData === "Full Stack Developer course") {
+            if (popupData === "Adv Data Science and AI") {
               setPopupData(data);
               // console.log(popupData);
               return;
@@ -64,38 +75,50 @@ const FullStackSoftwareDevelopmentSecondPart = ({
         masterSyllabusMobile={masterSyllabusMobile}
         dataScienceCounselling={true}
         dataScience={true}
-        titleCourse="Software Development Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
-        buttonHide={true}
         interstedInHide={true}
+        titleCourse="Advance Cloud Computing & DevOps Certification Program"
+        brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
+        buttonHide={true}
       />
-      {/* <Certificate data={FSSPDataScienceCourseData[0].Certificate} /> */}
+      <ToolsCovered  devops={true} 
+      mbldevops={mbldevops} />
+      <Certificate data={CertificateData} />
       <FeeSection
-        Fee="₹ 1,15,000"
-        FeeEmi="₹ 7,538/month"
-        weekdaybatch="Weekday Evening (JAVA BATCHES)"
-        weekendbatch="Weekday Evening (DSA BATCHES)"
-        weekday="MON-WED-FRI"
-        weekend="MON-WED-FRI"
-        WeekdayDate="DEC 15th"
-        WeekendDate="DEC 22nd"
-        WeekendTime="08:00PM - 10:00PM"
-        WeekdayTime="08:00PM - 10:00PM"
+        devopfee ={devopfee }
+        Fee=" ₹ 1,35,000"
+        FeeEmi="₹ 8,850/month"
+        weekdaybatch="Weekday Evening"
+        weekendbatch="Weekday  Evening"
+        weekday="MON - FRI"
+        weekend="MON - FRI"
+        WeekdayDate="DEC 1st"
+        WeekendDate="DEC 15th"
+        WeekendTime="08:00 PM - 10:00 PM"
+        WeekdayTime="08:00 PM - 10:00 PM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
         FeeContent5="15 days refund policy"
         FeeContent6="No additional cost"
         dataScienceCounselling={true}
-        titleCourse="Software Development Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
+        interstedInHide={true}
+        dataScience={true}
+        titleCourse="Advance Cloud Computing & DevOps Certification Program"
+        brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
+      
+      />
+
+      <MentorsSection />
+      <SliderTab />
+      <PlacementCall  devops={devops}/>
+
+      <DevOpsProject
+        titleCourse="Advance Cloud Computing & DevOps Certification Program"
+        brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
         dataScience={true}
         interstedInHide={true}
       />
-      <MentorsSection />
-      <SliderTab />
-      <PlacementCall />
+
       <FAQNew FAQNewData={FAQNewData} />
-      <SeventhSection />
       <Footer />
       <BottomBar />
       <WhatsappFloat />
@@ -104,4 +127,4 @@ const FullStackSoftwareDevelopmentSecondPart = ({
   );
 };
 
-export default FullStackSoftwareDevelopmentSecondPart;
+export default SecondPart;

@@ -31,7 +31,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         titleCourse="Businesss Analytics Certification Program"
         cityParaCont="Elevate your tech career with our programs"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
-        FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/busihead1.webp"
+        FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BA-min.webp"
         firstToparaImg=""
         firstHeading="Businesss Analytics Certification Program"
         firstTopPara="Get real-world experience with capstone projects"
@@ -49,9 +49,9 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} />
       <WhoIsProgram
         first="Bachelor's degree with consistent good academic"
-        second="Minimum 1 year of IT/Non-IT work experience"
-        third="Early to mid-career professionals interested in data analytics"
-        forth="Developing skills in data analytics for future opportunities"
+        second="Minimum 6 Month of IT/Non-IT work experience"
+        third="Early to mid-career professionals interested in Business analytics"
+        forth="Developing skills in Business analytics for future opportunities"
       />
       <WhyLearnbay idss="ZPOTy4PEnNU" />
       <GetHire />

@@ -75,7 +75,7 @@ const NavbarContent = ({ adPage, setPopups }) => {
           />
         ) : (
           <Link href="/" className={styles.logo}>
-            <div className="imgWrapper">
+            <div className="imgWrapper ">
               <Image
                 src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
                 alt="Learnbay"

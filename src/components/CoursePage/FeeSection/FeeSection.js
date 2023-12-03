@@ -17,6 +17,7 @@ const FeeSection = ({
   weekdaybatch,
   weekendbatch,
   interstedInHide,
+  devopfee,
 }) => {
   const [popups, setPopups] = useState(false);
 
@@ -45,6 +46,7 @@ const FeeSection = ({
         weekdaybatch={weekdaybatch}
         weekendbatch={weekendbatch}
         setPopups={setPopups}
+        devopfee={devopfee}
       />
     </div>
   );
