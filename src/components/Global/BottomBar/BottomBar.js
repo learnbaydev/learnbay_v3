@@ -20,7 +20,11 @@ const BottomBar = ({ whatsappShow, masterdegree }) => {
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           {/* <p>Fill the below details to get started</p> */}
-          <Form popup={true} setTrigger={setPopups} />
+          <Form
+            popup={true}
+            setTrigger={setPopups}
+            dataScienceCounselling={true}
+          />
         </div>
       </Popup>
       <div className="FlDiv">

@@ -95,7 +95,7 @@ const Form = ({
       dataScienceCounselling,
       redirection
     );
-
+    console.log(pushPath);
     setError(getValidation(radio, interstedInHide, query));
     const validation = getValidation(radio, interstedInHide, query);
 
