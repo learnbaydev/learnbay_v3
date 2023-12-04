@@ -85,6 +85,12 @@
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 1281px) {
+
+  .BoxCont {
+    font-size: 13px;
+  }
+}
 
 @media (max-width: 641px) {
   .container {
