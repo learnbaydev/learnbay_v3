@@ -200,7 +200,7 @@ export const CloudAndDevOpsCourseData = [
         title: "Course Completion Certificate from IBM",
         para: [
           "Complete your training with the internationally recognized certificate.",
-          "Validate your Data Science and AI skills with IBM Course Completion Certificate.",
+          "Validate your Cloud Computing & DevOps skills with IBM Course Completion Certificate.",
           "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
         ],
       },
