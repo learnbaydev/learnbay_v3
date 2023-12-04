@@ -554,6 +554,25 @@ function FullStackSecondSection({ fullStackReview }) {
                     grabCursor={true}
                     modules={[Scrollbar]}
                     className="mySwiper"
+
+                    breakpoints={{
+                      1441: {
+                        slidesPerView: 3.1,
+                        spaceBetween: 85,
+                      },
+                    
+                    
+                      961: {
+                        slidesPerView: 2.1,
+                        spaceBetween: 40,
+                      },
+                      641: {
+                        slidesPerView: 1,
+                        spaceBetween: 30,
+                      },
+                      
+                    
+                    }}
                   >
                     <SwiperSlide className={styles.slide}>
                       <div className={styles.mainSlider}>
