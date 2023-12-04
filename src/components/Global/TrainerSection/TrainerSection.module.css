@@ -45,6 +45,15 @@
 .mobileView{
   display: none;
 }
+
+@media (max-width: 1281px) {
+  .First{
+
+  padding: 10px 20px;
+  }
+
+}
+
 @media (max-width: 641px) {
  
   .container {

@@ -44,7 +44,7 @@ function SecondNavbar({
     const handleScroll = () => {
       const scrollY = window.scrollY || window.pageYOffset;
 
-      if (scrollY >= 830) {
+      if (scrollY >= 1000) {
         setShowApplyButton(true);
       } else {
         setShowApplyButton(false);
@@ -130,6 +130,7 @@ function SecondNavbar({
             {/* )} */}
           </div>
         </Popup>
+
         <Link
           href="/"
           className={

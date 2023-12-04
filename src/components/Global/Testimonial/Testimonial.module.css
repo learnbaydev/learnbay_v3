@@ -132,6 +132,12 @@
     height: 405px;
     /* margin-top: 56px; */
   }
+.Testimonial{
+  padding: 10px 20px;
+}
+.mainSlider {
+  height: 241px;
+}
   .proImgWrap {
     right: 29px !important;
     top: -22px !important;

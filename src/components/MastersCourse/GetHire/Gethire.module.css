@@ -188,3 +188,16 @@
     align-items: center;
   }
 }
+@media screen and (max-width: 641px) {
+.GetHireHead{
+display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+}
+.GetHireMain {
+  padding: 0px;
+}
+}

@@ -133,6 +133,21 @@
   margin-top: 50px;
 }
 
+@media (max-width: 641px) {
+.DivContent {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+  padding: 10px 20px;
+}
+
+
+
+}
+
 @media (max-width: 481px) {
   .BtnDiv {
     flex-flow: column;

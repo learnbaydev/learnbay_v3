@@ -488,7 +488,7 @@ export const CloudAndDevOpsCourseData = [
           },
           {
             Module0: {
-              title: "TERM 4:-Google Cloud Platform ",
+              title: "TERM 5:-Google Cloud Platform ",
               content: [
                 {
                   chap: {
@@ -548,7 +548,7 @@ export const CloudAndDevOpsCourseData = [
 
           {
             Module0: {
-              title: "TERM 5 :- DevOps Expertise",
+              title: "TERM 6 :- DevOps Expertise",
               content: [
                 {
                   chap: {
@@ -584,7 +584,7 @@ export const CloudAndDevOpsCourseData = [
           },
           {
             Module0: {
-              title: "TERM 6 :- Splunk Development and Admin ",
+              title: "TERM 7 :- Splunk Development and Admin ",
               content: [
                 {
                   chap: {
@@ -598,21 +598,7 @@ export const CloudAndDevOpsCourseData = [
                     ],
                   },
                 },
-                {
-                  chap: {
-                    title: "Module 2 :- Mastering DevOps",
-                    desc: [
-                      "Configuration Management                ",
-                      "Continuous Integration and Continuous Delivery (CI/CD) ",
-                      "Container Orchestration with Kubernetes ",
-                      "Monitoring and Logging with ELK Stack",
-                      "Infrastructure as Code (IaC) with Terraform ",
-                      "Career Enhancement in DevOps",
-                    
-                
-                    ],
-                  },
-                },
+            
       
                
               ],

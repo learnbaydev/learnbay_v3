@@ -204,4 +204,12 @@
     width: 340px;
     height: 40px;
   }
+ 
+}
+@media (min-width:641px) {
+  .PlacementCallMain {
+    overflow: hidden;
+  }
+  
+  
 }
