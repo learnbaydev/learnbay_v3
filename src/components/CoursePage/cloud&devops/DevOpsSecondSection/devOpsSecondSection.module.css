@@ -215,6 +215,15 @@ margin-bottom: 10px;
 }
 
 }
+@media only screen and (min-width: 1280px){
+.box1img img {
+  width: 300px;
+}
+.gamimg img {
+  width:  300px;
+}
+  
+}
 
   /* Define unique colors for each box */
  
