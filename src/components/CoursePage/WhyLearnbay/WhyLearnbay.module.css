@@ -246,6 +246,18 @@
 .RightSideCert img {
   width: auto;
 }
+@media (max-width: 1281px) {
+
+.container{
+  padding: 0px 30px;
+}
+.RightSide {
+  margin-right:  30px;
+}
+
+}
+
+
 @media (max-width: 641px) {
 
   .firstBox {

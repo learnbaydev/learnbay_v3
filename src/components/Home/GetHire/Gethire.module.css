@@ -104,6 +104,14 @@
   display: none;
 }
 
+@media only screen and (max-width: 1281px) {
+  .GetHireMain  {
+    padding: 0px 30px;
+  }
+
+
+}
+
 @media only screen and (max-width: 600px) {
   .GetHireMain {
     padding: 0px;
