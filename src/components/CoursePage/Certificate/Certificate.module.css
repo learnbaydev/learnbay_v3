@@ -126,8 +126,13 @@
     padding: 20px;
   }
   .MicroCert {
-    padding: 30px 0px;
+    padding: 50px 40px 50px 100px;
   }
+
+  .leftSide h6,
+.rightSide h6 {
+  font-size: 24px;
+}
 }
 @media (max-width: 1025px) {
   .leftSideP {

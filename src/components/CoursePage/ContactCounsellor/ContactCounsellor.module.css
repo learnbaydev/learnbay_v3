@@ -100,6 +100,12 @@
   /* margin-bottom: -20px; */
 }
 
+@media (max-width: 1281px){
+  .conbtn button {
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 641px) {
   .consmain {
     display: flex;
