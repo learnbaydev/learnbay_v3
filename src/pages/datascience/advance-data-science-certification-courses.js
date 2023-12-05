@@ -12,16 +12,16 @@ function Blockchain({ DataScienceCourseDataJson }) {
     <>
       <Head>
         <title>
-          Artificial Intelligence and Data Science Course - Learnbay
+        Advance Data Science & AI Program with Domain Specialization - Learnbay
         </title>
         <meta
           name="description"
-          content="Upskill yourself with cutting edge Artificial Intelligence and Data Science Skills, Techniques by enrolling into the Learnbay's Advanced Data Science Course."
+          content="Our Advance Data Science and AI Course brings you a wide knowledge of Data Science and AI and helps you to make precise data-driven decisions.          "
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="Advanced Data Science and AI Program with domain specialization"
+          content="data science and ai course, advanced data science course, data science and ai, ai and data science course, artificial intelligence and data science course, advanced certification in data science and ai"
         />
         <link
           rel="icon"

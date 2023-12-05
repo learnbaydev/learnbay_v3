@@ -556,15 +556,24 @@ function FullStackSecondSection({ fullStackReview }) {
                     className="mySwiper"
 
                     breakpoints={{
-                      1441: {
+                      1400: {
                         slidesPerView: 3.1,
+                        spaceBetween: 40,
+                      },
+
+                      1281 : {
+                        slidesPerView: 3.1,
+                        spaceBetween: 20,
+                      },
+                      1024 : {
+                        slidesPerView: 2.1,
                         spaceBetween: 85,
                       },
                     
                     
                       961: {
-                        slidesPerView: 2.1,
-                        spaceBetween: 40,
+                        slidesPerView: 3,
+                        spaceBetween: 30,
                       },
                       641: {
                         slidesPerView: 1,

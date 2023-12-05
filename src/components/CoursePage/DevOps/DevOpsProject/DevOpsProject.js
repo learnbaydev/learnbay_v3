@@ -65,9 +65,15 @@ const DevOpsProject = ({ titleCourse,
           spaceBetween={30}
           slidesPerView={1} // This will show 4 cards on desktop
           breakpoints={{
-            1280: {
+            1400: {
               slidesPerView: 4,
-              spaceBetween: 30,
+              spaceBetween: 80,
+            },
+
+
+            1280: {
+              slidesPerView: 3.3,
+              spaceBetween: 90,
             },
             1024: {
               slidesPerView: 2.8,

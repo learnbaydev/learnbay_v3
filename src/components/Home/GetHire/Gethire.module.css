@@ -111,6 +111,23 @@
 
 
 }
+@media only screen and (max-width: 1024px) {
+.showDesktop {
+  width: 320px;
+  height: auto;
+}
+/* .minibullet {
+  display: grid;
+    grid-template-columns: 60% 60%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+} */
+
+
+}
+
+
 
 @media only screen and (max-width: 600px) {
   .GetHireMain {

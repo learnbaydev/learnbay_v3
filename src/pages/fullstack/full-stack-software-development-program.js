@@ -14,15 +14,15 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>Full-Stack Software Development Program - Learnbay</title>
+        <title>Software Development Certification Program - Learnbay</title>
         <meta
           name="description"
-          content="Upskill yourself with cutting edge Artificial Intelligence and Data Science Skills, Techniques by enrolling into the Learnbay's Advanced Data Science Course."
+          content="Elevate your tech skills through our Software development Certification Program and switch from service-based to product-based companies. Earn globally recoganized IBM and Microsoft Certifications.          "
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="Software Development Certification Program"
+          content="software development course, software development program, software engineering course, software engineer certification, software developer certifications, software developer training, software engineer online course          "
         />
         <link
           rel="icon"

@@ -218,12 +218,41 @@ margin-bottom: 10px;
 @media only screen and (min-width: 1280px){
 .box1img img {
   width: 300px;
+  height: auto;
 }
 .gamimg img {
   width:  300px;
+  height: auto;
 }
   
 }
+@media only screen and (max-width: 1024px){
+  .box1 {
+    display: block;
+  }
+  .box1img img {
+    width: 230px;
+    height: auto;
+  }
+  .gamimg img {
+    width:  230px;
+    height: auto;
+  }
+    
+  }
+
+  @media only screen and (max-width: 961px){
+  
+    .box1img img {
+      width: 220px;
+      height: auto;
+    }
+    .gamimg img {
+      width:  200px;
+      height: auto;
+    }
+      
+    }
 
   /* Define unique colors for each box */
  
