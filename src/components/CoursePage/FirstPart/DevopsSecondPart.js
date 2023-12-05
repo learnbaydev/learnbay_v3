@@ -85,8 +85,8 @@ const SecondPart = ({
       <Certificate data={CertificateData} />
       <FeeSection
         devopfee ={devopfee }
-        Fee=" ₹ 1,35,000"
-        FeeEmi="₹ 8,850/month"
+        Fee=" ₹ 1,10,000"
+        FeeEmi="₹ 7,211/month"
         weekdaybatch="Weekday Evening"
         weekendbatch="Weekday  Evening"
         weekday="MON - FRI"
