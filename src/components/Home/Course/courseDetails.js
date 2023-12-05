@@ -26,24 +26,25 @@ export const courseDetails = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
           },
           {
-            id: 5,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-5.webp",
-            title: "Software Developer",
-            title1: "Certification",
+            id: 4,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/card-cd.webp",
+            title: "Cloud and DevOps Certification ",
+            title1: "Program",
             tagHead: "Guaranteed Interview Call",
             tag: "Data science",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
-            titleCourse: "Software Developer Certification",
+              "https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf",
+            titleCourse: "Advance Cloud Computing & DevOps Certification Program",
             para: [
-              "11 months | 4 projects",
-              "Crack interview in top MNCs",
-              "3+ Domain Specialization",
+              "10 months | 3 Projects",
+              "Global Certification",
+              "Designed by industry experts",,
             ],
-            link1: "/fullstack/full-stack-software-development-program",
+            link1: "/cloud&devops/cloud-computing-and-devOps-certification-program",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
+              "https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf",
           },
+         
           {
             id: 2,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-2.webp",
@@ -101,26 +102,27 @@ export const courseDetails = [
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
           },
-
           {
-            id: 4,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/card-cd.webp",
-            title: "Cloud and DevOps Certification ",
-            title1: "Program",
+            id: 5,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-5.webp",
+            title: "Software Developer",
+            title1: "Certification",
             tagHead: "Guaranteed Interview Call",
             tag: "Data science",
             brochureLinks:
-              "https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf",
-            titleCourse: "Advance Cloud Computing & DevOps Certification Program",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
+            titleCourse: "Software Developer Certification",
             para: [
-              "10 months | 3 Projects",
-              "Global Certification",
-              "Designed by industry experts",,
+              "11 months | 4 projects",
+              "Crack interview in top MNCs",
+              "3+ Domain Specialization",
             ],
-            link1: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+            link1: "/fullstack/full-stack-software-development-program",
             link2:
-              "https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
           },
+
+         
         ],
       },
       {

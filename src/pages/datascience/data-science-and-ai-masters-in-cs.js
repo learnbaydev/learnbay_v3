@@ -13,15 +13,15 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
   return (
     <>
       <Head>
-        <title>Masters in Computer Science: Data Science and AI</title>
+        <title>Master's in Computer Science: Data Science and AI - Learnbay</title>
         <meta
           name="description"
-          content="Upskill yourself with cutting edge Masters in Computer Science: Data Science and AI Skills, Techniques by enrolling into the Learnbay's Advanced Data Science Course."
+          content="Upskill yourself with cutting edge Masters degree in Data Science and AI, earn global recognition from a Master's degree certification from WOOLF university.          "
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="Masters in Computer Science: Data Science and AI"
+          content="masters in data science and ai, masters in data science, data science masters programs, best data science masters programs, data science master degree          "
         />
         <link
           rel="icon"

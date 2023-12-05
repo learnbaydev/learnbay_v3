@@ -14,7 +14,7 @@ const TrainerSection = dynamic(() =>
   import("../../../components/Global/TrainerSection/TrainerSection")
 );
 const Testimonial = dynamic(() =>
-  import("../../../components/Global/Testimonial/Testimonial")
+  import("../../../components/CoursePage/cloud&devops/CloudDevopstestimonial/Clouddevoptestimonials")
 );
 const WhoIsProgram = dynamic(() =>
   import("../../CoursePage/WhoIsProgram/WhoIsProgram")

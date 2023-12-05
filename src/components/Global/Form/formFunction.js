@@ -187,6 +187,7 @@ const getFormFields = (radio, google, referrals, interstedInHide) => {
       required: interstedInHide, // Conditionally required
       showField: interstedInHide, // Conditionally render the field
     },
+    
     {
       name: "platform",
       label: "Course Preference",
@@ -198,8 +199,12 @@ const getFormFields = (radio, google, referrals, interstedInHide) => {
           label: "Data Science & AI Courses",
         },
         {
-          value: "Software (DSA & System Design)",
-          label: "Software (DSA & System Design)",
+          value: "Cloud Computing & DevOps ",
+          label: "Cloud Computing & DevOps ",
+        },
+        {
+          value: "Master in CS: Data Science and AI",
+          label: "Master in CS: Data Science and AI",
         },
       ],
       required: radio, // Conditionally required

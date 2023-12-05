@@ -67,15 +67,15 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>Business Analytics Certification Program - Learnbay</title>
+        <title>Businesss Analytics Certification Program - Learnbay</title>
         <meta
           name="description"
-          content="Upskill yourself with cutting edge Business Analytics and Data Science Skills, Techniques by enrolling into the Learnbay's Business Analaytics Course."
+          content="Upskill yourself with cutting edge Business Analytics Skills and Techniques by enrolling into the Learnbay's Business Analaytics certification Course.          "
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="Business Analytics and AI Program with domain specialization"
+          content="business analytics course, business analytics certification course, business analytics certification, business analyst training, hr analytics course, business analyst course online, marketing analytics course, business analyst certification course, best business analyst course, best business analyst certification          "
         />
         <link
           rel="icon"

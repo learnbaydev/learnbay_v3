@@ -65,7 +65,7 @@ export default function Home() {
       </div>
       <Course
         dataScience={true}
-        radio={true}
+        radio={false}
         organicADS={true}
         newDesign={true}
         dataScienceGeneric={true}
