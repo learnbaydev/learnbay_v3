@@ -11,7 +11,7 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 const Popup = dynamic(() => import("@/components/Global/Popup/Popup"));
 const Form = dynamic(() => import("@/components/Global/Form/Form"));
-import { courseDetails } from "./courseDetails";
+import { courseDetails, courseDetailsM } from "./courseDetails";
 import { BsCheckLg, BsFire } from "react-icons/bs";
 import { BiTimeFive } from "react-icons/bi";
 
@@ -23,6 +23,7 @@ const Course = ({
   dataScienceGeneric,
   interstedInHide,
 }) => {
+  const [courseArray, setCourseArray] = useState(courseDetails);
   const [mobile, setMobile] = useState(false);
   const [value, setValue] = useState(3.68);
   const [popups, setPopups] = useState(false);
@@ -55,8 +56,17 @@ const Course = ({
   useEffect(() => {
     let width = window.innerWidth;
     if (width < 481) {
+      setCourseArray(courseDetailsM);
+      console.log("inside", courseDetailsM);
+    }
+  }, [courseArray]);
+  useEffect(() => {
+    let width = window.innerWidth;
+    if (width < 481) {
       setValue(1.4);
       setMobile(true);
+      setCourseArray(courseDetailsM);
+      console.log("inside", courseDetailsM);
     }
     if (width < 600) {
       setValue(1);
@@ -110,7 +120,7 @@ const Course = ({
 
       <div className={styles.courses}>
         <div className={styles.listPanel}>
-          {courseDetails.map((CourseData, index) => {
+          {courseArray.map((CourseData, index) => {
             return (
               <span
                 key={index}
@@ -121,18 +131,13 @@ const Course = ({
                   CourseLoop[index].value ? styles.ActiveSpan : styles.span
                 }
               >
-                {CourseData.title === "Master's Degree Program" ? (
-                  <BsFire style={{ color: "red", marginRight: "5px" }} />
-                ) : (
-                  ""
-                )}
                 {CourseData.title}
               </span>
             );
           })}
         </div>
         <div>
-          {courseDetails.map((courseDetail, index) => {
+          {courseArray.map((courseDetail, index) => {
             const { courses } = courseDetail;
             return CourseLoop[index].value ? (
               <div key={index}>
