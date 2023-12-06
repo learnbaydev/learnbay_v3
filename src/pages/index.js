@@ -154,7 +154,7 @@ export default function Home() {
         interstedInHide={true}
       />
       <HomeLine />
-      <Course dataScience={true} radio={false} interstedInHide={true} />
+      <Course dataScience={true} radio={true} interstedInHide={true} />
       <WhyLearnbay ids="bfl64ANfSV0" />
       <ProjectSection ids="bfl64ANfSV0" />
       <GetHire />
