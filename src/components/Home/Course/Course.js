@@ -179,40 +179,8 @@ const Course = ({
                                   className={styles.leftSide}
                                   key={index}
                                 >
-                                  <div
-                                    key={id}
-                                    className={
-                                      newDesignOrange
-                                        ? styles.newSliderWrapOrange
-                                        : newDesign
-                                        ? styles.newSliderWrap
-                                        : styles.SliderWrap
-                                    }
-                                  >
-                                    {newDesign ? (
-                                      <>
-                                        {" "}
-                                        <div
-                                          className={
-                                            newDesignOrange
-                                              ? styles.OrangeLeftBorder
-                                              : styles.leftBorder
-                                          }
-                                        ></div>
-                                        <div
-                                          className={
-                                            newDesignOrange
-                                              ? styles.OrangeRightBorder
-                                              : styles.rightBorder
-                                          }
-                                        ></div>
-                                      </>
-                                    ) : (
-                                      ""
-                                    )}
-                                    {newDesign ? (
-                                      ""
-                                    ) : organicADS ? (
+                                  <div key={id} className={styles.SliderWrap}>
+                                    {organicADS ? (
                                       <a
                                         onClick={() => {
                                           setTitleCourse(titleCourse);
@@ -251,60 +219,15 @@ const Course = ({
                                     )}
                                     <div
                                       className={styles.contButton}
-                                      style={
-                                        newDesign
-                                          ? { borderRadius: "20px" }
-                                          : {
-                                              borderRadius: "0px 0px 8px 8px",
-                                              width: "92%",
-                                              marginTop: "-12px",
-                                              zIndex: "0",
-                                              boxShadow:
-                                                "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px",
-                                            }
-                                      }
+                                      style={{
+                                        borderRadius: "0px 0px 8px 8px",
+
+                                        marginTop: "-12px",
+                                        zIndex: "0",
+                                        boxShadow:
+                                          "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px",
+                                      }}
                                     >
-                                      {newDesign ? (
-                                        organicADS ? (
-                                          <a
-                                            onClick={() => {
-                                              setTitleCourse(titleCourse);
-                                              setBrochureLinks(brochureLinks);
-                                              popupShow();
-                                            }}
-                                            className={styles.imgWrap}
-                                          >
-                                            <div className="bgWrap">
-                                              <Image
-                                                src={img}
-                                                fill={true}
-                                                quality={100}
-                                                loading="lazy"
-                                                style={{ objectFit: "cover" }}
-                                                alt="data science course"
-                                              />
-                                            </div>
-                                          </a>
-                                        ) : (
-                                          <a
-                                            href={link1}
-                                            className={styles.imgWrap}
-                                          >
-                                            <div className="bgWrap">
-                                              <Image
-                                                src={img}
-                                                fill={true}
-                                                quality={100}
-                                                loading="lazy"
-                                                style={{ objectFit: "cover" }}
-                                                alt="data science course"
-                                              />
-                                            </div>
-                                          </a>
-                                        )
-                                      ) : (
-                                        ""
-                                      )}
                                       <div className={styles.contentBox}>
                                         <div
                                           className={styles.headWrapper}
@@ -415,17 +338,9 @@ const Course = ({
                                                   ? styles.green
                                                   : styles.fillBtn
                                               }
-                                              style={
-                                                newDesign
-                                                  ? {
-                                                      borderRadius:
-                                                        "0 0 20px 0",
-                                                    }
-                                                  : {
-                                                      borderRadius:
-                                                        "0 0 8px 0px",
-                                                    }
-                                              }
+                                              style={{
+                                                borderRadius: "0 0 8px 0px",
+                                              }}
                                             >
                                               View Details
                                               <MdChecklist
@@ -444,17 +359,9 @@ const Course = ({
                                                   ? styles.green
                                                   : styles.fillBtn
                                               }
-                                              style={
-                                                newDesign
-                                                  ? {
-                                                      borderRadius:
-                                                        "0 0 20px 0",
-                                                    }
-                                                  : {
-                                                      borderRadius:
-                                                        "0 0 8px 0px",
-                                                    }
-                                              }
+                                              style={{
+                                                borderRadius: "0 0 8px 0px",
+                                              }}
                                             >
                                               View Details
                                               <MdChecklist

@@ -49,7 +49,7 @@ export const courseDetails = [
           },
           {
             id: 3,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/masters-1.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/masters-11.webp",
             title: "Master in CS:",
             title1: "Data Science and AI",
             tagHead: "Crack Job Interviews",
@@ -58,7 +58,11 @@ export const courseDetails = [
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters+in+CS+Data+Science+%26+AI.pdf",
             titleCourse: "Master in CS: Data Science and AI",
-            para: ["18 months | 3 Projects", "Globally recognized degree"],
+            para: [
+              "18 months | 3 Projects",
+              "Globally recognized degree",
+              "Designed by industry experts",
+            ],
             newDesign: true,
             link1: "datascience/data-science-and-ai-masters-in-cs",
             link2:
@@ -99,7 +103,11 @@ export const courseDetails = [
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Generative+AI+Certification+Course.pdf",
             titleCourse: "Advance Certification Program in generative AI",
-            para: ["26 Weeks | 2 Projects", "AI project-based learning"],
+            para: [
+              "26 Weeks | 2 Projects",
+              "AI project-based learning",
+              "Designed by industry experts",
+            ],
             newDesign: true,
             newDesignOrange: true,
             link1: "/",
@@ -286,7 +294,7 @@ export const courseDetails = [
   //       courseDetails: [
   //         {
   //           id: 1,
-  //           img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/masters-1.webp",
+  //           img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/masters-11.webp",
   //           title: "Master in CS:",
   //           title1: "Data Science and AI",
   //           tagHead: "Crack Job Interviews",
@@ -458,7 +466,7 @@ export const courseDetailsM = [
         courseDetails: [
           {
             id: 1,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/masters-1.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/masters-11.webp",
             title: "Master in CS:",
             title1: "Data Science and AI",
             tagHead: "Crack Job Interviews",
@@ -639,7 +647,7 @@ export const courseDetailsM = [
   //       courseDetails: [
   //         {
   //           id: 1,
-  //           img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/masters-1.webp",
+  //           img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/masters-11.webp",
   //           title: "Master in CS:",
   //           title1: "Data Science and AI",
   //           tagHead: "Crack Job Interviews",

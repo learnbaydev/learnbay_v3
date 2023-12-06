@@ -641,13 +641,14 @@
 }
 
 .contButton {
-  width: 96%;
+  width: 92%;
   margin-left: 15px;
   margin-top: -0px;
   z-index: 1;
   background-color: white;
   border-radius: 20px;
   background: #fff;
+  margin-bottom: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
@@ -694,7 +695,7 @@
   margin-top: 30px;
 }
 .listPanel {
-  display:none;
+  display: none;
   width: fit-content;
   gap: 100px;
   margin-bottom: 50px;
@@ -1166,7 +1167,7 @@
     padding: 0px;
   }
   .imgWrap {
-    height: 155px;
+    height: 208px;
   }
   .hr {
     top: 37.8%;
@@ -1257,5 +1258,9 @@
   }
   .imgWrapper {
     width: 300px !important;
+  }
+  .contButton {
+    width: 92%;
+    margin-left: 15px;
   }
 }
