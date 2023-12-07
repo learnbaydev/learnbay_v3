@@ -3,6 +3,7 @@ import styles from "./OfferPopup.module.css";
 // import Button from "../Global/Button/Button";
 
 const OfferPopup = ({ popupData }) => {
+  console.log(popupData);
   const [open, setOpen] = useState(false);
   // Use state to control audio playback
 
@@ -36,10 +37,10 @@ const OfferPopup = ({ popupData }) => {
         </p>
         <div className={styles.header}>
           <h6>{popupData.heading}</h6>
-          <span>For Our Upcoming Batches</span>
+          <span>{popupData.subHeading}</span>
         </div>
         <div className={styles.valid}>
-          <p>Valid Till 30th November</p>
+          <p>{popupData.validText}</p>
           <div className={styles.tag}>Filling Fast!</div>
         </div>
         <div className={styles.Offer}>

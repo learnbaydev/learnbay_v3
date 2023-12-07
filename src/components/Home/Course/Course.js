@@ -11,7 +11,7 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 const Popup = dynamic(() => import("@/components/Global/Popup/Popup"));
 const Form = dynamic(() => import("@/components/Global/Form/Form"));
-import { courseDetails } from "./courseDetails";
+import { courseDetails, courseDetailsM } from "./courseDetails";
 import { BsCheckLg, BsFire } from "react-icons/bs";
 import { BiTimeFive } from "react-icons/bi";
 
@@ -23,6 +23,7 @@ const Course = ({
   dataScienceGeneric,
   interstedInHide,
 }) => {
+  const [courseArray, setCourseArray] = useState(courseDetails);
   const [mobile, setMobile] = useState(false);
   const [value, setValue] = useState(3.68);
   const [popups, setPopups] = useState(false);
@@ -55,8 +56,17 @@ const Course = ({
   useEffect(() => {
     let width = window.innerWidth;
     if (width < 481) {
+      setCourseArray(courseDetailsM);
+      console.log("inside", courseDetailsM);
+    }
+  }, [courseArray]);
+  useEffect(() => {
+    let width = window.innerWidth;
+    if (width < 481) {
       setValue(1.4);
       setMobile(true);
+      setCourseArray(courseDetailsM);
+      console.log("inside", courseDetailsM);
     }
     if (width < 600) {
       setValue(1);
@@ -110,7 +120,7 @@ const Course = ({
 
       <div className={styles.courses}>
         <div className={styles.listPanel}>
-          {courseDetails.map((CourseData, index) => {
+          {courseArray.map((CourseData, index) => {
             return (
               <span
                 key={index}
@@ -121,18 +131,13 @@ const Course = ({
                   CourseLoop[index].value ? styles.ActiveSpan : styles.span
                 }
               >
-                {CourseData.title === "Master's Degree Program" ? (
-                  <BsFire style={{ color: "red", marginRight: "5px" }} />
-                ) : (
-                  ""
-                )}
                 {CourseData.title}
               </span>
             );
           })}
         </div>
         <div>
-          {courseDetails.map((courseDetail, index) => {
+          {courseArray.map((courseDetail, index) => {
             const { courses } = courseDetail;
             return CourseLoop[index].value ? (
               <div key={index}>
@@ -174,40 +179,8 @@ const Course = ({
                                   className={styles.leftSide}
                                   key={index}
                                 >
-                                  <div
-                                    key={id}
-                                    className={
-                                      newDesignOrange
-                                        ? styles.newSliderWrapOrange
-                                        : newDesign
-                                        ? styles.newSliderWrap
-                                        : styles.SliderWrap
-                                    }
-                                  >
-                                    {newDesign ? (
-                                      <>
-                                        {" "}
-                                        <div
-                                          className={
-                                            newDesignOrange
-                                              ? styles.OrangeLeftBorder
-                                              : styles.leftBorder
-                                          }
-                                        ></div>
-                                        <div
-                                          className={
-                                            newDesignOrange
-                                              ? styles.OrangeRightBorder
-                                              : styles.rightBorder
-                                          }
-                                        ></div>
-                                      </>
-                                    ) : (
-                                      ""
-                                    )}
-                                    {newDesign ? (
-                                      ""
-                                    ) : organicADS ? (
+                                  <div key={id} className={styles.SliderWrap}>
+                                    {organicADS ? (
                                       <a
                                         onClick={() => {
                                           setTitleCourse(titleCourse);
@@ -246,60 +219,15 @@ const Course = ({
                                     )}
                                     <div
                                       className={styles.contButton}
-                                      style={
-                                        newDesign
-                                          ? { borderRadius: "20px" }
-                                          : {
-                                              borderRadius: "0px 0px 8px 8px",
-                                              width: "92%",
-                                              marginTop: "-12px",
-                                              zIndex: "0",
-                                              boxShadow:
-                                                "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px",
-                                            }
-                                      }
+                                      style={{
+                                        borderRadius: "0px 0px 8px 8px",
+
+                                        marginTop: "-12px",
+                                        zIndex: "0",
+                                        boxShadow:
+                                          "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px",
+                                      }}
                                     >
-                                      {newDesign ? (
-                                        organicADS ? (
-                                          <a
-                                            onClick={() => {
-                                              setTitleCourse(titleCourse);
-                                              setBrochureLinks(brochureLinks);
-                                              popupShow();
-                                            }}
-                                            className={styles.imgWrap}
-                                          >
-                                            <div className="bgWrap">
-                                              <Image
-                                                src={img}
-                                                fill={true}
-                                                quality={100}
-                                                loading="lazy"
-                                                style={{ objectFit: "cover" }}
-                                                alt="data science course"
-                                              />
-                                            </div>
-                                          </a>
-                                        ) : (
-                                          <a
-                                            href={link1}
-                                            className={styles.imgWrap}
-                                          >
-                                            <div className="bgWrap">
-                                              <Image
-                                                src={img}
-                                                fill={true}
-                                                quality={100}
-                                                loading="lazy"
-                                                style={{ objectFit: "cover" }}
-                                                alt="data science course"
-                                              />
-                                            </div>
-                                          </a>
-                                        )
-                                      ) : (
-                                        ""
-                                      )}
                                       <div className={styles.contentBox}>
                                         <div
                                           className={styles.headWrapper}
@@ -410,17 +338,9 @@ const Course = ({
                                                   ? styles.green
                                                   : styles.fillBtn
                                               }
-                                              style={
-                                                newDesign
-                                                  ? {
-                                                      borderRadius:
-                                                        "0 0 20px 0",
-                                                    }
-                                                  : {
-                                                      borderRadius:
-                                                        "0 0 8px 0px",
-                                                    }
-                                              }
+                                              style={{
+                                                borderRadius: "0 0 8px 0px",
+                                              }}
                                             >
                                               View Details
                                               <MdChecklist
@@ -439,17 +359,9 @@ const Course = ({
                                                   ? styles.green
                                                   : styles.fillBtn
                                               }
-                                              style={
-                                                newDesign
-                                                  ? {
-                                                      borderRadius:
-                                                        "0 0 20px 0",
-                                                    }
-                                                  : {
-                                                      borderRadius:
-                                                        "0 0 8px 0px",
-                                                    }
-                                              }
+                                              style={{
+                                                borderRadius: "0 0 8px 0px",
+                                              }}
                                             >
                                               View Details
                                               <MdChecklist
