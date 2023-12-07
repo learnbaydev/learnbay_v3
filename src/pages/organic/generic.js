@@ -32,7 +32,7 @@ export default function Home() {
         />
         <link
           rel="icon"
-          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Learnbay-Favicon-L.png"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
       </Head>
       <Navbar
@@ -65,7 +65,7 @@ export default function Home() {
       </div>
       <Course
         dataScience={true}
-        radio={false}
+        radio={true}
         organicADS={true}
         newDesign={true}
         dataScienceGeneric={true}

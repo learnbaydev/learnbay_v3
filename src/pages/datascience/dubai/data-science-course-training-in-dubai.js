@@ -127,7 +127,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/data-science-course-training-in-dubai"
+          href="https://www.learnbay.co/datascience/dubai/data-science-course-training-in-dubai"
         />
         <meta
           name="copyright"
@@ -135,7 +135,7 @@ export default function Home() {
         />
         <link
           rel="icon"
-          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Learnbay-Favicon-L.png"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
         <script
           type="application/ld+json"

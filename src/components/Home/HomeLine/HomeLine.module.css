@@ -42,5 +42,7 @@
 
   .containerMobile img {
     margin: 30px 20px 2px 20px;
+    width: 320px;
+    height: auto;
   }
 }

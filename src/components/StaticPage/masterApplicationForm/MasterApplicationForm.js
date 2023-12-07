@@ -79,7 +79,7 @@ const MasterApplicationForm = ({ secondForm, title }) => {
         <meta name="robots" content="index, follow" />
         <link
           rel="icon"
-          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Learnbay-Favicon-L.png"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
         <link rel="canonical" href="https://www.learnbay.co/submit-info" />
       </Head>

@@ -151,7 +151,7 @@ export default function Home() {
         />
         <link
           rel="icon"
-          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Learnbay-Favicon-L.png"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
         <script
           type="application/ld+json"
@@ -187,80 +187,53 @@ export default function Home() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: ` {
-              {
-                "@context": "http://schema.org",
-                "@type": "LocalBusiness",
-                "name": "Learnbay - Data Science Course Training In Bangalore",
-                "description": "Are you searching for the best data science courses online in Bangalore? Learnbay is providing the best online data science course training in Banglore.",
-                "url": "https://www.learnbay.co/datascience/bangalore/data-science-course-training-in-bangalore",
-                "image": "https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FlearnbayMain%2Flearnbay-logo.png&w=256&q=100",
-                "address": {
-                  "@type": "PostalAddress",
-                  "streetAddress": "1090 , 1st floor, 18th cross road HSR layout sector 3",
-                  "addressLocality": "Bangalore",
-                  "addressRegion": "Karnataka",
-                  "postalCode": "560102",
-                  "addressCountry": "India"
+              "@context": "http://schema.org",
+              "@type": "LocalBusiness",
+              "name": "Learnbay - Data Science Course Training In Bangalore",
+              "description": "Are you searching for the best data science courses online in Bangalore? Learnbay is providing the best online data science course training in Bangalore.",
+              "url": "https://www.learnbay.co/datascience/bangalore/data-science-course-training-in-bangalore",
+              "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "1090, 1st floor, 18th cross road HSR layout sector 3",
+                "addressLocality": "Bangalore",
+                "addressRegion": "Karnataka",
+                "postalCode": "560102",
+                "addressCountry": "IN"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 12.91198279090605,
+                "longitude": 77.64117409764793
+              },
+              "telephone": "(+91) 77956 87988",
+              "email": "contacts@learnbay.co",
+              "openingHoursSpecification": [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                  "opens": "10:00",
+                  "closes": "18:00"
                 },
-                "geo": {
-                  "@type": "GeoCoordinates",
-                  "latitude": 12.91198279090605,
-                  "longitude": 77.64117409764793
-                },
-                "telephone": "(+91) 77956 87988",
-                "email": "contacts@learnbay.co",
-                "openingHours": [
-                  {
-                    "dayOfWeek": "Monday",
-                    "opens": "10:00",
-                    "closes": "18:00"
-                  },
-                  {
-                    "dayOfWeek": "Tuesday",
-                    "opens": "10:00",
-                    "closes": "18:00"
-                  },
-                  {
-                    "dayOfWeek": "Wednesday",
-                    "opens": "10:00",
-                    "closes": "18:00"
-                  },
-                  {
-                    "dayOfWeek": "Thursday",
-                    "opens": "10:00",
-                    "closes": "18:00"
-                  },
-                  {
-                    "dayOfWeek": "Friday",
-                    "opens": "10:00",
-                    "closes": "18:00"
-                  },
-                  {
-                    "dayOfWeek": "Saturday",
-                    "opens": "10:00",
-                    "closes": "15:00"
-                  }
-                ],
-                "priceRange": "₹ 1,25,000 + 18% GST",
-                "servesCuisine": "Data Science Education",
-                "areaServed": "Bangalore",
-                "paymentAccepted": "Cash, Credit Card, Debit Card, EMI",
-                "aggregateRating": {
-                  "@type": "AggregateRating",
-                  "ratingValue": "4.9",
-                  "bestRating": "5",
-                  "worstRating": "1",
-                  "ratingCount": "12693"
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": ["Saturday"],
+                  "opens": "10:00",
+                  "closes": "15:00"
                 }
-                },
-                "sameAs": [
-                    "https://www.facebook.com/learnbay/",
-                              "https://twitter.com/Learbay",
-                              "https://www.instagram.com/learnbayofficial/",
-                              "https://www.youtube.com/channel/UC-ntE_GnjjiUuKYqih9ENYA",
-                              "https://www.linkedin.com/company/learnbay/"
-                ]
+              ],
+              "priceRange": "₹ 1,25,000 + 18% GST",
+              "servesCuisine": "Data Science Education",
+              "areaServed": "Bangalore",
+              "paymentAccepted": "Cash, Credit Card, Debit Card, EMI",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "bestRating": "5",
+                "worstRating": "1",
+                "ratingCount": "12693"
               }
+             
               
 } `,
           }}

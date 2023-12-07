@@ -26,44 +26,50 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
         <link
           rel="icon"
-          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Learnbay-Favicon-L.png"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
         <link
           rel="canonical"
           href="https://www.learnbay.co/fullstack/full-stack-software-development-program"
         />
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: ` {
-              {
-                "@context": "http://schema.org",
-                "@type": "Course",
-                "name": "Software Development Certification Program",
-                "description": "Upskill and switch from service-based to product-based companies with our Software development Certification Program.",
-                "url": "https://www.learnbay.co/fullstack/full-stack-software-development-program",
-                 "provider": {
-                      "@type": "Organization",
-                      "name": "Learnbay",
-                      "Url": "https://www.learnbay.co/"
-                    },
-                "coursePrerequisites": "Nothing but basic coding knowledge is required to start with this course.", 
-                "hasCourseInstance": [
-                  {
-                    "@type": "CourseInstance",
-                    "courseMode": "Online, In-Person",
-                    "courseFee": {
-                      "@type": "PriceSpecification",
-                      "price": "₹ 1,15,000 + 18% GST",
-                      "priceCurrency": "INR"
-                    }
-                  }
-                ]
-              }
-} `,
-          }}
-        />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: `{
+      "@context": "http://schema.org",
+      "@type": "Course",
+      "name": "Software Development Certification Program",
+      "description": "Elevate your tech skills through our Software Development Certification Program and switch from service-based to product-based companies. Earn globally recognized IBM and Microsoft Certifications.",
+      "url": "https://www.learnbay.co/fullstack/full-stack-software-development-program",
+      "offers": {
+        "@type": "Offer",
+        "price": 115000,
+        "priceCurrency": "INR",
+        "category": "Educational"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Learnbay",
+        "url": "https://www.learnbay.co/"
+      },
+      "coursePrerequisites": "Nothing but basic coding knowledge is required to start with this course.",
+      "hasCourseInstance": [
+        {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "courseWorkload": "P10W",
+          "courseFee": {
+            "@type": "PriceSpecification",
+            "price": "₹ 1,15,000 + 18% GST",
+            "priceCurrency": "INR"
+          }
+        }
+      ]
+    }`
+  }}
+/>
+
       </Head>
       <main>
         <FullStackSoftwareDevelopmentFirstPart
