@@ -39,7 +39,7 @@ const FeeContent = ({
             {devopfee ? (
 
             <Image
-            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/devop-fee.webp"
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/fees-cd.webp"
             height="221"
             alt="data science course"
            loading="lazy"

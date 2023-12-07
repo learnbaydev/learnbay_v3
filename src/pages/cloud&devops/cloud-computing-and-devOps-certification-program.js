@@ -25,12 +25,49 @@ function Blockchain({ CloudAndDevOpsCourseDataJson }) {
         />
         <link
           rel="icon"
-          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Learnbay-Favicon-L.png"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/advance-data-science-certification-courses"
+          href="https://www.learnbay.co/cloud&devops/cloud-computing-and-devOps-certification-program"
         />
+
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: `{
+      "@context": "http://schema.org",
+      "@type": "Course",
+      "name": "Advance Cloud Computing & DevOps Certification Program",
+      "description": "Elevate your career with an advanced Cloud Computing and DevOps certification program, and explore the latest techniques in AWS, Google Cloud Platform, and AZURE.",
+      "url": "https://www.learnbay.co/cloud&devops/cloud-computing-and-devOps-certification-program",
+      "offers": {
+       "@type": "offer",
+        "price": "110000",
+        "pricecurrency": "INR",
+        "category": "Educational"
+      },
+       "provider": {
+            "@type": "Organization",
+            "name": "Learnbay",
+            "Url": "https://www.learnbay.co/"
+          },
+      "coursePrerequisites": "There are no prerequisites for Advance Cloud Computing and Devops Certification Program, as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+      "hasCourseInstance": [
+        {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "courseWorkload": "P10W",
+          "courseFee": {
+            "@type": "PriceSpecification",
+            "price": "₹ 1,10,000 + 18% GST",
+            "priceCurrency": "INR"
+          }
+        }
+      ]
+    }`
+  }}
+/>
       </Head>
       <main>
         <Navbar dataScienceCounselling={true} interstedInHide={true} />

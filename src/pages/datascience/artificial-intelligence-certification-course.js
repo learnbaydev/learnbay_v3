@@ -68,7 +68,8 @@ function Blockchain({ DataScienceCourseDataJson }) {
     <>
       <Head>
         <title>
-        Advance AI & ML Certification Program for Tech Professionals - Learnbay
+          Advance AI & ML Certification Program for Tech Professionals -
+          Learnbay
         </title>
         <meta
           name="description"
@@ -81,11 +82,48 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
         <link
           rel="icon"
-          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Learnbay-Favicon-L.png"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
         <link
           rel="canonical"
           href="https://www.learnbay.co/datascience/artificial-intelligence-certification-course"
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
+              "@context": "http://schema.org",
+              "@type": "Course",
+              "name": "Advance Artificial Intelligence and ML Program",
+              "description": "Enroll in our AI and ML Course. It provides you with a wide knowledge of AI and ML tools and techniques and helps you land your dream job.",
+              "url": "https://www.learnbay.co/datascience/artificial-intelligence-certification-course",
+              "offers": {
+               "@type": "offer",
+                "price": "110000",
+                "pricecurrency": "INR",
+                "category": "Educational"
+              },
+               "provider": {
+                    "@type": "Organization",
+                    "name": "Learnbay",
+                    "Url": "https://www.learnbay.co/"
+                  },
+              "coursePrerequisites": "Basic programming & mathematics knowledge is enough. For strengthening your programming skills we provide special programming classes. We teach required statistics from a very basic.",
+              "hasCourseInstance": [
+                {
+                  "@type": "CourseInstance",
+                  "courseMode": "Online",
+                  "courseWorkload": "P10W",
+                  "courseFee": {
+                    "@type": "PriceSpecification",
+                    "price": "₹ 1,10,000 + 18% GST",
+                    "priceCurrency": "INR"
+                  }
+                }
+              ]
+    }`,
+          }}
         />
       </Head>
       <main>
