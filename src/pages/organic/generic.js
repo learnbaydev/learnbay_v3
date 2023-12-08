@@ -7,18 +7,15 @@ import Footer from "../../components/Global/Footer/Footer";
 import WhatsappFloat from "../../components/Global/WhatappsFloat/WhatsappFloat";
 import Switch from "../../components/OrganicGeneric/switch/switch";
 import HomeLine from "../../components//Home/HomeLine/HomeLine";
-import Testimonial  from "../../components/OrganicGeneric/TestimonialOrganic/Testimonial"
+import Testimonial from "../../components/OrganicGeneric/TestimonialOrganic/Testimonial";
 const SeventhSection = dynamic(() =>
   import("../../components/Global/SeventhSection/SeventhSection")
 );
 const Course = dynamic(() => import("../../components/Home/Course/Course"));
 import ContactUs from "../../components/Home/ContactUs/ContactUs";
 import BoxShape from "../../components/OrganicGeneric/BoxShape/BoxShape";
-<<<<<<< HEAD
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
-=======
 import ProjectSection from "../../components/OrganicGeneric/ProjectSection/ProjectSection";
->>>>>>> d7b9885c02fb80542739c6f285d8886efbbc6bc2
 
 export default function Home() {
   const testimonial = [
@@ -138,27 +135,28 @@ export default function Home() {
         dataScienceGeneric={true}
       />
       <Switch organicADS={true} />
-      <ProjectSection  
-      nolinkO={false}
-      organic={true}
-      linkomb={false}
-      popup={true}
+      <ProjectSection
+        nolinkO={false}
+        organic={true}
+        linkomb={false}
+        popup={true}
         dataScienceGeneric={true}
         dataScienceCounselling={true}
         radio={true}
-    
-        />
-      
+      />
+
       <Testimonial redirectDS={true} heading="" Testimonial={testimonial} />
       {/* <ContactUs popup={true} dataScienceGeneric={true} radio={true} /> */}
       <SeventhSection whatsappShow={true} />
-      <Footer organicADSS={true} 
-      adPage={true} 
-      adPageCity={true} 
-      iconnolink={false} 
-      faqhead={false} 
-      courseGn={false} 
-      Ocourses={false}/>
+      <Footer
+        organicADSS={true}
+        adPage={true}
+        adPageCity={true}
+        iconnolink={false}
+        faqhead={false}
+        courseGn={false}
+        Ocourses={false}
+      />
       <WhatsappFloat chat360code1={true} />
       <BottomBar dataScienceGeneric={true} />
     </div>
