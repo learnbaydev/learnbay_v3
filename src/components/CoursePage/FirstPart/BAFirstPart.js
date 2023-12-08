@@ -28,12 +28,12 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         interstedInHide={true}
         dataScience={true}
         ThirdTyped="Live Interactive Classes"
-        titleCourse="Businesss Analytics Certification Program"
+        titleCourse="Business Analytics Certification Program"
         cityParaCont="Elevate your tech career with our programs"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BA-min.webp"
         firstToparaImg=""
-        firstHeading="Businesss Analytics Certification Program"
+        firstHeading="Business Analytics Certification Program"
         firstTopPara="Get real-world experience with capstone projects"
         idss="CHut_wm-P2s"
       />

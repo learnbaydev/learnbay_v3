@@ -96,7 +96,7 @@ const FirstSection = ({
           </h1>
           <div className={styles.IBMlogoPlay}>
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Home-Page-Header.png"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/newHeaderOne.webp"
               width="580"
               height="450"
               layout="intrinsic"
@@ -142,7 +142,7 @@ const FirstSection = ({
         <div className={styles.secondLeft}>
           <div className={styles.PlayImg}>
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Home-Page-Header.png"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/newHeaderOne.webp"
               width="580"
               height="450"
               layout="intrinsic"

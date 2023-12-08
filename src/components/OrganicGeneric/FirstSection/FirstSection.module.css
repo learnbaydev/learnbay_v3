@@ -6,12 +6,15 @@
   display: grid;
   grid-template-columns: 53% 43%;
   gap: 50px;
+  background: linear-gradient(180deg, #232323 16.69%, #012f4e 99.97%);
+
 }
 
 .animationTextWrap {
   font-size: 22px;
   height: 24px;
   font-weight: 600;
+  color: #ddd;
 }
 
 .ptop {
@@ -25,7 +28,7 @@
 }
 
 .h1 {
-  color: #0072bc;
+  color: #fff;
 
   font-weight: 700;
   line-height: 47px;
@@ -58,6 +61,7 @@
 
 .FirstLeft p {
   margin: 10px 0px 10px 0px;
+  color: #ddd;
 }
 
 .logos {
@@ -123,6 +127,7 @@
     text-align: left;
     font-size: 16px;
     line-height: 26px;
+ 
   }
 
   .FirstLeft .ptop {
