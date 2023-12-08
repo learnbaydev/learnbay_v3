@@ -13,7 +13,7 @@ export default function Home() {
         <title>404 - Page Not Found </title>
         <link
           rel="icon"
-          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Learnbay-Favicon-L.png"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
       </Head>
       <main>

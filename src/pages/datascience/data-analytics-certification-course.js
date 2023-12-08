@@ -79,12 +79,56 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
         <link
           rel="icon"
-          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Learnbay-Favicon-L.png"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
         <link
           rel="canonical"
           href="https://www.learnbay.co/datascience/data-analytics-certification-course"
         />
+        
+        <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html : `{
+            "@context": "http://schema.org",
+            "@type": "Course",
+            "name": "Data Analytics Certification Program",
+            "description": "Learn data analytics course online with Learnbay and Gain in-demand skills and boost your career. we are providing the best online data analytics courses.  Enroll now!",
+            "url": "https://www.learnbay.co/datascience/data-analytics-certification-course",
+            "offers": {
+              "@type": "Offer",
+              "price": 80000,
+              "priceCurrency": "INR",
+              "category": "Educational"
+            },
+             "provider": {
+                  "@type": "Organization",
+                  "name": "Learnbay",
+                  "Url": "https://www.learnbay.co/"
+                },
+            "coursePrerequisites": "There are no prerequisites for this Business Analytics certification course as all modules are beginner-friendly and are taught from scratch. ",
+            "hasCourseInstance": [
+              {
+                "@type": "CourseInstance",
+                "courseMode": "Online",
+               "courseWorkload": "P10W",
+                "courseFee": {
+                  "@type": "PriceSpecification",
+                  "price": "₹ 80,000 + 18% GST",
+                  "priceCurrency": "INR"
+                }
+              }
+            ]
+
+          }`,
+
+
+        }}
+         
+
+        />
+
+
       </Head>
       <main>
         <DataAnlyticsFirstPart

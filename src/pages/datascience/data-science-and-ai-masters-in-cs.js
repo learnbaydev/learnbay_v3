@@ -25,48 +25,52 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
         />
         <link
           rel="icon"
-          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Learnbay-Favicon-L.png"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
         <link
           rel="canonical"
           href="https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs"
         />
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: ` {
-              {
-                "@context": "http://schema.org",
-                "@type": "Course",
-                "name": "Master in CS: Data Science and AI",
-                "description": "A comprehensive online Master's degree program in Computer Science with specializations in Data Science and AI & Machine Learning.",
-                "provider": {
-                  "@type": "Organization",
-                  "name": "Learnbay"
-                },
-                "coursePrerequisites": "Bachelor's degree in Computer Science or related field",
-                "hasCourseInstance": {
-                  "@type": "CourseInstance",
-                  "courseMode": "Part-time",
-                  "courseWorkload": "18 months",
-                  "location": {
-                    "@type": "VirtualLocation",
-                    "name": "Online"
-                  }
-                  },
-                "courseCredential": "Master in CS: Data Science and AI",
-                "coursePrerequisite": "Bachelor's degree in Computer Science or related field",
-                "occupationalCategory": [
-                  "Data Science and Data Analytics",
-                  "AI & Machine Learning"
-                ],
-                "url": "https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs",
-                "image": "https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FlearnbayMain%2Flearnbay-logo.png&w=256&q=100"
-              }
-} `,
-          }}
-        />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: `{
+      "@context": "http://schema.org",
+      "@type": "Course",
+      "name": "Master in CS: Data Science and AI",
+      "description": "Upskill yourself with cutting edge Masters degree in Data Science and AI, earn global recognition from a Master's degree certification from WOOLF university.",
+      "provider": {
+        "@type": "Organization",
+        "name": "Learnbay"
+      },
+      "occupationalCategory": [
+        "Data Science and Analytics",
+        "AI & Machine Learning"
+      ],
+      "url": "https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs",
+      "offers": {
+        "@type": "Offer",
+        "price": 250000,
+        "priceCurrency": "INR",
+        "category": "Educational"
+      },
+      "coursePrerequisites": "Bachelor's degree in Computer Science or related field",
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "Online",
+        "courseWorkload": "P10W",
+        "location": {
+          "@type": "VirtualLocation",
+          "name": "Online"
+        }
+      },
+      "courseCredential": "Master in CS: Data Science and AI",
+      "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png"
+    }`
+  }}
+/>
+
       </Head>
       <main>
         <FirstPart

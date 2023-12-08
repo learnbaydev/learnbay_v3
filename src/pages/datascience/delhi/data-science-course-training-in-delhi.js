@@ -127,42 +127,83 @@ export default function Home() {
         />
         <link
           rel="icon"
-          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Learnbay-Favicon-L.png"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
         <link
           rel="canonical"
           href="https://www.learnbay.co/datascience/delhi/data-science-course-training-in-delhi"
         />
         <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: ` `,
-          }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: `${DSDelhiCourseData[0].script1}`,
-          }}
-        />{" "}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: ` ${DSDelhiCourseData[0].script2}`,
-          }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: ` ${DSDelhiCourseData[0].script3} `,
-          }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: ` ${DSDelhiCourseData[0].script4} `,
-          }}
-        />
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: `{
+      "@context": "http://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Learnbay - Data SCience Course in Delhi",
+      "description": "Learnbay Offers Quality Data Science Training in Dubai with Flexible Scheduling, Hands-on Projects and One-To-One Mentorship. Sign-up Now to Master Data Science.",
+      "url": "https://www.learnbay.co/datascience/dubai/data-science-course-training-in-dubai",
+      "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Business Centre, Arunachal Building, 6th floor, Barakhamba Road",
+        "addressLocality": "New Delhi",
+        "addressRegion": "Delhi",
+        "postalCode": "110001",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 28.62912828688559,
+        "longitude":77.22708624314137
+      },
+      "telephone": "(+91) 77956 87988",
+      "email": "contacts@learnbay.co",
+      "openingHoursSpecification": [
+            {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "10:00",
+            "closes": "18:00"
+          },
+           {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Saturday"
+            ],
+            "opens": "10:00",
+            "closes": "15:00"
+         }
+      ],
+      "priceRange": "₹ 1,25,000 + 18% GST",
+      "servesCuisine": "Data Science Education",
+      "areaServed": "Delhi",
+      "paymentAccepted": "Cash, Credit Card, Debit Card, EMI",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "12693"
+      }
+      },
+      "sameAs": [
+          "https://www.facebook.com/learnbay/",
+                    "https://twitter.com/Learbay",
+                    "https://www.instagram.com/learnbayofficial/",
+                    "https://www.youtube.com/channel/UC-ntE_GnjjiUuKYqih9ENYA",
+                    "https://www.linkedin.com/company/learnbay/"
+      ]
+    }`
+  }}
+/>
+      
+        
       </Head>
       <main>
         {" "}

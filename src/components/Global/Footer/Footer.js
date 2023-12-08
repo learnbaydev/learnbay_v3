@@ -18,28 +18,45 @@ import {
   OtherLocation,
   CityFooterData,
   HeadData,
+  genHeadData,
   CourseData,
+  GnCourseData,
 } from "./FooterData";
 
-const Footer = ({ adPage, adPageCity }) => {
+const Footer = ({ adPage, adPageCity,
+  iconnolink ,faqhead, Ocourses, getappsOraginc,nolinklogo, mailno }) => {
   return (
     <section className={styles.FooterSection}>
       <div className={styles.FooterDiv}>
         <div className={styles.FooterDivInner}>
-          <a href="/">
+          {nolinklogo ?(
+             <a href="/">
+             <Image
+               src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/white-logo.webp"
+               alt="Learnbay"
+               width="230"
+               height="100"
+             />
+           </a>
+          ):(
+            
             <Image
               src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/white-logo.webp"
               alt="Learnbay"
               width="230"
               height="100"
             />
-          </a>
+       
+          )}
+         
+         
           <p className={styles.FooterInnerli}>
             Enrol now for data science courses, System designing or full stack
             development courses. Master the most demanding skills of job market
             and experience and ever growing and lucrative career transformation.
           </p>
-          <div className={styles.FooterSocial}>
+          {iconnolink ? (
+            <div className={styles.FooterSocial}>
             <a href="https://twitter.com/Learnbay" target="_blank">
               <FaTwitter className="bIcons" />
             </a>
@@ -59,12 +76,47 @@ const Footer = ({ adPage, adPageCity }) => {
               <FaInstagram className="bIcons" />
             </a>
           </div>
-          <span style={{ display: "flex", marginTop: "20px" }}>
+          ):(
+            <div className={styles.FooterSocial}>
+           
+              <FaTwitter className="bIcons" />
+            
+            
+              <FaFacebookF className="bIcons" />
+           
+           
+              
+              <FaLinkedinIn className="bIcons" />
+         
+            
+              <FaYoutube className="bIcons" />
+            
+          
+              <FaInstagram className="bIcons" />
+          
+          </div>
+          )}
+
+          
+          {mailno ?(
+             <span style={{ display: "flex", marginTop: "20px" }}>
+             <IoMailSharp className="bIcons" />
+             <Link href="mailto:contacts@learnbay.co" target="_blank">
+               contacts@learnbay.co
+             </Link>
+           </span>
+          ):(
+            <span style={{ display: "flex", marginTop: "20px" }}>
             <IoMailSharp className="bIcons" />
-            <Link href="mailto:contacts@learnbay.co" target="_blank">
+            
               contacts@learnbay.co
-            </Link>
+            
           </span>
+          )}
+         
+         
+
+
           {adPage ? (
             <>
               <span style={{ display: "flex", marginTop: "10px" }}>
@@ -86,7 +138,9 @@ const Footer = ({ adPage, adPageCity }) => {
             </>
           )}
         </div>
-        <div className={styles.FooterDivInner}>
+        
+        {Ocourses ?(
+          <div className={styles.FooterDivInner}>
           {CourseData.map((Head, index) => {
             return (
               <div key={index}>
@@ -102,14 +156,51 @@ const Footer = ({ adPage, adPageCity }) => {
             );
           })}
         </div>
-        <div className={styles.FooterDivInner}>
-          {HeadData.map((Head, index) => {
+        ):( <div className={styles.FooterDivInner}>
+          {GnCourseData.map((Head, index) => {
+            return (
+              <div key={index}>
+                <p className={styles.FooterInnerP}>{Head.Head}</p>
+                {Head.Courses.map((Courses) => {
+                  return (
+                    <a  key={Courses.name}>
+                      <p className={styles.FooterInnerli}>{Courses.name}</p>
+                    </a>
+                  );
+                })}
+              </div>
+            );
+          })}
+        </div>)}
+        
+       
+        {faqhead ? (
+           <div className={styles.FooterDivInner}>
+           {HeadData.map((Head, index) => {
+             return (
+               <div key={index}>
+                 <p className={styles.FooterInnerP}>{Head.Head}</p>
+                 {Head.LearnbayData.map((LearnbayData) => {
+                   return (
+                     <a href={LearnbayData.url} key={LearnbayData.name}>
+                       <p className={styles.FooterInnerli}>
+                         {LearnbayData.name}
+                       </p>
+                     </a>
+                   );
+                 })}
+               </div>
+             );
+           })}
+         </div>
+        ):(<div className={styles.FooterDivInner}>
+          {genHeadData.map((Head, index) => {
             return (
               <div key={index}>
                 <p className={styles.FooterInnerP}>{Head.Head}</p>
                 {Head.LearnbayData.map((LearnbayData) => {
                   return (
-                    <a href={LearnbayData.url} key={LearnbayData.name}>
+                    <a  key={LearnbayData.name}>
                       <p className={styles.FooterInnerli}>
                         {LearnbayData.name}
                       </p>
@@ -119,27 +210,50 @@ const Footer = ({ adPage, adPageCity }) => {
               </div>
             );
           })}
-        </div>
-        <div className={styles.FooterDivInner}>
+        </div>)}
+       
+        
+{getappsOraginc ? (
+  <div className={styles.FooterDivInner}>
+  <p className={styles.FooterInnerP}>Get Our Apps On</p>
+  <a
+    href="https://play.google.com/store/apps/details?id=com.app.learnbay"
+    target="_blank"
+  >
+    <button className={styles.btnout}>
+      <FaAndroid className="bIcons" style={{ fontSize: "30px" }} />
+      Get Our Android App
+    </button>
+  </a>
+  <p className={styles.FooterInnerP}>Find Us Here</p>
+  <a href="https://goo.gl/maps/4tC9yN8VTkBf72cW9" target="_blank">
+    <p className={styles.FooterInnerli}>
+      #1090 , 1st floor, 18th cross road HSR layout sector 3, Bangalore
+      - 560102 (Above Sangam Sweets)
+    </p>
+  </a>
+</div>
+):(
+  <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>Get Our Apps On</p>
-          <a
-            href="https://play.google.com/store/apps/details?id=com.app.learnbay"
-            target="_blank"
-          >
+          
             <button className={styles.btnout}>
               <FaAndroid className="bIcons" style={{ fontSize: "30px" }} />
               Get Our Android App
             </button>
-          </a>
+          
           <p className={styles.FooterInnerP}>Find Us Here</p>
-          <a href="https://goo.gl/maps/4tC9yN8VTkBf72cW9" target="_blank">
+        
             <p className={styles.FooterInnerli}>
               #1090 , 1st floor, 18th cross road HSR layout sector 3, Bangalore
               - 560102 (Above Sangam Sweets)
             </p>
-          </a>
+       
         </div>
+)}
+        
       </div>
+      
       {adPageCity ? (
         ""
       ) : (

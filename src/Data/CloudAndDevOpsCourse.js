@@ -711,12 +711,7 @@ export const CloudAndDevOpsCourseData = [
             ans: "The total program fee for the Advance Cloud Computing and Devops Certification Program is INR 1,35,000/- +18% GST",
             open: true,
           },
-          {
-            id: 1,
-            ques: "Can I pay in installments for the Advanced Data Science and AI Program?",
-            ans: " Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 8,850/month for up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
-            open: false,
-          },
+         
           {
             id: 2,
             ques: "Can I pay in installments for the Advance Cloud Computing and Devops Certification Program?",
@@ -739,14 +734,9 @@ export const CloudAndDevOpsCourseData = [
         id: 3,
         sectionName: "Capstone and Real-Time Projects",
         data: [
+        
           {
             id: 0,
-            ques: "How many capstone projects will be there?",
-            ans: "In this course, you’ll be required to work on 1 fresh capstone projects. This will help you get exposure to hands-on projects by implementing your theoretical knowledge gained throughout the training.",
-            open: true,
-          },
-          {
-            id: 1,
             ques: "How many real-time projects will be there?",
             ans: "We have a set of 12 Real-time projects from multiple domains such as Healthcare, Banking, Finance, Insurance, Retail, and others. Based on your interest you can choose your project to work on.",
             linkText1: " Click here to download the list of the projects.",
@@ -756,7 +746,7 @@ export const CloudAndDevOpsCourseData = [
             open: false,
           },
           {
-            id: 2,
+            id: 1,
             ques: "How will the project be executed?",
             ans: `At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.`,
             open: false,
@@ -806,20 +796,15 @@ export const CloudAndDevOpsCourseData = [
             ans: "You’ll be provided 10 interview calls after the completion of the course.",
             open: false,
           },
+        
           {
             id: 2,
-            ques: "How many interview calls will I get at Learnbay?            ",
-            ans: "You’ll be provided 10 interview calls after the completion of the course.",
-            open: false,
-          },
-          {
-            id: 3,
             ques: "What is a job-readiness program?            ",
             ans: " Job readiness program helps you prepare for interviews which include: Resume preparation sessions, Preparing projects for a strong portfolio, Interview guidance and prep sessions, 1:1 Mock interviews based on targeted companies and roles.",
             open: false,
           },
           {
-            id: 4,
+            id: 3,
             ques: " Will I get job referrals at Learnbay?         ",
             ans: "Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies.",
             open: false,
