@@ -349,6 +349,55 @@ export const HeadData = [
     ],
   },
 ];
+export const genHeadData = [
+  {
+    id: "Learnbay",
+    Head: "Learnbay",
+    LearnbayData: [
+      {
+        id: 1,
+        url: "",
+        name: "About Us",
+      },
+      {
+        id: 2,
+        url: "",
+        name: "Contact Us",
+      },
+      {
+        id: 3,
+        url: "",
+        name: "Demo",
+      },
+      {
+        id: 4,
+        url: "",
+        name: "Blogs",
+      },
+    ],
+  },
+  {
+    id: "Terms",
+    Head: "Terms",
+    LearnbayData: [
+      {
+        id: 1,
+        url: "/terms-conditions",
+        name: "Terms and Conditions",
+      },
+      {
+        id: 2,
+        url: "/refund-cancellation-policy",
+        name: "Refund/Cancellation policy",
+      },
+      {
+        id: 3,
+        url: "privacy-policy",
+        name: "Privacy Policy",
+      },
+    ],
+  },
+];
 
 export const CourseData = [
   {
@@ -395,6 +444,52 @@ export const CourseData = [
     ],
   },
 ];
+export const GnCourseData = [
+  {
+    id: "Courses",
+    Head: "Courses",
+    Courses: [
+      {
+        id: 1,
+     
+        name: "Advance Data Science and AI Certification",
+      },
+      {
+        id: 2,
+     
+        name: "Advance AI and ML Certification Program",
+      },
+      {
+        id: 3,
+        
+        name: "Master in CS: Data Science and AI",
+      },
+      {
+        id: 4,
+
+        name: "Software Development Certification Program",
+      },
+      {
+        id: 5,
+        
+        name: "Business Analytics Program",
+      },
+      {
+        id: 6,
+       
+        name: "Data Analytics Program",
+      },
+      {
+        id: 7,
+        name: "Advance Cloud Computing & DevOps Certification Program",
+       
+      },
+    
+  
+    ],
+  },
+];
+
 
 export const puneLocation = [
   {

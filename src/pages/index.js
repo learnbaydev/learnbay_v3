@@ -374,7 +374,7 @@ export default function Home() {
       <HomeLine />
       <Course dataScience={true} radio={true} interstedInHide={true} />
       <WhyLearnbay ids="bfl64ANfSV0" />
-      <ProjectSection ids="bfl64ANfSV0" />
+      <ProjectSection ids="bfl64ANfSV0" nolinkO={true} linkomb={true} />
       <GetHire />
       <TrainerSection idss="eautK0odE7Q" />
       <Testimonial redirectDS={true} heading="" Testimonial={testimonial} />
@@ -384,7 +384,14 @@ export default function Home() {
         interstedInHide={true}
       />
       <SeventhSection />
-      <Footer />
+      <Footer iconnolink={true}  
+      faqhead={true}
+      courseGn={true}
+      Ocourses={true}
+      getappsOraginc={true}
+      nolinklogo={true}
+      mailno ={true}
+      />
       <WhatsappFloat chat360code1={true} />
       <BottomBar radio={true} />
       {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
