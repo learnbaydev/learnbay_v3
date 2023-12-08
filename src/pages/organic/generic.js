@@ -14,6 +14,7 @@ const SeventhSection = dynamic(() =>
 const Course = dynamic(() => import("../../components/Home/Course/Course"));
 import ContactUs from "../../components/Home/ContactUs/ContactUs";
 import BoxShape from "../../components/OrganicGeneric/BoxShape/BoxShape";
+import BottomBar from "@/components/Global/BottomBar/BottomBar";
 
 export default function Home() {
   return (
@@ -76,6 +77,7 @@ export default function Home() {
       <SeventhSection whatsappShow={true} />
       <Footer organicADSS={true} adPage={true} adPageCity={true} />
       <WhatsappFloat chat360code1={true} />
+      <BottomBar dataScienceGeneric={true} />
     </div>
   );
 }
