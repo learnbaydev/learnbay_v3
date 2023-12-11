@@ -62,8 +62,7 @@ const redirectionThankYou = (
     routerPath = "/Thank-you-counselling";
   }
   if (pathname === "/organic" || pathname === "/referrals") {
-    setToggle(false);
-    setAlertMSG("Form Submitted successfully");
+    routerPath = "/Thank-you-counselling";
   }
   if (pathname === "/Thank-you") {
     setToggle(false);
