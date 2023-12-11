@@ -152,10 +152,13 @@ export default function Home() {
         organicADSS={true}
         adPage={true}
         adPageCity={true}
-        iconnolink={false}
-        faqhead={false}
-        courseGn={false}
-        Ocourses={false}
+        iconnolink={true}
+        faqhead={true}
+        courseGn={true }
+        Ocourses={true}
+        mailno={true}
+        getappsOraginc={true}
+        nolinklogo={true}
       />
       <WhatsappFloat chat360code1={true} />
       <BottomBar dataScienceGeneric={true} />

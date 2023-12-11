@@ -76,7 +76,7 @@ const SecondPart = ({
         dataScienceCounselling={true}
         dataScience={true}
         titleCourse="Masters in Computer Science: Data Science and AI"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters+in+CS+Data+Science+%26+AI.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf"
       />
       <ToolsCovered
         deskImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Tools-Logo.png"
@@ -107,7 +107,7 @@ const SecondPart = ({
       <NewProjectSection
         dataScience={true}
         titleCourse="Masters in Computer Science: Data Science and AI"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters+in+CS+Data+Science+%26+AI.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf"
         projectSection={projectSection}
       />
       {/* <FAQNew FAQNewData={DataScienceMastersinCS[0].faq} /> */}

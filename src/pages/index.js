@@ -384,13 +384,7 @@ export default function Home() {
         interstedInHide={true}
       />
       <SeventhSection />
-      <Footer iconnolink={true}  
-      faqhead={true}
-      courseGn={true}
-      Ocourses={true}
-      getappsOraginc={true}
-      nolinklogo={true}
-      mailno ={true}
+      <Footer 
       />
       <WhatsappFloat chat360code1={true} />
       <BottomBar radio={true} />
