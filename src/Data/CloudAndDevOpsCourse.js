@@ -708,7 +708,7 @@ export const CloudAndDevOpsCourseData = [
           {
             id: 0,
             ques: "What is the total Fee for the Advance Cloud Computing and Devops Certification Program?",
-            ans: "The total program fee for the Advance Cloud Computing and Devops Certification Program is INR 1,35,000/- +18% GST",
+            ans: "The total program fee for the Advance Cloud Computing and Devops Certification Program is INR 1,10,000/- +18% GST",
             open: true,
           },
          

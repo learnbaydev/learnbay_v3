@@ -4,6 +4,8 @@ import { GoVerified } from "react-icons/go";
 import Navbar from "../components/Global/Navbar/Navbar";
 import Footer from "../components/Global/Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
+import Head from "next/head";
+
 
 
 const verify = () => {
@@ -62,6 +64,18 @@ const verify = () => {
 
   return (
     <>
+    < Head >
+<title> Verify Certificate - Learnbay</title>
+<link
+          rel="icon"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
+        />
+        <link
+          rel="canonical"
+          href="https://www.learnbay.co/verify-certificate"
+        />
+
+</Head>
     <Navbar />
     <div className={styles.wrapper}>
       <div className={styles.FormWrappers}>
