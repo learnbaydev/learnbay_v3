@@ -665,7 +665,7 @@ export const CloudAndDevOpsCourseData = [
           },
           {
             Module0: {
-              title: "TERM 6 :- Data Migration and Resilience",
+              title: "TERM 7 :- Data Migration and Resilience",
               content: [
                 {
                   chap: {
@@ -776,7 +776,7 @@ export const CloudAndDevOpsCourseData = [
 
           {
             Module0: {
-              title: "TERM 6 :- DevOps Expertise",
+              title: "TERM 8 :- DevOps Expertise",
               content: [
                 {
                   chap: {
@@ -786,24 +786,16 @@ export const CloudAndDevOpsCourseData = [
                       "DevOps Tools and Practices ",
                       "Version Control with Git",
                       "Containerization with Docker ",
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title: "Module 2 :- Mastering DevOps",
-                    desc: [
                       "Configuration Management                ",
                       "Continuous Integration and Continuous Delivery (CI/CD) ",
                       "Container Orchestration with Kubernetes ",
                       "Monitoring and Logging with ELK Stack",
                       "Infrastructure as Code (IaC) with Terraform ",
                       "Career Enhancement in DevOps",
-                    
-                
                     ],
                   },
                 },
+               
                
               ],
               id: 6,
@@ -812,7 +804,7 @@ export const CloudAndDevOpsCourseData = [
           },
           {
             Module0: {
-              title: "TERM 7 :- Splunk Development and Admin ",
+              title: "TERM 9 :- Splunk Development and Admin ",
               content: [
                 {
                   chap: {
@@ -820,13 +812,32 @@ export const CloudAndDevOpsCourseData = [
                       "Module 1 :- Splunk Developer and Administration Esentials ",
                     desc: [
                       "Splunk Development and Administration",
-                      "Advanced Splunk Skills",
+                      "Splunk Development Concepts, Searching, Reports, and Visualizations",
+                      "Splunk Administration, Installation, and Deployment Management",
                      
                       
                     ],
                   },
                 },
             
+                {
+                  chap: {
+                    title:
+                      "Module 2 :- Advanced Splunk Skills",
+                    desc: [
+                      "Data Parsing, Pivot, Common Information Model (CIM) Add-On",
+                      "Splunk Security Essentials",
+                      "Splunk Data Analysis Techniques",
+                      "Splunk Dashboard Customization",
+                      "Splunk API Integration",
+                      "Performance Optimization in Splunk",
+                      "Troubleshooting and Problem Solving",
+                      "Splunk for Cloud Services",
+                     
+                      
+                    ],
+                  },
+                },
       
                
               ],
