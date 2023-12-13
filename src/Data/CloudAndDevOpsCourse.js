@@ -418,7 +418,7 @@ export const CloudAndDevOpsCourseData = [
 
           {
             Module0: {
-              title: "TERM 4 :- Microsoft Azure Proficiency",
+              title: "TERM 4 :- Microsoft Azure Proficiency (optional)",
               content: [
                 {
                   chap: {
@@ -488,7 +488,7 @@ export const CloudAndDevOpsCourseData = [
           },
           {
             Module0: {
-              title: "TERM 5:-Google Cloud Platform ",
+              title: "TERM 5:-Google Cloud Platform (optional) ",
               content: [
                 {
                   chap: {
@@ -523,8 +523,10 @@ export const CloudAndDevOpsCourseData = [
                     title: "Module 3:- Machine Learning and Artificial Intelligence ",
                     desc: [
                       "AI Platform ",
-                      "Exam Preparation and Resources",
-                      "Advanced Topics and Trends",
+                      "Machine Learning Services",
+                      "Integrating AI into Cloud Solutions",
+                      "AutoML for Custom Model Training",
+                    
                     
                   
                     ],
@@ -544,33 +546,112 @@ export const CloudAndDevOpsCourseData = [
               open: false,
             },
           },
-      
-
           {
             Module0: {
-              title: "TERM 6 :- DevOps Expertise",
+              title: "TERM 6 :- Server and Application virtualization",
               content: [
                 {
                   chap: {
                     title:
-                      "Module 1 :- Mastering DevOps ",
+                      "Module 1 :-Overview of Virtualization ",
                     desc: [
-                      "DevOps Tools and Practices ",
-                      "Version Control with Git",
-                      "Containerization with Docker ",
+                      "Introduction to Virtualization: Understanding Its Historical Development",
+                      "Different Forms of Virtualization",
+                    
                     ],
                   },
                 },
                 {
                   chap: {
-                    title: "Module 2 :- Mastering DevOps",
+                    title: "Module 2 :- Server Virtualization",
                     desc: [
-                      "Configuration Management                ",
-                      "Continuous Integration and Continuous Delivery (CI/CD) ",
-                      "Container Orchestration with Kubernetes ",
-                      "Monitoring and Logging with ELK Stack",
-                      "Infrastructure as Code (IaC) with Terraform ",
-                      "Career Enhancement in DevOps",
+                      "Introduction to Server-Based Virtualization",
+                      "Understanding Hypervisor-Based Virtualization",
+                      "Comparing Type 1 and Type 2 Hypervisors",
+                      "Differences Between Full and Paravirtualization",
+                      
+                    
+                
+                    ],
+                  },
+                },
+
+                {
+                  chap: {
+                    title: "Module 3 :- Virtual Machines (VMs)",
+                    desc: [
+                      "The Lifecycle of a Virtual Machine",
+                      "Structure and Formats of Virtual Machine Images",
+                      "Detailed Look at Virtual Machine Instances: Public Cloud Specificities",
+                      "Resource Allocation for Virtual Machine Instances",
+                      "Networking Within Virtual Machines: An Overview",
+                      "Exploring Amazon Machine Instances",
+                    ],
+                  },
+                },
+
+
+                {
+                  chap: {
+                    title: "Module 4 :- Application Virtualization",
+                    desc: [
+                      "Application Virtualization in VMs",
+                      
+                    
+                
+                    ],
+                  },
+                },
+
+
+                {
+                  chap: {
+                    title: "Module 5 :- Containerization",
+                    desc: [
+                      "Fundamentals of Container-Based Virtualization",
+                      "Lifecycle of Containers",
+                      "Container Image: Structure and Formats",
+                      "Managing Container Instances: Resource Allocation",
+                      "Networking in the Context of Containers",
+                      
+                    
+                
+                    ],
+                  },
+                },
+
+                {
+                  chap: {
+                    title: "Module 6 :- Unikernels",
+                    desc: [
+                      "Unikernels: Composition, Formats, and Management",
+                      "Allocating Resources and Networking in Unikernels",
+                      
+                    
+                
+                    ],
+                  },
+                },
+
+                {
+                  chap: {
+                    title: "Module 7 :- Comparative Analysis",
+                    desc: [
+                      "Differentiating Between VMs, Containers, and Unikernels",
+                      
+                    
+                
+                    ],
+                  },
+                },
+
+
+                {
+                  chap: {
+                    title: "Module 8 :- Network Function Virtualization (NFV)",
+                    desc: [
+                      "An Introduction to Network Function Virtualization",
+                      
                     
                 
                     ],
@@ -584,7 +665,146 @@ export const CloudAndDevOpsCourseData = [
           },
           {
             Module0: {
-              title: "TERM 7 :- Splunk Development and Admin ",
+              title: "TERM 7 :- Data Migration and Resilience",
+              content: [
+                {
+                  chap: {
+                    title:
+                      "Module 1 :- Introduction to Data Migration in Cloud Environments",
+                    desc: [
+                      "Understanding the Basics of Data Migration",
+                      "Key Considerations for Cloud Data Migration",
+                    
+                    ],
+                  },
+                },
+                {
+                  chap: {
+                    title: "Module 2 :- Data Migration Strategies and Best Practices",
+                    desc: [
+                      "Planning and Executing a Migration Strategy",
+                      "Tools and Techniques for Effective Data Migration",
+                      
+                    
+                
+                    ],
+                  },
+                },
+
+                {
+                  chap: {
+                    title: "Module 3 :- Building Resilience and High Availability in Cloud",
+                    desc: [
+                      "Principles of Resilience in Cloud Computing",
+                      "Designing for High Availability and Disaster Recovery",
+                    ],
+                  },
+                },
+
+
+                {
+                  chap: {
+                    title: "Module 4 :- Integrating Data Migration with DevOps Practices",
+                    desc: [
+                      "Automation in Data Migration Processes",
+                      "Continuous Integration and Continuous Deployment (CI/CD) for Data Migration",
+                      
+                    
+                
+                    ],
+                  },
+                },
+
+
+                {
+                  chap: {
+                    title: "Module 5 :- Case Studies and Real-World Applications",
+                    desc: [
+                      "Analyzing Successful Data Migration Projects",
+                      "Lessons Learned and Best Practices in Action",
+                      
+                    
+                
+                    ],
+                  },
+                },
+
+                {
+                  chap: {
+                    title: "Module 6 :- Unikernels",
+                    desc: [
+                      "Unikernels: Composition, Formats, and Management",
+                      "Allocating Resources and Networking in Unikernels",
+                      
+                    
+                
+                    ],
+                  },
+                },
+
+                {
+                  chap: {
+                    title: "Module 7 :- Comparative Analysis",
+                    desc: [
+                      "Differentiating Between VMs, Containers, and Unikernels",
+                      
+                    
+                
+                    ],
+                  },
+                },
+
+
+                {
+                  chap: {
+                    title: "Module 8 :- Network Function Virtualization (NFV)",
+                    desc: [
+                      "An Introduction to Network Function Virtualization",
+                      
+                    
+                
+                    ],
+                  },
+                },
+               
+              ],
+              id: 6,
+              open: false,
+            },
+          },
+      
+
+          {
+            Module0: {
+              title: "TERM 8 :- DevOps Expertise",
+              content: [
+                {
+                  chap: {
+                    title:
+                      "Module 1 :- Mastering DevOps ",
+                    desc: [
+                      "DevOps Tools and Practices ",
+                      "Version Control with Git",
+                      "Containerization with Docker ",
+                      "Configuration Management                ",
+                      "Continuous Integration and Continuous Delivery (CI/CD) ",
+                      "Container Orchestration with Kubernetes ",
+                      "Monitoring and Logging with ELK Stack",
+                      "Infrastructure as Code (IaC) with Terraform ",
+                      "Career Enhancement in DevOps",
+                    ],
+                  },
+                },
+               
+               
+              ],
+              id: 6,
+              open: false,
+            },
+          },
+          {
+            Module0: {
+              title: "TERM 9 :- Splunk Development and Admin ",
               content: [
                 {
                   chap: {
@@ -592,13 +812,32 @@ export const CloudAndDevOpsCourseData = [
                       "Module 1 :- Splunk Developer and Administration Esentials ",
                     desc: [
                       "Splunk Development and Administration",
-                      "Advanced Splunk Skills",
+                      "Splunk Development Concepts, Searching, Reports, and Visualizations",
+                      "Splunk Administration, Installation, and Deployment Management",
                      
                       
                     ],
                   },
                 },
             
+                {
+                  chap: {
+                    title:
+                      "Module 2 :- Advanced Splunk Skills",
+                    desc: [
+                      "Data Parsing, Pivot, Common Information Model (CIM) Add-On",
+                      "Splunk Security Essentials",
+                      "Splunk Data Analysis Techniques",
+                      "Splunk Dashboard Customization",
+                      "Splunk API Integration",
+                      "Performance Optimization in Splunk",
+                      "Troubleshooting and Problem Solving",
+                      "Splunk for Cloud Services",
+                     
+                      
+                    ],
+                  },
+                },
       
                
               ],

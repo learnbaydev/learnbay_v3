@@ -509,9 +509,9 @@ export const OtherLocation = [
   },
   {
     id: 2,
-    cityName: "Delhi",
+    cityName: "Delhi (NCR)",
     location:
-      "Business Centre, Arunachal Building, 6th Floor, Barakhamba Road, New Delhi 110001",
+      " Office number:3,Ground Floor,Building Number D13, sector : 3, Noida, Uttar Pradesh 201301",
   },
   {
     id: 3,
@@ -523,7 +523,7 @@ export const OtherLocation = [
     id: 4,
     cityName: "Hyderabad",
     location:
-      "Level 3, NSL Centrum, Road No 1, Lane, Opp. Forum Mall, KPHB 5th Phase, Hyderabad, Telangana 500072",
+      "C9WH+W92, HUDA Techno Enclave, HITEC City, Hyderabad, Telangana 500081",
   },
   {
     id: 5,
