@@ -153,8 +153,7 @@ export default function Home() {
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
-       
-      
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -162,12 +161,12 @@ export default function Home() {
               "@context": "http://schema.org",
               "@type": "LocalBusiness",
               "name": "Learnbay - Data Science Course Training In Bangalore",
-              "description": "Are you searching for the best data science courses online in Bangalore? Learnbay is providing the best online data science course training in Bangalore.",
+              "description": "Are you searching for the best data science courses online in Bangalore? Learnbay is providing the best online data science course training in Banglore.",
               "url": "https://www.learnbay.co/datascience/bangalore/data-science-course-training-in-bangalore",
               "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "1090, 1st floor, 18th cross road HSR layout sector 3",
+                "streetAddress": "1090 , 1st floor, 18th cross road HSR layout sector 3",
                 "addressLocality": "Bangalore",
                 "addressRegion": "Karnataka",
                 "postalCode": "560102",
@@ -181,29 +180,64 @@ export default function Home() {
               "telephone": "(+91) 77956 87988",
               "email": "contacts@learnbay.co",
               "openingHoursSpecification": [
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-                  "opens": "10:00",
-                  "closes": "18:00"
-                },
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": ["Saturday"],
-                  "opens": "10:00",
-                  "closes": "15:00"
-                }
+                    {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                      "Monday",
+                      "Tuesday",
+                      "Wednesday",
+                      "Thursday",
+                      "Friday"
+                    ],
+                    "opens": "10:00",
+                    "closes": "18:00"
+                  },
+                   {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                      "Saturday"
+                    ],
+                    "opens": "10:00",
+                    "closes": "15:00"
+                 }
               ],
               "priceRange": "₹ 1,25,000 + 18% GST",
               "servesCuisine": "Data Science Education",
               "areaServed": "Bangalore",
-              "paymentAccepted": "Cash, Credit Card, Debit Card, EMI",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "bestRating": "5",
-                "worstRating": "1",
-                "ratingCount": "12693"
+              "paymentAccepted": "Cash, Credit Card, Debit Card, EMI"
+              },
+              "sameAs": [
+                  "https://www.facebook.com/learnbay/",
+                            "https://twitter.com/Learbay",
+                            "https://www.instagram.com/learnbayofficial/",
+                            "https://www.youtube.com/channel/UC-ntE_GnjjiUuKYqih9ENYA",
+                            "https://www.linkedin.com/company/learnbay/"
+              ]
+              }
+             
+              
+} `,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: ` {
+              "@context": "https://schema.org/", 
+  "@type": "Product", 
+  "name": "Learnbay - Data Science Course Training In Bangalore",
+  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
+  "brand": {
+    "@type": "Brand",
+    "name": "Learnbay"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "12693"
+  }
               }
              
               

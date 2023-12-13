@@ -418,7 +418,7 @@ export const CloudAndDevOpsCourseData = [
 
           {
             Module0: {
-              title: "TERM 4 :- Microsoft Azure Proficiency",
+              title: "TERM 4 :- Microsoft Azure Proficiency (optional)",
               content: [
                 {
                   chap: {
@@ -488,7 +488,7 @@ export const CloudAndDevOpsCourseData = [
           },
           {
             Module0: {
-              title: "TERM 5:-Google Cloud Platform ",
+              title: "TERM 5:-Google Cloud Platform (optional) ",
               content: [
                 {
                   chap: {
@@ -523,8 +523,10 @@ export const CloudAndDevOpsCourseData = [
                     title: "Module 3:- Machine Learning and Artificial Intelligence ",
                     desc: [
                       "AI Platform ",
-                      "Exam Preparation and Resources",
-                      "Advanced Topics and Trends",
+                      "Machine Learning Services",
+                      "Integrating AI into Cloud Solutions",
+                      "AutoML for Custom Model Training",
+                    
                     
                   
                     ],
@@ -539,6 +541,232 @@ export const CloudAndDevOpsCourseData = [
                     ],
                   },
                 },
+              ],
+              id: 6,
+              open: false,
+            },
+          },
+          {
+            Module0: {
+              title: "TERM 6 :- Server and Application virtualization",
+              content: [
+                {
+                  chap: {
+                    title:
+                      "Module 1 :-Overview of Virtualization ",
+                    desc: [
+                      "Introduction to Virtualization: Understanding Its Historical Development",
+                      "Different Forms of Virtualization",
+                    
+                    ],
+                  },
+                },
+                {
+                  chap: {
+                    title: "Module 2 :- Server Virtualization",
+                    desc: [
+                      "Introduction to Server-Based Virtualization",
+                      "Understanding Hypervisor-Based Virtualization",
+                      "Comparing Type 1 and Type 2 Hypervisors",
+                      "Differences Between Full and Paravirtualization",
+                      
+                    
+                
+                    ],
+                  },
+                },
+
+                {
+                  chap: {
+                    title: "Module 3 :- Virtual Machines (VMs)",
+                    desc: [
+                      "The Lifecycle of a Virtual Machine",
+                      "Structure and Formats of Virtual Machine Images",
+                      "Detailed Look at Virtual Machine Instances: Public Cloud Specificities",
+                      "Resource Allocation for Virtual Machine Instances",
+                      "Networking Within Virtual Machines: An Overview",
+                      "Exploring Amazon Machine Instances",
+                    ],
+                  },
+                },
+
+
+                {
+                  chap: {
+                    title: "Module 4 :- Application Virtualization",
+                    desc: [
+                      "Application Virtualization in VMs",
+                      
+                    
+                
+                    ],
+                  },
+                },
+
+
+                {
+                  chap: {
+                    title: "Module 5 :- Containerization",
+                    desc: [
+                      "Fundamentals of Container-Based Virtualization",
+                      "Lifecycle of Containers",
+                      "Container Image: Structure and Formats",
+                      "Managing Container Instances: Resource Allocation",
+                      "Networking in the Context of Containers",
+                      
+                    
+                
+                    ],
+                  },
+                },
+
+                {
+                  chap: {
+                    title: "Module 6 :- Unikernels",
+                    desc: [
+                      "Unikernels: Composition, Formats, and Management",
+                      "Allocating Resources and Networking in Unikernels",
+                      
+                    
+                
+                    ],
+                  },
+                },
+
+                {
+                  chap: {
+                    title: "Module 7 :- Comparative Analysis",
+                    desc: [
+                      "Differentiating Between VMs, Containers, and Unikernels",
+                      
+                    
+                
+                    ],
+                  },
+                },
+
+
+                {
+                  chap: {
+                    title: "Module 8 :- Network Function Virtualization (NFV)",
+                    desc: [
+                      "An Introduction to Network Function Virtualization",
+                      
+                    
+                
+                    ],
+                  },
+                },
+               
+              ],
+              id: 6,
+              open: false,
+            },
+          },
+          {
+            Module0: {
+              title: "TERM 6 :- Data Migration and Resilience",
+              content: [
+                {
+                  chap: {
+                    title:
+                      "Module 1 :- Introduction to Data Migration in Cloud Environments",
+                    desc: [
+                      "Understanding the Basics of Data Migration",
+                      "Key Considerations for Cloud Data Migration",
+                    
+                    ],
+                  },
+                },
+                {
+                  chap: {
+                    title: "Module 2 :- Data Migration Strategies and Best Practices",
+                    desc: [
+                      "Planning and Executing a Migration Strategy",
+                      "Tools and Techniques for Effective Data Migration",
+                      
+                    
+                
+                    ],
+                  },
+                },
+
+                {
+                  chap: {
+                    title: "Module 3 :- Building Resilience and High Availability in Cloud",
+                    desc: [
+                      "Principles of Resilience in Cloud Computing",
+                      "Designing for High Availability and Disaster Recovery",
+                    ],
+                  },
+                },
+
+
+                {
+                  chap: {
+                    title: "Module 4 :- Integrating Data Migration with DevOps Practices",
+                    desc: [
+                      "Automation in Data Migration Processes",
+                      "Continuous Integration and Continuous Deployment (CI/CD) for Data Migration",
+                      
+                    
+                
+                    ],
+                  },
+                },
+
+
+                {
+                  chap: {
+                    title: "Module 5 :- Case Studies and Real-World Applications",
+                    desc: [
+                      "Analyzing Successful Data Migration Projects",
+                      "Lessons Learned and Best Practices in Action",
+                      
+                    
+                
+                    ],
+                  },
+                },
+
+                {
+                  chap: {
+                    title: "Module 6 :- Unikernels",
+                    desc: [
+                      "Unikernels: Composition, Formats, and Management",
+                      "Allocating Resources and Networking in Unikernels",
+                      
+                    
+                
+                    ],
+                  },
+                },
+
+                {
+                  chap: {
+                    title: "Module 7 :- Comparative Analysis",
+                    desc: [
+                      "Differentiating Between VMs, Containers, and Unikernels",
+                      
+                    
+                
+                    ],
+                  },
+                },
+
+
+                {
+                  chap: {
+                    title: "Module 8 :- Network Function Virtualization (NFV)",
+                    desc: [
+                      "An Introduction to Network Function Virtualization",
+                      
+                    
+                
+                    ],
+                  },
+                },
+               
               ],
               id: 6,
               open: false,
