@@ -21,7 +21,7 @@ export const TabData = [
 
       {
         CName: "Advance Cloud Computing & DevOps Certification Program",
-        hours: "6 Months",
+        hours: "7 Months",
         url: "/cloud&devops/cloud-computing-and-devOps-certification-program",
       },
       {
@@ -59,7 +59,7 @@ export const TabData = [
       },
       {
         CName: "Advance Cloud Computing & DevOps Certification Program",
-        hours: "6 Months",
+        hours: "7 Months",
         url: "/cloud&devops/cloud-computing-and-devOps-certification-program",
       },
       {
