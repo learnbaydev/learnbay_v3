@@ -201,7 +201,7 @@
     margin-top: -5px;
   }
   .right {
-    width: 45%;
+    display: none;
   }
   .dropdown {
     display: none;
