@@ -10,7 +10,7 @@ const Popup = dynamic(() => import("../../../Global/Popup/Popup"));
 const Form = lazy(() => import("../../../Global/Form/Form"));
 
 const DevOpsProject = ({ titleCourse,
-  brochureLink, dataScience,   interstedInHide, }) => {
+  brochureLink, dataScience,   interstedInHide, adsHide, }) => {
 
   const projectImg = [
     
@@ -109,9 +109,11 @@ const DevOpsProject = ({ titleCourse,
           ))}
         </Swiper>
       </div>
+      {adsHide ? "" : (
       <div onClick={popupShow} className={Styles.buttonDiv}>
         <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
       </div>
+      )}
     </section>
   )
 }

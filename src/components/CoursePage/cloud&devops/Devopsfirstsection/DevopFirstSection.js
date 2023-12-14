@@ -26,7 +26,7 @@ function FirstSection({
       <PopupContent
         popups={popups}
         setPopups={setPopups}
-        heading="Apply For Counselling"
+        heading="Download Brochure"
         downloadBrochure
         dataScience={true}
         interstedInHide={interstedInHide}

@@ -73,7 +73,7 @@ function WhatsappFloat({ chat360code1 }) {
 
                   "brandSubTitle":"The Learner's Path",
 
-                  "brandImg":"https://course.learnbay.co/Learnbay-Favicon-L.png",
+                  "brandImg":"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/50-min.webp",
 
                   "welcomeText":"Hi there! How can I help you?",
 
