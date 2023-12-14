@@ -59,7 +59,7 @@ function TrainerSection({ idss, adsHide, }) {
             ) : (
               <div className="imgWrapper">
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/alumini-mbl.webp"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/alumini-mbls.webp"
                   loading="lazy"
                   width="350"
                   height="100"
@@ -75,7 +75,7 @@ function TrainerSection({ idss, adsHide, }) {
             {adsHide ? (
               <div className="imgWrapper">
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/alumini.webp"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/alumini.webp"
                   loading="lazy"
                   quality={100}
                   width="358"
@@ -86,7 +86,7 @@ function TrainerSection({ idss, adsHide, }) {
             ) : (
               <div className="imgWrapper">
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/alumini.webp"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-review.webp"
                   loading="lazy"
                   quality={100}
                   width="358"
