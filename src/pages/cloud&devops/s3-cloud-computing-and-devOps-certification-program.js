@@ -1,9 +1,10 @@
-import Head from "next/head";
 import { parseJSONData } from "@/Util/JsonConvertor";
+import EightSection from "@/components/CoursePage/EightSection/EightSection";
 import FirstPart from "@/components/CoursePage/FirstPart/DevOpsFirstpart";
 import SecondPart from "@/components/CoursePage/FirstPart/DevopsSecondPart";
-import Navbar from "@/components/Global/Navbar/Navbar";
 import FirstSection from "@/components/CoursePage/cloud&devops/Devopsfirstsection/DevopFirstSection";
+import Navbar from "@/components/Global/Navbar/Navbar";
+import Head from "next/head";
 
 function Blockchain({ CloudAndDevOpsCourseDataJson }) {
   const CloudAndDevOpsCourseData = parseJSONData(CloudAndDevOpsCourseDataJson);
@@ -70,10 +71,9 @@ function Blockchain({ CloudAndDevOpsCourseDataJson }) {
         />
       </Head>
       <main>
-        <Navbar dataScienceCounselling={true} interstedInHide={true} />
+        <Navbar dataScienceCounselling={true} adPage={true} />
         <FirstSection
           dataScienceCounselling={true}
-          interstedInHide={true}
           ThirdTyped="Live Interactive Classes"
           dataScience={true}
           titleCourse="Adavance Cloud Computing & DevOps Certification Program"
@@ -84,17 +84,18 @@ function Blockchain({ CloudAndDevOpsCourseDataJson }) {
           firstHeading="Advance Cloud Computing & DevOps Certification Program"
           firstTopPara="Crack Interview in top MNCs "
           idss="gaQYhVPCudQ"
+          softwareBtnHide={true}
         />
         <FirstPart
+          adsHide={true}
           SecondSectionData={
             CloudAndDevOpsCourseData.CloudAndDevOpsCourseData[0].secondSection
           }
-          interstedInHide={true}
         />
       </main>
       <main>
         <SecondPart
-        interstedInHide={true}
+          adsHide={true}
           masterSyllabusMobile={
             CloudAndDevOpsCourseData.CloudAndDevOpsCourseData[0]
               .masterSyllabusMobile
@@ -110,6 +111,7 @@ function Blockchain({ CloudAndDevOpsCourseDataJson }) {
           }
           FAQNewData={CloudAndDevOpsCourseData.CloudAndDevOpsCourseData[0].faq}
         />
+        <EightSection dataScience={true} />
       </main>
     </>
   );

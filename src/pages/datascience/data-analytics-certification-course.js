@@ -67,10 +67,10 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>Data Analytics Certification Program - Learnbay</title>
+        <title>Best Data Analytics Course Online | Data Analytics Online Training - Learnbay</title>
         <meta
           name="description"
-          content="Learn data analytics course online with Learnbay and Gain in-demand skills and boost your career. we are providing the best online data analytics courses.  Enroll now!          "
+          content="Learn data analytics course online with Learnbay and Gain in-demand skills and boost your career. we are providing the best online data analytics courses. Enroll now!"
         />
         <meta name="robots" content="index, follow" />
         <meta

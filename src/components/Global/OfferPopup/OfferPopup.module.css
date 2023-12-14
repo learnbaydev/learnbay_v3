@@ -4,10 +4,11 @@
 
   border-radius: 8px 8px 0 0;
   z-index: 9999;
-  height: 350px;
+  height: max-content;
   width: 550px;
   bottom: 0;
   left: 50px;
+  padding-bottom: 20px;
 }
 .header {
   background-color: #282828;
@@ -96,7 +97,7 @@
   width: 70%;
   font-size: 18px;
 }
-.btnWrap {
+.btnWrap, .btnWrap2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -120,9 +121,9 @@
   .OfferPopup {
     width: 95%;
     margin-bottom: 50px;
-    height: 340px;
+    height: max-content;
     left: 10px;
-    padding: 0;
+    padding:  0px 0px 30px 0px;
   }
   .header h6 {
     font-size: 22px;
@@ -130,7 +131,7 @@
   .header span {
     font-size: 16px;
   }
-  .Offer button {
+  .btnWrap {
     display: none;
   }
   .bHeading {

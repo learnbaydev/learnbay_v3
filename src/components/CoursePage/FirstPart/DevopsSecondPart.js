@@ -36,8 +36,9 @@ const SecondPart = ({
   mbldevops,
   FAQNewData,
   devops,
-  devopfee ,
-  
+  devopfee,
+  adsHide,
+  interstedInHide,
 }) => {
   const [popupData, setPopupData] = useState([]);
   // console.log(popupData);
@@ -58,7 +59,7 @@ const SecondPart = ({
           // console.log(data);
           data.page.map((popupData, i) => {
             // console.log(popData);
-            if (popupData === "Adv Data Science and AI") {
+            if (popupData === "Advance Cloud Computing & DevOps Certification Program") {
               setPopupData(data);
               // console.log(popupData);
               return;
@@ -70,21 +71,21 @@ const SecondPart = ({
     fetchPopup();
   }, []);
   return (
-    <div>
+    <div style={{ marginTop: "50px" }}>
       <SyllabusNew
         masterSyllabusMobile={masterSyllabusMobile}
         dataScienceCounselling={true}
         dataScience={true}
-        interstedInHide={true}
+        interstedInHide={interstedInHide}
         titleCourse="Advance Cloud Computing & DevOps Certification Program"
         brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
         buttonHide={true}
       />
-      <ToolsCovered  devops={true} 
-      mbldevops={mbldevops} />
+      <ToolsCovered devops={true} mbldevops={mbldevops} />
       <Certificate data={CertificateData} />
       <FeeSection
-        devopfee ={devopfee }
+        devopfee={devopfee}
+        adsHide={adsHide}
         Fee=" ₹ 1,10,000"
         FeeEmi="₹ 7,211/month"
         weekdaybatch="Weekend Morning"
@@ -92,7 +93,7 @@ const SecondPart = ({
         weekday="MON - FRI"
         weekend="SAT - SUN"
         WeekdayDate="JAN 5th"
-        WeekendDate="JAN 15th"
+        WeekendDate="JAN 13th"
         WeekendTime="09:30 AM - 01:00 PM"
         WeekdayTime="08:00 AM - 10:00 AM"
         FeeContent3="Flexible payment"
@@ -100,29 +101,33 @@ const SecondPart = ({
         FeeContent5="15 days refund policy"
         FeeContent6="No additional cost"
         dataScienceCounselling={true}
-        interstedInHide={true}
+        interstedInHide={interstedInHide}
         dataScience={true}
         titleCourse="Advance Cloud Computing & DevOps Certification Program"
         brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
-      
       />
 
       <MentorsSection />
       <SliderTab />
-      <PlacementCall  devops={devops}/>
+      {adsHide ? "" : <PlacementCall devops={devops} />}
 
       <DevOpsProject
+      adsHide={adsHide}
         titleCourse="Advance Cloud Computing & DevOps Certification Program"
         brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
         dataScience={true}
         interstedInHide={true}
       />
 
-      <FAQNew FAQNewData={FAQNewData} />
-      <Footer />
+{adsHide ? "" : <FAQNew FAQNewData={FAQNewData} />}
+      {adsHide ? "" : <Footer />}
       <BottomBar />
       <WhatsappFloat />
-      {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
+      {adsHide ? (
+        ""
+      ) : (
+        <>{popupData.length == 0 ? "" : <OfferPopup popupData={popupData} devops={devops}/>}</>
+      )}
     </div>
   );
 };

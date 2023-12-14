@@ -35,6 +35,7 @@ function SyllabusNew({
           upSkillingHide={true}
           popups={popups}
           setPopups={setPopups}
+          heading="Download Brochure"
         />
 
         <div className={styles.project}>

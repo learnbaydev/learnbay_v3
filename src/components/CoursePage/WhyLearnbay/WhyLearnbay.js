@@ -18,7 +18,7 @@ import { FaClinicMedical } from "react-icons/fa";
 import { MdOutlinePrecisionManufacturing } from "react-icons/md";
 // import { BsFillPeopleFill } from "react-icons/bs";
 
-function WhyLearnbay({ idss, targetjobs }) {
+function WhyLearnbay({ idss, targetjobs, adsHide, }) {
   const [domainSpec, setDomainSpec] = useState(false);
   const [projectInno, setProjectInno] = useState(true);
   const [projectCert, setProjectCert] = useState(false);
@@ -40,8 +40,6 @@ function WhyLearnbay({ idss, targetjobs }) {
       setProjectInno(true);
     }
   }, [0]);
-
-
 
   return (
     <section className={Styles.container} id="ProjectLab">
@@ -85,14 +83,14 @@ function WhyLearnbay({ idss, targetjobs }) {
           </div>
 
           {targetjobs ? (
-              <div
+            <div
               onClick={() => {
                 setJobroles(true);
                 setDomainSpec(false);
                 setProjectInno(false);
                 setProjectCert(false);
               }}
-              className={jobroles? Styles.ActiveInnerBox : Styles.InnerBox}
+              className={jobroles ? Styles.ActiveInnerBox : Styles.InnerBox}
             >
               <p className={jobroles ? Styles.ActiveCont : Styles.Cont}>
                 <FaUserGraduate
@@ -101,26 +99,24 @@ function WhyLearnbay({ idss, targetjobs }) {
                 Target Job Roles
               </p>
             </div>
-          ):(
-             <div
-            onClick={() => {
-              setJobroles(false);
-              setDomainSpec(true);
-              setProjectInno(false);
-              setProjectCert(false);
-            }}
-            className={domainSpec ? Styles.ActiveInnerBox : Styles.InnerBox}
-          >
-            <p className={domainSpec ? Styles.ActiveCont : Styles.Cont}>
-              <FaUserGraduate
-                className={domainSpec ? Styles.Activeicon : Styles.icon}
-              />
-              Domain Specialization
-            </p>
-          </div>
+          ) : (
+            <div
+              onClick={() => {
+                setJobroles(false);
+                setDomainSpec(true);
+                setProjectInno(false);
+                setProjectCert(false);
+              }}
+              className={domainSpec ? Styles.ActiveInnerBox : Styles.InnerBox}
+            >
+              <p className={domainSpec ? Styles.ActiveCont : Styles.Cont}>
+                <FaUserGraduate
+                  className={domainSpec ? Styles.Activeicon : Styles.icon}
+                />
+                Domain Specialization
+              </p>
+            </div>
           )}
-
-         
         </div>
 
         {domainSpec ? (
@@ -130,17 +126,14 @@ function WhyLearnbay({ idss, targetjobs }) {
                 <div className={Styles.iconBoxDesktop}>
                   <div className={Styles.iconBox}>
                     <div className={Styles.BoxIconinner}>
-                     
                       <BsBank className={Styles.domainicon} />
                       <p>BFSI</p>
                     </div>
                     <div className={Styles.BoxIconinner}>
-                  
                       <FaClinicMedical className={Styles.domainicon} />
                       <p>HEALTHCARE</p>
                     </div>
                     <div className={Styles.BoxIconinner}>
-                    
                       <AiOutlineFundProjectionScreen
                         className={Styles.domainicon}
                       />
@@ -148,17 +141,14 @@ function WhyLearnbay({ idss, targetjobs }) {
                     </div>
 
                     <div className={Styles.BoxIconinner}>
-              
                       <BsFillPeopleFill className={Styles.domainicon} />
                       <p>HUMAN RESOURCES</p>
                     </div>
                     <div className={Styles.BoxIconinner}>
-              
                       <BsTruck className={Styles.domainicon} />
                       <p>SUPPLY CHAIN</p>
                     </div>
                     <div className={Styles.BoxIconinner}>
-               
                       <MdOutlinePrecisionManufacturing
                         className={Styles.domainicon}
                       />
@@ -177,36 +167,30 @@ function WhyLearnbay({ idss, targetjobs }) {
                 <div className={Styles.iconBoxMobile}>
                   <div className={Styles.iconBox}>
                     <div className={Styles.BoxIconinner}>
-                 
                       <BsBank className={Styles.domainicon} />
                       <p>BFSI</p>
                     </div>
                     <div className={Styles.BoxIconinner}>
-                 
                       <FaClinicMedical className={Styles.domainicon} />
                       <p>HEALTHCARE</p>
                     </div>
                     <div className={Styles.BoxIconinner}>
-                   
                       <AiOutlineFundProjectionScreen
                         className={Styles.domainicon}
                       />
                       <p>MARKETING & HR</p>
                     </div>
                     <div className={Styles.BoxIconinner}>
-                   
                       <BsTruck className={Styles.domainicon} />
                       <p>SUPPLYCHAIN</p>
                     </div>
                     <div className={Styles.BoxIconinner}>
-                     
                       <MdOutlinePrecisionManufacturing
                         className={Styles.domainicon}
                       />
                       <p>MANUFACTURING</p>
                     </div>
                     <div className={Styles.BoxIconinner}>
-                   
                       <BsFillPeopleFill className={Styles.domainicon} />
                       <p>HUMAN RESOURCES</p>
                     </div>
@@ -228,7 +212,7 @@ function WhyLearnbay({ idss, targetjobs }) {
           ""
         )}
 
-{jobroles ? (
+        {jobroles ? (
           <div className={`${Styles.RightSideCert} imgWrapper`}>
             <Image
               src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/jobroles.webp"
@@ -246,16 +230,28 @@ function WhyLearnbay({ idss, targetjobs }) {
         {projectInno ? (
           <div className={Styles.RightSide}>
             <div className={Styles.firstBox}>
-              <div className="imgWrapper">
-                <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/masterPage/whylearn1.webp"
-                  loading="lazy"
-                  width="200"
-                  height="212"
-                  alt="profile-Img"
-                  onClick={() => videoSHow()}
-                />
-              </div>
+            {adsHide ? (
+                <div className="imgWrapper">
+                  <Image
+                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group-650-min.webp"
+                    loading="lazy"
+                    width="200"
+                    height="212"
+                    alt="profile-Img"
+                  />
+                </div>
+              ) : (
+                <div className="imgWrapper">
+                  <Image
+                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/masterPage/whylearn1.webp"
+                    loading="lazy"
+                    width="200"
+                    height="212"
+                    alt="profile-Img"
+                    onClick={() => videoSHow()}
+                  />
+                </div>
+              )}
               <div className={Styles.BlueBox}>
                 <FaRocket className={Styles.Icon} />
                 <p className={Styles.head}>35K+</p>

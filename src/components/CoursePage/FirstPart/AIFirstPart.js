@@ -55,8 +55,8 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
       <WhoIsProgram
         first="Bachelor's degree with consistent good academic"
         second="Minimum 1 year of IT/Non-IT work experience"
-        third="Early to mid-career professionals interested in data analytics"
-        forth="Developing skills in data analytics for future opportunities"
+        third="Early to mid-career professionals interested in AI & ML"
+        forth="Developing skills in AI & ML for future opportunities"
       />
       <WhyLearnbay idss="ZPOTy4PEnNU" />
       <GetHire />

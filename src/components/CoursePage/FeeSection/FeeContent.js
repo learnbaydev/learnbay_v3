@@ -5,7 +5,7 @@ const Button = dynamic(() => import("../../Global/Button/Button"));
 import styles from "./FeeSection.module.css";
 const FeeContent = ({
   Fee,
-
+  adsHide,
   WeekdayDate,
   WeekendDate,
   WeekdayTime,
@@ -17,7 +17,7 @@ const FeeContent = ({
   weekend,
   weekdaybatch,
   weekendbatch,
-  devopfee ,
+  devopfee,
 }) => {
   const popupShow = () => {
     setPopups(true);
@@ -26,8 +26,8 @@ const FeeContent = ({
     <div className={styles.feesmain}>
       <h2>Fee & Batch Details</h2>
       <p className={styles.pTop}>
-      Invest in your future with affordable program fees and flexible batch options
-
+        Invest in your future with affordable program fees and flexible batch
+        options
       </p>
 
       <div className={styles.ThreeCard}>
@@ -37,31 +37,24 @@ const FeeContent = ({
           </p>
           <div className={styles.imgFee}>
             {devopfee ? (
-
-            <Image
-            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/fees-cd.webp"
-            height="221"
-            alt="data science course"
-           loading="lazy"
-            width="367"
-
-            quality={40}
-            />
-            ):(
-              
               <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/feeSection.webp"
-              width="367"
-              height="221"
-              alt="data science course"
-              loading="lazy"
-              quality={40}
-            />    
-              
-              
-              
-             )}
-            
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/fees-cd.webp"
+                height="221"
+                alt="data science course"
+                loading="lazy"
+                width="367"
+                quality={40}
+              />
+            ) : (
+              <Image
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/feeSection.webp"
+                width="367"
+                height="221"
+                alt="data science course"
+                loading="lazy"
+                quality={40}
+              />
+            )}
           </div>
           <p style={{ marginTop: "10px" }}>
             Scholarships are awarded based on profile review. Eligible
@@ -76,21 +69,27 @@ const FeeContent = ({
           </div>
         </div>
         <div className={styles.second}>
-          <p className={styles.pTop}>Program Fee</p>
-          <p className={styles.cutText}>{CutFee}</p>
-          <p className={styles.price}>
-            {Fee} <span className={styles.spanText}>+ 18% GST</span>
-          </p>
-          <div className={styles.divButton} onClick={popupShow}>
-            <Button className={styles.Btn} text="Check EMI Options" />
-          </div>
-          <hr
-            style={{
-              color: "rgba(0, 0, 0, 0.20)",
-              margin: "30px 20px",
-              border: "0.9px solid",
-            }}
-          />
+          {adsHide ? (
+            ""
+          ) : (
+            <>
+              <p className={styles.pTop}>Program Fee</p>
+              <p className={styles.cutText}>{CutFee}</p>
+              <p className={styles.price}>
+                {Fee} <span className={styles.spanText}>+ 18% GST</span>
+              </p>
+              <div className={styles.divButton} onClick={popupShow}>
+                <Button className={styles.Btn} text="Check EMI Options" />
+              </div>
+              <hr
+                style={{
+                  color: "rgba(0, 0, 0, 0.20)",
+                  margin: "30px 20px",
+                  border: "0.9px solid",
+                }}
+              />
+            </>
+          )}
           <p style={{ textAlign: "center", margin: "0" }}>
             <b>EMI Options</b>
           </p>

@@ -28,23 +28,24 @@ const ContactConsellor = dynamic(() =>
 );
 const CloudDevopstestimonials = dynamic (() =>import ("../cloud&devops/CloudDevopstestimonial/Clouddevoptestimonials"))
 
-const FirstPart = ({ SecondSectionData, TestimonialData }) => {
+const FirstPart = ({ SecondSectionData, TestimonialData, adsHide, }) => {
   return (
     <>
    <CloudDevopsecond/>
-   
+   {adsHide ? ("") : (
       <SecondNavbar
         interstedInHide={true}
         dataScience={true}
         brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
         titleCourse="Advance Data Science & AI Program with Domain Specialization"
       />
+      )}
       {/* <WhoProgram
         dataScience={true}
         leftImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/advance-who.webp"
         ThirdSectionData={ThirdSectionData}
       /> */}
-      <TrainerSection idss="eautK0odE7Q" />
+      <TrainerSection idss="eautK0odE7Q" adsHide={adsHide}/>
       <CloudDevopstestimonials/>
       <WhoIsProgram
         first="Bachelor's degree with consistent good academic"
@@ -52,15 +53,16 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         third="Early to mid-career professionals interested in Cloud & DevOps"
         forth="Achieving higher career growth in Cloud & DevoOps        "
       />
-      <WhyLearnbay idss="ZPOTy4PEnNU" targetjobs={true} />
+     <WhyLearnbay idss="ZPOTy4PEnNU" targetjobs={true} adsHide={adsHide} />
       <GetHire />
-      
+      {adsHide ? ("") : (
       <ContactConsellor
         dataScience={true}
         interstedInHide={true}
         titleCourse="Advance Data Science & AI Program with Domain Specialization"
         brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
       />
+      )}
     </>
   );
 };

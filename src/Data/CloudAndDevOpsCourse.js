@@ -206,7 +206,7 @@ export const CloudAndDevOpsCourseData = [
       },
       microCertificate: {
         id: 2,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-min.webp",
         title: "Certification in Collaboration with Microsoft",
         para: [
           "Industry-certified Microsoft certificates",
@@ -781,22 +781,248 @@ export const CloudAndDevOpsCourseData = [
                 {
                   chap: {
                     title:
-                      "Module 1 :- Mastering DevOps ",
+                      " Mastering DevOps ",
                     desc: [
-                      "DevOps Tools and Practices ",
-                      "Version Control with Git",
-                      "Containerization with Docker ",
-                      "Configuration Management                ",
-                      "Continuous Integration and Continuous Delivery (CI/CD) ",
-                      "Container Orchestration with Kubernetes ",
-                      "Monitoring and Logging with ELK Stack",
-                      "Infrastructure as Code (IaC) with Terraform ",
-                      "Career Enhancement in DevOps",
+                      "",
                     ],
                   },
                 },
-               
-               
+                {
+                  chap: {
+                    title:
+                      "Module 1 :- DevOps Tools and Practices ",
+                    desc: [
+                      "",
+                    ],
+                  },
+                },
+                {
+                  chap: {
+                    title:
+                      "Introduction to DevOps",
+                    desc: [
+                      "Evolution of DevOps and its significance in modern software development.",
+                      "Core principles of DevOps practices.",
+                    ],
+                  },
+                },
+                {
+                  chap: {
+                    title:
+                      "Infrastructure Setup",
+                    desc: [
+                      "Fundamentals of server configuration and management.",
+                      "Setting up and managing virtual environments for DevOps practices.",
+                    ],
+                  },
+                },
+
+
+                {
+                  chap: {
+                    title:
+                      "Module 2 :- Version Control with Git ",
+                    desc: [
+                      "",
+                    ],
+                  },
+                },
+                {
+                  chap: {
+                    title:
+                      "Basics of Git",
+                    desc: [
+                      "Introduction to version control systems.",
+                      "Fundamental Git commands and workflows.",
+                    ],
+                  },
+                },
+
+                {
+                  chap: {
+                    title:
+                      "Advanced Git Techniques",
+                    desc: [
+                      "Branching strategies for collaborative development.",
+                      "Conflict resolution and best practices for maintaining code integrity.",
+                    ],
+                  },
+                },
+
+                {
+                  chap: {
+                    title:
+                      "Module 3:- Containerization with Docker ",
+                    desc: [
+                      "",
+                    ],
+                  },
+                },
+                {
+                  chap: {
+                    title:
+                      "Introduction to Containerization",
+                    desc: [
+                      "Concepts of containerization and its advantages.",
+                      "Docker installation and setup.",
+                    ],
+                  },
+                },
+                {
+                  chap: {
+                    title:
+                      "Docker in Practice",
+                    desc: [
+                      "Building, running, and managing Docker containers.",
+                      "Docker Compose for multi-container setups.",
+                    ],
+                  },
+                },
+                {
+                  chap: {
+                    title:
+                      "Module 4:- Configuration Management ",
+                    desc: [
+                      "",
+                    ],
+                  },
+                },
+                {
+                  chap: {
+                    title:
+                      "Puppet for Configuration Management",
+                    desc: [
+                      "Basics of Puppet: Architecture, setup, and usage.",
+                      "Writing and applying Puppet manifests.",
+                    ],
+                  },
+                },
+                {
+                  chap: {
+                    title:
+                      "Ansible for Automated Configuration",
+                    desc: [
+                      "Ansible fundamentals: Playbooks, roles, and inventory.",
+                      "Automation of repetitive tasks using Ansible.",
+                    ],
+                  },
+                },
+                {
+                  chap: {
+                    title:
+                      "Module 5:- Continuous Integration and Continuous Delivery (CI/CD)",
+                    desc: [
+                      "",
+                    ],
+                  },
+                },
+                {
+                  chap: {
+                    title:
+                      "Jenkins for CI/CD",
+                    desc: [
+                      "Setting up Jenkins for automated build and deployment.",
+                      "Integrating Jenkins with various development tools.",
+                    ],
+                  },
+                },
+                {
+                  chap: {
+                    title:
+                      "Continuous Delivery and Deployment Strategies",
+                    desc: [
+                      "Automating the software release process.",
+                     "Best practices in maintaining a CI/CD pipeline.",
+                    ],
+                  },
+                },
+                {
+                  chap: {
+                    title:
+                      "Module 6:- Container Orchestration with Kubernetes",
+                    desc: [
+                      "",
+                    ],
+                  },
+                },
+                {
+                  chap: {
+                    title:
+                      "Kubernetes Fundamentals",
+                    desc: [
+                      "Architecture of Kubernetes, pods, and services.",
+                      "Deploying applications on Kubernetes clusters.",
+                    ],
+                  },
+                },
+                {
+                  chap: {
+                    title:
+                      "Advanced Kubernetes Management",
+                    desc: [
+                      "Scaling applications with Kubernetes.",
+                      "Kubernetes networking, storage, and security.",
+                    ],
+                  },
+                },
+                {
+                  chap: {
+                    title:
+                      "Module 7:- Monitoring and Logging with ELK Stack",
+                    desc: [
+                      "",
+                    ],
+                  },
+                },
+                {
+                  chap: {
+                    title:
+                      "Elasticsearch, Logstash, and Kibana (ELK)",
+                    desc: [
+                      "Setting up the ELK Stack for logging and monitoring.",
+                      "Creating dashboards and visualizations in Kibana.",
+                    ],
+                  },
+                },
+                {
+                  chap: {
+                    title:
+                      "Integrating Monitoring into DevOps Workflows",
+                    desc: [
+                      "Automated monitoring and alerting.",
+                      "Best practices for log management and analysis.",
+                    ],
+                  },
+                },
+                {
+                  chap: {
+                    title:
+                      "Module 8:- Infrastructure as Code (IaC) with Terraform",
+                    desc: [
+                      "",
+                    ],
+                  },
+                },
+                {
+                  chap: {
+                    title:
+                      "Introduction to IaC and Terraform",
+                    desc: [
+                      "Principles of IaC and its benefits.",
+                      "Installing and configuring Terraform.",
+                    ],
+                  },
+                },
+                {
+                  chap: {
+                    title:
+                      "Building Infrastructure with Terraform",
+                    desc: [
+                      "Writing Terraform scripts for automated infrastructure deployment.",
+                      "Managing and scaling infrastructure with Terraform.",
+                    ],
+                  },
+                },
               ],
               id: 6,
               open: false,
