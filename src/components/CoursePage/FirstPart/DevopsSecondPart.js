@@ -121,7 +121,7 @@ const SecondPart = ({
 
 {adsHide ? "" : <FAQNew FAQNewData={FAQNewData} />}
       {adsHide ? "" : <Footer />}
-      <BottomBar />
+      {adsHide ? "" : <BottomBar />}
       <WhatsappFloat />
       {adsHide ? (
         ""
