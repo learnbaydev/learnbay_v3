@@ -18,6 +18,7 @@ const FeeSection = ({
   weekendbatch,
   interstedInHide,
   devopfee,
+  adsHide,
 }) => {
   const [popups, setPopups] = useState(false);
 
@@ -34,6 +35,7 @@ const FeeSection = ({
       />
       <FeeContent
         Fee={Fee}
+        adsHide={adsHide}
         dataScience={dataScience}
         WeekdayDate={WeekdayDate}
         WeekendDate={WeekendDate}

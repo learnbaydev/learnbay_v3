@@ -23,6 +23,9 @@ const getEndPoint = (pathname, event) => {
   if (pathname === "/resume-builder") {
     endPoint = "https://getform.io/f/fd9da107-864c-4617-a52a-7e112297efa6";
   }
+  if (pathname === "/cloud&devops/s3-cloud-computing-and-devOps-certification-program") {
+    endPoint = "https://getform.io/f/785b3539-e7ce-497c-a975-0dc288c3286c";
+  }
   return endPoint;
   // ... (Logic to determine the endpoint based on the router)
 };

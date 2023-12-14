@@ -3,7 +3,7 @@ import Styles from "./TrainerSection.module.css";
 import Image from "next/image";
 import VideoPopup from "../VideoPopup/VideoPopup";
 
-function TrainerSection({ idss }) {
+function TrainerSection({ idss, adsHide }) {
   // const [vId, setVId] = useState("");
 
   const [popups, setPopups] = useState(false);
@@ -43,34 +43,58 @@ function TrainerSection({ idss }) {
               </div>
             ))}
           </div>
-
           <div className={Styles.mobileView}>
             <h2>Alumni Spotlight</h2>
-            <div className="imgWrapper">
-              <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/tariner_sec.webp"
-                loading="lazy"
-                width="350"
-                height="100"
-                alt="trainer mobile"
-                onClick={() => videoSHow(popupShow)}
-              />
-            </div>
+            {adsHide ? (
+              <div className="imgWrapper">
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/alumini-mbl.webp"
+                  loading="lazy"
+                  width="350"
+                  height="100"
+                  alt="trainer mobile"
+                />
+              </div>
+            ) : (
+              <div className="imgWrapper">
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/alumini-mbl.webp"
+                  loading="lazy"
+                  width="350"
+                  height="100"
+                  alt="trainer mobile"
+                  onClick={() => videoSHow(popupShow)}
+                />
+              </div>
+            )}
           </div>
 
           <div className={Styles.proImgWrap}>
             <h2>Alumni Spotlight</h2>
-            <div className="imgWrapper">
-              <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-review.webp"
-                loading="lazy"
-                quality={100}
-                width="358"
-                height="100"
-                alt="profile-Img"
-                onClick={() => videoSHow(popupShow)}
-              />
-            </div>
+            {adsHide ? (
+              <div className="imgWrapper">
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/alumini.webp"
+                  loading="lazy"
+                  quality={100}
+                  width="358"
+                  height="100"
+                  alt="profile-Img"
+                />
+              </div>
+            ) : (
+              <div className="imgWrapper">
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/alumini.webp"
+                  loading="lazy"
+                  quality={100}
+                  width="358"
+                  height="100"
+                  alt="profile-Img"
+                  onClick={() => videoSHow(popupShow)}
+                />
+              </div>
+            )}
           </div>
         </div>
       </section>

@@ -206,7 +206,7 @@ export const CloudAndDevOpsCourseData = [
       },
       microCertificate: {
         id: 2,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-min.webp",
         title: "Certification in Collaboration with Microsoft",
         para: [
           "Industry-certified Microsoft certificates",
