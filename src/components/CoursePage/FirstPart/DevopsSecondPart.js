@@ -88,7 +88,7 @@ const SecondPart = ({
         adsHide={adsHide}
         Fee=" ₹ 1,10,000"
         FeeEmi="₹ 7,211/month"
-        weekdaybatch="Weekend Morning"
+        weekdaybatch="Weekday Morning"
         weekendbatch="Weekend  Morning"
         weekday="MON - FRI"
         weekend="SAT - SUN"
@@ -121,7 +121,7 @@ const SecondPart = ({
 
 {adsHide ? "" : <FAQNew FAQNewData={FAQNewData} />}
       {adsHide ? "" : <Footer />}
-      {adsHide ? "" : <BottomBar />}
+      <BottomBar />
       <WhatsappFloat />
       {adsHide ? (
         ""

@@ -121,6 +121,13 @@ const NavbarContent = ({ adPage, setPopups }) => {
           ""
         )}
       </div>
+      {adPage ? (<div
+        className={`${styles.righta} flexBox flexAlignCenter flexJustSpaceBetween`}
+      >
+        <div onClick={popupShow}>
+          <Button text="Apply Now" outline={true} />
+        </div>
+      </div>) : (
       <div
         className={`${styles.right} flexBox flexAlignCenter flexJustSpaceBetween`}
       >
@@ -139,6 +146,7 @@ const NavbarContent = ({ adPage, setPopups }) => {
           <Button text="Apply Now" outline={true} />
         </div>
       </div>
+      )}
     </nav>
   );
 };

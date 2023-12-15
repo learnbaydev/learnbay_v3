@@ -20,7 +20,7 @@
   width: 230px;
 }
 .left button,
-.right button {
+.right button, .righta button {
   border-radius: 2.67px;
   color: #fff;
   font-size: 16px;
@@ -30,7 +30,7 @@
   letter-spacing: 0.7px;
 }
 
-.right button {
+.right button, .righta button {
   font-size: 18px;
   padding: 10px 20px;
 }
@@ -50,7 +50,7 @@
   margin-top: -5px;
 }
 
-.right span {
+.right span, .righta button {
   margin-right: 50px;
   cursor: pointer;
   font-weight: 400;
@@ -202,6 +202,12 @@
   }
   .right {
     display: none;
+  }
+  .righta {
+    width: 60%;
+  }
+  .righta button {
+    margin-right: 0;
   }
   .dropdown {
     display: none;
