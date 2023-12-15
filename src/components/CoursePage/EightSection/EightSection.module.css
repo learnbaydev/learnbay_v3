@@ -47,13 +47,6 @@
 
 @media (max-width: 480px) {
     .EightSection {
-        position: initial;
-        padding: 20px;
-        display: grid;
-        text-align: center;
-        gap: 10px;
-    }
-    .btnInner button {
-        margin: auto;
+        display: none;
     }
 }

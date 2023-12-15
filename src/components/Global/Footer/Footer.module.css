@@ -158,5 +158,6 @@
 @media (max-width: 481px) {
   .FooterSection {
     padding: 0px;
+    padding-bottom: 50px;
   }
 }
