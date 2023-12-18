@@ -892,7 +892,7 @@ export const DSDubaiCourseData = [
     SyllabusBotlist45: " Big Data & Spark Analytics",
     SyllabusBotlist46: "Big Data & Spark Analytics",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
     JobHead1: "Interview preparation sessions at Learnbay",
     JobBot1:
       "As part of our data science training in Dubai, students will undergo several practice interviews for a thorough interview preparation process on data science. Our dedicated career coaches will guide you with resume building, conducting mock interviews, and evaluate their competencies, and providing feedback. They ensure that every learner is professionally trained to crack a potential data science job in Dubai.",

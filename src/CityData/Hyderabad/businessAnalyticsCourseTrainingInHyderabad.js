@@ -725,7 +725,7 @@ export const BusinessAnalyticsHyderabadCourseData = [
     SyllabusBotlist45: "Model Deployment and Management",
     SyllabusBotlist46: "Advanced Topics in Machine Learning on AWS and Azure",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf",
     JobBot1:
       "Learnbay's learners have access to a unique element of the Job Assistance Program. We provide resume preparation workshops, one-on-one mock interviews, and soft-skills training after the end of the Business analytics course with placement. We also assist you in developing professional presentation abilities, which are critical for business analyst positions. It's the most effective way to prepare for technical interviews. Finally, we assist our students in developing a dynamic portfolio that will impress potential employers in Hyderabad.",
     JobBot5:

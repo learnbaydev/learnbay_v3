@@ -772,7 +772,7 @@ export const DADubaiCourseData = [
     SyllabusBotlist45: " Time Series",
     SyllabusBotlist46: "Introduction to Time Series Forecasting",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
     JobBot1:
       "Learnbay Data analytics course will train you such that you learn the job-ready skills in Dubai. Learners who successfully complete our IBM data analytics course will get access to our Job Assistance service. Our career experts conduct mock interviews with various firms. They also guide them with portfolio and project management along with interpersonal skills training. After completion of data analytics certification, around 700+ students have got placed in high-paying positions in Dubai firms.",
     JobHead2: "What is data analytics in Dubai?",

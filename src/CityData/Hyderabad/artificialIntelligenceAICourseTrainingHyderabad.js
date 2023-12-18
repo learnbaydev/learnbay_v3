@@ -957,7 +957,7 @@ export const AIHyderabadCourseData = [
     SyllabusBotlist45: "Deployment (AWS+Azure)",
     SyllabusBotlist46: "Model Training and Evaluation",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
     JobBot1:
       "Learnbay's career consultants will assist you in developing your CV and portfolio. Learnbay also refers your resume and portfolio to other companies. Learnbay guarantees top-tier companies in Hyderabad will interview you. You'll also get exposure to mock interviews that make you prepare for difficult real-life interviews.",
     JobBot2:

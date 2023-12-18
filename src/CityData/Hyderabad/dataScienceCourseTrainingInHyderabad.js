@@ -885,7 +885,7 @@ export const DataScienceHyderabadCourseData = [
     SyllabusBotlist45: " Big Data & Spark Analytics",
     SyllabusBotlist46: "Big Data & Spark Analytics",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
     JobBot1:
       "The Data science curriculum at Learnbay includes a Job Assistance program. Students will receive CV preparation and soft skills training sessions by the end of the IBM Data science course. Our students gain confidence before the interviews by participating in various company-specific mock interviews. Furthermore, our representatives verify that your portfolio meets industry standards and appeals to hiring managers. In Hyderabad, you can take a Data science course with a placement assistance. You can claim a Data science course fee refund if you cannot find a Data science career role within six months of completing the course.",
     JobBot2:

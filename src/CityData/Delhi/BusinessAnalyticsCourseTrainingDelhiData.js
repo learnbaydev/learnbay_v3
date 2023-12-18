@@ -772,7 +772,7 @@ export const BADelhiCourseData = [
     SyllabusBotlist45: "Model Deployment and Management",
     SyllabusBotlist46: "Advanced Topics in Machine Learning on AWS and Azure",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf",
     JobHead1: "Interview preparation sessions:",
     JobBot1:
       "Learnbay mentors constantly support students and ensure that they get placed in highly lucrative positions. Once students finish their modules, our coaches start training them with soft skills, resume preparation, project management, and presentation abilities. They also conduct various mock interviews with hiring Managers so that students learn from their mistakes and enhance their overall interview skills.",

@@ -876,7 +876,7 @@ export const DSDelhiCourseData = [
     SyllabusBotlist45: " Big Data & Spark Analytics",
     SyllabusBotlist46: "Big Data & Spark Analytics",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
     JobBot1:
       "Data science certifications at Learnbay will help you prepare for interviews. Several company-specific mock interviews bolster our students' confidence at the interview table. Learnbay instructors ensure that your resume and portfolio are up to date to attract recruiters. You will receive domain-specific full-stack data scientist training, which will be reflected in your interview preparation.",
     JobBot2:

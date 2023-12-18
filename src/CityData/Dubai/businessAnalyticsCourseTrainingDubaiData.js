@@ -765,7 +765,7 @@ export const BADubaiCourseData = [
     SyllabusBotlist45: "Inventory Demand Forecasting",
     SyllabusBotlist46: "Retain Analytics",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf",
     JobHead1:
       "Job orientation program in Business analytics training by Learnbay",
     JobBot1:

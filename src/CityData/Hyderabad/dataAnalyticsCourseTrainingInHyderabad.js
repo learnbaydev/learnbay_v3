@@ -768,7 +768,7 @@ export const DataAnalyticsHyderabadCourseData = [
     SyllabusBotlist45: " Time Series",
     SyllabusBotlist46: "Introduction to Time Series Forecasting",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
     JobBot1:
       "Learnbay aims to introduce high-quality data analysts in Hyderabad. For candidates looking for positions in data analytics, we conduct mock interviews as part of our job support program. We also assist the students with resume writing, technical skills training, and soft skill development.",
     JobBot2:

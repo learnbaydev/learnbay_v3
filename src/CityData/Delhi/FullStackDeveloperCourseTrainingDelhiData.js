@@ -789,7 +789,7 @@ export const FSDelhiCourseData = [
     ModuleBot3:
       "Our Full-stack developer online course in Delhi covers topics like array overview, string, stack, best-average-worst case complexities hierarchy, complexity classes (P vs. NP problem), AVL tree, backtracking algorithm, graph and recursion, and many more exciting and trending tools.",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
     JobHead1:
       "'mock interview sessions, preparing Learnbay alumni for their dream interviews.'",
     JobBot1:

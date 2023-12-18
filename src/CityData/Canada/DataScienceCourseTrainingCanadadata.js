@@ -897,7 +897,7 @@ export const DataSciencecanadaCourseData = [
     SyllabusBotlist45: " Big Data & Spark Analytics",
     SyllabusBotlist46: "Big Data & Spark Analytics",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
     JobHead1: "Job Assurance Data Science Course in Canada at Learnbay",
     JobBot1:
       "By the end of the IBM data science certification, students will get support for Job Assistance which includes, Resume preparation, Soft skills training as well as mock interviews. These company-specific practice interviews will boost our trainee’s confidence ahead of their interviews.",

@@ -158,12 +158,12 @@ export default function Home() {
           cityParaCont="Enroll in the best Job-ready full-stack software development course in Mumbai. Take a 10-step step ahead of others towards the most lucrative salary package of product-based MNCs, which you deserve."
           dataScience={true}
           titleCourse="Advanced Data Science and AI Program with domain specialization"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
           firstToparaImg="with domain specialization"
           firstHeading="Advanced Data Science and AI Program"
           firstTopPara="Specialization over generalization"
-          idss="bfl64ANfSV0"
+          idss="YWxTtvb3x-U"
         />
         <SecondSection
           SecondSectionData={FullStackMumbaiCourseData[0].secondSection}

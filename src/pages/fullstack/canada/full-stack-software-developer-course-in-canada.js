@@ -156,7 +156,7 @@ export default function Home() {
           ThirdTyped="Live Interactive Classes"
           dataScience={true}
           titleCourse="Full-Stack Software Developer Course In Canada"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
           idss="Jn2puEQC8yk"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/head/W+Dev.png"
           firstToparaImg="To Achieve Your Dream Job"

@@ -765,7 +765,7 @@ export const BAMumbaiCourseData = [
     SyllabusBotlist45: "Model Deployment and Management",
     SyllabusBotlist46: "Advanced Topics in Machine Learning on AWS and Azure",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf",
     JobHead1:
       "How is the job orientation program associated with Learnbay business analytics training in Mumbai?",
     JobBot1:

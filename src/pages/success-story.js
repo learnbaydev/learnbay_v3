@@ -53,7 +53,7 @@ export default function Home() {
         <TrainerSection idss="eautK0odE7Q" />
         <LinkedinReview />
         <GoogleReview />
-        {/* <VideoReview idss="bfl64ANfSV0" /> */}
+        {/* <VideoReview idss="YWxTtvb3x-U" /> */}
         <ReviewCourse />
         <ReviewSwitch />
         <Testimonial

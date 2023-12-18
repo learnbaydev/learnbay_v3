@@ -761,7 +761,7 @@ export const BAPuneCourseData = [
     SyllabusBotlist45: "Model Deployment and Management",
     SyllabusBotlist46: "Advanced Topics in Machine Learning on AWS and Azure",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf",
     JobBot1:
       "Learnbay's guides and mentors always work hard and ensure that top Multinational companies and leading startups recruit our students. Once students complete their Business Analytics course along with the project work, faculties start to train them for interviews and help them prepare resumes and portfolios. Learnbay experts even concentrate on developing our students' soft skills, which is essential with other technical abilities. Through Learnbay Business analytics training associated job assistance program, students can quickly get through interviews to work as successful Business analysts.",
     JobHead2:

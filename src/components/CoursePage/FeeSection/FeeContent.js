@@ -121,12 +121,14 @@ const FeeContent = ({
         <div className={styles.third}>
           <p>Batch Details</p>
           <div className={styles.boxOrange}>
-            <p> {weekdaybatch}</p>
+            <div className={styles.batchImg}>
+              <p>{weekendbatch}</p>
+            </div>
             <div className={styles.batches}>
-              <p className={styles.date}>{WeekdayDate}</p>
+              <p className={styles.date}>{WeekendDate}</p>
               <div className={styles.Time}>
-                <p className={styles.day}>{weekday}</p>
-                <p className={styles.paraBot}>{WeekdayTime}</p>
+                <p className={styles.day}>{weekend}</p>
+                <p className={styles.paraBot}>{WeekendTime}</p>
               </div>
             </div>
           </div>
@@ -137,15 +139,14 @@ const FeeContent = ({
               border: "0.9px solid",
             }}
           />
+
           <div className={styles.boxOrange}>
-            <div className={styles.batchImg}>
-              <p>{weekendbatch}</p>
-            </div>
+            <p> {weekdaybatch}</p>
             <div className={styles.batches}>
-              <p className={styles.date}>{WeekendDate}</p>
+              <p className={styles.date}>{WeekdayDate}</p>
               <div className={styles.Time}>
-                <p className={styles.day}>{weekend}</p>
-                <p className={styles.paraBot}>{WeekendTime}</p>
+                <p className={styles.day}>{weekday}</p>
+                <p className={styles.paraBot}>{WeekdayTime}</p>
               </div>
             </div>
           </div>
