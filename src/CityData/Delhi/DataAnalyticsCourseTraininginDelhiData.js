@@ -782,7 +782,7 @@ export const DADelhiCourseData = [
     SyllabusBotlist45: " Time Series",
     SyllabusBotlist46: "Introduction to Time Series Forecasting",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
     JobHead1: "Interview preparation process at Learnbay:",
     JobBot1:
       "Learnbay Provides a dedicated job assistance program for its learners. Resume built-up sessions, interview preparations, access to the alumni network, and LinkedIn profile building are all part of this assistance feature. Additionally, our data analyst students will be trained through personalized mock interviews with various hiring Managers allowing them to develop confidence at the actual interview table.",

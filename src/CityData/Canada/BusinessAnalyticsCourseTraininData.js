@@ -728,7 +728,7 @@ export const BAcanadaCourseData = [
     SyllabusBotlist45: "Model Deployment and Management",
     SyllabusBotlist46: "Advanced Topics in Machine Learning on AWS and Azure",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf",
     JobHead1: "Interview Preparation program at Learnbay:",
     JobBot1:
       "Learnbay offers a dedicated feature of a job assistance program for its students. This support includes strong portfolio building and soft skills training. In addition, we also offer 1:1 mock interviews with various hiring Managers to assist you in gaining the confidence to crack difficult interviews. Apart from this, we also prepare our students with presentation and communication skills which are very crucial for business analyst roles.",

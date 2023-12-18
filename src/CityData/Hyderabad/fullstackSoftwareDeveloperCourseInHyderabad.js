@@ -851,7 +851,7 @@ export const FullStackHyderabadCourseData = [
     ModuleBot3:
       "Learnbay's full-stack courses in Hyderabad include tools like String, Stack, array overview, binary research, Best, average, and worst case complexities hierarchy, Complexity classes (P vs NP problem), AVL tree, backtracking algorithm, recursion and graph, and many more trending tools.",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
     JobHead1:
       "'mock interview sessions, preparing Learnbay alumni for their dream interviews.'",
     JobBot1:

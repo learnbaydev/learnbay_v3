@@ -955,7 +955,7 @@ export const AIChennaiCourseData = [
     SyllabusBotlist45: "Deployment (AWS+Azure)",
     SyllabusBotlist46: "Model Training and Evaluation",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
     JobBot1:
       "Learnbay's career coaches and mentors will help you develop your resume and portfolio, as well as refer your profiles to other companies. They ensure that you get guaranteed interviews with top leading organizations in Chennai. In addition, you'll also get multiple mock artificial intelligence interviews to make you ready for challenging real interviews.",
     JobBot2:

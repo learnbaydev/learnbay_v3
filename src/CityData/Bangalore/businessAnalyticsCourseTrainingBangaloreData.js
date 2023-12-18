@@ -758,7 +758,7 @@ export const BABangaloreCourseData = [
     SyllabusBotlist45: "Model Deployment and Management",
     SyllabusBotlist46: "Advanced Topics in Machine Learning on AWS and Azure",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Business+Analytics+Certification+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf",
     JobBot1:
       "Learnbay's mentors are dedicated to providing job assistance to its learners until they get placed. Once the Business Analytics program is completed, Learnbay faculties provide you with a resume prep session, one on one mock interviews, and soft skill enhancement training. We even help students improve their presentational and communication skills to a professional level, which is one of the main skills required to be a Business Analyst. Students can easily crack business analytics interviews and even start working as Business Analysts in top MNCs.",
     JobHead2: "Job Role Associated with Business Analytics Field In Bangalore",

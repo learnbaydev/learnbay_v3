@@ -940,7 +940,7 @@ export const AIPuneCourseData = [
     SyllabusBotlist45: "Deployment (AWS+Azure)",
     SyllabusBotlist46: "Model Training and Evaluation",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
 
     JobBot1:
       "Learnbay Artificial Intelligence certifications in Pune even come with a Placement Assistance. The artificial intelligence courses offered by Learnbay come with mock interview training sessions, resume help, and an unlimited number of MNC and start-up referrals, until you land on suitable AI job role.",

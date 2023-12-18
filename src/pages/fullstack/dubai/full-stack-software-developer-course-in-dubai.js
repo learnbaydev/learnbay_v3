@@ -156,12 +156,12 @@ export default function Home() {
           ThirdTyped="Live Interactive Classes"
           cityParaCont=" Enroll in the best Job-ready full-stack software development course in Dubai. Take a 10-step step ahead of others towards the most lucrative salary package of product-based MNCs, which you deserve."
           titleCourse="Full-Stack Software Developer Course In Dubai To Achieve Your Dream Job"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/head/W+Dev.png"
           firstHeading="Full-Stack Software Developer Course In Dubai"
           firstTopPara="Ace Your Coding Interview at PRODUCT Based Companies"
           firstToparaImg=" To Achieve Your Dream Job"
-          idss="bfl64ANfSV0"
+          idss="YWxTtvb3x-U"
         />
         <SecondSection
           SecondSectionData={FullStackDubaiCourseData[0].secondSection}

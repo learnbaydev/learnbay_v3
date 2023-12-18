@@ -160,12 +160,12 @@ export default function Home() {
           cityParaCont=" Be eligible to work as an AI/ML expert in MNC/PRODUCT Based Companies. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
           dataScience={true}
           titleCourse="Machine Learning Course Training In Chennai"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/head/ML.png"
           firstHeading="Machine Learning Course "
           firstTopPara="Machine Learning Course For Experienced Tech Professionals"
           firstToparaImg="Training In Chennai"
-          idss="bfl64ANfSV0"
+          idss="YWxTtvb3x-U"
         />
         <SecondSection
           SecondSectionData={MachineLearningChennaiCourseData[0].secondSection}
@@ -180,10 +180,12 @@ export default function Home() {
           <FeeSection
             Fee="₹ 1,10,000"
             FeeEmi="₹ 7,211/month"
-            WeekdayDate="NOV 17th"
-            WeekendDate="NOV 26th"
+            weekdaybatch="Weekday Evening"
+            weekendbatch="Weekend  Morning"
+            WeekdayDate="DEC 24th"
+            WeekendDate="Jan 10th"
             WeekendTime="09:30 AM - 1:00 PM"
-            WeekdayTime="08:00 AM - 10:00 AM"
+             WeekdayTime="08:00 PM - 10:00 PM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
             FeeContent5="15 days refund policy"

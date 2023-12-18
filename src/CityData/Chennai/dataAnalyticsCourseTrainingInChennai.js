@@ -767,7 +767,7 @@ export const DataAnalyticsChennaiCourseData = [
     SyllabusBotlist45: " Time Series",
     SyllabusBotlist46: "Introduction to Time Series Forecasting",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
     JobBot1:
       "Learnbay aims to produce high-quality data analysts across Chennai. Our job assistance program includes mock interviews for candidates seeking jobs in data analytics roles. We also guide students with resume preparation, technical skills, and soft skill grooming sessions. ",
     JobBot2:

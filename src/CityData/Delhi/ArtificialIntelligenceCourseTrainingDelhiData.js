@@ -939,7 +939,7 @@ export const AIelhiCourseData = [
     SyllabusBotlist45: "Deployment (AWS+Azure)",
     SyllabusBotlist46: "Model Training and Evaluation",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
     JobHead1: "What is the process of job assistance in Learnbay AI courses?",
     JobBot1:
       "The career consultants at Learnbay will help you improve your CV and portfolio. Your CV and portfolio are also sent to other firms through Learnbay. Learnbay assures that you will get interviewed by top-tier organizations in Delhi. You'll also have the opportunity to participate in simulated interviews, which will help you prepare for difficult real-life interviews.",

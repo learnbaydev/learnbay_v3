@@ -1506,7 +1506,7 @@ export const DataScienceMumbaiCourseData = [
     SyllabusBotlist45: " Big Data & Spark Analytics",
     SyllabusBotlist46: "Big Data & Spark Analytics",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+Data+Science+and+AI+Certification+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
     JobHead1: "What is a job assistance program?",
     JobBot1:
       "While enrolling in any course or program, there is always thought persisting in learners about the jobs and placement after the course completion. So, here the job assistance program comes to play.",

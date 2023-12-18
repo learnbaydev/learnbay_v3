@@ -935,7 +935,7 @@ export const DABangaloreCourseData = [
     SyllabusBotlist45: " Time Series",
     SyllabusBotlist46: "Introduction to Time Series Forecasting",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
     JobHead1:
       "What does the Data Analytics Job Assistance Program by Learnbay in Bangalore include?",
     JobBot1:

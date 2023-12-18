@@ -468,7 +468,7 @@ export const FSDPuneCourseData = [
     ModuleBot3:
       "Learnbay Full-stack developer course in Pune covers tools like Big-Omega, Best, Average, and worst-case complexities hierarchy, complexity classes (P vs. NP problem), asymptotic analysis, String, Stack, array overview, binary search, and AVL tree, backtracking algorithm, graph, and recursion and many more exciting tools for students to learn.",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Full+Stack+Software+Development+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
     JobBot1:
       "Learnbay's full-stack developer course with placement assists students in Pune with resume building, so your profile shows the right skills during the interview. Learnbay dedicatedly helps our students even after course completion because we know that resume building and job referrals are as important as completing the course.",
     JobHead2:

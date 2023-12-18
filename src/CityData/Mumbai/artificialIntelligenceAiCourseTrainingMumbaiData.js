@@ -948,7 +948,7 @@ export const AIMumbaiCourseData = [
     SyllabusBotlist45: "Deployment (AWS+Azure)",
     SyllabusBotlist46: "Model Training and Evaluation",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
     JobHead1: "Artificial Intelligence Interview preparation in Mumbai:",
     JobBot1:
       "The artificial intelligence courses offered by Learnbay guarantee MNC/PRODUCT Based Companies interviews for its students. There is a specific artificial intelligence course in Mumbai that even refunds their course fees in case of unsuccessful placement.",

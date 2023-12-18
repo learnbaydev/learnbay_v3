@@ -373,8 +373,8 @@ export default function Home() {
       />
       <HomeLine />
       <Course dataScience={true} radio={true} interstedInHide={true} />
-      <WhyLearnbay ids="bfl64ANfSV0" />
-      <ProjectSection ids="bfl64ANfSV0" nolinkO={true} linkomb={true} />
+      <WhyLearnbay ids="YWxTtvb3x-U" />
+      <ProjectSection ids="YWxTtvb3x-U" nolinkO={true} linkomb={true} />
       <GetHire />
       <TrainerSection idss="eautK0odE7Q" />
       <Testimonial redirectDS={true} heading="" Testimonial={testimonial} />

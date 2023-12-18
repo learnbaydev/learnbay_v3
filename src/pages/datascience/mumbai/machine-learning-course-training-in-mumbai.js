@@ -162,7 +162,7 @@ export default function Home() {
           firstToparaImg="Advance Program"
           firstHeading="Machine Learning Course Training in Mumbai "
           firstTopPara="Industrial project-based job-oriented training"
-          idss="bfl64ANfSV0"
+          idss="YWxTtvb3x-U"
         />
         <SecondSection
           SecondSectionData={MLMumbaiCourseData[0].secondSection}
@@ -177,10 +177,12 @@ export default function Home() {
           <FeeSection
             Fee="₹ 90,000"
             FeeEmi="₹ 5,900/month"
-            WeekdayDate="NOV 17th"
-            WeekendDate="NOV 26th"
+            weekdaybatch="Weekday Evening"
+            weekendbatch="Weekend  Morning"
+            WeekdayDate="DEC 24th"
+            WeekendDate="Jan 10th"
             WeekendTime="09:30 AM - 1:00 PM"
-            WeekdayTime="08:00 AM - 10:00 AM"
+             WeekdayTime="08:00 PM - 10:00 PM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
             FeeContent5="15 days refund policy"

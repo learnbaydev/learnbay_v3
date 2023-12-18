@@ -942,7 +942,7 @@ export const AIcanadaCourseData = [
     SyllabusBotlist45: "Deployment (AWS+Azure)",
     SyllabusBotlist46: "Model Training and Evaluation",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
     JobHead1: "What is the Job Assist Program in the Learnbay AI courses?",
     JobBot1:
       "Learnbay career coaches help students in developing impressive portfolios as well as refer their profiles to other renowned companies. They ensure you get guaranteed interviews in top Canadian firms. Besides this, you’ll also be provided with multiple mock interviews for AI and ML positions to help you in facing real-world interviews.",

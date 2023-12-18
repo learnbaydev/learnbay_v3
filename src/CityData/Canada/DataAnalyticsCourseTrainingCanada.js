@@ -792,7 +792,7 @@ export const DAcanadaCourseData = [
     SyllabusBotlist45: " Time Series",
     SyllabusBotlist46: "Introduction to Time Series Forecasting",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Analytics+Certification+Program+Learnbay.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
     JobBot1:
       "Learnbay’s Job assistance program is what makes it the best data analytics institute in Canada, where students will receive support with resume preparation and soft skill training workshops.",
     JobBot2:
