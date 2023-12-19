@@ -68,12 +68,11 @@ function Blockchain({ DataScienceCourseDataJson }) {
     <>
       <Head>
         <title>
-          Advance AI & ML Certification Program for Tech Professionals -
-          Learnbay
+        Master AI & ML with Learnbay's Advanced Certification Program - Learnbay
         </title>
         <meta
           name="description"
-          content="Enroll in our AI and ML Course. It provides you with a wide knowledge of AI and ML tools and techniques and helps you land your dream job.          "
+          content="Unlock the future with Learnbay's Advanced AI & ML Certification Program. Gain expertise in artificial intelligence and machine learning through our comprehensive and hands-on training. Elevate your career today!"
         />
         <meta name="robots" content="index, follow" />
         <meta

@@ -37,7 +37,7 @@ export const courseDetails = [
             titleCourse:
               "Advance Cloud Computing & DevOps Certification Program",
             para: [
-              "10 months | 3 Projects",
+              "7 months | 3 Projects",
               "Global Certification",
               "Designed by industry experts",
               ,
@@ -370,7 +370,7 @@ export const courseDetailsM = [
             titleCourse:
               "Advance Cloud Computing & DevOps Certification Program",
             para: [
-              "10 months | 3 Projects",
+              "7 months | 3 Projects",
               "Global Certification",
               "Designed by industry experts",
               ,
@@ -516,7 +516,7 @@ export const courseDetailsM = [
             titleCourse:
               "Advance Cloud Computing & DevOps Certification Program",
             para: [
-              "10 months | 3 Projects",
+              "7 months | 3 Projects",
               "Global Certification",
               "Designed by industry experts",
               ,

@@ -39,7 +39,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
       if (popupResponse.status === 200) {
         const { popData } = await popupResponse.json();
         const foundPopup = popData.find((data) =>
-          data.page.includes("Adv Data Science and AI")
+          data.page.includes("Data Analytics Program")
         );
         if (foundPopup) {
           setPopupData(foundPopup);

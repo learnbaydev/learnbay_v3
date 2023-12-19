@@ -352,7 +352,7 @@ const nextConfig = {
       },
       {
         source: "/data-science-course/data-science-certification-courses",
-        destination: "/datascience/data-science-certification-courses",
+        destination: "/datascience/advance-data-science-certification-courses",
         permanent: true,
       },
       {
@@ -381,7 +381,7 @@ const nextConfig = {
       },
       {
         source: "/data-science-course/data-science-certification-courses",
-        destination: "/datascience/data-science-certification-courses",
+        destination: "/datascience/advance-data-science-certification-courses",
         permanent: true,
       },
       {
@@ -704,7 +704,7 @@ const nextConfig = {
       },
       {
         source: "/data-science-course/data-science-certification-courses",
-        destination: "/datascience/data-science-certification-courses",
+        destination: "/datascience/advance-data-science-certification-courses",
         permanent: true,
       },
       {
@@ -860,7 +860,7 @@ const nextConfig = {
 
       {
         source: "/data-science-certification-courses-generic",
-        destination: "/datascience/data-science-certification-courses",
+        destination: "/datascience/advance-data-science-certification-courses",
         permanent: true,
       },
 
@@ -907,12 +907,12 @@ const nextConfig = {
       },
       {
         source: "/data-science-certification-courses",
-        destination: "/datascience/data-science-certification-courses",
+        destination: "/datascience/advance-data-science-certification-courses",
         permanent: true,
       },
       {
         source: "/data-science-certification-courses",
-        destination: "/datascience/data-science-certification-courses",
+        destination: "/datascience/advance-data-science-certification-courses",
         permanent: true,
       },
       {
@@ -1276,7 +1276,7 @@ const nextConfig = {
       },
       {
         source: "/datascience/data-science-certification-courses",
-        destination: "/datascience/data-analytics-certification-course",
+        destination: "/datascience/advance-data-science-certification-courses",
         permanent: true,
       },
       {
