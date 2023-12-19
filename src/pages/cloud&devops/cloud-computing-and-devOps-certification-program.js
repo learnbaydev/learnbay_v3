@@ -12,11 +12,11 @@ function Blockchain({ CloudAndDevOpsCourseDataJson }) {
     <>
       <Head>
         <title>
-          Advance Cloud Computing & DevOps Certification Program - Learnbay
+        Master Cloud Computing and DevOps with Advanced Certification Programs - Learnbay
         </title>
         <meta
           name="description"
-          content="Elevate your career with an advanced Cloud Computing and DevOps certification program, and explore the latest techniques in AWS, Google Cloud Platform, and AZURE."
+          content="Elevate your skills with our Advanced Cloud Computing and DevOps Certification. Gain expertise in cutting-edge technologies to streamline development and enhance cloud-based solutions. Future-proof your career today!"
         />
         <meta name="robots" content="index, follow" />
         <meta

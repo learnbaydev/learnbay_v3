@@ -12,12 +12,11 @@ function Blockchain({ DataScienceCourseDataJson }) {
     <>
       <Head>
         <title>
-          Advance Data Science & AI Program with Domain Specialization -
-          Learnbay
+        Advanced Data Science and Artificial Intelligence Program With Certification - Learnbay
         </title>
         <meta
           name="description"
-          content="Our Advance Data Science and AI Course brings you a wide knowledge of Data Science and AI and helps you to make precise data-driven decisions.          "
+          content="Are you searching for the Advanced Data Science and Artificial Intelligence Program With Certification? Learnbay is providing the best online Advanced Data Science and AI Program . Enroll now!"
         />
         <meta name="robots" content="index, follow" />
         <meta

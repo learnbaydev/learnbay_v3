@@ -17,7 +17,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
       if (popupResponse.status === 200) {
         const { popData } = await popupResponse.json();
         const foundPopup = popData.find((data) =>
-          data.page.includes("Adv Data Science and AI")
+          data.page.includes("Business Analytics Program")
         );
         if (foundPopup) {
           setPopupData(foundPopup);
@@ -67,10 +67,10 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>Businesss Analytics Certification Program - Learnbay</title>
+        <title>Best Online Data Science Courses | Online Data Science Training - Learnbay</title>
         <meta
           name="description"
-          content="Upskill yourself with cutting edge Business Analytics Skills and Techniques by enrolling into the Learnbay's Business Analaytics certification Course.          "
+          content="Elevate your business acumen with our comprehensive Business Analytics Program. Gain valuable insights, enhance decision-making, and drive success through advanced analytics tools and strategies. Enroll today for a data-driven future."
         />
         <meta name="robots" content="index, follow" />
         <meta

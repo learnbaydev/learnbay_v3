@@ -1101,7 +1101,7 @@ export const CloudAndDevOpsCourseData = [
           {
             id: 3,
             ques: "What’s the duration of the Advance Cloud Computing and Devops Certification Program?",
-            ans: "The duration of this course is about 10 months (300+ hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch – 10 months, Monday to Friday – 2 hours/day, Weekend batch – 12 months, Saturday",
+            ans: "The duration of this course is about 7 months (300+ hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch – 7 months, Monday to Friday – 2 hours/day, Weekend batch – 12 months, Saturday",
             open: false,
           },
           {
