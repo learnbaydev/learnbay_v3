@@ -31,11 +31,13 @@ const SeventhSection = dynamic(() =>
   import("../../Global/SeventhSection/SeventhSection")
 );
 const Footer = dynamic(() => import("../../Global/Footer/Footer"));
+const FAQNew = dynamic (() => import ("../../CoursePage/FAQNew/FAQNew"))
 
 const SecondPart = ({
   CertificateData,
   masterSyllabusMobile,
   projectSection,
+  FAQNewData,
 }) => {
   const [popupData, setPopupData] = useState([]);
   // console.log(popupData);
@@ -112,6 +114,7 @@ const SecondPart = ({
       />
       {/* <FAQNew FAQNewData={DataScienceMastersinCS[0].faq} /> */}
       <SeventhSection />
+      <FAQNew FAQNewData={FAQNewData} />
       <Footer />
       <BottomBar masterdegree={true} />
       <WhatsappFloat />

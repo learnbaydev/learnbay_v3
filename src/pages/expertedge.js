@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
 import Head from "next/head";
-import Navbar from "../components/Global/Navbar/Navbar";
+import Navbar from "../components/ExpertEdge/MasterClass/ExNavbar/Navbar/Navbar";
 import Slider from "@/components/ExpertEdge/MasterClass/MasterClass";
 const Testimonial = dynamic(() =>
   import("@/components/Global/Testimonial/Testimonial")

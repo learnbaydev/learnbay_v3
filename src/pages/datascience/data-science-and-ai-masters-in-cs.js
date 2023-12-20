@@ -88,7 +88,9 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
           projectSection={
             DataScienceCourseData.DataScienceMastersinCS[0].projectSection
           }
-        />
+          FAQNewData={DataScienceCourseData.DataScienceMastersinCS[0].faq}
+          />
+      
         {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>
     </>
