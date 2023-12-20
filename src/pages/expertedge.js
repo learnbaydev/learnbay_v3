@@ -1,7 +1,7 @@
 import React from "react";
 import dynamic from "next/dynamic";
 import Head from "next/head";
-import Navbar from "../components/ExpertEdge/MasterClass/ExNavbar/Navbar/Navbar";
+// import Navbar from "../components/ExpertEdge/MasterClass/ExNavbar/Navbar/Navbar";
 import Slider from "@/components/ExpertEdge/MasterClass/MasterClass";
 import FirstSection from "@/components/ExpertEdge/FirstSection/FirstSection";
 import SecondSection from "@/components/ExpertEdge/SecondSection/SecondSection";
@@ -93,11 +93,11 @@ export default function Home() {
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
       </Head>
-      <Navbar
+      {/* <Navbar
         radio={true}
         dataScienceCounselling={true}
         interstedInHide={true}
-      />
+      /> */}
       <FirstSection
         cityParaCont="Learn today's most in-demand skills with our free courses"
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/firstEdge.webp"
