@@ -676,5 +676,329 @@ export const DataScienceMastersinCS = [
         },
       },
     ],
+
+    faq: [
+      {
+        id: 0,
+        sectionName: "Course Related",
+        data: [
+          {
+            id: 0,
+            ques: "Can I do a Master’s in artificial intelligence and data science?",
+            ans: "Yes, anyone with a bachelor’s degree in any domain can pursue a master’s in Data Science and AI for a successful career transition. Working professionals with a good academic record and basic knowledge of statistics/mathematics can opt for this master’s program. ",
+            open: true,
+          },
+          {
+            id: 1,
+            ques: "What Career Can You Have with an MS in Artificial Intelligence & Data Science Degree?",
+            ans: ` A master’s degree in Data Science unlocks career opportunities in various industries and many domains. Some promising career roles are – 
+                - Data Scientist or Data Engineer
+                - AI Rese
+                - arch Scientist
+                - Business Intelligence Analyst
+                - MLOPs Engineer
+                - Product analytics
+                - Data Analyst
+                - Natural Language Processing (NLP) Engineer
+             `,
+            open: false,
+          },
+          {
+            id: 2,
+            ques: "Can I pursue this degree while working full-time or from a different time zone?",
+            ans: `Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 2 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+            open: false,
+          },
+          {
+            id: 3,
+            ques: "Are there any hands-on labs or practical exercises in the course curriculum?",
+            ans: "Yes. Learners need to go through practical sessions along with theoretical ones. The course curriculum has practical exercises for each module and learners need to complete the tasks within the given time by their mentors. Plus, each specialization module has 3 capstone projects for hands-on learning across offline experience centers. The projects are kind of simulated ones.",
+            open: false,
+          },
+          {
+            id: 4,
+            ques: "Is a master's in data science worth it?",
+            ans: "A master’s in data science and AI is worthy enough to support career transitions for working pros. Learners in any discipline can opt for this course if eager to expand their skills, earning potential, and job options. It provides a chance to redefine your skill sets and career at a global level",
+            open: false,
+          },
+          {
+            id: 5,
+            ques: "Can I opt for different specializations in data science and AI master's degrees?",
+            ans: `If you enroll in a master’s in Data Science and AI program, you will have the scope to choose any specialization you wish. This program has two specialization options –
+            - Specialization 1: Data Science and Analytics (12 months)
+           - Specialization 2: Artificial Intelligence & ML (12 months)
+            
+            Apart from a foundation module, learners will upskill their expertise in any of the specializations. 
+            `,
+            open: false,
+          },
+          {
+            id: 6,
+            ques: "What is the Duration of a Data Science and AI Master's degree?",
+            ans: `The Data Science and AI Master’s Degree comes with a duration of 18 months (part-time program). During the course sessions, a learner will get the benefits like –
+
+            Live-interactive training sessions
+            Coursework
+            Project activities 
+            
+            `,
+            open: false,
+          },
+          {
+            id: 7,
+            ques: "What are the additional benefits provided in this master's degree program?",
+            ans: `This master’s degree program in Data Science and AI has everything that helps professionals rebuild their careers worldwide. Apart from an industry-driven course curriculum, this program offers extra benefits like – 
+
+            An accredited master’s degree from Woolf University
+            Globally recognized and equivalent to a master’s degree in the US, Canada, Europe, and 60+ Western countries
+            Dual certification (IBM & Microsoft)
+            Immigration Opportunities
+            MNC/MAANG experts as mentors
+            Career Service Pro (100% placement support)
+            
+            
+            `,
+            open: false,
+          },
+        ],
+      },
+      {
+        id: 1,
+        sectionName: "Domain Electives",
+        data: [
+          {
+            id: 0,
+            ques: "What is domain specialization?",
+            ans: "We offer industry-specific full-stack data science modules, via which you learn the respective industry’s best practices.",
+            open: true,
+          },
+          {
+            id: 1,
+            ques: "What are the available elective domain options?",
+            ans: "Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc.",
+            open: false,
+          },
+          {
+            id: 2,
+            ques: "Which domain elective is best suited for me?",
+            ans: `You can select your domain based on your prior work experience, academics, and career goals.`,
+            open: false,
+          },
+          {
+            id: 3,
+            ques: "Why is domain specialization important?",
+            ans: "After enrolling in the AI and ML with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge which is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.",
+            open: false,
+          },
+          {
+            id: 4,
+            ques: "Can I select multiple domain electives and do I need to pay extra charges?",
+            ans: "You can select up to 4 domain electives based on your interest and career goals. No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.",
+            open: false,
+          },
+          {
+            id: 5,
+            ques: "What if I don’t have any prior experience in any domain?",
+            ans: "If you don’t have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.",
+            open: false,
+          },
+          {
+            id: 6,
+            ques: "Can I change my domain electives later?",
+            ans: "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration.",
+            open: false,
+          },
+        ],
+      },
+      {
+        id: 2,
+        sectionName: "Payments and Scholarships",
+        data: [
+          {
+            id: 0,
+            ques: "What is the cost of the data science and AI master's degree?",
+            ans: "The data science and AI master’s degree costs ₹2,50,000 + 18% GST.",
+            open: true,
+          },
+          {
+            id: 1,
+            ques: "Can I pay in installments for the Data Science and AI master's degree Program?",
+            ans: "Learnbay offers flexible financing options for learners to have constant upskilling. You can pay the fees in installments under a no-cost EMI option within 12 months. You can also opt for interest-free loans with the necessary documents (Aadhar card, PAN card, & salary slip). ",
+            open: false,
+          },
+          {
+            id: 2,
+            ques: "Is there any scholarship/discount available for the Data Science and AI master's degree Program?",
+            ans: `The Data Science and AI master’s degree program offers a 15% – 20% discount for early birds occasionally. Yet, a group discount is available for the learners who join with one or more friends. 
+
+           Group of 2: 5% extra discount
+           Group of 3: 8% additional discount
+           Group of 4+: Max 10% discount
+           For further details, you can check with our sales team at +91 7795687988
+            
+          `,
+            open: false,
+          },
+          {
+            id: 3,
+            ques: "What is the refund policy for the Master's degree program at Learnbay?",
+            ans:`The Data Science and AI master’s degree program offers a 15% – 20% discount for early birds occasionally. Yet, a group discount is available for the learners who join with one or more friends. 
+
+            Group of 2: 5% extra discount
+            Group of 3: 8% additional discount
+            Group of 4+: Max 10% discount
+            
+            For further details, you can check with our sales team at +91 7795687988`,
+            
+                
+          link: true,
+           open: false
+          }
+          
+        ],
+      },
+      {
+        id: 3,
+        sectionName: "Capstone and Real-Time Projects",
+        data: [
+          {
+            id: 0,
+            ques: "How many capstone projects will be there?            ",
+            ans: "The Data Science and AI master’s course includes two specializations and learners can opt for any one. Each specialization module has 3 capstone projects. In short, learners will have to work on 3 capstone projects as per their domain electives.   ",
+            open: true,
+          },
+          {
+            id: 1,
+            ques: "Are there opportunities to work on real industry projects?",
+            ans: "Yes, learners get the chance to work on real industry projects and gain hands-on experience for better exposure to business challenges. Learnbay offers an open learning platform that supports real-time skills upgrades. ",
+            linkText1: " Click here to download the list of the projects.",
+            link1:
+              "",
+            link: true,
+            open: false,
+          },
+          {
+            id: 2,
+            ques: "Can I choose my own project for the capstone or are projects assigned?",
+            ans: `Once you enroll in the master’s program, you can choose your domain. Learners opting for the master’s degree program can choose their projects as per their domain specialization. Learners go through group project work under the guidance of industry experts/mentors. `,
+            open: false,
+          },
+        ],
+      },
+      {
+        id: 4,
+        sectionName: "Certification",
+        data: [
+          {
+            id: 0,
+            ques: "Is the degree globally recognized?            ",
+            ans: "Learners enrolling in a master’s degree program in Data Science and AI will get a globally recognized degree from Woolf University. The degree is similar to a master’s degree from the US, Canada, and Europe, but at an affordable cost.",
+            open: true,
+          },
+          {
+            id: 1,
+            ques: "Is there any accredited certification after course completion?",
+            ans: `Yes, Learnbay offers an accredited dual certification once you complete the course. Along with a reputed degree, learners get a project experience certificate from IBM & course completion certificates from IBM & Microsoft. `,
+            open: false,
+          },
+        ],
+      },
+      {
+        id: 5,
+        sectionName: "Job Assistance",
+        data: [
+          {
+            id: 0,
+            ques: "What’s the eligibility for a job assistance program at Learnbay?",
+
+            ans: `Learners enrolling in this master’s program must complete the course with a minimum of 70% marks. Learners must complete all their practical tasks, assessments, and projects to get the job assistance program benefits. Then they are eligible for a job assistance program at Learnbay, that offers the scope of getting placed across one of the 300+ industry partners. `,
+            open: true,
+          },
+          {
+            id: 1,
+            ques: "How many interview calls will I get at Learnbay?",
+            ans: "For this master’s program, learners will get unlimited interview calls from MNCs/MAANG worldwide. Based on their domain specialization, learners will get interview calls and if found suitable can apply for further processes. ",
+            open: false,
+          },
+          {
+            id: 2,
+            ques: "Can I opt for the Career Service Pro feature?            ",
+            ans: `Learners, who successfully complete the course (training, tasks, and projects) with a minimum of 70% marks are eligible for the Career Service Pro feature. Under this feature, they will get –
+
+            3 years of Job and Placement help
+            6 Mock Interviews with Industry Experts 
+            1:1 Review Session 
+            Unlimited Interview Calls 
+            `,
+            open: false,
+          },
+          {
+            id: 3,
+            ques: "Do you offer job placement or job assistance services after course completion?         ",
+            ans: `Yes, Learnbay offers 100% job assistance services to learners opting for a master’s program. Learners get a career service pro package after course completion. The program supports learners with 100% job assistance with resume preparation and unlimited job calls.  `,
+            open: false,
+          },
+          
+        ],
+      },
+      {
+        id: 6,
+        sectionName: "Mentorship",
+        data: [
+          {
+            id: 0,
+            ques: "Until when will the Learnbay students get the facility of mentorship?",
+
+            ans: "The learners will get the facility of mentorship till they complete the course. After completion of the program, learners can reach their mentors for doubt-clearing, job assistance, and live project guidance. ",
+            open: true,
+          },
+          {
+            id: 1,
+            ques: "Can a Learnbay student choose to study from their desired mentor?",
+            ans: "After enrolling each study at Learnbay is assigned a mentor. In case, a student does not find the mentor suitable for training, then he/she can request a new mentor. Learnbay supports quality upskilling hence, students are free to change their mentors and study from the desired ones. ",
+            open: false,
+          },
+          {
+            id: 2,
+            ques: "Are mentors available for one-on-one sessions or group sessions?",
+            ans: "Yes, mentors are available for one-on-one sessions or group sessions in respective projects or courses. If a learner opts for a 1:1 session for course training, doubt-clearing, or project queries, mentors are available for them.  ",
+            open: false,
+          },
+          {
+            id: 3,
+            ques: "Are there mentors available to help with coursework and projects?",
+            ans: "Learners enrolling for this course get the scope of learning under dedicated mentorship. These mentors are responsible for helping each learner with coursework and projects. So, yes, you will get uninterrupted help from your mentor while working on fresh capstone projects and course modules.",
+            open: false,
+          },
+          
+        ],
+      },
+      {
+        id: 7,
+        sectionName: "Support",
+        data: [
+          {
+            id: 0,
+            ques: "How can I reach out for technical support if I encounter any issues with the course platform?",
+
+            ans: "After registering with the course, you will get 24x7 learner support that resolves any query from your side. You can call the helpline number to reach the desired service providers to help you out with any technical issues (login, sessions, projects, chat, or course materials) with the course platform.",
+            open: true,
+          },
+          {
+            id: 1,
+            ques: "Is there a discussion forum or community for students to interact and seek help?",
+            ans: "Learners will get a customized Learnbay application where batch-wise students are added along with their mentors. They can directly reach out to their mentors to resolve queries in case of need and also discuss doubts with peers. ",
+            open: false,
+          },
+          {
+            id: 2,
+            ques: "How long will I get Job referrals?",
+            ans: "You are eligible to avail of job referrals once you successfully complete your course. Under the Career Service Pro package, a learner is entitled to get 3 years of continuous job referrals to get placed across 300+ industry partners. ",
+            open: false,
+          },
+          
+        ],
+      },
+    ],
   },
 ];
