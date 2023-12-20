@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 66px;
+    margin: 70px 100px 100px 100px;
+}
+
+.CertificateDiv {
+    height: fit-content;
+}
+
+.innerBox h4 {
+    font-size: 24px;
+    margin: 40px 0px 20px 0px;
+    font-weight: 700;
+}
+
+.innerBox p {
+    font-size: 20px;
+    color: #6f6f6f;
+}
+
+.blue {
+    color: #0072bc;
+}
+
+.orange {
+    color: #f99600;
+}
+.green {
+    color: #72bc00;
+}
+

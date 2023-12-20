@@ -1,8 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import Navbar from "../components/Global/Navbar/Navbar";
 import Slider from "@/components/ExpertEdge/MasterClass/MasterClass";
+import FirstSection from "@/components/ExpertEdge/FirstSection/FirstSection";
+import SecondSection from "@/components/ExpertEdge/SecondSection/SecondSection";
+import Course from "@/components/ExpertEdge/CourseSection/Course";
 const Testimonial = dynamic(() =>
   import("@/components/Global/Testimonial/Testimonial")
 );
@@ -95,8 +98,20 @@ export default function Home() {
         dataScienceCounselling={true}
         interstedInHide={true}
       />
+      <FirstSection
+        cityParaCont="Learn today's most in-demand skills with our free courses"
+        FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/firstEdge.webp"
+        firstToparaImg="Data Science"
+        firstHeading="Experience Zero Cost Learning in"
+      />
+      <SecondSection />
+      <Course />
       <Slider />
-      <Testimonial redirectDS={true} heading="Our Alumni" Testimonial={testimonial} />
+      <Testimonial
+        redirectDS={true}
+        heading="Our Alumni"
+        Testimonial={testimonial}
+      />
       <Footer />
     </>
   );
