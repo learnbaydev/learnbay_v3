@@ -5,6 +5,9 @@ const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
 const WhatsappFloat = dynamic(() =>
   import("@/components/Global/WhatappsFloat/WhatsappFloat")
 );
+const Content = dynamic(() =>
+  import("../../../components/CoursePage/Content/content")
+);
 const Certificate = dynamic(() =>
   import("../../../components/CoursePage/Certificate/Certificate")
 );
@@ -123,6 +126,7 @@ const SecondPart = ({
         interstedInHide={true}
       />
       <FAQNew FAQNewData={FAQNewData} />
+      <Content dataScienceCounselling={true} />
       <SeventhSection />
       <Footer />
       <BottomBar />
