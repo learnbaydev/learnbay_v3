@@ -3,6 +3,8 @@ import AboutUs from "../components/StaticPage/AboutUs/AboutUs";
 import Navbar from "../components/Global/Navbar/Navbar";
 import Footer from "../components/Global//Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+
 export default function Home() {
   return (
     <div>
@@ -23,6 +25,7 @@ export default function Home() {
         <Navbar radio={true} interstedInHide={true} />
         <AboutUs />
         <Footer />
+        <WhatsappFloat />
         <BottomBar radio={true} />
       </main>
     </div>

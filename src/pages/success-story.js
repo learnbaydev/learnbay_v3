@@ -26,6 +26,8 @@ const VideoReview = dynamic(() =>
 const Testimonial = dynamic(() =>
   import("../components/Global/Testimonial/Testimonial")
 );
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+
 export default function Home() {
   return (
     <div>
@@ -62,6 +64,7 @@ export default function Home() {
           Testimonial={DataScienceCourseData[0].testimonial}
         />
         <Footer />
+        <WhatsappFloat />
         <BottomBar radio={true} />
       </main>
     </div>

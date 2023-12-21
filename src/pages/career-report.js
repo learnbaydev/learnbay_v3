@@ -7,6 +7,8 @@ import BottomBar from "../components/Global/BottomBar/BottomBar";
 import FirstSection from "../components/StaticPage/CareerReport/FirstSection/FirstSection";
 import SecondSection from "../components/StaticPage/CareerReport/SecondSection/SecondSection";
 import ThirdSection from "../components/StaticPage/CareerReport/ThirdSection/ThirdSection";
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+
 
 function careerReport() {
   return (
@@ -37,6 +39,7 @@ function careerReport() {
       <ThirdSection />
 
       <BottomBar radio={true} />
+      <WhatsappFloat />
       <Footer />
     </div>
   );

@@ -6,6 +6,7 @@ import Footer from "../components/Global/Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
 import Image from "next/image";
 import Head from "next/head";
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 
 const sumbit = () => {
   return (
@@ -39,6 +40,7 @@ const sumbit = () => {
       </div>
       <BottomBar radio={true} />
       <Footer />
+      <WhatsappFloat />
     </div>
   );
 };

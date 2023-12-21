@@ -234,7 +234,7 @@ const Course = ({
                                           style={
                                             title === "Master in CS:" ||
                                             title === "Advance Certification"
-                                              ? { marginTop: "5px" }
+                                              ? { marginTop: "15px" }
                                               : { marginTop: "15px" }
                                           }
                                         >

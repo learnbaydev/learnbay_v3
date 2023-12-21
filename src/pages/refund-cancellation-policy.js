@@ -4,6 +4,7 @@ import Refund from "../components/StaticPage/refund/refund";
 import Navbar from "../components/Global/Navbar/Navbar";
 import Footer from "../components/Global//Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 
 function refund() {
   return (
@@ -29,6 +30,7 @@ function refund() {
         <Navbar popup={true} dataScienceCounselling={true} radio={true} />
         <Refund />
         <Footer />
+        <WhatsappFloat />
         <BottomBar radio={true} />
       </main>
     </div>
