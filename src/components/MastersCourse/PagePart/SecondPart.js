@@ -31,7 +31,7 @@ const SeventhSection = dynamic(() =>
   import("../../Global/SeventhSection/SeventhSection")
 );
 const Footer = dynamic(() => import("../../Global/Footer/Footer"));
-const FAQNew = dynamic (() => import ("../../CoursePage/FAQNew/FAQNew"))
+const FAQNew = dynamic (() => import ("../../CoursePage/FAQNew/FAQNewDomain"))
 
 const SecondPart = ({
   CertificateData,
@@ -113,8 +113,8 @@ const SecondPart = ({
         projectSection={projectSection}
       />
       {/* <FAQNew FAQNewData={DataScienceMastersinCS[0].faq} /> */}
-      <SeventhSection />
       <FAQNew FAQNewData={FAQNewData} />
+      <SeventhSection />
       <Footer />
       <BottomBar masterdegree={true} />
       <WhatsappFloat />

@@ -5,6 +5,8 @@ import Footer from "../components/Global//Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
 import styles from "../styles/Home.module.css";
 import FirstSectionLearning from "../components/StaticPage/FirstSectionLearning/FirstSection";
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+
 
 function learning() {
   return (
@@ -45,6 +47,7 @@ function learning() {
       />{" "}
       <BottomBar radio={true} />
       <Footer />
+      <WhatsappFloat />
     </div>
   );
 }

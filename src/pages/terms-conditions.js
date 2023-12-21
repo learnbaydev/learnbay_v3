@@ -4,6 +4,7 @@ import Navbar from "../components/Global/Navbar/Navbar";
 import Footer from "../components/Global/Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
 import Terms from "../components/StaticPage/terms/terms";
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 
 function terms() {
   return (
@@ -26,6 +27,7 @@ function terms() {
         <Terms />
 
         <Footer />
+        <WhatsappFloat />
         <BottomBar radio={true} />
       </main>
     </div>

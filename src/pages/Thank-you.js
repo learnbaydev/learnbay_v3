@@ -6,6 +6,7 @@ import FirstHeader from "../components/StaticPage/Thankyou/FirstHeader/FirstHead
 import ThankStats from "../components/StaticPage/Thankyou/ThankStat/ThankStats";
 import Survey from "../components/StaticPage/Thankyou/Survey/Survey";
 import TyPageCta from "@/components/StaticPage/Thankyou/TyPageCta/TyPageCta";
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 
 const ThankYouDemo = () => {
   const dataArray = [];
@@ -52,6 +53,7 @@ const ThankYouDemo = () => {
       />
       <BottomBar />
       <Footer />
+      <WhatsappFloat />
       <BottomBar radio={true} />
     </div>
   );

@@ -12,7 +12,7 @@ function WhatsappFloat({ chat360code1 }) {
           (document.documentElement.scrollHeight - window.innerHeight)) *
         100;
 
-      if (scrollPercentage >= 40) {
+      if (scrollPercentage >= 0) {
         setShouldLoadScripts(true);
         // Remove the scroll event listener to avoid unnecessary checks
         window.removeEventListener("scroll", handleScroll);
@@ -107,36 +107,110 @@ function WhatsappFloat({ chat360code1 }) {
             }}
           />
         ) : (
-          <Script
+      //     <Script
+      //       strategy="lazyOnload"
+      //       dangerouslySetInnerHTML={{
+      //         __html: `(function (botId) {
+
+      //         var s = document.createElement("script");
+
+      //         s.async = true;
+
+      //         s.type = 'text/javascript';
+
+      //         s.src = "https://app.chat360.io/widget/chatbox/common_scripts/script.js";
+
+      //         s.onload = function () {
+
+      //           window.loadChat360Bot(botId);
+
+      //         };
+
+      //         s.onerror = function (err) {
+
+      //           console.error(err);
+
+      //         };
+
+      //         document.body.appendChild(s);
+
+      //       })("25650848-8eaa-4160-ad08-5f3a3b1ffaa2");
+
+      // `,
+      //       }}
+      //     />
+      <Script
             strategy="lazyOnload"
             dangerouslySetInnerHTML={{
-              __html: `(function (botId) {
+              __html: `var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77928';
 
-              var s = document.createElement("script");
+                var s = document.createElement('script');
 
-              s.async = true;
+                s.type = 'text/javascript';
 
-              s.type = 'text/javascript';
+                s.async = true;
 
-              s.src = "https://app.chat360.io/widget/chatbox/common_scripts/script.js";
+                s.src = url;
 
-              s.onload = function () {
+                var options = {
 
-                window.loadChat360Bot(botId);
+              "enabled":true,
 
-              };
+              "chatButtonSetting":{
 
-              s.onerror = function (err) {
+                  "backgroundColor":"#4dc247",
 
-                console.error(err);
+                  "ctaText":"",
 
-              };
+                  "borderRadius":"10",
 
-              document.body.appendChild(s);
+                  "marginLeft":"0",
 
-            })("25650848-8eaa-4160-ad08-5f3a3b1ffaa2");
+                  "marginBottom":"30",
 
-      `,
+                  "marginRight":"30",
+
+                  "position":"right"
+
+              },
+
+              "brandSetting":{
+
+                  "brandName":"Learnbay",
+
+                  "brandSubTitle":"The Learner's Path",
+
+                  "brandImg":"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/50-min.webp",
+
+                  "welcomeText":"Hi there! How can I help you?",
+
+         "messageText":"I am looking for course, and free career counselling session.",
+
+
+
+                  "backgroundColor":"#0a5f54",
+
+                  "ctaText":"Start Chat",
+
+                  "borderRadius":"25",
+
+                  "autoShow":false,
+
+                  "phoneNumber":"+917349222263"
+
+              }
+
+            };
+
+                s.onload = function() {
+
+                    CreateWhatsappChatWidget(options);
+
+                };
+
+                var x = document.getElementsByTagName('script')[0];
+
+                x.parentNode.insertBefore(s, x);`,
             }}
           />
         )

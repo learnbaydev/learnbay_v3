@@ -6,6 +6,7 @@ import ThirdSection from "../components/StaticPage/ResumeBuilder/ThirdSection/Th
 import Navbar from "../components/Global/Navbar/Navbar";
 import Footer from "../components/Global//Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 
 const ResumeBuilder = () => {
   return (
@@ -35,6 +36,7 @@ const ResumeBuilder = () => {
       <FirstSection />
       <ThirdSection idss="4PBfjKsw580" />
       <Footer />
+      <WhatsappFloat />
       <BottomBar radio={true} />
     </div>
   );

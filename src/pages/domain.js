@@ -3,7 +3,7 @@ import Head from "next/head";
 import Navbar from "../components/Global/Navbar/Navbar";
 import Footer from "../components/Global//Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
-
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import WhoProgram from "../components/CoursePage/WhoProgram/ThirdSection";
 import { ThirdSectionData } from "@/Data/ThirdSectionData";
 
@@ -31,6 +31,7 @@ const sumbit = () => {
       />
       <BottomBar radio={true} />
       <Footer />
+      <WhatsappFloat />
     </div>
   );
 };

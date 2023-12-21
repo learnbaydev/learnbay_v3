@@ -3,6 +3,7 @@ import Demo from "../components/StaticPage/Demo/Demo";
 import Navbar from "../components/Global/Navbar/Navbar";
 import Footer from "../components/Global//Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
         />
         <Demo demos={true} />
         <Footer />
+        <WhatsappFloat />
         <BottomBar radio={true} />
       </main>
     </div>
