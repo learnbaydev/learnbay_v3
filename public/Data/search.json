@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "title": "Advance Data Science and AI Certification",
+    "description": "Description of Course 1",
+    "Duration":"10Months",
+    "rating": 4.5,
+    "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-1.webp",
+    "url": "/datascience/advance-data-science-certification-courses"
+  },
+  {
+    "id": 2,
+    "title": "Advance Cloud Computing & DevOps Certification Program",
+    "description": "Description of Course 2",
+    "Duration":"10Months",
+    "rating": 4.5,
+    "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-1.webp",
+    "url": "/datascience/advance-data-science-certification-courses"
+  },
+  {
+    "id": 3,
+    "title": "Master in CS: Data Science and AI",
+    "description": "Description of Course 3",
+    "Duration":"10Months",
+    "rating": 4.5,
+    "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/card-cd.webp",
+    "url": "/datascience/advance-data-science-certification-courses"
+  },
+  {
+    "id": 4,
+    "title": "Advance AI and ML Certification Program",
+    "description": "Description of Course 4",
+    "Duration":"10Months",
+    "rating": 4.9,
+    "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/masters-11.webp",
+    "url": "/datascience/advance-data-science-certification-courses"
+  },
+  {
+    "id": 5,
+    "title": "Data Analytics Program",
+    "description": "Description of Course 5",
+    "Duration":"10Months",
+    "rating": 4.8,
+    "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-2.webp"
+  },
+  {
+    "id": 6,
+    "title": "Business Analytics Program",
+    "description": "Description of Course 5",
+    "Duration":"10Months",
+    "rating": 4.9,
+    "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-2.webp"
+  }
+]
