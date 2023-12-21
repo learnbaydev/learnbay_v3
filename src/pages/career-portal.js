@@ -2,6 +2,7 @@ import React from "react";
 import CareerHome from "../components/StaticPage/CareerPortal/CareerHome/CareerHome";
 import Navbar from "../components/Global/Navbar/Navbar";
 import Footer from "../components/Global//Footer/Footer";
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import Head from "next/head";
 
 const sumbit = () => {
@@ -22,6 +23,7 @@ const sumbit = () => {
       </Head>
       <Navbar careerForm={true} />
       <CareerHome />
+      <WhatsappFloat />
       <Footer />
     </div>
   );

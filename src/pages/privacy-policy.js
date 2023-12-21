@@ -4,6 +4,8 @@ import Privacy from "../components/StaticPage/privacy/privacy";
 import Navbar from "../components/Global/Navbar/Navbar";
 import Footer from "../components/Global//Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+
 function privacy() {
   return (
     <div>
@@ -25,6 +27,7 @@ function privacy() {
         <Navbar popup={true} dataScienceCounselling={true} radio={true} />
         <Privacy />
         <Footer />
+        <WhatsappFloat />
         <BottomBar radio={true} />
       </main>
     </div>

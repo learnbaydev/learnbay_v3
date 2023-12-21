@@ -26,7 +26,28 @@ export const courseDetails = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
           },
           {
-            id: 4,
+            id: 2,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/masters-11.webp",
+            title: "Master in CS:",
+            title1: "Data Science and AI",
+            tagHead: "Crack Job Interviews",
+            tag: "Full stack",
+            Green: true,
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf",
+            titleCourse: "Master in CS: Data Science and AI",
+            para: [
+              "18 months | 3 Projects",
+              "Globally recognized degree",
+              "Designed by industry experts",
+            ],
+            newDesign: true,
+            link1: "datascience/data-science-and-ai-masters-in-cs",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf",
+          },
+          {
+            id: 3,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/card-cd.webp",
             title: "Cloud and DevOps Certification ",
             title1: "Program",
@@ -47,8 +68,33 @@ export const courseDetails = [
             link2:
               "https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf",
           },
+        ],
+      },
+      {
+        courseName: "All Courses",
+        id: "All Courses",
+        courseDetails: [
           {
-            id: 3,
+            id: 1,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-2.webp",
+            title: "Advance AI and ML",
+            title1: "Certification Program",
+            tag: "Data science",
+            tagHead: "For Sr. Managers/Team Lead",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
+            titleCourse: "Advance AI and ML Certification Program",
+            para: [
+              "11 months | 3 projects",
+              "Dual certification",
+              "Inclusive of Generative-AI",
+            ],
+            link1: "/datascience/artificial-intelligence-certification-course",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
+          },
+          {
+            id: 2,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/masters-11.webp",
             title: "Master in CS:",
             title1: "Data Science and AI",
@@ -68,33 +114,31 @@ export const courseDetails = [
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf",
           },
-        ],
-      },
-      {
-        courseName: "All Courses",
-        id: "All Courses",
-        courseDetails: [
-          {
-            id: 2,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-2.webp",
-            title: "Advance AI and ML",
-            title1: "Certification Program",
-            tag: "Data science",
-            tagHead: "For Sr. Managers/Team Lead",
-            brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
-            titleCourse: "Advance AI and ML Certification Program",
-            para: [
-              "11 months | 3 projects",
-              "Dual certification",
-              "Inclusive of Generative-AI",
-            ],
-            link1: "/datascience/artificial-intelligence-certification-course",
-            link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
-          },
           {
             id: 3,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/card-cd.webp",
+            title: "Cloud and DevOps Certification ",
+            title1: "Program",
+            tagHead: "Guaranteed Interview Call",
+            tag: "Data science",
+            brochureLinks:
+              "https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf",
+            titleCourse:
+              "Advance Cloud Computing & DevOps Certification Program",
+            para: [
+              "7 months | 3 Projects",
+              "Global Certification",
+              "Designed by industry experts",
+              ,
+            ],
+            link1:
+              "/cloud&devops/cloud-computing-and-devOps-certification-program",
+            link2:
+              "https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf",
+          },
+
+          {
+            id: 4,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Add-on-3.webp",
             title: "Advance Certification",
             title1: "Program in generative AI",
@@ -115,7 +159,7 @@ export const courseDetails = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Generative+AI+Certification+Course.pdf",
           },
           {
-            id: 4,
+            id: 5,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-4.webp",
             title: "Data Analytics",
             title1: "Program",
@@ -135,7 +179,7 @@ export const courseDetails = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
           },
           {
-            id: 3,
+            id: 6,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-3.webp",
             title: "Business Analytics",
             title1: "Program",
@@ -155,7 +199,7 @@ export const courseDetails = [
           },
 
           {
-            id: 5,
+            id: 7,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-5.webp",
             title: "Software Developer",
             title1: "Certification",

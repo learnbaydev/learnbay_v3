@@ -5,6 +5,7 @@ import dynamic from "next/dynamic";
 import Navbar from "../components/Global/Navbar/Navbar";
 import Footer from "../components/Global//Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 const Button = dynamic(() => import("../components/Global/Button/Button"));
 
 export default function Home() {
@@ -45,6 +46,7 @@ export default function Home() {
           </a>
         </div>
         <Footer />
+        <WhatsappFloat />
         <BottomBar radio={true} />
       </main>
     </div>
