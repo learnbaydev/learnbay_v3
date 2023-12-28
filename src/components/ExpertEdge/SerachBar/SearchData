@@ -1,0 +1,19 @@
+// pages/api/search.js
+// Replace this with your actual data fetching logic
+const searchData = [
+  { id: 1, title: 'data science' },
+  { id: 2, title: 'Result 2' },
+  { id: 3, title: 'Result 3' },
+  // Add more data as needed
+];
+
+export default (req, res) => {
+  const { q } = req.query;
+
+  // Simulate a search by filtering data based on the query
+  const results = searchData.filter((result) =>
+    result.title.toLowerCase().includes(q.toLowerCase())
+  );
+
+  res.status(200).json({ results });
+};

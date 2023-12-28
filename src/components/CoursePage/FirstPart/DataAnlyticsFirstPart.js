@@ -19,7 +19,57 @@ const GetHire = dynamic(() => import("../../Home/GetHire/GetHire"));
 const ContactConsellor = dynamic(() =>
   import("../ContactCounsellor/ContactCounsellor")
 );
+const CloudDevopsecond = dynamic(() =>
+  import(
+    "../../CoursePage/cloud&devops/DevOpsSecondSection/DevOpsSecondSection"
+  )
+);
+import { BsDatabaseUp } from "react-icons/bs";
+import { FaReact } from "react-icons/fa";
+import { TbBrandGoogleAnalytics } from "react-icons/tb";
+import { BsPersonGear } from "react-icons/bs";
+import { BsDisplay } from "react-icons/bs";
+import { AiOutlineContainer } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+import { BsPeople } from "react-icons/bs";
 const DataAnlyticsFirstPart = ({ SecondSectionData, TestimonialData, ibmOnly, }) => {
+  const DsSecond = {
+    title1: "Project-Based Learning",
+    image1:
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+773.webp",
+    points: [
+      "Work in an industry like environment and gain practical hands-on experience",
+      "3 Real-World Capstone Projects",
+    ],
+    image2:
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Mask-group-_32_-min.webp",
+    title2: "Job Roles You Can Target",
+    jobRoles: [
+      {
+        icon: <FaReact/>,
+        role: "Sr. Data Analyst",
+        salary: " 15 LPA",
+      },
+      { icon: <TbBrandGoogleAnalytics />, role: "BI Developer", salary: " 10 LPA" },
+      { icon: <BsDatabaseUp />, role: "Database Admin ", salary: "13 LPA" },
+    ],
+    image3:
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group-770-min.webp",
+    image4:
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Mask+group+(10).webp",
+    title3: "Assured Job Assistance",
+    jobAssistance: [
+      { icon: <BsDisplay />, text: "Unlimited Interview Calls" },
+      { icon: <AiOutlineContainer />, text: "Resume Building Session" },
+      { icon: <FaLinkedinIn />, text: "LinkedIn Profile Review" },
+    
+    ],
+    formbl: [
+      { icon: <BsPeople />, text: "Mock Interview Sessions" },
+    ],
+    image5:
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-second-min.webp",
+  };
   return (
     <>
       <Navbar dataScienceCounselling={true} interstedInHide={true} />
@@ -39,7 +89,8 @@ const DataAnlyticsFirstPart = ({ SecondSectionData, TestimonialData, ibmOnly, })
         ibmOnly={ibmOnly}
      
       />
-      <SecondSection SecondSectionData={SecondSectionData} />
+         <CloudDevopsecond data={DsSecond} />
+      {/* <SecondSection SecondSectionData={SecondSectionData} /> */}
       <SecondNavbar
         titleCourse="Data Analytics Certification Program"
         dataScience={true}

@@ -5,9 +5,10 @@ import SecondPart from "@/components/CoursePage/FirstPart/DevopsSecondPart";
 import Navbar from "@/components/Global/Navbar/Navbar";
 import FirstSection from "@/components/CoursePage/cloud&devops/Devopsfirstsection/DevopFirstSection";
 
+
 function Blockchain({ CloudAndDevOpsCourseDataJson }) {
   const CloudAndDevOpsCourseData = parseJSONData(CloudAndDevOpsCourseDataJson);
-
+ 
   return (
     <>
       <Head>
@@ -90,7 +91,9 @@ function Blockchain({ CloudAndDevOpsCourseDataJson }) {
             CloudAndDevOpsCourseData.CloudAndDevOpsCourseData[0].secondSection
           }
           interstedInHide={true}
+      
         />
+
       </main>
       <main>
         <SecondPart
