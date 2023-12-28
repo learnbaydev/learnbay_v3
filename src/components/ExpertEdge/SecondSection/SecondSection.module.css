@@ -1,33 +1,43 @@
-.container {
+.maindiv {
     display: grid;
-    grid-template-columns: 30% 30% 30%;
-    gap: 66px;
-    margin: 70px 100px 100px 100px;
+    grid-template-columns: 28% 24% 26% 30%;
+    border-radius: 22.048px;
+    opacity: 0.3;
+    background: linear-gradient(90deg, #0080FF 0%, #72BC00 49.88%, #0072BC 100%);
+    margin: 42px 60px;
+    padding: 20px;
 }
 
-.CertificateDiv {
-    height: fit-content;
+.inone{
+    border-radius: 20px;
+    width: 264px;
+    background: #FFF;
+    padding: 20px 19px;
+    box-shadow: 0px 1px 11px -2px rgba(0, 0, 0, 0.);
+    margin: 10px 1px;
+}
+.inone p {
+    color: #403F3F;
+text-align: center;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 30.868px */
 }
 
-.innerBox h4 {
-    font-size: 24px;
-    margin: 40px 0px 20px 0px;
-    font-weight: 700;
-}
 
-.innerBox p {
-    font-size: 20px;
-    color: #6f6f6f;
-}
+.ftwo{
+border-radius: 20px;
+width: 264px;
+background: #FFF;
+padding: 20px 19px;
+box-shadow: 0px 1px 11px -2px rgba(0, 0, 0, 0.);
+margin: 10px 1px;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 
-.blue {
-    color: #0072bc;
-}
 
-.orange {
-    color: #f99600;
 }
-.green {
-    color: #72bc00;
-}
-

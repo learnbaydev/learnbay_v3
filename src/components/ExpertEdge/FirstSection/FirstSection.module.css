@@ -10,7 +10,7 @@
   padding: 25px 130px 20px 130px;
   display: grid;
   grid-template-columns: 54% 50%;
-  background: linear-gradient(90deg, #161616 0.07%, #4D2E00 99.6%);
+  background: #000;
   align-items: center;
   height: 560px;
 }

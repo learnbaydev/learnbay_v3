@@ -104,7 +104,7 @@ export default function Home() {
         cityParaCont="Learn today's most in-demand skills with our free courses"
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/firstEdge.webp"
         firstToparaImg="Data Science"
-        firstHeading="Experience Zero Cost Learning in"
+        firstHeading="Master  Data Science  Skills for free from Industry Experts"
       />
       <SecondSection />
       <Course />
