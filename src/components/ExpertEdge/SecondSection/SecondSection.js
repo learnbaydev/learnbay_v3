@@ -1,53 +1,39 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./SecondSection.module.css";
+import { FaBookReader } from "react-icons/fa";
 
 function SecondSection() {
   return (
-    <section className={styles.container}>
-      <div className={styles.innerBox}>
-        <div className={`${styles.CertificateDiv} imgWrapper`}>
-          <Image
-            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/first.webp"
-            alt="Certificate"
-            loading="lazy"
-            quality={100}
-            width={1150}
-            height={800}
-          />
+    <>
+      <div className={styles.maindiv}>
+        <div className={styles.fone}>
+          <div>
+            <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/chatgpt.webp" width={180} height={50} />
+
+            
+          </div>
+
+          <div className={styles.inone}>
+            <p>Master modern age skills like Data Science & Gen-AI</p>
+          </div>
         </div>
-        <h4 className={styles.blue}>Learn from top 1% tech mentors</h4>
-        <p>Comprehensive self-paced courses designed by industry experts</p>
-      </div>
-      <div className={styles.innerBox}>
-        <div className={`${styles.CertificateDiv} imgWrapper`}>
-          <Image
-            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/third.webp"
-            alt="Certificate"
-            loading="lazy"
-            quality={100}
-            width={1150}
-            height={800}
-          />
+
+        <div className={styles.ftwo}>
+
+          <p>Learn from courses designed by industry experts</p>
         </div>
-        <h4 className={styles.orange}>Learn anytime, anywhere</h4>
-        <p>Learn along with your job on any device, anywhere</p>
-      </div>
-      <div className={styles.innerBox}>
-        <div className={`${styles.CertificateDiv} imgWrapper`}>
-          <Image
-            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/second.webp"
-            alt="Certificate"
-            loading="lazy"
-            quality={100}
-            width={1150}
-            height={800}
-          />
+
+        <div className={styles.ftwo}>
+          <FaBookReader/>
+        Self-paced learning. Learn anytime from anywhere
         </div>
-        <h4 className={styles.green}>Lifetime free course access</h4>
-        <p>Free courses are available to you for lifetime</p>
+
+        <div className={styles.ftwo}>
+        Lifetime free access to all our courses
+        </div>
       </div>
-    </section>
+    </>
   );
 }
 

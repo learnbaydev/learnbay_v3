@@ -48,7 +48,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData, adsHide }) => {
       "Work in an industry like environment and gain practical hands-on experience",
       "4 Real-World Capstone Projects",
     ],
-    image2:
+    image10:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-devops-min.webp",
     title2: "Job Roles You Can Target",
     jobRoles: [
@@ -62,25 +62,22 @@ const FirstPart = ({ SecondSectionData, TestimonialData, adsHide }) => {
     ],
     image3:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/devops-gam-min.webp",
-    image4:
+    image11:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-infi-min.webp",
     title3: "Assured Job Assistance",
     jobAssistance: [
       { icon: <BsDisplay />, text: "Unlimited Interview Calls" },
       { icon: <AiOutlineContainer />, text: "Resume Building Session" },
       { icon: <FaLinkedinIn />, text: "LinkedIn Profile Review" },
-    
     ],
-    formbl: [
-      { icon: <BsPeople />, text: "Mock Interview Sessions" },
-    ],
+    formbl: [{ icon: <BsPeople />, text: "Mock Interview Sessions" }],
     image5:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-second-min.webp",
   };
 
   return (
     <>
-      <CloudDevopsecond data={clouddevops} />
+      <CloudDevopsecond data={clouddevops} showimg={true} shoimgtwo={true} />
       {adsHide ? (
         ""
       ) : (

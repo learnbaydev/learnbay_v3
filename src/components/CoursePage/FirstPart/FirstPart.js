@@ -1,7 +1,5 @@
 import React from "react";
 import dynamic from "next/dynamic";
-
-import SecondSection from "@/components/CoursePage/SecondSection/SecondSection";
 const SecondNavbar = dynamic(() =>
   import("../../../components/CoursePage/SecondNavbar/SecondNavbar")
 );
@@ -77,7 +75,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
   };
   return (
     <>
-     <SecondSection SecondSectionData={SecondSectionData} />
+    
       <CloudDevopsecond data={DsSecond} />
       <SecondNavbar
         interstedInHide={true}

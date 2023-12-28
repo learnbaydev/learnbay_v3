@@ -19,7 +19,7 @@
 }
 .nav {
   display: grid;
-    grid-template-columns: 22% 15% 37% 37%;;
+  grid-template-columns: 18% 40% 40%;
 }
 .dropbtn {
   display: flex;
