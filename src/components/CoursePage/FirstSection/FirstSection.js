@@ -17,6 +17,10 @@ function FirstSection({
   dataScienceCounselling,
   ibmOnly,
   cityParaCont,
+  thumbnailUrl,
+  videoId,
+  youtubeEmbedUrl,
+  baimg ,
 }) {
   const [popups, setPopups] = useState(false);
   const [video, setVideo] = useState(false);
@@ -47,6 +51,10 @@ function FirstSection({
         cityParaCont={cityParaCont}
         setPopups={setPopups}
         setVideo={setVideo}
+        videoId={videoId}
+        thumbnailUrl={thumbnailUrl}
+        youtubeEmbedUrl={youtubeEmbedUrl}
+        
       />
     </>
   );

@@ -80,7 +80,7 @@ display: grid;
 color: #706f6f;
 margin-top: 0px;
   
-  font-size: 16.492px;
+  font-size: 14.492px;
   font-style: normal;
   font-weight: 400;
   line-height: 151.5%; /* 32.56px */
@@ -207,48 +207,38 @@ background: linear-gradient(180deg, rgba(45, 182, 33, 0.09) 0%, rgba(45, 182, 33
   display: none;
 }
 
-
-@media only screen and (max-width: 641px){
-.boxmain {
-  display: flex;
-  flex-direction: column;
-  margin: 2px 19px;
-  gap: 20px;
-}
-
-.box1img img {
-width: 268px;
+@media only screen and (min-width: 1480px){
+ 
+  .box1img img {
+    width: 290px;
     height: auto;
-}
-
-.firstboxlastimg {
-  display: none;
-}
-.boxmbl{
-  display: block;
-}
-.gamimg img {
-  width: 250px;
-  height: auto;
-}
-.gamimg{
-margin-bottom: 10px;
-}
-.box3limg {
-  display: none;
-}
-.lastimg {
-  display: none;
-}
-.dots {
-  margin: 0px;
-  padding:0px 40px;
-}
-.mobile{
-  display: flex;
-}
+  }
+  .gamimg img {
+    width: 250px;
+    /* margin-left: 24px; */
+  }
+  .dots {
+    padding-left: 48px;
+  }
 
 }
+@media only screen and (min-width: 1280px){
+  
+  .box1img img {
+    width: 320px;
+    height: auto;
+  }
+  .gamimg img {
+    width: 250px;
+    /* margin-left: 24px; */
+  }
+  .dots {
+    padding-left: 48px;
+  }
+    
+  }
+
+
 /* @media only screen and (min-width: 1280px){
 .box1img img {
   width: 300px;
@@ -274,10 +264,58 @@ margin-bottom: 10px;
   }
     
   }
-  @media only screen and (max-width: 641px){
+ 
+
+
+
+
+
+
+@media only screen and (max-width: 641px){
+  .boxmain {
+    display: flex;
+    flex-direction: column;
+    margin: 2px 19px;
+    gap: 20px;
+  }
+  
+  .box1img img {
+  width: 268px;
+      height: auto;
+  }
+  
+  .firstboxlastimg {
+    display: none;
+  }
+  .boxmbl{
+    display: block;
+  }
+  .gamimg img {
+    width: 250px;
+    height: auto;
+  }
+  .gamimg{
+  margin-bottom: 10px;
+  }
+  .box3limg {
+    display: none;
+  }
+  .lastimg {
+    display: none;
+  }
+  .dots {
+    margin: 0px;
+    padding: 0px 4px 2px 24px;
+  }
+  .mobile{
+    display: flex;
+  }
+  .boticon p  {
+    font-size: 14px;
+  }
   .box1img img {
 
-    width: 260px;
+    width: 300px;
     height: auto;
   }
   .cercle p {
@@ -286,23 +324,18 @@ margin-bottom: 10px;
   .gamimg img {
     margin-left: 0px;
   }
-}
-
-  @media only screen and (max-width: 1280px){
   
+  }
+  @media only screen and (max-width: 400px){
     .box1img img {
-      width: 220px;
+
+      width: 260px;
       height: auto;
     }
-    .gamimg img {
-      width: 250px;
-      /* margin-left: 24px; */
-    }
-    .dots {
-      padding-left: 28px;
-    }
-      
-    }
+
+
+  }
+
 
   /* Define unique colors for each box */
  

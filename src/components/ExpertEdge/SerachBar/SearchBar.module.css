@@ -46,7 +46,6 @@
   border:  none;
   background: #F1F1F1;
   color: #8F8F8F;
-font-family: Open Sans;
 font-size: 18px;
 font-style: normal;
 font-weight: 500;
@@ -125,7 +124,7 @@ padding: 0px 0px 0px 34px;
 }
 
 .dropdownItem:hover {
-  background-color: rgb(224, 240, 245); /* Adjust the background color on hover */
+  background-color: #dff6bc; /* Adjust the background color on hover */
 }
 .courseInfo {
   display: flex;

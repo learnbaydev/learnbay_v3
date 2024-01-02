@@ -18,6 +18,9 @@ const Testimonial = dynamic(() =>
     "../../../components/CoursePage/cloud&devops/CloudDevopstestimonial/Clouddevoptestimonials"
   )
 );
+const FirstSection = dynamic(() =>
+  import("../../CoursePage/FirstSection/FirstSection")
+);
 const WhoIsProgram = dynamic(() =>
   import("../../CoursePage/WhoIsProgram/WhoIsProgram")
 );
@@ -77,6 +80,23 @@ const FirstPart = ({ SecondSectionData, TestimonialData, adsHide }) => {
 
   return (
     <>
+    <FirstSection
+          dataScienceCounselling={true}
+          interstedInHide={true}
+          ThirdTyped="Live Interactive Classes"
+          dataScience={true}
+          titleCourse="Adavance Cloud Computing & DevOps Certification Program"
+          cityParaCont="Elevate your career to a Cloud Solution Architect or DevOps Engineer"
+          brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
+          FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-first-devops-min.webp"
+          firstToparaImg=""
+          firstHeading="Advance Cloud Computing & DevOps Certification Program"
+          firstTopPara="Crack Interview in top MNCs "
+          // idss="gaQYhVPCudQ"
+          thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/cd-f.webp"
+        videoId="gaQYhVPCudQ"
+        softwareBtnHide={true}
+        />
       <CloudDevopsecond data={clouddevops} showimg={true} shoimgtwo={true} />
       {adsHide ? (
         ""

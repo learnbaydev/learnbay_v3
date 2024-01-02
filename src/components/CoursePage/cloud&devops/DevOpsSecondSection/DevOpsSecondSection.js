@@ -27,8 +27,8 @@ function Gethire({ data, showimg, shoimgtwo }) {
             {showimg ? (
               <Image
                 src={data.image10}
-                width={110}
-                height={70}
+                width={120}
+                height={100}
                 loading="lazy"
               />
             ) : (
@@ -54,7 +54,7 @@ function Gethire({ data, showimg, shoimgtwo }) {
         <div>
           <div className={styles.box3limg}>
             {shoimgtwo ? (
-              <Image src={data.image11} width={95} height={60} loading="lazy" />
+              <Image src={data.image11} width={100} height={60} loading="lazy" />
             ) : (
               <Image src={data.image4} width={65} height={65} loading="lazy" />
             )}

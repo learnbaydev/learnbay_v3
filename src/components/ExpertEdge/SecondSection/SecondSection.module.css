@@ -1,14 +1,29 @@
 .maindiv {
-    display: grid;
-    grid-template-columns: 28% 24% 26% 30%;
+    display: flex;
+    /* grid-template-columns: 28% 24% 26% 30%; */
     border-radius: 22.048px;
-    opacity: 0.3;
-    background: linear-gradient(90deg, #0080FF 0%, #72BC00 49.88%, #0072BC 100%);
+    /* opacity: 0.3; */
+    background: linear-gradient(90deg, #6daff0 0%, #dff8b9 49.88%, #7bb9e2 100%);
     margin: 42px 60px;
     padding: 20px;
+    gap: 38px;
 }
 
-.inone{
+.fone {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.hrline {
+    margin: 10px 0;
+    border: 0.1px solid #fff;
+}
+
+
+.inone {
     border-radius: 20px;
     width: 264px;
     background: #FFF;
@@ -16,28 +31,38 @@
     box-shadow: 0px 1px 11px -2px rgba(0, 0, 0, 0.);
     margin: 10px 1px;
 }
+
 .inone p {
     color: #403F3F;
-text-align: center;
-font-family: Open Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: 140%; /* 30.868px */
+    text-align: center;
+    /* font-family: Open Sans; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    line-height: 140%;
+   
 }
 
 
-.ftwo{
-border-radius: 20px;
-width: 264px;
-background: #FFF;
-padding: 20px 19px;
-box-shadow: 0px 1px 11px -2px rgba(0, 0, 0, 0.);
-margin: 10px 1px;
-display: flex;
+.ftwo {
+    border-radius: 20px;
+    width: 280px;
+    background: #FFF;
+    padding: 24px 14px;
+    margin: 10px 1px;
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    text-align: center;
+    border-radius: 22.048px;
+box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 
+}
 
+.icons {
+    font-size: 60px;
+    color: #F99600;
+    
 }

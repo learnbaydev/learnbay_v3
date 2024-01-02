@@ -28,6 +28,9 @@ const DevOpsProject = dynamic(() =>
 const FAQNew = dynamic(() =>
   import("../../../components/CoursePage/FAQNew/FAQNew")
 );
+const Content = dynamic(() =>
+  import("../Content/content")
+);
 
 const SecondPart = ({
   masterSyllabusMobile,
@@ -39,6 +42,7 @@ const SecondPart = ({
   devopfee,
   adsHide,
   interstedInHide,
+
 }) => {
   const [popupData, setPopupData] = useState([]);
   // console.log(popupData);
@@ -120,6 +124,7 @@ const SecondPart = ({
       />
 
 {adsHide ? "" : <FAQNew FAQNewData={FAQNewData} />}
+<Content dataScienceCounselling={true} CDevops={true}/>
       {adsHide ? "" : <Footer />}
       <BottomBar />
       <WhatsappFloat />
