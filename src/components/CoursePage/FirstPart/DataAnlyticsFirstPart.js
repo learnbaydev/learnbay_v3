@@ -87,6 +87,9 @@ const DataAnlyticsFirstPart = ({ SecondSectionData, TestimonialData, ibmOnly, })
         firstTopPara="Curriculum designed by industry experts"
         idss="y_0IdhFKJKM"
         ibmOnly={ibmOnly}
+        thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/da-f.webp"
+        videoId="y_0IdhFKJKM"
+        softwareBtnHide={true}
      
       />
          <CloudDevopsecond data={DsSecond} />

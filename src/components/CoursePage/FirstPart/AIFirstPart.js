@@ -91,6 +91,9 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
         firstToparaImg="for Tech Professionals"
         firstHeading="Advance AI & ML Certification Program "
         firstTopPara="Expand beyond technology"
+        thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ai-f-one.webp"
+        videoId="qxwIns6z2Bc"
+        softwareBtnHide={true}
       />
      <CloudDevopsecond data={DsSecond} />
 

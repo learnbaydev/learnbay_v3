@@ -82,7 +82,11 @@ function Blockchain({ DataScienceCourseDataJson }) {
           firstToparaImg="with Domain Specialization"
           firstHeading="Advance Data Science & AI Program"
           firstTopPara="Curriculum Inclusive of Gen-AI "
-          idss="YWxTtvb3x-U"
+          // idss="YWxTtvb3x-U"
+          thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ds-fs.webp"
+          videoId="YWxTtvb3x-U"
+          softwareBtnHide={true}
+          
         />
         <FirstPart
           SecondSectionData={

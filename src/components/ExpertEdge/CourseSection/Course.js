@@ -1,19 +1,26 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import { MdChecklist } from "react-icons/md";
-import { Pagination } from "swiper";
+import { TbListDetails } from "react-icons/tb";
+import SwiperCore, { Scrollbar } from 'swiper/core';
 import { Swiper, SwiperSlide } from "swiper/react";
 import styles from "./Course.module.css";
-import dynamic from "next/dynamic";
+
 import { FaDownload } from "react-icons/fa";
 import "swiper/css";
 import "swiper/css/free-mode";
-import "swiper/css/pagination";
-const Popup = dynamic(() => import("@/components/Global/Popup/Popup"));
-const Form = dynamic(() => import("@/components/Global/Form/Form"));
-import { courseDetails, courseDetailsM } from "./courseDetails";
-import { BsCheckLg, BsFire } from "react-icons/bs";
+import "swiper/css/scrollbar";
+import Form from "./../../Global/Form/Form";
+import Popup from "../../Global/Popup/Popup";
+import { courseDetails } from "./courseDetails";
+
+import { BsCheckLg,} from "react-icons/bs";
 import { BiTimeFive } from "react-icons/bi";
+import { FaReact } from "react-icons/fa";
+import { IoPersonOutline, IoNewspaperOutline } from "react-icons/io5";
+
+
+
+
 
 const Course = ({
   dataScience,
@@ -21,17 +28,16 @@ const Course = ({
   dataScienceCounselling,
   organicADS,
   dataScienceGeneric,
-  interstedInHide,
 }) => {
-  const [courseArray, setCourseArray] = useState(courseDetails);
+  // console.log("course component");
   const [mobile, setMobile] = useState(false);
   const [value, setValue] = useState(3.68);
   const [popups, setPopups] = useState(false);
 
   const [CourseLoop, setCourseLoop] = useState([
-    { title: "Popular Courses", value: true },
-    { title: "Certification Program", value: true },
-    { title: "Master's Degree Program", value: true },
+    { title: "Technical Courses", value: true },
+    { title: "Non-Tech Courses", value: false },
+    { title: "Resume Building", value: false },
   ]);
 
   const menuChange = (title, index) => {
@@ -56,17 +62,8 @@ const Course = ({
   useEffect(() => {
     let width = window.innerWidth;
     if (width < 481) {
-      setCourseArray(courseDetailsM);
-      console.log("inside", courseDetailsM);
-    }
-  }, [courseArray]);
-  useEffect(() => {
-    let width = window.innerWidth;
-    if (width < 481) {
       setValue(1.4);
       setMobile(true);
-      setCourseArray(courseDetailsM);
-      console.log("inside", courseDetailsM);
     }
     if (width < 600) {
       setValue(1);
@@ -112,7 +109,6 @@ const Course = ({
             radio={radio}
             downloadBrochure
             upSkillingHide={true}
-            interstedInHide={interstedInHide}
           />
         </div>
       </Popup>
@@ -120,7 +116,7 @@ const Course = ({
 
       <div className={styles.courses}>
         <div className={styles.listPanel}>
-          {courseArray.map((CourseData, index) => {
+          {courseDetails.map((CourseData, index) => {
             return (
               <span
                 key={index}
@@ -131,13 +127,30 @@ const Course = ({
                   CourseLoop[index].value ? styles.ActiveSpan : styles.span
                 }
               >
+                {CourseData.title === "Technical Courses" ? (
+                  <FaReact style={{ color: "grey", marginRight: "5px", size:"40px" }} />
+                ) : (
+                  ""
+                )}
+                {CourseData.title === "Non-Tech Courses" ? (
+                  <IoPersonOutline style={{ color: "grey", marginRight: "5px" }} />
+                ) : (
+                  ""
+                )}
+
+                {CourseData.title === "Resume Building" ? (
+                  <IoNewspaperOutline style={{ color: "grey", marginRight: "5px" }} />
+                ) : (
+                  ""
+                )}
+
                 {CourseData.title}
               </span>
             );
           })}
         </div>
         <div>
-          {courseArray.map((courseDetail, index) => {
+          {courseDetails.map((courseDetail, index) => {
             const { courses } = courseDetail;
             return CourseLoop[index].value ? (
               <div key={index}>
@@ -151,11 +164,9 @@ const Course = ({
                         <Swiper
                           slidesPerView={value}
                           spaceBetween={mobile ? 10 : 30}
-                          pagination={{
-                            clickable: true,
-                          }}
-                          grabCursor={true}
-                          modules={[Pagination]}
+                          scrollbar={{ draggable: true }}
+                          // grabCursor={true}
+                          modules={[ Scrollbar]}
                           className="mySwiper"
                         >
                           {courseDetail.courseDetails.map(
@@ -179,8 +190,40 @@ const Course = ({
                                   className={styles.leftSide}
                                   key={index}
                                 >
-                                  <div key={id} className={styles.SliderWrap}>
-                                    {organicADS ? (
+                                  <div
+                                    key={id}
+                                    className={
+                                      newDesignOrange
+                                        ? styles.newSliderWrapOrange
+                                        : newDesign
+                                        ? styles.newSliderWrap
+                                        : styles.SliderWrap
+                                    }
+                                  >
+                                    {newDesign ? (
+                                      <>
+                                        {" "}
+                                        <div
+                                          className={
+                                            newDesignOrange
+                                              ? styles.OrangeLeftBorder
+                                              : styles.leftBorder
+                                          }
+                                        ></div>
+                                        <div
+                                          className={
+                                            newDesignOrange
+                                              ? styles.OrangeRightBorder
+                                              : styles.rightBorder
+                                          }
+                                        ></div>
+                                      </>
+                                    ) : (
+                                      ""
+                                    )}
+                                    {newDesign ? (
+                                      ""
+                                    ) : organicADS ? (
                                       <a
                                         onClick={() => {
                                           setTitleCourse(titleCourse);
@@ -193,8 +236,9 @@ const Course = ({
                                           <Image
                                             src={img}
                                             fill={true}
-                                            quality={60}
+                                            quality={80}
                                             loading="lazy"
+                                            unoptimized={true}
                                             style={{ objectFit: "cover" }}
                                             alt="data science course"
                                           />
@@ -211,6 +255,7 @@ const Course = ({
                                             fill={true}
                                             quality={80}
                                             loading="lazy"
+                                            unoptimized={true}
                                             style={{ objectFit: "cover" }}
                                             alt="data science course"
                                           />
@@ -219,25 +264,64 @@ const Course = ({
                                     )}
                                     <div
                                       className={styles.contButton}
-                                      style={{
-                                        borderRadius: "0px 0px 8px 8px",
-
-                                        marginTop: "-12px",
-                                        zIndex: "0",
-                                        boxShadow:
-                                          "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px",
-                                      }}
+                                      style={
+                                        newDesign
+                                          ? { borderRadius: "20px" }
+                                          : {
+                                              borderRadius: "8px",
+                                              width: "92%",
+                                              marginTop: "-12px",
+                                              zIndex: "0",
+                                              boxShadow:
+                                                "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px",
+                                            }
+                                      }
                                     >
+                                      {newDesign ? (
+                                        organicADS ? (
+                                          <a
+                                            onClick={() => {
+                                              setTitleCourse(titleCourse);
+                                              setBrochureLinks(brochureLinks);
+                                              popupShow();
+                                            }}
+                                            className={styles.imgWrap}
+                                          >
+                                            <div className="bgWrap">
+                                              <Image
+                                                src={img}
+                                                fill={true}
+                                                quality={80}
+                                                unoptimized={true}
+                                                loading="lazy"
+                                                style={{ objectFit: "cover" }}
+                                                alt="data science course"
+                                              />
+                                            </div>
+                                          </a>
+                                        ) : (
+                                          <a
+                                            href={link1}
+                                            className={styles.imgWrap}
+                                          >
+                                            <div className="bgWrap">
+                                              <Image
+                                                src={img}
+                                                fill={true}
+                                                quality={80}
+                                                unoptimized={true}
+                                                loading="lazy"
+                                                style={{ objectFit: "cover" }}
+                                                alt="data science course"
+                                              />
+                                            </div>
+                                          </a>
+                                        )
+                                      ) : (
+                                        ""
+                                      )}
                                       <div className={styles.contentBox}>
-                                        <div
-                                          className={styles.headWrapper}
-                                          style={
-                                            title === "Master in CS:" ||
-                                            title === "Advance Certification"
-                                              ? { marginTop: "5px" }
-                                              : { marginTop: "15px" }
-                                          }
-                                        >
+                                        <div className={styles.headWrapper}>
                                           <h6
                                             className={
                                               Green
@@ -263,10 +347,22 @@ const Course = ({
                                             <BiTimeFive
                                               className={styles.checkCircle}
                                             />
+                                            {/* <IoTimeOutline
+                                          className={styles.timeIcon}
+                                        />{" "} */}
                                             {para[0]} {courseTime}
                                           </p>
-
+                                          {/* <p>
+                                      <AiOutlineFundProjectionScreen
+                                        className={styles.checkCircle}
+                                        style={{ color: "#edb552" }}
+                                      />
+                                      {para[1]}
+                                    </p> */}
                                           <p className={styles.singleP}>
+                                            {/* <TbCurrencyRupee
+                                          className={styles.checkCircle}
+                                        /> */}
                                             <BsCheckLg
                                               className={styles.checkIcon}
                                             />
@@ -274,6 +370,9 @@ const Course = ({
                                           </p>
                                           {para.length >= 3 ? (
                                             <p className={styles.singleP}>
+                                              {/* <TbCurrencyRupee
+                                          className={styles.checkCircle}
+                                        /> */}
                                               <BsCheckLg
                                                 className={styles.checkIcon}
                                               />
@@ -286,14 +385,14 @@ const Course = ({
                                         <hr className={styles.hr1} />
                                       </div>
                                       <div className={styles.btnWrapper}>
-                                        <a
+                                        {/* <a
                                           onClick={() => {
                                             setTitleCourse(titleCourse);
                                             setBrochureLinks(brochureLinks);
                                             popupShow();
                                           }}
-                                        >
-                                          <button
+                                        > */}
+                                        {/* <button
                                             className="outLineBtn1"
                                             style={{
                                               color: "#2979AD",
@@ -306,9 +405,9 @@ const Course = ({
                                               className="bIcon"
                                               style={{ color: "#2979AD" }}
                                             />
-                                          </button>
-                                        </a>
-                                        <hr className={styles.btnLine} />
+                                          </button> */}
+                                        {/* </a> */}
+                                        {/* <hr className={styles.btnLine} /> */}
                                         {organicADS ? (
                                           <a
                                             onClick={() => {
@@ -323,14 +422,8 @@ const Course = ({
                                                   ? styles.green
                                                   : styles.fillBtn
                                               }
-                                              style={{
-                                                borderRadius: "0 0 8px 0px",
-                                              }}
                                             >
-                                              View Details
-                                              <MdChecklist
-                                                className={styles.bellIcon}
-                                              />
+                                              Start Learning
                                             </button>
                                           </a>
                                         ) : (
@@ -344,14 +437,19 @@ const Course = ({
                                                   ? styles.green
                                                   : styles.fillBtn
                                               }
-                                              style={{
-                                                borderRadius: "0 0 8px 0px",
-                                              }}
+                                              style={
+                                                newDesign
+                                                  ? {
+                                                      borderRadius:
+                                                        "0 0 20px 0",
+                                                    }
+                                                  : {
+                                                      borderRadius:
+                                                        "0 0 8px 0px",
+                                                    }
+                                              }
                                             >
-                                              View Details
-                                              <MdChecklist
-                                                className={styles.bellIcon}
-                                              />
+                                              Start Learning
                                             </button>
                                           </a>
                                         )}

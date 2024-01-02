@@ -102,6 +102,9 @@ a {
 .flexBoxRow {
   flex-flow: row;
 }
+iframe {
+  border-radius:18px;
+}
 
 .flexJustSpaceBetween {
   justify-content: space-between;

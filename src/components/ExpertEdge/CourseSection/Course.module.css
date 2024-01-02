@@ -11,7 +11,7 @@
 }
 
 .mainHeadGreen {
-  color: #0072bc !important;
+  color: #72BC00 !important;
 }
 
 .listPanel .mPanel {
@@ -19,7 +19,6 @@
 }
 .listPanel {
   display: flex;
-  gap: 20px;
   width: 100%;
 }
 
@@ -40,7 +39,7 @@
 }
 
 .green {
-  background: #0072bc;
+  background: #72BC00;
   color: #fff;
 }
 
@@ -59,8 +58,8 @@
   font-weight: 400;
   cursor: pointer;
   justify-content: start;
-  border-bottom: 2px solid #0072bc;
-  color: #0072bc;
+  border-bottom: 2px solid #72BC00;
+  color: #72BC00;
 }
 .gridPanel {
   display: flex;
@@ -174,7 +173,7 @@
   margin-top: -5px;
   border-radius: 0px 8px 0px 0px;
   z-index: -1;
-  background: linear-gradient(to right, white, #0072bc);
+  background: linear-gradient(to right, white, #72BC00);
 }
 .leftBorder {
   position: absolute;
@@ -183,7 +182,7 @@
   z-index: 0;
   margin-left: -5px;
   height: 47%;
-  background: linear-gradient(to top, #0072bc, white);
+  background: linear-gradient(to top, #72BC00, white);
   border-radius: 0px 8px 0px 8px;
 }
 
@@ -193,7 +192,7 @@
   top: -4px;
   right: 0px;
   width: 10%;
-  background: linear-gradient(to bottom, #0072bc, white);
+  background: linear-gradient(to bottom, #72BC00, white);
   margin-right: -5px;
   border-radius: 0px 8px 0px 8px;
 }
@@ -205,7 +204,7 @@
   border: 5px;
   border-radius: 0px 0px 0px 8px;
   z-index: -1;
-  background: linear-gradient(to right, #0072bc, white);
+  background: linear-gradient(to right, #72BC00, white);
 }
 .newSliderWrap .contentBox {
   width: 100%;
@@ -252,7 +251,7 @@
 }
 .hr {
   border: 1px solid #efefef;
-  background-color: #0072bc;
+  background-color: #72BC00;
   height: 1px;
   top: 45%;
   position: absolute;
@@ -261,7 +260,7 @@
 }
 .hr1 {
   border: 0.3px solid #efefef;
-  background-color: #0072bc;
+  background-color: #72BC00;
   height: 0.3px;
   bottom: -1%;
   left: 0px;
@@ -297,7 +296,7 @@
 }
 .checkCircle {
   margin-right: 10px;
-  color: #0072bc;
+  color: #72BC00;
   font-size: 22px;
 }
 .btnWrapper {
@@ -338,7 +337,7 @@
   margin-left: -3px;
 }
 .fillBtn {
-  background-color: #0072bc;
+  background-color: #72BC00;
   color: white;
   height: 100%;
   border-radius: 0px 0px 8px 0px;
@@ -471,8 +470,8 @@
     cursor: pointer;
     line-height: normal;
     border: 0;
-    border-bottom: 2px solid #0072bc;
-    color: #0072bc;
+    border-bottom: 2px solid #72BC00;
+    color: #72BC00;
     justify-content: start;
   }
   .Course h2 {
@@ -526,7 +525,7 @@
     width: 100%;
     font-family: "Inter", sans-serif;
     margin-top: 0px;
-    color: #0072bc;
+    color: #72BC00;
     margin-right: 0;
   }
   .mainHead {
@@ -585,7 +584,7 @@
   }
   .btnWrapper .outLineBtn1 {
     background-color: #fff;
-    color: #0072bc;
+    color: #72BC00;
   }
   .btnLine {
     border: 0px;
@@ -621,7 +620,7 @@
 }
 
 .mainHeadGreen {
-  color: #0072bc !important;
+  color: #72BC00 !important;
 }
 
 .listPanel .mPanel {
@@ -641,19 +640,18 @@
 }
 
 .contButton {
-  width: 92%;
+  width: 96%;
   margin-left: 15px;
   margin-top: -0px;
   z-index: 1;
   background-color: white;
   border-radius: 20px;
   background: #fff;
-  margin-bottom: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .green {
-  background: #0072bc;
+  background: #72BC00;
   color: #fff;
   border-radius: 0px 0px 20px 0px;
 }
@@ -673,8 +671,8 @@
   font-weight: 400;
   cursor: pointer;
   justify-content: start;
-  border-bottom: 2px solid #0072bc;
-  color: #0072bc;
+  border-bottom: 2px solid #72BC00;
+  color: #72BC00;
   font-size: 20px;
 }
 .gridPanel {
@@ -695,7 +693,7 @@
   margin-top: 30px;
 }
 .listPanel {
-  display: none;
+  display: flex;
   width: fit-content;
   gap: 100px;
   margin-bottom: 50px;
@@ -871,9 +869,6 @@
   background-color: white;
   /* hello */
 }
-.contButton .imgWrap {
-  margin: 8px 11px 0px 0px;
-}
 .imgWrap {
   display: flex;
 
@@ -882,7 +877,7 @@
   border-radius: 30px;
   position: relative;
   z-index: 1;
-  margin: 8px 12px 8px 0px;
+  margin: 8px 8px 8px 0px;
 }
 
 .leftSide h6 {
@@ -892,7 +887,6 @@
   width: 100%;
   color: #000;
 }
-
 .headWrapper {
   display: flex;
   flex-flow: column;
@@ -901,7 +895,7 @@
 }
 .hr {
   border: 1px solid #efefef;
-  background-color: #0072bc;
+  background-color: #72BC00;
   height: 1px;
   top: 36%;
   position: absolute;
@@ -910,7 +904,7 @@
 }
 .hr1 {
   border: 0.3px solid #efefef;
-  background-color: #0072bc;
+  background-color: #72BC00;
   height: 0.3px;
   bottom: -1%;
   left: 0px;
@@ -946,7 +940,7 @@
 }
 .checkCircle {
   margin-right: 10px;
-  color: #0072bc;
+  color: #72BC00;
   font-size: 22px;
 }
 .btnWrapper {
@@ -987,7 +981,7 @@
   margin-left: -3px;
 }
 .fillBtn {
-  background-color: #0072bc;
+  background-color: #72BC00;
   color: white;
   height: 100%;
   border-radius: 0px 0px 8px 0px;
@@ -1120,8 +1114,8 @@
     cursor: pointer;
     line-height: normal;
     border: 0;
-    border-bottom: 2px solid #0072bc;
-    color: #0072bc;
+    border-bottom: 2px solid #72BC00;
+    color: #72BC00;
     justify-content: start;
   }
   .Course h2 {
@@ -1138,11 +1132,10 @@
     gap: 0px;
   }
   .listPanel {
-    display: none;
+    display: grid;
     width: 100%;
-
-    gap: 50px;
-    grid-template-columns: 50% 32% 30% 10%;
+    gap: 0;
+    grid-template-columns: 42% 53% 60% 30%;
     height: max-content;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -1167,10 +1160,10 @@
     padding: 0px;
   }
   .imgWrap {
-    height: 208px;
+    height: 155px;
   }
   .hr {
-    top: 37.8%;
+    top: 36%;
     margin-left: -15px;
     width: 100%;
   }
@@ -1178,7 +1171,7 @@
     width: 100%;
     font-family: "Inter", sans-serif;
     margin-top: 0px;
-    color: #0072bc;
+    color: #72BC00;
     margin-right: 0;
   }
   .mainHead {
@@ -1237,7 +1230,7 @@
   }
   .btnWrapper .outLineBtn1 {
     background-color: #fff;
-    color: #0072bc;
+    color: #72BC00;
   }
   .btnLine {
     border: 0px;
@@ -1258,9 +1251,5 @@
   }
   .imgWrapper {
     width: 300px !important;
-  }
-  .contButton {
-    width: 92%;
-    margin-left: 15px;
   }
 }

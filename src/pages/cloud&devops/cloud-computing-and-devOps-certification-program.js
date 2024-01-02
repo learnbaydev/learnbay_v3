@@ -3,7 +3,7 @@ import { parseJSONData } from "@/Util/JsonConvertor";
 import FirstPart from "@/components/CoursePage/FirstPart/DevOpsFirstpart";
 import SecondPart from "@/components/CoursePage/FirstPart/DevopsSecondPart";
 import Navbar from "@/components/Global/Navbar/Navbar";
-import FirstSection from "@/components/CoursePage/cloud&devops/Devopsfirstsection/DevopFirstSection";
+
 
 
 function Blockchain({ CloudAndDevOpsCourseDataJson }) {
@@ -72,20 +72,7 @@ function Blockchain({ CloudAndDevOpsCourseDataJson }) {
       </Head>
       <main>
         <Navbar dataScienceCounselling={true} interstedInHide={true} />
-        <FirstSection
-          dataScienceCounselling={true}
-          interstedInHide={true}
-          ThirdTyped="Live Interactive Classes"
-          dataScience={true}
-          titleCourse="Adavance Cloud Computing & DevOps Certification Program"
-          cityParaCont="Elevate your career to a Cloud Solution Architect or DevOps Engineer"
-          brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
-          FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-first-devops-min.webp"
-          firstToparaImg=""
-          firstHeading="Advance Cloud Computing & DevOps Certification Program"
-          firstTopPara="Crack Interview in top MNCs "
-          idss="gaQYhVPCudQ"
-        />
+        
         <FirstPart
           SecondSectionData={
             CloudAndDevOpsCourseData.CloudAndDevOpsCourseData[0].secondSection

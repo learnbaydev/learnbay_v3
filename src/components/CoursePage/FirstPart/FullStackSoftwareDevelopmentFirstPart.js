@@ -41,6 +41,8 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData }) => {
         idss="bfl64ANfSV0"
         softwareBtnHide={true}
         interstedInHide={true}
+        thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/sf-f.webp"
+        videoId="bfl64ANfSV0"
       />
       <SecondSection SecondSectionData={SecondSectionData} />
       {/* <WhoProgram

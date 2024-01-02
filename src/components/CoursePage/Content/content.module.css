@@ -5,7 +5,18 @@
     overflow: scroll;
     margin-top: 50px;
 }
-
+.container li {
+    margin: 24px;
+}
+.container ul {
+    list-style: none;
+}
+.links{
+    color: rgb(42, 110, 165);
+}
+.dothide {
+    list-style: none;
+}
 .container h1 {
     text-align: center;
 }

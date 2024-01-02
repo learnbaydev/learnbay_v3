@@ -37,6 +37,9 @@ const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
 const SeventhSection = dynamic(() =>
   import("@/components/Global/SeventhSection/SeventhSection")
 );
+const Content = dynamic(() =>
+  import("../../../components/CoursePage/Content/content")
+);
 
 const SecondPart = ({
   masterSyllabusMobile,
@@ -122,6 +125,7 @@ const SecondPart = ({
       />
 
       <FAQNew FAQNewData={FAQNewData} />
+      <Content dataScienceCounselling={true} AIML={true} />
       <SeventhSection />
       <Footer />
       <WhatsappFloat />

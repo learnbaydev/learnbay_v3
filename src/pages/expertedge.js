@@ -9,7 +9,11 @@ import Course from "@/components/ExpertEdge/CourseSection/Course";
 const Testimonial = dynamic(() =>
   import("@/components/Global/Testimonial/Testimonial")
 );
+const Faq = dynamic(() => import("../components/ExpertEdge/ExpertFAQ/FAQ/Faq"));
+
+
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
+
 
 export default function Home() {
   const testimonial = [
@@ -108,12 +112,8 @@ export default function Home() {
       />
       <SecondSection />
       <Course />
-      <Slider />
-      <Testimonial
-        redirectDS={true}
-        heading="Our Alumni"
-        Testimonial={testimonial}
-      />
+    < Faq />
+     
       <Footer />
     </>
   );

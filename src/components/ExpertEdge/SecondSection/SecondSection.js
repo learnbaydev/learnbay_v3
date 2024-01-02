@@ -9,9 +9,12 @@ function SecondSection() {
       <div className={styles.maindiv}>
         <div className={styles.fone}>
           <div>
-            <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/chatgpt.webp" width={180} height={50} />
-
-            
+            <Image
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/chatgpt.webp"
+              width={180}
+              height={54}
+              loading="lazy"
+            />
           </div>
 
           <div className={styles.inone}>
@@ -19,18 +22,42 @@ function SecondSection() {
           </div>
         </div>
 
-        <div className={styles.ftwo}>
+        <hr className={styles.hrline} />
 
+        <div className={styles.ftwo}>
+          <Image
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/userCertificate.jpeg"
+            width={60}
+            height={60}
+            loading="lazy"
+            alt=""
+            className={styles.icons}
+          />
           <p>Learn from courses designed by industry experts</p>
         </div>
 
         <div className={styles.ftwo}>
-          <FaBookReader/>
-        Self-paced learning. Learn anytime from anywhere
+          <Image
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/studyIcon.jpeg"
+            width={60}
+            height={60}
+            loading="lazy"
+            alt=""
+            className={styles.icons}
+          />
+          Self-paced learning. Learn anytime from anywhere
         </div>
 
         <div className={styles.ftwo}>
-        Lifetime free access to all our courses
+          <Image
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/lock.jpeg"
+            width={60}
+            height={60}
+            loading="lazy"
+            alt=""
+            className={styles.icons}
+          />
+          Lifetime free access to all our courses
         </div>
       </div>
     </>

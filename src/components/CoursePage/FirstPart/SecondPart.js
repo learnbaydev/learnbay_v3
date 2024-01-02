@@ -28,6 +28,9 @@ const NewProjectSection = dynamic(() =>
 const FAQNew = dynamic(() =>
   import("../../../components/CoursePage/FAQNew/FAQNew")
 );
+const Content = dynamic(() =>
+  import("../../../components/CoursePage/Content/content")
+);
 
 const SecondPart = ({
   masterSyllabusMobile,
@@ -113,6 +116,7 @@ const SecondPart = ({
       />
 
       <FAQNew FAQNewData={FAQNewData} />
+     < Content dataScienceCounselling={true} Advance={true} />
       <Footer />
       <BottomBar />
       <WhatsappFloat />

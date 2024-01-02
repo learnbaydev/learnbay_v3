@@ -1,8 +1,10 @@
 import Image from "next/image";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import Button from "../../Global/Button/Button";
 import styles from "./FirstSection.module.css";
 import { FaPlay } from "react-icons/fa";
+import dynamic from "next/dynamic";
+const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
 const FirstContent = ({
   softwareBtnHide,
@@ -14,26 +16,80 @@ const FirstContent = ({
   cityParaCont,
   setPopups,
   setVideo,
-
+  videoId, // Pass videoId as a prop
+  thumbnailUrl, // Pass thumbnailUrl as a prop
 }) => {
+  const texts = [
+    "Guaranteed Interview Calls",
+    "1:1 Doubt Session",
+    "IBM Project Certification",
+    "Designed for Professionals",
+  ];
   const [mobile, setMobile] = useState(false);
+  const [showThumbnail, setShowThumbnail] = useState(true);
+  const [lastScrollTop, setLastScrollTop] = useState(0);
+  const videoRef = useRef(null);
+
   useEffect(() => {
     let width = window.innerWidth;
     if (width < 641) {
       setMobile(true);
     }
-  }, []);
+    const isVideoInView = (scrollY) => {
+      // Implement logic to check if the video is in view
+      // For simplicity, you can replace this with your own logic
+      return true;
+    };
+    const handleScroll = () => {
+      const threshold = 300;
+      const scrollY = window.scrollY;
+
+      const scrollDirection = scrollY > lastScrollTop ? "down" : "up";
+      const isScrollingUp = scrollDirection === "up";
+      const isBeyondThreshold = scrollY <= threshold;
+
+      setShowThumbnail(
+        isBeyondThreshold || (isScrollingUp && !isVideoInView(scrollY))
+      );
+      setLastScrollTop(scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [lastScrollTop]);
 
   const popupShow = () => {
     setPopups(true);
   };
-  const videoSHow = () => {
+
+  const videoShow = () => {
     setVideo(true);
+    setShowThumbnail(false);
+    if (videoRef.current) {
+      videoRef.current.seekTo(0); // Reset video to start
+      videoRef.current.getInternalPlayer().play(); // Play the video
+    }
   };
+  const customStyles = `
+  .react-player__play-icon {
+    display: none !important;
+  }
+`;
+  const containerStyle = {
+    backgroundImage:
+      'url("https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/first-background.webp")',
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  };
+  // const youtubeVideoUrl = `https://www.youtube.com/watch?v=${videoId}`;
 
   return (
     <>
-      <div className={styles.First}>
+      <style>{customStyles}</style>
+      <div className={styles.First} style={containerStyle}>
         <div className={styles.FirstLeft}>
           <p className={styles.ptopC}>{firstTopPara}</p>
           <h1 className={styles.h1}>
@@ -45,7 +101,7 @@ const FirstContent = ({
             ""
           ) : (
             <>
-            <div className={ibmOnly ?  styles.DAibm: styles.Desktop}>
+              <div className={ibmOnly ? styles.DAibm : styles.Desktop}>
                 <p className={styles.ptop}>In Collaboration With</p>
                 <div className={styles.ImageBlock}>
                   {ibmOnly ? (
@@ -68,11 +124,12 @@ const FirstContent = ({
                 </div>
               </div>
               <div className={styles.animationTextWrap}>
-                <span className={styles.animationText}>
-                  Guaranteed Interview Calls
-                </span>
+                {texts.map((text, index) => (
+                  <div key={index} className={styles.verticalSlideWrapper}>
+                    <span className={styles.animationText}>{text}</span>
+                  </div>
+                ))}
               </div>
-              {/* Button */}
               <div className={styles.btnImage}>
                 <div onClick={popupShow}>
                   <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
@@ -80,7 +137,7 @@ const FirstContent = ({
                 {softwareBtnHide ? (
                   ""
                 ) : (
-                  <div onClick={videoSHow}>
+                  <div onClick={videoShow}>
                     <Button
                       whiteBgButton={true}
                       text="INTRO VIDEO"
@@ -92,21 +149,22 @@ const FirstContent = ({
             </>
           )}
         </div>
-        {/* For desktop View */}
+
         <div className={styles.secondLeft}>
-          <div className="bgImg">
-            <Image
-              src={FirstRightImg}
-              fill={true}
-              style={{ objectFit: "contain" }}
-              alt="data science course"
-              priority
-              // placeholder="blur"
-              // blurDataURL={imagesSet}
-              quality={55}
+          <div className={`${styles.bgvidos} "bgVideo"`}>
+            <ReactPlayer
+              className={styles.ReactPlayer}
+              ref={videoRef}
+              url={`https://www.youtube.com/watch?v=${videoId}`}
+              width="100%"
+              height="100%"
+              // controls={false}
+              light={!showThumbnail ? null : thumbnailUrl}
+              playing={!showThumbnail ? null : thumbnailUrl}
             />
           </div>
         </div>
+
         {mobile ? (
           <>
             <div className={styles.Mobile}>
@@ -130,6 +188,20 @@ const FirstContent = ({
                   />
                 )}
               </div>
+              <div className={styles.secondLeft}>
+                <div className={`${styles.bgvidos} "bgVideo"`}>
+                  <ReactPlayer
+                    className={styles.ReactPlayer}
+                    ref={videoRef}
+                    url={`https://www.youtube.com/watch?v=${videoId}`}
+                    width="100%"
+                    height="100%"
+                    // controls={false}
+                    light={!showThumbnail ? null : thumbnailUrl}
+                    playing={!showThumbnail ? null : thumbnailUrl}
+                  />
+                </div>
+              </div>
             </div>{" "}
             <div className={styles.btnImageMobile}>
               <div onClick={popupShow}>
@@ -138,7 +210,7 @@ const FirstContent = ({
               {softwareBtnHide ? (
                 ""
               ) : (
-                <div onClick={videoSHow}>
+                <div onClick={videoShow}>
                   <Button
                     whiteBgButton={true}
                     text="INTRO VIDEO"

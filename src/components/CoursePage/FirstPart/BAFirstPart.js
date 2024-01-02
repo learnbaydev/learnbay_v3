@@ -88,6 +88,9 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         firstHeading="Business Analytics Certification Program"
         firstTopPara="Get real-world experience with capstone projects"
         idss="CHut_wm-P2s"
+         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ba-f.webp"
+          videoId="CHut_wm-P2s"
+          softwareBtnHide={true}
       />
          <CloudDevopsecond data={BASecond} />
       {/* <SecondSection SecondSectionData={SecondSectionData} /> */}
