@@ -3,6 +3,7 @@ import dynamic from "next/dynamic";
 import Footer from "@/components/Global/Footer/Footer";
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+import SeventhSection from "@/components/Global/SeventhSection/SeventhSection";
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
 const Certificate = dynamic(() =>
@@ -125,6 +126,7 @@ const SecondPart = ({
 
 {adsHide ? "" : <FAQNew FAQNewData={FAQNewData} />}
 <Content dataScienceCounselling={true} CDevops={true}/>
+<SeventhSection/>
       {adsHide ? "" : <Footer />}
       <BottomBar />
       <WhatsappFloat />

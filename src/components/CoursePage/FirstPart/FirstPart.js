@@ -28,6 +28,12 @@ const CloudDevopsecond = dynamic(() =>
     "../../CoursePage/cloud&devops/DevOpsSecondSection/DevOpsSecondSection"
   )
 );
+const FirstSection  = dynamic(() =>
+  import(
+    "../../CoursePage/FirstSection/FirstSection"
+  )
+);
+
 import { FaReact } from "react-icons/fa";
 import { TbBrandGoogleAnalytics } from "react-icons/tb";
 import { BsPersonGear } from "react-icons/bs";
@@ -75,7 +81,24 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
   };
   return (
     <>
-    
+      <FirstSection
+          dataScienceCounselling={true}
+          interstedInHide={true}
+          ThirdTyped="Live Interactive Classes"
+          dataScience={true}
+          titleCourse="Advance Data Science & AI Program with Domain Specialization"
+          cityParaCont="Elevate your tech career with our Master's programs"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+          FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Adv-dsai-_1_-min.webp"
+          firstToparaImg="with Domain Specialization"
+          firstHeading="Advance Data Science & AI Program"
+          firstTopPara="Curriculum Inclusive of Gen-AI "
+          // idss="YWxTtvb3x-U"
+          thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ds-fs.webp"
+          videoId="YWxTtvb3x-U"
+          softwareBtnHide={true}
+          
+        />
       <CloudDevopsecond data={DsSecond} />
       <SecondNavbar
         interstedInHide={true}
