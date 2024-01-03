@@ -102,11 +102,11 @@ function refund() {
         <p className={styles.top}>
           Having followed all of the above steps but still have not received
           your refund, contact us at -{" "}
-          <a href="mailto:contacts@learnbay.co">contacts@learnbay.co</a>
+          <a href="mailto:finance@learnbay.co">finance@learnbay.co</a>
         </p>
         <p className={styles.top}>
           For Cancellations please email us at:{" "}
-          <a href="mailto:contacts@learnbay.co">contacts@learnbay.co.</a>
+          <a href="mailto:finance@learnbay.co">finance@learnbay.co.</a>
         </p>
       </div>
     </section>

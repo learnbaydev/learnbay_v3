@@ -49,12 +49,12 @@ function Gethire({ data, showimg, shoimgtwo }) {
           ))}
         </div>
         <div className={styles.gamimg}>
-          <Image src={data.image3} width={300} height={40} loading="lazy" />
+          <Image src={data.image3} width={360} height={40} loading="lazy" />
         </div>
         <div>
           <div className={styles.box3limg}>
             {shoimgtwo ? (
-              <Image src={data.image11} width={100} height={60} loading="lazy" />
+              <Image src={data.image11} width={100} height={50} loading="lazy" />
             ) : (
               <Image src={data.image4} width={65} height={65} loading="lazy" />
             )}
