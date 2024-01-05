@@ -92,9 +92,9 @@ const FirstPart = ({ SecondSectionData, TestimonialData, adsHide }) => {
           firstToparaImg=""
           firstHeading="Advance Cloud Computing & DevOps Certification Program"
           firstTopPara="Crack Interview in top MNCs "
-          // idss="gaQYhVPCudQ"
+          idss="gaQYhVPCudQ"
           thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/cd-f.webp"
-        videoId="gaQYhVPCudQ"
+        // videoId="gaQYhVPCudQ"
         softwareBtnHide={true}
         />
       <CloudDevopsecond data={clouddevops} showimg={true} shoimgtwo={true} />

@@ -1,9 +1,9 @@
-import React from "react";
+import { ThirdSectionData } from "@/Data/ThirdSectionData";
 import dynamic from "next/dynamic";
+import React from "react";
 const SecondNavbar = dynamic(() =>
   import("../../../components/CoursePage/SecondNavbar/SecondNavbar")
 );
-import { ThirdSectionData } from "@/Data/ThirdSectionData";
 const WhoProgram = dynamic(() =>
   import("../../../components/CoursePage/WhoProgram/ThirdSection")
 );
@@ -28,19 +28,14 @@ const CloudDevopsecond = dynamic(() =>
     "../../CoursePage/cloud&devops/DevOpsSecondSection/DevOpsSecondSection"
   )
 );
-const FirstSection  = dynamic(() =>
-  import(
-    "../../CoursePage/FirstSection/FirstSection"
-  )
+const FirstSection = dynamic(() =>
+  import("../../CoursePage/FirstSection/FirstSection")
 );
 
-import { FaReact } from "react-icons/fa";
-import { TbBrandGoogleAnalytics } from "react-icons/tb";
-import { BsPersonGear } from "react-icons/bs";
-import { BsDisplay } from "react-icons/bs";
 import { AiOutlineContainer } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-import { BsPeople } from "react-icons/bs";
+import { BsDisplay, BsPeople, BsPersonGear } from "react-icons/bs";
+import { FaLinkedinIn, FaReact } from "react-icons/fa";
+import { TbBrandGoogleAnalytics } from "react-icons/tb";
 const FirstPart = ({ SecondSectionData, TestimonialData }) => {
   const DsSecond = {
     title1: "Domain Specialization",
@@ -55,11 +50,15 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
     title2: "Job Roles You Can Target",
     jobRoles: [
       {
-        icon: <FaReact/>,
+        icon: <FaReact />,
         role: "Sr. Data Scientist ",
         salary: " 27 LPA",
       },
-      { icon: <TbBrandGoogleAnalytics />, role: "Sr. Data Analyst", salary: " 15 LPA" },
+      {
+        icon: <TbBrandGoogleAnalytics />,
+        role: "Sr. Data Analyst",
+        salary: " 15 LPA",
+      },
       { icon: <BsPersonGear />, role: "ML Engineer ", salary: "14 LPA" },
     ],
     image3:
@@ -71,34 +70,30 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       { icon: <BsDisplay />, text: "Unlimited Interview Calls" },
       { icon: <AiOutlineContainer />, text: "Resume Building Session" },
       { icon: <FaLinkedinIn />, text: "LinkedIn Profile Review" },
-    
     ],
-    formbl: [
-      { icon: <BsPeople />, text: "Mock Interview Sessions" },
-    ],
+    formbl: [{ icon: <BsPeople />, text: "Mock Interview Sessions" }],
     image5:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-second-min.webp",
   };
   return (
     <>
       <FirstSection
-          dataScienceCounselling={true}
-          interstedInHide={true}
-          ThirdTyped="Live Interactive Classes"
-          dataScience={true}
-          titleCourse="Advance Data Science & AI Program with Domain Specialization"
-          cityParaCont="Gain work experience of data scientist with real projects"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
-          FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Adv-dsai-_1_-min.webp"
-          firstToparaImg="with Domain Specialization"
-          firstHeading="Advance Data Science & AI Program"
-          firstTopPara="Curriculum Inclusive of Gen-AI "
-          // idss="YWxTtvb3x-U"
-          thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ds-fs.webp"
-          videoId="YWxTtvb3x-U"
-          softwareBtnHide={true}
-          
-        />
+        dataScienceCounselling={true}
+        interstedInHide={true}
+        ThirdTyped="Live Interactive Classes"
+        dataScience={true}
+        titleCourse="Advance Data Science & AI Program with Domain Specialization"
+        cityParaCont="Gain work experience of data scientist with real projects"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+        FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Adv-dsai-_1_-min.webp"
+        firstToparaImg="with Domain Specialization"
+        firstHeading="Advance Data Science & AI Program"
+        firstTopPara="Curriculum Inclusive of Gen-AI "
+        idss="YWxTtvb3x-U"
+        thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ds-fs.webp"
+        videoId="YWxTtvb3x-U"
+        softwareBtnHide={true}
+      />
       <CloudDevopsecond data={DsSecond} />
       <SecondNavbar
         interstedInHide={true}

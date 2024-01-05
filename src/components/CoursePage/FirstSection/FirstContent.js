@@ -1,10 +1,9 @@
 import Image from "next/image";
-import React, { useEffect, useState, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
+import { FaPlay } from "react-icons/fa";
 import Button from "../../Global/Button/Button";
 import styles from "./FirstSection.module.css";
-import { FaPlay } from "react-icons/fa";
-import dynamic from "next/dynamic";
-const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
+// const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
 const FirstContent = ({
   softwareBtnHide,
@@ -151,16 +150,11 @@ const FirstContent = ({
         </div>
 
         <div className={styles.secondLeft}>
-          <div className={`${styles.bgvidos} "bgVideo"`}>
-            <ReactPlayer
-              className={styles.ReactPlayer}
-              ref={videoRef}
-              url={`https://www.youtube.com/watch?v=${videoId}`}
-              width="100%"
-              height="100%"
-              // controls={false}
-              light={!showThumbnail ? null : thumbnailUrl}
-              playing={!showThumbnail ? null : thumbnailUrl}
+          <div onClick={videoShow} className={`${styles.bgvidos} "bgVideo"`}>
+            <Image
+              width="532"
+              height="300"
+              src={thumbnailUrl}
             />
           </div>
         </div>
@@ -189,18 +183,13 @@ const FirstContent = ({
                 )}
               </div>
               <div className={styles.secondLeft}>
-                <div className={`${styles.bgvidos} "bgVideo"`}>
-                  <ReactPlayer
-                    className={styles.ReactPlayer}
-                    ref={videoRef}
-                    url={`https://www.youtube.com/watch?v=${videoId}`}
-                    width="100%"
-                    height="100%"
-                    // controls={false}
-                    light={!showThumbnail ? null : thumbnailUrl}
-                    playing={!showThumbnail ? null : thumbnailUrl}
-                  />
-                </div>
+              <div onClick={videoShow} className={`${styles.bgvidos} "bgVideo"`}>
+            <Image
+              width="356"
+              height="200"
+              src={thumbnailUrl}
+            />
+          </div>
               </div>
             </div>{" "}
             <div className={styles.btnImageMobile}>
