@@ -59,7 +59,26 @@ background: rgba(249, 150, 0, 0.07);
 }
 
 .icondown {
-  border-radius: 50%;
-  border: 1px solid grey;
-  font-size: 26px;
+
+  font-size: 24px;
+}
+
+@media (max-width: 641px) {
+.headig{
+  margin: 20px 20px;
+}
+  .mainfaq {
+    margin: 0px;
+  }
+.faqQuestion{
+margin: 0px 20px;
+padding: 20px 20px;
+gap: 10px;
+font-size: 16px;
+}
+.faqAnswer {
+  margin: 0px 20px;
+  font-size: 14px;
+  padding: 10px 10px;
+}
 }

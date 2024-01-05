@@ -176,7 +176,7 @@ const Course = ({
                                 title,
                                 title1,
                                 img,
-                                para,
+                                description,
                                 link1,
                                 titleCourse,
                                 brochureLinks,
@@ -344,31 +344,27 @@ const Course = ({
                                         <hr className={styles.hr} />
                                         <div className={styles.paraDiv}>
                                           <p className={styles.singleP}>
-                                            <BiTimeFive
-                                              className={styles.checkCircle}
-                                            />
+                                           
                                             {/* <IoTimeOutline
                                           className={styles.timeIcon}
                                         />{" "} */}
-                                            {para[0]} {courseTime}
+                                            {description[0]} {courseTime}
                                           </p>
                                           {/* <p>
                                       <AiOutlineFundProjectionScreen
                                         className={styles.checkCircle}
                                         style={{ color: "#edb552" }}
                                       />
-                                      {para[1]}
+                                      {description[1]}
                                     </p> */}
                                           <p className={styles.singleP}>
                                             {/* <TbCurrencyRupee
                                           className={styles.checkCircle}
                                         /> */}
-                                            <BsCheckLg
-                                              className={styles.checkIcon}
-                                            />
-                                            {para[1]}
+                                           
+                                            {description[1]}
                                           </p>
-                                          {para.length >= 3 ? (
+                                          {description.length >= 3 ? (
                                             <p className={styles.singleP}>
                                               {/* <TbCurrencyRupee
                                           className={styles.checkCircle}
@@ -376,7 +372,7 @@ const Course = ({
                                               <BsCheckLg
                                                 className={styles.checkIcon}
                                               />
-                                              {para[2]}
+                                              {description[2]}
                                             </p>
                                           ) : (
                                             ""

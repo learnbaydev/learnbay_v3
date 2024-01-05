@@ -12,7 +12,7 @@ const Testimonial = dynamic(() =>
 const Faq = dynamic(() => import("../components/ExpertEdge/ExpertFAQ/FAQ/Faq"));
 
 
-const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
+
 
 
 export default function Home() {
@@ -105,16 +105,16 @@ export default function Home() {
       
       
       <FirstSection
-        cityParaCont="Learn today's most in-demand skills with our free courses"
-        FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/firstEdge.webp"
-        firstToparaImg="Data Science"
-        firstHeading="Master  Data Science  Skills for free from Industry Experts"
+        cityParaCont="Free Data Science courses with certification"
+        FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/expert-first.webp"
+        firstToparaImg="for free from Industry Experts"
+        firstHeading="Master  Data Science  Skills "
       />
       <SecondSection />
       <Course />
     < Faq />
      
-      <Footer />
+   
     </>
   );
 }
