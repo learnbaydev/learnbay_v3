@@ -1,8 +1,19 @@
+// Button.js
+
 import React from "react";
-const Button = ({ text, passIcon, outline, invert, bannerButton, nobannerButton, whiteBgButton, ButtonWhiteBg }) => {
+
+const Button = ({ text, passIcon, outline, invert, bannerButton, nobannerButton, whiteBgButton, ButtonWhiteBg, greenButton, blackButton }) => {
   return (
     <button
-      className={ButtonWhiteBg ? "ButtonWhiteBg" : whiteBgButton ? "whiteBgButton" : nobannerButton ? "nobannerButton" : bannerButton ? "bannerButton": outline ? "outLineBtn" : "button"}
+      className={
+        ButtonWhiteBg ? "ButtonWhiteBg" :
+        whiteBgButton ? "whiteBgButton" :
+        nobannerButton ? "nobannerButton" :
+        bannerButton ? "bannerButton" :
+        outline ? "outLineBtn" :
+        greenButton ? "greenButton" :
+        blackButton ? "blackButton" : "button"
+      }
       style={invert ? { flexFlow: "row-reverse" } : { flexFlow: "row" }}
     >
       {text}
@@ -10,4 +21,5 @@ const Button = ({ text, passIcon, outline, invert, bannerButton, nobannerButton,
     </button>
   );
 };
+
 export default Button;

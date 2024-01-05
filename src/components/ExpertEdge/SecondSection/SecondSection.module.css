@@ -66,3 +66,59 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     color: #F99600;
     
 }
+
+@media (max-width: 641px) {
+    .maindiv{
+        display: grid;
+        grid-template-columns: 40% 50%;
+        margin: 10px;
+        padding: 10px 6px;
+        grid-gap: 3px 40px;
+        gap: 3px 40px;
+        border-radius: 6px;
+}
+
+.gptimg img {
+    width: 140px;
+    height: auto;
+    margin-left: 15px;
+}
+.fone {
+    margin-top: 6px;
+}
+.inone {
+    margin-top: 1px;
+    border-radius: 8px;
+    padding: 23px 6px;
+    width: 180px;
+}
+.ftwo {
+    width: 183px;
+    height: 132px;
+    font-size: 12px;
+    padding: 12px 6px;
+    gap: 16px;
+    justify-content: center;
+    border-radius: 8px;
+    margin: 0px;
+}
+.ftwo img {
+    width: 40px;
+    height: auto;
+}
+.ftwo p{
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+    color: #403F3F;
+    font-weight: 500;
+}
+.hrline{
+    display: none;
+}
+.inone p{
+   
+    font-size: 11px;
+    margin-top: 0px;
+}
+}

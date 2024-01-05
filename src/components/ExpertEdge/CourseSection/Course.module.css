@@ -881,7 +881,7 @@
 }
 
 .leftSide h6 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   margin: 0;
   width: 100%;
@@ -921,12 +921,13 @@
 
 .leftSide p {
   display: flex;
-  color: #676767;
+  color: #030303;
   align-items: center;
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 12px;
+  font-weight: 200;
   margin: 0;
   margin-top: 10px;
+  line-height: 21px;
 }
 
 .leftSide p:last-child {
@@ -1140,6 +1141,7 @@
     overflow-x: scroll;
     overflow-y: hidden;
     margin-bottom: 0px;
+    gap: 40px;
   }
 
   .divBox {

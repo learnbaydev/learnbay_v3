@@ -41,21 +41,75 @@ const NavbarContent = ({ adPage, setPopups }) => {
       className={`${styles.nav} flexBox flexJustSpaceBetween flexAlignCenter`}
     >
     
-  <div>
-    <Image
-  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/xpertEdgeLogo.webp"
-  width={180}
-  height={70}
-  alt=""
+    <div className={`${styles.left} flexBox flexAlignCenter `}>
+        {adPage ? (
+          ""
+        ) : (
+          <>
+           
+            
+          </>
+        )}
 
-  
-  
-  /></div>
+        {adPage ? (
+          <Image
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/xpertEdgeLogo.webp"
+            alt="Learnbay"
+            quality={100}
+            priority
+            style={{ objectFit: "contain" }}
+            width={mobile ? "135" : "230"}
+            height={60}
+          />
+        ) : (
+          <Link href="/" className={styles.logo}>
+            <div className="imgWrapper ">
+              <Image
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/xpertEdgeLogo.webp"
+                alt="Learnbay"
+                quality={100}
+                priority
+                width={mobile ? "135" : "120"}
+                height={60}
+              />
+            </div>
+          </Link>
+        )}
 
-    <div className={styles.dropbtn}>
-   <p>Explore</p> 
-    <IoIosArrowDown />
-    </div>
+        <>
+          {adPage ? (
+            ""
+          ) : (
+            <div
+              onMouseEnter={() => setIcon(true)}
+              onMouseOver={() => setIcon(true)}
+              onClick={() => {
+                setIcon(!icon);
+                setShow(false);
+              }}
+              className="flexBox"
+            >
+              <Button
+              greenButton={true}
+                text="Explore"
+                passIcon={icon ? <FaChevronUp /> : <FaChevronDown />}
+              />
+            </div>
+          )}
+        </>
+
+        {icon ? (
+          <div
+            className={styles.megaMenu}
+            onMouseOver={() => setIcon(true)}
+            onMouseLeave={() => setIcon(false)}
+          >
+            <Tabs handleIcon={handleIcon} />
+          </div>
+        ) : (
+          ""
+        )}
+      </div>
     
 
     <Search courseData={courseData} />

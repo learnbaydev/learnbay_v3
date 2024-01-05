@@ -8,7 +8,7 @@ function SecondSection() {
     <>
       <div className={styles.maindiv}>
         <div className={styles.fone}>
-          <div>
+          <div className={styles.gptimg}>
             <Image
               src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/chatgpt.webp"
               width={180}
@@ -45,7 +45,7 @@ function SecondSection() {
             alt=""
             className={styles.icons}
           />
-          Self-paced learning. Learn anytime from anywhere
+          <p>Self-paced learning. Learn anytime from anywhere</p>
         </div>
 
         <div className={styles.ftwo}>
@@ -57,7 +57,7 @@ function SecondSection() {
             alt=""
             className={styles.icons}
           />
-          Lifetime free access to all our courses
+         <p>Lifetime free access to all our courses</p>
         </div>
       </div>
     </>

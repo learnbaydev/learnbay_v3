@@ -34,7 +34,7 @@ const ThirdSection = ({
           ></div>
         </div>
         <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
+          <h5>Download Brochure</h5>
           <Form
             dataScience={dataScience}
             dataScienceCounselling={dataScienceCounselling}

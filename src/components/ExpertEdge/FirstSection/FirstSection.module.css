@@ -4,13 +4,15 @@
   height: 100px;
 }
 
+.coloredWord {
+  color: #f99600;
+}
 .First {
   background-size: contain;
   margin-top: 80px;
   padding: 25px 130px 20px 130px;
   display: grid;
-  grid-template-columns: 54% 50%;
-  background: #000;
+  grid-template-columns: 64% 45%;
   align-items: center;
   height: 560px;
 }
@@ -64,10 +66,19 @@
 .h1 {
   color: #fff;
   font-weight: 700;
-  margin: 15px 0px 10px 0px;
+  margin: 0px 0px 10px 0px;
   text-align: left;
   line-height: 66px;
-  font-size: 54px;
+  font-size: 50px;
+}
+.h1one{
+  color: #fff;
+  font-weight: 700;
+  margin: 15px 0px 0px 0px;
+  text-align: left;
+  line-height: 66px;
+  font-size: 50px;
+
 }
 .FirstLeft {
   position: relative;
@@ -96,6 +107,9 @@
 }
 .Mobile {
   display: none;
+}
+.btnmbl{
+display: none;
 }
 .Desktop {
   display: block;
@@ -229,7 +243,17 @@
     padding: 30px 0px 20px 0px;
     margin-top: 47px;
     gap: 0px;
+    height: auto;
+    margin-bottom: 76px;
   }
+  .secondLeft {
+    position: relative;
+    height: 340px;
+    position: relative;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+}
   .btnImageMobile {
     display: block;
     gap: 20px;
@@ -238,12 +262,28 @@
     flex-direction: column;
     align-items: center;
   }
+  .h1one{
+  font-size: 26px;
+  margin: 0px 11px;
+  line-height: 40px;
+}
+.secondLeft img {
+  width: 300px;
+  height: auto;
+}
+.btnmbl{
+  display: flex;
+  flex-direction: column;
+  gap :20px;
+}
+
 }
 @media (max-width: 481px) {
   .FirstLeft {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 0px;
+    margin: 20px 0px;
   }
 
   .Desktop {
@@ -259,6 +299,7 @@
   .secondLeft {
     position: relative;
     height: 340px;
+    
   }
   .secondInner {
     display: flex;
@@ -276,10 +317,10 @@
   .h1 {
     justify-content: center;
     text-align: left;
-    font-size: 32px;
+    font-size:26px;
     line-height: 1.3;
     margin: 0;
-    padding: 0px 20px;
+    padding: 0px 0px;
   }
 
   .ptop {
@@ -294,7 +335,8 @@
     border-radius: 0;
   }
   .ptopCiity {
-    display: none;
+    font-size: 16px;
+    margin: 20px 24px 0px 24px;
   }
   .animationTextWrap {
     justify-content: left;
