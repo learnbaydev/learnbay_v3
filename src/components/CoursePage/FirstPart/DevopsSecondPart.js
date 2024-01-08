@@ -29,9 +29,7 @@ const DevOpsProject = dynamic(() =>
 const FAQNew = dynamic(() =>
   import("../../../components/CoursePage/FAQNew/FAQNew")
 );
-const Content = dynamic(() =>
-  import("../Content/content")
-);
+const Content = dynamic(() => import("../Content/content"));
 
 const SecondPart = ({
   masterSyllabusMobile,
@@ -43,7 +41,6 @@ const SecondPart = ({
   devopfee,
   adsHide,
   interstedInHide,
-
 }) => {
   const [popupData, setPopupData] = useState([]);
   // console.log(popupData);
@@ -64,7 +61,10 @@ const SecondPart = ({
           // console.log(data);
           data.page.map((popupData, i) => {
             // console.log(popData);
-            if (popupData === "Advance Cloud Computing & DevOps Certification Program") {
+            if (
+              popupData ===
+              "Advance Cloud Computing & DevOps Certification Program"
+            ) {
               setPopupData(data);
               // console.log(popupData);
               return;
@@ -93,14 +93,14 @@ const SecondPart = ({
         adsHide={adsHide}
         Fee=" ₹ 1,10,000"
         FeeEmi="₹ 7,211/month"
-        weekdaybatch="Weekday Evening"
-        weekendbatch="Weekend  Morning"
-        weekday="MON - FRI"
-        weekend="SUNDAY"
-        WeekdayDate="DEC 4th"
-        WeekendDate="JAN 14th"
-        WeekendTime="09:30 AM - 01:00 PM"
-         WeekdayTime="08:00 PM - 10:00 PM"
+        weekdaybatch="Weekend Batch"
+        weekendbatch="Weekday Batch"
+        weekday="SAT-SUN"
+        weekend="SAT-SUN"
+        WeekdayDate="JAN 14th"
+        WeekendDate="DEC 9th"
+        WeekendTime="09:30 AM - 1:00 PM"
+        WeekdayTime="09:30 AM - 1:00 PM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
         FeeContent5="15 days refund policy"
@@ -117,23 +117,29 @@ const SecondPart = ({
       {adsHide ? "" : <PlacementCall devops={devops} />}
 
       <DevOpsProject
-      adsHide={adsHide}
+        adsHide={adsHide}
         titleCourse="Advance Cloud Computing & DevOps Certification Program"
         brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
         dataScience={true}
         interstedInHide={true}
       />
 
-{adsHide ? "" : <FAQNew FAQNewData={FAQNewData} />}
-<Content dataScienceCounselling={true} CDevops={true}/>
-<SeventhSection/>
+      {adsHide ? "" : <FAQNew FAQNewData={FAQNewData} />}
+      <Content dataScienceCounselling={true} CDevops={true} />
+      <SeventhSection />
       {adsHide ? "" : <Footer />}
       <BottomBar />
       <WhatsappFloat />
       {adsHide ? (
         ""
       ) : (
-        <>{popupData.length == 0 ? "" : <OfferPopup popupData={popupData} devops={devops}/>}</>
+        <>
+          {popupData.length == 0 ? (
+            ""
+          ) : (
+            <OfferPopup popupData={popupData} devops={devops} />
+          )}
+        </>
       )}
     </div>
   );
