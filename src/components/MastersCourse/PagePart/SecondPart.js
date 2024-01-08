@@ -27,6 +27,9 @@ const PlacementCall = dynamic(() =>
 const NewProjectSection = dynamic(() =>
   import("../../Global/NewProjectSection/NewProjectSection")
 );
+const Content = dynamic(() =>
+  import("../../CoursePage/Content/content")
+);
 const SeventhSection = dynamic(() =>
   import("../../Global/SeventhSection/SeventhSection")
 );
@@ -114,6 +117,7 @@ const SecondPart = ({
       />
       {/* <FAQNew FAQNewData={DataScienceMastersinCS[0].faq} /> */}
       <FAQNew FAQNewData={FAQNewData} />
+      <Content Masterscontent={true} dataScienceCounselling={true}/>
       <SeventhSection />
       <Footer />
       <BottomBar masterdegree={true} />

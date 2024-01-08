@@ -11,6 +11,8 @@ function DataAnalytics({
   Advance,
   AIML,
   CDevops,
+  Masterscontent,
+  Banalytics,
 }) {
   const [read, setRead] = useState(false);
 
@@ -1381,9 +1383,739 @@ function DataAnalytics({
                   future-proofs your skills via fresh capstone projects and
                   dedicated mentoring.
                 </p>
-                
               </ul>
 
+              <div onClick={popupShow} className={styles.buttonDiv}>
+                <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
+              </div>
+            </>
+          ) : (
+            ""
+          )}
+          <p
+            style={{
+              color: "#2D9CD7",
+              fontWeight: "600",
+              textDecoration: "underline",
+              cursor: "pointer",
+            }}
+            onClick={handler}
+            className={styles.readP}
+          >
+            {read ? "Read Less..." : "Read More..."}
+          </p>
+        </div>
+      ) : (
+        ""
+      )}
+
+      {Masterscontent ? (
+        <div className={styles.content}>
+          <h1>
+            Unlock Global Job Opportunities with a
+            <b> Master’s in Computer Science Data Science and AI</b>
+          </h1>
+          <p>
+            Leap into career excellence with Learnbay's Master's Degree Program
+            in Data Science and AI. Enroll in an industry-driven master's
+            program that expands your earning potential and unlocks global job
+            offers. From custom-curated learning of the latest trends to better
+            placement support, a Master’s in Computer Science Data Science, and
+            AI has everything you need.
+          </p>
+          {read ? (
+            <>
+              <h4 style={{ fontSize: "28px" }}>
+                India's Inclusive Learning Platform for Working Pros Offering{" "}
+                <b>Masters in Computer Science</b>{" "}
+              </h4>
+
+              <h3>Course Overview </h3>
+              <p>
+                In response to the evolving tech age and surge in demand for
+                skilled data scientists, Learnbay introduces a{" "}
+                <b>Master’s in CS Artificial Intelligence and Data Science.</b>{" "}
+                With an inclusive learning setup, this course welcomes working
+                pros from diverse domains at any career level. This master's
+                program is designed to help experts prepare for a rewarding
+                career in data science.
+              </p>
+
+              <h3>Why choose Learnbay's Master in CS Data Science and AI? </h3>
+              <p>
+                Accelerate your full career potential with Learnbay's
+                <b>Master in CS Data Science and AI</b> program. Here’s why you
+                should choose the online master's degree data science program by
+                Learnbay over others :
+                <ul>
+                  <li>
+                    <b>Comprehensive Skill Building:</b> You can gain expertise
+                    in trending generative AI concepts. Our program offers a
+                    360-degree knowledge-building experience to ensure you earn
+                    such highly demanded skill expertise.
+                  </li>
+                  <li>
+                    <b>Guaranteed Career Support:</b> We guarantee 100% job
+                    support to help your success in this field after completion
+                    of the course. We’ll help you cherish all of your existing
+                    potential to land at your desired career level.{" "}
+                  </li>
+                  <li>
+                    <b>Flexible Learning:</b> Our hybrid learning platform
+                    caters to professionals from various fields, enabling you to
+                    study at your own pace and convenience. You are free to
+                    choose the degree of your offline support- whether it be the
+                    doubt clearance sessions, mock interviews, or capstone
+                    projects.
+                  </li>
+                </ul>
+              </p>
+              <p>
+                Apart from these gains, this course offers a{" "}
+                <b>computer science master’s degree</b> from{" "}
+                <i>
+                  <b>Woolf University</b>
+                </i>{" "}
+                (Global Collegiate Higher Education Institution), followed by
+                globally recognized certifications from <i>IBM & Microsoft</i>{" "}
+                (Dual Certification).
+              </p>
+              <p>
+                Data science is becoming one of the most rewarding careers. We
+                expect a surge in demand for skilled data scientists with
+                alluring paychecks. A data scientist's average salary in India
+                is ₹ 13,50,000, which ranges between USD 130,000 – and
+                <i> USD 195,000 overseas.</i>
+              </p>
+              <p>
+                Learnbay is present in prime cities of India like{" "}
+                <i>
+                  <b>Bengaluru, Hyderabad, Delhi, and Pune,</b>
+                </i>{" "}
+                shaping worthy careers in data science with hands-on practice
+                with live projects. Concerning the upcoming demands, it brings
+                on an MS in Computer Science Data Science and AI program with
+                endless growth and job offers.
+              </p>
+
+              <h3>
+                Advantageous Features of a Master's Degree in Data Science
+              </h3>
+              <p>
+                Discover the features that will set you apart from the crowd and
+                under the limelight of recruiters' demands.
+                <ul>
+                  <li>
+                    <i>
+                      <b>
+                        • Industry-driven Syllabus supporting Generative AI:
+                      </b>
+                    </i>{" "}
+                    Learnbay's{" "}
+                    <b>
+                      Master's in CS artificial intelligence and data science
+                    </b>{" "}
+                    crafts the syllabus with the latest Gen AI trends (ChatGPT,
+                    Bard, & many more) and trending skills in the job market.
+                  </li>
+                  <li>
+                    <i>
+                      <b>• 360-degree career growth:</b>
+                    </i>{" "}
+                    Our <b>masters in computer science online</b> program brings
+                    360-degree knowledge-building scope for experts from diverse
+                    domains.
+                  </li>
+                  <li>
+                    <i>
+                      <b>• Woolf University degree:</b>
+                    </i>{" "}
+                    Upskilling with a <b>Masters in Data Science and AI</b>{" "}
+                    program by Learnbay offers you a globally accredited
+                    Master's Degree by Woolf University degree along with ample
+                    ECTS credits. This is well-recognized in the US, Canada,
+                    Europe, & 60+ Western countries).
+                  </li>
+                  <li>
+                    <i>
+                      <b>• Training from Global Faculties:</b>
+                    </i>{" "}
+                    Learnbay's <b>Master's degree in data science</b> offers the
+                    scope of mentorship by renowned experts from MNCs/MAANG and
+                    also from global Ph.D. scholars.
+                  </li>
+                </ul>
+              </p>
+
+              <p>
+                <i>Globally recognized certifications:</i> Learnbay's{" "}
+                <b>Master’s in Computer Science</b> degree offers dual
+                certification from IBM & Microsoft, increasing the chances of
+                redefining a career at a global level.
+              </p>
+
+              <h3>
+                Why is Masters in Computer Science Online Essential for Career
+                Transition?
+              </h3>
+              <p>
+                Data science has become an inclusive platform for tech and
+                non-tech working pros. Amidst the fast-paced rise of AI models,
+                many professional courses are coming up to support real-time
+                career enhancement. In such times, a master’s program in
+                computer science, Gen AI, or a{" "}
+                <b>cloud computing certification</b>
+                supports career transition.
+              </p>
+              <p>
+                Owing to the gaining popularity, master’s programs in leading AI
+                rends have become a preferred gateway for many pros. Upskilling
+                with an <b>MS in Computer Science Data Science and AI</b>{" "}
+                program is vital for career shifts. At present, firms depend on
+                data science for reasons like –
+                <ul>
+                  <li>• Making decisions with facts and insights</li>
+                  <li>• Seamless activities with assured success</li>
+                  <li>• Better insights into industry trends</li>
+                  <li>• Boosting business yields </li>
+                  <li>• Ensuring success led by satisfied customers</li>
+                </ul>
+                Therefore, to adapt to evolving job requirements, it is
+                advisable to enroll in a Master in CS Data Science and AI
+                program.
+              </p>
+
+              <h2>Domain Electives</h2>
+              <h4>
+                Industry Training with Diverse Domain Electives with a Masters
+                in Data Science and AI
+              </h4>
+              <p>
+                Learnbay's{" "}
+                <b>Master’s in Computer Science Data Science and AI</b>
+                program offers training with diverse domain electives such as –
+                <ul>
+                  <li>• BFSI</li>
+                  <li>• Healthcare</li>
+                  <li>• E-commerce, Retail, Supply Chain </li>
+                  <li>• Manufacturing</li>
+                </ul>
+              </p>
+              <h2>
+                Leap Into Excellence with Proven Specializations with a Master's
+                degree in data science
+              </h2>
+              <p>
+                Learnbay's data science master's degree offers the scope of
+                reshaping their careers with any of the specializations like –
+              </p>
+              <b>
+                <p style={{ textDecoration: "underline" }}>
+                  Specialization 1: Data Science & Data Analytics
+                </p>
+              </b>
+              <p>
+                Learners get the scope of upgrading their skill sets with the
+                latest data science and data analytics tools like –
+                <ul>
+                  <li>• Data Visualization tools</li>
+                  <li>• Deep learning</li>
+                  <li>• Programming languages (SQL)</li>
+                  <li>• Product analytics</li>
+                  <li>• Generative AI</li>
+                  <li>• Productization of ML Systems</li>
+                </ul>
+              </p>
+              <b>
+                {" "}
+                <p style={{ textDecoration: "underline" }}>
+                  Specialization 2: Artificial Intelligence & Machine Learning
+                </p>
+              </b>
+              <p>
+                <ul>
+                  <li>• Deep learning and Advanced data analytics</li>
+                  <li>• Reinforcement learning</li>
+                  <li>• ML Ops</li>
+                  <li>• High dimensional data analysis</li>
+                  <li>• Deep learning for NLP</li>
+                  <li>• Essential and Advanced Data Structures</li>
+                  <li>• Product analytics</li>
+                  <li>• Generative AI</li>
+                  <li>• Productization of ML Systems</li>
+                </ul>
+              </p>
+
+              <h3>Degree and Certification Details</h3>
+              <h4>About Woolf University Master's Degree</h4>
+              <p>
+                Learnbay's master's program offers a Master's Degree accredited
+                by <b>Woolf University</b> equivalent to a master's from the{" "}
+                <b>US, Canada, and Europee</b> with better jobs and hikes of
+                working pros. Woolf University's degree for a e{" "}
+                <b>Master in CS Artificial Intelligence and Data Science</b> is
+                well recognized across{" "}
+                <b>
+                  <i>60+ Western countries,</i>
+                </b>{" "}
+                driving alluring global job offers.
+              </p>
+              <h4>About Dual Certifications (IBM & Microsoft)</h4>
+              <p>
+                Learnbay's <b>Computer Science Master’s degree</b> offers dual
+                certification from{" "}
+                <i>
+                  <b>IBM & Microsoft,</b>
+                </i>{" "}
+                supporting career shifts and adding value to one's slow-paced
+                career. After completing the master's program, learners get a
+                project experience certificate from IBM & course completion
+                certificates from IBM & Microsoft.
+              </p>
+              <h4>Module Details </h4>
+              <p>
+                Learnbay's <b>masters in computer science online</b> program
+                offers a top-notch syllabus with the latest Generative AI
+                trends. The flexible modules help tech and non-tech experts
+                learn advanced concepts, followed by hands-on expertise with
+                live projects. To keep pace with the changes, it upgrades the
+                syllabus, aligning it with the latest demand in the job market.
+                Regardless of domain discipline, this master’s degree course
+                syllabus makes you job-ready with dedicated mentoring and
+                placement help.
+              </p>
+              <p>
+                Also, the syllabus includes simulated real-time projects, fresh
+                capstone projects, and other activities.
+              </p>
+              <h3>
+                Learnbay’s Project Innovation Labs Behind the Success of Our
+                Learners
+              </h3>
+              <p>
+                Learnbay’s commitment to fast-forward stagnant careers mapping
+                with today’s competitiveness results in successful career
+                transitions. Our project innovation labs help trusted learners
+                drive real-time success. Our project innovation labs operate
+                across four prime cities in India – Bengaluru, Hyderabad, Pune,
+                and Delhi. Also, you can get the online experience from any part
+                of the world. Experts enrolling in{" "}
+                <b>Masters in Computer Science</b>
+                program will have benefits like –
+                <ul>
+                  <li>
+                    • Learners gain real-time insights to tackle business issues
+                    efficiently
+                  </li>
+                  <li>• Live projects handled under dedicated mentorships</li>
+                  <li>• Work on chosen domain-specific projects</li>
+                  <li>• Networking with industry experts</li>
+                </ul>
+              </p>
+              <h3>Job Assistance Program</h3>
+              <h4>Data Science Job Support by Learnbay</h4>
+              <p>
+                Learnbay's<b> MS in Computer Science Data Science and AI</b>{" "}
+                program guides working experts with 100% placement support (at
+                startup or MNC level) across its centers. In terms of redefining
+                stagnant careers in the age of data science, a master’s program
+                supports career growth with success.
+              </p>
+              <h4>
+                How does the Job Assistance program help a data scientist's
+                career? (Career Service Pro)
+              </h4>
+              <p>
+                After completing the course and projects with at least 70% of
+                marks, a learner is eligible for this job assist program.
+                Learnbay's data science master degree offers 360-degree
+                career-building chances to learners from diverse domains that
+                include –
+                <ul>
+                  <li>• Resume Preparation</li>
+                  <li>• LinkedIn Profile Review</li>
+                  <li>• Three years of Job and Placement support</li>
+                  <li>• Three years of Job and Placement support</li>
+                  <li>• 1:1 Review/Doubt-clearing Sessions</li>
+                  <li>• Endless Interview Calls</li>
+                </ul>
+              </p>
+
+              <h3>Know Your Projects </h3>
+              <p>
+                Learnbay's{" "}
+                <b>Master’s in Computer Science Data Science and AI</b>
+                program offers training in diverse domains with the latest
+                trends. Learners develop their practical skills with 10+ fresh
+                capstone projects. Hands-on learning via live projects in
+                offline experience centers refines the skill sets to face
+                cut-throat competition in data science. Learners get
+                uninterrupted mentorship with 1:1 doubt-clearing help from their
+                mentors. Upskilling with real-time exposure to real business
+                situations enriches a career with unstoppable success.
+              </p>
+
+              <div onClick={popupShow} className={styles.buttonDiv}>
+                <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
+              </div>
+            </>
+          ) : (
+            ""
+          )}
+          <p
+            style={{
+              color: "#2D9CD7",
+              fontWeight: "600",
+              textDecoration: "underline",
+              cursor: "pointer",
+            }}
+            onClick={handler}
+            className={styles.readP}
+          >
+            {read ? "Read Less..." : "Read More..."}
+          </p>
+        </div>
+      ) : (
+        ""
+      )}
+      {Banalytics ? (
+        <div className={styles.content}>
+          <h1>
+            Hone Your Career With The Cutting Edge Business Analytics Online
+            Course{" "}
+          </h1>
+          <p>
+            Industries consist of innumerable amounts of data, and companies are
+            in a blind situation where they are not able to use this data to
+            gain an edge. But business analytics will help you to transform the
+            business from a data-blind to a data visionary. With the help of the
+            Business Analytics Online Course, you can put your career in a
+            fast-track mode to succeed professionally.
+          </p>
+          {read ? (
+            <>
+              <h4 style={{ fontSize: "28px" }}>
+                Dive Into The World Of Analytics With The Help Of The Best
+                Certificate In Business Analytics.{" "}
+              </h4>
+              <h2 style={{ fontSize: "24px" }}>
+                <b>What is Business Analytics? Why Do We Need It? </b>
+              </h2>
+
+              <p>
+                Business Analytics is a process that combines applications of
+                statistical and quantitative techniques to analyze the data to
+                extract meaningful insights. The extracted information or data
+                will be used by decision-makers to come up with business
+                decisions, and strategies for optimizing the business
+                operations.
+              </p>
+              <p>
+                At present, Business Analytics seems to be the most accepted
+                best practice adopted by every MNC worldwide. Business Analytics
+                has changed how the industries view manufacturing, retail
+                operations, and making decisions. Business Analytics has helped
+                companies make informed decisions, these decisions are fueled by
+                the help of data. Regardless of the scale of the company,
+                business analytics has helped companies to thrive in these
+                competitive markets.
+              </p>
+
+              <p>
+                In short, a company will make good decisions, earn a competitive
+                advantage, improve its understanding of consumer’s perspectives,
+                and develop strategies to enhance productivity.
+              </p>
+
+              <p>
+                These are some of the reasons why we need business analytics. In
+                the past, it was something expensive and not an easy process,
+                but nowadays it has become a necessity if you want to succeed in
+                cutting-edge markets. Business analytics leverages the data and
+                helps in improving the company's potential to earn more and make
+                smart decisions.
+              </p>
+              <p>
+                Companies are recruiting more and more business analysts to
+                foster their productivity at jet speed. If you are an aspiring
+                business analyst with the right{" "}
+                <b>certificate course in business analytics</b> you can become a
+                successful business analyst.
+              </p>
+              <p>
+                From healthcare to the retail sector, all need data to function
+                aptly. With the scope of data analytics tools, healthcare
+                professionals can detect grave diseases & retailers can track
+                consumer choices.
+              </p>
+
+              <h2>How Business Analytics Has Impacted The Industries?</h2>
+              <p>
+                From gathering data sets to analyzing information everything has
+                changed after the rise of business analytics, even the new tools
+                help you to do business intelligence in an efficient manner.
+                From Business Intelligence to Business Analytics everything has
+                changed in recent years. You can apply for a business analytics
+                course online to learn more about the applications of business
+                analytics in the real world.
+              </p>
+              <p>
+                You can see the importance of business analytics in the current
+                market scenario, to understand more about it let us dive into
+                the practices and how they impacted and changed the operations
+                of various industries.
+                <ul>
+                  <li>
+                    Healthcare Industry
+                    <p>
+                      The Healthcare Industry has seen a significant change in
+                      recent years. As you can see, the use of business
+                      analytics has increased in the healthcare industry,
+                      especially in the areas of medicine, diagnostics,
+                      optimization of resources, and patient care. Business
+                      Analytics is revolutionizing the entire healthcare sector
+                      from pharmaceuticals to health insurance. It has brought a
+                      lot of useful and good changes to industries like
+                      revealing the pattern of patients to take better care of
+                      them, identifying and predicting risk factors of the
+                      patients, flawless operations, and allocation to patient
+                      care.
+                    </p>
+                  </li>
+                  <li>
+                    Finance Industry
+                    <p>
+                      The finance industry is one of the most impacted
+                      industries by business analytics and new-age technology.
+                      Business Analytics has impacted and changed the way how
+                      banking, insurance, finance, and investment companies
+                      operate. Business analytics is totally a game changer for
+                      the industry, it helps companies to make data-driven
+                      decision that covers all aspects of the business including
+                      financial performance, trends in the market, and customer
+                      behavior; optimized risk management with the ability to
+                      analyze the risks of various asset classes; and
+                      incorporating new technologies and merging with AI to
+                      revolutionize the financial industry.
+                    </p>
+                  </li>
+                  <li>
+                    Retail Industry
+                    <p>
+                      The Retail industry is seeing innovative changes by
+                      adapting business analytics practices. With the help of
+                      business analytics companies have started to know more
+                      about the customer understanding and perspective of their
+                      procurements. All kinds of business segments in the retail
+                      industry have dynamically changed including foods,
+                      consumer electronics, automotive, e-commerce, and health &
+                      beauty. By earning the right{" "}
+                      <b>certificate in business analytics,</b> you can easily
+                      land a job in the retail sector.
+                    </p>
+                    <p>
+                      These are some of the industries that have been impacted
+                      largely by business analytics but are not limited. Also,
+                      another important point is that business analytics has
+                      started to integrate with Deep Tech, which is considered
+                      to be the future. All kinds of established businesses have
+                      started to leverage Deep tech by integrating it with
+                      business analytics to improve their effectiveness and
+                      productivity.
+                    </p>
+                    <p>
+                      With the rapid increase in the demand for business
+                      analytics, there are many{" "}
+                      <b>best courses for business analytics</b> also available.
+                      If you are interested in learning more about business
+                      analytics, you can find several good{" "}
+                      <b>business analytics online courses.</b> Earning a good
+                      certificate in <b>business analytics</b> will pay off
+                      hugely and will certainly help you to establish a great
+                      career.
+                    </p>
+                  </li>
+                </ul>
+              </p>
+              <h2>Is a Business Analytics Certification Program Worth It?</h2>
+              <p>
+                <b>Certification in business analytics</b> will help you to
+                successfully establish your career and land your dream job. If
+                you enroll in a <b>certificate program in business analytics</b>{" "}
+                with comprehensive training, you will receive training for
+                cutting-edge technologies and practices. Upon completion of the
+                <b>certificate program in business analytics</b>, you will
+                receive certification from renowned institutions. These
+                certifications and cutting-edge skills will help you to be
+                recognized by top-tier companies from different industries.
+              </p>
+              <h2>
+                Why Go With Learnbay’s Certificate Course In Business Analytics?
+              </h2>
+
+              <p>
+                Among other <b>best courses for business analytics,</b>{" "}
+                Learnbay’s
+                <b>Business Analytics Online Course</b> not only offers
+                comprehensive training but training for new technologies like
+                Generative AI and focuses on hands-on practical experience.
+              </p>
+              <p>
+                Learnbay’s <b>Certificate Course in Business Analytics</b> helps
+                you to delve into real-world business analytics applications and
+                covers future trends as well. Learnbay’s{" "}
+                <b>business analytics training</b>
+                includes the following features -
+                <ul>
+                  <li>
+                    Industry Relevant Course Curriculum
+                    <p>
+                      Learners will get to learn from the beginner to the most
+                      advanced level, their business analytics training covers
+                      various topics as follows:-
+                      <ul>
+                        <li>Introduction to Business Analytics</li>
+                        <li>Excel & Business Statistics</li>
+                        <li>Data Science</li>
+                        <li>Artificial Intelligence</li>
+                        <li>Machine Learning</li>
+                        <li>Big Data Analytics and Visualization</li>
+                        <li>Deployment AWS+Azure</li>
+                        <li>Generative AI</li>
+                        <li>NLP (Natural Language Processing)</li>
+                      </ul>
+                    </p>
+                  </li>
+                  <li>
+                    <h3>Hands-on Experience With Real-World Exposure</h3>
+                    <p>
+                      As a part of the training, Learnbay will encourage you to
+                      work on real-time projects and capstone projects. With the
+                      help of these projects and case studies, you will get to
+                      learn the real-world applications that are being
+                      implemented by business analytics practitioners to solve
+                      business problems.
+                    </p>
+                    <p>
+                      Upon completion of capstone projects, you will be able to
+                      receive a project{" "}
+                      <b>certification in business analytics</b> from IBM.
+                      Additionally, to enhance your learning and practical
+                      experience Learnbay offers you the opportunity to work on
+                      projects in offline mode.
+                    </p>
+                  </li>
+                  <li>
+                    <h3>
+                      Globally Recognized Certifications
+                      <p>
+                        As it is a{" "}
+                        <b>certificate course in business analytics</b>, upon
+                        successful completion, you will be able to receive
+                        two-course certifications. Learnbay has collaborated
+                        with Microsoft and IBM to offer these certifications.
+                        Having these certifications will enhance your profile
+                        value and help you to be recognized by employers
+                        globally.
+                      </p>
+                    </h3>
+                  </li>
+                  <li>
+                    <h3>Career-Focused Domain Electives</h3>
+                    <p>
+                      Learning business analytics alongside gaining expertise in
+                      a niche area, will be a competitive edge. In this way, you
+                      will be able to tailor your business analytics training
+                      according to your area of interest. Having domain
+                      expertise will increase your job opportunities by opening
+                      ways to certain career paths.
+                    </p>
+                    <p>
+                      Again, having a recognized{" "}
+                      <b>certificate in business analytics</b> with domain
+                      expertise is an edge in this competitive job market.
+                    </p>
+                  </li>
+                  <li>
+                    <h3>Personalized Career Services</h3>
+                    <p>
+                      You can find different kinds of courses for business
+                      analytics, but the{" "}
+                      <b>best courses for business analytics</b>
+                      will have career assistance in their course curriculum.
+                      Learnbay’s certificate program in business analytics is
+                      inclusive of comprehensive career assistance known as
+                      Career Service Pro. This career service pro feature is
+                      inclusive of various features such as:
+                      <ul>
+                        <li>
+                          <h4>Placement Support</h4>
+                          <p>
+                            Learnbay offers comprehensive career services where
+                            you will receive unlimited job interview calls,
+                            career guidance, and mock interviews.
+                          </p>
+                        </li>
+                        <li>
+                          <h4>Personalized Career Services</h4>
+                          <p>
+                            Their tailored services help you to prepare and
+                            optimize your resume and provide feedback for areas
+                            of improvement and skill enhancement.{" "}
+                          </p>
+                        </li>
+                        <li>
+                          <h4>Networking Opportunities</h4>
+                          <p>
+                            Not only will you find the best-suited job role as
+                            per your desire but you will also be able to network
+                            with various professionals and passed-out students.
+                          </p>
+                          <p>
+                            With all these features, one can say Learnbay’s
+                            Business Analytics Certification Program is one of
+                            the best courses for business analytics. Also, with
+                            the help of Learnbay, one can apply for business
+                            analytics course online with ease.
+                          </p>
+                        </li>
+                      </ul>
+                    </p>
+                  </li>
+                </ul>
+              </p>
+              <h2>
+                How Can I Gain Competitive Edge As An Existing Business Analyst?{" "}
+              </h2>
+              <p>
+                If you are interested in advancing your career as a business
+                analyst, you can start by learning skills and analytics tools
+                that are the trends of the future like AI and machine learning.
+                Integrating business analytics with AI has brought incredible
+                changes in the way how businesses operate. As a Business
+                Analyst, you will have a good knowledge of AI and to grasp the
+                better part of it, you have to learn from comprehensive courses.
+              </p>
+              <p>
+                Try to search for advanced or master’s in artificial
+                intelligence to gain more extensive knowledge about the
+                real-world applications of it. There are various master’s degree
+                program in AI as well, so select the best one to gain the edge.
+              </p>
+              <p>
+                Learnbay’s{" "}
+                <a
+                  href="https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs"
+                  target="_blank"
+                >
+                  Master’s in Computer Science Data Science{" "}
+                </a>
+                and AI is a specialization program that leverages your prior
+                work experience by combining it with competitive and most-demand
+                skills in the market. This is an ideal program for those who
+                want to delve more deeply into the field of AI and Analytics.
+              </p>
+          
               <div onClick={popupShow} className={styles.buttonDiv}>
                 <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
               </div>

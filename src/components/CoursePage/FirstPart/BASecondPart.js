@@ -34,6 +34,7 @@ const FAQNew = dynamic(() =>
 );
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
+const Content = dynamic (()=> import ("../../CoursePage/Content/content"))
 const SeventhSection = dynamic(() =>
   import("@/components/Global/SeventhSection/SeventhSection")
 );
@@ -119,6 +120,7 @@ const SecondPart = ({
         interstedInHide={true}
       />
       <FAQNew FAQNewData={FAQNewData} />
+      <Content Banalytics={true} dataScienceCounselling={true}/>
       <SeventhSection />
       <Footer />
       <BottomBar />
