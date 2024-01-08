@@ -69,7 +69,7 @@ const FeeSection = ({
           </p>
           <div className={styles.imgFee}>
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/feeSection.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/fees-cd.webp"
               width="367"
               height="221"
               alt="data science course"
