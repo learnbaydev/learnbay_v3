@@ -11,7 +11,7 @@
   display: grid;
   grid-template-columns: 53% 47%;
   gap: 50px;
-  background: linear-gradient(#090909, #041D2D);
+  /* background: linear-gradient(#090909, #041D2D); */
   align-items: center;
 }
 .fillBtn {
