@@ -502,6 +502,24 @@ export const BADataScienceCourseData = [
             ans: "Simply, you can choose an online mode of study for the theoretical classes and classroom mode for all the capstone projects and interview preparation sessions.",
             open: false,
           },
+          {
+            id: 6,
+            ques: "Is this course suitable for beginners with no prior experience in business analytics?            ",
+            ans: "Yes, working professionals from any discipline can opt for this course. Learners with no experience in business analytics can apply for online business analytics courses, but they must have a basic knowledge of mathematics/statistics. Yet, having a basic understanding of business concepts and domain knowledge can help in better upskilling.             ",
+            open: false,
+          },
+          {
+            id: 7,
+            ques: "Are there any specific software or tools required for the course?            ",
+            ans: "There are no specific software or tools required for upskilling with the course. Learners just need to complete the admission procedure with proper documentation to successfully enroll in the course. After this, one can start training sessions at the chosen time and batch.             ",
+            open: false,
+          },
+          {
+            id: 8,
+            ques: "Can I access the course materials at any time, or are there specific schedules?            ",
+            ans: "After enrolling in the course, learners get 3 years of access to their study materials. Later, if they wish, it can be converted to lifetime access to the course materials (study resources, training sessions, live projects, videos, and other useful things). Learnbay believes in uninterrupted upskilling and helps learners get direct access to resources at any time.             ",
+            open: false,
+          },
         ],
       },
       {
@@ -619,6 +637,30 @@ export const BADataScienceCourseData = [
             ans: `At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.`,
             open: false,
           },
+          {
+            id: 3,
+            ques: "What is a capstone project, and how does it fit into the course?            ",
+            ans: `Capstone projects are curated for professional skill development and help learners get exposure to real-world business issues. Business Analytics Program includes fresh capstone projects from diverse domains. Capstone projects are group project work where learners will learn the use and application of business analytics tools to tackle a business problem.             `,
+            open: false,
+          },
+          {
+            id: 4,
+            ques: "What is a simulated real-time project, and how does it benefit learners?            ",
+            ans: `Simulated real-time projects are designed for learners to help them gain insights about realistic business scenarios, identify issues, design action plans, formulate business models, conduct data collection & analysis, upgrade the existing model, verify and validate the features, and final experimentation. Learners find such projects useful to gain an experimental learning experience and take a dive into real business cases.             `,
+            open: false,
+          },
+          {
+            id: 5,
+            ques: "Can I choose my own capstone project, or are topics assigned?            ",
+            ans: `Yes, learners can choose their own capstone project as per their domain electives. After enrolling, learners can opt for their desired domain electives and continue upskilling. Then, they are assigned their project group and mentor to guide them through the learning process.             `,
+            open: false,
+          },
+          {
+            id: 6,
+            ques: "Are there opportunities to work on simulated real-time projects during the course?            ",
+            ans: `Yes, learners have complete scope to work on simulated real-time projects during the course to gain hands-on experience. Learners can refine their skills in their domains while working on live projects across offline experience centers. These projects help learners have the scope to enhance their problem-solving and analytical skills.             `,
+            open: false,
+          },
         ],
       },
       {
@@ -640,6 +682,18 @@ export const BADataScienceCourseData = [
             Data Science Methodology,
             Data Science and AI (final),
             Capstone Project Certificate by IBM`,
+            open: false,
+          },
+          {
+            id: 2,
+            ques: "Is the certification internationally recognized?            ",
+            ans: `Yes, the Business Analytics Program offers an internationally recognized certification that improves career growth. After successful completion of the course program, a learner is eligible to get an online certificate in business analytics. Here, one will have dual certification – a project experience certificate from IBM & course completion certificates from IBM & Microsoft.             `,
+            open: false,
+          },
+          {
+            id: 3,
+            ques: "How do I receive my certificate, and is it a digital or printed certificate?            ",
+            ans: `After completing a course and capstone projects with a minimum of 70% marks, learners can apply for their certificates. Learnbay offers a Business analytics certification online, well recognized by top-tier companies globally. Learners can apply with respective authorities and get digital certificates within a minimum of 7 days.             `,
             open: false,
           },
         ],
@@ -680,6 +734,39 @@ export const BADataScienceCourseData = [
             ans: "Yes, we offer dedicated placement assistance by referring your profile through our partnered consultancies and companies.",
             open: false,
           },
+          {
+            id: 4,
+            ques: "Does the course include job placement assistance?            ",
+            ans: `Working professionals learn business analysis online to expand their job opportunities. Learnbay’s job assist program ensures 100% placement support guided by industry experts. Learners after completion of the course are eligible for this assistance including –
+
+            1:1 mock interviews
+            1:1 doubt-clearing sessions
+            Resume Preparation
+            Unlimited interview calls from 300+ industry partners
+          `,
+            open: false,
+          },
+          {
+            id: 5,
+            ques: "What types of job roles can I expect to be eligible for after completing this course?            ",
+            ans: `Business analytics online training helps learners craft a successful career in their domains with attractive pay scales. With this, one can expect job roles like –        
+            Operations Research Analyst
+Business Analyst
+Market Research Analyst
+Management Consultant
+Programmer Analyst 
+Quantitative Analyst
+Business Manager 
+Program Manager 
+    `,
+            open: false,
+          },
+          {
+            id: 6,
+            ques: "Do you have partnerships with companies for job placements?            ",
+            ans: "Learnbay has a tie-up with 300+ placement and hiring partners that include top-tier MNCs. Learners are eligible for a job assistance program for this course that mentors them to face interviews with any of the 300+ industry partners. Industry mentors prepare learners with adequate skills and mock interviews to face the competition and attain success.             ",
+            open: false,
+          },
         ],
       },
       {
@@ -699,6 +786,24 @@ export const BADataScienceCourseData = [
             ans: "At Learnbay, every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
             open: false,
           },
+          {
+            id: 2,
+            ques: "Are there mentors available to help with coursework and projects?            ",
+            ans: "Working professionals have the scope to learn business analytics online under the direct guidance of industry experts from MNCs. Learners will have dedicated coaching from mentors for coursework, job assistance programs, live projects, and 1:1 doubt clearing. You can get in touch with your mentors to resolve any doubts while working on fresh capstone projects.             ",
+            open: false,
+          },
+          {
+            id: 3,
+            ques: "How can I connect with a mentor?            ",
+            ans: "Learners go through business analytics online training guided by industry mentors from MNCs. After enrolling in the course, learners will be assigned a mentor whom they can contact directly during online sessions (chat section) and over the call at any time.             ",
+            open: false,
+          },
+          {
+            id: 4,
+            ques: "What is the typical response time for mentor support?            ",
+            ans: "Our mentors are available to support queries of learners at any time (during and after the sessions). So, within 10-15 minutes, learners can get mentor support to resolve queries regarding coursework or projects.             ",
+            open: false,
+          },
         ],
       },
       {
@@ -716,6 +821,24 @@ export const BADataScienceCourseData = [
             id: 1,
             ques: "How long will I get Job referrals?",
             ans: "You’ll be provided with job referrals after the completion of the course for a period of 1 year.",
+            open: false,
+          },
+          {
+            id: 2,
+            ques: "How can I reach out for technical support if I encounter any issues with the course platform?            ",
+            ans: "After enrolling in the course, you are open to use 24x7 learner’s support to resolve any query. You can call the helpline number to reach the desired service providers to help you out of any technical issues with the course platform.             ",
+            open: false,
+          },
+          {
+            id: 3,
+            ques: "Is there a discussion forum or community for students to interact and seek help?            ",
+            ans: "There is no discussion forum or community for students to interact and seek help. They can directly reach out to the learner’s support team which is available 24x7 to resolve queries. In case of any doubt related to coursework or projects, learners can schedule a call for 1:1 sessions with their respective mentors.              ",
+            open: false,
+          },
+          {
+            id: 4,
+            ques: "What is the best way to contact your support team if I have general inquiries?            ",
+            ans: "Learnbay offers 24x7 learner’s support to help with general inquiries. You can check with our sales team at +91 7795687988 in case you have any questions in your mind. They will reach out to you as soon as possible with the best solutions.             ",
             open: false,
           },
         ],
