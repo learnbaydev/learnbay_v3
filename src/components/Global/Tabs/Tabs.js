@@ -4,10 +4,21 @@ import { TabData } from "./TabData";
 import styles from "./Tabs.module.css";
 
 const Tabs = ({ handleIcon }) => {
-  const [selectedIndex, setSelectedIndex] = useState(0);
+  const [selectedIndex, setSelectedIndex] = useState(null);
 
   const handleMenuChange = (index) => {
-    setSelectedIndex(index);
+    // Check if the same tab is clicked again
+    if (selectedIndex === index) {
+      // Close the tab by setting selectedIndex to null
+      setSelectedIndex(null);
+    } else {
+      // Open the selected tab
+      setSelectedIndex(index);
+    }
+  };
+
+  const handleLeavePanel = () => {
+    setSelectedIndex(null);
   };
 
   const renderCourses = () => {
@@ -40,6 +51,7 @@ const Tabs = ({ handleIcon }) => {
             <div key={data.id}>
               <span
                 onMouseOver={() => handleMenuChange(index)}
+                onClick={() => handleMenuChange(index)}
                 className={
                   selectedIndex === index ? styles.spanActive : styles.span
                 }
@@ -47,7 +59,7 @@ const Tabs = ({ handleIcon }) => {
                 {data.title}
                 <IoIosArrowForward />
               </span>
-              {selectedIndex === index && (
+              {(selectedIndex === index || selectedIndex === null) && (
                 <div className={styles.middlePanel}>{renderCourses()}</div>
               )}
             </div>
