@@ -33,7 +33,7 @@ const OfferPopup = ({ popupData, devops }) => {
             setOpen(false);
           }}
         >
-          close[X]
+          X
         </p>
         <div className={styles.header}>
           <h6>{popupData.heading}</h6>

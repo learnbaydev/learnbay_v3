@@ -104,11 +104,15 @@
 }
 .Icon {
   position: absolute;
-  font-size: 12px;
-  color: #ffffff;
-  top: -8px;
+  font-size: 18px;
+  top: 0px;
   right: 10px;
   cursor: pointer;
+  border: 1px solid;
+  padding: 2px 5px;
+  color: #282828;
+  background-color: #fff;
+  border-radius: 50px;
 }
 .hide {
   display: none;
@@ -135,7 +139,7 @@
     display: none;
   }
   .bHeading {
-    font-size: 18px;
+    font-size: 16px;
   }
   .tag {
     bottom: -10px;
@@ -144,5 +148,20 @@
   }
   .tag::after {
     display: none;
+  }
+  .batchPoint p {
+    font-size: 14px;
+  }
+  .Icon {
+    position: absolute;
+    font-size: 16px;
+    top: -8px;
+    right: 0px;
+    cursor: pointer;
+    border: 1px solid;
+    padding: 2px 5px;
+    color: #282828;
+    background-color: #fff;
+    border-radius: 50px;
   }
 }

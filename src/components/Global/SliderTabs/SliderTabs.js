@@ -48,17 +48,43 @@ const SliderTabs = ({ dataScience, dataScienceCounselling }) => {
     },
   ];
 
+  const [activeService, setActiveService] = useState(0);
+  const currentService = services[activeService];
+
+  const [isMobileView, setIsMobileView] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobileView(window.innerWidth <= 768);
+    };
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   const renderServiceItem = (service, index) => {
-    const activeClass =
-      index === activeService ? styles.ActiveSpan : styles.span;
+    const isActive = index === activeService;
+
+    const handleClick = () => {
+      if (isMobileView) {
+        // Toggle the active tab on mobile view
+        setActiveService((prevActive) => (prevActive === index ? null : index));
+      } else {
+        // Always open the clicked tab on non-mobile view
+        setActiveService(index);
+      }
+    };
+
+    const activeClass = isActive ? styles.ActiveSpan : styles.span;
 
     return (
       <div className={styles.panel} key={index}>
-        <div
-          key={index}
-          onClick={() => setActiveService(index)}
-          className={activeClass}
-        >
+        <div onClick={handleClick} className={activeClass}>
           <div className={styles.img}>
             <Image
               src={service.icon}
@@ -69,9 +95,7 @@ const SliderTabs = ({ dataScience, dataScienceCounselling }) => {
               quality={40}
             />
             <span>{service.title}</span>
-            {/* {mobile ? bfsiButton ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""} */}
           </div>
-
           <div>
             <IoIosArrowForward className={styles.rightIcon} />
           </div>
@@ -105,9 +129,6 @@ const SliderTabs = ({ dataScience, dataScienceCounselling }) => {
     );
   };
 
-  const [activeService, setActiveService] = useState(0);
-  const currentService = services[activeService];
-
   return (
     <div className={styles.Course} id="servicePro">
       <h2>
@@ -116,32 +137,32 @@ const SliderTabs = ({ dataScience, dataScienceCounselling }) => {
       </h2>
 
       <div className={styles.courses}>
-        <div className={styles.listPanel}>
-          {services.map(renderServiceItem)}
-        </div>
+        <div className={styles.listPanel}>{services.map(renderServiceItem)}</div>
 
         <div className={styles.middlePanel}>
-          <div className={styles.gridPanel}>
-            <div className={styles.left}>
-              <h6>{currentService.title}</h6>
+          {activeService !== null && (
+            <div className={styles.gridPanel}>
+              <div className={styles.left}>
+                <h6>{currentService.title}</h6>
 
-              {currentService.content.map((point, i) => (
-                <div key={i} className={styles.mainCont}>
-                  <BsCheckCircle className={styles.checkCircle} />
-                  <p className={styles.para}>{point}</p>
-                </div>
-              ))}
+                {currentService.content.map((point, i) => (
+                  <div key={i} className={styles.mainCont}>
+                    <BsCheckCircle className={styles.checkCircle} />
+                    <p className={styles.para}>{point}</p>
+                  </div>
+                ))}
+              </div>
+              <div className={`imgWrapper ${styles.right}`}>
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/doamain-new.webp"
+                  width="200"
+                  height="200"
+                  quality={40}
+                  alt="projectLabs"
+                />
+              </div>
             </div>
-            <div className={`imgWrapper ${styles.right}`}>
-              <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/doamain-new.webp"
-                width="200"
-                height="200"
-                quality={40}
-                alt="projectLabs"
-              />
-            </div>
-          </div>
+          )}
         </div>
       </div>
     </div>
