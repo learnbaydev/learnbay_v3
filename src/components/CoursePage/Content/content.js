@@ -1413,7 +1413,7 @@ function DataAnalytics({
         <div className={styles.content}>
           <h1>
             Unlock Global Job Opportunities with a
-            <b> Master’s in Computer Science Data Science and AI</b>
+             <b>Master’s in Computer Science Data Science and AI</b>
           </h1>
           <p>
             Leap into career excellence with Learnbay's Master's Degree Program
@@ -1443,8 +1443,8 @@ function DataAnalytics({
 
               <h3>Why choose Learnbay's Master in CS Data Science and AI? </h3>
               <p>
-                Accelerate your full career potential with Learnbay's
-                <b>Master in CS Data Science and AI</b> program. Here’s why you
+                Accelerate your full career potential with
+                Learnbay's <b>Master in CS Data Science and AI</b> program. Here’s why you
                 should choose the online master's degree data science program by
                 Learnbay over others :
                 <ul>
@@ -1563,9 +1563,9 @@ function DataAnalytics({
                 non-tech working pros. Amidst the fast-paced rise of AI models,
                 many professional courses are coming up to support real-time
                 career enhancement. In such times, a master’s program in
-                computer science, Gen AI, or a{" "}
-                <b>cloud computing certification</b>
-                supports career transition.
+                computer science, Gen AI, or a
+                {" "}<b><a href="https://www.learnbay.co/cloud&devops/cloud-computing-and-devOps-certification-program" target="_blank">cloud computing certification</a>
+                </b> supports career transition.
               </p>
               <p>
                 Owing to the gaining popularity, master’s programs in leading AI
@@ -1592,8 +1592,8 @@ function DataAnalytics({
               </h4>
               <p>
                 Learnbay's{" "}
-                <b>Master’s in Computer Science Data Science and AI</b>
-                program offers training with diverse domain electives such as –
+                <b>Master’s in Computer Science Data Science and AI
+                </b> program offers training with diverse domain electives such as –
                 <ul>
                   <li>• BFSI</li>
                   <li>• Healthcare</li>
@@ -1700,8 +1700,8 @@ function DataAnalytics({
                 across four prime cities in India – Bengaluru, Hyderabad, Pune,
                 and Delhi. Also, you can get the online experience from any part
                 of the world. Experts enrolling in{" "}
-                <b>Masters in Computer Science</b>
-                program will have benefits like –
+                <b>Masters in Computer Science
+                </b> program will have benefits like –
                 <ul>
                   <li>
                     • Learners gain real-time insights to tackle business issues
@@ -1943,8 +1943,8 @@ function DataAnalytics({
                 successfully establish your career and land your dream job. If
                 you enroll in a <b>certificate program in business analytics</b>{" "}
                 with comprehensive training, you will receive training for
-                cutting-edge technologies and practices. Upon completion of the
-                <b>certificate program in business analytics</b>, you will
+                cutting-edge technologies and practices. Upon completion of 
+                the <b>certificate program in business analytics</b>, you will
                 receive certification from renowned institutions. These
                 certifications and cutting-edge skills will help you to be
                 recognized by top-tier companies from different industries.
@@ -1955,17 +1955,15 @@ function DataAnalytics({
 
               <p>
                 Among other <b>best courses for business analytics,</b>{" "}
-                Learnbay’s
-                <b>Business Analytics Online Course</b> not only offers
+                Learnbay’s <b>Business Analytics Online Course</b> not only offers
                 comprehensive training but training for new technologies like
                 Generative AI and focuses on hands-on practical experience.
               </p>
               <p>
                 Learnbay’s <b>Certificate Course in Business Analytics</b> helps
                 you to delve into real-world business analytics applications and
-                covers future trends as well. Learnbay’s{" "}
-                <b>business analytics training</b>
-                includes the following features -
+                covers future trends as well. Learnbay’s{" "} <b>business analytics training
+                </b> includes the following features -
                 <ul>
                   <li>
                     Industry Relevant Course Curriculum
@@ -2007,10 +2005,10 @@ function DataAnalytics({
                   </li>
                   <li>
                     <h3>
-                      Globally Recognized Certifications
+                      Globally Recognized Certifications </h3>
                       <p>
                         As it is a{" "}
-                        <b>certificate course in business analytics</b>, upon
+                       <b>certificate course in business analytics</b>, upon
                         successful completion, you will be able to receive
                         two-course certifications. Learnbay has collaborated
                         with Microsoft and IBM to offer these certifications.
@@ -2018,7 +2016,7 @@ function DataAnalytics({
                         value and help you to be recognized by employers
                         globally.
                       </p>
-                    </h3>
+                   
                   </li>
                   <li>
                     <h3>Career-Focused Domain Electives</h3>
@@ -2040,9 +2038,9 @@ function DataAnalytics({
                     <h3>Personalized Career Services</h3>
                     <p>
                       You can find different kinds of courses for business
-                      analytics, but the{" "}
-                      <b>best courses for business analytics</b>
-                      will have career assistance in their course curriculum.
+                      analytics, but the
+                      {" "} <b>best courses for business analytics
+                      </b> will have career assistance in their course curriculum.
                       Learnbay’s certificate program in business analytics is
                       inclusive of comprehensive career assistance known as
                       Career Service Pro. This career service pro feature is
