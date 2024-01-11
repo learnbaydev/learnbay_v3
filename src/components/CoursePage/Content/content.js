@@ -1412,8 +1412,8 @@ function DataAnalytics({
       {Masterscontent ? (
         <div className={styles.content}>
           <h1>
-            Unlock Global Job Opportunities with a
-             <b>Master’s in Computer Science Data Science and AI</b>
+            Unlock Global Job Opportunities with 
+              <b> a Master’s in Computer Science Data Science and AI</b>
           </h1>
           <p>
             Leap into career excellence with Learnbay's Master's Degree Program
@@ -1441,7 +1441,7 @@ function DataAnalytics({
                 career in data science.
               </p>
 
-              <h3>Why choose Learnbay's Master in CS Data Science and AI? </h3>
+              <h3>Why choose Learnbay's Master in CS : Data Science and AI? </h3>
               <p>
                 Accelerate your full career potential with
                 Learnbay's <b>Master in CS Data Science and AI</b> program. Here’s why you
@@ -1744,7 +1744,7 @@ function DataAnalytics({
               <h3>Know Your Projects </h3>
               <p>
                 Learnbay's{" "}
-                <b>Master’s in Computer Science Data Science and AI</b>
+                <b>Master’s in Computer Science Data Science and AI </b>
                 program offers training in diverse domains with the latest
                 trends. Learners develop their practical skills with 10+ fresh
                 capstone projects. Hands-on learning via live projects in
@@ -1796,7 +1796,7 @@ function DataAnalytics({
             <>
               <h4 style={{ fontSize: "28px" }}>
                 Dive Into The World Of Analytics With The Help Of The Best
-                Certificate In Business Analytics.{" "}
+                Certificate In Business Analytics{" "}
               </h4>
               <h2 style={{ fontSize: "24px" }}>
                 <b>What is Business Analytics? Why Do We Need It? </b>
@@ -1866,7 +1866,7 @@ function DataAnalytics({
                 of various industries.
                 <ul>
                   <li>
-                    Healthcare Industry
+                    <h4 style={{fontSize: "18px" }}>• Healthcare Industry</h4>
                     <p>
                       The Healthcare Industry has seen a significant change in
                       recent years. As you can see, the use of business
@@ -1883,7 +1883,7 @@ function DataAnalytics({
                     </p>
                   </li>
                   <li>
-                    Finance Industry
+                    <h4 style={{fontSize:"18px"}}>• Finance Industry</h4>
                     <p>
                       The finance industry is one of the most impacted
                       industries by business analytics and new-age technology.
@@ -1900,7 +1900,7 @@ function DataAnalytics({
                     </p>
                   </li>
                   <li>
-                    Retail Industry
+                  <h4 style={{fontSize:"18px"}}>• Retail Industry</h4>
                     <p>
                       The Retail industry is seeing innovative changes by
                       adapting business analytics practices. With the help of
@@ -1966,26 +1966,26 @@ function DataAnalytics({
                 </b> includes the following features -
                 <ul>
                   <li>
-                    Industry Relevant Course Curriculum
+                  <h4 style={{fontSize:"20px"}}>• Industry Relevant Course Curriculum</h4>
                     <p>
                       Learners will get to learn from the beginner to the most
                       advanced level, their business analytics training covers
                       various topics as follows:-
                       <ul>
-                        <li>Introduction to Business Analytics</li>
-                        <li>Excel & Business Statistics</li>
-                        <li>Data Science</li>
-                        <li>Artificial Intelligence</li>
-                        <li>Machine Learning</li>
-                        <li>Big Data Analytics and Visualization</li>
-                        <li>Deployment AWS+Azure</li>
-                        <li>Generative AI</li>
-                        <li>NLP (Natural Language Processing)</li>
+                        <li>• Introduction to Business Analytics</li>
+                        <li>• Excel & Business Statistics</li>
+                        <li>• Data Science</li>
+                        <li>• Artificial Intelligence</li>
+                        <li>• Machine Learning</li>
+                        <li>• Big Data Analytics and Visualization</li>
+                        <li>• Deployment AWS+Azure</li>
+                        <li>• Generative AI</li>
+                        <li>• NLP (Natural Language Processing)</li>
                       </ul>
                     </p>
                   </li>
                   <li>
-                    <h3>Hands-on Experience With Real-World Exposure</h3>
+                  <h3 style={{fontSize:"24px"}}>• Hands-on Experience With Real-World Exposure</h3>
                     <p>
                       As a part of the training, Learnbay will encourage you to
                       work on real-time projects and capstone projects. With the
@@ -2004,7 +2004,7 @@ function DataAnalytics({
                     </p>
                   </li>
                   <li>
-                    <h3>
+                    <h3 style={{fontSize:"24px"}}>•
                       Globally Recognized Certifications </h3>
                       <p>
                         As it is a{" "}
@@ -2019,7 +2019,7 @@ function DataAnalytics({
                    
                   </li>
                   <li>
-                    <h3>Career-Focused Domain Electives</h3>
+                  <h3 style={{fontSize:"24px"}}>• Career-Focused Domain Electives</h3>
                     <p>
                       Learning business analytics alongside gaining expertise in
                       a niche area, will be a competitive edge. In this way, you
@@ -2035,7 +2035,7 @@ function DataAnalytics({
                     </p>
                   </li>
                   <li>
-                    <h3>Personalized Career Services</h3>
+                  <h3 style={{fontSize:"24px"}}>• Personalized Career Services</h3>
                     <p>
                       You can find different kinds of courses for business
                       analytics, but the
@@ -2047,7 +2047,7 @@ function DataAnalytics({
                       inclusive of various features such as:
                       <ul>
                         <li>
-                          <h4>Placement Support</h4>
+                        <h3 style={{fontSize:"20px"}}>•Placement Support</h3>
                           <p>
                             Learnbay offers comprehensive career services where
                             you will receive unlimited job interview calls,
@@ -2055,7 +2055,7 @@ function DataAnalytics({
                           </p>
                         </li>
                         <li>
-                          <h4>Personalized Career Services</h4>
+                        <h4 style={{fontSize:"20px"}}>• Personalized Career Services</h4>
                           <p>
                             Their tailored services help you to prepare and
                             optimize your resume and provide feedback for areas
@@ -2063,7 +2063,7 @@ function DataAnalytics({
                           </p>
                         </li>
                         <li>
-                          <h4>Networking Opportunities</h4>
+                        <h3 style={{fontSize:"24px"}}>• Networking Opportunities</h3>
                           <p>
                             Not only will you find the best-suited job role as
                             per your desire but you will also be able to network
