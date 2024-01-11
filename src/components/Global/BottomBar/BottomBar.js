@@ -5,7 +5,7 @@ import Link from "next/dist/client/link";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
 
-const BottomBar = ({ whatsappShow, masterdegree }) => {
+const BottomBar = ({ whatsappShow, masterdegree, dataScienceCounselling, interstedInHide, radio, dataScienceGeneric }) => {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -23,7 +23,11 @@ const BottomBar = ({ whatsappShow, masterdegree }) => {
           <Form
             popup={true}
             setTrigger={setPopups}
-            dataScienceCounselling={true}
+            dataScienceCounselling={dataScienceCounselling}
+            interstedInHide={interstedInHide}
+            radio={radio}
+        dataScienceGeneric={dataScienceGeneric}
+
           />
         </div>
       </Popup>

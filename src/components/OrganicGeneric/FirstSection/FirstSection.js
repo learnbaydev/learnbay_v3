@@ -14,6 +14,7 @@ const FirstSection = ({
   dataScienceGeneric,
   dataScienceCounselling,
   organicADS,
+  interstedInHide,
 }) => {
   const [mobile, setMobile] = useState(false);
   const [show, setShow] = useState(false);
@@ -80,6 +81,7 @@ const FirstSection = ({
               dataScienceGeneric={dataScienceGeneric}
               dataScienceCounselling={dataScienceCounselling}
               radio={radio}
+  interstedInHide={interstedInHide}
             />
           </div>
         </Popup>

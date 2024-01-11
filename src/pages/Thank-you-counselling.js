@@ -1,11 +1,10 @@
-import React from "react";
-import Navbar from "../components/Global/Navbar/Navbar";
-import Footer from "../components/Global/Footer/Footer";
-import BottomBar from "../components/Global/BottomBar/BottomBar";
-import FirstHeader from "../components/StaticPage/Thankyou/FirstHeader/FirstHeader";
-import ThankStats from "../components/StaticPage/Thankyou/ThankStat/ThankStats";
-import Survey from "../components/StaticPage/Thankyou/Survey/Survey";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+import BottomBar from "../components/Global/BottomBar/BottomBar";
+import Footer from "../components/Global/Footer/Footer";
+import Navbar from "../components/Global/Navbar/Navbar";
+import FirstHeader from "../components/StaticPage/Thankyou/FirstHeader/FirstHeader";
+import Survey from "../components/StaticPage/Thankyou/Survey/Survey";
+import ThankStats from "../components/StaticPage/Thankyou/ThankStat/ThankStats";
 
 const ThankYouDemo = () => {
   return (
@@ -28,7 +27,11 @@ const ThankYouDemo = () => {
         header="Are you seeking the perfect course that will propel your career to new heights?"
         para="Unleash your full potential with our personalized and tailored course suggestions that will guide you towards your ideal learning journey."
       />
-      <BottomBar radio={true} />
+      <BottomBar
+        dataScienceCounselling={true}
+        interstedInHide={true}
+        radio={true}
+      />
       <Footer />
       <WhatsappFloat />
       <BottomBar />

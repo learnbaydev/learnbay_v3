@@ -1,14 +1,12 @@
-import React from "react";
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import Navbar from "../components/Global/Navbar/Navbar";
 import Footer from "../components/Global//Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
+import Navbar from "../components/Global/Navbar/Navbar";
 import FirstSection from "../components/StaticPage/CareerReport/FirstSection/FirstSection";
 import SecondSection from "../components/StaticPage/CareerReport/SecondSection/SecondSection";
 import ThirdSection from "../components/StaticPage/CareerReport/ThirdSection/ThirdSection";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-
+import styles from "../styles/Home.module.css";
 
 function careerReport() {
   return (
@@ -38,7 +36,11 @@ function careerReport() {
       <SecondSection />
       <ThirdSection />
 
-      <BottomBar radio={true} />
+      <BottomBar
+        dataScienceCounselling={true}
+        interstedInHide={true}
+        radio={true}
+      />
       <WhatsappFloat />
       <Footer />
     </div>

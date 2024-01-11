@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from "react";
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import FirstSection from "@/components/Home/FirstSection/FirstSection";
 import HomeLine from "@/components/Home/HomeLine/HomeLine";
+import Media from "@/components/Home/Media/Media";
 import dynamic from "next/dynamic";
 import Head from "next/head";
+import { useEffect, useState } from "react";
 import Navbar from "../components/Global/Navbar/Navbar";
-import Media from "@/components/Home/Media/Media"
 const Course = dynamic(() => import("@/components/Home/Course/Course"));
 const WhyLearnbay = dynamic(() =>
   import("@/components/Home/WhyLearnbay/WhyLearnbay")
@@ -100,61 +100,61 @@ export default function Home() {
       id: 1,
       domain:
         "Learnbay achieves 300% surge; to expand workforce amidst impressive job market recognition",
-      CLogo: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/image+2-min.webp",
+      CLogo:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/image+2-min.webp",
       SDesc: "8th August",
-      url:"https://www.financialexpress.com/jobs-career/education-learnbay-achieves-300-surge-to-expand-workforce-amidst-impressive-job-market-recognition-3203466/",
+      url: "https://www.financialexpress.com/jobs-career/education-learnbay-achieves-300-surge-to-expand-workforce-amidst-impressive-job-market-recognition-3203466/",
     },
     {
       id: 2,
       domain:
         "Augmented Intelligence: How Humans and Machines Team Up in Future Data Science",
-      CLogo: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/CXO+today.webp",
+      CLogo:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/CXO+today.webp",
       SDesc: "25th September",
-      url : "https://cxotoday.com/specials/augmented-intelligence-how-humans-and-machines-team-up-in-future-data-science/",
+      url: "https://cxotoday.com/specials/augmented-intelligence-how-humans-and-machines-team-up-in-future-data-science/",
     },
     {
       id: 3,
       domain:
         "Professional Upskilling Startup Learnbay Launches Three New Cutting-Edge Domain Courses",
-      CLogo: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/image+7.png",
+      CLogo:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/image+7.png",
       SDesc: "25th April",
-      url : "https://businessnewsthisweek.com/education/professional-upskilling-startup-learnbay-launches-three-new-cutting-edge-domain-courses/",
+      url: "https://businessnewsthisweek.com/education/professional-upskilling-startup-learnbay-launches-three-new-cutting-edge-domain-courses/",
     },
     {
       id: 4,
       domain:
         "Learnbay introduces domain specialisation programme for sustainable career transition",
-      CLogo: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/image+2-min.webp",
+      CLogo:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/image+2-min.webp",
       SDesc: "1st August",
-      url : "https://www.financialexpress.com/jobs-career/education-learnbay-introduces-domain-specialisation-programme-for-sustainable-career-transition-2613104/",
-
+      url: "https://www.financialexpress.com/jobs-career/education-learnbay-introduces-domain-specialisation-programme-for-sustainable-career-transition-2613104/",
     },
     {
       id: 5,
-      domain:
-        "Metaverse in Education: A New Mainstay or a Passing Trend??",
-      CLogo: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/express+computer.webp",
+      domain: "Metaverse in Education: A New Mainstay or a Passing Trend??",
+      CLogo:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/express+computer.webp",
       SDesc: "21st August",
-      url : "https://www.expresscomputer.in/artificial-intelligence-ai/metaverse-in-education-a-new-mainstay-or-a-passing-trend/102446/",
-
+      url: "https://www.expresscomputer.in/artificial-intelligence-ai/metaverse-in-education-a-new-mainstay-or-a-passing-trend/102446/",
     },
     {
       id: 6,
-      domain:
-        "The Rising Horizon: Data Science and AI in the EdTech 2.0 Era",
-      CLogo: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/express+computer.webp",
+      domain: "The Rising Horizon: Data Science and AI in the EdTech 2.0 Era",
+      CLogo:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/express+computer.webp",
       SDesc: "24th November",
-      url : "https://www.expresscomputer.in/guest-blogs/the-rising-horizon-data-science-and-ai-in-the-edtech-2-0-era/106062/",
-
+      url: "https://www.expresscomputer.in/guest-blogs/the-rising-horizon-data-science-and-ai-in-the-edtech-2-0-era/106062/",
     },
     {
       id: 7,
-      domain:
-        "How data science can disrupt the fintech industry?",
-      CLogo: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/dataquest.webp",
+      domain: "How data science can disrupt the fintech industry?",
+      CLogo:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/dataquest.webp",
       SDesc: "13th January",
-      url : "https://www.dqindia.com/how-data-science-can-disrupt-the-fintech-industry/",
-
+      url: "https://www.dqindia.com/how-data-science-can-disrupt-the-fintech-industry/",
     },
   ];
   const [popupData, setPopupData] = useState([]);
@@ -438,11 +438,15 @@ export default function Home() {
         radio={true}
         interstedInHide={true}
       />
-      <Media projectData={data}/>
+      <Media projectData={data} />
       <SeventhSection />
       <Footer />
       <WhatsappFloat chat360code1={true} />
-      <BottomBar radio={true} />
+      <BottomBar
+        dataScienceCounselling={true}
+        interstedInHide={true}
+        radio={true}
+      />
       {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
     </>
   );

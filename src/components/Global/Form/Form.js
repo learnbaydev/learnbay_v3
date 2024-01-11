@@ -67,11 +67,11 @@ const Form = ({
       [name]: value,
     }));
   };
-  const redirection = async () => {
-    const myTimeout = setTimeout(() => {
-      router.push("https://course.learnbay.co/Thank-you");
-    }, 500);
-  };
+  // const redirection = async () => {
+  //   const myTimeout = setTimeout(() => {
+  //     router.push("https://course.learnbay.co/Thank-you");
+  //   }, 500);
+  // };
 
   let btnText = "Apply For Counselling";
   if (event) {
@@ -93,7 +93,7 @@ const Form = ({
       dataScience,
       dataScienceGeneric,
       dataScienceCounselling,
-      redirection
+      // redirection
     );
     console.log(pushPath);
     setError(getValidation(radio, interstedInHide, query));

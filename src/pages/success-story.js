@@ -1,9 +1,10 @@
-import Head from "next/head";
-import Navbar from "../components/Global/Navbar/Navbar";
-import Footer from "../components/Global/Footer/Footer";
-import BottomBar from "../components/Global/BottomBar/BottomBar";
-import { DataScienceCourseData } from "../Data/AdvanceDataScienceCourse";
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import dynamic from "next/dynamic";
+import Head from "next/head";
+import { DataScienceCourseData } from "../Data/AdvanceDataScienceCourse";
+import BottomBar from "../components/Global/BottomBar/BottomBar";
+import Footer from "../components/Global/Footer/Footer";
+import Navbar from "../components/Global/Navbar/Navbar";
 const Button = dynamic(() => import("../components/Global/Button/Button"));
 const GoogleReview = dynamic(() =>
   import("../components/StaticPage/SuccessStory/GoogleReview/GoogleReview")
@@ -26,7 +27,6 @@ const VideoReview = dynamic(() =>
 const Testimonial = dynamic(() =>
   import("../components/Global/Testimonial/Testimonial")
 );
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 
 export default function Home() {
   return (
@@ -65,7 +65,11 @@ export default function Home() {
         />
         <Footer />
         <WhatsappFloat />
-        <BottomBar radio={true} />
+        <BottomBar
+          dataScienceGeneric={true}
+          interstedInHide={true}
+          radio={true}
+        />
       </main>
     </div>
   );

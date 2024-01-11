@@ -1,11 +1,10 @@
-import React from "react";
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import Head from "next/head";
-import Navbar from "../components/Global/Navbar/Navbar";
 import Footer from "../components/Global//Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
-import styles from "../styles/Home.module.css";
+import Navbar from "../components/Global/Navbar/Navbar";
 import SecondSection from "../components/StaticPage/FirstSectionLearning/SecondSectionLearning";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+import styles from "../styles/Home.module.css";
 
 function learning() {
   return (
@@ -37,7 +36,11 @@ function learning() {
         interstedInHide={true}
       />
       <SecondSection />
-      <BottomBar radio={true} />
+      <BottomBar
+        dataScienceCounselling={true}
+        interstedInHide={true}
+        radio={true}
+      />
       <Footer />
       <WhatsappFloat />
     </div>
