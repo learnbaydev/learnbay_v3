@@ -97,7 +97,10 @@ const FullStackSoftwareDevelopmentSecondPart = ({
       <FAQNew FAQNewData={FAQNewData} />
       <SeventhSection />
       <Footer />
-      <BottomBar />
+      <BottomBar
+        dataScienceCounselling={true}
+        interstedInHide={true}
+      />
       <WhatsappFloat />
       {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
     </div>

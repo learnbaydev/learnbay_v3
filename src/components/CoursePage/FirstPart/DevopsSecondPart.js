@@ -128,7 +128,10 @@ const SecondPart = ({
       <Content dataScienceCounselling={true} CDevops={true} />
       <SeventhSection />
       {adsHide ? "" : <Footer />}
-      <BottomBar />
+      <BottomBar
+        dataScienceCounselling={true}
+        interstedInHide={true}
+      />
       <WhatsappFloat />
       {adsHide ? (
         ""

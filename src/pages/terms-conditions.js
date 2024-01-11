@@ -1,10 +1,9 @@
-import React from "react";
-import Head from "next/head";
-import Navbar from "../components/Global/Navbar/Navbar";
-import Footer from "../components/Global/Footer/Footer";
-import BottomBar from "../components/Global/BottomBar/BottomBar";
-import Terms from "../components/StaticPage/terms/terms";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+import Head from "next/head";
+import BottomBar from "../components/Global/BottomBar/BottomBar";
+import Footer from "../components/Global/Footer/Footer";
+import Navbar from "../components/Global/Navbar/Navbar";
+import Terms from "../components/StaticPage/terms/terms";
 
 function terms() {
   return (
@@ -28,7 +27,11 @@ function terms() {
 
         <Footer />
         <WhatsappFloat />
-        <BottomBar radio={true} />
+        <BottomBar
+          dataScienceGeneric={true}
+          interstedInHide={true}
+          radio={true}
+        />
       </main>
     </div>
   );

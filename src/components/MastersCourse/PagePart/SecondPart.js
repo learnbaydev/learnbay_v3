@@ -120,7 +120,9 @@ const SecondPart = ({
       <Content Masterscontent={true} dataScienceCounselling={true}/>
       <SeventhSection />
       <Footer />
-      <BottomBar masterdegree={true} />
+      <BottomBar masterdegree={true} 
+      dataScienceCounselling={true}
+      />
       <WhatsappFloat />
       {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
     </>

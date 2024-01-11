@@ -1,9 +1,9 @@
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import Head from "next/head";
-import Demo from "../components/StaticPage/Demo/Demo";
-import Navbar from "../components/Global/Navbar/Navbar";
 import Footer from "../components/Global//Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+import Navbar from "../components/Global/Navbar/Navbar";
+import Demo from "../components/StaticPage/Demo/Demo";
 
 export default function Home() {
   return (
@@ -32,7 +32,11 @@ export default function Home() {
         <Demo demos={true} />
         <Footer />
         <WhatsappFloat />
-        <BottomBar radio={true} />
+        <BottomBar
+          dataScienceGeneric={true}
+          interstedInHide={true}
+          radio={true}
+        />
       </main>
     </div>
   );

@@ -1,11 +1,11 @@
-import Head from "next/head";
-import Review from "../components/StaticPage/Review/Review";
-import styles from "../styles/Home.module.css";
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import dynamic from "next/dynamic";
-import Navbar from "../components/Global/Navbar/Navbar";
+import Head from "next/head";
 import Footer from "../components/Global//Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+import Navbar from "../components/Global/Navbar/Navbar";
+import Review from "../components/StaticPage/Review/Review";
+import styles from "../styles/Home.module.css";
 const Button = dynamic(() => import("../components/Global/Button/Button"));
 
 export default function Home() {
@@ -47,7 +47,11 @@ export default function Home() {
         </div>
         <Footer />
         <WhatsappFloat />
-        <BottomBar radio={true} />
+        <BottomBar
+          dataScienceGeneric={true}
+          interstedInHide={true}
+          radio={true}
+        />
       </main>
     </div>
   );

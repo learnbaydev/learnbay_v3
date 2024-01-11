@@ -18,7 +18,7 @@ const ProjectContent = ({
   radio,
   dataScienceGeneric,
   dataScienceCounselling,
-  organicADS,
+  interstedInHide,
  }) => {
   const [popups, setPopups] = useState(false);
   const el = useRef(null);
@@ -58,6 +58,7 @@ const ProjectContent = ({
               dataScienceGeneric={dataScienceGeneric}
               dataScienceCounselling={dataScienceCounselling}
               radio={radio}
+  interstedInHide={interstedInHide}
             />
           </div>
         </Popup>

@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from "react";
-import Navbar from "../components/Global/Navbar/Navbar";
-import Footer from "../components/Global/Footer/Footer";
-import BottomBar from "../components/Global/BottomBar/BottomBar";
-import FirstHeader from "../components/StaticPage/Thankyou/FirstHeader/FirstHeader";
-import ThankStats from "../components/StaticPage/Thankyou/ThankStat/ThankStats";
-import Survey from "../components/StaticPage/Thankyou/Survey/Survey";
-import TyPageCta from "@/components/StaticPage/Thankyou/TyPageCta/TyPageCta";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+import TyPageCta from "@/components/StaticPage/Thankyou/TyPageCta/TyPageCta";
+import { useEffect, useState } from "react";
+import BottomBar from "../components/Global/BottomBar/BottomBar";
+import Footer from "../components/Global/Footer/Footer";
+import Navbar from "../components/Global/Navbar/Navbar";
+import FirstHeader from "../components/StaticPage/Thankyou/FirstHeader/FirstHeader";
+import Survey from "../components/StaticPage/Thankyou/Survey/Survey";
+import ThankStats from "../components/StaticPage/Thankyou/ThankStat/ThankStats";
 
 const ThankYouDemo = () => {
   const dataArray = [];
@@ -54,7 +54,11 @@ const ThankYouDemo = () => {
       <BottomBar />
       <Footer />
       <WhatsappFloat />
-      <BottomBar radio={true} />
+      <BottomBar
+        dataScienceCounselling={true}
+        interstedInHide={true}
+        radio={true}
+      />
     </div>
   );
 };

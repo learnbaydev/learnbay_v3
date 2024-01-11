@@ -1,12 +1,11 @@
-import React from "react";
-import Form from "../components/Global/Form/Form";
-import styles from "../styles/Submit.module.css";
-import Navbar from "../components/Global/Navbar/Navbar";
-import Footer from "../components/Global/Footer/Footer";
-import BottomBar from "../components/Global/BottomBar/BottomBar";
-import Image from "next/image";
-import Head from "next/head";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+import Head from "next/head";
+import Image from "next/image";
+import BottomBar from "../components/Global/BottomBar/BottomBar";
+import Footer from "../components/Global/Footer/Footer";
+import Form from "../components/Global/Form/Form";
+import Navbar from "../components/Global/Navbar/Navbar";
+import styles from "../styles/Submit.module.css";
 
 const sumbit = () => {
   return (
@@ -28,7 +27,11 @@ const sumbit = () => {
       <div className={styles.Wrapper}>
         <div className={styles.left}>
           <h6>Apply For Counselling</h6>
-          <Form dataScienceCounselling={true} radio={true} interstedInHide={true} />
+          <Form
+            dataScienceCounselling={true}
+            radio={true}
+            interstedInHide={true}
+          />
         </div>
         <div className={styles.right}>
           <Image
@@ -38,7 +41,11 @@ const sumbit = () => {
           />
         </div>
       </div>
-      <BottomBar radio={true} />
+      <BottomBar
+        dataScienceCounselling={true}
+        interstedInHide={true}
+        radio={true}
+      />
       <Footer />
       <WhatsappFloat />
     </div>
