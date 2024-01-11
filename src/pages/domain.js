@@ -1,11 +1,10 @@
-import React from "react";
+import { ThirdSectionData } from "@/Data/ThirdSectionData";
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import Head from "next/head";
-import Navbar from "../components/Global/Navbar/Navbar";
+import WhoProgram from "../components/CoursePage/WhoProgram/ThirdSection";
 import Footer from "../components/Global//Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-import WhoProgram from "../components/CoursePage/WhoProgram/ThirdSection";
-import { ThirdSectionData } from "@/Data/ThirdSectionData";
+import Navbar from "../components/Global/Navbar/Navbar";
 
 const sumbit = () => {
   return (
@@ -29,7 +28,11 @@ const sumbit = () => {
         leftImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/advance-who.webp"
         ThirdSectionData={ThirdSectionData}
       />
-      <BottomBar radio={true} />
+      <BottomBar
+        dataScienceCounselling={true}
+        interstedInHide={true}
+        radio={true}
+      />
       <Footer />
       <WhatsappFloat />
     </div>

@@ -1,12 +1,11 @@
-import React from "react";
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import FirstSection from "../components/StaticPage/ResumeBuilder/FirstSection/FirstSection";
-import ThirdSection from "../components/StaticPage/ResumeBuilder/ThirdSection/ThirdSection";
-import Navbar from "../components/Global/Navbar/Navbar";
 import Footer from "../components/Global//Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+import Navbar from "../components/Global/Navbar/Navbar";
+import FirstSection from "../components/StaticPage/ResumeBuilder/FirstSection/FirstSection";
+import ThirdSection from "../components/StaticPage/ResumeBuilder/ThirdSection/ThirdSection";
+import styles from "../styles/Home.module.css";
 
 const ResumeBuilder = () => {
   return (
@@ -37,7 +36,11 @@ const ResumeBuilder = () => {
       <ThirdSection idss="4PBfjKsw580" />
       <Footer />
       <WhatsappFloat />
-      <BottomBar radio={true} />
+      <BottomBar
+        dataScienceCounselling={true}
+        interstedInHide={true}
+        radio={true}
+      />
     </div>
   );
 };

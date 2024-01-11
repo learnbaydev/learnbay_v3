@@ -1,10 +1,9 @@
-import React from "react";
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import Head from "next/head";
-import Privacy from "../components/StaticPage/privacy/privacy";
-import Navbar from "../components/Global/Navbar/Navbar";
 import Footer from "../components/Global//Footer/Footer";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+import Navbar from "../components/Global/Navbar/Navbar";
+import Privacy from "../components/StaticPage/privacy/privacy";
 
 function privacy() {
   return (
@@ -28,7 +27,11 @@ function privacy() {
         <Privacy />
         <Footer />
         <WhatsappFloat />
-        <BottomBar radio={true} />
+        <BottomBar
+          dataScienceGeneric={true}
+          interstedInHide={true}
+          radio={true}
+        />
       </main>
     </div>
   );

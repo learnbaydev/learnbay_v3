@@ -129,7 +129,10 @@ const SecondPart = ({
       <Content dataScienceCounselling={true}  DataAnalytics={true}/>
       <SeventhSection />
       <Footer />
-      <BottomBar />
+      <BottomBar
+        dataScienceCounselling={true}
+        interstedInHide={true}
+      />
       <WhatsappFloat />
       {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
     </div>
