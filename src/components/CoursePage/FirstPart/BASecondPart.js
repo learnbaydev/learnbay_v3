@@ -81,7 +81,7 @@ const SecondPart = ({
         masterSyllabusMobile={masterSyllabusMobile}
         dataScienceCounselling={true}
         dataScience={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
+        titleCourse="Business Analytics Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
         buttonHide={true}
         interstedInHide={true}
@@ -105,7 +105,7 @@ const SecondPart = ({
         FeeContent6="No additional cost"
         dataScienceCounselling={true}
         interstedInHide={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
+        titleCourse="Business Analytics Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
         dataScience={true}
       />
@@ -114,7 +114,7 @@ const SecondPart = ({
       <PlacementCall />
       <NewProjectSection
         dataScience={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
+        titleCourse="Business Analytics Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
         projectSection={projectSection}
         interstedInHide={true}

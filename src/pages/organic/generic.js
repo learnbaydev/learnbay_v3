@@ -105,7 +105,7 @@ export default function Home() {
         radio={true}
         event={true}
         adPage={true}
-        interstedInHide={true}
+        // interstedInHide={true}
       />
 
       <FirstSection
@@ -116,7 +116,7 @@ export default function Home() {
         dataScienceGeneric={true}
         radio={true}
         organicADS={true}
-        interstedInHide={true}
+        // interstedInHide={true}
       />
       <HomeLine />
       <div className={styles.boxWrap}>
@@ -135,7 +135,7 @@ export default function Home() {
         organicADS={true}
         newDesign={true}
         dataScienceGeneric={true}
-        interstedInHide={true}
+        // interstedInHide={true}
       />
       <Switch organicADS={true} />
       <ProjectSection
@@ -145,7 +145,7 @@ export default function Home() {
         popup={true}
         dataScienceGeneric={true}
         radio={true}
-        interstedInHide={true}
+        // interstedInHide={true}
       />
 
       <Testimonial redirectDS={true} heading="" Testimonial={testimonial} />
@@ -166,7 +166,7 @@ export default function Home() {
       <WhatsappFloat chat360code1={true} />
       <BottomBar
         dataScienceGeneric={true}
-        interstedInHide={true}
+        // interstedInHide={true}
         radio={true}
       />
     </div>

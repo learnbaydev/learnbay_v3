@@ -83,7 +83,7 @@ const SecondPart = ({
         masterSyllabusMobile={masterSyllabusMobile}
         dataScienceCounselling={true}
         dataScience={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
+        titleCourse="AI & ML Program for tech professionals"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf"
         buttonHide={true}
         interstedInHide={true}
@@ -107,7 +107,7 @@ const SecondPart = ({
         FeeContent6="No additional cost"
         dataScienceCounselling={true}
         dataScience={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
+        titleCourse="AI & ML Program for tech professionals"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf"
         interstedInHide={true}
       />
@@ -118,7 +118,7 @@ const SecondPart = ({
 
       <NewProjectSection
         dataScience={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
+        titleCourse="AI & ML Program for tech professionals"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf"
         projectSection={projectSection}
         interstedInHide={true}
