@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Form.module.css";
 import PhoneInput from "react-phone-input-2";
+import jsCookie from "js-cookie";
 import "react-phone-input-2/lib/style.css";
 import {
   getEndPoint,
@@ -56,7 +57,9 @@ const Form = ({
   });
   useEffect(() => {
     setQuery({ ...query, phone: value });
+    jsCookie.set("CARD", query.email, { expires: 14, secure: true });
   }, [value]);
+
 
   // Update inputs value
   const handleParam = () => (e) => {
