@@ -59,7 +59,7 @@ const redirectionThankYou = (
     routerPath = "/Thank-you";
   }
   if (dataScienceGeneric) {
-    routerPath = "http://localhost:3000/Thank-you";
+    routerPath = "https://course.learnbay.co/Thank-you";
   }
   if (dataScienceCounselling) {
     routerPath = "/Thank-you-counselling";
