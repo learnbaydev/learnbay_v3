@@ -195,7 +195,7 @@ const Course = ({
                                             fill={true}
                                             quality={60}
                                             loading="lazy"
-                                            style={{ objectFit: "cover" }}
+                                            
                                             alt="data science course"
                                           />
                                         </div>
@@ -211,7 +211,7 @@ const Course = ({
                                             fill={true}
                                             quality={80}
                                             loading="lazy"
-                                            style={{ objectFit: "cover" }}
+                                          
                                             alt="data science course"
                                           />
                                         </div>
@@ -220,7 +220,7 @@ const Course = ({
                                     <div
                                       className={styles.contButton}
                                       style={{
-                                        borderRadius: "0px 0px 8px 8px",
+                                        borderRadius: "8px 8px 8px 8px",
 
                                         marginTop: "-12px",
                                         zIndex: "0",
@@ -313,7 +313,7 @@ const Course = ({
                                             style={{
                                               color: "#2979AD",
                                               background: "#fff",
-                                              borderRadius: "0px 0px 0px 20px",
+                                              borderRadius: "8px 8px 8px 8px",
                                             }}
                                           >
                                             Brochure
@@ -339,7 +339,7 @@ const Course = ({
                                                   : styles.fillBtn
                                               }
                                               style={{
-                                                borderRadius: "0 0 8px 0px",
+                                                borderRadius: "8px 8px 8px 8px",
                                               }}
                                             >
                                               View Details
@@ -360,7 +360,7 @@ const Course = ({
                                                   : styles.fillBtn
                                               }
                                               style={{
-                                                borderRadius: "0 0 8px 0px",
+                                                borderRadius: "8px 8px 8px 8px",
                                               }}
                                             >
                                               View Details
