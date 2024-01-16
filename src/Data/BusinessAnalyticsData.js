@@ -529,13 +529,21 @@ export const BADataScienceCourseData = [
           {
             id: 0,
             ques: "What is domain specialization?",
-            ans: "We offer industry-specific full-stack data science modules, via which you learn the respective industry’s best practices.",
+            ans: `
+            Domain specialization refers to the field expertise in a specific subject or area of interest related to one particular industry. It specifies a process of gaining domain-led skills and learning the targeted industry’s best practices as per the current trend to thrive in your career.`,
             open: true,
           },
           {
             id: 1,
-            ques: "What are the available elective domain options?",
-            ans: "Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc.",
+            ques: "What are the available elective domain options?            ",
+            ans: `Business Analytics Program offers six domain electives with a promising future in today’s digital space. However, you can choose one domain elective owing to industry growth metrics and your future career goals. These electives are –     
+            BFSI
+            Healthcare
+            Marketing
+            Human Resources
+            Supply Chain
+            Manufacturing
+         `,
             open: false,
           },
           {
@@ -546,14 +554,14 @@ export const BADataScienceCourseData = [
           },
           {
             id: 3,
-            ques: "Why is domain specialization important?",
-            ans: "After enrolling in the AI and ML with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge which is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.",
+            ques: "Why is domain specialization important?            ",
+            ans: " Domain electives are vital for real-time upskilling with learned tools and thrive in today’s time. However, there are many electives and you can opt for one domain as per your interest, previous work experience, and future career goals.             ",
             open: false,
           },
           {
             id: 4,
-            ques: "Can I select multiple domain electives and do I need to pay extra charges?",
-            ans: "You can select up to 4 domain electives based on your interest and career goals. No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.",
+            ques: "Why is domain specialization important?            ",
+            ans: "For a successful career transition, domain specialization is the magic key. Domain elective is a must thing to look into after enrolling in the Business Analytics Program. It enriches your knowledge base in the latest trends to get better job prospects. For example, if you have already worked as a recruiter for 3 years, choosing human resources as a domain specialization is best while enrolling in a Business analytics course. In such cases, after course completion when you start applying for the HR analytics role, you will be considered as a 3-year experienced candidate with upgraded analytical skills. But if you take marketing analytics, then for your first analytics job you will be considered as a fresher.  If you don’t have any specialization, the chances are greater that you need to start afresh.             ",
             open: false,
           },
           {
