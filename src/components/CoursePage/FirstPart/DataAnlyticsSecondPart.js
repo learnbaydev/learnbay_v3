@@ -84,7 +84,7 @@ const SecondPart = ({
         masterSyllabusMobile={masterSyllabusMobile}
         dataScienceCounselling={true}
         dataScience={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
+        titleCourse="Data Analytics Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
         interstedInHide={true}
         buttonHide={true}
@@ -112,7 +112,7 @@ const SecondPart = ({
         dataScienceCounselling={true}
         interstedInHide={true}
         dataScience={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
+        titleCourse="Data Analytics Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
       />
       <MentorsSection />
@@ -120,7 +120,7 @@ const SecondPart = ({
       <PlacementCall />
       <NewProjectSection
         dataScience={true}
-        titleCourse="Advanced Data Science and AI Program with domain specializations"
+        titleCourse="Data Analytics Certification Programs"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
         projectSection={projectSection}
         interstedInHide={true}

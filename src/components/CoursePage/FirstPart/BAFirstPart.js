@@ -113,7 +113,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       <GetHire />
       <ContactConsellor
         dataScience={true}
-        titleCourse="Businesss Analytics Certification Program"
+        titleCourse="Business Analytics Certification Program"
         interstedInHide={true}
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
       />
