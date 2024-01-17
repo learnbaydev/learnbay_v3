@@ -110,6 +110,16 @@ const SecondPart = ({
         dataScience={true}
         titleCourse="Advance Cloud Computing & DevOps Certification Program"
         brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
+      
+        // <EMI POPUP
+        emiType = "NO COST EMI"
+        duration1 = "18 Months"
+        totalAmount1 = "₹1,10,000"
+        monthlyPayment1 = "₹7,211"
+        greenDown1 = "Standard Intrest rate Applicable"
+        duration2 = "12 Months"
+        totalAmount2 = "₹1,10,000"
+        monthlyPayment2 = "₹10,816"
       />
 
       <MentorsSection />

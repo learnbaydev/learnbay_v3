@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from 'react';
 import Image from "next/image";
 import dynamic from "next/dynamic";
 const Button = dynamic(() => import("../../Global/Button/Button"));
 import styles from "./FeeSection.module.css";
+import Emipopup from "../EMIPopup/Emipopup"
+import Modal from 'react-modal';
+
 const FeeContent = ({
   Fee,
   adsHide,
@@ -18,10 +21,47 @@ const FeeContent = ({
   weekdaybatch,
   weekendbatch,
   devopfee,
+  openTablePopup,
+  emiType,
+  duration1,
+  totalAmount1,
+  monthlyPayment1,
+  greenDown1,
+  duration2,
+  totalAmount2,
+  monthlyPayment2,
+  greenDown2,
+
+
+
+
+
+
+
+
 }) => {
+  const [emiPopupIsOpen, setEmiPopupIsOpen] = useState(false);
   const popupShow = () => {
     setPopups(true);
   };
+  const openEmiPopup = () => {
+    setEmiPopupIsOpen(true);
+  };
+
+  const closeEmiPopup = () => {
+    setEmiPopupIsOpen(false);
+  };
+  // const emiPopupProps = {
+  //   emiType: 'No Cost EMI',
+  //   duration1: '18 months',
+  //   totalAmount1: '₹2,50,000',
+  //   monthlyPayment1: '₹16,389',
+  //   greenDown1: 'Standard Interest Rates Applicable',
+  //   duration2: '24 months',
+  //   totalAmount2: '₹2,50,000',
+  //   monthlyPayment2: '₹12,292',
+  //   greenDown2: 'Another Green Down Text',
+  // };
   return (
     <div className={styles.feesmain}>
       <h2>Fee & Batch Details</h2>
@@ -99,13 +139,14 @@ const FeeContent = ({
             <p>
               For <b>No Cost EMI options</b>{" "}
               <span
-                onClick={popupShow}
+                onClick={openEmiPopup}
                 style={{ color: "#0072BC", cursor: "pointer" }}
               >
                 click here.
               </span>
             </p>
           </div>
+          
           <p className={styles.orangeText}>Payment Partners</p>
           <div className={styles.iconImage}>
             <Image
@@ -149,9 +190,32 @@ const FeeContent = ({
                 <p className={styles.paraBot}>{WeekdayTime}</p>
               </div>
             </div>
+            
           </div>
         </div>
+        
       </div>
+        {/* Emi Popup */}
+        <Modal
+        isOpen={emiPopupIsOpen}
+        onRequestClose={closeEmiPopup}
+        className={styles.Emipopup}
+        overlayClassName={styles.Overlay}
+        contentLabel="EMI Popup"
+      >
+         <div className={styles.clostbtn} onClick={closeEmiPopup}><span>close[x]</span></div>
+        <Emipopup 
+        emiType ={ emiType }
+        duration1 ={duration1}
+        totalAmount1 ={totalAmount1}
+        monthlyPayment1 = {monthlyPayment1}
+        greenDown1 ={ greenDown1}
+        duration2 ={duration2}
+        totalAmount2 ={totalAmount2}
+        monthlyPayment2 ={monthlyPayment2}
+        greenDown2 ={greenDown2} />
+       
+      </Modal>
     </div>
   );
 };

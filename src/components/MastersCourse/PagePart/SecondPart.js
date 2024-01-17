@@ -105,6 +105,16 @@ const SecondPart = ({
         FeeContent5="15 days refund policy"
         FeeContent6="No additional cost"
         dataScienceCounselling={true}
+
+// EMI POPUPDATA
+        emiType = "NO COST EMI"
+        duration1 = "18 Months"
+        totalAmount1 = "₹2,50,000"
+        monthlyPayment1 = "₹16,389"
+        greenDown1 = "Standard Intrest rate Applicable"
+        duration2 = "24 Months"
+        totalAmount2 = "₹2,50,000"
+        monthlyPayment2 = "₹12,292"
       />
       <MentorsSection />
       <SliderTabs />
