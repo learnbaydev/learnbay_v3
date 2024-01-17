@@ -1,7 +1,14 @@
+import dynamic from "next/dynamic";
 import Head from "next/head";
 import { useEffect, useState } from "react";
+import { DSDelhiCourseData } from "../../../CityData/Delhi/DataScienceCourseTrainingDelhiData";
+import Footer from "../../../components/Global/Footer/Footer";
+import Form from "../../../components/Global/Form/Form";
+import Navbar from "../../../components/Global/Navbar/Navbar";
+import Popup from "../../../components/Global/Popup/Popup";
+import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
+import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
 import styles from "../../../styles/Home.module.css";
-import dynamic from "next/dynamic";
 const FirstSection = dynamic(() =>
   import("../../../components/Seo/FirstSection/FirstSection")
 );
@@ -26,14 +33,7 @@ const CitiesLeft = dynamic(() =>
 const CitiesRight = dynamic(() =>
   import("../../../components/Seo/CitiesRight/CitiesRight")
 );
-import { DSDelhiCourseData } from "../../../CityData/Delhi/DataScienceCourseTrainingDelhiData";
 const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
-import Popup from "../../../components/Global/Popup/Popup";
-import Navbar from "../../../components/Global/Navbar/Navbar";
-import Footer from "../../../components/Global/Footer/Footer";
-import Form from "../../../components/Global/Form/Form";
-import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
-import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
 const OfferPopup = dynamic(() =>
   import("../../../components/Global/OfferPopup/OfferPopup")
 );
@@ -134,9 +134,9 @@ export default function Home() {
           href="https://www.learnbay.co/datascience/delhi/data-science-course-training-in-delhi"
         />
         <script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: `{
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
       "@context": "http://schema.org",
   "@type": "LocalBusiness",
   "name": "Learnbay - Data Science Course in Delhi",
@@ -192,14 +192,14 @@ export default function Home() {
                 "https://www.youtube.com/channel/UC-ntE_GnjjiUuKYqih9ENYA",
                 "https://www.linkedin.com/company/learnbay/"
   ]
-    }`
-  }}
-/>
+    }`,
+          }}
+        />
 
-<script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: `{
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
       "@context": "https://schema.org/", 
   "@type": "Product", 
   "name": "Data Science Course in Delhi | Data Science Training in Delhi - Learnbay",
@@ -215,11 +215,9 @@ export default function Home() {
     "worstRating": "1",
     "ratingCount": "12693"
   }
-    }`
-  }}
-/>
-      
-        
+    }`,
+          }}
+        />
       </Head>
       <main>
         {" "}
@@ -258,12 +256,14 @@ export default function Home() {
           <FeeSection
             Fee="₹ 1,25,000"
             FeeEmi="₹ 8,194/month"
-            weekdaybatch="Weekday Evening"
-            weekendbatch="Weekend  Morning"
-            WeekdayDate="DEC 24th"
-            WeekendDate="Jan 10th"
-            WeekendTime="09:30 AM - 1:00 PM"
-             WeekdayTime="08:00 PM - 10:00 PM"
+            weekdaybatch="Weekday Batch"
+            weekendbatch="Weekend  Batch"
+            weekday="MON - FRI"
+            weekend="SAT - SUN"
+            WeekdayDate="FEB 2nd"
+            WeekendDate="JAN 21st"
+            WeekdayTime="8 PM - 10 PM"
+            WeekendTime="09:30 AM - 1 PM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
             FeeContent5="15 days refund policy"

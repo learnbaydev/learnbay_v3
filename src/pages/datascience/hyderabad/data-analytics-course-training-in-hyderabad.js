@@ -2,12 +2,12 @@ import dynamic from "next/dynamic";
 import Head from "next/head";
 import { useEffect, useState } from "react";
 import { DataAnalyticsHyderabadCourseData } from "../../../CityData/Hyderabad/dataAnalyticsCourseTrainingInHyderabad";
-import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
 import Footer from "../../../components/Global/Footer/Footer";
 import Form from "../../../components/Global/Form/Form";
-import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
 import Navbar from "../../../components/Global/Navbar/Navbar";
 import Popup from "../../../components/Global/Popup/Popup";
+import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
+import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
 import styles from "../../../styles/Home.module.css";
 const FirstSection = dynamic(() =>
   import("../../../components/Seo/FirstSection/FirstSection")
@@ -125,7 +125,6 @@ export default function Home() {
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
-       
       </Head>
       <main>
         {" "}
@@ -166,12 +165,14 @@ export default function Home() {
           <FeeSection
             Fee="₹ 80,000"
             FeeEmi="₹ 5,244/month"
-            weekdaybatch="Weekday Evening"
-            weekendbatch="Weekend  Morning"
-            WeekdayDate="DEC 24th"
-            WeekendDate="Jan 10th"
-            WeekendTime="09:30 AM - 1:00 PM"
-             WeekdayTime="08:00 PM - 10:00 PM"
+            weekdaybatch="Weekday Batch"
+            weekendbatch="Weekend  Batch"
+            weekday="MON - FRI"
+            weekend="SAT - SUN"
+            WeekdayDate="FEB 2nd"
+            WeekendDate="JAN 21st"
+            WeekdayTime="8 PM - 10 PM"
+            WeekendTime="09:30 AM - 1 PM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
             FeeContent5="15 days refund policy"

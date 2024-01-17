@@ -1,7 +1,14 @@
-import Head from "next/head";
-import styles from "../../../styles/Home.module.css";
+import Navbar from "@/components/Global/Navbar/Navbar";
 import dynamic from "next/dynamic";
+import Head from "next/head";
 import { useEffect, useState } from "react";
+import { DSPuneCourseData } from "../../../CityData/Pune/dataScienceCourseTrainingInPune";
+import Footer from "../../../components/Global/Footer/Footer";
+import Form from "../../../components/Global/Form/Form";
+import Popup from "../../../components/Global/Popup/Popup";
+import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
+import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
+import styles from "../../../styles/Home.module.css";
 const FirstSection = dynamic(() =>
   import("../../../components/Seo/FirstSection/FirstSection")
 );
@@ -26,14 +33,7 @@ const CitiesLeft = dynamic(() =>
 const CitiesRight = dynamic(() =>
   import("../../../components/Seo/CitiesRight/CitiesRight")
 );
-import { DSPuneCourseData } from "../../../CityData/Pune/dataScienceCourseTrainingInPune";
 const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
-import Popup from "../../../components/Global/Popup/Popup";
-import Navbar from "@/components/Global/Navbar/Navbar";
-import Footer from "../../../components/Global/Footer/Footer";
-import Form from "../../../components/Global/Form/Form";
-import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
-import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
 const OfferPopup = dynamic(() =>
   import("../../../components/Global/OfferPopup/OfferPopup")
 );
@@ -321,12 +321,14 @@ export default function Home() {
           <FeeSection
             Fee="₹ 1,25,000"
             FeeEmi="₹ 8,194/month"
-            weekdaybatch="Weekday Evening"
-            weekendbatch="Weekend  Morning"
-            WeekdayDate="DEC 24th"
-            WeekendDate="Jan 10th"
-            WeekendTime="09:30 AM - 1:00 PM"
-             WeekdayTime="08:00 PM - 10:00 PM"
+            weekdaybatch="Weekday Batch"
+            weekendbatch="Weekend  Batch"
+            weekday="MON - FRI"
+            weekend="SAT - SUN"
+            WeekdayDate="FEB 2nd"
+            WeekendDate="JAN 21st"
+            WeekdayTime="8 PM - 10 PM"
+            WeekendTime="09:30 AM - 1 PM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
             FeeContent5="15 days refund policy"
