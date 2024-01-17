@@ -3,10 +3,7 @@ import dynamic from "next/dynamic";
 
 import Navbar from "@/components/Global/Navbar/Navbar";
 import FirstSection from "@/components/CoursePage/FirstSection/FirstSection";
-import SecondSection from "@/components/CoursePage/SecondSection/SecondSection";
 const SecondNavbar = dynamic(() => import("../SecondNavbar/SecondNavbar"));
-import { BAThirdSectionData } from "@/Data/ThirdSectionData";
-const WhoProgram = dynamic(() => import("../WhoProgram/ThirdSection"));
 const TrainerSection = dynamic(() =>
   import("../../Global/TrainerSection/TrainerSection")
 );
@@ -95,12 +92,6 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
          <CloudDevopsecond data={BASecond} />
       {/* <SecondSection SecondSectionData={SecondSectionData} /> */}
       <SecondNavbar />
-      <WhoProgram
-        dataScience={true}
-        leftImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/advance-who.webp"
-        ThirdSectionData={BAThirdSectionData}
-        interstedInHide={true}
-      />
       <TrainerSection idss="eautK0odE7Q" />
       <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} />
       <WhoIsProgram
