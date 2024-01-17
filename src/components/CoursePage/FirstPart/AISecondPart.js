@@ -83,7 +83,7 @@ const SecondPart = ({
         masterSyllabusMobile={masterSyllabusMobile}
         dataScienceCounselling={true}
         dataScience={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
+        titleCourse="AI & ML Program for tech professionals"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf"
         buttonHide={true}
         interstedInHide={true}
@@ -93,21 +93,21 @@ const SecondPart = ({
       <FeeSection
         Fee="₹ 1,10,000"
         FeeEmi="₹ 7,211/ Month"
-        weekdaybatch="Weekday Evening"
-        weekendbatch="Weekday  Morning"
+        weekdaybatch="Weekday Batch"
+        weekendbatch="Weekend  Batch"
         weekday="MON - FRI"
-        weekend="MON - FRI"
-        WeekdayDate="JAN 10th"
-        WeekendDate="JAN 12th"
+        weekend="SAT - SUN"
+        WeekdayDate="FEB 2nd"
+        WeekendDate="JAN 21st"
         WeekdayTime="8 PM - 10 PM"
-        WeekendTime="8 AM - 10 AM"
+        WeekendTime="09:30 AM - 1 PM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
         FeeContent5="15 days refund policy"
         FeeContent6="No additional cost"
         dataScienceCounselling={true}
         dataScience={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
+        titleCourse="AI & ML Program for tech professionals"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf"
         interstedInHide={true}
 
@@ -129,7 +129,7 @@ const SecondPart = ({
 
       <NewProjectSection
         dataScience={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
+        titleCourse="AI & ML Program for tech professionals"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf"
         projectSection={projectSection}
         interstedInHide={true}

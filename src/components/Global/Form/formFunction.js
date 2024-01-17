@@ -75,6 +75,7 @@ const redirectionThankYou = (
 };
 
 const getValidation = (radio, interstedInHide, query) => {
+  console.log(radio,interstedInHide, query.platform, "asdbfvsvcasfvvcfvcfqwerwe");
   if (query.phone === "" || query.phone === undefined) {
     return true;
   } else if (radio === true && interstedInHide === true) {
@@ -96,6 +97,22 @@ const getValidation = (radio, interstedInHide, query) => {
     if (query.interstedIn === "Interested In") {
       return true;
     } else if (query.interstedIn === "") {
+      return true;
+    } else return false;
+  } else if (
+    radio === true &&
+    (interstedInHide === undefined || interstedInHide === false)
+  ) {
+    console.log("yes");
+    if (query.platform === "Select an option") {
+      console.log("1");
+      return true;
+    } else if (query.platform === "") {
+      console.log("2");
+      console.log("2");
+      return true;
+    } else if (query.platform === undefined) {
+      console.log("3");
       return true;
     } else return false;
   } else if (

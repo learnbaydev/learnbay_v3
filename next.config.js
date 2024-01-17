@@ -1279,11 +1279,7 @@ const nextConfig = {
         destination: "/datascience/advance-data-science-certification-courses",
         permanent: true,
       },
-      {
-        source: "/datascience/data-science-for-bfsi-professional",
-        destination: "/datascience/advance-data-science-certification-courses",
-        permanent: true,
-      },
+    
       {
         source: "/datascience/hr-analytics",
         destination: "/datascience/business-analytics-certification-course",

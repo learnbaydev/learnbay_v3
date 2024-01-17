@@ -5,38 +5,36 @@ const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
 const WhatsappFloat = dynamic(() =>
   import("@/components/Global/WhatappsFloat/WhatsappFloat")
 );
-const Content = dynamic(() =>
-  import("../../../components/CoursePage/Content/content")
-);
 const Certificate = dynamic(() =>
-  import("../../../components/CoursePage/Certificate/Certificate")
+  import("../Certificate/Certificate")
 );
-
+const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
 const FeeSection = dynamic(() =>
-  import("../../../components/CoursePage/FeeSection/FeeSection")
+  import("../FeeSection/FeeSection")
 );
 
 const MentorsSection = dynamic(() =>
-  import("../../../components/Global/MentorsSection/MentorsSection")
+  import("../../Global/MentorsSection/MentorsSection")
 );
 
 const SliderTab = dynamic(() =>
-  import("../../../components/Global/SliderTabs/SliderTabs")
+  import("../../Global/SliderTabs/SliderTabs")
 );
 
 const PlacementCall = dynamic(() =>
-  import("../../../components/Global/PlacementCall/PlacementCall")
+  import("../../Global/PlacementCall/PlacementCall")
 );
-const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
+
 const NewProjectSection = dynamic(() =>
-  import("../../../components/Global/NewProjectSection/NewProjectSection")
+  import("../../Global/NewProjectSection/NewProjectSection")
 );
 
 const FAQNew = dynamic(() =>
-  import("../../../components/CoursePage/FAQNew/FAQNew")
+  import("../FAQNew/FAQNew")
 );
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
+const Content = dynamic (()=> import ("../Content/content"))
 const SeventhSection = dynamic(() =>
   import("@/components/Global/SeventhSection/SeventhSection")
 );
@@ -46,7 +44,6 @@ const SecondPart = ({
   CertificateData,
   projectSection,
   FAQNewData,
-  singlecertificate,
 }) => {
   const [popupData, setPopupData] = useState([]);
   // console.log(popupData);
@@ -67,7 +64,7 @@ const SecondPart = ({
           // console.log(data);
           data.page.map((popupData, i) => {
             // console.log(popData);
-            if (popupData === "Data Analytics Program") {
+            if (popupData === "Business Analytics Program") {
               setPopupData(data);
               // console.log(popupData);
               return;
@@ -84,62 +81,46 @@ const SecondPart = ({
         masterSyllabusMobile={masterSyllabusMobile}
         dataScienceCounselling={true}
         dataScience={true}
-        titleCourse="Data Analytics Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
-        interstedInHide={true}
+        titleCourse="HR Analytics Certification Program"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf"
         buttonHide={true}
+        interstedInHide={true}
       />
       <ToolsCovered />
-      <Certificate
-        data={CertificateData}
-        singlecertificate={singlecertificate}
-      />
+      <Certificate data={CertificateData} />
       <FeeSection
-        Fee="₹ 80,000"
-        FeeEmi="₹ 5,244/month"
-        weekdaybatch="Weekday Batch"
-        weekendbatch="Weekend  Batch"
-        weekday="MON - FRI"
-        weekend="SAT - SUN"
-        WeekdayDate="FEB 2nd"
-        WeekendDate="JAN 21st"
-        WeekdayTime="8 PM - 10 PM"
-        WeekendTime="09:30 AM - 1 PM"
+        Fee="₹ 90,000"
+        FeeEmi="₹ 5,900/month"
+        weekdaybatch="Weekend Batch"
+        weekendbatch="Weekday Batch"
+        weekday="SAT-SUN"
+        weekend="SAT-SUN"
+        WeekdayDate="JAN 14th"
+        WeekendDate="DEC 9th"
+        WeekendTime="09:30 AM - 1:00 PM"
+        WeekdayTime="09:30 AM - 1:00 PM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
         FeeContent5="15 days refund policy"
         FeeContent6="No additional cost"
         dataScienceCounselling={true}
         interstedInHide={true}
+        titleCourse="HR Analytics Certification Program"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf"
         dataScience={true}
-        titleCourse="Data Analytics Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
-    
-
-
-
-        // EMI POPUPDATA
-        emiType = "NO COST EMI"
-        duration1 = "18 Months"
-        totalAmount1 = "₹80,000"
-        monthlyPayment1 = "₹5,244"
-        greenDown1 = "Standard Intrest rate Applicable"
-        duration2 = "12 Months"
-        totalAmount2 = "₹80,000"
-        monthlyPayment2 = "₹7,866"
-    />
+      />
       <MentorsSection />
       <SliderTab />
       <PlacementCall />
       <NewProjectSection
         dataScience={true}
-        titleCourse="Data Analytics Certification Programs"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
+        titleCourse="HR Analytics Certification Program"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf"
         projectSection={projectSection}
         interstedInHide={true}
       />
       <FAQNew FAQNewData={FAQNewData} />
-      <Content dataScienceCounselling={true}  DataAnalytics={true}/>
+      <Content Banalytics={true} dataScienceCounselling={true}/>
       <SeventhSection />
       <Footer />
       <BottomBar

@@ -21,7 +21,7 @@ const ContactConsellor = dynamic(() =>
 );
 const CloudDevopsecond = dynamic(() =>
   import(
-    "../../CoursePage/cloud&devops/DevOpsSecondSection/DevOpsSecondSection"
+    "../cloud&devops/DevOpsSecondSection/DevOpsSecondSection"
   )
 );
 import { LuBrainCircuit } from "react-icons/lu";
@@ -80,15 +80,15 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         interstedInHide={true}
         dataScience={true}
         ThirdTyped="Live Interactive Classes"
-        titleCourse="Business Analytics Certification Program"
+        titleCourse="Data Science & AI for BFSI Professionals"
         cityParaCont="Elevate your tech career with our programs"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
-        FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BA-min.webp"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf"
+        FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BFSIHeader-min.webp"
         firstToparaImg=""
-        firstHeading="Business Analytics Certification Program"
+        firstHeading="Data Science & AI for BFSI Professionals"
         firstTopPara="Get real-world experience with capstone projects"
         idss="CHut_wm-P2s"
-         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ba-f.webp"
+         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BFSIHeader-min.webp"
           videoId="CHut_wm-P2s"
           softwareBtnHide={true}
       />
@@ -106,16 +106,16 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       <WhoIsProgram
         first="Bachelor's degree with consistent good academic"
         second="Minimum 6 Month of IT/Non-IT work experience"
-        third="Early to mid-career professionals interested in Business analytics"
-        forth="Developing skills in Business analytics for future opportunities"
+        third="Early to mid-career professionals interested in BFSI"
+        forth="Developing skills in BFSI for future opportunities"
       />
       <WhyLearnbay idss="ZPOTy4PEnNU" />
       <GetHire />
       <ContactConsellor
         dataScience={true}
-        titleCourse="Business Analytics Certification Program"
+        titleCourse="Data Science & AI for BFSI Professionals"
         interstedInHide={true}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf"
       />
     </>
   );

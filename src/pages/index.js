@@ -424,15 +424,17 @@ export default function Home() {
       <Navbar
         radio={true}
         dataScienceCounselling={true}
-        interstedInHide={true}
+        // interstedInHide={true}
       />
       <FirstSection
         dataScienceCounselling={true}
         radio={true}
-        interstedInHide={true}
+        // interstedInHide={true}
       />
       <HomeLine />
-      <Course dataScience={true} radio={true} interstedInHide={true} />
+      <Course dataScience={true} radio={true}
+      //  interstedInHide={true} 
+       />
       <WhyLearnbay ids="YWxTtvb3x-U" />
       <ProjectSection ids="YWxTtvb3x-U" nolinkO={true} linkomb={true} />
       <GetHire />
@@ -441,7 +443,7 @@ export default function Home() {
       <ContactUs
         dataScienceCounselling={true}
         radio={true}
-        interstedInHide={true}
+        // interstedInHide={true}
       />
       <Media projectData={data} />
       <SeventhSection />
@@ -450,7 +452,7 @@ export default function Home() {
       <WhatsappFloat chat360code1={true} />
       <BottomBar
         dataScienceCounselling={true}
-        interstedInHide={true}
+        // interstedInHide={true}
         radio={true}
       />
       {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
