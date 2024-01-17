@@ -211,7 +211,7 @@ const Course = ({
                                             fill={true}
                                             quality={80}
                                             loading="lazy"
-                                          
+                                          objectFit="fill"
                                             alt="data science course"
                                           />
                                         </div>

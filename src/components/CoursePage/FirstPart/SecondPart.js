@@ -40,6 +40,18 @@ const SecondPart = ({
   FAQNewData,
 }) => {
   const [popupData, setPopupData] = useState([]);
+
+  // const emiPopupProps = {
+  //   emiType: 'No Cost EMI',
+  //   duration1: '18 months',
+  //   totalAmount1: '₹2,50,000',
+  //   monthlyPayment1: '₹16,389',
+  //   greenDown1: 'Standard Interest Rates Applicable',
+  //   duration2: '24 months',
+  //   totalAmount2: '₹2,50,000',
+  //   monthlyPayment2: '₹12,292',
+  //   greenDown2: 'Another Green Down Text',
+  // };
   // console.log(popupData);
   useEffect(() => {
     // console.log("inside UseEFFect");
@@ -102,7 +114,20 @@ const SecondPart = ({
         dataScience={true}
         titleCourse="Advanced Data Science and AI Program with domain specialization"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program.pdf"
-      />
+    
+// <EMI POPUP
+        emiType = "NO COST EMI"
+        duration1 = "18 Months"
+        totalAmount1 = "₹1,25,000"
+        monthlyPayment1 = "₹8,194"
+        greenDown1 = "Standard Intrest rate Applicable"
+        duration2 = "12 Months"
+        totalAmount2 = "₹1,25,000"
+        monthlyPayment2 = "₹12,291"
+       
+   
+    
+    />
 
       <MentorsSection />
       <SliderTab />

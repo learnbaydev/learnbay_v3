@@ -32,6 +32,7 @@ const SeventhSection = dynamic(() =>
 );
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
 
+
 export default function Home() {
   const testimonial = [
     {
@@ -107,12 +108,11 @@ export default function Home() {
     },
     {
       id: 2,
-      domain:
-        "Augmented Intelligence: How Humans and Machines Team Up in Future Data Science",
+      domain: "How data science can disrupt the fintech industry?",
       CLogo:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/CXO+today.webp",
-      SDesc: "25th September",
-      url: "https://cxotoday.com/specials/augmented-intelligence-how-humans-and-machines-team-up-in-future-data-science/",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/dataquest.webp",
+      SDesc: "13th January",
+      url: "https://www.dqindia.com/how-data-science-can-disrupt-the-fintech-industry/",
     },
     {
       id: 3,
@@ -142,20 +142,25 @@ export default function Home() {
     },
     {
       id: 6,
+      domain:
+        "Augmented Intelligence: How Humans and Machines Team Up in Future Data Science",
+      CLogo:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/CXO+today.webp",
+      SDesc: "25th September",
+      url: "https://cxotoday.com/specials/augmented-intelligence-how-humans-and-machines-team-up-in-future-data-science/",
+    },
+   
+   
+   
+    {
+      id: 7,
       domain: "The Rising Horizon: Data Science and AI in the EdTech 2.0 Era",
       CLogo:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/express+computer.webp",
       SDesc: "24th November",
       url: "https://www.expresscomputer.in/guest-blogs/the-rising-horizon-data-science-and-ai-in-the-edtech-2-0-era/106062/",
     },
-    {
-      id: 7,
-      domain: "How data science can disrupt the fintech industry?",
-      CLogo:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/dataquest.webp",
-      SDesc: "13th January",
-      url: "https://www.dqindia.com/how-data-science-can-disrupt-the-fintech-industry/",
-    },
+   
   ];
   const [popupData, setPopupData] = useState([]);
   // console.log(popupData);
@@ -440,6 +445,7 @@ export default function Home() {
       />
       <Media projectData={data} />
       <SeventhSection />
+
       <Footer />
       <WhatsappFloat chat360code1={true} />
       <BottomBar
