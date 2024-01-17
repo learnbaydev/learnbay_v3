@@ -229,18 +229,22 @@ export const MarketingDataScienceCourseData = [
     masterSyllabusMobile: [
       {
         Module0: {
-          title: "Intro to Business Analytics",
+          title: "Marketing Analytics",
           content: [
             {
               chap: {
-                // title: "Topic 1 :- Cohort Orientation",
+                title: "Introduction to Marketing Analytics",
                 desc: [
-                  "Introduction to Business Analysis ",
-                  "Stakeholders in Business Analysis",
-                  "Formulating Requirements",
-                  "Flowchart and Modelling",
-                  "Analyzing and Transforming Requirements",
-                  "Finalising Requirements",
+                  "Fundamentals of Marketing Analytics",
+                  "Understanding Customer Behavior Through Data Analysis",
+                  "Measuring and Optimizing Marketing Performance",
+                  "Predictive Analytics for Sales Forecasting",
+                  "Marketing Leadership Strategies in a Data-Driven Way",
+                  "Hands-on Experience with Analytics Tools and Techniques",
+                  "Conducting experiments to test different marketing strategies and determine which ones are most effective.",
+                  "Customer Segmentation and Targeting",
+                  "Measure the impact of different marketing channels and tactics on overall business performance",
+                  "Create compelling data visualizations and reports to communicate marketing performance and insights to stakeholders.",
                 ],
               },
             },
@@ -251,22 +255,20 @@ export const MarketingDataScienceCourseData = [
       },
       {
         Module0: {
-          title: "TERM 1:- Excel & Business Statistics",
+          title: "TERM 1:- Excel, Statistics, SQL & MongoDB",
           content: [
             {
               chap: {
                 title: "Module 1:-Excel",
                 desc: [
-                  "Introduction to Excel",
+                  "Basic Excel Functions",
+                  "Managing Worksheets",
+                  "Editing and Managing Cell Data",
+                  "Formatting Worksheets",
+                  "Editing and Managing Cell Data",
                   "Basic Formulas and Functions",
-                  "Data Formatting and Cell Styles",
-                  "Data Sorting and Filtering",
-                  "Charts and Graphs",
-                  "Data Validation and Protection",
-                  "PivotTables and PivotCharts",
-                  "Advanced Formulas and Functions",
-                  "Data Analysis Tools",
-                  "Excel Macros and Automation",
+                  "Creating Charts",
+                  "Advanced Functions",
                 ],
               },
             },
@@ -274,69 +276,30 @@ export const MarketingDataScienceCourseData = [
               chap: {
                 title: " Module 2 :- Statistics",
                 desc: [
-                  " Fundamentals of Math and Probability",
-                  "All about Population & Sample",
-                  "Introduction to Statistics, Statistical Thinking",
+                  "R programming fundamentals",
                   "Descriptive Statistics",
-                  " Inferential Statistics",
-                  "Hypothesis Testing",
-                  " Linear Algebra",
-                  "Data Processing & Exploratory Data Analysis",
-                ],
-              },
-            },
-          ],
-          id: 1,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "TERM 2 :- Data Science & AI ",
-          content: [
-            {
-              chap: {
-                title: " Module 1 :- Intro",
-                desc: [
-                  "Key components of Data Science and AI (data, algorithms, computing power).",
-                  "Popular programming language (R) and development tools (Jupyter Notebook, Spyder)",
+                  "Probability",
+                  "Statistics",
+                  "Sampling Techniques",
+                  "Probability",
+                  "Inferential Statistics:",
+                  "Hypothesis testing",
+                  "Multivariate Analysis",
+                  "Bayesian Statistics",
+                  "Experimental Design",
+                  "Time Series Analysis",
+                  "Linear Algebra",
                 ],
               },
             },
             {
               chap: {
-                title: " Module 2 :- ML",
-                desc: [
-                  "Supervised, unsupervised, and reinforcement learning.",
-                  "Bias-variance tradeoff, overfitting, and underfitting.",
-                  "Model selection and evaluation metrics (accuracy, precision, recall,F1 score, ROC curve, AUC).",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Module 3 :- NLP",
-                desc: [
-                  "Named Entity Recognition (NER), Topic Modeling, Text Generation.",
-                  "Pre-trained language models (BERT, GPT, XLNet) and Transfer Learning in NLP",
-                ],
-              },
-            },
-          ],
-          id: 1,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "TERM 3 :- Big Data Analytics and Visualization",
-          content: [
-            {
-              chap: {
-                title: "Module 1 :- SQL",
+                title: " Module 3 :- SQL",
                 desc: [
                   "SQL and RDBMS",
                   "NoSQL, HBase & MongoDB",
+                  "Programming with SQL",
+                  "Advance SQL",
                   "JSON Data & CRUD",
                   "Programming with SQL",
                 ],
@@ -344,60 +307,10 @@ export const MarketingDataScienceCourseData = [
             },
             {
               chap: {
-                title: " Module 2 :- MongoDB",
+                title: " Module 4 :- MongoDB",
                 desc: [
-                  "MongoDB Ecosystem",
-                  "MongoDB Structures",
-                  "MongoDB Shell vs MongoDB Server",
-                  "Data Formats in MongoDB",
-                  "Working with MongoDB Compass",
-                  "Working with Numeric Data",
-                  "Working on Scheme Designing",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Module 3 :- Tableau",
-                desc: [
-                  "Dashboard and Stories",
-                  "Visual Analytics",
-                  "Custom Geocoding",
-                  "Polygon Maps",
-                  "WMS and Background Image",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Module 4 :-PowerBI",
-                desc: [
-                  "Overview of the Workflow in",
-                  "Power BI Desktop",
-                  "Introducing the Different",
-                  "Views of the Data Mode",
-                  "Working with Time Series",
-                  "Scatterplots and BI Reports",
-                  "Connecting Dataset with  Power BI",
-                ],
-              },
-            },
-          ],
-          id: 6,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "TERM 4 :-  Deployment AWS+Azure",
-          content: [
-            {
-              chap: {
-                desc: [
-                  "Data Preparation and Feature Engineering",
-                  "Model Training and Evaluation",
-                  "Model Deployment and Management",
-                  "Advanced Topics in Machine Learning on AWS and Azure",
+                  "Introduction to MongoDB",
+                  "MongoDB (Advance)",
                 ],
               },
             },
@@ -406,52 +319,69 @@ export const MarketingDataScienceCourseData = [
           open: false,
         },
       },
-
       {
         Module0: {
-          title: "TERM 5 :-AI Generative Tools and Future Trends ",
+          title: "TERM 2 :- TABLEAU & Power BI",
           content: [
             {
               chap: {
-                title:
-                  "Module 1 :- Emerging Trends in AI and Generative Modeling",
+                title: " Module 1 :- TABLEAU",
                 desc: [
-                  "Exploring other AI generative tools beyond ChatGPT and DALL·E",
-                  "Discussion on future trends and advancements in AI generative tools",
-                  "Open-ended project and/or presentation on a selected topic, incorporating learned concepts",
+                  "Introduction to Tableau",
+                  "Creating basic visualizations using Tableau, including",
+                  "Forecasting & Clustering in Tableau",
+                  "Connecting to Data Sources",
+                  "Visual Analytics in Tableau",
+                  "Forecasting & Clustering in Tableau",
+                  "Dashboard and Stories in Tableau",
+                  "Mapping in Tableau",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 2 :- Natural Language Processing and ChatGPT",
+                title: " Module 2 :- Power BI",
                 desc: [
-                  "Introduction to natural language processing techniques",
-                  "Understanding ChatGPT and its architecture",
-                  "Hands-on exercises using ChatGPT for text generation",
-                  "Fine-tuning ChatGPT for specific applications",
+                  "Introduction to Power BI",
+                  "Data Visualization and Exploration",
+                  "Advanced Analytics with DAX",
+                  "Power BI Service and Collaboration",
+                  "Data Transformation and Modeling",
+                  "Power BI Integration with other tools",
                 ],
               },
             },
-
+          ],
+          id: 1,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "TERM 3 :- DATA SCIENCE & AI & Deployment AWS+Azure",
+          content: [
             {
               chap: {
-                title: "Module 3 :- DALL·E: Image Generation with AI",
+                title: "Module 1 :- SQL",
                 desc: [
-                  "Exploring image generation using DALL·E",
-                  "Hands-on exercises for creating unique images with DALL·E",
-                  "Ethical considerations and limitations of AI-generated images",
+                  "Introduction to Data Science & AI",
+                  "Natural Language Processing (NLP)",
+                  "Popular ML Libraries",
+                  "Machine Learning Fundamentals",
+                  "Advanced NLP Techniques",
                 ],
               },
             },
             {
               chap: {
-                title:
-                  "Module 4 :-  Graph Neural Networks (GNN) for Data Analysis",
+                title: " Module 2 :- Deployment AWS+Azure",
                 desc: [
-                  "Overview of Graph Neural Networks (GNN) and their applications",
-                  "Hands-on exercises using GNN for tasks such as node classification and link prediction",
-                  "Case studies on real-world applications of GNN in data science",
+                  "Introduction to AWS and Azure Machine Learning Services",
+                  "Data Preparation and Feature Engineering",
+                  "Setting up the Environment",
+                  "Model Training and Evaluation",
+                  "Model Deployment and Management",
+                  "Advanced Topics in Machine Learning on AWS and Azure",
                 ],
               },
             },

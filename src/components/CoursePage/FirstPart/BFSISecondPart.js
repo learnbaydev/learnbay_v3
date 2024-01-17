@@ -1,25 +1,20 @@
-import React, { useEffect, useState } from "react";
+import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import dynamic from "next/dynamic";
+import { useEffect, useState } from "react";
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
 const WhatsappFloat = dynamic(() =>
   import("@/components/Global/WhatappsFloat/WhatsappFloat")
 );
-const Certificate = dynamic(() =>
-  import("../Certificate/Certificate")
-);
+const Certificate = dynamic(() => import("../Certificate/Certificate"));
 const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
-const FeeSection = dynamic(() =>
-  import("../FeeSection/FeeSection")
-);
+const FeeSection = dynamic(() => import("../FeeSection/FeeSection"));
 
 const MentorsSection = dynamic(() =>
   import("../../Global/MentorsSection/MentorsSection")
 );
 
-const SliderTab = dynamic(() =>
-  import("../../Global/SliderTabs/SliderTabs")
-);
+const SliderTab = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
 
 const PlacementCall = dynamic(() =>
   import("../../Global/PlacementCall/PlacementCall")
@@ -29,12 +24,9 @@ const NewProjectSection = dynamic(() =>
   import("../../Global/NewProjectSection/NewProjectSection")
 );
 
-const FAQNew = dynamic(() =>
-  import("../FAQNew/FAQNew")
-);
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
+const FAQNew = dynamic(() => import("../FAQNew/FAQNew"));
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
-const Content = dynamic (()=> import ("../Content/content"))
+const Content = dynamic(() => import("../Content/content"));
 const SeventhSection = dynamic(() =>
   import("@/components/Global/SeventhSection/SeventhSection")
 );
@@ -94,10 +86,10 @@ const SecondPart = ({
         weekdaybatch="Weekend Batch"
         weekendbatch="Weekday Batch"
         weekday="SAT-SUN"
-        weekend="SAT-SUN"
+        weekend="MON-TUE"
         WeekdayDate="JAN 14th"
-        WeekendDate="DEC 9th"
-        WeekendTime="09:30 AM - 1:00 PM"
+        WeekendDate="FEB 9th"
+        WeekendTime="8 PM - 10 PM"
         WeekdayTime="09:30 AM - 1:00 PM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
@@ -120,13 +112,10 @@ const SecondPart = ({
         interstedInHide={true}
       />
       <FAQNew FAQNewData={FAQNewData} />
-      <Content Banalytics={true} dataScienceCounselling={true}/>
+      <Content Banalytics={true} dataScienceCounselling={true} />
       <SeventhSection />
       <Footer />
-      <BottomBar
-        dataScienceCounselling={true}
-        interstedInHide={true}
-      />
+      <BottomBar dataScienceCounselling={true} interstedInHide={true} />
       <WhatsappFloat />
       {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
     </div>
