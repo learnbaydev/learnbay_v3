@@ -229,18 +229,22 @@ export const BFSIDataScienceCourseData = [
     masterSyllabusMobile: [
       {
         Module0: {
-          title: "Intro to Business Analytics",
+          title: "BFSI",
           content: [
             {
               chap: {
-                // title: "Topic 1 :- Cohort Orientation",
+                title: "Introduction to Banking, Financial Services and Insurance (BFSI)",
                 desc: [
-                  "Introduction to Business Analysis ",
-                  "Stakeholders in Business Analysis",
-                  "Formulating Requirements",
-                  "Flowchart and Modelling",
-                  "Analyzing and Transforming Requirements",
-                  "Finalising Requirements",
+                  "Overview of BFSI domain and financial institutions and services",
+                  "Managing customer data and customer segmentation using real-time and predictive analytics",
+                  "Process automation and security measures in BFSI domain",
+                  "Fraud detection techniques and their importance in BFSI",
+                  "Underwriting and credit scoring techniques in insurance and banking sector",
+                  "Risk modeling and management for investment banks",
+                  "Data visualization techniques for financial data using tools like Tableau and PowerBI",
+                  "Time series analysis for forecasting financial trends and investment opportunities",
+                  "Portfolio management and optimization techniques",
+                  "Regulatory compliance and reporting requirements in the BFSI sector",
                 ],
               },
             },
@@ -251,37 +255,81 @@ export const BFSIDataScienceCourseData = [
       },
       {
         Module0: {
-          title: "TERM 1:- Excel & Business Statistics",
+          title: "TERM 1:- Preparatory Session and Python Programming",
           content: [
             {
               chap: {
-                title: "Module 1:-Excel",
+                title: "Module 1:- Preparatory Session",
                 desc: [
-                  "Introduction to Excel",
-                  "Basic Formulas and Functions",
-                  "Data Formatting and Cell Styles",
-                  "Data Sorting and Filtering",
-                  "Charts and Graphs",
-                  "Data Validation and Protection",
-                  "PivotTables and PivotCharts",
-                  "Advanced Formulas and Functions",
-                  "Data Analysis Tools",
-                  "Excel Macros and Automation",
+                  "Preparatory Session",
+                  "Fundamentals of Statistics",
+                  "Fundamentals of programming",
                 ],
               },
             },
             {
               chap: {
-                title: " Module 2 :- Statistics",
+                title: "Module 1:- Python Programming",
                 desc: [
-                  " Fundamentals of Math and Probability",
-                  "All about Population & Sample",
+                  "Programming Basics & Environment Setup",
+                  "Strings, Decisions & Loop Control",
+                  "Functions And Modules",
+                  "Python Programming Overview",
+                  "Python Data Types",
+                  "Functions And Modules",
+                  "File I/O An d Exceptional Handling and Regular Expression",
+                  "Data Analysis Using Pandas",
+                  "Data Analysis Using Numpy",
+                  "Data Visualization using Matplotlib",
+                  "Data Visualization using Seaborn",
+                ],
+              },
+            },
+            
+          ],
+          id: 1,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "TERM 2 :-Statistics and Machine Learning",
+          content: [
+            {
+              chap: {
+                title: " Module 1 :- Statistics",
+                desc: [
+                  "Fundamentals of Math and Probability",
                   "Introduction to Statistics, Statistical Thinking",
+                  "Inferential Statistics",
+                  "All about Population & Sample",
                   "Descriptive Statistics",
-                  " Inferential Statistics",
+                  "Inferential Statistics",
                   "Hypothesis Testing",
-                  " Linear Algebra",
                   "Data Processing & Exploratory Data Analysis",
+                  "Linear Algebra",
+                  "EDA",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Module 2 :- Machine Learning",
+                desc: [
+                  "Machine Learning Introduction",
+                  "Data Preprocessing",
+                  "Evaluation Metrics for Classification model",
+                  "Data Preprocessing",
+                  "Logistic Regression Model",
+                  "K Nearest Neighbours Model",
+                  "Decision Tree Model",
+                  "Hyperparameter Tuning",
+                  "Random Forest Model",
+                  "Naive Baye’s Model",
+                  "K Means and Hierarchical Clustering",
+                  "Principal Component Analysis(PCA)",
+                  "Hierarchical Clustering",
+                  "Support Vector Machine(SVM)",
                 ],
               },
             },
@@ -292,51 +340,16 @@ export const BFSIDataScienceCourseData = [
       },
       {
         Module0: {
-          title: "TERM 2 :- Data Science & AI ",
+          title: "TERM 3 :- , SQL, MongoDB, TABLEAU, Power BI, Big Data & Sparks Analytics and Time Series, ",
           content: [
             {
               chap: {
-                title: " Module 1 :- Intro",
-                desc: [
-                  "Key components of Data Science and AI (data, algorithms, computing power).",
-                  "Popular programming language (R) and development tools (Jupyter Notebook, Spyder)",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Module 2 :- ML",
-                desc: [
-                  "Supervised, unsupervised, and reinforcement learning.",
-                  "Bias-variance tradeoff, overfitting, and underfitting.",
-                  "Model selection and evaluation metrics (accuracy, precision, recall,F1 score, ROC curve, AUC).",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Module 3 :- NLP",
-                desc: [
-                  "Named Entity Recognition (NER), Topic Modeling, Text Generation.",
-                  "Pre-trained language models (BERT, GPT, XLNet) and Transfer Learning in NLP",
-                ],
-              },
-            },
-          ],
-          id: 1,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "TERM 3 :- Big Data Analytics and Visualization",
-          content: [
-            {
-              chap: {
-                title: "Module 1 :- SQL",
+                title: " Module 1 :- SQL",
                 desc: [
                   "SQL and RDBMS",
                   "NoSQL, HBase & MongoDB",
+                  "Programming with SQL",
+                  "Advance SQL",
                   "JSON Data & CRUD",
                   "Programming with SQL",
                 ],
@@ -346,39 +359,54 @@ export const BFSIDataScienceCourseData = [
               chap: {
                 title: " Module 2 :- MongoDB",
                 desc: [
-                  "MongoDB Ecosystem",
-                  "MongoDB Structures",
-                  "MongoDB Shell vs MongoDB Server",
-                  "Data Formats in MongoDB",
-                  "Working with MongoDB Compass",
-                  "Working with Numeric Data",
-                  "Working on Scheme Designing",
+                  "Introduction to MongoDB",
+                  "MongoDB (Advance)",
                 ],
               },
             },
             {
               chap: {
-                title: " Module 3 :- Tableau",
+                title: " Module 3 :- TABLEAU",
                 desc: [
-                  "Dashboard and Stories",
-                  "Visual Analytics",
-                  "Custom Geocoding",
-                  "Polygon Maps",
-                  "WMS and Background Image",
+                  "Introduction to Tableau",
+                  "Creating basic visualizations using Tableau, including",
+                  "Forecasting & Clustering in Tableau",
+                  "Connecting to Data Sources",
+                  "Visual Analytics in Tableau",
+                  "Forecasting & Clustering in Tableau",
+                  "Dashboard and Stories in Tableau",
+                  "Mapping in Tableau",
                 ],
               },
             },
             {
               chap: {
-                title: " Module 4 :-PowerBI",
+                title: " Module 4 :- Power BI",
                 desc: [
-                  "Overview of the Workflow in",
-                  "Power BI Desktop",
-                  "Introducing the Different",
-                  "Views of the Data Mode",
-                  "Working with Time Series",
-                  "Scatterplots and BI Reports",
-                  "Connecting Dataset with  Power BI",
+                  "Introduction to Power BI",
+                  "Data Visualization and Exploration",
+                  "Advanced Analytics with DAX",
+                  "Power BI Service and Collaboration",
+                  "Data Transformation and Modeling",
+                  "Power BI Integration with other tools",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Module 5 :- Big Data & Sparks Analytics",
+                desc: [
+                  "Introduction To Hadoop & Big Data",
+                  "What is Spark",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Module 6 :- Time Series",
+                desc: [
+                  "Introduction to Time Series Forecasting",
+                  "Introduction to ARIMA Models",
                 ],
               },
             },
@@ -389,69 +417,39 @@ export const BFSIDataScienceCourseData = [
       },
       {
         Module0: {
-          title: "TERM 4 :-  Deployment AWS+Azure",
+          title: "TERM 4 :- Deep Learning Using Tensorflow, Natural Language Processing & Deployment AWS+Azure",
           content: [
             {
               chap: {
+                title: "Module 1 :- Deep Learning Using Tensorflow",
                 desc: [
+                  "Introduction to Deep Learning And TensorFlow",
+                  "Understanding Neural Networks With TensorFlow",
+                  "TensorFlow Classification Examples",
+                  "Convolutional Neural Network (CNN)",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 2 :- Natural Language Processing",
+                desc: [
+                  "Natural Language Processing",
+                  "Text Analysis",
+                  "KNN",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Module 3 :- Deployment AWS+Azure",
+                desc: [
+                  "Introduction to AWS and Azure Machine Learning Services",
                   "Data Preparation and Feature Engineering",
+                  "Setting up the Environment",
                   "Model Training and Evaluation",
                   "Model Deployment and Management",
                   "Advanced Topics in Machine Learning on AWS and Azure",
-                ],
-              },
-            },
-          ],
-          id: 1,
-          open: false,
-        },
-      },
-
-      {
-        Module0: {
-          title: "TERM 5 :-AI Generative Tools and Future Trends ",
-          content: [
-            {
-              chap: {
-                title:
-                  "Module 1 :- Emerging Trends in AI and Generative Modeling",
-                desc: [
-                  "Exploring other AI generative tools beyond ChatGPT and DALL·E",
-                  "Discussion on future trends and advancements in AI generative tools",
-                  "Open-ended project and/or presentation on a selected topic, incorporating learned concepts",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 2 :- Natural Language Processing and ChatGPT",
-                desc: [
-                  "Introduction to natural language processing techniques",
-                  "Understanding ChatGPT and its architecture",
-                  "Hands-on exercises using ChatGPT for text generation",
-                  "Fine-tuning ChatGPT for specific applications",
-                ],
-              },
-            },
-
-            {
-              chap: {
-                title: "Module 3 :- DALL·E: Image Generation with AI",
-                desc: [
-                  "Exploring image generation using DALL·E",
-                  "Hands-on exercises for creating unique images with DALL·E",
-                  "Ethical considerations and limitations of AI-generated images",
-                ],
-              },
-            },
-            {
-              chap: {
-                title:
-                  "Module 4 :-  Graph Neural Networks (GNN) for Data Analysis",
-                desc: [
-                  "Overview of Graph Neural Networks (GNN) and their applications",
-                  "Hands-on exercises using GNN for tasks such as node classification and link prediction",
-                  "Case studies on real-world applications of GNN in data science",
                 ],
               },
             },
