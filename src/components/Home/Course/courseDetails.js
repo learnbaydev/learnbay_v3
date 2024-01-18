@@ -54,9 +54,9 @@ export const courseDetails = [
             tagHead: "Guaranteed Interview Call",
             tag: "Data science",
             brochureLinks:
-              "https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf",
             titleCourse:
-              "Advance Cloud Computing & DevOps Certification Program",
+              "Cloud Computing & DevOps Certification Program",
             para: [
               "7 months | 3 Projects",
               "Global Certification",
@@ -66,7 +66,7 @@ export const courseDetails = [
             link1:
               "/cloud&devops/cloud-computing-and-devOps-certification-program",
             link2:
-              "https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf",
           },
         ],
       },
@@ -122,9 +122,9 @@ export const courseDetails = [
             tagHead: "Guaranteed Interview Call",
             tag: "Data science",
             brochureLinks:
-              "https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf",
             titleCourse:
-              "Advance Cloud Computing & DevOps Certification Program",
+              "Cloud Computing & DevOps Certification Program",
             para: [
               "7 months | 3 Projects",
               "Global Certification",
@@ -134,7 +134,7 @@ export const courseDetails = [
             link1:
               "/cloud&devops/cloud-computing-and-devOps-certification-program",
             link2:
-              "https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf",
           },
           {
             id: 4,
@@ -429,9 +429,9 @@ export const courseDetailsM = [
             tagHead: "Guaranteed Interview Call",
             tag: "Data science",
             brochureLinks:
-              "https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf",
             titleCourse:
-              "Advance Cloud Computing & DevOps Certification Program",
+              "Cloud Computing & DevOps Certification Program",
             para: [
               "7 months | 3 Projects",
               "Global Certification",
@@ -441,7 +441,7 @@ export const courseDetailsM = [
             link1:
               "/cloud&devops/cloud-computing-and-devOps-certification-program",
             link2:
-              "https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf",
           },
 
           {
@@ -575,9 +575,9 @@ export const courseDetailsM = [
             tagHead: "Guaranteed Interview Call",
             tag: "Data science",
             brochureLinks:
-              "https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf",
             titleCourse:
-              "Advance Cloud Computing & DevOps Certification Program",
+              "Cloud Computing & DevOps Certification Program",
             para: [
               "7 months | 3 Projects",
               "Global Certification",
@@ -587,7 +587,7 @@ export const courseDetailsM = [
             link1:
               "/cloud&devops/cloud-computing-and-devOps-certification-program",
             link2:
-              "https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf",
           },
         ],
       },

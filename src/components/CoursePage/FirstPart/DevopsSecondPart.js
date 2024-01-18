@@ -63,7 +63,7 @@ const SecondPart = ({
             // console.log(popData);
             if (
               popupData ===
-              "Advance Cloud Computing & DevOps Certification Program"
+              "Cloud Computing & DevOps Certification Program"
             ) {
               setPopupData(data);
               // console.log(popupData);
@@ -82,8 +82,8 @@ const SecondPart = ({
         dataScienceCounselling={true}
         dataScience={true}
         interstedInHide={interstedInHide}
-        titleCourse="Advance Cloud Computing & DevOps Certification Program"
-        brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
+        titleCourse="Cloud Computing & DevOps Certification Program"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
         buttonHide={true}
       />
       <ToolsCovered devops={true} mbldevops={mbldevops} />
@@ -91,8 +91,8 @@ const SecondPart = ({
       <FeeSection
         devopfee={devopfee}
         adsHide={adsHide}
-        Fee=" ₹ 1,10,000"
-        FeeEmi="₹ 7,211/month"
+        Fee=" ₹ 70,000"
+        FeeEmi="₹ 4,589/month"
         weekdaybatch="Weekend Batch"
         weekendbatch="Weekday Batch"
         weekday="SAT-SUN"
@@ -108,18 +108,18 @@ const SecondPart = ({
         dataScienceCounselling={true}
         interstedInHide={interstedInHide}
         dataScience={true}
-        titleCourse="Advance Cloud Computing & DevOps Certification Program"
-        brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
+        titleCourse="Cloud Computing & DevOps Certification Program"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
       
         // <EMI POPUP
         emiType = "NO COST EMI"
         duration1 = "18 Months"
-        totalAmount1 = "₹1,10,000"
-        monthlyPayment1 = "₹7,211"
+        totalAmount1 = "₹70,000"
+        monthlyPayment1 = "₹4,589"
         greenDown1 = "Standard Intrest rate Applicable"
         duration2 = "12 Months"
-        totalAmount2 = "₹1,10,000"
-        monthlyPayment2 = "₹10,816"
+        totalAmount2 = "₹70,000"
+        monthlyPayment2 = "5,833"
       />
 
       <MentorsSection />
@@ -128,8 +128,8 @@ const SecondPart = ({
 
       <DevOpsProject
         adsHide={adsHide}
-        titleCourse="Advance Cloud Computing & DevOps Certification Program"
-        brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
+        titleCourse="Cloud Computing & DevOps Certification Program"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
         dataScience={true}
         interstedInHide={true}
       />

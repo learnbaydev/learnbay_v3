@@ -13,7 +13,7 @@ function Blockchain({ CloudAndDevOpsCourseDataJson }) {
     <>
       <Head>
         <title>
-          Advance Cloud Computing & DevOps Certification Program - Learnbay
+          Cloud Computing & DevOps Certification Program - Learnbay
         </title>
         <meta
           name="description"
@@ -39,7 +39,7 @@ function Blockchain({ CloudAndDevOpsCourseDataJson }) {
             __html: `{
       "@context": "http://schema.org",
       "@type": "Course",
-      "name": "Advance Cloud Computing & DevOps Certification Program",
+      "name": "Cloud Computing & DevOps Certification Program",
       "description": "Elevate your career with an advanced Cloud Computing and DevOps certification program, and explore the latest techniques in AWS, Google Cloud Platform, and AZURE.",
       "url": "https://www.learnbay.co/cloud&devops/cloud-computing-and-devOps-certification-program",
       "offers": {
@@ -53,7 +53,7 @@ function Blockchain({ CloudAndDevOpsCourseDataJson }) {
             "name": "Learnbay",
             "Url": "https://www.learnbay.co/"
           },
-      "coursePrerequisites": "There are no prerequisites for Advance Cloud Computing and Devops Certification Program, as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+      "coursePrerequisites": "There are no prerequisites for Cloud Computing and Devops Certification Program, as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
       "hasCourseInstance": [
         {
           "@type": "CourseInstance",
@@ -78,10 +78,10 @@ function Blockchain({ CloudAndDevOpsCourseDataJson }) {
           dataScience={true}
           titleCourse="Adavance Cloud Computing & DevOps Certification Program"
           cityParaCont="Elevate your career to a Cloud Solution Architect or DevOps Engineer"
-          brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-first-devops-min.webp"
           firstToparaImg=""
-          firstHeading="Advance Cloud Computing & DevOps Certification Program"
+          firstHeading="Cloud Computing & DevOps Certification Program"
           firstTopPara="Crack Interview in top MNCs "
           idss="gaQYhVPCudQ"
           softwareBtnHide={true}

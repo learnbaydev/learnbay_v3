@@ -236,6 +236,7 @@
   border-radius: 8px;
   position: relative;
   z-index: 1;
+  height: auto;
 }
 
 .leftSide h6 {

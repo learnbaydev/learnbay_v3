@@ -1063,7 +1063,7 @@ function DataAnalytics({
       )}
       {CDevops ? (
         <div className={styles.content}>
-          <h1>Advance Cloud Computing & DevOps Certification Program </h1>
+          <h1>Cloud Computing & DevOps Certification Program </h1>
           <h4 style={{ fontSize: "24px" }}>
             Demonstrate Your Technical Expertise with a Cloud Computing
             Certification
@@ -1072,7 +1072,7 @@ function DataAnalytics({
             Elevate your technical knowledge to attain success in today’s
             reforming tech world. Enroll today with Learnbay’s{" "}
             <i>
-              <b>Advance Cloud Computing & DevOps Certification Program</b>
+              <b>Cloud Computing & DevOps Certification Program</b>
             </i>{" "}
             and unleash infinite scope of growth. Upskill with an industry-paced{" "}
             <b>cloud computing certification</b> and land your dream career.
@@ -1208,7 +1208,7 @@ function DataAnalytics({
                 trending cloud tools.
               </p>
               <h4>
-                Key Features of Advance Cloud Computing & DevOps Certification
+                Key Features of Cloud Computing & DevOps Certification
                 Program
               </h4>
               <p>
@@ -1225,7 +1225,7 @@ function DataAnalytics({
                 future-proof your tech career.
               </p>
               <p>
-                Here, you can opt for the ‘Advance Cloud Computing & DevOps
+                Here, you can opt for the ‘Cloud Computing & DevOps
                 Certification Program’ to gain excellence with experiential
                 learning. Some exciting features that it offers are –
               </p>

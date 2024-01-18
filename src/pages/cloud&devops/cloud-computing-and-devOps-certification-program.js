@@ -39,7 +39,7 @@ function Blockchain({ CloudAndDevOpsCourseDataJson }) {
             __html: `{
       "@context": "http://schema.org",
       "@type": "Course",
-      "name": "Advance Cloud Computing & DevOps Certification Program",
+      "name": "Cloud Computing & DevOps Certification Program",
       "description": "Elevate your career with an advanced Cloud Computing and DevOps certification program, and explore the latest techniques in AWS, Google Cloud Platform, and AZURE.",
       "url": "https://www.learnbay.co/cloud&devops/cloud-computing-and-devOps-certification-program",
       "offers": {
@@ -53,7 +53,7 @@ function Blockchain({ CloudAndDevOpsCourseDataJson }) {
             "name": "Learnbay",
             "Url": "https://www.learnbay.co/"
           },
-      "coursePrerequisites": "There are no prerequisites for Advance Cloud Computing and Devops Certification Program, as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+      "coursePrerequisites": "There are no prerequisites for Cloud Computing and Devops Certification Program, as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
       "hasCourseInstance": [
         {
           "@type": "CourseInstance",
