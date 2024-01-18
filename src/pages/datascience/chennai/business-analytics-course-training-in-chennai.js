@@ -142,7 +142,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScience={true} />
+        <Navbar popup={true} dataScience={true}   interstedInHide={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -158,6 +158,7 @@ export default function Home() {
           ThirdTyped="Live Interactive Classes"
           cityParaCont=" The best-suited course for working professionals with less than a year of work experience and dreaming for a lucrative and even growing future. "
           dataScienceCounselling={true}
+          interstedInHide={true}
           titleCourse="Business Analytics Course Training In Chennai"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/manager+header+image.webp"
@@ -194,6 +195,17 @@ export default function Home() {
             FeeContent5="15 days refund policy"
             FeeContent6="No additional cost"
             dataScienceCounselling={true}
+            interstedInHide={true}
+
+                     // EMI POPUPDATA
+        emiType = "NO COST EMI"
+        duration1 = "18 Months"
+        totalAmount1 = "₹90,000"
+        monthlyPayment1 = "₹5,900"
+        greenDown1 = "Standard Intrest rate Applicable"
+        duration2 = "12 Months"
+        totalAmount2 = "₹90,000"
+        monthlyPayment2 = "₹8,850"
           />
         </div>
         <div className="MainCities">

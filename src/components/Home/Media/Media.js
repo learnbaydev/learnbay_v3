@@ -31,6 +31,7 @@ const Media = ({ projectData }) => {
           spaceBetween={30}
           grabCursor={true}
           pagination={{ clickable: true }}
+          loop={true}
           breakpoints={{
             300: {
               slidesPerView: 1.2,

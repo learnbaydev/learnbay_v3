@@ -5,6 +5,8 @@ const Form = dynamic(() => import("../../Global/Form/Form"));
 const Popup = dynamic(() => import("../../Global/Popup/Popup"));
 import styles from "./FeeSection.module.css";
 const Button = dynamic(() => import("../../Global/Button/Button"));
+import Emipopup from "../../CoursePage/EMIPopup/Emipopup"
+import Modal from 'react-modal';
 
 const FeeSection = ({
   Fee,
@@ -21,12 +23,34 @@ const FeeSection = ({
   weekdaybatch,
   weekendbatch,
   interstedInHide,
+
+  // emipopup
+  emiType,
+  duration1,
+  totalAmount1,
+  monthlyPayment1,
+  greenDown1,
+  duration2,
+  totalAmount2,
+  monthlyPayment2,
+  greenDown2,
 }) => {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
     setPopups(true);
   };
+
+  const [emiPopupIsOpen, setEmiPopupIsOpen] = useState(false);
+  
+  const openEmiPopup = () => {
+    setEmiPopupIsOpen(true);
+  };
+
+  const closeEmiPopup = () => {
+    setEmiPopupIsOpen(false);
+  };
+
 
   return (
     <div className={styles.feesmain} id="Fees">
@@ -95,7 +119,7 @@ const FeeSection = ({
           <p className={styles.price}>
             {Fee} <span className={styles.spanText}>+ 18% GST</span>
           </p>
-          <div className={styles.divButton} onClick={popupShow}>
+          <div className={styles.divButton} onClick={openEmiPopup}>
             <Button className={styles.Btn} text="Check EMI Options" />
           </div>
           <hr
@@ -114,7 +138,7 @@ const FeeSection = ({
             <p>
               For <b>No Cost EMI options</b>{" "}
               <span
-                onClick={popupShow}
+                onClick={openEmiPopup}
                 style={{ color: "#0072BC", cursor: "pointer" }}
               >
                 click here.
@@ -166,6 +190,27 @@ const FeeSection = ({
           </div>
         </div>
       </div>
+       {/* Emi Popup */}
+       <Modal
+        isOpen={emiPopupIsOpen}
+        onRequestClose={closeEmiPopup}
+        className={styles.Emipopup}
+        overlayClassName={styles.Overlay}
+        contentLabel="EMI Popup"
+      >
+         <div className={styles.clostbtn} onClick={closeEmiPopup}><span>close[x]</span></div>
+        <Emipopup 
+        emiType ={ emiType }
+        duration1 ={duration1}
+        totalAmount1 ={totalAmount1}
+        monthlyPayment1 = {monthlyPayment1}
+        greenDown1 ={ greenDown1}
+        duration2 ={duration2}
+        totalAmount2 ={totalAmount2}
+        monthlyPayment2 ={monthlyPayment2}
+        greenDown2 ={greenDown2} />
+       
+      </Modal>
     </div>
   );
 };

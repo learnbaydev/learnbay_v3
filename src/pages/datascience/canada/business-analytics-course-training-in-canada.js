@@ -151,7 +151,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScience={true} />
+        <Navbar popup={true} dataScience={true}   interstedInHide={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -166,6 +166,7 @@ export default function Home() {
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           dataScience={true}
+          interstedInHide={true}
           titleCourse="business analytics course training in canada"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
           idss="CHut_wm-P2s"
@@ -201,6 +202,17 @@ export default function Home() {
             FeeContent5="15 days refund policy"
             FeeContent6="No additional cost"
             dataScienceCounselling={true}
+            interstedInHide={true}
+
+                     // EMI POPUPDATA
+        emiType = "NO COST EMI"
+        duration1 = "18 Months"
+        totalAmount1 = "₹90,000"
+        monthlyPayment1 = "₹5,900"
+        greenDown1 = "Standard Intrest rate Applicable"
+        duration2 = "12 Months"
+        totalAmount2 = "₹90,000"
+        monthlyPayment2 = "₹8,850"
           />
         </div>
         <div className="MainCities">

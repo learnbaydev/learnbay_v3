@@ -146,7 +146,7 @@ export default function Home() {
           </div>
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
-            <Form popup={true} setTrigger={setPopups} dataScience={true} />
+            <Form popup={true} setTrigger={setPopups} dataScience={true}   interstedInHide={true}/>
           </div>
         </Popup>
         <FirstSection
@@ -188,6 +188,18 @@ export default function Home() {
             FeeContent5="15 days refund policy"
             FeeContent6="No additional cost"
             dataScienceCounselling={true}
+            interstedInHide={true}
+
+
+               // <EMI POPUP
+         emiType = "NO COST EMI"
+         duration1 = "18 Months"
+         totalAmount1 = "₹1,15,000"
+         monthlyPayment1 = "₹7,538"
+         greenDown1 = "Standard Intrest rate Applicable"
+         duration2 = "12 Months"
+         totalAmount2 = "₹1,15,000"
+         monthlyPayment2 = "₹11,308"
           />
         </div>
         <div className="MainCities">
