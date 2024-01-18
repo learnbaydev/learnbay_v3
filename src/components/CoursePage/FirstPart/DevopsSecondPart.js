@@ -91,8 +91,8 @@ const SecondPart = ({
       <FeeSection
         devopfee={devopfee}
         adsHide={adsHide}
-        Fee=" ₹ 70,000"
-        FeeEmi="₹ 4,589/month"
+        Fee=" ₹ 80,000"
+        FeeEmi="₹ 5,244/month"
         weekdaybatch="Weekend Batch"
         weekendbatch="Weekday Batch"
         weekday="SAT-SUN"
@@ -114,12 +114,12 @@ const SecondPart = ({
         // <EMI POPUP
         emiType = "NO COST EMI"
         duration1 = "18 Months"
-        totalAmount1 = "₹70,000"
-        monthlyPayment1 = "₹4,589"
+        totalAmount1 = "₹ 80,000"
+        monthlyPayment1 = "₹ 5,244"
         greenDown1 = "Standard Intrest rate Applicable"
         duration2 = "12 Months"
-        totalAmount2 = "₹70,000"
-        monthlyPayment2 = "5,833"
+        totalAmount2 = "₹ 80,000"
+        monthlyPayment2 = "₹ 7,866"
       />
 
       <MentorsSection />
