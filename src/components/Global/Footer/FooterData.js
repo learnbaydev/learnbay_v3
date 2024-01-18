@@ -436,7 +436,7 @@ export const CourseData = [
       },
       {
         id: 7,
-        name: "Advance Cloud Computing & DevOps Certification Program",
+        name: "Cloud Computing & DevOps Certification Program",
         url: "/cloud&devops/cloud-computing-and-devOps-certification-program",
       },
     
@@ -481,7 +481,7 @@ export const GnCourseData = [
       },
       {
         id: 7,
-        name: "Advance Cloud Computing & DevOps Certification Program",
+        name: "Cloud Computing & DevOps Certification Program",
        
       },
     

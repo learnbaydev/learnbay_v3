@@ -87,10 +87,10 @@ const FirstPart = ({ SecondSectionData, TestimonialData, adsHide }) => {
           dataScience={true}
           titleCourse="Adavance Cloud Computing & DevOps Certification Program"
           cityParaCont="Elevate your career to a Cloud Solution Architect or DevOps Engineer"
-          brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-first-devops-min.webp"
           firstToparaImg=""
-          firstHeading="Advance Cloud Computing & DevOps Certification Program"
+          firstHeading="Cloud Computing & DevOps Certification Program"
           firstTopPara="Crack Interview in top MNCs "
           idss="gaQYhVPCudQ"
           thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/cd-f.webp"
@@ -104,7 +104,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData, adsHide }) => {
         <SecondNavbar
           interstedInHide={true}
           dataScience={true}
-          brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
           titleCourse="Advance Data Science & AI Program with Domain Specialization"
         />
       )}
@@ -130,7 +130,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData, adsHide }) => {
           dataScience={true}
           interstedInHide={true}
           titleCourse="Advance Data Science & AI Program with Domain Specialization"
-          brochureLink="https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/Cloud-and-syllab.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
         />
       )}
     </>

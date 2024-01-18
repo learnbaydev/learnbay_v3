@@ -108,13 +108,13 @@ const SecondPart = ({
 
 // EMI POPUPDATA
         emiType = "NO COST EMI"
-        duration1 = "18 Months"
+        duration1 = "24 Months"
         totalAmount1 = "₹2,50,000"
-        monthlyPayment1 = "₹16,389"
+        monthlyPayment1 = "₹12,292"
         greenDown1 = "Standard Intrest rate Applicable"
-        duration2 = "24 Months"
+        duration2 = "18 Months"
         totalAmount2 = "₹2,50,000"
-        monthlyPayment2 = "₹12,292"
+        monthlyPayment2 = "₹16,389"
       />
       <MentorsSection />
       <SliderTabs />
