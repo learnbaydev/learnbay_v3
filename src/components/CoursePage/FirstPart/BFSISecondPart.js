@@ -100,6 +100,18 @@ const SecondPart = ({
         titleCourse="Data Science & AI for BFSI Professionals"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf"
         dataScience={true}
+
+
+
+        // EMI POPUPDATA
+        emiType = "NO COST EMI"
+        duration1 = "18 Months"
+        totalAmount1 = "₹90,000"
+        monthlyPayment1 = "₹5,900"
+        greenDown1 = "Standard Intrest rate Applicable"
+        duration2 = "12 Months"
+        totalAmount2 = "₹90,000"
+        monthlyPayment2 = "₹8,850"
       />
       <MentorsSection />
       <SliderTab />
