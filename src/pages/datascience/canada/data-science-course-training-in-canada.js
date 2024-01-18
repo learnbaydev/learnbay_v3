@@ -136,7 +136,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScience={true} />
+        <Navbar popup={true} dataScience={true}   interstedInHide={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -151,6 +151,7 @@ export default function Home() {
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           dataScience={true}
+          interstedInHide={true}
           titleCourse="Advanced Data Science and AI Program with domain specialization"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
           idss="YWxTtvb3x-U"
@@ -186,6 +187,17 @@ export default function Home() {
             FeeContent5="15 days refund policy"
             FeeContent6="No additional cost"
             dataScienceCounselling={true}
+            interstedInHide={true}
+
+                // <EMI POPUP
+        emiType = "NO COST EMI"
+        duration1 = "18 Months"
+        totalAmount1 = "₹1,25,000"
+        monthlyPayment1 = "₹8,194"
+        greenDown1 = "Standard Intrest rate Applicable"
+        duration2 = "12 Months"
+        totalAmount2 = "₹1,25,000"
+        monthlyPayment2 = "₹12,291"
           />
         </div>
         <div className="MainCities">

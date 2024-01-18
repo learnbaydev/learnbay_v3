@@ -160,6 +160,14 @@ export default function Home() {
       SDesc: "24th November",
       url: "https://www.expresscomputer.in/guest-blogs/the-rising-horizon-data-science-and-ai-in-the-edtech-2-0-era/106062/",
     },
+    {
+      id: 8,
+      domain: "Learnbay Collaborates with Woolf to Launch Master's Degree in Computer Science & Data Science Specializations",
+      CLogo:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/business-standard-logo.webp",
+      SDesc: "20th November",
+      url: "https://www.business-standard.com/content/press-releases-ani/learnbay-collaborates-with-woolf-to-launch-master-s-degree-in-computer-science-data-science-specializations-123112000350_1.html",
+    },
    
   ];
   const [popupData, setPopupData] = useState([]);

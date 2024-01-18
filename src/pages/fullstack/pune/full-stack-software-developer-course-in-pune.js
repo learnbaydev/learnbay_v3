@@ -142,14 +142,14 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScience={true} />
+        <Navbar popup={true} dataScience={true}   interstedInHide={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
           </div>
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
-            <Form popup={true} setTrigger={setPopups} dataScience={true} />
+            <Form popup={true} setTrigger={setPopups} dataScience={true}    interstedInHide={true}/>
           </div>
         </Popup>
         <FirstSection
@@ -158,6 +158,7 @@ export default function Home() {
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           dataScience={true}
+          interstedInHide={true}
           titleCourse="Full-Stack Software Developer Course In Pune To Achieve Your Dream Job"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
           idss="y_0IdhFKJKM"
@@ -191,6 +192,18 @@ export default function Home() {
             FeeContent5="15 days refund policy"
             FeeContent6="No additional cost"
             dataScienceCounselling={true}
+            interstedInHide={true}
+
+
+               // <EMI POPUP
+         emiType = "NO COST EMI"
+         duration1 = "18 Months"
+         totalAmount1 = "₹1,15,000"
+         monthlyPayment1 = "₹7,538"
+         greenDown1 = "Standard Intrest rate Applicable"
+         duration2 = "12 Months"
+         totalAmount2 = "₹1,15,000"
+         monthlyPayment2 = "₹11,308"
           />
         </div>
         <div className="MainCities">

@@ -118,7 +118,7 @@ const FeeContent = ({
               <p className={styles.price}>
                 {Fee} <span className={styles.spanText}>+ 18% GST</span>
               </p>
-              <div className={styles.divButton} onClick={popupShow}>
+              <div className={styles.divButton} onClick={openEmiPopup}>
                 <Button className={styles.Btn} text="Check EMI Options" />
               </div>
               <hr

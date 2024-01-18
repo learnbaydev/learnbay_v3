@@ -27,6 +27,7 @@ function FirstSection({
   ibmOnly,
   cityParaCont,
   cityPara,
+  interstedInHide,
 }) {
   const [popups, setPopups] = useState(false);
   const [video, setVideo] = useState(false);
@@ -79,6 +80,7 @@ function FirstSection({
                 upSkillingHide={true}
                 titleCourse={titleCourse}
                 brochureLink={brochureLink}
+                interstedInHide={  interstedInHide}
               />
             </Suspense>
           </div>

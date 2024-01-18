@@ -220,6 +220,38 @@
   margin-top: 50px;
 }
 
+/* EMIPOPUP */
+.Emipopup{
+  position: absolute;
+  inset: 40px;
+  border: 1px solid rgb(204, 204, 204);
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 10px 40px;
+  /* width: 800px; */
+  margin-top: 100px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  /* margin-left: 300px; */
+  height: 366px;
+  margin: 150px 220px 20px 220px 
+}
+.clostbtn span {
+  color: #767676;
+}
+
+.clostbtn{
+  color: #484848;
+  cursor: pointer;
+}
+.clostbtn :hover{
+  color: rgb(0, 162, 255);
+}
+
 @media (max-width: 641px) {
   .ThreeCard {
     padding: 20px;
@@ -240,5 +272,11 @@
 
   .box {
     padding: 20px 10px;
+  }
+  .Emipopup{
+    margin: -25px;
+    margin-top: 200px;
+    padding: 1px 9px;
+    height: 300px;
   }
 }

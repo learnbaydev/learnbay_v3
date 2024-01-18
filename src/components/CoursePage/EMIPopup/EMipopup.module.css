@@ -20,7 +20,7 @@ display: flex;
     /* grid-gap: 27px; */
     margin-left: 187px;
     gap: 100px;
-    margin-left: 280px;
+    margin-left: 270px;
     margin-bottom: 15px;
    
 
@@ -36,7 +36,7 @@ line-height: 158%; /* 23.7px */
 }
 .firstrow {
     color: #0072BC !important;
-font-family: Open Sans;
+/* font-family: Open Sans; */
 font-size: 15px;
 font-style: normal;
 font-weight: 600;
@@ -52,7 +52,7 @@ line-height: 158%; /* 23.7px */
 }
 
 .secrow span {
-    border: 1px solid grey;
+    border: 0.5px solid rgb(163, 161, 161);
     margin: 0px;
     padding: 10px 10px;
     text-align: center;
@@ -66,18 +66,18 @@ line-height: 158%; /* 23.7px */
     align-items: center;
 
 }
-.secrow p {
-    border: 1px solid grey;
+/* .secrow p {
+    border: 0.5px solid rgb(180, 179, 179);
     margin: 0px;
-    padding: 10px 10px;
+    padding: 20px 20px;
     text-align: center;
-    /* color: #2D2B29; */
+    color: #2D2B29;
 
 font-size: 14px;
 font-style: normal;
 font-weight: 600;
-line-height: 158%; /* 31.6px */
-}
+line-height: 158%; 
+} */
 
 
 
@@ -89,15 +89,25 @@ color: #2DB621;
     font-style: normal;
     font-weight: 700;
     line-height: 158%;
+    border: 0.5px solid rgb(180, 179, 179);
+    margin: 0px;
+    padding: 30px 20px;
+    text-align: center;
 }
 
 .greenDown {
     color: #484848;
 
-font-size: 18px ;
+    border: 0.5px solid rgb(180, 179, 179);
+    margin: 0px;
+    padding: 20px 20px;
+    text-align: center;
+    color: #2D2B29;
+
+font-size: 18px;
 font-style: normal;
-font-weight: 700;
-line-height: 146%; /* 29.2px */
+font-weight: 600;
+line-height: 158%; 
 }
 
 .Amount {
@@ -118,10 +128,32 @@ font-style: normal;
 font-weight: 600;
 line-height: 158%; /* 31.6px */
 }
+.gst{
+    font-size: 14px;
+    color: #82807f;
+    margin-left: 8px;
+    font-weight: 400;
+}
 
 @media (max-width: 641px){
     .secrow p{
         font-size: 10px ;
+    }
+    .greencol{
+        font-size: 10px;
+    padding: 1px 2px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    }
+    .greenDown {
+        font-size: 10px;
+    padding: 1px 2px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
     }
 
     .secrow span{
@@ -138,8 +170,8 @@ line-height: 158%; /* 31.6px */
     font-size: 12px ;
 }
 .firstrow {
-    margin: 0px 0px 7px 94px;
-    gap: 5px;
+    margin: 0px 0px 7px 105px;
+    gap: 21px;
 }
 .firstrow p{
 font-size: 12px;
@@ -147,6 +179,11 @@ font-size: 12px;
 }
 .containers h2{
     font-size: 24px;
+}
+.gst{
+    line-height: 12px;
+    margin: 0px;
+    font-size: 9px;
 }
 
 }

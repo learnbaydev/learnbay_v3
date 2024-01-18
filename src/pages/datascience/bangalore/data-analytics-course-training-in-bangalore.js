@@ -140,7 +140,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScience={true} />
+        <Navbar popup={true} dataScience={true}   interstedInHide={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -155,6 +155,7 @@ export default function Home() {
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           dataScience={true}
+          interstedInHide={true}
           titleCourse="Data Analytics Program"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
           idss="y_0IdhFKJKM"
@@ -163,7 +164,9 @@ export default function Home() {
           firstHeading="Online Data Analytics"
           firstTopPara="IBM Certified Industry-paced Training"
           cityParaCont="Enhance your Data Analyst career with our comprehensive Data Analytics course in Bangalore with IBM Certification. Our advanced Data Analytics training in Bangalore will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters to gain the most in-demand data analytics and AI skills."
-        />
+     
+       
+       />
         <SecondSection
           SecondSectionData={DABangaloreCourseData[0].secondSection}
         />
@@ -190,6 +193,18 @@ export default function Home() {
             FeeContent5="15 days refund policy"
             FeeContent6="No additional cost"
             dataScienceCounselling={true}
+            interstedInHide={true}
+
+              
+         // EMI POPUPDATA
+         emiType = "NO COST EMI"
+         duration1 = "18 Months"
+         totalAmount1 = "₹80,000"
+         monthlyPayment1 = "₹5,244"
+         greenDown1 = "Standard Intrest rate Applicable"
+         duration2 = "12 Months"
+         totalAmount2 = "₹80,000"
+         monthlyPayment2 = "₹7,866"
           />
         </div>
         <div className="MainCities">
