@@ -81,7 +81,7 @@ const SecondPart = ({
         masterSyllabusMobile={masterSyllabusMobile}
         dataScienceCounselling={true}
         dataScience={true}
-        interstedInHide={interstedInHide}
+        // interstedInHide={interstedInHide}
         titleCourse="Cloud Computing & DevOps Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
         buttonHide={true}
@@ -106,7 +106,7 @@ const SecondPart = ({
         FeeContent5="15 days refund policy"
         FeeContent6="No additional cost"
         dataScienceCounselling={true}
-        interstedInHide={interstedInHide}
+        // interstedInHide={interstedInHide}
         dataScience={true}
         titleCourse="Cloud Computing & DevOps Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
@@ -131,7 +131,7 @@ const SecondPart = ({
         titleCourse="Cloud Computing & DevOps Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
         dataScience={true}
-        interstedInHide={true}
+        // interstedInHide={true}
       />
 
       {adsHide ? "" : <FAQNew FAQNewData={FAQNewData} />}
@@ -140,7 +140,7 @@ const SecondPart = ({
       {adsHide ? "" : <Footer />}
       <BottomBar
         dataScienceCounselling={true}
-        interstedInHide={true}
+        // interstedInHide={true}
       />
       <WhatsappFloat />
       {adsHide ? (

@@ -14,6 +14,7 @@ const FirstContent = ({
   ibmOnly,
   cityParaCont,
   setPopups,
+  S3RightImage,
   setVideo,
   videoId, // Pass videoId as a prop
   thumbnailUrl, // Pass thumbnailUrl as a prop
@@ -150,13 +151,15 @@ const FirstContent = ({
         </div>
 
         <div className={styles.secondLeft}>
-          <div onClick={videoShow} className={`${styles.bgvidos} "bgVideo"`}>
-            <Image
-              width="532"
-              height="300"
-              src={thumbnailUrl}
-            />
-          </div>
+          {S3RightImage ? (
+            <div className={`"bgVideo"`}>
+              <Image width="462" height="400" src={FirstRightImg} />
+            </div>
+          ) : (
+            <div onClick={videoShow} className={`${styles.bgvidos} "bgVideo"`}>
+              <Image width="532" height="300" src={thumbnailUrl} />
+            </div>
+          )}
         </div>
 
         {mobile ? (
@@ -183,13 +186,18 @@ const FirstContent = ({
                 )}
               </div>
               <div className={styles.secondLeft}>
-              <div onClick={videoShow} className={`${styles.bgvidos} "bgVideo"`}>
-            <Image
-              width="356"
-              height="200"
-              src={thumbnailUrl}
-            />
-          </div>
+                {S3RightImage ? (
+                  <div className={`"bgVideo"`}>
+                    <Image width="231" height="200" src={FirstRightImg} />
+                  </div>
+                ) : (
+                  <div
+                    onClick={videoShow}
+                    className={`${styles.bgvidos} "bgVideo"`}
+                  >
+                    <Image width="356" height="200" src={thumbnailUrl} />
+                  </div>
+                )}
               </div>
             </div>{" "}
             <div className={styles.btnImageMobile}>

@@ -23,7 +23,7 @@
   padding-right: 40px;
   padding-bottom: 10px;
 }
-.consmain p {
+.paraBot {
   color: #5e5e5e;
   font-size: 19.924px;
   font-style: normal;
@@ -123,7 +123,7 @@
     color: #2e2e2e;
     font-size: 20px;
   }
-  .consmain p {
+  .paraBot {
     color: #5e5e5e;
     text-align: center;
     font-size: 15px;

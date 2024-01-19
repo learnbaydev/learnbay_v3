@@ -42,7 +42,7 @@ import { AiOutlineContainer } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsPeople } from "react-icons/bs";
 
-const FirstPart = ({ SecondSectionData, TestimonialData, adsHide }) => {
+const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
   const clouddevops = {
     title1: "Project-Based Learning",
     image1:
@@ -82,7 +82,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData, adsHide }) => {
     <>
     <FirstSection
           dataScienceCounselling={true}
-          interstedInHide={true}
+          // interstedInHide={true}
           ThirdTyped="Live Interactive Classes"
           dataScience={true}
           titleCourse="Adavance Cloud Computing & DevOps Certification Program"
@@ -96,13 +96,14 @@ const FirstPart = ({ SecondSectionData, TestimonialData, adsHide }) => {
           thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/cd-f.webp"
         // videoId="gaQYhVPCudQ"
         softwareBtnHide={true}
+        S3RightImage={S3RightImage}
         />
       <CloudDevopsecond data={clouddevops} showimg={true} shoimgtwo={true} />
       {adsHide ? (
         ""
       ) : (
         <SecondNavbar
-          interstedInHide={true}
+          // interstedInHide={true}
           dataScience={true}
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
           titleCourse="Advance Data Science & AI Program with Domain Specialization"
@@ -128,7 +129,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData, adsHide }) => {
       ) : (
         <ContactConsellor
           dataScience={true}
-          interstedInHide={true}
+          // interstedInHide={true}
           titleCourse="Advance Data Science & AI Program with Domain Specialization"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
         />

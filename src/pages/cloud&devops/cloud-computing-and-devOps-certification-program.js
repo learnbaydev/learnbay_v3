@@ -71,20 +71,20 @@ function Blockchain({ CloudAndDevOpsCourseDataJson }) {
         />
       </Head>
       <main>
-        <Navbar dataScienceCounselling={true} interstedInHide={true} />
+        <Navbar dataScienceCounselling={true} />
         
         <FirstPart
           SecondSectionData={
             CloudAndDevOpsCourseData.CloudAndDevOpsCourseData[0].secondSection
           }
-          interstedInHide={true}
+          
       
         />
 
       </main>
       <main>
         <SecondPart
-        interstedInHide={true}
+        
           masterSyllabusMobile={
             CloudAndDevOpsCourseData.CloudAndDevOpsCourseData[0]
               .masterSyllabusMobile
