@@ -96,7 +96,7 @@ const ContactCounsellor = ({
       </Popup>
       <div>
         <h4>Can’t decide which program to opt for?</h4>
-        <p>
+        <p className={styles.paraBot}>
           Don’t worry, our expert counsellor is there to guide you make the
           right career choice
         </p>
