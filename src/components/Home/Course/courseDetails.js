@@ -318,7 +318,7 @@ export const courseDetails = [
             tagHead: "Guaranteed Interview Call",
             tag: "Data science",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Copy+of+Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
             titleCourse:
               "Data Science & AI Certification Program For Managers and Leaders",
             para: [
@@ -328,7 +328,7 @@ export const courseDetails = [
             ],
             link1: "/datascience/hr-analytics",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Copy+of+Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
           },
         ],
       },
@@ -698,7 +698,7 @@ export const courseDetailsM = [
             tagHead: "Guaranteed Interview Call",
             tag: "Data science",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Copy+of+Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
             titleCourse:
               "Data Science & AI Certification Program For Managers and Leaders",
             para: [
@@ -708,7 +708,7 @@ export const courseDetailsM = [
             ],
             link1: "/datascience/hr-analytics",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Copy+of+Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
           },
         ],
       },
