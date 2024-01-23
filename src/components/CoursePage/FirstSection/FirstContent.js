@@ -16,6 +16,7 @@ const FirstContent = ({
   setPopups,
   S3RightImage,
   setVideo,
+  animationHide,
   videoId, // Pass videoId as a prop
   thumbnailUrl, // Pass thumbnailUrl as a prop
 }) => {
@@ -123,13 +124,21 @@ const FirstContent = ({
                   )}
                 </div>
               </div>
-              <div className={styles.animationTextWrap}>
-                {texts.map((text, index) => (
-                  <div key={index} className={styles.verticalSlideWrapper}>
-                    <span className={styles.animationText}>{text}</span>
-                  </div>
-                ))}
+              {animationHide ? (
+                <div className={styles.animationTextWrap}>
+                  <div>
+                    <span className={styles.animationText}>Live 1-on-1 Doubt Session</span>
               </div>
+              </div>
+              ) : (
+                <div className={styles.animationTextWrap}>
+                  {texts.map((text, index) => (
+                    <div key={index} className={styles.verticalSlideWrapper}>
+                      <span className={styles.animationText}>{text}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
               <div className={styles.btnImage}>
                 <div onClick={popupShow}>
                   <Button bannerButton={true} text="DOWNLOAD BROCHURE" />

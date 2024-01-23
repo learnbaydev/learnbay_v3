@@ -4,7 +4,8 @@ import CertificateTabAdvance from "./CertificateTabAdvance";
 const Certificate = ({
   NoCertificate,
   data,
-  singlecertificate
+  singlecertificate,
+  doubleCertificate,
 }) => {
   return NoCertificate ? (
     ""
@@ -13,6 +14,7 @@ const Certificate = ({
       <h4 className={styles.infop}>Globally Recognized Program</h4>
       <CertificateTabAdvance
       singlecertificate={singlecertificate}
+      doubleCertificate={doubleCertificate}
         degreeCertificate={data.degreeCertificate}
         projectCertificate={data.projectCertificate}
         microCertificate={data.microCertificate}

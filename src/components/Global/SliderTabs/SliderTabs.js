@@ -8,7 +8,11 @@ const Form = dynamic(() => import("../../Global/Form/Form"));
 const Popup = dynamic(() => import("../../Global/Popup/Popup"));
 import styles from "./SliderTab.module.css";
 
-const SliderTabs = ({ dataScience, dataScienceCounselling }) => {
+const SliderTabs = ({
+  dataScience,
+  dataScienceCounselling,
+  WithoutService,
+}) => {
   const services = [
     {
       title: "Placement Support",
@@ -48,8 +52,48 @@ const SliderTabs = ({ dataScience, dataScienceCounselling }) => {
     },
   ];
 
+  const withoutServices = [
+    {
+      title: "Placement Support",
+      icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/career1.webp",
+      content: [
+        "Unleash your career potential with interview support and profile review.",
+        "Receive 5-8 interview calls from a diverse pool of interested employers/recruiters until you successfully secure a job.",
+        "Find the best suited job role that meets your career and salary expectations.",
+      ],
+    },
+    {
+      title: "Mock Interviews",
+      icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/career2.webp",
+      content: [
+        "LearnBay's targeted mock interviews sessions to ready you for your dream role.",
+        "Actionable feedback for skill enhancement that keeps you in pace with interview trends.",
+        "Industry-specific interview practice so that you can crack your dream job.",
+      ],
+    },
+    {
+      title: "Resume BuildUp",
+      icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/career3.webp",
+      content: [
+        "LearnBay's tailored resume-building guidance.",
+        "Strategic advice for impactful resumes.",
+        "Tools and tips for resume optimization.",
+      ],
+    },
+    {
+      title: "5-8 Interview Calls",
+      icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/career4.webp",
+      content: [
+        "LearnBay's promise of 5-8 interview calls.",
+        "Continuous interview opportunities.",
+        "Open-ended access to potential employers.",
+      ],
+    },
+  ];
+
   const [activeService, setActiveService] = useState(0);
   const currentService = services[activeService];
+  const withoutCurrentService = withoutServices[activeService];
 
   const [isMobileView, setIsMobileView] = useState(false);
 
@@ -103,14 +147,30 @@ const SliderTabs = ({ dataScience, dataScienceCounselling }) => {
         {index === activeService ? (
           <div className={styles.gridPanel}>
             <div className={styles.left}>
-              <h6>{currentService.title}</h6>
-
-              {currentService.content.map((point, i) => (
-                <div key={i} className={styles.mainCont}>
-                  <BsCheckCircle className={styles.checkCircle} />
-                  <p className={styles.para}>{point}</p>
-                </div>
-              ))}
+              {withoutServices ? (
+                <h6>{withoutCurrentService.title}</h6>
+              ) : (
+                <h6>{currentService.title}</h6>
+              )}
+              {WithoutService ? (
+                <>
+                  {withoutCurrentService.content.map((point, i) => (
+                    <div key={i} className={styles.mainCont}>
+                      <BsCheckCircle className={styles.checkCircle} />
+                      <p className={styles.para}>{point}</p>
+                    </div>
+                  ))}
+                </>
+              ) : (
+                <>
+                  {currentService.content.map((point, i) => (
+                    <div key={i} className={styles.mainCont}>
+                      <BsCheckCircle className={styles.checkCircle} />
+                      <p className={styles.para}>{point}</p>
+                    </div>
+                  ))}
+                </>
+              )}
             </div>
             <div className={`imgWrapper ${styles.right}`}>
               <Image
@@ -137,20 +197,44 @@ const SliderTabs = ({ dataScience, dataScienceCounselling }) => {
       </h2>
 
       <div className={styles.courses}>
-        <div className={styles.listPanel}>{services.map(renderServiceItem)}</div>
+        {WithoutService ? (
+          <div className={styles.listPanel}>
+            {withoutServices.map(renderServiceItem)}
+          </div>
+        ) : (
+          <div className={styles.listPanel}>
+            {services.map(renderServiceItem)}
+          </div>
+        )}
 
         <div className={styles.middlePanel}>
           {activeService !== null && (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-                <h6>{currentService.title}</h6>
-
-                {currentService.content.map((point, i) => (
-                  <div key={i} className={styles.mainCont}>
-                    <BsCheckCircle className={styles.checkCircle} />
-                    <p className={styles.para}>{point}</p>
-                  </div>
-                ))}
+                {withoutServices ? (
+                  <h6>{withoutCurrentService.title}</h6>
+                ) : (
+                  <h6>{currentService.title}</h6>
+                )}
+                {WithoutService ? (
+                  <>
+                    {withoutCurrentService.content.map((point, i) => (
+                      <div key={i} className={styles.mainCont}>
+                        <BsCheckCircle className={styles.checkCircle} />
+                        <p className={styles.para}>{point}</p>
+                      </div>
+                    ))}
+                  </>
+                ) : (
+                  <>
+                    {currentService.content.map((point, i) => (
+                      <div key={i} className={styles.mainCont}>
+                        <BsCheckCircle className={styles.checkCircle} />
+                        <p className={styles.para}>{point}</p>
+                      </div>
+                    ))}
+                  </>
+                )}
               </div>
               <div className={`imgWrapper ${styles.right}`}>
                 <Image

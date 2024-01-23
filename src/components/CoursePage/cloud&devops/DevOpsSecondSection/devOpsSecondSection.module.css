@@ -229,8 +229,9 @@ background: linear-gradient(180deg, rgba(45, 182, 33, 0.09) 0%, rgba(45, 182, 33
     height: auto;
   }
   .gamimg img {
-    width: 250px;
+    width:320px;
     /* margin-left: 24px; */
+    mix-blend-mode: color-burn;
   }
   .dots {
     padding-left: 48px;

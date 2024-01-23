@@ -78,6 +78,31 @@ export const TabData = [
         hours: "5 Months",
         url: "/datascience/data-analytics-certification-course",
       },
+      {
+        CName: "Data Science Foundation Program",
+        hours: "5 Months",
+        url: "/datascience/data-science-certification-courses",
+      },
+      {
+        CName: "Data Science & AI for BFSI Professionals",
+        hours: "7 Months",
+        url: "/datascience/data-science-for-bfsi-professional",
+      },
+      {
+        CName: "HR Analytics Certification Program",
+        hours: "5 Months",
+        url: "/datascience/hr-analytics",
+      },
+      {
+        CName: "Marketing Analytics Certification Program",
+        hours: "5 Months",
+        url: "/datascience/marketing-analytics",
+      },
+      {
+        CName: "Data Science & AI Certification Program For Managers and Leaders",
+        hours: "9 Months",
+        url: "/datascience/data-science-ai-for-managers",
+      },
      
     ],
   },

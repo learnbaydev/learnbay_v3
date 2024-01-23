@@ -233,9 +233,9 @@ export const DataScienceCourseData = [
           content: [
             {
               chap: {
-                title: "Topic 1 :- Cohort Orientation",
+                title: "Topic 1 :- Cohort Orientation ",
                 desc: [
-                  "A brief introduction to tools related to data ",
+                  "A brief introduction to tools related to data  ",
                   "Learn about particular real-time projects and Capstone projects ",
                   "Data and its impact on career opportunities",
                   "Utilizing data, to enhance industrial operations and management",
@@ -245,9 +245,9 @@ export const DataScienceCourseData = [
 
             {
               chap: {
-                title: "Topic 2 :- Fundamentals of Programming",
+                title: "Topic 2 :-  Fundamentals of programming ",
                 desc: [
-                  "Introduction to Anaconda & Jupyter notebook",
+                  "Introduction to Anaconda & Jupyter notebook ",
                   "Flavors of python Introduction to Git, GitHub",
                   "Python Fundamentals",
                 ],
@@ -255,10 +255,10 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                title: "Topic 3 :-  Fundamentals of Statistics",
+                title: " Topic 3 :- Fundamentals of Statistics",
                 desc: [
-                  "Mean, Median, Mode",
-                  "Standard Deviation, Average. Probability, Permutations, and Combinations",
+                  "Mean, Median, Mode.",
+                  "Standard Deviation, Average. Probability, Permutations, and Combinations ",
                   "Introduction to Linear Algebra",
                 ],
               },
@@ -270,27 +270,22 @@ export const DataScienceCourseData = [
       },
       {
         Module0: {
-          title: "TERM 1 :- Python Programming",
+          title: "Term 1 :- Python for Data Science",
           content: [
             {
               chap: {
-                title: "Module 1 :- Basic Python",
+                title: "Module 1 :- Python Programming ",
                 desc: [
-                  "Programming Basics & Environment Setup ",
-                  "Strings, Decisions & Loop Control ",
-                  "Python Data Types",
-                  "File I/O An d Exceptional Handling and Regular Expression",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 2 :- Advance Python",
-                desc: [
-                  "Data Analysis Using Numpy",
+                  "Programming Basics & Environment Setup.",
+                  " Python Programming Overview ",
+                  " Strings, Decisions & Loop Control ",
+                  " Python Data Types ",
+                  "Functions And Modules ,Class hands-on: 8+ Programs to be covered in the functions, Lambda, modules, Generators, and Packages class",
+                  "File I/O And Exceptional Handling and Regular Expression,Class hands-on: 10+ Programs to be covered in class from File IO, Reg-ex and exception handling.",
+                  " Data Analysis Using Numpy",
                   "Data Analysis Using Pandas",
                   "Data Visualization using Matplotlib",
-                  "Data Visualization using Seaborn",
+                  "Data Visualization using Seaborn,3 Case Study on Numpy, Pandas, Matplotlib 1 Case Study on Pandas And Seaborn",
                 ],
               },
             },
@@ -299,29 +294,10 @@ export const DataScienceCourseData = [
           open: false,
         },
       },
-      // {
-      //   Module0: {
-      //     title: "L2 :- Module 2 :- Advance Python",
-      //     content: [
-      //       {
-      //         chap: {
-      //           desc: [
-      //             "Data Analysis Using Numpy",
-      //             "Data Analysis Using Pandas",
-      //             "Data Visualization using Matplotlib",
-      //             "Data Visualization using Seaborn",
-      //             "Case Study on Numpy, Pandas, Matplotlib 1 Case Study on Pandas And Seaborn",
-      //           ],
-      //         },
-      //       },
-      //     ],
-      //     id: 1,
-      //     open: false,
-      //   },
-      // },
+
       {
         Module0: {
-          title: " TERM 2 :- Statistics and Machine Learning ",
+          title: "Term 2 :- Statistics and Machine Learning",
           content: [
             {
               chap: {
@@ -329,36 +305,37 @@ export const DataScienceCourseData = [
                 desc: [
                   " Fundamentals of Math and Probability",
                   "All about Population & Sample",
-                  "Introduction to Statistics, ",
-                  "Statistical Thinking",
-                  "Descriptive Statistics",
+                  "Introduction to Statistics, Statistical Thinking",
+                  " Descriptive Statistics",
                   " Inferential Statistics",
-                  "Hypothesis Testing",
-                  " Linear Algebra",
+                  " Hypothesis Testing",
+                  "Linear Algebra",
                   "Data Processing & Exploratory Data Analysis",
+                  " EDA,Statistics Assignments: Total 4 practice sets and Assignments from Statistics",
                 ],
               },
             },
             {
               chap: {
-                title: " Module 2 :- Machine Learning",
+                title: "Module 2 :- Machine Learning",
                 desc: [
                   "Introduction to Machine Learning",
                   "Regression and Classification Models",
                   "Linear Regression Model",
-                  "Data Preprocessing",
-                  "Encoding the Data",
+                  " Data Preprocessing",
+                  "Encoding the Model",
                   "Logistic Regression Model",
                   "Evaluation Metrics for Classification model",
                   "K Nearest Neighbours Model",
                   "Decision Tree Model",
                   "Random Forest Model",
                   "Hyperparameter Tuning",
-                  "Naive Baye’s Model Case Study on Kart Model Business & Random Forest",
-                  "K Means and Hierarchical Clustering",
-                  "Hierarchical Clustering",
-                  "Principal Component Analysis (PCA):",
-                  " Support Vector Machine (SVM)",
+                  "Naive Baye’s Model",
+                  "Case Study on Kart Model Business & Random Forest",
+                  " K Means and Hierarchical Clustering",
+                  " Hierarchical Clustering",
+                  "Principal Component Analysis(PCA)",
+                  " Support Vector Machine(SVM),Case Study on Recommendation Engine for e-commerce/retail chain & Twitter data analysis using NLP",
                 ],
               },
             },
@@ -370,68 +347,53 @@ export const DataScienceCourseData = [
 
       {
         Module0: {
-          title: "TERM 3 :- Big Data Analytics and Visualization",
+          title: "Term 3 :-  Data Science Tools",
           content: [
             {
               chap: {
                 title: "Module 1 :- SQL",
                 desc: [
                   "SQL and RDBMS",
+                  " Advance SQL",
                   "NoSQL, HBase & MongoDB",
                   "JSON Data & CRUD",
-                  "Programming with SQL",
+                  " Programming with SQL",
                 ],
               },
             },
             {
               chap: {
-                title: " Module 2 :- MongoDB",
-                desc: [
-                  "MongoDB Ecosystem",
-                  "MongoDB Structures",
-                  "MongoDB Shell vs MongoDB Server",
-                  "Data Formats in MongoDB",
-                  "Working with MongoDB Compass",
-                  "Working with Numeric Data",
-                  "Working on Scheme Designing",
-                ],
+                title: "Module 2 :- MongoDB",
+                desc: ["Introduction to MongoDB", " MongoDB (Advance)"],
               },
             },
             {
               chap: {
-                title: " Module 3 :- Tableau",
+                title: "Module 3 :- Tableau ",
                 desc: [
-                  "Dashboard and Stories",
+                  "Introduction to Tableau",
                   "Visual Analytics",
-                  "Custom Geocoding",
-                  "Polygon Maps",
-                  "WMS and Background Image",
+                  "Dashboard and Stories",
+                  "Tableau (Advance),Hands-on: Connecting data source and data cleansing, Working with various charts, Deployment of Predictive model in visualization",
                 ],
               },
             },
             {
               chap: {
-                title: " Module 4 :-PowerBI",
+                title: "Module 4 :- PowerBI",
                 desc: [
-                  "Overview of the Workflow in",
-                  "Power BI Desktop",
-                  "Introducing the Different",
-                  "Views of the Data Mode",
-                  "Working with Time Series",
-                  "Scatterplots and BI Reports",
-                  "Connecting Dataset with  Power BI",
+                  "Getting Started With Power BI",
+                  "Programming with Power BI",
                 ],
               },
             },
             {
               chap: {
-                title: " Module 5 :- Sparks Analytics",
+                title: "Module 5 :- Big Data & Spark Analytics",
                 desc: [
-                  "Introduction To Hadoop & Big Data",
-                  "Hadoop Master: Slave Architecture",
-                  "MapReduce Architecture",
-                  "Introduction to Spark SQL and Data frames",
-                  "Using R-Spark for machine learning",
+                  " Introduction To Hadoop & Big Data",
+                  "What is Spark",
+                  "Getting to know PySpark,Hands-on: Map reduce Use Case : Youtube data analysis & Spark RDD  programming  ",
                 ],
               },
             },
@@ -439,73 +401,74 @@ export const DataScienceCourseData = [
               chap: {
                 title: "Module 6 :- Time Series",
                 desc: [
-                  "Basics of Time Series Analysis and Forecasting",
-                  "Method Selection in Forecasting",
-                  " Moving Average (MA) Forecast",
-                  "Different Components of Time Series Data",
-                  "Log Based Differencing, Linear Regression for Detrending",
-                  "ARIMA Model Calculations, Manual ARIMA Parameter Selection",
-                  "ARIMA with Explanatory Variables",
-                  "Understanding Multivariate Time Series and their Structure",
+                  " Introduction to Time Series Forecasting",
+                  " Introduction to ARIMA Models,Case Study on Time series classification of smartphone data to predict user behavior, Performing Time Series Analysis on Stock Prices & Time series forecasting of sales data",
                 ],
               },
             },
           ],
-          id: 6,
+          id: 3,
           open: false,
         },
       },
 
       {
         Module0: {
-          title: "TERM 4:-Data Management and Deployment ",
+          title: "Term 4 :- Artificial Intelligence Tools",
           content: [
             {
               chap: {
-                title: "Module 1:-Excel ",
+                title: "Module 1 :- Deep Learning Using Tensorflow",
                 desc: [
-                  "Introduction to Excel",
-                  "Basic Formulas and Functions",
-                  "Data Formatting and Cell Styles",
-                  "Data Sorting and Filtering",
-                  "Charts and Graphs",
-                  "Data Validation and Protection",
-                  "PivotTables and PivotCharts",
-                  "Advanced Formulas and Functions",
-                  "Data Analysis Tools",
-                  "Excel Macros and Automation",
+                  "Introduction to Deep Learning And TensorFlow",
+                  "TensorFlow Classification Examples",
+                  "Understanding Neural Networks With TensorFlow",
+                  "Convolutional Neural Network (CNN),Project on Building a CNN for Image Classification",
+                  " Introducing Recurrent Neural Networks skflow: RNNs in skflow",
+                  " Understanding Of TFLearn APIs",
+                  " Understanding Keras API for implementing Neural Networks,Real-Time Project on SPAM Prediction using RNN & Image Classifier using PyTorch",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 2 :-MLops ",
+                title: "Module 2 :- Natural Language Processing (NLP)",
                 desc: [
-                  "Introduction to MLOps",
-                  "Version Control for ML",
-                  "Containerization and Docker",
-                  "Orchestration with Kubernetes",
-                  "Continuous Integration (CI) for ML",
+                  " Natural Language Processing",
+                  "Text Analysis",
+                  " KNN ,Use cases on NLP : Sentiment analysis for marketing",
+                  " Text Pre Processing Techniques,",
+                  " Stemming,Projects And Case Study on Sentiment analysis for Twitter, web articles & Advanced Text Analytics & NLP",
                 ],
               },
             },
-
             {
               chap: {
-                title: "Module 3:- Deep Learning ",
+                title: "Module 3 :- Computer Vision",
                 desc: [
-                  "Neural Network",
-                  "Simple Computation, Constants, and Variables",
-                  "Back-propagation",
-                  "TensorBoard",
+                  " Computer Vision overview",
+                  "Image Filtering",
+                  " Image Processing",
+                  "Image Classification and segmentation",
+                  "Project: The Problem of Scale and Shape,Real Time Use Case:  Single Shot MultiBox Detector & Object Localization",
                 ],
               },
             },
-
             {
               chap: {
-                title: "Module 4:-  Deployment AWS+Azure ",
+                title: "Module 4 :- Reinforcement Learning",
                 desc: [
+                  " What is Reinforcement Learning - Basics",
+                  "Approximation Methods for Reinforcement Learning,Projects and Case Studies on Solving Taxi Environment & Solving Frozen Lake  ",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 5 :- Deployment (AWS+Azure)",
+                desc: [
+                  "Introduction to AWS and Azure Machine Learning Services",
+                  "Setting up the Environment",
                   "Data Preparation and Feature Engineering",
                   "Model Training and Evaluation",
                   "Model Deployment and Management",
@@ -514,61 +477,29 @@ export const DataScienceCourseData = [
               },
             },
           ],
-          id: 6,
+          id: 4,
           open: false,
         },
       },
 
       {
         Module0: {
-          title: "TERM 5 :-AI Generative Tools and Future Trends ",
+          title: "Term 5 :- Project Management Module",
           content: [
             {
               chap: {
-                title:
-                  "Module 1 :- Emerging Trends in AI and Generative Modeling",
+                title: "",
                 desc: [
-                  "Exploring other AI generative tools beyond ChatGPT and DALL·E",
-                  "Discussion on future trends and advancements in AI generative tools",
-                  "Open-ended project and/or presentation on a selected topic, incorporating learned concepts",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 2 :- Natural Language Processing and ChatGPT",
-                desc: [
-                  "Introduction to natural language processing techniques",
-                  "Understanding ChatGPT and its architecture",
-                  "Hands-on exercises using ChatGPT for text generation",
-                  "Fine-tuning ChatGPT for specific applications",
-                ],
-              },
-            },
-
-            {
-              chap: {
-                title: "Module 3 :- DALL·E: Image Generation with AI",
-                desc: [
-                  "Exploring image generation using DALL·E",
-                  "Hands-on exercises for creating unique images with DALL·E",
-                  "Ethical considerations and limitations of AI-generated images",
-                ],
-              },
-            },
-            {
-              chap: {
-                title:
-                  "Module 4 :-  Graph Neural Networks (GNN) for Data Analysis",
-                desc: [
-                  "Overview of Graph Neural Networks (GNN) and their applications",
-                  "Hands-on exercises using GNN for tasks such as node classification and link prediction",
-                  "Case studies on real-world applications of GNN in data science",
+                  "Jira process part 1",
+                  "Jira process part 2",
+                  "PM approaches for Technical Projects",
+                  " JIRA Process",
+                  " Agile",
                 ],
               },
             },
           ],
-          id: 6,
+          id: 5,
           open: false,
         },
       },
@@ -580,8 +511,8 @@ export const DataScienceCourseData = [
         data: [
           {
             id: 0,
-            ques: "What are the prerequisites for the Advanced Data Science and AI Program?",
-            ans: "There are no prerequisites for Advanced Data Science and AI Program, as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+            ques: "What are the prerequisites for Data Science and AI for Managers & Leaders with Domain Specialization?",
+            ans: "There are no prerequisites as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics and at least executive-level work experience is a must.",
             open: true,
           },
           {
@@ -592,14 +523,19 @@ export const DataScienceCourseData = [
           },
           {
             id: 2,
-            ques: "What is a Flexi Subscription in the Advance Data Science and AI Program?",
+            ques: "What is a Flexi Subscription?",
             ans: `Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 2 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
             open: false,
           },
           {
             id: 3,
-            ques: "What’s the duration of the Advance Data Science and AI Program?",
-            ans: "The duration of this course is about 9 months (275 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch – 7 months, Monday to Friday – 2 hours/day, Weekend batch – 9 months, Saturday & Sunday – 3.5 hours/day",
+            ques: "What’s the duration of the Data Science and AI for Managers & Leaders Program?",
+            ans: `The duration of this course is about 13 months (350 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
+        
+            Classes will be conducted on weekdays and weekend batches.
+            Weekday batch – 11 months, Monday to Friday – 2 hours/day,
+            Weekend batch - 13 months, Saturday & Sunday – 3.5 hours/day.
+            After the completion of term-3, you can start working on real-time projects and attend job interviews.`,
             open: false,
           },
           {
@@ -611,7 +547,7 @@ export const DataScienceCourseData = [
           {
             id: 5,
             ques: "How can I opt for a Hybrid mode of learning?",
-            ans: "Simply, you can choose an online mode of study for the theoretical classes and classroom mode for all the capstone projects and interview preparation sessions.",
+            ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions.",
             open: false,
           },
         ],
@@ -628,26 +564,29 @@ export const DataScienceCourseData = [
           },
           {
             id: 1,
-            ques: "What are the available elective domain options?",
-            ans: "Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc.",
+            ques: "Why is domain specialization important?",
+            ans: "After enrolling in the Data Science and AI for Managers & Leaders course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.",
             open: false,
           },
           {
             id: 2,
-            ques: "Which domain elective is best suited for me?",
-            ans: `You can select your domain based on your prior work experience, academics, and career goals.`,
+            ques: "What are the available elective domain options?",
+            ans: `Advance Data Structures & Algo; Automotive, IoT & Embedded; Cloud & DevOps; Sales, Marketing, & HR; Retail, E-Commerce, & Supply Chain; Healthcare, Pharma, & Clinical Research; BFSI, Manufacturing, Mechanical, & Telecom; Media, Hospitality, & Transportation; Oil, Gas, & Energy.`,
             open: false,
           },
           {
             id: 3,
-            ques: "Why is domain specialization important?",
-            ans: "After enrolling in the AI and ML with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge which is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.",
+            ques: "Which domain elective is best suited for me?",
+            ans: "You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for free profile review and career guidance.",
+            linkText1: " +917795687988 ",
+            link1: "tel:+917795687988",
+            link: true,
             open: false,
           },
           {
             id: 4,
             ques: "Can I select multiple domain electives and do I need to pay extra charges?",
-            ans: "You can select up to 4 domain electives based on your interest and career goals. No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.",
+            ans: "You can select all domain electives (both tech and non-tech) based on your interest and career goals. No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.",
             open: false,
           },
           {
@@ -670,19 +609,19 @@ export const DataScienceCourseData = [
         data: [
           {
             id: 0,
-            ques: "What is the total Fee for the Advanced Data Science and AI Program?",
-            ans: "The total program fee for the Advanced Data Science and AI Program with Domain Specialization is INR 1,25,000 + 18% GST.",
+            ques: "What is the total Fee for the Data Science and AI for Managers & Leaders Program?",
+            ans: "The total program fee for the Data Science and AI for Managers & Leaders Program is INR 1,10,000 + 18% GST.",
             open: true,
           },
           {
             id: 1,
-            ques: "Can I pay in installments for the Advanced Data Science and AI Program?",
-            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 8,194/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+            ques: "Can I pay in installments for 1,10,000/-?",
+            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 7,211/month up to 18 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
             open: false,
           },
           {
             id: 2,
-            ques: "Is there any scholarship/discount available for Advanced Data Science and AI Program? What is Group Discount?",
+            ques: "Is there any scholarship available for the Data Science and AI for Managers & Leaders Program? What is Group Discount?",
             ans: `Learnbay offers a 15 – 20% scholarship for early birds occasionally.
             Please check our website or contact our sales team to know more about the applicable discounts.
             
@@ -695,8 +634,8 @@ export const DataScienceCourseData = [
           },
           {
             id: 3,
-            ques: "What is the refund policy for the Advanced Data Science and AI Program at Learnbay?",
-            ans: "Candidates are advised to read  ",
+            ques: "What is the refund policy for the data science courses at Learnbay?",
+            ans: "Candidates are advised to read ",
             linkText1: "Learnbay’s Refund/Cancellation Policy",
             link1: "/refund-cancellation-policy",
             ansAfter: " before enrolling in the program.",
@@ -718,7 +657,7 @@ export const DataScienceCourseData = [
           {
             id: 1,
             ques: "How many real-time projects will be there?",
-            ans: "We have a set of 12 Real-time projects from multiple domains such as Healthcare, Banking, Finance, Insurance, Retail, and others. Based on your interest you can choose your project to work on.",
+            ans: "We have a set of 15 Real-time projects from multiple domains such as Healthcare, Banking, Finance, Insurance, Retail, and others. Based on your interest you can choose your project to work on.",
             linkText1: " Click here to download the list of the projects.",
             link1:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
@@ -740,18 +679,20 @@ export const DataScienceCourseData = [
           {
             id: 0,
             ques: "Is there any accredited certification after course completion?",
-            ans: "Yes, you will be awarded 6 separate IBM accredited Certificates on successful course completion.",
+            ans: "Yes, you will be awarded 8 separate IBM accredited certificates on successful course completion of the Data Science and AI for Managers & Leaders Program.",
             open: true,
           },
           {
             id: 1,
             ques: "What categories of certifications might I expect to receive?",
-            ans: `Python for Data Science Certificate,
-            Data Science Tools,
-            Machine Learning with Python,
-            Data Science Methodology,
-            Data Science and AI (final),
-            Capstone Project Certificate by IBM`,
+            ans: `Machine Learning with Python,
+            Python for Data Science,
+            Deep Learning Fundamentals,
+            Sectoral Analytics Fundamentals – HR,
+            Sectoral Analytics Fundamentals – Marketing,
+            Sectoral Analytics Fundamentals – Finance,
+            Data Science and AI Certificate for Managers & Leaders (final),
+            Capstone Project Certificate by IBM.`,
             open: false,
           },
         ],
@@ -779,17 +720,17 @@ export const DataScienceCourseData = [
           {
             id: 2,
             ques: "What is a job-readiness program?",
-            ans: `Job readiness program helps you prepare for interviews which include:
-            Resume preparation sessions, 
-            Preparing projects for a strong portfolio, 
-            Interview guidance and prep sessions, 
+            ans: `Job-readiness program helps you prepare for interviews which include:
+            Resume preparation sessions,
+            Preparing projects for a strong portfolio,
+            Interview guidance and prep sessions,
             1:1 Mock interviews based on targeted companies and roles.`,
             open: false,
           },
           {
             id: 3,
             ques: "Will I get job referrals at Learnbay?",
-            ans: "Yes, we offer dedicated placement assistance by referring your profile through our partnered consultancies and companies.",
+            ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies.",
             open: false,
           },
         ],
@@ -807,8 +748,8 @@ export const DataScienceCourseData = [
           },
           {
             id: 1,
-            ques: "Can a student choose to study from their desired mentor?",
-            ans: "At Learnbay, every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+            ques: "Can a Learnbay student choose to study from their desired mentor?",
+            ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
             open: false,
           },
         ],
@@ -819,15 +760,15 @@ export const DataScienceCourseData = [
         data: [
           {
             id: 0,
-            ques: "When is the job assistance provided and how long will I get it?",
+            ques: "When is the job assistance provided?",
 
-            ans: "At Learnbay, placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+            ans: "Placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
             open: true,
           },
           {
             id: 1,
             ques: "How long will I get Job referrals?",
-            ans: "You’ll be provided with job referrals after the completion of the course for a period of 1 year.",
+            ans: "You’ll be provided with job assistance after the completion of the course for a period of 1 year.",
             open: false,
           },
         ],

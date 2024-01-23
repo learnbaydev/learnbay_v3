@@ -8,7 +8,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
 
   const [popupData, setPopupData] = useState([]);
- 
+
   useEffect(() => {
     const fetchData = async () => {
       const popupResponse = await fetch("/api/Popup/popupGenerate", {
@@ -67,7 +67,10 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>Best Online Data Science Courses | Online Data Science Training - Learnbay</title>
+        <title>
+          Best Online Data Science Courses | Online Data Science Training -
+          Learnbay
+        </title>
         <meta
           name="description"
           content="Elevate your business acumen with our comprehensive HR Analytics Program. Gain valuable insights, enhance decision-making, and drive success through advanced analytics tools and strategies. Enroll today for a data-driven future."
@@ -75,7 +78,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="HR analytics course, HR analytics certification course, HR analytics certification, business analyst training, hr analytics course, business analyst course online, marketing analytics course, business analyst certification course, best business analyst course, best business analyst certification          "
+          content="HR analytics course, HR analytics certification course, HR analytics certification, HR Analytics training, hr analytics course, HR Analytics course online, marketing analytics course, HR Analytics certification course, best HR Analytics course, best HR Analytics certification          "
         />
         <link
           rel="icon"
@@ -85,13 +88,13 @@ function Blockchain({ DataScienceCourseDataJson }) {
           rel="canonical"
           href="https://www.learnbay.co/datascience/hr-analytics"
         />
-        <script 
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: `{
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
             "@context": "http://schema.org",
             "@type": "Course",
-            "name": "Businesss Analytics Certification Program",
+            "name": "HR Analytics Certification Program",
             "description": "Upskill yourself with cutting edge HR Analytics Skills and Techniques by enrolling into the Learnbay's Business Analaytics certification Course.",
             "url": "https://www.learnbay.co/datascience/hr-analytics",
             "offers": {
@@ -121,12 +124,8 @@ function Blockchain({ DataScienceCourseDataJson }) {
 
 
 
-          }`
-
-        }}
-        
-
-
+          }`,
+          }}
         />
       </Head>
       <main>

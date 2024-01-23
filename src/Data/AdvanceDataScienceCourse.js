@@ -299,26 +299,6 @@ export const DataScienceCourseData = [
           open: false,
         },
       },
-      // {
-      //   Module0: {
-      //     title: "L2 :- Module 2 :- Advance Python",
-      //     content: [
-      //       {
-      //         chap: {
-      //           desc: [
-      //             "Data Analysis Using Numpy",
-      //             "Data Analysis Using Pandas",
-      //             "Data Visualization using Matplotlib",
-      //             "Data Visualization using Seaborn",
-      //             "Case Study on Numpy, Pandas, Matplotlib 1 Case Study on Pandas And Seaborn",
-      //           ],
-      //         },
-      //       },
-      //     ],
-      //     id: 1,
-      //     open: false,
-      //   },
-      // },
       {
         Module0: {
           title: " TERM 2 :- Statistics and Machine Learning ",
@@ -458,70 +438,7 @@ export const DataScienceCourseData = [
 
       {
         Module0: {
-          title: "TERM 4:-Data Management and Deployment ",
-          content: [
-            {
-              chap: {
-                title: "Module 1:-Excel ",
-                desc: [
-                  "Introduction to Excel",
-                  "Basic Formulas and Functions",
-                  "Data Formatting and Cell Styles",
-                  "Data Sorting and Filtering",
-                  "Charts and Graphs",
-                  "Data Validation and Protection",
-                  "PivotTables and PivotCharts",
-                  "Advanced Formulas and Functions",
-                  "Data Analysis Tools",
-                  "Excel Macros and Automation",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 2 :-MLops ",
-                desc: [
-                  "Introduction to MLOps",
-                  "Version Control for ML",
-                  "Containerization and Docker",
-                  "Orchestration with Kubernetes",
-                  "Continuous Integration (CI) for ML",
-                ],
-              },
-            },
-
-            {
-              chap: {
-                title: "Module 3:- Deep Learning ",
-                desc: [
-                  "Neural Network",
-                  "Simple Computation, Constants, and Variables",
-                  "Back-propagation",
-                  "TensorBoard",
-                ],
-              },
-            },
-
-            {
-              chap: {
-                title: "Module 4:-  Deployment AWS+Azure ",
-                desc: [
-                  "Data Preparation and Feature Engineering",
-                  "Model Training and Evaluation",
-                  "Model Deployment and Management",
-                  "Advanced Topics in Machine Learning on AWS and Azure",
-                ],
-              },
-            },
-          ],
-          id: 6,
-          open: false,
-        },
-      },
-
-      {
-        Module0: {
-          title: "TERM 5 :-AI Generative Tools and Future Trends ",
+          title: "BONUS :- AI Generative Tools and Future Trends",
           content: [
             {
               chap: {
@@ -564,6 +481,134 @@ export const DataScienceCourseData = [
                   "Overview of Graph Neural Networks (GNN) and their applications",
                   "Hands-on exercises using GNN for tasks such as node classification and link prediction",
                   "Case studies on real-world applications of GNN in data science",
+                ],
+              },
+            },
+          ],
+          id: 6,
+          open: false,
+        },
+      },
+
+      {
+        Module0: {
+          title: "TERM 4 :- Data Management and Deployment ",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :-MLOps ",
+                desc: [
+                  "Introduction to MLOps",
+                  "Version Control for ML",
+                  "Containerization and Docker",
+                  "Orchestration with Kubernetes",
+                  "Continuous Integration (CI) for ML",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 2 :- Deep Learning ",
+                desc: [
+                  "Neural Network",
+                  "Simple Computation, Constants, and Variables",
+                  "Back-propagation",
+                  "TensorBoard",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 3 :-  Deployment AWS+Azure ",
+                desc: [
+                  "Data Preparation and Feature Engineering",
+                  "Model Training and Evaluation",
+                  "Model Deployment and Management",
+                  "Advanced Topics in Machine Learning on AWS and Azure",
+                ],
+              },
+            },
+          ],
+          id: 6,
+          open: false,
+        },
+      },
+
+      {
+        Module0: {
+          title: "TERM 5 :- Essentials",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :- Data Structures & Algorithms ",
+                desc: [
+                  "Array Overview",
+                  "String",
+                  "Linked List",
+                  "Queue",
+                  "Stack",
+                  "Trie",
+                  "Tree, Binary Search Tree and AVL Tree",
+                  "Segment Tree",
+                  "Graph & Recursion",
+                  "Introduction to recursion",
+                  "Backtracking Algorithm",
+                  "Searching",
+                  "Sorting",
+                  "Greedy Algorithm",
+                  "Pattern Searching",
+                  "Dynamic Programming",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 2 :- Excel",
+                desc: [
+                  "Introduction to Excel",
+                  "Basic Formulas and Functions",
+                  "Data Formatting and Cell Styles",
+                  "Data Sorting and Filtering",
+                  "Charts and Graphs",
+                  "Data Validation and Protection",
+                  "PivotTables and PivotCharts",
+                  "Advanced Formulas and Functions",
+                  "Data Analysis Tools",
+                  "Excel Macros and Automation",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 3 :-  Project Management",
+                desc: [
+                  "Introduction to Excel",
+                  "Basic Formulas and Functions",
+                  "Data Formatting and Cell Styles",
+                  "Data Sorting and Filtering",
+                  "Charts and Graphs",
+                  "Data Validation and Protection",
+                  "PivotTables and PivotCharts",
+                  "Advanced Formulas and Functions",
+                  "Data Analysis Tools",
+                  "Excel Macros and Automation",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 4 :-  Business Analytics",
+                desc: [
+                  "Introduction to Business Analysis",
+                  "Stakeholders in Business Analysis",
+                  "Formulating Requirements",
+                  "Flowchart and Modelling",
+                  "Analysing andAnalysing and Transforming Requirements",
+                  "Finalising Requirements",
                 ],
               },
             },

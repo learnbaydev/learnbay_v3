@@ -21,6 +21,7 @@ function FirstSection({
   videoId,
   youtubeEmbedUrl,
   S3RightImage ,
+  animationHide,
 }) {
   const [popups, setPopups] = useState(false);
   const [video, setVideo] = useState(false);
@@ -55,6 +56,7 @@ function FirstSection({
         thumbnailUrl={thumbnailUrl}
         youtubeEmbedUrl={youtubeEmbedUrl}
         S3RightImage={S3RightImage}
+        animationHide={animationHide}
         
       />
     </>
