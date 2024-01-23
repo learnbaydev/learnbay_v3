@@ -90,6 +90,7 @@ const DataAnlyticsFirstPart = ({ SecondSectionData, TestimonialData, ibmOnly, })
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/da-f.webp"
         videoId="y_0IdhFKJKM"
         softwareBtnHide={true}
+        animationHide={true}
      
       />
          <CloudDevopsecond data={DsSecond} />
@@ -98,6 +99,7 @@ const DataAnlyticsFirstPart = ({ SecondSectionData, TestimonialData, ibmOnly, })
         titleCourse="Data Analytics Certification Program"
         dataScience={true}
         interstedInHide={true}
+        hideProjectLab={true}
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
       />
       {/* <WhoProgram
@@ -114,7 +116,7 @@ const DataAnlyticsFirstPart = ({ SecondSectionData, TestimonialData, ibmOnly, })
         third="Early to mid-career professionals interested in data analytics"
         forth="Developing skills in data analytics for future opportunities"
       />
-      <WhyLearnbay idss="ZPOTy4PEnNU" />
+      {/* <WhyLearnbay idss="ZPOTy4PEnNU" /> */}
       <GetHire />
       <ContactConsellor
         titleCourse="Data Analytics Certification Program"

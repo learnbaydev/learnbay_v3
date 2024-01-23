@@ -129,7 +129,7 @@ const SecondPart = ({
         monthlyPayment2 = "₹7,866"
     />
       <MentorsSection />
-      <SliderTab />
+      <SliderTab WithoutService={true}/>
       <PlacementCall />
       <NewProjectSection
         dataScience={true}

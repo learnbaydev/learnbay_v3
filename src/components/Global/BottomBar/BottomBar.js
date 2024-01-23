@@ -5,7 +5,14 @@ import Link from "next/dist/client/link";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
 
-const BottomBar = ({ whatsappShow, masterdegree, dataScienceCounselling, interstedInHide, radio, dataScienceGeneric }) => {
+const BottomBar = ({
+  whatsappShow,
+  masterdegree,
+  dataScienceCounselling,
+  interstedInHide,
+  radio,
+  dataScienceGeneric,
+}) => {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -26,35 +33,30 @@ const BottomBar = ({ whatsappShow, masterdegree, dataScienceCounselling, interst
             dataScienceCounselling={dataScienceCounselling}
             interstedInHide={interstedInHide}
             radio={radio}
-        dataScienceGeneric={dataScienceGeneric}
-
+            dataScienceGeneric={dataScienceGeneric}
           />
         </div>
       </Popup>
-      <div className="FlDiv">
-        {masterdegree ? (
-          <Link href="/master-application">
-            <div className="flDivLeft">
-              Start Your Application
-              <FaArrowRight style={{ color: "#fff" }} className="bIcon" />
-            </div>
-          </Link>
-        ) : (
-          <div className="flDivLeft" onClick={popupShow}>
-            Apply For Counselling
-            <FaArrowRight style={{ color: "#fff" }} className="bIcon" />
-          </div>
-        )}
+      {masterdegree ? (
+        <div className="flDivLeft" onClick={popupShow}>
+          Start Your Application
+          <FaArrowRight style={{ color: "#fff" }} className="bIcon" />
+        </div>
+      ) : (
+        <div className="flDivLeft" onClick={popupShow}>
+          Apply For Counselling
+          <FaArrowRight style={{ color: "#fff" }} className="bIcon" />
+        </div>
+      )}
 
-        {whatsappShow ? (
-          <div className="flDivRight">
-            <Link href="https://wa.me/+917349222263">Chat with us </Link>
-            <IoLogoWhatsapp className="bIcon" style={{ color: "Green" }} />
-          </div>
-        ) : (
-          ""
-        )}
-      </div>
+      {whatsappShow ? (
+        <div className="flDivRight">
+          <Link href="https://wa.me/+917349222263">Chat with us </Link>
+          <IoLogoWhatsapp className="bIcon" style={{ color: "Green" }} />
+        </div>
+      ) : (
+        ""
+      )}
     </div>
   );
 };

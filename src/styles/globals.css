@@ -215,7 +215,7 @@ iframe {
   .whiteP {
     width: 300px;
   }
-  .FlDiv {
+  .flDivLeft {
     display: none;
   }
   .RightPopup {
@@ -273,7 +273,7 @@ iframe {
 }
 
 @media (max-width: 481px) {
-  .FlDiv {
+  .flDivLeft {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -289,7 +289,7 @@ iframe {
     bottom: 0;
     z-index: 999;
   }
-  .FlDiv div {
+  .flDivLeft div {
     display: flex;
     align-items: center;
   }
@@ -344,7 +344,7 @@ iframe {
   color: rgb(143, 143, 143);
 }
 
-.FlDiv {
+.flDivLeft {
   display: none;
 }
 
@@ -387,7 +387,7 @@ iframe {
     position: relative;
     width: 100vw;
   }
-  .FlDiv {
+  .flDivLeft {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -404,14 +404,9 @@ iframe {
     bottom: 0;
     z-index: 999;
   }
-  .FlDiv div {
+  .flDivLeft div {
     display: flex;
     align-items: center;
-  }
-  .flDivLeft {
-    /* border-right: 2px solid #2d9cd7;s */
-    padding-right: 10px;
-    margin: 0;
   }
   .RightPopup {
     margin-left: 0;
