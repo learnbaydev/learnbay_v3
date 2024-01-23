@@ -27,7 +27,7 @@
   color: rgb(143, 143, 143);
 }
 
-.FlDiv {
+.flDivLeft {
   display: none;
 }
 
@@ -71,7 +71,7 @@
     position: relative;
     width: 100vw;
   }
-  .FlDiv {
+  .flDivLeft {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -87,7 +87,7 @@
     bottom: 0;
     z-index: 999;
   }
-  .FlDiv div {
+  .flDivLeft div {
     display: flex;
     align-items: center;
   }
