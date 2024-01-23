@@ -55,8 +55,7 @@ export const courseDetails = [
             tag: "Data science",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf",
-            titleCourse:
-              "Cloud Computing & DevOps Certification Program",
+            titleCourse: "Cloud Computing & DevOps Certification Program",
             para: [
               "7 months | 3 Projects",
               "Global Certification",
@@ -92,7 +91,7 @@ export const courseDetails = [
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
           },
-          
+
           {
             id: 2,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/masters-11.webp",
@@ -123,8 +122,7 @@ export const courseDetails = [
             tag: "Data science",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf",
-            titleCourse:
-              "Cloud Computing & DevOps Certification Program",
+            titleCourse: "Cloud Computing & DevOps Certification Program",
             para: [
               "7 months | 3 Projects",
               "Global Certification",
@@ -235,6 +233,102 @@ export const courseDetails = [
             link1: "/fullstack/full-stack-software-development-program",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
+          },
+          {
+            id: 9,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/FoundationCourse.webp",
+            title: "Data Science",
+            title1: "Foundation Program",
+            tagHead: "Guaranteed Interview Call",
+            tag: "Data science",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+Foundation+Program+Learnbay.pdf",
+            titleCourse: "Data Science Foundation Program",
+            para: [
+              "5 months | 2 Real-time Projects",
+              "Global Certification form IBM",
+              "1-on-1 Live Doubt Session",
+            ],
+            link1: "/datascience/data-science-certification-courses",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+Foundation+Program+Learnbay.pdf",
+          },
+          {
+            id: 10,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BFSI-Course.webp",
+            title: "Data Science & AI",
+            title1: "for BFSI Professionals",
+            tagHead: "Guaranteed Interview Call",
+            tag: "Data science",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
+            titleCourse: "Data Science & AI for BFSI Professionals",
+            para: [
+              "7 months | 2 Capstone Projects",
+              "Global Certification",
+              "Designed by industry experts",
+            ],
+            link1: "/datascience/data-science-for-bfsi-professional",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
+          },
+          {
+            id: 11,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/HR-Course-min.webp",
+            title: "HR Analytics",
+            title1: "Certification Program",
+            tagHead: "Guaranteed Interview Call",
+            tag: "Data science",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
+            titleCourse: "HR Analytics Certification Program",
+            para: [
+              "5 months | 2 Capstone Projects",
+              "Global Certification form IBM",
+              "Guaranteed Interview Calls",
+            ],
+            link1: "/datascience/hr-analytics",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
+          },
+          {
+            id: 12,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Marketing-course-min.webp",
+            title: "Marketing Analytics",
+            title1: "Certification Program",
+            tagHead: "Guaranteed Interview Call",
+            tag: "Data science",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Marketing+Analytics+Certification+Program.pdf",
+            titleCourse: "Marketing Analytics Certification Program",
+            para: [
+              "5 months | 2 Capstone Projects",
+              "Global Certification form IBM",
+              "3 Years Flexible Subscription",
+            ],
+            link1: "/datascience/hr-analytics",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Marketing+Analytics+Certification+Program.pdf",
+          },
+          {
+            id: 13,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Managers-Course-min.webp",
+            title: "Data Science & AI Certification",
+            title1: "Program For Managers and Leaders",
+            tagHead: "Guaranteed Interview Call",
+            tag: "Data science",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Copy+of+Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+            titleCourse:
+              "Data Science & AI Certification Program For Managers and Leaders",
+            para: [
+              "9 months | 2 Capstone Projects",
+              "Project Certification form IBM",
+              "3 Domain Electives",
+            ],
+            link1: "/datascience/hr-analytics",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Copy+of+Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
           },
         ],
       },
@@ -430,8 +524,7 @@ export const courseDetailsM = [
             tag: "Data science",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf",
-            titleCourse:
-              "Cloud Computing & DevOps Certification Program",
+            titleCourse: "Cloud Computing & DevOps Certification Program",
             para: [
               "7 months | 3 Projects",
               "Global Certification",
@@ -521,6 +614,102 @@ export const courseDetailsM = [
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
           },
+          {
+            id: 6,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/FoundationCourse.webp",
+            title: "Data Science",
+            title1: "Foundation Program",
+            tagHead: "Guaranteed Interview Call",
+            tag: "Data science",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+Foundation+Program+Learnbay.pdf",
+            titleCourse: "Data Science Foundation Program",
+            para: [
+              "5 months | 2 Real-time Projects",
+              "Global Certification form IBM",
+              "1-on-1 Live Doubt Session",
+            ],
+            link1: "/datascience/data-science-certification-courses",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+Foundation+Program+Learnbay.pdf",
+          },
+          {
+            id: 7,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BFSI-Course.webp",
+            title: "Data Science & AI",
+            title1: "for BFSI Professionals",
+            tagHead: "Guaranteed Interview Call",
+            tag: "Data science",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
+            titleCourse: "Data Science & AI for BFSI Professionals",
+            para: [
+              "7 months | 2 Capstone Projects",
+              "Global Certification",
+              "Designed by industry experts",
+            ],
+            link1: "/datascience/data-science-for-bfsi-professional",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
+          },
+          {
+            id: 8,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/HR-Course-min.webp",
+            title: "HR Analytics",
+            title1: "Certification Program",
+            tagHead: "Guaranteed Interview Call",
+            tag: "Data science",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
+            titleCourse: "HR Analytics Certification Program",
+            para: [
+              "5 months | 2 Capstone Projects",
+              "Global Certification form IBM",
+              "Guaranteed Interview Calls",
+            ],
+            link1: "/datascience/hr-analytics",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
+          },
+          {
+            id: 9,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Marketing-course-min.webp",
+            title: "Marketing Analytics",
+            title1: "Certification Program",
+            tagHead: "Guaranteed Interview Call",
+            tag: "Data science",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Marketing+Analytics+Certification+Program.pdf",
+            titleCourse: "Marketing Analytics Certification Program",
+            para: [
+              "5 months | 2 Capstone Projects",
+              "Global Certification form IBM",
+              "3 Years Flexible Subscription",
+            ],
+            link1: "/datascience/hr-analytics",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Marketing+Analytics+Certification+Program.pdf",
+          },
+          {
+            id: 10,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Managers-Course-min.webp",
+            title: "Data Science & AI Certification",
+            title1: "Program For Managers and Leaders",
+            tagHead: "Guaranteed Interview Call",
+            tag: "Data science",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Copy+of+Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+            titleCourse:
+              "Data Science & AI Certification Program For Managers and Leaders",
+            para: [
+              "9 months | 2 Capstone Projects",
+              "Project Certification form IBM",
+              "3 Domain Electives",
+            ],
+            link1: "/datascience/hr-analytics",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Copy+of+Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+          },
         ],
       },
       {
@@ -576,8 +765,7 @@ export const courseDetailsM = [
             tag: "Data science",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf",
-            titleCourse:
-              "Cloud Computing & DevOps Certification Program",
+            titleCourse: "Cloud Computing & DevOps Certification Program",
             para: [
               "7 months | 3 Projects",
               "Global Certification",

@@ -79,10 +79,10 @@ const SecondPart = ({
         interstedInHide={true}
       />
       <ToolsCovered />
-      <Certificate data={CertificateData} />
+      <Certificate data={CertificateData} singlecertificate={true} doubleCertificate={true} />
       <FeeSection
-        Fee="₹ 90,000"
-        FeeEmi="₹ 5,900/month"
+        Fee="₹ 1,00,000"
+        FeeEmi="₹ 6,556/month"
         weekdaybatch="Weekend Batch"
         weekendbatch="Weekday Batch"
         weekday="SAT-SUN"
@@ -106,25 +106,24 @@ const SecondPart = ({
         // EMI POPUPDATA
         emiType = "NO COST EMI"
         duration1 = "18 Months"
-        totalAmount1 = "₹90,000"
-        monthlyPayment1 = "₹5,900"
+        totalAmount1 = "₹1,00,000"
+        monthlyPayment1 = "₹6,556"
         greenDown1 = "Standard Intrest rate Applicable"
         duration2 = "12 Months"
-        totalAmount2 = "₹90,000"
-        monthlyPayment2 = "₹8,850"
+        totalAmount2 = "₹1,00,000"
+        monthlyPayment2 = "₹9,833"
       />
       <MentorsSection />
-      <SliderTab />
-      <PlacementCall />
-      <NewProjectSection
+      <SliderTab WithoutService={true}/>
+      <PlacementCall BFSI={true}/>
+      {/* <NewProjectSection
         dataScience={true}
         titleCourse="Data Science & AI for BFSI Professionals"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf"
         projectSection={projectSection}
         interstedInHide={true}
-      />
+      /> */}
       <FAQNew FAQNewData={FAQNewData} />
-      <Content Banalytics={true} dataScienceCounselling={true} />
       <SeventhSection />
       <Footer />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />

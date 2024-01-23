@@ -51,7 +51,7 @@ line-height: 158%; /* 23.7px */
 
 }
 
-.secrow span {
+.secrow h4 {
     border: 0.5px solid rgb(163, 161, 161);
     margin: 0px;
     padding: 10px 10px;
@@ -156,8 +156,9 @@ line-height: 158%; /* 31.6px */
     display: flex;
     }
 
-    .secrow span{
+    .secrow h4{
         font-size: 12px;
+        flex-direction: column;
     }
     .para{
         font-size: 12px;

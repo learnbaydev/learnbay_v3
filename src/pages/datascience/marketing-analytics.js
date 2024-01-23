@@ -75,7 +75,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="business analytics course, business analytics certification course, business analytics certification, business analyst training, hr analytics course, business analyst course online, marketing analytics course, business analyst certification course, best business analyst course, best business analyst certification          "
+          content="Marketing Analytics course, Marketing Analytics certification course, Marketing Analytics certification, Marketing Analytics training, hr analytics course, Marketing Analytics course online, marketing analytics course, Marketing Analytics certification course, best Marketing Analytics course, best Marketing Analytics certification          "
         />
         <link
           rel="icon"
@@ -91,8 +91,8 @@ function Blockchain({ DataScienceCourseDataJson }) {
           __html: `{
             "@context": "http://schema.org",
             "@type": "Course",
-            "name": "Businesss Analytics Certification Program",
-            "description": "Upskill yourself with cutting edge Business Analytics Skills and Techniques by enrolling into the Learnbay's Business Analaytics certification Course.",
+            "name": "Marketing Analytics Certification Program",
+            "description": "Upskill yourself with cutting edge Marketing Analytics Skills and Techniques by enrolling into the Learnbay's Business Analaytics certification Course.",
             "url": "https://www.learnbay.co/datascience/marketing-analytics",
             "offers": {
               "@type": "Offer",
@@ -105,7 +105,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
                   "name": "Learnbay",
                   "Url": "https://www.learnbay.co/"
                 },
-            "coursePrerequisites": "There are no prerequisites for this Business Analytics certification course as all modules are beginner-friendly and are taught from scratch. ",
+            "coursePrerequisites": "There are no prerequisites for this Marketing Analytics certification course as all modules are beginner-friendly and are taught from scratch. ",
             "hasCourseInstance": [
               {
                 "@type": "CourseInstance",

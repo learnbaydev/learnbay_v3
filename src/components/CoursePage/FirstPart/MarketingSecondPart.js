@@ -24,7 +24,7 @@ const NewProjectSection = dynamic(() =>
   import("../../Global/NewProjectSection/NewProjectSection")
 );
 
-const FAQNew = dynamic(() => import("../FAQNew/FAQNew"));
+const FAQNew = dynamic(() => import("../FAQNew/FAQNewDomain"));
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
 const Content = dynamic(() => import("../Content/content"));
 const SeventhSection = dynamic(() =>
@@ -79,10 +79,14 @@ const SecondPart = ({
         interstedInHide={true}
       />
       <ToolsCovered />
-      <Certificate data={CertificateData} />
+      <Certificate
+        data={CertificateData}
+        doubleCertificate={true}
+        singlecertificate={true}
+      />
       <FeeSection
-        Fee="₹ 90,000"
-        FeeEmi="₹ 5,900/month"
+        Fee="₹ 75,000"
+        FeeEmi="₹ 4,912/month"
         weekdaybatch="Weekend Batch"
         weekendbatch="Weekday Batch"
         weekday="SAT-SUN"
@@ -100,19 +104,27 @@ const SecondPart = ({
         titleCourse="Marketing Analytics Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Marketing+Analytics+Certification+Program.pdf"
         dataScience={true}
+        // <EMI POPUP
+        emiType="NO COST EMI"
+        duration1="18 Months"
+        totalAmount1="₹75,000"
+        monthlyPayment1="₹4,912"
+        greenDown1="Standard Intrest rate Applicable"
+        duration2="12 Months"
+        totalAmount2="₹75,000"
+        monthlyPayment2="₹7,375"
       />
       <MentorsSection />
-      <SliderTab />
-      <PlacementCall />
-      <NewProjectSection
+      <SliderTab WithoutService={true} />
+      <PlacementCall Marketing={true} />
+      {/* <NewProjectSection
         dataScience={true}
         titleCourse="Marketing Analytics Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Marketing+Analytics+Certification+Program.pdf"
         projectSection={projectSection}
         interstedInHide={true}
-      />
+      /> */}
       <FAQNew FAQNewData={FAQNewData} />
-      <Content Banalytics={true} dataScienceCounselling={true} />
       <SeventhSection />
       <Footer />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />

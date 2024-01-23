@@ -18,6 +18,7 @@ function SecondNavbar({
   brochureLink,
   titleCourse,
   dataScienceCounselling,
+  hideProjectLab,
 }) {
   const [popups, setPopups] = useState(false);
   const [activeSection, setActiveSection] = useState(null);
@@ -154,6 +155,7 @@ function SecondNavbar({
               Alumni
             </p>
           </Link>
+          {hideProjectLab ? ("") : (
           <Link href="#ProjectLab">
             <p
               className={
@@ -163,6 +165,7 @@ function SecondNavbar({
               Project Lab
             </p>
           </Link>
+          )}
           <Link href="#curriculum">
             <p
               className={

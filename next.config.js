@@ -905,16 +905,16 @@ const nextConfig = {
         destination: "/datascience/data-science-ai-masters-program",
         permanent: true,
       },
-      {
-        source: "/data-science-certification-courses",
-        destination: "/datascience/advance-data-science-certification-courses",
-        permanent: true,
-      },
-      {
-        source: "/data-science-certification-courses",
-        destination: "/datascience/advance-data-science-certification-courses",
-        permanent: true,
-      },
+      // {
+      //   source: "/data-science-certification-courses",
+      //   destination: "/datascience/advance-data-science-certification-courses",
+      //   permanent: true,
+      // },
+      // {
+      //   source: "/data-science-certification-courses",
+      //   destination: "/datascience/advance-data-science-certification-courses",
+      //   permanent: true,
+      // },
       {
         source: "/data-science-course",
         destination: "/datascience/data-science-course",
@@ -1264,32 +1264,32 @@ const nextConfig = {
         destination: "/datascience/advance-data-science-certification-courses",
         permanent: true,
       },
-      {
-        source: "/datascience/data-science-ai-for-managers",
-        destination: "/datascience/advance-data-science-certification-courses",
-        permanent: true,
-      },
+      // {
+      //   source: "/datascience/data-science-ai-for-managers",
+      //   destination: "/datascience/advance-data-science-certification-courses",
+      //   permanent: true,
+      // },
       {
         source: "/datascience/data-science-ai-masters-program",
         destination: "/datascience/data-science-and-ai-masters-in-cs",
         permanent: true,
       },
-      {
-        source: "/datascience/data-science-certification-courses",
-        destination: "/datascience/advance-data-science-certification-courses",
-        permanent: true,
-      },
+      // {
+      //   source: "/datascience/data-science-certification-courses",
+      //   destination: "/datascience/advance-data-science-certification-courses",
+      //   permanent: true,
+      // },
     
-      {
-        source: "/datascience/hr-analytics",
-        destination: "/datascience/business-analytics-certification-course",
-        permanent: true,
-      },
-      {
-        source: "/datascience/marketing-analytics",
-        destination: "/datascience/business-analytics-certification-course",
-        permanent: true,
-      },
+      // {
+      //   source: "/datascience/hr-analytics",
+      //   destination: "/datascience/business-analytics-certification-course",
+      //   permanent: true,
+      // },
+      // {
+      //   source: "/datascience/marketing-analytics",
+      //   destination: "/datascience/business-analytics-certification-course",
+      //   permanent: true,
+      // },
       {
         source: "/fullstack/dsa-system-design",
         destination: "/fullstack/full-stack-software-development-program",

@@ -1,24 +1,18 @@
-import React, { useState, useEffect } from "react";
-import dynamic from "next/dynamic";
-import Footer from "@/components/Global/Footer/Footer";
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+import Footer from "@/components/Global/Footer/Footer";
 import SeventhSection from "@/components/Global/SeventhSection/SeventhSection";
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+import dynamic from "next/dynamic";
+import { useEffect, useState } from "react";
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
-const Certificate = dynamic(() =>
-  import("../Certificate/Certificate")
-);
+const Certificate = dynamic(() => import("../Certificate/Certificate"));
 const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
-const FeeSection = dynamic(() =>
-  import("../FeeSection/FeeSection")
-);
+const FeeSection = dynamic(() => import("../FeeSection/FeeSection"));
 const MentorsSection = dynamic(() =>
   import("../../Global/MentorsSection/MentorsSection")
 );
-const SliderTab = dynamic(() =>
-  import("../../Global/SliderTabs/SliderTabs")
-);
+const SliderTab = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
 const PlacementCall = dynamic(() =>
   import("../../Global/PlacementCall/PlacementCall")
 );
@@ -26,18 +20,17 @@ const NewProjectSection = dynamic(() =>
   import("../../Global/NewProjectSection/NewProjectSection")
 );
 
-const FAQNew = dynamic(() =>
-  import("../FAQNew/FAQNew")
-);
-const Content = dynamic(() =>
-  import("../Content/content")
-);
+const FAQNew = dynamic(() => import("../FAQNew/FAQNewDomain"));
+const Content = dynamic(() => import("../Content/content"));
 
 const SecondPart = ({
   masterSyllabusMobile,
   CertificateData,
   projectSection,
   FAQNewData,
+  singlecertificate,
+  foundation,
+  devops,
 }) => {
   const [popupData, setPopupData] = useState([]);
 
@@ -88,15 +81,18 @@ const SecondPart = ({
         dataScienceCounselling={true}
         dataScience={true}
         interstedInHide={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+        titleCourse="Data Science Foundation Program"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+Foundation+Program+Learnbay.pdf"
         buttonHide={true}
       />
-      <ToolsCovered />
-      <Certificate data={CertificateData} />
+      <ToolsCovered foundation={true} />
+      <Certificate
+        data={CertificateData}
+        singlecertificate={singlecertificate}
+      />
       <FeeSection
-        Fee="₹ 1,25,000"
-        FeeEmi="₹ 8,194/month"
+        Fee="₹ 90,000"
+        FeeEmi="₹ 5,900/month"
         weekdaybatch="Weekday Batch"
         weekendbatch="Weekend  Batch"
         weekday="MON - FRI"
@@ -112,43 +108,35 @@ const SecondPart = ({
         dataScienceCounselling={true}
         interstedInHide={true}
         dataScience={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program.pdf"
-    
-// <EMI POPUP
-        emiType = "NO COST EMI"
-        duration1 = "18 Months"
-        totalAmount1 = "₹1,25,000"
-        monthlyPayment1 = "₹8,194"
-        greenDown1 = "Standard Intrest rate Applicable"
-        duration2 = "12 Months"
-        totalAmount2 = "₹1,25,000"
-        monthlyPayment2 = "₹12,291"
-       
-   
-    
-    />
+        titleCourse="Data Science Foundation Program"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+Foundation+Program+Learnbay.pdf"
+        // <EMI POPUP
+        emiType="NO COST EMI"
+        duration1="18 Months"
+        totalAmount1="₹90,000"
+        monthlyPayment1="₹5,900"
+        greenDown1="Standard Intrest rate Applicable"
+        duration2="12 Months"
+        totalAmount2="₹90,000"
+        monthlyPayment2="₹8,850"
+      />
 
       <MentorsSection />
-      <SliderTab />
-      <PlacementCall/>
+      {/* <SliderTab /> */}
+      <PlacementCall foundation={true} />
 
       <NewProjectSection
         dataScience={true}
         interstedInHide={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+        titleCourse="Data Science Foundation Program"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+Foundation+Program+Learnbay.pdf"
         projectSection={projectSection}
       />
 
       <FAQNew FAQNewData={FAQNewData} />
-     < Content dataScienceCounselling={true} Advance={true} />
-     <SeventhSection/>
+      <SeventhSection />
       <Footer />
-      <BottomBar
-        dataScienceCounselling={true}
-        interstedInHide={true}
-      />
+      <BottomBar dataScienceCounselling={true} interstedInHide={true} />
       <WhatsappFloat />
       {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
     </div>

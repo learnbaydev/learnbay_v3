@@ -1,25 +1,20 @@
-import React, { useEffect, useState } from "react";
+import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import dynamic from "next/dynamic";
+import { useEffect, useState } from "react";
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
 const WhatsappFloat = dynamic(() =>
   import("@/components/Global/WhatappsFloat/WhatsappFloat")
 );
-const Certificate = dynamic(() =>
-  import("../Certificate/Certificate")
-);
+const Certificate = dynamic(() => import("../Certificate/Certificate"));
 const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
-const FeeSection = dynamic(() =>
-  import("../FeeSection/FeeSection")
-);
+const FeeSection = dynamic(() => import("../FeeSection/FeeSection"));
 
 const MentorsSection = dynamic(() =>
   import("../../Global/MentorsSection/MentorsSection")
 );
 
-const SliderTab = dynamic(() =>
-  import("../../Global/SliderTabs/SliderTabs")
-);
+const SliderTab = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
 
 const PlacementCall = dynamic(() =>
   import("../../Global/PlacementCall/PlacementCall")
@@ -29,12 +24,9 @@ const NewProjectSection = dynamic(() =>
   import("../../Global/NewProjectSection/NewProjectSection")
 );
 
-const FAQNew = dynamic(() =>
-  import("../FAQNew/FAQNew")
-);
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
+const FAQNew = dynamic(() => import("../FAQNew/FAQNewDomain"));
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
-const Content = dynamic (()=> import ("../Content/content"))
+const Content = dynamic(() => import("../Content/content"));
 const SeventhSection = dynamic(() =>
   import("@/components/Global/SeventhSection/SeventhSection")
 );
@@ -87,10 +79,14 @@ const SecondPart = ({
         interstedInHide={true}
       />
       <ToolsCovered />
-      <Certificate data={CertificateData} />
+      <Certificate
+        data={CertificateData}
+        doubleCertificate={true}
+        singlecertificate={true}
+      />
       <FeeSection
-        Fee="₹ 90,000"
-        FeeEmi="₹ 5,900/month"
+        Fee="₹ 75,000"
+        FeeEmi="₹ 4,912/month"
         weekdaybatch="Weekend Batch"
         weekendbatch="Weekday Batch"
         weekday="SAT-SUN"
@@ -108,35 +104,29 @@ const SecondPart = ({
         titleCourse="HR Analytics Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf"
         dataScience={true}
-
-// EMITYPE
-        emiType = "NO COST EMI"
-        duration1 = "18 Months"
-        totalAmount1 = "₹90,000"
-        monthlyPayment1 = "₹5,900"
-        greenDown1 = "Standard Intrest rate Applicable"
-        duration2 = "12 Months"
-        totalAmount2 = "₹90,000"
-        monthlyPayment2 = "₹8,850"
+        emiType="NO COST EMI"
+        duration1="18 Months"
+        totalAmount1="₹75,000"
+        monthlyPayment1="₹4,912"
+        greenDown1="Standard Intrest rate Applicable"
+        duration2="12 Months"
+        totalAmount2="₹75,000"
+        monthlyPayment2="₹7,375"
       />
       <MentorsSection />
-      <SliderTab />
-      <PlacementCall />
-      <NewProjectSection
+      <SliderTab WithoutService={true} />
+      <PlacementCall HRAnalyst={true} />
+      {/* <NewProjectSection
         dataScience={true}
         titleCourse="HR Analytics Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf"
         projectSection={projectSection}
         interstedInHide={true}
-      />
+      /> */}
       <FAQNew FAQNewData={FAQNewData} />
-      <Content Banalytics={true} dataScienceCounselling={true}/>
       <SeventhSection />
       <Footer />
-      <BottomBar
-        dataScienceCounselling={true}
-        interstedInHide={true}
-      />
+      <BottomBar dataScienceCounselling={true} interstedInHide={true} />
       <WhatsappFloat />
       {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
     </div>

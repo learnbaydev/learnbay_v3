@@ -75,7 +75,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="Data Science for BFSI Professional course, Data Science for BFSI Professional certification course, Data Science for BFSI Professional certification, business analyst training, hr analytics course, business analyst course online, marketing analytics course, business analyst certification course, best business analyst course, best business analyst certification          "
+          content="Data Science for BFSI Professional course, Data Science for BFSI Professional certification course, Data Science for BFSI Professional certification, BFSI Professional Program training, hr analytics course, BFSI Professional Program course online, marketing analytics course, BFSI Professional Program certification course, best BFSI Professional Program course, best BFSI Professional Program certification          "
         />
         <link
           rel="icon"
@@ -91,8 +91,8 @@ function Blockchain({ DataScienceCourseDataJson }) {
           __html: `{
             "@context": "http://schema.org",
             "@type": "Course",
-            "name": "Businesss Analytics Certification Program",
-            "description": "Upskill yourself with cutting edge Data Science for BFSI Professional Skills and Techniques by enrolling into the Learnbay's Business Analaytics certification Course.",
+            "name": "BFSI Professional Program",
+            "description": "Upskill yourself with cutting edge Data Science for BFSI Professional Skills and Techniques by enrolling into the Learnbay's BFSI Professional Course.",
             "url": "https://www.learnbay.co/datascience/data-science-for-bfsi-professional",
             "offers": {
               "@type": "Offer",

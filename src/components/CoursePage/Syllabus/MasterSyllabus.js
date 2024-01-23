@@ -16,6 +16,7 @@ function SyllabusNew({
   buttonHide,
   dataScienceCounselling,
   interstedInHide,
+  MastersContent,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -58,9 +59,13 @@ function SyllabusNew({
                   <FaRegUser className={styles.iconUser} /> 7,568 people filled
                 </div>
               </div>
-              <h4>
+              {MastersContent ? ( <h4>
                 Interested in <span>Master’s Degree?</span>
+              </h4>) : (
+              <h4>
+                Free Consultation with<span> Expert</span>
               </h4>
+              )}
               <Form
                 dataScienceCounselling={dataScienceCounselling}
                 interstedInHide={interstedInHide}

@@ -38,7 +38,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
       "@context": "http://schema.org",
   "@type": "Course",
   "name": "Data Science Foundation Program",
-  "description": "Our Advance Data Science and AI Course brings you a wide knowledge of Data Science and AI and helps you to make precise data-driven decisions.",
+  "description": "Our Data Science Foundation Program brings you a wide knowledge of Data Science and AI and helps you to make precise data-driven decisions.",
   "url": "https://www.learnbay.co/datascience/data-science-certification-courses",
   "offers": {
     "@type": "offer",
@@ -85,6 +85,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
           masterSyllabusMobile={
             DataScienceCourseData.DataScienceCourseData[0].masterSyllabusMobile
           }
+          singlecertificate={true}
           CertificateData={
             DataScienceCourseData.DataScienceCourseData[0].Certificate
           }
