@@ -95,8 +95,8 @@ const SecondPart = ({
       <ToolsCovered />
       <Certificate data={CertificateData} />
       <FeeSection
-        Fee="₹ 1,25,000"
-        FeeEmi="₹ 8,194/month"
+        Fee="₹99,000"
+        FeeEmi="₹ 6,490/month"
         weekdaybatch="Weekday Batch"
         weekendbatch="Weekend  Batch"
         weekday="MON - FRI"
@@ -118,19 +118,19 @@ const SecondPart = ({
 // <EMI POPUP
         emiType = "NO COST EMI"
         duration1 = "18 Months"
-        totalAmount1 = "₹1,25,000"
-        monthlyPayment1 = "₹8,194"
+        totalAmount1 = "₹99,000"
+        monthlyPayment1 = "₹6,490"
         greenDown1 = "Standard Intrest rate Applicable"
         duration2 = "12 Months"
-        totalAmount2 = "₹1,25,000"
-        monthlyPayment2 = "₹12,291"
+        totalAmount2 = "₹99,000"
+        monthlyPayment2 = "₹9,735"
        
    
     
     />
 
       <MentorsSection />
-      <SliderTab />
+      <SliderTab WithoutService={true}/>
       <PlacementCall/>
 
       <NewProjectSection

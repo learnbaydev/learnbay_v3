@@ -220,7 +220,7 @@ export const DataScienceCourseData = [
         title: "Capstone Project Certificate from IBM",
         para: [
           "Globally recognized IBM certification based on industrial-level projects.",
-          "Work on 1 capstone project certified by IBM.",
+          "Earn 2 capstone project certifications from IBM.",
           "Individualized project experience with easy access to premium job opportunities.",
         ],
       },
@@ -484,11 +484,11 @@ export const DataScienceCourseData = [
 
       {
         Module0: {
-          title: "Term 5 :- Project Management Module",
+          title: "Term 5 :- Essentials",
           content: [
             {
               chap: {
-                title: "",
+                title: "Project Management Module",
                 desc: [
                   "Jira process part 1",
                   "Jira process part 2",
@@ -500,6 +500,148 @@ export const DataScienceCourseData = [
             },
           ],
           id: 5,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "BONUS :- AI Generative Tools and Future Trends",
+          content: [
+            {
+              chap: {
+                title:
+                  "Module 1 :- Emerging Trends in AI and Generative Modeling",
+                desc: [
+                  "Exploring other AI generative tools beyond ChatGPT and DALL·E",
+                  "Discussion on future trends and advancements in AI generative tools",
+                  "Open-ended project and/or presentation on a selected topic, incorporating learned concepts",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 2 :- Natural Language Processing and ChatGPT",
+                desc: [
+                  "Introduction to natural language processing techniques",
+                  "Understanding ChatGPT and its architecture",
+                  "Hands-on exercises using ChatGPT for text generation",
+                  "Fine-tuning ChatGPT for specific applications",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 3 :- DALL·E: Image Generation with AI",
+                desc: [
+                  "Exploring image generation using DALL·E",
+                  "Hands-on exercises for creating unique images with DALL·E",
+                  "Ethical considerations and limitations of AI-generated images",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Module 4 :-  Graph Neural Networks (GNN) for Data Analysis",
+                desc: [
+                  "Overview of Graph Neural Networks (GNN) and their applications",
+                  "Hands-on exercises using GNN for tasks such as node classification and link prediction",
+                  "Case studies on real-world applications of GNN in data science",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 5 :- Python Bootcamp for AI",
+                desc: [
+                  "Python Essentials: Syntax, Data Types, and Variables",
+                  "Flow Control: Conditionals and Loops",
+                  "Functions and Custom Modules",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 6 :- Build Your Interview Assistant",
+                desc: [
+                  "Project Overview: Interview Automation Bot",
+                  "Components & Architecture",
+                  "Natural Language Models (LLMs): Introduction and Uses",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 7 :- Visual AI for eCommerce",
+                desc: [
+                  "Introduction: Digital Transformation for Offline Businesses",
+                  "Multimodal Models: DALL-E and Beyond",
+                  "Style & Photography Principles for Visual AI",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 8 :- Intelligent News Aggregator",
+                desc: [
+                  "Project Outline: Personalized News Recommendation",
+                  "GPT-3 & Copilot for Code Automation",
+                  "Data Loading and Cleaning Techniques",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 9 :- Customer Support Bot - HelpMate Pro",
+                desc: [
+                  "Project Introduction and Components",
+                  "Embeddings vs Fine-Tuning: When and How",
+                  "Semantic Search in Customer Service",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 10 :- Knowledge Discovery Bot",
+                desc: [
+                  "Project Overview and Architecture",
+                  "LangChain Tools and Concepts",
+                  "Backend Development with Vectorstore",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 11 :- Azure OpenAI Integration",
+                desc: [
+                  "OpenAI on Azure: Services and Scalability",
+                  "Revisiting HelpMate Pro: Scaling Strategy",
+                  "UI/UX Best Practices for Bots",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 12 :- The Future & Ethics of Generative AI",
+                desc: [
+                  "Responsible AI: Bias and Fairness",
+                  "Future Trends: Multimodal Models and RLHF",
+                  "Closing Remarks",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Capstone Project",
+                desc: [
+                  "Building an Integrated Prompt Engineering Solution",
+                  "Project Submission and Peer Review",
+                ],
+              },
+            },
+          ],
+          id: 4,
           open: false,
         },
       },

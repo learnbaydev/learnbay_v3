@@ -1,12 +1,12 @@
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { BsCheckCircle } from "react-icons/bs";
 import { IoIosArrowForward } from "react-icons/io";
-import dynamic from "next/dynamic";
+import styles from "./SliderTab.module.css";
 
 const Form = dynamic(() => import("../../Global/Form/Form"));
 const Popup = dynamic(() => import("../../Global/Popup/Popup"));
-import styles from "./SliderTab.module.css";
 
 const SliderTabs = ({
   dataScience,
@@ -58,7 +58,7 @@ const SliderTabs = ({
       icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/career1.webp",
       content: [
         "Unleash your career potential with interview support and profile review.",
-        "Receive 5-8 interview calls from a diverse pool of interested employers/recruiters until you successfully secure a job.",
+        "Receive 8-10 interview calls from a diverse pool of interested employers/recruiters until you successfully secure a job.",
         "Find the best suited job role that meets your career and salary expectations.",
       ],
     },
@@ -81,10 +81,10 @@ const SliderTabs = ({
       ],
     },
     {
-      title: "5-8 Interview Calls",
+      title: "8-10 Interview Calls",
       icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/career4.webp",
       content: [
-        "LearnBay's promise of 5-8 interview calls.",
+        "LearnBay's promise of 8-10 interview calls.",
         "Continuous interview opportunities.",
         "Open-ended access to potential employers.",
       ],
@@ -92,8 +92,9 @@ const SliderTabs = ({
   ];
 
   const [activeService, setActiveService] = useState(0);
+  const [withActiveService, setWithActiveService] = useState(0);
   const currentService = services[activeService];
-  const withoutCurrentService = withoutServices[activeService];
+  const withoutCurrentService = withoutServices[withActiveService];
 
   const [isMobileView, setIsMobileView] = useState(false);
 
@@ -118,9 +119,13 @@ const SliderTabs = ({
       if (isMobileView) {
         // Toggle the active tab on mobile view
         setActiveService((prevActive) => (prevActive === index ? null : index));
+        setWithActiveService((prevActive) =>
+          prevActive === index ? null : index
+        );
       } else {
         // Always open the clicked tab on non-mobile view
         setActiveService(index);
+        setWithActiveService(index);
       }
     };
 
@@ -147,7 +152,7 @@ const SliderTabs = ({
         {index === activeService ? (
           <div className={styles.gridPanel}>
             <div className={styles.left}>
-              {withoutServices ? (
+              {WithoutService ? (
                 <h6>{withoutCurrentService.title}</h6>
               ) : (
                 <h6>{currentService.title}</h6>
@@ -211,7 +216,7 @@ const SliderTabs = ({
           {activeService !== null && (
             <div className={styles.gridPanel}>
               <div className={styles.left}>
-                {withoutServices ? (
+                {WithoutService ? (
                   <h6>{withoutCurrentService.title}</h6>
                 ) : (
                   <h6>{currentService.title}</h6>

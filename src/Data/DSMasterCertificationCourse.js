@@ -220,7 +220,7 @@ export const DataScienceCourseData = [
         title: "Capstone Project Certificate from IBM",
         para: [
           "Globally recognized IBM certification based on industrial-level projects.",
-          "Earn 1 capstone project certification from IBM.",
+          "Earn 3 capstone project certifications from IBM.",
           "Individualized project experience with easy access to premium job opportunities.",
         ],
       },
@@ -435,59 +435,7 @@ export const DataScienceCourseData = [
           open: false,
         },
       },
-      {
-        Module0: {
-          title: "TERM 4 :- AI TOOLS",
-          content: [
-            {
-              chap: {
-                title: "Module 1 :- Deep Learning ",
-                desc: [
-                  "Introduction to Deep Learning And TensorFlow",
-                  "TensorFlow Classification Example",
-                  "⁠Understanding Neural Networks With TensorFlow",
-                  "⁠Convolutional Neural Network (CNN",
-                ],
-              },
-            },
 
-            {
-              chap: {
-                title: "Module 2 :- NLP",
-                desc: [
-                  "Natural Language Processing",
-                  "Text Analysis",
-                  "KNN",
-                ],
-              },
-            },
-          ],
-          id: 4,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "TERM 5 :- Deployment ",
-          content: [
-            {
-              chap: {
-                title: "Deployment AWS+Azure ",
-                desc: [
-                  "Introduction to AWS and Azure Machine Learning Services",
-                  "Setting up the Environment",
-                  "Data Preparation and Feature Engineering",
-                  "Model Training and Evaluation",
-                  "Model Deployment and Management",
-                  "Advanced Topics in Machine Learning on AWS and Azure",
-                ],
-              },
-            },
-          ],
-          id: 5,
-          open: false,
-        },
-      },
       {
         Module0: {
           title: "BONUS :- AI Generative Tools and Future Trends",
@@ -626,6 +574,177 @@ export const DataScienceCourseData = [
               },
             },
           ],
+          id: 4,
+          open: false,
+        },
+      },
+
+      {
+        Module0: {
+          title: "TERM 4 :- AI TOOLS",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :- Deep Learning ",
+                desc: [
+                  "Neural Network",
+                  "Simple Computation, Constants, and Variables",
+                  "Back-propagation",
+                  "TensorBoard",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 2 :- NLP",
+                desc: [
+                  "Natural Language Processing",
+                  "Text Analysis",
+                  "KNN",
+                  "Text Pre Processing Techniques",
+                  "Stemming",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 3 :- Computer Vision",
+                desc: [
+                  "Computer Vision overview",
+                  "Image Filtering",
+                  "Image Processing",
+                  "Image Classification and segmentation",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 4 :- Reinforcement Learning",
+                desc: [
+                  "What is Reinforcement Learning - Basics",
+                  "Approximation Methods for Reinforcement Learning",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+
+      {
+        Module0: {
+          title: "TERM 5 :- Data Management and Deployment ",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :-MLOps ",
+                desc: [
+                  "Introduction to MLOps",
+                  "Version Control for ML",
+                  "Containerization and Docker",
+                  "Orchestration with Kubernetes",
+                  "Continuous Integration (CI) for ML",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 2 :-  Deployment AWS+Azure ",
+                desc: [
+                  "Data Preparation and Feature Engineering",
+                  "Model Training and Evaluation",
+                  "Model Deployment and Management",
+                  "Advanced Topics in Machine Learning on AWS and Azure",
+                ],
+              },
+            },
+          ],
+          id: 6,
+          open: false,
+        },
+      },
+
+      {
+        Module0: {
+          title: "TERM 6 :- Essentials",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :- Data Structures & Algorithms ",
+                desc: [
+                  "Array Overview",
+                  "String",
+                  "Linked List",
+                  "Queue",
+                  "Stack",
+                  "Trie",
+                  "Tree, Binary Search Tree and AVL Tree",
+                  "Segment Tree",
+                  "Graph & Recursion",
+                  "Introduction to recursion",
+                  "Backtracking Algorithm",
+                  "Searching",
+                  "Sorting",
+                  "Greedy Algorithm",
+                  "Pattern Searching",
+                  "Dynamic Programming",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 2 :- Excel",
+                desc: [
+                  "Introduction to Excel",
+                  "Basic Formulas and Functions",
+                  "Data Formatting and Cell Styles",
+                  "Data Sorting and Filtering",
+                  "Charts and Graphs",
+                  "Data Validation and Protection",
+                  "PivotTables and PivotCharts",
+                  "Advanced Formulas and Functions",
+                  "Data Analysis Tools",
+                  "Excel Macros and Automation",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 3 :-  Project Management",
+                desc: [
+                  "Introduction to Excel",
+                  "Basic Formulas and Functions",
+                  "Data Formatting and Cell Styles",
+                  "Data Sorting and Filtering",
+                  "Charts and Graphs",
+                  "Data Validation and Protection",
+                  "PivotTables and PivotCharts",
+                  "Advanced Formulas and Functions",
+                  "Data Analysis Tools",
+                  "Excel Macros and Automation",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 4 :-  Business Analytics",
+                desc: [
+                  "Introduction to Business Analysis",
+                  "Stakeholders in Business Analysis",
+                  "Formulating Requirements",
+                  "Flowchart and Modelling",
+                  "Analysing andAnalysing and Transforming Requirements",
+                  "Finalising Requirements",
+                ],
+              },
+            },
+          ],
           id: 6,
           open: false,
         },
@@ -638,8 +757,8 @@ export const DataScienceCourseData = [
         data: [
           {
             id: 0,
-            ques: "What are the prerequisites for the Advanced Data Science and AI Program?",
-            ans: "There are no prerequisites for Advanced Data Science and AI Program, as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+            ques: "What are the prerequisites for the Data Science and AI Master Certification Program?",
+            ans: "There are no prerequisites for Data Science and AI Master Certification Program, as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
             open: true,
           },
           {
@@ -650,14 +769,14 @@ export const DataScienceCourseData = [
           },
           {
             id: 2,
-            ques: "What is a Flexi Subscription in the Advance Data Science and AI Program?",
+            ques: "What is a Flexi Subscription in the ⁠Data Science and AI Master Certification Program?",
             ans: `Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
             open: false,
           },
           {
             id: 3,
-            ques: "What’s the duration of the Advance Data Science and AI Program?",
-            ans: "The duration of this course is about 9 months (275 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch – 7 months, Monday to Friday – 2 hours/day, Weekend batch – 9 months, Saturday & Sunday – 3.5 hours/day",
+            ques: "What’s the duration of the ⁠Data Science and AI Master Certification Program?",
+            ans: "The duration of this course is about 13-15 months (500 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch – 13 months, Monday to Friday – 2 hours/day, Weekend batch – 15 months, Saturday & Sunday – 3.5 hours/day",
             open: false,
           },
           {
@@ -728,19 +847,19 @@ export const DataScienceCourseData = [
         data: [
           {
             id: 0,
-            ques: "What is the total Fee for the Advanced Data Science and AI Program?",
-            ans: "The total program fee for the Advanced Data Science and AI Program with Domain Specialization is INR 99,000 + 18% GST.",
+            ques: "What is the total Fee for the Data Science and AI Master Certification Program?",
+            ans: "The total program fee for the Data Science and AI Master Certification Program with Domain Specialization is INR 1,29,000 + 18% GST.",
             open: true,
           },
           {
             id: 1,
-            ques: "Can I pay in installments for the Advanced Data Science and AI Program?",
-            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 6,490/month up to 18 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+            ques: "Can I pay in installments for the Data Science and AI Master Certification Program?",
+            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 8,457/month up to 18 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
             open: false,
           },
           {
             id: 2,
-            ques: "Is there any scholarship/discount available for Advanced Data Science and AI Program? What is Group Discount?",
+            ques: "Is there any scholarship/discount available for Data Science and AI Master Certification Program? What is Group Discount?",
             ans: `Learnbay offers a 15 – 20% scholarship for early birds occasionally.
             Please check our website or contact our sales team to know more about the applicable discounts.
             
@@ -753,7 +872,7 @@ export const DataScienceCourseData = [
           },
           {
             id: 3,
-            ques: "What is the refund policy for the Advanced Data Science and AI Program at Learnbay?",
+            ques: "What is the refund policy for the Data Science and AI Master Certification Program at Learnbay?",
             ans: "Candidates are advised to read  ",
             linkText1: "Learnbay’s Refund/Cancellation Policy",
             link1: "/refund-cancellation-policy",
@@ -770,7 +889,7 @@ export const DataScienceCourseData = [
           {
             id: 0,
             ques: "How many capstone projects will be there?",
-            ans: "In this course, you’ll be required to work on 1 fresh capstone projects. This will help you get exposure to hands-on projects by implementing your theoretical knowledge gained throughout the training.",
+            ans: "In this course, you’ll be required to work on 3 fresh capstone projects. This will help you get exposure to hands-on projects by implementing your theoretical knowledge gained throughout the training.",
             open: true,
           },
           {

@@ -24,7 +24,7 @@ const NewProjectSection = dynamic(() =>
   import("../../Global/NewProjectSection/NewProjectSection")
 );
 
-const FAQNew = dynamic(() => import("../FAQNew/FAQNew"));
+const FAQNew = dynamic(() => import("../FAQNew/FAQNewDomain"));
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
 const Content = dynamic(() => import("../Content/content"));
 const SeventhSection = dynamic(() =>
@@ -79,10 +79,10 @@ const SecondPart = ({
         interstedInHide={true}
       />
       <ToolsCovered />
-      <Certificate data={CertificateData} singlecertificate={true} doubleCertificate={true} />
+      <Certificate data={CertificateData} />
       <FeeSection
-        Fee="₹ 1,00,000"
-        FeeEmi="₹ 6,556/month"
+        Fee="₹90,000"
+        FeeEmi="₹5,900/month"
         weekdaybatch="Weekend Batch"
         weekendbatch="Weekday Batch"
         weekday="SAT-SUN"
@@ -106,12 +106,12 @@ const SecondPart = ({
         // EMI POPUPDATA
         emiType = "NO COST EMI"
         duration1 = "18 Months"
-        totalAmount1 = "₹1,00,000"
-        monthlyPayment1 = "₹6,556"
+        totalAmount1 = "₹90,000"
+        monthlyPayment1 = "₹5,900"
         greenDown1 = "Standard Intrest rate Applicable"
         duration2 = "12 Months"
-        totalAmount2 = "₹1,00,000"
-        monthlyPayment2 = "₹9,833"
+        totalAmount2 = "₹90,000"
+        monthlyPayment2 = "₹8,850"
       />
       <MentorsSection />
       <SliderTab WithoutService={true}/>

@@ -220,7 +220,7 @@ export const DataScienceCourseData = [
         title: "Capstone Project Certificate from IBM",
         para: [
           "Globally recognized IBM certification based on industrial-level projects.",
-          "Work on 1 capstone project certified by IBM.",
+          "Earn 1 capstone project certification from IBM.",
           "Individualized project experience with easy access to premium job opportunities.",
         ],
       },
@@ -592,7 +592,7 @@ export const DataScienceCourseData = [
           {
             id: 0,
             ques: "What’s the eligibility for a job assistance program at Learnbay?",
-        
+
             ans: "You should have completed the course with : A minimum score of 70% in assessments. Should have completed the assignments and case studies. Worked and successfully completed the minimum recommended number of real-time projects.",
             open: true,
           },
@@ -627,7 +627,7 @@ export const DataScienceCourseData = [
           {
             id: 0,
             ques: "Until when will the students get the facility of mentorship?",
-        
+
             ans: "Our mentors will provide data science training to the students until the completion of the course.",
             open: true,
           },
@@ -646,7 +646,7 @@ export const DataScienceCourseData = [
           {
             id: 0,
             ques: "When is the job assistance provided at Learnbay and how long will I get it?",
-        
+
             ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
             open: true,
           },

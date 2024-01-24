@@ -53,7 +53,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Mask+group+(10).webp",
     title3: "Assured Job Assistance",
     jobAssistance: [
-      { icon: <BsDisplay />, text: "5-8 Interview Calls" },
+      { icon: <BsDisplay />, text: "8-10 Interview Calls" },
       { icon: <AiOutlineContainer />, text: "Resume Building Session" },
       { icon: <FaLinkedinIn />, text: "LinkedIn Profile Review" },
     ],
@@ -80,7 +80,6 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         videoId="tBKOlgHS-k8"
         softwareBtnHide={true}
         ibmOnly={true}
-        animationHide={true}
       />
       <CloudDevopsecond data={DsSecond} />
 

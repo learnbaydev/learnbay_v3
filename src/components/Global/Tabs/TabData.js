@@ -4,13 +4,13 @@ export const TabData = [
     title: "Popular Courses",
     courseName: [
       {
-        CName: "Advance Data Science and AI Certification",
-        hours: "11 Months",
-        url: "/datascience/advance-data-science-certification-courses",
+        CName: "Data Science and AI Master Certification Program",
+        hours: "13 Months",
+        url: "/datascience/data-science-and-ai-master-certification-program",
       },
       {
         CName: "Advance AI and ML Certification Program",
-        hours: "11 Months",
+        hours: "9 Months",
         url: "/datascience/artificial-intelligence-certification-course",
       },
       {
@@ -18,7 +18,11 @@ export const TabData = [
         hours: "18 Months",
         url: "/datascience/data-science-and-ai-masters-in-cs",
       },
-
+      {
+        CName: "Advance Data Science and AI Certification",
+        hours: "7 Months",
+        url: "/datascience/advance-data-science-certification-courses",
+      },
       {
         CName: "Cloud Computing & DevOps Certification Program",
         hours: "7 Months",
@@ -31,7 +35,7 @@ export const TabData = [
       },
       {
         CName: "Business Analytics Program",
-        hours: "9 Months",
+        hours: "7 Months",
         url: "/datascience/business-analytics-certification-course",
       },
       {
@@ -48,19 +52,24 @@ export const TabData = [
     title: "Certification Program",
     courseName: [
       {
-        CName: "Advance Data Science and AI Certification",
-        hours: "11 Months",
-        url: "/datascience/advance-data-science-certification-courses",
+        CName: "Data Science and AI Master Certification Program",
+        hours: "13 Months",
+        url: "/datascience/data-science-and-ai-master-certification-program",
       },
       {
         CName: "Advance AI and ML Certification Program",
-        hours: "11 Months",
+        hours: "9 Months",
         url: "/datascience/artificial-intelligence-certification-course",
       },
       {
         CName: "Cloud Computing & DevOps Certification Program",
         hours: "7 Months",
         url: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+      },
+      {
+        CName: "Advance Data Science and AI Certification",
+        hours: "7 Months",
+        url: "/datascience/advance-data-science-certification-courses",
       },
       {
         CName: "Software Development Certification Program",
@@ -70,18 +79,13 @@ export const TabData = [
 
       {
         CName: "Business Analytics Program",
-        hours: "9 Months",
+        hours: "7 Months",
         url: "/datascience/business-analytics-certification-course",
       },
       {
         CName: "Data Analytics Program",
         hours: "5 Months",
         url: "/datascience/data-analytics-certification-course",
-      },
-      {
-        CName: "Data Science Foundation Program",
-        hours: "5 Months",
-        url: "/datascience/data-science-certification-courses",
       },
       {
         CName: "Data Science & AI for BFSI Professionals",
@@ -100,7 +104,7 @@ export const TabData = [
       },
       {
         CName: "Data Science & AI Certification Program For Managers and Leaders",
-        hours: "9 Months",
+        hours: "11 Months",
         url: "/datascience/data-science-ai-for-managers",
       },
      

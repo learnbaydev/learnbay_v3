@@ -220,7 +220,7 @@ export const DADataScienceCourseData = [
         title: "Capstone Project Certificate from IBM",
         para: [
           "Globally recognized IBM certification based on industrial-level projects.",
-          "Work on 1 capstone project certified by IBM.",
+          "Earn 1 capstone project certification from IBM.",
           "Individualized project experience with easy access to premium job opportunities.",
         ],
       },

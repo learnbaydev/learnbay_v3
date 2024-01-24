@@ -6,6 +6,7 @@ const Certificate = ({
   data,
   singlecertificate,
   doubleCertificate,
+  projectWithCertificate,
 }) => {
   return NoCertificate ? (
     ""
@@ -14,6 +15,7 @@ const Certificate = ({
       <h4 className={styles.infop}>Globally Recognized Program</h4>
       <CertificateTabAdvance
       singlecertificate={singlecertificate}
+      projectWithCertificate={projectWithCertificate}
       doubleCertificate={doubleCertificate}
         degreeCertificate={data.degreeCertificate}
         projectCertificate={data.projectCertificate}

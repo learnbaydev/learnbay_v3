@@ -28,7 +28,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
     image1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/group_775.webp",
     points: [
       "Work in an industry like environment and gain practical hands-on experience",
-      "3 Real-World Capstone Projects",
+      "10 Real-World + 2 Capstone Projects",
     ],
     image2:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Mask-group-_32_-min.webp",
@@ -56,7 +56,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Mask+group+(10).webp",
     title3: "Assured Job Assistance",
     jobAssistance: [
-      { icon: <BsDisplay />, text: "5-8 Interview Calls" },
+      { icon: <BsDisplay />, text: "8-10 Interview Calls" },
       { icon: <AiOutlineContainer />, text: "Resume Building Session" },
       { icon: <FaLinkedinIn />, text: "LinkedIn Profile Review" },
     ],
@@ -73,16 +73,15 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         dataScience={true}
         ThirdTyped="Live Interactive Classes"
         titleCourse="HR Analytics Certification Program"
-        cityParaCont="Unlock HR Insights with Real-World Data Analysis Projects."
+        cityParaCont="Unlock HR Insights with Real-World Data Analysis Projects"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf"
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/HRHeader-min.webp"
         firstToparaImg=""
         firstHeading="HR Analytics Certification Program"
         firstTopPara=""
-        idss="kh54EexuNJo"
-        animationHide={true}
+        idss="cYwOjymzBbo"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/HRHeader-min.webp"
-        videoId="kh54EexuNJo"
+        videoId="cYwOjymzBbo"
         softwareBtnHide={true}
       />
       <CloudDevopsecond data={BASecond} />

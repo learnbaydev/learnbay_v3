@@ -29,7 +29,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
     image1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+773.webp",
     points: [
       "Work in an industry like environment and gain practical hands-on experience",
-      "3 Real-World Capstone Projects",
+      "10 Real-World + 2 Capstone Projects",
     ],
     image2:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Mask-group-_32_-min.webp",
@@ -53,7 +53,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Mask+group+(10).webp",
     title3: "Assured Job Assistance",
     jobAssistance: [
-      { icon: <BsDisplay />, text: "5-8 Interview Calls" },
+      { icon: <BsDisplay />, text: "8-10 Interview Calls" },
       { icon: <AiOutlineContainer />, text: "Resume Building Session" },
       { icon: <FaLinkedinIn />, text: "LinkedIn Profile Review" },
     ],
@@ -76,11 +76,10 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         firstToparaImg=""
         firstHeading="Data Science & AI for BFSI Professionals"
         firstTopPara=""
-        idss="M9tkkdcjFfU"
+        idss="ecI6FD8ElDs"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BFSIHeader-min.webp"
-        videoId="M9tkkdcjFfU"
+        videoId="ecI6FD8ElDs"
         softwareBtnHide={true}
-        animationHide={true}
       />
       <CloudDevopsecond data={BASecond} />
       {/* <SecondSection SecondSectionData={SecondSectionData} /> */}

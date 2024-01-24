@@ -89,14 +89,15 @@ const SecondPart = ({
         interstedInHide={true}
         buttonHide={true}
       />
-      <ToolsCovered />
+      <ToolsCovered foundation={true}/>
       <Certificate
         data={CertificateData}
-        singlecertificate={singlecertificate}
+        projectWithCertificate={true}
+        singlecertificate={true}
       />
       <FeeSection
-        Fee="₹ 80,000"
-        FeeEmi="₹ 5,244/month"
+        Fee="₹80,000"
+        FeeEmi="₹5,244/month"
         weekdaybatch="Weekday Batch"
         weekendbatch="Weekend  Batch"
         weekday="MON - FRI"

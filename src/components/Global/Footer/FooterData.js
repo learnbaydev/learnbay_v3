@@ -405,6 +405,32 @@ export const CourseData = [
     Head: "Courses",
     Courses: [
       {
+        id: 7,
+        name: "Data Science and AI Master Certification Program",
+        url: "/datascience/data-science-and-ai-master-certification-program",
+      },
+      {
+        id: 7,
+        name: "⁠Marketing Analytics Certification Program	",
+        url: "/datascience/marketing-analytics",
+      },
+      {
+        id: 7,
+        name: "HR Analytics Certification Program",
+        url: "/datascience/hr-analytics",
+      },
+      {
+        id: 7,
+        name: "Data Science and AI for BFSI Professionals	",
+        url: "/datascience/data-science-for-bfsi-professional",
+      },
+      {
+        id: 7,
+        name: "Data Science and AI Certification Program for Managers and Leaders",
+        url: "/datascience/data-science-ai-for-managers",
+      },
+
+      {
         id: 1,
         url: "/datascience/advance-data-science-certification-courses",
         name: "Advance Data Science and AI Certification",
@@ -427,7 +453,7 @@ export const CourseData = [
       {
         id: 5,
         url: "/datascience/business-analytics-certification-course",
-        name: "Business Analytics Program",
+        name: "Business Analytics Master Certification Program",
       },
       {
         id: 6,

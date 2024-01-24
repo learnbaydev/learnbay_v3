@@ -81,8 +81,6 @@ const SecondPart = ({
       <ToolsCovered />
       <Certificate
         data={CertificateData}
-        doubleCertificate={true}
-        singlecertificate={true}
       />
       <FeeSection
         Fee="₹ 75,000"
