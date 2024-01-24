@@ -126,7 +126,7 @@ const SecondPart = ({
       />
 
       <MentorsSection />
-      <SliderTab />
+      <SliderTab WithoutService={true}/>
       <PlacementCall />
 
       <NewProjectSection

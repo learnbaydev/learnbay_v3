@@ -47,15 +47,15 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
     jobRoles: [
       {
         icon: <FaReact />,
-        role: "Sr. Data Scientist: ",
-        salary: " 27 LPA",
+        role: "Sr. ML Engineer ",
+        salary: " 33 LPA",
       },
       {
         icon: <TbBrandGoogleAnalytics />,
-        role: "Sr. Data Analyst:",
-        salary: " 15 LPA",
+        role: "Sr. AI Engineer ",
+        salary: " 20.9 LPA",
       },
-      { icon: <BsPersonGear />, role: "ML Engineer: ", salary: "14 LPA" },
+      { icon: <BsPersonGear />, role: "NLP Engineer ", salary: "13 LPA" },
     ],
     image3:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group-768-min.webp",
@@ -63,7 +63,7 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Mask+group+(10).webp",
     title3: "Assured Job Assistance",
     jobAssistance: [
-      { icon: <BsDisplay />, text: "Unlimited Interview Calls" },
+      { icon: <BsDisplay />, text: "8-10 Interview Calls" },
       { icon: <AiOutlineContainer />, text: "Resume Building Session" },
       { icon: <FaLinkedinIn />, text: "LinkedIn Profile Review" },
     

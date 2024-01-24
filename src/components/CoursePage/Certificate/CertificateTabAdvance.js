@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./Certificate.module.css";
 import Image from "next/image";
 import { BsCheckCircle } from "react-icons/bs";
-function CertificateTab({ data, singlecertificate, doubleCertificate }) {
+function CertificateTab({ data, singlecertificate, doubleCertificate, projectWithCertificate }) {
   const [MActive, setMActive] = useState(false);
   const [IActive, setIActive] = useState(true);
   const [IBCActive, setIBCActive] = useState(false);
@@ -59,6 +59,22 @@ function CertificateTab({ data, singlecertificate, doubleCertificate }) {
             >
               Microsoft
             </p>
+          </>
+          ) : (
+            ""
+          )}
+          {projectWithCertificate ? (
+            <>
+            <p
+                onClick={() => {
+                  setIActive(false);
+                  setMActive(false);
+                  setIBCActive(true);
+                }}
+                className={IBCActive ? styles.activeP : styles.inactiveP}
+              >
+                Project Certificate
+              </p>
           </>
           ) : (
             ""

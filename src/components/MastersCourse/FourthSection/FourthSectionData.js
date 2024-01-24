@@ -17,7 +17,7 @@ export const PlacementDS = [
   {
     id: 4,
     img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/4.png",
-    desc: "Get 5-8 interview calls",
+    desc: "Get 8-10 interview calls",
   },
 ];
 

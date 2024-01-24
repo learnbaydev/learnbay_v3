@@ -220,7 +220,7 @@ export const BFSIDataScienceCourseData = [
         title: "Capstone Project Certificate from IBM",
         para: [
           "Globally recognized IBM certification based on industrial-level projects.",
-          "Work on 1 capstone project certified by IBM.",
+          "Earn 1 capstone project certification from IBM.",
           "Individualized project experience with easy access to premium job opportunities.",
         ],
       },
@@ -341,7 +341,7 @@ export const BFSIDataScienceCourseData = [
       {
         Module0: {
           title:
-            "TERM 3 :- Database, Data Visualisation & Sparks Analytics and Time Series, ",
+            "TERM 3 :- Database, Data Visualisation & Sparks Analytics and Time Series",
           content: [
             {
               chap: {
@@ -412,36 +412,189 @@ export const BFSIDataScienceCourseData = [
       },
       {
         Module0: {
-          title:
-            "TERM 4 :- Deep Learning Using Tensorflow, NLP & Deployment AWS+Azure",
+          title: "TERM 4 :- AI TOOLS",
           content: [
             {
               chap: {
-                title: "Module 1 :- Deep Learning Using Tensorflow",
+                title: "Module 1 :- Deep Learning ",
                 desc: [
                   "Introduction to Deep Learning And TensorFlow",
-                  "Understanding Neural Networks With TensorFlow",
-                  "TensorFlow Classification Examples",
-                  "Convolutional Neural Network (CNN)",
+                  "TensorFlow Classification Example",
+                  "⁠Understanding Neural Networks With TensorFlow",
+                  "⁠Convolutional Neural Network (CNN",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 2 :- NLP",
+                desc: [
+                  "Natural Language Processing",
+                  "Text Analysis",
+                  "KNN",
+                ],
+              },
+            },
+          ],
+          id: 4,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "TERM 5 :- Deployment ",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :-  Deployment AWS+Azure ",
+                desc: [
+                  "Data Preparation and Feature Engineering",
+                  "Model Training and Evaluation",
+                  "Model Deployment and Management",
+                  "Advanced Topics in Machine Learning on AWS and Azure",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "BONUS :- AI Generative Tools and Future Trends",
+          content: [
+            {
+              chap: {
+                title:
+                  "Module 1 :- Emerging Trends in AI and Generative Modeling",
+                desc: [
+                  "Exploring other AI generative tools beyond ChatGPT and DALL·E",
+                  "Discussion on future trends and advancements in AI generative tools",
+                  "Open-ended project and/or presentation on a selected topic, incorporating learned concepts",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 2 :- Natural Language Processing",
-                desc: ["Natural Language Processing", "Text Analysis", "KNN"],
+                title: "Module 2 :- Natural Language Processing and ChatGPT",
+                desc: [
+                  "Introduction to natural language processing techniques",
+                  "Understanding ChatGPT and its architecture",
+                  "Hands-on exercises using ChatGPT for text generation",
+                  "Fine-tuning ChatGPT for specific applications",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 3 :- DALL·E: Image Generation with AI",
+                desc: [
+                  "Exploring image generation using DALL·E",
+                  "Hands-on exercises for creating unique images with DALL·E",
+                  "Ethical considerations and limitations of AI-generated images",
+                ],
               },
             },
             {
               chap: {
-                title: " Module 3 :- Deployment AWS+Azure",
+                title:
+                  "Module 4 :-  Graph Neural Networks (GNN) for Data Analysis",
                 desc: [
-                  "Introduction to AWS and Azure Machine Learning Services",
-                  "Data Preparation and Feature Engineering",
-                  "Setting up the Environment",
-                  "Model Training and Evaluation",
-                  "Model Deployment and Management",
-                  "Advanced Topics in Machine Learning on AWS and Azure",
+                  "Overview of Graph Neural Networks (GNN) and their applications",
+                  "Hands-on exercises using GNN for tasks such as node classification and link prediction",
+                  "Case studies on real-world applications of GNN in data science",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 5 :- Python Bootcamp for AI",
+                desc: [
+                  "Python Essentials: Syntax, Data Types, and Variables",
+                  "Flow Control: Conditionals and Loops",
+                  "Functions and Custom Modules",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 6 :- Build Your Interview Assistant",
+                desc: [
+                  "Project Overview: Interview Automation Bot",
+                  "Components & Architecture",
+                  "Natural Language Models (LLMs): Introduction and Uses",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 7 :- Visual AI for eCommerce",
+                desc: [
+                  "Introduction: Digital Transformation for Offline Businesses",
+                  "Multimodal Models: DALL-E and Beyond",
+                  "Style & Photography Principles for Visual AI",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 8 :- Intelligent News Aggregator",
+                desc: [
+                  "Project Outline: Personalized News Recommendation",
+                  "GPT-3 & Copilot for Code Automation",
+                  "Data Loading and Cleaning Techniques",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 9 :- Customer Support Bot - HelpMate Pro",
+                desc: [
+                  "Project Introduction and Components",
+                  "Embeddings vs Fine-Tuning: When and How",
+                  "Semantic Search in Customer Service",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 10 :- Knowledge Discovery Bot",
+                desc: [
+                  "Project Overview and Architecture",
+                  "LangChain Tools and Concepts",
+                  "Backend Development with Vectorstore",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 11 :- Azure OpenAI Integration",
+                desc: [
+                  "OpenAI on Azure: Services and Scalability",
+                  "Revisiting HelpMate Pro: Scaling Strategy",
+                  "UI/UX Best Practices for Bots",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 12 :- The Future & Ethics of Generative AI",
+                desc: [
+                  "Responsible AI: Bias and Fairness",
+                  "Future Trends: Multimodal Models and RLHF",
+                  "Closing Remarks",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Capstone Project",
+                desc: [
+                  "Building an Integrated Prompt Engineering Solution",
+                  "Project Submission and Peer Review",
                 ],
               },
             },
@@ -499,19 +652,19 @@ export const BFSIDataScienceCourseData = [
         ],
       },
       {
-        id: 2,
+        id: 1,
         sectionName: "Payments and Scholarships",
         data: [
           {
             id: 0,
             ques: "What is the total fee for the Data Science and AI for BFSI Professionals Program?",
-            ans: "We offer industry-specific full-stack BFSI modules, via which you learn the respective industry’s best practices.The total program fee for the Data Science and AI for BFSI Professionals Program is INR 89,000 + 18% GST.",
+            ans: "We offer industry-specific full-stack BFSI modules, via which you learn the respective industry’s best practices.The total program fee for the Data Science and AI for BFSI Professionals Program is INR 90,000 + 18% GST.",
             open: true,
           },
           {
             id: 1,
-            ques: "Can I pay in installments for INR 89,000 + 18% GST ?",
-            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 8,752/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
+            ques: "Can I pay in installments for INR 90,000 + 18% GST ?",
+            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 5,900/month up to 18 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
             linkText1: " +917795687988 ",
             link1: "tel:+917795687988",
             link: true,
@@ -544,7 +697,7 @@ export const BFSIDataScienceCourseData = [
         ],
       },
       {
-        id: 3,
+        id: 2,
         sectionName: "Capstone and Real-Time Projects",
         data: [
           {
@@ -567,7 +720,7 @@ export const BFSIDataScienceCourseData = [
         ],
       },
       {
-        id: 4,
+        id: 3,
         sectionName: "Certification",
         data: [
           {
@@ -579,7 +732,7 @@ export const BFSIDataScienceCourseData = [
         ],
       },
       {
-        id: 5,
+        id: 4,
         sectionName: "Job Assistance",
         data: [
           {
@@ -617,7 +770,7 @@ export const BFSIDataScienceCourseData = [
         ],
       },
       {
-        id: 6,
+        id: 5,
         sectionName: "Mentorship",
         data: [
           {
@@ -636,7 +789,7 @@ export const BFSIDataScienceCourseData = [
         ],
       },
       {
-        id: 7,
+        id: 6,
         sectionName: "Support",
         data: [
           {

@@ -2,34 +2,34 @@ import { ThirdSectionData } from "@/Data/ThirdSectionData";
 import dynamic from "next/dynamic";
 import React from "react";
 const SecondNavbar = dynamic(() =>
-  import("../../../components/CoursePage/SecondNavbar/SecondNavbar")
+  import("../SecondNavbar/SecondNavbar")
 );
 const WhoProgram = dynamic(() =>
-  import("../../../components/CoursePage/WhoProgram/ThirdSection")
+  import("../WhoProgram/ThirdSection")
 );
 const TrainerSection = dynamic(() =>
-  import("../../../components/Global/TrainerSection/TrainerSection")
+  import("../../Global/TrainerSection/TrainerSection")
 );
 const Testimonial = dynamic(() =>
-  import("../../../components/Global/Testimonial/Testimonial")
+  import("../../Global/Testimonial/Testimonial")
 );
 const WhoIsProgram = dynamic(() =>
-  import("../../CoursePage/WhoIsProgram/WhoIsProgram")
+  import("../WhoIsProgram/WhoIsProgram")
 );
 const WhyLearnbay = dynamic(() =>
-  import("../../CoursePage/WhyLearnbay/WhyLearnbay")
+  import("../WhyLearnbay/WhyLearnbay")
 );
 const GetHire = dynamic(() => import("../../Home/GetHire/GetHire"));
 const ContactConsellor = dynamic(() =>
-  import("../../CoursePage/ContactCounsellor/ContactCounsellor")
+  import("../ContactCounsellor/ContactCounsellor")
 );
 const CloudDevopsecond = dynamic(() =>
   import(
-    "../../CoursePage/cloud&devops/DevOpsSecondSection/DevOpsSecondSection"
+    "../cloud&devops/DevOpsSecondSection/DevOpsSecondSection"
   )
 );
 const FirstSection = dynamic(() =>
-  import("../../CoursePage/FirstSection/FirstSection")
+  import("../FirstSection/FirstSection")
 );
 
 import { AiOutlineContainer } from "react-icons/ai";
@@ -51,22 +51,23 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
     jobRoles: [
       {
         icon: <FaReact />,
-        role: "Data Science Manager ",
-        salary: "33 LPA",
+        role: "Sr. Data Scientist ",
+        salary: " 27 LPA",
       },
       {
         icon: <TbBrandGoogleAnalytics />,
-        role: "AI Project Manager ",
-        salary: " 17.3 LPA",
+        role: "Sr. Data Analyst",
+        salary: " 15 LPA",
       },
-      { icon: <BsPersonGear />, role: "BI Engineer ", salary: "22.2 LPA" },
+      { icon: <BsPersonGear />, role: "ML Engineer ", salary: "14 LPA" },
     ],
-    image3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Frame+42.webp",
+    image3:
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group-768-min.webp",
     image4:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Mask+group+(10).webp",
     title3: "Assured Job Assistance",
     jobAssistance: [
-      { icon: <BsDisplay />, text: "8-10 Interview Calls" },
+      { icon: <BsDisplay />, text: "Unlimited Interview Calls" },
       { icon: <AiOutlineContainer />, text: "Resume Building Session" },
       { icon: <FaLinkedinIn />, text: "LinkedIn Profile Review" },
     ],
@@ -81,24 +82,24 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         interstedInHide={true}
         ThirdTyped="Live Interactive Classes"
         dataScience={true}
-        titleCourse="Data Science & AI Certification Program For Managers and Leaders"
-        cityParaCont="Empowering Leaders with AI & Data Science Expertise"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
+        titleCourse="Data Science and AI Master Certification Program"
+        cityParaCont="Excel in your industry with domain specialization"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf"
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Adv-dsai-_1_-min.webp"
-        firstToparaImg="For Managers and Leaders"
-        firstHeading="Data Science & AI Certification Program"
+        firstToparaImg="Master Certification Program"
+        firstHeading="Data Science and AI"
         firstTopPara="Curriculum Inclusive of Gen-AI "
-        idss="osYNvuuI1_8"
-        thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/managers+and+leaders-min.webp"
-        videoId="osYNvuuI1_8"
+        idss="YWxTtvb3x-U"
+        thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Foundation+program-min.webp"
+        videoId="YWxTtvb3x-U"
         softwareBtnHide={true}
       />
       <CloudDevopsecond data={DsSecond} />
       <SecondNavbar
         interstedInHide={true}
         dataScience={true}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
-        titleCourse="Data Science & AI Certification Program For Managers and Leaders"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf"
+        titleCourse="Data Science and AI Master Certification Program"
       />
       <WhoProgram
         dataScience={true}
@@ -109,8 +110,8 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} />
       <WhoIsProgram
         first="Bachelor's degree with consistent good academic"
-        second="Minimum 8 years of IT/Non-IT work experience"
-        third="Working professionals interested in Data Science & AI"
+        second="Minimum 6 Months of IT/Non-IT work experience"
+        third="Early to mid-career professionals interested in data science"
         forth="Developing skills in data science for future opportunities"
       />
       <WhyLearnbay idss="ZPOTy4PEnNU" />
@@ -118,8 +119,8 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       <ContactConsellor
         dataScience={true}
         interstedInHide={true}
-        titleCourse="Data Science & AI Certification Program For Managers and Leaders"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
+        titleCourse="Data Science and AI Master Certification Program"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf"
       />
     </>
   );

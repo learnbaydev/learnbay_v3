@@ -41,7 +41,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ds-two.webp",
     points: [
       "Work in an industry like environment and gain practical hands-on experienc",
-      "2 Real-World Capstone Projects",
+      "12 Real-World + 4 Capstone Projects",
     ],
     image2:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/BA.webp",
@@ -80,12 +80,12 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         interstedInHide={true}
         dataScience={true}
         ThirdTyped="Live Interactive Classes"
-        titleCourse="Business Analytics Certification Program"
+        titleCourse="Businesss Analytics Master Certification Program"
         cityParaCont="Elevate your tech career with our programs"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BA-min.webp"
         firstToparaImg=""
-        firstHeading="Business Analytics Certification Program"
+        firstHeading="Businesss Analytics Master Certification Program"
         firstTopPara="Get real-world experience with capstone projects"
         idss="CHut_wm-P2s"
          thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ba-f.webp"
@@ -113,7 +113,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       <GetHire />
       <ContactConsellor
         dataScience={true}
-        titleCourse="Business Analytics Certification Program"
+        titleCourse="Businesss Analytics Master Certification Program"
         interstedInHide={true}
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
       />

@@ -17,7 +17,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
       if (popupResponse.status === 200) {
         const { popData } = await popupResponse.json();
         const foundPopup = popData.find((data) =>
-          data.page.includes("Business Analytics Program")
+          data.page.includes("Business Analytics master Certification Program")
         );
         if (foundPopup) {
           setPopupData(foundPopup);
@@ -70,12 +70,12 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <title>Best Online Data Science Courses | Online Data Science Training - Learnbay</title>
         <meta
           name="description"
-          content="Elevate your business acumen with our comprehensive Business Analytics Program. Gain valuable insights, enhance decision-making, and drive success through advanced analytics tools and strategies. Enroll today for a data-driven future."
+          content="Elevate your business acumen with our comprehensive Business Analytics master Certification Program. Gain valuable insights, enhance decision-making, and drive success through advanced analytics tools and strategies. Enroll today for a data-driven future."
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="business analytics course, business analytics certification course, business analytics certification, business analyst training, hr analytics course, business analyst course online, marketing analytics course, business analyst certification course, best business analyst course, best business analyst certification          "
+          content="business analytics master course, business analytics master certification course, business analytics master certification, business analyst training, hr analytics course, business analyst course online, marketing analytics course, business analyst certification course, best business analyst course, best business analyst certification          "
         />
         <link
           rel="icon"
@@ -91,8 +91,8 @@ function Blockchain({ DataScienceCourseDataJson }) {
           __html: `{
             "@context": "http://schema.org",
             "@type": "Course",
-            "name": "Businesss Analytics Certification Program",
-            "description": "Upskill yourself with cutting edge Business Analytics Skills and Techniques by enrolling into the Learnbay's Business Analaytics certification Course.",
+            "name": "Businesss Analytics Master Certification Program",
+            "description": "Upskill yourself with cutting edge Business Analytics master Skills and Techniques by enrolling into the Learnbay's Business Analaytics certification Course.",
             "url": "https://www.learnbay.co/datascience/business-analytics-certification-course",
             "offers": {
               "@type": "Offer",
@@ -105,7 +105,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
                   "name": "Learnbay",
                   "Url": "https://www.learnbay.co/"
                 },
-            "coursePrerequisites": "There are no prerequisites for this Business Analytics certification course as all modules are beginner-friendly and are taught from scratch. ",
+            "coursePrerequisites": "There are no prerequisites for this Business Analytics master certification course as all modules are beginner-friendly and are taught from scratch. ",
             "hasCourseInstance": [
               {
                 "@type": "CourseInstance",
