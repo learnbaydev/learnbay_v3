@@ -34,7 +34,7 @@ export const TabData = [
         url: "/fullstack/full-stack-software-development-program",
       },
       {
-        CName: "Business Analytics Program",
+        CName: "Business Analytics Master Certification Program",
         hours: "7 Months",
         url: "/datascience/business-analytics-certification-course",
       },
@@ -78,14 +78,9 @@ export const TabData = [
       },
 
       {
-        CName: "Business Analytics Program",
+        CName: "Business Analytics Master Certification Program",
         hours: "7 Months",
         url: "/datascience/business-analytics-certification-course",
-      },
-      {
-        CName: "Data Analytics Program",
-        hours: "5 Months",
-        url: "/datascience/data-analytics-certification-course",
       },
       {
         CName: "Data Science & AI for BFSI Professionals",
@@ -98,14 +93,19 @@ export const TabData = [
         url: "/datascience/hr-analytics",
       },
       {
+        CName: "Data Science & AI Certification Program For Managers and Leaders",
+        hours: "11 Months",
+        url: "/datascience/data-science-ai-for-managers",
+      },
+      {
         CName: "Marketing Analytics Certification Program",
         hours: "5 Months",
         url: "/datascience/marketing-analytics",
       },
       {
-        CName: "Data Science & AI Certification Program For Managers and Leaders",
-        hours: "11 Months",
-        url: "/datascience/data-science-ai-for-managers",
+        CName: "Data Analytics Program",
+        hours: "5 Months",
+        url: "/datascience/data-analytics-certification-course",
       },
      
     ],

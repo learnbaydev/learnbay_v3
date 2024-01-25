@@ -11,7 +11,7 @@
   display: grid;
   grid-template-columns: 55% 31%;
   margin-bottom: 100px;
-  padding: 0px 100px;
+  padding: 50px 100px 0px 100px;
   justify-content: space-between;
   gap: 180px;
   align-items: flex-end;
