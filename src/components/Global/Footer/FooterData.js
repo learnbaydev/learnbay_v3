@@ -443,7 +443,7 @@ export const CourseData = [
       {
         id: 3,
         url: "/datascience/data-science-and-ai-masters-in-cs",
-        name: "Master in CS: Data Science and AI",
+        name: "Master's Degree in CS: Data Science and AI",
       },
       {
         id: 4,

@@ -6,7 +6,7 @@ const HomeLine = () => {
   return (
     <div className={styles.feature}>
       <p>
-        Get Coached by the Industry's Best: <span>Top 1% Tech Mentors</span>
+        Learn from <span>Top 1% Tech Mentors</span>
       </p>
       <div className={styles.container}>
         <div className="imgWrapper">
