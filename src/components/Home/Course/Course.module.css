@@ -634,7 +634,7 @@
 }
 
 .divBox {
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
 .bellIcon {
@@ -723,7 +723,7 @@
 
 .gridPanel {
   display: flex;
-  height: 550px;
+  height: 510px;
   width: 100%;
   max-height: 700px;
   gap: 20px;
@@ -748,7 +748,7 @@
   position: relative;
   border-radius: 8px;
   width: 33%;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-left: 10px;
 }
 

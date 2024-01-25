@@ -221,6 +221,7 @@ const Course = ({
                                       className={styles.contButton}
                                       style={{
                                         borderRadius: "8px 8px 8px 8px",
+                                        cursor: "pointer",
 
                                         marginTop: "-12px",
                                         zIndex: "0",
@@ -314,6 +315,7 @@ const Course = ({
                                               color: "#2979AD",
                                               background: "#fff",
                                               borderRadius: "8px 8px 8px 8px",
+                                              cursor: "pointer",
                                             }}
                                           >
                                             Brochure
@@ -340,6 +342,7 @@ const Course = ({
                                               }
                                               style={{
                                                 borderRadius: "8px 8px 8px 8px",
+                                                cursor: "pointer",
                                               }}
                                             >
                                               View Details
@@ -361,6 +364,7 @@ const Course = ({
                                               }
                                               style={{
                                                 borderRadius: "8px 8px 8px 8px",
+                                                cursor: "pointer",
                                               }}
                                             >
                                               View Details
