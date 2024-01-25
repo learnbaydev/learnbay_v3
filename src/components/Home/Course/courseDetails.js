@@ -4,9 +4,29 @@ export const courseDetails = [
     title: "Popular Courses",
     courses: [
       {
-        courseName: "Domain Courses",
-        id: "Domain Courses",
+        courseName: "Domain Certification Courses",
+        id: "Domain Certification Courses",
         courseDetails: [
+          
+          {
+            id: 11,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/HR-Course-min.webp",
+            title: "HR Analytics",
+            title1: "Certification Program",
+            tagHead: "Guaranteed Interview Call",
+            tag: "Data science",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
+            titleCourse: "HR Analytics Certification Program",
+            para: [
+              "5 months | 2 capstone projects",
+              "Global Certification form IBM",
+              "Guaranteed Interview Calls",
+            ],
+            link1: "/datascience/hr-analytics",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
+          },
           {
             id: 13,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Managers-Course-min.webp",
@@ -28,27 +48,8 @@ export const courseDetails = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
           },
           {
-            id: 11,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/HR-Course-min.webp",
-            title: "HR Analytics",
-            title1: "Certification Program",
-            tagHead: "Guaranteed Interview Call",
-            tag: "Data science",
-            brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
-            titleCourse: "HR Analytics Certification Program",
-            para: [
-              "5 months | 2 capstone projects",
-              "Global Certification form IBM",
-              "Guaranteed Interview Calls",
-            ],
-            link1: "/datascience/hr-analytics",
-            link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
-          },
-          {
             id: 10,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BFSI-Course.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BFSI-new.webp",
             title: "Data Science & AI",
             title1: "for BFSI Professionals",
             tagHead: "Guaranteed Interview Call",
@@ -67,7 +68,7 @@ export const courseDetails = [
           },
           {
             id: 12,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Marketing-course-min.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Marketing-course-new.webp",
             title: "Marketing Analytics",
             title1: "Certification Program",
             tagHead: "Guaranteed Interview Call",
@@ -87,8 +88,8 @@ export const courseDetails = [
         ],
       },
       {
-        courseName: "Data Science Courses",
-        id: "Data Science Courses",
+        courseName: "Our Certification Courses",
+        id: "Our Certification Courses",
         courseDetails: [
           {
             id: 4,
@@ -110,8 +111,28 @@ export const courseDetails = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
           },
           {
+            id: 9,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Master-Certification-New-one.webp",
+            title: "Data Science and AI",
+            title1: "Master Certification Program",
+            tagHead: "Guaranteed Interview Call",
+            tag: "Data science",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf",
+            titleCourse: "Data Science and AI Master Certification Program",
+            para: [
+              "13 months | 4 capstone projects",
+              "Global Certification form IBM",
+              "1-on-1 Live Doubt Session",
+            ],
+            link1:
+              "/datascience/data-science-and-ai-master-certification-program",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf",
+          },
+          {
             id: 7,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-3.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BA-New.webp",
             title: "Business Analytics",
             title1: "Master Certification Program",
             tagHead: "For Working Professional",
@@ -148,26 +169,7 @@ export const courseDetails = [
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
           },
-          {
-            id: 9,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/FoundationCourse.webp",
-            title: "Data Science and AI",
-            title1: "Master Certification Program",
-            tagHead: "Guaranteed Interview Call",
-            tag: "Data science",
-            brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf",
-            titleCourse: "Data Science and AI Master Certification Program",
-            para: [
-              "13 months | 4 capstone projects",
-              "Global Certification form IBM",
-              "1-on-1 Live Doubt Session",
-            ],
-            link1:
-              "/datascience/data-science-and-ai-master-certification-program",
-            link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf",
-          },
+          
           
           {
             id: 1,
@@ -188,27 +190,7 @@ export const courseDetails = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
           },
 
-          {
-            id: 2,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/masters-11.webp",
-            title: "Master's Degree in CS:",
-            title1: "Data Science and AI",
-            tagHead: "Crack Job Interviews",
-            tag: "Full stack",
-            Green: true,
-            brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf",
-            titleCourse: "Master's Degree in CS: Data Science and AI",
-            para: [
-              "18 months | 3 Projects",
-              "Globally recognized degree",
-              "Designed by industry experts",
-            ],
-            newDesign: true,
-            link1: "datascience/data-science-and-ai-masters-in-cs",
-            link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf",
-          },
+          
           
 
           {
@@ -236,8 +218,8 @@ export const courseDetails = [
         ],
       },
       {
-        courseName: "Cloud & DevOps and Fullstack",
-        id: "Cloud & DevOps and Fullstack",
+        courseName: "",
+        id: "",
         courseDetails: [
           {
             id: 1,
@@ -278,6 +260,27 @@ export const courseDetails = [
             link1: "/fullstack/full-stack-software-development-program",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
+          },
+          {
+            id: 2,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/masters-11.webp",
+            title: "Master's Degree in CS:",
+            title1: "Data Science and AI",
+            tagHead: "Crack Job Interviews",
+            tag: "Full stack",
+            Green: true,
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf",
+            titleCourse: "Master's Degree in CS: Data Science and AI",
+            para: [
+              "18 months | 3 Projects",
+              "Globally recognized degree",
+              "Designed by industry experts",
+            ],
+            newDesign: true,
+            link1: "datascience/data-science-and-ai-masters-in-cs",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf",
           },
         ],
       },
@@ -290,8 +293,8 @@ export const courseDetailsM = [
     title: "Popular Courses",
     courses: [
       {
-        courseName: "Domain Courses",
-        id: "Domain Courses",
+        courseName: "Domain Certification Courses",
+        id: "Domain Certification Courses",
         courseDetails: [
           {
             id: 13,
@@ -334,7 +337,7 @@ export const courseDetailsM = [
           },
           {
             id: 10,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BFSI-Course.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BFSI-new.webp",
             title: "Data Science & AI",
             title1: "for BFSI Professionals",
             tagHead: "Guaranteed Interview Call",
@@ -353,7 +356,7 @@ export const courseDetailsM = [
           },
           {
             id: 12,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Marketing-course-min.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Marketing-course-new.webp",
             title: "Marketing Analytics",
             title1: "Certification Program",
             tagHead: "Guaranteed Interview Call",
@@ -373,12 +376,12 @@ export const courseDetailsM = [
         ],
       },
       {
-        courseName: "Data Science Courses",
-        id: "Data Science Courses",
+        courseName: "Our Certification Courses",
+        id: "Our Certification Courses",
         courseDetails: [
           {
             id: 9,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/FoundationCourse.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Master-Certification-New-one.webp",
             title: "Data Science and AI",
             title1: "Master Certification Program",
             tagHead: "Guaranteed Interview Call",
@@ -398,7 +401,7 @@ export const courseDetailsM = [
           },
           {
             id: 7,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-3.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BA-New.webp",
             title: "Business Analytics",
             title1: "Master Certification Program",
             tagHead: "For Working Professional",
@@ -519,8 +522,8 @@ export const courseDetailsM = [
         ],
       },
       {
-        courseName: "Cloud & DevOps and Fullstack",
-        id: "Cloud & DevOps and Fullstack",
+        courseName: "",
+        id: "",
         courseDetails: [
           {
             id: 1,
@@ -561,6 +564,33 @@ export const courseDetailsM = [
             link1: "/fullstack/full-stack-software-development-program",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
+          },
+        ],
+      },
+      {
+        courseName: "Master's Degree Program",
+        id: "Master's Degree Program",
+        courseDetails: [
+          {
+            id: 2,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/masters-11.webp",
+            title: "Master's Degree in CS:",
+            title1: "Data Science and AI",
+            tagHead: "Crack Job Interviews",
+            tag: "Full stack",
+            Green: true,
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf",
+            titleCourse: "Master's Degree in CS: Data Science and AI",
+            para: [
+              "18 months | 3 Projects",
+              "Globally recognized degree",
+              "Designed by industry experts",
+            ],
+            newDesign: true,
+            link1: "datascience/data-science-and-ai-masters-in-cs",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf",
           },
         ],
       },
