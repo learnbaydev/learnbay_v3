@@ -19,7 +19,7 @@ export const courseDetails = [
             para: [
               "7 months | 2 capstone projects",
               "Project Certification from IBM",
-              "Bridge your career gape",
+              "Bridge your career gap",
             ],
             link1: "/datascience/advance-data-science-certification-courses",
             link2:
@@ -124,7 +124,7 @@ export const courseDetails = [
             para: [
               "7 months | 2 capstone projects",
               "Project Certification from IBM",
-              "Bridge your career gape",
+              "Bridge your career gap",
             ],
             link1: "/datascience/advance-data-science-certification-courses",
             link2:
@@ -185,7 +185,7 @@ export const courseDetails = [
             titleCourse: "Advance AI and ML Certification Program",
             para: [
               "9 months | 2 capstone projects",
-              "Dual certification",
+              "Triple certification program",
               "Inclusive of Generative-AI",
             ],
             link1: "/datascience/artificial-intelligence-certification-course",
@@ -248,7 +248,7 @@ export const courseDetails = [
             para: [
               "11 months | 4 projects",
               "Crack interview in top MNCs",
-              "Bridge your career gape",
+              "Bridge your career gap",
             ],
             link1: "/fullstack/full-stack-software-development-program",
             link2:
@@ -356,7 +356,7 @@ export const courseDetails = [
   //           para: [
   //             "11 months | 4 projects",
   //             "Project Certification from IBM",
-  //             "Bridge your career gape",
+  //             "Bridge your career gap",
   //           ],
   //           link1: "/datascience/advance-data-science-certification-courses",
   //           link2:
@@ -374,7 +374,7 @@ export const courseDetails = [
   //           titleCourse: "Advance AI and ML Certification Program",
   //           para: [
   //             "11 months | 3 projects",
-  //             "Dual certification",
+  //             "Triple certification program",
   //             "Inclusive of Generative-AI",
   //           ],
   //           link1: "/datascience/artificial-intelligence-certification-course",
@@ -432,7 +432,7 @@ export const courseDetails = [
   //           para: [
   //             "11 months | 4 projects",
   //             "Crack interview in top MNCs",
-  //             "Bridge your career gape",
+  //             "Bridge your career gap",
   //           ],
   //           link1: "/fullstack/full-stack-software-development-program",
   //           link2:
@@ -550,7 +550,7 @@ export const courseDetailsM = [
             para: [
               "7 months | 2 capstone projects",
               "Project Certification from IBM",
-              "Bridge your career gape",
+              "Bridge your career gap",
             ],
             link1: "/datascience/advance-data-science-certification-courses",
             link2:
@@ -590,7 +590,7 @@ export const courseDetailsM = [
             titleCourse: "Advance AI and ML Certification Program",
             para: [
               "9 months | 2 capstone projects",
-              "Dual certification",
+              "Triple certification program",
               "Inclusive of Generative-AI",
             ],
             link1: "/datascience/artificial-intelligence-certification-course",
@@ -631,7 +631,7 @@ export const courseDetailsM = [
             para: [
               "11 months | 4 projects",
               "Crack interview in top MNCs",
-              "Bridge your career gape",
+              "Bridge your career gap",
             ],
             link1: "/fullstack/full-stack-software-development-program",
             link2:
