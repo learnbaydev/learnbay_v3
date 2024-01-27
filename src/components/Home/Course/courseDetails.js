@@ -9,7 +9,7 @@ export const courseDetails = [
         courseDetails: [
           {
             id: 13,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Managers-Course-min.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/managers-leaders.webp",
             title: "Data Science & AI Certification",
             title1: "Program For Managers and Leaders",
             tagHead: "Guaranteed Interview Call",
@@ -67,7 +67,7 @@ export const courseDetails = [
           },
           {
             id: 12,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Marketing-course-min.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/market.webp",
             title: "Marketing Analytics",
             title1: "Certification Program",
             tagHead: "Guaranteed Interview Call",
@@ -150,7 +150,7 @@ export const courseDetails = [
           },
           {
             id: 9,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/FoundationCourse.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/master-certification.webp",
             title: "Data Science and AI",
             title1: "Master Certification Program",
             tagHead: "Guaranteed Interview Call",
@@ -295,7 +295,7 @@ export const courseDetailsM = [
         courseDetails: [
           {
             id: 13,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Managers-Course-min.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/managers-leaders.webp",
             title: "Data Science & AI Certification",
             title1: "Program For Managers and Leaders",
             tagHead: "Guaranteed Interview Call",
@@ -353,7 +353,7 @@ export const courseDetailsM = [
           },
           {
             id: 12,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Marketing-course-min.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/market.webp",
             title: "Marketing Analytics",
             title1: "Certification Program",
             tagHead: "Guaranteed Interview Call",
@@ -378,7 +378,7 @@ export const courseDetailsM = [
         courseDetails: [
           {
             id: 9,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/FoundationCourse.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/master-certification.webp",
             title: "Data Science and AI",
             title1: "Master Certification Program",
             tagHead: "Guaranteed Interview Call",
