@@ -115,13 +115,13 @@ const SecondPart = ({
       <MentorsSection />
       <SliderTab WithoutService={true} />
       <PlacementCall Marketing={true} />
-      {/* <NewProjectSection
+      <NewProjectSection
         dataScience={true}
         titleCourse="Marketing Analytics Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Marketing+Analytics+Certification+Program.pdf"
         projectSection={projectSection}
         interstedInHide={true}
-      /> */}
+      />
       <FAQNew FAQNewData={FAQNewData} />
       <SeventhSection />
       <Footer />

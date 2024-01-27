@@ -114,13 +114,13 @@ const SecondPart = ({
       <MentorsSection />
       <SliderTab WithoutService={true} />
       <PlacementCall HRAnalyst={true} />
-      {/* <NewProjectSection
+      <NewProjectSection
         dataScience={true}
         titleCourse="HR Analytics Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf"
         projectSection={projectSection}
         interstedInHide={true}
-      /> */}
+      />
       <FAQNew FAQNewData={FAQNewData} />
       <SeventhSection />
       <Footer />

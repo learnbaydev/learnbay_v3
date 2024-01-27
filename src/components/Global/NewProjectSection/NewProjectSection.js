@@ -118,7 +118,7 @@ function NewProjectSection({
                       />
                     </div>
                     <p className={Styles.heading}>{data.heading}</p>
-                    <div className={Styles.strip}>
+                    {/* <div className={Styles.strip}>
                       <Image
                         src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Group+502.png"
                         loading="lazy"
@@ -126,7 +126,7 @@ function NewProjectSection({
                         height="41"
                         alt="microsoft"
                       />
-                    </div>
+                    </div> */}
                     <p className={Styles.para}>{data.para}</p>
                     <div className={Styles.ImgBox}>
                       <Image
