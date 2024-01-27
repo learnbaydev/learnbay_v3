@@ -1,7 +1,7 @@
 export const TabData = [
   {
-    id: "Domain Courses",
-    title: "Domain Courses",
+    id: "Domain Certification Courses",
+    title: "Domain Certification Courses",
     courseName: [
       {
         CName: "Data Science & AI Certification Program For Managers and Leaders",
@@ -28,8 +28,8 @@ export const TabData = [
     ],
   },
   {
-    id: "Data Science Courses",
-    title: "Data Science Courses",
+    id: "Our Certification Courses",
+    title: "Our Certification Courses",
     courseName: [
       {
         CName: "Data Science and AI Master Certification Program",
@@ -45,11 +45,6 @@ export const TabData = [
         CName: "Advance AI and ML Certification Program",
         hours: "9 Months",
         url: "/datascience/artificial-intelligence-certification-course",
-      },
-      {
-        CName: "Master's Degree in CS: Data Science and AI",
-        hours: "18 Months",
-        url: "/datascience/data-science-and-ai-masters-in-cs",
       },
       {
         CName: "Advance Data Science and AI Certification",
@@ -78,6 +73,17 @@ export const TabData = [
         CName: "Software Development Certification Program",
         hours: "11 Months",
         url: "/fullstack/full-stack-software-development-program",
+      },
+    ],
+  },
+  {
+    id: "Master's Degree Program",
+    title: "Master's Degree Program",
+    courseName: [
+      {
+        CName: "Master's Degree in CS: Data Science and AI",
+        hours: "18 Months",
+        url: "/datascience/data-science-and-ai-masters-in-cs",
       },
     ],
   },
