@@ -145,50 +145,50 @@ export const HRDataScienceCourseData = [
     projectSection: [
       {
         id: 1,
-        duration: "12 Hours",
+        duration: "26 Hours",
         logo: "",
         heading:
-          "Learn and develop classification techniques for the digital transformation of banking",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+675+(1)-min.png",
-        para: "JPMorgan offers tax-friendly insurance choices. You can help them forecastinsurance premiums. Targeted marketing using your random forest algorithm skills can help obtain better premium values.",
+          "Workforce Planning at GE",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/jphr.webp",
+        para: "GE uses predictive analytics to forecast future talent needs and identify gaps in their workforce. By analyzing HR data such as employee demographics, attrition rates, and skills, GE can make informed decisions about hiring and workforce planning.",
         toolImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/morgan-strip.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/mar-1-min.webp",
         learnMore: "Learn more",
       },
       {
         id: 2,
-        duration: "17 Hours",
+        duration: "26 Hours",
         logo: "",
         heading:
-          "Building a content recommendation model on the basis of regional viewer categorization",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+674-min.png",
-        para: "Netflix is a global entertainment video streaming site. They offer content in various regional languages. Build a local recommendation engine for Netflix customers residing in south Bangalore on their weekend and weekdays activities, utilizing NLP.",
+          "Performance Management at Deloitte",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/deloitte.webp",
+        para: "Deloitte uses a data-driven approach to performance management. The company utilizes analytics to measure employee performance, provide feedback, and identify areas for improvement.",
         toolImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Netfliix.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/mar-2-min.webp",
         learnMore: "Learn more",
       },
       {
         id: 3,
-        duration: "14 Hours",
+        duration: "26 Hours",
         logo: "",
         heading:
-          "Understanding in-depth about logging while drilling (LWD) technique",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+683-min.png",
-        para: "Saudi Aramco company is working onthe development of high-efficiency drilling models. Use the bright sides of big data analytics to identify the most cost-effective and highly productive drilling sites.",
+          "Succession Planning at AT&T",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/at.webp",
+        para: "AT&T uses analytics to identify high-potential employees and develop them for future leadership roles. By analyzing HR data such as performance metrics, skills, and career aspirations, AT&T can create targeted development plans for its employees.",
         toolImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/saudi-aramco-strip.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/mar-3-min.webp",
         learnMore: "Learn more",
       },
       {
         id: 4,
-        duration: "19 Hours",
+        duration: "26 Hours",
         logo: "",
         heading:
-          "Career progression planning of employees with workforce defections & efficiency",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+688-min.png",
-        para: "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities.",
+          "Compensation Analytics at Netflix",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+674-min.png",
+        para: "Netflix uses analytics to determine employee compensation packages. By analyzing HR data such as market benchmarks, employee performance, and tenure, Netflix can offer compensation packages that are competitive and fair.",
         toolImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/IBM-Strip.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/mar-4-min.webp",
         learnMore: "Learn more",
       },
     ],

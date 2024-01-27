@@ -145,38 +145,38 @@ export const BFSIDataScienceCourseData = [
     projectSection: [
       {
         id: 1,
-        duration: "12 Hours",
+        duration: "26 Hours",
         logo: "",
         heading:
-          "Learn and develop classification techniques for the digital transformation of banking",
+          "Fraud Detection",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+675+(1)-min.png",
-        para: "JPMorgan offers tax-friendly insurance choices. You can help them forecastinsurance premiums. Targeted marketing using your random forest algorithm skills can help obtain better premium values.",
+        para: "Develop a fraud detection system that uses machine learning algorithms to identify potential fraud in financial transactions.",
         toolImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/morgan-strip.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/american-express.webp",
         learnMore: "Learn more",
       },
       {
         id: 2,
-        duration: "17 Hours",
+        duration: "26 Hours",
         logo: "",
         heading:
-          "Building a content recommendation model on the basis of regional viewer categorization",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+674-min.png",
-        para: "Netflix is a global entertainment video streaming site. They offer content in various regional languages. Build a local recommendation engine for Netflix customers residing in south Bangalore on their weekend and weekdays activities, utilizing NLP.",
+          "Risk Management",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/american-express.webp",
+        para: "Develop a risk management system that uses predictive analytics to identify and assess risks in the financial sector.",
         toolImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Netfliix.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/citibank.webp",
         learnMore: "Learn more",
       },
       {
         id: 3,
-        duration: "14 Hours",
+        duration: "26 Hours",
         logo: "",
         heading:
-          "Understanding in-depth about logging while drilling (LWD) technique",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+683-min.png",
-        para: "Saudi Aramco company is working onthe development of high-efficiency drilling models. Use the bright sides of big data analytics to identify the most cost-effective and highly productive drilling sites.",
+          "Customer Segmentation",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/citibank.webp",
+        para: "Develop a customer segmentation system that uses data analytics to segment customers based on demographics and financial behavior",
         toolImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/saudi-aramco-strip.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/hsbc.webp",
         learnMore: "Learn more",
       },
       {
@@ -184,9 +184,57 @@ export const BFSIDataScienceCourseData = [
         duration: "19 Hours",
         logo: "",
         heading:
-          "Career progression planning of employees with workforce defections & efficiency",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+688-min.png",
-        para: "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities.",
+          "Anti-Money Laundering",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/hsbc.webp",
+        para: "Develop an anti-money laundering system that uses predictive analytics to detect and prevent money laundering.",
+        toolImg:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/jpmorgan.png",
+        learnMore: "Learn more",
+      },
+      {
+        id: 5,
+        duration: "26 Hours",
+        logo: "",
+        heading:
+          "Loan Origination",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/jpmorgan.png",
+        para: "Develop a loan origination system that uses machine learning to automate the loan application process and determine creditworthiness.",
+        toolImg:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/IBM-Strip.webp",
+        learnMore: "Learn more",
+      },
+      {
+        id: 6,
+        duration: "26 Hours",
+        logo: "",
+        heading:
+          "Trading Analytics",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/golden-sachs.webp",
+        para: "Develop a trading analytics system that uses big data analytics to analyze financial data and improve trading strategies",
+        toolImg:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/IBM-Strip.webp",
+        learnMore: "Learn more",
+      },
+      {
+        id: 7,
+        duration: "26 Hours",
+        logo: "",
+        heading:
+          "Portfolio Management",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/blackrock.webp",
+        para: "Develop a portfolio management system that uses data analytics to optimize investment portfolios and maximize returns.",
+        toolImg:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/IBM-Strip.webp",
+        learnMore: "Learn more",
+      },
+      {
+        id: 8,
+        duration: "26 Hours",
+        logo: "",
+        heading:
+          "Regulatory Compliance",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ms.webp",
+        para: "Develop a regulatory compliance system that uses data analytics to ensure compliance with financial regulations.",
         toolImg:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/IBM-Strip.webp",
         learnMore: "Learn more",

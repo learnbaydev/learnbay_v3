@@ -145,48 +145,96 @@ export const MarketingDataScienceCourseData = [
     projectSection: [
       {
         id: 1,
-        duration: "12 Hours",
+        duration: "26 Hours",
         logo: "",
         heading:
-          "Learn and develop classification techniques for the digital transformation of banking",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+675+(1)-min.png",
-        para: "JPMorgan offers tax-friendly insurance choices. You can help them forecastinsurance premiums. Targeted marketing using your random forest algorithm skills can help obtain better premium values.",
+          "",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coc.webp",
+        para: "Coca-Cola used Tableau to optimize their social media campaign performance by analyzing the data from their social media channels and identifying key performance indicators (KPIs).",
         toolImg:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/morgan-strip.webp",
         learnMore: "Learn more",
       },
       {
         id: 2,
-        duration: "17 Hours",
+        duration: "26 Hours",
         logo: "",
         heading:
-          "Building a content recommendation model on the basis of regional viewer categorization",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+674-min.png",
-        para: "Netflix is a global entertainment video streaming site. They offer content in various regional languages. Build a local recommendation engine for Netflix customers residing in south Bangalore on their weekend and weekdays activities, utilizing NLP.",
+          "",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/amazon.webp",
+        para: "Amazon used machine learning algorithms to analyze customer behavior, preferences, and purchase history, enabling targeted product recommendations and customized marketing campaigns.",
         toolImg:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Netfliix.webp",
         learnMore: "Learn more",
       },
       {
         id: 3,
-        duration: "14 Hours",
+        duration: "26 Hours",
         logo: "",
         heading:
-          "Understanding in-depth about logging while drilling (LWD) technique",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+683-min.png",
-        para: "Saudi Aramco company is working onthe development of high-efficiency drilling models. Use the bright sides of big data analytics to identify the most cost-effective and highly productive drilling sites.",
+          "",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/pg.webp",
+        para: "Procter & Gamble used SAS to analyze customer data and identify patterns in customer behavior, enabling them to make data-driven decisions about their marketing strategy.",
         toolImg:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/saudi-aramco-strip.webp",
         learnMore: "Learn more",
       },
       {
         id: 4,
-        duration: "19 Hours",
+        duration: "26 Hours",
         logo: "",
         heading:
-          "Career progression planning of employees with workforce defections & efficiency",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+688-min.png",
-        para: "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities.",
+         "",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+674-min.png",
+        para: "Netflix used A/B testing and machine learning algorithms to optimize their recommendations engine and improve the personalized content recommendations for their users.",
+        toolImg:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/IBM-Strip.webp",
+        learnMore: "Learn more",
+      },
+      {
+        id: 5,
+        duration: "26 Hours",
+        logo: "",
+        heading:
+         "",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/uber.webp",
+        para: "Uber used predictive analytics and machine learning algorithms to optimize their pricing strategies and surge pricing algorithm, enabling them to provide a better user experience.",
+        toolImg:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/IBM-Strip.webp",
+        learnMore: "Learn more",
+      },
+      {
+        id: 6,
+        duration: "26 Hours",
+        logo: "",
+        heading:
+         "",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/airnub.webp",
+        para: "Airbnb used R to analyze customer data and improve their marketing campaigns, resulting in increased customer engagement and revenue.",
+        toolImg:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/IBM-Strip.webp",
+        learnMore: "Learn more",
+      },
+      {
+        id: 7,
+        duration: "26 Hours",
+        logo: "",
+        heading:
+         "",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/walmart.webp",
+        para: "Walmart used Hadoop and Hive to analyze customer data and identify patterns in customer behaviour, enabling them to optimize their marketing campaigns and increase sales.",
+        toolImg:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/IBM-Strip.webp",
+        learnMore: "Learn more",
+      },
+      {
+        id: 8,
+        duration: "26 Hours",
+        logo: "",
+        heading:
+         "",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/linkedin.png",
+        para: "LinkedIn used data analytics tools such as Tableau and R to analyse customer data and improve their advertising platform, resulting in increased revenue and customer engagement.",
         toolImg:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/IBM-Strip.webp",
         learnMore: "Learn more",
