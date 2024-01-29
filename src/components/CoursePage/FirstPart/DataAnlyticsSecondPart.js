@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
+import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import dynamic from "next/dynamic";
+import { useEffect, useState } from "react";
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
 const WhatsappFloat = dynamic(() =>
@@ -35,7 +36,6 @@ const NewProjectSection = dynamic(() =>
 const FAQNew = dynamic(() =>
   import("../../../components/CoursePage/FAQNew/FAQNew")
 );
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
 const SeventhSection = dynamic(() =>
   import("@/components/Global/SeventhSection/SeventhSection")
@@ -89,7 +89,7 @@ const SecondPart = ({
         interstedInHide={true}
         buttonHide={true}
       />
-      <ToolsCovered foundation={true}/>
+      <ToolsCovered foundation={true} />
       <Certificate
         data={CertificateData}
         projectWithCertificate={true}
@@ -99,13 +99,13 @@ const SecondPart = ({
         Fee="₹80,000"
         FeeEmi="₹5,244/month"
         weekdaybatch="Weekday Batch"
-        weekendbatch="Weekend  Batch"
+        weekendbatch="Weekday  Batch"
         weekday="MON - FRI"
-        weekend="SAT - SUN"
+        weekend="MON - FRI"
         WeekdayDate="FEB 2nd"
-        WeekendDate="JAN 21st"
+        WeekendDate="FEB 9th"
         WeekdayTime="8 PM - 10 PM"
-        WeekendTime="09:30 AM - 1 PM"
+        WeekendTime="8 AM - 10 AM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
         FeeContent5="15 days refund policy"
@@ -115,22 +115,18 @@ const SecondPart = ({
         dataScience={true}
         titleCourse="Data Analytics Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
-    
-
-
-
         // EMI POPUPDATA
-        emiType = "NO COST EMI"
-        duration1 = "18 Months"
-        totalAmount1 = "₹80,000"
-        monthlyPayment1 = "₹5,244"
-        greenDown1 = "Standard Intrest rate Applicable"
-        duration2 = "12 Months"
-        totalAmount2 = "₹80,000"
-        monthlyPayment2 = "₹7,866"
-    />
+        emiType="NO COST EMI"
+        duration1="18 Months"
+        totalAmount1="₹80,000"
+        monthlyPayment1="₹5,244"
+        greenDown1="Standard Intrest rate Applicable"
+        duration2="12 Months"
+        totalAmount2="₹80,000"
+        monthlyPayment2="₹7,866"
+      />
       <MentorsSection />
-      <SliderTab WithoutService={true}/>
+      <SliderTab WithoutService={true} />
       <PlacementCall />
       <NewProjectSection
         dataScience={true}
@@ -140,13 +136,10 @@ const SecondPart = ({
         interstedInHide={true}
       />
       <FAQNew FAQNewData={FAQNewData} />
-      <Content dataScienceCounselling={true}  DataAnalytics={true}/>
+      <Content dataScienceCounselling={true} DataAnalytics={true} />
       <SeventhSection />
       <Footer />
-      <BottomBar
-        dataScienceCounselling={true}
-        interstedInHide={true}
-      />
+      <BottomBar dataScienceCounselling={true} interstedInHide={true} />
       <WhatsappFloat />
       {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
     </div>
