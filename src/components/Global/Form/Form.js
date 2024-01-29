@@ -35,6 +35,38 @@ const Form = ({
   const [formFields, setFormFields] = useState(
     getFormFields(radio, google, referrals, interstedInHide)
   );
+
+  const [location, setLocation] = useState({ country: "", region: "", city: "" });
+
+  const fetchLocation = async () => {
+    try {
+      const response = await fetch(
+        "https://ipinfo.io/json?token=bc89c2010abac0"
+      );
+
+      if (response.status === 429) {
+        throw new Error("Rate limit exceeded. Too many requests.");
+      }
+
+      if (!response.ok) {
+        throw new Error(
+          `Failed to fetch location: ${response.status} ${response.statusText}`
+        );
+      }
+
+      const data = await response.json();
+      console.log("API Response:", data);
+
+      const { country, region, city } = data;
+      setLocation({ country, region, city });
+    } catch (error) {
+      console.error("Error fetching location:", error.message);
+
+      // Handle rate limit exceeded or set a default location
+      setLocation({ country: "DefaultCountry", region: "DefaultCountry", city: "DefaultCity" });
+    }
+  };
+
   const [value, setValue] = useState();
   const [error, setError] = useState();
   const [alertMSG, setAlertMSG] = useState("");
@@ -53,8 +85,29 @@ const Form = ({
     currentOrganization: "",
     currentDesignation: "",
     interstedIn: "",
+    country: "", // Use the state value directly
+    region: "", // Use the state value directly
+    city: "", // Use the state value directly
     url: router.asPath,
   });
+
+  useEffect(() => {
+    const fetchData = async () => {
+      await fetchLocation();
+    };
+    fetchData();
+  }, [value]);
+
+  useEffect(() => {
+    // Update query state when location changes
+    setQuery((prevQuery) => ({
+      ...prevQuery,
+      country: location.country,
+      region: location.region,
+      city: location.city,
+    }));
+  }, [location]);
+
   useEffect(() => {
     setQuery({ ...query, phone: value });
     jsCookie.set("CARD", query.email, { expires: 14, secure: true });
@@ -107,6 +160,12 @@ const Form = ({
       formData.append(key, value);
     });
 
+    formData.append("country", query.country);
+    formData.append("city", query.city);
+    formData.append("region", query.region);
+
+    console.log("Form Data:", query.country);
+
     if (validation === false) {
       const sendData = await fetch(`${endPoint}`, {
         method: "POST",
@@ -126,6 +185,9 @@ const Form = ({
         currentOrganization: "",
         currentDesignation: "",
         interstedIn: "",
+        country: "", // Use the state value directly
+        region: "", // Use the state value directly
+        city: "", // Use the state value directly
         url: router.asPath,
       });
 
@@ -208,6 +270,9 @@ const Form = ({
               </div>
             )
         )}
+        <input name="country" value={query.country} type="hidden" />
+        <input name="region" value={query.region} type="hidden" />
+        <input name="city" value={query.city} type="hidden" />
         {error && (
           <p className={styles.errorMsg}>
             Please fill all the fields marked with *
