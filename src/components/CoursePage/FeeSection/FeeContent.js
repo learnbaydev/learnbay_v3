@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 const Button = dynamic(() => import("../../Global/Button/Button"));
 import styles from "./FeeSection.module.css";
-import Emipopup from "../EMIPopup/Emipopup"
-import Modal from 'react-modal';
+import Emipopup from "../EMIPopup/Emipopup";
+import Modal from "react-modal";
 
 const FeeContent = ({
   Fee,
@@ -31,14 +31,6 @@ const FeeContent = ({
   totalAmount2,
   monthlyPayment2,
   greenDown2,
-
-
-
-
-
-
-
-
 }) => {
   const [emiPopupIsOpen, setEmiPopupIsOpen] = useState(false);
   const popupShow = () => {
@@ -146,7 +138,7 @@ const FeeContent = ({
               </span>
             </p>
           </div>
-          
+
           <p className={styles.orangeText}>Payment Partners</p>
           <div className={styles.iconImage}>
             <Image
@@ -162,6 +154,23 @@ const FeeContent = ({
         <div className={styles.third}>
           <p>Batch Details</p>
           <div className={styles.boxOrange}>
+            <p> {weekdaybatch}</p>
+            <div className={styles.batches}>
+              <p className={styles.date}>{WeekdayDate}</p>
+              <div className={styles.Time}>
+                <p className={styles.day}>{weekday}</p>
+                <p className={styles.paraBot}>{WeekdayTime}</p>
+              </div>
+            </div>
+          </div>
+          <hr
+            style={{
+              color: "rgba(0, 0, 0, 0.20)",
+              margin: "30px",
+              border: "0.9px solid",
+            }}
+          />
+          <div className={styles.boxOrange}>
             <div className={styles.batchImg}>
               <p>{weekendbatch}</p>
             </div>
@@ -173,48 +182,33 @@ const FeeContent = ({
               </div>
             </div>
           </div>
-          <hr
-            style={{
-              color: "rgba(0, 0, 0, 0.20)",
-              margin: "30px",
-              border: "0.9px solid",
-            }}
-          />
+         
 
-          <div className={styles.boxOrange}>
-            <p> {weekdaybatch}</p>
-            <div className={styles.batches}>
-              <p className={styles.date}>{WeekdayDate}</p>
-              <div className={styles.Time}>
-                <p className={styles.day}>{weekday}</p>
-                <p className={styles.paraBot}>{WeekdayTime}</p>
-              </div>
-            </div>
-            
-          </div>
+          
         </div>
-        
       </div>
-        {/* Emi Popup */}
-        <Modal
+      {/* Emi Popup */}
+      <Modal
         isOpen={emiPopupIsOpen}
         onRequestClose={closeEmiPopup}
         className={styles.Emipopup}
         overlayClassName={styles.Overlay}
         contentLabel="EMI Popup"
       >
-         <div className={styles.clostbtn} onClick={closeEmiPopup}><span>close[x]</span></div>
-        <Emipopup 
-        emiType ={ emiType }
-        duration1 ={duration1}
-        totalAmount1 ={totalAmount1}
-        monthlyPayment1 = {monthlyPayment1}
-        greenDown1 ={ greenDown1}
-        duration2 ={duration2}
-        totalAmount2 ={totalAmount2}
-        monthlyPayment2 ={monthlyPayment2}
-        greenDown2 ={greenDown2} />
-       
+        <div className={styles.clostbtn} onClick={closeEmiPopup}>
+          <span>close[x]</span>
+        </div>
+        <Emipopup
+          emiType={emiType}
+          duration1={duration1}
+          totalAmount1={totalAmount1}
+          monthlyPayment1={monthlyPayment1}
+          greenDown1={greenDown1}
+          duration2={duration2}
+          totalAmount2={totalAmount2}
+          monthlyPayment2={monthlyPayment2}
+          greenDown2={greenDown2}
+        />
       </Modal>
     </div>
   );

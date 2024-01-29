@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
-import dynamic from "next/dynamic";
-import Footer from "@/components/Global/Footer/Footer";
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+import Footer from "@/components/Global/Footer/Footer";
 import SeventhSection from "@/components/Global/SeventhSection/SeventhSection";
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+import dynamic from "next/dynamic";
+import { useEffect, useState } from "react";
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
 const Certificate = dynamic(() =>
@@ -98,13 +98,13 @@ const SecondPart = ({
         Fee="₹99,000"
         FeeEmi="₹ 6,490/month"
         weekdaybatch="Weekday Batch"
-        weekendbatch="Weekend  Batch"
+        weekendbatch="Weekday  Batch"
         weekday="MON - FRI"
-        weekend="SAT - SUN"
+        weekend="MON - FRI"
         WeekdayDate="FEB 2nd"
-        WeekendDate="JAN 21st"
+        WeekendDate="FEB 9th"
         WeekdayTime="8 PM - 10 PM"
-        WeekendTime="09:30 AM - 1 PM"
+        WeekendTime="8 AM - 10 AM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
         FeeContent5="15 days refund policy"
@@ -114,24 +114,20 @@ const SecondPart = ({
         dataScience={true}
         titleCourse="Advanced Data Science and AI Program with domain specialization"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
-    
-// <EMI POPUP
-        emiType = "NO COST EMI"
-        duration1 = "18 Months"
-        totalAmount1 = "₹99,000"
-        monthlyPayment1 = "₹6,490"
-        greenDown1 = "Standard Intrest rate Applicable"
-        duration2 = "12 Months"
-        totalAmount2 = "₹99,000"
-        monthlyPayment2 = "₹9,735"
-       
-   
-    
-    />
+        // <EMI POPUP
+        emiType="NO COST EMI"
+        duration1="18 Months"
+        totalAmount1="₹99,000"
+        monthlyPayment1="₹6,490"
+        greenDown1="Standard Intrest rate Applicable"
+        duration2="12 Months"
+        totalAmount2="₹99,000"
+        monthlyPayment2="₹9,735"
+      />
 
       <MentorsSection />
-      <SliderTab WithoutService={true}/>
-      <PlacementCall/>
+      <SliderTab WithoutService={true} />
+      <PlacementCall />
 
       <NewProjectSection
         dataScience={true}
@@ -142,13 +138,10 @@ const SecondPart = ({
       />
 
       <FAQNew FAQNewData={FAQNewData} />
-     < Content dataScienceCounselling={true} Advance={true} />
-     <SeventhSection/>
+      <Content dataScienceCounselling={true} Advance={true} />
+      <SeventhSection />
       <Footer />
-      <BottomBar
-        dataScienceCounselling={true}
-        interstedInHide={true}
-      />
+      <BottomBar dataScienceCounselling={true} interstedInHide={true} />
       <WhatsappFloat />
       {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
     </div>

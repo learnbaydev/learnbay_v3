@@ -128,7 +128,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScience={true}   interstedInHide={true} />
+        <Navbar popup={true} dataScience={true} interstedInHide={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -167,31 +167,28 @@ export default function Home() {
             Fee="₹ 80,000"
             FeeEmi="₹ 5,244/month"
             weekdaybatch="Weekday Batch"
-            weekendbatch="Weekend  Batch"
+            weekendbatch="Weekday  Batch"
             weekday="MON - FRI"
-            weekend="SAT - SUN"
+            weekend="MON - FRI"
             WeekdayDate="FEB 2nd"
-            WeekendDate="JAN 21st"
+            WeekendDate="FEB 9th"
             WeekdayTime="8 PM - 10 PM"
-            WeekendTime="09:30 AM - 1 PM"
+            WeekendTime="8 AM - 10 AM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
             FeeContent5="15 days refund policy"
             FeeContent6="No additional cost"
             dataScienceCounselling={true}
             interstedInHide={true}
-
-
-
-             // EMI POPUPDATA
-         emiType = "NO COST EMI"
-         duration1 = "18 Months"
-         totalAmount1 = "₹80,000"
-         monthlyPayment1 = "₹5,244"
-         greenDown1 = "Standard Intrest rate Applicable"
-         duration2 = "12 Months"
-         totalAmount2 = "₹80,000"
-         monthlyPayment2 = "₹7,866"
+            // EMI POPUPDATA
+            emiType="NO COST EMI"
+            duration1="18 Months"
+            totalAmount1="₹80,000"
+            monthlyPayment1="₹5,244"
+            greenDown1="Standard Intrest rate Applicable"
+            duration2="12 Months"
+            totalAmount2="₹80,000"
+            monthlyPayment2="₹7,866"
           />
         </div>
         <div className="MainCities">
