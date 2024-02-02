@@ -30,6 +30,7 @@ const FirstContent = ({
   fullStack,
   titleCourse,
   radio,
+  topHide,
 }) => {
   const texts = [
     "Guaranteed Interview Calls",
@@ -103,7 +104,8 @@ const FirstContent = ({
       <style>{customStyles}</style>
       <div className={styles.First}>
         <div className={styles.FirstLeft}>
-          <p className={styles.ptopC}>{firstTopPara}</p>
+          {topHide ? ("") : (
+          <p className={styles.ptopC}>{firstTopPara}</p>)}
           <h1 className={styles.h1}>
             {firstHeading}{" "}
             <span className={styles.h1Span}>{firstToparaImg}</span>
@@ -181,8 +183,6 @@ const FirstContent = ({
               radio={radio}
               downloadBrochure={downloadBrochure}
               fullStack={fullStack}
-              titleCourse={titleCourse}
-              // brochureLink={brochureLink}
               dataScienceGeneric={dataScienceGeneric}
               upSkillingHide={upSkillingHide}
               interstedInHide={interstedInHide}
@@ -222,8 +222,7 @@ const FirstContent = ({
                   />
                 )}
               </div>
-              <div className={styles.secondLeft}>
-                <div className={styles.btnImageMobile}>
+              <div className={styles.btnImageMobile}>
                   <div onClick={popupShow}>
                     <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
                   </div>
@@ -239,6 +238,8 @@ const FirstContent = ({
                     </div>
                   )}
                 </div>
+              <div className={styles.secondLeft}>
+                
                 <div className={styles.form}>
                   <h4>Free Expert Counselling</h4>
                   <Form

@@ -23,7 +23,7 @@ function FirstSection({
   youtubeEmbedUrl,
   S3RightImage ,
   animationHide,
-
+  topHide,
 
 
 
@@ -71,6 +71,7 @@ function FirstSection({
         animationHide={animationHide}
 interstedInHide={interstedInHide}
         upSkillingHide={upSkillingHide}
+        topHide={topHide}
 
         
  

@@ -192,7 +192,7 @@ export const courseDetails = [
 
           {
             id: 5,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/NewCourseCard/Gen-AI.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
             title: "Advanced Certification",
             title1: "Program in Generative AI",
             tagHead: "Bonus Module",
@@ -371,7 +371,7 @@ export const courseDetails = [
 
           {
             id: 1,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-1.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Advance-Card.webp",
             title: "Advanced Data Science",
             title1: "and AI Certification",
             tag: "Data science",
@@ -391,7 +391,7 @@ export const courseDetails = [
 
           {
             id: 5,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/NewCourseCard/Gen-AI.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
             title: "Advanced Certification",
             title1: "Program in Generative AI",
             tagHead: "Bonus Module",
@@ -827,7 +827,7 @@ export const courseDetailsM = [
 
           {
             id: 5,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/NewCourseCard/Gen-AI.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
             title: "Advanced Certification",
             title1: "Program in Generative AI",
             tagHead: "Bonus Module",
@@ -1033,7 +1033,7 @@ export const courseDetailsM = [
 
           {
             id: 1,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-1.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Advance-Card.webp",
             title: "Advanced Data Science",
             title1: "and AI Certification",
             tag: "Data science",
@@ -1053,7 +1053,7 @@ export const courseDetailsM = [
 
           {
             id: 5,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/NewCourseCard/Gen-AI.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
             title: "Advanced Certification",
             title1: "Program in Generative AI",
             tagHead: "Bonus Module",
