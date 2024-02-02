@@ -29,6 +29,14 @@ import { AiOutlineContainer } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsPeople } from "react-icons/bs";
 const FirstPart = ({ TestimonialData }) => {
+
+ 
+    const seconddata = [
+      { boldText: "60+", normalText: "Countries Recognition", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
+      { CboldText: "90+", normalText: "Transferrable ECTS Credits", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
+      { boldText: "35K+", normalText: "Trusted Learners", },
+      
+    ];
   const DsSecond = {
     title1: "Domain Specialization",
     image1:
@@ -70,6 +78,38 @@ const FirstPart = ({ TestimonialData }) => {
     image5:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-second-min.webp",
   };
+  const JobData = {
+    title: "Data Science And AI Master Certification Program    ",
+    points: [
+      {
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
+        imgAlt: "",
+        title: "Comprehensive Mastery of AI and Data Science:        ",
+        description: "Tailored for career transformation in a tech-driven era        ",
+      },
+      {
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
+        imgAlt: "",
+        title: "Curriculum inclusive of Gen-AI        ",
+        description: "Tailored for career transformation in a tech-driven era        ",
+      },
+      {
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
+        imgAlt: "",
+        title: "3 years of Job and Placement support        ",
+        description: "Online and flexible, ideal for busy professionals:        ",
+      },
+   
+    ],
+    bannerImage: {
+      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job1.webp",
+      width: 500,
+      height: 400,
+      priority: true,
+      quality: 80,
+      alt: "Banner Image 1 Alt",
+    },
+  };
   return (
     <>
       {" "}
@@ -85,9 +125,9 @@ const FirstPart = ({ TestimonialData }) => {
         firstToparaImg="with domain specialization"
         firstHeading="Advanced Data Science and AI Program"
       />
-      <MasterSecondSection />
+      <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={DsSecond} />
-      <JobAbroad />
+      <JobAbroad  data={JobData}/>
       <SecondNavbar dataScienceCounselling={true} />
       <TrainerSection idss="eautK0odE7Q" />
       <Testimonial redirectDS={true} Testimonial={TestimonialData} />

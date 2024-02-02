@@ -17,8 +17,54 @@ const GetHire = dynamic(() => import("../../Home/GetHire/GetHire"));
 const ContactConsellor = dynamic(() =>
   import("../../CoursePage/ContactCounsellor/ContactCounsellor")
 );
+const MasterSecondSection  = dynamic(() =>
+  import("../../MastersCourse/MasterSecondSection/MasterSecondSection")
+);
+const JobAbroad = dynamic(()=>
+import( "../../MastersCourse/JobAbroad/JobAbroad"
+)
+);
 
 const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData }) => {
+
+  const seconddata = [
+    { boldText: "IBM", normalText: "Certified Capstone", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
+    { CboldText: "175%", normalText: "Average Salary Hike", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
+    { boldText: "35K+", normalText: "Trusted Learners", },
+    
+  ];
+  const JobData = {
+    title: "Software Development Certification program    ",
+    points: [
+      {
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
+        imgAlt: "",
+        title: "Transform with Top Tech Skills        ",
+        description: "Become a sought-after software developer with our expert-led training.         ",
+      },
+      {
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
+        imgAlt: "",
+        title: "Practice Real-time projects in industry setting        ",
+        description: "Dive into software development projects that solve real-world problems.         ",
+      },
+      {
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
+        imgAlt: "",
+        title: "From Novice to Expert        ",
+        description: "Learn from basic concepts to advanced software engineering techniques.        ",
+      },
+   
+    ],
+    bannerImage: {
+      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job1.webp",
+      width: 500,
+      height: 400,
+      priority: true,
+      quality: 80,
+      alt: "Banner Image 1 Alt",
+    },
+  };
   return (
     <div>
       <Navbar
@@ -39,12 +85,15 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData }) => {
         firstHeading="Software Development Certification Program"
         firstTopPara="Crack Interview in Top MNCs"
         idss="0cspp1jXAbM"
-        softwareBtnHide={true}
+ 
         interstedInHide={true}
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/sf-f.webp"
         videoId="0cspp1jXAbM"
       />
+      <MasterSecondSection data={seconddata} />
+      <JobAbroad data={JobData}/>
       <SecondSection SecondSectionData={SecondSectionData} />
+
       {/* <WhoProgram
           dataScience={true}
           leftImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/advance-who.webp"
