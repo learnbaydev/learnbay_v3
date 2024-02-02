@@ -389,7 +389,7 @@ iframe {
   }
   .flDivLeft {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);

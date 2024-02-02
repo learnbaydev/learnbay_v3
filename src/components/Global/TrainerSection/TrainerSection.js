@@ -3,7 +3,7 @@ import Styles from "./TrainerSection.module.css";
 import Image from "next/image";
 import VideoPopup from "../VideoPopup/VideoPopup";
 
-function TrainerSection({ idss, adsHide, }) {
+function TrainerSection({ idss, adsHide }) {
   // const [vId, setVId] = useState("");
 
   const [popups, setPopups] = useState(false);
@@ -27,15 +27,17 @@ function TrainerSection({ idss, adsHide, }) {
     <>
       <section className={Styles.container}>
         <VideoPopup triggers={video} setTriggers={setVideo} ids={idss} />
-        <h4>Hear it from our Alumni</h4>
         <div className={Styles.First}>
+          <div className={Styles.mobileH4}>
+        <h4>Courses<span className={Styles.spanPara}> Top Rated</span> in:</h4>
+        <p className={Styles.newPara}>Discover what our learners say about us</p>
           <div className={Styles.reviewMain}>
             {images.map((image, index) => (
               <div key={index}>
                 <Image
                   src={image}
-                  width={300}
-                  height={100}
+                  width={280}
+                  height={90}
                   quality={40}
                   loading="lazy"
                   alt="trainer data"
@@ -43,9 +45,18 @@ function TrainerSection({ idss, adsHide, }) {
               </div>
             ))}
           </div>
-
+          </div>
           <div className={Styles.mobileView}>
-            <h2>Alumni Spotlight</h2>
+          <div className="imgWrapper">
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/review-combined.webp"
+                  loading="lazy"
+                  width="350"
+                  height="100"
+                  alt="trainer mobile"
+                />
+              </div>
+            <h2>Hear it from Alumni</h2>
             {adsHide ? (
               <div className="imgWrapper">
                 <Image
@@ -65,6 +76,7 @@ function TrainerSection({ idss, adsHide, }) {
                   height="100"
                   alt="trainer mobile"
                   onClick={() => videoSHow(popupShow)}
+                  className={Styles.spaceImg}
                 />
               </div>
             )}
@@ -86,7 +98,7 @@ function TrainerSection({ idss, adsHide, }) {
             ) : (
               <div className="imgWrapper">
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-review.webp"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/testimonial-home.webp"
                   loading="lazy"
                   quality={100}
                   width="358"

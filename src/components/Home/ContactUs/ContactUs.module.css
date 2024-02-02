@@ -1,13 +1,13 @@
 .ContactUs {
   background-position: center;
-  background: linear-gradient(94deg, #0d0d0d -0.37%, #00294a 100%);
-  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   background-repeat: no-repeat;
   padding: 50px 100px;
   display: grid;
   grid-template-columns: 50% 50%;
   /* align-items: center; */
   margin-bottom: 60px;
+  background: linear-gradient(94deg, #0D0D0D -0.37%, #341F00 100%);
+box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .LeftSide {
@@ -18,7 +18,7 @@
 }
 
 .h1Span {
-  color: #0072bc;
+  color: #F99600;
   font-size: 38px;
 }
 
@@ -121,7 +121,7 @@
 }
 
 .leftpaerson span {
-  color: #0072bc;
+  color: #F99600;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -203,6 +203,7 @@
 
   .leftpaerson {
     margin: 30px 0px;
+    grid-template-columns: 13% 40%;
   }
   .LeftSide p {
     padding: 0px;
@@ -240,7 +241,7 @@
   }
 }
 .leftpaerson span {
-  color: #82ceff;
+  color: #F99600;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -263,7 +264,7 @@
 }
 
 .span {
-  color: #f99600;
+  color: #555;
 }
 
 .boxSection {
@@ -277,6 +278,7 @@
   padding: 30px 20px;
   border-bottom: 4px solid #f99600;
   margin: auto;
+  width: 100%;
 }
 
 .NormalPForm {

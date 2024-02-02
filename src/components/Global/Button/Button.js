@@ -2,7 +2,7 @@
 
 import React from "react";
 
-const Button = ({ text, passIcon, outline, invert, bannerButton, nobannerButton, whiteBgButton, ButtonWhiteBg, greenButton, blackButton }) => {
+const Button = ({ text, passIcon, outline, invert, bannerButton, nobannerButton, whiteBgButton, ButtonWhiteBg, greenButton, blackButton, OrangeButton }) => {
   return (
     <button
       className={
@@ -12,6 +12,7 @@ const Button = ({ text, passIcon, outline, invert, bannerButton, nobannerButton,
         bannerButton ? "bannerButton" :
         outline ? "outLineBtn" :
         greenButton ? "greenButton" :
+        OrangeButton ? "OrangeButton" :
         blackButton ? "blackButton" : "button"
       }
       style={invert ? { flexFlow: "row-reverse" } : { flexFlow: "row" }}

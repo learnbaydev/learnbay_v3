@@ -42,12 +42,12 @@ export const TabData = [
         url: "/datascience/business-analytics-certification-course",
       },
       {
-        CName: "Advance AI and ML Certification Program",
+        CName: "Advanced AI and ML Certification Program",
         hours: "9 Months",
         url: "/datascience/artificial-intelligence-certification-course",
       },
       {
-        CName: "Advance Data Science and AI Certification",
+        CName: "Advanced Data Science and AI Certification",
         hours: "7 Months",
         url: "/datascience/advance-data-science-certification-courses",
       },

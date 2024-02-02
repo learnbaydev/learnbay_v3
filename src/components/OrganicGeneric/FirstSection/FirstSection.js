@@ -1,11 +1,11 @@
-import React, { useState, useEffect, useRef } from "react";
 import dynamic from "next/dynamic";
-import styles from "./FirstSection.module.css";
-import { FaChevronDown } from "react-icons/fa";
-import Popup from "../../Global/Popup/Popup";
-import Form from "../../Global/Form/Form";
 import Image from "next/image";
+import { useEffect, useRef, useState } from "react";
+import { FaChevronDown } from "react-icons/fa";
 import Typed from "typed.js";
+import Form from "../../Global/Form/Form";
+import Popup from "../../Global/Popup/Popup";
+import styles from "./FirstSection.module.css";
 const Button = dynamic(() => import("../../Global/Button/Button"));
 
 const FirstSection = ({
@@ -81,7 +81,7 @@ const FirstSection = ({
               dataScienceGeneric={dataScienceGeneric}
               dataScienceCounselling={dataScienceCounselling}
               radio={radio}
-  interstedInHide={interstedInHide}
+              interstedInHide={interstedInHide}
             />
           </div>
         </Popup>
@@ -98,7 +98,7 @@ const FirstSection = ({
           </h1>
           <div className={styles.IBMlogoPlay}>
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/newHeaderOne.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbay-main.webp"
               width="580"
               height="450"
               layout="intrinsic"
@@ -144,7 +144,7 @@ const FirstSection = ({
         <div className={styles.secondLeft}>
           <div className={styles.PlayImg}>
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/newHeaderOne.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbay-main.webp"
               width="580"
               height="450"
               layout="intrinsic"

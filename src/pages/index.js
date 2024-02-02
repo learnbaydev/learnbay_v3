@@ -7,6 +7,7 @@ import dynamic from "next/dynamic";
 import Head from "next/head";
 import { useEffect, useState } from "react";
 import Navbar from "../components/Global/Navbar/Navbar";
+import MobileTestimonial from "@/components/Home/MobileTestimonial/MobileTestimonial";
 const Course = dynamic(() => import("@/components/Home/Course/Course"));
 const WhyLearnbay = dynamic(() =>
   import("@/components/Home/WhyLearnbay/WhyLearnbay")
@@ -445,14 +446,16 @@ export default function Home() {
        />
       <WhyLearnbay ids="YWxTtvb3x-U" />
       <ProjectSection ids="YWxTtvb3x-U" nolinkO={true} linkomb={true} />
-      <GetHire />
+      
       <TrainerSection idss="eautK0odE7Q" />
-      <Testimonial redirectDS={true} heading="" Testimonial={testimonial} />
+      {/* <Testimonial redirectDS={true} heading="" Testimonial={testimonial} /> */}
       <ContactUs
         dataScienceCounselling={true}
         radio={true}
         // interstedInHide={true}
       />
+      <GetHire />
+      <MobileTestimonial />
       <Media projectData={data} />
       <SeventhSection />
 
