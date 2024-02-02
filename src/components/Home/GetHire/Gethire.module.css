@@ -1,13 +1,8 @@
 .GetHireMain {
   opacity: 10;
-  background: linear-gradient(
-    270deg,
-    #fff -5.52%,
-    #eae9e9 50.41%,
-    #fff 102.11%
-  );
-  padding: 50px 150px;
-  margin: 80px 0px 0px 0px;
+  background: #fff;
+  padding: 0px 150px;
+  margin: 0px 0px 0px 0px;
 }
 
 .mainpara {

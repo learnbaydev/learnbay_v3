@@ -29,9 +29,11 @@ const Course = ({
   const [popups, setPopups] = useState(false);
 
   const [CourseLoop, setCourseLoop] = useState([
-    { title: "Popular Courses", value: true },
-    // { title: "Certification Program", value: true },
-    // { title: "Master's Degree Program", value: false },
+    { title: "Domain Courses", value: true },
+    { title: "Data Science", value: false },
+    { title: "Master's Degree", value: false },
+    { title: "Cloud & DevOps", value: false },
+    { title: "Popular", value: false },
   ]);
 
   const menuChange = (title, index) => {
@@ -69,7 +71,7 @@ const Course = ({
       console.log("inside", courseDetailsM);
     }
     if (width < 600) {
-      setValue(1);
+      setValue(1.1);
       setMobile(true);
     } else if (width <= 641) {
       setValue(1.6);
@@ -116,7 +118,7 @@ const Course = ({
           />
         </div>
       </Popup>
-      <h2>Our Courses</h2>
+      {/* <h2>Our Courses</h2> */}
 
       <div className={styles.courses}>
         <div className={styles.listPanel}>
@@ -144,9 +146,13 @@ const Course = ({
                 {courses.map((courseDetail, index) => {
                   return (
                     <div key={index} className={styles.divBox}>
-                      <h5 className={styles.h5font}>
-                        {courseDetail.courseName}
-                      </h5>
+                      <div className={styles.viewAll}>
+                        <h5 className={styles.h5font}>
+                          {courseDetail.courseName}
+                        </h5>
+                        {/* <h5 className={styles.textView}>View All</h5> */}
+                      </div>
+                      <div className={styles.borderTop}></div>
                       <div className={styles.gridPanel}>
                         <Swiper
                           slidesPerView={value}
@@ -167,6 +173,7 @@ const Course = ({
                                 img,
                                 para,
                                 link1,
+                                tagHead,
                                 titleCourse,
                                 brochureLinks,
                                 courseTime,
@@ -195,7 +202,6 @@ const Course = ({
                                             fill={true}
                                             quality={60}
                                             loading="lazy"
-                                            
                                             alt="data science course"
                                           />
                                         </div>
@@ -211,81 +217,76 @@ const Course = ({
                                             fill={true}
                                             quality={80}
                                             loading="lazy"
-                                          objectFit="fill"
+                                            objectFit="fill"
                                             alt="data science course"
                                           />
                                         </div>
                                       </a>
                                     )}
-                                    <div
-                                      className={styles.contButton}
-                                      style={{
-                                        borderRadius: "8px 8px 8px 8px",
-                                        cursor: "pointer",
 
-                                        marginTop: "-12px",
-                                        zIndex: "0",
-                                        boxShadow:
-                                          "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px",
-                                      }}
-                                    >
-                                      <div className={styles.contentBox}>
-                                        <div
-                                          className={styles.headWrapper}
-                                          style={
-                                            title === "Master in CS:" ||
-                                            title === "Advance Certification"
-                                              ? { marginTop: "15px" }
-                                              : { marginTop: "15px" }
+                                    <div className={styles.zIndex}>
+                                      <div
+                                        className={styles.headWrapper}
+                                        style={
+                                          title === "Master in CS:" ||
+                                          title === "Advance Certification"
+                                            ? { marginTop: "0px" }
+                                            : { marginTop: "0px" }
+                                        }
+                                      >
+                                        <h6
+                                          className={
+                                            Green
+                                              ? styles.mainHeadGreen
+                                              : styles.mainHead
                                           }
                                         >
-                                          <h6
-                                            className={
-                                              Green
-                                                ? styles.mainHeadGreen
-                                                : styles.mainHead
-                                            }
-                                          >
-                                            {title}
-                                          </h6>
-                                          <h6
-                                            className={
-                                              Green
-                                                ? styles.mainHeadGreen
-                                                : styles.mainHead
-                                            }
-                                          >
-                                            {title1}
-                                          </h6>
-                                        </div>
-                                        <hr className={styles.hr} />
-                                        <div className={styles.paraDiv}>
-                                          <p className={styles.singleP}>
-                                            <BiTimeFive
-                                              className={styles.checkCircle}
-                                            />
-                                            {/* <IoTimeOutline
+                                          {title}
+                                        </h6>
+                                        <h6
+                                          className={
+                                            Green
+                                              ? styles.mainHeadGreen
+                                              : styles.mainHead
+                                          }
+                                        >
+                                          {title1}
+                                        </h6>
+                                      </div>
+                                      <div className={styles.orangeBg}>
+                                        <p>{tagHead}</p>
+                                      </div>
+                                      <div
+                                        className={styles.contButton}
+                                        style={{
+                                          borderRadius: "8px 8px 8px 8px",
+                                          cursor: "pointer",
+
+                                          // marginTop: "-12px",
+                                          zIndex: "0",
+                                          boxShadow:
+                                            "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px",
+                                        }}
+                                      >
+                                        <div className={styles.contentBox}>
+                                          {/* <hr className={styles.hr} /> */}
+                                          <div className={styles.paraDiv}>
+                                            <p className={styles.singleP}>
+                                              <BiTimeFive
+                                                className={styles.checkCircle}
+                                              />
+                                              {/* <IoTimeOutline
                                           className={styles.timeIcon}
                                         />{" "} */}
-                                            {para[0]} {courseTime}
-                                          </p>
-                                          {/* <p>
+                                              {para[0]} {courseTime}
+                                            </p>
+                                            {/* <p>
                                       <AiOutlineFundProjectionScreen
                                         className={styles.checkCircle}
                                         style={{ color: "#edb552" }}
                                       />
                                       {para[1]}
                                     </p> */}
-                                          <p className={styles.singleP}>
-                                            {/* <TbCurrencyRupee
-                                          className={styles.checkCircle}
-                                        /> */}
-                                            <BsCheckLg
-                                              className={styles.checkIcon}
-                                            />
-                                            {para[1]}
-                                          </p>
-                                          {para.length >= 3 ? (
                                             <p className={styles.singleP}>
                                               {/* <TbCurrencyRupee
                                           className={styles.checkCircle}
@@ -293,40 +294,25 @@ const Course = ({
                                               <BsCheckLg
                                                 className={styles.checkIcon}
                                               />
-                                              {para[2]}
+                                              {para[1]}
                                             </p>
-                                          ) : (
-                                            ""
-                                          )}
+                                            {para.length >= 3 ? (
+                                              <p className={styles.singleP}>
+                                                {/* <TbCurrencyRupee
+                                          className={styles.checkCircle}
+                                        /> */}
+                                                <BsCheckLg
+                                                  className={styles.checkIcon}
+                                                />
+                                                {para[2]}
+                                              </p>
+                                            ) : (
+                                              ""
+                                            )}
+                                          </div>
+                                          <hr className={styles.hr1} />
                                         </div>
-                                        <hr className={styles.hr1} />
-                                      </div>
-                                      <div className={styles.btnWrapper}>
-                                        <a
-                                          onClick={() => {
-                                            setTitleCourse(titleCourse);
-                                            setBrochureLinks(brochureLinks);
-                                            popupShow();
-                                          }}
-                                        >
-                                          <button
-                                            className="outLineBtn1"
-                                            style={{
-                                              color: "#2979AD",
-                                              background: "#fff",
-                                              borderRadius: "8px 8px 8px 8px",
-                                              cursor: "pointer",
-                                            }}
-                                          >
-                                            Brochure
-                                            <FaDownload
-                                              className="bIcon"
-                                              style={{ color: "#2979AD" }}
-                                            />
-                                          </button>
-                                        </a>
-                                        <hr className={styles.btnLine} />
-                                        {organicADS ? (
+                                        <div className={styles.btnWrapper}>
                                           <a
                                             onClick={() => {
                                               setTitleCourse(titleCourse);
@@ -335,45 +321,76 @@ const Course = ({
                                             }}
                                           >
                                             <button
-                                              className={
-                                                Green
-                                                  ? styles.green
-                                                  : styles.fillBtn
-                                              }
+                                              className="outLineBtn1"
                                               style={{
-                                                borderRadius: "8px 8px 8px 8px",
+                                                color: "#fff",
+                                                background: "#fff",
                                                 cursor: "pointer",
+                                                borderRadius: "7.101px",
+                                                background: "#282828",
                                               }}
                                             >
-                                              View Details
-                                              <MdChecklist
-                                                className={styles.bellIcon}
+                                              Brochure
+                                              <FaDownload
+                                                className="bIcon"
+                                                style={{ color: "#fff" }}
                                               />
                                             </button>
                                           </a>
-                                        ) : (
-                                          <a
-                                            href={link1}
-                                            className={styles.link1}
-                                          >
-                                            <button
-                                              className={
-                                                Green
-                                                  ? styles.green
-                                                  : styles.fillBtn
-                                              }
-                                              style={{
-                                                borderRadius: "8px 8px 8px 8px",
-                                                cursor: "pointer",
+                                          <hr className={styles.btnLine} />
+                                          {organicADS ? (
+                                            <a
+                                              onClick={() => {
+                                                setTitleCourse(titleCourse);
+                                                setBrochureLinks(brochureLinks);
+                                                popupShow();
                                               }}
                                             >
-                                              View Details
-                                              <MdChecklist
+                                              <button
+                                                className={
+                                                  Green
+                                                    ? styles.fillBtn
+                                                    : styles.fillBtn
+                                                }
+                                                style={{
+                                                  borderRadius:
+                                                    "8px 8px 8px 8px",
+                                                  cursor: "pointer",
+                                                  border: "1px solid #282828",
+                                                }}
+                                              >
+                                                View Details
+                                                {/* <MdChecklist
                                                 className={styles.bellIcon}
-                                              />
-                                            </button>
-                                          </a>
-                                        )}
+                                              /> */}
+                                              </button>
+                                            </a>
+                                          ) : (
+                                            <a
+                                              href={link1}
+                                              className={styles.link1}
+                                            >
+                                              <button
+                                                className={
+                                                  Green
+                                                    ? styles.fillBtn
+                                                    : styles.fillBtn
+                                                }
+                                                style={{
+                                                  borderRadius:
+                                                    "8px 8px 8px 8px",
+                                                  cursor: "pointer",
+                                                  border: "1px solid #282828",
+                                                }}
+                                              >
+                                                View Details
+                                                {/* <MdChecklist
+                                                className={styles.bellIcon}
+                                              /> */}
+                                              </button>
+                                            </a>
+                                          )}
+                                        </div>
                                       </div>
                                     </div>
                                   </div>

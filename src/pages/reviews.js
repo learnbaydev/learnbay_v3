@@ -1,20 +1,38 @@
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import dynamic from "next/dynamic";
 import Head from "next/head";
-import Footer from "../components/Global//Footer/Footer";
+import { DataScienceCourseData } from "../Data/AdvanceDataScienceCourse";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
+import Footer from "../components/Global/Footer/Footer";
 import Navbar from "../components/Global/Navbar/Navbar";
-import Review from "../components/StaticPage/Review/Review";
-import styles from "../styles/Home.module.css";
 const Button = dynamic(() => import("../components/Global/Button/Button"));
+const GoogleReview = dynamic(() =>
+  import("../components/StaticPage/SuccessStory/GoogleReview/GoogleReview")
+);
+const LinkedinReview = dynamic(() =>
+  import("../components/StaticPage/SuccessStory/LinkedinReview/LinkedinReview")
+);
+const TrainerSection = dynamic(() =>
+  import("../components/StaticPage/SuccessStory/TrainerSection/TrainerSection")
+);
+const ReviewCourse = dynamic(() =>
+  import("../components/StaticPage/SuccessStory/ReviewCourse/ReviewCourse")
+);
+const ReviewSwitch = dynamic(() =>
+  import("../components/StaticPage/SuccessStory/ReviewSwitch/ReviewSwitch")
+);
+const VideoReview = dynamic(() =>
+  import("../components/StaticPage/SuccessStory/VideoReview/VideoReview")
+);
+const Testimonial = dynamic(() =>
+  import("../components/Global/Testimonial/Testimonial")
+);
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>
-          Learnbay - Testimonials and Reviews of Our Trusted Learners
-        </title>
+        <title>Success Story</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -28,23 +46,23 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScienceCounselling={true} radio={true} />
-        <Review />
-        <div
-          className={styles.Button}
-          style={{
-            marginBottom: "70px",
-            display: "flex",
-            justifyContent: "center",
-          }}
-        >
-          <a
-            href=" https://www.google.com/search?q=learnbay&rlz=1C1VDKB_enIN998IN998&tbm=lcl&ei=uUDyYunBIoObz7sPzvu7wAQ&oq=learnbay&gs_l=psy-ab.3...0.0.0.6647.0.0.0.0.0.0.0.0..0.0....0...1c..64.psy-ab..0.0.0....0.vlnVRtRM_mw#lrd=0x3bae13b203864921:0xcd2b3d47edc34b69,1,,,&rlfi=hd:;si:14783977580914756457,l,CghsZWFybmJheUj0z4qEu66AgAhaFBAAGAAiCGxlYXJuYmF5KgQIAhAAkgEbc29mdHdhcmVfdHJhaW5pbmdfaW5zdGl0dXRl;mv:[[12.9145896,77.66070289999999],[12.8624165,77.6400574]]"
-            target="_blank"
-          >
-            <Button className={styles.Btn} text="View All Reviews" />
-          </a>
-        </div>
+        <Navbar
+          popup={true}
+          dataScienceCounselling={true}
+          radio={true}
+          interstedInHide={true}
+        />
+        <TrainerSection idss="eautK0odE7Q" />
+        <LinkedinReview />
+        <GoogleReview />
+        {/* <VideoReview idss="YWxTtvb3x-U" /> */}
+        <ReviewCourse />
+        <ReviewSwitch />
+        <Testimonial
+          redirectDS={true}
+          heading="Alumni Review"
+          Testimonial={DataScienceCourseData[0].testimonial}
+        />
         <Footer />
         <WhatsappFloat />
         <BottomBar

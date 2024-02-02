@@ -124,7 +124,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         idss="ecI6FD8ElDs"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BFSIHeader-min.webp"
         videoId="ecI6FD8ElDs"
-      
+        topHide={true}
       />
          <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={BASecond} />

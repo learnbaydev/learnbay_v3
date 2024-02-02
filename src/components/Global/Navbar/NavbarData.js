@@ -12,7 +12,7 @@ export const menuItem = [
   {
     id: 3,
     name: "Success Story",
-    url: "/success-story",
+    url: "/reviews",
   },
   {
     id: 4,

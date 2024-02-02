@@ -130,6 +130,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         idss="W-WSqLl8_5o"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/MarketingHeader-min.webp"
         videoId="W-WSqLl8_5o"
+        topHide={true}
       
       />
       <MasterSecondSection data={seconddata} />

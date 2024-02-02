@@ -18,6 +18,17 @@
   /* background-color: #000; */
   border: 1px solid #fff;
 }
+
+.OrangeButton {
+  border-radius: 8px;
+background: #F99600;
+color: #fff;
+font-size: 18px;
+padding: 10px 25px;
+border: 1px solid #000;
+cursor: pointer;
+}
+
 .blackButton {
   background-color: #000;
   color: white;
