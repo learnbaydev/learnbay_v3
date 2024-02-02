@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import VideoPopup from "@/components/Global/VideoPopup/VideoPopup";
 import PopupContent from "@/components/Global/PopupContent/PopupContent";
 import FirstContent from "./FirstContent";
+import Form from "../../Global/Form/Form"
 
 function FirstSection({
   dataScience,
@@ -22,6 +23,17 @@ function FirstSection({
   youtubeEmbedUrl,
   S3RightImage ,
   animationHide,
+
+
+
+
+ 
+  upSkillingHide, 
+  dataScienceGeneric, 
+  radio,
+  downloadBrochure, 
+  fullStack, 
+  
 }) {
   const [popups, setPopups] = useState(false);
   const [video, setVideo] = useState(false);
@@ -57,8 +69,16 @@ function FirstSection({
         youtubeEmbedUrl={youtubeEmbedUrl}
         S3RightImage={S3RightImage}
         animationHide={animationHide}
+interstedInHide={interstedInHide}
+        upSkillingHide={upSkillingHide}
+
+        
+ 
+
         
       />
+       
+        
     </>
   );
 }

@@ -23,7 +23,22 @@ const ContactConsellor = dynamic(() =>
 const CloudDevopsecond = dynamic(() =>
   import("../cloud&devops/DevOpsSecondSection/DevOpsSecondSection")
 );
+const MasterSecondSection  = dynamic(() =>
+  import("../../MastersCourse/MasterSecondSection/MasterSecondSection")
+);
+
+const JobAbroad = dynamic(()=>
+import( "../../MastersCourse/JobAbroad/JobAbroad"
+)
+);
+
 const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
+  const seconddata = [
+    { boldText: "IBM", normalText: "Certified Capstone", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
+    { CboldText: "175%", normalText: "Average Salary Hike", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
+    { boldText: "35K+", normalText: "Trusted Learners", },
+    
+  ];
   const BASecond = {
     title1: "Project-Based Learning",
     image1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/group_775.webp",
@@ -65,6 +80,38 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
     image5:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-second-min.webp",
   };
+  const JobData = {
+    title: "Marketing Analytics Certification Program    ",
+    points: [
+      {
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
+        imgAlt: "",
+        title: "Master Data-Driven Marketing Strategies:"        ,
+        description: "Specialise in leveraging data for strategic marketing decisions        ",
+      },
+      {
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
+        imgAlt: "",
+        title: "Transform Your Career with Impactful Data Insights:        ",
+        description: "Specialise in turning marketing data into actionable insights and business growth        ",
+      },
+      {
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
+        imgAlt: "",
+        title: "Flexible Online Learning for Modern Marketers:        ",
+        description: "Learn at your own pace, ideal for the busy marketing professionals        ",
+      },
+   
+    ],
+    bannerImage: {
+      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BA-min.webp",
+      width: 500,
+      height: 400,
+      priority: true,
+      quality: 80,
+      alt: "Banner Image 1 Alt",
+    },
+  };
   return (
     <>
       <Navbar dataScienceCounselling={true} interstedInHide={true} />
@@ -83,9 +130,11 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         idss="W-WSqLl8_5o"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/MarketingHeader-min.webp"
         videoId="W-WSqLl8_5o"
-        softwareBtnHide={true}
+      
       />
+      <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={BASecond} />
+      <JobAbroad data={JobData}/>
       {/* <SecondSection SecondSectionData={SecondSectionData} /> */}
       <SecondNavbar hideProjectLab={true} />
       <TrainerSection idss="eautK0odE7Q" />

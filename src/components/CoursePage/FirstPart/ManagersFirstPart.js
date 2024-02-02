@@ -28,8 +28,15 @@ const CloudDevopsecond = dynamic(() =>
     "../../CoursePage/cloud&devops/DevOpsSecondSection/DevOpsSecondSection"
   )
 );
+const MasterSecondSection = dynamic(() =>
+  import("../../MastersCourse/MasterSecondSection/MasterSecondSection")
+);
 const FirstSection = dynamic(() =>
   import("../../CoursePage/FirstSection/FirstSection")
+);
+
+const JobAbroad = dynamic(() =>
+  import("../../MastersCourse/JobAbroad/JobAbroad")
 );
 
 import { AiOutlineContainer } from "react-icons/ai";
@@ -37,6 +44,12 @@ import { BsDisplay, BsPeople, BsPersonGear } from "react-icons/bs";
 import { FaLinkedinIn, FaReact } from "react-icons/fa";
 import { TbBrandGoogleAnalytics } from "react-icons/tb";
 const FirstPart = ({ SecondSectionData, TestimonialData }) => {
+  const seconddata = [
+    { boldText: "IBM", normalText: "Certified Capstone", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
+    { CboldText: "175%", normalText: "Average Salary Hike", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
+    { boldText: "35K+", normalText: "Trusted Learners", },
+    
+  ];
   const DsSecond = {
     title1: "Domain Specialization",
     image1:
@@ -74,6 +87,45 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
     image5:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-second-min.webp",
   };
+
+  const JobData = {
+    title: "DSAI for Managers & Leaders    ",
+    points: [
+      {
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
+        imgAlt: "",
+        title:
+          "Integrate AI and Data Science in Strategic Decision-Making:        ",
+        description:
+          "Blend AI insights seamlessly into business strategies for competitive edge.        ",
+      },
+      {
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
+        imgAlt: "",
+        title: "Customized for Leaders and Managers:        ",
+        description:
+          "Specially crafted curriculum addressing the challenges and needs of leadership roles.        ",
+      },
+      {
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
+        imgAlt: "",
+        title: "Flexible Online Format for Executive Learners:        ",
+        description:
+          "Study at your own pace, designed for the demanding schedules of executives.        ",
+      },
+    ],
+    bannerImage: {
+      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/managers_leader.webp",
+      width: 500,
+      height: 400,
+      priority: true,
+      quality: 80,
+      alt: "Banner Image 1 Alt",
+    },
+  };
   return (
     <>
       <FirstSection
@@ -91,9 +143,10 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         idss="osYNvuuI1_8"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/managers+and+leaders-min.webp"
         videoId="osYNvuuI1_8"
-        softwareBtnHide={true}
       />
+      <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={DsSecond} />
+      <JobAbroad data={JobData} />
       <SecondNavbar
         interstedInHide={true}
         dataScience={true}

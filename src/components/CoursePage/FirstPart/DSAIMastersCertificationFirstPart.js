@@ -32,11 +32,26 @@ const FirstSection = dynamic(() =>
   import("../FirstSection/FirstSection")
 );
 
+const MasterSecondSection  = dynamic(() =>
+  import("../../MastersCourse/MasterSecondSection/MasterSecondSection")
+);
+const JobAbroad = dynamic(()=>
+import( "../../MastersCourse/JobAbroad/JobAbroad"
+)
+);
+
 import { AiOutlineContainer } from "react-icons/ai";
 import { BsDisplay, BsPeople, BsPersonGear } from "react-icons/bs";
 import { FaLinkedinIn, FaReact } from "react-icons/fa";
 import { TbBrandGoogleAnalytics } from "react-icons/tb";
 const FirstPart = ({ SecondSectionData, TestimonialData }) => {
+
+  const seconddata = [
+    { boldText: "IBM", normalText: "Certified Capstone", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
+    { CboldText: "175%", normalText: "Average Salary Hike", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
+    { boldText: "35K+", normalText: "Trusted Learners", },
+    
+  ];
   const DsSecond = {
     title1: "Domain Specialization",
     image1:
@@ -75,6 +90,38 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
     image5:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-second-min.webp",
   };
+  const JobData = {
+    title: "DSAI for BFSI Professionals    ",
+    points: [
+      {
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
+        imgAlt: "",
+        title: "Specialise in Bridging Finance with AI Technology:        ",
+        description: "Gain specialisation by working on real-time projects        ",
+      },
+      {
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
+        imgAlt: "",
+        title: "Enhance BFSI Career Paths with Data Science Expertise:        ",
+        description: "Unlock high paying career opportunities by mastering data analytics in finance        ",
+      },
+      {
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
+        imgAlt: "",
+        title: "Tailored Content for Banking and Finance Professionals:        ",
+        description: "Curriculum inclusive of Gen-AI designed specifically for BFSI professionals        ",
+      },
+   
+    ],
+    bannerImage: {
+      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Adv-dsai-_1_-min.webp",
+      width: 500,
+      height: 400,
+      priority: true,
+      quality: 80,
+      alt: "Banner Image 1 Alt",
+    },
+  };
   return (
     <>
       <FirstSection
@@ -92,9 +139,11 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         idss="YWxTtvb3x-U"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Foundation+program-min.webp"
         videoId="YWxTtvb3x-U"
-        softwareBtnHide={true}
+      
       />
+       <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={DsSecond} />
+      <JobAbroad data={JobData}/>
       <SecondNavbar
         interstedInHide={true}
         dataScience={true}
