@@ -34,6 +34,13 @@ const ContactConsellor = dynamic(() =>
 const CloudDevopstestimonials = dynamic(() =>
   import("../cloud&devops/CloudDevopstestimonial/Clouddevoptestimonials")
 );
+const MasterSecondSection  = dynamic(() =>
+  import("../../MastersCourse/MasterSecondSection/MasterSecondSection")
+);
+const JobAbroad = dynamic(()=>
+import( "../../MastersCourse/JobAbroad/JobAbroad"
+)
+);
 import { TbCloudComputing } from "react-icons/tb";
 import { PiInfinity } from "react-icons/pi";
 import { BsPersonGear } from "react-icons/bs";
@@ -43,6 +50,12 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { BsPeople } from "react-icons/bs";
 
 const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
+  const seconddata = [
+    { boldText: "IBM", normalText: "Certified Capstone", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
+    { CboldText: "175%", normalText: "Average Salary Hike", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
+    { boldText: "35K+", normalText: "Trusted Learners", },
+    
+  ];
   const clouddevops = {
     title1: "Project-Based Learning",
     image1:
@@ -78,6 +91,39 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-second-min.webp",
   };
 
+  const JobData = {
+    title: "Cloud Computing & Devops Certification Program     ",
+    points: [
+      {
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
+        imgAlt: "",
+        title: "Master the future in Cloud        ",
+        description: "Excel in Cloud Computing and DevOps with this comprehensive program        ",
+      },
+      {
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
+        imgAlt: "",
+        title: "Flexible Learning at your Convenience        ",
+        description: "For professionals aiming to upskill without quitting their job         ",
+      },
+      {
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
+        imgAlt: "",
+        title: "Transform with Global Standards        ",
+        description: "Globally recognized degree from IBM & MIcrosoft        ",
+      },
+   
+    ],
+    bannerImage: {
+      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-first-devops-min.webp",
+      width: 500,
+      height: 400,
+      priority: true,
+      quality: 80,
+      alt: "Banner Image 1 Alt",
+    },
+  };
+
   return (
     <>
     <FirstSection
@@ -95,10 +141,12 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
           idss="gaQYhVPCudQ"
           thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/cd-f.webp"
         // videoId="gaQYhVPCudQ"
-        softwareBtnHide={true}
+        
         S3RightImage={S3RightImage}
         />
+         <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={clouddevops} showimg={true} shoimgtwo={true} />
+      <JobAbroad data={JobData}/>
       {adsHide ? (
         ""
       ) : (

@@ -33,6 +33,15 @@
   text-align: center;
   font-size: 40px;
 }
+.BoldC {
+  color: #ff8403;
+  padding-top: 20px;
+  font-weight: 700;
+  line-height: 45px;
+  margin: 0;
+  text-align: center;
+  font-size: 40px;
+}
 
 .NormalP {
   margin: 0;
@@ -93,6 +102,11 @@
     font-size: 30px;
     padding-top: 10px;
   }
+  .BoldC {
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 10px;
+  }
 
   .secondbox {
     padding: 10px 5px;
@@ -106,5 +120,16 @@
     display: block;
     margin-top: 10px;
   }
-
+  
 }
+@media (max-width: 360px) {
+
+  .imgMobile img{
+
+    width: 150px;
+    height: auto;
+  
+  }
+  
+}
+

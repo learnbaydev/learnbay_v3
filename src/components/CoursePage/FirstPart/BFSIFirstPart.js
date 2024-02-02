@@ -23,7 +23,20 @@ const ContactConsellor = dynamic(() =>
 const CloudDevopsecond = dynamic(() =>
   import("../cloud&devops/DevOpsSecondSection/DevOpsSecondSection")
 );
+const MasterSecondSection  = dynamic(() =>
+  import("../../MastersCourse/MasterSecondSection/MasterSecondSection")
+);
+const JobAbroad = dynamic(()=>
+import( "../../MastersCourse/JobAbroad/JobAbroad"
+)
+);
 const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
+  const seconddata = [
+    { boldText: "0+", normalText: "Countries Recognition", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
+    { CboldText: "0+", normalText: "Transferrable ECTS Credits", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
+    { boldText: "3K+", normalText: "Trusted Learners", },
+    
+  ];
   const BASecond = {
     title1: "Project-Based Learning",
     image1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+773.webp",
@@ -61,6 +74,38 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
     image5:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-second-min.webp",
   };
+  const JobData = {
+    title: "Advance Data Science for International Careers",
+    points: [
+      {
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
+        imgAlt: "",
+        title: "Earn a Degree Without Pausing Your Career",
+        description: "Flexible online degrees from LearnBay's ExcelVarsity for working pros.",
+      },
+      {
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
+        imgAlt: "",
+        title: "Skill Up for Swift Promotions",
+        description: "Curriculum designed for rapid career advancement and leadership roles.",
+      },
+      {
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
+        imgAlt: "",
+        title: "Step into High-Value Research Careers",
+        description: "Degree for prestigious research jobs and institutional collaborations.",
+      },
+   
+    ],
+    bannerImage: {
+      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BA-min.webp",
+      width: 500,
+      height: 400,
+      priority: true,
+      quality: 80,
+      alt: "Banner Image 1 Alt",
+    },
+  };
   return (
     <>
       <Navbar dataScienceCounselling={true} interstedInHide={true} />
@@ -79,9 +124,11 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         idss="ecI6FD8ElDs"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BFSIHeader-min.webp"
         videoId="ecI6FD8ElDs"
-        softwareBtnHide={true}
+      
       />
+         <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={BASecond} />
+      <JobAbroad data={JobData}/>
       {/* <SecondSection SecondSectionData={SecondSectionData} /> */}
       <SecondNavbar hideProjectLab={true} />
       <TrainerSection idss="eautK0odE7Q" />

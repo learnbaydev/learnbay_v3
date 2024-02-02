@@ -22,7 +22,21 @@ const ContactConsellor = dynamic(() =>
 const CloudDevopsecond = dynamic(() =>
   import("../cloud&devops/DevOpsSecondSection/DevOpsSecondSection")
 );
+const MasterSecondSection  = dynamic(() =>
+  import("../../MastersCourse/MasterSecondSection/MasterSecondSection")
+);
+
+const JobAbroad = dynamic(()=>
+import( "../../MastersCourse/JobAbroad/JobAbroad"
+)
+);
 const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
+  const seconddata = [
+    { boldText: "IBM", normalText: "Certified Capstone", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
+    { CboldText: "175%", normalText: "Average Salary Hike", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
+    { boldText: "35K+", normalText: "Trusted Learners", },
+    
+  ];
   const BASecond = {
     title1: "Project-Based Learning",
     image1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/group_775.webp",
@@ -64,6 +78,38 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
     image5:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-second-min.webp",
   };
+  const JobData = {
+    title: "HR Analytics Certification Program    ",
+    points: [
+      {
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
+        imgAlt: "",
+        title: "Acquire Advanced Skills in HR Analytics:        ",
+        description: "Specialise in analytics specifically tailored for HR applications        ",
+      },
+      {
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
+        imgAlt: "",
+        title: "Drive Organisational Change with Informed Decisions:        ",
+        description: "Empower strategic decision-making in HR through data-driven insights        ",
+      },
+      {
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
+        imgAlt: "",
+        title: "Online and Flexible, Designed for HR Professionals:        ",
+        description: "Learning experience that fits the schedule of busy HR professionals        ",
+      },
+   
+    ],
+    bannerImage: {
+      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BA-min.webp",
+      width: 500,
+      height: 400,
+      priority: true,
+      quality: 80,
+      alt: "Banner Image 1 Alt",
+    },
+  };
   return (
     <>
       <Navbar dataScienceCounselling={true} interstedInHide={true} />
@@ -82,9 +128,11 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         idss="cYwOjymzBbo"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/HRHeader-min.webp"
         videoId="cYwOjymzBbo"
-        softwareBtnHide={true}
+       
       />
+      <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={BASecond} />
+      <JobAbroad data={JobData}/>
       {/* <SecondSection SecondSectionData={SecondSectionData} /> */}
       <SecondNavbar hideProjectLab={true} />
       <TrainerSection idss="eautK0odE7Q" />

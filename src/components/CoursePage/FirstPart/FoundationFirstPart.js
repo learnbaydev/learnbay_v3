@@ -17,13 +17,26 @@ const ContactConsellor = dynamic(() =>
 const CloudDevopsecond = dynamic(() =>
   import("../cloud&devops/DevOpsSecondSection/DevOpsSecondSection")
 );
+const MasterSecondSection  = dynamic(() =>
+  import("../../MastersCourse/MasterSecondSection/MasterSecondSection")
+);
 const FirstSection = dynamic(() => import("../FirstSection/FirstSection"));
+const JobAbroad = dynamic(()=>
+import( "../../MastersCourse/JobAbroad/JobAbroad"
+)
+);
 
 import { AiOutlineContainer } from "react-icons/ai";
 import { BsDatabaseUp, BsDisplay, BsPeople } from "react-icons/bs";
 import { FaLinkedinIn, FaReact } from "react-icons/fa";
 import { TbBrandGoogleAnalytics } from "react-icons/tb";
 const FirstPart = ({ SecondSectionData, TestimonialData }) => {
+  const seconddata = [
+    { boldText: "IBM", normalText: "Certified Capstone", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
+    { CboldText: "175%", normalText: "Average Salary Hike", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
+    { boldText: "35K+", normalText: "Trusted Learners", },
+    
+  ];
   const DsSecond = {
     title1: "Project-Based Learning",
     image1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+773.webp",
@@ -61,6 +74,38 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
     image5:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-second-min.webp",
   };
+  const JobData = {
+    title: "Advance Data Science for International Careers",
+    points: [
+      {
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
+        imgAlt: "",
+        title: "Earn a Degree Without Pausing Your Career",
+        description: "Flexible online degrees from LearnBay's ExcelVarsity for working pros.",
+      },
+      {
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
+        imgAlt: "",
+        title: "Skill Up for Swift Promotions",
+        description: "Curriculum designed for rapid career advancement and leadership roles.",
+      },
+      {
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
+        imgAlt: "",
+        title: "Step into High-Value Research Careers",
+        description: "Degree for prestigious research jobs and institutional collaborations.",
+      },
+   
+    ],
+    bannerImage: {
+      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job1.webp",
+      width: 500,
+      height: 400,
+      priority: true,
+      quality: 80,
+      alt: "Banner Image 1 Alt",
+    },
+  };
   return (
     <>
       <FirstSection
@@ -78,10 +123,12 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         idss="tBKOlgHS-k8"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Foundation+program-min.webp"
         videoId="tBKOlgHS-k8"
-        softwareBtnHide={true}
+   
         ibmOnly={true}
       />
+       <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={DsSecond} />
+      <JobAbroad data ={JobData}/>
 
       <SecondNavbar
         hideProjectLab={true}

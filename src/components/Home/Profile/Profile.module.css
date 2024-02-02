@@ -1,0 +1,36 @@
+/* styles/ProfileSlider.module.css */
+.profileSlider {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .profileImages {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profileImages img {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+  }
+  
+  .profileImages img:hover {
+    transform: scale(1.1);
+  }
+  
+  .profileImages img.selected {
+    border: 2px solid #3498db;
+  }
+  
+  .profileDetails {
+    flex: 1;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  

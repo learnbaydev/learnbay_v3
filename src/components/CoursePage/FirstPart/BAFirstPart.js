@@ -34,7 +34,24 @@ import { BsDisplay } from "react-icons/bs";
 import { AiOutlineContainer } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsPeople } from "react-icons/bs";
+
+const MasterSecondSection  = dynamic(() =>
+import("../../MastersCourse/MasterSecondSection/MasterSecondSection")
+);
+const JobAbroad = dynamic(()=>
+import( "../../MastersCourse/JobAbroad/JobAbroad"
+)
+);
 const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
+
+
+  const seconddata = [
+    { boldText: "IBM", normalText: "Certified Capstone", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
+    { CboldText: "175%", normalText: "Average Salary Hike", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
+    { boldText: "35K+", normalText: "Trusted Learners", },
+    
+  ];
+    
   const BASecond = {
     title1: "Domain Specialization",
     image1:
@@ -72,6 +89,38 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
     image5:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-second-min.webp",
   };
+  const JobData = {
+    title: "Business Analytics Master Certification Program     ",
+    points: [
+      {
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
+        imgAlt: "",
+        title: "Fast-Track to Higher Earnings        ",
+        description: "Our curriculum positions you for significant salary increases in the analytics domain.        ",
+      },
+      {
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
+        imgAlt: "",
+        title: "Flexible Learning at your Convenience        ",
+        description: "Designed for professionals aiming to master data analytics without quitting their job         ",
+      },
+      {
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
+        imgAlt: "",
+        title: "Lead with Data-Driven Decisions        ",
+        description: "Learn to drive business growth by making informed business strategies.",
+      },
+   
+    ],
+    bannerImage: {
+      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BA-min.webp",
+      width: 500,
+      height: 400,
+      priority: true,
+      quality: 80,
+      alt: "Banner Image 1 Alt",
+    },
+  };
   return (
     <>
       <Navbar dataScienceCounselling={true} interstedInHide={true} />
@@ -90,9 +139,12 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         idss="CHut_wm-P2s"
          thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ba-f.webp"
           videoId="CHut_wm-P2s"
-          softwareBtnHide={true}
+         
       />
+         <MasterSecondSection data={seconddata} />
+      
          <CloudDevopsecond data={BASecond} />
+         <JobAbroad data={JobData}/>
       {/* <SecondSection SecondSectionData={SecondSectionData} /> */}
       <SecondNavbar />
       <WhoProgram
