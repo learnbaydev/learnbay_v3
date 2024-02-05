@@ -29,7 +29,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/advance-data-science-certification-courses"
+          href="https://www.learnbay.co/datascience/data-science-ai-for-managers"
         />
         <script
           type="application/ld+json"
@@ -39,7 +39,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
   "@type": "Course",
   "name": "Data Science and AI Program For Managers and Leaders",
   "description": "Our Data Science and AI Program For Managers and Leaders brings you a wide knowledge of Data Science and AI and helps you to make precise data-driven decisions.",
-  "url": "https://www.learnbay.co/datascience/advance-data-science-certification-courses",
+  "url": "https://www.learnbay.co/datascience/data-science-ai-for-managers",
   "offers": {
     "@type": "offer",
     "price": "125000",

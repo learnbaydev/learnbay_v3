@@ -365,4 +365,32 @@
 		<changefreq>daily</changefreq>
 		<priority>0.70</priority>
 	</url>
+	<url>
+		<loc>https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/datascience/data-science-ai-for-managers</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+	<url>
+		<loc>https://www.learnbay.co/datascience/hr-analytics</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/datascience/data-science-for-bfsi-professional</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/datascience/marketing-analytics</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
 </urlset>
