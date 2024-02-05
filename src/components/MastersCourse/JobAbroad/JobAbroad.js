@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Styles from './JobAbroad.module.css';
 import Link from 'next/link';
 
-const JobAbroad = ({ data }) => {
+const JobAbroad = ({ data, WolfLink  }) => {
   const { title, points, bannerImage } = data;
 
   return (
@@ -38,12 +38,19 @@ const JobAbroad = ({ data }) => {
                 </button>
               </Link>
             </div>
-            <p className={Styles.woolfText}>
-              Learnbay Excelversity is a constituent college affiliated with{' '}
-              <a href="https://woolf.university/academics/college-membership/bb43ed7d-edff-4e25-b530-2e950496519c">
-                <span className={Styles.spanWoolf}>Woolf University, EU</span>
-              </a>
-            </p>
+            <>
+            {WolfLink ? (
+               <p className={Styles.woolfText}>
+               Learnbay Excelversity is a constituent college affiliated with{' '}
+               <a href="https://woolf.university/academics/college-membership/bb43ed7d-edff-4e25-b530-2e950496519c">
+                 <span className={Styles.spanWoolf}>Woolf University, EU</span>
+               </a>
+             </p>
+            ):("")}
+           
+            </>
+
+
           </div>
 
           <div className={Styles.JobAbroadRight}>

@@ -91,7 +91,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-second-min.webp",
   };
   const JobData = {
-    title: "Advanced Data Science & AI Certification Program    ",
+    title: "Elevate Your Expertise in Data Science and AI    ",
     points: [
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
@@ -103,18 +103,18 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
         imgAlt: "",
         title: "Flexible Learning at your Convenience        ",
-        description: "For professionals aiming to master data science & AI without quitting their job         ",
+        description: "For professionals aiming to upskill without quitting their job.",
       },
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
         imgAlt: "",
-        title: "Achieve Exceptional Salary Growth"        ,
-        description: "Our advanced training positions you for competitive salaries in Data Science        ",
+        title: "Curriculum Inclusive of Gen-AI        "        ,
+        description: "Tailored for career transformation in a tech-driven era",
       },
    
     ],
     bannerImage: {
-      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job1.webp",
+      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Adv-dsai-_1_-min.webp",
       width: 500,
       height: 400,
       priority: true,
@@ -142,7 +142,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         
       />
        <MasterSecondSection data={seconddata} />
-      <CloudDevopsecond data={DsSecond} />
+      <CloudDevopsecond data={DsSecond}  />
       <JobAbroad data={JobData}/>
       <SecondNavbar
         interstedInHide={true}

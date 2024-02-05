@@ -11,7 +11,7 @@ export const menuItem = [
   // },
   {
     id: 3,
-    name: "Success Story",
+    name: "Alumni Reviews",
     url: "/reviews",
   },
   {

@@ -91,25 +91,25 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-second-min.webp",
   };
   const JobData = {
-    title: "DSAI for BFSI Professionals    ",
+    title: "Fast-Track Your Career in AI    ",
     points: [
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
         imgAlt: "",
-        title: "Specialise in Bridging Finance with AI Technology:        ",
-        description: "Gain specialisation by working on real-time projects        ",
+        title: "Comprehensive Mastery of AI and Data Science:        ",
+        description: "Gain in-depth knowledge and practical skills in AI and Data Science        ",
       },
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
         imgAlt: "",
-        title: "Enhance BFSI Career Paths with Data Science Expertise:        ",
-        description: "Unlock high paying career opportunities by mastering data analytics in finance        ",
+        title: "Complimentary Advance Gen-AI Module        ",
+        description: "Tailored for career transformation in a tech-driven era        ",
       },
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
         imgAlt: "",
-        title: "Tailored Content for Banking and Finance Professionals:        ",
-        description: "Curriculum inclusive of Gen-AI designed specifically for BFSI professionals        ",
+        title: "3 years of Job and Placement support        ",
+        description: "Online and flexible, ideal for busy professionals:        ",
       },
    
     ],

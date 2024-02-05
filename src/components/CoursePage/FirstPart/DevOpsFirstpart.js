@@ -92,13 +92,13 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
   };
 
   const JobData = {
-    title: "Cloud Computing & Devops Certification Program     ",
+    title: "Cloud Mastery for the Modern Tech Professional    ",
     points: [
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
         imgAlt: "",
         title: "Master the future in Cloud        ",
-        description: "Excel in Cloud Computing and DevOps with this comprehensive program        ",
+        description: "Comprehensive syllabus designed by experts        ",
       },
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
@@ -110,7 +110,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
         imgAlt: "",
         title: "Transform with Global Standards        ",
-        description: "Globally recognized degree from IBM & MIcrosoft        ",
+        description: "Globally recognized certificate from IBM & MIcrosoft        ",
       },
    
     ],
