@@ -83,13 +83,13 @@ const DataAnlyticsFirstPart = ({
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-second-min.webp",
   };
   const JobData = {
-    title: "Data Analytics Program    ",
+    title: "Data-Driven Brilliance    ",
     points: [
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
         imgAlt: "",
         title: "From Beginner to Data Master        ",
-        description: "Become an expert data driven professional & gain in-demand analytics skills        .",
+        description: "Become an expert data professional & gain in-demand analytics skills.",
       },
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",

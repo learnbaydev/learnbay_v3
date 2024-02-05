@@ -90,25 +90,25 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-second-min.webp",
   };
   const JobData = {
-    title: "Business Analytics Master Certification Program     ",
+    title: "Business Decisions Empowered by Analytics    ",
     points: [
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
         imgAlt: "",
-        title: "Fast-Track to Higher Earnings        ",
-        description: "Our curriculum positions you for significant salary increases in the analytics domain.        ",
+        title: "Lead with Data-Driven Decisions   ",
+        description: "Learn to drive business growth by making informed business strategies.   ",
       },
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
         imgAlt: "",
         title: "Flexible Learning at your Convenience        ",
-        description: "Designed for professionals aiming to master data analytics without quitting their job         ",
+        description: "Designed for professionals aiming to upskill without quitting their job         ",
       },
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
         imgAlt: "",
-        title: "Lead with Data-Driven Decisions        ",
-        description: "Learn to drive business growth by making informed business strategies.",
+        title: "Fast-Track to Higher Earnings    ",
+        description: "Get significant salary increases in the business analytics domain.",
       },
    
     ],

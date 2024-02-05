@@ -81,7 +81,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-second-min.webp",
   };
   const JobData = {
-    title: "Marketing Analytics Certification Program    ",
+    title: "Revolutionize Marketing with Data-Driven Strategies",
     points: [
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
@@ -92,8 +92,8 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
         imgAlt: "",
-        title: "Transform Your Career with Impactful Data Insights:        ",
-        description: "Specialise in turning marketing data into actionable insights and business growth        ",
+        title: "Curriculum inclusive of Gen-AI        ",
+        description: "Tailored for career transformation in a tech-driven era        ",
       },
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",

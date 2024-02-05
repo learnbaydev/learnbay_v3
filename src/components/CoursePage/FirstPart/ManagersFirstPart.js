@@ -89,7 +89,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
   };
 
   const JobData = {
-    title: "DSAI for Managers & Leaders    ",
+    title: "Lead with Data: AI for Decision-Makers    ",
     points: [
       {
         imgSrc:
@@ -98,7 +98,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         title:
           "Integrate AI and Data Science in Strategic Decision-Making:        ",
         description:
-          "Blend AI insights seamlessly into business strategies for competitive edge.        ",
+          "Turn AI insights into business strategies for competitive edge.          ",
       },
       {
         imgSrc:
@@ -106,7 +106,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         imgAlt: "",
         title: "Customized for Leaders and Managers:        ",
         description:
-          "Specially crafted curriculum addressing the challenges and needs of leadership roles.        ",
+          "Specially crafted curriculum for project managers and team leads.          ",
       },
       {
         imgSrc:
@@ -114,7 +114,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         imgAlt: "",
         title: "Flexible Online Format for Executive Learners:        ",
         description:
-          "Study at your own pace, designed for the demanding schedules of executives.        ",
+          "Study at your own pace, designed for the busy schedules of executives.        ",
       },
     ],
     bannerImage: {

@@ -28,7 +28,7 @@ import { BsDisplay } from "react-icons/bs";
 import { AiOutlineContainer } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsPeople } from "react-icons/bs";
-const FirstPart = ({ TestimonialData }) => {
+const FirstPart = ({ TestimonialData, WolfLink }) => {
 
  
     const seconddata = [
@@ -79,25 +79,25 @@ const FirstPart = ({ TestimonialData }) => {
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-second-min.webp",
   };
   const JobData = {
-    title: "Data Science And AI Master Certification Program    ",
+    title: "Master’s Degree that gets you Job Abroad   ",
     points: [
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
         imgAlt: "",
-        title: "Comprehensive Mastery of AI and Data Science:        ",
-        description: "Tailored for career transformation in a tech-driven era        ",
+        title: "Earn a Degree Without Pausing Your Career        ",
+        description: "Flexible online degrees from LearnBay's ExcelVarsity for working pros.       ",
       },
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
         imgAlt: "",
-        title: "Curriculum inclusive of Gen-AI        ",
-        description: "Tailored for career transformation in a tech-driven era        ",
+        title: "Skill Up for Swift Promotions       ",
+        description: "Curriculum designed for rapid career advancement and leadership roles.       ",
       },
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
         imgAlt: "",
-        title: "3 years of Job and Placement support        ",
-        description: "Online and flexible, ideal for busy professionals:        ",
+        title: "Step into High-Value Research Careers        ",
+        description: "Degree for prestigious research jobs and institutional collaborations.        ",
       },
    
     ],
@@ -127,7 +127,7 @@ const FirstPart = ({ TestimonialData }) => {
       />
       <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={DsSecond} />
-      <JobAbroad  data={JobData}/>
+      <JobAbroad  data={JobData}  WolfLink ={WolfLink}/>
       <SecondNavbar dataScienceCounselling={true} />
       <TrainerSection idss="eautK0odE7Q" />
       <Testimonial redirectDS={true} Testimonial={TestimonialData} />
