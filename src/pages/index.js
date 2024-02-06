@@ -453,7 +453,7 @@ export default function Home() {
         radio={true}
         // interstedInHide={true}
       />
-      <Media projectData={data} />
+      <Media projectData={data}  />
       <SeventhSection />
 
       <Footer />
