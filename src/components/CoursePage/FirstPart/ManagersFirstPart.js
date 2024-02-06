@@ -140,7 +140,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         firstToparaImg="For Managers and Leaders"
         firstHeading="Data Science & AI Certification Program"
         firstTopPara="Curriculum Inclusive of Gen-AI "
-        idss="osYNvuuI1_8"
+        idss="rZVkXvgW9gk"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/managers+and+leaders-min.webp"
         videoId="osYNvuuI1_8"
       />

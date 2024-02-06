@@ -121,7 +121,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         firstToparaImg=""
         firstHeading="Data Science & AI for BFSI Professionals"
         firstTopPara=""
-        idss="ecI6FD8ElDs"
+        idss="Fp03J-kqweY"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BFSIHeader-min.webp"
         videoId="ecI6FD8ElDs"
         topHide={true}

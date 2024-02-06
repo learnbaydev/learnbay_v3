@@ -24,6 +24,7 @@ function FirstSection({
   S3RightImage ,
   animationHide,
   topHide,
+  IBMGl,
 
 
 
@@ -72,6 +73,7 @@ function FirstSection({
 interstedInHide={interstedInHide}
         upSkillingHide={upSkillingHide}
         topHide={topHide}
+        IBMGl={IBMGl}
 
         
  

@@ -47,7 +47,7 @@ import { TbBrandGoogleAnalytics } from "react-icons/tb";
 const FirstPart = ({ SecondSectionData, TestimonialData }) => {
 
   const seconddata = [
-    { boldText: "IBM", normalText: "Certified Capstone", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
+    { boldText: "IBM", normalText: "Global Certification", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
     { CboldText: "175%", normalText: "Average Salary Hike", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
     { boldText: "35K+", normalText: "Trusted Learners", },
     
@@ -65,15 +65,15 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
     jobRoles: [
       {
         icon: <FaReact />,
-        role: "Sr. Data Scientist ",
-        salary: " 27 LPA",
+        role: "Data Scientist ",
+        salary: " 14.4 LPA",
       },
       {
         icon: <TbBrandGoogleAnalytics />,
-        role: "Sr. Data Analyst",
-        salary: " 15 LPA",
+        role: "Tableau Developer ",
+        salary: "11.9 LPA        ",
       },
-      { icon: <BsPersonGear />, role: "ML Engineer ", salary: "14 LPA" },
+      { icon: <BsPersonGear />, role: "Data Analyst ", salary: "7.2 LPA      " },
     ],
     image3:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group-768-min.webp",
@@ -90,25 +90,25 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-second-min.webp",
   };
   const JobData = {
-    title: "Advanced Data Science & AI Certification Program    ",
+    title: "Jumpstart Your Career In Data Science & AI    ",
     points: [
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
         imgAlt: "",
-        title: "Bridge your Career Gap        ",
-        description: "Internship certificate that helps you fill your career gap.         ",
+        title: "6 month Internship Certificate        ",
+        description: "Earn an internship certificate by working on real-time data science projects.         ",
       },
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
         imgAlt: "",
-        title: "Flexible Learning at your Convenience        ",
-        description: "For professionals aiming to master data science & AI without quitting their job         ",
+        title: "Final Year Project Assistance        ",
+        description: "Get Live help from Industry Experts for your final year project        ",
       },
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
         imgAlt: "",
-        title: "Achieve Exceptional Salary Growth"        ,
-        description: "Our advanced training positions you for competitive salaries in Data Science        ",
+        title: "Curriculum inclusive of Gen-AI        "        ,
+        description: "Tailored for career transformation in a tech-driven era        ",
       },
    
     ],
@@ -132,12 +132,14 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         cityParaCont="Gain work experience of data scientist with real projects"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Adv-dsai-_1_-min.webp"
-        firstToparaImg="with Domain Specialization"
-        firstHeading="Advance Data Science & AI Program"
-        firstTopPara="Curriculum Inclusive of Gen-AI "
+        firstToparaImg="For Freshers"
+        firstHeading="Data Science & AI Certification Program"
+        firstTopPara="Final Year Project Assistance with        "
         idss="YWxTtvb3x-U"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ds-fs.webp"
         videoId="YWxTtvb3x-U"
+        ibmOnly={true}
+        IBMGl={true}
         
       />
        <MasterSecondSection data={seconddata} />
