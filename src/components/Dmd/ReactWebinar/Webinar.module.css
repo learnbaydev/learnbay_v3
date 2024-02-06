@@ -13,9 +13,9 @@
 
 .btn {
     position: relative;
-    right: 28%;
+    right: 35%;
     /* top: -23px; */
-    bottom: 85px;
+    bottom: 75px;
     cursor: pointer;
 
    
@@ -28,3 +28,8 @@
     color: #fff;
     cursor: pointer;
 }
+@media screen and (max-width: 600px) {
+    .webmain{
+        display: none;
+    }
+  }

@@ -1155,8 +1155,8 @@ background-clip: text;
 
 @media (max-width: 481px) {
   .Course {
-    padding: 0 20px;
-    margin-top: 50px;
+    /* padding: 0 20px; */
+    /* margin-top: 0px; */
     width: 100%;
   }
 

@@ -50,13 +50,14 @@ const DmdPart = ({
       <HomeLine />
       <Transpro />
       <div className={styles.Margin}>
-      <Course  dataScience={true}
+      <Course  dataScience={true }
+     
         radio={true}
         organicADS={true}
         newDesign={true}
         dataScienceGeneric={true} />
         </div>
-      <Certificate data={CertificateData} />
+      <Certificate data={CertificateData}    className={styles.coursegap}/>
      <Webinar/>
      <SliderTab/>
        <ProjectSection
