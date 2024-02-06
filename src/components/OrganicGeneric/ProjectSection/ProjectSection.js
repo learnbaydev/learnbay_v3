@@ -21,14 +21,7 @@ const ProjectSection = ({
   nolinkO,
   linkomb,
 
-
-
-
- 
- 
- 
- 
-  
+  HideDmd,
 }) => {
   const [popups, setPopups] = useState(false);
 
@@ -42,32 +35,29 @@ const ProjectSection = ({
         setPopups={setPopups}
         heading="Apply For Counselling"
       />
-      <ProjectContent ids={ids}
-      nolinkO={nolinkO} linkomb={linkomb
-      }
-        
-              popup={true}
-              setTrigger={setPopups}
-              radio={radio}
-              fullStack={fullStack}
-              dataScience={dataScience}
-              dataScienceGeneric={dataScienceGeneric}
-              dataScienceCounselling={dataScienceCounselling}
-              upSkillingHide={true}
-              interstedInHide={interstedInHide}
-              adPage={adPage}
-          
+      <ProjectContent
+        ids={ids}
+        nolinkO={nolinkO}
+        linkomb={linkomb}
+        HideDmd={HideDmd}
+        popup={true}
+        setTrigger={setPopups}
+        radio={radio}
+        fullStack={fullStack}
+        dataScience={dataScience}
+        dataScienceGeneric={dataScienceGeneric}
+        dataScienceCounselling={dataScienceCounselling}
+        upSkillingHide={true}
+        interstedInHide={interstedInHide}
+        adPage={adPage}
       />
-        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
         <div className="leftPopup">
           <div className="whiteP" />
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           {/* <p>Fill the below details to get started</p> */}
-         
-            
-    
         </div>
       </Popup>
     </section>
