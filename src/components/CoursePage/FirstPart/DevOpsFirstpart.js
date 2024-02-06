@@ -146,7 +146,8 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
         />
          <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={clouddevops} showimg={true} shoimgtwo={true} />
-      <JobAbroad data={JobData}/>
+      <JobAbroad data={JobData} dataScienceCounselling={true}
+        interstedInHide={true}/>
       {adsHide ? (
         ""
       ) : (

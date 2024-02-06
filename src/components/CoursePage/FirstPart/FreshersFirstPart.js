@@ -107,7 +107,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
         imgAlt: "",
-        title: "Curriculum inclusive of Gen-AI        "        ,
+        title: "Expert Crafted Curriculum        "        ,
         description: "Tailored for career transformation in a tech-driven era        ",
       },
    
@@ -144,7 +144,8 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       />
        <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={DsSecond} />
-      <JobAbroad data={JobData}/>
+      <JobAbroad data={JobData} dataScienceCounselling={true}
+        interstedInHide={true}/>
       <SecondNavbar
         interstedInHide={true}
         dataScience={true}

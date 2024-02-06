@@ -136,14 +136,15 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         firstToparaImg="Master Certification Program"
         firstHeading="Data Science and AI"
         firstTopPara="Curriculum Inclusive of Gen-AI "
-        idss="YWxTtvb3x-U"
+        idss="nutaXz8kwBc"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Foundation+program-min.webp"
-        videoId="YWxTtvb3x-U"
+        videoId="nutaXz8kwBc"
       
       />
        <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={DsSecond} />
-      <JobAbroad data={JobData}/>
+      <JobAbroad data={JobData} dataScienceCounselling={true}
+        interstedInHide={true}/>
       <SecondNavbar
         interstedInHide={true}
         dataScience={true}

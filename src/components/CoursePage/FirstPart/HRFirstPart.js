@@ -133,7 +133,8 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       />
       <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={BASecond} />
-      <JobAbroad data={JobData}/>
+      <JobAbroad data={JobData} dataScienceCounselling={true}
+        interstedInHide={true}/>
       {/* <SecondSection SecondSectionData={SecondSectionData} /> */}
       <SecondNavbar hideProjectLab={true} />
       <TrainerSection idss="eautK0odE7Q" />
