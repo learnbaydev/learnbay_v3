@@ -17,7 +17,7 @@ const FirstContent = ({
   setPopups,
   S3RightImage,
   setVideo,
-  animationHide,
+  IBMGl,
   videoId, // Pass videoId as a prop
   thumbnailUrl, // Pass thumbnailUrl as a prop
   dataScience,
@@ -38,6 +38,13 @@ const FirstContent = ({
     "IBM Project Certification",
     "Designed for Professionals",
   ];
+
+  const textfresher = [
+    "Guaranteed Interview Calls",
+    "1:1 Doubt Session",
+    "6 Months Internship Certificate",
+    "Final Year Project Assistance",
+  ]
   const [mobile, setMobile] = useState(false);
   const [showThumbnail, setShowThumbnail] = useState(true);
   const [lastScrollTop, setLastScrollTop] = useState(0);
@@ -137,23 +144,25 @@ const FirstContent = ({
                   )}
                 </div>
               </div>
-              {animationHide ? (
+              {IBMGl ? (
+                 <div className={styles.animationTextWrap}>
+                 {textfresher.map((text, index) => (
+                   <div key={index} className={styles.verticalSlideWrapper}>
+                     <span className={styles.animationText}>{text}</span>
+                   </div>
+                 ))}
+               </div>
+              ): (
                 <div className={styles.animationTextWrap}>
-                  <div>
-                    <span className={styles.animationText}>
-                      Live 1-on-1 Doubt Session
-                    </span>
+                {texts.map((text, index) => (
+                  <div key={index} className={styles.verticalSlideWrapper}>
+                    <span className={styles.animationText}>{text}</span>
                   </div>
-                </div>
-              ) : (
-                <div className={styles.animationTextWrap}>
-                  {texts.map((text, index) => (
-                    <div key={index} className={styles.verticalSlideWrapper}>
-                      <span className={styles.animationText}>{text}</span>
-                    </div>
-                  ))}
-                </div>
+                ))}
+              </div>
               )}
+               
+              
               <div className={styles.btnImage}>
                 <div onClick={popupShow}>
                   <Button bannerButton={true} text="DOWNLOAD BROCHURE" />

@@ -134,6 +134,11 @@ const Course = ({
                 }
               >
                 {CourseData.title}
+                {CourseData.title === "Popular" ? (
+                  <BsFire style={{ color: "red", marginRight: "5px",  marginLeft: "5px"}} />
+                ) : (
+                  ""
+                )}
               </span>
             );
           })}
@@ -149,6 +154,7 @@ const Course = ({
                       <div className={styles.viewAll}>
                         <h5 className={styles.h5font}>
                           {courseDetail.courseName}
+                         
                         </h5>
                         {/* <h5 className={styles.textView}>View All</h5> */}
                       </div>

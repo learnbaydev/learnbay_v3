@@ -127,7 +127,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         firstToparaImg=""
         firstHeading="Marketing Analytics Certification Program"
         firstTopPara=""
-        idss="W-WSqLl8_5o"
+        idss="Humhgja0gCQ"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/MarketingHeader-min.webp"
         videoId="W-WSqLl8_5o"
         topHide={true}
