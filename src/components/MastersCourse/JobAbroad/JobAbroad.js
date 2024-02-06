@@ -85,7 +85,7 @@ const JobAbroad = ({
             ) : (
               <div className={Styles.consbtn1} onClick={popupShow}>
                 <button className={Styles.consbtn}>
-                  Start Your Application
+                Apply For Counselling
                 </button>
               </div>
             )}

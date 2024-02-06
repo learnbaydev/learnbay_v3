@@ -12,7 +12,7 @@ const Survey = ({ topPara, para, header }) => {
         <h4>{header}</h4>
         <p>{para}</p>
         <div className={styles.ButtonShowD}>
-          <PopupButton
+          {/* <PopupButton
             id="jpqC3A6g"
             style={{
               backgroundColor: "#edbb52",
@@ -25,7 +25,7 @@ const Survey = ({ topPara, para, header }) => {
             className="my-button"
           >
             Know More
-          </PopupButton>
+          </PopupButton> */}
         </div>
       </div>
       <div className={styles.lineWrap}>
@@ -138,7 +138,7 @@ const Survey = ({ topPara, para, header }) => {
           </div>
         </div>
         <div className={styles.ButtonShowM}>
-          <PopupButton
+          {/* <PopupButton
             id="jpqC3A6g"
             style={{
               backgroundColor: "#edbb52",
@@ -151,7 +151,7 @@ const Survey = ({ topPara, para, header }) => {
             className="my-button"
           >
             Know More
-          </PopupButton>
+          </PopupButton> */}
         </div>
       </div>
     </div>

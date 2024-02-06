@@ -249,13 +249,13 @@
 
 .downcontent {
   display: grid;
-  grid-template-columns: 48% 4% 48%;
+  grid-template-columns: 49% 2% 49%;
   grid-gap: 0px;
   gap: 0px;
   border-radius: 8.098px;
   background: #f6f6f6;
   padding: 14px 14px;
-  margin-right: 30px;
+  margin-right: 0px;
   text-align: left;
 }
 .downcontent hr {
@@ -271,7 +271,7 @@
 
 .downcontent p {
   color: #6f6f6f;
-  font-size: 19.088px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 124%;
   margin: 0;

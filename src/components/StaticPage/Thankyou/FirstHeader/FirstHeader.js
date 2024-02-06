@@ -28,7 +28,7 @@ const FirstHeader = ({ donwnload, brochureLink }) => {
           <span className={styles.greenText}>FREE</span>
         </h1>
         <div className={styles.btnFlex}>
-          <PopupButton
+          {/* <PopupButton
             id="jpqC3A6g"
             style={{
               backgroundColor: "#0072bc",
@@ -40,7 +40,7 @@ const FirstHeader = ({ donwnload, brochureLink }) => {
             className="my-button"
           >
             Know More
-          </PopupButton>
+          </PopupButton> */}
           {donwnload ? (
             <a href={brochureLink}>
               <button className={styles.btnDownload}>Download Brochure</button>
