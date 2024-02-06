@@ -106,7 +106,7 @@ const DevopsData = [
   // Add more data as needed
 ];
 
-const PlacementCall = ({ devops, foundation, Marketing, HRAnalyst, BFSI }) => {
+const PlacementCall = ({ devops, Foundation, Marketing, HRAnalyst, BFSI }) => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -124,7 +124,7 @@ const PlacementCall = ({ devops, foundation, Marketing, HRAnalyst, BFSI }) => {
 
   return (
     <>
-      {BFSI ? (
+      {Foundation ? (
         <div className={styles.PlacementCallMain}>
           <div className={styles.title}>
             <h2>Dedicated Placement Cell </h2>
@@ -133,7 +133,7 @@ const PlacementCall = ({ devops, foundation, Marketing, HRAnalyst, BFSI }) => {
           <div className={styles.margin}>
             <div className={styles.course}>
               <div className={styles.mbldiv}>
-                {BFSICourseData.map((course, index) => (
+                {foundationCourseData.map((course, index) => (
                   <div
                     className={`${styles.PlacementCallcourse} ${styles.scrollAnimation}`}
                     key={index}
@@ -168,13 +168,13 @@ const PlacementCall = ({ devops, foundation, Marketing, HRAnalyst, BFSI }) => {
                 modules={[Autoplay]}
                 className="mySwiper"
               >
-                {BFSICourseData.map((course, index) => (
+                {foundationCourseData.map((course, index) => (
                   <SwiperSlide className={styles.slide} key={index}>
                     <div className={styles.slideWrap}>
                       <div className={styles.number}>
                         <div className={styles.imged}>
                           <Image
-                            src={`https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/${courseData[index].imgSrc}`}
+                            src={`https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/${foundationCourseData[index].imgSrc}`}
                             height={60}
                             width={course.imgWidth}
                             loading="lazy"
@@ -192,7 +192,7 @@ const PlacementCall = ({ devops, foundation, Marketing, HRAnalyst, BFSI }) => {
         </div>
       ) : (
         <>
-          {HRAnalyst ? (
+          {BFSI ? (
             <div className={styles.PlacementCallMain}>
               <div className={styles.title}>
                 <h2>Dedicated Placement Cell </h2>
@@ -201,7 +201,7 @@ const PlacementCall = ({ devops, foundation, Marketing, HRAnalyst, BFSI }) => {
               <div className={styles.margin}>
                 <div className={styles.course}>
                   <div className={styles.mbldiv}>
-                    {HRCourseData.map((course, index) => (
+                    {BFSICourseData.map((course, index) => (
                       <div
                         className={`${styles.PlacementCallcourse} ${styles.scrollAnimation}`}
                         key={index}
@@ -236,7 +236,7 @@ const PlacementCall = ({ devops, foundation, Marketing, HRAnalyst, BFSI }) => {
                     modules={[Autoplay]}
                     className="mySwiper"
                   >
-                    {HRCourseData.map((course, index) => (
+                    {BFSICourseData.map((course, index) => (
                       <SwiperSlide className={styles.slide} key={index}>
                         <div className={styles.slideWrap}>
                           <div className={styles.number}>
@@ -260,7 +260,7 @@ const PlacementCall = ({ devops, foundation, Marketing, HRAnalyst, BFSI }) => {
             </div>
           ) : (
             <>
-              {Marketing ? (
+              {HRAnalyst ? (
                 <div className={styles.PlacementCallMain}>
                   <div className={styles.title}>
                     <h2>Dedicated Placement Cell </h2>
@@ -269,7 +269,7 @@ const PlacementCall = ({ devops, foundation, Marketing, HRAnalyst, BFSI }) => {
                   <div className={styles.margin}>
                     <div className={styles.course}>
                       <div className={styles.mbldiv}>
-                        {MarketingCourseData.map((course, index) => (
+                        {HRCourseData.map((course, index) => (
                           <div
                             className={`${styles.PlacementCallcourse} ${styles.scrollAnimation}`}
                             key={index}
@@ -304,7 +304,7 @@ const PlacementCall = ({ devops, foundation, Marketing, HRAnalyst, BFSI }) => {
                         modules={[Autoplay]}
                         className="mySwiper"
                       >
-                        {MarketingCourseData.map((course, index) => (
+                        {HRCourseData.map((course, index) => (
                           <SwiperSlide className={styles.slide} key={index}>
                             <div className={styles.slideWrap}>
                               <div className={styles.number}>
@@ -328,7 +328,7 @@ const PlacementCall = ({ devops, foundation, Marketing, HRAnalyst, BFSI }) => {
                 </div>
               ) : (
                 <>
-                  {foundation ? (
+                  {Marketing ? (
                     <div className={styles.PlacementCallMain}>
                       <div className={styles.title}>
                         <h2>Dedicated Placement Cell </h2>
@@ -337,7 +337,7 @@ const PlacementCall = ({ devops, foundation, Marketing, HRAnalyst, BFSI }) => {
                       <div className={styles.margin}>
                         <div className={styles.course}>
                           <div className={styles.mbldiv}>
-                            {foundationCourseData.map((course, index) => (
+                            {MarketingCourseData.map((course, index) => (
                               <div
                                 className={`${styles.PlacementCallcourse} ${styles.scrollAnimation}`}
                                 key={index}
@@ -372,7 +372,7 @@ const PlacementCall = ({ devops, foundation, Marketing, HRAnalyst, BFSI }) => {
                             modules={[Autoplay]}
                             className="mySwiper"
                           >
-                            {foundationCourseData.map((course, index) => (
+                            {MarketingCourseData.map((course, index) => (
                               <SwiperSlide className={styles.slide} key={index}>
                                 <div className={styles.slideWrap}>
                                   <div className={styles.number}>

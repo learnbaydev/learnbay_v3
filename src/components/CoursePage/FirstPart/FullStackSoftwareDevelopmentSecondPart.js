@@ -18,7 +18,7 @@ const SliderTab = dynamic(() =>
   import("../../../components/Global/SliderTabs/SliderTabs")
 );
 const PlacementCall = dynamic(() =>
-  import("../../../components/Global/PlacementCall/PlacementCall")
+  import("../../../components/Global/PlacementCall/PlacementCallFsd")
 );
 const FAQNew = dynamic(() =>
   import("../../../components/CoursePage/FAQNew/FAQNew")

@@ -3,7 +3,7 @@ const data = {
     expertiseItems: [
       {
         title: "Project-Based Learning ",
-        Image:"https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/cloud-computing/cloud-devops-min.webp",
+        Image:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-devops-min.webp",
         description: "Work in an industry like environment and gain practical hands-on experience",
        description1: "4 Real-World Capstone Projects",
       },

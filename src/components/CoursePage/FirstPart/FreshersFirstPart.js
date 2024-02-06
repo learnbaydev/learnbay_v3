@@ -54,7 +54,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
   ];
   const DsSecond = {
     title1: "Project-Based Learning",
-    image1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+773.webp",
+    image1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/group_845.webp",
     points: [
       "Work in an industry like environment and gain practical hands-on experience",
       "8 Real-World + 1 Capstone Projects",
@@ -95,7 +95,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
         imgAlt: "",
-        title: "6 month Internship Certificate        ",
+        title: "6 Month Internship Certificate        ",
         description: "Earn an internship certificate by working on real-time data science projects.         ",
       },
       {
@@ -135,9 +135,9 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         firstToparaImg="For Freshers"
         firstHeading="Data Science & AI Certification Program"
         firstTopPara="Final Year Project Assistance with        "
-        idss="YWxTtvb3x-U"
+        idss="m6M4vEacIN0"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ds-fs.webp"
-        videoId="YWxTtvb3x-U"
+        videoId="m6M4vEacIN0"
         ibmOnly={true}
         IBMGl={true}
         
@@ -159,7 +159,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         third="Early to mid-career professionals interested in data science"
         forth="Developing skills in data science for future opportunities"
       />
-      <WhyLearnbay idss="ZPOTy4PEnNU" />
+      <WhyLearnbay idss="ZPOTy4PEnNU" Intern={true} targetjobs={true} FreshersIntern={true}/>
       <GetHire />
       <ContactConsellor
         dataScience={true}

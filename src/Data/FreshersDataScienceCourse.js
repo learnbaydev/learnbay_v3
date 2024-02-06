@@ -206,12 +206,12 @@ export const DataScienceCourseData = [
       },
       microCertificate: {
         id: 2,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
-        title: "Certification in Collaboration with Microsoft",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Freshers-New.webp",
+        title: "6 Months Internship Certification",
         para: [
-          "Industry-certified Microsoft certificates",
-          "Gain expertise & get recognized worldwide",
-          "Boost job opportunities and earnings with Microsoft’s certification",
+          "Gain real-world experience with real-time projects",
+          "Enhance your resume with a 6 months internship certificate",
+          "Master the latest technology tools during your internship training",
         ],
       },
       projectCertificate: {
@@ -380,143 +380,80 @@ export const DataScienceCourseData = [
       },
       {
         Module0: {
-          title: "BONUS :- AI Generative Tools and Future Trends",
+          title: "TERM 4 :- SQL & TABLEAU",
           content: [
             {
               chap: {
-                title:
-                  "Module 1 :- Emerging Trends in AI and Generative Modeling",
+                title: "Module 1 :- RDBMS And SQL Operations",
                 desc: [
-                  "Exploring other AI generative tools beyond ChatGPT and DALL·E",
-                  "Discussion on future trends and advancements in AI generative tools",
-                  "Open-ended project and/or presentation on a selected topic, incorporating learned concepts",
+                  "Introduction To RDBMS",
+                  "Single Table Queries - SELECT,WHERE,ORDER",
+                  "BY,Distinct,And ,OR",
+                  "Advance SQL Operations",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 2 :- Natural Language Processing and ChatGPT",
+                title: "Module 2 :- NoSQL Databases",
                 desc: [
-                  "Introduction to natural language processing techniques",
-                  "Understanding ChatGPT and its architecture",
-                  "Hands-on exercises using ChatGPT for text generation",
-                  "Fine-tuning ChatGPT for specific applications",
-                ],
-              },
-            },
-
-            {
-              chap: {
-                title: "Module 3 :- DALL·E: Image Generation with AI",
-                desc: [
-                  "Exploring image generation using DALL·E",
-                  "Hands-on exercises for creating unique images with DALL·E",
-                  "Ethical considerations and limitations of AI-generated images",
+                  "Topics - What is HBase?",
+                  "HBase Architecture, HBase Components",
+                  "Storage Model of HBase",
+                  "HBase vs RDBMS",
                 ],
               },
             },
             {
               chap: {
-                title:
-                  "Module 4 :-  Graph Neural Networks (GNN) for Data Analysis",
+                title: "Module 3 :- Programming with SQL",
                 desc: [
-                  "Overview of Graph Neural Networks (GNN) and their applications",
-                  "Hands-on exercises using GNN for tasks such as node classification and link prediction",
-                  "Case studies on real-world applications of GNN in data science",
+                  "Mathematical Functions Variables",
+                  "Conditional Logic",
+                  "Loops",
+                  "Custom Functions",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 5 :- Python Bootcamp for AI",
+                title: "Module 4 :- Introduction to Tableau",
                 desc: [
-                  "Python Essentials: Syntax, Data Types, and Variables",
-                  "Flow Control: Conditionals and Loops",
-                  "Functions and Custom Modules",
+                  "Connecting to data source",
+                  "Creating dashboard pages",
+                  "How to create calculated columns Different charts",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 6 :- Build Your Interview Assistant",
+                title: "Module 5 :- Dashboard and Stories",
                 desc: [
-                  "Project Overview: Interview Automation Bot",
-                  "Components & Architecture",
-                  "Natural Language Models (LLMs): Introduction and Uses",
+                  "Working in Views with Dashboards and Stories",
+                  "Working with Sheets",
+                  "Fitting Sheets",
+                  "Legends and Quick Filters",
+                  "Tiled and Floating Layout",
+                  "Floating Objects",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 7 :- Visual AI for eCommerce",
+                title: "Module 6 :- Mapping",
                 desc: [
-                  "Introduction: Digital Transformation for Offline Businesses",
-                  "Multimodal Models: DALL-E and Beyond",
-                  "Style & Photography Principles for Visual AI",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 8 :- Intelligent News Aggregator",
-                desc: [
-                  "Project Outline: Personalized News Recommendation",
-                  "GPT-3 & Copilot for Code Automation",
-                  "Data Loading and Cleaning Techniques",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 9 :- Customer Support Bot - HelpMate Pro",
-                desc: [
-                  "Project Introduction and Components",
-                  "Embeddings vs Fine-Tuning: When and How",
-                  "Semantic Search in Customer Service",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 10 :- Knowledge Discovery Bot",
-                desc: [
-                  "Project Overview and Architecture",
-                  "LangChain Tools and Concepts",
-                  "Backend Development with Vectorstore",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 11 :- Azure OpenAI Integration",
-                desc: [
-                  "OpenAI on Azure: Services and Scalability",
-                  "Revisiting HelpMate Pro: Scaling Strategy",
-                  "UI/UX Best Practices for Bots",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 12 :- The Future & Ethics of Generative AI",
-                desc: [
-                  "Responsible AI: Bias and Fairness",
-                  "Future Trends: Multimodal Models and RLHF",
-                  "Closing Remarks",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Capstone Project",
-                desc: [
-                  "Building an Integrated Prompt Engineering Solution",
-                  "Project Submission and Peer Review",
+                  "Coordinate points",
+                  "Plotting Latitude and Longitude",
+                  "Custom Geocoding",
+                  "Polygon Maps",
+                  "WMS and Background Image",
+                  "Sorting and grouping",
+                  "Working with sets, set action",
                 ],
               },
             },
           ],
-          id: 6,
+          id: 4,
           open: false,
         },
       },
