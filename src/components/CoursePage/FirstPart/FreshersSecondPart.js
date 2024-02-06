@@ -123,11 +123,11 @@ const SecondPart = ({
         emiType="NO COST EMI"
         duration1="18 Months"
         totalAmount1="₹70,000"
-        monthlyPayment1="₹4,5899"
+        monthlyPayment1="₹4,589"
         greenDown1="Standard Intrest rate Applicable"
         duration2="12 Months"
         totalAmount2="₹70,000"
-        monthlyPayment2="₹6,8883"
+        monthlyPayment2="₹6,883"
       />
 
       <MentorsSection />

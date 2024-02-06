@@ -146,7 +146,8 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       />
       <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={DsSecond} />
-      <JobAbroad data={JobData} />
+      <JobAbroad data={JobData}  dataScienceCounselling={true}
+        interstedInHide={true}/>
       <SecondNavbar
         interstedInHide={true}
         dataScience={true}
@@ -162,7 +163,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} />
       <WhoIsProgram
         first="Bachelor's degree with consistent good academic"
-        second="Minimum 8 years of IT/Non-IT work experience"
+        second="Minimum 5 years of IT/Non-IT work experience"
         third="Working professionals interested in Data Science & AI"
         forth="Developing skills in data science for future opportunities"
       />

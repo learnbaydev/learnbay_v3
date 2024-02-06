@@ -128,7 +128,8 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       />
        <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={DsSecond} />
-      <JobAbroad data ={JobData}/>
+      <JobAbroad data ={JobData} dataScienceCounselling={true}
+        interstedInHide={true}/>
 
       <SecondNavbar
         hideProjectLab={true}

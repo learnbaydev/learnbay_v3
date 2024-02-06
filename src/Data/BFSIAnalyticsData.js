@@ -389,7 +389,7 @@ export const BFSIDataScienceCourseData = [
       {
         Module0: {
           title:
-            "TERM 3 :- Database, Data Visualisation & Sparks Analytics and Time Series",
+            "TERM 3 :- Data Science Tools",
           content: [
             {
               chap: {
@@ -412,7 +412,7 @@ export const BFSIDataScienceCourseData = [
             },
             {
               chap: {
-                title: " Module 3 :- TABLEAU",
+                title: " Module 3 :- Tableau",
                 desc: [
                   "Introduction to Tableau",
                   "Creating basic visualizations using Tableau, including",

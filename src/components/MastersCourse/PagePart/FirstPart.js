@@ -28,15 +28,28 @@ import { BsDisplay } from "react-icons/bs";
 import { AiOutlineContainer } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsPeople } from "react-icons/bs";
-const FirstPart = ({ TestimonialData, WolfLink }) => {
+const FirstPart = ({
+  TestimonialData,
+  WolfLink,
+  formbtn,
 
  
-    const seconddata = [
-      { boldText: "60+", normalText: "Countries Recognition", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
-      { CboldText: "90+", normalText: "Transferrable ECTS Credits", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
-      { boldText: "35K+", normalText: "Trusted Learners", },
-      
-    ];
+}) => {
+  const seconddata = [
+    {
+      boldText: "60+",
+      normalText: "Countries Recognition",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp",
+    },
+    {
+      CboldText: "90+",
+      normalText: "Transferrable ECTS Credits",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp",
+    },
+    { boldText: "35K+", normalText: "Trusted Learners" },
+  ];
   const DsSecond = {
     title1: "Domain Specialization",
     image1:
@@ -70,11 +83,8 @@ const FirstPart = ({ TestimonialData, WolfLink }) => {
       { icon: <BsDisplay />, text: "Unlimited Interview Calls" },
       { icon: <AiOutlineContainer />, text: "Resume Building Session" },
       { icon: <FaLinkedinIn />, text: "LinkedIn Profile Review" },
-    
     ],
-    formbl: [
-      { icon: <BsPeople />, text: "Mock Interview Sessions" },
-    ],
+    formbl: [{ icon: <BsPeople />, text: "Mock Interview Sessions" }],
     image5:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-second-min.webp",
   };
@@ -82,24 +92,29 @@ const FirstPart = ({ TestimonialData, WolfLink }) => {
     title: "Master’s Degree that gets you Job Abroad   ",
     points: [
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
         imgAlt: "",
         title: "Earn a Degree Without Pausing Your Career        ",
-        description: "Flexible online degrees from LearnBay's ExcelVarsity for working pros.       ",
+        description:
+          "Flexible online degrees from LearnBay's ExcelVarsity for working pros.       ",
       },
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
         imgAlt: "",
         title: "Skill Up for Swift Promotions       ",
-        description: "Curriculum designed for rapid career advancement and leadership roles.       ",
+        description:
+          "Curriculum designed for rapid career advancement and leadership roles.       ",
       },
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
         imgAlt: "",
         title: "Step into High-Value Research Careers        ",
-        description: "Degree for prestigious research jobs and institutional collaborations.        ",
+        description:
+          "Degree for prestigious research jobs and institutional collaborations.        ",
       },
-   
     ],
     bannerImage: {
       src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job1.webp",
@@ -127,7 +142,13 @@ const FirstPart = ({ TestimonialData, WolfLink }) => {
       />
       <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={DsSecond} />
-      <JobAbroad  data={JobData}  WolfLink ={WolfLink}/>
+      <JobAbroad
+        data={JobData}
+        WolfLink={WolfLink}
+        formbtn={formbtn}
+      
+        
+      />
       <SecondNavbar dataScienceCounselling={true} />
       <TrainerSection idss="eautK0odE7Q" />
       <Testimonial redirectDS={true} Testimonial={TestimonialData} />

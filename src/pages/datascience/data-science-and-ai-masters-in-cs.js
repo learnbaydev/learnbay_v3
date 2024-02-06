@@ -75,6 +75,7 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
       <main>
         <FirstPart
         WolfLink ={true}
+        formbtn={true}
           TestimonialData={
             DataScienceCourseData.DataScienceMastersinCS[0].testimonial
           }

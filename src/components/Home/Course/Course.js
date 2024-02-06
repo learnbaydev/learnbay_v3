@@ -134,8 +134,9 @@ const Course = ({
                 }
               >
                 {CourseData.title}
+                
                 {CourseData.title === "Popular" ? (
-                  <BsFire style={{ color: "red", marginRight: "5px",  marginLeft: "5px"}} />
+                  <BsFire style={{ color: "red", marginRight: "5px",  marginLeft: "1px"}} />
                 ) : (
                   ""
                 )}

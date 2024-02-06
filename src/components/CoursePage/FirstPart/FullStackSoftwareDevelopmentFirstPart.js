@@ -91,7 +91,8 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData }) => {
         videoId="0cspp1jXAbM"
       />
       <MasterSecondSection data={seconddata} />
-      <JobAbroad data={JobData}/>
+      <JobAbroad data={JobData} dataScienceCounselling={true}
+        interstedInHide={true}/>
       {/* <SecondSection SecondSectionData={SecondSectionData} /> */}
 
       {/* <WhoProgram
