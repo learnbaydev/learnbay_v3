@@ -19,6 +19,7 @@ const ProjectContent = ({
   dataScienceGeneric,
   dataScienceCounselling,
   interstedInHide,
+  HideDmd,
  }) => {
   const [popups, setPopups] = useState(false);
   const el = useRef(null);
@@ -120,6 +121,7 @@ const ProjectContent = ({
           </div>
         </div>
       </div>
+      {HideDmd ? ("") : (
       <div className={styles.secondDiv}>
         <div className={styles.firstDiv}>
           <p className={styles.BlueHed}>Domain Specialization</p>
@@ -209,6 +211,7 @@ const ProjectContent = ({
           </div>
         </div>
       </div>
+      )}
     </>
   );
 };

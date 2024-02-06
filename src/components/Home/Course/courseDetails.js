@@ -189,9 +189,29 @@ export const courseDetails = [
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
           },
-
           {
             id: 5,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
+            title: "Data Science and AI",
+            title1: "Program for Freshers",
+            tagHead: "For Freshers",
+            tag: "Full stack",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+            titleCourse: "Data Science and AI Program for Freshers",
+            para: [
+              "6 months | 2 Projects",
+              "6 months internship certificate",
+              "Final year project assistance",
+            ],
+            newDesign: true,
+            newDesignOrange: true,
+            link1: "/datascience/data-science-ai-for-freshers",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+          },
+          {
+            id: 6,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
             title: "Advanced Certification",
             title1: "Program in Generative AI",
@@ -388,9 +408,29 @@ export const courseDetails = [
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
           },
-
           {
             id: 5,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
+            title: "Data Science and AI",
+            title1: "Program for Freshers",
+            tagHead: "For Freshers",
+            tag: "Full stack",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+            titleCourse: "Data Science and AI Program for Freshers",
+            para: [
+              "6 months | 2 Projects",
+              "6 months internship certificate",
+              "Final year project assistance",
+            ],
+            newDesign: true,
+            newDesignOrange: true,
+            link1: "/datascience/data-science-ai-for-freshers",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+          },
+          {
+            id: 6,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
             title: "Advanced Certification",
             title1: "Program in Generative AI",
@@ -514,9 +554,29 @@ export const courseDetails = [
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
           },
-
           {
             id: 5,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
+            title: "Data Science and AI",
+            title1: "Program for Freshers",
+            tagHead: "For Freshers",
+            tag: "Full stack",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+            titleCourse: "Data Science and AI Program for Freshers",
+            para: [
+              "6 months | 2 Projects",
+              "6 months internship certificate",
+              "Final year project assistance",
+            ],
+            newDesign: true,
+            newDesignOrange: true,
+            link1: "/datascience/data-science-ai-for-freshers",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+          },
+          {
+            id: 6,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
             title: "Advanced Certification",
             title1: "Program in Generative AI",
@@ -740,9 +800,29 @@ export const courseDetails = [
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
           },
-
           {
             id: 5,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
+            title: "Data Science and AI",
+            title1: "Program for Freshers",
+            tagHead: "For Freshers",
+            tag: "Full stack",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+            titleCourse: "Data Science and AI Program for Freshers",
+            para: [
+              "6 months | 2 Projects",
+              "6 months internship certificate",
+              "Final year project assistance",
+            ],
+            newDesign: true,
+            newDesignOrange: true,
+            link1: "/datascience/data-science-ai-for-freshers",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+          },
+          {
+            id: 6,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
             title: "Advanced Certification",
             title1: "Program in Generative AI",
@@ -985,9 +1065,29 @@ export const courseDetails = [
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
           },
-
           {
             id: 5,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
+            title: "Data Science and AI",
+            title1: "Program for Freshers",
+            tagHead: "For Freshers",
+            tag: "Full stack",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+            titleCourse: "Data Science and AI Program for Freshers",
+            para: [
+              "6 months | 2 Projects",
+              "6 months internship certificate",
+              "Final year project assistance",
+            ],
+            newDesign: true,
+            newDesignOrange: true,
+            link1: "/datascience/data-science-ai-for-freshers",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+          },
+          {
+            id: 6,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
             title: "Advanced Certification",
             title1: "Program in Generative AI",
@@ -1311,9 +1411,29 @@ export const courseDetails = [
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
           },
-
           {
             id: 5,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
+            title: "Data Science and AI",
+            title1: "Program for Freshers",
+            tagHead: "For Freshers",
+            tag: "Full stack",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+            titleCourse: "Data Science and AI Program for Freshers",
+            para: [
+              "6 months | 2 Projects",
+              "6 months internship certificate",
+              "Final year project assistance",
+            ],
+            newDesign: true,
+            newDesignOrange: true,
+            link1: "/datascience/data-science-ai-for-freshers",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+          },
+          {
+            id: 6,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
             title: "Advanced Certification",
             title1: "Program in Generative AI",
@@ -1596,9 +1716,29 @@ export const courseDetailsM = [
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
           },
-
           {
             id: 5,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
+            title: "Data Science and AI",
+            title1: "Program for Freshers",
+            tagHead: "For Freshers",
+            tag: "Full stack",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+            titleCourse: "Data Science and AI Program for Freshers",
+            para: [
+              "6 months | 2 Projects",
+              "6 months internship certificate",
+              "Final year project assistance",
+            ],
+            newDesign: true,
+            newDesignOrange: true,
+            link1: "/datascience/data-science-ai-for-freshers",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+          },
+          {
+            id: 6,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
             title: "Advanced Certification",
             title1: "Program in Generative AI",
@@ -1822,9 +1962,29 @@ export const courseDetailsM = [
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
           },
-
           {
             id: 5,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
+            title: "Data Science and AI",
+            title1: "Program for Freshers",
+            tagHead: "For Freshers",
+            tag: "Full stack",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+            titleCourse: "Data Science and AI Program for Freshers",
+            para: [
+              "6 months | 2 Projects",
+              "6 months internship certificate",
+              "Final year project assistance",
+            ],
+            newDesign: true,
+            newDesignOrange: true,
+            link1: "/datascience/data-science-ai-for-freshers",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+          },
+          {
+            id: 6,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
             title: "Advanced Certification",
             title1: "Program in Generative AI",

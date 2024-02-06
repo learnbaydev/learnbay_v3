@@ -51,12 +51,17 @@ export const TabData = [
         hours: "7 Months",
         url: "/datascience/advance-data-science-certification-courses",
       },
-      
+      {
+        CName: "Data Science and AI Program for Freshers",
+        hours: "6 Months",
+        url: "/datascience/data-science-ai-for-freshers",
+      },
       {
         CName: "Data Analytics Program",
         hours: "5 Months",
         url: "/datascience/data-analytics-certification-course",
       },
+      
      
     ],
   },
