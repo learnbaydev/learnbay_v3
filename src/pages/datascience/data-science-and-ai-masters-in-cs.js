@@ -74,9 +74,11 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
       </Head>
       <main>
         <FirstPart
+        WolfLink ={true}
           TestimonialData={
             DataScienceCourseData.DataScienceMastersinCS[0].testimonial
           }
+
         />
         <SecondPart
           masterSyllabusMobile={

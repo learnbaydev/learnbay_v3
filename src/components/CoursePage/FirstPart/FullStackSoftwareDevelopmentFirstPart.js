@@ -34,7 +34,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData }) => {
     
   ];
   const JobData = {
-    title: "Software Development Certification program    ",
+    title: "Code Your Career Path To Success    ",
     points: [
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
@@ -46,13 +46,13 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData }) => {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
         imgAlt: "",
         title: "Practice Real-time projects in industry setting        ",
-        description: "Dive into software development projects that solve real-world problems.         ",
+        description: "Dive into realt-time projects that solve real-world problems.         ",
       },
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
         imgAlt: "",
         title: "From Novice to Expert        ",
-        description: "Learn from basic concepts to advanced software engineering techniques.        ",
+        description: "Learn from basics to advanced software development techniques.        ",
       },
    
     ],
@@ -92,7 +92,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData }) => {
       />
       <MasterSecondSection data={seconddata} />
       <JobAbroad data={JobData}/>
-      <SecondSection SecondSectionData={SecondSectionData} />
+      {/* <SecondSection SecondSectionData={SecondSectionData} /> */}
 
       {/* <WhoProgram
           dataScience={true}

@@ -11,7 +11,7 @@
 .JobAbroadHead {
   display: grid;
   grid-template-columns: 61% 39%;
-  margin: 50px 80px;
+  margin: 30px 80px;
   padding: 20px;
   gap: 0px;
   align-items: center;

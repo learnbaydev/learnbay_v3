@@ -89,7 +89,7 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-second-min.webp",
   };
   const JobData = {
-    title: "Advanced AI ML    ",
+    title: "Mastering the Future: Advanced AI & ML    ",
     points: [
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
@@ -106,8 +106,8 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
         imgAlt: "",
-        title: "Stay at the forefront of technological advancements        ",
-        description: "Keep up with the fast-paced changes in the technology        ",
+        title: "Curriculum inclusive of Gen-AI        ",
+        description: "Tailored for career transformation in a tech-driven era        ",
       },
    
     ],

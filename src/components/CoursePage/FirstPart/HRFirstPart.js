@@ -79,7 +79,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-second-min.webp",
   };
   const JobData = {
-    title: "HR Analytics Certification Program    ",
+    title: "Transform HR with Analytics Expertise    ",
     points: [
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
@@ -90,8 +90,8 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
         imgAlt: "",
-        title: "Drive Organisational Change with Informed Decisions:        ",
-        description: "Empower strategic decision-making in HR through data-driven insights        ",
+        title: "Curriculum inclusive of Gen-AI        ",
+        description: "Learning experience that fits the schedule of busy HR professionals        ",
       },
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",

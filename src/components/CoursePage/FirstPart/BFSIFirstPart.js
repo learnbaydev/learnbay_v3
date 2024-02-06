@@ -32,9 +32,9 @@ import( "../../MastersCourse/JobAbroad/JobAbroad"
 );
 const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
   const seconddata = [
-    { boldText: "0+", normalText: "Countries Recognition", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
-    { CboldText: "0+", normalText: "Transferrable ECTS Credits", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
-    { boldText: "3K+", normalText: "Trusted Learners", },
+    { boldText: "IBM", normalText: "Certified Capstone", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
+    { CboldText: "175%", normalText: "Average Salary Hike", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
+    { boldText: "35K+", normalText: "Trusted Learners", },
     
   ];
   const BASecond = {
@@ -75,25 +75,25 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-second-min.webp",
   };
   const JobData = {
-    title: "Advance Data Science for International Careers",
+    title: "Banking on Data: AI Mastery for BFSI    ",
     points: [
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
         imgAlt: "",
-        title: "Earn a Degree Without Pausing Your Career",
-        description: "Flexible online degrees from LearnBay's ExcelVarsity for working pros.",
+        title: "Specialise in Bridging Finance with AI Technology   ",
+        description: "Gain specialisation by working on real-time projects        ",
       },
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
         imgAlt: "",
-        title: "Skill Up for Swift Promotions",
-        description: "Curriculum designed for rapid career advancement and leadership roles.",
+        title: "Maximize Your Earning Potential in BFSI Domain  ",
+        description: "Gain skills and earn higher salaries in your dream company        ",
       },
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
         imgAlt: "",
-        title: "Step into High-Value Research Careers",
-        description: "Degree for prestigious research jobs and institutional collaborations.",
+        title: "Curriculum inclusive of Gen-AI        ",
+        description: "Tailored for career transformation in a tech-driven era        ",
       },
    
     ],
