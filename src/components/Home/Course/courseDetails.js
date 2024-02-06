@@ -153,12 +153,12 @@ export const courseDetails = [
             id: 6,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/DA-Card.webp",
             title: "Data Analytics",
-            title1: "Program",
+            title1: "Certification Program",
             tagHead: "For Non-Tech Professionals",
             tag: "Data science",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
-            titleCourse: "Data Analytics Program",
+            titleCourse: "Data Analytics Certification Program",
             para: [
               "5 months | 1 capstone projects",
               "Global Certification",
@@ -240,8 +240,8 @@ export const courseDetails = [
           {
             id: 1,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Cloud-card.webp",
-            title: "Cloud and DevOps Certification ",
-            title1: "Program",
+            title: "Cloud and DevOps",
+            title1: "Certification Program",
             tagHead: "For Tech Enthusiast",
             tag: "Data science",
             brochureLinks:
@@ -372,12 +372,12 @@ export const courseDetails = [
             id: 6,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/DA-Card.webp",
             title: "Data Analytics",
-            title1: "Program",
+            title1: "Certification Program",
             tagHead: "For Non-Tech Professionals",
             tag: "Data science",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
-            titleCourse: "Data Analytics Program",
+            titleCourse: "Data Analytics Certification Program",
             para: [
               "5 months | 1 capstone projects",
               "Global Certification",
@@ -518,12 +518,12 @@ export const courseDetails = [
             id: 6,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/DA-Card.webp",
             title: "Data Analytics",
-            title1: "Program",
+            title1: "Certification Program",
             tagHead: "For Non-Tech Professionals",
             tag: "Data science",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
-            titleCourse: "Data Analytics Program",
+            titleCourse: "Data Analytics Certification Program",
             para: [
               "5 months | 1 capstone projects",
               "Global Certification",
@@ -605,8 +605,8 @@ export const courseDetails = [
           {
             id: 1,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Cloud-card.webp",
-            title: "Cloud and DevOps Certification ",
-            title1: "Program",
+            title: "Cloud and DevOps",
+            title1: "Certification Program",
             tagHead: "For Tech Enthusiast",
             tag: "Data science",
             brochureLinks:
@@ -764,12 +764,12 @@ export const courseDetails = [
             id: 6,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/DA-Card.webp",
             title: "Data Analytics",
-            title1: "Program",
+            title1: "Certification Program",
             tagHead: "For Non-Tech Professionals",
             tag: "Data science",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
-            titleCourse: "Data Analytics Program",
+            titleCourse: "Data Analytics Certification Program",
             para: [
               "5 months | 1 capstone projects",
               "Global Certification",
@@ -851,8 +851,8 @@ export const courseDetails = [
           {
             id: 1,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Cloud-card.webp",
-            title: "Cloud and DevOps Certification ",
-            title1: "Program",
+            title: "Cloud and DevOps",
+            title1: "Certification Program",
             tagHead: "For Tech Enthusiast",
             tag: "Data science",
             brochureLinks:
@@ -924,8 +924,8 @@ export const courseDetails = [
           {
             id: 1,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Cloud-card.webp",
-            title: "Cloud and DevOps Certification ",
-            title1: "Program",
+            title: "Cloud and DevOps",
+            title1: "Certification Program",
             tagHead: "Guaranteed Interview Call",
             tag: "Data science",
             brochureLinks:
@@ -1029,12 +1029,12 @@ export const courseDetails = [
             id: 6,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/DA-Card.webp",
             title: "Data Analytics",
-            title1: "Program",
+            title1: "Certification Program",
             tagHead: "For Non-Tech Professionals",
             tag: "Data science",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
-            titleCourse: "Data Analytics Program",
+            titleCourse: "Data Analytics Certification Program",
             para: [
               "5 months | 1 capstone projects",
               "Global Certification",
@@ -1116,8 +1116,8 @@ export const courseDetails = [
           {
             id: 1,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Cloud-card.webp",
-            title: "Cloud and DevOps Certification ",
-            title1: "Program",
+            title: "Cloud and DevOps",
+            title1: "Certification Program",
             tagHead: "For Tech Enthusiast",
             tag: "Data science",
             brochureLinks:
@@ -1249,8 +1249,8 @@ export const courseDetails = [
           {
             id: 4,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Cloud-card.webp",
-            title: "Cloud and DevOps Certification ",
-            title1: "Program",
+            title: "Cloud and DevOps",
+            title1: "Certification Program",
             tagHead: "Guaranteed Interview Call",
             tag: "Data science",
             brochureLinks:
@@ -1375,12 +1375,12 @@ export const courseDetails = [
             id: 6,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/DA-Card.webp",
             title: "Data Analytics",
-            title1: "Program",
+            title1: "Certification Program",
             tagHead: "For Non-Tech Professionals",
             tag: "Data science",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
-            titleCourse: "Data Analytics Program",
+            titleCourse: "Data Analytics Certification Program",
             para: [
               "5 months | 1 capstone projects",
               "Global Certification",
@@ -1462,8 +1462,8 @@ export const courseDetails = [
           {
             id: 1,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Cloud-card.webp",
-            title: "Cloud and DevOps Certification ",
-            title1: "Program",
+            title: "Cloud and DevOps",
+            title1: "Certification Program",
             tagHead: "For Tech Enthusiast",
             tag: "Data science",
             brochureLinks:
@@ -1680,12 +1680,12 @@ export const courseDetailsM = [
             id: 6,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/DA-Card.webp",
             title: "Data Analytics",
-            title1: "Program",
+            title1: "Certification Program",
             tagHead: "For Non-Tech Professionals",
             tag: "Data science",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
-            titleCourse: "Data Analytics Program",
+            titleCourse: "Data Analytics Certification Program",
             para: [
               "5 months | 1 capstone projects",
               "Global Certification",
@@ -1767,8 +1767,8 @@ export const courseDetailsM = [
           {
             id: 1,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Cloud-card.webp",
-            title: "Cloud and DevOps Certification ",
-            title1: "Program",
+            title: "Cloud and DevOps",
+            title1: "Certification Program",
             tagHead: "For Tech Enthusiast",
             tag: "Data science",
             brochureLinks:
@@ -1926,12 +1926,12 @@ export const courseDetailsM = [
             id: 6,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/DA-Card.webp",
             title: "Data Analytics",
-            title1: "Program",
+            title1: "Certification Program",
             tagHead: "For Non-Tech Professionals",
             tag: "Data science",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
-            titleCourse: "Data Analytics Program",
+            titleCourse: "Data Analytics Certification Program",
             para: [
               "5 months | 1 capstone projects",
               "Global Certification",
@@ -2052,8 +2052,8 @@ export const courseDetailsM = [
           {
             id: 1,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Cloud-card.webp",
-            title: "Cloud and DevOps Certification ",
-            title1: "Program",
+            title: "Cloud and DevOps",
+            title1: "Certification Program",
             tagHead: "Guaranteed Interview Call",
             tag: "Data science",
             brochureLinks:
@@ -2164,8 +2164,8 @@ export const courseDetailsM = [
           {
             id: 4,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Cloud-card.webp",
-            title: "Cloud and DevOps Certification ",
-            title1: "Program",
+            title: "Cloud and DevOps",
+            title1: "Certification Program",
             tagHead: "Guaranteed Interview Call",
             tag: "Data science",
             brochureLinks:
