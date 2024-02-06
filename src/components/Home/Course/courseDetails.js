@@ -191,13 +191,13 @@ export const courseDetails = [
           },
           {
             id: 5,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/freshers-img.webp",
             title: "Data Science and AI",
             title1: "Program for Freshers",
             tagHead: "For Freshers",
             tag: "Full stack",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf",
             titleCourse: "Data Science and AI Program for Freshers",
             para: [
               "6 months | 2 Projects",
@@ -208,7 +208,7 @@ export const courseDetails = [
             newDesignOrange: true,
             link1: "/datascience/data-science-ai-for-freshers",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf",
           },
           {
             id: 6,
@@ -410,13 +410,13 @@ export const courseDetails = [
           },
           {
             id: 5,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/freshers-img.webp",
             title: "Data Science and AI",
             title1: "Program for Freshers",
             tagHead: "For Freshers",
             tag: "Full stack",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf",
             titleCourse: "Data Science and AI Program for Freshers",
             para: [
               "6 months | 2 Projects",
@@ -427,7 +427,7 @@ export const courseDetails = [
             newDesignOrange: true,
             link1: "/datascience/data-science-ai-for-freshers",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf",
           },
           {
             id: 6,
@@ -556,13 +556,13 @@ export const courseDetails = [
           },
           {
             id: 5,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/freshers-img.webp",
             title: "Data Science and AI",
             title1: "Program for Freshers",
             tagHead: "For Freshers",
             tag: "Full stack",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf",
             titleCourse: "Data Science and AI Program for Freshers",
             para: [
               "6 months | 2 Projects",
@@ -573,7 +573,7 @@ export const courseDetails = [
             newDesignOrange: true,
             link1: "/datascience/data-science-ai-for-freshers",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf",
           },
           {
             id: 6,
@@ -802,13 +802,13 @@ export const courseDetails = [
           },
           {
             id: 5,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/freshers-img.webp",
             title: "Data Science and AI",
             title1: "Program for Freshers",
             tagHead: "For Freshers",
             tag: "Full stack",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf",
             titleCourse: "Data Science and AI Program for Freshers",
             para: [
               "6 months | 2 Projects",
@@ -819,7 +819,7 @@ export const courseDetails = [
             newDesignOrange: true,
             link1: "/datascience/data-science-ai-for-freshers",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf",
           },
           {
             id: 6,
@@ -1067,13 +1067,13 @@ export const courseDetails = [
           },
           {
             id: 5,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/freshers-img.webp",
             title: "Data Science and AI",
             title1: "Program for Freshers",
             tagHead: "For Freshers",
             tag: "Full stack",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf",
             titleCourse: "Data Science and AI Program for Freshers",
             para: [
               "6 months | 2 Projects",
@@ -1084,7 +1084,7 @@ export const courseDetails = [
             newDesignOrange: true,
             link1: "/datascience/data-science-ai-for-freshers",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf",
           },
           {
             id: 6,
@@ -1413,13 +1413,13 @@ export const courseDetails = [
           },
           {
             id: 5,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/freshers-img.webp",
             title: "Data Science and AI",
             title1: "Program for Freshers",
             tagHead: "For Freshers",
             tag: "Full stack",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf",
             titleCourse: "Data Science and AI Program for Freshers",
             para: [
               "6 months | 2 Projects",
@@ -1430,7 +1430,7 @@ export const courseDetails = [
             newDesignOrange: true,
             link1: "/datascience/data-science-ai-for-freshers",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf",
           },
           {
             id: 6,
@@ -1718,13 +1718,13 @@ export const courseDetailsM = [
           },
           {
             id: 5,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/freshers-img.webp",
             title: "Data Science and AI",
             title1: "Program for Freshers",
             tagHead: "For Freshers",
             tag: "Full stack",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf",
             titleCourse: "Data Science and AI Program for Freshers",
             para: [
               "6 months | 2 Projects",
@@ -1735,7 +1735,7 @@ export const courseDetailsM = [
             newDesignOrange: true,
             link1: "/datascience/data-science-ai-for-freshers",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf",
           },
           {
             id: 6,
@@ -1964,13 +1964,13 @@ export const courseDetailsM = [
           },
           {
             id: 5,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/freshers-img.webp",
             title: "Data Science and AI",
             title1: "Program for Freshers",
             tagHead: "For Freshers",
             tag: "Full stack",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf",
             titleCourse: "Data Science and AI Program for Freshers",
             para: [
               "6 months | 2 Projects",
@@ -1981,7 +1981,7 @@ export const courseDetailsM = [
             newDesignOrange: true,
             link1: "/datascience/data-science-ai-for-freshers",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+AI+for+Fresh+Graduates+Course+Brochure.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf",
           },
           {
             id: 6,

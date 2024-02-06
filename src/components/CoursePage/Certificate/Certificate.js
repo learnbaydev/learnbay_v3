@@ -7,6 +7,7 @@ const Certificate = ({
   singlecertificate,
   doubleCertificate,
   projectWithCertificate,
+  FreshersDoubleCertificate,
 }) => {
   return NoCertificate ? (
     ""
@@ -16,6 +17,7 @@ const Certificate = ({
       <CertificateTabAdvance
       singlecertificate={singlecertificate}
       projectWithCertificate={projectWithCertificate}
+      FreshersDoubleCertificate={FreshersDoubleCertificate}
       doubleCertificate={doubleCertificate}
         degreeCertificate={data.degreeCertificate}
         projectCertificate={data.projectCertificate}

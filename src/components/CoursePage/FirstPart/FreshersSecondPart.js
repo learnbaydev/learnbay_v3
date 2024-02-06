@@ -38,6 +38,7 @@ const SecondPart = ({
   CertificateData,
   projectSection,
   FAQNewData,
+  Foundation,
 }) => {
   const [popupData, setPopupData] = useState([]);
 
@@ -92,11 +93,15 @@ const SecondPart = ({
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
         buttonHide={true}
       />
-      <ToolsCovered />
-      <Certificate data={CertificateData} />
+      <ToolsCovered Intern={true}/>
+      <Certificate data={CertificateData}
+              // projectWithCertificate={true}
+              singlecertificate={true}
+              FreshersDoubleCertificate={true}
+      />
       <FeeSection
-        Fee="₹99,000"
-        FeeEmi="₹ 6,490/month"
+        Fee="₹70,000"
+        FeeEmi="₹ 4,589/month"
         weekdaybatch="Weekday Batch"
         weekendbatch="Weekday  Batch"
         weekday="MON - FRI"
@@ -117,17 +122,17 @@ const SecondPart = ({
         // <EMI POPUP
         emiType="NO COST EMI"
         duration1="18 Months"
-        totalAmount1="₹99,000"
-        monthlyPayment1="₹6,490"
+        totalAmount1="₹70,000"
+        monthlyPayment1="₹4,5899"
         greenDown1="Standard Intrest rate Applicable"
         duration2="12 Months"
-        totalAmount2="₹99,000"
-        monthlyPayment2="₹9,735"
+        totalAmount2="₹70,000"
+        monthlyPayment2="₹6,8883"
       />
 
       <MentorsSection />
       <SliderTab WithoutService={true} />
-      <PlacementCall />
+      <PlacementCall Foundation={true}/>
 
       <NewProjectSection
         dataScience={true}
@@ -137,7 +142,7 @@ const SecondPart = ({
         projectSection={projectSection}
       />
 
-      <FAQNew FAQNewData={FAQNewData} />
+      {/* <FAQNew FAQNewData={FAQNewData} /> */}
       <SeventhSection />
       <Footer />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />

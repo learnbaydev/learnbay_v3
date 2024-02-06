@@ -125,9 +125,9 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         firstToparaImg=""
         firstHeading="HR Analytics Certification Program"
         firstTopPara=""
-        idss="cYwOjymzBbo"
+        idss="p1YDDqg1pEc"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/HRHeader-min.webp"
-        videoId="cYwOjymzBbo"
+        videoId="p1YDDqg1pEc"
         topHide={true}
        
       />

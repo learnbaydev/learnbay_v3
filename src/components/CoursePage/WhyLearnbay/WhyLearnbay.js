@@ -18,11 +18,12 @@ import { FaClinicMedical } from "react-icons/fa";
 import { MdOutlinePrecisionManufacturing } from "react-icons/md";
 // import { BsFillPeopleFill } from "react-icons/bs";
 
-function WhyLearnbay({ idss, targetjobs, adsHide, }) {
+function WhyLearnbay({ idss, targetjobs, adsHide, Intern, FreshersIntern }) {
   const [domainSpec, setDomainSpec] = useState(false);
   const [projectInno, setProjectInno] = useState(true);
   const [projectCert, setProjectCert] = useState(false);
   const [jobroles, setJobroles] = useState(false);
+  const [Freshers, setFreshers] = useState(false);
 
   const [video, setVideo] = useState(false);
 
@@ -52,6 +53,7 @@ function WhyLearnbay({ idss, targetjobs, adsHide, }) {
           <div
             onClick={() => {
               setJobroles(false);
+              setFreshers(false);
               setDomainSpec(false);
               setProjectInno(true);
               setProjectCert(false);
@@ -65,57 +67,93 @@ function WhyLearnbay({ idss, targetjobs, adsHide, }) {
               Project Innovation Lab
             </p>
           </div>
+
           <div
             onClick={() => {
               setJobroles(false);
               setDomainSpec(false);
+              setFreshers(false);
               setProjectInno(false);
               setProjectCert(true);
             }}
             className={projectCert ? Styles.ActiveInnerBox : Styles.InnerBox}
           >
-            <p className={projectCert ? Styles.ActiveCont : Styles.Cont}>
-              <FaUserShield
-                className={projectCert ? Styles.Activeicon : Styles.icon}
-              />
-              Project Certification
-            </p>
+            {Intern ? (
+              <p className={projectCert ? Styles.ActiveCont : Styles.Cont}>
+                <FaUserShield
+                  className={projectCert ? Styles.Activeicon : Styles.icon}
+                />
+                Internship Certification
+              </p>
+            ) : (
+              <p className={projectCert ? Styles.ActiveCont : Styles.Cont}>
+                <FaUserShield
+                  className={projectCert ? Styles.Activeicon : Styles.icon}
+                />
+                Project Certification
+              </p>
+            )}
           </div>
-
-          {targetjobs ? (
+          {FreshersIntern ? (
             <div
               onClick={() => {
-                setJobroles(true);
+                setJobroles(false);
                 setDomainSpec(false);
                 setProjectInno(false);
+                setFreshers(true);
                 setProjectCert(false);
               }}
-              className={jobroles ? Styles.ActiveInnerBox : Styles.InnerBox}
+              className={Freshers ? Styles.ActiveInnerBox : Styles.InnerBox}
             >
-              <p className={jobroles ? Styles.ActiveCont : Styles.Cont}>
+              <p className={Freshers ? Styles.ActiveCont : Styles.Cont}>
                 <FaUserGraduate
-                  className={jobroles ? Styles.Activeicon : Styles.icon}
+                  className={Freshers ? Styles.Activeicon : Styles.icon}
                 />
                 Target Job Roles
               </p>
             </div>
           ) : (
-            <div
-              onClick={() => {
-                setJobroles(false);
-                setDomainSpec(true);
-                setProjectInno(false);
-                setProjectCert(false);
-              }}
-              className={domainSpec ? Styles.ActiveInnerBox : Styles.InnerBox}
-            >
-              <p className={domainSpec ? Styles.ActiveCont : Styles.Cont}>
-                <FaUserGraduate
-                  className={domainSpec ? Styles.Activeicon : Styles.icon}
-                />
-                Domain Specialization
-              </p>
-            </div>
+            <>
+              {targetjobs ? (
+                <div
+                  onClick={() => {
+                    setJobroles(true);
+                    setDomainSpec(false);
+                    setProjectInno(false);
+                    setFreshers(false);
+                    setProjectCert(false);
+                  }}
+                  className={jobroles ? Styles.ActiveInnerBox : Styles.InnerBox}
+                >
+                  <p className={jobroles ? Styles.ActiveCont : Styles.Cont}>
+                    <FaUserGraduate
+                      className={jobroles ? Styles.Activeicon : Styles.icon}
+                    />
+                    Target Job Roles
+                  </p>
+                </div>
+              ) : (
+                <div
+                  onClick={() => {
+                    setJobroles(false);
+                    setDomainSpec(true);
+                    setFreshers(false);
+                    setProjectInno(false);
+                    setProjectCert(false);
+                  }}
+                  className={
+                    domainSpec ? Styles.ActiveInnerBox : Styles.InnerBox
+                  }
+                >
+                  <p className={domainSpec ? Styles.ActiveCont : Styles.Cont}>
+                    <FaUserGraduate
+                      className={domainSpec ? Styles.Activeicon : Styles.icon}
+                    />
+                    Domain Specialization
+                  </p>
+                </div>
+              )}
+            </>
           )}
         </div>
 
@@ -212,6 +250,22 @@ function WhyLearnbay({ idss, targetjobs, adsHide, }) {
           ""
         )}
 
+        {Freshers ? (
+          <div className={`${Styles.RightSideCert} imgWrapper`}>
+            <Image
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/frame_45.webp"
+              loading="lazy"
+              width="350"
+              height="212"
+              alt="profile-Img"
+              onClick={() => videoSHow()}
+              style={{ boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px" }}
+            />
+          </div>
+        ) : (
+          ""
+        )}
+
         {jobroles ? (
           <div className={`${Styles.RightSideCert} imgWrapper`}>
             <Image
@@ -230,7 +284,7 @@ function WhyLearnbay({ idss, targetjobs, adsHide, }) {
         {projectInno ? (
           <div className={Styles.RightSide}>
             <div className={Styles.firstBox}>
-            {adsHide ? (
+              {adsHide ? (
                 <div className="imgWrapper">
                   <Image
                     src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group-650-min.webp"
@@ -282,14 +336,26 @@ function WhyLearnbay({ idss, targetjobs, adsHide, }) {
 
         {projectCert ? (
           <div className={`${Styles.RightSideCert} imgWrapper`}>
-            <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Certification-min.webp"
-              loading="lazy"
-              width="350"
-              height="212"
-              alt="profile-Img"
-              onClick={() => videoSHow()}
-            />
+            {Intern ? (
+              <Image
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Freshers-New.webp"
+                loading="lazy"
+                width="350"
+                height="212"
+                alt="profile-Img"
+                onClick={() => videoSHow()}
+                style={{ boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px" }}
+              />
+            ) : (
+              <Image
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Certification-min.webp"
+                loading="lazy"
+                width="350"
+                height="212"
+                alt="profile-Img"
+                onClick={() => videoSHow()}
+              />
+            )}
           </div>
         ) : (
           ""
