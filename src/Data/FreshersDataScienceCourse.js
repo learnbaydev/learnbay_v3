@@ -347,97 +347,9 @@ export const DataScienceCourseData = [
           open: false,
         },
       },
-
       {
         Module0: {
-          title: "TERM 3 :- Big Data Analytics and Visualization",
-          content: [
-            {
-              chap: {
-                title: "Module 1 :- SQL",
-                desc: [
-                  "SQL and RDBMS",
-                  "NoSQL, HBase & MongoDB",
-                  "JSON Data & CRUD",
-                  "Programming with SQL",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Module 2 :- MongoDB",
-                desc: [
-                  "MongoDB Ecosystem",
-                  "MongoDB Structures",
-                  "MongoDB Shell vs MongoDB Server",
-                  "Data Formats in MongoDB",
-                  "Working with MongoDB Compass",
-                  "Working with Numeric Data",
-                  "Working on Scheme Designing",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Module 3 :- Tableau",
-                desc: [
-                  "Dashboard and Stories",
-                  "Visual Analytics",
-                  "Custom Geocoding",
-                  "Polygon Maps",
-                  "WMS and Background Image",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Module 4 :-PowerBI",
-                desc: [
-                  "Overview of the Workflow in",
-                  "Power BI Desktop",
-                  "Introducing the Different",
-                  "Views of the Data Mode",
-                  "Working with Time Series",
-                  "Scatterplots and BI Reports",
-                  "Connecting Dataset with  Power BI",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Module 5 :- Sparks Analytics",
-                desc: [
-                  "Introduction To Hadoop & Big Data",
-                  "Hadoop Master: Slave Architecture",
-                  "MapReduce Architecture",
-                  "Introduction to Spark SQL and Data frames",
-                  "Using R-Spark for machine learning",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 6 :- Time Series",
-                desc: [
-                  "Basics of Time Series Analysis and Forecasting",
-                  "Method Selection in Forecasting",
-                  " Moving Average (MA) Forecast",
-                  "Different Components of Time Series Data",
-                  "Log Based Differencing, Linear Regression for Detrending",
-                  "ARIMA Model Calculations, Manual ARIMA Parameter Selection",
-                  "ARIMA with Explanatory Variables",
-                  "Understanding Multivariate Time Series and their Structure",
-                ],
-              },
-            },
-          ],
-          id: 3,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "TERM 4 :- AI TOOLS",
+          title: "TERM 3 :- AI TOOLS",
           content: [
             {
               chap: {
@@ -463,28 +375,6 @@ export const DataScienceCourseData = [
             },
           ],
           id: 4,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "TERM 5 :- Deployment ",
-          content: [
-            {
-              chap: {
-                title: "Deployment AWS+Azure ",
-                desc: [
-                  "Introduction to AWS and Azure Machine Learning Services",
-                  "Setting up the Environment",
-                  "Data Preparation and Feature Engineering",
-                  "Model Training and Evaluation",
-                  "Model Deployment and Management",
-                  "Advanced Topics in Machine Learning on AWS and Azure",
-                ],
-              },
-            },
-          ],
-          id: 5,
           open: false,
         },
       },
