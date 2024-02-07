@@ -185,7 +185,7 @@ const FirstContent = ({
 
         <div className={styles.secondLeft}>
           <div className={styles.form}>
-            <h4>Free Expert Counselling</h4>
+            <h4>Free Career Counselling</h4>
             <Form
               dataScience={dataScience}
               dataScienceCounselling={dataScienceCounselling}
@@ -250,7 +250,7 @@ const FirstContent = ({
               <div className={styles.secondLeft}>
                 
                 <div className={styles.form}>
-                  <h4>Free Expert Counselling</h4>
+                  <h4>Free Career Counselling</h4>
                   <Form
                     dataScience={dataScience}
                     dataScienceCounselling={dataScienceCounselling}

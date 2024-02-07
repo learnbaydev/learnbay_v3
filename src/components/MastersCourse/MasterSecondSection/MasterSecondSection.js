@@ -41,6 +41,7 @@ const MasterSecondSection = ({ data }) => {
                 height={180}
                 priority
                 alt="review mobile"
+                style={{width:"100%"}}
               />
             </div>
           )}

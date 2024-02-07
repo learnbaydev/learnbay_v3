@@ -122,7 +122,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         cityParaCont="Unlock HR Insights with Real-World Data Analysis Projects"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf"
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/HRHeader-min.webp"
-        firstToparaImg=""
+        firstToparaImg="for Working Professionals"
         firstHeading="HR Analytics Certification Program"
         firstTopPara=""
         idss="p1YDDqg1pEc"
