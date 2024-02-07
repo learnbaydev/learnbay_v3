@@ -31,6 +31,10 @@ const JobAbroad = dynamic(()=>
 import( "../../MastersCourse/JobAbroad/JobAbroad"
 )
 );
+const Realstory = dynamic(()=>
+import( "../../Home/Realstory/Realstory"
+)
+);
 
 import { FaReact } from "react-icons/fa";
 import { TbBrandGoogleAnalytics } from "react-icons/tb";
@@ -172,8 +176,9 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
         leftImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/advance-who.webp"
         ThirdSectionData={ThirdSectionData}
       />
+      <Realstory />1
       <TrainerSection idss="eautK0odE7Q" />
-      <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} />
+     
       <WhoIsProgram
         first="Bachelor's degree with consistent good academic"
         second="Minimum 1 year of IT/Non-IT work experience"

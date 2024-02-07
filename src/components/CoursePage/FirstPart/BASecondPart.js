@@ -38,6 +38,8 @@ const Content = dynamic (()=> import ("../../CoursePage/Content/content"))
 const SeventhSection = dynamic(() =>
   import("@/components/Global/SeventhSection/SeventhSection")
 );
+const MobileTestimonial = dynamic(() =>import("@/components/Home/MobileTestimonial/MobileTestimonial"))
+
 
 const SecondPart = ({
   masterSyllabusMobile,
@@ -123,6 +125,7 @@ const SecondPart = ({
       <MentorsSection />
       <SliderTab />
       <PlacementCall />
+      <MobileTestimonial/>
       <NewProjectSection
         dataScience={true}
         titleCourse="Business Analytics Certification Program"

@@ -33,6 +33,8 @@ const Content = dynamic(() =>
 const SeventhSection = dynamic(() =>
   import("../../Global/SeventhSection/SeventhSection")
 );
+const MobileTestimonial = dynamic(() =>import("@/components/Home/MobileTestimonial/MobileTestimonial"))
+
 const Footer = dynamic(() => import("../../Global/Footer/Footer"));
 const FAQNew = dynamic (() => import ("../../CoursePage/FAQNew/FAQNewDomain"))
 
@@ -120,6 +122,7 @@ const SecondPart = ({
       <MentorsSection />
       <SliderTabs />
       <PlacementCall />
+      <MobileTestimonial/>
       <NewProjectSection
         dataScience={true}
         titleCourse="Masters in Computer Science: Data Science and AI"

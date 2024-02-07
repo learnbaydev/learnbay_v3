@@ -19,6 +19,8 @@ const PlacementCall = dynamic(() =>
 const NewProjectSection = dynamic(() =>
   import("../../Global/NewProjectSection/NewProjectSection")
 );
+const MobileTestimonial = dynamic(() =>import("@/components/Home/MobileTestimonial/MobileTestimonial"))
+
 
 const FAQNew = dynamic(() => import("../FAQNew/FAQNewDomain"));
 const Content = dynamic(() => import("../Content/content"));
@@ -125,7 +127,7 @@ const SecondPart = ({
       <MentorsSection />
       {/* <SliderTab /> */}
       <PlacementCall foundation={true} />
-
+<MobileTestimonial/>
       <NewProjectSection
         dataScience={true}
         interstedInHide={true}

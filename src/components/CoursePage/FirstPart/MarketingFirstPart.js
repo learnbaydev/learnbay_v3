@@ -31,6 +31,8 @@ const JobAbroad = dynamic(()=>
 import( "../../MastersCourse/JobAbroad/JobAbroad"
 )
 );
+const Realstory = dynamic (() =>
+import ("../../Home/Realstory/Realstory"));
 
 const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
   const seconddata = [
@@ -139,8 +141,9 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         interstedInHide={true}/>
       {/* <SecondSection SecondSectionData={SecondSectionData} /> */}
       <SecondNavbar hideProjectLab={true} />
+      <Realstory/>
       <TrainerSection idss="eautK0odE7Q" />
-      <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} />
+      {/* <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} /> */}
       <WhoIsProgram
         first="Bachelor's degree with consistent good academic"
         second="Minimum 6 Month of IT/Non-IT work experience"
