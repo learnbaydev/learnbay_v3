@@ -72,13 +72,14 @@
 
   .firstbox {
     display: block;
+    background: #eae8e880;
   }
   .secondbox {
     display: block;
   }
 
   .radial {
-    width: 150px;
+    /* width: 150px; */
     height: 5px;
     margin: auto;
     display: block;
@@ -110,6 +111,7 @@
 
   .secondbox {
     padding: 10px 5px;
+    background: #eae8e880;
   }
 
   .imgDesc {

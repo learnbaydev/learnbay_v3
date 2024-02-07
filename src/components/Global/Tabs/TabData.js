@@ -4,7 +4,7 @@ export const TabData = [
     title: "Domain Certification Courses",
     courseName: [
       {
-        CName: "Data Science & AI Certification Program For Managers and Leaders",
+        CName: "Data Science & AI Program For Managers and Leaders",
         hours: "11 Months",
         url: "/datascience/data-science-ai-for-managers",
       },

@@ -357,6 +357,7 @@ function MobileTestimonial() {
           <Image
             width="363"
             height="500"
+            style={{width:"100%"}}
             src={testimonials[activeIndex].MobileReviewImage}
             alt={`User ${testimonials[activeIndex].UserImage}`}
           />
