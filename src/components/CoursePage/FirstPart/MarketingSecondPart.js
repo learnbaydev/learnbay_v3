@@ -123,6 +123,7 @@ const SecondPart = ({
         interstedInHide={true}
       />
       <FAQNew FAQNewData={FAQNewData} />
+      <Content dataScienceCounselling={true} Marketing={true} interstedInHide={true}/>
       <SeventhSection />
       <Footer />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />

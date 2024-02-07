@@ -33,6 +33,7 @@ const Content = dynamic(() =>
   import("../../../components/CoursePage/Content/content")
 );
 
+
 const SecondPart = ({
   masterSyllabusMobile,
   CertificateData,
@@ -138,6 +139,7 @@ const SecondPart = ({
       />
 
       <FAQNew FAQNewData={FAQNewData} />
+      <Content dataScienceCounselling={true} mangers={true} interstedInHide={true}/>
       <SeventhSection />
       <Footer />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />

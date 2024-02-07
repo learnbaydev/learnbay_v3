@@ -67,10 +67,10 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>Best Online Data Science Courses | Online Data Science Training - Learnbay</title>
+        <title>Data Science Course with Certifications for BFSI Professionals - Learnbay</title>
         <meta
           name="description"
-          content="Elevate your business acumen with our comprehensive Data Science for BFSI Professional Program. Gain valuable insights, enhance decision-making, and drive success through advanced analytics tools and strategies. Enroll today for a data-driven future."
+          content="Empower your BFSI career with Learnbay's Data Science course for BSFI professionals. Elevate skills, drive innovation in banking and finance. Enroll now!          "
         />
         <meta name="robots" content="index, follow" />
         <meta
