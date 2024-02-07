@@ -12,11 +12,11 @@ function Blockchain({ DataScienceCourseDataJson }) {
     <>
       <Head>
         <title>
-        Data Science and AI Master Certification Program - Learnbay
+        Best Data Science and AI Master Certification Program Online
         </title>
         <meta
           name="description"
-          content="Are you searching for the Data Science and AI Master Certification Program? Learnbay is providing the best online Advanced Data Science and AI Program . Enroll now!"
+          content="Unleash your potential with the best online Data Science and AI Master Certification Program. Elevate your skills, gain expertise, and propel your career.          "
         />
         <meta name="robots" content="index, follow" />
         <meta

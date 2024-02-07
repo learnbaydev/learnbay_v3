@@ -40,6 +40,7 @@ const SeventhSection = dynamic(() =>
 const Content = dynamic(() =>
   import("../../../components/CoursePage/Content/content")
 );
+const MobileTestimonial = dynamic(() =>import("@/components/Home/MobileTestimonial/MobileTestimonial"))
 
 const SecondPart = ({
   masterSyllabusMobile,
@@ -126,7 +127,7 @@ const SecondPart = ({
       <MentorsSection />
       <SliderTab WithoutService={true}/>
       <PlacementCall />
-
+<MobileTestimonial/>
       <NewProjectSection
         dataScience={true}
         titleCourse="AI & ML Program for tech professionals"

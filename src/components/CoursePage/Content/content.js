@@ -13,6 +13,10 @@ function DataAnalytics({
   CDevops,
   Masterscontent,
   Banalytics,
+  mangers,
+  HRContent,
+  Marketing,
+  Bfsi,
 }) {
   const [read, setRead] = useState(false);
 
@@ -1208,8 +1212,7 @@ function DataAnalytics({
                 trending cloud tools.
               </p>
               <h4>
-                Key Features of Cloud Computing & DevOps Certification
-                Program
+                Key Features of Cloud Computing & DevOps Certification Program
               </h4>
               <p>
                 The Cloud computing market in India projects to see a growth of
@@ -1412,8 +1415,8 @@ function DataAnalytics({
       {Masterscontent ? (
         <div className={styles.content}>
           <h1>
-            Unlock Global Job Opportunities with 
-              <b> a Master’s in Computer Science Data Science and AI</b>
+            Unlock Global Job Opportunities with
+            <b> a Master’s in Computer Science Data Science and AI</b>
           </h1>
           <p>
             Leap into career excellence with Learnbay's Master's Degree Program
@@ -1441,10 +1444,12 @@ function DataAnalytics({
                 career in data science.
               </p>
 
-              <h3>Why choose Learnbay's Master in CS : Data Science and AI? </h3>
+              <h3>
+                Why choose Learnbay's Master in CS : Data Science and AI?{" "}
+              </h3>
               <p>
-                Accelerate your full career potential with
-                Learnbay's <b>Master in CS Data Science and AI</b> program. Here’s why you
+                Accelerate your full career potential with Learnbay's{" "}
+                <b>Master in CS Data Science and AI</b> program. Here’s why you
                 should choose the online master's degree data science program by
                 Learnbay over others :
                 <ul>
@@ -1563,9 +1568,16 @@ function DataAnalytics({
                 non-tech working pros. Amidst the fast-paced rise of AI models,
                 many professional courses are coming up to support real-time
                 career enhancement. In such times, a master’s program in
-                computer science, Gen AI, or a
-                {" "}<b><a href="https://www.learnbay.co/cloud&devops/cloud-computing-and-devOps-certification-program" target="_blank">cloud computing certification</a>
-                </b> supports career transition.
+                computer science, Gen AI, or a{" "}
+                <b>
+                  <a
+                    href="https://www.learnbay.co/cloud&devops/cloud-computing-and-devOps-certification-program"
+                    target="_blank"
+                  >
+                    cloud computing certification
+                  </a>
+                </b>{" "}
+                supports career transition.
               </p>
               <p>
                 Owing to the gaining popularity, master’s programs in leading AI
@@ -1592,8 +1604,8 @@ function DataAnalytics({
               </h4>
               <p>
                 Learnbay's{" "}
-                <b>Master’s in Computer Science Data Science and AI
-                </b> program offers training with diverse domain electives such as –
+                <b>Master’s in Computer Science Data Science and AI</b> program
+                offers training with diverse domain electives such as –
                 <ul>
                   <li>• BFSI</li>
                   <li>• Healthcare</li>
@@ -1700,8 +1712,8 @@ function DataAnalytics({
                 across four prime cities in India – Bengaluru, Hyderabad, Pune,
                 and Delhi. Also, you can get the online experience from any part
                 of the world. Experts enrolling in{" "}
-                <b>Masters in Computer Science
-                </b> program will have benefits like –
+                <b>Masters in Computer Science</b> program will have benefits
+                like –
                 <ul>
                   <li>
                     • Learners gain real-time insights to tackle business issues
@@ -1866,7 +1878,7 @@ function DataAnalytics({
                 of various industries.
                 <ul>
                   <li>
-                    <h4 style={{fontSize: "18px" }}>• Healthcare Industry</h4>
+                    <h4 style={{ fontSize: "18px" }}>• Healthcare Industry</h4>
                     <p>
                       The Healthcare Industry has seen a significant change in
                       recent years. As you can see, the use of business
@@ -1883,7 +1895,7 @@ function DataAnalytics({
                     </p>
                   </li>
                   <li>
-                    <h4 style={{fontSize:"18px"}}>• Finance Industry</h4>
+                    <h4 style={{ fontSize: "18px" }}>• Finance Industry</h4>
                     <p>
                       The finance industry is one of the most impacted
                       industries by business analytics and new-age technology.
@@ -1900,7 +1912,7 @@ function DataAnalytics({
                     </p>
                   </li>
                   <li>
-                  <h4 style={{fontSize:"18px"}}>• Retail Industry</h4>
+                    <h4 style={{ fontSize: "18px" }}>• Retail Industry</h4>
                     <p>
                       The Retail industry is seeing innovative changes by
                       adapting business analytics practices. With the help of
@@ -1943,8 +1955,8 @@ function DataAnalytics({
                 successfully establish your career and land your dream job. If
                 you enroll in a <b>certificate program in business analytics</b>{" "}
                 with comprehensive training, you will receive training for
-                cutting-edge technologies and practices. Upon completion of 
-                the <b>certificate program in business analytics</b>, you will
+                cutting-edge technologies and practices. Upon completion of the{" "}
+                <b>certificate program in business analytics</b>, you will
                 receive certification from renowned institutions. These
                 certifications and cutting-edge skills will help you to be
                 recognized by top-tier companies from different industries.
@@ -1955,18 +1967,21 @@ function DataAnalytics({
 
               <p>
                 Among other <b>best courses for business analytics,</b>{" "}
-                Learnbay’s <b>Business Analytics Online Course</b> not only offers
-                comprehensive training but training for new technologies like
-                Generative AI and focuses on hands-on practical experience.
+                Learnbay’s <b>Business Analytics Online Course</b> not only
+                offers comprehensive training but training for new technologies
+                like Generative AI and focuses on hands-on practical experience.
               </p>
               <p>
                 Learnbay’s <b>Certificate Course in Business Analytics</b> helps
                 you to delve into real-world business analytics applications and
-                covers future trends as well. Learnbay’s{" "} <b>business analytics training
-                </b> includes the following features -
+                covers future trends as well. Learnbay’s{" "}
+                <b>business analytics training</b> includes the following
+                features -
                 <ul>
                   <li>
-                  <h4 style={{fontSize:"20px"}}>• Industry Relevant Course Curriculum</h4>
+                    <h4 style={{ fontSize: "20px" }}>
+                      • Industry Relevant Course Curriculum
+                    </h4>
                     <p>
                       Learners will get to learn from the beginner to the most
                       advanced level, their business analytics training covers
@@ -1985,7 +2000,9 @@ function DataAnalytics({
                     </p>
                   </li>
                   <li>
-                  <h3 style={{fontSize:"24px"}}>• Hands-on Experience With Real-World Exposure</h3>
+                    <h3 style={{ fontSize: "24px" }}>
+                      • Hands-on Experience With Real-World Exposure
+                    </h3>
                     <p>
                       As a part of the training, Learnbay will encourage you to
                       work on real-time projects and capstone projects. With the
@@ -2004,22 +2021,22 @@ function DataAnalytics({
                     </p>
                   </li>
                   <li>
-                    <h3 style={{fontSize:"24px"}}>•
-                      Globally Recognized Certifications </h3>
-                      <p>
-                        As it is a{" "}
-                       <b>certificate course in business analytics</b>, upon
-                        successful completion, you will be able to receive
-                        two-course certifications. Learnbay has collaborated
-                        with Microsoft and IBM to offer these certifications.
-                        Having these certifications will enhance your profile
-                        value and help you to be recognized by employers
-                        globally.
-                      </p>
-                   
+                    <h3 style={{ fontSize: "24px" }}>
+                      • Globally Recognized Certifications{" "}
+                    </h3>
+                    <p>
+                      As it is a <b>certificate course in business analytics</b>
+                      , upon successful completion, you will be able to receive
+                      two-course certifications. Learnbay has collaborated with
+                      Microsoft and IBM to offer these certifications. Having
+                      these certifications will enhance your profile value and
+                      help you to be recognized by employers globally.
+                    </p>
                   </li>
                   <li>
-                  <h3 style={{fontSize:"24px"}}>• Career-Focused Domain Electives</h3>
+                    <h3 style={{ fontSize: "24px" }}>
+                      • Career-Focused Domain Electives
+                    </h3>
                     <p>
                       Learning business analytics alongside gaining expertise in
                       a niche area, will be a competitive edge. In this way, you
@@ -2035,19 +2052,23 @@ function DataAnalytics({
                     </p>
                   </li>
                   <li>
-                  <h3 style={{fontSize:"24px"}}>• Personalized Career Services</h3>
+                    <h3 style={{ fontSize: "24px" }}>
+                      • Personalized Career Services
+                    </h3>
                     <p>
                       You can find different kinds of courses for business
-                      analytics, but the
-                      {" "} <b>best courses for business analytics
-                      </b> will have career assistance in their course curriculum.
-                      Learnbay’s certificate program in business analytics is
-                      inclusive of comprehensive career assistance known as
-                      Career Service Pro. This career service pro feature is
-                      inclusive of various features such as:
+                      analytics, but the{" "}
+                      <b>best courses for business analytics</b> will have
+                      career assistance in their course curriculum. Learnbay’s
+                      certificate program in business analytics is inclusive of
+                      comprehensive career assistance known as Career Service
+                      Pro. This career service pro feature is inclusive of
+                      various features such as:
                       <ul>
                         <li>
-                        <h3 style={{fontSize:"20px"}}>•Placement Support</h3>
+                          <h3 style={{ fontSize: "20px" }}>
+                            •Placement Support
+                          </h3>
                           <p>
                             Learnbay offers comprehensive career services where
                             you will receive unlimited job interview calls,
@@ -2055,7 +2076,9 @@ function DataAnalytics({
                           </p>
                         </li>
                         <li>
-                        <h4 style={{fontSize:"20px"}}>• Personalized Career Services</h4>
+                          <h4 style={{ fontSize: "20px" }}>
+                            • Personalized Career Services
+                          </h4>
                           <p>
                             Their tailored services help you to prepare and
                             optimize your resume and provide feedback for areas
@@ -2063,7 +2086,9 @@ function DataAnalytics({
                           </p>
                         </li>
                         <li>
-                        <h3 style={{fontSize:"24px"}}>• Networking Opportunities</h3>
+                          <h3 style={{ fontSize: "24px" }}>
+                            • Networking Opportunities
+                          </h3>
                           <p>
                             Not only will you find the best-suited job role as
                             per your desire but you will also be able to network
@@ -2113,7 +2138,1037 @@ function DataAnalytics({
                 skills in the market. This is an ideal program for those who
                 want to delve more deeply into the field of AI and Analytics.
               </p>
-          
+
+              <div onClick={popupShow} className={styles.buttonDiv}>
+                <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
+              </div>
+            </>
+          ) : (
+            ""
+          )}
+          <p
+            style={{
+              color: "#2D9CD7",
+              fontWeight: "600",
+              textDecoration: "underline",
+              cursor: "pointer",
+            }}
+            onClick={handler}
+            className={styles.readP}
+          >
+            {read ? "Read Less..." : "Read More..."}
+          </p>
+        </div>
+      ) : (
+        ""
+      )}
+      {mangers ? (
+        <div className={styles.content}>
+          <h1>
+            Data Science and AI Certification Program for Managers and Leaders{" "}
+          </h1>
+          <p>
+            The growth of technology in recent years has forced everyone to
+            change their perspective and mandated most of them to learn and
+            upskill. Managers and Leaders in the organization are also not
+            exceptional to this change. As a manager, it is really important to
+            get familiar with the recent trends and changes in technologies to
+            manage effectively. Suppose you are an existing manager or a team
+            leader who is interested in starting the journey with data science
+            and artificial intelligence. In that case, the following data
+            science course for managers will help you out hugely.
+          </p>
+          {read ? (
+            <>
+              <h4 style={{ fontSize: "28px" }}>
+                Find out how the Data Science and AI Certification Program for
+                Managers and Leaders will help you.{" "}
+              </h4>
+              <h2 style={{ fontSize: "24px" }}>
+                How do Managers and Leaders make use of Data Science and AI?
+              </h2>
+
+              <p>
+                Data Science is not only a simple buzz or trend word but it is a
+                multifaceted concept that transformed the way managers and
+                leaders work with its powerful tools and applications. These
+                professionals take the help of AI and Data Science to boost
+                their decision-making process. From identifying the right areas
+                to allocate the resources to identifying skill gaps of
+                employees, it helps the management big time. Also, data-driven
+                insights help managers and leaders avoid gut-feeling-based and
+                hypothesis-driven decisions.
+              </p>
+              <p>
+                The following are some specific examples of how AI and{" "}
+                <b>Data Science for managers</b> is useful.
+              </p>
+              <ul>
+                <li>
+                  <h3>• Predictive AI analytics for sales forecasting</h3>
+                  <p>
+                    Artificial Intelligence models with customized commands can
+                    analyze historical data, industry trends, consumer behavior,
+                    and pricing power based on seasons. By analyzing all these
+                    factors, this AI model provides accurate sales prediction.
+                    According to this suggestion, the managers can set sales
+                    targets and procurement of resources.
+                  </p>
+                </li>
+                <li>
+                  <h3>• Machine learning models to do risk management</h3>
+                  <p>
+                    Machine learning models help managers analyze the potential
+                    risks in all aspects including{" "}
+                    <b>
+                      machinery failures, raw material shortage, financial
+                      frauds, custom churn, and data on employee performance.
+                    </b>{" "}
+                    With this prediction and suggestion on risk management, the
+                    management can be more proactive and hedge against the risk
+                    to protect the business.
+                  </p>
+                  <p>
+                    Other than these activities, managers seek the assistance of
+                    AI and Data Science in optimizing inventory, resources,
+                    operations, team performance, employee performance, and
+                    customer experience. <b>Data science for managers</b> plays
+                    an important role and helps them increase productivity too.
+                    Also, gaining specialized Data Science and{" "}
+                    <b>AI certification for managers</b> will help professionals
+                    in managerial roles to achieve new steps in their careers.
+                  </p>
+                  <p>
+                    Artificial Intelligence and <b>Data science for leaders</b>{" "}
+                    is not only helpful but has become an essential skill to
+                    have in this 21st century.
+                  </p>
+                </li>
+                <li>
+                  <h3>
+                    • Is There Any Specific AI and Data Science Course for
+                    Managers and Leaders?
+                  </h3>
+                  <p>
+                    Learnbay offers a specifically designed course for
+                    professionals who are in managerial and leadership roles.
+                    This <b>data science course for managers and leaders</b>{" "}
+                    contains all the necessary and advanced modules in AI and
+                    data science topics. You can find the essential topics in
+                    tech and non-tech skills like{" "}
+                    <b>
+                      Deep learning, Natural language processing, Power BI,
+                      Machine learning, project management,
+                    </b>
+                    and <b>Agile</b> among others. Additionally, as a perk, you
+                    can find training for <b>Generative AI tools</b> like{" "}
+                    <b>ChatGPT</b> and
+                    <b>Dall-E</b>. In their bonus modules, you can find training
+                    for various other latest and useful skills and tools.
+                  </p>
+                  <p>
+                    Another important thing to notice is that this course
+                    program has a supporting faculty and flexibility to attend
+                    the training sessions. Learnbay, being fully aware of the
+                    learner's timings, offers more flexibility and supports them
+                    constantly throughout the course completion. You can find a
+                    <b>Career Service Pro</b> feature in this program which
+                    gives learners full support and helps them to crack the
+                    interviews by giving them <b>mock interviews,</b> resume
+                    preparation,
+                    <b>unlimited interview calls,</b> and career guidance by
+                    industry experts.
+                  </p>
+                  <p>
+                    This program authenticates your learning journey by helping
+                    you to earn <b>IBM and Microsoft certifications.</b> These
+                    course and project certifications own global recognition,
+                    and even recruiters from various industries will value the
+                    certifications highly. To provide more real-world exposure
+                    to the students, Learnbay offers simulated real-time and
+                    capstone projects. At the end of the program, you will be
+                    offered opportunities to work on capstone projects. To make
+                    practical training more interesting, they offer project
+                    innovation labs. These project labs help learners to learn
+                    in a cutting-edge environment, especially under the guidance
+                    of industry experts.
+                  </p>
+                </li>
+                <li>
+                  <h3>
+                    • Why Opt For Learnbay’s Data Science Course For Managers?
+                  </h3>
+                  <p>
+                    AI and <b>Data Science for managers</b> plays a vital role
+                    in professional field. This Data Science course for managers
+                    and leaders will provide domain-based training. This feature
+                    will not only enhance the learning experience but will help
+                    you hone your career path in a particular industry by
+                    teaching the specific set of skills required for that
+                    domain.
+                  </p>
+                  <p>
+                    If you are a person who wants to get into the banking
+                    industry, you can choose an elective related to banking to
+                    make your career path easy. This program in{" "}
+                    <b>data science for managers</b> is inclusive of the
+                    following domains - <b>BFSI</b>
+                    (Banking, Financial Services, and Insurance);{" "}
+                    <b>Healthcare; Supply Chain;</b> and <b>Manufacturing.</b>
+                  </p>
+                  <p>
+                    As mentioned earlier, Learnbay’s Data Science and{" "}
+                    <b>AI certification for Managers</b> and Leaders program
+                    will offer flexibility and continuous student support. You
+                    can opt for
+                    <b>one-on-one doubt-clearing sessions</b> according to your
+                    free time and the support team will help you to schedule
+                    one. The faculty members are friendly and easily
+                    approachable. Additionally, even if you are from a non-tech
+                    background, Learnbay will make sure to set you on the right
+                    track and help you learn comprehensively.
+                  </p>
+                  <p>
+                    <b>In brief,</b> Learnbay honed and designed this course to
+                    benefit professionals who are in managerial and leadership
+                    roles. If you enroll in this course, you can expect to
+                    receive training for cutting-edge tools and technologies,
+                    gain real-world industry exposure, earn globally recognized
+                    certifications, and work on simulated real-time capstone
+                    projects.
+                  </p>
+                  <p>
+                    Also, if you are a candidate who is looking for cutting-edge
+                    data science and artificial intelligence with specialization
+                    training, you can look out for Learnbay's master's degree in
+                    Data Science and AI. This program comes with two advanced
+                    specializations and a certification from the world's first
+                    Global Collegiate University.
+                  </p>
+                </li>
+              </ul>
+
+              <div onClick={popupShow} className={styles.buttonDiv}>
+                <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
+              </div>
+            </>
+          ) : (
+            ""
+          )}
+          <p
+            style={{
+              color: "#2D9CD7",
+              fontWeight: "600",
+              textDecoration: "underline",
+              cursor: "pointer",
+            }}
+            onClick={handler}
+            className={styles.readP}
+          >
+            {read ? "Read Less..." : "Read More..."}
+          </p>
+        </div>
+      ) : (
+        ""
+      )}
+
+      {HRContent ? (
+        <div className={styles.content}>
+          <h1>
+            Lead a Data-informed Work Culture via an Industry-focused HR
+            Analytics Course
+          </h1>
+          <p>
+            Step up to build a data-driven workspace with more factual HR
+            decisions. In the human-tech nexus, thrive as a top-notch HR leader
+            leading diverse work teams. Learnbay’s{" "}
+            <i>
+              <b>‘HR Analytics Certification Program’ </b>
+            </i>{" "}
+            is here to navigate your success with engaging results. Enroll in an
+            industry-paced HR analytics course today and build an agile
+            workspace.
+          </p>
+          {read ? (
+            <>
+              <h2>Outlining Domain-Specific HR Analytics Course Online</h2>
+              <h4 style={{ fontSize: "28px" }}>
+                Introducing the HR Analytics Program{" "}
+              </h4>
+
+              <p>
+                The fast-paced and constantly evolving business world has made
+                it imperative to establish a cohesive and collaborative
+                workplace environment. Such work culture alterations, demand
+                domain-focused skills to leverage the yields. Thus, Learnbay’s
+                industry-led <b>HR analytics training</b> program envisions an
+                engaging future. An open learning space to raise HR experts
+                driving proven talent decisions. Unlock a scope to get versed in
+                real-world people issues with data-driven methods.
+              </p>
+
+              <h3>
+                Why choose Learnbay's Master in CS : Data Science and AI?{" "}
+              </h3>
+              <i>
+                <b>
+                  <p>
+                    Before diving into the course features, let’s brief you on
+                    the latest HR analytics trends.
+                  </p>
+                </b>
+              </i>
+              <h3>Watch out for the latest HR Analytics Trends in 2024</h3>
+              <p>
+                As businesses continue to rely on data-driven growth metrics,
+                the HR domain meets some exciting trends. If you are an HR pro,
+                eager to drive a profitable career in your domain, enroll in the
+                best<b> HR analytics course.</b>
+              </p>
+              <p>
+                Owing to the increasing dominance of technology, current trends
+                mainly focus on human effects across digital space. An
+                industry-driven training shall equip you with proven knowledge
+                and expertise to handle emerging trends. Some trends that you
+                must know are –
+                <ul>
+                  <li>
+                    <b>• Generative AI with Insights:</b> HR analytics get
+                    support from GenAI that eases the way of extracting facts
+                    and driving informed decisions.
+                  </li>
+                  <li>
+                    <b> •Predictive Analytics:</b> Data-driven prediction of
+                    supply gaps, talent hunt, and employee engagement – all in
+                    one space to lead people analytics.
+                  </li>
+                  <li>
+                    <b>• Improved Decision-making with Real-time Data:</b>{" "}
+                    Experts gain a hands-on learning scope via HR analytics
+                    training for driving optimal decisions with facts.
+                  </li>
+                  <li>
+                    <b>• Enriched Data Visualization:</b> Having access to clear
+                    and arranged data sets paves the way for insightful
+                    communication and realistic moves.
+                  </li>
+                  <li>
+                    Agile HR practices: 2024 aims to build an agile work culture
+                    with flexible HR practices to cope with changing business
+                    goals.
+                  </li>
+                </ul>
+              </p>
+              <p>
+                Thus, upskilling with the best <b>HR analytics certification</b>{" "}
+                can help you handle the trends and attain competitive success.
+              </p>
+
+              <h3>
+                • Is HR Analytics a good career choice for working
+                professionals?
+              </h3>
+
+              <p>
+                A career in HR can be a mixture of risks and fortunes. You can
+                see a blend of skills and domain knowledge to excel in an HR
+                career. Owing to the data-driven shifts, upskilling via an HR
+                analytics course online is a good decision. The right upskilling
+                unlocks a rewarding career path with alluring job offers in the
+                HR domain. An HR analyst’s salary ranges between INR 2.8 LPA and
+                INR 8.5 LPA. Thus, it's a good career choice for experts.
+              </p>
+
+              <h4>• Who is eligible for the course?</h4>
+              <p>
+                Any working pro with –
+                <ul>
+                  <li>• A bachelor’s degree in any domain (tech/non-tech)</li>
+                  <li>• Good academic knowledge</li>
+                  <li>• Minimum of 6 months work experience (IT/Non-IT)</li>
+                  <li>• Early – mid-career pros interested in HR analytics</li>
+                </ul>
+              </p>
+
+              <p>
+                <li>
+                  <b>Note:</b>
+                </li>{" "}
+                Experts enrolling in the <b>business analytics course</b> can
+                also kick-start their careers as HR analysts, but may lack
+                domain-led expertise.
+              </p>
+
+              <h3>• Is Learnbay’s HR Analytics Certification worth it?</h3>
+              <p>
+                The cutting-edge tech shifts demand hands-on expertise with the
+                trending analytics tools. Plus, your skills seek validation to
+                help you thrive across the changing work sphere. Upskilling with
+                Learnbay’s <b>HR analytics program</b> attests to globally
+                recognized dual certifications <b>(IBM & Microsoft).</b>
+              </p>
+
+              <h4>• What is Dual Certification in Learnbay? </h4>
+              <p>
+                Learners enrolling in Learnbay’s <b>HR analytics course</b> are
+                entitled to gain dual certification. All eligible learners will
+                obtain two-course completion certificates{" "}
+                <b>(IBM & Microsoft)</b> and one project certificate from{" "}
+                <b>IBM</b>. These industry certifications are globally approved
+                and validate your skills for better offers.
+              </p>
+
+              <h3>
+                • How does Learnbay’s <b>HR Analytics Certification Course</b>{" "}
+                help in Career Growth?
+              </h3>
+              <p>
+                Learnbay offers the best <b>HR analytics course online</b> to
+                lift your career growth limits.{" "}
+              </p>
+              <i>
+                <b>
+                  <p>
+                    Let’s know the elite course features that help you lift your
+                    career with better job offers.{" "}
+                  </p>
+                </b>
+              </i>
+              <ul>
+                <li>
+                  <h4>• Comprehensive Course Syllabus </h4>
+                  <p>
+                    Experts get an open learning space to upgrade their skills
+                    with Learnbay’s detailed course syllabus as per the latest
+                    trends. It offers an in-depth upskilling scope with
+                    theoretical and practical expertise in trending tools. It
+                    covers –
+                  </p>
+                  <li>• Introduction to Strategic HRM with Data Analytics</li>
+                  <li>• Excel, Statistics, SQL, & MongoDB</li>
+                  <li>• Tableau & Power BI</li>
+                  <li>• Data Science & AI</li>
+                  <li>• Deployment of Tools</li>
+                  <li>• GenAI Tools and Trends</li>
+                </li>
+
+                <li>
+                  <h4>• Project-based Upskilling with Industry Experts</h4>
+                  <p>
+                    Learners gain an experiential learning experience with
+                    Learnbay’s capstone projects under proven mentorship.
+                    Eligible learners work with real-time simulation projects
+                    across project innovation labs under the guidance of
+                    industry experts. Plus, IBM project certification validates
+                    your skills to handle real world HR practices tactfully.
+                  </p>
+                </li>
+                <li>
+                  <h4>• 100% Job & Placement support</h4>
+                  <p>
+                    Learnbay’s <p>HR analytics training</p> has a ‘Career
+                    Service Pro’ deal for eligible experts with 100% placement
+                    help. You can upgrade your soft skills, remodel your resume,
+                    and attend unlimited interview calls. A proven gateway to
+                    better job offers in the HR domain.
+                  </p>
+                </li>
+                <li>
+                  <h4>• Globally Accredited Certifications</h4>
+                  <p>
+                    Learnbay offers the best globally recognized HR analytics
+                    certification (IBM & Microsoft). It unlocks the way to crack
+                    competitive job offers across top-notch MNCs.
+                  </p>
+                </li>
+                <li>
+                  <h4>• Highlights of ‘Career Service Pro’</h4>
+                  <p>
+                    Learnbay’s <b>HR Analytics certification course</b> supports
+                    your career transition with ‘Career Service Pro’ and it
+                    covers –
+                    <ul>
+                      <li>• Three years of job & placement support</li>
+                      <li>• 1:1 doubt-clearing sessions</li>
+                      <li>• Six 1:1 mock interviews with feedback</li>
+                      <li>• Tailored Resume Build & Optimization</li>
+                      <li>• LinkedIn Profile Review</li>
+                      <li>
+                        • 8 – 10 Interview calls (450+ industry partners of
+                        Learnbay)
+                      </li>
+                    </ul>
+                  </p>
+                </li>
+              </ul>
+              <h3>
+                • Which job roles can I target with Learnbay’s HR Analyst
+                Training Program?
+              </h3>
+              <p>
+                Learnbay’s dedicated placement cell with the HR Analytics course
+                online, helps you target promising roles like –
+                <ul>
+                  <li>• HR Data Scientist</li>
+                  <li>• Retention Specialist</li>
+                  <li>• HR Analyst</li>
+                  <li>• Talent Acquisition Analyst</li>
+                  <li>• HR Compliance Analyst</li>
+                  <li>• Workforce Planner</li>
+                  <li>• Employee Relations Analyst</li>
+                </ul>
+              </p>
+
+              <h3>
+                • Can I balance Work and HR Analytics Course Training with
+                Learnbay?
+              </h3>
+              <p>
+                Yes, you can. If you are a full-time working pro interested in
+                HR analytics, Learnbay’s extended support is here. It offers a
+                flexible upskilling platform where you can opt for hybrid
+                training sessions. You can opt for weekday or weekend sessions
+                following your work schedules. HR analytics certification course
+                offers pre-recorded training videos and study resources for
+                flexible learning.
+              </p>
+              <h3>
+                • Is upskilling with Learnbay’s HR Analytics Course expensive?
+              </h3>
+              <p>
+                Learnbay’s <b>HR analytics certification</b> costs you INR
+                75,000 plus 18% GST. Learners can avail of easy no-cost EMI
+                options with INR 4,912/month. Learnbay’s accessible payment
+                partners support hassle-free upskilling. It also offers up to
+                25% scholarships to eligible learners for quality upskilling.
+                Enroll today and start learning while you earn.
+              </p>
+              <p>
+                Register with Learnbay’s custom-fit{" "}
+                <i>
+                  '<b>HR Analytics Certification Program’</b>
+                </i>{" "}
+                and drive career merits with better job prospects.
+              </p>
+
+              <div onClick={popupShow} className={styles.buttonDiv}>
+                <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
+              </div>
+            </>
+          ) : (
+            ""
+          )}
+          <p
+            style={{
+              color: "#2D9CD7",
+              fontWeight: "600",
+              textDecoration: "underline",
+              cursor: "pointer",
+            }}
+            onClick={handler}
+            className={styles.readP}
+          >
+            {read ? "Read Less..." : "Read More..."}
+          </p>
+        </div>
+      ) : (
+        ""
+      )}
+      {Marketing ? (
+        <div className={styles.content}>
+          <h1>
+            Learn to Optimize the ROI of Your Business with a Marketing
+            Analytics Course
+          </h1>
+          <p>
+            Upskill and set foot into a data-driven culture of marketing. Engage
+            yourself in developing insightful marketing campaigns and leverage
+            business ROI. Learnbay’s ‘Marketing Analytics Certification Program’
+            is all set to empower marketers with data-informed action plans.
+            Enroll today to master your skills with a leading-edge marketing
+            analyst course.{" "}
+          </p>
+
+          {read ? (
+            <>
+              <h2>
+                {" "}
+                Laying Out Domain-centric <b>Marketing Analytics Program</b>
+              </h2>
+              <h4>Course Overview </h4>
+
+              <p>
+                The advancing digital era anticipates a successful amalgamation
+                of data-driven culture and the marketing domain. Increasing
+                reliance on insightful marketing methods demands quality
+                upskilling. Thus, working pros must enroll in an industry-led
+                marketing analytics certification course to unlock infinite
+                success. Learnbay’s online course envisions sustainable business
+                handling with higher ROI. This course ensures data-driven career
+                excellence for marketing pros with better job prospects.
+              </p>
+              <h3>Take a Look Into the Marketing Analytics Industry</h3>
+              <p>
+                We are certainly in the tech age, where realistic predictions
+                matter the most. Strategy planning and decision-making are
+                incomplete without predictions. Marketing is a crucial domain
+                that relies heavily on timely predictions. Businesses try to
+                revamp their brands due to changing consumer behavior and market
+                dynamics. Marketing analytics ensure the accuracy and
+                effectiveness of action plans with higher yields. Thus,
+                upskilling with proven <b>marketing analytics training</b> is
+                essential in today’s era.
+              </p>
+              <h4>Is Marketing Analytics trending currently?</h4>
+              <p>
+                As per the industry research report, the global marketing
+                analytics market size is expected to grow by 12.84% by 2029.
+                Following the growing reliance on analytics, diverse sectors
+                expect a 19% rise in the employment of marketing analysts by
+                2031. No wonder, marketing pros are on the race in today’s
+                competitive edge. Upskilling is the right way to conquer success
+                and crack promising job offers globally.
+              </p>
+              <h2>
+                Role of Marketing Analytics Program to Overcome Outpaced Career
+              </h2>
+              <p>
+                Learnbay introduces the{" "}
+                <i>
+                  <b>‘Marketing Analytics Certification Program’</b>
+                </i>{" "}
+                to empower marketers with proven excellence. Working pros in any
+                domain or experts with generic marketing careers find it useful.
+                <i>
+                  • For a better understanding, let’s review the program
+                  features.
+                </i>
+                <ul>
+                  <li>
+                    <h4>• Specifically Curated Course Syllabus</h4>
+                    <p>
+                      Learnbay’s marketing analytics online course syllabus
+                      follows the latest trends in the industry. Learners
+                      enrolling in the course will get a 360-degree
+                      knowledge-building scope (theoretical and practical). It
+                      covers –
+                    </p>
+                    <ul>
+                      <li>•Overview of Marketing Analytics</li>
+                      <li>• Excel, Statistics, SQL, MongoDB</li>
+                      <li>• Tableau & Power BI</li>
+                      <li>• Data Science and AI</li>
+                      <li>• Deployment of Analytics Tools</li>
+                      <li>• AI Generative Tools and Trends</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <h3>• Flexible Training Sessions by Industry Experts</h3>
+                    <p>
+                      Experts enrolling in Learnbay’s{" "}
+                      <b>marketing analytics course</b>
+                      will gain flexible training sessions from industry
+                      experts. It offers hybrid and live instructor-led training
+                      sessions with flexible schedules. It means you can opt for
+                      weekday or weekend sessions as per your work duties.
+                    </p>
+                    <h3>• Flexible Financing Plans</h3>
+                    <p>
+                      Learners opting for the{" "}
+                      <b>marketing analytics certification</b>
+                      course are entitled to flexible fee payment options.
+                      Eligible learners can avail of scholarships (up to 25%)
+                      for hassle-free upskilling. With a no-cost EMI option,
+                      marketing enthusiasts can upgrade their skills without
+                      funding worries.
+                    </p>
+                  </li>
+                  <li>
+                    <h3>• Experiential Learning with Projects</h3>
+                    <p>
+                      Learnbay believes in practice-based learning. Thus,
+                      learners opting for the marketing analyst course shall
+                      work with real-time simulation projects. The projects are
+                      exclusively designed following the latest marketing
+                      analytics trends. It helps experts gain exposure to
+                      real-world businesses and handle them well.
+                    </p>
+                  </li>
+                  <li>
+                    <h3>• Placement Assistance</h3>
+                    <p>
+                      Learnbay’s tie-up with 450+ industry partners supports job
+                      and placement drives. Learners get unlimited exposure to
+                      the industry via mock interviews and soft skills
+                      development via ‘Career Service Pro’. It helps learners
+                      crack job interviews with top-tier MNCs.
+                    </p>
+                  </li>
+                  <li>
+                    <h3>• Globally-valued Certifications</h3>
+                    <p>
+                      A globally valued marketing analytics certificate unlocks
+                      promising job offers from MAANG & MNCs. Learnbay’s
+                      industry-driven program offers two globally recognized
+                      course certifications (IBM & Microsoft) and one project
+                      certificate (IBM).
+                    </p>
+                  </li>
+                  <li></li>
+                </ul>
+              </p>
+              <h3>How does Learnbay help you enroll in the right course?</h3>
+              <p>
+                Learnbay’s counseling sessions play a key role in supporting
+                your career transition decision. If you are confused about the
+                worthiness of the course program, expert career counselors are
+                here to help. Counselors listen to your career goals and suggest
+                the best course that will expand your earning potential.
+                Following the suggestions, you can decide on a program for
+                upskilling.
+              </p>
+              <h3>
+                What roles do Learnbay’s career services play in your career
+                transition?
+              </h3>
+              <p>
+                Learnbay’s upskilling programs offer a ‘Career Service Pro’
+                package to eligible learners for better placements. This package
+                includes –
+                <ul>
+                  <li>• Three years of job & placement support</li>
+                  <li>• 1:1 doubt sessions</li>
+                  <li>• Interview Prep. with feedback </li>
+                  <li>• Resume Build & Optimization</li>
+                  <li>• LinkedIn Profile Review</li>
+                  <li>
+                    • 8 – 10 Interview calls (450+ industry partners of
+                    Learnbay)
+                  </li>
+                </ul>
+              </p>
+              <i>
+                <b>
+                  <p>
+                    Before diving into the course features, let’s brief you on
+                    the latest HR analytics trends.
+                  </p>
+                </b>
+              </i>
+              <h3>
+                Crack Top Job Roles with Learnbay’s{" "}
+                <b>Marketing Analytics Course?</b>{" "}
+              </h3>
+              <p>
+                Learnbay’s dedicated placement cell in the{" "}
+                <b>marketing analytics certification course,</b> helps you crack
+                prime job roles like –
+                <ul>
+                  <li>• Marketing Analysts</li>
+                  <li>• Market Research Analysts</li>
+                  <li>• Business Intelligence Analysts</li>
+                  <li>• Customer Insights Analysts</li>
+
+                  <li>• CRM Analysts</li>
+                  <li>• Data Scientists</li>
+                  <li>• Retail Analysts</li>
+                </ul>
+              </p>
+              <h3>
+                How are Learnbay’s Marketing Analytics Online Course different
+                from others?
+              </h3>
+              <p>
+                Learnbay’s marketing analytics training follows industry trends
+                and steps that help you stay informed of developments. Factors
+                that show Learnbay is unique compared to others are –
+                <ul>
+                  <li>• GenAI inclusive syllabus</li>
+                  <li>• Project-based learning</li>
+                  <li>• Targeting in-demand roles (placement cell)</li>
+                  <li>
+                    • Industry certifications with global-scale values (IBM &
+                    Microsoft)
+                  </li>
+                  <li>• Networking with Industry Experts</li>
+                </ul>
+              </p>
+              <h3>
+                Learnbay’s <b>Marketing Analyst Course</b> - One-stop Solution
+                for Career Transition
+              </h3>
+              <p>
+                Learnbay aims to support career transition decisions of working
+                pros with dedicated coaching. Its industry-focused programs
+                deliver inclusive training on the latest trends. Experts
+                enrolling in the program receive advanced training sessions that
+                make them job-ready within 6 months. Thus, it turns into a
+                one-stop solution for experts to crack jobs from top-tier
+                industry partners like Walmart, IBM, Microsoft, and others.
+              </p>
+              <p>
+                To summarize, experts at any career level can make up their
+                minds about a career change in the trending industry. Learnbay’s
+                marketing analytics program is a proven gateway to drive career
+                success with infinite offers. Experts dream of building an
+                unbeatable career in the marketing domain and upskilling is the
+                wise way. Learnbay’s industry-specific training helps you to
+                land global job prospects. Enroll today and unlock promising
+                careers.
+              </p>
+
+              <div onClick={popupShow} className={styles.buttonDiv}>
+                <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
+              </div>
+            </>
+          ) : (
+            ""
+          )}
+          <p
+            style={{
+              color: "#2D9CD7",
+              fontWeight: "600",
+              textDecoration: "underline",
+              cursor: "pointer",
+            }}
+            onClick={handler}
+            className={styles.readP}
+          >
+            {read ? "Read Less..." : "Read More..."}
+          </p>
+        </div>
+      ) : (
+        ""
+      )}
+
+      {Bfsi ? (
+        <div className={styles.content}>
+          <h1>
+            Step Up Beyond Conventional Financial Decision-making with{" "}
+            <b>Data Science in BFSI</b>
+          </h1>
+          <p>
+            Empower yourself to grapple with the evolving financial sector via
+            industry-driven upskilling. Enroll with Learnbay’s{" "}
+            <i>
+              <b>‘Data Science and AI for BFSI Professionals’</b>
+            </i>{" "}
+            today. Upgrade your financial expertise via{" "}
+            <b>Data Science in BFSI</b> and land the highest-paying job.
+          </p>
+
+          {read ? (
+            <>
+              <h2>
+                Briefing on Leading-edge Training for{" "}
+                <b>Data Science in Financial Services </b>
+              </h2>
+              <h4>Course Overview </h4>
+
+              <p>
+                The emerging field of data science drives unbeatable excellence
+                in diverse sectors. The banking and financial services sector is
+                one of them. Data science integration with the{" "}
+                <b>BFSI domain</b>
+                expands career growth limits with assured gains. Upskilling with
+                Learnbay’s domain-led data science course empowers your career
+                with industry-driven skills. Its in-depth GenAI-inclusive course
+                curriculum supports real-time skill enhancement.
+              </p>
+              <h3>
+                Transforming the World of Banking & Financial Services with Data
+                Science{" "}
+              </h3>
+              <p>
+                <b>Data science in financial services</b> has become essential
+                for the sector to sustain itself in the modern economy. The
+                constant tech shifts raise the demand for skilled data
+                scientists in BFSI processing data-driven decisions. The global
+                data science platform expects a rise of 27.7% by 2026 covering
+                all prime industries. Since the BFSI sector is prone to
+                uncertainties,
+                <b>data science in banking and finance</b> has become a
+                game-changer.
+              </p>
+
+              <p>
+                Many BFSI experts with relevant years of experience can become a
+                part of the growing digital space with the right upskilling.
+                Data science for banking and finance unlocks promising career
+                growth options with assured gains. Recent years have seen a
+                fast-paced rise in the use of data science in financial
+                services.
+              </p>
+              <p>
+                Thus, upskilling with an industry-focused course program is the
+                prime gateway to enriching career values with better job offers.
+              </p>
+              <h2>
+                Is enrolling in{" "}
+                <b>Data Science and AI for BFSI Professionals</b> worth it?
+              </h2>
+              <p>
+                If you are a BFSI expert at an early or mid-career level eager
+                to upgrade your career’s worth, upskilling is a wise solution.
+                If you are interested in the <b>BFSI domain,</b> opting for the{" "}
+                <p>
+                  <i>
+                    <b>Note:</b>
+                  </i>{" "}
+                  Experts can also opt for an{" "}
+                  <b>Advance Data Science and AI Course</b> and improve their
+                  financial knowledge as per the latest trends.
+                </p>
+                <h3>
+                  Briefing Learnbay’s Data Science and AI for BFSI Professionals
+                  Program
+                </h3>
+                <ul>
+                  <li>
+                    <h4>Industry-fit Course Syllabus</h4>
+                    <p>
+                      This program offers industry-fit course syllabi curated as
+                      per the latest updates. Learners get a 360-degree
+                      knowledge-building (theoretical & practical) scope via
+                      this course. With this, you learn the use of{" "}
+                      <b>data science in financial services.</b>
+                    </p>
+                  </li>
+                  <li>
+                    <h4>Domain-specific Training</h4>
+                    <p>
+                      Renowned industry experts provide domain-specific training
+                      to learners enrolling in the course. It helps to gain a
+                      complete knowledge of real-time uses of{" "}
+                      <b>data science in BFSI.</b> Experts learn about
+                      real-world uses of data science tools and improve their
+                      ways of working.
+                    </p>
+                  </li>
+                  <li>
+                    <h4>Experiential Learning</h4>
+                    <p>
+                      Learnbay believes in real-time skills upgrades. Thus, this
+                      program introduces two fresh capstone projects to make you
+                      aware of real cases. Mentors help you gain hands-on
+                      learning experiences with in-demand tools in the{" "}
+                      <b>BFSI domain.</b>
+                    </p>
+                  </li>
+
+                  <li>
+                    <h4>Job & Placement Support</h4>
+                    <p>
+                      Upskilling is incomplete without placement. Learnbay
+                      envisions a bright BFSI career with valid skills upgrades.
+                      This course offers 100% placement support via its Career
+                      Service Pro program. A learner will get everything – from
+                      resume preparation to unlimited interview calls from any
+                      of the 450+ industry partners.{" "}
+                    </p>
+                  </li>
+                  <li>
+                    <h4>Globally-valued Certifications </h4>
+                    <p>
+                      Learners opting for this course will gain the scope of
+                      validating their careers with globally accredited industry
+                      certifications. This course offers 2 course certificates
+                      <b>(IBM & Microsoft)</b> and 1 project certificate{" "}
+                      <b>(IBM).</b>
+                    </p>
+                  </li>
+                  <li>
+                    <h4>Can a full-time Banker opt for this course? </h4>
+                    <p>
+                      Yes, if you are a full-time banker and wish to become a
+                      data scientist, this course is useful for you. Also, the
+                      other non-bankers eager to switch to data science can
+                      upskill via Data Science and AI for BFSI Professionals
+                      program. With good academics and basic numeracy skills,
+                      anyone can kick-start their career with this program.{" "}
+                    </p>
+                  </li>
+                  <li>
+                    <h4>
+                      Differentiating Data Scientist and BFSI Data Scientist.
+                    </h4>
+                    <p>
+                      Data scientists in general have broader roles and duties
+                      to play. On the contrary, BFSI data scientists are liable
+                      to handle finance-related tasks. In today’s changing job
+                      landscape, having domain-led expertise is vital for
+                      experts. Becoming a data scientist in the BFSI domain can
+                      be fruitful in the long run with a specialized career
+                      path. Data science in financial services deals with –
+                      <ul>
+                        <li>Financial budgeting</li>
+                        <li>Fraud detection & analysis</li>
+                        <li>Deciding financial models</li>
+                        <li>Credit risks analysis </li>
+                        <li>Regulatory compliance </li>
+                        <li>Financial market analysis </li>
+                      </ul>
+                      <p>
+                        From a career perspective, data scientists in the BFSI
+                        domain can lead specific roles across global financial
+                        organizations. A general data scientist can earn INR 8
+                        LPA – INR 23 LPA on average. On the other hand, the
+                        average salary for a data scientist in financial
+                        services ranges between INR 4 LPA and INR 28 LPA.{" "}
+                      </p>
+                    </p>
+                  </li>
+                </ul>
+                <h2>
+                  How does Learnbay support your career transition journey in
+                  the BFSI domain?{" "}
+                </h2>
+                <p>
+                  Enrolling in Learnbay’s{" "}
+                  <i>
+                    <b>Data Science and AI for BFSI Professionals</b>
+                  </i>{" "}
+                  program is the first step to successful career growth. Its
+                  inclusive training offers a real-time learning platform via
+                  the ‘Project Innovation Lab’.
+                </p>
+                <h3>So, how does Project Innovation Lab support upskilling?</h3>
+                <p>
+                  Data science in BFSI demands hands-on expertise in tools to
+                  attain true success. Learnbay supports experiential learning
+                  where learners get exposure to real-world business issues. You
+                  will work on 2 real-time simulation projects under your
+                  mentor’s guidance at project innovation labs. Experts from the
+                  BFSI domain choose their real-time projects and work to gain
+                  industry-driven experience. Learnbay’s Project innovation labs
+                  justify its pledge to 360-degree knowledge development.
+                </p>
+                <p>
+                  Apart from 360-degree career upskilling, it offers 100%
+                  placement help via ‘Career Service Pro’. With this, learners
+                  gain adequate skills to use data science in banking and
+                  finance.
+                </p>
+                <h4>Then, how does Career Service Pro help? </h4>
+                <p>
+                  All the eligible learners with a score of at least 70% in
+                  assessments can opt for this pro package. It offers –
+                  <ul>
+                    <li>
+                      Three years of job and placement help with assured job
+                      offers
+                    </li>
+                    <li>
+                      Six 1:1 mock interviews with any of the 450+ industry
+                      partners
+                    </li>
+                    <li>Resume Building</li>
+                    <li>LinkedIn profile review</li>
+                    <li>1:1 doubt-clearing sessions with mentors</li>
+                  </ul>
+                </p>
+              </p>
+             
               <div onClick={popupShow} className={styles.buttonDiv}>
                 <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
               </div>

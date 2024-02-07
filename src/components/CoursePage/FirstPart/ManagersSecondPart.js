@@ -32,6 +32,8 @@ const FAQNew = dynamic(() =>
 const Content = dynamic(() =>
   import("../../../components/CoursePage/Content/content")
 );
+const MobileTestimonial = dynamic(() =>import("@/components/Home/MobileTestimonial/MobileTestimonial"))
+
 
 const SecondPart = ({
   masterSyllabusMobile,
@@ -128,7 +130,7 @@ const SecondPart = ({
       <MentorsSection />
       <SliderTab WithoutService={true} />
       <PlacementCall />
-
+<MobileTestimonial />
       <NewProjectSection
         dataScience={true}
         interstedInHide={true}
@@ -138,6 +140,7 @@ const SecondPart = ({
       />
 
       <FAQNew FAQNewData={FAQNewData} />
+      <Content dataScienceCounselling={true} mangers={true} interstedInHide={true}/>
       <SeventhSection />
       <Footer />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />

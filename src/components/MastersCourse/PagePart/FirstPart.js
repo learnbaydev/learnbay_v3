@@ -21,6 +21,11 @@ const CloudDevopsecond = dynamic(() =>
     "../../CoursePage/cloud&devops/DevOpsSecondSection/DevOpsSecondSection"
   )
 );
+const Realstory = dynamic(() =>
+  import(
+    "../../Home/Realstory/Realstory"
+  )
+);
 import { FaReact } from "react-icons/fa";
 import { TbBrandGoogleAnalytics } from "react-icons/tb";
 import { BsPersonGear } from "react-icons/bs";
@@ -150,8 +155,9 @@ const FirstPart = ({
         
       />
       <SecondNavbar dataScienceCounselling={true} />
+      <Realstory/>
       <TrainerSection idss="eautK0odE7Q" />
-      <Testimonial redirectDS={true} Testimonial={TestimonialData} />
+      {/* <Testimonial redirectDS={true} Testimonial={TestimonialData} /> */}
       <WhyLearnbay idss="ZPOTy4PEnNU" />
     </>
   );
