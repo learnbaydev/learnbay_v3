@@ -115,7 +115,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
    
     ],
     bannerImage: {
-      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job1.webp",
+      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/fresher_girl.webp",
       width: 500,
       height: 400,
       priority: true,

@@ -106,7 +106,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
    
     ],
     bannerImage: {
-      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BA-min.webp",
+      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/marketing_s.webp",
       width: 500,
       height: 400,
       priority: true,

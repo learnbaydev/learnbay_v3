@@ -57,7 +57,7 @@ const ProjectContent = ({ ids }) => {
         <div className={styles.InnerBox2}>
           <div className="imgWrapper">
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/certification-iimg.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/project-man.webp"
               loading="lazy"
               quality={40}
               width="358"
