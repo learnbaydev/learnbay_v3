@@ -629,6 +629,9 @@ margin: 0 !important;
 }
 .Course {
   padding: 0px 100px 40px 100px;
+  background: #fff;
+  z-index: 999;
+  position: relative;
 }
 
 .Course h2 {
@@ -726,13 +729,12 @@ background: #FFF9F0;
   margin-bottom: 50px;
   justify-content: space-between;
   margin: 0px 0px 0px 0px;
-  width: 97%;
+  width: 100%;
   position:sticky;
   z-index: 999;
   top: 0px;
   background:#fff;
-  padding-top: 22px;
-  padding-bottom: 22px;
+  padding: 22px 20px;
 }
 
 /* .span {
@@ -1219,6 +1221,8 @@ background-clip: text;
     overflow-y: hidden;
     margin-bottom: 0px;
     position: initial;
+    justify-content: center;
+    padding: 0px;
   }
 
   .divBox {

@@ -26,6 +26,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 .pClass {
   display: flex;
   gap: 16px;
+  flex-wrap: wrap;
 }
 .TextGreen {
   color: #F99600;
@@ -281,8 +282,8 @@ padding: 5px 15px;
     display: none;
   }
   .pClass {
-    display: grid;
-    grid-template-columns: 48% 48%;
+    display: flex;
+    flex-flow: wrap;
     gap: 15px 10px;
     margin-bottom: 40px;
     margin-top: 10px;
