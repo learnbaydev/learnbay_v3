@@ -12,21 +12,23 @@ import styles from "@/components/CoursePage/FirstSectionDmd/FirstSection.module.
 const FirstSection = dynamic(() =>
   import("@/components/CoursePage/FirstSectionDmd/FirstSection")
 );
-
 const Certificate = dynamic(() =>
   import("@/components/CoursePage/Certificate/Certificate")
 );
-const WhoProgram = dynamic(() =>
-  import("@/components/CoursePage/WhoProgram/ThirdSection")
+
+const Transpro = dynamic(() =>
+  import("@/components/Dmd/Transpro/Transpro")
 );
-
-
+const SliderTab = dynamic(() =>
+  import("@/components/Dmd/SliderTab/SliderTabs")
+);
+const Webinar = dynamic(() =>
+  import("@/components/Dmd/ReactWebinar/Webinar")
+);
 const DmdPart = ({
   CertificateData,
   S3RightImage,
 }) => {
-
-
   return (
     <div>
       <FirstSection
@@ -43,22 +45,21 @@ const DmdPart = ({
         idss="gaQYhVPCudQ"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/cd-f.webp"
       S3RightImage={S3RightImage}
-        
+      softwareBtnHide={true}
       />
       <HomeLine />
+      <Transpro />
       <div className={styles.Margin}>
-      <Course  dataScience={true}
+      <Course  dataScience={true }
+     
         radio={true}
         organicADS={true}
         newDesign={true}
         dataScienceGeneric={true} />
         </div>
-      <Certificate data={CertificateData} />
-      <WhoProgram
-        dataScience={true}
-        leftImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/advance-who.webp"
-        ThirdSectionData={ThirdSectionData}
-      />
+      <Certificate data={CertificateData}    className={styles.coursegap}/>
+     <Webinar/>
+     <SliderTab/>
        <ProjectSection
         nolinkO={false}
         organic={true}
@@ -69,8 +70,11 @@ const DmdPart = ({
         HideDmd={true}
       />
       <div className={styles.MarginGet}>
-       <GetHire />
+        <div   className={styles.gethirediv}>
+       <GetHire/>
+       </div>
       </div>
+      <Webinar/>
       <SeventhSection />
       <Footer
         organicADSS={true}
@@ -88,5 +92,4 @@ const DmdPart = ({
     </div>
   );
 };
-
 export default DmdPart;

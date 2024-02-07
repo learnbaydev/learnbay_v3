@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { MdChecklist } from "react-icons/md";
 import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import styles from "./Course.module.css";
+// import styles from "./Course.module.css";
 import dynamic from "next/dynamic";
 import { FaDownload } from "react-icons/fa";
 import "swiper/css";
@@ -14,6 +14,7 @@ const Form = dynamic(() => import("@/components/Global/Form/Form"));
 import { courseDetails, courseDetailsM } from "./courseDetailsDmd";
 import { BsCheckLg, BsFire } from "react-icons/bs";
 import { BiTimeFive } from "react-icons/bi";
+import styles from "./CourseDmd.module.css"
 
 const Course = ({
   dataScience,

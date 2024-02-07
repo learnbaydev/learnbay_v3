@@ -26,6 +26,10 @@
   justify-content: center; */
   height: 30px; /* Adjust the height as needed */
 }
+.gethirediv{
+  /* background-color: red; */
+  /* margin-top: -160px; */
+}
 
 .animationText {
   display: inline-block;
@@ -338,7 +342,7 @@ margin: -80px 0px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 90%;
+    width: 100%;
     padding: 20px 0px;
   }
 

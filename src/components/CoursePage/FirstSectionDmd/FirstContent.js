@@ -46,9 +46,9 @@ Become an Expert in your Domain with</p>
                 <div onClick={popupShow}>
                   <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
                 </div>
-                <div onClick={popupShow}>
+                {/* <div onClick={popupShow}>
                   <Button whiteBgButton={true} text="ENQUIRE NOW" />
-                </div>
+                </div> */}
               </div>
             </>
           )}
