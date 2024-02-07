@@ -133,7 +133,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         cityParaCont="Elevate your tech career with our programs"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BA-min.webp"
-        firstToparaImg=""
+        firstToparaImg="for Working Professionals"
         firstHeading="Businesss Analytics Master Certification Program"
         firstTopPara="Get real-world experience with capstone projects"
         idss="CHut_wm-P2s"
