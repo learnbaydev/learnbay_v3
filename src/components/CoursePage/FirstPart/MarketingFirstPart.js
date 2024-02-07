@@ -124,7 +124,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         cityParaCont="Empowering Marketers with Data-Driven Excellence"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Marketing+Analytics+Certification+Program.pdf"
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/MarketingHeader-min.webp"
-        firstToparaImg=""
+        firstToparaImg="for Marketing Professionals"
         firstHeading="Marketing Analytics Certification Program"
         firstTopPara=""
         idss="Humhgja0gCQ"

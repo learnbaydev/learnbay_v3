@@ -72,7 +72,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         role: "AI Project Manager ",
         salary: " 17.3 LPA",
       },
-      { icon: <BsPersonGear />, role: "BI Engineer ", salary: "22.2 LPA" },
+      { icon: <BsPersonGear />, role: "Data Analytics Manager", salary: "22.2 LPA" },
     ],
     image3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Frame+42.webp",
     image4:
@@ -139,7 +139,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Adv-dsai-_1_-min.webp"
         firstToparaImg="For Managers and Leaders"
         firstHeading="Data Science & AI Certification Program"
-        firstTopPara="Curriculum Inclusive of Gen-AI "
+        firstTopPara="Gen-AI for Business Leaders"
         idss="rZVkXvgW9gk"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/managers+and+leaders-min.webp"
         videoId="osYNvuuI1_8"

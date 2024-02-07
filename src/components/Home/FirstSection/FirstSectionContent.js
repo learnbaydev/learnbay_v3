@@ -73,7 +73,7 @@ const FirstSectionContent = ({ setPopups }) => {
               <FaCheck className={styles.greenCheck} /> Cloud & DevOps
             </p>
             <p className={styles.blink}>
-              <FaCheck className={styles.greenCheck} /> Master’s Degree Pogram
+              <FaCheck className={styles.greenCheck} /> Master’s Degree Program
             </p>
           </div>
           <div className={styles.btnWrapper}>
