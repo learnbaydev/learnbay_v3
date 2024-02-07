@@ -176,7 +176,7 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
         leftImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/advance-who.webp"
         ThirdSectionData={ThirdSectionData}
       />
-      <Realstory />1
+      <Realstory />
       <TrainerSection idss="eautK0odE7Q" />
      
       <WhoIsProgram
