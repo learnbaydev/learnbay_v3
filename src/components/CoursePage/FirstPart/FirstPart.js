@@ -140,9 +140,9 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         firstToparaImg="with Domain Specialization"
         firstHeading="Advanced Data Science & AI Program"
         firstTopPara="Curriculum Inclusive of Gen-AI "
-        idss="YWxTtvb3x-U"
+        idss="djokazk1d-0"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ds-fs.webp"
-        videoId="YWxTtvb3x-U"
+        videoId="djokazk1d-0"
         
       />
        <MasterSecondSection data={seconddata} />
