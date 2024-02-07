@@ -58,7 +58,7 @@ const DmdPart = ({
         dataScienceGeneric={true} />
         </div>
       <Certificate data={CertificateData}    className={styles.coursegap}/>
-     <Webinar/>
+     {/* <Webinar/> */}
      <SliderTab/>
        <ProjectSection
         nolinkO={false}
@@ -74,7 +74,7 @@ const DmdPart = ({
        <GetHire/>
        </div>
       </div>
-      <Webinar/>
+      {/* <Webinar/> */}
       <SeventhSection />
       <Footer
         organicADSS={true}
