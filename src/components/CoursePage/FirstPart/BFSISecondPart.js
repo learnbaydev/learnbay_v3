@@ -24,6 +24,9 @@ const NewProjectSection = dynamic(() =>
   import("../../Global/NewProjectSection/NewProjectSection")
 );
 
+const MobileTestimonial = dynamic(() =>import("@/components/Home/MobileTestimonial/MobileTestimonial"))
+
+
 const FAQNew = dynamic(() => import("../FAQNew/FAQNewDomain"));
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
 const Content = dynamic(() => import("../Content/content"));
@@ -116,6 +119,7 @@ const SecondPart = ({
       <MentorsSection />
       <SliderTab WithoutService={true}/>
       <PlacementCall BFSI={true}/>
+      <MobileTestimonial/>
       {/* <NewProjectSection
         dataScience={true}
         titleCourse="Data Science & AI for BFSI Professionals"

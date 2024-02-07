@@ -25,6 +25,8 @@ const JobAbroad = dynamic(()=>
 import( "../../MastersCourse/JobAbroad/JobAbroad"
 )
 );
+const Realstory = dynamic (() =>
+import ("../../Home/Realstory/Realstory"));
 
 import { AiOutlineContainer } from "react-icons/ai";
 import { BsDatabaseUp, BsDisplay, BsPeople } from "react-icons/bs";
@@ -138,8 +140,9 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+Foundation+Program+Learnbay.pdf"
         titleCourse="Data Science Foundation Program"
       />
+      <Realstory/>
       <TrainerSection idss="eautK0odE7Q" />
-      <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} />
+      {/* <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} /> */}
       <WhoIsProgram
         first="Bachelor's degree with consistent good academic"
         second="Minimum 6 Months of IT/Non-IT work experience"

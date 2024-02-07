@@ -12,11 +12,11 @@ function Blockchain({ DataScienceCourseDataJson }) {
     <>
       <Head>
         <title>
-        Data Science and AI Program For Managers and Leaders - Learnbay
+        Data Science & AI Certification Program For Managers and Leaders
         </title>
         <meta
           name="description"
-          content="Are you searching for the Data Science and AI Program For Managers and Leaders? Learnbay is providing the best online Data Science and AI Program For Managers and Leaders and AI Program . Enroll now!"
+          content="Lead with data-driven excellence! Learnbay offers a Data Science & AI Certification Program for Managers and Leaders. Elevate your leadership strategic skills          "
         />
         <meta name="robots" content="index, follow" />
         <meta

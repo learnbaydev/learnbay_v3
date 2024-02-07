@@ -68,12 +68,12 @@ function Blockchain({ DataScienceCourseDataJson }) {
     <>
       <Head>
         <title>
-          Best Online Data Science Courses | Online Data Science Training -
-          Learnbay
+        HR Analytics Certification Program | HR Analytics Course - Learnbay
+
         </title>
         <meta
           name="description"
-          content="Elevate your business acumen with our comprehensive HR Analytics Program. Gain valuable insights, enhance decision-making, and drive success through advanced analytics tools and strategies. Enroll today for a data-driven future."
+          content="Advance your HR career with Learnbay's HR Analytics Certification Program. Master HR analytics skills and boost your expertise. Enroll now!          "
         />
         <meta name="robots" content="index, follow" />
         <meta

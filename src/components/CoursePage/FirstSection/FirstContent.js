@@ -1,9 +1,11 @@
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
-import { FaPlay } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 import Button from "../../Global/Button/Button";
 import styles from "./FirstSection.module.css";
 import Form from "../../Global/Form/Form";
+
+
 // const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
 const FirstContent = ({
@@ -170,13 +172,9 @@ const FirstContent = ({
                 {softwareBtnHide ? (
                   ""
                 ) : (
-                  <div onClick={videoShow}>
-                    <Button
-                      whiteBgButton={true}
-                      text="INTRO VIDEO"
-                      passIcon={<FaPlay />}
-                    />
-                  </div>
+                  <div onClick={videoShow} className={styles.FaPlay}>
+                  INTRO VIDEO <FaYoutube className={styles.IconYou} />
+                </div>
                 )}
               </div>
             </>
@@ -238,13 +236,9 @@ const FirstContent = ({
                   {softwareBtnHide ? (
                     ""
                   ) : (
-                    <div onClick={videoShow}>
-                      <Button
-                        whiteBgButton={true}
-                        text="INTRO VIDEO"
-                        passIcon={<FaPlay />}
-                      />
-                    </div>
+                    <div onClick={videoShow} className={styles.FaPlay}>
+                    INTRO VIDEO <FaYoutube className={styles.IconYou} />
+                  </div>
                   )}
                 </div>
               <div className={styles.secondLeft}>

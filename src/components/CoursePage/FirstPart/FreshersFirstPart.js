@@ -38,6 +38,8 @@ const JobAbroad = dynamic(()=>
 import( "../../MastersCourse/JobAbroad/JobAbroad"
 )
 );
+const Realstory = dynamic (() =>
+import ("../../Home/Realstory/Realstory"));
 
 
 import { AiOutlineContainer } from "react-icons/ai";
@@ -113,7 +115,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
    
     ],
     bannerImage: {
-      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job1.webp",
+      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/fresher_girl.webp",
       width: 500,
       height: 400,
       priority: true,
@@ -152,8 +154,9 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf"
         titleCourse="Data Science & AI Certification Program For Freshers"
       />
+      <Realstory/>
       <TrainerSection idss="eautK0odE7Q" />
-      <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} />
+      {/* <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} /> */}
       <WhoIsProgram
         first="Bachelor's degree with consistent good academic"
         second="Minimum 6 Months of IT/Non-IT work experience"

@@ -23,6 +23,8 @@ const PlacementCall = dynamic(() =>
 const NewProjectSection = dynamic(() =>
   import("../../Global/NewProjectSection/NewProjectSection")
 );
+const MobileTestimonial = dynamic(() =>import("@/components/Home/MobileTestimonial/MobileTestimonial"))
+
 
 const FAQNew = dynamic(() => import("../FAQNew/FAQNewDomain"));
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
@@ -114,6 +116,7 @@ const SecondPart = ({
       <MentorsSection />
       <SliderTab WithoutService={true} />
       <PlacementCall HRAnalyst={true} />
+      <MobileTestimonial/>
       <NewProjectSection
         dataScience={true}
         titleCourse="HR Analytics Certification Program"
@@ -122,6 +125,7 @@ const SecondPart = ({
         interstedInHide={true}
       />
       <FAQNew FAQNewData={FAQNewData} />
+      <Content dataScienceCounselling={true} HRContent={true} interstedInHide={true}/>
       <SeventhSection />
       <Footer />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />
