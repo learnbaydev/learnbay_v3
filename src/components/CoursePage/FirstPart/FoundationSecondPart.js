@@ -90,12 +90,11 @@ const SecondPart = ({
       <ToolsCovered foundation={true} />
       <Certificate
         data={CertificateData}
-        projectWithCertificate={true}
         singlecertificate={true}
       />
       <FeeSection
-        Fee="₹ 90,000"
-        FeeEmi="₹ 5,900/month"
+        Fee="₹ 70,000"
+        FeeEmi="₹ 4,589/month"
         weekdaybatch="Weekday Batch"
         weekendbatch="Weekday  Batch"
         weekday="MON - FRI"
@@ -116,17 +115,17 @@ const SecondPart = ({
         // <EMI POPUP
         emiType="NO COST EMI"
         duration1="18 Months"
-        totalAmount1="₹90,000"
-        monthlyPayment1="₹5,900"
+        totalAmount1="₹70,000"
+        monthlyPayment1="₹4,589"
         greenDown1="Standard Intrest rate Applicable"
         duration2="12 Months"
-        totalAmount2="₹90,000"
-        monthlyPayment2="₹8,850"
+        totalAmount2="₹70,000"
+        monthlyPayment2="₹6,883"
       />
 
       <MentorsSection />
       {/* <SliderTab /> */}
-      <PlacementCall foundation={true} />
+      <PlacementCall Foundation={true} />
 <MobileTestimonial/>
       <NewProjectSection
         dataScience={true}

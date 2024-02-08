@@ -25,10 +25,7 @@ function FirstSection({
   animationHide,
   topHide,
   IBMGl,
-
-
-
- 
+  fresher,
   upSkillingHide, 
   dataScienceGeneric, 
   radio,
@@ -74,6 +71,7 @@ interstedInHide={interstedInHide}
         upSkillingHide={upSkillingHide}
         topHide={topHide}
         IBMGl={IBMGl}
+        fresher={fresher}
 
         
  
