@@ -76,7 +76,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Best Data Science Courses Training in Pune- Learnbay</title>
+        <title>Best Data Science Course Training in Pune [2024]</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -208,7 +208,7 @@ export default function Home() {
   "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "office no. 408, 4th floor, Inorbit mall, City Space, opposite to Fiserv, Viman Nagar",
+    "streetAddress": "office no. 408, 4th floor, City Space, opposite to Fiserv, Viman Nagar",
     "addressLocality": "Pune",
     "addressRegion": "Maharashtra",
     "postalCode": "411014",
