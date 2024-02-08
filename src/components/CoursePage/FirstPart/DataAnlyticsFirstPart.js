@@ -131,10 +131,10 @@ const DataAnlyticsFirstPart = ({
         firstToparaImg="for For Non-Tech Professionals"
         firstHeading="Data Analytics Certification Program"
         firstTopPara="Curriculum inclusive of Gen-AI"
-        idss="y_0IdhFKJKM"
+        idss="_-E3S3ojyvo"
         ibmOnly={ibmOnly}
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/da-f.webp"
-        videoId="y_0IdhFKJKM"
+        videoId="_-E3S3ojyvo"
        
       />
 

@@ -522,7 +522,7 @@ export const puneLocation = [
     id: 1,
     cityName: "Pune",
     location:
-      "Ofc No. 408, 4th Floor, Inorbit Mall, City Space, Opp To Fiserv, Viman Nagar, Pune, Maharashtra 411014",
+      "Ofc No. 408, 4th Floor, City Space, Opp To Fiserv, Viman Nagar, Pune, Maharashtra 411014",
   },
 ];
 

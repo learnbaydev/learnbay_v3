@@ -41,8 +41,8 @@ export default function Home() {
         "Learnbay achieves 300% surge; to expand workforce amidst impressive job market recognition",
       CLogo:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/image+2-min.webp",
-      SDesc: "8th August",
-      url: "https://www.financialexpress.com/jobs-career/education-learnbay-achieves-300-surge-to-expand-workforce-amidst-impressive-job-market-recognition-3203466/",
+      SDesc: "12th July",
+      url: "https://www.financialexpress.com/education-2/learnbay-goes-offline-with-brick-and-mortar-centres-ends-fy22-with-a-net-profit-of-rs-3-2-crore/2590829/",
     },
     {
       id: 2,
@@ -57,9 +57,9 @@ export default function Home() {
       domain:
         "Professional Upskilling Startup Learnbay Launches Three New Cutting-Edge Domain Courses",
       CLogo:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/image+7.png",
-      SDesc: "25th April",
-      url: "https://businessnewsthisweek.com/education/professional-upskilling-startup-learnbay-launches-three-new-cutting-edge-domain-courses/",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/PM-Logo.webp",
+      SDesc: "2and August",
+      url: "https://thepeoplemanagement.com/the-future-of-hr-will-be-defined-by-a-blended-workforce-nisha-kumari-md-learnbay/",
     },
     {
       id: 4,
@@ -92,9 +92,9 @@ export default function Home() {
       id: 7,
       domain: "The Rising Horizon: Data Science and AI in the EdTech 2.0 Era",
       CLogo:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/express+computer.webp",
-      SDesc: "24th November",
-      url: "https://www.expresscomputer.in/guest-blogs/the-rising-horizon-data-science-and-ai-in-the-edtech-2-0-era/106062/",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/mt-Logo.webp",
+      SDesc: "25th May",
+      url: "https://www.manufacturingtodayindia.com/sectors/smart-manufacturing-roles-for-data-professionals",
     },
     {
       id: 8,
@@ -366,7 +366,7 @@ export default function Home() {
         />
       </Head>
       <Navbar radio={true} dataScienceCounselling={true} />
-      <FirstSection dataScienceCounselling={true} radio={true} />
+      <FirstSection dataScienceCounselling={true} radio={true} idss="ZPOTy4PEnNU" />
       <HomeLine />
       <Course dataScience={true} radio={true} />
       <WhyLearnbay ids="YWxTtvb3x-U" />

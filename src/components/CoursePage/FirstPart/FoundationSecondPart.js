@@ -19,8 +19,9 @@ const PlacementCall = dynamic(() =>
 const NewProjectSection = dynamic(() =>
   import("../../Global/NewProjectSection/NewProjectSection")
 );
-const MobileTestimonial = dynamic(() =>import("@/components/Home/MobileTestimonial/MobileTestimonial"))
-
+const MobileTestimonial = dynamic(() =>
+  import("@/components/Home/MobileTestimonial/MobileTestimonial")
+);
 
 const FAQNew = dynamic(() => import("../FAQNew/FAQNewDomain"));
 const Content = dynamic(() => import("../Content/content"));
@@ -84,14 +85,11 @@ const SecondPart = ({
         dataScience={true}
         interstedInHide={true}
         titleCourse="Data Science Foundation Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+Foundation+Program+Learnbay.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf"
         buttonHide={true}
       />
-      <ToolsCovered foundation={true} />
-      <Certificate
-        data={CertificateData}
-        singlecertificate={true}
-      />
+      <ToolsCovered  Found={true} />
+      <Certificate data={CertificateData} singlecertificate={true} />
       <FeeSection
         Fee="₹ 70,000"
         FeeEmi="₹ 4,589/month"
@@ -111,7 +109,7 @@ const SecondPart = ({
         interstedInHide={true}
         dataScience={true}
         titleCourse="Data Science Foundation Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+Foundation+Program+Learnbay.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf"
         // <EMI POPUP
         emiType="NO COST EMI"
         duration1="18 Months"
@@ -126,12 +124,12 @@ const SecondPart = ({
       <MentorsSection />
       {/* <SliderTab /> */}
       <PlacementCall Foundation={true} />
-<MobileTestimonial/>
+      <MobileTestimonial />
       <NewProjectSection
         dataScience={true}
         interstedInHide={true}
         titleCourse="Data Science Foundation Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+Foundation+Program+Learnbay.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf"
         projectSection={projectSection}
       />
 
