@@ -5,7 +5,6 @@ import Button from "../../Global/Button/Button";
 import styles from "./FirstSection.module.css";
 import Form from "../../Global/Form/Form";
 
-
 // const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
 const FirstContent = ({
@@ -33,6 +32,7 @@ const FirstContent = ({
   titleCourse,
   radio,
   topHide,
+  fresher,
 }) => {
   const texts = [
     "Guaranteed Interview Calls",
@@ -46,7 +46,7 @@ const FirstContent = ({
     "1:1 Doubt Session",
     "6 Months Internship Certificate",
     "Final Year Project Assistance",
-  ]
+  ];
   const [mobile, setMobile] = useState(false);
   const [showThumbnail, setShowThumbnail] = useState(true);
   const [lastScrollTop, setLastScrollTop] = useState(0);
@@ -113,8 +113,7 @@ const FirstContent = ({
       <style>{customStyles}</style>
       <div className={styles.First}>
         <div className={styles.FirstLeft}>
-          {topHide ? ("") : (
-          <p className={styles.ptopC}>{firstTopPara}</p>)}
+          {topHide ? "" : <p className={styles.ptopC}>{firstTopPara}</p>}
           <h1 className={styles.h1}>
             {firstHeading}{" "}
             <span className={styles.h1Span}>{firstToparaImg}</span>
@@ -146,25 +145,41 @@ const FirstContent = ({
                   )}
                 </div>
               </div>
-              {IBMGl ? (
-                 <div className={styles.animationTextWrap}>
-                 {textfresher.map((text, index) => (
-                   <div key={index} className={styles.verticalSlideWrapper}>
-                     <span className={styles.animationText}>{text}</span>
-                   </div>
-                 ))}
-               </div>
-              ): (
+              {fresher ? (
                 <div className={styles.animationTextWrap}>
-                {texts.map((text, index) => (
-                  <div key={index} className={styles.verticalSlideWrapper}>
-                    <span className={styles.animationText}>{text}</span>
-                  </div>
-                ))}
+                
+                  
+                    <span className={styles.animationText}>Guaranteed Interview Calls</span>
               </div>
+                
+              ) : (
+                <>
+                  {IBMGl ? (
+                    <div className={styles.animationTextWrap}>
+                      {textfresher.map((text, index) => (
+                        <div
+                          key={index}
+                          className={styles.verticalSlideWrapper}
+                        >
+                          <span className={styles.animationText}>{text}</span>
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
+                    <div className={styles.animationTextWrap}>
+                      {texts.map((text, index) => (
+                        <div
+                          key={index}
+                          className={styles.verticalSlideWrapper}
+                        >
+                          <span className={styles.animationText}>{text}</span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </>
               )}
-               
-              
+
               <div className={styles.btnImage}>
                 <div onClick={popupShow}>
                   <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
@@ -173,8 +188,8 @@ const FirstContent = ({
                   ""
                 ) : (
                   <div onClick={videoShow} className={styles.FaPlay}>
-                  INTRO VIDEO <FaYoutube className={styles.IconYou} />
-                </div>
+                    INTRO VIDEO <FaYoutube className={styles.IconYou} />
+                  </div>
                 )}
               </div>
             </>
@@ -230,19 +245,18 @@ const FirstContent = ({
                 )}
               </div>
               <div className={styles.btnImageMobile}>
-                  <div onClick={popupShow}>
-                    <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
-                  </div>
-                  {softwareBtnHide ? (
-                    ""
-                  ) : (
-                    <div onClick={videoShow} className={styles.FaPlay}>
+                <div onClick={popupShow}>
+                  <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
+                </div>
+                {softwareBtnHide ? (
+                  ""
+                ) : (
+                  <div onClick={videoShow} className={styles.FaPlay}>
                     INTRO VIDEO <FaYoutube className={styles.IconYou} />
                   </div>
-                  )}
-                </div>
+                )}
+              </div>
               <div className={styles.secondLeft}>
-                
                 <div className={styles.form}>
                   <h4>Free Career Counselling</h4>
                   <Form

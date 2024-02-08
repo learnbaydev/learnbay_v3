@@ -231,6 +231,27 @@ export const courseDetails = [
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Generative+AI+Certification+Course.pdf",
           },
+          {
+            id: 7,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
+            title: "Data Science ",
+            title1: "Foundation Program",
+            tagHead: "For Data Science Enthusiasts",
+            tag: "Data Science",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf",
+            titleCourse: "Data Science Foundation Program",
+            para: [
+              "4 Months | 4 Projects",
+              "Guaranteed Interview Calls",
+              "Designed by industry experts",
+            ],
+            newDesign: true,
+            newDesignOrange: true,
+            link1: "/",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf",
+          },
         ],
       },
       {
@@ -450,6 +471,27 @@ export const courseDetails = [
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Generative+AI+Certification+Course.pdf",
           },
+          {
+            id: 7,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
+            title: "Data Science ",
+            title1: "Foundation Program",
+            tagHead: "For Data Science Enthusiasts",
+            tag: "Data Science",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf",
+            titleCourse: "Data Science Foundation Program",
+            para: [
+              "4 Months | 4 Projects",
+              "Guaranteed Interview Calls",
+              "Designed by industry experts",
+            ],
+            newDesign: true,
+            newDesignOrange: true,
+            link1: "/",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf",
+          },
         ],
       },
       {
@@ -595,6 +637,27 @@ export const courseDetails = [
             link1: "/",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Generative+AI+Certification+Course.pdf",
+          },
+          {
+            id: 7,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
+            title: "Data Science ",
+            title1: "Foundation Program",
+            tagHead: "For Data Science Enthusiasts",
+            tag: "Data Science",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf",
+            titleCourse: "Data Science Foundation Program",
+            para: [
+              "4 Months | 4 Projects",
+              "Guaranteed Interview Calls",
+              "Designed by industry experts",
+            ],
+            newDesign: true,
+            newDesignOrange: true,
+            link1: "/",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf",
           },
         ],
       },
@@ -841,6 +904,27 @@ export const courseDetails = [
             link1: "/",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Generative+AI+Certification+Course.pdf",
+          },
+          {
+            id: 7,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
+            title: "Data Science ",
+            title1: "Foundation Program",
+            tagHead: "For Data Science Enthusiasts",
+            tag: "Data Science",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf",
+            titleCourse: "Data Science Foundation Program",
+            para: [
+              "4 Months | 4 Projects",
+              "Guaranteed Interview Calls",
+              "Designed by industry experts",
+            ],
+            newDesign: true,
+            newDesignOrange: true,
+            link1: "/",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf",
           },
         ],
       },
@@ -1106,6 +1190,27 @@ export const courseDetails = [
             link1: "/",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Generative+AI+Certification+Course.pdf",
+          },
+          {
+            id: 7,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
+            title: "Data Science ",
+            title1: "Foundation Program",
+            tagHead: "For Data Science Enthusiasts",
+            tag: "Data Science",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf",
+            titleCourse: "Data Science Foundation Program",
+            para: [
+              "4 Months | 4 Projects",
+              "Guaranteed Interview Calls",
+              "Designed by industry experts",
+            ],
+            newDesign: true,
+            newDesignOrange: true,
+            link1: "/",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf",
           },
         ],
       },
@@ -1453,6 +1558,27 @@ export const courseDetails = [
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Generative+AI+Certification+Course.pdf",
           },
+          {
+            id: 7,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
+            title: "Data Science ",
+            title1: "Foundation Program",
+            tagHead: "For Data Science Enthusiasts",
+            tag: "Data Science",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf",
+            titleCourse: "Data Science Foundation Program",
+            para: [
+              "4 Months | 4 Projects",
+              "Guaranteed Interview Calls",
+              "Designed by industry experts",
+            ],
+            newDesign: true,
+            newDesignOrange: true,
+            link1: "/",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf",
+          },
         ],
       },
       {
@@ -1674,6 +1800,27 @@ export const courseDetailsM = [
             link1: "/",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Generative+AI+Certification+Course.pdf",
+          },
+          {
+            id: 7,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
+            title: "Data Science ",
+            title1: "Foundation Program",
+            tagHead: "For Data Science Enthusiasts",
+            tag: "Data Science",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf",
+            titleCourse: "Data Science Foundation Program",
+            para: [
+              "4 Months | 4 Projects",
+              "Guaranteed Interview Calls",
+              "Designed by industry experts",
+            ],
+            newDesign: true,
+            newDesignOrange: true,
+            link1: "/",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf",
           },
         ],
       },
@@ -2006,6 +2153,27 @@ export const courseDetailsM = [
             link1: "/",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Generative+AI+Certification+Course.pdf",
+          },
+          {
+            id: 7,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
+            title: "Data Science ",
+            title1: "Foundation Program",
+            tagHead: "For Data Science Enthusiasts",
+            tag: "Data Science",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf",
+            titleCourse: "Data Science Foundation Program",
+            para: [
+              "4 Months | 4 Projects",
+              "Guaranteed Interview Calls",
+              "Designed by industry experts",
+            ],
+            newDesign: true,
+            newDesignOrange: true,
+            link1: "/",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf",
           },
         ],
       },

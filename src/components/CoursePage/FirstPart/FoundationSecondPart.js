@@ -19,8 +19,9 @@ const PlacementCall = dynamic(() =>
 const NewProjectSection = dynamic(() =>
   import("../../Global/NewProjectSection/NewProjectSection")
 );
-const MobileTestimonial = dynamic(() =>import("@/components/Home/MobileTestimonial/MobileTestimonial"))
-
+const MobileTestimonial = dynamic(() =>
+  import("@/components/Home/MobileTestimonial/MobileTestimonial")
+);
 
 const FAQNew = dynamic(() => import("../FAQNew/FAQNewDomain"));
 const Content = dynamic(() => import("../Content/content"));
@@ -84,18 +85,14 @@ const SecondPart = ({
         dataScience={true}
         interstedInHide={true}
         titleCourse="Data Science Foundation Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+Foundation+Program+Learnbay.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf"
         buttonHide={true}
       />
-      <ToolsCovered foundation={true} />
-      <Certificate
-        data={CertificateData}
-        projectWithCertificate={true}
-        singlecertificate={true}
-      />
+      <ToolsCovered  Found={true} />
+      <Certificate data={CertificateData} singlecertificate={true} />
       <FeeSection
-        Fee="₹ 90,000"
-        FeeEmi="₹ 5,900/month"
+        Fee="₹ 70,000"
+        FeeEmi="₹ 4,589/month"
         weekdaybatch="Weekday Batch"
         weekendbatch="Weekday  Batch"
         weekday="MON - FRI"
@@ -112,27 +109,27 @@ const SecondPart = ({
         interstedInHide={true}
         dataScience={true}
         titleCourse="Data Science Foundation Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+Foundation+Program+Learnbay.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf"
         // <EMI POPUP
         emiType="NO COST EMI"
         duration1="18 Months"
-        totalAmount1="₹90,000"
-        monthlyPayment1="₹5,900"
+        totalAmount1="₹70,000"
+        monthlyPayment1="₹4,589"
         greenDown1="Standard Intrest rate Applicable"
         duration2="12 Months"
-        totalAmount2="₹90,000"
-        monthlyPayment2="₹8,850"
+        totalAmount2="₹70,000"
+        monthlyPayment2="₹6,883"
       />
 
       <MentorsSection />
       {/* <SliderTab /> */}
-      <PlacementCall foundation={true} />
-<MobileTestimonial/>
+      <PlacementCall Foundation={true} />
+      <MobileTestimonial />
       <NewProjectSection
         dataScience={true}
         interstedInHide={true}
         titleCourse="Data Science Foundation Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+Foundation+Program+Learnbay.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf"
         projectSection={projectSection}
       />
 

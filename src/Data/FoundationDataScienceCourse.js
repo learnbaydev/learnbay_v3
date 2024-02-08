@@ -362,13 +362,7 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                title: "Module 2 :- MongoDB",
-                desc: [" Introduction to MongoDB", "MongoDB (Advance)"],
-              },
-            },
-            {
-              chap: {
-                title: "Module 3 :- Tableau",
+                title: "Module 2 :- Tableau",
                 desc: [
                   " Introduction to Tableau",
                   "Visual Analytics",
@@ -379,29 +373,10 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                title: "Module 4 :- PowerBI",
+                title: "Module 3 :- PowerBI",
                 desc: [
                   "Getting Started With Power BI",
                   "Programming with Power BI",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 5 :- Big Data & Spark Analytics",
-                desc: [
-                  "Introduction To Hadoop & Big Data",
-                  "What is Spark",
-                  "Getting to know PySpark Hands-on: Map reduce Use Case: Youtube data analysis & Spark RDD programming",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 6 :- Time Series",
-                desc: [
-                  " Introduction to Time Series Forecasting",
-                  "Introduction to ARIMA Models Case Study on Time series classification of smartphone data to predict user behavior, Performing Time Series Analysis on Stock Prices & Time series forecasting of sales data",
                 ],
               },
             },

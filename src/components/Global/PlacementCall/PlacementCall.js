@@ -17,7 +17,7 @@ const courseData = [
   { title: "Sr. Data Analyst", imgSrc: "thirdimg.webp", imgWidth: 400 },
   { title: "Business Analyst", imgSrc: "firstimg.webp", imgWidth: 400 },
   { title: "DataBase Admin", imgSrc: "secondimg.webp", imgWidth: 400 },
-  { title: "Data Science Manager", imgSrc: "thirdimg.webp", imgWidth: 400 },
+  // { title: "Data Science Manager", imgSrc: "thirdimg.webp", imgWidth: 400 },
 ];
 
 const foundationCourseData = [
