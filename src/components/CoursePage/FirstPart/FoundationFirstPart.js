@@ -34,7 +34,7 @@ import { FaLinkedinIn, FaReact } from "react-icons/fa";
 import { TbBrandGoogleAnalytics } from "react-icons/tb";
 const FirstPart = ({ SecondSectionData, TestimonialData }) => {
   const seconddata = [
-    { boldText: "IBM", normalText: "Certified Capstone", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
+    { boldText: "IBM", normalText: "Global Certification", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
     { CboldText: "175%", normalText: "Average Salary Hike", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
     { boldText: "35K+", normalText: "Trusted Learners", },
     
@@ -44,7 +44,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
     image1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+773.webp",
     points: [
       "Work in an industry like environment and gain practical hands-on experience",
-      "3 Real-World Capstone Projects",
+      "4 Data Science Projects",
     ],
     image2:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Mask-group-_32_-min.webp",
@@ -68,7 +68,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Mask+group+(10).webp",
     title3: "Assured Job Assistance",
     jobAssistance: [
-      { icon: <BsDisplay />, text: "8-10 Interview Calls" },
+      { icon: <BsDisplay />, text: "4 Interview Calls" },
       { icon: <AiOutlineContainer />, text: "Resume Building Session" },
       { icon: <FaLinkedinIn />, text: "LinkedIn Profile Review" },
     ],
@@ -77,25 +77,25 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-second-min.webp",
   };
   const JobData = {
-    title: "Advance Data Science for International Careers",
+    title: "Advance Your Career With Data Science",
     points: [
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
         imgAlt: "",
-        title: "Earn a Degree Without Pausing Your Career",
-        description: "Flexible online degrees from LearnBay's ExcelVarsity for working pros.",
+        title: "Expert Crafted Curriculum",
+        description: "Syllabus designed by top tech-industry experts",
       },
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
         imgAlt: "",
-        title: "Skill Up for Swift Promotions",
-        description: "Curriculum designed for rapid career advancement and leadership roles.",
+        title: "Flexible Learning at your Convenience",
+        description: "Designed for professionals aiming to upskill without quitting their job",
       },
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
         imgAlt: "",
-        title: "Step into High-Value Research Careers",
-        description: "Degree for prestigious research jobs and institutional collaborations.",
+        title: "100% Job Assistance Program",
+        description: "Get a boost in your career with guaranteed 4 interview calls",
       },
    
     ],
@@ -115,18 +115,18 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         interstedInHide={true}
         ThirdTyped="Live Interactive Classes"
         dataScience={true}
-        titleCourse="Foundation Tack in Data Science & AI"
+        titleCourse="Data Science Foundation Program"
         cityParaCont="Gain work experience of data scientist with real projects"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+Foundation+Program+Learnbay.pdf"
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Adv-dsai-_1_-min.webp"
-        firstToparaImg="Data Science & AI"
-        firstHeading="Foundation Track in"
+        firstToparaImg="Foundation Program"
+        firstHeading="Data Science"
         firstTopPara="Curriculum designed by industry experts"
         idss="tBKOlgHS-k8"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Foundation+program-min.webp"
         videoId="tBKOlgHS-k8"
-   
         ibmOnly={true}
+        fresher={true}
       />
        <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={DsSecond} />
@@ -149,7 +149,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         third="Early to mid-career professionals interested in data science"
         forth="Developing skills in data science for future opportunities"
       />
-      {/* <WhyLearnbay idss="ZPOTy4PEnNU" /> */}
+      <WhyLearnbay idss="ZPOTy4PEnNU" />
       <GetHire />
       <ContactConsellor
         dataScience={true}
