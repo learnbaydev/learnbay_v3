@@ -29,21 +29,21 @@ const sliderData = [
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/preksha_card.webp",
     link: "vSjfKdIzUjY",
   },
-  // {
-  //   id: 5,
-  //   img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp",
-  //   bigImage:
-  //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/realstory.webp",
-  //   link: "vSjfKdIzUjY",
+  {
+    id: 5,
+    img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/arsar_card.webp",
+    bigImage:
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/arsar_card.webp",
+    link: "x_EmBJ-h7DE",
       
-  // },
-  // {
-  //   id: 6,
-  //   img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp",
-  //   bigImage:
-  //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/realstory.webp",
-  //     videoLink: 'https://www.youtube.com/watch?v=your_video_id_2',
-  // },
+  },
+  {
+    id: 6,
+    img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp",
+    bigImage:
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/laxmi_card.webp",
+      link: 'myRKzYu1N5E',
+  },
 ];
 
 export default sliderData;
