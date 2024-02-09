@@ -81,8 +81,8 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData }) => {
         cityParaCont="Upskill and switch from service-based to product-based companies"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/fullhead.webp"
-        firstToparaImg=""
-        firstHeading="Software Development Certification Program"
+        firstToparaImg="Certification Program"
+        firstHeading="Software Development "
         firstTopPara="Crack Interview in Top MNCs"
         idss="0cspp1jXAbM"
  
