@@ -1,23 +1,50 @@
 import Image from "next/image";
 import React from "react";
 import styles from "./Webinar.module.css"
+import Link from "next/link";
 
 function Webinar() {
   return (
     <div>
       <div className={styles.webmain}>
-        <h2><span className={styles.greentext}>FREE </span>WEBINAR</h2>
+        <h2><span className={styles.greentext}>JOIN </span>WEBINAR</h2>
         <Image
-          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/react-dmd.webp"
-          width={1280}
-          height={380}
+          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/webinar.webp"
+          width={1200}
+          height={390}
           loading="lazy"
         />
+       
          <div className={styles.btn} >
-        <button onClick={console.log("working")}>
-            Apply Now
+         <Link href="https://zoom.us/webinar/register/WN_tcRP7m0hS-iQlP4FAEPKUA" target="_blank"> 
+        <button >
+            Register Now
         </button>
+        </Link>
         </div>
+      
+      </div>
+
+      <div className={styles.webmainmbl}>
+        <h2><span className={styles.greentext}>JOIN </span>WEBINAR</h2>
+        <div className="">
+        <Image
+          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/webinar_mbl.webp"
+          width={350}
+          height={350}
+          loading="lazy"
+          className={styles.imgmbl}
+        />
+       
+         <div className={styles.btn} >
+         <Link href="https://zoom.us/webinar/register/WN_tcRP7m0hS-iQlP4FAEPKUA" target="_blank"> 
+        <button >
+            Register Now
+        </button>
+        </Link>
+        </div>
+        </div>
+      
       </div>
     
     </div>

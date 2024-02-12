@@ -136,13 +136,13 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
         ThirdTyped="Live Interactive Classes"
         titleCourse="AI & ML Program for tech professionals"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf"
-        idss="qxwIns6z2Bc"
+        idss="KcQfbuwJBmU"
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ai-ml-main.webp"
         firstToparaImg="for Tech Professionals"
         firstHeading="Advanced AI & ML Certification Program "
         firstTopPara="Expand beyond technology"
         // thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ai-f-one.webp"
-        // videoId="qxwIns6z2Bc"
+        // videoId="KcQfbuwJBmU"
         radio={true}
         upSkillingHide={true}
         fullStack={true}

@@ -26,10 +26,7 @@
   justify-content: center; */
   height: 30px; /* Adjust the height as needed */
 }
-.gethirediv{
-  /* background-color: red; */
-  /* margin-top: -160px; */
-}
+
 
 .animationText {
   display: inline-block;
@@ -136,10 +133,13 @@
   margin: 10px 0px 10px 0px;
   text-align: left;
   line-height: 56px;
-  font-size: 52px;
+  font-size: 45px;
 }
 .FirstLeft {
   position: relative;
+}
+.eight{
+  margin:   -46px 0px 0px 0px  ;
 }
 
 .line {
@@ -354,7 +354,8 @@ margin: -80px 0px;
     display: none;
   }
   .Mobile {
-    display: block;
+    display: flex;
+    flex-direction: column-reverse;
     width: 100%;
     margin-top: 15px;
   }

@@ -140,9 +140,9 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         firstToparaImg="for Working Professionals"
         firstHeading="Businesss Analytics Master Certification Program"
         firstTopPara="Get real-world experience with capstone projects"
-        idss="CHut_wm-P2s"
+        idss="DPrMXHkPx0M"
          thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ba-f.webp"
-          videoId="CHut_wm-P2s"
+          videoId="DPrMXHkPx0M"
          
       />
          <MasterSecondSection data={seconddata} />

@@ -12,26 +12,23 @@ import VideoPopup from "@/components/Global/VideoPopup/VideoPopup";
 import PopupContent from "@/components/Global/PopupContent/PopupContent";
 import { FaYoutube } from "react-icons/fa";
 
-
 SwiperCore.use([Navigation]);
 
-const Slider = (idss) => {
+const Slider = () => {
   const [bigImageIndex, setBigImageIndex] = useState(0);
   const [profileIndex, setProfileIndex] = useState(0);
 
   const handleNextSlide = () => {
     if (bigImageIndex < sliderData.length - 1) {
       setBigImageIndex((prevIndex) => prevIndex + 1);
-      setProfileIndex((prevIndex) => (prevIndex + 1) % profileData.length);
+      setProfileIndex((prevIndex) => prevIndex + 1);
     }
   };
 
   const handlePrevSlide = () => {
     if (bigImageIndex > 0) {
       setBigImageIndex((prevIndex) => prevIndex - 1);
-      setProfileIndex(
-        (prevIndex) => (prevIndex - 0 + profileData.length) % profileData.length
-      );
+      setProfileIndex((prevIndex) => prevIndex - 1);
     }
   };
 
@@ -41,127 +38,68 @@ const Slider = (idss) => {
   };
 
   const handleSlideChange = (swiper) => {
-    setProfileIndex(swiper.activeIndex % profileData.length);
+    setProfileIndex(swiper.activeIndex);
+    setBigImageIndex(swiper.activeIndex);
   };
-
-  
 
   const profileData = [
     {
       id: 1,
       imageUrl:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/jaya-amazon-one.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/jaya_pro.webp",
     },
     {
       id: 2,
       imageUrl:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/shiubam-crn.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/shubam_pro.webp",
     },
     {
       id: 3,
       imageUrl:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/arvind_math.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/arvind_pro.webp",
     },
     {
       id: 4,
       imageUrl:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/preksha-hcl.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/preksha_pro.webp",
     },
-    // {
-    //   id: 5,
-    //   imageUrl:
-    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/real-stroy-profile-one.webp",
-    // },
-    // {
-    //   id: 6,
-    //   imageUrl:
-    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/real-stroy-profile-one.webp",
-    // },
-    // {
-    //   id: 7,
-    //   imageUrl:
-    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/real-stroy-profile-one.webp",
-    // },
-    // {
-    //   id: 8,
-    //   imageUrl:
-    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/real-stroy-profile-one.webp",
-    // },
-    // {
-    //   id: 9,
-    //   imageUrl:
-    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/real-stroy-profile-one.webp",
-    // },
-    // {
-    //   id: 10,
-    //   imageUrl:
-    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/real-stroy-profile-one.webp",
-    // },
-    // {
-    //   id: 11,
-    //   imageUrl:
-    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/real-stroy-profile-one.webp",
-    // },
-
-    // Add more profiles as needed
+    {
+      id: 5,
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/irsar_pro.webp",
+    },
+    {
+      id: 6,
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/laxmi_pro.webp",
+    },
   ];
 
   const [vId, setVId] = useState("");
+  const [video, setVideo] = useState(false);
 
   const videoShow = (id) => {
     setVideo(true);
     setVId(id);
   };
-  const [video, setVideo] = useState(false);
-  
-  
+
   return (
     <div className={styles["slider-container"]}>
-    <VideoPopup triggers={video} setTriggers={setVideo} ids={vId} />
+      <VideoPopup triggers={video} setTriggers={setVideo} ids={vId} />
       <div className={styles["big-image-container"]}>
         <div
           className={styles["big-image"]}
           style={{ transform: `translateX(-${bigImageIndex * 100}%)` }}
         >
-          {/* <div className={styles.leftcardmain}>
-            <div  className={styles.greenbox}>
-          <span className={styles.greenbox1}>150% Hike</span>
-          </div>
-          <div className={styles.leftcard}>
-            <Image src=" https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/real-story-one.webp" width={150} height={180} />
-            <div className={styles.insideryt}  >
-            
-              <h2 clas>Jaya sinha</h2>
-              <h4>Data Scientist</h4>
-              <p>
-                Transitioning from a non-tech role, LearnBay's IBM data science
-                certification equipped me with the skills needed in today's
-                market. The course's interactive sessions and personalized
-                guidance from Abhishek sir were invaluable.{" "}
-              </p>
-            </div>
-            
-       </div>
-       <div className={styles.ytbtn}>
-              <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/amazon.webp" width={60} height={50}/>
-             <div className={styles.ytbtn}>
-              <button>
-                <p></p><span><FaYoutube/></span>
-              </button>
-              </div>
-            </div>
-          </div> */}
           {sliderData.map((slide) => (
-                <img
-                  key={slide.id}
-                  src={slide.bigImage}
-                  alt={`Big Image ${slide.id}`}
-                  // onClick={() => videoSHow(popupShow)}
-                  onClick={() => videoShow(slide.link)}
-                  style={{ cursor: 'pointer' }}
-                />
-              ))}
+            <img
+              key={slide.id}
+              src={slide.bigImage}
+              alt={`Big Image ${slide.id}`}
+              onClick={() => videoShow(slide.link)}
+              style={{ cursor: "pointer" }}
+            />
+          ))}
         </div>
       </div>
       <div className={styles.rytside}>
@@ -176,9 +114,7 @@ const Slider = (idss) => {
                 nextEl: `.${styles.nextarrow}`,
                 prevEl: `.${styles.prevarrow}`,
               }}
-              onSlideChange={(swiper) => {
-                setProfileIndex(swiper.activeIndex % profileData.length);
-              }}
+            
             >
               {profileData.map((profile, index) => (
                 <SwiperSlide key={profile.id}>
@@ -194,7 +130,6 @@ const Slider = (idss) => {
                       height={100}
                       alt={profile.name}
                       className={styles["big-image"]}
-                      onClick={() => handleSlideChange(index)}
                     />
                   </div>
                 </SwiperSlide>
@@ -202,26 +137,28 @@ const Slider = (idss) => {
             </Swiper>
           </div>
         </div>
-        {/* <div className={styles.arrowButtons}>
+        <div className={styles.arrowButtons}>
           <div
             className={`${styles.prevarrow} ${
               profileIndex === 0 && styles.activeProfile
             }`}
+            onClick={handlePrevSlide}
           >
-            <p onClick={handlePrevSlide}>
+            <p>
               <GrLinkPrevious />
             </p>
           </div>
           <div
             className={`${styles.nextarrow} ${
-              profileIndex === profileData.length - 4 && styles.activeProfile
+              profileIndex === profileData.length - 1 && styles.activeProfile
             }`}
+            onClick={handleNextSlide}
           >
-            <p onClick={handleNextSlide}>
+            <p>
               <GrLinkNext />
             </p>
           </div>
-        </div> */}
+        </div>
         <div className={styles.downcontent}>
           <div className={styles.contenthead}>
             <h2>9K+</h2>

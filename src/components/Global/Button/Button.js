@@ -14,6 +14,7 @@ const Button = ({ text, passIcon, outline, invert, bannerButton, nobannerButton,
         greenButton ? "greenButton" :
         OrangeButton ? "OrangeButton" :
         blackButton ? "blackButton" : "button"
+    
       }
       style={invert ? { flexFlow: "row-reverse" } : { flexFlow: "row" }}
     >

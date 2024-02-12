@@ -18,12 +18,13 @@ import { FaClinicMedical } from "react-icons/fa";
 import { MdOutlinePrecisionManufacturing } from "react-icons/md";
 // import { BsFillPeopleFill } from "react-icons/bs";
 
-function WhyLearnbay({ idss, targetjobs, adsHide, Intern, FreshersIntern }) {
+function WhyLearnbay({ idss, targetjobs, adsHide, Intern, FreshersIntern, FoundNew }) {
   const [domainSpec, setDomainSpec] = useState(false);
   const [projectInno, setProjectInno] = useState(true);
   const [projectCert, setProjectCert] = useState(false);
   const [jobroles, setJobroles] = useState(false);
   const [Freshers, setFreshers] = useState(false);
+  const [Found, setFound] = useState(false);
 
   const [video, setVideo] = useState(false);
 
@@ -54,6 +55,7 @@ function WhyLearnbay({ idss, targetjobs, adsHide, Intern, FreshersIntern }) {
             onClick={() => {
               setJobroles(false);
               setFreshers(false);
+              setFound(false);
               setDomainSpec(false);
               setProjectInno(true);
               setProjectCert(false);
@@ -73,11 +75,19 @@ function WhyLearnbay({ idss, targetjobs, adsHide, Intern, FreshersIntern }) {
               setJobroles(false);
               setDomainSpec(false);
               setFreshers(false);
+              setFound(false);
               setProjectInno(false);
               setProjectCert(true);
             }}
             className={projectCert ? Styles.ActiveInnerBox : Styles.InnerBox}
           >
+            {FoundNew ? (<p className={projectCert ? Styles.ActiveCont : Styles.Cont}>
+                <FaUserShield
+                  className={projectCert ? Styles.Activeicon : Styles.icon}
+                />
+                Global Certification
+              </p>) : (
+            <>
             {Intern ? (
               <p className={projectCert ? Styles.ActiveCont : Styles.Cont}>
                 <FaUserShield
@@ -93,13 +103,35 @@ function WhyLearnbay({ idss, targetjobs, adsHide, Intern, FreshersIntern }) {
                 Project Certification
               </p>
             )}
+            </>
+            )}
           </div>
+          {FoundNew ? (<div
+              onClick={() => {
+                setJobroles(false);
+                setDomainSpec(false);
+                setProjectInno(false);
+                setFound(true);
+                setFreshers(false);
+                setProjectCert(false);
+              }}
+              className={Found ? Styles.ActiveInnerBox : Styles.InnerBox}
+            >
+              <p className={Found ? Styles.ActiveCont : Styles.Cont}>
+                <FaUserGraduate
+                  className={Found ? Styles.Activeicon : Styles.icon}
+                />
+                Target Job Roles
+              </p>
+            </div>) : (
+            <>
           {FreshersIntern ? (
             <div
               onClick={() => {
                 setJobroles(false);
                 setDomainSpec(false);
                 setProjectInno(false);
+                setFound(false);
                 setFreshers(true);
                 setProjectCert(false);
               }}
@@ -120,6 +152,7 @@ function WhyLearnbay({ idss, targetjobs, adsHide, Intern, FreshersIntern }) {
                     setJobroles(true);
                     setDomainSpec(false);
                     setProjectInno(false);
+                    setFound(false);
                     setFreshers(false);
                     setProjectCert(false);
                   }}
@@ -138,6 +171,7 @@ function WhyLearnbay({ idss, targetjobs, adsHide, Intern, FreshersIntern }) {
                     setJobroles(false);
                     setDomainSpec(true);
                     setFreshers(false);
+                    setFound(false);
                     setProjectInno(false);
                     setProjectCert(false);
                   }}
@@ -154,6 +188,8 @@ function WhyLearnbay({ idss, targetjobs, adsHide, Intern, FreshersIntern }) {
                 </div>
               )}
             </>
+          )}
+          </>
           )}
         </div>
 
@@ -250,10 +286,26 @@ function WhyLearnbay({ idss, targetjobs, adsHide, Intern, FreshersIntern }) {
           ""
         )}
 
+        {Found ? (
+          <div className={`${Styles.RightSideCert} imgWrapper`}>
+            <Image
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/founder-lab.webp"
+              loading="lazy"
+              width="350"
+              height="212"
+              alt="profile-Img"
+              onClick={() => videoSHow()}
+              style={{ boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px" }}
+            />
+          </div>
+        ) : (
+          ""
+        )}
+
         {Freshers ? (
           <div className={`${Styles.RightSideCert} imgWrapper`}>
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/frame_45.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/fresher-lab.webp"
               loading="lazy"
               width="350"
               height="212"
@@ -336,6 +388,16 @@ function WhyLearnbay({ idss, targetjobs, adsHide, Intern, FreshersIntern }) {
 
         {projectCert ? (
           <div className={`${Styles.RightSideCert} imgWrapper`}>
+            {FoundNew ? (<Image
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm-min.webp"
+                loading="lazy"
+                width="350"
+                height="212"
+                alt="profile-Img"
+                onClick={() => videoSHow()}
+                style={{ boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px" }}
+              />) : (
+            <>
             {Intern ? (
               <Image
                 src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Freshers-New.webp"
@@ -355,6 +417,8 @@ function WhyLearnbay({ idss, targetjobs, adsHide, Intern, FreshersIntern }) {
                 alt="profile-Img"
                 onClick={() => videoSHow()}
               />
+            )}
+            </>
             )}
           </div>
         ) : (
