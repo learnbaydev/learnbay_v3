@@ -5,8 +5,9 @@ const Button = dynamic(() => import("../../Global/Button/Button"));
 const Popup = dynamic(() => import("../../Global/Popup/Popup"));
 const Form = lazy(() => import("../../Global/Form/Form"));
 import styles from "./EightSection.module.css";
+import Link from "next/link";
 
-function EightSection(dataScienceCounselling) {
+function EightSection(dataScienceCounselling, DmdEight) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -49,13 +50,12 @@ function EightSection(dataScienceCounselling) {
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           <Suspense>
-          <Form
-            // interstedInHide={interstedInHide}
-            dataScienceCounselling={dataScienceCounselling}
-            upSkillingHide={true}
-          />
-                    </Suspense>
-
+            <Form
+              // interstedInHide={interstedInHide}
+              dataScienceCounselling={dataScienceCounselling}
+              upSkillingHide={true}
+            />
+          </Suspense>
         </div>
       </Popup>
       <div>
@@ -63,9 +63,20 @@ function EightSection(dataScienceCounselling) {
           Learn industry-relevant skills and build a rewarding career
         </p>
       </div>
-      <div onClick={popupShow} className={styles.btnInner}>
-        <Button className={styles.buttonDiv} text="1:1 Counselling Session" />
-      </div>
+      {DmdEight ? (
+        <div className={styles.btnInner}>
+          <Link
+            href="https://zoom.us/webinar/register/WN_tcRP7m0hS-iQlP4FAEPKUA"
+            target="_blank"
+          >
+            <Button className={styles.buttonDiv} text="Register Now" />
+          </Link>
+        </div>
+      ) : (
+        <div onClick={popupShow} className={styles.btnInner}>
+          <Button className={styles.buttonDiv} text="1:1 Counselling Session" />
+        </div>
+      )}
     </section>
   );
 }

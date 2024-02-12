@@ -2,6 +2,7 @@
   margin-top: 80px;
   padding: 0px 100px;
   margin-bottom: 40px;
+  margin-top: 0px;
 }
 .Course h2 {
   text-align: center;
@@ -198,7 +199,7 @@
 @media (max-width: 481px) {
   .Course {
     padding: 0 20px 50px;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 0px;
   }
   .Course h2 {

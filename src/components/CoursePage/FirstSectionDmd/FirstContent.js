@@ -33,7 +33,7 @@ const FirstContent = ({
       <div className={styles.First}>
         <div className={styles.FirstLeft}>
         <p className={styles.ptopCiity}>Don’t Just Upskill, <br />
-Become an Expert in your Domain with</p>
+Become an Expert in your Domain</p>
           <h1 className={styles.h1}>
           Data Science & AI Course with
             <span className={styles.h1Span}> Domain Specialization</span>
@@ -56,7 +56,7 @@ Become an Expert in your Domain with</p>
 
         <div className={styles.secondLeft}>
           <div className={`"bgVideo"`}>
-            <Image width="357" height="400" src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Dmd-header.webp" />
+            <Image width="400" height="400" src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Dmd-header.webp" />
           </div>
         </div>
 
@@ -73,7 +73,7 @@ Become an Expert in your Domain with</p>
               </div>
               <div className={styles.secondLeft}>
                 <div className={`"bgVideo"`}>
-                  <Image width="231" height="200" src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Dmd-header.webp" />
+                  <Image width="300" height="300" src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Dmd-header.webp" />
                 </div>
               </div>
             </div>{" "}

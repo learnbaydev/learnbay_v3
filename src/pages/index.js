@@ -105,6 +105,24 @@ export default function Home() {
       SDesc: "20th November",
       url: "https://www.business-standard.com/content/press-releases-ani/learnbay-collaborates-with-woolf-to-launch-master-s-degree-in-computer-science-data-science-specializations-123112000350_1.html",
     },
+    // {
+    //   id: 9,
+    //   domain:
+    //     "How healthcare professionals can transition to data science career        ",
+    //   CLogo:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/business-standard-logo.webp",
+    //   SDesc: "20th April",
+    //   url: "https://www.expresshealthcare.in/news/how-healthcare-professionals-can-transition-to-data-science-career/438946/",
+    // },
+    // {
+    //   id: 10,
+    //   domain:
+    //     "Krishna Kumar, Founder and CEO, Learnbay, Providing Comprehensive Data Science, AI,& ML Education With Career Advancement Support ",
+    //   CLogo:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/business-standard-logo.webp",
+    //   SDesc: "7th Feb",
+    //   url: "https://startuptalky.com/krishna-kumar-learnbay-edtech-industry-recap22/",
+    // },
   ];
   const [popupData, setPopupData] = useState([]);
   // console.log(popupData);

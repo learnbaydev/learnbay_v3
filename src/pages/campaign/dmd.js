@@ -30,13 +30,18 @@ function dmd({ DataScienceCourseDataJson }
         />
       </Head>
       <main>
-      <Navbar popup={true} dataScienceCounselling={true} adPage={true} />
+      <Navbar popup={true} dataScienceCounselling={true} adPage={true} DMD={true}   interstedInHide={true}/>
       <DmdPart
           CertificateData={
             DataScienceCourseData.DataScienceCourseData[0].Certificate
           }
           S3RightImage={true}
           adsHide={true}
+          projectSection={
+            DataScienceCourseData.DataScienceCourseData[0].projectSection
+          }
+   
+          EightSection={true}
         />
 
       </main>
