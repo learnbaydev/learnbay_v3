@@ -36,7 +36,6 @@ function FirstSection({
         setPopups={setPopups}
         heading="Apply For Counselling"
         downloadBrochure
-        dataScience={true}
         interstedInHide={interstedInHide}
         upSkillingHide={true}
         titleCourse={titleCourse}

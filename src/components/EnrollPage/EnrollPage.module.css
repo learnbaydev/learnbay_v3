@@ -1,0 +1,103 @@
+.MainDiv {
+  margin: 20px 130px 50px 130px;
+}
+
+.formSection {
+  display: grid;
+  grid-template-columns: 46% 50%;
+  gap: 50px;
+  align-items: center;
+  padding: 50px 0px 0px;
+}
+
+.formRight {
+  background: #f6f6f6;
+  margin: 0px 70px;
+  padding: 30px 60px;
+  border-radius: 20px;
+}
+
+.Text {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.divInput {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.Label {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.InputField {
+  border: 1px solid #000;
+  border-radius: 3px;
+  padding: 5px 10px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000c6;
+}
+
+.star {
+  color: rgba(255, 0, 0, 0.727);
+}
+
+.price {
+  color: #0072bc;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.button {
+  font-size: 18px;
+    padding: 8px 30px;
+    border-radius: 2.67px;
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: .7px;
+    border: 1px solid #0072bc;
+    background-color: #0072bc;
+    cursor: pointer;
+    outline: none;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 641px) {
+  .MainDiv {
+    margin: 20px;
+  }
+  .MainDiv img {
+    width: 180px;
+  }
+  .formSection {
+    display: block;
+    gap: 50px;
+    align-items: center;
+    padding: 20px 0px 0px;
+  }
+
+  .formLeft {
+    display: none;
+  }
+
+  .formRight {
+    margin: 0px;
+    padding: 30px;
+    border-radius: 10px;
+  }
+}
+
