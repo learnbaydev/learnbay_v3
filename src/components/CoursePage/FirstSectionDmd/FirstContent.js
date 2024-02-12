@@ -56,7 +56,7 @@ Become an Expert in your Domain</p>
 
         <div className={styles.secondLeft}>
           <div className={`"bgVideo"`}>
-            <Image width="400" height="400" src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Dmd-header.webp" />
+            <Image width="400" height="449" src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Dmd-header.webp" />
           </div>
         </div>
 
@@ -67,13 +67,13 @@ Become an Expert in your Domain</p>
                 <div onClick={popupShow}>
                   <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
                 </div>
-                <div onClick={popupShow}>
+                {/* <div onClick={popupShow}>
                   <Button whiteBgButton={true} text="ENQUIRE NOW" />
-                </div>
+                </div> */}
               </div>
               <div className={styles.secondLeft}>
                 <div className={`"bgVideo"`}>
-                  <Image width="300" height="300" src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Dmd-header.webp" />
+                  <Image width="300" height="337" src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Dmd-header.webp" />
                 </div>
               </div>
             </div>{" "}

@@ -10,6 +10,10 @@ const getEndPoint = (pathname, event) => {
     endPoint = "https://getform.io/f/a876146f-2c5d-4a1f-b177-f993db3d7aaf";
   }
 
+  if (pathname === "/campaign/dmd") {
+    endPoint = "https://getform.io/f/c803e186-7053-4f33-9f49-909cc11e32bc";
+  }
+
   if (pathname === "/referrals") {
     endPoint = "https://getform.io/f/a876146f-2c5d-4a1f-b177-f993db3d7aaf";
   }
@@ -48,6 +52,9 @@ const redirectionThankYou = (
   }
   if (pathname === "resume-builder") {
     routerPath = "Thank-you-counselling";
+  }
+  if (pathname === "/campaign/dmd") {
+    routerPath = "https://course.learnbay.co/Thank-you";
   }
   if (fullStack) {
     routerPath = "/Thank-you-fsd";

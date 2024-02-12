@@ -110,9 +110,9 @@ const DmdPart = ({
   return (
     <div>
       <FirstSection
-        dataScienceCounselling={true}
+        
         ThirdTyped="Live Interactive Classes"
-        dataScience={true}
+        
         titleCourse="Adavance Cloud Computing & DevOps Certification Program"
         cityParaCont="Elevate your career to a Cloud Solution Architect or DevOps Engineer"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
@@ -129,10 +129,10 @@ const DmdPart = ({
       <HomeLine />
       <Transpro />
       <div className={styles.Margin}>
-      <Course  dataScience={true }
-     
-        radio={true}
+      <Course  
+        // radio={true}
         organicADS={true}
+        interstedInHide={true}
         newDesign={true}
         dataScienceGeneric={true} />
         </div>
@@ -144,12 +144,9 @@ const DmdPart = ({
         organic={true}
         linkomb={false}
         popup={true}
-        dataScienceGeneric={true}
-        radio={true}
         HideDmd={true}
       />
       <NewProjectSection
-        dataScience={true}
         interstedInHide={true}
         titleCourse="Advanced Data Science and AI Program with domain specialization"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
@@ -181,7 +178,7 @@ const DmdPart = ({
       <div className={styles.eight}>
         <EightSection DmdEight={true} />
         </div>
-      <BottomBar />
+      {/* <BottomBar /> */}
     </div>
   );
 };
