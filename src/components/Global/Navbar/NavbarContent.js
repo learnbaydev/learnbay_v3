@@ -8,7 +8,7 @@ import { menuItem } from "./NavbarData";
 import Image from "next/image";
 import Link from "next/link";
 
-const NavbarContent = ({ adPage, setPopups }) => {
+const NavbarContent = ({ adPage, setPopups, DMD }) => {
   const [icon, setIcon] = useState(false);
   const [show, setShow] = useState(false);
 
@@ -121,31 +121,45 @@ const NavbarContent = ({ adPage, setPopups }) => {
           ""
         )}
       </div>
-      {adPage ? (<div
-        className={`${styles.righta} flexBox flexAlignCenter flexJustSpaceBetween`}
-      >
-        <div onClick={popupShow}>
-          <Button text="Apply Now" outline={true} />
+      {DMD ? (<div
+          className={`${styles.righta} flexBox flexAlignCenter flexJustSpaceBetween`}
+        >
+          <Link href="https://zoom.us/webinar/register/WN_tcRP7m0hS-iQlP4FAEPKUA" target="_blank">
+          <div >
+            <Button text="Register Now" outline={true} />
+          </div>
+          </Link>
+        </div>) : (
+      <>
+      {adPage ? (
+        <div
+          className={`${styles.righta} flexBox flexAlignCenter flexJustSpaceBetween`}
+        >
+          <div onClick={popupShow}>
+            <Button text="Apply Now" outline={true} />
+          </div>
         </div>
-      </div>) : (
-      <div
-        className={`${styles.right} flexBox flexAlignCenter flexJustSpaceBetween`}
-      >
-        {adPage
-          ? ""
-          : menuItem.map((data) => {
-              const { id, name, url } = data;
-              return (
-                <span key={id}>
-                  <Link href={url}>{name}</Link>
-                </span>
-              );
-            })}
+      ) : (
+        <div
+          className={`${styles.right} flexBox flexAlignCenter flexJustSpaceBetween`}
+        >
+          {adPage
+            ? ""
+            : menuItem.map((data) => {
+                const { id, name, url } = data;
+                return (
+                  <span key={id}>
+                    <Link href={url}>{name}</Link>
+                  </span>
+                );
+              })}
 
-        <div onClick={popupShow}>
-          <Button text="Apply Now" outline={true} />
+          <div onClick={popupShow}>
+            <Button text="Apply Now" outline={true} />
+          </div>
         </div>
-      </div>
+      )}
+      </>
       )}
     </nav>
   );

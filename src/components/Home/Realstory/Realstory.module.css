@@ -347,7 +347,7 @@
   }
 
   .downcontent {
-    margin: 20px 0px;
+    margin: 4px 0px;
     grid-template-columns: 49.5% 1% 49.5%;
   }
 
@@ -367,5 +367,8 @@
   }
   .big-image-container {
     width: 100%;
+  }
+  .arrowButtons{
+    display: none;
   }
 }

@@ -14,12 +14,13 @@ const Navbar = ({
   adPage,
   dataScienceGeneric,
   interstedInHide,
+  DMD,
 }) => {
   const [popups, setPopups] = useState(false);
 
   return (
     <div>
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+      <Popup trigger={popups} setTrigger={setPopups} className="popupModal" >
         <div className="leftPopup">
           <div className="whiteP" />
         </div>
@@ -44,7 +45,7 @@ const Navbar = ({
         </div>
       </Popup>
 
-      <NavbarContent adPage={adPage} setPopups={setPopups} />
+      <NavbarContent adPage={adPage} setPopups={setPopups} DMD={DMD} />
     </div>
   );
 };
