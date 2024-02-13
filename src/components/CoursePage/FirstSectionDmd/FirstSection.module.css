@@ -135,6 +135,9 @@
   line-height: 56px;
   font-size: 45px;
 }
+.footerdiv{
+  margin: 0px  0px 68px 0px;
+}
 .FirstLeft {
   position: relative;
 }

@@ -24,8 +24,9 @@ function FirstSection({
   S3RightImage,
   animationHide,
   topHide,
-
+Domain,
   upSkillingHide,
+  DomainInput,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -40,6 +41,7 @@ function FirstSection({
         upSkillingHide={true}
         titleCourse={titleCourse}
         brochureLink={brochureLink}
+        DomainInput={DomainInput}
       />
       <FirstContent
         dataScience={dataScience}
@@ -58,8 +60,10 @@ function FirstSection({
         S3RightImage={S3RightImage}
         animationHide={animationHide}
         interstedInHide={interstedInHide}
+        Domain={Domain}
         upSkillingHide={upSkillingHide}
         topHide={topHide}
+        DomainInput={DomainInput}
       />
     </>
   );

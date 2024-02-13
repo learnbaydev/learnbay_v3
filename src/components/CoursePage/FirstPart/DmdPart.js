@@ -125,6 +125,8 @@ const DmdPart = ({
       S3RightImage={S3RightImage}
       softwareBtnHide={true}
       interstedInHide={true}
+    
+  DomainInput={true}
       />
       <HomeLine />
       <Transpro />
@@ -132,9 +134,14 @@ const DmdPart = ({
       <Course  
         // radio={true}
         organicADS={true}
-        interstedInHide={true}
+        // interstedInHide={true}
         newDesign={true}
-        dataScienceGeneric={true} />
+        dataScienceGeneric={true} 
+        
+        DomainInput={true}
+      interstedInHide={true}
+
+        />
         </div>
       <Certificate data={CertificateData}    className={styles.coursegap}/>
      <Webinar/>
@@ -151,6 +158,8 @@ const DmdPart = ({
         titleCourse="Advanced Data Science and AI Program with domain specialization"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
         projectSection={projectSection}
+        DomainInput={true}
+        Domain={true}
       />
 
 <MentorsSection/>
@@ -162,7 +171,10 @@ const DmdPart = ({
        </div>
       </div>
       <Webinar/>
-
+      <div className={styles.eight}>
+        <EightSection DmdEight={true} />
+        </div>
+<div className={styles.footerdiv}>
       <Footer
         organicADSS={true}
         adPage={true}
@@ -175,9 +187,8 @@ const DmdPart = ({
         getappsOraginc={true}
         nolinklogo={true}
       />
-      <div className={styles.eight}>
-        <EightSection DmdEight={true} />
-        </div>
+      </div>
+     
       {/* <BottomBar /> */}
     </div>
   );
