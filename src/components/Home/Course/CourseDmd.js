@@ -23,6 +23,8 @@ const Course = ({
   organicADS,
   dataScienceGeneric,
   interstedInHide,
+  Domain,
+  DomainInput,
 }) => {
   const [courseArray, setCourseArray] = useState(courseDetails);
   const [mobile, setMobile] = useState(false);
@@ -116,6 +118,8 @@ const Course = ({
             downloadBrochure
             upSkillingHide={true}
             interstedInHide={interstedInHide}
+            Domain={Domain}
+            DomainInput={DomainInput}
           />
         </div>
       </Popup>

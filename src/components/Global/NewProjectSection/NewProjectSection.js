@@ -17,6 +17,8 @@ function NewProjectSection({
   titleCourse,
   brochureLink,
   interstedInHide,
+  Domain,
+  DomainInput,
 }) {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
@@ -53,6 +55,8 @@ function NewProjectSection({
               titleCourse={titleCourse}
               brochureLink={brochureLink}
               interstedInHide={interstedInHide}
+              Domain={Domain}
+              DomainInput={DomainInput}
             />
           </Suspense>
         </div>

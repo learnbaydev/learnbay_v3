@@ -28,11 +28,16 @@ const Form = ({
   dataScienceCounselling,
   dataScienceGeneric,
   interstedInHide,
+  Domain,
+  DomainInput,
 }) => {
   const router = useRouter();
 
   //offset to maintain time zone difference
   const [formFields, setFormFields] = useState(
+    getFormFields(radio, google, referrals,Domain, interstedInHide)
+  );
+  const [formField, setFormField] = useState(
     getFormFields(radio, google, referrals, interstedInHide)
   );
 
@@ -89,6 +94,7 @@ const Form = ({
     region: "", // Use the state value directly
     city: "", // Use the state value directly
     url: router.asPath,
+    Domain:"",
   });
 
   useEffect(() => {
@@ -152,8 +158,8 @@ const Form = ({
       // redirection
     );
     console.log(pushPath);
-    setError(getValidation(radio, interstedInHide, query));
-    const validation = getValidation(radio, interstedInHide, query);
+    setError(getValidation(radio, Domain, interstedInHide, query));
+    const validation = getValidation(radio, Domain, interstedInHide, query);
 
     const formData = new FormData();
     Object.entries(query).forEach(([key, value]) => {
@@ -216,60 +222,120 @@ const Form = ({
   return (
     <div className={styles.App}>
       <form onSubmit={formSubmit}>
-        {formFields.map(
-          (field) =>
-            field.showField && ( // Only render the field if showField is true
-              <div key={field.name} className={styles.formWrapper}>
-                <label htmlFor={field.name}>
-                  {field.label}
-                  {field.required && (
-                    <span className={styles.spanLabel}>*</span>
-                  )}
-                </label>
-                {field.type === "phone" ? (
-                  <PhoneInput
-                    inputStyle={field.inputStyle}
-                    containerStyle={field.containerStyle}
-                    name={field.name}
-                    inputProps={field.inputProps}
-                    country="in"
-                    placeholder={field.placeholder}
-                    value={value}
-                    onChange={(phone) => setValue(phone)}
-                    required={field.required}
-                  />
-                ) : field.type === "select" ? (
-                  <select
-                    name={field.name}
-                    required={field.required}
-                    value={query[field.name]}
-                    className=""
-                    onChange={handleParam(field.name)}
+      <>
+  {DomainInput ? (
+    formField.map(
+      (field) =>
+        field.showField && (
+          <div key={field.name} className={styles.formWrapper}>
+            <label htmlFor={field.name}>
+              {field.label}
+              {field.required && (
+                <span className={styles.spanLabel}>*</span>
+              )}
+            </label>
+            {field.type === "phone" ? (
+              <PhoneInput
+                inputStyle={field.inputStyle}
+                containerStyle={field.containerStyle}
+                name={field.name}
+                inputProps={field.inputProps}
+                country="in"
+                placeholder={field.placeholder}
+                value={value}
+                onChange={(phone) => setValue(phone)}
+                required={field.required}
+              />
+            ) : field.type === "select" ? (
+              <select
+                name={field.name}
+                required={field.required}
+                value={query[field.name]}
+                className=""
+                onChange={handleParam(field.name)}
+              >
+                {field.options.map((option) => (
+                  <option
+                    key={option.value}
+                    value={option.value}
+                    hidden={option.hidden}
                   >
-                    {field.options.map((option) => (
-                      <option
-                        key={option.value}
-                        value={option.value}
-                        hidden={option.hidden}
-                      >
-                        {option.label}
-                      </option>
-                    ))}
-                  </select>
-                ) : (
-                  <input
-                    type={field.type}
-                    name={field.name}
-                    className={styles.EmailInputs}
-                    required={field.required}
-                    placeholder={field.placeholder}
-                    value={query[field.name]}
-                    onChange={handleParam(field.name)}
-                  />
-                )}
-              </div>
-            )
-        )}
+                    {option.label}
+                  </option>
+                ))}
+              </select>
+            ) : (
+              <input
+                type={field.type}
+                name={field.name}
+                className={styles.EmailInputs}
+                required={field.required}
+                placeholder={field.placeholder}
+                value={query[field.name]}
+                onChange={handleParam(field.name)}
+              />
+            )}
+          </div>
+        )
+    )
+  ) : (
+    formFields.map(
+      (field) =>
+        field.showField && (
+          <div key={field.name} className={styles.formWrapper}>
+            <label htmlFor={field.name}>
+              {field.label}
+              {field.required && (
+                <span className={styles.spanLabel}>*</span>
+              )}
+            </label>
+            {field.type === "phone" ? (
+              <PhoneInput
+                inputStyle={field.inputStyle}
+                containerStyle={field.containerStyle}
+                name={field.name}
+                inputProps={field.inputProps}
+                country="in"
+                placeholder={field.placeholder}
+                value={value}
+                onChange={(phone) => setValue(phone)}
+                required={field.required}
+              />
+            ) : field.type === "select" ? (
+              <select
+                name={field.name}
+                required={field.required}
+                value={query[field.name]}
+                className=""
+                onChange={handleParam(field.name)}
+              >
+                {field.options.map((option) => (
+                  <option
+                    key={option.value}
+                    value={option.value}
+                    hidden={option.hidden}
+                  >
+                    {option.label}
+                  </option>
+                ))}
+              </select>
+            ) : (
+              <input
+                type={field.type}
+                name={field.name}
+                className={styles.EmailInputs}
+                required={field.required}
+                placeholder={field.placeholder}
+                value={query[field.name]}
+                onChange={handleParam(field.name)}
+              />
+            )}
+          </div>
+        )
+    )
+  )}
+</>
+
         <input name="country" value={query.country} type="hidden" />
         <input name="region" value={query.region} type="hidden" />
         <input name="city" value={query.city} type="hidden" />

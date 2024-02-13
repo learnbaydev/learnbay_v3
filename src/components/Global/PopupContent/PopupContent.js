@@ -17,6 +17,8 @@ const PopupContent = ({
   brochureLink,
   dataScienceGeneric,
   interstedInHide,
+  Domain,
+  DomainInput,
 }) => {
   return (
     <Popup
@@ -44,6 +46,8 @@ const PopupContent = ({
           dataScienceGeneric={dataScienceGeneric}
           upSkillingHide={upSkillingHide}
           interstedInHide={interstedInHide}
+          Domain={Domain}
+          DomainInput={DomainInput}
         />
       </div>
     </Popup>
