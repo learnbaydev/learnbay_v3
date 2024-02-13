@@ -40,6 +40,7 @@ function dmd({ DataScienceCourseDataJson }
           projectSection={
             DataScienceCourseData.DataScienceCourseData[0].projectSection
           }
+          
    
           EightSection={true}
         />

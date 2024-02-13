@@ -1,5 +1,5 @@
 .EightSection {
-    position: sticky;
+    position: fixed;
     bottom: 0;
     z-index: 999;
     background: #fff;
@@ -9,6 +9,7 @@
     box-shadow: -1px 0 10px 2px rgb(4 135 217 / 10%);
     align-items: center;
     margin-top: 50px;
+    width: 100%;
 }
 
 .EightSection .buttonDiv {
