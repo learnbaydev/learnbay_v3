@@ -1,39 +1,159 @@
 .MainDiv {
-  margin: 20px 130px 50px 130px;
+  padding-top: 10px;
 }
 
 .formSection {
   display: grid;
   grid-template-columns: 46% 50%;
   gap: 50px;
+  padding: 50px 270px 0px 200px;
+  height: 100vh;
+  background-image: linear-gradient(90deg, white 50%, #F1F1F1 50%);
+  margin-top: 10px;
+}
+
+.logoImage {
+  padding-left: 120px;
+}
+
+.divFlex {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  gap: 20px;
   align-items: center;
-  padding: 50px 0px 0px;
+}
+
+.NewDiv {
+  margin-top: 30px;
 }
 
 .formRight {
-  background: #f6f6f6;
-  margin: 0px 70px;
-  padding: 30px 60px;
-  border-radius: 20px;
+  margin: 0px 0px;
+  padding: 0px 40px;
+  height: fit-content;
+  background: #fff;
+  padding: 20px 30px 30px 30px;
+  margin-left: 50px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 .Text {
-  text-align: center;
-  font-size: 28px;
-  margin-bottom: 20px;
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #4C4C4C;
 }
 
 .divInput {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   gap: 5px;
   margin-bottom: 10px;
 }
 
+.cont {
+  text-align: center;
+  font-size: 12px;
+  margin: 30px 0px;
+}
+
+.CoursePrice p {
+  margin: 0;
+}
+
+.CoursePrice {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+
+
+.radioMargin {
+  margin-right: 10px;
+}
+
+.PriceName {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.radioButtons {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.courseName {
+  color: #4C4C4C;
+  font-weight: 600;
+  display: grid;
+    grid-template-columns: 7% 93%;
+    align-items: center;
+}
+
+.CouponButton {
+  position: absolute;
+  top: 50%; /* Start halfway down */
+  transform: translateY(-50%); /* Center vertically */
+  right: 0rem;
+  font-size: 12px;
+  color: #0072BC;
+  background: none;
+  border: none;
+  padding: 0px 10px;
+  border-left: 1px solid #DBDBDB;
+  height: 97%;
+  font-weight: 600;
+}
+
+.formGroup {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.formControl {
+  font-size: 14px;
+  padding: 15px 10px;
+  border: 1px solid #000;
+  border-radius: .25rem;
+  width: 100%;
+
+}
+
+.icon {
+  color: #fff;
+  background: #F99600;
+  padding: 2px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.formLabel {
+  position: absolute;
+  top: 50%; /* Start halfway down */
+  transform: translateY(-50%); /* Center vertically */
+  left: 1rem;
+  pointer-events: none;
+  transition: top 0.2s ease, font-size 0.2s ease;
+  font-size: 12px;
+  color: #6c757d;
+}
+
+.focused {
+  top: -0.1rem;
+  font-size: 0.75rem;
+  background: #fff;
+  padding: 0px 5px;
+}
+
 .Label {
   color: #000;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .InputField {
@@ -45,22 +165,26 @@
   color: #000000c6;
 }
 
-.star {
+.error {
   color: rgba(255, 0, 0, 0.727);
+  margin: 0;
+}
+
+.hr {
+  margin: 20px 0px 10px 0px;
 }
 
 .price {
-  color: #0072bc;
-  font-size: 20px;
-  font-weight: 600;
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .button {
-  font-size: 18px;
-    padding: 8px 30px;
-    border-radius: 2.67px;
+  font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 5.67px;
     color: #fff;
-    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     letter-spacing: .7px;
@@ -68,12 +192,14 @@
     background-color: #0072bc;
     cursor: pointer;
     outline: none;
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: center;
     margin: auto;
     margin-top: 20px;
 }
+
+
 
 
 @media (max-width: 641px) {
@@ -88,10 +214,6 @@
     gap: 50px;
     align-items: center;
     padding: 20px 0px 0px;
-  }
-
-  .formLeft {
-    display: none;
   }
 
   .formRight {
