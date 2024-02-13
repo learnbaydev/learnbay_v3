@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import styles from "./EnrollPage.module.css";
+import { FaReact } from "react-icons/fa";
 
 const products = [
   { name: "Data Science and AI Master Certification Program", price: 129000 },
@@ -32,7 +33,22 @@ const coupons = {
   "40OFF": 0.4,
 };
 
-function EnrollPage() {
+function EnrollPage({ label, ...rest }) {
+  const [focused, setFocused] = useState(false);
+
+  const handleFocus = (labelId) => {
+    const label = document.getElementById(labelId);
+    if (label) {
+      label.classList.add(styles.focused);
+    }
+  };
+
+  const handleBlur = (labelId, value) => {
+    const label = document.getElementById(labelId);
+    if (!value && label) {
+      label.classList.remove(styles.focused);
+    }
+  };
   const [mobile, setMobile] = useState(false);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -40,6 +56,8 @@ function EnrollPage() {
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [selectedCoupon, setSelectedCoupon] = useState("");
   const [totalPrice, setTotalPrice] = useState(0);
+  const [couponApplied, setCouponApplied] = useState(false);
+  const [couponValid, setCouponValid] = useState(true);
 
   useEffect(() => {
     let width = window.innerWidth;
@@ -53,33 +71,25 @@ function EnrollPage() {
   };
 
   const handleCouponChange = (e) => {
-    const enteredCoupon = e.target.value.toUpperCase();
-    setSelectedCoupon(enteredCoupon);
-    if (coupons.hasOwnProperty(enteredCoupon) && selectedProduct) {
-      const discount = coupons[enteredCoupon];
+    const newCoupon = e.target.value.toUpperCase();
+    setSelectedCoupon(newCoupon);
+    setCouponApplied(false);
+    setCouponValid(true);
+  };
+
+  const handleCouponApply = () => {
+    if (coupons.hasOwnProperty(selectedCoupon) && selectedProduct) {
+      const discount = coupons[selectedCoupon];
       setTotalPrice(selectedProduct.price * (1 - discount) * 1.18);
+      setCouponApplied(true);
+      setCouponValid(true);
+    } else {
+      setCouponApplied(false);
+      setCouponValid(false);
+      setTotalPrice(selectedProduct.price * 1.18);
     }
   };
 
-  const handlePayment = async () => {
-    const requestOptions = {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ totalPrice }),
-    };
-
-    try {
-      const response = await fetch("/api/razorpay", requestOptions);
-      if (!response.ok) {
-        throw new Error("Failed to create Razorpay order");
-      }
-      const data = await response.json();
-      window.location.href = data.checkout_url;
-    } catch (error) {
-      console.error("Error processing payment:", error);
-      alert("Error processing payment. Please try again.");
-    }
-  };
   const makePayment = async () => {
     try {
       const res = await initializeRazorpay();
@@ -109,13 +119,11 @@ function EnrollPage() {
         amount: data.amount,
         order_id: data.id,
         description: "Thank you for your purchase",
-        image: "https://example.com/your_logo.png", // Update with your logo URL
+        image: "https://example.com/your_logo.png",
         handler: function (response) {
-          // Handle successful payment
           alert(
             "Payment successful! Payment ID: " + response.razorpay_payment_id
           );
-          // Redirect to Razorpay dashboard
           window.location.href = "/enroll";
         },
       };
@@ -158,101 +166,222 @@ function EnrollPage() {
       </div>
       <div className={styles.formSection}>
         <div className={styles.formLeft}>
-          <div className="imgWrapper">
-            <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbay-main.webp"
-              width="580"
-              height="450"
-              priority
-              quality={40}
-              alt="data science course"
-            />
+          <h4 className={styles.Text}>Checkout</h4>
+          <form>
+            <div className={styles.divFlex}>
+              <div className={styles.formGroup}>
+                <input
+                  {...rest}
+                  className={styles.formControl}
+                  onFocus={() => handleFocus("fullNameLabel")}
+                  onBlur={() => handleBlur("fullNameLabel", name)}
+                  type="text"
+                  value={name}
+                  required={true}
+                  onChange={(e) => setName(e.target.value)}
+                />
+                <label
+                  id="fullNameLabel"
+                  className={`${styles.formLabel} ${
+                    focused ? styles.focused : ""
+                  }`}
+                >
+                  Full Name *
+                </label>
+              </div>
+              <div className={styles.formGroup}>
+                <input
+                  {...rest}
+                  className={styles.formControl}
+                  onFocus={() => handleFocus("EmailId")}
+                  onBlur={() => handleBlur("EmailId", email)}
+                  value={email}
+                  type="email"
+                  onChange={(e) => setEmail(e.target.value)}
+                  required={true}
+                />
+                <label
+                  id="EmailId"
+                  className={`${styles.formLabel} ${
+                    focused ? styles.focused : ""
+                  }`}
+                >
+                  Email id *
+                </label>
+              </div>
+            </div>
+            <div className={styles.divFlex}>
+              <div className={styles.formGroup}>
+                <input
+                  {...rest}
+                  className={styles.formControl}
+                  onFocus={() => handleFocus("PhonId")}
+                  onBlur={() => handleBlur("PhonId", phone)}
+                  value={phone}
+                  type="tel"
+                  required={true}
+                  onChange={(e) => setPhone(e.target.value)}
+                />
+                <label
+                  id="PhonId"
+                  className={`${styles.formLabel} ${
+                    focused ? styles.focused : ""
+                  }`}
+                >
+                  Phone *
+                </label>
+              </div>
+
+              <div className={styles.formGroup}>
+                <select
+                  {...rest}
+                  className={styles.formControl}
+                  onFocus={() => handleFocus("productsId")}
+                  onBlur={() => handleBlur("productsId", products)}
+                  onChange={handleProductChange}
+                  style={{ color: "#0072BC" }}
+                  required={true}
+                >
+                  <option></option>
+                  {products.map((product, index) => (
+                    <option key={index} value={index}>
+                      {product.name}
+                    </option>
+                  ))}
+                </select>
+                <label
+                  id="productsId"
+                  className={`${styles.formLabel} ${
+                    focused ? styles.focused : ""
+                  }`}
+                >
+                  Select Product *
+                </label>
+              </div>
+            </div>
+            <div className={styles.divFlex}>
+              <div className={styles.formGroup}>
+                <input
+                  {...rest}
+                  className={styles.formControl}
+                  onFocus={() => handleFocus("CouponId")}
+                  onBlur={() => handleBlur("CouponId", selectedCoupon)}
+                  type="text"
+                  value={selectedCoupon}
+                  onChange={handleCouponChange}
+                />
+                <label
+                  id="CouponId"
+                  className={`${styles.formLabel} ${
+                    focused ? styles.focused : ""
+                  }`}
+                >
+                  Coupon Code
+                </label>
+                <button
+                  type="button"
+                  className={styles.CouponButton}
+                  onClick={handleCouponApply}
+                >
+                  {couponApplied ? "APPLIED" : "APPLY"}{" "}
+                </button>
+              </div>
+              <div className={styles.formGroup}>
+                {" "}
+                {!couponValid && (
+                  <p className={styles.error}>Invalid coupon code</p>
+                )}
+              </div>
+            </div>
+          </form>
+          <div className={styles.NewDiv}>
+            <h4 className={styles.Text}>Course Selected</h4>
+            {selectedProduct && (
+              <div className={styles.CoursePrice}>
+                <p className={styles.courseName}>
+                  <FaReact className={styles.icon} />
+                  {selectedProduct.name}
+                </p>
+                <p className={styles.PriceName}>
+                  {"₹" + selectedProduct.price.toFixed(2)}
+                </p>
+              </div>
+            )}
+            <div className={styles.radioButtons}>
+              <label>
+                <input
+                  type="radio"
+                  name="paymentType"
+                  value="full"
+                  className={styles.radioMargin}
+                />
+                Pay via Credit Card/ Debit Card/ Net Banking
+              </label>
+              <label>
+                <input
+                  type="radio"
+                  name="paymentType"
+                  value="installments"
+                  className={styles.radioMargin}
+                />
+                No cost finance with minimum documents
+              </label>
+            </div>
           </div>
         </div>
         <div className={styles.formRight}>
-          <h4 className={styles.Text}>Enroll Now</h4>
+          <h4 className={styles.Text}>Summary</h4>
           <form>
-            <div className={styles.divInput}>
-              <label className={styles.Label}>
-                Name<span className={styles.star}> *</span>
-              </label>
-              <input
-                type="text"
-                className={styles.InputField}
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-              />
-            </div>
-            <div className={styles.divInput}>
-              <label className={styles.Label}>
-                Email<span className={styles.star}> *</span>
-              </label>
-              <input
-                type="email"
-                value={email}
-                className={styles.InputField}
-                onChange={(e) => setEmail(e.target.value)}
-              />
-            </div>
-            <div className={styles.divInput}>
-              <label className={styles.Label}>
-                Phone<span className={styles.star}> *</span>
-              </label>
-              <input
-                type="tel"
-                value={phone}
-                className={styles.InputField}
-                onChange={(e) => setPhone(e.target.value)}
-              />
-            </div>
-            <div className={styles.divInput}>
-              <label className={styles.Label}>
-                Select Product<span className={styles.star}> *</span>
-              </label>
-              <select
-                onChange={handleProductChange}
-                className={styles.InputField}
-              >
-                <option>Select Product</option>
-                {products.map((product, index) => (
-                  <option key={index} value={index}>
-                    {product.name}
-                  </option>
-                ))}
-              </select>
-            </div>
             {selectedProduct && (
               <div className={styles.divInput}>
-                <label className={styles.Label}>
-                  Price (Including 18% GST)
-                  <span className={styles.star}> *</span>
-                </label>
+                <label className={styles.Label}>Course Fee:</label>
                 <span className={styles.price}>
-                  {"₹" + (selectedProduct.price * 1.18).toFixed(2)}
+                  {"₹" + selectedProduct.price.toFixed(2)}
                 </span>
               </div>
             )}
+
+            {selectedProduct && (
+              <div className={styles.divInput}>
+                <label className={styles.Label}>GST (18%):</label>
+                <span className={styles.price}>
+                  {"₹" + (selectedProduct.price * 0.18).toFixed(2)}
+                </span>
+              </div>
+            )}
+            {selectedProduct && couponApplied && (
+              <div className={styles.divInput}>
+                <label className={styles.Label}>Discount Amount:</label>
+                <span className={styles.price}>
+                  {"₹" +
+                    (
+                      selectedProduct.price *
+                      coupons[selectedCoupon] *
+                      1.18
+                    ).toFixed(2)}{" "}
+                </span>
+              </div>
+            )}
+
+            <hr className={styles.hr}></hr>
             <div className={styles.divInput}>
-              <label className={styles.Label}>Coupon Code</label>
-              <input
-                type="text"
-                className={styles.InputField}
-                value={selectedCoupon}
-                onChange={handleCouponChange}
-              />
-            </div>
-            <div className={styles.divInput}>
-              <label className={styles.Label}>Total Price</label>
+              <label className={styles.Label}>
+                <b>Total:</b>
+              </label>
               <span className={styles.price}>
-                {"₹" + totalPrice.toFixed(2)}
+                <b>{"₹" + totalPrice.toFixed(2)}</b>
               </span>
             </div>
+            <p className={styles.cont}>
+              By completing your purchases you agree to these{" "}
+              <b>Terms of Services</b>
+            </p>
             <button
               type="button"
               onClick={makePayment}
               className={styles.button}
             >
-              Pay Now
+              Complete Checkout
             </button>
           </form>
         </div>
