@@ -62,7 +62,7 @@ export const TabData = [
         url: "/datascience/data-analytics-certification-course",
       },
       {
-        CName: "Data Science Foundation Frogram",
+        CName: "Data Science Foundation Program",
         hours: "4 Months",
         url: "/datascience/data-science-certification-courses",
       },
