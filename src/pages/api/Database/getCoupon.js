@@ -8,13 +8,13 @@ export default async function handler(req, res) {
   switch (req.method) {
     case "POST":
       let { couponCode } = req.body;
-      console.log(req.body, "request api");
+      console.log(couponCode, "request api");
       const couponName = await db.collection("coupon").findOne({
-        couponCode: couponCode,
+        couponCode: "couponCode",
       });
       console.log(couponName, "counpin anem api");
       if (!couponName) {
-        res.status(404).json({ msg: "Coupon is not valid" });
+        res.status(404).json({ msg: " Coupon is not valid" });
       } else {
         res.status(200).json({ couponName, msg: "coupon Applied" });
       }
@@ -32,9 +32,11 @@ export default async function handler(req, res) {
       } else {
         res.status(200).json({ couponNameData, msg: "coupon deleted" });
       }
+
       break;
     case "GET":
       res.status(502).json({ msg: "go back" });
+
       break;
   }
 }
