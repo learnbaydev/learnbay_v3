@@ -1,7 +1,8 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import styles from "./EnrollPage.module.css";
 import { FaReact } from "react-icons/fa";
+import styles from "./EnrollPage.module.css";
+import EnrollPopup from "./EnrollPagePopup";
 
 const products = [
   { name: "Data Science and AI Master Certification Program", price: 129000 },
@@ -58,6 +59,20 @@ function EnrollPage({ label, ...rest }) {
   const [totalPrice, setTotalPrice] = useState(0);
   const [couponApplied, setCouponApplied] = useState(false);
   const [couponValid, setCouponValid] = useState(true);
+  const [showPopup, setShowPopup] = useState(false);
+  const [paymentType, setPaymentType] = useState("full");
+  const [isInstallmentSelected, setIsInstallmentSelected] = useState(false);
+  const [discount, setDiscount] = useState(0);
+  const [discountMsg, setDiscountMsg] = useState("");
+
+  const openPopup = () => {
+    setShowPopup(true);
+  };
+
+  // Function to close the popup
+  const closePopup = () => {
+    setShowPopup(false);
+  };
 
   useEffect(() => {
     let width = window.innerWidth;
@@ -77,20 +92,71 @@ function EnrollPage({ label, ...rest }) {
     setCouponValid(true);
   };
 
-  const handleCouponApply = () => {
-    if (coupons.hasOwnProperty(selectedCoupon) && selectedProduct) {
-      const discount = coupons[selectedCoupon];
-      setTotalPrice(selectedProduct.price * (1 - discount) * 1.18);
-      setCouponApplied(true);
-      setCouponValid(true);
+  const handleCouponApply = async () => {
+    if (selectedCoupon != "") {
+      try {
+        const response = await fetch("/api/Database/getCoupon", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            couponCode: selectedCoupon,
+          }),
+        });
+        if (response.status === 200) {
+          const { couponName, msg } = await response.json();
+          setDiscount(parseInt(couponName.discountPercent));
+          setDiscountMsg(msg);
+          console.log(parseInt(couponName.discountPercent));
+        } else if (response.status === 404) {
+          setDiscountMsg("Coupon Not Valid");
+        }
+      } catch (err) {
+        console.error(
+          "You have an error in your code or there are network issues.",
+          err
+        );
+      }
+    }
+    // if (coupons.hasOwnProperty(selectedCoupon) && selectedProduct) {
+    //   const discount = coupons[selectedCoupon];
+    //   setTotalPrice(selectedProduct.price * (1 - discount) * 1.18);
+    //   setCouponApplied(true);
+    //   setCouponValid(true);
+    // } else {
+    //   setCouponApplied(false);
+    //   setCouponValid(false);
+    //   setTotalPrice(selectedProduct.price * 1.18);
+    // }
+  };
+
+  const handleCouponCancel = () => {
+    let totalPriceWithoutDiscount = selectedProduct
+      ? selectedProduct.price * 1.18
+      : 0;
+
+    setTotalPrice(totalPriceWithoutDiscount);
+    setSelectedCoupon(""); // Reset selected coupon
+    setCouponApplied(false); // Reset coupon applied flag
+    setCouponValid(true); // Reset coupon validity
+  };
+
+  const handlePaymentTypeChange = (event) => {
+    setPaymentType(event.target.value);
+  };
+
+  const handleRadioChange = (e) => {
+    if (e.target.value === "installments") {
+      setShowPopup(true);
     } else {
-      setCouponApplied(false);
-      setCouponValid(false);
-      setTotalPrice(selectedProduct.price * 1.18);
+      setShowPopup(false);
     }
   };
 
   const makePayment = async () => {
+    if (paymentType === "installments") {
+      setShowPopup(true); // Show the popup for no-cost finance
+      return; // Exit the function
+    }
     try {
       const res = await initializeRazorpay();
       if (!res) {
@@ -153,6 +219,7 @@ function EnrollPage({ label, ...rest }) {
 
   return (
     <section className={styles.MainDiv}>
+      {showPopup && <EnrollPopup onClose={closePopup} />}
       <div className={styles.logoImage}>
         <Image
           src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
@@ -281,9 +348,11 @@ function EnrollPage({ label, ...rest }) {
                 <button
                   type="button"
                   className={styles.CouponButton}
-                  onClick={handleCouponApply}
+                  onClick={
+                    couponApplied ? handleCouponCancel : handleCouponApply
+                  }
                 >
-                  {couponApplied ? "APPLIED" : "APPLY"}{" "}
+                  {couponApplied ? "CANCEL" : "APPLY"}
                 </button>
               </div>
               <div className={styles.formGroup}>
@@ -313,6 +382,7 @@ function EnrollPage({ label, ...rest }) {
                   type="radio"
                   name="paymentType"
                   value="full"
+                  onChange={handlePaymentTypeChange}
                   className={styles.radioMargin}
                 />
                 Pay via Credit Card/ Debit Card/ Net Banking
@@ -322,6 +392,7 @@ function EnrollPage({ label, ...rest }) {
                   type="radio"
                   name="paymentType"
                   value="installments"
+                  onChange={() => setIsInstallmentSelected(true)}
                   className={styles.radioMargin}
                 />
                 No cost finance with minimum documents
@@ -378,7 +449,13 @@ function EnrollPage({ label, ...rest }) {
             </p>
             <button
               type="button"
-              onClick={makePayment}
+              onClick={() => {
+                if (isInstallmentSelected) {
+                  setShowPopup(true);
+                } else {
+                  makePayment();
+                }
+              }}
               className={styles.button}
             >
               Complete Checkout
