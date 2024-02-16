@@ -435,31 +435,33 @@ function EnrollPage({ label, ...rest }) {
             )}
 
             <hr className={styles.hr}></hr>
-            <div className={styles.divInput}>
-              <label className={styles.Label}>
-                <b>Total:</b>
-              </label>
-              <span className={styles.price}>
-                <b>{"₹" + totalPrice.toFixed(2)}</b>
-              </span>
+            <div className={styles.boxShadowMobile}>
+              <div className={styles.divInput}>
+                <label className={styles.Label}>
+                  <b>Total:</b>
+                </label>
+                <span className={styles.price}>
+                  <b>{"₹" + totalPrice.toFixed(2)}</b>
+                </span>
+              </div>
+              <p className={styles.cont}>
+                By completing your purchases you agree to these{" "}
+                <b>Terms of Services</b>
+              </p>
+              <button
+                type="button"
+                onClick={() => {
+                  if (isInstallmentSelected) {
+                    setShowPopup(true);
+                  } else {
+                    makePayment();
+                  }
+                }}
+                className={styles.button}
+              >
+                Complete Checkout
+              </button>
             </div>
-            <p className={styles.cont}>
-              By completing your purchases you agree to these{" "}
-              <b>Terms of Services</b>
-            </p>
-            <button
-              type="button"
-              onClick={() => {
-                if (isInstallmentSelected) {
-                  setShowPopup(true);
-                } else {
-                  makePayment();
-                }
-              }}
-              className={styles.button}
-            >
-              Complete Checkout
-            </button>
           </form>
         </div>
       </div>

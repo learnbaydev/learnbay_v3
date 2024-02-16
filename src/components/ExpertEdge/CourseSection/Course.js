@@ -1,26 +1,19 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import { TbListDetails } from "react-icons/tb";
-import SwiperCore, { Scrollbar } from 'swiper/core';
+import { Scrollbar } from "swiper/core";
 import { Swiper, SwiperSlide } from "swiper/react";
 import styles from "./Course.module.css";
 
-import { FaDownload } from "react-icons/fa";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/scrollbar";
-import Form from "./../../Global/Form/Form";
 import Popup from "../../Global/Popup/Popup";
+import Form from "./../../Global/Form/Form";
 import { courseDetails } from "./courseDetails";
 
-import { BsCheckLg,} from "react-icons/bs";
-import { BiTimeFive } from "react-icons/bi";
+import { BsCheckLg } from "react-icons/bs";
 import { FaReact } from "react-icons/fa";
-import { IoPersonOutline, IoNewspaperOutline } from "react-icons/io5";
-
-
-
-
+import { IoNewspaperOutline, IoPersonOutline } from "react-icons/io5";
 
 const Course = ({
   dataScience,
@@ -99,7 +92,7 @@ const Course = ({
           ></div>
         </div>
         <div className="RightPopup">
-          <h5>Download Brochure</h5>
+          <h5>Download Syllabus</h5>
           <Form
             titleCourse={titleCourse}
             brochureLink={brochureLinks}
@@ -128,18 +121,24 @@ const Course = ({
                 }
               >
                 {CourseData.title === "Technical Courses" ? (
-                  <FaReact style={{ color: "grey", marginRight: "5px", size:"40px" }} />
+                  <FaReact
+                    style={{ color: "grey", marginRight: "5px", size: "40px" }}
+                  />
                 ) : (
                   ""
                 )}
                 {CourseData.title === "Non-Tech Courses" ? (
-                  <IoPersonOutline style={{ color: "grey", marginRight: "5px" }} />
+                  <IoPersonOutline
+                    style={{ color: "grey", marginRight: "5px" }}
+                  />
                 ) : (
                   ""
                 )}
 
                 {CourseData.title === "Resume Building" ? (
-                  <IoNewspaperOutline style={{ color: "grey", marginRight: "5px" }} />
+                  <IoNewspaperOutline
+                    style={{ color: "grey", marginRight: "5px" }}
+                  />
                 ) : (
                   ""
                 )}
@@ -166,7 +165,7 @@ const Course = ({
                           spaceBetween={mobile ? 10 : 30}
                           scrollbar={{ draggable: true }}
                           // grabCursor={true}
-                          modules={[ Scrollbar]}
+                          modules={[Scrollbar]}
                           className="mySwiper"
                         >
                           {courseDetail.courseDetails.map(
@@ -344,7 +343,6 @@ const Course = ({
                                         <hr className={styles.hr} />
                                         <div className={styles.paraDiv}>
                                           <p className={styles.singleP}>
-                                           
                                             {/* <IoTimeOutline
                                           className={styles.timeIcon}
                                         />{" "} */}
@@ -361,7 +359,7 @@ const Course = ({
                                             {/* <TbCurrencyRupee
                                           className={styles.checkCircle}
                                         /> */}
-                                           
+
                                             {description[1]}
                                           </p>
                                           {description.length >= 3 ? (
@@ -396,7 +394,7 @@ const Course = ({
                                               borderRadius: "0px 0px 0px 20px",
                                             }}
                                           >
-                                            Brochure
+                                            Syllabus
                                             <FaDownload
                                               className="bIcon"
                                               style={{ color: "#2979AD" }}

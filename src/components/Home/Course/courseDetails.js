@@ -19,7 +19,7 @@ export const courseDetails = [
             titleCourse: "HR Analytics Certification Program",
             para: [
               "5 months | 2 capstone projects",
-              "Global Certification form IBM",
+              "Global Certification from IBM",
               "Guaranteed Interview Calls",
             ],
             link1: "/datascience/hr-analytics",
@@ -78,7 +78,7 @@ export const courseDetails = [
             titleCourse: "Marketing Analytics Certification Program",
             para: [
               "5 months | 2 capstone projects",
-              "Global Certification form IBM",
+              "Global Certification from IBM",
               "3 Years Flexible Subscription",
             ],
             link1: "/datascience/marketing-analytics",
@@ -122,7 +122,7 @@ export const courseDetails = [
             titleCourse: "Data Science and AI Master Certification Program",
             para: [
               "13 months | 4 capstone projects",
-              "Global Certification form IBM",
+              "Global Certification from IBM",
               "1-on-1 Live Doubt Session",
             ],
             link1:
@@ -362,7 +362,7 @@ export const courseDetails = [
             titleCourse: "Data Science and AI Master Certification Program",
             para: [
               "13 months | 4 capstone projects",
-              "Global Certification form IBM",
+              "Global Certification from IBM",
               "1-on-1 Live Doubt Session",
             ],
             link1:
@@ -529,7 +529,7 @@ export const courseDetails = [
             titleCourse: "Data Science and AI Master Certification Program",
             para: [
               "13 months | 4 capstone projects",
-              "Global Certification form IBM",
+              "Global Certification from IBM",
               "1-on-1 Live Doubt Session",
             ],
             link1:
@@ -796,7 +796,7 @@ export const courseDetails = [
             titleCourse: "Data Science and AI Master Certification Program",
             para: [
               "13 months | 4 capstone projects",
-              "Global Certification form IBM",
+              "Global Certification from IBM",
               "1-on-1 Live Doubt Session",
             ],
             link1:
@@ -1082,7 +1082,7 @@ export const courseDetails = [
             titleCourse: "Data Science and AI Master Certification Program",
             para: [
               "13 months | 4 capstone projects",
-              "Global Certification form IBM",
+              "Global Certification from IBM",
               "1-on-1 Live Doubt Session",
             ],
             link1:
@@ -1303,7 +1303,7 @@ export const courseDetails = [
             titleCourse: "Data Science and AI Master Certification Program",
             para: [
               "13 months | 4 capstone projects",
-              "Global Certification form IBM",
+              "Global Certification from IBM",
               "1-on-1 Live Doubt Session",
             ],
             link1:
@@ -1384,7 +1384,7 @@ export const courseDetails = [
             titleCourse: "HR Analytics Certification Program",
             para: [
               "5 months | 2 capstone projects",
-              "Global Certification form IBM",
+              "Global Certification from IBM",
               "Guaranteed Interview Calls",
             ],
             link1: "/datascience/hr-analytics",
@@ -1449,7 +1449,7 @@ export const courseDetails = [
             titleCourse: "Data Science and AI Master Certification Program",
             para: [
               "13 months | 4 capstone projects",
-              "Global Certification form IBM",
+              "Global Certification from IBM",
               "1-on-1 Live Doubt Session",
             ],
             link1:
@@ -1672,7 +1672,7 @@ export const courseDetailsM = [
             titleCourse: "Data Science and AI Master Certification Program",
             para: [
               "13 months | 4 capstone projects",
-              "Global Certification form IBM",
+              "Global Certification from IBM",
               "1-on-1 Live Doubt Session",
             ],
             link1:
@@ -1880,7 +1880,7 @@ export const courseDetailsM = [
             titleCourse: "HR Analytics Certification Program",
             para: [
               "5 months | 2 capstone projects",
-              "Global Certification form IBM",
+              "Global Certification from IBM",
               "Guaranteed Interview Calls",
             ],
             link1: "/datascience/hr-analytics",
@@ -1900,7 +1900,7 @@ export const courseDetailsM = [
             titleCourse: "Marketing Analytics Certification Program",
             para: [
               "5 months | 2 capstone projects",
-              "Global Certification form IBM",
+              "Global Certification from IBM",
               "3 Years Flexible Subscription",
             ],
             link1: "/datascience/marketing-analytics",
@@ -2044,7 +2044,7 @@ export const courseDetailsM = [
             titleCourse: "Data Science and AI Master Certification Program",
             para: [
               "13 months | 4 capstone projects",
-              "Global Certification form IBM",
+              "Global Certification from IBM",
               "1-on-1 Live Doubt Session",
             ],
             link1:
@@ -2232,7 +2232,7 @@ export const courseDetailsM = [
             titleCourse: "HR Analytics Certification Program",
             para: [
               "5 months | 2 capstone projects",
-              "Global Certification form IBM",
+              "Global Certification from IBM",
               "Guaranteed Interview Calls",
             ],
             link1: "/datascience/hr-analytics",
@@ -2252,7 +2252,7 @@ export const courseDetailsM = [
             titleCourse: "Marketing Analytics Certification Program",
             para: [
               "5 months | 2 capstone projects",
-              "Global Certification form IBM",
+              "Global Certification from IBM",
               "3 Years Flexible Subscription",
             ],
             link1: "/datascience/marketing-analytics",
@@ -2261,7 +2261,7 @@ export const courseDetailsM = [
           },
         ],
       },
-     
+
       {
         courseName: "Master's Degree",
         id: "Master's Degree",
@@ -2396,7 +2396,7 @@ export const courseDetailsM = [
             titleCourse: "Data Science and AI Master Certification Program",
             para: [
               "13 months | 4 capstone projects",
-              "Global Certification form IBM",
+              "Global Certification from IBM",
               "1-on-1 Live Doubt Session",
             ],
             link1:
@@ -2477,7 +2477,7 @@ export const courseDetailsM = [
             titleCourse: "HR Analytics Certification Program",
             para: [
               "5 months | 2 capstone projects",
-              "Global Certification form IBM",
+              "Global Certification from IBM",
               "Guaranteed Interview Calls",
             ],
             link1: "/datascience/hr-analytics",

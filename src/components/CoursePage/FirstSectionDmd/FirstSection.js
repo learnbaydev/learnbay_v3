@@ -35,7 +35,7 @@ Domain,
       <PopupContent
         popups={popups}
         setPopups={setPopups}
-        heading="Apply For Counselling"
+        heading="Download Syllabus"
         downloadBrochure
         interstedInHide={interstedInHide}
         upSkillingHide={true}

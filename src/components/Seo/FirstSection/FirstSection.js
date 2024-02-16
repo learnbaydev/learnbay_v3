@@ -1,7 +1,7 @@
-import React, { useState, useRef, lazy, Suspense } from "react";
-const Form = lazy(() => import("../../Global/Form/Form"));
-import styles from "./FirstSection.module.css";
+import React, { Suspense, lazy, useRef, useState } from "react";
 import { FaPlay } from "react-icons/fa";
+import styles from "./FirstSection.module.css";
+const Form = lazy(() => import("../../Global/Form/Form"));
 // import Form from "../../Form/Form";
 import Image from "next/image";
 // import Typed from "typed.js";
@@ -71,7 +71,7 @@ function FirstSection({
             ></div>
           </div>
           <div className="RightPopup">
-            <h5>Download Brochure</h5>
+            <h5>Download Syllabus</h5>
             <Suspense>
               <Form
                 dataScience={dataScience}
@@ -80,7 +80,7 @@ function FirstSection({
                 upSkillingHide={true}
                 titleCourse={titleCourse}
                 brochureLink={brochureLink}
-                interstedInHide={  interstedInHide}
+                interstedInHide={interstedInHide}
               />
             </Suspense>
           </div>
@@ -135,7 +135,7 @@ function FirstSection({
           {/* Button */}
           <div className={styles.btnImage}>
             <div onClick={popupShow}>
-              <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
+              <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
             </div>
             {softwareBtnHide ? (
               ""
@@ -188,7 +188,7 @@ function FirstSection({
       </div>
       <div className={styles.btnImageMobile}>
         <div onClick={popupShow}>
-          <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
+          <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
         </div>
         {softwareBtnHide ? (
           ""

@@ -9,7 +9,7 @@ function Webinar() {
       <div className={styles.webmain}>
         <h2><span className={styles.greentext}>REGISTER </span>FOR WEBINAR</h2>
         <Image
-          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/webinarNew.webp"
+          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/webinar_desktop.webp"
           width={1200}
           height={390}
           loading="lazy"
@@ -29,7 +29,7 @@ function Webinar() {
         <h2><span className={styles.greentext}>REGISTER </span>WEBINAR</h2>
         <div className="">
         <Image
-          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/webinar_mbl.webp"
+          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/webinar_mobile.webp"
           width={350}
           height={350}
           loading="lazy"

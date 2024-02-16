@@ -342,7 +342,7 @@ function DataAnalytics({
               </ul>
 
               <div onClick={popupShow} className={styles.buttonDiv}>
-                <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
+                <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
               </div>
             </>
           ) : (
@@ -587,7 +587,7 @@ function DataAnalytics({
               </ul>
 
               <div onClick={popupShow} className={styles.buttonDiv}>
-                <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
+                <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
               </div>
             </>
           ) : (
@@ -1043,7 +1043,7 @@ function DataAnalytics({
                 </ul>
               </p>
               <div onClick={popupShow} className={styles.buttonDiv}>
-                <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
+                <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
               </div>
             </>
           ) : (
@@ -1389,7 +1389,7 @@ function DataAnalytics({
               </ul>
 
               <div onClick={popupShow} className={styles.buttonDiv}>
-                <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
+                <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
               </div>
             </>
           ) : (
@@ -1768,7 +1768,7 @@ function DataAnalytics({
               </p>
 
               <div onClick={popupShow} className={styles.buttonDiv}>
-                <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
+                <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
               </div>
             </>
           ) : (
@@ -2140,7 +2140,7 @@ function DataAnalytics({
               </p>
 
               <div onClick={popupShow} className={styles.buttonDiv}>
-                <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
+                <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
               </div>
             </>
           ) : (
@@ -2349,7 +2349,7 @@ function DataAnalytics({
               </ul>
 
               <div onClick={popupShow} className={styles.buttonDiv}>
-                <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
+                <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
               </div>
             </>
           ) : (
@@ -2652,7 +2652,7 @@ function DataAnalytics({
               </p>
 
               <div onClick={popupShow} className={styles.buttonDiv}>
-                <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
+                <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
               </div>
             </>
           ) : (
@@ -2918,7 +2918,7 @@ function DataAnalytics({
               </p>
 
               <div onClick={popupShow} className={styles.buttonDiv}>
-                <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
+                <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
               </div>
             </>
           ) : (
@@ -3170,7 +3170,7 @@ function DataAnalytics({
               </p>
              
               <div onClick={popupShow} className={styles.buttonDiv}>
-                <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
+                <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
               </div>
             </>
           ) : (
