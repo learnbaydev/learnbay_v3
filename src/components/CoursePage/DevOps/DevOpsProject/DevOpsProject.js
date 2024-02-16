@@ -1,19 +1,20 @@
-import React from "react";
 import dynamic from "next/dynamic";
 import Image from "next/image";
-import SwiperCore, { Navigation, Pagination, A11y } from "swiper";
-import { Suspense, lazy, useEffect, useState } from "react";
+import { Suspense, lazy, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Styles from "./DevOpsProject.module.css"
+import Styles from "./DevOpsProject.module.css";
 const Button = dynamic(() => import("../../../Global/Button/Button"));
 const Popup = dynamic(() => import("../../../Global/Popup/Popup"));
 const Form = lazy(() => import("../../../Global/Form/Form"));
 
-const DevOpsProject = ({ titleCourse,
-  brochureLink, dataScience,   interstedInHide, adsHide, }) => {
-
+const DevOpsProject = ({
+  titleCourse,
+  brochureLink,
+  dataScience,
+  interstedInHide,
+  adsHide,
+}) => {
   const projectImg = [
-    
     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/c3.webp",
     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/c4.webp",
     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/c5.webp",
@@ -28,7 +29,7 @@ const DevOpsProject = ({ titleCourse,
   };
   return (
     <section className={Styles.container}>
-        <Popup
+      <Popup
         trigger={popups}
         setTrigger={setPopups}
         className="popupModal"
@@ -41,7 +42,7 @@ const DevOpsProject = ({ titleCourse,
           ></div>
         </div>
         <div className="RightPopup">
-          <h5>Download Brochure</h5>
+          <h5>Download Syllabus</h5>
           <Suspense>
             <Form
               dataScience={dataScience}
@@ -55,12 +56,9 @@ const DevOpsProject = ({ titleCourse,
         </div>
       </Popup>
       <h4>Industry Projects</h4>
-      <p>
-      Work on live capstone projects{" "}
-      </p>
+      <p>Work on live capstone projects </p>
       <div>
         <Swiper
-
           pagination={{ clickable: true }}
           spaceBetween={30}
           slidesPerView={1} // This will show 4 cards on desktop
@@ -69,7 +67,6 @@ const DevOpsProject = ({ titleCourse,
               slidesPerView: 4,
               spaceBetween: 80,
             },
-
 
             1280: {
               slidesPerView: 3.3,
@@ -87,7 +84,6 @@ const DevOpsProject = ({ titleCourse,
               slidesPerView: 1,
               spaceBetween: 30,
             },
-          
           }}
         >
           {projectImg.map((mentor, index) => (
@@ -99,23 +95,23 @@ const DevOpsProject = ({ titleCourse,
                     width={350}
                     height={400}
                     alt="mentor"
-                   
                     loading="lazy"
                   />
                 </div>
-
               </div>
             </SwiperSlide>
           ))}
         </Swiper>
       </div>
-      {adsHide ? "" : (
-      <div onClick={popupShow} className={Styles.buttonDiv}>
-        <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
-      </div>
+      {adsHide ? (
+        ""
+      ) : (
+        <div onClick={popupShow} className={Styles.buttonDiv}>
+          <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
+        </div>
       )}
     </section>
-  )
-}
+  );
+};
 
-export default DevOpsProject
+export default DevOpsProject;

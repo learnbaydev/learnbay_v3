@@ -1,9 +1,7 @@
-import React from "react";
-import styles from "./CitiesRight.module.css";
 import { BsClock } from "react-icons/bs";
 import { FiCheck } from "react-icons/fi";
 import Button from "../../Global/Button/Button";
-import YoutubeVideo from "../../Global/VideoPopup/VideoPopup";
+import styles from "./CitiesRight.module.css";
 
 const CitiesRight = ({
   ProgramHead1,
@@ -684,8 +682,6 @@ const CitiesRight = ({
             <p className={styles.pp}>{ProgramBot16}</p>
           </div>
         )}
-
-      
       </div>
       <div id="Certification">
         <div className={styles.CitiesRightSpan}>
@@ -875,7 +871,7 @@ const CitiesRight = ({
         </div>
         <div className={styles.Button}>
           <a href={syllabussrc} target="_blank">
-            <Button className={styles.btn} text="View Detailed Brochure" />
+            <Button className={styles.btn} text="View Detailed Syllabus" />
           </a>
         </div>
       </div>

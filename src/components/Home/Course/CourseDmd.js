@@ -1,20 +1,19 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import { MdChecklist } from "react-icons/md";
 import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 // import styles from "./Course.module.css";
 import dynamic from "next/dynamic";
+import { BiTimeFive } from "react-icons/bi";
+import { BsCheckLg } from "react-icons/bs";
 import { FaDownload } from "react-icons/fa";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
+import styles from "./CourseDmd.module.css";
+import { courseDetails, courseDetailsM } from "./courseDetailsDmd";
 const Popup = dynamic(() => import("@/components/Global/Popup/Popup"));
 const Form = dynamic(() => import("@/components/Global/Form/Form"));
-import { courseDetails, courseDetailsM } from "./courseDetailsDmd";
-import { BsCheckLg, BsFire } from "react-icons/bs";
-import { BiTimeFive } from "react-icons/bi";
-import styles from "./CourseDmd.module.css"
 
 const Course = ({
   dataScience,
@@ -107,7 +106,7 @@ const Course = ({
           ></div>
         </div>
         <div className="RightPopup">
-          <h5>Download Brochure</h5>
+          <h5>Download Syllabus</h5>
           <Form
             titleCourse={titleCourse}
             brochureLink={brochureLinks}
@@ -134,10 +133,12 @@ const Course = ({
                 {courses.map((courseDetail, index) => {
                   return (
                     <div key={index} className={styles.divBox}>
-                      <div className={styles.viewAll} style={{display: "block", textAlign: "center"}}>
-                        <h5 className={styles.h5font} >
+                      <div
+                        className={styles.viewAll}
+                        style={{ display: "block", textAlign: "center" }}
+                      >
+                        <h5 className={styles.h5font}>
                           {courseDetail.courseName}
-                          
                         </h5>
                         {/* <h5 className={styles.textView}>View All</h5> */}
                       </div>
@@ -319,7 +320,7 @@ const Course = ({
                                                 background: "#282828",
                                               }}
                                             >
-                                              Brochure
+                                              Syllabus
                                               <FaDownload
                                                 className="bIcon"
                                                 style={{ color: "#fff" }}

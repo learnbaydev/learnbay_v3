@@ -46,7 +46,7 @@ function NewProjectSection({
           ></div>
         </div>
         <div className="RightPopup">
-          <h5>Download Brochure</h5>
+          <h5>Download Syllabus</h5>
           <Suspense>
             <Form
               dataScience={dataScience}
@@ -150,7 +150,7 @@ function NewProjectSection({
         </Swiper>
       </div>
       <div onClick={popupShow} className={Styles.buttonDiv}>
-        <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
+        <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
       </div>
     </section>
   );

@@ -238,7 +238,7 @@ export const DSPuneCourseData = [
           name: "Is there any accredited data science certification after course completion?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes, you will be awarded IBM accredited Data Scientist Certificate on successful course completion. But Based on the course you choose you can get Multiple certification options too. Foundational Data Science and AI Training course- 1 Course Completion Certificate. Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates. Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates. Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.",
+            text: "Yes, you will be awarded IBM accredited Data Scientist Certificate on successful course completion. But Based on the course you choose you can get Multiple certification options too. Foundational Data Science and AI Training course- 1 Course Completion Certificate. Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates. Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates. Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate *All the certificates accredited by IBM. For more details, please refer to the respective course syllabus.",
           },
         },
         {
@@ -708,7 +708,7 @@ export const DSPuneCourseData = [
             Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
             Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
             Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate
-            *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
+            *All the certificates accredited by IBM. For more details, please refer to the respective course syllabus.`,
             open: true,
           },
         ],

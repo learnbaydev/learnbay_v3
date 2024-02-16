@@ -1,8 +1,6 @@
-import React from "react";
-import styles from "./FirstHeader.module.css";
 import Head from "next/head";
 import Navbar from "../../../Global/Navbar/Navbar";
-import { PopupButton } from "@typeform/embed-react";
+import styles from "./FirstHeader.module.css";
 
 const FirstHeader = ({ donwnload, brochureLink }) => {
   return (
@@ -43,7 +41,7 @@ const FirstHeader = ({ donwnload, brochureLink }) => {
           </PopupButton> */}
           {donwnload ? (
             <a href={brochureLink}>
-              <button className={styles.btnDownload}>Download Brochure</button>
+              <button className={styles.btnDownload}>Download Syllabus</button>
             </a>
           ) : (
             ""

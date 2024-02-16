@@ -266,12 +266,12 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
       options: [
         { value: "Select Domain", label: "Select Domain", hidden: true },
         {
-          value: "Banking and Finanace(BFSI) and IT",
-          label: "Banking and Finanace(BFSI) and IT",
+          value: "Banking and Finance (BFSI) and IT",
+          label: "Banking and Finance (BFSI) and IT",
         },
         {
-          value: "Supplychain, Retail and ecommerce ",
-          label: "Supplychain, Retail and ecommerce ",
+          value: "Supplychain, Retail and Ecommerce",
+          label: "Supplychain, Retail and Ecommerce",
         },
         {
           value: "Healthcare and Pharma",
@@ -282,12 +282,12 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
           label: "Manufacturing and Automotive",
         },
         {
-          value: "Human Resource(HR)",
-          label: "Human Resource(HR)",
+          value: "Human Resource (HR)",
+          label: "Human Resource (HR)",
         },
         {
-          value: "Marketing and Sales)",
-          label: "Marketing and Sales)",
+          value: "Marketing and Sales",
+          label: "Marketing and Sales",
         },
         {
           value: "Others",

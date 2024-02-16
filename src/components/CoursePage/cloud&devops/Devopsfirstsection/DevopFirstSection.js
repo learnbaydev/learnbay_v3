@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import VideoPopup from "@/components/Global/VideoPopup/VideoPopup";
 import PopupContent from "@/components/Global/PopupContent/PopupContent";
+import VideoPopup from "@/components/Global/VideoPopup/VideoPopup";
+import React, { useState } from "react";
 import FirstContent from "./DevopFirstContent";
 
 function FirstSection({
@@ -26,7 +26,7 @@ function FirstSection({
       <PopupContent
         popups={popups}
         setPopups={setPopups}
-        heading="Download Brochure"
+        heading="Download Syllabus"
         downloadBrochure
         dataScience={true}
         interstedInHide={interstedInHide}

@@ -197,7 +197,7 @@ export const DSDelhiCourseData = [
           name: "Is there any accredited data science certification after course completion?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes, you will be awarded IBM accredited Data Scientist Certificate on successful course completion. But Based on the course you choose you can get Multiple certification options too. Foundational Data Science and AI Training course- 1 Course Completion Certificate. Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates. Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates. Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.",
+            text: "Yes, you will be awarded IBM accredited Data Scientist Certificate on successful course completion. But Based on the course you choose you can get Multiple certification options too. Foundational Data Science and AI Training course- 1 Course Completion Certificate. Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates. Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates. Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate *All the certificates accredited by IBM. For more details, please refer to the respective course syllabus.",
           },
         },
         {
@@ -717,7 +717,7 @@ export const DSDelhiCourseData = [
               Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
               Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
               Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate
-              *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
+              *All the certificates accredited by IBM. For more details, please refer to the respective course syllabus.`,
             open: true,
           },
         ],
@@ -827,9 +827,9 @@ export const DSDelhiCourseData = [
     Domainlink5:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf",
     CertificationBot1:
-      "You may take advantage of live lessons with different instructors through Learnbay's IBM Data Scientist Course without dealing with any difficulties. Aside from that, you'll get IBM certifications for several data sciences and AI micro-skills. As a result, it's essentially a data science course with a Job Assistance. You will receive 1 to 8 certifications depending on the course you choose. The best thing is that you will receive an IBM Project Experience Certificate once you finish the capstone project related to Delhi's Data Science and AI course. For additional information about micro-skill certificates, please see the course brochures.",
+      "You may take advantage of live lessons with different instructors through Learnbay's IBM Data Scientist Course without dealing with any difficulties. Aside from that, you'll get IBM certifications for several data sciences and AI micro-skills. As a result, it's essentially a data science course with a Job Assistance. You will receive 1 to 8 certifications depending on the course you choose. The best thing is that you will receive an IBM Project Experience Certificate once you finish the capstone project related to Delhi's Data Science and AI course. For additional information about micro-skill certificates, please see the course syllabus.",
     CertificationBot2:
-      "For more details about the certification, you can read our brochures",
+      "For more details about the certification, you can read our syllabus",
     src33:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",

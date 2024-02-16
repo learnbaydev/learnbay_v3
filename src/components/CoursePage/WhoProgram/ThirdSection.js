@@ -34,7 +34,7 @@ const ThirdSection = ({
           ></div>
         </div>
         <div className="RightPopup">
-          <h5>Download Brochure</h5>
+          <h5>Download Syllabus</h5>
           <Form
             dataScience={dataScience}
             dataScienceCounselling={dataScienceCounselling}
@@ -79,7 +79,7 @@ const ThirdSection = ({
                     }}
                   >
                     <Button
-                      text="Brochure"
+                      text="Syllabus"
                       passIcon={<FaDownload className="bIconS" />}
                     />
                   </div>

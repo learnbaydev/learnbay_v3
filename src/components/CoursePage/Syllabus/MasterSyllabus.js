@@ -36,7 +36,7 @@ function SyllabusNew({
           upSkillingHide={true}
           popups={popups}
           setPopups={setPopups}
-          heading="Download Brochure"
+          heading="Download Syllabus"
         />
 
         <div className={styles.project}>
@@ -59,12 +59,14 @@ function SyllabusNew({
                   <FaRegUser className={styles.iconUser} /> 7,568 people filled
                 </div>
               </div>
-              {MastersContent ? ( <h4>
-                Interested in <span>Master’s Degree?</span>
-              </h4>) : (
-              <h4>
-                Free Consultation with<span> Expert</span>
-              </h4>
+              {MastersContent ? (
+                <h4>
+                  Interested in <span>Master’s Degree?</span>
+                </h4>
+              ) : (
+                <h4>
+                  Free Consultation with<span> Expert</span>
+                </h4>
               )}
               <Form
                 dataScienceCounselling={dataScienceCounselling}
@@ -95,7 +97,7 @@ function SyllabusNew({
           <div onClick={popupShow}>
             <Button
               nobannerButton={true}
-              text="DOWNLOAD BROCHURE"
+              text="DOWNLOAD SYLLABUS"
               // passIcon={<FaDownload style={{ marginLeft: "10px" }} />}
             />
           </div>
