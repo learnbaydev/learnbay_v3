@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from "react";
-import styles from "./Navbar.module.css";
 import dynamic from "next/dynamic";
-import { FaChevronDown, FaChevronUp, FaBars } from "react-icons/fa";
-const Button = dynamic(() => import("../Button/Button"));
-const Tabs = dynamic(() => import("../Tabs/Tabs"));
-import { menuItem } from "./NavbarData";
 import Image from "next/image";
 import Link from "next/link";
+import React, { useEffect, useState } from "react";
+import { FaBars, FaChevronDown, FaChevronUp } from "react-icons/fa";
+import styles from "./Navbar.module.css";
+import { menuItem } from "./NavbarData";
+const Button = dynamic(() => import("../Button/Button"));
+const Tabs = dynamic(() => import("../Tabs/Tabs"));
 
 const NavbarContent = ({ adPage, setPopups, DMD }) => {
   const [icon, setIcon] = useState(false);
@@ -121,45 +121,50 @@ const NavbarContent = ({ adPage, setPopups, DMD }) => {
           ""
         )}
       </div>
-      {DMD ? (<div
-          className={`${styles.righta} flexBox flexAlignCenter flexJustSpaceBetween`}
-        >
-          <Link href="https://zoom.us/webinar/register/WN_tcRP7m0hS-iQlP4FAEPKUA" target="_blank">
-          <div >
-            <Button text="Register Now" outline={true} />
-          </div>
-          </Link>
-        </div>) : (
-      <>
-      {adPage ? (
+      {DMD ? (
         <div
           className={`${styles.righta} flexBox flexAlignCenter flexJustSpaceBetween`}
         >
-          <div onClick={popupShow}>
-            <Button text="Apply Now" outline={true} />
-          </div>
+          <Link
+            href="https://zoom.us/webinar/register/WN_OXUJK-K6SoWhu-ncQGLtrw"
+            target="_blank"
+          >
+            <div>
+              <Button text="Register Now" outline={true} />
+            </div>
+          </Link>
         </div>
       ) : (
-        <div
-          className={`${styles.right} flexBox flexAlignCenter flexJustSpaceBetween`}
-        >
-          {adPage
-            ? ""
-            : menuItem.map((data) => {
-                const { id, name, url } = data;
-                return (
-                  <span key={id}>
-                    <Link href={url}>{name}</Link>
-                  </span>
-                );
-              })}
+        <>
+          {adPage ? (
+            <div
+              className={`${styles.righta} flexBox flexAlignCenter flexJustSpaceBetween`}
+            >
+              <div onClick={popupShow}>
+                <Button text="Apply Now" outline={true} />
+              </div>
+            </div>
+          ) : (
+            <div
+              className={`${styles.right} flexBox flexAlignCenter flexJustSpaceBetween`}
+            >
+              {adPage
+                ? ""
+                : menuItem.map((data) => {
+                    const { id, name, url } = data;
+                    return (
+                      <span key={id}>
+                        <Link href={url}>{name}</Link>
+                      </span>
+                    );
+                  })}
 
-          <div onClick={popupShow}>
-            <Button text="Apply Now" outline={true} />
-          </div>
-        </div>
-      )}
-      </>
+              <div onClick={popupShow}>
+                <Button text="Apply Now" outline={true} />
+              </div>
+            </div>
+          )}
+        </>
       )}
     </nav>
   );

@@ -83,7 +83,7 @@ const SliderTabs = () => {
 
               <div className={styles.right}>
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course.learnbay.co/NImages/BFSI+v.png"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/DomainSlider/BFSI-min.webp"
                   width="350"
                   height="350"
                 />
@@ -130,7 +130,7 @@ const SliderTabs = () => {
               </div>
               <div className={styles.right}>
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/gobal-industry.webp"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/DomainSlider/Sales-min.webp"
                   width="296"
                   height="345"
                 />
@@ -179,7 +179,7 @@ const SliderTabs = () => {
               </div>
               <div className={styles.right} style={{ paddingBottom: "40px" }}>
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Healthcare-domain.webp"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/DomainSlider/Health-min.webp"
                   width="351"
                   height="332"
                 />
@@ -231,7 +231,7 @@ const SliderTabs = () => {
               </div>
               <div className={styles.right}>
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course.learnbay.co/NImages/retail+%26+E-commerce.png"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/DomainSlider/Retail-min.webp"
                   width="314"
                   height="360"
                   layout="intrinsic"
@@ -280,7 +280,7 @@ const SliderTabs = () => {
               </div>
               <div className={styles.right}>
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Mediacal-domain.webp"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/DomainSlider/Media-min.webp"
                   width="296"
                   height="361"
                   layout="intrinsic"
@@ -332,7 +332,7 @@ const SliderTabs = () => {
               </div>
               <div className={styles.right}>
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Manufacturing-domain-slider.webp"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/DomainSlider/manufacturing-min.webp"
                   width="271"
                   height="353"
                 />
@@ -382,7 +382,7 @@ const SliderTabs = () => {
               </div>
               <div className={styles.right}>
                 <img
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course.learnbay.co/NImages/oil+%26+Gas+eng.png"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/DomainSlider/energy-min.webp"
                   width="568"
                   height="412"
                   layout="intrinsic"
@@ -417,9 +417,9 @@ const SliderTabs = () => {
 
               <div className={styles.right}>
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course.learnbay.co/NImages/BFSI+v.png"
-                  width="350"
-                  height="350"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/DomainSlider/BFSI-min.webp"
+                  width="450"
+                  height="450"
                 />
               </div>
             </div>
@@ -448,9 +448,9 @@ const SliderTabs = () => {
               </div>
               <div className={styles.right}>
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/gobal-industry.webp"
-                  width="296"
-                  height="345"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/DomainSlider/Sales-min.webp"
+                  width="450"
+                  height="450"
                 />
               </div>
             </div>
@@ -480,9 +480,9 @@ const SliderTabs = () => {
               </div>
               <div className={styles.right}>
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Mediacal-domain.webp"
-                  width="296"
-                  height="361"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/DomainSlider/Media-min.webp"
+                  width="450"
+                  height="450"
                   layout="intrinsic"
                 />
               </div>
@@ -514,9 +514,9 @@ const SliderTabs = () => {
               </div>
               <div className={styles.right} style={{ paddingBottom: "40px" }}>
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Healthcare-domain.webp"
-                  width="351"
-                  height="332"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/DomainSlider/Health-min.webp"
+                  width="450"
+                  height="450"
                 />
               </div>
             </div>
@@ -549,9 +549,9 @@ const SliderTabs = () => {
               </div>
               <div className={styles.right}>
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Manufacturing-domain-slider.webp"
-                  width="271"
-                  height="353"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/DomainSlider/manufacturing-min.webp"
+                  width="450"
+                  height="450"
                 />
               </div>
             </div>
@@ -583,9 +583,9 @@ const SliderTabs = () => {
               </div>
               <div className={styles.right}>
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course.learnbay.co/NImages/retail+%26+E-commerce.png"
-                  width="314"
-                  height="360"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/DomainSlider/Retail-min.webp"
+                  width="450"
+                  height="450"
                   layout="intrinsic"
                 />
               </div>
@@ -618,9 +618,9 @@ const SliderTabs = () => {
               </div>
               <div className={styles.right}>
                 <img
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/course.learnbay.co/NImages/oil+%26+Gas+eng.png"
-                  width="568"
-                  height="412"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/DomainSlider/energy-min.webp"
+                  width="450"
+                  height="450"
                   layout="intrinsic"
                 />
               </div>
