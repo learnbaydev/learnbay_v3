@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
-import { Suspense, lazy } from "react";
+import Link from "next/link";
+import { Suspense, lazy, useEffect, useState } from "react";
+import styles from "./EightSection.module.css";
 const Button = dynamic(() => import("../../Global/Button/Button"));
 const Popup = dynamic(() => import("../../Global/Popup/Popup"));
 const Form = lazy(() => import("../../Global/Form/Form"));
-import styles from "./EightSection.module.css";
-import Link from "next/link";
 
 function EightSection(dataScienceCounselling, DmdEight) {
   const [popups, setPopups] = useState(false);
@@ -66,7 +65,7 @@ function EightSection(dataScienceCounselling, DmdEight) {
       {DmdEight ? (
         <div className={styles.btnInner}>
           <Link
-            href="https://zoom.us/webinar/register/WN_tcRP7m0hS-iQlP4FAEPKUA"
+            href="https://zoom.us/webinar/register/WN_OXUJK-K6SoWhu-ncQGLtrw"
             target="_blank"
           >
             <Button className={styles.buttonDiv} text="Register Now" />
