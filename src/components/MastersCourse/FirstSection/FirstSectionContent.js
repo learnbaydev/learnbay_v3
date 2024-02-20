@@ -63,7 +63,7 @@ const FirstSectionContent = ({
             </div>
             <div className={styles.BtnDiv}>
               <div onClick={() => popupShow()}>
-                <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
+                <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
               </div>
 
               <a href="/master-application">

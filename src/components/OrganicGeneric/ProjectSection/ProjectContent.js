@@ -1,26 +1,23 @@
-import React, { useState, useEffect, useRef } from "react";
-import dynamic from "next/dynamic";
-import styles from "./ProjectSection.module.css";
-import { BsBank } from "react-icons/bs";
-import { FaClinicMedical } from "react-icons/fa";
-import { AiOutlineFundProjectionScreen } from "react-icons/ai";
-import { BsTruck } from "react-icons/bs";
-import Image from "next/image";
-import { FaCheckCircle, FaDownload } from "react-icons/fa";
 import Button from "@/components/Global/Button/Button";
-const VideoPopup = dynamic(() => import("../../Global/VideoPopup/VideoPopup"));
-import Link from "next/link";
-import Popup from "../../Global/Popup/Popup";
+import dynamic from "next/dynamic";
+import Image from "next/image";
+import { useRef, useState } from "react";
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+import { BsBank, BsTruck } from "react-icons/bs";
+import { FaCheckCircle, FaClinicMedical, FaDownload } from "react-icons/fa";
 import Form from "../../Global/Form/Form";
+import Popup from "../../Global/Popup/Popup";
+import styles from "./ProjectSection.module.css";
+const VideoPopup = dynamic(() => import("../../Global/VideoPopup/VideoPopup"));
 
-const ProjectContent = ({ 
+const ProjectContent = ({
   dataScience,
   radio,
   dataScienceGeneric,
   dataScienceCounselling,
   interstedInHide,
   HideDmd,
- }) => {
+}) => {
   const [popups, setPopups] = useState(false);
   const el = useRef(null);
   const [video, setVideo] = useState(false);
@@ -35,7 +32,7 @@ const ProjectContent = ({
         <span className={styles.span}>ProjectLab</span>
       </h4>
       <div className={styles.box}>
-      <Popup
+        <Popup
           trigger={popups}
           setTrigger={setPopups}
           className="popupModal"
@@ -59,11 +56,11 @@ const ProjectContent = ({
               dataScienceGeneric={dataScienceGeneric}
               dataScienceCounselling={dataScienceCounselling}
               radio={radio}
-  interstedInHide={interstedInHide}
+              interstedInHide={interstedInHide}
             />
           </div>
         </Popup>
-       
+
         <div className={styles.InnerBox1}>
           <div className="imgWrapper">
             <Image
@@ -121,96 +118,88 @@ const ProjectContent = ({
           </div>
         </div>
       </div>
-      {HideDmd ? ("") : (
-      <div className={styles.secondDiv}>
-        <div className={styles.firstDiv}>
-          <p className={styles.BlueHed}>Domain Specialization</p>
-          <p className={styles.para}>
-            With domain specialization, we help you in leveraging your prior
-            work experience to ensure its relevance in your career transition,
-            aiming to get a good salary hike for you.
-          </p>
-          <div className={styles.iconBoxDesktop}>
-            <div className={styles.iconBox}>
-              <div className={styles.BoxIconinner}>
-                <BsBank className={styles.icon} />
+      {HideDmd ? (
+        ""
+      ) : (
+        <div className={styles.secondDiv}>
+          <div className={styles.firstDiv}>
+            <p className={styles.BlueHed}>Domain Specialization</p>
+            <p className={styles.para}>
+              With domain specialization, we help you in leveraging your prior
+              work experience to ensure its relevance in your career transition,
+              aiming to get a good salary hike for you.
+            </p>
+            <div className={styles.iconBoxDesktop}>
+              <div className={styles.iconBox}>
+                <div className={styles.BoxIconinner}>
+                  <BsBank className={styles.icon} />
 
-                <p>BFSI</p>
+                  <p>BFSI</p>
+                </div>
+                <div className={styles.BoxIconinner}>
+                  <FaClinicMedical className={styles.icon1} />
+                  <p>HEALTHCARE</p>
+                </div>
+                <div className={styles.BoxIconinner}>
+                  <AiOutlineFundProjectionScreen className={styles.icon1} />
+                  <p>MARKETING & HR</p>
+                </div>
               </div>
-              <div className={styles.BoxIconinner}>
-                <FaClinicMedical className={styles.icon1} />
-                <p>HEALTHCARE</p>
-              </div>
-              <div className={styles.BoxIconinner}>
-                <AiOutlineFundProjectionScreen className={styles.icon1} />
-                <p>MARKETING & HR</p>
+              <div className={styles.iconButton}>
+                <div className={styles.BoxIconinner}>
+                  <BsTruck className={styles.icon1} />
+                  <p>SUPPLYCHAIN</p>
+                </div>
+                <div onClick={popupShow}>
+                  <Button
+                    bannerButton={true}
+                    text="Download Domain Syllabus"
+                    passIcon={<FaDownload className="bIconS" />}
+                  />
+                </div>
               </div>
             </div>
-            <div className={styles.iconButton}>
-              <div className={styles.BoxIconinner}>
-                <BsTruck className={styles.icon1} />
-                <p>SUPPLYCHAIN</p>
+            <div className={styles.iconBoxMobile}>
+              <div className={styles.iconBox}>
+                <div className={styles.BoxIconinner}>
+                  <BsBank className={styles.icon} />
+                  <p>BFSI</p>
+                </div>
+                <div className={styles.BoxIconinner}>
+                  <FaClinicMedical className={styles.icon1} />
+                  <p>HEALTHCARE</p>
+                </div>
+                <div className={styles.BoxIconinner}>
+                  <AiOutlineFundProjectionScreen className={styles.icon1} />
+                  <p>MARKETING & HR</p>
+                </div>
+                <div className={styles.BoxIconinner}>
+                  <BsTruck className={styles.icon1} />
+                  <p>SUPPLYCHAIN</p>
+                </div>
               </div>
-            <div    onClick={popupShow}>
+              <div className={styles.buttonDiv} onClick={popupShow}>
                 <Button
                   bannerButton={true}
-                  text="Download Domain Brochures"
+                  text="Download Domain Syllabus"
                   passIcon={<FaDownload className="bIconS" />}
-             />
-             </div>
-               
-           
-               
-            
-              
-            </div>
-          </div>
-          <div className={styles.iconBoxMobile}>
-            <div className={styles.iconBox}>
-              <div className={styles.BoxIconinner}>
-                <BsBank className={styles.icon} />
-                <p>BFSI</p>
-              </div>
-              <div className={styles.BoxIconinner}>
-                <FaClinicMedical className={styles.icon1} />
-                <p>HEALTHCARE</p>
-              </div>
-              <div className={styles.BoxIconinner}>
-                <AiOutlineFundProjectionScreen className={styles.icon1} />
-                <p>MARKETING & HR</p>
-              </div>
-              <div className={styles.BoxIconinner}>
-                <BsTruck className={styles.icon1} />
-                <p>SUPPLYCHAIN</p>
-              </div>
-            </div>
-           <div className={styles.buttonDiv}
-              onClick={popupShow}>
-          
-                <Button
-                  bannerButton={true}
-                  text="Download Domain Brochures"
-                  passIcon={<FaDownload className="bIconS" />
-                }
-             
                 />
-          
+              </div>
+            </div>
+          </div>
+          <div className={styles.image}>
+            <div className="imgWrapper">
+              <Image
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/domainSlider.png"
+                loading="lazy"
+                quality={40}
+                width="517"
+                height="300"
+                alt="profile-Img"
+              />
             </div>
           </div>
         </div>
-        <div className={styles.image}>
-          <div className="imgWrapper">
-            <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/domainSlider.png"
-              loading="lazy"
-              quality={40}
-              width="517"
-              height="300"
-              alt="profile-Img"
-            />
-          </div>
-        </div>
-      </div>
       )}
     </>
   );

@@ -1,29 +1,16 @@
-import React, { useState } from "react";
-import styles from "./KeyFeatures.module.css";
-import { Swiper, SwiperSlide } from "swiper/react";
-import {
-  FaChair,
-  FaChartLine,
-  FaClock,
-  FaDownload,
-  FaRupeeSign,
-  FaUser,
-} from "react-icons/fa";
+import { useState } from "react";
+import { FaDownload } from "react-icons/fa";
 import VideoPopup from "../../Global/VideoPopup/VideoPopup";
+import styles from "./KeyFeatures.module.css";
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/pagination";
 import "swiper/css/effect-fade";
+import "swiper/css/pagination";
 // import required modules
-import { Autoplay } from "swiper";
-import Popup from "../../Popup/Popup";
-import Form from "../../Form/Form";
 import Image from "next/image";
-import { KeyFeaturesSwiper } from "./KeyFeatureSwiperData";
-import VideoTestimonial from "../../VideoTestimonial/VideoTestimonial";
-import { switchData } from "./switchData";
-import { AiFillStar } from "react-icons/ai";
+import Form from "../../Form/Form";
 import WhyLearnbay from "../../MastersCourse/WhyLearnbay/WhyLearnbay";
+import Popup from "../../Popup/Popup";
 
 const KeyFeatures = ({
   dataScience,
@@ -63,7 +50,7 @@ const KeyFeatures = ({
             ></div>
           </div>
           <div className="RightPopup">
-            <h5>Download Brochure</h5>
+            <h5>Download Syllabus</h5>
             <Form
               dataScience={dataScience}
               dataScienceCounselling={dataScienceCounselling}

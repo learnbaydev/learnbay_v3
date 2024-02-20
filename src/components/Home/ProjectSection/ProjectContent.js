@@ -1,16 +1,11 @@
-import React, { useState } from "react";
-import dynamic from "next/dynamic";
-import styles from "./ProjectSection.module.css";
-import { BsBank } from "react-icons/bs";
-import { FaClinicMedical } from "react-icons/fa";
-import { AiOutlineFundProjectionScreen } from "react-icons/ai";
-import { BsTruck } from "react-icons/bs";
-import Image from "next/image";
-import { FaCheckCircle, FaDownload } from "react-icons/fa";
 import Button from "@/components/Global/Button/Button";
-const VideoPopup = dynamic(() => import("../../Global/VideoPopup/VideoPopup"));
+import dynamic from "next/dynamic";
+import Image from "next/image";
 import Link from "next/link";
-import { FaCircleCheck } from "react-icons/fa6";
+import { useState } from "react";
+import { FaCheckCircle, FaDownload } from "react-icons/fa";
+import styles from "./ProjectSection.module.css";
+const VideoPopup = dynamic(() => import("../../Global/VideoPopup/VideoPopup"));
 
 const ProjectContent = ({ ids }) => {
   const [video, setVideo] = useState(false);
@@ -83,10 +78,13 @@ const ProjectContent = ({ ids }) => {
       </div>
       <div className={styles.secondDiv}>
         <div className={styles.firstDiv}>
-          <p className={styles.BlueHedDomain}>Domain <span> Specialization</span></p>
+          <p className={styles.BlueHedDomain}>
+            Domain <span> Specialization</span>
+          </p>
           <p className={styles.paraP}>
             <FaCheckCircle className={styles.greenIcon} />
-          Leverage your prior work experience to ensure its relevance in your career transition.
+            Leverage your prior work experience to ensure its relevance in your
+            career transition.
           </p>
           <p className={styles.paraP}>
             <FaCheckCircle className={styles.greenIcon} />
@@ -113,17 +111,17 @@ const ProjectContent = ({ ids }) => {
                 {/* <BsTruck className={styles.icon1} />
                 <p>SUPPLYCHAIN</p> */}
                 <Link href="/domain">
-                <Button
-                  OrangeButton={true}
-                  text="Domain Brochures"
-                  passIcon={<FaDownload className="bIconS" />}
-                />
-              </Link>
+                  <Button
+                    OrangeButton={true}
+                    text="Domain Syllabus"
+                    passIcon={<FaDownload className="bIconS" />}
+                  />
+                </Link>
               </div>
               {/* <Link href="/domain">
                 <Button
                   bannerButton={true}
-                  text="Download Domain Brochures"
+                  text="Download Domain Syllabus"
                   passIcon={<FaDownload className="bIconS" />}
                 />
               </Link> */}
@@ -152,7 +150,7 @@ const ProjectContent = ({ ids }) => {
               <Link href="/domain">
                 <Button
                   OrangeButton={true}
-                  text="Domain Brochures"
+                  text="Domain Syllabus"
                   passIcon={<FaDownload className="bIconS" />}
                 />
               </Link>

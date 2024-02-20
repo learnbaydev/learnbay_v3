@@ -8,15 +8,15 @@ import {
   FaClinicMedical,
   FaDownload,
   FaRocket,
+  FaUserGraduate,
   FaUserShield,
 } from "react-icons/fa";
 import { IoRocketOutline } from "react-icons/io5";
 import { MdOutlinePrecisionManufacturing } from "react-icons/md";
-import { FaUserGraduate } from "react-icons/fa";
 
+import { BsTruck } from "react-icons/bs";
 import VideoPopup from "../../Global/VideoPopup/VideoPopup";
 import Styles from "./WhyLearnbay.module.css";
-import { BsTruck } from "react-icons/bs";
 
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -176,7 +176,7 @@ function WhyLearnbay({ idss }) {
                   <div className={Styles.iconButton}>
                     <Link href="/domain">
                       <Button
-                        text="Download Domain Brochures"
+                        text="Download Domain Syllabus"
                         passIcon={<FaDownload className="bIconS" />}
                       />
                     </Link>
@@ -252,7 +252,7 @@ function WhyLearnbay({ idss }) {
                   <div className={Styles.buttonDiv}>
                     <Button
                       bannerButton={true}
-                      text="Download Domain Brochures"
+                      text="Download Domain Syllabus"
                       passIcon={<FaDownload className="bIconS" />}
                     />
                   </div>

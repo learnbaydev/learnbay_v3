@@ -757,7 +757,7 @@ export const MLDubaiCourseData = [
               Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
               Data Science and Artificial Intelligence Training with Placement Assistance- 1 Course Completion Certificates
               Machine learning and AI Certification- 1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
-              *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
+              *All the certificates accredited by IBM. For more details, please refer to the respective course syllabus.`,
             open: true,
           },
         ],

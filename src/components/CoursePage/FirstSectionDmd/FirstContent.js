@@ -44,7 +44,7 @@ Become an Expert in your Domain</p>
             <>
               <div className={styles.btnImage}>
                 <div onClick={popupShow}>
-                  <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
+                  <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
                 </div>
                 {/* <div onClick={popupShow}>
                   <Button whiteBgButton={true} text="ENQUIRE NOW" />
@@ -65,7 +65,7 @@ Become an Expert in your Domain</p>
             <div className={styles.Mobile}>
               <div className={styles.btnImageMobile}>
                 <div onClick={popupShow}>
-                  <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
+                  <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
                 </div>
                 {/* <div onClick={popupShow}>
                   <Button whiteBgButton={true} text="ENQUIRE NOW" />

@@ -1,10 +1,9 @@
-import { React, useState } from "react";
-import styles from "./CitiesRight.module.css";
+import { useState } from "react";
 import { BsClock } from "react-icons/bs";
 import { FiCheck } from "react-icons/fi";
-import Link from "next/link";
-import YoutubeVideo from "../YoutubeVideo/YoutubeVideo";
 import Button from "../../Global/Button/Button";
+import YoutubeVideo from "../YoutubeVideo/YoutubeVideo";
+import styles from "./CitiesRight.module.css";
 
 const CitiesRight = ({
   ProgramHead1,
@@ -2490,7 +2489,7 @@ const CitiesRight = ({
                   sessions at multiple project innovative centres across 7+
                   cities. The detailed description of the{" "}
                   <b>Data Science courses in Chennai</b> are available in the
-                  course brochure.{" "}
+                  course Syllabus.{" "}
                 </p>
                 <h2 className={styles.pHead}>
                   Who Should Enrol in the Data Science Course?
@@ -4224,7 +4223,7 @@ const CitiesRight = ({
         </div>
         <div className={styles.Button}>
           <a href={syllabussrc} target="_blank">
-            <Button className={styles.btn} text="View Detailed Brochure" />
+            <Button className={styles.btn} text="View Detailed Syllabus" />
           </a>
         </div>
       </div>

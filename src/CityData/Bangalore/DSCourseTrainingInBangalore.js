@@ -702,7 +702,7 @@ export const DSBangaloreCourseData = [
                 Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
                 Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
                 Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate
-                *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
+                *All the certificates accredited by IBM. For more details, please refer to the respective course syllabus.`,
             open: true,
           },
         ],

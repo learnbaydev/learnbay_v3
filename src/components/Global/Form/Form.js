@@ -10,7 +10,6 @@ import {
   getFormFields,
 } from "./formFunction";
 import { useRouter } from "next/router";
-
 const Form = ({
   popup,
   setTrigger,
@@ -32,7 +31,6 @@ const Form = ({
   DomainInput,
 }) => {
   const router = useRouter();
-
   //offset to maintain time zone difference
   const [formFields, setFormFields] = useState(
     getFormFields(radio, google, referrals,Domain, interstedInHide)
@@ -40,38 +38,30 @@ const Form = ({
   const [formField, setFormField] = useState(
     getFormFields(radio, google, referrals, interstedInHide)
   );
-
   const [location, setLocation] = useState({ country: "", region: "", city: "" });
-
   const fetchLocation = async () => {
     try {
       const response = await fetch(
         "https://ipinfo.io/json?token=bc89c2010abac0"
       );
-
       if (response.status === 429) {
         throw new Error("Rate limit exceeded. Too many requests.");
       }
-
       if (!response.ok) {
         throw new Error(
           `Failed to fetch location: ${response.status} ${response.statusText}`
         );
       }
-
       const data = await response.json();
       console.log("API Response:", data);
-
       const { country, region, city } = data;
       setLocation({ country, region, city });
     } catch (error) {
       console.error("Error fetching location:", error.message);
-
       // Handle rate limit exceeded or set a default location
       setLocation({ country: "DefaultCountry", region: "DefaultCountry", city: "DefaultCity" });
     }
   };
-
   const [value, setValue] = useState();
   const [error, setError] = useState();
   const [alertMSG, setAlertMSG] = useState("");
@@ -96,14 +86,12 @@ const Form = ({
     url: router.asPath,
     Domain:"",
   });
-
   useEffect(() => {
     const fetchData = async () => {
       await fetchLocation();
     };
     fetchData();
   }, [value]);
-
   useEffect(() => {
     // Update query state when location changes
     setQuery((prevQuery) => ({
@@ -113,13 +101,10 @@ const Form = ({
       city: location.city,
     }));
   }, [location]);
-
   useEffect(() => {
     setQuery({ ...query, phone: value });
     jsCookie.set("CARD", query.email, { expires: 14, secure: true });
   }, [value]);
-
-
   // Update inputs value
   const handleParam = () => (e) => {
     const name = e.target.name;
@@ -134,16 +119,13 @@ const Form = ({
   //     router.push("https://course.learnbay.co/Thank-you");
   //   }, 500);
   // };
-
   let btnText = "Apply For Counselling";
   if (event) {
     btnText = "Register Now";
   }
-
   if (learning) {
     btnText = "Download Resources";
   }
-
   // Form Submit function
   const formSubmit = async (e) => {
     e.preventDefault();
@@ -160,18 +142,14 @@ const Form = ({
     console.log(pushPath);
     setError(getValidation(radio, Domain, interstedInHide, query));
     const validation = getValidation(radio, Domain, interstedInHide, query);
-
     const formData = new FormData();
     Object.entries(query).forEach(([key, value]) => {
       formData.append(key, value);
     });
-
     formData.append("country", query.country);
     formData.append("city", query.city);
     formData.append("region", query.region);
-
     console.log("Form Data:", query.country);
-
     if (validation === false) {
       const sendData = await fetch(`${endPoint}`, {
         method: "POST",
@@ -196,7 +174,6 @@ const Form = ({
         city: "", // Use the state value directly
         url: router.asPath,
       });
-
       if (popup) {
         const off = () => {
           setTrigger(false);
@@ -218,7 +195,6 @@ const Form = ({
       }
     }
   };
-
   return (
     <div className={styles.App}>
       <form onSubmit={formSubmit}>
@@ -335,7 +311,6 @@ const Form = ({
     )
   )}
 </>
-
         <input name="country" value={query.country} type="hidden" />
         <input name="region" value={query.region} type="hidden" />
         <input name="city" value={query.city} type="hidden" />
@@ -374,5 +349,4 @@ const Form = ({
     </div>
   );
 };
-
 export default Form;

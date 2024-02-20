@@ -8,7 +8,7 @@
   gap: 50px;
   padding: 50px 270px 0px 200px;
   height: 100vh;
-  background-image: linear-gradient(90deg, white 50%, #F1F1F1 50%);
+  background-image: linear-gradient(90deg, white 48%, #F1F1F1 48%);
   margin-top: 10px;
 }
 
@@ -330,14 +330,19 @@ margin-top: 20px;
 
 .ImageLoan {
   height: 40px;
-  width: auto;
+  width: auto !important;
   margin-top: 20px;
 }
 
 
 @media (max-width: 641px) {
   .MainDiv {
-    margin: 20px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .logoImage {
+    padding: 0;
   }
   .MainDiv img {
     width: 180px;
@@ -346,13 +351,75 @@ margin-top: 20px;
     display: block;
     gap: 50px;
     align-items: center;
-    padding: 20px 0px 0px;
+    padding: 0px 20px;
+    background: none;
+    margin-bottom: 190px;
+  }
+
+  .divFlex {
+    display: block;
+  }
+
+  .Text {
+    margin-bottom: 10px;
+  }
+
+  .radioButtons {
+    margin: 20px 0px;
   }
 
   .formRight {
     margin: 0px;
-    padding: 30px;
-    border-radius: 10px;
+    padding: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+  }
+
+  .CoursePrice {
+    display: grid;
+    gap: 10px;
+  }
+  .cont {
+    font-size: 9px;
+    margin: 0;
+  }
+  .boxShadowMobile {
+    padding: 10px 20px 20px 20px;
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    width: 100%;
+    left: 0;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 1px 24px;
+  }
+
+  .courseName {
+    grid-template-columns: 9% 91%;
+  }
+
+  .contPopup {
+    padding: 20px;
+  
+  }
+
+  .popup {
+    margin: 20px;
+  }
+
+  .Point {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 10px;
+    margin: 0px;
+  }
+
+  .head {
+    margin-bottom: 10px;
+  }
+
+
+  .button {
+    font-size: 14px;
   }
 }
 
