@@ -36,7 +36,6 @@ export const CityFooterData = [
             name: "Full stack software developer course in Pune",
             url: "/fullstack/pune/full-stack-software-developer-course-in-pune",
           },
-         
         ],
       },
       {
@@ -298,6 +297,110 @@ export const CityFooterData = [
       },
     ],
   },
+  {
+    id: "SecondDiv",
+    FirstDiv: [
+      {
+        id: "USA",
+        city: "USA",
+        cityData: [
+          {
+            id: 1,
+            name: "Data Science Course Training in USA",
+            url: "/datascience/usa/data-science-course-training-in-usa",
+          },
+        ],
+      },
+      {
+        id: "South africa",
+        city: "South africa",
+        cityData: [
+          {
+            id: 1,
+            name: "Data Science Course Training in South africa",
+            url: "/datascience/southafrica/data-science-course-training-in-south-africa",
+          },
+        ],
+      },
+      {
+        id: "nigeria",
+        city: "Nigeria",
+        cityData: [
+          {
+            id: 1,
+            name: "Data Science Course Training in Nigeria",
+            url: "/datascience/nigeria/data-science-course-training-in-nigeria",
+          },
+        ],
+      },
+      {
+        id: "singapore",
+        city: "singapore",
+        cityData: [
+          {
+            id: 1,
+            name: "Data Science Course Training in Singapore",
+            url: "/datascience/singapore/data-science-course-training-in-singapore",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "SecondDiv",
+    FirstDiv: [
+      {
+        id: "Bangladesh",
+        city: "Bangladesh",
+        cityData: [
+          {
+            id: 1,
+            name: "Data Science Course Training in Bangladesh",
+            url: "/datascience/bangladesh/data-science-course-training-in-bangladesh",
+          },
+        ],
+      },
+      {
+        id: "Vietnam",
+        city: "Vietnam",
+        cityData: [
+          {
+            id: 1,
+            name: "Data Science Course Training in Vietnam",
+            url: "/datascience/vietnam/data-science-course-training-in-vietnam",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "SecondDiv",
+    FirstDiv: [
+      {
+        id: "Xpert Edge",
+        city: "Xpert Edge",
+        cityData: [
+          {
+            id: 1,
+            name: "Advance Data Science & AI",
+            url: "https://course.learnbay.co/datascience/OS/sp/s2-data-science-generic",
+        
+          },
+
+          {
+            id: 2,
+            name: "Advance AI & ML",
+            url: "https://course.learnbay.co/datascience/OS/sp/s2-artificial-intelligence-machine-learning-generic",
+          },
+          {
+            id: 3,
+            name: "Data Analytics",
+            url: "https://course.learnbay.co/datascience/OS/sp/s2-data-analytics-generic",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export const HeadData = [
@@ -465,8 +568,6 @@ export const CourseData = [
         name: "Cloud Computing & DevOps Certification Program",
         url: "/cloud&devops/cloud-computing-and-devOps-certification-program",
       },
-    
-  
     ],
   },
 ];
@@ -477,17 +578,17 @@ export const GnCourseData = [
     Courses: [
       {
         id: 1,
-     
+
         name: "Advance Data Science and AI Certification",
       },
       {
         id: 2,
-     
+
         name: "Advance AI and ML Certification Program",
       },
       {
         id: 3,
-        
+
         name: "Master in CS: Data Science and AI",
       },
       {
@@ -497,25 +598,21 @@ export const GnCourseData = [
       },
       {
         id: 5,
-        
+
         name: "Business Analytics Program",
       },
       {
         id: 6,
-       
+
         name: "Data Analytics Program",
       },
       {
         id: 7,
         name: "Cloud Computing & DevOps Certification Program",
-       
       },
-    
-  
     ],
   },
 ];
-
 
 export const puneLocation = [
   {

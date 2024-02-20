@@ -27,6 +27,11 @@ const VideoReview = dynamic(() =>
 const Testimonial = dynamic(() =>
   import("../components/Global/Testimonial/Testimonial")
 );
+const Realstory = dynamic(() =>
+  import("../components/Home/Realstory/Realstory")
+);
+
+
 
 export default function Home() {
   return (
@@ -53,16 +58,13 @@ export default function Home() {
           interstedInHide={true}
         />
         <TrainerSection idss="eautK0odE7Q" />
+        <Realstory/>
         <LinkedinReview />
         <GoogleReview />
         {/* <VideoReview idss="YWxTtvb3x-U" /> */}
         <ReviewCourse />
         <ReviewSwitch />
-        <Testimonial
-          redirectDS={true}
-          heading="Alumni Review"
-          Testimonial={DataScienceCourseData[0].testimonial}
-        />
+   
         <Footer />
         <WhatsappFloat />
         <BottomBar
