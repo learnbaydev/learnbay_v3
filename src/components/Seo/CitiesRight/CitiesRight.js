@@ -94,11 +94,13 @@ const CitiesRight = ({
   CertificationBot6,
   CertificationBot7,
   src,
+
   ModuleHead1,
   ModuleHead2,
   ModuleHead3,
   ModuleBot1,
   ModuleBot2,
+  ModuleBot10,
   ModuleBotL21,
   ModuleBotL22,
   ModuleBotL23,
@@ -110,6 +112,13 @@ const CitiesRight = ({
   ModuleBot43,
   ModuleBot44,
   ModuleBot45,
+  Modulelist1,
+  Modulelist2,
+  Modulelist3,
+  Modulelist4,
+  Modulelist5,
+  Modulelist6,
+  Modulelist7,
   syllabush1,
   syllabusb1,
   SyllabusBotlist11,
@@ -157,12 +166,70 @@ const CitiesRight = ({
   JobBot11,
   JobBot3,
   JobHead4,
-  JobBot4,
+  JobBot19,
   JobBot5,
   JobBot6,
+  Joblist1,
+  Joblist2,
+  Joblist3,
+  Joblist4,
+  Joblist5,
+  Joblist6,
+  Joblist7,
+  Joblist8,
+  Joblist9,
+  Joblist10,
+  Joblist11,
+  Joblist12,
+  Joblist13,
+  JobBot4,
+  JobHead19,
+  JobBot18,
+  JobBot20,
+  JobBot34,
+  JobBot35,
+  Joblist14,
+  Joblist15,
+  Joblist16,
+  Joblist17,
+  JobHead21,
+  JobBot21,
+  JobBot22,
+  JobBot23,
+  JobHead23,
+  JobBot30,
+  JobBot39,
+  JobBot41,
+  JobHead30,
+  JobBot36,
+  Joblist18,
+  Joblist19,
+  Joblist20,
+  Jobspan,
+  Joblist21,
+  Joblist22,
+  JobHead22,
+  JobBot24,
+  JobBot37,
+  Joblist23,
+  Joblist24,
+  Joblist25,
+  Joblist26,
+  Joblist27,
+  Joblist28,
+  Joblist29,
+  Joblist30,
+  JobBot25,
+  JobSpan1,
   ProgramBotItaliic105,
+  JobBot40,
   ProjectsBot1,
   ProjectsBot2,
+  ProjectsBot3,
+  ProjectsBot4,
+  ProjectsBot5,
+  ProjectsBot6,
+  ProjectsBot7,
   ProjectsBot31,
   ProjectsBot32,
   ProjectsHead1,
@@ -254,6 +321,7 @@ const CitiesRight = ({
   cityText,
   cityTextDSChennai,
   cityTextDSPune,
+  cityTextDSUSA,
   cityTextDSHyderabad,
   cityTextDSDelhi,
   cityTextDSmumbai,
@@ -278,6 +346,14 @@ const CitiesRight = ({
   ProgramBot41,
   certificate2,
   certificate1,
+  modulelist,
+  joblist,
+  showData,
+  cityTextDSNGR,
+  cityTextDSVM,
+  cityTextDSSingapore,
+  cityTextDSSAfrica,
+  cityTextBangla,
 }) => {
   const [read, setRead] = useState(false);
   const handler = () => {
@@ -2480,6 +2556,580 @@ const CitiesRight = ({
         ) : (
           ""
         )}
+        {cityTextDSUSA ? (
+          <div className={styles.CitiesRightInner}>
+            <h4 style={{ fontSize: "20px" }}>
+              About the Prime <b> Data Science Course</b> Curated in
+              Collaboration with IBM & Microsoft
+            </h4>
+            <p>
+              Learnbay anticipates a favorable career switch for mid-career
+              level pros from diverse fields in the US. As per the BLS report,
+              employment growth for data science careers in the USA projects a
+              35.2% rise by 2032 with prime offers. Plus, our{" "}
+              <b>
+                <a
+                  style={{ color: "rgb(45, 156, 215)" }}
+                  href="https://www.learnbay.co/datascience/advance-data-science-certification-courses"
+                  target="_blank"
+                >
+                  data scientist certification program
+                </a>
+              </b>{" "}
+              in alliance with IBM & MS leads the career race. We believe in
+              360-degree knowledge-building to reach the peak of career success
+              with sought-after skills.
+            </p>
+            <p>
+              Professionals from different backgrounds can enroll in this
+              program and gain job-ready skills. Learnbay introduces a
+              Generative AI-rich course syllabus with transformative career
+              impacts. Our <b>data scientist course in USA</b> is associated
+              with IBM & Microsoft and envisions a rewarding career ahead.
+            </p>
+            <p>
+              IBM, based in Armonk, NY, is a top tech leader known for its
+              advanced data science solutions. Its virtual presence with
+              insightful solutions saves businesses from unseen digital threats.
+              Microsoft, headquartered in Redmond, Washington, is famous for its
+              scalable solutions. Learnbay’s dynamic step of collaboration with
+              tech giants bridges learning gaps.
+            </p>
+            <p>
+              The data scientist certification program helps US professionals
+              switch to a rewarding career. Yet, the mandatory conditions to
+              enroll in Learnbay’s program are –
+            </p>
+            <ul>
+              <li>Basic know-how of mathematics/statistics concepts</li>
+              <li>Good domain knowledge with basic on-field expertise</li>
+            </ul>
+            <br />
+            <h4 style={{ fontSize: "20px" }}>
+              What career gains will this <b>data science training in USA</b>{" "}
+              offer in collab with IBM & MS?
+            </h4>
+            <p>
+              Data science is a multi-faceted field, welcoming experts from
+              diverse fields. Its rewarding career path unlocks a growing future
+              for experts with stagnant skill sets. If you are eager to revamp
+              your career in data science, you must check your eligibility
+              first. Vital requirements of the data science certification course
+              in the USA are –
+            </p>
+            <br />
+            <br />
+            <ul>
+              <li>Bachelor’s degree in any field with good academics</li>
+              <li>
+                Working pros with a least 6 months of on-the-job work experience
+                in any field (full-time/part-time)
+              </li>
+              <li>Early and mid-career level pros</li>
+            </ul>
+            <p>
+              After finishing the online data science course, projects, and
+              assessments, you will receive IBM & MS certifications. These
+              certificates are well-known worldwide and can enhance your career
+              opportunities. The cutting-edge digital era demands validated
+              skill sets to conquer a long-run career success. In short, major
+              career gains are –
+            </p>
+            <br />
+            <br />
+            <ul>
+              <li>IBM Course Completion and Project Certifications</li>
+              <li>Microsoft Certification</li>
+              <li>Highly-paid Job offers across the US and overseas</li>
+            </ul>
+          </div>
+        ) : (
+          ""
+        )}
+        {cityTextDSNGR ? (
+          <div className={styles.CitiesRightInner}>
+            <h4 style={{ fontSize: "20px" }}>
+              Introducing Learnbay’s <b> Data Science Training in Nigeria</b> in
+              alliance with IBM & MS
+            </h4>
+            <p>
+              Nigeria is one of the fastest-growing African countries with
+              infinite options for career growth in data science. In the
+              upcoming years, Nigeria expects a notable rise in demand for data
+              scientists to make insightful progress. Thus, the enrollment rates
+              in an industry-focused{" "}
+              <b>
+                <a
+                  href="https://www.learnbay.co/datascience/advance-data-science-certification-courses"
+                  target="_blank"
+                >
+                  data science course
+                </a>
+              </b>{" "}
+              in Nigeria increased.
+            </p>
+            <p>
+              In Nigeria, Learnbay is widely known for its industry-specific
+              training, supporting mid-career-level growth. Regardless of
+              IT/non-IT domain, working pros join us for a swift career with
+              proven gains. Owing to the rising trend of{" "}
+              <b>data science in Nigeria</b> , Learnbay steps forward for
+              industry-driven career upskilling with assured success.
+            </p>
+            <p>
+              Anyone can <b> learn data science in Nigeria</b> if they fulfill
+              the primary requisites. They are –{" "}
+            </p>
+            <br />
+            <br />
+            <ul>
+              <li>Basic statistics and mathematics skills</li>
+              <li>Primary knowledge of domain/stream.</li>
+            </ul>
+            <br />
+            <h4 style={{ fontSize: "20px" }}>
+              In what ways does Learnbay’s collaboration with IBM & MS help in
+              your career rise?
+            </h4>
+
+            <p>
+              Learnbay’s globally recognized IBM & Microsoft (MS) certificates
+              help learners counter career risks with proven skills. Valuable
+              certifications validate your skills to ace top-tier job interviews
+              with better hikes and perks. Major highlights are –
+            </p>
+            <br />
+            <br />
+            <ul>
+              <li>Two IBM certificates (Course & Project)</li>
+              <li>One MS Certificate</li>
+              <li>Premium job offers in Nigeria and overseas</li>
+            </ul>
+
+            <p>
+              <b>So, who is eligible for this course?</b>
+              <br />
+              <br />
+            </p>
+            <ul>
+              <li>
+                A qualified graduate with a good academic record (Any
+                Domain/Stream)
+              </li>
+              <li>A minimum of 6 months of work experience (tech/non-tech)</li>
+              <li>
+                Early/mid-career level pros (full-time/part-time) eager in data
+                science careers
+              </li>
+            </ul>
+
+            <p>
+              Apart from this, experts willing to uplift their decision-making
+              skills can join our <b>data science online course</b> for managers
+              and leaders. Additionally, experts eager to rebuild a global-level
+              career can go with a master’s program in data science.
+            </p>
+          </div>
+        ) : (
+          ""
+        )}
+        {cityTextDSVM ? (
+          <div className={styles.CitiesRightInner}>
+            <h4 style={{ fontSize: "20px" }}>
+              Overview of Learnbay’s Premium{" "}
+              <b>Data Science Training in Vietnam</b> [In Alliance with IBM &
+              Microsoft]
+            </h4>
+            <p>
+              Learnbay’s <b>data science training in Vietnam</b> unleashes an
+              inclusive career-building space to arm you with job-driven skills.
+              IBM & MS’s global presence allures early and mid-career-level
+              experts to redefine their skill sets. Our alliance with tech
+              giants offers a scope to re-establish a global-scale career in
+              data science.
+            </p>
+            <p>
+              Vietnam’s digital economy heavily relies on the fast-paced rise of
+              data science across major sectors. Vietnam’s data market expects
+              an attractive rise of 5.32% by 2027, leveraging business yields
+              rapidly. Thus, the country sees a growing demand for data
+              scientists. Its growth scope in the market allures many working
+              pros to take the lead.
+            </p>
+            <p>
+              Thus, experts expect a rapid rise in data scientists' jobs
+              country-wide. Yet, it requires proven skills with eminent data
+              tools to tackle issues with expertise. Learnbay’s alliance with
+              IBM & MS helps experts fulfill their career transition dreams and
+              land prospering job roles.
+            </p>
+            <p>
+              The enrollment rates for{" "}
+              <b style={{ color: "#0072BC" }}>
+                <a href="https://www.learnbay.co/" target="_blank">
+                  data science certificate programs
+                </a>
+              </b>{" "}
+              in Vietnam keep increasing due to industry demands. Yet, many
+              experts have to drop their career switch decisions as they need
+              more than the bare minimum of skills and knowledge.
+            </p>
+            <p>
+              If you aspire to become a successful data scientist with IBM & MS
+              certifications, check whether you fulfill certain criteria –
+              <br />
+              <br />
+            </p>
+            <ul>
+              <li>Basic knowledge of applied mathematics/statistics</li>
+              <li>Elementary knowledge of domain disciplines.</li>
+            </ul>
+            <br />
+            <h4 style={{ fontSize: "20px" }}>
+              How does Learnbay’s <b>data science course</b> in alliance with
+              IBM & MS uplift your career?
+            </h4>
+            <p>
+              Vietnam is progressing in the data science industry with multiple
+              career options. Experts eager to switch careers into the rising
+              data science field opt for upskilling. Data science is a versatile
+              field with seamless integration with leading sectors. Thus, skills
+              validation is vital to prove your expertise and tackle the tasks
+              tactfully.
+            </p>
+            <p>
+              So, who is eligible for Learnbay’s{" "}
+              <b>data science certificate programs?</b>{" "}
+            </p>
+            <br />
+            <ul>
+              <li>
+                A qualified graduate with consistent academic record (Any
+                Domain/Stream)
+              </li>
+              <li>
+                At least six months of full-time/part-time work experience
+              </li>
+              <li>
+                Early and mid-career level pros (IT/Non-IT) interested in data
+                science roles
+              </li>
+            </ul>
+            <br />
+            <p>
+              Furthermore, managerial-level working pros can opt for Learnbay’s
+              data science course in Vietnam to deliver more realistic
+              decisions. Experts seeking a career rise with insightful
+              knowledge-building can opt for our master’s program. We extend our
+              support to all level aspirants to cope within a tech-driven era
+              with assured success.
+            </p>
+            <p>
+              Our globally recognized certificates help you build a strong
+              portfolio with industry validation for your skills. Unlike generic
+              courses, Learnbay’s{" "}
+              <b style={{ color: "#0072BC" }}>
+                <a
+                  href="https://www.learnbay.co/datascience/advance-data-science-certification-courses"
+                  target="_blank"
+                >
+                  data science course
+                </a>
+              </b>{" "}
+              in alliance with IBM & MS offers alluring career gains –{" "}
+            </p>
+            <br />
+            <br />
+            <ul>
+              <li>One Course Completion and Project Certifications (IBM)</li>
+              <li>One MS Certification</li>
+              <li>
+                Attractive hikes with Job offers across Vietnam and overseas
+              </li>
+            </ul>
+          </div>
+        ) : (
+          ""
+        )}
+        {cityTextDSSingapore ? (
+          <div className={styles.CitiesRightInner}>
+            <h4 style={{ fontSize: "20px" }}>
+              About a Rewarding <b>Data Scientist Course in Singapore</b> in
+              Alliance with IBM & Microsoft
+            </h4>
+            <p>
+              Singapore has seen a fast-paced rise in data-driven trends over
+              the past few years. With over forty data centers, Singapore has
+              become the 4th largest data-center market in the Asia-Pacific
+              region. Thus, the demand for skillful data scientists keeps
+              increasing in the country. Our exclusive alliance with IBM & MS
+              drives career transition success with marketable skills.
+            </p>
+            <p>
+              Learnbay, in alliance with IBM & MS, introduces a GenAI-rich
+              course syllabus. These updated modules captivate the focus of
+              working pros with stagnant careers. Its edifying modules craft a
+              bright future in data science.
+            </p>
+            <p>
+              The Asia-Pacific presence of IBM & MS anticipates a digitally
+              skilled workforce to face major risks with tactful results. Thus,
+              our alliance with these two tech giants proves an industrious step
+              toward bridging skills gaps. Indeed, Learnbay’s{" "}
+              <b>data scientist course Singapore</b> extends a fulfilling step
+              for career enthusiasts by all means.
+            </p>
+            <p>
+              The{" "}
+              <b style={{ color: "#0072bc" }}>
+                <a href="https://www.learnbay.co/" target="_blank">
+                  data science courses
+                </a>
+              </b>{" "}
+              offered by Learnbay provide a comprehensive learning environment
+              for both Singaporeans and international students. Yet, one must
+              fulfill the vital criteria set for this career upskilling and they
+              are –
+            </p>
+            <br />
+            <br />
+            <ul>
+              <li>Basic numerical skills (statistics)</li>
+              <li>Proven domain knowledge</li>
+            </ul>
+            <br />
+            <h4 style={{ fontSize: "20px" }}>
+              What career benefits will Learnbay’s{" "}
+              <b>data science course in Singapore</b> offer in alliance with IBM
+              & MS?
+            </h4>
+            <p>
+              Working pros worried about slow-paced careers and eager to revamp
+              can <b>study data science in Singapore</b> with Learnbay. Once you
+              complete the course with project tasks, you will obtain IBM & MS
+              certifications. These globally accredited certificates validate
+              your ability to sustain in today’s digital era. Currently,
+              companies look for data experts with leading-edge skills, and
+              these certificates are valid proof of the same.
+            </p>
+            <p>
+              In short, with our <b>data science training in Singapore</b>, you
+              will gain –
+            </p>
+            <br />
+
+            <ul>
+              <li>2 Course Completion and Project Certifications (IBM)</li>
+              <li>1 Microsoft Certification</li>
+              <li>Well-paid Job offers across Singapore and overseas</li>
+            </ul>
+
+            <p>
+              <b>So, who are eligible?</b>
+              <br />
+              <br />
+            </p>
+            <ul>
+              <li>A graduate from any field with a good academic record</li>
+              <li>
+                At least six months of working experience (full-time/part-time)
+              </li>
+              <li>Early and mid-career level pros</li>
+              <li>Non-IT pros with basic numeric skills</li>
+            </ul>
+
+            <p>
+              Learnbay also offers{" "}
+              <b>
+                data science courses in Singapore for international students
+              </b>{" "}
+              eager to kick-start a thriving career. Additionally, mid-career
+              level managers and leaders can enroll here to elevate their
+              decisiveness. Furthermore, BFSI, HR, and Marketing experts can opt
+              for upskilling with Learnbay’s domain-specific training.
+            </p>
+          </div>
+        ) : (
+          ""
+        )}
+        {cityTextDSSAfrica ? (
+          <div className={styles.CitiesRightInner}>
+            <h4 style={{ fontSize: "20px" }}>
+              Introducing Learnbay’s Data Science Online Course in South Africa
+              [In alliance with IBM & MS]
+            </h4>
+            <p>
+              Learnbay’s <b>data science certificate programs</b> support
+              hassle-free career shifts of working experts from diverse fields.
+              Its industry-focused course syllabus helps experts to stay
+              informed of recent trends. Meanwhile, our alliance with IBM & MS
+              increases career values with premium job offers.
+            </p>
+            <p>
+              Learnbay’s <b>data science training in South Africa</b> offers
+              live instructor-led sessions to help experts gain in-depth
+              domain-specific skills. Our partnership with IBM & MS offers a
+              scope to gain applied knowledge on the trending tools.
+              Additionally, these valuable certificates further support global
+              career-building with promising job offers.
+            </p>
+
+            <p>
+              <br />
+              Experts eager for a data-driven career can join our best data
+              science courses but before this, you must fulfil the requisites –{" "}
+            </p>
+
+            <ul>
+              <li>Applied mathematics/statistics concepts</li>
+              <li>Basic domain expertise </li>
+            </ul>
+            <br />
+            <h4 style={{ fontSize: "20px" }}>
+              What prime career gains do Learnbay’s{" "}
+              <b>data scientist courses in South Africa</b> offer?
+            </h4>
+
+            <p>
+              Learnbay’s best data science certification programs unlock a
+              successful career path with promising growth options. Working pros
+              eager to join us to drive career excellence must check their
+              eligibility here –{" "}
+            </p>
+
+            <br />
+            <ul>
+              <li>A graduate (in any field) with good academics</li>
+              <li>
+                At least 6 months of work experience (any domain,
+                full-time/part-time)
+              </li>
+              <li>Early and mid-career level pros</li>
+            </ul>
+
+            <p>
+              Once you enroll in our upskilling programs, you will unlock elite
+              features to level up your career horizons. Major career gains are
+              –
+            </p>
+
+            <br />
+            <ul>
+              <li>
+                2 IBM Certifications (Course completion & Project experience)
+              </li>
+              <li>1 MS (Microsoft) Certification</li>
+              <li>Early and mid-career level pros</li>
+              <li>Advantageous job offers across South Africa and overseas </li>
+            </ul>
+          </div>
+        ) : (
+          ""
+        )}
+        {cityTextBangla ? (
+          <div className={styles.CitiesRightInner}>
+            <h4 style={{ fontSize: "20px" }}>
+              Presenting Learnbay’s Data Science Certification Course in
+              Bangladesh [In Association with IBM & MS]
+            </h4>
+            <p>
+              Bangladesh is one of the digitally growing countries with infinite
+              scopes of success. The rapid growth of big data and analytics
+              alters the job market outlook in the country. All government and
+              private sector works depend on two prime data centers in
+              Bangladesh. Indeed, the demand for a data-driven culture keeps on
+              increasing, paving the way for prime job offers.
+            </p>
+            <p>
+              Amidst tech-driven shifts, the demand for industry-focused{" "}
+              <b>data science training in Bangladesh</b> soars. Working pros in
+              diverse domains come forward to upgrade their skill sets as per
+              the current data trends. Learnbay’s premium data science courses
+              support real-time career rise with 100% job support.
+            </p>
+            <p>
+              Learnbay aims for hassle-free career shifts with promising skills
+              upgrades. The industry-driven course syllabus justifies our vision
+              to revamp stagnant careers across diverse fields. Meanwhile, our
+              alliance with IBM & MS supports this dynamic approach to assure
+              career gains.
+            </p>
+            <p>
+              Working pros eager to re-establish themselves in their career
+              zones enroll in Learnbay’s{" "}
+              <b>data science course in Bangladesh.</b> Our live training
+              sessions by industry experts help you gain domain-specific
+              knowledge. Expert feedback and 1:1 doubt-clearing sessions offer
+              an in-depth learning experience.
+            </p>
+            <p>
+              Plus, Learnbay offers the best <b>data science certification</b>{" "}
+              in alliance with IBM & MS. It enriches career paths with global
+              job offers and better hikes in your dream roles.
+            </p>
+
+            <p>
+              Our upskilling programs have an inclusive learning set-up, but
+              before that, you must fulfil vital requisites. They are –
+            </p>
+            <br />
+
+            <ul>
+              <li>Basic knowledge of mathematics or statistics </li>
+              <li>Basic domain skills </li>
+            </ul>
+            <br />
+            <h4 style={{ fontSize: "20px" }}>
+              What career gains can you expect from Learnbay’s{" "}
+              <b>data science certification course?</b>
+            </h4>
+
+            <p>
+              Learnbay is widely known for the <b>best data science courses</b>
+              available in Bangladesh. It helps working from diverse fields
+              rethink their career paths and redefine them with better job
+              offers. Experts interested in having an effortless career switch
+              can opt for our premium courses. Also, to get into top-tier job
+              roles, one can opt for a master’s degree program in Data Science &
+              AI.
+            </p>
+
+            <b>
+              <p>
+                <i>You are eligible for upskilling if –</i>
+              </p>
+            </b>
+            <br />
+            <ul>
+              <li>A graduate with consistent academic records</li>
+              <li>
+                A minimum of 6 months work experience (any domain,
+                full-time/part-time)
+              </li>
+              <li>
+                Early and mid-career level, managerial level, business owners
+              </li>
+            </ul>
+
+            <p>
+              An upskilling with project-based learning will deliver valuable
+              career gains to kickstart a global career. They are –
+            </p>
+
+            <br />
+            <ul>
+              <li>
+                2 IBM Certifications (Course completion & Project experience)
+              </li>
+              <li>1 MS (Microsoft) Certification</li>
+
+              <li>Job offers with hikes across Bangladesh and overseas </li>
+            </ul>
+          </div>
+        ) : (
+          ""
+        )}
+
         {cityText ? (
           <div className={styles.CitiesRightInner}>
             <p>
@@ -2525,7 +3175,6 @@ const CitiesRight = ({
                 salary of a Data Scientist in Bengaluru is INR 11,00,000
                 annually
               </b>
-              .
             </p>
             <p>
               The{" "}
@@ -3010,9 +3659,8 @@ const CitiesRight = ({
               also reported that
               <b>
                 the market size of data science platforms is expected to be
-                worth USD 178 billion by 2025
+                worth USD 178 billion by 2025.
               </b>
-              .
             </p>
 
             <p>
@@ -3394,6 +4042,20 @@ const CitiesRight = ({
           <p className={styles.pp}>{ModuleBot43}</p>
           <p className={styles.pp}>{ModuleBot44}</p>
           <p className={styles.pp}>{ModuleBot45}</p>
+          {modulelist ? (
+            <ul className={styles.pp}>
+              <li>{Modulelist1}</li>
+              <li>{Modulelist2}</li>
+              <li>{Modulelist3}</li>
+              <li>{Modulelist4}</li>
+              <li>{Modulelist5}</li>
+              <li>{Modulelist6}</li>
+              <li>{Modulelist7}</li>
+            </ul>
+          ) : (
+            ""
+          )}
+          <p className={styles.pp}>{ModuleBot10}</p>
           {fullStackCity ? (
             <></>
           ) : (
@@ -3587,6 +4249,96 @@ const CitiesRight = ({
           <p className={styles.pp}>{JobBot10}</p>
           <h2 className={styles.pHead}>{JobHead6}</h2>
           <p className={styles.pp}>{JobBot11}</p>
+          {joblist ? (
+            <>
+              <ul className={styles.pp}>
+                <li>{Joblist1}</li>
+                <li>{Joblist2}</li>
+                <li>{Joblist3}</li>
+                <li>{Joblist4}</li>
+                <li>{Joblist5}</li>
+                <li>{Joblist6}</li>
+                <li>{Joblist7}</li>
+                <li>{Joblist8}</li>
+                <li>{Joblist9}</li>
+                <li>{Joblist10}</li>
+                <li>{Joblist11}</li>
+                <li>{Joblist12}</li>
+                <li>{Joblist13}</li>
+              </ul>
+              <p className={styles.pp}> {JobBot18}</p>
+            </>
+          ) : (
+            ""
+          )}
+
+          {showData && (
+            <>
+              <p className={styles.pp}> {JobBot19}</p>
+
+              <h4 style={{ fontSize: "20px", marginBottom: "20px" }}>
+                {" "}
+                {JobHead19}
+              </h4>
+              <p className={styles.pp}>{JobBot35} </p>
+              <p className={styles.pp}>{JobBot20} </p>
+              <i>{JobBot39}</i>
+              <ul className={styles.pp}>
+                <li>{Joblist14}</li>
+                <li>{Joblist15}</li>
+                <li>{Joblist16}</li>
+                <li>{Joblist17}</li>
+              </ul>
+              <p className={styles.pp}>{JobBot40}</p>
+              <h4 style={{ fontSize: "20px", marginBottom: "20px" }}>
+                {" "}
+                {JobHead21}
+              </h4>
+              <p className={styles.pp}>{JobBot41}</p>
+              <p className={styles.pp} style={{ margin: "20px" }}>
+                {Jobspan}
+              </p>
+
+              <h4 style={{ fontSize: "20px", marginBottom: "20px" }}>
+                {" "}
+                {JobHead30}
+              </h4>
+              <p className={styles.pp}>{JobBot21}</p>
+              <p className={styles.pp}>{JobBot22}</p>
+
+              <h4 style={{ fontSize: "20px", marginBottom: "20px" }}>
+                {" "}
+                {JobHead23}
+              </h4>
+
+              <p className={styles.pp}>{JobBot30}</p>
+              <p className={styles.pp}> </p>
+              <p className={styles.pp}>{JobBot34} </p>
+              <b>
+                {" "}
+                <i>{JobBot23}</i>
+              </b>
+              <p className={styles.pp}>{JobBot36}</p>
+              <ul className={styles.pp}>
+                <li>{Joblist18}</li>
+                <li>{Joblist19}</li>
+                <li>{Joblist20}</li>
+                <li>{Joblist21}</li>
+                <li>{Joblist22}</li>
+
+                <li>{Joblist23}</li>
+                <li>{Joblist24}</li>
+                <li>{Joblist25}</li>
+                <li>{Joblist26}</li>
+                <li>{Joblist27}</li>
+                <li>{Joblist28}</li>
+                <li>{Joblist29}</li>
+                <li>{Joblist30}</li>
+              </ul>
+              <p className={styles.pp}>{JobBot25}</p>
+              <p className={styles.pp}><i>{JobSpan1}</i></p>
+            </>
+          )}
         </div>
       </div>
       <div id="Projects">
@@ -3597,7 +4349,13 @@ const CitiesRight = ({
           <h2 className={styles.pHead}>{ProjectsHead1}</h2>
           <p className={styles.pp}>{ProjectsBot1}</p>
           <h2 className={styles.pHead}>{ProjectsHead2}</h2>
+          <p className={styles.pp}>{ProjectsBot3}</p>
+          <p className={styles.pp}>{ProjectsBot4}</p>
+          <p className={styles.pp}>{ProjectsBot5}</p>
+          <p className={styles.pp}>{ProjectsBot6}</p>
+          <p className={styles.pp}>{ProjectsBot7}</p>
           <p className={styles.pp}>{ProjectsBot2}</p>
+
           <h2 className={styles.pHead}>{ProjectsHead3}</h2>
           <p className={styles.pp}>{ProjectsBot31}</p>
           <p className={styles.pp}>{ProjectsBot32}</p>
