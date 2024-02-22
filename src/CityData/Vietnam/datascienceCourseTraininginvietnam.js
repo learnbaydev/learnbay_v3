@@ -926,14 +926,12 @@ export const DSVietnamCourseData = [
       "Recent years have seen a gradual growth of data science in Vietnam. As a result, business sectors feel the transformative impacts of data science. This alters the job market outlook and fills it with prime career options. Experts from IT/non-IT domains with part-time and full-time jobs opt for upskilling. Yet, upskilling with a common certification is worthless.",
     JobBot22:
       "Learnbay’s data science course has an alliance with IBM & MS that expands career growth limits abruptly. Its hands-on learning space equips experts with proven skills to thrive in the data science field with a bright future. With IBM & MS certificates, learners can crack their dream roles with leading MNCs.",
-    JobBot36:
-      "A data science certificate validates the skills to face industry issues and tackle them with expertise. It increases your job selection chances with prime MNCs in Vietnam and overseas. In short, career gains with Learnbay’s certification with notable results are –",
 
-    Joblist18: "GenAI-rich syllabus for realistic career development",
-    Joblist19: "Real-time simulation projects for exclusive portfolios",
-    Joblist20: "IBM & MS certifications (with premium data science programs)",
-    Joblist21: "Master’s degree from Woolf University",
-    Joblist22: "Career Service Pro (100% job assistance)",
+    Joblist50: "GenAI-rich syllabus for realistic career development",
+    Joblist51: "Real-time simulation projects for exclusive portfolios",
+    Joblist52: "IBM & MS certifications (with premium data science programs)",
+    Joblist53: "Master’s degree from Woolf University",
+    Joblist54: "Career Service Pro (100% job assistance)",
 
     JobHead22:
       "What career options can Learnbay’s data science training in Vietnam offer?",

@@ -563,12 +563,12 @@ export const DSNigeriaCourseData = [
       "Learnbay offers the best data science courses in alliance with IBM & MS that unlock global career success with top-tier MNCs.",
     JobBot23: "Take a look at proven career gains with Learnbay –",
 
-    Joblist18: "Gen AI-driven syllabus",
-    Joblist19: "Experiential learning with live projects",
-    Joblist20: "IBM & MS certifications",
-    Joblist21:
+    Joblist50: "Gen AI-driven syllabus",
+    Joblist51: "Experiential learning with live projects",
+    Joblist52: "IBM & MS certifications",
+    Joblist53:
       "Master’s degree from Woolf University with 60+ Western countries' approval",
-    Joblist22: "100% job and placement support (Career Service Pro)",
+    Joblist54: "100% job and placement support (Career Service Pro)",
 
     JobHead22:
       "What potential job roles you can unlock with Learnbay’s data science course?",

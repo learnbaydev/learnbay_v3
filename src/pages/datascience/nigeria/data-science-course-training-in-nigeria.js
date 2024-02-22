@@ -196,94 +196,7 @@ export default function Home() {
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: ` {
-              "@context": "http://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Learnbay - Data Analytics, Data Data Science Course in Pune",
-  "description": "Are you searching for the best data science courses in Pune? Learnbay is providing the best online data science course training in Pune.",
-  "url": "https://www.learnbay.co/datascience/pune/data-science-course-training-in-pune",
-  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "office no. 408, 4th floor, City Space, opposite to Fiserv, Viman Nagar",
-    "addressLocality": "Pune",
-    "addressRegion": "Maharashtra",
-    "postalCode": "411014",
-    "addressCountry": "IN"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 18.801159281162093,
-    "longitude": 73.86267542806505
-  },
-  "telephone": "(+91) 77956 87988",
-  "email": "contacts@learnbay.co",
-  "openingHoursSpecification": [
-        {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday"
-        ],
-        "opens": "10:00",
-        "closes": "18:00"
-      },
-       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Saturday"
-        ],
-        "opens": "10:00",
-        "closes": "15:00"
-     }
-  ],
-  "priceRange": "₹ 1,25,000 + 18% GST",
-  "servesCuisine": "Data Science Education",
-  "areaServed": "Bangalore",
-  "paymentAccepted": "Cash, Credit Card, Debit Card, EMI"
-  },
-  "sameAs": [
-      "https://www.facebook.com/learnbay/",
-                "https://twitter.com/Learbay",
-                "https://www.instagram.com/learnbayofficial/",
-                "https://www.youtube.com/channel/UC-ntE_GnjjiUuKYqih9ENYA",
-                "https://www.linkedin.com/company/learnbay/"
-  ]
-             
-              
-} `,
-          }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: ` {
-              "@context": "https://schema.org/", 
-  "@type": "Product", 
-  "name": "Learnbay - Data Analytics, Data Data Science Course in Pune",
-  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
-  "brand": {
-    "@type": "Brand",
-    "name": "Learnbay"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "bestRating": "5",
-    "worstRating": "1",
-    "ratingCount": "12693"
-  }
-             
-              
-} `,
-          }}
-        />
+     
       </Head>
       <main>
         {" "}
@@ -317,7 +230,7 @@ export default function Home() {
         <Realstory />
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹ 1,25,000"
+            Fee="$1700"
             FeeEmi="₹ 8,194/month"
             weekdaybatch="Weekday Batch"
             weekendbatch="Weekday  Batch"
@@ -342,6 +255,7 @@ export default function Home() {
             duration2="12 Months"
             totalAmount2="₹1,25,000"
             monthlyPayment2="₹12,291"
+            countryfee={true}
           />
         </div>
         <div className="MainCities">
@@ -472,7 +386,14 @@ export default function Home() {
               Joblist19={DSNigeriaCourseData[0].Joblist19}
               Joblist20={DSNigeriaCourseData[0].Joblist20}
               JobBot23={DSNigeriaCourseData[0].JobBot23}
+              JobBot20={DSNigeriaCourseData[0].JobBot20}
+              Joblist50={DSNigeriaCourseData[0].Joblist50}
+              Joblist51={DSNigeriaCourseData[0].Joblist51}
+              Joblist52={DSNigeriaCourseData[0].Joblist52}
+              Joblist53={DSNigeriaCourseData[0].Joblist53}
+              Joblist54={DSNigeriaCourseData[0].Joblist54}
               modulelist={true}
+              usaonly={true}
               joblist={true}
               showData={true}
               JobHead22={DSNigeriaCourseData[0].JobHead22}

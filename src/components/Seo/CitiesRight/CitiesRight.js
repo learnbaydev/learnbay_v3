@@ -63,6 +63,14 @@ const CitiesRight = ({
   DomainBot1,
   DomainBot2,
   DomainBot3,
+  DomainMasterBot1,
+  DomainMasterBot2,
+  DomainMasterBot3,
+  masterdomain,
+  
+  DomainMasterlist1,
+  DomainMasterlist2,
+  DomainMasterHead1,
   DomainBot4,
   DomainBot5,
   DomainBot6,
@@ -93,9 +101,25 @@ const CitiesRight = ({
   CertificationBot5,
   CertificationBot6,
   CertificationBot7,
+  CertificationMasterHead1,
+  CertificationMasterHead2,
+  
   src,
-
+  ModuleMasterBot1,
+  ModuleMasterBot2,
   ModuleHead1,
+  ModuleMasterHead1,
+  MasterModulelist,
+  ModuleMasterHead2,
+  ModuleMasterlist1,
+  ModuleMasterlist2,
+  ModuleMasterlist3,
+  ModuleMasterlist4,
+  ModuleMasterlist5,
+  ModuleMasterlist6,
+  ModuleMasterlist7,
+
+
   ModuleHead2,
   ModuleHead3,
   ModuleBot1,
@@ -153,6 +177,8 @@ const CitiesRight = ({
   SyllabusBotlist46,
   syllabussrc,
   JobHead1,
+  MasterJobBot1,
+  MasterJobSpan1,
   JobBot1,
   JobBot2,
   JobHead2,
@@ -206,6 +232,8 @@ const CitiesRight = ({
   Joblist19,
   Joblist20,
   Jobspan,
+  JobBotMasterBot4,
+  JobBotMasterBot5,
   Joblist21,
   Joblist22,
   JobHead22,
@@ -221,6 +249,12 @@ const CitiesRight = ({
   Joblist30,
   JobBot25,
   JobSpan1,
+  Joblist50,
+  Joblist51,
+  Joblist52,
+  Joblist53,
+  Joblist54,
+  usaonly,
   ProgramBotItaliic105,
   JobBot40,
   ProjectsBot1,
@@ -354,6 +388,7 @@ const CitiesRight = ({
   cityTextDSSingapore,
   cityTextDSSAfrica,
   cityTextBangla,
+  cityTextMasterUSA,
 }) => {
   const [read, setRead] = useState(false);
   const handler = () => {
@@ -2600,6 +2635,7 @@ const CitiesRight = ({
               switch to a rewarding career. Yet, the mandatory conditions to
               enroll in Learnbay’s program are –
             </p>
+            <br />
             <ul>
               <li>Basic know-how of mathematics/statistics concepts</li>
               <li>Good domain knowledge with basic on-field expertise</li>
@@ -2618,7 +2654,7 @@ const CitiesRight = ({
               in the USA are –
             </p>
             <br />
-            <br />
+
             <ul>
               <li>Bachelor’s degree in any field with good academics</li>
               <li>
@@ -2635,7 +2671,7 @@ const CitiesRight = ({
               skill sets to conquer a long-run career success. In short, major
               career gains are –
             </p>
-            <br />
+
             <br />
             <ul>
               <li>IBM Course Completion and Project Certifications</li>
@@ -2646,6 +2682,124 @@ const CitiesRight = ({
         ) : (
           ""
         )}
+        {cityTextMasterUSA ? (
+          <div className={styles.CitiesRightInner}>
+            <h4 style={{ fontSize: "20px" }}>
+              Presenting Learnbay’s GenAI-rich Data Science Masters Programs
+            </h4>
+            <p>
+              The USA is a digitally advanced country, welcoming huge tech
+              shifts across diverse sectors. Data science is one of the latest
+              digital creations, leading the way for data-driven insights and
+              informed decisions.
+            </p>
+            <p>
+              The <i>global data science platform expects</i> a 29% growth by
+              2029 paving the way for a data-driven future. Following the growth
+              trend, the US job market outlook sees major changes. The Bureau of
+              Labor Statistics expects a 35.2% growth in data scientist jobs in
+              the USA by 2032. Thus, working pros from diverse fields opt for
+              industry-specific upskilling to revamp their careers.
+            </p>
+            <p>
+              Experts joining our <b>data science MS programs</b> will develop
+              diverse skills and knowledge for a gainful career. Currently, most
+              learners look for customizable training programs to help them ace
+              leading job interviews. Our custom-fit syllabus is frequently
+              updated as per the GenAI trends for hassle-free learning.
+            </p>
+
+            <p>
+              We believe in uninterrupted learning, which is vital for swift
+              promotion and hikes. Thus, our{" "}
+              <b>master of data science in USA</b>
+              offers a proven job assistance program. Learners opting for{" "}
+              <i>Career Service Pro</i> will have an elite chance to mark a
+              global-scale success across MNCs in the USA & overseas.
+            </p>
+            <p>
+              In addition, an internationally accredited master’s degree (Woolf
+              University) and IBM project certificate empower your career.
+            </p>
+            <h4 style={{ fontSize: "20px" }}>
+              Course Features Advancing to a Global-level Career
+            </h4>
+            <p>
+              Learnbay’s <b>master’s degree in data science</b> helps you gain
+              job-ready skills and craft a global-level career in trending
+              roles. Course features are –
+            </p>
+            <br />
+            <ul>
+              <li>
+                {" "}
+                <b>
+                  <i>GenAI-rich Syllabus:</i>
+                </b>{" "}
+                You can upgrade your skill sets as per the latest Generative AI
+                trends. Our syllabus consists of basic and practical learning
+                modules. It ensures hands-on learning of tools via live projects
+                and case studies to attain imperative success.
+              </li>
+              <br />
+              <li>
+                {" "}
+                <b>
+                  <i>Industry-specific Mentoring:</i>
+                </b>{" "}
+                You will get industry-focused training from renowned experts
+                across MNCs. It helps you solve business issues with tactful
+                solutions.{" "}
+              </li>
+
+              <br />
+              <li>
+                {" "}
+                <b>
+                  <i>Career Service Pro:</i>
+                </b>{" "}
+                Our online <b>masters in data science USA</b> offers 100% job
+                support. Our dedicated placement cell helps you refine and
+                cultivate data literacy skills. You will get endless job support
+                here – from interview calls to resume building.{" "}
+              </li>
+              <br />
+              <li>
+                {" "}
+                <b>
+                  <i>Effortless Immigration:</i>
+                </b>{" "}
+                With our master’s program, you can have hassle-free immigration
+                facilities across 60+ countries. It expands your global
+                networking limits with increased chances of career success.{" "}
+              </li>
+              <br />
+              <li>
+                {" "}
+                <b>
+                  <i>Globally Accredited Master’s Degree:</i>
+                </b>{" "}
+                You will receive a globally recognized master’s degree (Woolf
+                University) with better job prospects. This degree enriches your
+                career value similar to a master's in 60+ Western countries.{" "}
+              </li>
+              <br />
+              <li>
+                {" "}
+                <b>
+                  <i>Globally Recognized IBM Project Certificate:</i>
+                </b>{" "}
+                Our <b>MS in data science in USA</b> offers an IBM project
+                certificate to help you join the emerging data workforce. IBM
+                certificate validates your learned skills and you can land your
+                dream job.{" "}
+              </li>
+            </ul>
+          </div>
+        ) : (
+          ""
+        )}
+
         {cityTextDSNGR ? (
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
@@ -2681,7 +2835,7 @@ const CitiesRight = ({
               the primary requisites. They are –{" "}
             </p>
             <br />
-            <br />
+
             <ul>
               <li>Basic statistics and mathematics skills</li>
               <li>Primary knowledge of domain/stream.</li>
@@ -2699,7 +2853,7 @@ const CitiesRight = ({
               with better hikes and perks. Major highlights are –
             </p>
             <br />
-            <br />
+
             <ul>
               <li>Two IBM certificates (Course & Project)</li>
               <li>One MS Certificate</li>
@@ -2892,7 +3046,7 @@ const CitiesRight = ({
               are –
             </p>
             <br />
-            <br />
+
             <ul>
               <li>Basic numerical skills (statistics)</li>
               <li>Proven domain knowledge</li>
@@ -2975,11 +3129,10 @@ const CitiesRight = ({
             </p>
 
             <p>
-              <br />
               Experts eager for a data-driven career can join our best data
               science courses but before this, you must fulfil the requisites –{" "}
             </p>
-
+            <br />
             <ul>
               <li>Applied mathematics/statistics concepts</li>
               <li>Basic domain expertise </li>
@@ -3004,7 +3157,6 @@ const CitiesRight = ({
                 At least 6 months of work experience (any domain,
                 full-time/part-time)
               </li>
-              <li>Early and mid-career level pros</li>
             </ul>
 
             <p>
@@ -3019,7 +3171,7 @@ const CitiesRight = ({
                 2 IBM Certifications (Course completion & Project experience)
               </li>
               <li>1 MS (Microsoft) Certification</li>
-              <li>Early and mid-career level pros</li>
+
               <li>Advantageous job offers across South Africa and overseas </li>
             </ul>
           </div>
@@ -3085,7 +3237,7 @@ const CitiesRight = ({
             </h4>
 
             <p>
-              Learnbay is widely known for the <b>best data science courses</b>
+              Learnbay is widely known for the <b>best data science courses</b>{" "}
               available in Bangladesh. It helps working from diverse fields
               rethink their career paths and redefine them with better job
               offers. Experts interested in having an effortless career switch
@@ -3904,6 +4056,9 @@ const CitiesRight = ({
           <p className={styles.pp}>{DomainBot11}</p>
           <p className={styles.pp}>{DomainBot12}</p>
           <p className={styles.pp}>{DomainBot3}</p>
+          <p className={styles.pp}>{DomainMasterBot1}</p>
+         
+
           {fullStackCity ? (
             <>
               <h2 className={styles.pHead}>{DomainHead3}</h2>
@@ -3969,7 +4124,20 @@ const CitiesRight = ({
               </ul>
             </>
           )}
+           <p className={styles.pp}>{DomainMasterBot2}</p>
+           <h4 style={{ fontSize: "16px"}}>{DomainMasterHead1}</h4>
+           <p className={styles.pp}>{DomainMasterBot3}</p>
+           {masterdomain ? (<>
+            <ul style={{marginTop:10}}>
+  <li>{ DomainMasterlist1}</li>
+  <li>{ DomainMasterlist2}</li>
+</ul></>):("")}
+
+
+
         </div>
+       
+        
       </div>
       {fullStackCity ? (
         <></>
@@ -3982,7 +4150,9 @@ const CitiesRight = ({
             <div>
               <h2 className={styles.pHead}>{CertificationHead1}</h2>
               <p className={styles.pp}>{CertificationBot1}</p>
+              <h4 style={{ fontSize: "16px"}}>{CertificationMasterHead1}</h4>
               <p className={styles.pp}>{CertificationBot2}</p>
+              <h4 style={{ fontSize: "16px"}}>{CertificationMasterHead2}</h4>
               <p className={styles.pp}>{CertificationBot3}</p>
             </div>
             <div>
@@ -4020,7 +4190,9 @@ const CitiesRight = ({
           <span>Module-Details</span>
         </div>
         <div className={styles.CitiesRightInner}>
+        <p className={styles.pp}>{ModuleMasterBot1}</p>
           <h2 className={styles.pHead}>{ModuleHead1}</h2>
+          <h4 style={{ fontSize: "16px"}}>{ModuleMasterHead1}</h4>
           <p className={styles.pp}>{ModuleBot1}</p>
           <p className={styles.pp}>{ModuleBot2}</p>
           <p className={styles.pp}>
@@ -4043,6 +4215,7 @@ const CitiesRight = ({
           <p className={styles.pp}>{ModuleBot44}</p>
           <p className={styles.pp}>{ModuleBot45}</p>
           {modulelist ? (
+            <>
             <ul className={styles.pp}>
               <li>{Modulelist1}</li>
               <li>{Modulelist2}</li>
@@ -4052,9 +4225,24 @@ const CitiesRight = ({
               <li>{Modulelist6}</li>
               <li>{Modulelist7}</li>
             </ul>
+         
+             </>
           ) : (
             ""
           )}
+
+         { MasterModulelist ? (<>
+          <h4 style={{ fontSize: "16px"}}>{ModuleMasterHead2}</h4>
+         <ul className={styles.pp}>
+              <li>{ModuleMasterlist1}</li>
+              <li>{ModuleMasterlist2}</li>
+              <li>{ModuleMasterlist3}</li>
+              <li>{ModuleMasterlist4}</li>
+              <li>{ModuleMasterlist5}</li>
+              <li>{ModuleMasterlist6}</li>
+              <li>{ModuleMasterlist7}</li>
+            </ul>
+            <p className={styles.pp}>{ModuleMasterBot2}</p></>):("")}
           <p className={styles.pp}>{ModuleBot10}</p>
           {fullStackCity ? (
             <></>
@@ -4233,6 +4421,8 @@ const CitiesRight = ({
         </div>
         <div className={styles.CitiesRightInner}>
           <h2 className={styles.pHead}>{JobHead1}</h2>
+            <p className={styles.pp}>{MasterJobBot1}</p>
+             <p className={styles.pp} style={{fontWeight:"bold"}}><i>{MasterJobSpan1}</i></p>
           <p className={styles.pp}>{JobBot1}</p>
           <p className={styles.pp}>{JobBot2}</p>
           <p className={styles.pp}>{JobBot5}</p>
@@ -4289,15 +4479,17 @@ const CitiesRight = ({
                 <li>{Joblist16}</li>
                 <li>{Joblist17}</li>
               </ul>
+              <p className={styles.pp}>{ JobBotMasterBot4}</p>
+              <p className={styles.pp}>{ JobBotMasterBot5}</p>
               <p className={styles.pp}>{JobBot40}</p>
+              <p className={styles.pp} style={{ margin: "20px" }}>
+                {Jobspan}
+              </p>
               <h4 style={{ fontSize: "20px", marginBottom: "20px" }}>
                 {" "}
                 {JobHead21}
               </h4>
               <p className={styles.pp}>{JobBot41}</p>
-              <p className={styles.pp} style={{ margin: "20px" }}>
-                {Jobspan}
-              </p>
 
               <h4 style={{ fontSize: "20px", marginBottom: "20px" }}>
                 {" "}
@@ -4318,14 +4510,25 @@ const CitiesRight = ({
                 {" "}
                 <i>{JobBot23}</i>
               </b>
+
+              {usaonly ? (
+                <ul>
+                  <li>{Joblist50}</li>
+                  <li>{Joblist51}</li>
+                  <li>{Joblist52}</li>
+                  <li>{Joblist53}</li>
+                  <li>{Joblist54}</li>
+                </ul>
+              ) : (
+                ""
+              )}
+              <br />
+              <h4 style={{ fontSize: "20px" }}>{JobHead22}</h4>
+              <p className={styles.pp}>{JobBot37} </p>
+              <p className={styles.pp}>{JobBot24} </p>
+
               <p className={styles.pp}>{JobBot36}</p>
               <ul className={styles.pp}>
-                <li>{Joblist18}</li>
-                <li>{Joblist19}</li>
-                <li>{Joblist20}</li>
-                <li>{Joblist21}</li>
-                <li>{Joblist22}</li>
-
                 <li>{Joblist23}</li>
                 <li>{Joblist24}</li>
                 <li>{Joblist25}</li>
@@ -4336,7 +4539,9 @@ const CitiesRight = ({
                 <li>{Joblist30}</li>
               </ul>
               <p className={styles.pp}>{JobBot25}</p>
-              <p className={styles.pp}><i>{JobSpan1}</i></p>
+              <p className={styles.pp}>
+                <i>{JobSpan1}</i>
+              </p>
             </>
           )}
         </div>
