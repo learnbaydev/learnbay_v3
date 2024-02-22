@@ -446,7 +446,7 @@ export const HeadData = [
       },
       {
         id: 3,
-        url: "privacy-policy",
+        url: "/privacy-policy",
         name: "Privacy Policy",
       },
     ],
@@ -495,7 +495,7 @@ export const genHeadData = [
       },
       {
         id: 3,
-        url: "privacy-policy",
+        url: "/privacy-policy",
         name: "Privacy Policy",
       },
     ],
