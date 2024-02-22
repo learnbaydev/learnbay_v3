@@ -298,7 +298,7 @@ export default function Home() {
         <Realstory />
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹ 1,25,000"
+            Fee="$1700 "
             FeeEmi="₹ 8,194/month"
             weekdaybatch="Weekday Batch"
             weekendbatch="Weekday  Batch"
@@ -323,6 +323,7 @@ export default function Home() {
             duration2="12 Months"
             totalAmount2="₹1,25,000"
             monthlyPayment2="₹12,291"
+            countryfee={true}
           />
         </div>
         <div className="MainCities">
@@ -359,13 +360,12 @@ export default function Home() {
               DomainList4={DSUSACourseData[0].DomainList4}
               DomainList5={DSUSACourseData[0].DomainList5}
               DomainList6={DSUSACourseData[0].DomainList6}
-              
               Domainlink1={DSUSACourseData[0].Domainlink1}
               Domainlink2={DSUSACourseData[0].Domainlink2}
               Domainlink3={DSUSACourseData[0].Domainlink3}
               Domainlink4={DSUSACourseData[0].Domainlink4}
               Domainlink5={DSUSACourseData[0].Domainlink5}
-              Domainlink6={DSUSACourseData[0].Domainlink1}
+              Domainlink6={DSUSACourseData[0].Domainlink6}
               Domainlink7={DSUSACourseData[0].Domainlink1}
               Domainlink8={DSUSACourseData[0].Domainlink1}
               Domainlink9={DSUSACourseData[0].Domainlink1}
@@ -421,7 +421,6 @@ export default function Home() {
               SyllabusBotlist46={DSUSACourseData[0].SyllabusBotlist46}
               syllabussrc={DSUSACourseData[0].syllabussrc}
               JobHead1={DSUSACourseData[0].JobHead1}
-             
               JobHead2={DSUSACourseData[0].JobHead2}
               JobBot3={DSUSACourseData[0].JobBot3}
               Joblist1={DSUSACourseData[0].Joblist1}
@@ -437,22 +436,25 @@ export default function Home() {
               Joblist11={DSUSACourseData[0].Joblist11}
               Joblist12={DSUSACourseData[0].Joblist12}
               Joblist13={DSUSACourseData[0].Joblist13}
-              JobBot19={DSUSACourseData[0].JobBot19}
               JobHead19={DSUSACourseData[0].JobHead19}
               JobBot20={DSUSACourseData[0].JobBot20}
               JobHead20={DSUSACourseData[0].JobHead20}
               Joblist14={DSUSACourseData[0].Joblist14}
-              Joblist15={DSUSACourseData[0].Joblist16}
+              Joblist15={DSUSACourseData[0].Joblist15}
               Joblist16={DSUSACourseData[0].Joblist16}
               Joblist17={DSUSACourseData[0].Joblist17}
-              Joblist18={DSUSACourseData[0].Joblist1}
               JobHead21={DSUSACourseData[0].JobHead21}
               JobBot21={DSUSACourseData[0].JobBot21}
               JobBot22={DSUSACourseData[0].JobBot22}
               Joblist21={DSUSACourseData[0].Joblist21}
               Joblist22={DSUSACourseData[0].Joblist22}
-              Joblist19={DSUSACourseData[0].Joblist19}
-              Joblist20={DSUSACourseData[0].Joblist20}
+              Joblist50={DSUSACourseData[0].Joblist50}
+              Joblist51={DSUSACourseData[0].Joblist51}
+              Joblist52={DSUSACourseData[0].Joblist52}
+              Joblist53={DSUSACourseData[0].Joblist53}
+              Joblist54={DSUSACourseData[0].Joblist54}
+              JobBot23={DSUSACourseData[0].JobBot23}
+              usaonly={true}
               modulelist={true}
               joblist={true}
               showData={true}

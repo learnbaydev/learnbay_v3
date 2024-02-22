@@ -309,6 +309,11 @@ export const CityFooterData = [
             name: "Data Science Course Training in USA",
             url: "/datascience/usa/data-science-course-training-in-usa",
           },
+          {
+            id: 1,
+            name: "Master's Degree in Data Science in USA",
+            url: "/datascience/usa/masters-degree-in-data-science-in-usa",  
+          },
         ],
       },
       {

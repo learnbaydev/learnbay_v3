@@ -451,14 +451,14 @@ export const DSUSACourseData = [
     Domainlink1:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf",
     Domainlink2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales,+Marketing+and+HR+Domain.pdf",
     Domainlink3:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Energy%2C+Oil+and+Gas+Domain.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales,+Marketing+and+HR+Domain.pdf",
     Domainlink4:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf",
     Domainlink5:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf",
-    Domainlink5: "",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf",
+    Domainlink6: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf",
     CertificationBot1:
       "IBM is one of the top-notch tech giants in the world with proven predictive analytics and machine learning solutions. Its unstoppable support to businesses with insightful solutions assures success.",
     src33:
@@ -562,11 +562,11 @@ export const DSUSACourseData = [
     JobBot22:
       "It brings career excellence with expanding earning limits and better job offers. Even non-tech experts with no coding knowledge can enroll in the data science training in USA. As Learnbay assures us to offer training for everything from scratch.       ",
     JobBot23: "Some promising career gains are here –      ",
-    Joblist18: "Project-based learning (real-time simulation projects)      ",
-    Joblist19: "Extensive upskilling with GenAI tools and trends       ",
-    Joblist20: "Valuable certifications (IBM & Microsoft)      ",
-    Joblist21: "100% job and placement support      ",
-    Joblist22:
+    Joblist50: "Project-based learning (real-time simulation projects)      ",
+    Joblist51: "Extensive upskilling with GenAI tools and trends       ",
+    Joblist52: "Valuable certifications (IBM & Microsoft)      ",
+    Joblist53: "100% job and placement support      ",
+    Joblist54:
       "Even, if you want you can earn a master degree in data science via Woolf’s University program available at Learnbay.      ",
     JobHead22:
       "What job roles can you unlock with Learnbay’s data science certificate in the USA?       ",

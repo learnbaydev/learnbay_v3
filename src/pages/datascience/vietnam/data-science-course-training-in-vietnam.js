@@ -230,7 +230,7 @@ export default function Home() {
         <Realstory />
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹ 1,25,000"
+            Fee="$1700"
             FeeEmi="₹ 8,194/month"
             weekdaybatch="Weekday Batch"
             weekendbatch="Weekday  Batch"
@@ -255,6 +255,7 @@ export default function Home() {
             duration2="12 Months"
             totalAmount2="₹1,25,000"
             monthlyPayment2="₹12,291"
+            countryfee={true}
           />
         </div>
         <div className="MainCities">
@@ -389,7 +390,13 @@ export default function Home() {
               Joblist22={DSVietnamCourseData[0].Joblist22}
               Joblist19={DSVietnamCourseData[0].Joblist19}
               Joblist20={DSVietnamCourseData[0].Joblist20}
+              Joblist50={DSVietnamCourseData[0].Joblist50}
+              Joblist51={DSVietnamCourseData[0].Joblist51}
+              Joblist52={DSVietnamCourseData[0].Joblist52}
+              Joblist53={DSVietnamCourseData[0].Joblist53}
+              Joblist54={DSVietnamCourseData[0].Joblist54}
               modulelist={true}
+              usaonly={true}
               joblist={true}
               showData={true}
               JobHead22={DSVietnamCourseData[0].JobHead22}
