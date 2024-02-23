@@ -268,7 +268,7 @@
   margin: -40px -110px -40px -80px;
 }
 
-.FloatWhatsapp {
+.FloatWhatsapp, .ChatIcon {
   margin: 0 0 30px 0 !important;
   padding-left: 0px;
   padding-right: 0px;
@@ -276,13 +276,13 @@
   z-index: 16000160 !important;
   bottom: 0 !important;
   text-align: center !important;
-  height: 50px;
-  min-width: 50px;
+  height: 45px;
+  min-width: 45px;
   border-radius: 10px;
   visibility: visible;
   transition: none !important;
   background-color: #4dc247;
-  box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
   right: 30px;
   cursor: pointer;
   display: flex;
@@ -290,10 +290,41 @@
   justify-content: center;
 }
 
+.ChatIcon {
+  background-color: #fff;
+  color: #2d9cd7;
+  padding: 8px;
+}
+
 .whatsappIcon {
   color: #fff;
   font-size: 30px;
 }
+
+.SecondIcons {
+  background-color: #fff;
+  color: #2d9cd7;
+  font-size: 30px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+  padding: 8px;
+  height: 45px;
+  width: 45px;
+  border-radius: 10px;
+
+
+
+}
+
+
+  .buttonContainer {
+    margin-top: 10px;
+    position: absolute;
+    top: -120px;
+    display: flex;
+    right: 0px;
+    gap: 5px;
+    flex-direction: column;
+  }
 
 @media (max-width: 1281px) {
   .program {

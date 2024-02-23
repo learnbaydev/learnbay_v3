@@ -163,7 +163,7 @@ function EnrollPage({ label, ...rest }) {
         throw new Error("Razorpay SDK failed to load");
       }
 
-      const response = await fetch("/api/razorpay", {
+      const response = await fetch("/api/Razorpay", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
