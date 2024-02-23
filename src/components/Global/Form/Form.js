@@ -59,6 +59,8 @@ const Form = ({
     url: router.asPath,
     Domain: "",
   });
+  const [submitting, setSubmitting] = useState(false); // State to track form submission
+
   useEffect(() => {
     setQuery({ ...query, phone: value });
     jsCookie.set("CARD", query.email, { expires: 14, secure: true });
@@ -81,7 +83,7 @@ const Form = ({
   }
   const formSubmit = async (e) => {
     e.preventDefault();
-
+    setSubmitting(true); // Set submitting state to true
     const formData = new FormData();
     Object.entries(query).forEach(([key, value]) => {
       formData.append(key, value);
@@ -157,6 +159,7 @@ const Form = ({
           );
         }
       }
+      setSubmitting(false); // Set submitting state to false after form submission
     } catch (error) {
       console.error("Error submitting form:", error.message);
     }
@@ -306,8 +309,16 @@ const Form = ({
               By submitting the form, you agree to our Terms and Conditions and
               our Privacy Policy.
             </p>
-            <button type="submit" className={styles.button}>
-              {downloadBrochure ? "Download Now" : btnText}{" "}
+            <button
+              type="submit"
+              className={styles.button}
+              disabled={submitting}
+            >
+              {submitting
+                ? "Submitting..."
+                : downloadBrochure
+                ? "Download Now"
+                : btnText}
             </button>
           </div>
         ) : (
@@ -316,8 +327,16 @@ const Form = ({
               By submitting the form, you agree to our Terms and Conditions and
               our Privacy Policy.
             </p>
-            <button type="submit" className={styles.button}>
-              {downloadBrochure ? "Download Now" : btnText}{" "}
+            <button
+              type="submit"
+              className={styles.button}
+              disabled={submitting}
+            >
+              {submitting
+                ? "Submitting..."
+                : downloadBrochure
+                ? "Download Now"
+                : btnText}
             </button>
           </>
         )}
