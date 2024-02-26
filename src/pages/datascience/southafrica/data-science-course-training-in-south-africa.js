@@ -377,6 +377,10 @@ export default function Home() {
               Joblist16={DSSouthAfricaCourseData[0].Joblist16}
               Joblist17={DSSouthAfricaCourseData[0].Joblist17}
               Joblist18={DSSouthAfricaCourseData[0].Joblist18}
+              Joblist19={DSSouthAfricaCourseData[0].Joblist19}
+              Joblist20={DSSouthAfricaCourseData[0].Joblist20}
+              Joblist21={DSSouthAfricaCourseData[0].Joblist21}
+              Joblist22={DSSouthAfricaCourseData[0].Joblist22}
               JobHead21={DSSouthAfricaCourseData[0].JobHead21}
               JobBot21={DSSouthAfricaCourseData[0].JobBot21}
               JobBot22={DSSouthAfricaCourseData[0].JobBot22}
