@@ -1,6 +1,6 @@
 //razorpay.js
-const Razorpay = require("razorpay");
-const shortid = require("shortid");
+import Razorpay from 'razorpay';
+import shortid from "shortid";
 
 export default async function handler(req, res) {
   const { totalPrice } = req.body;
