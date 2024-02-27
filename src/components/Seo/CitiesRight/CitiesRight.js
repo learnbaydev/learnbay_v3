@@ -64,10 +64,11 @@ const CitiesRight = ({
   DomainBot2,
   DomainBot3,
   DomainMasterBot1,
+  DomainMasterh4,
   DomainMasterBot2,
   DomainMasterBot3,
   masterdomain,
-  
+
   DomainMasterlist1,
   DomainMasterlist2,
   DomainMasterHead1,
@@ -103,7 +104,7 @@ const CitiesRight = ({
   CertificationBot7,
   CertificationMasterHead1,
   CertificationMasterHead2,
-  
+
   src,
   ModuleMasterBot1,
   ModuleMasterBot2,
@@ -118,7 +119,6 @@ const CitiesRight = ({
   ModuleMasterlist5,
   ModuleMasterlist6,
   ModuleMasterlist7,
-
 
   ModuleHead2,
   ModuleHead3,
@@ -385,6 +385,7 @@ const CitiesRight = ({
   showData,
   cityTextDSNGR,
   cityTextDSVM,
+  cityTextVI,
   cityTextDSSingapore,
   cityTextDSSAfrica,
   cityTextBangla,
@@ -2702,6 +2703,20 @@ const CitiesRight = ({
               industry-specific upskilling to revamp their careers.
             </p>
             <p>
+              <b>Top data science masters programs in USA</b> attract working
+              pro’s focus for a smooth career switch. Yet, it does not
+              necessarily justify career building with the latest tools useful
+              to various domains. Learnbay’s{" "}
+              <a style={{color:"#0072bc"}}
+                href="https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs"
+                target="_blank"
+              >
+                master’s degree in data science
+              </a>{" "}
+              focuses on domain-driven upskilling. It supports tech and non-tech
+              experts to redefine their careers globally.
+            </p>
+            <p>
               Experts joining our <b>data science MS programs</b> will develop
               diverse skills and knowledge for a gainful career. Currently, most
               learners look for customizable training programs to help them ace
@@ -2721,6 +2736,7 @@ const CitiesRight = ({
               In addition, an internationally accredited master’s degree (Woolf
               University) and IBM project certificate empower your career.
             </p>
+            <br/>
             <h4 style={{ fontSize: "20px" }}>
               Course Features Advancing to a Global-level Career
             </h4>
@@ -2892,7 +2908,7 @@ const CitiesRight = ({
             <h4 style={{ fontSize: "20px" }}>
               Overview of Learnbay’s Premium{" "}
               <b>Data Science Training in Vietnam</b> [In Alliance with IBM &
-              Microsoft]
+              
             </h4>
             <p>
               Learnbay’s <b>data science training in Vietnam</b> unleashes an
@@ -3005,6 +3021,78 @@ const CitiesRight = ({
         ) : (
           ""
         )}
+        {cityTextVI ? (
+  <div className={styles.CitiesRightInner}>
+    <h4 style={{ fontSize: "20px" }}>
+    Tổng quan về Khóa đào tạo Khoa học Dữ liệu Cao cấp của Learnbay tại Việt Nam [Liên minh với IBM & Microsoft]
+    </h4>
+    <p>
+      <b>Khóa đào tạo khoa học dữ liệu của Learnbay tại Việt Nam</b> mở ra một không gian xây dựng sự nghiệp bao trùm để trang bị cho bạn những kỹ năng phù hợp với nhu cầu công việc. Sự hiện diện toàn cầu của IBM & MS thu hút các chuyên gia ở mức độ sớm và trung cấp để định nghĩa lại bộ kỹ năng của họ. Liên minh của chúng tôi với những ông lớn công nghệ cung cấp một phạm vi để tái thiết lập một sự nghiệp quy mô toàn cầu trong lĩnh vực khoa học dữ liệu.
+    </p>
+    <p>
+      Nền kinh tế số của Việt Nam phụ thuộc nhiều vào sự gia tăng nhanh chóng của khoa học dữ liệu trong các ngành chính. Thị trường dữ liệu của Việt Nam dự kiến sẽ tăng 5,32% vào năm 2027, tận dụng mạnh mẽ các lợi ích kinh doanh. Do đó, quốc gia này đang chứng kiến sự tăng trưởng trong nhu cầu về các nhà khoa học dữ liệu. Phạm vi tăng trưởng của nó trên thị trường thu hút nhiều chuyên gia làm việc để dẫn đầu.
+    </p>
+    <p>
+      Do đó, các chuyên gia dự kiến một sự gia tăng nhanh chóng về việc làm cho nhà khoa học dữ liệu trên toàn quốc. Tuy nhiên, điều này đòi hỏi các kỹ năng được chứng minh với các công cụ dữ liệu đáng chú ý để giải quyết các vấn đề một cách thành thạo. Liên minh của Learnbay với IBM & MS giúp các chuyên gia thực hiện ước mơ chuyển đổi sự nghiệp của họ và đạt được các vai trò công việc phát triển.
+    </p>
+    <p>
+      Tỷ lệ nhập học cho các <b style={{ color: "#0072BC" }}>
+        <a href="https://www.learnbay.co/" target="_blank">
+          chương trình chứng chỉ khoa học dữ liệu
+        </a>
+      </b> ở Việt Nam tiếp tục tăng do nhu cầu của ngành công nghiệp. Tuy nhiên, nhiều chuyên gia phải từ bỏ quyết định chuyển đổi sự nghiệp của họ vì họ cần nhiều hơn là kiến thức và kỹ năng tối thiểu.
+    </p>
+    <p>
+      Nếu bạn ao ước trở thành một nhà khoa học dữ liệu thành công với các chứng chỉ của IBM & MS, hãy kiểm tra xem bạn có đáp ứng được các tiêu chí sau không –
+      <br />
+      <br />
+    </p>
+    <ul>
+      <li>Kiến thức cơ bản về toán ứng dụng/thống kê</li>
+      <li>Kiến thức cơ bản về các lĩnh vực chuyên ngành.</li>
+    </ul>
+    <br />
+    <h4 style={{ fontSize: "20px" }}>
+      Làm thế nào Khóa học <b>khoa học dữ liệu của Learnbay</b> phối hợp với IBM & MS nâng cao sự nghiệp của bạn?
+    </h4>
+    <p>
+      Việt Nam đang tiến triển trong ngành công nghiệp khoa học dữ liệu với nhiều lựa chọn sự nghiệp. Các chuyên gia háo hức chuyển đổi sự nghiệp vào lĩnh vực khoa học dữ liệu đang tăng cường kỹ năng. Khoa học dữ liệu là một lĩnh vực linh hoạt với sự tích hợp mượt mà với các ngành hàng dẫn đầu. Do đó, xác nhận kỹ năng là rất quan trọng để chứng minh sự thành thạo của bạn và xử lý các nhiệm vụ một cách khéo léo.
+    </p>
+    <p>
+      Vậy, ai được xem là phù hợp để tham gia vào các <b>chương trình chứng chỉ khoa học dữ liệu của Learnbay?</b>
+    </p>
+    <br />
+    <ul>
+      <li>Một sinh viên tốt nghiệp có hồ sơ học tập nhất quán (bất kỳ Ngành/Ngành nghề nào)</li>
+      <li>Ít nhất là sáu tháng kinh nghiệm làm việc toàn thời gian/bán thời gian</li>
+      <li>Các chuyên gia ở mức độ sớm và trung cấp (IT/Không phải IT) quan tâm đến các vai trò khoa học dữ liệu</li>
+    </ul>
+    <br />
+    <p>
+      Hơn nữa, các chuyên gia làm việc ở cấp quản lý có thể lựa chọn khóa học khoa học dữ liệu của Learnbay tại Việt Nam để đưa ra các quyết định có tính thực tế hơn. Các chuyên gia đang tìm kiếm sự thăng tiến sự nghiệp với sự xây dựng kiến thức sâu rộng có thể chọn chương trình thạc sĩ của chúng tôi. Chúng tôi mở rộng sự hỗ trợ của mình cho tất cả các ứng viên cấp độ để vươn lên trong một thời đại được công nghệ hóa với thành công đảm bảo.
+    </p>
+    <p>
+      Các chứng chỉ được công nhận toàn cầu của chúng tôi giúp bạn xây dựng một hồ sơ mạnh mẽ với sự chứng nhận của ngành công nghiệp cho kỹ năng của bạn. Khóa học <b style={{ color: "#0072BC" }}>
+        <a
+          href="https://www.learnbay.co/datascience/advance-data-science-certification-courses"
+          target="_blank"
+        >
+          khoa học dữ liệu
+        </a>
+      </b> ở Liên minh với IBM & MS cung cấp các lợi ích sự nghiệp hấp dẫn –
+    </p>
+    <br />
+    <br />
+    <ul>
+      <li>Một Chứng chỉ Hoàn thành Khóa học và Dự án (IBM)</li>
+      <li>Một Chứng chỉ MS</li>
+      <li>Tăng lương hấp dẫn cùng các cơ hội việc làm trong và ngoài Việt Nam</li>
+    </ul>
+  </div>
+) : (
+  ""
+)}
+
         {cityTextDSSingapore ? (
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
@@ -4057,7 +4145,7 @@ const CitiesRight = ({
           <p className={styles.pp}>{DomainBot12}</p>
           <p className={styles.pp}>{DomainBot3}</p>
           <p className={styles.pp}>{DomainMasterBot1}</p>
-         
+          <h4  style={{ fontSize: "16px" }}>{DomainMasterh4}</h4>
 
           {fullStackCity ? (
             <>
@@ -4124,20 +4212,20 @@ const CitiesRight = ({
               </ul>
             </>
           )}
-           <p className={styles.pp}>{DomainMasterBot2}</p>
-           <h4 style={{ fontSize: "16px"}}>{DomainMasterHead1}</h4>
-           <p className={styles.pp}>{DomainMasterBot3}</p>
-           {masterdomain ? (<>
-            <ul style={{marginTop:10}}>
-  <li>{ DomainMasterlist1}</li>
-  <li>{ DomainMasterlist2}</li>
-</ul></>):("")}
-
-
-
+          <p className={styles.pp}>{DomainMasterBot2}</p>
+          <h4 style={{ fontSize: "16px" }}>{DomainMasterHead1}</h4>
+          <p className={styles.pp}>{DomainMasterBot3}</p>
+          {masterdomain ? (
+            <>
+              <ul style={{ marginTop: 10 }}>
+                <li>{DomainMasterlist1}</li>
+                <li>{DomainMasterlist2}</li>
+              </ul>
+            </>
+          ) : (
+            ""
+          )}
         </div>
-       
-        
       </div>
       {fullStackCity ? (
         <></>
@@ -4150,9 +4238,9 @@ const CitiesRight = ({
             <div>
               <h2 className={styles.pHead}>{CertificationHead1}</h2>
               <p className={styles.pp}>{CertificationBot1}</p>
-              <h4 style={{ fontSize: "16px"}}>{CertificationMasterHead1}</h4>
+              <h4 style={{ fontSize: "16px" }}>{CertificationMasterHead1}</h4>
               <p className={styles.pp}>{CertificationBot2}</p>
-              <h4 style={{ fontSize: "16px"}}>{CertificationMasterHead2}</h4>
+              <h4 style={{ fontSize: "16px" }}>{CertificationMasterHead2}</h4>
               <p className={styles.pp}>{CertificationBot3}</p>
             </div>
             <div>
@@ -4190,9 +4278,9 @@ const CitiesRight = ({
           <span>Module-Details</span>
         </div>
         <div className={styles.CitiesRightInner}>
-        <p className={styles.pp}>{ModuleMasterBot1}</p>
+          <p className={styles.pp}>{ModuleMasterBot1}</p>
           <h2 className={styles.pHead}>{ModuleHead1}</h2>
-          <h4 style={{ fontSize: "16px"}}>{ModuleMasterHead1}</h4>
+          <h4 style={{ fontSize: "16px" }}>{ModuleMasterHead1}</h4>
           <p className={styles.pp}>{ModuleBot1}</p>
           <p className={styles.pp}>{ModuleBot2}</p>
           <p className={styles.pp}>
@@ -4216,33 +4304,37 @@ const CitiesRight = ({
           <p className={styles.pp}>{ModuleBot45}</p>
           {modulelist ? (
             <>
-            <ul className={styles.pp}>
-              <li>{Modulelist1}</li>
-              <li>{Modulelist2}</li>
-              <li>{Modulelist3}</li>
-              <li>{Modulelist4}</li>
-              <li>{Modulelist5}</li>
-              <li>{Modulelist6}</li>
-              <li>{Modulelist7}</li>
-            </ul>
-         
-             </>
+              <ul className={styles.pp}>
+                <li>{Modulelist1}</li>
+                <li>{Modulelist2}</li>
+                <li>{Modulelist3}</li>
+                <li>{Modulelist4}</li>
+                <li>{Modulelist5}</li>
+                <li>{Modulelist6}</li>
+                <li>{Modulelist7}</li>
+              </ul>
+            </>
           ) : (
             ""
           )}
 
-         { MasterModulelist ? (<>
-          <h4 style={{ fontSize: "16px"}}>{ModuleMasterHead2}</h4>
-         <ul className={styles.pp}>
-              <li>{ModuleMasterlist1}</li>
-              <li>{ModuleMasterlist2}</li>
-              <li>{ModuleMasterlist3}</li>
-              <li>{ModuleMasterlist4}</li>
-              <li>{ModuleMasterlist5}</li>
-              <li>{ModuleMasterlist6}</li>
-              <li>{ModuleMasterlist7}</li>
-            </ul>
-            <p className={styles.pp}>{ModuleMasterBot2}</p></>):("")}
+          {MasterModulelist ? (
+            <>
+              <h4 style={{ fontSize: "16px" }}>{ModuleMasterHead2}</h4>
+              <ul className={styles.pp}>
+                <li>{ModuleMasterlist1}</li>
+                <li>{ModuleMasterlist2}</li>
+                <li>{ModuleMasterlist3}</li>
+                <li>{ModuleMasterlist4}</li>
+                <li>{ModuleMasterlist5}</li>
+                <li>{ModuleMasterlist6}</li>
+                <li>{ModuleMasterlist7}</li>
+              </ul>
+              <p className={styles.pp}>{ModuleMasterBot2}</p>
+            </>
+          ) : (
+            ""
+          )}
           <p className={styles.pp}>{ModuleBot10}</p>
           {fullStackCity ? (
             <></>
@@ -4421,8 +4513,10 @@ const CitiesRight = ({
         </div>
         <div className={styles.CitiesRightInner}>
           <h2 className={styles.pHead}>{JobHead1}</h2>
-            <p className={styles.pp}>{MasterJobBot1}</p>
-             <p className={styles.pp} style={{fontWeight:"bold"}}><i>{MasterJobSpan1}</i></p>
+          <p className={styles.pp}>{MasterJobBot1}</p>
+          <p className={styles.pp} style={{ fontWeight: "bold" }}>
+            <i>{MasterJobSpan1}</i>
+          </p>
           <p className={styles.pp}>{JobBot1}</p>
           <p className={styles.pp}>{JobBot2}</p>
           <p className={styles.pp}>{JobBot5}</p>
@@ -4479,8 +4573,8 @@ const CitiesRight = ({
                 <li>{Joblist16}</li>
                 <li>{Joblist17}</li>
               </ul>
-              <p className={styles.pp}>{ JobBotMasterBot4}</p>
-              <p className={styles.pp}>{ JobBotMasterBot5}</p>
+              <p className={styles.pp}>{JobBotMasterBot4}</p>
+              <p className={styles.pp}>{JobBotMasterBot5}</p>
               <p className={styles.pp}>{JobBot40}</p>
               <p className={styles.pp} style={{ margin: "20px" }}>
                 {Jobspan}
@@ -4519,9 +4613,11 @@ const CitiesRight = ({
                   <li>{Joblist53}</li>
                   <li>{Joblist54}</li>
                 </ul>
+                  
               ) : (
                 ""
               )}
+ <p className={styles.pp}>{JobBotMasterBot5}</p>
               <br />
               <h4 style={{ fontSize: "20px" }}>{JobHead22}</h4>
               <p className={styles.pp}>{JobBot37} </p>

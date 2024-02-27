@@ -88,7 +88,7 @@ export default function Home() {
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/Vietnam/data-science-course-training-in-Vietnam"
+          content="https://www.learnbay.co/datascience/vietnam/data-science-course-training-in-vietnam"
         />
         <meta
           property="og:title"
@@ -119,7 +119,7 @@ export default function Home() {
         />
         <meta
           name="twitter:description"
-          content="Data science course in Chennai. Learnbay is Advanced Data Science Course Training Institute in Chennai. Data science course in Chennai will enhance your career"
+          content="Data science course in Vietnam. Learnbay is Advanced Data Science Course Training Institute in Chennai. Data science course in Chennai will enhance your career"
         />
         <meta
           name="twitter:image"
@@ -127,7 +127,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/Vietnam/data-science-course-training-in-Vietnam"
+          href="https://www.learnbay.co/datascience/vietnam/data-science-course-training-in-vietnam"
         />
         {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}
@@ -143,7 +143,7 @@ export default function Home() {
         {/* <meta name="robots" content="ALL" /> */}
         <meta
           property="og:url"
-          content="https://www.learnbay.co/data-science-course-training-in-Vietnam"
+          content="https://www.learnbay.co/datascience/vietnam/data-science-course-training-in-vietnam"
         />
         <meta
           property="og:title"
@@ -151,7 +151,7 @@ export default function Home() {
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/data-science-course-training-in-Vietnam"
+          content="https://www.learnbay.co/datascience/vietnam/data-science-course-training-in-vietnam"
         />
         <meta
           property="og:title"
