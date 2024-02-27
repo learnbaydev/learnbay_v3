@@ -10,6 +10,7 @@ import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
 import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
 import YoutubeVideo from "../../../components/Seo/YoutubeVideo/YoutubeVideo";
 import styles from "../../../styles/Home.module.css";
+import Map from "@/components/Seo/Maps/Maps";
 const FirstSection = dynamic(() =>
   import("../../../components/Seo/FirstSection/FirstSection")
 );
@@ -435,7 +436,9 @@ export default function Home() {
           </div>
         </div>
         <SeventhSection />
+        <Map/>
         <CityText CityText={true} />
+
         <Footer />
         {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
       </main>

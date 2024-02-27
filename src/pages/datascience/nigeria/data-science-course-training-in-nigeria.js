@@ -88,7 +88,7 @@ export default function Home() {
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/Nigeria/data-science-course-training-in-Nigeria"
+          content="https://www.learnbay.co/datascience/nigeria/data-science-course-training-in-nigeria"
         />
         <meta
           property="og:title"
@@ -127,7 +127,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/Nigeria/data-science-course-training-in-Nigeria"
+          href="https://www.learnbay.co/datascience/nigeria/data-science-course-training-in-nigeria"
         />
         {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}
@@ -143,7 +143,7 @@ export default function Home() {
         {/* <meta name="robots" content="ALL" /> */}
         <meta
           property="og:url"
-          content="https://www.learnbay.co/data-science-course-training-in-Nigeria"
+          content="https://www.learnbay.co/datascience/nigeria/data-science-course-training-in-nigeria"
         />
         <meta
           property="og:title"
@@ -151,7 +151,7 @@ export default function Home() {
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/data-science-course-training-in-Nigeria"
+          content="https://www.learnbay.co/datascience/nigeria/data-science-course-training-in-nigeria"
         />
         <meta
           property="og:title"

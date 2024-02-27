@@ -64,10 +64,11 @@ const CitiesRight = ({
   DomainBot2,
   DomainBot3,
   DomainMasterBot1,
+  DomainMasterh4,
   DomainMasterBot2,
   DomainMasterBot3,
   masterdomain,
-  
+
   DomainMasterlist1,
   DomainMasterlist2,
   DomainMasterHead1,
@@ -103,7 +104,7 @@ const CitiesRight = ({
   CertificationBot7,
   CertificationMasterHead1,
   CertificationMasterHead2,
-  
+
   src,
   ModuleMasterBot1,
   ModuleMasterBot2,
@@ -118,7 +119,6 @@ const CitiesRight = ({
   ModuleMasterlist5,
   ModuleMasterlist6,
   ModuleMasterlist7,
-
 
   ModuleHead2,
   ModuleHead3,
@@ -2702,6 +2702,20 @@ const CitiesRight = ({
               industry-specific upskilling to revamp their careers.
             </p>
             <p>
+              <b>Top data science masters programs in USA</b> attract working
+              pro’s focus for a smooth career switch. Yet, it does not
+              necessarily justify career building with the latest tools useful
+              to various domains. Learnbay’s{" "}
+              <a style={{color:"#0072bc"}}
+                href="https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs"
+                target="_blank"
+              >
+                master’s degree in data science
+              </a>{" "}
+              focuses on domain-driven upskilling. It supports tech and non-tech
+              experts to redefine their careers globally.
+            </p>
+            <p>
               Experts joining our <b>data science MS programs</b> will develop
               diverse skills and knowledge for a gainful career. Currently, most
               learners look for customizable training programs to help them ace
@@ -2721,6 +2735,7 @@ const CitiesRight = ({
               In addition, an internationally accredited master’s degree (Woolf
               University) and IBM project certificate empower your career.
             </p>
+            <br/>
             <h4 style={{ fontSize: "20px" }}>
               Course Features Advancing to a Global-level Career
             </h4>
@@ -4057,7 +4072,7 @@ const CitiesRight = ({
           <p className={styles.pp}>{DomainBot12}</p>
           <p className={styles.pp}>{DomainBot3}</p>
           <p className={styles.pp}>{DomainMasterBot1}</p>
-         
+          <h4  style={{ fontSize: "16px" }}>{DomainMasterh4}</h4>
 
           {fullStackCity ? (
             <>
@@ -4124,20 +4139,20 @@ const CitiesRight = ({
               </ul>
             </>
           )}
-           <p className={styles.pp}>{DomainMasterBot2}</p>
-           <h4 style={{ fontSize: "16px"}}>{DomainMasterHead1}</h4>
-           <p className={styles.pp}>{DomainMasterBot3}</p>
-           {masterdomain ? (<>
-            <ul style={{marginTop:10}}>
-  <li>{ DomainMasterlist1}</li>
-  <li>{ DomainMasterlist2}</li>
-</ul></>):("")}
-
-
-
+          <p className={styles.pp}>{DomainMasterBot2}</p>
+          <h4 style={{ fontSize: "16px" }}>{DomainMasterHead1}</h4>
+          <p className={styles.pp}>{DomainMasterBot3}</p>
+          {masterdomain ? (
+            <>
+              <ul style={{ marginTop: 10 }}>
+                <li>{DomainMasterlist1}</li>
+                <li>{DomainMasterlist2}</li>
+              </ul>
+            </>
+          ) : (
+            ""
+          )}
         </div>
-       
-        
       </div>
       {fullStackCity ? (
         <></>
@@ -4150,9 +4165,9 @@ const CitiesRight = ({
             <div>
               <h2 className={styles.pHead}>{CertificationHead1}</h2>
               <p className={styles.pp}>{CertificationBot1}</p>
-              <h4 style={{ fontSize: "16px"}}>{CertificationMasterHead1}</h4>
+              <h4 style={{ fontSize: "16px" }}>{CertificationMasterHead1}</h4>
               <p className={styles.pp}>{CertificationBot2}</p>
-              <h4 style={{ fontSize: "16px"}}>{CertificationMasterHead2}</h4>
+              <h4 style={{ fontSize: "16px" }}>{CertificationMasterHead2}</h4>
               <p className={styles.pp}>{CertificationBot3}</p>
             </div>
             <div>
@@ -4190,9 +4205,9 @@ const CitiesRight = ({
           <span>Module-Details</span>
         </div>
         <div className={styles.CitiesRightInner}>
-        <p className={styles.pp}>{ModuleMasterBot1}</p>
+          <p className={styles.pp}>{ModuleMasterBot1}</p>
           <h2 className={styles.pHead}>{ModuleHead1}</h2>
-          <h4 style={{ fontSize: "16px"}}>{ModuleMasterHead1}</h4>
+          <h4 style={{ fontSize: "16px" }}>{ModuleMasterHead1}</h4>
           <p className={styles.pp}>{ModuleBot1}</p>
           <p className={styles.pp}>{ModuleBot2}</p>
           <p className={styles.pp}>
@@ -4216,33 +4231,37 @@ const CitiesRight = ({
           <p className={styles.pp}>{ModuleBot45}</p>
           {modulelist ? (
             <>
-            <ul className={styles.pp}>
-              <li>{Modulelist1}</li>
-              <li>{Modulelist2}</li>
-              <li>{Modulelist3}</li>
-              <li>{Modulelist4}</li>
-              <li>{Modulelist5}</li>
-              <li>{Modulelist6}</li>
-              <li>{Modulelist7}</li>
-            </ul>
-         
-             </>
+              <ul className={styles.pp}>
+                <li>{Modulelist1}</li>
+                <li>{Modulelist2}</li>
+                <li>{Modulelist3}</li>
+                <li>{Modulelist4}</li>
+                <li>{Modulelist5}</li>
+                <li>{Modulelist6}</li>
+                <li>{Modulelist7}</li>
+              </ul>
+            </>
           ) : (
             ""
           )}
 
-         { MasterModulelist ? (<>
-          <h4 style={{ fontSize: "16px"}}>{ModuleMasterHead2}</h4>
-         <ul className={styles.pp}>
-              <li>{ModuleMasterlist1}</li>
-              <li>{ModuleMasterlist2}</li>
-              <li>{ModuleMasterlist3}</li>
-              <li>{ModuleMasterlist4}</li>
-              <li>{ModuleMasterlist5}</li>
-              <li>{ModuleMasterlist6}</li>
-              <li>{ModuleMasterlist7}</li>
-            </ul>
-            <p className={styles.pp}>{ModuleMasterBot2}</p></>):("")}
+          {MasterModulelist ? (
+            <>
+              <h4 style={{ fontSize: "16px" }}>{ModuleMasterHead2}</h4>
+              <ul className={styles.pp}>
+                <li>{ModuleMasterlist1}</li>
+                <li>{ModuleMasterlist2}</li>
+                <li>{ModuleMasterlist3}</li>
+                <li>{ModuleMasterlist4}</li>
+                <li>{ModuleMasterlist5}</li>
+                <li>{ModuleMasterlist6}</li>
+                <li>{ModuleMasterlist7}</li>
+              </ul>
+              <p className={styles.pp}>{ModuleMasterBot2}</p>
+            </>
+          ) : (
+            ""
+          )}
           <p className={styles.pp}>{ModuleBot10}</p>
           {fullStackCity ? (
             <></>
@@ -4421,8 +4440,10 @@ const CitiesRight = ({
         </div>
         <div className={styles.CitiesRightInner}>
           <h2 className={styles.pHead}>{JobHead1}</h2>
-            <p className={styles.pp}>{MasterJobBot1}</p>
-             <p className={styles.pp} style={{fontWeight:"bold"}}><i>{MasterJobSpan1}</i></p>
+          <p className={styles.pp}>{MasterJobBot1}</p>
+          <p className={styles.pp} style={{ fontWeight: "bold" }}>
+            <i>{MasterJobSpan1}</i>
+          </p>
           <p className={styles.pp}>{JobBot1}</p>
           <p className={styles.pp}>{JobBot2}</p>
           <p className={styles.pp}>{JobBot5}</p>
@@ -4479,8 +4500,8 @@ const CitiesRight = ({
                 <li>{Joblist16}</li>
                 <li>{Joblist17}</li>
               </ul>
-              <p className={styles.pp}>{ JobBotMasterBot4}</p>
-              <p className={styles.pp}>{ JobBotMasterBot5}</p>
+              <p className={styles.pp}>{JobBotMasterBot4}</p>
+              <p className={styles.pp}>{JobBotMasterBot5}</p>
               <p className={styles.pp}>{JobBot40}</p>
               <p className={styles.pp} style={{ margin: "20px" }}>
                 {Jobspan}
@@ -4519,9 +4540,11 @@ const CitiesRight = ({
                   <li>{Joblist53}</li>
                   <li>{Joblist54}</li>
                 </ul>
+                  
               ) : (
                 ""
               )}
+ <p className={styles.pp}>{JobBotMasterBot5}</p>
               <br />
               <h4 style={{ fontSize: "20px" }}>{JobHead22}</h4>
               <p className={styles.pp}>{JobBot37} </p>
