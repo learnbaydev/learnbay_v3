@@ -385,6 +385,7 @@ const CitiesRight = ({
   showData,
   cityTextDSNGR,
   cityTextDSVM,
+  cityTextVI,
   cityTextDSSingapore,
   cityTextDSSAfrica,
   cityTextBangla,
@@ -2907,7 +2908,7 @@ const CitiesRight = ({
             <h4 style={{ fontSize: "20px" }}>
               Overview of Learnbay’s Premium{" "}
               <b>Data Science Training in Vietnam</b> [In Alliance with IBM &
-              Microsoft]
+              
             </h4>
             <p>
               Learnbay’s <b>data science training in Vietnam</b> unleashes an
@@ -3020,6 +3021,78 @@ const CitiesRight = ({
         ) : (
           ""
         )}
+        {cityTextVI ? (
+  <div className={styles.CitiesRightInner}>
+    <h4 style={{ fontSize: "20px" }}>
+    Tổng quan về Khóa đào tạo Khoa học Dữ liệu Cao cấp của Learnbay tại Việt Nam [Liên minh với IBM & Microsoft]
+    </h4>
+    <p>
+      <b>Khóa đào tạo khoa học dữ liệu của Learnbay tại Việt Nam</b> mở ra một không gian xây dựng sự nghiệp bao trùm để trang bị cho bạn những kỹ năng phù hợp với nhu cầu công việc. Sự hiện diện toàn cầu của IBM & MS thu hút các chuyên gia ở mức độ sớm và trung cấp để định nghĩa lại bộ kỹ năng của họ. Liên minh của chúng tôi với những ông lớn công nghệ cung cấp một phạm vi để tái thiết lập một sự nghiệp quy mô toàn cầu trong lĩnh vực khoa học dữ liệu.
+    </p>
+    <p>
+      Nền kinh tế số của Việt Nam phụ thuộc nhiều vào sự gia tăng nhanh chóng của khoa học dữ liệu trong các ngành chính. Thị trường dữ liệu của Việt Nam dự kiến sẽ tăng 5,32% vào năm 2027, tận dụng mạnh mẽ các lợi ích kinh doanh. Do đó, quốc gia này đang chứng kiến sự tăng trưởng trong nhu cầu về các nhà khoa học dữ liệu. Phạm vi tăng trưởng của nó trên thị trường thu hút nhiều chuyên gia làm việc để dẫn đầu.
+    </p>
+    <p>
+      Do đó, các chuyên gia dự kiến một sự gia tăng nhanh chóng về việc làm cho nhà khoa học dữ liệu trên toàn quốc. Tuy nhiên, điều này đòi hỏi các kỹ năng được chứng minh với các công cụ dữ liệu đáng chú ý để giải quyết các vấn đề một cách thành thạo. Liên minh của Learnbay với IBM & MS giúp các chuyên gia thực hiện ước mơ chuyển đổi sự nghiệp của họ và đạt được các vai trò công việc phát triển.
+    </p>
+    <p>
+      Tỷ lệ nhập học cho các <b style={{ color: "#0072BC" }}>
+        <a href="https://www.learnbay.co/" target="_blank">
+          chương trình chứng chỉ khoa học dữ liệu
+        </a>
+      </b> ở Việt Nam tiếp tục tăng do nhu cầu của ngành công nghiệp. Tuy nhiên, nhiều chuyên gia phải từ bỏ quyết định chuyển đổi sự nghiệp của họ vì họ cần nhiều hơn là kiến thức và kỹ năng tối thiểu.
+    </p>
+    <p>
+      Nếu bạn ao ước trở thành một nhà khoa học dữ liệu thành công với các chứng chỉ của IBM & MS, hãy kiểm tra xem bạn có đáp ứng được các tiêu chí sau không –
+      <br />
+      <br />
+    </p>
+    <ul>
+      <li>Kiến thức cơ bản về toán ứng dụng/thống kê</li>
+      <li>Kiến thức cơ bản về các lĩnh vực chuyên ngành.</li>
+    </ul>
+    <br />
+    <h4 style={{ fontSize: "20px" }}>
+      Làm thế nào Khóa học <b>khoa học dữ liệu của Learnbay</b> phối hợp với IBM & MS nâng cao sự nghiệp của bạn?
+    </h4>
+    <p>
+      Việt Nam đang tiến triển trong ngành công nghiệp khoa học dữ liệu với nhiều lựa chọn sự nghiệp. Các chuyên gia háo hức chuyển đổi sự nghiệp vào lĩnh vực khoa học dữ liệu đang tăng cường kỹ năng. Khoa học dữ liệu là một lĩnh vực linh hoạt với sự tích hợp mượt mà với các ngành hàng dẫn đầu. Do đó, xác nhận kỹ năng là rất quan trọng để chứng minh sự thành thạo của bạn và xử lý các nhiệm vụ một cách khéo léo.
+    </p>
+    <p>
+      Vậy, ai được xem là phù hợp để tham gia vào các <b>chương trình chứng chỉ khoa học dữ liệu của Learnbay?</b>
+    </p>
+    <br />
+    <ul>
+      <li>Một sinh viên tốt nghiệp có hồ sơ học tập nhất quán (bất kỳ Ngành/Ngành nghề nào)</li>
+      <li>Ít nhất là sáu tháng kinh nghiệm làm việc toàn thời gian/bán thời gian</li>
+      <li>Các chuyên gia ở mức độ sớm và trung cấp (IT/Không phải IT) quan tâm đến các vai trò khoa học dữ liệu</li>
+    </ul>
+    <br />
+    <p>
+      Hơn nữa, các chuyên gia làm việc ở cấp quản lý có thể lựa chọn khóa học khoa học dữ liệu của Learnbay tại Việt Nam để đưa ra các quyết định có tính thực tế hơn. Các chuyên gia đang tìm kiếm sự thăng tiến sự nghiệp với sự xây dựng kiến thức sâu rộng có thể chọn chương trình thạc sĩ của chúng tôi. Chúng tôi mở rộng sự hỗ trợ của mình cho tất cả các ứng viên cấp độ để vươn lên trong một thời đại được công nghệ hóa với thành công đảm bảo.
+    </p>
+    <p>
+      Các chứng chỉ được công nhận toàn cầu của chúng tôi giúp bạn xây dựng một hồ sơ mạnh mẽ với sự chứng nhận của ngành công nghiệp cho kỹ năng của bạn. Khóa học <b style={{ color: "#0072BC" }}>
+        <a
+          href="https://www.learnbay.co/datascience/advance-data-science-certification-courses"
+          target="_blank"
+        >
+          khoa học dữ liệu
+        </a>
+      </b> ở Liên minh với IBM & MS cung cấp các lợi ích sự nghiệp hấp dẫn –
+    </p>
+    <br />
+    <br />
+    <ul>
+      <li>Một Chứng chỉ Hoàn thành Khóa học và Dự án (IBM)</li>
+      <li>Một Chứng chỉ MS</li>
+      <li>Tăng lương hấp dẫn cùng các cơ hội việc làm trong và ngoài Việt Nam</li>
+    </ul>
+  </div>
+) : (
+  ""
+)}
+
         {cityTextDSSingapore ? (
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
