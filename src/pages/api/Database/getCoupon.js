@@ -8,11 +8,10 @@ export default async function handler(req, res) {
   switch (req.method) {
     case "POST":
       let { couponCode } = req.body;
-      console.log(couponCode, "request api");
       const couponName = await db.collection("coupon").findOne({
-        couponCode: "couponCode",
+        couponCode,
       });
-      console.log(couponName, "counpin anem api");
+
       if (!couponName) {
         res.status(404).json({ msg: " Coupon is not valid" });
       } else {
