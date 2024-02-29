@@ -9,6 +9,7 @@ import Popup from "../../../components/Global/Popup/Popup";
 import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
 import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
 import styles from "../../../styles/Home.module.css";
+import Map from "@/components/Seo/Maps/Maps";
 const FirstSection = dynamic(() =>
   import("../../../components/Seo/FirstSection/FirstSection")
 );
@@ -472,6 +473,7 @@ export default function Home() {
           </div>
         </div>
         <SeventhSection />
+        <Map PuneMap={true}/>
         <CityText
           CityTextB={DSPuneCourseData[0].CityTextB}
           CityText={DSPuneCourseData[0].CityText}

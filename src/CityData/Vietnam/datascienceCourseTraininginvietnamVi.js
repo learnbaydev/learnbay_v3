@@ -1,400 +1,41 @@
 export const DSVietnamCourseData = [
   {
-    script1: {
-      "@context": "https://schema.org",
-      "@type": "NewsArticle",
-      mainEntityOfPage: {
-        "@type": "WebPage",
-        "@id": "https://www.learnbay.co/",
-      },
-      headline: "Data Science Course Training in Vietnam",
-      description:
-        "Data science course in Vietnam. Learnbay is Advanced Data Science Course Training Institute in Vietnam. Data science course in Vietnam will enhance your career",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp",
-      author: {
-        "@type": "Organization",
-        name: "Learnbay",
-        url: "https://www.learnbay.co/data-science-course-training-in-Vietnam",
-      },
-      publisher: {
-        "@type": "Organization",
-        name: "Learnbay",
-        logo: {
-          "@type": "ImageObject",
-          url: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png",
-        },
-      },
-      datePublished: "2021-10-01",
-      dateModified: "2022-04-21",
-    },
-    script2: {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "What are Data Science Training courses available at Learnbay in Vietnam?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Foundational Data Science Training Course, Advance Data Science Certification Course, Data Science Certification Course for Managers and Leaders, Data Science Training with Placement Assistance.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What are the prerequisites for these Data Science training Courses in Vietnam?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "There are no prerequisites for this Data Science Foundation course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What if I miss a few classes due to an emergency?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What is a Flexi Subscription in these advanced data science courses in Vietnam?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Placement Assistance - 3-years.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What’s the duration of these advanced data science courses in Vietnam?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9 months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13 months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15 months",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What is the mode of data science training in Vietnam at Learnbay?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What is domain specialization in the professional data science certification courses provided by Learnbay in Vietnam?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "We offer industry-specific full-stack data science modules, via which you learn the respective industry’s best practices. But this added benefit is available in all the three mentioned courses, except the foundational data science course.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What are the available elective domain options in the different data science training courses of Learnbay in Vietnam?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps; Sales, Marketing, & HR; Retail, E-Commerce, & Supply Chain; Healthcare, Pharma, & Clinical Research; BFSI; Manufacturing, Mechanical, & Telecom; Media, Hospitality, & Transportation; Oil, Gas, & Energy.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Which data science specialization domain elective is best suited for me?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for free profile review and career guidance. +917795687988",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Why is domain specialization important in professional data science certification?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "After enrolling in the advanced data science courses, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Can I select multiple domain electives and do I need to pay extra charges in any of the eligible data science courses?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. Advance Data Science and AI Certification course- Maximum 2 domains. Data Science and AI Certification Course for Managers and Leaders- All domains Data Science and AI Training with Placement Assistance- All domains No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What if I don't have any prior experience in any domain?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Can I change my domain electives later ?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What is the total fee for Data Science Certifications courses in Vietnam?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "The total course fee for the Foundational Data Science and AI Training course is 93,220/- inclusive of GST. Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST. Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST. Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Can I pay in installments for these Data Science Certification courses in Vietnam?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Is there any scholarship/discount available for these Data Science training courses available in Vietnam? What is Group Discount?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Group of 4+.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What is the refund policy for the Data Science Certification courses at Learnbay?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the course.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "How many capstone projects will be there?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Depending on the course you choose the number of capstone projects will vary. Foundational Data Science and AI Training Course - 1 Capstone. Advance Data Science and AI Certification Course -2 Capstones. Data Science and AI Certification Course for Managers and Leaders- 2 Capstones. Data Science and AI Training with Placement Assistance- 3 Capstones. How many real-time projects/case studies will be covered in these Data Science certification courses in Vietnam? Depending on the course you choose the number of live projects will vary. Foundational Data Science and AI Training course- 8 projects. Advance Data Science and AI Certification course-12 projects. Data Science and AI Certification Course for Managers and Leaders- 15 projects. Data Science and AI Training with Placement Assistance- 15 projects. Click here to download the list of the projects.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "How will the projects be executed in Vietnam?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Is there any accredited data science certification after course completion?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes, you will be awarded IBM accredited Data Scientist Certificate on successful course completion. But Based on the course you choose you can get Multiple certification options too. Foundational Data Science and AI Training course- 1 Course Completion Certificate. Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates. Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates. Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What's the eligibility for a job assistance Program in Learnbay Data science training courses in Vietnam?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "How long will I get support for job assistance at Learnbay in Vietnam?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year. What is a job-readiness program? The Job readiness program helps you prepare for interviews which include: Resume preparation sessions, Preparing projects for a strong portfolio, Interview guidance and prep sessions, 1:1 Mock interviews based on targeted companies and roles.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Will I get job referrals at Learnbay?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What is an interview guarantee feature?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Until when do the students get the facility of mentorship?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Our mentors will provide data science training to the students until the completion of the course.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Can a Learnbay student in Vietnam choose to study from their desired mentor?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "When is the job assistance provided at Learnbay and how long will I get it?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "How long will I get Job referrals?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "You’ll be provided with job assistance after the completion of the course for a period of 1 year.",
-          },
-        },
-      ],
-    },
-    script3: {
-      "@context": "http://schema.org",
-      "@type": "EducationEvent",
-      name: "Data Science Course Training in Vietnam",
-      description:
-        "Data science course in Vietnam. Learnbay is Advanced Data Science Course Training Institute in Vietnam. Data science course in Vietnam will enhance your career.",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png",
-      performer: "Learnbay",
-      offers: {
-        "@type": "AggregateOffer",
-        lowPrice: "39999",
-        highPrice: "110000",
-        url: "https://www.learnbay.co/",
-        availability: "https://schema.org/InStock",
-        price: "79000",
-        priceCurrency: "INR",
-        validFrom: "2023-05-01",
-      },
-      startDate: "2023-05-01",
-      endDate: "2023-10-31",
-      url: "https://www.learnbay.co/",
-      duration: "80",
-      eventAttendanceMode: "https://schema.org/MixedEventAttendanceMode",
-      eventStatus: "http://schema.org/EventScheduled",
-      location: [
-        {
-          "@type": "VirtualLocation",
-          url: "https://www.learnbay.co/",
-        },
-        {
-          "@type": "Place",
-          name: "Learnbay - Data Science, Data Analytics Course Training in Vietnam",
-          address: {
-            "@type": "PostalAddress",
-            streetAddress:
-              " #1090 , 1st Floor, 18th Cross Road HSR Layout Sector 3,(Above Sangam Sweets)",
-            addressLocality: "HSR Sector 3",
-            postalCode: "560102",
-            addressCountry: "Bengaluru, Karnataka,INDIA",
-          },
-          geo: {
-            "@type": "GeoCoordinates",
-            latitude: "12.911762714349765",
-            longitude: "77.64127379352328",
-          },
-        },
-      ],
-      organizer: {
-        "@type": "Organization",
-        name: "Learnbay",
-        url: "https://www.learnbay.co",
-      },
-    },
-    script4: {
-      "@context": "https://schema.org/",
-      "@type": "HowTo",
-      name: "How to apply for data science course?",
-      description:
-        "You just have to follow 3 easy steps to enroll in our advanced data science course",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp",
-      totalTime: "PT6M",
-      estimatedCost: {
-        "@type": "MonetaryAmount",
-        currency: "INR",
-        value: "6",
-      },
-      supply: {
-        "@type": "HowToSupply",
-        name: "We provide Advanced data science course in Vietnam",
-      },
-      tool: {
-        "@type": "HowToTool",
-        name: "Data science, machine learning, artificial intelligence, data analytics",
-      },
-      step: [
-        {
-          "@type": "HowToStep",
-          text: "Visit our website and fill the enquiry form",
-          image:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp",
-          name: "Fill Enquiry Form",
-          url: "https://www.learnbay.co/data-science-course/",
-        },
-        {
-          "@type": "HowToStep",
-          text: "Talk to our experts for career counseling",
-          image:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/data-science-ai-for-managers.webp",
-          name: "Talk to Expert",
-          url: "https://www.learnbay.co/data-science-course/",
-        },
-        {
-          "@type": "HowToStep",
-          text: "Get enrollment in our data science course",
-          image:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp",
-          name: "Get enrollment",
-          url: "https://www.learnbay.co/",
-        },
-      ],
-    },
+   
     secondSection: [
       {
         id: 1,
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon1.png",
         height: "40",
         width: "43",
-        heading: "1:1 Doubt Session",
-        para: "Talk to an expert & receive real-time solutions to your queries",
+        heading: "Phiên hỏi đáp 1:1",
+        para: "Nói chuyện với một chuyên gia và nhận các giải pháp trong thời gian thực cho các câu hỏi của bạn",
       },
       {
-        id: 1,
+        id: 2,
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Cuộc gọi phỏng vấn được đảm bảo",
+        para: "Tăng cơ hội việc làm của bạn với sự giới thiệu từ hơn 300 đối tác tuyển dụng",
       },
       {
-        id: 1,
+        id: 3,
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon2.png",
         height: "50",
         width: "53",
-        heading: "IBM Project Certificate",
-        para: "Grab opportunities with a portfolio & make a smooth career transition",
+        heading: "Chứng chỉ Dự án IBM",
+        para: "Nắm bắt cơ hội với một hồ sơ và thực hiện sự chuyển đổi sự nghiệp một cách suôn sẻ",
       },
       {
-        id: 1,
+        id: 4,
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon4.png",
         height: "40",
         width: "40",
-        heading: "Designed For Professionals",
-        para: "Prioritise growth, boost career with in-demand skills",
+        heading: "Thiết kế cho các chuyên gia",
+        para: "Ưu tiên sự phát triển, nâng cao sự nghiệp với những kỹ năng được yêu cầu",
       },
     ],
+    
     testimonial: [
       {
         id: 1,
@@ -404,12 +45,12 @@ export const DSVietnamCourseData = [
         proImg:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/preksha-testimonial.webp",
         sDesc:
-          "I had a great learning experience at Learnbay. The faculties here are top notch. Right from enrollment to getting a good job ...",
+          "Tôi đã có một trải nghiệm học tập tuyệt vời tại Learnbay. Các giảng viên ở đây đều là những người giỏi nhất. Từ việc nhập học cho đến việc có được một công việc tốt ...",
         lDesc:
-          "I had a great learning experience at Learnbay. The faculties here are top notch. Right from enrollment to getting a good job, they keep putting enormous efforts for each and every candidate. Thanks to all the trainers, backend team, the HR team and to the directors for making this journey smooth.",
+          "Tôi đã có một trải nghiệm học tập tuyệt vời tại Learnbay. Các giảng viên ở đây đều là những người giỏi nhất. Từ việc nhập học cho đến việc có được một công việc tốt, họ luôn nỗ lực rất nhiều cho từng ứng viên. Cảm ơn tất cả các huấn luyện viên, nhóm sau lưng, nhóm nhân sự và các giám đốc đã giúp cuộc hành trình này trở nên suôn sẻ.",
         complogo:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
-        statLogo: "140% Hike",
+        statLogo: "Tăng 140%",
       },
       {
         id: 2,
@@ -419,12 +60,12 @@ export const DSVietnamCourseData = [
         proImg:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Shubham-kumar-thumb+.webp",
         sDesc:
-          "I moved from teaching to data science with Learnbay's help. Their course was easy to follow, even for someone like me without a tech...",
+          "Tôi đã chuyển từ công việc giảng dạy sang khoa học dữ liệu với sự giúp đỡ của Learnbay. Khóa học của họ rất dễ hiểu, ngay cả đối với một người như tôi không có chuyên môn về công nghệ...",
         lDesc:
-          "I moved from teaching to data science with Learnbay's help. Their course was easy to follow, even for someone like me without a tech background. In six months, I got to learn how data science is used in the real world. Their mock interviews also prepared me for job interviews, and I got a data analyst job at Cendrol. This course really helped me change my career.",
+          "Tôi đã chuyển từ công việc giảng dạy sang khoa học dữ liệu với sự giúp đỡ của Learnbay. Khóa học của họ rất dễ hiểu, ngay cả đối với một người như tôi không có chuyên môn về công nghệ. Trong sáu tháng, tôi đã được học cách dữ liệu khoa học được sử dụng trong thế giới thực. Các buổi phỏng vấn mô phỏng của họ cũng đã chuẩn bị tôi cho các buổi phỏng vấn công việc, và tôi đã có được một công việc phân tích dữ liệu tại Cendrol. Khóa học này thực sự đã giúp tôi thay đổi sự nghiệp của mình.",
         complogo:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
-        statLogo: "  210% Hike",
+        statLogo: "Tăng 210%",
       },
       {
         id: 4,
@@ -434,74 +75,30 @@ export const DSVietnamCourseData = [
         proImg:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/aravind-k-thumb.webp",
         sDesc:
-          "Choosing Learnbay was my best decision ever. The instructors were encouraging and glad to answer questions. The best feature is that...",
+          "Việc chọn Learnbay là quyết định tốt nhất của tôi từ trước đến nay. Các giảng viên khích lệ và vui vẻ trả lời các câu hỏi. Điểm nổi bật nhất là ...",
         lDesc:
-          "Choosing Learnbay was my best decision ever. The instructors were encouraging and glad to answer questions. The best feature is that their flexible modules & small size batches. I was able to manage my time and learn while working. Thanks to Learnbay for my lucrative placement.",
+          "Việc chọn Learnbay là quyết định tốt nhất của tôi từ trước đến nay. Các giảng viên khích lệ và vui vẻ trả lời các câu hỏi. Điểm nổi bật nhất là các mô-đun linh hoạt và lớp học nhỏ. Tôi đã có thể quản lý thời gian của mình và học hỏi trong khi làm việc. Cảm ơn Learnbay vì việc sắp xếp công việc thu nhập cao của tôi.",
         complogo:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
-        statLogo: " 150% Hike",
+        statLogo: "Tăng 150%",
       },
       {
         id: 5,
-        name: "Jaya sinha",
+        name: "Jaya Sinha",
         working: "Amazon",
         link: "A-BkcEM0rQM",
         proImg:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/jaya-sinha-thumb.webp",
         sDesc:
-          "Transitioning from a non-tech role, LearnBay's IBM data science certification equipped me with the skills needed in today's...",
+          "Chuyển từ một vai trò không phải công nghệ, chứng chỉ khoa học dữ liệu của IBM của LearnBay đã trang bị cho tôi những kỹ năng cần thiết trong thị trường hiện nay...",
         lDesc:
-          "Transitioning from a non-tech role, LearnBay's IBM data science certification equipped me with the skills needed in today's market. The course's interactive sessions and personalized guidance from Abhishek sir were invaluable. Post-completion, I had received two offers, one from Amazon and other from Infosys for the role of senior data analyst. Highly recommend for anyone stepping into data science.",
+          "Chuyển từ một vai trò không phải công nghệ, chứng chỉ khoa học dữ liệu của IBM của LearnBay đã trang bị cho tôi những kỹ năng cần thiết trong thị trường hiện nay. Các buổi tương tác trong khóa học và sự hướng dẫn cá nhân từ thầy Abhishek là rất quý giá. Sau khi hoàn thành, tôi đã nhận được hai offer, một từ Amazon và một từ Infosys cho vai trò nhà phân tích dữ liệu cấp cao. Rất khuyến khích cho những ai bước vào lĩnh vực khoa học dữ liệu.",
         complogo:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/amazon.webp",
-        statLogo: " 150% Hike",
+        statLogo: "Tăng 150%",
       },
-      // {
-      //   id: 6,
-      //   name: "Abhishek Singh",
-      //   working: "Working at AGS",
-      //   link: "D-gcPaK_-x4",
-      //   proImg:
-      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/reviewNew.webp",
-      //   sDesc:
-      //     "I got placed at AGS within 9 months of joining Learnbay institute. Live interaction sessions are the best part here since ...",
-      //   lDesc:
-      //     "I got placed at AGS within 9 months of joining Learnbay institute. Live interaction sessions are  the best part here since we could clear all queries. The projects are excellent. Overall I had a great  experience and I urge everyone to enroll in this institute.",
-      //   complogo:
-      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
-      //   statLogo: "  132% Hike",
-      // },
-      // {
-      //   id: 7,
-      //   name: "Vishal",
-      //   working: "Working at Bridge i2i",
-      //   link: "D-gcPaK_-x4",
-      //   proImg:
-      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/reviewNew.webp",
-      //   sDesc:
-      //     "One on One counseling from experts has guided me to  make the right decision. The Learnbay team was amazing in assisting me with ...",
-      //   lDesc:
-      //     "One on One counseling from experts has guided me to make the right decision. The Learnbay team was amazing in assisting me with live projects and preparing for the placements. Thank you! Learnbay for your tremendous support in excelling in my Data Science Career.",
-      //   complogo:
-      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
-      //   statLogo: "  127% Hike",
-      // },
-      // {
-      //   id: "math",
-      //   name: "Aravind Kumar",
-      //   working: "SA - Data Scientist",
-      //   link: "D-gcPaK_-x4",
-      //   proImg:
-      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/reviewNew.webp",
-      //   sDesc:
-      //     "Choosing Learnbay was my best decision ever. The instructors were encouraging and glad to answer questions. The best feature is that ...",
-      //   lDesc:
-      //     "Choosing Learnbay was my best decision ever. The instructors were encouraging and glad to answer questions. The best feature is that their flexible modules & small size batches. I was able to manage  my time and learn while working. Thanks to Learnbay for my lucrative placement.",
-      //   complogo:
-      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
-      //   statLogo: "142% Hike",
-      // },
     ],
+    
     faq: [
       {
         id: 0,
@@ -797,226 +394,185 @@ export const DSVietnamCourseData = [
       },
     ],
 
-    DomainBot1:
-      "Today’s digital shifts across the global job market demand proven expertise in your chosen domain. Thus, experts search for feasible ways to upgrade their domain knowledge and ascertain success with premium job offers. Learnbay’s data science certification course presents elite course modules as per domain trends. We positively focus on the trending domain electives for your career building. Experts enrolling in data science courses can choose any domain as per their preferences. ",
-    DomainBot2: "Domain electives are – ",
-    DomainBot3: "",
-    DomainList1: "• BFSI",
-    DomainList2: "• HR",
-    DomainList3: "• Marketing",
-    DomainList4: "• Manufacturing",
-    DomainList5: "• Healthcare      ",
-    DomainList6: "• Supply Chain ",
-    Domainlink1:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf",
-    Domainlink2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales,+Marketing+and+HR+Domain.pdf",
-    Domainlink3:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales,+Marketing+and+HR+Domain.pdf",
-    Domainlink4:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf",
-    Domainlink5:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf",
-    Domainlink6:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf",
+DomainBot1:
+"Những thay đổi số hóa hôm nay trên thị trường việc làm toàn cầu đòi hỏi sự thành thạo được chứng minh trong lĩnh vực bạn đã chọn. Do đó, các chuyên gia tìm kiếm cách khả thi để nâng cao kiến thức chuyên môn của họ và đảm bảo thành công với các cơ hội việc làm cao cấp. Khóa chứng chỉ Khoa học Dữ liệu của Learnbay trình bày các mô-đun khóa học đặc sắc theo xu hướng lĩnh vực. Chúng tôi tập trung tích cực vào các môn chuyên ngành đang thịnh hành để xây dựng sự nghiệp của bạn. Các chuyên gia tham gia các khóa học khoa học dữ liệu có thể chọn bất kỳ lĩnh vực nào theo sở thích của họ.",
 
-    CertificationBot1:
-      "IBM, an American MNC, is widely known for its next-generation AI, predictive analytics, and security offerings. IBM’s premium presence in data science elevates business growth values. Owing to IBM’s rising credibility in the tech sector, Learnbay declares its alliance.       ",
-    src33:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
-    src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
-    src22:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
-    CertificationBot2:
-      "Learnbay offers career transition certified by IBM with job-driven gains. Our learners will be able to stand out against career races with in-demand skills and expertise. IBM’s advancement in AI and automation help Learnbay restructure the course modules as per the trend.       ",
-    CertificationBot3:
-      "However, this course has an additional certification too. Microsoft (MS), a well-known digital leader, paves the way for career upskilling with assured global-scale success. Learnbay’s collaboration with MS unlocks a proven career path with expanding earning limits.      ",
-  
-    ModuleHead1: "Listing Out the Learning Outcomes       ",
-    ModuleBot1:
-      "Learnbay foresees a digitally proven career path for working pros from diverse domains. MNCs in Vietnam are on the verge of reforming their firms for data-driven insights. Their urge to elevate their decision-making skills with insightful facts and figures ends up becoming a skilful data scientist.         ",
-    ModuleBot2:
-      "Thus, upskilling with Learnbay’s data science training in Vietnam will unlock career gains.       ",
-    ModuleBot3: "Elite learning outcomes to uplift your career are –        ",
-    Modulelist1: "Descriptive data analysis with statistics      ",
-    Modulelist2: "Programming languages (Python & Python libraries)      ",
-    Modulelist3: "Big Data Analytics & Hadoop        ",
-    Modulelist4: "Data Visualization (Dashboard creation)      ",
-    Modulelist5: "AI Tools (Deep learning & NLP techniques)      ",
+DomainBot2: "Các môn chuyên ngành bao gồm -",
 
-    Modulelist6: "Machine Learning techniques, algorithms & models      ",
-    Modulelist7:
-      "AWS & Azure Evaluation & Deployment  And Generative AI       ",
+DomainList1: "• Tài chính - Ngân hàng, Bảo hiểm",
+DomainList2: "• Nhân sự",
+DomainList3: "• Tiếp thị",
+DomainList4: "• Sản xuất",
+DomainList5: "• Chăm sóc sức khỏe",
+DomainList6: "• Chuỗi cung ứng",
 
-    syllabush1: " Preparatory Classes (Programming + Maths)",
-    syllabusb1: "6 Hours",
-    SyllabusBotlist11: " Cohort Orientation",
-    SyllabusBotlist12: "A brief introduction to tools related to data",
-    SyllabusBotlist13: " Fundamentals of Programming",
-    SyllabusBotlist14: "Introduction to Anaconda & Jupyter notebook",
-    SyllabusBotlist15: "Fundamentals of Statistics",
-    SyllabusBotlist16: "Mean, Median, Mode",
-    syllabush2: "Python for Data Science",
-    syllabusb2: "40 Hours",
-    SyllabusBotlist21: "Python Programming",
-    SyllabusBotlist22: "Data Analysis Using Numpy",
-    SyllabusBotlist23: "Python Programming Overview",
-    SyllabusBotlist24: "Python Data Types",
-    SyllabusBotlist25: "Strings, Decisions & Loop Control",
-    SyllabusBotlist26: "Data Analysis Using Pandas",
-    syllabush3: "Statistics and Machine Learning",
-    syllabusb3: "70 Hours",
-    SyllabusBotlist31: "Statistics",
-    SyllabusBotlist32: "Fundamentals of Math and Probability",
-    SyllabusBotlist33: "Descriptive Statistics",
-    SyllabusBotlist34: " Machine Learning",
-    SyllabusBotlist35: "Linear Regression Model",
-    SyllabusBotlist36: "Data Preprocessing",
-    syllabush4: " Data Science Tools",
-    syllabusb4: "12+ Classes",
-    SyllabusBotlist41: " SQL",
-    SyllabusBotlist42: "MongoDB",
-    SyllabusBotlist43: "Tableau",
-    SyllabusBotlist44: " PowerBI",
-    SyllabusBotlist45: " Big Data & Spark Analytics",
-    SyllabusBotlist46: "Big Data & Spark Analytics",
-    syllabussrc:
+Domainlink1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf",
+Domainlink2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales,+Marketing+and+HR+Domain.pdf",
+Domainlink3: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales,+Marketing+and+HR+Domain.pdf",
+Domainlink4: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf",
+Domainlink5: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf",
+Domainlink6: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf",
+CertificationBot1:
+"IBM, một tập đoàn Mỹ nổi tiếng với các sản phẩm trí tuệ nhân tạo thế hệ tiếp theo, dự báo phân tích và các dịch vụ bảo mật. Sự hiện diện hàng đầu của IBM trong lĩnh vực khoa học dữ liệu nâng cao giá trị phát triển kinh doanh. Do sự tăng đáng kể của sự uy tín của IBM trong ngành công nghệ, Learnbay tuyên bố sự liên minh của mình.",
+src33:
+"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
+src22:
+"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
+CertificationBot2:
+"Learnbay cung cấp chứng chỉ chuyển đổi nghề nghiệp được chứng nhận bởi IBM với những lợi ích điều hướng nghề nghiệp. Học viên của chúng tôi sẽ có khả năng nổi bật trong cuộc đua sự nghiệp với kỹ năng và chuyên môn đang được yêu cầu. Sự tiến bộ của IBM trong trí tuệ nhân tạo và tự động hóa giúp Learnbay điều chỉnh các mô-đun khóa học theo xu hướng.",
+CertificationBot3:
+"Tuy nhiên, khóa học này cũng có một chứng chỉ bổ sung. Microsoft (MS), một nhà lãnh đạo số hàng đầu, mở đường cho việc nâng cao kỹ năng nghề nghiệp với sự thành công toàn cầu được đảm bảo. Sự hợp tác của Learnbay với MS mở khóa một con đường nghề nghiệp được chứng minh với giới hạn thu nhập mở rộng.",
+
+ModuleHead1: "Liệt kê Các Kết Quả Học Tập",
+ModuleBot1: "Learnbay dự đoán một con đường nghề nghiệp kỹ thuật số được chứng minh cho các chuyên gia làm việc từ các lĩnh vực đa dạng. Các tập đoàn đa quốc gia tại Việt Nam đang trên bờ vực cải tổ doanh nghiệp của họ để có những hiểu biết dựa trên dữ liệu. Sự mong muốn của họ là nâng cao kỹ năng ra quyết định với những sự thật và con số sâu sắc cuối cùng trở thành một nhà khoa học dữ liệu tài năng.",
+ModuleBot2: "Do đó, việc nâng cao kỹ năng với khóa đào tạo khoa học dữ liệu của Learnbay tại Việt Nam sẽ mở ra cơ hội nghề nghiệp.",
+ModuleBot3: "Các kết quả học tập tinh hoa để nâng cao sự nghiệp của bạn là –",
+Modulelist1: "Phân tích dữ liệu mô tả với thống kê",
+Modulelist2: "Ngôn ngữ lập trình (Python & thư viện Python)",
+Modulelist3: "Phân tích dữ liệu lớn & Hadoop",
+Modulelist4: "Trực quan hóa dữ liệu (Tạo bảng điều khiển)",
+Modulelist5: "Công cụ AI (Các kỹ thuật học sâu và xử lý ngôn ngữ tự nhiên)",
+Modulelist6: "Các kỹ thuật, thuật toán và mô hình Học Máy",
+Modulelist7: "Đánh giá và Triển khai AWS & Azure và AI Sáng tạo",
+syllabush1: "Các Lớp Chuẩn bị (Lập trình + Toán học)",
+syllabusb1: "6 Giờ",
+SyllabusBotlist11: "Hướng Dẫn Nhóm",
+SyllabusBotlist12: "Một giới thiệu ngắn gọn về các công cụ liên quan đến dữ liệu",
+SyllabusBotlist13: "Các Nguyên Tắc Cơ Bản của Lập Trình",
+SyllabusBotlist14: "Giới thiệu về Anaconda & Jupyter notebook",
+SyllabusBotlist15: "Các Nguyên Tắc Cơ Bản của Thống Kê",
+SyllabusBotlist16: "Trung bình, Trung vị, Yếu tố",
+syllabush2: "Python cho Khoa Học Dữ Liệu",
+syllabusb2: "40 Giờ",
+SyllabusBotlist21: "Lập Trình Python",
+SyllabusBotlist22: "Phân Tích Dữ Liệu Sử Dụng Numpy",
+SyllabusBotlist23: "Tổng Quan về Lập Trình Python",
+SyllabusBotlist24: "Các Loại Dữ Liệu trong Python",
+SyllabusBotlist25: "Xâu, Quyết Định và Lệnh Lặp",
+SyllabusBotlist26: "Phân Tích Dữ Liệu Sử Dụng Pandas",
+syllabush3: "Thống Kê và Học Máy",
+syllabusb3: "70 Giờ",
+SyllabusBotlist31: "Thống Kê",
+SyllabusBotlist32: "Cơ Bản về Toán và Xác Suất",
+SyllabusBotlist33: "Thống Kê Mô Tả",
+SyllabusBotlist34: "Học Máy",
+SyllabusBotlist35: "Mô Hình Hồi Quy Tuyến Tính",
+SyllabusBotlist36: "Tiền Xử Lý Dữ Liệu",
+syllabush4: "Các Công Cụ Khoa Học Dữ Liệu",
+syllabusb4: "12+ Buổi",
+SyllabusBotlist41: "SQL",
+SyllabusBotlist42: "MongoDB",
+SyllabusBotlist43: "Tableau",
+SyllabusBotlist44: "PowerBI",
+SyllabusBotlist45: "Phân Tích Dữ Liệu Lớn & Spark",
+SyllabusBotlist46: "Phân Tích Dữ Liệu Lớn & Spark",
+syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
 
-    JobHead1:
-      "What career-centric skill sets will you build via Learnbay’s Data Science Course in Vietnam?",
-    Joblist1: "Detailed knowledge of current data trends and uses",
-    Joblist2: "Coding skills with Python libraries, flavors, and basics",
-    Joblist3: "Statistical analysis",
-    Joblist4: "Knowledge of various Python types for fair data analysis",
-    Joblist5:
-      "Data visuals using Python libraries (Numpy, Seaborn, Matplotlib, Pandas)",
-    Joblist6:
-      "Proven skills in data preprocessing and exploratory data analysis",
-    Joblist7: "ML models (KNN, SVM, PCA, decision trees, etc.)",
-    Joblist8: "SQL skills for efficient database handling",
-    Joblist9:
-      "Dashboard design skills with fair reporting (Tableau & Power BI)",
-    Joblist10:
-      "Forecasting of market trends and patterns for better analysis (Time-series)",
-    Joblist11: "Knowledge of Artificial Intelligence skills",
-    Joblist12:
-      "Deployment skills for quality data preparation and analysis (AWS & Azure)",
-    Joblist13:
-      "Hands-on learning of AI, statistics, SQL, and Python for data science expertise",
-    JobBot19:
-      "Unlike standard courses, Learnbay believes in 360-degree knowledge build-up. It focuses on theoretical and hands-on learning part to deliver elite career gains. With career-centric skills, experts can ace any job role across top-notch MNCs in Vietnam and overseas.",
+      JobHead1: "Những kỹ năng hướng nghiệp bạn sẽ xây dựng thông qua Khóa Học Khoa Học Dữ Liệu của Learnbay tại Việt Nam?",
+      Joblist1: "Kiến thức chi tiết về các xu hướng và ứng dụng dữ liệu hiện tại",
+      Joblist2: "Kỹ năng lập trình với các thư viện, phiên bản và cơ bản của Python",
+      Joblist3: "Phân tích thống kê",
+      Joblist4: "Kiến thức về các loại Python khác nhau cho việc phân tích dữ liệu công bằng",
+      Joblist5: "Trực quan hóa dữ liệu bằng các thư viện Python (Numpy, Seaborn, Matplotlib, Pandas)",
+      Joblist6: "Kỹ năng chứng minh trong việc tiền xử lý dữ liệu và phân tích dữ liệu khám phá",
+      Joblist7: "Các mô hình Học Máy (KNN, SVM, PCA, cây quyết định, v.v.)",
+      Joblist8: "Kỹ năng SQL để xử lý cơ sở dữ liệu một cách hiệu quả",
+      Joblist9: "Kỹ năng thiết kế bảng điều khiển với báo cáo công bằng (Tableau & Power BI)",
+      Joblist10: "Dự báo xu hướng và mẫu thị trường để phân tích tốt hơn (Time-series)",
+      Joblist11: "Kiến thức về các kỹ năng Trí Tuệ Nhân Tạo",
+      Joblist12: "Kỹ năng triển khai để chuẩn bị và phân tích dữ liệu chất lượng (AWS & Azure)",
+      Joblist13: "Học thực hành về Trí Tuệ Nhân Tạo, thống kê, SQL và Python để có chuyên môn về khoa học dữ liệu",
+      JobBot19: "Khác với các khóa học tiêu chuẩn, Learnbay tin rằng việc xây dựng kiến thức 360 độ là quan trọng. Chúng tôi tập trung vào phần học lý thuyết và thực hành để mang lại những lợi ích nghề nghiệp tinh hoa. Với những kỹ năng hướng nghiệp này, các chuyên gia có thể thành công trong bất kỳ vai trò nào tại các tập đoàn hàng đầu ở Việt Nam và trên toàn thế giới.",
+      JobHead19: "Dịch Vụ Hướng Nghiệp Chuyên Nghiệp",
+      JobBot35: "Các chuyên gia làm việc mong muốn tái định nghĩa sự nghiệp của họ trên phạm vi toàn cầu dựa vào các chương trình cụ thể cho từng ngành với cơ hội việc làm tốt hơn. Khóa học khoa học dữ liệu của Learnbay tại Việt Nam giới thiệu một chương trình hỗ trợ việc làm 'Career Service Pro' dành cho bạn.",
+      JobBot20: "Với những học viên đủ điều kiện này (với điểm số đánh giá 70%), bạn có thể đảm bảo được 100% hỗ trợ việc làm và định vị. Nó bao gồm –",
+      Joblist14: "100% hỗ trợ việc làm và định vị trong 3 năm với các cơ hội việc làm chất lượng",
+      Joblist15: "6 cuộc phỏng vấn giả mạo",
+      Joblist16: "Tối ưu hóa Sơ yếu lý lịch",
+      Joblist17: "Đánh giá Hồ sơ LinkedIn",
+      JobHead21: "Các chương trình chứng chỉ khoa học dữ liệu của Learnbay tại Việt Nam có đáng giá với những chuyên gia có ước mơ nghề nghiệp toàn cầu không?",
+      JobBot21: "Những năm gần đây, việc phát triển của khoa học dữ liệu tại Việt Nam đã dần tăng. Kết quả là, các lĩnh vực kinh doanh cảm nhận được sự ảnh hưởng biến đổi của khoa học dữ liệu. Điều này làm thay đổi triển vọng thị trường lao động và tạo ra các lựa chọn nghề nghiệp chất lượng. Các chuyên gia từ các lĩnh vực CNTT/Không CNTT với công việc làm bán thời gian và toàn thời gian chọn cách nâng cao kỹ năng của họ. Tuy nhiên, việc nâng cao kỹ năng với một chứng chỉ thông thường là không đáng giá.",
+      JobBot22: "Khóa học khoa học dữ liệu của Learnbay có liên minh với IBM & MS mở rộng giới hạn phát triển nghề nghiệp một cách đột phá. Không gian học thực hành của nó trang bị các chuyên gia với các kỹ năng chứng minh để phát triển trong lĩnh vực khoa học dữ liệu với một tương lai sáng sủa. Với các chứng chỉ của IBM & MS, người học có thể đạt được vai trò mơ ước của mình với các tập đoàn hàng đầu.",
+      Joblist50: "Chương trình chính sách GenAI cho sự phát triển nghề nghiệp thực tế",
+      Joblist51: "Các dự án mô phỏng thời gian thực cho các hồ sơ độc quyền",
+      Joblist52: "Chứng chỉ IBM & MS (với các chương trình khoa học dữ liệu cao cấp)",
+      Joblist53: "Bằng thạc sĩ từ Đại học Woolf",
+      Joblist54: "Dịch vụ Hướng nghiệp Pro (Hỗ trợ việc làm 100%)",
+      JobHead22: "Khóa học khoa học dữ liệu của Learnbay tại Việt Nam có thể cung cấp những lựa chọn nghề nghiệp nào?",
+      JobBot37: "Các nghề nghiệp về khoa học dữ liệu tại Việt Nam đang chứng kiến sự tăng nhanh về nhu cầu của các chuyên gia có kỹ năng để ra các quyết định thông minh. Đất nước này là lựa chọn tốt nhất cho những người đam mê dữ liệu vì thị trường lao động hiện tại đang ở giai đoạn phát triển. Các chuyên gia có các bộ kỹ năng được yêu cầu có thể dễ dàng đảm nhận các vai trò hàng đầu trong lĩnh vực khoa học dữ liệu.",
+      JobBot24: "Bộ phận định vị chuyên biệt của chúng tôi với một khóa học khoa học dữ liệu giúp bạn sẵn sàng cho việc làm vào các vai trò như –",
+      Joblist23: "Nhà Phân Tích Dữ Liệu và Kiến Trúc Dữ Liệu",
+      Joblist24: "Nhà Khoa Học Dữ Liệu (Thị giác máy tính, ML)",
+      Joblist25: "Nhà Khoa Học Dữ Liệu Python",
+      Joblist26: "Kỹ sư Học Máy và Dữ Liệu",
+      Joblist27: "Chuyên gia/Chuyên viên Kho Dữ Liệu",
+      Joblist28: "Nhà Phát triển BI và Kỹ sư Dữ liệu Front-end",
+      Joblist29: "Quản lý Cơ sở dữ liệu và Kỹ sư Nền tảng Dữ liệu",
+      Joblist30: "Điều Tra Pháp Lý và Tình Báo",
+      Joblist30: "Kỹ sư Dữ liệu Front-end",
+      Joblist30: "Quản lý Cơ sở dữ liệu",
+      Joblist30: "Điều Tra Pháp Lý và Tình Báo",
+      JobBot25: "Do đó, việc đăng ký khóa học khoa học dữ liệu của Learnbay tại Việt Nam mở ra cơ hội tiềm năng để phát triển nghề nghiệp nhanh chóng. Chương trình giáo trình tùy chỉnh của chúng tôi với các xu hướng GenAI và ChatGPT mở ra cơ hội phát triển nghề nghiệp hứa hẹn. Đăng ký với Learnbay ngay hôm nay và tăng cơ hội chuyển đổi nghề nghiệp của bạn.",
+      
+      ProjectsHead1: "Làm thế nào các dự án capstone của Learnbay giúp trong việc phát triển sự nghiệp của bạn?",
 
-    JobHead19: "Career Service Pro",
-
-    JobBot35:
-      "Working pros eager to redefine their careers on a global scale rely on industry-specific programs with better job opportunities. Learnbay’s data science course in Vietnam presents a ‘Career Service Pro’ job assist program for you.",
-    JobBot20:
-      "With this eligible learners (with 70% of assessment score) can ensure 100% job and placement support. It includes –",
-    Joblist14:
-      "100% job and placement support for 3 years with prime job offers",
-    Joblist15: "6 mock interviews",
-    Joblist16: "Resume Optimization",
-    Joblist17: "LinkedIn Profile Review",
-
-    JobHead21:
-      "Is Learnbay’s data science certificate programs in Vietnam worth it for experts with global career dreams?",
-
-    JobBot21:
-      "Recent years have seen a gradual growth of data science in Vietnam. As a result, business sectors feel the transformative impacts of data science. This alters the job market outlook and fills it with prime career options. Experts from IT/non-IT domains with part-time and full-time jobs opt for upskilling. Yet, upskilling with a common certification is worthless.",
-    JobBot22:
-      "Learnbay’s data science course has an alliance with IBM & MS that expands career growth limits abruptly. Its hands-on learning space equips experts with proven skills to thrive in the data science field with a bright future. With IBM & MS certificates, learners can crack their dream roles with leading MNCs.",
-
-    Joblist50: "GenAI-rich syllabus for realistic career development",
-    Joblist51: "Real-time simulation projects for exclusive portfolios",
-    Joblist52: "IBM & MS certifications (with premium data science programs)",
-    Joblist53: "Master’s degree from Woolf University",
-    Joblist54: "Career Service Pro (100% job assistance)",
-
-    JobHead22:
-      "What career options can Learnbay’s data science training in Vietnam offer?",
-
-    JobBot37:
-      "Data science careers in Vietnam are seeing a rapid surge in demand for skillful experts to make informed moves. This country is best for data aspirants as the current job market is in the developing stage. Experts with in-demand skill sets can easily crack top-tier job roles in the field of data science.",
-    JobBot24:
-      "Our dedicated placement cell with a data science course makes you job-ready to get into roles like –",
-    Joblist23: "Data Analyst and Data Architect    ",
-    Joblist24: "Data Scientist (Computer vision, ML)",
-    Joblist25: "Python Data Scientist",
-    Joblist26: "ML and Data Engineer    ",
-    Joblist27: "Data Warehouse Engineer/Specialist   ",
-    Joblist28: "BI Developer and Front-end Data Engineer    ",
-    Joblist29: "Database Manager and Data Platform Engineer    ",
-    Joblist30: "Forensic Investigations and Intelligence ",
-    Joblist30: "Front-end Data Engineer",
-    Joblist30: "Database Manager",
-    Joblist30: "Forensic Investigations and Intelligence",
-  
-    JobBot25:
-      "Hence, enrolling in Learnbay’s data science course in Vietnam unlocks potential chances of making swift career growth. Our custom-fit course syllabus with GenAI trends and ChatGPT unlocks promising career growth. Register with Learnbay today, and escalate your career transition chances.",
-
-    ProjectsHead1:
-      "How do Learnbay’s capstone projects help in your career development?",
-
-    ProjectsBot1:
-      "Capstone projects help you ace your tasks with real-time expertise and deliver better results. Thus, opting for an industry-driven training program with live projects and valuable certificates is vital.",
-    ProjectsBot3:
-      "Learnbay’s industry-driven data science certification programs take the lead in enriching skill sets with the power to deal with digital storms. Its training sessions disclose the way to learn data science with real-time handling of business cases.",
-    ProjectsBot4:
-      "Learnbay’s data science course brings an elite platform for gaining project-based learning. It covers major domains like – BFSI, Marketing, HR, Healthcare, Supply Chain, and Manufacturing. Learners get a chance to work on capstone projects in their chosen field.",
-    ProjectsBot5:
-      "Furthermore, learners obtain IBM certifications once they complete the projects. These certificates are useful for a global-level career rise across leading MNCs.",
-    
-    ProjectsBot2: "Below are a few projects from the Learnbay alumni profiles:",
-    src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
-    ProjectsH1: "Samsung Health Monitor App",
-    Projectsp1:
-      "Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app.",
-    src2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IBM.png",
-    ProjectsH2: "IBM HR Analytics",
-    Projectsp2:
-      "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other Data science abilities.",
-    src3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/amazon1.png",
-    ProjectsH3: "Amazon Customer Review Analysis",
-    Projectsp3:
-      "Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can participate in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach.",
-    src4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BMW.png",
-    ProjectsH4: "BMW Used Car Price Optimization",
-    Projectsp4:
-      "BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects.",
-    AlumniBot1:
-      "We have emplaced numerous candidates in top global companies and startups. More than 1000+ Learnbay alumni have already started working as soon as they completed the course. Rest got recruited in a few months. Even 300+ candidates have directly joined data science project leadership or manager designation after completing the Data Science and AI program for Managers and leaders. Here are some of our alumni sharing their hard work and success:",
-    Asrc1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/devraj.jpg",
-    AlumniH1: "Deveraj",
-    Alumnip1:
-      "The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around.",
-    Asrc2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/shezan.png",
-    AlumniH2: "Shezan Baig",
-    Alumnip2:
-      "Learnbay is one of the most remarkable data science institutes I've come across. Compared to other institutes in India, it offers a data science course at a low cost. Excellent value for money. Finally, I achieved job satisfaction. I would strongly advise everyone to attend this institute.",
-    Asrc3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/viraj.png",
-    AlumniH3: "Viraj Ghodke",
-    Alumnip3:
-      "For me, learning using the Learnbay platform has been a great experience. The teaching and management team are very helpful. They are constantly willing to clarify each individual's doubts and meet the needs of working professionals. The practice interview sessions were simply like a clone of MNC interviews.",
-    Asrc4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/shubhangi.png",
-    AlumniH4: "Shubhangi J. Waghmare ",
-    Alumnip4:
-      "The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment.",
-    alt1: "data science course training in Vietnam",
-    alt2: "data science course training in Vietnam",
-    alt3: "data science course training in Vietnam",
-    alt4: "data science course training in Vietnam",
-    alt5: "data science course training in Vietnam",
-    alt6: "data science course training in Vietnam",
-    alt7: "data science course training in Vietnam",
-    alt8: "data science course training in Vietnam",
-    alt9: "data science course training in Vietnam",
-    CityTextB:
-      "Artificial Intelligence Course Certification Training locations in Vietnam ",
-    CityText:
-      " : Bajirao Road [411002], Yerwada [411006], Kasba Peth [411011], Dhanori [411015], Vietnam City [411022], Hadapsar S.O [411028], Airport [411032], Afmc [411040], Karve Road [410038], Ammunition Factory Khadki [411003], Aundh [411007], Dapodi [411012], Gokhalenagar [411016], Kudje [411023], Kothrud [411029], Mundhva [411036], Tingre Nagar [411000], A.R. Shala [411004], Baner Road [411004], Magarpatta City [411013], Botanical Garden [411020], Khadakwasla [411024], Lokmanyanagar [411030], Bibvewadi [411037], Bhavani Peth [411042], Dhayari [411041], Dhankawadi [411043], C D A O [411001], Shivajinagar [411005], Parvati [411009], 9 Drd [411014], Armament [411021], Donje [411025], Bopkhel [411031], Bhusari Colony [411038], Haveli [411045], Jambhulwadi [411046], Lohogaon [411047], Khondhwa [411048], Anandnagar [411051], Navsahyadri [411052], Chatursringi [411053], Gokhalenagar [411055], Warje [411058], Mohamadwadi Kadvasti [411060], Janaki Nagar [411066], Aundh [411067], Pimpri Chinchwad [411078], Nanded [411230], Gondhale Nagar [412029], Sathe Nagar [412047], Alandi Devachi [412105], Ambarvet [412115], Ashtapur [412207], Manjari Farm [412307], Phursungi [412308], Viman Nagar 411014, Shaniwar Peth [413337].",
-    CityTextLB: "Locations Offered",
-    CityTextL:
-      " :Artificial Intelligence Course viman nagar,Artificial Intelligence Training in kalyan nagar,Artificial Intelligence Training in magarpetta,Artificial Intelligence Training in pimpri chinchwad,Artificial Intelligence Classes in yerwada,Artificial Intelligence Classes in kharadi,Artificial Intelligence Classes in vishrantwadi,Artificial Intelligence Classes in deccan,Artificial Intelligence Course in Katraj,Artificial Intelligence Training in warje,,Artificial Intelligence Certification Training in bavdhan,Artificial Intelligence Certification in boat club road,Artificial Intelligence Certification in model colony,Best Artificial Intelligence Training in Vietnam,Best Artificial Intelligence Course in Vietnam",
-  },
+      ProjectsBot1: "Các dự án capstone giúp bạn hoàn thành nhiệm vụ của mình với sự thành thạo thời gian thực và mang lại kết quả tốt hơn. Do đó, việc lựa chọn một chương trình đào tạo theo ngành công nghiệp với các dự án thực tế và chứng chỉ có giá trị là rất quan trọng.",
+      ProjectsBot3: "Các chương trình chứng chỉ khoa học dữ liệu theo ngành công nghiệp của Learnbay dẫn đầu trong việc làm giàu các bộ kỹ năng với khả năng xử lý các cơn bão kỹ thuật số. Các buổi đào tạo của nó tiết lộ cách học khoa học dữ liệu với việc xử lý thời gian thực của các trường hợp kinh doanh.",
+      ProjectsBot4: "Khóa học khoa học dữ liệu của Learnbay mang lại một nền tảng hoàn hảo để đạt được học hỏi dựa trên dự án. Nó bao gồm các lĩnh vực chính như – BFSI, Marketing, HR, Healthcare, Supply Chain và Manufacturing. Học viên có cơ hội làm việc trên các dự án capstone trong lĩnh vực mà họ lựa chọn.",
+      ProjectsBot5: "Hơn nữa, học viên nhận được các chứng chỉ IBM sau khi hoàn thành các dự án. Các chứng chỉ này hữu ích cho sự thăng tiến nghề nghiệp trên toàn cầu trong các tập đoàn hàng đầu.",
+      
+      ProjectsBot2: "Dưới đây là một số dự án từ các hồ sơ cựu sinh viên của Learnbay:",
+      src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
+      ProjectsH1: "Ứng dụng theo dõi sức khỏe Samsung",
+      Projectsp1:
+        "Samsung sẽ sớm ra mắt một ứng dụng chăm sóc sức khỏe mới. Mục tiêu chính của ứng dụng này là theo dõi hoạt động của con người một cách chính xác và cung cấp các gợi ý liên quan đến sức khỏe phù hợp. Việc phân tích liên tục một lượng lớn dữ liệu di động là cần thiết cho một ứng dụng như vậy.",
+      src2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IBM.png",
+      ProjectsH2: "Phân tích nhân sự IBM",
+      Projectsp2:
+        "IBM dự định nâng cao bộ phận nhân sự của mình bằng cách xác định sự không nhất quán ẩn của nhân viên. Họ cần các mô hình để xác định các biến đổi đồ họa trong hiệu suất của 14000 nhân viên của họ. Hãy giúp họ xây dựng các mô hình với các kỹ năng phân tích dữ liệu và khác của bạn.",
+      src3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/amazon1.png",
+      ProjectsH3: "Phân tích Đánh giá Khách hàng của Amazon",
+      Projectsp3:
+        "Amazon đã đặt mục tiêu xác định các sản phẩm điện tử tiêu biểu nhất của người tiêu dùng. Đối với những điều này, họ cần phân tích đánh giá khách hàng thời gian thực. Bạn có thể tham gia vào dự án hỗ trợ tái tạo thông tin từ các đánh giá hiện tại và đang diễn ra thông qua một phương pháp trực quan hóa dữ liệu phù hợp.",
+      src4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BMW.png",
+      ProjectsH4: "Tối ưu hóa Giá xe Hơi đã qua sử dụng của BMW",
+      Projectsp4:
+        "BMW cho phép khách hàng hiện tại bán các xe đã qua sử dụng nhưng nhiều đối thủ đang cung cấp các giá trị bán lại tốt hơn. Một ứng dụng thống kê được cung cấp bởi khoa học dữ liệu từ BMW sẽ cung cấp giá trị thị trường tốt nhất cho các xe đã qua sử dụng dựa trên các thông số như Km đã đi, giá hàng ngày lên và xuống, ngày sản xuất, v.v. Phát triển kỹ năng phân tích của bạn thông qua các dự án như vậy.",
+      AlumniBot1:
+        "Chúng tôi đã đặt nhiều ứng viên vào các công ty toàn cầu và các startup hàng đầu. Hơn 1000+ cựu sinh viên Learnbay đã bắt đầu làm việc ngay sau khi hoàn thành khóa học. Phần còn lại được tuyển dụng trong vài tháng. Thậm chí 300+ ứng viên đã trực tiếp tham gia lãnh đạo dự án khoa học dữ liệu hoặc nhân sự sau khi hoàn thành chương trình Khoa học Dữ liệu và AI dành cho Các quản lý và nhà lãnh đạo. Dưới đây là một số cựu sinh viên của chúng tôi chia sẻ về công việc và thành công của họ:",
+      Asrc1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/devraj.jpg",
+      AlumniH1: "Deveraj",
+      Alumnip1:
+        "Chất lượng nội dung rất tốt. Điều tôi thích nhất chính là giảng viên tập trung vào phần thực hành, các buổi học dự án thực tế giúp bạn cảm thấy tự tin khi tham dự phỏng vấn. Nhiều tùy chọn lớp học, truy cập vào bất kỳ video lớp học hoặc tài liệu nào của giảng viên. Môi trường hoàn toàn tích cực xung quanh.",
+      Asrc2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/shezan.png",
+      AlumniH2: "Shezan Baig",
+      Alumnip2:
+        "Learnbay là một trong những viện đào tạo khoa học dữ liệu đáng chú ý nhất mà tôi đã gặp. So với các viện đào tạo khác tại Ấn Độ, nó cung cấp một khóa học khoa học dữ liệu với giá thấp. Giá trị tuyệt vời cho tiền bạc. Cuối cùng, tôi đạt được sự hài lòng với công việc. Tôi khuyên mọi người nên tham gia viện đào tạo này.",
+      Asrc3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/viraj.png",
+      AlumniH3: "Viraj Ghodke",
+      Alumnip3:
+        "Đối với tôi, việc học bằng cách sử dụng nền tảng Learnbay đã là một trải nghiệm tuyệt vời. Đội ngũ giảng dạy và quản lý rất hữu ích. Họ luôn sẵn lòng làm sáng tỏ những thắc mắc của từng cá nhân và đáp ứng nhu cầu của các chuyên gia làm việc. Các buổi tập phỏng vấn thực hành đơn giản như một bản sao của các cuộc phỏng vấn của các công ty đa quốc gia.",
+      Asrc4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/shubhangi.png",
+      AlumniH4: "Shubhangi J. Waghmare ",
+      Alumnip4:
+        "Những gì tốt nhất về ngành công nghiệp từ cả mặt giá và chương trình học. Một lợi ích của việc tham gia ở đây là bạn có thể truy cập vào tài nguyên của họ trong suốt cuộc đời, khác với các trường khác nơi bạn chỉ có thể truy cập trong một năm hoặc là như vậy. Quan trọng hơn, có sự hỗ trợ liên tục cho việc tuyển dụng.",
+      alt1: "khóa học đào tạo khoa học dữ liệu tại Việt Nam",
+      alt2: "khóa học đào tạo khoa học dữ liệu tại Việt Nam",
+      alt3: "khóa học đào tạo khoa học dữ liệu tại Việt Nam",
+      alt4: "khóa học đào tạo khoa học dữ liệu tại Việt Nam",
+      alt5: "khóa học đào tạo khoa học dữ liệu tại Việt Nam",
+      alt6: "khóa học đào tạo khoa học dữ liệu tại Việt Nam",
+      alt7: "khóa học đào tạo khoa học dữ liệu tại Việt Nam",
+      alt8: "khóa học đào tạo khoa học dữ liệu tại Việt Nam",
+      alt9: "khóa học đào tạo khoa học dữ liệu tại Việt Nam",
+      CityTextB:
+        "Vị trí Đào tạo Chứng chỉ Trí Tuệ Nhân Tạo tại Việt Nam ",
+      CityText:
+        " : Đường Bajirao [411002], Yerwada [411006], Kasba Peth [411011], Dhanori [411015], Thành phố Việt Nam [411022], Hadapsar S.O [411028], Sân bay [411032], Afmc [411040], Đường Karve [410038], Nhà máy Đạn [411003], Aundh [411007], Dapodi [411012], Gokhalenagar [411016], Kudje [411023], Kothrud [411029], Mundhva [411036], Tingre Nagar [411000], A.R. Shala [411004], Đường Baner [411004], Thành phố Magarpatta [411013], Khu du lịch Sinh thái [411020], Khadakwasla [411024], Lokmanyanagar [411030], Bibvewadi [411037], Bhavani Peth [411042], Dhayari [411041], Dhankawadi [411043], C D A O [411001], Shivajinagar [411005], Parvati [411009], 9 Drd [411014], Armament [411021], Donje [411025], Bopkhel [411031], Khu dân cư Bhusari [411038], Haveli [411045], Jambhulwadi [411046], Lohogaon [411047], Khondhwa [411048], Anandnagar [411051], Navsahyadri [411052], Chatursringi [411053], Gokhalenagar [411055], Warje [411058], Mohamadwadi Kadvasti [411060], Janaki Nagar [411066], Aundh [411067], Pimpri Chinchwad [411078], Nanded [411230], Gondhale Nagar [412029], Sathe Nagar [412047], Alandi Devachi [412105], Ambarvet [412115], Ashtapur [412207], Manjari Farm [412307], Phursungi [412308], Viman Nagar 411014, Shaniwar Peth [413337].",
+      CityTextLB: "Địa điểm được cung cấp",
+      CityTextL:
+        " :Khoá học Trí Tuệ Nhân Tạo ở viman nagar,Khoá học Trí Tuệ Nhân Tạo tại kalyan nagar,Khoá học Trí Tuệ Nhân Tạo tại magarpetta,Khoá học Trí Tuệ Nhân Tạo tại pimpri chinchwad,Khoá học Trí Tuệ Nhân Tạo ở yerwada,Khoá học Trí Tuệ Nhân Tạo ở kharadi,Khoá học Trí Tuệ Nhân Tạo ở vishrantwadi,Khoá học Trí Tuệ Nhân Tạo ở deccan,Khoá học Trí Tuệ Nhân Tạo ở Katraj,Khoá học Trí Tuệ Nhân Tạo tại warje,,Chứng chỉ Trí Tuệ Nhân Tạo tại bavdhan,Chứng chỉ Trí Tuệ Nhân Tạo ở đường bờ sông,Chứng chỉ Trí Tuệ Nhân Tạo ở khu phố mẫu,Khoá học Trí Tuệ Nhân Tạo tốt nhất ở Việt Nam,Khoá học Trí Tuệ Nhân Tạo tốt nhất ở Việt Nam",
+        },
 ];

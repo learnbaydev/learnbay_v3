@@ -441,7 +441,7 @@ export const masterdegreeUSACourseData = [
       "Learnbay’s data science masters programs in the USA believe in domain-focused training. Our mentors guide experts to refine prior domain knowledge with advanced data science tools and trends. It enriches career values and unlocks the way toward a progressing future.         ",
     DomainBot2:
       "Our master’s course modules follow current GenAI trends and their uses across diverse domains. Thus, it has become an effective way to succeed for mid-career level pros.       ",
-    DomainBot3: "Domain Electives       ",
+      DomainMasterh4: "Domain Electives       ",
     DomainMasterBot1:
       "Learnbay’s MS in data science in USA online offers cutting-edge training in trending domains. They are –      ",
     DomainList1: "• BFSI",
@@ -505,10 +505,10 @@ export const masterdegreeUSACourseData = [
     Modulelist2: "Basics of SQL with in-demand tools    ",
     Modulelist3:
       "Big data and Data visualization tools       ",
-    Modulelist4: "Power BI for data modeling    ",
-    Modulelist5: "Deep learning and its uses    ",
+    Modulelist4: "Power BI for data modeling and Google Looker    ",
+    Modulelist5: "ML systems, Deep learning and its uses    ",
 
-    Modulelist6: "ML systems and their uses    ",
+    Modulelist6: "Real-time projects for different domains    ",
     Modulelist7: "Generative AI tools and trends    ",
     ModuleMasterHead2:"Specialization 2: Artificial Intelligence & Machine Learning",
 ModuleMasterlist1:"Deep learning and its uses (Computer Vision)",
@@ -574,13 +574,13 @@ ModuleMasterBot2:"Apart from these specialized modules, each learner will gain i
       "Expertise in DSA      ",
     Joblist8: "Job-driven skills via case studies and live projects in your domain    ",
     Joblist9:
-      "       ",
+      "   Statistical analysis      ",
     Joblist10:
-      "       ",
+      "   Predictive analytics      ",
     Joblist11:
-      "       ",
-    Joblist12: "       ",
-    Joblist13: "       ",
+      "     Big data      ",
+    Joblist12: "   High-dimensional data analysis    ",
+    Joblist13: "   AI tools and trends    ",
     JobBot19:
       "       ",
 
@@ -588,8 +588,8 @@ ModuleMasterBot2:"Apart from these specialized modules, each learner will gain i
 
     JobBot20:
       "Learnbay’s MS in data science in USA guides you 24/7 till you land your dream job. Eligible learners (at least 70% score in course tasks) get job support from our dedicated placement cell. It is termed as ‘Career Service Pro’ where experts have the following benefits –      ",
-    Joblist14: "Resume Building    ",
-    Joblist15: "Reviewing LinkedIn Profiles    ",
+    Joblist14: "Resume Building/1:1 Doubt-clearing     ",
+    Joblist15: "Reviewing LinkedIn Profiles and Unlimited Interview Calls     ",
     Joblist16: "Exclusive Job Assist for 3 years     ",
     Joblist17: "Six 1:1 Mock Interviews with leading MNCs (our 450+ industry partners)    ",
     Joblist18: "1:1 Doubt-clearing     ",
@@ -616,11 +616,11 @@ ModuleMasterBot2:"Apart from these specialized modules, each learner will gain i
     JobBot24:
       "Upskilling via a master of data science in USA can unlock top-tier career roles across the leading MNCs.       ",
     Joblist23: "Data Scientist (Junior/Senior/Manager)    ",
-    Joblist24: "Data Analyst    ",
-    Joblist25: "Quantitative Analyst    ",
-    Joblist26: "ML/AI Scientist    ",
+    Joblist24: "Data Analyst and Data Scientist – AI Training    ",
+    Joblist25: "Quantitative Analyst and Data Annotation Specialist    ",
+    Joblist26: "ML/AI Scientist and Data Intelligence    ",
     Joblist27: "Data Scientist Engineer    ",
-    Joblist28: "Data Architect    ",
+    Joblist28: "Data Architect and Data Solution Lead    ",
     Joblist29: "BI Developer    ",
     Joblist30: "Data Science Consultant    ",
     JobBot25:

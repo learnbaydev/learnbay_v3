@@ -284,9 +284,9 @@ export default function Home() {
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
           idss="YWxTtvb3x-U"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
-          firstHeading="Best Data Science Courses in USA          "
-          firstTopPara="Foundational and Advanced Job-ready"
-          cityParaCont="Escalate your data science career with our premium training programs in the USA. Our comprehensively engineered courses will help you acquire marketable data science skills with validation from IBM & Microsoft. Get ready to equip yourself with job-oriented expertise via an AI and Data Science course in USA.           "
+          firstHeading="  Master’s in Data Science in USA          "
+          firstTopPara="Learnbay Excelvarsity          "
+          cityParaCont="Drive global-level career excellence with our master’s in data science in USA. Delve deeper into data-driven insights with Learnbay’s Excel varsity. Our GenAI-enrich syllabus supports 360-degree career building with prime job offers. Our collaboration with Woolf University (Master’s degree) and IBM (Project certification) unlocks potential offers.           "
         />
         <SecondSection
           SecondSectionData={masterdegreeUSACourseData[0].secondSection}
@@ -357,6 +357,7 @@ export default function Home() {
               DomainBot2={masterdegreeUSACourseData[0].DomainBot2}
               DomainBot3={masterdegreeUSACourseData[0].DomainBot3}
               DomainMasterBot1={masterdegreeUSACourseData[0].DomainMasterBot1}
+              DomainMasterh4={masterdegreeUSACourseData[0].DomainMasterh4}
               DomainMasterBot2={masterdegreeUSACourseData[0].DomainMasterBot2}
               DomainMasterBot3={masterdegreeUSACourseData[0].DomainMasterBot3}
               masterdomain={true}

@@ -264,7 +264,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              cityTextDSVM={true}
+              cityTextVI={true}
               ProgramBot1={DSVietnamCourseData[0].ProgramBot1}
               ProgramHead3={DSVietnamCourseData[0].ProgramHead3}
               ProgramBot3={DSVietnamCourseData[0].ProgramBot3}
