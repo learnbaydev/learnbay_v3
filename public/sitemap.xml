@@ -393,4 +393,42 @@
 		<changefreq>daily</changefreq>
 		<priority>0.70</priority>
 	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/datascience/usa/data-science-course-training-in-usa</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+<!-- new -->
+
+	<url>
+		<loc>https://www.learnbay.co/datascience/usa/masters-degree-in-data-science-in-usa</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/datascience/southafrica/data-science-course-training-in-south-africa</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/datascience/nigeria/data-science-course-training-in-nigeria</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/datascience/singapore/data-science-course-training-in-singapore</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+
+
+	<url>
+		<loc>https://www.learnbay.co/datascience/vietnam/data-science-course-training-in-vietnam</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
 </urlset>

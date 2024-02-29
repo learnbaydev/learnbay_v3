@@ -199,7 +199,7 @@
 @media (max-width: 481px) {
   .Course {
     padding: 0 20px 50px;
-    margin-top: 0px;
+    /* margin-top: 0px; */
     margin-bottom: 0px;
   }
   .Course h2 {
