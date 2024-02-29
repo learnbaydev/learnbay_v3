@@ -27,13 +27,6 @@ const products = [
   { name: "Software Developer Certification", price: 115000 },
 ];
 
-const coupons = {
-  "10OFF": 0.1,
-  "20OFF": 0.2,
-  "30OFF": 0.3,
-  "40OFF": 0.4,
-};
-
 function EnrollPage({ label, ...rest }) {
   const [focused, setFocused] = useState(false);
 
@@ -60,7 +53,7 @@ function EnrollPage({ label, ...rest }) {
   const [couponApplied, setCouponApplied] = useState(false);
   const [couponValid, setCouponValid] = useState(true);
   const [showPopup, setShowPopup] = useState(false);
-  const [paymentType, setPaymentType] = useState("full");
+  const [paymentType, setPaymentType] = useState("");
   const [isInstallmentSelected, setIsInstallmentSelected] = useState(false);
   const [discount, setDiscount] = useState(0);
   const [discountMsg, setDiscountMsg] = useState("");
@@ -68,8 +61,11 @@ function EnrollPage({ label, ...rest }) {
   const openPopup = () => {
     setShowPopup(true);
   };
-
-  // Function to close the popup
+  useEffect(() => {
+    if (discount != 0 && selectedProduct) {
+      setTotalPrice(selectedProduct.price * (1 - discount / 100));
+    }
+  }, [discount]);
   const closePopup = () => {
     setShowPopup(false);
   };
@@ -86,14 +82,14 @@ function EnrollPage({ label, ...rest }) {
   };
 
   const handleCouponChange = (e) => {
-    const newCoupon = e.target.value.toUpperCase();
+    const newCoupon = e.target.value;
     setSelectedCoupon(newCoupon);
     setCouponApplied(false);
     setCouponValid(true);
   };
 
   const handleCouponApply = async () => {
-    if (selectedCoupon != "") {
+    if (selectedCoupon != " ") {
       try {
         const response = await fetch("/api/Database/getCoupon", {
           method: "POST",
@@ -106,8 +102,14 @@ function EnrollPage({ label, ...rest }) {
           const { couponName, msg } = await response.json();
           setDiscount(parseInt(couponName.discountPercent));
           setDiscountMsg(msg);
-          console.log(parseInt(couponName.discountPercent));
+          const discountedPrice =
+            selectedProduct.price *
+            (1 - parseInt(couponName.discountPercent) / 100);
+          setTotalPrice(discountedPrice * 1.18);
+          setCouponApplied(true);
+          setCouponValid(true);
         } else if (response.status === 404) {
+          setCouponValid(false);
           setDiscountMsg("Coupon Not Valid");
         }
       } catch (err) {
@@ -117,27 +119,31 @@ function EnrollPage({ label, ...rest }) {
         );
       }
     }
-    // if (coupons.hasOwnProperty(selectedCoupon) && selectedProduct) {
-    //   const discount = coupons[selectedCoupon];
-    //   setTotalPrice(selectedProduct.price * (1 - discount) * 1.18);
-    //   setCouponApplied(true);
-    //   setCouponValid(true);
-    // } else {
-    //   setCouponApplied(false);
-    //   setCouponValid(false);
-    //   setTotalPrice(selectedProduct.price * 1.18);
-    // }
+    if (selectedProduct === null) {
+      alert("please select a prooduct");
+    } else if (selectedCoupon != " " && selectedProduct) {
+      const discountedPrice = selectedProduct.price * (1 - discount / 100);
+      setTotalPrice(discountedPrice * 1.18);
+      setCouponApplied(true);
+      setCouponValid(true);
+    } else if (selectedProduct && selectedCoupon === " ") {
+      setCouponApplied(false);
+      setCouponValid(false);
+      setTotalPrice(selectedProduct.price * 1.18);
+    }
   };
-
   const handleCouponCancel = () => {
-    let totalPriceWithoutDiscount = selectedProduct
+    const totalPriceWithoutDiscount = selectedProduct
       ? selectedProduct.price * 1.18
       : 0;
 
-    setTotalPrice(totalPriceWithoutDiscount);
-    setSelectedCoupon(""); // Reset selected coupon
-    setCouponApplied(false); // Reset coupon applied flag
-    setCouponValid(true); // Reset coupon validity
+    if (couponApplied) {
+      setTotalPrice(totalPriceWithoutDiscount);
+    }
+
+    setSelectedCoupon("");
+    setCouponApplied(false);
+    setCouponValid(true);
   };
 
   const handlePaymentTypeChange = (event) => {
@@ -154,15 +160,14 @@ function EnrollPage({ label, ...rest }) {
 
   const makePayment = async () => {
     if (paymentType === "installments") {
-      setShowPopup(true); // Show the popup for no-cost finance
-      return; // Exit the function
+      setShowPopup(true);
+      return;
     }
     try {
       const res = await initializeRazorpay();
       if (!res) {
         throw new Error("Razorpay SDK failed to load");
       }
-
       const response = await fetch("/api/Razor_pay", {
         method: "POST",
         headers: {
@@ -177,7 +182,6 @@ function EnrollPage({ label, ...rest }) {
       }
 
       const data = await response.json();
-      console.log(data.amount, "fsas");
       const options = {
         key: process.env.RAZORPAY_KEY,
         name: "Learnbay",
@@ -193,7 +197,6 @@ function EnrollPage({ label, ...rest }) {
           window.location.href = "/enroll";
         },
       };
-
       const paymentObject = new window.Razorpay(options);
       paymentObject.open();
     } catch (error) {
@@ -219,7 +222,18 @@ function EnrollPage({ label, ...rest }) {
 
   return (
     <section className={styles.MainDiv}>
-      {showPopup && <EnrollPopup onClose={closePopup} />}
+      {showPopup && (
+        <EnrollPopup
+          onClose={closePopup}
+          name={name}
+          email={email}
+          phone={phone}
+          selectedProduct={selectedProduct}
+          selectedCoupon={selectedCoupon}
+          totalPrice={totalPrice}
+          paymentType={paymentType}
+        />
+      )}
       <div className={styles.logoImage}>
         <Image
           src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
@@ -244,7 +258,7 @@ function EnrollPage({ label, ...rest }) {
                   onBlur={() => handleBlur("fullNameLabel", name)}
                   type="text"
                   value={name}
-                  required={true}
+                  required
                   onChange={(e) => setName(e.target.value)}
                 />
                 <label
@@ -265,7 +279,7 @@ function EnrollPage({ label, ...rest }) {
                   value={email}
                   type="email"
                   onChange={(e) => setEmail(e.target.value)}
-                  required={true}
+                  required
                 />
                 <label
                   id="EmailId"
@@ -286,7 +300,7 @@ function EnrollPage({ label, ...rest }) {
                   onBlur={() => handleBlur("PhonId", phone)}
                   value={phone}
                   type="tel"
-                  required={true}
+                  required
                   onChange={(e) => setPhone(e.target.value)}
                 />
                 <label
@@ -307,7 +321,7 @@ function EnrollPage({ label, ...rest }) {
                   onBlur={() => handleBlur("productsId", products)}
                   onChange={handleProductChange}
                   style={{ color: "#0072BC" }}
-                  required={true}
+                  required
                 >
                   <option></option>
                   {products.map((product, index) => (
@@ -326,42 +340,45 @@ function EnrollPage({ label, ...rest }) {
                 </label>
               </div>
             </div>
-            <div className={styles.divFlex}>
-              <div className={styles.formGroup}>
-                <input
-                  {...rest}
-                  className={styles.formControl}
-                  onFocus={() => handleFocus("CouponId")}
-                  onBlur={() => handleBlur("CouponId", selectedCoupon)}
-                  type="text"
-                  value={selectedCoupon}
-                  onChange={handleCouponChange}
-                />
-                <label
-                  id="CouponId"
-                  className={`${styles.formLabel} ${
-                    focused ? styles.focused : ""
-                  }`}
-                >
-                  Coupon Code
-                </label>
-                <button
-                  type="button"
-                  className={styles.CouponButton}
-                  onClick={
-                    couponApplied ? handleCouponCancel : handleCouponApply
-                  }
-                >
-                  {couponApplied ? "CANCEL" : "APPLY"}
-                </button>
+            {selectedProduct && (
+              <div className={styles.divFlex}>
+                <div className={styles.formGroup}>
+                  <input
+                    {...rest}
+                    className={styles.formControl}
+                    onFocus={() => handleFocus("CouponId")}
+                    onBlur={() => handleBlur("CouponId", selectedCoupon)}
+                    type="text"
+                    value={selectedCoupon}
+                    onChange={handleCouponChange}
+                  />
+                  <label
+                    id="CouponId"
+                    className={`${styles.formLabel} ${
+                      focused ? styles.focused : ""
+                    }`}
+                  >
+                    Coupon Code
+                  </label>
+                  <button
+                    type="button"
+                    className={styles.CouponButton}
+                    disabled={!selectedCoupon.trim()}
+                    onClick={
+                      couponApplied ? handleCouponCancel : handleCouponApply
+                    }
+                  >
+                    {couponApplied ? "CANCEL" : "APPLY"}
+                  </button>
+                </div>
+                <div className={styles.formGroup}>
+                  {" "}
+                  {!couponValid && (
+                    <p className={styles.error}>{discountMsg}</p>
+                  )}
+                </div>
               </div>
-              <div className={styles.formGroup}>
-                {" "}
-                {!couponValid && (
-                  <p className={styles.error}>Invalid coupon code</p>
-                )}
-              </div>
-            </div>
+            )}
           </form>
           <div className={styles.NewDiv}>
             <h4 className={styles.Text}>Course Selected</h4>
@@ -382,7 +399,10 @@ function EnrollPage({ label, ...rest }) {
                   type="radio"
                   name="paymentType"
                   value="full"
-                  onChange={handlePaymentTypeChange}
+                  onChange={(e) => {
+                    handlePaymentTypeChange(e);
+                    setIsInstallmentSelected(false);
+                  }}
                   className={styles.radioMargin}
                 />
                 Pay via Credit Card/ Debit Card/ Net Banking
@@ -392,7 +412,10 @@ function EnrollPage({ label, ...rest }) {
                   type="radio"
                   name="paymentType"
                   value="installments"
-                  onChange={() => setIsInstallmentSelected(true)}
+                  onChange={(e) => {
+                    handlePaymentTypeChange(e);
+                    setIsInstallmentSelected(true);
+                  }}
                   className={styles.radioMargin}
                 />
                 No cost finance with minimum documents
@@ -425,11 +448,9 @@ function EnrollPage({ label, ...rest }) {
                 <label className={styles.Label}>Discount Amount:</label>
                 <span className={styles.price}>
                   {"₹" +
-                    (
-                      selectedProduct.price *
-                      coupons[selectedCoupon] *
-                      1.18
-                    ).toFixed(2)}{" "}
+                    (selectedProduct.price * (discount / 100) * 1.18).toFixed(
+                      2
+                    )}{" "}
                 </span>
               </div>
             )}
@@ -451,13 +472,25 @@ function EnrollPage({ label, ...rest }) {
               <button
                 type="button"
                 onClick={() => {
+                  console.log("Checking if fields are empty...");
+                  if (!name || !email || !phone || !selectedProduct) {
+                    console.log("Fields are empty. Showing alert...");
+                    alert("Please fill in all the required fields.");
+                    return;
+                  }
+                  console.log("Fields are filled. Proceeding with checkout...");
                   if (isInstallmentSelected) {
                     setShowPopup(true);
                   } else {
                     makePayment();
                   }
                 }}
-                className={styles.button}
+                className={`${styles.button} ${
+                  !name || !email || !phone || !selectedProduct
+                    ? styles.disabled
+                    : ""
+                }`}
+                disabled={!name || !email || !phone || !selectedProduct}
               >
                 Complete Checkout
               </button>
