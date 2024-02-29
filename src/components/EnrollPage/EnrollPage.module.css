@@ -109,6 +109,20 @@
   font-weight: 600;
 }
 
+.disabled {
+  opacity: 0.5; /* Adjust the opacity as needed */
+  pointer-events: none; /* Disable pointer events on the faded button */
+}
+
+.successMessage {
+  color: rgba(105, 206, 105, 0.989);
+  margin: 30px 0px 10px 0px;
+}
+
+.CouponButton:disabled{
+  color: #aaaaaa;
+}
+
 .CancelButton {
   font-size: 12px;
   color: #0072BC;
