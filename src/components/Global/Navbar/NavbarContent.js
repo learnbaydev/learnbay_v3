@@ -8,7 +8,7 @@ import { menuItem } from "./NavbarData";
 const Button = dynamic(() => import("../Button/Button"));
 const Tabs = dynamic(() => import("../Tabs/Tabs"));
 
-const NavbarContent = ({ adPage, setPopups, DMD }) => {
+const NavbarContent = ({ adPage, setPopups, DMD, careerportalbtn }) => {
   const [icon, setIcon] = useState(false);
   const [show, setShow] = useState(false);
 
@@ -159,9 +159,12 @@ const NavbarContent = ({ adPage, setPopups, DMD }) => {
                     );
                   })}
 
-              <div onClick={popupShow}>
-                <Button text="Apply Now" outline={true} />
-              </div>
+{careerportalbtn ? (""):(
+   <div onClick={popupShow}>
+   <Button text="Apply Now" outline={true} />
+ </div>
+)}
+             
             </div>
           )}
         </>

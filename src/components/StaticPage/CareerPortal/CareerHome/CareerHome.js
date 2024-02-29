@@ -15,8 +15,9 @@ function CareerHome() {
         <div>
           <p className={styles.pTop}>Career portal</p>
           <h4 style={{ textAlign: "left" }}>
-            redesigning your <br />
-            work EXPERIENCE
+            
+No Current <br />
+            JOB OPENINGS
           </h4>
         </div>
         <div className="imgWrapper">
@@ -31,7 +32,7 @@ function CareerHome() {
           </div>
         </div>
       </div>
-      <div className={styles.Placement}>
+      {/* <div className={styles.Placement}>
         <div className={styles.OurPlacementDiv}>
           <h3>Opportunities at Learnbay</h3>
           <div className={styles.iconBoxP}>
@@ -90,7 +91,8 @@ function CareerHome() {
             })}
           </div>
         </div>
-      </div>
+      </div> */}
+      
     </section>
   );
 }
