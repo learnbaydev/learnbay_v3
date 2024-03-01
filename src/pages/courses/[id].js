@@ -1,6 +1,5 @@
 // pages/courses/[id].js
 import { useRouter } from 'next/router';
-import courseData from '../../../public/Data/search.json';
 import Link from 'next/link';
 
 const CourseDetail = () => {
