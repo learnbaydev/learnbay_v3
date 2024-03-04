@@ -45,15 +45,18 @@ const EnrollPopup = ({
     };
 
     axios
-    .post("https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92", formData)
-    .then((response) => {
-      console.log("Form submitted successfully to external endpoint!");
-      return axios.post("/api/Database/emailConfirmation", formData);
-    })
-    .then((response) => {
-      console.log("Confirmation email sent successfully!");
-      setFormSubmitted(true);
-    })
+      .post(
+        "https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92",
+        formData
+      )
+      .then((response) => {
+        console.log("Form submitted successfully to external endpoint!");
+        return axios.post("/api/Database/emailConfirmation", formData);
+      })
+      .then((response) => {
+        console.log("Confirmation email sent successfully!");
+        setFormSubmitted(true);
+      })
       .catch((error) => {
         console.error("Error submitting form:", error);
       })
@@ -142,31 +145,38 @@ const EnrollPopup = ({
                 </div>
               ) : (
                 <button
-                type="button"
-                onClick={() => {
-                  console.log("Checking if fields are empty...");
-                  if (!selectedTime || !selectedDate || submittingForm) {
-                    console.log("Fields are empty. Showing alert...");
-                    alert("Please fill in all the required fields.");
-                    return;
-                  }
-                  setSubmittingForm(true);
-                  console.log("Fields are filled. Proceeding with checkout...");
-                  handleFormSubmit();
-                }}
-                className={`${styles.button} ${
-                  (!selectedTime || !selectedDate) && !submittingForm ? styles.disabled : ""
-                }`}
-                disabled={!selectedTime || !selectedDate || submittingForm}
-                style={{
-                  width: "auto",
-                  margin: "30px 0px 0px 0px",
-                  opacity: submittingForm ? 0.5 : (!selectedTime || !selectedDate ? 0.5 : 1),
-                }}
-              >
-                {submittingForm ? "Submitting..." : "Book an Appointment"}
-              </button>
-              
+                  type="button"
+                  onClick={() => {
+                    console.log("Checking if fields are empty...");
+                    if (!selectedTime || !selectedDate || submittingForm) {
+                      console.log("Fields are empty. Showing alert...");
+                      alert("Please fill in all the required fields.");
+                      return;
+                    }
+                    setSubmittingForm(true);
+                    console.log(
+                      "Fields are filled. Proceeding with checkout..."
+                    );
+                    handleFormSubmit();
+                  }}
+                  className={`${styles.button} ${
+                    (!selectedTime || !selectedDate) && !submittingForm
+                      ? styles.disabled
+                      : ""
+                  }`}
+                  disabled={!selectedTime || !selectedDate || submittingForm}
+                  style={{
+                    width: "auto",
+                    margin: "30px 0px 0px 0px",
+                    opacity: submittingForm
+                      ? 0.5
+                      : !selectedTime || !selectedDate
+                      ? 0.5
+                      : 1,
+                  }}
+                >
+                  {submittingForm ? "Submitting..." : "Book an Appointment"}
+                </button>
               )}
             </form>
           </div>
