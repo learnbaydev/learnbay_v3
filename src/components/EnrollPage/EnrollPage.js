@@ -1,8 +1,10 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { FaReact } from "react-icons/fa";
+import axios from "axios";
 import styles from "./EnrollPage.module.css";
 import EnrollPopup from "./EnrollPagePopup";
+import { useRouter } from "next/router";
 
 const products = [
   { name: "Data Science and AI Master Certification Program", price: 129000 },
@@ -57,6 +59,18 @@ function EnrollPage({ label, ...rest }) {
   const [isInstallmentSelected, setIsInstallmentSelected] = useState(false);
   const [discount, setDiscount] = useState(0);
   const [discountMsg, setDiscountMsg] = useState("");
+  const [submittingForm, setSubmittingForm] = useState(false);
+  const router = useRouter();
+
+  const isValidEmail = (value) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(value);
+  };
+
+  const isValidPhoneNumber = (value) => {
+    const phoneRegex = /^\d+$/; // Regular expression to allow only numeric characters
+    return phoneRegex.test(value);
+  };
 
   const openPopup = () => {
     setShowPopup(true);
@@ -194,7 +208,12 @@ function EnrollPage({ label, ...rest }) {
           alert(
             "Payment successful! Payment ID: " + response.razorpay_payment_id
           );
+          // Send email after successful payment
+          sendEmail();
+          // Submit form data to Getform after successful payment
+          submitFormDataToGetform();
           window.location.href = "/enroll";
+          handleFormSubmit();
         },
       };
       const paymentObject = new window.Razorpay(options);
@@ -202,6 +221,49 @@ function EnrollPage({ label, ...rest }) {
     } catch (error) {
       console.error("Error making payment:", error);
       alert("Error making payment. Please try again.");
+    }
+  };
+
+  const sendEmail = async () => {
+    const formData = {
+      name: name,
+      email: email,
+      phone: phone,
+      selectedProduct: selectedProduct.name,
+      selectedCoupon: selectedCoupon,
+      totalPrice: totalPrice,
+      paymentType: paymentType,
+      url: router.asPath,
+    };
+
+    try {
+      await axios.post("/api/Database/emailInvoice", formData);
+      console.log("Confirmation email sent successfully!");
+    } catch (error) {
+      console.error("Error sending confirmation email:", error);
+    }
+  };
+
+  const submitFormDataToGetform = async () => {
+    const formData = {
+      name: name,
+      email: email,
+      phone: phone,
+      selectedProduct: selectedProduct.name,
+      selectedCoupon: selectedCoupon,
+      totalPrice: totalPrice,
+      paymentType: paymentType,
+      url: router.asPath,
+    };
+
+    try {
+      await axios.post(
+        "https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92",
+        formData
+      );
+      console.log("Form submitted successfully to Getform!");
+    } catch (error) {
+      console.error("Error submitting form to Getform:", error);
     }
   };
 
@@ -218,6 +280,40 @@ function EnrollPage({ label, ...rest }) {
 
       document.body.appendChild(script);
     });
+  };
+
+  const handleFormSubmit = () => {
+    setSubmittingForm(true);
+    const formData = {
+      name: name,
+      email: email,
+      phone: phone,
+      selectedProduct: selectedProduct.name,
+      selectedCoupon: selectedCoupon,
+      totalPrice: totalPrice,
+      paymentType: paymentType,
+      url: router.asPath,
+    };
+
+    axios
+      .post(
+        "https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92",
+        formData
+      )
+      .then((response) => {
+        console.log("Form submitted successfully to external endpoint!");
+        return axios.post("/api/Database/emailInvoice", formData);
+      })
+      .then((response) => {
+        console.log("Confirmation email sent successfully!");
+        setFormSubmitted(true);
+      })
+      .catch((error) => {
+        console.error("Error submitting form:", error);
+      })
+      .finally(() => {
+        setSubmittingForm(false);
+      });
   };
 
   return (
@@ -253,10 +349,10 @@ function EnrollPage({ label, ...rest }) {
               <div className={styles.formGroup}>
                 <input
                   {...rest}
+                  type="text"
                   className={styles.formControl}
                   onFocus={() => handleFocus("fullNameLabel")}
                   onBlur={() => handleBlur("fullNameLabel", name)}
-                  type="text"
                   value={name}
                   required
                   onChange={(e) => setName(e.target.value)}
@@ -273,11 +369,18 @@ function EnrollPage({ label, ...rest }) {
               <div className={styles.formGroup}>
                 <input
                   {...rest}
+                  type="email"
                   className={styles.formControl}
                   onFocus={() => handleFocus("EmailId")}
-                  onBlur={() => handleBlur("EmailId", email)}
+                  onBlur={() => {
+                    handleBlur("EmailId", email);
+                    if (!isValidEmail(email)) {
+                      alert("Please enter a valid email address.");
+                      // Optionally, you can clear the email field if it's not valid
+                      setEmail("");
+                    }
+                  }}
                   value={email}
-                  type="email"
                   onChange={(e) => setEmail(e.target.value)}
                   required
                 />
@@ -295,11 +398,18 @@ function EnrollPage({ label, ...rest }) {
               <div className={styles.formGroup}>
                 <input
                   {...rest}
+                  type="tel"
                   className={styles.formControl}
                   onFocus={() => handleFocus("PhonId")}
-                  onBlur={() => handleBlur("PhonId", phone)}
+                  onBlur={() => {
+                    handleBlur("PhonId", phone);
+                    if (!isValidPhoneNumber(phone)) {
+                      alert("Please enter a valid phone number.");
+                      // Optionally, you can clear the phone field if it's not valid
+                      setPhone("");
+                    }
+                  }}
                   value={phone}
-                  type="tel"
                   required
                   onChange={(e) => setPhone(e.target.value)}
                 />
@@ -345,10 +455,10 @@ function EnrollPage({ label, ...rest }) {
                 <div className={styles.formGroup}>
                   <input
                     {...rest}
+                    type="text"
                     className={styles.formControl}
                     onFocus={() => handleFocus("CouponId")}
                     onBlur={() => handleBlur("CouponId", selectedCoupon)}
-                    type="text"
                     value={selectedCoupon}
                     onChange={handleCouponChange}
                   />
@@ -483,6 +593,11 @@ function EnrollPage({ label, ...rest }) {
                     setShowPopup(true);
                   } else {
                     makePayment();
+                    console.log(
+                      "Fields are filled. Proceeding with checkout..."
+                    );
+                    setSubmittingForm(true);
+                    handleFormSubmit();
                   }
                 }}
                 className={`${styles.button} ${
