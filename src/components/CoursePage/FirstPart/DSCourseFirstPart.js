@@ -163,7 +163,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData,  }) => {
       <MasterSecondSection data={seconddata} />
       <Course
         // radio={true}
-        organicADS={true}
+       
         // interstedInHide={true}
         newDesign={true}
         dataScienceGeneric={true}
