@@ -385,6 +385,7 @@ export default function Home() {
               JobHead21={DSVietnamCourseData[0].JobHead21}
               JobBot21={DSVietnamCourseData[0].JobBot21}
               JobBot22={DSVietnamCourseData[0].JobBot22}
+              JobBot60={DSVietnamCourseData[0].JobBot60}
               JobBot36={DSVietnamCourseData[0].JobBot36}
               Joblist21={DSVietnamCourseData[0].Joblist21}
               Joblist22={DSVietnamCourseData[0].Joblist22}

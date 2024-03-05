@@ -224,7 +224,231 @@ export const DataScienceCourseData = [
             "Individualized project experience with easy access to premium job opportunities.",
           ],
         },
+        DSDegreeCertificate: {
+          id: 4,
+          img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/certificate/degree-woolf.webp",
+          title: "Globally recognized degree",
+          para: [
+            "The ECTS accreditation is recognized across more than 60 countries.",
+            "Equivalent to a Master’s degree in US",
+            "Our EU-accredited degree boosts visa prospects in Europe the US, canada, and more.",
+            "ECE.org evaluated credits making it equivalent to a master’s degree from the United States. To Know More:",
+          ],
+          link: true,
+          linkText: "https://legal.woolf.university/accreditation",
+          linkUrl: "https://legal.woolf.university/accreditation",
+        },
       },
+      DomainHead1: " Domain Specialization?",
+      DomainBot1:
+        " In today’s digital space, domain-specific learning has become vital for optimal solutions. Data science has become the main force driving higher profits and helping firms retain themselves. Thus, domain knowledge is vital for experts, as it helps them solve issues with proven insights.         ",
+      DomainBot2: " Our leading-edge data science course institute offers domain-specific training sessions to enrich your prior knowledge. It helps you note down real issues and tackle them with the right methods. Learnbay’s best data science courses follow the trending domains to align them for upskilling. Such domain electives are –      ",
+      DomainBot3: "",
+      DomainList1: "• BFSI",
+      DomainList2: "• HR",
+      DomainList3: "• Marketing",
+      DomainList4: "• Manufacturing",
+      DomainList5: "• Healthcare      ",
+      DomainList6: "• Supply Chain ",
+      Domainlink1:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf",
+      Domainlink2:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales,+Marketing+and+HR+Domain.pdf",
+      Domainlink3:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales,+Marketing+and+HR+Domain.pdf",
+      Domainlink4:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf",
+      Domainlink5:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf",
+      Domainlink6: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf",
+     DomainBot40:"Experts can opt for any data science online course and choose the right domain for exciting career growth options.",
+     DomainBot41: "Apart from domain electives, our master’s data science course has two domain specializations. Here, learners must select any one domain specialization as per their interests. In short, experts must opt for one domain specialization in their preferred elective to continue upskilling.",
+     CertificationHead1: "Degree and Certification Details      ",
+
+      CertificationBot1:
+        "Data science is an ever-evolving field with infinite growth scopes. Working pros with stagnant skills must upgrade their skills to thrive. Yet, upskilling from a common course with generic validations can degrade career values. Unlike standard courses, our data science courses offer globally recognized certificates with valuable returns.         ",
+      src33:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
+      src22:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
+        src40:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/certificate/degree-woolf.webp",
+        CertificationHead29:"IBM Course Completion Certificate        ",
+        CertificationBot2:
+        "Our industry collaboration with global tech leader IBM unlocks exciting career growth offers. Experts opting for industry-driven courses develop an in-detailed learning of data science and AI trends. We acknowledge their learned skills and expertise via an IBM course completion certificate. Once you complete your coursework, you will obtain a globally recognized certification.        ",
+     CertificationHead30: "Microsoft Certificate",
+        CertificationBot3:
+        "Our successful alliance with Microsoft expands your career growth horizons with limitless offers. Regardless of data science course fees, experts opt for our programs for globally valued industry certifications. You will obtain one MS certificate to leverage your earning limits.         ",
+        CertificationHead31: "IBM Project Certificate",
+        CertificationBot4:
+        "Our alliance with tech giant IBM unlocks successive ways to establish a global-level career with better hikes. Learners will obtain an IBM project certificate once they complete the course. It validates your learned skills to crack down on premium job offers worldwide.         ",
+     CertificationHead32:"Master’s Degree from Woolf University     ",
+     CertificationBot5:"Apart from foundational and certification courses, we have expertise in data science master’s degree programs. Our comprehensively designed master’s in data science course validates your skills for global offers. Experts joining our master’s program will obtain a degree from Woolf University. Learners can step into highly-paying careers with their master’s degree. Our master’s degree has impactful recognition across 60+ Western countries.      ",
+        ModuleHead1: "Enlisting the Learning Outcomes         ",
+      ModuleBot1:
+        "US experts gain knowledge in their fields and achieve success in data science careers with many opportunities. You can learn everything from scratch – from programming languages to Generative AI trends.         ",
+      ModuleBot2:
+        "Major highlights of the data scientist course in USA include –        ",
+      Modulelist1: "Statistical Analysis        ",
+      Modulelist2: "Python Programming        ",
+      Modulelist3:
+        "Machine learning models (decision trees, clustering, KNN, SVM, linear regression)        ",
+      Modulelist4: "Big Data Analytics and Visualization         ",
+      Modulelist5: "AI tools (Deep learning, NLP)        ",
+  
+      Modulelist6: "Deployment of AWS & Azure        ",
+      Modulelist7: "Bonus sessions on GenAI tools & future trends        ",
+  
+      syllabush1: " Preparatory Classes (Programming + Maths)",
+      syllabusb1: "6 Hours",
+      SyllabusBotlist11: " Cohort Orientation",
+      SyllabusBotlist12: "A brief introduction to tools related to data",
+      SyllabusBotlist13: " Fundamentals of Programming",
+      SyllabusBotlist14: "Introduction to Anaconda & Jupyter notebook",
+      SyllabusBotlist15: "Fundamentals of Statistics",
+      SyllabusBotlist16: "Mean, Median, Mode",
+      syllabush2: "Python for Data Science",
+      syllabusb2: "40 Hours",
+      SyllabusBotlist21: "Python Programming",
+      SyllabusBotlist22: "Data Analysis Using Numpy",
+      SyllabusBotlist23: "Python Programming Overview",
+      SyllabusBotlist24: "Python Data Types",
+      SyllabusBotlist25: "Strings, Decisions & Loop Control",
+      SyllabusBotlist26: "Data Analysis Using Pandas",
+      syllabush3: "Statistics and Machine Learning",
+      syllabusb3: "70 Hours",
+      SyllabusBotlist31: "Statistics",
+      SyllabusBotlist32: "Fundamentals of Math and Probability",
+      SyllabusBotlist33: "Descriptive Statistics",
+      SyllabusBotlist34: " Machine Learning",
+      SyllabusBotlist35: "Linear Regression Model",
+      SyllabusBotlist36: "Data Preprocessing",
+      syllabush4: " Data Science Tools",
+      syllabusb4: "12+ Classes",
+      SyllabusBotlist41: " SQL",
+      SyllabusBotlist42: "MongoDB",
+      SyllabusBotlist43: "Tableau",
+      SyllabusBotlist44: " PowerBI",
+      SyllabusBotlist45: " Big Data & Spark Analytics",
+      SyllabusBotlist46: "Big Data & Spark Analytics",
+      syllabussrc:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
+      JobHead1:
+        " ",
+        MasterJobBot1:"In today’s tech era, we offer the best online data science courses with premium career gains. Experts joining any of the courses will equip themselves with alluring job offers from the leading MNCs. All the eligible learners with at least 70% score in tasks can avail of our job assist program.        ",
+        MasterJobBot2:"By the end of our data science training, you will have expertise in –     ",
+     
+        Joblist1: "Introduction to data science to industry cases         ",
+      Joblist2: "Insightful data analysis      ",
+      Joblist3:
+        "Statistical analysis         ",
+      Joblist4:
+        "Predictive modeling       ",
+      Joblist5:
+        "Efficient coding with programming languages         ",
+      Joblist6:
+        "Applied data science tools and trends        ",
+      Joblist7:
+        "Deep learning tools and uses        ",
+      Joblist8: "Dashboard creation with facts       ",
+      Joblist9:
+        "Big data analytics         ",
+      Joblist10:
+        "Business intelligence tools        ",
+      Joblist11:
+        "GenAI trends (ChatGPT)        ",
+      Joblist12: " Decision-making techniques    ",
+      Joblist13: " Data science machine learning uses      ",
+      JobBot19:
+        "  ",
+  
+      JobHead19: "Career Service Pro        ",
+  JobBot50:"Experts eager to re-establish their careers with premium gains must enroll in the best data science course with placement guarantee. We envision a successful career change with alluring growth offers. Apart from tech skills, our job assist program focuses on soft and behavioral skill development. Mentors guide our learners through their real-time experience and help them become a perfect organizational fit.   ",
+      JobBot20:
+        "Vital career gains via our Career Service PRO are –        ",
+      Joblist14: "1:1 doubt-clearing with mentors (Course and Project-related)      ",
+      Joblist15: "Six 1:1 mock interviews (450+ industry partners)      ",
+      Joblist16: "Three years of job support/Resume building      ",
+      Joblist17: "Endless job calls from leading MNCs      ",
+      JobHead21:
+        "  ",
+      JobBot21:
+        "Unlike generic courses, we are moving on our path toward proven career shifts. A data science course with placement guarantee unlocks true career potential for experts with stagnancy. With our programs, you can unlock alluring job roles of data scientists, data analysts, data engineers, etc.         ",
+      JobBot22:
+        "   ",
+      JobBot23: "    ",
+      Joblist50: "    ",
+      Joblist51: "     ",
+      Joblist52: "    ",
+      Joblist53: "     ",
+      Joblist54:
+        " ",
+      JobHead22:
+        "   ",
+      JobBot24:
+    
+        "    ",
+      ProjectsHead1:
+        "     ",
+      ProjectsBot1:
+        "Data science is reforming businesses with data-driven insights and higher returns. Employers across the globe search for skillful data experts with proven skills with the latest trends. Real-world projects are useful in optimizing growth chances and helping you land your dream roles.         ",
+  
+      ProjectsBot3:
+        "The best data science courses offer a project-based learning experience with assured career gains. Experts enrolling in our data science courses will have the scope to work with 12+ real-time projects. Learners can choose their preferred domain electives and continue their projects.         ",
+      ProjectsBot4:
+        "Note: If you opt for our master’s data science online course, you will have three capstone projects in each domain specialization.         ",
+      ProjectsBot5:
+        "Industry experts help our learners gain real-time knowledge of business cases and apply the right methods to reach solutions. Our experimental data science training enriches your skills as per the latest trends.         ",
+      ProjectsBot6:
+        "Our data science projects cover trending topics related to data analytics, data visualizations, machine learning uses, artificial intelligence tools, etc. Real-time projects help you with fair data analysis and informed decision-making. Thus, experts at any career level can opt for our courses with better career returns.         ",
+      ProjectsBot7:
+        "",
+      ProjectsBot2: "Below are a few projects from the Learnbay alumni profiles:",
+      src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
+      ProjectsH1: "Samsung Health Monitor App",
+      Projectsp1:
+        "Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app.",
+      src2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IBM.png",
+      ProjectsH2: "IBM HR Analytics",
+      Projectsp2:
+        "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other Data science abilities.",
+      src3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/amazon1.png",
+      ProjectsH3: "Amazon Customer Review Analysis",
+      Projectsp3:
+        "Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can participate in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach.",
+      src4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BMW.png",
+      ProjectsH4: "BMW Used Car Price Optimization",
+      Projectsp4:
+        "BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects.",
+      AlumniBot1:
+        "We have emplaced numerous candidates in top global companies and startups. More than 1000+ Learnbay alumni have already started working as soon as they completed the course. Rest got recruited in a few months. Even 300+ candidates have directly joined data science project leadership or manager designation after completing the Data Science and AI program for Managers and leaders. Here are some of our alumni sharing their hard work and success:",
+      Asrc1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/devraj.jpg",
+      AlumniH1: "Deveraj",
+      Alumnip1:
+        "The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around.",
+      Asrc2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/shezan.png",
+      AlumniH2: "Shezan Baig",
+      Alumnip2:
+        "Learnbay is one of the most remarkable data science institutes I've come across. Compared to other institutes in India, it offers a data science course at a low cost. Excellent value for money. Finally, I achieved job satisfaction. I would strongly advise everyone to attend this institute.",
+      Asrc3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/viraj.png",
+      AlumniH3: "Viraj Ghodke",
+      Alumnip3:
+        "For me, learning using the Learnbay platform has been a great experience. The teaching and management team are very helpful. They are constantly willing to clarify each individual's doubts and meet the needs of working professionals. The practice interview sessions were simply like a clone of MNC interviews.",
+      Asrc4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/shubhangi.png",
+      AlumniH4: "Shubhangi J. Waghmare ",
+      Alumnip4:
+        "The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment.",
+      alt1: "data science course training in USA",
+      alt2: "data science course training in USA",
+      alt3: "data science course training in USA",
+      alt4: "data science course training in USA",
+      alt5: "data science course training in USA",
+      alt6: "data science course training in USA",
+      alt7: "data science course training in USA",
+      alt8: "data science course training in USA",
+      alt9: "data science course training in USA",
+  
   
       masterSyllabusMobile: [
         {

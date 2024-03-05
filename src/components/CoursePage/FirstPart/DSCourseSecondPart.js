@@ -85,7 +85,7 @@ const SecondPart = ({
     <div>
     
       <ToolsCovered />
-      <Certificate data={CertificateData} />
+      <Certificate data={CertificateData} OnlyDS={true}/>
     
       <MentorsSection />
      
