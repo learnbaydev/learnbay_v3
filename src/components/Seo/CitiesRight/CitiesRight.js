@@ -88,6 +88,8 @@ const CitiesRight = ({
   DomainList4,
   DomainList5,
   DomainList6,
+  DomainBot40,
+  DomainBot41,
   DomainList7,
   DomainList8,
   DomainList9,
@@ -95,6 +97,10 @@ const CitiesRight = ({
   CertificationHead1,
   CertificationHead2,
   CertificationHead3,
+  CertificationHead29,
+  CertificationHead30,
+  CertificationHead31,
+  CertificationHead32,
   CertificationBot1,
   CertificationBot2,
   CertificationBot3,
@@ -110,6 +116,7 @@ const CitiesRight = ({
   ModuleMasterBot2,
   ModuleHead1,
   ModuleMasterHead1,
+  DSNoModule,
   MasterModulelist,
   ModuleMasterHead2,
   ModuleMasterlist1,
@@ -179,6 +186,7 @@ const CitiesRight = ({
   JobHead1,
   MasterJobBot1,
   MasterJobSpan1,
+  MasterJobBot2,
   JobBot1,
   JobBot2,
   JobHead2,
@@ -193,6 +201,7 @@ const CitiesRight = ({
   JobBot3,
   JobHead4,
   JobBot19,
+  JobBot50,
   JobBot5,
   JobBot6,
   Joblist1,
@@ -221,6 +230,7 @@ const CitiesRight = ({
   JobHead21,
   JobBot21,
   JobBot22,
+  JobBot60,
   JobBot23,
   JobHead23,
   JobBot30,
@@ -255,6 +265,7 @@ const CitiesRight = ({
   Joblist53,
   Joblist54,
   usaonly,
+  hideDSonly,
   ProgramBotItaliic105,
   JobBot40,
   ProjectsBot1,
@@ -272,9 +283,12 @@ const CitiesRight = ({
   AlumniBot1,
   src1,
   src2,
+  src23,
+  Dsonlymsatercer,
   src3,
   src4,
   src22,
+  src40,
   src33,
   ProjectsH1,
   ProjectsH2,
@@ -390,11 +404,13 @@ const CitiesRight = ({
   cityTextDSSAfrica,
   cityTextBangla,
   cityTextMasterUSA,
+  OnlyDatascience,
 }) => {
   const [read, setRead] = useState(false);
   const handler = () => {
     setRead(!read);
   };
+
   return (
     <section className={styles.CitiesRightHead}>
       <div id="Program">
@@ -2707,7 +2723,8 @@ const CitiesRight = ({
               pro’s focus for a smooth career switch. Yet, it does not
               necessarily justify career building with the latest tools useful
               to various domains. Learnbay’s{" "}
-              <a style={{color:"#0072bc"}}
+              <a
+                style={{ color: "#0072bc" }}
                 href="https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs"
                 target="_blank"
               >
@@ -2736,7 +2753,7 @@ const CitiesRight = ({
               In addition, an internationally accredited master’s degree (Woolf
               University) and IBM project certificate empower your career.
             </p>
-            <br/>
+            <br />
             <h4 style={{ fontSize: "20px" }}>
               Course Features Advancing to a Global-level Career
             </h4>
@@ -2906,9 +2923,8 @@ const CitiesRight = ({
         {cityTextDSVM ? (
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
-              Overview of Learnbay’s Premium{" "}
-              <b>Data Science Training in Vietnam</b> [In Alliance with IBM &
-              
+              Overview of Learnbay’s Premium Data Science Training in Vietnam
+              [In Alliance with IBM & Microsoft]
             </h4>
             <p>
               Learnbay’s <b>data science training in Vietnam</b> unleashes an
@@ -2934,12 +2950,7 @@ const CitiesRight = ({
               land prospering job roles.
             </p>
             <p>
-              The enrollment rates for{" "}
-              <b style={{ color: "#0072BC" }}>
-                <a href="https://www.learnbay.co/" target="_blank">
-                  data science certificate programs
-                </a>
-              </b>{" "}
+              The enrollment rates for <b>data science certificate programs</b>{" "}
               in Vietnam keep increasing due to industry demands. Yet, many
               experts have to drop their career switch decisions as they need
               more than the bare minimum of skills and knowledge.
@@ -3022,76 +3033,130 @@ const CitiesRight = ({
           ""
         )}
         {cityTextVI ? (
-  <div className={styles.CitiesRightInner}>
-    <h4 style={{ fontSize: "20px" }}>
-    Tổng quan về Khóa đào tạo Khoa học Dữ liệu Cao cấp của Learnbay tại Việt Nam [Liên minh với IBM & Microsoft]
-    </h4>
-    <p>
-      <b>Khóa đào tạo khoa học dữ liệu của Learnbay tại Việt Nam</b> mở ra một không gian xây dựng sự nghiệp bao trùm để trang bị cho bạn những kỹ năng phù hợp với nhu cầu công việc. Sự hiện diện toàn cầu của IBM & MS thu hút các chuyên gia ở mức độ sớm và trung cấp để định nghĩa lại bộ kỹ năng của họ. Liên minh của chúng tôi với những ông lớn công nghệ cung cấp một phạm vi để tái thiết lập một sự nghiệp quy mô toàn cầu trong lĩnh vực khoa học dữ liệu.
-    </p>
-    <p>
-      Nền kinh tế số của Việt Nam phụ thuộc nhiều vào sự gia tăng nhanh chóng của khoa học dữ liệu trong các ngành chính. Thị trường dữ liệu của Việt Nam dự kiến sẽ tăng 5,32% vào năm 2027, tận dụng mạnh mẽ các lợi ích kinh doanh. Do đó, quốc gia này đang chứng kiến sự tăng trưởng trong nhu cầu về các nhà khoa học dữ liệu. Phạm vi tăng trưởng của nó trên thị trường thu hút nhiều chuyên gia làm việc để dẫn đầu.
-    </p>
-    <p>
-      Do đó, các chuyên gia dự kiến một sự gia tăng nhanh chóng về việc làm cho nhà khoa học dữ liệu trên toàn quốc. Tuy nhiên, điều này đòi hỏi các kỹ năng được chứng minh với các công cụ dữ liệu đáng chú ý để giải quyết các vấn đề một cách thành thạo. Liên minh của Learnbay với IBM & MS giúp các chuyên gia thực hiện ước mơ chuyển đổi sự nghiệp của họ và đạt được các vai trò công việc phát triển.
-    </p>
-    <p>
-      Tỷ lệ nhập học cho các <b style={{ color: "#0072BC" }}>
-        <a href="https://www.learnbay.co/" target="_blank">
-          chương trình chứng chỉ khoa học dữ liệu
-        </a>
-      </b> ở Việt Nam tiếp tục tăng do nhu cầu của ngành công nghiệp. Tuy nhiên, nhiều chuyên gia phải từ bỏ quyết định chuyển đổi sự nghiệp của họ vì họ cần nhiều hơn là kiến thức và kỹ năng tối thiểu.
-    </p>
-    <p>
-      Nếu bạn ao ước trở thành một nhà khoa học dữ liệu thành công với các chứng chỉ của IBM & MS, hãy kiểm tra xem bạn có đáp ứng được các tiêu chí sau không –
-      <br />
-      <br />
-    </p>
-    <ul>
-      <li>Kiến thức cơ bản về toán ứng dụng/thống kê</li>
-      <li>Kiến thức cơ bản về các lĩnh vực chuyên ngành.</li>
-    </ul>
-    <br />
-    <h4 style={{ fontSize: "20px" }}>
-      Làm thế nào Khóa học <b>khoa học dữ liệu của Learnbay</b> phối hợp với IBM & MS nâng cao sự nghiệp của bạn?
-    </h4>
-    <p>
-      Việt Nam đang tiến triển trong ngành công nghiệp khoa học dữ liệu với nhiều lựa chọn sự nghiệp. Các chuyên gia háo hức chuyển đổi sự nghiệp vào lĩnh vực khoa học dữ liệu đang tăng cường kỹ năng. Khoa học dữ liệu là một lĩnh vực linh hoạt với sự tích hợp mượt mà với các ngành hàng dẫn đầu. Do đó, xác nhận kỹ năng là rất quan trọng để chứng minh sự thành thạo của bạn và xử lý các nhiệm vụ một cách khéo léo.
-    </p>
-    <p>
-      Vậy, ai được xem là phù hợp để tham gia vào các <b>chương trình chứng chỉ khoa học dữ liệu của Learnbay?</b>
-    </p>
-    <br />
-    <ul>
-      <li>Một sinh viên tốt nghiệp có hồ sơ học tập nhất quán (bất kỳ Ngành/Ngành nghề nào)</li>
-      <li>Ít nhất là sáu tháng kinh nghiệm làm việc toàn thời gian/bán thời gian</li>
-      <li>Các chuyên gia ở mức độ sớm và trung cấp (IT/Không phải IT) quan tâm đến các vai trò khoa học dữ liệu</li>
-    </ul>
-    <br />
-    <p>
-      Hơn nữa, các chuyên gia làm việc ở cấp quản lý có thể lựa chọn khóa học khoa học dữ liệu của Learnbay tại Việt Nam để đưa ra các quyết định có tính thực tế hơn. Các chuyên gia đang tìm kiếm sự thăng tiến sự nghiệp với sự xây dựng kiến thức sâu rộng có thể chọn chương trình thạc sĩ của chúng tôi. Chúng tôi mở rộng sự hỗ trợ của mình cho tất cả các ứng viên cấp độ để vươn lên trong một thời đại được công nghệ hóa với thành công đảm bảo.
-    </p>
-    <p>
-      Các chứng chỉ được công nhận toàn cầu của chúng tôi giúp bạn xây dựng một hồ sơ mạnh mẽ với sự chứng nhận của ngành công nghiệp cho kỹ năng của bạn. Khóa học <b style={{ color: "#0072BC" }}>
-        <a
-          href="https://www.learnbay.co/datascience/advance-data-science-certification-courses"
-          target="_blank"
-        >
-          khoa học dữ liệu
-        </a>
-      </b> ở Liên minh với IBM & MS cung cấp các lợi ích sự nghiệp hấp dẫn –
-    </p>
-    <br />
-    <br />
-    <ul>
-      <li>Một Chứng chỉ Hoàn thành Khóa học và Dự án (IBM)</li>
-      <li>Một Chứng chỉ MS</li>
-      <li>Tăng lương hấp dẫn cùng các cơ hội việc làm trong và ngoài Việt Nam</li>
-    </ul>
-  </div>
-) : (
-  ""
-)}
+          <div className={styles.CitiesRightInner}>
+            <h4 style={{ fontSize: "20px" }}>
+              Tổng quan về Khóa đào tạo Khoa học Dữ liệu Cao cấp của Learnbay
+              tại Việt Nam [Liên minh với IBM & Microsoft]
+            </h4>
+            <p>
+              <b>Khóa đào tạo khoa học dữ liệu của Learnbay tại Việt Nam</b> mở
+              ra một không gian xây dựng sự nghiệp bao trùm để trang bị cho bạn
+              những kỹ năng phù hợp với nhu cầu công việc. Sự hiện diện toàn cầu
+              của IBM & MS thu hút các chuyên gia ở mức độ sớm và trung cấp để
+              định nghĩa lại bộ kỹ năng của họ. Liên minh của chúng tôi với
+              những ông lớn công nghệ cung cấp một phạm vi để tái thiết lập một
+              sự nghiệp quy mô toàn cầu trong lĩnh vực khoa học dữ liệu.
+            </p>
+            <p>
+              Nền kinh tế số của Việt Nam phụ thuộc nhiều vào sự gia tăng nhanh
+              chóng của khoa học dữ liệu trong các ngành chính. Thị trường dữ
+              liệu của Việt Nam dự kiến sẽ tăng 5,32% vào năm 2027, tận dụng
+              mạnh mẽ các lợi ích kinh doanh. Do đó, quốc gia này đang chứng
+              kiến sự tăng trưởng trong nhu cầu về các nhà khoa học dữ liệu.
+              Phạm vi tăng trưởng của nó trên thị trường thu hút nhiều chuyên
+              gia làm việc để dẫn đầu.
+            </p>
+            <p>
+              Do đó, các chuyên gia dự kiến một sự gia tăng nhanh chóng về việc
+              làm cho nhà khoa học dữ liệu trên toàn quốc. Tuy nhiên, điều này
+              đòi hỏi các kỹ năng được chứng minh với các công cụ dữ liệu đáng
+              chú ý để giải quyết các vấn đề một cách thành thạo. Liên minh của
+              Learnbay với IBM & MS giúp các chuyên gia thực hiện ước mơ chuyển
+              đổi sự nghiệp của họ và đạt được các vai trò công việc phát triển.
+            </p>
+            <p>
+              Tỷ lệ nhập học cho các{" "}
+              <b style={{ color: "#0072BC" }}>
+                <a href="https://www.learnbay.co/" target="_blank">
+                  chương trình chứng chỉ khoa học dữ liệu
+                </a>
+              </b>{" "}
+              ở Việt Nam tiếp tục tăng do nhu cầu của ngành công nghiệp. Tuy
+              nhiên, nhiều chuyên gia phải từ bỏ quyết định chuyển đổi sự nghiệp
+              của họ vì họ cần nhiều hơn là kiến thức và kỹ năng tối thiểu.
+            </p>
+            <p>
+              Nếu bạn ao ước trở thành một nhà khoa học dữ liệu thành công với
+              các chứng chỉ của IBM & MS, hãy kiểm tra xem bạn có đáp ứng được
+              các tiêu chí sau không –
+              <br />
+              <br />
+            </p>
+            <ul>
+              <li>Kiến thức cơ bản về toán ứng dụng/thống kê</li>
+              <li>Kiến thức cơ bản về các lĩnh vực chuyên ngành.</li>
+            </ul>
+            <br />
+            <h4 style={{ fontSize: "20px" }}>
+              Làm thế nào Khóa học <b>khoa học dữ liệu của Learnbay</b> phối hợp
+              với IBM & MS nâng cao sự nghiệp của bạn?
+            </h4>
+            <p>
+              Việt Nam đang tiến triển trong ngành công nghiệp khoa học dữ liệu
+              với nhiều lựa chọn sự nghiệp. Các chuyên gia háo hức chuyển đổi sự
+              nghiệp vào lĩnh vực khoa học dữ liệu đang tăng cường kỹ năng. Khoa
+              học dữ liệu là một lĩnh vực linh hoạt với sự tích hợp mượt mà với
+              các ngành hàng dẫn đầu. Do đó, xác nhận kỹ năng là rất quan trọng
+              để chứng minh sự thành thạo của bạn và xử lý các nhiệm vụ một cách
+              khéo léo.
+            </p>
+            <p>
+              Vậy, ai được xem là phù hợp để tham gia vào các{" "}
+              <b>chương trình chứng chỉ khoa học dữ liệu của Learnbay?</b>
+            </p>
+            <br />
+            <ul>
+              <li>
+                Một sinh viên tốt nghiệp có hồ sơ học tập nhất quán (bất kỳ
+                Ngành/Ngành nghề nào)
+              </li>
+              <li>
+                Ít nhất là sáu tháng kinh nghiệm làm việc toàn thời gian/bán
+                thời gian
+              </li>
+              <li>
+                Các chuyên gia ở mức độ sớm và trung cấp (IT/Không phải IT) quan
+                tâm đến các vai trò khoa học dữ liệu
+              </li>
+            </ul>
+            <br />
+            <p>
+              Hơn nữa, các chuyên gia làm việc ở cấp quản lý có thể lựa chọn
+              khóa học khoa học dữ liệu của Learnbay tại Việt Nam để đưa ra các
+              quyết định có tính thực tế hơn. Các chuyên gia đang tìm kiếm sự
+              thăng tiến sự nghiệp với sự xây dựng kiến thức sâu rộng có thể
+              chọn chương trình thạc sĩ của chúng tôi. Chúng tôi mở rộng sự hỗ
+              trợ của mình cho tất cả các ứng viên cấp độ để vươn lên trong một
+              thời đại được công nghệ hóa với thành công đảm bảo.
+            </p>
+            <p>
+              Các chứng chỉ được công nhận toàn cầu của chúng tôi giúp bạn xây
+              dựng một hồ sơ mạnh mẽ với sự chứng nhận của ngành công nghiệp cho
+              kỹ năng của bạn. Khóa học{" "}
+              <b style={{ color: "#0072BC" }}>
+                <a
+                  href="https://www.learnbay.co/datascience/advance-data-science-certification-courses"
+                  target="_blank"
+                >
+                  khoa học dữ liệu
+                </a>
+              </b>{" "}
+              ở Liên minh với IBM & MS cung cấp các lợi ích sự nghiệp hấp dẫn –
+            </p>
+            <br />
+            <br />
+            <ul>
+              <li>Một Chứng chỉ Hoàn thành Khóa học và Dự án (IBM)</li>
+              <li>Một Chứng chỉ MS</li>
+              <li>
+                Tăng lương hấp dẫn cùng các cơ hội việc làm trong và ngoài Việt
+                Nam
+              </li>
+            </ul>
+          </div>
+        ) : (
+          ""
+        )}
 
         {cityTextDSSingapore ? (
           <div className={styles.CitiesRightInner}>
@@ -3365,6 +3430,250 @@ const CitiesRight = ({
 
               <li>Job offers with hikes across Bangladesh and overseas </li>
             </ul>
+          </div>
+        ) : (
+          ""
+        )}
+
+        {OnlyDatascience ? (
+          <div className={styles.CitiesRightInner}>
+            <h4 style={{ fontSize: "20px" }}>
+              Presenting Learner-centric Data Science Training Programs with
+              Globally Recognized Certifications
+            </h4>
+            <p>
+              In today's world of technology, data scientists help businesses
+              make smart decisions based on their advanced analytics. Both
+              working pros and companies find data modeling as a weapon for
+              business analytics to conquer unbeatable success. Such shifts
+              encourage businesses to adopt more resilient analytical and
+              statistical methods to attain assured success. Meanwhile, its
+              impact on global job market dynamics is worth noticing. Thus, the
+              demand for a custom-fit data science certification course
+              increases faster.
+            </p>
+            <p>
+              As the demand for upskilling increases, Learnbay’s top data
+              science courses take the central stage. Our industry-driven
+              training programs help you remain competitive and sustain for
+              longer. Besides skills upgrades, our premium training programs
+              make you apt to crack top-tier job interviews with leading MNCs.
+            </p>
+            <p>
+              Today’s digital space believes in data-driven working methods like
+              data management, data mining, and predictive analytics-infused
+              problem-solving. Thus, employers across the globe search for
+              skillful data experts at every career level. Such job market
+              shifts encourage experts to rethink their career paths with better
+              offers. A data science course with cutting-edge career-building
+              gains is helpful.
+            </p>
+            <p>
+              Yet, generic course modules with less realistic touch limit career
+              progress somewhat. Unlike standard courses, our{" "}
+              <b>data science course syllabus</b> crafts a definite career with
+              proven skills.
+            </p>
+            <p>
+              Upskilling with our data science online course helps you develop
+              in-demand skills to thrive in today’s competitive career race.
+              Working pros at early to senior career levels can enroll in the
+              best data science courses to attain success. In addition,
+              certificates from IBM & Microsoft and a master’s degree (Woolf
+              University) uplift the career value.
+            </p>
+
+            <p>
+              <b>
+                Our trending data science courses with elite career gains are
+                here –
+              </b>
+            </p>
+
+            <ul>
+              <a
+                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                href="https://www.learnbay.co/datascience/data-science-certification-courses"
+                target="_blank"
+              >
+                <li>Data Science Foundation Program </li>
+              </a>
+              <a
+                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                href="https://www.learnbay.co/datascience/data-science-ai-for-freshers"
+                target="_blank"
+              >
+                {" "}
+                <li>Data Science and AI Program for Freshers </li>
+              </a>
+
+              <a
+                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                href="https://www.learnbay.co/datascience/advance-data-science-certification-courses"
+                target="_blank"
+              >
+                <li>Advanced Data Science and AI Certification</li>
+              </a>
+
+              <a
+                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                href="https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program"
+                target="_blank"
+              >
+                <li>Data Science and AI Master Certification Program </li>
+              </a>
+
+              <a
+                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                href="https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs"
+                target="_blank"
+              >
+                <li>Master’s Degree in CS: Data Science and AI</li>
+              </a>
+            </ul>
+
+            <h4 style={{ fontSize: "20px" }}>
+              Best Data Science Courses Online in 2024
+            </h4>
+
+            <p>
+              Experts from diverse domains and professional backgrounds can
+              kick-start a growing career in data science. Understanding the
+              career goals and enrolling in a proven data science online
+              training is vital for success.
+            </p>
+            <p>
+              Experts eager to learn the basics of data science can enroll in
+              our foundation program. Whereas, Pros aspiring to leverage their
+              earning limits can opt for certification programs with better job
+              and placement offers. Likewise, working pros wishing to rebuild
+              their career on a global scale can go for a master’s program.
+            </p>
+
+            <p>
+              Our data science and artificial intelligence course offers a
+              360-degree career reshaping stage with in-detailed job-ready
+              programs. Plus, globally recognized certifications and master of
+              science degrees enrich the success limits with endless gains.
+            </p>
+            <b>
+              <p>Highlights of the Data Science Foundation Program</p>
+            </b>
+
+            <ul>
+              <li>Hybrid learning with affordable fees</li>
+              <li>An in-detailed learning of data science tools and trends</li>
+              <li>
+                Project Innovation Labs (Real-time learning via hands-on
+                capstone project)
+              </li>
+              <li>
+                Globally recognized certifications (IBM Course completion
+                certificate)
+              </li>
+              <li>Career Service PRO (100% Job and Placement Support)</li>
+              <li>Attractive hikes and job calls from leading MNCs</li>
+            </ul>
+
+            <p>
+              <b>Highlights of the Data Science and AI Program for Freshers</b>
+            </p>
+
+            <ul>
+              <li>Hybrid learning with affordable fees</li>
+              <li>1 MS (Microsoft) Certification</li>
+
+              <li>An in-detailed learning of data science and AI tools </li>
+              <li>
+                Project Innovation Labs (Real-time projects in the final year)
+              </li>
+              <li>
+                Globally recognized certifications (IBM Course completion
+                certificate)
+              </li>
+              <li>6-month Internship Certificate</li>
+              <li>Career Service PRO (100% Job and Placement Support)</li>
+              <li>Attractive hikes and job calls from leading MNCs</li>
+            </ul>
+
+            <p>
+              <b>Highlights of Advanced Data Science and AI Certification</b>
+            </p>
+            <ul>
+              <li>Hybrid learning with a flexible fee structure</li>
+              <li>GenAI-inclusive course syllabus</li>
+              <li>Project Innovation Labs (12+ Real-time projects)</li>
+              <li>
+                Globally recognized certifications (IBM Course completion
+                certificate, MS certificate, IBM Project certificate)
+              </li>
+              <li>Career Service PRO (100% Job and Placement Support)</li>
+              <li>Attractive hikes and job calls from leading MNCs</li>
+            </ul>
+            <p>
+              <b>
+                Highlights of Data Science and AI Master Certification Program
+              </b>
+            </p>
+            <ul>
+              <li>Hybrid training sessions with a flexible fee structure</li>
+              <li>GenAI-rich course modules (AI & Data Science)</li>
+              <li>Domain-specific training</li>
+              <li>Project Innovation Labs (12+ Real-time projects)</li>
+              <li>
+                Globally recognized certifications (IBM Course completion
+                certificate, MS certificate, 3 IBM Project certificates)
+              </li>
+              <li>Career Service PRO (100% Job Support)</li>
+              <li>Lucrative job offers from leading MNCs</li>
+            </ul>
+            <p>
+              <b>Highlights of a Master’s Degree in CS: Data Science and AI</b>
+            </p>
+            <ul>
+              <li>Hybrid training sessions from renowned experts</li>
+              <li>GenAI-rich course modules (AI & Data Science)</li>
+              <li>Domain-specific training </li>
+              <li>Project Innovation Labs (12+ Real-time projects)</li>
+              <li>
+                Globally recognized certifications (1 IBM project certificate)
+              </li>
+              <li>Globally accredited master’s degree from Woolf University</li>
+              <li>Effortless Immigration </li>
+              <li>Career Service PRO (100% Job Support)</li>
+              <li>Premium job offers from leading MNCs</li>
+            </ul>
+            <p>
+              Experts at any career level can opt for our data science training
+              institute and upgrade their skill sets as per the latest trends.
+              It's up to the learners and their career goals that help you
+              decide on the right data science course.
+            </p>
+            <h4 style={{ fontSize: "20px" }}>
+              Locate Our <b>Data Science Courses</b> Across the Globe!!
+            </h4>
+            <p>
+              At Learnbay, we believe in inclusive learning for notable career
+              growth. Data science is rapidly changing its dynamics and
+              welcoming working pros from diverse professions. We offer data
+              science course for beginners and experienced via our global
+              presence. Yes, you can locate us at prime global locations to
+              continue your career growth journey effortlessly.
+            </p>
+            <br />
+            <i>Our prime locations are –</i>
+            <p>
+              India, USA, UK, Dubai, Canada, Nigeria, Vietnam, Egypt, Australia,
+              South Africa, Malaysia, Singapore, Germany, Brazil, Netherlands,
+              France, Mexico, Kuwait, Switzerland, Sweden, Oman, South Korea,
+              China, and Bangladesh.
+            </p>
+
+            <p>
+              Experts eager to redefine their slow-paced careers can join our
+              data science training courses at these prime locations. It
+              elevates career growth chances with endless offers.
+            </p>
           </div>
         ) : (
           ""
@@ -4145,7 +4454,7 @@ const CitiesRight = ({
           <p className={styles.pp}>{DomainBot12}</p>
           <p className={styles.pp}>{DomainBot3}</p>
           <p className={styles.pp}>{DomainMasterBot1}</p>
-          <h4  style={{ fontSize: "16px" }}>{DomainMasterh4}</h4>
+          <h4 style={{ fontSize: "16px" }}>{DomainMasterh4}</h4>
 
           {fullStackCity ? (
             <>
@@ -4212,6 +4521,9 @@ const CitiesRight = ({
               </ul>
             </>
           )}
+          <p className={styles.pp}>{DomainBot40}</p>
+          <p className={styles.pp}>{DomainBot41}</p>
+          <p className={styles.pp}>{DomainMasterBot2}</p>
           <p className={styles.pp}>{DomainMasterBot2}</p>
           <h4 style={{ fontSize: "16px" }}>{DomainMasterHead1}</h4>
           <p className={styles.pp}>{DomainMasterBot3}</p>
@@ -4238,14 +4550,18 @@ const CitiesRight = ({
             <div>
               <h2 className={styles.pHead}>{CertificationHead1}</h2>
               <p className={styles.pp}>{CertificationBot1}</p>
+              <h4 style={{ fontSize: "16px" }}>{CertificationHead29}</h4>
               <h4 style={{ fontSize: "16px" }}>{CertificationMasterHead1}</h4>
               <p className={styles.pp}>{CertificationBot2}</p>
+              <h4 style={{ fontSize: "16px" }}>{CertificationHead30}</h4>
               <h4 style={{ fontSize: "16px" }}>{CertificationMasterHead2}</h4>
               <p className={styles.pp}>{CertificationBot3}</p>
             </div>
             <div>
               <h2 className={styles.pHead}>{CertificationHead2}</h2>
+              <h4 style={{ fontSize: "16px" }}>{CertificationHead31}</h4>
               <p className={styles.pp}>{CertificationBot4}</p>
+              <h4 style={{ fontSize: "16px" }}>{CertificationHead32}</h4>
               <p className={styles.pp}>{CertificationBot5}</p>
               <p className={styles.pp}>{CertificationBot6}</p>
             </div>
@@ -4265,6 +4581,8 @@ const CitiesRight = ({
                     <img src={src} alt={alt1} />
                     <img src={src22} alt={alt1} />
                     <img src={src33} alt={alt1} />
+                    {Dsonlymsatercer ? (<> <img src={src40} alt={alt3}/></>):(<></>)}
+                   
                   </>
                 ) : null}
               </div>
@@ -4272,241 +4590,248 @@ const CitiesRight = ({
           </div>
         </div>
       )}
+      {DSNoModule ? (
+        <></>
+      ) : (
+        <>
+          {" "}
+          <div id="Module">
+            <div className={styles.CitiesRightSpan}>
+              <span>Module-Details</span>
+            </div>
+            <div className={styles.CitiesRightInner}>
+              <p className={styles.pp}>{ModuleMasterBot1}</p>
+              <h2 className={styles.pHead}>{ModuleHead1}</h2>
+              <h4 style={{ fontSize: "16px" }}>{ModuleMasterHead1}</h4>
+              <p className={styles.pp}>{ModuleBot1}</p>
+              <p className={styles.pp}>{ModuleBot2}</p>
+              <p className={styles.pp}>
+                <b>{ModuleBotL21}</b>
+              </p>
+              <p className={styles.pp}>
+                <b>{ModuleBotL22}</b>
+              </p>
+              <p className={styles.pp}>
+                <b>{ModuleBotL23}</b>
+              </p>
+              <p className={styles.pp}>{ModuleBot21}</p>
+              <h2 className={styles.pHead}>{ModuleHead2}</h2>
+              <p className={styles.pp}>{ModuleBot3}</p>
+              <h2 className={styles.pHead}>{ModuleHead3}</h2>
+              <p className={styles.pp}>{ModuleBot4}</p>
+              <p className={styles.pp}>{ModuleBot41}</p>
+              <p className={styles.pp}>{ModuleBot42}</p>
+              <p className={styles.pp}>{ModuleBot43}</p>
+              <p className={styles.pp}>{ModuleBot44}</p>
+              <p className={styles.pp}>{ModuleBot45}</p>
+              {modulelist ? (
+                <>
+                  <ul className={styles.pp}>
+                    <li>{Modulelist1}</li>
+                    <li>{Modulelist2}</li>
+                    <li>{Modulelist3}</li>
+                    <li>{Modulelist4}</li>
+                    <li>{Modulelist5}</li>
+                    <li>{Modulelist6}</li>
+                    <li>{Modulelist7}</li>
+                  </ul>
+                </>
+              ) : (
+                ""
+              )}
 
-      <div id="Module">
-        <div className={styles.CitiesRightSpan}>
-          <span>Module-Details</span>
-        </div>
-        <div className={styles.CitiesRightInner}>
-          <p className={styles.pp}>{ModuleMasterBot1}</p>
-          <h2 className={styles.pHead}>{ModuleHead1}</h2>
-          <h4 style={{ fontSize: "16px" }}>{ModuleMasterHead1}</h4>
-          <p className={styles.pp}>{ModuleBot1}</p>
-          <p className={styles.pp}>{ModuleBot2}</p>
-          <p className={styles.pp}>
-            <b>{ModuleBotL21}</b>
-          </p>
-          <p className={styles.pp}>
-            <b>{ModuleBotL22}</b>
-          </p>
-          <p className={styles.pp}>
-            <b>{ModuleBotL23}</b>
-          </p>
-          <p className={styles.pp}>{ModuleBot21}</p>
-          <h2 className={styles.pHead}>{ModuleHead2}</h2>
-          <p className={styles.pp}>{ModuleBot3}</p>
-          <h2 className={styles.pHead}>{ModuleHead3}</h2>
-          <p className={styles.pp}>{ModuleBot4}</p>
-          <p className={styles.pp}>{ModuleBot41}</p>
-          <p className={styles.pp}>{ModuleBot42}</p>
-          <p className={styles.pp}>{ModuleBot43}</p>
-          <p className={styles.pp}>{ModuleBot44}</p>
-          <p className={styles.pp}>{ModuleBot45}</p>
-          {modulelist ? (
-            <>
-              <ul className={styles.pp}>
-                <li>{Modulelist1}</li>
-                <li>{Modulelist2}</li>
-                <li>{Modulelist3}</li>
-                <li>{Modulelist4}</li>
-                <li>{Modulelist5}</li>
-                <li>{Modulelist6}</li>
-                <li>{Modulelist7}</li>
-              </ul>
-            </>
-          ) : (
-            ""
-          )}
+              {MasterModulelist ? (
+                <>
+                  <h4 style={{ fontSize: "16px" }}>{ModuleMasterHead2}</h4>
+                  <ul className={styles.pp}>
+                    <li>{ModuleMasterlist1}</li>
+                    <li>{ModuleMasterlist2}</li>
+                    <li>{ModuleMasterlist3}</li>
+                    <li>{ModuleMasterlist4}</li>
+                    <li>{ModuleMasterlist5}</li>
+                    <li>{ModuleMasterlist6}</li>
+                    <li>{ModuleMasterlist7}</li>
+                  </ul>
+                  <p className={styles.pp}>{ModuleMasterBot2}</p>
+                </>
+              ) : (
+                ""
+              )}
+              <p className={styles.pp}>{ModuleBot10}</p>
+              {fullStackCity ? (
+                <></>
+              ) : (
+                <>
+                  {" "}
+                  <p className={styles.pp}>Module Details:</p>
+                  <div className={styles.SyllabusBot}>
+                    <div className={styles.SyllabusBot1}>
+                      <div className={styles.SyllabusBot11}>
+                        <div>
+                          <p className={styles.syllabush}>{syllabush1}</p>
+                          <p className={styles.syllabusb}>
+                            <BsClock className={styles.bIcons} />
+                            {syllabusb1}
+                          </p>
+                        </div>
+                        <div className={styles.number1}>1</div>
+                      </div>
+                      <div className={styles.SyllabusBotlist}>
+                        <p className={styles.SyllabusBotlistp}>
+                          <FiCheck className={styles.bIcons} />
+                          {SyllabusBotlist11}
+                        </p>
+                        <p className={styles.SyllabusBotlistp}>
+                          <FiCheck className={styles.bIcons} />
+                          {SyllabusBotlist12}
+                        </p>
+                        <p className={styles.SyllabusBotlistp}>
+                          <FiCheck className={styles.bIcons} />
+                          {SyllabusBotlist13}
+                        </p>
+                        <p className={styles.SyllabusBotlistp}>
+                          <FiCheck className={styles.bIcons} />
+                          {SyllabusBotlist14}
+                        </p>
+                        <p className={styles.SyllabusBotlistp}>
+                          <FiCheck className={styles.bIcons} />
+                          {SyllabusBotlist15}
+                        </p>
+                        <p className={styles.SyllabusBotlistp}>
+                          <FiCheck className={styles.bIcons} />
+                          {SyllabusBotlist16}
+                        </p>
+                      </div>
+                    </div>
+                    <div className={styles.SyllabusBot2}>
+                      <div className={styles.SyllabusBot22}>
+                        <div>
+                          <p className={styles.syllabush}>{syllabush2}</p>
+                          <p className={styles.syllabusb}>
+                            <BsClock className={styles.bIcons} />
+                            {syllabusb2}
+                          </p>
+                        </div>
+                        <div className={styles.number2}>2</div>
+                      </div>
+                      <div className={styles.SyllabusBotlist}>
+                        <p className={styles.SyllabusBotlistp}>
+                          <FiCheck className={styles.bIcons} />
+                          {SyllabusBotlist21}
+                        </p>
+                        <p className={styles.SyllabusBotlistp}>
+                          <FiCheck className={styles.bIcons} />
+                          {SyllabusBotlist22}
+                        </p>
+                        <p className={styles.SyllabusBotlistp}>
+                          <FiCheck className={styles.bIcons} />
+                          {SyllabusBotlist23}
+                        </p>
+                        <p className={styles.SyllabusBotlistp}>
+                          <FiCheck className={styles.bIcons} />
+                          {SyllabusBotlist24}
+                        </p>
+                        <p className={styles.SyllabusBotlistp}>
+                          <FiCheck className={styles.bIcons} />
+                          {SyllabusBotlist25}
+                        </p>
+                        <p className={styles.SyllabusBotlistp}>
+                          <FiCheck className={styles.bIcons} />
+                          {SyllabusBotlist26}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className={styles.SyllabusBot}>
+                    <div className={styles.SyllabusBot3}>
+                      <div className={styles.SyllabusBot33}>
+                        <div>
+                          <p className={styles.syllabush}>{syllabush3}</p>
+                          <p className={styles.syllabusb}>
+                            <BsClock className={styles.bIcons} />
+                            {syllabusb3}
+                          </p>
+                        </div>
+                        <div className={styles.number3}>3</div>
+                      </div>
+                      <div className={styles.SyllabusBotlist}>
+                        <p className={styles.SyllabusBotlistp}>
+                          <FiCheck className={styles.bIcons} />
+                          {SyllabusBotlist31}
+                        </p>
+                        <p className={styles.SyllabusBotlistp}>
+                          <FiCheck className={styles.bIcons} />
+                          {SyllabusBotlist32}
+                        </p>
+                        <p className={styles.SyllabusBotlistp}>
+                          <FiCheck className={styles.bIcons} />
+                          {SyllabusBotlist33}
+                        </p>
+                        <p className={styles.SyllabusBotlistp}>
+                          <FiCheck className={styles.bIcons} />
+                          {SyllabusBotlist34}
+                        </p>
+                        <p className={styles.SyllabusBotlistp}>
+                          <FiCheck className={styles.bIcons} />
+                          {SyllabusBotlist35}
+                        </p>
+                        <p className={styles.SyllabusBotlistp}>
+                          <FiCheck className={styles.bIcons} />
+                          {SyllabusBotlist36}
+                        </p>
+                      </div>
+                    </div>
+                    <div className={styles.SyllabusBot4}>
+                      <div className={styles.SyllabusBot44}>
+                        <div>
+                          <p className={styles.syllabush}>{syllabush4}</p>
+                          <p className={styles.syllabusb}>
+                            <BsClock className={styles.bIcons} />
+                            {syllabusb4}
+                          </p>
+                        </div>
+                        <div className={styles.number4}>4</div>
+                      </div>
+                      <div className={styles.SyllabusBotlist}>
+                        <p className={styles.SyllabusBotlistp}>
+                          <FiCheck className={styles.bIcons} />
+                          {SyllabusBotlist41}
+                        </p>
+                        <p className={styles.SyllabusBotlistp}>
+                          <FiCheck className={styles.bIcons} />
+                          {SyllabusBotlist42}
+                        </p>
+                        <p className={styles.SyllabusBotlistp}>
+                          <FiCheck className={styles.bIcons} />
+                          {SyllabusBotlist43}
+                        </p>
+                        <p className={styles.SyllabusBotlistp}>
+                          <FiCheck className={styles.bIcons} />
+                          {SyllabusBotlist44}
+                        </p>
+                        <p className={styles.SyllabusBotlistp}>
+                          <FiCheck className={styles.bIcons} />
+                          {SyllabusBotlist45}
+                        </p>
+                        <p className={styles.SyllabusBotlistp}>
+                          <FiCheck className={styles.bIcons} />
+                          {SyllabusBotlist46}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </>
+              )}
+            </div>
+            <div className={styles.Button}>
+              <a href={syllabussrc} target="_blank">
+                <Button className={styles.btn} text="View Detailed Syllabus" />
+              </a>
+            </div>
+          </div>
+        </>
+      )}
 
-          {MasterModulelist ? (
-            <>
-              <h4 style={{ fontSize: "16px" }}>{ModuleMasterHead2}</h4>
-              <ul className={styles.pp}>
-                <li>{ModuleMasterlist1}</li>
-                <li>{ModuleMasterlist2}</li>
-                <li>{ModuleMasterlist3}</li>
-                <li>{ModuleMasterlist4}</li>
-                <li>{ModuleMasterlist5}</li>
-                <li>{ModuleMasterlist6}</li>
-                <li>{ModuleMasterlist7}</li>
-              </ul>
-              <p className={styles.pp}>{ModuleMasterBot2}</p>
-            </>
-          ) : (
-            ""
-          )}
-          <p className={styles.pp}>{ModuleBot10}</p>
-          {fullStackCity ? (
-            <></>
-          ) : (
-            <>
-              {" "}
-              <p className={styles.pp}>Module Details:</p>
-              <div className={styles.SyllabusBot}>
-                <div className={styles.SyllabusBot1}>
-                  <div className={styles.SyllabusBot11}>
-                    <div>
-                      <p className={styles.syllabush}>{syllabush1}</p>
-                      <p className={styles.syllabusb}>
-                        <BsClock className={styles.bIcons} />
-                        {syllabusb1}
-                      </p>
-                    </div>
-                    <div className={styles.number1}>1</div>
-                  </div>
-                  <div className={styles.SyllabusBotlist}>
-                    <p className={styles.SyllabusBotlistp}>
-                      <FiCheck className={styles.bIcons} />
-                      {SyllabusBotlist11}
-                    </p>
-                    <p className={styles.SyllabusBotlistp}>
-                      <FiCheck className={styles.bIcons} />
-                      {SyllabusBotlist12}
-                    </p>
-                    <p className={styles.SyllabusBotlistp}>
-                      <FiCheck className={styles.bIcons} />
-                      {SyllabusBotlist13}
-                    </p>
-                    <p className={styles.SyllabusBotlistp}>
-                      <FiCheck className={styles.bIcons} />
-                      {SyllabusBotlist14}
-                    </p>
-                    <p className={styles.SyllabusBotlistp}>
-                      <FiCheck className={styles.bIcons} />
-                      {SyllabusBotlist15}
-                    </p>
-                    <p className={styles.SyllabusBotlistp}>
-                      <FiCheck className={styles.bIcons} />
-                      {SyllabusBotlist16}
-                    </p>
-                  </div>
-                </div>
-                <div className={styles.SyllabusBot2}>
-                  <div className={styles.SyllabusBot22}>
-                    <div>
-                      <p className={styles.syllabush}>{syllabush2}</p>
-                      <p className={styles.syllabusb}>
-                        <BsClock className={styles.bIcons} />
-                        {syllabusb2}
-                      </p>
-                    </div>
-                    <div className={styles.number2}>2</div>
-                  </div>
-                  <div className={styles.SyllabusBotlist}>
-                    <p className={styles.SyllabusBotlistp}>
-                      <FiCheck className={styles.bIcons} />
-                      {SyllabusBotlist21}
-                    </p>
-                    <p className={styles.SyllabusBotlistp}>
-                      <FiCheck className={styles.bIcons} />
-                      {SyllabusBotlist22}
-                    </p>
-                    <p className={styles.SyllabusBotlistp}>
-                      <FiCheck className={styles.bIcons} />
-                      {SyllabusBotlist23}
-                    </p>
-                    <p className={styles.SyllabusBotlistp}>
-                      <FiCheck className={styles.bIcons} />
-                      {SyllabusBotlist24}
-                    </p>
-                    <p className={styles.SyllabusBotlistp}>
-                      <FiCheck className={styles.bIcons} />
-                      {SyllabusBotlist25}
-                    </p>
-                    <p className={styles.SyllabusBotlistp}>
-                      <FiCheck className={styles.bIcons} />
-                      {SyllabusBotlist26}
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className={styles.SyllabusBot}>
-                <div className={styles.SyllabusBot3}>
-                  <div className={styles.SyllabusBot33}>
-                    <div>
-                      <p className={styles.syllabush}>{syllabush3}</p>
-                      <p className={styles.syllabusb}>
-                        <BsClock className={styles.bIcons} />
-                        {syllabusb3}
-                      </p>
-                    </div>
-                    <div className={styles.number3}>3</div>
-                  </div>
-                  <div className={styles.SyllabusBotlist}>
-                    <p className={styles.SyllabusBotlistp}>
-                      <FiCheck className={styles.bIcons} />
-                      {SyllabusBotlist31}
-                    </p>
-                    <p className={styles.SyllabusBotlistp}>
-                      <FiCheck className={styles.bIcons} />
-                      {SyllabusBotlist32}
-                    </p>
-                    <p className={styles.SyllabusBotlistp}>
-                      <FiCheck className={styles.bIcons} />
-                      {SyllabusBotlist33}
-                    </p>
-                    <p className={styles.SyllabusBotlistp}>
-                      <FiCheck className={styles.bIcons} />
-                      {SyllabusBotlist34}
-                    </p>
-                    <p className={styles.SyllabusBotlistp}>
-                      <FiCheck className={styles.bIcons} />
-                      {SyllabusBotlist35}
-                    </p>
-                    <p className={styles.SyllabusBotlistp}>
-                      <FiCheck className={styles.bIcons} />
-                      {SyllabusBotlist36}
-                    </p>
-                  </div>
-                </div>
-                <div className={styles.SyllabusBot4}>
-                  <div className={styles.SyllabusBot44}>
-                    <div>
-                      <p className={styles.syllabush}>{syllabush4}</p>
-                      <p className={styles.syllabusb}>
-                        <BsClock className={styles.bIcons} />
-                        {syllabusb4}
-                      </p>
-                    </div>
-                    <div className={styles.number4}>4</div>
-                  </div>
-                  <div className={styles.SyllabusBotlist}>
-                    <p className={styles.SyllabusBotlistp}>
-                      <FiCheck className={styles.bIcons} />
-                      {SyllabusBotlist41}
-                    </p>
-                    <p className={styles.SyllabusBotlistp}>
-                      <FiCheck className={styles.bIcons} />
-                      {SyllabusBotlist42}
-                    </p>
-                    <p className={styles.SyllabusBotlistp}>
-                      <FiCheck className={styles.bIcons} />
-                      {SyllabusBotlist43}
-                    </p>
-                    <p className={styles.SyllabusBotlistp}>
-                      <FiCheck className={styles.bIcons} />
-                      {SyllabusBotlist44}
-                    </p>
-                    <p className={styles.SyllabusBotlistp}>
-                      <FiCheck className={styles.bIcons} />
-                      {SyllabusBotlist45}
-                    </p>
-                    <p className={styles.SyllabusBotlistp}>
-                      <FiCheck className={styles.bIcons} />
-                      {SyllabusBotlist46}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </>
-          )}
-        </div>
-        <div className={styles.Button}>
-          <a href={syllabussrc} target="_blank">
-            <Button className={styles.btn} text="View Detailed Syllabus" />
-          </a>
-        </div>
-      </div>
       <div id="Job">
         <div className={styles.CitiesRightSpan}>
           <span>Job Assist Program</span>
@@ -4514,6 +4839,7 @@ const CitiesRight = ({
         <div className={styles.CitiesRightInner}>
           <h2 className={styles.pHead}>{JobHead1}</h2>
           <p className={styles.pp}>{MasterJobBot1}</p>
+          <p className={styles.pp}>{MasterJobBot2}</p>
           <p className={styles.pp} style={{ fontWeight: "bold" }}>
             <i>{MasterJobSpan1}</i>
           </p>
@@ -4564,6 +4890,7 @@ const CitiesRight = ({
                 {" "}
                 {JobHead19}
               </h4>
+              <p className={styles.pp}>{JobBot50} </p>
               <p className={styles.pp}>{JobBot35} </p>
               <p className={styles.pp}>{JobBot20} </p>
               <i>{JobBot39}</i>
@@ -4590,8 +4917,9 @@ const CitiesRight = ({
                 {JobHead30}
               </h4>
               <p className={styles.pp}>{JobBot21}</p>
-              <p className={styles.pp}>{JobBot22}</p>
 
+              <p className={styles.pp}>{JobBot22}</p>
+              <p className={styles.pp}>{JobBot60}</p>
               <h4 style={{ fontSize: "20px", marginBottom: "20px" }}>
                 {" "}
                 {JobHead23}
@@ -4613,27 +4941,34 @@ const CitiesRight = ({
                   <li>{Joblist53}</li>
                   <li>{Joblist54}</li>
                 </ul>
-                  
               ) : (
                 ""
               )}
- <p className={styles.pp}>{JobBotMasterBot5}</p>
+              <p className={styles.pp}>{JobBotMasterBot5}</p>
               <br />
               <h4 style={{ fontSize: "20px" }}>{JobHead22}</h4>
               <p className={styles.pp}>{JobBot37} </p>
               <p className={styles.pp}>{JobBot24} </p>
 
               <p className={styles.pp}>{JobBot36}</p>
-              <ul className={styles.pp}>
-                <li>{Joblist23}</li>
-                <li>{Joblist24}</li>
-                <li>{Joblist25}</li>
-                <li>{Joblist26}</li>
-                <li>{Joblist27}</li>
-                <li>{Joblist28}</li>
-                <li>{Joblist29}</li>
-                <li>{Joblist30}</li>
-              </ul>
+              {hideDSonly ? (
+                <></>
+              ) : (
+                <>
+                  {" "}
+                  <ul className={styles.pp}>
+                    <li>{Joblist23}</li>
+                    <li>{Joblist24}</li>
+                    <li>{Joblist25}</li>
+                    <li>{Joblist26}</li>
+                    <li>{Joblist27}</li>
+                    <li>{Joblist28}</li>
+                    <li>{Joblist29}</li>
+                    <li>{Joblist30}</li>
+                  </ul>
+                </>
+              )}
+
               <p className={styles.pp}>{JobBot25}</p>
               <p className={styles.pp}>
                 <i>{JobSpan1}</i>
@@ -4675,6 +5010,7 @@ const CitiesRight = ({
             <div className={styles.ProjectsBotHead}>
               <div className={styles.ProjectsBotI}>
                 <img src={src2} alt={alt3}></img>
+               
                 <p className={styles.ppp}>{ProjectsH2}</p>
               </div>
               <p className={styles.pp}>{Projectsp2}</p>

@@ -18,6 +18,7 @@ const FirstContent = ({
   setPopups,
   S3RightImage,
   setVideo,
+  DSWolf,
   IBMGl,
   videoId, // Pass videoId as a prop
   thumbnailUrl, // Pass thumbnailUrl as a prop
@@ -124,9 +125,23 @@ const FirstContent = ({
           ) : (
             <>
               <div className={ibmOnly ? styles.DAibm : styles.Desktop}>
-                <p className={styles.ptop}>In Collaboration With</p>
+
+                {DSWolf ? (<> 
+                  <p className={styles.ptop}>Degree & Certification(s)</p>
                 <div className={styles.ImageBlock}>
-                  {ibmOnly ? (
+                
+                <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/DS-only.webp"
+                      width="430"
+                      height="44"
+                      priority
+                      alt="data science course"
+                    />
+                 
+                </div></>):(<> <p className={styles.ptop}>In Collaboration With</p>
+                <div className={styles.ImageBlock}>
+                
+                   {ibmOnly ? (
                     <Image
                       src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ibmnew.webp"
                       width="70"
@@ -143,8 +158,16 @@ const FirstContent = ({
                       alt="data science course"
                     />
                   )}
-                </div>
+                 
+                </div></>)}
+               
+
+
+               
               </div>
+
+
+              
               {fresher ? (
                 <div className={styles.animationTextWrap}>
                 
@@ -224,8 +247,22 @@ const FirstContent = ({
         {mobile ? (
           <>
             <div className={styles.Mobile}>
-              <p className={styles.ptop}>In Collaboration With</p>
+            {DSWolf ? (<>
+              <p className={styles.ptop}>Degree & Certification(s)</p>
               <div className={styles.ImageBlock}>
+
+              <Image
+                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/DS-only.webp"
+                    width="340"
+                    height="44"
+                    priority
+                    alt="data science course"
+                  />
+              
+              </div></>):(<> <p className={styles.ptop}>In Collaboration With</p>
+              <div className={styles.ImageBlock}>
+
+
                 {ibmOnly ? (
                   <Image
                     src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ibmnew.webp"
@@ -243,7 +280,8 @@ const FirstContent = ({
                     alt="data science course"
                   />
                 )}
-              </div>
+              </div></>)}
+             
               <div className={styles.btnImageMobile}>
                 <div onClick={popupShow}>
                   <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />

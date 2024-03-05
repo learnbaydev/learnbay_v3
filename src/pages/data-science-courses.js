@@ -1,10 +1,9 @@
 import Head from "next/head";
 import { parseJSONData } from "@/Util/JsonConvertor";
 
-
 import Navbar from "@/components/Global/Navbar/Navbar";
 import DSCourseFirstPart from "@/components/CoursePage/FirstPart/DSCourseFirstPart";
-import DSCourseSecondPart from "@/components/CoursePage/FirstPart/DSCourseSecondPart"
+import DSCourseSecondPart from "@/components/CoursePage/FirstPart/DSCourseSecondPart";
 
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
@@ -12,9 +11,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>
-        Data Science Courses
-        </title>
+        <title>Data Science Courses</title>
         <meta
           name="description"
           content="Are you searching for the Advanced Data Science and Artificial Intelligence Program With Certification? Learnbay is providing the best online Advanced Data Science and AI Program . Enroll now!"
@@ -32,11 +29,10 @@ function Blockchain({ DataScienceCourseDataJson }) {
           rel="canonical"
           href="https://www.learnbay.co/datascience/advance-data-science-certification-courses"
         />
-       
       </Head>
       <main>
         <Navbar dataScienceCounselling={true} interstedInHide={true} />
-      
+
         <DSCourseFirstPart
           SecondSectionData={
             DataScienceCourseData.DataScienceCourseData[0].secondSection

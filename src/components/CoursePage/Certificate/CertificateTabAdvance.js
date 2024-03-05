@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import styles from "./Certificate.module.css";
 import Image from "next/image";
 import { BsCheckCircle } from "react-icons/bs";
-function CertificateTab({ data, singlecertificate, doubleCertificate, projectWithCertificate, FreshersDoubleCertificate }) {
+function CertificateTab({ data, singlecertificate, doubleCertificate, projectWithCertificate, FreshersDoubleCertificate, OnlyDS }) {
   const [MActive, setMActive] = useState(false);
   const [IActive, setIActive] = useState(true);
   const [IBCActive, setIBCActive] = useState(false);
+  const [DegreeCActive, setDegreeActive] = useState(false);
   return (
     <section className={styles.CertificateTab}>
       <div className={styles.header}>
@@ -15,6 +16,7 @@ function CertificateTab({ data, singlecertificate, doubleCertificate, projectWit
               setIActive(true);
               setMActive(false);
               setIBCActive(false);
+              setDegreeActive(false);
             }}
             className={IActive ? styles.activeP : styles.inactiveP}
           >
@@ -30,6 +32,7 @@ function CertificateTab({ data, singlecertificate, doubleCertificate, projectWit
                   setIActive(false);
                   setMActive(true);
                   setIBCActive(false);
+                  setDegreeActive(false);
                 }}
                 className={MActive ? styles.activeP : styles.inactiveP}
               >
@@ -40,6 +43,7 @@ function CertificateTab({ data, singlecertificate, doubleCertificate, projectWit
                   setIActive(false);
                   setMActive(false);
                   setIBCActive(true);
+                  setDegreeActive(false);
                 }}
                 className={IBCActive ? styles.activeP : styles.inactiveP}
               >
@@ -54,6 +58,7 @@ function CertificateTab({ data, singlecertificate, doubleCertificate, projectWit
                 setIActive(false);
                 setMActive(true);
                 setIBCActive(false);
+                setDegreeActive(false);
               }}
               className={MActive ? styles.activeP : styles.inactiveP}
             >
@@ -70,6 +75,7 @@ function CertificateTab({ data, singlecertificate, doubleCertificate, projectWit
                 setIActive(false);
                 setMActive(true);
                 setIBCActive(false);
+                setDegreeActive(false);
               }}
               className={MActive ? styles.activeP : styles.inactiveP}
             >
@@ -86,8 +92,9 @@ function CertificateTab({ data, singlecertificate, doubleCertificate, projectWit
                   setIActive(false);
                   setMActive(false);
                   setIBCActive(true);
+                  setDegreeActive(false);
                 }}
-                className={IBCActive ? styles.activeP : styles.inactiveP}
+                className={DegreeCActive? styles.activeP : styles.inactiveP}
               >
                 Project Certificate
               </p>
@@ -95,6 +102,18 @@ function CertificateTab({ data, singlecertificate, doubleCertificate, projectWit
           ) : (
             ""
           )}
+          {OnlyDS ? ( <>   <p
+                onClick={() => {
+                  setIActive(false);
+                  setMActive(false);
+                  setIBCActive(false);
+                  setDegreeActive(true);
+                }}
+                className={DegreeCActive ? styles.activeP : styles.inactiveP}
+              >
+                Degree Certificate
+              </p></>):("")}
+         
         </div>
       </div>
 
@@ -204,6 +223,45 @@ function CertificateTab({ data, singlecertificate, doubleCertificate, projectWit
             <div className={`${styles.CertificateDiv} imgWrapper`}>
               <Image
                 src={data.projectCertificate.img}
+                alt="Certificate"
+                width={1150}
+                height={800}
+                loading="lazy"
+                quality={100}
+              />
+            </div>
+          </div>
+        </div>
+      ) : (
+        ""
+      )}
+       {DegreeCActive? (
+        <div className={styles.MicroCert}>
+          <div className={styles.rightSide}>
+            <h6>{data.DSDegreeCertificate.title}</h6>
+            {data.DSDegreeCertificate.para.map((data, i) => {
+              return (
+                <p key={i}>
+                  <BsCheckCircle className={styles.checkCircle} />
+                  {data}
+                </p>
+              );
+            })}
+          </div>
+          <div className={styles.leftSide}>
+            <Image
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/cert-arrow.webp"
+              alt="arrow"
+              width={100}
+              height={50}
+              className={styles.arrowImg}
+              style={{ position: "relative", top: "160px" }}
+              loading="lazy"
+              quality={60}
+            />
+            <div className={`${styles.CertificateDiv} imgWrapper`}>
+              <Image
+                src={data.DSDegreeCertificate.img}
                 alt="Certificate"
                 width={1150}
                 height={800}

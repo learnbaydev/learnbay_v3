@@ -47,10 +47,13 @@ const redirectionThankYou = (
   redirection
 ) => {
   let routerPath = "";
-  if (pathname === "/learning-learnbay") {
+  if (pathname === "/learning-learnbay ") {
     routerPath = "/learning-learnbay-select";
   }
   if (pathname === "/learning-learnbay-select") {
+    routerPath = "/Thank-you-counselling";
+  }
+  if (pathname === "/data-science-courses") {
     routerPath = "/Thank-you-counselling";
   }
   if (pathname === "resume-builder") {
