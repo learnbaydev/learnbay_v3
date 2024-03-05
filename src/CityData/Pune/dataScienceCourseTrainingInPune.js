@@ -865,7 +865,7 @@ export const DSPuneCourseData = [
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
     JobHead1:
-      "Learnbay's data science course is best known for its high placement rate.",
+      "Learnbay's data science course in Pune",
     JobBot1:
       "It offers guaranteed data scientists interview calls in the specific domain opted by students. The students of Learnbay get recruited by globally recognized companies and startups as Data scientists, Data engineers, AI experts, etc. Learnbay has created a strong network with 250+ companies that recruit for highly paid data science job roles throughout the year.",
     JobBot2:

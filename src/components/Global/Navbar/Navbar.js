@@ -15,6 +15,7 @@ const Navbar = ({
   dataScienceGeneric,
   interstedInHide,
   DMD,
+  careerportalbtn,
 }) => {
   const [popups, setPopups] = useState(false);
 
@@ -45,7 +46,7 @@ const Navbar = ({
         </div>
       </Popup>
 
-      <NavbarContent adPage={adPage} setPopups={setPopups} DMD={DMD} />
+      <NavbarContent adPage={adPage} setPopups={setPopups} DMD={DMD} careerportalbtn={careerportalbtn} />
     </div>
   );
 };

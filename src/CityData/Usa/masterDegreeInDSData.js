@@ -478,7 +478,7 @@ export const masterdegreeUSACourseData = [
       "Data science is an ever-changing field that requires regular skill updates. Thus, obtaining well-recognized certifications is vital for better job prospects. Learnbay’s MS in data science in USA ensures industry-driven career transition for its learners. In short, experts enrolling here will receive one globally accredited master’s degree followed by an IBM certification.       ",
     src33:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
-    src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
+    src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/certificate/degree-woolf.webp",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
     CertificationMasterHead1:
