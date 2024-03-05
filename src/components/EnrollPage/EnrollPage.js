@@ -1,8 +1,10 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { FaReact } from "react-icons/fa";
+import axios from "axios";
 import styles from "./EnrollPage.module.css";
 import EnrollPopup from "./EnrollPagePopup";
+import { useRouter } from "next/router";
 
 const products = [
   { name: "Data Science and AI Master Certification Program", price: 129000 },
@@ -57,6 +59,8 @@ function EnrollPage({ label, ...rest }) {
   const [isInstallmentSelected, setIsInstallmentSelected] = useState(false);
   const [discount, setDiscount] = useState(0);
   const [discountMsg, setDiscountMsg] = useState("");
+  const [submittingForm, setSubmittingForm] = useState(false);
+  const router = useRouter();
 
   const openPopup = () => {
     setShowPopup(true);
@@ -159,10 +163,6 @@ function EnrollPage({ label, ...rest }) {
   };
 
   const makePayment = async () => {
-    if (paymentType === "installments") {
-      setShowPopup(true);
-      return;
-    }
     try {
       const res = await initializeRazorpay();
       if (!res) {
@@ -189,12 +189,14 @@ function EnrollPage({ label, ...rest }) {
         amount: data.amount,
         order_id: data.id,
         description: "Thank you for your purchase",
-        image: "https://example.com/your_logo.png",
+        image: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp",
         handler: function (response) {
+          handleFormSubmit(response.razorpay_payment_id);
           alert(
             "Payment successful! Payment ID: " + response.razorpay_payment_id
           );
-          window.location.href = "/enroll";
+          // After successful payment, submit form data
+          router.push('/Thank-you');
         },
       };
       const paymentObject = new window.Razorpay(options);
@@ -218,6 +220,37 @@ function EnrollPage({ label, ...rest }) {
 
       document.body.appendChild(script);
     });
+  };
+
+  const handleFormSubmit = (PaymentId) => {
+    setSubmittingForm(true);
+    console.log("insidewe defwaecsdewd");
+    const formData = {
+      name: name,
+      email: email,
+      phone: phone,
+      selectedProduct: selectedProduct.name,
+      selectedCoupon: selectedCoupon,
+      totalPrice: totalPrice,
+      paymentType: paymentType,
+      PaymentId: PaymentId,
+      url: router.asPath,
+    };
+
+    axios
+      .post(
+        "https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92",
+        formData
+      )
+      .then((response) => {
+        console.log("Form submitted successfully to external endpoint!");
+      })
+      .catch((error) => {
+        console.error("Error submitting form:", error);
+      })
+      .finally(() => {
+        setSubmittingForm(false);
+      });
   };
 
   return (
@@ -253,10 +286,10 @@ function EnrollPage({ label, ...rest }) {
               <div className={styles.formGroup}>
                 <input
                   {...rest}
+                  type="text"
                   className={styles.formControl}
                   onFocus={() => handleFocus("fullNameLabel")}
                   onBlur={() => handleBlur("fullNameLabel", name)}
-                  type="text"
                   value={name}
                   required
                   onChange={(e) => setName(e.target.value)}
@@ -273,11 +306,13 @@ function EnrollPage({ label, ...rest }) {
               <div className={styles.formGroup}>
                 <input
                   {...rest}
+                  type="email"
                   className={styles.formControl}
                   onFocus={() => handleFocus("EmailId")}
-                  onBlur={() => handleBlur("EmailId", email)}
+                  onBlur={() => {
+                    handleBlur("EmailId", email);
+                  }}
                   value={email}
-                  type="email"
                   onChange={(e) => setEmail(e.target.value)}
                   required
                 />
@@ -295,11 +330,13 @@ function EnrollPage({ label, ...rest }) {
               <div className={styles.formGroup}>
                 <input
                   {...rest}
+                  type="tel"
                   className={styles.formControl}
                   onFocus={() => handleFocus("PhonId")}
-                  onBlur={() => handleBlur("PhonId", phone)}
+                  onBlur={() => {
+                    handleBlur("PhonId", phone);
+                  }}
                   value={phone}
-                  type="tel"
                   required
                   onChange={(e) => setPhone(e.target.value)}
                 />
@@ -345,10 +382,10 @@ function EnrollPage({ label, ...rest }) {
                 <div className={styles.formGroup}>
                   <input
                     {...rest}
+                    type="text"
                     className={styles.formControl}
                     onFocus={() => handleFocus("CouponId")}
                     onBlur={() => handleBlur("CouponId", selectedCoupon)}
-                    type="text"
                     value={selectedCoupon}
                     onChange={handleCouponChange}
                   />
@@ -473,7 +510,13 @@ function EnrollPage({ label, ...rest }) {
                 type="button"
                 onClick={() => {
                   console.log("Checking if fields are empty...");
-                  if (!name || !email || !phone || !selectedProduct) {
+                  if (
+                    !name ||
+                    !email ||
+                    !phone ||
+                    !selectedProduct ||
+                    submittingForm
+                  ) {
                     console.log("Fields are empty. Showing alert...");
                     alert("Please fill in all the required fields.");
                     return;
@@ -482,17 +525,38 @@ function EnrollPage({ label, ...rest }) {
                   if (isInstallmentSelected) {
                     setShowPopup(true);
                   } else {
-                    makePayment();
+                    makePayment()
+                      .then(() => {
+                        console.log(
+                          "Payment completed successfully. Proceeding with form submission..."
+                        );
+                        // Assuming makePayment resolves without an error, indicating a successful payment
+                        setSubmittingForm(true);
+                      })
+                      .catch((error) => {
+                        console.error("Error making payment:", error);
+                        alert("Error making payment. Please try again.");
+                      });
                   }
                 }}
                 className={`${styles.button} ${
-                  !name || !email || !phone || !selectedProduct
+                  !name ||
+                  !email ||
+                  !phone ||
+                  !selectedProduct ||
+                  submittingForm
                     ? styles.disabled
                     : ""
                 }`}
-                disabled={!name || !email || !phone || !selectedProduct}
+                disabled={
+                  !name ||
+                  !email ||
+                  !phone ||
+                  !selectedProduct ||
+                  submittingForm
+                }
               >
-                Complete Checkout
+                {submittingForm ? "Submitting..." : "Complete Checkout"}
               </button>
             </div>
           </form>
