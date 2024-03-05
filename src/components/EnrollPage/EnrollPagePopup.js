@@ -51,16 +51,13 @@ const EnrollPopup = ({
       )
       .then((response) => {
         console.log("Form submitted successfully to external endpoint!");
-        return axios.post("/api/Database/emailConfirmation", formData);
-      })
-      .then((response) => {
-        console.log("Confirmation email sent successfully!");
-        setFormSubmitted(true);
+        router.push('/Thank-you');
       })
       .catch((error) => {
         console.error("Error submitting form:", error);
       })
       .finally(() => {
+        setFormSubmitted(true);
         setSubmittingForm(false);
       });
   };
@@ -111,6 +108,7 @@ const EnrollPopup = ({
           </div>
           <div>
             <form>
+          <p className={styles.LabelPopup}>Select a slot for our finance team to contact you.</p>
               <div className={styles.divFlexPopup}>
                 <div className={styles.formGroupPopup}>
                   <label className={styles.LabelPopup}>Date</label>
@@ -175,7 +173,7 @@ const EnrollPopup = ({
                       : 1,
                   }}
                 >
-                  {submittingForm ? "Submitting..." : "Book an Appointment"}
+                  {submittingForm ? "Submitting..." : "Start My Application"}
                 </button>
               )}
             </form>

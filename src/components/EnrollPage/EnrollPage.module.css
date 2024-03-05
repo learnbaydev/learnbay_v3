@@ -89,8 +89,7 @@
 .courseName {
   color: #4C4C4C;
   font-weight: 600;
-  display: grid;
-    grid-template-columns: 7% 93%;
+  display: flex;
     align-items: center;
 }
 
@@ -409,6 +408,7 @@ margin-top: 20px;
 
   .courseName {
     grid-template-columns: 9% 91%;
+    display: grid;
   }
 
   .contPopup {
