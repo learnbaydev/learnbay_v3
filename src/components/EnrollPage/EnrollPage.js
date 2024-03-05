@@ -62,16 +62,6 @@ function EnrollPage({ label, ...rest }) {
   const [submittingForm, setSubmittingForm] = useState(false);
   const router = useRouter();
 
-  const isValidEmail = (value) => {
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return emailRegex.test(value);
-  };
-
-  const isValidPhoneNumber = (value) => {
-    const phoneRegex = /^\d+$/; // Regular expression to allow only numeric characters
-    return phoneRegex.test(value);
-  };
-
   const openPopup = () => {
     setShowPopup(true);
   };
@@ -173,10 +163,6 @@ function EnrollPage({ label, ...rest }) {
   };
 
   const makePayment = async () => {
-    if (paymentType === "installments") {
-      setShowPopup(true);
-      return;
-    }
     try {
       const res = await initializeRazorpay();
       if (!res) {
@@ -203,17 +189,14 @@ function EnrollPage({ label, ...rest }) {
         amount: data.amount,
         order_id: data.id,
         description: "Thank you for your purchase",
-        image: "https://example.com/your_logo.png",
+        image: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp",
         handler: function (response) {
+          handleFormSubmit(response.razorpay_payment_id);
           alert(
             "Payment successful! Payment ID: " + response.razorpay_payment_id
           );
-          // Send email after successful payment
-          sendEmail();
-          // Submit form data to Getform after successful payment
-          submitFormDataToGetform();
-          window.location.href = "/enroll";
-          handleFormSubmit();
+          // After successful payment, submit form data
+          router.push('/Thank-you');
         },
       };
       const paymentObject = new window.Razorpay(options);
@@ -221,49 +204,6 @@ function EnrollPage({ label, ...rest }) {
     } catch (error) {
       console.error("Error making payment:", error);
       alert("Error making payment. Please try again.");
-    }
-  };
-
-  const sendEmail = async () => {
-    const formData = {
-      name: name,
-      email: email,
-      phone: phone,
-      selectedProduct: selectedProduct.name,
-      selectedCoupon: selectedCoupon,
-      totalPrice: totalPrice,
-      paymentType: paymentType,
-      url: router.asPath,
-    };
-
-    try {
-      await axios.post("/api/Database/emailInvoice", formData);
-      console.log("Confirmation email sent successfully!");
-    } catch (error) {
-      console.error("Error sending confirmation email:", error);
-    }
-  };
-
-  const submitFormDataToGetform = async () => {
-    const formData = {
-      name: name,
-      email: email,
-      phone: phone,
-      selectedProduct: selectedProduct.name,
-      selectedCoupon: selectedCoupon,
-      totalPrice: totalPrice,
-      paymentType: paymentType,
-      url: router.asPath,
-    };
-
-    try {
-      await axios.post(
-        "https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92",
-        formData
-      );
-      console.log("Form submitted successfully to Getform!");
-    } catch (error) {
-      console.error("Error submitting form to Getform:", error);
     }
   };
 
@@ -282,8 +222,9 @@ function EnrollPage({ label, ...rest }) {
     });
   };
 
-  const handleFormSubmit = () => {
+  const handleFormSubmit = (PaymentId) => {
     setSubmittingForm(true);
+    console.log("insidewe defwaecsdewd");
     const formData = {
       name: name,
       email: email,
@@ -292,6 +233,7 @@ function EnrollPage({ label, ...rest }) {
       selectedCoupon: selectedCoupon,
       totalPrice: totalPrice,
       paymentType: paymentType,
+      PaymentId: PaymentId,
       url: router.asPath,
     };
 
@@ -302,11 +244,6 @@ function EnrollPage({ label, ...rest }) {
       )
       .then((response) => {
         console.log("Form submitted successfully to external endpoint!");
-        return axios.post("/api/Database/emailInvoice", formData);
-      })
-      .then((response) => {
-        console.log("Confirmation email sent successfully!");
-        setFormSubmitted(true);
       })
       .catch((error) => {
         console.error("Error submitting form:", error);
@@ -374,11 +311,6 @@ function EnrollPage({ label, ...rest }) {
                   onFocus={() => handleFocus("EmailId")}
                   onBlur={() => {
                     handleBlur("EmailId", email);
-                    if (!isValidEmail(email)) {
-                      alert("Please enter a valid email address.");
-                      // Optionally, you can clear the email field if it's not valid
-                      setEmail("");
-                    }
                   }}
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
@@ -403,11 +335,6 @@ function EnrollPage({ label, ...rest }) {
                   onFocus={() => handleFocus("PhonId")}
                   onBlur={() => {
                     handleBlur("PhonId", phone);
-                    if (!isValidPhoneNumber(phone)) {
-                      alert("Please enter a valid phone number.");
-                      // Optionally, you can clear the phone field if it's not valid
-                      setPhone("");
-                    }
                   }}
                   value={phone}
                   required
@@ -583,7 +510,13 @@ function EnrollPage({ label, ...rest }) {
                 type="button"
                 onClick={() => {
                   console.log("Checking if fields are empty...");
-                  if (!name || !email || !phone || !selectedProduct) {
+                  if (
+                    !name ||
+                    !email ||
+                    !phone ||
+                    !selectedProduct ||
+                    submittingForm
+                  ) {
                     console.log("Fields are empty. Showing alert...");
                     alert("Please fill in all the required fields.");
                     return;
@@ -592,22 +525,38 @@ function EnrollPage({ label, ...rest }) {
                   if (isInstallmentSelected) {
                     setShowPopup(true);
                   } else {
-                    makePayment();
-                    console.log(
-                      "Fields are filled. Proceeding with checkout..."
-                    );
-                    setSubmittingForm(true);
-                    handleFormSubmit();
+                    makePayment()
+                      .then(() => {
+                        console.log(
+                          "Payment completed successfully. Proceeding with form submission..."
+                        );
+                        // Assuming makePayment resolves without an error, indicating a successful payment
+                        setSubmittingForm(true);
+                      })
+                      .catch((error) => {
+                        console.error("Error making payment:", error);
+                        alert("Error making payment. Please try again.");
+                      });
                   }
                 }}
                 className={`${styles.button} ${
-                  !name || !email || !phone || !selectedProduct
+                  !name ||
+                  !email ||
+                  !phone ||
+                  !selectedProduct ||
+                  submittingForm
                     ? styles.disabled
                     : ""
                 }`}
-                disabled={!name || !email || !phone || !selectedProduct}
+                disabled={
+                  !name ||
+                  !email ||
+                  !phone ||
+                  !selectedProduct ||
+                  submittingForm
+                }
               >
-                Complete Checkout
+                {submittingForm ? "Submitting..." : "Complete Checkout"}
               </button>
             </div>
           </form>
