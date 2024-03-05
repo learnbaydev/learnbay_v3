@@ -166,7 +166,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData,  }) => {
        
         // interstedInHide={true}
         newDesign={true}
-        dataScienceGeneric={true}
+      
         DomainInput={true}
         interstedInHide={true}
         DatascienOnlycourse={true}
