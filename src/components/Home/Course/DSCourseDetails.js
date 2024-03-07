@@ -8,7 +8,7 @@ export const courseDetails = [
         id: "Our Certification Courses",
         courseDetails: [
           {
-            id: 4,
+            id: 1,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/AIML-card.webp",
             title: "Advanced AI and ML",
             title1: "Certification Program",
@@ -27,7 +27,7 @@ export const courseDetails = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
           },
           {
-            id: 9,
+            id: 2,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Master-Card.webp",
             title: "Data Science and AI",
             title1: "Master Certification Program",
@@ -46,48 +46,11 @@ export const courseDetails = [
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf",
           },
-          {
-            id: 7,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/BA-Card.webp",
-            title: "Business Analytics",
-            title1: "Master Certification Program",
-            tagHead: "For Working Professionals",
-            tag: "Data science",
-            brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf",
-            titleCourse: "Business Analytics Master Certification Program",
-            para: [
-              "7 months | 4 capstone projects",
-              "Project certification from IBM",
-              "3 domain electives",
-            ],
-            link1: "/datascience/business-analytics-certification-course",
-            link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf",
-          },
-          {
-            id: 6,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/DA-Card.webp",
-            title: "Data Analytics",
-            title1: "Certification Program",
-            tagHead: "For Non-Tech Professionals",
-            tag: "Data science",
-            brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
-            titleCourse: "Data Analytics Certification Program",
-            para: [
-              "5 months | 1 capstone projects",
-              "Global Certification",
-              "Designed by industry experts",
-              ,
-            ],
-            link1: "/datascience/data-analytics-certification-course",
-            link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
-          },
+         
+      
 
           {
-            id: 1,
+            id: 3,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Advance-Card.webp",
             title: "Advanced Data Science",
             title1: "and AI Certification",
@@ -106,7 +69,7 @@ export const courseDetails = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
           },
           {
-            id: 5,
+            id: 4,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/freshers-img.webp",
             title: "Data Science and AI",
             title1: "Program for Freshers",
@@ -127,7 +90,7 @@ export const courseDetails = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf",
           },
           {
-            id: 6,
+            id: 5,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
             title: "Advanced Certification",
             title1: "Program in Generative AI",
@@ -148,7 +111,7 @@ export const courseDetails = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Generative+AI+Certification+Course.pdf",
           },
           {
-            id: 7,
+            id: 6,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
             title: "Data Science ",
             title1: "Foundation Program",
@@ -210,7 +173,7 @@ export const courseDetailsM = [
         id: "Data Science",
         courseDetails: [
           {
-            id: 4,
+            id: 1,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/AIML-card.webp",
             title: "Advanced AI and ML",
             title1: "Certification Program",
@@ -229,7 +192,7 @@ export const courseDetailsM = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
           },
           {
-            id: 9,
+            id: 2,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Master-Card.webp",
             title: "Data Science and AI",
             title1: "Master Certification Program",
@@ -248,48 +211,10 @@ export const courseDetailsM = [
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf",
           },
-          {
-            id: 7,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/BA-Card.webp",
-            title: "Business Analytics",
-            title1: "Master Certification Program",
-            tagHead: "For Working Professionals",
-            tag: "Data science",
-            brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf",
-            titleCourse: "Business Analytics Master Certification Program",
-            para: [
-              "7 months | 4 capstone projects",
-              "Project certification from IBM",
-              "3 domain electives",
-            ],
-            link1: "/datascience/business-analytics-certification-course",
-            link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf",
-          },
-          {
-            id: 6,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/DA-Card.webp",
-            title: "Data Analytics",
-            title1: "Certification Program",
-            tagHead: "For Non-Tech Professionals",
-            tag: "Data science",
-            brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
-            titleCourse: "Data Analytics Certification Program",
-            para: [
-              "5 months | 1 capstone projects",
-              "Global Certification",
-              "Designed by industry experts",
-              ,
-            ],
-            link1: "/datascience/data-analytics-certification-course",
-            link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
-          },
+         
 
           {
-            id: 1,
+            id: 3,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Advance-Card.webp",
             title: "Advanced Data Science",
             title1: "and AI Certification",
@@ -308,7 +233,7 @@ export const courseDetailsM = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
           },
           {
-            id: 5,
+            id: 4,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/freshers-img.webp",
             title: "Data Science and AI",
             title1: "Program for Freshers",
@@ -329,7 +254,7 @@ export const courseDetailsM = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf",
           },
           {
-            id: 6,
+            id: 5,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
             title: "Advanced Certification",
             title1: "Program in Generative AI",
@@ -350,7 +275,7 @@ export const courseDetailsM = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Generative+AI+Certification+Course.pdf",
           },
           {
-            id: 7,
+            id: 6,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
             title: "Data Science ",
             title1: "Foundation Program",
@@ -372,91 +297,7 @@ export const courseDetailsM = [
           },
         ],
       },
-      {
-        courseName: "Domain Certification Courses",
-        id: "Domain Certification Courses",
-        courseDetails: [
-          {
-            id: 13,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/managers-card.webp",
-            title: "Data Science & AI",
-            title1: "For Managers & Leaders",
-            tagHead: "For Project Managers/Team Leads",
-            tag: "Data science",
-            brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
-            titleCourse:
-              "Data Science & AI Certification Program For Managers and Leaders",
-            para: [
-              "11 months | 3 capstone projects",
-              "Project Certification form IBM",
-              "3 Domain Electives",
-            ],
-            link1: "/datascience/data-science-ai-for-managers",
-            link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
-          },
-          {
-            id: 10,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/BFSI-Card.webp",
-            title: "Data Science & AI",
-            title1: "For BFSI Professionals",
-            tagHead: "For BFSI Professionals",
-            tag: "Data science",
-            brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
-            titleCourse:
-              "Data Science & AI Certification Program for BFSI Professionals",
-            para: [
-              "7 months | 2 capstone projects",
-              "Global Certification",
-              "Designed by industry experts",
-            ],
-            link1: "/datascience/data-science-for-bfsi-professional",
-            link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
-          },
-          {
-            id: 11,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/HR-Card.webp",
-            title: "HR Analytics",
-            title1: "Certification Program",
-            tagHead: "For HR Professionals",
-            tag: "Data science",
-            brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
-            titleCourse: "HR Analytics Certification Program",
-            para: [
-              "5 months | 2 capstone projects",
-              "Global Certification from IBM",
-              "Guaranteed Interview Calls",
-            ],
-            link1: "/datascience/hr-analytics",
-            link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
-          },
-
-          {
-            id: 12,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Marketing-card.webp",
-            title: "Marketing Analytics",
-            title1: "Certification Program",
-            tagHead: "For Marketing Professionals",
-            tag: "Data science",
-            brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Marketing+Analytics+Certification+Program.pdf",
-            titleCourse: "Marketing Analytics Certification Program",
-            para: [
-              "5 months | 2 capstone projects",
-              "Global Certification from IBM",
-              "3 Years Flexible Subscription",
-            ],
-            link1: "/datascience/marketing-analytics",
-            link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Marketing+Analytics+Certification+Program.pdf",
-          },
-        ],
-      },
+     
 
       {
         courseName: "Master's Degree",
