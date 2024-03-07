@@ -31,6 +31,7 @@ function FirstSection({
   radio,
   downloadBrochure, 
   fullStack, 
+  DSWolf,
   
 }) {
   const [popups, setPopups] = useState(false);
@@ -58,7 +59,7 @@ function FirstSection({
         FirstRightImg={FirstRightImg}
         firstTopPara={firstTopPara}
         dataScienceCounselling={dataScienceCounselling}
-        ibmOnly={ibmOnly}
+        DSWolf={DSWolf}
         cityParaCont={cityParaCont}
         setPopups={setPopups}
         setVideo={setVideo}

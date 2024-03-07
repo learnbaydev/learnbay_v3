@@ -197,70 +197,7 @@ export default function Home() {
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
 
-        {/* <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: ` {
-              "@context": "http://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Learnbay - Data Analytics, Data Data Science Course in usa",
-  "description": "Are you searching for the best data science courses in usa? Learnbay is providing the best online data science course training in usa.",
-  "url": "https://www.learnbay.co/datascience/usa/data-science-course-training-in-usa",
-  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "office no. 408, 4th floor, City Space, opposite to Fiserv, Viman Nagar",
-    "addressLocality": "usa",
-    "addressRegion": "Maharashtra",
-    "postalCode": "411014",
-    "addressCountry": "IN"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 18.801159281162093,
-    "longitude": 73.86267542806505
-  },
-  "telephone": "(+91) 77956 87988",
-  "email": "contacts@learnbay.co",
-  "openingHoursSpecification": [
-        {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday"
-        ],
-        "opens": "10:00",
-        "closes": "18:00"
-      },
-       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Saturday"
-        ],
-        "opens": "10:00",
-        "closes": "15:00"
-     }
-  ],
-  "priceRange": "₹ 1,25,000 + 18% GST",
-  "servesCuisine": "Data Science Education",
-  "areaServed": "Bangalore",
-  "paymentAccepted": "Cash, Credit Card, Debit Card, EMI"
-  },
-  "sameAs": [
-      "https://www.facebook.com/learnbay/",
-                "https://twitter.com/Learbay",
-                "https://www.instagram.com/learnbayofficial/",
-                "https://www.youtube.com/channel/UC-ntE_GnjjiUuKYqih9ENYA",
-                "https://www.linkedin.com/company/learnbay/"
-  ]
-             
-              
-} `,
-          }}
-        /> */}
+    
       </Head>
       <main>
         {" "}

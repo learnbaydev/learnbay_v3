@@ -1,10 +1,9 @@
 import Head from "next/head";
 import { parseJSONData } from "@/Util/JsonConvertor";
 
-
 import Navbar from "@/components/Global/Navbar/Navbar";
 import DSCourseFirstPart from "@/components/CoursePage/FirstPart/DSCourseFirstPart";
-import DSCourseSecondPart from "@/components/CoursePage/FirstPart/DSCourseSecondPart"
+import DSCourseSecondPart from "@/components/CoursePage/FirstPart/DSCourseSecondPart";
 
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
@@ -12,17 +11,15 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>
-        Data Science Courses
-        </title>
+        <title>Best Data Science Courses with Certification [2024] </title>
         <meta
           name="description"
-          content="Are you searching for the Advanced Data Science and Artificial Intelligence Program With Certification? Learnbay is providing the best online Advanced Data Science and AI Program . Enroll now!"
+          content="Enroll in the best data science courses to elevate your skills. Select from foundation to advanced courses according to your career requirement. Join Now!!"
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="data science and ai course, advanced data science course, data science and ai, ai and data science course, artificial intelligence and data science course, advanced certification in data science and ai"
+          content="data science course, data science courses, data science training , data science course institute, best data science institute, data scientist course ,data scientist certification, data science training institute , advanced data science course , data science course with Placement Assistance, data science course with IBM certification"
         />
         <link
           rel="icon"
@@ -32,11 +29,10 @@ function Blockchain({ DataScienceCourseDataJson }) {
           rel="canonical"
           href="https://www.learnbay.co/datascience/advance-data-science-certification-courses"
         />
-       
       </Head>
       <main>
         <Navbar dataScienceCounselling={true} interstedInHide={true} />
-      
+
         <DSCourseFirstPart
           SecondSectionData={
             DataScienceCourseData.DataScienceCourseData[0].secondSection

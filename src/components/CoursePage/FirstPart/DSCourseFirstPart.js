@@ -28,104 +28,49 @@ const CloudDevopsecond = dynamic(() =>
     "../../CoursePage/cloud&devops/DevOpsSecondSection/DevOpsSecondSection"
   )
 );
+import styles from "../../../styles/Home.module.css"
+import { DataScienceCourseData } from "../../../Data/DataScinceCourseOnly";
+
+import FAQNew from "../FAQNew/FAQNew";
 const FirstSection = dynamic(() =>
   import("../../CoursePage/FirstSection/FirstSection")
 );
-const MasterSecondSection  = dynamic(() =>
+
+const MasterSecondSection = dynamic(() =>
   import("../../MastersCourse/MasterSecondSection/MasterSecondSection")
 );
-const Course = dynamic(()=>
-import( "../../Home/Course/CourseDmd"
-)
+const CitiesRight = dynamic(() =>
+  import("../../Seo/CitiesRight/CitiesRight")
 );
-const Realstory = dynamic(()=>
-import( "../../Home/Realstory/Realstory"
-)
-);
-
+const CitiesLeft = dynamic(()=>
+import ("../../Seo/CitiesLeft/CitiesLeft"));
+const Course = dynamic(() => import("../../Home/Course/DSCourse"));
+const Realstory = dynamic(() => import("../../Home/Realstory/Realstory"));
 
 import { AiOutlineContainer } from "react-icons/ai";
 import { BsDisplay, BsPeople, BsPersonGear } from "react-icons/bs";
 import { FaLinkedinIn, FaReact } from "react-icons/fa";
 import { TbBrandGoogleAnalytics } from "react-icons/tb";
-const FirstPart = ({ SecondSectionData, TestimonialData }) => {
-
+import Dropdown from "@/components/Seo/DropDownContent/Accordion";
+import Accordion from "@/components/Seo/DropDownContent/Accordion";
+const FirstPart = ({ SecondSectionData, TestimonialData,  }) => {
   const seconddata = [
-    { boldText: "IBM", normalText: "Certified Capstone", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
-    { CboldText: "175%", normalText: "Average Salary Hike", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
-    { boldText: "35K+", normalText: "Trusted Learners", },
-    
-  ];
-  const DsSecond = {
-    title1: "Domain Specialization",
-    image1:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ds-one.webp",
-    points: [
-      "Leverage your prior work experience for  relevant career transition.",
-      "Aim for higher salary hikes.",
-    ],
-    image2:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ds.webp",
-    title2: "Job Roles You Can Target",
-    jobRoles: [
-      {
-        icon: <FaReact />,
-        role: "Sr. Data Scientist ",
-        salary: " 27 LPA",
-      },
-      {
-        icon: <TbBrandGoogleAnalytics />,
-        role: "Sr. Data Analyst",
-        salary: " 15 LPA",
-      },
-      { icon: <BsPersonGear />, role: "ML Engineer ", salary: "14 LPA" },
-    ],
-    image3:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group-768-min.webp",
-    image4:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Mask+group+(10).webp",
-    title3: "Assured Job Assistance",
-    jobAssistance: [
-      { icon: <BsDisplay />, text: "8-10 Interview Calls" },
-      { icon: <AiOutlineContainer />, text: "Resume Building Session" },
-      { icon: <FaLinkedinIn />, text: "LinkedIn Profile Review" },
-    ],
-    formbl: [{ icon: <BsPeople />, text: "Mock Interview Sessions" }],
-    image5:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-second-min.webp",
-  };
-  const JobData = {
-    title: "Elevate Your Expertise in Data Science and AI    ",
-    points: [
-      {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
-        imgAlt: "",
-        title: "Bridge your Career Gap        ",
-        description: "Internship certificate that helps you fill your career gap.         ",
-      },
-      {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
-        imgAlt: "",
-        title: "Flexible Learning at your Convenience        ",
-        description: "For professionals aiming to upskill without quitting their job.",
-      },
-      {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
-        imgAlt: "",
-        title: "Curriculum Inclusive of Gen-AI        "        ,
-        description: "Tailored for career transformation in a tech-driven era",
-      },
-   
-    ],
-    bannerImage: {
-      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Adv-dsai-_1_-min.webp",
-      width: 500,
-      height: 400,
-      priority: true,
-      quality: 80,
-      alt: "Banner Image 1 Alt",
+    {
+      boldText: "IBM",
+      normalText: "Certified Capstone",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp",
     },
-  };
+    {
+      CboldText: "175%",
+      normalText: "Average Salary Hike",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp",
+    },
+    { boldText: "35K+", normalText: "Trusted Learners" },
+  ];
+  
+
   return (
     <>
       <FirstSection
@@ -133,42 +78,41 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         interstedInHide={true}
         ThirdTyped="Live Interactive Classes"
         dataScience={true}
-        titleCourse="Advanced Data Science & AI Program with Domain Specialization"
-        cityParaCont="Gain work experience of data scientist with real projects"
+        titleCourse="Data Science Courses – Learnbay        "
+        cityParaCont="Experience the analytical power of data science with Learnbay’s industry-paced upskilling programs designed to propel competitive success rates. Enroll in our data science courses to break into the perplexity of emerging data-driven culture.     "
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Adv-dsai-_1_-min.webp"
-        firstToparaImg="with Domain Specialization"
-        firstHeading="Advanced Data Science & AI Program"
-        firstTopPara="Curriculum Inclusive of Gen-AI "
+        firstToparaImg="– Learnbay"
+        firstHeading="Data Science Courses       "
+        firstTopPara="  "
         idss="djokazk1d-0"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ds-fs.webp"
         videoId="djokazk1d-0"
-        
+        DSWolf={true}
       />
-       <MasterSecondSection data={seconddata} />
-       <Course  
+
+      <Course
         // radio={true}
-        organicADS={true}
+       
         // interstedInHide={true}
         newDesign={true}
-        dataScienceGeneric={true} 
-        
+      
         DomainInput={true}
-      interstedInHide={true}
-      DatascienOnlycourse={true}
-      
+        interstedInHide={true}
+        DatascienOnlycourse={true}
+      />
+    
 
-        />
-      <CloudDevopsecond data={DsSecond}   dataScience={true} />
 
-            <Realstory />
+  
+
+      <Realstory />
       <TrainerSection idss="eautK0odE7Q" />
- 
+
       {/* <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} /> */}
-      
-      <WhyLearnbay idss="ZPOTy4PEnNU" />
+
+<Accordion/>
       <GetHire />
-     
     </>
   );
 };

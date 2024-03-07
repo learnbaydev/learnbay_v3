@@ -88,17 +88,17 @@ export default function Home() {
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/singapore/data-science-course-training-in-singapore"
+          content="https://www.learnbay.co/datascience/south-africa/data-science-course-training-in-south-africa"
         />
         <meta
           property="og:title"
-          content="Data Science Course in singapore | Data Science Training in singapore"
+          content="Data Science Course in south-africa | Data Science Training in south-africa"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Data science course in singapore. Learnbay is Advanced Data Science Course Training Institute in singapore. Data science course in singapore will enhance your career"
+          content="Data science course in south-africa. Learnbay is Advanced Data Science Course Training Institute in south-africa. Data science course in south-africa will enhance your career"
         />
         <meta
           property="og:image"
@@ -110,16 +110,16 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Data Science Course in Chennai | Data Science Training in Chennai"
+          content="Data Science Course in south-africa | Data Science Training in south-africa"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           itemProp="description"
-          content="Data science course in Chennai. Learnbay is Advanced Data Science Course Training Institute in Chennai. Data science course in Chennai will enhance your career"
+          content="Data science course in south-africa. Learnbay is Advanced Data Science Course Training Institute in south-africa. Data science course in south-africa will enhance your career"
         />
         <meta
           name="twitter:description"
-          content="Data science course in Chennai. Learnbay is Advanced Data Science Course Training Institute in Chennai. Data science course in Chennai will enhance your career"
+          content="Data science course in south-africa. Learnbay is Advanced Data Science Course Training Institute in south-africa. Data science course in south-africa will enhance your career"
         />
         <meta
           name="twitter:image"
@@ -127,7 +127,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/singapore/data-science-course-training-in-singapore"
+          href="https://www.learnbay.co/datascience/south-africa/data-science-course-training-in-south-africa"
         />
         {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}
@@ -143,25 +143,25 @@ export default function Home() {
         {/* <meta name="robots" content="ALL" /> */}
         <meta
           property="og:url"
-          content="https://www.learnbay.co/data-science-course-training-in-singapore"
+          content="https://www.learnbay.co/datascience/south-africa/data-science-course-training-in-south-africa"
         />
         <meta
           property="og:title"
-          content="Data Science Course Training in singapore"
+          content="Data Science Course Training in south-africa"
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/data-science-course-training-in-singapore"
+          content="https://www.learnbay.co/datascience/south-africa/data-science-course-training-in-south-africa"
         />
         <meta
           property="og:title"
-          content="Data Science Course singapore | Data Scientist Course singapore | Learnbay"
+          content="Data Science Course south-africa | Data Scientist Course south-africa | Learnbay"
         />
         <meta property="og:site_name" content="www.learnbay.co" />
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Enroll for Data Science Course and Certification Training in singapore from Learnbay in association with IBM. This Data Scientist course in singapore will give you hands-on experience with technologies and job assistance.
+          content="Enroll for Data Science Course and Certification Training in south-africa from Learnbay in association with IBM. This Data Scientist course in south-africa will give you hands-on experience with technologies and job assistance.
 "
         />
         <meta
@@ -174,7 +174,7 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content=" Best Data Science Course Training in singapore - Learnbay"
+          content=" Best Data Science Course Training in south-africa - Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta

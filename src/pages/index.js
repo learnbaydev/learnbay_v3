@@ -166,7 +166,7 @@ export default function Home() {
         <link rel="canonical" href="https://www.learnbay.co/" />
         <meta
           name="keywords"
-          content="data science course, data science training , data science institute in India, best data science institute, data scientist course ,data scientist certification, data science training institute , advanced data science course , data science course with Placement Assistance, data science course with IBM certification"
+          content="Learnbay Training Institute, Learnbay Data Science, Best Training Institute, Top Courses, Data Science, Artificial intelligence, Machine Learning, Deep learning, Python, R, Statistics, Classroom Training, ONLINE Training, IOT, Tableau"
         />
         <link
           rel="icon"

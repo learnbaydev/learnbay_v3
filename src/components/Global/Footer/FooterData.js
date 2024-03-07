@@ -376,6 +376,17 @@ export const CityFooterData = [
           },
         ],
       },
+      {
+        id: "Malaysia",
+        city: "Malaysia",
+        cityData: [
+          {
+            id: 1,
+            name: "Data Science Course Training in Malaysia",
+            url: "/datascience/malaysia/data-science-course-training-in-malaysia",
+          },
+        ],
+      },
     ],
   },
   {
