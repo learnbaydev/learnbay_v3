@@ -143,6 +143,9 @@ const CitiesRight = ({
   ModuleBot43,
   ModuleBot44,
   ModuleBot45,
+  ModuleBot46,
+  ModuleBot47,
+  ModuleBot48,
   Modulelist1,
   Modulelist2,
   Modulelist3,
@@ -217,10 +220,15 @@ const CitiesRight = ({
   Joblist11,
   Joblist12,
   Joblist13,
+  JobBot001,
+  JobBot002,
   JobBot4,
   JobHead19,
   JobBot18,
   JobBot20,
+  JobBot003,
+  JobBot007,
+  JobBot0span,
   JobBot34,
   JobBot35,
   Joblist14,
@@ -264,6 +272,10 @@ const CitiesRight = ({
   Joblist52,
   Joblist53,
   Joblist54,
+  JobHead001,
+  JobBot004,
+  JobBot005,
+  JobBot006,
   usaonly,
   hideDSonly,
   ProgramBotItaliic105,
@@ -404,7 +416,7 @@ const CitiesRight = ({
   cityTextDSSAfrica,
   cityTextBangla,
   cityTextMasterUSA,
-  OnlyDatascience,
+  cityTextDSMalaysia,
 }) => {
   const [read, setRead] = useState(false);
   const handler = () => {
@@ -3435,245 +3447,163 @@ const CitiesRight = ({
           ""
         )}
 
-        {OnlyDatascience ? (
+        {cityTextDSMalaysia ? (
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
-              Presenting Learner-centric Data Science Training Programs with
-              Globally Recognized Certifications
+              About Data Science Course in Malaysia In Collaboration with IBM &
+              Microsoft
             </h4>
             <p>
-              In today's world of technology, data scientists help businesses
-              make smart decisions based on their advanced analytics. Both
-              working pros and companies find data modeling as a weapon for
-              business analytics to conquer unbeatable success. Such shifts
-              encourage businesses to adopt more resilient analytical and
-              statistical methods to attain assured success. Meanwhile, its
-              impact on global job market dynamics is worth noticing. Thus, the
-              demand for a custom-fit data science certification course
-              increases faster.
+              Lately, Malaysia has seen rapid growth in digital shifts across
+              diverse sectors. Post-pandemic cases reflect the country’s
+              increased reliance on digital-friendly creations. In short,
+              Malaysia’s digital economy relies on big data, which increases the
+              demand for data science. Thus, with proven job opportunities, an
+              inclination toward a big data course in Malaysia is seen.
             </p>
             <p>
-              As the demand for upskilling increases, Learnbay’s top data
-              science courses take the central stage. Our industry-driven
-              training programs help you remain competitive and sustain for
-              longer. Besides skills upgrades, our premium training programs
-              make you apt to crack top-tier job interviews with leading MNCs.
+              Currently, many businesses in the country prefer data-driven
+              insights for operations and decision-making. This enlarges job
+              prospects in data science with infinite gains. Thus, working pros
+              opt for upskilling from the best institute for data science with
+              better job offers.
             </p>
             <p>
-              Today’s digital space believes in data-driven working methods like
-              data management, data mining, and predictive analytics-infused
-              problem-solving. Thus, employers across the globe search for
-              skillful data experts at every career level. Such job market
-              shifts encourage experts to rethink their career paths with better
-              offers. A data science course with cutting-edge career-building
-              gains is helpful.
+              Learnbay’s data science training in Malaysia grabs everyone’s
+              focus who is eager to grow in their career. Our leading-edge
+              course syllabus extends valuable support to data experts.
+              Following the current trends, we offer exclusive data science
+              training with GenAI-rich tools and practices.
             </p>
             <p>
-              Yet, generic course modules with less realistic touch limit career
-              progress somewhat. Unlike standard courses, our{" "}
-              <b>data science course syllabus</b> crafts a definite career with
-              proven skills.
+              Amidst the tech shifts, most employers look for proven data skills
+              to thrive across industry rivalry. So, we are here to guide you
+              through real-world business issues with tactical solutions. The
+              best data science course in Malaysia with a practical learning
+              scope elevates success chances more. You can learn and practice
+              the data science tools via live projects in your domain.
             </p>
             <p>
-              Upskilling with our data science online course helps you develop
-              in-demand skills to thrive in today’s competitive career race.
-              Working pros at early to senior career levels can enroll in the
-              best data science courses to attain success. In addition,
-              certificates from IBM & Microsoft and a master’s degree (Woolf
-              University) uplift the career value.
+              Data science is an economically growing sector for working pros at
+              various career levels. A data scientist in Malaysia on average
+              earns MYR 15,000 per month. It can vary per the work experience,
+              domain, and skill set.
+            </p>
+            <p>
+              Joining a generic course can limit growth and career success
+              chances. Thus, enrolling in an industry-driven program with job
+              support can help you.
             </p>
 
             <p>
-              <b>
-                Our trending data science courses with elite career gains are
-                here –
-              </b>
+              Upskilling with our data science certificate programs will never
+              demean your career. Our positive support for your career building
+              ends once you land your dream job role. Industry-led job assist
+              programs support your career shift decision at every step.
             </p>
 
-            <ul>
+            <p>
+              Plus, the data science program in Malaysia equips you with
+              valuable certifications (with global recognition) from IBM &
+              Microsoft. Enroll in our course today and hone your skills to
+              attain proven career success.
+            </p>
+            <p>
+              So, if you are eager to redefine your career in the data science
+              field, enroll in Learnbay’s{" "}
               <a
-                style={{ color: "#2D9CD7", fontWeight: "600" }}
-                href="https://www.learnbay.co/datascience/data-science-certification-courses"
-                target="_blank"
-              >
-                <li>Data Science Foundation Program </li>
-              </a>
-              <a
-                style={{ color: "#2D9CD7", fontWeight: "600" }}
-                href="https://www.learnbay.co/datascience/data-science-ai-for-freshers"
-                target="_blank"
-              >
-                {" "}
-                <li>Data Science and AI Program for Freshers </li>
-              </a>
-
-              <a
-                style={{ color: "#2D9CD7", fontWeight: "600" }}
+                style={{ color: "#0072bc" }}
                 href="https://www.learnbay.co/datascience/advance-data-science-certification-courses"
                 target="_blank"
               >
-                <li>Advanced Data Science and AI Certification</li>
-              </a>
-
-              <a
-                style={{ color: "#2D9CD7", fontWeight: "600" }}
-                href="https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program"
-                target="_blank"
-              >
-                <li>Data Science and AI Master Certification Program </li>
-              </a>
-
-              <a
-                style={{ color: "#2D9CD7", fontWeight: "600" }}
-                href="https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs"
-                target="_blank"
-              >
-                <li>Master’s Degree in CS: Data Science and AI</li>
-              </a>
-            </ul>
-
-            <h4 style={{ fontSize: "20px" }}>
-              Best Data Science Courses Online in 2024
-            </h4>
-
-            <p>
-              Experts from diverse domains and professional backgrounds can
-              kick-start a growing career in data science. Understanding the
-              career goals and enrolling in a proven data science online
-              training is vital for success.
-            </p>
-            <p>
-              Experts eager to learn the basics of data science can enroll in
-              our foundation program. Whereas, Pros aspiring to leverage their
-              earning limits can opt for certification programs with better job
-              and placement offers. Likewise, working pros wishing to rebuild
-              their career on a global scale can go for a master’s program.
-            </p>
-
-            <p>
-              Our data science and artificial intelligence course offers a
-              360-degree career reshaping stage with in-detailed job-ready
-              programs. Plus, globally recognized certifications and master of
-              science degrees enrich the success limits with endless gains.
-            </p>
-            <b>
-              <p>Highlights of the Data Science Foundation Program</p>
-            </b>
-
-            <ul>
-              <li>Hybrid learning with affordable fees</li>
-              <li>An in-detailed learning of data science tools and trends</li>
-              <li>
-                Project Innovation Labs (Real-time learning via hands-on
-                capstone project)
-              </li>
-              <li>
-                Globally recognized certifications (IBM Course completion
-                certificate)
-              </li>
-              <li>Career Service PRO (100% Job and Placement Support)</li>
-              <li>Attractive hikes and job calls from leading MNCs</li>
-            </ul>
-
-            <p>
-              <b>Highlights of the Data Science and AI Program for Freshers</b>
-            </p>
-
-            <ul>
-              <li>Hybrid learning with affordable fees</li>
-              <li>1 MS (Microsoft) Certification</li>
-
-              <li>An in-detailed learning of data science and AI tools </li>
-              <li>
-                Project Innovation Labs (Real-time projects in the final year)
-              </li>
-              <li>
-                Globally recognized certifications (IBM Course completion
-                certificate)
-              </li>
-              <li>6-month Internship Certificate</li>
-              <li>Career Service PRO (100% Job and Placement Support)</li>
-              <li>Attractive hikes and job calls from leading MNCs</li>
-            </ul>
-
-            <p>
-              <b>Highlights of Advanced Data Science and AI Certification</b>
-            </p>
-            <ul>
-              <li>Hybrid learning with a flexible fee structure</li>
-              <li>GenAI-inclusive course syllabus</li>
-              <li>Project Innovation Labs (12+ Real-time projects)</li>
-              <li>
-                Globally recognized certifications (IBM Course completion
-                certificate, MS certificate, IBM Project certificate)
-              </li>
-              <li>Career Service PRO (100% Job and Placement Support)</li>
-              <li>Attractive hikes and job calls from leading MNCs</li>
-            </ul>
-            <p>
-              <b>
-                Highlights of Data Science and AI Master Certification Program
-              </b>
-            </p>
-            <ul>
-              <li>Hybrid training sessions with a flexible fee structure</li>
-              <li>GenAI-rich course modules (AI & Data Science)</li>
-              <li>Domain-specific training</li>
-              <li>Project Innovation Labs (12+ Real-time projects)</li>
-              <li>
-                Globally recognized certifications (IBM Course completion
-                certificate, MS certificate, 3 IBM Project certificates)
-              </li>
-              <li>Career Service PRO (100% Job Support)</li>
-              <li>Lucrative job offers from leading MNCs</li>
-            </ul>
-            <p>
-              <b>Highlights of a Master’s Degree in CS: Data Science and AI</b>
-            </p>
-            <ul>
-              <li>Hybrid training sessions from renowned experts</li>
-              <li>GenAI-rich course modules (AI & Data Science)</li>
-              <li>Domain-specific training </li>
-              <li>Project Innovation Labs (12+ Real-time projects)</li>
-              <li>
-                Globally recognized certifications (1 IBM project certificate)
-              </li>
-              <li>Globally accredited master’s degree from Woolf University</li>
-              <li>Effortless Immigration </li>
-              <li>Career Service PRO (100% Job Support)</li>
-              <li>Premium job offers from leading MNCs</li>
-            </ul>
-            <p>
-              Experts at any career level can opt for our data science training
-              institute and upgrade their skill sets as per the latest trends.
-              It's up to the learners and their career goals that help you
-              decide on the right data science course.
-            </p>
-            <h4 style={{ fontSize: "20px" }}>
-              Locate Our <b>Data Science Courses</b> Across the Globe!!
-            </h4>
-            <p>
-              At Learnbay, we believe in inclusive learning for notable career
-              growth. Data science is rapidly changing its dynamics and
-              welcoming working pros from diverse professions. We offer data
-              science course for beginners and experienced via our global
-              presence. Yes, you can locate us at prime global locations to
-              continue your career growth journey effortlessly.
+                best data science courses.
+              </a>{" "}
+              Before that, ensure the requisites –
             </p>
             <br />
-            <i>Our prime locations are –</i>
-            <p>
-              India, USA, UK, Dubai, Canada, Nigeria, Vietnam, Egypt, Australia,
-              South Africa, Malaysia, Singapore, Germany, Brazil, Netherlands,
-              France, Mexico, Kuwait, Switzerland, Sweden, Oman, South Korea,
-              China, and Bangladesh.
-            </p>
 
+            <ul>
+              <li>Basic numeric skills (Mathematics/Statistics) </li>
+              <li>Basic domain knowledge</li>
+            </ul>
+            <br />
             <p>
-              Experts eager to redefine their slow-paced careers can join our
-              data science training courses at these prime locations. It
-              elevates career growth chances with endless offers.
+              <b>
+                <i>Note:</i>
+              </b>{" "}
+              Anyone from computer science or non-technical fields can enroll in
+              our course. If you have a bachelor's degree in computer science,
+              management, or other fields, our data science programs are here to
+              level up your career.{" "}
             </p>
+            <br />
+            <h4 style={{ fontSize: "20px" }}>
+              What are the prime career benefits of Learnbay’s best data science
+              courses?
+            </h4>
+            <p>
+              Learnbay is well-known for its industry-specific training programs
+              in Malaysia. Data science careers in Malaysia are getting more
+              attractive, alluring many experts to rethink their career paths.
+            </p>
+            <p>
+              Meanwhile, our GenAI-driven upskilling in data science unlocks
+              ways toward successful career shifts. Learners will gain inclusive
+              learning space to work with the latest GenAI tools (ChatGPT) with
+              ethical practices.
+            </p>
+            <br />
+            <b>
+              {" "}
+              <i>Prime career gains are –</i>
+            </b>
+
+            <br />
+            <br />
+            <ul>
+              <li>
+                <b>
+                  <i>GenAI-rich upskilling:</i>
+                </b>{" "}
+                Learners get in-depth training on data science tools and trends
+                in the GenAI age.{" "}
+              </li>
+              <br />
+              <li>
+                <b>
+                  <i>Domain-specific training: </i>
+                </b>
+                We offer domain-driven data science training in Malaysia to help
+                you improve pre-existing skills.
+              </li>
+              <br />
+              <li>
+                <b>
+                  <i>Experimental learning:</i>
+                </b>{" "}
+                Experts with our data science course get hands-on learning of
+                tools via live projects. It expands knowledge limits with
+                industry-focused skills.{" "}
+              </li>
+              <br />
+              <li>
+                <b>
+                  <i>Global certifications: </i>
+                </b>
+                We offer the best data science certification with global-scale
+                job offers. Our certificates from IBM & MS unlock promising
+                career paths. You will get two IBM certifications (project and
+                course) and one MS certification.
+              </li>
+              <br />
+              <li>
+                <b>
+                  <i>100% job assistance: </i>
+                </b>
+                Learners get 100% job and placement support with end-to-end
+                skills growth and interviews.
+              </li>
+            </ul>
           </div>
         ) : (
           ""
@@ -3689,9 +3619,15 @@ const CitiesRight = ({
               undoubtedly considered the most important phenomenon for business
               growth in the <b>21st century</b>. Indeed, a{" "}
               <b>career in Data Science</b> is the most rewarding one.{" "}
-              <b>Data Science courses</b> are specifically created to help
-              aspiring data scientists secure their careers with the Data
-              Science foundation.
+              <a
+                style={{ color: "#0072bc" }}
+                href="https://www.learnbay.co/data-science-courses"
+                target="_blank"
+              >
+                <b>Data Science courses</b>
+              </a>{" "}
+              are specifically created to help aspiring data scientists secure
+              their careers with the Data Science foundation.
             </p>
             <p>
               Learnbay's <b>Data Scientist course</b> is designed to deliver
@@ -4581,8 +4517,14 @@ const CitiesRight = ({
                     <img src={src} alt={alt1} />
                     <img src={src22} alt={alt1} />
                     <img src={src33} alt={alt1} />
-                    {Dsonlymsatercer ? (<> <img src={src40} alt={alt3}/></>):(<></>)}
-                   
+                    {Dsonlymsatercer ? (
+                      <>
+                        {" "}
+                        <img src={src40} alt={alt3} />
+                      </>
+                    ) : (
+                      <></>
+                    )}
                   </>
                 ) : null}
               </div>
@@ -4639,6 +4581,9 @@ const CitiesRight = ({
               ) : (
                 ""
               )}
+              <p className={styles.pp}>{ModuleBot46}</p>
+              <p className={styles.pp}>{ModuleBot47}</p>
+              <p className={styles.pp}>{ModuleBot48}</p>
 
               {MasterModulelist ? (
                 <>
@@ -4881,6 +4826,8 @@ const CitiesRight = ({
           ) : (
             ""
           )}
+          <p className={styles.pp}> {JobBot001}</p>
+          <p className={styles.pp}> {JobBot002}</p>
 
           {showData && (
             <>
@@ -4893,7 +4840,12 @@ const CitiesRight = ({
               <p className={styles.pp}>{JobBot50} </p>
               <p className={styles.pp}>{JobBot35} </p>
               <p className={styles.pp}>{JobBot20} </p>
-              <i>{JobBot39}</i>
+              <p className={styles.pp}>{JobBot003} </p>
+              <p className={styles.pp}>{JobBot004} </p>
+
+              <b>
+                <i>{JobBot39}</i>
+              </b>
               <ul className={styles.pp}>
                 <li>{Joblist14}</li>
                 <li>{Joblist15}</li>
@@ -4901,7 +4853,7 @@ const CitiesRight = ({
                 <li>{Joblist17}</li>
               </ul>
               <p className={styles.pp}>{JobBotMasterBot4}</p>
-              <p className={styles.pp}>{JobBotMasterBot5}</p>
+              {/* <p className={styles.pp}>{JobBotMasterBot5}</p> */}
               <p className={styles.pp}>{JobBot40}</p>
               <p className={styles.pp} style={{ margin: "20px" }}>
                 {Jobspan}
@@ -4944,7 +4896,13 @@ const CitiesRight = ({
               ) : (
                 ""
               )}
+              <h4 style={{ fontSize: "20px" }}>{JobHead001}</h4>
+
               <p className={styles.pp}>{JobBotMasterBot5}</p>
+              <p className={styles.pp}>{JobBot007}</p>
+              <p className={styles.pp}>{JobBot005}</p>
+              <p className={styles.pp}>{JobBot006}</p>
+
               <br />
               <h4 style={{ fontSize: "20px" }}>{JobHead22}</h4>
               <p className={styles.pp}>{JobBot37} </p>
@@ -5010,7 +4968,7 @@ const CitiesRight = ({
             <div className={styles.ProjectsBotHead}>
               <div className={styles.ProjectsBotI}>
                 <img src={src2} alt={alt3}></img>
-               
+
                 <p className={styles.ppp}>{ProjectsH2}</p>
               </div>
               <p className={styles.pp}>{Projectsp2}</p>
