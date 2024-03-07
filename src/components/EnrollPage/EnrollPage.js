@@ -196,7 +196,7 @@ function EnrollPage({ label, ...rest }) {
             "Payment successful! Payment ID: " + response.razorpay_payment_id
           );
           // After successful payment, submit form data
-          router.push('/Thank-you');
+          router.push('/payment-success');
         },
       };
       const paymentObject = new window.Razorpay(options);
