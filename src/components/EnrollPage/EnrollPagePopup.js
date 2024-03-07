@@ -51,7 +51,7 @@ const EnrollPopup = ({
       )
       .then((response) => {
         console.log("Form submitted successfully to external endpoint!");
-        router.push('/Thank-you');
+        router.push(`/loan-process?course=${selectedProduct.name}&amount=${totalPrice}&date=${selectedDate}&time=${selectedTime}`);
       })
       .catch((error) => {
         console.error("Error submitting form:", error);
