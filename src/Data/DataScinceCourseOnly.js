@@ -862,40 +862,44 @@ export const DataScienceCourseData = [
           data: [
             {
               id: 0,
-              ques: "What are the prerequisites for the Advanced Data Science and AI Program?",
-              ans: "There are no prerequisites for Advanced Data Science and AI Program, as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+              ques: "How long does a typical data science course take to complete?              ",
+              ans: "Learnbay offers flexible data science training that typically ranges from 7 to 9 months (for certification courses) to 18 months (for master’s degree programs).               ",
+             list1:"Data Science Foundation – 4 months             ",
+             list2:"Data Science and AI Program for Freshers – 6 months             ",
+             list3:"Advanced Data Science and AI Certification – 7 months             ",
+             list4:"Data Science and AI Master Certification Program – 13 months,             ",
+             list5:"Master’s in CS: Data Science and AI – 18 months             ",
+             
               open: true,
+              dscoursefaq:true,
             },
             {
               id: 1,
-              ques: "What if I miss a few classes due to an emergency?",
-              ans: "In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch.",
+              ques: "What topics are covered in the curriculum of the data science course?              ",
+              ans: "",
+              list1:"Programming languages               ",
+              list2:"Python programming basics               ",
+              list3:"Statistics and Machine Learning              ",
+              list4:"Industry projects and capstone projects               ",
+              list5:"Deployment and Evaluation of AWS & Azure              ",
+              list6:"Generative AI tools and trends              ",
               open: false,
+              dscoursefaq1:true,
+              
             },
             {
               id: 2,
-              ques: "What is a Flexi Subscription in the Advance Data Science and AI Program?",
-              ans: `Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+              ques: "Can I attend classes online, or is it only available in a physical classroom?              ",
+              ans: `We offer live instructor-led data science training sessions at Learnbay. You upskill with the best institute for data science with an industry-led course curriculum. You can opt for online or offline sessions as per your working schedules and flexibility.               `,
               open: false,
             },
             {
               id: 3,
-              ques: "What’s the duration of the Advance Data Science and AI Program?",
-              ans: "The duration of this course is about 9 months (275 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch – 7 months, Monday to Friday – 2 hours/day, Weekend batch – 9 months, Saturday & Sunday – 3.5 hours/day",
+              ques: "Do you offer flexibility in scheduling for working professionals?              ",
+              ans: "Yes, we offer a flexible learning platform for working professionals in any domain to maintain a work-learn balance. Learners get a hybrid learning facility here, and they can choose their batch timings (weekday or weekend) at their convenience to upskill with data science programs.               ",
               open: false,
             },
-            {
-              id: 4,
-              ques: "What is the mode of training at Learnbay?",
-              ans: "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.",
-              open: false,
-            },
-            {
-              id: 5,
-              ques: "How can I opt for a Hybrid mode of learning?",
-              ans: "Simply, you can choose an online mode of study for the theoretical classes and classroom mode for all the capstone projects and interview preparation sessions.",
-              open: false,
-            },
+          
           ],
         },
         {
@@ -904,46 +908,30 @@ export const DataScienceCourseData = [
           data: [
             {
               id: 0,
-              ques: "What is domain specialization?",
-              ans: "We offer industry-specific full-stack data science modules, via which you learn the respective industry’s best practices.",
+              ques: "How do I decide which domain elective is the best fit for my career goals?              ",
+              ans: "If you are confused about which domain elective to select for the best career transition, reach out to Learnbay’s career consultants at +91 7795687988. A career counselor will have a 1:1 discussion with you before enrolling and guide you through current industry trends.               ",
               open: true,
             },
             {
               id: 1,
-              ques: "What are the available elective domain options?",
-              ans: "Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc.",
+              ques: "Are the domain electives updated to reflect industry trends?              ",
+              ans: "Yes, domain electives and associated projects are updated according to industry trends. Domain electives are inspired by the sectors that are trending with attractive job offers for data scientists and have been thriving in recent years.               ",
               open: false,
             },
             {
               id: 2,
-              ques: "Which domain elective is best suited for me?",
-              ans: `You can select your domain based on your prior work experience, academics, and career goals.`,
+              ques: "What are the domain electives offered in the data science course?              ",
+              ans: ` Learnbay’s data science course offers 6 domain electives, and you can choose anyone from them to continue upskilling. Electives are –               `,
+              list1:"BFSI            ",
+              list2:"HR           ",
+              list3:"Marketing            ",
+              list4:"Manufacturing              ",
+              list5:"Healthcare              ",
+              list6:"Supply Chain              ",
               open: false,
+              dscoursefaq1:true
             },
-            {
-              id: 3,
-              ques: "Why is domain specialization important?",
-              ans: "After enrolling in the AI and ML with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge which is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.",
-              open: false,
-            },
-            {
-              id: 4,
-              ques: "Can I select multiple domain electives and do I need to pay extra charges?",
-              ans: "You can select up to 4 domain electives based on your interest and career goals. No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.",
-              open: false,
-            },
-            {
-              id: 5,
-              ques: "What if I don’t have any prior experience in any domain?",
-              ans: "If you don’t have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.",
-              open: false,
-            },
-            {
-              id: 6,
-              ques: "Can I change my domain electives later?",
-              ans: "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration.",
-              open: false,
-            },
+         
           ],
         },
         {
@@ -952,39 +940,38 @@ export const DataScienceCourseData = [
           data: [
             {
               id: 0,
-              ques: "What is the total Fee for the Advanced Data Science and AI Program?",
-              ans: "The total program fee for the Advanced Data Science and AI Program with Domain Specialization is INR 99,000 + 18% GST.",
-              open: true,
+              ques: "How much does a data science course cost, and are there any installment options?              ",
+              ans: "The data science course fees sum to ₹70,000 – ₹250,000 + 18% GST. You will have an installment facility, where you just have to pay a fixed amount per month. One can make payments through credit card, UPI, or internet banking.               ",
+              
+              list1:"Data Science Foundation – ₹70,000 + 18% GST              ",
+              list2:"Data Science and AI Program for Freshers – ₹70,000 + 18% GST              ",
+              list3:"Advanced Data Science and AI Certification – ₹99,000 + 18% GST              ",
+              list4:"Data Science and AI Master Certification Program – ₹129,000 + 18% GST              ",
+              list5:"Master’s in CS: Data Science and AI – ₹250,000 + 18% GST              ",
+           
+              open: false,
+              dscoursefaq1:true,
             },
             {
               id: 1,
-              ques: "Can I pay in installments for the Advanced Data Science and AI Program?",
-              ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 6,490/month up to 18 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+              ques: "Do you offer any scholarships, discounts, or financial assistance programs?              ",
+              ans: "Learnbay offers flexible financing options for paying data science course fees. You can either opt for no-cost EMI, installments, or interest-free loans to pay the fees within 12 months.",
+              list2:"We also offer a 15% – 20% discount for early birds occasionally. Yet, a group discount is available for the learners who join with one or more friends.               ",
+              list3:"Group of 2: 5% extra discount              ",
+              list4:"Group of 3: 8% additional discount              ",
+              list5:"Group of 4+: Max 10% discount              ",
+           
               open: false,
+              dscoursefaq1:true,
+
             },
             {
               id: 2,
               ques: "Is there any scholarship/discount available for Advanced Data Science and AI Program? What is Group Discount?",
-              ans: `Learnbay offers a 15 – 20% scholarship for early birds occasionally.
-              Please check our website or contact our sales team to know more about the applicable discounts.
-              
-              Group Discount :
-              Group Discount is applicable only if you’re joining with your friends.
-              5% extra discount : Group of 2,
-              8% extra discount : Group of 3,
-              Max 10% discount : Groupe of 4+.`,
+              ans: `Learners opting for the data science course at Learnbay are advised to go through its Refund/Cancellation Policy before enrolling. As mentioned in the policy, learners can withdraw their data science fees.               `,
               open: false,
             },
-            {
-              id: 3,
-              ques: "What is the refund policy for the Advanced Data Science and AI Program at Learnbay?",
-              ans: "Candidates are advised to read  ",
-              linkText1: "Learnbay’s Refund/Cancellation Policy",
-              link1: "/refund-cancellation-policy",
-              ansAfter: " before enrolling in the program.",
-              link: true,
-              open: false,
-            },
+       
           ],
         },
         {
@@ -993,14 +980,14 @@ export const DataScienceCourseData = [
           data: [
             {
               id: 0,
-              ques: "How many capstone projects will be there?",
-              ans: "In this course, you’ll be required to work on 1 fresh capstone projects. This will help you get exposure to hands-on projects by implementing your theoretical knowledge gained throughout the training.",
+              ques: "What is a capstone project, and how does it work?              ",
+              ans: "A capstone project is a way of evaluating the practical learning and expertise of professionals with real-world cases. A capstone project is developed on a specific topic, subject, or field to assess a learner’s ability to tackle the issues in real-time. These projects are generally group projects where learners work on specific tasks under a mentor’s supervision.               ",
               open: true,
             },
             {
               id: 1,
-              ques: "How many real-time projects will be there?",
-              ans: "We have a set of 12 Real-time projects from multiple domains such as Healthcare, Banking, Finance, Insurance, Retail, and others. Based on your interest you can choose your project to work on.",
+              ques: "Are real-time projects included in the course?              ",
+              ans: "Yes, this course consists of real-time projects to refine the existing skill sets of learners. Based on the expertise and domain elective, a learner is assigned real-time projects to practice with learned data science tools and trends.               ",
               linkText1: " Click here to download the list of the projects.",
               link1:
                 "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
@@ -1009,8 +996,8 @@ export const DataScienceCourseData = [
             },
             {
               id: 2,
-              ques: "How will the project be executed?",
-              ans: `At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.`,
+              ques: "Can I choose my capstone project?              ",
+              ans: `Yes, you can. After enrolling, learners can opt for their desired domain electives and continue upskilling. Learners can select their capstone project as per their domain electives. Then, they are assigned their project group to accomplish the given tasks under the guidance of industry experts.               `,
               open: false,
             },
           ],
@@ -1101,15 +1088,21 @@ export const DataScienceCourseData = [
           data: [
             {
               id: 0,
-              ques: "When is the job assistance provided and how long will I get it?",
+              ques: "How can I get technical support during the course?              ",
   
-              ans: "At Learnbay, placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+              ans: "Learnbay is available 24/7 to provide uninterrupted technical assistance. You can call the helpline number to reach the desired service providers to help you out with any technical issues (login, sessions, projects, chat, or course materials) with the course training platform or Learnbay application.               ",
               open: true,
             },
             {
               id: 1,
-              ques: "How long will I get Job referrals?",
-              ans: "You’ll be provided with job referrals after the completion of the course for a period of 1 year.",
+              ques: "Is there a discussion forum or community for students?              ",
+              ans: "Learners will get access to a customized ‘Learnbay App’ where batch-wise students are added along with their mentors. They can directly reach out to their mentors to resolve queries (related to coursework, projects, & placement) in case of need and also discuss doubts with peers.               ",
+              open: false,
+            },
+            {
+              id: 2,
+              ques: "What if I miss a class or need to catch up on a topic?              ",
+              ans: "Learnbay offers live-instructor-led training sessions that are also recorded for future use. In case, you miss a class, you have access to pre-recorded sessions to go through the learnings. If you wish to catch up on a topic or clarify some doubts, our mentors are available 24/7 on call/chat. Apart from this, if you find difficulties in managing your class timings and miss them, you can request for batch or timing change.               ",
               open: false,
             },
           ],
