@@ -183,7 +183,7 @@ export default function Home() {
         />
         <meta
           name="twitter:description"
-          content="Enroll for Data Science Course and Certification Training in Pune from Learnbay in association with IBM. This Data Scientist course in Pune will give you hands-on experience with technologies and job assistance.
+          content="Enroll for Data Science Course and Certification Training in Malaysia from Learnbay in association with IBM. This Data Scientist course in Malaysia will give you hands-on experience with technologies and job assistance.
 "
         />
         <meta
