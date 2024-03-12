@@ -121,7 +121,7 @@ function FAQ({ FaqData }) {
                     <></>
                   )}
                   {dscoursefaq1 ? (
-                    <>
+                    <><br />
                       <span>{list1}</span> <br />
                       <span>{list2}</span> <br />
                       <span>{list3}</span> <br />

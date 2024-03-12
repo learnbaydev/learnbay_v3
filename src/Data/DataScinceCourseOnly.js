@@ -1008,21 +1008,11 @@ export const DataScienceCourseData = [
           data: [
             {
               id: 0,
-              ques: "Is there any accredited certification after course completion?",
-              ans: "Yes, you will be awarded 6 separate IBM accredited Certificates on successful course completion.",
+              ques: "Is the certification internationally recognized?              ",
+              ans: "Learnbay offers internationally recognized data science certifications. Learners get dual certification after successful completion of the course – an IBM project certificate & two IBM & Microsoft course completion certificates.                ",
               open: true,
             },
-            {
-              id: 1,
-              ques: "What categories of certifications might I expect to receive?",
-              ans: `Python for Data Science Certificate,
-              Data Science Tools,
-              Machine Learning with Python,
-              Data Science Methodology,
-              Data Science and AI (final),
-              Capstone Project Certificate by IBM`,
-              open: false,
-            },
+          
           ],
         },
         {
@@ -1103,6 +1093,12 @@ export const DataScienceCourseData = [
               id: 2,
               ques: "What if I miss a class or need to catch up on a topic?              ",
               ans: "Learnbay offers live-instructor-led training sessions that are also recorded for future use. In case, you miss a class, you have access to pre-recorded sessions to go through the learnings. If you wish to catch up on a topic or clarify some doubts, our mentors are available 24/7 on call/chat. Apart from this, if you find difficulties in managing your class timings and miss them, you can request for batch or timing change.               ",
+              open: false,
+            },
+            {
+              id: 3,
+              ques: "How can I contact your support team for non-technical issues?            ",
+              ans: "Learnbay is available 24/7 to support its learners. For non-technical issues, you can contact our team or learning consultant directly at +91 7795687988 and get your queries resolved shortly.           ",
               open: false,
             },
           ],

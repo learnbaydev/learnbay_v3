@@ -27,7 +27,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/advance-data-science-certification-courses"
+          href="https://www.learnbay.co/data-science-courses"
         />
       </Head>
       <main>
