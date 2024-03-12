@@ -89,6 +89,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData,  }) => {
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ds-fs.webp"
         videoId="djokazk1d-0"
         DSWolf={true}
+       softwareBtnHide={true}
       />
 
       <Course
