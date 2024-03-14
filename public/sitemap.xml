@@ -11,6 +11,11 @@
 		<priority>1.00</priority>
 	</url>
 	<url>
+		<loc>https://www.learnbay.co/data-science-courses</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.90</priority>
+	</url>
+	<url>
 		<loc>https://www.learnbay.co/datascience/advance-data-science-certification-courses</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.90</priority>
@@ -431,4 +436,10 @@
 		<changefreq>daily</changefreq>
 		<priority>0.70</priority>
 	</url>
+	<url>
+		<loc>https://www.learnbay.co/cloud&amp;devops/cloud-computing-and-devOps-certification-program</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+	
 </urlset>

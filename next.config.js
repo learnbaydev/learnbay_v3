@@ -825,7 +825,7 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/data-science-course/tag/learbay",
+        source: "/data-science-course/tag/Learnbay",
         destination: "https://www.learnbay.co/",
         permanent: true,
       },
