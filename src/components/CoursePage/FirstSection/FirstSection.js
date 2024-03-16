@@ -32,6 +32,9 @@ function FirstSection({
   downloadBrochure, 
   fullStack, 
   DSWolf,
+  backgorunimg,
+  isSpecialPage,
+  isguwati,
   
 }) {
   const [popups, setPopups] = useState(false);
@@ -73,6 +76,9 @@ interstedInHide={interstedInHide}
         topHide={topHide}
         IBMGl={IBMGl}
         fresher={fresher}
+        isSpecialPage={isSpecialPage}
+        backgorunimg ={backgorunimg }
+        isguwati={isguwati}
 
         
  

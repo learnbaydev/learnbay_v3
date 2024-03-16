@@ -4,6 +4,7 @@ import { FaYoutube } from "react-icons/fa";
 import Button from "../../Global/Button/Button";
 import styles from "./FirstSection.module.css";
 import Form from "../../Global/Form/Form";
+import Link from "next/link";
 
 // const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
@@ -34,6 +35,9 @@ const FirstContent = ({
   radio,
   topHide,
   fresher,
+  backgorunimg ,
+  isSpecialPage,
+  isguwati,
 }) => {
   const texts = [
     "Guaranteed Interview Calls",
@@ -101,21 +105,23 @@ const FirstContent = ({
     display: none !important;
   }
 `;
-  // const containerStyle = {
-  //   backgroundImage:
-  //     'url("https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/first-background.webp")',
-  //   backgroundSize: "cover",
-  //   backgroundPosition: "center",
-  // };
+  const containerStyle = {
+    backgroundImage:
+      'url("https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/excutive-bg.webp")',
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  };
   // const youtubeVideoUrl = `https://www.youtube.com/watch?v=${videoId}`;
 
   return (
     <>
       <style>{customStyles}</style>
-      <div className={styles.First}>
+      <div className={styles.First} style={backgorunimg ? containerStyle : {}}>
         <div className={styles.FirstLeft}>
           {topHide ? "" : <p className={styles.ptopC}>{firstTopPara}</p>}
-          <h1 className={styles.h1}>
+          <h1 className={`${styles.h1} ${isSpecialPage ? styles.specialPageH1 : ""}`}>
+
+
             {firstHeading}{" "}
             <span className={styles.h1Span}>{firstToparaImg}</span>
           </h1>
@@ -126,7 +132,13 @@ const FirstContent = ({
             <>
               <div className={ibmOnly ? styles.DAibm : styles.Desktop}>
 
-                {DSWolf ? (<> 
+                {isguwati ? (<>  <p className={styles.ptop}>In Collaboration With</p> <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/iit-guwati.webp"
+                      width="220"
+                      height="50"
+                      priority
+                      alt="data science course"
+                    /></>):(<> {DSWolf ? (<> 
                   <p className={styles.ptop}>Degree & Certification(s)</p>
                 <div className={styles.ImageBlock}>
                 
@@ -159,7 +171,9 @@ const FirstContent = ({
                     />
                   )}
                  
-                </div></>)}
+                </div></>)}</>)}
+
+               
                
 
 
@@ -167,8 +181,15 @@ const FirstContent = ({
               </div>
 
 
+              {isguwati ? (<>
+              <div className={styles.twodiv}>
+             <div className={styles.divone}><span>⬤</span> flexible timing</div>
+             <div className={styles.divone}><span>⬤</span> on-demand doubt clearing</div>
+
+              </div>
               
-              {fresher ? (
+              
+              </>):(<> {fresher ? (
                 <div className={styles.animationTextWrap}>
                 
                   
@@ -201,9 +222,22 @@ const FirstContent = ({
                     </div>
                   )}
                 </>
-              )}
-
-              <div className={styles.btnImage}>
+              )}</>)}
+             
+{isguwati ?(<><div className={styles.btnImage}>
+                <div onClick={popupShow}>
+                  <Button bannerButton={true} text="EXPLORE SYLLABUS" />
+                </div>
+                {softwareBtnHide ? (
+                  ""
+                ) : (
+                  <Link href="/master-application">
+                  <div className={styles.btnImage}>
+                   <Button whiteBgButton={true} text="START MY APPLICATION" />
+                  </div>
+                  </Link>
+                )}
+              </div></>):(   <div className={styles.btnImage}>
                 <div onClick={popupShow}>
                   <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
                 </div>
@@ -214,7 +248,11 @@ const FirstContent = ({
                     INTRO VIDEO <FaYoutube className={styles.IconYou} />
                   </div>
                 )}
-              </div>
+              </div>)}
+              
+
+
+           
             </>
           )}
         </div>

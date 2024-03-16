@@ -29,7 +29,7 @@
     align-items: center;
     padding: 20px;
     background-image: linear-gradient(#0080FF17, #0080FF0A);
-    border-radius: 8px;
+    border-radius: 60px;
 }
 .box1 h4 {
   color: #0072BC;
@@ -96,7 +96,7 @@ margin-top: 0px;
     /* border: solid 2px; */
     align-items: center;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 60px;
   
   background: linear-gradient(180deg, rgba(249, 150, 0, 0.09) 0%, rgba(249, 150, 0, 0.04) 100%);
 
@@ -165,7 +165,7 @@ line-height: 243%;/* 53.46px */
     /* border: solid 2px; */
     align-items: center;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 60px;
 background: linear-gradient(180deg, rgba(45, 182, 33, 0.09) 0%, rgba(45, 182, 33, 0.04) 100%);
 }
 .box3  h4 {
