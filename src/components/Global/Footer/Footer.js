@@ -1,6 +1,6 @@
 import styles from "../Footer/Footer.module.css";
 import { IoMailSharp } from "react-icons/io5";
-import { BsFillTelephoneFill } from "react-icons/bs";
+import { BsFillTelephoneFill, BsTwitterX } from "react-icons/bs";
 import Link from "next/link";
 import Image from "next/image";
 import React from "react";
@@ -76,7 +76,7 @@ const Footer = ({
           ) : (
             <div className={styles.FooterSocial}>
               <a href="https://twitter.com/Learnbay" target="_blank">
-                <FaTwitter className="bIcons" />
+              <BsTwitterX className="bIcons" />
               </a>
               <a href="https://www.facebook.com/learnbay/" target="_blank">
                 <FaFacebookF className="bIcons" />
