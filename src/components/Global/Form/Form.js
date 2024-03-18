@@ -166,16 +166,26 @@ const Form = ({
   };
 
   const fetchLocation = async () => {
-    const response = await fetch("https://ipinfo.io/json?token=a0d76b66419a6c");
-    if (!response.ok) {
-      throw new Error(
-        `Failed to fetch location: ${response.status} ${response.statusText}`
+    try {
+      const response = await fetch(
+        "https://ipinfo.io/json?token=a0d76b66419a6c"
       );
+      if (!response.ok) {
+        throw new Error(
+          `Failed to fetch location: ${response.status} ${response.statusText}`
+        );
+      }
+      const data = await response.json();
+      console.log("API Response:", data);
+      const { country, region, city } = data;
+      // If city is not available, provide a default value or placeholder
+      const finalCity = city ? city : "Unknown";
+      return { country, region, city: finalCity };
+    } catch (error) {
+      console.error("Error fetching location:", error.message);
+      // If there's an error fetching location data, return default or placeholder values
+      return { country: "Country Undefined", region: "Region Undefined", city: "City Undefined" };
     }
-    const data = await response.json();
-    console.log("API Response:", data);
-    const { country, region, city } = data;
-    return { country, region, city };
   };
   return (
     <div className={styles.App}>
