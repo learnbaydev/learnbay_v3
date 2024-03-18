@@ -11,6 +11,7 @@ import HomeLine from "@/components/Home/HomeLine/HomeLine";
 import styles from "@/components/CoursePage/FirstSectionDmd/FirstSection.module.css";
 import MentorsSection from "@/components/Global/MentorsSection/MentorsSection";
 import Media from "@/components/Home/Media/Media";
+import DmdPopup from "@/components/Dmd/Popup/DmdPopup";
 const FirstSection = dynamic(() =>
   import("@/components/CoursePage/FirstSectionDmd/FirstSection")
 );
@@ -129,6 +130,7 @@ const DmdPart = ({
   DomainInput={true}
       />
       <HomeLine />
+
       <Transpro />
       <div className={styles.Margin}>
       <Course  
@@ -142,6 +144,7 @@ const DmdPart = ({
       interstedInHide={true}
 
         />
+              <DmdPopup/>
         </div>
       <Certificate data={CertificateData}    className={styles.coursegap}/>
      <Webinar/>

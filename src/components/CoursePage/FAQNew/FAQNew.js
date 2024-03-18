@@ -7,7 +7,7 @@ import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper";
 
-function FAQNew({ FAQNewData }) {
+function FAQNew({ FAQNewData, dscoursefaq }) {
   // const [mobile, setMobile] = useState(false);
   const [dataLoop, setDataLoop] = useState([
     { title: "Course Related", value: true },
@@ -57,6 +57,9 @@ function FAQNew({ FAQNewData }) {
                   key={index}
                 >
                   {data.sectionName}
+             
+                
+                  
                 </span>
               );
             })}
@@ -65,7 +68,7 @@ function FAQNew({ FAQNewData }) {
             const { data } = dataF;
             return dataLoop[index].value ? (
               <div className={styles.gridPanel} key={index}>
-                <FAQ FaqData={data} />
+                <FAQ FaqData={data}/>
               </div>
             ) : (
               ""
@@ -127,7 +130,7 @@ function FAQNew({ FAQNewData }) {
           const { data } = dataF;
           return dataLoop[index].value ? (
             <div className={styles.gridPanel} key={index}>
-              <FAQ FaqData={data} />
+              <FAQ FaqData={data}  />
             </div>
           ) : (
             ""

@@ -209,7 +209,7 @@ export default function Home() {
               },
               "sameAs": [
                   "https://www.facebook.com/learnbay/",
-                            "https://twitter.com/Learbay",
+                            "https://twitter.com/Learnbay",
                             "https://www.instagram.com/learnbayofficial/",
                             "https://www.youtube.com/channel/UC-ntE_GnjjiUuKYqih9ENYA",
                             "https://www.linkedin.com/company/learnbay/"

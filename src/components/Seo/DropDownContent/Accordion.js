@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styles from "./Accordion.module.css"; // Import your CSS module
 import { MdArrowDropDown } from "react-icons/md";
 import Image from "next/image";
+import Link from "next/link";
 
 const Accordion = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -616,9 +617,11 @@ const Accordion = () => {
             </div>
             
           </div>
-          <div style={{display:"flex", justifyContent:"center", alignContent:"center", alignItems:"center"}}>
-          <button style={{fontSize:"12px", padding:"10px 16px", background:"#0072bc", border:"none", color:"#fff", borderRadius:"6px"}} >View All Projects</button>
+          <Link href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf" target="_blank">
+          <div style={{display:"flex", justifyContent:"center", alignContent:"center", alignItems:"center", cursor:"pointer"}}>
+          <button  style={{fontSize:"12px", padding:"10px 16px", background:"#0072bc", border:"none", color:"#fff", borderRadius:"6px", cursor:"pointer" }} >View All Projects</button>
           </div>
+          </Link>
         </>
       ),
     },

@@ -25,6 +25,14 @@ function FAQ({ FaqData }) {
           id,
           ques,
           ans1,
+          dscoursefaq,
+          dscoursefaq1,
+          list1,
+          list2,
+          list3,
+          list4,
+          list5,
+          list6,
           ans,
           open,
           link1,
@@ -58,9 +66,15 @@ function FAQ({ FaqData }) {
                 <h2>{ques}</h2>
                 <span>
                   {open ? (
-                    <FaMinusCircle className={styles.iconMinus} style={ {fontSize: "18px"} }/>
+                    <FaMinusCircle
+                      className={styles.iconMinus}
+                      style={{ fontSize: "18px" }}
+                    />
                   ) : (
-                    <FaPlusCircle className={styles.iconPlus} style={ {fontSize: "18px"} }/>
+                    <FaPlusCircle
+                      className={styles.iconPlus}
+                      style={{ fontSize: "18px" }}
+                    />
                   )}
                 </span>
               </div>
@@ -69,9 +83,15 @@ function FAQ({ FaqData }) {
                 <h2>{ques}</h2>
                 <span>
                   {open ? (
-                  <FaMinusCircle className={styles.iconMinus} style={ {fontSize: "18px"} }/>
+                    <FaMinusCircle
+                      className={styles.iconMinus}
+                      style={{ fontSize: "18px" }}
+                    />
                   ) : (
-                    <FaPlusCircle className={styles.iconPlus} style={ {fontSize: "18px"} }/>
+                    <FaPlusCircle
+                      className={styles.iconPlus}
+                      style={{ fontSize: "18px" }}
+                    />
                   )}
                 </span>
               </div>
@@ -86,9 +106,37 @@ function FAQ({ FaqData }) {
               >
                 <p>
                   {ans}
+
+                  {dscoursefaq ? (
+                    <>
+                      {" "}
+                      <br /> <br />
+                      <span>{list1}</span> <br />
+                      <span>{list2}</span> <br />
+                      <span>{list3}</span> <br />
+                      <span>{list4}</span> <br />
+                      <span>{list5}</span> <br />
+                    </>
+                  ) : (
+                    <></>
+                  )}
+                  {dscoursefaq1 ? (
+                    <><br />
+                      <span>{list1}</span> <br />
+                      <span>{list2}</span> <br />
+                      <span>{list3}</span> <br />
+                      <span>{list4}</span> <br />
+                      <span>{list5}</span> <br />
+                      <span>{list6}</span> <br />
+                    </>
+                  ) : (
+                    <></>
+                  )}
+
                   <a href={link1} target="_blank" className={styles.link}>
                     {linkText1}
                   </a>
+
                   <a href={link2} target="_blank" className={styles.link}>
                     {linkText2}
                   </a>
