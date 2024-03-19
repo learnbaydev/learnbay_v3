@@ -316,22 +316,22 @@ export const CloudAndDevOpsCourseData = [
                     ],
                   },
                 },
-                {
-                  chap: {
-                    title: "Module 5  :- Python for Data Science (Introductory)",
-                    desc: [
-                      "Introduction to NumPy and Pandas Libraries",
-                      "Basic Data Analysis and Manipulation",
-                      "Visualization with Matplotlib and Seaborn",
+                // {
+                //   chap: {
+                //     title: "Module 5  :- Python for Data Science (Introductory)",
+                //     desc: [
+                //       "Introduction to NumPy and Pandas Libraries",
+                //       "Basic Data Analysis and Manipulation",
+                //       "Visualization with Matplotlib and Seaborn",
                      
                      
                       
-                    ],
-                  },
-                },
+                //     ],
+                //   },
+                // },
                 {
                   chap: {
-                    title: "Module 6 :- Project Work and Practice",
+                    title: "Module 5 :- Project Work and Practice",
                     desc: [
                       "Hands-on sessions with Python scripting and automation projects",
                       "Real-world problem-solving using Python",
@@ -1020,6 +1020,33 @@ export const CloudAndDevOpsCourseData = [
                     desc: [
                       "Writing Terraform scripts for automated infrastructure deployment.",
                       "Managing and scaling infrastructure with Terraform.",
+                    ],
+                  },
+                },
+
+                {
+                  chap: {
+                    title:
+                      "Module 9:- AWS Devops",
+                    desc: [
+                      "Code Commit",
+                      "Code Build",
+                      "Code Deploy",
+                      "Code Pipeline",
+                    ],
+                  },
+                },
+                {
+                  chap: {
+                    title:
+                      "Module 10:- Azure Devops",
+                    desc: [
+                      "Introduction to Microsoft Azure",
+                      "Introduction to DevOps",
+                      "Azure DevOps and Azure Repos",
+                      "Azure Artifacts and Azure Test Plans",
+                      "Azure Pipelines",
+                      "Azure Boards",
                     ],
                   },
                 },
