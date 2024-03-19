@@ -1,5 +1,5 @@
 import styles from "./Certificate.module.css";
-import CertificateTabAdvance from "./CertificateTabAdvance";
+import CertificateTabAdvance from "../../CoursePage/Certificate/CertificateTabAdvance";
 
 const Certificate = ({
   NoCertificate,
@@ -25,6 +25,7 @@ const Certificate = ({
         microCertificate={data.microCertificate}
         data={data}
         OnlyDS={OnlyDS}
+        
       />
     </div>
   );

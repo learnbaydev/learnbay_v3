@@ -2,6 +2,10 @@
   background-color: red;
  
 }
+.FirstLeft  .specialPageH1 {
+  /* Styles for h1 on the special page */
+  font-size: 45px; /* Example larger font size */
+}
 
 .form {
 width: 100%;
@@ -234,7 +238,22 @@ width: 100%;
   color: red;
   font-size: 30px;
 }
+.twodiv{
 
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  color: #fff;
+  margin: 40px 0px;
+}
+.divone{
+  border-radius: 10px;
+background: linear-gradient(270deg, rgba(249, 150, 0, 0.40) 0%, rgba(249, 150, 0, 0.00) 100%);
+padding: 5px 15px; 
+}
+.divone span {
+  color: #F99600;
+}
 @media (max-width: 1281px) {
   .First {
     padding: 40px 80px;
@@ -460,4 +479,28 @@ width: 100%;
     justify-content: center;
     margin: 40px 10px;
   }
+  .twodiv{
+    flex-direction: column;
+    /* display: block; */
+    margin: 30px 130px 0px 11px;
+    gap: 20px;
 }
+.divone{
+  padding: 14px;
+}
+
+.ptoptwo{
+color: #fff;
+  margin-left: 22px;
+  margin-bottom: 10px;
+}
+.imgguwati{
+  margin: 0px 183px 0px 0px;
+}
+.FirstLeft  .specialPageH1 {
+  /* Styles for h1 on the special page */
+  font-size: 35px; /* Example larger font size */
+}
+
+
+  }

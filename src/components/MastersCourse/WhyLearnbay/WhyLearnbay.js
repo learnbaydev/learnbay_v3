@@ -23,7 +23,7 @@ import "swiper/css/free-mode";
 import "swiper/css/scrollbar";
 import Button from "../../Global/Button/Button";
 
-function WhyLearnbay({ idss }) {
+function WhyLearnbay({ idss, NoGuwati  }) {
   const [domainSpec, setDomainSpec] = useState(false);
   const [projectInno, setProjectInno] = useState(true);
   const [projectCert, setProjectCert] = useState(false);
@@ -98,6 +98,7 @@ function WhyLearnbay({ idss }) {
               />
               Domain Specialization
             </p>
+            
           </div>
         </div>
 
@@ -268,14 +269,24 @@ function WhyLearnbay({ idss }) {
           <div className={Styles.RightSide}>
             <div className={Styles.firstBox}>
               <div className={`${Styles.topImg} imgWrapper`}>
-                <Image
+
+                {NoGuwati ? ( <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/certificate-guwati.webp"
+                  loading="lazy"
+                  width="200"
+                  height="212"
+                  alt="profile-Img"
+                  // onClick={() => videoSHow()}
+                />):( <Image
                   src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/certificate/degree-woolf.webp"
                   loading="lazy"
                   width="200"
                   height="212"
                   alt="profile-Img"
                   // onClick={() => videoSHow()}
-                />
+                />)}
+               
+
               </div>
               <div className={Styles.BlueBox}>
                 <FaRocket className={Styles.Icon} />
