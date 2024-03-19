@@ -92,20 +92,21 @@ const ExecutiveSecondPart = ({
                 mobImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Mobile-Tools-Covered.png"
             />
             <Certificate data={CertificateData}
-                Imgno={true}certificatedivide={true}
+            Imgno ={true}
+          isguwati={true}
 
             />
             <FeeSection
                 Fee="₹ 1,40,000"
                 FeeEmi="9,178/month."
-                weekdaybatch="Weekend Batch"
-                weekendbatch="Weekday Batch"
-                weekday="SAT-SUN"
-                weekend="MON- FRI"
-                WeekdayDate="JAN 14th"
-                WeekendDate="MAR 25th"
-                WeekendTime="08:00 PM - 9:00 PM"
-                WeekdayTime="09:30 AM - 1:00 PM"
+                weekdaybatch="Weekday Batch"
+                weekendbatch="Weekday  Batch"
+                weekday="MON - FRI"
+                weekend="MON - FRI"
+                WeekdayDate="APR 12th"
+                WeekendDate="APR 19th"
+                WeekdayTime="8.00PM - 10.00PM"
+                WeekendTime="8.00AM - 10.00AM"
                
                 FeeContent3="Flexible payment"
                 FeeContent4="Easy loan procedure"
@@ -123,7 +124,7 @@ const ExecutiveSecondPart = ({
                 totalAmount2="₹1,40,000"
                 monthlyPayment2="₹9,178"
             />
-            <MentorsSection />
+    
             <SliderTabs />
             <PlacementCall />
             <MobileTestimonial />
