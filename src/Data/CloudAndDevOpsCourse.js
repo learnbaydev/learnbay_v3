@@ -227,880 +227,880 @@ export const CloudAndDevOpsCourseData = [
     },
 
     masterSyllabusMobile: [
-        {
-            Module0: {
-              title: "TERM 1:- Linux Fundamentals and Introduction",
-              content: [
-                {
-                  chap: {
-                    title: "Module 1 :- Linux Basics and System Administration",
-                    desc: [
-                      "Introduction to Linux Operating System",
-                      "Command Line Interface (CLI) Essentials",
-                      "User and Group Management",
-                      "Networking Basics in Linux ",
-                      
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title: "Module 2 :- Practical exercises and assignments for mastering Linux commands ",
-                    desc: [
-                      "Command Line Mastery: Exercises focusing on everyday CLI usage",
-                      "Script Writing: Basics of Shell Scripting for Automation",
-                      "System Administration Tasks: Setting up a Web Server, Creating Cron Job",
-                    ],
-                  },
-                },
-               
-              ],
-              id: 0,
-              open: true,
+      {
+        Module0: {
+          title: "TERM 1:- Linux Fundamentals and Introduction",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :- Linux Basics and System Administration",
+                desc: [
+                  "Introduction to Linux Operating System",
+                  "Command Line Interface (CLI) Essentials",
+                  "User and Group Management",
+                  "Networking Basics in Linux ",
+
+                ],
+              },
             },
-          },
-      
-    
-     
-    
-          {
-            Module0: {
-              title: "TERM 2:- Python Programming Essentials",
-              content: [
-                {
-                  chap: {
-                    title: "Module 1 :- Introduction to Python and Environment Setup ",
-                    desc: [
-                      "Basics of Python Programming Language",
-                      "Setting Up Python Development Environment",
-                      "IDE Setup and Introduction (PyCharm, Jupyter Notebook)",
-                      
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title: "Module 2 :- Python Programming Foundations",
-                    desc: [
-                      "Data Types, Variables, and Basic Operators",
-                      "Control Structures: If-Else Statements, Loops",
-                      "Functions: Definition, Arguments, Return Values",
-                      
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title: "Module 3 :- Data Handling and Structures",
-                    desc: [
-                      "Lists, Tuples, Dictionaries, and Sets",
-                      "String Manipulation and Regular Expressions",
-                      "File Operations: Reading and Writing Files",
-                     
-                      
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title: "Module 4 :- Advanced Python Concepts",
-                    desc: [
-                      "Object-Oriented Programming (OOP) in Python",
-                      "Classes, Objects, Inheritance, and Polymorphism",
-                      "Encapsulation and Abstraction",
-                      "Exception Handling and Debugging Techniques",
-                      "Modules and Packages: Importing and Creating",
-                     
-                     
-                      
-                    ],
-                  },
-                },
-                // {
-                //   chap: {
-                //     title: "Module 5  :- Python for Data Science (Introductory)",
-                //     desc: [
-                //       "Introduction to NumPy and Pandas Libraries",
-                //       "Basic Data Analysis and Manipulation",
-                //       "Visualization with Matplotlib and Seaborn",
-                     
-                     
-                      
-                //     ],
-                //   },
-                // },
-                {
-                  chap: {
-                    title: "Module 5 :- Project Work and Practice",
-                    desc: [
-                      "Hands-on sessions with Python scripting and automation projects",
-                      "Real-world problem-solving using Python",
-                      "Mini-projects: Developing small-scale applications or scripts",
-                      
-                     
-                      
-                    ],
-                  },
-                },
-              ],
-              id: 1,
-              open: false,
+            {
+              chap: {
+                title: "Module 2 :- Practical exercises and assignments for mastering Linux commands ",
+                desc: [
+                  "Command Line Mastery: Exercises focusing on everyday CLI usage",
+                  "Script Writing: Basics of Shell Scripting for Automation",
+                  "System Administration Tasks: Setting up a Web Server, Creating Cron Job",
+                ],
+              },
             },
-          },
-         
-      
 
-          {
-            Module0: {
-              title: " TERM 3 :- AWS Cloud Mastery ",
-              content: [
-                {
-                  chap: {
-                    title: "Module 1 :- AWS Administration Level",
-                    desc: [
-                      " Introduction to AWS ",
-                      "AWS Storage Services",
-                      "Networking and Content Delivery",
-                      "Automation and Optimization",
-                      "AWS Compute Services ",
-                      "AWS Database Services",
-                      "Security and Identity",
-                      "Monitoring and Management",
-                      
-                     
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title: " Module 2 :- Transitioning to Solution Architect ",
-                    desc: [
-                      "Architecting on AWS",
-                      "Advanced Networking",
-                      "High Availability and Business Continuity",
-                      "Migration and Innovation",
-                      "Data Security",
-                      "Cost Optimization",
-                      "Designing for New Technologies",
-                      
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title: "Module 3 :- AWS Certified Solutions Architect - Associate",
-                    desc: [
-                      "Exam Preparation",
-                      "Preparation Tips",
-                      "Practice Exams and Scenarios",
-                  
-                     
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title: "Module 4 :- AWS Certified Solutions Architect - Professional",
-                    desc: [
-                      "Deep Dive into Complex Architectures",
-                      "Professional Level Exam Preparation",
-                  
-                     
-                    ],
-                  },
-                },
-              ],
-              id: 2,
-              open: false,
+          ],
+          id: 0,
+          open: true,
+        },
+      },
+
+
+
+
+      {
+        Module0: {
+          title: "TERM 2:- Python Programming Essentials",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :- Introduction to Python and Environment Setup ",
+                desc: [
+                  "Basics of Python Programming Language",
+                  "Setting Up Python Development Environment",
+                  "IDE Setup and Introduction (PyCharm, Jupyter Notebook)",
+
+                ],
+              },
             },
-          },
-      
+            {
+              chap: {
+                title: "Module 2 :- Python Programming Foundations",
+                desc: [
+                  "Data Types, Variables, and Basic Operators",
+                  "Control Structures: If-Else Statements, Loops",
+                  "Functions: Definition, Arguments, Return Values",
 
-          {
-            Module0: {
-              title: "TERM 4 :- Microsoft Azure Proficiency (optional)",
-              content: [
-                {
-                  chap: {
-                    title: "Module 1 :- Azure Administration Level",
-                    desc: [
-                      "Introduction to Azure",
-                      "Azure Compute Services",
-                      "Identity and Access Management",
-                      "Security and Compliance",
-                      "Azure Compute Services ",
-                      "Azure Networking",
-                      "Database Services",
-                      "Monitoring and Management",
-                   
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title: " Module 2 :- Transitioning to Solution Architect",
-                    desc: [
-                      "Architecting Solutions on Azure",
-                      "Advanced Networking",
-                      "Data and Databases",
-                   "Developing for the Cloud",
-                   "Application Modernization ",
-                   "Cost Management and Optimization ",
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title: " Module 3 :- Preparation for Azure Architect Technologies ",
-                    desc: [
-                      "Certification Path and Exam Preparation",
-                      "Practice Tests and Scenarios",
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title: " Module 4 :- Advanced Course: Azure Solutions Architect Expert ",
-                    desc: [
-                      "Complex Architectural Solutions",
-                      "Case Studies and Real-World Scenarios",
-                      "Advanced Certification Preparation",
-                      
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title: " Module 5 :- Case Studies and Projects",
-                    desc: [
-                      "'Building Scalable Web Applications on Azure': Designing and deploying a scalable web application using Azure App Services and Azure SQL Database.",
-                      "'Hybrid Cloud Setup for Enterprise': Implementing a hybrid cloud solution for an enterprise using Azure Stack and Azure Cloud Services.",
-                      "'Data Lake and Big Data Analytics on Azure': Setting up a Data Lake using Azure Data Lake Storage and analyzing big data with Azure Synapse Analytics.",
-                      "'Modernizing Legacy Applications with Azure': Migrating and modernizing legacy applications to the Azure cloud, leveraging Azure Kubernetes Service and Azure DevOps for continuous integration and delivery.",
-                    ],
-                  },
-                },
-               
-              ],
-              id: 6,
-              open: false,
+                ],
+              },
             },
-          },
-          {
-            Module0: {
-              title: "TERM 5:-Google Cloud Platform (optional) ",
-              content: [
-                {
-                  chap: {
-                    title: "Module 1:- GCP Administration Level",
-                    desc: [
-                      "Introduction to Google Cloud Platform ",
-                      "Storage and Database Services",
-                      "Identity and Security",
-                      "API Management",
-                      "Compute Services",
-                      "Networking Services",
-                      "Monitoring and Operations",
-                      "Developer Tools ",
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title: "Module 2 :-Transitioning to Solution Architect ",
-                    desc: [
-                      "Architecting with Google Cloud Platform                ",
-                      "Advanced Networking",
-                      "Data Management and Databases",
-                      "Building Resilient and Scalable Architectures",
-                      "Security, Compliance, and Identity",
-                      "Cost Management and Optimization ",
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title: "Module 3:- Machine Learning and Artificial Intelligence ",
-                    desc: [
-                      "AI Platform ",
-                      "Machine Learning Services",
-                      "Integrating AI into Cloud Solutions",
-                      "AutoML for Custom Model Training",
-                    
-                    
-                  
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title: "Module 4:-  Case Studies and Projects",
-                    desc: [
-                     "'Implementing Secure Hybrid Networking on GCP': A project focused on setting up a secure hybrid network using GCP's VPC, Cloud Interconnect, and VPN services.",
-                     "'Building a Scalable E-Commerce Platform with GCP': Case study on designing and implementing a highly scalable and reliable e-commerce platform using GCP services.",
-                    ],
-                  },
-                },
-              ],
-              id: 6,
-              open: false,
+            {
+              chap: {
+                title: "Module 3 :- Data Handling and Structures",
+                desc: [
+                  "Lists, Tuples, Dictionaries, and Sets",
+                  "String Manipulation and Regular Expressions",
+                  "File Operations: Reading and Writing Files",
+
+
+                ],
+              },
             },
-          },
-          {
-            Module0: {
-              title: "TERM 6 :- Server and Application virtualization",
-              content: [
-                {
-                  chap: {
-                    title:
-                      "Module 1 :-Overview of Virtualization ",
-                    desc: [
-                      "Introduction to Virtualization: Understanding Its Historical Development",
-                      "Different Forms of Virtualization",
-                    
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title: "Module 2 :- Server Virtualization",
-                    desc: [
-                      "Introduction to Server-Based Virtualization",
-                      "Understanding Hypervisor-Based Virtualization",
-                      "Comparing Type 1 and Type 2 Hypervisors",
-                      "Differences Between Full and Paravirtualization",
-                      
-                    
-                
-                    ],
-                  },
-                },
-
-                {
-                  chap: {
-                    title: "Module 3 :- Virtual Machines (VMs)",
-                    desc: [
-                      "The Lifecycle of a Virtual Machine",
-                      "Structure and Formats of Virtual Machine Images",
-                      "Detailed Look at Virtual Machine Instances: Public Cloud Specificities",
-                      "Resource Allocation for Virtual Machine Instances",
-                      "Networking Within Virtual Machines: An Overview",
-                      "Exploring Amazon Machine Instances",
-                    ],
-                  },
-                },
+            {
+              chap: {
+                title: "Module 4 :- Advanced Python Concepts",
+                desc: [
+                  "Object-Oriented Programming (OOP) in Python",
+                  "Classes, Objects, Inheritance, and Polymorphism",
+                  "Encapsulation and Abstraction",
+                  "Exception Handling and Debugging Techniques",
+                  "Modules and Packages: Importing and Creating",
 
 
-                {
-                  chap: {
-                    title: "Module 4 :- Application Virtualization",
-                    desc: [
-                      "Application Virtualization in VMs",
-                      
-                    
-                
-                    ],
-                  },
-                },
 
-
-                {
-                  chap: {
-                    title: "Module 5 :- Containerization",
-                    desc: [
-                      "Fundamentals of Container-Based Virtualization",
-                      "Lifecycle of Containers",
-                      "Container Image: Structure and Formats",
-                      "Managing Container Instances: Resource Allocation",
-                      "Networking in the Context of Containers",
-                      
-                    
-                
-                    ],
-                  },
-                },
-
-                {
-                  chap: {
-                    title: "Module 6 :- Unikernels",
-                    desc: [
-                      "Unikernels: Composition, Formats, and Management",
-                      "Allocating Resources and Networking in Unikernels",
-                      
-                    
-                
-                    ],
-                  },
-                },
-
-                {
-                  chap: {
-                    title: "Module 7 :- Comparative Analysis",
-                    desc: [
-                      "Differentiating Between VMs, Containers, and Unikernels",
-                      
-                    
-                
-                    ],
-                  },
-                },
-
-
-                {
-                  chap: {
-                    title: "Module 8 :- Network Function Virtualization (NFV)",
-                    desc: [
-                      "An Introduction to Network Function Virtualization",
-                      
-                    
-                
-                    ],
-                  },
-                },
-               
-              ],
-              id: 6,
-              open: false,
+                ],
+              },
             },
-          },
-          {
-            Module0: {
-              title: "TERM 7 :- Data Migration and Resilience",
-              content: [
-                {
-                  chap: {
-                    title:
-                      "Module 1 :- Introduction to Data Migration in Cloud Environments",
-                    desc: [
-                      "Understanding the Basics of Data Migration",
-                      "Key Considerations for Cloud Data Migration",
-                    
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title: "Module 2 :- Data Migration Strategies and Best Practices",
-                    desc: [
-                      "Planning and Executing a Migration Strategy",
-                      "Tools and Techniques for Effective Data Migration",
-                      
-                    
-                
-                    ],
-                  },
-                },
-
-                {
-                  chap: {
-                    title: "Module 3 :- Building Resilience and High Availability in Cloud",
-                    desc: [
-                      "Principles of Resilience in Cloud Computing",
-                      "Designing for High Availability and Disaster Recovery",
-                    ],
-                  },
-                },
+            // {
+            //   chap: {
+            //     title: "Module 5  :- Python for Data Science (Introductory)",
+            //     desc: [
+            //       "Introduction to NumPy and Pandas Libraries",
+            //       "Basic Data Analysis and Manipulation",
+            //       "Visualization with Matplotlib and Seaborn",
 
 
-                {
-                  chap: {
-                    title: "Module 4 :- Integrating Data Migration with DevOps Practices",
-                    desc: [
-                      "Automation in Data Migration Processes",
-                      "Continuous Integration and Continuous Deployment (CI/CD) for Data Migration",
-                      
-                    
-                
-                    ],
-                  },
-                },
+
+            //     ],
+            //   },
+            // },
+            {
+              chap: {
+                title: "Module 5 :- Project Work and Practice",
+                desc: [
+                  "Hands-on sessions with Python scripting and automation projects",
+                  "Real-world problem-solving using Python",
+                  "Mini-projects: Developing small-scale applications or scripts",
 
 
-                {
-                  chap: {
-                    title: "Module 5 :- Case Studies and Real-World Applications",
-                    desc: [
-                      "Analyzing Successful Data Migration Projects",
-                      "Lessons Learned and Best Practices in Action",
-                      
-                    
-                
-                    ],
-                  },
-                },
 
-                {
-                  chap: {
-                    title: "Module 6 :- Unikernels",
-                    desc: [
-                      "Unikernels: Composition, Formats, and Management",
-                      "Allocating Resources and Networking in Unikernels",
-                      
-                    
-                
-                    ],
-                  },
-                },
-
-                {
-                  chap: {
-                    title: "Module 7 :- Comparative Analysis",
-                    desc: [
-                      "Differentiating Between VMs, Containers, and Unikernels",
-                      
-                    
-                
-                    ],
-                  },
-                },
-
-
-                {
-                  chap: {
-                    title: "Module 8 :- Network Function Virtualization (NFV)",
-                    desc: [
-                      "An Introduction to Network Function Virtualization",
-                      
-                    
-                
-                    ],
-                  },
-                },
-               
-              ],
-              id: 6,
-              open: false,
+                ],
+              },
             },
-          },
-      
-
-          {
-            Module0: {
-              title: "TERM 8 :- DevOps Expertise",
-              content: [
-                {
-                  chap: {
-                    title:
-                      " Mastering DevOps ",
-                    desc: [
-                      "",
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title:
-                      "Module 1 :- DevOps Tools and Practices ",
-                    desc: [
-                      "",
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title:
-                      "Introduction to DevOps",
-                    desc: [
-                      "Evolution of DevOps and its significance in modern software development.",
-                      "Core principles of DevOps practices.",
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title:
-                      "Infrastructure Setup",
-                    desc: [
-                      "Fundamentals of server configuration and management.",
-                      "Setting up and managing virtual environments for DevOps practices.",
-                    ],
-                  },
-                },
+          ],
+          id: 1,
+          open: false,
+        },
+      },
 
 
-                {
-                  chap: {
-                    title:
-                      "Module 2 :- Version Control with Git ",
-                    desc: [
-                      "",
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title:
-                      "Basics of Git",
-                    desc: [
-                      "Introduction to version control systems.",
-                      "Fundamental Git commands and workflows.",
-                    ],
-                  },
-                },
 
-                {
-                  chap: {
-                    title:
-                      "Advanced Git Techniques",
-                    desc: [
-                      "Branching strategies for collaborative development.",
-                      "Conflict resolution and best practices for maintaining code integrity.",
-                    ],
-                  },
-                },
+      {
+        Module0: {
+          title: " TERM 3 :- AWS Cloud Mastery ",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :- AWS Administration Level",
+                desc: [
+                  " Introduction to AWS ",
+                  "AWS Storage Services",
+                  "Networking and Content Delivery",
+                  "Automation and Optimization",
+                  "AWS Compute Services ",
+                  "AWS Database Services",
+                  "Security and Identity",
+                  "Monitoring and Management",
 
-                {
-                  chap: {
-                    title:
-                      "Module 3:- Containerization with Docker ",
-                    desc: [
-                      "",
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title:
-                      "Introduction to Containerization",
-                    desc: [
-                      "Concepts of containerization and its advantages.",
-                      "Docker installation and setup.",
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title:
-                      "Docker in Practice",
-                    desc: [
-                      "Building, running, and managing Docker containers.",
-                      "Docker Compose for multi-container setups.",
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title:
-                      "Module 4:- Configuration Management ",
-                    desc: [
-                      "",
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title:
-                      "Puppet for Configuration Management",
-                    desc: [
-                      "Basics of Puppet: Architecture, setup, and usage.",
-                      "Writing and applying Puppet manifests.",
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title:
-                      "Ansible for Automated Configuration",
-                    desc: [
-                      "Ansible fundamentals: Playbooks, roles, and inventory.",
-                      "Automation of repetitive tasks using Ansible.",
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title:
-                      "Module 5:- Continuous Integration and Continuous Delivery (CI/CD)",
-                    desc: [
-                      "",
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title:
-                      "Jenkins for CI/CD",
-                    desc: [
-                      "Setting up Jenkins for automated build and deployment.",
-                      "Integrating Jenkins with various development tools.",
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title:
-                      "Continuous Delivery and Deployment Strategies",
-                    desc: [
-                      "Automating the software release process.",
-                     "Best practices in maintaining a CI/CD pipeline.",
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title:
-                      "Module 6:- Container Orchestration with Kubernetes",
-                    desc: [
-                      "",
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title:
-                      "Kubernetes Fundamentals",
-                    desc: [
-                      "Architecture of Kubernetes, pods, and services.",
-                      "Deploying applications on Kubernetes clusters.",
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title:
-                      "Advanced Kubernetes Management",
-                    desc: [
-                      "Scaling applications with Kubernetes.",
-                      "Kubernetes networking, storage, and security.",
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title:
-                      "Module 7:- Monitoring and Logging with ELK Stack",
-                    desc: [
-                      "",
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title:
-                      "Elasticsearch, Logstash, and Kibana (ELK)",
-                    desc: [
-                      "Setting up the ELK Stack for logging and monitoring.",
-                      "Creating dashboards and visualizations in Kibana.",
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title:
-                      "Integrating Monitoring into DevOps Workflows",
-                    desc: [
-                      "Automated monitoring and alerting.",
-                      "Best practices for log management and analysis.",
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title:
-                      "Module 8:- Infrastructure as Code (IaC) with Terraform",
-                    desc: [
-                      "",
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title:
-                      "Introduction to IaC and Terraform",
-                    desc: [
-                      "Principles of IaC and its benefits.",
-                      "Installing and configuring Terraform.",
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title:
-                      "Building Infrastructure with Terraform",
-                    desc: [
-                      "Writing Terraform scripts for automated infrastructure deployment.",
-                      "Managing and scaling infrastructure with Terraform.",
-                    ],
-                  },
-                },
 
-                {
-                  chap: {
-                    title:
-                      "Module 9:- AWS Devops",
-                    desc: [
-                      "Code Commit",
-                      "Code Build",
-                      "Code Deploy",
-                      "Code Pipeline",
-                    ],
-                  },
-                },
-                {
-                  chap: {
-                    title:
-                      "Module 10:- Azure Devops",
-                    desc: [
-                      "Introduction to Microsoft Azure",
-                      "Introduction to DevOps",
-                      "Azure DevOps and Azure Repos",
-                      "Azure Artifacts and Azure Test Plans",
-                      "Azure Pipelines",
-                      "Azure Boards",
-                    ],
-                  },
-                },
-              ],
-              id: 6,
-              open: false,
+                ],
+              },
             },
-          },
-          {
-            Module0: {
-              title: "TERM 9 :- Splunk Development and Admin ",
-              content: [
-                {
-                  chap: {
-                    title:
-                      "Module 1 :- Splunk Developer and Administration Esentials ",
-                    desc: [
-                      "Splunk Development and Administration",
-                      "Splunk Development Concepts, Searching, Reports, and Visualizations",
-                      "Splunk Administration, Installation, and Deployment Management",
-                     
-                      
-                    ],
-                  },
-                },
-            
-                {
-                  chap: {
-                    title:
-                      "Module 2 :- Advanced Splunk Skills",
-                    desc: [
-                      "Data Parsing, Pivot, Common Information Model (CIM) Add-On",
-                      "Splunk Security Essentials",
-                      "Splunk Data Analysis Techniques",
-                      "Splunk Dashboard Customization",
-                      "Splunk API Integration",
-                      "Performance Optimization in Splunk",
-                      "Troubleshooting and Problem Solving",
-                      "Splunk for Cloud Services",
-                     
-                      
-                    ],
-                  },
-                },
-      
-               
-              ],
-              id: 6,
-              open: false,
+            {
+              chap: {
+                title: " Module 2 :- Transitioning to Solution Architect ",
+                desc: [
+                  "Architecting on AWS",
+                  "Advanced Networking",
+                  "High Availability and Business Continuity",
+                  "Migration and Innovation",
+                  "Data Security",
+                  "Cost Optimization",
+                  "Designing for New Technologies",
+
+                ],
+              },
             },
-          },
-   
-    
-      
+            {
+              chap: {
+                title: "Module 3 :- AWS Certified Solutions Architect - Associate",
+                desc: [
+                  "Exam Preparation",
+                  "Preparation Tips",
+                  "Practice Exams and Scenarios",
+
+
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 4 :- AWS Certified Solutions Architect - Professional",
+                desc: [
+                  "Deep Dive into Complex Architectures",
+                  "Professional Level Exam Preparation",
+
+
+                ],
+              },
+            },
+          ],
+          id: 2,
+          open: false,
+        },
+      },
+
+
+      {
+        Module0: {
+          title: "TERM 4 :- Microsoft Azure Proficiency (optional)",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :- Azure Administration Level",
+                desc: [
+                  "Introduction to Azure",
+                  "Azure Compute Services",
+                  "Identity and Access Management",
+                  "Security and Compliance",
+                  "Azure Compute Services ",
+                  "Azure Networking",
+                  "Database Services",
+                  "Monitoring and Management",
+
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Module 2 :- Transitioning to Solution Architect",
+                desc: [
+                  "Architecting Solutions on Azure",
+                  "Advanced Networking",
+                  "Data and Databases",
+                  "Developing for the Cloud",
+                  "Application Modernization ",
+                  "Cost Management and Optimization ",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Module 3 :- Preparation for Azure Architect Technologies ",
+                desc: [
+                  "Certification Path and Exam Preparation",
+                  "Practice Tests and Scenarios",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Module 4 :- Advanced Course: Azure Solutions Architect Expert ",
+                desc: [
+                  "Complex Architectural Solutions",
+                  "Case Studies and Real-World Scenarios",
+                  "Advanced Certification Preparation",
+
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Module 5 :- Case Studies and Projects",
+                desc: [
+                  "'Building Scalable Web Applications on Azure': Designing and deploying a scalable web application using Azure App Services and Azure SQL Database.",
+                  "'Hybrid Cloud Setup for Enterprise': Implementing a hybrid cloud solution for an enterprise using Azure Stack and Azure Cloud Services.",
+                  "'Data Lake and Big Data Analytics on Azure': Setting up a Data Lake using Azure Data Lake Storage and analyzing big data with Azure Synapse Analytics.",
+                  "'Modernizing Legacy Applications with Azure': Migrating and modernizing legacy applications to the Azure cloud, leveraging Azure Kubernetes Service and Azure DevOps for continuous integration and delivery.",
+                ],
+              },
+            },
+
+          ],
+          id: 6,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "TERM 5:-Google Cloud Platform (optional) ",
+          content: [
+            {
+              chap: {
+                title: "Module 1:- GCP Administration Level",
+                desc: [
+                  "Introduction to Google Cloud Platform ",
+                  "Storage and Database Services",
+                  "Identity and Security",
+                  "API Management",
+                  "Compute Services",
+                  "Networking Services",
+                  "Monitoring and Operations",
+                  "Developer Tools ",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 2 :-Transitioning to Solution Architect ",
+                desc: [
+                  "Architecting with Google Cloud Platform                ",
+                  "Advanced Networking",
+                  "Data Management and Databases",
+                  "Building Resilient and Scalable Architectures",
+                  "Security, Compliance, and Identity",
+                  "Cost Management and Optimization ",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 3:- Machine Learning and Artificial Intelligence ",
+                desc: [
+                  "AI Platform ",
+                  "Machine Learning Services",
+                  "Integrating AI into Cloud Solutions",
+                  "AutoML for Custom Model Training",
+
+
+
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 4:-  Case Studies and Projects",
+                desc: [
+                  "'Implementing Secure Hybrid Networking on GCP': A project focused on setting up a secure hybrid network using GCP's VPC, Cloud Interconnect, and VPN services.",
+                  "'Building a Scalable E-Commerce Platform with GCP': Case study on designing and implementing a highly scalable and reliable e-commerce platform using GCP services.",
+                ],
+              },
+            },
+          ],
+          id: 6,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "TERM 6 :- Server and Application virtualization",
+          content: [
+            {
+              chap: {
+                title:
+                  "Module 1 :-Overview of Virtualization ",
+                desc: [
+                  "Introduction to Virtualization: Understanding Its Historical Development",
+                  "Different Forms of Virtualization",
+
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 2 :- Server Virtualization",
+                desc: [
+                  "Introduction to Server-Based Virtualization",
+                  "Understanding Hypervisor-Based Virtualization",
+                  "Comparing Type 1 and Type 2 Hypervisors",
+                  "Differences Between Full and Paravirtualization",
+
+
+
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 3 :- Virtual Machines (VMs)",
+                desc: [
+                  "The Lifecycle of a Virtual Machine",
+                  "Structure and Formats of Virtual Machine Images",
+                  "Detailed Look at Virtual Machine Instances: Public Cloud Specificities",
+                  "Resource Allocation for Virtual Machine Instances",
+                  "Networking Within Virtual Machines: An Overview",
+                  "Exploring Amazon Machine Instances",
+                ],
+              },
+            },
+
+
+            {
+              chap: {
+                title: "Module 4 :- Application Virtualization",
+                desc: [
+                  "Application Virtualization in VMs",
+
+
+
+                ],
+              },
+            },
+
+
+            {
+              chap: {
+                title: "Module 5 :- Containerization",
+                desc: [
+                  "Fundamentals of Container-Based Virtualization",
+                  "Lifecycle of Containers",
+                  "Container Image: Structure and Formats",
+                  "Managing Container Instances: Resource Allocation",
+                  "Networking in the Context of Containers",
+
+
+
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 6 :- Unikernels",
+                desc: [
+                  "Unikernels: Composition, Formats, and Management",
+                  "Allocating Resources and Networking in Unikernels",
+
+
+
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 7 :- Comparative Analysis",
+                desc: [
+                  "Differentiating Between VMs, Containers, and Unikernels",
+
+
+
+                ],
+              },
+            },
+
+
+            {
+              chap: {
+                title: "Module 8 :- Network Function Virtualization (NFV)",
+                desc: [
+                  "An Introduction to Network Function Virtualization",
+
+
+
+                ],
+              },
+            },
+
+          ],
+          id: 6,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "TERM 7 :- Data Migration and Resilience",
+          content: [
+            {
+              chap: {
+                title:
+                  "Module 1 :- Introduction to Data Migration in Cloud Environments",
+                desc: [
+                  "Understanding the Basics of Data Migration",
+                  "Key Considerations for Cloud Data Migration",
+
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 2 :- Data Migration Strategies and Best Practices",
+                desc: [
+                  "Planning and Executing a Migration Strategy",
+                  "Tools and Techniques for Effective Data Migration",
+
+
+
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 3 :- Building Resilience and High Availability in Cloud",
+                desc: [
+                  "Principles of Resilience in Cloud Computing",
+                  "Designing for High Availability and Disaster Recovery",
+                ],
+              },
+            },
+
+
+            {
+              chap: {
+                title: "Module 4 :- Integrating Data Migration with DevOps Practices",
+                desc: [
+                  "Automation in Data Migration Processes",
+                  "Continuous Integration and Continuous Deployment (CI/CD) for Data Migration",
+
+
+
+                ],
+              },
+            },
+
+
+            {
+              chap: {
+                title: "Module 5 :- Case Studies and Real-World Applications",
+                desc: [
+                  "Analyzing Successful Data Migration Projects",
+                  "Lessons Learned and Best Practices in Action",
+
+
+
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 6 :- Unikernels",
+                desc: [
+                  "Unikernels: Composition, Formats, and Management",
+                  "Allocating Resources and Networking in Unikernels",
+
+
+
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 7 :- Comparative Analysis",
+                desc: [
+                  "Differentiating Between VMs, Containers, and Unikernels",
+
+
+
+                ],
+              },
+            },
+
+
+            {
+              chap: {
+                title: "Module 8 :- Network Function Virtualization (NFV)",
+                desc: [
+                  "An Introduction to Network Function Virtualization",
+
+
+
+                ],
+              },
+            },
+
+          ],
+          id: 6,
+          open: false,
+        },
+      },
+
+
+      {
+        Module0: {
+          title: "TERM 8 :- DevOps Expertise",
+          content: [
+            {
+              chap: {
+                title:
+                  " Mastering DevOps ",
+                desc: [
+                  "",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Module 1 :- DevOps Tools and Practices ",
+                desc: [
+                  "",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Introduction to DevOps",
+                desc: [
+                  "Evolution of DevOps and its significance in modern software development.",
+                  "Core principles of DevOps practices.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Infrastructure Setup",
+                desc: [
+                  "Fundamentals of server configuration and management.",
+                  "Setting up and managing virtual environments for DevOps practices.",
+                ],
+              },
+            },
+
+
+            {
+              chap: {
+                title:
+                  "Module 2 :- Version Control with Git ",
+                desc: [
+                  "",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Basics of Git",
+                desc: [
+                  "Introduction to version control systems.",
+                  "Fundamental Git commands and workflows.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title:
+                  "Advanced Git Techniques",
+                desc: [
+                  "Branching strategies for collaborative development.",
+                  "Conflict resolution and best practices for maintaining code integrity.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title:
+                  "Module 3:- Containerization with Docker ",
+                desc: [
+                  "",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Introduction to Containerization",
+                desc: [
+                  "Concepts of containerization and its advantages.",
+                  "Docker installation and setup.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Docker in Practice",
+                desc: [
+                  "Building, running, and managing Docker containers.",
+                  "Docker Compose for multi-container setups.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Module 4:- Configuration Management ",
+                desc: [
+                  "",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Puppet for Configuration Management",
+                desc: [
+                  "Basics of Puppet: Architecture, setup, and usage.",
+                  "Writing and applying Puppet manifests.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Ansible for Automated Configuration",
+                desc: [
+                  "Ansible fundamentals: Playbooks, roles, and inventory.",
+                  "Automation of repetitive tasks using Ansible.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Module 5:- Continuous Integration and Continuous Delivery (CI/CD)",
+                desc: [
+                  "",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Jenkins for CI/CD",
+                desc: [
+                  "Setting up Jenkins for automated build and deployment.",
+                  "Integrating Jenkins with various development tools.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Continuous Delivery and Deployment Strategies",
+                desc: [
+                  "Automating the software release process.",
+                  "Best practices in maintaining a CI/CD pipeline.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Module 6:- Container Orchestration with Kubernetes",
+                desc: [
+                  "",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Kubernetes Fundamentals",
+                desc: [
+                  "Architecture of Kubernetes, pods, and services.",
+                  "Deploying applications on Kubernetes clusters.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Advanced Kubernetes Management",
+                desc: [
+                  "Scaling applications with Kubernetes.",
+                  "Kubernetes networking, storage, and security.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Module 7:- Monitoring and Logging with ELK Stack",
+                desc: [
+                  "",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Elasticsearch, Logstash, and Kibana (ELK)",
+                desc: [
+                  "Setting up the ELK Stack for logging and monitoring.",
+                  "Creating dashboards and visualizations in Kibana.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Integrating Monitoring into DevOps Workflows",
+                desc: [
+                  "Automated monitoring and alerting.",
+                  "Best practices for log management and analysis.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Module 8:- Infrastructure as Code (IaC) with Terraform",
+                desc: [
+                  "",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Introduction to IaC and Terraform",
+                desc: [
+                  "Principles of IaC and its benefits.",
+                  "Installing and configuring Terraform.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Building Infrastructure with Terraform",
+                desc: [
+                  "Writing Terraform scripts for automated infrastructure deployment.",
+                  "Managing and scaling infrastructure with Terraform.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title:
+                  "Module 9:- AWS Devops",
+                desc: [
+                  "Code Commit",
+                  "Code Build",
+                  "Code Deploy",
+                  "Code Pipeline",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Module 10:- Azure Devops",
+                desc: [
+                  "Introduction to Microsoft Azure",
+                  "Introduction to DevOps",
+                  "Azure DevOps and Azure Repos",
+                  "Azure Artifacts and Azure Test Plans",
+                  "Azure Pipelines",
+                  "Azure Boards",
+                ],
+              },
+            },
+          ],
+          id: 6,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "TERM 9 :- Splunk Development and Admin ",
+          content: [
+            {
+              chap: {
+                title:
+                  "Module 1 :- Splunk Developer and Administration Esentials ",
+                desc: [
+                  "Splunk Development and Administration",
+                  "Splunk Development Concepts, Searching, Reports, and Visualizations",
+                  "Splunk Administration, Installation, and Deployment Management",
+
+
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title:
+                  "Module 2 :- Advanced Splunk Skills",
+                desc: [
+                  "Data Parsing, Pivot, Common Information Model (CIM) Add-On",
+                  "Splunk Security Essentials",
+                  "Splunk Data Analysis Techniques",
+                  "Splunk Dashboard Customization",
+                  "Splunk API Integration",
+                  "Performance Optimization in Splunk",
+                  "Troubleshooting and Problem Solving",
+                  "Splunk for Cloud Services",
+
+
+                ],
+              },
+            },
+
+
+          ],
+          id: 6,
+          open: false,
+        },
+      },
+
+
+
     ],
     faq: [
       {
@@ -1203,7 +1203,7 @@ export const CloudAndDevOpsCourseData = [
             ans: "The total program fee for the Cloud Computing and Devops Certification Program is INR 1,10,000/- +18% GST",
             open: true,
           },
-         
+
           {
             id: 2,
             ques: "Can I pay in installments for the Cloud Computing and Devops Certification Program?",
@@ -1226,7 +1226,7 @@ export const CloudAndDevOpsCourseData = [
         id: 3,
         sectionName: "Capstone and Real-Time Projects",
         data: [
-        
+
           {
             id: 0,
             ques: "How many real-time projects will be there?",
@@ -1288,7 +1288,7 @@ export const CloudAndDevOpsCourseData = [
             ans: "You’ll be provided 10 interview calls after the completion of the course.",
             open: false,
           },
-        
+
           {
             id: 2,
             ques: "What is a job-readiness program?            ",
