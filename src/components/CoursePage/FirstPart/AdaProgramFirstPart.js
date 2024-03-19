@@ -13,9 +13,7 @@ const TrainerSection = dynamic(() =>
 const Testimonial = dynamic(() =>
   import("../../Global/Testimonial/Testimonial")
 );
-const WhyLearnbay = dynamic(() =>
-  import("../../CoursePage/WhyLearnbay/WhyLearnbay")
-);
+
 const CloudDevopsecond = dynamic(() =>
   import(
     "../../CoursePage/cloud&devops/DevOpsSecondSection/DevOpsSecondSection"
@@ -143,11 +141,11 @@ const ExecutiveFirstPart = ({
         SecondTyped="Capstone Project Certificate"
         ThirdTyped="Live Interactive Classes"
         titleCourse="AI & ML Program for tech professionals"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf"
         idss="KcQfbuwJBmU"
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ai-ml-main.webp"
-        firstToparaImg="Data Science & AI"
-        firstHeading="Executive program in  "
+        firstHeading="Advance   "
+        firstToparaImg="  Data Analytics Program"
         firstTopPara="Learnbay Excelvarsity"
         // thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ai-f-one.webp"
         // videoId="KcQfbuwJBmU"
@@ -157,7 +155,7 @@ const ExecutiveFirstPart = ({
         backgorunimg={true}
         isSpecialPage={true}
         isguwati={true}
-        backgroundImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/excutive-bg.webp"
+        backgroundImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/iit-background.webp"
 
 
 
@@ -173,15 +171,15 @@ const ExecutiveFirstPart = ({
       />
       <SecondNavbar dataScienceCounselling={true} />
       <Realstory />
+
       <TrainerSection idss="eautK0odE7Q" />
+      {/* <Testimonial redirectDS={true} Testimonial={TestimonialData} /> */}
       <WhoIsProgram
         first="Non-tech professionals with 6 months experience"
         second="Minimum 1 year of IT work experience        "
         third="Mid-career professionals interested in data science & AI"
         forth="Achieving higher career growth in data science and AI "
       />
-      {/* <Testimonial redirectDS={true} Testimonial={TestimonialData} /> */}
-      <WhyLearnbay idss="ZPOTy4PEnNU" NoGuwati ={true} />
     </>
   );
 };

@@ -1,6 +1,11 @@
 .course {
   margin-top: 100px;
 }
+.specialClass{
+  /* margin: 200px; */
+/* padding: 200px; */
+margin-left: 200px;
+}
 
 .course > p {
   margin: 20px 0px;

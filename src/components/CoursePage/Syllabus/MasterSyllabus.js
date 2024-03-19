@@ -17,6 +17,7 @@ function SyllabusNew({
   dataScienceCounselling,
   interstedInHide,
   MastersContent,
+  isguwati,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -59,9 +60,10 @@ function SyllabusNew({
                   <FaRegUser className={styles.iconUser} /> 7,568 people filled
                 </div>
               </div>
+              
               {MastersContent ? (
                 <h4>
-                  Interested in <span>Master’s Degree?</span>
+                  Interested in {isguwati ? (<> <span>Degree?</span></>):(<> <span>Master’s Degree?</span></>)}
                 </h4>
               ) : (
                 <h4>

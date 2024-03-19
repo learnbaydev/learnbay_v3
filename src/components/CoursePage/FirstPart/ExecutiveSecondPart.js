@@ -13,7 +13,7 @@ const ToolsCovered = dynamic(() =>
   import("../../CoursePage/ToolsCovered/ToolsCovered")
 );
 const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
-const Certificate = dynamic(() => import("../Certificate/Certificate"));
+const Certificate = dynamic(() => import("../../MastersCourse/Certificate/Certificate"));
 const FeeSection = dynamic(() =>
   import("../../CoursePage/FeeSection/FeeSection")
 );
@@ -27,9 +27,8 @@ const PlacementCall = dynamic(() =>
 const NewProjectSection = dynamic(() =>
   import("../../Global/NewProjectSection/NewProjectSection")
 );
-const Content = dynamic(() =>
-  import("../../CoursePage/Content/content")
-);
+
+
 const SeventhSection = dynamic(() =>
   import("../../Global/SeventhSection/SeventhSection")
 );
@@ -43,6 +42,8 @@ const ExecutiveSecondPart = ({
   masterSyllabusMobile,
   projectSection,
   FAQNewData,
+  noguwatiimg,
+  isguwati,
 }) => {
   const [popupData, setPopupData] = useState([]);
   // console.log(popupData);
@@ -84,19 +85,20 @@ const ExecutiveSecondPart = ({
         dataScience={true}
         MastersContent={true}
         titleCourse="Masters in Computer Science: Data Science and AI"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf"
+        isguwati ={true}
       />
       <ToolsCovered
         deskImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Tools-Logo.png"
         mobImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Mobile-Tools-Covered.png"
       />
       <Certificate data={CertificateData}
-
+Imgno ={true}
 
       />
       <FeeSection
-        Fee="₹ 2,50,000"
-        FeeEmi="12,292/month."
+        Fee="₹ 1,90,000"
+        FeeEmi="12,455/month."
         weekdaybatch="Weekend Batch"
         weekendbatch="Weekday Batch"
         weekday="SAT-SUN"
@@ -105,7 +107,7 @@ const ExecutiveSecondPart = ({
         WeekendDate="MAR 25th"
         WeekendTime="08:00 PM - 9:00 PM"
         WeekdayTime="09:30 AM - 1:00 PM"
-        CutFee="₹ 3,25,000/-"
+       
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
         FeeContent5="15 days refund policy"
@@ -114,13 +116,13 @@ const ExecutiveSecondPart = ({
 
 // EMI POPUPDATA
         emiType = "NO COST EMI"
-        duration1 = "24 Months"
-        totalAmount1 = "₹2,50,000"
-        monthlyPayment1 = "₹12,292"
+        duration1 = "18 Months"
+        totalAmount1 = "₹1,90,000"
+        monthlyPayment1 = "₹ 12,456"
         greenDown1 = "Standard Intrest rate Applicable"
-        duration2 = "18 Months"
-        totalAmount2 = "₹2,50,000"
-        monthlyPayment2 = "₹16,389"
+        duration2 = "12 Months"
+        totalAmount2 = "₹1,90,000"
+        monthlyPayment2 = "₹18,683"
       />
       <MentorsSection />
       <SliderTabs />
@@ -129,12 +131,12 @@ const ExecutiveSecondPart = ({
       <NewProjectSection
         dataScience={true}
         titleCourse="Masters in Computer Science: Data Science and AI"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf"
         projectSection={projectSection}
       />
       {/* <FAQNew FAQNewData={DataScienceMastersinCS[0].faq} /> */}
-      <FAQNew FAQNewData={FAQNewData} />
-      <Content Masterscontent={true} dataScienceCounselling={true}/>
+      <FAQNew FAQNewData={FAQNewData} isguwati={true} isSpecial ={true} />
+   
       <SeventhSection />
       <Footer />
       <BottomBar masterdegree={true} 

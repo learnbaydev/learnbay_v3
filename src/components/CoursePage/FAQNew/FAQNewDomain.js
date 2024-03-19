@@ -7,7 +7,7 @@ import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper";
 
-function FAQNew({ FAQNewData }) {
+function FAQNew({ FAQNewData, isguwati, isSpecial  }) {
   // const [mobile, setMobile] = useState(false);
   const [dataLoop, setDataLoop] = useState([
     { title: "Course Related", value: true },
@@ -39,9 +39,11 @@ function FAQNew({ FAQNewData }) {
     <div className={styles.course} id="faqs">
         <h4 className={styles.infop}>FAQs</h4>
         <p>Curriculum is specifically engineered to meet the expectations of leading tech companies.</p>
-      <div className={styles.courseM}>
-        <div className={styles.courses}>
-          <div className={styles.listPanel}>
+        <div className={styles.courseM}>
+ 
+
+        <div className={`${styles.courses} ${isSpecial ? styles.specialClass : ''}`}>
+          {isguwati ? (<></>):(<> <div className={styles.listPanel}>
             {FAQNewData.map((data, index) => {
               return (
                 <span
@@ -59,7 +61,9 @@ function FAQNew({ FAQNewData }) {
                 </span>
               );
             })}
-          </div>
+          </div></>)}
+         
+          
           {FAQNewData.map((dataF, index) => {
             const { data } = dataF;
             return dataLoop[index].value ? (
@@ -132,6 +136,7 @@ function FAQNew({ FAQNewData }) {
             ""
           );
         })}
+        
       </div>
     </div>
   );

@@ -3,13 +3,14 @@ import "@/styles/Button.css";
 import Script from "next/script";
 import { useEffect } from "react";
 import TagManager from "react-gtm-module";
-import { Open_Sans } from "next/font/google";
-const openSans = Open_Sans({
+import {  Raleway } from "next/font/google";
+const openSans = Raleway({
   weight: ["300", "400", "500", "600", "700", "800"],
   style: ["normal", "italic"],
   subsets: ["latin"],
   display: "swap",
 });
+
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {

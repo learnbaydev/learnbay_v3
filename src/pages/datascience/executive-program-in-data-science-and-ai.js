@@ -51,11 +51,12 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
           }
           CertificateData={
             DataScienceCourseData.ExcutiveProgramAIDS[0].Certificate
+
           }
           projectSection={
             DataScienceCourseData.ExcutiveProgramAIDS[0].projectSection
           }
-          FAQNewData={DataScienceCourseData.ExcutiveProgramAIDS[0].faq}
+          FAQNewData={DataScienceCourseData.ExcutiveProgramAIDS[0].faq }
           />
       
         {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}

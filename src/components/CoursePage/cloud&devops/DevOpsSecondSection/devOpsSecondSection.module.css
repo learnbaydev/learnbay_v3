@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 30% 30% 30%;
   /* align-content: stretch; */
-  margin: 30px 60px;
+  margin: 30px 160px;
   gap: 60px;
   padding: 10px;
 }
@@ -225,11 +225,11 @@ background: linear-gradient(180deg, rgba(45, 182, 33, 0.09) 0%, rgba(45, 182, 33
 @media only screen and (min-width: 1280px){
   
   .box1img img {
-    width: 320px;
+    width: 305px;
     height: auto;
   }
   .gamimg img {
-    width:320px;
+    width:290px;
     /* margin-left: 24px; */
     mix-blend-mode: color-burn;
   }

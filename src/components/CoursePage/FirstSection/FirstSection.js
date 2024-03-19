@@ -35,6 +35,7 @@ function FirstSection({
   backgorunimg,
   isSpecialPage,
   isguwati,
+  backgroundImage,
   
 }) {
   const [popups, setPopups] = useState(false);
@@ -79,6 +80,8 @@ interstedInHide={interstedInHide}
         isSpecialPage={isSpecialPage}
         backgorunimg ={backgorunimg }
         isguwati={isguwati}
+        backgroundImage={backgroundImage}
+        
 
         
  
