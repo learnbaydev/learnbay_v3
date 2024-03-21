@@ -73,7 +73,7 @@ function SeventhSection({ fullStackCont }) {
 
               <a href="tel: +917795687988">
                 <Button
-                  text="917795687988"
+                  text="+917795687988"
                   passIcon={<MdCall />}
                   outline={true}
                   invert

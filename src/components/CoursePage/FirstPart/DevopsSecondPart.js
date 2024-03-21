@@ -63,7 +63,7 @@ const SecondPart = ({
             // console.log(popData);
             if (
               popupData ===
-              "Cloud Computing & DevOps Certification Program"
+              " Advance Cloud Computing & DevOps Certification Program"
             ) {
               setPopupData(data);
               // console.log(popupData);
