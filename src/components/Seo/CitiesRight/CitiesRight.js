@@ -187,9 +187,11 @@ const CitiesRight = ({
   SyllabusBotlist46,
   syllabussrc,
   JobHead1,
+  JobBot51,
   MasterJobBot1,
   MasterJobSpan1,
   MasterJobBot2,
+  MasterJobBot3,
   JobBot1,
   JobBot2,
   JobHead2,
@@ -241,7 +243,7 @@ const CitiesRight = ({
   JobBot60,
   JobBot23,
   JobHead23,
-  JobBot30,
+  JobBot29,
   JobBot39,
   JobBot41,
   JobHead30,
@@ -266,6 +268,24 @@ const CitiesRight = ({
   Joblist29,
   Joblist30,
   JobBot25,
+  JobBot26,
+  JobBot27,
+  JobBot28,
+  JobHead10,
+  JobBot31,
+  onlyDhaka,
+  ListJob1,
+  ListJob2,
+  ListJob3,
+  ListJob4,
+  ListJob5,
+  ListJob6,
+  ListJob7,
+  ListJob8,
+  ListJob9,
+  ListJob10,
+  ListJobBot1,
+  JobBot30,
   JobSpan1,
   Joblist50,
   Joblist51,
@@ -415,6 +435,7 @@ const CitiesRight = ({
   cityTextDSSingapore,
   cityTextDSSAfrica,
   cityTextBangla,
+  cityTextDhaka,
   cityTextMasterUSA,
   cityTextDSMalaysia,
 }) => {
@@ -2205,7 +2226,7 @@ const CitiesRight = ({
 
             <ul>
               <li>
-                ​​If you’re an employed professional seeking first-rate
+                If you’re an employed professional seeking first-rate
                 mentoring and practical experience on real-world projects, this
                 program is for you.
               </li>
@@ -3442,6 +3463,44 @@ const CitiesRight = ({
 
               <li>Job offers with hikes across Bangladesh and overseas </li>
             </ul>
+          </div>
+        ) : (
+          ""
+        )}
+        {cityTextDhaka ? (
+          <div className={styles.CitiesRightInner}>
+            <h4 style={{ fontSize: "20px" }}>
+              Briefing on a Trend-setting Data Science Course in Dhaka [In Collaboration with IBM & Microsoft]
+
+            </h4>
+            <p>
+              In the context of today’s era of digital modernity, data science has emerged as a trendsetter for working experts from diversified backgrounds. The demand for skillful data scientists is increasing dramatically, following emerging trends. No wonder, data science is a rewarding and ambitious field for many experts eager to redefine themselves. Thus, signup rates for a data science training institute in Dhaka are increasing.
+
+            </p>
+            <p>
+              As data usage increases at a rapid pace, tech-savvy businesses prefer data-driven methods to grow. Learnbay concocts an advanced career path for experts with stagnant skill sets via its top-tier data science courses. Our programs are thoroughly curated as per current data trends to ascertain success. We aim for effortless career updates with proven upskilling ways.
+            </p>
+            <p>
+              Plus, our domain-focused data science course in Dhaka dilates our knowledge base with competitive skills. Experts level up their existing domain knowledge according to current trends. Plus, our globally recognized certifications from IBM & Microsoft validate your skills with excelling job roles.
+
+            </p>
+            <br />
+            <h4 style={{ fontSize: "20px" }}>What are the vital career gains that you can expect from our data science training institute in Dhaka?
+            </h4>
+            <p>Experts with basic domain knowledge and a bachelor’s degree in computer science or non-tech fields can opt for data science. Upskilling with a data science course will drive attainable career success with prime gains like –
+            </p>
+            <br />
+
+            <ul>
+              <li>Two IBM Certifications (Course & Projects)</li>
+              <li>One MS Certification </li>
+              <li>Job offers with hikes across Dhaka and overseas</li>
+            </ul>
+            <br />
+            <p><b>Note:</b> Our master’s program equips you with a globally accredited degree from Woolf University. These credentials and degrees unlock a favorable career path on a global scale. Thus, enroll in our courses today and unleash your potential for faster success.
+            </p>
+
+
           </div>
         ) : (
           ""
@@ -4782,9 +4841,11 @@ const CitiesRight = ({
           <span>Job Assist Program</span>
         </div>
         <div className={styles.CitiesRightInner}>
+          <p className={styles.pp}>{JobBot50}</p>
           <h2 className={styles.pHead}>{JobHead1}</h2>
           <p className={styles.pp}>{MasterJobBot1}</p>
           <p className={styles.pp}>{MasterJobBot2}</p>
+          <p className={styles.pp}>{MasterJobBot3}</p>
           <p className={styles.pp} style={{ fontWeight: "bold" }}>
             <i>{MasterJobSpan1}</i>
           </p>
@@ -4913,7 +4974,7 @@ const CitiesRight = ({
                 <></>
               ) : (
                 <>
-                  {" "}
+
                   <ul className={styles.pp}>
                     <li>{Joblist23}</li>
                     <li>{Joblist24}</li>
@@ -4928,9 +4989,31 @@ const CitiesRight = ({
               )}
 
               <p className={styles.pp}>{JobBot25}</p>
+              <p className={styles.pp}>{JobBot26}</p>
+
               <p className={styles.pp}>
                 <i>{JobSpan1}</i>
               </p>
+              <p className={styles.pp}>{JobBot27}</p>
+              <p className={styles.pp}>{JobBot28}</p>
+
+              <h4 style={{ fontSize: "20px" }}>{JobHead10}</h4>
+              <p className={styles.pp}>{JobBot29}</p>
+              <i><p className={styles.pp}>{JobBot31}</p></i>
+              {onlyDhaka ? (<>   <ul>
+                <li>{ListJob1}</li>
+                <li>{ListJob2}</li>
+                <li>{ListJob3}</li>
+                <li>{ListJob4}</li>
+                <li>{ListJob5}</li>
+                <li>{ListJob6}</li>
+                <li>{ListJob7}</li>
+                <li>{ListJob8}</li>
+                <li>{ListJob9}</li>
+                <li>{ListJob10}</li>
+                <p>{ListJobBot1}</p>
+              </ul></>) : (<></>)}
+
             </>
           )}
         </div>
