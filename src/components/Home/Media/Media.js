@@ -82,6 +82,7 @@ const Media = ({ projectData }) => {
                       quality={100}
                       width="80"
                       height="40"
+                      loading="lazy"
                     />
                   </div>
                 </div>

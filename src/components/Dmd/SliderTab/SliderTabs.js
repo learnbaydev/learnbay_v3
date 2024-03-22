@@ -86,6 +86,7 @@ const SliderTabs = () => {
                   src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/DomainSlider/BFSI-min.webp"
                   width="350"
                   height="350"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -133,6 +134,7 @@ const SliderTabs = () => {
                   src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/DomainSlider/Sales-min.webp"
                   width="296"
                   height="345"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -182,6 +184,7 @@ const SliderTabs = () => {
                   src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/DomainSlider/Health-min.webp"
                   width="351"
                   height="332"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -235,6 +238,7 @@ const SliderTabs = () => {
                   width="314"
                   height="360"
                   layout="intrinsic"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -284,6 +288,7 @@ const SliderTabs = () => {
                   width="296"
                   height="361"
                   layout="intrinsic"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -335,6 +340,8 @@ const SliderTabs = () => {
                   src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/DomainSlider/manufacturing-min.webp"
                   width="271"
                   height="353"
+                  loading="lazy"
+                  alt="Data Science Course"
                 />
               </div>
             </div>
@@ -381,11 +388,13 @@ const SliderTabs = () => {
                 </div>
               </div>
               <div className={styles.right}>
-                <img
+                <Image
                   src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/DomainSlider/energy-min.webp"
-                  width="568"
-                  height="412"
+                  width={568}
+                  height={412}
                   layout="intrinsic"
+                  loading="lazy"
+                  alt="Data Science Course"
                 />
               </div>
             </div>
@@ -420,6 +429,8 @@ const SliderTabs = () => {
                   src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/DomainSlider/BFSI-min.webp"
                   width="450"
                   height="450"
+                  loading="lazy"
+                  alt="data science course"
                 />
               </div>
             </div>
@@ -451,6 +462,8 @@ const SliderTabs = () => {
                   src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/DomainSlider/Sales-min.webp"
                   width="450"
                   height="450"
+                  loading="lazy"
+                  alt="data science course"
                 />
               </div>
             </div>
@@ -484,6 +497,8 @@ const SliderTabs = () => {
                   width="450"
                   height="450"
                   layout="intrinsic"
+                  loading="lazy"
+                  alt="data science course"
                 />
               </div>
             </div>
@@ -517,6 +532,8 @@ const SliderTabs = () => {
                   src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/DomainSlider/Health-min.webp"
                   width="450"
                   height="450"
+                  loading="lazy"
+                  alt="data science course"
                 />
               </div>
             </div>

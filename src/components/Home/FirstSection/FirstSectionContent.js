@@ -5,13 +5,13 @@ import React from "react";
 import { FaCheck, FaYoutube } from "react-icons/fa6";
 import styles from "./FirstSection.module.css";
 
-const FirstSectionContent = ({ setPopups,   setVideo }) => {
+const FirstSectionContent = ({ setPopups, setVideo }) => {
   const popupShow = () => {
     setPopups(true);
   };
   const videoShow = () => {
     setVideo(true);
-  
+
   };
   return (
     <div className={styles.slide}>
@@ -29,6 +29,8 @@ const FirstSectionContent = ({ setPopups,   setVideo }) => {
                 height="115"
                 priority
                 alt="data science course"
+
+
               />
             </span>
           </h1>
@@ -41,6 +43,8 @@ const FirstSectionContent = ({ setPopups,   setVideo }) => {
                 height="32"
                 priority
                 alt="data science course"
+
+
               />
             </div>
             <p className={styles.TextGreen}>
@@ -67,6 +71,8 @@ const FirstSectionContent = ({ setPopups,   setVideo }) => {
                 priority
                 quality={40}
                 alt="data science course"
+
+
               />
             </div>
           </div>
@@ -95,13 +101,13 @@ const FirstSectionContent = ({ setPopups,   setVideo }) => {
                 className={styles.Btn}
                 OrangeButton
                 text="Get Recommendation"
-                // passIcon={<FaBell className="bIconS" />}
+              // passIcon={<FaBell className="bIconS" />}
               />
             </div>
             <div onClick={videoShow} className={styles.FaPlay}>
-                  Learn More <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/yt-one.webp" width={32} height={32} loading="lazy"/>
-                </div>
-        
+              Learn More <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/yt-one.webp" width={32} height={32} priority />
+            </div>
+
           </div>
         </div>
         <div className={styles.secondLeft}>
@@ -113,6 +119,8 @@ const FirstSectionContent = ({ setPopups,   setVideo }) => {
               priority
               quality={55}
               alt="data science course"
+
+
             />
           </div>
         </div>

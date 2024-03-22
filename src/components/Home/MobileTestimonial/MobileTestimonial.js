@@ -334,6 +334,7 @@ function MobileTestimonial() {
                       src={testimonial.UserImage}
                       alt={`User ${testimonial.UserImage}`}
                       className={Styles.imgBorder}
+                      loading="lazy"
                     />
                   </div>
                 ))}
