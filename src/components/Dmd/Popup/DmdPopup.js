@@ -53,6 +53,7 @@ function DmdPopup() {
                 width={510}
                 height={260}
                 quality={100}
+                loading="lazy"
               />
             </div>
           </div>

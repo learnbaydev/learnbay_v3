@@ -366,6 +366,17 @@ export const CityFooterData = [
         ],
       },
       {
+        id: "Dhaka",
+        city: "Dhaka",
+        cityData: [
+          {
+            id: 1,
+            name: "Data Science Course Training in Dhaka",
+            url: "/datascience/dhaka/data-science-course-training-in-dhaka",
+          },
+        ],
+      },
+      {
         id: "Vietnam",
         city: "Vietnam",
         cityData: [

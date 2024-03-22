@@ -123,6 +123,7 @@ const ContactCounsellor = ({
           width={300}
           height={200}
           alt="contact-counseller"
+          loading="lazy"
         />
       </div>
     </div>

@@ -47,6 +47,7 @@ function LoanProcess() {
               width={1200}
               height={381}
               className={styles.topImageIcon}
+              loading="lazy"
             />
             <p className={styles.boxText}>Adhaar Card</p>
           </div>
@@ -57,6 +58,7 @@ function LoanProcess() {
               width={1200}
               height={381}
               className={styles.topImageIcon}
+              loading="lazy"
             />
             <p className={styles.boxText}>PAN Card</p>
           </div>
@@ -67,6 +69,7 @@ function LoanProcess() {
               width={1200}
               height={381}
               className={styles.topImageIcon}
+              loading="lazy"
             />
             <p className={styles.boxText}>Salary Slip</p>
           </div>
@@ -77,6 +80,7 @@ function LoanProcess() {
               width={1200}
               height={381}
               className={styles.topImageIcon}
+              loading="lazy"
             />
             <p className={styles.boxText}>Bank Statement</p>
           </div>
