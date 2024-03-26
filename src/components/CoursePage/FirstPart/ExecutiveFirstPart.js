@@ -42,19 +42,10 @@ const ExecutiveFirstPart = ({
 
 }) => {
   const seconddata = [
-    {
-      boldText: "60+",
-      normalText: "Countries Recognition",
-      imageUrl:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp",
-    },
-    {
-      CboldText: "90+",
-      normalText: "Transferrable ECTS Credits",
-      imageUrl:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp",
-    },
-    { boldText: "35K+", normalText: "Trusted Learners" },
+    { boldText: "IBM", normalText: "Certified Capstone", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
+    { CboldText: "175%", normalText: "Average Salary Hike", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
+    { boldText: "35K+", normalText: "Trusted Learners", },
+    
   ];
   const DsSecond = {
     title1: "Domain Specialization",
@@ -148,7 +139,7 @@ const ExecutiveFirstPart = ({
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ai-ml-main.webp"
         firstToparaImg="Data Science & AI"
         firstHeading="Executive program in  "
-        firstTopPara="Learnbay Excelvarsity"
+        firstTopPara="Expand beyond technology        "
         // thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ai-f-one.webp"
         // videoId="KcQfbuwJBmU"
         radio={true}
