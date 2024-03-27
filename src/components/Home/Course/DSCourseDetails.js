@@ -112,7 +112,7 @@ export const courseDetails = [
           },
           {
             id: 6,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/foundation-course.webp",
             title: "Data Science ",
             title1: "Foundation Program",
             tagHead: "For Data Science Enthusiasts",
@@ -276,7 +276,7 @@ export const courseDetailsM = [
           },
           {
             id: 6,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Gen-AI.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/foundation-course.webp",
             title: "Data Science ",
             title1: "Foundation Program",
             tagHead: "For Data Science Enthusiasts",
