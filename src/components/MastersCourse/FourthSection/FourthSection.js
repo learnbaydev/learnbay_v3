@@ -225,13 +225,16 @@ function FourthSection({
                     width="1200"
                     height="250"
                     alt="Learnbay placement partners"
+                    loading="lazy"
                   />
+
                 ) : (
                   <Image
                     src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/work-place.png"
                     width="1200"
                     height="250"
                     alt="Learnbay placement partners"
+                    loading="lazy"
                   />
                 )}
               </div>

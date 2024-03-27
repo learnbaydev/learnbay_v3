@@ -55,6 +55,7 @@ const FirstContent = ({
                       height="30"
                       priority
                       alt="data science course"
+                      loading="lazy"
                     />
                   ) : (
                     <Image
@@ -63,6 +64,7 @@ const FirstContent = ({
                       height="48"
                       priority
                       alt="data science course"
+                      loading="lazy"
                     />
                   )}
                 </div>
@@ -96,6 +98,7 @@ const FirstContent = ({
         <div className={styles.secondLeft}>
           <div className="bgImg">
             <Image
+            loading="lazy"
               src={FirstRightImg}
               fill={true}
               style={{ objectFit: "contain" }}
@@ -119,6 +122,7 @@ const FirstContent = ({
                     height="30"
                     priority
                     alt="data science course"
+                    loading="lazy"
                   />
                 ) : (
                   <Image
@@ -127,6 +131,7 @@ const FirstContent = ({
                     height="51"
                     priority
                     alt="data science course"
+                    loading="lazy"
                   />
                 )}
               </div>

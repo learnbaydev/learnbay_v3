@@ -177,6 +177,7 @@ function CertificateTab({ data, singlecertificate, doubleCertificate, projectWit
               quality={100}
               width={100}
               height={50}
+              loading="lazy"
               className={styles.arrowImg}
               style={{ position: "relative", top: "160px" }}
             />

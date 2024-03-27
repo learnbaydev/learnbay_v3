@@ -48,6 +48,7 @@ function GetHire() {
                   width={160}
                   height={190}
                   alt="getHire"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -64,6 +65,7 @@ function GetHire() {
                 width={550}
                 height={260}
                 alt="company"
+                loading="lazy"
               />
             </div>
             <div className={Styles.showMobile}>
@@ -72,6 +74,7 @@ function GetHire() {
                 width={550}
                 height={260}
                 alt="company"
+                loading="lazy"
               />
             </div>
           </div>

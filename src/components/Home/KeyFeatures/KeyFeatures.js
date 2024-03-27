@@ -72,6 +72,7 @@ const KeyFeatures = ({
               width={1148}
               height={414}
               alt="Learnbay"
+              loading="lazy"
             />
           </div>
           <div className={styles.imgShowM}></div>

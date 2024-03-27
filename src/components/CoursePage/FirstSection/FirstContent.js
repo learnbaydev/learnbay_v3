@@ -133,9 +133,9 @@ const FirstContent = ({
               <div className={ibmOnly ? styles.DAibm : styles.Desktop}>
 
                 {isguwati ? (<>  <p className={styles.ptop}>In Collaboration With</p> <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/iit-guwati.webp"
-                  width="220"
-                  height="50"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp"
+                  width="230"
+                  height="60"
                   priority
                   alt="data science course"
                 /></>) : (<> {DSWolf ? (<>
@@ -289,7 +289,7 @@ const FirstContent = ({
               {isguwati ? (<><p className={styles.ptoptwo}>In Collaboration With</p> <div className={styles.ImageBlock}>
 
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/iit-guwati.webp"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp"
                   width="340"
                   height="44"
                   priority

@@ -34,9 +34,11 @@ function FullStackSecondSection({ fullStackReview }) {
     <>
       <div className={styles.testimonial}>
         <div className={styles.line}>
-          <img
+          <Image
             src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/alumni-arrow.png"
-            width="80px"
+            width={80}
+            height={40}
+            loading="lazy"
           />
         </div>
         <section>
@@ -561,16 +563,16 @@ function FullStackSecondSection({ fullStackReview }) {
                         spaceBetween: 40,
                       },
 
-                      1281 : {
+                      1281: {
                         slidesPerView: 3.1,
                         spaceBetween: 20,
                       },
-                      1024 : {
+                      1024: {
                         slidesPerView: 2.1,
                         spaceBetween: 85,
                       },
-                    
-                    
+
+
                       961: {
                         slidesPerView: 3,
                         spaceBetween: 30,
@@ -579,8 +581,8 @@ function FullStackSecondSection({ fullStackReview }) {
                         slidesPerView: 1,
                         spaceBetween: 30,
                       },
-                      
-                    
+
+
                     }}
                   >
                     <SwiperSlide className={styles.slide}>

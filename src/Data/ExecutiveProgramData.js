@@ -167,10 +167,10 @@ export const ExcutiveProgramAIDS = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/certificate-guwati.webp",
         title: "Certification from E&ICT Academy, IIT Guwahati",
         para: [
-          "Upon successfully completing this program, you’ll earn a Executive program Certification in DS and AI in collaboration with IIT Guwahati   ",
+          "Upon successfully completing this program, you’ll earn a Executive program Certification in DS and AI in collaboration with E&ICT Academy, IIT Guwahati.   ",
 
 
-          "Access to lectures from top faculties of IIT Guwahati",
+          "Access to lectures from top faculties of E&ICT Academy, IIT Guwahati.",
           "Experential learning opportunity at IIT Guwahati campus",
 
         ],
@@ -637,13 +637,13 @@ export const ExcutiveProgramAIDS = [
           {
             id: 2,
             ques: "Why choose Learnbay for this Executive Program in Data Science & AI?            ",
-            ans: `Executive program in Data Science & AI will help you to enlighten better career prospects. The course also offers Guest Lectures from top faculties of IIT Guwahati, flexible learning options, Optional 2-day campus immersion at IIT Guwahati, real-time projects, and industry-relevant skills to modernize your Career.`,
+            ans: `Executive program in Data Science & AI will help you to enlighten better career prospects. The course also offers Guest Lectures from top faculties of E&ICT Academy, IIT Guwahati, flexible learning options, Optional 2-day campus immersion at IIT Guwahati, real-time projects, and industry-relevant skills to modernize your Career.`,
             open: false,
           },
           {
             id: 3,
             ques: "What Career can you have after completing the Executive Program in Data Science & AI?            ",
-            ans: `After the completion of the course, you will be able to earn an IIT Guwahati, IBM, and Microsoft course completion certificate. Having a certain type of certification can help you to gain the job career in a field such as -        
+            ans: `After the completion of the course, you will be able to earn an E&ICT Academy, IIT Guwahati, and IBM course completion certificate. Having a certain type of certification can help you to gain the job career in a field such as -        
             - Data Scientist
             - Data analyst / Business Intelligence Analyst
             - AI Engineer / Product Manager      
@@ -651,12 +651,7 @@ export const ExcutiveProgramAIDS = [
             - Machine learning Engineer            `,
             open: false,
           },
-          {
-            id: 4,
-            ques: "Is a master's in data science worth it?",
-            ans: "A master’s in data science and AI is worthy enough to support career transitions for working pros. Learners in any discipline can opt for this course if eager to expand their skills, earning potential, and job options. It provides a chance to redefine your skill sets and career at a global level",
-            open: false,
-          },
+        
           {
             id: 5,
             ques: "What all the topics are covered in the Executive Program in Data Science & AI?            ",
@@ -666,7 +661,7 @@ export const ExcutiveProgramAIDS = [
           },
           {
             id: 6,
-            ques: "Who can be part of this IIT Guwahati Data Science and Artificial Intelligence program?            ",
+            ques: "Who can be part of this E&ICT Academy, IIT Guwahati Data Science and Artificial Intelligence program?            ",
             ans: `The training course is meticulously curated for Individuals wanting to start a career in Data Science and seeking further to enhance their skills with a top-level IIT accreditation. 
               
               `,
@@ -674,8 +669,8 @@ export const ExcutiveProgramAIDS = [
           },
           {
             id: 7,
-            ques: "What is the benefit of getting Advanced Data Science & AI certification from IIT Guwahati?            ",
-            ans: `There are immersive benefits for advanced data science & AI certification from IIT Guwahati. The course caters to Advanced Certification of Full Stack Data Science & AI, jointly offered by E&ICT Academy, IIT Guwahati. In addition, you will eventually acquire the Career Service Pro feature with dedicated placement cells.
+            ques: "What is the benefit of getting Advanced Data Science & AI certification from E&ICT Academy, IIT Guwahati?            ",
+            ans: `There are immersive benefits for advanced data science & AI certification from E&ICT Academy, IIT Guwahati. The course caters to Advanced Certification of Full Stack Data Science & AI, jointly offered by E&ICT Academy, IIT Guwahati. In addition, you will eventually acquire the Career Service Pro feature with dedicated placement cells.
               
               
               `,
@@ -701,8 +696,8 @@ export const ExcutiveProgramAIDS = [
           },
           {
             id: 10,
-            ques: "Is the Advanced Data Science & AI certification from IIT Guwahati globally recognized?            ",
-            ans: `We know that IIT plays an essential role in creating top-notch techs across the globe. Similarly, the Advanced Data Science & AI certification from IIT Guwahati holds a strong posting to facilitate globally recognized certification for better professional and Career endeavors. 
+            ques: "Is the Advanced Data Science & AI certification from E&ICT Academy of IIT Guwahati globally recognized?            ",
+            ans: `We know that IIT plays an essential role in creating top-notch techs across the globe. Similarly, the Advanced Data Science & AI certification from E&ICT Academy of IIT Guwahati holds a strong posting to facilitate globally recognized certification for better professional and Career endeavors. 
 
               
               

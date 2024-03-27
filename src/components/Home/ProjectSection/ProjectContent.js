@@ -28,6 +28,7 @@ const ProjectContent = ({ ids }) => {
                 height="212"
                 alt="profile-Img"
                 onClick={() => videoSHow()}
+                
               />
             </div>
             <p className={styles.BlueHed}>Project Innovation Lab</p>

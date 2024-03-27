@@ -77,11 +77,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Best Data Science Course Training in Pune [2024]</title>
+        <title>BEST DATA SCIENCE COURSE TRAINING IN PUNE</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content=" Are you searching for the best data science courses online in Pune? Learnbay is providing the best online data science course training in Pune. Visit now."
+          content="Enroll in Learnbay's proven GenAI-rich data science course in Pune to escalate competitive success with 100% placement assistance. Visit now."
         />
         <meta
           name="keywords"
