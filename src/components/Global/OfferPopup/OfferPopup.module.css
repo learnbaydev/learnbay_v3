@@ -31,7 +31,7 @@
 }
 .header h6 {
   text-align: center;
-  font-size: 27px;
+  font-size: 24px;
   font-weight: 900;
   margin: 0;
   color: #f99600;
@@ -104,15 +104,11 @@
 }
 .Icon {
   position: absolute;
-  font-size: 18px;
-  top: 0px;
+  font-size: 12px;
+  color: #ffffff;
+  top: -4px;
   right: 10px;
   cursor: pointer;
-  border: 1px solid;
-  padding: 2px 5px;
-  color: #282828;
-  background-color: #fff;
-  border-radius: 50px;
 }
 .hide {
   display: none;
@@ -124,7 +120,7 @@
 @media (max-width: 481px) {
   .OfferPopup {
     width: 95%;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     height: max-content;
     left: 10px;
     padding:  0px 0px 30px 0px;
@@ -136,15 +132,19 @@
     font-size: 16px;
   }
   .btnWrap {
-    display: none;
+    /* display: none; */
+    width: 100%;
   }
   .bHeading {
     font-size: 16px;
   }
   .tag {
-    bottom: -10px;
+    bottom: -30px;
     right: 0;
     padding: 5px 25px;
+  }
+  .OfferPopup button {
+    width: 100%;
   }
   .tag::after {
     display: none;
@@ -154,14 +154,10 @@
   }
   .Icon {
     position: absolute;
-    font-size: 16px;
+    font-size: 12px;
+    color: #ffffff;
     top: -8px;
-    right: 0px;
+    right: 10px;
     cursor: pointer;
-    border: 1px solid;
-    padding: 2px 5px;
-    color: #282828;
-    background-color: #fff;
-    border-radius: 50px;
   }
 }

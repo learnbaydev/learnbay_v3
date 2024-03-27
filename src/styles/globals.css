@@ -388,7 +388,8 @@ iframe {
     width: 100vw;
   }
   .flDivLeft {
-    display: flex;
+    display: none;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     backdrop-filter: blur(16px) saturate(180%);
