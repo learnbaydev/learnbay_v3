@@ -38,7 +38,7 @@ const FirstContent = ({
   backgorunimg,
   isSpecialPage,
   isguwati,
-  backgroundImage
+  backgroundImage,
 }) => {
   const texts = [
     "Guaranteed Interview Calls",
@@ -119,9 +119,11 @@ const FirstContent = ({
       <div className={styles.First} style={backgorunimg ? containerStyle : {}}>
         <div className={styles.FirstLeft}>
           {topHide ? "" : <p className={styles.ptopC}>{firstTopPara}</p>}
-          <h1 className={`${styles.h1} ${isSpecialPage ? styles.specialPageH1 : ""}`}>
-
-
+          <h1
+            className={`${styles.h1} ${
+              isSpecialPage ? styles.specialPageH1 : ""
+            }`}
+          >
             {firstHeading}{" "}
             <span className={styles.h1Span}>{firstToparaImg}</span>
           </h1>
@@ -131,135 +133,171 @@ const FirstContent = ({
           ) : (
             <>
               <div className={ibmOnly ? styles.DAibm : styles.Desktop}>
-
-                {isguwati ? (<>  <p className={styles.ptop}>In Collaboration With</p> <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp"
-                  width="230"
-                  height="60"
-                  priority
-                  alt="data science course"
-                /></>) : (<> {DSWolf ? (<>
-                  <p className={styles.ptop}>Degree & Certification(s)</p>
-                  <div className={styles.ImageBlock}>
-
+                {isguwati ? (
+                  <>
+                    {" "}
+                    <p className={styles.ptop}>In Collaboration With</p>{" "}
                     <Image
-                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/DS-only.webp"
-                      width="430"
-                      height="44"
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp"
+                      width="230"
+                      height="60"
                       priority
                       alt="data science course"
                     />
-
-                  </div></>) : (<> <p className={styles.ptop}>In Collaboration With</p>
-                    <div className={styles.ImageBlock}>
-
-                      {ibmOnly ? (
-                        <Image
-                          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ibmnew.webp"
-                          width="70"
-                          height="30"
-                          priority
-                          alt="data science course"
-                        />
-                      ) : (
-                        <Image
-                          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp"
-                          width="266"
-                          height="48"
-                          priority
-                          alt="data science course"
-                        />
-                      )}
-
-                    </div></>)}</>)}
-
-
-
-
-
-
+                  </>
+                ) : (
+                  <>
+                    {" "}
+                    {DSWolf ? (
+                      <>
+                        <p className={styles.ptop}>Degree & Certification(s)</p>
+                        <div className={styles.ImageBlock}>
+                          <Image
+                            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/DS-only.webp"
+                            width="430"
+                            height="44"
+                            priority
+                            alt="data science course"
+                          />
+                        </div>
+                      </>
+                    ) : (
+                      <>
+                        {" "}
+                        <p className={styles.ptop}>In Collaboration With</p>
+                        <div className={styles.ImageBlock}>
+                          {ibmOnly ? (
+                            <Image
+                              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ibmnew.webp"
+                              width="70"
+                              height="30"
+                              priority
+                              alt="data science course"
+                            />
+                          ) : (
+                            <Image
+                              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp"
+                              width="266"
+                              height="48"
+                              priority
+                              alt="data science course"
+                            />
+                          )}
+                        </div>
+                      </>
+                    )}
+                  </>
+                )}
               </div>
 
-
-              {isguwati ? (<>
-                <div className={styles.twodiv}>
-                  <div className={styles.divone}><span>⬤</span> flexible timing</div>
-                  <div className={styles.divone}><span>⬤</span> on-demand doubt clearing</div>
-
-                </div>
-
-
-              </>) : (<> {fresher ? (
-                <div className={styles.animationTextWrap}>
-
-
-                  <span className={styles.animationText}>Guaranteed Interview Calls</span>
-                </div>
-
+              {isguwati ? (
+                <>
+                  <div className={styles.twodiv}>
+                    <div className={styles.divone}>
+                      <span>⬤</span> flexible timing
+                    </div>
+                    <div className={styles.divone}>
+                      <span>⬤</span> on-demand doubt clearing
+                    </div>
+                  </div>
+                </>
               ) : (
                 <>
-                  {IBMGl ? (
+                  {" "}
+                  {fresher ? (
                     <div className={styles.animationTextWrap}>
-                      {textfresher.map((text, index) => (
-                        <div
-                          key={index}
-                          className={styles.verticalSlideWrapper}
-                        >
-                          <span className={styles.animationText}>{text}</span>
-                        </div>
-                      ))}
+                      <span className={styles.animationText}>
+                        Guaranteed Interview Calls
+                      </span>
                     </div>
                   ) : (
-                    <div className={styles.animationTextWrap}>
-                      {texts.map((text, index) => (
-                        <div
-                          key={index}
-                          className={styles.verticalSlideWrapper}
-                        >
-                          <span className={styles.animationText}>{text}</span>
+                    <>
+                      {IBMGl ? (
+                        <div className={styles.animationTextWrap}>
+                          {textfresher.map((text, index) => (
+                            <div
+                              key={index}
+                              className={styles.verticalSlideWrapper}
+                            >
+                              <span className={styles.animationText}>
+                                {text}
+                              </span>
+                            </div>
+                          ))}
                         </div>
-                      ))}
-                    </div>
+                      ) : (
+                        <div className={styles.animationTextWrap}>
+                          {texts.map((text, index) => (
+                            <div
+                              key={index}
+                              className={styles.verticalSlideWrapper}
+                            >
+                              <span className={styles.animationText}>
+                                {text}
+                              </span>
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                    </>
                   )}
                 </>
-              )}</>)}
+              )}
 
-              {isguwati ? (<><div className={styles.btnImage}>
-                <div onClick={popupShow}>
-                  <Button bannerButton={true} text="EXPLORE SYLLABUS" />
-                </div>
-                {softwareBtnHide ? (
-                  ""
-                ) : (
-                  <Link href="/master-application">
-                    <div className={styles.btnImage}>
-                      <Button whiteBgButton={true} text="START MY APPLICATION" />
+              {isguwati ? (
+                <>
+                  <div className={styles.btnImage}>
+                    <div onClick={popupShow}>
+                      <Button bannerButton={true} text="EXPLORE SYLLABUS" />
                     </div>
-                  </Link>
-                )}
-              </div></>) : (<div className={styles.btnImage}>
-                <div onClick={popupShow}>
-                  <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
-                </div>
-                {softwareBtnHide ? (
-                  ""
-                ) : (
-                  <div onClick={videoShow} className={styles.FaPlay}>
-                    INTRO VIDEO <FaYoutube className={styles.IconYou} />
+                    {softwareBtnHide ? (
+                      ""
+                    ) : (
+                      <Link href="/master-application">
+                        <div className={styles.btnImage}>
+                          <Button
+                            whiteBgButton={true}
+                            text="START MY APPLICATION"
+                          />
+                        </div>
+                      </Link>
+                    )}
                   </div>
-                )}
-              </div>)}
-
-
-
-
+                </>
+              ) : (
+                <div className={styles.btnImage}>
+                  <div onClick={popupShow}>
+                    <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
+                  </div>
+                  {softwareBtnHide ? (
+                    ""
+                  ) : (
+                    <div onClick={videoShow} className={styles.FaPlay}>
+                      INTRO VIDEO <FaYoutube className={styles.IconYou} />
+                    </div>
+                  )}
+                </div>
+              )}
             </>
           )}
         </div>
 
         <div className={styles.secondLeft}>
           <div className={styles.form}>
-            {isguwati ? (<> <h4>Interested in <span style={{ color: "#f99600" }}>  Degree?</span></h4></>) : (<> <h4>Free Career Counselling</h4></>)}
+            {isguwati ? (
+              <>
+                {" "}
+                <h4>
+                  Interested in{" "}
+                  <span style={{ color: "#f99600" }}> Degree?</span>
+                </h4>
+              </>
+            ) : (
+              <>
+                {" "}
+                <h4>Free Career Counselling</h4>
+              </>
+            )}
 
             <Form
               dataScience={dataScience}
@@ -286,84 +324,114 @@ const FirstContent = ({
         {mobile ? (
           <>
             <div className={styles.Mobile}>
-              {isguwati ? (<><p className={styles.ptoptwo}>In Collaboration With</p> <div className={styles.ImageBlock}>
-
-                <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp"
-                  width="340"
-                  height="44"
-                  priority
-                  alt="data science course"
-                  className={styles.imgguwati}
-                />
-
-              </div></>) : (<> {DSWolf ? (<>
-                <p className={styles.ptop}>Degree & Certification(s)</p>
-                <div className={styles.ImageBlock}>
-
-                  <Image
-                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/DS-only.webp"
-                    width="340"
-                    height="44"
-                    priority
-                    alt="data science course"
-
-                  />
-
-                </div></>) : (<> <p className={styles.ptop}>In Collaboration With</p></>)}
-
-                <div className={styles.ImageBlock}>
-
-
-                  {ibmOnly ? (
+              {isguwati ? (
+                <>
+                  <p className={styles.ptoptwo}>In Collaboration With</p>{" "}
+                  <div className={styles.ImageBlock}>
                     <Image
-                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ibmnew.webp"
-                      width="70"
-                      height="30"
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp"
+                      width="340"
+                      height="44"
                       priority
                       alt="data science course"
+                      className={styles.imgguwati}
                     />
-                  ) : (
-                    <Image
-                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp"
-                      width="250"
-                      height="40"
-                      priority
-                      alt="data science course"
-                    />
-                  )}
-                </div></>)}
-              {isguwati ? (<div className={styles.twodiv}>
-                <div className={styles.divone}><span>⬤</span> flexible timing</div>
-                <div className={styles.divone}><span>⬤</span> on-demand doubt clearing</div>
-
-              </div>) : ("")}
-
-              {isguwati ? (<>   <div className={styles.btnImageMobile}>
-                <div onClick={popupShow}>
-                  <Button bannerButton={true} text="EXPLORE PROGRAM" />
-                </div>
-                {softwareBtnHide ? (
-                  ""
-                ) : (
-                  <Link href="/master-application">
-                    <div >
-                      <Button whiteBgButton={true} text="START MY APPLICATION" />
-                    </div>
-                  </Link>
-                )}
-              </div></>) : (<>   <div className={styles.btnImageMobile}>
-                <div onClick={popupShow}>
-                  <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
-                </div>
-                {softwareBtnHide ? (
-                  ""
-                ) : (
-                  <div onClick={videoShow} className={styles.FaPlay}>
-                    INTRO VIDEO <FaYoutube className={styles.IconYou} />
                   </div>
-                )}
-              </div></>)}
+                </>
+              ) : (
+                <>
+                  {" "}
+                  {DSWolf ? (
+                    <>
+                      <p className={styles.ptop}>Degree & Certification(s)</p>
+                      <div className={styles.ImageBlock}>
+                        <Image
+                          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/DS-only.webp"
+                          width="340"
+                          height="44"
+                          priority
+                          alt="data science course"
+                        />
+                      </div>
+                    </>
+                  ) : (
+                    <>
+                      {" "}
+                      <p className={styles.ptop}>In Collaboration With</p>
+                    </>
+                  )}
+                  <div className={styles.ImageBlock}>
+                    {ibmOnly ? (
+                      <Image
+                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ibmnew.webp"
+                        width="70"
+                        height="30"
+                        priority
+                        alt="data science course"
+                      />
+                    ) : (
+                      <Image
+                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp"
+                        width="250"
+                        height="40"
+                        priority
+                        alt="data science course"
+                      />
+                    )}
+                  </div>
+                </>
+              )}
+              {isguwati ? (
+                <div className={styles.twodiv}>
+                  <div className={styles.divone}>
+                    <span>⬤</span> flexible timing
+                  </div>
+                  <div className={styles.divone}>
+                    <span>⬤</span> on-demand doubt clearing
+                  </div>
+                </div>
+              ) : (
+                ""
+              )}
+
+              {isguwati ? (
+                <>
+                  {" "}
+                  <div className={styles.btnImageMobile}>
+                    <div onClick={popupShow}>
+                      <Button bannerButton={true} text="EXPLORE PROGRAM" />
+                    </div>
+                    {softwareBtnHide ? (
+                      ""
+                    ) : (
+                      <Link href="/master-application">
+                        <div>
+                          <Button
+                            whiteBgButton={true}
+                            text="START MY APPLICATION"
+                          />
+                        </div>
+                      </Link>
+                    )}
+                  </div>
+                </>
+              ) : (
+                <>
+                  {" "}
+                  <div className={styles.btnImageMobile}>
+                    <div onClick={popupShow}>
+                      <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
+                    </div>
+                    {softwareBtnHide ? (
+                      ""
+                    ) : (
+                      <div onClick={videoShow} className={styles.FaPlay}>
+                        INTRO VIDEO <FaYoutube className={styles.IconYou} />
+                      </div>
+                    )}
+                  </div>
+                </>
+              )}
 
               <div className={styles.secondLeft}>
                 <div className={styles.form}>

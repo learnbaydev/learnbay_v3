@@ -310,7 +310,7 @@ export const CityFooterData = [
             url: "/datascience/usa/data-science-course-training-in-usa",
           },
           {
-            id: 1,
+            id: 2,
             name: "Master's Degree in Data Science in USA",
             url: "/datascience/usa/masters-degree-in-data-science-in-usa",  
           },
@@ -363,18 +363,15 @@ export const CityFooterData = [
             name: "Data Science Course Training in Bangladesh",
             url: "/datascience/bangladesh/data-science-course-training-in-bangladesh",
           },
-        ],
-      },
-      {
-        id: "Dhaka",
-        city: "Dhaka",
-        cityData: [
           {
             id: 1,
             name: "Data Science Course Training in Dhaka",
             url: "/datascience/dhaka/data-science-course-training-in-dhaka",
           },
         ],
+      
+         
+      
       },
       {
         id: "Vietnam",

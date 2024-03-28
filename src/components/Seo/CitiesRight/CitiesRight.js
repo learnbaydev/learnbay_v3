@@ -2226,9 +2226,9 @@ const CitiesRight = ({
 
             <ul>
               <li>
-                If you’re an employed professional seeking first-rate
-                mentoring and practical experience on real-world projects, this
-                program is for you.
+                If you’re an employed professional seeking first-rate mentoring
+                and practical experience on real-world projects, this program is
+                for you.
               </li>
               <li>
                 This custom-fit course lets you master Data Science and AI
@@ -2735,7 +2735,7 @@ const CitiesRight = ({
         {cityTextMasterUSA ? (
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
-              Presenting Learnbay’s GenAI-rich Data Science Masters Programs
+              Presenting Learnbay’s GenAI-rich Data Science Master Degrees
             </h4>
             <p>
               The USA is a digitally advanced country, welcoming huge tech
@@ -2744,7 +2744,7 @@ const CitiesRight = ({
               informed decisions.
             </p>
             <p>
-              The <i>global data science platform expects</i> a 29% growth by
+              The <i>global data science platform</i> expects a 29% growth by
               2029 paving the way for a data-driven future. Following the growth
               trend, the US job market outlook sees major changes. The Bureau of
               Labor Statistics expects a 35.2% growth in data scientist jobs in
@@ -2755,14 +2755,7 @@ const CitiesRight = ({
               <b>Top data science masters programs in USA</b> attract working
               pro’s focus for a smooth career switch. Yet, it does not
               necessarily justify career building with the latest tools useful
-              to various domains. Learnbay’s{" "}
-              <a
-                style={{ color: "#0072bc" }}
-                href="https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs"
-                target="_blank"
-              >
-                master’s degree in data science
-              </a>{" "}
+              to various domains. Learnbay’s master’s degree in data science
               focuses on domain-driven upskilling. It supports tech and non-tech
               experts to redefine their careers globally.
             </p>
@@ -2776,15 +2769,14 @@ const CitiesRight = ({
 
             <p>
               We believe in uninterrupted learning, which is vital for swift
-              promotion and hikes. Thus, our{" "}
-              <b>master of data science in USA</b>
-              offers a proven job assistance program. Learners opting for{" "}
-              <i>Career Service Pro</i> will have an elite chance to mark a
+              promotion and hikes. Thus, our master degree for data science in
+              USA offers a proven job assistance program. Learners opting for
+              Career Service Pro will have an elite chance to mark a
               global-scale success across MNCs in the USA & overseas.
             </p>
             <p>
               In addition, an internationally accredited master’s degree (Woolf
-              University) and IBM project certificate empower your career.
+              University) and IBM project certificate empower your career. .
             </p>
             <br />
             <h4 style={{ fontSize: "20px" }}>
@@ -3470,24 +3462,43 @@ const CitiesRight = ({
         {cityTextDhaka ? (
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
-              Briefing on a Trend-setting Data Science Course in Dhaka [In Collaboration with IBM & Microsoft]
-
+              Briefing on a Trend-setting Data Science Course in Dhaka [In
+              Collaboration with IBM & Microsoft]
             </h4>
             <p>
-              In the context of today’s era of digital modernity, data science has emerged as a trendsetter for working experts from diversified backgrounds. The demand for skillful data scientists is increasing dramatically, following emerging trends. No wonder, data science is a rewarding and ambitious field for many experts eager to redefine themselves. Thus, signup rates for a data science training institute in Dhaka are increasing.
-
+              In the context of today’s era of digital modernity, data science
+              has emerged as a trendsetter for working experts from diversified
+              backgrounds. The demand for skillful data scientists is increasing
+              dramatically, following emerging trends. No wonder, data science
+              is a rewarding and ambitious field for many experts eager to
+              redefine themselves. Thus, signup rates for a data science
+              training institute in Dhaka are increasing.
             </p>
             <p>
-              As data usage increases at a rapid pace, tech-savvy businesses prefer data-driven methods to grow. Learnbay concocts an advanced career path for experts with stagnant skill sets via its top-tier data science courses. Our programs are thoroughly curated as per current data trends to ascertain success. We aim for effortless career updates with proven upskilling ways.
+              As data usage increases at a rapid pace, tech-savvy businesses
+              prefer data-driven methods to grow. Learnbay concocts an advanced
+              career path for experts with stagnant skill sets via its top-tier
+              data science courses. Our programs are thoroughly curated as per
+              current data trends to ascertain success. We aim for effortless
+              career updates with proven upskilling ways.
             </p>
             <p>
-              Plus, our domain-focused data science course in Dhaka dilates our knowledge base with competitive skills. Experts level up their existing domain knowledge according to current trends. Plus, our globally recognized certifications from IBM & Microsoft validate your skills with excelling job roles.
-
+              Plus, our domain-focused data science course in Dhaka dilates our
+              knowledge base with competitive skills. Experts level up their
+              existing domain knowledge according to current trends. Plus, our
+              globally recognized certifications from IBM & Microsoft validate
+              your skills with excelling job roles.
             </p>
             <br />
-            <h4 style={{ fontSize: "20px" }}>What are the vital career gains that you can expect from our data science training institute in Dhaka?
+            <h4 style={{ fontSize: "20px" }}>
+              What are the vital career gains that you can expect from our data
+              science training institute in Dhaka?
             </h4>
-            <p>Experts with basic domain knowledge and a bachelor’s degree in computer science or non-tech fields can opt for data science. Upskilling with a data science course will drive attainable career success with prime gains like –
+            <p>
+              Experts with basic domain knowledge and a bachelor’s degree in
+              computer science or non-tech fields can opt for data science.
+              Upskilling with a data science course will drive attainable career
+              success with prime gains like –
             </p>
             <br />
 
@@ -3497,10 +3508,13 @@ const CitiesRight = ({
               <li>Job offers with hikes across Dhaka and overseas</li>
             </ul>
             <br />
-            <p><b>Note:</b> Our master’s program equips you with a globally accredited degree from Woolf University. These credentials and degrees unlock a favorable career path on a global scale. Thus, enroll in our courses today and unleash your potential for faster success.
+            <p>
+              <b>Note:</b> Our master’s program equips you with a globally
+              accredited degree from Woolf University. These credentials and
+              degrees unlock a favorable career path on a global scale. Thus,
+              enroll in our courses today and unleash your potential for faster
+              success.
             </p>
-
-
           </div>
         ) : (
           ""
@@ -4974,7 +4988,6 @@ const CitiesRight = ({
                 <></>
               ) : (
                 <>
-
                   <ul className={styles.pp}>
                     <li>{Joblist23}</li>
                     <li>{Joblist24}</li>
@@ -4999,21 +5012,29 @@ const CitiesRight = ({
 
               <h4 style={{ fontSize: "20px" }}>{JobHead10}</h4>
               <p className={styles.pp}>{JobBot29}</p>
-              <i><p className={styles.pp}>{JobBot31}</p></i>
-              {onlyDhaka ? (<>   <ul>
-                <li>{ListJob1}</li>
-                <li>{ListJob2}</li>
-                <li>{ListJob3}</li>
-                <li>{ListJob4}</li>
-                <li>{ListJob5}</li>
-                <li>{ListJob6}</li>
-                <li>{ListJob7}</li>
-                <li>{ListJob8}</li>
-                <li>{ListJob9}</li>
-                <li>{ListJob10}</li>
-                <p>{ListJobBot1}</p>
-              </ul></>) : (<></>)}
-
+              <i>
+                <p className={styles.pp}>{JobBot31}</p>
+              </i>
+              {onlyDhaka ? (
+                <>
+                  {" "}
+                  <ul>
+                    <li>{ListJob1}</li>
+                    <li>{ListJob2}</li>
+                    <li>{ListJob3}</li>
+                    <li>{ListJob4}</li>
+                    <li>{ListJob5}</li>
+                    <li>{ListJob6}</li>
+                    <li>{ListJob7}</li>
+                    <li>{ListJob8}</li>
+                    <li>{ListJob9}</li>
+                    <li>{ListJob10}</li>
+                    <p>{ListJobBot1}</p>
+                  </ul>
+                </>
+              ) : (
+                <></>
+              )}
             </>
           )}
         </div>
