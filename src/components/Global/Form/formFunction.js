@@ -205,6 +205,7 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
         { value: "WhatsApp", label: "WhatsApp" },
         { value: "Referral", label: "Referral" },
         { value: "Krishna Sir", label: "Krishna Sir" },
+        { value: "Walk-In", label: "Walk-In" },
       ],
       required: google, // Conditionally required
       showField: google, // Conditionally render the field
