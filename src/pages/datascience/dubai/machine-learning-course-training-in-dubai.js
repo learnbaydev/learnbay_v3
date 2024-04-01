@@ -163,7 +163,7 @@ export default function Home() {
           idss="Jn2puEQC8yk"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/AIML-Header.png"
           firstToparaImg="For Managers and Leaders"
-          firstHeading="Artificial Intelligence (AI) Course Training in Dubai"
+          firstHeading="Machine Learning (ML) Course Training in Dubai"
           firstTopPara="Job-oriented Data Science Training for working professionals"
           cityParaCont=" Be eligible to work as an AI/ML expert in MNC/PRODUCT Based Companies. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."
         />

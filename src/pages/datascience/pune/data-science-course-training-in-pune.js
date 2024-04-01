@@ -77,7 +77,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>BEST DATA SCIENCE COURSE TRAINING IN PUNE</title>
+        <title> Best Data Science Course Training in Pune</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"

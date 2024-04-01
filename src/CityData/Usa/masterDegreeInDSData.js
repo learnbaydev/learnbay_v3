@@ -436,12 +436,13 @@ export const masterdegreeUSACourseData = [
       },
     ],
 
-    DomainHead1: "Learnbay’s Domain-specific Data Science Masters in US      ",
+    DomainHead1:
+      "Learnbay’s Domain-specific Data Science Masters Programs USA    ",
     DomainBot1:
-      "Learnbay’s data science masters programs in the USA believe in domain-focused training. Our mentors guide experts to refine prior domain knowledge with advanced data science tools and trends. It enriches career values and unlocks the way toward a progressing future.         ",
+      "Learnbay’s data science master degrees in the USA believe in domain-focused training. Our mentors guide experts to refine prior domain knowledge with advanced data science tools and trends. It enriches career values and unlocks the way toward a progressing future.       ",
     DomainBot2:
       "Our master’s course modules follow current GenAI trends and their uses across diverse domains. Thus, it has become an effective way to succeed for mid-career level pros.       ",
-      DomainMasterh4: "Domain Electives       ",
+    DomainMasterh4: "Domain Electives       ",
     DomainMasterBot1:
       "Learnbay’s MS in data science in USA online offers cutting-edge training in trending domains. They are –      ",
     DomainList1: "• BFSI",
@@ -492,34 +493,34 @@ export const masterdegreeUSACourseData = [
     CertificationBot3:
       " Learnbay’s master’s in data science in USA expands the chances of global career success. Learners from diverse domains enroll here for our globally recognized certification. We offer an IBM certification, once you complete your capstone projects. It validates your skills and expertise according to today’s data science trends and updates.       ",
     CertificationBot4: " ",
-    ModuleMasterBot1:"Learnbay’s data science masters programs offer Generative AI-rich modules that equip your skill sets with job-driven expertise. The modules are curated following the changing data trends and job market outlook. Experts (tech/non-tech) learn basic and advanced versions of data science. The course modules refine basic concepts with hands-on learning of tools via projects.     ",
+    ModuleMasterBot1:
+      "Learnbay’s data science masters programs offer Generative AI-rich modules that equip your skill sets with job-driven expertise. The modules are curated following the changing data trends and job market outlook. Experts (tech/non-tech) learn basic and advanced versions of data science. The course modules refine basic concepts with hands-on learning of tools via projects.     ",
     ModuleHead1: "Learning Outcomes     ",
-    
+
     ModuleMasterHead1: "Specialization 1: Data Science & Data Analytics ",
 
-    ModuleBot1:
-      " ",
-    ModuleBot2:
-      "     ",
+    ModuleBot1: " ",
+    ModuleBot2: "     ",
     Modulelist1: "Basics of Excel in Data Analysis    ",
     Modulelist2: "Basics of SQL with in-demand tools    ",
-    Modulelist3:
-      "Big data and Data visualization tools       ",
+    Modulelist3: "Big data and Data visualization tools       ",
     Modulelist4: "Power BI for data modeling and Google Looker    ",
     Modulelist5: "ML systems, Deep learning and its uses    ",
 
     Modulelist6: "Real-time projects for different domains    ",
     Modulelist7: "Generative AI tools and trends    ",
-    ModuleMasterHead2:"Specialization 2: Artificial Intelligence & Machine Learning",
-ModuleMasterlist1:"Deep learning and its uses (Computer Vision)",
-ModuleMasterlist2:"Deep learning and NLP",
-ModuleMasterlist3:"High-dimensional tools for data analysis ",
-ModuleMasterlist4:"GenAI tools and trends",
-ModuleMasterlist5:"Basic and advanced services of data structures and algorithms (DSA)",
-ModuleMasterlist6:"Case studies ",
-ModuleMasterlist7:"Real-time projects for diverse domains",
-ModuleMasterBot2:"Apart from these specialized modules, each learner will gain insights into data basics and statistical functions. Our foundation track and statistics module will refine your basic numerical and coding ability for job readiness. In short, learners opting for a master’s degree in data science in the USA will receive in-detailed upskilling with the latest tools. ",
-
+    ModuleMasterHead2:
+      "Specialization 2: Artificial Intelligence & Machine Learning",
+    ModuleMasterlist1: "Deep learning and its uses (Computer Vision)",
+    ModuleMasterlist2: "Deep learning and NLP",
+    ModuleMasterlist3: "High-dimensional tools for data analysis ",
+    ModuleMasterlist4: "GenAI tools and trends",
+    ModuleMasterlist5:
+      "Basic and advanced services of data structures and algorithms (DSA)",
+    ModuleMasterlist6: "Case studies ",
+    ModuleMasterlist7: "Real-time projects for diverse domains",
+    ModuleMasterBot2:
+      "Apart from these specialized modules, each learner will gain insights into data basics and statistical functions. Our foundation track and statistics module will refine your basic numerical and coding ability for job readiness. In short, learners opting for a master’s degree in data science in the USA will receive in-detailed upskilling with the latest tools. ",
 
     syllabush1: " Preparatory Classes (Programming + Maths)",
     syllabusb1: "6 Hours",
@@ -557,32 +558,26 @@ ModuleMasterBot2:"Apart from these specialized modules, each learner will gain i
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
     JobHead1:
       "What career-oriented skills can you develop with Learnbay’s MS in data science?      ",
-      MasterJobBot1:"Our masters in data science and artificial intelligence USA support industry-led upskilling. Experts enrolling here will gain 360-degree knowledge (theoretical and practical) in Data Science and AI.      ",
-      MasterJobSpan1:" Some promising job-driven skills are –",
+    MasterJobBot1:
+      "Our masters in data science and artificial intelligence USA support industry-led upskilling. Experts enrolling here will gain 360-degree knowledge (theoretical and practical) in Data Science and AI.      ",
+    MasterJobSpan1: " Some promising job-driven skills are –",
 
-      Joblist1: "Coding skills      ",
+    Joblist1: "Coding skills      ",
     Joblist2: "Advanced ML skills to handle complex data sets    ",
     Joblist3:
       "Expertise in data analysis and creation of dashboards with prime visual tools      ",
-    Joblist4:
-      "Advanced data modeling and exploration       ",
-    Joblist5:
-      "Skills in deep learning, NLP, and ML systems      ",
-    Joblist6:
-      "A Future-proofing career with GenAI-rich tools      ",
-    Joblist7:
-      "Expertise in DSA      ",
-    Joblist8: "Job-driven skills via case studies and live projects in your domain    ",
-    Joblist9:
-      "   Statistical analysis      ",
-    Joblist10:
-      "   Predictive analytics      ",
-    Joblist11:
-      "     Big data      ",
+    Joblist4: "Advanced data modeling and exploration       ",
+    Joblist5: "Skills in deep learning, NLP, and ML systems      ",
+    Joblist6: "A Future-proofing career with GenAI-rich tools      ",
+    Joblist7: "Expertise in DSA      ",
+    Joblist8:
+      "Job-driven skills via case studies and live projects in your domain    ",
+    Joblist9: "   Statistical analysis      ",
+    Joblist10: "   Predictive analytics      ",
+    Joblist11: "     Big data      ",
     Joblist12: "   High-dimensional data analysis    ",
     Joblist13: "   AI tools and trends    ",
-    JobBot19:
-      "       ",
+    JobBot19: "       ",
 
     JobHead19: "Career Service Pro – Learnbay’s Job & Placement Program    ",
 
@@ -591,30 +586,32 @@ ModuleMasterBot2:"Apart from these specialized modules, each learner will gain i
     Joblist14: "Resume Building/1:1 Doubt-clearing     ",
     Joblist15: "Reviewing LinkedIn Profiles and Unlimited Interview Calls     ",
     Joblist16: "Exclusive Job Assist for 3 years     ",
-    Joblist17: "Six 1:1 Mock Interviews with leading MNCs (our 450+ industry partners)    ",
+    Joblist17:
+      "Six 1:1 Mock Interviews with leading MNCs (our 450+ industry partners)    ",
     Joblist18: "1:1 Doubt-clearing     ",
-    Joblist19: "Six 1:1 Mock Interviews with leading MNCs (our 450+ industry partners)    ",
+    Joblist19:
+      "Six 1:1 Mock Interviews with leading MNCs (our 450+ industry partners)    ",
 
-    JobBotMasterBot4:"Unlike standard upskilling programs, we offer the best online data science masters with unparalleled career success.     ",
+    JobBotMasterBot4:
+      "Unlike standard upskilling programs, we offer the best online data science masters with unparalleled career success.     ",
     JobHead21: "Is Learnbay’s data science masters in US worth it?     ",
     JobBot21:
       "Experts eager to revamp their slow-paced careers in today’s digital space can enroll in our MS in data science program. The USA expects a fast-paced rise of data science trends across diverse sectors. This makes data science a rising career for many working pros.       ",
     JobBot22:
-      "Learnbay’s masters in data science helps you understand the career trajectory with vital gains. We provide hassle-free career support for swift promotions and hikes in your dream roles. Learners gain an inclusive learning space with our live instructor-led sessions. Hands-on learning via live projects refines the pre-existing skill sets with validation from IBM.       ",
-      JobBotMasterBot5: "Plus, 60+ countries recognized Woolf University's master’s degree in data science unlocks a promising career path. ",
+      "Learnbay’s masters in data science help you understand the career trajectory with vital gains. We provide hassle-free career support for swift promotions and hikes in your dream roles. Learners gain an inclusive learning space with our live instructor-led sessions. Hands-on learning via live projects refines the pre-existing skill sets with validation from IBM.       ",
+    JobBotMasterBot5:
+      "Plus, 60+ countries recognized Woolf University's master’s degree in data science unlocks a promising career path.       ",
 
-   
-      JobBot23: "   ",
+    JobBot23: "   ",
     Joblist50: "     ",
     Joblist51: "      ",
     Joblist52: "      ",
     Joblist53: "    ",
-    Joblist54:
-      "    ",
+    Joblist54: "    ",
     JobHead22:
       "What career roles can you unlock with our data science masters programs?       ",
     JobBot24:
-      "Upskilling via a master of data science in USA can unlock top-tier career roles across the leading MNCs.       ",
+      "Upskilling via a master degree for data science in USA can unlock top-tier career roles across the leading MNCs.       ",
     Joblist23: "Data Scientist (Junior/Senior/Manager)    ",
     Joblist24: "Data Analyst and Data Scientist – AI Training    ",
     Joblist25: "Quantitative Analyst and Data Annotation Specialist    ",
@@ -628,18 +625,17 @@ ModuleMasterBot2:"Apart from these specialized modules, each learner will gain i
     ProjectsHead1:
       "How do Learnbay’s live projects with a Masters in Data Science US help you advance a global-level career?       ",
     ProjectsBot1:
-      " Experts eager to rebuild their careers with global-level job offers can opt for our best masters in data science in the USA. This course offers two domain specializations, where you can opt for anyone per your career interests. The USP of our master’s program is industry-specific capstone projects. Each specialization has 3 capstone projects curated as per the latest data science trends.       ",
+      "Experts eager to rebuild their careers with global-level job offers can opt for our best master's degree for data science in the USA. This course offers two domain specializations, where you can opt for anyone per your career interests. The USP of our master’s program is industry-specific capstone projects. Each specialization has 3 capstone projects curated as per the latest data science trends.       ",
 
     ProjectsBot3:
       "Capstone projects help learners gain exposure to and deal with real-world business issues. Hands-on learning with live projects helps in professional development and acquiring job-ready skills. Industry experts guide you while you work on live projects in project innovation labs.       ",
     ProjectsBot4:
-      "Here, you can choose your projects based on your preferred domain electives. Our domain electives are – BFSI, Healthcare, Marketing, HR, Supply Chain, and Manufacturing. ",
+      "Here, you can choose your projects based on your preferred domain electives. Our domain electives are – BFSI, Healthcare, Marketing, HR, Supply Chain, and Manufacturing.       ",
     ProjectsBot5:
       "In addition, Learnbay’s master’s degree in data science offers a globally recognized project certificate from IBM. With this certification, you can unlock career paths with prime job offers from the USA and overseas.       ",
     ProjectsBot6:
-      "    ",
-    ProjectsBot7:
-      " ",
+      "  If you are looking for a certification program in data science, join the best data science course in USA today & future-proof your career with compelling gains.       ",
+    ProjectsBot7: " ",
     ProjectsBot2: "Below are a few projects from the Learnbay alumni profiles:",
     src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
     ProjectsH1: "Samsung Health Monitor App",
@@ -686,10 +682,6 @@ ModuleMasterBot2:"Apart from these specialized modules, each learner will gain i
     alt9: "data science course training in USA",
     CityTextB:
       "Artificial Intelligence Course Certification Training locations in USA ",
-    CityText:
-      " : Bajirao Road [411002], Yerwada [411006], Kasba Peth [411011], Dhanori [411015], USA City [411022], Hadapsar S.O [411028], Airport [411032], Afmc [411040], Karve Road [410038], Ammunition Factory Khadki [411003], Aundh [411007], Dapodi [411012], Gokhalenagar [411016], Kudje [411023], Kothrud [411029], Mundhva [411036], Tingre Nagar [411000], A.R. Shala [411004], Baner Road [411004], Magarpatta City [411013], Botanical Garden [411020], Khadakwasla [411024], Lokmanyanagar [411030], Bibvewadi [411037], Bhavani Peth [411042], Dhayari [411041], Dhankawadi [411043], C D A O [411001], Shivajinagar [411005], Parvati [411009], 9 Drd [411014], Armament [411021], Donje [411025], Bopkhel [411031], Bhusari Colony [411038], Haveli [411045], Jambhulwadi [411046], Lohogaon [411047], Khondhwa [411048], Anandnagar [411051], Navsahyadri [411052], Chatursringi [411053], Gokhalenagar [411055], Warje [411058], Mohamadwadi Kadvasti [411060], Janaki Nagar [411066], Aundh [411067], Pimpri Chinchwad [411078], Nanded [411230], Gondhale Nagar [412029], Sathe Nagar [412047], Alandi Devachi [412105], Ambarvet [412115], Ashtapur [412207], Manjari Farm [412307], Phursungi [412308], Viman Nagar 411014, Shaniwar Peth [413337].",
-    CityTextLB: "Locations Offered",
-    CityTextL:
-      " :Artificial Intelligence Course viman nagar,Artificial Intelligence Training in kalyan nagar,Artificial Intelligence Training in magarpetta,Artificial Intelligence Training in pimpri chinchwad,Artificial Intelligence Classes in yerwada,Artificial Intelligence Classes in kharadi,Artificial Intelligence Classes in vishrantwadi,Artificial Intelligence Classes in deccan,Artificial Intelligence Course in Katraj,Artificial Intelligence Training in warje,,Artificial Intelligence Certification Training in bavdhan,Artificial Intelligence Certification in boat club road,Artificial Intelligence Certification in model colony,Best Artificial Intelligence Training in USA,Best Artificial Intelligence Course in USA",
+
   },
 ];

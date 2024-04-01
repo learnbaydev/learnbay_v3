@@ -80,6 +80,11 @@ export const TabData = [
         url: "/cloud&devops/cloud-computing-and-devOps-certification-program",
       },
       {
+        CName: "Professional Certificate in AWS Cloud Computing & Devops",
+        hours: "3-4 Months",
+        url: "/cloud&devops/aws-cloud-computing-and-devOps",
+      },
+      {
         CName: "Software Development Certification Program",
         hours: "11 Months",
         url: "/fullstack/full-stack-software-development-program",

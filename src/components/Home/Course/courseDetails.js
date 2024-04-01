@@ -1028,6 +1028,27 @@ export const courseDetails = [
           },
           {
             id: 2,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Cloud-card.webp",
+            title: "Professional Certificate  ",
+            title1: "in AWS Cloud Computing & Devops",
+            tagHead: "Guaranteed Interview Call",
+            tag: "Data science",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
+            titleCourse: "Cloud Computing & DevOps Certification Program",
+            para: [
+              "3-4 months  |  4 Capstone Projects",
+              "Project Certification form IBM",
+              "Unlimited Interview Calls",
+              ,
+            ],
+            link1:
+              "/cloud&devops/aws-cloud-computing-and-devOps",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
+          },
+          {
+            id: 3,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/FSD-Card.webp",
             title: "Software Developer",
             title1: "Certification",
@@ -1241,13 +1262,34 @@ export const courseDetails = [
           },
           {
             id: 2,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Cloud-card.webp",
+            title: "Professional Certificate  ",
+            title1: "in AWS Cloud Computing & Devops",
+            tagHead: "Guaranteed Interview Call",
+            tag: "Data science",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
+            titleCourse: "Cloud Computing & DevOps Certification Program",
+            para: [
+              "3-4 months  |  4 Capstone Projects",
+              "Project Certification form IBM",
+              "Unlimited Interview Calls",
+              ,
+            ],
+            link1:
+              "/cloud&devops/aws-cloud-computing-and-devOps",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
+          },
+          {
+            id: 3,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/FSD-Card.webp",
             title: "Software Developer",
             title1: "Certification",
             tagHead: "For Working Professionals",
             tag: "Data science",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
             titleCourse: "Software Developer Certification",
             para: [
               "11 months | 4 projects",
@@ -1256,10 +1298,10 @@ export const courseDetails = [
             ],
             link1: "/fullstack/full-stack-software-development-program",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
           },
           {
-            id: 2,
+            id: 4,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Degree-card.webp",
             title: "Master's Degree in CS:",
             title1: "Data Science and AI",
@@ -2355,6 +2397,27 @@ export const courseDetailsM = [
           },
           {
             id: 2,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Cloud-card.webp",
+            title: "Professional Certificate  ",
+            title1: "in AWS Cloud Computing & Devops",
+            tagHead: "Guaranteed Interview Call",
+            tag: "Data science",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
+            titleCourse: "Cloud Computing & DevOps Certification Program",
+            para: [
+              "3-4 months  |  4 Capstone Projects",
+              "Project Certification form IBM",
+              "Unlimited Interview Calls",
+              ,
+            ],
+            link1:
+              "/cloud&devops/aws-cloud-computing-and-devOps",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
+          },
+          {
+            id: 3,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/FSD-Card.webp",
             title: "Software Developer",
             title1: "Certification",
