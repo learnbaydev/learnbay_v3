@@ -12,7 +12,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
     <>
       <Head>
         <title>
-        Advanced Data Science and Artificial Intelligence Program With Certification - Learnbay
+        Advanced Data Science Course & AI Program With Certification
         </title>
         <meta
           name="description"

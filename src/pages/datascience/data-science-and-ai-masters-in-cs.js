@@ -13,10 +13,12 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
   return (
     <>
       <Head>
-        <title>Advance Your Career with a Master's in Data Science and AI - Learnbay</title>
+        <title>
+          Advance Your Career with a Master's in Data Science and AI - Learnbay
+        </title>
         <meta
           name="description"
-          content="Elevate your career with a Master's in Computer Science specializing in Data Science and AI. Gain advanced skills, harness cutting-edge technologies, and become a leader in the evolving digital landscape."
+          content="Elevate your career with Learnbay's Master's in Data Science and AI program. Gain the skills you need to succeed in today's data-driven world. Enroll now!          "
         />
         <meta name="robots" content="index, follow" />
         <meta
@@ -32,10 +34,10 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
           href="https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs"
         />
 
-<script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: `{
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
       "@context": "http://schema.org",
       "@type": "Course",
       "name": "Master in CS: Data Science and AI",
@@ -67,19 +69,17 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
       },
       "courseCredential": "Master in CS: Data Science and AI",
       "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png"
-    }`
-  }}
-/>
-
+    }`,
+          }}
+        />
       </Head>
       <main>
         <FirstPart
-        WolfLink ={true}
-        formbtn={true}
+          WolfLink={true}
+          formbtn={true}
           TestimonialData={
             DataScienceCourseData.DataScienceMastersinCS[0].testimonial
           }
-
         />
         <SecondPart
           masterSyllabusMobile={
@@ -92,8 +92,8 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
             DataScienceCourseData.DataScienceMastersinCS[0].projectSection
           }
           FAQNewData={DataScienceCourseData.DataScienceMastersinCS[0].faq}
-          />
-      
+        />
+
         {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>
     </>

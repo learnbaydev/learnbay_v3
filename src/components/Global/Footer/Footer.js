@@ -39,27 +39,30 @@ const Footer = ({
         <div className={styles.FooterDivInner}>
           {nolinklogo ? (
             <Image
-            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/white-logo.webp"
-            alt="Learnbay"
-            width="230"
-            height="100"
-          />
-          ) : (
-            
-            <a href="/">
-            <Image
               src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/white-logo.webp"
               alt="Learnbay"
               width="230"
               height="100"
             />
-          </a>
+          ) : (
+            <a href="/">
+              <Image
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/white-logo.webp"
+                alt="Learnbay"
+                width="230"
+                height="100"
+              />
+            </a>
           )}
 
           <p className={styles.FooterInnerli}>
-            Enrol now for data science courses, System designing or full stack
-            development courses. Master the most demanding skills of job market
-            and experience and ever growing and lucrative career transformation.
+            Enrol now for{" "}
+            <b>
+              <Link href="/data-science-courses">data science courses</Link>
+            </b>
+            , System designing or full stack development courses. Master the
+            most demanding skills of job market and experience and ever growing
+            and lucrative career transformation.
           </p>
           {iconnolink ? (
             <div className={styles.FooterSocial}>
@@ -76,7 +79,7 @@ const Footer = ({
           ) : (
             <div className={styles.FooterSocial}>
               <a href="https://twitter.com/Learnbay" target="_blank">
-              <BsTwitterX className="bIcons" />
+                <BsTwitterX className="bIcons" />
               </a>
               <a href="https://www.facebook.com/learnbay/" target="_blank">
                 <FaFacebookF className="bIcons" />

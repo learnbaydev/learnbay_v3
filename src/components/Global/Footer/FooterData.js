@@ -312,7 +312,7 @@ export const CityFooterData = [
           {
             id: 2,
             name: "Master's Degree in Data Science in USA",
-            url: "/datascience/usa/masters-degree-in-data-science-in-usa",  
+            url: "/datascience/usa/masters-degree-in-data-science-in-usa",
           },
         ],
       },
@@ -369,9 +369,6 @@ export const CityFooterData = [
             url: "/datascience/dhaka/data-science-course-training-in-dhaka",
           },
         ],
-      
-         
-      
       },
       {
         id: "Vietnam",
@@ -395,6 +392,17 @@ export const CityFooterData = [
           },
         ],
       },
+      {
+        id: "Germany",
+        city: "Germany",
+        cityData: [
+          {
+            id: 1,
+            name: "Master's Degree in Data Science in germany",
+            url: "/datascience/germany/master-degree-in-data-science-in-germany",
+          },
+        ],
+      },
     ],
   },
   {
@@ -408,7 +416,6 @@ export const CityFooterData = [
             id: 1,
             name: "Advance Data Science & AI",
             url: "https://course.learnbay.co/datascience/OS/sp/s2-data-science-generic",
-        
           },
 
           {
@@ -591,6 +598,11 @@ export const CourseData = [
         id: 7,
         name: "Cloud Computing & DevOps Certification Program",
         url: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+      },
+      {
+        id: 8,
+        name: "Professional Certificate in AWS Cloud Computing & Devops        ",
+        url: "/cloud&devops/aws-cloud-computing-and-devOps",
       },
     ],
   },

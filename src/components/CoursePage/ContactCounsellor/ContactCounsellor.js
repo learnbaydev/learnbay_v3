@@ -119,9 +119,9 @@ const ContactCounsellor = ({
       </div>
       <div className={styles.conimg}>
         <Image
-          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/masterPage/contact-counseller.webp"
-          width={300}
-          height={200}
+          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/fee-newboy.webp"
+          width={320}
+          height={380}
           alt="contact-counseller"
           loading="lazy"
         />

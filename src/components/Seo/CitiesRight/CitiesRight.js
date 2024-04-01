@@ -71,6 +71,7 @@ const CitiesRight = ({
 
   DomainMasterlist1,
   DomainMasterlist2,
+  DomainMasterBot4,
   DomainMasterHead1,
   DomainBot4,
   DomainBot5,
@@ -254,6 +255,8 @@ const CitiesRight = ({
   Jobspan,
   JobBotMasterBot4,
   JobBotMasterBot5,
+  JobBotMasterBot6,
+  
   Joblist21,
   Joblist22,
   JobHead22,
@@ -437,6 +440,7 @@ const CitiesRight = ({
   cityTextBangla,
   cityTextDhaka,
   cityTextMasterUSA,
+  cityTextMastergermany,
   cityTextDSMalaysia,
 }) => {
   const [read, setRead] = useState(false);
@@ -2857,6 +2861,71 @@ const CitiesRight = ({
         ) : (
           ""
         )}
+        {cityTextMastergermany ? (
+          <div className={styles.CitiesRightInner}>
+            <h4 style={{ fontSize: "20px" }}>
+              Briefing Our Master’s Degree in Data Science in Germany [In
+              Alliance with IBM & Woolf University]
+            </h4>
+            <p>
+              Following the rising digital shifts, MNCs in Germany rely on data
+              science to drive higher yields and strategize operations. The
+              majority of IT and business establishments in Germany are seeking
+              proficient data scientists to distinguish themselves from their
+              competitors. Thus, upskilling via a <b>masters in data science</b>{" "}
+              is vital for global-scale career growth.
+            </p>
+            <p>
+              Experts eager to redefine their careers opt for the{" "}
+              <b>best data science masters programs</b> with valuable returns.
+              According to research projections, Germany's IT sector is expected
+              to reach $129 billion by 2025, expanding the opportunities for
+              data expertise. It increases the demand for skillful data
+              scientists in Germany, who are the future of the country.
+            </p>
+            <p>
+              Learnbay’s <b>master degree in data science in Germany</b> (Master
+              Degree in Computer science: Data science and AI) envisions an
+              unbeatable career growth journey. Its inclusive course modules
+              with GenAI-rich syllabus help experts ace in-demand skills. Here,
+              you will gain a 360-degree knowledge-building scope via real-time
+              simulation projects in your domain.
+            </p>
+            <p>
+              Experts opting for an <b>MS in data science</b> will receive a
+              globally accredited master’s degree from Woolf University. Plus,
+              we also offer an IBM project certificate that justifies proven
+              skill sets across the globe.
+            </p>
+
+            <br />
+            <h4 style={{ fontSize: "20px" }}>
+              Enlisting Features of Masters in Data Science and AI Program
+            </h4>
+            <br />
+            <ul>
+              <li> Learning via GenAI-rich Course Modules</li>
+              <br />
+              <li>
+                Mentorship from Renowned Experts with relevant work experience
+              </li>
+
+              <br />
+              <li>Effortless Immigration Facilities</li>
+              <br />
+              <li>Career Service PRO (100% Job and Placement Support)</li>
+              <br />
+              <li>
+                Globally Accredited Master’s Degree with Affiliation to Woolf
+                University
+              </li>
+              <br />
+              <li>IBM Project Certificate</li>
+            </ul>
+          </div>
+        ) : (
+          ""
+        )}
 
         {cityTextDSNGR ? (
           <div className={styles.CitiesRightInner}>
@@ -4532,7 +4601,7 @@ const CitiesRight = ({
           )}
           <p className={styles.pp}>{DomainBot40}</p>
           <p className={styles.pp}>{DomainBot41}</p>
-          <p className={styles.pp}>{DomainMasterBot2}</p>
+          
           <p className={styles.pp}>{DomainMasterBot2}</p>
           <h4 style={{ fontSize: "16px" }}>{DomainMasterHead1}</h4>
           <p className={styles.pp}>{DomainMasterBot3}</p>
@@ -4541,7 +4610,9 @@ const CitiesRight = ({
               <ul style={{ marginTop: 10 }}>
                 <li>{DomainMasterlist1}</li>
                 <li>{DomainMasterlist2}</li>
+                <p className={styles.pp}>{DomainMasterBot4}</p>
               </ul>
+            
             </>
           ) : (
             ""
@@ -4974,6 +5045,8 @@ const CitiesRight = ({
               <h4 style={{ fontSize: "20px" }}>{JobHead001}</h4>
 
               <p className={styles.pp}>{JobBotMasterBot5}</p>
+              <p className={styles.pp}>{JobBotMasterBot6}</p>
+
               <p className={styles.pp}>{JobBot007}</p>
               <p className={styles.pp}>{JobBot005}</p>
               <p className={styles.pp}>{JobBot006}</p>

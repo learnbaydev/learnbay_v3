@@ -50,10 +50,10 @@ function DataAnalytics({
 
       {Advance ? (
         <div className={styles.content}>
-          <h1>
+          <h2 style={{fontSize:"30px"}}>
             Proliferate Your Success Probabilities With An Advanced
             Certification In Data Science and AI.{" "}
-          </h1>
+          </h2>
           <p>
             Interested in Data Science and AI, build a solid foundation for your
             career with Learnbay’s{" "}
@@ -612,7 +612,7 @@ function DataAnalytics({
 
       {DataAnalytics ? (
         <div className={styles.content}>
-          <h1>Upskill Yourself with Data Analytics Course Online</h1>
+          <h2>Upskill Yourself with Data Analytics Course Online</h2>
           <p>
             Boost your career with Learnbay’s Data Analytics Program to land on
             the field of endless opportunities. Enroll in an industry-paced{" "}
@@ -1067,7 +1067,7 @@ function DataAnalytics({
       )}
       {CDevops ? (
         <div className={styles.content}>
-          <h1>Cloud Computing & DevOps Certification Program </h1>
+          <h2>Cloud Computing & DevOps Certification Program </h2>
           <h4 style={{ fontSize: "24px" }}>
             Demonstrate Your Technical Expertise with a Cloud Computing
             Certification
@@ -1414,10 +1414,10 @@ function DataAnalytics({
 
       {Masterscontent ? (
         <div className={styles.content}>
-          <h1>
+          <h2 style={{fontSize:"35px"}}>
             Unlock Global Job Opportunities with
             <b> a Master’s in Computer Science Data Science and AI</b>
-          </h1>
+          </h2>
           <p>
             Leap into career excellence with Learnbay's Master's Degree Program
             in Data Science and AI. Enroll in an industry-driven master's
