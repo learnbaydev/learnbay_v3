@@ -123,7 +123,7 @@ const SecondPart = ({
       />
 
       <MentorsSection />
-      <SliderTab />
+      <SliderTab WithoutService={true}/>
       {adsHide ? "" : <PlacementCall devops={devops} />}
 
       <DevOpsProject
@@ -135,7 +135,6 @@ const SecondPart = ({
       />
 
       {adsHide ? "" : <FAQNew FAQNewData={FAQNewData} />}
-      <Content dataScienceCounselling={true} CDevops={true} />
       <SeventhSection />
       {adsHide ? "" : <Footer />}
       <BottomBar

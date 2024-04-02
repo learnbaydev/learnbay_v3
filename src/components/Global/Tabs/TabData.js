@@ -23,8 +23,6 @@ export const TabData = [
         hours: "5 Months",
         url: "/datascience/marketing-analytics",
       },
-     
-     
     ],
   },
   {
@@ -66,8 +64,6 @@ export const TabData = [
         hours: "4 Months",
         url: "/datascience/data-science-certification-courses",
       },
-      
-     
     ],
   },
   {
@@ -80,7 +76,7 @@ export const TabData = [
         url: "/cloud&devops/cloud-computing-and-devOps-certification-program",
       },
       {
-        CName: "Professional Certificate in AWS Cloud Computing & Devops",
+        CName: "Certificate in AWS Cloud Computing & Devops",
         hours: "3-4 Months",
         url: "/cloud&devops/aws-cloud-computing-and-devOps",
       },

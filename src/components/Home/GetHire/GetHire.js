@@ -3,7 +3,7 @@ import Styles from "./Gethire.module.css";
 import Image from "next/image";
 import { FcCheckmark } from "react-icons/fc";
 
-function GetHire() {
+function GetHire({proHide}) {
   return (
     <div id="servicePro">
       <div className={Styles.GetHireMain}>
@@ -11,7 +11,7 @@ function GetHire() {
           <div className={Styles.HireLeft}>
             <h2>
               Land Your Dream Job with Career Services{" "}
-              <span className={Styles.PRo}>PRO</span>
+              {proHide ? ("") : ( <span className={Styles.PRo}>PRO</span>)}
             </h2>
             <div className={Styles.GetHireBulet}>
               <div className={Styles.minibullet}>

@@ -114,7 +114,7 @@ const DmdPart = ({
         
         ThirdTyped="Live Interactive Classes"
         
-        titleCourse="Adavance Cloud Computing & DevOps Certification Program"
+        titleCourse="Advanced Cloud Computing & DevOps Certification Program"
         cityParaCont="Elevate your career to a Cloud Solution Architect or DevOps Engineer"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-first-devops-min.webp"
