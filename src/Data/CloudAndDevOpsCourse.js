@@ -1109,8 +1109,8 @@ export const CloudAndDevOpsCourseData = [
         data: [
           {
             id: 0,
-            ques: "What are the prerequisites for the Cloud Computing and Devops Certification Program?            ",
-            ans: "There are no prerequisites for Cloud Computing and Devops Certification Program, as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+            ques: "What are the prerequisites for the Advanced Cloud Computing and Devops Certification Program?            ",
+            ans: "There are no prerequisites for Advanced Cloud Computing and Devops Certification Program, as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
             open: true,
           },
           {
@@ -1121,13 +1121,13 @@ export const CloudAndDevOpsCourseData = [
           },
           {
             id: 2,
-            ques: "What is a Flexi Subscription in the Cloud Computing and Devops Certification Program?",
+            ques: "What is a Flexi Subscription in the Advanced Cloud Computing and Devops Certification Program?",
             ans: ` Those who enroll for Cloud Computing and Devops live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 2 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
             open: false,
           },
           {
             id: 3,
-            ques: "What’s the duration of the Cloud Computing and Devops Certification Program?",
+            ques: "What’s the duration of the Advanced Cloud Computing and Devops Certification Program?",
             ans: "The duration of this course is about 7 months (300+ hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch – 7 months, Monday to Friday – 2 hours/day, Weekend batch – 12 months, Saturday",
             open: false,
           },
@@ -1199,20 +1199,20 @@ export const CloudAndDevOpsCourseData = [
         data: [
           {
             id: 0,
-            ques: "What is the total Fee for the Cloud Computing and Devops Certification Program?",
-            ans: "The total program fee for the Cloud Computing and Devops Certification Program is INR 1,10,000/- +18% GST",
+            ques: "What is the total Fee for the Advanced Cloud Computing and Devops Certification Program?",
+            ans: "The total program fee for the Advanced Cloud Computing and Devops Certification Program is INR 80,000/- +18% GST",
             open: true,
           },
 
           {
             id: 2,
-            ques: "Can I pay in installments for the Cloud Computing and Devops Certification Program?",
-            ans: "Is there any scholarship/discount available for the Cloud Computing and Devops Certification Program ? What is Group Discount? Learnbay offers a 15 – 20% scholarship for early birds occasionally. Please check our website or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount : Group of 2, 8% extra discount : Group of 3, Max 10% discount : Groupe of 4+.",
+            ques: "Can I pay in installments for the Advanced Cloud Computing and Devops Certification Program?",
+            ans: "Is there any scholarship/discount available for the Advanced Cloud Computing and Devops Certification Program ? What is Group Discount? Learnbay offers a 15 – 20% scholarship for early birds occasionally. Please check our website or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount : Group of 2, 8% extra discount : Group of 3, Max 10% discount : Groupe of 4+.",
             open: false,
           },
           {
             id: 3,
-            ques: "What is the refund policy for the Cloud Computing and Devops Certification Program?",
+            ques: "What is the refund policy for the Advanced Cloud Computing and Devops Certification Program?",
             ans: "Candidates are advised to read Learnbay’s Refund/Cancellation Policy before enrolling in the program. ",
             linkText1: "Learnbay’s Refund/Cancellation Policy",
             link1: "/refund-cancellation-policy",

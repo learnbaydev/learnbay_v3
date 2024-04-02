@@ -13,7 +13,7 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
   return (
     <>
       <Head>
-        <title>Adavance data Anatics Program</title>
+        <title>Advanced data Anatics Program</title>
         <meta
           name="description"
           content="Elevate your career with a Master's in Computer Science specializing in Data Science and AI. Gain advanced skills, harness cutting-edge technologies, and become a leader in the evolving digital landscape."

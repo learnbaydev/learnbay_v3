@@ -82,7 +82,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-infi-min.webp",
     title3: "Assured Job Assistance",
     jobAssistance: [
-      { icon: <BsDisplay />, text: "Unlimited Interview Calls" },
+      { icon: <BsDisplay />, text: "8-10 Interview Calls" },
       { icon: <AiOutlineContainer />, text: "Resume Building Session" },
       { icon: <FaLinkedinIn />, text: "LinkedIn Profile Review" },
     ],
@@ -131,12 +131,12 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
           // interstedInHide={true}
           ThirdTyped="Live Interactive Classes"
           dataScience={true}
-          titleCourse="Professional Certificate in AWS Cloud Computing & Devops"
+          titleCourse="Certificate in AWS Cloud Computing & Devops"
           cityParaCont="Lead the digital world with Cloud expertise"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-first-devops-min.webp"
           firstToparaImg=" AWS Cloud Computing & Devops"
-          firstHeading="Professional Certificate in"
+          firstHeading="Certificate in"
           firstTopPara="Crack Interview in top MNCs "
           idss="gaQYhVPCudQ"
           thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/cd-f.webp"
@@ -172,7 +172,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
         forth="Achieving higher career growth in Cloud & DevoOps        "
       />
       <WhyLearnbay idss="ZPOTy4PEnNU" targetjobs={true} CloudContent={true} adsHide={adsHide} />
-      <GetHire />
+      <GetHire proHide={true} />
       {adsHide ? (
         ""
       ) : (
