@@ -171,7 +171,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
         third="Early to mid-career professionals interested in Cloud & DevOps"
         forth="Achieving higher career growth in Cloud & DevoOps        "
       />
-      <WhyLearnbay idss="ZPOTy4PEnNU" targetjobs={true} adsHide={adsHide} />
+      <WhyLearnbay idss="ZPOTy4PEnNU" targetjobs={true} CloudContent={true} adsHide={adsHide} />
       <GetHire />
       {adsHide ? (
         ""
