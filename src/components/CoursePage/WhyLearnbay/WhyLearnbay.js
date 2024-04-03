@@ -25,6 +25,7 @@ function WhyLearnbay({
   Intern,
   FreshersIntern,
   FoundNew,
+  CloudContent,
 }) {
   const [domainSpec, setDomainSpec] = useState(false);
   const [projectInno, setProjectInno] = useState(true);
@@ -391,11 +392,17 @@ function WhyLearnbay({
                   Work in an industry like environment and gain practical
                   hands-on experience
                 </p>
+                {CloudContent ? (<p className={Styles.para}>
+                  <FaCheckCircle className={Styles.checkCircle} />
+                  Gain the work experience of DevOps Engineer with dedicated
+                  project mentors from industry.
+                </p>) : (
                 <p className={Styles.para}>
                   <FaCheckCircle className={Styles.checkCircle} />
                   Gain the work experience of data scientist with dedicated
                   project mentors from industry.
                 </p>
+                  )}
               </div>
             </div>
           </div>

@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
-import dynamic from "next/dynamic";
-import Footer from "@/components/Global/Footer/Footer";
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+import Footer from "@/components/Global/Footer/Footer";
 import SeventhSection from "@/components/Global/SeventhSection/SeventhSection";
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+import dynamic from "next/dynamic";
+import { useEffect, useState } from "react";
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
 const Certificate = dynamic(() =>
@@ -40,7 +40,7 @@ const SecondPart = ({
   devops,
   devopfee,
   adsHide,
-  interstedInHide,
+  CloudAWs,
 }) => {
   const [popupData, setPopupData] = useState([]);
   // console.log(popupData);
@@ -110,24 +110,23 @@ const SecondPart = ({
         dataScience={true}
         titleCourse="Cloud Computing & DevOps Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf"
-      
         // <EMI POPUP
-        emiType = "NO COST EMI"
-        duration1 = "18 Months"
-        totalAmount1 = "₹ 50,000"
-        monthlyPayment1 = "₹ 3,277"
-        greenDown1 = "Standard Intrest rate Applicable"
-        duration2 = "12 Months"
-        totalAmount2 = "₹ 50,000"
-        monthlyPayment2 = "₹ 4,916"
+        emiType="NO COST EMI"
+        duration1="18 Months"
+        totalAmount1="₹ 50,000"
+        monthlyPayment1="₹ 3,277"
+        greenDown1="Standard Intrest rate Applicable"
+        duration2="12 Months"
+        totalAmount2="₹ 50,000"
+        monthlyPayment2="₹ 4,916"
       />
 
       <MentorsSection />
-      <SliderTab />
+      <SliderTab WithoutService={true} />
       {adsHide ? "" : <PlacementCall devops={devops} />}
 
       <DevOpsProject
-        adsHide={adsHide}
+        CloudAWs={true}
         titleCourse="Cloud Computing & DevOps Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf"
         dataScience={true}
@@ -135,7 +134,6 @@ const SecondPart = ({
       />
 
       {adsHide ? "" : <FAQNew FAQNewData={FAQNewData} />}
-      <Content dataScienceCounselling={true} CDevops={true} />
       <SeventhSection />
       {adsHide ? "" : <Footer />}
       <BottomBar

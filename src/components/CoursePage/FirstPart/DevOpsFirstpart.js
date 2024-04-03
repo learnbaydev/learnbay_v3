@@ -131,12 +131,12 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
           // interstedInHide={true}
           ThirdTyped="Live Interactive Classes"
           dataScience={true}
-          titleCourse="Adavance Cloud Computing & DevOps Certification Program"
+          titleCourse="Advanced Cloud Computing & DevOps Certification Program"
           cityParaCont="Elevate your career to a Cloud Solution Architect or DevOps Engineer"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-first-devops-min.webp"
           firstToparaImg=" Certification Program"
-          firstHeading="Cloud Computing & DevOps"
+          firstHeading="Advanced Cloud Computing & DevOps"
           firstTopPara="Crack Interview in top MNCs "
           idss="gaQYhVPCudQ"
           thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/cd-f.webp"
@@ -171,7 +171,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
         third="Early to mid-career professionals interested in Cloud & DevOps"
         forth="Achieving higher career growth in Cloud & DevoOps        "
       />
-      <WhyLearnbay idss="ZPOTy4PEnNU" targetjobs={true} adsHide={adsHide} />
+      <WhyLearnbay idss="ZPOTy4PEnNU" targetjobs={true} CloudContent={true} adsHide={adsHide} />
       <GetHire />
       {adsHide ? (
         ""
