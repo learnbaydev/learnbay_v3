@@ -13,6 +13,7 @@ const DevOpsProject = ({
   dataScience,
   interstedInHide,
   adsHide,
+  CloudAWs,
 }) => {
   const projectImg = [
     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/c3.webp",
@@ -24,12 +25,13 @@ const DevOpsProject = ({
   ];
 
   const projectImgAws = [
-    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/c3.webp",
-    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/c4.webp",
-    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/c5.webp",
-    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/c6.webp",
-    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/c1.webp",
-    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/c2.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/p1.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/p2.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/p3.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/p4.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/p5.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/p6.webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/p7.webp",
   ];
 
   const [popups, setPopups] = useState(false);
@@ -95,21 +97,43 @@ const DevOpsProject = ({
             },
           }}
         >
-          {projectImg.map((mentor, index) => (
-            <SwiperSlide key={`mentor-${index}`}>
-              <div className={Styles.slideDiv}>
-                <div>
-                  <Image
-                    src={mentor}
-                    width={350}
-                    height={400}
-                    alt="mentor"
-                    loading="lazy"
-                  />
-                </div>
-              </div>
-            </SwiperSlide>
-          ))}
+          {CloudAWs ? (
+            <>
+              {projectImgAws.map((mentor, index) => (
+                <SwiperSlide key={`mentor-${index}`}>
+                  <div className={Styles.slideDiv}>
+                    <div>
+                      <Image
+                        src={mentor}
+                        width={350}
+                        height={400}
+                        alt="mentor"
+                        loading="lazy"
+                      />
+                    </div>
+                  </div>
+                </SwiperSlide>
+              ))}
+            </>
+          ) : (
+            <>
+              {projectImg.map((mentor, index) => (
+                <SwiperSlide key={`mentor-${index}`}>
+                  <div className={Styles.slideDiv}>
+                    <div>
+                      <Image
+                        src={mentor}
+                        width={350}
+                        height={400}
+                        alt="mentor"
+                        loading="lazy"
+                      />
+                    </div>
+                  </div>
+                </SwiperSlide>
+              ))}
+            </>
+          )}
         </Swiper>
       </div>
       {adsHide ? (
