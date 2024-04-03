@@ -905,11 +905,11 @@ const nextConfig = {
         destination: "/datascience/data-science-ai-masters-program",
         permanent: true,
       },
-      // {
-      //   source: "/data-science-certification-courses",
-      //   destination: "/datascience/advance-data-science-certification-courses",
-      //   permanent: true,
-      // },
+      {
+        source: "/data-science-certification-course",
+        destination: "/datascience/data-science-certification-courses",
+        permanent: true,
+      },
       // {
       //   source: "/data-science-certification-courses",
       //   destination: "/datascience/advance-data-science-certification-courses",
@@ -1314,6 +1314,18 @@ const nextConfig = {
       {
         source:
           "/fullstack/software-development-program-with-specialization-in-cloud-computing-and-devops",
+        destination: "/fullstack/full-stack-software-development-program",
+        permanent: true,
+      },
+      {
+        source:
+          "/master-program-in-software-development",
+        destination: "/fullstack/full-stack-software-development-program",
+        permanent: true,
+      },
+      {
+        source:
+          "/master-program-in-software-development",
         destination: "/fullstack/full-stack-software-development-program",
         permanent: true,
       },
