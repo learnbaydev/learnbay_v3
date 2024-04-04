@@ -89,7 +89,7 @@ export default function Home() {
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/usa/masters-degree-in-data-science-in-usa"
+          content="https://www.learnbay.co/datascience/Germany/masters-degree-in-data-science-in-Germany"
         />
         <meta
           property="og:title"
@@ -128,7 +128,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/germany/masters-degree-in-data-science-in-germany"
+          href="https://www.learnbay.co/datascience/germany/master-degree-in-data-science-in-germany"
         />
         {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}
@@ -144,7 +144,7 @@ export default function Home() {
         {/* <meta name="robots" content="ALL" /> */}
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/germany/masters-degree-in-data-science-in-germany"
+          content="https://www.learnbay.co/datascience/germany/master-degree-in-data-science-in-germany"
         />
         <meta
           property="og:title"
@@ -152,7 +152,7 @@ export default function Home() {
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/germany/masters-degree-in-data-science-in-germany"
+          content="https://www.learnbay.co/datascience/germany/master-degree-in-data-science-in-germany"
         />
         <meta
           property="og:title"
@@ -162,7 +162,7 @@ export default function Home() {
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Enroll for Data Science Course and Certification Training in usa from Learnbay in association with IBM. This Data Scientist course in usa will give you hands-on experience with technologies and job assistance.
+          content="Enroll for Data Science Course and Certification Training in Germany from Learnbay in association with IBM. This Data Scientist course in Germany will give you hands-on experience with technologies and job assistance.
 "
         />
         <meta
@@ -175,17 +175,17 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Data Science Course usa | Data Scientist Course usa | Learnbay"
+          content="Data Science Course Germany | Data Scientist Course Germany | Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           itemProp="description"
-          content="Enroll for Data Science Course and Certification Training in usa from Learnbay in association with IBM. This Data Scientist course in usa will give you hands-on experience with technologies and job assistance.
+          content="Enroll for Data Science Course and Certification Training in Germany from Learnbay in association with IBM. This Data Scientist course in Germany will give you hands-on experience with technologies and job assistance.
 "
         />
         <meta
           name="twitter:description"
-          content="Enroll for Data Science Course and Certification Training in usa from Learnbay in association with IBM. This Data Scientist course in usa will give you hands-on experience with technologies and job assistance.
+          content="Enroll for Data Science Course and Certification Training in Germany from Learnbay in association with IBM. This Data Scientist course in Germany will give you hands-on experience with technologies and job assistance.
 "
         />
         <meta
@@ -421,7 +421,7 @@ export default function Home() {
               JobBot23={masterdegreeGermanyCourseData[0].JobBot23}
               JobBotMasterBot5={masterdegreeGermanyCourseData[0].JobBotMasterBot5}
               JobBotMasterBot6={masterdegreeGermanyCourseData[0].JobBotMasterBot6}
-            //   usaonly={true}
+            //   Germanyonly={true}
               modulelist={true}
               joblist={true}
               showData={true}
