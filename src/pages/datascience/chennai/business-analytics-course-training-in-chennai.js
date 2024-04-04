@@ -142,7 +142,7 @@ export default function Home() {
       </Head>
       <main>
         {" "}
-        <Navbar popup={true} dataScience={true}   interstedInHide={true} />
+        <Navbar popup={true} dataScience={true} interstedInHide={true} />
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />
@@ -182,30 +182,29 @@ export default function Home() {
           <FeeSection
             Fee="₹ 90,000"
             FeeEmi="₹ 5,900/month"
-            weekdaybatch="Weekend Batch"
-            weekendbatch="Weekday Batch"
-            weekday="SAT-SUN"
-            weekend="MON-TUE"
-            WeekdayDate="JAN 14th"
-            WeekendDate="FEB 9th"
-            WeekendTime="8 PM - 10 PM"
-            WeekdayTime="09:30 AM - 1:00 PM"
+            weekdaybatch="Weekday Batch"
+            weekendbatch="Weekend Batch"
+            weekday="MON-FRI"
+            weekend="SAT-SUN"
+            WeekdayDate="APR 12th"
+            WeekendDate="MAR 10th"
+            WeekendTime="09:30 AM - 1:00 PM"
+            WeekdayTime="8.00 PM - 10.00 PM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
             FeeContent5="15 days refund policy"
             FeeContent6="No additional cost"
             dataScienceCounselling={true}
             interstedInHide={true}
-
-                     // EMI POPUPDATA
-        emiType = "NO COST EMI"
-        duration1 = "18 Months"
-        totalAmount1 = "₹90,000"
-        monthlyPayment1 = "₹5,900"
-        greenDown1 = "Standard Intrest rate Applicable"
-        duration2 = "12 Months"
-        totalAmount2 = "₹90,000"
-        monthlyPayment2 = "₹8,850"
+            // EMI POPUPDATA
+            emiType="NO COST EMI"
+            duration1="18 Months"
+            totalAmount1="₹90,000"
+            monthlyPayment1="₹5,900"
+            greenDown1="Standard Intrest rate Applicable"
+            duration2="12 Months"
+            totalAmount2="₹90,000"
+            monthlyPayment2="₹8,850"
           />
         </div>
         <div className="MainCities">
