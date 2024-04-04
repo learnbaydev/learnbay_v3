@@ -758,7 +758,7 @@ export const DataScienceCourseData = [
           {
             id: 0,
             ques: "What are the prerequisites for the Data Science and AI Master Certification Program?",
-            ans: "There are no prerequisites for Data Science and AI Master Certification Program, as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+            ans: "There are no specific prerequisites for the Data Science and AI Master Certification program. Experts with no prior coding or programming knowledge can join this course. Just with basic mathematics or statistics knowledge and an interest in learning programming, one can enroll with us. ",
             open: true,
           },
           {
@@ -799,20 +799,28 @@ export const DataScienceCourseData = [
         data: [
           {
             id: 0,
-            ques: "What is domain specialization?",
-            ans: "We offer industry-specific full-stack data science modules, via which you learn the respective industry’s best practices.",
+            ques: "What is domain specialization?            ",
+            ans: "Domain specialization refers to the practice of gaining specific expertise in a particular field of an industry. It is a metric of career growth where experts gain domain-specific knowledge to face real-world challenges and tackle them effectively.             ",
             open: true,
           },
           {
             id: 1,
-            ques: "What are the available elective domain options?",
-            ans: "Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc.",
+            ques: "What are the available elective domain options?            ",
+            ans: "Experts from diversified backgrounds can join this to gain domain-specific knowledge. The available domain elective options are –",
+            list1: "BFSI",
+            list2: "Retail            ",
+            list3: "Supply Chain            ",
+            list4: "Healthcare            ",
+            list5: "Marketing            ",
+            list6: "HR            ",
+            list7: "Manufacturing             ",
+            dscoursefaq1: true,
             open: false,
           },
           {
             id: 2,
-            ques: "Which domain elective is best suited for me?",
-            ans: `You can select your domain based on your prior work experience, academics, and career goals.`,
+            ques: "What if I don’t have any prior experience in any domain?            ",
+            ans: `We offer industry-focused upskilling with the domain electives that are trending at present with alluring career opportunities. In case, you do not hold any prior experience, you can opt for any domain as per your career interests and goals. You can here consider specializations during academics if you wish to craft a successful career in the same.             `,
             open: false,
           },
           {
@@ -916,19 +924,18 @@ export const DataScienceCourseData = [
         data: [
           {
             id: 0,
-            ques: "Is there any accredited certification after course completion?",
-            ans: "Yes, you will be awarded 6 separate IBM accredited Certificates on successful course completion.",
+            ques: "Is there any accredited certification after course completion?            ",
+            ans: "Yes. Successful completion of the course will attest to a globally accredited certification for your career. Here, you will receive a course completion certificate accredited by IBM that validates your skills to thrive globally. Apart from this, an industry-certified Microsoft certificate justifies our collaboration for successful career transitions.           ",
             open: true,
           },
           {
             id: 1,
-            ques: "What categories of certifications might I expect to receive?",
-            ans: `Python for Data Science Certificate,
-            Data Science Tools,
-            Machine Learning with Python,
-            Data Science Methodology,
-            Data Science and AI (final),
-            Capstone Project Certificate by IBM`,
+            ques: "What categories of certifications might I expect to receive?            ",
+            ans: "This course offers you two categories of certifications –    ",
+            list1: "Two-Course Completion Certificates from IBM & Microsoft",
+            list2: "Capstone Project Certifications from IBM",
+            dscoursefaq1: true,
+
             open: false,
           },
         ],
@@ -949,8 +956,8 @@ export const DataScienceCourseData = [
           },
           {
             id: 1,
-            ques: "How many interview calls will I get at Learnbay?",
-            ans: "You’ll be provided 10 interview calls after the completion of the course.",
+            ques: "How many interview calls will I get at Learnbay?            ",
+            ans: "This course promises you unlimited interview calls (at least 10 calls) with open-end access to the leading employers.             ",
             open: false,
           },
           {
@@ -1005,6 +1012,24 @@ export const DataScienceCourseData = [
             id: 1,
             ques: "How long will I get Job referrals?",
             ans: "You’ll be provided with job referrals after the completion of the course for a period of 1 year.",
+            open: false,
+          },
+          {
+            id: 2,
+            ques: "How can I reach out for technical support if I encounter any issues with the course platform?            ",
+            ans: "After enrolling in the course, you are open to use 24x7 learner’s support to resolve any query. You can call the helpline number to reach the desired service providers to help you out of any technical issues with the course platform.             ",
+            open: false,
+          },
+          {
+            id: 3,
+            ques: "Is there a discussion forum or community for students to interact and seek help?            ",
+            ans: "There is no discussion forum or community for students to interact and seek help. They can directly reach out to the learner’s support team which is available 24x7 to resolve queries. In case of any doubt related to coursework or projects, learners can schedule a call for 1:1 sessions with their respective mentors.              ",
+            open: false,
+          },
+          {
+            id: 4,
+            ques: "What is the best way to contact your support team if I have general inquiries?            ",
+            ans: "Learnbay offers 24x7 learner’s support to help with general inquiries. You can check with our sales team at +91 7795687988 in case you have any questions in your mind. They will reach out to you as soon as possible with the best solutions.             ",
             open: false,
           },
         ],
