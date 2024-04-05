@@ -33,6 +33,8 @@ function FAQ({ FaqData }) {
           list4,
           list5,
           list6,
+          list7,
+          list8,
           ans,
           open,
           link1,
@@ -128,6 +130,8 @@ function FAQ({ FaqData }) {
                       <span>{list4}</span> <br />
                       <span>{list5}</span> <br />
                       <span>{list6}</span> <br />
+                      <span>{list7}</span> <br />
+                      <span>{list8}</span> <br />
                     </>
                   ) : (
                     <></>
