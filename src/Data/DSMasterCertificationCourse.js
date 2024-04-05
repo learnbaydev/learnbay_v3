@@ -995,6 +995,24 @@ export const DataScienceCourseData = [
             ans: "At Learnbay, every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
             open: false,
           },
+          {
+            id: 2,
+            ques: "Are there mentors available to help with coursework and projects?            ",
+            ans: "Working professionals have the scope to learn business analytics online under the direct guidance of industry experts from MNCs. Learners will have dedicated coaching from mentors for coursework, job assistance programs, live projects, and 1:1 doubt clearing. You can get in touch with your mentors to resolve any doubts while working on fresh capstone projects.             ",
+            open: false,
+          },
+          {
+            id: 3,
+            ques: "How can I connect with a mentor?            ",
+            ans: "Learners go through business analytics online training guided by industry mentors from MNCs. After enrolling in the course, learners will be assigned a mentor whom they can contact directly during online sessions (chat section) and over the call at any time.             ",
+            open: false,
+          },
+          {
+            id: 4,
+            ques: "What is the typical response time for mentor support?            ",
+            ans: "Our mentors are available to support queries of learners at any time (during and after the sessions). So, within 10-15 minutes, learners can get mentor support to resolve queries regarding coursework or projects.             ",
+            open: false,
+          },
         ],
       },
       {

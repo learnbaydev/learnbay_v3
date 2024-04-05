@@ -171,9 +171,8 @@ export const DataScienceCourseData = [
         id: 3,
         duration: "26 Hours",
         logo: "",
-        heading:
-          "Forecasting future sales with trends and price maximization",
-     
+        heading: "Forecasting future sales with trends and price maximization",
+
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Project+company+logos/bmw.png",
         para: "BMW customers can sell old vehicles, but rivals provide superior resale prices. BMW's data science-powered software will deliver the greatest market value for used vehicles based on Km travelled, daily price changes, production dates, etc. Such tasks build analytical abilities.",
         toolImg:
@@ -769,13 +768,8 @@ export const DataScienceCourseData = [
           },
           {
             id: 3,
-            ques: "What’s the duration of the Data Science and AI for Managers & Leaders Program?",
-            ans: `The duration of this course is about 13 months (350 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
-        
-            Classes will be conducted on weekdays and weekend batches.
-            Weekday batch – 11 months, Monday to Friday – 2 hours/day,
-            Weekend batch - 13 months, Saturday & Sunday – 3.5 hours/day.
-            After the completion of term-3, you can start working on real-time projects and attend job interviews.`,
+            ques: "What’s the duration of the Data Science and AI for Managers & Leaders Program?            ",
+            ans: `The duration of the course is about 11 – 13 months which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate. Classes will be conducted on weekdays and weekend batches. Weekday batch – 11 months, Monday to Friday – 2 hours/day, Weekend batch - 13 months, Saturday & Sunday – 3.5 hours/day. After the completion of term-3, you can start working on real-time projects and attend job interviews.            `,
             open: false,
           },
           {
@@ -799,7 +793,7 @@ export const DataScienceCourseData = [
           {
             id: 0,
             ques: "What is domain specialization?",
-            ans: "We offer industry-specific full-stack data science modules, via which you learn the respective industry’s best practices.",
+            ans: "Domain specialization refers to the practice of gaining specific expertise in a particular field of an industry. It is a metric of career growth where experts gain domain-specific knowledge to face real-world challenges and tackle them effectively.             ",
             open: true,
           },
           {
@@ -810,9 +804,16 @@ export const DataScienceCourseData = [
           },
           {
             id: 2,
-            ques: "What are the available elective domain options?",
-            ans: `Advance Data Structures & Algo; Automotive, IoT & Embedded; Cloud & DevOps; Sales, Marketing, & HR; Retail, E-Commerce, & Supply Chain; Healthcare, Pharma, & Clinical Research; BFSI, Manufacturing, Mechanical, & Telecom; Media, Hospitality, & Transportation; Oil, Gas, & Energy.`,
+            ques: "What are the available elective domain options?            ",
+            ans: `Experts from diversified backgrounds can join this to gain domain-specific knowledge. The available domain elective options are –            `,
+            list1: "BFSI            ",
+            list2: "HR           ",
+            list3: "Marketing            ",
+            list4: "Manufacturing              ",
+            list5: "Healthcare              ",
+            list6: "Supply Chain              ",
             open: false,
+            dscoursefaq1: true,
           },
           {
             id: 3,
@@ -832,7 +833,7 @@ export const DataScienceCourseData = [
           {
             id: 5,
             ques: "What if I don’t have any prior experience in any domain?",
-            ans: "If you don’t have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.",
+            ans: "We offer industry-focused upskilling with the domain electives that are trending at present with alluring career opportunities. In case, you do not hold any prior experience, you can opt for any domain as per your career interests and goals. You can here consider specializations during academics if you wish to craft a successful career in the same.             ",
             open: false,
           },
           {
@@ -919,20 +920,16 @@ export const DataScienceCourseData = [
           {
             id: 0,
             ques: "Is there any accredited certification after course completion?",
-            ans: "Yes, you will be awarded 8 separate IBM accredited certificates on successful course completion of the Data Science and AI for Managers & Leaders Program.",
+            ans: "Yes. Successful completion of the course will attest to a globally accredited certification for your career. Here, you will receive a course completion certificate accredited by IBM that validates your skills to thrive globally. Apart from this, an industry-certified Microsoft certificate justifies our collaboration for successful career transitions.             ",
             open: true,
           },
           {
             id: 1,
-            ques: "What categories of certifications might I expect to receive?",
-            ans: `Machine Learning with Python,
-            Python for Data Science,
-            Deep Learning Fundamentals,
-            Sectoral Analytics Fundamentals – HR,
-            Sectoral Analytics Fundamentals – Marketing,
-            Sectoral Analytics Fundamentals – Finance,
-            Data Science and AI Certificate for Managers & Leaders (final),
-            Capstone Project Certificate by IBM.`,
+            ques: "What categories of certifications might I expect to receive?            ",
+            ans: "This course offers you two categories of certifications –            ",
+           list1:"Two-Course Completion Certificates from IBM & Microsoft           ",
+           list2:"Two Capstone Project Certifications from IBM           ",
+           dscoursefaq1:true,
             open: false,
           },
         ],
@@ -954,7 +951,7 @@ export const DataScienceCourseData = [
           {
             id: 1,
             ques: "How many interview calls will I get at Learnbay?",
-            ans: "You’ll be provided 10 interview calls after the completion of the course.",
+            ans: "This course promises you unlimited interview calls (at least 8 – 10 calls) with open-end access to the leading employers.             ",
             open: false,
           },
           {
@@ -988,8 +985,26 @@ export const DataScienceCourseData = [
           },
           {
             id: 1,
-            ques: "Can a Learnbay student choose to study from their desired mentor?",
-            ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+            ques: "Can a student choose to study from their desired mentor?",
+            ans: "At Learnbay, every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+            open: false,
+          },
+          {
+            id: 2,
+            ques: "Are there mentors available to help with coursework and projects?            ",
+            ans: "Working professionals have the scope to learn business analytics online under the direct guidance of industry experts from MNCs. Learners will have dedicated coaching from mentors for coursework, job assistance programs, live projects, and 1:1 doubt clearing. You can get in touch with your mentors to resolve any doubts while working on fresh capstone projects.             ",
+            open: false,
+          },
+          {
+            id: 3,
+            ques: "How can I connect with a mentor?            ",
+            ans: "Learners go through business analytics online training guided by industry mentors from MNCs. After enrolling in the course, learners will be assigned a mentor whom they can contact directly during online sessions (chat section) and over the call at any time.             ",
+            open: false,
+          },
+          {
+            id: 4,
+            ques: "What is the typical response time for mentor support?            ",
+            ans: "Our mentors are available to support queries of learners at any time (during and after the sessions). So, within 10-15 minutes, learners can get mentor support to resolve queries regarding coursework or projects.             ",
             open: false,
           },
         ],
@@ -1000,15 +1015,27 @@ export const DataScienceCourseData = [
         data: [
           {
             id: 0,
-            ques: "When is the job assistance provided?",
+            ques: "How can I get technical support during the course?              ",
 
-            ans: "Placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNCs/startups. This assistance is provided until one gets placed in a company.",
+            ans: "Learnbay is available 24/7 to provide uninterrupted technical assistance. You can call the helpline number to reach the desired service providers to help you out with any technical issues (login, sessions, projects, chat, or course materials) with the course training platform or Learnbay application.               ",
             open: true,
           },
           {
             id: 1,
-            ques: "How long will I get Job referrals?",
-            ans: "You’ll be provided with job assistance after the completion of the course for a period of 1 year.",
+            ques: "Is there a discussion forum or community for students?              ",
+            ans: "Learners will get access to a customized ‘Learnbay App’ where batch-wise students are added along with their mentors. They can directly reach out to their mentors to resolve queries (related to coursework, projects, & placement) in case of need and also discuss doubts with peers.               ",
+            open: false,
+          },
+          {
+            id: 2,
+            ques: "What if I miss a class or need to catch up on a topic?              ",
+            ans: "Learnbay offers live-instructor-led training sessions that are also recorded for future use. In case, you miss a class, you have access to pre-recorded sessions to go through the learnings. If you wish to catch up on a topic or clarify some doubts, our mentors are available 24/7 on call/chat. Apart from this, if you find difficulties in managing your class timings and miss them, you can request for batch or timing change.               ",
+            open: false,
+          },
+          {
+            id: 3,
+            ques: "How can I contact your support team for non-technical issues?            ",
+            ans: "Learnbay is available 24/7 to support its learners. For non-technical issues, you can contact our team or learning consultant directly at +91 7795687988 and get your queries resolved shortly.           ",
             open: false,
           },
         ],
