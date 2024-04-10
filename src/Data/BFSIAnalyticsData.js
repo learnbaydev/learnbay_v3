@@ -677,12 +677,8 @@ export const BFSIDataScienceCourseData = [
           },
           {
             id: 3,
-            ques: "What’s the duration of the Data Science and AI for BFSI Professionals Program?",
-            ans: `The duration of this Data Science and AI for BFSI Professionals Course is about 6 months (180 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
-        
-            Classes will be conducted on weekdays and weekend batches.
-            Weekday batch – 5 months, Monday to Friday – 2 hours/day,
-            Weekend batch – 6.5 months, Saturday & Sunday – 3.5 hours/day.`,
+            ques: "What’s the duration of the Data Science and AI for BFSI Professionals Program?            ",
+            ans: "The duration of the Data Science and AI Certification Program for BFSI Professionals program is 7 months. (Rest keep the same as before). ",
             open: false,
           },
           {
@@ -705,8 +701,8 @@ export const BFSIDataScienceCourseData = [
         data: [
           {
             id: 0,
-            ques: "What is the total fee for the Data Science and AI for BFSI Professionals Program?",
-            ans: "We offer industry-specific full-stack BFSI modules, via which you learn the respective industry’s best practices.The total program fee for the Data Science and AI for BFSI Professionals Program is INR 90,000 + 18% GST.",
+            ques: "What is the total fee for the Data Science and AI for BFSI Professionals Program?            ",
+            ans: "The total program fee for the Data Science and AI Certification Program for BFSI Professionals program is INR 90,000 + 18% GST. ",
             open: true,
           },
           {
@@ -720,15 +716,8 @@ export const BFSIDataScienceCourseData = [
           },
           {
             id: 2,
-            ques: "Is there any scholarship/discount available for the BFSI Program? What is Group Discount?",
-            ans: `Learnbay offers a 15 – 20% scholarship for early birds occasionally.
-            Please check our websites or contact our sales team to know more about the applicable discounts.
-            
-            Group Discount :
-            Group Discount is applicable only if you’re joining with your friends.
-            5% extra discount: Group of 2,
-            8% extra discount: Group of 3,
-            Max 10% discount: Group of 4+.`,
+            ques: "Is there any scholarship/discount available for the BFSI Program? What is a Group Discount?            ",
+            ans: `Yes, we offer scholarships to our eligible candidates enrolling in this program. Candidates can avail up to 25% scholarship on their courses. (Rest keep the same as before)            `,
             open: false,
           },
           {
@@ -773,8 +762,17 @@ export const BFSIDataScienceCourseData = [
         data: [
           {
             id: 0,
-            ques: "Is there any accredited certification after course completion?",
-            ans: "Yes, you will be awarded IBM accredited Data Science and AI for BFSI Professionals Certificate on successful course completion.",
+            ques: "Is there any accredited certification after course completion?            ",
+            ans: "Yes. Successful completion of the course will attest to a globally accredited certification for your career. Here, you will receive a course completion certificate accredited by IBM that validates your skills to thrive globally. Apart from this, an industry-certified Microsoft certificate justifies our collaboration for successful career transitions.             ",
+            open: true,
+          },
+          {
+            id: 1,
+            ques: "What categories of certifications might I expect to receive?            ",
+            ans: "This course offers you two categories of certifications –            ",
+            list1:"Two-Course Completion Certificates from IBM & Microsoft            ",
+            list2:"One Capstone Project Certification from IBM            ",
+            dscoursefaq1:true,
             open: true,
           },
         ],
@@ -795,8 +793,8 @@ export const BFSIDataScienceCourseData = [
           },
           {
             id: 1,
-            ques: "How many interview calls will I get at Learnbay?",
-            ans: "You’ll be provided 5 interview calls after the completion of the course.",
+            ques: "How many interview calls will I get at Learnbay?            ",
+            ans: "You will be provided with 8 – 10 interview calls from our potential industry partners.             ",
             open: false,
           },
           {
@@ -823,7 +821,7 @@ export const BFSIDataScienceCourseData = [
         data: [
           {
             id: 0,
-            ques: "Until when will the students get the facility of mentorship?",
+            ques: "Until when will the Learnbay students get the facility of mentorship?            ",
 
             ans: "Our Mentors will provide BFSI training to the students until the completion of the course.",
             open: true,
@@ -831,7 +829,7 @@ export const BFSIDataScienceCourseData = [
           {
             id: 1,
             ques: "Can a Learnbay student choose to study from their desired mentor?",
-            ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+            ans: "Our mentors will provide industry-specific training to the students until the completion of the course depending on the specialization. Post-completion, students can reach out to specialized mentors for project and placement purposes.            ",
             open: false,
           },
         ],
@@ -842,15 +840,33 @@ export const BFSIDataScienceCourseData = [
         data: [
           {
             id: 0,
-            ques: "When is the job assistance provided at Learnbay?",
+            ques: "When is the job assistance provided and how long will I get it?",
 
-            ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+            ans: "At Learnbay, placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
             open: true,
           },
           {
             id: 1,
             ques: "How long will I get Job referrals?",
-            ans: "You’ll be provided with job assistance after the completion of the course for a period of 1 year.",
+            ans: "You’ll be provided with job referrals after the completion of the course for a period of 1 year.",
+            open: false,
+          },
+          {
+            id: 2,
+            ques: "How can I reach out for technical support if I encounter any issues with the course platform?            ",
+            ans: "After enrolling in the course, you are open to use 24x7 learner’s support to resolve any query. You can call the helpline number to reach the desired service providers to help you out of any technical issues with the course platform.             ",
+            open: false,
+          },
+          {
+            id: 3,
+            ques: "Is there a discussion forum or community for students to interact and seek help?            ",
+            ans: "There is no discussion forum or community for students to interact and seek help. They can directly reach out to the learner’s support team which is available 24x7 to resolve queries. In case of any doubt related to coursework or projects, learners can schedule a call for 1:1 sessions with their respective mentors.              ",
+            open: false,
+          },
+          {
+            id: 4,
+            ques: "What is the best way to contact your support team if I have general inquiries?            ",
+            ans: "Learnbay offers 24x7 learner’s support to help with general inquiries. You can check with our sales team at +91 7795687988 in case you have any questions in your mind. They will reach out to you as soon as possible with the best solutions.             ",
             open: false,
           },
         ],
