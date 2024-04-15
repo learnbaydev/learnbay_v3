@@ -118,6 +118,32 @@
     text-align: center;
     justify-content: space-around;
 } */
+.GetHireHead {
+display: grid;
+    grid-template-columns: 40% 45%;
+    grid-gap: 195px;
+    gap: 180px;
+    margin-bottom: 35px;
+    justify-content: center;
+}
+
+
+.showDesktop img {
+  width: 400px;
+  height: 100%;
+}
+.GetHireBulet {
+  display: grid;
+  grid-template-columns: 70% 39%;
+  grid-gap: 50px;
+  grid-gap: 50px;
+  grid-gap: 60px;
+  gap: 35px;
+  align-items: center;
+}
+.GetHireHead h2{
+font-size: 24px;
+}
 
 
 }

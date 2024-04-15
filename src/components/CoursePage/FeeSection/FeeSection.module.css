@@ -259,6 +259,12 @@ font-size: 35px;
   }
 
 }
+@media (max-width: 1024px) {
+.ThreeCard{
+  padding: 20px 50px;
+}
+
+}
 
 @media (max-width: 641px) {
   .ThreeCard {

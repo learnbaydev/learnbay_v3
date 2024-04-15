@@ -85,11 +85,32 @@
   justify-content: center;
   align-items: center;
 }
+
 @media (max-width: 1281px) {
 
   .BoxCont {
     font-size: 13px;
   }
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .BgCont1 {
+    font-size: 13px;
+  }
+  .imgBox {
+    padding-left: 30px;
+  }
+  .BgCont2 {
+    font-size: 13px;
+  }
+  .imgBox {
+    padding-left: 30px;
+  }
+
+
 }
 
 @media (max-width: 641px) {

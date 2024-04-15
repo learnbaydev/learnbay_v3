@@ -345,6 +345,13 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .Syllabus {
+    gap: 40px;
+  }
+
+}
+
 @media (max-width: 801px) {
   .syllabusLeft h4 {
     font-size: 24px;
