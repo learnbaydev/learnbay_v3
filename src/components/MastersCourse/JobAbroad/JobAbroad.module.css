@@ -93,6 +93,25 @@
 .consbtn1 {
   display: none;
 }
+@media only screen and (max-width: 1024px) {
+  .JobAbroadRight img {
+    width: 400px;
+    height: auto;
+  }
+  .JobAbroadHead {
+    margin: 0px 50px;
+  }
+  .leftpoints p {
+    font-size: 14px;
+  }
+  .leftpoints {
+    margin-bottom: 0px;
+  }
+
+
+}
+
+
 
 @media only screen and (max-width: 641px) {
   .JobAbroadMain {

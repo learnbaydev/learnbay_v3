@@ -656,7 +656,7 @@ export const HRDataScienceCourseData = [
           {
             id: 0,
             ques: "Is there any accredited certification after course completion?",
-            ans: "Yes, you will be awarded IBM accredited HR Certificate on successful course completion.",
+            ans: "Yes, you will be awarded IBM & Microsoft accredited HR Certificate on successful course completion.",
             open: true,
           },
         ],

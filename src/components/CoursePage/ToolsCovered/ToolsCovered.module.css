@@ -12,7 +12,12 @@
 }
 
 
-
+@media screen  and (max-width: 1024px) {
+  .toolmain img {
+    width: fit-content;
+  
+  }
+}
 
 
 @media screen and (max-width: 641px) {

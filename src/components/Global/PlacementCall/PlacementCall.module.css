@@ -211,7 +211,7 @@
     overflow: hidden;
   }
 }
-@media (max-width: 1400px){
+@media (min-width: 1400px){
 .PlacementCallMain{
   overflow: hidden;
 }

@@ -75,6 +75,13 @@
 .ShowInMobile {
     display: none;
 }
+@media (max-width: 1024px) {
+.section {
+  margin: 30px;
+}
+
+
+}
 
 @media (max-width: 641px) {
 .section {

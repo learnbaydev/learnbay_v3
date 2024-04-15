@@ -99,6 +99,13 @@
   .LearnSupport {
     padding: 30px 30px 30px 180px;
   }
+  .rightPart img {
+    width: 420px;
+    height: auto;
+  }
+  .rightPart {
+    width: 420px;
+  }
 }
 
 @media (max-width: 961px) {

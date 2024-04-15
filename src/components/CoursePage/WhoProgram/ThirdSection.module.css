@@ -137,6 +137,21 @@
   .leftSide {
     width: 100%;
   }
+  .leftSide p {
+    margin-top: -30px;
+    color: #444;
+    font-weight: 500;
+    text-align: left;
+    line-height: 19px;
+    font-size: 13px;
+  }
+  .heading {
+    left: 55px;
+    font-size: 12px;
+  }
+  .boxWrap {
+    gap: 80px 90px ;
+  }
 }
 
 @media (max-width: 801px) {
