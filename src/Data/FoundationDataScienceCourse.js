@@ -484,7 +484,7 @@ export const DataScienceCourseData = [
           {
             id: 0,
             ques: "What is the total fee for Data Science Foundation Program?",
-            ans: "The total program fee for the Data Science Foundation Program is INR 106,200/- inclusive of GST.",
+            ans: "The total program fee for the Data Science Foundation Program is INR 85,000/- inclusive of GST.",
             open: true,
           },
           {

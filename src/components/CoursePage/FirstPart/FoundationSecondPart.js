@@ -88,19 +88,19 @@ const SecondPart = ({
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf"
         buttonHide={true}
       />
-      <ToolsCovered  Found={true} />
+      <ToolsCovered Found={true} />
       <Certificate data={CertificateData} singlecertificate={true} />
       <FeeSection
-        Fee="₹ 70,000"
-        FeeEmi="₹ 4,589/month"
-         weekdaybatch="Weekday Batch"
+        Fee="₹ 75,000"
+        FeeEmi="₹4,917/month"
+        weekdaybatch="Weekend Batch"
         weekendbatch="Weekday  Batch"
-        weekday="MON - FRI"
+        weekday="SAT - SUN"
         weekend="MON - FRI"
-        WeekdayDate="APR 12th"
+        WeekdayDate="APR 21st"
         WeekendDate="APR 19th"
-        WeekdayTime="8.00PM - 10.00PM"
-        WeekendTime="8.00AM - 10.00AM"
+        WeekdayTime="9:30 AM - 1:00 PM"
+        WeekendTime="8:00 AM - 10:00 AM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
         FeeContent5="15 days refund policy"
@@ -113,12 +113,12 @@ const SecondPart = ({
         // <EMI POPUP
         emiType="NO COST EMI"
         duration1="18 Months"
-        totalAmount1="₹70,000"
-        monthlyPayment1="₹4,589"
+        totalAmount1="₹75,000"
+        monthlyPayment1="₹4,917"
         greenDown1="Standard Intrest rate Applicable"
         duration2="12 Months"
-        totalAmount2="₹70,000"
-        monthlyPayment2="₹6,883"
+        totalAmount2="₹75,000"
+        monthlyPayment2="₹7,375"
       />
 
       <MentorsSection />

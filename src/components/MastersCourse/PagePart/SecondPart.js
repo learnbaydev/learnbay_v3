@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
-import dynamic from "next/dynamic";
-import BottomBar from "../../Global/BottomBar/BottomBar";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+import dynamic from "next/dynamic";
+import { useEffect, useState } from "react";
+import BottomBar from "../../Global/BottomBar/BottomBar";
 const GetHire = dynamic(() => import("../GetHire/GetHire"));
 const ContactCounsellor = dynamic(() =>
   import("../ContactCounsellor/ContactCounsellor")
@@ -27,16 +27,16 @@ const PlacementCall = dynamic(() =>
 const NewProjectSection = dynamic(() =>
   import("../../Global/NewProjectSection/NewProjectSection")
 );
-const Content = dynamic(() =>
-  import("../../CoursePage/Content/content")
-);
+const Content = dynamic(() => import("../../CoursePage/Content/content"));
 const SeventhSection = dynamic(() =>
   import("../../Global/SeventhSection/SeventhSection")
 );
-const MobileTestimonial = dynamic(() =>import("@/components/Home/MobileTestimonial/MobileTestimonial"))
+const MobileTestimonial = dynamic(() =>
+  import("@/components/Home/MobileTestimonial/MobileTestimonial")
+);
 
 const Footer = dynamic(() => import("../../Global/Footer/Footer"));
-const FAQNew = dynamic (() => import ("../../CoursePage/FAQNew/FAQNewDomain"))
+const FAQNew = dynamic(() => import("../../CoursePage/FAQNew/FAQNewDomain"));
 
 const SecondPart = ({
   CertificateData,
@@ -100,7 +100,7 @@ const SecondPart = ({
         weekend="SAT-SUN"
         WeekdayDate="MAR 25th"
         WeekendDate="JAN 14th"
-        WeekendTime="09:30 AM - 1:00 PM"
+        WeekendTime="9:30 AM - 1:00 PM"
         WeekdayTime="08:00 PM - 10:00 PM"
         CutFee="₹ 3,25,000/-"
         FeeContent3="Flexible payment"
@@ -108,21 +108,20 @@ const SecondPart = ({
         FeeContent5="15 days refund policy"
         FeeContent6="No additional cost"
         dataScienceCounselling={true}
-
-// EMI POPUPDATA
-        emiType = "NO COST EMI"
-        duration1 = "24 Months"
-        totalAmount1 = "₹2,50,000"
-        monthlyPayment1 = "₹12,292"
-        greenDown1 = "Standard Intrest rate Applicable"
-        duration2 = "18 Months"
-        totalAmount2 = "₹2,50,000"
-        monthlyPayment2 = "₹16,389"
+        // EMI POPUPDATA
+        emiType="NO COST EMI"
+        duration1="24 Months"
+        totalAmount1="₹2,50,000"
+        monthlyPayment1="₹12,292"
+        greenDown1="Standard Intrest rate Applicable"
+        duration2="18 Months"
+        totalAmount2="₹2,50,000"
+        monthlyPayment2="₹16,389"
       />
       <MentorsSection />
       <SliderTabs />
       <PlacementCall />
-      <MobileTestimonial/>
+      <MobileTestimonial />
       <NewProjectSection
         dataScience={true}
         titleCourse="Masters in Computer Science: Data Science and AI"
@@ -131,12 +130,10 @@ const SecondPart = ({
       />
       {/* <FAQNew FAQNewData={DataScienceMastersinCS[0].faq} /> */}
       <FAQNew FAQNewData={FAQNewData} />
-      <Content Masterscontent={true} dataScienceCounselling={true}/>
+      <Content Masterscontent={true} dataScienceCounselling={true} />
       <SeventhSection />
       <Footer />
-      <BottomBar masterdegree={true} 
-      dataScienceCounselling={true}
-      />
+      <BottomBar masterdegree={true} dataScienceCounselling={true} />
       <WhatsappFloat />
       {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
     </>

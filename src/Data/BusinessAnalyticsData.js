@@ -675,13 +675,13 @@ export const BADataScienceCourseData = [
           {
             id: 0,
             ques: "What is the total Fee for the Business Analytics Program? ",
-            ans: "The total program fee for the Business Analytics with Domain Specialization is INR 90,000 + 18% GST.",
+            ans: "The total program fee for the Business Analytics with Domain Specialization is INR 95,000 + 18% GST.",
             open: true,
           },
           {
             id: 1,
             ques: "Can I pay in installments for the Business Analytics Program?",
-            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 5,900/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 6,228/month up to 18 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
             open: false,
           },
           {

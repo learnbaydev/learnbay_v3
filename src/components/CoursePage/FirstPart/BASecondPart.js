@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
+import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import dynamic from "next/dynamic";
+import { useEffect, useState } from "react";
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
 const WhatsappFloat = dynamic(() =>
@@ -32,14 +33,14 @@ const NewProjectSection = dynamic(() =>
 const FAQNew = dynamic(() =>
   import("../../../components/CoursePage/FAQNew/FAQNew")
 );
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
-const Content = dynamic (()=> import ("../../CoursePage/Content/content"))
+const Content = dynamic(() => import("../../CoursePage/Content/content"));
 const SeventhSection = dynamic(() =>
   import("@/components/Global/SeventhSection/SeventhSection")
 );
-const MobileTestimonial = dynamic(() =>import("@/components/Home/MobileTestimonial/MobileTestimonial"))
-
+const MobileTestimonial = dynamic(() =>
+  import("@/components/Home/MobileTestimonial/MobileTestimonial")
+);
 
 const SecondPart = ({
   masterSyllabusMobile,
@@ -91,15 +92,15 @@ const SecondPart = ({
       <ToolsCovered />
       <Certificate data={CertificateData} />
       <FeeSection
-        Fee="₹ 90,000"
-        FeeEmi="₹ 5,900/month"
+        Fee="₹ 95,000"
+        FeeEmi="₹ 6,228/month"
         weekdaybatch="Weekday Batch"
         weekendbatch="Weekend Batch"
         weekday="MON-FRI"
         weekend="SAT-SUN"
         WeekdayDate="APR 12th"
-        WeekendDate="MAR 10th"
-        WeekendTime="09:30 AM - 1:00 PM"
+        WeekendDate="MAY 12th"
+        WeekendTime="9:30 AM - 1:00 PM"
         WeekdayTime="8.00 PM - 10.00 PM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
@@ -110,22 +111,20 @@ const SecondPart = ({
         titleCourse="Business Analytics Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
         dataScience={true}
-
-
         // EMI POPUPDATA
-        emiType = "NO COST EMI"
-        duration1 = "18 Months"
-        totalAmount1 = "₹90,000"
-        monthlyPayment1 = "₹5,900"
-        greenDown1 = "Standard Intrest rate Applicable"
-        duration2 = "12 Months"
-        totalAmount2 = "₹90,000"
-        monthlyPayment2 = "₹8,850"
+        emiType="NO COST EMI"
+        duration1="18 Months"
+        totalAmount1="₹95,000"
+        monthlyPayment1="₹6,228"
+        greenDown1="Standard Intrest rate Applicable"
+        duration2="12 Months"
+        totalAmount2="₹95,000"
+        monthlyPayment2="₹9,342"
       />
       <MentorsSection />
       <SliderTab />
       <PlacementCall />
-      <MobileTestimonial/>
+      <MobileTestimonial />
       <NewProjectSection
         dataScience={true}
         titleCourse="Business Analytics Certification Program"
@@ -134,13 +133,10 @@ const SecondPart = ({
         interstedInHide={true}
       />
       <FAQNew FAQNewData={FAQNewData} />
-      <Content Banalytics={true} dataScienceCounselling={true}/>
+      <Content Banalytics={true} dataScienceCounselling={true} />
       <SeventhSection />
       <Footer />
-      <BottomBar
-        dataScienceCounselling={true}
-        interstedInHide={true}
-      />
+      <BottomBar dataScienceCounselling={true} interstedInHide={true} />
       <WhatsappFloat />
       {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
     </div>

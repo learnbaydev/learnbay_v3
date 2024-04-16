@@ -36,7 +36,6 @@ const MobileTestimonial = dynamic(() =>
   import("../../Home/MobileTestimonial/MobileTestimonial")
 );
 
-
 const SecondPart = ({
   masterSyllabusMobile,
   CertificateData,
@@ -99,16 +98,16 @@ const SecondPart = ({
       <ToolsCovered />
       <Certificate data={CertificateData} />
       <FeeSection
-        Fee="₹99,000"
-        FeeEmi="₹ 6,490/month"
-        weekdaybatch="Weekday Batch"
+        Fee="₹1,05,000"
+        FeeEmi="₹6,883/month"
+        weekdaybatch="Weekend Batch"
         weekendbatch="Weekday  Batch"
-        weekday="MON - FRI"
+        weekday="SAT - SUN"
         weekend="MON - FRI"
-        WeekdayDate="APR 12th"
+        WeekdayDate="APR 21st"
         WeekendDate="APR 19th"
-        WeekdayTime="8.00PM - 10.00PM"
-        WeekendTime="8.00AM - 10.00AM"
+        WeekdayTime="9:30 AM - 1:00 PM"
+        WeekendTime="8:00 AM - 10:00 AM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
         FeeContent5="15 days refund policy"
@@ -121,12 +120,12 @@ const SecondPart = ({
         // <EMI POPUP
         emiType="NO COST EMI"
         duration1="18 Months"
-        totalAmount1="₹99,000"
-        monthlyPayment1="₹6,490"
+        totalAmount1="₹1,05,000"
+        monthlyPayment1="₹6,883"
         greenDown1="Standard Intrest rate Applicable"
         duration2="12 Months"
-        totalAmount2="₹99,000"
-        monthlyPayment2="₹9,735"
+        totalAmount2="₹1,05,000"
+        monthlyPayment2="₹10,325"
       />
 
       <MentorsSection />

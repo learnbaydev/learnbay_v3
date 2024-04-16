@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
-import dynamic from "next/dynamic";
-import BottomBar from "../../Global/BottomBar/BottomBar";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+import dynamic from "next/dynamic";
+import { useEffect, useState } from "react";
+import BottomBar from "../../Global/BottomBar/BottomBar";
 const GetHire = dynamic(() => import("../../MastersCourse/GetHire/GetHire"));
 const ContactCounsellor = dynamic(() =>
   import("../ContactCounsellor/ContactCounsellor")
@@ -13,7 +13,9 @@ const ToolsCovered = dynamic(() =>
   import("../../CoursePage/ToolsCovered/ToolsCovered")
 );
 const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
-const Certificate = dynamic(() => import("../../MastersCourse/Certificate/Certificate"));
+const Certificate = dynamic(() =>
+  import("../../MastersCourse/Certificate/Certificate")
+);
 const FeeSection = dynamic(() =>
   import("../../CoursePage/FeeSection/FeeSection")
 );
@@ -28,14 +30,15 @@ const NewProjectSection = dynamic(() =>
   import("../../Global/NewProjectSection/NewProjectSection")
 );
 
-
 const SeventhSection = dynamic(() =>
   import("../../Global/SeventhSection/SeventhSection")
 );
-const MobileTestimonial = dynamic(() =>import("@/components/Home/MobileTestimonial/MobileTestimonial"))
+const MobileTestimonial = dynamic(() =>
+  import("@/components/Home/MobileTestimonial/MobileTestimonial")
+);
 
 const Footer = dynamic(() => import("../../Global/Footer/Footer"));
-const FAQNew = dynamic (() => import ("../../CoursePage/FAQNew/FAQNewDomain"))
+const FAQNew = dynamic(() => import("../../CoursePage/FAQNew/FAQNewDomain"));
 
 const ExecutiveSecondPart = ({
   CertificateData,
@@ -86,49 +89,43 @@ const ExecutiveSecondPart = ({
         MastersContent={true}
         titleCourse="Masters in Computer Science: Data Science and AI"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf"
-        isguwati ={true}
+        isguwati={true}
       />
       <ToolsCovered
         deskImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Tools-Logo.png"
         mobImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Mobile-Tools-Covered.png"
       />
-      <Certificate data={CertificateData}
-Imgno ={true}
-isguwati={true}
-
-      />
+      <Certificate data={CertificateData} Imgno={true} isguwati={true} />
       <FeeSection
         Fee="₹ 1,90,000"
         FeeEmi="12,455/month."
-        weekdaybatch="Weekday Batch"
+        weekdaybatch="Weekend Batch"
         weekendbatch="Weekday  Batch"
-        weekday="MON - FRI"
+        weekday="SAT - SUN"
         weekend="MON - FRI"
-        WeekdayDate="APR 12th"
+        WeekdayDate="APR 21st"
         WeekendDate="APR 19th"
-        WeekdayTime="8.00PM - 10.00PM"
-        WeekendTime="8.00AM - 10.00AM"
-       
+        WeekdayTime="9:30 AM - 1:00 PM"
+        WeekendTime="8:00 AM - 10:00 AM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
         FeeContent5="15 days refund policy"
         FeeContent6="No additional cost"
         dataScienceCounselling={true}
-
-// EMI POPUPDATA
-        emiType = "NO COST EMI"
-        duration1 = "18 Months"
-        totalAmount1 = "₹1,90,000"
-        monthlyPayment1 = "₹ 12,456"
-        greenDown1 = "Standard Intrest rate Applicable"
-        duration2 = "12 Months"
-        totalAmount2 = "₹1,90,000"
-        monthlyPayment2 = "₹18,683"
+        // EMI POPUPDATA
+        emiType="NO COST EMI"
+        duration1="18 Months"
+        totalAmount1="₹1,90,000"
+        monthlyPayment1="₹ 12,456"
+        greenDown1="Standard Intrest rate Applicable"
+        duration2="12 Months"
+        totalAmount2="₹1,90,000"
+        monthlyPayment2="₹18,683"
       />
-   
+
       <SliderTabs />
       <PlacementCall />
-      <MobileTestimonial/>
+      <MobileTestimonial />
       <NewProjectSection
         dataScience={true}
         titleCourse="Masters in Computer Science: Data Science and AI"
@@ -136,13 +133,11 @@ isguwati={true}
         projectSection={projectSection}
       />
       {/* <FAQNew FAQNewData={DataScienceMastersinCS[0].faq} /> */}
-      <FAQNew FAQNewData={FAQNewData} isguwati={true} isSpecial ={true} />
-   
+      <FAQNew FAQNewData={FAQNewData} isguwati={true} isSpecial={true} />
+
       <SeventhSection />
       <Footer />
-      <BottomBar masterdegree={true} 
-      dataScienceCounselling={true}
-      />
+      <BottomBar masterdegree={true} dataScienceCounselling={true} />
       <WhatsappFloat />
       {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
     </>

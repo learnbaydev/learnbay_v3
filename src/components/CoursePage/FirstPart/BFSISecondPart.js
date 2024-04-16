@@ -85,15 +85,15 @@ const SecondPart = ({
       <ToolsCovered />
       <Certificate data={CertificateData} />
       <FeeSection
-        Fee="₹90,000"
-        FeeEmi="₹5,900/month"
+        Fee="₹95,000"
+        FeeEmi="₹6,228/month"
         weekdaybatch="Weekday Batch"
         weekendbatch="Weekend Batch"
         weekday="MON-FRI"
         weekend="SAT-SUN"
         WeekdayDate="APR 12th"
-        WeekendDate="MAR 10th"
-        WeekendTime="09:30 AM - 1:00 PM"
+        WeekendDate="MAY 12th"
+        WeekendTime="9:30 AM - 1:00 PM"
         WeekdayTime="8.00 PM - 10.00 PM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
@@ -107,12 +107,12 @@ const SecondPart = ({
         // EMI POPUPDATA
         emiType="NO COST EMI"
         duration1="18 Months"
-        totalAmount1="₹90,000"
-        monthlyPayment1="₹5,900"
+        totalAmount1="₹95,000"
+        monthlyPayment1="₹6,228"
         greenDown1="Standard Intrest rate Applicable"
         duration2="12 Months"
-        totalAmount2="₹90,000"
-        monthlyPayment2="₹8,850"
+        totalAmount2="₹95,000"
+        monthlyPayment2="₹9,342"
       />
       <MentorsSection />
       <SliderTab WithoutService={true} />
