@@ -149,7 +149,11 @@ export const AIcanadaCourseData = [
           name: "What is the total fee for Learnbay AI Certifications courses in Canada?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The total course fee for the Foundational Data Science and Artificial Intelligence Training Course is 88,500/- inclusive of GST. Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST. Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST. Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST. Machine learning and AI Certification is 1,23,900/-inclusive of GST.",
+            text: `The total course fee for the 
+            Foundational Data Science and AI Training course is 88,500/- inclusive of GST.
+            Advance Data Science and AI Certification course is 1,23,900/- inclusive of GST.
+            Data Science and AI Certification Course for Managers and Leaders is 1,35,700/- inclusive of GST.
+            Data Science and AI Master Certification Program is 1,59,300/- inclusive of GST.`,
           },
         },
         {
@@ -666,11 +670,10 @@ export const AIcanadaCourseData = [
             id: 0,
             ques: "What is the total fee for Learnbay AI Certifications courses in Canada?",
             ans: `The total course fee for the 
-                Foundational Data Science and Artificial Intelligence Training Course is 1,10,000/- inclusive of GST.
-                Advance Data Science and  AI Certification course is 1,12,100/- inclusive of GST.
-                Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
-                Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
-                Machine learning and AI Certification is 1,23,900/-inclusive of GST`,
+            Foundational Data Science and AI Training course is 88,500/- inclusive of GST.
+            Advance Data Science and AI Certification course is 1,23,900/- inclusive of GST.
+            Data Science and AI Certification Course for Managers and Leaders is 1,35,700/- inclusive of GST.
+            Data Science and AI Master Certification Program is 1,59,300/- inclusive of GST.`,
             open: true,
           },
           {

@@ -19,7 +19,9 @@ const SliderTab = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
 const PlacementCall = dynamic(() =>
   import("../../Global/PlacementCall/PlacementCall")
 );
-const MobileTestimonial = dynamic(() =>import("@/components/Home/MobileTestimonial/MobileTestimonial"))
+const MobileTestimonial = dynamic(() =>
+  import("@/components/Home/MobileTestimonial/MobileTestimonial")
+);
 
 const NewProjectSection = dynamic(() =>
   import("../../Global/NewProjectSection/NewProjectSection")
@@ -80,19 +82,17 @@ const SecondPart = ({
         interstedInHide={true}
       />
       <ToolsCovered />
-      <Certificate
-        data={CertificateData}
-      />
+      <Certificate data={CertificateData} />
       <FeeSection
-        Fee="₹ 75,000"
-        FeeEmi="₹ 4,912/month"
+        Fee="₹ 80,000"
+        FeeEmi="₹ 5,244/month"
         weekdaybatch="Weekday Batch"
         weekendbatch="Weekend Batch"
         weekday="MON-FRI"
         weekend="SAT-SUN"
         WeekdayDate="APR 12th"
-        WeekendDate="MAR 10th"
-        WeekendTime="09:30 AM - 1:00 PM"
+        WeekendDate="MAY 12th"
+        WeekendTime="9:30 AM - 1:00 PM"
         WeekdayTime="8.00 PM - 10.00 PM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
@@ -106,17 +106,17 @@ const SecondPart = ({
         // <EMI POPUP
         emiType="NO COST EMI"
         duration1="18 Months"
-        totalAmount1="₹75,000"
-        monthlyPayment1="₹4,912"
+        totalAmount1="₹80,000"
+        monthlyPayment1="₹5,244"
         greenDown1="Standard Intrest rate Applicable"
         duration2="12 Months"
-        totalAmount2="₹75,000"
-        monthlyPayment2="₹7,375"
+        totalAmount2="₹80,000"
+        monthlyPayment2="₹7,867"
       />
       <MentorsSection />
       <SliderTab WithoutService={true} />
       <PlacementCall Marketing={true} />
-      <MobileTestimonial/>
+      <MobileTestimonial />
       <NewProjectSection
         dataScience={true}
         titleCourse="Marketing Analytics Certification Program"
@@ -125,7 +125,11 @@ const SecondPart = ({
         interstedInHide={true}
       />
       <FAQNew FAQNewData={FAQNewData} />
-      <Content dataScienceCounselling={true} Marketing={true} interstedInHide={true}/>
+      <Content
+        dataScienceCounselling={true}
+        Marketing={true}
+        interstedInHide={true}
+      />
       <SeventhSection />
       <Footer />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />

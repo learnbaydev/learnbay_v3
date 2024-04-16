@@ -1,4 +1,5 @@
 import Navbar from "@/components/Global/Navbar/Navbar";
+import Realstory from "@/components/Home/Realstory/Realstory";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import { useEffect, useState } from "react";
@@ -7,7 +8,6 @@ import Footer from "../../../components/Global/Footer/Footer";
 import Form from "../../../components/Global/Form/Form";
 import Popup from "../../../components/Global/Popup/Popup";
 import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
-import Realstory from "@/components/Home/Realstory/Realstory";
 import styles from "../../../styles/Home.module.css";
 const FirstSection = dynamic(() =>
   import("../../../components/Seo/FirstSection/FirstSection")
@@ -76,9 +76,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-        Best Data Science Course in Dhaka, Bangladesh - Learnbay
-        </title>
+        <title>Best Data Science Course in Dhaka, Bangladesh - Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -223,14 +221,12 @@ export default function Home() {
           firstTopPara="Foundational and Advanced Job-ready"
           cityParaCont="Leap forward to master in-demand tools via an industry-focused data science training institute in Dhaka. Here, you will develop your expertise with Generative AI models to demonstrate methodological skills in data science via live projects. Plus, our industry alliance with IBM & Microsoft supports a hassle-free global career rise.           "
         />
-        <SecondSection
-          SecondSectionData={DSDhakaCourseData[0].secondSection}
-        />
+        <SecondSection SecondSectionData={DSDhakaCourseData[0].secondSection} />
         <Realstory />
         <div className={styles.cityFee}>
           <FeeSection
             Fee="$1700"
-            FeeEmi="₹ 8,194/month"
+            FeeEmi="₹ 8,850/month"
             weekdaybatch="Weekday Batch"
             weekendbatch="Weekday  Batch"
             weekday="MON - FRI"
@@ -263,7 +259,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-             cityTextDhaka ={true}
+              cityTextDhaka={true}
               ProgramBot1={DSDhakaCourseData[0].ProgramBot1}
               ProgramHead3={DSDhakaCourseData[0].ProgramHead3}
               ProgramBot3={DSDhakaCourseData[0].ProgramBot3}
@@ -419,7 +415,6 @@ export default function Home() {
               ListJob10={DSDhakaCourseData[0].ListJob10}
               ListJobBot1={DSDhakaCourseData[0].ListJobBot1}
               modulelist={true}
-          
               ModuleHead1={DSDhakaCourseData[0].ModuleHead1}
               joblist={true}
               showData={true}

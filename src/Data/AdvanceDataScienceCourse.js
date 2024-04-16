@@ -729,13 +729,13 @@ export const DataScienceCourseData = [
           {
             id: 0,
             ques: "What is the total Fee for the Advanced Data Science and AI Program?",
-            ans: "The total program fee for the Advanced Data Science and AI Program with Domain Specialization is INR 99,000 + 18% GST.",
+            ans: "The total program fee for the Advanced Data Science and AI Program with Domain Specialization is INR 1,05,000 + 18% GST.",
             open: true,
           },
           {
             id: 1,
             ques: "Can I pay in installments for the Advanced Data Science and AI Program?",
-            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 6,490/month up to 18 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 6,883/month up to 18 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
             open: false,
           },
           {

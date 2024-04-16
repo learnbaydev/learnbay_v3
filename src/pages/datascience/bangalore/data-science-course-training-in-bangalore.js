@@ -202,7 +202,7 @@ export default function Home() {
                     "closes": "15:00"
                  }
               ],
-              "priceRange": "₹ 1,25,000 + 18% GST",
+              "priceRange": "₹ 1,35,000 + 18% GST",
               "servesCuisine": "Data Science Education",
               "areaServed": "Bangalore",
               "paymentAccepted": "Cash, Credit Card, Debit Card, EMI"
@@ -282,33 +282,36 @@ export default function Home() {
           para="Discover the impact of our programs on career growth"
         />
         <div className={styles.cityFee}>
-          <FeeSection
-            Fee="₹ 1,25,000"
-            FeeEmi="₹ 8,194/month"
-            weekdaybatch="Weekday Batch"
-            weekendbatch="Weekday  Batch"
-            weekday="MON - FRI"
-            weekend="MON - FRI"
-            WeekdayDate="FEB 2nd"
-            WeekendDate="FEB 9th"
-            WeekdayTime="8 PM - 10 PM"
-            WeekendTime="8 AM - 10 AM"
-            FeeContent3="Flexible payment"
-            FeeContent4="Easy loan procedure"
-            FeeContent5="15 days refund policy"
-            FeeContent6="No additional cost"
-            dataScienceCounselling={true}
-            interstedInHide={true}
-            // <EMI POPUP
-            emiType="NO COST EMI"
-            duration1="18 Months"
-            totalAmount1="₹1,25,000"
-            monthlyPayment1="₹8,194"
-            greenDown1="Standard Intrest rate Applicable"
-            duration2="12 Months"
-            totalAmount2="₹1,25,000"
-            monthlyPayment2="₹12,291"
-          />
+        <FeeSection
+        Fee="₹1,35,000"
+        FeeEmi="₹8,850/month"
+        weekdaybatch="Weekend Batch"
+        weekendbatch="Weekday  Batch"
+        weekday="SAT - SUN"
+        weekend="MON - FRI"
+        WeekdayDate="APR 21st"
+        WeekendDate="APR 19th"
+        WeekdayTime="9:30 AM - 1:00 PM"
+        WeekendTime="8:00 AM - 10:00 AM"
+        FeeContent3="Flexible payment"
+        FeeContent4="Easy loan procedure"
+        FeeContent5="15 days refund policy"
+        FeeContent6="No additional cost"
+        dataScienceCounselling={true}
+        interstedInHide={true}
+        dataScience={true}
+        titleCourse="Advanced Data Science and AI Program with domain specialization"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf"
+        // <EMI POPUP
+        emiType="NO COST EMI"
+        duration1="18 Months"
+        totalAmount1="₹1,35,000"
+        monthlyPayment1="₹8,850"
+        greenDown1="Standard Intrest rate Applicable"
+        duration2="12 Months"
+        totalAmount2="₹1,35,000"
+        monthlyPayment2="₹13,275"
+      />
         </div>
         <div className="MainCities">
           <div className="CitiesLeft">
@@ -436,9 +439,8 @@ export default function Home() {
           </div>
         </div>
         <SeventhSection />
-        <Map/>
+        <Map />
         <CityText CityText={true} />
-
         <Footer />
         {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
       </main>

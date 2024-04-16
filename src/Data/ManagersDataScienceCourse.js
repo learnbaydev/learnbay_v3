@@ -851,13 +851,13 @@ export const DataScienceCourseData = [
           {
             id: 0,
             ques: "What is the total Fee for the Data Science and AI for Managers & Leaders Program?",
-            ans: "The total program fee for the Data Science and AI for Managers & Leaders Program is INR 1,10,000 + 18% GST.",
+            ans: "The total program fee for the Data Science and AI for Managers & Leaders Program is INR 1,15,000 + 18% GST.",
             open: true,
           },
           {
             id: 1,
-            ques: "Can I pay in installments for 1,10,000/-?",
-            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 7,211/month up to 18 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+            ques: "Can I pay in installments for 1,15,000/-?",
+            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 7,539/month up to 18 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
             open: false,
           },
           {
@@ -927,9 +927,10 @@ export const DataScienceCourseData = [
             id: 1,
             ques: "What categories of certifications might I expect to receive?            ",
             ans: "This course offers you two categories of certifications –            ",
-           list1:"Two-Course Completion Certificates from IBM & Microsoft           ",
-           list2:"Two Capstone Project Certifications from IBM           ",
-           dscoursefaq1:true,
+            list1:
+              "Two-Course Completion Certificates from IBM & Microsoft           ",
+            list2: "Two Capstone Project Certifications from IBM           ",
+            dscoursefaq1: true,
             open: false,
           },
         ],

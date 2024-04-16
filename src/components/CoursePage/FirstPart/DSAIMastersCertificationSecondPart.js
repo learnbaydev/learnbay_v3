@@ -23,8 +23,9 @@ const NewProjectSection = dynamic(() =>
 const FAQNew = dynamic(() => import("../FAQNew/FAQNew"));
 const Content = dynamic(() => import("../Content/content"));
 
-const MobileTestimonial = dynamic(() =>import("@/components/Home/MobileTestimonial/MobileTestimonial"))
-
+const MobileTestimonial = dynamic(() =>
+  import("@/components/Home/MobileTestimonial/MobileTestimonial")
+);
 
 const SecondPart = ({
   masterSyllabusMobile,
@@ -88,16 +89,16 @@ const SecondPart = ({
       <ToolsCovered />
       <Certificate data={CertificateData} />
       <FeeSection
-        Fee="₹1,29,000"
-        FeeEmi="₹8,457/month"
-         weekdaybatch="Weekday Batch"
+        Fee="₹1,35,000"
+        FeeEmi="₹8,850/month"
+        weekdaybatch="Weekend Batch"
         weekendbatch="Weekday  Batch"
-        weekday="MON - FRI"
+        weekday="SAT - SUN"
         weekend="MON - FRI"
-        WeekdayDate="APR 12th"
+        WeekdayDate="APR 21st"
         WeekendDate="APR 19th"
-        WeekdayTime="8.00PM - 10.00PM"
-        WeekendTime="8.00AM - 10.00AM"
+        WeekdayTime="9:30 AM - 1:00 PM"
+        WeekendTime="8:00 AM - 10:00 AM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
         FeeContent5="15 days refund policy"
@@ -110,18 +111,18 @@ const SecondPart = ({
         // <EMI POPUP
         emiType="NO COST EMI"
         duration1="18 Months"
-        totalAmount1="₹1,29,000"
-        monthlyPayment1="₹8,457"
+        totalAmount1="₹1,35,000"
+        monthlyPayment1="₹8,850"
         greenDown1="Standard Intrest rate Applicable"
         duration2="12 Months"
-        totalAmount2="₹1,29,000"
-        monthlyPayment2="₹12,685"
+        totalAmount2="₹1,35,000"
+        monthlyPayment2="₹13,275"
       />
 
       <MentorsSection />
       <SliderTab />
       <PlacementCall />
-<MobileTestimonial/>
+      <MobileTestimonial />
       <NewProjectSection
         dataScience={true}
         interstedInHide={true}

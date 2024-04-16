@@ -6,19 +6,13 @@ import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
-const Certificate = dynamic(() =>
-  import("../Certificate/Certificate")
-);
+const Certificate = dynamic(() => import("../Certificate/Certificate"));
 const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
-const FeeSection = dynamic(() =>
-  import("../FeeSection/FeeSection")
-);
+const FeeSection = dynamic(() => import("../FeeSection/FeeSection"));
 const MentorsSection = dynamic(() =>
   import("../../Global/MentorsSection/MentorsSection")
 );
-const SliderTab = dynamic(() =>
-  import("../../Global/SliderTabs/SliderTabs")
-);
+const SliderTab = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
 const PlacementCall = dynamic(() =>
   import("../../Global/PlacementCall/PlacementCall")
 );
@@ -26,14 +20,11 @@ const NewProjectSection = dynamic(() =>
   import("../../Global/NewProjectSection/NewProjectSection")
 );
 
-const FAQNew = dynamic(() =>
-  import("../FAQNew/FAQNew")
+const FAQNew = dynamic(() => import("../FAQNew/FAQNew"));
+const Content = dynamic(() => import("../Content/content"));
+const MobileTestimonial = dynamic(() =>
+  import("@/components/Home/MobileTestimonial/MobileTestimonial")
 );
-const Content = dynamic(() =>
-  import("../Content/content")
-);
-const MobileTestimonial = dynamic(() =>import("@/components/Home/MobileTestimonial/MobileTestimonial"))
-
 
 const SecondPart = ({
   masterSyllabusMobile,
@@ -95,23 +86,24 @@ const SecondPart = ({
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf"
         buttonHide={true}
       />
-      <ToolsCovered Intern={true}/>
-      <Certificate data={CertificateData}
-              // projectWithCertificate={true}
-              singlecertificate={true}
-              FreshersDoubleCertificate={true}
+      <ToolsCovered Intern={true} />
+      <Certificate
+        data={CertificateData}
+        // projectWithCertificate={true}
+        singlecertificate={true}
+        FreshersDoubleCertificate={true}
       />
       <FeeSection
-        Fee="₹70,000"
-        FeeEmi="₹ 4,589/month"
-         weekdaybatch="Weekday Batch"
+        Fee="₹75,000"
+        FeeEmi="₹ 4,917/month"
+        weekdaybatch="Weekend Batch"
         weekendbatch="Weekday  Batch"
-        weekday="MON - FRI"
+        weekday="SAT - SUN"
         weekend="MON - FRI"
-        WeekdayDate="APR 12th"
+        WeekdayDate="APR 21st"
         WeekendDate="APR 19th"
-        WeekdayTime="8.00PM - 10.00PM"
-        WeekendTime="8.00AM - 10.00AM"
+        WeekdayTime="9:30 AM - 1:00 PM"
+        WeekendTime="8:00 AM - 10:00 AM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
         FeeContent5="15 days refund policy"
@@ -124,18 +116,18 @@ const SecondPart = ({
         // <EMI POPUP
         emiType="NO COST EMI"
         duration1="18 Months"
-        totalAmount1="₹70,000"
-        monthlyPayment1="₹4,589"
+        totalAmount1="₹75,000"
+        monthlyPayment1="₹4,917"
         greenDown1="Standard Intrest rate Applicable"
         duration2="12 Months"
-        totalAmount2="₹70,000"
-        monthlyPayment2="₹6,883"
+        totalAmount2="₹75,000"
+        monthlyPayment2="₹7,375"
       />
 
       <MentorsSection />
       <SliderTab WithoutService={true} />
-      <PlacementCall Foundation={true}/>
-<MobileTestimonial/>
+      <PlacementCall Foundation={true} />
+      <MobileTestimonial />
       <NewProjectSection
         dataScience={true}
         interstedInHide={true}

@@ -702,13 +702,13 @@ export const BFSIDataScienceCourseData = [
           {
             id: 0,
             ques: "What is the total fee for the Data Science and AI for BFSI Professionals Program?            ",
-            ans: "The total program fee for the Data Science and AI Certification Program for BFSI Professionals program is INR 90,000 + 18% GST. ",
+            ans: "The total program fee for the Data Science and AI Certification Program for BFSI Professionals program is INR 95,000 + 18% GST. ",
             open: true,
           },
           {
             id: 1,
-            ques: "Can I pay in installments for INR 90,000 + 18% GST ?",
-            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 5,900/month up to 18 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
+            ques: "Can I pay in installments for INR 95,000 + 18% GST ?",
+            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 6,228/month up to 18 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
             linkText1: " +917795687988 ",
             link1: "tel:+917795687988",
             link: true,
