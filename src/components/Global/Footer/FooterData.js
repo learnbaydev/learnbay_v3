@@ -415,7 +415,7 @@ export const CityFooterData = [
         cityData: [
           {
             id: 1,
-            name: "Data Science Course Training in Malaysia",
+            name: "Data Science Course Training in Austin",
             url: "/datascience/austin/data-science-course-training-in-austin",
           },
         ],
