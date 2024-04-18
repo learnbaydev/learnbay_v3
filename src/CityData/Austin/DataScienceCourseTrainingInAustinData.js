@@ -1,4 +1,4 @@
-export const masterdegreeUSACourseData = [
+export const DSAustinCourseData = [
   {
     secondSection: [
       {
@@ -148,7 +148,7 @@ export const masterdegreeUSACourseData = [
         data: [
           {
             id: 0,
-            ques: "What are Data Science Training courses available at Learnbay in USA?",
+            ques: "What are Data Science Training courses available at Learnbay in Austin?",
             linkText1: "Foundational Data Science Training Course, ",
             linkText2: "Advance Data Science Certification Course, ",
             linkText3:
@@ -163,7 +163,7 @@ export const masterdegreeUSACourseData = [
           },
           {
             id: 1,
-            ques: "What are the prerequisites for these Data Science training Courses in USA?",
+            ques: "What are the prerequisites for these Data Science training Courses in Austin?",
             ans: "There are no prerequisites for this Data Science Foundation course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
             open: false,
           },
@@ -171,30 +171,30 @@ export const masterdegreeUSACourseData = [
             id: 2,
             ques: "What if I miss a few classes due to an emergency?",
             ans: `In case you miss a few classes, you will be provided with backup classes in other batches.
-                    But if you could not attend more classes, you can opt for batch change and join the next batch. `,
+                      But if you could not attend more classes, you can opt for batch change and join the next batch. `,
             open: false,
           },
           {
             id: 3,
-            ques: "What is a Flexi Subscription in these advanced data science courses in USA?",
+            ques: "What is a Flexi Subscription in these advanced data science courses in Austin?",
             ans: "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Placement Assistance  - 3-years.",
             open: false,
           },
           {
             id: 4,
-            ques: "What’s the duration of these advanced data science courses in USA?",
+            ques: "What’s the duration of these advanced data science courses in Austin?",
             ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
             open: false,
           },
           {
             id: 5,
-            ques: "What is the mode of data science training in USA at Learnbay?",
+            ques: "What is the mode of data science training in Austin at Learnbay?",
             ans: "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.",
             open: false,
           },
           {
             id: 6,
-            ques: "How can I opt for a Hybrid mode of learning in IBM data science training courses in USA, At Learnbay? ",
+            ques: "How can I opt for a Hybrid mode of learning in IBM data science training courses in Austin, At Learnbay? ",
             ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. ",
             open: false,
           },
@@ -206,13 +206,13 @@ export const masterdegreeUSACourseData = [
         data: [
           {
             id: 0,
-            ques: "What is domain specialization in the professional data science certification courses provided by Learnbay in USA?",
+            ques: "What is domain specialization in the professional data science certification courses provided by Learnbay in Austin?",
             ans: "We offer industry-specific full-stack data science modules, via which you learn the respective industry’s best practices. But this added benefit is available in all the three mentioned courses, except the foundational data science course. ",
             open: true,
           },
           {
             id: 1,
-            ques: "What are the available elective domain options in the different data science training courses of Learnbay in USA?",
+            ques: "What are the available elective domain options in the different data science training courses of Learnbay in Austin?",
             ans: " Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps; Sales, Marketing, & HR; Retail, E-Commerce, & Supply Chain; Healthcare, Pharma, & Clinical Research; BFSI; Manufacturing, Mechanical, & Telecom; Media, Hospitality, & Transportation; Oil, Gas, & Energy",
             open: false,
           },
@@ -220,7 +220,7 @@ export const masterdegreeUSACourseData = [
             id: 2,
             ques: "Which data science specialization domain elective is best suited for me?",
             ans: `You can select your domain based on your prior work experience, academics, and career goals. 
-                    Book a slot with our industry expert for free profile review and career guidance.`,
+                      Book a slot with our industry expert for free profile review and career guidance.`,
             linkText1: " +917795687988 ",
             link1: "tel:+917795687988",
             link: true,
@@ -236,11 +236,11 @@ export const masterdegreeUSACourseData = [
             id: 4,
             ques: "Can I select multiple domain electives and do I need to pay extra charges in any of the eligible data science courses?",
             ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals. 
-                    Advance Data Science and AI Certification course- Maximum 2 domains. 
-                    Data Science and AI Certification Course for Managers and Leaders- All domains 
-                    Data Science and AI Training with Placement Assistance- All domains
-                     
-                    No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
+                      Advance Data Science and AI Certification course- Maximum 2 domains. 
+                      Data Science and AI Certification Course for Managers and Leaders- All domains 
+                      Data Science and AI Training with Placement Assistance- All domains
+                       
+                      No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
             open: false,
           },
           {
@@ -263,32 +263,32 @@ export const masterdegreeUSACourseData = [
         data: [
           {
             id: 0,
-            ques: "What is the total fee for Data Science Certifications courses in USA?",
+            ques: "What is the total fee for Data Science Certifications courses in Austin?",
             ans: `The total course fee for the 
-                    Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
-                    Advance Data Science and AI Certification course is 1,05,000/- inclusive of GST.
-                    Data Science and AI Certification Course for Managers and Leaders is 1,15,000/- inclusive of GST.
-                    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
+                      Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
+                      Advance Data Science and AI Certification course is 1,05,000/- inclusive of GST.
+                      Data Science and AI Certification Course for Managers and Leaders is 1,15,000/- inclusive of GST.
+                      Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
             open: true,
           },
           {
             id: 1,
-            ques: "Can I pay in installments for these Data Science Certification courses in USA?",
+            ques: "Can I pay in installments for these Data Science Certification courses in Austin?",
             ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
             open: false,
           },
           {
             id: 2,
-            ques: " Is there any scholarship/discount available for these Data Science training courses available in USA? What is Group Discount?",
+            ques: " Is there any scholarship/discount available for these Data Science training courses available in Austin? What is Group Discount?",
             ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally.
-                    Please check our websites or contact our sales team to know more about the applicable discounts.
-                    
-                    
-                    Group Discount :
-                    Group Discount is applicable only if you’re joining with your friends. 
-                    5% extra discount: Group of 2
-                    8% extra discount: Group of 3
-                    Max 10% discount: Groupe of 4+`,
+                      Please check our websites or contact our sales team to know more about the applicable discounts.
+                      
+                      
+                      Group Discount :
+                      Group Discount is applicable only if you’re joining with your friends. 
+                      5% extra discount: Group of 2
+                      8% extra discount: Group of 3
+                      Max 10% discount: Groupe of 4+`,
             open: false,
           },
           {
@@ -311,16 +311,16 @@ export const masterdegreeUSACourseData = [
             id: 0,
             ques: "How many capstone projects will be there? ",
             ans: `Depending on the course you choose the number of capstone projects will vary.  
-                    Foundational Data Science and AI Training Course - 1 Capstone.
-                    Advance Data Science and AI Certification Course -2 Capstones.
-                    Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-                    Data Science and AI Training with Placement Assistance- 3 Capstones.
-                    How many real-time projects/case studies will be covered in these Data Science certification courses in USA?
-                    Depending on the course you choose the number of live projects will vary.  
-                    Foundational Data Science and AI Training course- 8 projects.
-                    Advance Data Science and AI Certification course-12 projects.
-                    Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-                    Data Science and AI Training with Placement Assistance- 15 projects.`,
+                      Foundational Data Science and AI Training Course - 1 Capstone.
+                      Advance Data Science and AI Certification Course -2 Capstones.
+                      Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
+                      Data Science and AI Training with Placement Assistance- 3 Capstones.
+                      How many real-time projects/case studies will be covered in these Data Science certification courses in Austin?
+                      Depending on the course you choose the number of live projects will vary.  
+                      Foundational Data Science and AI Training course- 8 projects.
+                      Advance Data Science and AI Certification course-12 projects.
+                      Data Science and AI Certification Course for Managers and Leaders- 15 projects.
+                      Data Science and AI Training with Placement Assistance- 15 projects.`,
             linkText1: " Click here to download the list of the projects.",
             link1:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
@@ -329,7 +329,7 @@ export const masterdegreeUSACourseData = [
           },
           {
             id: 1,
-            ques: "How will the projects be executed in USA?",
+            ques: "How will the projects be executed in Austin?",
             ans: "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.",
             open: false,
           },
@@ -343,11 +343,11 @@ export const masterdegreeUSACourseData = [
             id: 0,
             ques: "Is there any accredited data science certification after course completion?",
             ans: `Yes, you will be awarded IBM accredited Data Scientist Certificate on successful course completion.  But Based on the course you choose you can get Multiple certification options too.
-                    Foundational Data Science and AI Training course- 1 Course Completion Certificate.
-                    Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
-                    Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-                    Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate
-                    *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
+                      Foundational Data Science and AI Training course- 1 Course Completion Certificate.
+                      Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
+                      Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
+                      Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate
+                      *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
             open: true,
           },
         ],
@@ -358,17 +358,17 @@ export const masterdegreeUSACourseData = [
         data: [
           {
             id: 0,
-            ques: "What's the eligibility for a job assistance Program in Learnbay Data science training courses in USA?",
+            ques: "What's the eligibility for a job assistance Program in Learnbay Data science training courses in Austin?",
 
             ans: `You should have completed the course with :
-                    A minimum score of 70% in assessments
-                   Should have completed the assignments and case studies
-                   Worked and successfully completed the minimum recommended number of real-time projects.`,
+                      A minimum score of 70% in assessments
+                     Should have completed the assignments and case studies
+                     Worked and successfully completed the minimum recommended number of real-time projects.`,
             open: true,
           },
           {
             id: 1,
-            ques: "How long will I get support for job assistance at Learnbay in USA?",
+            ques: "How long will I get support for job assistance at Learnbay in Austin?",
             ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
             open: false,
           },
@@ -376,10 +376,10 @@ export const masterdegreeUSACourseData = [
             id: 2,
             ques: "What is a job-readiness program?",
             ans: `The Job readiness program helps you prepare for interviews which include:
-                    Resume preparation sessions, 
-                    Preparing projects for a strong portfolio, 
-                    Interview guidance and prep sessions, 
-                    1:1 Mock interviews based on targeted companies and roles.`,
+                      Resume preparation sessions, 
+                      Preparing projects for a strong portfolio, 
+                      Interview guidance and prep sessions, 
+                      1:1 Mock interviews based on targeted companies and roles.`,
             open: false,
           },
           {
@@ -409,7 +409,7 @@ export const masterdegreeUSACourseData = [
           },
           {
             id: 1,
-            ques: "Can a Learnbay student in USA choose to study from their desired mentor?",
+            ques: "Can a Learnbay student in Austin choose to study from their desired mentor?",
             ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
             open: false,
           },
@@ -436,15 +436,12 @@ export const masterdegreeUSACourseData = [
       },
     ],
 
-    DomainHead1:
-      "Learnbay’s Domain-specific Data Science Masters Programs USA    ",
     DomainBot1:
-      "Learnbay’s data science master degrees in the USA believe in domain-focused training. Our mentors guide experts to refine prior domain knowledge with advanced data science tools and trends. It enriches career values and unlocks the way toward a progressing future.       ",
+      "Today’s thriving digital age relies on proven knowledge and expertise. The majority of businesses opt for a data-driven work culture to have actionable plans. The best data science courses help experts craft a hassle-free career change with in-demand skill upgrades.         ",
     DomainBot2:
-      "Our master’s course modules follow current GenAI trends and their uses across diverse domains. Thus, it has become an effective way to succeed for mid-career level pros.       ",
-    DomainMasterh4: "Domain Electives       ",
-    DomainMasterBot1:
-      "Learnbay’s MS in data science in USA online offers cutting-edge training in trending domains. They are –      ",
+      "Data science is a practical field that welcomes experts with realistic expertise. Thus, domain-specific data science programs have become prevalent amongst the working pros from diverse domains in Austin. Such training sessions help experts refine prior domain knowledge for better outputs.       ",
+    DomainBot3:
+      "Learnbay deals with in-demand domains, favorable for global career rise. Such domain electives are –       ",
     DomainList1: "• BFSI",
     DomainList2: "• HR",
     DomainList3: "• Marketing",
@@ -463,64 +460,46 @@ export const masterdegreeUSACourseData = [
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf",
     Domainlink6:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf",
-
-    DomainMasterBot2:
-      "  Working pros can select any of the above per their career goals and land their dream jobs in the USA or overseas. ",
-
-    DomainMasterHead1: "Domain Specialization      ",
-    DomainMasterBot3:
-      "Learnbay’s master’s in data science in USA offers two domain specializations, owing to the current industry shifts. Learners can select any one of these to reshape their careers and gain job-ready skills. Based on this, you can choose live projects for hands-on learning. ",
-
-    DomainMasterlist1: "Specialization 1: Data Science & Data Analytics ",
-    DomainMasterlist2:
-      "Specialization 2: Artificial Intelligence & Machine Learning ",
-
+    DomainBot40:
+      "Experts interested in redefining their stagnant careers can research and choose any domain elective and fortify their skill sets. Any learner with a minimum of 6 months of work experience can select their desired domains for career change.         ",
     CertificationBot1:
-      "Data science is an ever-changing field that requires regular skill updates. Thus, obtaining well-recognized certifications is vital for better job prospects. Learnbay’s MS in data science in USA ensures industry-driven career transition for its learners. In short, experts enrolling here will receive one globally accredited master’s degree followed by an IBM certification.       ",
+      "Data science is an ever-evolving field that welcomes experts from diversified fields. Employers across MNCs in Austin and overseas look for working pros with proven data science skills. Yet, not all learned skills are considered acceptable by employers actively searching for skilled data scientists. Experts must showcase their skills with proofs, and globally recognized certificates validate them.         ",
     src33:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
-    src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/certificate/degree-woolf.webp",
+    src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
-    CertificationMasterHead1:
-      " Leap Global Career Excellence with a Master’s Degree in Data Science ",
-
     CertificationBot2:
-      "Woolf University accredits our data science masters programs, unlocking global-scale job options.  It is equivalent to a master’s degree from an eminent global university across 60+ Western countries. Plus, learners can have swift career rises with better hikes across leading MNCs in the USA and overseas.       ",
-    CertificationMasterHead2:
-      "Step Into High-paying Job Roles with IBM Certification",
-
+      "We at Learnbay offer an industry-paced data science course with useful certifications. Certificates are critical to help you attain a winning edge over the industry with proven expertise. We offer the best data science certification that validates the gained skills and expertise to thrive in a competitive world. Unlike generic courses, our data science course programs unlock global careers.         ",
     CertificationBot3:
-      " Learnbay’s master’s in data science in USA expands the chances of global career success. Learners from diverse domains enroll here for our globally recognized certification. We offer an IBM certification, once you complete your capstone projects. It validates your skills and expertise according to today’s data science trends and updates.       ",
-    CertificationBot4: " ",
-    ModuleMasterBot1:
-      "Learnbay’s data science masters programs offer Generative AI-rich modules that equip your skill sets with job-driven expertise. The modules are curated following the changing data trends and job market outlook. Experts (tech/non-tech) learn basic and advanced versions of data science. The course modules refine basic concepts with hands-on learning of tools via projects.     ",
-    ModuleHead1: "Learning Outcomes     ",
+      "Working pros enrolling in our courses can leap to global-level success in their careers with our globally recognized certificates. We offer IBM certifications for the successful completion of courses and projects. In addition, our alliance with Microsoft offers a globally accredited certification to rise ahead of the competition.         ",
+    CertificationBot4: "",
+    CertificationBot5: "  ",
+    CertificationBot6: " ",
+    CertificationBot7: " ",
 
-    ModuleMasterHead1: "Specialization 1: Data Science & Data Analytics ",
+    ModuleHead1: "  Learning Outcomes        ",
+    ModuleBot1:
+      "In Austin, the job market for skilled data scientists is increasing rapidly. The rising inclination toward data-driven functions and informed decisions triggers the essence of data scientists. Thus, upskilling with an industry-driven data science online course has become popular lately.         ",
+    ModuleBot2: "Our extensively designed course syllabus offers –        ",
 
-    ModuleBot1: " ",
-    ModuleBot2: "     ",
-    Modulelist1: "Basics of Excel in Data Analysis    ",
-    Modulelist2: "Basics of SQL with in-demand tools    ",
-    Modulelist3: "Big data and Data visualization tools       ",
-    Modulelist4: "Power BI for data modeling and Google Looker    ",
-    Modulelist5: "ML systems, Deep learning and its uses    ",
+    Modulelist1:
+      "Basic and advanced uses of Excel and statistical analysis      ",
+    Modulelist2: "Programming languages (Python, SQL, R)      ",
+    Modulelist3:
+      "Uses of Artificial Intelligence, deep learning, machine learning algorithms, & NLP      ",
+    Modulelist4: "Big data, Hadoop, Tableau, Power BI      ",
+    Modulelist5: "Deployment & Evaluation of Azure & AWS        ",
 
-    Modulelist6: "Real-time projects for different domains    ",
-    Modulelist7: "Generative AI tools and trends    ",
-    ModuleMasterHead2:
-      "Specialization 2: Artificial Intelligence & Machine Learning",
-    ModuleMasterlist1: "Deep learning and its uses (Computer Vision)",
-    ModuleMasterlist2: "Deep learning and NLP",
-    ModuleMasterlist3: "High-dimensional tools for data analysis ",
-    ModuleMasterlist4: "GenAI tools and trends",
-    ModuleMasterlist5:
-      "Basic and advanced services of data structures and algorithms (DSA)",
-    ModuleMasterlist6: "Case studies ",
-    ModuleMasterlist7: "Real-time projects for diverse domains",
-    ModuleMasterBot2:
-      "Apart from these specialized modules, each learner will gain insights into data basics and statistical functions. Our foundation track and statistics module will refine your basic numerical and coding ability for job readiness. In short, learners opting for a master’s degree in data science in the USA will receive in-detailed upskilling with the latest tools. ",
+    Modulelist6: "GenAI: Tools and trends      ",
+    Modulelist7:
+      "Deep learning, Natural language processing, Machine learning algorithms       ",
+    Modulelist8: "AWS & MS Azure      ",
+    Modulelist9: "Case studies in your domain      ",
+    Modulelist10: "Hands-on learning projects       ",
+    ModuleBot46: "      ",
+    ModuleBot47: "  ",
+    ModuleBot47: "  ",
 
     syllabush1: " Preparatory Classes (Programming + Maths)",
     syllabusb1: "6 Hours",
@@ -556,86 +535,97 @@ export const masterdegreeUSACourseData = [
     SyllabusBotlist46: "Big Data & Spark Analytics",
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
+
     JobHead1:
-      "What career-oriented skills can you develop with Learnbay’s MS in data science?      ",
-    MasterJobBot1:
-      "Our masters in data science and artificial intelligence USA support industry-led upskilling. Experts enrolling here will gain 360-degree knowledge (theoretical and practical) in Data Science and AI.      ",
-    MasterJobSpan1: " Some promising job-driven skills are –",
-
-    Joblist1: "Coding skills      ",
-    Joblist2: "Advanced ML skills to handle complex data sets    ",
-    Joblist3:
-      "Expertise in data analysis and creation of dashboards with prime visual tools      ",
-    Joblist4: "Advanced data modeling and exploration       ",
-    Joblist5: "Skills in deep learning, NLP, and ML systems      ",
-    Joblist6: "A Future-proofing career with GenAI-rich tools      ",
-    Joblist7: "Expertise in DSA      ",
+      "What career-oriented skills will you develop with our data science programs?         ",
+    Joblist1: "Basic knowledge of data trends, tools, and industry cases      ",
+    Joblist2:
+      "Real-time knowledge of programming languages in data analysis       ",
+    Joblist3: "Use of statistical functions         ",
+    Joblist4: "Knowledge of Python, types, flavors, and uses      ",
+    Joblist5: "Data analysis with regression models      ",
+    Joblist6:
+      "Big data analytics, dashboard creation, and factual decisions (Tableau & Power BI)      ",
+    Joblist7: "SQL & R for effective database handling      ",
     Joblist8:
-      "Job-driven skills via case studies and live projects in your domain    ",
-    Joblist9: "   Statistical analysis      ",
-    Joblist10: "   Predictive analytics      ",
-    Joblist11: "     Big data      ",
-    Joblist12: "   High-dimensional data analysis    ",
-    Joblist13: "   AI tools and trends    ",
-    JobBot19: "       ",
-
-    JobHead19: "Career Service Pro – Learnbay’s Job & Placement Program    ",
+      "Knowledge of AI tools and trends in different business cases      ",
+    Joblist9: "Generative AI: Models and Uses      ",
+    Joblist10:
+      "Deep learning & NLP techniques for factual data analysis       ",
+    Joblist11: "Evaluation and deployment of AWS & Azure      ",
+    Joblist12: "Business case projects for hands-on learning      ",
+    Joblist13: "Domain specialized project training    ",
+    JobBot001:
+      "Amidst the fast-paced rise of complex data science trends, career switch decisions have started buzzing here and there. Working pros with stagnant careers or looking for alluring hikes, rethink their job options in the data science field. The job assist program is helpful for experts looking for a career change with proven benefits. Learnbay has a reliable placement cell that helps experts land their dream jobs with impactful growth.   ",
+    JobBot002: " ",
+    JobHead19: "Career Service PRO (100% Job and Placement Support)  ",
 
     JobBot20:
-      "Learnbay’s MS in data science in USA guides you 24/7 till you land your dream job. Eligible learners (at least 70% score in course tasks) get job support from our dedicated placement cell. It is termed as ‘Career Service Pro’ where experts have the following benefits –      ",
-    Joblist14: "Resume Building/1:1 Doubt-clearing     ",
-    Joblist15: "Reviewing LinkedIn Profiles and Unlimited Interview Calls     ",
-    Joblist16: "Exclusive Job Assist for 3 years     ",
-    Joblist17:
-      "Six 1:1 Mock Interviews with leading MNCs (our 450+ industry partners)    ",
-    Joblist18: "1:1 Doubt-clearing     ",
-    Joblist19:
-      "Six 1:1 Mock Interviews with leading MNCs (our 450+ industry partners)    ",
+      "Learners across Austin opt for a career change in the data science field for its alluring growth options. The majority of learners search for an industry-focused data science course in Austin with better placement options.         ",
+    JobBot003:
+      "We at Learnbay envision effortless career growth with our exclusive job and placement aid programs. We offer Career Service PRO facilities to all eligible learners to cherish their dream of a successful transition.       ",
+    JobBot39:
+      "So, if you have a score of at least 70% in your courses and tasks, you are eligible for our placement help. Career Service PRO includes –      ",
+    Joblist14:
+      "Three years of placement support with global-scale job offers      ",
+    Joblist15:
+      "Six mock interviews with any of the 450+ industry partners       ",
+    Joblist16: "Resume Build up      ",
+    Joblist17: "LinkedIn Profiling      ",
 
-    JobBotMasterBot4:
-      "Unlike standard upskilling programs, we offer the best online data science masters with unparalleled career success.     ",
-    JobHead21: "Is Learnbay’s data science masters in US worth it?     ",
+    JobHead30: "",
+
     JobBot21:
-      "Experts eager to revamp their slow-paced careers in today’s digital space can enroll in our MS in data science program. The USA expects a fast-paced rise of data science trends across diverse sectors. This makes data science a rising career for many working pros.       ",
+      "Our worthy placement team is 24/7 present to help learners with their queries and solve them on time.         ",
+    JobHeadAustin01:
+      "Is Learnbay’s data science online course worth it?         ",
     JobBot22:
-      "Learnbay’s masters in data science help you understand the career trajectory with vital gains. We provide hassle-free career support for swift promotions and hikes in your dream roles. Learners gain an inclusive learning space with our live instructor-led sessions. Hands-on learning via live projects refines the pre-existing skill sets with validation from IBM.       ",
+      "  Upskilling is the ultimate way to embark on a blossoming career with alluring job offers. Data science is the game-changer for each working pro eager to redefine themselves. Upskilling offers the weightage to level up your growth chances with an infinite number of options.         ",
+    JobBot34:
+      "If you are eager to advance your ordinary career in the rapidly growing data science field, upskilling with a leading-edge program is worth it. Hence, you must enroll in a course that offers –        ",
+    JobBot23: "",
+    JobBot24: " ",
+    Joblist50: "  Domain-specific learning modules      ",
+    Joblist51: "Real-time project experience       ",
+    Joblist52: "100% placement support      ",
+    Joblist53: "Globally recognized certifications        ",
+    Joblist54: "GenAI-inclusive course modules    ",
+
+    JobHead001: "     ",
     JobBotMasterBot5:
-      "Plus, 60+ countries recognized Woolf University's master’s degree in data science unlocks a promising career path.       ",
-
-    JobBot23: "   ",
-    Joblist50: "     ",
-    Joblist51: "      ",
-    Joblist52: "      ",
-    Joblist53: "    ",
-    Joblist54: "    ",
+      "Our data science programs in Austin craft a hassle-free learning platform where you develop GenAI-inclusive expertise. Experts enrolling here get 24/7 guidance from our mentors on real-time projects that scale up success metrics. For realistic growth, we help you develop your behavioral skills to become a perfect fit for your organization. Our constant job and placement service guides you all the time.       ",
+    JobBot007:
+      " Our data science course Austin offers course and project certificates to revamp your career on a global scale. Once you are done with the course and projects you will obtain IBM & Microsoft certifications. These certificates validate your skills to help you ace premium jobs globally.       ",
+    JobBot005: "  ",
+    JobBot006: " ",
     JobHead22:
-      "What career roles can you unlock with our data science masters programs?       ",
-    JobBot24:
-      "Upskilling via a master degree for data science in USA can unlock top-tier career roles across the leading MNCs.       ",
-    Joblist23: "Data Scientist (Junior/Senior/Manager)    ",
-    Joblist24: "Data Analyst and Data Scientist – AI Training    ",
-    Joblist25: "Quantitative Analyst and Data Annotation Specialist    ",
-    Joblist26: "ML/AI Scientist and Data Intelligence    ",
-    Joblist27: "Data Scientist Engineer    ",
-    Joblist28: "Data Architect and Data Solution Lead    ",
-    Joblist29: "BI Developer    ",
-    Joblist30: "Data Science Consultant    ",
-    JobBot25:
-      "With the right upskilling, experts can build a lucrative career in data science. Thus, join our data science degree program today and craft undeniable success.       ",
-    ProjectsHead1:
-      "How do Learnbay’s live projects with a Masters in Data Science US help you advance a global-level career?       ",
-    ProjectsBot1:
-      "Experts eager to rebuild their careers with global-level job offers can opt for our best master's degree for data science in the USA. This course offers two domain specializations, where you can opt for anyone per your career interests. The USP of our master’s program is industry-specific capstone projects. Each specialization has 3 capstone projects curated as per the latest data science trends.       ",
+      "What career roles can you crack with our data science course?         ",
+    JobBot37:
+      "Data science offers promising career growth prospects to experts at every career level – from entry to senior management. Gradually, it has firmly established itself as one of the most sought-after career fields with a global presence. ",
 
+    JobBot24:
+      "Our data science course in Austin offers suitable upskilling sessions to help you crack roles like –         ",
+    Joblist23: "Data Analyst      ",
+    Joblist24: "Data Scientist       ",
+    Joblist25: "Data Consultant       ",
+    Joblist26: "Business Intelligence Developer      ",
+    Joblist27: "Data Engineer      ",
+    Joblist28: "AI/ML Specialist      ",
+    Joblist29: "Database Manager",
+    Joblist30: "Data Architect and Data Warehouse Engineer      ",
+    JobBot25: " ",
+
+    ProjectsHead1:
+      "How do real-time projects guide a successful career transition?         ",
+
+    ProjectsBot1:
+      "Data science is an ever-evolving field that requires proven skills and expertise with related tools and trends. Working pros opting for data science careers must upgrade their skills thoroughly to cope with the competitive world. Meanwhile, learning with real-time projects poses a greater helping hand for the experts.         ",
     ProjectsBot3:
-      "Capstone projects help learners gain exposure to and deal with real-world business issues. Hands-on learning with live projects helps in professional development and acquiring job-ready skills. Industry experts guide you while you work on live projects in project innovation labs.       ",
+      "Real-time projects are vital in developing basic knowledge and gaining practical experience. Experts enrolling in our data science training in Austin will work on 12+ real-time projects in their chosen domain. We offer domain-specific training and project work to help you amplify your prior knowledge.         ",
     ProjectsBot4:
-      "Here, you can choose your projects based on your preferred domain electives. Our domain electives are – BFSI, Healthcare, Marketing, HR, Supply Chain, and Manufacturing.       ",
+      "Due to current industry trends, our data science courses offer thoroughly designed real-time projects in varied domains. We cover domains like – BFSI, Healthcare, Supply chain, Marketing, HR, and Manufacturing. Experts can choose their domains per career goals and targets and work on assigned projects.         ",
     ProjectsBot5:
-      "In addition, Learnbay’s master’s degree in data science offers a globally recognized project certificate from IBM. With this certification, you can unlock career paths with prime job offers from the USA and overseas.       ",
-    ProjectsBot6:
-      "  If you are looking for a certification program in data science, join the best data science course in USA today & future-proof your career with compelling gains.       ",
-    ProjectsBot7: " ",
+      "Our globally recognized data science certificate (projects) from IBM also elevates the success attainable with alluring job offers.         ",
     ProjectsBot2: "Below are a few projects from the Learnbay alumni profiles:",
     src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
     ProjectsH1: "Samsung Health Monitor App",
@@ -653,6 +643,7 @@ export const masterdegreeUSACourseData = [
     ProjectsH4: "BMW Used Car Price Optimization",
     Projectsp4:
       "BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects.",
+
     AlumniBot1:
       "We have emplaced numerous candidates in top global companies and startups. More than 1000+ Learnbay alumni have already started working as soon as they completed the course. Rest got recruited in a few months. Even 300+ candidates have directly joined data science project leadership or manager designation after completing the Data Science and AI program for Managers and leaders. Here are some of our alumni sharing their hard work and success:",
     Asrc1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/devraj.jpg",
@@ -671,17 +662,14 @@ export const masterdegreeUSACourseData = [
     AlumniH4: "Shubhangi J. Waghmare ",
     Alumnip4:
       "The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment.",
-    alt1: "data science course training in USA",
-    alt2: "data science course training in USA",
-    alt3: "data science course training in USA",
-    alt4: "data science course training in USA",
-    alt5: "data science course training in USA",
-    alt6: "data science course training in USA",
-    alt7: "data science course training in USA",
-    alt8: "data science course training in USA",
-    alt9: "data science course training in USA",
-    CityTextB:
-      "Artificial Intelligence Course Certification Training locations in USA ",
-
+    alt1: "data science course training in Austin",
+    alt2: "data science course training in Austin",
+    alt3: "data science course training in Austin",
+    alt4: "data science course training in Austin",
+    alt5: "data science course training in Austin",
+    alt6: "data science course training in Austin",
+    alt7: "data science course training in Austin",
+    alt8: "data science course training in Austin",
+    alt9: "data science course training in Austin",
   },
 ];

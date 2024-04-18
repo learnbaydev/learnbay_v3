@@ -190,7 +190,7 @@ export const DSDubaiCourseData = [
           name: "What is the total fee for Data Science Certifications courses in Dubai?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The total course fee for the Foundational Data Science and AI Training course is 93,220/- inclusive of GST. Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST. Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST. Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.",
+            text: "The total course fee for the Foundational Data Science and AI Training course is 93,220/- inclusive of GST. Advance Data Science and AI Certification course is 1,05,000/- inclusive of GST. Data Science and AI Certification Course for Managers and Leaders is 1,15,000/- inclusive of GST. Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.",
           },
         },
         {
@@ -628,8 +628,8 @@ export const DSDubaiCourseData = [
             ques: "What is the total fee for Data Science Certifications courses in Dubai?",
             ans: `The total course fee for the 
             Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
-            Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST.
-            Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
+            Advance Data Science and AI Certification course is 1,05,000/- inclusive of GST.
+            Data Science and AI Certification Course for Managers and Leaders is 1,15,000/- inclusive of GST.
             Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
             open: true,
           },

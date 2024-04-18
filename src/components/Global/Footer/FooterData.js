@@ -403,6 +403,23 @@ export const CityFooterData = [
           },
         ],
       },
+     
+    ],
+  },
+  {
+    id: "SecondDiv",
+    FirstDiv: [
+      {
+        id: "Austin",
+        city: "Austin",
+        cityData: [
+          {
+            id: 1,
+            name: "Data Science Course Training in Malaysia",
+            url: "/datascience/austin/data-science-course-training-in-austin",
+          },
+        ],
+      },
     ],
   },
   {
