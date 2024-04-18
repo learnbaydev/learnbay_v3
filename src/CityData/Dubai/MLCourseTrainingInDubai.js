@@ -182,12 +182,12 @@ export const MLDubaiCourseData = [
           name: "What is the total Fee for this machine learning course in Dubai?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,23,900/- Inclusive of GST.",
+            text: "The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,15,000/- Inclusive of GST.",
           },
         },
         {
           "@type": "Question",
-          name: "Can I pay in installments for 1,23,900/-?",
+          name: "Can I pay in installments for 1,15,000/-?",
           acceptedAnswer: {
             "@type": "Answer",
             text: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,817/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
@@ -667,10 +667,10 @@ export const MLDubaiCourseData = [
             ques: "What is the total fee for Learnbay AI Certifications courses in Dubai?",
             ans: `The total course fee for the 
               Foundational Data Science and Artificial Intelligence Training Course is 88,500/- inclusive of GST.
-              Advance Data Science and  AI Certification course is 1,12,100/- inclusive of GST.
-              Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST.
+              Advance Data Science and  AI Certification course is 1,05,000/- inclusive of GST.
+              Data Science and AI Certification Course for Managers and Leaders is 1,15,000/- inclusive of GST.
               Data Science and Artificial Intelligence Training with Placement Assistance is 1,47,500/- inclusive of GST.
-              Machine learning and AI Certification is 1,23,900/-inclusive of GST`,
+              Machine learning and AI Certification is 1,15,000/-inclusive of GST`,
             open: true,
           },
           {

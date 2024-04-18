@@ -190,7 +190,7 @@ export const MLMumbaiCourseData = [
           name: "What is the total Fee for this machine learning course in Mumbai?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,23,900/- Inclusive of GST.",
+            text: "The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,15,000/- Inclusive of GST.",
           },
         },
         {
@@ -620,7 +620,7 @@ export const MLMumbaiCourseData = [
           {
             id: 0,
             ques: "What is the total fee for Data Science Foundation Program in Mumbai?",
-            ans: "The total course fee for the Foundational Data Science and AI Training course is 93,220/- inclusive of GST. Advance Data Science and AI Certification course is 1,12,100/- inclusive of GST.Data Science and AI Certification Course for Managers and Leaders is 1,23,900/- inclusive of GST. Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.",
+            ans: "The total course fee for the Foundational Data Science and AI Training course is 93,220/- inclusive of GST. Advance Data Science and AI Certification course is 1,05,000/- inclusive of GST.Data Science and AI Certification Course for Managers and Leaders is 1,15,000/- inclusive of GST. Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.",
             open: true,
           },
           {
