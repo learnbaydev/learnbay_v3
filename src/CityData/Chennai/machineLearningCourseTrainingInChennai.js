@@ -149,12 +149,12 @@ export const MachineLearningChennaiCourseData = [
           name: "What is the total Fee for this machine learning course in Chennai?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,23,900/- Inclusive of GST.",
+            text: "The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,15,000/- Inclusive of GST.",
           },
         },
         {
           "@type": "Question",
-          name: "Can I pay in installments for 1,23,900/-?",
+          name: "Can I pay in installments for 1,15,000/-?",
           acceptedAnswer: {
             "@type": "Answer",
             text: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,817/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
@@ -660,7 +660,7 @@ export const MachineLearningChennaiCourseData = [
           {
             id: 0,
             ques: "What is the total Fee for this machine learning course in Chennai?",
-            ans: `The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,23,900/- Inclusive of GST.`,
+            ans: `The total program fee for the Artificial Intelligence and Machine Learning Program is INR 1,15,000/- Inclusive of GST.`,
             open: true,
           },
           {

@@ -241,6 +241,8 @@ const CitiesRight = ({
   JobHead21,
   JobBot21,
   JobBot22,
+  JobHeadAustin01,
+  JobBotAustin01,
   JobBot60,
   JobBot23,
   JobHead23,
@@ -256,7 +258,7 @@ const CitiesRight = ({
   JobBotMasterBot4,
   JobBotMasterBot5,
   JobBotMasterBot6,
-  
+
   Joblist21,
   Joblist22,
   JobHead22,
@@ -442,6 +444,7 @@ const CitiesRight = ({
   cityTextMasterUSA,
   cityTextMastergermany,
   cityTextDSMalaysia,
+  cityTextDSAustin,
 }) => {
   const [read, setRead] = useState(false);
   const handler = () => {
@@ -3750,6 +3753,80 @@ const CitiesRight = ({
         ) : (
           ""
         )}
+        {cityTextDSAustin ? (
+          <div className={styles.CitiesRightInner}>
+            <h4 style={{ fontSize: "20px" }}>
+              Briefing on Broadly Designed Data Science Course Austin in
+              Collaboration with IBM & Microsoft
+            </h4>
+            <p>
+              Data science tools and trends are drivers of growth and success
+              for organizations in today’s digital age. As per the U.S. Bureau
+              of Labor Statistics reports, around 11.5 million data scientist
+              jobs shall be created by 2026. Thus, professionals favor
+              cutting-edge data science instruction in Austin to enhance their
+              abilities.
+            </p>
+            <p>
+              Learnbay anticipates a competitive career advancement journey
+              through its extensive course syllabus. It features a 360-degree
+              knowledge-building platform where you will learn about GenAI-rich
+              data science trends. Additionally, we offer a practical learning
+              scope with real-time projects. Our data science course in Austin
+              helps you refine existing skills via project work and tackle
+              business issues effectively.
+            </p>
+            <p>
+              We have an industry collaboration with IBM, a top-notch IT giant
+              with a global presence. Its insightful solutions in predictive
+              analytics, ML models, and automation drive ultimate career success
+              with better offers. Learners will obtain two IBM certifications
+              for course and real-time projects.
+            </p>
+            <p>
+              Plus, our alliance with Microsoft supports global-scale career
+              shifts with promising hikes and upgrades. Learners opting for our
+              data science course Austin get one Microsoft certification that
+              accelerates career growth chances.
+            </p>
+            <p>
+              Note: If you opt for our master’s certification program in data
+              science, you will get one MS certificate and 3 IBM project
+              certificates. If you opt for a master’s degree in data science,
+              you will have one IBM project certificate with a degree from Woolf
+              University.
+            </p>
+<br/>
+            <h4 style={{fontSize:"20px"}}>
+              What are the major career gains our data science course in Austin
+              offers?{" "}
+            </h4>
+            <p>
+              The field of data science professionals is a multi-faceted one
+              with an incomparably engaging future. Upskilling with our{" "}
+            <b> <a style={{color:"#0072bc"}}
+                href="https://www.learnbay.co/data-science-courses"
+                target="_blank"
+              >
+                best data science courses
+              </a></b> {" "}
+              helps you modernize your careers with globally trending job roles.
+              Constant learning of in-demand data science skills paves the way
+              for a global-level career shift.{" "}
+            </p>
+<b><p>In short, vital career gains with our data science course are –</p></b>
+<br/>
+            <ul>
+              <li>Updated knowledge-building with GenAI-rich modules</li>
+              <li>Project-based learning (12+ real-time projects)</li>
+              <li>Flexible learning methods </li>
+              <li>100% job and placement support </li>
+              <li>Globally recognized certifications (IBM & Microsoft)</li>
+            </ul>    
+          </div>
+        ) : (
+          ""
+        )}
 
         {cityText ? (
           <div className={styles.CitiesRightInner}>
@@ -4601,7 +4678,7 @@ const CitiesRight = ({
           )}
           <p className={styles.pp}>{DomainBot40}</p>
           <p className={styles.pp}>{DomainBot41}</p>
-          
+
           <p className={styles.pp}>{DomainMasterBot2}</p>
           <h4 style={{ fontSize: "16px" }}>{DomainMasterHead1}</h4>
           <p className={styles.pp}>{DomainMasterBot3}</p>
@@ -4612,7 +4689,6 @@ const CitiesRight = ({
                 <li>{DomainMasterlist2}</li>
                 <p className={styles.pp}>{DomainMasterBot4}</p>
               </ul>
-            
             </>
           ) : (
             ""
@@ -5015,7 +5091,10 @@ const CitiesRight = ({
                 {JobHead30}
               </h4>
               <p className={styles.pp}>{JobBot21}</p>
-
+              <h4 style={{ fontSize: "20px", marginBottom: "20px" }}>
+                {" "}
+                {JobHeadAustin01}
+              </h4>
               <p className={styles.pp}>{JobBot22}</p>
               <p className={styles.pp}>{JobBot60}</p>
               <h4 style={{ fontSize: "20px", marginBottom: "20px" }}>
