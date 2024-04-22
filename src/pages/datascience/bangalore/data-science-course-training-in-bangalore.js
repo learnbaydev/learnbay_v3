@@ -1,3 +1,4 @@
+import Map from "@/components/Seo/Maps/Maps";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import { useEffect, useState } from "react";
@@ -10,7 +11,6 @@ import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
 import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
 import YoutubeVideo from "../../../components/Seo/YoutubeVideo/YoutubeVideo";
 import styles from "../../../styles/Home.module.css";
-import Map from "@/components/Seo/Maps/Maps";
 const FirstSection = dynamic(() =>
   import("../../../components/Seo/FirstSection/FirstSection")
 );
@@ -282,36 +282,36 @@ export default function Home() {
           para="Discover the impact of our programs on career growth"
         />
         <div className={styles.cityFee}>
-        <FeeSection
-        Fee="₹1,35,000"
-        FeeEmi="₹8,850/month"
-        weekdaybatch="Weekend Batch"
-        weekendbatch="Weekday  Batch"
-        weekday="SAT - SUN"
-        weekend="MON - FRI"
-        WeekdayDate="APR 21st"
-        WeekendDate="APR 19th"
-        WeekdayTime="9:30 AM - 1:00 PM"
-        WeekendTime="8:00 AM - 10:00 AM"
-        FeeContent3="Flexible payment"
-        FeeContent4="Easy loan procedure"
-        FeeContent5="15 days refund policy"
-        FeeContent6="No additional cost"
-        dataScienceCounselling={true}
-        interstedInHide={true}
-        dataScience={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf"
-        // <EMI POPUP
-        emiType="NO COST EMI"
-        duration1="18 Months"
-        totalAmount1="₹1,35,000"
-        monthlyPayment1="₹8,850"
-        greenDown1="Standard Intrest rate Applicable"
-        duration2="12 Months"
-        totalAmount2="₹1,35,000"
-        monthlyPayment2="₹13,275"
-      />
+          <FeeSection
+            Fee="₹1,35,000"
+            FeeEmi="₹8,850/month"
+            weekdaybatch="Weekday Batch"
+            weekendbatch="Weekday  Batch"
+            weekday="MON - FRI"
+            weekend="MON - FRI"
+            WeekdayDate="May 17th"
+            WeekendDate="May 10th"
+            WeekdayTime="8:00 AM - 10:00 AM"
+            WeekendTime="8:00 PM - 10:00 PM"
+            FeeContent3="Flexible payment"
+            FeeContent4="Easy loan procedure"
+            FeeContent5="15 days refund policy"
+            FeeContent6="No additional cost"
+            dataScienceCounselling={true}
+            interstedInHide={true}
+            dataScience={true}
+            titleCourse="Advanced Data Science and AI Program with domain specialization"
+            brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf"
+            // <EMI POPUP
+            emiType="NO COST EMI"
+            duration1="18 Months"
+            totalAmount1="₹1,35,000"
+            monthlyPayment1="₹8,850"
+            greenDown1="Standard Intrest rate Applicable"
+            duration2="12 Months"
+            totalAmount2="₹1,35,000"
+            monthlyPayment2="₹13,275"
+          />
         </div>
         <div className="MainCities">
           <div className="CitiesLeft">

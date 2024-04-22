@@ -1,8 +1,8 @@
-import Head from "next/head";
 import { parseJSONData } from "@/Util/JsonConvertor";
-import { useEffect, useState } from "react";
 import DataAnlyticsFirstPart from "@/components/CoursePage/FirstPart/DataAnlyticsFirstPart";
 import DataAnlyticsSecondPart from "@/components/CoursePage/FirstPart/DataAnlyticsSecondPart";
+import Head from "next/head";
+import { useEffect, useState } from "react";
 
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
@@ -67,7 +67,9 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>Best Data Analytics Course Online | Data Analytics Online Training</title>
+        <title>
+          Best Data Analytics Course Online | Data Analytics Online Training
+        </title>
         <meta
           name="description"
           content="Learn data analytics course online with Learnbay and Gain in-demand skills and boost your career. we are providing the best online data analytics courses. Enroll now!"
@@ -85,11 +87,11 @@ function Blockchain({ DataScienceCourseDataJson }) {
           rel="canonical"
           href="https://www.learnbay.co/datascience/data-analytics-certification-course"
         />
-        
+
         <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html : `{
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
             "@context": "http://schema.org",
             "@type": "Course",
             "name": "Data Analytics Certification Program",
@@ -121,24 +123,18 @@ function Blockchain({ DataScienceCourseDataJson }) {
             ]
 
           }`,
-
-
-        }}
-         
-
+          }}
         />
-
-
       </Head>
       <main>
         <DataAnlyticsFirstPart
           SecondSectionData={
-            DataScienceCourseData.DADataScienceCourseData[0].secondSection       
+            DataScienceCourseData.DADataScienceCourseData[0].secondSection
           }
           TestimonialData={
             DataScienceCourseData.DADataScienceCourseData[0].testimonial
           }
-          ibmOnly ={true}
+          ibmOnly={true}
         />
         <DataAnlyticsSecondPart
           masterSyllabusMobile={

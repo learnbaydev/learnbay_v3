@@ -1,8 +1,6 @@
-import React, { useState } from "react";
-import VideoPopup from "@/components/Global/VideoPopup/VideoPopup";
 import PopupContent from "@/components/Global/PopupContent/PopupContent";
+import React, { useState } from "react";
 import FirstContent from "./FirstContent";
-import Form from "../../Global/Form/Form";
 
 function FirstSection({
   dataScience,
@@ -24,7 +22,7 @@ function FirstSection({
   S3RightImage,
   animationHide,
   topHide,
-Domain,
+  Domain,
   upSkillingHide,
   DomainInput,
 }) {

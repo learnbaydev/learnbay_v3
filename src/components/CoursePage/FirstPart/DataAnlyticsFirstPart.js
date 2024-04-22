@@ -26,26 +26,32 @@ const CloudDevopsecond = dynamic(() =>
     "../../CoursePage/cloud&devops/DevOpsSecondSection/DevOpsSecondSection"
   )
 );
-const MasterSecondSection  = dynamic(() =>
+const MasterSecondSection = dynamic(() =>
   import("../../MastersCourse/MasterSecondSection/MasterSecondSection")
 );
-const JobAbroad = dynamic(()=>
-import( "../../MastersCourse/JobAbroad/JobAbroad"
-)
+const JobAbroad = dynamic(() =>
+  import("../../MastersCourse/JobAbroad/JobAbroad")
 );
-const Realstory = dynamic (() =>
-import ("../../Home/Realstory/Realstory"));
+const Realstory = dynamic(() => import("../../Home/Realstory/Realstory"));
 const DataAnlyticsFirstPart = ({
   SecondSectionData,
   TestimonialData,
   ibmOnly,
 }) => {
-
   const seconddata = [
-    { boldText: "IBM", normalText: "Certified Capstone", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
-    { CboldText: "175%", normalText: "Average Salary Hike", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
-    { boldText: "35K+", normalText: "Trusted Learners", },
-    
+    {
+      boldText: "IBM",
+      normalText: "Certified Capstone",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp",
+    },
+    {
+      CboldText: "175%",
+      normalText: "Average Salary Hike",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp",
+    },
+    { boldText: "35K+", normalText: "Trusted Learners" },
   ];
   const DsSecond = {
     title1: "Project-Based Learning",
@@ -88,24 +94,29 @@ const DataAnlyticsFirstPart = ({
     title: "Data-Driven Brilliance    ",
     points: [
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
         imgAlt: "",
         title: "From Beginner to Data Master        ",
-        description: "Become an expert data professional & gain in-demand analytics skills.",
+        description:
+          "Become an expert data professional & gain in-demand analytics skills.",
       },
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
         imgAlt: "",
         title: "Flexible Learning at your Convenience        ",
-        description: "Designed for professionals aiming to upskill without quitting their job        ",
+        description:
+          "Designed for professionals aiming to upskill without quitting their job        ",
       },
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
         imgAlt: "",
         title: "Achieve Your Dream Role        ",
-        description: "Get your dream salary package in your dream company        ",
+        description:
+          "Get your dream salary package in your dream company        ",
       },
-   
     ],
     bannerImage: {
       src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/dahead.webp",
@@ -135,13 +146,15 @@ const DataAnlyticsFirstPart = ({
         ibmOnly={ibmOnly}
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/da-f.webp"
         videoId="_-E3S3ojyvo"
-       
       />
 
-<MasterSecondSection data={seconddata} />
+      <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={DsSecond} />
-      <JobAbroad data={JobData} dataScienceCounselling={true}
-        interstedInHide={true}/>
+      <JobAbroad
+        data={JobData}
+        dataScienceCounselling={true}
+        interstedInHide={true}
+      />
       {/* <SecondSection SecondSectionData={SecondSectionData} /> */}
       <SecondNavbar
         titleCourse="Data Analytics Certification Program"
@@ -156,7 +169,7 @@ const DataAnlyticsFirstPart = ({
         leftImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/advance-who.webp"
         ThirdSectionData={ThirdSectionData}
       /> */}
-      <Realstory/>
+      <Realstory />
       <TrainerSection idss="eautK0odE7Q" />
       {/* <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} /> */}
       <WhoIsProgram

@@ -1,8 +1,7 @@
-import React, { useState } from "react";
-import VideoPopup from "@/components/Global/VideoPopup/VideoPopup";
 import PopupContent from "@/components/Global/PopupContent/PopupContent";
+import VideoPopup from "@/components/Global/VideoPopup/VideoPopup";
+import React, { useState } from "react";
 import FirstContent from "./FirstContent";
-import Form from "../../Global/Form/Form"
 
 function FirstSection({
   dataScience,
@@ -21,22 +20,21 @@ function FirstSection({
   thumbnailUrl,
   videoId,
   youtubeEmbedUrl,
-  S3RightImage ,
+  S3RightImage,
   animationHide,
   topHide,
   IBMGl,
   fresher,
-  upSkillingHide, 
-  dataScienceGeneric, 
+  upSkillingHide,
+  dataScienceGeneric,
   radio,
-  downloadBrochure, 
-  fullStack, 
+  downloadBrochure,
+  fullStack,
   DSWolf,
   backgorunimg,
   isSpecialPage,
   isguwati,
   backgroundImage,
-  
 }) {
   const [popups, setPopups] = useState(false);
   const [video, setVideo] = useState(false);
@@ -72,24 +70,17 @@ function FirstSection({
         youtubeEmbedUrl={youtubeEmbedUrl}
         S3RightImage={S3RightImage}
         animationHide={animationHide}
-interstedInHide={interstedInHide}
+        interstedInHide={interstedInHide}
         upSkillingHide={upSkillingHide}
         topHide={topHide}
         IBMGl={IBMGl}
         fresher={fresher}
         isSpecialPage={isSpecialPage}
-        backgorunimg ={backgorunimg }
+        backgorunimg={backgorunimg}
         isguwati={isguwati}
         backgroundImage={backgroundImage}
-        
-
-        
- 
-
-        
+        ibmOnly={ibmOnly}
       />
-       
-        
     </>
   );
 }
