@@ -63,7 +63,7 @@ const SecondPart = ({
             // console.log(popData);
             if (
               popupData ===
-              " Advance Cloud Computing & DevOps Certification Program"
+              "Advance Cloud Computing & DevOps Certification Program"
             ) {
               setPopupData(data);
               // console.log(popupData);
@@ -100,7 +100,7 @@ const SecondPart = ({
         WeekdayDate="MAY 10th"
         WeekendDate="APR 26th"
         WeekendTime="8 PM - 10 PM"
-        WeekdayTime="9:30 AM - 1 PM"
+        WeekdayTime="8 PM - 10 PM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
         FeeContent5="15 days refund policy"

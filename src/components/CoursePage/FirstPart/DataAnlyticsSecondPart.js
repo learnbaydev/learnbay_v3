@@ -71,7 +71,7 @@ const SecondPart = ({
           // console.log(data);
           data.page.map((popupData, i) => {
             // console.log(popData);
-            if (popupData === "Data Analytics Program") {
+            if (popupData === "Adv AI and ML Certification") {
               setPopupData(data);
               // console.log(popupData);
               return;
@@ -102,14 +102,14 @@ const SecondPart = ({
       <FeeSection
         Fee="₹85,000"
         FeeEmi="₹5,572/month"
-        weekdaybatch="Weekend Batch"
+        weekdaybatch="Weekday Batch"
         weekendbatch="Weekday  Batch"
-        weekday="SAT - SUN"
+        weekday="MON - FRI"
         weekend="MON - FRI"
-        WeekdayDate="APR 21st"
-        WeekendDate="APR 19th"
-        WeekdayTime="9:30 AM - 1:00 PM"
-        WeekendTime="8:00 AM - 10:00 AM"
+        WeekdayDate="May 17th"
+        WeekendDate="May 10th"
+        WeekdayTime="8:00 AM - 10:00 AM"
+        WeekendTime="8:00 PM - 10:00 PM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
         FeeContent5="15 days refund policy"

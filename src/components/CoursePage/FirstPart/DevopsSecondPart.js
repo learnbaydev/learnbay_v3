@@ -63,7 +63,7 @@ const SecondPart = ({
             // console.log(popData);
             if (
               popupData ===
-              " Advance Cloud Computing & DevOps Certification Program"
+              "Advance Cloud Computing & DevOps Certification Program"
             ) {
               setPopupData(data);
               // console.log(popupData);
@@ -93,14 +93,14 @@ const SecondPart = ({
         adsHide={adsHide}
         Fee=" ₹ 80,000"
         FeeEmi="₹ 5,244/month"
-        weekdaybatch="Weekend Batch"
+        weekdaybatch="Weekday Batch"
         weekendbatch="Weekday Batch"
-        weekday="(SAT-SUN)"
+        weekday="(MON-TUE-WED-THU)"
         weekend="(MON-TUE-WED-THU)"
-        WeekdayDate="APR 6th"
+        WeekdayDate="MAY 10th"
         WeekendDate="APR 26th"
         WeekendTime="8 PM - 10 PM"
-        WeekdayTime="9:30 AM - 1 PM"
+        WeekdayTime="8 PM - 10 PM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
         FeeContent5="15 days refund policy"
@@ -110,16 +110,15 @@ const SecondPart = ({
         dataScience={true}
         titleCourse="Cloud Computing & DevOps Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
-      
         // <EMI POPUP
-        emiType = "NO COST EMI"
-        duration1 = "18 Months"
-        totalAmount1 = "₹ 80,000"
-        monthlyPayment1 = "₹ 5,244"
-        greenDown1 = "Standard Intrest rate Applicable"
-        duration2 = "12 Months"
-        totalAmount2 = "₹ 80,000"
-        monthlyPayment2 = "₹ 7,866"
+        emiType="NO COST EMI"
+        duration1="18 Months"
+        totalAmount1="₹ 80,000"
+        monthlyPayment1="₹ 5,244"
+        greenDown1="Standard Intrest rate Applicable"
+        duration2="12 Months"
+        totalAmount2="₹ 80,000"
+        monthlyPayment2="₹ 7,866"
       />
 
       <MentorsSection />

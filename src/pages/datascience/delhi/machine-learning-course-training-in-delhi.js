@@ -188,36 +188,36 @@ export default function Home() {
           para="Discover the impact of our programs on career growth"
         />
         <div className={styles.cityFee}>
-        <FeeSection
-        Fee="₹ 1,15,000"
-        FeeEmi="₹ 7,539/ Month"
-        weekdaybatch="Weekend Batch"
-        weekendbatch="Weekday  Batch"
-        weekday="SAT - SUN"
-        weekend="MON - FRI"
-        WeekdayDate="APR 21st"
-        WeekendDate="APR 19th"
-        WeekdayTime="9:30 AM - 1:00 PM"
-        WeekendTime="8:00 AM - 10:00 AM"
-        FeeContent3="Flexible payment"
-        FeeContent4="Easy loan procedure"
-        FeeContent5="15 days refund policy"
-        FeeContent6="No additional cost"
-        dataScienceCounselling={true}
-        dataScience={true}
-        titleCourse="AI & ML Program for tech professionals"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf"
-        interstedInHide={true}
-        // <EMI POPUP
-        emiType="NO COST EMI"
-        duration1="18 Months"
-        totalAmount1="₹1,15,000"
-        monthlyPayment1="₹7,539"
-        greenDown1="Standard Intrest rate Applicable"
-        duration2="12 Months"
-        totalAmount2="₹1,15,000"
-        monthlyPayment2="₹11,308"
-      />
+          <FeeSection
+            Fee="₹ 1,15,000"
+            FeeEmi="₹ 7,539/ Month"
+            weekdaybatch="Weekday Batch"
+            weekendbatch="Weekday  Batch"
+            weekday="MON - FRI"
+            weekend="MON - FRI"
+            WeekdayDate="May 17th"
+            WeekendDate="May 10th"
+            WeekdayTime="8:00 AM - 10:00 AM"
+            WeekendTime="8:00 PM - 10:00 PM"
+            FeeContent3="Flexible payment"
+            FeeContent4="Easy loan procedure"
+            FeeContent5="15 days refund policy"
+            FeeContent6="No additional cost"
+            dataScienceCounselling={true}
+            dataScience={true}
+            titleCourse="AI & ML Program for tech professionals"
+            brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf"
+            interstedInHide={true}
+            // <EMI POPUP
+            emiType="NO COST EMI"
+            duration1="18 Months"
+            totalAmount1="₹1,15,000"
+            monthlyPayment1="₹7,539"
+            greenDown1="Standard Intrest rate Applicable"
+            duration2="12 Months"
+            totalAmount2="₹1,15,000"
+            monthlyPayment2="₹11,308"
+          />
         </div>
         <div className="MainCities">
           <div className="CitiesLeft">

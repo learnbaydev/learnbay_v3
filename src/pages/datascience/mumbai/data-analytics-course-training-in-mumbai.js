@@ -177,36 +177,36 @@ export default function Home() {
           para="Discover the impact of our programs on career growth"
         />
         <div className={styles.cityFee}>
-        <FeeSection
-        Fee="₹85,000"
-        FeeEmi="₹5,572/month"
-        weekdaybatch="Weekend Batch"
-        weekendbatch="Weekday  Batch"
-        weekday="SAT - SUN"
-        weekend="MON - FRI"
-        WeekdayDate="APR 21st"
-        WeekendDate="APR 19th"
-        WeekdayTime="9:30 AM - 1:00 PM"
-        WeekendTime="8:00 AM - 10:00 AM"
-        FeeContent3="Flexible payment"
-        FeeContent4="Easy loan procedure"
-        FeeContent5="15 days refund policy"
-        FeeContent6="No additional cost"
-        dataScienceCounselling={true}
-        interstedInHide={true}
-        dataScience={true}
-        titleCourse="Data Analytics Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
-        // EMI POPUPDATA
-        emiType="NO COST EMI"
-        duration1="18 Months"
-        totalAmount1="₹85,000"
-        monthlyPayment1="₹5,572"
-        greenDown1="Standard Intrest rate Applicable"
-        duration2="12 Months"
-        totalAmount2="₹85,000"
-        monthlyPayment2="₹8,358"
-      />
+          <FeeSection
+            Fee="₹85,000"
+            FeeEmi="₹5,572/month"
+            weekdaybatch="Weekday Batch"
+            weekendbatch="Weekday  Batch"
+            weekday="MON - FRI"
+            weekend="MON - FRI"
+            WeekdayDate="May 17th"
+            WeekendDate="May 10th"
+            WeekdayTime="8:00 AM - 10:00 AM"
+            WeekendTime="8:00 PM - 10:00 PM"
+            FeeContent3="Flexible payment"
+            FeeContent4="Easy loan procedure"
+            FeeContent5="15 days refund policy"
+            FeeContent6="No additional cost"
+            dataScienceCounselling={true}
+            interstedInHide={true}
+            dataScience={true}
+            titleCourse="Data Analytics Certification Program"
+            brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
+            // EMI POPUPDATA
+            emiType="NO COST EMI"
+            duration1="18 Months"
+            totalAmount1="₹85,000"
+            monthlyPayment1="₹5,572"
+            greenDown1="Standard Intrest rate Applicable"
+            duration2="12 Months"
+            totalAmount2="₹85,000"
+            monthlyPayment2="₹8,358"
+          />
         </div>
         <div className="MainCities">
           <div className="CitiesLeft">
