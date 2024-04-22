@@ -165,7 +165,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         third="Early to mid-career professionals interested in data science"
         forth="Developing skills in data science for future opportunities"
       />
-      <WhyLearnbay idss="ZPOTy4PEnNU" FoundNew={true}/>
+      <WhyLearnbay idss="ZPOTy4PEnNU" FoundNew={true} />
       <GetHire />
       <ContactConsellor
         dataScience={true}

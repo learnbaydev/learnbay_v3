@@ -1,58 +1,50 @@
-import { ThirdSectionData } from "@/Data/ThirdSectionData";
 import dynamic from "next/dynamic";
 import React from "react";
-const SecondNavbar = dynamic(() =>
-  import("../SecondNavbar/SecondNavbar")
-);
-const WhoProgram = dynamic(() =>
-  import("../WhoProgram/ThirdSection")
-);
+const SecondNavbar = dynamic(() => import("../SecondNavbar/SecondNavbar"));
+const WhoProgram = dynamic(() => import("../WhoProgram/ThirdSection"));
 const TrainerSection = dynamic(() =>
   import("../../Global/TrainerSection/TrainerSection")
 );
 const Testimonial = dynamic(() =>
   import("../../Global/Testimonial/Testimonial")
 );
-const WhoIsProgram = dynamic(() =>
-  import("../WhoIsProgram/WhoIsProgram")
-);
-const WhyLearnbay = dynamic(() =>
-  import("../WhyLearnbay/WhyLearnbay")
-);
+const WhoIsProgram = dynamic(() => import("../WhoIsProgram/WhoIsProgram"));
+const WhyLearnbay = dynamic(() => import("../WhyLearnbay/WhyLearnbay"));
 const GetHire = dynamic(() => import("../../Home/GetHire/GetHire"));
 const ContactConsellor = dynamic(() =>
   import("../ContactCounsellor/ContactCounsellor")
 );
 const CloudDevopsecond = dynamic(() =>
-  import(
-    "../cloud&devops/DevOpsSecondSection/DevOpsSecondSection"
-  )
+  import("../cloud&devops/DevOpsSecondSection/DevOpsSecondSection")
 );
-const FirstSection = dynamic(() =>
-  import("../FirstSection/FirstSection")
-);
-const MasterSecondSection  = dynamic(() =>
+const FirstSection = dynamic(() => import("../FirstSection/FirstSection"));
+const MasterSecondSection = dynamic(() =>
   import("../../MastersCourse/MasterSecondSection/MasterSecondSection")
 );
-const JobAbroad = dynamic(()=>
-import( "../../MastersCourse/JobAbroad/JobAbroad"
-)
+const JobAbroad = dynamic(() =>
+  import("../../MastersCourse/JobAbroad/JobAbroad")
 );
-const Realstory = dynamic (() =>
-import ("../../Home/Realstory/Realstory"));
-
+const Realstory = dynamic(() => import("../../Home/Realstory/Realstory"));
 
 import { AiOutlineContainer } from "react-icons/ai";
 import { BsDisplay, BsPeople, BsPersonGear } from "react-icons/bs";
 import { FaLinkedinIn, FaReact } from "react-icons/fa";
 import { TbBrandGoogleAnalytics } from "react-icons/tb";
 const FirstPart = ({ SecondSectionData, TestimonialData }) => {
-
   const seconddata = [
-    { boldText: "IBM", normalText: "Global Certification", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
-    { CboldText: "175%", normalText: "Average Salary Hike", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
-    { boldText: "35K+", normalText: "Trusted Learners", },
-    
+    {
+      boldText: "IBM",
+      normalText: "Global Certification",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp",
+    },
+    {
+      CboldText: "175%",
+      normalText: "Average Salary Hike",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp",
+    },
+    { boldText: "35K+", normalText: "Trusted Learners" },
   ];
   const DsSecond = {
     title1: "Project-Based Learning",
@@ -75,7 +67,11 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         role: "Tableau Developer ",
         salary: "11.9 LPA        ",
       },
-      { icon: <BsPersonGear />, role: "Data Analyst ", salary: "7.2 LPA      " },
+      {
+        icon: <BsPersonGear />,
+        role: "Data Analyst ",
+        salary: "7.2 LPA      ",
+      },
     ],
     image3:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group-768-min.webp",
@@ -95,24 +91,29 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
     title: "Jumpstart Your Career In Data Science & AI    ",
     points: [
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
         imgAlt: "",
         title: "6 Month Internship Certificate        ",
-        description: "Earn an internship certificate by working on real-time data science projects.         ",
+        description:
+          "Earn an internship certificate by working on real-time data science projects.         ",
       },
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
         imgAlt: "",
         title: "Final Year Project Assistance        ",
-        description: "Get Live help from Industry Experts for your final year project        ",
+        description:
+          "Get Live help from Industry Experts for your final year project        ",
       },
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
         imgAlt: "",
-        title: "Expert Crafted Curriculum        "        ,
-        description: "Tailored for career transformation in a tech-driven era        ",
+        title: "Expert Crafted Curriculum        ",
+        description:
+          "Tailored for career transformation in a tech-driven era        ",
       },
-   
     ],
     bannerImage: {
       src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Fresher_job.webp",
@@ -142,19 +143,21 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         videoId="m6M4vEacIN0"
         ibmOnly={true}
         IBMGl={true}
-        
       />
-       <MasterSecondSection data={seconddata} />
+      <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={DsSecond} />
-      <JobAbroad data={JobData} dataScienceCounselling={true}
-        interstedInHide={true}/>
+      <JobAbroad
+        data={JobData}
+        dataScienceCounselling={true}
+        interstedInHide={true}
+      />
       <SecondNavbar
         interstedInHide={true}
         dataScience={true}
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf"
         titleCourse="Data Science & AI Certification Program For Freshers"
       />
-      <Realstory/>
+      <Realstory />
       <TrainerSection idss="eautK0odE7Q" />
       {/* <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} /> */}
       <WhoIsProgram
@@ -163,7 +166,12 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         third="Early to mid-career professionals interested in data science"
         forth="Developing skills in data science for future opportunities"
       />
-      <WhyLearnbay idss="ZPOTy4PEnNU" Intern={true} targetjobs={true} FreshersIntern={true}/>
+      <WhyLearnbay
+        idss="ZPOTy4PEnNU"
+        Intern={true}
+        targetjobs={true}
+        FreshersIntern={true}
+      />
       <GetHire />
       <ContactConsellor
         dataScience={true}

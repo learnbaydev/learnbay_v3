@@ -1,10 +1,10 @@
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { FaYoutube } from "react-icons/fa";
 import Button from "../../Global/Button/Button";
-import styles from "./FirstSection.module.css";
 import Form from "../../Global/Form/Form";
-import Link from "next/link";
+import styles from "./FirstSection.module.css";
 
 // const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
