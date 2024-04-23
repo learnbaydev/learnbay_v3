@@ -27,7 +27,7 @@ const DevOpsProject = dynamic(() =>
 );
 
 const FAQNew = dynamic(() =>
-  import("../../../components/CoursePage/FAQNew/FAQNew")
+  import("../../../components/CoursePage/FAQNew/FAQNewDomain")
 );
 const Content = dynamic(() => import("../Content/content"));
 
@@ -133,7 +133,7 @@ const SecondPart = ({
         // interstedInHide={true}
       />
 
-      {adsHide ? "" : <FAQNew FAQNewData={FAQNewData} />}
+      {adsHide ? "" :   <FAQNew FAQNewData={FAQNewData} />}
       <SeventhSection />
       {adsHide ? "" : <Footer />}
       <BottomBar

@@ -88,7 +88,7 @@ export default function Home() {
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/south-africa/data-science-course-training-in-south-africa"
+          content="https://www.learnbay.co/datascience/southafrica/data-science-course-training-in-south-africa"
         />
         <meta
           property="og:title"
@@ -127,7 +127,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/south-africa/data-science-course-training-in-south-africa"
+          href="https://www.learnbay.co/datascience/southafrica/data-science-course-training-in-south-africa"
         />
         {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}
@@ -143,7 +143,7 @@ export default function Home() {
         {/* <meta name="robots" content="ALL" /> */}
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/south-africa/data-science-course-training-in-south-africa"
+          content="https://www.learnbay.co/datascience/southafrica/data-science-course-training-in-south-africa"
         />
         <meta
           property="og:title"
@@ -151,7 +151,7 @@ export default function Home() {
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/south-africa/data-science-course-training-in-south-africa"
+          content="https://www.learnbay.co/datascience/southafrica/data-science-course-training-in-south-africa"
         />
         <meta
           property="og:title"

@@ -98,7 +98,7 @@ export default function Home() {
         <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Data science course in Austin. Learnbay is Advanced Data Science Course Training Institute in Austin. Data science course in Austinwill enhance your career"
+          content="Data science course in Austin. Learnbay is Advanced Data Science Course Training Institute in Austin. Data science course in Austin will enhance your career"
         />
         <meta
           property="og:image"
