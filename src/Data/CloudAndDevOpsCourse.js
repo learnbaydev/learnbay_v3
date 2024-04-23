@@ -1163,56 +1163,9 @@ export const CloudAndDevOpsCourseData = [
           },
         ],
       },
+     
       {
         id: 1,
-        sectionName: "Domain Electives",
-        data: [
-          {
-            id: 0,
-            ques: "What is domain specialization?",
-            ans: "We offer industry-specific full-stack data science modules, via which you learn the respective industry’s best practices.",
-            open: true,
-          },
-          {
-            id: 1,
-            ques: "What are the available elective domain options?",
-            ans: "Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc.",
-            open: false,
-          },
-          {
-            id: 2,
-            ques: "Which domain elective is best suited for me?",
-            ans: `You can select your domain based on your prior work experience, academics, and career goals.`,
-            open: false,
-          },
-          {
-            id: 3,
-            ques: "Why is domain specialization important?",
-            ans: "After enrolling in the AI and ML with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge which is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.",
-            open: false,
-          },
-          {
-            id: 4,
-            ques: "Can I select multiple domain electives and do I need to pay extra charges?",
-            ans: "You can select up to 4 domain electives based on your interest and career goals. No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.",
-            open: false,
-          },
-          {
-            id: 5,
-            ques: "What if I don’t have any prior experience in any domain?",
-            ans: "If you don’t have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.",
-            open: false,
-          },
-          {
-            id: 6,
-            ques: "Can I change my domain electives later?",
-            ans: "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration.",
-            open: false,
-          },
-        ],
-      },
-      {
-        id: 2,
         sectionName: "Payments and Scholarships",
         data: [
           {
@@ -1280,7 +1233,7 @@ export const CloudAndDevOpsCourseData = [
         ],
       },
       {
-        id: 3,
+        id: 2,
         sectionName: "Capstone and Real-Time Projects",
         data: [
 
@@ -1306,7 +1259,7 @@ export const CloudAndDevOpsCourseData = [
         ],
       },
       {
-        id: 4,
+        id: 3,
         sectionName: "Certification",
         data: [
           {
@@ -1336,7 +1289,7 @@ export const CloudAndDevOpsCourseData = [
         ],
       },
       {
-        id: 5,
+        id: 4,
         sectionName: "Job Assistance",
         data: [
           {
@@ -1403,7 +1356,7 @@ export const CloudAndDevOpsCourseData = [
         ],
       },
       {
-        id: 6,
+        id: 5,
         sectionName: "Mentorship",
         data: [
           {
@@ -1440,7 +1393,7 @@ export const CloudAndDevOpsCourseData = [
         ],
       },
       {
-        id: 7,
+        id: 6,
         sectionName: "Support",
         data: [
           {
