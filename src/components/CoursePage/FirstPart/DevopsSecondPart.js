@@ -27,7 +27,7 @@ const DevOpsProject = dynamic(() =>
 );
 
 const FAQNew = dynamic(() =>
-  import("../../../components/CoursePage/FAQNew/FAQNew")
+  import("../../../components/CoursePage/FAQNew/FAQNewDomain")
 );
 const Content = dynamic(() => import("../Content/content"));
 
