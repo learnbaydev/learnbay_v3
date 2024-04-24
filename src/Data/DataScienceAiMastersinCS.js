@@ -777,32 +777,28 @@ export const DataScienceMastersinCS = [
           {
             id: 1,
             ques: "Can I pay in installments for the Data Science and AI master's degree Program?",
-            ans: "Learnbay offers flexible financing options for learners to have constant upskilling. You can pay the fees in installments under a no-cost EMI option within 12 months. You can also opt for interest-free loans with the necessary documents (Aadhar card, PAN card, & salary slip). ",
+            ans: "Learnbay offers flexible financing options for learners to have constant upskilling. You can pay INR 12,292/month in installments under a no-cost EMI option within 12 months. You can also opt for interest-free loans with the necessary documents (Aadhar card, PAN card, & salary slip).             ",
             open: false,
           },
           {
             id: 2,
             ques: "Is there any scholarship/discount available for the Data Science and AI master's degree Program?",
-            ans: `The Data Science and AI master’s degree program offers a 15% – 20% discount for early birds occasionally. Yet, a group discount is available for the learners who join with one or more friends. 
+            ans: "The Data Science and AI master’s degree program offers a 15% – 20% discount for early birds occasionally. Yet, a group discount is available for the learners who join with one or more friends.             " ,
 
-           Group of 2: 5% extra discount
-           Group of 3: 8% additional discount
-           Group of 4+: Max 10% discount
-           For further details, you can check with our sales team at +91 7795687988
-            
-          `,
+           list1:"Group of 2: 5% extra discount",
+           list2:
+           " Group of 3: 8% additional discount",
+           list3:"Group of 4+: Max 10% discount",
+           dscoursefaq:true,
+          
+           ans: ` For further details, you can check with our sales team at +91 7795687988`
+        ,
             open: false,
           },
           {
             id: 3,
             ques: "What is the refund policy for the Master's degree program at Learnbay?",
-            ans:`The Data Science and AI master’s degree program offers a 15% – 20% discount for early birds occasionally. Yet, a group discount is available for the learners who join with one or more friends. 
-
-            Group of 2: 5% extra discount
-            Group of 3: 8% additional discount
-            Group of 4+: Max 10% discount
-            
-            For further details, you can check with our sales team at +91 7795687988`,
+            ans:`Before enrolling on the Master’s degree program at Learnbay, Learners are advised to go through its Refund/Cancellation Policy. `,
             
                 
           link: true,

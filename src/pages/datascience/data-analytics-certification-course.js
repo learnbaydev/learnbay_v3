@@ -3,7 +3,7 @@ import DataAnlyticsFirstPart from "@/components/CoursePage/FirstPart/DataAnlytic
 import DataAnlyticsSecondPart from "@/components/CoursePage/FirstPart/DataAnlyticsSecondPart";
 import Head from "next/head";
 import { useEffect, useState } from "react";
-
+import {DataAnalyticsSchema} from "@/Data/Schema/DataAnalyticsSchema"
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
 
@@ -123,6 +123,12 @@ function Blockchain({ DataScienceCourseDataJson }) {
             ]
 
           }`,
+          }}
+        />
+     <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(DataAnalyticsSchema),
           }}
         />
       </Head>
