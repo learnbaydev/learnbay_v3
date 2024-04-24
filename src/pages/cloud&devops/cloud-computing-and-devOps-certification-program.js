@@ -3,17 +3,19 @@ import { parseJSONData } from "@/Util/JsonConvertor";
 import FirstPart from "@/components/CoursePage/FirstPart/DevOpsFirstpart";
 import SecondPart from "@/components/CoursePage/FirstPart/DevopsSecondPart";
 import Navbar from "@/components/Global/Navbar/Navbar";
+import {
+  cloudDevOpsSchema,
+  cloudCourseSchema,
+} from "@/Data/Schema/CloudAnddevopsSchema"; // Import the schema
 
-
-
-function Blockchain({ CloudAndDevOpsCourseDataJson }) {
+function CloudAndDevOpsCoursePage({ CloudAndDevOpsCourseDataJson }) {
   const CloudAndDevOpsCourseData = parseJSONData(CloudAndDevOpsCourseDataJson);
- 
+
   return (
     <>
       <Head>
         <title>
-        Master Cloud Computing and DevOps with Advanced Certification Programs - Learnbay
+        Advanced Certification in Cloud Computing and DevOps - Learnbay
         </title>
         <meta
           name="description"
@@ -36,55 +38,27 @@ function Blockchain({ CloudAndDevOpsCourseDataJson }) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: `{
-      "@context": "http://schema.org",
-      "@type": "Course",
-      "name": "Cloud Computing & DevOps Certification Program",
-      "description": "Elevate your career with an advanced Cloud Computing and DevOps certification program, and explore the latest techniques in AWS, Google Cloud Platform, and AZURE.",
-      "url": "https://www.learnbay.co/cloud&devops/cloud-computing-and-devOps-certification-program",
-      "offers": {
-       "@type": "offer",
-        "price": "110000",
-        "pricecurrency": "INR",
-        "category": "Educational"
-      },
-       "provider": {
-            "@type": "Organization",
-            "name": "Learnbay",
-            "Url": "https://www.learnbay.co/"
-          },
-      "coursePrerequisites": "There are no prerequisites for Cloud Computing and Devops Certification Program, as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
-      "hasCourseInstance": [
-        {
-          "@type": "CourseInstance",
-          "courseMode": "Online",
-          "courseWorkload": "P10W",
-          "courseFee": {
-            "@type": "PriceSpecification",
-            "price": "₹ 1,10,000 + 18% GST",
-            "priceCurrency": "INR"
-          }
-        }
-      ]
-    }`,
+            __html: JSON.stringify(cloudCourseSchema),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(cloudDevOpsSchema),
           }}
         />
       </Head>
       <main>
         <Navbar dataScienceCounselling={true} />
-        
+
         <FirstPart
           SecondSectionData={
             CloudAndDevOpsCourseData.CloudAndDevOpsCourseData[0].secondSection
           }
-          
-      
         />
-
       </main>
       <main>
         <SecondPart
-        
           masterSyllabusMobile={
             CloudAndDevOpsCourseData.CloudAndDevOpsCourseData[0]
               .masterSyllabusMobile
@@ -104,7 +78,8 @@ function Blockchain({ CloudAndDevOpsCourseDataJson }) {
     </>
   );
 }
-export default Blockchain;
+export default CloudAndDevOpsCoursePage;
+
 export async function getStaticProps() {
   const data = await import("../../Data/CloudAndDevOpsCourse");
   function getCloudAndDevOpsCourseDataJSON(CloudAndDevOpsCourseData) {

@@ -38,6 +38,7 @@ const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
 const OfferPopup = dynamic(() =>
   import("../../../components/Global/OfferPopup/OfferPopup")
 );
+import {DSPuneSchema} from "@/Data/Schema/DSPuneSchema"
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
@@ -283,6 +284,12 @@ export default function Home() {
              
               
 } `,
+          }}
+        />
+       <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(DSPuneSchema),
           }}
         />
       </Head>

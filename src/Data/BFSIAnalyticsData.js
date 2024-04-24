@@ -678,7 +678,7 @@ export const BFSIDataScienceCourseData = [
           {
             id: 3,
             ques: "What’s the duration of the Data Science and AI for BFSI Professionals Program?            ",
-            ans: "The duration of the Data Science and AI Certification Program for BFSI Professionals program is 7 months. (Rest keep the same as before). ",
+            ans: "The duration of the Data Science and AI Certification Program for BFSI Professionals program is 7 months which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch (Monday to Friday – 2 hours/day), Weekend batch (Saturday & Sunday – 3.5 hours/day). ",
             open: false,
           },
           {
@@ -716,8 +716,8 @@ export const BFSIDataScienceCourseData = [
           },
           {
             id: 2,
-            ques: "Is there any scholarship/discount available for the BFSI Program? What is a Group Discount?            ",
-            ans: `Yes, we offer scholarships to our eligible candidates enrolling in this program. Candidates can avail up to 25% scholarship on their courses. (Rest keep the same as before)            `,
+            ques: "How can I apply for scholarships, and what are the eligibility criteria?           ",
+            ans: `You must contact and book a counseling session with a career counselor to get details of the course and scholarship schemes. It will be a telephone discussion of 15 – 20 minutes. If you are eligible for the scheme, you will receive up to a 25% scholarship from Learnbay.             `,
             open: false,
           },
           {
@@ -729,6 +729,16 @@ export const BFSIDataScienceCourseData = [
             ansAfter: " before enrolling in the program.",
             link: true,
 
+            open: false,
+          },
+          {
+            id: 4,
+            ques: "Are there any discounts for early registration in the program?",
+            ans: "Yes, we offer early bird discounts of 15% – 20% for learners registering in the program at first. Yet, a group discount is available for the learners who join with one or more friends.             ",
+          list1:"Group of 2: 5% extra discount          ",
+          list2:"Group of 3: 8% additional discount          ",
+          list3:"Group of 4+: Max 10% discount          ",
+          dscoursefaq:true,
             open: false,
           },
         ],
@@ -754,6 +764,7 @@ export const BFSIDataScienceCourseData = [
             ans: "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.",
             open: false,
           },
+         
         ],
       },
       {
@@ -821,15 +832,33 @@ export const BFSIDataScienceCourseData = [
         data: [
           {
             id: 0,
-            ques: "Until when will the Learnbay students get the facility of mentorship?            ",
+            ques: "Until when will the Learnbay students get the facility of mentorship?",
 
-            ans: "Our Mentors will provide BFSI training to the students until the completion of the course.",
+            ans: "Our mentors will provide data science training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to specialized mentors for project and placement purposes.",
             open: true,
           },
           {
             id: 1,
-            ques: "Can a Learnbay student choose to study from their desired mentor?",
-            ans: "Our mentors will provide industry-specific training to the students until the completion of the course depending on the specialization. Post-completion, students can reach out to specialized mentors for project and placement purposes.            ",
+            ques: "Can a student choose to study from their desired mentor?",
+            ans: "At Learnbay, every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+            open: false,
+          },
+          {
+            id: 2,
+            ques: "Are there mentors available to help with coursework and projects?            ",
+            ans: "Working professionals have the scope to learn business analytics online under the direct guidance of industry experts from MNCs. Learners will have dedicated coaching from mentors for coursework, job assistance programs, live projects, and 1:1 doubt clearing. You can get in touch with your mentors to resolve any doubts while working on fresh capstone projects.             ",
+            open: false,
+          },
+          {
+            id: 3,
+            ques: "How can I connect with a mentor?            ",
+            ans: "Learners go through business analytics online training guided by industry mentors from MNCs. After enrolling in the course, learners will be assigned a mentor whom they can contact directly during online sessions (chat section) and over the call at any time.             ",
+            open: false,
+          },
+          {
+            id: 4,
+            ques: "What is the typical response time for mentor support?            ",
+            ans: "Our mentors are available to support queries of learners at any time (during and after the sessions). So, within 10-15 minutes, learners can get mentor support to resolve queries regarding coursework or projects.             ",
             open: false,
           },
         ],

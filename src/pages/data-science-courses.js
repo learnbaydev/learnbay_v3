@@ -19,7 +19,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="data science course, data science courses, data science training , data science course institute, best data science institute, data scientist course ,data scientist certification, data science training institute , advanced data science course , data science course with Placement Assistance, data science course with IBM certification"
+          content="data science course, data science courses, data science training, online data science courses, data science certifications, best online data science courses, data science certification courses, best data science courses, data science certificate online "
         />
         <link
           rel="icon"

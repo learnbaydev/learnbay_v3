@@ -3,6 +3,7 @@ import { parseJSONData } from "@/Util/JsonConvertor";
 import FirstPart from "@/components/CoursePage/FirstPart/DSAIMastersCertificationFirstPart";
 import SecondPart from "@/components/CoursePage/FirstPart/DSAIMastersCertificationSecondPart";
 import Navbar from "@/components/Global/Navbar/Navbar";
+import { MasterAI } from "@/Data/Schema/DataScienceAndAIMasterSchema"
 
 
 function Blockchain({ DataScienceCourseDataJson }) {
@@ -65,6 +66,13 @@ function Blockchain({ DataScienceCourseDataJson }) {
     }
   ]
     }`,
+          }}
+        />
+
+<script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(MasterAI),
           }}
         />
       </Head>
