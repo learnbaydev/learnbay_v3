@@ -420,6 +420,28 @@ export const CityFooterData = [
           },
         ],
       },
+      {
+        id: "Egypt",
+        city: "Egypt",
+        cityData: [
+          {
+            id: 1,
+            name: "Data Science Course Training in Egypt",
+            url: "/datascience/egypt/data-science-course-training-in-egypt",
+          },
+        ],
+      },
+      {
+        id: "UK",
+        city: "UK",
+        cityData: [
+          {
+            id: 1,
+            name: "Data Science Course Training in UK",
+            url: "/datascience/uk/data-science-course-training-in-uk",
+          },
+        ],
+      },
     ],
   },
   {

@@ -301,6 +301,7 @@ const CitiesRight = ({
   JobBot004,
   JobBot005,
   JobBot006,
+  cityTextDSUK,
   usaonly,
   hideDSonly,
   ProgramBotItaliic105,
@@ -445,6 +446,7 @@ const CitiesRight = ({
   cityTextMastergermany,
   cityTextDSMalaysia,
   cityTextDSAustin,
+  cityTextDSEgypt,
 }) => {
   const [read, setRead] = useState(false);
   const handler = () => {
@@ -2864,6 +2866,110 @@ const CitiesRight = ({
         ) : (
           ""
         )}
+
+        {cityTextDSUK ? (
+          <div className={styles.CitiesRightInner}>
+            <h4 style={{ fontSize: "20px" }}>
+              Presenting an Industry-driven Data Science Course in UK{" "}
+            </h4>
+            <p>
+              As per the Bureau of Labor Statistics report, data scientists’
+              employment rates expect a 35% rise by 2032. Owing to this, the
+              demand for data science experts keeps increasing in many
+              countries, including the UK.
+            </p>
+            <p>
+              The UK is a digitally-driven country with increasing reliance on
+              data. The UK government recognizes ‘data skills’ as the fuel for
+              successful career growth. Thus, the country sees an increasing
+              demand for data scientists with a progressing career path.
+            </p>
+            <p>
+              Working pros from diverse fields show their urge to study data
+              science in UK due to its alluring career growth options. Our
+              comprehensively designed data science courses in London, UK offer
+              cutting-edge training to experts. It equips you with the trending
+              skills to get job-ready and crack top-tier jobs.
+            </p>
+            <p>
+              Currently, businesses in the UK focus on informed decision-making
+              to strengthen their hold over target markets. Pros opt for a data
+              science online course with proven learning due to the rising
+              data-driven culture. Thus, we offer you GenAI inclusive training
+              to ace the competitive edge.
+            </p>
+            <p>
+              We support effortless career shifts and promotions to leadership
+              roles in the data science field. Our best data science courses
+              craft a hassle-free way for global-scale knowledge gains. We offer
+              an open learning space to understand real-world business issues in
+              the UK and tackle them via live projects.{" "}
+            </p>
+
+            <p>
+              Data science is an evolving field that ascertains a financially
+              growing future for the UK. Apart from the business world, the UK’s
+              job market outlook expects a rising future for working pros in
+              diverse sectors.{" "}
+            </p>
+            <p>
+              A data scientist on average earns £59,431 per year in London, UK.
+              With the required skill sets and experience, a Lead Data Scientist
+              can expect a rise to £88,334 per year. Thus, the demand for online
+              data science programs keeps growing.{" "}
+            </p>
+            <p>
+              Our best data science courses offer globally recognized
+              certifications from tech giants such as IBM & Microsoft. With
+              basic numeric skills and domain knowledge, anyone can enroll in
+              our program, revitalizing their careers.{" "}
+            </p>
+            <br />
+            <h4 style={{ fontSize: "20px" }}>
+              Career Gains with Our Data Science Course in UK{" "}
+            </h4>
+            <p>
+              Working pros have opted for several pathways to re-establish their
+              careers in proven fields in the past few years. Data science is
+              pivotal for driving captivating success with global-level offers
+              in your domain. Experts in the UK opt for industry-focused data
+              science courses with exclusive career gains.{" "}
+            </p>
+            <p>Our data scientist course UK offers –</p>
+            <br />
+            <ul>
+              <li>
+                <b>GenAI-driven training:</b> Experts will get a 360-degree
+                knowledge-building scope with the latest GenAI tools
+                (theoretical & project-based learning).
+              </li>
+              <br />
+              <li>
+                <b>Domain-specific learning:</b> Experts from various fields can
+                enroll with us to get domain-specific learning and improve the
+                prior experience.{" "}
+              </li>
+              <br />
+              <li>
+                <b>Hands-on learning:</b> Best data science courses by Learnbay
+                offer hands-on learning gains to its learners via live projects.
+                Here, you can enrich your domain expertise with the latest data
+                trends.{" "}
+              </li>
+              <br />
+              <li>
+              <b>Global certifications:</b>Our data science courses offer globally accredited certifications from tech giants like IBM & MS. 
+              </li>
+              <br />
+              <li>
+              <b>Career Service Pro:</b> Experts enrolling in our data science course in UK will get 100% job and placement support with 450+ industry partners. 
+              </li>
+            </ul>
+          </div>
+        ) : (
+          ""
+        )}
+
         {cityTextMastergermany ? (
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
@@ -3113,6 +3219,7 @@ const CitiesRight = ({
                 >
                   data science course
                 </a>
+                <br />
               </b>{" "}
               in alliance with IBM & MS offers alluring career gains –{" "}
             </p>
@@ -3796,33 +3903,97 @@ const CitiesRight = ({
               you will have one IBM project certificate with a degree from Woolf
               University.
             </p>
-<br/>
-            <h4 style={{fontSize:"20px"}}>
+            <br />
+            <h4 style={{ fontSize: "20px" }}>
               What are the major career gains our data science course in Austin
               offers?{" "}
             </h4>
             <p>
               The field of data science professionals is a multi-faceted one
               with an incomparably engaging future. Upskilling with our{" "}
-            <b> <a style={{color:"#0072bc"}}
-                href="https://www.learnbay.co/data-science-courses"
-                target="_blank"
-              >
-                best data science courses
-              </a></b> {" "}
+              <b>
+                {" "}
+                <a
+                  style={{ color: "#0072bc" }}
+                  href="https://www.learnbay.co/data-science-courses"
+                  target="_blank"
+                >
+                  best data science courses
+                </a>
+              </b>{" "}
               helps you modernize your careers with globally trending job roles.
               Constant learning of in-demand data science skills paves the way
               for a global-level career shift.{" "}
             </p>
-<b><p>In short, vital career gains with our data science course are –</p></b>
-<br/>
+            <b>
+              <p>
+                In short, vital career gains with our data science course are –
+              </p>
+            </b>
+            <br />
             <ul>
               <li>Updated knowledge-building with GenAI-rich modules</li>
               <li>Project-based learning (12+ real-time projects)</li>
               <li>Flexible learning methods </li>
               <li>100% job and placement support </li>
               <li>Globally recognized certifications (IBM & Microsoft)</li>
-            </ul>    
+            </ul>
+          </div>
+        ) : (
+          ""
+        )}
+
+        {cityTextDSEgypt ? (
+          <div className={styles.CitiesRightInner}>
+            <h4 style={{ fontSize: "20px" }}>
+              Presenting Industry-driven Data Science Training in Egypt
+            </h4>
+            <p>
+              Egypt’s data center market expects a 12.8% rise by the end of
+              2030. An increasing inclination toward data alters the business
+              and job market landscape. Thus, working pros opt for an
+              industry-paced data science training program with better career
+              gains.
+            </p>
+            <p>
+              Learnbay’s cutting-edge data science courses in Egypt support
+              hassle-free career shifts with trending job roles. Our program
+              builds an open learning space to help you improve your basic and
+              advanced data skills.
+            </p>
+            <p>
+              We offer practical data science classes with real-time simulation
+              projects where you learn about the actual uses of data tools.
+              Here, you learn everything – from coding facets to insightful
+              dashboard designs.
+            </p>
+            <p>
+              We make your career switch journey effortless with our job assist
+              program. Eligible learners get job calls from the leading MNCs
+              with attractive hikes. Plus, our Microsoft and IBM data science
+              professional certificate enriches your career values with exciting
+              offers.
+            </p>
+
+            <br />
+            <h4 style={{ fontSize: "20px" }}>
+              Enlisting Career Gains with Best Data Science Courses
+            </h4>
+            <p>
+              Working pros with slow-paced careers opt for reskilling and
+              upskilling in data science. Experts from any domain and career
+              level can opt for our data science course to avail of career gains
+              like –
+            </p>
+          
+            <br />
+            <ul>
+              <li>Inclusive learning of GenAI-rich tools</li>
+              <li>Project-based learning </li>
+              <li>100% job and placement support </li>
+              <li>Globally recognized certifications (IBM & Microsoft) </li>
+      
+            </ul>
           </div>
         ) : (
           ""

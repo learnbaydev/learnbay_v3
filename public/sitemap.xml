@@ -398,6 +398,11 @@
 		<changefreq>daily</changefreq>
 		<priority>0.70</priority>
 	</url>
+		<url>
+		<loc>https://www.learnbay.co/cloud&amp;devops/cloud-computing-and-devOps-certification-program</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
 
 	<url>
 		<loc>https://www.learnbay.co/datascience/usa/data-science-course-training-in-usa</loc>
@@ -436,10 +441,29 @@
 		<changefreq>daily</changefreq>
 		<priority>0.70</priority>
 	</url>
-	<url>
-		<loc>https://www.learnbay.co/cloud&amp;devops/cloud-computing-and-devOps-certification-program</loc>
+
+		<url>
+		<loc>https://www.learnbay.co/datascience/dhaka/data-science-course-training-in-dhaka</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.70</priority>
 	</url>
+
+			<url>
+		<loc>https://www.learnbay.co/datascience/malaysia/data-science-course-training-in-malaysia</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+			<url>
+		<loc>https://www.learnbay.co/datascience/germany/master-degree-in-data-science-in-germany</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+
+				<url>
+		<loc>https://www.learnbay.co/datascience/austin/data-science-course-training-in-austin</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+
 	
 </urlset>
