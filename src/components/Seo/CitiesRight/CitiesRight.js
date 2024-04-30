@@ -104,9 +104,10 @@ const CitiesRight = ({
   CertificationHead32,
   CertificationBot1,
   CertificationBot2,
+  CertificationBot5,
   CertificationBot3,
   CertificationBot4,
-  CertificationBot5,
+  CertificationmasterBot5,
   CertificationBot6,
   CertificationBot7,
   CertificationMasterHead1,
@@ -229,6 +230,7 @@ const CitiesRight = ({
   JobHead19,
   JobBot18,
   JobBot20,
+  JobBotmaster20,
   JobBot003,
   JobBot007,
   JobBot0span,
@@ -447,6 +449,7 @@ const CitiesRight = ({
   cityTextDSMalaysia,
   cityTextDSAustin,
   cityTextDSEgypt,
+  cityTextMasterAUS,
 }) => {
   const [read, setRead] = useState(false);
   const handler = () => {
@@ -2958,11 +2961,15 @@ const CitiesRight = ({
               </li>
               <br />
               <li>
-              <b>Global certifications:</b>Our data science courses offer globally accredited certifications from tech giants like IBM & MS. 
+                <b>Global certifications:</b>Our data science courses offer
+                globally accredited certifications from tech giants like IBM &
+                MS.
               </li>
               <br />
               <li>
-              <b>Career Service Pro:</b> Experts enrolling in our data science course in UK will get 100% job and placement support with 450+ industry partners. 
+                <b>Career Service Pro:</b> Experts enrolling in our data science
+                course in UK will get 100% job and placement support with 450+
+                industry partners.
               </li>
             </ul>
           </div>
@@ -3985,14 +3992,150 @@ const CitiesRight = ({
               level can opt for our data science course to avail of career gains
               like –
             </p>
-          
+
             <br />
             <ul>
               <li>Inclusive learning of GenAI-rich tools</li>
               <li>Project-based learning </li>
               <li>100% job and placement support </li>
               <li>Globally recognized certifications (IBM & Microsoft) </li>
-      
+            </ul>
+          </div>
+        ) : (
+          ""
+        )}
+
+        {cityTextMasterAUS ? (
+          <div className={styles.CitiesRightInner}>
+            <h4 style={{ fontSize: "20px" }}>
+              Briefing on Learnbay’s Master in Data Science and AI Program
+            </h4>
+            <p>
+              In today’s digital era, data science takes the prime stage,
+              resurfacing business and job market dynamics with new changes. The
+              demand for skillful data scientists keeps on soaring across
+              Australia. Rapid growth in data analytics and data science sectors
+              resurfaces Australia with a data-driven future.
+            </p>
+            <p>
+              Owing to the data explosion worldwide, the data science career
+              path has become the center of attention. Thus, several working
+              pros rethink their career graph and opt for industry-specific
+              upskilling ways. Unlike standard courses, a masters in data
+              science bags utmost appreciation.
+            </p>
+            <p>
+              Our futuristic data science masters programs in Australia unlock
+              true career potential with alluring job offers. The employment
+              prospects for data scientists in Australia exhibit a concurrent
+              shortage of skilled individuals and an oversupply of experts.
+            </p>
+            <p>
+              Our master in data science program leaps forward to support a
+              successful career switch. We offer a GenAI-rich course syllabus to
+              refine your existing digital skills and make you job-ready. With
+              our industry-focused modules, you can craft a successful career on
+              a global scale.
+            </p>
+
+            <p>
+              We offer 360-degree data science training sessions to help you
+              develop conceptual and practical skills. We believe in
+              domain-specific upskilling, and here you can upskill in a domain
+              as per your career interest. Live projects add more value to your
+              career as you can get exposure to real-world issues.
+            </p>
+            <p>
+              Our globally accredited master’s degree from Woolf University
+              unleashes global-scale job prospects. Plus, an IBM project
+              certificate enriches career values limitlessly to land a dream job
+              role in Australia and overseas.
+            </p>
+            <br />
+            <h4 style={{ fontSize: "20px" }}>
+              Featuring the Best Data Science Masters in Australia
+            </h4>
+            <p>
+              Learnbay’s <b>masters in data science online</b> envisions an
+              unbeatable career with a lucrative career path and prime job
+              offers from leading MNCs.
+            </p>
+            <p>
+              <i>Our course features are –</i>
+            </p>
+            <br />
+            <ul>
+              <li>
+                {" "}
+                <b>
+                  <i>GenAI-rich Syllabus:</i>
+                </b>{" "}
+                Experts enrolling with us will develop GenAI-rich skills
+                (ChatGPT) to deal with complex models. You will gain in-depth
+                knowledge of data science and AI, dominating diverse sectors.
+              </li>
+              <br />
+              <li>
+                {" "}
+                <b>
+                  <i> Project-based Learning:</i>
+                </b>{" "}
+                Experts opting for our industry training programs will get
+                hands-on learning experience. You can learn the in-demand tools
+                via live projects as per today’s industry trends.
+              </li>
+
+              <br />
+              <li>
+                {" "}
+                <b>
+                  <i>Mentorship from renowned experts:</i>
+                </b>{" "}
+                You will get industry-focused training from renowned experts who
+                deliver their real-time experience. It helps in understanding
+                real-world business operations and ways to deal with them.
+              </li>
+              <br />
+              <li>
+                {" "}
+                <b>
+                  <i>Advantageous Immigration:</i>
+                </b>{" "}
+                Our masters in data science program has 60+ country approvals,
+                paving the way for advantageous immigration. It extends your
+                professional links with better job prospects.
+              </li>
+              <br />
+              <li>
+                {" "}
+                <b>
+                  <i>Career Service Pro:</i>
+                </b>{" "}
+                Career Service Pro: Unlike other universities in Australia, our
+                master’s in data science program offers 100% job assistance.
+                With Career Service Pro, you will gain everything – from resume
+                building to unlimited job calls.
+              </li>
+              <br />
+              <li>
+                {" "}
+                <b>
+                  <i>Globally Accredited Master’s Degree:</i>
+                </b>{" "}
+                Our courses are trending in Australia as they offer a globally
+                approved degree (Woolf University). With 60+ countries approved,
+                learners can revamp their careers with lucrative offers.
+              </li>
+              <br />
+              <li>
+                {" "}
+                <b>
+                  <i>IBM Project Certificate:</i>
+                </b>{" "}
+                Learners opting for data science masters in Australia will
+                obtain an IBM project certificate. It validates the job-ready
+                skills to help you land your dream roles.
+              </li>
             </ul>
           </div>
         ) : (
@@ -4880,6 +5023,7 @@ const CitiesRight = ({
               <h4 style={{ fontSize: "16px" }}>{CertificationHead29}</h4>
               <h4 style={{ fontSize: "16px" }}>{CertificationMasterHead1}</h4>
               <p className={styles.pp}>{CertificationBot2}</p>
+              <p className={styles.pp}>{CertificationmasterBot5}</p>
               <h4 style={{ fontSize: "16px" }}>{CertificationHead30}</h4>
               <h4 style={{ fontSize: "16px" }}>{CertificationMasterHead2}</h4>
               <p className={styles.pp}>{CertificationBot3}</p>
@@ -5233,6 +5377,7 @@ const CitiesRight = ({
               <p className={styles.pp}>{JobBot50} </p>
               <p className={styles.pp}>{JobBot35} </p>
               <p className={styles.pp}>{JobBot20} </p>
+              <p className={styles.pp}>{JobBotmaster20} </p>
               <p className={styles.pp}>{JobBot003} </p>
               <p className={styles.pp}>{JobBot004} </p>
 
