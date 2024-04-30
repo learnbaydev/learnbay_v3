@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
+import Link from "next/link";
 
 import SwiperCore, { Navigation, Pagination } from "swiper";
 SwiperCore.use([Navigation, Pagination]);
@@ -66,7 +67,7 @@ const Media = ({ projectData }) => {
         >
           {projectData.map((data, index) => (
             <SwiperSlide className={styles.project} key={index}>
-              <a href={data.url} target="_blank" >
+              <Link href={data.url} target="_blank" >
               <div className={styles.header}>
                 <div className={styles.left}></div>
                 <div
@@ -91,7 +92,7 @@ const Media = ({ projectData }) => {
                 <h5>{data.domain}</h5>
                 <p>{data.SDesc}</p>
               </div>
-              </a>
+              </Link>
             </SwiperSlide>
           ))}
         </Swiper>
