@@ -403,7 +403,6 @@ export const CityFooterData = [
           },
         ],
       },
-     
     ],
   },
   {
@@ -439,6 +438,17 @@ export const CityFooterData = [
             id: 1,
             name: "Data Science Course Training in UK",
             url: "/datascience/uk/data-science-course-training-in-uk",
+          },
+        ],
+      },
+      {
+        id: "Australia",
+        city: "Australia",
+        cityData: [
+          {
+            id: 2,
+            name: "Master's Degree in Data Science in Australia ",
+            url: "/datascience/australia/masters-degree-in-data-science-in-australia",
           },
         ],
       },
