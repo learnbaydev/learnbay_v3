@@ -366,7 +366,7 @@ export const CityFooterData = [
           {
             id: 1,
             name: "Data Science Course Training in Dhaka",
-            url: "/datascience/dhaka/data-science-course-training-in-dhaka",
+            url: "/datascience/bangladesh/data-science-course-training-in-dhaka",
           },
         ],
       },

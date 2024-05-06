@@ -88,7 +88,7 @@ export default function Home() {
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/dhaka/data-science-course-training-in-dhaka"
+          content="https://www.learnbay.co/datascience/bangladesh/data-science-course-training-in-dhaka"
         />
         <meta
           property="og:title"
@@ -110,16 +110,16 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Data Science Course in Chennai | Data Science Training in Chennai"
+          content="Data Science Course in Dhaka | Data Science Training in Dhaka"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           itemProp="description"
-          content="Data science course in Chennai. Learnbay is Advanced Data Science Course Training Institute in Chennai. Data science course in Chennai will enhance your career"
+          content="Data science course in Dhaka. Learnbay is Advanced Data Science Course Training Institute in Dhaka. Data science course in Dhaka will enhance your career"
         />
         <meta
           name="twitter:description"
-          content="Data science course in Chennai. Learnbay is Advanced Data Science Course Training Institute in Chennai. Data science course in Chennai will enhance your career"
+          content="Data science course in Dhaka. Learnbay is Advanced Data Science Course Training Institute in Dhaka. Data science course in Dhaka will enhance your career"
         />
         <meta
           name="twitter:image"
@@ -127,7 +127,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/dhaka/data-science-course-training-in-dhaka"
+          href="https://www.learnbay.co/datascience/bangladesh/data-science-course-training-in-dhaka"
         />
         {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}
@@ -143,25 +143,25 @@ export default function Home() {
         {/* <meta name="robots" content="ALL" /> */}
         <meta
           property="og:url"
-          content="https://www.learnbay.co/data-science-course-training-in-bangladesh"
+          content="https://www.learnbay.co/datascience/bangladesh/data-science-course-training-in-dhaka"
         />
         <meta
           property="og:title"
-          content="Data Science Course Training in bangladesh"
+          content="Data Science Course Training in Dhaka"
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/data-science-course-training-in-bangladesh"
+          content="https://www.learnbay.co/datascience/bangladesh/data-science-course-training-in-dhaka"
         />
         <meta
           property="og:title"
-          content="Data Science Course bangladesh | Data Scientist Course bangladesh | Learnbay"
+          content="Data Science Course Dhaka | Data Scientist Course Dhaka | Learnbay"
         />
         <meta property="og:site_name" content="www.learnbay.co" />
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Enroll for Data Science Course and Certification Training in bangladesh from Learnbay in association with IBM. This Data Scientist course in bangladesh will give you hands-on experience with technologies and job assistance.
+          content="Enroll for Data Science Course and Certification Training in Dhaka from Learnbay in association with IBM. This Data Scientist course in Dhaka will give you hands-on experience with technologies and job assistance.
 "
         />
         <meta
@@ -174,7 +174,7 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content=" Best Data Science Course Training in bangladesh - Learnbay"
+          content=" Best Data Science Course Training in Dhaka - Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta

@@ -89,7 +89,7 @@ export default function Home() {
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/Austrelia/masters-degree-in-data-science-in-Austrelia"
+          content="https://www.learnbay.co/datascience/australia/masters-degree-in-data-science-in-australia"
         />
         <meta
           property="og:title"
@@ -111,16 +111,16 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Data Science Course in USA | Data Science Training in USA"
+          content="Data Science Course in Austrelia | Data Science Training in Austrelia"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           itemProp="description"
-          content="Data science course in USA. Learnbay is Advanced Data Science Course Training Institute in USA. Data science course in USA will enhance your career"
+          content="Data science course in Austrelia. Learnbay is Advanced Data Science Course Training Institute in Austrelia. Data science course in Austrelia will enhance your career"
         />
         <meta
           name="twitter:description"
-          content="Data science course in USA. Learnbay is Advanced Data Science Course Training Institute in USA. Data science course in USA will enhance your career"
+          content="Data science course in Austrelia. Learnbay is Advanced Data Science Course Training Institute in Austrelia. Data science course in Austrelia will enhance your career"
         />
         <meta
           name="twitter:image"
@@ -128,7 +128,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/Austrelia/masters-degree-in-data-science-in-Austrelia"
+          href="https://www.learnbay.co/datascience/australia/masters-degree-in-data-science-in-australia"
         />
         {/* <meta name="HandheldFriendly" content="true" /> */}
         {/* <meta name="distribution" content="global" /> */}
@@ -144,7 +144,7 @@ export default function Home() {
         {/* <meta name="robots" content="ALL" /> */}
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/Austrelia/masters-degree-in-data-science-in-Austrelia"
+          content="https://www.learnbay.co/datascience/australia/masters-degree-in-data-science-in-australia"
         />
         <meta
           property="og:title"
@@ -152,7 +152,7 @@ export default function Home() {
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/Austrelia/masters-degree-in-data-science-in-Austrelia"
+          content="https://www.learnbay.co/datascience/australia/masters-degree-in-data-science-in-australia"
         />
         <meta
           property="og:title"
@@ -217,7 +217,7 @@ export default function Home() {
           ThirdTyped="Live Interactive Classes"
           dataScience={true}
           interstedInHide={true}
-          titleCourse="Best Data Science Courses in USA          "
+          titleCourse="Best Data Science Courses in Austrelia          "
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
           idss="YWxTtvb3x-U"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
