@@ -454,11 +454,7 @@ export const DataScienceCourseData = [
             {
               chap: {
                 title: "Module 2 :- NLP",
-                desc: [
-                  "Natural Language Processing",
-                  "Text Analysis",
-                  "KNN",
-                ],
+                desc: ["Natural Language Processing", "Text Analysis", "KNN"],
               },
             },
           ],
@@ -657,7 +653,7 @@ export const DataScienceCourseData = [
           {
             id: 3,
             ques: "What’s the duration of the Advance Data Science and AI Program?",
-            ans: "The duration of this course is about 9 months (275 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch – 7 months, Monday to Friday – 2 hours/day, Weekend batch – 9 months, Saturday & Sunday – 3.5 hours/day",
+            ans: "The duration of this course is about 7 months, and it includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch (Monday to Friday – 2 hours/day) & Weekend batch (Saturday & Sunday – 3.5 hours/day)            ",
             open: false,
           },
           {
@@ -681,14 +677,21 @@ export const DataScienceCourseData = [
           {
             id: 0,
             ques: "What is domain specialization?",
-            ans: "We offer industry-specific full-stack data science modules, via which you learn the respective industry’s best practices.",
+            ans: "Domain specialization refers to the practice of gaining specific expertise in a particular industry field. It is a metric of career growth in which experts gain domain-specific knowledge to face real-world challenges and tackle them effectively.             ",
             open: true,
           },
           {
             id: 1,
-            ques: "What are the available elective domain options?",
-            ans: "Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps, etc.",
+            ques: "What are the available elective domain options?            ",
+            ans: `Experts from diversified backgrounds can join this to gain domain-specific knowledge. The available domain elective options are –            `,
+            list1: "BFSI            ",
+            list2: "HR           ",
+            list3: "Marketing            ",
+            list4: "Manufacturing              ",
+            list5: "Healthcare              ",
+            list6: "Supply Chain              ",
             open: false,
+            dscoursefaq1: true,
           },
           {
             id: 2,
@@ -699,13 +702,13 @@ export const DataScienceCourseData = [
           {
             id: 3,
             ques: "Why is domain specialization important?",
-            ans: "After enrolling in the AI and ML with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge which is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.",
+            ans: "One must opt for domain electives after enrolling in the Data Science and AI Certification Program with domain specialization courses. Business/industry knowledge is essential for feature engineering and modeling. Prior knowledge of the industry and domain aids in developing more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.            ",
             open: false,
           },
           {
             id: 4,
             ques: "Can I select multiple domain electives and do I need to pay extra charges?",
-            ans: "You can select up to 4 domain electives based on your interest and career goals. No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.",
+            ans: "You can select any 1 domain elective based on your interests and career goals. No, you don’t need to pay extra charges, as domain electives and capstone projects are part of our curriculum.            ",
             open: false,
           },
           {
@@ -740,15 +743,13 @@ export const DataScienceCourseData = [
           },
           {
             id: 2,
-            ques: "Is there any scholarship/discount available for Advanced Data Science and AI Program? What is Group Discount?",
-            ans: `Learnbay offers a 15 – 20% scholarship for early birds occasionally.
-            Please check our website or contact our sales team to know more about the applicable discounts.
-            
-            Group Discount :
-            Group Discount is applicable only if you’re joining with your friends.
-            5% extra discount : Group of 2,
-            8% extra discount : Group of 3,
-            Max 10% discount : Groupe of 4+.`,
+            ques: "Are there any discounts for early registration in the program?            ",
+            ans: "Yes, we offer early bird discounts of 15%—20% for learners registering in the program at first. Yet, a group discount is available for learners who join with one or more friends.             ",
+            list1: "Group of 2: 5% extra discount            ",
+            list2: "Group of 3: 8% additional discount            ",
+            list3: "Group of 4+: Max 10% discount            ",
+
+            dscoursefaq1: true,
             open: false,
           },
           {
@@ -761,6 +762,20 @@ export const DataScienceCourseData = [
             link: true,
             open: false,
           },
+          {
+            id: 4,
+            ques: "How can I apply for scholarships, and what are the eligibility criteria?            ",
+            ans: "You must contact and book a counseling session with a career counselor to get details of the course and scholarship schemes. It will be a telephone discussion of 15 – 20 minutes. All the eligible learners will receive up to a 25% scholarship from Learnbay.             ",
+
+            open: false,
+          },
+          {
+            id: 4,
+            ques: "How can I apply for scholarships, and what are the eligibility criteria?            ",
+            ans: "You must contact and book a counseling session with a career counselor to get details of the course and scholarship schemes. It will be a telephone discussion of 15 – 20 minutes. All the eligible learners will receive up to a 25% scholarship from Learnbay.             ",
+
+            open: false,
+          },
         ],
       },
       {
@@ -770,7 +785,7 @@ export const DataScienceCourseData = [
           {
             id: 0,
             ques: "How many capstone projects will be there?",
-            ans: "In this course, you’ll be required to work on 1 fresh capstone projects. This will help you get exposure to hands-on projects by implementing your theoretical knowledge gained throughout the training.",
+            ans: "We have 12 real-time projects from different industries to help you gain exposure to actual business challenges and deal with them tactfully.",
             open: true,
           },
           {
@@ -798,18 +813,17 @@ export const DataScienceCourseData = [
           {
             id: 0,
             ques: "Is there any accredited certification after course completion?",
-            ans: "Yes, you will be awarded 6 separate IBM accredited Certificates on successful course completion.",
+            ans: "Yes. Completing the course will attest to a globally accredited certification for your career. Here, you will receive a course completion certificate accredited by IBM that validates your skills to thrive globally. Apart from this, an industry-certified Microsoft certificate justifies our collaboration for successful career transitions.             ",
             open: true,
           },
           {
             id: 1,
             ques: "What categories of certifications might I expect to receive?",
-            ans: `Python for Data Science Certificate,
-            Data Science Tools,
-            Machine Learning with Python,
-            Data Science Methodology,
-            Data Science and AI (final),
-            Capstone Project Certificate by IBM`,
+            ans: "This course offers you two categories of certifications –            ",
+            list1:
+              "Two-Course Completion Certificates from IBM & Microsoft            ",
+            list2: "One Capstone Project Certification from IBM            ",
+            dscoursefaq1: true,
             open: false,
           },
         ],
@@ -850,6 +864,12 @@ export const DataScienceCourseData = [
             ans: "Yes, we offer dedicated placement assistance by referring your profile through our partnered consultancies and companies.",
             open: false,
           },
+          {
+            id: 4,
+            ques: "Until when will the Learnbay students get the facility of mentorship?            ",
+            ans: "Our mentors will provide industry-specific AI & ML training to the students until the completion of the course depending on the specialization. Post-completion, students can reach out to specialized mentors for project and placement purposes for 1 year.",
+            open: false,
+          },
         ],
       },
       {
@@ -869,6 +889,24 @@ export const DataScienceCourseData = [
             ans: "At Learnbay, every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
             open: false,
           },
+          {
+            id: 2,
+            ques: "Are there mentors available to help with coursework and projects?            ",
+            ans: "Working professionals have the scope to learn business analytics online under the direct guidance of industry experts from MNCs. Learners will have dedicated coaching from mentors for coursework, job assistance programs, live projects, and 1:1 doubt clearing. You can get in touch with your mentors to resolve any doubts while working on fresh capstone projects.             ",
+            open: false,
+          },
+          {
+            id: 3,
+            ques: "How can I connect with a mentor?            ",
+            ans: "Learners go through business analytics online training guided by industry mentors from MNCs. After enrolling in the course, learners will be assigned a mentor whom they can contact directly during online sessions (chat section) and over the call at any time.             ",
+            open: false,
+          },
+          {
+            id: 4,
+            ques: "What is the typical response time for mentor support?            ",
+            ans: "Our mentors are available to support queries of learners at any time (during and after the sessions). So, within 10-15 minutes, learners can get mentor support to resolve queries regarding coursework or projects.             ",
+            open: false,
+          },
         ],
       },
       {
@@ -877,15 +915,27 @@ export const DataScienceCourseData = [
         data: [
           {
             id: 0,
-            ques: "When is the job assistance provided and how long will I get it?",
+            ques: "How can I get technical support during the course?              ",
 
-            ans: "At Learnbay, placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
+            ans: "Learnbay is available 24/7 to provide uninterrupted technical assistance. You can call the helpline number to reach the desired service providers to help you out with any technical issues (login, sessions, projects, chat, or course materials) with the course training platform or Learnbay application.               ",
             open: true,
           },
           {
             id: 1,
-            ques: "How long will I get Job referrals?",
-            ans: "You’ll be provided with job referrals after the completion of the course for a period of 1 year.",
+            ques: "Is there a discussion forum or community for students?              ",
+            ans: "Learners will get access to a customized ‘Learnbay App’ where batch-wise students are added along with their mentors. They can directly reach out to their mentors to resolve queries (related to coursework, projects, & placement) in case of need and also discuss doubts with peers.               ",
+            open: false,
+          },
+          {
+            id: 2,
+            ques: "What if I miss a class or need to catch up on a topic?              ",
+            ans: "Learnbay offers live-instructor-led training sessions that are also recorded for future use. In case, you miss a class, you have access to pre-recorded sessions to go through the learnings. If you wish to catch up on a topic or clarify some doubts, our mentors are available 24/7 on call/chat. Apart from this, if you find difficulties in managing your class timings and miss them, you can request for batch or timing change.               ",
+            open: false,
+          },
+          {
+            id: 3,
+            ques: "How can I contact your support team for non-technical issues?            ",
+            ans: "Learnbay is available 24/7 to support its learners. For non-technical issues, you can contact our team or learning consultant directly at +91 7795687988 and get your queries resolved shortly.           ",
             open: false,
           },
         ],
