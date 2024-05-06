@@ -67,12 +67,12 @@ const OfferPopup = ({ popupData, devops }) => {
           </div>
           {devops ? (
             <a
-              href="https://zoom.us/webinar/register/WN_23X2MhqUQK2BqM_fvXhk4w"
+              href="/submit-info"
               target="_blank"
               className={styles.btnWrap2}
               rel="noopener noreferrer"
             >
-              <button className="button">Book Demo Now</button>
+              <button className="button">Apply For Scholarship Now!</button>
             </a>
           ) : (
             <a
