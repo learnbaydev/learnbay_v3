@@ -4,7 +4,7 @@ import Script from "next/script";
 import { useEffect } from "react";
 import TagManager from "react-gtm-module";
 import {  Raleway } from "next/font/google";
-const openSans = Raleway({
+const raleway = Raleway({
   weight: ["300", "400", "500", "600", "700", "800"],
   style: ["normal", "italic"],
   subsets: ["latin"],
@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }) {
   }, [0]);
   return (
     <>
-      <main className={openSans.className}>
+      <main className={raleway.className}>
         <Script
           strategy="lazyOnload"
           onError={(err) => {
