@@ -166,7 +166,7 @@ export default function Home() {
         <link rel="canonical" href="https://www.learnbay.co/" />
         <meta
           name="keywords"
-          content="Learnbay Training Institute, Learnbay Data Science, Best Training Institute, Top Courses, Data Science, Artificial intelligence, Machine Learning, Deep learning, Python, R, Statistics, Classroom Training, ONLINE Training, IOT, Tableau"
+          content="Learnbay Training Institute, Learnbay Data Science, Best Training Institute, Classroom Training, online Training, best institute for cloud computing,best online learning platform for technology, best it training institute, best institute for data analyst course, best institute for data science course"
         />
         <link
           rel="icon"
@@ -384,7 +384,11 @@ export default function Home() {
         />
       </Head>
       <Navbar radio={true} dataScienceCounselling={true} />
-      <FirstSection dataScienceCounselling={true} radio={true} idss="ZPOTy4PEnNU" />
+      <FirstSection
+        dataScienceCounselling={true}
+        radio={true}
+        idss="ZPOTy4PEnNU"
+      />
       <HomeLine />
       <Course dataScience={true} radio={true} />
       <WhyLearnbay ids="YWxTtvb3x-U" />
