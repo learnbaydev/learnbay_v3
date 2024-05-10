@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import BottomBar from "../components/Global/BottomBar/BottomBar";
 import Footer from "../components/Global/Footer/Footer";
@@ -5,10 +6,39 @@ import Navbar from "../components/Global/Navbar/Navbar";
 import FirstHeader from "../components/StaticPage/Thankyou/FirstHeader/FirstHeader";
 import Survey from "../components/StaticPage/Thankyou/Survey/Survey";
 import ThankStats from "../components/StaticPage/Thankyou/ThankStat/ThankStats";
+import Head from "next/head";
+import cookies from "next-cookies";
+const setCookie = (name, value, days, domain) => {
+  const expires = new Date();
+  expires.setTime(expires.getTime() + days * 24 * 60 * 60 * 1000);
+  document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/;domain=${domain}`;
+};
 
-const ThankYouDemo = () => {
+const ThankYouDemo = ({ initialName }) => {
+  const email = JSON.stringify(initialName);
+  console.log(email); // Log the email to the console
+
+  useEffect(() => {
+    // Set the cookie with a domain that allows cross-origin access
+    setCookie("yourCookieName", initialName, 30, ".learnbay.co");
+  }, [initialName]);
   return (
     <div>
+      <Head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+                window.dataLayer = window.dataLayer || [];
+                window.dataLayer.push({
+                  'event': 'form_complete',
+                  'enhanced_conversion_data': {
+                    "email": ${email}
+                  }
+                });
+              `,
+          }}
+        />
+      </Head>
       <Navbar radio={true} />
       <FirstHeader />
       <ThankStats
@@ -37,6 +67,12 @@ const ThankYouDemo = () => {
       <BottomBar />
     </div>
   );
+};
+
+ThankYouDemo.getInitialProps = async (ctx) => {
+  return {
+    initialName: cookies(ctx).CARD || "",
+  };
 };
 
 export default ThankYouDemo;

@@ -7,8 +7,20 @@ import Navbar from "../components/Global/Navbar/Navbar";
 import FirstHeader from "../components/StaticPage/Thankyou/FirstHeader/FirstHeader";
 import Survey from "../components/StaticPage/Thankyou/Survey/Survey";
 import ThankStats from "../components/StaticPage/Thankyou/ThankStat/ThankStats";
+import Head from "next/head";
+import cookies from "next-cookies";
+const setCookie = (name, value, days, domain) => {
+  const expires = new Date();
+  expires.setTime(expires.getTime() + days * 24 * 60 * 60 * 1000);
+  document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/;domain=${domain}`;
+};
 
-const ThankYouDemo = () => {
+const ThankYouDemo = ({ initialName }) => {
+  const email = JSON.stringify(initialName);
+  useEffect(() => {
+    // Set the cookie with a domain that allows cross-origin access
+    setCookie("yourCookieName", initialName, 30, ".learnbay.co");
+  }, [initialName]);
   const dataArray = [];
   const [queryData, setQueryData] = useState({
     titleCourse: "",
@@ -28,6 +40,21 @@ const ThankYouDemo = () => {
 
   return (
     <div>
+      <Head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+                window.dataLayer = window.dataLayer || [];
+                window.dataLayer.push({
+                  'event': 'form_complete',
+                  'enhanced_conversion_data': {
+                    "email": ${email}
+                  }
+                });
+              `,
+          }}
+        />
+      </Head>
       <Navbar donwnload={true} brochureLink={data[1]} />
       <FirstHeader donwnload={true} brochureLink={data[1]} />
 
@@ -61,6 +88,12 @@ const ThankYouDemo = () => {
       />
     </div>
   );
+};
+
+ThankYouDemo.getInitialProps = async (ctx) => {
+  return {
+    initialName: cookies(ctx).CARD || "",
+  };
 };
 
 export default ThankYouDemo;
