@@ -1,3 +1,4 @@
+import { DSBangaloreSchema } from "@/Data/Schema/DSBangalore";
 import Map from "@/components/Seo/Maps/Maps";
 import dynamic from "next/dynamic";
 import Head from "next/head";
@@ -39,7 +40,6 @@ const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
 const OfferPopup = dynamic(() =>
   import("../../../components/Global/OfferPopup/OfferPopup")
 );
-import {DSBangaloreSchema} from "@/Data/Schema/DSBangalore"
 
 export default function Home() {
   const [popups, setPopups] = useState(false);
@@ -247,7 +247,7 @@ export default function Home() {
           }}
         />
 
-<script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(DSBangaloreSchema),
@@ -294,13 +294,13 @@ export default function Home() {
             Fee="₹1,35,000"
             FeeEmi="₹8,850/month"
             weekdaybatch="Weekday Batch"
-            weekendbatch="Weekday  Batch"
+            weekendbatch="Weekend  Batch"
             weekday="MON - FRI"
-            weekend="MON - FRI"
+            weekend="SAT - SUN"
             WeekdayDate="May 17th"
-            WeekendDate="May 10th"
+            WeekendDate="May 19th"
             WeekdayTime="8:00 AM - 10:00 AM"
-            WeekendTime="8:00 PM - 10:00 PM"
+            WeekendTime="9:30 AM - 1 PM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
             FeeContent5="15 days refund policy"
