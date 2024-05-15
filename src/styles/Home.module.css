@@ -5,7 +5,9 @@
 .program {
   height: max-content;
 }
-
+.Realstorysec {
+  margin-top: 4px;
+}
 .footer {
   display: flex;
   flex: 1;
@@ -261,7 +263,8 @@
 }
 
 .cityFee {
-  margin-top: -50px;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 
 .faqCity {

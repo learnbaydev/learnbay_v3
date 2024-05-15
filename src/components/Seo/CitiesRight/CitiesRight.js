@@ -116,6 +116,7 @@ const CitiesRight = ({
   src,
   ModuleMasterBot1,
   ModuleMasterBot2,
+  ModuleMasterBot3,
   ModuleHead1,
   ModuleMasterHead1,
   DSNoModule,
@@ -207,6 +208,7 @@ const CitiesRight = ({
   JobBot11,
   JobBot3,
   JobHead4,
+  JobHeadIndia01,
   JobBot19,
   JobBot50,
   JobBot5,
@@ -450,6 +452,7 @@ const CitiesRight = ({
   cityTextDSAustin,
   cityTextDSEgypt,
   cityTextMasterAUS,
+  DSindia,
 }) => {
   const [read, setRead] = useState(false);
   const handler = () => {
@@ -4141,6 +4144,140 @@ const CitiesRight = ({
         ) : (
           ""
         )}
+        {DSindia ? (
+          <div className={styles.CitiesRightInner}>
+            <h4 style={{ fontSize: "20px" }}>
+              About Data Science Course in India In Collaboration with IBM &
+              Microsoft
+            </h4>
+            <p>
+              The digital landscape in India shows exponential growth across
+              diverse sectors. The post-pandemic effect has increased the
+              country’s reliance on digital-friendly creations. In addition, the
+              digital economy subsequently relies on big data, which demands
+              extensive use of data science. Thus, with the proven job
+              opportunities, we can see an upward inclination toward data
+              science courses in India.
+            </p>
+            <p>
+              Many businesses in the country prefer data-driven insights for
+              operations and decision-making. Hence, the significant job
+              prospects in the data science industry have reached the zenith.
+              Thus, working pros opt for upskilling at the{" "}
+              <b>best institute for data science in India</b> with better job
+              offers.
+            </p>
+            <p>
+              Learnbay’s <b>data science training in India</b> grabs the
+              attention of everyone eager to grow in their career. Our
+              leading-edge course syllabus provides valuable support to data
+              experts. Keeping up with the times, we provide exclusive data
+              science education with numerous AI-enhanced tools and techniques.
+            </p>
+            <p>
+              In the wake of tech shifts, employers must seek the best and most
+              proven data skills to thrive in industry rivalry. So here, we
+              introduce the real-world business model with the tactical
+              solution. Our best data science course in India shows the
+              practical implications of various learning tactics that can
+              elevate the chance for career success.
+            </p>
+
+            <p>
+              Data science is an economically growing sector for working pros at
+              various career levels. A data scientist in India, on average,
+              earns INR 7 lacs—25 lacs per year. It can vary depending on the
+              work experience, domain, and skill set.
+            </p>
+            <p>
+              Getting involved in a generic course can limit growth and career
+              success chances. Thus, enrolling in an industry-driven program
+              with job support can help you.
+            </p>
+            <p>
+              Upskilling and enhancing your career with the best institute for
+              data science in India will help you positively affect your career.
+              Our positive support for your career building ends once you land
+              your dream job role. Here, the industry-led job assistance program
+              can support career development at every step.
+            </p>
+            <p>
+              In addition, the data science program in India equips you with
+              valuable certifications (with global recognition) from IBM &
+              Microsoft. Enroll in our training program today and sharpen your
+              skills to attain proven career success.
+            </p>
+            <p>
+              So, if you are enthusiastic about pursuing a career in the data
+              science field, enroll in Learnbay’s best data science courses.
+              Before that, ensure the requisites –
+            </p>
+            <br />
+            <ul>
+              <li>Basic numeric skills (Mathematics/Statistics) </li>
+              <li>Basic domain knowledge</li>
+            </ul>
+            <br />
+            <p>
+              <b>Note:</b> Computer science, IT, or non-technical learners can
+              enroll in our course. Additionally, if you have a bachelor's
+              degree in computer science, management, or other fields, our data
+              science programs are here to accelerate your learning experience
+              and speed up your career.
+            </p>
+            <br />
+            <h4 style={{ fontSize: "20px" }}>
+              What are the potential career benefits of Learnbay’s data
+              scientist institute in India?
+            </h4>
+            <p>
+              Learnbay has made an impact on industry-specific training programs
+              in India. Data science careers in India are getting more
+              appealing, alluring many experts to rethink their career paths.
+            </p>
+            <p>
+              Meanwhile, Gen-AI upskilling in data science unlocks ways to move
+              toward successful career transitions. Here, the learners can gain
+              an inclusive learning space to work with the latest GenAI tools
+              (ChatGPT) with ethical practices.{" "}
+            </p>
+            <p>
+              <b>Excellent career gains are –</b>
+            </p>
+            <br />
+            <ul>
+              <li>
+                <b>GenAI-rich courses:</b> Learners get an in-depth and
+                comprehensive understanding of data science tools and trends in
+                the GenAI age.{" "}
+              </li><br/>
+              <li>
+                <b>Domain-specific learning:</b> We offer domain-specific data
+                science training in India to improve pre-existing skills.{" "}
+              </li><br/>
+              <li>
+                <b>Experimental and practical learning:</b> Experts with our
+                data science course get hands-on learning of tools via live
+                projects.{" "}
+              </li><br/>
+              <li>
+                <b>Global certifications:</b> We offer the best data science
+                certification with global-scale job offers. Our certificates
+                from IBM & MS unlock promising career paths. You will get two
+                IBM certifications (project and course) and one MS
+                certification.
+              </li><br/>
+              <li>
+                <b>100% job assistance:</b> Learners get 100% job and placement
+                support with end-to-end skills growth and interviews.{" "}
+              </li>
+            </ul>
+
+            <br />
+          </div>
+        ) : (
+          ""
+        )}
 
         {cityText ? (
           <div className={styles.CitiesRightInner}>
@@ -5133,6 +5270,8 @@ const CitiesRight = ({
                     <li>{ModuleMasterlist7}</li>
                   </ul>
                   <p className={styles.pp}>{ModuleMasterBot2}</p>
+                  <p className={styles.pp}>{ModuleMasterBot3}</p>
+    
                 </>
               ) : (
                 ""
@@ -5423,6 +5562,10 @@ const CitiesRight = ({
               <p className={styles.pp}>{JobBot34} </p>
               <b>
                 {" "}
+                <h4 style={{ fontSize: "20px", marginBottom: "20px" }}>
+                {" "}
+                { JobHeadIndia01}
+              </h4>
                 <i>{JobBot23}</i>
               </b>
 

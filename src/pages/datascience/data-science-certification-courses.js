@@ -4,16 +4,13 @@ import FirstPart from "@/components/CoursePage/FirstPart/FoundationFirstPart";
 import SecondPart from "@/components/CoursePage/FirstPart/FoundationSecondPart";
 import Navbar from "@/components/Global/Navbar/Navbar";
 
-
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
 
   return (
     <>
       <Head>
-        <title>
-        Data Science Foundation Program - Learnbay
-        </title>
+        <title>Data Science Foundation Program - Learnbay</title>
         <meta
           name="description"
           content="Are you searching for the Data Science Foundation Program? Learnbay is providing the best online Data Science Foundation Program and AI Program . Enroll now!"
@@ -70,7 +67,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
       </Head>
       <main>
         <Navbar dataScienceCounselling={true} interstedInHide={true} />
-      
+
         <FirstPart
           SecondSectionData={
             DataScienceCourseData.DataScienceCourseData[0].secondSection
