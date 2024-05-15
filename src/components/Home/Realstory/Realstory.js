@@ -14,7 +14,7 @@ import { FaYoutube } from "react-icons/fa";
 
 SwiperCore.use([Navigation]);
 
-const Slider = () => {
+const Realstory = () => {
   const [bigImageIndex, setBigImageIndex] = useState(0);
   const [profileIndex, setProfileIndex] = useState(0);
 
@@ -124,7 +124,7 @@ const Slider = () => {
                     }`}
                     onClick={() => handleProfileClick(index)}
                   >
-                    <img
+                    <Image
                       src={profile.imageUrl}
                       width={300}
                       height={100}
@@ -175,4 +175,4 @@ const Slider = () => {
   );
 };
 
-export default Slider;
+export default Realstory;
