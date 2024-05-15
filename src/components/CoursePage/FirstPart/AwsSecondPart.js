@@ -97,8 +97,8 @@ const SecondPart = ({
         weekendbatch="Weekday Batch"
         weekday="(MON-TUE-WED-THU)"
         weekend="(MON-TUE-WED-THU)"
-        WeekdayDate="MAY 10th"
-        WeekendDate="APR 26th"
+        WeekdayDate="JUNE 14th"
+        WeekendDate="MAY 31st"
         WeekendTime="8 PM - 10 PM"
         WeekdayTime="8 PM - 10 PM"
         FeeContent3="Flexible payment"
@@ -133,7 +133,7 @@ const SecondPart = ({
         // interstedInHide={true}
       />
 
-      {adsHide ? "" :   <FAQNew FAQNewData={FAQNewData} />}
+      {adsHide ? "" : <FAQNew FAQNewData={FAQNewData} />}
       <SeventhSection />
       {adsHide ? "" : <Footer />}
       <BottomBar
