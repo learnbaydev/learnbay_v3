@@ -155,8 +155,8 @@ function FirstSection({
           <div className="imgWrapper">
             <Image
               src={FirstRightImg}
-              width="806"
-              height="560"
+              width="600"
+              height="460"
               alt="data science course"
               priority={true}
             />
