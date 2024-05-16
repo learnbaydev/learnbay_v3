@@ -97,17 +97,15 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-          Best Data Science Courses Training in India - Learnbay
-        </title>
+        <title>Best Data Science Courses Training in India - Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content=" Are you searching for the best data science courses online in India? Learnbay is providing the best online data science course training in Banglore. Visit now"
+          content="Looking for the best data science course in India? Learnbay provides the best data science course training in India with placement assistance.          "
         />
         <meta
           name="keywords"
-          content="data science course in india, best institute for data science in india , data scientist institute in india , best data science course in india           "
+          content="data science course in india, best institute for data science in india, data scientist institute in india, best data science course in india, data science training in India, best data science institute in India, best data scientist course in India          "
         />
         <link
           rel="canonical"
@@ -119,13 +117,13 @@ export default function Home() {
         />
         <meta
           property="og:title"
-          content="Data Science Course Training In India with Placement Assistance"
+          content="Data Science Course in India | Data Scientist Training In India - Learnbay"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Data Science Course in India. We are Advanced Data Science Course Certification Training Institute in India. Data science course will enhance your career."
+          content="Best Data Science Courses in India. Learnbay is the Best Data Scientist Certification Course Training Institute in India with 100% Placement assistance and offers an advanced data scientist training in India"
         />
         <meta
           property="og:image"
@@ -137,16 +135,16 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Data Science Course Training In India with Placement Assistance"
+          content="Data Science Course in India | Data Scientist Training In India - Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           itemProp="description"
-          content="Data Science Course India. We are Advanced Data Science Course Certification Training Institute in India. Data science course will enhance your career."
+          content="Best Data Science Courses in India. Learnbay is the Best Data Scientist Certification Course Training Institute in India with 100% Placement assistance and offers an advanced data scientist training in India."
         />
         <meta
           name="twitter:description"
-          content="Data Science Course India. We are Advanced Data Science Course Certification Training Institute in India. Data science course will enhance your career."
+          content="Best Data Science Courses in India. Learnbay is the Best Data Scientist Certification Course Training Institute in India with 100% Placement assistance and offers an advanced data scientist training in India."
         />
         <meta
           name="twitter:image"
@@ -155,97 +153,6 @@ export default function Home() {
         <link
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
-        />
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: ` {
-              "@context": "http://schema.org",
-              "@type": "LocalBusiness",
-              "name": "Learnbay - Data Science Course Training In India",
-              "description": "Are you searching for the best data science courses online in Bangalore? Learnbay is providing the best online data science course training in Banglore.",
-              "url": "https://www.learnbay.co/datascience/data-science-course-training-in-india",
-              "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "1090 , 1st floor, 18th cross road HSR layout sector 3",
-                "addressLocality": "Bangalore",
-                "addressRegion": "Karnataka",
-                "postalCode": "560102",
-                "addressCountry": "IN"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 12.91198279090605,
-                "longitude": 77.64117409764793
-              },
-              "telephone": "(+91) 77956 87988",
-              "email": "contacts@learnbay.co",
-              "openingHoursSpecification": [
-                    {
-                    "@type": "OpeningHoursSpecification",
-                    "dayOfWeek": [
-                      "Monday",
-                      "Tuesday",
-                      "Wednesday",
-                      "Thursday",
-                      "Friday"
-                    ],
-                    "opens": "10:00",
-                    "closes": "18:00"
-                  },
-                   {
-                    "@type": "OpeningHoursSpecification",
-                    "dayOfWeek": [
-                      "Saturday"
-                    ],
-                    "opens": "10:00",
-                    "closes": "15:00"
-                 }
-              ],
-              "priceRange": "₹ 1,35,000 + 18% GST",
-              "servesCuisine": "Data Science Education",
-              "areaServed": "Bangalore",
-              "paymentAccepted": "Cash, Credit Card, Debit Card, EMI"
-              },
-              "sameAs": [
-                  "https://www.facebook.com/learnbay/",
-                            "https://twitter.com/Learnbay",
-                            "https://www.instagram.com/learnbayofficial/",
-                            "https://www.youtube.com/channel/UC-ntE_GnjjiUuKYqih9ENYA",
-                            "https://www.linkedin.com/company/learnbay/"
-              ]
-              }
-             
-              
-} `,
-          }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: ` {
-              "@context": "https://schema.org/", 
-  "@type": "Product", 
-  "name": "Learnbay - Data Science Course Training In Bangalore",
-  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
-  "brand": {
-    "@type": "Brand",
-    "name": "Learnbay"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "bestRating": "5",
-    "worstRating": "1",
-    "ratingCount": "12693"
-  }
-              }
-             
-              
-} `,
-          }}
         />
 
         <script
@@ -294,7 +201,7 @@ export default function Home() {
             weekday="MON - FRI"
             weekend="MON - FRI"
             WeekdayDate="May 17th"
-            WeekendDate="May 10th"
+            WeekendDate="May 19th"
             WeekdayTime="8:00 AM - 10:00 AM"
             WeekendTime="8:00 PM - 10:00 PM"
             FeeContent3="Flexible payment"
@@ -324,7 +231,6 @@ export default function Home() {
           <div className="CitiesRight">
             <CitiesRight
               DSindia={true}
-              Programvideo={[<br />, <YoutubeVideo />]}
               DomainHead1={DSIndiaCourseData[0].DomainHead1}
               DomainBot1={DSIndiaCourseData[0].DomainBot1}
               DomainBot2={DSIndiaCourseData[0].DomainBot2}

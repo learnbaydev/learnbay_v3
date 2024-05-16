@@ -12,6 +12,7 @@ import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
 import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
 import YoutubeVideo from "../../../components/Seo/YoutubeVideo/YoutubeVideo";
 import styles from "../../../styles/Home.module.css";
+import Realstory from "@/components/Home/Realstory/Realstory";
 const FirstSection = dynamic(() =>
   import("../../../components/Seo/FirstSection/FirstSection")
 );
@@ -283,12 +284,7 @@ export default function Home() {
         <SecondSection
           SecondSectionData={DSBangaloreCourseData[0].secondSection}
         />
-        <Testimonial
-          redirectDS={true}
-          Testimonial={DSBangaloreCourseData[0].testimonial}
-          heading="Our Alumni Speak"
-          para="Discover the impact of our programs on career growth"
-        />
+     <Realstory/>
         <div className={styles.cityFee}>
           <FeeSection
             Fee="₹1,35,000"
@@ -447,7 +443,7 @@ export default function Home() {
           </div>
         </div>
         <SeventhSection />
-        <Map />
+        <Map BangaloreMap ={true}  />
         <CityText CityText={true} />
         <Footer />
         {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}

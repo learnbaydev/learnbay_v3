@@ -11,6 +11,7 @@ import Popup from "../../../components/Global/Popup/Popup";
 import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
 import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
 import styles from "../../../styles/Home.module.css";
+import Realstory from "@/components/Home/Realstory/Realstory";
 const FirstSection = dynamic(() =>
   import("../../../components/Seo/FirstSection/FirstSection")
 );
@@ -78,7 +79,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title> Best Data Science Course Training in Pune</title>
+        <title>
+          Best Data Science Course in Pune with Placement | Learnbay
+        </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -320,12 +323,7 @@ export default function Home() {
           cityParaCont=" Acquire the weight of an experienced candidate even at your first data science job. Get Industry-accredited training from the best Data Science courses in Pune. This course will help you to capitalize on your domain expertise by utilizing your existing domain knowledge in the data science field via fresh industrial capstones."
         />
         <SecondSection SecondSectionData={DSPuneCourseData[0].secondSection} />
-        <Testimonial
-          redirectDS={true}
-          Testimonial={DSPuneCourseData[0].testimonial}
-          heading="Our Alumni Speak"
-          para="Discover the impact of our programs on career growth"
-        />
+        <Realstory />
         <div className={styles.cityFee}>
           <FeeSection
             Fee="₹1,35,000"

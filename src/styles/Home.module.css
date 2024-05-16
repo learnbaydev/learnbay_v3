@@ -8,6 +8,15 @@
 .Realstorysec {
   margin-top: 4px;
 }
+.mapdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.mapdiv iframe {
+  border: 1px dotted #2d9cd7;
+}
 .footer {
   display: flex;
   flex: 1;
@@ -546,4 +555,9 @@
     margin-right: 0px;
     margin-bottom: 20px;
   }
+  .mapdiv {
+    margin: 40px 20px;
+  
+  }
+
 }
