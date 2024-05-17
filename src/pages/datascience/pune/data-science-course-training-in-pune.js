@@ -80,7 +80,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Best Data Science Course in Pune with Placement | Learnbay
+        Best Data Science Course Training in Pune
         </title>
         <meta name="robots" content="index, follow" />
         <meta
