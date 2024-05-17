@@ -24,7 +24,7 @@
     "mime-types": "^2.1.35",
     "mongodb": "^6.3.0",
     "net": "^1.0.2",
-    "next": "14.0.2",
+    "next": "^14.2.3",
     "next-cookies": "^2.0.3",
     "nodemailer": "^6.9.11",
     "razorpay": "^0.0.0",
