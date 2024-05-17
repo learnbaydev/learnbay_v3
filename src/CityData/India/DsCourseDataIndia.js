@@ -3,7 +3,7 @@ export const DSIndiaCourseData = [
     script1: {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      name: "Learnbay - Data Science, Data Analytics Course Training in Bangalore",
+      name: "Learnbay - Data Science, Data Analytics Course Training in India",
       image:
         "https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100",
       "@id": "",
@@ -14,7 +14,7 @@ export const DSIndiaCourseData = [
         "@type": "PostalAddress",
         streetAddress:
           "1090 1st floor, 18th Cross Rd, above Sangam Sweets, Sector 3, HSR Layout ",
-        addressLocality: "Bangalore",
+        addressLocality: "India",
         postalCode: "560102",
         addressCountry: "IN",
       },
@@ -62,7 +62,7 @@ export const DSIndiaCourseData = [
       },
       supply: {
         "@type": "HowToSupply",
-        name: "We provide Advanced data science course in Bangalore, Delhi, Pune, Chennai, Hyderabad, Mumbai, Canada, Dubai",
+        name: "We provide Advanced data science course in India, Delhi, Pune, Chennai, Hyderabad, Mumbai, Canada, Dubai",
       },
       tool: {
         "@type": "HowToTool",
@@ -102,9 +102,9 @@ export const DSIndiaCourseData = [
         "@type": "WebPage",
         "@id": "https://www.learnbay.co/",
       },
-      headline: "Data Science Course Training in Bangalore",
+      headline: "Data Science Course Training in India",
       description:
-        "Data Science Course in Bangalore. Learnbay is Advanced Data Science Training Course Institute in Bangalore with 100% job assistance",
+        "Data Science Course in India. Learnbay is Advanced Data Science Training Course Institute in India with 100% job assistance",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp",
       author: {
@@ -130,7 +130,7 @@ export const DSIndiaCourseData = [
       mainEntity: [
         {
           "@type": "Question",
-          name: "What are Data Science Training courses available at Learnbay in Bangalore?",
+          name: "What are Data Science Training courses available at Learnbay in India?",
           acceptedAnswer: {
             "@type": "Answer",
             text: "Foundational Data Science Training Course, Advance Data Science Certification Course, Data Science Certification Course for Managers and Leaders, Data Science Training with Placement Assistance.",
@@ -138,7 +138,7 @@ export const DSIndiaCourseData = [
         },
         {
           "@type": "Question",
-          name: "What are the prerequisites for these Data Science training Courses in Bangalore?",
+          name: "What are the prerequisites for these Data Science training Courses in India?",
           acceptedAnswer: {
             "@type": "Answer",
             text: "There are no prerequisites for this Data Science Foundation course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
@@ -154,7 +154,7 @@ export const DSIndiaCourseData = [
         },
         {
           "@type": "Question",
-          name: "What is a Flexi Subscription in these advanced data science courses in Bangalore?",
+          name: "What is a Flexi Subscription in these advanced data science courses in India?",
           acceptedAnswer: {
             "@type": "Answer",
             text: "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Placement Assistance - 3-years.",
@@ -162,7 +162,7 @@ export const DSIndiaCourseData = [
         },
         {
           "@type": "Question",
-          name: "What’s the duration of these advanced data science courses in Bangalore?",
+          name: "What’s the duration of these advanced data science courses in India?",
           acceptedAnswer: {
             "@type": "Answer",
             text: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9 months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13 months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15 months.",
@@ -170,7 +170,7 @@ export const DSIndiaCourseData = [
         },
         {
           "@type": "Question",
-          name: "What is the mode of Data Science Course In Bangalore at Learnbay?",
+          name: "What is the mode of Data Science Course In India at Learnbay?",
           acceptedAnswer: {
             "@type": "Answer",
             text: "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.",
@@ -178,7 +178,7 @@ export const DSIndiaCourseData = [
         },
         {
           "@type": "Question",
-          name: "How can I opt for a Hybrid mode of learning in IBM data science training courses in Bangalore, At Learnbay?",
+          name: "How can I opt for a Hybrid mode of learning in IBM data science training courses in India, At Learnbay?",
           acceptedAnswer: {
             "@type": "Answer",
             text: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions.",
@@ -186,7 +186,7 @@ export const DSIndiaCourseData = [
         },
         {
           "@type": "Question",
-          name: "What is domain specialization in the professional data science certification courses provided by Learnbay in Bangalore?",
+          name: "What is domain specialization in the professional data science certification courses provided by Learnbay in India?",
           acceptedAnswer: {
             "@type": "Answer",
             text: "We offer industry-specific full-stack data science modules, via which you learn the respective industry’s best practices. But this added benefit is available in all the three mentioned courses, except the foundational data science course.",
@@ -194,7 +194,7 @@ export const DSIndiaCourseData = [
         },
         {
           "@type": "Question",
-          name: "What are the available elective domain options in the different data science training courses of Learnbay in Bangalore?",
+          name: "What are the available elective domain options in the different data science training courses of Learnbay in India?",
           acceptedAnswer: {
             "@type": "Answer",
             text: "Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps; Sales, Marketing, & HR; Retail, E-Commerce, & Supply Chain; Healthcare, Pharma, & Clinical Research; BFSI; Manufacturing, Mechanical, & Telecom; Media, Hospitality, & Transportation; Oil, Gas, & Energy.",
@@ -242,19 +242,19 @@ export const DSIndiaCourseData = [
         },
         {
           "@type": "Question",
-          name: "What is the total fee for Data Science Certifications courses in Bangalore?",
+          name: "What is the total fee for Data Science Certifications courses in India?",
           acceptedAnswer: {
             "@type": "Answer",
             text: `The total course fee for the 
               Foundational Data Science and AI Training course is 88,500/- inclusive of GST.
-              Advance Data Science and AI Certification course is 1,15,000/- inclusive of GST.
+              Advance Data Science and AI Certification course is 1,35,000/- inclusive of GST.
               Data Science and AI Certification Course for Managers and Leaders is 1,35,700/- inclusive of GST.
               Data Science and AI Master Certification Program is 1,59,300/- inclusive of GST.`,
           },
         },
         {
           "@type": "Question",
-          name: "Can I pay in installments for these Data Science Certification courses in Bangalore?",
+          name: "Can I pay in installments for these Data Science Certification courses in India?",
           acceptedAnswer: {
             "@type": "Answer",
             text: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
@@ -262,7 +262,7 @@ export const DSIndiaCourseData = [
         },
         {
           "@type": "Question",
-          name: "Is there any scholarship/discount available for these Data Science training courses available in Bangalore? What is Group Discount?",
+          name: "Is there any scholarship/discount available for these Data Science training courses available in India? What is Group Discount?",
           acceptedAnswer: {
             "@type": "Answer",
             text: "Learnbay offers a 15 - 20% scholarship for early birds occasionally. Please check our websites or contact our sales team to know more about the applicable discounts. Group Discount : Group Discount is applicable only if you’re joining with your friends. 5% extra discount: Group of 2 8% extra discount: Group of 3 Max 10% discount: Groupe of 4+.",
@@ -286,7 +286,7 @@ export const DSIndiaCourseData = [
         },
         {
           "@type": "Question",
-          name: "How will the projects be executed in Bangalore?",
+          name: "How will the projects be executed in India?",
           acceptedAnswer: {
             "@type": "Answer",
             text: "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.",
@@ -294,7 +294,7 @@ export const DSIndiaCourseData = [
         },
         {
           "@type": "Question",
-          name: "What's the eligibility for a job assistance Program in Learnbay Data science training courses in Bangalore?",
+          name: "What's the eligibility for a job assistance Program in Learnbay Data science training courses in India?",
           acceptedAnswer: {
             "@type": "Answer",
             text: "You should have completed the course with : A minimum score of 70% in assessments Should have completed the assignments and case studies Worked and successfully completed the minimum recommended number of real-time projects.",
@@ -302,7 +302,7 @@ export const DSIndiaCourseData = [
         },
         {
           "@type": "Question",
-          name: "How long will I get support for job assistance at Learnbay in Bangalore?",
+          name: "How long will I get support for job assistance at Learnbay in India?",
           acceptedAnswer: {
             "@type": "Answer",
             text: "At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year. What is a job-readiness program? The Job readiness program helps you prepare for interviews which include: Resume preparation sessions, Preparing projects for a strong portfolio, Interview guidance and prep sessions, 1:1 Mock interviews based on targeted companies and roles.",
@@ -506,7 +506,7 @@ export const DSIndiaCourseData = [
         data: [
           {
             id: 0,
-            ques: "What are Data Science Training courses available at Learnbay in Bangalore?",
+            ques: "What are Data Science Training courses available at Learnbay in India?",
             linkText1: "Foundational Data Science Training Course, ",
             linkText2: "Advance Data Science Certification Course, ",
             linkText3:
@@ -521,7 +521,7 @@ export const DSIndiaCourseData = [
           },
           {
             id: 1,
-            ques: "What are the prerequisites for these Data Science training Courses in Bangalore?",
+            ques: "What are the prerequisites for these Data Science training Courses in India?",
             ans: "There are no prerequisites for this Data Science Foundation course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
             open: false,
           },
@@ -534,25 +534,25 @@ export const DSIndiaCourseData = [
           },
           {
             id: 3,
-            ques: "What is a Flexi Subscription in these advanced data science courses in Bangalore?",
+            ques: "What is a Flexi Subscription in these advanced data science courses in India?",
             ans: "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Placement Assistance  - 3-years.",
             open: false,
           },
           {
             id: 4,
-            ques: "What’s the duration of these advanced data science courses in Bangalore?",
+            ques: "What’s the duration of these advanced data science courses in India?",
             ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
             open: false,
           },
           {
             id: 5,
-            ques: "What is the mode of Data Science Course In Bangalore at Learnbay?",
+            ques: "What is the mode of Data Science Course In India at Learnbay?",
             ans: "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.",
             open: false,
           },
           {
             id: 6,
-            ques: "How can I opt for a Hybrid mode of learning in IBM data science training courses in Bangalore, At Learnbay? ",
+            ques: "How can I opt for a Hybrid mode of learning in IBM data science training courses in India, At Learnbay? ",
             ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. ",
             open: false,
           },
@@ -564,13 +564,13 @@ export const DSIndiaCourseData = [
         data: [
           {
             id: 0,
-            ques: "What is domain specialization in the professional data science certification courses provided by Learnbay in Bangalore?",
+            ques: "What is domain specialization in the professional data science certification courses provided by Learnbay in India?",
             ans: "We offer industry-specific full-stack data science modules, via which you learn the respective industry’s best practices. But this added benefit is available in all the three mentioned courses, except the foundational data science course. ",
             open: true,
           },
           {
             id: 1,
-            ques: "What are the available elective domain options in the different data science training courses of Learnbay in Bangalore?",
+            ques: "What are the available elective domain options in the different data science training courses of Learnbay in India?",
             ans: " Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps; Sales, Marketing, & HR; Retail, E-Commerce, & Supply Chain; Healthcare, Pharma, & Clinical Research; BFSI; Manufacturing, Mechanical, & Telecom; Media, Hospitality, & Transportation; Oil, Gas, & Energy",
             open: false,
           },
@@ -621,24 +621,24 @@ export const DSIndiaCourseData = [
         data: [
           {
             id: 0,
-            ques: "What is the total fee for Data Science Certifications courses in Bangalore?",
+            ques: "What is the total fee for Data Science Certifications courses in India?",
             ans: `The total course fee for the 
-                  Foundational Data Science and AI Training course is 88,500/- inclusive of GST.
-                  Advance Data Science and AI Certification course is 1,15,000/- inclusive of GST.
-                  Data Science and AI Certification Course for Managers and Leaders is 1,35,700/- inclusive of GST.
-                  Data Science and AI Master Certification Program is 1,59,300/- inclusive of GST.`,
+                  Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
+                  Advance Data Science and AI Certification course is 1,05,000/- inclusive of GST.
+                  Data Science and AI Certification Course for Managers and Leaders is 1,15,000/- inclusive of GST.
+                  Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
             open: true,
           },
           {
             id: 1,
-            ques: "Can I pay in installments for these Data Science Certification courses in Bangalore?",
+            ques: "Can I pay in installments for these Data Science Certification courses in India?",
             ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 11 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
             //Check This
             open: false,
           },
           {
             id: 2,
-            ques: " Is there any scholarship/discount available for these Data Science training courses available in Bangalore? What is Group Discount?",
+            ques: " Is there any scholarship/discount available for these Data Science training courses available in India? What is Group Discount?",
             ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally.
                   Please check our websites or contact our sales team to know more about the applicable discounts.
                   
@@ -674,7 +674,7 @@ export const DSIndiaCourseData = [
                   Advance Data Science and AI Certification Course -2 Capstones.
                   Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
                   Data Science and AI Training with Placement Assistance- 3 Capstones.
-                  How many real-time projects/case studies will be covered in these Data Science certification courses in Bangalore?
+                  How many real-time projects/case studies will be covered in these Data Science certification courses in India?
                   Depending on the course you choose the number of live projects will vary.  
                   Foundational Data Science and AI Training course- 8 projects.
                   Advance Data Science and AI Certification course-12 projects.
@@ -688,7 +688,7 @@ export const DSIndiaCourseData = [
           },
           {
             id: 1,
-            ques: "How will the projects be executed in Bangalore?",
+            ques: "How will the projects be executed in India?",
             ans: "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.",
             open: false,
           },
@@ -717,7 +717,7 @@ export const DSIndiaCourseData = [
         data: [
           {
             id: 0,
-            ques: "What's the eligibility for a job assistance Program in Learnbay Data science training courses in Bangalore?",
+            ques: "What's the eligibility for a job assistance Program in Learnbay Data science training courses in India?",
 
             ans: `You should have completed the course with :
                   A minimum score of 70% in assessments
@@ -727,7 +727,7 @@ export const DSIndiaCourseData = [
           },
           {
             id: 1,
-            ques: "How long will I get support for job assistance at Learnbay in Bangalore?",
+            ques: "How long will I get support for job assistance at Learnbay in India?",
             ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
             open: false,
           },
@@ -768,7 +768,7 @@ export const DSIndiaCourseData = [
           },
           {
             id: 1,
-            ques: "Can a Learnbay student in Bangalore choose to study from their desired mentor?",
+            ques: "Can a Learnbay student in India choose to study from their desired mentor?",
             ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
             open: false,
           },
