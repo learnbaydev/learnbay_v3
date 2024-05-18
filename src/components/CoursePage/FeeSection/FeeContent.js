@@ -106,7 +106,7 @@ const FeeContent = ({
           ) : (
             <>
               <p className={styles.pTop}>Program Fee</p>
-              <p className={styles.cutText}>{CutFee}</p>
+              {/* <p className={styles.cutText}>{CutFee}</p> */}
               <p className={styles.price}>
                 {Fee} <span className={styles.spanText}>+ 18% GST</span>
               </p>
@@ -182,9 +182,6 @@ const FeeContent = ({
               </div>
             </div>
           </div>
-         
-
-          
         </div>
       </div>
       {/* Emi Popup */}

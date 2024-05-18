@@ -62,7 +62,7 @@ export const MasterAI = {
     "name": "What is the cost of the data science and AI master's degree?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "The data science and AI master’s degree costs ₹2,50,000 + 18% GST."
+      "text": "The data science and AI master’s degree costs ₹3,25,000 + 18% GST."
     }
   },{
     "@type": "Question",
