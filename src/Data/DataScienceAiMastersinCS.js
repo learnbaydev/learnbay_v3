@@ -771,13 +771,13 @@ export const DataScienceMastersinCS = [
           {
             id: 0,
             ques: "What is the cost of the data science and AI master's degree?",
-            ans: "The data science and AI master’s degree costs ₹2,50,000 + 18% GST.",
+            ans: "The data science and AI master’s degree costs ₹3,25,000 + 18% GST.",
             open: true,
           },
           {
             id: 1,
             ques: "Can I pay in installments for the Data Science and AI master's degree Program?",
-            ans: "Learnbay offers flexible financing options for learners to have constant upskilling. You can pay INR 12,292/month in installments under a no-cost EMI option within 12 months. You can also opt for interest-free loans with the necessary documents (Aadhar card, PAN card, & salary slip).             ",
+            ans: "Learnbay offers flexible financing options for learners to have constant upskilling. You can pay INR 15,980/month in installments under a no-cost EMI option within 12 months. You can also opt for interest-free loans with the necessary documents (Aadhar card, PAN card, & salary slip).             ",
             open: false,
           },
           {
