@@ -1,4 +1,5 @@
 import { DSBangaloreSchema } from "@/Data/Schema/DSBangalore";
+import Realstory from "@/components/Home/Realstory/Realstory";
 import Map from "@/components/Seo/Maps/Maps";
 import dynamic from "next/dynamic";
 import Head from "next/head";
@@ -9,10 +10,8 @@ import Form from "../../../components/Global/Form/Form";
 import Navbar from "../../../components/Global/Navbar/Navbar";
 import Popup from "../../../components/Global/Popup/Popup";
 import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
-import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
 import YoutubeVideo from "../../../components/Seo/YoutubeVideo/YoutubeVideo";
 import styles from "../../../styles/Home.module.css";
-import Realstory from "@/components/Home/Realstory/Realstory";
 const FirstSection = dynamic(() =>
   import("../../../components/Seo/FirstSection/FirstSection")
 );
@@ -284,19 +283,19 @@ export default function Home() {
         <SecondSection
           SecondSectionData={DSBangaloreCourseData[0].secondSection}
         />
-     <Realstory/>
+        <Realstory />
         <div className={styles.cityFee}>
           <FeeSection
             Fee="₹1,35,000"
             FeeEmi="₹8,850/month"
             weekdaybatch="Weekday Batch"
-            weekendbatch="Weekend  Batch"
+            weekendbatch="Weekday Batch"
             weekday="MON - FRI"
-            weekend="SAT - SUN"
-            WeekdayDate="May 17th"
-            WeekendDate="May 19th"
+            weekend="MON - FRI"
+            WeekdayDate="June 14th"
+            WeekendDate="June 7th"
             WeekdayTime="8:00 AM - 10:00 AM"
-            WeekendTime="9:30 AM - 1 PM"
+            WeekendTime="8:00 PM - 10:00 PM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
             FeeContent5="15 days refund policy"
@@ -443,7 +442,7 @@ export default function Home() {
           </div>
         </div>
         <SeventhSection />
-        <Map BangaloreMap ={true}  />
+        <Map BangaloreMap={true} />
         <CityText CityText={true} />
         <Footer />
         {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
