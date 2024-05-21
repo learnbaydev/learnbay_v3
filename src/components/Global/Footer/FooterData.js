@@ -297,6 +297,57 @@ export const CityFooterData = [
       },
     ],
   },
+
+  {
+    id: "SecondDiv",
+    FirstDiv: [
+      {
+        id: "kolkata",
+        city: "Kolkata",
+        cityData: [
+          {
+            id: 1,
+            name: "Data Science Course Training in Kolkata",
+            url: "/datascience/kolkata/data-science-course-training-in-kolkata",
+          },
+         ,
+        ],
+      },
+      {
+        id: "bhubaneswar",
+        city: "Bhubaneswar",
+        cityData: [
+          {
+            id: 1,
+            name: "Data Science Course Training in Bhubaneswar",
+            url: "/datascience/bhubaneswar/data-science-course-training-in-bhubaneswar",
+          },
+        ],
+      },
+      {
+        id: "nagpur",
+        city: "Nagpur",
+        cityData: [
+          {
+            id: 1,
+            name: "Data Science Course Training in Nagpur",
+            url: "/datascience/nagpur/data-science-course-training-in-nagpur",
+          },
+        ],
+      },
+      // {
+      //   id: "singapore",
+      //   city: "singapore",
+      //   cityData: [
+      //     {
+      //       id: 1,
+      //       name: "Data Science Course Training in Singapore",
+      //       url: "/datascience/singapore/data-science-course-training-in-singapore",
+      //     },
+      //   ],
+      // },
+    ],
+  },
   {
     id: "SecondDiv",
     FirstDiv: [
