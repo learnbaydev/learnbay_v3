@@ -95,7 +95,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Best Data Science Course Institute in Bhubaneswar | Learnbay</title>
+        <title>
+          Best Data Science Course Institute in Bhubaneswar | Learnbay
+        </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -103,8 +105,7 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="data science course in bhubaneswar, data science institute in bhubaneswar,  best data science course in bhubaneswar, data science training in bhubaneswar
-          "
+          content="data science course in bhubaneswar, data science institute in bhubaneswar,  best data science course in bhubaneswar, data science training in bhubaneswar "
         />
         <link
           rel="canonical"
@@ -231,7 +232,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-               DSBhub={true}
+              DSBhub={true}
               DomainHead1={DSBhubabneswasCourseData[0].DomainHead1}
               DomainBot1={DSBhubabneswasCourseData[0].DomainBot1}
               DomainBot2={DSBhubabneswasCourseData[0].DomainBot2}
@@ -257,7 +258,9 @@ export default function Home() {
               Domainlink9={DSBhubabneswasCourseData[0].Domainlink9}
               Domainlink10={DSBhubabneswasCourseData[0].Domainlink10}
               DomainBot40={DSBhubabneswasCourseData[0].DomainBot40}
-              CertificationHead1={DSBhubabneswasCourseData[0].CertificationHead1}
+              CertificationHead1={
+                DSBhubabneswasCourseData[0].CertificationHead1
+              }
               CertificationBot1={DSBhubabneswasCourseData[0].CertificationBot1}
               CertificationBot2={DSBhubabneswasCourseData[0].CertificationBot2}
               CertificationBot3={DSBhubabneswasCourseData[0].CertificationBot3}
@@ -280,7 +283,9 @@ export default function Home() {
               ModuleMasterlist7={DSBhubabneswasCourseData[0].ModuleMasterlist7}
               ModuleMasterlist8={DSBhubabneswasCourseData[0].ModuleMasterlist8}
               ModuleMasterlist9={DSBhubabneswasCourseData[0].ModuleMasterlist9}
-              ModuleMasterlist10={DSBhubabneswasCourseData[0].ModuleMasterlist10}
+              ModuleMasterlist10={
+                DSBhubabneswasCourseData[0].ModuleMasterlist10
+              }
               ModuleMasterBot3={DSBhubabneswasCourseData[0].ModuleMasterBot3}
               ModuleMasterBot2={DSBhubabneswasCourseData[0].ModuleMasterBot2}
               ModuleBot46={DSBhubabneswasCourseData[0].ModuleBot46}
@@ -337,7 +342,9 @@ export default function Home() {
               JobBot001={DSBhubabneswasCourseData[0].JobBot001}
               JobBot002={DSBhubabneswasCourseData[0].JobBot002}
               JobBot1={DSBhubabneswasCourseData[0].JobBot1}
-              JobHeadbhubaneswar01={DSBhubabneswasCourseData[0].JobHeadbhubaneswar01}
+              JobHeadbhubaneswar01={
+                DSBhubabneswasCourseData[0].JobHeadbhubaneswar01
+              }
               JobHead001={DSBhubabneswasCourseData[0].JobHead001}
               JobHead2={DSBhubabneswasCourseData[0].JobHead2}
               JobBot3={DSBhubabneswasCourseData[0].JobBot3}

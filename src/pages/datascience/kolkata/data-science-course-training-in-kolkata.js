@@ -103,15 +103,15 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="data science course in india, best institute for data science in india, data scientist institute in india, best data science course in india, data science training in Kolkata, best data science institute in Kolkata, best data scientist course in Kolkata          "
+          content="data science course in Kolkata, best data science course in Kolkata, data scientist course in kolkata, data science institute in kolkata, data science training in kolkata, data science certification in kolkata, data science course in kolkata with placement          "
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/data-science-course-training-in-india"
+          href="https://www.learnbay.co/datascience/kolkata/data-science-course-training-in-kolkata"
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/data-science-course-training-in-india"
+          content="ttps://www.learnbay.co/datascience/kolkata/data-science-course-training-in-kolkataa"
         />
         <meta
           property="og:title"

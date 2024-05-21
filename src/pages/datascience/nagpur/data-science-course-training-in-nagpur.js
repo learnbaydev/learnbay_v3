@@ -95,34 +95,33 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Best Online Data Science Course in Nagpur | Learnbay</title>
+        <title>Best Data Science Course in Nagpur | Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Stay ahead in your career by joining the leading data science course in Nagpur. Learn from industry experts, get hands-on experience on the latest tools, and earn certificates from IBM and Microsoft.           "
+          content=" Enroll in the best data science course in Nagpur. Gain hands-on experience on generative AI modules and earn globally recognized certifications.          "
         />
         <meta
           name="keywords"
-          content="data science course in bhubaneswar, data science institute in bhubaneswar,  best data science course in bhubaneswar, data science training in bhubaneswar
-          "
+          content="data science course in nagpur, best data science course in nagpur, data science classes in nagpur, data science institute in nagpur, data science training in nagpur, data science in nagpur, data science course fees in nagpur          "
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/bhubaneswar/data-science-course-training-in-bhubaneswar"
+          href="https://www.learnbay.co/datascience/nagpur/data-science-course-training-in-nagpur"
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/bhubaneswar/data-science-course-training-in-bhubaneswar"
+          content="https://www.learnbay.co/datascience/nagpur/data-science-course-training-in-nagpur"
         />
         <meta
           property="og:title"
-          content="Data Science Course in bhubaneswar | Data Scientist Training In bhubaneswar - Learnbay"
+          content="Data Science Course in nagpur | Data Scientist Training In nagpur - Learnbay"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Best Data Science Courses in bhubaneswar. Learnbay is the Best Data Scientist Certification Course Training Institute in bhubaneswar with 100% Placement assistance and offers an advanced data scientist training in bhubaneswar"
+          content="Best Data Science Courses in nagpur. Learnbay is the Best Data Scientist Certification Course Training Institute in nagpur with 100% Placement assistance and offers an advanced data scientist training in nagpur"
         />
         <meta
           property="og:image"
@@ -134,16 +133,16 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Data Science Course in bhubaneswar | Data Scientist Training In bhubaneswar - Learnbay"
+          content="Data Science Course in nagpur | Data Scientist Training In nagpur - Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           itemProp="description"
-          content="Best Data Science Courses in bhubaneswar. Learnbay is the Best Data Scientist Certification Course Training Institute in bhubaneswar with 100% Placement assistance and offers an advanced data scientist training in bhubaneswar."
+          content="Best Data Science Courses in nagpur. Learnbay is the Best Data Scientist Certification Course Training Institute in nagpur with 100% Placement assistance and offers an advanced data scientist training in nagpur."
         />
         <meta
           name="twitter:description"
-          content="Best Data Science Courses in bhubaneswar. Learnbay is the Best Data Scientist Certification Course Training Institute in bhubaneswar with 100% Placement assistance and offers an advanced data scientist training in bhubaneswar."
+          content="Best Data Science Courses in nagpur. Learnbay is the Best Data Scientist Certification Course Training Institute in nagpur with 100% Placement assistance and offers an advanced data scientist training in nagpur."
         />
         <meta
           name="twitter:image"
@@ -231,7 +230,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-               DSnagpur={true}
+              DSnagpur={true}
               DomainHead1={DSnagpurCourseData[0].DomainHead1}
               DomainBot1={DSnagpurCourseData[0].DomainBot1}
               DomainBot2={DSnagpurCourseData[0].DomainBot2}
@@ -337,7 +336,7 @@ export default function Home() {
               JobBot001={DSnagpurCourseData[0].JobBot001}
               JobBot002={DSnagpurCourseData[0].JobBot002}
               JobBot1={DSnagpurCourseData[0].JobBot1}
-              JobHeadbhubaneswar01={DSnagpurCourseData[0].JobHeadbhubaneswar01}
+              JobHeadnagpur01={DSnagpurCourseData[0].JobHeadnagpur01}
               JobHead001={DSnagpurCourseData[0].JobHead001}
               JobHead2={DSnagpurCourseData[0].JobHead2}
               JobBot3={DSnagpurCourseData[0].JobBot3}
