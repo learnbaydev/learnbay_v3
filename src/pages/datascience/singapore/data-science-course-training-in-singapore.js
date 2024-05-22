@@ -217,7 +217,7 @@ export default function Home() {
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
           idss="YWxTtvb3x-U"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
-          firstHeading="Best Online Data Science Course in Singapore – Learnbay          "
+          firstHeading="Best Online Data Science Course in Singapore       "
           firstTopPara="Foundational and Advanced Job-ready"
           cityParaCont="Demonstrate your expertise in real-world business projects via our industry-centric data science training in Singapore. Our custom-fit course syllabus with structured modules helps you gain in-demand skills. Get ready and lock your seat with us to unleash your career potential on a global scale.           "
         />

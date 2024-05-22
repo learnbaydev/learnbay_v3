@@ -308,7 +308,7 @@ export const CityFooterData = [
           {
             id: 1,
             name: "Data Science Course Training in Kolkata",
-            url: "/datascience/kolkata/data-science-course-training-in-kolkata",
+            url: "/datascience/india/data-science-course-training-in-kolkata",
           },
          ,
         ],
@@ -320,7 +320,7 @@ export const CityFooterData = [
           {
             id: 1,
             name: "Data Science Course Training in Bhubaneswar",
-            url: "/datascience/bhubaneswar/data-science-course-training-in-bhubaneswar",
+            url: "/datascience/india/data-science-course-training-in-bhubaneswar",
           },
         ],
       },
@@ -331,7 +331,7 @@ export const CityFooterData = [
           {
             id: 1,
             name: "Data Science Course Training in Nagpur",
-            url: "/datascience/nagpur/data-science-course-training-in-nagpur",
+            url: "/datascience/india/data-science-course-training-in-nagpur",
           },
         ],
       },

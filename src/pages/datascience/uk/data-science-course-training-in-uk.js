@@ -219,7 +219,7 @@ export default function Home() {
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
           idss="YWxTtvb3x-U"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
-          firstHeading="Best Online Data Science Course in UK – Learnbay          "
+          firstHeading="Best Online Data Science Course in UK           "
           firstTopPara="Foundational and Advanced Job-ready"
           cityParaCont="Learn insightful uses of data science in real-world business problems and gain in-depth knowledge of trending tools. Learnbay’s data science course in UK presents an open learning setup to escalate your career limitlessly. Validate your skills with a GenAI-rich syllabus and global certifications (IBM & Microsoft).           "
         />

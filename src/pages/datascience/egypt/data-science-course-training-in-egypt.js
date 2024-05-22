@@ -217,7 +217,7 @@ export default function Home() {
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
           idss="YWxTtvb3x-U"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
-          firstHeading="Best Online Data Science Course in Egypt – Learnbay          "
+          firstHeading="Best Online Data Science Course in Egypt "
           firstTopPara="Foundational and Advanced Job-ready"
           cityParaCont="Enrich your career with essential data science skills to thrive and competitive success. Join Learnbay’s data science course in Egypt to dive deeper into the digital world. Join our GenAI-rich courses with IBM & Microsoft certifications to re-energize your careers with premium job offers.           "
         />
