@@ -109,11 +109,11 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/bhubaneswar/data-science-course-training-in-bhubaneswar"
+          href="https://www.learnbay.co/datascience/india/data-science-course-training-in-bhubaneswar"
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/bhubaneswar/data-science-course-training-in-bhubaneswar"
+          content="https://www.learnbay.co/datascience/india/data-science-course-training-in-bhubaneswar"
         />
         <meta
           property="og:title"
@@ -184,7 +184,7 @@ export default function Home() {
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
           idss="YWxTtvb3x-U"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
-          firstHeading="Top Data Science Course in Bhubaneswar  | Learnbay          "
+          firstHeading="Top Data Science Course in Bhubaneswar         "
           firstTopPara="Foundational and Advance Job-ready Program"
           cityParaCont="Transform your career with the GenAI-inclusive data science course in Bhubaneswar. The program is certified by IBM and Microsoft and offers domain-oriented training, real-world projects, and comprehensive career support to help working pros excel in the data-driven world.           "
         />

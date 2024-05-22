@@ -217,7 +217,7 @@ export default function Home() {
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
           idss="YWxTtvb3x-U"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
-          firstHeading="Best Online Data Science Course in Malaysia – Learnbay          "
+          firstHeading="Best Online Data Science Course in Malaysia         "
           firstTopPara="Foundational and Advanced Job-ready"
           cityParaCont="Step into a digitally-driven learning space to gain adequate data literacy skills. Learnbay’s data science course in Malaysia extends inevitable career support with its GenAI inclusive course syllabus. Escalate your career limits with our domain-specific training, live projects, and valuable certificates.           "
         />

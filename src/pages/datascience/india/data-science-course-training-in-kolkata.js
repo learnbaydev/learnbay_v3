@@ -107,11 +107,11 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/kolkata/data-science-course-training-in-kolkata"
+          href="https://www.learnbay.co/datascience/india/data-science-course-training-in-kolkata"
         />
         <meta
           property="og:url"
-          content="ttps://www.learnbay.co/datascience/kolkata/data-science-course-training-in-kolkataa"
+          content="https://www.learnbay.co/datascience/india/data-science-course-training-in-kolkata"
         />
         <meta
           property="og:title"
@@ -182,7 +182,7 @@ export default function Home() {
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
           idss="YWxTtvb3x-U"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
-          firstHeading="Best Online Data Science Course in Kolkata | Learnbay          "
+          firstHeading="Best Online Data Science Course in Kolkata         "
           firstTopPara="Foundational and Advance Job-ready Program"
           cityParaCont="Unleash your career aspirations with our industry-specific data science course in Kolkata. Explore a new norm of the digital world and the career growth prospects it brings via our cutting-edge Generative AI-integrated course modules. Join Learnbay to gain proven data-driven skills, followed by IBM & Microsoft certifications.           "
         />

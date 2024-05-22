@@ -217,7 +217,7 @@ export default function Home() {
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
           idss="YWxTtvb3x-U"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
-          firstHeading="Best Online Data Science Course in Austin | Learnbay          "
+          firstHeading="Best Online Data Science Course in Austin         "
           firstTopPara="Foundational and Advanced Job-ready"
           cityParaCont="Leverage your career growth horizons for a data-driven future with our data science course in Austin. Our GenAI-rich course modules are designed to validate your skills and help you achieve top-tier jobs. Additionally, our industry collaboration with IBM & Microsoft unleashes a lucrative future in Austin.           "
         />
