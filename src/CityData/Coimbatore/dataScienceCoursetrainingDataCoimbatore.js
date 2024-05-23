@@ -1,4 +1,4 @@
-export const DSBhubabneswasCourseData = [
+export const DSCoimbCourseData = [
   {
     secondSection: [
       {
@@ -148,8 +148,8 @@ export const DSBhubabneswasCourseData = [
         data: [
           {
             id: 0,
-            ques: "How long does the data science course in Bhubaneswar typically take to complete?              ",
-            ans: "Learnbay offers flexible data science training in Bhubaneswar that typically ranges from 7 – 9 months (for certification course) to 18 months (for master’s degree program).               ",
+            ques: "How long does the data science course in Coimbatore typically take to complete?              ",
+            ans: "Learnbay offers flexible data science training in Coimbatore that typically ranges from 7 – 9 months (for certification course) to 18 months (for master’s degree program).               ",
 
             link: false,
             open: true,
@@ -169,13 +169,13 @@ export const DSBhubabneswasCourseData = [
           {
             id: 2,
             ques: "Can I attend classes online, or is it only available in a physical classroom?              ",
-            ans: `We provide both classroom and online instructor-led training sessions at Learnbay. You upskill with the best institute for data science in Bhubaneswar with an industry-led course curriculum. You can opt for online or offline sessions according to your working schedules and flexibility.               `,
+            ans: `We provide both classroom and online instructor-led training sessions at Learnbay. You upskill with the best institute for data science in Coimbatore with an industry-led course curriculum. You can opt for online or offline sessions according to your working schedules and flexibility.               `,
             open: false,
           },
           {
             id: 3,
             ques: "Do you offer flexibility in scheduling for working professionals?              ",
-            ans: "Yes, we offer a flexible learning platform for working professionals in any domain to maintain a work-learn balance. Learners get a hybrid learning facility here and can choose their batch timings (weekday or weekend) at their convenience to upskill with data science programs in Bhubaneswar.               ",
+            ans: "Yes, we offer a flexible learning platform for working professionals in any domain to maintain a work-learn balance. Learners get a hybrid learning facility here and can choose their batch timings (weekday or weekend) at their convenience to upskill with data science programs in Coimbatore.               ",
             open: false,
           },
         ],
@@ -218,13 +218,13 @@ export const DSBhubabneswasCourseData = [
           {
             id: 0,
             ques: "What is the cost of the data science course, and are there any installment options?              ",
-            ans: `The data science course in Bhubaneswar fees sum to ₹105,000 + 18% GST. You will have an installment facility, where you have to pay ₹6,883/month. One can make payments through credit card, UPI, or internet banking.               `,
+            ans: `The data science course in Coimbatore fees sum to ₹105,000 + 18% GST. You will have an installment facility, where you have to pay ₹6,883/month. One can make payments through credit card, UPI, or internet banking.               `,
             open: true,
           },
           {
             id: 1,
             ques: "Do you offer any scholarships, discounts, or financial assistance programs?              ",
-            ans: `Learnbay offers flexible financing options for paying data science course fees in Bhubaneswar. You can opt for no-cost EMI, installments, or interest-free loans to pay the fee within 12 months. 
+            ans: `Learnbay offers flexible financing options for paying data science course fees in Coimbatore. You can opt for no-cost EMI, installments, or interest-free loans to pay the fee within 12 months. 
               We also occasionally offer a 15%—20% discount for early birds. Yet, a group discount is available for learners who join with one or more friends. 
               `,
             list1: "Group of 2: 5% extra discount             ",
@@ -240,7 +240,7 @@ export const DSBhubabneswasCourseData = [
             ans: "Learners opting for the data science course at Learnbay are advised to go through its Refund/Cancellation Policy before     ",
             linkText1: "Refund/Cancellation Policy",
             ansAfter:
-              " enrolling. The policy mentions that learners can withdraw their data science fees in Bhubaneswar.           ",
+              " enrolling. The policy mentions that learners can withdraw their data science fees in Coimbatore.           ",
             link: true,
             open: false,
           },
@@ -277,7 +277,7 @@ export const DSBhubabneswasCourseData = [
           {
             id: 0,
             ques: "Is the certification internationally recognized?              ",
-            ans: `Learnbay offers an internationally recognized data science certification in Bhubaneswar. Once learners complete the course and tasks, they get dual certification: a project experience certificate from IBM and course completion certificates from IBM and Microsoft.               `,
+            ans: `Learnbay offers an internationally recognized data science certification in Coimbatore. Once learners complete the course and tasks, they get dual certification: a project experience certificate from IBM and course completion certificates from IBM and Microsoft.               `,
             open: true,
           },
         ],
@@ -378,19 +378,19 @@ export const DSBhubabneswasCourseData = [
         ],
       },
     ],
-
     DomainHead1: "Domain Expertise       ",
     DomainBot1:
-      "The existing digital markets demand insightful strategies to conquer success amidst triggering industry rivalries. The digital landscape in Bhubaneswar welcomes enormous data-driven changes with exclusive government support. Thus, the demand for qualified data specialists is increasing every year.         ",
+      "Coimbatore’s tech space welcomes major tech creations that enrich firm values and change career outlooks. The rise of data science is changing the current job market trends in almost every domain. Experts from various sectors or domains must upskill to upgrade their skill sets and attain career goals. Thus, joining a domain-specific data scientist course in Coimbatore has become the need of the hour.          ",
     DomainBot2:
-      "Domain-specific upskilling is effective in achieving career rivalry and attaining success. The city's varied economic system creates a space for specific domain knowledge and skills. Thus, we at Learnbay focus on extensive Data science training in Bhubaneswar in your domain of expertise.         ",
+      "Learnbay offers domain-led training courses that are far better than the generic ones. We focus on the constantly changing market outlook and try to blend the trends with our courses. Here, experts will get a hassle-free learning space to gain desired skills and kick-start an exciting career.   ",
     DomainBot3:
-      "Here are the few domains that experts can choose as per their interests –         ",
+      "Here are some domains that you can choose as per your career interests –         ",
     DomainList1: "• BFSI",
-    DomainList2: "• Manufacturing",
-    DomainList3: "• Energy, Oil and Gas",
-    DomainList4: "• Healthcare",
-    DomainList5: "• Supply Chain, E-Commerce & Retail",
+    DomainList2: "• Healthcare",
+    DomainList3: "• Marketing",
+    DomainList4: "• Supply Chain",
+    DomainList5: "• HR",
+    DomainList6: "• Manufacturing ",
     Domainlink1:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf",
     Domainlink2:
@@ -402,47 +402,46 @@ export const DSBhubabneswasCourseData = [
     Domainlink5:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf",
     DomainBot40:
-      "Join our Data Science Institute in Bhubaneswar to further your expertise and enjoy unstoppable career success. To enroll in our job placement program, you must have at least six months of work experience (full-time/part-time).         ",
+      "Working pros from diverse fields can enroll in our industry-paced data science course in Coimbatore and refine prior skills. Are you still searching for the proper way to start learning or stressed about joining us? Leave your stress and join us today if you have at least six months of work experience in any field.",
     CertificationHead1: "Certification and Training Benefits      ",
     CertificationBot1:
-      "Certifications act as a backbone to any course. We provide top-notch certificates to help you earn data literacy skills and dominate the current global job market. Your career will benefit from our data science institute in Bhubaneswar which  offers improved work opportunities.        ",
+      "Data science has become a part and parcel of many firms from different sectors. Its seamless integration with daily tasks and functions lifts business yields. Employers of leading MNCs and startups search for talented data scientists to face the oddities and tackle them with the right intent. Hence, joining rates in data science training in Coimbatore are increasing rapidly. ",
     CertificationBot2:
-      "We offer the certification in partnership with IBM and MS, which unleashes a way toward swift promotions. You will receive two IBM certifications after completing the course and project task. This certification includes (course and project) details that help you develop a fulfilling career.        ",
+      "Data science in Coimbatore brings alluring career growth options for experts at various levels. Certificates are the perfect way to attain global-level success by cracking top-tier jobs. Unlike standard courses, learning with us will enrich your career values with globally valued certificates. These certificates validate learned skills and guide you to crack top-tier job roles in your chosen field. ",
     CertificationBot3:
-      "Microsoft, a leading figure in technology and innovation, also accredits the data science certification course. This MS certification can add valuable skills and demonstrate your data skills, helping you land an ideal job.         ",
-    CertificationBot4:
-      " MS certificate Mandate enhances your skill sets with the latest trends, making your resume stand out on job portals. Top MNCs mostly prefer precious certificates that can give you global exposure and make you stand out.         ",
-    CertificationBot5:
-      "This certification states unique skill sets to help you stand out in the professional competition. When applying for top jobs, your professional credibility increases your power. Top high-profile companies are hiring data scientists as demand for data expertise increases globally.    ",
+      "Learning via our data science course in Coimbatore with global certifications improves your job selection rates with exciting gains. Our alliance with IBM & Microsoft accelerates your success metrics with proven gains. Learners will get two IBM & Microsoft course certificates and one IBM project certificate. Validation from top-notch tech leaders enhances career growth metrics and equips learners with tempting gains. Hence, join us today and rebuild your career graph, cracking in-demand roles with top-tier MNCs. Plus, you will get exposure to global-level job offers with swift promotions and hikes. ",
+    CertificationBot4: "     ",
+    CertificationBot5: "  ",
     src33:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
     ModuleMasterBot1:
-      "The data science institute in Bhubaneswar delivers incredible courses comprising Gen AI modules curated to make you job-ready. The Gen AI-rich syllabus equips you with cutting-edge skills to capitalize on competitive success. In this course, you will gain practical skills through capstone projects and theoretical knowledge, ensuring you are an ideal match for any organization.         ",
+      "Learning is vital for working pros to combat career stagnation and rise in today’s ever-changing market. Our artificial intelligence and data science course in Coimbatore offers in-depth training in the latest tools and trends. Upskilling via our syllabus helps you gain abstract and hands-on learning of tools that best fit today’s GenAI era. ",
 
-    ModuleHead1: " Learning Outcomes and Skill Development      ",
+    ModuleHead1: " Learning Outcomes      ",
     ModuleBot1: "   ",
     ModuleBot2: "     ",
 
-    ModuleMasterlist1: "Fundamental knowledge of statistical functions        ",
-    ModuleMasterlist2: "MS Excel – Beginners and Advanced      ",
-    ModuleMasterlist3: "Programming languages (Python, SQL, & R)      ",
+    ModuleMasterlist1: "Basic knowledge of statistical functions",
+    ModuleMasterlist2: "MS Excel – Basic and Advanced",
+    ModuleMasterlist3: "Programming languages (Python, SQL, & R)",
     ModuleMasterlist4:
       "Big data and data visualization tools (Power BI, Tableau)        ",
-    ModuleMasterlist5: "Dashboard design with insights         ",
+    ModuleMasterlist5: "Dashboard design with facts",
 
     ModuleMasterlist6: "Data Structures and algorithms        ",
     ModuleMasterlist7:
-      "Deep learning, Natural language processing, Machine learning algorithms           ",
-    ModuleMasterlist8: "Generative AI tools & trends        ",
-    ModuleMasterlist9: "AWS & MS Azure        ",
-    ModuleMasterlist10: "Case studies in your domain        ",
+      "Deep learning, Natural language processing, Machine learning algorithms",
+    ModuleMasterlist8: "Generative Artificial Intelligence tools & trends",
+    ModuleMasterlist9: "AWS & MS Azure",
+    ModuleMasterlist10: "Case studies",
+    ModuleMasterlist11: "Live projects",
     ModuleMasterBot2:
-      " Our data science institute in Bhubaneswar offers opportunities for ongoing career progression through learning MNCs. One can crack high-paying jobs in their locations, preferences, and interests.         ",
+      "Many busy professionals show interest in career change. Yet, due to hectic work plans, they ignore career revamp motives. With Learnbay, a career shift is easy as we offer an inclusive learning space under the guidance of mentors. Our data science training in Coimbatore by mentors helps you gain real-time knowledge of tools via case studies and projects. You will learn everything—from basic coding skills to model deployments.",
     ModuleMasterBot3:
-      " Learners and experts can simultaneously work on real projects and case studies to achieve job competencies. As a result, it maximizes domain-specific knowledge and boosts earning potential worldwide. Unlike other generic materials, Learnbay anticipates providing a financially rewarding career for data experts with improved mastery and enthusiasm.         ",
+      "Our data science course in Coimbatore guides busy working pros to combat career hurdles via Gen AI-rich upskilling. Plus, training from eminent industry experts helps experts gain real-time knowledge of business issues and tactics to solve them. Your career is safe with us as we equip you with skills to face career races and attain success.",
     ModuleBot47: "  ",
 
     syllabush1: " Preparatory Classes (Programming + Maths)",
@@ -480,50 +479,46 @@ export const DSBhubabneswasCourseData = [
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
 
-    JobHead1: "Job Assistance and Career Services   ",
-    MasterJobBot1:
-      "Which technical and skill-building abilities can you acquire with Learnbay’s best data science course in Bhubaneswar?         ",
-    Joblist1: "Fundamental knowledge of data cleansing    ",
-    Joblist2: "Developing coding skills      ",
-    Joblist3: "Python for data science     ",
-    Joblist4: "Dashboard visualization and design with facts    ",
-    Joblist5: "Database handling (SQL & R)    ",
-    Joblist6: "Statistical analysis       ",
-    Joblist7: "Big data analytics     ",
-    Joblist8: "Predictive modeling       ",
-    Joblist9: "Exploratory data analysis (EDA)    ",
-    Joblist10: "ML, NLP, Deep learning      ",
-    Joblist11: "Generative AI skills     ",
-    Joblist12:
-      "Hands-on learning of deployment and evaluation (AWS & Azure)    ",
-    Joblist13:
-      "Business case studies in your domain and  Experimental exposure to real-world business issues via projects     ",
+    JobHead1:
+      "What technical skills will you develop with Learnbay’s data science training in Coimbatore?        ",
+    MasterJobBot1: "",
+    Joblist1: "Basic knowledge of data cleansing",
+    Joblist2: "Coding skills",
+    Joblist3: "Python for data science",
+    Joblist4: "Dashboard design with facts",
+    Joblist5: "Database handling (SQL & R)",
+    Joblist6: "Statistical analysis",
+    Joblist7: "Big data analytics",
+    Joblist8: "Predictive modeling",
+    Joblist9: "Exploratory data analysis (EDA)",
+    Joblist10: "ML, NLP, Deep learning",
+    Joblist11: "Gen AI skills",
+    Joblist12: "Hands-on learning of deployment and evaluation (AWS & Azure)",
+    Joblist13: "Case studies in your domain",
+    Joblist14: "Direct exposure to real-world business issues via projects",
+
     JobBot001:
-      "Our data science course helps guarantee career-oriented skills for cracking interviews with top-tier global MNCs. Experts obtain 24/7 career support here to help them acquire technical, soft, and behavioral skills.         ",
+      "Today’s digital nobility demands proven tech skills to face and solve risks with data-driven methods. Thus, experts must join an industry-driven data scientist course in Coimbatore to attain success.",
     JobBot002:
-      "Furthermore, technical and soft skills offer an exceptional opportunity to build personalized skills and improve organizational fit.         ",
+      "Data literacy is vital to increase career values and support business growth. Unlike in old times, many employers from leading MNCs prefer skill sets to strategically enrich business values. Learning with us will help you improve your knowledge and gain new skills to thrive. We present a premier learning space to gain every possible skill – from basic data concepts to real-time uses of GenAI-rich tools.",
     JobHead19: "Career Service Pro    ",
 
     JobBot20:
-      "Enrolling in a data science course typically opens up a bright future with large compensation packages for data enthusiasts. Hence, working professionals opt for the best data science course to earn 100% career assistance.         ",
+      "Indeed, data science crafts an absolute career path with eternal growth options. Meanwhile, the demand for skillful data experts keeps changing the job market outlook. Experts eager to update their static careers and join data science must opt for upskilling with better career support services. ",
     JobBot003:
-      "Our data science course training can lend you end-to-end job placement opportunities that can be supported via Career Service Pro. You are eligible for placement services if you learn to achieve at least 70% in tasks and assessments, Here, you also earn an opportunity for 1:1 doubt-clearing and resume-building sessions.         ",
-    JobBot39:
-      "Exclusive gains that our Career Service PRO will offer are –      ",
-    Joblist14: "job and placement services for three years      ",
-    Joblist15:
-      "Six 1:1 mock interviews scheduled with any of the 450+ industry partners        ",
-    Joblist16: " Resume building with job-ready skills      ",
-    Joblist17:
-      "LinkedIn profile review  and Unlimited job calls from MNCs globally      ",
+      "Unlike others, Learnbay’s data science training in Coimbatore offers exciting career support. Our reliable placement team supports career upskilling journeys and equips learners with every possible help. All eligible learners (at least 70% scores in tasks) can avail of Career Service Pro which offers everything – from 1:1 doubt clearing to LinkedIn profiling. ",
+    JobBot39: "Career Service Pro feature offers –",
+    Joblist14: "Endless job and placement support for three years",
+    Joblist15: "Six 1:1 mock interviews with any of the 450+ MNCs",
+    Joblist16: "Resume building",
+    Joblist17: "LinkedIn profile review",
+    Joblist18: "Advantageous job calls from Coimbatore-based MNCs",
 
     JobHead30: "",
 
-    JobBot21:
-      "Learnbay tends to provide an exceptional, cutting-edge data science course with a placement guarantee. Our training programs can assist in leading and overcoming various career redundancies and attaining professional advancement. Our continuous job assistance program promotes career growth chances with its constant support.         ",
     JobHeadIndia01: "         ",
     JobBot22:
-      " Note: Here, you can easily avail yourself of better job placement support for three years even after completing the course programs. Additionally, renowned experts are available 24/7 to solve your queries regarding training programs.         ",
+      "Note: You can reach our career counselors and experts anytime, to get more clarity on job support services. ",
     JobHeadIndia01: "        ",
     JobBot23: "   ",
     JobBot24: "",
@@ -534,41 +529,48 @@ export const DSBhubabneswasCourseData = [
     Joblist54: " ",
 
     JobHead001:
-      " Does Learnbay tend to offer the most comprehensive data course in Bhubaneswar?  Is it worthwhile?      ",
+      "Is learning via Learnbay’s artificial intelligence and data science course in Coimbatore worthy? ",
     JobBotMasterBot5:
-      "In Bhubaneswar, the digital economy sees data science as a contributing aspect, enriching business yields Rapidly. Additionally, the city has a growing need for data analytics and analytics that know the current trends. Thus, it becomes essential to upskill with the newest instruments and trends.         ",
+      "Data science enriches business yields with its insightful action plans. Recent years have seen a fast-paced rise in the demand for talented data experts in Coimbatore. Many employers seek data-driven business processes that level up profit margins. Thus, joining a data science course in Coimbatore is crucial for revamping careers with alluring gains.",
     JobBot007:
-      " The data science program entails GenAI-rich training courses with global career paths. Experts have the privilege of working on capstone projects in chosen domains. This helps specialists understand real-world business problems and solve them efficiently.        ",
+      "Upskilling via Learnbay’s best data science courses in Coimbatore unleashes a global-level career path with tempting gains. With us, you will gain GenAI-rich skills to tackle critical business issues and devise optimal solutions. Mentorship from industry experts keeps you informed about the latest incidents and devises the right solution.",
     JobBot005:
-      " Furthermore, we offer a big data course in Bhubaneswar accredited by IBM and MS for extended social connections and global recognition. Our 450+ industry partners guide you to crack product/service-based interviews with leading MNCs.         ",
+      "Our alliance with IBM & Microsoft crafts a global-scale career path enriching success metrics. Experts will attest valuable IBM & MS certificates to their careers and land their dream roles here. Our coalition with 450+ industry partners helps you crack critical job interviews via career support services. Hence, join us today and escalate your career success chances with ultimate benefits.",
     JobBot006: " ",
     JobHead22:
-      "What jobs are possible with Learnbay’s data science course in Bhubaneswar?        ",
+      "What specialized job roles can you crack with Learnbay’s data scientist course in Coimbatore?",
     JobBot37: " ",
 
     JobBot24: "      ",
-    Joblist23: "Data Analyst (Commercial & E-commerce)      ",
+    Joblist23: "Data Analyst",
     Joblist24: "Data Scientist     ",
     Joblist25: "Data Quality Assurance Engineer    ",
     Joblist26: "MIS Specialist    ",
-    Joblist27: "Data Engineer (Azure, Graph)    ",
-    Joblist28: "Artificial Intelligence Engineer    ",
+    Joblist27: "Data Engineer",
+    Joblist28: "Artificial Intelligence Engineer",
     Joblist29: "Database Manager    ",
-    Joblist30: "Data Architect and Data Warehouse Engineer      ",
+    Joblist30: "Data Architect",
+    Joblist31: "Big Data Analyst",
+    Joblist32: "ML Contributor",
+    Joblist33: "Digital Data Reviewer",
+    Joblist34: "Business Intelligence Developer",
     JobBot25:
-      "The professionals who enroll in the best data science course in Bhubaneswar will gain specialized knowledge. Professionals and experts eager for assured career success regardless of data science course fee can join this program. Experts can acquire lucrative data science jobs that best fit their objectives using the selected domains.        ",
+      "Working experts eager to revamp their outpaced careers must join our data science training in Coimbatore. Successful completion of courses, projects, and endless career support services help you land your dream jobs. ",
 
     ProjectsHead1:
-      "How can Learnbay’s practical approach, which involves live- projects, assist you advance your data science career in Bhubaneswar?         ",
+      "How do Learnbay’s capstone projects guide you throughout the data scientist course in Coimbatore?  ",
 
     ProjectsBot1:
-      "Data science is a broad field that requires basic domain knowledge and practical and theoretical expertise. Today, we rely on the ever-changing job market, which provides infinite growth opportunities. Thus, employers across the major MNCs opt for skills data experts to understand and sustain the increasing demand.         ",
+      "Today’s tech era welcomes major creations, that improve business yields with limitless gains. No wonder the rise of data science paves the way for factual business practices, but it often becomes critical. Data science requires proven skills to handle data intricacies and rise beyond technologies. Thus, learning is vital for experts to sustain themselves in today’s data world and attain success.         ",
+    ProjectsBot2:
+      "Today’s tech era welcomes major creations, that improve business yields with limitless gains. No wonder the rise of data science paves the way for factual business practices, but it often becomes critical. Data science requires proven skills to handle data intricacies and rise beyond technologies. Thus, learning is vital for experts to sustain themselves in today’s data world and attain success. ",
     ProjectsBot3:
-      "The best data scientist course in Bhubaneswar offers in-depth training sessions to secure better job prospects. Get a hands-on learning experience. Here, you will earn a hands-on learning experience for high career openings.        ",
+      "Yet, learning from a generic course can degrade your knowledge and tech abilities while tackling real-world business issues. Thus, upskilling via Learnbay’s best data science courses in Coimbatore is helpful. Our leading-edge data science courses equip learners with the all-inclusive skills to excel in the trending fields. It offers an open-learning scope via capstone projects in your chosen domains.",
     ProjectsBot4:
-      "More importantly, you will gain live experience by working on different capstone projects related to your expertise. These projects will enhance your essential skills, making you more competitive in job requests. Such domains are BFSI, HR, Marketing, Healthcare, Supply Chain, and Manufacturing. This will help you stand out in a slow-paced career and lock in advanced growth opportunities.         ",
+      "Experts enrolling in Learnbay’s data science programs will work on live projects to gain insights into real business issues and devise optimal solutions. Hands-on learning helps experts refine and optimize their domain knowledge as per today’s trends. Quality learning of data-driven tools vital for various fields crafts the way toward global-scale success.",
     ProjectsBot5:
-      "Learnbay’s practical upskilling approach certainly supports 360-degree career-building tactics worldwide. In addition, an IBM project certificate boosts your professional background, improves job prospects, and accelerates career achievements.        ",
+      "At Learnbay, you can learn and practice in-demand data tools in any of the leading domains, such as – BFSI, HR, Marketing, Healthcare, Supply Chain, and Manufacturing. Apart from this, experts will also obtain IBM project certificates once they are done with projects.         ",
+
     ProjectsBot2: "Below are a few projects from the Learnbay alumni profiles:",
     src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
     ProjectsH1: "Samsung Health Monitor App",

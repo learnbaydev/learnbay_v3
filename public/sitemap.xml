@@ -502,5 +502,25 @@
 		<priority>0.70</priority>
 	</url>
 
+
+			<url>
+		<loc>https://www.learnbay.co/datascience/india/data-science-course-training-in-coimbatore</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+
+
+			<url>
+		<loc>https://www.learnbay.co/datascience/india/data-science-course-training-in-jaipur</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+		<url>
+		<loc>https://www.learnbay.co/datascience/india/data-science-course-training-in-patna</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+
+
 	
 </urlset>
