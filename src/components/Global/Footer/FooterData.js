@@ -335,19 +335,54 @@ export const CityFooterData = [
           },
         ],
       },
-      // {
-      //   id: "singapore",
-      //   city: "singapore",
-      //   cityData: [
-      //     {
-      //       id: 1,
-      //       name: "Data Science Course Training in Singapore",
-      //       url: "/datascience/singapore/data-science-course-training-in-singapore",
-      //     },
-      //   ],
-      // },
+      {
+        id: "Jaipur",
+        city: "jaipur",
+        cityData: [
+          {
+            id: 1,
+            name: "Data Science Course Training in Jaipur",
+            url: "/datascience/india/data-science-course-training-in-jaipur",
+          },
+        ],
+      },
     ],
   },
+
+  {
+    id: "SecondDiv",
+    FirstDiv: [
+      {
+        id: "coimbatore",
+        city: "coimbatore",
+        cityData: [
+          {
+            id: 1,
+            name: "Data Science Course Training in coimbatore",
+            url: "/datascience/india/data-science-course-training-in-coimbatore",
+          },
+        
+        ],
+      },
+      {
+        id: "patna",
+        city: "Patna",
+        cityData: [
+          {
+            id: 1,
+            name: "Data Science Course Training in Patna",
+            url: "/datascience/india/data-science-course-training-in-patna",
+          },
+        ],
+      },
+    
+    ],
+  },
+
+
+
+
+
   {
     id: "SecondDiv",
     FirstDiv: [
