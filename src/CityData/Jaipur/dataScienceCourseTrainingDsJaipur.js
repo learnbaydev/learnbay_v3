@@ -1,4 +1,4 @@
-export const DSBhubabneswasCourseData = [
+export const DSJaipurCourseData = [
   {
     secondSection: [
       {
@@ -148,8 +148,8 @@ export const DSBhubabneswasCourseData = [
         data: [
           {
             id: 0,
-            ques: "How long does the data science course in Bhubaneswar typically take to complete?              ",
-            ans: "Learnbay offers flexible data science training in Bhubaneswar that typically ranges from 7 – 9 months (for certification course) to 18 months (for master’s degree program).               ",
+            ques: "How long does the data science course in Jaipur typically take to complete?              ",
+            ans: "Learnbay offers flexible data science training in Jaipur that typically ranges from 7 – 9 months (for certification course) to 18 months (for master’s degree program).               ",
 
             link: false,
             open: true,
@@ -169,13 +169,13 @@ export const DSBhubabneswasCourseData = [
           {
             id: 2,
             ques: "Can I attend classes online, or is it only available in a physical classroom?              ",
-            ans: `We provide both classroom and online instructor-led training sessions at Learnbay. You upskill with the best institute for data science in Bhubaneswar with an industry-led course curriculum. You can opt for online or offline sessions according to your working schedules and flexibility.               `,
+            ans: `We provide both classroom and online instructor-led training sessions at Learnbay. You upskill with the best institute for data science in Jaipur with an industry-led course curriculum. You can opt for online or offline sessions according to your working schedules and flexibility.               `,
             open: false,
           },
           {
             id: 3,
             ques: "Do you offer flexibility in scheduling for working professionals?              ",
-            ans: "Yes, we offer a flexible learning platform for working professionals in any domain to maintain a work-learn balance. Learners get a hybrid learning facility here and can choose their batch timings (weekday or weekend) at their convenience to upskill with data science programs in Bhubaneswar.               ",
+            ans: "Yes, we offer a flexible learning platform for working professionals in any domain to maintain a work-learn balance. Learners get a hybrid learning facility here and can choose their batch timings (weekday or weekend) at their convenience to upskill with data science programs in Jaipur.               ",
             open: false,
           },
         ],
@@ -218,13 +218,13 @@ export const DSBhubabneswasCourseData = [
           {
             id: 0,
             ques: "What is the cost of the data science course, and are there any installment options?              ",
-            ans: `The data science course in Bhubaneswar fees sum to ₹105,000 + 18% GST. You will have an installment facility, where you have to pay ₹6,883/month. One can make payments through credit card, UPI, or internet banking.               `,
+            ans: `The data science course in Jaipur fees sum to ₹105,000 + 18% GST. You will have an installment facility, where you have to pay ₹6,883/month. One can make payments through credit card, UPI, or internet banking.               `,
             open: true,
           },
           {
             id: 1,
             ques: "Do you offer any scholarships, discounts, or financial assistance programs?              ",
-            ans: `Learnbay offers flexible financing options for paying data science course fees in Bhubaneswar. You can opt for no-cost EMI, installments, or interest-free loans to pay the fee within 12 months. 
+            ans: `Learnbay offers flexible financing options for paying data science course fees in Jaipur. You can opt for no-cost EMI, installments, or interest-free loans to pay the fee within 12 months. 
               We also occasionally offer a 15%—20% discount for early birds. Yet, a group discount is available for learners who join with one or more friends. 
               `,
             list1: "Group of 2: 5% extra discount             ",
@@ -240,7 +240,7 @@ export const DSBhubabneswasCourseData = [
             ans: "Learners opting for the data science course at Learnbay are advised to go through its Refund/Cancellation Policy before     ",
             linkText1: "Refund/Cancellation Policy",
             ansAfter:
-              " enrolling. The policy mentions that learners can withdraw their data science fees in Bhubaneswar.           ",
+              " enrolling. The policy mentions that learners can withdraw their data science fees in Jaipur.           ",
             link: true,
             open: false,
           },
@@ -277,7 +277,7 @@ export const DSBhubabneswasCourseData = [
           {
             id: 0,
             ques: "Is the certification internationally recognized?              ",
-            ans: `Learnbay offers an internationally recognized data science certification in Bhubaneswar. Once learners complete the course and tasks, they get dual certification: a project experience certificate from IBM and course completion certificates from IBM and Microsoft.               `,
+            ans: `Learnbay offers an internationally recognized data science certification in Jaipur. Once learners complete the course and tasks, they get dual certification: a project experience certificate from IBM and course completion certificates from IBM and Microsoft.               `,
             open: true,
           },
         ],
@@ -381,16 +381,17 @@ export const DSBhubabneswasCourseData = [
 
     DomainHead1: "Domain Expertise       ",
     DomainBot1:
-      "The existing digital markets demand insightful strategies to conquer success amidst triggering industry rivalries. The digital landscape in Bhubaneswar welcomes enormous data-driven changes with exclusive government support. Thus, the demand for qualified data specialists is increasing every year.         ",
+      "To succeed in today’s digital markets, one must develop strategic insights to beat competitors in the industry. India’s digital space is undergoing notable data-driven changes endowed by the government, and the demand for experienced data experts increases annually.",
     DomainBot2:
-      "Domain-specific upskilling is effective in achieving career rivalry and attaining success. The city's varied economic system creates a space for specific domain knowledge and skills. Thus, we at Learnbay focus on extensive Data science training in Bhubaneswar in your domain of expertise.         ",
+      "Specialized skill advances in a particular field are an excellent strategy for dealing with career competition and earning success. The country’s varied economy allows specialized expertise and talents to be developed. At Learnbay, we specialize in providing an all-inclusive data science training module tailored to your expertise.",
     DomainBot3:
       "Here are the few domains that experts can choose as per their interests –         ",
     DomainList1: "• BFSI",
-    DomainList2: "• Manufacturing",
-    DomainList3: "• Energy, Oil and Gas",
-    DomainList4: "• Healthcare",
-    DomainList5: "• Supply Chain, E-Commerce & Retail",
+    DomainList2: "• Healthcare",
+    DomainList3: "• Marketing",
+    DomainList4: "• Supply Chain",
+    DomainList5: "• HR",
+    DomainList6: "• Manufacturing ",
     Domainlink1:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf",
     Domainlink2:
@@ -402,47 +403,47 @@ export const DSBhubabneswasCourseData = [
     Domainlink5:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf",
     DomainBot40:
-      "Join our Data Science Institute in Bhubaneswar to further your expertise and enjoy unstoppable career success. To enroll in our job placement program, you must have at least six months of work experience (full-time/part-time).         ",
-    CertificationHead1: "Certification and Training Benefits      ",
+      "Experts eager to enhance their domain skills with the best institute for data science in Jaipur can join us and achieve invincible career success. For our job placement program, a minimum of six months of work experience (full-time/part-time) is needed for enrollment.",
+    CertificationHead1: "Certification Details",
     CertificationBot1:
-      "Certifications act as a backbone to any course. We provide top-notch certificates to help you earn data literacy skills and dominate the current global job market. Your career will benefit from our data science institute in Bhubaneswar which  offers improved work opportunities.        ",
+      "Certifications are vital elements of any course. We offer high-quality credentials to assist you in acquiring data literacy skills and excelling in the current global work market. Our top data science institute in Jaipur will improve your career graph and advance your professional growth.",
     CertificationBot2:
-      "We offer the certification in partnership with IBM and MS, which unleashes a way toward swift promotions. You will receive two IBM certifications after completing the course and project task. This certification includes (course and project) details that help you develop a fulfilling career.        ",
+      "We offer certification in partnership with IBM and Microsoft, opening prospects for rapid career advances. Upon completing the course, you will receive two IBM credentials. This certificate denotes course and project details that can help in choosing a lucrative career path.",
     CertificationBot3:
-      "Microsoft, a leading figure in technology and innovation, also accredits the data science certification course. This MS certification can add valuable skills and demonstrate your data skills, helping you land an ideal job.         ",
+      "Microsoft, a prominent figure in the technology industry, also endorses the data science certification course. This Microsoft certification can enhance your skill set and showcase your ability in data, increasing your chances of securing ideal employment.",
     CertificationBot4:
-      " MS certificate Mandate enhances your skill sets with the latest trends, making your resume stand out on job portals. Top MNCs mostly prefer precious certificates that can give you global exposure and make you stand out.         ",
-    CertificationBot5:
-      "This certification states unique skill sets to help you stand out in the professional competition. When applying for top jobs, your professional credibility increases your power. Top high-profile companies are hiring data scientists as demand for data expertise increases globally.    ",
+      "Obtaining a Microsoft certificate accreditation allows you to develop skills aligned with current industry trends, enhancing the visibility of your resume on several job platforms. Major MNCs prioritize certificates that offer global visibility and help individuals distinguish themselves. This credential states specific skill sets that can set you apart in your dream job. Enhanced career reputation boosts your career impact and attracts top job offers.",
+    CertificationBot5: "  ",
     src33:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
-    ModuleMasterBot1:
-      "The data science institute in Bhubaneswar delivers incredible courses comprising Gen AI modules curated to make you job-ready. The Gen AI-rich syllabus equips you with cutting-edge skills to capitalize on competitive success. In this course, you will gain practical skills through capstone projects and theoretical knowledge, ensuring you are an ideal match for any organization.         ",
+    ModuleMasterBot1: "",
 
-    ModuleHead1: " Learning Outcomes and Skill Development      ",
-    ModuleBot1: "   ",
-    ModuleBot2: "     ",
+    ModuleHead1: " ",
+    ModuleBot1:
+      "The Data Scientist Institute in Jaipur offers unique courses with Gen AI modules to prepare you for employment. The Gen AI-rich syllabus aims to provide you with advanced skills to leverage competitive success. This course will enhance your theoretical and practical skills through projects, ensuring you are a perfect fit for MNCs.",
+    ModuleHead2: " Learning Outcomes     ",
 
-    ModuleMasterlist1: "Fundamental knowledge of statistical functions        ",
-    ModuleMasterlist2: "MS Excel – Beginners and Advanced      ",
-    ModuleMasterlist3: "Programming languages (Python, SQL, & R)      ",
+    ModuleMasterlist1: "Basic knowledge of statistical functions",
+    ModuleMasterlist2: "MS Excel – Beginners and Advanced",
+    ModuleMasterlist3: "Programming languages (Python, SQL, & R)",
     ModuleMasterlist4:
       "Big data and data visualization tools (Power BI, Tableau)        ",
-    ModuleMasterlist5: "Dashboard design with insights         ",
+    ModuleMasterlist5: "Dashboard design with facts",
 
     ModuleMasterlist6: "Data Structures and algorithms        ",
     ModuleMasterlist7:
-      "Deep learning, Natural language processing, Machine learning algorithms           ",
-    ModuleMasterlist8: "Generative AI tools & trends        ",
-    ModuleMasterlist9: "AWS & MS Azure        ",
-    ModuleMasterlist10: "Case studies in your domain        ",
+      "Deep learning, Natural language processing, Machine learning algorithms",
+    ModuleMasterlist8: "Generative AI tools & trends",
+    ModuleMasterlist9: "AWS & MS Azure",
+    ModuleMasterlist10: "Case studies in your domain",
+    ModuleMasterlist11: "Hands-on learning projects",
     ModuleMasterBot2:
-      " Our data science institute in Bhubaneswar offers opportunities for ongoing career progression through learning MNCs. One can crack high-paying jobs in their locations, preferences, and interests.         ",
+      "The data science institute in Jaipur offers ongoing career shift options via alliance with MNCs. One can secure lucrative employment prospects based on location, preferences, and interests.",
     ModuleMasterBot3:
-      " Learners and experts can simultaneously work on real projects and case studies to achieve job competencies. As a result, it maximizes domain-specific knowledge and boosts earning potential worldwide. Unlike other generic materials, Learnbay anticipates providing a financially rewarding career for data experts with improved mastery and enthusiasm.         ",
+      "Learners can work on live projects and case studies to develop their job skills simultaneously. Consequently, it enriches expertise in a specific domain and increases earning limits globally. Learnbay aims to offer a lucrative career path for data experts via enhanced knowledge and passion, unlike typical courses",
     ModuleBot47: "  ",
 
     syllabush1: " Preparatory Classes (Programming + Maths)",
@@ -480,52 +481,52 @@ export const DSBhubabneswasCourseData = [
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
 
-    JobHead1: "Job Assistance and Career Services   ",
-    MasterJobBot1:
-      "Which technical and skill-building abilities can you acquire with Learnbay’s best data science course in Bhubaneswar?         ",
-    Joblist1: "Fundamental knowledge of data cleansing    ",
-    Joblist2: "Developing coding skills      ",
-    Joblist3: "Python for data science     ",
-    Joblist4: "Dashboard visualization and design with facts    ",
-    Joblist5: "Database handling (SQL & R)    ",
-    Joblist6: "Statistical analysis       ",
-    Joblist7: "Big data analytics     ",
-    Joblist8: "Predictive modeling       ",
-    Joblist9: "Exploratory data analysis (EDA)    ",
-    Joblist10: "ML, NLP, Deep learning      ",
-    Joblist11: "Generative AI skills     ",
-    Joblist12:
-      "Hands-on learning of deployment and evaluation (AWS & Azure)    ",
-    Joblist13:
-      "Business case studies in your domain and  Experimental exposure to real-world business issues via projects     ",
+    JobHead1:
+      "What skills and technical abilities can you develop with Learnbay’s best data science training in Jaipur? ",
+    MasterJobBot1: "",
+    Joblist1: "Basic knowledge of data cleansing",
+    Joblist2: "Developing coding skills",
+    Joblist3: "Python for data science",
+    Joblist4: "Dashboard visualization and design with facts",
+    Joblist5: "Database handling (SQL & R)",
+    Joblist6: "Statistical analysis",
+    Joblist7: "Big data analytics",
+    Joblist8: "Predictive modeling",
+    Joblist9: "Exploratory data analysis (EDA)",
+    Joblist10: "ML, NLP, Deep learning",
+    Joblist11: "Gen AI skills",
+    Joblist12: "Hands-on learning of deployment and evaluation (AWS & Azure)",
+    Joblist13: "Business case studies in your domain",
+    Joblist14:
+      "Experimental exposure to real-world business issues via projects",
+
     JobBot001:
-      "Our data science course helps guarantee career-oriented skills for cracking interviews with top-tier global MNCs. Experts obtain 24/7 career support here to help them acquire technical, soft, and behavioral skills.         ",
+      "Our data science course in Jaipur is designed to provide career-focused skills that will help you succeed in interviews with leading MNCs.Working pros receive round-the-clock career support to develop technical, soft, and behavioral skills.",
     JobBot002:
-      "Furthermore, technical and soft skills offer an exceptional opportunity to build personalized skills and improve organizational fit.         ",
+      "Plus, technical and soft skills offer an exceptional chance to build personalized skills and improve organizational fit.",
     JobHead19: "Career Service Pro    ",
 
     JobBot20:
-      "Enrolling in a data science course typically opens up a bright future with large compensation packages for data enthusiasts. Hence, working professionals opt for the best data science course to earn 100% career assistance.         ",
+      "The data science degree offers data aspirants a potentially successful career with alluring hikes. Thus, working pros choose the top data science education to receive full career support.",
     JobBot003:
-      "Our data science course training can lend you end-to-end job placement opportunities that can be supported via Career Service Pro. You are eligible for placement services if you learn to achieve at least 70% in tasks and assessments, Here, you also earn an opportunity for 1:1 doubt-clearing and resume-building sessions.         ",
-    JobBot39:
-      "Exclusive gains that our Career Service PRO will offer are –      ",
-    Joblist14: "job and placement services for three years      ",
+      "Our data science course offers an end-to-end job assist program (Career Service Pro). A minimum of 70% in course tasks and exams qualifies you for placement services. You also get the chance to participate in 1:1 doubt-clearing and resume-building sessions.",
+    JobBot39: "Career Service Pro feature offers –",
+    Joblist14: "job and placement services for three years",
     Joblist15:
-      "Six 1:1 mock interviews scheduled with any of the 450+ industry partners        ",
-    Joblist16: " Resume building with job-ready skills      ",
-    Joblist17:
-      "LinkedIn profile review  and Unlimited job calls from MNCs globally      ",
+      "Six 1:1 mock interviews scheduled with any of the 450+ industry partners",
+    Joblist16: "Resume building with job-ready skills",
+    Joblist17: "LinkedIn profile review",
+    Joblist18:
+      "Endless job calls from MNCs in Jaipur and other cities in India",
 
     JobHead30: "",
 
-    JobBot21:
-      "Learnbay tends to provide an exceptional, cutting-edge data science course with a placement guarantee. Our training programs can assist in leading and overcoming various career redundancies and attaining professional advancement. Our continuous job assistance program promotes career growth chances with its constant support.         ",
     JobHeadIndia01: "         ",
     JobBot22:
-      " Note: Here, you can easily avail yourself of better job placement support for three years even after completing the course programs. Additionally, renowned experts are available 24/7 to solve your queries regarding training programs.         ",
+      "Learnbay provides an outstanding and modern data science education with a promise of job placement support. Our training programs can assist experts in combatting career redundancies and attaining the desired success. The ongoing job aid program increases your job selection rates with steady support.",
     JobHeadIndia01: "        ",
-    JobBot23: "   ",
+    JobBot23:
+      " Note: Here, you can easily avail yourself of better job placement support for three years even after completing the course programs. Plus, eminent experts are there 24/7 to solve your course-related queries.  ",
     JobBot24: "",
     Joblist50: "       ",
     Joblist51: "     ",
@@ -534,41 +535,47 @@ export const DSBhubabneswasCourseData = [
     Joblist54: " ",
 
     JobHead001:
-      " Does Learnbay tend to offer the most comprehensive data course in Bhubaneswar?  Is it worthwhile?      ",
+      "Does Learnbay tend to provide the best data science course in Jaipur? Is it worth it?",
     JobBotMasterBot5:
-      "In Bhubaneswar, the digital economy sees data science as a contributing aspect, enriching business yields Rapidly. Additionally, the city has a growing need for data analytics and analytics that know the current trends. Thus, it becomes essential to upskill with the newest instruments and trends.         ",
+      "Jaipur’s digital economy views data science as a key aspect that majorly enhances business yields. Moreover, the country is seeing a growing need for up-to-date data and analytics with the latest trends. Thus, it is crucial to enhance one’s skill with the most recent tools and trends.",
     JobBot007:
-      " The data science program entails GenAI-rich training courses with global career paths. Experts have the privilege of working on capstone projects in chosen domains. This helps specialists understand real-world business problems and solve them efficiently.        ",
+      "The program for Data Science offers training courses on AI and provides better offers around the world. There are various options for experts to pursue diversified live projects which helps them tackle real business issues and arrive, and factual solutions.",
     JobBot005:
-      " Furthermore, we offer a big data course in Bhubaneswar accredited by IBM and MS for extended social connections and global recognition. Our 450+ industry partners guide you to crack product/service-based interviews with leading MNCs.         ",
+      "Also, we offer data science certification in Jaipur, accredited by IBM and MS, for extended social networks and global recognition. Our 450+ industry partners guide you to crack critical interviews with leading MNCs.",
     JobBot006: " ",
     JobHead22:
-      "What jobs are possible with Learnbay’s data science course in Bhubaneswar?        ",
+      "What job roles can you get into with Learnbay’s online data science course in Jaipur?",
     JobBot37: " ",
 
     JobBot24: "      ",
-    Joblist23: "Data Analyst (Commercial & E-commerce)      ",
+    Joblist23: "Data Analyst",
     Joblist24: "Data Scientist     ",
     Joblist25: "Data Quality Assurance Engineer    ",
     Joblist26: "MIS Specialist    ",
-    Joblist27: "Data Engineer (Azure, Graph)    ",
-    Joblist28: "Artificial Intelligence Engineer    ",
+    Joblist27: "Data Engineer",
+    Joblist28: "Artificial Intelligence Engineer",
     Joblist29: "Database Manager    ",
-    Joblist30: "Data Architect and Data Warehouse Engineer      ",
+    Joblist30: "Data Architect",
+    Joblist31: "Big Data Analyst",
+    Joblist32: "ML Contributor",
+    Joblist33: "Digital Data Reviewer",
+    Joblist34: "Business Intelligence Developer",
     JobBot25:
-      "The professionals who enroll in the best data science course in Bhubaneswar will gain specialized knowledge. Professionals and experts eager for assured career success regardless of data science course fee can join this program. Experts can acquire lucrative data science jobs that best fit their objectives using the selected domains.        ",
+      "Experts who join Jaipur’s top data science course will gain proven expertise. Experts seeking job success can enroll in this program, regardless of the data science course costs. Experts can use selected domains to pursue data science roles aligned with their ambitions.",
 
     ProjectsHead1:
-      "How can Learnbay’s practical approach, which involves live- projects, assist you advance your data science career in Bhubaneswar?         ",
+      "How will Learnbay’s practical upskilling strategy through live projects benefit your data science career in Jaipur?    ",
 
     ProjectsBot1:
-      "Data science is a broad field that requires basic domain knowledge and practical and theoretical expertise. Today, we rely on the ever-changing job market, which provides infinite growth opportunities. Thus, employers across the major MNCs opt for skills data experts to understand and sustain the increasing demand.         ",
+      "Data science is a complex field requiring basic domain knowledge and practical and abstract skills. We rely on the dynamic work market for endless prospects for advances. Employers in leading MNCs choose to hire data experts with skills to comprehend and maintain the increasing demand.      ",
+    ProjectsBot2:
+      "Data science is a complex field requiring basic domain knowledge and practical and abstract skills. We rely on the dynamic work market for endless prospects for advances. Employers in leading MNCs choose to hire data experts with skills to comprehend and maintain the increasing demand.",
     ProjectsBot3:
-      "The best data scientist course in Bhubaneswar offers in-depth training sessions to secure better job prospects. Get a hands-on learning experience. Here, you will earn a hands-on learning experience for high career openings.        ",
+      "The top data science course in Jaipur provides comprehensive training sessions to enhance work efficacies. Participate in hands-on learning of tools to attain global-scale success. Here, you will gain practical skills to prepare for job chances.",
     ProjectsBot4:
-      "More importantly, you will gain live experience by working on different capstone projects related to your expertise. These projects will enhance your essential skills, making you more competitive in job requests. Such domains are BFSI, HR, Marketing, Healthcare, Supply Chain, and Manufacturing. This will help you stand out in a slow-paced career and lock in advanced growth opportunities.         ",
+      "Mostly, at this location, you will engage in diverse real-time projects in certain fields to develop certain skills for a competitive job market. The domains include BFSI, HR, MARKETING, HEALTHCARE, SUPPLY CHAIN, and MANUFACTURING. This can help you distinguish yourself in a stagnant career and secure prospects for further advances.",
     ProjectsBot5:
-      "Learnbay’s practical upskilling approach certainly supports 360-degree career-building tactics worldwide. In addition, an IBM project certificate boosts your professional background, improves job prospects, and accelerates career achievements.        ",
+      "Learnbay’s practical upskilling strategy effectively facilitates comprehensive professional growth measures globally. Plus, an IBM project certificate enriches your job portfolio and boosts career success by offering better options.",
     ProjectsBot2: "Below are a few projects from the Learnbay alumni profiles:",
     src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
     ProjectsH1: "Samsung Health Monitor App",

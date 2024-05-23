@@ -310,7 +310,7 @@ export const CityFooterData = [
             name: "Data Science Course Training in Kolkata",
             url: "/datascience/india/data-science-course-training-in-kolkata",
           },
-         ,
+          ,
         ],
       },
       {
