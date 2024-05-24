@@ -42,6 +42,16 @@ function FAQ({ FaqData }) {
           linkText6,
           link7,
           linkText7,
+          list1,
+          list2,
+          list3,
+          list4,
+          list5,
+          list6,
+          list7,
+          list8,
+          dscoursefaq,
+          dscoursefaq1,
         } = data;
 
         return (
@@ -109,6 +119,34 @@ function FAQ({ FaqData }) {
                   </a>
                   {ansAfter}
                   {ans1}
+                  {dscoursefaq ? (
+                    <>
+                      {" "}
+                      <br /> <br />
+                      <span>{list1}</span> <br />
+                      <span>{list2}</span> <br />
+                      <span>{list3}</span> <br />
+                      <span>{list4}</span> <br />
+                      <span>{list5}</span> <br />
+                    </>
+                  ) : (
+                    <></>
+                  )}
+                  {dscoursefaq1 ? (
+                    <><br />
+                      <span>{list1}</span> <br />
+                      <span>{list2}</span> <br />
+                      <span>{list3}</span> <br />
+                      <span>{list4}</span> <br />
+                      <span>{list5}</span> <br />
+                      <span>{list6}</span> <br />
+                      <span>{list7}</span> <br />
+                      <span>{list8}</span> <br />
+                    </>
+                  ) : (
+                    <></>
+                  )}
+
                 </p>
               </div>
             ) : (
@@ -119,6 +157,8 @@ function FAQ({ FaqData }) {
                 itemType="https://schema.org/Answer"
               >
                 <p>{ans}</p>
+
+                
               </div>
             )}
           </div>

@@ -453,6 +453,12 @@ const CitiesRight = ({
   cityTextDSEgypt,
   cityTextMasterAUS,
   DSindia,
+  DSkolkota,
+  DSBhub,
+  DSnagpur,
+  DSComibotre,
+  DSJaipur,
+  DSPatna,
 }) => {
   const [read, setRead] = useState(false);
   const handler = () => {
@@ -4250,23 +4256,27 @@ const CitiesRight = ({
                 <b>GenAI-rich courses:</b> Learners get an in-depth and
                 comprehensive understanding of data science tools and trends in
                 the GenAI age.{" "}
-              </li><br/>
+              </li>
+              <br />
               <li>
                 <b>Domain-specific learning:</b> We offer domain-specific data
                 science training in India to improve pre-existing skills.{" "}
-              </li><br/>
+              </li>
+              <br />
               <li>
                 <b>Experimental and practical learning:</b> Experts with our
                 data science course get hands-on learning of tools via live
                 projects.{" "}
-              </li><br/>
+              </li>
+              <br />
               <li>
                 <b>Global certifications:</b> We offer the best data science
                 certification with global-scale job offers. Our certificates
                 from IBM & MS unlock promising career paths. You will get two
                 IBM certifications (project and course) and one MS
                 certification.
-              </li><br/>
+              </li>
+              <br />
               <li>
                 <b>100% job assistance:</b> Learners get 100% job and placement
                 support with end-to-end skills growth and interviews.{" "}
@@ -4278,7 +4288,803 @@ const CitiesRight = ({
         ) : (
           ""
         )}
+        {DSkolkota ? (
+          <div className={styles.CitiesRightInner}>
+            <h4 style={{ fontSize: "20px" }}>
+              About Data Scientist Course in Kolkata in Alliance with IBM &
+              Microsoft
+            </h4>
+            <p>
+              Today’s rapidly growing digital space relies on effective tech
+              creations that rule the business world. Recent decades have seen
+              active growth in data-driven business functions and
+              decision-making across Kolkata. Subsequently, a rising inclination
+              toward data-friendly tools has brought data science into the
+              limelight. Its insightful presence in the business and career
+              world confirms a bright future.
+            </p>
+            <p>
+              Kolkata has become a progressing home center for many tech hubs
+              arising throughout the city. Several startups and MNCs emerging in
+              Kolkata are interested in a data-driven operating culture with
+              insightful gains. Thus, learning has become vital for working
+              professionals from different fields. Following this, many experts
+              prefer joining the best institute for data science in Kolkata with
+              exciting career gains.
+            </p>
+            <p>
+              Learnbay envisions a digitally driven world for busy working pros
+              eager to revamp their stagnant careers in data science. Our data
+              science training in Kolkata focuses on major career shifts via
+              upskilling to thrive globally. Our alliance with the industry’s
+              top-tier tech leaders, IBM and Microsoft, unleashes global-scale
+              growth.
+            </p>
+            <p>
+              Experts enrolling in Learnbay’s data science institute in Kolkata
+              will exclusively receive in-depth training via Generative AI-rich
+              course modules. Here, experts get an inclusive learning space with
+              a 360-degree knowledge-building benefit. Experts can learn
+              real-time uses of data science tools via capstone projects. Unlike
+              others, our data science training institute in Kolkata helps you
+              develop proper data literacy skills.
+            </p>
 
+            <p>
+              A data scientist earns around INR 920,000 per year in Kolkata.
+              Yet, the salary package depends on the career interests, skill
+              sets, and work experience. Kolkata is coming up with alluring
+              career roles in data science for freshers and experienced. At
+              Learnbay, we focus on refining your skills to make you job-ready.
+              Learning from a frequently updated syllabus supports career shifts
+              with exciting gains.
+            </p>
+            <p>
+              In addition, upskilling from the best data science training
+              institute in Kolkata validates your skills with IBM & Microsoft
+              credentials. These globally recognized certificates enrich career
+              values with fortunate returns. Hence, if you are eager to relaunch
+              your career in data science, enroll in Learnbay’s premier courses.
+            </p>
+            <p>Before this, you must consider the requisites –</p>
+
+            <br />
+            <ul>
+              <li>Basic knowledge of applied Mathematics/Statistics </li>
+              <li>Essential domain knowledge</li>
+            </ul>
+            <br />
+            <p>
+              <b>Note:</b> Graduates from tech or non-tech fields can enroll in
+              our elite data science & python training institute in Kolkata to
+              accelerate their success metrics.
+            </p>
+            <br />
+            <h4 style={{ fontSize: "20px" }}>
+              What notable career gains will you receive with Learnbay’s data
+              scientist institute in Kolkata?
+            </h4>
+            <p>
+              Learnbay is widely known for its cutting-edge upskilling programs
+              in data science throughout Kolkata. Experts eager to restore their
+              careers in data science shall receive the significant benefits
+              vital for attaining success.
+            </p>
+            <p>
+              On the other hand, the sudden rise of GenAI trends paves the way
+              for eye-catching returns for businesses and working experts.
+              Hence, upskilling has become critical to mastering the latest
+              GenAI tools (ChatGPT).
+            </p>
+            <p>
+              <b>Some exciting career gains that Learnbay offers you are –</b>
+            </p>
+            <br />
+            <ul>
+              <li>
+                <b>GenAI-rich courses:</b> You will learn and practice the
+                latest and in-demand GenAI-rich tools (ChatGPT).
+              </li>
+              <br />
+              <li>
+                <b>Domain-specific learning:</b> Here, you will gain
+                practice-based learning via 12+ real-time projects in your
+                domain.
+              </li>
+              <br />
+              <li>
+                <b>Experimental and practical learning:</b> Experts will get an
+                open learning space to refine their prior domain skills
+                according to the latest trends.
+              </li>
+              <br />
+              <li>
+                <b>Global certifications:</b> A proven training platform to
+                validate your skills via IBM & Microsoft certifications.
+              </li>
+              <br />
+              <li>
+                <b>100% job assistance:</b> A promising training space to
+                increase your selection chances with our uninterrupted career
+                support services.
+              </li>
+            </ul>
+
+            <br />
+          </div>
+        ) : (
+          ""
+        )}
+        {DSBhub ? (
+          <div className={styles.CitiesRightInner}>
+            <h4 style={{ fontSize: "20px" }}>
+              Data Science Course in Bhubaneswar In Collaboration with IBM &
+              Microsoft
+            </h4>
+            <p>
+              The digital landscape in Bhubaneswar shows exponential growth
+              across diverse sectors. The post-pandemic effect has increased the
+              number of cities using digital-friendly creations. Furthermore,
+              the digital economy subsequently relies on big data, which demands
+              extensive use of data science. Therefore, given the established
+              employment prospects, we observe an increasing trend in data
+              science courses in Bhubaneswar.
+            </p>
+            <br />
+            <h4 style={{ fontSize: "20px" }}>
+              Career opportunities and salary insights
+            </h4>
+            <p>
+              Many companies in the city use data to make better decisions.
+              Hence, the significant job prospects in the data science industry
+              have reached their peak. Thus, working professionals choose to
+              upskill at the best data science institute in Bhubaneswar, which
+              provides improved job prospects.
+            </p>
+            <p>
+              Learnbay’s best data science course in Bhubaneswar appeals to
+              professionals who want to advance their careers. Our commanding
+              edge course syllabus provides precious support to data
+              specialists. Keeping up with the times, we provide exclusive data
+              science education with numerous AI-enhanced tools and methods.
+            </p>
+            <p>
+              In the wake of tech shifts, candidates must seek the best and most
+              proven data skills to thrive in competitive sectors. So here, we
+              introduce the real-world business model with the tactical
+              solution. Our data science course in Bhubaneswar teaches practical
+              implications of various learning strategies that can enhance
+              career success.
+            </p>
+
+            <p>
+              Data science is an economically growing sector for professionals
+              at various career levels. On average, a data scientist in
+              Bhubaneswar makes between INR 4.5 lacs—15 lacs per year. However,
+              salary can based on their experience, domain, and skill sets.
+            </p>
+            <p>
+              Getting involved in a generic course can reduce professional
+              development and accomplishment opportunities. Thus, participating
+              in an industry-driven program with job support can benefit you.
+            </p>
+            <p>
+              Improving your skills with the best institute for data science in
+              Bhubaneswar will have a good impact on your career. Our positive
+              support for your career building ends once you land your dream job
+              role. Industry-led job aid initiatives can support career
+              development at every level.
+            </p>
+            <p>
+              In addition, the data science program in Bhubaneswar equips you
+              with valuable certifications (with worldwide recognition) from IBM
+              & Microsoft. Enroll in our training program today and sharpen your
+              abilities to attain proven career success.
+            </p>
+            <p>
+              So, if you are interested in a data science career consider
+              joining Learnbay's best data science courses. Before that, ensure
+              the requisites –
+            </p>
+
+            <br />
+            <ul>
+              <li>Basic numeric skills (Mathematics/Statistics) </li>
+              <li>Basic domain knowledge</li>
+            </ul>
+            <br />
+            <p>
+              <b>Note:</b> Computer science, IT, or non-technical learners can
+              enroll in our course. If you hold a bachelor’s degree in any
+              field, our data science courses can help enhance your skills and
+              advance your career quickly.
+            </p>
+            <br />
+            <h4 style={{ fontSize: "20px" }}>
+              Why choose our data science institute in Bhubaneswar?
+            </h4>
+            <p>
+              Learnbay has made an impact on industry-specific training programs
+              in Bhubaneswar. The increasing appeal of data science professions
+              in Bhubaneswar is tempting many specialists to reconsider their
+              career choices
+            </p>
+            <p>
+              Meanwhile, Gen-AI upskilling in data science unlocks ways to move
+              toward successful career transitions. Here, the learners can gain
+              an inclusive learning space to work with the latest GenAI tools
+              (ChatGPT) with ethical practices.
+            </p>
+            <p>
+              <b>Excellent career gains are –</b>
+            </p>
+            <br />
+            <ul>
+              <li>
+                <b>GenAI-rich courses:</b> Learners get an in-depth and
+                comprehensive understanding of data science tools and trends in
+                the GenAI age.
+              </li>
+              <br />
+              <li>
+                <b>Domain-specific learning:</b> We offer domain-specific data
+                science training in Bhubaneswar to improve pre-existing skills.
+              </li>
+              <br />
+              <li>
+                <b>Experimental and practical learning:</b> Experts with our
+                data science course get hands-on learning of tools via live
+                projects.
+              </li>
+              <br />
+              <li>
+                <b>Global certifications:</b> We offer the best data science
+                certification with global-scale job offers. Our certificates
+                from IBM & MS unlock promising career paths. You will get two
+                IBM certifications (project and course) and one MS
+                certification.
+              </li>
+              <br />
+              <li>
+                <b>100% job assistance:</b> Learners get 100% job and placement
+                support with end-to-end skills growth and interviews.
+              </li>
+            </ul>
+
+            <br />
+          </div>
+        ) : (
+          ""
+        )}
+        {DSnagpur ? (
+          <div className={styles.CitiesRightInner}>
+            <h4 style={{ fontSize: "20px" }}>
+              About Data Science Institute in Nagpur in Alliance with IBM &
+              Microsoft
+            </h4>
+            <p>
+              In the 21st Century, an increasing reliance on digital creations
+              is noticed. Businesses prefer data-driven operations over the
+              customary ones, lifting the profit margins. Data science is one of
+              the technologically advancing trends lifting business yields with
+              exciting gains. Meanwhile, employers of leading MNCs search for
+              skilled data experts, altering the job market outlook.
+            </p>
+
+            <p>
+              Data science in Nagpur has been thrilling in recent years.
+              Startups and MNCs in Nagpur see an upward trend in the demand for
+              data science professionals. A seamless link of data science with
+              leading sectors is vital in driving alluring profits. Thus, skill
+              uprises have become crucial for experts in various fields to see
+              actual career shifts.
+            </p>
+            <p>
+              Learnbay embraces the digital world with the best data science
+              course in Nagpur, enriching career values for many experts. Its
+              cutting-edge data science classes in Nagpur equip experts with
+              proven skills according to the latest trends. Experts eager to
+              redefine their careers can join us for 360-degree career progress.
+            </p>
+            <p>
+              We foresee a digital-friendly career future for many working
+              experts to thrive in today’s ever-evolving era. Upskilling via an
+              industry-driven data science course in Nagpur boosts earning
+              prospects with global-level gains. Our Generative AI-rich course
+              modules equip learners with prime skills to face the competitive
+              world. Here, experts can gain abstract and practical learning
+              scope to ascertain success.
+            </p>
+
+            <p>
+              Plus, our industry alliance with IBM & Microsoft releases true
+              career potential for busy experts in various sectors. Regardless
+              of the data science course in Nagpur fees, many experts enroll
+              here for globally valued certifications. All eligible learners
+              obtain course completion and project certificates from IBM &
+              Microsoft with better job offers.
+            </p>
+            <p>
+              These globally recognized credentials help experts ace job
+              interviews with the leading MNCs. Attesting valuable certificates
+              to your static career unlocks a global-level career path with
+              exciting returns. Hence, if you are eager to modernize your career
+              in data science Nagpur, enroll in our leading courses.
+            </p>
+            <p>Before this, you must consider the requisites –</p>
+
+            <br />
+            <ul>
+              <li>Basic knowledge of applied Mathematics/Statistics </li>
+              <li>Basic domain skills</li>
+            </ul>
+            <br />
+            <p>
+              <b>Note:</b> Experts with bachelor’s degrees from IT/non-IT fields
+              can join our comprehensively designed data science classes in
+              Nagpur to cherish vital gains.
+            </p>
+            <br />
+            <h4 style={{ fontSize: "20px" }}>
+              What prime career gains will you receive via Learnbay’s data
+              science institute in Nagpur?
+            </h4>
+            <p>
+              Learnbay is popularly known for its industry-specific training
+              courses, inclusively curated for backing working experts from
+              various fields. Its live instructor-led training sessions guide
+              learners to master the front-age tools to stay competitive.
+            </p>
+            <p>
+              Meanwhile, the advent of GenAI-rich functions triggers the need
+              for upskilling with the latest tools and trends. Hence, upskilling
+              from the best data science course in Nagpur with vital career
+              gains has become a need of the hour.
+            </p>
+            <p>
+              <b>Some proven career benefits are –</b>
+            </p>
+            <br />
+            <ul>
+              <li>
+                <b>GenAI-relevant course module:</b> You will gain practical
+                knowledge of the latest GenAI-rich tools (ChatGPT) enriching
+                your skill sets.
+              </li>
+              <br />
+              <li>
+                <b> Practice-based learning:</b> Here, you will gain hands-on
+                learning of tools and trends via 12+ real-time projects in your
+                domain.
+              </li>
+              <br />
+              <li>
+                <b>Domain-specific upskilling:</b> Experts will get an open
+                learning scope to master leading tools and boost their prior
+                domain skills.
+              </li>
+              <br />
+              <li>
+                <b>Global certifications:</b>A proven learning space to validate
+                learned skills via IBM & Microsoft credentials.
+              </li>
+              <br />
+              <li>
+                <b>100% Job and placement support services:</b> A proven
+                training institute to increase your job selection rates with our
+                hassle-free career support services (Career Service PRO).
+              </li>
+            </ul>
+
+            <br />
+          </div>
+        ) : (
+          ""
+        )}
+
+        {DSComibotre ? (
+          <div className={styles.CitiesRightInner}>
+            <h4 style={{ fontSize: "20px" }}>
+              About Data Science Training in Coimbatore in Alliance with IBM &
+              Microsoft
+            </h4>
+            <p>
+              Certainly, the fast-paced evolution of data science across the
+              business sectors in Coimbatore changes the career outlook for many
+              working pros. A hassle-free integration of data science with
+              various functions also changes the career outlook in Coimbatore.
+              Thus, the demand for upskilling via a data science course has
+              increased over the years.
+            </p>
+
+            <p>
+              Data scientists are highly in demand for their insightful support
+              of business tasks and decision-making. Data science is versatile
+              and can be applied in diverse fields. The leading MNCs prefer
+              data-driven methods for various tasks, such as marketing, HR,
+              production, content writing, research and development, and more.
+            </p>
+            <p>
+              Firms prefer talented data experts who can deal with complex data
+              sets and extract the facts to make informed decisions. Thus, the
+              demand for career-driven data science training in Coimbatore is
+              growing.
+            </p>
+            <p>
+              Learnbay envisions a bright, data-driven career future for busy
+              working experts willing to switch their jobs. Owing to the rapidly
+              changing digital space, Learnbay pledges to make the career shift
+              journey hassle-free with proven gains. Here, we welcome a large
+              base of experts eager to relaunch their slow-paced careers. Hence,
+              regardless of data science course fees in Coimbatore, many experts
+              enroll here.
+            </p>
+
+            <p>
+              Our inclusively curated data science course Coimbatore supports
+              end-to-end career change – from mentorship to job support
+              services. Our career counseling experts and mentors often follow
+              the latest data science trends to revise the course modules. Here,
+              learners will learn every detail about the current data science
+              tools and trends via our Generative AI-rich modules to stay ahead
+              of the race.
+            </p>
+            <p>
+              Unlike a typical data science or big data course in Coimbatore, we
+              precisely focus on a 360-degree career-building method. Learnbay
+              embraces the rapidly rising tech world and backs working experts
+              to attain proven success. We help you get hands-on learning and
+              practice with prime tools to level up tasks efficacious.
+            </p>
+            <p>
+              Learners enrolling in our data scientist course in Coimbatore will
+              work on capstone projects in their chosen domain to learn how to
+              use tools in real-time and devise better ways. Our practical
+              sessions equip you with 12+ live projects, and learners must
+              choose one according to their domain, career goals, and interests.{" "}
+            </p>
+
+            <p>
+              Nevertheless, data science in Coimbatore is presenting an upward
+              trend alluring many experts to revamp their careers and make
+              smooth progress. Joining our proven upskilling programs equips you
+              with proven skills to accelerate your career. Learning in-demand
+              data-driven tools helps experts choose the right one and improve
+              results.{" "}
+            </p>
+
+            <p>
+              Plus, our artificial intelligence and data science course in
+              Coimbatore carries globally accredited certificates from industry
+              leaders. Our alliance with IBM and Microsoft lifts the career
+              graph and equips it with global-scale growth offers. Once learners
+              finish their course, they will receive two certificates from IBM
+              and Microsoft. Similarly, successful project completion will
+              attest an IBM project certificate to your career with alluring
+              gains.{" "}
+            </p>
+            <p>
+              Yet, before joining our front-age courses, you must check if you
+              are eligible –
+            </p>
+
+            <br />
+            <ul>
+              <li>Basic knowledge of applied Mathematics/Statistics </li>
+              <li>Basic domain skills</li>
+            </ul>
+            <br />
+            <p>
+              <b>Note:</b> Experts with bachelor’s degrees in IT/non-IT fields
+              can join our data science training in Coimbatore to enrich career
+              values and achieve optimal gains.
+            </p>
+            <br />
+            <h4 style={{ fontSize: "20px" }}>
+              What proven career-driven gains can you develop with Learnbay’s
+              best data science courses in Coimbatore?
+            </h4>
+            <p>
+              Learnbay offers industry-specific training on the latest data
+              science tools and trends that limitlessly escalate success
+              metrics. Joining our upskilling programs with GenAI-rich modules
+              improves career values with better gains.
+            </p>
+            <p>
+              The rise of GenAI tools and trends lifts business values with
+              data-driven decisions and strategic moves. Hence, firms prefer
+              hiring skillful data experts to face industry ordeals and devise
+              better ways to address them.
+            </p>
+            <p>
+              <b>Some exciting career-driven gains are –</b>
+            </p>
+            <br />
+            <ul>
+              <li>
+                <b>Gen AI-enrich syllabus:</b> An instructor-led setup for
+                learning data science with Gen AI-rich tools (ChatGPT).
+              </li>
+              <br />
+              <li>
+                <b>Practice-based learning:</b> Here, experts will get the scope
+                for hands-on learning via 12+ data science projects.
+              </li>
+              <br />
+              <li>
+                <b>Domain-specific upskilling:</b>Learners can join us to make a
+                career in data science in their domain.
+              </li>
+              <br />
+              <li>
+                <b>Globally-valued certifications:</b> An upskilling gateway to
+                enriching career values in the field of data science via IBM &
+                Microsoft certificates. s
+              </li>
+              <br />
+              <li>
+                <b>Career Service PRO</b> Our data science training in
+                Coimbatore offers hassle-free job and placement support,
+                revamping generic careers.
+              </li>
+            </ul>
+
+            <br />
+          </div>
+        ) : (
+          ""
+        )}
+
+        {DSJaipur ? (
+          <div className={styles.CitiesRightInner}>
+            <h4 style={{ fontSize: "20px" }}>
+              About Data Science Course in Jaipur In Alliance with IBM &
+              Microsoft
+            </h4>
+            <p>
+              Learnbay offers cutting-edge a data science course in Jaipur
+              tailored for advancing the career of experienced working experts,
+              in alliance with Microsoft and IBM.
+            </p>
+
+            <p>
+              For India, the digital sphere demonstrates limitless growth in
+              various areas. In a nutshell, it has had a pandemic impact on the
+              country that has helped to evolve digital-friendly creations.
+              Also, the digital economy relies on big data, which directs the
+              endless use of data science. As the data science job field
+              thrives, we can see that the data science training in Jaipur is
+              also trending and preferred by top employers.
+            </p>
+            <p>
+              Numerous MNCs in the nation favor utilizing data-driven insights
+              for their operations and decision-making. The job prospects in the
+              data science field have reached their peak. Thus, pros choose to
+              improve their skills at the top data science institute in Jaipur
+              to secure improved career prospects.
+            </p>
+            <p>
+              Learnbay’s data science training in Jaipur captivates individuals
+              seeking job promotion. The advanced course outline offers crucial
+              career support from data specialists. We provide cutting-edge data
+              science education using various AI-powered tools and methods.
+            </p>
+
+            <p>
+              Technological advances mean employers must pursue candidates with
+              exceptional and established data skills to remain competitive in
+              their field. Thus, this section presents the tactical solution
+              alongside the real-world business model. Our top-rated data
+              science course in Jaipur depicts the pragmatic effects of diverse
+              learning strategies that can increase the likelihood of
+              professional achievement.
+            </p>
+            <p>
+              Data science is an economically growing sector for working pros at
+              various career levels. A data scientist in India, on average,
+              earns INR 7 lacs—25 lacs per year. It can vary depending on the
+              work experience, domain, and skill set.
+            </p>
+            <p>
+              Participating in a generic course may restrict growth and
+              professional victory options. Hence, enrolling in an
+              industry-focused program that offers job support can be
+              beneficial.
+            </p>
+            <p>
+              <b>Career benefits:</b>
+            </p>
+
+            <p>
+              Boost your career trajectory via Learnbay’s best data science
+              course in Jaipur. We provide not only the standard course followed
+              by career support but also ensure offering support till you get
+              your desired job. An industry-driven job assist program can aid in
+              career advances at all stages.
+            </p>
+            <p>
+              <b>Certification and Recognition: </b>
+            </p>
+            <p>
+              The data science syllabus in Jaipur provides prestigious, globally
+              recognized certifications from IBM and Microsoft. Register for our
+              training program now to enhance your abilities and achieve
+              established career progress.
+            </p>
+            <p>
+              So, if you are enthusiastic about pursuing a career in the data
+              science field, enroll in Learnbay’s best data science courses.
+              Before that, ensure the requisites –
+            </p>
+
+            <br />
+            <ul>
+              <li>Basic knowledge of applied Mathematics/Statistics </li>
+              <li>Basic domain skills</li>
+            </ul>
+            <br />
+            <p>
+              <b>Note:</b> Computer science, IT, or non-technical learners can
+              enroll in our course. Additionally, if you have a bachelor's
+              degree in computer science, management, or other fields, our data
+              science programs are here to accelerate your learning experience
+              and speed up your career.
+            </p>
+            <br />
+            <h4 style={{ fontSize: "20px" }}>
+              What job advantages will you gain from attending Learnbay’s data
+              science institute in Jaipur?
+            </h4>
+
+            <p>
+              Learnbay has greatly influenced industry-specific training
+              programs in Jaipur. Data science careers in Jaipur are becoming
+              increasingly attractive, enticing numerous pros to review their
+              career trajectories.
+            </p>
+            <p>
+              Meanwhile, Gen-AI upskilling in data science unlocks ways to move
+              toward successful career shifts. Here, the learners can gain an
+              inclusive learning space to work with the latest GenAI tools
+              (ChatGPT) with ethical practices.{" "}
+            </p>
+
+            
+            <p>
+              <b>Why choose Learbay for data science courses in Jaipur?</b>
+            </p>
+            <br />
+            <ul>
+              <li>
+                <b>GenAI-rich courses:</b> Learners get an in-depth and comprehensive knowledge of data science tools and trends in the GenAI age. 
+              </li>
+              <br />
+              <li>
+                <b>Domain-specific learning</b> We offer domain-specific data science training to improve pre-existing skills in Jaipur. 
+              </li>
+              <br />
+              <li>
+                <b>Experimental and practical learning:</b>  Experts with our data science course get hands-on learning of tools via live projects. 
+
+              </li>
+              <br />
+              <li><b>Global certifications:</b>We offer the best data science certification with global-scale job offers. Our certificates from IBM & MS unlock promising career paths. You will get two IBM certifications (project and course) and one MS certification.
+              </li>
+              <br />
+              <li>
+                <b>100% job assistance:</b>  Learners get 100% job and placement support with end-to-end skills growth and interviews. 
+              </li>
+            </ul>
+
+            <br />
+          </div>
+        ) : (
+          ""
+        )}
+ {DSPatna ? (
+          <div className={styles.CitiesRightInner}>
+            <h4 style={{ fontSize: "20px" }}>
+            About Data Science Course in Patna In Alliance with IBM & Microsoft
+
+            </h4>
+            <p>
+            Learnbay, in collaboration with Microsoft and IBM, offers a leading-edge Data Science Course in Patna designed to enhance the careers of experienced working professionals.
+            </p>
+
+            <p>
+            For India, the digital sphere represents limitless growth in various areas. In short, it has had a pandemic impact on the country, contributing to the development of digital-friendly creations. Also, the digital economy depends on big data, which drives the limitless application of data science. As the data science job market grows, we can see that data science training in Patna is becoming popular and preferred by top employers. 
+            </p>
+            <p>
+            80% of the MNCs in the country now prefer relying on data-driven insights only for their operations and decision-making. Job possibilities within the data science field have reached their highest point. As a result, professionals choose to improve their skills at the best data science institute in Patna to get better career opportunities.
+            </p>
+            <br/>
+            <h4 style={{ fontSize: "20px" }}>Why Choose Learnbay’s Data Science Training in Patna? </h4>
+            <p>
+            Learnbay’s data science training in Patna fascinates people looking for a promotion. The advanced course outline provides valuable career support from data specialists. We offer cutting-edge data science education using various AI-powered tools and techniques.
+            </p>
+
+            <p>
+            Technological advancements mean employers must pursue candidates with exceptional and established data skills to remain competitive in the field. Thus, this section presents the tactical solution alongside the real-world business model. Our top-rated data science course in Patna depicts the pragmatic effects of diverse learning strategies that can increase the likelihood of professional success.
+            </p>
+            <p>
+            Data science is a quickly developing field that provides prospects for working professionals at various career stages. On average, a data scientist in India earns between INR 7 Lakhs and 25 Lakhs per year, depending on work experience, field, and skillset.
+            </p>
+            <p>
+            Participating in a generic course may limit your growth and professional success options. As a result, enrolling in an industry-focused program that provides job support can be beneficial.
+            </p>
+            <p>
+              <b>Career benefits:</b>
+            </p>
+
+            <p>
+            Improve your career trajectory via Learnbay’s best data science course in Patna. We provide not only the standard course followed by career support but also ensure that you receive support until you find your ideal job. An industry-driven job assistance program can help with career advancement at any stage.
+            </p>
+            <p>
+              <b>Certification and Recognition: </b>
+            </p>
+            <p>
+            The data science syllabus in Patna includes highly esteemed, globally recognized certifications from IBM and Microsoft. Sign up for our training program right now to improve your abilities and boosts your career.
+            </p>
+            <p>
+            If you want to build a profession in data science, sign-up for Learnbay’s best data science course. Before that, ensure the requirements –
+            </p>
+
+            <br />
+            <ul>
+              <li>Basic knowledge of applied Mathematics/Statistics </li>
+              <li>Basic domain skills</li>
+            </ul>
+            <br />
+            <p>
+              <b>Note:</b> Computer science, IT, or non-technical learners can enrol in our course. Our data science programs are designed to expedite the learning process and advance your career if you hold a undergraduate degree in computer science (CS), management, or related fields
+            </p>
+            <br />
+            <h4 style={{ fontSize: "20px" }}>
+            What job benefits can you expect from signing up for Learnbay’s data science institute in Patna?
+
+
+            </h4>
+
+            <p>
+            Learnbay significantly impacted Patna’s industry-specific training programs. Data science careers in Patna are becoming more appealing, prompting many professionals to reconsider their career paths.
+            </p>
+            <p>
+            Meanwhile, Gen-AI is advancing in data science and preparing people for successful careers transformations. Learners can access an inclusive learning environment where they can use the most recent GenAI tools (ChatGPT) while adhering to ethical practices. 
+            </p>
+
+            
+            <p>
+              <b>What makes Learnbay stand out for data science courses in Patna?</b>
+            </p>
+            <br />
+            <ul>
+              <li>
+                <b>GenAI-rich courses:</b> Learners get an in-depth and comprehensive knowledge of data science tools and trends in the GenAI age. 
+              </li>
+              <br />
+              <li>
+                <b>Domain-specific learning</b> We offer domain-specific data science training to improve pre-existing skills in Patna. 
+
+              </li>
+              <br />
+              <li>
+                <b>Experimental and practical learning:</b>  Experts with our data science course get hands-on knowledge of tools via live projects. 
+
+              </li>
+              <br />
+              <li>  <b>Global certifications:</b> We offer the best data science certification with global-scale job offers. Our certificates from IBM & MS unlock promising career paths. You will get two IBM certifications (project and course) and one MS certification.
+              </li>
+              <br />
+              <li>
+                <b>100% job assistance:</b> Learners get 100% job and placement support with end-to-end skills growth and interviews.  
+              </li>
+            </ul>
+
+            <br />
+          </div>
+        ) : (
+          ""
+        )}
         {cityText ? (
           <div className={styles.CitiesRightInner}>
             <p>
@@ -5271,7 +6077,6 @@ const CitiesRight = ({
                   </ul>
                   <p className={styles.pp}>{ModuleMasterBot2}</p>
                   <p className={styles.pp}>{ModuleMasterBot3}</p>
-    
                 </>
               ) : (
                 ""
@@ -5563,9 +6368,9 @@ const CitiesRight = ({
               <b>
                 {" "}
                 <h4 style={{ fontSize: "20px", marginBottom: "20px" }}>
-                {" "}
-                { JobHeadIndia01}
-              </h4>
+                  {" "}
+                  {JobHeadIndia01}
+                </h4>
                 <i>{JobBot23}</i>
               </b>
 

@@ -153,12 +153,12 @@ export default function Home() {
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
 
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(DSBangaloreSchema),
           }}
-        />
+        /> */}
       </Head>
       <main>
         {" "}
