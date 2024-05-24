@@ -117,8 +117,8 @@ const Footer = ({
             <>
               <span style={{ display: "flex", marginTop: "10px" }}>
                 <BsFillTelephoneFill className="bIcons" />
-                <Link href="tel:+919731135221" target="_blank">
-                  (+91) 973 113 5221
+                <Link href="tel:+917795687988" target="_blank">
+                  (+91) 77956 87988
                 </Link>
               </span>
             </>
