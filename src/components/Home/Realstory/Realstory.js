@@ -114,7 +114,6 @@ const Realstory = () => {
                 nextEl: `.${styles.nextarrow}`,
                 prevEl: `.${styles.prevarrow}`,
               }}
-            
             >
               {profileData.map((profile, index) => (
                 <SwiperSlide key={profile.id}>

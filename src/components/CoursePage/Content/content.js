@@ -367,10 +367,10 @@ function DataAnalytics({
 
       {AIML ? (
         <div className={styles.content}>
-          <h1>
+          <h2>
             Gain Expertise to Grow Beyond Technology with Artificial
             Intelligence Certification Program{" "}
-          </h1>
+          </h2>
           <p>
             Leap forward with the{" "}
             <b>Artificial Intelligence Certification Program</b> to unleash a
@@ -1792,10 +1792,10 @@ function DataAnalytics({
       )}
       {Banalytics ? (
         <div className={styles.content}>
-          <h1>
+          <h2>
             Hone Your Career With The Cutting Edge Business Analytics Online
             Course{" "}
-          </h1>
+          </h2>
           <p>
             Industries consist of innumerable amounts of data, and companies are
             in a blind situation where they are not able to use this data to
@@ -2374,10 +2374,10 @@ function DataAnalytics({
 
       {HRContent ? (
         <div className={styles.content}>
-          <h1>
+          <h2>
             Lead a Data-informed Work Culture via an Industry-focused HR
             Analytics Course
-          </h1>
+          </h2>
           <p>
             Step up to build a data-driven workspace with more factual HR
             decisions. In the human-tech nexus, thrive as a top-notch HR leader
@@ -2676,10 +2676,10 @@ function DataAnalytics({
       )}
       {Marketing ? (
         <div className={styles.content}>
-          <h1>
+          <h2>
             Learn to Optimize the ROI of Your Business with a Marketing
             Analytics Course
-          </h1>
+          </h2>
           <p>
             Upskill and set foot into a data-driven culture of marketing. Engage
             yourself in developing insightful marketing campaigns and leverage

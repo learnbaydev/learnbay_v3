@@ -12,9 +12,9 @@ function ContactUs({
   return (
     <section className={styles.ContactUs}>
       <div className={styles.LeftSide}>
-        <h1 className={styles.h1}>
+        <h2 className={styles.h1}>
           Get Ahead with Industry-Leading Courses <br />
-        </h1>
+        </h2>
 
         <div className={styles.conpara}>
           <p>
