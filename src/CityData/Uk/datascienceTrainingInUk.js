@@ -149,7 +149,7 @@ export const DSUKCourseData = [
           data: [
             {
               id: 0,
-              ques: "What are Data Science Training courses available at Learnbay in USA?",
+              ques: "What are Data Science Training courses available at Learnbay in UK?",
               linkText1: "Foundational Data Science Training Course, ",
               linkText2: "Advance Data Science Certification Course, ",
               linkText3:
@@ -164,7 +164,7 @@ export const DSUKCourseData = [
             },
             {
               id: 1,
-              ques: "What are the prerequisites for these Data Science training Courses in USA?",
+              ques: "What are the prerequisites for these Data Science training Courses in UK?",
               ans: "There are no prerequisites for this Data Science Foundation course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
               open: false,
             },
@@ -177,25 +177,25 @@ export const DSUKCourseData = [
             },
             {
               id: 3,
-              ques: "What is a Flexi Subscription in these advanced data science courses in USA?",
+              ques: "What is a Flexi Subscription in these advanced data science courses in UK?",
               ans: "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Placement Assistance  - 3-years.",
               open: false,
             },
             {
               id: 4,
-              ques: "What’s the duration of these advanced data science courses in USA?",
+              ques: "What’s the duration of these advanced data science courses in UK?",
               ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
               open: false,
             },
             {
               id: 5,
-              ques: "What is the mode of data science training in USA at Learnbay?",
+              ques: "What is the mode of data science training in UK at Learnbay?",
               ans: "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.",
               open: false,
             },
             {
               id: 6,
-              ques: "How can I opt for a Hybrid mode of learning in IBM data science training courses in USA, At Learnbay? ",
+              ques: "How can I opt for a Hybrid mode of learning in IBM data science training courses in UK, At Learnbay? ",
               ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. ",
               open: false,
             },
@@ -207,13 +207,13 @@ export const DSUKCourseData = [
           data: [
             {
               id: 0,
-              ques: "What is domain specialization in the professional data science certification courses provided by Learnbay in USA?",
+              ques: "What is domain specialization in the professional data science certification courses provided by Learnbay in UK?",
               ans: "We offer industry-specific full-stack data science modules, via which you learn the respective industry’s best practices. But this added benefit is available in all the three mentioned courses, except the foundational data science course. ",
               open: true,
             },
             {
               id: 1,
-              ques: "What are the available elective domain options in the different data science training courses of Learnbay in USA?",
+              ques: "What are the available elective domain options in the different data science training courses of Learnbay in UK?",
               ans: " Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps; Sales, Marketing, & HR; Retail, E-Commerce, & Supply Chain; Healthcare, Pharma, & Clinical Research; BFSI; Manufacturing, Mechanical, & Telecom; Media, Hospitality, & Transportation; Oil, Gas, & Energy",
               open: false,
             },
@@ -264,7 +264,7 @@ export const DSUKCourseData = [
           data: [
             {
               id: 0,
-              ques: "What is the total fee for Data Science Certifications courses in USA?",
+              ques: "What is the total fee for Data Science Certifications courses in UK?",
               ans: `The total course fee for the 
                     Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
                     Advance Data Science and AI Certification course is 1,05,000/- inclusive of GST.
@@ -274,13 +274,13 @@ export const DSUKCourseData = [
             },
             {
               id: 1,
-              ques: "Can I pay in installments for these Data Science Certification courses in USA?",
+              ques: "Can I pay in installments for these Data Science Certification courses in UK?",
               ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
               open: false,
             },
             {
               id: 2,
-              ques: " Is there any scholarship/discount available for these Data Science training courses available in USA? What is Group Discount?",
+              ques: " Is there any scholarship/discount available for these Data Science training courses available in UK? What is Group Discount?",
               ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally.
                     Please check our websites or contact our sales team to know more about the applicable discounts.
                     
@@ -316,7 +316,7 @@ export const DSUKCourseData = [
                     Advance Data Science and AI Certification Course -2 Capstones.
                     Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
                     Data Science and AI Training with Placement Assistance- 3 Capstones.
-                    How many real-time projects/case studies will be covered in these Data Science certification courses in USA?
+                    How many real-time projects/case studies will be covered in these Data Science certification courses in UK?
                     Depending on the course you choose the number of live projects will vary.  
                     Foundational Data Science and AI Training course- 8 projects.
                     Advance Data Science and AI Certification course-12 projects.
@@ -330,7 +330,7 @@ export const DSUKCourseData = [
             },
             {
               id: 1,
-              ques: "How will the projects be executed in USA?",
+              ques: "How will the projects be executed in UK?",
               ans: "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.",
               open: false,
             },
@@ -359,7 +359,7 @@ export const DSUKCourseData = [
           data: [
             {
               id: 0,
-              ques: "What's the eligibility for a job assistance Program in Learnbay Data science training courses in USA?",
+              ques: "What's the eligibility for a job assistance Program in Learnbay Data science training courses in UK?",
   
               ans: `You should have completed the course with :
                     A minimum score of 70% in assessments
@@ -369,7 +369,7 @@ export const DSUKCourseData = [
             },
             {
               id: 1,
-              ques: "How long will I get support for job assistance at Learnbay in USA?",
+              ques: "How long will I get support for job assistance at Learnbay in UK?",
               ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
               open: false,
             },
@@ -410,7 +410,7 @@ export const DSUKCourseData = [
             },
             {
               id: 1,
-              ques: "Can a Learnbay student in USA choose to study from their desired mentor?",
+              ques: "Can a Learnbay student in UK choose to study from their desired mentor?",
               ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
               open: false,
             },

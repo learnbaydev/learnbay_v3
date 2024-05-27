@@ -30,6 +30,7 @@ function Gethire({ data, showimg, shoimgtwo }) {
                 width={120}
                 height={100}
                 loading="lazy"
+                alt="devops"
               />
             ) : (
               <Image src={data.image2} width={85} height={75} loading="lazy" />
@@ -49,14 +50,14 @@ function Gethire({ data, showimg, shoimgtwo }) {
           ))}
         </div>
         <div className={styles.gamimg}>
-          <Image src={data.image3} width={360} height={40} loading="lazy" />
+          <Image src={data.image3} width={360} height={40} loading="lazy" alt="devops" />
         </div>
         <div>
           <div className={styles.box3limg}>
             {shoimgtwo ? (
-              <Image src={data.image11} width={100} height={50} loading="lazy" />
+              <Image src={data.image11} width={100} height={50} loading="lazy" alt="devops"/>
             ) : (
-              <Image src={data.image4} width={65} height={65} loading="lazy" />
+              <Image src={data.image4} width={65} height={65} loading="lazy" alt="devops"/>
             )}
           </div>
         </div>
@@ -87,7 +88,7 @@ function Gethire({ data, showimg, shoimgtwo }) {
             ))}
           </div>
           <div className={styles.lastimg}>
-            <Image src={data.image5} width={90} height={70} loading="lazy" />
+            <Image src={data.image5} width={90} height={70} loading="lazy" alt="devops" />
           </div>
         </div>
       </div>
