@@ -36,8 +36,15 @@
   font-weight: 400;
   border-radius: 5px;
   margin-bottom: 5px;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
+.span:hover,
+.spanActive:hover {
+  background-color: #0367a6;
+  transform: scale(1.05);
+  color: white;
+}
 
 .spanActive {
   color: white;
@@ -54,6 +61,17 @@
 .RowWrap {
   display: grid;
   grid-template-columns: 49% 49%;
+  gap: 20px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .Row {
@@ -76,6 +94,11 @@
   display: flex;
   height: fit-content;
   justify-content: space-between;
+  transition: transform 0.3s;
+}
+
+.Program:hover {
+  transform: scale(1.05);
 }
 
 .Program h5 {
@@ -91,7 +114,6 @@
 @media (max-width: 1281px) {
   .RowWrap {
     grid-template-columns: 30% 30% 30%;
-    gap: 20px;
   }
 
   .Program {

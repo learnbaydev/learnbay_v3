@@ -14,8 +14,13 @@ const raleway = Raleway({
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
-    TagManager.initialize({ gtmId: "GTM-NN8XWH8" });
-  }, [0]);
+    const timer = setTimeout(() => {
+      TagManager.initialize({ gtmId: "GTM-NN8XWH8" });
+    },
+     3000); 
+
+    return () => clearTimeout(timer);
+  }, []);
   return (
     <>
       <main className={raleway.className}>

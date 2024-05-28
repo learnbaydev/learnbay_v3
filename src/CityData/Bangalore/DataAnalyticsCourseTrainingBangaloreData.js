@@ -855,37 +855,37 @@ export const DABangaloreCourseData = [
     ProgramBot16: (
       <span>
         Apart from the data analytics courses, Learnbay also provides{" "}
-        <a
+        <Link
           href="https://www.learnbay.co/data-science-course-training-in-bangalore"
           style={{ color: "#2D9CD7", fontWeight: "600" }}
           target="_blank"
         >
           data science
-        </a>
+        </Link>
         ,{" "}
-        <a
+        <Link
           href="https://www.learnbay.co/machine-learning-course-training-in-bangalore"
           style={{ color: "#2D9CD7", fontWeight: "600" }}
           target="_blank"
         >
           machine learning
-        </a>
+        </Link>
         ,{" "}
-        <a
+        <Link
           href="https://www.learnbay.co/business-analytics-course-training-in-bangalore"
           style={{ color: "#2D9CD7", fontWeight: "600" }}
           target="_blank"
         >
           business analytics
-        </a>
+        </Link>
         , and{" "}
-        <a
+        <Link
           href="https://www.learnbay.co/artificial-intelligence-ai-course-training-bangalore"
           style={{ color: "#2D9CD7", fontWeight: "600" }}
           target="_blank"
         >
           artificial intelligence courses in Bangalore
-        </a>
+        </Link>
         . What are you waiting for? Grab your chance and register for the best{" "}
         <b>Data Analytics Training in Bangalore</b> Now!
       </span>
