@@ -45,14 +45,14 @@ const Footer = ({
               height="100"
             />
           ) : (
-            <a href="/">
+            <Link href="/">
               <Image
                 src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/white-logo.webp"
                 alt="Learnbay"
                 width="230"
                 height="100"
               />
-            </a>
+            </Link>
           )}
 
           <p className={styles.FooterInnerli}>
@@ -78,24 +78,24 @@ const Footer = ({
             </div>
           ) : (
             <div className={styles.FooterSocial}>
-              <a href="https://twitter.com/Learnbay" target="_blank">
+              <Link href="https://twitter.com/Learnbay" target="_blank">
                 <BsTwitterX className="bIcons" />
-              </a>
-              <a href="https://www.facebook.com/learnbay/" target="_blank">
+              </Link>
+              <Link href="https://www.facebook.com/learnbay/" target="_blank">
                 <FaFacebookF className="bIcons" />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://www.linkedin.com/company/learnbay/"
                 target="_blank"
               >
                 <FaLinkedinIn className="bIcons" />
-              </a>
-              <a href="https://bit.ly/Learnbay_YouTube" target="_blank">
+              </Link>
+              <Link href="https://bit.ly/Learnbay_YouTube" target="_blank">
                 <FaYoutube className="bIcons" />
-              </a>
-              <a href="https://instagram.com/learnbayofficial" target="_blank">
+              </Link>
+              <Link href="https://instagram.com/learnbayofficial" target="_blank">
                 <FaInstagram className="bIcons" />
-              </a>
+              </Link>
             </div>
           )}
 
@@ -160,9 +160,9 @@ const Footer = ({
                   <p className={styles.FooterInnerP}>{Head.Head}</p>
                   {Head.Courses.map((Courses) => {
                     return (
-                      <a href={Courses.url} key={Courses.name}>
+                      <Link href={Courses.url} key={Courses.name}>
                         <p className={styles.FooterInnerli}>{Courses.name}</p>
-                      </a>
+                      </Link>
                     );
                   })}
                 </div>
@@ -179,11 +179,11 @@ const Footer = ({
                   <p className={styles.FooterInnerP}>{Head.Head}</p>
                   {Head.LearnbayData.map((LearnbayData) => {
                     return (
-                      <a key={LearnbayData.name}>
+                      <Link key={LearnbayData.name}>
                         <p className={styles.FooterInnerli}>
                           {LearnbayData.name}
                         </p>
-                      </a>
+                      </Link>
                     );
                   })}
                 </div>
@@ -198,11 +198,11 @@ const Footer = ({
                   <p className={styles.FooterInnerP}>{Head.Head}</p>
                   {Head.LearnbayData.map((LearnbayData) => {
                     return (
-                      <a href={LearnbayData.url} key={LearnbayData.name}>
+                      <Link href={LearnbayData.url} key={LearnbayData.name}>
                         <p className={styles.FooterInnerli}>
                           {LearnbayData.name}
                         </p>
-                      </a>
+                      </Link>
                     );
                   })}
                 </div>
@@ -230,7 +230,7 @@ const Footer = ({
         ) : (
           <div className={styles.FooterDivInner}>
             <p className={styles.FooterInnerP}>Get Our Apps On</p>
-            <a
+            <Link
               href="https://play.google.com/store/apps/details?id=com.app.learnbay"
               target="_blank"
             >
@@ -238,14 +238,14 @@ const Footer = ({
                 <FaAndroid className="bIcons" style={{ fontSize: "30px" }} />
                 Get Our Android App
               </button>
-            </a>
+            </Link>
             <p className={styles.FooterInnerP}>Find Us Here</p>
-            <a href="https://goo.gl/maps/4tC9yN8VTkBf72cW9" target="_blank">
+            <Link href="https://goo.gl/maps/4tC9yN8VTkBf72cW9" target="_blank">
               <p className={styles.FooterInnerli}>
                 #1090 , 1st floor, 18th cross road HSR layout sector 3,
                 Bangalore - 560102 (Above Sangam Sweets)
               </p>
-            </a>
+            </Link>
           </div>
         )}
       </div>
@@ -304,11 +304,11 @@ const Footer = ({
                         <p className={styles.FooterInnerP}>{cityData.city}</p>
                         {cityData.cityData.map((city) => {
                           return (
-                            <a href={city.url} key={city.name}>
+                            <Link href={city.url} key={city.name}>
                               <p className={styles.FooterInnerli}>
                                 {city.name}
                               </p>
-                            </a>
+                            </Link>
                           );
                         })}
                       </div>

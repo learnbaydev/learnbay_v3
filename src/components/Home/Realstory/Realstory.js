@@ -95,7 +95,7 @@ const Realstory = () => {
             <img
               key={slide.id}
               src={slide.bigImage}
-              alt={`Big Image ${slide.id}`}
+              alt="testimonials"
               onClick={() => videoShow(slide.link)}
               style={{ cursor: "pointer" }}
             />
@@ -127,8 +127,9 @@ const Realstory = () => {
                       src={profile.imageUrl}
                       width={300}
                       height={100}
-                      alt={profile.name}
+                      alt="testimonials"
                       className={styles["big-image"]}
+                      loading="lazy"
                     />
                   </div>
                 </SwiperSlide>

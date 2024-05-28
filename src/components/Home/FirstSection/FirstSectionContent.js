@@ -69,7 +69,7 @@ const FirstSectionContent = ({ setPopups, setVideo }) => {
                 width="580"
                 height="450"
                 priority
-                quality={40}
+                quality={50}
                 alt="data science course"
 
 
