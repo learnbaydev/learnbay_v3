@@ -313,7 +313,7 @@ export default function Home() {
           interstedInHide={true}
           titleCourse="Advanced Data Science and AI Program with domain specialization"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
-          idss="YWxTtvb3x-U"
+          idss="-XjsfU8-bK8"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
           firstHeading="Best Data Science Courses in Pune"
           firstTopPara="Foundational and Advanced Job-ready"
