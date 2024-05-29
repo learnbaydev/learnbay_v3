@@ -179,11 +179,9 @@ const Footer = ({
                   <p className={styles.FooterInnerP}>{Head.Head}</p>
                   {Head.LearnbayData.map((LearnbayData) => {
                     return (
-                      <Link key={LearnbayData.name}>
                         <p className={styles.FooterInnerli}>
                           {LearnbayData.name}
                         </p>
-                      </Link>
                     );
                   })}
                 </div>
