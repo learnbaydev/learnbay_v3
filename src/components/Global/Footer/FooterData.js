@@ -340,7 +340,7 @@ export const CityFooterData = [
         city: "jaipur",
         cityData: [
           {
-            id: 1,
+            id: 0,
             name: "Data Science Course Training in Jaipur",
             url: "/datascience/india/data-science-course-training-in-jaipur",
           },
@@ -372,6 +372,28 @@ export const CityFooterData = [
             id: 1,
             name: "Data Science Course Training in Patna",
             url: "/datascience/india/data-science-course-training-in-patna",
+          },
+        ],
+      },
+      {
+        id: "noida",
+        city: "Noida",
+        cityData: [
+          {
+            id: 2,
+            name: "Data Science Course Training in Noida",
+            url: "/datascience/india/data-science-course-training-in-noida",
+          },
+        ],
+      },
+      {
+        id: "marathahalli",
+        city: "Marathahalli",
+        cityData: [
+          {
+            id: 3,
+            name: "Data Science Course Training in Marathahalli",
+            url: "/datascience/bangalore/data-data-science-course-training-in-marathahalli",
           },
         ],
       },

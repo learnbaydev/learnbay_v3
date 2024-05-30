@@ -10,17 +10,17 @@ const sumbit = () => {
   return (
     <div>
       <Head>
-        <title>Learnbay - Counselling Form - Apply</title>
+        <title>Learnbay - Domain Info</title>
         <meta
           name="description"
-          content="Submit your information to LearnBay to unlock a world of learning opportunities. Join our platform today and start your path to success."
+          content="Choose Your our Domain information to LearnBay to unlock a world of learning opportunities. Join our platform today and start your path to success."
         />
         <meta name="robots" content="index, follow" />
         <link
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
-        <link rel="canonical" href="https://www.learnbay.co/submit-info" />
+        <link rel="canonical" href="https://www.learnbay.co/domain" />
       </Head>
       <Navbar popup={true} radio={true} />
       <WhoProgram
