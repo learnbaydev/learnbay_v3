@@ -148,8 +148,8 @@ export const DSNoidaCourseData = [
           data: [
             {
               id: 0,
-              ques: "How long does the data science course in Bhubaneswar typically take to complete?              ",
-              ans: "Learnbay offers flexible data science training in Bhubaneswar that typically ranges from 7 – 9 months (for certification course) to 18 months (for master’s degree program).               ",
+              ques: "How long does the data science course in Noida typically take to complete?              ",
+              ans: "Learnbay offers flexible data science training in Noida that typically ranges from 7 – 9 months (for certification course) to 18 months (for master’s degree program).               ",
   
               link: false,
               open: true,
@@ -169,13 +169,13 @@ export const DSNoidaCourseData = [
             {
               id: 2,
               ques: "Can I attend classes online, or is it only available in a physical classroom?              ",
-              ans: `We provide both classroom and online instructor-led training sessions at Learnbay. You upskill with the best institute for data science in Bhubaneswar with an industry-led course curriculum. You can opt for online or offline sessions according to your working schedules and flexibility.               `,
+              ans: `We provide both classroom and online instructor-led training sessions at Learnbay. You upskill with the best institute for data science in Noida with an industry-led course curriculum. You can opt for online or offline sessions according to your working schedules and flexibility.               `,
               open: false,
             },
             {
               id: 3,
               ques: "Do you offer flexibility in scheduling for working professionals?              ",
-              ans: "Yes, we offer a flexible learning platform for working professionals in any domain to maintain a work-learn balance. Learners get a hybrid learning facility here and can choose their batch timings (weekday or weekend) at their convenience to upskill with data science programs in Bhubaneswar.               ",
+              ans: "Yes, we offer a flexible learning platform for working professionals in any domain to maintain a work-learn balance. Learners get a hybrid learning facility here and can choose their batch timings (weekday or weekend) at their convenience to upskill with data science programs in Noida.               ",
               open: false,
             },
           ],
@@ -218,13 +218,13 @@ export const DSNoidaCourseData = [
             {
               id: 0,
               ques: "What is the cost of the data science course, and are there any installment options?              ",
-              ans: `The data science course in Bhubaneswar fees sum to ₹105,000 + 18% GST. You will have an installment facility, where you have to pay ₹6,883/month. One can make payments through credit card, UPI, or internet banking.               `,
+              ans: `The data science course in Noida fees sum to ₹105,000 + 18% GST. You will have an installment facility, where you have to pay ₹6,883/month. One can make payments through credit card, UPI, or internet banking.               `,
               open: true,
             },
             {
               id: 1,
               ques: "Do you offer any scholarships, discounts, or financial assistance programs?              ",
-              ans: `Learnbay offers flexible financing options for paying data science course fees in Bhubaneswar. You can opt for no-cost EMI, installments, or interest-free loans to pay the fee within 12 months. 
+              ans: `Learnbay offers flexible financing options for paying data science course fees in Noida. You can opt for no-cost EMI, installments, or interest-free loans to pay the fee within 12 months. 
                 We also occasionally offer a 15%—20% discount for early birds. Yet, a group discount is available for learners who join with one or more friends. 
                 `,
               list1: "Group of 2: 5% extra discount             ",
@@ -240,7 +240,7 @@ export const DSNoidaCourseData = [
               ans: "Learners opting for the data science course at Learnbay are advised to go through its Refund/Cancellation Policy before     ",
               linkText1: "Refund/Cancellation Policy",
               ansAfter:
-                " enrolling. The policy mentions that learners can withdraw their data science fees in Bhubaneswar.           ",
+                " enrolling. The policy mentions that learners can withdraw their data science fees in Noida.           ",
               link: true,
               open: false,
             },
@@ -277,7 +277,7 @@ export const DSNoidaCourseData = [
             {
               id: 0,
               ques: "Is the certification internationally recognized?              ",
-              ans: `Learnbay offers an internationally recognized data science certification in Bhubaneswar. Once learners complete the course and tasks, they get dual certification: a project experience certificate from IBM and course completion certificates from IBM and Microsoft.               `,
+              ans: `Learnbay offers an internationally recognized data science certification in Noida. Once learners complete the course and tasks, they get dual certification: a project experience certificate from IBM and course completion certificates from IBM and Microsoft.               `,
               open: true,
             },
           ],

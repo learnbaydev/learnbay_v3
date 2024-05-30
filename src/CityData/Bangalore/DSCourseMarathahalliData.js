@@ -148,8 +148,8 @@ export const DSMarathCourseData = [
           data: [
             {
               id: 0,
-              ques: "How long does the data science course in Coimbatore typically take to complete?              ",
-              ans: "Learnbay offers flexible data science training in Coimbatore that typically ranges from 7 – 9 months (for certification course) to 18 months (for master’s degree program).               ",
+              ques: "How long does the data science course in Marathahalli typically take to complete?              ",
+              ans: "Learnbay offers flexible data science training in Marathahalli that typically ranges from 7 – 9 months (for certification course) to 18 months (for master’s degree program).               ",
   
               link: false,
               open: true,
@@ -169,13 +169,13 @@ export const DSMarathCourseData = [
             {
               id: 2,
               ques: "Can I attend classes online, or is it only available in a physical classroom?              ",
-              ans: `We provide both classroom and online instructor-led training sessions at Learnbay. You upskill with the best institute for data science in Coimbatore with an industry-led course curriculum. You can opt for online or offline sessions according to your working schedules and flexibility.               `,
+              ans: `We provide both classroom and online instructor-led training sessions at Learnbay. You upskill with the best institute for data science in Marathahalli with an industry-led course curriculum. You can opt for online or offline sessions according to your working schedules and flexibility.               `,
               open: false,
             },
             {
               id: 3,
               ques: "Do you offer flexibility in scheduling for working professionals?              ",
-              ans: "Yes, we offer a flexible learning platform for working professionals in any domain to maintain a work-learn balance. Learners get a hybrid learning facility here and can choose their batch timings (weekday or weekend) at their convenience to upskill with data science programs in Coimbatore.               ",
+              ans: "Yes, we offer a flexible learning platform for working professionals in any domain to maintain a work-learn balance. Learners get a hybrid learning facility here and can choose their batch timings (weekday or weekend) at their convenience to upskill with data science programs in Marathahalli.               ",
               open: false,
             },
           ],
@@ -218,13 +218,13 @@ export const DSMarathCourseData = [
             {
               id: 0,
               ques: "What is the cost of the data science course, and are there any installment options?              ",
-              ans: `The data science course in Coimbatore fees sum to ₹105,000 + 18% GST. You will have an installment facility, where you have to pay ₹6,883/month. One can make payments through credit card, UPI, or internet banking.               `,
+              ans: `The data science course in Marathahalli fees sum to ₹105,000 + 18% GST. You will have an installment facility, where you have to pay ₹6,883/month. One can make payments through credit card, UPI, or internet banking.               `,
               open: true,
             },
             {
               id: 1,
               ques: "Do you offer any scholarships, discounts, or financial assistance programs?              ",
-              ans: `Learnbay offers flexible financing options for paying data science course fees in Coimbatore. You can opt for no-cost EMI, installments, or interest-free loans to pay the fee within 12 months. 
+              ans: `Learnbay offers flexible financing options for paying data science course fees in Marathahalli. You can opt for no-cost EMI, installments, or interest-free loans to pay the fee within 12 months. 
                 We also occasionally offer a 15%—20% discount for early birds. Yet, a group discount is available for learners who join with one or more friends. 
                 `,
               list1: "Group of 2: 5% extra discount             ",
@@ -240,7 +240,7 @@ export const DSMarathCourseData = [
               ans: "Learners opting for the data science course at Learnbay are advised to go through its Refund/Cancellation Policy before     ",
               linkText1: "Refund/Cancellation Policy",
               ansAfter:
-                " enrolling. The policy mentions that learners can withdraw their data science fees in Coimbatore.           ",
+                " enrolling. The policy mentions that learners can withdraw their data science fees in Marathahalli.           ",
               link: true,
               open: false,
             },
@@ -277,7 +277,7 @@ export const DSMarathCourseData = [
             {
               id: 0,
               ques: "Is the certification internationally recognized?              ",
-              ans: `Learnbay offers an internationally recognized data science certification in Coimbatore. Once learners complete the course and tasks, they get dual certification: a project experience certificate from IBM and course completion certificates from IBM and Microsoft.               `,
+              ans: `Learnbay offers an internationally recognized data science certification in Marathahalli. Once learners complete the course and tasks, they get dual certification: a project experience certificate from IBM and course completion certificates from IBM and Microsoft.               `,
               open: true,
             },
           ],

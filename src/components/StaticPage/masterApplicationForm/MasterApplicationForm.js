@@ -70,19 +70,7 @@ const MasterApplicationForm = ({ secondForm, title }) => {
 
   return (
     <>
-    <Head>
-        <title>Learnbay - Counselling Form - Apply</title>
-        <meta
-          name="description"
-          content="Submit your information to LearnBay to unlock a world of learning opportunities. Join our platform today and start your path to success."
-        />
-        <meta name="robots" content="index, follow" />
-        <link
-          rel="icon"
-          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
-        />
-        <link rel="canonical" href="https://www.learnbay.co/submit-info" />
-      </Head>
+
       <Navbar masterApplication={true} />
       <div className={styles.formWrapper}>
         <div className={styles.leftWrap}>
