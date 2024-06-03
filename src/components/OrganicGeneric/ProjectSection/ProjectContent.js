@@ -27,10 +27,6 @@ const ProjectContent = ({
 
   return (
     <>
-      <h4 className={styles.h4}>
-        Work on Real Project with Learnbay’s{" "}
-        <span className={styles.span}>ProjectLab</span>
-      </h4>
       <div className={styles.box}>
         <Popup
           trigger={popups}
@@ -60,18 +56,22 @@ const ProjectContent = ({
             />
           </div>
         </Popup>
-
+<div>
+<h4 className={styles.h4}>
+        Work on Real Project with Learnbay’s{" "}
+        <span className={styles.span}>ProjectLab</span>
+      </h4>
         <div className={styles.InnerBox1}>
           <div className="imgWrapper">
-            <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/project-innovation.webp"
-              loading="lazy"
-              quality={40}
-              width="358"
-              height="212"
-              alt="profile-Img"
-              onClick={() => videoSHow()}
-            />
+          <Image
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/innovation-lab.webp"
+                loading="lazy"
+                quality={40}
+                width="358"
+                height="212"
+                alt="profile-Img"
+                
+              />
           </div>
           <p className={styles.BlueHed}>Project Innovation Lab</p>
           <div className={styles.iconPara}>
@@ -91,16 +91,16 @@ const ProjectContent = ({
             </p>
           </div>
         </div>
+</div>
         <div className={styles.InnerBox2}>
           <div className="imgWrapper">
-            <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Project-Certification.webp"
+          <Image
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/project-man.webp"
               loading="lazy"
               quality={40}
               width="358"
               height="212"
               alt="profile-Img"
-              onClick={() => videoSHow()}
             />
           </div>
           <p className={styles.BlueHed}>Project Certification from IBM</p>
@@ -123,14 +123,18 @@ const ProjectContent = ({
       ) : (
         <div className={styles.secondDiv}>
           <div className={styles.firstDiv}>
-            <p className={styles.BlueHed}>Domain Specialization</p>
-            <p className={styles.para}>
-              With domain specialization, we help you in leveraging your prior
-              work experience to ensure its relevance in your career transition,
-              aiming to get a good salary hike for you.
-            </p>
+            <p className={styles.BlueHed}>Domain <span className={styles.span}>Specialization</span></p>
+            <p className={styles.paraP}>
+            <FaCheckCircle className={styles.greenIcon} />
+            Leverage your prior work experience to ensure its relevance in your
+            career transition.
+          </p>
+          <p className={styles.paraP}>
+            <FaCheckCircle className={styles.greenIcon} />
+            Gain expertise in you domain and aim for higher salary hikes.
+          </p>
             <div className={styles.iconBoxDesktop}>
-              <div className={styles.iconBox}>
+              {/* <div className={styles.iconBox}>
                 <div className={styles.BoxIconinner}>
                   <BsBank className={styles.icon} />
 
@@ -144,23 +148,21 @@ const ProjectContent = ({
                   <AiOutlineFundProjectionScreen className={styles.icon1} />
                   <p>MARKETING & HR</p>
                 </div>
-              </div>
-              <div className={styles.iconButton}>
-                <div className={styles.BoxIconinner}>
+              </div> */}
+                {/* <div className={styles.BoxIconinner}>
                   <BsTruck className={styles.icon1} />
                   <p>SUPPLYCHAIN</p>
-                </div>
+                </div> */}
                 <div onClick={popupShow}>
                   <Button
-                    bannerButton={true}
-                    text="Download Domain Syllabus"
-                    passIcon={<FaDownload className="bIconS" />}
+                    OrangeButton={true}
+                    text="Domain Syllabus"
+                    passIcon={<FaDownload className="bIconS" style={{marginLeft: "10px"}} />}
                   />
-                </div>
               </div>
             </div>
             <div className={styles.iconBoxMobile}>
-              <div className={styles.iconBox}>
+              {/* <div className={styles.iconBox}>
                 <div className={styles.BoxIconinner}>
                   <BsBank className={styles.icon} />
                   <p>BFSI</p>
@@ -177,10 +179,10 @@ const ProjectContent = ({
                   <BsTruck className={styles.icon1} />
                   <p>SUPPLYCHAIN</p>
                 </div>
-              </div>
+              </div> */}
               <div className={styles.buttonDiv} onClick={popupShow}>
                 <Button
-                  bannerButton={true}
+                OrangeButton={true}
                   text="Download Domain Syllabus"
                   passIcon={<FaDownload className="bIconS" />}
                 />
@@ -189,14 +191,13 @@ const ProjectContent = ({
           </div>
           <div className={styles.image}>
             <div className="imgWrapper">
-              <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/domainSlider.png"
-                loading="lazy"
-                quality={40}
-                width="517"
-                height="300"
-                alt="profile-Img"
-              />
+            <Image
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/domain-new-home.webp"
+              loading="lazy"
+              width="517"
+              height="300"
+              alt="profile-Img"
+            />
             </div>
           </div>
         </div>
