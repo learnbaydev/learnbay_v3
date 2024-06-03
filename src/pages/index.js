@@ -159,6 +159,8 @@ export default function Home() {
       <Head>
         <title>Online IT Certification Courses and Professional Programs</title>
         <meta name="robots" content="index, follow" />
+        <meta name="referrer" content="strict-origin-when-cross-origin"/>
+
         <meta
           name="description"
           content="Enhance your skills with Learnbay's comprehensive online courses and master programs and achieve your professional goals. Enroll Now!"

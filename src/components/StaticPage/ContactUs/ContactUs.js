@@ -9,9 +9,9 @@ function ContactUs() {
     <section className={styles.ContactUs}>
       <div className={styles.BackC}>
         <div>
-          <h4>
+          <h1>
             <b>Contact Us</b>
-          </h4>
+          </h1>
         </div>
 
         <div>
@@ -24,7 +24,7 @@ function ContactUs() {
         </div>
       </div>
       <div className={styles.CInner}>
-        <h4>We`re Here To Help You</h4>
+        <h2>We`re Here To Help You</h2>
         <p>
           Got A Course In Mind? We’d Love To Hear And Help You Decide On A
           Course.
