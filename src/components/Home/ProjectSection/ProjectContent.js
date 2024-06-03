@@ -27,7 +27,6 @@ const ProjectContent = ({ ids }) => {
                 width="358"
                 height="212"
                 alt="profile-Img"
-                onClick={() => videoSHow()}
                 
               />
             </div>
@@ -59,7 +58,6 @@ const ProjectContent = ({ ids }) => {
               width="358"
               height="212"
               alt="profile-Img"
-              onClick={() => videoSHow()}
             />
           </div>
           <p className={styles.BlueHed}>Project Certification from IBM</p>
