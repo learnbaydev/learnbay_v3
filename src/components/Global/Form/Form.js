@@ -66,15 +66,15 @@ const Form = ({
     jsCookie.set("CARD", query.email, { expires: 14, secure: true });
   }, [value]);
 
-useEffect(() => {
-  // Ensure value is in the expected format
-  const formattedPhone = value; // You might need to parse/format value here
-  const phoneWithPlus = `+${formattedPhone}`; // Add "+" symbol before the phone number
-  setQuery({ ...query, phone: phoneWithPlus });
+  useEffect(() => {
+    if (value) {
+      const formattedPhone = value;
+      const phoneWithPlus = `+${formattedPhone}`;
+      setQuery({ ...query, phone: phoneWithPlus });
 
-  // Set cookies with the updated phone value
-  jsCookie.set("CARDPHONE", phoneWithPlus, { expires: 14, secure: true });
-}, [value]);
+      jsCookie.set("CARDPHONE", phoneWithPlus, { expires: 14, secure: true });
+    }
+  }, [value]);
 
   const handleParam = () => (e) => {
     const name = e.target.name;
@@ -195,7 +195,11 @@ useEffect(() => {
     } catch (error) {
       console.error("Error fetching location:", error.message);
       // If there's an error fetching location data, return default or placeholder values
-      return { country: "Country Undefined", region: "Region Undefined", city: "City Undefined" };
+      return {
+        country: "Country Undefined",
+        region: "Region Undefined",
+        city: "City Undefined",
+      };
     }
   };
   return (
