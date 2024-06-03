@@ -165,12 +165,12 @@ export const ADAProgram = [
             degreeCertificate: {
                 id: 3,
                 img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/certificate-guwati.webp",
-                title: "Certification from E&ICT Academy, IIT Guwahati",
+                title: "Certification from E&ICT Academy IIT Guwahati",
                 para: [
-                    "Upon successfully completing this program, you’ll earn a Executive program Certification in DS and AI in collaboration with E&ICT Academy, IIT Guwahati   ",
+                    "Upon successfully completing this program, you’ll earn a Executive program Certification in DS and AI in collaboration with E&ICT Academy IIT Guwahati   ",
 
 
-                    "Access to lectures from top faculties of E&ICT Academy, IIT Guwahati.",
+                    "Access to lectures from top faculties of E&ICT Academy IIT Guwahati.",
                     "Experential learning opportunity at IIT Guwahati campus",
 
                 ],
@@ -462,8 +462,8 @@ export const ADAProgram = [
                     },
                     {
                         id: 2,
-                        ques: "Why choose Learnbay for this Advance Data Analytics Program with E&ICT Academy, IIT Guwahati certification?                  ",
-                        ans: `The Learnbay Executive Program in Data Analytics is designed to ensure that you propel yourself to success in the constantly evolving fields of Data Science and Artificial Intelligence industry. In addition to this, we also provide the E&ICT Academy, IIT Guwahati course completion certificate. This program offers a deep dive into Data Analytics, equipping you with vital skills that are essential to stay competitive in the ever-rewarding field.                  `,
+                        ques: "Why choose Learnbay for this Advance Data Analytics Program with E&ICT Academy IIT Guwahati certification?                  ",
+                        ans: `The Learnbay Executive Program in Data Analytics is designed to ensure that you propel yourself to success in the constantly evolving fields of Data Science and Artificial Intelligence industry. In addition to this, we also provide the E&ICT Academy IIT Guwahati course completion certificate. This program offers a deep dive into Data Analytics, equipping you with vital skills that are essential to stay competitive in the ever-rewarding field.                  `,
                         open: false,
                     },
                     {
@@ -480,7 +480,7 @@ export const ADAProgram = [
                     {
                         id: 4,
                         ques: "How Learnbay's Advanced Data Analytics Course is different from other Analytics Courses?                  ",
-                        ans: "Learnbay's advanced data analytics course has numerous amenities such as career service, a Project Innovation Lab, and degrees and certifications from E&ICT Academy, IIT Guwahati, and IBM. All the aforementioned features impart additional benefits that make the Advanced Data Analytics Course different from other Analytics Courses.                  ",
+                        ans: "Learnbay's advanced data analytics course has numerous amenities such as career service, a Project Innovation Lab, and degrees and certifications from E&ICT Academy IIT Guwahati, and IBM. All the aforementioned features impart additional benefits that make the Advanced Data Analytics Course different from other Analytics Courses.                  ",
                         open: false,
                     },
                     {
@@ -492,8 +492,8 @@ export const ADAProgram = [
                     },
                     {
                         id: 6,
-                        ques: "What is the benefit of getting Learnbay’s Advanced Data Analytics certification from E&ICT Academy, IIT Guwahati?                  ",
-                        ans: `The leading positive aspects of getting Advanced Data Analytics certification from E&ICT Academy, IIT Guwahati are:-   
+                        ques: "What is the benefit of getting Learnbay’s Advanced Data Analytics certification from E&ICT Academy IIT Guwahati?                  ",
+                        ans: `The leading positive aspects of getting Advanced Data Analytics certification from E&ICT Academy IIT Guwahati are:-   
              
                  - Advanced Certification of  Data Science & AI
                  - Domain Specialized Training Programs for Working Professionals
@@ -507,8 +507,8 @@ export const ADAProgram = [
                     },
                     {
                         id: 7,
-                        ques: "Will I get a chance to visit the E&ICT Academy, IIT Guwahati campus?                        ",
-                        ans: `Yes, the course accommodates an optional 2-day campus immersion at E&ICT Academy, IIT Guwahati. Here, you will get an extraordinary experience to visit the campus. 
+                        ques: "Will I get a chance to visit the E&ICT Academy IIT Guwahati campus?                        ",
+                        ans: `Yes, the course accommodates an optional 2-day campus immersion at E&ICT Academy IIT Guwahati. Here, you will get an extraordinary experience to visit the campus. 
                     
                     
                     `,
@@ -516,22 +516,22 @@ export const ADAProgram = [
                     },
                     {
                         id: 8,
-                        ques: "What is the role of the E&ICT Academy of E&ICT Academy, IIT Guwahati in placements?                        ",
+                        ques: "What is the role of the E&ICT Academy of E&ICT Academy IIT Guwahati in placements?                        ",
                         ans: `The E&ICT Academy of IIT, Guwahati, is dedicated to equipping the pathway for technical accomplishment and analysis in Data Science, AI, and data analytics. It also helps in hosting an Advanced Certification of Full Stack Data Science & AI, presented altogether by E&ICT Academy, and Guest Lectures from renowned faculties of IIT Guwahati. 
                     
                     
                     `,
                         open: false,
                     },
-                    {
-                        id: 9,
-                        ques: "Is the Advanced Data Analytics certification from E&ICT Academy, IIT Guwahati globally recognized?                        ",
-                        ans: `E&ICT Academy, IIT Guwahati has created best-in-class technical talent across the globe. In addition, the Advanced Data Analytics certification from E&ICT Academy, IIT Guwahati continues to play an important role in facilitating better job prospects and lucrative career opportunities that are acknowledged across the globe.  
+                    // {
+                    //     id: 9,
+                    //     ques: "Is the Advanced Data Analytics certification from E&ICT Academy IIT Guwahati globally recognized?                        ",
+                    //     ans: `E&ICT Academy IIT Guwahati has created best-in-class technical talent across the globe. In addition, the Advanced Data Analytics certification from E&ICT Academy IIT Guwahati continues to play an important role in facilitating better job prospects and lucrative career opportunities that are acknowledged across the globe.  
                     
                     
-                    `,
-                        open: false,
-                    },
+                    // `,
+                    //     open: false,
+                    // },
                   
                 ],
             },

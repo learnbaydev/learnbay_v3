@@ -5,12 +5,12 @@ function refund() {
   return (
     <section className={styles.refund}>
       <div className={styles.BackP}>
-        <h4>
+        <h1>
           <b>Refund-Cancellation Policy</b>
-        </h4>
+        </h1>
       </div>
       <div className={styles.refundInner}>
-        <p className={styles.top}>Refund-Cancellation Policy </p>
+        <h2 className={styles.top}>Refund-Cancellation Policy </h2>
 
         <p className={styles.bot}>
           It would help if you had an internet connection and a current and
@@ -28,14 +28,14 @@ function refund() {
           chosen Platform.
         </p>
 
-        <p className={styles.top}>What does your approval mean to us?</p>
+        <h3 className={styles.top}>What does your approval mean to us?</h3>
 
         <p className={styles.bot}>
           You agree to our Refund Policy by using our website, creating an
           account, or making a purchase.
         </p>
 
-        <p className={styles.top}>What's the refund cancellation policy?</p>
+        <h3 className={styles.top}>What's the refund cancellation policy?</h3>
 
         <p className={styles.bot}>
           There are a few scenarios under which the refund policy will become
@@ -80,7 +80,7 @@ function refund() {
           phase classes within the 15 days of enrolment
         </p>
 
-        <p className={styles.top}>In case of refunds:-</p>
+        <h3 className={styles.top}>In case of refunds:-</h3>
 
         <p className={styles.bot}>
           Refunds will be granted to the original source used at the time of
@@ -99,15 +99,15 @@ function refund() {
         <li className={styles.bot}>
           Next, contact your bank. There is often a delay in processing refunds.
         </li>
-        <p className={styles.top}>
+        <h4 className={styles.top}>
           Having followed all of the above steps but still have not received
           your refund, contact us at -{" "}
           <a href="mailto:finance@learnbay.co">finance@learnbay.co</a>
-        </p>
-        <p className={styles.top}>
+        </h4>
+        <h4 className={styles.top}>
           For Cancellations please email us at:{" "}
           <a href="mailto:finance@learnbay.co">finance@learnbay.co.</a>
-        </p>
+        </h4>
       </div>
     </section>
   );
