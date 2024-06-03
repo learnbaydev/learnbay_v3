@@ -1,11 +1,13 @@
 .container {
     padding: 50px 100px 30px 100px;
-    background: linear-gradient(270deg, #FFF -5.52%, #EAE9E9 50.41%, #FFF 102.11%);
+    background: linear-gradient(258deg, #301D00 7.12%, #000 94.15%);
 }
 
 .h4 {
     text-align: center;
-    font-size: 36px;
+    font-size: 34px;
+    color: #fff;
+    text-align: left;
 }
 
 .span {
@@ -16,24 +18,23 @@
     display: grid;
     grid-template-columns: 46% 46%;
     gap: 70px;
-    margin: 50px 200px 0px 200px;
+    margin: 50px 150px 0px 150px;
 }
 
 .InnerBox1, .InnerBox2 {
     border-radius: 15px;
 background: #FFF;
 box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.20);
-padding: 20px 30px 50px 30px;
+padding: 10px 10px 50px 10px;
 height: fit-content;
 }
 
 .InnerBox1 {
-    margin-top: 120px;
+    margin-top: 20px;
 }
 
 .BlueHed {
-    color: #0072BC;
-    font-size: 28px;
+    font-size: 32px !important;
     font-weight: 700;
     margin: 20px 0px 20px 0px;
 }
@@ -72,6 +73,10 @@ height: fit-content;
     background: #fff;
     border-radius: 10px;
 margin: 60px 10px 40px 10px;
+border: 1px solid #F99600;
+    background: linear-gradient(180deg, #000 0%, rgba(75, 45, 0, 0.00) 100%);
+    box-shadow: 3.089px 10.298px 25.744px -6.179px rgba(0, 0, 0, 0.25);
+    align-items: center;
 }
 
 .iconBox {
@@ -88,6 +93,13 @@ margin: 60px 10px 40px 10px;
 .firstDiv > p {
     margin-bottom: 30px;
     margin-top: -10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.paraP {
+    display: grid;
+    grid-template-columns: 5% 95%;
 }
 
 .BoxIconinner {
@@ -142,11 +154,17 @@ font-weight: 700;
     .container h4 {
         font-size: 25px;
         text-align: left;
+        
     }
 
     .box {
         display: block;
         margin: 0;
+    }
+
+    .paraP {
+        gap: 10px;
+        font-size: 16px !important;
     }
 
     .InnerBox1 {
