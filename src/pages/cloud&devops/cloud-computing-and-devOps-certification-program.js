@@ -15,16 +15,18 @@ function CloudAndDevOpsCoursePage({ CloudAndDevOpsCourseDataJson }) {
     <>
       <Head>
         <title>
-        Advanced Certification in Cloud Computing and DevOps - Learnbay
+        Best Cloud Computing Certification Course | Learnbay
         </title>
         <meta
           name="description"
-          content="Elevate your skills with our Advanced Cloud Computing and DevOps Certification. Gain expertise in cutting-edge technologies to streamline development and enhance cloud-based solutions. Future-proof your career today!"
+          content="Future-proof your career today with Learnbay's Advanced Cloud Computing Certification. Expertise in cutting-edge tools like the GCP, AWS, and AZURE.           "
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="cloud computing certification , aws training and certification, google cloud computing certification, cloud engineering certification, cloud computing online courses, amazon aws training, azure devops certification, microsoft azure cloud computing"
+          content="cloud computing certification course, cloud computing programs,
+          best institute for cloud computing, cloud computing training institute
+          cloud courses online, cloud computing certification microsoft, ibm cloud computing certification, best certification courses for cloud computing"
         />
         <link
           rel="icon"
@@ -32,21 +34,9 @@ function CloudAndDevOpsCoursePage({ CloudAndDevOpsCourseDataJson }) {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/cloud&devops/cloud-computing-and-devOps-certification-program"
+          href="https://www.learnbay.co/cloud&devops/advance-cloud-computing-certification-program"
         />
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(cloudCourseSchema),
-          }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(cloudDevOpsSchema),
-          }}
-        />
       </Head>
       <main>
         <Navbar dataScienceCounselling={true} />

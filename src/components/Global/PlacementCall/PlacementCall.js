@@ -145,12 +145,13 @@ const PlacementCall = ({ devops, Foundation, Marketing, HRAnalyst, BFSI }) => {
             </div>
           </div>
           <div className={styles.imgsection}>
-            <img
+            <Image
               src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/Dedicated-Placement-Cell.gif"
               width={600}
               height={200}
               loading="lazy"
               quality={40}
+              alt="animation-Img"
             />
           </div>
           <div className={styles.stttt}>

@@ -119,14 +119,14 @@ const FirstContent = ({
       <div className={styles.First} style={backgorunimg ? containerStyle : {}}>
         <div className={styles.FirstLeft}>
           {topHide ? "" : <p className={styles.ptopC}>{firstTopPara}</p>}
-          <h2
+          <h1
             className={`${styles.h1} ${
               isSpecialPage ? styles.specialPageH1 : ""
             }`}
           >
             {firstHeading}{" "}
             <span className={styles.h1Span}>{firstToparaImg}</span>
-          </h2>
+          </h1>
           <p className={styles.ptopCiity}>{cityParaCont}</p>
           {mobile ? (
             ""
