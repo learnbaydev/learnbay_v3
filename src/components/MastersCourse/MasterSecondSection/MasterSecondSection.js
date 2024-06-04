@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const MasterSecondSection = ({ data }) => {
   return (
-    <div>
+    <>
       <div className={styles.mainBox}>
         <div className={styles.firstbox}>
           {data.map((item, index) => (
@@ -47,7 +47,7 @@ const MasterSecondSection = ({ data }) => {
           )}
         </div>
       </div>
-    </div>
+      </>
   );
 };
 

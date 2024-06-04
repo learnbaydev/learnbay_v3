@@ -33,7 +33,7 @@ function Gethire({ data, showimg, shoimgtwo }) {
                 alt="devops"
               />
             ) : (
-              <Image src={data.image2} width={85} height={75} loading="lazy" />
+              <Image src={data.image2} width={85} height={75} loading="lazy" alt="Cloud-devops" />
             )}
           </div>
         </div>

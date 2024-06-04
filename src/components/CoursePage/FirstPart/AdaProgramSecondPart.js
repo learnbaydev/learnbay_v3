@@ -102,9 +102,9 @@ const ExecutiveSecondPart = ({
         weekendbatch="Weekday Batch"
         weekday="MON - FRI"
         weekend="MON - FRI"
-        WeekdayDate="June 14th"
-        WeekendDate="June 7th"
-        WeekdayTime="8:00 AM - 10:00 AM"
+        WeekdayDate="Sep 29th"
+        WeekendDate="Aug 16th"
+        WeekdayTime="9:30 AM - 01:00 PM"
         WeekendTime="8:00 PM - 10:00 PM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
@@ -138,7 +138,7 @@ const ExecutiveSecondPart = ({
       <Footer />
       <BottomBar masterdegree={true} dataScienceCounselling={true} />
       <WhatsappFloat />
-      {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
+      {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
     </>
   );
 };

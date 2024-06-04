@@ -135,7 +135,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
           cityParaCont="Build your technical skills to deploy and monitor complex software solutions for an industry-driven tech career. Join Learnbay’s front-age DevOps certification course to gain in-depth learning of proven tools and trends. Learn with us to grab front-tier IT jobs with globally valued IBM & Microsoft certifications.           "
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-first-devops-min.webp"
-          firstToparaImg=" Course Online [2024] "
+          firstToparaImg=" Course Online "
           firstHeading="Best DevOps Certification          "
           firstTopPara="Crack Interview in top MNCs "
           idss="gaQYhVPCudQ"
