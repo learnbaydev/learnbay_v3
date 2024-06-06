@@ -1,3 +1,19 @@
 User-agent: *
 Disallow: 
 Sitemap:https://www.learnbay.co/sitemap.xml
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: GermCrawler
+Disallow: /
+
+User-agent: Sogou
+Disallow: /
+
+User-agent: *
+Disallow: /*?utm_*
+
+Allow: /
+
+Sitemap:https://www.learnbay.co/sitemap.xml
