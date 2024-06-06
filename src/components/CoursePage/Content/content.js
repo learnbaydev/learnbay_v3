@@ -2164,9 +2164,9 @@ function DataAnalytics({
       )}
       {mangers ? (
         <div className={styles.content}>
-          <h1>
+          <h4 style={{textAlign:"center"}} >
             Data Science and AI Certification Program for Managers and Leaders{" "}
-          </h1>
+          </h4>
           <p>
             The growth of technology in recent years has forced everyone to
             change their perspective and mandated most of them to learn and
