@@ -27,7 +27,9 @@ function demo({ demos }) {
 
   return (
     <section className={styles.Demos}>
+
       <div className={styles.Demo}>
+
         <div className={styles.listPanel}>
           {demoDetails.map((DemoData, index) => {
             return (

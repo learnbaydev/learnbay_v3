@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { parseJSONData } from "@/Util/JsonConvertor";
-import FirstPart from "@/components/CoursePage/FirstPart/DevOpsFirstpart";
-import SecondPart from "@/components/CoursePage/FirstPart/DevopsSecondPart";
+import FirstPart from "@/components/CoursePage/FirstPart/CloudOnlyFirstpart";
+import SecondPart from "@/components/CoursePage/FirstPart/CloudOnlySecondPart";
 import Navbar from "@/components/Global/Navbar/Navbar";
 import {
   cloudDevOpsSchema,
@@ -15,18 +15,17 @@ function CloudAndDevOpsCoursePage({ CloudAndDevOpsCourseDataJson }) {
     <>
       <Head>
         <title>
-        Best Cloud Computing Certification Course | Learnbay
+        Advanced Certification in Cloud Computing  - Learnbay
         </title>
         <meta
           name="description"
-          content="Future-proof your career today with Learnbay's Advanced Cloud Computing Certification. Expertise in cutting-edge tools like the GCP, AWS, and AZURE.           "
+          content="Elevate your skills with our Advanced Cloud Computing and DevOps Certification. Gain expertise in cutting-edge technologies to streamline development and enhance cloud-based solutions. Future-proof your career today!"
         />
+        
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="cloud computing certification course, cloud computing programs,
-          best institute for cloud computing, cloud computing training institute
-          cloud courses online, cloud computing certification microsoft, ibm cloud computing certification, best certification courses for cloud computing"
+          content="cloud computing certification , aws training and certification, google cloud computing certification, cloud engineering certification, cloud computing online courses, amazon aws training, azure devops certification, microsoft azure cloud computing"
         />
         <link
           rel="icon"
@@ -34,9 +33,21 @@ function CloudAndDevOpsCoursePage({ CloudAndDevOpsCourseDataJson }) {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/cloud&devops/advance-cloud-computing-certification-program"
+          href="https://www.learnbay.co/cloud&devops/cloud-computing-and-devOps-certification-program"
         />
 
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(cloudCourseSchema),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(cloudDevOpsSchema),
+          }}
+        />
       </Head>
       <main>
         <Navbar dataScienceCounselling={true} />
@@ -71,7 +82,7 @@ function CloudAndDevOpsCoursePage({ CloudAndDevOpsCourseDataJson }) {
 export default CloudAndDevOpsCoursePage;
 
 export async function getStaticProps() {
-  const data = await import("../../Data/CloudAndDevOpsCourse");
+  const data = await import("../../Data/CloudComputingData");
   function getCloudAndDevOpsCourseDataJSON(CloudAndDevOpsCourseData) {
     return JSON.stringify(CloudAndDevOpsCourseData);
   }
