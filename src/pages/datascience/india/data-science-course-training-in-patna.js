@@ -96,7 +96,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-        Best Data Science Course in Patna [IBM & Microsoft Certified]
+          Best Data Science Course in Patna [IBM & Microsoft Certified]
         </title>
         <meta name="robots" content="index, follow" />
         <meta
@@ -190,9 +190,7 @@ export default function Home() {
 
           "
         />
-        <SecondSection
-          SecondSectionData={DSPatnaCourseData[0].secondSection}
-        />
+        <SecondSection SecondSectionData={DSPatnaCourseData[0].secondSection} />
         <div className={styles.Realstorysec}>
           <Realstory />
         </div>
@@ -201,13 +199,13 @@ export default function Home() {
             Fee="₹1,35,000"
             FeeEmi="₹8,850/month"
             weekdaybatch="Weekday Batch"
-            weekendbatch="Weekday Batch"
+            weekendbatch="Weekend Batch"
             weekday="MON - FRI"
-            weekend="MON - FRI"
+            weekend="SAT - SUN"
             WeekdayDate="June 14th"
-            WeekendDate="June 7th"
+            WeekendDate="June 16th"
+            WeekendTime="9:30 AM - 1:00 PM"
             WeekdayTime="8:00 AM - 10:00 AM"
-            WeekendTime="8:00 PM - 10:00 PM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
             FeeContent5="15 days refund policy"
@@ -260,9 +258,7 @@ export default function Home() {
               Domainlink9={DSPatnaCourseData[0].Domainlink9}
               Domainlink10={DSPatnaCourseData[0].Domainlink10}
               DomainBot40={DSPatnaCourseData[0].DomainBot40}
-              CertificationHead1={
-                DSPatnaCourseData[0].CertificationHead1
-              }
+              CertificationHead1={DSPatnaCourseData[0].CertificationHead1}
               CertificationBot1={DSPatnaCourseData[0].CertificationBot1}
               CertificationBot2={DSPatnaCourseData[0].CertificationBot2}
               CertificationBot3={DSPatnaCourseData[0].CertificationBot3}
@@ -285,9 +281,7 @@ export default function Home() {
               ModuleMasterlist7={DSPatnaCourseData[0].ModuleMasterlist7}
               ModuleMasterlist8={DSPatnaCourseData[0].ModuleMasterlist8}
               ModuleMasterlist9={DSPatnaCourseData[0].ModuleMasterlist9}
-              ModuleMasterlist10={
-                DSPatnaCourseData[0].ModuleMasterlist10
-              }
+              ModuleMasterlist10={DSPatnaCourseData[0].ModuleMasterlist10}
               ModuleMasterBot3={DSPatnaCourseData[0].ModuleMasterBot3}
               ModuleMasterBot2={DSPatnaCourseData[0].ModuleMasterBot2}
               ModuleBot46={DSPatnaCourseData[0].ModuleBot46}
@@ -344,9 +338,7 @@ export default function Home() {
               JobBot001={DSPatnaCourseData[0].JobBot001}
               JobBot002={DSPatnaCourseData[0].JobBot002}
               JobBot1={DSPatnaCourseData[0].JobBot1}
-              JobHeadpatna01={
-                DSPatnaCourseData[0].JobHeadpatna01
-              }
+              JobHeadpatna01={DSPatnaCourseData[0].JobHeadpatna01}
               ModuleHead2={DSPatnaCourseData[0].ModuleHead2}
               JobHead001={DSPatnaCourseData[0].JobHead001}
               JobHead2={DSPatnaCourseData[0].JobHead2}
@@ -359,7 +351,6 @@ export default function Home() {
               JobBot9={DSPatnaCourseData[0].JobBot9}
               JobHead6={DSPatnaCourseData[0].JobHead6}
               JobBot11={DSPatnaCourseData[0].JobBot11}
-              
               JobBot20={DSPatnaCourseData[0].JobBot20}
               JobBot003={DSPatnaCourseData[0].JobBot003}
               JobBot34={DSPatnaCourseData[0].JobBot34}
@@ -373,13 +364,12 @@ export default function Home() {
               Joblist25={DSPatnaCourseData[0].Joblist25}
               Joblist26={DSPatnaCourseData[0].Joblist26}
               Joblist27={DSPatnaCourseData[0].Joblist27}
-              Joblist18={DSPatnaCourseData[0]. Joblist18}
+              Joblist18={DSPatnaCourseData[0].Joblist18}
               Joblist28={DSPatnaCourseData[0].Joblist28}
               Joblist29={DSPatnaCourseData[0].Joblist29}
               Joblist30={DSPatnaCourseData[0].Joblist30}
               JobBot25={DSPatnaCourseData[0].JobBot25}
               JobBot006={DSPatnaCourseData[0].JobBot006}
-          
               showData={true}
               JobBot39={DSPatnaCourseData[0].JobBot39}
               Joblist14={DSPatnaCourseData[0].Joblist14}

@@ -95,9 +95,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-        Best Data Science Course in Jaipur - Learnbay
-        </title>
+        <title>Best Data Science Course in Jaipur - Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -200,13 +198,13 @@ export default function Home() {
             Fee="₹1,35,000"
             FeeEmi="₹8,850/month"
             weekdaybatch="Weekday Batch"
-            weekendbatch="Weekday Batch"
+            weekendbatch="Weekend Batch"
             weekday="MON - FRI"
-            weekend="MON - FRI"
+            weekend="SAT - SUN"
             WeekdayDate="June 14th"
-            WeekendDate="June 7th"
+            WeekendDate="June 16th"
+            WeekendTime="9:30 AM - 1:00 PM"
             WeekdayTime="8:00 AM - 10:00 AM"
-            WeekendTime="8:00 PM - 10:00 PM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
             FeeContent5="15 days refund policy"
@@ -259,9 +257,7 @@ export default function Home() {
               Domainlink9={DSJaipurCourseData[0].Domainlink9}
               Domainlink10={DSJaipurCourseData[0].Domainlink10}
               DomainBot40={DSJaipurCourseData[0].DomainBot40}
-              CertificationHead1={
-                DSJaipurCourseData[0].CertificationHead1
-              }
+              CertificationHead1={DSJaipurCourseData[0].CertificationHead1}
               CertificationBot1={DSJaipurCourseData[0].CertificationBot1}
               CertificationBot2={DSJaipurCourseData[0].CertificationBot2}
               CertificationBot3={DSJaipurCourseData[0].CertificationBot3}
@@ -284,9 +280,7 @@ export default function Home() {
               ModuleMasterlist7={DSJaipurCourseData[0].ModuleMasterlist7}
               ModuleMasterlist8={DSJaipurCourseData[0].ModuleMasterlist8}
               ModuleMasterlist9={DSJaipurCourseData[0].ModuleMasterlist9}
-              ModuleMasterlist10={
-                DSJaipurCourseData[0].ModuleMasterlist10
-              }
+              ModuleMasterlist10={DSJaipurCourseData[0].ModuleMasterlist10}
               ModuleMasterBot3={DSJaipurCourseData[0].ModuleMasterBot3}
               ModuleMasterBot2={DSJaipurCourseData[0].ModuleMasterBot2}
               ModuleBot46={DSJaipurCourseData[0].ModuleBot46}
@@ -343,9 +337,7 @@ export default function Home() {
               JobBot001={DSJaipurCourseData[0].JobBot001}
               JobBot002={DSJaipurCourseData[0].JobBot002}
               JobBot1={DSJaipurCourseData[0].JobBot1}
-              JobHeadjaipur01={
-                DSJaipurCourseData[0].JobHeadjaipur01
-              }
+              JobHeadjaipur01={DSJaipurCourseData[0].JobHeadjaipur01}
               JobHead001={DSJaipurCourseData[0].JobHead001}
               JobHead2={DSJaipurCourseData[0].JobHead2}
               JobBot3={DSJaipurCourseData[0].JobBot3}

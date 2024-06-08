@@ -95,9 +95,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-         Best Data Science Course Training in Noida
-        </title>
+        <title>Best Data Science Course Training in Noida</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -189,9 +187,7 @@ export default function Home() {
           firstTopPara="Foundational and Advance Job-ready Program"
           cityParaCont="Leap forward to craft a global-level data science career with incredible job offers with leading MNCs. Join Learnbay’s top-tier data science course in Noida to equip your career with Generative AI-driven skills validated by IBM & Microsoft certifications. Enroll now to gain project-based learning with ultimate career gains.           "
         />
-        <SecondSection
-          SecondSectionData={DSNoidaCourseData[0].secondSection}
-        />
+        <SecondSection SecondSectionData={DSNoidaCourseData[0].secondSection} />
         <div className={styles.Realstorysec}>
           <Realstory />
         </div>
@@ -200,13 +196,13 @@ export default function Home() {
             Fee="₹1,35,000"
             FeeEmi="₹8,850/month"
             weekdaybatch="Weekday Batch"
-            weekendbatch="Weekday Batch"
+            weekendbatch="Weekend Batch"
             weekday="MON - FRI"
-            weekend="MON - FRI"
+            weekend="SAT - SUN"
             WeekdayDate="June 14th"
-            WeekendDate="June 7th"
+            WeekendDate="June 16th"
+            WeekendTime="9:30 AM - 1:00 PM"
             WeekdayTime="8:00 AM - 10:00 AM"
-            WeekendTime="8:00 PM - 10:00 PM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
             FeeContent5="15 days refund policy"
@@ -259,9 +255,7 @@ export default function Home() {
               Domainlink9={DSNoidaCourseData[0].Domainlink9}
               Domainlink10={DSNoidaCourseData[0].Domainlink10}
               DomainBot40={DSNoidaCourseData[0].DomainBot40}
-              CertificationHead1={
-                DSNoidaCourseData[0].CertificationHead1
-              }
+              CertificationHead1={DSNoidaCourseData[0].CertificationHead1}
               CertificationBot1={DSNoidaCourseData[0].CertificationBot1}
               CertificationBot2={DSNoidaCourseData[0].CertificationBot2}
               CertificationBot3={DSNoidaCourseData[0].CertificationBot3}
@@ -284,9 +278,7 @@ export default function Home() {
               ModuleMasterlist7={DSNoidaCourseData[0].ModuleMasterlist7}
               ModuleMasterlist8={DSNoidaCourseData[0].ModuleMasterlist8}
               ModuleMasterlist9={DSNoidaCourseData[0].ModuleMasterlist9}
-              ModuleMasterlist10={
-                DSNoidaCourseData[0].ModuleMasterlist10
-              }
+              ModuleMasterlist10={DSNoidaCourseData[0].ModuleMasterlist10}
               ModuleMasterBot3={DSNoidaCourseData[0].ModuleMasterBot3}
               ModuleMasterBot2={DSNoidaCourseData[0].ModuleMasterBot2}
               ModuleBot46={DSNoidaCourseData[0].ModuleBot46}
@@ -343,7 +335,6 @@ export default function Home() {
               JobBot001={DSNoidaCourseData[0].JobBot001}
               JobBot002={DSNoidaCourseData[0].JobBot002}
               JobBot1={DSNoidaCourseData[0].JobBot1}
-            
               JobHead001={DSNoidaCourseData[0].JobHead001}
               JobHead2={DSNoidaCourseData[0].JobHead2}
               JobBot3={DSNoidaCourseData[0].JobBot3}

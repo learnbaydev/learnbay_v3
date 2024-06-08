@@ -96,7 +96,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-        Best Data Science Course in Coimbatore [Placement Assistance]
+          Best Data Science Course in Coimbatore [Placement Assistance]
         </title>
         <meta name="robots" content="index, follow" />
         <meta
@@ -188,9 +188,7 @@ export default function Home() {
           firstTopPara="Foundational and Advance Job-ready Program"
           cityParaCont="Escalate your career success metrics via our leading-edge data science course in Coimbatore. Learn from eminent industry experts and gain hands-on learning with tools followed by global certifications from IBM & Microsoft. Join Learnbay to advance your career in indisputable data science.           "
         />
-        <SecondSection
-          SecondSectionData={DSCoimbCourseData[0].secondSection}
-        />
+        <SecondSection SecondSectionData={DSCoimbCourseData[0].secondSection} />
         <div className={styles.Realstorysec}>
           <Realstory />
         </div>
@@ -199,13 +197,13 @@ export default function Home() {
             Fee="₹1,35,000"
             FeeEmi="₹8,850/month"
             weekdaybatch="Weekday Batch"
-            weekendbatch="Weekday Batch"
+            weekendbatch="Weekend Batch"
             weekday="MON - FRI"
-            weekend="MON - FRI"
+            weekend="SAT - SUN"
             WeekdayDate="June 14th"
-            WeekendDate="June 7th"
+            WeekendDate="June 16th"
+            WeekendTime="9:30 AM - 1:00 PM"
             WeekdayTime="8:00 AM - 10:00 AM"
-            WeekendTime="8:00 PM - 10:00 PM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
             FeeContent5="15 days refund policy"
@@ -258,9 +256,7 @@ export default function Home() {
               Domainlink9={DSCoimbCourseData[0].Domainlink9}
               Domainlink10={DSCoimbCourseData[0].Domainlink10}
               DomainBot40={DSCoimbCourseData[0].DomainBot40}
-              CertificationHead1={
-                DSCoimbCourseData[0].CertificationHead1
-              }
+              CertificationHead1={DSCoimbCourseData[0].CertificationHead1}
               CertificationBot1={DSCoimbCourseData[0].CertificationBot1}
               CertificationBot2={DSCoimbCourseData[0].CertificationBot2}
               CertificationBot3={DSCoimbCourseData[0].CertificationBot3}
@@ -283,9 +279,7 @@ export default function Home() {
               ModuleMasterlist7={DSCoimbCourseData[0].ModuleMasterlist7}
               ModuleMasterlist8={DSCoimbCourseData[0].ModuleMasterlist8}
               ModuleMasterlist9={DSCoimbCourseData[0].ModuleMasterlist9}
-              ModuleMasterlist10={
-                DSCoimbCourseData[0].ModuleMasterlist10
-              }
+              ModuleMasterlist10={DSCoimbCourseData[0].ModuleMasterlist10}
               ModuleMasterBot3={DSCoimbCourseData[0].ModuleMasterBot3}
               ModuleMasterBot2={DSCoimbCourseData[0].ModuleMasterBot2}
               ModuleBot46={DSCoimbCourseData[0].ModuleBot46}
@@ -342,9 +336,7 @@ export default function Home() {
               JobBot001={DSCoimbCourseData[0].JobBot001}
               JobBot002={DSCoimbCourseData[0].JobBot002}
               JobBot1={DSCoimbCourseData[0].JobBot1}
-              JobHeadcoimbatore01={
-                DSCoimbCourseData[0].JobHeadcoimbatore01
-              }
+              JobHeadcoimbatore01={DSCoimbCourseData[0].JobHeadcoimbatore01}
               JobHead001={DSCoimbCourseData[0].JobHead001}
               JobHead2={DSCoimbCourseData[0].JobHead2}
               JobBot3={DSCoimbCourseData[0].JobBot3}
