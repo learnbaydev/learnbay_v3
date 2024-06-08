@@ -1,4 +1,3 @@
-import { DSBangaloreSchema } from "@/Data/Schema/DSBangalore";
 import Realstory from "@/components/Home/Realstory/Realstory";
 import Map from "@/components/Seo/Maps/Maps";
 import dynamic from "next/dynamic";
@@ -195,13 +194,13 @@ export default function Home() {
             Fee="₹1,35,000"
             FeeEmi="₹8,850/month"
             weekdaybatch="Weekday Batch"
-            weekendbatch="Weekday Batch"
+            weekendbatch="Weekend Batch"
             weekday="MON - FRI"
-            weekend="MON - FRI"
+            weekend="SAT - SUN"
             WeekdayDate="June 14th"
-            WeekendDate="June 7th"
+            WeekendDate="June 16th"
+            WeekendTime="9:30 AM - 1:00 PM"
             WeekdayTime="8:00 AM - 10:00 AM"
-            WeekendTime="8:00 PM - 10:00 PM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
             FeeContent5="15 days refund policy"

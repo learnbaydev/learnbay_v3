@@ -1,24 +1,18 @@
-import React, { useState, useEffect } from "react";
-import dynamic from "next/dynamic";
-import Footer from "@/components/Global/Footer/Footer";
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+import Footer from "@/components/Global/Footer/Footer";
 import SeventhSection from "@/components/Global/SeventhSection/SeventhSection";
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+import dynamic from "next/dynamic";
+import { useEffect, useState } from "react";
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
-const Certificate = dynamic(() =>
-  import("../Certificate/Certificate")
-);
+const Certificate = dynamic(() => import("../Certificate/Certificate"));
 const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
-const FeeSection = dynamic(() =>
-  import("../FeeSection/FeeSection")
-);
+const FeeSection = dynamic(() => import("../FeeSection/FeeSection"));
 const MentorsSection = dynamic(() =>
   import("../../Global/MentorsSection/MentorsSection")
 );
-const SliderTab = dynamic(() =>
-  import("../../Global/SliderTabs/SliderTabs")
-);
+const SliderTab = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
 const PlacementCall = dynamic(() =>
   import("../../Global/PlacementCall/PlacementCall")
 );
@@ -26,9 +20,7 @@ const DevOpsProject = dynamic(() =>
   import("../DevOps/DevOpsProject/DevOpsProject")
 );
 
-const FAQNew = dynamic(() =>
-  import("../FAQNew/FAQNewDomain")
-);
+const FAQNew = dynamic(() => import("../FAQNew/FAQNewDomain"));
 const Content = dynamic(() => import("../Content/content"));
 
 const SecondPart = ({
@@ -98,7 +90,7 @@ const SecondPart = ({
         weekday="(MON-TUE-WED-THU)"
         weekend="(MON-TUE-WED-THU)"
         WeekdayDate="JUNE 14th"
-        WeekendDate="MAY 31st"
+        WeekendDate="JUNE 17th"
         WeekendTime="8 PM - 10 PM"
         WeekdayTime="8 PM - 10 PM"
         FeeContent3="Flexible payment"
