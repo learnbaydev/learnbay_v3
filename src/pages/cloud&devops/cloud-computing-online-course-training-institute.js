@@ -33,21 +33,10 @@ function CloudAndDevOpsCoursePage({ CloudAndDevOpsCourseDataJson }) {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/cloud&devops/cloud-computing-and-devOps-certification-program"
+          href="https://www.learnbay.co/cloud&devops/cloud-computing-online-course-training-institute"
         />
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(cloudCourseSchema),
-          }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(cloudDevOpsSchema),
-          }}
-        />
+       
       </Head>
       <main>
         <Navbar dataScienceCounselling={true} />
