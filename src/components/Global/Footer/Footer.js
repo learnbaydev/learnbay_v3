@@ -1,26 +1,27 @@
-import styles from "../Footer/Footer.module.css";
-import { IoMailSharp } from "react-icons/io5";
-import { BsFillTelephoneFill, BsTwitterX } from "react-icons/bs";
-import Link from "next/link";
 import Image from "next/image";
-import React from "react";
+import Link from "next/link";
+import { useState } from "react";
+import { BsFillTelephoneFill, BsTwitterX } from "react-icons/bs";
 import {
-  FaTwitter,
-  FaFacebookF,
-  FaLinkedinIn,
-  FaYoutube,
-  FaInstagram,
-  FaApple,
   FaAndroid,
+  FaArrowDown,
+  FaArrowUp,
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaTwitter,
+  FaYoutube,
 } from "react-icons/fa";
+import { IoMailSharp } from "react-icons/io5";
+import styles from "../Footer/Footer.module.css";
 import {
-  puneLocation,
-  OtherLocation,
   CityFooterData,
-  HeadData,
-  genHeadData,
   CourseData,
   GnCourseData,
+  HeadData,
+  OtherLocation,
+  genHeadData,
+  puneLocation,
 } from "./FooterData";
 
 const Footer = ({
@@ -33,6 +34,11 @@ const Footer = ({
   nolinklogo,
   mailno,
 }) => {
+  const [read, setRead] = useState(false);
+
+  const handler = () => {
+    setRead(!read);
+  };
   return (
     <section className={styles.FooterSection}>
       <div className={styles.FooterDiv}>
@@ -93,7 +99,10 @@ const Footer = ({
               <Link href="https://bit.ly/Learnbay_YouTube" target="_blank">
                 <FaYoutube className="bIcons" />
               </Link>
-              <Link href="https://instagram.com/learnbayofficial" target="_blank">
+              <Link
+                href="https://instagram.com/learnbayofficial"
+                target="_blank"
+              >
                 <FaInstagram className="bIcons" />
               </Link>
             </div>
@@ -179,9 +188,9 @@ const Footer = ({
                   <p className={styles.FooterInnerP}>{Head.Head}</p>
                   {Head.LearnbayData.map((LearnbayData) => {
                     return (
-                        <p className={styles.FooterInnerli}>
-                          {LearnbayData.name}
-                        </p>
+                      <p className={styles.FooterInnerli}>
+                        {LearnbayData.name}
+                      </p>
                     );
                   })}
                 </div>
@@ -284,38 +293,65 @@ const Footer = ({
                 </div>
               );
             })}
+            <div className={styles.viewBtn}>
+              <button className={styles.btnout} onClick={handler}>
+                {read ? (
+                  <>
+                    View Less <FaArrowUp className="bIcons"
+                      style={{ fontSize: "16px", margin: "0px 0px 0px 10px" }} />
+                  </>
+                ) : (
+                  <>
+                    {" "}
+                    View More{" "}
+                    <FaArrowDown
+                      className="bIcons"
+                      style={{ fontSize: "16px", margin: "0px 0px 0px 10px" }}
+                    />
+                  </>
+                )}
+              </button>
+            </div>
           </div>
-          {CityFooterData.map((data, index) => {
-            return (
-              <div
-                className={styles.FooterDiv}
-                key={index}
-                style={{
-                  borderBottom: "1px solid",
-                  borderColor: "#ffffff50",
-                }}
-              >
-                {data.FirstDiv.map((cityData, index) => {
-                  return (
-                    <div className={styles.FooterDivInner} key={index}>
-                      <div>
-                        <p className={styles.FooterInnerP}>{cityData.city}</p>
-                        {cityData.cityData.map((city) => {
-                          return (
-                            <Link href={city.url} key={city.name}>
-                              <p className={styles.FooterInnerli}>
-                                {city.name}
-                              </p>
-                            </Link>
-                          );
-                        })}
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            );
-          })}
+          {read ? (
+            <>
+              {CityFooterData.map((data, index) => {
+                return (
+                  <div
+                    className={styles.FooterDiv}
+                    key={index}
+                    style={{
+                      borderBottom: "1px solid",
+                      borderColor: "#ffffff50",
+                    }}
+                  >
+                    {data.FirstDiv.map((cityData, index) => {
+                      return (
+                        <div className={styles.FooterDivInner} key={index}>
+                          <div>
+                            <p className={styles.FooterInnerP}>
+                              {cityData.city}
+                            </p>
+                            {cityData.cityData.map((city) => {
+                              return (
+                                <Link href={city.url} key={city.name}>
+                                  <p className={styles.FooterInnerli}>
+                                    {city.name}
+                                  </p>
+                                </Link>
+                              );
+                            })}
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                );
+              })}
+            </>
+          ) : (
+            ""
+          )}
         </>
       )}
       <div className={styles.FooterBottom}>
