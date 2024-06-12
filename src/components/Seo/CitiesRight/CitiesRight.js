@@ -461,6 +461,8 @@ const CitiesRight = ({
   DSPatna,
   DSMarth,
   DSNoida,
+  DSIndore,
+  DSKochi,
 }) => {
   const [read, setRead] = useState(false);
   const handler = () => {
@@ -5369,6 +5371,164 @@ const CitiesRight = ({
               <br />
               <li>
                 <b>Career Service PRO:</b> Our data science training in Noida offers hassle-free career support services that help you land dream jobs. 
+              </li>
+            </ul>
+
+            <br />
+          </div>
+        ) : (
+          ""
+        )}
+        {DSIndore ? (
+          <div className={styles.CitiesRightInner}>
+            <h4 style={{ fontSize: "20px" }}>
+            Data Science Course in Indore In Partnership with IBM & Microsoft
+            </h4>
+            <p>
+            The digital landscape in Indore is rapidly growing in several sectors. The epidemic in Indore has sped up digital creations. Also, the digital economy relies on data sets, which demands vast use of data science. Thus, given the current employment situation, we see a rising trend in data science courses in Indore.  
+            </p>
+            <h4 style={{ fontSize: "20px" }}>
+            Career opportunities and salary insights
+            </h4>
+            <p>Many startups and MNCs in Indore leverage data to make smarter moves. Hence, the major job prospects in the data science industry have peaked. Thus, working experts choose to upskill at the best data science institute in Indore, which offers better job offers.  </p>
+
+            <p>Learnbay’s best data science course in Indore captures the attention of experts eager to advance their careers. Our cutting-edge course syllabus offers precious support to data specialists. Keeping up with the times, we provide exclusive data science education with various AI-rich tools and methods.   
+ </p>
+           
+           <p>In the wake of tech shifts, learners seek the most proven data skills to thrive in competing sectors. So here, we are introducing the realistic training model with the proven results. Our best data science course in Indore exhibits the real-time use of various learning tools, enriching career success. </p>
+           
+           <p>Due to its rapid growth and expansion, data science offers abundant career rise offers. In July 2021, there was a notable rise in data science jobs in Indore, Growing at 35% to 40% compared to July 2022. </p>
+           
+           <p>Data science is an economically growing career path in Indore with 100% placement. It is an auspicious career with excellent growth offers and alluring salaries, fueled by the rise of data-driven creation. </p>
+         <p>Opting for an industry-focused program that offers job support can improve your career growth and prospects. </p>
+         <p>Improving your skills with the top institute for data science coaching in Indore will enhance your career growth metrics. Our positive support for your career building ends once you land your ideal job role. Industry-led job aid initiatives can support career growth at every step. </p>
+       <p>In addition, the data science classes in Indore equip you with valuable certifications (with global recognition) from IBM & Microsoft. Enroll in our training program today and sharpen your skills and abilities to attain proven career success. </p>
+       
+        <b> <p>So, if you are interested in a data science career, consider joining Learnbay's best data science courses. Before that, ensure the requisites –</p></b>
+         
+            <br />
+      <ul>
+        <li>Basic numeric skills (Mathematics/Statistics) </li>
+        <li>Basic domain skills</li>
+      </ul>
+       <br/>
+            <p>
+              <b>Note:</b>  Computer science, IT, or non-technical learners can join our course. If you have a bachelor's degree in any other field, our data science programs can guide you in learning quickly and boost your career 
+
+            </p>
+            <br />
+            <h4 style={{ fontSize: "20px" }}>
+            What are the reasons to choose our data science institute in Indore?
+            </h4>
+
+            <br />
+            <p>
+            The ed-tech startup Learnbay has greatly impacted industry-specific training programs in Indore. Indore’s growing interest in data science careers attracts many experts to rethink their job choices. 
+            </p>
+            <p>
+            Gen-AI offers data science courses in  Indore, providing career change scopes. Learners work with advanced Gen AI tools (ChatGPT) in an open-learning space while upholding ethics.
+
+            </p>
+            <i><b>Elite career gains are –</b></i>
+            <br />
+            <ul>
+              <li>
+                <b>Gen AI-rich courses: </b>Learners get an in-depth understanding of data science tools and trends in the Gen AI age. 
+              </li>
+              <br />
+              <li>
+                <b>Domain-specific learning:</b> We offer domain-specific data science training in Indore to improve pre-existing skills. 
+
+              </li>
+              <br />
+              <li>
+                <b>Experimental and practical learning:</b> Experts with our data science course get hands-on learning of tools via live projects. 
+              </li>
+
+              <br />
+              <li>
+                <b>Industry collaborations:</b> We offer the best data science certification with global-scale job offers. Our certificates from IBM & MS unlock promising career paths. You will get two IBM certifications (project and course) and one MS certification.
+              </li>
+
+              <br />
+              <li>
+                <b>100% job assistance:</b> Learners get 100% job and placement support with end-to-end skills growth and interviews.  
+              </li>
+            </ul>
+
+            <br />
+          </div>
+        ) : (
+          ""
+        )}
+          {DSKochi ? (
+          <div className={styles.CitiesRightInner}>
+            <h4 style={{ fontSize: "20px" }}>
+About Learnbay’s Data Science Institute in Kochi [In Alliance with IBM & Microsoft]
+            </h4>
+            <p>
+            The digital world of today embraces data science for its insightful presence in numerous industries. Looking toward data science and AI dominance, working professionals rethink their career paths. In recent years, there has been a fast-paced rise in the demand for data experts with irrefutable tech skills. Hence, upskilling from the best data science institute in Kochi is useful for inspiring career shifts.   
+            </p>
+          
+            <p>Unlike typical ones, Learnbay sets the stage for global-scale career building with its series of data science programs. Our data science course in Kochi paves the way for abstract and practical learning of the latest Gen AI-rich tools. We aim to help data aspirants with end-to-end career growth solutions.  </p>
+
+            <p>Our renowned mentors guide experts in learning the practical use of data-driven tools via 12+ real-time projects in your chosen domain. Unlike other data science courses, we equip you with proven data-driven skills to thrive in the digital age. Experts can gain insights into real-world business issues and solve them with factual moves.   
+ </p>
+           
+           <p>Our alliance with the industry’s top tech leaders, IBM & Microsoft, validates your skill sets and helps you crack dream roles. Successful completion of coursework and projects will offer you certificates from IBM & Microsoft. Plus, experts will obtain one IBM project certification, unleashing a global-scale career path. </p>
+           
+           
+        <b> <p>Yet, before joining our front-age courses, you must check if you are eligible –</p></b>
+         
+            <br />
+      <ul>
+        <li>Basic numeric skills (Mathematics/Statistics) </li>
+        <li>Basic domain skills</li>
+      </ul>
+       <br/>
+            <p>
+              <b>Note:</b> Experts with bachelor’s degrees in IT/non-IT fields can join our data science training institute in Noida to enrich career values and achieve optimal gains.  
+
+            </p>
+            <br />
+            <h4 style={{ fontSize: "20px" }}>
+            What proven career benefits can you get with Learnbay’s data science course in Kochi?
+            </h4>
+
+            <br />
+            <p>
+            Learnbay is famous for its industry-focused upskilling courses that help experts revamp their static careers with proven skills. Experts joining us will get Gen AI-rich upskilling to simplify data intricacies and develop better solutions. 
+            </p>
+          
+ 
+            <i><b>Some notable career gains are –</b></i>
+            <br />
+            <ul>
+              <li>
+                <b>Gen AI-rich course modules: </b>A live training space to learn data science with Gen AI-rich tools. 
+              </li>
+              <br />
+              <li>
+                <b>Domain-specific learning:</b> We offer domain-specific data science training in Indore to improve pre-existing skills. 
+
+              </li>
+              <br />
+              <li>
+                <b>Real-time learning:</b> Here, we offer hands-on learning scope via 12+ data science capstone projects.
+              </li>
+
+              <br />
+              <li>
+                <b>Domain-specific skill upgrades:</b> Learners can enrol in our data science training in Kochi to refine prior domain skills. 
+              </li>
+
+              <br />
+              <li>
+                <b>Globally-valued certifications:</b> An open upskilling space to modernize career values in data science via IBM & Microsoft certificates. 
+              </li>
+              <li>
+                <b>Career Service PRO:</b>Our data science institute in Kochi offers career support services that help you land dream jobs. 
+
               </li>
             </ul>
 

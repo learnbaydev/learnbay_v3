@@ -34,7 +34,7 @@ function CloudAndDevOpsCoursePage({ CloudAndDevOpsCourseDataJson }) {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/cloud&devops/advance-devOps-certification-program"
+          href="https://www.learnbay.co/cloud&devops/devops-online-course-training-institute"
         />
 
       </Head>

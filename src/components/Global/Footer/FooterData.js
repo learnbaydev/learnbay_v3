@@ -401,6 +401,38 @@ export const CityFooterData = [
     ],
   },
 
+  {
+    id: "SecondDiv",
+    FirstDiv: [
+      {
+        id: "indore",
+        city: "Indore",
+        cityData: [
+          {
+            id: 1,
+            name: "Data Science Course Training in Indore",
+            url: "/datascience/india/data-science-course-training-in-indore",
+          },
+        
+        ],
+      },
+     
+      {
+        id: "kochi",
+        city: "Kochi",
+        cityData: [
+          {
+            id: 2,
+            name: "Data Science Course Training in Kochi",
+            url: "/datascience/india/data-science-course-training-in-kochi",
+          },
+        ],
+      },
+     
+    
+    ],
+  },
+
 
 
 
