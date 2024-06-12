@@ -10,9 +10,22 @@
     grid-template-columns: 25% 25% 25% 25%;
     padding: 20px 0px 20px 0px;
   }
+
+  .viewBtn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .viewBtn button {
+    padding: 10px 30px;
+    border-radius: 5px;
+  }
+
+  
   .FooterDivInner {
     color: #fff;
     margin: 0px 20px 0px 0px;
+    width: fit-content;
   }
 
   .FooterDivInner span {
@@ -68,6 +81,7 @@
     margin-bottom: 15px;
     display: flex;
     align-items: center;
+    width: fit-content;
   }
 }
 
@@ -88,12 +102,20 @@
     grid-template-columns: 100%;
     padding: 20px;
   }
+
+  .viewBtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
   .FooterDiv:first-child {
     padding-top: 50px;
   }
   .FooterDivInner {
     color: #fff;
     margin: 0px 20px 0px 0px;
+    width: fit-content;
   }
 
   .FooterSocial {
