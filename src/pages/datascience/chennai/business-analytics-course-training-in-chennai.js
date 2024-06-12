@@ -186,7 +186,7 @@ export default function Home() {
             weekendbatch="Weekday Batch"
             weekday="SAT-SUN"
             weekend="MON-FRI"
-            WeekdayDate="MAY 12th"
+            WeekdayDate="July 7th"
             WeekendDate="JUNE 7th"
             WeekendTime="8.00 PM - 10.00 PM"
             WeekdayTime="9:30 AM - 1:00 PM"
