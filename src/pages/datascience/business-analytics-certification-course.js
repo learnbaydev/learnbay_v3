@@ -67,7 +67,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>Best Online Data Science Courses | Online Data Science Training - Learnbay</title>
+        <title>Best Business Analytics Certification Training [2024]</title>
         <meta
           name="description"
           content="Elevate your business acumen with our comprehensive Business Analytics master Certification Program. Gain valuable insights, enhance decision-making, and drive success through advanced analytics tools and strategies. Enroll today for a data-driven future."
@@ -75,7 +75,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="business analytics master course, business analytics master certification course, business analytics master certification, business analyst training, hr analytics course, business analyst course online, marketing analytics course, business analyst certification course, best business analyst course, best business analyst certification          "
+          content="business analytics master course, business analytics master certification course, business analytics master certification, business analyst training, business analyst course online, business analyst certification course, best business analyst course, best business analyst certification          "
         />
         <link
           rel="icon"

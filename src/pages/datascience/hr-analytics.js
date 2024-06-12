@@ -78,7 +78,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="HR analytics course, HR analytics certification course, HR analytics certification, HR Analytics training, hr analytics course, HR Analytics course online, marketing analytics course, HR Analytics certification course, best HR Analytics course, best HR Analytics certification          "
+          content="HR analytics course, HR analytics certification course, HR analytics certification, HR Analytics training, hr analytics course, HR Analytics course online,  HR Analytics certification course, best HR Analytics course, best HR Analytics certification          "
         />
         <link
           rel="icon"

@@ -20,11 +20,7 @@
 		<changefreq>daily</changefreq>
 		<priority>0.90</priority>
 	</url>
-	<url>
-		<loc>https://www.learnbay.co/datascience/data-science-ai-for-managers</loc>
-		<changefreq>daily</changefreq>
-		<priority>0.90</priority>
-	</url>
+	
 	<url>
 		<loc>https://www.learnbay.co/datascience/artificial-intelligence-certification-course</loc>
 		<changefreq>daily</changefreq>
@@ -35,11 +31,7 @@
 		<changefreq>daily</changefreq>
 		<priority>0.90</priority>
 	</url>
-	<url>
-		<loc>https://www.learnbay.co/fullstack/full-stack-web-development-program</loc>
-		<changefreq>daily</changefreq>
-		<priority>0.90</priority>
-	</url>
+
 	<url>
 		<loc>https://www.learnbay.co/fullstack/full-stack-software-development-program</loc>
 		<changefreq>daily</changefreq>
@@ -470,11 +462,7 @@
 		<priority>0.70</priority>
 	</url>
 
-				<url>
-		<loc>https://www.learnbay.co/datascience/australia/masters-degree-in-data-science-in-australia</loc>
-		<changefreq>daily</changefreq>
-		<priority>0.70</priority>
-	</url>
+		
 
 
 				<url>
@@ -522,6 +510,70 @@
 	</url>
 		<url>
 		<loc>https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/datascience/india/data-science-course-training-in-noida</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/datascience/india/data-science-course-training-in-kochi</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+	<url>
+		<loc>https://www.learnbay.co/datascience/india/data-science-course-training-in-inodre</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+
+
+	<url>
+		<loc>https://www.learnbay.co/datascience/bangalore/data-data-science-course-training-in-marathahalli</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/datascience/bangladesh/data-science-course-training-in-bangladesh</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/datascience/egypt/data-science-course-training-in-egypt</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/cloud&amp;devops/aws-cloud-computing-and-devOps</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/datascience/data-science-ai-for-freshers</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/cloud&amp;devops/aws-cloud-computing-and-devOps</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+	<url>
+		<loc>https://www.learnbay.co/cloud&amp;devops/devops-online-course-training-institute</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+	<url>
+		<loc>https://www.learnbay.co/cloud&amp;devops/cloud-computing-online-course-training-institute</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.70</priority>
 	</url>
