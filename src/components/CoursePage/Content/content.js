@@ -2404,8 +2404,7 @@ function DataAnalytics({
           {read ? (
             <>
               <h4 style={{ fontSize: "28px" }}>
-                Dive Into The World Of Analytics With The Help Of The Best
-                Certificate In Business Analytics{" "}
+              Online Business Analyst Course Overview
               </h4>
               <h2 style={{ fontSize: "24px" }}>
                 <b>What is Business Analytics? Why Do We Need It? </b>
@@ -2475,7 +2474,7 @@ function DataAnalytics({
                 of various industries.
                 <ul>
                   <li>
-                    <h4 style={{ fontSize: "18px" }}>• Healthcare Industry</h4>
+                    <h4 style={{ fontSize: "18px" }}>• Business Analytics in Healthcare Industry</h4>
                     <p>
                       The Healthcare Industry has seen a significant change in
                       recent years. As you can see, the use of business
@@ -2492,7 +2491,7 @@ function DataAnalytics({
                     </p>
                   </li>
                   <li>
-                    <h4 style={{ fontSize: "18px" }}>• Finance Industry</h4>
+                    <h4 style={{ fontSize: "18px" }}>• Business Analytics in Finance Industry</h4>
                     <p>
                       The finance industry is one of the most impacted
                       industries by business analytics and new-age technology.
@@ -2509,7 +2508,7 @@ function DataAnalytics({
                     </p>
                   </li>
                   <li>
-                    <h4 style={{ fontSize: "18px" }}>• Retail Industry</h4>
+                    <h4 style={{ fontSize: "18px" }}>• Business Analytics in Retail Industry</h4>
                     <p>
                       The Retail industry is seeing innovative changes by
                       adapting business analytics practices. With the help of
@@ -2559,7 +2558,7 @@ function DataAnalytics({
                 recognized by top-tier companies from different industries.
               </p>
               <h2>
-                Why Go With Learnbay’s Certificate Course In Business Analytics?
+              Why Go With Learnbay’s Business Analytics Certification Course?
               </h2>
 
               <p>
@@ -2705,7 +2704,7 @@ function DataAnalytics({
                 </ul>
               </p>
               <h2>
-                How Can I Gain Competitive Edge As An Existing Business Analyst?{" "}
+              What are the Benefits of Learning a Business Analytics Course Online?
               </h2>
               <p>
                 If you are interested in advancing your career as a business

@@ -133,7 +133,7 @@ const SecondPart = ({
         projectSection={projectSection}
         interstedInHide={true}
       />
-      <FAQNew FAQNewData={FAQNewData} />
+      <FAQNew FAQNewData={FAQNewData} toolsdynamic={toolsdynamic}/>
       <Content Banalytics={true} dataScienceCounselling={true} />
       <SeventhSection />
       <Footer />
