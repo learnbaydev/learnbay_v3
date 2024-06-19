@@ -1,132 +1,83 @@
-import Button from "@/components/Global/Button/Button";
-import { useEffect, useRef, useState } from "react";
-import Image from "next/image";
 import React from "react";
-import { FaCheck, FaYoutube } from "react-icons/fa6";
 import styles from "./FirstSection.module.css";
+import Image from "next/image";
 
-const FirstSectionContent = ({ setPopups, setVideo }) => {
+function HeroSection({ setPopups, setVideo }) {
   const popupShow = () => {
     setPopups(true);
   };
+
   const videoShow = () => {
     setVideo(true);
-
   };
+
   return (
-    <div className={styles.slide}>
-      <div className={styles.First}>
-        <div className={styles.FirstLeft}>
-          <p className={styles.pTop}>India’s #1 </p>
-          <h1 className={styles.h1}>
-            Tech-Upskilling Platform
-            <span className={styles.forNew}>&nbsp; for </span>Working
-            Professionals
-            <span className={styles.arrowImg}>
-              <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/arrow-top.webp"
-                width="166"
-                height="115"
-                priority
-                alt="data science course"
-
-
-              />
-            </span>
-          </h1>
-
-          <div className={styles.GenAiBox}>
-            <div className={styles.GenImageBlock}>
-              <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/genAi.png"
-                width="32"
-                height="32"
-                priority
-                alt="data science course"
-
-
-              />
-            </div>
-            <p className={styles.TextGreen}>
-              Curriculum inclusive of GenAI and ChatGPT
-            </p>
-          </div>
-          <div className={styles.imgWrapperMobile}>
-            <div className={styles.pClass}>
-              <p className={styles.blinkMobile}>
-                <FaCheck className={styles.greenCheck} /> Data Science & AI
-              </p>
-              <p className={styles.blinkMobile}>
-                <FaCheck className={styles.greenCheck} /> Cloud & DevOps
-              </p>
-              <p className={styles.blinkMobile}>
-                <FaCheck className={styles.greenCheck} /> Master’s Degree
-              </p>
-            </div>
-            <div className="imgWrapper">
-              <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbay-main.webp"
-                width="580"
-                height="450"
-                priority
-                quality={50}
-                alt="data science course"
-
-
-              />
-            </div>
-          </div>
-          <div className={styles.pClass}>
-            <p className={styles.blink}>
-              <FaCheck className={styles.greenCheck} /> Data Science & AI
-            </p>
-            <p className={styles.blink}>
-              <FaCheck className={styles.greenCheck} /> Cloud & DevOps
-            </p>
-            <p className={styles.blink}>
-              <FaCheck className={styles.greenCheck} /> Master’s Degree Program
-            </p>
-          </div>
-          <div className={styles.btnWrapper}>
-            {/* <a href="#course">
-              <Button
-                className={styles.outLineBtn}
-                ButtonWhiteBg
-                text="Courses"
-                passIcon={<FaChevronDown className="bIconS" />}
-              />
-            </a> */}
-            <div onClick={popupShow}>
-              <Button
-                className={styles.Btn}
-                OrangeButton
-                text="Get Recommendation"
-              // passIcon={<FaBell className="bIconS" />}
-              />
-            </div>
-            <div onClick={videoShow} className={styles.FaPlay}>
-              Learn More <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/yt-one.webp" width={32} height={32} priority />
-            </div>
-
-          </div>
+    <section className={styles.section}>
+      <div className={styles.bgWrap}>
+        {/* Optimized background image with appropriate alt text */}
+        <Image
+          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BG_Home_1.webp"
+          alt="Learnbay Background"
+          layout="fill"
+          priority
+        />
+      </div>
+      <div className={styles.content}>
+        <h1>India’s #1 Upskilling Platform for Working Professionals</h1>
+        <h3>Curriculum inclusive of Gen AI and ChatGPT</h3>
+        <div className={styles.round}>
+          <p>Data Science & AI</p>
+          <p>Cloud & DevOps</p>
+          <p>Master’s Degree</p>
         </div>
-        <div className={styles.secondLeft}>
-          <div className={styles.imgWrapperDesktop}>
-            <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbay-main.webp"
-              width="580"
-              height="450"
-              priority
-              quality={55}
-              alt="data science course"
-
-
-            />
+        <div className={styles.buttonDiv}>
+          <button onClick={popupShow} className={styles.button}>
+            Get Recommendation
+          </button>
+          {/* Improved accessibility by adding aria-label */}
+          <div
+            className={styles.learnDiv}
+            onClick={videoShow}
+            aria-label="Learn More"
+          >
+            <div className={styles.iconDiv}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="61"
+                height="60"
+                viewBox="0 0 61 60"
+                fill="none"
+              >
+                <path
+                  d="M60.0544 30.0029C60.0544 46.3104 46.7195 59.5371 30.2616 59.5371C13.8037 59.5371 0.468796 46.3104 0.468796 30.0029C0.468796 13.6955 13.8037 0.468796 30.2616 0.468796C46.7195 0.468796 60.0544 13.6955 60.0544 30.0029Z"
+                  fill="#FD2222"
+                  fillOpacity="0.2"
+                  stroke="#FD2222"
+                  strokeWidth="0.937591"
+                />
+                <path
+                  d="M45.3101 30.3101L21.8894 43.832V16.7881L45.3101 30.3101Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            Learn More
           </div>
         </div>
       </div>
-    </div>
+      <div className={styles.typeLogo}>
+        <p>Get Certification from :</p>
+        {/* Optimized logo image */}
+        <Image
+          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ibm_mix_logo.webp"
+          width={650}
+          height={34}
+          alt="IBM Logo"
+          priority
+        />
+      </div>
+    </section>
   );
-};
+}
 
-export default React.memo(FirstSectionContent);
+export default HeroSection;

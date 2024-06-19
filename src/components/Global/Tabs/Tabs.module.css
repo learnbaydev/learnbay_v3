@@ -26,7 +26,8 @@
 
 .span,
 .spanActive {
-  display: flex;
+  display: grid;
+  grid-template-columns: 90% 10%;
   align-items: center;
   cursor: pointer;
   justify-content: space-between;
@@ -37,6 +38,7 @@
   border-radius: 5px;
   margin-bottom: 5px;
   transition: background-color 0.3s, transform 0.3s;
+  cursor: pointer;
 }
 
 .span:hover,

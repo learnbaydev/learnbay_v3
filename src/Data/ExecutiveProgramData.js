@@ -195,6 +195,11 @@ export const ExcutiveProgramAIDS = [
       {
         Module0: {
           title: "Module 0 :- Preparatory Classes (Programming + Maths)",
+          points:"Programing basic",
+          points1:"Programing basic",
+          points2:"Programing basic",
+
+          imageURL:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
           content: [
             {
               chap: {
@@ -211,6 +216,7 @@ export const ExcutiveProgramAIDS = [
             {
               chap: {
                 title: "Topic 2 :-  Fundamentals of programming ",
+        
                 desc: [
                   "Introduction to Anaconda & Jupyter notebook ",
                   "Flavors of python Introduction to Git, GitHub",
@@ -221,6 +227,7 @@ export const ExcutiveProgramAIDS = [
             {
               chap: {
                 title: " Topic 3 :- Fundamentals of Statistics",
+             
                 desc: [
                   "Mean, Median, Mode.",
                   "Standard Deviation, Average. Probability, Permutations, and Combinations ",
@@ -236,6 +243,9 @@ export const ExcutiveProgramAIDS = [
       {
         Module0: {
           title: "Term 1 :- Python for Data Science",
+          points:"Programing basic",
+          points1:"Programing basic",
+          points2:"Programing basic",
           content: [
             {
               chap: {
@@ -263,6 +273,8 @@ export const ExcutiveProgramAIDS = [
       {
         Module0: {
           title: "Term 2 :- Statistics and Machine Learning",
+          points:"Programing basic",
+          points1:"Programing basic",
           content: [
             {
               chap: {
@@ -313,6 +325,9 @@ export const ExcutiveProgramAIDS = [
       {
         Module0: {
           title: "Term 3 :-  Data Science Tools",
+          points:"Programing basic",
+          points1:"Programing basic",
+          points2:"Programing basic",
           content: [
             {
               chap: {
@@ -380,6 +395,8 @@ export const ExcutiveProgramAIDS = [
       {
         Module0: {
           title: "Term 4 :- Artificial Intelligence Tools",
+          points:"Programing basic",
+       
           content: [
             {
               chap: {
@@ -450,6 +467,8 @@ export const ExcutiveProgramAIDS = [
       {
         Module0: {
           title: "Term 5 :- Essentials",
+          points:"Programing basic",
+          points1:"Programing basic",
           content: [
             {
               chap: {
@@ -471,6 +490,8 @@ export const ExcutiveProgramAIDS = [
       {
         Module0: {
           title: "BONUS :- AI Generative Tools and Future Trends",
+          points:"Programing basic",
+          points1:"Programing basic",
           content: [
             {
               chap: {

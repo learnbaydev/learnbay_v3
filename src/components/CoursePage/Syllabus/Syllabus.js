@@ -81,6 +81,7 @@ function SyllabusNew({
         </p>
       </div>{" "}
       <section className={styles.Syllabus}>
+      
         <div className={styles.syllabusLeft}>
           {software ? (
             <>

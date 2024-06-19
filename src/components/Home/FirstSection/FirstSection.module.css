@@ -1,517 +1,231 @@
-.First {
-  margin-top: 80px;
-  padding: 70px 110px 76px 120px;
-  display: grid;
+.section {
+  width: 1350px;
+  margin:90px auto ;
   position: relative;
-  /* align-items: center; */
-  grid-template-columns: 53% 47%;
-  height: fit-content;
-  align-items: center;
-}
-.First {
-  border-radius: 0px 0px 20px 20px;
-background: #212121;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  /* top: 80px; */
+  height: 620px;
+  
 }
 
-.GenAiBox {
-  display: flex;
-  gap: 10px;
-  background: linear-gradient(90deg, #482B00 0%, rgba(9, 9, 9, 0.00) 100%);
-  margin: 30px 0px 60px 0px;
-  border-radius: 10px 0px 0px 10px;
-  align-items: center;
-}
-
-.pClass {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-.TextGreen {
-  color: #F99600;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 153%;
-  margin: 0;
-}
-
-.arrowImg img {
+.bgWrap {
   position: absolute;
-  width: 70px;
-  margin-left: 20px;
-  height: auto;
+  overflow: hidden;
+  z-index: -1;
+  width: 100%;
+  height: 680px;
 }
 
-.greenCheck {
-  color: #35d028;
-  font-weight: 100;
-}
-.GenImageBlock {
-  border-radius: 12px 12px 0px 12px;
-  background: #3A3A3A;
-  padding: 5px 5px 0px 5px;
-}
-
-.pTop {
-  color: #f99600;
-  font-size: 46px;
-  font-weight: 800;
-  margin: 0;
-}
-.imgWrapperMobile {
-  display: none;
-}
-
-.imgWrapperDesktop img {
-  width: 95%;
-  height: auto;
-  padding: 0px 0px 0px 20px;
-}
-.ImageBlock {
-  width: 300px;
-  height: max-content;
-}
-.animationTextWrap {
-  font-size: 22px;
-  height: 24px;
-  font-weight: 600;
-}
-.ptop {
-  font-size: 20px;
-  margin: 0;
-  text-align: left;
-}
-
-.h1 {
-  color: #fff;
-  font-weight: 700;
-  line-height: normal;
-  margin: 0px;
-  text-align: left;
-  font-size: 45px;
-}
-.FirstLeft {
-  position: relative;
-}
-.line {
-  position: absolute;
-  top: 72%;
-  left: 48%;
-  transform: rotate(-20deg);
-}
-.forNew {
-  font-family: Kalam;
-  font-size: 32.632px;
-  font-weight: 700;
-  line-height: 126.5%; /* 53.929px */
-  letter-spacing: 0.426px;
-  color: #f99600;
-  font-style: italic;
-}
-.blink {
-  font-size: 16px;
-  color: #dfdfdf;
-  margin: 0;
+.content {
   display: flex;
-  gap: 5px;
+  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  border-radius: 30.964px;
-background: linear-gradient(0deg, #2E2E2E 0%, #2E2E2E 100%), #2E2E2E;
-padding: 5px 15px;
+  padding: 60px 0px 0px 0px;
 }
-.descLine {
-  color: #767676;
-  margin: 0 !important;
-  margin-bottom: 20px !important;
-  text-transform: uppercase;
+
+@keyframes animate-gradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 0%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
 }
-/* .FirstLeft p {
-  margin: 10px 0px 10px 0px;
-} */
-.logos {
-  display: none;
+
+.content h3 {
+  background: linear-gradient(90deg, #0FA1FF 12.99%, #0FA1FF 32.19%, #686AFB 53.32%, #FE5449 70.48%);
+  background-size: 200% 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 40px 0px 80px 0px;
+  animation: animate-gradient 6s linear infinite;
 }
-.IBMlogoPlay {
-  display: none;
-}
-.logosD {
-  display: flex;
-  justify-content: space-evenly;
-}
-.PlayImg {
+
+
+.content h1 {
   text-align: center;
+  font-size: 52px;
+  width: 800px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.65px;
+  line-height: 62px;
+  color: #fff;
+}
+
+.round {
+  display: flex;
+  gap: 30px;
   margin: 0px 0px 30px 0px;
 }
-.FaPlay {
-  background: transparent;
-  border: 1px solid #fff;
-  color: #fff;
-  padding: 5px 40px;
-  align-items: center;
-  border-radius: 4px;
+
+.round p {
+  border-radius: 24.231px;
   font-size: 16px;
+  border-radius: 20px 20px 0px 0px;
+  border: 0.866px solid #0072bc;
+  border-width: 1px 0px 0px 0px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 114, 188, 0.2) 0.85%,
+    rgba(0, 114, 188, 0) 100.4%
+  );
   display: flex;
   align-items: center;
-  gap: 10px;
-  height: fit-content;
-  cursor: pointer;
-  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  margin: auto;
+  padding: 10px 30px;
+  color: #fff;
 }
 
-.IconYou {
-  color: red;
-  font-size: 30px;
-}
-.btnWrapper {
+.buttonDiv {
   display: flex;
-  flex-direction: row;
-  gap: 20px;
-  margin: 80px 0px 0px;
+  gap: 50px;
+  color: #fff;
+  align-items: center;
+  margin-top: 40px;
 }
-.outLineBtn {
-  padding: 10px 14px;
+
+.playIcon {
+  font-size: 32px;
+  margin-left: 5px;
+}
+
+.iconDiv {
+ 
+  padding: 5px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.learnDiv {
+  display: flex;
+  gap: 10px;
+  align-items: center;
   font-size: 18px;
-  background: #fff;
-  color: #0072bc;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
 }
-.outLineBtn:hover {
-  background: #0072bc;
+
+.learnDiv svg {
+  transition: filter 0.3s ease;
+}
+
+.learnDiv:hover svg {
+  filter: drop-shadow(0 0 9px rgba(390, 40, 40, 0.9));
+}
+
+.button {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 16px;
+  height: fit-content;
+  flex-shrink: 0;
+  color: #fff;
+  border-radius: 31px;
+  border: 1px solid #F99600;
+  background: rgba(249, 150, 0, 0.17);
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  transform: skewX(-30deg);
+  transition: left 0.8s;
+}
+
+.button:hover::before {
+  left: 100%;
+}
+
+.button:hover {
+  background: rgba(249, 150, 0, 0.5);
   color: #fff;
 }
-.Btn {
-  background: #0072bc;
-  color: #fff;
-  padding: 10px 14px;
-  font-size: 18px;
+
+.curverdiv{
+margin: auto;
 }
-.Btn:hover {
-  background: #fff;
-  color: #0072bc;
+
+.typeLogo{
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  margin-top: 40px;
+  gap: 10px;
 }
-.blinkMobile,
-.ibmLogoMobile {
-  display: none;
+.typeLogo p {
+  color: #9C9C9C;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 153%; /* 38.25px */
 }
-@media (max-width: 1281px) {
-  .h1 {
-    font-size: 30px;
-    line-height: 38px;
-  }
-  .blink,
-  .ptop {
-    font-size: 18px;
-  }
-  .First {
-    padding: 40px 80px;
-  }
-  .ImageBlock {
-    width: 250px;
-  }
-  .blinkMobile,
-  .ibmLogoMobile {
-    display: none;
-  }
-}
-@media (max-width: 1024px) {
-  .h1 {
-    font-size: 24px;
-    line-height: 32px;
-    margin: 7px 0px 20px 0px;
-  }
-  .blink,
-  .ptop {
-    font-size: 17px;
-  }
-  .animationTextWrap {
-    font-size: 20px;
-  }
-  .ImageBlock {
-    width: 200px;
-  }
-  .blinkMobile,
-  .ibmLogoMobile {
-    display: none;
-  }
-}
-@media (max-width: 961px) {
-  .First {
-    padding: 30px 40px;
-    gap: 30px;
-  }
-  .h1 {
-    font-size: 22px;
-  }
-  .animationTextWrap {
-    font-size: 19px;
-  }
-  .blink,
-  .ptop {
-    font-size: 15px;
-  }
-  .ImageBlock {
-    width: 180px;
-  }
-  .blinkMobile,
-  .ibmLogoMobile {
-    display: none;
-  }
-}
-@media (max-width: 801px) {
-  .First {
-    grid-template-columns: 100%;
-  }
-  .secondLeft {
-    display: none;
-  }
-  .imgWrapperMobile {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .imgWrapperMobile img {
-    width: 50%;
-    height: auto;
-  }
-  .imgWrapperDesktop {
-    display: none;
-  }
-  .h1 {
-    font-size: 31px;
-    text-align: center;
-    line-height: 32px;
-  }
-  .animationTextWrap {
-    font-size: 20px;
-    text-align: center;
-  }
-  .blink,
-  .ptop {
-    font-size: 18px;
-    text-align: center;
-  }
-  .btnWrapper {
-    justify-content: center;
-    align-self: center;
-  }
-  .ImageBlock {
-    margin: auto;
-  }
-  .blinkMobile,
-  .ibmLogoMobile {
-    display: none;
-  }
-  .pClass {
-    display: flex;
-    flex-flow: wrap;
-    gap: 15px 10px;
-    margin-bottom: 40px;
-    margin-top: 10px;
-    width: 100%;
-  }
-}
+
+
 @media (max-width: 641px) {
-  .SecondSectionLeft {
-    gap: 15px;
+  .content {
+    padding: 120px 0px 60px 0px;
   }
-  .First {
-    padding: 30px 20px 40px 20px;
-    display: block;
-    margin-top: 60px;
-    height: fit-content;
+  .content h3 {
+    font-size: 22px;
+    margin-bottom: 14px;
   }
-
-.arrowImg img {
-  width: 42px;
-  display: none;
-}
-
-.GenAiBox {
-  margin: 30px 0px 30px 0px;
-}
-
-.forNew {
-  font-size: 22px;
-}
-  .SecondSectionLeft .h1 {
-    text-align: left;
-    margin: 0px 0px 10px 0px;
-    font-size: 26px;
-    padding: 0px;
+  .content h1 {
+    font-size: 32px;
+    width: fit-content;
   }
-  .box {
-    display: none;
+  .round {
+    margin: 30px 0px 100px 0px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 16px 0px;
+    width: 280px;
   }
-  .FirstLeft {
-    gap: 0;
-  }
-  .pTop {
-    font-size: 26px;
-    font-weight: 700;
-  }
-  /* .FirstLeft {
-    margin: 10px 0px 20px 0px;
-    text-align: center;
-    font-size: 16px;
-    line-height: 26px;
-  } */
-  .FirstLeft .ptop {
-    color: #767676;
-    font-size: 16px;
-    margin: 0;
-    text-align: center;
-    margin-top: 0px;
-  }
-  .FirstLeft .ptopC {
-    color: #767676;
-    font-size: 14px;
-    margin: 0px;
-    text-align: center;
-  }
-  .FirstLeft .h1Span {
-    background: linear-gradient(90deg, #f99600 50%, #edb552 103.64%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
-  }
-  .FirstLeft .h1 {
-    margin: 0px 0px 10px 0px;
-    font-size: 26px;
-    text-align: center;
-    line-height: normal;
-    padding: 0px;
-  }
-  .logos {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    margin-top: 20px;
-    text-align: center;
-  }
-  .IBMlogo,
-  .IBMlogoPlay {
-    text-align: left;
-    margin: 10px 0px;
-  }
-  .IBMlogoPlay {
-    display: block;
-  }
-  .secondLeft {
-    display: none;
-  }
-  .PlayImg {
-    display: none;
-  }
-  .logosD {
-    display: none;
-  }
-  .FirstLeft button {
+  .buttonDiv {
+    gap: 30px;
+    width: 354px;
     margin: auto;
-    font-size: 16px;
-    height: fit-content;
-    padding: 12px 15px;
-    margin: 0;
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-  }
-  .blink {
-    display: none;
-  }
-  .blinkMobile {
-    display: block;
-    color: #ffffff90;
-    font-size: 13px;
-    margin-bottom: 0px;
-    margin-top: 0;
-    background: linear-gradient(0deg, #2E2E2E 0%, #2E2E2E 100%), #2E2E2E;
-    width: fit-content;
-    padding: 5px 14px;
-    border-radius: 30px;
-  }
-  .line {
-    top: 82%;
-    left: 80%;
-  }
 
-  .btnWrapper {
-    justify-content: center;
-    margin: 30px auto 0px auto;
-    flex-direction: column;
-    align-items: center;
-    width: 80%;
   }
-  .btnWrapper a,
-  .btnWrapper div {
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+  .button {
+    font-size: 14px;
+    padding: 7px 20px;
+    cursor: pointer;
   }
-  .ibmLogoMobile {
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
-    justify-content: center;
-    align-items: center;
+  .iconDiv {
+    width: 60px;
+    height: 60px;
   }
-  .forth .h1 {
-    font-size: 26px;
-    line-height: normal;
-    text-align: left;
+  .playIcon {
+    font-size: 30px;
   }
-  .FaPlay {
-    padding: 7px 10px;
-  }
-}
-
-@media (max-width: 481px) {
-  .imgWrapperMobile img {
-    width: 100%;
-  }
-  .h1 {
-    font-size: 20px;
-  }
-  .FirstLeft p {
-    text-align: left;
-  }
-  .greenBox {
-    padding: 5px 10px;
-  }
-  .greenBox p {
-    font-size: 12px;
-  }
-  .TextGreen {
+  .learnDiv {
     font-size: 14px;
   }
-  .FirstLeft .ptopC {
-    text-align: left;
-  }
-  .FirstLeft .h1Span {
-    text-align: left;
-  }
-  .FirstLeft .h1 {
-    text-align: left;
-  }
-  .logos {
-    justify-content: left;
-    text-align: left;
-  }
-  .IBMlogo,
-  .IBMlogoPlay {
-    text-align: left;
-  }
-  .blink {
-    line-height: 30px;
-    text-align: left;
-  }
-  .ImageBlock {
-    margin: 0px;
-    width: fit-content;
-    margin-top: 10px;
-  }
-  .animationTextWrap {
-    text-align: left;
+  .bgWrap {
+    height: 500px !important;
   }
 }
