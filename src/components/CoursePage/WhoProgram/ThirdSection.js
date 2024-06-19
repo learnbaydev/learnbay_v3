@@ -47,7 +47,7 @@ const ThirdSection = ({
         </div>
       </Popup>
 
-      <h4>Choose Your Domain Elective</h4>
+      <h2 className={styles.h2}>Choose Your Domain Elective</h2>
       <div className={styles.programWrap}>
         <div className={styles.left}>
           <Image

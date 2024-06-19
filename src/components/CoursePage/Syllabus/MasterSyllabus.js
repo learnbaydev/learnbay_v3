@@ -41,7 +41,7 @@ function SyllabusNew({
         />
 
         <div className={styles.project}>
-          <h4 className={styles.h1}>Explore our Syllabus</h4>
+          <h3 className={styles.h1}>Explore our Syllabus</h3>
           <p className={styles.ptop}>
             Curriculum is specifically engineered to meet the expectations of
             leading tech companies
