@@ -7,7 +7,7 @@ import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper";
 
-function FAQNew({ FAQNewData, dscoursefaq }) {
+function FAQNew({ FAQNewData, dscoursefaq, toolsdynamic }) {
   // const [mobile, setMobile] = useState(false);
   const [dataLoop, setDataLoop] = useState([
     { title: "Course Related", value: true },
@@ -20,7 +20,6 @@ function FAQNew({ FAQNewData, dscoursefaq }) {
     { title: "Support", value: false },
     { title: "Eligiblity Criteria", value: false },
     { title: "Generic Queries", value: false },
-
   ]);
 
   const menuChange = (title, index) => {
@@ -38,8 +37,24 @@ function FAQNew({ FAQNewData, dscoursefaq }) {
 
   return (
     <div className={styles.course} id="faqs">
-        <h4 className={styles.infop}>FAQs</h4>
-        <p>Curriculum is specifically engineered to meet the expectations of leading tech companies.</p>
+      {toolsdynamic ? (
+        <>
+          {" "}
+          <h4 className={styles.infop}>
+            Business Analyst Certification Course FAQs
+          </h4>
+        </>
+      ) : (
+        <>
+          {" "}
+          <h4 className={styles.infop}>FAQs</h4>
+        </>
+      )}
+
+      <p>
+        Curriculum is specifically engineered to meet the expectations of
+        leading tech companies.
+      </p>
       <div className={styles.courseM}>
         <div className={styles.courses}>
           <div className={styles.listPanel}>
@@ -51,15 +66,16 @@ function FAQNew({ FAQNewData, dscoursefaq }) {
                   }}
                   style={
                     dataLoop[data.id].value
-                      ? { background: "white",color:"#000", borderLeft: "4px solid #2D9CD7" }
+                      ? {
+                          background: "white",
+                          color: "#000",
+                          borderLeft: "4px solid #2D9CD7",
+                        }
                       : {}
                   }
                   key={index}
                 >
                   {data.sectionName}
-             
-                
-                  
                 </span>
               );
             })}
@@ -68,7 +84,7 @@ function FAQNew({ FAQNewData, dscoursefaq }) {
             const { data } = dataF;
             return dataLoop[index].value ? (
               <div className={styles.gridPanel} key={index}>
-                <FAQ FaqData={data}/>
+                <FAQ FaqData={data} />
               </div>
             ) : (
               ""
@@ -130,7 +146,7 @@ function FAQNew({ FAQNewData, dscoursefaq }) {
           const { data } = dataF;
           return dataLoop[index].value ? (
             <div className={styles.gridPanel} key={index}>
-              <FAQ FaqData={data}  />
+              <FAQ FaqData={data} />
             </div>
           ) : (
             ""
