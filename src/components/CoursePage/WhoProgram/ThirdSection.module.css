@@ -166,6 +166,9 @@
     display: grid;
     gap: 30px;
   }
+  .h2 {
+    font-size: 20px;
+  }
   .boxWrap {
     display: grid;
     grid-template-columns: 47% 47%;

@@ -67,15 +67,15 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>Best Online Data Science Courses | Online Data Science Training - Learnbay</title>
+        <title>Best Business Analyst Course with Placement support- Learnbay</title>
         <meta
           name="description"
-          content="Elevate your business acumen with our comprehensive Business Analytics master Certification Program. Gain valuable insights, enhance decision-making, and drive success through advanced analytics tools and strategies. Enroll today for a data-driven future."
+          content="Get the best Business Analytics & Analyst Course with placement support. Top certification & training for online classes. Enrol now for better career options."
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="business analytics master course, business analytics master certification course, business analytics master certification, business analyst training, hr analytics course, business analyst course online, marketing analytics course, business analyst certification course, best business analyst course, best business analyst certification          "
+          content="business analytics course, business analyst course with placement, business analyst classes online, business analyst course with placement guarantee, best business analyst course, best business analysis course, best business analyst training, top business analyst certification, business analytics course with placement, business analysis training and placement, best business analyst course with placement,           "
         />
         <link
           rel="icon"
@@ -149,6 +149,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
           projectSection={
             DataScienceCourseData.BADataScienceCourseData[0].projectSection
           }
+          toolsdynamic={true}
           FAQNewData={DataScienceCourseData.BADataScienceCourseData[0].faq}
         />
       </main>

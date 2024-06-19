@@ -9,11 +9,22 @@ function ToolsCovered({
   MarketingHR,
   Intern,
   Found,
+  toolsdynamic,
 }) {
   return (
     <div>
       <div className={styles.toolmain}>
-        <h2>Programming Languages & Tools Covered</h2>
+        {toolsdynamic ? (
+          <>
+            {" "}
+            <h2>Programming Languages & Tools Covered in Business Analytics</h2>
+          </>
+        ) : (
+          <>
+            {" "}
+            <h2>Programming Languages & Tools Covered</h2>
+          </>
+        )}
         {Found ? (
           <Image
             src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/found-tool.webp"
@@ -83,39 +94,29 @@ function ToolsCovered({
       <div>
         <div className={styles.toolmobile}>
           <div className="imgWrapper">
-          {Found ? (
-          <Image
-            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/found-mbl.webp"
-            width={1200}
-            height={400}
-            loading="lazy"
-            alt="tools covered"
-          />
-        ) : (
-            <>
-            {Intern ? (
+            {Found ? (
               <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/freshers-mobile.webp"
-                width={400}
-                height={261}
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/found-mbl.webp"
+                width={1200}
+                height={400}
                 loading="lazy"
                 alt="tools covered"
               />
             ) : (
               <>
-                {MarketingHR ? (
+                {Intern ? (
                   <Image
-                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+798.webp"
+                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/freshers-mobile.webp"
                     width={400}
-                    height={400}
+                    height={261}
                     loading="lazy"
                     alt="tools covered"
                   />
                 ) : (
                   <>
-                    {foundation ? (
+                    {MarketingHR ? (
                       <Image
-                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/group_797+(1).webp"
+                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+798.webp"
                         width={400}
                         height={400}
                         loading="lazy"
@@ -123,36 +124,41 @@ function ToolsCovered({
                       />
                     ) : (
                       <>
-                        {mbldevops ? (
+                        {foundation ? (
                           <Image
-                            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/devops-toolmobile-min.webp"
+                            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/group_797+(1).webp"
                             width={400}
                             height={400}
                             loading="lazy"
                             alt="tools covered"
                           />
                         ) : (
-                          <Image
-                            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/tools-cover-mobileview.webp"
-                            width={400}
-                            height={400}
-                            loading="lazy"
-                            alt="tools covered"
-                          />
+                          <>
+                            {mbldevops ? (
+                              <Image
+                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/devops-toolmobile-min.webp"
+                                width={400}
+                                height={400}
+                                loading="lazy"
+                                alt="tools covered"
+                              />
+                            ) : (
+                              <Image
+                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/tools-cover-mobileview.webp"
+                                width={400}
+                                height={400}
+                                loading="lazy"
+                                alt="tools covered"
+                              />
+                            )}
+                          </>
                         )}
-                     
                       </>
                     )}
-                    
                   </>
                 )}
-                
               </>
-             
             )}
-            
-            </>
-             )}
           </div>
         </div>
       </div>
