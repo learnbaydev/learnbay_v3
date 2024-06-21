@@ -39,6 +39,9 @@ const Footer = ({
   const handler = () => {
     setRead(!read);
   };
+
+  const currentYear = new Date().getFullYear();
+  
   return (
     <section className={styles.FooterSection}>
       <div className={styles.FooterDiv}>
@@ -297,8 +300,11 @@ const Footer = ({
               <button className={styles.btnout} onClick={handler}>
                 {read ? (
                   <>
-                    View Less <FaArrowUp className="bIcons"
-                      style={{ fontSize: "16px", margin: "0px 0px 0px 10px" }} />
+                    View Less{" "}
+                    <FaArrowUp
+                      className="bIcons"
+                      style={{ fontSize: "16px", margin: "0px 0px 0px 10px" }}
+                    />
                   </>
                 ) : (
                   <>
@@ -357,7 +363,7 @@ const Footer = ({
       <div className={styles.FooterBottom}>
         <div className={styles.FooterBottomInner}>
           <p className={styles.FooterInnerB}>
-            Copyright © 2022 Learnbay by Learnvista Pvt. Ltd. All Rights
+            Copyright © 2015 - {currentYear} Learnbay by Learnvista Pvt. Ltd. All Rights
             Reserved.
           </p>
         </div>
