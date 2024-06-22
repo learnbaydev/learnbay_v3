@@ -212,7 +212,7 @@ export const ADAProgram = [
         Module0: {
           title: " Module 0 :- Preparatory Classes (Programming + Maths)",
           imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Aws_syll.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
           StartImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
           endImageUrl:
@@ -261,11 +261,11 @@ export const ADAProgram = [
         Module0: {
           title: "TERM 1 :- Python Programming",
           imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/mongo_db.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
           StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
           endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/mongodb_up.webp",
           points: "Basic Python",
           points1: "Advance Python",
           content: [
@@ -359,9 +359,9 @@ export const ADAProgram = [
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
-          points: "Programing basic",
-          points1: "Programing basic",
-          points2: "Programing basic",
+          points: "SQL",
+          points1: "MongoDB",
+          points2: "Tableau",
           content: [
             {
               chap: {
@@ -444,8 +444,8 @@ export const ADAProgram = [
           title: "TERM 4 :- Excel",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Aws_syll.webp",
-          points: "Programing basic",
-          points1: "Programing basic",
+          points: "Getting started with Excel",
+          points1: "Working with the Forms Menu",
 
           content: [
             {

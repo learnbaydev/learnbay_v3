@@ -289,7 +289,7 @@ const FirstContent = ({
                 {" "}
                 <h4>
                   Interested in{" "}
-                  <span style={{ color: "#f99600" }}> Degree?</span>
+                  <span style={{ color: "#FE7A36" }}> Degree?</span>
                 </h4>
               </>
             ) : (

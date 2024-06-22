@@ -33,6 +33,7 @@ const SeventhSection = dynamic(() =>
   import("@/components/Global/SeventhSection/SeventhSection")
 );
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
+import { ThirdSectionData } from "@/Data/ThirdSectionData";
 
 export default function Home() {
   const data = [
@@ -396,7 +397,7 @@ export default function Home() {
       <Course dataScience={true} radio={true} />
       <WhyLearnbay ids="YWxTtvb3x-U" />
       {/* <ProjectSection ids="YWxTtvb3x-U" nolinkO={true} linkomb={true} /> */}
-      <CareerHome/>
+      <CareerHome  dataScience={true} ThirdSectionData={ThirdSectionData}/>
       <div className="realstory">
       <Realstory />
       </div>

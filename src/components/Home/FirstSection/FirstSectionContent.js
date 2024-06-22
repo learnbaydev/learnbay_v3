@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./FirstSection.module.css";
 import Image from "next/image";
+import { useMediaQuery } from "react-responsive";
+import { FaCheck } from "react-icons/fa";
 
 function HeroSection({ setPopups, setVideo }) {
   const popupShow = () => {
@@ -11,30 +13,56 @@ function HeroSection({ setPopups, setVideo }) {
     setVideo(true);
   };
 
+  // Determine if the screen width is less than or equal to 640px
+  const isMobile = useMediaQuery({ query: "(max-width: 640px)" });
+
+  // State to hold the background image URL and type logo image URL
+  const [bgImage, setBgImage] = useState("");
+  const [typeLogo, setTypeLogo] = useState("");
+
+  useEffect(() => {
+    // Set the background image and type logo image based on the screen size after the component mounts
+    setBgImage(
+      isMobile
+        ? "https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/mbl_home_two.webp"
+        : "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BG_Home_1.webp"
+    );
+
+    setTypeLogo(
+      isMobile
+        ? "https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/logo_mix_mbl.webp"
+        : "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ibm_mix_logo.webp"
+    );
+  }, [isMobile]);
+
   return (
     <section className={styles.section}>
       <div className={styles.bgWrap}>
-        {/* Optimized background image with appropriate alt text */}
-        <Image
-          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BG_Home_1.webp"
-          alt="Learnbay Background"
-          layout="fill"
-          priority
-        />
+        {/* Render the background image */}
+        {bgImage && (
+          <Image
+            src={bgImage}
+            alt="Learnbay Background"
+            layout="fill"
+            priority
+          />
+        )}
       </div>
       <div className={styles.content}>
-        <h1>India’s #1 Upskilling Platform for Working Professionals</h1>
+        <h1><span className={styles.india}>India’s #1</span> Upskilling Platform for Working Professionals</h1>
         <h3>Curriculum inclusive of Gen AI and ChatGPT</h3>
-        <div className={styles.round}>
-          <p>Data Science & AI</p>
-          <p>Cloud & DevOps</p>
-          <p>Master’s Degree</p>
+        {/* Render different content for mobile and desktop */}
+
+          <div className={styles.round}>
+          <p ><FaCheck/> Data Science & AI</p>
+          <p><FaCheck/> Cloud & DevOps</p>
+          <p><FaCheck/> Master’s Degree</p>
         </div>
+
         <div className={styles.buttonDiv}>
           <button onClick={popupShow} className={styles.button}>
             Get Recommendation
           </button>
-          {/* Improved accessibility by adding aria-label */}
           <div
             className={styles.learnDiv}
             onClick={videoShow}
@@ -65,16 +93,18 @@ function HeroSection({ setPopups, setVideo }) {
           </div>
         </div>
       </div>
+      {/* Conditionally render .typeLogo div based on isMobile */}
       <div className={styles.typeLogo}>
         <p>Get Certification from :</p>
-        {/* Optimized logo image */}
-        <Image
-          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ibm_mix_logo.webp"
-          width={650}
-          height={34}
-          alt="IBM Logo"
-          priority
-        />
+        <div className={styles.logoWrap}>
+          <Image
+            src={typeLogo}
+            width={isMobile ? 300 : 650}
+            height={isMobile ? 20 : 34}
+            alt="IBM Logo"
+            priority
+          />
+        </div>
       </div>
     </section>
   );

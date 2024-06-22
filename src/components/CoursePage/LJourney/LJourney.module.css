@@ -11,15 +11,14 @@
   }
   
   .box {
-    border-radius: 35px;
+    border-radius: 20px;
     border: 1px solid #0072bc;
     background: linear-gradient(90deg, #f7fcff 0%, #f7fcff 90.4%);
-    width: 300px;
+    width: 290px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    height: 160px;
   }
   
   .box p {
@@ -51,7 +50,7 @@
   
   .cercleone {
     border-radius: 50%;
-    border: 1px solid #f99600;
+    border: 1px solid #ffb1b1;
     background: rgba(249, 150, 0, 0.06);
     display: flex;
     justify-content: center;
@@ -74,7 +73,7 @@
   .arrow {
     width: 100px; /* Adjust width as needed */
     height: 4px;
-    background-color: #f99600;
+    background-color: #EDBB52;
     position: relative;
     opacity: 0;
     transform: translateX(-50px); /* Adjust initial position */
@@ -88,7 +87,7 @@
     right: -10px; /* Adjust to position the arrowhead correctly */
     border-width: 7px;
     border-style: solid;
-    border-color: transparent transparent transparent #f99600;
+    border-color: transparent transparent transparent #EDBB52;
   }
   
   .animationdiv .animate {
@@ -135,6 +134,40 @@
         flex-direction: column;
         margin: 0;
         padding: auto;
+    }
+    .flexdiv{
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin: 40px 0;
+  
+    }
+    .animationdiv{
+      flex-direction: column;
+      margin: 0;
+      gap: 35px;
+    }
+    .cercleone {
+      width: 50px;
+      height: 50px;
+    }
+    .animationdiv img {
+      width: 40px;
+      height: fit-content;
+    }
+    .box{
+      padding: 10px;
+      width: 200px;
+    }
+    .box p {
+      font-size: 14px;
+    }
+    .box span {
+      font-size: 10px;
+    }
+    .arrow{
+      width: 5px;
+    height: 70px;
     }
 }
   

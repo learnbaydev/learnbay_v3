@@ -230,6 +230,13 @@ export const BADataScienceCourseData = [
       {
         Module0: {
           title: "Intro to Business Analytics",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BUSINESS+ANALYTICS_round.webp",
+        StartImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BUSINESS+ANALYTICS_Down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
+        points: "Introduction to Business Analysis ",
           content: [
             {
               chap: {
@@ -252,6 +259,14 @@ export const BADataScienceCourseData = [
       {
         Module0: {
           title: "TERM 1:- Excel & Business Statistics",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
+        points: "Excel",
+        points1: "Statistics",
           content: [
             {
               chap: {
@@ -293,6 +308,14 @@ export const BADataScienceCourseData = [
       {
         Module0: {
           title: "TERM 2 :- Data Science & AI ",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
+        points: "ML",
+        points1: " NLP",
           content: [
             {
               chap: {
@@ -330,6 +353,15 @@ export const BADataScienceCourseData = [
       {
         Module0: {
           title: "TERM 3 :- Big Data Analytics and Visualization",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_up.webp",
+        points: "SQL",
+        points1: "MongoDB",
+        points2:"Tableau",
           content: [
             {
               chap: {
@@ -390,6 +422,13 @@ export const BADataScienceCourseData = [
       {
         Module0: {
           title: "TERM 5 :- Deployment ",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_round.webp",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
+        points: "Deployment AWS+Azure",
           content: [
             {
               chap: {
@@ -411,6 +450,14 @@ export const BADataScienceCourseData = [
       {
         Module0: {
           title: "BONUS :- AI Generative Tools and Future Trends",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_round.webp ",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
+        points: "AI and Generative Modeling",
+        points1: "DALL·E:",
           content: [
             {
               chap: {

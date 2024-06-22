@@ -39,7 +39,7 @@ background-clip: text;
 }
 
 .OrangeText {
-  color: #f99600;
+  color: #FE7A36;
   font-size: 22px;
   font-weight: 700;
   margin-top: 18px;
@@ -66,7 +66,7 @@ background-clip: text;
   display: flex;
   justify-content: center;
   border-radius: 6.956px;
-border: 1.159px solid #F99600;
+border: 1.159px solid #FE7A36;
 background: rgba(249, 150, 0, 0.06);
 box-shadow: 0px 0px 4.637px 0px rgba(0, 0, 0, 0.25);
 }

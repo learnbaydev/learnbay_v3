@@ -230,6 +230,13 @@ export const HRDataScienceCourseData = [
       {
         Module0: {
           title: "HRM",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/HRM_Round.webp",
+        StartImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/HRM_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
+        points: "Human Resource Management using Data Analytics",
           content: [
             {
               chap: {
@@ -253,6 +260,15 @@ export const HRDataScienceCourseData = [
       {
         Module0: {
           title: "TERM 1:- Excel, Statistics, SQL & MongoDB",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Power+BI_Up.webp",
+        points: "Excel",
+        points1: "Statistics",
+        points2: "SQL",
           content: [
             {
               chap: {
@@ -316,6 +332,14 @@ export const HRDataScienceCourseData = [
       {
         Module0: {
           title: "TERM 2 :- TABLEAU & Power BI",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Power+BI_round+(1).webp ",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/power+BI_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
+        points: "TABLEAU",
+        points1: "Power BI",
           content: [
             {
               chap: {
@@ -353,6 +377,15 @@ export const HRDataScienceCourseData = [
       {
         Module0: {
           title: "TERM 3 :- Data Science & AI",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_up.webp",
+
+        points: "Data Science & AI",
+   
           content: [
             {
               chap: {
@@ -374,6 +407,15 @@ export const HRDataScienceCourseData = [
       {
         Module0: {
           title: "TERM 4 :- Deployment ",
+
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_round.webp",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
+        points: "Deployment AWS+Azure",
+
           content: [
             {
               chap: {
@@ -394,6 +436,15 @@ export const HRDataScienceCourseData = [
       {
         Module0: {
           title: "BONUS :- AI Generative Tools and Future Trends",
+
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_round.webp ",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
+        points: "AI and Generative Modeling",
+        points1: "DALL·E:",
           content: [
             {
               chap: {

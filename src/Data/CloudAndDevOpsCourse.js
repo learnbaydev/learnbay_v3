@@ -230,6 +230,13 @@ export const CloudAndDevOpsCourseData = [
       {
         Module0: {
           title: "TERM 1:- Linux Fundamentals and Introduction",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/LINUX+FUNDAMENTALS_round.webp ",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/LINUX+FUNDAMENTALS_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_Up.webp",
+        points: "Linux Basics and System Administration",
           content: [
             {
               chap: {
@@ -266,6 +273,13 @@ export const CloudAndDevOpsCourseData = [
       {
         Module0: {
           title: "TERM 2:- Python Programming Essentials",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
+        StartImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AWS_up.webp",
+        points: "Introduction to Python and Environment Setup",
           content: [
             {
               chap: {
@@ -353,6 +367,14 @@ export const CloudAndDevOpsCourseData = [
       {
         Module0: {
           title: " TERM 3 :- AWS Cloud Mastery ",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Aws_syll.webp",
+        StartImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AWS_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_up.webp",
+        points: "AWS Administration Level",
+        points1: "Transitioning to Solution Architect",
           content: [
             {
               chap: {
@@ -419,6 +441,14 @@ export const CloudAndDevOpsCourseData = [
       {
         Module0: {
           title: "TERM 4 :- Microsoft Azure Proficiency (optional)",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_round.webp",
+        StartImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_up.webp",
+        points: "Azure Administration Level",
+        points1: "Transitioning to Solution Architect",
           content: [
             {
               chap: {
@@ -489,6 +519,14 @@ export const CloudAndDevOpsCourseData = [
       {
         Module0: {
           title: "TERM 5:-Google Cloud Platform (optional) ",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_round.webp",
+        StartImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SERVER_up.webp",
+        points: "GCP Administration Level",
+        points1: "Transitioning to Solution Architect ",
           content: [
             {
               chap: {
@@ -549,11 +587,19 @@ export const CloudAndDevOpsCourseData = [
       {
         Module0: {
           title: "TERM 6 :- Server and Application virtualization",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SERVER_round.webp",
+        StartImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SERVER_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEVOPS_up.webp",
+        points: "Overview of Virtualization",
+        points1: "Server Virtualization",
           content: [
             {
               chap: {
                 title:
-                  "Module 1 :-Overview of Virtualization ",
+                  "Module 1 :- Overview of Virtualization ",
                 desc: [
                   "Introduction to Virtualization: Understanding Its Historical Development",
                   "Different Forms of Virtualization",
@@ -777,6 +823,14 @@ export const CloudAndDevOpsCourseData = [
       {
         Module0: {
           title: "TERM 8 :- DevOps Expertise",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEVOPS_round.webp",
+        StartImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEVOPS_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEVOPS_up.webp",
+        points: "Mastering DevOps ",
+        points1: "Introduction to DevOps",
           content: [
             {
               chap: {

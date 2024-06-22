@@ -34,7 +34,7 @@
   font-size: 24px;
   font-weight: 900;
   margin: 0;
-  color: #f99600;
+  color: #FE7A36;
 }
 .header span {
   color: white;
@@ -68,7 +68,7 @@
   transform: rotate(45deg);
 }
 .bHeading {
-  color: #f99600;
+  color: #FE7A36;
   font-size: 22px;
   font-weight: 700;
 }

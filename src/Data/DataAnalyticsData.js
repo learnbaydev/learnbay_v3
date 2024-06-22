@@ -243,6 +243,14 @@ export const DADataScienceCourseData = [
       {
         Module0: {
           title: " Module 0 :- Preparatory Classes (Programming + Maths)",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_round.webp",
+        StartImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_Up.webp",
+        points: "Cohort Orientation",
+        points1: "Fundamentals of programming",
           content: [
             {
               chap: {
@@ -284,6 +292,14 @@ export const DADataScienceCourseData = [
       {
         Module0: {
           title: "TERM 1 :- Python Programming",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
+        StartImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
+        points: "Basic Python",
+        points1: "Advance Python",
           content: [
             {
               chap: {
@@ -315,6 +331,14 @@ export const DADataScienceCourseData = [
       {
         Module0: {
           title: " TERM 2 :- Statistics and Machine Learning ",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
+        points: "Statistics",
+        points1: "Machine Learning",
           content: [
             {
               chap: {
@@ -361,6 +385,15 @@ export const DADataScienceCourseData = [
       {
         Module0: {
           title: "TERM 3 :- Data Analytics Tools",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_up.webp",
+        points: "SQL",
+        points1: "MongoDB",
+        points2: "Tableau",
           content: [
             {
               chap: {
@@ -441,6 +474,13 @@ export const DADataScienceCourseData = [
       {
         Module0: {
           title: "TERM 4 :- Excel",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_round.webp ",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_up.webp",
+        points: "Getting started with Excel",
           content: [
             {
               chap: {

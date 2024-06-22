@@ -192,6 +192,14 @@ export const DataScienceMastersinCS = [
       {
         Module0: {
           title: "Foundation Track (10 ECTS Credits)",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_round.webp",
+        StartImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
+        points: "Python Fundamentals",
+        points1: "Numerical Programming",
           content: [
             {
               chap: {
@@ -226,6 +234,14 @@ export const DataScienceMastersinCS = [
       {
         Module0: {
           title: "Statistics & Machine Learning (20 ECTS Credits)",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
+        points: "Applied statistics",
+        points1: "Machine Learning",
           content: [
             {
               chap: {
@@ -288,6 +304,15 @@ export const DataScienceMastersinCS = [
       {
         Module0: {
           title: "S1 :- Data Analytics & Visualization (20 ECTS Credits)",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
+        points: "SQL",
+        points1: "MongoDB",
+        points2:"Tableau",
           content: [
             {
               chap: {
@@ -377,6 +402,14 @@ export const DataScienceMastersinCS = [
       {
         Module0: {
           title: "S1 :- Deep Learning & Applied Analytics (20 ECTS Credits)",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BUSINESS+ANALYTICS_Up.webp",
+        points: "Introduction to deep learning",
+        points1: "Product Analytics",
           content: [
             {
               chap: {
@@ -471,6 +504,13 @@ export const DataScienceMastersinCS = [
         Module0: {
           title:
             "S1 :- Industry-Specific DA & Professional Development (20 ECTS Credits)",
+            imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BUSINESS+ANALYTICS_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BUSINESS+ANALYTICS_Down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_up+(1).webp",
+          points: "Domain electives (BFSI, Healthcare, E-Commerce, Supplychain, etc) ",
           content: [
             {
               chap: {
@@ -491,6 +531,13 @@ export const DataScienceMastersinCS = [
         Module0: {
           title:
             "S2 :- Deep Learning & Advanced Data Analysis (20 ECTS Credits)",
+            imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_round+(1).webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_down+(1).webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_up.webp",
+          points: "Introduction to Deep Learning ",
           content: [
             {
               chap: {
@@ -554,6 +601,14 @@ export const DataScienceMastersinCS = [
       {
         Module0: {
           title: "S2 :- Deployment & Gen-AI (15 ECTS Credits)",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_up.webp",
+        points: "Deep learning for computer vision",
+        points1: "(NLP)",
           content: [
             {
               chap: {
@@ -616,6 +671,13 @@ export const DataScienceMastersinCS = [
       {
         Module0: {
           title: "S2 :- Comprehensive Data Structures (10 ECTS Credits)",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_round.webp ",
+        StartImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BUSINESS+ANALYTICS_Up.webp",
+        points: "Essential Data Structures: Lists, Queues, Stacks",
           content: [
             {
               chap: {
@@ -661,6 +723,13 @@ export const DataScienceMastersinCS = [
         Module0: {
           title:
             "S2 :- Industry-Specific DA & Professional Development (20 ECTS Credits)",
+            imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BUSINESS+ANALYTICS_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BUSINESS+ANALYTICS_Down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BUSINESS+ANALYTICS_Up.webp",
+          points: "Domain electives (BFSI, Healthcare, E-Commerce, Supplychain, etc)",
           content: [
             {
               chap: {

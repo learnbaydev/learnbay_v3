@@ -23,7 +23,7 @@
 
 .InnerBox:nth-child(2),
 .InnerBox:nth-child(4) {
-  color: #f99600;
+  color: #FE7A36;
 }
 .InnerBox:nth-child(1),
 .InnerBox:nth-child(3) {
@@ -31,7 +31,7 @@
 }
 .InnerBox:nth-child(2),
 .InnerBox:nth-child(4) {
-  color: #f99600;
+  color: #FE7A36;
 }
 .InnerBox:nth-child(1),
 .InnerBox:nth-child(3) {

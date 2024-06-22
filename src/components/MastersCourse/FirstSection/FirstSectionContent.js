@@ -43,7 +43,7 @@ const FirstSectionContent = ({
             <h1 className={styles.h1}>
               Master's in Computer Science:
               <br />
-              <span style={{ color: "#F99600" }}>Data Science and AI</span>
+              <span style={{ color: "#FE7A36" }}>Data Science and AI</span>
             </h1>
             <div className={styles.paraCollab}>
               <Image

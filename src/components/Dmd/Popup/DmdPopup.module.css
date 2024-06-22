@@ -22,7 +22,7 @@ width: 20px;
 height: 25px;
   }
   .notification  button:hover{
-    background-color: #f99600;
+    background-color: #FE7A36;
     color: #fff;
   }
   
@@ -60,7 +60,7 @@ height: 25px;
   .hrline {
     border: none;
     height: 2px;
-    background: linear-gradient(90deg, #f99600 0%, #282828 100%);
+    background: linear-gradient(90deg, #FE7A36 0%, #282828 100%);
   }
   
   .namesecond {

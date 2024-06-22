@@ -51,15 +51,15 @@
 }
 
 .backThank a:nth-child(even) {
-  border: 1px solid #F996004D;
-  box-shadow: #F996004D 0px 8px 24px;
+  border: 1px solid #FE7A364D;
+  box-shadow: #FE7A364D 0px 8px 24px;
   background: #0072BC15;
 }
 
 .backThank a:nth-child(odd) {
   border: 1px solid #0072BC4D;
   box-shadow: #0072BC4D 0px 8px 24px;
-  background: #F9960015;
+  background: #FE7A3615;
 }
 
 .button button {

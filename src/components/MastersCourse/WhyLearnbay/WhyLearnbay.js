@@ -50,7 +50,7 @@ function WhyLearnbay({ idss, NoGuwati  }) {
     <section className={Styles.container} id="ProjectLab">
       <VideoPopup triggers={video} setTriggers={setVideo} ids={idss} />
       <h4 className={Styles.h4}>
-        Learnbay’s <span style={{ color: "#F99600" }}>ProjectLab</span>
+        Learnbay’s <span style={{ color: "#FE7A36" }}>ProjectLab</span>
       </h4>
       <div className={Styles.MainDiv}>
         <div className={Styles.LeftSide}>

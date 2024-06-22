@@ -130,7 +130,7 @@ width: 100%;
   color: #fff;
 }
 .h1Span {
-  color: #f99600;
+  color: #FE7A36;
 }
 .h1 {
   color: #fff;
@@ -252,7 +252,7 @@ background: linear-gradient(270deg, rgba(249, 150, 0, 0.40) 0%, rgba(249, 150, 0
 padding: 5px 15px; 
 }
 .divone span {
-  color: #F99600;
+  color: #FE7A36;
 }
 @media (max-width: 1281px) {
   .First {

@@ -1,10 +1,18 @@
-"use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./careerHome.module.css";
 import Image from "next/image";
 import { TbDownload } from "react-icons/tb";
+import { useMediaQuery } from "react-responsive";
+import Form from "../../Global/Form/Form";
+import Popup from "../../Global/Popup/Popup";
 
-function careerHome() {
+function careerHome({
+  leftImage,
+  ThirdSectionData,
+  dataScience,
+  interstedInHide,
+  dataScienceCounselling,
+}) {
   const [textOpen, setTextOpen] = useState(1);
 
   const toggleTab = (index) => {
@@ -13,11 +21,62 @@ function careerHome() {
     }
     setTextOpen(index);
   };
+
+  const [popups, setPopups] = useState(false);
+  const [titleCourse, setTitleCourse] = useState();
+  const [brochureLinks, setBrochureLinks] = useState();
+
+  const popupShow = (title, link) => {
+    setTitleCourse(title);
+    setBrochureLinks(link);
+    setPopups(true);
+  };
+
+  // Determine if the screen width is less than or equal to 640px
+  const isMobile = useMediaQuery({ query: "(max-width: 640px)" });
+
+  // State to hold the background image URL and type logo image URL
+  const [bgImage, setBgImage] = useState("");
+
+  useEffect(() => {
+    // Set the background image and type logo image based on the screen size after the component mounts
+    setBgImage(
+      isMobile
+        ? "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/career_home_bg_mbl.webp"
+        : "https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/Career-Home-N.webp"
+    );
+  }, [isMobile]);
+
   return (
     <section className={styles.section}>
+      <Popup
+        trigger={popups}
+        setTrigger={setPopups}
+        className="popupModal"
+        popup={true}
+      >
+        <div className="leftPopup">
+          <div
+            className="whiteP"
+            style={{ width: "340px", height: "400px" }}
+          ></div>
+        </div>
+        <div className="RightPopup">
+          <h5>Download Syllabus</h5>
+          <Form
+            dataScience={dataScience}
+            dataScienceCounselling={dataScienceCounselling}
+            upSkillingHide={true}
+            downloadBrochure
+            interstedInHide={true}
+            titleCourse={titleCourse}
+            brochureLink={brochureLinks}
+          />
+        </div>
+      </Popup>
       <div className={styles.imgWrap}>
         <Image
-          src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/Career-Home-N.webp"
+          src={bgImage}
           alt="Learnbay"
           priority
           height={800}
@@ -68,7 +127,7 @@ function careerHome() {
               className={styles.careerImg}
             />
           </div>
-          <div className={styles.innerDiv}>
+          <div className={`${styles.innerDiv} ${styles.downdiv}`}>
             <Image
               src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/domain-03.webp"
               alt="Learnbay"
@@ -97,7 +156,15 @@ function careerHome() {
                         Manufacturing
                       </div>
                     </div>
-                    <TbDownload className={styles.iconDownload} />
+                    <TbDownload
+                      className={styles.iconDownload}
+                      onClick={() => {
+                        popupShow(
+                          "Manufacturing Course",
+                          "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf"
+                        );
+                      }}
+                    />
                   </div>
                   <p
                     className={
@@ -125,7 +192,15 @@ function careerHome() {
                         HR & Sales
                       </div>
                     </div>
-                    <TbDownload className={styles.iconDownload} />
+                    <TbDownload
+                      className={styles.iconDownload}
+                      onClick={() => {
+                        popupShow(
+                          "HR & Sales Course",
+                          "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales%2C+Marketing+and+HR+Domain.pdf"
+                        );
+                      }}
+                    />
                   </div>
                   <p
                     className={
@@ -153,7 +228,12 @@ function careerHome() {
                         BFSI
                       </div>
                     </div>
-                    <TbDownload className={styles.iconDownload} />
+                    <TbDownload
+                      className={styles.iconDownload}
+                      onClick={() => {
+                        popupShow("BFSI Course", "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf");
+                      }}
+                    />
                   </div>
                   <p
                     className={
@@ -181,7 +261,15 @@ function careerHome() {
                         Managers & Leader
                       </div>
                     </div>
-                    <TbDownload className={styles.iconDownload} />
+                    <TbDownload
+                      className={styles.iconDownload}
+                      onClick={() => {
+                        popupShow(
+                          "Managers & Leader Course",
+                          "link-to-managers-leader-brochure"
+                        );
+                      }}
+                    />
                   </div>
                   <p
                     className={

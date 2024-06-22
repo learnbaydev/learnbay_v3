@@ -11,14 +11,14 @@ const LJourney = () => {
       (entries) => {
         entries.forEach((entry) => {
           const elements = animationDivRef.current.querySelectorAll(`.${styles.cercleone}`);
-          const svgs = animationDivRef.current.querySelectorAll("svg");
+          const images = animationDivRef.current.querySelectorAll("img");
           const arrows = animationDivRef.current.querySelectorAll(`.${styles.arrow}`);
 
           if (entry.isIntersecting) {
             elements.forEach((element, index) => {
               setTimeout(() => {
                 element.classList.add(styles.animate);
-                svgs[index].classList.add(styles.animate);
+                images[index].classList.add(styles.animate);
                 if (index < arrows.length) {
                   arrows[index].classList.add(styles.animate);
                 }
@@ -27,7 +27,7 @@ const LJourney = () => {
           } else {
             elements.forEach((element, index) => {
               element.classList.remove(styles.animate);
-              svgs[index].classList.remove(styles.animate);
+              images[index].classList.remove(styles.animate);
               if (index < arrows.length) {
                 arrows[index].classList.remove(styles.animate);
               }
@@ -52,59 +52,85 @@ const LJourney = () => {
   return (
     <div className={styles.animHead}>
       <h2>Learning journey at Learnbay</h2>
-
+<div className={styles.flexdiv}>
       <div ref={animationDivRef} className={styles.animationdiv}>
         <div className={`${styles.cercleone}`}>
-          <BsPersonFill className={styles.icons} />
-          <Image  className={styles.icons} src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ani_person.gif" width={100} height={100} loading="lazy"/>
+
+          <Image
+            className={styles.icons}
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/wired-gradient-268-avatar-man+(2).gif"
+            width={80}
+            height={80}
+            loading="lazy"
+            alt="Man Icon"
+          />
         </div>
         <div className={styles.arrow}></div>
         <div className={`${styles.cercleone}`}>
-          <BsPersonFill className={styles.icons} />
+
+          <Image
+            className={styles.icons}
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/wired-gradient-245-edit-document+(1).gif"
+            width={80}
+            height={80}
+            loading="lazy"
+            alt="MES Icon"
+          />
         </div>
         <div className={styles.arrow}></div>
         <div className={`${styles.cercleone}`}>
-          <BsPersonFill className={styles.icons} />
+        
+          <Image
+            className={styles.icons}
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/wired-gradient-981-consultation+(2).gif"
+            width={80}
+            height={80}
+            loading="lazy"
+            alt="Pen and Paper Icon"
+          />
         </div>
         <div className={styles.arrow}></div>
         <div className={`${styles.cercleone}`}>
-          <BsPersonFill />
-   
+          <Image
+            className={styles.icons}
+            src=""
+            width={80}
+            height={80}
+            loading="lazy"
+            alt="Placeholder Icon"
+          />
         </div>
       </div>
 
       <div className={styles.boxmain}>
         <div className={styles.box}>
-          <p>Join our upskilling program</p>
+          <p>Upskill Now</p>
           <span>
-            Understand key concepts with live sessions, 1:1 doubt clearing with
-            experts, and quizzes.
+          Live sessions, expert 1:1 doubt clearing, and quizzes.
           </span>
         </div>
 
         <div className={styles.box}>
-          <p>Complete real-world projects</p>
+          <p>Capstone Projects</p>
           <span>
-            Work alongside industry experts on practical projects to enhance
-            your portfolio.
+          Work with industry experts on practical projects.
           </span>
         </div>
 
         <div className={styles.box}>
-          <p>Enhance your resume & interview skills</p>
+          <p>Boost Profile</p>
           <span>
-            Benefit from mock interviews and resume-building sessions to prepare
-            for the job market.
+          Mock interviews and resume-building sessions
           </span>
         </div>
 
         <div className={styles.box}>
-          <p>Achieve your career goals</p>
+          <p>Career Goals</p>
           <span>
-            Receive dedicated placement assistance to land interviews with top
-            companies.
+          Get placement assistance with top companies.
           </span>
         </div>
+      </div>
       </div>
     </div>
   );

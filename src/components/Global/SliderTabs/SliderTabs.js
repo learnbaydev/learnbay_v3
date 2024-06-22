@@ -198,7 +198,7 @@ const SliderTabs = ({
     <div className={styles.Course} id="servicePro">
       <h2>
         Get job ready within 6 months with Career Services{" "}
-        {WithoutService ? "" : <span style={{ color: "#f99600" }}>PRO</span>}
+        {WithoutService ? "" : <span style={{ color: "#FE7A36" }}>PRO</span>}
       </h2>
 
       <div className={styles.courses}>
