@@ -70,7 +70,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <title>Best Business Analytics Certification Training [2024]</title>
         <meta
           name="description"
-          content="Elevate your business acumen with our comprehensive Business Analytics master Certification Program. Gain valuable insights, enhance decision-making, and drive success through advanced analytics tools and strategies. Enroll today for a data-driven future."
+          content="Get the best Business Analytics & Analyst Course with placement support. Top certification & training for online classes. Enrol now for better career options."
         />
         <meta name="robots" content="index, follow" />
         <meta
@@ -149,6 +149,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
           projectSection={
             DataScienceCourseData.BADataScienceCourseData[0].projectSection
           }
+          toolsdynamic={true}
           FAQNewData={DataScienceCourseData.BADataScienceCourseData[0].faq}
         />
       </main>

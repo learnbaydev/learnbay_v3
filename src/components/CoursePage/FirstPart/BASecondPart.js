@@ -47,6 +47,7 @@ const SecondPart = ({
   CertificateData,
   projectSection,
   FAQNewData,
+  toolsdynamic,
 }) => {
   const [popupData, setPopupData] = useState([]);
   // console.log(popupData);
@@ -89,7 +90,7 @@ const SecondPart = ({
         buttonHide={true}
         interstedInHide={true}
       />
-      <ToolsCovered />
+      <ToolsCovered toolsdynamic={toolsdynamic} />
       <Certificate data={CertificateData} />
       <FeeSection
         Fee="₹ 95,000"
@@ -132,7 +133,7 @@ const SecondPart = ({
         projectSection={projectSection}
         interstedInHide={true}
       />
-      <FAQNew FAQNewData={FAQNewData} />
+      <FAQNew FAQNewData={FAQNewData} toolsdynamic={toolsdynamic}/>
       <Content Banalytics={true} dataScienceCounselling={true} />
       <SeventhSection />
       <Footer />

@@ -14,7 +14,7 @@ const Certificate = ({
     ""
   ) : (
     <div className={`${styles.Certificate}`}>
-      <h4 className={styles.infop}>Globally Recognized Program</h4>
+      <h2 className={styles.infop}>Globally Recognized Certification Course </h2>
       <CertificateTabAdvance
       singlecertificate={singlecertificate}
       projectWithCertificate={projectWithCertificate}

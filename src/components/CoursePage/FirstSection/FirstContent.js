@@ -295,7 +295,7 @@ const FirstContent = ({
             ) : (
               <>
                 {" "}
-                <h4>Free Career Counselling</h4>
+                <p className={styles.p}>Free Career Counselling</p>
               </>
             )}
 
@@ -435,7 +435,7 @@ const FirstContent = ({
 
               <div className={styles.secondLeft}>
                 <div className={styles.form}>
-                  <h4>Free Career Counselling</h4>
+                  <p className={styles.p}>Free Career Counselling</p>
                   <Form
                     dataScience={dataScience}
                     dataScienceCounselling={dataScienceCounselling}

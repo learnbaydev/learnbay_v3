@@ -9,7 +9,7 @@ import Styles from "./WhoIsProgram.module.css";
 function WhoIsProgram({ first, second, third, forth }) {
   return (
     <section className={Styles.container}>
-      <h4>Who is this program for</h4>
+      <h3>Who is this program for</h3>
       <div className={Styles.BoxDiv}>
         <div className={Styles.InnerBox}>
           <div className={Styles.imgBox}>

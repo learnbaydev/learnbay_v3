@@ -39,6 +39,9 @@ const Footer = ({
   const handler = () => {
     setRead(!read);
   };
+
+  const currentYear = new Date().getFullYear();
+  
   return (
     <section className={styles.FooterSection}>
       <div className={styles.FooterDiv}>
@@ -297,8 +300,11 @@ const Footer = ({
               <button className={styles.btnout} onClick={handler}>
                 {read ? (
                   <>
-                    View Less <FaArrowUp className="bIcons"
-                      style={{ fontSize: "16px", margin: "0px 0px 0px 10px" }} />
+                    View Less{" "}
+                    <FaArrowUp
+                      className="bIcons"
+                      style={{ fontSize: "16px", margin: "0px 0px 0px 10px" }}
+                    />
                   </>
                 ) : (
                   <>

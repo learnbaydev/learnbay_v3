@@ -1431,9 +1431,6 @@ function DataAnalytics({
           </p>
           {read ? (
             <>
-              
-
-           
               <p>
                 Constant skill upgrades are vital for techies to stay ahead of
                 the career race. Hence, learning from a DevOps course with
@@ -1570,25 +1567,56 @@ function DataAnalytics({
                     help you gain abstract and practical learning.{" "}
                   </p>
                 </li>
-                <li><h5>Practice-based learning methods</h5>
-                <p>DevOps is the latest trend, and it has many integrated functionalities. Hence, techies must learn and practice the proven tools via live projects to gain insights. Our leading-edge DevOps training institutes guide techies to work with 10+ real-world projects. Here, techies can choose their projects and learn the real-world uses of DevOps concepts. </p>
+                <li>
+                  <h5>Practice-based learning methods</h5>
+                  <p>
+                    DevOps is the latest trend, and it has many integrated
+                    functionalities. Hence, techies must learn and practice the
+                    proven tools via live projects to gain insights. Our
+                    leading-edge DevOps training institutes guide techies to
+                    work with 10+ real-world projects. Here, techies can choose
+                    their projects and learn the real-world uses of DevOps
+                    concepts.{" "}
+                  </p>
                 </li>
-                <li><h5>100% Career Support Services</h5>
-                <p>Techies joining our DevOps course with placement can avail of hassle-free career support services. Here, techies can redefine their careers with proven skills and enrich their job selection chances. Eligible learners with at least 70% scores can avail of ‘Career Service PRO’. Techies will gain every career benefit under this course – from 1:1 doubt-clearing to resume-making. </p></li>
-         
-              <li><h5>Global certifications</h5>
-              <p>Techies joining our DevOps course with certification can validate their skills with exciting career gains. The program offers two-course completion certificates from IBM & Microsoft and one IBM project certificate. </p>
-              </li>
-              
+                <li>
+                  <h5>100% Career Support Services</h5>
+                  <p>
+                    Techies joining our DevOps course with placement can avail
+                    of hassle-free career support services. Here, techies can
+                    redefine their careers with proven skills and enrich their
+                    job selection chances. Eligible learners with at least 70%
+                    scores can avail of ‘Career Service PRO’. Techies will gain
+                    every career benefit under this course – from 1:1
+                    doubt-clearing to resume-making.{" "}
+                  </p>
+                </li>
+
+                <li>
+                  <h5>Global certifications</h5>
+                  <p>
+                    Techies joining our DevOps course with certification can
+                    validate their skills with exciting career gains. The
+                    program offers two-course completion certificates from IBM &
+                    Microsoft and one IBM project certificate.{" "}
+                  </p>
+                </li>
               </ul>
               <h4>
-              How does Learnbay’s Job Assist Program help techies stay competitive? List our core features. 
+                How does Learnbay’s Job Assist Program help techies stay
+                competitive? List our core features.
               </h4>
               <p>
-              Learnbay is the prime upskilling hub for techies eager to relaunch their careers in DevOps. Here, eligible learners with at least 70% of scores in tasks and projects avail of career support services. Our DevOps training with placement equips techies with eternal career growth options. 
+                Learnbay is the prime upskilling hub for techies eager to
+                relaunch their careers in DevOps. Here, eligible learners with
+                at least 70% of scores in tasks and projects avail of career
+                support services. Our DevOps training with placement equips
+                techies with eternal career growth options.
               </p>
-              <i><b>Our Career Service PRO includes –</b></i>
-           
+              <i>
+                <b>Our Career Service PRO includes –</b>
+              </i>
+
               <ul>
                 <li>3 years of Job and Placement Support</li>
                 <li>6 mock interviews with renowned experts from MNCs/MAANG</li>
@@ -1596,39 +1624,55 @@ function DataAnalytics({
                 <li>1:1 LinkedIn Profiling</li>
                 <li>Reliable Placement team</li>
               </ul>
-         
-              
-              <h4>Is Learnbay’s DevOps course with certification worth it for upskilling? </h4>
+
+              <h4>
+                Is Learnbay’s DevOps course with certification worth it for
+                upskilling?{" "}
+              </h4>
 
               <p>
-              Learning with our DevOps certification course is worth it for thriving career building. Its regularly updated course modules help techies refine their skills and land their dream roles. To be precise, of key tools and trends in DevOps. 
+                Learning with our DevOps certification course is worth it for
+                thriving career building. Its regularly updated course modules
+                help techies refine their skills and land their dream roles. To
+                be precise, of key tools and trends in DevOps.
               </p>
-      <i><b>Some elite factors that level up career worth are –</b></i>
-     <ul><li>Career advice from reputed industry experts in the tech world
-</li>
-<li>All-inclusive course syllabus</li>
-<li>Practical learning via real-time projects </li>
-<li>Career Service PRO</li>
-<li>Affordable fee structure </li>
-<li>DevOps certification from Microsoft (Course)</li>
-<li>IBM DevOps certification (Course & Project)</li>
-
-
-
-
-
-
-</ul>
-<h4>Does Learnbay’s DevOps Certification Course offer affordable upskilling? </h4>
+              <i>
+                <b>Some elite factors that level up career worth are –</b>
+              </i>
+              <ul>
+                <li>
+                  Career advice from reputed industry experts in the tech world
+                </li>
+                <li>All-inclusive course syllabus</li>
+                <li>Practical learning via real-time projects </li>
+                <li>Career Service PRO</li>
+                <li>Affordable fee structure </li>
+                <li>DevOps certification from Microsoft (Course)</li>
+                <li>IBM DevOps certification (Course & Project)</li>
+              </ul>
+              <h4>
+                Does Learnbay’s DevOps Certification Course offer affordable
+                upskilling?{" "}
+              </h4>
 
               <p>
-              Yes, Learnbay’s Advanced DevOps Certification Program costs you INR 55,000 + 18% GST (with INR 5,408 installments per month). Experts can opt for flexible payment options with no-cost EMI and easy loans. 
+                Yes, Learnbay’s Advanced DevOps Certification Program costs you
+                INR 55,000 + 18% GST (with INR 5,408 installments per month).
+                Experts can opt for flexible payment options with no-cost EMI
+                and easy loans.
               </p>
-<h4>Can upskilling from DevOps training institutes unlock better career growth options in today’s tech age? </h4>
+              <h4>
+                Can upskilling from DevOps training institutes unlock better
+                career growth options in today’s tech age?{" "}
+              </h4>
               <p>
-              DevOps learning is useful for techies willing to crack better job offers in today's rapidly changing tech age. A certified DevOps Engineer earns INR 840,000 annually, which can vary depending on your work experience and skill set. Hence, upskilling from a DevOps course with certification is useful to unleash alluring career offers. 
+                DevOps learning is useful for techies willing to crack better
+                job offers in today's rapidly changing tech age. A certified
+                DevOps Engineer earns INR 840,000 annually, which can vary
+                depending on your work experience and skill set. Hence,
+                upskilling from a DevOps course with certification is useful to
+                unleash alluring career offers.
               </p>
-             
 
               <div onClick={popupShow} className={styles.buttonDiv}>
                 <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
@@ -1654,187 +1698,316 @@ function DataAnalytics({
         ""
       )}
       {cComputingOnly ? (
-    <div className={styles.content}>
-      <h2>Best Cloud Computing Certification Course </h2>
-      <h4 style={{ fontSize: "24px" }}>
-           Online | Learnbay
-      </h4>
-      <p>
-      Accelerate technical skills and success limits in today’s tech landscape. Enroll in Learnbay’s cloud computing certification course today to ascertain global success. Upskill via industry-driven courses and land your dream roles in the emerging tech world via IBM & Microsoft Certifications. 
-      </p>
-      {read ? (
-        <>
-          <h3>
-          Briefing Learnbay’s Industry-paced Cloud Computing Programs{" "}
-          </h3>
+        <div className={styles.content}>
+          <h2>Best Cloud Computing Certification Course </h2>
+          <h4 style={{ fontSize: "24px" }}>Online | Learnbay</h4>
+          <p>
+            Accelerate technical skills and success limits in today’s tech
+            landscape. Enroll in Learnbay’s cloud computing certification course
+            today to ascertain global success. Upskill via industry-driven
+            courses and land your dream roles in the emerging tech world via IBM
+            & Microsoft Certifications.
+          </p>
+          {read ? (
+            <>
+              <h3>
+                Briefing Learnbay’s Industry-paced Cloud Computing Programs{" "}
+              </h3>
 
-          <h3>Course Overview</h3>
-          <p>
-          In today’s rapidly rising tech era, global businesses rely heavily on massive data sets to make informed moves. Meanwhile, data storage and optimization have become prime factors to lift business yields. Hence, many reputed MNCs prefer adopting cloud computing for seamless data solutions. 
-          </p>
-          <p>
-          The fast-paced, changing tech space demands cutting-edge skills with leading cloud tools. Learnbay marks a historic move, declaring the Advanced Cloud Computing Certification Program driving global-scale success for techies. This cloud computing certification course equips tech experts with proven skill sets to thrive.
-
-            <p>
-            Techies enrolling in this course will revamp their careers with global job offers. Plus, our USP of offering dual certifications (IBM & Microsoft) escalates success metrics.
-            </p>
-          </p>
-          <h3>Dual Certifications in Brief!!</h3>
-          <p>
-          Learnbay offers an open learning edge with global scale credit of learned skill sets with its dual certifications. Our alliance with IBM & Microsoft validates your skills to land your dream roles and attain tempting success. Now it's your turn to accelerate success extents with IBM & Microsoft certifications for the course and project tasks. 
-          </p>
-          <h3>Cloud Computing: An Eminent Tech Creation</h3>
-          <p>
-          Amidst the fast-paced tech evolution, cloud computing has taken a central role across the global digital space. The 21st Century is an eyewitness to the massive growth of cloud computing across various sectors. Owing to the rising reliance on data-driven business models, demand for cloud computing boosts. Hence, the present business landscape invests everything in cloud technology to upscale operating powers and forge higher yields. 
-          </p>
-          <p>
-          Cloud computing refers to seamless data storage, extraction, and handling functions. Clouds are hosted services that connect various servers for hassle-free data functions. Firms can easily store their data in the cloud without human interruption. Unlike classic data storage methods, cloud computing builds a secure platform for handling complex data sets.
-          </p>
-          <p>
-          Cloud-driven data solutions work with various platforms designed for firms of different scales of operation. Hence, techies must gain fine knowledge and skills in choosing the right cloud computing platforms with proven data-driven tactics. Techies upskilling via a cloud computing training institute can elevate their skills and learn to choose the right cloud platform. 
-          </p>
-          <h3>Cloud Computing Leveraging Business Outcomes </h3>
-          <p>
-          Today’s digital space boosts firms to leverage their ways of operating in diverse markets. Firms with huge data sets adopt various tech-driven methods for various goals. A company comprises various stakeholders who are integral to daily activities and decision-making processes. 
-          </p>
-          <p>As per the market reports, over 94% of firms rely on cloud-based services to optimize their yields. It reduces a firm’s costs and expands profit margins.</p>
-          <i><b>Some proven benefits that firms can have via cloud-based services are –
-          </b></i>
-          <ul>
-            <li>Enriching business yields</li>
-            <li>Business process optimization</li>
-            <li>Cost-effective methods with higher yields</li>
-            <li>Seamless and agile business functions </li>
-            <li>Data security and safety </li>
-            <li>Blending industry trends for better results</li>
-          </ul>
-          <h3>Essence of Cloud-driven Skills for Techies in Today’s Era </h3>
-          <p>
-          Cloud computing is the latest buzzword that is crafting a seamless and automated future for firms. Techies eager to revamp their careers in today’s ever-changing digital era must upskill from the best institute for cloud computing. IT experts from diverse fields must gain cloud skills and refine their abilities to stay competitive. 
-          </p>
-          <p>
-            <b>
-            Proven learning of cloud computing enriches a tech career with vital gains like –
-            </b>
-            <ul>
-              <li>• Devising cost-saving methods for tasks </li>
-              <li>• Scaling up business yields</li>
-              <li>• Flexible union with various teams  </li>
-              <li>• Data security</li>
-              <li>• Increasing competitiveness  </li>
-              
-            </ul>{" "}
-          </p>
-          <h3>
-            Is a cloud computing certification course worth investing in to sustain in today’s tech world?{" "}
-          </h3>
-          <p>
-          Yes, joining the best certification courses for cloud computing is helpful for techies to sustain themselves in the industry. Constant learning informs you of the latest cloud trends, tools, platforms, etc. It helps techies gain an upper edge in rising markets. Certification courses validate your tech skills and attest useful credentials to your career.
-          </p>
-          <p>
-          Learning with globally recognized certifications enriches your earning limits. It unlocks global-scale job offers with alluring pay scales. Hence, it is worthy enough to invest in any of the trending courses with globally valued certificates.
-          </p>
-          
-          <h3>
-            Featuring Cloud Computing Courses 
-          </h3>
-          <p>
-             Industry-focused cloud computing programs enrich career values with their elite features, attracting a massive alert for tech experts. Such features are –
-          </p>
-          <ul>
-            <li>
-              <h5>Upskilling via comprehensively designed courses</h5>
+              <h3>Course Overview</h3>
               <p>
-              Techies eager to revamp their careers prefer upskilling from a reputed training institute with a frequently updated syllabus. Our cloud computing course modules include the latest tools and trends vital for techies to learn. Our live instructor-led training sessions with proven mentorship help you gain abstract and practical knowledge. {" "}
+                In today’s rapidly rising tech era, global businesses rely
+                heavily on massive data sets to make informed moves. Meanwhile,
+                data storage and optimization have become prime factors to lift
+                business yields. Hence, many reputed MNCs prefer adopting cloud
+                computing for seamless data solutions.
               </p>
-            </li>
-            <li><h5>Practice-based learning methods</h5>
-            <p>Cloud computing is a complex trend with lots of critical functionalities. Hence, techies must learn and practice the proven tools via live projects to gain insights. Our leading-edge cloud computing programs guide techies to work with 10+ live projects. Here, techies can choose their projects to know the real-world uses of cloud computing. </p>
-            </li>
-            <li><h5>100% Career Support Services</h5>
-            <p>Techies joining our cloud computing certification course can avail of hassle-free career support services. Here, techies can redefine their careers with proven skills and enrich their job selection chances. Eligible learners with at least 70% scores can avail of ‘Career Service PRO.’ Techies will gain every viable career benefit under this program – from 1:1 doubt-clearing to resume-making.</p></li>
-     
-          <li><h5>Global certifications</h5>
-          <p>Techies joining our cloud computing training institute can validate their skills via our global-scale certifications from IBM & Microsoft. The program offers two-course completion certificates from IBM & Microsoft and one IBM project certificate. </p>
-          </li>
-          
-          </ul>
-          <h4>
-          How does a career support service from a cloud computing training institute support techies? Enlist the core features. 
-          </h4>
-          <p>
-          Learnbay is the best institute for cloud computing, and it offers hassle-free career support services. Techies enrolling in our courses gain the edge of effortless job support. Eligible experts with proven skills and at least 70% scores in tasks can avail of our ‘Career Service PRO’ for a thriving career shift. 
- 
+              <p>
+                The fast-paced, changing tech space demands cutting-edge skills
+                with leading cloud tools. Learnbay marks a historic move,
+                declaring the Advanced Cloud Computing Certification Program
+                driving global-scale success for techies. This cloud computing
+                certification course equips tech experts with proven skill sets
+                to thrive.
+                <p>
+                  Techies enrolling in this course will revamp their careers
+                  with global job offers. Plus, our USP of offering dual
+                  certifications (IBM & Microsoft) escalates success metrics.
+                </p>
+              </p>
+              <h3>Dual Certifications in Brief!!</h3>
+              <p>
+                Learnbay offers an open learning edge with global scale credit
+                of learned skill sets with its dual certifications. Our alliance
+                with IBM & Microsoft validates your skills to land your dream
+                roles and attain tempting success. Now it's your turn to
+                accelerate success extents with IBM & Microsoft certifications
+                for the course and project tasks.
+              </p>
+              <h3>Cloud Computing: An Eminent Tech Creation</h3>
+              <p>
+                Amidst the fast-paced tech evolution, cloud computing has taken
+                a central role across the global digital space. The 21st Century
+                is an eyewitness to the massive growth of cloud computing across
+                various sectors. Owing to the rising reliance on data-driven
+                business models, demand for cloud computing boosts. Hence, the
+                present business landscape invests everything in cloud
+                technology to upscale operating powers and forge higher yields.
+              </p>
+              <p>
+                Cloud computing refers to seamless data storage, extraction, and
+                handling functions. Clouds are hosted services that connect
+                various servers for hassle-free data functions. Firms can easily
+                store their data in the cloud without human interruption. Unlike
+                classic data storage methods, cloud computing builds a secure
+                platform for handling complex data sets.
+              </p>
+              <p>
+                Cloud-driven data solutions work with various platforms designed
+                for firms of different scales of operation. Hence, techies must
+                gain fine knowledge and skills in choosing the right cloud
+                computing platforms with proven data-driven tactics. Techies
+                upskilling via a cloud computing training institute can elevate
+                their skills and learn to choose the right cloud platform.
+              </p>
+              <h3>Cloud Computing Leveraging Business Outcomes </h3>
+              <p>
+                Today’s digital space boosts firms to leverage their ways of
+                operating in diverse markets. Firms with huge data sets adopt
+                various tech-driven methods for various goals. A company
+                comprises various stakeholders who are integral to daily
+                activities and decision-making processes.
+              </p>
+              <p>
+                As per the market reports, over 94% of firms rely on cloud-based
+                services to optimize their yields. It reduces a firm’s costs and
+                expands profit margins.
+              </p>
+              <i>
+                <b>
+                  Some proven benefits that firms can have via cloud-based
+                  services are –
+                </b>
+              </i>
+              <ul>
+                <li>Enriching business yields</li>
+                <li>Business process optimization</li>
+                <li>Cost-effective methods with higher yields</li>
+                <li>Seamless and agile business functions </li>
+                <li>Data security and safety </li>
+                <li>Blending industry trends for better results</li>
+              </ul>
+              <h3>
+                Essence of Cloud-driven Skills for Techies in Today’s Era{" "}
+              </h3>
+              <p>
+                Cloud computing is the latest buzzword that is crafting a
+                seamless and automated future for firms. Techies eager to revamp
+                their careers in today’s ever-changing digital era must upskill
+                from the best institute for cloud computing. IT experts from
+                diverse fields must gain cloud skills and refine their abilities
+                to stay competitive.
+              </p>
+              <p>
+                <b>
+                  Proven learning of cloud computing enriches a tech career with
+                  vital gains like –
+                </b>
+                <ul>
+                  <li>• Devising cost-saving methods for tasks </li>
+                  <li>• Scaling up business yields</li>
+                  <li>• Flexible union with various teams </li>
+                  <li>• Data security</li>
+                  <li>• Increasing competitiveness </li>
+                </ul>{" "}
+              </p>
+              <h3>
+                Is a cloud computing certification course worth investing in to
+                sustain in today’s tech world?{" "}
+              </h3>
+              <p>
+                Yes, joining the best certification courses for cloud computing
+                is helpful for techies to sustain themselves in the industry.
+                Constant learning informs you of the latest cloud trends, tools,
+                platforms, etc. It helps techies gain an upper edge in rising
+                markets. Certification courses validate your tech skills and
+                attest useful credentials to your career.
+              </p>
+              <p>
+                Learning with globally recognized certifications enriches your
+                earning limits. It unlocks global-scale job offers with alluring
+                pay scales. Hence, it is worthy enough to invest in any of the
+                trending courses with globally valued certificates.
+              </p>
+
+              <h3>Featuring Cloud Computing Courses</h3>
+              <p>
+                Industry-focused cloud computing programs enrich career values
+                with their elite features, attracting a massive alert for tech
+                experts. Such features are –
+              </p>
+              <ul>
+                <li>
+                  <h5>Upskilling via comprehensively designed courses</h5>
+                  <p>
+                    Techies eager to revamp their careers prefer upskilling from
+                    a reputed training institute with a frequently updated
+                    syllabus. Our cloud computing course modules include the
+                    latest tools and trends vital for techies to learn. Our live
+                    instructor-led training sessions with proven mentorship help
+                    you gain abstract and practical knowledge.{" "}
+                  </p>
+                </li>
+                <li>
+                  <h5>Practice-based learning methods</h5>
+                  <p>
+                    Cloud computing is a complex trend with lots of critical
+                    functionalities. Hence, techies must learn and practice the
+                    proven tools via live projects to gain insights. Our
+                    leading-edge cloud computing programs guide techies to work
+                    with 10+ live projects. Here, techies can choose their
+                    projects to know the real-world uses of cloud computing.{" "}
+                  </p>
+                </li>
+                <li>
+                  <h5>100% Career Support Services</h5>
+                  <p>
+                    Techies joining our cloud computing certification course can
+                    avail of hassle-free career support services. Here, techies
+                    can redefine their careers with proven skills and enrich
+                    their job selection chances. Eligible learners with at least
+                    70% scores can avail of ‘Career Service PRO.’ Techies will
+                    gain every viable career benefit under this program – from
+                    1:1 doubt-clearing to resume-making.
+                  </p>
+                </li>
+
+                <li>
+                  <h5>Global certifications</h5>
+                  <p>
+                    Techies joining our cloud computing training institute can
+                    validate their skills via our global-scale certifications
+                    from IBM & Microsoft. The program offers two-course
+                    completion certificates from IBM & Microsoft and one IBM
+                    project certificate.{" "}
+                  </p>
+                </li>
+              </ul>
+              <h4>
+                How does a career support service from a cloud computing
+                training institute support techies? Enlist the core features.
+              </h4>
+              <p>
+                Learnbay is the best institute for cloud computing, and it
+                offers hassle-free career support services. Techies enrolling in
+                our courses gain the edge of effortless job support. Eligible
+                experts with proven skills and at least 70% scores in tasks can
+                avail of our ‘Career Service PRO’ for a thriving career shift.
+              </p>
+              <i>
+                <b>Core features are –</b>
+              </i>
+
+              <ul>
+                <li>3 years of Job and Placement Support</li>
+                <li>6 mock interviews with renowned experts from MNCs/MAANG</li>
+                <li>Resume review</li>
+                <li>1:1 LinkedIn Profiling</li>
+                <li>Dedicated Placement team</li>
+              </ul>
+
+              <h4>
+                Is Learnbay’s cloud courses online worth it for upskilling?{" "}
+              </h4>
+
+              <p>
+                Yes, upskilling via Learnbay’s cloud computing courses is
+                helpful for techies to upscale their skills and confirm
+                global-scale success. Its frequently updated course modules help
+                techies stay informed of the latest growth and rise globally.
+                Joining us will equip you with skills to face and tackle
+                real-world issues.
+              </p>
+              <i>
+                <b>
+                  Our course USPs will always keep you competitive and ahead of
+                  the career race with vital gains. These benefits are –
+                </b>
+              </i>
+              <ul>
+                <li>
+                  Career advice from reputed industry experts in the tech world
+                </li>
+                <li>All-inclusive course modules </li>
+                <li>Practical learning via live projects </li>
+                <li>Career Service PRO</li>
+                <li>Affordable fee structure </li>
+                <li>Cloud computing certification Microsoft (Course)</li>
+                <li>IBM cloud computing certification (Course & Project)</li>
+              </ul>
+              <h4>
+                Does Learnbay’s best certification courses for cloud computing
+                offer affordable learning?
+              </h4>
+
+              <p>
+                Yes, Learnbay declares an industry-driven cloud computing
+                certification course with an affordable fee structure. It will
+                cost you INR 50,000 + 18% GST (with INR 4,917 monthly
+                installment). Learners can opt for flexible payment options with
+                no-cost EMI and easy loans.
+              </p>
+              <h4>
+                Can upskilling via cloud computing programs unlock better career
+                prospects in today’s tech world?
+              </h4>
+              <p>
+                In today’s job marketplace, a cloud computing expert earns INR
+                16.6 LPA on average. Firms rely on cloud-based services for
+                end-to-end functions because of rising data trends. Hence,
+                techies must elevate their skill sets per the latest cloud
+                industry updates. Learning with us will give you proven
+                technical skills to crack critical job roles with alluring pay
+                scales.
+              </p>
+              <h4>
+                Which cloud computing certification is best for techies willing
+                to revamp their IT careers?
+              </h4>
+              <p>
+                A certification program from the best institute for cloud
+                computing is vital for tech experts to revamp their careers.
+                Learnbay’s globally recognized certification courses validate
+                your skills and make you job-ready to land your dream roles.{" "}
+              </p>
+              <p>
+                Hence, experts eager to update their static careers can join our
+                cloud computing programs.{" "}
+              </p>
+
+              <div onClick={popupShow} className={styles.buttonDiv}>
+                <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
+              </div>
+            </>
+          ) : (
+            ""
+          )}
+          <p
+            style={{
+              color: "#2D9CD7",
+              fontWeight: "600",
+              textDecoration: "underline",
+              cursor: "pointer",
+            }}
+            onClick={handler}
+            className={styles.readP}
+          >
+            {read ? "Read Less..." : "Read More..."}
           </p>
-          <i><b>Core features are –</b></i>
-          
-          <ul>
-            <li>3 years of Job and Placement Support</li>
-            <li>6 mock interviews with renowned experts from MNCs/MAANG</li>
-            <li>Resume review</li>
-            <li>1:1 LinkedIn Profiling</li>
-            <li>Dedicated Placement team</li>
-          </ul>
-     
-          
-          <h4>Is Learnbay’s cloud courses online worth it for upskilling? </h4>
-
-          <p>
-          Yes, upskilling via Learnbay’s cloud computing courses is helpful for techies to upscale their skills and confirm global-scale success. Its frequently updated course modules help techies stay informed of the latest growth and rise globally. Joining us will equip you with skills to face and tackle real-world issues.  
-          </p>
-  <i><b>Our course USPs will always keep you competitive and ahead of the career race with vital gains. These benefits are –</b></i>
- <ul><li>Career advice from reputed industry experts in the tech world
-</li>
-<li>All-inclusive course modules </li>
-<li>Practical learning via live projects </li>
-<li>Career Service PRO</li>
-<li>Affordable fee structure  </li>
-<li>Cloud computing certification Microsoft (Course)</li>
-<li>IBM cloud computing certification (Course & Project)</li>
-
-
-
-
-
-
-</ul>
-<h4>Does Learnbay’s best certification courses for cloud computing offer affordable learning?</h4>
-
-          <p>
-          Yes, Learnbay declares an industry-driven cloud computing certification course with an affordable fee structure. It will cost you INR 50,000 + 18% GST (with INR 4,917 monthly installment). Learners can opt for flexible payment options with no-cost EMI and easy loans.  
-          </p>
-       <h4>Can upskilling via cloud computing programs unlock better career prospects in today’s tech world?
-        </h4>
-          <p>
-          In today’s job marketplace, a cloud computing expert earns INR 16.6 LPA on average. Firms rely on cloud-based services for end-to-end functions because of rising data trends. Hence, techies must elevate their skill sets per the latest cloud industry updates. Learning with us will give you proven technical skills to crack critical job roles with alluring pay scales. 
-          </p>
-          <h4>Which cloud computing certification is best for techies willing to revamp their IT careers?</h4>
-          <p>A certification program from the best institute for cloud computing is vital for tech experts to revamp their careers. Learnbay’s globally recognized certification courses validate your skills and make you job-ready to land your dream roles. </p>
-          <p>Hence, experts eager to update their static careers can join our cloud computing programs. </p>
-
-          <div onClick={popupShow} className={styles.buttonDiv}>
-            <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
-          </div>
-        </>
+        </div>
       ) : (
         ""
       )}
-      <p
-        style={{
-          color: "#2D9CD7",
-          fontWeight: "600",
-          textDecoration: "underline",
-          cursor: "pointer",
-        }}
-        onClick={handler}
-        className={styles.readP}
-      >
-        {read ? "Read Less..." : "Read More..."}
-      </p>
-    </div>
-  ) : (
-    ""
-  )}
 
       {Masterscontent ? (
         <div className={styles.content}>
@@ -2231,8 +2404,7 @@ function DataAnalytics({
           {read ? (
             <>
               <h4 style={{ fontSize: "28px" }}>
-                Dive Into The World Of Analytics With The Help Of The Best
-                Certificate In Business Analytics{" "}
+              Online Business Analyst Course Overview
               </h4>
               <h2 style={{ fontSize: "24px" }}>
                 <b>What is Business Analytics? Why Do We Need It? </b>
@@ -2302,7 +2474,7 @@ function DataAnalytics({
                 of various industries.
                 <ul>
                   <li>
-                    <h4 style={{ fontSize: "18px" }}>• Healthcare Industry</h4>
+                    <h4 style={{ fontSize: "18px" }}>• Business Analytics in Healthcare Industry</h4>
                     <p>
                       The Healthcare Industry has seen a significant change in
                       recent years. As you can see, the use of business
@@ -2319,7 +2491,7 @@ function DataAnalytics({
                     </p>
                   </li>
                   <li>
-                    <h4 style={{ fontSize: "18px" }}>• Finance Industry</h4>
+                    <h4 style={{ fontSize: "18px" }}>• Business Analytics in Finance Industry</h4>
                     <p>
                       The finance industry is one of the most impacted
                       industries by business analytics and new-age technology.
@@ -2336,7 +2508,7 @@ function DataAnalytics({
                     </p>
                   </li>
                   <li>
-                    <h4 style={{ fontSize: "18px" }}>• Retail Industry</h4>
+                    <h4 style={{ fontSize: "18px" }}>• Business Analytics in Retail Industry</h4>
                     <p>
                       The Retail industry is seeing innovative changes by
                       adapting business analytics practices. With the help of
@@ -2386,7 +2558,7 @@ function DataAnalytics({
                 recognized by top-tier companies from different industries.
               </p>
               <h2>
-                Why Go With Learnbay’s Certificate Course In Business Analytics?
+              Why Go With Learnbay’s Business Analytics Certification Course?
               </h2>
 
               <p>
@@ -2532,7 +2704,7 @@ function DataAnalytics({
                 </ul>
               </p>
               <h2>
-                How Can I Gain Competitive Edge As An Existing Business Analyst?{" "}
+              What are the Benefits of Learning a Business Analytics Course Online?
               </h2>
               <p>
                 If you are interested in advancing your career as a business
@@ -2544,10 +2716,17 @@ function DataAnalytics({
                 better part of it, you have to learn from comprehensive courses.
               </p>
               <p>
-                Try to search for advanced or master’s in artificial
-                intelligence to gain more extensive knowledge about the
-                real-world applications of it. There are various master’s degree
-                program in AI as well, so select the best one to gain the edge.
+                Try to search for{" "}
+                <a
+                  href="https://www.learnbay.co/datascience/artificial-intelligence-certification-course"
+                  target="_blank"
+                >
+                  advanced course in artificial intelligence and machine
+                  learning{" "}
+                </a>{" "}
+                to gain more extensive knowledge about the real-world
+                applications of it. There are various master’s degree program in
+                AI as well, so select the best one to gain the edge.
               </p>
               <p>
                 Learnbay’s{" "}
@@ -2588,7 +2767,7 @@ function DataAnalytics({
       )}
       {mangers ? (
         <div className={styles.content}>
-          <h4 style={{textAlign:"center"}} >
+          <h4 style={{ textAlign: "center" }}>
             Data Science and AI Certification Program for Managers and Leaders{" "}
           </h4>
           <p>
