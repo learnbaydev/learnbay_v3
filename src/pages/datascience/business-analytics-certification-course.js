@@ -67,7 +67,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>Best Business Analyst Course with Placement support- Learnbay</title>
+        <title>Best Business Analytics Certification Training [2024]</title>
         <meta
           name="description"
           content="Get the best Business Analytics & Analyst Course with placement support. Top certification & training for online classes. Enrol now for better career options."
@@ -75,7 +75,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="business analytics course, business analyst course with placement, business analyst classes online, business analyst course with placement guarantee, best business analyst course, best business analysis course, best business analyst training, top business analyst certification, business analytics course with placement, business analysis training and placement, best business analyst course with placement,           "
+          content="business analytics master course, business analytics master certification course, business analytics master certification, business analyst training, business analyst course online, business analyst certification course, best business analyst course, best business analyst certification          "
         />
         <link
           rel="icon"

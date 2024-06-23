@@ -230,6 +230,14 @@ export const DataScienceCourseData = [
       {
         Module0: {
           title: "Module 0 :- Preparatory Classes (Programming + Maths)",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_round.webp",
+        StartImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_Up.webp",
+        points: "Cohort Orientation",
+        points1: "Fundamentals of programming",
           content: [
             {
               chap: {
@@ -271,6 +279,14 @@ export const DataScienceCourseData = [
       {
         Module0: {
           title: "Term 1 :- Python for Data Science",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
+        StartImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
+        points: "Python Programming",
+        points1: "Statistics and Machine Learning",
           content: [
             {
               chap: {
@@ -299,6 +315,14 @@ export const DataScienceCourseData = [
       {
         Module0: {
           title: "Term 2 :- Statistics and Machine Learning",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
+        points: "Statistics",
+        points1: "Machine Learning",
           content: [
             {
               chap: {
@@ -347,6 +371,15 @@ export const DataScienceCourseData = [
       {
         Module0: {
           title: "Term 3 :- Data Science Tools",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
+        points: "SQL",
+        points1: "MongoDB",
+        points2: "Tableau",
           content: [
             {
               chap: {

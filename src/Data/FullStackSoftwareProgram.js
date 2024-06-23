@@ -38,6 +38,13 @@ export const FSSPDataScienceCourseData = [
       {
         Module0: {
           title: "L1 :- Programming Fundamentals",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_round.webp",
+        StartImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_Up.webp",
+        points: "Why Programming",
           content: [
             {
               chap: {
@@ -121,6 +128,13 @@ export const FSSPDataScienceCourseData = [
       {
         Module0: {
           title: "L2 :- Data Structures and Algorithm",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
+        StartImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
+        points: "Functions & Recursion",
           content: [
             {
               chap: {
@@ -331,6 +345,13 @@ export const FSSPDataScienceCourseData = [
       {
         Module0: {
           title: "L3 :- CS Fundamentals and DBMS",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
+        points: "DBMS",
           content: [
             {
               chap: {
@@ -394,6 +415,13 @@ export const FSSPDataScienceCourseData = [
       {
         Module0: {
           title: "L4 :- System Design",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
+        points: "Introduction to System Design",
           content: [
             {
               chap: {
@@ -503,6 +531,13 @@ export const FSSPDataScienceCourseData = [
       {
         Module0: {
           title: "L5 :- Specialization",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_round.webp ",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_up.webp",
+        points: "MERN (Full-Stack Specialization)",
           content: [
             {
               chap: {
@@ -551,6 +586,14 @@ export const FSSPDataScienceCourseData = [
       {
         Module0: {
           title: "L6 :- Deployment",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_up.webp",
+        points: "Deep Learning",
+        points1: "(NLP)",
           content: [
             {
               chap: {

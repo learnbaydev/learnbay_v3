@@ -22,7 +22,7 @@
 }
 
 .h1Span {
-  color: #f99600;
+  color: #FE7A36;
 }
 
 .h1 {
@@ -163,8 +163,8 @@
 }
 
 .orange {
-  background-color: #f996001a;
-  color: #f99600;
+  background-color: #FE7A361a;
+  color: #FE7A36;
 }
 
 .blue {
@@ -335,7 +335,7 @@
   }
 
   .FirstLeft .h1Span {
-    background: linear-gradient(90deg, #f99600 50%, #edb552 103.64%);
+    background: linear-gradient(90deg, #FE7A36 50%, #edb552 103.64%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;

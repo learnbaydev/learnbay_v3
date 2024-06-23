@@ -2,7 +2,7 @@
 .leftcardmain {
   padding: 30px 0px;
   border-radius: 8px;
-  border: 3px solid #f99600;
+  border: 3px solid #FE7A36;
   background: linear-gradient(85deg, #333 -0.08%, #412700 98.16%);
 }
 
@@ -43,7 +43,7 @@
   align-items: center;
   gap: 5px;
   text-align: center;
-  color: #f99600;
+  color: #FE7A36;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -55,7 +55,7 @@
   border-radius: 4px;
 }
 .ytbtn p {
-  color: #f99600;
+  color: #FE7A36;
   margin: 0px;
 }
 .btn {
@@ -63,7 +63,7 @@
 }
 
 .insideryt h2 {
-  color: #f99600;
+  color: #FE7A36;
   font-size: 22.27px;
   font-style: normal;
   font-weight: 500;
@@ -154,7 +154,7 @@
 
 .active {
   opacity: 1;
-  border: 2px solid #f99600;
+  border: 2px solid #FE7A36;
   border-radius: 8px;
 }
 .sliderContent {
@@ -164,7 +164,7 @@
 
 .sliderContent.active {
   opacity: 1;
-  border: 2px solid #f99600;
+  border: 2px solid #FE7A36;
   border-radius: 8px;
 }
 
@@ -268,7 +268,7 @@
 }
 
 .downcontent h2 {
-  color: #f99600;
+  color: #FE7A36;
   font-size: 26px;
   font-weight: 800;
   line-height: 153%;

@@ -2,6 +2,7 @@ import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
 import BottomBar from "../../Global/BottomBar/BottomBar";
+import LJourney from "../LJourney/LJourney";
 const GetHire = dynamic(() => import("../../MastersCourse/GetHire/GetHire"));
 const ContactCounsellor = dynamic(() =>
   import("../ContactCounsellor/ContactCounsellor")
@@ -81,6 +82,7 @@ const ExecutiveSecondPart = ({
     <>
       <GetHire />
       <ContactCounsellor dataScienceCounselling={true} />
+      <LJourney/>
       <SyllabusNew
         masterSyllabusMobile={masterSyllabusMobile}
         dataScienceCounselling={true}

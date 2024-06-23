@@ -66,6 +66,8 @@ export const TabData = [
       },
     ],
   },
+
+
   {
     id: "Cloud & DevOps and Fullstack",
     title: "Cloud & DevOps and Fullstack",
@@ -96,6 +98,23 @@ export const TabData = [
         hours: "18 Months",
         url: "/datascience/data-science-and-ai-masters-in-cs",
       },
+    ],
+  },
+  {
+    id: "IIT Guwati",
+    title: "IIT Guwati",
+    courseName: [
+      {
+        CName: "Advance Data Analytics Program",
+        hours: "13 Months",
+        url: "/datascience/advance-data-analytics-program",
+      },
+      {
+        CName: "Executive program in Data Science & AI ",
+        hours: "12 Months",
+        url: "/datascience/executive-program-in-data-science-and-ai",
+      },
+      ,
     ],
   },
 ];

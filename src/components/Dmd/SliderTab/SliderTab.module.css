@@ -109,7 +109,7 @@
   font-size: 18px;
   margin: 0;
   padding-left: 15px;
-  border-left: 5px solid #f99600;
+  border-left: 5px solid #FE7A36;
   margin-top: 15px;
 }
 .gridPanel .left h6 {
@@ -167,7 +167,7 @@
   padding-left: 0px;
 }
 .info .middle h4 {
-  color: #f99600;
+  color: #FE7A36;
 }
 .info p {
   margin: 0;

@@ -278,6 +278,13 @@ export const BFSIDataScienceCourseData = [
       {
         Module0: {
           title: "BFSI",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BFSI_round.webp",
+        StartImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BFSI_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_UP.webp",
+        points: "Introduction (BFSI)",
           content: [
             {
               chap: {
@@ -305,6 +312,14 @@ export const BFSIDataScienceCourseData = [
       {
         Module0: {
           title: "TERM 1:- Preparatory Session and Python Programming",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_round.webp",
+        StartImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
+        points: "Cohort Orientation",
+        points1: "Fundamentals of programming",
           content: [
             {
               chap: {
@@ -342,6 +357,14 @@ export const BFSIDataScienceCourseData = [
       {
         Module0: {
           title: "TERM 2 :-Statistics and Machine Learning",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
+        points: "Statistics",
+        points1: "Machine Learning",
           content: [
             {
               chap: {
@@ -390,6 +413,15 @@ export const BFSIDataScienceCourseData = [
         Module0: {
           title:
             "TERM 3 :- Data Science Tools",
+            imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_up.webp",
+        points: "SQL",
+        points1: "MongoDB",
+        points2: "Tableau",
           content: [
             {
               chap: {
@@ -461,6 +493,14 @@ export const BFSIDataScienceCourseData = [
       {
         Module0: {
           title: "TERM 4 :- AI TOOLS",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_up.webp",
+        points: "Deep Learning",
+        points1: "(NLP)",
           content: [
             {
               chap: {
@@ -492,6 +532,13 @@ export const BFSIDataScienceCourseData = [
       {
         Module0: {
           title: "TERM 5 :- Deployment ",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_round.webp",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
+        points: "Deployment AWS+Azure",
           content: [
             {
               chap: {
@@ -512,6 +559,15 @@ export const BFSIDataScienceCourseData = [
       {
         Module0: {
           title: "BONUS :- AI Generative Tools and Future Trends",
+
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_round.webp ",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
+        points: "AI and Generative Modeling",
+        points1: "DALL·E:",
           content: [
             {
               chap: {

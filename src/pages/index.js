@@ -8,6 +8,7 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import Navbar from "../components/Global/Navbar/Navbar";
 import MobileTestimonial from "@/components/Home/MobileTestimonial/MobileTestimonial";
+import CareerHome from "@/components/Home/CareerHome/CareerHome";
 const Course = dynamic(() => import("@/components/Home/Course/Course"));
 const WhyLearnbay = dynamic(() =>
   import("@/components/Home/WhyLearnbay/WhyLearnbay")
@@ -32,6 +33,7 @@ const SeventhSection = dynamic(() =>
   import("@/components/Global/SeventhSection/SeventhSection")
 );
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
+import { ThirdSectionData } from "@/Data/ThirdSectionData";
 
 export default function Home() {
   const data = [
@@ -391,11 +393,16 @@ export default function Home() {
         radio={true}
         idss="ZPOTy4PEnNU"
       />
-      <HomeLine />
+      {/* <HomeLine /> */}
       <Course dataScience={true} radio={true} />
       <WhyLearnbay ids="YWxTtvb3x-U" />
-      <ProjectSection ids="YWxTtvb3x-U" nolinkO={true} linkomb={true} />
+      {/* <ProjectSection ids="YWxTtvb3x-U" nolinkO={true} linkomb={true} /> */}
+      <CareerHome  dataScience={true} ThirdSectionData={ThirdSectionData}/>
+      <div className="realstory">
       <Realstory />
+      </div>
+ 
+
       <TrainerSection idss="eautK0odE7Q" />
       <ContactUs dataScienceCounselling={true} radio={true} />
       <GetHire />

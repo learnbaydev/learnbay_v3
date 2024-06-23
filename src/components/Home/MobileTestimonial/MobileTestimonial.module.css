@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 66% 32%;
   border-radius: 30px;
-  border: 1px solid #f99600;
+  border: 1px solid #FE7A36;
   background: #d3d3d330;
   margin: 50px 130px;
   padding: 50px 50px 0px 50px;
@@ -28,7 +28,7 @@
 }
 
 .btnWrapper button {
-    border: 1px solid #f99600;
+    border: 1px solid #FE7A36;
 }
 
 .MobileReviewImageContainer {
@@ -58,7 +58,7 @@
 
 .icons {
     padding: 5px;
-    background: #F9960029;
+    background: #FE7A3629;
     color: #747272;
     font-size: 50px;
     border-radius: 50px;

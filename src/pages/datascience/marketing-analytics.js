@@ -67,7 +67,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>Best Online Data Science Courses | Online Data Science Training - Learnbay</title>
+        <title>Best Marketing Analytics Certification Course | Learnbay</title>
         <meta
           name="description"
           content="Elevate your business acumen with our comprehensive Marketing Analytics Program. Gain valuable insights, enhance decision-making, and drive success through advanced analytics tools and strategies. Enroll today for a data-driven future."
@@ -75,7 +75,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="Marketing Analytics course, Marketing Analytics certification course, Marketing Analytics certification, Marketing Analytics training, hr analytics course, Marketing Analytics course online, marketing analytics course, Marketing Analytics certification course, best Marketing Analytics course, best Marketing Analytics certification          "
+          content="Marketing Analytics course, Marketing Analytics certification course, Marketing Analytics certification, Marketing Analytics training, Marketing Analytics course online, marketing analytics course, Marketing Analytics certification course, best Marketing Analytics course, best Marketing Analytics certification          "
         />
         <link
           rel="icon"

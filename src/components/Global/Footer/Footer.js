@@ -363,7 +363,7 @@ const Footer = ({
       <div className={styles.FooterBottom}>
         <div className={styles.FooterBottomInner}>
           <p className={styles.FooterInnerB}>
-            Copyright © 2015 - {currentYear} Learnbay by Learnvista Pvt. Ltd. All Rights
+            Copyright © 2015 - 2024 Learnbay by Learnvista Pvt. Ltd. All Rights
             Reserved.
           </p>
         </div>

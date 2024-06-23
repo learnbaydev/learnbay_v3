@@ -143,7 +143,7 @@
 }
 
 .orangeText {
-  color: #f99600 !important;
+  color: #FE7A36 !important;
   font-size: 16px;
   font-weight: 700;
   margin: 20px 0px 10px 0px;
@@ -175,7 +175,7 @@
 
 .boxOrange > p {
   margin: 0;
-  color: #f99600;
+  color: #FE7A36;
   font-size: 16px;
   font-weight: 700;
 }
@@ -217,7 +217,7 @@
 
 .batchImg > p {
   margin: 0;
-  color: #f99600;
+  color: #FE7A36;
   font-size: 16px;
   font-weight: 700;
 }

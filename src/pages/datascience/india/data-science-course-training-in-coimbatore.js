@@ -96,7 +96,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Best Data Science Course in Coimbatore [Placement Assistance]
+        Best Data Science Course Training in Coimbatore
         </title>
         <meta name="robots" content="index, follow" />
         <meta

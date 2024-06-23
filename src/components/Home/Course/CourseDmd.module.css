@@ -77,8 +77,8 @@ margin: 0 !important;
   font-weight: 400;
   cursor: pointer;
   justify-content: start;
-  border-bottom: 2px solid #F99600;
-  color: #F99600;
+  border-bottom: 2px solid #FE7A36;
+  color: #FE7A36;
   font-size: 16px;
 }
 .gridPanel {
@@ -701,7 +701,7 @@ margin: 0 !important;
   cursor: pointer;
   font-size: 18px;
   border-radius: 40.875px;
-border: 0.908px solid #F99600;
+border: 0.908px solid #FE7A36;
 background: #FFF9F0;
 }
 .gridPanel {
@@ -845,7 +845,7 @@ background: #FFF9F0;
   background: linear-gradient(to right, white, #0798f6);
 }
 .newSliderWrapOrange::after {
-  background: linear-gradient(to right, white, #f99600);
+  background: linear-gradient(to right, white, #FE7A36);
 }
 .leftBorder,
 .OrangeLeftBorder {
@@ -863,7 +863,7 @@ background: #FFF9F0;
 }
 
 .OrangeLeftBorder {
-  background: linear-gradient(to top, #f99600, white);
+  background: linear-gradient(to top, #FE7A36, white);
 }
 
 .rightBorder,
@@ -882,7 +882,7 @@ background: #FFF9F0;
 }
 
 .OrangeRightBorder {
-  background: linear-gradient(to bottom, #f99600, white);
+  background: linear-gradient(to bottom, #FE7A36, white);
 }
 .newSliderWrap::before,
 .newSliderWrapOrange::before {
@@ -896,7 +896,7 @@ background: #FFF9F0;
   background: linear-gradient(to right, #0798f6, white);
 }
 .newSliderWrapOrange::before {
-  background: linear-gradient(to right, #f99600, white);
+  background: linear-gradient(to right, #FE7A36, white);
 }
 .newSliderWrap .contentBox {
   width: 100%;

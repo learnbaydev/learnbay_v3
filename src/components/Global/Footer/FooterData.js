@@ -793,6 +793,16 @@ export const CourseData = [
         name: "Certificate in AWS Cloud Computing & Devops",
         url: "/cloud&devops/aws-cloud-computing-and-devOps",
       },
+      {
+        id: 9,
+        name: "Executive program in Data Science & AI",
+        url: "/datascience/executive-program-in-data-science-and-ai",
+      },
+      {
+        id: 10,
+        name: "Advance Data Analytics Program",
+        url: "/datascience/advance-data-analytics-program",
+      },
     ],
   },
 ];

@@ -159,8 +159,6 @@ export const ExcutiveProgramAIDS = [
       // },
     ],
 
-
-
     Certificate: {
       degreeCertificate: {
         id: 3,
@@ -169,12 +167,10 @@ export const ExcutiveProgramAIDS = [
         para: [
           "Upon successfully completing this program, you’ll earn a Executive program Certification in DS and AI in collaboration with E&ICT Academy IIT Guwahati.   ",
 
-
           "Access to lectures from top faculties of E&ICT Academy IIT Guwahati.",
           "Experential learning opportunity at IIT Guwahati campus",
-
         ],
-        
+
         link: false,
         linkText: "https://legal.woolf.university/accreditation",
         linkUrl: "https://legal.woolf.university/accreditation",
@@ -195,6 +191,14 @@ export const ExcutiveProgramAIDS = [
       {
         Module0: {
           title: "Module 0 :- Preparatory Classes (Programming + Maths)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_Up.webp",
+          points: "Cohort Orientation",
+          points1: "Fundamentals of programming",
           content: [
             {
               chap: {
@@ -211,6 +215,7 @@ export const ExcutiveProgramAIDS = [
             {
               chap: {
                 title: "Topic 2 :-  Fundamentals of programming ",
+
                 desc: [
                   "Introduction to Anaconda & Jupyter notebook ",
                   "Flavors of python Introduction to Git, GitHub",
@@ -221,6 +226,7 @@ export const ExcutiveProgramAIDS = [
             {
               chap: {
                 title: " Topic 3 :- Fundamentals of Statistics",
+
                 desc: [
                   "Mean, Median, Mode.",
                   "Standard Deviation, Average. Probability, Permutations, and Combinations ",
@@ -236,6 +242,14 @@ export const ExcutiveProgramAIDS = [
       {
         Module0: {
           title: "Term 1 :- Python for Data Science",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
+          points: "Python Programming",
+          points1: "Statistics and Machine Learning",
           content: [
             {
               chap: {
@@ -263,6 +277,14 @@ export const ExcutiveProgramAIDS = [
       {
         Module0: {
           title: "Term 2 :- Statistics and Machine Learning",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
+          points: "Statistics",
+          points1: "Machine Learning",
           content: [
             {
               chap: {
@@ -313,6 +335,15 @@ export const ExcutiveProgramAIDS = [
       {
         Module0: {
           title: "Term 3 :-  Data Science Tools",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_up.webp",
+          points: "SQL",
+          points1: "MongoDB",
+          points2: "Tableau",
           content: [
             {
               chap: {
@@ -380,6 +411,15 @@ export const ExcutiveProgramAIDS = [
       {
         Module0: {
           title: "Term 4 :- Artificial Intelligence Tools",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_up.webp",
+          points: "Computer Vision",
+          points1: "(NLP)",
+
           content: [
             {
               chap: {
@@ -450,6 +490,14 @@ export const ExcutiveProgramAIDS = [
       {
         Module0: {
           title: "Term 5 :- Essentials",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
+          points: "Project Management Module",
+          points1: "AI Generative Tools",
           content: [
             {
               chap: {
@@ -471,6 +519,14 @@ export const ExcutiveProgramAIDS = [
       {
         Module0: {
           title: "BONUS :- AI Generative Tools and Future Trends",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
+          points: "Emerging Trends in AI",
+          points1: "NLP and ChatGPT",
           content: [
             {
               chap: {
@@ -615,7 +671,7 @@ export const ExcutiveProgramAIDS = [
     faq: [
       {
         id: 0,
-     
+
         data: [
           {
             id: 0,
@@ -651,7 +707,7 @@ export const ExcutiveProgramAIDS = [
             - Machine learning Engineer            `,
             open: false,
           },
-        
+
           {
             id: 5,
             ques: "What all the topics are covered in the Executive Program in Data Science & AI?            ",
@@ -697,16 +753,13 @@ export const ExcutiveProgramAIDS = [
           // {
           //   id: 10,
           //   ques: "Is the Advanced Data Science & AI certification from E&ICT Academy of IIT Guwahati globally recognized?            ",
-          //   ans: `We know that IIT plays an essential role in creating top-notch techs across the globe. Similarly, the Advanced Data Science & AI certification from E&ICT Academy of IIT Guwahati holds a strong posting to facilitate globally recognized certification for better professional and Career endeavors. 
+          //   ans: `We know that IIT plays an essential role in creating top-notch techs across the globe. Similarly, the Advanced Data Science & AI certification from E&ICT Academy of IIT Guwahati holds a strong posting to facilitate globally recognized certification for better professional and Career endeavors.
 
-              
-              
           //     `,
           //   open: false,
           // },
         ],
       },
-     
     ],
   },
 ];

@@ -28,11 +28,11 @@ const Course = ({
   const [popups, setPopups] = useState(false);
 
   const [CourseLoop, setCourseLoop] = useState([
-    { title: "Domain Courses", value: true },
+    { title: "Popular", value: true },
+    { title: "Domain Courses", value: false },
     { title: "Data Science", value: false },
     { title: "Master's Degree", value: false },
     { title: "Cloud & DevOps", value: false },
-    { title: "Popular", value: false },
   ]);
 
   const menuChange = (title, index) => {
@@ -192,6 +192,37 @@ const Course = ({
                                 newDesign,
                                 newDesignOrange,
                               } = viewAllData;
+
+                              // Define custom inline style for specific cards
+                              const specificCards = [
+                                "Data Science and AI Master",
+                                "Master's Degree in CS:",
+                                "Executive program in",
+                                "Advance Data Analytics",
+                              ];
+                              const customOrangeBgStyle = specificCards.includes(
+                                title
+                              )
+                                ? {
+                                    background:
+                                      "linear-gradient(90deg, #04C988 0%, #0072BC 100%)",
+                                    color: "#fff",
+                                  } // Apply gradient background color
+                                : {};
+                              
+                              // Apply custom text alignment style for specific cards
+                              const customTitleStyle = specificCards.includes(
+                                title
+                              )
+                                ? {
+                                    textAlign: "start",
+                                    marginLeft:"20px",
+                                    marginTop:"30px",
+                             
+                                    
+                                  }
+                                : {};
+
                               return (
                                 <SwiperSlide
                                   className={styles.leftSide}
@@ -235,15 +266,10 @@ const Course = ({
                                       </a>
                                     )}
 
-                                    <div className={styles.zIndex}>
+                                    <div className={styles.zIndex} >
                                       <div
                                         className={styles.headWrapper}
-                                        style={
-                                          title === "Master in CS:" ||
-                                          title === "Advance Certification"
-                                            ? { marginTop: "0px" }
-                                            : { marginTop: "0px" }
-                                        }
+                                        style={customTitleStyle}
                                       >
                                         <h6
                                           className={
@@ -251,6 +277,7 @@ const Course = ({
                                               ? styles.mainHeadGreen
                                               : styles.mainHead
                                           }
+                                 
                                         >
                                           {title}
                                         </h6>
@@ -260,11 +287,15 @@ const Course = ({
                                               ? styles.mainHeadGreen
                                               : styles.mainHead
                                           }
+                      
                                         >
                                           {title1}
                                         </h6>
                                       </div>
-                                      <div className={styles.orangeBg}>
+                                      <div
+                                        className={styles.orangeBg}
+                                        style={customOrangeBgStyle}
+                                      >
                                         <p>{tagHead}</p>
                                       </div>
                                       <div
@@ -280,28 +311,14 @@ const Course = ({
                                         }}
                                       >
                                         <div className={styles.contentBox}>
-                                          {/* <hr className={styles.hr} /> */}
                                           <div className={styles.paraDiv}>
                                             <p className={styles.singleP}>
                                               <BiTimeFive
                                                 className={styles.checkCircle}
                                               />
-                                              {/* <IoTimeOutline
-                                          className={styles.timeIcon}
-                                        />{" "} */}
                                               {para[0]} {courseTime}
                                             </p>
-                                            {/* <p>
-                                      <AiOutlineFundProjectionScreen
-                                        className={styles.checkCircle}
-                                        style={{ color: "#edb552" }}
-                                      />
-                                      {para[1]}
-                                    </p> */}
                                             <p className={styles.singleP}>
-                                              {/* <TbCurrencyRupee
-                                          className={styles.checkCircle}
-                                        /> */}
                                               <BsCheckLg
                                                 className={styles.checkIcon}
                                               />
@@ -309,9 +326,6 @@ const Course = ({
                                             </p>
                                             {para.length >= 3 ? (
                                               <p className={styles.singleP}>
-                                                {/* <TbCurrencyRupee
-                                          className={styles.checkCircle}
-                                        /> */}
                                                 <BsCheckLg
                                                   className={styles.checkIcon}
                                                 />
@@ -371,9 +385,6 @@ const Course = ({
                                                 }}
                                               >
                                                 View Details
-                                                {/* <MdChecklist
-                                                className={styles.bellIcon}
-                                              /> */}
                                               </button>
                                             </a>
                                           ) : (
@@ -395,9 +406,6 @@ const Course = ({
                                                 }}
                                               >
                                                 View Details
-                                                {/* <MdChecklist
-                                                className={styles.bellIcon}
-                                              /> */}
                                               </button>
                                             </a>
                                           )}

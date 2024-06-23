@@ -139,8 +139,8 @@ const FirstContent = ({
                     <p className={styles.ptop}>In Collaboration With</p>{" "}
                     <Image
                       src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp"
-                      width="230"
-                      height="60"
+                      width={230}
+                      height={60}
                       priority
                       alt="data science course"
                     />
@@ -289,7 +289,7 @@ const FirstContent = ({
                 {" "}
                 <h4>
                   Interested in{" "}
-                  <span style={{ color: "#f99600" }}> Degree?</span>
+                  <span style={{ color: "#FE7A36" }}> Degree?</span>
                 </h4>
               </>
             ) : (
