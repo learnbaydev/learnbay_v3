@@ -194,7 +194,7 @@ const FirstContent = ({
                 <>
                   <div className={styles.twodiv}>
                     <div className={styles.divone}>
-                      <span>⬤</span> flexible timing
+                      <span>⬤</span> Flexible Timing
                     </div>
                     <div className={styles.divone}>
                       <span>⬤</span> on-demand doubt clearing

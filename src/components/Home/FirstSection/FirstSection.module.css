@@ -207,8 +207,10 @@
   }
   .content h3 {
     font-size: 20px;
-    margin-bottom: 14px;
+    /* margin-bottom: 14px; */
     text-align: center;
+    margin: 20px;
+    
   }
   .content h1 {
     font-size: 32px;
@@ -219,11 +221,12 @@
     
   }
   .round {
-    margin: 30px 0px 100px 0px;
+    margin: 30px 0px 70px 0px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
     gap: 16px 0px;
+    
     /* width: 280px; */
   }
   .buttonDiv {
@@ -235,7 +238,7 @@
     justify-content: center;
   }
   .button {
-    font-size: 14px;
+    font-size: 18px;
     padding: 10px 20px;
     cursor: pointer;
   }
@@ -247,7 +250,7 @@
     font-size: 30px;
   }
   .learnDiv {
-    font-size: 14px;
+    font-size: 20px;
   }
   .bgWrap {
     width: 100%;
