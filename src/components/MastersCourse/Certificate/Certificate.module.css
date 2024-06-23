@@ -275,7 +275,7 @@
     
     display: grid;
     width: 100%;
-    grid-template-columns: 20% 70%;
+    grid-template-columns:33% 50%;
     gap: 10px;
     padding: 0px;
     overflow:hidden;

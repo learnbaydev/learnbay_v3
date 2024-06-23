@@ -240,7 +240,7 @@ function CertificateTab({ data, Imgno, certificatedivide, isguwati  }) {
             }}
             className={DCActive ? styles.activeP : styles.inactiveP}
           >
-           E&ICT IIT Guwahati
+           IIT Guwahati
           </p></>):(<> <p
             onClick={() => {
               setDCActive(true);

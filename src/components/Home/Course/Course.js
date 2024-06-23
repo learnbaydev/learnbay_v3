@@ -28,7 +28,7 @@ const Course = ({
   const [popups, setPopups] = useState(false);
 
   const [CourseLoop, setCourseLoop] = useState([
-    { title: "Popular", value: true },
+    { title: "Popular Courses", value: true },
     { title: "Domain Courses", value: false },
     { title: "Data Science", value: false },
     { title: "Master's Degree", value: false },
@@ -134,7 +134,7 @@ const Course = ({
               >
                 {CourseData.title}
 
-                {CourseData.title === "Popular" ? (
+                {CourseData.title === "Popular Courses" ? (
                   <BsFire
                     style={{
                       color: "red",

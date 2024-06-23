@@ -1,11 +1,11 @@
 export const courseDetails = [
   {
-    id: "Popular",
-    title: "Popular",
+    id: "Popular Courses",
+    title: "Popular Courses",
     courses: [
       {
-        courseName: "Popular",
-        id: "Popular",
+        courseName: "Popular Courses",
+        id: "Popular Courses",
         courseDetails: [
           {
             id: 1,
@@ -1968,12 +1968,12 @@ export const courseDetails = [
 
 export const courseDetailsM = [
   {
-    id: "Popular",
-    title: "Popular",
+    id: "Popular Courses",
+    title: "Popular Courses",
     courses: [
       {
-        courseName: "Popular",
-        id: "Popular",
+        courseName: "Popular Courses",
+        id: "Popular Courses",
         courseDetails: [
           {
             id: 1,
