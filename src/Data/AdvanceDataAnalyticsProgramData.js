@@ -212,13 +212,13 @@ export const ADAProgram = [
         Module0: {
           title: " Module 0 :- Preparatory Classes (Programming + Maths)",
           imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
-          StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
-          points: "Cohort Orientation",
-          points1: "Fundamentals of Programming",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_round.webp",
+        StartImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_Up.webp",
+        points: "Cohort Orientation",
+        points1: "Fundamentals of programming",
           content: [
             {
               chap: {
@@ -261,13 +261,13 @@ export const ADAProgram = [
         Module0: {
           title: "TERM 1 :- Python Programming",
           imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
-          StartImageUrl:
-            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/mongodb_up.webp",
-          points: "Basic Python",
-          points1: "Advance Python",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
+        StartImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
+        points: "Python Programming",
+        points1: "Statistics and Machine Learning",
           content: [
             {
               chap: {
@@ -300,13 +300,13 @@ export const ADAProgram = [
         Module0: {
           title: " TERM 2 :- Statistics and Machine Learning ",
           imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp",
-          StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
-          points: "Statistics",
-          points1: "Machine Learning",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
+        points: "Statistics",
+        points1: "Machine Learning",
           content: [
             {
               chap: {
@@ -354,14 +354,14 @@ export const ADAProgram = [
         Module0: {
           title: "TERM 3 :- Data Analytics Tools",
           imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/mongo_db.webp",
-          StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
-          points: "SQL",
-          points1: "MongoDB",
-          points2: "Tableau",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_up.webp",
+        points: "SQL",
+        points1: "MongoDB",
+        points2: "Tableau",
           content: [
             {
               chap: {
@@ -443,9 +443,12 @@ export const ADAProgram = [
         Module0: {
           title: "TERM 4 :- Excel",
           imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Aws_syll.webp",
-          points: "Getting started with Excel",
-          points1: "Working with the Forms Menu",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_round.webp ",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_up.webp",
+        points: "Getting started with Excel",
 
           content: [
             {

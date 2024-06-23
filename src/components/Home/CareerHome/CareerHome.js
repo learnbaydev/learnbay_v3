@@ -7,10 +7,8 @@ import Form from "../../Global/Form/Form";
 import Popup from "../../Global/Popup/Popup";
 
 function careerHome({
-  leftImage,
-  ThirdSectionData,
+ 
   dataScience,
-  interstedInHide,
   dataScienceCounselling,
 }) {
   const [textOpen, setTextOpen] = useState(1);
@@ -108,7 +106,7 @@ function careerHome({
             <Image
               src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/certification-02.webp"
               alt="Learnbay"
-              priority
+              loading="lazy"
               height={212}
               width={400}
               className={styles.careerImg}
@@ -121,7 +119,7 @@ function careerHome({
             <Image
               src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/career-img.webp"
               alt="Learnbay"
-              priority
+         loading="lazy"
               height={310}
               width={194}
               className={styles.careerImg}
@@ -131,7 +129,7 @@ function careerHome({
             <Image
               src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/domain-03.webp"
               alt="Learnbay"
-              priority
+              loading="lazy"
               height={212}
               width={400}
               className={styles.careerImg}
@@ -231,7 +229,10 @@ function careerHome({
                     <TbDownload
                       className={styles.iconDownload}
                       onClick={() => {
-                        popupShow("BFSI Course", "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf");
+                        popupShow(
+                          "BFSI Course",
+                          "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf"
+                        );
                       }}
                     />
                   </div>
@@ -266,7 +267,7 @@ function careerHome({
                       onClick={() => {
                         popupShow(
                           "Managers & Leader Course",
-                          "link-to-managers-leader-brochure"
+                          "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
                         );
                       }}
                     />

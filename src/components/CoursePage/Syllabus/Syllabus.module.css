@@ -230,9 +230,11 @@
   font-size: 12.445px;
   font-style: normal;
   font-weight: 500;
-  line-height: 158%; /* 22.823px */
-
-  width: fit-content;
+  line-height: 158%;
+  width: -moz-fit-content;
+  width: 100%;
+  align-items: center;
+  display: flex;
 }
 
 .ansV {
@@ -570,12 +572,57 @@
   .topBar {
     padding: 20px 10px 20px 10px;
   }
+  .syllabusLeft{
+    padding: 30px 0;
+    gap: 0;
+  }
+  .points{
+    font-size: 9px;
+
+    
+  }
+  .pointsinside{
+    gap: 6px;
+  }
+  .ques h2 {
+    font-size: 10px;
+  }
+  .ques{
+    padding: 10px;
+  }
+  .quesO{
+    padding: 10px;
+  }
+  .quesO h2{
+    font-size: 10px;
+  }
+  .moduleImage {
+    width: 45px;
+
+  }
+  .trackimgStrt{
+    position: relative;
+    left: -4px;
+  }
+  .QOuter.open {
+    padding-left:35px;
+  }
+  .maindiv{
+    margin: 0px 8px;
+  }
+  .trackimgend{
+    right: 75.6px;
+    top: 70px;
+  }
+  .QOuter{
+    padding-left: 35px;
+  }
 }
 @media (max-width: 481px) {
   .Syllabus {
     display: grid;
     grid-template-columns: auto;
-    margin: 20px 20px 0px 20px;
+    margin: 20px 10px 0px 0px;
     gap: 0px;
   }
   .desktopSyllabus {
@@ -648,4 +695,16 @@
   .customArrow2 {
     display: none;
   }
+
+
+
+
+}
+
+
+@media (max-width: 391px) {
+
+
+
+
 }

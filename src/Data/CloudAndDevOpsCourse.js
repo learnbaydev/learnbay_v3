@@ -592,7 +592,7 @@ export const CloudAndDevOpsCourseData = [
         StartImageUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SERVER_down.webp",
         endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEVOPS_up.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
         points: "Overview of Virtualization",
         points1: "Server Virtualization",
           content: [
@@ -712,6 +712,14 @@ export const CloudAndDevOpsCourseData = [
       {
         Module0: {
           title: "TERM 7 :- Data Migration and Resilience",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEVOPS_up.webp",
+        points: "Introduction to deep learning",
+        points1: "Product Analytics",
           content: [
             {
               chap: {
@@ -828,7 +836,7 @@ export const CloudAndDevOpsCourseData = [
         StartImageUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEVOPS_down.webp",
         endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEVOPS_up.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
         points: "Mastering DevOps ",
         points1: "Introduction to DevOps",
           content: [
@@ -1112,6 +1120,13 @@ export const CloudAndDevOpsCourseData = [
       {
         Module0: {
           title: "TERM 9 :- Splunk Development and Admin ",
+          imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
+        StartImageUrl:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
+        endImageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
+        points: "Splunk Developer and Administration Esentials",
           content: [
             {
               chap: {

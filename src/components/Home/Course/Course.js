@@ -198,7 +198,7 @@ const Course = ({
                                 "Data Science and AI Master",
                                 "Master's Degree in CS:",
                                 "Executive program in",
-                                "Advance Data Analytics Program",
+                                "Advance Data Analytics",
                               ];
                               const customOrangeBgStyle = specificCards.includes(
                                 title

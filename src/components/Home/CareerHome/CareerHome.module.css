@@ -179,6 +179,12 @@ overflow-x: scroll;
 
 
     } */
+    @media (max-width: 481px) {
+      .imgWrap img {
+        height: 900px;
+        
+      }
+    }
 
 @media (max-width: 641px) {
   .mainDiv {
@@ -186,6 +192,7 @@ overflow-x: scroll;
 width: 100%;
 margin-top: 50px;
 padding-bottom: 20px;
+
   }
   .container {
     display: flex;
@@ -204,7 +211,7 @@ padding-bottom: 20px;
   }
   .imgWrap img {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     position: absolute;
   }
   .innerDiv {
@@ -259,6 +266,11 @@ padding-bottom: 20px;
   .paraSideshow{
     font-size: 10px;
   }
+
+
+
+
+
 
 }
 

@@ -13,21 +13,11 @@ function HeroSection({ setPopups, setVideo }) {
     setVideo(true);
   };
 
-  // Determine if the screen width is less than or equal to 640px
   const isMobile = useMediaQuery({ query: "(max-width: 640px)" });
 
-  // State to hold the background image URL and type logo image URL
-  const [bgImage, setBgImage] = useState("");
   const [typeLogo, setTypeLogo] = useState("");
 
   useEffect(() => {
-    // Set the background image and type logo image based on the screen size after the component mounts
-    setBgImage(
-      isMobile
-        ? "https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/mbl_home_two.webp"
-        : "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BG_Home_1.webp"
-    );
-
     setTypeLogo(
       isMobile
         ? "https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/logo_mix_mbl.webp"
@@ -37,28 +27,18 @@ function HeroSection({ setPopups, setVideo }) {
 
   return (
     <section className={styles.section}>
-      <div className={styles.bgWrap}>
-        {/* Render the background image */}
-        {bgImage && (
-          <Image
-            src={bgImage}
-            alt="Learnbay Background"
-            layout="fill"
-            priority
-          />
-        )}
-      </div>
+      <div className={styles.bgWrap}></div>
       <div className={styles.content}>
-        <h1><span className={styles.india}>India’s #1</span> Upskilling Platform for Working Professionals</h1>
+        <h1>
+          <span className={styles.india}>India’s #1</span> Upskilling Platform
+          for Working Professionals
+        </h1>
         <h3>Curriculum inclusive of Gen AI and ChatGPT</h3>
-        {/* Render different content for mobile and desktop */}
-
-          <div className={styles.round}>
-          <p ><FaCheck/> Data Science & AI</p>
-          <p><FaCheck/> Cloud & DevOps</p>
-          <p><FaCheck/> Master’s Degree</p>
+        <div className={styles.round}>
+          <p><FaCheck /> Data Science & AI</p>
+          <p><FaCheck /> Cloud & DevOps</p>
+          <p><FaCheck /> Master’s Degree</p>
         </div>
-
         <div className={styles.buttonDiv}>
           <button onClick={popupShow} className={styles.button}>
             Get Recommendation
@@ -93,7 +73,6 @@ function HeroSection({ setPopups, setVideo }) {
           </div>
         </div>
       </div>
-      {/* Conditionally render .typeLogo div based on isMobile */}
       <div className={styles.typeLogo}>
         <p>Get Certification from :</p>
         <div className={styles.logoWrap}>

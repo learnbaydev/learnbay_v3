@@ -48,17 +48,17 @@ const Tabs = ({ handleIcon }) => {
       <div className={styles.MenuTabs}>
         <div className={styles.leftPanel}>
           {TabData.map((data, index) => (
-            <div key={data.id}      className={
-              selectedIndex === index ? styles.spanActive : styles.span  }>
+            <div key={data.id}>
               <span
                 onMouseOver={() => handleMenuChange(index)}
                 onClick={() => handleMenuChange(index)}
-           
+                className={
+                  selectedIndex === index ? styles.spanActive : styles.span
+                }
               >
                 {data.title}
-             
+                <IoIosArrowForward />
               </span>
-              <span>   <IoIosArrowForward /></span>
               {(selectedIndex === index || selectedIndex === null) && (
                 <div className={styles.middlePanel}>{renderCourses()}</div>
               )}

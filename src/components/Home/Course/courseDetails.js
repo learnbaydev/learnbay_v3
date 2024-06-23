@@ -74,8 +74,8 @@ export const courseDetails = [
           {
             id: 4,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/IIT_card_course.webp",
-            title: "Advance Data Analytics Program",
-            title1: "Data Science & AI",
+            title: "Advance Data Analytics",
+            title1: "Program",
             tagHead: "Add-On Module",
             tag: "Data science",
             brochureLinks:
@@ -832,12 +832,11 @@ export const courseDetails = [
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf",
           },
-
           {
             id: 4,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/IIT_card_course.webp",
-            title: "Advance Data Analytics Program",
-            title1: "Data Science & AI",
+            title: "Advance Data Analytics",
+            title1: "Program",
             tagHead: "Add-On Module",
             tag: "Data science",
             brochureLinks:
@@ -1286,8 +1285,8 @@ export const courseDetails = [
           {
             id: 4,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/IIT_card_course.webp",
-            title: "Advance Data Analytics Program",
-            title1: "Data Science & AI",
+            title: "Advance Data Analytics",
+            title1: "Program",
             tagHead: "Add-On Module",
             tag: "Data science",
             brochureLinks:
@@ -1596,8 +1595,8 @@ export const courseDetails = [
           {
             id: 4,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/IIT_card_course.webp",
-            title: "Advance Data Analytics Program",
-            title1: "Data Science & AI",
+            title: "Advance Data Analytics",
+            title1: "Program",
             tagHead: "Add-On Module",
             tag: "Data science",
             brochureLinks:
@@ -1945,8 +1944,8 @@ export const courseDetails = [
           {
             id: 4,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/IIT_card_course.webp",
-            title: "Advance Data Analytics Program",
-            title1: "Data Science & AI",
+            title: "Advance Data Analytics",
+            title1: "Program",
             tagHead: "Add-On Module",
             tag: "Data science",
             brochureLinks:
@@ -2043,8 +2042,8 @@ export const courseDetailsM = [
           {
             id: 4,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/IIT_card_course.webp",
-            title: "Advance Data Analytics Program",
-            title1: "Data Science & AI",
+            title: "Advance Data Analytics",
+            title1: "Program",
             tagHead: "Add-On Module",
             tag: "Data science",
             brochureLinks:
@@ -2805,8 +2804,8 @@ export const courseDetailsM = [
           {
             id: 4,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/IIT_card_course.webp",
-            title: "Advance Data Analytics Program",
-            title1: "Data Science & AI",
+            title: "Advance Data Analytics",
+            title1: "Program",
             tagHead: "Add-On Module",
             tag: "Data science",
             brochureLinks:
@@ -3255,8 +3254,8 @@ export const courseDetailsM = [
           {
             id: 4,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/IIT_card_course.webp",
-            title: "Advance Data Analytics Program",
-            title1: "Data Science & AI",
+            title: "Advance Data Analytics",
+            title1: "Program",
             tagHead: "Add-On Module",
             tag: "Data science",
             brochureLinks:
@@ -3565,8 +3564,8 @@ export const courseDetailsM = [
           {
             id: 4,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/IIT_card_course.webp",
-            title: "Advance Data Analytics Program",
-            title1: "Data Science & AI",
+            title: "Advance Data Analytics",
+            title1: "Program",
             tagHead: "Add-On Module",
             tag: "Data science",
             brochureLinks:
@@ -3914,8 +3913,8 @@ export const courseDetailsM = [
           {
             id: 4,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/IIT_card_course.webp",
-            title: "Advance Data Analytics Program",
-            title1: "Data Science & AI",
+            title: "Advance Data Analytics",
+            title1: "Program",
             tagHead: "Add-On Module",
             tag: "Data science",
             brochureLinks:
