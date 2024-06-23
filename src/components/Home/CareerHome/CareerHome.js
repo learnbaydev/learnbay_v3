@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import styles from "./careerHome.module.css";
+import styles from "./CareerHome.module.css";
 import Image from "next/image";
 import { TbDownload } from "react-icons/tb";
 import { useMediaQuery } from "react-responsive";
