@@ -29,7 +29,7 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
         />
         <link
           rel="canonical"
-          href=""
+          href="https://learnbay.co/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati"
         />
       </Head>
       <main>

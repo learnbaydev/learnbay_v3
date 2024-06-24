@@ -13,15 +13,15 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
   return (
     <>
       <Head>
-        <title>Advanced data Anatics Program</title>
+        <title>Advanced Data Analytics Course | IITG Certification</title>
         <meta
           name="description"
-          content="Elevate your career with a Master's in Computer Science specializing in Data Science and AI. Gain advanced skills, harness cutting-edge technologies, and become a leader in the evolving digital landscape."
+          content="Elevate your Analytics career with Learnbay's Advanced Data Analytics Certification. Gain advanced skills, and certification from IIT Guwahati."
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="masters in data science and ai, masters in data science, data science masters programs, best data science masters programs, data science master degree          "
+          content="iit guwahati data analytics course, iit data analytics course, iit data analytics course online, data analyst course iit, data analytics course iit, data analyst course from iit, advanced data analytics course by iit guwahati, advanced data analytics course, best data analyst certification, data analytics professional certificate,"
         />
         <link
           rel="icon"
@@ -29,7 +29,7 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
         />
         <link
           rel="canonical"
-          href=""
+          href="https://learnbay.co/datascience/advance-data-analytics-program-iit-guwahati"
         />
       </Head>
       <main>
