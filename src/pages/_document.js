@@ -27,13 +27,7 @@ export default function Document() {
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ibm_mix_logo.webp"
           as="image"
         />
-        <link
-          rel="preload"
-          href="/path/to/raleway.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
+    
 
         <script
           defer

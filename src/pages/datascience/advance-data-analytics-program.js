@@ -29,7 +29,7 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
         />
         <link
           rel="canonical"
-          href="https://learnbay.co/datascience/advance-data-analytics-program-iit-guwahati"
+          href="https://learnbay.co/datascience/advance-data-analytics-program"
         />
       </Head>
       <main>

@@ -107,12 +107,12 @@ export const TabData = [
       {
         CName: "Advance Data Analytics Program",
         hours: "13 Months",
-        url: "/datascience/advance-data-analytics-program-iit-guwahati",
+        url: "/datascience/advance-data-analytics-program",
       },
       {
         CName: "Executive program in Data Science & AI ",
         hours: "12 Months",
-        url: "/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati",
+        url: "/datascience/executive-program-in-data-science-and-ai",
       },
       ,
     ],
