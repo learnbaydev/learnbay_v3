@@ -45,8 +45,8 @@ const ExecutiveSecondPart = ({
   masterSyllabusMobile,
   projectSection,
   FAQNewData,
-  noguwatiimg,
-  isguwati,
+  noGuwahatiimg,
+  isGuwahati,
 }) => {
   const [popupData, setPopupData] = useState([]);
   // console.log(popupData);
@@ -89,13 +89,13 @@ const ExecutiveSecondPart = ({
         MastersContent={true}
         titleCourse="Masters in Computer Science: Data Science and AI"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf"
-        isguwati={true}
+        isGuwahati={true}
       />
       <ToolsCovered
         deskImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Tools-Logo.png"
         mobImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Mobile-Tools-Covered.png"
       />
-      <Certificate data={CertificateData} Imgno={true} isguwati={true} />
+      <Certificate data={CertificateData} Imgno={true} isGuwahati={true} />
       <FeeSection
         Fee="₹ 1,90,000"
         FeeEmi="12,455/month."
@@ -133,7 +133,7 @@ const ExecutiveSecondPart = ({
         projectSection={projectSection}
       />
       {/* <FAQNew FAQNewData={DataScienceMastersinCS[0].faq} /> */}
-      <FAQNew FAQNewData={FAQNewData} isguwati={true} isSpecial={true} />
+      <FAQNew FAQNewData={FAQNewData} isGuwahati={true} isSpecial={true} />
 
       <SeventhSection />
       <Footer />

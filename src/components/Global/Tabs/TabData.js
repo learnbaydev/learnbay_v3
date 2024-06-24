@@ -101,8 +101,8 @@ export const TabData = [
     ],
   },
   {
-    id: "IIT Guwati",
-    title: "IIT Guwati",
+    id: "IIT Guwahati",
+    title: "IIT Guwahati",
     courseName: [
       {
         CName: "Advance Data Analytics Program",
