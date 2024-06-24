@@ -23,7 +23,7 @@ import "swiper/css/free-mode";
 import "swiper/css/scrollbar";
 import Button from "../../Global/Button/Button";
 
-function WhyLearnbay({ idss, NoGuwati  }) {
+function WhyLearnbay({ idss, NoGuwahati  }) {
   const [domainSpec, setDomainSpec] = useState(false);
   const [projectInno, setProjectInno] = useState(true);
   const [projectCert, setProjectCert] = useState(false);
@@ -270,8 +270,8 @@ function WhyLearnbay({ idss, NoGuwati  }) {
             <div className={Styles.firstBox}>
               <div className={`${Styles.topImg} imgWrapper`}>
 
-                {NoGuwati ? ( <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/certificate-guwati.webp"
+                {NoGuwahati ? ( <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/certificate-Guwahati.webp"
                   loading="lazy"
                   width="200"
                   height="212"

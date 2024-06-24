@@ -33,7 +33,7 @@ function FirstSection({
   DSWolf,
   backgorunimg,
   isSpecialPage,
-  isguwati,
+  isGuwahati,
   backgroundImage,
 }) {
   const [popups, setPopups] = useState(false);
@@ -77,7 +77,7 @@ function FirstSection({
         fresher={fresher}
         isSpecialPage={isSpecialPage}
         backgorunimg={backgorunimg}
-        isguwati={isguwati}
+        isGuwahati={isGuwahati}
         backgroundImage={backgroundImage}
         ibmOnly={ibmOnly}
       />

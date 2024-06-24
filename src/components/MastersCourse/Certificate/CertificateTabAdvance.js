@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./Certificate.module.css";
 import Image from "next/image";
 import { BsCheckCircle } from "react-icons/bs";
-function CertificateTab({ data, Imgno, certificatedivide, isguwati  }) {
+function CertificateTab({ data, Imgno, certificatedivide, isGuwahati  }) {
   const [DCActive, setDCActive] = useState(true);
   const [PCActive, setPCActive] = useState(false);
   const [ACActive, setACActive] = useState(false);
@@ -22,7 +22,7 @@ function CertificateTab({ data, Imgno, certificatedivide, isguwati  }) {
           }}
           className={DCActive ? styles.activeP : styles.inactiveP}
         >
-         IIT Guwati
+         IIT Guwahati
         </p>
         <p
           onClick={() => {
@@ -232,7 +232,7 @@ function CertificateTab({ data, Imgno, certificatedivide, isguwati  }) {
   </section></>):(<> <section className={styles.CertificateTab}>
       <div className={styles.header}>
         <div className={styles.pWrap}>
-         {isguwati ? (<> <p
+         {isGuwahati ? (<> <p
             onClick={() => {
               setDCActive(true);
               setPCActive(false);

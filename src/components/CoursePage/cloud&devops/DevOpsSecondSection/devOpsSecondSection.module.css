@@ -7,13 +7,14 @@
   padding: 10px;
 }
 .threemain{
-  display: grid;
-  grid-template-columns: 36% 40%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 30px;
   align-items: center;
   text-align: center;
   margin: 19px 19px 4px 21px;
   justify-content: center;
-  gap: 31px;
 }
 .iconsss {
   font-size: 40px;
@@ -185,6 +186,7 @@ background: linear-gradient(180deg, rgba(45, 182, 33, 0.09) 0%, rgba(45, 182, 33
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 120px;
 }
 
 .box3icons span {

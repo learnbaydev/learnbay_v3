@@ -17,7 +17,7 @@ function SyllabusNew({
   dataScienceCounselling,
   interstedInHide,
   MastersContent,
-  isguwati,
+  isGuwahati,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -63,7 +63,7 @@ function SyllabusNew({
               
               {MastersContent ? (
                 <h4>
-                  Interested in {isguwati ? (<> <span>Degree?</span></>):(<> <span>Master’s Degree?</span></>)}
+                  Interested in {isGuwahati ? (<> <span>Degree?</span></>):(<> <span>Master’s Degree?</span></>)}
                 </h4>
               ) : (
                 <h4>
