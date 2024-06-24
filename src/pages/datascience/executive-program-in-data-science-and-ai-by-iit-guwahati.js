@@ -29,21 +29,16 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs"
+          href="https://learnbay.co/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati"
         />
-
-
-
-
       </Head>
       <main>
         <ExecutiveFirstPart
-        WolfLink ={true}
-        formbtn={true}
+          WolfLink={true}
+          formbtn={true}
           TestimonialData={
             DataScienceCourseData.ExcutiveProgramAIDS[0].testimonial
           }
-
         />
         <ExecutiveSecondPart
           masterSyllabusMobile={
@@ -51,14 +46,13 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
           }
           CertificateData={
             DataScienceCourseData.ExcutiveProgramAIDS[0].Certificate
-
           }
           projectSection={
             DataScienceCourseData.ExcutiveProgramAIDS[0].projectSection
           }
-          FAQNewData={DataScienceCourseData.ExcutiveProgramAIDS[0].faq }
-          />
-      
+          FAQNewData={DataScienceCourseData.ExcutiveProgramAIDS[0].faq}
+        />
+
         {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>
     </>

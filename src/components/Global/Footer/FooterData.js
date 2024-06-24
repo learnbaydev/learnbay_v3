@@ -796,12 +796,12 @@ export const CourseData = [
       {
         id: 9,
         name: "Executive program in Data Science & AI",
-        url: "/datascience/executive-program-in-data-science-and-ai",
+        url: "/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati",
       },
       {
         id: 10,
         name: "Advance Data Analytics Program",
-        url: "/datascience/advance-data-analytics-program",
+        url: "/datascience/advance-data-analytics-program-iit-guwahati",
       },
     ],
   },

@@ -4,6 +4,8 @@ import Image from "next/image";
 import { useMediaQuery } from "react-responsive";
 import { FaCheck } from "react-icons/fa";
 
+
+
 function HeroSection({ setPopups, setVideo }) {
   const popupShow = () => {
     setPopups(true);
@@ -15,9 +17,16 @@ function HeroSection({ setPopups, setVideo }) {
 
   const isMobile = useMediaQuery({ query: "(max-width: 640px)" });
 
+  const [bgImage, setBgImage] = useState("");
   const [typeLogo, setTypeLogo] = useState("");
 
   useEffect(() => {
+    setBgImage(
+      isMobile
+        ? "https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/mbl_home_two.webp"
+        : "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BG_Home_1.webp"
+    );
+
     setTypeLogo(
       isMobile
         ? "https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/logo_mix_mbl.webp"
@@ -27,11 +36,22 @@ function HeroSection({ setPopups, setVideo }) {
 
   return (
     <section className={styles.section}>
-      <div className={styles.bgWrap}></div>
+      <div className={styles.bgWrap}>
+        {bgImage && (
+          <Image
+            src={bgImage}
+            alt="Learnbay Background"
+            layout="fill"
+            priority
+            placeholder="blur"
+            blurDataURL="/path/to/low-res-image.jpg"
+            sizes="(max-width: 640px) 100vw, 100vw"
+          />
+        )}
+      </div>
       <div className={styles.content}>
         <h1>
-          <span className={styles.india}>India’s #1</span> Upskilling Platform
-          for Working Professionals
+          <span className={styles.india}>India’s #1</span> Upskilling Platform for Working Professionals
         </h1>
         <h3>Curriculum inclusive of Gen AI and ChatGPT</h3>
         <div className={styles.round}>

@@ -329,7 +329,7 @@ const FirstContent = ({
                   <p className={styles.ptoptwo}>In Collaboration With</p>{" "}
                   <div className={styles.ImageBlock}>
                     <Image
-                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_Guwahati_logo.webp"
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp"
                       width="340"
                       height="44"
                       priority
@@ -387,7 +387,7 @@ const FirstContent = ({
                     <span>⬤</span> flexible timing
                   </div>
                   <div className={styles.divone}>
-                    <span>⬤</span> on-demand doubt clearing
+                    <span>⬤</span> On-Demand Doubt Clearing
                   </div>
                 </div>
               ) : (

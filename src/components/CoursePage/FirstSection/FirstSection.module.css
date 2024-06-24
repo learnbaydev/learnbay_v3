@@ -451,9 +451,10 @@ padding: 5px 15px;
 
   .ptop {
     color: #fff;
-    text-align: center;
+    text-align: start;
     font-size: 15px;
     font-weight: 400;
+    margin-left: 22px;
   }
   .ptopC {
     font-size: 14px !important;
@@ -472,10 +473,10 @@ padding: 5px 15px;
     text-align: left !important;
   }
   .ImageBlock {
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+    margin: 22px;
+        display: flex;
+        justify-content: start;
+        margin-top: 0;
   }
   .animationText {
     display: none;

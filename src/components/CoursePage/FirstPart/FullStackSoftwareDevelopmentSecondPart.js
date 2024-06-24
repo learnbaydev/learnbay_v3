@@ -3,6 +3,7 @@ import dynamic from "next/dynamic";
 import Footer from "@/components/Global/Footer/Footer";
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+import LJourney from "../LJourney/LJourney";
 const SeventhSection = dynamic(() =>
   import("@/components/Global/SeventhSection/SeventhSection")
 );
@@ -60,6 +61,7 @@ const FullStackSoftwareDevelopmentSecondPart = ({
   }, []);
   return (
     <div>
+          <LJourney/>
       <SyllabusNew
         masterSyllabusMobile={masterSyllabusMobile}
         dataScienceCounselling={true}

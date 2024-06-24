@@ -183,11 +183,11 @@
   font-weight: 600;
   line-height: 153%; /* 38.25px */
 }
-.bgWrap {
+/* .bgWrap {
 
   background: url('https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BG_Home_1.webp') no-repeat center center;
   background-size:contain;
-}
+} */
 
 @media (max-width: 641px) {
   .section{
@@ -197,10 +197,10 @@
     height: fit-content;
   }
   @media (max-width: 640px) {
-    .bgWrap {
+    /* .bgWrap {
       background: url('https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/mbl_home_two.webp') no-repeat center center;
       background-size: cover;
-    }
+    } */
   }
   .content {
     padding: 70px 0px 60px 0px;

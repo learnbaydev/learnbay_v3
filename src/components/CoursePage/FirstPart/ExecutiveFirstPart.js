@@ -114,7 +114,7 @@ const ExecutiveFirstPart = ({
       },
     ],
     bannerImage: {
-      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Guwahati-job.webp",
+      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/guwati-job.webp",
       width: 410,
       height: 400,
       priority: true,
