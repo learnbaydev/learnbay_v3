@@ -589,12 +589,16 @@
   }
   .ques{
     padding: 10px;
+    height: fit-content;
+
   }
   .quesO{
     padding: 10px;
+    height: fit-content;
   }
   .quesO h2{
     font-size: 14px;
+    
   }
   .moduleImage {
     width: 45px;

@@ -1,6 +1,7 @@
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
+import LJourney from "../LJourney/LJourney";
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
 const WhatsappFloat = dynamic(() =>
@@ -82,6 +83,7 @@ const SecondPart = ({
   }, []);
   return (
     <div>
+          <LJourney/>
       <SyllabusNew
         masterSyllabusMobile={masterSyllabusMobile}
         dataScienceCounselling={true}

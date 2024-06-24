@@ -29,36 +29,24 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs"
+          href=""
         />
-
-
-
-
       </Head>
       <main>
         <AdaProgramFirst
-        WolfLink ={true}
-        formbtn={true}
-          TestimonialData={
-            DataScienceCourseData.ADAProgram[0].testimonial
-          }
-
+          WolfLink={true}
+          formbtn={true}
+          TestimonialData={DataScienceCourseData.ADAProgram[0].testimonial}
         />
         <AdaProgramSecondPart
           masterSyllabusMobile={
             DataScienceCourseData.ADAProgram[0].masterSyllabusMobile
           }
-          CertificateData={
-            DataScienceCourseData.ADAProgram[0].Certificate
-
-          }
-          projectSection={
-            DataScienceCourseData.ADAProgram[0].projectSection
-          }
+          CertificateData={DataScienceCourseData.ADAProgram[0].Certificate}
+          projectSection={DataScienceCourseData.ADAProgram[0].projectSection}
           FAQNewData={DataScienceCourseData.ADAProgram[0].faq}
-          />
-      
+        />
+
         {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>
     </>

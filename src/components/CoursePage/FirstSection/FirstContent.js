@@ -387,7 +387,7 @@ const FirstContent = ({
                     <span>⬤</span> flexible timing
                   </div>
                   <div className={styles.divone}>
-                    <span>⬤</span> on-demand doubt clearing
+                    <span>⬤</span> On-Demand Doubt Clearing
                   </div>
                 </div>
               ) : (
