@@ -95,9 +95,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-        Best Data Science Certification Course in Indore
-        </title>
+        <title>Best Data Science Certification Course in Indore</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -199,12 +197,12 @@ export default function Home() {
             Fee="₹1,35,000"
             FeeEmi="₹8,850/month"
             weekdaybatch="Weekday Batch"
-            weekendbatch="Weekend Batch"
+            weekendbatch="Weekday Batch"
             weekday="MON - FRI"
-            weekend="SAT - SUN"
-            WeekdayDate="June 14th"
-            WeekendDate="June 16th"
-            WeekendTime="9:30 AM - 1:00 PM"
+            weekend="MON - FRI"
+            WeekdayDate="JULY 12th"
+            WeekendDate="JULY 5th"
+            WeekendTime="8:00 PM - 10:00 PM"
             WeekdayTime="8:00 AM - 10:00 AM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
@@ -232,7 +230,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-         DSIndore={true}
+              DSIndore={true}
               DomainHead1={DSinodreCourseData[0].DomainHead1}
               DomainBot1={DSinodreCourseData[0].DomainBot1}
               DomainBot2={DSinodreCourseData[0].DomainBot2}
@@ -258,9 +256,7 @@ export default function Home() {
               Domainlink9={DSinodreCourseData[0].Domainlink9}
               Domainlink10={DSinodreCourseData[0].Domainlink10}
               DomainBot40={DSinodreCourseData[0].DomainBot40}
-              CertificationHead1={
-                DSinodreCourseData[0].CertificationHead1
-              }
+              CertificationHead1={DSinodreCourseData[0].CertificationHead1}
               CertificationBot1={DSinodreCourseData[0].CertificationBot1}
               CertificationBot2={DSinodreCourseData[0].CertificationBot2}
               CertificationBot3={DSinodreCourseData[0].CertificationBot3}
@@ -283,9 +279,7 @@ export default function Home() {
               ModuleMasterlist7={DSinodreCourseData[0].ModuleMasterlist7}
               ModuleMasterlist8={DSinodreCourseData[0].ModuleMasterlist8}
               ModuleMasterlist9={DSinodreCourseData[0].ModuleMasterlist9}
-              ModuleMasterlist10={
-                DSinodreCourseData[0].ModuleMasterlist10
-              }
+              ModuleMasterlist10={DSinodreCourseData[0].ModuleMasterlist10}
               ModuleMasterBot3={DSinodreCourseData[0].ModuleMasterBot3}
               ModuleMasterBot2={DSinodreCourseData[0].ModuleMasterBot2}
               ModuleBot46={DSinodreCourseData[0].ModuleBot46}
@@ -342,9 +336,7 @@ export default function Home() {
               JobBot001={DSinodreCourseData[0].JobBot001}
               JobBot002={DSinodreCourseData[0].JobBot002}
               JobBot1={DSinodreCourseData[0].JobBot1}
-              JobHeadbhubaneswar01={
-                DSinodreCourseData[0].JobHeadbhubaneswar01
-              }
+              JobHeadbhubaneswar01={DSinodreCourseData[0].JobHeadbhubaneswar01}
               JobHead001={DSinodreCourseData[0].JobHead001}
               JobHead2={DSinodreCourseData[0].JobHead2}
               JobBot3={DSinodreCourseData[0].JobBot3}

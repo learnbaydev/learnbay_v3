@@ -44,7 +44,8 @@ export const courseDetails = [
               "Certification form IIT Guwahati",
               "2 days Campus Immersion at IIT",
             ],
-            link1: "/datascience/executive-program-in-data-science-and-ai",
+            link1:
+              "/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf",
           },
@@ -86,7 +87,7 @@ export const courseDetails = [
               "Certification form IIT Guwahati",
               "Unlimited Interview Calls",
             ],
-            link1: "/datascience/advance-data-analytics-program",
+            link1: "/datascience/advance-data-analytics-program-iit-guwahati",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
           },
@@ -237,7 +238,7 @@ export const courseDetails = [
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
           },
-       
+
           {
             id: 7,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/BA-Card.webp",
@@ -600,7 +601,7 @@ export const courseDetails = [
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
           },
-        
+
           {
             id: 7,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/BA-Card.webp",
@@ -806,7 +807,8 @@ export const courseDetails = [
               "Certification form IIT Guwahati",
               "2 days Campus Immersion at IIT",
             ],
-            link1: "/datascience/executive-program-in-data-science-and-ai",
+            link1:
+              "/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf",
           },
@@ -847,7 +849,7 @@ export const courseDetails = [
               "Certification form IIT Guwahati",
               "Unlimited Interview Calls",
             ],
-            link1: "/datascience/advance-data-analytics-program",
+            link1: "/datascience/advance-data-analytics-program-iit-guwahati",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
           },
@@ -1255,7 +1257,8 @@ export const courseDetails = [
               "Certification form IIT Guwahati",
               "2 days Campus Immersion at IIT",
             ],
-            link1: "/datascience/executive-program-in-data-science-and-ai",
+            link1:
+              "/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf",
           },
@@ -1297,7 +1300,7 @@ export const courseDetails = [
               "Certification form IIT Guwahati",
               "Unlimited Interview Calls",
             ],
-            link1: "/datascience/advance-data-analytics-program",
+            link1: "/datascience/advance-data-analytics-program-iit-guwahati",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
           },
@@ -1565,7 +1568,8 @@ export const courseDetails = [
               "Certification form IIT Guwahati",
               "2 days Campus Immersion at IIT",
             ],
-            link1: "/datascience/executive-program-in-data-science-and-ai",
+            link1:
+              "/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf",
           },
@@ -1607,7 +1611,7 @@ export const courseDetails = [
               "Certification form IIT Guwahati",
               "Unlimited Interview Calls",
             ],
-            link1: "/datascience/advance-data-analytics-program",
+            link1: "/datascience/advance-data-analytics-program-iit-guwahati",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
           },
@@ -1914,7 +1918,8 @@ export const courseDetails = [
               "Certification form IIT Guwahati",
               "2 days Campus Immersion at IIT",
             ],
-            link1: "/datascience/executive-program-in-data-science-and-ai",
+            link1:
+              "/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf",
           },
@@ -1956,7 +1961,7 @@ export const courseDetails = [
               "Certification form IIT Guwahati",
               "Unlimited Interview Calls",
             ],
-            link1: "/datascience/advance-data-analytics-program",
+            link1: "/datascience/advance-data-analytics-program-iit-guwahati",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
           },
@@ -2012,7 +2017,8 @@ export const courseDetailsM = [
               "Certification form IIT Guwahati",
               "2 days Campus Immersion at IIT",
             ],
-            link1: "/datascience/executive-program-in-data-science-and-ai",
+            link1:
+              "/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf",
           },
@@ -2054,7 +2060,7 @@ export const courseDetailsM = [
               "Certification form IIT Guwahati",
               "Unlimited Interview Calls",
             ],
-            link1: "/datascience/advance-data-analytics-program",
+            link1: "/datascience/advance-data-analytics-program-iit-guwahati",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
           },
@@ -2568,7 +2574,7 @@ export const courseDetailsM = [
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
           },
-         
+
           {
             id: 7,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/BA-Card.webp",
@@ -2774,7 +2780,8 @@ export const courseDetailsM = [
               "Certification form IIT Guwahati",
               "2 days Campus Immersion at IIT",
             ],
-            link1: "/datascience/executive-program-in-data-science-and-ai",
+            link1:
+              "/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf",
           },
@@ -2816,7 +2823,7 @@ export const courseDetailsM = [
               "Certification form IIT Guwahati",
               "Unlimited Interview Calls",
             ],
-            link1: "/datascience/advance-data-analytics-program",
+            link1: "/datascience/advance-data-analytics-program-iit-guwahati",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
           },
@@ -3224,7 +3231,8 @@ export const courseDetailsM = [
               "Certification form IIT Guwahati",
               "2 days Campus Immersion at IIT",
             ],
-            link1: "/datascience/executive-program-in-data-science-and-ai",
+            link1:
+              "/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf",
           },
@@ -3266,7 +3274,7 @@ export const courseDetailsM = [
               "Certification form IIT Guwahati",
               "Unlimited Interview Calls",
             ],
-            link1: "/datascience/advance-data-analytics-program",
+            link1: "/datascience/advance-data-analytics-program-iit-guwahati",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
           },
@@ -3534,7 +3542,8 @@ export const courseDetailsM = [
               "Certification form IIT Guwahati",
               "2 days Campus Immersion at IIT",
             ],
-            link1: "/datascience/executive-program-in-data-science-and-ai",
+            link1:
+              "/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf",
           },
@@ -3576,7 +3585,7 @@ export const courseDetailsM = [
               "Certification form IIT Guwahati",
               "Unlimited Interview Calls",
             ],
-            link1: "/datascience/advance-data-analytics-program",
+            link1: "/datascience/advance-data-analytics-program-iit-guwahati",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
           },
@@ -3883,7 +3892,8 @@ export const courseDetailsM = [
               "Certification form IIT Guwahati",
               "2 days Campus Immersion at IIT",
             ],
-            link1: "/datascience/executive-program-in-data-science-and-ai",
+            link1:
+              "/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf",
           },
@@ -3925,7 +3935,7 @@ export const courseDetailsM = [
               "Certification form IIT Guwahati",
               "Unlimited Interview Calls",
             ],
-            link1: "/datascience/advance-data-analytics-program",
+            link1: "/datascience/advance-data-analytics-program-iit-guwahati",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
           },

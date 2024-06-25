@@ -1,6 +1,6 @@
+import { parseJSONData } from "@/Util/JsonConvertor";
 import dynamic from "next/dynamic";
 import Head from "next/head";
-import { parseJSONData } from "@/Util/JsonConvertor";
 
 import AdaProgramFirst from "@/components/CoursePage/FirstPart/AdaProgramFirstPart";
 const AdaProgramSecondPart = dynamic(() =>
@@ -29,7 +29,7 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
         />
         <link
           rel="canonical"
-          href="https://learnbay.co/datascience/advance-data-analytics-program"
+          href="https://learnbay.co/datascience/advance-data-analytics-program-iit-guwahati"
         />
       </Head>
       <main>

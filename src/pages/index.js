@@ -1,14 +1,14 @@
+import { ThirdSectionData } from "@/Data/ThirdSectionData";
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+import CareerHome from "@/components/Home/CareerHome/CareerHome";
 import FirstSection from "@/components/Home/FirstSection/FirstSection";
-import HomeLine from "@/components/Home/HomeLine/HomeLine";
 import Media from "@/components/Home/Media/Media";
+import MobileTestimonial from "@/components/Home/MobileTestimonial/MobileTestimonial";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import { useEffect, useState } from "react";
 import Navbar from "../components/Global/Navbar/Navbar";
-import MobileTestimonial from "@/components/Home/MobileTestimonial/MobileTestimonial";
-import CareerHome from "@/components/Home/CareerHome/CareerHome";
 const Course = dynamic(() => import("@/components/Home/Course/Course"));
 const WhyLearnbay = dynamic(() =>
   import("@/components/Home/WhyLearnbay/WhyLearnbay")
@@ -33,7 +33,6 @@ const SeventhSection = dynamic(() =>
   import("@/components/Global/SeventhSection/SeventhSection")
 );
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
-import { ThirdSectionData } from "@/Data/ThirdSectionData";
 
 export default function Home() {
   const data = [
@@ -43,7 +42,7 @@ export default function Home() {
         "Learnbay achieves 300% surge; to expand workforce amidst impressive job market recognition",
       CLogo:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/image+2-min.webp",
-      SDesc: "12th July",
+      SDesc: "12th JULY",
       url: "https://www.financialexpress.com/education-2/learnbay-goes-offline-with-brick-and-mortar-centres-ends-fy22-with-a-net-profit-of-rs-3-2-crore/2590829/",
     },
     {
@@ -161,7 +160,7 @@ export default function Home() {
       <Head>
         <title>Online IT Certification Courses and Professional Programs</title>
         <meta name="robots" content="index, follow" />
-        <meta name="referrer" content="strict-origin-when-cross-origin"/>
+        <meta name="referrer" content="strict-origin-when-cross-origin" />
 
         <meta
           name="description"
@@ -397,11 +396,10 @@ export default function Home() {
       <Course dataScience={true} radio={true} />
       <WhyLearnbay ids="YWxTtvb3x-U" />
       {/* <ProjectSection ids="YWxTtvb3x-U" nolinkO={true} linkomb={true} /> */}
-      <CareerHome  dataScience={true} ThirdSectionData={ThirdSectionData}/>
+      <CareerHome dataScience={true} ThirdSectionData={ThirdSectionData} />
       <div className="realstory">
-      <Realstory />
+        <Realstory />
       </div>
- 
 
       <TrainerSection idss="eautK0odE7Q" />
       <ContactUs dataScienceCounselling={true} radio={true} />

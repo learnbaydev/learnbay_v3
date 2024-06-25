@@ -60,7 +60,7 @@
   align-items: center;
   cursor: pointer;
   margin-top: -8px;
-  height: 100px;
+  height: 70px;
 
   margin-bottom: 30px;
 }
@@ -164,7 +164,7 @@
   align-items: center;
   cursor: pointer;
   margin-top: -8px;
-  height: 100px;
+  height: 70px;
   margin-bottom: 30px;
 }
 
@@ -175,7 +175,7 @@
   align-items: center;
   cursor: pointer;
   margin-top: -8px;
-  height: 100px;
+  height: 70px;
 
   border-radius: 25.711px;
   border: 0.903px solid #0072bc;
@@ -184,7 +184,7 @@
 
 .quesO h2 {
   color: #0072bc;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 158%; /* 31.6px */
@@ -193,7 +193,7 @@
 
 .ques h2 {
   color: #000;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: 158%; /* 31.6px */
@@ -588,12 +588,12 @@
     font-size: 14px;
   }
   .ques{
-    padding: 10px;
+    padding: 20px;
     height: fit-content;
 
   }
   .quesO{
-    padding: 10px;
+    padding: 20px;
     height: fit-content;
   }
   .quesO h2{
@@ -657,6 +657,7 @@
     margin: 0px 0px 0px 0px;
     position: inherit;
     height: fit-content;
+    overflow: unset;
   }
 
   .line {
