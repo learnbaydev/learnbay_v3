@@ -1329,6 +1329,20 @@ const nextConfig = {
         destination: "/fullstack/full-stack-software-development-program",
         permanent: true,
       },
+
+      {
+        source:
+          "/datascience/advance-data-analytics-program",
+        destination: "/datascience/advance-data-analytics-program-iit-guwahati",
+        permanent: true,
+      },
+
+      {
+        source:
+          "/datascience/executive-program-in-data-science-and-ai",
+        destination: "/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati",
+        permanent: true,
+      },
     ];
   },
 };

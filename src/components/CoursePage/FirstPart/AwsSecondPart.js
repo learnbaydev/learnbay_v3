@@ -78,7 +78,7 @@ const SecondPart = ({
   }, []);
   return (
     <div style={{ marginTop: "50px" }}>
-          <LJourney/>
+      <LJourney />
       <SyllabusNew
         masterSyllabusMobile={masterSyllabusMobile}
         dataScienceCounselling={true}
@@ -99,10 +99,10 @@ const SecondPart = ({
         weekendbatch="Weekend Batch"
         weekday="(MON-TUE-WED-THU)"
         weekend="(SAT-SUN)"
-        WeekdayDate="JUNE 14th"
-        WeekendDate="JUNE 23rd"
-        WeekendTime="9:30 AM - 1 PM"
-        WeekdayTime="8 PM - 10 PM"
+        WeekdayDate="12th July "
+        WeekendDate="2nd August"
+        WeekendTime="08:00 PM to 10:00 PM"
+        WeekdayTime="08:00 PM to 10:00 PM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
         FeeContent5="15 days refund policy"
