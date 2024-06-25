@@ -73,7 +73,7 @@ const SecondPart = ({
   }, []);
   return (
     <div>
-          <LJourney/>
+      <LJourney />
       <SyllabusNew
         masterSyllabusMobile={masterSyllabusMobile}
         dataScienceCounselling={true}
@@ -88,14 +88,14 @@ const SecondPart = ({
       <FeeSection
         Fee="₹80,000"
         FeeEmi="₹ 5,244/month"
-        weekdaybatch="Weekend Batch"
-        weekendbatch="Weekday Batch"
-        weekday="SAT-SUN"
-        weekend="MON-FRI"
-        WeekdayDate="July 7th"
-        WeekendDate="JUNE 7th"
-        WeekendTime="8.00 PM - 10.00 PM"
-        WeekdayTime="9:30 AM - 1:00 PM"
+        weekendbatch="Weekend Batch"
+        weekdaybatch="Weekday Batch"
+        weekend="SAT-SUN"
+        weekday="MON-FRI"
+        WeekendDate="JULY 7th"
+        WeekdayDate="JUNE 7th"
+        WeekdayTime="8.00 PM - 10.00 PM"
+        WeekendTime="9:30 AM - 1:00 PM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
         FeeContent5="15 days refund policy"

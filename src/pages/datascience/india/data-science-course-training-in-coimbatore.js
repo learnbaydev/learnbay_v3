@@ -95,9 +95,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-        Best Data Science Course Training in Coimbatore
-        </title>
+        <title>Best Data Science Course Training in Coimbatore</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -197,12 +195,12 @@ export default function Home() {
             Fee="₹1,35,000"
             FeeEmi="₹8,850/month"
             weekdaybatch="Weekday Batch"
-            weekendbatch="Weekend Batch"
+            weekendbatch="Weekday Batch"
             weekday="MON - FRI"
-            weekend="SAT - SUN"
-            WeekdayDate="June 14th"
-            WeekendDate="June 16th"
-            WeekendTime="9:30 AM - 1:00 PM"
+            weekend="MON - FRI"
+            WeekdayDate="JULY 12th"
+            WeekendDate="JULY 5th"
+            WeekendTime="8:00 PM - 10:00 PM"
             WeekdayTime="8:00 AM - 10:00 AM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"

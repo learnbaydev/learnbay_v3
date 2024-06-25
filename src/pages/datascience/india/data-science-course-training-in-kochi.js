@@ -95,7 +95,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Data Science Course in Kochi | Training & Certification | Learnbay</title>
+        <title>
+          Data Science Course in Kochi | Training & Certification | Learnbay
+        </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -186,9 +188,7 @@ export default function Home() {
           firstTopPara="Foundational and Advance Job-ready Program"
           cityParaCont=" Accelerate your career success metrics via upskilling with Learnbay’s all-inclusive data science course in Kochi. Enrol in our training programs to learn and practice Generative AI-rich tools, followed by 12+ real-time projects. Plus, propel global-scale success via IBM & Microsoft certifications with proven gains.           "
         />
-        <SecondSection
-          SecondSectionData={DSKochiCourseData[0].secondSection}
-        />
+        <SecondSection SecondSectionData={DSKochiCourseData[0].secondSection} />
         <div className={styles.Realstorysec}>
           <Realstory />
         </div>
@@ -197,12 +197,12 @@ export default function Home() {
             Fee="₹1,35,000"
             FeeEmi="₹8,850/month"
             weekdaybatch="Weekday Batch"
-            weekendbatch="Weekend Batch"
+            weekendbatch="Weekday Batch"
             weekday="MON - FRI"
-            weekend="SAT - SUN"
-            WeekdayDate="June 14th"
-            WeekendDate="June 16th"
-            WeekendTime="9:30 AM - 1:00 PM"
+            weekend="MON - FRI"
+            WeekdayDate="JULY 12th"
+            WeekendDate="JULY 5th"
+            WeekendTime="8:00 PM - 10:00 PM"
             WeekdayTime="8:00 AM - 10:00 AM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"

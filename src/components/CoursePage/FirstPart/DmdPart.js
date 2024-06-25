@@ -1,17 +1,14 @@
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import SeventhSection from "@/components/Global/SeventhSection/SeventhSection";
-import GetHire from "@/components/Home/GetHire/GetHire";
-import dynamic from "next/dynamic";
-import { ThirdSectionData } from "@/Data/ThirdSectionData";
-import ProjectSection from "@/components/OrganicGeneric/ProjectSection/ProjectSection";
-import EightSection from "../EightSection/EightSection";
-import Footer from "@/components/Global/Footer/Footer";
-import Course from "@/components/Home/Course/CourseDmd";
-import HomeLine from "@/components/Home/HomeLine/HomeLine";
 import styles from "@/components/CoursePage/FirstSectionDmd/FirstSection.module.css";
-import MentorsSection from "@/components/Global/MentorsSection/MentorsSection";
-import Media from "@/components/Home/Media/Media";
 import DmdPopup from "@/components/Dmd/Popup/DmdPopup";
+import Footer from "@/components/Global/Footer/Footer";
+import MentorsSection from "@/components/Global/MentorsSection/MentorsSection";
+import Course from "@/components/Home/Course/CourseDmd";
+import GetHire from "@/components/Home/GetHire/GetHire";
+import HomeLine from "@/components/Home/HomeLine/HomeLine";
+import Media from "@/components/Home/Media/Media";
+import ProjectSection from "@/components/OrganicGeneric/ProjectSection/ProjectSection";
+import dynamic from "next/dynamic";
+import EightSection from "../EightSection/EightSection";
 const FirstSection = dynamic(() =>
   import("@/components/CoursePage/FirstSectionDmd/FirstSection")
 );
@@ -19,23 +16,15 @@ const Certificate = dynamic(() =>
   import("@/components/CoursePage/Certificate/Certificate")
 );
 
-const Transpro = dynamic(() =>
-  import("@/components/Dmd/Transpro/Transpro")
-);
+const Transpro = dynamic(() => import("@/components/Dmd/Transpro/Transpro"));
 const SliderTab = dynamic(() =>
   import("@/components/Dmd/SliderTab/SliderTabs")
 );
-const Webinar = dynamic(() =>
-  import("@/components/Dmd/ReactWebinar/Webinar")
-);
+const Webinar = dynamic(() => import("@/components/Dmd/ReactWebinar/Webinar"));
 const NewProjectSection = dynamic(() =>
   import("@/components/Global/NewProjectSection/NewProjectSection")
 );
-const DmdPart = ({
-  CertificateData,
-  S3RightImage,
-  projectSection
-}) => {
+const DmdPart = ({ CertificateData, S3RightImage, projectSection }) => {
   const data = [
     {
       id: 1,
@@ -43,7 +32,7 @@ const DmdPart = ({
         "Learnbay achieves 300% surge; to expand workforce amidst impressive job market recognition",
       CLogo:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/image+2-min.webp",
-      SDesc: "12th July",
+      SDesc: "12th JULY",
       url: "https://www.financialexpress.com/education-2/learnbay-goes-offline-with-brick-and-mortar-centres-ends-fy22-with-a-net-profit-of-rs-3-2-crore/2590829/",
     },
     {
@@ -111,9 +100,7 @@ const DmdPart = ({
   return (
     <div>
       <FirstSection
-        
         ThirdTyped="Live Interactive Classes"
-        
         titleCourse="Advanced Cloud Computing & DevOps Certification Program"
         cityParaCont="Elevate your career to a Cloud Solution Architect or DevOps Engineer"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
@@ -123,33 +110,30 @@ const DmdPart = ({
         firstTopPara="Crack Interview in top MNCs "
         idss="gaQYhVPCudQ"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/cd-f.webp"
-      S3RightImage={S3RightImage}
-      softwareBtnHide={true}
-      interstedInHide={true}
-    
-  DomainInput={true}
+        S3RightImage={S3RightImage}
+        softwareBtnHide={true}
+        interstedInHide={true}
+        DomainInput={true}
       />
       <HomeLine />
 
       <Transpro />
       <div className={styles.Margin}>
-      <Course  
-        // radio={true}
-        organicADS={true}
-        // interstedInHide={true}
-        newDesign={true}
-        dataScienceGeneric={true} 
-        
-        DomainInput={true}
-      interstedInHide={true}
-
+        <Course
+          // radio={true}
+          organicADS={true}
+          // interstedInHide={true}
+          newDesign={true}
+          dataScienceGeneric={true}
+          DomainInput={true}
+          interstedInHide={true}
         />
-              <DmdPopup/>
-        </div>
-      <Certificate data={CertificateData}    className={styles.coursegap}/>
-     <Webinar/>
-     <SliderTab/>
-       <ProjectSection
+        <DmdPopup />
+      </div>
+      <Certificate data={CertificateData} className={styles.coursegap} />
+      <Webinar />
+      <SliderTab />
+      <ProjectSection
         nolinkO={false}
         organic={true}
         linkomb={false}
@@ -165,33 +149,33 @@ const DmdPart = ({
         Domain={true}
       />
 
-<MentorsSection/>
+      <MentorsSection />
 
       <div className={styles.MarginGet}>
-        <div   className={styles.gethirediv}>
-       <GetHire/>
-       <Media projectData={data}/>
-       </div>
+        <div className={styles.gethirediv}>
+          <GetHire />
+          <Media projectData={data} />
+        </div>
       </div>
-      <Webinar/>
+      <Webinar />
       <div className={styles.eight}>
         <EightSection DmdEight={true} />
-        </div>
-<div className={styles.footerdiv}>
-      <Footer
-        organicADSS={true}
-        adPage={true}
-        adPageCity={true}
-        iconnolink={true}
-        faqhead={true}
-        courseGn={true}
-        Ocourses={true}
-        mailno={true}
-        getappsOraginc={true}
-        nolinklogo={true}
-      />
       </div>
-     
+      <div className={styles.footerdiv}>
+        <Footer
+          organicADSS={true}
+          adPage={true}
+          adPageCity={true}
+          iconnolink={true}
+          faqhead={true}
+          courseGn={true}
+          Ocourses={true}
+          mailno={true}
+          getappsOraginc={true}
+          nolinklogo={true}
+        />
+      </div>
+
       {/* <BottomBar /> */}
     </div>
   );

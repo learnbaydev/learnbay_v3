@@ -67,7 +67,7 @@ const NewSyllabusMap = ({ Syllabus }) => {
               <div className={Module0.open ? styles.quesO : styles.ques}>
                 <div className={styles.pointsdiv}>
                   <h2>{Module0.title}</h2>
-                  <div className={styles.pointsinside}>
+                  {/* <div className={styles.pointsinside}>
                     {Module0.points && (
                       <span className={styles.points}>{Module0.points}</span>
                     )}
@@ -77,7 +77,7 @@ const NewSyllabusMap = ({ Syllabus }) => {
                     {Module0.points2 && (
                       <span className={styles.points}>{Module0.points2}</span>
                     )}
-                  </div>
+                  </div> */}
                 </div>
                 <span>
                   {Module0.open ? (
