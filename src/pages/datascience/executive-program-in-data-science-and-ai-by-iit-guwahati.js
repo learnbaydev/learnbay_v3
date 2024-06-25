@@ -13,15 +13,15 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
   return (
     <>
       <Head>
-        <title>Executive program in Data Science & AI</title>
+        <title>Executive program in Data Science and AI | IITG Certification</title>
         <meta
           name="description"
-          content="Elevate your career with a Master's in Computer Science specializing in Data Science and AI. Gain advanced skills, harness cutting-edge technologies, and become a leader in the evolving digital landscape."
+          content="Advance your career with Learnbay's Executive Program in Data Science and AI. Gain advanced skills and become IIT Guwahati certified Data Scientist."
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="masters in data science and ai, masters in data science, data science masters programs, best data science masters programs, data science master degree          "
+          content="iit data science course, iit data science certification, data science course from iit, data science course iit, iit data science course for working professionals, iit data science course fees, iit data scientist course, executive program in data science, executive data science program"
         />
         <link
           rel="icon"
@@ -29,7 +29,7 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
         />
         <link
           rel="canonical"
-          href="https://learnbay.co/datascience/executive-program-in-data-science-and-ai"
+          href="https://learnbay.co/datascience/executive-program-in-data-science-and-ai-by-iit-ghwahati"
         />
       </Head>
       <main>

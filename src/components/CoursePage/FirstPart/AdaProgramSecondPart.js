@@ -88,6 +88,7 @@ const ExecutiveSecondPart = ({
         dataScienceCounselling={true}
         dataScience={true}
         MastersContent={true}
+        buttonHide={true}
         titleCourse="Masters in Computer Science: Data Science and AI"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf"
         isGuwahati={true}

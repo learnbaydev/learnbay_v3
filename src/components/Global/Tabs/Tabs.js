@@ -57,7 +57,7 @@ const Tabs = ({ handleIcon }) => {
                 }
               >
                 {data.title}
-                <IoIosArrowForward />
+              {/* <IoIosArrowForward /> */}
               </span>
               {(selectedIndex === index || selectedIndex === null) && (
                 <div className={styles.middlePanel}>{renderCourses()}</div>

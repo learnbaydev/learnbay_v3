@@ -138,6 +138,7 @@ const ExecutiveFirstPart = ({
         firstHeading="Advance   "
         firstToparaImg="  Data Analytics Program"
         firstTopPara="Curriculum inclusive of Gen-AI        "
+        softwareBtnHide={true}
         // thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ai-f-one.webp"
         // videoId="KcQfbuwJBmU"
         radio={true}

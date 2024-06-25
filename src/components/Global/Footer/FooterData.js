@@ -361,7 +361,6 @@ export const CityFooterData = [
             name: "Data Science Course Training in coimbatore",
             url: "/datascience/india/data-science-course-training-in-coimbatore",
           },
-        
         ],
       },
       {
@@ -397,7 +396,6 @@ export const CityFooterData = [
           },
         ],
       },
-    
     ],
   },
 
@@ -413,10 +411,9 @@ export const CityFooterData = [
             name: "Data Science Course Training in Indore",
             url: "/datascience/india/data-science-course-training-in-indore",
           },
-        
         ],
       },
-     
+
       {
         id: "kochi",
         city: "Kochi",
@@ -428,14 +425,8 @@ export const CityFooterData = [
           },
         ],
       },
-     
-    
     ],
   },
-
-
-
-
 
   {
     id: "SecondDiv",
@@ -796,12 +787,12 @@ export const CourseData = [
       {
         id: 9,
         name: "Executive program in Data Science & AI",
-        url: "/datascience/executive-program-in-data-science-and-ai",
+        url: "/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati",
       },
       {
         id: 10,
         name: "Advance Data Analytics Program",
-        url: "/datascience/advance-data-analytics-program",
+        url: "/datascience/advance-data-analytics-program-iit-guwahati",
       },
     ],
   },
