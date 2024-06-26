@@ -253,12 +253,12 @@ width: 100%;
   margin: 40px 0px;
 }
 .divone{
-  border-radius: 10px;
-background: linear-gradient(270deg, rgba(249, 150, 0, 0.40) 0%, rgba(249, 150, 0, 0.00) 100%);
-padding: 5px 15px; 
+  border-radius: 23px;
+  background: linear-gradient(270deg, #303030 0%, rgba(33, 33, 33, 0.00) 100%);
+  padding: 8px 20px;
 }
 .divone span {
-  color: #FE7A36;
+  color: #35d028;
 }
 @media (max-width: 1281px) {
   .First {
@@ -483,6 +483,7 @@ padding: 5px 15px;
   }
   .btnImageMobile button {
     padding: 10px 10px;
+    font-size: 18px;
   }
   .btnImageMobile {
     display: flex;
@@ -490,14 +491,17 @@ padding: 5px 15px;
     margin: 40px 10px;
   }
   .twodiv{
-    flex-direction: column;
     /* display: block; */
     /* margin: 30px 130px 0px 11px; */
     gap: 20px;
     width: fit-content;
+
 }
 .divone{
-  padding: 14px;
+        padding: 8px 15px;
+        font-size: 15px;
+        gap: 10px;
+        display: flex;
 }
 
 .ptoptwo{

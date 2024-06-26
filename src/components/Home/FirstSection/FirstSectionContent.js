@@ -70,7 +70,7 @@ function HeroSection({ setPopups, setVideo }) {
         </div>
         <div className={styles.buttonDiv}>
           <button onClick={popupShow} className={styles.button}>
-            Get Recommendation
+            Apply for Counselling
           </button>
           <div
             className={styles.learnDiv}
@@ -98,7 +98,7 @@ function HeroSection({ setPopups, setVideo }) {
                 />
               </svg>
             </div>
-            Learn More
+            <span>Learn More</span>
           </div>
         </div>
       </div>

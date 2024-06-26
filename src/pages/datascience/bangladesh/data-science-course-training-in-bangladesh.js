@@ -1,4 +1,5 @@
 import Navbar from "@/components/Global/Navbar/Navbar";
+import Realstory from "@/components/Home/Realstory/Realstory";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import { useEffect, useState } from "react";
@@ -7,7 +8,6 @@ import Footer from "../../../components/Global/Footer/Footer";
 import Form from "../../../components/Global/Form/Form";
 import Popup from "../../../components/Global/Popup/Popup";
 import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
-import Realstory from "@/components/Home/Realstory/Realstory";
 import styles from "../../../styles/Home.module.css";
 const FirstSection = dynamic(() =>
   import("../../../components/Seo/FirstSection/FirstSection")
@@ -77,7 +77,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-        Best Data Science Certification Course Online in Bangladesh
+          Best Data Science Certification Course Online in Bangladesh
         </title>
         <meta name="robots" content="index, follow" />
         <meta
@@ -394,7 +394,6 @@ export default function Home() {
               JobBot41={DSBangladeshCourseData[0].JobBot41}
               JobSpan1={DSBangladeshCourseData[0].JobSpan1}
               modulelist={true}
-              
               ModuleHead1={DSBangladeshCourseData[0].ModuleHead1}
               joblist={true}
               showData={true}
@@ -457,7 +456,7 @@ export default function Home() {
           CityTextL={DSBangladeshCourseData[0].CityTextL}
         />
         <Footer />
-        {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
+        {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>
     </div>
   );

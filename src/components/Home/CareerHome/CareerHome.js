@@ -87,7 +87,7 @@ function careerHome({
         <div className={styles.container}>
           <div className={styles.innerDiv}>
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/project-lab-01.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/Project-lab-01+(1).webp"
               alt="Learnbay"
               priority
               height={212}
@@ -96,7 +96,7 @@ function careerHome({
             />
             <div className={styles.DivCont01}>
               <h4 className={styles.goldenH4}>
-                Next-Gen Project Lab Experience
+              Project Innovation Lab
               </h4>
               <p className={styles.paraBot}>
                 Work in an industry like environment and gain practical hands-on
@@ -104,7 +104,7 @@ function careerHome({
               </p>
             </div>
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/certification-02.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/Certification-02-1.webp"
               alt="Learnbay"
               loading="lazy"
               height={212}

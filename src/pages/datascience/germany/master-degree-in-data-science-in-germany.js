@@ -196,8 +196,6 @@ export default function Home() {
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
-
-      
       </Head>
       <main>
         {" "}
@@ -294,16 +292,29 @@ export default function Home() {
               DomainBot1={masterdegreeGermanyCourseData[0].DomainBot1}
               DomainBot2={masterdegreeGermanyCourseData[0].DomainBot2}
               DomainBot3={masterdegreeGermanyCourseData[0].DomainBot3}
-              DomainMasterBot1={masterdegreeGermanyCourseData[0].DomainMasterBot1}
+              DomainMasterBot1={
+                masterdegreeGermanyCourseData[0].DomainMasterBot1
+              }
               DomainMasterh4={masterdegreeGermanyCourseData[0].DomainMasterh4}
-              DomainMasterBot2={masterdegreeGermanyCourseData[0].DomainMasterBot2}
-              DomainMasterBot3={masterdegreeGermanyCourseData[0].DomainMasterBot3}
+              DomainMasterBot2={
+                masterdegreeGermanyCourseData[0].DomainMasterBot2
+              }
+              DomainMasterBot3={
+                masterdegreeGermanyCourseData[0].DomainMasterBot3
+              }
               masterdomain={true}
-              DomainMasterHead1={masterdegreeGermanyCourseData[0].DomainMasterHead1}
-              DomainMasterlist1={masterdegreeGermanyCourseData[0].DomainMasterlist1}
-              DomainMasterlist2={masterdegreeGermanyCourseData[0].DomainMasterlist2}
-              DomainMasterBot4={masterdegreeGermanyCourseData[0].DomainMasterBot4}
-              
+              DomainMasterHead1={
+                masterdegreeGermanyCourseData[0].DomainMasterHead1
+              }
+              DomainMasterlist1={
+                masterdegreeGermanyCourseData[0].DomainMasterlist1
+              }
+              DomainMasterlist2={
+                masterdegreeGermanyCourseData[0].DomainMasterlist2
+              }
+              DomainMasterBot4={
+                masterdegreeGermanyCourseData[0].DomainMasterBot4
+              }
               DomainList1={masterdegreeGermanyCourseData[0].DomainList1}
               DomainList2={masterdegreeGermanyCourseData[0].DomainList2}
               DomainList3={masterdegreeGermanyCourseData[0].DomainList3}
@@ -320,28 +331,62 @@ export default function Home() {
               Domainlink8={masterdegreeGermanyCourseData[0].Domainlink1}
               Domainlink9={masterdegreeGermanyCourseData[0].Domainlink1}
               Domainlink10={masterdegreeGermanyCourseData[0].Domainlink1}
-              CertificationBot1={masterdegreeGermanyCourseData[0].CertificationBot1}
-              CertificationMasterHead1={masterdegreeGermanyCourseData[0].CertificationMasterHead1}
-              CertificationMasterHead2={masterdegreeGermanyCourseData[0].CertificationMasterHead2}
-              CertificationBot2={masterdegreeGermanyCourseData[0].CertificationBot2}
-              CertificationBot3={masterdegreeGermanyCourseData[0].CertificationBot3}
-              CertificationBot4={masterdegreeGermanyCourseData[0].CertificationBot4}
+              CertificationBot1={
+                masterdegreeGermanyCourseData[0].CertificationBot1
+              }
+              CertificationMasterHead1={
+                masterdegreeGermanyCourseData[0].CertificationMasterHead1
+              }
+              CertificationMasterHead2={
+                masterdegreeGermanyCourseData[0].CertificationMasterHead2
+              }
+              CertificationBot2={
+                masterdegreeGermanyCourseData[0].CertificationBot2
+              }
+              CertificationBot3={
+                masterdegreeGermanyCourseData[0].CertificationBot3
+              }
+              CertificationBot4={
+                masterdegreeGermanyCourseData[0].CertificationBot4
+              }
               src={masterdegreeGermanyCourseData[0].src}
               src22={masterdegreeGermanyCourseData[0].src22}
               src33={masterdegreeGermanyCourseData[0].src33}
-              ModuleMasterBot1={masterdegreeGermanyCourseData[0].ModuleMasterBot1}
-              ModuleMasterBot2={masterdegreeGermanyCourseData[0].ModuleMasterBot2}
+              ModuleMasterBot1={
+                masterdegreeGermanyCourseData[0].ModuleMasterBot1
+              }
+              ModuleMasterBot2={
+                masterdegreeGermanyCourseData[0].ModuleMasterBot2
+              }
               ModuleHead1={masterdegreeGermanyCourseData[0].ModuleHead1}
-              ModuleMasterHead1={masterdegreeGermanyCourseData[0].ModuleMasterHead1}
-              ModuleMasterHead2={masterdegreeGermanyCourseData[0].ModuleMasterHead2}
-              MasterModulelist ={true}
-              ModuleMasterlist1={masterdegreeGermanyCourseData[0].ModuleMasterlist1}
-              ModuleMasterlist2={masterdegreeGermanyCourseData[0].ModuleMasterlist2}
-              ModuleMasterlist3={masterdegreeGermanyCourseData[0].ModuleMasterlist3}
-              ModuleMasterlist4={masterdegreeGermanyCourseData[0].ModuleMasterlist4}
-              ModuleMasterlist5={masterdegreeGermanyCourseData[0].ModuleMasterlist5}
-              ModuleMasterlist6={masterdegreeGermanyCourseData[0].ModuleMasterlist6}
-              ModuleMasterlist7={masterdegreeGermanyCourseData[0].ModuleMasterlist7}
+              ModuleMasterHead1={
+                masterdegreeGermanyCourseData[0].ModuleMasterHead1
+              }
+              ModuleMasterHead2={
+                masterdegreeGermanyCourseData[0].ModuleMasterHead2
+              }
+              MasterModulelist={true}
+              ModuleMasterlist1={
+                masterdegreeGermanyCourseData[0].ModuleMasterlist1
+              }
+              ModuleMasterlist2={
+                masterdegreeGermanyCourseData[0].ModuleMasterlist2
+              }
+              ModuleMasterlist3={
+                masterdegreeGermanyCourseData[0].ModuleMasterlist3
+              }
+              ModuleMasterlist4={
+                masterdegreeGermanyCourseData[0].ModuleMasterlist4
+              }
+              ModuleMasterlist5={
+                masterdegreeGermanyCourseData[0].ModuleMasterlist5
+              }
+              ModuleMasterlist6={
+                masterdegreeGermanyCourseData[0].ModuleMasterlist6
+              }
+              ModuleMasterlist7={
+                masterdegreeGermanyCourseData[0].ModuleMasterlist7
+              }
               Modulelist1={masterdegreeGermanyCourseData[0].Modulelist1}
               Modulelist2={masterdegreeGermanyCourseData[0].Modulelist2}
               Modulelist3={masterdegreeGermanyCourseData[0].Modulelist3}
@@ -351,39 +396,87 @@ export default function Home() {
               Modulelist7={masterdegreeGermanyCourseData[0].Modulelist7}
               syllabush1={masterdegreeGermanyCourseData[0].syllabush1}
               syllabusb1={masterdegreeGermanyCourseData[0].syllabusb1}
-              SyllabusBotlist11={masterdegreeGermanyCourseData[0].SyllabusBotlist11}
-              SyllabusBotlist12={masterdegreeGermanyCourseData[0].SyllabusBotlist12}
-              SyllabusBotlist13={masterdegreeGermanyCourseData[0].SyllabusBotlist13}
-              SyllabusBotlist14={masterdegreeGermanyCourseData[0].SyllabusBotlist14}
-              SyllabusBotlist15={masterdegreeGermanyCourseData[0].SyllabusBotlist15}
-              SyllabusBotlist16={masterdegreeGermanyCourseData[0].SyllabusBotlist16}
+              SyllabusBotlist11={
+                masterdegreeGermanyCourseData[0].SyllabusBotlist11
+              }
+              SyllabusBotlist12={
+                masterdegreeGermanyCourseData[0].SyllabusBotlist12
+              }
+              SyllabusBotlist13={
+                masterdegreeGermanyCourseData[0].SyllabusBotlist13
+              }
+              SyllabusBotlist14={
+                masterdegreeGermanyCourseData[0].SyllabusBotlist14
+              }
+              SyllabusBotlist15={
+                masterdegreeGermanyCourseData[0].SyllabusBotlist15
+              }
+              SyllabusBotlist16={
+                masterdegreeGermanyCourseData[0].SyllabusBotlist16
+              }
               syllabush2={masterdegreeGermanyCourseData[0].syllabush2}
               syllabusb2={masterdegreeGermanyCourseData[0].syllabusb2}
-              SyllabusBotlist21={masterdegreeGermanyCourseData[0].SyllabusBotlist21}
-              SyllabusBotlist22={masterdegreeGermanyCourseData[0].SyllabusBotlist22}
-              SyllabusBotlist23={masterdegreeGermanyCourseData[0].SyllabusBotlist23}
-              SyllabusBotlist24={masterdegreeGermanyCourseData[0].SyllabusBotlist24}
-              SyllabusBotlist25={masterdegreeGermanyCourseData[0].SyllabusBotlist25}
-              SyllabusBotlist26={masterdegreeGermanyCourseData[0].SyllabusBotlist26}
+              SyllabusBotlist21={
+                masterdegreeGermanyCourseData[0].SyllabusBotlist21
+              }
+              SyllabusBotlist22={
+                masterdegreeGermanyCourseData[0].SyllabusBotlist22
+              }
+              SyllabusBotlist23={
+                masterdegreeGermanyCourseData[0].SyllabusBotlist23
+              }
+              SyllabusBotlist24={
+                masterdegreeGermanyCourseData[0].SyllabusBotlist24
+              }
+              SyllabusBotlist25={
+                masterdegreeGermanyCourseData[0].SyllabusBotlist25
+              }
+              SyllabusBotlist26={
+                masterdegreeGermanyCourseData[0].SyllabusBotlist26
+              }
               syllabush3={masterdegreeGermanyCourseData[0].syllabush3}
               syllabusb3={masterdegreeGermanyCourseData[0].syllabusb3}
-              SyllabusBotlist31={masterdegreeGermanyCourseData[0].SyllabusBotlist31}
-              SyllabusBotlist32={masterdegreeGermanyCourseData[0].SyllabusBotlist32}
-              SyllabusBotlist33={masterdegreeGermanyCourseData[0].SyllabusBotlist33}
-              SyllabusBotlist34={masterdegreeGermanyCourseData[0].SyllabusBotlist34}
-              SyllabusBotlist35={masterdegreeGermanyCourseData[0].SyllabusBotlist35}
-              SyllabusBotlist36={masterdegreeGermanyCourseData[0].SyllabusBotlist36}
+              SyllabusBotlist31={
+                masterdegreeGermanyCourseData[0].SyllabusBotlist31
+              }
+              SyllabusBotlist32={
+                masterdegreeGermanyCourseData[0].SyllabusBotlist32
+              }
+              SyllabusBotlist33={
+                masterdegreeGermanyCourseData[0].SyllabusBotlist33
+              }
+              SyllabusBotlist34={
+                masterdegreeGermanyCourseData[0].SyllabusBotlist34
+              }
+              SyllabusBotlist35={
+                masterdegreeGermanyCourseData[0].SyllabusBotlist35
+              }
+              SyllabusBotlist36={
+                masterdegreeGermanyCourseData[0].SyllabusBotlist36
+              }
               syllabush4={masterdegreeGermanyCourseData[0].syllabush4}
               syllabusb4={masterdegreeGermanyCourseData[0].syllabusb4}
-              SyllabusBotlist41={masterdegreeGermanyCourseData[0].SyllabusBotlist41}
-              SyllabusBotlist42={masterdegreeGermanyCourseData[0].SyllabusBotlist42}
-              SyllabusBotlist43={masterdegreeGermanyCourseData[0].SyllabusBotlist43}
-              SyllabusBotlist44={masterdegreeGermanyCourseData[0].SyllabusBotlist44}
-              SyllabusBotlist45={masterdegreeGermanyCourseData[0].SyllabusBotlist45}
-              SyllabusBotlist46={masterdegreeGermanyCourseData[0].SyllabusBotlist46}
+              SyllabusBotlist41={
+                masterdegreeGermanyCourseData[0].SyllabusBotlist41
+              }
+              SyllabusBotlist42={
+                masterdegreeGermanyCourseData[0].SyllabusBotlist42
+              }
+              SyllabusBotlist43={
+                masterdegreeGermanyCourseData[0].SyllabusBotlist43
+              }
+              SyllabusBotlist44={
+                masterdegreeGermanyCourseData[0].SyllabusBotlist44
+              }
+              SyllabusBotlist45={
+                masterdegreeGermanyCourseData[0].SyllabusBotlist45
+              }
+              SyllabusBotlist46={
+                masterdegreeGermanyCourseData[0].SyllabusBotlist46
+              }
               syllabussrc={masterdegreeGermanyCourseData[0].syllabussrc}
               JobHead1={masterdegreeGermanyCourseData[0].JobHead1}
-              MasterJobBot1={masterdegreeGermanyCourseData[0]. MasterJobBot1}
+              MasterJobBot1={masterdegreeGermanyCourseData[0].MasterJobBot1}
               JobHead2={masterdegreeGermanyCourseData[0].JobHead2}
               JobBot3={masterdegreeGermanyCourseData[0].JobBot3}
               Joblist1={masterdegreeGermanyCourseData[0].Joblist1}
@@ -391,7 +484,9 @@ export default function Home() {
               Joblist3={masterdegreeGermanyCourseData[0].Joblist3}
               Joblist4={masterdegreeGermanyCourseData[0].Joblist4}
               MasterJobSpan1={masterdegreeGermanyCourseData[0].MasterJobSpan1}
-              JobBotMasterBot4={masterdegreeGermanyCourseData[0].JobBotMasterBot4}
+              JobBotMasterBot4={
+                masterdegreeGermanyCourseData[0].JobBotMasterBot4
+              }
               Joblist5={masterdegreeGermanyCourseData[0].Joblist5}
               Joblist6={masterdegreeGermanyCourseData[0].Joblist6}
               Joblist7={masterdegreeGermanyCourseData[0].Joblist7}
@@ -419,9 +514,13 @@ export default function Home() {
               Joblist53={masterdegreeGermanyCourseData[0].Joblist53}
               Joblist54={masterdegreeGermanyCourseData[0].Joblist54}
               JobBot23={masterdegreeGermanyCourseData[0].JobBot23}
-              JobBotMasterBot5={masterdegreeGermanyCourseData[0].JobBotMasterBot5}
-              JobBotMasterBot6={masterdegreeGermanyCourseData[0].JobBotMasterBot6}
-            //   Germanyonly={true}
+              JobBotMasterBot5={
+                masterdegreeGermanyCourseData[0].JobBotMasterBot5
+              }
+              JobBotMasterBot6={
+                masterdegreeGermanyCourseData[0].JobBotMasterBot6
+              }
+              //   Germanyonly={true}
               modulelist={true}
               joblist={true}
               showData={true}
@@ -483,7 +582,7 @@ export default function Home() {
           CityTextL={masterdegreeGermanyCourseData[0].CityTextL}
         />
         <Footer />
-        {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
+        {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>
     </div>
   );

@@ -445,7 +445,7 @@ export default function Home() {
         <Map BangaloreMap={true} />
         <CityText CityText={true} />
         <Footer />
-        {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
+        {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>
     </div>
   );

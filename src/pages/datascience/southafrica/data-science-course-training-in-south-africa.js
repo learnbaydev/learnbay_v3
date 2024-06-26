@@ -1,4 +1,5 @@
 import Navbar from "@/components/Global/Navbar/Navbar";
+import Realstory from "@/components/Home/Realstory/Realstory";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import { useEffect, useState } from "react";
@@ -7,7 +8,6 @@ import Footer from "../../../components/Global/Footer/Footer";
 import Form from "../../../components/Global/Form/Form";
 import Popup from "../../../components/Global/Popup/Popup";
 import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
-import Realstory from "@/components/Home/Realstory/Realstory";
 import styles from "../../../styles/Home.module.css";
 const FirstSection = dynamic(() =>
   import("../../../components/Seo/FirstSection/FirstSection")
@@ -76,7 +76,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Best Data Science Certification Course Online in South Africa</title>
+        <title>
+          Best Data Science Certification Course Online in South Africa
+        </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -385,7 +387,6 @@ export default function Home() {
               JobBot21={DSSouthAfricaCourseData[0].JobBot21}
               JobBot22={DSSouthAfricaCourseData[0].JobBot22}
               JobBot30={DSSouthAfricaCourseData[0].JobBot30}
-              
               Jobspan={DSSouthAfricaCourseData[0].Jobspan}
               modulelist={true}
               joblist={true}
@@ -450,7 +451,7 @@ export default function Home() {
           CityTextL={DSSouthAfricaCourseData[0].CityTextL}
         />
         <Footer />
-        {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
+        {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>
     </div>
   );

@@ -1,6 +1,6 @@
+import { parseJSONData } from "@/Util/JsonConvertor";
 import dynamic from "next/dynamic";
 import Head from "next/head";
-import { parseJSONData } from "@/Util/JsonConvertor";
 
 import ExecutiveFirstPart from "@/components/CoursePage/FirstPart/ExecutiveFirstPart";
 const ExecutiveSecondPart = dynamic(() =>
@@ -13,7 +13,9 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
   return (
     <>
       <Head>
-        <title>Executive program in Data Science and AI | IITG Certification</title>
+        <title>
+          Executive program in Data Science and AI | IITG Certification
+        </title>
         <meta
           name="description"
           content="Advance your career with Learnbay's Executive Program in Data Science and AI. Gain advanced skills and become IIT Guwahati certified Data Scientist."

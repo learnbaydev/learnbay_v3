@@ -48,7 +48,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   width: 320px;
-  font-size: 24px;
+  font-size: 22px;
 }
 .paraBot {
   color: #fff;
@@ -61,14 +61,14 @@
   align-items: center;
   text-align: center;
   position: absolute;
-  margin-top: -255px;
-  gap: 85px;
-  width: 305px;
+  margin-top: -270px;
+  gap: 70px;
+  width: 270px;
   margin-left: 35px;
 }
 .DivCont02 {
   position: absolute;
-  margin-top: 90px;
+  margin-top: 44px;
   margin-left: 25px;
 }
 .DivCont03 {
@@ -181,7 +181,7 @@ overflow-x: scroll;
     } */
     @media (max-width: 481px) {
       .imgWrap img {
-        height: 900px;
+        height: 1090px;
         
       }
     }
@@ -192,22 +192,32 @@ overflow-x: scroll;
 width: 100%;
 margin-top: 50px;
 padding-bottom: 20px;
+padding-top: 40px;
 
   }
   .container {
     display: flex;
     flex-direction: column;
-    margin: 10px 40px;
+    margin: 10px 40px 10px 20px;
     gap: 30px;
   }
   .mediaMainHeading {
-    display: none;
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0;
   }
   .greyText {
-    display: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 600;
   }
   .innerDiv2 img {
     display: none;
+  }
+
+  .DivCont02 {
+    margin-top: 65px;
+    margin-left: 25px;
   }
   .imgWrap img {
     width: 100%;
@@ -215,7 +225,7 @@ padding-bottom: 20px;
     position: absolute;
   }
   .innerDiv {
-    margin-top: 50px;
+    margin-top: 40px;
   }
   .DivCont01 {
     display: flex;
@@ -223,34 +233,35 @@ padding-bottom: 20px;
     align-items: center;
     text-align: center;
     position: absolute;
-    margin-top: -214px;
-    gap: 33px;
-    width: 274px;
-    margin-left: auto;
+    margin-top: -273px;
+    gap: 50px;
+    width: 275px;
+    margin-left: 25px;
   }
   .goldenH4 {
     width: 250px;
-    font-size: 18px;
+    font-size: 20px;
 
 
 
   }
   .paraBot {
-    font-size: 11px;
+    font-size: 14px;
+    font-weight: 600;
   }
   .iconContent {
-    width: 200px;
+    width: 270px;
     margin-top: 0;
   }
 
   .DivCont03 {
-    height: 250px;
+    height: 310px;
     position: absolute;
    
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 18px;
+    margin-left: 24px;
   }
   .downdiv{
     margin-top: -20px;
@@ -279,7 +290,7 @@ padding-bottom: 20px;
 height: fit-content;
   }
 .imgWrap img {
-  height: 850px;
+  height: 1070px;
 }
 
 
