@@ -26,7 +26,7 @@ box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.05);
 border-radius: 6px;
 }
 
-.quesh h2 {
+.quesh h3 {
   font-size: 16px;
   margin: 0;
   font-weight: 500;
@@ -35,7 +35,7 @@ border-radius: 6px;
   text-align: left;
 }
 
-.queshO h2 {
+.queshO h3 {
   font-size: 16px;
   margin: 0;
   font-weight: 500;

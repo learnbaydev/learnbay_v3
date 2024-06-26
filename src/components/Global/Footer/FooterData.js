@@ -767,7 +767,7 @@ export const CourseData = [
       {
         id: 5,
         url: "/datascience/business-analytics-certification-course",
-        name: "Business Analytics Master Certification Program",
+        name: "Business Analytics Master Certification Course",
       },
       {
         id: 6,

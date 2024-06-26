@@ -12,7 +12,7 @@ function Gethire({ data, showimg, shoimgtwo }) {
         <h4>{data.title1}</h4>
         <div>
           <div className={styles.box1img}>
-            <Image src={data.image1} width={350} height={100} loading="lazy" />
+            <Image src={data.image1} width={350} height={100} loading="lazy" alt="Domain Specialization in BFSI, HR, Sales/Marketing"/>
           </div>
           <div className={styles.points}>
             {data.points.map((point, index) => (

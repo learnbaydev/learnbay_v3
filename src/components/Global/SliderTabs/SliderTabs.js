@@ -129,7 +129,7 @@ const SliderTabs = ({
       }
     };
 
-    const activeClass = isActive ? styles.ActiveSpan : styles.span;
+    const activeClass = isActive ? styles.ActiveH4 : styles.H4;
 
     return (
       <div className={styles.panel} key={index}>
@@ -143,7 +143,7 @@ const SliderTabs = ({
               alt="Bulb"
               quality={40}
             />
-            <span>{service.title}</span>
+            <h4>{service.title}</h4>
           </div>
           <div>
             <IoIosArrowForward className={styles.rightIcon} />

@@ -60,15 +60,26 @@ function SyllabusNew({
                   <FaRegUser className={styles.iconUser} /> 7,568 people filled
                 </div>
               </div>
-              
+
               {MastersContent ? (
-                <h4>
-                  Interested in {isGuwahati ? (<> <span>Degree?</span></>):(<> <span>Master’s Degree?</span></>)}
-                </h4>
+                <p className={styles.p}>
+                  Interested in{" "}
+                  {isGuwahati ? (
+                    <>
+                      {" "}
+                      <span>Degree?</span>
+                    </>
+                  ) : (
+                    <>
+                      {" "}
+                      <span>Master’s Degree?</span>
+                    </>
+                  )}
+                </p>
               ) : (
-                <h4>
+                <p className={styles.p}>
                   Free Consultation with<span> Expert</span>
-                </h4>
+                </p>
               )}
               <Form
                 dataScienceCounselling={dataScienceCounselling}
