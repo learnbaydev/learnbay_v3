@@ -135,7 +135,7 @@ const SecondPart = ({
       <Footer />
       <BottomBar masterdegree={true} dataScienceCounselling={true} />
       <WhatsappFloat />
-      {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
+      {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
     </>
   );
 };

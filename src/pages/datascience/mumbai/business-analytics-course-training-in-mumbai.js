@@ -352,7 +352,7 @@ export default function Home() {
           CityTextL={BAMumbaiCourseData[0].CityTextL}
         />
         <Footer />
-        {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
+        {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>
     </div>
   );

@@ -411,7 +411,7 @@ export default function Home() {
       <Footer />
       <WhatsappFloat chat360code1={true} />
       <BottomBar dataScienceCounselling={true} radio={true} />
-      {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
+      {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
     </>
   );
 }

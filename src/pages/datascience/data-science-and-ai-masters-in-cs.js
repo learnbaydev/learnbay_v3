@@ -1,6 +1,6 @@
+import { parseJSONData } from "@/Util/JsonConvertor";
 import dynamic from "next/dynamic";
 import Head from "next/head";
-import { parseJSONData } from "@/Util/JsonConvertor";
 
 import FirstPart from "@/components/MastersCourse/PagePart/FirstPart";
 const SecondPart = dynamic(() =>

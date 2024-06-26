@@ -406,7 +406,7 @@ export default function Home() {
           CityTextL={BusinessAnalyticsChennaiCourseData[0].CityTextL}
         />
         <Footer />
-        {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
+        {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>
     </div>
   );
