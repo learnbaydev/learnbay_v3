@@ -54,7 +54,7 @@ const ComponentWithPopup = ({ Component, pageProps }) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       triggerPopup('Welcome to our website!');
-    }, 5000); // 5000 milliseconds = 5 seconds
+    }, 3000); // 5000 milliseconds = 5 seconds
 
     return () => clearTimeout(timer);
   }, []);

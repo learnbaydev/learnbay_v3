@@ -13,7 +13,7 @@ const Popup = ({ message, onClose }) => {
         onClick={(e) => e.stopPropagation()}
       >
         <span className={styles.close} onClick={onClose}>
-         x
+        &times;
         </span>
         <div className={styles.ImgDiv}>
           <Image

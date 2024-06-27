@@ -246,9 +246,9 @@ const FirstContent = ({
 
               {isGuwahati ? (
                 <>
-                  <div className={styles.btnImage}>
-                    <div onClick={popupShow}>
-                      <Button bannerButton={true} text="EXPLORE SYLLABUS" />
+                  <div className={styles.btnImage2 } >
+                    <div onClick={popupShow} >
+                      <Button   text="DOWNLOAD BROCHURE" />
                     </div>
                     {softwareBtnHide ? (
                       ""
@@ -397,9 +397,9 @@ const FirstContent = ({
               {isGuwahati ? (
                 <>
                   {" "}
-                  <div className={styles.btnImageMobile}>
+                  <div className={styles.btnImage2 }>
                     <div onClick={popupShow}>
-                      <Button bannerButton={true} text="EXPLORE PROGRAM" />
+                      <Button bannerButton={true} text="DOWNLOAD BROCHURE" />
                     </div>
                     {softwareBtnHide ? (
                       ""

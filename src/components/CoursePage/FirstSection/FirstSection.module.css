@@ -483,8 +483,15 @@ width: 100%;
   }
   .btnImageMobile button {
     padding: 10px 10px;
-    font-size: 18px;
+
   }
+  .btnImage2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin: 40px auto;
+  }
+
   .btnImageMobile {
     display: flex;
     justify-content: center;
@@ -493,8 +500,9 @@ width: 100%;
   .twodiv{
     /* display: block; */
     /* margin: 30px 130px 0px 11px; */
-    gap: 20px;
+    gap: 0;
     width: fit-content;
+margin: 50px 0 20px 0;
 
 }
 .divone{
