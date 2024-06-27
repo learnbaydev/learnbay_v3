@@ -40,7 +40,7 @@ export const courseDetails = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf",
             titleCourse: "Executive program in Data Science & AI",
             para: [
-              "12 months  |  4 Capstone Projects",
+              "11 months  |  4 Capstone Projects",
               "Certification form IIT Guwahati",
               "2 days Campus Immersion at IIT",
             ],
@@ -83,7 +83,7 @@ export const courseDetails = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
             titleCourse: "Advance Data Analytics Program Data Science & AI",
             para: [
-              "13 months | 4 capstone projects",
+              "6 months | 4 capstone projects",
               "Certification form IIT Guwahati",
               "Unlimited Interview Calls",
             ],
@@ -408,23 +408,24 @@ export const courseDetails = [
         id: "Domain Certification Courses",
         courseDetails: [
           {
-            id: 11,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/HR-Card.webp",
-            title: "HR Analytics",
-            title1: "Certification Program",
-            tagHead: "For HR Professionals",
+            id: 13,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Lead_card.webp",
+            title: "Data Science & AI",
+            title1: "For Managers & Leaders",
+            tagHead: "For Project Managers/Team Leads",
             tag: "Data science",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
-            titleCourse: "HR Analytics Certification Program",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+            titleCourse:
+              "Data Science & AI Certification Program For Managers and Leaders",
             para: [
-              "5 months | 2 capstone projects",
-              "Global Certification from IBM",
-              "Guaranteed Interview Calls",
+              "11 months | 3 capstone projects",
+              "Project Certification form IBM",
+              "3 Domain Electives",
             ],
-            link1: "/datascience/hr-analytics",
+            link1: "/datascience/data-science-ai-for-managers",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
           },
           {
             id: 10,
@@ -447,24 +448,23 @@ export const courseDetails = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
           },
           {
-            id: 13,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Lead_card.webp",
-            title: "Data Science & AI",
-            title1: "For Managers & Leaders",
-            tagHead: "For Project Managers/Team Leads",
+            id: 11,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/HR-Card.webp",
+            title: "HR Analytics",
+            title1: "Certification Program",
+            tagHead: "For HR Professionals",
             tag: "Data science",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
-            titleCourse:
-              "Data Science & AI Certification Program For Managers and Leaders",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
+            titleCourse: "HR Analytics Certification Program",
             para: [
-              "11 months | 3 capstone projects",
-              "Project Certification form IBM",
-              "3 Domain Electives",
+              "5 months | 2 capstone projects",
+              "Global Certification from IBM",
+              "Guaranteed Interview Calls",
             ],
-            link1: "/datascience/data-science-ai-for-managers",
+            link1: "/datascience/hr-analytics",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
           },
           {
             id: 12,
@@ -499,23 +499,24 @@ export const courseDetails = [
         id: "Domain Certification Courses",
         courseDetails: [
           {
-            id: 11,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/HR-Card.webp",
-            title: "HR Analytics",
-            title1: "Certification Program",
-            tagHead: "For HR Professionals",
+            id: 13,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Lead_card.webp",
+            title: "Data Science & AI",
+            title1: "For Managers & Leaders",
+            tagHead: "For Project Managers/Team Leads",
             tag: "Data science",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
-            titleCourse: "HR Analytics Certification Program",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+            titleCourse:
+              "Data Science & AI Certification Program For Managers and Leaders",
             para: [
-              "5 months | 2 capstone projects",
-              "Global Certification from IBM",
-              "Guaranteed Interview Calls",
+              "11 months | 3 capstone projects",
+              "Project Certification form IBM",
+              "3 Domain Electives",
             ],
-            link1: "/datascience/hr-analytics",
+            link1: "/datascience/data-science-ai-for-managers",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
           },
           {
             id: 10,
@@ -538,24 +539,23 @@ export const courseDetails = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
           },
           {
-            id: 13,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Lead_card.webp",
-            title: "Data Science & AI",
-            title1: "For Managers & Leaders",
-            tagHead: "For Project Managers/Team Leads",
+            id: 11,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/HR-Card.webp",
+            title: "HR Analytics",
+            title1: "Certification Program",
+            tagHead: "For HR Professionals",
             tag: "Data science",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
-            titleCourse:
-              "Data Science & AI Certification Program For Managers and Leaders",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
+            titleCourse: "HR Analytics Certification Program",
             para: [
-              "11 months | 3 capstone projects",
-              "Project Certification form IBM",
-              "3 Domain Electives",
+              "5 months | 2 capstone projects",
+              "Global Certification from IBM",
+              "Guaranteed Interview Calls",
             ],
-            link1: "/datascience/data-science-ai-for-managers",
+            link1: "/datascience/hr-analytics",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
           },
           {
             id: 12,
@@ -767,8 +767,8 @@ export const courseDetails = [
         ],
       },
       {
-        courseName: "",
-        id: "",
+        courseName: "Popular Courses",
+        id: "Popular Courses",
         courseDetails: [
           {
             id: 1,
@@ -803,7 +803,7 @@ export const courseDetails = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf",
             titleCourse: "Executive program in Data Science & AI",
             para: [
-              "12 months  |  4 Capstone Projects",
+              "11 months  |  4 Capstone Projects",
               "Certification form IIT Guwahati",
               "2 days Campus Immersion at IIT",
             ],
@@ -845,7 +845,7 @@ export const courseDetails = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
             titleCourse: "Advance Data Analytics Program Data Science & AI",
             para: [
-              "13 months | 4 capstone projects",
+              "6 months | 4 capstone projects",
               "Certification form IIT Guwahati",
               "Unlimited Interview Calls",
             ],
@@ -1217,8 +1217,8 @@ export const courseDetails = [
         ],
       },
       {
-        courseName: "",
-        id: "",
+        courseName: "Popular Courses",
+        id: "Popular Courses",
         courseDetails: [
           {
             id: 1,
@@ -1253,7 +1253,7 @@ export const courseDetails = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf",
             titleCourse: "Executive program in Data Science & AI",
             para: [
-              "12 months  |  4 Capstone Projects",
+              "11 months  |  4 Capstone Projects",
               "Certification form IIT Guwahati",
               "2 days Campus Immersion at IIT",
             ],
@@ -1296,7 +1296,7 @@ export const courseDetails = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
             titleCourse: "Advance Data Analytics Program Data Science & AI",
             para: [
-              "13 months | 4 capstone projects",
+              "6 months | 4 capstone projects",
               "Certification form IIT Guwahati",
               "Unlimited Interview Calls",
             ],
@@ -1528,8 +1528,8 @@ export const courseDetails = [
         ],
       },
       {
-        courseName: "",
-        id: "",
+        courseName: "Popular Courses",
+        id: "Popular Courses",
         courseDetails: [
           {
             id: 1,
@@ -1564,7 +1564,7 @@ export const courseDetails = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf",
             titleCourse: "Executive program in Data Science & AI",
             para: [
-              "12 months  |  4 Capstone Projects",
+              "11 months  |  4 Capstone Projects",
               "Certification form IIT Guwahati",
               "2 days Campus Immersion at IIT",
             ],
@@ -1607,7 +1607,7 @@ export const courseDetails = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
             titleCourse: "Advance Data Analytics Program Data Science & AI",
             para: [
-              "13 months | 4 capstone projects",
+              "6 months | 4 capstone projects",
               "Certification form IIT Guwahati",
               "Unlimited Interview Calls",
             ],
@@ -1878,8 +1878,8 @@ export const courseDetails = [
         ],
       },
       {
-        courseName: "",
-        id: "",
+        courseName: "Popular Courses",
+        id: "Popular Courses",
         courseDetails: [
           {
             id: 1,
@@ -1914,7 +1914,7 @@ export const courseDetails = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf",
             titleCourse: "Executive program in Data Science & AI",
             para: [
-              "12 months  |  4 Capstone Projects",
+              "11 months  |  4 Capstone Projects",
               "Certification form IIT Guwahati",
               "2 days Campus Immersion at IIT",
             ],
@@ -1957,7 +1957,7 @@ export const courseDetails = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
             titleCourse: "Advance Data Analytics Program Data Science & AI",
             para: [
-              "13 months | 4 capstone projects",
+              "6 months | 4 capstone projects",
               "Certification form IIT Guwahati",
               "Unlimited Interview Calls",
             ],
@@ -2013,7 +2013,7 @@ export const courseDetailsM = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf",
             titleCourse: "Executive program in Data Science & AI",
             para: [
-              "12 months  |  4 Capstone Projects",
+              "11 months  |  4 Capstone Projects",
               "Certification form IIT Guwahati",
               "2 days Campus Immersion at IIT",
             ],
@@ -2056,7 +2056,7 @@ export const courseDetailsM = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
             titleCourse: "Advance Data Analytics Program Data Science & AI",
             para: [
-              "13 months | 4 capstone projects",
+              "6 months | 4 capstone projects",
               "Certification form IIT Guwahati",
               "Unlimited Interview Calls",
             ],
@@ -2381,23 +2381,24 @@ export const courseDetailsM = [
         id: "Domain Certification Courses",
         courseDetails: [
           {
-            id: 11,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/HR-Card.webp",
-            title: "HR Analytics",
-            title1: "Certification Program",
-            tagHead: "For HR Professionals",
+            id: 13,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Lead_card.webp",
+            title: "Data Science & AI",
+            title1: "For Managers & Leaders",
+            tagHead: "For Project Managers/Team Leads",
             tag: "Data science",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
-            titleCourse: "HR Analytics Certification Program",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+            titleCourse:
+              "Data Science & AI Certification Program For Managers and Leaders",
             para: [
-              "5 months | 2 capstone projects",
-              "Global Certification from IBM",
-              "Guaranteed Interview Calls",
+              "11 months | 3 capstone projects",
+              "Project Certification form IBM",
+              "3 Domain Electives",
             ],
-            link1: "/datascience/hr-analytics",
+            link1: "/datascience/data-science-ai-for-managers",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
           },
           {
             id: 10,
@@ -2420,24 +2421,23 @@ export const courseDetailsM = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
           },
           {
-            id: 13,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Lead_card.webp",
-            title: "Data Science & AI",
-            title1: "For Managers & Leaders",
-            tagHead: "For Project Managers/Team Leads",
+            id: 11,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/HR-Card.webp",
+            title: "HR Analytics",
+            title1: "Certification Program",
+            tagHead: "For HR Professionals",
             tag: "Data science",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
-            titleCourse:
-              "Data Science & AI Certification Program For Managers and Leaders",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
+            titleCourse: "HR Analytics Certification Program",
             para: [
-              "11 months | 3 capstone projects",
-              "Project Certification form IBM",
-              "3 Domain Electives",
+              "5 months | 2 capstone projects",
+              "Global Certification from IBM",
+              "Guaranteed Interview Calls",
             ],
-            link1: "/datascience/data-science-ai-for-managers",
+            link1: "/datascience/hr-analytics",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
           },
           {
             id: 12,
@@ -2472,23 +2472,24 @@ export const courseDetailsM = [
         id: "Domain Certification Courses",
         courseDetails: [
           {
-            id: 11,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/HR-Card.webp",
-            title: "HR Analytics",
-            title1: "Certification Program",
-            tagHead: "For HR Professionals",
+            id: 13,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Lead_card.webp",
+            title: "Data Science & AI",
+            title1: "For Managers & Leaders",
+            tagHead: "For Project Managers/Team Leads",
             tag: "Data science",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
-            titleCourse: "HR Analytics Certification Program",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+            titleCourse:
+              "Data Science & AI Certification Program For Managers and Leaders",
             para: [
-              "5 months | 2 capstone projects",
-              "Global Certification from IBM",
-              "Guaranteed Interview Calls",
+              "11 months | 3 capstone projects",
+              "Project Certification form IBM",
+              "3 Domain Electives",
             ],
-            link1: "/datascience/hr-analytics",
+            link1: "/datascience/data-science-ai-for-managers",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
           },
           {
             id: 10,
@@ -2511,24 +2512,23 @@ export const courseDetailsM = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
           },
           {
-            id: 13,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Lead_card.webp",
-            title: "Data Science & AI",
-            title1: "For Managers & Leaders",
-            tagHead: "For Project Managers/Team Leads",
+            id: 11,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/HR-Card.webp",
+            title: "HR Analytics",
+            title1: "Certification Program",
+            tagHead: "For HR Professionals",
             tag: "Data science",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
-            titleCourse:
-              "Data Science & AI Certification Program For Managers and Leaders",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
+            titleCourse: "HR Analytics Certification Program",
             para: [
-              "11 months | 3 capstone projects",
-              "Project Certification form IBM",
-              "3 Domain Electives",
+              "5 months | 2 capstone projects",
+              "Global Certification from IBM",
+              "Guaranteed Interview Calls",
             ],
-            link1: "/datascience/data-science-ai-for-managers",
+            link1: "/datascience/hr-analytics",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
           },
           {
             id: 12,
@@ -2740,8 +2740,8 @@ export const courseDetailsM = [
         ],
       },
       {
-        courseName: "",
-        id: "",
+        courseName: "Popular Courses",
+        id: "Popular Courses",
         courseDetails: [
           {
             id: 1,
@@ -2776,7 +2776,7 @@ export const courseDetailsM = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf",
             titleCourse: "Executive program in Data Science & AI",
             para: [
-              "12 months  |  4 Capstone Projects",
+              "11 months  |  4 Capstone Projects",
               "Certification form IIT Guwahati",
               "2 days Campus Immersion at IIT",
             ],
@@ -2819,7 +2819,7 @@ export const courseDetailsM = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
             titleCourse: "Advance Data Analytics Program Data Science & AI",
             para: [
-              "13 months | 4 capstone projects",
+              "6 months | 4 capstone projects",
               "Certification form IIT Guwahati",
               "Unlimited Interview Calls",
             ],
@@ -3191,8 +3191,8 @@ export const courseDetailsM = [
         ],
       },
       {
-        courseName: "",
-        id: "",
+        courseName: "Popular Courses",
+        id: "Popular Courses",
         courseDetails: [
           {
             id: 1,
@@ -3227,7 +3227,7 @@ export const courseDetailsM = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf",
             titleCourse: "Executive program in Data Science & AI",
             para: [
-              "12 months  |  4 Capstone Projects",
+              "11 months  |  4 Capstone Projects",
               "Certification form IIT Guwahati",
               "2 days Campus Immersion at IIT",
             ],
@@ -3270,7 +3270,7 @@ export const courseDetailsM = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
             titleCourse: "Advance Data Analytics Program Data Science & AI",
             para: [
-              "13 months | 4 capstone projects",
+              "6 months | 4 capstone projects",
               "Certification form IIT Guwahati",
               "Unlimited Interview Calls",
             ],
@@ -3502,8 +3502,8 @@ export const courseDetailsM = [
         ],
       },
       {
-        courseName: "",
-        id: "",
+        courseName: "Popular Courses",
+        id: "Popular Courses",
         courseDetails: [
           {
             id: 1,
@@ -3538,7 +3538,7 @@ export const courseDetailsM = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf",
             titleCourse: "Executive program in Data Science & AI",
             para: [
-              "12 months  |  4 Capstone Projects",
+              "11 months  |  4 Capstone Projects",
               "Certification form IIT Guwahati",
               "2 days Campus Immersion at IIT",
             ],
@@ -3581,7 +3581,7 @@ export const courseDetailsM = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
             titleCourse: "Advance Data Analytics Program Data Science & AI",
             para: [
-              "13 months | 4 capstone projects",
+              "6 months | 4 capstone projects",
               "Certification form IIT Guwahati",
               "Unlimited Interview Calls",
             ],
@@ -3852,8 +3852,8 @@ export const courseDetailsM = [
         ],
       },
       {
-        courseName: "",
-        id: "",
+        courseName: "Popular Courses",
+        id: "Popular Courses",
         courseDetails: [
           {
             id: 1,
@@ -3888,7 +3888,7 @@ export const courseDetailsM = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf",
             titleCourse: "Executive program in Data Science & AI",
             para: [
-              "12 months  |  4 Capstone Projects",
+              "11 months  |  4 Capstone Projects",
               "Certification form IIT Guwahati",
               "2 days Campus Immersion at IIT",
             ],
@@ -3931,7 +3931,7 @@ export const courseDetailsM = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf",
             titleCourse: "Advance Data Analytics Program Data Science & AI",
             para: [
-              "13 months | 4 capstone projects",
+              "6 months | 4 capstone projects",
               "Certification form IIT Guwahati",
               "Unlimited Interview Calls",
             ],

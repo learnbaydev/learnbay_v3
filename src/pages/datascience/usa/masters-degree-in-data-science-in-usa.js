@@ -196,8 +196,6 @@ export default function Home() {
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
-
-      
       </Head>
       <main>
         {" "}
@@ -318,8 +316,12 @@ export default function Home() {
               Domainlink9={masterdegreeUSACourseData[0].Domainlink1}
               Domainlink10={masterdegreeUSACourseData[0].Domainlink1}
               CertificationBot1={masterdegreeUSACourseData[0].CertificationBot1}
-              CertificationMasterHead1={masterdegreeUSACourseData[0].CertificationMasterHead1}
-              CertificationMasterHead2={masterdegreeUSACourseData[0].CertificationMasterHead2}
+              CertificationMasterHead1={
+                masterdegreeUSACourseData[0].CertificationMasterHead1
+              }
+              CertificationMasterHead2={
+                masterdegreeUSACourseData[0].CertificationMasterHead2
+              }
               CertificationBot2={masterdegreeUSACourseData[0].CertificationBot2}
               CertificationBot3={masterdegreeUSACourseData[0].CertificationBot3}
               CertificationBot4={masterdegreeUSACourseData[0].CertificationBot4}
@@ -331,7 +333,7 @@ export default function Home() {
               ModuleHead1={masterdegreeUSACourseData[0].ModuleHead1}
               ModuleMasterHead1={masterdegreeUSACourseData[0].ModuleMasterHead1}
               ModuleMasterHead2={masterdegreeUSACourseData[0].ModuleMasterHead2}
-              MasterModulelist ={true}
+              MasterModulelist={true}
               ModuleMasterlist1={masterdegreeUSACourseData[0].ModuleMasterlist1}
               ModuleMasterlist2={masterdegreeUSACourseData[0].ModuleMasterlist2}
               ModuleMasterlist3={masterdegreeUSACourseData[0].ModuleMasterlist3}
@@ -380,7 +382,7 @@ export default function Home() {
               SyllabusBotlist46={masterdegreeUSACourseData[0].SyllabusBotlist46}
               syllabussrc={masterdegreeUSACourseData[0].syllabussrc}
               JobHead1={masterdegreeUSACourseData[0].JobHead1}
-              MasterJobBot1={masterdegreeUSACourseData[0]. MasterJobBot1}
+              MasterJobBot1={masterdegreeUSACourseData[0].MasterJobBot1}
               JobHead2={masterdegreeUSACourseData[0].JobHead2}
               JobBot3={masterdegreeUSACourseData[0].JobBot3}
               Joblist1={masterdegreeUSACourseData[0].Joblist1}
@@ -417,7 +419,7 @@ export default function Home() {
               Joblist54={masterdegreeUSACourseData[0].Joblist54}
               JobBot23={masterdegreeUSACourseData[0].JobBot23}
               JobBotMasterBot5={masterdegreeUSACourseData[0].JobBotMasterBot5}
-            //   usaonly={true}
+              //   usaonly={true}
               modulelist={true}
               joblist={true}
               showData={true}
@@ -479,7 +481,7 @@ export default function Home() {
           CityTextL={masterdegreeUSACourseData[0].CityTextL}
         />
         <Footer />
-        {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
+        {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>
     </div>
   );

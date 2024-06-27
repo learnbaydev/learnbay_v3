@@ -17,7 +17,6 @@ const MentorsSection = dynamic(() =>
   import("../../../components/Global/MentorsSection/MentorsSection")
 );
 
-
 const NewProjectSection = dynamic(() =>
   import("../../../components/Global/NewProjectSection/NewProjectSection")
 );
@@ -31,7 +30,6 @@ const Content = dynamic(() =>
 const MobileTestimonial = dynamic(() =>
   import("../../Home/MobileTestimonial/MobileTestimonial")
 );
-
 
 const SecondPart = ({
   masterSyllabusMobile,
@@ -83,22 +81,19 @@ const SecondPart = ({
   }, []);
   return (
     <div>
-    
       <ToolsCovered />
-    
-    
+
       <MentorsSection />
-     
+
       <MobileTestimonial />
-  
 
       <FAQNew FAQNewData={FAQNewData} />
-    
+
       <SeventhSection />
       <Footer />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />
       <WhatsappFloat />
-      {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
+      {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
     </div>
   );
 };

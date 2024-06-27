@@ -77,7 +77,10 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title> Master's Degree in Data Science and AI in Australia - Learnbay</title>
+        <title>
+          {" "}
+          Master's Degree in Data Science and AI in Australia - Learnbay
+        </title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -196,8 +199,6 @@ export default function Home() {
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
-
-      
       </Head>
       <main>
         {" "}
@@ -271,7 +272,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-             cityTextMasterAUS  ={true}
+              cityTextMasterAUS={true}
               ProgramBot1={masterdegreeAUSData[0].ProgramBot1}
               ProgramHead3={masterdegreeAUSData[0].ProgramHead3}
               ProgramBot3={masterdegreeAUSData[0].ProgramBot3}
@@ -319,12 +320,18 @@ export default function Home() {
               Domainlink9={masterdegreeAUSData[0].Domainlink1}
               Domainlink10={masterdegreeAUSData[0].Domainlink1}
               CertificationBot1={masterdegreeAUSData[0].CertificationBot1}
-              CertificationMasterHead1={masterdegreeAUSData[0].CertificationMasterHead1}
-              CertificationMasterHead2={masterdegreeAUSData[0].CertificationMasterHead2}
+              CertificationMasterHead1={
+                masterdegreeAUSData[0].CertificationMasterHead1
+              }
+              CertificationMasterHead2={
+                masterdegreeAUSData[0].CertificationMasterHead2
+              }
               CertificationBot2={masterdegreeAUSData[0].CertificationBot2}
               CertificationBot3={masterdegreeAUSData[0].CertificationBot3}
               CertificationBot4={masterdegreeAUSData[0].CertificationBot4}
-              CertificationmasterBot5={masterdegreeAUSData[0].CertificationmasterBot5}
+              CertificationmasterBot5={
+                masterdegreeAUSData[0].CertificationmasterBot5
+              }
               src={masterdegreeAUSData[0].src}
               src22={masterdegreeAUSData[0].src22}
               src33={masterdegreeAUSData[0].src33}
@@ -333,7 +340,7 @@ export default function Home() {
               ModuleHead1={masterdegreeAUSData[0].ModuleHead1}
               ModuleMasterHead1={masterdegreeAUSData[0].ModuleMasterHead1}
               ModuleMasterHead2={masterdegreeAUSData[0].ModuleMasterHead2}
-              MasterModulelist ={true}
+              MasterModulelist={true}
               ModuleMasterlist1={masterdegreeAUSData[0].ModuleMasterlist1}
               ModuleMasterlist2={masterdegreeAUSData[0].ModuleMasterlist2}
               ModuleMasterlist3={masterdegreeAUSData[0].ModuleMasterlist3}
@@ -382,7 +389,7 @@ export default function Home() {
               SyllabusBotlist46={masterdegreeAUSData[0].SyllabusBotlist46}
               syllabussrc={masterdegreeAUSData[0].syllabussrc}
               JobHead1={masterdegreeAUSData[0].JobHead1}
-              MasterJobBot1={masterdegreeAUSData[0]. MasterJobBot1}
+              MasterJobBot1={masterdegreeAUSData[0].MasterJobBot1}
               JobHead2={masterdegreeAUSData[0].JobHead2}
               JobBot3={masterdegreeAUSData[0].JobBot3}
               Joblist1={masterdegreeAUSData[0].Joblist1}
@@ -424,7 +431,7 @@ export default function Home() {
               JobBot23={masterdegreeAUSData[0].JobBot23}
               JobBotMasterBot5={masterdegreeAUSData[0].JobBotMasterBot5}
               JobBotMasterhead={masterdegreeAUSData[0].JobBotMasterhead}
-            //   usaotreliaonly={true}
+              //   usaotreliaonly={true}
               modulelist={true}
               joblist={true}
               showData={true}
@@ -486,7 +493,7 @@ export default function Home() {
           CityTextL={masterdegreeAUSData[0].CityTextL}
         />
         <Footer />
-        {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
+        {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>
     </div>
   );

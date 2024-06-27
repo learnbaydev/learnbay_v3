@@ -1,4 +1,5 @@
 import Navbar from "@/components/Global/Navbar/Navbar";
+import Realstory from "@/components/Home/Realstory/Realstory";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import { useEffect, useState } from "react";
@@ -7,7 +8,6 @@ import Footer from "../../../components/Global/Footer/Footer";
 import Form from "../../../components/Global/Form/Form";
 import Popup from "../../../components/Global/Popup/Popup";
 import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
-import Realstory from "@/components/Home/Realstory/Realstory";
 import styles from "../../../styles/Home.module.css";
 const FirstSection = dynamic(() =>
   import("../../../components/Seo/FirstSection/FirstSection")
@@ -194,9 +194,6 @@ export default function Home() {
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
-
-   
-     
       </Head>
       <main>
         {" "}
@@ -374,7 +371,7 @@ export default function Home() {
               JobBot19={DSVietnamCourseData[0].JobBot19}
               JobHead19={DSVietnamCourseData[0].JobHead19}
               JobHead20={DSVietnamCourseData[0].JobHead1}
-              JobBot20={DSVietnamCourseData[0]. JobBot20}
+              JobBot20={DSVietnamCourseData[0].JobBot20}
               JobBot34={DSVietnamCourseData[0].JobBot34}
               JobBot35={DSVietnamCourseData[0].JobBot35}
               Joblist14={DSVietnamCourseData[0].Joblist14}
@@ -459,7 +456,7 @@ export default function Home() {
           CityTextL={DSVietnamCourseData[0].CityTextL}
         />
         <Footer />
-        {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />}
+        {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>
     </div>
   );

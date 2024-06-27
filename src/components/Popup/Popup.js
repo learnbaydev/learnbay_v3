@@ -13,7 +13,7 @@ const Popup = ({ message, onClose }) => {
         onClick={(e) => e.stopPropagation()}
       >
         <span className={styles.close} onClick={onClose}>
-          close[x]
+         x
         </span>
         <div className={styles.ImgDiv}>
           <Image
@@ -40,10 +40,15 @@ const Popup = ({ message, onClose }) => {
               </div>
             </div>
             <h3>Get 30% Scholarship</h3>
-            <Link href="./submit-info" target="_blank"> 
+           
+          </div>
+
+           <div className={styles.btndiv}>
+           <Link href="../submit-info" target="_blank"> 
             <button className={styles.btn}>Apply For Scholarship Now!</button>
             </Link>
-          </div>
+           </div>
+          
         </div>
       </div>
     </div>

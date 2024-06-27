@@ -82,7 +82,7 @@ const ExecutiveSecondPart = ({
     <>
       <GetHire />
       <ContactCounsellor dataScienceCounselling={true} />
-      <LJourney/>
+      <LJourney />
       <SyllabusNew
         masterSyllabusMobile={masterSyllabusMobile}
         dataScienceCounselling={true}
