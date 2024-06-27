@@ -3,7 +3,10 @@ import "@/styles/Button.css";
 import Script from "next/script";
 import { useEffect } from "react";
 import TagManager from "react-gtm-module";
-import {  Raleway } from "next/font/google";
+import { Raleway } from "next/font/google";
+import { PopupProvider, usePopup } from "../context/PopupContext"; // Adjust the path as needed
+import Popup from "../components/Popup/Popup"; // Adjust the path as needed
+
 const raleway = Raleway({
   weight: ["300", "400", "500", "600", "700", "800"],
   style: ["normal", "italic"],
@@ -11,18 +14,17 @@ const raleway = Raleway({
   display: "swap",
 });
 
-
 export default function App({ Component, pageProps }) {
   useEffect(() => {
     const timer = setTimeout(() => {
       TagManager.initialize({ gtmId: "GTM-NN8XWH8" });
-    },
-     3000); 
+    }, 3000); 
 
     return () => clearTimeout(timer);
   }, []);
+
   return (
-    <>
+    <PopupProvider>
       <main className={raleway.className}>
         <Script
           strategy="lazyOnload"
@@ -30,7 +32,6 @@ export default function App({ Component, pageProps }) {
             console.error("Error", err);
           }}
           onLoad={() => {
-            // Function to perform after loading the script
             window.dataLayer = window.dataLayer || [];
             function gtag() {
               dataLayer.push(arguments);
@@ -41,8 +42,27 @@ export default function App({ Component, pageProps }) {
             });
           }}
         />
-        <Component {...pageProps} />
+        <ComponentWithPopup Component={Component} pageProps={pageProps} />
       </main>
-    </>
+    </PopupProvider>
   );
 }
+
+const ComponentWithPopup = ({ Component, pageProps }) => {
+  const { popup, triggerPopup, closePopup } = usePopup();
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      triggerPopup('Welcome to our website!');
+    }, 5000); // 5000 milliseconds = 5 seconds
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  return (
+    <>
+      {popup.show && <Popup message={popup.message} onClose={closePopup} />}
+      <Component {...pageProps} />
+    </>
+  );
+};
