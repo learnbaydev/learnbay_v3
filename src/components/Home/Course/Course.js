@@ -35,22 +35,29 @@ const Course = ({
     { title: "Cloud & DevOps", value: false },
   ]);
 
+  const [CourseMLoop, setCourseMLoop] = useState([
+    { title: "Popular Courses", value: true },
+    { title: "Data Science", value: false },
+    { title: "Cloud & DevOps", value: false },
+  ]);
+
   const menuChange = (title, index) => {
-    if (title === CourseLoop[index].title) {
-      setCourseLoop([...CourseLoop], (CourseLoop[index].value = true));
-      for (let i = 0; i < CourseLoop.length; i++) {
-        if (index === i) {
-          setCourseLoop([...CourseLoop], (CourseLoop[index].value = true));
-        } else {
-          setCourseLoop([...CourseLoop], (CourseLoop[i].value = false));
-        }
-      }
+    const loop = mobile ? CourseMLoop : CourseLoop;
+    const setLoop = mobile ? setCourseMLoop : setCourseLoop;
+    
+    if (title === loop[index].title) {
+      const updatedLoop = loop.map((item, idx) => ({
+        ...item,
+        value: idx === index
+      }));
+      setLoop(updatedLoop);
     }
   };
 
   const popupShow = () => {
     setPopups(true);
   };
+  
   const [titleCourse, setTitleCourse] = useState();
   const [brochureLinks, setBrochureLinks] = useState();
 
@@ -58,16 +65,15 @@ const Course = ({
     let width = window.innerWidth;
     if (width < 481) {
       setCourseArray(courseDetailsM);
-      console.log("inside", courseDetailsM);
     }
-  }, [courseArray]);
+  }, []);
+
   useEffect(() => {
     let width = window.innerWidth;
     if (width < 481) {
       setValue(1.4);
       setMobile(true);
       setCourseArray(courseDetailsM);
-      console.log("inside", courseDetailsM);
     }
     if (width < 600) {
       setValue(1.1);
@@ -88,6 +94,7 @@ const Course = ({
       setValue(3.1);
     }
   }, []);
+
   return (
     <div className={styles.Course} id="course">
       <Popup
@@ -117,11 +124,10 @@ const Course = ({
           />
         </div>
       </Popup>
-      {/* <h2>Our Courses</h2> */}
 
       <div className={styles.courses}>
         <div className={styles.listPanel}>
-          {courseArray.map((CourseData, index) => {
+          {(mobile ? CourseMLoop : CourseLoop).map((CourseData, index) => {
             return (
               <span
                 key={index}
@@ -129,7 +135,7 @@ const Course = ({
                   menuChange(CourseData.title, index);
                 }}
                 className={
-                  CourseLoop[index].value ? styles.ActiveSpan : styles.span
+                  (mobile ? CourseMLoop : CourseLoop)[index].value ? styles.ActiveSpan : styles.span
                 }
               >
                 {CourseData.title}
@@ -152,7 +158,7 @@ const Course = ({
         <div>
           {courseArray.map((courseDetail, index) => {
             const { courses } = courseDetail;
-            return CourseLoop[index].value ? (
+            return (mobile ? CourseMLoop : CourseLoop)[index].value ? (
               <div key={index}>
                 {courses.map((courseDetail, index) => {
                   return (
@@ -161,7 +167,6 @@ const Course = ({
                         <h5 className={styles.h5font}>
                           {courseDetail.courseName}
                         </h5>
-                        {/* <h5 className={styles.textView}>View All</h5> */}
                       </div>
                       <div className={styles.borderTop}></div>
                       <div className={styles.gridPanel}>
@@ -198,28 +203,25 @@ const Course = ({
                                 "Data Science and AI Master",
                                 "Master's Degree in CS:",
                                 "Executive program in",
-                                "Advance Data Analytics",
+                                "Cloud and DevOps",
                               ];
-                              const customOrangeBgStyle = specificCards.includes(
-                                title
-                              )
-                                ? {
-                                    background:
-                                      "linear-gradient(90deg, #04C988 0%, #0072BC 100%)",
-                                    color: "#fff",
-                                  } // Apply gradient background color
-                                : {};
-                              
+                              const customOrangeBgStyle =
+                                specificCards.includes(title)
+                                  ? {
+                                      background:
+                                        "linear-gradient(90deg, #04C988 0%, #0072BC 100%)",
+                                      color: "#fff",
+                                    }
+                                  : {};
+
                               // Apply custom text alignment style for specific cards
                               const customTitleStyle = specificCards.includes(
                                 title
                               )
                                 ? {
                                     textAlign: "start",
-                                    marginLeft:"20px",
-                                    marginTop:"30px",
-                             
-                                    
+                                    marginLeft: "20px",
+                                    marginTop: "30px",
                                   }
                                 : {};
 
@@ -266,7 +268,7 @@ const Course = ({
                                       </a>
                                     )}
 
-                                    <div className={styles.zIndex} >
+                                    <div className={styles.zIndex}>
                                       <div
                                         className={styles.headWrapper}
                                         style={customTitleStyle}
@@ -277,7 +279,6 @@ const Course = ({
                                               ? styles.mainHeadGreen
                                               : styles.mainHead
                                           }
-                                 
                                         >
                                           {title}
                                         </h6>
@@ -287,7 +288,6 @@ const Course = ({
                                               ? styles.mainHeadGreen
                                               : styles.mainHead
                                           }
-                      
                                         >
                                           {title1}
                                         </h6>

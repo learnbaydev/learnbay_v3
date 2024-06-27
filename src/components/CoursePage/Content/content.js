@@ -2390,8 +2390,7 @@ function DataAnalytics({
       {Banalytics ? (
         <div className={styles.content}>
           <h2>
-            Hone Your Career With The Cutting Edge Business Analytics Online
-            Course{" "}
+          Online Business Analyst Course Overview
           </h2>
           <p>
             Industries consist of innumerable amounts of data, and companies are
@@ -2403,9 +2402,7 @@ function DataAnalytics({
           </p>
           {read ? (
             <>
-              <h4 style={{ fontSize: "28px" }}>
-              Online Business Analyst Course Overview
-              </h4>
+            
               <h2 style={{ fontSize: "24px" }}>
                 <b>What is Business Analytics? Why Do We Need It? </b>
               </h2>
@@ -2576,7 +2573,7 @@ function DataAnalytics({
                 <ul>
                   <li>
                     <h4 style={{ fontSize: "20px" }}>
-                      • Industry Relevant Course Curriculum
+                      1. Industry Relevant Course Curriculum
                     </h4>
                     <p>
                       Learners will get to learn from the beginner to the most
@@ -2597,7 +2594,7 @@ function DataAnalytics({
                   </li>
                   <li>
                     <h3 style={{ fontSize: "24px" }}>
-                      • Hands-on Experience With Real-World Exposure
+                      2. Hands-on Experience With Real-World Exposure
                     </h3>
                     <p>
                       As a part of the training, Learnbay will encourage you to
@@ -2618,7 +2615,7 @@ function DataAnalytics({
                   </li>
                   <li>
                     <h3 style={{ fontSize: "24px" }}>
-                      • Globally Recognized Certifications{" "}
+                      3. Globally Recognized Certifications{" "}
                     </h3>
                     <p>
                       As it is a <b>certificate course in business analytics</b>
@@ -2631,7 +2628,7 @@ function DataAnalytics({
                   </li>
                   <li>
                     <h3 style={{ fontSize: "24px" }}>
-                      • Career-Focused Domain Electives
+                      4. Career-Focused Domain Electives
                     </h3>
                     <p>
                       Learning business analytics alongside gaining expertise in
@@ -2649,7 +2646,7 @@ function DataAnalytics({
                   </li>
                   <li>
                     <h3 style={{ fontSize: "24px" }}>
-                      • Personalized Career Services
+                      5. Personalized Career Services
                     </h3>
                     <p>
                       You can find different kinds of courses for business
@@ -2663,7 +2660,7 @@ function DataAnalytics({
                       <ul>
                         <li>
                           <h3 style={{ fontSize: "20px" }}>
-                            •Placement Support
+                          • Placement Support
                           </h3>
                           <p>
                             Learnbay offers comprehensive career services where
@@ -2683,7 +2680,7 @@ function DataAnalytics({
                         </li>
                         <li>
                           <h3 style={{ fontSize: "24px" }}>
-                            • Networking Opportunities
+                            6. Networking Opportunities
                           </h3>
                           <p>
                             Not only will you find the best-suited job role as

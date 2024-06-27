@@ -87,15 +87,15 @@ const Footer = ({
             </div>
           ) : (
             <div className={styles.FooterSocial}>
-              <Link href="https://twitter.com/Learnbay" target="_blank">
+              <Link href="https://twitter.com/Learnbay" target="_blank" >
                 <BsTwitterX className="bIcons" />
               </Link>
-              <Link href="https://www.facebook.com/learnbay/" target="_blank">
+              <Link href="https://www.facebook.com/learnbay/" target="_blank" rel="noreferrer">
                 <FaFacebookF className="bIcons" />
               </Link>
               <Link
                 href="https://www.linkedin.com/company/learnbay/"
-                target="_blank"
+                target="_blank "
               >
                 <FaLinkedinIn className="bIcons" />
               </Link>

@@ -1,0 +1,215 @@
+/* Add this to your CSS */
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.popupOverlay {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: flex-start; /* Align to the left */
+  align-items: flex-end; /* Align to the bottom */
+  z-index: 99999;
+}
+
+.popupContainer {
+  position: relative;
+  bottom: -50px;
+  animation: slideUp 0.5s ease-out; /* Apply the animation */
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 40px;
+  cursor: pointer;
+  font-size: 40px;
+  z-index: 9999;
+  color: #fff;
+}
+
+.close:hover {
+  color: #FE7A36;
+}
+
+.popupImage {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 999;
+}
+
+.popUpdown {
+  background: #ECECEC;
+  position: relative;
+  top: -45px;
+  width: 95%;
+  border-radius: 0;
+  padding-bottom: 20px;
+}
+
+.popupdivHead {
+  margin-left: 50px;
+  padding:20px 0px 0px 0px;
+}
+
+.popupdivHead h4 {
+  color: #5C5A5A;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 126.5%; /* 15.18px */
+}
+
+.iconDiv {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.iconMain {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.icons {
+  border-radius: 5px;
+  background: rgba(254, 122, 54, 0.20);
+  color: #FE7A36;
+  padding: 10px;
+  font-size: 40px;
+}
+
+.iconMain p {
+  margin: 0;
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 126.5%; /* 15.18px */
+}
+
+.popupdivHead h3 {
+  color: #FE7A36;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 126.5%;
+  margin: 15px 0;
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  border-radius: 10px;
+  border-right: 4px solid #094D79;
+  border-bottom: 4px solid #094D79;
+  background: #0072BC;
+  padding: 10px 40px;
+  font-size: 19px;
+  color: #fff;
+  cursor: pointer;
+  overflow: hidden;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+  background-color: #005f9e;
+  transform: scale(1.05);
+}
+
+.btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  transform: skewX(-30deg);
+  transition: 0.5s;
+}
+
+.btn:hover::before {
+  animation: smoke 1s forwards;
+}
+.btndiv{
+  align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+
+@keyframes smoke {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+/* Media Queries for Mobile View */
+@media (max-width: 768px) {
+  .popupContainer {
+    bottom: 0;
+    margin-left: 21px;
+    bottom: 200px;
+  }
+
+  .popupdivHead {
+    padding: 20px 0;
+  }
+
+  .popupdivHead h4 {
+    font-size: 18px;
+  }
+  .popUpdown {
+    border-radius: 16px;
+  }
+
+  .iconDiv {
+    gap: 10px;
+  }
+
+  .icons {
+    font-size: 30px;
+    padding: 5px;
+  }
+
+  .iconMain p {
+    font-size: 16px;
+  }
+
+  .popupdivHead h3 {
+    font-size: 22px;
+    margin: 20px 0;
+  }
+
+  .btn {
+    padding: 10px 30px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 400px) {
+  .popupContainer {
+
+    bottom: 70px;
+  }
+}

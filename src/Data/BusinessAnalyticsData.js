@@ -1,3 +1,5 @@
+
+import Link from "next/link";
 export const BADataScienceCourseData = [
   {
     secondSection: [
@@ -771,7 +773,7 @@ export const BADataScienceCourseData = [
             ques: "How many real-time projects will be there?",
             ans: "We have a set of 12 Real-time projects from multiple domains such as Healthcare, Banking, Finance, Insurance, Retail, and others. Based on your interest you can choose your project to work on.",
             linkText1: " Click here to download the list of the projects.",
-            link1:
+            Link:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
             link: true,
             open: false,
@@ -785,8 +787,23 @@ export const BADataScienceCourseData = [
           {
             id: 3,
             ques: "What is a capstone project, and how does it fit into the course?            ",
-            ans: `Capstone projects are curated for professional skill development and help learners get exposure to real-world business issues. Business Analytics Program includes fresh capstone projects from diverse domains. Capstone projects are group project work where learners will learn the use and application of business analytics tools to tackle a business problem.             `,
+            ans: `Capstone projects are curated for professional skill development and help learners get exposure to real-world business issues. Business Analytics Program includes fresh capstone projects from diverse domains. Capstone projects are group project work where learners will learn the use and application of business analytics tools to tackle a business problem. In addition, you may opt for a project innovation lab for business analytics courses in many cities across India, such as:             `,
+            linksone:
+           "https://www.learnbay.co/datascience/bangalore/business-analytics-course-training-in-bangalore",
+            linkone:"Business Analytics Project Innovation Lab Bangalore ",
+            linkstwo:"https://www.learnbay.co/datascience/pune/business-analytics-course-training-in-pune",
+            linktwo:"Business Analytics Project Innovation Lab Pune ",
+            linksthree:"https://www.learnbay.co/datascience/mumbai/business-analytics-course-training-in-mumbai",
+            linkthree:"Business Analytics Project Innovation Lab Mumbai ",
+            linksfour:"https://www.learnbay.co/datascience/chennai/business-analytics-course-training-in-chennai",
+            linkfour:"Business Analytics Project Innovation Lab Chennai ",
+            linksfive:"https://www.learnbay.co/datascience/hyderabad/business-analytics-course-training-in-hyderabad",
+            linkfive:"Business Analytics Project Innovation Lab Hyderabad",
+            linkssix:"https://www.learnbay.co/datascience/delhi/business-analytics-course-training-in-delhi",
+            linksix:"Business Analytics Project Innovation Lab Delhi",
+      
             open: false,
+            linksli:true,
           },
           {
             id: 4,

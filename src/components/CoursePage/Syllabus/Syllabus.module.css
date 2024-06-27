@@ -43,7 +43,7 @@
   font-size: 18px;
   color: #646464;
 }
-.syllabusLeft h4 {
+.syllabusLeft .p {
   font-size: 36px;
   font-weight: 800;
 }
@@ -314,7 +314,7 @@
   justify-content: right;
   font-size: 14px;
 }
-.formWrapper h4 {
+.formWrapper .p {
   color: #555;
   text-align: center;
   font-size: 20px;

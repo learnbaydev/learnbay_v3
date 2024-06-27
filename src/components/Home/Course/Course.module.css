@@ -1182,7 +1182,7 @@
     border: 0;
     width: 100%;
     width: max-content;
-    font-size: 10px;
+    font-size: 16px;
     font-weight: 700;
     cursor: pointer;
     justify-content: start;
@@ -1195,7 +1195,7 @@
   .ActiveSpan {
     padding: 5px 10px 5px 10px;
     width: max-content;
-    font-size: 10px;
+    font-size: 16px;
     font-weight: 700;
     cursor: pointer;
     line-height: normal;
