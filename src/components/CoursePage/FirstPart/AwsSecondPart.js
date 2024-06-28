@@ -143,7 +143,7 @@ const SecondPart = ({
         // interstedInHide={true}
       />
       <WhatsappFloat />
-      {adsHide ? (
+      {/* {adsHide ? (
         ""
       ) : (
         <>
@@ -153,7 +153,7 @@ const SecondPart = ({
             <OfferPopup popupData={popupData} devops={devops} />
           )}
         </>
-      )}
+      )} */}
     </div>
   );
 };
