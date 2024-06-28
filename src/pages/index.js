@@ -392,10 +392,10 @@ export default function Home() {
         radio={true}
         idss="ZPOTy4PEnNU"
       />
-      {/* <HomeLine /> */}
+
       <Course dataScience={true} radio={true} />
       <WhyLearnbay ids="YWxTtvb3x-U" />
-      {/* <ProjectSection ids="YWxTtvb3x-U" nolinkO={true} linkomb={true} /> */}
+
       <CareerHome dataScience={true} ThirdSectionData={ThirdSectionData} />
       <div className="realstory">
         <Realstory />

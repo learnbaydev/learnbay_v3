@@ -369,6 +369,7 @@ function DataAnalytics({
 
       {AIML ? (
         <div className={styles.content}>
+          
           <h2>
             Gain Expertise to Grow Beyond Technology with Artificial
             Intelligence Certification Program{" "}
@@ -2389,6 +2390,20 @@ function DataAnalytics({
       )}
       {Banalytics ? (
         <div className={styles.content}>
+        <div className={styles.btnread}>
+        <p
+            style={{
+              color: "#fff",
+              fontWeight: "600",
+              textDecoration: "underline",
+              cursor: "pointer",
+            }}
+            onClick={handler}
+            className={styles.readP}
+          >
+            {read ? "Read Less..." : "Read More..."}
+          </p>
+          </div>
           <h2>
           Online Business Analyst Course Overview
           </h2>
@@ -2756,7 +2771,7 @@ function DataAnalytics({
             onClick={handler}
             className={styles.readP}
           >
-            {read ? "Read Less..." : "Read More..."}
+            {read ? "Read Less..." : ""}
           </p>
         </div>
       ) : (

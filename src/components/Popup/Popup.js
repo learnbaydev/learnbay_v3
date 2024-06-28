@@ -2,7 +2,6 @@ import Link from "next/link";
 import styles from "./Popup.module.css";
 import Image from "next/image";
 import { BsRobot } from "react-icons/bs";
-import { FaRobot } from "react-icons/fa";
 import { IoCall } from "react-icons/io5";
 
 const Popup = ({ message, onClose }) => {
@@ -22,7 +21,7 @@ const Popup = ({ message, onClose }) => {
             height={500}
             alt="POPUP"
             className={styles.popupImage}
-            loading="lazy"
+           priority
           />
         </div>
         <div className={styles.popUpdown}>

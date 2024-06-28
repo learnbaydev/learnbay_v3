@@ -720,17 +720,17 @@ export const CourseData = [
     Courses: [
       {
         id: 7,
-        name: "Data Science and AI Master Certification Program",
+        name: "Data Science and AI Master Certification Course",
         url: "/datascience/data-science-and-ai-master-certification-program",
       },
       {
         id: 7,
-        name: "⁠Marketing Analytics Certification Program	",
+        name: "⁠Marketing Analytics Certification Course	",
         url: "/datascience/marketing-analytics",
       },
       {
         id: 7,
-        name: "HR Analytics Certification Program",
+        name: "HR Analytics Certification Course",
         url: "/datascience/hr-analytics",
       },
       {
@@ -740,7 +740,7 @@ export const CourseData = [
       },
       {
         id: 7,
-        name: "Data Science and AI Certification Program for Managers and Leaders",
+        name: "Data Science and AI Certification Course for Managers and Leaders",
         url: "/datascience/data-science-ai-for-managers",
       },
 
@@ -752,7 +752,7 @@ export const CourseData = [
       {
         id: 2,
         url: "/datascience/artificial-intelligence-certification-course",
-        name: "Advance AI and ML Certification Program",
+        name: "Advance AI and ML Certification Course",
       },
       {
         id: 3,
@@ -762,7 +762,7 @@ export const CourseData = [
       {
         id: 4,
         url: "/fullstack/full-stack-software-development-program",
-        name: "Software Development Certification Program",
+        name: "Software Development Certification Course",
       },
       {
         id: 5,
@@ -772,11 +772,11 @@ export const CourseData = [
       {
         id: 6,
         url: "/datascience/data-analytics-certification-course",
-        name: "Data Analytics Program",
+        name: "Data Analytics Course",
       },
       {
         id: 7,
-        name: "Advanced Cloud Computing & DevOps Certification Program",
+        name: "Advanced Cloud Computing & DevOps Certification Course",
         url: "/cloud&devops/cloud-computing-and-devOps-certification-program",
       },
       {
@@ -786,12 +786,12 @@ export const CourseData = [
       },
       {
         id: 9,
-        name: "Executive program in Data Science & AI",
+        name: "Executive Course in Data Science & AI",
         url: "/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati",
       },
       {
         id: 10,
-        name: "Advance Data Analytics Program",
+        name: "Advance Data Analytics Course",
         url: "/datascience/advance-data-analytics-program-iit-guwahati",
       },
     ],
@@ -810,7 +810,7 @@ export const GnCourseData = [
       {
         id: 2,
 
-        name: "Advance AI and ML Certification Program",
+        name: "Advance AI and ML Certification Course",
       },
       {
         id: 3,
@@ -820,21 +820,21 @@ export const GnCourseData = [
       {
         id: 4,
 
-        name: "Software Development Certification Program",
+        name: "Software Development Certification Course",
       },
       {
         id: 5,
 
-        name: "Business Analytics Program",
+        name: "Business Analytics Course",
       },
       {
         id: 6,
 
-        name: "Data Analytics Program",
+        name: "Data Analytics Course",
       },
       {
         id: 7,
-        name: "Advanced Cloud Computing & DevOps Certification Program",
+        name: "Advanced Cloud Computing & DevOps Certification Course",
       },
       {
         id: 7,

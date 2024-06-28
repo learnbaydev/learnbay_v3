@@ -1,7 +1,7 @@
 .container {
     background: aliceblue;
     padding: 50px 80px;
-    height: 305px;
+    height: fit-content;
     overflow: scroll;
     margin-top: 50px;
 }
@@ -34,6 +34,15 @@
 .container p {
     line-height: 30px;
     margin: 10px 0px;
+}
+
+.btnread{
+    display: flex;
+    background-color: #0072bc;
+    float: right;
+    padding: 0px 20px;
+    border-radius: 4px;
+    color: #fff;
 }
 
 @media (max-width: 650px) {
