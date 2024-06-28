@@ -44,7 +44,7 @@ const Popup = ({ message, onClose }) => {
           </div>
 
            <div className={styles.btndiv}>
-           <Link href="../submit-info" target="_blank"> 
+           <Link href="/submit-info"> 
             <button className={styles.btn}>Apply For Scholarship Now!</button>
             </Link>
            </div>
