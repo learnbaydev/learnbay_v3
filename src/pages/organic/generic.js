@@ -12,7 +12,6 @@ const SeventhSection = dynamic(() =>
   import("../../components/Global/SeventhSection/SeventhSection")
 );
 const Course = dynamic(() => import("../../components/Home/Course/Course"));
-import ContactUs from "../../components/Home/ContactUs/ContactUs";
 import BoxShape from "../../components/OrganicGeneric/BoxShape/BoxShape";
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import ProjectSection from "../../components/OrganicGeneric/ProjectSection/ProjectSection";

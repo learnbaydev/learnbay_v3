@@ -4,8 +4,9 @@ import Script from "next/script";
 import { useEffect } from "react";
 import TagManager from "react-gtm-module";
 import { Raleway } from "next/font/google";
-import { PopupProvider, usePopup } from "../context/PopupContext"; // Adjust the path as needed
-import Popup from "../components/Popup/Popup"; // Adjust the path as needed
+import { PopupProvider, usePopup } from "../context/PopupContext";
+import Popup from "../components/Popup/Popup";
+import { useRouter } from "next/router";
 
 const raleway = Raleway({
   weight: ["300", "400", "500", "600", "700", "800"],
@@ -14,11 +15,11 @@ const raleway = Raleway({
   display: "swap",
 });
 
-export default function App({ Component, pageProps }) {
+const App = ({ Component, pageProps }) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       TagManager.initialize({ gtmId: "GTM-NN8XWH8" });
-    }, 3000); 
+    }, 3000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -46,18 +47,21 @@ export default function App({ Component, pageProps }) {
       </main>
     </PopupProvider>
   );
-}
+};
 
 const ComponentWithPopup = ({ Component, pageProps }) => {
   const { popup, triggerPopup, closePopup } = usePopup();
+  const router = useRouter();
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      triggerPopup('Welcome to our website!');
-    }, 3000); // 5000 milliseconds = 5 seconds
+    if (router.pathname !== "/organic/generic") {
+      const timer = setTimeout(() => {
+        triggerPopup("");
+      }, 5000);
 
-    return () => clearTimeout(timer);
-  }, []);
+      return () => clearTimeout(timer);
+    }
+  }, [router.pathname]);
 
   return (
     <>
@@ -66,3 +70,5 @@ const ComponentWithPopup = ({ Component, pageProps }) => {
     </>
   );
 };
+
+export default App;

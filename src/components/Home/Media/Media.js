@@ -67,7 +67,7 @@ const Media = ({ projectData }) => {
         >
           {projectData.map((data, index) => (
             <SwiperSlide className={styles.project} key={index}>
-              <Link href={data.url} target="_blank" >
+              <Link href={data.url} target="_blank" rel="nofollow" >
               <div className={styles.header}>
                 <div className={styles.left}></div>
                 <div
