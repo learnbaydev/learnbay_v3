@@ -715,32 +715,123 @@ export const DAPuneCourseData = [
       },
     ],
 
-    ProgramHead1:
-      "What is the Data analytics training Program in Pune by Learnbay?",
-    ProgramBot1:
-      "Learnbay is one of the popular Data analytics training institutes in Pune. Here you can find a Fast-track Data analytics learning program to speed up your career growth along with the opportunities of strengthening job security.",
-    ProgramBot2:
-      "Learnbay's data analytics training in Pune helps every professional keep up with the continuously changing industry and analytical needs. Learnbay believes in learning with practical assignments than just theory.",
-    ProgramBot3:
-      "We have dedicated faculty working for students' career growth. Our faculties analyze students' profiles and offer projects as well as learning modules accordingly. By learning Data analytics at Learnbay, you just don't become a normal data analyst but also unlock your skills at being an expert in it. Learnbay gives students the freedom to clear their doubts in one-on-one sessions.",
-    ProgramHead4: "Why is it essential to learn Data analytic skills?",
-    ProgramBot4:
-      "Learning Data analytics skills will help you become a demanding Data analyst professional. Data analyst work is to predict future trends and results of a business. IBM Certified Data analyst training in Pune upskills students to improve business decision-making.",
-    CertificationHead1: "Learnbay Data analytics program certified by IBM",
+    ProgramHead1: (
+      <span>About Learnbay’s Data Analyst Course in Pune [In Alliance with IBM] </span>
+    ),
+    ProgramBot1: (
+      <span>
+        Learnbay, a renowned <b>data analytics training center in Pune,</b> sets the stage for global-level career transitions. It has become a trusted upskilling destination for tech/non-tech experts. If you’re willing to switch your career to data analytics, join our esteemed learning space. We offer the
+        <b> best data analyst course in Pune</b> with a GenAI-rich course curriculum. We aim to support real-time career shifts via our leading-edge data analytics courses. 
+      </span>
+    ),
+  
+
+    ProgramBot2: (
+      <span>
+        <b>Phase 1 - </b>Learning Phase
+        <br />
+        With Learnbay, you will get a live instructor-led training space to learn data analytics using GenAI-rich tools. We believe in empirical knowledge gain, covering trending data analytics concepts. Learners opting for our data analytics training in Pune get direct access to the learning management system. We offer a cutting-edge learning space for non-tech experts where they learn everything – from basic coding to advanced concepts.  Plus, we focus on domain-specific learning to help you furnish your pre-existing skill sets. Unlike a typical business analytics course in Pune, learners opting for data analytics will stay ahead of the career race due to domain-specific upskilling. 
+      </span>
+    ),
+  
+    ProgramBot3: (
+      <span>
+        <b>Phase 2 - </b> Assessments
+        <br />
+        Experts joining our data analytics course in Pune will undergo basic learning sessions, case studies, and other assessments. Here, you can learn and practice with front-age data analytics assessments to strengthen your skill sets. You will get an open learning scope via 12+ data analytics projects and tasks to tackle real-world issues. 
+      </span>
+    ),
+    ProgramBot4: (
+      <span>
+        <b>Phase 3 - </b>Live Projects <br />
+        Unlike common courses, experts joining our leading-edge data analytics courses gain project-based learning experience. Here, you will get abstract and practical data analytics learning to face competitive forces. You can choose any one of the 12+ real-time projects in prime domains like – BFSI, HR, Marketing, Healthcare, Supply Chain, and Manufacturing. It helps you see through real-world business issues and tackle them with proven mastery. 
+      </span>
+    ),
+    ProgramBot5: (
+      <span>
+        <b>Phase 4 - </b>IBM Certification
+        <br />
+        Data analytics learning doesn’t offer the required gains if you fail to validate your skills in the right platform. We present you with an open learning stage to build a solid skill set and represent yourself in front of ruling MNCs. Learnbay’s prime data analytics course in Pune offers globally valued certificates from IBM. Here, you will obtain one IBM course completion certificate and one IBM project certificate. These certificates expand your earning limits and help you ace proven roles.
+      </span>
+    ),
+    ProgramBot6: (
+      <span>
+        <b>Phase 5 - </b>Job & Placement Assistance<br />
+        Our data analyst course in Pune crafts an undeniable career path with alluring gains. Experts joining us will receive end-to-end career support services – from mock interviews to resume reviewing. Eligible learners with at least 70% in course tasks and projects can avail of our career support services. It increases your job selection rates with the leading MNCs in your domain.
+      </span>
+    ),
+    ProgramBot7: (
+      <span>
+        Whether you are willing to kick-start your career as a data analyst or upgrade your skill sets, join our data analytics in Pune. Learning from our completely designed course syllabus helps you face and tackle the real business world.
+      </span>
+    ),
+    ProgramBot8: (
+      <span>
+        Pune is one of the emerging business hubs that has favorable roles in data analytics. The city has become a prime stop for career upskilling for experts in diverse fields. Gradually, the city has become a prime learning center for experts eager to redefine their careers in data analytics. Owing to the rising data analytics trends, several sectors predict a rapid growth in the demand for skillful data analysts. A data analyst earns an average LPA of INR 682,000 in Pune. 
+      </span>
+    ),
+    ProgramBot9: (
+      <sapn>
+        <b></b> Experts eager to contemporize their stagnant careers in data analytics can opt for skill upgrades from top-tier institutes. Learnbay is a well-known and reputed training institute in Pune with a vision to accelerate career success prospects for busy working experts. Its solely curated data analytics training in Pune empowers emerging talents with proven skill sets. 
+      </sapn>
+    ),
+ 
+
+    // ProgramBot16: (
+    //   <span>
+    //     Apart from the data analytics courses, Learnbay also provides{" "}
+    //     <Link
+    //       href="https://www.learnbay.co/data-science-course-training-in-bangalore"
+    //       style={{ color: "#2D9CD7", fontWeight: "600" }}
+    //       target="_blank"
+    //     >
+    //       data science
+    //     </Link>
+    //     ,{" "}
+    //     <Link
+    //       href="https://www.learnbay.co/machine-learning-course-training-in-bangalore"
+    //       style={{ color: "#2D9CD7", fontWeight: "600" }}
+    //       target="_blank"
+    //     >
+    //       machine learning
+    //     </Link>
+    //     ,{" "}
+    //     <Link
+    //       href="https://www.learnbay.co/business-analytics-course-training-in-bangalore"
+    //       style={{ color: "#2D9CD7", fontWeight: "600" }}
+    //       target="_blank"
+    //     >
+    //       business analytics
+    //     </Link>
+    //     , and{" "}
+    //     <Link
+    //       href="https://www.learnbay.co/artificial-intelligence-ai-course-training-bangalore"
+    //       style={{ color: "#2D9CD7", fontWeight: "600" }}
+    //       target="_blank"
+    //     >
+    //       artificial intelligence courses in Bangalore
+    //     </Link>
+    //     . What are you waiting for? Grab your chance and register for the best{" "}
+    //     <b>Data Analytics Training in Bangalore</b> Now!
+    //   </span>
+    // ),
+    CertificationHead1: "IBM Data Analytics Certification in Bangalore",
     CertificationBot1:
-      "The LeaLearnbay Data analytics program certified by IBMrnbay Data analytics program is certified by IBM and is globally recognized. Our certificates and training help students to get top-class placement in the industry. The tag of  Data analytics IBM certificate in your online portfolio drags additional attention to renowned recruiters searching for a data analyst in Pune.",
+      "Data Analytics is an ever-evolving field that attracts freshers and experienced pros from diverse fields. Experts willing to revamp their static careers can enroll in an industry-driven data analyst course institute in Pune with proven gains. Unlike generic courses, joining a cutting-edge course with useful credentials ensures success. Learning without divulging skills can demean career growth chances and limit your success. Hence, certifications are useful.        ",
+    CertificationBot2:
+      "Certifications are vital in remodeling a stagnant career and validating learned skills. Employers from startups and MNCs prefer skilled data experts with proven knowledge to face the present world conditions. Experts eager to build an exciting career must enroll in data analyst classes in Pune with valuable credentials. It enriches the chances of getting selected by leading product/service-based MNCs.       ",
+    CertificationBot3:
+      "Learnbay’s data analytics certification in Pune unlocks the door to global-level career shifts with attractive gains. Here, you will receive two IBM certifications – coursework and projects with impactful career returns. These certificates are vital in enriching career values and helping you ace prime job roles with lucrative pay.        ",
+
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
-    ModuleHead1:
-      "What are the module features of Learnbay Data Analytics training in Pune?",
-    ModuleBot1: "Extra Programming and coding sessions",
+    ModuleBot1:
+      "Data analytics upskilling is crucial to stay competitive and thrive in today’s tech era. Data analysis is vital for businesses to enhance their yields and craft an exciting future. Yet, a lack of data-driven skills and analytics knowledge limits business growth. Hence, experts from diverse fields prefer upskilling regardless of data analyst course fees in Pune. Its in-depth learning modules guide you to develop abstract and practical skills with assured success.     ",
     ModuleBot2:
-      "Non-programmers lack coding language knowledge, but Learnbay clears this drawback as it provides special basic coding classes for such students. In the basic coding classes, Learnbay faculties teach you Basic Python and R programming. So, professionals from the non-technical domain can join this Data Analytics training even if they are in Marketing, finance, or even HR.",
-    ModuleBot3:
-      "The Learnbay Data analytics course involves more than 180 hrs of smooth live-interactive learning classes. At the end of every session, students can request a one-on-one session with our faculties if they have any specific quirks to be cleared or need special attention on any topic.",
-    ModuleBot4:
-      "Learnbay modules are designed for learners who want to be expert Data Analysts in 4.5-6 months. In these few months, Learnbay converts you into a Data analyst with skills in using data analytics tools like Data mining, probability, PCA analysis, Tableau, SQL, Power BI Hadoop, etc.",
+      "Learning is inevitable to sustain in today’s emerging career complexities. Constant skill upgrades can save you from getting replaced by the latest tech creations. Joining an industry-paced data analytics training in Pune can help you enrich your tech skills. Learning is the optimal way to sharpen pre-existing skills and ensure global-scale success with minimal effort.      ",
+    ModuleBot3:"Even busy working pros find upskilling from our institute helpful in effortless career shifts. Our learning modules with a prime data analyst course in Pune offer 360-degree knowledge-building in GenAI. Experts learn everything – from basic analytics concepts to advanced uses in real-world cases. Even non-tech experts learn coding and practical deployment of tools from scratch. If you’re worried about course modules and learning methods, consult our career experts and find the right way to upscale your future.     ",
+    
     syllabush1: "Preparatory Classes (Programming + Maths)",
     syllabusb1: "6 Hours",
     SyllabusBotlist11: "Cohort Orientation",
@@ -776,57 +867,82 @@ export const DAPuneCourseData = [
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
     JobHead1:
-      "How does Learnbay help students by assisting them in placement procedures?",
+      "What does the Data Analytics Job Assistance Program by Learnbay in Pune include?",
     JobBot1:
-      "Learnbay always works hard to provide the best for its students in the data analytics program. We conduct mock interviews before students attend any real data analytics interviews. This feature is a part of our data analytics training program. Learnbay faculties even help students create a good resume and technical and soft skill training. Learnbay has tremendous goodwill with other companies that have led us to offer better placement experiences to our students. Over 700+ Learnbay alumni are working in and with industry leaders like TCS, EY, MERCEDES, DELOITTE, JP MORGAN, and many more.",
-    JobHead2: "What kind of roles does one get as a Data analyst?",
-    JobBot3:
-      "After completing IBM Certified Data Analytics Course at Learnbay, one can apply for roles such as",
-    JobBot6:
-      "Financial Analyst, HR Analyst,Junior Data Analyst, Marketing Analyst, Data Analytics consultant, Quantitative Analyst, Operation Analyst, etc.",
-    ProjectsBot1:
-      "Learnbay offers premium cloud lab access that is accessible to students from any device. This is one of Learnbay’s outstanding features available for students. Learnbay assigns students 5 real-time projects. These projects are concerned with the industry requirements in Pune.",
-    src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
-    ProjectsH1: "Samsung Health Monitor App",
-    Projectsp1:
-      "Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app.",
-    src2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IBM.png",
-    ProjectsH2: "IBM HR Analytics",
-    Projectsp2:
-      "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities.",
-    src3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/amazon1.png",
-    ProjectsH3: "Amazon Customer Review Analysis",
-    Projectsp3:
-      "Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach.",
-    src4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BMW.png",
-    ProjectsH4: "BMW Used Car Price Optimization",
-    Projectsp4:
-      "BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects.",
-    AlumniBot1:
-      "More than 700 students have been placed in leading companies like JP MORGAN, EY, MERCEDES, AMAZON, etc. Our students not only got placed in Pune, but they easily got into companies PAN India. Few of our students shared their experiences of becoming successful data analysts.",
-    Asrc1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/devraj.jpg",
-    AlumniH1: "Deveraj",
-    Alumnip1:
-      "The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around.",
-    Asrc2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/shezan.png",
-    AlumniH2: "Shezan Baig",
-    Alumnip2:
-      "Learnbay is one of the most remarkable data science institutes I've come across. Compared to other institutes in India, it offers a data science course at a low cost. Excellent value for money. Finally, I achieved job satisfaction. I would strongly advise everyone to attend this institute.",
-    Asrc3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/viraj.png",
-    AlumniH3: "Viraj Ghodke",
-    Alumnip3:
-      "For me, learning using the Learnbay platform has been a great experience. The teaching and management team are very helpful. They are constantly willing to clarify each individual's doubts and meet the needs of working professionals. The practice interview sessions were simply like a clone of MNC interviews.",
-    Asrc4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/shubhangi.png",
-    AlumniH4: "Shubhangi J. Waghmare ",
-    Alumnip4:
-      "The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment.",
+      "Data analytics has become part and parcel of today’s business setting. Several startups and MNCs in Pune rely on data analytics and its factual support. Having fine data analytics skills is vital to succeed in the career race. Hence, opting for a data analyst course institute in Pune with 100% job support is useful. Unlike typical courses, learning from an institute with job support services is good. It helps to develop the required skills, refine your job search ways, and enrich your resume.       ",
+    JobBot2:
+      "Learnbay presents elite data analytics courses in Pune with placement assistance. Many working pros fail to find the right way to refine their skills and prepare for critical jobs. Hence, they must join mentors and training centers that offer in-depth career support services. Experts enrolling in our data analytics programs can avail of industry-driven career support services – from mock interviews to resume reviewing. Learners with at least 70% scores in course tasks and projects can avail of our ‘Career Service PRO’.       ",
+    JobHead2: "What prime technical skills will you develop via our data analysis courses in Pune? ",
+    JobBot3: " Data analytics learning has become crucial amidst the fierce career race in today’s job market. Many startups and MNCs deal with massive data sets to reach final decisions or make a business move. This enriches the demand for high-end quality data analysis. Hence, upskilling via the best data analyst course in Pune is critical for career growth.    ",
+    JobHead3:"Why are skilled data analysts in demand?     ",
+    JobBot4:"Learnbay envisions successful career shifts for working experts from diverse fields. Its best data analytics classes in Pune equip tech and non-tech pros with proven skills. Most non-tech experts gain proper technical skills to face critical job interviews and ace with 100% success. Hence, joining us will enhance your career prospects with alluring gains.      ",
+    JobBot5:"In other words, this large amount of data is called “Big data.” As it holds most of the business data, it contains invaluable insights and will be useful if interpreted correctly. Companies are eyeing skillful data analysts, as they can contribute to the business and gain a competitive edge in the market.     ",
+    JobBot6:"Despite the shakedowns in the global tech space, data analytics markets are in high demand and are experiencing project growth. The data analytics market is expected to rise to 184.5 billion by 2027 globally. Also, data analysts are expected to play an important role in sectors like manufacturing, retail, banking, supply chain, healthcare, and energy.     ",
 
-    CityTextB:
-      "Artificial Intelligence Course Certification Training locations in Pune ",
-    CityText:
-      " : Bajirao Road [411002], Yerwada [411006], Kasba Peth [411011], Dhanori [411015], Pune City [411022], Hadapsar S.O [411028], Airport [411032], Afmc [411040], Karve Road [410038], Ammunition Factory Khadki [411003], Aundh [411007], Dapodi [411012], Gokhalenagar [411016], Kudje [411023], Kothrud [411029], Mundhva [411036], Tingre Nagar [411000], A.R. Shala [411004], Baner Road [411004], Magarpatta City [411013], Botanical Garden [411020], Khadakwasla [411024], Lokmanyanagar [411030], Bibvewadi [411037], Bhavani Peth [411042], Dhayari [411041], Dhankawadi [411043], C D A O [411001], Shivajinagar [411005], Parvati [411009], 9 Drd [411014], Armament [411021], Donje [411025], Bopkhel [411031], Bhusari Colony [411038], Haveli [411045], Jambhulwadi [411046], Lohogaon [411047], Khondhwa [411048], Anandnagar [411051], Navsahyadri [411052], Chatursringi [411053], Gokhalenagar [411055], Warje [411058], Mohamadwadi Kadvasti [411060], Janaki Nagar [411066], Aundh [411067], Pimpri Chinchwad [411078], Nanded [411230], Gondhale Nagar [412029], Sathe Nagar [412047], Alandi Devachi [412105], Ambarvet [412115], Ashtapur [412207], Manjari Farm [412307], Phursungi [412308], Viman Nagar 411014, Shaniwar Peth [413337].",
-    CityTextLB: "Locations Offered",
-    CityTextL:
-      " :Artificial Intelligence Course viman nagar,Artificial Intelligence Training in kalyan nagar,Artificial Intelligence Training in magarpetta,Artificial Intelligence Training in pimpri chinchwad,Artificial Intelligence Classes in yerwada,Artificial Intelligence Classes in kharadi,Artificial Intelligence Classes in vishrantwadi,Artificial Intelligence Classes in deccan,Artificial Intelligence Course in Katraj,Artificial Intelligence Training in warje,,Artificial Intelligence Certification Training in bavdhan,Artificial Intelligence Certification in boat club road,Artificial Intelligence Certification in model colony,Best Artificial Intelligence Training in pune,Best Artificial Intelligence Course in pune",
-  },
+    JobBot7:"Data analysts in India are getting lucrative opportunities and the average salary of a data analyst starts at INR 6,50,000 per annum. On the other hand, an experienced or senior data analyst will grab an average package of INR 12,00,000 per annum. The salary of a data analyst relies on experience, skills, and recruiting company. Many companies have started to prioritize skills over experience, having skills will boost your career growth.     ",
+    JobHead4:"Is skills upgrade via our data analytics course in Pune crucial for career growth?    ",
+    JobBot8:"Career upskilling is vital to sustain yourself in today’s ever-evolving job market. The rise of data analytics alters the career outlook for many experts from diverse domains. Owing to the rising career trends, just a graduation degree and basic domain skills are not enough to sustain yourself and thrive. Hence, learning is crucial to refine pre-existing skills and attain career-driven clarity. ",
+    JobBotSpan1:"Entry-level Roles:     ",
+JobBot9:"Learnbay’s online data analytics training in Pune offers everything you need to excel in today’s time. Its GenAI-inclusive course modules guide non-tech pros to ace arising data-driven careers with 100% success. Experts can showcase the merit of their domains with real-time learning via live projects. Here, experts can choose any project based on their domain expertise and practice the proven tools. Unlike common courses, joining our best data analyst course in Pune is worth investing in. ",
+JobBot10: "Experts joining our data analytics course in Pune will go through varied stages of job and placement programs that enrich their chances of success. Plus, you will obtain IBM course and project certificates that validate your skill sets on a global level. Hence, joining Learnbay’s cutting-edge courses is crucial for your career growth. ",
+JobBot11: "If you’re willing to update your career in today’s digital age, enrolling in our data analyst institute in Pune is useful. It equips you with the potential to face career hurdles and land your dream jobs. If you’re a fresher or have 3–5 years of experience, upskilling from our cutting-edge courses confirms global-level success. With us, you can crack critical jobs with alluring salary packages at any career level. Hence, join us today and fulfill your dream of seizing top-tier career options.",
+
+ProjectsBot1:
+"The present digital space relies heavily on data-driven methods to do business. Several MNCs and startups in Pune prefer data-friendly functions to enrich their yields and mark global-scale success. Meanwhile, data analytics emerges as one of the thriving trends in Pune’s business landscape. Hence, upskilling becomes a one-stop solution for experts eager to redefine their careers in data analytics. ",
+ProjectsBot2:"Learnbay presents industry-focused data analyst training in Pune with promising career gains. Experts willing to learn and practice trending data analytics tools and gain hands-on experience can join our training programs. Here, experts will learn data analytics via any of the 12+ real-time projects in the chosen domain. ",
+ProjectsBot3:"Our real-time projects help experts refine their prior domain skills in the leading domains. Our best data analyst course in Pune covers major domains like – BFSI, HR, Marketing, Healthcare, Supply Chain, and Manufacturing. In addition, you will receive an IBM project certificate for completing assigned projects. ",
+src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
+ProjectsH1: "Samsung Health Monitor App",
+Projectsp1:
+"Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app.",
+src2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IBM.png",
+ProjectsH2: "IBM HR Analytics",
+Projectsp2:
+"IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other Data analytics abilities.",
+src3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/amazon1.png",
+ProjectsH3: "Amazon Customer Review Analysis",
+Projectsp3:
+"Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can participate in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach.",
+src4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BMW.png",
+ProjectsH4: "BMW Used Car Price Optimization",
+Projectsp4:
+"BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects.",
+AlumniBot1:
+"Learnbay has encouraged a lot of students to learn and grow as Data analysts. We have placed more than 700+ professionals to top MNCs and startups. Students get jobs just a few months after they complete their Data analyst course. Below are a few success stories of our students from Learnbay.",
+Asrc1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/devraj.jpg",
+AlumniH1: "Deveraj",
+Alumnip1:
+"The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around.",
+Asrc2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/shezan.png",
+AlumniH2: "Shezan Baig",
+Alumnip2:
+"Learnbay is one of the most remarkable data science institutes I've come across. Compared to other institutes in India, it offers a data science course at a low cost. Excellent value for money. Finally, I achieved job satisfaction. I would strongly advise everyone to attend this institute.",
+Asrc3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/viraj.png",
+AlumniH3: "Viraj Ghodke",
+Alumnip3:
+"For me, learning using the Learnbay platform has been a great experience. The teaching and management team are very helpful. They are constantly willing to clarify each individual's doubts and meet the needs of working professionals. The practice interview sessions were simply like a clone of MNC interviews.",
+Asrc4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/shubhangi.png",
+AlumniH4: "Shubhangi J. Waghmare ",
+Alumnip4:
+"The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment.",
+alt1: "data analytics course training in bangalore",
+alt2: "data analytics course training in bangalore",
+alt3: "data analytics course training in bangalore",
+alt4: "data analytics course training in bangalore",
+alt5: "data analytics course training in bangalore",
+alt6: "data analytics course training in bangalore",
+alt7: "data analytics course training in bangalore",
+alt8: "data analytics course training in bangalore",
+alt9: "data analytics course training in bangalore",
+CityTextB:
+"Data Analytics Course Certification Training locations in Pune ",
+CityText:
+" Bajirao Road [411002], Yerwada [411006], Kasba Peth [411011], Dhanori [411015], Pune City [411022], Hadapsar S.O [411028], Airport [411032], Afmc [411040], Karve Road [410038], Ammunition Factory Khadki [411003], Aundh [411007], Dapodi [411012], Gokhalenagar [411016], Kudje [411023], Kothrud [411029], Mundhva [411036], Tingre Nagar [411000], A.R. Shala [411004], Baner Road [411004], Magarpatta City [411013], Botanical Garden [411020], Khadakwasla [411024], Lokmanyanagar [411030], Bibvewadi [411037], Bhavani Peth [411042], Dhayari [411041], Dhankawadi [411043], C D A O [411001], Shivajinagar [411005], Parvati [411009], 9 Drd [411014], Armament [411021], Donje [411025], Bopkhel [411031], Bhusari Colony [411038], Haveli [411045], Jambhulwadi [411046], Lohogaon [411047], Khondhwa [411048], Anandnagar [411051], Navsahyadri [411052], Chatursringi [411053], Gokhalenagar [411055], Warje [411058], Mohamadwadi Kadvasti [411060], Janaki Nagar [411066], Aundh [411067], Pimpri Chinchwad [411078], Nanded [411230], Gondhale Nagar [412029], Sathe Nagar [412047], Alandi Devachi [412105], Ambarvet [412115], Ashtapur [412207], Manjari Farm [412307], Phursungi [412308], Viman Nagar 411014, Shaniwar Peth [413337]s.",
+
+CityTextLB: "Locations Offered",
+CityTextL:
+" Artificial Intelligence Course viman nagar,Artificial Intelligence Training in kalyan nagar,Artificial Intelligence Training in magarpetta,Artificial Intelligence Training in pimpri chinchwad,Artificial Intelligence Classes in yerwada,Artificial Intelligence Classes in kharadi,Artificial Intelligence Classes in vishrantwadi,Artificial Intelligence Classes in deccan,Artificial Intelligence Course in Katraj,Artificial Intelligence Training in warje,,Artificial Intelligence Certification Training in bavdhan,Artificial Intelligence Certification in boat club road,Artificial Intelligence Certification in model colony,Best Artificial Intelligence Training in pune,Best Artificial Intelligence Course in pune",
+
+
+},
 ];

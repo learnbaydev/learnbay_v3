@@ -166,7 +166,7 @@ export default function Home() {
           firstToparaImg="For Professionals"
           firstHeading="Data Analytics Course Training in Pune"
           firstTopPara="Industrial Training Program for Early-professionals"
-          cityParaCont="Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
+          cityParaCont="Gain inarguable eminence to sustain in today’s digital world via Learnbay’s data analytics course in Pune. Join our practical, accessible, and Generative AI-rich courses to build a globally recognized career. Our industry alliance with IBM (course & project certifications) and 450+ MNCs ensures an invincible career path.           "
         />
         <SecondSection SecondSectionData={DAPuneCourseData[0].secondSection} />
         <Testimonial
@@ -213,19 +213,34 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
+            cityTextDAPune={true}
+            cityTextJDAPune={true}
               ProgramHead1={DAPuneCourseData[0].ProgramHead1}
+ 
               ProgramBot1={DAPuneCourseData[0].ProgramBot1}
               ProgramBot2={DAPuneCourseData[0].ProgramBot2}
               ProgramBot3={DAPuneCourseData[0].ProgramBot3}
+              ProgramBot4={DAPuneCourseData[0].ProgramBot4}
+              ProgramBot5={DAPuneCourseData[0].ProgramBot5}
+              ProgramBot6={DAPuneCourseData[0].ProgramBot6}
+              ProgramBot7={DAPuneCourseData[0].ProgramBot7}
+              ProgramBot8={DAPuneCourseData[0].ProgramBot8}
+              ProgramBot9={DAPuneCourseData[0].ProgramBot9}
+              ProgramBot32={DAPuneCourseData[0].ProgramBot32}
+              ProgramBot10={DAPuneCourseData[0].ProgramBot10}
+              ProgramBot11={DAPuneCourseData[0].ProgramBot11}
+              ProgramBot12={DAPuneCourseData[0].ProgramBot12}
               ProgramHead3={DAPuneCourseData[0].ProgramHead3}
               ProgramBot31={DAPuneCourseData[0].ProgramBot31}
               ProgramHead4={DAPuneCourseData[0].ProgramHead4}
               ProgramHead5={DAPuneCourseData[0].ProgramHead5}
-              ProgramBot4={DAPuneCourseData[0].ProgramBot4}
+            
+        
               CertificationHead1={DAPuneCourseData[0].CertificationHead1}
-              ProgramBot5={DAPuneCourseData[0].ProgramBot5}
+              CertificationBot3={DAPuneCourseData[0].CertificationBot3}
+
               ProgramHead6={DAPuneCourseData[0].ProgramHead6}
-              ProgramBot6={DAPuneCourseData[0].ProgramBot6}
+          
               Courselink1={DAPuneCourseData[0].Courselink1}
               Courselink2={DAPuneCourseData[0].Courselink2}
               Courselink3={DAPuneCourseData[0].Courselink3}
@@ -305,12 +320,22 @@ export default function Home() {
               JobHead1={DAPuneCourseData[0].JobHead1}
               JobBot1={DAPuneCourseData[0].JobBot1}
               JobBot2={DAPuneCourseData[0].JobBot2}
+              JobBot4={DAPuneCourseData[0].JobBot4}
               JobBot5={DAPuneCourseData[0].JobBot5}
+              JobBot7={DAPuneCourseData[0].JobBot7}
               JobHead2={DAPuneCourseData[0].JobHead2}
+              JobHead3={DAPuneCourseData[0].JobHead3}
+              JobHead5={DAPuneCourseData[0].JobHead5}
+              JobHead4={DAPuneCourseData[0].JobHead4}
               JobBot3={DAPuneCourseData[0].JobBot3}
               JobBot6={DAPuneCourseData[0].JobBot6}
+              JobBot8={DAPuneCourseData[0].JobBot8}
+              JobBot9={DAPuneCourseData[0].JobBot9}
+              JobBot10={DAPuneCourseData[0].JobBot10}
+              JobBot11={DAPuneCourseData[0].JobBot11}
               ProjectsBot1={DAPuneCourseData[0].ProjectsBot1}
               ProjectsBot2={DAPuneCourseData[0].ProjectsBot2}
+              ProjectsBot3={DAPuneCourseData[0].ProjectsBot3}
               src1={DAPuneCourseData[0].src1}
               ProjectsH1={DAPuneCourseData[0].ProjectsH1}
               Projectsp1={DAPuneCourseData[0].Projectsp1}

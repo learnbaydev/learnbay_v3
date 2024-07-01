@@ -163,7 +163,7 @@ export default function Home() {
           firstToparaImg="Course in Bangalore"
           firstHeading="Online Data Analytics"
           firstTopPara="IBM Certified Industry-paced Training"
-          cityParaCont="Enhance your Data Analyst career with our comprehensive Data Analytics course in Bangalore with IBM Certification. Our advanced Data Analytics training in Bangalore will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters to gain the most in-demand data analytics and AI skills."
+          cityParaCont="Escalate career success metrics in today’s digital era via an industry-paced training program in Bangalore. Learnbay’s data analytics course in Bangalore will provide you with valuable and timeless data skills. Our data analytics institute in Bangalore offers a program ideal for non-tech professionals. Plus, our alliance with IBM & Microsoft is here to equip you with exciting career gains.           "
         />
         <SecondSection
           SecondSectionData={DABangaloreCourseData[0].secondSection}
@@ -212,24 +212,28 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
+            cityTextJDAPune={true}
+              ProgramHead1={DABangaloreCourseData[0].ProgramHead1}
               ProgramBot1={DABangaloreCourseData[0].ProgramBot1}
-              ProgramHead3={DABangaloreCourseData[0].ProgramHead3}
+              ProgramBot2={DABangaloreCourseData[0].ProgramBot2}
               ProgramBot3={DABangaloreCourseData[0].ProgramBot3}
-              ProgramBot31={DABangaloreCourseData[0].ProgramBot31}
-              ProgramBot32={DABangaloreCourseData[0].ProgramBot32}
               ProgramBot4={DABangaloreCourseData[0].ProgramBot4}
               ProgramBot5={DABangaloreCourseData[0].ProgramBot5}
               ProgramBot6={DABangaloreCourseData[0].ProgramBot6}
               ProgramBot7={DABangaloreCourseData[0].ProgramBot7}
               ProgramBot8={DABangaloreCourseData[0].ProgramBot8}
               ProgramBot9={DABangaloreCourseData[0].ProgramBot9}
+              ProgramBot32={DABangaloreCourseData[0].ProgramBot32}
               ProgramBot10={DABangaloreCourseData[0].ProgramBot10}
               ProgramBot11={DABangaloreCourseData[0].ProgramBot11}
               ProgramBot12={DABangaloreCourseData[0].ProgramBot12}
-              ProgramBot13={DABangaloreCourseData[0].ProgramBot13}
-              ProgramBot14={DABangaloreCourseData[0].ProgramBot14}
-              ProgramBot15={DABangaloreCourseData[0].ProgramBot15}
-              ProgramBot16={DABangaloreCourseData[0].ProgramBot16}
+              ProgramHead3={DABangaloreCourseData[0].ProgramHead3}
+              ProgramBot31={DABangaloreCourseData[0].ProgramBot31}
+              ProgramHead4={DABangaloreCourseData[0].ProgramHead4}
+              ProgramHead5={DABangaloreCourseData[0].ProgramHead5}
+              CertificationHead1={DABangaloreCourseData[0].CertificationHead1}
+              CertificationBot3={DABangaloreCourseData[0].CertificationBot3}
+              ProgramHead6={DABangaloreCourseData[0].ProgramHead6}
               Courselink1={DABangaloreCourseData[0].Courselink1}
               Courselink2={DABangaloreCourseData[0].Courselink2}
               Courselink3={DABangaloreCourseData[0].Courselink3}
@@ -268,8 +272,11 @@ export default function Home() {
               CertificationBot2={DABangaloreCourseData[0].CertificationBot2}
               src={DABangaloreCourseData[0].src}
               src22={DABangaloreCourseData[0].src22}
+              ModuleHead1={DABangaloreCourseData[0].ModuleHead1}
               ModuleBot1={DABangaloreCourseData[0].ModuleBot1}
               ModuleBot2={DABangaloreCourseData[0].ModuleBot2}
+              ModuleBot3={DABangaloreCourseData[0].ModuleBot3}
+              ModuleBot4={DABangaloreCourseData[0].ModuleBot4}
               syllabush1={DABangaloreCourseData[0].syllabush1}
               syllabusb1={DABangaloreCourseData[0].syllabusb1}
               SyllabusBotlist11={DABangaloreCourseData[0].SyllabusBotlist11}
@@ -303,11 +310,25 @@ export default function Home() {
               SyllabusBotlist45={DABangaloreCourseData[0].SyllabusBotlist45}
               SyllabusBotlist46={DABangaloreCourseData[0].SyllabusBotlist46}
               syllabussrc={DABangaloreCourseData[0].syllabussrc}
+              JobHead1={DABangaloreCourseData[0].JobHead1}
               JobBot1={DABangaloreCourseData[0].JobBot1}
-              JobHead2={DABangaloreCourseData[0].JobHead2}
-              JobBot3={DABangaloreCourseData[0].JobBot3}
+              JobBot2={DABangaloreCourseData[0].JobBot2}
               JobBot4={DABangaloreCourseData[0].JobBot4}
-              ProjectsBot1={DABangaloreCourseData[0].ProgramBot1}
+              JobBot5={DABangaloreCourseData[0].JobBot5}
+              JobBot7={DABangaloreCourseData[0].JobBot7}
+              JobHead2={DABangaloreCourseData[0].JobHead2}
+              JobHead3={DABangaloreCourseData[0].JobHead3}
+              JobHead5={DABangaloreCourseData[0].JobHead5}
+              JobHead4={DABangaloreCourseData[0].JobHead4}
+              JobBot3={DABangaloreCourseData[0].JobBot3}
+              JobBot6={DABangaloreCourseData[0].JobBot6}
+              JobBot8={DABangaloreCourseData[0].JobBot8}
+              JobBot9={DABangaloreCourseData[0].JobBot9}
+              JobBot10={DABangaloreCourseData[0].JobBot10}
+              JobBot11={DABangaloreCourseData[0].JobBot11}
+              ProjectsBot1={DABangaloreCourseData[0].ProjectsBot1}
+              ProjectsBot2={DABangaloreCourseData[0].ProjectsBot2}
+              ProjectsBot3={DABangaloreCourseData[0].ProjectsBot3}
               src1={DABangaloreCourseData[0].src1}
               ProjectsH1={DABangaloreCourseData[0].ProjectsH1}
               Projectsp1={DABangaloreCourseData[0].Projectsp1}
@@ -333,15 +354,6 @@ export default function Home() {
               Asrc4={DABangaloreCourseData[0].Asrc4}
               AlumniH4={DABangaloreCourseData[0].AlumniH4}
               Alumnip4={DABangaloreCourseData[0].Alumnip4}
-              alt1={DABangaloreCourseData[0].alt1}
-              alt2={DABangaloreCourseData[0].alt2}
-              alt3={DABangaloreCourseData[0].alt3}
-              alt4={DABangaloreCourseData[0].alt4}
-              alt5={DABangaloreCourseData[0].alt5}
-              alt6={DABangaloreCourseData[0].alt6}
-              alt7={DABangaloreCourseData[0].alt7}
-              alt8={DABangaloreCourseData[0].alt8}
-              alt9={DABangaloreCourseData[0].alt9}
             />
             <div className={styles.faqCity}>
               <FAQNew FAQNewData={DABangaloreCourseData[0].faq} />
