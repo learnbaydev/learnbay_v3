@@ -52,6 +52,7 @@ function FAQ({ FaqData }) {
           list8,
           dscoursefaq,
           dscoursefaq1,
+          span,
         } = data;
 
         return (
@@ -134,6 +135,10 @@ function FAQ({ FaqData }) {
                   )}
                   {dscoursefaq1 ? (
                     <><br />
+                    <br/>
+                    <b><i>{span}</i><br/></b>
+                    <br/>
+          
                       <span>{list1}</span> <br />
                       <span>{list2}</span> <br />
                       <span>{list3}</span> <br />
@@ -142,6 +147,7 @@ function FAQ({ FaqData }) {
                       <span>{list6}</span> <br />
                       <span>{list7}</span> <br />
                       <span>{list8}</span> <br />
+                   
                     </>
                   ) : (
                     <></>
