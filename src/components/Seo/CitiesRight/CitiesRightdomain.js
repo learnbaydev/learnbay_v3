@@ -911,11 +911,9 @@ const CitiesRight = ({
             <p className={styles.pp}>{JobBot2}</p>
             <h2 className={styles.pHead}>{JobHead2}</h2>
             <p className={styles.pp}>{JobBot3}</p>
-            <h2 className={styles.pHead}>{JobHead3}</h2>
+      
             <p className={styles.pp}>{JobBot4}</p>
-            <p className={styles.pp}>{JobBot5}</p>
-            <p className={styles.pp}>{JobBot6}</p>
-            <p className={styles.pp}>{JobBot7}</p>
+           
             <h2 className={styles.pHead}>{JobHead4}</h2>
 
             <p className={styles.pp}>{JobBot8}</p>
