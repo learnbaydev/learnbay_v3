@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useMediaQuery } from "react-responsive";
 import { FaCheck } from "react-icons/fa";
 
-function HeroSection({ setPopups, setVideo }) {
+function HeroSection({ setPopups, setVideo, btnHide }) {
   const popupShow = () => {
     setPopups(true);
   };
@@ -72,34 +72,38 @@ function HeroSection({ setPopups, setVideo }) {
           <button title="Apply For Counselling" onClick={popupShow} className={styles.button}>
             Apply for Counselling
           </button>
-          <div
-            className={styles.learnDiv}
-            onClick={videoShow}
-            aria-label="Learn More"
-          >
-            <div className={styles.iconDiv}>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="61"
-                height="60"
-                viewBox="0 0 61 60"
-                fill="none"
-              >
-                <path
-                  d="M60.0544 30.0029C60.0544 46.3104 46.7195 59.5371 30.2616 59.5371C13.8037 59.5371 0.468796 46.3104 0.468796 30.0029C0.468796 13.6955 13.8037 0.468796 30.2616 0.468796C46.7195 0.468796 60.0544 13.6955 60.0544 30.0029Z"
-                  fill="#FD2222"
-                  fillOpacity="0.2"
-                  stroke="#FD2222"
-                  strokeWidth="0.937591"
-                />
-                <path
-                  d="M45.3101 30.3101L21.8894 43.832V16.7881L45.3101 30.3101Z"
-                  fill="white"
-                />
-              </svg>
+          {btnHide ? (
+            <></>
+          ) : (
+            <div
+              className={styles.learnDiv}
+              onClick={videoShow}
+              aria-label="Learn More"
+            >
+              <div className={styles.iconDiv}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="61"
+                  height="60"
+                  viewBox="0 0 61 60"
+                  fill="none"
+                >
+                  <path
+                    d="M60.0544 30.0029C60.0544 46.3104 46.7195 59.5371 30.2616 59.5371C13.8037 59.5371 0.468796 46.3104 0.468796 30.0029C0.468796 13.6955 13.8037 0.468796 30.2616 0.468796C46.7195 0.468796 60.0544 13.6955 60.0544 30.0029Z"
+                    fill="#FD2222"
+                    fillOpacity="0.2"
+                    stroke="#FD2222"
+                    strokeWidth="0.937591"
+                  />
+                  <path
+                    d="M45.3101 30.3101L21.8894 43.832V16.7881L45.3101 30.3101Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+              <span>Learn More</span>
             </div>
-            <span>Learn More</span>
-          </div>
+          )}
         </div>
       </div>
       <div className={styles.typeLogo}>
