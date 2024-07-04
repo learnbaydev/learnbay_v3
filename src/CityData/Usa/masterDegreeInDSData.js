@@ -148,56 +148,59 @@ export const masterdegreeUSACourseData = [
         data: [
           {
             id: 0,
-            ques: "What are Data Science Training courses available at Learnbay in USA?",
-            linkText1: "Foundational Data Science Training Course, ",
-            linkText2: "Advance Data Science Certification Course, ",
-            linkText3:
-              "Data Science Certification Course for Managers and Leaders, ",
-            linkText4: "Data Science Training with Placement Assistance",
-            link1: "/data-science-certification-courses",
-            link2: "/advance-data-science-certification-courses",
-            link3: "/data-science-ai-for-managers",
-            link4: "/data-science-ai-masters-program",
-            link: true,
+            ques: "What is the curriculum structure of the Master's in Data Science program in the USA?            ",
+            ans: "The curriculum structure of the Master’s in Data Science program in the USA represents Generative AI-rich modules for 360-degree learning. It follows the latest data science trends prevailing in the USA leveraging businesses operating there.             ",
+
+            span: "The curriculum includes seven learning modules, and they are –            ",
+            list1: "L1 – Cohort Orientation with Programming            ",
+
+            list2: "L2 – Basic & Advanced Python Programming            ",
+            list3: "L3 – Statistics & Machine Learning            ",
+
+            list4: "L4 – Data Science Tools            ",
+
+            list5: "L5 – AI Tools            ",
+            list6: "L6 – Deployment            ",
+
+            dscoursefaq1: true,
             open: true,
           },
           {
             id: 1,
-            ques: "What are the prerequisites for these Data Science training Courses in USA?",
-            ans: "There are no prerequisites for this Data Science Foundation course as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-Programmers. However, basic knowledge of applied Mathematics/Statistics is a must.",
+            ques: "How are the courses structured? Are they more theoretical or practical in nature?            ",
+            ans: "The courses are structured following the current happenings in the data science industry in the USA. The courses are crafted with specific attention to both theoretical and practical learning concepts. Learners enrolling for the master’s in data science program will gain a comprehensive learning of theoretical concepts followed by projects. It focuses on real-time learning of tools via live projects and case studies associated with every learning term.             ",
             open: false,
           },
           {
             id: 2,
-            ques: "What if I miss a few classes due to an emergency?",
-            ans: `In case you miss a few classes, you will be provided with backup classes in other batches.
-                    But if you could not attend more classes, you can opt for batch change and join the next batch. `,
+            ques: "What specific topics and skills are covered in the program's coursework for a master's degree in data science?            ",
+            ans: `We offer a master’s degree program in data science with a GenAI-inclusive course curriculum. Tech and non-tech experts will learn everything about Python programming from scratch. Some specific topics include ML models, deep learning, data structures, GenAI-rich tools, AWS & Azure deployment, and visualization. Experts enrolling in our master’s program will gain proven data-driven skills to thrive globally.             `,
             open: false,
           },
           {
             id: 3,
-            ques: "What is a Flexi Subscription in these advanced data science courses in USA?",
-            ans: "Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1 -3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends. Flexi Subscription Time-line: Foundational Data Science and AI Training course- 1 Year, Advance Data Science and AI Certification course- 3 Years, Data Science and AI Certification Course for Managers and Leaders- 3 Years, Data Science and AI Training with Placement Assistance  - 3-years.",
+            ques: "Are any elective courses available to tailor the program to my interests in data science master's programs?            ",
+            ans: "Data science master's programs are specifically designed to meet the competitive requirements of the leading industries. Domain-based specializations are available to leverage your efficacious with assured success. Here, you can find your coursework and projects per your specialization interests covering prime domains. Such domains are – BFSI, HR, Marketing, Manufacturing, Healthcare, and Supply Chain.",
             open: false,
           },
           {
             id: 4,
-            ques: "What’s the duration of these advanced data science courses in USA?",
-            ans: "The duration of these courses is about 6-15 months, which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Monday to Friday - 2 hours/day and Saturday & Sunday - 3.5 hours/day, Foundational Data Science and AI Training course (220+ hours) :- Weekday batch - 6 months, Weekend batch - 8 months, Advance Data Science and AI Certification course (270+ hours) :- Weekday batch - 7 months, Weekend batch - 9  months, Data Science and AI Certification Course for Managers and Leaders (340+ hours) :- Weekday batch - 11 months, Weekend batch - 13  months, Data Science and AI Training with Placement Assistance (380+ hours) :- Weekday batch - 13 months, Weekend batch - 15  months",
+            ques: "How are the classes delivered? Are they in-person, online, or a combination of both for an MS in Data Science in the USA?            ",
+            ans: "Data science masters programs in the USA conduct online training sessions to help learners gain adequate abstract and practical knowledge. Experts joining our MS in Data Science in the USA program can balance their hectic plans with our flexible online learning sessions.             ",
             open: false,
           },
-          {
-            id: 5,
-            ques: "What is the mode of data science training in USA at Learnbay?",
-            ans: "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.",
-            open: false,
-          },
-          {
-            id: 6,
-            ques: "How can I opt for a Hybrid mode of learning in IBM data science training courses in USA, At Learnbay? ",
-            ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. ",
-            open: false,
-          },
+          // {
+          //   id: 5,
+          //   ques: "What is the mode of data science training in USA at Learnbay?",
+          //   ans: "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.",
+          //   open: false,
+          // },
+          // {
+          //   id: 6,
+          //   ques: "How can I opt for a Hybrid mode of learning in IBM data science training courses in USA, At Learnbay? ",
+          //   ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions. ",
+          //   open: false,
+          // },
         ],
       },
       {
@@ -263,43 +266,33 @@ export const masterdegreeUSACourseData = [
         data: [
           {
             id: 0,
-            ques: "What is the total fee for Data Science Certifications courses in USA?",
-            ans: `The total course fee for the 
-                    Foundational Data Science and AI Training course is 93,220/- inclusive of GST.
-                    Advance Data Science and AI Certification course is 1,05,000/- inclusive of GST.
-                    Data Science and AI Certification Course for Managers and Leaders is 1,15,000/- inclusive of GST.
-                    Data Science and AI Training with Placement Assistance is 1,47,500/- inclusive of GST.`,
+            ques: "What are the fees for the Master's in Data Science program, and are there any additional costs for data science master's programs in the USA?            ",
+            ans: "The Master’s in Data Science program costs $1700. Apart from the course fees, there are no additional costs for data science master’s programs in the USA.             ",
             open: true,
           },
           {
             id: 1,
-            ques: "Can I pay in installments for these Data Science Certification courses in USA?",
-            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 9 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+            ques: "Do you offer any scholarships or financial aid for students pursuing a master's degree in data science in USA?            ",
+            ans: "Learnbay offers scholarships to eligible learners opting for a master’s degree in data science in USA after reviewing their profiles. Eligible learners will receive up to a 25% scholarship for the master’s course.   ",
             open: false,
           },
           {
             id: 2,
-            ques: " Is there any scholarship/discount available for these Data Science training courses available in USA? What is Group Discount?",
-            ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally.
-                    Please check our websites or contact our sales team to know more about the applicable discounts.
-                    
-                    
-                    Group Discount :
-                    Group Discount is applicable only if you’re joining with your friends. 
-                    5% extra discount: Group of 2
-                    8% extra discount: Group of 3
-                    Max 10% discount: Groupe of 4+`,
+            ques: "What payment options are available for the data science masters programs in the USA?            ",
+            ans: "Learners enrolling in data science masters programs in the USA will have two options for one-time payment for the course: Internet banking and credit/Debit card.             ",
             open: false,
           },
           {
             id: 3,
-            ques: "What is the refund policy for the Data Science Certification courses at Learnbay?",
-            ans: `Candidates are advised to read `,
-            linkText1: "Learnbay’s Refund/Cancellation Policy",
-            link1: "/refund-cancellation-policy",
-            ansAfter: " before enrolling in the course.",
-            link: true,
-            open: false,
+            ques: "Are any discounts available for early enrollment or paying the tuition upfront for a master's in data science in the USA?            ",
+            ans: `Yes, we offer early bird discounts of 15%—20% for learners enrolling in a master’s in data science in the USA. Yet, a group discount is available for learners who join with one or more friends.             `,
+            list4: "Group of 2: 5% extra discount            ",
+
+            list5: "Group of 3: 8% additional discount            ",
+            list6: "Group of 4+: Max 10% discount            ",
+
+            dscoursefaq1: true,
+            open: true,
           },
         ],
       },
@@ -309,28 +302,27 @@ export const masterdegreeUSACourseData = [
         data: [
           {
             id: 0,
-            ques: "How many capstone projects will be there? ",
-            ans: `Depending on the course you choose the number of capstone projects will vary.  
-                    Foundational Data Science and AI Training Course - 1 Capstone.
-                    Advance Data Science and AI Certification Course -2 Capstones.
-                    Data Science and AI Certification Course for Managers and Leaders- 2 Capstones.
-                    Data Science and AI Training with Placement Assistance- 3 Capstones.
-                    How many real-time projects/case studies will be covered in these Data Science certification courses in USA?
-                    Depending on the course you choose the number of live projects will vary.  
-                    Foundational Data Science and AI Training course- 8 projects.
-                    Advance Data Science and AI Certification course-12 projects.
-                    Data Science and AI Certification Course for Managers and Leaders- 15 projects.
-                    Data Science and AI Training with Placement Assistance- 15 projects.`,
-            linkText1: " Click here to download the list of the projects.",
-            link1:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
-            link: true,
+            ques: "Could you provide more information about the capstone project or real-time projects included in the program for MS in Data Science in the USA?            ",
+            ans: `Learners joining the MS in data science course in the USA will gain exclusive learning scope via capstone projects. Here, learners can choose one domain specialization per their career interests and work on three capstone projects. The projects will relate to the leading industries – BFSI, Healthcare, HR, Marketing, Supply Chain, and Manufacturing. At last, learners in the USA will receive one capstone project certificate from IBM with alluring career gains.             `,
+
             open: true,
           },
           {
             id: 1,
-            ques: "How will the projects be executed in USA?",
-            ans: "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.",
+            ques: "How are capstone projects assigned, and what level of guidance and support can students expect during the project for a master's degree in data science?            ",
+            ans: "Learners joining us for a master’s degree in data science in the USA will gain uninterrupted learning assistance from respective mentors. We offer project-based learning scope via capstone projects in diversified domains. Learners can choose their projects based on domain specialization and industry trends. Our esteemed mentors are available 24/7 for end-to-end support during coursework and capstone projects. 1:1 doubt-clearing sessions are also available to resolve project-related queries.             ",
+            open: false,
+          },
+          {
+            id: 1,
+            ques: "Are there opportunities for students to work on industry projects or collaborate with companies as part of their studies for data science master's programs in the USA?            ",
+            ans: "Yes, learners enrolling in data science master's programs in the USA can gain industry-specific experience via projects. Our collaboration with leading MNCs helps learners gain adequate exposure to real-world businesses. Our master’s programs offer domain-specific learning platforms with proven industry projects. Here, you will get an exclusive scope to refine prior domain knowledge and excel in your role.             ",
+            open: false,
+          },
+          {
+            id: 1,
+            ques: "Can students choose their projects, or are they assigned by the faculty for a master's degree in data science?            ",
+            ans: "Once you enroll in the master’s degree in data science, you can choose your domain. Learners opting for the master’s degree program can choose their projects as per their domain specialization and career interests. Learners go through group project work under the guidance of renowned faculties or mentors.             ",
             open: false,
           },
         ],
@@ -341,13 +333,20 @@ export const masterdegreeUSACourseData = [
         data: [
           {
             id: 0,
-            ques: "Is there any accredited data science certification after course completion?",
-            ans: `Yes, you will be awarded IBM accredited Data Scientist Certificate on successful course completion.  But Based on the course you choose you can get Multiple certification options too.
-                    Foundational Data Science and AI Training course- 1 Course Completion Certificate.
-                    Advance Data Science and AI Certification course-1 Course Completion Certificate + 1-project experience certificate + 4 microdata science skills certificates = 6 Certificates.
-                    Data Science and AI Certification Course for Managers and Leaders- 1 Course Completion Certificate + 1-project experience certificate + 6 microdata science skills certificates= 8 Certificates.
-                    Data Science and AI Training with Placement Assistance- 1 Course Completion Certificate
-                    *All the certificates accredited by IBM. For more details, please refer to the respective course brochures.`,
+            ques: "What type of certification or degree will I receive upon completing the Master's in Data Science program in the USA?            ",
+            ans: `Learners enrolling in a master’s in data science program in the USA will get a globally accredited degree from Woolf University. Plus, completing courses and projects will attest to your career with IBM & Microsoft certifications.             `,
+            open: true,
+          },
+          {
+            id: 0,
+            ques: "Is the certification recognized internationally, and what is its value in the job market for data science masters programs in the USA?            ",
+            ans: `Yes, the certification is globally recognized (60+ countries recognize it), enriching your career and validating the learned skills for better job prospects. Anyone pursuing data science masters programs in the USA must obtain this certification for effortless career transition. Learners with globally valued certifications attain a competitive advantage with compelling offers from top-tier companies in the USA. Certifications set a benchmark for exclusive competence to crack expanded career growth prospects throughout the country and overseas.             `,
+            open: true,
+          },
+          {
+            id: 0,
+            ques: "Are there any additional certifications or credentials students can earn alongside the Master's degree in data science masters programs?            ",
+            ans: `Learners will receive course completion and project certifications from IBM & Microsoft alongside the master’s degree in data science masters programs.             `,
             open: true,
           },
         ],
@@ -358,40 +357,36 @@ export const masterdegreeUSACourseData = [
         data: [
           {
             id: 0,
-            ques: "What's the eligibility for a job assistance Program in Learnbay Data science training courses in USA?",
+            ques: "What kind of career support services do you offer to students and alumni of master's in data science in the USA?            ",
 
-            ans: `You should have completed the course with :
-                    A minimum score of 70% in assessments
-                   Should have completed the assignments and case studies
-                   Worked and successfully completed the minimum recommended number of real-time projects.`,
+            ans: `Learners joining the master’s in data science in the USA will receive 100% job and placement assistance guided by esteemed mentors. Here, we offer Career Service PRO that successfully empowers learners to face and crack top-notch job offers. The career support services include –            `,
+            list1:
+              "Three years of uninterrupted job assistance with premium offers             ",
+
+            list2:
+              "Six 1:1 mock interviews with the leading MNCs in the USA & overseas            ",
+            list3: "1:1 doubt-clearing (coursework & projects)            ",
+            list4: "Resume review & optimization             ",
+            list5: "LinkedIn profile review              ",
+            dscoursefaq1: true,
             open: true,
           },
           {
             id: 1,
-            ques: "How long will I get support for job assistance at Learnbay in USA?",
-            ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
+            ques: "Do you have partnerships with companies or industry connections that help students secure internships or job placements for MS in data science in the USA?            ",
+            ans: `Yes, we have an industry partnership with 450+ leading companies in the USA and overseas that assist career transitions with premium placements and internships.             `,
             open: false,
           },
           {
             id: 2,
-            ques: "What is a job-readiness program?",
-            ans: `The Job readiness program helps you prepare for interviews which include:
-                    Resume preparation sessions, 
-                    Preparing projects for a strong portfolio, 
-                    Interview guidance and prep sessions, 
-                    1:1 Mock interviews based on targeted companies and roles.`,
+            ques: "How successful are graduates from your program in finding employment in the Data Science field for a master's in data science in the USA?            ",
+            ans: `Learners enrolling in a master’s in data science in the USA witness a notable career transformation with attractive hikes and swift job promotions. Graduates from this program gain a competitive advantage by overcoming career stagnancies. These graduates hold hands-on experience with the latest tools and techniques that enhance their chances of getting selected for leading career roles.             `,
             open: false,
           },
           {
             id: 3,
-            ques: "Will I get job referrals at Learnbay?",
-            ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
-            open: false,
-          },
-          {
-            id: 4,
-            ques: "What is an interview guarantee feature?",
-            ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed. Terms and conditions applied`,
+            ques: "Do you provide resume assistance, interview preparation, or networking opportunities to help students transition into the workforce for data science masters programs in the USA?            ",
+            ans: `Yes, eligible learners enrolling in data science masters programs in the USA will have successful career transitions with hassle-free assistance and opportunities. Such assistance includes resume review, interview preparation sessions, professional networking, and many more. Such services help learners transition their careers into prominent roles with alluring hikes and promotions.             `,
             open: false,
           },
         ],
@@ -402,15 +397,33 @@ export const masterdegreeUSACourseData = [
         data: [
           {
             id: 0,
-            ques: "Until when do the students get the facility of mentorship?",
+            ques: "Do students have access to mentors or advisors throughout the program for a master's in data science in the USA?            ",
 
-            ans: "Our mentors will provide data science training to the students until the completion of the course. ",
+            ans: "Yes, learners have direct access to their mentors throughout the program for a master’s in data science in the USA. They can reach out to their mentors in case of any course or project-related queries.             ",
             open: true,
           },
           {
             id: 1,
-            ques: "Can a Learnbay student in USA choose to study from their desired mentor?",
-            ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+            ques: "What qualifications and experience do the mentors have in Data Science and AI for data science masters programs in the USA?            ",
+            ans: "Mentors assigned for data science masters programs in the USA hold at least seven years of work experience in a similar field from any domain/discipline. Their real-time exposure to business scenarios and decisiveness help learners land their dream roles.             ",
+            open: false,
+          },
+          {
+            id: 1,
+            ques: "How are mentors assigned to students, and what level of interaction can students expect for MS in data science in the USA?            ",
+            ans: "We have a group of renowned industry experts in the role of mentors for MS in data science in the USA. These mentors are assigned to individual learning batches as per relevant skills and experience. Learners can expect direct interaction with their mentors during training sessions. Apart from training classes, you can also contact mentors for doubt clearing or certain queries via phone call or chat.             ",
+            open: false,
+          },
+          {
+            id: 1,
+            ques: "Are there opportunities for one-on-one mentorship sessions or group mentorship activities for master's in data science in the USA?            ",
+            ans: "Experts enrolling in our master’s in data science in the USA will receive exclusive mentorship from industry experts. Here, you will get group mentorship activities during learning sessions and 1:1 mentorship for doubt-clearing & project tasks. However, in special cases, you can avail of 1:1 mentorship sessions.             ",
+            open: false,
+          },
+          {
+            id: 1,
+            ques: "How does mentorship contribute to students' academic and professional growth during the program for MS in data science in the USA?            ",
+            ans: "Mentorship is pivotal in enhancing a learner’s academic and professional performance in the data science field. Experts joining us for MS in data science in the USA will gain live instructor-led training sessions from industry experts as mentors. Learning directly from eminent mentors helps learners see through the changing industry dynamics and improve their performance. Mentorship helps learners gain a 360-degree knowledge-building advantage, refining academic skills. Plus, mentorship enables learners to attain professional growth through hikes, promotions, and job offers.             ",
             open: false,
           },
         ],
@@ -421,16 +434,55 @@ export const masterdegreeUSACourseData = [
         data: [
           {
             id: 0,
-            ques: "When is the job assistance provided at Learnbay and how long will I get it?",
+            ques: "What academic support services are available to students, such as tutoring or study groups, for master's in data science in the USA?            ",
 
-            ans: "Job assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company. ",
+            ans: "Learners enrolling in master’s in data science in the USA can avail of dedicated mentorship from industry experts. You will gain uninterrupted training sessions from respective mentors with 24*7 assistance.             ",
+            span: "Some exclusive academic support services will be –            ",
+            list1: "Live instructor-led training sessions             ",
+
+            list2: "Dedicated mentorship with 1:1 doubt-clearance            ",
+            list3: "Hassle-free contact with mentors after classes            ",
+
+            list4: "Learning materials             ",
+
+            list5: "Course tasks and projects handling support            ",
+            list6: "Career assistance             ",
+
+            dscoursefaq1: true,
             open: true,
           },
           {
             id: 1,
-            ques: "How long will I get Job referrals?",
-            ans: "You’ll be provided with job assistance after the completion of the course for a period of 1 year.",
+            ques: "How responsive are the faculty and support staff to student inquiries and concerns for MS in data science in the USA?            ",
+            ans: "Learners enrolling in MS in data science in the USA will get hassle-free training sessions with complete support from faculties and associated staff. In case of certain inquiries and concerns, you can contact your mentor 24/7 via the Learnbay app. You can contact them via phone or chat regarding coursework or project-related doubts. So, within 10-15 minutes, you can get mentor support to resolve queries concerning coursework or live projects.             ",
             open: false,
+          },
+          {
+            id: 2,
+            ques: "Is technical support available for students encountering issues with online learning platforms or software used in the program for master's in data science in the USA?            ",
+            ans: "Yes, Learnbay has a centralized technical support system to help learners with related issues during the master’s in data science in the USA. The Learnbay app is available 24/7 to help you out with all kinds of issues. In case you face technical issues during login, logout, training sessions, attendance, or any other time, our dedicated experts are there to help with the best possible solutions.             ",
+            open: false,
+          },
+          {
+            id: 3,
+            ques: "How does the program foster community and peer support among students, especially in online learning environments for master's in data science in the USA?            ",
+
+            ans: "Learnbay utilizes several strategies to foster a sense of community and peer support among students pursuing a master’s in data science in the USA.             ",
+            span: "It includes –            ",
+            list1:
+              "Collaborative learning platforms with discussion forums            ",
+
+            list2:
+              "Dedicated mentorship followed by 1:1 doubt-clearing sessions             ",
+            list3: "Project-based learning via projects             ",
+
+            list4: "Soft skills training             ",
+
+            list5: "Resume optimization             ",
+            list6: "Interview Preparation             ",
+
+            dscoursefaq1: true,
+            open: true,
           },
         ],
       },
@@ -680,8 +732,6 @@ export const masterdegreeUSACourseData = [
     alt7: "data science course training in USA",
     alt8: "data science course training in USA",
     alt9: "data science course training in USA",
-    CityTextB:
-      "Artificial Intelligence Course Certification Training locations in USA ",
 
   },
 ];

@@ -54,7 +54,7 @@ const ComponentWithPopup = ({ Component, pageProps }) => {
   const router = useRouter();
 
   useEffect(() => {
-    if (router.pathname !== "/organic/generic") {
+    if (router.pathname !== "/organic/generic" || "/submit-info") {
       const timer = setTimeout(() => {
         triggerPopup("");
       }, 5000);

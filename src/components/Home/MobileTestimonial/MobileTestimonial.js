@@ -254,7 +254,7 @@ const testimonials = [
   },
 ];
 
-function MobileTestimonial() {
+function MobileTestimonial({dataScienceGeneric, dataScienceCounselling, radio, interstedInHide}) {
   const [popups, setPopups] = useState(false);
 
   const [activeIndex, setActiveIndex] = useState(Math.floor(testimonials.length / 3));
@@ -296,11 +296,13 @@ function MobileTestimonial() {
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
             <Form
-              popup={true}
-              setTrigger={setPopups}
-              radio={true}
-              dataScienceCounselling={true}
+              dataScienceCounselling={dataScienceCounselling}
+              dataScienceGeneric={dataScienceGeneric}
+              radio={radio}
+              downloadBrochure
               upSkillingHide={true}
+              interstedInHide={interstedInHide}
+              
             />
           </div>
         </Popup>

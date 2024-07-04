@@ -247,12 +247,25 @@
   margin-top: 20px;
 }
 
-.App form {
-  display: flex;
+.App form .divFirst {
+  display: grid;
+  grid-template-columns: 50% 50%;
   align-items: center;
   flex-flow: column;
   justify-content: center;
 }
+
+.optMsg {
+  margin: 10px 0px;
+}
+
+.newDiv {
+  display: grid;
+  align-items: center;
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+  }
 
 .DateFormWrappers {
   margin-bottom: 10px;

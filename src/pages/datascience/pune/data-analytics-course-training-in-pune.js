@@ -77,17 +77,18 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-          Best IBM Certified Data Analytics Course in Pune - Learnbay
-        </title>
+        <title>Data Analytics Course Training in Pune | Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Enroll in our Advanced Data Analytics Course in Pune now and earn an IBM Certification to accelerate your career as a Data Analytics professional."
+          content="Enroll in our Data Analytics Course in Pune now!! Gain industry recognition with IBM Certification to accelerate your career as a Data Analyst.          "
         />
         <meta
           name="keywords"
-          content="Data Analytics course in Pune, Data Analytics training in Pune, Data Analytics institute in Pune, best Data Analytics institute in Pune, Data Analytics course in Pune, Data Analytics certification in Pune, Data Analytics training institute in Pune, advanced Data Analytics course in Pune, Data Analytics course with Placement Assistance, Data Analytics course"
+          content="data analytics course in pune, data analytics training in pune
+          data analyst course in pune, best data analyst course in pune
+          data analytics institute in pune, data analysis courses in pune, data analytics certification in pune, business analytics course in pune, data analytics courses in pune with placement assistance, data analytics classes in pune
+          "
         />
         <meta
           property="og:url"
