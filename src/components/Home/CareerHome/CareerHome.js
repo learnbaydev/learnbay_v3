@@ -7,9 +7,11 @@ import Form from "../../Global/Form/Form";
 import Popup from "../../Global/Popup/Popup";
 
 function careerHome({
- 
+  dataScienceGeneric,
   dataScience,
   dataScienceCounselling,
+  radio,
+  interstedInHide,
 }) {
   const [textOpen, setTextOpen] = useState(1);
 
@@ -62,13 +64,15 @@ function careerHome({
         <div className="RightPopup">
           <h5>Download Syllabus</h5>
           <Form
-            dataScience={dataScience}
-            dataScienceCounselling={dataScienceCounselling}
-            upSkillingHide={true}
-            downloadBrochure
-            interstedInHide={true}
             titleCourse={titleCourse}
             brochureLink={brochureLinks}
+            dataScience={dataScience}
+            dataScienceCounselling={dataScienceCounselling}
+            dataScienceGeneric={dataScienceGeneric}
+            radio={radio}
+            downloadBrochure
+            upSkillingHide={true}
+            interstedInHide={interstedInHide}
           />
         </div>
       </Popup>

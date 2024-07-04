@@ -12,6 +12,8 @@ const FirstSection = ({
   dataScienceCounselling,
   interstedInHide,
   idss,
+  btnHide,
+  dataScienceGeneric,
 }) => {
   const [popups, setPopups] = useState(false);
   const [video, setVideo] = useState(false);
@@ -21,13 +23,14 @@ const FirstSection = ({
         dataScience={dataScience}
         radio={radio}
         dataScienceCounselling={dataScienceCounselling}
+        dataScienceGeneric={dataScienceGeneric}
         popups={popups}
         setPopups={setPopups}
         interstedInHide={interstedInHide}
         heading="Apply For Counselling"
       />
        <VideoPopup triggers={video} setTriggers={setVideo} ids={idss} />
-      <FirstSectionContent    setPopups={setPopups}
+      <FirstSectionContent btnHide={btnHide} setPopups={setPopups}
         setVideo={setVideo}/>
     </>
   );

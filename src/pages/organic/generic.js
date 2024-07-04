@@ -1,83 +1,115 @@
 import Head from "next/head";
 import dynamic from "next/dynamic";
-import FirstSection from "../../components/OrganicGeneric/FirstSection/FirstSection";
+import { ThirdSectionData } from "@/Data/ThirdSectionData";
+import FirstSection from "@/components/Home/FirstSection/FirstSection";
 import styles from "../../styles/Home.module.css";
 import Navbar from "../../components/Global/Navbar/Navbar";
 import Footer from "../../components/Global/Footer/Footer";
 import WhatsappFloat from "../../components/Global/WhatappsFloat/WhatsappFloat";
-import Switch from "../../components/OrganicGeneric/switch/switch";
-import HomeLine from "../../components//Home/HomeLine/HomeLine";
-import Testimonial from "../../components/OrganicGeneric/TestimonialOrganic/Testimonial";
+import CareerHome from "@/components/Home/CareerHome/CareerHome";
 const SeventhSection = dynamic(() =>
   import("../../components/Global/SeventhSection/SeventhSection")
 );
 const Course = dynamic(() => import("../../components/Home/Course/Course"));
-import BoxShape from "../../components/OrganicGeneric/BoxShape/BoxShape";
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import ProjectSection from "../../components/OrganicGeneric/ProjectSection/ProjectSection";
+import Media from "@/components/Home/Media/Media";
+import MobileTestimonial from "@/components/Home/MobileTestimonial/MobileTestimonial";
+import GetHire from "@/components/Home/GetHire/GetHire";
+import ContactUs from "@/components/Home/ContactUs/ContactUs";
+import TrainerSection from "@/components/Global/TrainerSection/TrainerSection";
+import Realstory from "@/components/Home/Realstory/RealStoryNoyt";
+import WhyLearnbay from "@/components/Home/WhyLearnbay/WhyLearnbay";
 
 export default function Home() {
-  const testimonial = [
+  const data = [
     {
       id: 1,
-      name: "Preksha Mishra",
-      working: "HCL",
-      link: "vSjfKdIzUjY",
-      proImg:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/organic/test-0.webp",
-      sDesc:
-        "I had a great learning experience at Learnbay. The faculties here are top notch. Right from enrollment to getting a good job ...",
-      lDesc:
-        "I had a great learning experience at Learnbay. The faculties here are top notch. Right from enrollment to getting a good job, they keep putting enormous efforts for each and every candidate. Thanks to all the trainers, backend team, the HR team and to the directors for making this journey smooth.",
-      complogo:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
-      statLogo: "140% Hike",
+      domain:
+        "Learnbay achieves 300% surge; to expand workforce amidst impressive job market recognition",
+      CLogo:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/image+2-min.webp",
+      SDesc: "12th JULY",
+      url: "https://www.financialexpress.com/education-2/learnbay-goes-offline-with-brick-and-mortar-centres-ends-fy22-with-a-net-profit-of-rs-3-2-crore/2590829/",
     },
     {
       id: 2,
-      name: "Shubham Kumar",
-      working: "Cendrol Technology",
-      link: "JoKquvfAhZU",
-      proImg:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/organic/test-1.webp",
-      sDesc:
-        "I moved from teaching to data science with Learnbay's help. Their course was easy to follow, even for someone like me without a tech...",
-      lDesc:
-        "I moved from teaching to data science with Learnbay's help. Their course was easy to follow, even for someone like me without a tech background. In six months, I got to learn how data science is used in the real world. Their mock interviews also prepared me for job interviews, and I got a data analyst job at Cendrol. This course really helped me change my career.",
-      complogo:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
-      statLogo: "  210% Hike",
+      domain: "How data science can disrupt the fintech industry?",
+      CLogo:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/dataquest.webp",
+      SDesc: "13th January",
+      url: "https://www.dqindia.com/how-data-science-can-disrupt-the-fintech-industry/",
+    },
+    {
+      id: 3,
+      domain:
+        "Professional Upskilling Startup Learnbay Launches Three New Cutting-Edge Domain Courses",
+      CLogo:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/PM-Logo.webp",
+      SDesc: "2and August",
+      url: "https://thepeoplemanagement.com/the-future-of-hr-will-be-defined-by-a-blended-workforce-nisha-kumari-md-learnbay/",
     },
     {
       id: 4,
-      name: "Arvind Kumar",
-      working: "The Math Company",
-      link: "hewBtR_WoDM",
-      proImg:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/organic/test-2.webp",
-      sDesc:
-        "Choosing Learnbay was my best decision ever. The instructors were encouraging and glad to answer questions. The best feature is that...",
-      lDesc:
-        "Choosing Learnbay was my best decision ever. The instructors were encouraging and glad to answer questions. The best feature is that their flexible modules & small size batches. I was able to manage my time and learn while working. Thanks to Learnbay for my lucrative placement.",
-      complogo:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/microsoft.webp",
-      statLogo: " 150% Hike",
+      domain:
+        "Learnbay introduces domain specialisation programme for sustainable career transition",
+      CLogo:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/image+2-min.webp",
+      SDesc: "1st August",
+      url: "https://www.financialexpress.com/jobs-career/education-learnbay-introduces-domain-specialisation-programme-for-sustainable-career-transition-2613104/",
     },
     {
       id: 5,
-      name: "Jaya sinha",
-      working: "Amazon",
-      link: "A-BkcEM0rQM",
-      proImg:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/organic/test-3.webp",
-      sDesc:
-        "Transitioning from a non-tech role, LearnBay's IBM data science certification equipped me with the skills needed in today's...",
-      lDesc:
-        "Transitioning from a non-tech role, LearnBay's IBM data science certification equipped me with the skills needed in today's market. The course's interactive sessions and personalized guidance from Abhishek sir were invaluable. Post-completion, I had received two offers, one from Amazon and other from Infosys for the role of senior data analyst. Highly recommend for anyone stepping into data science.",
-      complogo:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/amazon.webp",
-      statLogo: " 150% Hike",
+      domain: "Metaverse in Education: A New Mainstay or a Passing Trend??",
+      CLogo:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/express+computer.webp",
+      SDesc: "21st August",
+      url: "https://www.expresscomputer.in/artificial-intelligence-ai/metaverse-in-education-a-new-mainstay-or-a-passing-trend/102446/",
     },
+    {
+      id: 6,
+      domain:
+        "Augmented Intelligence: How Humans and Machines Team Up in Future Data Science",
+      CLogo:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/CXO+today.webp",
+      SDesc: "25th September",
+      url: "https://cxotoday.com/specials/augmented-intelligence-how-humans-and-machines-team-up-in-future-data-science/",
+    },
+
+    {
+      id: 7,
+      domain: "The Rising Horizon: Data Science and AI in the EdTech 2.0 Era",
+      CLogo:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/mt-Logo.webp",
+      SDesc: "25th May",
+      url: "https://www.manufacturingtodayindia.com/sectors/smart-manufacturing-roles-for-data-professionals",
+    },
+    {
+      id: 8,
+      domain:
+        "Learnbay Collaborates with Woolf to Launch Master's Degree in Computer Science & Data Science Specializations",
+      CLogo:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/business-standard-logo.webp",
+      SDesc: "20th November",
+      url: "https://www.business-standard.com/content/press-releases-ani/learnbay-collaborates-with-woolf-to-launch-master-s-degree-in-computer-science-data-science-specializations-123112000350_1.html",
+    },
+    // {
+    //   id: 9,
+    //   domain:
+    //     "How healthcare professionals can transition to data science career        ",
+    //   CLogo:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/business-standard-logo.webp",
+    //   SDesc: "20th April",
+    //   url: "https://www.expresshealthcare.in/news/how-healthcare-professionals-can-transition-to-data-science-career/438946/",
+    // },
+    // {
+    //   id: 10,
+    //   domain:
+    //     "Krishna Kumar, Founder and CEO, Learnbay, Providing Comprehensive Data Science, AI,& ML Education With Career Advancement Support ",
+    //   CLogo:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/business-standard-logo.webp",
+    //   SDesc: "7th Feb",
+    //   url: "https://startuptalky.com/krishna-kumar-learnbay-edtech-industry-recap22/",
+    // },
   ];
   return (
     <div className={styles.container}>
@@ -115,19 +147,9 @@ export default function Home() {
         dataScienceGeneric={true}
         radio={true}
         organicADS={true}
+        btnHide={true}
         // interstedInHide={true}
       />
-      <HomeLine />
-      <div className={styles.boxWrap}>
-        <h2>Get Certified & Move Towards Your Dream Job</h2>
-        <p className={styles.boxp}>
-          Our Domain Specialisation and Industry Certified Capstone Projects
-          helps you to make your past work experience relevant
-        </p>
-        <div className={styles.boxShape}>
-          <BoxShape />
-        </div>
-      </div>
       <Course
         dataScience={true}
         radio={true}
@@ -136,22 +158,30 @@ export default function Home() {
         dataScienceGeneric={true}
         // interstedInHide={true}
       />
-      <Switch organicADS={true} />
-      <ProjectSection
-        nolinkO={false}
-        organic={true}
-        linkomb={false}
-        popup={true}
-        dataScienceGeneric={true}
+      <WhyLearnbay ids="YWxTtvb3x-U" />
+
+      <CareerHome
+        ThirdSectionData={ThirdSectionData}
         radio={true}
-        // interstedInHide={true}
+        dataScienceGeneric={true}
       />
 
-      <Testimonial redirectDS={true} heading="" Testimonial={testimonial} />
-      {/* <ContactUs popup={true} dataScienceGeneric={true} radio={true} /> */}
+      <div className="realstory">
+        <Realstory noYt={true} />
+      </div>
+
+      <TrainerSection adsHide={true} />
+      <ContactUs dataScienceGeneric={true} radio={true} />
+      <GetHire />
+      <MobileTestimonial
+        radio={true}
+        dataScienceGeneric={true}
+      />
+      <Media projectData={data} noLink={true} />
+
       <SeventhSection whatsappShow={true} />
       <Footer
-        organicADSS={true}
+        organicADS={true}
         adPage={true}
         adPageCity={true}
         iconnolink={true}

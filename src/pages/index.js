@@ -396,7 +396,7 @@ export default function Home() {
       <Course dataScience={true} radio={true} />
       <WhyLearnbay ids="YWxTtvb3x-U" />
 
-      <CareerHome dataScience={true} ThirdSectionData={ThirdSectionData} />
+      <CareerHome dataScience={true} ThirdSectionData={ThirdSectionData} radio={true} />
       <div className="realstory">
         <Realstory />
       </div>
@@ -404,7 +404,7 @@ export default function Home() {
       <TrainerSection idss="eautK0odE7Q" />
       <ContactUs dataScienceCounselling={true} radio={true} />
       <GetHire />
-      <MobileTestimonial />
+      <MobileTestimonial radio={true} dataScienceCounselling={true}/>
       <Media projectData={data} />
       <SeventhSection />
 

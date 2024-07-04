@@ -8,6 +8,7 @@ function ContactUs({
   radio,
   upSkillingHide,
   interstedInHide,
+  dataScienceGeneric,
 }) {
   return (
     <section className={styles.ContactUs}>
@@ -55,6 +56,7 @@ function ContactUs({
           dataScienceCounselling={dataScienceCounselling}
           radio={radio}
           upSkillingHide={upSkillingHide}
+          dataScienceGeneric={dataScienceGeneric}
           interstedInHide={interstedInHide}
         />
       </div>

@@ -9,7 +9,7 @@ import Link from "next/link";
 import SwiperCore, { Navigation, Pagination } from "swiper";
 SwiperCore.use([Navigation, Pagination]);
 
-const Media = ({ projectData }) => {
+const Media = ({ projectData, noLink }) => {
   return (
     <div className={styles.projectHeader}>
       <div className={styles.headWrapper}>
@@ -67,32 +67,65 @@ const Media = ({ projectData }) => {
         >
           {projectData.map((data, index) => (
             <SwiperSlide className={styles.project} key={index}>
-              <Link href={data.url} target="_blank" rel="nofollow" >
-              <div className={styles.header}>
-                <div className={styles.left}></div>
-                <div
-                  className={styles.imgWrap}
-                  style={
-                    data.id === "BMW" ? { width: "35px" } : { width: "auto" }
-                  }
-                >
-                  <div className="imgWrapper">
-                    <Image
-                      src={data.CLogo}
-                      alt="Learnbay"
-                      quality={100}
-                      width="80"
-                      height="40"
-                      loading="lazy"
-                    />
+              {noLink ? (
+                <>
+                  <div className={styles.header}>
+                    <div className={styles.left}></div>
+                    <div
+                      className={styles.imgWrap}
+                      style={
+                        data.id === "BMW"
+                          ? { width: "35px" }
+                          : { width: "auto" }
+                      }
+                    >
+                      <div className="imgWrapper">
+                        <Image
+                          src={data.CLogo}
+                          alt="Learnbay"
+                          quality={100}
+                          width="80"
+                          height="40"
+                          loading="lazy"
+                        />
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-              <div className={styles.body}>
-                <h5>{data.domain}</h5>
-                <p>{data.SDesc}</p>
-              </div>
-              </Link>
+                  <div className={styles.body}>
+                    <h5>{data.domain}</h5>
+                    <p>{data.SDesc}</p>
+                  </div>
+                </>
+              ) : (
+                <Link href={data.url} target="_blank" rel="nofollow">
+                  <div className={styles.header}>
+                    <div className={styles.left}></div>
+                    <div
+                      className={styles.imgWrap}
+                      style={
+                        data.id === "BMW"
+                          ? { width: "35px" }
+                          : { width: "auto" }
+                      }
+                    >
+                      <div className="imgWrapper">
+                        <Image
+                          src={data.CLogo}
+                          alt="Learnbay"
+                          quality={100}
+                          width="80"
+                          height="40"
+                          loading="lazy"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className={styles.body}>
+                    <h5>{data.domain}</h5>
+                    <p>{data.SDesc}</p>
+                  </div>
+                </Link>
+              )}
             </SwiperSlide>
           ))}
         </Swiper>
