@@ -180,14 +180,14 @@ export default function Home() {
           <FeeSection
             Fee="₹85,000"
             FeeEmi="₹5,572/month"
-            weekdaybatch="Weekday Batch"
+            weekdaybatch="Weekend Batch"
             weekendbatch="Weekday Batch"
-            weekday="MON - FRI"
+            weekday="SAT - SUN"
             weekend="MON - FRI"
-            WeekdayDate="JULY 12th"
-            WeekendDate="JULY 5th"
+            WeekdayDate="July 14th"
+            WeekendDate="August 2nd"
             WeekendTime="8:00 PM - 10:00 PM"
-            WeekdayTime="8:00 AM - 10:00 AM"
+            WeekdayTime="9:30 AM - 1:00 PM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
             FeeContent5="15 days refund policy"
@@ -214,10 +214,9 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-            cityTextDAPune={true}
-            cityTextJDAPune={true}
+              cityTextDAPune={true}
+              cityTextJDAPune={true}
               ProgramHead1={DAPuneCourseData[0].ProgramHead1}
- 
               ProgramBot1={DAPuneCourseData[0].ProgramBot1}
               ProgramBot2={DAPuneCourseData[0].ProgramBot2}
               ProgramBot3={DAPuneCourseData[0].ProgramBot3}
@@ -235,13 +234,9 @@ export default function Home() {
               ProgramBot31={DAPuneCourseData[0].ProgramBot31}
               ProgramHead4={DAPuneCourseData[0].ProgramHead4}
               ProgramHead5={DAPuneCourseData[0].ProgramHead5}
-            
-        
               CertificationHead1={DAPuneCourseData[0].CertificationHead1}
               CertificationBot3={DAPuneCourseData[0].CertificationBot3}
-
               ProgramHead6={DAPuneCourseData[0].ProgramHead6}
-          
               Courselink1={DAPuneCourseData[0].Courselink1}
               Courselink2={DAPuneCourseData[0].Courselink2}
               Courselink3={DAPuneCourseData[0].Courselink3}

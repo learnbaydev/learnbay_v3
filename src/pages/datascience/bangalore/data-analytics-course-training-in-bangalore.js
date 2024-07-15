@@ -178,14 +178,14 @@ export default function Home() {
           <FeeSection
             Fee="₹85,000"
             FeeEmi="₹5,572/month"
-            weekdaybatch="Weekday Batch"
+            weekdaybatch="Weekend Batch"
             weekendbatch="Weekday Batch"
-            weekday="MON - FRI"
+            weekday="SAT - SUN"
             weekend="MON - FRI"
-            WeekdayDate="JULY 12th"
-            WeekendDate="JULY 5th"
+            WeekdayDate="July 14th"
+            WeekendDate="August 2nd"
             WeekendTime="8:00 PM - 10:00 PM"
-            WeekdayTime="8:00 AM - 10:00 AM"
+            WeekdayTime="9:30 AM - 1:00 PM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
             FeeContent5="15 days refund policy"
@@ -212,7 +212,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-            cityTextJDAPune={true}
+              cityTextJDAPune={true}
               ProgramHead1={DABangaloreCourseData[0].ProgramHead1}
               ProgramBot1={DABangaloreCourseData[0].ProgramBot1}
               ProgramBot2={DABangaloreCourseData[0].ProgramBot2}
