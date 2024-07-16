@@ -84,7 +84,7 @@ const SecondPart = ({
         dataScienceCounselling={true}
         dataScience={true}
         // interstedInHide={interstedInHide}
-        titleCourse="Cloud Computing & DevOps Certification Program"
+        titleCourse="Certificate in AWS Cloud Computing & Devops"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf"
         buttonHide={true}
       />
@@ -110,7 +110,7 @@ const SecondPart = ({
         dataScienceCounselling={true}
         // interstedInHide={interstedInHide}
         dataScience={true}
-        titleCourse="Cloud Computing & DevOps Certification Program"
+        titleCourse="Certificate in AWS Cloud Computing & Devops"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf"
         // <EMI POPUP
         emiType="NO COST EMI"
@@ -129,7 +129,7 @@ const SecondPart = ({
 
       <DevOpsProject
         CloudAWs={true}
-        titleCourse="Cloud Computing & DevOps Certification Program"
+        titleCourse="Certificate in AWS Cloud Computing & Devops"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf"
         dataScience={true}
         // interstedInHide={true}
