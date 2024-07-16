@@ -138,7 +138,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       <JobAbroad data={JobData} dataScienceCounselling={true}
         interstedInHide={true}/>
       {/* <SecondSection SecondSectionData={SecondSectionData} /> */}
-      <SecondNavbar hideProjectLab={true} />
+      <SecondNavbar hideProjectLab={true} interstedInHide={true} dataScienceCounselling={true} />
       <Realstory/>
       <TrainerSection idss="eautK0odE7Q" />
       {/* <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} /> */}

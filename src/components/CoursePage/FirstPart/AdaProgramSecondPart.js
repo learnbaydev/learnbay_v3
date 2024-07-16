@@ -127,7 +127,7 @@ const ExecutiveSecondPart = ({
 
       <SliderTabs />
       <PlacementCall />
-      <MobileTestimonial />
+      <MobileTestimonial dataScienceCounselling={true} />
       <NewProjectSection
         dataScience={true}
         titleCourse="Masters in Computer Science: Data Science and AI"
@@ -139,7 +139,7 @@ const ExecutiveSecondPart = ({
 
       <SeventhSection />
       <Footer />
-      <BottomBar masterdegree={true} dataScienceCounselling={true} />
+      <BottomBar dataScienceCounselling={true} />
       <WhatsappFloat />
       {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
     </>

@@ -128,7 +128,6 @@ const ExecutiveFirstPart = ({
       <Navbar popup={true} dataScienceCounselling={true} />
       <FirstSection
         dataScienceCounselling={true}
-        interstedInHide={true}
         dataScience={true}
         FirstTyped="Guaranteed Interview Calls"
         SecondTyped="Capstone Project Certificate"
@@ -158,10 +157,6 @@ const ExecutiveFirstPart = ({
       <CloudDevopsecond data={DsSecond} />
       <JobAbroad
         data={JobData}
-
-        formbtn={formbtn}
-
-
       />
       <SecondNavbar dataScienceCounselling={true} />
       <Realstory />
