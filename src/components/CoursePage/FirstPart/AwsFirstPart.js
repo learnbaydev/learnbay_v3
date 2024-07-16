@@ -155,7 +155,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
           // interstedInHide={true}
           dataScience={true}
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf"
-          titleCourse="Advance Data Science & AI Program with Domain Specialization"
+          titleCourse="Certificate in AWS Cloud Computing & Devops"
         />
       )}
       {/* <WhoProgram
@@ -179,7 +179,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
         <ContactConsellor
           dataScience={true}
           // interstedInHide={true}
-          titleCourse="Advance Data Science & AI Program with Domain Specialization"
+          titleCourse="Certificate in AWS Cloud Computing & Devops"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf"
         />
       )}
