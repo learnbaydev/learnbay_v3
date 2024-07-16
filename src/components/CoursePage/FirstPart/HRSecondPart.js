@@ -117,7 +117,7 @@ const SecondPart = ({
       <MentorsSection />
       <SliderTab WithoutService={true} />
       <PlacementCall HRAnalyst={true} />
-      <MobileTestimonial />
+      <MobileTestimonial interstedInHide={true} dataScienceCounselling={true} />
       <NewProjectSection
         dataScience={true}
         titleCourse="HR Analytics Certification Program"

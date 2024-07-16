@@ -118,7 +118,7 @@ const SecondPart = ({
       <MentorsSection />
       <SliderTab WithoutService={true} />
       <PlacementCall Marketing={true} />
-      <MobileTestimonial />
+      <MobileTestimonial dataScienceCounselling={true} interstedInHide={true} />
       <NewProjectSection
         dataScience={true}
         titleCourse="Marketing Analytics Certification Program"

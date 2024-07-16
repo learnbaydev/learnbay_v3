@@ -119,7 +119,7 @@ const SecondPart = ({
       <MentorsSection />
       <SliderTab WithoutService={true} />
       <PlacementCall BFSI={true} />
-      <MobileTestimonial />
+      <MobileTestimonial interstedInHide={true} dataScienceCounselling={true} />
       {/* <NewProjectSection
         dataScience={true}
         titleCourse="Data Science & AI for BFSI Professionals"

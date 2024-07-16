@@ -140,7 +140,7 @@ const ExecutiveSecondPart = ({
 
       <SeventhSection />
       <Footer />
-      <BottomBar masterdegree={true} dataScienceCounselling={true} />
+      <BottomBar dataScienceCounselling={true} />
       <WhatsappFloat />
       {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
     </>
