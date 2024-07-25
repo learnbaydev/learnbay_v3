@@ -21,6 +21,7 @@ const Course = ({
   organicADS,
   dataScienceGeneric,
   interstedInHide,
+  brochurePdf
 }) => {
   const [courseArray, setCourseArray] = useState(courseDetails);
   const [mobile, setMobile] = useState(false);
@@ -60,6 +61,7 @@ const Course = ({
   
   const [titleCourse, setTitleCourse] = useState();
   const [brochureLinks, setBrochureLinks] = useState();
+  const [brochurePdfs, setBrochurePdf] = useState();
 
   useEffect(() => {
     let width = window.innerWidth;
@@ -114,6 +116,7 @@ const Course = ({
           <Form
             titleCourse={titleCourse}
             brochureLink={brochureLinks}
+            brochurePdf={brochurePdfs}
             dataScience={dataScience}
             dataScienceCounselling={dataScienceCounselling}
             dataScienceGeneric={dataScienceGeneric}
@@ -192,6 +195,7 @@ const Course = ({
                                 tagHead,
                                 titleCourse,
                                 brochureLinks,
+                                brochurePdfs,
                                 courseTime,
                                 Green,
                                 newDesign,
@@ -236,6 +240,7 @@ const Course = ({
                                         onClick={() => {
                                           setTitleCourse(titleCourse);
                                           setBrochureLinks(brochureLinks);
+                                          setBrochurePdf(brochurePdfs)
                                           popupShow();
                                         }}
                                         className={styles.imgWrap}
@@ -342,6 +347,7 @@ const Course = ({
                                             onClick={() => {
                                               setTitleCourse(titleCourse);
                                               setBrochureLinks(brochureLinks);
+                                              setBrochurePdf(brochurePdfs)
                                               popupShow();
                                             }}
                                           >
@@ -368,6 +374,7 @@ const Course = ({
                                               onClick={() => {
                                                 setTitleCourse(titleCourse);
                                                 setBrochureLinks(brochureLinks);
+                                                setBrochurePdf(brochurePdfs)
                                                 popupShow();
                                               }}
                                             >

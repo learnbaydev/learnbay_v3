@@ -739,6 +739,11 @@ export const CourseData = [
         url: "/datascience/data-science-for-bfsi-professional",
       },
       {
+        id: 8,
+        name: "Data Science and AI for Healthcare Professionals	",
+        url: "/datascience/data-science-and-ai-for-healthcare-professionals",
+      },
+      {
         id: 7,
         name: "Data Science and AI Certification Course for Managers and Leaders",
         url: "/datascience/data-science-ai-for-managers",

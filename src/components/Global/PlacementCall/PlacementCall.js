@@ -44,6 +44,28 @@ const BFSICourseData = [
   { title: "Insurance Actuary", imgSrc: "firstimg.webp", imgWidth: 400 },
 ];
 
+const HealthCareCourseData = [
+  {
+    title: "Biomedical Data Scientist",
+    imgSrc: "firstimg.webp",
+    imgWidth: 450,
+  },
+  { title: "Healthcare Data Engineer", imgSrc: "secondimg.webp", imgWidth: 400 },
+  {
+    title: "Healthcare Data Scientist",
+    imgSrc: "health-slide-bt.webp",
+    imgWidth: 400,
+  },
+  {
+    title: "Clinical Research Analyst",
+    imgSrc: "firstimg.webp",
+    imgWidth: 400,
+  },
+  { title: "Clinical Data Analyst", imgSrc: "health-slide-bt.webp", imgWidth: 400 },
+  { title: "Senior Data Scientist", imgSrc: "firstimg.webp", imgWidth: 450 },
+  { title: "Lab Data Analyst", imgSrc: " health-slide-bt.webp", imgWidth: 400 },
+];
+
 const HRCourseData = [
   { title: "HR Data Scientist", imgSrc: "secondimg.webp", imgWidth: 450 },
   { title: "Retantion Specialist", imgSrc: "thirdimg.webp", imgWidth: 400 },
@@ -106,7 +128,7 @@ const DevopsData = [
   // Add more data as needed
 ];
 
-const PlacementCall = ({ devops, Foundation, Marketing, HRAnalyst, BFSI }) => {
+const PlacementCall = ({ devops, Foundation, Marketing, HRAnalyst, BFSI, HealthCare }) => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -124,7 +146,7 @@ const PlacementCall = ({ devops, Foundation, Marketing, HRAnalyst, BFSI }) => {
 
   return (
     <>
-      {Foundation ? (
+      {HealthCare ? (
         <div className={styles.PlacementCallMain}>
           <div className={styles.title}>
             <h2>Dedicated Placement Cell </h2>
@@ -133,7 +155,7 @@ const PlacementCall = ({ devops, Foundation, Marketing, HRAnalyst, BFSI }) => {
           <div className={styles.margin}>
             <div className={styles.course}>
               <div className={styles.mbldiv}>
-                {foundationCourseData.map((course, index) => (
+                {HealthCareCourseData.map((course, index) => (
                   <div
                     className={`${styles.PlacementCallcourse} ${styles.scrollAnimation}`}
                     key={index}
@@ -145,55 +167,55 @@ const PlacementCall = ({ devops, Foundation, Marketing, HRAnalyst, BFSI }) => {
             </div>
           </div>
           <div className={styles.imgsection}>
-            <Image
+            <img
               src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/Dedicated-Placement-Cell.gif"
               width={600}
               height={200}
               loading="lazy"
               quality={40}
-              alt="animation-Img"
+              alt="Deidicated Placement Cell"
             />
           </div>
           <div className={styles.stttt}>
-            <div className={styles.rightSide}>
-              <Swiper
-                direction={"vertical"}
-                slidesPerView={1}
-                spaceBetween={30}
-                grabCursor={true}
-                loop={true}
-                autoplay={{
-                  delay: 2000,
-                  disableOnInteraction: false,
-                }}
-                modules={[Autoplay]}
-                className="mySwiper"
-              >
-                {foundationCourseData.map((course, index) => (
-                  <SwiperSlide className={styles.slide} key={index}>
-                    <div className={styles.slideWrap}>
-                      <div className={styles.number}>
-                        <div className={styles.imged}>
-                          <Image
-                            src={`https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/${foundationCourseData[index].imgSrc}`}
-                            height={60}
-                            width={course.imgWidth}
-                            loading="lazy"
-                            quality={40}
-                            alt="placement"
-                          />
+                <div className={styles.rightSide}>
+                  <Swiper
+                    direction={"vertical"}
+                    slidesPerView={1}
+                    spaceBetween={30}
+                    grabCursor={true}
+                    loop={true}
+                    autoplay={{
+                      delay: 2000,
+                      disableOnInteraction: false,
+                    }}
+                    modules={[Autoplay]}
+                    className="mySwiper"
+                  >
+                    {HealthCareCourseData.map((course, index) => (
+                      <SwiperSlide className={styles.slide} key={index}>
+                        <div className={styles.slideWrap}>
+                          <div className={styles.number}>
+                            <div className={styles.imged}>
+                              <Image
+                                src={`https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/${HealthCareCourseData[index].imgSrc}`}
+                                height={60}
+                                width={course.imgWidth}
+                                loading="lazy"
+                                quality={40}
+                                alt="placement"
+                              />
+                            </div>
+                          </div>
                         </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                ))}
-              </Swiper>
-            </div>
-          </div>
+                      </SwiperSlide>
+                    ))}
+                  </Swiper>
+                </div>
+              </div>
         </div>
       ) : (
         <>
-          {BFSI ? (
+          {Foundation ? (
             <div className={styles.PlacementCallMain}>
               <div className={styles.title}>
                 <h2>Dedicated Placement Cell </h2>
@@ -202,7 +224,7 @@ const PlacementCall = ({ devops, Foundation, Marketing, HRAnalyst, BFSI }) => {
               <div className={styles.margin}>
                 <div className={styles.course}>
                   <div className={styles.mbldiv}>
-                    {BFSICourseData.map((course, index) => (
+                    {foundationCourseData.map((course, index) => (
                       <div
                         className={`${styles.PlacementCallcourse} ${styles.scrollAnimation}`}
                         key={index}
@@ -214,13 +236,13 @@ const PlacementCall = ({ devops, Foundation, Marketing, HRAnalyst, BFSI }) => {
                 </div>
               </div>
               <div className={styles.imgsection}>
-                <img
+                <Image
                   src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/Dedicated-Placement-Cell.gif"
                   width={600}
                   height={200}
                   loading="lazy"
                   quality={40}
-                  alt="Deidicated Placement Cell"
+                  alt="animation-Img"
                 />
               </div>
               <div className={styles.stttt}>
@@ -238,13 +260,13 @@ const PlacementCall = ({ devops, Foundation, Marketing, HRAnalyst, BFSI }) => {
                     modules={[Autoplay]}
                     className="mySwiper"
                   >
-                    {BFSICourseData.map((course, index) => (
+                    {foundationCourseData.map((course, index) => (
                       <SwiperSlide className={styles.slide} key={index}>
                         <div className={styles.slideWrap}>
                           <div className={styles.number}>
                             <div className={styles.imged}>
                               <Image
-                                src={`https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/${courseData[index].imgSrc}`}
+                                src={`https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/${foundationCourseData[index].imgSrc}`}
                                 height={60}
                                 width={course.imgWidth}
                                 loading="lazy"
@@ -262,7 +284,7 @@ const PlacementCall = ({ devops, Foundation, Marketing, HRAnalyst, BFSI }) => {
             </div>
           ) : (
             <>
-              {HRAnalyst ? (
+              {BFSI ? (
                 <div className={styles.PlacementCallMain}>
                   <div className={styles.title}>
                     <h2>Dedicated Placement Cell </h2>
@@ -271,7 +293,7 @@ const PlacementCall = ({ devops, Foundation, Marketing, HRAnalyst, BFSI }) => {
                   <div className={styles.margin}>
                     <div className={styles.course}>
                       <div className={styles.mbldiv}>
-                        {HRCourseData.map((course, index) => (
+                        {BFSICourseData.map((course, index) => (
                           <div
                             className={`${styles.PlacementCallcourse} ${styles.scrollAnimation}`}
                             key={index}
@@ -289,6 +311,7 @@ const PlacementCall = ({ devops, Foundation, Marketing, HRAnalyst, BFSI }) => {
                       height={200}
                       loading="lazy"
                       quality={40}
+                      alt="Deidicated Placement Cell"
                     />
                   </div>
                   <div className={styles.stttt}>
@@ -306,7 +329,7 @@ const PlacementCall = ({ devops, Foundation, Marketing, HRAnalyst, BFSI }) => {
                         modules={[Autoplay]}
                         className="mySwiper"
                       >
-                        {HRCourseData.map((course, index) => (
+                        {BFSICourseData.map((course, index) => (
                           <SwiperSlide className={styles.slide} key={index}>
                             <div className={styles.slideWrap}>
                               <div className={styles.number}>
@@ -330,7 +353,7 @@ const PlacementCall = ({ devops, Foundation, Marketing, HRAnalyst, BFSI }) => {
                 </div>
               ) : (
                 <>
-                  {Marketing ? (
+                  {HRAnalyst ? (
                     <div className={styles.PlacementCallMain}>
                       <div className={styles.title}>
                         <h2>Dedicated Placement Cell </h2>
@@ -339,7 +362,7 @@ const PlacementCall = ({ devops, Foundation, Marketing, HRAnalyst, BFSI }) => {
                       <div className={styles.margin}>
                         <div className={styles.course}>
                           <div className={styles.mbldiv}>
-                            {MarketingCourseData.map((course, index) => (
+                            {HRCourseData.map((course, index) => (
                               <div
                                 className={`${styles.PlacementCallcourse} ${styles.scrollAnimation}`}
                                 key={index}
@@ -374,7 +397,7 @@ const PlacementCall = ({ devops, Foundation, Marketing, HRAnalyst, BFSI }) => {
                             modules={[Autoplay]}
                             className="mySwiper"
                           >
-                            {MarketingCourseData.map((course, index) => (
+                            {HRCourseData.map((course, index) => (
                               <SwiperSlide className={styles.slide} key={index}>
                                 <div className={styles.slideWrap}>
                                   <div className={styles.number}>
@@ -398,7 +421,7 @@ const PlacementCall = ({ devops, Foundation, Marketing, HRAnalyst, BFSI }) => {
                     </div>
                   ) : (
                     <>
-                      {devops ? (
+                      {Marketing ? (
                         <div className={styles.PlacementCallMain}>
                           <div className={styles.title}>
                             <h2>Dedicated Placement Cell </h2>
@@ -407,7 +430,7 @@ const PlacementCall = ({ devops, Foundation, Marketing, HRAnalyst, BFSI }) => {
                           <div className={styles.margin}>
                             <div className={styles.course}>
                               <div className={styles.mbldiv}>
-                                {DevopsData.map((course, index) => (
+                                {MarketingCourseData.map((course, index) => (
                                   <div
                                     className={`${styles.PlacementCallcourse} ${styles.scrollAnimation}`}
                                     key={index}
@@ -442,76 +465,7 @@ const PlacementCall = ({ devops, Foundation, Marketing, HRAnalyst, BFSI }) => {
                                 modules={[Autoplay]}
                                 className="mySwiper"
                               >
-                                {DevopsData.map((course, index) => (
-                                  <SwiperSlide
-                                    className={styles.slide}
-                                    key={index}
-                                  >
-                                    <div className={styles.slideWrap}>
-                                      <div className={styles.number}>
-                                        <div className={styles.imged}>
-                                          <Image
-                                            src={`https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/${DevopsData[index].imgSrc}`}
-                                            height={60}
-                                            width={course.imgWidth}
-                                            loading="lazy"
-                                            quality={40}
-                                            alt="placement"
-                                          />
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </SwiperSlide>
-                                ))}
-                              </Swiper>
-                            </div>
-                          </div>
-                        </div>
-                      ) : (
-                        <div className={styles.PlacementCallMain}>
-                          <div className={styles.title}>
-                            <h2>Dedicated Placement Cell</h2>
-                            <p>Job roles & companies you can target</p>
-                          </div>
-                          <div className={styles.margin}>
-                            <div className={styles.course}>
-                              <div className={styles.mbldiv}>
-                                {courseData.map((course, index) => (
-                                  <div
-                                    className={`${styles.PlacementCallcourse} ${styles.scrollAnimation}`}
-                                    key={index}
-                                  >
-                                    <p>{course.title}</p>
-                                  </div>
-                                ))}
-                              </div>
-                            </div>
-                          </div>
-                          <div className={styles.imgsection}>
-                            <img
-                              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/Dedicated-Placement-Cell.gif"
-                              width={600}
-                              height={200}
-                              loading="lazy"
-                              quality={40}
-                            />
-                          </div>
-                          <div className={styles.stttt}>
-                            <div className={styles.rightSide}>
-                              <Swiper
-                                direction={"vertical"}
-                                slidesPerView={1}
-                                spaceBetween={30}
-                                grabCursor={true}
-                                loop={true}
-                                autoplay={{
-                                  delay: 2000,
-                                  disableOnInteraction: false,
-                                }}
-                                modules={[Autoplay]}
-                                className="mySwiper"
-                              >
-                                {courseData.map((course, index) => (
+                                {MarketingCourseData.map((course, index) => (
                                   <SwiperSlide
                                     className={styles.slide}
                                     key={index}
@@ -536,6 +490,148 @@ const PlacementCall = ({ devops, Foundation, Marketing, HRAnalyst, BFSI }) => {
                             </div>
                           </div>
                         </div>
+                      ) : (
+                        <>
+                          {devops ? (
+                            <div className={styles.PlacementCallMain}>
+                              <div className={styles.title}>
+                                <h2>Dedicated Placement Cell </h2>
+                                <p>Job roles & companies you can target</p>
+                              </div>
+                              <div className={styles.margin}>
+                                <div className={styles.course}>
+                                  <div className={styles.mbldiv}>
+                                    {DevopsData.map((course, index) => (
+                                      <div
+                                        className={`${styles.PlacementCallcourse} ${styles.scrollAnimation}`}
+                                        key={index}
+                                      >
+                                        <p>{course.title}</p>
+                                      </div>
+                                    ))}
+                                  </div>
+                                </div>
+                              </div>
+                              <div className={styles.imgsection}>
+                                <img
+                                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/Dedicated-Placement-Cell.gif"
+                                  width={600}
+                                  height={200}
+                                  loading="lazy"
+                                  quality={40}
+                                />
+                              </div>
+                              <div className={styles.stttt}>
+                                <div className={styles.rightSide}>
+                                  <Swiper
+                                    direction={"vertical"}
+                                    slidesPerView={1}
+                                    spaceBetween={30}
+                                    grabCursor={true}
+                                    loop={true}
+                                    autoplay={{
+                                      delay: 2000,
+                                      disableOnInteraction: false,
+                                    }}
+                                    modules={[Autoplay]}
+                                    className="mySwiper"
+                                  >
+                                    {DevopsData.map((course, index) => (
+                                      <SwiperSlide
+                                        className={styles.slide}
+                                        key={index}
+                                      >
+                                        <div className={styles.slideWrap}>
+                                          <div className={styles.number}>
+                                            <div className={styles.imged}>
+                                              <Image
+                                                src={`https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/${DevopsData[index].imgSrc}`}
+                                                height={60}
+                                                width={course.imgWidth}
+                                                loading="lazy"
+                                                quality={40}
+                                                alt="placement"
+                                              />
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </SwiperSlide>
+                                    ))}
+                                  </Swiper>
+                                </div>
+                              </div>
+                            </div>
+                          ) : (
+                            <div className={styles.PlacementCallMain}>
+                              <div className={styles.title}>
+                                <h2>Dedicated Placement Cell</h2>
+                                <p>Job roles & companies you can target</p>
+                              </div>
+                              <div className={styles.margin}>
+                                <div className={styles.course}>
+                                  <div className={styles.mbldiv}>
+                                    {courseData.map((course, index) => (
+                                      <div
+                                        className={`${styles.PlacementCallcourse} ${styles.scrollAnimation}`}
+                                        key={index}
+                                      >
+                                        <p>{course.title}</p>
+                                      </div>
+                                    ))}
+                                  </div>
+                                </div>
+                              </div>
+                              <div className={styles.imgsection}>
+                                <img
+                                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/Dedicated-Placement-Cell.gif"
+                                  width={600}
+                                  height={200}
+                                  loading="lazy"
+                                  quality={40}
+                                />
+                              </div>
+                              <div className={styles.stttt}>
+                                <div className={styles.rightSide}>
+                                  <Swiper
+                                    direction={"vertical"}
+                                    slidesPerView={1}
+                                    spaceBetween={30}
+                                    grabCursor={true}
+                                    loop={true}
+                                    autoplay={{
+                                      delay: 2000,
+                                      disableOnInteraction: false,
+                                    }}
+                                    modules={[Autoplay]}
+                                    className="mySwiper"
+                                  >
+                                    {courseData.map((course, index) => (
+                                      <SwiperSlide
+                                        className={styles.slide}
+                                        key={index}
+                                      >
+                                        <div className={styles.slideWrap}>
+                                          <div className={styles.number}>
+                                            <div className={styles.imged}>
+                                              <Image
+                                                src={`https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/${courseData[index].imgSrc}`}
+                                                height={60}
+                                                width={course.imgWidth}
+                                                loading="lazy"
+                                                quality={40}
+                                                alt="placement"
+                                              />
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </SwiperSlide>
+                                    ))}
+                                  </Swiper>
+                                </div>
+                              </div>
+                            </div>
+                          )}
+                        </>
                       )}
                     </>
                   )}
