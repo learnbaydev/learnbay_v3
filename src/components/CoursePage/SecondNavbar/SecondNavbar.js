@@ -16,6 +16,7 @@ function SecondNavbar({
   dataScience,
   fullStack,
   brochureLink,
+  brochurePdf,
   titleCourse,
   dataScienceCounselling,
   hideProjectLab,
@@ -122,6 +123,7 @@ function SecondNavbar({
               radio={radio}
               titleCourse={titleCourse}
               brochureLink={brochureLink}
+              brochurePdf={brochurePdf}
               fullStack={fullStack}
               dataScience={dataScience}
               interstedInHide={interstedInHide}

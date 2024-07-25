@@ -112,6 +112,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
+  const pdfUrl = "/Brochure/hr-analytics.pdf"
   return (
     <>
       <Navbar dataScienceCounselling={true} interstedInHide={true} />
@@ -131,6 +132,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/HRHeader-min.webp"
         videoId="p1YDDqg1pEc"
         topHide={true}
+        brochurePdf={pdfUrl}
        
       />
       <MasterSecondSection data={seconddata} />
@@ -155,6 +157,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         titleCourse="HR Analytics Certification Program"
         interstedInHide={true}
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf"
+        brochurePdf={pdfUrl}
       />
     </>
   );

@@ -76,6 +76,7 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
+   const pdfUrl = "/Brochure/AWS.pdf"
   return (
     <div style={{ marginTop: "50px" }}>
       <LJourney />
@@ -86,6 +87,7 @@ const SecondPart = ({
         // interstedInHide={interstedInHide}
         titleCourse="Certificate in AWS Cloud Computing & Devops"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf"
+        brochurePdf={pdfUrl}
         buttonHide={true}
       />
       <ToolsCovered devops={true} mbldevops={mbldevops} />
@@ -112,6 +114,7 @@ const SecondPart = ({
         dataScience={true}
         titleCourse="Certificate in AWS Cloud Computing & Devops"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf"
+        brochurePdf={pdfUrl}
         // <EMI POPUP
         emiType="NO COST EMI"
         duration1="18 Months"
@@ -131,6 +134,7 @@ const SecondPart = ({
         CloudAWs={true}
         titleCourse="Certificate in AWS Cloud Computing & Devops"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf"
+        brochurePdf={pdfUrl}
         dataScience={true}
         // interstedInHide={true}
       />

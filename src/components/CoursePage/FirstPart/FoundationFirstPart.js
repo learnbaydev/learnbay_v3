@@ -120,6 +120,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
+  const pdfUrl ="/Brochure/data-science-ai-for-managers.pdf"
   return (
     <>
       <FirstSection
@@ -130,6 +131,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         titleCourse="Data Science Foundation Program"
         cityParaCont="Gain work experience of data scientist with real projects"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf"
+        brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Adv-dsai-_1_-min.webp"
         firstToparaImg="Foundation Program"
         firstHeading="Data Science"
@@ -154,6 +156,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         interstedInHide={true}
         dataScience={true}
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf"
+        brochurePdf={pdfUrl}
         titleCourse="Data Science Foundation Program"
       />
       <Realstory />
@@ -172,6 +175,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         interstedInHide={true}
         titleCourse="Data Science Foundation Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf"
+        brochurePdf={pdfUrl}
       />
     </>
   );

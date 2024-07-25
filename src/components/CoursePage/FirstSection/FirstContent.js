@@ -28,6 +28,7 @@ const FirstContent = ({
   upSkillingHide,
   dataScienceGeneric,
   brochureLink,
+  brochurePdf,
   dataScienceCounselling,
   downloadBrochure,
   fullStack,

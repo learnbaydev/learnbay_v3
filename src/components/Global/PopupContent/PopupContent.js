@@ -15,6 +15,7 @@ const PopupContent = ({
   upSkillingHide,
   titleCourse,
   brochureLink,
+  brochurePdf,
   dataScienceGeneric,
   interstedInHide,
   Domain,
@@ -43,6 +44,7 @@ const PopupContent = ({
           fullStack={fullStack}
           titleCourse={titleCourse}
           brochureLink={brochureLink}
+          brochurePdf={brochurePdf}
           dataScienceGeneric={dataScienceGeneric}
           upSkillingHide={upSkillingHide}
           interstedInHide={interstedInHide}

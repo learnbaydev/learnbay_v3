@@ -83,6 +83,7 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
+  const pdfUrl = "/Brochure/Data-Analytics-Certification.pdf"
   return (
     <div>
       <LJourney />
@@ -92,6 +93,7 @@ const SecondPart = ({
         dataScience={true}
         titleCourse="Data Analytics Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
+        brochurePdf={pdfUrl}
         interstedInHide={true}
         buttonHide={true}
       />
@@ -121,6 +123,7 @@ const SecondPart = ({
         dataScience={true}
         titleCourse="Data Analytics Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
+        brochurePdf={pdfUrl}
         // EMI POPUPDATA
         emiType="NO COST EMI"
         duration1="18 Months"
@@ -139,6 +142,7 @@ const SecondPart = ({
         dataScience={true}
         titleCourse="Data Analytics Certification Programs"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
+        brochurePdf={pdfUrl}
         projectSection={projectSection}
         interstedInHide={true}
       />

@@ -59,6 +59,7 @@ const FullStackSoftwareDevelopmentSecondPart = ({
     };
     fetchPopup();
   }, []);
+       const pdfUrl = "/Brochure/Software-Developer-Certification.pdf"
   return (
     <div>
       <LJourney />
@@ -68,6 +69,7 @@ const FullStackSoftwareDevelopmentSecondPart = ({
         dataScience={true}
         titleCourse="Software Development Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
+        brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}
       />
@@ -90,6 +92,7 @@ const FullStackSoftwareDevelopmentSecondPart = ({
         dataScienceCounselling={true}
         titleCourse="Software Development Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
+        brochurePdf={pdfUrl}
         dataScience={true}
         interstedInHide={true}
         // <EMI POPUP

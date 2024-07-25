@@ -74,6 +74,7 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
+  const pdfUrl = "/Brochure/Advance-AI-ML.pdf"
   return (
     <div className={styles.container}>
       <Head>
@@ -159,6 +160,7 @@ export default function Home() {
           interstedInHide={true}
           titleCourse="Machine Learning Course Training In Pune"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
+          brochurePdf={pdfUrl}
           idss="Jn2puEQC8yk"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/head/ML.png"
           firstHeading="Machine Learning Course "

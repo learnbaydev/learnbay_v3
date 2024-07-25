@@ -124,6 +124,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
+  const pdfUrl = "/Brochure/AI-For-Freshers.pdf"
   return (
     <>
       <FirstSection
@@ -134,6 +135,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         titleCourse="Data Science & AI Certification Program For Freshers"
         cityParaCont="Gain work experience of data scientist with real projects"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf"
+        brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Adv-dsai-_1_-min.webp"
         firstToparaImg="For Freshers"
         firstHeading="Data Science & AI Certification Program"
@@ -155,6 +157,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         interstedInHide={true}
         dataScience={true}
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf"
+        brochurePdf={pdfUrl}
         titleCourse="Data Science & AI Certification Program For Freshers"
       />
       <Realstory />
@@ -178,6 +181,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         interstedInHide={true}
         titleCourse="Data Science & AI Certification Program For Freshers"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf"
+        brochurePdf={pdfUrl}
       />
     </>
   );

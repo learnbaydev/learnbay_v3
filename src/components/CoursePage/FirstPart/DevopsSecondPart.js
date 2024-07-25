@@ -75,6 +75,7 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
+   const pdfUrl ="/Brochure/Cloud-and-Devops.pdf"
   return (
     <div style={{ marginTop: "50px" }}>
       <SyllabusNew
@@ -84,7 +85,9 @@ const SecondPart = ({
         // interstedInHide={interstedInHide}
         titleCourse="Cloud Computing & DevOps Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
+        brochurePdf={pdfUrl}
         buttonHide={true}
+
       />
       <ToolsCovered devops={true} mbldevops={mbldevops} />
       <Certificate data={CertificateData} />
@@ -110,6 +113,7 @@ const SecondPart = ({
         dataScience={true}
         titleCourse="Cloud Computing & DevOps Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
+        brochurePdf={pdfUrl}
         // <EMI POPUP
         emiType="NO COST EMI"
         duration1="18 Months"
@@ -129,6 +133,7 @@ const SecondPart = ({
         adsHide={adsHide}
         titleCourse="Cloud Computing & DevOps Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
+        brochurePdf={pdfUrl}
         dataScience={true}
         // interstedInHide={true}
       />

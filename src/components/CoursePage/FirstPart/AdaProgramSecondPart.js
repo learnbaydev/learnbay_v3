@@ -78,6 +78,7 @@ const ExecutiveSecondPart = ({
     };
     fetchPopup();
   }, []);
+    const pdfUrl = "/Brochure/Iit-Data-Analytics-Certifications.pdf"
   return (
     <>
       <GetHire />
@@ -91,6 +92,7 @@ const ExecutiveSecondPart = ({
         buttonHide={true}
         titleCourse="Masters in Computer Science: Data Science and AI"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf"
+        brochurePdf={pdfUrl}
         isGuwahati={true}
       />
       <ToolsCovered
@@ -132,6 +134,7 @@ const ExecutiveSecondPart = ({
         dataScience={true}
         titleCourse="Masters in Computer Science: Data Science and AI"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf"
+        brochurePdf={pdfUrl}
         projectSection={projectSection}
       />
       {/* <FAQNew FAQNewData={DataScienceMastersinCS[0].faq} /> */}

@@ -73,6 +73,7 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
+  const pdfUrl = "/Brochure/Business-Analytics-Program.pdf"
   return (
     <div className={styles.container}>
       <Head>
@@ -169,6 +170,7 @@ export default function Home() {
           interstedInHide={true}
           titleCourse="business analytics course training in canada"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
+          brochurePdf={pdfUrl}
           idss="CHut_wm-P2s"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/manager+header+image.webp"
           firstToparaImg="Training In Canada"
@@ -205,6 +207,7 @@ export default function Home() {
             interstedInHide={true}
             titleCourse="Business Analytics Certification Program"
             brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
+            brochurePdf={pdfUrl}
             dataScience={true}
             // EMI POPUPDATA
             emiType="NO COST EMI"

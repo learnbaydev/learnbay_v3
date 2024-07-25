@@ -73,6 +73,7 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
+    const pdfUrl = "/Brochure/Advanced-Data-Science.pdf"
   return (
     <div className={styles.container}>
       <Head>
@@ -239,6 +240,7 @@ export default function Home() {
           interstedInHide={true}
           titleCourse="Advanced Data Science and AI Program with domain specialization"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+          brochurePdf={pdfUrl}
           idss="YWxTtvb3x-U"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
           firstToparaImg=" - Enroll Now"
@@ -274,6 +276,7 @@ export default function Home() {
             dataScience={true}
             titleCourse="Advanced Data Science and AI Program with domain specialization"
             brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf"
+            brochurePdf={pdfUrl}
             // <EMI POPUP
             emiType="NO COST EMI"
             duration1="18 Months"

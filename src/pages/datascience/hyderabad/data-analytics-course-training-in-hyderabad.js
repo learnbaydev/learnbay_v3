@@ -73,6 +73,7 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
+  const pdfUrl = "/Brochure/Data-Analytics-Certification.pdf"
   return (
     <div className={styles.container}>
       <Head>
@@ -147,6 +148,7 @@ export default function Home() {
           cityParaCont=" Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."
           titleCourse="Data Analytics Course Training in Hyderabad"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
+          brochurePdf={pdfUrl}
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/data+analytics+header+image.webp"
           firstHeading="Data Analytics Course Training in Hyderabad"
           firstTopPara="First-Track Industrial Training For Early Professionals"
@@ -183,6 +185,7 @@ export default function Home() {
             dataScience={true}
             titleCourse="Data Analytics Certification Program"
             brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
+            brochurePdf={pdfUrl}
             // EMI POPUPDATA
             emiType="NO COST EMI"
             duration1="18 Months"

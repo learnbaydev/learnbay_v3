@@ -65,6 +65,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
+     const pdfUrl = "/Brochure/Software-Developer-Certification.pdf"
   return (
     <div>
       <Navbar
@@ -80,6 +81,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData }) => {
         titleCourse="Software Development Certification Program"
         cityParaCont="Upskill and switch from service-based to product-based companies"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
+        brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/fullhead.webp"
         firstToparaImg="Certification Program"
         firstHeading="Software Development "
@@ -113,6 +115,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData }) => {
       <ContactConsellor
         titleCourse="Software Development Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
+        brochurePdf={pdfUrl}
         dataScience={true}
         interstedInHide={true}
       />

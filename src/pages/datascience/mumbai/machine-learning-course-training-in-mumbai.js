@@ -74,6 +74,7 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
+  const pdfUrl = "/Brochure/Advance-AI-ML.pdf"
   return (
     <div className={styles.container}>
       <Head>
@@ -158,6 +159,7 @@ export default function Home() {
           interstedInHide={true}
           titleCourse="Machine Learning Program with domain specialization"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
+          brochurePdf={pdfUrl}
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/head/ML.png"
           firstToparaImg="Advance Program"
           firstHeading="Machine Learning Course Training in Mumbai "
@@ -193,6 +195,7 @@ export default function Home() {
             dataScience={true}
             titleCourse="AI & ML Program for tech professionals"
             brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf"
+            brochurePdf={pdfUrl}
             interstedInHide={true}
             // <EMI POPUP
             emiType="NO COST EMI"

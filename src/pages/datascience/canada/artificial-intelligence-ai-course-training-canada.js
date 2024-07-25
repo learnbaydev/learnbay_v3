@@ -73,6 +73,7 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
+   const pdfUrl = "/Brochure/Advance-AI-ML.pdf"
   return (
     <div className={styles.container}>
       <Head>
@@ -158,6 +159,7 @@ export default function Home() {
           interstedInHide={true}
           titleCourse="Data Science and AI Program For Manager & Leaders"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf"
+          brochurePdf={pdfUrl}
           idss="qxwIns6z2Bc"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Business-Analytics-Masters-Header.png"
           firstToparaImg="For Managers and Leaders"
@@ -194,6 +196,7 @@ export default function Home() {
             dataScience={true}
             titleCourse="AI & ML Program for tech professionals"
             brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf"
+            brochurePdf={pdfUrl}
             interstedInHide={true}
             // <EMI POPUP
             emiType="NO COST EMI"

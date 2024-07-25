@@ -73,6 +73,7 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
+  const pdfUrl = "/Brochure/Data-Analytics-Certification.pdf"
   return (
     <div className={styles.container}>
       <Head>
@@ -161,6 +162,7 @@ export default function Home() {
           interstedInHide={true}
           titleCourse="Data Analytics Program"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
+          brochurePdf={pdfUrl}
           idss="y_0IdhFKJKM"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/data+analytics+header+image.webp"
           firstToparaImg="Training in Dubai"
@@ -196,6 +198,7 @@ export default function Home() {
             dataScience={true}
             titleCourse="Data Analytics Certification Program"
             brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
+            brochurePdf={pdfUrl}
             // EMI POPUPDATA
             emiType="NO COST EMI"
             duration1="18 Months"

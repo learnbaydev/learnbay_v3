@@ -76,6 +76,7 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
+  const pdfUrl = "/Brochure/AI-For-Freshers.pdf"
   return (
     <div>
       <LJourney />
@@ -86,6 +87,7 @@ const SecondPart = ({
         interstedInHide={true}
         titleCourse="Data Science & AI Certification Program For Freshers"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf"
+        brochurePdf={pdfUrl}
         buttonHide={true}
       />
       <ToolsCovered Intern={true} />
@@ -115,6 +117,7 @@ const SecondPart = ({
         dataScience={true}
         titleCourse="Data Science & AI Certification Program For Freshers"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf"
+        brochurePdf={pdfUrl}
         // <EMI POPUP
         emiType="NO COST EMI"
         duration1="18 Months"
@@ -135,6 +138,7 @@ const SecondPart = ({
         interstedInHide={true}
         titleCourse="Data Science & AI Certification Program For Freshers"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf"
+        brochurePdf={pdfUrl}
         projectSection={projectSection}
       />
 

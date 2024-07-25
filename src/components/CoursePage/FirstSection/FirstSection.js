@@ -14,6 +14,7 @@ function FirstSection({
   firstTopPara,
   titleCourse,
   brochureLink,
+  brochurePdf,
   dataScienceCounselling,
   ibmOnly,
   cityParaCont,
@@ -51,6 +52,7 @@ function FirstSection({
         upSkillingHide={true}
         titleCourse={titleCourse}
         brochureLink={brochureLink}
+        brochurePdf={brochurePdf}
       />
       <VideoPopup triggers={video} setTriggers={setVideo} ids={idss} />
       <FirstContent
