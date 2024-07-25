@@ -13,6 +13,7 @@ const ContactCounsellor = ({
   interstedInHide,
   titleCourse,
   brochureLink,
+  brochurePdf,
 }) => {
   const [popups, setPopups] = useState(false);
 
@@ -86,6 +87,7 @@ const ContactCounsellor = ({
           <Form
             titleCourse={titleCourse}
             brochureLink={brochureLink}
+            brochurePdf={brochurePdf}
             dataScience={dataScience}
             interstedInHide={interstedInHide}
             dataScienceCounselling={dataScienceCounselling}

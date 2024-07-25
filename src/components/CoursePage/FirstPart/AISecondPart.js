@@ -81,6 +81,7 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
+  const pdfUrl = "/Brochure/Advance-AI-ML.pdf"
   return (
     <div>
       <LJourney />
@@ -90,6 +91,7 @@ const SecondPart = ({
         dataScience={true}
         titleCourse="AI & ML Program for tech professionals"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf"
+        brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}
       />
@@ -114,6 +116,7 @@ const SecondPart = ({
         dataScience={true}
         titleCourse="AI & ML Program for tech professionals"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf"
+        brochurePdf={pdfUrl}
         interstedInHide={true}
         // <EMI POPUP
         emiType="NO COST EMI"
@@ -134,6 +137,7 @@ const SecondPart = ({
         dataScience={true}
         titleCourse="AI & ML Program for tech professionals"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf"
+        brochurePdf={pdfUrl}
         projectSection={projectSection}
         interstedInHide={true}
       />

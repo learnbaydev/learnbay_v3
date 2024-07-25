@@ -109,6 +109,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
+      const pdfUrl = "/Brochure/Healthcare-Pharma-and-Clinical-Research-domain.pdf"
   return (
     <>
       <Navbar dataScienceCounselling={true} interstedInHide={true} />
@@ -120,6 +121,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         titleCourse="Data Science & AI for Healthcare Professionals"
         cityParaCont="Empowering Healthcare professionals with Data Driven Insights"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Healthcare-Pharma-and-Clinical-Research-domain.pdf"
+        brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BFSIHeader-min.webp"
         firstToparaImg="for Healthcare Professionals"
         firstHeading="Data Science & AI Certification Program"
@@ -151,6 +153,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         titleCourse="Data Science & AI for Healthcare Professionals"
         interstedInHide={true}
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Healthcare-Pharma-and-Clinical-Research-domain.pdf"
+        brochurePdf={pdfUrl}
       />
     </>
   );

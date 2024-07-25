@@ -76,6 +76,7 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
+  const pdfUrl = "/Brochure/AI-Master-Certification.pdf"
   return (
     <div>
       <LJourney />
@@ -86,6 +87,7 @@ const SecondPart = ({
         interstedInHide={true}
         titleCourse="Advanced Data Science and AI Program with domain specialization"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf"
+        brochurePdf={pdfUrl}
         buttonHide={true}
       />
       <ToolsCovered />
@@ -110,6 +112,7 @@ const SecondPart = ({
         dataScience={true}
         titleCourse="Advanced Data Science and AI Program with domain specialization"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf"
+        brochurePdf={pdfUrl}
         // <EMI POPUP
         emiType="NO COST EMI"
         duration1="18 Months"
@@ -130,6 +133,7 @@ const SecondPart = ({
         interstedInHide={true}
         titleCourse="Advanced Data Science and AI Program with domain specialization"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf"
+        brochurePdf={pdfUrl}
         projectSection={projectSection}
       />
 

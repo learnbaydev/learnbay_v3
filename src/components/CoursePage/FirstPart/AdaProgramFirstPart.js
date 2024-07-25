@@ -120,6 +120,7 @@ const ExecutiveFirstPart = ({
       alt: "Banner Image 1 Alt",
     },
   };
+  const pdfUrl = "/Brochure/Iit-Data-Analytics-Certifications.pdf"
   return (
     <>
       {" "}
@@ -132,6 +133,7 @@ const ExecutiveFirstPart = ({
         ThirdTyped="Live Interactive Classes"
         titleCourse="AI & ML Program for tech professionals"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Copy+of+Data+Analytics+Certification+Program_compress.pdf"
+        brochurePdf={pdfUrl}
         idss="KcQfbuwJBmU"
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ai-ml-main.webp"
         firstHeading="Advance   "

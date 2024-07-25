@@ -25,10 +25,12 @@ function careerHome({
   const [popups, setPopups] = useState(false);
   const [titleCourse, setTitleCourse] = useState();
   const [brochureLinks, setBrochureLinks] = useState();
+  const [brochurePdfs, setBrochurePdfs]= useState();
 
-  const popupShow = (title, link) => {
+  const popupShow = (title, link, linkTwo) => {
     setTitleCourse(title);
     setBrochureLinks(link);
+    setBrochurePdfs(linkTwo);
     setPopups(true);
   };
 
@@ -66,6 +68,7 @@ function careerHome({
           <Form
             titleCourse={titleCourse}
             brochureLink={brochureLinks}
+            brochurePdf={brochurePdfs}
             dataScience={dataScience}
             dataScienceCounselling={dataScienceCounselling}
             dataScienceGeneric={dataScienceGeneric}
@@ -163,7 +166,8 @@ function careerHome({
                       onClick={() => {
                         popupShow(
                           "Manufacturing Course",
-                          "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf"
+                          "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf",
+                          "/Brochure/Manufacturing.pdf"
                         );
                       }}
                     />
@@ -199,7 +203,8 @@ function careerHome({
                       onClick={() => {
                         popupShow(
                           "HR & Sales Course",
-                          "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales%2C+Marketing+and+HR+Domain.pdf"
+                          "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales%2C+Marketing+and+HR+Domain.pdf",
+                          "/Brochure/Sales-Marketing.pdf"
                         );
                       }}
                     />
@@ -235,7 +240,9 @@ function careerHome({
                       onClick={() => {
                         popupShow(
                           "BFSI Course",
-                          "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf"
+                          "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf",
+                          "/Brochure/Banking-Finance.pdf"
+                         
                         );
                       }}
                     />
@@ -271,7 +278,8 @@ function careerHome({
                       onClick={() => {
                         popupShow(
                           "Managers & Leader Course",
-                          "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
+                          "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+                          "/Brochure/data-science-ai-for-managers.pdf",
                         );
                       }}
                     />

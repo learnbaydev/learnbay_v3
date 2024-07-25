@@ -109,6 +109,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
+  const pdfUrl = "/Brochure/BFSI.pdf"
   return (
     <>
       <Navbar dataScienceCounselling={true} interstedInHide={true} />
@@ -120,6 +121,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         titleCourse="Data Science & AI for BFSI Professionals"
         cityParaCont="Empower Your BFSI Journey with Data Science and AI Skills"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf"
+        brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BFSIHeader-min.webp"
         firstToparaImg="for BFSI Professionals"
         firstHeading="Data Science & AI Certification Program"
@@ -151,6 +153,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         titleCourse="Data Science & AI for BFSI Professionals"
         interstedInHide={true}
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf"
+        brochurePdf={pdfUrl}
       />
     </>
   );

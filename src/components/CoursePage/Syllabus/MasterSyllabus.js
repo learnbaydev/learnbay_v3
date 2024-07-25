@@ -13,6 +13,7 @@ function SyllabusNew({
   fullStack,
   titleCourse,
   brochureLink,
+   brochurePdf,
   buttonHide,
   dataScienceCounselling,
   interstedInHide,
@@ -33,6 +34,7 @@ function SyllabusNew({
           downloadBrochure
           titleCourse={titleCourse}
           brochureLink={brochureLink}
+           brochurePdf={brochurePdf}
           interstedInHide={interstedInHide}
           upSkillingHide={true}
           popups={popups}
@@ -86,6 +88,7 @@ function SyllabusNew({
                 interstedInHide={interstedInHide}
                 titleCourse={titleCourse}
                 brochureLink={brochureLink}
+                brochurePdf={brochurePdf}
                 fullStack={fullStack}
                 syllabus={true}
                 upSkillingHide={true}

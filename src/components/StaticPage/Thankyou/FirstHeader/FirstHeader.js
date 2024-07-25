@@ -41,7 +41,7 @@ const FirstHeader = ({ donwnload, brochureLink }) => {
           </PopupButton> */}
           {donwnload ? (
             <a href={brochureLink}>
-              <button className={styles.btnDownload}>Download Syllabus</button>
+              <button className={styles.btnDownload}>View Syllabus</button>
             </a>
           ) : (
             ""

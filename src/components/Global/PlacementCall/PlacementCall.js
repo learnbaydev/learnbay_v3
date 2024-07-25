@@ -47,13 +47,13 @@ const BFSICourseData = [
 const HealthCareCourseData = [
   {
     title: "Biomedical Data Scientist",
-    imgSrc: "secondimg.webp",
+    imgSrc: "firstimg.webp",
     imgWidth: 450,
   },
-  { title: "Healthcare Data Engineer", imgSrc: "thirdimg.webp", imgWidth: 400 },
+  { title: "Healthcare Data Engineer", imgSrc: "secondimg.webp", imgWidth: 400 },
   {
     title: "Healthcare Data Scientist",
-    imgSrc: "secondimg.webp",
+    imgSrc: "health-slide-bt.webp",
     imgWidth: 400,
   },
   {
@@ -61,9 +61,9 @@ const HealthCareCourseData = [
     imgSrc: "firstimg.webp",
     imgWidth: 400,
   },
-  { title: "Clinical Data Analyst", imgSrc: "secondimg.webp", imgWidth: 400 },
-  { title: "Senior Data Scientist", imgSrc: "secondimg.webp", imgWidth: 450 },
-  { title: "Lab Data Analyst", imgSrc: "firstimg.webp", imgWidth: 400 },
+  { title: "Clinical Data Analyst", imgSrc: "health-slide-bt.webp", imgWidth: 400 },
+  { title: "Senior Data Scientist", imgSrc: "firstimg.webp", imgWidth: 450 },
+  { title: "Lab Data Analyst", imgSrc: " health-slide-bt.webp", imgWidth: 400 },
 ];
 
 const HRCourseData = [
@@ -177,41 +177,41 @@ const PlacementCall = ({ devops, Foundation, Marketing, HRAnalyst, BFSI, HealthC
             />
           </div>
           <div className={styles.stttt}>
-            <div className={styles.rightSide}>
-              <Swiper
-                direction={"vertical"}
-                slidesPerView={1}
-                spaceBetween={30}
-                grabCursor={true}
-                loop={true}
-                autoplay={{
-                  delay: 2000,
-                  disableOnInteraction: false,
-                }}
-                modules={[Autoplay]}
-                className="mySwiper"
-              >
-                {HealthCareCourseData.map((course, index) => (
-                  <SwiperSlide className={styles.slide} key={index}>
-                    <div className={styles.slideWrap}>
-                      <div className={styles.number}>
-                        <div className={styles.imged}>
-                          <Image
-                            src={`https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/${courseData[index].imgSrc}`}
-                            height={60}
-                            width={course.imgWidth}
-                            loading="lazy"
-                            quality={40}
-                            alt="placement"
-                          />
+                <div className={styles.rightSide}>
+                  <Swiper
+                    direction={"vertical"}
+                    slidesPerView={1}
+                    spaceBetween={30}
+                    grabCursor={true}
+                    loop={true}
+                    autoplay={{
+                      delay: 2000,
+                      disableOnInteraction: false,
+                    }}
+                    modules={[Autoplay]}
+                    className="mySwiper"
+                  >
+                    {HealthCareCourseData.map((course, index) => (
+                      <SwiperSlide className={styles.slide} key={index}>
+                        <div className={styles.slideWrap}>
+                          <div className={styles.number}>
+                            <div className={styles.imged}>
+                              <Image
+                                src={`https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/${HealthCareCourseData[index].imgSrc}`}
+                                height={60}
+                                width={course.imgWidth}
+                                loading="lazy"
+                                quality={40}
+                                alt="placement"
+                              />
+                            </div>
+                          </div>
                         </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                ))}
-              </Swiper>
-            </div>
-          </div>
+                      </SwiperSlide>
+                    ))}
+                  </Swiper>
+                </div>
+              </div>
         </div>
       ) : (
         <>

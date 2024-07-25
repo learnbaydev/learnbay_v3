@@ -74,6 +74,7 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
+    const pdfUrl = "/Brochure/Masters-in-CS.pdf"
   return (
     <>
       <GetHire />
@@ -85,6 +86,7 @@ const SecondPart = ({
         MastersContent={true}
         titleCourse="Masters in Computer Science: Data Science and AI"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf"
+        brochurePdf={pdfUrl}
       />
       <ToolsCovered
         deskImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Tools-Logo.png"
@@ -126,6 +128,7 @@ const SecondPart = ({
         dataScience={true}
         titleCourse="Masters in Computer Science: Data Science and AI"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf"
+        brochurePdf={pdfUrl}
         projectSection={projectSection}
       />
       {/* <FAQNew FAQNewData={DataScienceMastersinCS[0].faq} /> */}

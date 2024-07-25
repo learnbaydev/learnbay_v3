@@ -97,6 +97,7 @@ const DmdPart = ({ CertificateData, S3RightImage, projectSection }) => {
       url: "https://www.business-standard.com/content/press-releases-ani/learnbay-collaborates-with-woolf-to-launch-master-s-degree-in-computer-science-data-science-specializations-123112000350_1.html",
     },
   ];
+   const pdfUrl = "/Brochure/Dmd-Cloud-and-Devops-Certification.pdf"
   return (
     <div>
       <FirstSection
@@ -104,6 +105,7 @@ const DmdPart = ({ CertificateData, S3RightImage, projectSection }) => {
         titleCourse="Advanced Cloud Computing & DevOps Certification Program"
         cityParaCont="Elevate your career to a Cloud Solution Architect or DevOps Engineer"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
+        brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-first-devops-min.webp"
         firstToparaImg=""
         firstHeading="Cloud Computing & DevOps Certification Program"
@@ -144,6 +146,7 @@ const DmdPart = ({ CertificateData, S3RightImage, projectSection }) => {
         interstedInHide={true}
         titleCourse="Advanced Data Science and AI Program with domain specialization"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+        brochurePdf={pdfUrl}
         projectSection={projectSection}
         DomainInput={true}
         Domain={true}

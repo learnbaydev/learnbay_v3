@@ -123,6 +123,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
       alt: "Banner Image 1 Alt",
     },
   };
+   const pdfUrl = "/Brochure/AWS.pdf"
 
   return (
     <>
@@ -134,6 +135,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
           titleCourse="Certificate in AWS Cloud Computing & Devops"
           cityParaCont="Lead the digital world with Cloud expertise"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf"
+          brochurePdf={pdfUrl}
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-first-devops-min.webp"
           firstToparaImg=" AWS Cloud Computing & Devops"
           firstHeading="Certificate in"
@@ -155,6 +157,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
           // interstedInHide={true}
           dataScience={true}
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf"
+          brochurePdf={pdfUrl}
           titleCourse="Certificate in AWS Cloud Computing & Devops"
         />
       )}
@@ -181,6 +184,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
           // interstedInHide={true}
           titleCourse="Certificate in AWS Cloud Computing & Devops"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf"
+          brochurePdf={pdfUrl}
         />
       )}
     </>

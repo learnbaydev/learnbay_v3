@@ -126,6 +126,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
+  const pdfUrl = "/Brochure/Advanced-Data-Science.pdf"
   return (
     <>
       <FirstSection
@@ -136,6 +137,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         titleCourse="Advanced Data Science & AI Program with Domain Specialization"
         cityParaCont="Gain work experience of data scientist with real projects"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+        brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Adv-dsai-_1_-min.webp"
         firstToparaImg="with Domain Specialization"
         firstHeading="Advanced Data Science & AI Program"
@@ -153,7 +155,9 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         interstedInHide={true}
         dataScience={true}
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+        brochurePdf={pdfUrl}
         titleCourse="Advance Data Science & AI Program with Domain Specialization"
+        
       />
       <WhoProgram
         dataScience={true}
@@ -177,6 +181,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         interstedInHide={true}
         titleCourse="Advance Data Science & AI Program with Domain Specialization"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+        brochurePdf={pdfUrl}
       />
     </>
   );

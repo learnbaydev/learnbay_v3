@@ -127,6 +127,7 @@ const DataAnlyticsFirstPart = ({
       alt: "Banner Image 1 Alt",
     },
   };
+    const pdfUrl = "/Brochure/Data-Analytics-Certification.pdf"
   return (
     <>
       <Navbar dataScienceCounselling={true} interstedInHide={true} />
@@ -138,6 +139,7 @@ const DataAnlyticsFirstPart = ({
         titleCourse="Data Analytics Certification Program"
         cityParaCont="Upskill yourself to the top within 6 months with curriculum designed by industry experts"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
+        brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/dahead.webp"
         firstToparaImg="for Non-Tech Professionals"
         firstHeading="Data Analytics Certification Program"
@@ -162,6 +164,7 @@ const DataAnlyticsFirstPart = ({
         interstedInHide={true}
         hideProjectLab={true}
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
+        brochurePdf={pdfUrl}
       />
       {/* <WhoProgram
         dataScience={true}
@@ -185,6 +188,7 @@ const DataAnlyticsFirstPart = ({
         dataScience={true}
         interstedInHide={true}
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf"
+        brochurePdf={pdfUrl}
       />
     </>
   );

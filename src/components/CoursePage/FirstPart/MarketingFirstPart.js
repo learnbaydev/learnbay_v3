@@ -114,6 +114,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
+const pdfUrl = "/Brochure/marketing-analytics.pdf"
   return (
     <>
       <Navbar dataScienceCounselling={true} interstedInHide={true} />
@@ -125,6 +126,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         titleCourse="Marketing Analytics Certification Program"
         cityParaCont="Empowering Marketers with Data-Driven Excellence"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Marketing+Analytics+Certification+Program.pdf"
+        brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/MarketingHeader-min.webp"
         firstToparaImg="for Marketing Professionals"
         firstHeading="Marketing Analytics Certification Program"
@@ -133,6 +135,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/MarketingHeader-min.webp"
         videoId="W-WSqLl8_5o"
         topHide={true}
+
       
       />
       <MasterSecondSection data={seconddata} />
@@ -157,6 +160,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         titleCourse="Marketing Analytics Certification Program"
         interstedInHide={true}
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Marketing+Analytics+Certification+Program.pdf"
+        brochurePdf={pdfUrl}
       />
     </>
   );

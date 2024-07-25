@@ -14,6 +14,7 @@ const DevOpsProject = ({
   interstedInHide,
   adsHide,
   CloudAWs,
+  brochurePdf,
 }) => {
   const projectImg = [
     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/c3.webp",
@@ -62,6 +63,7 @@ const DevOpsProject = ({
               titleCourse={titleCourse}
               brochureLink={brochureLink}
               interstedInHide={interstedInHide}
+              brochurePdf={brochurePdf}
             />
           </Suspense>
         </div>

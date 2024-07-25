@@ -78,6 +78,7 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
+   const pdfUrl ="/Brochure/data-science-ai-for-managers.pdf"
   return (
     <div>
       <LJourney />
@@ -88,6 +89,7 @@ const SecondPart = ({
         interstedInHide={true}
         titleCourse="Data Science Foundation Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf"
+        brochurePdf={pdfUrl}
         buttonHide={true}
       />
       <ToolsCovered Found={true} />
@@ -112,6 +114,7 @@ const SecondPart = ({
         dataScience={true}
         titleCourse="Data Science Foundation Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf"
+        brochurePdf={pdfUrl}
         // <EMI POPUP
         emiType="NO COST EMI"
         duration1="18 Months"
@@ -132,6 +135,7 @@ const SecondPart = ({
         interstedInHide={true}
         titleCourse="Data Science Foundation Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+Foundation+Program.pdf"
+        brochurePdf={pdfUrl}
         projectSection={projectSection}
       />
 

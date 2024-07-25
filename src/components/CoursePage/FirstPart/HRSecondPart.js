@@ -71,6 +71,8 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
+
+  const pdfUrl = "/Brochure/hr-analytics.pdf"
   return (
     <div>
       <LJourney />
@@ -80,6 +82,7 @@ const SecondPart = ({
         dataScience={true}
         titleCourse="HR Analytics Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf"
+        brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}
       />
@@ -104,6 +107,7 @@ const SecondPart = ({
         interstedInHide={true}
         titleCourse="HR Analytics Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf"
+        brochurePdf={pdfUrl}
         dataScience={true}
         emiType="NO COST EMI"
         duration1="18 Months"
@@ -122,6 +126,7 @@ const SecondPart = ({
         dataScience={true}
         titleCourse="HR Analytics Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf"
+        brochurePdf={pdfUrl}
         projectSection={projectSection}
         interstedInHide={true}
       />

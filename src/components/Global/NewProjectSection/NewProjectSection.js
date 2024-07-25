@@ -16,6 +16,7 @@ function NewProjectSection({
   dataScience,
   titleCourse,
   brochureLink,
+  brochurePdf,
   interstedInHide,
   Domain,
   DomainInput,
@@ -54,6 +55,7 @@ function NewProjectSection({
               upSkillingHide={true}
               titleCourse={titleCourse}
               brochureLink={brochureLink}
+              brochurePdf={brochurePdf}
               interstedInHide={interstedInHide}
               Domain={Domain}
               DomainInput={DomainInput}

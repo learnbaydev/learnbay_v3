@@ -73,6 +73,7 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
+  const pdfUrl = "/Brochure/Advance-AI-ML.pdf"
   return (
     <div className={styles.container}>
       <Head>
@@ -192,6 +193,7 @@ export default function Home() {
             dataScience={true}
             titleCourse="AI & ML Program for tech professionals"
             brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf"
+            brochurePdf={pdfUrl}
             interstedInHide={true}
             // <EMI POPUP
             emiType="NO COST EMI"

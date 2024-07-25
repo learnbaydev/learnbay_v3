@@ -28,6 +28,7 @@ function FirstSection({
   cityParaCont,
   cityPara,
   interstedInHide,
+  brochurePdf,
 }) {
   const [popups, setPopups] = useState(false);
   const [video, setVideo] = useState(false);
@@ -80,6 +81,7 @@ function FirstSection({
                 upSkillingHide={true}
                 titleCourse={titleCourse}
                 brochureLink={brochureLink}
+                brochurePdf={brochurePdf}
                 interstedInHide={interstedInHide}
               />
             </Suspense>

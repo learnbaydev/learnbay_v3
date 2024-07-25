@@ -71,6 +71,7 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
+  const pdfUrl = "/Brochure/marketing-analytics.pdf"
   return (
     <div>
       <LJourney />
@@ -80,6 +81,7 @@ const SecondPart = ({
         dataScience={true}
         titleCourse="Marketing Analytics Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Marketing+Analytics+Certification+Program.pdf"
+        brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}
       />
@@ -104,6 +106,7 @@ const SecondPart = ({
         interstedInHide={true}
         titleCourse="Marketing Analytics Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Marketing+Analytics+Certification+Program.pdf"
+        brochurePdf={pdfUrl}
         dataScience={true}
         // <EMI POPUP
         emiType="NO COST EMI"
@@ -123,6 +126,7 @@ const SecondPart = ({
         dataScience={true}
         titleCourse="Marketing Analytics Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Marketing+Analytics+Certification+Program.pdf"
+        brochurePdf={pdfUrl}
         projectSection={projectSection}
         interstedInHide={true}
       />

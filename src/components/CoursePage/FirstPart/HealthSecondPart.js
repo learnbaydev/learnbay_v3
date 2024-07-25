@@ -72,6 +72,7 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
+      const pdfUrl = "/Brochure/Healthcare-Pharma-and-Clinical-Research-domain.pdf"
   return (
     <div>
       <LJourney />
@@ -81,6 +82,7 @@ const SecondPart = ({
         dataScience={true}
         titleCourse="Data Science & AI for BFSI Professionals"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Healthcare-Pharma-and-Clinical-Research-domain.pdf"
+        brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}
       />
@@ -105,6 +107,7 @@ const SecondPart = ({
         interstedInHide={true}
         titleCourse="Data Science & AI for BFSI Professionals"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Healthcare-Pharma-and-Clinical-Research-domain.pdf"
+        brochurePdf={pdfUrl}
         dataScience={true}
         // EMI POPUPDATA
         emiType="NO COST EMI"
@@ -124,6 +127,7 @@ const SecondPart = ({
         dataScience={true}
         titleCourse="Data Science & AI for BFSI Professionals"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Healthcare-Pharma-and-Clinical-Research-domain.pdf"
+        brochurePdf={pdfUrl}
         projectSection={projectSection}
         interstedInHide={true}
       /> */}

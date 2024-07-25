@@ -10,6 +10,7 @@ import {
   getValidation,
   redirectionThankYou,
 } from "./formFunction";
+
 const Form = ({
   popup,
   setTrigger,
@@ -29,6 +30,7 @@ const Form = ({
   interstedInHide,
   Domain,
   DomainInput,
+  brochurePdf,
 }) => {
   const router = useRouter();
   const [formFields, setFormFields] = useState(
@@ -37,6 +39,7 @@ const Form = ({
   const [formField, setFormField] = useState(
     getFormFields(radio, google, referrals, interstedInHide)
   );
+  
 
   const [value, setValue] = useState();
   const [error, setError] = useState();
@@ -92,6 +95,7 @@ const Form = ({
   if (learning) {
     btnText = "Download Resources";
   }
+
   const formSubmit = async (e) => {
     e.preventDefault();
     setSubmitting(true); // Set submitting state to true
@@ -154,6 +158,9 @@ const Form = ({
         }
 
         if (sendData.status === 200) {
+          if (downloadBrochure) {
+            downloadFileAtUrl(brochurePdf); // Download the brochure only after a successful submission
+          }
           router.push(
             pushPath,
             dataScience
@@ -162,6 +169,7 @@ const Form = ({
                   query: {
                     titleCourse: titleCourse,
                     brochureLink: brochureLink,
+                    
                   },
                 }
               : {
@@ -174,6 +182,17 @@ const Form = ({
     } catch (error) {
       console.error("Error submitting form:", error.message);
     }
+  };
+
+
+
+  const downloadFileAtUrl = (url) => {
+    const aTag = document.createElement('a');
+    aTag.href = url;
+    aTag.download = url.split('/').pop();
+    document.body.appendChild(aTag);
+    aTag.click();
+    document.body.removeChild(aTag);
   };
 
   const fetchLocation = async () => {
@@ -202,6 +221,7 @@ const Form = ({
       };
     }
   };
+
   return (
     <div className={styles.App}>
       <form onSubmit={formSubmit}>
@@ -316,6 +336,7 @@ const Form = ({
                   )
               )}
         </>
+
         <input name="country" value={query.country} type="hidden" />
         <input name="region" value={query.region} type="hidden" />
         <input name="city" value={query.city} type="hidden" />
@@ -323,8 +344,7 @@ const Form = ({
           <p className={styles.errorMsg}>
             Please fill all the fields marked with *
           </p>
-        )}
-        {popup && (
+        )}        {popup && (
           <input type="hidden" id="url" name="url" value={router.asPath} />
         )}
         <div>{toggle ? "" : <p className={styles.alert}>{alertMSG}</p>}</div>
@@ -338,6 +358,7 @@ const Form = ({
               type="submit"
               className={styles.button}
               disabled={submitting}
+              onClick={() => setToggle(true)}
             >
               {submitting
                 ? "Submitting..."
@@ -355,6 +376,7 @@ const Form = ({
             <button
               type="submit"
               className={styles.button}
+              onClick={() => setToggle(true)}
               disabled={submitting}
             >
               {submitting
@@ -366,8 +388,27 @@ const Form = ({
           </>
         )}
         <input type="hidden" id="zc_gad" name="zc_gad" value="" />
+        {alertMSG === "" ? (
+          ""
+        ) : (
+          <p
+            style={{
+              fontSize: "12px",
+              color: "red",
+              marginTop: "-10px",
+              marginBottom: "10px",
+            }}
+          >
+            {alertMSG}
+          </p>
+        )}
+        <p className={styles.formWrapper} style={{ color: "red" }}>
+          {error}
+        </p>
+        
       </form>
     </div>
   );
 };
+
 export default Form;
