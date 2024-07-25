@@ -23,6 +23,11 @@ export const TabData = [
         hours: "5 Months",
         url: "/datascience/marketing-analytics",
       },
+      {
+        CName: "Data Science & AI for Healthcare Professionals",
+        hours: "5 Months",
+        url: "/datascience/data-science-and-ai-for-healthcare-professionals",
+      },
     ],
   },
   {
