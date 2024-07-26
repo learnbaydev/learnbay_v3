@@ -50,7 +50,11 @@ const HealthCareCourseData = [
     imgSrc: "firstimg.webp",
     imgWidth: 450,
   },
-  { title: "Healthcare Data Engineer", imgSrc: "secondimg.webp", imgWidth: 400 },
+  {
+    title: "Healthcare Data Engineer",
+    imgSrc: "secondimg.webp",
+    imgWidth: 400,
+  },
   {
     title: "Healthcare Data Scientist",
     imgSrc: "health-slide-bt.webp",
@@ -61,9 +65,13 @@ const HealthCareCourseData = [
     imgSrc: "firstimg.webp",
     imgWidth: 400,
   },
-  { title: "Clinical Data Analyst", imgSrc: "health-slide-bt.webp", imgWidth: 400 },
-  { title: "Senior Data Scientist", imgSrc: "firstimg.webp", imgWidth: 450 },
-  { title: "Lab Data Analyst", imgSrc: " health-slide-bt.webp", imgWidth: 400 },
+  { title: "Clinical Data Analyst", imgSrc: "secondimg.webp", imgWidth: 400 },
+  {
+    title: "Senior Data Scientist",
+    imgSrc: "health-slide-bt.webp",
+    imgWidth: 450,
+  },
+  { title: "Lab Data Analyst", imgSrc: "firstimg.webp ", imgWidth: 400 },
 ];
 
 const HRCourseData = [
@@ -128,7 +136,14 @@ const DevopsData = [
   // Add more data as needed
 ];
 
-const PlacementCall = ({ devops, Foundation, Marketing, HRAnalyst, BFSI, HealthCare }) => {
+const PlacementCall = ({
+  devops,
+  Foundation,
+  Marketing,
+  HRAnalyst,
+  BFSI,
+  HealthCare,
+}) => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -177,41 +192,41 @@ const PlacementCall = ({ devops, Foundation, Marketing, HRAnalyst, BFSI, HealthC
             />
           </div>
           <div className={styles.stttt}>
-                <div className={styles.rightSide}>
-                  <Swiper
-                    direction={"vertical"}
-                    slidesPerView={1}
-                    spaceBetween={30}
-                    grabCursor={true}
-                    loop={true}
-                    autoplay={{
-                      delay: 2000,
-                      disableOnInteraction: false,
-                    }}
-                    modules={[Autoplay]}
-                    className="mySwiper"
-                  >
-                    {HealthCareCourseData.map((course, index) => (
-                      <SwiperSlide className={styles.slide} key={index}>
-                        <div className={styles.slideWrap}>
-                          <div className={styles.number}>
-                            <div className={styles.imged}>
-                              <Image
-                                src={`https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/${HealthCareCourseData[index].imgSrc}`}
-                                height={60}
-                                width={course.imgWidth}
-                                loading="lazy"
-                                quality={40}
-                                alt="placement"
-                              />
-                            </div>
-                          </div>
+            <div className={styles.rightSide}>
+              <Swiper
+                direction={"vertical"}
+                slidesPerView={1}
+                spaceBetween={30}
+                grabCursor={true}
+                loop={true}
+                autoplay={{
+                  delay: 2000,
+                  disableOnInteraction: false,
+                }}
+                modules={[Autoplay]}
+                className="mySwiper"
+              >
+                {HealthCareCourseData.map((course, index) => (
+                  <SwiperSlide className={styles.slide} key={index}>
+                    <div className={styles.slideWrap}>
+                      <div className={styles.number}>
+                        <div className={styles.imged}>
+                          <Image
+                            src={`https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/${HealthCareCourseData[index].imgSrc}`}
+                            height={60}
+                            width={course.imgWidth}
+                            loading="lazy"
+                            quality={40}
+                            alt="placement"
+                          />
                         </div>
-                      </SwiperSlide>
-                    ))}
-                  </Swiper>
-                </div>
-              </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            </div>
+          </div>
         </div>
       ) : (
         <>

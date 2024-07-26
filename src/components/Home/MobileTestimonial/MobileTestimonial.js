@@ -299,7 +299,7 @@ function MobileTestimonial({dataScienceGeneric, dataScienceCounselling, radio, i
               dataScienceCounselling={dataScienceCounselling}
               dataScienceGeneric={dataScienceGeneric}
               radio={radio}
-              downloadBrochure
+        
               upSkillingHide={true}
               interstedInHide={interstedInHide}
               

@@ -16,6 +16,7 @@ const ThirdSection = ({
   const [popups, setPopups] = useState(false);
   const [titleCourse, setTitleCourse] = useState();
   const [brochureLinks, setBrochureLinks] = useState();
+  const [brcohurepdfs, setBrcohurepdfs] = useState();
   const popupShow = () => {
     setPopups(true);
   };
@@ -43,6 +44,7 @@ const ThirdSection = ({
             interstedInHide={true}
             titleCourse={titleCourse}
             brochureLink={brochureLinks}
+            brochurePdf={brcohurepdfs}
           />
         </div>
       </Popup>
@@ -61,7 +63,7 @@ const ThirdSection = ({
         <div>
           <div className={styles.boxWrap}>
             {ThirdSectionData.map((data, index) => {
-              const { icon, heading, para, brochureLink } = data;
+              const { icon, heading, para, brochureLink, brochurePdf } = data;
               return (
                 <div className={styles.leftSide} key={index}>
                   <div className={styles.boxIcon}>
@@ -75,6 +77,7 @@ const ThirdSection = ({
                     onClick={() => {
                       setTitleCourse(heading);
                       setBrochureLinks(brochureLink);
+                      setBrcohurepdfs(brochurePdf)
                       popupShow();
                     }}
                   >
