@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "postbuild": "next-sitemap && node uploadS3.mjs",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate-sitemap": "next-sitemap"
   },
   "dependencies": {
     "@next/bundle-analyzer": "^14.2.5",
@@ -26,7 +27,6 @@
     "net": "^1.0.2",
     "next": "^14.2.3",
     "next-cookies": "^2.0.3",
-    "next-sitemap": "^4.2.3",
     "nodemailer": "^6.9.11",
     "razorpay": "^2.9.4",
     "react": "^18.2.0",
@@ -51,7 +51,8 @@
   },
   "devDependencies": {
     "eslint": "^8",
-    "eslint-config-next": "14.0.2"
+    "eslint-config-next": "14.0.2",
+    "next-sitemap": "^4.2.3"
   },
   "browser": {
     "fs": false,
