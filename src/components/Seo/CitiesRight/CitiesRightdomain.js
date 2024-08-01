@@ -249,19 +249,17 @@ const CitiesRight = ({
     marginTop: "20px",
   };
 
-
   const thStyle = {
     border: "1px solid #ddd",
     padding: "8px",
     backgroundColor: "#f2f2f2",
     textAlign: "center",
-    
   };
 
   const tdStyle = {
     border: "1px solid #ddd",
     padding: "8px",
-    textAlign:"center",
+    textAlign: "center",
   };
 
   const headerRowStyle = {
@@ -388,6 +386,13 @@ const CitiesRight = ({
                 <tr>
                   <td style={tdStyle}>
                     It uses both structured and non-structured data sets.
+                  </td>
+                  <td style={tdStyle}>It uses structured data sets only.</td>
+                </tr>
+                <tr>
+                  <td style={tdStyle}>
+                    Working as a data scientist needs experts to be well-versed
+                    in coding.
                   </td>
                   <td style={tdStyle}>
                     Working as a business analyst needs experts to be
@@ -1621,11 +1626,7 @@ const CitiesRight = ({
       </div>
       <div id="FAQ">
         <div className={styles.CitiesRightSpan}>
-          {bAnalystAbout ? (
-   <></>
-          ) : (
-            <span>Frequently Asked Questions</span>
-          )}
+          {bAnalystAbout ? <></> : <span>Frequently Asked Questions</span>}
         </div>
       </div>
     </section>
