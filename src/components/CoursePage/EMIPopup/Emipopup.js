@@ -45,6 +45,25 @@ function Emipopup({
             </div>
           </div>
         </div>
+        <div className={Styles.Main}>
+          <div className={Styles.containers}>
+
+            <h4>sdfgds</h4>
+            <div className={Styles.secrow}>
+              <p className={Styles.greencol}>{emiType}</p>
+
+              <h4 className={Styles.month}>{duration2}</h4>
+              <h4 className={Styles.Amount}>{totalAmount1} <p className={Styles.gst}>+18% GST</p></h4>
+              <h4 className={Styles.Amount}>{monthlyPayment2}</h4>
+
+              <p className={Styles.greenDown}>Standard Interest Rates Applicable</p>
+
+              <h4 className={Styles.month}>{duration1}</h4>
+              <h4 className={Styles.Amount}>{totalAmount2} <p className={Styles.gst}>+18% GST</p></h4>
+              <h4 className={Styles.Amount}>{monthlyPayment1}</h4>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

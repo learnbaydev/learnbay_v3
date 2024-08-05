@@ -131,7 +131,7 @@
 }
 
 .orangeText {
-  color: #FE7A36 !important;
+  color: #fe7a36 !important;
   font-size: 16px;
   font-weight: 700;
   margin: 20px 0px 10px 0px;
@@ -144,7 +144,7 @@
 
 .third {
   border-radius: 6px;
-  background: #FDF3EE;
+  background: #fdf3ee;
   padding: 30px 0px;
   height: fit-content;
 }
@@ -163,7 +163,7 @@
 
 .boxOrange > p {
   margin: 0;
-  color: #FE7A36;
+  color: #fe7a36;
   font-size: 16px;
   font-weight: 700;
 }
@@ -205,7 +205,7 @@
 
 .batchImg > p {
   margin: 0;
-  color: #FE7A36;
+  color: #fe7a36;
   font-size: 16px;
   font-weight: 700;
 }
@@ -221,7 +221,7 @@
 }
 
 /* EMIPOPUP */
-.Emipopup{
+.Emipopup {
   position: absolute;
   inset: 40px;
   border: 1px solid rgb(204, 204, 204);
@@ -237,33 +237,206 @@
   align-items: center;
   text-align: right;
   /* margin-left: 300px; */
-  height: 366px;
-  margin: 150px 220px 20px 220px 
+  height: 450px;
+  margin: 150px 220px 20px 220px;
 }
 .clostbtn span {
   color: #767676;
 }
 
-.clostbtn{
+.clostbtn {
   color: #484848;
   cursor: pointer;
 }
-.clostbtn :hover{
+.clostbtn :hover {
   color: rgb(0, 162, 255);
 }
 
+/* new Css */
+
+.mainContainer {
+  border-radius: 38.262px;
+  background: #212121;
+  padding: 0px 50px;
+  width: 1200px;
+  margin: auto;
+  margin-top: 160px;
+  padding-bottom: 30px;
+  height: 540px;
+}
+.innerMainContainer {
+  position: relative;
+  top: -130px;
+}
+.innerContainer {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  gap: 30px;
+  justify-content: space-between;
+}
+.firstContainer,
+.secondContainer {
+  border-radius: 35.635px;
+  padding: 30px;
+}
+.firstContainer {
+  border: 1px solid #fe7a36;
+  background: #fff2eb;
+}
+.headContent {
+  font-size: 36px;
+  font-weight: 600;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.headContent img {
+  width:auto;
+  height: 100%;
+}
+.divHeadIcon img {
+  width:auto;
+  height: 40px;
+}
+.firstContainer .headContent,
+.secondContainer .headContent {
+  font-size: 30px;
+}
+
+.firstContainer .headContent h4 {
+  color: #fe7a36;
+  margin: 0;
+}
+
+.firstContainer .iconDiv {
+  margin-top: 60px;
+}
+.secondContainer .headContent h4 {
+  color: #0072bc;
+  margin: 0;
+}
+
+.iconDiv {
+  display: grid;
+  grid-template-columns: 38% 38%;
+  gap: 30px 70px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.iconDiv p {
+  color: #212121;
+  font-weight: 500;
+}
+
+.divHeadIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 11px;
+  border: 1px solid #fe7a36;
+  background: #fff;
+  color: #fe7a36;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+  gap: 10px;
+  padding: 5px 0px;
+}
+
+.divHeadIcon h4 {
+  font-size: 20px;
+  padding: 12px 0px;
+  color: #fe7a36;
+}
+
+.secondContainer {
+  border: 1px solid #0072bc;
+  background: #eaf6fe;
+}
+
+.fadedText {
+  opacity: 0.7;
+  background: linear-gradient(180deg, #0072bc 39.85%, #a0cbe7 75.19%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 32px;
+}
+.secondContainer > .innerIconDiv {
+  text-align: center;
+  margin-top: 30px;
+}
+.innerIconDiv img, .divHeadIcon img {
+  width: 40px;
+  height: auto;
+}
+.feeSectionContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: flex-end;
+}
+
+.emiButton button {
+  border-radius: 9px;
+  border: 1px solid #ffc436;
+  background: #212121;
+  padding: 8px 20px;
+  color: #ffc436;
+  text-align: center;
+  font-size: 14px;
+}
+
+.emiButton button:hover {
+  border: 1px solid #ffc436;
+  background: #fff;
+  color: #000;
+}
+
+.feeContentContainer:last-child {
+  text-align: end;
+}
+
+.feeContentContainer p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.feeContentContainer h4 {
+  color: #fe7a36;
+  font-size: 42px;
+  font-weight: 700;
+}
+.paymentPartner {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.paymentPartner p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.paymentPartner img {
+  width: auto;
+  height: 100%;
+}
+
 @media (max-width: 1281px) {
-
   .price {
-font-size: 35px;
+    font-size: 35px;
   }
-
 }
 @media (max-width: 1024px) {
-.ThreeCard{
-  padding: 20px 50px;
-}
-
+  .ThreeCard {
+    padding: 20px 50px;
+  }
 }
 
 @media (max-width: 641px) {
@@ -288,10 +461,56 @@ font-size: 35px;
     padding: 20px 10px;
   }
 
-  .Emipopup{
+  .Emipopup {
     margin: -25px;
     margin-top: 200px;
     padding: 1px 9px;
     height: 300px;
   }
+
+  /* new css */
+
+  .mainContainer {
+    width: 100%;
+    margin-top: 20px;
+    padding: 0px 20px 40px 20px;
+    height: 100%;
+  }
+
+  .innerMainContainer {
+    top: 20px;
+  }
+
+  .innerContainer {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+.firstContainer .iconDiv {
+  margin-top: 20px;
+  gap: 20px;
+  grid-template-columns: 47% 47%;
+}
+.firstContainer,
+.secondContainer {
+  padding: 20px;
+}
+.feeContentContainer {
+  display: none;
+}
+.emiButton {
+  margin: auto;
+  margin-top: 20px;
+}
+.divHeadIcon h4 {
+  margin: 0;
+  padding: 0;
+}
+.fadedText {
+  font-size: 24px;
+}
+.iconDiv {
+  gap: 20px;
+  grid-template-columns: 46% 46%;
+}
 }
