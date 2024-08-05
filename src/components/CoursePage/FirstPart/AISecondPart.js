@@ -81,7 +81,7 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "/Brochure/Advance-AI-ML.pdf"
+  const pdfUrl = "/Brochure/Advance-AI-ML.pdf";
   return (
     <div>
       <LJourney />
@@ -101,12 +101,12 @@ const SecondPart = ({
         Fee="₹ 1,15,000"
         FeeEmi="₹ 7,539/ Month"
         weekdaybatch="Weekday Batch"
-        weekendbatch="Weekday Batch"
+        weekendbatch="Weekend Batch"
         weekday="MON - FRI"
-        weekend="MON - FRI"
+        weekend="SAT - SUN"
         WeekdayDate="August 16th"
-        WeekendDate="August 2nd"
-        WeekendTime="8:00 PM - 10:00 PM"
+        WeekendDate="August 25th"
+        WeekendTime="9:30 AM - 1 PM"
         WeekdayTime="8:00 AM - 10:00 AM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"

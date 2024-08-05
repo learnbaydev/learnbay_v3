@@ -104,12 +104,12 @@ const SecondPart = ({
         Fee="₹1,15,000"
         FeeEmi="₹ 7,539/month"
         weekdaybatch="Weekday Batch"
-        weekendbatch="Weekday Batch"
+        weekendbatch="Weekend Batch"
         weekday="MON - FRI"
-        weekend="MON - FRI"
+        weekend="SAT - SUN"
         WeekdayDate="August 16th"
-        WeekendDate="August 2nd"
-        WeekendTime="8:00 PM - 10:00 PM"
+        WeekendDate="August 25th"
+        WeekendTime="9:30 AM - 1 PM"
         WeekdayTime="8:00 AM - 10:00 AM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
@@ -120,7 +120,7 @@ const SecondPart = ({
         dataScience={true}
         titleCourse="Data Science & AI Certification Program For Managers and Leaders"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
-         brochurePdf="/Brochure/data-science-ai-for-managers.pdf"
+        brochurePdf="/Brochure/data-science-ai-for-managers.pdf"
         // <EMI POPUP
         emiType="NO COST EMI"
         duration1="18 Months"
@@ -141,7 +141,7 @@ const SecondPart = ({
         interstedInHide={true}
         titleCourse="Data Science & AI Certification Program For Managers and Leaders"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
-         brochurePdf="/Brochure/data-science-ai-for-managers.pdf"
+        brochurePdf="/Brochure/data-science-ai-for-managers.pdf"
         projectSection={projectSection}
       />
 

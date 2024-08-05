@@ -73,7 +73,7 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "/Brochure/Advanced-Data-Science.pdf"
+  const pdfUrl = "/Brochure/Advanced-Data-Science.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -176,12 +176,12 @@ export default function Home() {
             Fee="₹1,35,000"
             FeeEmi="₹8,850/month"
             weekdaybatch="Weekday Batch"
-            weekendbatch="Weekday Batch"
+            weekendbatch="Weekend Batch"
             weekday="MON - FRI"
-            weekend="MON - FRI"
+            weekend="SAT - SUN"
             WeekdayDate="August 16th"
-            WeekendDate="August 2nd"
-            WeekendTime="8:00 PM - 10:00 PM"
+            WeekendDate="August 25th"
+            WeekendTime="9:30 AM - 1 PM"
             WeekdayTime="8:00 AM - 10:00 AM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
