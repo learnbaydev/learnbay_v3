@@ -7,771 +7,615 @@
     xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
     <url>
         <loc>https://www.learnbay.co</loc>
-        <lastmod>2024-07-25T10:20:08.353Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.973Z</lastmod>
         <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/Thank-you</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/Thank-you-counselling</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/about-us</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/campaign/dmd</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/career-apply-now</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/career-portal</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/career-report</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
+        <priority>1</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/cloud&amp;devops/aws-cloud-computing-and-devOps</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.974Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>
             https://www.learnbay.co/cloud&amp;devops/cloud-computing-and-devOps-certification-program</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.974Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>
             https://www.learnbay.co/cloud&amp;devops/cloud-computing-online-course-training-institute</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.975Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/cloud&amp;devops/devops-online-course-training-institute</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.975Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>
             https://www.learnbay.co/cloud&amp;devops/s3-cloud-computing-and-devOps-certification-program</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/contact-us</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.975Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/data-science-courses</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.975Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/advance-data-analytics-program-iit-guwahati</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.975Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/advance-data-science-certification-courses</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.976Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/artificial-intelligence-certification-course</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.976Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/austin/data-science-course-training-in-austin</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.976Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>
             https://www.learnbay.co/datascience/australia/masters-degree-in-data-science-in-australia</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.976Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>
             https://www.learnbay.co/datascience/bangalore/artificial-intelligence-ai-course-training-bangalore</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.976Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>
             https://www.learnbay.co/datascience/bangalore/business-analytics-course-training-in-bangalore</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.976Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>
             https://www.learnbay.co/datascience/bangalore/data-analytics-course-training-in-bangalore</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.976Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>
             https://www.learnbay.co/datascience/bangalore/data-data-science-course-training-in-marathahalli</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.976Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/bangalore/data-science-course-training-in-bangalore</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.976Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>
             https://www.learnbay.co/datascience/bangalore/machine-learning-course-training-in-bangalore</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.976Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>
             https://www.learnbay.co/datascience/bangladesh/data-science-course-training-in-bangladesh</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.976Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/bangladesh/data-science-course-training-in-dhaka</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.976Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/business-analytics-certification-course</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>
             https://www.learnbay.co/datascience/canada/artificial-intelligence-ai-course-training-canada</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/canada/business-analytics-course-training-in-canada</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/canada/data-analytics-course-training-in-canada</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/canada/data-science-course-training-in-canada</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/canada/machine-learning-course-training-in-canada</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>
             https://www.learnbay.co/datascience/chennai/artificial-intelligence-ai-course-training-chennai</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>
             https://www.learnbay.co/datascience/chennai/business-analytics-course-training-in-chennai</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/chennai/data-analytics-course-training-in-chennai</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/chennai/data-science-course-training-in-chennai</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/chennai/machine-learning-course-training-in-chennai</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/data-analytics-certification-course</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/data-science-ai-for-freshers</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/data-science-ai-for-managers</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.learnbay.co/datascience/data-science-and-ai-for-healthcare-professionals</loc>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/data-science-certification-courses</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/data-science-course-training-in-india</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/data-science-for-bfsi-professional</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>
             https://www.learnbay.co/datascience/delhi/artificial-intelligence-ai-course-training-delhi</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/delhi/business-analytics-course-training-in-delhi</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/delhi/data-analytics-course-training-in-delhi</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/delhi/data-science-course-training-in-delhi</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/delhi/machine-learning-course-training-in-delhi</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>
             https://www.learnbay.co/datascience/dubai/artificial-intelligence-ai-course-training-dubai</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/dubai/business-analytics-course-training-in-dubai</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/dubai/data-analytics-course-training-in-dubai</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/dubai/data-science-course-training-in-dubai</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.977Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/dubai/machine-learning-course-training-in-dubai</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/egypt/data-science-course-training-in-egypt</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>
             https://www.learnbay.co/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/germany/master-degree-in-data-science-in-germany</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/hr-analytics</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>
             https://www.learnbay.co/datascience/hyderabad/artificial-intelligence-ai-course-training-hyderabad</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>
             https://www.learnbay.co/datascience/hyderabad/business-analytics-course-training-in-hyderabad</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>
             https://www.learnbay.co/datascience/hyderabad/data-analytics-course-training-in-hyderabad</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/hyderabad/data-science-course-training-in-hyderabad</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>
             https://www.learnbay.co/datascience/hyderabad/machine-learning-course-training-in-hyderabad</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/india/data-science-course-training-in-bhubaneswar</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/india/data-science-course-training-in-coimbatore</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/india/data-science-course-training-in-indore</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/india/data-science-course-training-in-jaipur</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/india/data-science-course-training-in-kochi</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/india/data-science-course-training-in-kolkata</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/india/data-science-course-training-in-nagpur</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/india/data-science-course-training-in-noida</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/india/data-science-course-training-in-patna</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/malaysia/data-science-course-training-in-malaysia</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/marketing-analytics</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>
             https://www.learnbay.co/datascience/mumbai/artificial-intelligence-ai-course-training-mumbai</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/mumbai/business-analytics-course-training-in-mumbai</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/mumbai/data-analytics-course-training-in-mumbai</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/mumbai/data-science-course-training-in-mumbai</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/mumbai/machine-learning-course-training-in-mumbai</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/nigeria/data-science-course-training-in-nigeria</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>
             https://www.learnbay.co/datascience/pune/artificial-intelligence-ai-course-training-pune</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/pune/business-analytics-course-training-in-pune</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.learnbay.co/datascience/pune/data-analyst-course-training-in-pune</loc>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/pune/data-analytics-course-training-in-pune</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/pune/data-science-course-training-in-pune</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/pune/machine-learning-course-training-in-pune</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.978Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/singapore/data-science-course-training-in-singapore</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.979Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>
             https://www.learnbay.co/datascience/southafrica/data-science-course-training-in-south-africa</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.979Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/uk/data-science-course-training-in-uk</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.986Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/usa/data-science-course-training-in-usa</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.986Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/usa/masters-degree-in-data-science-in-usa</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.986Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/vietnam/data-science-course-training-in-vietnam</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.986Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/datascience/vietnam/data-science-course-training-in-vietnam/vi</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/degree-upgrade</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/demo</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/domain</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/enroll</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.986Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>
             https://www.learnbay.co/fullstack/bangalore/full-stack-software-developer-course-in-bangalore</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.986Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/fullstack/canada/full-stack-software-developer-course-in-canada</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.986Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>
             https://www.learnbay.co/fullstack/chennai/full-stack-software-developer-course-in-chennai</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.986Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/fullstack/delhi/full-stack-software-developer-course-in-delhi</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.986Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/fullstack/dubai/full-stack-software-developer-course-in-dubai</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.987Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/fullstack/full-stack-software-development-program</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.987Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>
             https://www.learnbay.co/fullstack/hyderabad/full-stack-software-developer-course-in-hyderabad</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.987Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/fullstack/mumbai/full-stack-software-developer-course-in-mumbai</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.987Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.learnbay.co/fullstack/pune/full-stack-software-developer-course-in-pune</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/learning-learnbay</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/learning-learnbay-select</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/loan-process</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/master-application</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/organic</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/organic/generic</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/payment-success</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/privacy-policy</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/referrals</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/refund-cancellation-policy</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/resume-builder</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/reviews</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/reviews-old</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/submit-info</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/terms-conditions</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://www.learnbay.co/verify-certificate</loc>
-        <lastmod>2024-07-25T10:20:08.354Z</lastmod>
+        <lastmod>2024-08-01T11:53:13.987Z</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>

@@ -7,7 +7,7 @@ import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper";
 
-function FAQNew({ FAQNewData }) {
+function FAQNew({ FAQNewData,bAnalystAbout  }) {
   // const [mobile, setMobile] = useState(false);
   const [dataLoop, setDataLoop] = useState([
     { title: "Course Related", value: true },
@@ -38,7 +38,8 @@ function FAQNew({ FAQNewData }) {
 
   return (
     <div className={styles.course} id="faqs">
-        <h4 className={styles.infop}>FAQs</h4>
+             {bAnalystAbout ? (   <h4 className={styles.infop} style={{fontSize:"30px"}}>FAQs for Business Analyst Course Training in Pune: –              </h4>):(   <h4 className={styles.infop}>FAQs</h4>)}
+     
         <p>Curriculum is specifically engineered to meet the expectations of leading tech companies.</p>
       <div className={styles.courseM}>
         <div className={styles.courses}>
