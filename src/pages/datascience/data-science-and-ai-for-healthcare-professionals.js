@@ -68,17 +68,16 @@ function Blockchain({ DataScienceCourseDataJson }) {
     <>
       <Head>
         <title>
-          Data Science Course with Certifications for BFSI Professionals -
-          Learnbay
+        Data Science & AI Course for Healthcare Professionals | Learnbay
         </title>
         <meta
           name="description"
-          content="Empower your BFSI career with Learnbay's Data Science course for BSFI professionals. Elevate skills, drive innovation in banking and finance. Enroll now!          "
+          content="Empower your medical domain knowledge with our Data Science course for  Healthcare Professionals. Elevate your skills and drive innovation with Learnbay!!"
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="Data Science for BFSI Professional course, Data Science for BFSI Professional certification course, Data Science for BFSI Professional certification, BFSI Professional Program training, hr analytics course, BFSI Professional Program course online, marketing analytics course, BFSI Professional Program certification course, best BFSI Professional Program course, best BFSI Professional Program certification          "
+          content="data science for medical professionals, data science for healthcare professionals, data science & AI in healthcare, data science certification for healthcare professionals, data science course for healthcare professionals, data science & AI certification for healthcare sector"
         />
         <link
           rel="icon"
@@ -86,7 +85,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/data-science-for-bfsi-professional"
+          href="https://www.learnbay.co/datascience/data-science-and-ai-for-healthcare-professionals"
         />
         <script
           type="application/ld+json"
@@ -94,9 +93,9 @@ function Blockchain({ DataScienceCourseDataJson }) {
             __html: `{
             "@context": "http://schema.org",
             "@type": "Course",
-            "name": "BFSI Professional Program",
-            "description": "Upskill yourself with cutting edge Data Science for BFSI Professional Skills and Techniques by enrolling into the Learnbay's BFSI Professional Course.",
-            "url": "https://www.learnbay.co/datascience/data-science-for-bfsi-professional",
+            "name": "Healthcare Professional Program",
+            "description": "Upskill yourself with cutting edge Data Science for Healthcare Professional Skills and Techniques by enrolling into the Learnbay's Healthcare Professional Course.",
+            "url": "https://www.learnbay.co/datascience/data-science-and-ai-for-healthcare-professionals",
             "offers": {
               "@type": "Offer",
               "price": 90000,
@@ -108,7 +107,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
                   "name": "Learnbay",
                   "Url": "https://www.learnbay.co/"
                 },
-            "coursePrerequisites": "There are no prerequisites for this Data Science for BFSI Professional certification course as all modules are beginner-friendly and are taught from scratch. ",
+            "coursePrerequisites": "There are no prerequisites for this Data Science for Healthcare Professional certification course as all modules are beginner-friendly and are taught from scratch. ",
             "hasCourseInstance": [
               {
                 "@type": "CourseInstance",
