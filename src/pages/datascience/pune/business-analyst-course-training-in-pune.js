@@ -89,7 +89,7 @@ export default function Home() {
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/pune/business-analytics-course-training-in-pune"
+          content="https://www.learnbay.co/datascience/pune/data-analyst-course-training-in-pune"
         />
         <meta
           property="og:title"
@@ -111,16 +111,16 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Business Analytics Course in Chennai | Data Science Training in Chennai"
+          content="Business Analytics Course in Pune | Data Science Training in Pune"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           itemProp="description"
-          content="Business Analytics Course in Chennai. Learnbay is Advanced Business Analytics Course Training Institute in Chennai. Business Analytics Course in Chennai will enhance your career"
+          content="Business Analytics Course in Pune. Learnbay is Advanced Business Analytics Course Training Institute in Pune. Business Analytics Course in Pune will enhance your career"
         />
         <meta
           name="twitter:description"
-          content="Business Analytics Course in Chennai. Learnbay is Advanced Business Analytics Course Training Institute in Chennai. Business Analytics Course in Chennai will enhance your career"
+          content="Business Analytics Course in Pune. Learnbay is Advanced Business Analytics Course Training Institute in Pune. Business Analytics Course in Pune will enhance your career"
         />
         <meta
           name="twitter:image"
@@ -128,7 +128,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/pune/business-analytics-course-training-in-pune"
+          href="https://www.learnbay.co/datascience/pune/data-analyst-course-training-in-pune"
         />
         <meta
           name="copyright"
@@ -406,14 +406,12 @@ export default function Home() {
               listJob39={BAnalystPuneCourseData[0].listJob39}
               listJob40={BAnalystPuneCourseData[0].listJob40}
               listJob41={BAnalystPuneCourseData[0].listJob41}
-              listJob42={BAnalystPuneCourseData[0].listJob42}             
-              listJob43={BAnalystPuneCourseData[0].listJob43}      
-              listJob44={BAnalystPuneCourseData[0].listJob44}       
-              listJob45={BAnalystPuneCourseData[0].listJob45}     
-              listJob46={BAnalystPuneCourseData[0].listJob46}       
+              listJob42={BAnalystPuneCourseData[0].listJob42}
+              listJob43={BAnalystPuneCourseData[0].listJob43}
+              listJob44={BAnalystPuneCourseData[0].listJob44}
+              listJob45={BAnalystPuneCourseData[0].listJob45}
+              listJob46={BAnalystPuneCourseData[0].listJob46}
               JobBot19={BAnalystPuneCourseData[0].JobBot19}
-              
-
               ProjectsBot1={BAnalystPuneCourseData[0].ProjectsBot1}
               ProjectsBot2={BAnalystPuneCourseData[0].ProjectsBot2}
               src1={BAnalystPuneCourseData[0].src1}
@@ -452,7 +450,10 @@ export default function Home() {
               alt9={BAnalystPuneCourseData[0].alt9}
             />
             <div className={styles.faqCity}>
-              <FAQNew FAQNewData={BAnalystPuneCourseData[0].faq} bAnalystAbout ={true} />
+              <FAQNew
+                FAQNewData={BAnalystPuneCourseData[0].faq}
+                bAnalystAbout={true}
+              />
             </div>
           </div>
         </div>

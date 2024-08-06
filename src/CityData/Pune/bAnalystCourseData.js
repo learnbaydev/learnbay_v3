@@ -456,46 +456,45 @@ export const BAnalystPuneCourseData = [
         data: [
           {
             id: 0,
-            ques: "What are the prerequisites for the Business Analyst Training Course in Pune?",
-            ans: `There are no prerequisites for this Business Analyst certification course in Pune as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.`,
+            ques: "How long does the course take to complete?",
+            ans: `The duration of this Business Analyst Course in Pune is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch - 5 months Monday to Friday - 2 hours/day Weekend batch - 6.5 months Saturday & Sunday - 3.5 hours/day.`,
             open: true,
           },
           {
             id: 1,
-            ques: "What if I miss a few classes due to an emergency?",
-            ans: `In case you miss a few classes, you will be provided with backup classes in other batches.
-                But if you could not attend more classes, you can opt for batch change and join the next batch.`,
+            ques: "What prerequisites are required to enrol in this certification program?",
+            ans: `There are no prerequisites for this Business analyst certification course in Pune as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for Non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics is a must.`,
             open: false,
           },
           {
             id: 2,
-            ques: "What is a Flexi Subscription in the Business Analyst Certification course in Pune?",
-            ans: `Those who enroll for Business Analyst live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 1.5 year, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
+            ques: "What if I miss a few classes due to an emergency?",
+            ans: `In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch.`,
             open: false,
           },
           {
             id: 3,
-            ques: "What’s the duration of the Business Analyst Course in Pune?",
+            ques: "What is the mode of Business Analysis training in Pune at Learnbay?",
             //About Data Science
-            ans: `The duration of this Business Analyst Course is about 6.5 months ( 200 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations.
-            
-                Classes will be conducted on weekdays and weekend batches.
-                Weekday batch - 5 months
-                   Monday to Friday - 2 hours/day
-                Weekend batch - 6.5 months
-                Saturday & Sunday - 3.5 hours/day`,
+            ans: `       We provide both classroom and online Business Analyst training in Pune. Based on your requirement, you can choose your preferred mode.`,
             open: false,
           },
           {
             id: 4,
-            ques: "What is the mode of Business Analyst training at Learnbay?",
-            ans: `We provide both classroom and online Business Analyst training modes. Based on your requirement, you can choose your preferred mode.`,
+            ques: "Is this course suitable for beginners with no prior experience in business analytics?",
+            ans: `Yes, working professionals from any discipline can opt for this course. Learners with no experience in business analytics can apply for online business analytics courses, but they must have a basic knowledge of mathematics/statistics. Yet, having a basic understanding of business concepts and domain knowledge can help in better upskilling. `,
             open: false,
           },
           {
             id: 5,
-            ques: "How can I opt for a Hybrid mode of learning? ",
-            ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the real-time projects and interview preparation sessions.",
+            ques: "Are there any specific software or tools required for the course?",
+            ans: "There are no specific software or tools required for upskilling with the course. Learners just need to complete the admission procedure with proper documentation to successfully enroll in the course. After this, one can start training sessions at the chosen time and batch. ",
+            open: false,
+          },
+          {
+            id: 6,
+            ques: "Can I access the course materials at any time, or are there specific schedules?",
+            ans: "After enrolling in the course, learners get 3 years of access to their study materials. Later, if they wish, it can be converted to lifetime access to the course materials (study resources, training sessions, live projects, videos, and other useful things). Learnbay believes in uninterrupted upskilling and helps learners get direct access to resources at any time. ",
             open: false,
           },
         ],
@@ -560,38 +559,28 @@ export const BAnalystPuneCourseData = [
         data: [
           {
             id: 0,
-            ques: "What is the total fee for the Business Analyst Program in Pune?",
-            ans: `The total program fee for the Business Analyst Program is INR  88,500/- inclusive of GST.`,
+            ques: "How much does the Business Analyst Course in Pune cost?",
+            ans: `The business analyst course fees in Pune is INR 95,000 + 18% GST. `,
             open: true,
           },
           {
             id: 1,
-            ques: "Can I pay in installments for INR 95,000/-?",
-            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,816/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
-            linkText1: " +917795687988 ",
-            link1: "tel:+917795687988",
-            link: true,
+            ques: "Are there any instalment options available for program payments?",
+            ans: "Yes, we have an instalment payment facility where you need to pay INR 6,228 per month. You can make payments through Credit card, UPI, or Internet banking. ",
+        
 
             open: false,
           },
           {
             id: 2,
-            ques: "Is there any scholarship/discount available for the Business Analyst Program? What is Group Discount?",
-            ans: `Learnbay offers a 15 - 20% scholarship for early birds occasionally.
-                Please check our websites or contact our sales team to know more about the applicable discounts.
-                
-                
-                Group Discount :
-                Group Discount is applicable only if you’re joining with your friends. 
-                5% extra discount: Group of 2
-                8% extra discount: Group of 3
-                Max 10% discount: Groupe of 4+`,
+            ques: "Is financial aid or scholarships available for the business analyst certification in Pune?",
+            ans: `Learnbay offers scholarships to eligible students after reviewing their profiles. Eligible learners will receive up to a 25% scholarship for the desired course. `,
             open: false,
           },
           {
             id: 3,
-            ques: " What is the refund policy for the Business Analyst Program at Learnbay?",
-            ans: `Candidates are advised to read  `,
+            ques: "What is the refund policy for the Business Analyst Course in Pune?",
+            ans: `Yes, we offer an effortless refund or cancellation policy for those who need to withdraw from the program. For further details, refer to Learnbay’s Refund/Cancellation Policy. `,
             linkText1: "Learnbay’s Refund/Cancellation Policy",
             link1: "/refund-cancellation-policy",
             ansAfter: " before enrolling in the course.",
@@ -606,18 +595,37 @@ export const BAnalystPuneCourseData = [
         data: [
           {
             id: 0,
-            ques: "How many real-time projects will be there?",
-            ans: `We have a set of 5 Real-time projects from multiple industries live Healthcare, Banking, Finance, Insurance, Retail, etc.`,
-            linkText1: " Click here to download the list of the projects.",
-            link1:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
-            link: true,
+            ques: "What is a capstone project, and how does it fit into the course?",
+            ans: `Capstone projects are curated for professional skill development and help learners get exposure to real-world business issues. Business Analytics Program includes fresh capstone projects from diverse domains. Capstone projects are group project work where learners will learn the use and application of business analytics tools to tackle a business problem. `,
+  
+
             open: true,
           },
           {
             id: 1,
+            ques: "Can I choose my own capstone project, or are topics assigned?",
+            ans: `Yes, learners joining the business analyst training institute in Pune can choose their own capstone project as per their domain electives. After enrolling, learners can opt for their desired domain electives and continue upskilling. Then, they are assigned their project group and mentor to guide them through the learning process. `,
+            open: false,
+          },
+
+
+          {
+            id: 2,
+            ques: "Are there opportunities to work on simulated real-time projects during the course?",
+            ans: `Yes, learners have complete scope to work on simulated real-time projects during the course to gain hands-on experience. Learners can refine their skills in their domains while working on live projects across offline experience centers. These projects help learners have the scope to enhance their problem-solving and analytical skills.  `,
+            open: false,
+          },
+
+          {
+            id: 3,
+            ques: "How many real-time projects will be there?",
+            ans: `You will get 10+ real-time projects with this program in different areas of expertise.  `,
+            open: false,
+          },
+          {
+            id: 4,
             ques: "How will the project be executed?",
-            ans: `At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.`,
+            ans: `Learners can choose the project based on their domain electives and learning goals. Mentors will guide you throughout the project tasks at offline project innovation labs. `,
             open: false,
           },
         ],
@@ -628,8 +636,14 @@ export const BAnalystPuneCourseData = [
         data: [
           {
             id: 0,
-            ques: "Is there any accredited certification after course completion?",
-            ans: `Yes, you will be awarded IBM accredited Business Analyst Certificate on successful course completion.`,
+            ques: "Is the certification internationally recognized?",
+            ans: `Yes, the Business Analyst Course in Pune offers an internationally recognized certification that improves career growth. After successful completion of the course program, a learner is eligible to get an online certificate as a business analyst. Here, one will have dual certification – a project experience certificate from IBM & course completion certificates from IBM & Microsoft. `,
+            open: true,
+          },
+          {
+            id: 1,
+            ques: "How do I receive my certificate, and is it a digital or printed certificate?",
+            ans: `After completing a course and capstone projects with a minimum of 70% marks, learners can apply for their certificates. Learnbay offers a Business analyst certification course in Pune, well recognized by top-tier companies globally. Learners can apply with respective authorities and get digital certificates within a minimum of 7 days.  `,
             open: true,
           },
         ],
@@ -640,33 +654,39 @@ export const BAnalystPuneCourseData = [
         data: [
           {
             id: 0,
-            ques: "What's the eligibility for a job assistance program in Learnbay?",
-            ans: `You should have completed the course with :
-                A minimum score of 70% in assessments
-               Should have completed the assignments and case studies
-               Worked and successfully completed the minimum recommended number of real-time projects.`,
+            ques: "Does the course include job placement assistance?",
+            ans: `Working professionals opt business analysis course in Pune to expand their job opportunities. Learnbay’s job assist program ensures 100% placement support guided by industry experts. Learners after completion of the course are eligible for this assistance including`,
+            list1:"Uninterrupted Job and Placement Support",
+            list2:"Complete access to course materials and resources",
+            list3:"1:1 Mock Interviews with any of 450+ Industry Experts ",
+            list4:"24/7 contact with Mentors",
+            list5:"Resume Building Session",
+            list6:"1:1 LinkedIn Review Session",
+            list7:"Dedicated Placement Team for soft skills training ",
+            
+            dscoursefaq1:true,
             open: true,
           },
           {
             id: 1,
-            ques: "How many interview calls will I get at Learnbay?",
-            ans: `At Learnbay, you’ll be provided with job assistance after the completion of the course for a period of 1 year.`,
-            open: false,
+            ques: "What types of job roles can I expect to be eligible for after completing this course?",
+            ans: `Business analyst course in Pune helps learners craft a successful career in their domains with attractive pay scales. With this, one can expect job roles like –`,
+            list1:"Operations Research Analyst",
+            list2:"Business Analyst",
+            list3:"Market Research Analyst ",
+            list4:"Management Consultant",
+            list5:"Programmer Analyst ",
+            list6:"Quantitative Analyst",
+            list7:"Business Manager  ",
+            list8:"Program Manager ",
+            
+            dscoursefaq1:true,
+            open: true,
           },
           {
-            id: 2,
-            ques: "What is a job-readiness program?",
-            ans: `Job readiness program helps you prepare for interviews which include:
-                Resume preparation sessions, 
-                Preparing projects for a strong portfolio, 
-                Interview guidance and prep sessions, 
-                1:1 Mock interviews based on targeted companies and roles.`,
-            open: false,
-          },
-          {
-            id: 3,
-            ques: "Will I get job referrals at Learnbay?",
-            ans: `Yes, we offer dedicated placement assistance by referring your profile through our partnered consultancies and companies.`,
+            id: 1,
+            ques: "Do you have partnerships with companies for job placements?",
+            ans: `Learnbay has a tie-up with 450+ placement and hiring partners that include top-tier MNCs. Learners are eligible for a job assistance program for this course that mentors them to face interviews with any of the 450+ industry partners. Industry mentors prepare learners with adequate skills and mock interviews to face the competition and attain success. `,
             open: false,
           },
         ],
@@ -677,14 +697,20 @@ export const BAnalystPuneCourseData = [
         data: [
           {
             id: 0,
-            ques: "Until when will the students get the facility of mentorship?",
-            ans: "Our mentors will provide data science training to the students until the completion of the course.",
+            ques: "Are there mentors available to help with coursework and projects?",
+            ans: "Working professionals have the scope to gain business analyst training in Pune under the direct guidance of industry experts from MNCs. Learners will have dedicated coaching from mentors for coursework, job assistance programs, live projects, and 1:1 doubt clearing. You can get in touch with your mentors to resolve any doubts while working on fresh capstone projects. ",
             open: true,
           },
           {
             id: 1,
-            ques: "Can a Learnbay student choose to study from their desired mentor?",
-            ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+            ques: "How can I connect with a mentor?",
+            ans: "Learners go through business analysis training in Pune guided by industry mentors from MNCs. After enrolling in the course, learners will be assigned a mentor whom they can contact directly during online sessions (chat section) and over the call at any time. ",
+            open: false,
+          },
+          {
+            id: 1,
+            ques: "What is the typical response time for mentor support?",
+            ans: "Our mentors are available to support queries of learners at any time (during and after the sessions). So, within 10-15 minutes, learners can get mentor support to resolve queries regarding coursework or projects.  ",
             open: false,
           },
         ],
@@ -701,10 +727,28 @@ export const BAnalystPuneCourseData = [
           },
           {
             id: 1,
-            ques: "How long will I get Job referrals?",
-            ans: "You’ll be provided with job assistance after the completion of the course for a period of 1 year.",
+            ques: "How long will I get job referrals? ",
+            ans: "You will be provided with job assistance after the completion of the course for a period of 1 year. ",
             open: false,
           },
+          {
+            id: 1,
+            ques: "How can I reach out for technical support if I encounter any issues with the course platform?",
+            ans: "After enrolling in the course, you are open to use 24x7 learner’s support to resolve any query. You can call the helpline number to reach the desired service providers to help you out of any technical issues with the course platform. ",
+            open: false,
+          },
+          {
+            id: 1,
+            ques: "Is there a discussion forum or community for students to interact and seek help?",
+            ans: "There is no discussion forum or community for students to interact and seek help. They can directly reach out to the learner’s support team which is available 24x7 to resolve queries. In case of any doubt related to coursework or projects, learners can schedule a call for 1:1 sessions with their respective mentors.  ",
+            open: false,
+          },
+          {
+            id: 1,
+            ques: "What is the best way to contact your support team if I have general inquiries?",
+            ans: "Learnbay offers 24x7 learner’s support to help with general inquiries. You can check with our sales team at +91 7795687988 in case you have any questions in your mind. They will reach out to you as soon as possible with the best solutions. ",
+            open: false,
+          }
         ],
       },
     ],
