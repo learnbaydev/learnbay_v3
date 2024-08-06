@@ -80,7 +80,7 @@ const SecondPart = ({
         masterSyllabusMobile={masterSyllabusMobile}
         dataScienceCounselling={true}
         dataScience={true}
-        titleCourse="Data Science & AI for BFSI Professionals"
+        titleCourse="Data Science & AI for Healthcare Professionals"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Healthcare-Pharma-and-Clinical-Research-domain.pdf"
         brochurePdf={pdfUrl}
         buttonHide={true}
@@ -105,7 +105,7 @@ const SecondPart = ({
         FeeContent6="No additional cost"
         dataScienceCounselling={true}
         interstedInHide={true}
-        titleCourse="Data Science & AI for BFSI Professionals"
+        titleCourse="Data Science & AI for Healthcare Professionals"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Healthcare-Pharma-and-Clinical-Research-domain.pdf"
         brochurePdf={pdfUrl}
         dataScience={true}
@@ -125,7 +125,7 @@ const SecondPart = ({
       <MobileTestimonial interstedInHide={true} dataScienceCounselling={true} />
       {/* <NewProjectSection
         dataScience={true}
-        titleCourse="Data Science & AI for BFSI Professionals"
+        titleCourse="Data Science & AI for Healthcare Professionals"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Healthcare-Pharma-and-Clinical-Research-domain.pdf"
         brochurePdf={pdfUrl}
         projectSection={projectSection}
