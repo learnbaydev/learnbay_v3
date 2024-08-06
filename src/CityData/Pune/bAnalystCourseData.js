@@ -7,7 +7,7 @@ export const BAnalystPuneCourseData = [
         "@type": "WebPage",
         "@id": "https://www.learnbay.co/",
       },
-      headline: "Business Analytics Course Training In Pune",
+      headline: "Business Analyst Course Training In Pune",
       description:
         "Business Analytics Course in Pune. Learnbay is Advanced Business Analyst Course Training Institute in Pune. Business Analyst course in Pune will enhance your career.",
       image:
@@ -566,7 +566,7 @@ export const BAnalystPuneCourseData = [
           },
           {
             id: 1,
-            ques: "Can I pay in installments for INR 93,220/-?",
+            ques: "Can I pay in installments for INR 95,000/-?",
             ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 10,816/month up to 12 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more",
             linkText1: " +917795687988 ",
             link1: "tel:+917795687988",
