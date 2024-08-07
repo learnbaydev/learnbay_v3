@@ -7,6 +7,7 @@ import { Raleway } from "next/font/google";
 import { PopupProvider, usePopup } from "../context/PopupContext";
 import Popup from "../components/Popup/Popup";
 import { useRouter } from "next/router";
+import { trackPageView, trackClick } from "../lib/tracker"; // Import tracking functions
 
 const raleway = Raleway({
   weight: ["300", "400", "500", "600", "700", "800"],
@@ -16,12 +17,41 @@ const raleway = Raleway({
 });
 
 const App = ({ Component, pageProps }) => {
+  const router = useRouter();
+
   useEffect(() => {
     const timer = setTimeout(() => {
       TagManager.initialize({ gtmId: "GTM-NN8XWH8" });
     }, 3000);
 
     return () => clearTimeout(timer);
+  }, []);
+
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      trackPageView(url);
+    };
+
+    trackPageView(window.location.pathname);
+    router.events.on("routeChangeComplete", handleRouteChange);
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
+
+  useEffect(() => {
+    const handleClick = (event) => {
+      trackClick(event.target.tagName, {
+        id: event.target.id,
+        class: event.target.className,
+        text: event.target.innerText,
+      });
+    };
+
+    document.addEventListener("click", handleClick);
+    return () => {
+      document.removeEventListener("click", handleClick);
+    };
   }, []);
 
   return (
