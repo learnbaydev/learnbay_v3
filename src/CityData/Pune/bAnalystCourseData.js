@@ -9,7 +9,7 @@ export const BAnalystPuneCourseData = [
       },
       headline: "Business Analyst Course Training In Pune",
       description:
-        "Business Analytics Course in Pune. Learnbay is Advanced Business Analyst Course Training Institute in Pune. Business Analyst course in Pune will enhance your career.",
+        "Business analyst  Course in Pune. Learnbay is Advanced Business Analyst Course Training Institute in Pune. Business Analyst course in Pune will enhance your career.",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/home-page-header.webp",
       author: {
@@ -206,9 +206,9 @@ export const BAnalystPuneCourseData = [
     script3: {
       "@context": "http://schema.org",
       "@type": "EducationEvent",
-      name: "Business Analytics Course Training In Pune",
+      name: "Business analyst  Course Training In Pune",
       description:
-        "Business Analytics Course in Pune. Learnbay is Advanced Business Analyst Course Training Institute in Pune. Business Analyst course in Pune will enhance your career.",
+        "Business analyst  Course in Pune. Learnbay is Advanced Business Analyst Course Training Institute in Pune. Business Analyst course in Pune will enhance your career.",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png",
       performer: "Learnbay",
@@ -274,7 +274,7 @@ export const BAnalystPuneCourseData = [
       },
       supply: {
         "@type": "HowToSupply",
-        name: "We provide business analytics course training in pune",
+        name: "We provide business analyst course training in pune",
       },
       tool: {
         "@type": "HowToTool",
@@ -596,7 +596,7 @@ export const BAnalystPuneCourseData = [
           {
             id: 0,
             ques: "What is a capstone project, and how does it fit into the course?",
-            ans: `Capstone projects are curated for professional skill development and help learners get exposure to real-world business issues. Business Analytics Program includes fresh capstone projects from diverse domains. Capstone projects are group project work where learners will learn the use and application of business analytics tools to tackle a business problem. `,
+            ans: `Capstone projects are curated for professional skill development and help learners get exposure to real-world business issues. Business analyst  Program includes fresh capstone projects from diverse domains. Capstone projects are group project work where learners will learn the use and application of business analytics tools to tackle a business problem. `,
   
 
             open: true,
@@ -812,16 +812,16 @@ ProgramBot22:"The mid-senior roles include project management associate, senior 
 CertificationBot1:
       "Learnbay Business Analyst program in Pune is Certified by IBM.",
     CertificationBot2:
-      "Learnbay is a one-stop solution for professional training in  Business analytics skills and tools. Our students in Pune receive IBM certificates for course completion. IBM certificates for Business analytics in a resume or portfolio add an extra mark and high skill to their profile. Learnbay Business analytics course training in Pune would make recruiters mark your profile with extra importance.",
+      "Learnbay is a one-stop solution for professional training in  Business analytics skills and tools. Our students in Pune receive IBM certificates for course completion. IBM certificates for Business analytics in a resume or portfolio add an extra mark and high skill to their profile. Learnbay business analyst course training in pune would make recruiters mark your profile with extra importance.",
     src33:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
     ModuleBot1:
-      "Learnbay has online and offline classes for Business analytics course training in Pune. Our Business Analyst course includes 200 hrs of live hassle-free classes conducted by Business analysts experts. Learnbay Provides students and working professionals with batches, even on weekends. Enrolled candidates get a one-year subscription to complete their course and master their skills as Business analysts at their own pace but through live and interactive training only. Learnbay even conducts webinars and hackathons for students, so learning becomes fun, and everyone can again enjoy these events just like their past days in universities.",
+      "Learnbay has online and offline classes for business analyst course training in pune. Our Business Analyst course includes 200 hrs of live hassle-free classes conducted by Business analysts experts. Learnbay Provides students and working professionals with batches, even on weekends. Enrolled candidates get a one-year subscription to complete their course and master their skills as Business analysts at their own pace but through live and interactive training only. Learnbay even conducts webinars and hackathons for students, so learning becomes fun, and everyone can again enjoy these events just like their past days in universities.",
     ModuleBot2:
-      "Students and professionals enrolled in Learnbay's Business analytics course training in Pune learn a series of Basic Python. Non-techies need not worry about coding; our faculties conduct special coding modules for non-programmers. Our business analytics program is IBM certified and also covers every subject and tool for one to become a professional Business analyst. Students Learn Business analysts tools like Advance excel to analyze data, make models, Data visualization with Tableau, SQL databases, and many more.",
+      "Students and professionals enrolled in Learnbay's business analyst course training in pune learn a series of Basic Python. Non-techies need not worry about coding; our faculties conduct special coding modules for non-programmers. Our business analytics program is IBM certified and also covers every subject and tool for one to become a professional Business analyst. Students Learn Business analysts tools like Advance excel to analyze data, make models, Data visualization with Tableau, SQL databases, and many more.",
     syllabush1: "Introduction to Business Analyst",
     syllabusb1: "6 Hours",
     SyllabusBotlist11: "Introduction to Business Analysis",
@@ -969,22 +969,22 @@ listJob11:"Wipro- They are into IT services and consulting. The job title is dat
     AlumniH4: "Shubhangi J. Waghmare ",
     Alumnip4:
       "The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment.",
-    alt1: "business analytics course training in pune",
-    alt2: "business analytics course training in pune",
-    alt3: "business analytics course training in pune",
-    alt4: "business analytics course training in pune",
-    alt5: "business analytics course training in pune",
-    alt6: "business analytics course training in pune",
-    alt7: "business analytics course training in pune",
-    alt8: "business analytics course training in pune",
-    alt9: "business analytics course training in pune",
+    alt1: "business analyst course training in pune",
+    alt2: "business analyst course training in pune",
+    alt3: "business analyst course training in pune",
+    alt4: "business analyst course training in pune",
+    alt5: "business analyst course training in pune",
+    alt6: "business analyst course training in pune",
+    alt7: "business analyst course training in pune",
+    alt8: "business analyst course training in pune",
+    alt9: "business analyst course training in pune",
     CityTextB:
-      "Business Analytics Course Certification Training locations in Pune ",
+      "Business analyst  Course Certification Training locations in Pune ",
     CityText:
       " : Bajirao Road [411002], Yerwada [411006], Kasba Peth [411011], Dhanori [411015], Pune City [411022], Hadapsar S.O [411028], Airport [411032], Afmc [411040], Karve Road [410038], Ammunition Factory Khadki [411003], Aundh [411007], Dapodi [411012], Gokhalenagar [411016], Kudje [411023], Kothrud [411029], Mundhva [411036], Tingre Nagar [411000], A.R. Shala [411004], Baner Road [411004], Magarpatta City [411013], Botanical Garden [411020], Khadakwasla [411024], Lokmanyanagar [411030], Bibvewadi [411037], Bhavani Peth [411042], Dhayari [411041], Dhankawadi [411043], C D A O [411001], Shivajinagar [411005], Parvati [411009], 9 Drd [411014], Armament [411021], Donje [411025], Bopkhel [411031], Bhusari Colony [411038], Haveli [411045], Jambhulwadi [411046], Lohogaon [411047], Khondhwa [411048], Anandnagar [411051], Navsahyadri [411052], Chatursringi [411053], Gokhalenagar [411055], Warje [411058], Mohamadwadi Kadvasti [411060], Janaki Nagar [411066], Aundh [411067], Pimpri Chinchwad [411078], Nanded [411230], Gondhale Nagar [412029], Sathe Nagar [412047], Alandi Devachi [412105], Ambarvet [412115], Ashtapur [412207], Manjari Farm [412307], Phursungi [412308], Viman Nagar 411014, Shaniwar Peth [413337].",
 
     CityTextLB: "Locations Offered",
     CityTextL:
-      " :Business Analytics Course viman nagar,Business Analytics Training in kalyan nagar,Business Analytics Training in magarpetta,Business Analytics Training in pimpri chinchwad,Business Analytics Classes in yerwada,Business Analytics Classes in kharadi,Business Analytics Classes in vishrantwadi,Business Analytics Classes in deccan,Business Analytics Course in Katraj,Business Analytics Training in warje,,Business Analytics Certification Training in bavdhan,Business Analytics Certification in boat club road,Business Analytics Certification in model colony,Best Business Analyst Training in pune,Best Business Analyst Course in pune",
+      " :Business analyst  Course viman nagar,Business analyst  Training in kalyan nagar,Business analyst  Training in magarpetta,Business analyst  Training in pimpri chinchwad,Business analyst  Classes in yerwada,Business analyst  Classes in kharadi,Business analyst  Classes in vishrantwadi,Business analyst  Classes in deccan,Business analyst  Course in Katraj,Business analyst  Training in warje,,Business analyst  Certification Training in bavdhan,Business analyst  Certification in boat club road,Business analyst  Certification in model colony,Best Business Analyst Training in pune,Best Business Analyst Course in pune",
   },
 ];

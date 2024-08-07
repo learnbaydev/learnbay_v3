@@ -89,7 +89,7 @@ export default function Home() {
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/pune/data-analyst-course-training-in-pune"
+          content="https://www.learnbay.co/datascience/pune/business-analyst-course-training-in-pune"
         />
         <meta
           property="og:title"
@@ -128,11 +128,11 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/pune/data-analyst-course-training-in-pune"
+          href="https://www.learnbay.co/datascience/pune/business-analyst-course-training-in-pune"
         />
         <meta
           name="copyright"
-          content="Learnbay: Business Analytics Courses Certification Training India"
+          content="Learnbay: Business Analyst Courses Certification Training Pune"
         />
         <link
           rel="icon"
