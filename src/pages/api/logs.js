@@ -1,26 +1,16 @@
-// pages/api/track.js
+// pages/api/logs.js
 import { connectToDatabase } from '../../lib/mongo';
 import logger from '../../lib/logger';
 
 export default async function handler(req, res) {
-  if (req.method === 'POST') {
-    const { eventType, data, timestamp } = req.body;
-
-    const log = {
-      eventType,
-      data,
-      timestamp,
-    };
-
-    logger.info(log);
-
+  if (req.method === 'GET') {
     try {
       const db = await connectToDatabase();
       const collection = db.collection('logs');
-      await collection.insertOne(log);
-      res.status(200).json({ message: 'Event logged' });
+      const logs = await collection.find({}).toArray ();
+      res.status(200).json(logs);
     } catch (error) {
-      logger.error('Error logging to MongoDB', error);
+      logger.error('Error fetching logs from MongoDB', error);
       res.status(500).json({ message: 'Internal Server Error' });
     }
   } else {

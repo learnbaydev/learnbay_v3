@@ -1,13 +1,8 @@
+// middleware/logMiddleware.js
 import logger from '../lib/logger';
 import { connectToDatabase } from '../lib/mongo';
 
-const logToMongo = async (log) => {
-  const db = await connectToDatabase();
-  const collection = db.collection('logs');
-  await collection.insertOne(log);
-};
-
-export const logMiddleware = (req, res, next) => {
+export const logMiddleware = async (req, res, next) => {
   const start = Date.now();
 
   res.on('finish', async () => {
@@ -18,11 +13,27 @@ export const logMiddleware = (req, res, next) => {
       status: res.statusCode,
       duration,
       timestamp: new Date(),
+      eventType: 'page_view', // Default to page_view, adjust for other event types
+      data: {} // Default empty, adjust if needed
     };
 
+    // Adjust for different event types
+    if (req.body && req.body.eventType) {
+      log.eventType = req.body.eventType;
+      log.data = req.body.data || {}; // Capture event-specific data
+    }
+
     logger.info(log);
-    await logToMongo(log);
+    await logToMongo(log).catch(err => {
+      logger.error('Error logging to MongoDB', err);
+    });
   });
 
   next();
+};
+
+const logToMongo = async (log) => {
+  const db = await connectToDatabase();
+  const collection = db.collection('logs');
+  await collection.insertOne(log);
 };

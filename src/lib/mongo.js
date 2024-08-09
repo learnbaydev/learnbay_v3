@@ -1,6 +1,9 @@
+
+
+// mongo.js
 import { MongoClient } from 'mongodb';
 
-const url = 'mongodb+srv://learnbay:FVTLkxvsYqlGR5pN@payment.kktsxgw.mongodb.net/?retryWrites=true&w=majority';
+const url = 'mongodb+srv://learnbay:FVTLkxvsYqlGR5pN@payment.kktsxgw.mongodb.net/logs?retryWrites=true&w=majority';
 const dbName = 'logs';
 
 let client;
