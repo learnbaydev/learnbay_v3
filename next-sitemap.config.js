@@ -33,6 +33,7 @@ module.exports = {
       "submit-info",
       "terms-conditions",
       "verify-certificate",
+      "s3-cloud-computing-and-devOps-certification-program",
     ];
 
     if (
