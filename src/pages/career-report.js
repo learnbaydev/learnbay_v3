@@ -20,7 +20,7 @@ function careerReport() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/learning-learnbay"
+          href="https://www.learnbay.co/career-report"
         />
         <meta
           name="keywords"

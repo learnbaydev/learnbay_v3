@@ -73,7 +73,7 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "/Brochure/Advance-AI-ML.pdf"
+  const pdfUrl = "/Brochure/Advance-AI-ML.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -162,7 +162,6 @@ export default function Home() {
           titleCourse="AI & ML Program for tech professionals"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf"
           brochurePdf={pdfUrl}
-
           idss="Jn2puEQC8yk"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/AIML-Header.png"
           firstToparaImg="For Managers and Leaders"
@@ -182,12 +181,12 @@ export default function Home() {
             Fee="₹ 1,15,000"
             FeeEmi="₹ 7,539/ Month"
             weekdaybatch="Weekday Batch"
-            weekendbatch="Weekday Batch"
+            weekendbatch="Weekend Batch"
             weekday="MON - FRI"
-            weekend="MON - FRI"
+            weekend="SAT - SUN"
             WeekdayDate="August 16th"
-            WeekendDate="August 2nd"
-            WeekendTime="8:00 PM - 10:00 PM"
+            WeekendDate="August 25th"
+            WeekendTime="9:30 AM - 1 PM"
             WeekdayTime="8:00 AM - 10:00 AM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"

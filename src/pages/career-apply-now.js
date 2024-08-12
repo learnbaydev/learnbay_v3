@@ -17,20 +17,29 @@ const applyNow = () => {
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
-        <link rel="canonical" href="https://www.learnbay.co/submit-info" />
+        <link rel="canonical" href="https://www.learnbay.co/career-apply-now" />
       </Head>
       <Navbar popup={true} radio={true} careerForm={true} />
       <div className={styles.Wrapper}>
-        <div className={styles.left}>
-          <h6>Get a Better Future with Us</h6>
-          <Form />
-        </div>
-        <div className={styles.right}>
-          <Image
-            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Submit-info.png"
-            width="441"
-            height="600"
-          />
+        <div className={styles.innerWrapper}>
+          <div className={styles.left}>
+            <h6>Get a Better Future with Us</h6>
+            <Form />
+          </div>
+          <div className={styles.right}>
+            <Image
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Submit-info.png"
+              width="441"
+              height="600"
+            />
+          </div>
+          <div className={styles.rightM}>
+            <Image
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Submit-info.png"
+              width="441"
+              height="600"
+            />
+          </div>
         </div>
       </div>
       <Footer />
