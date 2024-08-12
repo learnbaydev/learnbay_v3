@@ -114,6 +114,10 @@
 .CertificateDiv {
   padding: 0px 80px;
 }
+.ibmImg img{
+  width: 500px;
+  height: 400px;
+}
 @media (max-width: 1281px) {
   .certificate {
     padding: 0px 40px;
@@ -171,6 +175,9 @@
   }
   .CertificateDiv {
     padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .pWrap {
     display: grid;
@@ -250,6 +257,10 @@
     display: grid;
     grid-template-columns: 10% 90%;
   }
+  .ibmImg img{
+    width: auto;
+    height: 400px;
+  }
 }
 
 @media (max-width: 481px) {
@@ -279,5 +290,9 @@
   }
   .Certificate img {
     background: linear-gradient(90deg, #262626 0%, #393939 99.02%);
+  }
+  .ibmImg img{
+    width: auto;
+    height: 250px;
   }
 }

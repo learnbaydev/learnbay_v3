@@ -198,3 +198,17 @@
     height: auto;
   }
 }
+@media screen and (max-width: 360px) {
+
+.box{
+  width: 200px;
+  height: auto;
+}
+.box p {
+  font-size: 14px;
+}
+.box span{
+  font-size: 10px;
+}
+
+}
