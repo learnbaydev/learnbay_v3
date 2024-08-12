@@ -6,9 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "postbuild": "next-sitemap && node uploadS3.mjs",
-    "lint": "next lint",
-    "generate-sitemap": "next-sitemap"
+    "postbuild": "node uploadS3.mjs",
+    "lint": "next lint"
   },
   "dependencies": {
     "@next/bundle-analyzer": "^14.2.5",
