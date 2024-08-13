@@ -29,6 +29,11 @@ const nextConfig = {
     minimumCacheTTL: 2678400,
   },
 
+  cache: {
+    type: 'filesystem',
+    buildDependencies: {
+    },
+  },
   async redirects() {
     return [
       {

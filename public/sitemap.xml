@@ -593,6 +593,20 @@
 		<changefreq>daily</changefreq>
 		<priority>0.70</priority>
 	</url>
+	<url>
+		<loc>https://www.learnbay.co/datascience/data-science-and-ai-for-healthcare-professionals</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
+	<url>
+		<loc>https://www.learnbay.co/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url><url>
+		<loc>https://www.learnbay.co/datascience/advance-data-analytics-program-iit-guwahati</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
 
 	
 </urlset>
