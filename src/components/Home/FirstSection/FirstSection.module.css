@@ -10,7 +10,10 @@
   overflow: hidden;
   z-index: -1;
   width: 100%;
-  height: 680px;
+  height: 690px;
+  /* Default background image for desktop */
+  background: url('https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BG_Home_1.webp') no-repeat center center;
+  background-size: contain;
 }
 
 .content {
@@ -56,7 +59,8 @@
   line-height: 62px;
   color: #fff;
 }
-.india{
+
+.india {
   color: #FE7A36;
 }
 
@@ -77,9 +81,9 @@
   margin: auto;
   padding: 10px 30px;
   color: #fff;
-  display: flex;
   gap: 10px;
 }
+
 .round svg {
   color: #35d028;
   font-size: 24px;
@@ -161,7 +165,7 @@
 }
 
 .button:hover {
-  background:#FE7A36;
+  background: #FE7A36;
   color: #fff;
 }
 
@@ -184,14 +188,11 @@
   font-weight: 600;
   line-height: 153%; /* 38.25px */
 }
-/* .bgWrap {
 
-  background: url('https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BG_Home_1.webp') no-repeat center center;
-  background-size:contain;
-} */
+/* Media Queries */
 
 @media (max-width: 641px) {
-  .section{
+  .section {
     width: 100%;
     margin: 60px auto;
     align-items: center;
@@ -200,29 +201,18 @@
   .learnDiv span {
     display: none;
   }
-  @media (max-width: 640px) {
-    /* .bgWrap {
-      background: url('https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/mbl_home_two.webp') no-repeat center center;
-      background-size: cover;
-    } */
-  }
   .content {
     padding: 70px 0px 60px 0px;
   }
   .content h3 {
     font-size: 20px;
-    /* margin-bottom: 14px; */
     text-align: center;
     margin: 20px;
-    
   }
   .content h1 {
     font-size: 32px;
-    width: -moz-fit-content;
     width: fit-content;
     line-height: 116%;
-    
-    
   }
   .round {
     margin: 10px 0px 70px 0px;
@@ -230,14 +220,11 @@
     align-items: center;
     justify-content: space-evenly;
     gap: 16px 0px;
-    
-    /* width: 280px; */
   }
   .buttonDiv {
     gap: 16px;
     margin: auto;
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
   }
@@ -260,17 +247,9 @@
   .bgWrap {
     width: 100%;
     height: 100%;
-  }
-  .topdivround{
-    display: flex;
-    gap: 10px;
-    padding: 0;
-  }
- 
-  .round p {
-    font-size: 16px;
-    padding: 0px 10px;
-    border-radius: 14px;
+    /* Mobile background image */
+    background: url('https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/mbl_home_two.webp') no-repeat center center;
+    background-size: cover;
   }
   .typeLogoMobile {
     display: flex;
@@ -282,16 +261,13 @@
     position: relative;
     top: -20px;
   }
-  .logoWrapMobile{
-text-align: center;
+  .logoWrapMobile {
+    text-align: center;
   }
   .typeLogo {
-    /* align-items: center; */
-    user-select: auto;
     margin: 10px 22px;
     position: relative;
     top: -21px;
-
   }
   .typeLogo p {
     text-align: start;
@@ -306,42 +282,34 @@ text-align: center;
   }
 }
 
-
-
 @media (max-width: 370px) {
   .content h3 {
     font-size: 16px;
     margin-bottom: 14px;
     text-align: center;
   }
-
-  .content{
+  .content {
     font-size: 25px;
-        width: -moz-fit-content;
-        width: fit-content;
-        line-height: 116%;
-        padding: 40px 10px 60px 10px;
+    width: fit-content;
+    line-height: 116%;
+    padding: 40px 10px 60px 10px;
   }
   .content h1 {
     font-size: 26px;
   }
-
-
-
 }
+
 @media (max-width: 412px) {
   .content h3 {
     font-size: 22px;
     margin: 40px 20px;
     text-align: center;
   }
-
-  .content{
+  .content {
     font-size: 25px;
-        width: -moz-fit-content;
-        width: fit-content;
-        line-height: 116%;
-        padding: 40px 10px 50px 10px;
+    width: fit-content;
+    line-height: 116%;
+    padding: 40px 10px 50px 10px;
   }
   .content h1 {
     font-size: 30px;
