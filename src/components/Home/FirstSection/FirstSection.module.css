@@ -248,7 +248,8 @@
     width: 100%;
     height: 100%;
     /* Mobile background image */
-    background: url('https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/mbl_home_two.webp') no-repeat center center;
+    /* background: url('https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/mbl_home_two.webp') no-repeat center center; */
+    background: #161616;
     background-size: cover;
   }
   .typeLogoMobile {

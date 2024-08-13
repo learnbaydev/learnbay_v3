@@ -13,7 +13,7 @@ const MasterApplicationForm = ({ secondForm, title }) => {
     name: "",
     email: "",
     url: router.asPath,
-    phone: "",
+    phoneNumber: "",
     highestEducation: "",
     graduationMarks: "",
     workExperience: "",
@@ -23,7 +23,7 @@ const MasterApplicationForm = ({ secondForm, title }) => {
     // Default: "no"
   });
   useEffect(() => {
-    setQuery({ ...query, phone: value });
+    setQuery({ ...query, phoneNumber: value });
   }, [value]);
   const handleChange = (e) => {
     const { name, value, type } = e.target;
@@ -44,7 +44,7 @@ const MasterApplicationForm = ({ secondForm, title }) => {
     const sendData = await fetch(
       secondForm
         ? "https://getform.io/f/c97e799c-c954-4fc8-80c9-47b33ce2bb5d"
-        : "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4",
+        : "https://getform.io/f/f22d962e-90ad-4ec0-a9cd-ac0881f683ca",
       {
         method: "POST",
         body: formData,
@@ -54,7 +54,7 @@ const MasterApplicationForm = ({ secondForm, title }) => {
       name: "",
       email: "",
       url: router.asPath,
-      phone: "",
+      phoneNumber: "",
       highestEducation: "",
       graduationMarks: "",
       workExperience: "",
@@ -116,7 +116,7 @@ const MasterApplicationForm = ({ secondForm, title }) => {
           ></input>
 
           <div className={styles.phoneWrap}>
-            <label htmlFor="phone">
+            <label htmlFor="phoneNumber">
               Phone Number<span className={styles.spanLabel}>*</span>
             </label>
             <div className={styles.phoneInput}>
@@ -124,9 +124,9 @@ const MasterApplicationForm = ({ secondForm, title }) => {
                 inputStyle={{
                   border: 0,
                 }}
-                name="phone"
+                name="phoneNumber"
                 inputProps={{
-                  name: "phone",
+                  name: "phoneNumber",
                   required: true,
                   placeholder: "Enter Phone Number",
                 }}
