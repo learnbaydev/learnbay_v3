@@ -593,6 +593,10 @@
 		<changefreq>daily</changefreq>
 		<priority>0.70</priority>
 	</url>
-
+	<url>
+		<loc>https://www.learnbay.co/datascience/data-science-and-ai-for-healthcare-professionals</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.70</priority>
+	</url>
 	
 </urlset>
