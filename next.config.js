@@ -1,9 +1,4 @@
-const isProd = process.env.NODE_ENV == "production";
 const nextConfig = {
-  assetPrefix: isProd ? "https://d32and0ii3b8oy.cloudfront.net/" : undefined,
-  eslint: {
-    ignoreDuringBuilds: true,    
-  },
   experimental: {
     optimizePackageImports: [
       "react-phone-input-2",
@@ -1279,7 +1274,7 @@ const nextConfig = {
       //   destination: "/datascience/advance-data-science-certification-courses",
       //   permanent: true,
       // },
-    
+
       // {
       //   source: "/datascience/hr-analytics",
       //   destination: "/datascience/business-analytics-certification-course",
@@ -1318,29 +1313,26 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source:
-          "/master-program-in-software-development",
+        source: "/master-program-in-software-development",
         destination: "/fullstack/full-stack-software-development-program",
         permanent: true,
       },
       {
-        source:
-          "/master-program-in-software-development",
+        source: "/master-program-in-software-development",
         destination: "/fullstack/full-stack-software-development-program",
         permanent: true,
       },
 
       {
-        source:
-          "/datascience/advance-data-analytics-program",
+        source: "/datascience/advance-data-analytics-program",
         destination: "/datascience/advance-data-analytics-program-iit-guwahati",
         permanent: true,
       },
 
       {
-        source:
-          "/datascience/executive-program-in-data-science-and-ai",
-        destination: "/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati",
+        source: "/datascience/executive-program-in-data-science-and-ai",
+        destination:
+          "/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati",
         permanent: true,
       },
     ];
