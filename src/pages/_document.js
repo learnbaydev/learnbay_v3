@@ -6,8 +6,8 @@ export default function Document() {
       <Head>
         <meta name="robots" content="index, follow" />
         <meta name="robots" content="ALL" />
-        
-        <link
+
+        {/* <link
           rel="preload"
           href="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/mbl_home_two.webp"
           as="image"
@@ -26,8 +26,7 @@ export default function Document() {
           rel="preload"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ibm_mix_logo.webp"
           as="image"
-        />
-    
+        /> */}
 
         <script
           defer

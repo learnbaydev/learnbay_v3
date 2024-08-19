@@ -1,48 +1,64 @@
-import React, { useEffect, useState } from "react";
+import React, { useState, useEffect } from "react";
+import styles from "./FirstSection.module.css";
 import Image from "next/image";
 import { useMediaQuery } from "react-responsive";
 import { FaCheck } from "react-icons/fa";
-import styles from "./FirstSection.module.css";
 
 function HeroSection({ setPopups, setVideo, btnHide }) {
+  const popupShow = () => {
+    setPopups(true);
+  };
+
+  const videoShow = () => {
+    setVideo(true);
+  };
+
   const isMobile = useMediaQuery({ query: "(max-width: 640px)" });
 
-  // Background image URLs
+  const [bgImage, setBgImage] = useState("");
+  const [typeLogo, setTypeLogo] = useState("");
 
-  // Type logo URLs
-  const desktopTypeLogo = "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ibm_mix_logo.webp";
-  const mobileTypeLogo = "https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/logo_mix_mbl.webp";
+  useEffect(() => {
+    setBgImage(
+      isMobile
+        ? "https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/mbl_home_two.webp"
+        : "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BG_Home_1.webp"
+    );
 
-  // Use the URLs directly in Image component
-  // const bgImage = isMobile ? mobileBgImage : desktopBgImage;
-  const typeLogo = isMobile ? mobileTypeLogo : desktopTypeLogo;
-
-  const popupShow = () => setPopups(true);
-  const videoShow = () => setVideo(true);
+    setTypeLogo(
+      isMobile
+        ? "https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/logo_mix_mbl.webp"
+        : "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ibm_mix_logo.webp"
+    );
+  }, [isMobile]);
 
   return (
     <section className={styles.section}>
       <div className={styles.bgWrap}>
-        {/* <Image
-          src={bgImage}
-          alt="Learnbay Background"
-          layout="fill"
-          priority
-          placeholder="blur"
-          blurDataURL={
-            isMobile
-              ? "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/mbl_home_two.avif"
-              : "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BG_Home_1.avif"
-          }
-          quality={75} // Adjust quality to balance between image quality and file size
-        /> */}
+        {bgImage && (
+          <Image
+            src={bgImage}
+            alt="Learnbay Background"
+            layout="fill"
+            priority
+            placeholder="blur"
+            blurDataURL={
+              isMobile
+                ? "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/mbl_home_two.avif" // Replace with the base64 string of the mobile image
+                : "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BG_Home_1.avif" // Replace with the base64 string of the desktop image
+            }
+            sizes="(max-width: 640px) 100vw, 100vw"
+          />
+        )}
       </div>
       <div className={styles.content}>
         <h1>
           <span className={styles.india}>India’s #1</span> Upskilling Platform
           for Working Professionals
         </h1>
-        <h3 title="Gen AI and ChatGPT">Curriculum inclusive of Gen AI and ChatGPT</h3>
+        <h3 title="Gen AI and ChatGPT">
+          Curriculum inclusive of Gen AI and ChatGPT
+        </h3>
         <div className={styles.round}>
           <p>
             <FaCheck /> Data Science & AI
@@ -62,7 +78,9 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
           >
             Apply for Counselling
           </button>
-          {!btnHide && (
+          {btnHide ? (
+            <></>
+          ) : (
             <div
               className={styles.learnDiv}
               onClick={videoShow}
@@ -103,8 +121,6 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
             height={isMobile ? 20 : 34}
             alt="IBM Logo"
             priority
-            sizes={isMobile ? "300px" : "650px"}
-            quality={75} // Adjust quality as needed
           />
         </div>
       </div>
