@@ -16,12 +16,12 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
         <title>Advanced Data Analytics Course | IITG Certification</title>
         <meta
           name="description"
-          content="Elevate your Analytics career with Learnbay's Advanced Data Analytics Certification. Gain advanced skills, and certification from IIT Guwahati."
+          content="Elevate your Analytics career with Learnbay's Advanced Data Analytics Certification. Gain advanced skills, and certification from E&ICT Academy IIT Guwahati."
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="iit guwahati data analytics course, iit data analytics course, iit data analytics course online, data analyst course iit, data analytics course iit, data analyst course from iit, advanced data analytics course by iit guwahati, advanced data analytics course, best data analyst certification, data analytics professional certificate,"
+          content="E&ICT Academy IIT Guwahati data analytics course, iit data analytics course, iit data analytics course online, data analyst course iit, data analytics course iit, data analyst course from iit, advanced data analytics course by E&ICT Academy IIT Guwahati, advanced data analytics course, best data analyst certification, data analytics professional certificate,"
         />
         <link
           rel="icon"
