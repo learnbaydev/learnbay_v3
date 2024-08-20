@@ -168,7 +168,7 @@ export const ADAProgram = [
           "Upon successfully completing this program, you’ll earn a Executive program Certification in DS and AI in collaboration with E&ICT Academy IIT Guwahati   ",
 
           "Access to lectures from top faculties of E&ICT Academy IIT Guwahati.",
-          "Experential learning opportunity at IIT Guwahati campus",
+          "Experential learning opportunity at E&ICT Academy IIT Guwahati campus",
         ],
 
         link: false,
@@ -212,13 +212,13 @@ export const ADAProgram = [
         Module0: {
           title: " Module 0 :- Preparatory Classes (Programming + Maths)",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_round.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_Up.webp",
-        points: "Cohort Orientation",
-        points1: "Fundamentals of programming",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_Up.webp",
+          points: "Cohort Orientation",
+          points1: "Fundamentals of programming",
           content: [
             {
               chap: {
@@ -261,13 +261,13 @@ export const ADAProgram = [
         Module0: {
           title: "TERM 1 :- Python Programming",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
-        points: "Python Programming",
-        points1: "Statistics and Machine Learning",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
+          points: "Python Programming",
+          points1: "Statistics and Machine Learning",
           content: [
             {
               chap: {
@@ -300,13 +300,13 @@ export const ADAProgram = [
         Module0: {
           title: " TERM 2 :- Statistics and Machine Learning ",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
-        points: "Statistics",
-        points1: "Machine Learning",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
+          points: "Statistics",
+          points1: "Machine Learning",
           content: [
             {
               chap: {
@@ -354,14 +354,14 @@ export const ADAProgram = [
         Module0: {
           title: "TERM 3 :- Data Analytics Tools",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_up.webp",
-        points: "SQL",
-        points1: "MongoDB",
-        points2: "Tableau",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_up.webp",
+          points: "SQL",
+          points1: "MongoDB",
+          points2: "Tableau",
           content: [
             {
               chap: {
@@ -443,12 +443,12 @@ export const ADAProgram = [
         Module0: {
           title: "TERM 4 :- Excel",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_up.webp",
-        points: "Getting started with Excel",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_up.webp",
+          points: "Getting started with Excel",
 
           content: [
             {
@@ -554,7 +554,7 @@ export const ADAProgram = [
           {
             id: 8,
             ques: "What is the role of the E&ICT Academy of E&ICT Academy IIT Guwahati in placements?                        ",
-            ans: `The E&ICT Academy of IIT, Guwahati, is dedicated to equipping the pathway for technical accomplishment and analysis in Data Science, AI, and data analytics. It also helps in hosting an Advanced Certification of Full Stack Data Science & AI, presented altogether by E&ICT Academy, and Guest Lectures from renowned faculties of IIT Guwahati. 
+            ans: `The E&ICT Academy of IIT, Guwahati, is dedicated to equipping the pathway for technical accomplishment and analysis in Data Science, AI, and data analytics. It also helps in hosting an Advanced Certification of Full Stack Data Science & AI, presented altogether by E&ICT Academy, and Guest Lectures from renowned faculties of E&ICT Academy IIT Guwahati. 
                     
                     
                     `,

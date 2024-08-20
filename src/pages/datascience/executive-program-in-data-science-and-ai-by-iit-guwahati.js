@@ -18,7 +18,7 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
         </title>
         <meta
           name="description"
-          content="Advance your career with Learnbay's Executive Program in Data Science and AI. Gain advanced skills and become IIT Guwahati certified Data Scientist."
+          content="Advance your career with Learnbay's Executive Program in Data Science and AI. Gain advanced skills and become E&ICT Academy IIT Guwahati certified Data Scientist."
         />
         <meta name="robots" content="index, follow" />
         <meta
