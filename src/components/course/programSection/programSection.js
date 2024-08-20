@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./programSection.module.css";
+import styles from "./ProgramSection.module.css";
 
 function programSection() {
   return (

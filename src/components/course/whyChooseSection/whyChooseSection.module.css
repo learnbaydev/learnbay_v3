@@ -1,17 +1,182 @@
 .container {
-    border-radius: 81px;
-background: #212121;
-    width: 1300px;
-    margin: auto;
-    margin-top: 80px;
-    color: #000;
-    padding: 70px 0px 60px 0px;
-    height: 1600px;
-  }
+  border-radius: 81px;
+  background: #212121;
+  width: 1300px;
+  margin: auto;
+  margin-top: 70px;
+  color: #000;
+  padding: 70px 0px 100px 0px;
+}
 
-  .container h2 {
-    text-align: center;
-    color: #FE7A36;
-    font-size: 44px;
-    font-weight: 700;
-  }
+.container h2 {
+  text-align: center;
+  color: #fe7a36;
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.innerDivOne, .innerDivTwo, .innerDivThree {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 110px;
+}
+
+.innerDivOne, .innerDivThree {
+  grid-template-columns: 48% 30%;
+}
+
+.innerDivTwo {
+  grid-template-columns: 30% 45%;
+}
+
+.innerDivOne {
+  margin-top: 70px;
+}
+
+.innerDivThree {
+  gap: 60px;
+  margin-top: 130px;
+}
+
+.oneFirst {
+  background: url("https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/choose_first_left.webp");
+  background-size: contain;
+  height: fit-content;
+  background-repeat: no-repeat;
+  padding: 50px;
+}
+
+.ytBot {
+  background: url("https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/yt_bot_bg.webp");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 0px 20px;
+  height: 102px;
+  display: grid;
+  align-items: center;
+}
+
+.twoSecond {
+  background: url("https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/domain_bg_why.webp");
+  background-size: contain;
+  height: fit-content;
+  background-repeat: no-repeat;
+  padding: 50px 70px 50px 40px;
+}
+
+.threeFirst {
+  background: url("https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project_choose.webp");
+  background-size: contain;
+  height: fit-content;
+  background-repeat: no-repeat;
+  padding: 35px 70px 50px 40px;
+}
+
+.oneFirst h3, .twoSecond h3, .threeFirst h3 {
+  color: #fff;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.oneFirst p, .twoSecond p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  /* margin-right: 85px; */
+  line-height: 30px;
+}
+
+.innerBox {
+  display: grid;
+  margin-top: 30px;
+  gap: 40px;
+  grid-template-columns: 44% 35%;
+}
+
+.iconBox {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.iconBox p {
+  color: #fff;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+}
+
+.oneSecond img {
+  height: 100%;
+  width: auto;
+}
+
+.botDiv {
+  background: url("https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/botBg_new.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 140px;
+  padding: 7px 20px;
+  margin-top: 30px;
+}
+
+.botDiv p, .ytBot p{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+}
+
+.botDiv span, .ytBot span {
+  color: #fe7a36;
+  font-weight: 700;
+}
+
+.twoFirst img, .threeSecond img {
+  height: auto;
+  width: 100%;
+}
+
+.threeSecond {
+  display: grid;
+  gap: 20px;
+}
+
+.contentIconDiv {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.contentIconDiv > div {
+  display: grid;
+  grid-template-columns: 10% 86%;
+  gap: 10px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.pHead {
+  color: #FFF;
+font-size: 20px;
+font-weight: 600;
+  margin: 0;
+}
+
+.pBot {
+  color: #FFF;
+font-size: 17px;
+font-weight: 400;
+margin: 5px;
+}
+
+.icon {
+  color: #FE7A36;
+}

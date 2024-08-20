@@ -6,11 +6,11 @@ const Navbar = dynamic(() =>
   import("@/components/course/navbarSection/NavbarSection")
 );
 const ProgramSection = dynamic(() =>
-  import("@/components/course/programSection/programSection")
+  import("@/components/course/programSection/ProgramSection")
 );
 
 const OutcomeSection = dynamic(() =>
-  import("@/components/course/outcomeSection/outcomeSection")
+  import("@/components/course/outcomeSection/OutcomeSection")
 );
 
 const WhyChooseSection = dynamic(() =>
