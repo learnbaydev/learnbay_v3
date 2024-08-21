@@ -79,7 +79,6 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          {" "}
           Master's Degree in Data Science and AI in Australia - Learnbay
         </title>
         <meta name="robots" content="index, follow" />
