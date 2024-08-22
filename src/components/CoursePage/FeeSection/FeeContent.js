@@ -151,25 +151,9 @@ const FeeContent = ({
             />
           </div>
         </div>
+        
         <div className={styles.third}>
           <p>Batch Details</p>
-          <div className={styles.boxOrange}>
-            <p> {weekdaybatch}</p>
-            <div className={styles.batches}>
-              <p className={styles.date}>{WeekdayDate}</p>
-              <div className={styles.Time}>
-                <p className={styles.day}>{weekday}</p>
-                <p className={styles.paraBot}>{WeekdayTime}</p>
-              </div>
-            </div>
-          </div>
-          <hr
-            style={{
-              color: "rgba(0, 0, 0, 0.20)",
-              margin: "30px",
-              border: "0.9px solid",
-            }}
-          />
           <div className={styles.boxOrange}>
             <div className={styles.batchImg}>
               <p>{weekendbatch}</p>
@@ -182,6 +166,26 @@ const FeeContent = ({
               </div>
             </div>
           </div>
+          <hr
+            style={{
+              color: "rgba(0, 0, 0, 0.20)",
+              margin: "30px",
+              border: "0.9px solid",
+            }}
+          />
+          <div className={styles.boxOrange}>
+            
+            <p> {weekdaybatch}</p>
+            <div className={styles.batches}>
+              <p className={styles.date}>{WeekdayDate}</p>
+              <div className={styles.Time}>
+                <p className={styles.day}>{weekday}</p>
+                <p className={styles.paraBot}>{WeekdayTime}</p>
+              </div>
+            </div>
+          </div>
+      
+        
         </div>
       </div>
       {/* Emi Popup */}
