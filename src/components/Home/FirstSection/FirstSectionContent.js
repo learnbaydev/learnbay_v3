@@ -56,7 +56,9 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
           <span className={styles.india}>India’s #1</span> Upskilling Platform
           for Working Professionals
         </h1>
-        <h3 title="Gen AI and ChatGPT">Curriculum inclusive of Gen AI and ChatGPT</h3>
+        <h3 title="Gen AI and ChatGPT">
+          Curriculum inclusive of Gen AI and ChatGPT
+        </h3>
         <div className={styles.round}>
           <p>
             <FaCheck /> Data Science & AI
@@ -69,7 +71,11 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
           </p>
         </div>
         <div className={styles.buttonDiv}>
-          <button title="Apply For Counselling" onClick={popupShow} className={styles.button}>
+          <button
+            title="Apply For Counselling"
+            onClick={popupShow}
+            className={styles.button}
+          >
             Apply for Counselling
           </button>
           {btnHide ? (

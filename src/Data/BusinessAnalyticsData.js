@@ -198,7 +198,7 @@ export const BADataScienceCourseData = [
     Certificate: {
       degreeCertificate: {
         id: 1,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm-min.webp",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/business-analytics-Cer.webp",
         title: "Business Analytics Certification from IBM        ",
         para: [
           "Complete your training with the internationally recognized certificate.",

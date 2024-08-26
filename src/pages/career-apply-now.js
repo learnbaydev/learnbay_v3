@@ -12,7 +12,7 @@ const applyNow = () => {
     <div>
       <Head>
         <title>Apply Now</title>
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="noindex, nofollow" />
         <link
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"

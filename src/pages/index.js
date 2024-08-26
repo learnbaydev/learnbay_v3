@@ -175,7 +175,6 @@ export default function Home() {
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
-
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -396,7 +395,11 @@ export default function Home() {
       <Course dataScience={true} radio={true} />
       <WhyLearnbay ids="YWxTtvb3x-U" />
 
-      <CareerHome dataScience={true} ThirdSectionData={ThirdSectionData} radio={true} />
+      <CareerHome
+        dataScience={true}
+        ThirdSectionData={ThirdSectionData}
+        radio={true}
+      />
       <div className="realstory">
         <Realstory />
       </div>
@@ -404,7 +407,7 @@ export default function Home() {
       <TrainerSection idss="eautK0odE7Q" />
       <ContactUs dataScienceCounselling={true} radio={true} />
       <GetHire />
-      <MobileTestimonial radio={true} dataScienceCounselling={true}/>
+      <MobileTestimonial radio={true} dataScienceCounselling={true} />
       <Media projectData={data} />
       <SeventhSection />
 

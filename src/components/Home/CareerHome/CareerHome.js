@@ -111,7 +111,7 @@ function careerHome({
               </p>
             </div>
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/Certification-02-1.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/Certification-021.webp"
               alt="Learnbay"
               loading="lazy"
               height={212}

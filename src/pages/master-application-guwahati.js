@@ -7,7 +7,7 @@ const masterApplication = () => {
     <>
      <Head>
         <title>
-   Master Application Form
+        Master - Application Guwahati Form
         </title>
         <meta
           name="description"
@@ -20,7 +20,7 @@ const masterApplication = () => {
                 <meta name="robots" content="noindex, nofollow" />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/master-application"
+          href="https://www.learnbay.co/master-application-guwahati"
     
         />
       </Head>

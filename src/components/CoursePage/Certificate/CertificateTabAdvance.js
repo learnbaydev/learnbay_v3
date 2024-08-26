@@ -141,7 +141,7 @@ function CertificateTab({ data, singlecertificate, doubleCertificate, projectWit
               loading="lazy"
               quality={40}
             />
-            <div className={`${styles.CertificateDiv} imgWrapper`}>
+            <div className={`${styles.CertificateDiv} ${styles.ibmImg} imgWrapper`}>
               <Image
                 src={data.degreeCertificate.img}
                 alt="Certificate"
@@ -149,6 +149,7 @@ function CertificateTab({ data, singlecertificate, doubleCertificate, projectWit
                 quality={100}
                 width={1150}
                 height={800}
+            
               />
             </div>
           </div>

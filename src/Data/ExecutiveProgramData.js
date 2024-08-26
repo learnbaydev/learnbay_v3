@@ -168,7 +168,7 @@ export const ExcutiveProgramAIDS = [
           "Upon successfully completing this program, you’ll earn a Executive program Certification in DS and AI in collaboration with E&ICT Academy IIT Guwahati.   ",
 
           "Access to lectures from top faculties of E&ICT Academy IIT Guwahati.",
-          "Experential learning opportunity at IIT Guwahati campus",
+          "Experential learning opportunity at E&ICT Academy IIT Guwahati campus",
         ],
 
         link: false,
@@ -693,7 +693,7 @@ export const ExcutiveProgramAIDS = [
           {
             id: 2,
             ques: "Why choose Learnbay for this Executive Program in Data Science & AI?            ",
-            ans: `Executive program in Data Science & AI will help you to enlighten better career prospects. The course also offers Guest Lectures from top faculties of E&ICT Academy IIT Guwahati, flexible learning options, Optional 2-day campus immersion at IIT Guwahati, real-time projects, and industry-relevant skills to modernize your Career.`,
+            ans: `Executive program in Data Science & AI will help you to enlighten better career prospects. The course also offers Guest Lectures from top faculties of E&ICT Academy IIT Guwahati, flexible learning options, Optional 2-day campus immersion at E&ICT Academy IIT Guwahati, real-time projects, and industry-relevant skills to modernize your Career.`,
             open: false,
           },
           {
@@ -734,8 +734,8 @@ export const ExcutiveProgramAIDS = [
           },
           {
             id: 8,
-            ques: "Will I get a unique opportunity to visit the IIT Guwahati campus?            ",
-            ans: `Yes, the course offers an Optional 2-day campus immersion at IIT Guwahati. Here, you will be offered an alternate chance to visit the IIT Guwahati campus. 
+            ques: "Will I get a unique opportunity to visit the E&ICT Academy IIT Guwahati campus?            ",
+            ans: `Yes, the course offers an Optional 2-day campus immersion at E&ICT Academy IIT Guwahati. Here, you will be offered an alternate chance to visit the E&ICT Academy IIT Guwahati campus. 
               
               
               `,

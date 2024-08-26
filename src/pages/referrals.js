@@ -10,7 +10,7 @@ function Counselling() {
     <div>
       <Head>
         <title>Learnbay Courses</title>
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="noindex, nofollow" />
         <meta name="description" content="Learnbay Courses" />
         <link
           rel="icon"

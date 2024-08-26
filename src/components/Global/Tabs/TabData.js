@@ -105,10 +105,9 @@ export const TabData = [
     ],
   },
   {
-    id: "IIT Guwahati",
-    title: "IIT Guwahati",
+    id: "E&ICT Academy IIT Guwahati",
+    title: "E&ICT Academy IIT Guwahati",
     courseName: [
-    
       {
         CName: "Executive program in Data Science & AI ",
         hours: "11 Months",

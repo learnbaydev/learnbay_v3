@@ -26,6 +26,7 @@
   position: relative;
   bottom: -50px;
   animation: slideUp 0.5s ease-out; /* Apply the animation */
+  width: 550px;
 }
 
 .close {
@@ -39,7 +40,7 @@
 }
 
 .close:hover {
-  color: #FE7A36;
+  color: #fe7a36;
 }
 
 .popupImage {
@@ -50,7 +51,7 @@
 }
 
 .popUpdown {
-  background: #ECECEC;
+  background: #ececec;
   position: relative;
   top: -45px;
   width: 95%;
@@ -60,11 +61,11 @@
 
 .popupdivHead {
   margin-left: 50px;
-  padding:20px 0px 0px 0px;
+  padding: 20px 0px 0px 0px;
 }
 
 .popupdivHead h4 {
-  color: #5C5A5A;
+  color: #5c5a5a;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -87,8 +88,8 @@
 
 .icons {
   border-radius: 5px;
-  background: rgba(254, 122, 54, 0.20);
-  color: #FE7A36;
+  background: rgba(254, 122, 54, 0.2);
+  color: #fe7a36;
   padding: 10px;
   font-size: 40px;
 }
@@ -104,7 +105,7 @@
 }
 
 .popupdivHead h3 {
-  color: #FE7A36;
+  color: #fe7a36;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -116,9 +117,9 @@
   position: relative;
   display: inline-block;
   border-radius: 10px;
-  border-right: 4px solid #094D79;
-  border-bottom: 4px solid #094D79;
-  background: #0072BC;
+  border-right: 4px solid #094d79;
+  border-bottom: 4px solid #094d79;
+  background: #0072bc;
   padding: 10px 40px;
   font-size: 19px;
   color: #fff;
@@ -133,13 +134,18 @@
 }
 
 .btn::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
   transform: skewX(-30deg);
   transition: 0.5s;
 }
@@ -147,12 +153,11 @@
 .btn:hover::before {
   animation: smoke 1s forwards;
 }
-.btndiv{
+.btndiv {
   align-items: center;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
 @keyframes smoke {
@@ -170,6 +175,7 @@
     bottom: 0;
     margin-left: 21px;
     bottom: 200px;
+    width: 100%;
   }
 
   .popupdivHead {
@@ -209,7 +215,6 @@
 
 @media (max-width: 400px) {
   .popupContainer {
-
     bottom: 70px;
   }
 }
