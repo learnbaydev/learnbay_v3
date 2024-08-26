@@ -115,7 +115,6 @@ function FirstSection({
                   width="127"
                   height="51"
                   loading="lazy"
-                  priority={true}
                   alt="data science course"
                 />
               ) : (
@@ -123,7 +122,7 @@ function FirstSection({
                   src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp"
                   width="266"
                   height="48"
-                  priority
+                  loading="lazy"
                   alt="data science course"
                 />
               )}
@@ -160,7 +159,6 @@ function FirstSection({
               width="600"
               height="460"
               alt="data science course"
-              priority={true}
             />
           </div>
         </div>
@@ -173,7 +171,6 @@ function FirstSection({
                 width="127"
                 height="51"
                 loading="lazy"
-                priority={true}
                 alt="data science course"
               />
             ) : (
@@ -181,7 +178,7 @@ function FirstSection({
                 src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp"
                 width="283"
                 height="51"
-                priority={true}
+                loading="lazy"
                 alt="data science course"
               />
             )}
