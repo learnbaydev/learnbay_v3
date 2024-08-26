@@ -16,8 +16,15 @@
 
 .innerDiv h2 {
   color: #022646;
-  font-size: 35px;
-  font-weight: 700;
+  font-size: 42px;
+  font-weight: 500;
+}
+
+.topSpan {
+  text-decoration: underline;
+  text-decoration-color: #fe7a36;
+  text-underline-offset: 14px;
+  font-weight: 800;
 }
 
 .firstSection h3 {
@@ -27,7 +34,8 @@
 }
 
 .lightGray {
-  color: rgba(33, 33, 33, 0.4);
+  color: #212121;
+  font-weight: 300;
 }
 
 .orangeHead {
@@ -45,7 +53,7 @@
 .innerBoxDiv {
   display: flex;
   gap: 100px;
-  margin: 50px 40px 30px 20px;
+  margin: 60px 40px 40px 20px;
 }
 
 .innerBox h3 {
@@ -84,6 +92,7 @@ font-weight: 700;
     color: #0072BC;
 font-weight: 600;
 text-decoration-line: underline;
+font-style: italic;
 }
 
 .firstSection {

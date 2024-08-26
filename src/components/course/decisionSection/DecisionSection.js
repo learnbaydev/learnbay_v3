@@ -26,12 +26,12 @@ function DecisionSection() {
           </div>
           <div className={styles.secondSection}>
             <h2>
-              <span>Lead with Data</span>: AI for Decision Makers
+              Program <span>Summary</span>
             </h2>
             <div className={styles.innerBoxDiv}>
               <div className={styles.innerBox}>
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/campus_d.webp"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/campus_de.webp"
                   alt="Learnbay"
                   quality={100}
                   priority
@@ -40,13 +40,12 @@ function DecisionSection() {
                 />
                 <h3>Campus Immersion @IIT</h3>
                 <p>
-                  Turn AI insights into business strategies for competitive
-                  edge.
+                2 Days of campus immersion at IIT Guwahati
                 </p>
               </div>
               <div className={styles.innerBox}>
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/certificate_d.webp"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/certificate_de.webp"
                   alt="Learnbay"
                   quality={100}
                   priority
@@ -67,32 +66,30 @@ function DecisionSection() {
               </div>
               <div className={styles.innerBox}>
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/eligible_d.webp"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/eligible_de.webp"
                   alt="Learnbay"
                   quality={100}
                   priority
                   width="50"
                   height="50"
                 />
-                <h3>Eligibility</h3>
+                <h3>Domain Electives </h3>
                 <p>
-                  Turn AI insights into business strategies for competitive
-                  edge.
+                Work on Live projects from multiple domains like Retail, BFSI, Healthcare etc
                 </p>
               </div>
               <div className={styles.innerBox}>
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/faculty_d.webp"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/faculty_de.webp"
                   alt="Learnbay"
                   quality={100}
                   priority
                   width="60"
                   height="60"
                 />
-                <h3>Faculty</h3>
+                <h3>Real Project Experience</h3>
                 <p>
-                  Turn AI insights into business strategies for competitive
-                  edge.
+                Gain experience of managing analytics project from scratch.
                 </p>
               </div>
             </div>

@@ -6,75 +6,59 @@ function outcomeSection() {
     <section className={styles.container}>
       <div className="containerWidth">
         <div className={styles.innerDiv}>
-          <h2>Program Outcome: What Can You Expect from this course?</h2>
-          <div className={styles.twoSection}>
-            <div className={styles.innerBoxDiv}>
-              <div className={styles.innerBox}>
+          <h2>
+            Program Outcome:{" "}
+            <span className={styles.boldH2}>What Can You Expect from</span>
+            <span className={styles.borderBot}> this course?</span>
+          </h2>
+          <div className={styles.innerBoxDiv}>
+            <div className={styles.innerBox}>
+              <div className={styles.headCont}>
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/Lead_icon.webp"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/program_team_outcome.webp"
                   alt="Learnbay"
                   quality={100}
                   priority
-                  width="80"
-                  height="80"
+                  width="68"
+                  height="68"
                 />
-                <div>
-                  <h3>Lead Your Team Successfully:</h3>
-                  <p className={styles.pTop}>
-                    Learn how to guide and motivate your team, boosting
-                    collaboration and helping you achieve project goals faster.
-                    85% of our participants report improved team performance.
-                  </p>
-                </div>
+                <h3>Lead Your Team Successfully:</h3>
               </div>
-              <div className={styles.innerBox}>
-                <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/manage_icon.webp"
-                  alt="Learnbay"
-                  quality={100}
-                  priority
-                  width="80"
-                  height="80"
-                />
-                <div>
-                  <h3>Manage Projects from Start to Finish:</h3>
-                  <p className={styles.pTop}>
-                    Get the tools to handle every stage of a project, from
-                    planning to completion, ensuring projects are delivered on
-                    time and with high quality. Over 90% of graduates
-                    successfully lead complex projects.
-                  </p>
-                </div>
-              </div>
-              <div className={styles.innerBox}>
-                <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/ai_icon.webp"
-                  alt="Learnbay"
-                  quality={100}
-                  priority
-                  width="80"
-                  height="80"
-                />
-                <div>
-                  <h3>Use AI to Work Smarter:</h3>
-                  <p className={styles.pTop}>
-                    Learn how to apply Generative AI to simplify tasks, make
-                    better decisions, and automate repetitive work, giving you a
-                    competitive edge. 70% of our alumni have implemented AI
-                    solutions in their roles.
-                  </p>
-                </div>
-              </div>
+              <p className={styles.pTop}>
+              Master team leadership to boost collaboration and achieve goals faster—85% report improved performance.
+              </p>
             </div>
-            <div className={styles.secondSection}>
-              <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/placed_img.webp"
-                alt="Learnbay"
-                quality={100}
-                priority
-                width="617"
-                height="819"
-              />
+            <div className={styles.innerBox}>
+              <div className={styles.headCont}>
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/program_project_outcome.webp"
+                  alt="Learnbay"
+                  quality={100}
+                  priority
+                  width="68"
+                  height="68"
+                />
+                <h3>Manage Projects from Start to Finish:</h3>
+              </div>
+              <p className={styles.pTop}>
+              Gain tools to manage projects from start to finish—over 90% lead complex projects successfully.
+              </p>
+            </div>
+            <div className={styles.innerBox}>
+              <div className={styles.headCont}>
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/program_work.webp"
+                  alt="Learnbay"
+                  quality={100}
+                  priority
+                  width="68"
+                  height="68"
+                />
+                <h3>Use AI to Work Smarter:</h3>
+              </div>
+              <p className={styles.pTop}>
+              Apply Generative AI to automate tasks and enhance decision-making—70% have implemented AI in their roles.
+              </p>
             </div>
           </div>
         </div>

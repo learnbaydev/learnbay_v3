@@ -1,0 +1,247 @@
+.mainConteiner {
+    width: 1300px;
+    /* background-color: red; */
+    margin: auto;
+}
+
+.gridConteiner {
+    display: grid;
+    grid-template-columns: 30% 60%;
+    gap: 40px;
+    margin: 50px 0;
+    /* background-color: #e5ecf3; */
+}
+
+.leftinside {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.leftinside h3 {
+    color: #8A8A8A;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 126.5%;
+    /* 56.925px */
+}
+
+.rytmain {
+    border-radius: 30px;
+    background: #FFF;
+    padding: 20px 30px;
+    margin: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.ryttop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.ryttop p {
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 126.5%;
+    /* 44.275px */
+}
+
+.date {
+    border-radius: 36px;
+    background: rgba(254, 122, 54, 0.16);
+    padding: 10px 20px;
+}
+
+.date p {
+    color: #FE7A36;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 126.5%;
+    /* 31.625px */
+    margin: 0;
+}
+
+.org {
+    color: #FE7A36;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 126.5%;
+    /* 27.83px */
+}
+
+.pline {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.5%;
+}
+
+.lists {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170.5%;
+    /* 25.3px */
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.contentlist{
+    display: flex;
+    flex-direction: column;
+
+}
+.popupbtn{
+    margin-top: 10px;
+    width: fit-content;
+    color: #16A0FB;
+    text-decoration: underline;
+    font-size: 20px;
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.tools{
+    border-radius: 14px;
+background: rgba(0, 114, 188, 0.10);
+padding: 10px 20px;
+display: flex;
+align-items: center;
+text-align: center;
+gap: 20px;
+} 
+.tools p {
+    color: #000;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 126.5%; /* 25.3px */
+margin: 0;
+}
+/* Styles for the popup overlay and content */
+.popupOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1000;
+  }
+  
+  .popupContent {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    width: 80%;
+    max-width: 557px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    height: 500px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+  }
+  
+  .closeBtn {
+    position: relative;
+    left: 260px;
+    top: -4px;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    color: #fefefe;
+  }
+  
+  .closeBtn:hover {
+    color: #FE7A36;
+  }
+  
+  .popuptop{
+    display: grid;
+    grid-template-columns: 77% 20%;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .h2 {
+    font-size: 24px;
+  }
+
+
+.popupdate {
+    border-radius: 36px;
+    background: #fe7a3629;
+    padding: 10px 14px;
+}
+
+.popupdate p {
+    color: #FE7A36;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    /* 31.625px */
+    margin: 0;
+}
+.listTitle{
+    color: #0072BC;
+font-size: 18.716px;
+font-style: normal;
+font-weight: 600;
+line-height: 196.5%; /* 32.531px */
+
+}
+.popupPoints{
+    display: grid;
+    grid-template-columns: 13% 88%;
+}
+
+.popupleft {
+    position: relative;
+    width: 30px; 
+    background-color: #d9e9f4;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+/* Arrow shape on top */
+.popupleft::before {
+    content: "";
+    position: absolute;
+    top: 18px;
+    left: 54%;
+    width: 0;
+    height: 0;
+    border-left: 19px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 25px solid #d9e9f4;
+    transform: rotate(-147deg);
+
+}
+
+.rotateText {
+    color: #336ca8; /* Blue color for the text */
+    font-size: 18px; /* Adjust font size as needed */
+    transform: rotate(-90deg); /* Rotate text vertically */
+    white-space: nowrap;
+    line-height: 6; /* Ensure no extra space between letters */
+    font-weight: 600;
+}

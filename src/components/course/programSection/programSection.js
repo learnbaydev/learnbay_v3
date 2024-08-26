@@ -6,13 +6,13 @@ function programSection() {
     <section className={styles.container}>
       <div className="containerWidth">
         <div className={styles.innerDiv}>
-          <h2>Who is this program for ?</h2>
+          <h2> Who is this <span className={styles.topSpan}>program for ?</span></h2>
           <div className={styles.twoSection}>
             <div className={styles.firstSection}>
               <h3>
                 Mid <span className={styles.lightGray}>to</span> Senior Level{" "}
-                <span className={styles.lightGray}>Professionals with</span> 4+{" "}
-                <span className={styles.orangeHead}>Years of Experience</span>
+                <span className={styles.lightGray}>Professionals with</span><span className={styles.orangeHead}> 4+
+                Years of Experience</span>
               </h3>
               <p className={styles.pTop}>
                 this program is perfect for those looking to leverage data
@@ -21,7 +21,7 @@ function programSection() {
               <div className={styles.innerBoxDiv}>
                 <div className={styles.innerBox}>
                   <Image
-                    src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project_manager_icon.webp"
+                    src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project_ma.webp"
                     alt="Learnbay"
                     quality={100}
                     priority
@@ -32,7 +32,7 @@ function programSection() {
                 </div>
                 <div className={styles.innerBox}>
                   <Image
-                    src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/team_lead_icon.webp"
+                    src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/eligible_de.webp"
                     alt="Learnbay"
                     quality={100}
                     priority
@@ -51,7 +51,7 @@ function programSection() {
             </div>
             <div className={styles.secondSection}>
               <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/linked_in_search.webp"
+                src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/program_right_side.webp"
                 alt="Learnbay"
                 quality={100}
                 priority

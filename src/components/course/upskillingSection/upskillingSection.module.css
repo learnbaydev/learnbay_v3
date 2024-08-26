@@ -1,0 +1,96 @@
+.sectionWrapper{
+    width: 1300px;
+    display: flex;
+    margin: auto;
+    margin-top: 120px;
+    flex-direction: column;
+    border-radius: 54px;
+    background: #212121;
+    padding: 50px 0px 100px 0px;
+}
+.upskillHeading{
+    font-size: 45px;
+    color: #fff;
+    display: flex;
+    font-weight: 400;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.spanHead {
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 16px;
+    text-decoration-color: #FE7A36;
+}
+
+.toolBox p {
+    margin: 0;
+    color: #fff;
+}
+.UpperBoxContainer{
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    align-items: center;
+    margin: 2rem 4rem;
+}
+.boxContainer{
+    color: white;
+}
+.upperBox{
+    display: flex;
+    gap: 1.5rem;
+    padding: 0.4rem 0.6rem;
+    border: 1px solid #FE7A36;
+    width: fit-content;
+    border-radius: 5px;
+    align-items: center;
+}
+.upperBox h5{
+    color: #FE7A36;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.upperBox p {
+    margin: 0;
+    color: #fff;
+}
+.boxTitle{
+    margin: 0.7rem 0;
+    line-height: 1.4;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+}
+.textHead{
+    font-weight: 600;
+}
+.boxText{
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    color: #fff;
+}
+.toolBox{
+    display: flex;
+    gap: 0.8rem;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.6rem 0.8rem;
+    background: rgba(0, 114, 188, 0.15);
+    border-radius: 8px;
+}
+.toolBox img {
+    width: auto;
+    height: 100%;
+}
+.toolIcon{
+    width: 70px;
+    height: 30px;
+    color: #FFC436;
+}
+.toolPyIcon{
+    width: 70px;
+    height: 30px;
+}

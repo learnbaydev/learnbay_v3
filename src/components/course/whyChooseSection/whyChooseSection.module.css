@@ -48,13 +48,13 @@
 }
 
 .ytBot {
-  background: url("https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/yt_bot_bg.webp");
-  background-size: 100%;
-  background-repeat: no-repeat;
   padding: 0px 20px;
   height: 102px;
   display: grid;
   align-items: center;
+  border-radius: 23px;
+  border: 1px solid rgba(4, 201, 136, 0.00);
+  background: rgba(4, 201, 136, 0.10);
 }
 
 .twoSecond {

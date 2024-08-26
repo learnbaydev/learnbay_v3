@@ -159,6 +159,119 @@ export const ExcutiveProgramAIDS = [
       // },
     ],
 
+    sections: [
+      {
+        id: "0",
+        title: "Term 1",
+        description: "Foundations of Data Science and Leadership",
+        duration: "1.5 months",
+        contentModule: "Module 1",
+        contentTitle: "Foundations of Data Science and Leadership",
+        contentDescription: "Introduction to data science for Managers",
+        contentDetails: [
+          "What is Data Science, Data Analytics, Machine Learning, Artificial Intelligence?",
+          "Role of Data in Various Industries and Businesses",
+        ],
+        popupContent: "Introduction to Data science for managers",
+        popupModule: "Module 1",
+        popupModuleone: "Module 2",
+        popuplist: [
+          "What is Data Science, Data Analytics, Machine Learning, Artificial Intelligence?",
+          "Role of Data in Various Industries and Businesses",
+          "Utilizing Data to Enhance Industrial Operations and Management",
+          "Use Cases of Data Analytics and AI in Various Domains",
+          "BFSI",
+          "Manufacturing",
+          "Retail",
+          "HR",
+          "Marketing",
+          "Sales",
+          "Healthcare",
+          "Various Job Roles in Data Science and AI",
+        ],
+      },
+      {
+        id: "1",
+        title: "Term 2",
+        description: "Advanced Data Science Techniques",
+        duration: "2 months",
+        contentModule: "Module 2",
+        contentTitle: "Advanced Data Science Techniques",
+        contentDescription: "Deep Learning and Neural Networks",
+        contentDetails: [
+          "Introduction to Neural Networks",
+          "Deep Learning Architectures",
+        ],
+        popupContent: "Introduction to Data science for managers",
+        popupModule: "Module 2",
+        popuplist: [
+          "Introduction to Neural Networks",
+          "Deep Learning Architectures",
+          "Data Science Project Management",
+        ],
+      },
+      {
+        id: "2",
+        title: "Term 3",
+        description: "Data Science in Practice",
+        duration: "2.5 months",
+        contentModule: "Module 3",
+        contentTitle: "Data Science in Practice",
+        contentDescription: "Practical Applications of Data Science",
+        contentDetails: [
+          "Real-world Case Studies",
+          "Data Science Project Management",
+        ],
+        popupContent:
+          "This module focuses on applying data science techniques to real-world problems...",
+        popupModule: "Module 3",
+        popuplist: [
+          "Real-world Case Studies",
+          "Data Science Project Management",
+        ],
+      },
+      {
+        id: "3",
+        title: "Term 4",
+        description: "Leadership in Data Science",
+        duration: "1 month",
+        contentModule: "Module 4",
+        contentTitle: "Leadership in Data Science",
+        contentDescription: "Leading Data Science Teams",
+        contentDetails: [
+          "Team Management Strategies",
+          "Building Data-Driven Cultures",
+        ],
+        popupContent:
+          "This module prepares you for leading data science teams effectively...",
+        popupModule: "Module 4",
+        popuplist: [
+          "Team Management Strategies",
+          "Building Data-Driven Cultures",
+        ],
+      },
+      {
+        id: "4",
+        title: "Term 5",
+        description: "Capstone Project",
+        duration: "3 months",
+        contentModule: "Module 5",
+        contentTitle: "Capstone Project",
+        contentDescription: "Final Project",
+        contentDetails: [
+          "Define a Data Science Problem",
+          "Implement a Full Data Science Pipeline",
+        ],
+        popupContent:
+          "The capstone project allows you to apply everything you've learned...",
+        popupModule: "Module 5",
+        popuplist: [
+          "Define a Data Science Problem",
+          "Implement a Full Data Science Pipeline",
+        ],
+      },
+    ],
+
     Certificate: {
       degreeCertificate: {
         id: 3,
