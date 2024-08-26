@@ -28,11 +28,6 @@ const nextConfig = {
     formats: ["image/avif", "image/webp"],
     minimumCacheTTL: 2678400,
   },
-
-  cache: {
-    type: "filesystem",
-    buildDependencies: {},
-  },
   async redirects() {
     return [
       {

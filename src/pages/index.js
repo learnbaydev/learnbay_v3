@@ -7,6 +7,7 @@ import Media from "@/components/Home/Media/Media";
 import MobileTestimonial from "@/components/Home/MobileTestimonial/MobileTestimonial";
 import dynamic from "next/dynamic";
 import Head from "next/head";
+import { useMediaQuery } from "react-responsive";
 import { useEffect, useState } from "react";
 import Navbar from "../components/Global/Navbar/Navbar";
 const Course = dynamic(() => import("@/components/Home/Course/Course"));
@@ -126,6 +127,7 @@ export default function Home() {
     // },
   ];
   const [popupData, setPopupData] = useState([]);
+  const isMobile = useMediaQuery({ query: "(max-width: 640px)" });
   // console.log(popupData);
   useEffect(() => {
     // console.log("inside UseEFFect");
@@ -175,6 +177,21 @@ export default function Home() {
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
+        {!isMobile && (
+          <link
+            rel="preload"
+            href="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/mbl_home_two.webp"
+            as="image"
+          />
+        )}
+        {!isMobile && (
+          <link
+            rel="preload"
+            href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BG_Home_1.webp"
+            as="image"
+          />
+        )}
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
