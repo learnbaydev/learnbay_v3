@@ -272,8 +272,7 @@ export const DataScienceCourseData = [
       src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
       src22:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
-        src40:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/certificate/degree-woolf.webp",
+      
         CertificationHead29:"IBM Course Completion Certificate        ",
         CertificationBot2:
         "Our industry collaboration with global tech leader IBM unlocks exciting career growth offers. Experts opting for industry-driven courses develop an in-detailed learning of data science and AI trends. We acknowledge their learned skills and expertise via an IBM course completion certificate. Once you complete your coursework, you will obtain a globally recognized certification.        ",

@@ -156,11 +156,7 @@ export default function Home() {
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
-        <link
-          rel="preload"
-          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
-          as="image"
-        />
+      
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

@@ -144,8 +144,9 @@
   height: max-content;
 }
 .secondLeft img {
-  height: 440px;
-  width: 634px;
+  height: 450px;
+  width: 580px;
+  
 }
 @media (max-width: 1281px) {
   .First {
@@ -258,9 +259,9 @@
   }
   .secondLeft img {
     height: fit-content;
-    width: 100vw;
+    width: fit-content;
     padding: 0px 20px 0px 20px;
-    margin: -20px 0px 20px 0px;
+    margin: -20px 0px 20px 20px;
   }
   .h1 {
     font-size: 27px;
