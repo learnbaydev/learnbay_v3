@@ -6927,9 +6927,9 @@ const CitiesRight = ({
               )}
             </div>
             <div className={styles.Button}>
-              <Link href={syllabussrc} target="_blank">
+              <a href={syllabussrc} target="_blank">
                 <Button className={styles.btn} text="View Detailed Syllabus" />
-              </Link>
+              </a>
             </div>
           </div>
         </>
@@ -7197,22 +7197,22 @@ const CitiesRight = ({
         <div className={styles.Button}>
           {fullStackCity ? (
             <>
-              <Link
+              <a
                 href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Real-time+Projects+%26+Use+cases.pdf"
                 target="_blank"
               >
                 <Button className={styles.btn} text="View All Projects" />
-              </Link>
+              </a>
             </>
           ) : (
             <>
               {" "}
-              <Link
+              <a
                 href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
                 target="_blank"
               >
                 <Button className={styles.btn} text="View All Projects" />
-              </Link>
+              </a>
             </>
           )}
         </div>
@@ -7262,9 +7262,9 @@ const CitiesRight = ({
           ) : (
             <>
               {" "}
-              <Link href="/reviews" target="_blank">
+              <a href="/reviews" target="_blank">
                 <Button className={styles.btn} text="View All Reviews" />
-              </Link>
+              </a>
             </>
           )}
         </div>
