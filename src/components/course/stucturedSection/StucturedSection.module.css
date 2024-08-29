@@ -14,10 +14,20 @@
   color: #022646;
   text-align: center;
   font-size: 42px;
-  font-weight: 800;
+  font-weight: 500;
   margin-right: 100px;
   line-height: 60px;
 }
+
+.topHead {
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-color: #fe7a36;
+  text-underline-offset: 10px;
+
+}
+
+
 
 .innerDiv {
   display: grid;
@@ -85,6 +95,6 @@
 
 .para {
   color: #696868;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
 }

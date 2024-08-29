@@ -1,11 +1,5 @@
 .container {
-  background: linear-gradient(
-    177deg,
-    #eff3f6 3.2%,
-    #fff 42.94%,
-    #eff3f6 79.56%,
-    #fff 97.79%
-  );
+  background: linear-gradient(180deg, #FFF 0%, #EFF3F6 40.11%, #EFF3F6 59.31%, #FFF 98.22%);
   color: #000;
   padding: 70px 0px 70px 0px;
 }
@@ -53,12 +47,12 @@
 .innerBoxDiv {
   display: flex;
   gap: 100px;
-  margin: 60px 40px 40px 20px;
+  margin: 30px 40px 30px 20px;
 }
 
 .innerBox h3 {
   color: #0072bc;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
 }
 
@@ -70,7 +64,7 @@
 
 .pBot {
     margin: 0px 110px 0px 20px;
-    font-size: 17px;
+    font-size: 14px;
     line-height: 27px;
 }
 

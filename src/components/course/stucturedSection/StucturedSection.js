@@ -7,11 +7,11 @@ function StucturedSection() {
   return (
     <section className={styles.container}>
       <div className="containerWidth">
-        <h2>Structured Admission Process</h2>
+        <h2>Structured <span className={styles.topHead}>Admission Process</span></h2>
         <div className={styles.innerDiv}>
           <div className={styles.leftSide}>
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/left_side_form.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/structured_left_process.webp"
               alt="Zest"
               width="393"
               height="346"

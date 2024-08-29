@@ -1,0 +1,179 @@
+.projectSection{
+    margin-top: 3rem;
+    width: 100%;
+    background: linear-gradient(180deg, #FFF 8.58%, #EFF3F6 69.44%, #FFF 99.96%);
+    position: relative;
+    margin-bottom: 110px;
+}
+.projectHeading{
+    text-align: center;
+    color: #000;
+    padding: 1.5rem 0;
+    font-size: 55px;
+    font-weight: 400;
+    
+}
+.boldHeading{
+    font-size: 55px;
+    font-weight: 700;
+}
+.botDiv img {
+    width: 100%;
+    height: auto;
+}
+.botDiv {
+    width: 1150px;
+    margin: auto;
+}
+.orangeLine{
+    height: 5px;
+    width: 212px;
+    background: #FE7A36;
+    margin: auto;
+}
+.subheadingContainer{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+.orangeBox{
+    border-radius: 40.486px;
+    background: #FFF2EB;
+    padding: 0.6rem 0.8rem;
+    color: #FE7A36;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.pBot {
+    margin-top: 90px;
+    font-size: 14px;
+}
+
+.pBot span {
+    font-weight: 700;
+}
+
+.spanOrange {
+    color: #FE7A36;
+}
+
+.spanBlue {
+    color: #0072BC;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.h4Bot {
+    color: #ffffff90;
+    margin-top: -95px;
+    margin-left: 50px;
+}
+.blueBox{
+    border-radius: 40.486px;
+    background: #E5F2F8;
+    padding: 0.6rem 0.8rem;
+    color: #0072BC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+.greenBox{
+    border-radius: 40.486px;
+    background: #E6FAF3;
+    padding: 0.6rem 0.8rem;
+    color: #04C988;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+.mySwiper{
+    width: 1150px;
+    margin: auto;
+    
+}
+.sliderWrapper{
+    margin-bottom: 2.6rem;
+}
+.projectsConatiner{
+    margin-top: 3.5rem;
+}
+.projectCard{
+    border-radius: 40px;
+    background: #FFF;
+    padding: 1.5rem 1.4rem;
+}
+.upperPart{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 66% 41%;
+}
+.upperRight{
+    display: flex;
+    gap: 1rem;
+    margin-top: -1.5rem;
+}
+.boxNum{
+   color: rgba(0, 0, 0, 0.40);
+   font-size: 40px;
+   font-weight: 700;
+   margin-top: 6px;
+}
+.hrsBox{
+    border-radius: 0px 40px 0px 0px;
+    background: #022646;
+    height: 50px;
+    color: white;
+    padding: 0 0.8rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.2rem;
+    
+    margin-right: -1.4rem;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+.cardTitle{
+color: #0072BC;
+font-size: 14px;
+font-weight: 600;
+margin: 1.4rem auto;
+line-height: 1.3;
+}
+.cardText{
+color: #616161;
+font-size: 14px;
+font-weight: 400;
+}
+.lowerBox{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.6rem;
+    border-radius: 12px;
+    background: rgba(254, 122, 54, 0.10);
+    padding: 0.8rem 1rem;
+    margin: 1rem 0;
+}
+.projectIcon{
+    width: 100%;
+    height:auto;
+    mix-blend-mode: multiply;
+}
+.tableauIcon{
+    width: 120px;
+    height: 30px;
+}
+.sqlIcon{
+    width: 80px;
+    height: 25px;
+}
+.ctaText{
+    font-size: 10px;
+    text-decoration: underline;
+    color: #0072BC;
+    font-weight: 400;
+}

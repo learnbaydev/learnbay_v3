@@ -1,4 +1,6 @@
+import MentorsSection from "@/components/course/MentorsSection/MentorsSection";
 import CertificateSection from "@/components/course/certificateSection/CertificateSection";
+import ProjectSection from "@/components/course/projectSection/ProjectSection";
 import SyllabusSection from "@/components/course/syllabusSection/SyllabusSection";
 import ToolsSection from "@/components/course/toolsSection/ToolsSection";
 import dynamic from "next/dynamic";
@@ -21,7 +23,9 @@ const ExecutiveSecondPart = ({sections}) => {
   return (
     <>
     <ReviewSlider />
+    <MentorsSection />
     <UpskillingSection />
+    <ProjectSection />
     {/* <SyllabusSection sections={sections} /> */}
     <ToolsSection />
     <CertificateSection />

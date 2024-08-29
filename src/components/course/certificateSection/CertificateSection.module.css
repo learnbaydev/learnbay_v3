@@ -8,11 +8,18 @@
   padding: 60px 120px;
 }
 
+.topSpan {
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-color: #fe7a36;
+  text-underline-offset: 14px;
+}
+
 .degree h2 {
   color: #fff;
   text-align: center;
   font-size: 34px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .greenTop {

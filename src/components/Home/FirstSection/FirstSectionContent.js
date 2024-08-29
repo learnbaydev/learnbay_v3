@@ -19,12 +19,11 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
   const [typeLogo, setTypeLogo] = useState("");
 
   useEffect(() => {
-    setBgImage(
-      isMobile
-        ? "https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/mbl_home_two.webp"
-        : "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BG_Home_1.webp"
-    );
-
+    // setBgImage(
+    //   isMobile
+    //     ? "https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/mbl_home_two.webp"
+    //     : "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BG_Home_1.webp"
+    // );
     setTypeLogo(
       isMobile
         ? "https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/logo_mix_mbl.webp"
@@ -35,7 +34,7 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
   return (
     <section className={styles.section}>
       <div className={styles.bgWrap}>
-        {bgImage && (
+        {/* {bgImage && (
           <Image
             src={bgImage}
             alt="Learnbay Background"
@@ -49,7 +48,7 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
             }
             sizes="(max-width: 640px) 100vw, 100vw"
           />
-        )}
+        )} */}
       </div>
       <div className={styles.content}>
         <h1>

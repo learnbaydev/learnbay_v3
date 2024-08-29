@@ -83,7 +83,7 @@ function careerHome({
         <Image
           src={bgImage}
           alt="Learnbay"
-          priority
+       loading="lazy"
           height={800}
           width={1500}
         />
@@ -96,7 +96,7 @@ function careerHome({
             <Image
               src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/Project-lab-01+(1).webp"
               alt="Learnbay"
-              priority
+              loading="lazy"
               height={212}
               width={400}
               className={styles.careerImg}
