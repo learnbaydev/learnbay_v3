@@ -203,6 +203,13 @@ margin-top: 100px;
   width: 100% !important;
 }
 
+/* New Styles */
+
+.containerWidth {
+  width: 1300px;
+  margin: auto;
+}
+
 @media (max-width: 1281px) {
   .wrapper {
     padding: 40px 80px;

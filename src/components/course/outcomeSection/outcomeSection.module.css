@@ -1,0 +1,115 @@
+.container {
+  background: linear-gradient(
+    177deg,
+    #eff3f6 3.2%,
+    #fff 42.94%,
+    #eff3f6 79.56%,
+    #fff 97.79%
+  );
+  color: #000;
+  padding: 50px 0px 70px 0px;
+}
+
+.innerDiv {
+  margin: 0px 50px;
+}
+
+.innerDiv h2 {
+  color: #022646;
+  font-size: 40px;
+  margin-right: 400px;
+  line-height: 60px;
+  font-weight: 500;
+
+}
+
+.boldH2, .borderBot {
+  font-weight: 800;
+}
+
+.borderBot {
+  text-decoration: underline;
+  text-decoration-color: #fe7a36;
+  text-underline-offset: 10px;
+}
+
+.innerBoxDiv {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 30.5% 30.5% 30.5%;
+  margin-top: 70px;
+}
+
+.headCont {
+  border-radius: 25px;
+  border: 2px solid #0072bc;
+  background: rgba(0, 114, 188, 0.05);
+  padding: 14px;
+}
+
+.innerBox h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 45px;
+  line-height: 40px;
+}
+
+.headCont img {
+  float: right;
+}
+
+.innerBox p {
+  line-height: 24px;
+  font-weight: 500;
+  margin-top: 5px;
+  color: #000;
+  padding: 10px 2px 0px 20px;
+  font-size: 16px;
+}
+
+.secondSection img {
+  width: 100%;
+  height: auto;
+}
+
+.innerBox div:nth-child(1), .innerBox div:nth-child(2), .innerBox div:nth-child(3), .innerBox div:nth-child(4) {
+  border: 1.835px solid transparent;
+  border-radius: 41.284px; /* Border radius */
+      border-radius: 25px;
+
+}
+
+.innerBox div:nth-child(1), .innerBox div:nth-child(4) {
+  background: 
+      linear-gradient(#DFEEF8, #DFEEF8) padding-box, 
+      linear-gradient(to right, #0072BC, #DFEEF8) border-box;
+}
+
+/* .innerBox:nth-child(1) h3,
+.innerBox:nth-child(2) h3,
+.innerBox:nth-child(3) h3 {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+.innerBox:nth-child(1) h3 {
+  background: linear-gradient(90deg, #212121 36.55%, #0072bc 86.03%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.innerBox:nth-child(2) h3 {
+  background: linear-gradient(92deg, #212121 38.91%, #04c988 94.77%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.innerBox:nth-child(3) h3 {
+  background: linear-gradient(88deg, #212121 44.61%, #fe7a36 88.49%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

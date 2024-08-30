@@ -1,0 +1,58 @@
+.container {
+    background: white;
+}
+
+.innerDiv {
+    background: white;
+    height: auto;
+    height: 70px;
+    border-radius: 0px 0px 24px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.firstSection {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.secondSection {
+    display: flex;
+    gap: 30px;
+}
+
+.menuItems {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.orangeButton {
+    background: #FE7A36;
+    border-radius: 6px;
+    color: #fff;
+    padding: 9px 20px;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+
+.blueButton {
+    background: #022646;
+    border-radius: 6px;
+    color: #fff;
+    padding: 8px 10px;
+    align-items: center;
+    display: flex;
+    gap: 6px;
+    font-size: 14px;
+    font-weight: 700;
+}

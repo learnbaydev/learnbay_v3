@@ -1,0 +1,126 @@
+.container {
+  background: linear-gradient(
+    177deg,
+    #212121 3.2%,
+    #212121 42.94%,
+    #212121 79.56%,
+    #212121 97.79%
+  );
+  color: #000;
+  padding: 70px 0px;
+}
+
+.mainBg {
+  background: linear-gradient(176deg, #EFF3F6 3.89%, #FFF 42.38%, #EFF3F6 80.09%, #FFF 95.5%);
+  padding-bottom: 70px;
+}
+
+.innerDiv {
+  display: grid;
+  grid-template-columns: 54% 40%;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.firstSection h5 {
+  color: #7d7d7d;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.starDiv {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.starDiv img {
+  width: auto;
+  height: 100%;
+}
+
+.starDivSection {
+  display: grid;
+  gap: 20px;
+}
+
+.firstSection h1 {
+  margin: 15px 0px 35px 0px;
+  font-size: 40px;
+  color: #fff;
+}
+
+.firstSection p {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.btnDiv {
+  display: flex;
+  gap: 30px;
+  margin-top: 65px;
+}
+
+.secondSection img {
+  width: 100%;
+  height: auto;
+}
+
+.outlineButton {
+  background: #fe7a36;
+  border-radius: 10px;
+  padding: 12px 24px 10px 24px;
+  font-weight: 700;
+  border: 1px solid #212121;
+  background: rgba(255, 255, 255, 0.10);
+  color: #fff;
+}
+
+.orangeButton {
+  background: #fe7a36;
+  border-radius: 10px;
+  color: #fff;
+  padding: 12px 24px 10px 24px;
+  font-weight: 700;
+}
+
+.botDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 50px;
+  border-radius: 30px;
+  background: #fff;
+  margin: 40px 0px 0px;
+}
+
+.innerBotDiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.content {
+    display: grid;
+    gap: 6px;
+}
+
+.content p {
+  margin: 0;
+  color: #212121;
+  font-weight: 500;
+}
+
+.content h3 {
+    color: #737373;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+}
+
+.span {
+    color: #fe7a36;
+}
