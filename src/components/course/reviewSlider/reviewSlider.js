@@ -32,7 +32,7 @@ const WhyLearnbay = () => {
     <div className={styles.keyContainer}>
       <div className={styles.mainDiv}>
         <div className={styles.headingContainer}>
-          <h3 className={styles.mainHeading}>Real Stories, Real Success</h3>
+          <h2> Real Stories, <span className={styles.topSpan}>Real Success</span></h2>
           <p className={styles.subHeading}>
             Discover what our learners say about us
           </p>

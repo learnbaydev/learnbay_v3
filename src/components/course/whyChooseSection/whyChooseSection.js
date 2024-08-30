@@ -7,7 +7,9 @@ function whyChooseSection() {
   return (
     <section className={styles.container}>
       <div className="containerWidth">
-        <h2>Why choose Learnbay ?</h2>
+        <h2>
+          Why choose <span className={styles.orangeLine}>Learnbay ?</span>
+        </h2>
         <div className={styles.innerDivOne}>
           <div className={styles.oneFirst}>
             <h3>Training mode</h3>
@@ -75,23 +77,28 @@ function whyChooseSection() {
             />
           </div>
           <div className={styles.twoSecond}>
-            <h3>Domain Specialization </h3>
+            <p className={styles.twoSecondTop}>
+              How can you make your previous experience count?
+            </p>
+            <h3>Domain electives</h3>
             <p>
-              With our program, you can make your past domain experience
-              relevant and position yourself for a significant salary hike.
+              Select your domain electives and engage in live projects across
+              various industries to gain hands-on experience. This practical
+              approach will deepen your understanding of real-world challenges
+              and enhance your expertise.
             </p>
           </div>
         </div>
         <div className={styles.innerDivThree}>
           <div className={styles.threeFirst}>
-            <h3>Project Leadership</h3>
+            <h3>Practical project experience</h3>
             <div className={styles.contentIconDiv}>
               <div>
                 <FaCheckCircle className={styles.icon} />
                 <div>
                   <p className={styles.pHead}>Practical Skills</p>
                   <p className={styles.pBot}>
-                    Gain hands-on experience in project management.
+                    Gain practical experience in project management.
                   </p>
                 </div>
               </div>
@@ -108,7 +115,9 @@ function whyChooseSection() {
                 <FaCheckCircle className={styles.icon} />
                 <div>
                   <p className={styles.pHead}>Lead a Team</p>
-                  <p className={styles.pBot}>Get your team and manage it.</p>
+                  <p className={styles.pBot}>
+                    Manage a data science and AI real-time project
+                  </p>
                 </div>
               </div>
               <div>
@@ -136,6 +145,30 @@ function whyChooseSection() {
                 <span>Important Note:</span> You will be assigned 5 members to
                 oversee the entire project life-cycle and gain practical project
                 management skills.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className={styles.innerDivFour}>
+          <div className={styles.oneFour}>
+            <Image
+              src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/Doubt_Learnbay.webp"
+              alt="Learnbay"
+              quality={100}
+              priority
+              width="684"
+              height="527"
+            />
+          </div>
+          <div className={styles.SecondFour}>
+            <h3>1:1 Doubt Clearing Session</h3>
+            <p>
+            You can book personalized doubt classes for modules or projects with experts. These tailored sessions will help you understand concepts better and address any questions or challenges you might have.
+
+            </p>
+            <div className={styles.botDivYellow}>
+              <p>
+                <span>*Important Note:</span> Schedule your sessions from 10 AM - 6 PM (Mon-Sat) to secure your preferred time slot.
               </p>
             </div>
           </div>

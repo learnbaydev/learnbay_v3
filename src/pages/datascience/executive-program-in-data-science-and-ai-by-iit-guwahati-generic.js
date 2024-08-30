@@ -33,7 +33,8 @@ const ExecutiveIIT = ({ DataScienceCourseDataJson }) => {
       </Head>
       <main>
         <ExecutiveFirstPart />
-        <ExecutiveSecondPart sections={DataScienceCourseData.ExcutiveProgramAIDS[0].sections}/>
+        <ExecutiveSecondPart sections={DataScienceCourseData.ExcutiveProgramAIDS[0].sections}
+          FAQNewData={DataScienceCourseData.ExcutiveProgramAIDS[0].faq}/>
       </main>
     </>
   );

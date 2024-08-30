@@ -312,10 +312,18 @@
     background: #fff;
     width: 130px;
     height: 100px;
-    margin: auto;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
     margin-top: -130px;
     margin-bottom: 50px;
+}
+
+.botDivArrowOrange {
+  margin-left: 40px;
+}
+
+.botDivArrowBlue {
+  float: right;
+  margin-right: 40px;
 }
 
 .botDivArrowBlue {
@@ -378,7 +386,7 @@ background-clip: text;
 
 .iconDiv {
   display: grid;
-  gap: 20px;
+  gap: 34px;
   margin: 10px 0px 50px 0px;
 }
 
@@ -442,13 +450,17 @@ background-clip: text;
 .innerIconDiv img,
 .divHeadIcon img {
   width: auto;
-  height: 40px;
+  height: 24px;
 }
 .feeSectionContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 10px;
   align-items: flex-end;
+}
+
+.feeContentContainer {
+  text-align: center;
 }
 
 .emiButton button {
@@ -461,16 +473,13 @@ background-clip: text;
   border-radius: 9px;
   border: 1px solid #fe7a36;
   background: #fff;
+  margin-top: 30px;
 }
 
 .emiButton button:hover {
   border: 1px solid #fe7a36;
   background: #fff;
   color: #000;
-}
-
-.feeContentContainer:last-child {
-  text-align: end;
 }
 
 .feeContentContainer p {
@@ -482,6 +491,12 @@ background-clip: text;
   font-size: 38px;
   font-weight: 700;
   margin-top: 10px;
+}
+.feeContentContainer > h4 {
+  border-bottom: 1px solid #000;
+  padding-bottom: 20px;
+  margin: auto;
+  width: fit-content;
 }
 .paymentPartner {
   text-align: center;
@@ -500,7 +515,9 @@ background-clip: text;
 }
 
 .border {
-  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+
 }
 
 .border h4 {
@@ -518,7 +535,6 @@ background-clip: text;
 .border p {
   font-weight: 700;
   padding-top: 20px;
-  border-top: 1px solid #000;
   font-size: 22px;
   margin: 0;
 }

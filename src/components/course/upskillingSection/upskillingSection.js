@@ -9,7 +9,7 @@ const upskillingSection = () => {
   return (
     <section className={styles.sectionWrapper}>
       <h2 className={styles.upskillHeading}>
-        Journey towards <span className={styles.spanHead}>Upskilling</span>
+        Journey towards<span className={styles.spanHead}>&nbsp;Upskilling</span>
       </h2>
       <div className={styles.UpperBoxContainer}>
         <div className={styles.boxContainer}>

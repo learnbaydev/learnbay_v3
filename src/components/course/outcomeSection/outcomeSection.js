@@ -1,31 +1,31 @@
 import Image from "next/image";
 import styles from "./OutcomeSection.module.css";
 
-function outcomeSection() {
+function OutcomeSection() {
   return (
     <section className={styles.container}>
       <div className="containerWidth">
         <div className={styles.innerDiv}>
           <h2>
-            Program Outcome:{" "}
-            <span className={styles.boldH2}>What Can You Expect from</span>
-            <span className={styles.borderBot}> this course?</span>
+            Program Outcome:
+            <span className={styles.borderBot}> What’s in it for you?</span>
           </h2>
           <div className={styles.innerBoxDiv}>
             <div className={styles.innerBox}>
               <div className={styles.headCont}>
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/program_team_outcome.webp"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/program_work.webp"
                   alt="Learnbay"
                   quality={100}
                   priority
                   width="68"
                   height="68"
                 />
-                <h3>Lead Your Team Successfully:</h3>
+                <h3>Integrate AI 
+Solutions in Projects</h3>
               </div>
               <p className={styles.pTop}>
-              Master team leadership to boost collaboration and achieve goals faster—85% report improved performance.
+              Seamlessly integrate AI and data analytics solutions into your existing business operations, enhancing efficiency and driving better outcomes.
               </p>
             </div>
             <div className={styles.innerBox}>
@@ -38,26 +38,26 @@ function outcomeSection() {
                   width="68"
                   height="68"
                 />
-                <h3>Manage Projects from Start to Finish:</h3>
+                <h3>Drive Strategic Innovation with AI</h3>
               </div>
               <p className={styles.pTop}>
-              Gain tools to manage projects from start to finish—over 90% lead complex projects successfully.
+              Leverage AI for informed decision-making and fostering innovation across key sectors like BFSI, Supply Chain, and Retail, ensuring a competitive edge.
               </p>
             </div>
             <div className={styles.innerBox}>
               <div className={styles.headCont}>
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/program_work.webp"
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/program_team_outcome.webp"
                   alt="Learnbay"
                   quality={100}
                   priority
                   width="68"
                   height="68"
                 />
-                <h3>Use AI to Work Smarter:</h3>
+                <h3>Lead Data Science Projects</h3>
               </div>
               <p className={styles.pTop}>
-              Apply Generative AI to automate tasks and enhance decision-making—70% have implemented AI in their roles.
+              Effectively manage and deliver data analytics projects, ensuring they align with business goals and deliver impactful results.
               </p>
             </div>
           </div>
@@ -67,4 +67,4 @@ function outcomeSection() {
   );
 }
 
-export default outcomeSection;
+export default OutcomeSection;

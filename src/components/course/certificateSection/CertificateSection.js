@@ -8,7 +8,7 @@ function CertificateSection() {
   return (
     <section className={styles.container}>
       <div className={styles.degree}>
-        <h2>Degree & Certification</h2>
+        <h2>Get certified and accelerate your <span className={styles.topSpan}>career growth</span></h2>
         <div className={styles.degreeContainer}>
           <div className={styles.containerGrid1}>
             <h3>E&ICT IIT Guwahati</h3>

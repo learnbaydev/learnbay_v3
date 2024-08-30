@@ -10,13 +10,12 @@ function programSection() {
           <div className={styles.twoSection}>
             <div className={styles.firstSection}>
               <h3>
-                Mid <span className={styles.lightGray}>to</span> Senior Level{" "}
-                <span className={styles.lightGray}>Professionals with</span><span className={styles.orangeHead}> 4+
+                Mid <span className={styles.lightGray}>to</span> Senior <span className={styles.lightGray}>Level 
+                Professionals with</span><span className={styles.orangeHead}> 4+
                 Years of Experience</span>
               </h3>
               <p className={styles.pTop}>
-                this program is perfect for those looking to leverage data
-                science and AI to drive{" "}
+              This program is perfect for <b>Business Analysts, Data Scientist, Consultant, Finance Professional, Entrepreneurs, IT Professionals</b>
               </p>
               <div className={styles.innerBoxDiv}>
                 <div className={styles.innerBox}>
@@ -39,13 +38,11 @@ function programSection() {
                     width="60"
                     height="60"
                   />
-                  <h3>Team Lead</h3>
+                  <h3>Tech Lead(IT/Non-IT)</h3>
                 </div>
               </div>
               <p className={styles.pBot}>
-                <span className={styles.orangeSpan}>Important Note:</span> The
-                final number of quizzes, assignments and discussions will be
-                confirmed closer to the programme start. To know more{" "}
+                <span className={styles.orangeSpan}>Important Note:</span> This program is not for fresh graduates. You must have at least 4 years of work experience and should have managed a team or project. To know more{" "}
                 <span className={styles.blueSpan}>check eligibility</span>
               </p>
             </div>

@@ -10,6 +10,18 @@
   height: fit-content;
   margin: 130px 0px 200px 0px;
 }
+.headingContainer h2 {
+  color: #022646;
+  font-size: 42px;
+  font-weight: 500;
+}
+
+.topSpan {
+  text-decoration: underline;
+  text-decoration-color: #fe7a36;
+  text-underline-offset: 14px;
+  font-weight: 800;
+}
 .learnSlides img {
   width: 100%;
   height: auto;

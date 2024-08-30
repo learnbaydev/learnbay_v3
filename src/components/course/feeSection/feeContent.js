@@ -85,12 +85,11 @@ const feeContent = ({
                 <div className={styles.iconDiv}>
                   <div className={styles.innerIconDiv}>
                     <Image
-                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/live_3d.webp"
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/check_icon.webp"
                       alt="Zest"
-                      width="100"
-                      height="103"
+                      width="45"
+                      height="45"
                       loading="lazy"
-                      quality={40}
                     />
                     <p className={styles.iconContent}>
                       Live online interactive sessions
@@ -98,12 +97,11 @@ const feeContent = ({
                   </div>
                   <div className={styles.innerIconDiv}>
                     <Image
-                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/1_1_3d.webp"
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/check_icon.webp"
                       alt="Zest"
-                      width="100"
-                      height="103"
+                      width="45"
+                      height="45"
                       loading="lazy"
-                      quality={40}
                     />
                     <p className={styles.iconContent}>
                       1:1 online Doubt Session with experts
@@ -111,12 +109,11 @@ const feeContent = ({
                   </div>
                   <div className={styles.innerIconDiv}>
                     <Image
-                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Capston_3d.webp"
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/check_icon.webp"
                       alt="Zest"
-                      width="100"
-                      height="103"
+                      width="45"
+                      height="45"
                       loading="lazy"
-                      quality={40}
                     />
                     <p className={styles.iconContent}>
                       Online Capstone projects
@@ -124,12 +121,11 @@ const feeContent = ({
                   </div>
                   <div className={styles.innerIconDiv}>
                     <Image
-                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/virtual_3d.webp"
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/check_icon.webp"
                       alt="Zest"
-                      width="100"
-                      height="103"
+                      width="45"
+                      height="45"
                       loading="lazy"
-                      quality={40}
                     />
                     <p className={styles.iconContent}>
                       Virtual  Mock interviews
@@ -172,7 +168,7 @@ const feeContent = ({
                 <div className={styles.iconDiv}>
                   <div className={styles.innerIconDiv}>
                     <Image
-                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/offline_3d.webp"
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/check_icon_green.webp"
                       alt="Zest"
                       width="100"
                       height="103"
@@ -185,7 +181,7 @@ const feeContent = ({
                   </div>
                   <div className={styles.innerIconDiv}>
                     <Image
-                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/mock_3d.webp"
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/check_icon_green.webp"
                       alt="Zest"
                       width="100"
                       height="103"
@@ -198,7 +194,7 @@ const feeContent = ({
                   </div>
                   <div className={styles.innerIconDiv}>
                     <Image
-                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/offMap_3d.webp"
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/check_icon_green.webp"
                       alt="Zest"
                       width="100"
                       height="103"
@@ -231,19 +227,8 @@ const feeContent = ({
                   ₹ 2,10,000<span> + 18% GST</span>
                 </h4>
               </div>
-            </div>
-            <div className={styles.emiButton} onClick={openEmiPopup}>
-              <Button text="Check EMI Options" />
-              <div className={styles.paymentPartner}>
-                <p>Payment Partners</p>
-                <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/pay_partner.webp"
-                  alt="Zest"
-                  width="370"
-                  height="36"
-                  loading="lazy"
-                  quality={40}
-                />
+              <div className={styles.emiButton} onClick={openEmiPopup}>
+                <Button text="Check EMI Options" />
               </div>
             </div>
             <div className={styles.feeContentContainer}>
@@ -254,6 +239,9 @@ const feeContent = ({
                 <h4>
                   ₹ 2,10,000<span> + 18% GST</span>
                 </h4>
+              </div>
+              <div className={styles.emiButton} onClick={openEmiPopup}>
+                <Button text="Check EMI Options" />
               </div>
             </div>
           </div>

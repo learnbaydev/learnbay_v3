@@ -35,7 +35,7 @@ function HeroSection() {
                     width="69"
                     height={75}
                   />
-                  <p>Campus Immersion @IIT</p>
+                  <p>Campus Immersion @IIT Guwahati</p>
                 </div>
               </div>
               <div className={styles.btnDiv}>
