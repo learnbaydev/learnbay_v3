@@ -107,9 +107,8 @@
     padding: 1.5rem 1.4rem;
 }
 .upperPart{
-    display: grid;
+    display: flex;
     justify-content: space-between;
-    grid-template-columns: 66% 41%;
 }
 .upperRight{
     display: flex;
@@ -123,19 +122,18 @@
    margin-top: 6px;
 }
 .hrsBox{
-    border-radius: 0px 40px 0px 0px;
+    border-radius: 0px 40px 0px 10px;
     background: #022646;
     height: 50px;
-    color: white;
-    padding: 0 0.8rem;
-    padding-top: 0.4rem;
-    padding-bottom: 0.2rem;
-    
+    padding: 0px 35px;
     margin-right: -1.4rem;
     display: flex;
     align-items: center;
-    font-size: 16px;
     font-weight: 700;
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 36px;
 }
 .cardTitle{
 color: #0072BC;
@@ -159,7 +157,7 @@ font-weight: 400;
     margin: 1rem 0;
 }
 .projectIcon{
-    width: 100%;
+    width: auto;
     height:auto;
     mix-blend-mode: multiply;
 }
@@ -172,8 +170,8 @@ font-weight: 400;
     height: 25px;
 }
 .ctaText{
-    font-size: 10px;
-    text-decoration: underline;
+    /* font-size: 10px; */
+    /* text-decoration: underline; */
     color: #0072BC;
     font-weight: 400;
 }

@@ -47,8 +47,8 @@ const ProjectSection = () => {
                     className={styles.projectIcon}
                   />
                   <div className={styles.upperRight}>
-                    <p className={styles.boxNum}>{item.number}</p>
-                    <p className={styles.hrsBox}>{item.hours}</p>
+                    {/* <p className={styles.boxNum}>{item.number}</p> */}
+                    <p className={styles.hrsBox}>{item.number}</p>
                   </div>
                 </div>
                 <div className={styles.cardTitle}>{item.title}</div>
@@ -63,7 +63,7 @@ const ProjectSection = () => {
                     className={styles.projectIcon}
                   />
                 </div>
-                <div className={styles.ctaText}>{item.cta}</div>
+                <div className={styles.cardText}><span style={{color:"#0072BC"}}><b>Outcome:</b></span> {item.cta}</div>
               </div>
             </SwiperSlide>
           ))}
