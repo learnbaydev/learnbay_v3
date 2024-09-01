@@ -4,10 +4,49 @@ import Link from "next/link";
 import Image from "next/image";
 import { menuItem } from "./NavbarData";
 import { FaChevronDown } from "react-icons/fa6";
+import { useState } from "react";
+import Form from "@/components/Global/Form/Form";
+import Popup from "@/components/Global/Popup/Popup";
 
-function NavbarSection() {
+function NavbarSection({
+  radio,
+  dataScience,
+  fullStack,
+  dataScienceCounselling,
+  adPage,
+  dataScienceGeneric,
+  interstedInHide,
+}) {
+
+  const popupShow = () => {
+    setPopups(true);
+  };
+  const [popups, setPopups] = useState(false);
   return (
+    
     <section className={styles.container}>
+       <Popup trigger={popups} setTrigger={setPopups} className="popupModal" >
+        <div className="leftPopup">
+          <div className="whiteP" />
+        </div>
+        <div className="RightPopup">
+          <h5>Apply For Counselling</h5>
+          {/* <p>Fill the below details to get started</p> */}
+  
+            <Form
+              popup={true}
+              setTrigger={setPopups}
+              radio={radio}
+              fullStack={fullStack}
+              dataScience={dataScience}
+              dataScienceGeneric={dataScienceGeneric}
+              dataScienceCounselling={dataScienceCounselling}
+              upSkillingHide={true}
+              interstedInHide={interstedInHide}
+            />
+
+        </div>
+      </Popup>
       <div className="containerWidth">
         <div className={styles.innerDiv}>
           <div className={styles.firstSection}>
@@ -17,9 +56,10 @@ function NavbarSection() {
                   src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
                   alt="Learnbay"
                   quality={100}
-                  priority
+           
                   width="170"
                   height={60}
+                  loading="lazy"
                 />
               </Link>
             </div>
@@ -38,7 +78,7 @@ function NavbarSection() {
                 );
               })}
             </div>
-            <div className={styles.orangeButton}>Apply for Counselling</div>
+            <div className={styles.orangeButton} onClick={popupShow}>Apply for Counselling</div>
           </div>
         </div>
       </div>

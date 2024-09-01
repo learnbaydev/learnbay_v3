@@ -1,9 +1,53 @@
 import Image from "next/image";
 import styles from "./ProgramSection.module.css";
+import Popup from "../../Global/Popup/Popup";
+import Form from "../../Global/Form/Form";
+import { useState } from "react";
 
-function programSection() {
+function programSection({
+  dataScience,
+  dataScienceCounselling,
+  interstedInHide,
+  titleCourse,
+  brochureLink,
+  brochurePdf,
+}) {
+
+  const [popups, setPopups] = useState(false);
+  const popupShow = () => {
+    setPopups(true);
+  };
   return (
     <section className={styles.container}>
+            <Popup
+        trigger={popups}
+        setTrigger={setPopups}
+        className="popupModal"
+        popup={true}
+        // radio={radio}
+        dataScience={dataScience}
+        dataScienceCounselling={dataScienceCounselling}
+      >
+        <div className="leftPopup">
+          <div
+            className="whiteP"
+            style={{ width: "340px", height: "400px" }}
+          ></div>
+        </div>
+        <div className="RightPopup">
+          <h5>Apply For Counselling</h5>
+          <Form
+            titleCourse={titleCourse}
+            brochureLink={brochureLink}
+            brochurePdf={brochurePdf}
+            dataScience={dataScience}
+            interstedInHide={interstedInHide}
+            dataScienceCounselling={dataScienceCounselling}
+            upSkillingHide={true}
+            // radio={radio}
+          />
+        </div>
+      </Popup>
       <div className="containerWidth">
         <div className={styles.innerDiv}>
           <h2> Who is this <span className={styles.topSpan}>program for ?</span></h2>
@@ -43,7 +87,7 @@ function programSection() {
               </div>
               <p className={styles.pBot}>
                 <span className={styles.orangeSpan}>Important Note:</span> This program is not for fresh graduates. You must have at least 4 years of work experience and should have managed a team or project. To know more{" "}
-                <span className={styles.blueSpan}>check eligibility</span>
+                <span className={styles.blueSpan} onClick={popupShow}>check eligibility</span>
               </p>
             </div>
             <div className={styles.secondSection}>

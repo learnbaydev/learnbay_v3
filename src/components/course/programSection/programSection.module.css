@@ -83,11 +83,18 @@ font-weight: 700;
 }
 
 .blueSpan {
-    color: #0072BC;
-font-weight: 600;
-text-decoration-line: underline;
-font-style: italic;
+  color: #0072BC;
+  font-weight: 600;
+  text-decoration-line: underline;
+  font-style: italic;
+  cursor: pointer;
+  transition: color 0.3s ease; /* Smooth transition for the color change */
 }
+
+.blueSpan:hover {
+  color: #FE7A36;
+}
+
 
 .firstSection {
   border-radius: 49px;

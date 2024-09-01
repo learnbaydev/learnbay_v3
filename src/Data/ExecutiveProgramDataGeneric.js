@@ -8,10 +8,12 @@ export const ExcutiveProgramAIDS = [
         width: 80,
         height: 80,
         title: "Term 1",
-        
-        description: "Introduction to data science for Managers",
+        toolsImg:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
+        toolwidth:"200",
+        toolheight:"40",
+        description: "Foundations of Data Science and Leadership",
         duration: "1.5 Months",
-        contentModule: "Module",
+        contentModule: "Module 1",
         contentDescription: "Introduction to data science for Managers",
         contentDetails: [
           "What is Data Science, Data Analytics, Machine Learning, Artificial Intelligence?",
@@ -295,14 +297,16 @@ export const ExcutiveProgramAIDS = [
         width: 80,
         height: 80,
         title: "Term 2",
-        
-        description: "Introduction to data science for Managers",
+        toolsImg:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term2_tool.webp",
+        toolwidth:"400",
+        toolheight:"76",
+        description: "Technical Skills for Data Science",
         duration: "1.5 Months",
-        contentModule: "Module",
-        contentDescription: "Introduction to data science for Managers",
+        contentModule: "Module 1",
+        contentDescription: "Python",
         contentDetails: [
-          "What is Data Science, Data Analytics, Machine Learning, Artificial Intelligence?",
-          "Role of Data in Various Industries and Businesses",
+          "Data Analysis Using Numpy",
+          "Data Visualization Using Matplotlib",
         ],
         popuplist: [
           {
@@ -583,14 +587,16 @@ export const ExcutiveProgramAIDS = [
         width: 80,
         height: 80,
         title: "Term 3",
-        
-        description: "Introduction to data science for Managers",
+        toolsImg:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term3_tool.webp",
+        toolwidth:"380",
+        toolheight:"30",
+        description: "SQL, Tableau, Power BI, Big data",
         duration: "1.5 Months",
         contentModule: "Module",
-        contentDescription: "Introduction to data science for Managers",
+        contentDescription: "Big Data Tools",
         contentDetails: [
-          "What is Data Science, Data Analytics, Machine Learning, Artificial Intelligence?",
-          "Role of Data in Various Industries and Businesses",
+          "Introduction to Big Data",
+          "Core Technologies in Big Data",
         ],
         popuplist: [
           {
@@ -871,14 +877,16 @@ export const ExcutiveProgramAIDS = [
         width: 80,
         height: 80,
         title: "Term 4",
-        
-        description: "Introduction to data science for Managers",
+        toolsImg:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term4_tool.webp",
+        toolwidth:"380",
+        toolheight:"30",
+        description: "AI Tools",
         duration: "1.5 Months",
         contentModule: "Module",
-        contentDescription: "Introduction to data science for Managers",
+        contentDescription: "Deep Learning",
         contentDetails: [
-          "What is Data Science, Data Analytics, Machine Learning, Artificial Intelligence?",
-          "Role of Data in Various Industries and Businesses",
+          "Introduction to Deep Learning",
+          "Core Concepts",
         ],
         popuplist: [
           {

@@ -1,4 +1,4 @@
-.sectionWrapper{
+.sectionWrapper {
     width: 1300px;
     display: flex;
     margin: auto;
@@ -7,72 +7,85 @@
     border-radius: 54px;
     background: #212121;
     padding: 50px 0px 100px 0px;
-}
-.upskillHeading{
+    gap: 80px;
+  }
+  
+  .upskillHeading {
     font-size: 45px;
     color: #fff;
     display: flex;
     font-weight: 400;
     justify-content: center;
     margin-bottom: 50px;
-}
-.spanHead {
+  }
+  
+  .spanHead {
     font-weight: 700;
     text-decoration: underline;
     text-underline-offset: 16px;
-    text-decoration-color: #FE7A36;
-}
-
-.toolBox p {
+    text-decoration-color: #fe7a36;
+  }
+  
+  .toolBox p {
     margin: 0;
     color: #fff;
-}
-.UpperBoxContainer{
-    display: flex;
+  }
+  
+  .UpperBoxContainer {
     justify-content: center;
-    gap: 8rem;
     align-items: center;
     margin: 2rem 4rem;
-}
-.boxContainer{
+    display: grid;
+    grid-template-columns: 26% 11% 26% 11% 26%;
+    justify-content: center;
+  }
+  
+  .boxContainer {
     color: white;
-}
-.upperBox{
+    width: 300px;
+  }
+  
+  .upperBox {
     display: flex;
     gap: 1.5rem;
     padding: 0.4rem 0.6rem;
-    border: 1px solid #FE7A36;
+    border: 1px solid #fe7a36;
     width: fit-content;
     border-radius: 5px;
     align-items: center;
-}
-.upperBox h5{
-    color: #FE7A36;
+  }
+  
+  .upperBox h5 {
+    color: #fe7a36;
     font-size: 16px;
     font-weight: 500;
-}
-
-.upperBox p {
+  }
+  
+  .upperBox p {
     margin: 0;
     color: #fff;
-}
-.boxTitle{
+  }
+  
+  .boxTitle {
     margin: 0.7rem 0;
     line-height: 1.4;
     font-weight: 500;
     font-size: 20px;
     color: #fff;
-}
-.textHead{
+  }
+  
+  .textHead {
     font-weight: 600;
-}
-.boxText{
+  }
+  
+  .boxText {
     font-size: 14px;
     font-weight: 300;
     margin-bottom: 1.5rem;
     color: #fff;
-}
-.toolBox{
+  }
+  
+  .toolBox {
     display: flex;
     gap: 0.8rem;
     justify-content: flex-start;
@@ -80,17 +93,39 @@
     padding: 0.6rem 0.8rem;
     background: rgba(0, 114, 188, 0.15);
     border-radius: 8px;
-}
-.toolBox img {
+  }
+  
+  .toolBox img {
     width: auto;
     height: 100%;
-}
-.toolIcon{
+  }
+  
+  .toolIcon {
     width: 70px;
     height: 30px;
-    color: #FFC436;
-}
-.toolPyIcon{
+    color: #ffc436;
+  }
+  
+  .toolPyIcon {
     width: 70px;
     height: 30px;
-}
+  }
+  
+  .svgLine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bonus {
+    border: 1px solid #ffc436;
+  }
+  
+  .boxdown {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    align-items: center;
+    margin: 2rem 4rem;
+  }
+  

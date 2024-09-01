@@ -17,13 +17,31 @@ const WhyChooseSection = dynamic(() =>
   import("@/components/course/whyChooseSection/whyChooseSection")
 );
 const ExecutiveFirstPart = () => {
+    const pdfUrl = "/Brochure/Iit-Data-Analytics-Certifications.pdf"
   return (
     <>
       {" "}
-      <Navbar />
-      <HeroSection />
+      <Navbar
+        dataScienceCounselling={true}
+        dataScience={true}
+        fullStack={true}
+        backgorunimg={true}
+        isSpecialPage={true}
+        isGuwahati={true}
+        interstedInHide={true}
+      />
+      <HeroSection
+      
+        isSpecialPage={true}
+        isGuwahati={true}
+        interstedInHide={true}
+        dataScienceCounselling={true}
+        dataScience={true}
+        brochurePdf={pdfUrl}
+
+      />
       <DecisionSection />
-      <ProgramSection />
+      <ProgramSection   dataScienceCounselling={true} interstedInHide={true} dataScience={true}/>
       <OutcomeSection />
       <WhyChooseSection />
     </>

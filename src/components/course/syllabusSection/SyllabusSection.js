@@ -57,7 +57,7 @@ const SyllabusSection = ({ sections = [] }) => {
 
   return (
     <div className={styles.mainConteiner}>
-      <h1>Explore Our Syllabus</h1>
+      <h2 className={styles.headline}>Explore Our Syllabus</h2>
       {sections.map((section, index) => (
         <div key={section.id} className={styles.gridConteiner}>
           <div className={styles.gridleft}>
@@ -105,9 +105,9 @@ const SyllabusSection = ({ sections = [] }) => {
                 <div className={styles.tools}>
                   <p>Tools and topics covered:</p>
                   <Image
-                    src=""
-                    width={100}
-                    height={50}
+                    src={section.toolsImg}
+                    width={section.toolwidth}
+                    height={section.toolheight}
                     alt="tools"
                     loading="lazy"
                   />
@@ -129,7 +129,7 @@ const SyllabusSection = ({ sections = [] }) => {
                   modules={[EffectCoverflow]}
                   effect="coverflow"
                   coverflowEffect={{
-                    rotate: 5,
+                    rotate: 0,
                     stretch: 40,
                     depth: 100,
                     modifier: 2,
