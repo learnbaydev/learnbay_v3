@@ -2,7 +2,7 @@ import { useState } from "react";
 import PopupContent from "@/components/Global/PopupContent/PopupContent";
 import FeeContent from "./feeContent";
 
-const feeSection = ({
+const FeeSection = ({
   Fee,
   dataScience,
   WeekdayDate,
@@ -77,4 +77,4 @@ const feeSection = ({
   );
 };
 
-export default feeSection;
+export default FeeSection;

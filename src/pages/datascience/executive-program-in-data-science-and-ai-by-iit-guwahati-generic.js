@@ -1,8 +1,8 @@
 import { parseJSONData } from "@/Util/JsonConvertor";
 import Head from "next/head";
 
-import ExecutiveFirstPart from "@/components/CoursePage/FirstPart/ExecutiveFirstPartGeneric";
 import ExecutiveSecondPart from "@/components/CoursePage/FirstPart/ExecutiveSecondPartGeneric";
+import ExecutiveFirstPartGeneric from "@/components/CoursePage/FirstPart/ExecutiveFirstPartGeneric";
 
 const ExecutiveIIT = ({ DataScienceCourseDataJson }) => {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
@@ -32,7 +32,7 @@ const ExecutiveIIT = ({ DataScienceCourseDataJson }) => {
         />
       </Head>
       <main>
-        <ExecutiveFirstPart />
+        <ExecutiveFirstPartGeneric/>
         <ExecutiveSecondPart sections={DataScienceCourseData.ExcutiveProgramAIDS[0].sections}
           FAQNewData={DataScienceCourseData.ExcutiveProgramAIDS[0].faq}/>
       </main>

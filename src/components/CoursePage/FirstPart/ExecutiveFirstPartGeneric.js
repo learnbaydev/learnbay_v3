@@ -16,8 +16,8 @@ const OutcomeSection = dynamic(() =>
 const WhyChooseSection = dynamic(() =>
   import("@/components/course/whyChooseSection/whyChooseSection")
 );
-const ExecutiveFirstPart = () => {
-    const pdfUrl = "/Brochure/Iit-Data-Analytics-Certifications.pdf"
+const ExecutiveFirstPartGeneric = () => {
+    const pdfUrl = "/Brochure/Executive-iit-guwahati-generic.pdf"
   return (
     <>
       {" "}
@@ -38,14 +38,15 @@ const ExecutiveFirstPart = () => {
         dataScienceCounselling={true}
         dataScience={true}
         brochurePdf={pdfUrl}
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
 
       />
       <DecisionSection />
-      <ProgramSection   dataScienceCounselling={true} interstedInHide={true} />
+      <ProgramSection   dataScienceCounselling={true} interstedInHide={true}    brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf" />
       <OutcomeSection />
       <WhyChooseSection />
     </>
   );
 };
 
-export default ExecutiveFirstPart;
+export default ExecutiveFirstPartGeneric;
