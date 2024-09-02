@@ -1,6 +1,6 @@
 // OutcomeSection.js
 import Image from "next/image";
-import styles from "./OutcomeSection.module.css";
+import styles from "./outcomeSection.module.css";
 import outcomeData from "./OutComeData"; 
 
 function OutcomeSection() {

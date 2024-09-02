@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./ProgramSection.module.css";
+import styles from "./programSection.module.css";
 import Popup from "../../Global/Popup/Popup";
 import Form from "../../Global/Form/Form";
 import { useState } from "react";

@@ -48,7 +48,7 @@ function Emipopup({
         <div className={Styles.Main}>
           <div className={Styles.containers}>
 
-            <h4>sdfgds</h4>
+    
             <div className={Styles.secrow}>
               <p className={Styles.greencol}>{emiType}</p>
 
