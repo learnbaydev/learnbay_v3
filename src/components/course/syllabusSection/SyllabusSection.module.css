@@ -70,6 +70,7 @@
   align-items: center;
   justify-content: center;
   padding: 8px;
+  gap: 4px;
 }
 
 .date p {
@@ -292,7 +293,7 @@
   overflow: scroll;
   padding: 10px;
   width: 650px;
-  height: 550px;
+  height: 700px;
 }
 
 .cardContent {
@@ -424,4 +425,52 @@
   justify-content: center;
   margin: 40px;
   gap: 40px;
+}
+.btnone {
+  border-radius: 30px;
+  background: #0072bc;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 20px 8px 10px;
+  cursor: pointer;
+}
+.btnone :nth-child(1) {
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.btntwo {
+  border-radius: 55px;
+  border: 1px solid #0072bc;
+  background: rgba(0, 114, 188, 0.08);
+  color: #0072bc;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 8px 20px 8px 10px;
+  cursor: pointer;
+  gap: 10px;
+}
+
+
+.pdficon{
+  background-color: #fff;
+  font-size: 26px;
+  border-radius: 50%;
+  padding: 9px;
+  width: 50px;
+  height: auto;
+  text-align: center;
+  color: red;
+
 }

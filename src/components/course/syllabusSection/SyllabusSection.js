@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
 import { EffectCoverflow } from "swiper";
-import { MdOutlineTouchApp } from "react-icons/md";
+import { FaRegFilePdf } from "react-icons/fa";
 import PopupContent from "@/components/Global/PopupContent/PopupContent";
 
 const SyllabusSection = ({
@@ -76,9 +76,56 @@ const SyllabusSection = ({
 
   const [popups, setPopups] = useState(false);
 
+  const svg = [
+    <svg
+      height="30"
+      width="30"
+      fill="none"
+      viewBox="0 0 37 37"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <mask
+        height="37"
+        id="mask0_1326_1050"
+        style={{ maskType: "alpha" }}
+        width="37"
+        x="0"
+        y="0"
+        maskUnits="userSpaceOnUse"
+      >
+        <rect height="37" width="37" fill="url(#pattern0_1326_1050)" />
+      </mask>
+      <g mask="url(#mask0_1326_1050)">
+        <rect
+          height="57.8125"
+          width="57.8125"
+          fill="#FE7A36"
+          x="-12.1406"
+          y="-8.09375"
+        />
+      </g>
+      <defs>
+        <pattern
+          height="1"
+          id="pattern0_1326_1050"
+          width="1"
+          patternContentUnits="objectBoundingBox"
+        >
+          <use transform="scale(0.015625)" xlinkHref="#image0_1326_1050" />
+        </pattern>
+        <image
+          height="64"
+          id="image0_1326_1050"
+          width="64"
+          xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAADxklEQVR4nO2aSWgUQRSGyyU3FdzIQQgaESEqxiTgweXmvl3UQ8Bl1IOKG3oS3A6CeI0i3nLQiyiKQowo7hfF4EVQBKMkMWjEKEmMgh4+KfPU9tnJzHRXd7q1P2gYpqv/+quY6feq6hmTkZGRkZGRkeEIYBXwDugAVjrQWwq8lmuJSTpAO7957UDvlUfvpUk6KJKmFzn8zUHgBHAOuAs0Ac+AZqBFrmb5rkna2LZ18mxyJwAYCkwH1gPHgUaip1H6Wid9D4170OOBfcANoIvBp0u8WE/jox78ZqCX5PIJyEU1+B0BTR0BttqQCMwGyoGJwGhglFyj5btyabNSnrHPBmG768FPBb7105mN+Q3AMaBW33TQt6ZW+mqQvv34CkxxM3rzw8Rpn//dLmByPsMO+h5Qz3oAdgPdqunpsH173/Q2q/Oy2sSUuBSqB6xRHjucRAigRgl/AIYP0H4J0CbXYgf9F6RnPQEfldfqsP0bn2TknEkowHnldb8L0ftKdJNJKMAW5fVOWMES4IsSnWASClCmvPYO9HfNC1CpBFtMulajlulhMz8vF03CAS7/4Rg2hhE7qcQOmIQDHFKe68KIXVdiy0NoLZNdnTa/nZ2w9z3tbBrt5VpQzwZ4rsSmhdCyxn/S6vq+p90M5flpUMNDgM9KbEQKJsAurrz0BjVcqoTeBxL6O6Nr9cvowt5XbW226mVcEMMVSuSJSQn2Z6+8T3WxBnhgUoLsLXqZFURkvhK5ZVKCbKx6mRNEZLESaTApwWdzdkEQkUXFTEDUcb7QPEDaXlXeFxY+cgGYp0Rum0EMc4WGQZd/gWol8jBFE/DIxUuwopgwGHWcLzIPcBIGS10mQnHiszU2zlUqPNIkHGepcD+LoQqTcJwthlwvh+PCZzncGMuGCDHG+TyeD7vcEMkpsUsDtI0tzOXxfEV53mBCiM1UYq0pmACnm6IlhW6Lxxnni9wWHxZE6xfAvf/2YMRiX3wpOhq7EMXRWE0xh6ODhf2pA53Ka1VUx+NrTMIA1kZyPN5PgUS3FCVMMoOM9QDsiaxAwmLLTaTsxI92OZa2JuYCY0xEWG3pY4/0qUNeNCUyFmAbhfMGuAmckvqCnNT8VkohVJlPkVSZ3KuUtjl59pRovS2i/20mCugriOwhudjV6+5IBv8Tu7aWosSbCZmMHvGyFxhr4oS+upwqYCdwFnjss4fgks/SxxmpW6xKXEimL2za0rUVMjFHgXrZqbUHFi+kOLpTcooP8rlZ7jVJ23p51mosl/dDvHXBGRkZGRkZ5p/mO0Y+pzJRPescAAAAAElFTkSuQmCC"
+        />
+      </defs>
+    </svg>,
+  ];
+
   return (
     <div className={styles.mainConteiner}>
-        <PopupContent
+      <PopupContent
         popups={popups}
         setPopups={setPopups}
         heading="Download Syllabus"
@@ -112,6 +159,7 @@ const SyllabusSection = ({
               <div className={styles.ryttop}>
                 <p>{section.description}</p>
                 <div className={styles.date}>
+                  {svg}
                   <p>{section.duration}</p>
                 </div>
               </div>
@@ -125,7 +173,7 @@ const SyllabusSection = ({
                   </p>
                   <ul className={styles.lists}>
                     {section.contentDetails.map((detail, idx) => (
-                      <li key={idx}>{detail}</li>
+                      <li  key={idx}>{detail}</li>
                     ))}
                   </ul>
                   <div
@@ -167,12 +215,12 @@ const SyllabusSection = ({
                     depth: 100,
                     modifier: 2,
                   }}
-                  initialSlide={initialSlide} // Set the initial slide dynamically
+                  initialSlide={initialSlide}
                   onSlideChange={updateActiveSlides}
                 >
                   {section.popuplist.map((item, idx) => (
                     <SwiperSlide
-                      key={idx}
+                    key={item.id}
                       data-swiper-slide-index={idx}
                       className={`${styles.swiperSlide} ${
                         activeSlides.includes(idx.toString())
@@ -185,13 +233,14 @@ const SyllabusSection = ({
                           <div className={styles.cardHead}>
                             <div className={styles.termGreen}>{item.term}</div>
                             <div className={styles.date}>
-                              <span>{section.duration}</span>
+                              {svg}
+                              <span>{item.duration}</span>
                             </div>
                           </div>
                           <h5 className={styles.titleH}>{item.title}</h5>
                           <div className={styles.slidercontent}>
                             {item.modules.map((module, moduleIdx) => (
-                              <div className={styles.module} key={moduleIdx}>
+                              <div className={styles.module} key={module.moduleTitle}>
                                 <div className={styles.popupleft}>
                                   <span className={styles.rotateText}>
                                     {module.moduleTitle}
@@ -229,7 +278,7 @@ const SyllabusSection = ({
         </div>
       ))}
       <div className={styles.buttondiv}>
-        <div className={styles.btnone}>
+        <div className={styles.btnone} onClick={popupShow}>
           {" "}
           <svg
             height="42"
@@ -275,53 +324,9 @@ const SyllabusSection = ({
           Start Your Application
         </div>
         <div className={styles.btntwo} onClick={popupShow}>
-          <svg
-            height="34"
-            width="46"
-            fill="none"
-            viewBox="0 0 46 34"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <mask
-              height="34"
-              id="mask0_1326_335"
-              style={{ maskType: "alpha" }}
-              width="46"
-              x="0"
-              y="0"
-              maskUnits="userSpaceOnUse"
-            >
-              <rect height="34" width="46" fill="url(#pattern0_1326_335)" />
-            </mask>
-            <g mask="url(#mask0_1326_335)">
-              <rect
-                height="41.0833"
-                width="52.7083"
-                fill="#F21010"
-                x="0.957031"
-                y="0.708252"
-              />
-            </g>
-            <defs>
-              <pattern
-                height="1"
-                id="pattern0_1326_335"
-                width="1"
-                patternContentUnits="objectBoundingBox"
-              >
-                <use
-                  transform="matrix(0.00769928 0 0 0.0104167 0.130435 0)"
-                  xlinkHref="#image0_1326_335"
-                />
-              </pattern>
-              <image
-                height="96"
-                id="image0_1326_335"
-                width="96"
-                xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAE9klEQVR4nO2dS4gdRRSG2yATBUXJLjEbYchKQdGIEswiD4hxBJdudCFBFEVXakBFBDNJwFVw4QvcuAwSQjIGEgcFRUhAcCNBUBTMw0fUeM1DxXxSuWdxU+murunbXVXdp34YuNM3U+ec+qqruh59UhRZWVlZWVlZWVlZWVktCNgMvAscB/4inE4Au4DlKkECa4BPia8FdRCA9cBvpKMFNRCk5adU+bogAIukq0PAdcXAB9zUtTDYO0Gedsr0N/ACsKpj+7ohyKNmmV4MZB/VEIBRRbArA9nXPSZURRnbvhoIVRHGts+4uxl+d5QwgBlg/+DvhFQBFOPvhg8hZQAqIKQOYPAQ+gBg0BD6AmCwEPoEYJAQ+gZgcBD6CGBQEPoKYDAQ+gxgEBD6DqD3EBIAMKpwYZUKCAkAOF7hwvYGZS3v3SpqAgDecWyJbm9wJ/QLQgIANhFHaUCo8i6wD58QR7tCxlkVfKkC+3Ar8AvhdSpknFXBlyqCH/cDZ8LWf/g4ywJPxjFgNvQpvRhx2kEn5xiwEXgb+NoxT8gA+qQUG1rajmmJM5RjwBzwsbxxM5LPW9u247CvFwDwuqPDfq1NWw4fdAJg3PLr9EBb9hx+qAWw6AHgSFv2HH6oBfCnVfS9wH3WtbNt2XP4oRbARavoG4AbrWv/tGXP4YdaAD9YRa+VlwIn9Xtb9hx+qAVw0Cr6JZnpTurHtuw5/FAL4BmraLO88Kx17Whb9hx+qAWwGrhkFX/M+v3Dtuw5/NAJwMgj/cEbRccCdgB3AzfJj/m8o2u7qQCYqwHwWKFVgQBcA3zlAHBHoVUhABgBD1WYMgtz1xZaFQqAEXCgxNThIoDk4NZu4OREXqKZELZTAjBrZr2hn4DEtqlw3aciKH8kNdrchT3Ltmn5uk9FAM9VmDOVc3sXNmPEmaxjwGdV9sx6kAzUdwGPAK8AH8gc4kvgW+BXObK45B019QAYL8BNdj9lXVETee2oZQBcfgKZ1L+0p9odNbUAGE/CtgA/052OxI6zsbpyjPF6ixl0v5myck8DTwJ3ArcA1zfZUVMDgPGO18vAHx6VO5Jj4s8DDwPfVfy7i5JabYOAXZcBXF3xy4CngZ9qKt08xbwvTzxXvC4ErKiYLdepdjbddkNrTW04BtwGfOFZWW96jBnblnhcfUuIODvRtI4Bj5dsvFfpvO8rR3I37AHO1ZT5aog4O9M0jgHzFX9+qWLSteSNFwHxhFkzAr4XiOaoy2Gflt9GnJ2qqWMyaJbpc+AeYJ913XQpK8JEVepvqWL5M7VjJe91XZDNdtOHP1VS5LYwEekBMLL+ZL1cXyswJmUG6GVBAlIMYJ1MkOwZr+mvZ8NEowvAIn56tEhAQwQw51H580UiGhyAmhcv/gtV+bLXa7YbT8lP6f9B4xunpDqwy5tJtmUAD0p3ZMaEs8BHZizozGG/vd6r0hD4xOnIM7EzWQCxJa20NjVNXZw16W5OJ5+vJ0EAV0BwAfDINXSiF/l6Ysh0D7h1uTtyfO+T3ma+N/l6QmsJ+YGafNd9WpuI+Xqayqwp3dwAQro5hSLm62mqvWbNqWMI4RI6RczXM43es9eXPBP3+Sh8cr9Y+Xqm1Fsd3AnxUpnFyNeTGIRk8sgFy9eTEIQ0Kn9Iwn9MSC+hqyIIh3Llx4OQKz+UZEzYKe8inJTPuc/PysrKyiqa6n+6q7y7mWXSQgAAAABJRU5ErkJggg=="
-              />
-            </defs>
-          </svg>{" "}
+          <div className={styles.pdficon}>
+            <FaRegFilePdf />
+          </div>
           DownLoad Brochure
         </div>
       </div>

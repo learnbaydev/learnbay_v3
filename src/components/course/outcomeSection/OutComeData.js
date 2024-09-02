@@ -1,4 +1,4 @@
-// outcomeData.js
+
 const outcomeData = [
     {
       id: 1,

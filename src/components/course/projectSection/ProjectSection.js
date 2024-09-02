@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 import styles from "./ProjectSection.module.css";
 import data from "./ProjectSectionData";
 
@@ -12,14 +12,56 @@ import "swiper/css/pagination";
 
 // import required modules
 import Image from "next/image";
+import Popup from "../../Global/Popup/Popup";
+import Form from "@/components/Global/Form/Form";
 
-const ProjectSection = () => {
+const ProjectSection = ({
+  dataScience,
+  dataScienceCounselling,
+  interstedInHide,
+  titleCourse,
+  brochureLink,
+  brochurePdf,
+}) => {
+
+  const [popups, setPopups] = useState(false);
+  const popupShow = () => {
+    setPopups(true);
+  };
   return (
     <section className={styles.projectSection}>
+            <Popup
+        trigger={popups}
+        setTrigger={setPopups}
+        className="popupModal"
+        popup={true}
+        // radio={radio}
+        dataScience={dataScience}
+        dataScienceCounselling={dataScienceCounselling}
+      >
+        <div className="leftPopup">
+          <div
+            className="whiteP"
+            style={{ width: "340px", height: "400px" }}
+          ></div>
+        </div>
+        <div className="RightPopup">
+          <h5>Apply For Counselling</h5>
+          <Form
+            titleCourse={titleCourse}
+            brochureLink={brochureLink}
+            brochurePdf={brochurePdf}
+            dataScience={dataScience}
+            interstedInHide={interstedInHide}
+            dataScienceCounselling={dataScienceCounselling}
+            upSkillingHide={true}
+            // radio={radio}
+          />
+        </div>
+      </Popup>
       <h3 className={styles.projectHeading}>
         Industry <span className={styles.boldHeading}>Projects</span>
       </h3>
-      <div className={styles.orangeLine}></div>
       <div className={styles.subheadingContainer}>
         <div className={styles.orangeBox}>95% industry relevance</div>
         <div className={styles.blueBox}>22+ tools, 100% hands-on</div>
@@ -67,7 +109,7 @@ const ProjectSection = () => {
               </div>
             </SwiperSlide>
           ))}
-        </Swiper>
+        </Swiper>  
       </div>
       <div className={styles.botDiv}>
         <Image
@@ -78,7 +120,7 @@ const ProjectSection = () => {
           loading="lazy"
         />
         <h4 className={styles.h4Bot}>Practical Project Experience</h4>
-        <p className={styles.pBot}><span className={styles.spanOrange}>Important Note:</span> The final number of quizzes, assignments and discussions will be confirmed closer to the programme start. To know more <span className={styles.spanBlue}>check eligibility</span></p>
+        <p className={styles.pBot}><span className={styles.spanOrange}>Important Note:</span> The final number of quizzes, assignments and discussions will be confirmed closer to the programme start. To know more <span className={styles.blueSpan } onClick={popupShow}>check eligibility</span></p>
       </div>
     </section>
   );

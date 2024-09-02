@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./whyChooseSection.module.css";
 import Image from "next/image";
 import { FaCheckCircle } from "react-icons/fa";
+import VideoYt from "@/components/Global/VideoYt/VideoYt";
 
 function whyChooseSection() {
   return (
@@ -140,6 +141,7 @@ function whyChooseSection() {
               width="550"
               height="250"
             />
+            {/* <VideoYt/> */}
             <div className={styles.ytBot}>
               <p>
                 <span>Important Note:</span> You will be assigned 5 members to

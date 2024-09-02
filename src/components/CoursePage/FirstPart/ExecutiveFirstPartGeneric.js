@@ -41,7 +41,7 @@ const ExecutiveFirstPart = () => {
 
       />
       <DecisionSection />
-      <ProgramSection   dataScienceCounselling={true} interstedInHide={true} dataScience={true}/>
+      <ProgramSection   dataScienceCounselling={true} interstedInHide={true} />
       <OutcomeSection />
       <WhyChooseSection />
     </>

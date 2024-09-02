@@ -23,6 +23,7 @@ export const ExcutiveProgramAIDS = [
           {
             term:"Term 1",
             title: "Foundations of Data Science and Leadership",
+            duration:"1.5 months",
             modules: [
               {
                 moduleTitle: "Module 1",
@@ -85,6 +86,7 @@ export const ExcutiveProgramAIDS = [
 
           {
             term:"Term 2",
+            duration:"4 months",
             title: "Technical Skills for Data Science",
             modules: [
               {
@@ -137,6 +139,7 @@ export const ExcutiveProgramAIDS = [
           },
           {
             term:"Term 3",
+            duration:"4 months",
             title: "SQL, Tableau, Power BI, Big data ",
             modules: [
               {
@@ -205,6 +208,7 @@ export const ExcutiveProgramAIDS = [
           },
           {
             term:"BONUS",
+            duration:"4 months",
             title: "Domain Specialization & Capstone Project",
             modules: [
               {
@@ -233,6 +237,7 @@ export const ExcutiveProgramAIDS = [
 
           {
             term:"Term 4",
+            duration:"4 months",
             title: "AI Tools",
             modules: [
               {
@@ -301,7 +306,7 @@ export const ExcutiveProgramAIDS = [
         toolwidth:"400",
         toolheight:"76",
         description: "Technical Skills for Data Science",
-        duration: "1.5 Months",
+        duration: "4 Months",
         contentModule: "Module 1",
         contentDescription: "Python",
         contentDetails: [
@@ -311,6 +316,7 @@ export const ExcutiveProgramAIDS = [
         popuplist: [
           {
             term:"Term 1",
+            duration:"1.5 months",
             title: "Foundations of Data Science and Leadership",
             modules: [
               {
@@ -374,6 +380,7 @@ export const ExcutiveProgramAIDS = [
 
           {
             term:"Term 2",
+            duration:"4 months",
             title: "Technical Skills for Data Science",
             modules: [
               {
@@ -426,6 +433,7 @@ export const ExcutiveProgramAIDS = [
           },
           {
             term:"Term 3",
+            duration:"4 months",
             title: "SQL, Tableau, Power BI, Big data ",
             modules: [
               {
@@ -494,6 +502,7 @@ export const ExcutiveProgramAIDS = [
           },
           {
             term:"BONUS",
+            duration:"4 months",
             title: "Domain Specialization & Capstone Project",
             modules: [
               {
@@ -522,6 +531,7 @@ export const ExcutiveProgramAIDS = [
 
           {
             term:"Term 4",
+            duration:"4 months",
             title: "AI Tools",
             modules: [
               {
@@ -591,7 +601,7 @@ export const ExcutiveProgramAIDS = [
         toolwidth:"380",
         toolheight:"30",
         description: "SQL, Tableau, Power BI, Big data",
-        duration: "1.5 Months",
+        duration: "4 Months",
         contentModule: "Module",
         contentDescription: "Big Data Tools",
         contentDetails: [
@@ -601,6 +611,7 @@ export const ExcutiveProgramAIDS = [
         popuplist: [
           {
             term:"Term 1",
+            duration:"1.5 months",
             title: "Foundations of Data Science and Leadership",
             modules: [
               {
@@ -664,6 +675,7 @@ export const ExcutiveProgramAIDS = [
 
           {
             term:"Term 2",
+            duration:"4 months",
             title: "Technical Skills for Data Science",
             modules: [
               {
@@ -716,6 +728,7 @@ export const ExcutiveProgramAIDS = [
           },
           {
             term:"Term 3",
+            duration:"4 months",
             title: "SQL, Tableau, Power BI, Big data ",
             modules: [
               {
@@ -784,6 +797,7 @@ export const ExcutiveProgramAIDS = [
           },
           {
             term:"BONUS",
+            duration:"4 months",
             title: "Domain Specialization & Capstone Project",
             modules: [
               {
@@ -812,6 +826,7 @@ export const ExcutiveProgramAIDS = [
 
           {
             term:"Term 4",
+            duration:"4 months",
             title: "AI Tools",
             modules: [
               {
@@ -881,7 +896,7 @@ export const ExcutiveProgramAIDS = [
         toolwidth:"380",
         toolheight:"30",
         description: "AI Tools",
-        duration: "1.5 Months",
+        duration: "4 Months",
         contentModule: "Module",
         contentDescription: "Deep Learning",
         contentDetails: [
@@ -891,6 +906,7 @@ export const ExcutiveProgramAIDS = [
         popuplist: [
           {
             term:"Term 1",
+            duration:"1.5 months",
             title: "Foundations of Data Science and Leadership",
             modules: [
               {
@@ -954,6 +970,7 @@ export const ExcutiveProgramAIDS = [
 
           {
             term:"Term 2",
+            duration:"4 months",
             title: "Technical Skills for Data Science",
             modules: [
               {
@@ -1006,6 +1023,7 @@ export const ExcutiveProgramAIDS = [
           },
           {
             term:"Term 3",
+            duration:"4 months",
             title: "SQL, Tableau, Power BI, Big data ",
             modules: [
               {
@@ -1076,6 +1094,7 @@ export const ExcutiveProgramAIDS = [
 
           {
             term:"Term 4",
+            duration:"4 months",
             title: "AI Tools",
             modules: [
               {
@@ -1134,6 +1153,7 @@ export const ExcutiveProgramAIDS = [
 
           {
             term:"BONUS",
+            duration:"4 months",
             title: "Domain Specialization & Capstone Project",
             modules: [
               {
