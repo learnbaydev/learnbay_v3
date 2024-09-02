@@ -11,6 +11,7 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import styles from "./Course.module.css";
 import { courseDetails, courseDetailsM } from "./courseDetails";
+import Link from "next/link";
 const Popup = dynamic(() => import("@/components/Global/Popup/Popup"));
 const Form = dynamic(() => import("@/components/Global/Form/Form"));
 
@@ -236,7 +237,7 @@ const Course = ({
                                 >
                                   <div key={id} className={styles.SliderWrap}>
                                     {organicADS ? (
-                                      <a
+                                      <span
                                         onClick={() => {
                                           setTitleCourse(titleCourse);
                                           setBrochureLinks(brochureLinks);
@@ -254,9 +255,9 @@ const Course = ({
                                             alt="data science course"
                                           />
                                         </div>
-                                      </a>
+                                      </span>
                                     ) : (
-                                      <a
+                                      <Link
                                         href={link1}
                                         className={styles.imgWrap}
                                       >
@@ -270,7 +271,7 @@ const Course = ({
                                             alt="data science course"
                                           />
                                         </div>
-                                      </a>
+                                      </Link>
                                     )}
 
                                     <div className={styles.zIndex}>
@@ -343,7 +344,7 @@ const Course = ({
                                           <hr className={styles.hr1} />
                                         </div>
                                         <div className={styles.btnWrapper}>
-                                          <a
+                                          <span
                                             onClick={() => {
                                               setTitleCourse(titleCourse);
                                               setBrochureLinks(brochureLinks);
@@ -367,10 +368,10 @@ const Course = ({
                                                 style={{ color: "#fff" }}
                                               />
                                             </button>
-                                          </a>
+                                          </span>
                                           <hr className={styles.btnLine} />
                                           {organicADS ? (
-                                            <a
+                                            <span
                                               onClick={() => {
                                                 setTitleCourse(titleCourse);
                                                 setBrochureLinks(brochureLinks);
@@ -393,9 +394,9 @@ const Course = ({
                                               >
                                                 View Details
                                               </button>
-                                            </a>
+                                            </span>
                                           ) : (
-                                            <a
+                                            <Link
                                               href={link1}
                                               className={styles.link1}
                                             >
@@ -414,7 +415,7 @@ const Course = ({
                                               >
                                                 View Details
                                               </button>
-                                            </a>
+                                            </Link>
                                           )}
                                         </div>
                                       </div>
