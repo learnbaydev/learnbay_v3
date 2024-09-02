@@ -64,7 +64,7 @@ const data = [
     id:7,
     icon: "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/jpmorgan_logo.webp",
     number: 7,
-    hours: '26 hours',
+    hours: '26 hours',  
     title: 'Fraud Detection System',
     text:'Implement an advanced fraud detection system to identify and prevent fraudulent transactions in real-time',
     tool1: "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/jpmorgan_tech.webp",

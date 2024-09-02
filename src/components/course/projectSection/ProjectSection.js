@@ -67,7 +67,7 @@ const ProjectSection = () => {
               </div>
             </SwiperSlide>
           ))}
-        </Swiper>
+        </Swiper>  
       </div>
       <div className={styles.botDiv}>
         <Image
