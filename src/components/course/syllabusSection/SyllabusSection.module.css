@@ -1,18 +1,28 @@
 .mainConteiner {
   width: 1300px;
   /* background-color: red; */
-  margin:50px  auto;
+  margin: 50px auto;
 }
-.headline{
+.headline {
   margin-bottom: 50px;
+  color: #000;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 126.5%; /* 69.575px */
 }
 
 .gridConteiner {
   display: grid;
-  grid-template-columns: 30% 60%;
+  grid-template-columns: 22% 74%;
   gap: 40px;
   /* margin: 50px 0; */
   /* background-color: #e5ecf3; */
+}
+.headline span {
+  border-bottom: 4px solid #fe7a36;
+  line-height: 20px;
+  font-weight: 600;
 }
 
 .leftinside {
@@ -247,8 +257,8 @@
 }
 .leftinside img {
   border-radius: 50%;
-    border: 2px dashed #0072BC;
-    padding: 8px;
+  border: 2px dashed #0072bc;
+  padding: 8px;
 }
 
 .popup {
@@ -301,7 +311,7 @@
   width: 50px;
   height: 50px;
 }
-.closePopup:hover{
+.closePopup:hover {
   background-color: rgb(121, 110, 110);
   font-weight: 800;
   color: #fff;
@@ -310,7 +320,7 @@
 .cardHead {
   display: flex;
   justify-content: space-between;
-  align-items:baseline;
+  align-items: baseline;
 }
 
 .cardHead h5 {
@@ -352,7 +362,6 @@
   gap: 40px;
   margin-top: 20px;
   flex-direction: column;
-
 }
 
 .rytdiv p {
@@ -366,47 +375,53 @@
 
 .listItem {
   color: #000;
-font-size: 16px;
-font-weight: 400;
-line-height: 190.5%; /* 26.167px */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 190.5%; /* 26.167px */
 }
-.module{
+.module {
   display: flex;
   gap: 40px;
 }
 
-.termGreen{
+.termGreen {
   border-radius: 40px;
-background: rgba(4, 201, 136, 0.10);
-color: #04C988;
+  background: rgba(4, 201, 136, 0.1);
+  color: #04c988;
 
-font-size: 20.487px;
-font-weight: 600;
-line-height: 126.5%; /* 32.241px */
-padding:4px 20px;
+  font-size: 20.487px;
+  font-weight: 600;
+  line-height: 126.5%; /* 32.241px */
+  padding: 4px 20px;
 }
 
-.titleH{
+.titleH {
   color: #000;
-font-size: 24.487px;
-font-style: normal;
-font-weight: 700;
-line-height: 126.5%; /* 32.241px */
-margin: 20px;
+  font-size: 24.487px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 126.5%; /* 32.241px */
+  margin: 20px;
 }
 
-
-.verticalLine{
+.verticalLine {
   width: 2px;
   height: 280px;
   position: relative;
   left: 40px;
-  top:4px;
+  top: 4px;
   background: repeating-linear-gradient(
-        to bottom,
-        #0072BC,
-        #0072BC 5px,
-        transparent 5px,
-        transparent 10px
-    );
+    to bottom,
+    #0072bc,
+    #0072bc 5px,
+    transparent 5px,
+    transparent 10px
+  );
+}
+
+.buttondiv {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+  gap: 40px;
 }

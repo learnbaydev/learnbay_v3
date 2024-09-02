@@ -22,18 +22,20 @@ const UpskillingSection = dynamic(() =>
   import("@/components/course/upskillingSection/upskillingSection")
 );
 const ExecutiveSecondPart = ({sections, FAQNewData}) => {
+
+      const pdfUrl = "/Brochure/Iit-Data-Analytics-Certifications.pdf"
   return (
     <>
     <ReviewSlider />
     <MentorsSection />
     <UpskillingSection />
-    <SyllabusSection sections={sections} />
+    <SyllabusSection sections={sections} interstedInHide={true}  brochurePdf={pdfUrl} />
     <ToolsSection />
     <CertificateSection />
     <FeeSection />
     <JobReadySection />
     <StructuredSection />
-    <FAQNew FAQNewData={FAQNewData} isGuwahati={true} isSpecial={true} />
+    <FAQNew FAQNewData={FAQNewData} isGuwahati={true} isSpecial={true}  />
     <Footer />
     </>
   );
