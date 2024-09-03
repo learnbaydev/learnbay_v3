@@ -62,7 +62,7 @@ const FeeContent = ({
         options
       </p> */}
 
-      <div className={styles.mainContainer}>
+      {/* <div className={styles.mainContainer}>
         <div className={styles.innerMainContainer}>
           <div className={styles.innerContainer}>
             <div className={styles.firstContainer}>
@@ -221,7 +221,7 @@ const FeeContent = ({
             />
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className={styles.ThreeCard}>
         <div className={styles.first}>
