@@ -180,7 +180,7 @@ export default function Home() {
             weekday="MON - FRI"
             weekend="SAT - SUN"
             WeekdayDate="August 16th"
-            WeekendDate="August 25th"
+            WeekendDate="Sept 29th"
             WeekendTime="9:30 AM - 1 PM"
             WeekdayTime="8:00 AM - 10:00 AM"
             FeeContent3="Flexible payment"

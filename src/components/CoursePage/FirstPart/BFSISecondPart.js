@@ -72,7 +72,7 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "/Brochure/BFSI.pdf"
+  const pdfUrl = "/Brochure/BFSI.pdf";
   return (
     <div>
       <LJourney />
@@ -91,14 +91,14 @@ const SecondPart = ({
       <FeeSection
         Fee="₹95,000"
         FeeEmi="₹6,228/month"
-       weekdaybatch="Weekday Batch"
+        weekdaybatch="Weekday Batch"
         weekendbatch="Weekend Batch"
         weekday="MON-FRI"
         weekend="SAT- SUN"
-        WeekdayDate=" August 9th"
+        WeekdayDate=" Oct 18th"
         WeekendDate="Sept 15th"
-        WeekendTime="9.30 AM - 1.00 PM"
-        WeekdayTime="8.00 AM - 10.00 AM"
+        WeekendTime="9:30 AM - 1:00 PM"
+        WeekdayTime="8:00 PM - 10:30 PM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
         FeeContent5="15 days refund policy"

@@ -75,7 +75,7 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
-   const pdfUrl ="/Brochure/Cloud-and-Devops.pdf"
+  const pdfUrl = "/Brochure/Cloud-and-Devops.pdf";
   return (
     <div style={{ marginTop: "50px" }}>
       <SyllabusNew
@@ -87,7 +87,6 @@ const SecondPart = ({
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
         brochurePdf={pdfUrl}
         buttonHide={true}
-
       />
       <ToolsCovered devops={true} mbldevops={mbldevops} />
       <Certificate data={CertificateData} />
@@ -101,7 +100,7 @@ const SecondPart = ({
         weekday="SAT - SUN"
         weekend="MON - FRI"
         WeekdayDate="August 31st"
-        WeekendDate=" August 23rd"
+        WeekendDate=" Sept 6th"
         WeekendTime="8:00 PM - 10:00 PM"
         WeekdayTime="9:30 AM - 1 PM"
         FeeContent3="Flexible payment"

@@ -85,7 +85,7 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
-   const pdfUrl = "/Brochure/Advanced-Data-Science.pdf"
+  const pdfUrl = "/Brochure/Advanced-Data-Science.pdf";
   return (
     <div>
       <LJourney />
@@ -104,12 +104,12 @@ const SecondPart = ({
       <FeeSection
         Fee="₹1,05,000"
         FeeEmi="₹6,883/month"
-         weekdaybatch="Weekday Batch"
+        weekdaybatch="Weekday Batch"
         weekendbatch="Weekend Batch"
         weekday="MON - THU"
         weekend="SAT - SUN"
         WeekdayDate="Sept 6th"
-        WeekendDate="August 25th"
+        WeekendDate="Sept 29th"
         WeekendTime="9:30 AM - 1 PM"
         WeekdayTime="8:00 PM - 10:30 PM"
         FeeContent3="Flexible payment"
