@@ -31,6 +31,7 @@ const feeContent = ({
   totalAmount2,
   monthlyPayment2,
   greenDown2,
+  iitGuwatiGen,
 }) => {
   const [emiPopupIsOpen, setEmiPopupIsOpen] = useState(false);
   const popupShow = () => {
@@ -220,11 +221,11 @@ const feeContent = ({
           <div className={styles.feeSectionContainer}>
             <div className={styles.feeContentContainer}>
               <p>Pay in easy EMIs starting as low as</p>
-              <h4>₹ 8,178/ month</h4>
+              <h4>₹ 12,455/ month</h4>
               <div className={styles.border}>
                 <p>Program Fee</p>
                 <h4>
-                  ₹ 2,10,000<span> + 18% GST</span>
+                  ₹ 1,90,000<span> + 18% GST</span>
                 </h4>
               </div>
               <div className={styles.emiButton} onClick={openEmiPopup}>
@@ -233,11 +234,11 @@ const feeContent = ({
             </div>
             <div className={styles.feeContentContainer}>
               <p>Pay in easy EMIs starting as low as</p>
-              <h4 style={{ color: "#0072BC" }}>₹ 8,178/ month</h4>
+              <h4 style={{ color: "#0072BC" }}>₹ 14,094/ month</h4>
               <div className={styles.border}>
                 <p>Program Fee</p>
                 <h4>
-                  ₹ 2,10,000<span> + 18% GST</span>
+                  ₹ 2,15,000<span> + 18% GST</span>
                 </h4>
               </div>
               <div className={styles.emiButton} onClick={openEmiPopup}>
@@ -269,6 +270,7 @@ const feeContent = ({
           totalAmount2={totalAmount2}
           monthlyPayment2={monthlyPayment2}
           greenDown2={greenDown2}
+          iitGuwatiGen={iitGuwatiGen}
         />
       </Modal>
     </div>
