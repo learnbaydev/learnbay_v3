@@ -114,7 +114,7 @@ const ExecutiveSecondPart = ({
         WeekendTime="9:30 AM - 1:00 PM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
-        FeeContent5="15 days refund policy"
+        FeeContent5="10 days refund policy"
         FeeContent6="No additional cost"
         dataScienceCounselling={true}
         // EMI POPUPDATA
