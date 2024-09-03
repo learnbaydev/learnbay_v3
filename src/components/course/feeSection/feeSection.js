@@ -19,7 +19,7 @@ const FeeSection = ({
   interstedInHide,
   devopfee,
   adsHide,
-
+  iitGuwatiGen,
 
   
   emiPopupProps,
@@ -72,6 +72,7 @@ const FeeSection = ({
      totalAmount2 ={totalAmount2}
      monthlyPayment2 ={monthlyPayment2}
      greenDown2 ={greenDown2}
+     iitGuwatiGen={iitGuwatiGen}
       />
     </div>
   );
