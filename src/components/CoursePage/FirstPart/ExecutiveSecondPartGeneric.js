@@ -5,7 +5,9 @@ import ProjectSection from "@/components/course/projectSection/ProjectSection";
 import SyllabusSection from "@/components/course/syllabusSection/SyllabusSection";
 import ToolsSection from "@/components/course/toolsSection/ToolsSection";
 import dynamic from "next/dynamic";
-const FAQNew = dynamic(() => import("../../CoursePage/FAQNew/FAQNewDomain"));
+const FAQNew = dynamic(() =>
+  import("../../../components/CoursePage/FAQNew/FAQNew")
+);
 const ReviewSlider = dynamic(() =>
   import("@/components/course/reviewSlider/reviewSlider")
 );
@@ -53,7 +55,8 @@ const ExecutiveSecondPart = ({ sections, FAQNewData }) => {
       />
       <JobReadySection />
       <StructuredSection />
-      <FAQNew FAQNewData={FAQNewData} isGuwahati={true} isSpecial={true} />
+      <FAQNew FAQNewData={FAQNewData} />
+
       <Footer />
     </>
   );

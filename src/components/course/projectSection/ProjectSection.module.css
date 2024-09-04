@@ -1,19 +1,20 @@
-.projectSection{
+.projectSection {
     margin-top: 3rem;
     width: 100%;
     background: linear-gradient(180deg, #FFF 8.58%, #EFF3F6 69.44%, #FFF 99.96%);
     position: relative;
     margin-bottom: 110px;
 }
-.projectHeading{
+
+.projectHeading {
     text-align: center;
     color: #000;
     padding: 1.5rem 0;
     font-size: 55px;
     font-weight: 400;
-    
 }
-.boldHeading{
+
+.boldHeading {
     font-size: 55px;
     font-weight: 700;
     border-bottom: 4px solid #FE7A36;
@@ -23,108 +24,85 @@
     width: 100%;
     height: auto;
 }
+
 .botDiv {
-    width: 1150px;
+    width: 100%;
+    max-width: 1150px;
     margin: auto;
 }
-.orangeLine{
+
+.orangeLine {
     height: 5px;
     width: 212px;
     background: #FE7A36;
     margin: auto;
 }
-.subheadingContainer{
+
+.subheadingContainer {
     display: flex;
     justify-content: center;
     gap: 1rem;
     margin-top: 1.5rem;
 }
-.orangeBox{
+
+.orangeBox, .blueBox, .greenBox {
     border-radius: 40.486px;
-    background: #FFF2EB;
     padding: 0.6rem 0.8rem;
     color: #FE7A36;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-
 }
 
-.pBot {
-    margin-top: 90px;
-    font-size: 14px;
-}
-
-.pBot span {
-    font-weight: 700;
-}
-
-.spanOrange {
-    color: #FE7A36;
-}
-
-.spanBlue {
-    color: #0072BC;
-    font-style: italic;
-    text-decoration: underline;
-}
-
-.h4Bot {
-    color: #ffffff90;
-    margin-top: -95px;
-    margin-left: 50px;
-}
-.blueBox{
-    border-radius: 40.486px;
+.blueBox {
     background: #E5F2F8;
-    padding: 0.6rem 0.8rem;
     color: #0072BC;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
 }
-.greenBox{
-    border-radius: 40.486px;
+
+.greenBox {
     background: #E6FAF3;
-    padding: 0.6rem 0.8rem;
     color: #04C988;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
 }
-.mySwiper{
+
+.mySwiper {
     width: 1150px;
     margin: auto;
-    
 }
-.sliderWrapper{
+
+.sliderWrapper {
     margin-bottom: 2.6rem;
 }
-.projectsConatiner{
+
+.projectsContainer {
     margin-top: 3.5rem;
 }
-.projectCard{
+
+.projectCard {
     border-radius: 40px;
     background: #FFF;
     padding: 1.5rem 1.4rem;
     height: 450px;
 }
-.upperPart{
+
+.upperPart {
     display: flex;
     justify-content: space-between;
 }
-.upperRight{
+
+.upperRight {
     display: flex;
     gap: 1rem;
     margin-top: -1.5rem;
 }
-.boxNum{
-   color: rgba(0, 0, 0, 0.40);
-   font-size: 40px;
-   font-weight: 700;
-   margin-top: 6px;
+
+.boxNum {
+    color: rgba(0, 0, 0, 0.40);
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 6px;
 }
-.hrsBox{
+
+.hrsBox {
     border-radius: 0px 40px 0px 10px;
     background: #022646;
     height: 50px;
@@ -133,25 +111,27 @@
     display: flex;
     align-items: center;
     font-weight: 700;
-    margin-top: 0;
     color: rgba(255, 255, 255, 0.60);
-text-align: center;
-font-size: 36px;
+    text-align: center;
+    font-size: 36px;
 }
-.cardTitle{
-color: #0072BC;
-font-size: 16px;
-font-weight: 600;
-margin: 1.4rem auto;
-line-height: 1.3;
+
+.cardTitle {
+    color: #0072BC;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 1.4rem auto;
+    line-height: 1.3;
 }
-.cardText{
-color: #616161;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
+
+.cardText {
+    color: #616161;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
-.lowerBox{
+
+.lowerBox {
     display: flex;
     justify-content: space-between;
     gap: 0.6rem;
@@ -160,25 +140,27 @@ line-height: 26px;
     padding: 0.8rem 1rem;
     margin: 1rem 0;
 }
-.projectIcon{
+
+.projectIcon {
     width: auto;
-    height:auto;
+    height: auto;
     mix-blend-mode: multiply;
 }
-.tableauIcon{
+
+.tableauIcon {
     width: 120px;
     height: 30px;
 }
-.sqlIcon{
+
+.sqlIcon {
     width: 80px;
     height: 25px;
 }
-.ctaText{
-    /* font-size: 10px; */
-    /* text-decoration: underline; */
+
+.ctaText {
     color: #0072BC;
     font-weight: 400;
-}   
+}
 
 .blueSpan {
     color: #0072BC;
@@ -186,11 +168,67 @@ line-height: 26px;
     text-decoration-line: underline;
     font-style: italic;
     cursor: pointer;
-    transition: color 0.3s ease; /* Smooth transition for the color change */
-  }
-  
-  .blueSpan:hover {
+    transition: color 0.3s ease;
+}
+
+.blueSpan:hover {
     color: #FE7A36;
-  }
-  
-  
+}
+
+@media screen and (max-width: 1608px) {
+    .mySwiper {
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .projectHeading {
+        font-size: 45px;
+    }
+    .boldHeading {
+        font-size: 45px;
+    }
+    .botDiv {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .projectHeading {
+        font-size: 35px;
+    }
+    .boldHeading {
+        font-size: 35px;
+    }
+    .subheadingContainer {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .projectCard {
+        height: auto;
+        padding: 1rem;
+    }
+    .lowerBox {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .mySwiper {
+        background-color: lightblue;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .projectHeading {
+        font-size: 25px;
+    }
+    .boldHeading {
+        font-size: 25px;
+    }
+    .subheadingContainer {
+        font-size: 14px;
+    }
+    .projectCard {
+        padding: 0.5rem;
+    }
+}

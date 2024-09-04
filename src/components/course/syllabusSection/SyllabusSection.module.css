@@ -474,3 +474,10 @@
   color: red;
 
 }
+
+@media (max-width:1280px) {
+  
+  .mainConteiner{
+  width: auto;
+  }
+}

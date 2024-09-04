@@ -36,14 +36,14 @@ const WhyLearnbay = () => {
           <p className={styles.subHeading}>
             Discover what our learners say about us
           </p>
-          <div className={styles.btnContainer}>
+          {/* <div className={styles.btnContainer}>
             <div className={styles.prevBtn} onClick={prevreelSlide}>
               <MdOutlineKeyboardArrowLeft />
             </div>
             <div className={styles.nextBtn} onClick={nextreelSlide}>
               <MdOutlineKeyboardArrowRight />
             </div>
-          </div>
+          </div> */}
           <Swiper
             onSwiper={(swiper) => {
               reelswiperRef.current = swiper;

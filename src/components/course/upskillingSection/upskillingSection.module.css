@@ -205,3 +205,31 @@ line-height: 125%; /* 31.25px */
     top: -33px;
     z-index: 2;
   }
+
+  
+  @media  (max-width:1280px) {
+    
+    .sectionWrapper{
+        width:auto;
+    }
+
+    .boxTitle {
+        font-size: 16px;
+    }
+
+
+  }
+  @media screen  and (max-width:1180px){
+
+    .boxContainer {
+        width: 263px;
+    }
+
+  }
+
+  @media screen  and (max-width:1080px){
+    
+    .boxContainer {
+        width: 263px;
+    }
+  }
