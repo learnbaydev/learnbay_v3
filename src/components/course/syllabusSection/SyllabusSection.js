@@ -173,7 +173,7 @@ const SyllabusSection = ({
                   </p>
                   <ul className={styles.lists}>
                     {section.contentDetails.map((detail, idx) => (
-                      <li  key={idx}>{detail}</li>
+                      <li key={idx}>{detail}</li>
                     ))}
                   </ul>
                   <div
@@ -220,7 +220,7 @@ const SyllabusSection = ({
                 >
                   {section.popuplist.map((item, idx) => (
                     <SwiperSlide
-                    key={item.id}
+                      key={item.id}
                       data-swiper-slide-index={idx}
                       className={`${styles.swiperSlide} ${
                         activeSlides.includes(idx.toString())
@@ -240,7 +240,10 @@ const SyllabusSection = ({
                           <h5 className={styles.titleH}>{item.title}</h5>
                           <div className={styles.slidercontent}>
                             {item.modules.map((module, moduleIdx) => (
-                              <div className={styles.module} key={module.moduleTitle}>
+                              <div
+                                className={styles.module}
+                                key={module.moduleTitle}
+                              >
                                 <div className={styles.popupleft}>
                                   <span className={styles.rotateText}>
                                     {module.moduleTitle}

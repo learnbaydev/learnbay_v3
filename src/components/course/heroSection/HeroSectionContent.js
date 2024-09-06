@@ -2,14 +2,14 @@ import { useEffect, useRef, useState } from "react";
 import Image from 'next/image'; // Import Next.js Image component
 import styles from './HeroSection.module.css';
 
-function HeroSectionContent({ setPopups }) {
+function HeroSectionContent({ setPopups,spanTag, thumbnailurl }) {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
   const [showThumbnail, setShowThumbnail] = useState(true);
   const [lastScrollTop, setLastScrollTop] = useState(0);
   const videoRef = useRef(null);
   const iframeRef = useRef(null);
 
-  const handleVideoPlay = () => {
+  const handleVideoPlay = ({}) => {
     if (isVideoPlaying) {
       if (iframeRef.current && iframeRef.current.contentWindow) {
         iframeRef.current.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
@@ -63,7 +63,7 @@ function HeroSectionContent({ setPopups }) {
         <div className="containerWidth">
           <div className={styles.innerDiv}>
             <div className={styles.firstSection}>
-              <h5>E&ICT Academy IIT Guwahati</h5>
+              <h5>{spanTag}</h5>
               <h1>
                 Executive Program in Data Science & AI for{' '}
                 <span className={styles.span}>Managers and Leaders</span>
@@ -76,8 +76,8 @@ function HeroSectionContent({ setPopups }) {
                     width={59}
                     height={72}
                     loading="lazy"
-                    placeholder="blur" // Placeholder image while loading
-                    blurDataURL="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/hero_brain.webp" // Low-resolution placeholder image
+                    placeholder="blur" 
+                    blurDataURL="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/hero_brain.webp"
                   />
                   <p>Curriculum Inclusive of Gen-AI</p>
                 </div>
@@ -104,7 +104,7 @@ function HeroSectionContent({ setPopups }) {
                 {showThumbnail ? (
                   <div className={styles.videoThumbnail}>
                     <Image
-                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/first_yt_thumb.webp"
+                      src={thumbnailurl}
                       alt="Video Thumbnail"
                       width={684}
                       height={450}
