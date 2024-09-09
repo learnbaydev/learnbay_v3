@@ -190,7 +190,7 @@ export default function Home() {
             WeekdayTime="8:00 PM - 10:30 PM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
-            FeeContent5="15 days refund policy"
+            FeeContent5="10 days refund policy"
             FeeContent6="No additional cost"
             dataScienceCounselling={true}
             interstedInHide={true}

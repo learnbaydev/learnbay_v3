@@ -179,7 +179,7 @@ const Form = ({
   const fetchLocation = async () => {
     try {
       const response = await fetch(
-        "https://ipinfo.io/json?token=a0d76b66419a6c"
+        "https://ipinfo.io/json?token=bc89c2010abac0"
       );
       if (!response.ok) {
         throw new Error(

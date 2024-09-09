@@ -241,3 +241,15 @@ margin: 5px;
 .icon {
   color: #FE7A36;
 }
+
+@media (max-width: 1280px) {
+  .container{
+    width: auto;
+  }
+  .oneSecond img{
+width: 340px;
+height: auto;
+  }
+
+
+}

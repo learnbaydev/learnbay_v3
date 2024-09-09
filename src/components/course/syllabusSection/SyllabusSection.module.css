@@ -474,3 +474,24 @@
   color: red;
 
 }
+@media (max-width:1381px) {
+
+
+  .card{
+    width: 550px;
+    height: 600px;
+  }
+
+}
+
+@media (max-width:1281px) {
+  
+  .mainConteiner{
+  width: auto;
+  }
+
+  .card{
+    width: 550px;
+    height: 600px;
+  }
+}

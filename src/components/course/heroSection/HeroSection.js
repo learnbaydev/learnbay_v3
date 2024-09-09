@@ -15,7 +15,10 @@ const HeroSection = ({
   radio,
   downloadBrochure,
   dataScienceGeneric,
+  spanTag,
+  thumbnailurl
 }) => {
+
   const [popups, setPopups] = useState(false);
   const [video, setVideo] = useState(false);
   return (
@@ -33,6 +36,8 @@ const HeroSection = ({
       />
       <VideoPopup triggers={video} setTriggers={setVideo} ids={idss} />
       <HeroSectionContent
+      thumbnailurl={thumbnailurl}
+      spanTag={spanTag}
         setPopups={setPopups}
         setVideo={setVideo}
         videoId={videoId}

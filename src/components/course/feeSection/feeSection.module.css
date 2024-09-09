@@ -543,6 +543,10 @@ background-clip: text;
   .price {
     font-size: 35px;
   }
+
+  .mainContainer{
+    width: auto;
+  }
 }
 @media (max-width: 1024px) {
   .ThreeCard {

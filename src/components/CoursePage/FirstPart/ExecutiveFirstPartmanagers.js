@@ -16,7 +16,7 @@ const OutcomeSection = dynamic(() =>
 const WhyChooseSection = dynamic(() =>
   import("@/components/course/whyChooseSection/whyChooseSection")
 );
-const ExecutiveFirstPartGeneric = () => {
+const ExecutiveFirstPartmanagers = () => {
     const pdfUrl = "/Brochure/Executive-iit-guwahati-generic.pdf"
   return (
     <>
@@ -29,11 +29,10 @@ const ExecutiveFirstPartGeneric = () => {
         isSpecialPage={true}
         isGuwahati={true}
         interstedInHide={true}
-
       />
       <HeroSection
-   thumbnailurl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/first_yt_thumb.webp"
-      spanTag="E&ICT Academy IIT Guwahati"
+      thumbnailurl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_YT.webp"
+      spanTag="Curriculum Inclusive of Gen-AI"
         isSpecialPage={true}
         isGuwahati={true}
         interstedInHide={true}
@@ -51,4 +50,4 @@ const ExecutiveFirstPartGeneric = () => {
   );
 };
 
-export default ExecutiveFirstPartGeneric;
+export default ExecutiveFirstPartmanagers;

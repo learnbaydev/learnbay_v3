@@ -44,7 +44,7 @@ function refund() {
 
         <p className={styles.bot}>
           1. A user isn't eligible for a refund after the initial trial period
-          of 15 days unless they reached out to Learnbay before
+          of 10 days unless they reached out to Learnbay before
         </p>
         <p className={styles.bot}>
           <b>Note: </b>The Master Program is excluded from this please refer to
@@ -55,7 +55,7 @@ function refund() {
           same is already approved (when applying for a refund) approved
         </p>
         <p className={styles.bot}>
-          <b>Note: </b>No refund or loan cancellation will be possible. The 15
+          <b>Note: </b>No refund or loan cancellation will be possible. The 10
           days refund policy will get void here.
         </p>
         <p className={styles.bot}>
@@ -77,7 +77,7 @@ function refund() {
         </p>
         <p className={styles.bot}>
           7. Enrolled in a course but have not attended the 70% of these trial
-          phase classes within the 15 days of enrolment
+          phase classes within the 10 days of enrolment
         </p>
 
         <h3 className={styles.top}>In case of refunds:-</h3>

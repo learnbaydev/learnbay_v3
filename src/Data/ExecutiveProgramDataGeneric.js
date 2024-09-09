@@ -8,9 +8,10 @@ export const ExcutiveProgramAIDS = [
         width: 80,
         height: 80,
         title: "Term 1",
-        toolsImg:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
-        toolwidth:"200",
-        toolheight:"40",
+        toolsImg:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
+        toolwidth: "200",
+        toolheight: "40",
         description: "Foundations of Data Science and Leadership",
         duration: "1.5 Months",
         contentModule: "Module 1",
@@ -21,9 +22,9 @@ export const ExcutiveProgramAIDS = [
         ],
         popuplist: [
           {
-            term:"Term 1",
+            term: "Term 1",
             title: "Foundations of Data Science and Leadership",
-            duration:"1.5 months",
+            duration: "1.5 months",
             modules: [
               {
                 moduleTitle: "Module 1",
@@ -78,15 +79,14 @@ export const ExcutiveProgramAIDS = [
                   "PivotTables and PivotCharts",
                   "Data Automation in Excel",
                   "Project Management in Excel",
-            
                 ],
               },
             ],
           },
 
           {
-            term:"Term 2",
-            duration:"4 months",
+            term: "Term 2",
+            duration: "4 months",
             title: "Technical Skills for Data Science",
             modules: [
               {
@@ -138,8 +138,8 @@ export const ExcutiveProgramAIDS = [
             ],
           },
           {
-            term:"Term 3",
-            duration:"4 months",
+            term: "Term 3",
+            duration: "4 months",
             title: "SQL, Tableau, Power BI, Big data ",
             modules: [
               {
@@ -207,8 +207,8 @@ export const ExcutiveProgramAIDS = [
             ],
           },
           {
-            term:"BONUS",
-            duration:"4 months",
+            term: "BONUS",
+            duration: "4 months",
             title: "Domain Specialization & Capstone Project",
             modules: [
               {
@@ -229,15 +229,14 @@ export const ExcutiveProgramAIDS = [
                   "HR (Human Resources)",
                   "Marketing",
                   "Healthcare",
-            
                 ],
               },
             ],
           },
 
           {
-            term:"Term 4",
-            duration:"4 months",
+            term: "Term 4",
+            duration: "4 months",
             title: "AI Tools",
             modules: [
               {
@@ -251,21 +250,18 @@ export const ExcutiveProgramAIDS = [
               },
               {
                 moduleTitle: "Module 14",
-                moduleContent:
-                  "Deep Learning",
+                moduleContent: "Deep Learning",
                 moduleList: [
                   "Core NLP Techniques",
                   "Advanced NLP Models",
                   "Marketing",
                   "Healthcare",
-            
                 ],
               },
 
               {
                 moduleTitle: "Module 15",
-                moduleContent:
-                  "Deployment ",
+                moduleContent: "Deployment ",
                 moduleList: [
                   "Introduction to Cloud Deployment",
                   "Core Concepts",
@@ -274,22 +270,13 @@ export const ExcutiveProgramAIDS = [
                   "Security and Compliance",
                   "Implementation Strategies",
                   "Project Management",
-
-            
                 ],
               },
               {
                 moduleTitle: "NLP and Gen AI",
                 moduleContent:
                   "Project: Automated Document Summarization Using",
-                moduleList: [
-                  "Objective",
-                  "Technologies",
-                  "Outcome",
-             
-                  
-            
-                ],
+                moduleList: ["Objective", "Technologies", "Outcome"],
               },
             ],
           },
@@ -302,9 +289,10 @@ export const ExcutiveProgramAIDS = [
         width: 80,
         height: 80,
         title: "Term 2",
-        toolsImg:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term2_tool.webp",
-        toolwidth:"400",
-        toolheight:"76",
+        toolsImg:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term2_tool.webp",
+        toolwidth: "400",
+        toolheight: "76",
         description: "Technical Skills for Data Science",
         duration: "4 Months",
         contentModule: "Module 1",
@@ -315,8 +303,8 @@ export const ExcutiveProgramAIDS = [
         ],
         popuplist: [
           {
-            term:"Term 1",
-            duration:"1.5 months",
+            term: "Term 1",
+            duration: "1.5 months",
             title: "Foundations of Data Science and Leadership",
             modules: [
               {
@@ -372,15 +360,14 @@ export const ExcutiveProgramAIDS = [
                   "PivotTables and PivotCharts",
                   "Data Automation in Excel",
                   "Project Management in Excel",
-            
                 ],
               },
             ],
           },
 
           {
-            term:"Term 2",
-            duration:"4 months",
+            term: "Term 2",
+            duration: "4 months",
             title: "Technical Skills for Data Science",
             modules: [
               {
@@ -432,8 +419,8 @@ export const ExcutiveProgramAIDS = [
             ],
           },
           {
-            term:"Term 3",
-            duration:"4 months",
+            term: "Term 3",
+            duration: "4 months",
             title: "SQL, Tableau, Power BI, Big data ",
             modules: [
               {
@@ -501,8 +488,8 @@ export const ExcutiveProgramAIDS = [
             ],
           },
           {
-            term:"BONUS",
-            duration:"4 months",
+            term: "BONUS",
+            duration: "4 months",
             title: "Domain Specialization & Capstone Project",
             modules: [
               {
@@ -523,15 +510,14 @@ export const ExcutiveProgramAIDS = [
                   "HR (Human Resources)",
                   "Marketing",
                   "Healthcare",
-            
                 ],
               },
             ],
           },
 
           {
-            term:"Term 4",
-            duration:"4 months",
+            term: "Term 4",
+            duration: "4 months",
             title: "AI Tools",
             modules: [
               {
@@ -545,21 +531,18 @@ export const ExcutiveProgramAIDS = [
               },
               {
                 moduleTitle: "Module 14",
-                moduleContent:
-                  "Deep Learning",
+                moduleContent: "Deep Learning",
                 moduleList: [
                   "Core NLP Techniques",
                   "Advanced NLP Models",
                   "Marketing",
                   "Healthcare",
-            
                 ],
               },
 
               {
                 moduleTitle: "Module 15",
-                moduleContent:
-                  "Deployment ",
+                moduleContent: "Deployment ",
                 moduleList: [
                   "Introduction to Cloud Deployment",
                   "Core Concepts",
@@ -568,22 +551,13 @@ export const ExcutiveProgramAIDS = [
                   "Security and Compliance",
                   "Implementation Strategies",
                   "Project Management",
-
-            
                 ],
               },
               {
                 moduleTitle: "NLP and Gen AI",
                 moduleContent:
                   "Project: Automated Document Summarization Using",
-                moduleList: [
-                  "Objective",
-                  "Technologies",
-                  "Outcome",
-             
-                  
-            
-                ],
+                moduleList: ["Objective", "Technologies", "Outcome"],
               },
             ],
           },
@@ -597,9 +571,10 @@ export const ExcutiveProgramAIDS = [
         width: 80,
         height: 80,
         title: "Term 3",
-        toolsImg:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term3_tool.webp",
-        toolwidth:"380",
-        toolheight:"30",
+        toolsImg:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term3_tool.webp",
+        toolwidth: "380",
+        toolheight: "30",
         description: "SQL, Tableau, Power BI, Big data",
         duration: "4 Months",
         contentModule: "Module",
@@ -610,8 +585,8 @@ export const ExcutiveProgramAIDS = [
         ],
         popuplist: [
           {
-            term:"Term 1",
-            duration:"1.5 months",
+            term: "Term 1",
+            duration: "1.5 months",
             title: "Foundations of Data Science and Leadership",
             modules: [
               {
@@ -667,15 +642,14 @@ export const ExcutiveProgramAIDS = [
                   "PivotTables and PivotCharts",
                   "Data Automation in Excel",
                   "Project Management in Excel",
-            
                 ],
               },
             ],
           },
 
           {
-            term:"Term 2",
-            duration:"4 months",
+            term: "Term 2",
+            duration: "4 months",
             title: "Technical Skills for Data Science",
             modules: [
               {
@@ -727,8 +701,8 @@ export const ExcutiveProgramAIDS = [
             ],
           },
           {
-            term:"Term 3",
-            duration:"4 months",
+            term: "Term 3",
+            duration: "4 months",
             title: "SQL, Tableau, Power BI, Big data ",
             modules: [
               {
@@ -796,8 +770,8 @@ export const ExcutiveProgramAIDS = [
             ],
           },
           {
-            term:"BONUS",
-            duration:"4 months",
+            term: "BONUS",
+            duration: "4 months",
             title: "Domain Specialization & Capstone Project",
             modules: [
               {
@@ -818,15 +792,14 @@ export const ExcutiveProgramAIDS = [
                   "HR (Human Resources)",
                   "Marketing",
                   "Healthcare",
-            
                 ],
               },
             ],
           },
 
           {
-            term:"Term 4",
-            duration:"4 months",
+            term: "Term 4",
+            duration: "4 months",
             title: "AI Tools",
             modules: [
               {
@@ -840,21 +813,18 @@ export const ExcutiveProgramAIDS = [
               },
               {
                 moduleTitle: "Module 14",
-                moduleContent:
-                  "Deep Learning",
+                moduleContent: "Deep Learning",
                 moduleList: [
                   "Core NLP Techniques",
                   "Advanced NLP Models",
                   "Marketing",
                   "Healthcare",
-            
                 ],
               },
 
               {
                 moduleTitle: "Module 15",
-                moduleContent:
-                  "Deployment ",
+                moduleContent: "Deployment ",
                 moduleList: [
                   "Introduction to Cloud Deployment",
                   "Core Concepts",
@@ -863,22 +833,13 @@ export const ExcutiveProgramAIDS = [
                   "Security and Compliance",
                   "Implementation Strategies",
                   "Project Management",
-
-            
                 ],
               },
               {
                 moduleTitle: "NLP and Gen AI",
                 moduleContent:
                   "Project: Automated Document Summarization Using",
-                moduleList: [
-                  "Objective",
-                  "Technologies",
-                  "Outcome",
-             
-                  
-            
-                ],
+                moduleList: ["Objective", "Technologies", "Outcome"],
               },
             ],
           },
@@ -892,21 +853,19 @@ export const ExcutiveProgramAIDS = [
         width: 80,
         height: 80,
         title: "Term 4",
-        toolsImg:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term4_tool.webp",
-        toolwidth:"380",
-        toolheight:"30",
+        toolsImg:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term4_tool.webp",
+        toolwidth: "380",
+        toolheight: "30",
         description: "AI Tools",
         duration: "4 Months",
         contentModule: "Module",
         contentDescription: "Deep Learning",
-        contentDetails: [
-          "Introduction to Deep Learning",
-          "Core Concepts",
-        ],
+        contentDetails: ["Introduction to Deep Learning", "Core Concepts"],
         popuplist: [
           {
-            term:"Term 1",
-            duration:"1.5 months",
+            term: "Term 1",
+            duration: "1.5 months",
             title: "Foundations of Data Science and Leadership",
             modules: [
               {
@@ -962,15 +921,14 @@ export const ExcutiveProgramAIDS = [
                   "PivotTables and PivotCharts",
                   "Data Automation in Excel",
                   "Project Management in Excel",
-            
                 ],
               },
             ],
           },
 
           {
-            term:"Term 2",
-            duration:"4 months",
+            term: "Term 2",
+            duration: "4 months",
             title: "Technical Skills for Data Science",
             modules: [
               {
@@ -1022,8 +980,8 @@ export const ExcutiveProgramAIDS = [
             ],
           },
           {
-            term:"Term 3",
-            duration:"4 months",
+            term: "Term 3",
+            duration: "4 months",
             title: "SQL, Tableau, Power BI, Big data ",
             modules: [
               {
@@ -1090,11 +1048,10 @@ export const ExcutiveProgramAIDS = [
               // },
             ],
           },
-      
 
           {
-            term:"Term 4",
-            duration:"4 months",
+            term: "Term 4",
+            duration: "4 months",
             title: "AI Tools",
             modules: [
               {
@@ -1108,21 +1065,18 @@ export const ExcutiveProgramAIDS = [
               },
               {
                 moduleTitle: "Module 14",
-                moduleContent:
-                  "Deep Learning",
+                moduleContent: "Deep Learning",
                 moduleList: [
                   "Core NLP Techniques",
                   "Advanced NLP Models",
                   "Marketing",
                   "Healthcare",
-            
                 ],
               },
 
               {
                 moduleTitle: "Module 15",
-                moduleContent:
-                  "Deployment ",
+                moduleContent: "Deployment ",
                 moduleList: [
                   "Introduction to Cloud Deployment",
                   "Core Concepts",
@@ -1131,29 +1085,20 @@ export const ExcutiveProgramAIDS = [
                   "Security and Compliance",
                   "Implementation Strategies",
                   "Project Management",
-
-            
                 ],
               },
               {
                 moduleTitle: "NLP and Gen AI",
                 moduleContent:
                   "Project: Automated Document Summarization Using",
-                moduleList: [
-                  "Objective",
-                  "Technologies",
-                  "Outcome",
-             
-                  
-            
-                ],
+                moduleList: ["Objective", "Technologies", "Outcome"],
               },
             ],
           },
 
           {
-            term:"BONUS",
-            duration:"4 months",
+            term: "BONUS",
+            duration: "4 months",
             title: "Domain Specialization & Capstone Project",
             modules: [
               {
@@ -1174,29 +1119,12 @@ export const ExcutiveProgramAIDS = [
                   "HR (Human Resources)",
                   "Marketing",
                   "Healthcare",
-            
                 ],
               },
             ],
           },
         ],
       },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
       // {
       //   id: "1",
@@ -1387,10 +1315,9 @@ export const ExcutiveProgramAIDS = [
       //     },
       //   ],
       // },
-     
 
       // {
-      //   "id": "1",
+      //   id: "1",
       //   "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_two.webp",
       //   "width": 100,
       //   "height": 100,
@@ -1425,7 +1352,7 @@ export const ExcutiveProgramAIDS = [
       // },
 
       // {
-      //   "id": "2",
+      //   id: "2",
       //   "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_two.webp",
       //   "width": 100,
       //   "height": 100,
@@ -1460,7 +1387,7 @@ export const ExcutiveProgramAIDS = [
       // },
 
       // {
-      //   "id": "3",
+      //   id: "3",
       //   "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_two.webp",
       //   "width": 100,
       //   "height": 100,
@@ -2232,97 +2159,322 @@ export const ExcutiveProgramAIDS = [
         },
       },
     ],
-
     faq: [
       {
         id: 0,
-
+        sectionName: "Course Related",
         data: [
           {
             id: 0,
-            ques: "What is an Executive Program in Data Science & AI            ",
-            ans: "Learnbay's Executive Program in Data Science and AI is specifically designed to guide a better career trajectory. This also aids in long-term advancement in the ever-evolving Data Science and AI industry. The program consists of various skills and techniques with relevant programming tools in the field of data science and AI to excel in this dynamic field.",
+            ques: "Can I do an Executive program in data science and AI, as I already have 7+ years of experience?",
+            ans: "Anyone positioned as a business leader, senior manager, or tech leader with 4+ years of experience can pursue an executive program in data science and AI to advance their career.",
             open: true,
           },
           {
             id: 1,
-            ques: "Who is eligible for this Executive Program in Data Science & AI?            ",
-            ans: ` The Executive program in data & AI unlocks a successful pathway with alluring career prospects. If you are eager to drive career excellence must check the eligibility here -  
-                  - Experienced working professional with more than 1 year of experience in any domain (Technical/Non-technical).
-                  - Ideal for enthusiastic:  Eager learner who wants to explore the world of data science in a career-profitable way.
-                  - who don't quit easily. Don't worry if you've never coded before – no prior coding experience required.
-                 
-               `,
+            ques: "What career can I have with an Executive program in data science and AI?",
+            ans: "Managers and leaders who join this program in data science and AI can find great jobs. They can become project managers or team leaders at top companies.",
             open: false,
           },
           {
             id: 2,
-            ques: "Why choose Learnbay for this Executive Program in Data Science & AI?            ",
-            ans: `Executive program in Data Science & AI will help you to enlighten better career prospects. The course also offers Guest Lectures from top faculties of E&ICT Academy IIT Guwahati, flexible learning options, Optional 2-day campus immersion at IIT Guwahati, real-time projects, and industry-relevant skills to modernize your Career.`,
+            ques: "Can I pursue this program while working full-time or from a different time zone?",
+            ans: "Experts in the executive program will work on case studies. They will also do practical exercises in their chosen area. This will help them improve their data science and AI skills. They will become better in their fields.",
             open: false,
           },
           {
             id: 3,
-            ques: "What Career can you have after completing the Executive Program in Data Science & AI?            ",
-            ans: `After the completion of the course, you will be able to earn an E&ICT Academy IIT Guwahati, and IBM course completion certificate. Having a certain type of certification can help you to gain the job career in a field such as -        
-            - Data Scientist
-            - Data analyst / Business Intelligence Analyst
-            - AI Engineer / Product Manager      
-            - Big Data Engineer 
-            - Machine learning Engineer            `,
+            ques: "Are there any hands-on labs or practical exercises in the course curriculum?",
+            ans: "Yes, an executive program in data science is valuable for managers and leaders. Experts at mid-to-senior level careers can opt for this course to attain proven success. Its industry-paced syllabus helps you acquire in-demand skills and land your dream roles.",
             open: false,
           },
-
+          {
+            id: 4,
+            ques: "Is an Executive program in data science and AI worth it?",
+            ans: "Yes, an executive program in data science for managers and leaders is worth it for mid-to-senior level experts. Its industry-paced syllabus helps you acquire in-demand skills and land your dream roles.",
+            open: false,
+          },
           {
             id: 5,
-            ques: "What all the topics are covered in the Executive Program in Data Science & AI?            ",
-            ans: `The topics and subjects that are addressed in the Executive Program in Data Science & AI are Python programming, Statistics, Machine learning techniques, essentials of SQL, Tableau, MongoDB, Power BI, Computer Vision and AI Generative Tools and Future Trends 
-              `,
+            ques: "Can I opt for different specializations in data science and AI executive programs?",
+            ans: "Yes, a learner can choose their preferred domain in data science and AI executive programs to excel in their career.",
             open: false,
           },
           {
             id: 6,
-            ques: "Who can be part of this E&ICT Academy IIT Guwahati Data Science and Artificial Intelligence program?            ",
-            ans: `The training course is meticulously curated for Individuals wanting to start a career in Data Science and seeking further to enhance their skills with a top-level IIT accreditation. 
-              
-              `,
+            ques: "What is the duration of an Executive program in data science and AI?",
+            ans: "The executive program in data science and AI takes 11 months to complete the course tasks and project activities.",
             open: false,
           },
           {
             id: 7,
-            ques: "What is the benefit of getting Advanced Data Science & AI certification from E&ICT Academy IIT Guwahati?            ",
-            ans: `There are immersive benefits for advanced data science & AI certification from E&ICT Academy IIT Guwahati. The course caters to Advanced Certification of Full Stack Data Science & AI, jointly offered by E&ICT Academy IIT Guwahati. In addition, you will eventually acquire the Career Service Pro feature with dedicated placement cells.
-              
-              
-              `,
+            ques: "What are the additional benefits provided in this executive program?",
+            ans: "The executive data science course for managers and leaders is exclusively designed to enhance decision-making skills with optimal gains. Apart from flexible training and project handling aspects, the course offers additional yet unique benefits such as",
             open: false,
+            list1:"2-day immersion learning experience at IIT Guwahati",
+            list2:"Guest lectures from IIT Guwahati for absolute insights",
+            list3:"Collaboration with E&ICT Academy",
+            dscoursefaq1:true,
           },
           {
             id: 8,
-            ques: "Will I get a unique opportunity to visit the IIT Guwahati campus?            ",
-            ans: `Yes, the course offers an Optional 2-day campus immersion at IIT Guwahati. Here, you will be offered an alternate chance to visit the IIT Guwahati campus. 
-              
-              
-              `,
+            ques: "What are the features of live online and hybrid classes under an Executive program in data science and AI?",
+            ans: "The executive program in data science for managers and leaders offers 100% live online and hybrid training sessions, with flexibility for experts to choose the best-suited ones.",
+            span:"Features of live online classes are –",
+            list1:"Live online interactive training sessions",
+            list2:"1:1 online doubt-clearing sessions",
+            list3:"Virtual mock interviews",
+            list4:"Online capstone projects",
+
+            span:"Features of hybrid classes arell –",
+            list5:"Offline training sessions",
+            list6:"Offline doubt-clearing from respective mentors ",
+            list7:"3-5 members panel-driven offline mock interviews",
+            list8:"Offline capstone project handling in selective cities - Bangalore, Pune, Delhi, Chennai, Hyderabad, and Mumbai",
+            dscoursefaq1:true,
+     
+            open: false,
+          },
+        ],
+      },
+      {
+        id: 1,
+        sectionName: "Domain Electives",
+        data: [
+          {
+            id: 0,
+            ques: "What is domain specialization?",
+            ans: "Domain specialization refers to the practice of gaining specific expertise in a particular field of an industry. It is a metric of career growth where experts gain domain-specific knowledge to face real-world challenges and tackle them effectively.             ",
+            open: true,
+          },
+          {
+            id: 1,
+            ques: "Why is domain specialization important?",
+            ans: "After enrolling in the Data Science and AI for Managers & Leaders course, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.",
             open: false,
           },
           {
-            id: 9,
-            ques: "What is the essential role of the E&ICT Academy of IIT Guwahati in placements?            ",
-            ans: `The E&ICT Academy of  IIT, Guwahati, is committed to preparing the way for technological achievement and research in Data Science and Artificial Intelligence. It additionally assists in hosting a dedicated placement cell for resume building, mock interviews with industry experts, and Getting 3 years of Job and Placement support. 
-              
-              
-              `,
+            id: 2,
+            ques: "What are the available elective domain options?            ",
+            ans: `Experts from diversified backgrounds can join this to gain domain-specific knowledge. The available domain elective options are –            `,
+            list1: "BFSI            ",
+            list2: "HR           ",
+            list3: "Marketing            ",
+            list4: "Manufacturing              ",
+            list5: "Healthcare              ",
+            list6: "Supply Chain              ",
+            open: false,
+            dscoursefaq1: true,
+          },
+          {
+            id: 3,
+            ques: "Which domain elective is best suited for me?",
+            ans: "You can select your domain based on your prior work experience, academics, and career goals. Book a slot with our industry expert for free profile review and career guidance.",
+            linkText1: " +917795687988 ",
+            link1: "tel:+917795687988",
+            link: true,
             open: false,
           },
-          // {
-          //   id: 10,
-          //   ques: "Is the Advanced Data Science & AI certification from E&ICT Academy of IIT Guwahati globally recognized?            ",
-          //   ans: `We know that IIT plays an essential role in creating top-notch techs across the globe. Similarly, the Advanced Data Science & AI certification from E&ICT Academy of IIT Guwahati holds a strong posting to facilitate globally recognized certification for better professional and Career endeavors.
+          {
+            id: 4,
+            ques: "Can I select multiple domain electives and do I need to pay extra charges?",
+            ans: "You can select all domain electives (both tech and non-tech) based on your interest and career goals. No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.",
+            open: false,
+          },
+          {
+            id: 5,
+            ques: "What if I don’t have any prior experience in any domain?",
+            ans: "We offer industry-focused upskilling with the domain electives that are trending at present with alluring career opportunities. In case, you do not hold any prior experience, you can opt for any domain as per your career interests and goals. You can here consider specializations during academics if you wish to craft a successful career in the same.             ",
+            open: false,
+          },
+          {
+            id: 6,
+            ques: "Can I change my domain electives later?",
+            ans: "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration.",
+            open: false,
+          },
+        ],
+      },
+      {
+        id: 2,
+        sectionName: "Payments and Scholarships",
+        data: [
+          {
+            id: 0,
+            ques: "What is the cost of the Executive program in data science and AI?",
+            ans: "The executive program in data science for managers includes live online and hybrid classes with different fee structures. The live online classes cost INR 2,10,000 + 18% GST, and the hybrid sessions cost INR 2,25,000 + 18% GST.",
+            open: true,
+          },
+          {
+            id: 1,
+            ques: "Can I pay in installments for the Executive program in data science and AI?",
+            ans: "Yes, learners opting for an executive program in data science for leaders can opt for a hassle-free installment payment option. Here, experts joining live online sessions will pay INR 8,178/month, and for hybrid classes, it is INR 9,178/month.",
+            open: false,
+          },
+          {
+            id: 2,
+            ques: "Is there any scholarship/discount available for the Executive program in data science and AI?",
+            ans: "You can refer to the course website for information about scholarships or discounts available for the executive program in data science for managers.",
+            open: false,
+          },
+          {
+            id: 3,
+            ques: "What is the refund policy for the Executive program at Learnbay?",
+            ans: "We offer an effortless refund or cancellation policy for those who need to withdraw from the program. For further details, refer to Learnbay’s Refund/Cancellation Policy.",
+            linkText1: "Learnbay’s Refund/Cancellation Policy",
+            link1: "/refund-cancellation-policy",
+            ansAfter: "",
+            link: true,
+            open: false,
+          },
+        ],
+      },
+      {
+        id: 3,
+        sectionName: "Capstone and Real-Time Projects",
+        data: [
+          {
+            id: 0,
+            ques: "How many capstone projects will be there?",
+            ans: "Learners pursuing an executive data science course for managers and leaders must choose 2 capstone projects in their preferred domains.",
+            open: true,
+          },
+          {
+            id: 1,
+            ques: "Are there chances to work on real-time industry projects?",
+            ans: "Learners pursuing the executive program will get 10+ real-time industry projects to enrich their skills and attain proven success.",
+            open: false,
+          },
+          {
+            id: 2,
+            ques: "Can I choose my project for the capstone, or are projects assigned?",
+            ans: "Yes, experts joining the course can choose the projects best suited to their domain and career interests.",
+            open: false,
+          },
+        ],
+      },
+      {
+        id: 4,
+        sectionName: "Certification",
+        data: [
+          {
+            id: 0,
+            ques: "Is there any accredited certification after course completion?",
+            ans: "Yes, experts pursuing an executive data science course for managers will earn a globally recognized certificate of completion from E&ICT Academy.",
+            open: true,
+          },
+          {
+            id: 1,
+            ques: "Is there any accredited certification after project work?",
+            ans: "Yes, experts joining an executive program in data science for managers and leaders will receive add-on project certificates from IBM & Microsoft.",
+            open: false,
+          },
+        ],
+      },
+      {
+        id: 5,
+        sectionName: "Job Assistance",
+        data: [
+          {
+            id: 0,
+            ques: "What’s the eligibility for a job assistance program at Learnbay?",
+            ans: "Learners joining an executive program in data science for leaders must score a minimum of 70% in all the course tasks and projects to become eligible for the job assistance program.",
+            open: true,
+          },
+          {
+            id: 1,
+            ques: "How many interview calls will I get at Learnbay?",
+            ans: "At Learnbay, we offer unlimited interview calls. You can attend these interviews until you land a job with top MNCs.",
+            open: false,
+          },
+          {
+            id: 2,
+            ques: "Can I opt for the Career Service Pro feature?",
+            ans: "Yes, eligible learners with at least a 70% score can opt for the Career Services Pro feature. It includes –",
+            open: false,
+            list1:"Uninterrupted Job and Placement Support",
+            list2:"Complete access to course materials and resources",
+            list3:"1:1 Mock Interviews with any of 450+ Industry Experts ",
+            list4:"24/7 contact with Mentors",
+            list5:"Resume Building Session",
+            list6:"1:1 LinkedIn Review Session",
+            list7:"Dedicated Placement Team for soft skills training",
+            dscoursefaq1:true,
+          },
+          {
+            id: 3,
+            ques: "Do you offer job placement or job assistance services after course completion?",
+            ans: "Yes, Learnbay offers job placement services to eligible learners (anyone with 70% scores) after completing the course.",
+            open: false,
+          },
+        ],
+      },
+      {
+        id: 6,
+        sectionName: "Mentorship",
+        data: [
+          {
+            id: 0,
+            ques: "Until when will the Learnbay students get the facility of mentorship?",
 
-          //     `,
-          //   open: false,
-          // },
+            ans: "Our mentors will provide data science training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to specialized mentors for project and placement purposes.",
+            open: true,
+          },
+          {
+            id: 1,
+            ques: "Can a learner choose to study from their desired mentor?",
+
+            ans: "The executive program in data science for managers offers IIT faculty industry-paced training sessions. In this program, students work with experienced professionals.",
+            open: false,
+          },
+          {
+            id: 2,
+            ques: "Are mentors available for one-on-one sessions or group sessions?",
+            ans: "Yes, mentors are available for group training and one-on-one help anytime. They are here to make your learning easy.",
+          },
+          {
+            id: 3,
+            ques: "Are there mentors available to help with coursework and projects?",
+            ans: "Business managers and tech leaders will gain exclusive skills under the direct guidance of industry experts from MNCs. Learners will have dedicated coaching from mentors for coursework, job assistance programs, live projects, and 1:1 doubt clearing. You can reach mentors to resolve doubts while working on fresh capstone projects. ",
+            open: false,
+          },
+          {
+            id: 4,
+            ques: "What is the typical response time for mentor support?            ",
+            ans: "Our mentors are available to support queries of learners at any time (during and after the sessions). So, within 10-15 minutes, learners can get mentor support to resolve queries regarding coursework or projects.",
+            open: false,
+          },
+        ],
+      },
+      {
+        id: 7,
+        sectionName: "Support",
+        data: [
+          {
+            id: 0,
+            ques: "How can I reach out for technical support if I encounter any issues with the course platform?  ",
+
+            ans: "After enrolling in the course, you are open to use 24x7 learner’s support to resolve any query. Call the helpline to connect with service providers who can assist you with any technical problems on the course platform.",
+            open: true,
+          },
+          {
+            id: 1,
+            ques: "Is there a discussion forum or community for students?              ",
+            ans: "Learners will get access to a customized ‘Learnbay App’ where batch-wise students are added along with their mentors. They can directly reach out to their mentors to resolve queries (related to coursework, projects, & placement) in case of need and also discuss doubts with peers.               ",
+            open: false,
+          },
+          {
+            id: 2,
+            ques: "Is there a discussion forum or community for students to interact and seek help?",
+            ans: "Learnbay offers live-instructor-led training sessions that are also recorded for future use. In case, you miss a class, you have access to pre-recorded sessions to go through the learnings. If you wish to catch up on a topic or clarify some doubts, our mentors are available 24/7 on call/chat. Apart from this, if you find difficulties in managing your class timings and miss them, you can request for batch or timing change.               ",
+            open: false,
+          },
+          {
+            id: 3,
+            ques: "How long will I get Job referrals?",
+            ans: "You will be provided with job assistance after the completion of the course for 1 year.",
+            open: false,
+          },
         ],
       },
     ],

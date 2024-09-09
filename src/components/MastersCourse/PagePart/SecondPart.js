@@ -107,7 +107,7 @@ const SecondPart = ({
         CutFee="₹ 3,25,000/-"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
-        FeeContent5="15 days refund policy"
+        FeeContent5="10 days refund policy"
         FeeContent6="No additional cost"
         dataScienceCounselling={true}
         // EMI POPUPDATA
