@@ -4,12 +4,14 @@ import Image from "next/image";
 import { FaRegUser } from "react-icons/fa";
 import Form from "@/components/Global/Form/Form";
 
-function DecisionSection() {
+function DecisionSection({noIIt}) {
   return (
     <section className={styles.container}>
       <div className="containerWidth">
         <div className={styles.innerDiv}>
-          <div className={styles.firstSection}>
+      {noIIt ? (<>
+      
+      <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/no_iit_mangers.webp" alt="data science" loading="lazy" width={350} height={300}/> </>):(    <div className={styles.firstSection}>
             <span>
               <FaRegUser className={styles.icon} /> 7,568 people filled
             </span>
@@ -23,7 +25,7 @@ function DecisionSection() {
                 interstedInHide={true}
               />
             </div>
-          </div>
+          </div>)}
           <div className={styles.secondSection}>
             <h2>
               Program <span>Summary</span>

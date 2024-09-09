@@ -1,18 +1,33 @@
 import { useEffect, useRef, useState } from "react";
-import Image from 'next/image'; // Import Next.js Image component
-import styles from './HeroSection.module.css';
+import Image from "next/image"; // Import Next.js Image component
+import styles from "./HeroSection.module.css";
+import Form from "@/components/Global/Form/Form";
+import { FaRegUser } from "react-icons/fa";
 
-function HeroSectionContent({ setPopups,spanTag, thumbnailurl }) {
+function HeroSectionContent({
+  setPopups,
+  spanTag,
+  thumbnailurl,
+  noIIt,
+  interstedInHide,
+  dataScienceCounselling,
+  upSkillingHide,
+}) {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
   const [showThumbnail, setShowThumbnail] = useState(true);
   const [lastScrollTop, setLastScrollTop] = useState(0);
+  const [counter, setCounter] = useState(1568); 
   const videoRef = useRef(null);
   const iframeRef = useRef(null);
 
-  const handleVideoPlay = ({}) => {
+  // Handle Video Play/Pause
+  const handleVideoPlay = () => {
     if (isVideoPlaying) {
       if (iframeRef.current && iframeRef.current.contentWindow) {
-        iframeRef.current.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+        iframeRef.current.contentWindow.postMessage(
+          '{"event":"command","func":"pauseVideo","args":""}',
+          "*"
+        );
       }
       setIsVideoPlaying(false);
     } else {
@@ -22,11 +37,13 @@ function HeroSectionContent({ setPopups,spanTag, thumbnailurl }) {
   };
 
   useEffect(() => {
-    let width = window.innerWidth;
-    if (width < 641) {
-      setMobile(true);
-    }
+    const incrementCounter = setInterval(() => {
+      setCounter((prevCounter) => Math.min(prevCounter + 20, 7568));
+    }, 1);
 
+    return () => clearInterval(incrementCounter);
+  }, []);
+  useEffect(() => {
     const handleScroll = () => {
       const threshold = 300;
       const scrollY = window.scrollY;
@@ -34,14 +51,19 @@ function HeroSectionContent({ setPopups,spanTag, thumbnailurl }) {
       const isScrollingUp = scrollDirection === "up";
       const isBeyondThreshold = scrollY <= threshold;
 
-      if (!isScrollingUp && iframeRef.current && iframeRef.current.contentWindow) {
-        iframeRef.current.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+      if (
+        !isScrollingUp &&
+        iframeRef.current &&
+        iframeRef.current.contentWindow
+      ) {
+        iframeRef.current.contentWindow.postMessage(
+          '{"event":"command","func":"pauseVideo","args":""}',
+          "*"
+        );
         setIsVideoPlaying(false);
       }
 
-      setShowThumbnail(
-        isBeyondThreshold || (isScrollingUp && !isVideoPlaying)
-      );
+      setShowThumbnail(isBeyondThreshold || (isScrollingUp && !isVideoPlaying));
 
       setLastScrollTop(scrollY);
     };
@@ -57,7 +79,7 @@ function HeroSectionContent({ setPopups,spanTag, thumbnailurl }) {
     setPopups(true);
   };
 
-  return ( 
+  return (
     <section className={styles.mainBg}>
       <div className={styles.container}>
         <div className="containerWidth">
@@ -65,7 +87,7 @@ function HeroSectionContent({ setPopups,spanTag, thumbnailurl }) {
             <div className={styles.firstSection}>
               <h5>{spanTag}</h5>
               <h1>
-                Executive Program in Data Science & AI for{' '}
+                Executive Program in Data Science & AI for{" "}
                 <span className={styles.span}>Managers and Leaders</span>
               </h1>
               <div className={styles.starDivSection}>
@@ -76,7 +98,7 @@ function HeroSectionContent({ setPopups,spanTag, thumbnailurl }) {
                     width={59}
                     height={72}
                     loading="lazy"
-                    placeholder="blur" 
+                    placeholder="blur"
                     blurDataURL="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/hero_brain.webp"
                   />
                   <p>Curriculum Inclusive of Gen-AI</p>
@@ -95,42 +117,63 @@ function HeroSectionContent({ setPopups,spanTag, thumbnailurl }) {
                 </div>
               </div>
               <div className={styles.btnDiv}>
-                <div className={styles.outlineButton} onClick={popupShow}>DOWNLOAD SYLLABUS</div>
-                <div className={styles.orangeButton } onClick={popupShow}>START MY APPLICATION</div>
+                <div className={styles.outlineButton} onClick={popupShow}>
+                  DOWNLOAD SYLLABUS
+                </div>
+                <div className={styles.orangeButton} onClick={popupShow}>
+                  START MY APPLICATION
+                </div>
               </div>
             </div>
-            <div className={styles.secondSection} onClick={handleVideoPlay}>
-              <div className={styles.videoContainer}>
-                {showThumbnail ? (
-                  <div className={styles.videoThumbnail}>
-                    <Image
-                      src={thumbnailurl}
-                      alt="Video Thumbnail"
-                      width={684}
-                      height={450}
-                      className={styles.clickableImage}
+            {noIIt ? (
+              <div className={styles.formdiv}>
+                <span className={styles.fill}>
+                  <FaRegUser className={styles.icon} /> {counter} people filled
+                </span>
+                <h3>
+                  Check Your <span className={styles.span}>Eligibility</span>
+                </h3>
+                <Form
+                  dataScienceCounselling={dataScienceCounselling}
+                  upSkillingHide={upSkillingHide}
+                  interstedInHide={interstedInHide}
+                />
+              </div>
+            ) : (
+              <div className={styles.secondSection} onClick={handleVideoPlay}>
+                <div className={styles.videoContainer}>
+                  {showThumbnail ? (
+                    <div className={styles.videoThumbnail}>
+                      <Image
+                        src={thumbnailurl}
+                        alt="Video Thumbnail"
+                        width={684}
+                        height={450}
+                        className={styles.clickableImage}
+                        loading="lazy"
+                        placeholder="blur"
+                        blurDataURL="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/first_yt_thumb.webp"
+                      />
+                      <div className={styles.playButton} />{" "}
+                      {/* Add a play button overlay */}
+                    </div>
+                  ) : (
+                    <iframe
+                      ref={iframeRef}
+                      width="480"
+                      height="350"
+                      src="https://www.youtube.com/embed/6Lr-sJLQ100?enablejsapi=1&autoplay=1"
+                      title="YouTube video player"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowFullScreen
+                      className={styles.videoIframe}
                       loading="lazy"
-                      placeholder="blur"
-                      blurDataURL="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/first_yt_thumb.webp"
-                    />
-                    <div className={styles.playButton} /> {/* Add a play button overlay */}
-                  </div>
-                ) : (
-                  <iframe
-                    ref={iframeRef}
-                    width="480"
-                    height="350"
-                    src="https://www.youtube.com/embed/6Lr-sJLQ100?enablejsapi=1&autoplay=1"
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowFullScreen
-                    className={styles.videoIframe}
-                    loading="lazy"
-                  ></iframe>
-                )}
+                    ></iframe>
+                  )}
+                </div>
               </div>
-            </div>
+            )}
           </div>
         </div>
       </div>

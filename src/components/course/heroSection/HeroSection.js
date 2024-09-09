@@ -16,7 +16,8 @@ const HeroSection = ({
   downloadBrochure,
   dataScienceGeneric,
   spanTag,
-  thumbnailurl
+  thumbnailurl,
+  noIIt 
 }) => {
 
   const [popups, setPopups] = useState(false);
@@ -46,6 +47,8 @@ const HeroSection = ({
         upSkillingHide={upSkillingHide}
         dataScienceCounselling={dataScienceCounselling}
         radio={radio}
+        noIIt ={noIIt}
+      
       />
     </div>
   );
