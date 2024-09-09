@@ -1,8 +1,8 @@
 import Head from "next/head";
 import { parseJSONData } from "@/Util/JsonConvertor";
-import FirstPart from "@/components/CoursePage/FirstPart/ManagersFirstPart";
-import SecondPart from "@/components/CoursePage/FirstPart/ManagersSecondPart";
 import Navbar from "@/components/Global/Navbar/Navbar";
+import ExecutiveFirstPartmanagers from "@/components/CoursePage/FirstPart/ExecutiveFirstPartmanagers";
+import ExecutiveSecondPartMangers from "@/components/CoursePage/FirstPart/ExecutiveSecondPartMangers";
 
 
 function Blockchain({ DataScienceCourseDataJson }) {
@@ -69,30 +69,24 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
       </Head>
       <main>
-        <Navbar dataScienceCounselling={true} interstedInHide={true} />
+        {/* <Navbar dataScienceCounselling={true} interstedInHide={true} /> */}
       
-        <FirstPart
+        {/* <FirstPart
           SecondSectionData={
             DataScienceCourseData.DataScienceCourseData[0].secondSection
           }
           TestimonialData={
             DataScienceCourseData.DataScienceCourseData[0].testimonial
           }
-        />
+          
+        /> */}
+      <ExecutiveFirstPartmanagers/>
       </main>
       <main>
-        <SecondPart
-          masterSyllabusMobile={
-            DataScienceCourseData.DataScienceCourseData[0].masterSyllabusMobile
-          }
-          CertificateData={
-            DataScienceCourseData.DataScienceCourseData[0].Certificate
-          }
-          projectSection={
-            DataScienceCourseData.DataScienceCourseData[0].projectSection
-          }
-          FAQNewData={DataScienceCourseData.DataScienceCourseData[0].faq}
-        />
+
+      <ExecutiveSecondPartMangers sections={DataScienceCourseData.DataScienceCourseData[0].sections}
+          FAQNewData={DataScienceCourseData.DataScienceCourseData[0].faq}/>
+      
       </main>
     </>
   );
