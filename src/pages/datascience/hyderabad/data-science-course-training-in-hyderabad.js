@@ -84,7 +84,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Are you searching for the best data science courses online in Hyderabad? Learnbay is providing the best online data science course training in Hyderabad. Visit now."
+          content="Master In-Demand Skills With Learnbay's Data Science Course In Hyderabad. Get Expert-Led Training, Dual Certifications, And Hands-On Project Experience."
         />
         <meta
           name="keywords"
@@ -102,7 +102,7 @@ export default function Home() {
         <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Data science course in Chennai. Learnbay is Advanced Data Science Course Training Institute in Hyderabad. Data science course in Hyderabad will enhance your career"
+          content="Master In-Demand Skills With Learnbay's Data Science Course In Hyderabad. Get Expert-Led Training, Dual Certifications, And Hands-On Project Experience."
         />
         <meta
           property="og:image"
@@ -119,11 +119,11 @@ export default function Home() {
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           itemProp="description"
-          content="Data science course in Hyderabad. Learnbay is Advanced Data Science Course Training Institute in Hyderabad. Data science course in Hyderabad will enhance your career"
+          content="Master In-Demand Skills With Learnbay's Data Science Course In Hyderabad. Get Expert-Led Training, Dual Certifications, And Hands-On Project Experience."
         />
         <meta
           name="twitter:description"
-          content="Data science course in Hyderabad. Learnbay is Advanced Data Science Course Training Institute in Hyderabad. Data science course in Hyderabad will enhance your career"
+          content="Master In-Demand Skills With Learnbay's Data Science Course In Hyderabad. Get Expert-Led Training, Dual Certifications, And Hands-On Project Experience."
         />
         <meta
           name="twitter:image"
