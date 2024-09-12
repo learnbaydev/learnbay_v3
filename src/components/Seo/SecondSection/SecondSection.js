@@ -12,7 +12,7 @@ function SecondSection({ SecondSectionData }) {
               src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/sec1.webp"
               width="35"
               height="35"
-              priority={true}
+           loading="lazy"
               alt="data science course"
             />
           </div>{" "}
@@ -26,7 +26,7 @@ function SecondSection({ SecondSectionData }) {
               src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/sec2.webp"
               width="35"
               height="35"
-              priority={true}
+           loading="lazy"
               alt="data science course"
             />
           </div>{" "}
@@ -40,7 +40,7 @@ function SecondSection({ SecondSectionData }) {
               src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/sec3.webp"
               width="35"
               height="35"
-              priority={true}
+           loading="lazy"
               alt="data science course"
             />
           </div>{" "}
@@ -54,7 +54,7 @@ function SecondSection({ SecondSectionData }) {
               src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/sec4.webp"
               width="35"
               height="35"
-              priority={true}
+           loading="lazy"
               alt="data science course"
             />
           </div>{" "}

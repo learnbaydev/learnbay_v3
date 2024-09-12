@@ -35,7 +35,7 @@ function SecondSection({ SecondSectionData }) {
               src={feature.src}
               width="35"
               height="35"
-              priority={true}
+              loading="lazy"
               alt={feature.alt}
             />
           </div>

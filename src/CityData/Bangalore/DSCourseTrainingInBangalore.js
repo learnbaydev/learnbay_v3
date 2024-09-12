@@ -894,18 +894,23 @@ export const DSBangaloreCourseData = [
     ProjectsH2: "IBM HR Analytics",
     Projectsp2:
       "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other Data science abilities.",
-    src3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/amazon1.png",
+      alt2:"Samsung",
+      src3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/amazon1.png",
     ProjectsH3: "Amazon Customer Review Analysis",
+    alt4:"Amazon",
     Projectsp3:
       "Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can participate in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach.",
-    src4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BMW.png",
+      alt3:"Amazon",
+      src4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BMW.png",
     ProjectsH4: "BMW Used Car Price Optimization",
+    alt5:"BMW",
     Projectsp4:
       "BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects.",
     AlumniBot1:
       "Learnbay has emplaced thousands of Data science aspirants in top Startups and MNCs. Students have started working in their careers as Data scientists and have completed their course from Learnbay data science training in Bangalore.",
     Asrc1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/devraj.jpg",
     AlumniH1: "Deveraj",
+    
     Alumnip1:
       "The quality of the content is very nice. What I liked the most was mainly the instructor concentrating on the practical part, live project sessions make you feel confident to attend interviews. Multiple batch options, access for any instructor class videos or materials. The totally positive environment around.",
     Asrc2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/shezan.png",
@@ -918,6 +923,7 @@ export const DSBangaloreCourseData = [
       "For me, learning using the Learnbay platform has been a great experience. The teaching and management team are very helpful. They are constantly willing to clarify each individual's doubts and meet the needs of working professionals. The practice interview sessions were simply like a clone of MNC interviews.",
     Asrc4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/shubhangi.png",
     AlumniH4: "Shubhangi J. Waghmare ",
+    alt9:"data science course in Bangalore",
     Alumnip4:
       "The best in Industry offerings from both cost and curriculum wise. One advantage of joining here is you can access their resources for a lifetime, unlike others where you have accessibility only for a year or so. Most importantly, there is continuous assistance for recruitment.",
   },

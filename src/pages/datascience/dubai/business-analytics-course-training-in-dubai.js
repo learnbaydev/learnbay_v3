@@ -73,7 +73,7 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
-      const pdfUrl = "/Brochure/Business-Analytics-Program.pdf"
+  const pdfUrl = "/Brochure/Business-Analytics-Program.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -179,16 +179,16 @@ export default function Home() {
             Fee="₹ 95,000"
             FeeEmi="₹ 6,228/month"
             weekdaybatch="Weekday Batch"
-            weekendbatch="Weekday Batch"
+            weekendbatch="Weekend Batch"
             weekday="MON-FRI"
-            weekend="MON-FRI"
-            WeekdayDate="Sept 15th"
-            WeekendDate="August 9th"
-            WeekendTime="8.00 PM - 10.00 PM"
-            WeekdayTime="8.00 AM - 10.00 AM"
+            weekend="SAT- SUN"
+            WeekdayDate=" Oct 18th"
+            WeekendDate="Sept 15th"
+            WeekendTime="9:30 AM - 1:00 PM"
+            WeekdayTime="8:00 PM - 10:30 PM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
-            FeeContent5="15 days refund policy"
+            FeeContent5="10 days refund policy"
             FeeContent6="No additional cost"
             dataScienceCounselling={true}
             interstedInHide={true}

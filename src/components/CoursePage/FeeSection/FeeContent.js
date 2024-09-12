@@ -57,10 +57,171 @@ const FeeContent = ({
   return (
     <div className={styles.feesmain}>
       <h2>Fee & Batch Details</h2>
-      <p className={styles.pTop}>
+      {/* <p className={styles.pTop}>
         Invest in your future with affordable program fees and flexible batch
         options
-      </p>
+      </p> */}
+
+      {/* <div className={styles.mainContainer}>
+        <div className={styles.innerMainContainer}>
+          <div className={styles.innerContainer}>
+            <div className={styles.firstContainer}>
+              <div className={styles.headContent}>
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/camera-3d.webp"
+                  alt="Zest"
+                  width="123"
+                  height="125"
+                  loading="lazy"
+                  quality={40}
+                />
+                <h4>Live online classes</h4>
+              </div>
+              <div className={styles.iconDiv}>
+                <div className={styles.innerIconDiv}>
+                  <Image
+                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/live_3d.webp"
+                    alt="Zest"
+                    width="100"
+                    height="103"
+                    loading="lazy"
+                    quality={40}
+                  />
+                  <p className={styles.iconContent}>
+                    Live online interactive sessions
+                  </p>
+                </div>
+                <div className={styles.innerIconDiv}>
+                  <Image
+                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/1_1_3d.webp"
+                    alt="Zest"
+                    width="100"
+                    height="103"
+                    loading="lazy"
+                    quality={40}
+                  />
+                  <p className={styles.iconContent}>
+                    1:1 online Doubt Session with experts
+                  </p>
+                </div>
+                <div className={styles.innerIconDiv}>
+                  <Image
+                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Capston_3d.webp"
+                    alt="Zest"
+                    width="100"
+                    height="103"
+                    loading="lazy"
+                    quality={40}
+                  />
+                  <p className={styles.iconContent}>Online Capstone projects</p>
+                </div>
+                <div className={styles.innerIconDiv}>
+                  <Image
+                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/virtual_3d.webp"
+                    alt="Zest"
+                    width="100"
+                    height="103"
+                    loading="lazy"
+                    quality={40}
+                  />
+                  <p className={styles.iconContent}>Virtual  Mock interviews</p>
+                </div>
+              </div>
+            </div>
+            <div className={styles.secondContainer}>
+              <div className={styles.headContent}>
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/hybrid_3d.webp"
+                  alt="Zest"
+                  width="123"
+                  height="125"
+                  loading="lazy"
+                  quality={40}
+                />
+                <h4>Hybrid Classes</h4>
+              </div>
+              <div className={styles.divHeadIcon}>
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/camera-3d.webp"
+                  alt="Zest"
+                  width="100"
+                  height="103"
+                  loading="lazy"
+                  quality={40}
+                />
+                <h4>Live online classes</h4>
+              </div>
+              <p className={styles.fadedText}>with</p>
+              <div className={styles.iconDiv}>
+                <div className={styles.innerIconDiv}>
+                  <Image
+                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/offline_3d.webp"
+                    alt="Zest"
+                    width="100"
+                    height="103"
+                    loading="lazy"
+                    quality={40}
+                  />
+                  <p className={styles.iconContent}>
+                    Offline 1:1 classroom doubt sessions on weekends
+                  </p>
+                </div>
+                <div className={styles.innerIconDiv}>
+                  <Image
+                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/mock_3d.webp"
+                    alt="Zest"
+                    width="100"
+                    height="103"
+                    loading="lazy"
+                    quality={40}
+                  />
+                  <p className={styles.iconContent}>
+                    Offline Mock Interviews with 3-5 members panel
+                  </p>
+                </div>
+              </div>
+              <div className={styles.innerIconDiv}>
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/offMap_3d.webp"
+                  alt="Zest"
+                  width="100"
+                  height="103"
+                  loading="lazy"
+                  quality={40}
+                />
+                <p className={styles.iconContent}>
+                  Offline Classroom Capstone projects with experts in{" "}
+                  <b>Pune, Delhi, Bangalore, Chennai, Hydrabad and Mumbai</b>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className={styles.feeSectionContainer}>
+            <div className={styles.feeContentContainer}>
+              <p>Pay in easy EMIs starting as low as</p>
+              <h4>₹ 8,178/ month</h4>
+            </div>
+            <div className={styles.emiButton} onClick={openEmiPopup}>
+              <Button text="Check EMI Options" />
+            </div>
+            <div className={styles.feeContentContainer}>
+              <p>Pay in easy EMIs starting as low as</p>
+              <h4>₹ 8,178/ month</h4>
+            </div>
+          </div>
+          <div className={styles.paymentPartner}>
+            <p>Payment Partners</p>
+            <Image
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Pay_partner.webp"
+              alt="Zest"
+              width="370"
+              height="36"
+              loading="lazy"
+              quality={40}
+            />
+          </div>
+        </div>
+      </div> */}
 
       <div className={styles.ThreeCard}>
         <div className={styles.first}>
@@ -188,6 +349,7 @@ const FeeContent = ({
         
         </div>
       </div>
+
       {/* Emi Popup */}
       <Modal
         isOpen={emiPopupIsOpen}

@@ -1040,6 +1040,11 @@
   align-items: center;
   width: 100%;
 }
+.btnWrapper span {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
 .btnLine {
   border: 0px;
   border-left: 1px solid #676767;

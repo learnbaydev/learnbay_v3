@@ -80,7 +80,7 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
-    const pdfUrl = "/Brochure/Business-Analytics-Program.pdf"
+  const pdfUrl = "/Brochure/Business-Analytics-Program.pdf";
   return (
     <div>
       <LJourney />
@@ -99,17 +99,17 @@ const SecondPart = ({
       <FeeSection
         Fee="₹ 95,000"
         FeeEmi="₹ 6,228/month"
-       weekdaybatch="Weekday Batch"
+        weekdaybatch="Weekday Batch"
         weekendbatch="Weekend Batch"
         weekday="MON-FRI"
         weekend="SAT- SUN"
-        WeekdayDate=" August 9th"
+        WeekdayDate=" Oct 18th"
         WeekendDate="Sept 15th"
-        WeekendTime="9.30 AM - 1.00 PM"
-        WeekdayTime="8.00 AM - 10.00 AM"
+        WeekendTime="9:30 AM - 1:00 PM"
+        WeekdayTime="8:00 PM - 10:30 PM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
-        FeeContent5="15 days refund policy"
+        FeeContent5="10 days refund policy"
         FeeContent6="No additional cost"
         dataScienceCounselling={true}
         interstedInHide={true}

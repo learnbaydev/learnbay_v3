@@ -76,7 +76,7 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
-   const pdfUrl = "/Brochure/AWS.pdf"
+  const pdfUrl = "/Brochure/AWS.pdf";
   return (
     <div style={{ marginTop: "50px" }}>
       <LJourney />
@@ -97,17 +97,17 @@ const SecondPart = ({
         adsHide={adsHide}
         Fee=" ₹ 50,000"
         FeeEmi="₹ 3,277/month"
-      weekdaybatch="Weekend Batch"
+        weekdaybatch="Weekend Batch"
         weekendbatch="Weekday Batch"
         weekday="SAT - SUN"
         weekend="MON - FRI"
         WeekdayDate="August 31st"
-        WeekendDate=" August 23rd"
+        WeekendDate=" 11th October"
         WeekendTime="8:00 PM - 10:00 PM"
         WeekdayTime="9:30 AM - 1 PM"
         FeeContent3="Flexible payment"
         FeeContent4="Easy loan procedure"
-        FeeContent5="15 days refund policy"
+        FeeContent5="10 days refund policy"
         FeeContent6="No additional cost"
         dataScienceCounselling={true}
         // interstedInHide={interstedInHide}
