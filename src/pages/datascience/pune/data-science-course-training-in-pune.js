@@ -83,7 +83,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Enroll in Learnbay's proven GenAI-rich data science course in Pune to escalate competitive success with 100% placement assistance. Visit now."
+          content="Learnbay's Proven GenAI-Rich Data Science Course In Pune Has Escalated Competitive Success With 100% Placement Assistance. Join Now!"
         />
         <meta
           name="keywords"
@@ -101,7 +101,7 @@ export default function Home() {
         <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Data science course in pune. Learnbay is Advanced Data Science Course Training Institute in pune. Data science course in pune will enhance your career"
+          content="Learnbay's Proven GenAI-Rich Data Science Course In Pune Has Escalated Competitive Success With 100% Placement Assistance. Join Now!"
         />
         <meta
           property="og:image"
@@ -118,11 +118,11 @@ export default function Home() {
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           itemProp="description"
-          content="Data science course in Chennai. Learnbay is Advanced Data Science Course Training Institute in Chennai. Data science course in Chennai will enhance your career"
+          content="Learnbay's Proven GenAI-Rich Data Science Course In Pune Has Escalated Competitive Success With 100% Placement Assistance. Join Now!"
         />
         <meta
           name="twitter:description"
-          content="Data science course in Chennai. Learnbay is Advanced Data Science Course Training Institute in Chennai. Data science course in Chennai will enhance your career"
+          content="Learnbay's Proven GenAI-Rich Data Science Course In Pune Has Escalated Competitive Success With 100% Placement Assistance. Join Now!"
         />
         <meta
           name="twitter:image"
@@ -164,8 +164,7 @@ export default function Home() {
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Enroll for Data Science Course and Certification Training in Pune from Learnbay in association with IBM. This Data Scientist course in Pune will give you hands-on experience with technologies and job assistance.
-"
+          content="Learnbay's Proven GenAI-Rich Data Science Course In Pune Has Escalated Competitive Success With 100% Placement Assistance. Join Now!"
         />
         <meta
           property="og:image"
@@ -182,13 +181,11 @@ export default function Home() {
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           itemProp="description"
-          content="Enroll for Data Science Course and Certification Training in Pune from Learnbay in association with IBM. This Data Scientist course in Pune will give you hands-on experience with technologies and job assistance.
-"
+          content="Learnbay's Proven GenAI-Rich Data Science Course In Pune Has Escalated Competitive Success With 100% Placement Assistance. Join Now!"
         />
         <meta
           name="twitter:description"
-          content="Enroll for Data Science Course and Certification Training in Pune from Learnbay in association with IBM. This Data Scientist course in Pune will give you hands-on experience with technologies and job assistance.
-"
+          content="Learnbay's Proven GenAI-Rich Data Science Course In Pune Has Escalated Competitive Success With 100% Placement Assistance. Join Now!"
         />
         <meta
           name="twitter:image"

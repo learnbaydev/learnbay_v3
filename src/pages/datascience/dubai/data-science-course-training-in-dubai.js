@@ -81,7 +81,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Learnbay Offers Quality Data Science Training in Dubai with Flexible Scheduling, Hands-on Projects and One-To-One Mentorship. Sign-up Now to Master Data Science."
+          content="Master At Learnbay's Data Science Course In Dubai With Flexible Scheduling, Hands-On Projects, And Receive Personalised Mentorship. Enroll Now!"
         />
         <meta
           name="keywords"
@@ -99,7 +99,7 @@ export default function Home() {
         <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Data science course in Dubai. Learnbay is Advanced Data Science Course Training Institute in Dubai. Data science course in Dubai will enhance your career"
+          content="Master At Learnbay's Data Science Course In Dubai With Flexible Scheduling, Hands-On Projects, And Receive Personalised Mentorship. Enroll Now!"
         />
         <meta
           property="og:image"
@@ -116,11 +116,11 @@ export default function Home() {
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           itemProp="description"
-          content="Data science course in Dubai. Learnbay is Advanced Data Science Course Training Institute in Dubai. Data science course in Dubai will enhance your career"
+          content="Master At Learnbay's Data Science Course In Dubai With Flexible Scheduling, Hands-On Projects, And Receive Personalised Mentorship. Enroll Now!"
         />
         <meta
           name="twitter:description"
-          content="Data science course in Dubai. Learnbay is Advanced Data Science Course Training Institute in Dubai. Data science course in Dubai will enhance your career"
+          content="Master At Learnbay's Data Science Course In Dubai With Flexible Scheduling, Hands-On Projects, And Receive Personalised Mentorship. Enroll Now!"
         />
         <meta
           name="twitter:image"

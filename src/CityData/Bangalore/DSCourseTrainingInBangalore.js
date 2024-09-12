@@ -133,7 +133,7 @@ export const DSBangaloreCourseData = [
           name: "What are Data Science Training courses available at Learnbay in Bangalore?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Foundational Data Science Training Course, Advance Data Science Certification Course, Data Science Certification Course for Managers and Leaders, Data Science Training with Placement Assistance.",
+            text: "Advanced Data Science Training Course, Advance Data Science Certification Course, Data Science Certification Course for Managers and Leaders, Data Science Training with Placement Assistance.",
           },
         },
         {

@@ -6637,7 +6637,7 @@ const CitiesRight = ({
                     height={250}
                     loading="lazy"
                     src={src}
-                    alt={alt1}
+                    alt="Learnbay - Sample IBM Certification Course"
                   />
                 ) : null}
                 {certificate2 ? (
@@ -6647,14 +6647,14 @@ const CitiesRight = ({
                       height={250}
                       loading="lazy"
                       src={src}
-                      alt={alt1}
+                      alt="Learnbay - Sample IBM Certification Course"
                     />
                     <Image
                       width={350}
                       height={250}
                       loading="lazy"
                       src={src22}
-                      alt={alt1}
+                      alt="Learnbay - Sample Microsoft Certificate Course"
                     />
                   </>
                 ) : null}
@@ -6665,23 +6665,22 @@ const CitiesRight = ({
                       height={250}
                       loading="lazy"
                       src={src}
-                      alt={alt1}
+                      alt="Learnbay - Sample IBM Certification Course"
                     />
                     <Image
                       width={350}
                       height={250}
                       loading="lazy"
                       src={src22}
-                      alt={alt1}
+                      alt="Learnbay - Sample IBM Certification Course"
                     />
                     <Image
                       width={350}
                       height={250}
                       loading="lazy"
                       src={src33}
-                      alt={alt1}
+                              alt="Learnbay - Sample Microsoft Certificate Course"
                     />
-                   
                   </>
                 ) : null}
               </div>
@@ -7157,7 +7156,13 @@ const CitiesRight = ({
           <div className={styles.ProjectsBot}>
             <div className={styles.ProjectsBotHead}>
               <div className={styles.ProjectsBotI}>
-                <Image width={90} height={50} loading="lazy" src={src1} alt={alt2}/>
+                <Image
+                  width={90}
+                  height={50}
+                  loading="lazy"
+                  src={src1}
+                  alt={alt2}
+                />
                 <p className={styles.ppp}>{ProjectsH1}</p>
               </div>
               <p className={styles.pp}>{Projectsp1}</p>
@@ -7166,7 +7171,13 @@ const CitiesRight = ({
           <div className={styles.ProjectsBot}>
             <div className={styles.ProjectsBotHead}>
               <div className={styles.ProjectsBotI}>
-              <Image width={90} height={50} loading="lazy" src={src2} alt={alt3}/>
+                <Image
+                  width={90}
+                  height={50}
+                  loading="lazy"
+                  src={src2}
+                  alt={alt3}
+                />
 
                 <p className={styles.ppp}>{ProjectsH2}</p>
               </div>
@@ -7178,7 +7189,13 @@ const CitiesRight = ({
           <div className={styles.ProjectsBot}>
             <div className={styles.ProjectsBotHead}>
               <div className={styles.ProjectsBotI}>
-              <Image width={90} height={50} loading="lazy" src={src3} alt={alt4}/>
+                <Image
+                  width={90}
+                  height={50}
+                  loading="lazy"
+                  src={src3}
+                  alt={alt4}
+                />
                 <p className={styles.ppp}>{ProjectsH3}</p>
               </div>
               <p className={styles.pp}>{Projectsp3}</p>
@@ -7187,7 +7204,13 @@ const CitiesRight = ({
           <div className={styles.ProjectsBot}>
             <div className={styles.ProjectsBotHead}>
               <div className={styles.ProjectsBotI}>
-              <Image width={90} height={50} loading="lazy" src={src4} alt={alt5}/>
+                <Image
+                  width={90}
+                  height={50}
+                  loading="lazy"
+                  src={src4}
+                  alt={alt5}
+                />
                 <p className={styles.ppp}>{ProjectsH4}</p>
               </div>
               <p className={styles.pp}>{Projectsp4}</p>
@@ -7227,24 +7250,48 @@ const CitiesRight = ({
         </div>
         <div className={styles.Alumni}>
           <div className={styles.AlumniBot}>
-            <Image width={100} height={100} loading="lazy" src={Asrc1}  alt='alumni'/>
+            <Image
+              width={100}
+              height={100}
+              loading="lazy"
+              src={Asrc1}
+              alt="alumni"
+            />
             <p className={styles.ppa}>{AlumniH1}</p>
             <p className={styles.pp}>{Alumnip1}</p>
           </div>
           <div className={styles.AlumniBot}>
-          <Image width={100} height={100} loading="lazy" src={Asrc2}  alt='alumni'/>
+            <Image
+              width={100}
+              height={100}
+              loading="lazy"
+              src={Asrc2}
+              alt="alumni"
+            />
             <p className={styles.ppa}>{AlumniH2}</p>
             <p className={styles.pp}>{Alumnip2}</p>
           </div>
         </div>
         <div className={styles.Alumni1}>
           <div className={styles.AlumniBot}>
-          <Image width={100} height={100} loading="lazy" src={Asrc3} alt='alumni'/>
+            <Image
+              width={100}
+              height={100}
+              loading="lazy"
+              src={Asrc3}
+              alt="alumni"
+            />
             <p className={styles.ppa}>{AlumniH3}</p>
             <p className={styles.pp}>{Alumnip3}</p>
           </div>
           <div className={styles.AlumniBot}>
-          <Image width={100} height={100} loading="lazy" src={Asrc4} alt='alumni'/>
+            <Image
+              width={100}
+              height={100}
+              loading="lazy"
+              src={Asrc4}
+              alt="alumni"
+            />
             <p className={styles.ppa}>{AlumniH4}</p>
             <p className={styles.pp}>{Alumnip4}</p>
           </div>
