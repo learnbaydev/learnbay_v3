@@ -3,12 +3,12 @@ import "@/styles/Button.css";
 import Script from "next/script";
 import { useEffect } from "react";
 import TagManager from "react-gtm-module";
-import { Raleway } from "next/font/google";
+import { Georama } from "next/font/google";
 import { PopupProvider, usePopup } from "../context/PopupContext";
 import Popup from "../components/Popup/Popup";
 import { useRouter } from "next/router";
 
-const raleway = Raleway({
+const georama = Georama({
   weight: ["300", "400", "500", "600", "700", "800"],
   style: ["normal", "italic"],
   subsets: ["latin"],
@@ -26,7 +26,7 @@ const App = ({ Component, pageProps }) => {
 
   return (
     <PopupProvider>
-      <main className={raleway.className}>
+      <main className={georama.className}>
         <Script
           strategy="lazyOnload"
           onError={(err) => {

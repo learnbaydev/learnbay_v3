@@ -1,5 +1,16 @@
-/* Add this to your CSS */
-@keyframes slideUp {
+.popupOverlay {
+  position: fixed;
+  bottom: 0; /* Align to the bottom */
+  left: 0; /* Align to the left */
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: flex-end; /* Align items to the bottom */
+  justify-content: flex-start; /* Align items to the left */
+  z-index: 1000;
+}
+/* @keyframes slideUp {
   from {
     transform: translateY(100%);
     opacity: 0;
@@ -8,213 +19,202 @@
     transform: translateY(0);
     opacity: 1;
   }
-}
+} */
 
-.popupOverlay {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: auto;
-  height: auto;
-  display: flex;
-  justify-content: flex-start; /* Align to the left */
-  align-items: flex-end; /* Align to the bottom */
-  z-index: 99999;
-}
 
 .popupContainer {
+  background-color: white;
+  width: 500px;
+  max-width: 90%;
+  overflow: hidden;
   position: relative;
-  bottom: -50px;
-  animation: slideUp 0.5s ease-out; /* Apply the animation */
-  width: 550px;
+  border-radius: 24px;
+  background: #0a0b0b;
+  margin: 20px; /* Add some margin to keep it away from the edge */
 }
 
 .close {
   position: absolute;
-  top: 0;
-  right: 40px;
+  top: 10px;
+  right: 15px;
+  font-size: 26px;
   cursor: pointer;
-  font-size: 40px;
-  z-index: 9999;
-  color: #fff;
 }
-
 .close:hover {
-  color: #fe7a36;
+  color:#0383FF;
 }
 
-.popupImage {
-  width: 100%;
-  height: auto;
-  position: relative;
-  z-index: 999;
-}
-
-.popUpdown {
-  background: #ececec;
-  position: relative;
-  top: -45px;
-  width: 95%;
-  border-radius: 0;
-  padding-bottom: 20px;
-}
-
-.popupdivHead {
-  margin-left: 50px;
-  padding: 20px 0px 0px 0px;
-}
-
-.popupdivHead h4 {
-  color: #5c5a5a;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 126.5%; /* 15.18px */
-}
-
-.iconDiv {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  text-align: center;
-}
-
-.iconMain {
+.mainDiv {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  margin-top: 20px;
 }
 
-.icons {
-  border-radius: 5px;
-  background: rgba(254, 122, 54, 0.2);
-  color: #fe7a36;
-  padding: 10px;
-  font-size: 40px;
-}
-
-.iconMain p {
-  margin: 0;
-  color: #000;
+.whiteDiv {
+  background-color: white;
+  padding: 20px 20px 50px 20px;
   text-align: center;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 126.5%; /* 15.18px */
+  border-bottom: 2px solid #e0e0e0;
 }
 
-.popupdivHead h3 {
-  color: #fe7a36;
-  font-size: 20px;
+.whiteDiv h3 {
+  color: #353535;
+  text-align: center;
+  font-size: 38.882px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 160%;
+  letter-spacing: -0.259px;
+}
+
+.gradientDiv {
+  background: linear-gradient(45deg, #0071bc81, #fe793673);
+  padding: 40px 20px;
+  color: white;
+  text-align: center;
+}
+
+.tagLine {
+  position: absolute;
+  top: 42%;
+  left: 24%;
+  transform: translate(-50%, -50%);
+  padding: 8px 30px;
+  border-top: 3px solid #0072BC;
+  border-left: 3px solid #0072BC;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transform: rotate(-6deg);
+  border-radius: 8px;
+  border-right: 3px solid #0072BC;
+  border-bottom: 3px solid #0072BC;
+  background: #022646;
+  box-shadow: 3px -5px 4.9px -3px rgba(0, 0, 0, 0.45);
+}
+
+.OFF {
+  color: #353535;
+  font-size: 50.804px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: -0.578px;
+}
+
+.buttonDiv {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.buttonDiv button {
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 51px;
+  background: #0383FF;
+  font-size: 24px;
+}
+
+.buttonDiv button:hover {
+  background-color: #0381ffa9;
+}
+
+.offerText {
+  color: #FFF;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 126.5%; /* 22.77px */
+  letter-spacing: -0.18px;
+}
+
+.offerText span {
+  color: #FFF;
+  font-size: 25px;
   font-style: normal;
   font-weight: 700;
+  line-height: 126.5%; /* 27.83px */
+  letter-spacing: -0.22px;
+}
+
+.tagLine p {
+  color: #FFF;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 126.5%; /* 31.625px */
+  letter-spacing: -0.25px;
+  margin: 0;
+}
+
+.tagLine span {
+  color: #FFF;
+  font-style: italic;
+  font-weight: 700;
   line-height: 126.5%;
-  margin: 15px 0;
+  letter-spacing: -0.25px;
 }
 
-.btn {
-  position: relative;
-  display: inline-block;
-  border-radius: 10px;
-  border-right: 4px solid #094d79;
-  border-bottom: 4px solid #094d79;
-  background: #0072bc;
-  padding: 10px 40px;
-  font-size: 19px;
-  color: #fff;
-  cursor: pointer;
-  overflow: hidden;
-  transition: background-color 0.3s, transform 0.3s;
-}
-
-.btn:hover {
-  background-color: #005f9e;
-  transform: scale(1.05);
-}
-
-.btn::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    120deg,
-    transparent,
-    rgba(255, 255, 255, 0.4),
-    transparent
-  );
-  transform: skewX(-30deg);
-  transition: 0.5s;
-}
-
-.btn:hover::before {
-  animation: smoke 1s forwards;
-}
-.btndiv {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  margin: auto;
-}
-
-@keyframes smoke {
-  0% {
-    left: -100%;
+@media screen and (max-width:641px) {
+  .popupOverlay {
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
   }
-  100% {
-    left: 100%;
-  }
-}
-
-/* Media Queries for Mobile View */
-@media (max-width: 768px) {
+  
   .popupContainer {
-    bottom: 0;
-    margin-left: 21px;
-    bottom: 200px;
-    width: 100%;
+    width: 90%; /* Adjust width for mobile */
+    margin: 0; /* Remove margin for centering */
+    border-radius: 16px; /* Adjust border radius for mobile */
   }
 
-  .popupdivHead {
-    padding: 20px 0;
-  }
-
-  .popupdivHead h4 {
-    font-size: 18px;
-  }
-  .popUpdown {
-    border-radius: 16px;
-  }
-
-  .iconDiv {
-    gap: 10px;
-  }
-
-  .icons {
+  
+  .whiteDiv h3 {
     font-size: 30px;
-    padding: 5px;
   }
-
-  .iconMain p {
-    font-size: 16px;
+  .tagLine p {
+  font-size: 24px;
   }
-
-  .popupdivHead h3 {
-    font-size: 22px;
-    margin: 20px 0;
+  .tagLine {
+    left: 15%;
+    top: 40%;
   }
-
-  .btn {
-    padding: 10px 30px;
+  .offerText span {
+    font-size: 18px;
+  }
+  .offerText {
+    font-size: 18px;
+  }
+  .OFF {
+    font-size: 40px;
+  }
+  .buttonDiv button {
     font-size: 18px;
   }
 }
 
-@media (max-width: 400px) {
-  .popupContainer {
-    bottom: 70px;
+@media screen and (max-width:360px) {
+
+  .whiteDiv h3 {
+    font-size: 25px;
   }
+  .tagLine p {
+  font-size: 20px;
+  }
+  .tagLine {
+    left: 15%;
+    top: 40%;
+  }
+  .offerText span {
+    font-size: 14px;
+  }
+  .offerText {
+    font-size: 14px;
+  }
+  .OFF {
+    font-size: 36px;
+  }
+  .buttonDiv button {
+    font-size: 14px;
+  }
+
 }
