@@ -1,0 +1,50 @@
+.section{
+background: linear-gradient(180deg, #FFF 1.26%, #EFF3F6 17.6%, #EFF3F6 90.85%, #FFF 100%);
+padding: 20px;
+}
+
+
+
+.conteiner{
+
+width: 1350px;
+width: auto;
+
+
+
+
+}
+.tabMain {
+    border-radius: 20px;
+    background: #FFF;
+    display: flex;
+    width: 1200px;
+    padding: 20px;
+    align-items: center;
+justify-content: space-around;
+    gap: 20px;
+    
+    margin: auto;
+    
+}
+
+.tabMain p {
+    margin-top: 0;
+    color: #353535;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 126.5%; /* 31.625px */
+}
+
+
+.tabdiv{
+    border-radius: 10px;
+background: rgba(254, 122, 54, 0.10);
+padding: 10px;
+}
+
+
+.CourseCardHead{
+    background-color: red;
+}

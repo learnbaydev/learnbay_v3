@@ -14,6 +14,7 @@ import InfinityLogo from "@/components/Home/InfinityLogo/InfinityLogo";
 import KickStart from "@/components/Home/KickStartSection/KickStart";
 import ReviewSlider from "@/components/course/reviewSlider/reviewSlider";
 import WhyChooseSection from "@/components/Home/whyChooseSection/whyChooseSection";
+import NewCourse from "@/components/Home/NewCourse/NewCourse";
 const Course = dynamic(() => import("@/components/Home/Course/Course"));
 const WhyLearnbay = dynamic(() =>
   import("@/components/Home/WhyLearnbay/WhyLearnbay")
@@ -414,8 +415,9 @@ export default function Home() {
       />
       <InfinityLogo/>
       <KickStart/>
+      <NewCourse/>
 
-      <Course dataScience={true} radio={true} />
+      {/* <Course dataScience={true} radio={true} /> */}
 
 <WhyChooseSection/>
     
