@@ -130,6 +130,20 @@ overflow-x: scroll;
   font-size: 14px;
   margin: 10px 30px 15px 30px;
 }
+
+@media (max-width: 1180px) {
+
+
+  .container{
+    width: 94%;
+    gap: 30px;
+  }
+}
+
+
+
+
+
 /* @media (max-width: 641px) {
 
 .mainDiv {

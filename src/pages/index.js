@@ -10,6 +10,10 @@ import Head from "next/head";
 import { useMediaQuery } from "react-responsive";
 import { useEffect, useState } from "react";
 import Navbar from "../components/Global/Navbar/Navbar";
+import InfinityLogo from "@/components/Home/InfinityLogo/InfinityLogo";
+import KickStart from "@/components/Home/KickStartSection/KickStart";
+import ReviewSlider from "@/components/course/reviewSlider/reviewSlider";
+import WhyChooseSection from "@/components/Home/whyChooseSection/whyChooseSection";
 const Course = dynamic(() => import("@/components/Home/Course/Course"));
 const WhyLearnbay = dynamic(() =>
   import("@/components/Home/WhyLearnbay/WhyLearnbay")
@@ -408,20 +412,16 @@ export default function Home() {
         radio={true}
         idss="ZPOTy4PEnNU"
       />
+      <InfinityLogo/>
+      <KickStart/>
 
       <Course dataScience={true} radio={true} />
-      <WhyLearnbay ids="YWxTtvb3x-U" />
 
-      <CareerHome
-        dataScience={true}
-        ThirdSectionData={ThirdSectionData}
-        radio={true}
-      />
-      <div className="realstory">
-        <Realstory />
-      </div>
+<WhyChooseSection/>
+    
+      {/* <ReviewSlider/> */}
 
-      <TrainerSection idss="eautK0odE7Q" />
+      {/* <TrainerSection idss="eautK0odE7Q" /> */}
       <ContactUs dataScienceCounselling={true} radio={true} />
       <GetHire />
       <MobileTestimonial radio={true} dataScienceCounselling={true} />

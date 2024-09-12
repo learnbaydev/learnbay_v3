@@ -1,20 +1,29 @@
+.section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(15, 14, 14, 0.954);
+  padding-bottom: 60px;
+  margin: 100px 0;
+
+}
+
 .ContactUs {
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 50px 100px;
+  position: relative; /* Ensures content is above the background image */
+  padding: 80px 0 0 0;
   display: grid;
-  grid-template-columns: 50% 50%;
-  /* align-items: center; */
-  margin-bottom: 60px;
-  background: linear-gradient(94deg, #0D0D0D -0.37%, #341F00 100%);
-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  grid-template-columns: 60% 30%;
+  width: 1300px;
+  margin: auto;
+  gap: 110px;
+  z-index: 1; /* Ensure the content is above the image */
 }
 
 .LeftSide {
   display: flex;
   flex-flow: column;
   margin: 10px 0px;
-  padding: 1px 111px 2px 0px;
 }
 
 .h1Span {
@@ -23,13 +32,12 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .h1 {
-  margin: 0px 2px 50px 10px;
-  color: #FE7A36;
-  /* font-family: Inter; */
-  font-size: 24px;
+  color: #FFF;
+  font-size: 26px;
   font-style: normal;
   font-weight: 700;
-  line-height: 151%;
+  line-height: 153%; /* 45.9px */
+  margin-bottom: 30px;
 }
 
 .boxSection {
@@ -88,23 +96,19 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .paraspan {
-  color: #fff;
-  font-family: Montserrat;
+  color: #0072BC;
   font-size: 44px;
   font-style: normal;
   font-weight: 800;
-  /* line-height: 153%; */
-  /* 67.32px */
+  line-height: 103%; 
 }
 
 .conpara p {
-  color: #fff;
-  /* font-family: Inter; */
-  font-size: 20px;
+  color: #FFF;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 153%;
-  padding-left: 20px;
+  line-height: 153%; /* 33.66px */
 }
 
 .leftpaerson {
@@ -112,13 +116,12 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   grid-template-columns: 9% 30%;
   margin-top: 40px;
   margin-left: 20px;
-  align-items: center;
-  gap: 20px;
+  align-items: end;
+  grid-gap: 20px;
+  gap: 0px;
+
 }
-.leftpaerson p {
-  font-size: 14.626px;
-  margin: 0;
-}
+
 
 .leftpaerson span {
   color: #FE7A36;
@@ -129,13 +132,142 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 .leftpaerson img {
   border-radius: 50%;
 }
-.leftpaerson p {
-  color: #000;
-  font-size: 15.87px;
-  font-style: normal;
-  font-weight: 500;
+
+.leftpaerson p{
+  color: #FE7A36;
+font-size: 19.87px;
+font-style: normal;
+font-weight: 500;
+line-height: 153%; /* 30.401px */
 }
 
+.leftpaerson span {
+  color: #0383FF;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 153%; /* 26.01px */
+}
+
+/* Slider */
+
+.slider {
+  position: relative;
+  overflow: hidden; /* Hide overflowing content */
+  width: 100%;
+
+
+
+}
+
+.swiperslider {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+  animation: slide 20s linear infinite; /* Add animation */
+  width: max-content; /* Ensures the content width is dynamic */
+}
+
+.swiperslider::after {
+  content: ""; /* Creates a pseudo-element for infinite flow */
+  display: flex;
+}
+
+/* Keyframes for infinite sliding animation */
+@keyframes slide {
+  0% {
+    transform: translateX(0); /* Start position */
+  }
+  100% {
+    transform: translateX(-50%); /* Move to half the width (loop point) */
+  }
+}
+
+.cardBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  border: 1px solid #0072BC;
+  background: rgba(3, 131, 255, 0.20);
+  padding: 10px;
+  flex: 0 0 auto; /* Prevents shrinking and ensures items are in a row */
+}
+
+/* Duplicating content for infinite loop */
+.swiperslider:after {
+  content: attr(data-repeat); /* Uses custom attribute for content duplication */
+  display: flex;
+}
+
+.RightSide{
+  border-radius: 25.742px;
+border: 0.953px solid #DFDADA;
+background: #383838;
+}
+
+
+
+.NormalPForm{
+  color: #FFF;
+text-align: center;
+font-size: 28.602px;
+font-style: normal;
+font-weight: 500;
+line-height: 191.682%; /* 54.825px */
+}
+.RightSide form label {
+  display: none; 
+}
+.RightSide form input {
+background-color: #212121;
+color: #969494;
+}
+.RightSide input::placeholder {
+  color: #999; /* Replace with your desired color */
+  opacity: 1; /* Ensures full opacity of the placeholder text */
+}
+
+
+.RightSide form input::placeholder {
+  opacity: 1;
+  color: #969494;
+font-weight: 300;
+}
+.RightSide form label {
+display: none;
+}
+.RightSide form input[type="tel"] {
+  background: #212121; /* Set background color to black */
+  color: #fff; /* Ensure the text color is white */
+  border-radius: 8.75px;
+  border: 0.607px solid rgba(0, 0, 0, 0.20);
+  font-weight: 400;
+}
+.RightSide form select {
+  background-color: #212121; /* Set background color to black */
+  color: #969494; /* Set text color to white */
+  border-radius: 8.775px;
+  border: 0.607px solid rgba(0, 0, 0, 0.20);
+  padding: 10px; /* Add some padding */
+  font-weight: 400; /* Set font weight */
+  appearance: none; /* Remove default dropdown arrow (optional) */
+  -webkit-appearance: none; /* Remove default dropdown arrow in Safari */
+}
+
+.RightSide form select option {
+  background-color: #212121; /* Set background color for dropdown options */
+  color: #969494; /* Set text color for dropdown options */
+}
+
+
+.span{
+  color: #FE7A36;
+font-weight: 700;
+
+}
 @media (max-width: 1024px) {
   .ContactUs {
     padding: 30px;
@@ -167,6 +299,9 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 @media (max-width: 801px) {
   .ContactUs {
     padding: 20px;
+  }
+  .section{
+    margin-top: 40px;
   }
 
   .h1Span {
@@ -204,6 +339,9 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   .leftpaerson {
     margin: 30px 0px;
     grid-template-columns: 13% 40%;
+    gap: 20px;
+    align-items: center;
+
   }
   .LeftSide p {
     padding: 0px;
@@ -233,28 +371,15 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     font-size: 30px;
   }
   .ContactUs {
-    display: block;
-    padding: 20px;
-    background-size: cover;
-    margin-bottom: 50px;
-    box-shadow: 0px 0px 4.20439px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+
   }
 }
-.leftpaerson span {
-  color: #FE7A36;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 153%;
-}
 
-.leftpaerson p {
-  color: #fff;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 153%; /* 17.787px */
-}
+
 .leftpaerson {
   padding-bottom: 0px;
 }
@@ -263,9 +388,6 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   font-size: 30px;
 }
 
-.span {
-  color: #555;
-}
 
 .boxSection {
   display: grid;
@@ -274,12 +396,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   margin-bottom: 30px;
 }
 
-.RightSide {
-  padding: 30px 20px;
-  border-bottom: 4px solid #FE7A36;
-  margin: auto;
-  width: 100%;
-}
+
 
 .NormalPForm {
   margin-bottom: 20px;

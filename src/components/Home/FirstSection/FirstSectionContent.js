@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import styles from "./FirstSection.module.css";
 import Image from "next/image";
 import { useMediaQuery } from "react-responsive";
-import { FaCheck } from "react-icons/fa";
 
 function HeroSection({ setPopups, setVideo, btnHide }) {
   const popupShow = () => {
@@ -26,102 +25,148 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
     // );
     setTypeLogo(
       isMobile
-        ? "https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/logo_mix_mbl.webp"
+        ? "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/type_logo_mbl.webp"
         : "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ibm_mix_logo.webp"
     );
   }, [isMobile]);
 
   return (
-    <section className={styles.section}>
-      <div className={styles.bgWrap}>
-        {/* {bgImage && (
-          <Image
-            src={bgImage}
-            alt="Learnbay Background"
-            layout="fill"
-            priority
-            placeholder="blur"
-            blurDataURL={
-              isMobile
-                ? "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/mbl_home_two.avif" // Replace with the base64 string of the mobile image
-                : "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BG_Home_1.avif" // Replace with the base64 string of the desktop image
-            }
-            sizes="(max-width: 640px) 100vw, 100vw"
-          />
-        )} */}
-      </div>
-      <div className={styles.content}>
-        <h1>
-          <span className={styles.india}>India’s #1</span> Upskilling Platform
-          for Working Professionals
-        </h1>
-        <h3 title="Gen AI and ChatGPT">
-          Curriculum inclusive of Gen AI and ChatGPT
-        </h3>
-        <div className={styles.round}>
-          <p>
-            <FaCheck /> Data Science & AI
-          </p>
-          <p>
-            <FaCheck /> Cloud & DevOps
-          </p>
-          <p>
-            <FaCheck /> Master’s Degree
-          </p>
-        </div>
-        <div className={styles.buttonDiv}>
-          <button
-            title="Apply For Counselling"
-            onClick={popupShow}
-            className={styles.button}
-          >
-            Apply for Counselling
-          </button>
-          {btnHide ? (
-            <></>
-          ) : (
-            <div
-              className={styles.learnDiv}
-              onClick={videoShow}
-              aria-label="Learn More"
-            >
-              <div className={styles.iconDiv}>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="61"
-                  height="60"
-                  viewBox="0 0 61 60"
-                  fill="none"
-                >
-                  <path
-                    d="M60.0544 30.0029C60.0544 46.3104 46.7195 59.5371 30.2616 59.5371C13.8037 59.5371 0.468796 46.3104 0.468796 30.0029C0.468796 13.6955 13.8037 0.468796 30.2616 0.468796C46.7195 0.468796 60.0544 13.6955 60.0544 30.0029Z"
-                    fill="#FD2222"
-                    fillOpacity="0.2"
-                    stroke="#FD2222"
-                    strokeWidth="0.937591"
-                  />
-                  <path
-                    d="M45.3101 30.3101L21.8894 43.832V16.7881L45.3101 30.3101Z"
-                    fill="white"
-                  />
-                </svg>
-              </div>
-              <span>Learn More</span>
+    <section className={styles.conteiner}>
+      <div className={styles.gridConteiner}>
+        <div className={styles.leftside}>
+          <h1>
+            India’s #1 Project-based Upskilling Platform for Professionals
+          </h1>
+
+          <div className={styles.listleft}>
+            <div className={styles.pointsDiv}>
+              <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_one.webp" width={40} height={40} alt="icon" priority quality={80}/>
+              <p>
+                Get ready to crack your{" "}
+                <span className={styles.orgleft}>dream job</span> interview
+              </p>
             </div>
-          )}
+            <div className={styles.pointsDiv}>
+            <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_two.webp" width={40} height={40} alt="icon" priority quality={80}/>
+              <p>
+                {" "}
+                Learn from industry experts on{" "}
+                <span className={styles.orgleft}>real projects</span>
+              </p>
+            </div>
+          </div>
+          <button className={styles.btn} onClick={popupShow}>
+            Apply for Counselling{" "}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="37"
+              height="20"
+              viewBox="0 0 37 20"
+              fill="none"
+            >
+              <path
+                d="M2 8.63284C1.29564 8.63284 0.724638 9.20384 0.724638 9.9082C0.724638 10.6126 1.29564 11.1836 2 11.1836V8.63284ZM35.7167 10.81C36.2148 10.312 36.2148 9.50445 35.7167 9.00639L27.6004 0.89003C27.1023 0.391971 26.2948 0.391971 25.7967 0.89003C25.2987 1.38809 25.2987 2.1956 25.7967 2.69366L33.0113 9.9082L25.7967 17.1227C25.2987 17.6208 25.2987 18.4283 25.7967 18.9264C26.2948 19.4244 27.1023 19.4244 27.6004 18.9264L35.7167 10.81ZM2 11.1836H34.8149V8.63284H2V11.1836Z"
+                fill="white"
+              />
+            </svg>
+          </button>
         </div>
-      </div>
-      <div className={styles.typeLogo}>
-        <p>Get Certification from :</p>
-        <div className={styles.logoWrap}>
-          <Image
-            src={typeLogo}
-            width={isMobile ? 300 : 650}
-            height={isMobile ? 20 : 34}
-            alt="IBM Logo"
-            priority
-          />
+
+        <div className={styles.rytSide}>
+          <div className={styles.rytConteiner}>
+            <div className={styles.greenTag}>
+              <svg
+                height="50"
+                width="92"
+                fill="none"
+                viewBox="0 0 92 59"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect height="59" width="92" fill="url(#pattern0_137_3837)" />
+                <defs>
+                  <pattern
+                    height="1"
+                    id="pattern0_137_3837"
+                    width="1"
+                    patternContentUnits="objectBoundingBox"
+                  >
+                    <use
+                      transform="matrix(0.00641304 0 0 0.01 0.179348 0)"
+                      xlinkHref="#image0_137_3837"
+                    />
+                  </pattern>
+                  <image
+                    height="100"
+                    id="image0_137_3837"
+                    width="100"
+                    xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACkElEQVR4nO2WMWsUQRiGRzAWgo2NlY2lnVwTQmYOoo0B/4LldZl3FcQy/gVbS0srUdidQ0GwlFRaCQpiSGVhKQGPyAZtREku7ub7Rp4Htt69e95nd0IAAABwSm7TpkrcVUkHdV9xV/N0M9TO/yEjHV65S59D7Vj/iRr4CrVj/QcKIQhxjfWiRSEIcY31okUhCHGN9aJFIQhxjfWiRSEIcY31okUhCHGN9aJFIQhxjfWiRSEIcY31okUhCHGN9aJFIQhxjfWiRSEIcY31okUhCHGN9aJFIQhxjfWiRSEIcY31okUhCHGN9aJFIQhxjfWiRSEIcY31okUhCHGN9aJFIQhxjfWiRSEIcY31okUhCHGN9aJFIQhxjfWiRSEIcY31okUhCHGN9aJFIQhxjfWiRSEIcY31okUhCHGN9aJFIQhxjfWiRSEIcY31okUhCHGN9aJFIQhxjfWiRSEIcY31okUhCHGN9aJFIQhxjfWiRSEIcY31okUhCHGN9aJFIQhxjfWiRSGnKySXtMhdfHR4lbRAiGkh8c1WO139da+tNl3LJb6mkNMW0qU9lXQ7HIQzf7pnM0+3VOInXlkjC8kl7ecSH957unbhqDJnzybn1cUH6uK3IZ8h1M6AVTxvXqxfWfb+d0u8rBIfI2QgIbmk97lNm/86jGYeN3KJbynkpCK6+FUl3d9+cvVcGIjtV9OzeZ5mucQvvLKOX8Sif8XklxuXwkjcKasX+2+RSvzON2SJY+zYnOSYHGpniGPs2CxzTA61M9QxdmyOe0wOtTP0MXZsjjomh9rJXfo4xjF2bPpjsrr47rdv3IdQO003vdH/kJ9XM9uZrIRKmO1MVvpn7p+9H1Zu169bPxMAAED4Cz8AJEjYNmn1AMMAAAAASUVORK5CYII="
+                  />
+                </defs>
+              </svg>
+            </div>
+            <h2>
+              Free Counselling
+              <br /> for Professionals
+            </h2>
+            <hr className={styles.hr} />
+
+            <div className={styles.spandiv}>
+              <div className={styles.listryt}>
+                <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/job_seeker.webp" width={30} height={30} alt="jobseaker" priority quality={80}/>
+                <span>Get personalized career guidance</span>
+              </div>
+
+              <div className={styles.listryt}>
+              <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/popular_man.webp" width={30} height={30} alt="jobseaker" priority quality={80}/>
+                <span>30 min call with industry expert</span>
+              </div>
+              <div className={styles.listryt}>
+              <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/growth_and_flag.webp" width={30} height={30} alt="jobseaker" priority quality={80}/>
+                <span>Discover your upskilling path</span>
+              </div>
+            </div>
+          </div>
+          <div className={styles.listDown}>
+            <div className={styles.bookFreebtn}>
+              <div>
+                <button>Book Free Session Now <span>&#8594;</span></button>
+                <p>
+                  No strings attached—explore your career options with expert
+                  advice!
+                </p>
+              </div>
+          
+            </div>
+
+          </div>
         </div>
+     <div className={styles.btnmblDiv}>
+     <button className={styles.btnMbl} onClick={popupShow}>
+            Apply for Counselling{" "}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="10"
+              viewBox="0 0 37 20"
+              fill="none"
+            >
+              <path
+                d="M2 8.63284C1.29564 8.63284 0.724638 9.20384 0.724638 9.9082C0.724638 10.6126 1.29564 11.1836 2 11.1836V8.63284ZM35.7167 10.81C36.2148 10.312 36.2148 9.50445 35.7167 9.00639L27.6004 0.89003C27.1023 0.391971 26.2948 0.391971 25.7967 0.89003C25.2987 1.38809 25.2987 2.1956 25.7967 2.69366L33.0113 9.9082L25.7967 17.1227C25.2987 17.6208 25.2987 18.4283 25.7967 18.9264C26.2948 19.4244 27.1023 19.4244 27.6004 18.9264L35.7167 10.81ZM2 11.1836H34.8149V8.63284H2V11.1836Z"
+                fill="white"
+              />
+            </svg>
+          </button>
+     </div>
+   <div className={styles.typelogo}>
+   <Image
+          src={typeLogo}
+          width={isMobile ? 400 : 800} // Adjust width based on view
+          height={40}
+          alt="type-logo"
+          priority
+          quality={100}
+        />
+   </div>
       </div>
     </section>
   );

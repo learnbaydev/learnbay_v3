@@ -28,11 +28,14 @@ const WhyLearnbay = () => {
     reelswiperRef.current.slidePrev();
     if (swap) setSwap(false);
   };
+  
   return (
     <div className={styles.keyContainer}>
       <div className={styles.mainDiv}>
         <div className={styles.headingContainer}>
-          <h2> Real Stories, <span className={styles.topSpan}>Real Success</span></h2>
+          <h2>
+            Real Stories, <span className={styles.topSpan}>Real Success</span>
+          </h2>
           <p className={styles.subHeading}>
             Discover what our learners say about us
           </p>
@@ -48,9 +51,27 @@ const WhyLearnbay = () => {
             onSwiper={(swiper) => {
               reelswiperRef.current = swiper;
             }}
-            slidesPerView={4}
+            slidesPerView={4} // Default for larger screens
             spaceBetween={30}
             className={styles.mySwiper}
+            breakpoints={{
+              320: {  // Breakpoint for mobile devices
+                slidesPerView: 1,  // Show 1 slide on screens <= 320px
+                spaceBetween: 10,
+              },
+              768: {  // Breakpoint for tablets
+                slidesPerView: 2,  // Show 2 slides on screens <= 768px
+                spaceBetween: 20,
+              },
+              1024: {  // Breakpoint for desktops
+                slidesPerView: 3,  // Show 3 slides on screens <= 1024px
+                spaceBetween: 30,
+              },
+              1440: {  // Breakpoint for larger desktops
+                slidesPerView: 4,  // Show 4 slides on screens <= 1440px
+                spaceBetween: 30,
+              },
+            }}
           >
             {Reeldata.map((item, id) => (
               <SwiperSlide key={id} className={styles.sliderWrapper}>

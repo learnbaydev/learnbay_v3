@@ -4,7 +4,7 @@ import Image from "next/image";
 import { FaCheckCircle } from "react-icons/fa";
 import VideoYt from "@/components/Global/VideoYt/VideoYt";
 
-function whyChooseSection() {
+function WhyChooseSection() {
   return (
     <section className={styles.container}>
       <div className="containerWidth">
@@ -180,4 +180,4 @@ function whyChooseSection() {
   );
 }
 
-export default whyChooseSection;
+export default WhyChooseSection;
