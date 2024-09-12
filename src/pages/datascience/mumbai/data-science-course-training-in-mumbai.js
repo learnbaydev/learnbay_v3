@@ -82,7 +82,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Enroll in Learnbay's Data Science Training in Mumbai to stay ahead in this competitive field. Benefit from expert guidance. Start your journey now!"
+          content="Gain Competitive Edge In Todays World With Learnbay’s Data Science Course In Mumbai. Enrol Now To Learn From Industry Experts And Boost Your Data Science Career"
         />
         <meta
           name="keywords"
@@ -100,7 +100,7 @@ export default function Home() {
         <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Data science course in Mumbai. Learnbay is Advanced Data Science Course Training Institute in Mumbai. Data science course in Mumbai will enhance your career"
+          content="Gain Competitive Edge In Todays World With Learnbay’s Data Science Course In Mumbai. Enrol Now To Learn From Industry Experts And Boost Your Data Science Career"
         />
         <meta
           property="og:image"
@@ -117,11 +117,11 @@ export default function Home() {
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           itemProp="description"
-          content="Data science course in Mumbai. Learnbay is Advanced Data Science Course Training Institute in Mumbai. Data science course in Mumbai will enhance your career"
+          content="Gain Competitive Edge In Todays World With Learnbay’s Data Science Course In Mumbai. Enrol Now To Learn From Industry Experts And Boost Your Data Science Career"
         />
         <meta
           name="twitter:description"
-          content="Data science course in Mumbai. Learnbay is Advanced Data Science Course Training Institute in Mumbai. Data science course in Mumbai will enhance your career"
+          content="Gain Competitive Edge In Todays World With Learnbay’s Data Science Course In Mumbai. Enrol Now To Learn From Industry Experts And Boost Your Data Science Career"
         />
         <meta
           name="twitter:image"

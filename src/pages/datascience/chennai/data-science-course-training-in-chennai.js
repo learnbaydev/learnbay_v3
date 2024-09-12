@@ -85,7 +85,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Learnbay's Most Extensive Data Science Training Course in Chennai in Collaboration with IBM which ensures unparalleled training and placement assistance."
+          content="Earn Dual Certifications From Learnbay's Data Science Training Course In Chennai And Get Placement Assistance To Advance Your Career In Data Science."
         />
         <meta
           name="keywords"
@@ -103,7 +103,7 @@ export default function Home() {
         <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Data science course in Chennai. Learnbay is Advanced Data Science Course Training Institute in Chennai. Data science course in Chennai will enhance your career"
+          content="Earn Dual Certifications From Learnbay's Data Science Training Course In Chennai And Get Placement Assistance To Advance Your Career In Data Science."
         />
         <meta
           property="og:image"
@@ -120,11 +120,11 @@ export default function Home() {
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           itemProp="description"
-          content="Data science course in Chennai. Learnbay is Advanced Data Science Course Training Institute in Chennai. Data science course in Chennai will enhance your career"
+          content="Earn Dual Certifications From Learnbay's Data Science Training Course In Chennai And Get Placement Assistance To Advance Your Career In Data Science."
         />
         <meta
           name="twitter:description"
-          content="Data science course in Chennai. Learnbay is Advanced Data Science Course Training Institute in Chennai. Data science course in Chennai will enhance your career"
+          content="Earn Dual Certifications From Learnbay's Data Science Training Course In Chennai And Get Placement Assistance To Advance Your Career In Data Science."
         />
         <meta
           name="twitter:image"

@@ -81,7 +81,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Enroll now in Learnbay's top-notch Data Science Training Program in Canada, Includes one-on-one mentorship and guaranteed job assistance."
+          content="Learnbay's Top-Notch Data Science Course Training In Canada, Includes 1:1 Mentorship And Guaranteed Job Assistance. Enrol Now To Boost Your Career."
         />
         <meta
           name="keywords"
@@ -99,7 +99,7 @@ export default function Home() {
         <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Data science course in Canada. Learnbay is Advanced Data Science Course Training Institute in Canada. Data science course in Canada will enhance your career"
+          content="Learnbay's Top-Notch Data Science Course Training In Canada, Includes 1:1 Mentorship And Guaranteed Job Assistance. Enrol Now To Boost Your Career."
         />
         <meta
           property="og:image"
@@ -116,11 +116,11 @@ export default function Home() {
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           itemProp="description"
-          content="Data science course in Canada. Learnbay is Advanced Data Science Course Training Institute in Canada. Data science course in Canada will enhance your career"
+          content="Learnbay's Top-Notch Data Science Course Training In Canada, Includes 1:1 Mentorship And Guaranteed Job Assistance. Enrol Now To Boost Your Career."
         />
         <meta
           name="twitter:description"
-          content="Data science course in Canada. Learnbay is Advanced Data Science Course Training Institute in Canada. Data science course in Canada will enhance your career"
+          content="Learnbay's Top-Notch Data Science Course Training In Canada, Includes 1:1 Mentorship And Guaranteed Job Assistance. Enrol Now To Boost Your Career."
         />
         <meta
           name="twitter:image"

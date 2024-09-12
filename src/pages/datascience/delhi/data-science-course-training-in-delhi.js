@@ -81,7 +81,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Enroll in Learnbay's Data Science course in Delhi for a successful career. Updated Curriculum Modules and with Best Placement Assistance Guarantee. Sign-up Start your journey now."
+          content="Advance Your Career With Learnbay's Data Science Course In Delhi. Get Dual Certifications, Updated Curriculum, And Hands-On Project Experience. Join Now!"
         />
         <meta
           name="keywords"
@@ -99,7 +99,7 @@ export default function Home() {
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Data science course in Delhi. Learnbay is Advanced Data Science Course Training Institute in Delhi. Data science course in Delhi will enhance your career"
+          content="Advance Your Career With Learnbay's Data Science Course In Delhi. Get Dual Certifications, Updated Curriculum, And Hands-On Project Experience. Join Now!"
         />
         <meta
           property="og:image"
@@ -116,11 +116,11 @@ export default function Home() {
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           itemProp="description"
-          content="Data science course in Delhi. Learnbay is Advanced Data Science Course Training Institute in Delhi. Data science course in Delhi will enhance your career"
+          content="Advance Your Career With Learnbay's Data Science Course In Delhi. Get Dual Certifications, Updated Curriculum, And Hands-On Project Experience. Join Now!"
         />
         <meta
           name="twitter:description"
-          content="Data science course in Delhi. Learnbay is Advanced Data Science Course Training Institute in Delhi. Data science course in Delhi will enhance your career"
+          content="Advance Your Career With Learnbay's Data Science Course In Delhi. Get Dual Certifications, Updated Curriculum, And Hands-On Project Experience. Join Now!"
         />
         <meta
           name="twitter:image"

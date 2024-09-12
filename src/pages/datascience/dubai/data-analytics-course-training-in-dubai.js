@@ -78,7 +78,6 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          {" "}
           Best IBM Certified Data Analytics Course in Dubai - Learnbay
         </title>
         <meta name="robots" content="index, follow" />
