@@ -104,6 +104,14 @@
     padding: 0px 30px;
   }
 
+  .showDesktop img {
+    width: 100%;
+    height: auto;
+
+  }
+.GetHireHead{
+  gap: 160px;
+}
 
 }
 @media only screen and (max-width: 1024px) {

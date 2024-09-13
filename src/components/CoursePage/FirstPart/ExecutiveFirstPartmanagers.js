@@ -40,9 +40,10 @@ const ExecutiveFirstPartmanagers = () => {
         dataScience={true}
         brochurePdf={pdfUrl}
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
+        noIIt={true}
 
       />
-      <DecisionSection />
+      <DecisionSection noIIt={true} />
       <ProgramSection   dataScienceCounselling={true} interstedInHide={true}    brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf" />
       <OutcomeSection />
       <WhyChooseSection />

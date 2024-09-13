@@ -194,6 +194,92 @@ font-weight: 700;
 .span {
     color: #fe7a36;
 }
+.formdiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  border-radius: 24.25px;
+  border: 0.600px solid #DFDADA;
+  background: #383838;
+}
+.formdiv h3 {
+  color: #FFF;
+text-align: center;
+font-size: 24.139px;
+font-weight: 400;
+line-height: 11.682%; /* 52.021px */
+}
+.span {
+  color: #FE7A36;
+font-size: 24.139px;
+font-weight: 700;
+
+}
+.formdiv form input {
+  border-radius: 8.75px;
+  border: 0.07px solid rgba(0, 0, 0, 0.20);
+  background: #212121;
+  color: #fff;
+  font-weight: 400;
+} 
+
+.formdiv form input::placeholder {
+  opacity: 1;
+  color: #969494;
+font-weight: 300;
+}
+.formdiv form label {
+display: none;
+}
+.formdiv form input[type="tel"] {
+  background: #212121; /* Set background color to black */
+  color: #fff; /* Ensure the text color is white */
+  border-radius: 8.75px;
+  border: 0.607px solid rgba(0, 0, 0, 0.20);
+  font-weight: 400;
+}
+.formdiv form select {
+  background-color: #212121; /* Set background color to black */
+  color: #969494; /* Set text color to white */
+  border-radius: 8.775px;
+  border: 0.607px solid rgba(0, 0, 0, 0.20);
+  padding: 10px; /* Add some padding */
+  font-weight: 400; /* Set font weight */
+  appearance: none; /* Remove default dropdown arrow (optional) */
+  -webkit-appearance: none; /* Remove default dropdown arrow in Safari */
+}
+
+.formdiv form select option {
+  background-color: #212121; /* Set background color for dropdown options */
+  color: #969494; /* Set text color for dropdown options */
+}
+
+.icon {
+  background-color: #0383FF;;
+  font-size: 20px;
+  padding: 4px;
+  border-radius: 50%;
+  color: #000;
+}
+
+
+.fill{
+  float: right;
+  border-radius: 0px 25.742px 0px 19px;
+  background: rgba(3, 131, 255, 0.25);
+  padding: 8px 20px 8px 8px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  color: #afafaf;
+  font-size: 10px;
+  font-weight: 600;
+  position: relative;
+  left: 188px;
+
+}
 
 @media only screen and (max-width: 1302px) {
  .innerDiv{

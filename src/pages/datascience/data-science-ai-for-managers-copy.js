@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { parseJSONData } from "@/Util/JsonConvertor";
-import Navbar from "@/components/Global/Navbar/Navbar";
 import ExecutiveFirstPartmanagers from "@/components/CoursePage/FirstPart/ExecutiveFirstPartmanagers";
 import ExecutiveSecondPartMangers from "@/components/CoursePage/FirstPart/ExecutiveSecondPartMangers";
 
