@@ -162,7 +162,7 @@ cursor: pointer;
     border-radius: 12px;
 background: #0072BC;
 color: #fff;
-padding: 10px 20px;
+padding: 10px 50px;
 border: none;
 color: #FFF;
 text-align: center;
@@ -184,9 +184,9 @@ cursor: pointer;
   .tabHead{
     background-color:#fff;
 
-    top: 0; /* Adjust this value to control where the tab becomes sticky */
-    z-index:999; /* Ensure it's above other content when sticky */
-    position: -webkit-sticky; /* For Safari */
+    top: 0;
+    z-index:999; 
+    position: -webkit-sticky; 
     position: sticky;
   }
   .listicondiv{

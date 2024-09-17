@@ -22,7 +22,7 @@ const WhyLearnbay = () => {
               alt="Learnbay"
               quality={100}
               priority
-              width="1066"
+              width="800"
               height="408"
             />
           </div>

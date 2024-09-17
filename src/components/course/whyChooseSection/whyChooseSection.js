@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./whyChooseSection.module.css";
 import Image from "next/image";
 import { FaCheckCircle } from "react-icons/fa";
-import VideoYt from "@/components/Global/VideoYt/VideoYt";
 
 function WhyChooseSection() {
   return (
@@ -49,8 +48,8 @@ function WhyChooseSection() {
                 face-to-face interaction.{" "}
               </p>
               <p>
-                Offline classes are available in Pune, Mumbai, Delhi, Chennai,
-                Hydrabad, Kolkata, Bangalore.
+              Classroom training are available in <b>Pune, Mumbai, Delhi, Chennai,
+                Hydrabad, Kolkata, Bangalore.</b>
               </p>
             </div>
           </div>
@@ -69,7 +68,7 @@ function WhyChooseSection() {
         <div className={styles.innerDivTwo}>
           <div className={styles.twoFirst}>
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/domain_learnbay.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/Domain_left_side.webp"
               alt="Learnbay"
               quality={100}
               priority
@@ -82,7 +81,7 @@ function WhyChooseSection() {
               How can you make your previous experience count?
             </p>
             <h3>Domain electives</h3>
-            <p>
+            <p className={styles.domainText}>
               Select your domain electives and engage in live projects across
               various industries to gain hands-on experience. This practical
               approach will deepen your understanding of real-world challenges
@@ -92,7 +91,7 @@ function WhyChooseSection() {
         </div>
         <div className={styles.innerDivThree}>
           <div className={styles.threeFirst}>
-            <h3>Practical project experience</h3>
+            <h3 className={styles.ytHead}>Practical project experience</h3>
             <div className={styles.contentIconDiv}>
               <div>
                 <FaCheckCircle className={styles.icon} />
@@ -134,14 +133,13 @@ function WhyChooseSection() {
           </div>
           <div className={styles.threeSecond}>
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/yt_choose.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project_img.webp"
               alt="Learnbay"
               quality={100}
               priority
               width="550"
               height="250"
             />
-            {/* <VideoYt/> */}
             <div className={styles.ytBot}>
               <p>
                 <span>Important Note:</span> You will be assigned 5 members to
@@ -170,7 +168,7 @@ function WhyChooseSection() {
             </p>
             <div className={styles.botDivYellow}>
               <p>
-                <span>*Important Note:</span> Schedule your sessions from 10 AM - 6 PM (Mon-Sat) to secure your preferred time slot.
+              <span>Important Note:</span> Schedule your sessions from 10 AM - 6 PM (Mon-Sat) to secure your preferred time slot.
               </p>
             </div>
           </div>

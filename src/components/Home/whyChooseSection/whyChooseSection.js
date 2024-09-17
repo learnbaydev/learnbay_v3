@@ -78,7 +78,7 @@ function WhyChooseSection() {
         </div>
 
         <h2>
-          Why choose <span className={styles.orangeLine}>Learnbay?</span>
+          Why choose Learnbay?
         </h2>
 
         <div className={styles.innerDivOne}>

@@ -7,26 +7,36 @@
     #212121 97.79%
   );
   color: #000;
-  padding: 70px 0px;
+  padding: 46px 0px;
   margin-top: 70px;
 }
 
 .mainBg {
-  background: linear-gradient(176deg, #EFF3F6 3.89%, #FFF 42.38%, #EFF3F6 80.09%, #FFF 95.5%);
+  background: linear-gradient(
+    176deg,
+    #eff3f6 3.89%,
+    #fff 42.38%,
+    #eff3f6 80.09%,
+    #fff 95.5%
+  );
   padding-bottom: 70px;
 }
 
 .innerDiv {
   display: grid;
-  grid-template-columns: 54% 40%;
+  grid-template-columns: 50% 30%;
   gap: 50px;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+}
+
+.firstSection {
+  padding-top: 60px;
 }
 
 .firstSection h5 {
   color: #7d7d7d;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 600;
 }
 
@@ -36,8 +46,15 @@
   gap: 14px;
 }
 
+.starDiv p {
+  color: #dedede;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 127.182%; /* 31.795px */
+}
+
 .starDiv img {
-  width: 32px;
+  width: 28px;
   height: 100%;
 }
 
@@ -47,22 +64,19 @@
 }
 
 .firstSection h1 {
-  margin: 15px 0px 35px 0px;
-  font-size: 40px;
+  margin: 30px 0px 30px 0px;
+  font-size: 38px;
   color: #fff;
 }
 
 .firstSection p {
   margin: 0;
-  font-size: 19px;
-  font-weight: 700;
-  color: #fff;
 }
 
-.btnDiv {
+.btnDiv{
   display: flex;
   gap: 30px;
-  margin-top: 65px;
+  margin-top: 80px;
 }
 
 .secondSection img {
@@ -89,14 +103,14 @@
   left: -100%; /* Start the animation from the left */
   width: 200%; /* Ensure the gradient covers the button */
   height: 100%;
- 
+
   transition: left 0.4s ease-in-out; /* Smooth transition */
 }
 
 .outlineButton:hover::before {
   left: 100%; /* Move gradient to the right on hover */
   animation: moveGlass 1s forwards; /* Trigger animation on hover */
-   background: linear-gradient(
+  background: linear-gradient(
     120deg,
     rgba(255, 255, 255, 0.2) 0%,
     rgba(255, 255, 255, 0.8) 50%,
@@ -120,9 +134,9 @@
   padding: 12px 24px 10px 24px;
   font-weight: 700;
   cursor: pointer;
-  position: relative; 
-  overflow: hidden; 
-  transition: background 0.3s ease; 
+  position: relative;
+  overflow: hidden;
+  transition: background 0.3s ease;
 }
 
 .orangeButton::before {
@@ -130,21 +144,22 @@
   position: absolute;
   top: 0;
   left: -100%;
-  width: 200%; 
+  width: 200%;
   height: 100%;
 
-  transition: left 0.4s ease-in-out; 
+  transition: left 0.4s ease-in-out;
 }
 
 .orangeButton:hover::before {
-  left: 100%; 
+  left: 100%;
   animation: moveGlass 1s forwards;
   background: linear-gradient(
     120deg,
     rgba(255, 255, 255, 0.2) 0%,
     rgba(255, 255, 255, 0.8) 50%,
     rgba(255, 255, 255, 0.2) 100%
-  ); }
+  );
+}
 
 @keyframes moveGlass {
   0% {
@@ -155,7 +170,6 @@
   }
 }
 
-
 .botDiv {
   display: flex;
   align-items: center;
@@ -163,7 +177,7 @@
   padding: 40px 50px;
   border-radius: 30px;
   background: #fff;
-  margin: 40px 0px 0px;
+  margin: 20px 0px 0px;
   width: 100%;
 }
 
@@ -174,8 +188,8 @@
 }
 
 .content {
-    display: grid;
-    gap: 6px;
+  display: grid;
+  gap: 6px;
 }
 
 .content p {
@@ -185,69 +199,70 @@
 }
 
 .content h3 {
-    color: #737373;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
+  color: #737373;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
 }
 
 .span {
-    color: #fe7a36;
+  color: #fe7a36;
 }
-.formdiv{
+.formdiv {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 40px;
+  gap: 30px;
   border-radius: 24.25px;
-  border: 0.600px solid #DFDADA;
+  border: 0.6px solid #dfdada;
   background: #383838;
 }
 .formdiv h3 {
-  color: #FFF;
-text-align: center;
-font-size: 24.139px;
-font-weight: 400;
-line-height: 11.682%; /* 52.021px */
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 11.682%; /* 52.021px */
 }
 .span {
-  color: #FE7A36;
-font-size: 24.139px;
-font-weight: 700;
-
+  color: #fe7a36;
+  font-weight: 700;
 }
 .formdiv form input {
   border-radius: 8.75px;
-  border: 0.07px solid rgba(0, 0, 0, 0.20);
+  border: 0.07px solid rgba(0, 0, 0, 0.2);
   background: #212121;
   color: #fff;
   font-weight: 400;
-} 
+  height: 42px;
+}
 
 .formdiv form input::placeholder {
   opacity: 1;
   color: #969494;
-font-weight: 300;
+  font-weight: 300;
 }
 .formdiv form label {
-display: none;
+  display: none;
 }
 .formdiv form input[type="tel"] {
   background: #212121; /* Set background color to black */
   color: #fff; /* Ensure the text color is white */
   border-radius: 8.75px;
-  border: 0.607px solid rgba(0, 0, 0, 0.20);
+  border: 0.607px solid rgba(0, 0, 0, 0.2);
   font-weight: 400;
+  height: 38px;
 }
 .formdiv form select {
   background-color: #212121; /* Set background color to black */
   color: #969494; /* Set text color to white */
   border-radius: 8.775px;
-  border: 0.607px solid rgba(0, 0, 0, 0.20);
+  border: 0.607px solid rgba(0, 0, 0, 0.2);
   padding: 10px; /* Add some padding */
   font-weight: 400; /* Set font weight */
   appearance: none; /* Remove default dropdown arrow (optional) */
   -webkit-appearance: none; /* Remove default dropdown arrow in Safari */
+  height: 42px;
 }
 
 .formdiv form select option {
@@ -255,77 +270,153 @@ display: none;
   color: #969494; /* Set text color for dropdown options */
 }
 
+.formdiv form p {
+  margin: 0px 30px;
+}
+
+.formdiv form button {
+  border-radius: 10.492px;
+  background: #0383ff;
+  margin-bottom: 10px;
+}
+
+.formdiv form > div {
+  margin-bottom: 10px;
+  width: 90%;
+}
+
 .icon {
-  background-color: #0383FF;;
+  background-color: #0383ff;
   font-size: 20px;
   padding: 4px;
   border-radius: 50%;
   color: #000;
 }
 
+.btnDivM {
+  display: none;
+}
 
-.fill{
+.fill {
   float: right;
   border-radius: 0px 25.742px 0px 19px;
   background: rgba(3, 131, 255, 0.25);
-  padding: 8px 20px 8px 8px;
+  padding: 5px 20px 5px 8px;
   display: flex;
   gap: 8px;
   justify-content: center;
   align-items: center;
   color: #afafaf;
-  font-size: 10px;
+  font-size: 8px;
   font-weight: 600;
   position: relative;
-  left: 188px;
-
+  left: 132px;
 }
 
 @media only screen and (max-width: 1302px) {
- .innerDiv{
-  margin: 20px 60px;
- }
+  .innerDiv {
+    margin: 20px 60px;
+  }
+  .btnDivM {
+    display: none;
+  }
 
- .firstSection h1 {
-  font-size: 32px;
- }
- .firstSection h5 {
-  font-size: 22px;
- }
+  .firstSection h1 {
+    font-size: 32px;
+  }
+  .firstSection h5 {
+    font-size: 22px;
+  }
 
-.botDiv {
-  width: 100%;
+  .botDiv {
+    width: 100%;
+  }
+  .videoIframe {
+    width: 100%;
+    height: 270px;
+  }
 }
-.videoIframe {
-  width: 100%;
-  height: 270px;
-}
-
-}
-
 
 @media only screen and (max-width: 1180px) {
-
-
   .botDiv {
     width: 100vw;
   }
-  
-
-
+  .btnDivM {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 890px) {
-
   .firstSection h1 {
     font-size: 26px;
-   }
-   .firstSection h5 {
+  }
+  .firstSection h5 {
     font-size: 20px;
-   }
-   .innerDiv{
+  }
+  .innerDiv {
     margin: 20px 30px;
-   }
-  
+  }
+  .btnDivM {
+    display: none;
+  }
 }
 
+@media only screen and (max-width: 641px) {
+.container {
+  padding: 1dvh 0px;
+}
+
+.innerDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.firstSection {
+  padding: 0;
+}
+.firstSection h1 {
+  margin: 15px 0px 24px 0px;
+}
+
+.firstSection p {
+  font-size: 14px;
+}
+.btnDiv {
+  display: none;
+}
+.btnDivM {
+  display: flex;
+  margin: 50px 40px;
+gap: 20px;
+}
+.btnDivM .outlineButton, .btnDivM .orangeButton {
+  border-radius: 17px;
+text-align: center;
+font-size: 10px;
+font-weight: 700;
+line-height: 14.132px; /* 143.396% */
+text-transform: uppercase;
+padding: 8px 20px;
+}
+.btnDivM .outlineButton {
+  color: #383838;
+  background: #fff;
+}
+.formdiv h3 {
+  font-size: 20px;
+}
+.fill {
+  left: 114px;
+}
+.botDiv {
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  margin: 20px 24px;
+  width: auto;
+  padding: 20px;
+}
+.mainBg {
+  padding-bottom: 0;
+}
+}

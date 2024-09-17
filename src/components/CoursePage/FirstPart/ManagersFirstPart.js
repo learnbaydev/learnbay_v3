@@ -1,3 +1,8 @@
+import HeroSection from "@/components/course/heroSection/HeroSection";
+import OutcomeSection from "@/components/course/outcomeSection/outcomeSection";
+import ProgramSection from "@/components/course/programSection/programSection";
+import ProgramSummary from "@/components/course/pSummary/ProgramSummary";
+import WhyChooseSection from "@/components/course/whyChooseSection/whyChooseSection";
 import { ThirdSectionData } from "@/Data/ThirdSectionData";
 import dynamic from "next/dynamic";
 import React from "react";
@@ -39,20 +44,13 @@ const JobAbroad = dynamic(() =>
   import("../../MastersCourse/JobAbroad/JobAbroad")
 );
 
-const Realstory = dynamic (() =>
-import ("../../Home/Realstory/Realstory"));
+const Realstory = dynamic(() => import("../../Home/Realstory/Realstory"));
 
 import { AiOutlineContainer } from "react-icons/ai";
 import { BsDisplay, BsPeople, BsPersonGear } from "react-icons/bs";
 import { FaLinkedinIn, FaReact } from "react-icons/fa";
 import { TbBrandGoogleAnalytics } from "react-icons/tb";
 const FirstPart = ({ SecondSectionData, TestimonialData }) => {
-  const seconddata = [
-    { boldText: "IBM", normalText: "Certified Capstone", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
-    { CboldText: "175%", normalText: "Average Salary Hike", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
-    { boldText: "35K+", normalText: "Trusted Learners", },
-    
-  ];
   const DsSecond = {
     title1: "Domain Specialization",
     image1:
@@ -75,7 +73,11 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         role: "AI Project Manager ",
         salary: " 17.3 LPA",
       },
-      { icon: <BsPersonGear />, role: "Data Analytics Manager", salary: "22.2 LPA" },
+      {
+        icon: <BsPersonGear />,
+        role: "Data Analytics Manager",
+        salary: "22.2 LPA",
+      },
     ],
     image3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Frame+42.webp",
     image4:
@@ -131,27 +133,32 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
   };
   return (
     <>
-      <FirstSection
+      <HeroSection
+        thumbnailurl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/first_yt_thumb.webp"
+        spanTag="Curriculum Inclusive of Gen-AI"
+        isSpecialPage={true}
+        isGuwahati={true}
+        noIIt={true}
+        interstedInHide={true}
+        dataScienceCounselling={true}
+        dataScience={true}
+        // brochurePdf={pdfUrl}
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
+      />
+      <ProgramSummary />
+
+      <ProgramSection
         dataScienceCounselling={true}
         interstedInHide={true}
-        ThirdTyped="Live Interactive Classes"
-        dataScience={true}
-        titleCourse="Data Science & AI Certification Program For Managers and Leaders"
-        cityParaCont="Empowering Leaders with AI & Data Science Expertise"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
-        FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Adv-dsai-_1_-min.webp"
-        firstToparaImg="For Managers and Leaders"
-        firstHeading="Data Science & AI Certification Program"
-        firstTopPara="Gen-AI for Business Leaders"
-        idss="rZVkXvgW9gk"
-        thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/managers+and+leaders-min.webp"
-        videoId="osYNvuuI1_8"
-        brochurePdf="/Brochure/data-science-ai-for-managers.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
       />
-      <MasterSecondSection data={seconddata} />
-      <CloudDevopsecond data={DsSecond} />
-      <JobAbroad data={JobData}  dataScienceCounselling={true}
-        interstedInHide={true}/>
+      <OutcomeSection/>
+<WhyChooseSection/>
+      <JobAbroad
+        data={JobData}
+        dataScienceCounselling={true}
+        interstedInHide={true}
+      />
       <SecondNavbar
         interstedInHide={true}
         dataScience={true}
@@ -164,7 +171,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         leftImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/advance-who.webp"
         ThirdSectionData={ThirdSectionData}
       />
-      <Realstory/>
+      <Realstory />
       <TrainerSection idss="eautK0odE7Q" />
       {/* <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} /> */}
       <WhoIsProgram
@@ -180,7 +187,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         interstedInHide={true}
         titleCourse="Data Science & AI Certification Program For Managers and Leaders"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
-         brochurePdf="/Brochure/data-science-ai-for-managers.pdf"
+        brochurePdf="/Brochure/data-science-ai-for-managers.pdf"
       />
     </>
   );

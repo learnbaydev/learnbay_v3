@@ -14,7 +14,7 @@ const OutcomeSection = dynamic(() =>
 );
 
 const WhyChooseSection = dynamic(() =>
-  import("@/components/course/whyChooseSection/whyChooseSection")
+  import("@/components/course/whyChooseSection/WhyChooseSection")
 );
 const ExecutiveFirstPartGeneric = () => {
     const pdfUrl = "/Brochure/Executive-iit-guwahati-generic.pdf"
