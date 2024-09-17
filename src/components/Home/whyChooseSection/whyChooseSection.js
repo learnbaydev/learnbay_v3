@@ -133,6 +133,9 @@ function WhyChooseSection() {
               approach will deepen your understanding of real-world challenges
               and enhance your expertise.
             </p>
+            <div className={styles.domains}>
+<Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/mbl_why_domins.webp" width={300} height={90} alt="domain" loading="lazy" quality={100}/>
+            </div>
           </div>
         </div>
 

@@ -132,7 +132,7 @@
 .mblonly {
   display: none;
 }
-@media screen and (max-width: 1380px) {
+@media screen and (max-width: 1381px) {
   .conteiner {
     width: 1200px;
   }

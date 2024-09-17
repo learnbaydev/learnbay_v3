@@ -128,7 +128,7 @@ display: flex;
 }
 .bookFreebtn{
   display: grid;
-  grid-template-columns: 70% 30%;
+  grid-template-columns:63% 34%;
   gap: 6px;
 
 
@@ -187,6 +187,8 @@ display: flex;
     font-weight: 500;
     line-height: 20px;
 }
+
+
 
 
 
@@ -257,6 +259,9 @@ line-height: 153%;
 }
 
 .btnmblDiv{
+  display: none;
+}
+.mblImag{
   display: none;
 }
 
@@ -330,8 +335,10 @@ line-height: 153%;
     width: 100%;
     height: auto;
 
+
   }
 
+ 
 
 
 
@@ -347,6 +354,12 @@ line-height: 153%;
     background-color: rgba(15, 14, 14, 0.954);
     margin-top: 64px;
   }
+
+  .bookFreebtn{
+    grid-template-columns: 70% 30%;
+    gap: 0;
+  }
+
 .gridConteiner{
   width: 100%;
   display: flex;
@@ -421,7 +434,34 @@ line-height: 153%;
     align-items: center;
 
   }
+  .bookFreebtn img {
+width: 100px;
+  }
+  .desktopImg{
+    display: none;
+  }
+  .mblImag{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+
 }
+
+@media screen and (max-width:360px){
+  .gridConteiner h1 {
+    font-size: 24px;
+  }
+  .bookFreebtn button {
+    font-size: 10px;
+  }
+  .bookFreebtn img {
+    width: 90px;
+  }
+  
+}
+
 
 
 

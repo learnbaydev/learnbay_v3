@@ -1,8 +1,15 @@
-.keyContainer{
-  width: 1150px;
+.keyContainer {
+  width: 1350px;
   margin: auto;
 }
 
+.mainContiner {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
 .reviewContainer {
   display: grid;
   grid-template-columns: 25% 70%;
@@ -26,55 +33,55 @@
   width: 100%;
   height: auto;
 }
-.learnHeading{
+.learnHeading {
   color: #616161;
   font-size: 30px;
   font-weight: 700;
   line-height: 1.6;
 }
 .Leftrotate180,
-  .Rightrotate180 {
-    transform: rotate(180deg);
-    background: #D9D9D9;
-  }
-  .Leftrotate180 {
-    width: 80px;
-    height: 26px;
-    flex-shrink: 0;
-    color: black;
-    border-radius: 100px;
-  }
-  .Rightrotate180 {
-    width: 26px;
-    height: 26px;
-    flex-shrink: 0;
-    color: gray;
-    border-radius: 100px;
-  }
-  .leftbtn {
-    width: 80px;
-    height: 26px;
-    border: 0.1px solid black;
-    flex-shrink: 0;
-    color: black;
-    background: #D9D9D9;
-    border-radius: 100px;
-    cursor: pointer;
-  }
-  .Rightbtn {
-    width: 26px;
-    height: 26px;
-    flex-shrink: 0;
-    color: gray;
-    background: #D9D9D9;
-    border-radius: 100px;
-    cursor: pointer;
-  }
-  /* .mySwiper{
+.Rightrotate180 {
+  transform: rotate(180deg);
+  background: #d9d9d9;
+}
+.Leftrotate180 {
+  width: 80px;
+  height: 26px;
+  flex-shrink: 0;
+  color: black;
+  border-radius: 100px;
+}
+.Rightrotate180 {
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+  color: gray;
+  border-radius: 100px;
+}
+.leftbtn {
+  width: 80px;
+  height: 26px;
+  border: 0.1px solid black;
+  flex-shrink: 0;
+  color: black;
+  background: #d9d9d9;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.Rightbtn {
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+  color: gray;
+  background: #d9d9d9;
+  border-radius: 100px;
+  cursor: pointer;
+}
+/* .mySwiper{
     padding-top: 2rem;
     padding-left: 30px;
 } */
-.reviewImage{
+.reviewImage {
   display: grid;
   grid-template-columns: 18% 85%;
   gap: 10px;
@@ -84,10 +91,10 @@
 .reviewImage img {
   border-radius: 50px;
 }
-.learnerName{
+.learnerName {
   font-size: 12px;
 }
-.contentSlide{
+.contentSlide {
   color: #141414;
   font-size: 12px;
   font-weight: 400;
@@ -108,33 +115,22 @@
   width: auto;
   height: 70px;
 }
-.headingContainer{
+.headingContainer {
   padding-top: 50px;
 }
-.mainHeading{
- color: #022646;
-font-size: 36px;
-font-weight: 700;
+.mainHeading {
+  color: #022646;
+  font-size: 36px;
+  font-weight: 700;
 }
-.subHeading{
+.subHeading {
   color: #727272;
   font-size: 20px;
   margin: 30px 0px 50px 0px;
   font-weight: 600;
 }
-.btnContainer{
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1095px;
-  z-index: 10;
-  padding-top: 11rem;
-  display: flex;
-  margin: auto;
-  margin-left: -30px;
-}
-.prevBtn{
+
+.prevBtn {
   color: white;
   cursor: pointer;
   background: #848484;
@@ -145,7 +141,7 @@ font-weight: 700;
   align-items: center;
   justify-content: center;
 }
-.nextBtn{
+.nextBtn {
   color: white;
   cursor: pointer;
   background: #848484;
@@ -155,18 +151,18 @@ font-weight: 700;
   align-items: center;
   justify-content: center;
 }
-.sliderWrapper{
+.sliderWrapper {
   width: 500px;
 }
-.mySwiper{
-  width: 1100px;
+.mySwiper {
+  width: 1250px;
   margin: auto;
 }
-.videoImage{
+.videoImage {
   height: auto;
-  width: 220px;
+  width: 100%;
 }
-.btnnextContainer{
+.btnnextContainer {
   margin-top: 40px;
   display: flex;
   gap: 10px;
@@ -177,7 +173,7 @@ font-weight: 700;
   margin-top: 100px;
   align-items: center;
   gap: 90px;
-} 
+}
 
 .firstBotReview p {
   font-size: 20px;
@@ -187,42 +183,63 @@ font-weight: 700;
   margin-top: 50px;
 }
 
-.firstBotReview img, .secondBotReview img {
+.firstBotReview img,
+.secondBotReview img {
   width: 100%;
   height: auto;
 }
 
-@media screen and (max-width:1080px) {
-  
-  .keyContainer{
+@media screen and (max-width: 1080px) {
+  .keyContainer {
     width: auto;
   }
   .mySwiper {
     width: 1000px;
   }
   .btnContainer {
-
   }
-
-
 }
 
-@media screen and (max-width:1000px) {
-
-.mySwiper {
-  width: 900px;
+@media screen and (max-width: 1000px) {
+  .mySwiper {
+    width: 900px;
+  }
 }
-
-
-}
-
 
 @media screen and (max-width: 641px) {
-  .reviewBotSection{
-  display: flex;
-  flex-direction: column;
-  padding: 20px 30px;
-  gap: 40px;
-  
-}
+  .reviewBotSection {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    gap: 40px;
+  }
+
+  .mySwiper {
+    width: 100%;
+  }
+
+  .headingContainer {
+    padding: 20px;
+  }
+  .reviewBotSection {
+    margin-top: 20px;
+  }
+  .prevBtn {
+    display: none;
+  }
+  .nextBtn {
+    display: none;
+  }
+  .headingContainer h2 {
+    font-size: 30px;
+  }
+  .mainHeading {
+    font-size: 28px;
+  }
+  .firstBotReview img {
+    margin-top: 20px;
+  }
+  .firstBotReview p {
+    display: none;
+  }
 }

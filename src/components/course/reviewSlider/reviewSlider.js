@@ -1,92 +1,18 @@
 "use client";
-import React from "react";
+
 import styles from "./reviewSlider.module.css";
 import Image from "next/image";
-import Reeldata from "./reelData";
-import { useRef, useState } from "react";
-import {
-  MdOutlineKeyboardArrowLeft,
-  MdOutlineKeyboardArrowRight,
-} from "react-icons/md";
 
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
+
+import VideoYt from "@/components/Global/VideoYt/VideoYt";
+import Reels from "./Reels";
 
 const WhyLearnbay = () => {
-  const reelswiperRef = useRef(null);
-
-  const [swap, setSwap] = useState(false);
-
-  const nextreelSlide = () => {
-    reelswiperRef.current.slideNext();
-    if (!swap) setSwap(true);
-  };
-  const prevreelSlide = () => {
-    reelswiperRef.current.slidePrev();
-    if (swap) setSwap(false);
-  };
-  
   return (
     <div className={styles.keyContainer}>
+      <Reels />
       <div className={styles.mainDiv}>
-        <div className={styles.headingContainer}>
-          <h2>
-            Real Stories, <span className={styles.topSpan}>Real Success</span>
-          </h2>
-          <p className={styles.subHeading}>
-            Discover what our learners say about us
-          </p>
-          {/* <div className={styles.btnContainer}>
-            <div className={styles.prevBtn} onClick={prevreelSlide}>
-              <MdOutlineKeyboardArrowLeft />
-            </div>
-            <div className={styles.nextBtn} onClick={nextreelSlide}>
-              <MdOutlineKeyboardArrowRight />
-            </div>
-          </div> */}
-          <Swiper
-            onSwiper={(swiper) => {
-              reelswiperRef.current = swiper;
-            }}
-            slidesPerView={4} // Default for larger screens
-            spaceBetween={30}
-            className={styles.mySwiper}
-            breakpoints={{
-              320: {  // Breakpoint for mobile devices
-                slidesPerView: 1,  // Show 1 slide on screens <= 320px
-                spaceBetween: 10,
-              },
-              768: {  // Breakpoint for tablets
-                slidesPerView: 2,  // Show 2 slides on screens <= 768px
-                spaceBetween: 20,
-              },
-              1024: {  // Breakpoint for desktops
-                slidesPerView: 3,  // Show 3 slides on screens <= 1024px
-                spaceBetween: 30,
-              },
-              1440: {  // Breakpoint for larger desktops
-                slidesPerView: 4,  // Show 4 slides on screens <= 1440px
-                spaceBetween: 30,
-              },
-            }}
-          >
-            {Reeldata.map((item, id) => (
-              <SwiperSlide key={id} className={styles.sliderWrapper}>
-                <Image
-                  src={item.proimage}
-                  alt="Learnbay"
-                  loading="lazy"
-                  width={180}
-                  height={200}
-                  className={styles.videoImage}
-                />
-              </SwiperSlide>
-            ))}
-          </Swiper>
-        </div>
+        {/* Bottom Review Section */}
         <div className={styles.reviewBotSection}>
           <div className={styles.firstBotReview}>
             <h3 className={styles.mainHeading}>Courses Top Rated in:</h3>
@@ -101,14 +27,7 @@ const WhyLearnbay = () => {
             />
           </div>
           <div className={styles.secondBotReview}>
-            <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/review_right_side.webp"
-              alt="Learnbay"
-              quality={100}
-              priority
-              width="974"
-              height="668"
-            />
+            <VideoYt />
           </div>
         </div>
       </div>

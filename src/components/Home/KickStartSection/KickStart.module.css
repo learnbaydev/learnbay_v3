@@ -54,7 +54,12 @@ display: flex;
 .spantagsMbl{
     display: none;
 }
+@media screen and (max-width:1181px){
 
+    .continer{
+        width: 100%;
+    }
+}
 @media screen and (max-width:641px){
 .continer{
     width: 100vw;

@@ -128,15 +128,20 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
           </div>
           <div className={styles.listDown}>
             <div className={styles.bookFreebtn}>
-              <div>
+              <div onClick={popupShow}>
                 <button>Book Free Session Now <span>&#8594;</span></button>
                 <p>
                   No strings attached—explore your career options with expert
                   advice!
                 </p>
               </div>
-          
+<div className={styles.conImg}>
+<Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/coun_round.webp" width={150} height={45} alt="loading" quality={100} className={styles.desktopImg}/>
+<Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_mobile_con.webp" width={150} height={45} alt="loading" quality={100} className={styles.mblImag}/>
+</div>
             </div>
+
+          
 
           </div>
         </div>

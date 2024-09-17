@@ -4,6 +4,9 @@
   padding: 20px 0 40px 0px;
 }
 
+.domains{
+  display: none;
+}
 .container {
   position: relative;
   z-index: 1;
@@ -111,19 +114,26 @@
 }
 
 .oneFirst {
-  background: url("https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/why_choose_orange.webp");
-  background-size: contain;
-  height: fit-content;
-  background-repeat: no-repeat;
-  padding: 50px;
+  padding: 24px 70px 35px 40px;
+  border-width: 2px 4px 3px 0px;
+  border-radius: 20px;
+  border-color:#FE7A36;
+  background: linear-gradient(270deg, rgba(254, 122, 54, 0.00) 0.32%, rgba(254, 122, 54, 0.15) 98.75%);
+  border-style: solid;
+  
+
 }
 
 .SecondFour {
-  background: url("https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/green_why_choose.webp");
-  background-size: contain;
-  height: fit-content;
-  background-repeat: no-repeat;
-  padding: 50px;
+  padding: 24px 70px 35px 40px;
+  border-width: 2px 4px 3px 0px;
+  border-radius: 20px;
+  border-color:#04C988;
+  background: linear-gradient(270deg, rgba(4, 201, 136, 0.00) 0%, rgba(4, 201, 136, 0.15) 100%);
+  border-style: solid;
+  padding: 30px;
+
+
 }
 
 .ytBot {
@@ -137,11 +147,13 @@
 }
 
 .twoSecond {
-  background: url("https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/domain_bg_why.webp");
-  background-size: contain;
-  height: fit-content;
   background-repeat: no-repeat;
-  padding: 24px 70px 50px 40px;
+  padding: 24px 70px 35px 40px;
+  border-width: 5px 0px 5px 5px;
+  border-radius: 20px;
+  border-color: #0072BC70;
+  background: linear-gradient(270deg, rgba(0, 114, 188, 0.15) 0.32%, rgba(0, 114, 188, 0.00) 98.75%);
+  border-style: solid;
 }
 
 .oneFirst h3,
@@ -306,13 +318,10 @@
     border-radius: 0;
   }
   .oneFirst {
-    background: url(https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/org_mbl.webp);
-    background-size: contain;
-    height: -moz-fit-content;
-    height: fit-content;
     background-repeat: no-repeat;
-    padding: 32px 10px;
-    margin: 43px 18px;
+    padding: 28px 14px;
+    margin:43px 20px 0px 20px;
+
 
   }
   .container h2 {
@@ -325,6 +334,10 @@
   .innerDivOne {
     margin: 0;
     display: flex;
+  }
+  .twoSecondTop{
+    padding: 10px;
+    font-size: 12px !important;
   }
 
   .oneFirst h3 {
@@ -349,14 +362,17 @@
     display: none;
   }
   .twoSecond {
-    padding: 0;
+    padding: 10px;
+    margin: 20px;
   }
-  .twoSecond p {
+  .twoSecond h3 {
     color: #FFF;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 144.5%;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 144.5%; /* 36.125px */
   }
+
   .innerDivFour {
     display: flex;
   }
@@ -364,7 +380,7 @@
     display: none;
   }
   .SecondFour {
-    padding: 10px;
+    padding: 14px;
     margin: 20px;
   }
   .SecondFour h3 {
@@ -375,8 +391,20 @@
   }
   .listhree p {
     color: #FFF;
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 300;
     line-height: normal;
   }
+  .domains{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .innerDivTwo{
+    margin-top: 40px;
+  }
+  .innerDivFourLast{
+    margin-top: 20px;
+  }
 }
+
