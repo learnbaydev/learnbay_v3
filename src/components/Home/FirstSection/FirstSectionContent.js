@@ -8,21 +8,12 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
     setPopups(true);
   };
 
-  const videoShow = () => {
-    setVideo(true);
-  };
 
   const isMobile = useMediaQuery({ query: "(max-width: 640px)" });
 
-  const [bgImage, setBgImage] = useState("");
   const [typeLogo, setTypeLogo] = useState("");
 
   useEffect(() => {
-    // setBgImage(
-    //   isMobile
-    //     ? "https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/mbl_home_two.webp"
-    //     : "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BG_Home_1.webp"
-    // );
     setTypeLogo(
       isMobile
         ? "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/type_logo_mbl.webp"
@@ -213,7 +204,7 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
         <div className={styles.typelogo}>
           <Image
             src={typeLogo}
-            width={isMobile ? 400 : 800} // Adjust width based on view
+            width={isMobile ? 400 : 800}
             height={40}
             alt="type-logo"
             priority

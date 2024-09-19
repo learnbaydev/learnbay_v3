@@ -25,14 +25,14 @@ const VideoYt = () => {
 
     if (videoRef.current.paused) {
       videoRef.current.play();
-      soundRef.current.src = audioUrl;
+      // soundRef.current.src = audioUrl;
       soundRef.current.play();
       setIsPlaying(true);
       setIsEnded(false);
       setShowThumbnail(false); 
     } else {
       videoRef.current.pause();
-      soundRef.current.src = audioUrl;
+      // soundRef.current.src = audioUrl;
       soundRef.current.play();
       setIsPlaying(false);
       setShowThumbnail(true);
@@ -56,7 +56,7 @@ const VideoYt = () => {
   const handleMute = useCallback(() => {
     if (!videoRef.current) return;
     videoRef.current.muted = !videoRef.current.muted;
-    soundRef.current.src = audioUrl;
+    // soundRef.current.src = audioUrl;
     soundRef.current.play();
     setIsMuted(videoRef.current.muted);
   }, []);

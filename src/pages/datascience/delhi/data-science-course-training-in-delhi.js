@@ -142,7 +142,7 @@ export default function Home() {
   "@type": "LocalBusiness",
   "name": "Learnbay - Data Science Course in Delhi",
   "description": "Learnbay Offers Quality Data Science Training in Dubai with Flexible Scheduling, Hands-on Projects and One-To-One Mentorship. Sign-up Now to Master Data Science.",
-  "url": "https://www.learnbay.co/datascience/dubai/data-science-course-training-in-delhi",
+  "url": "https://www.learnbay.co/datascience/delhi/data-science-course-training-in-delhi",
   "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
   "address": {
     "@type": "PostalAddress",

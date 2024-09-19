@@ -24,10 +24,12 @@ const WhyLearnbay = () => {
               priority
               width="800"
               height="408"
+              className={styles.socailR}
+
             />
           </div>
           <div className={styles.secondBotReview}>
-            <VideoYt />
+            <VideoYt className={styles.YT} />
           </div>
         </div>
       </div>

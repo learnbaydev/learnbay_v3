@@ -81,5 +81,15 @@
       .container p {
           font-size: 14px;
       }
+      .container{
+        max-width: 800px;
+        margin-top: 0;
+        margin-bottom: 40px;
+
+      }
+      .mainContainer{
+            padding: 0 12px;
+
+      }
   }
   

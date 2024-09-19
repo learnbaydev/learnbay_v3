@@ -146,8 +146,8 @@ export const courses = {
 
       link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
-      brochurePdfs: "/Brochure/Cloud-and-Devops.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
+      brochurePdfs: "/Brochure/AWS.pdf",
     },
 
     {

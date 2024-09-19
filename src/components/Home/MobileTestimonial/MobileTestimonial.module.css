@@ -12,14 +12,13 @@ background: #E5F1F8;
 .FirstDiv h4 {
   color: #000;
   font-size: 38px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .FirstDiv span {
-  background: linear-gradient(90deg, #000 0.02%, #9d5e00 39.74%);
+
   background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #000;
 }
 
 

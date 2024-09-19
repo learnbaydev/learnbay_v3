@@ -41,12 +41,15 @@ const Reels = () => {
     <>
       <VideoPopup triggers={video} setTriggers={setVideo} ids={vId} />
       <div className={styles.headingContainer}>
-        <h2>
+       <div className={styles.Header}>
+
+       <h2>
           Real Stories, <span className={styles.topSpan}>Real Success</span>
         </h2>
         <p className={styles.subHeading}>
           Discover what our learners say about us
         </p>
+       </div>
         {/* Custom Navigation Buttons */}
         <div className={styles.btnContainer}></div>
 

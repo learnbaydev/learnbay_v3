@@ -73,12 +73,12 @@
 
 .innerDivOne,
 .innerDivThree {
-  grid-template-columns: 48% 30%;
+  grid-template-columns: 40% 30%;
 }
 
 .innerDivTwo,
 .innerDivFour {
-  grid-template-columns: 30% 45%;
+  grid-template-columns:30% 39%;
   margin-top: 50px;
 }
 
@@ -114,9 +114,9 @@
 }
 
 .oneFirst {
-  padding: 24px 70px 35px 40px;
-  border-width: 2px 4px 3px 0px;
-  border-radius: 20px;
+  padding: 40px 0 46px 40px;
+  border-width:4px 4px 4px 0px;
+  border-radius: 30px;
   border-color:#FE7A36;
   background: linear-gradient(270deg, rgba(254, 122, 54, 0.00) 0.32%, rgba(254, 122, 54, 0.15) 98.75%);
   border-style: solid;
@@ -126,8 +126,8 @@
 
 .SecondFour {
   padding: 24px 70px 35px 40px;
-  border-width: 2px 4px 3px 0px;
-  border-radius: 20px;
+  border-width: 4px 4px 4px 0px;
+  border-radius: 30px;
   border-color:#04C988;
   background: linear-gradient(270deg, rgba(4, 201, 136, 0.00) 0%, rgba(4, 201, 136, 0.15) 100%);
   border-style: solid;
@@ -148,9 +148,9 @@
 
 .twoSecond {
   background-repeat: no-repeat;
-  padding: 24px 70px 35px 40px;
+  padding:24px 66px 35px 40px;
   border-width: 5px 0px 5px 5px;
-  border-radius: 20px;
+  border-radius: 30px;
   border-color: #0072BC70;
   background: linear-gradient(270deg, rgba(0, 114, 188, 0.15) 0.32%, rgba(0, 114, 188, 0.00) 98.75%);
   border-style: solid;
@@ -164,6 +164,8 @@
   font-style: normal;
   font-weight: 600;
   line-height: 144.5%;
+  text-wrap: balance;
+
 }
 
 .twoSecondTop {
@@ -288,7 +290,7 @@
 
 .innerDivFourLast {
   display: grid;
-  grid-template-columns: 45% 30%;
+  grid-template-columns: 41% 30%;
   justify-content: space-around;
   padding-bottom: 50px;
   margin-top: 50px;

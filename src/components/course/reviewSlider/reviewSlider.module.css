@@ -10,6 +10,9 @@
   justify-content: center;
   gap: 20px;
 }
+.Header{
+  margin-left: 60px;
+}
 .reviewContainer {
   display: grid;
   grid-template-columns: 25% 70%;
@@ -159,7 +162,7 @@
   margin: auto;
 }
 .videoImage {
-  width: 200px;
+  width: 190px;
   height: auto;
 }
 .btnnextContainer {
@@ -169,10 +172,11 @@
 }
 .reviewBotSection {
   display: grid;
-  grid-template-columns: 48% 44%;
+  grid-template-columns: 47% 40%;
   margin-top: 100px;
   align-items: center;
-  gap: 90px;
+  gap: 0px;
+  justify-content: center;
 }
 
 .firstBotReview p {
@@ -181,10 +185,14 @@
 
 .firstBotReview img {
   margin-top: 50px;
+  width: 500px;
 }
 
-.firstBotReview img,
 .secondBotReview img {
+  width: 100%;
+  height: auto;
+}
+.socailR{
   width: 100%;
   height: auto;
 }
@@ -258,8 +266,15 @@
   }
   .firstBotReview img {
     margin-top: 20px;
+    width: 100%;
   }
   .firstBotReview p {
     display: none;
+  }
+  .Header{
+    margin: 0;
+  }
+  .subHeading{
+    text-wrap: pretty;
   }
 }

@@ -196,8 +196,9 @@ display: block;
        gap: 8px;
         font-size: 18px;
         padding: 10px;
-        width: 254px;
+        width: 200px;
     }
+
 }
 
 @media screen and (max-width:360px) {
