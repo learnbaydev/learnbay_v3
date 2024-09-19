@@ -298,7 +298,7 @@ const NewCourse = ({
           </div>
         )}
 
-        {/* Render the Master Course after the View More button */}
+      
         {activeTab === "all" && renderMasterCourse()}
       </div>
     </section>
