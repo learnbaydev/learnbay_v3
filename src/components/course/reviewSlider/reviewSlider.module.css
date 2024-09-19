@@ -159,8 +159,8 @@
   margin: auto;
 }
 .videoImage {
+  width: 200px;
   height: auto;
-  width: 100%;
 }
 .btnnextContainer {
   margin-top: 40px;
@@ -189,22 +189,35 @@
   height: auto;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and ( max-width:1281px) {
+  
+.keyContainer {
+  width: 1180px;
+}
+
+}
+@media screen and (max-width: 1081px) {
   .keyContainer {
-    width: auto;
+    width: 1000px;
   }
   .mySwiper {
     width: 1000px;
   }
   .btnContainer {
   }
+  
 }
 
 @media screen and (max-width: 1000px) {
   .mySwiper {
-    width: 900px;
+    width: 860px;
+  }
+  .keyContainer {
+    width: 100%;
+    max-width: 860px;
   }
 }
+
 
 @media screen and (max-width: 641px) {
   .reviewBotSection {
@@ -212,6 +225,12 @@
     flex-direction: column;
     padding: 20px 30px;
     gap: 40px;
+  }
+  .keyContainer {
+    width: 100%;
+  }
+  .videoImage{
+    width: 100%;
   }
 
   .mySwiper {
@@ -231,7 +250,8 @@
     display: none;
   }
   .headingContainer h2 {
-    font-size: 30px;
+    font-size: 34px;
+    text-wrap: balance;
   }
   .mainHeading {
     font-size: 28px;

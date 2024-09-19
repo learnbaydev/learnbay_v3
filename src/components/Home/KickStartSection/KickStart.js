@@ -66,7 +66,7 @@ const KickStart = () => {
       <div className={styles.continer}>
         <h3>
           Kickstart your career with{" "}
-          <span className={styles.span}>our programs</span>
+        our programs
         </h3>
         <p className={styles.desktopText}>
           Our programs have helped thousands launch careers in tech

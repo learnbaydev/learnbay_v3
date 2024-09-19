@@ -91,13 +91,13 @@ background: #FFF;
   }
   .muteButton {
     position: absolute;
-    right: 30px;
-    top: 10px;
+    right: 50px;
+    top: 30px;
     font-size: 20px;
     border-radius: 50%;
     padding: 11px 12px;
     border: none;
-    z-index: 999;
+    z-index: 1;
     background-color: rgba(
       212,
       210,
@@ -115,7 +115,19 @@ background: #FFF;
     border: 1.067px solid #0072BC;
     background: #EDF6FF;
   }
+@media screen and (max-width:1281px) {
+  .trackbarDiv {
+    width: 350px;
+  }
+  
+}
 
+@media screen and (max-width:951px) {
+  .trackbarDiv {
+    width: 100%;
+    max-width: 250px;
+  }
+}
 
   @media screen and (max-width: 641px) {
     .videoContainer{

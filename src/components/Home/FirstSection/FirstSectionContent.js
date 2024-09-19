@@ -40,14 +40,28 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
 
           <div className={styles.listleft}>
             <div className={styles.pointsDiv}>
-              <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_one.webp" width={40} height={40} alt="icon" priority quality={80}/>
+              <Image
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_one.webp"
+                width={40}
+                height={40}
+                alt="icon"
+                priority
+                quality={80}
+              />
               <p>
                 Get ready to crack your{" "}
                 <span className={styles.orgleft}>dream job</span> interview
               </p>
             </div>
             <div className={styles.pointsDiv}>
-            <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_two.webp" width={40} height={40} alt="icon" priority quality={80}/>
+              <Image
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_two.webp"
+                width={40}
+                height={40}
+                alt="icon"
+                priority
+                quality={80}
+              />
               <p>
                 {" "}
                 Learn from industry experts on{" "}
@@ -112,16 +126,37 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
 
             <div className={styles.spandiv}>
               <div className={styles.listryt}>
-                <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/job_seeker.webp" width={30} height={30} alt="jobseaker" priority quality={80}/>
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/job_seeker.webp"
+                  width={30}
+                  height={30}
+                  alt="jobseaker"
+                  priority
+                  quality={80}
+                />
                 <span>Get personalized career guidance</span>
               </div>
 
               <div className={styles.listryt}>
-              <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/popular_man.webp" width={30} height={30} alt="jobseaker" priority quality={80}/>
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/popular_man.webp"
+                  width={30}
+                  height={30}
+                  alt="jobseaker"
+                  priority
+                  quality={80}
+                />
                 <span>30 min call with industry expert</span>
               </div>
               <div className={styles.listryt}>
-              <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/growth_and_flag.webp" width={30} height={30} alt="jobseaker" priority quality={80}/>
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/growth_and_flag.webp"
+                  width={30}
+                  height={30}
+                  alt="jobseaker"
+                  priority
+                  quality={80}
+                />
                 <span>Discover your upskilling path</span>
               </div>
             </div>
@@ -129,24 +164,37 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
           <div className={styles.listDown}>
             <div className={styles.bookFreebtn}>
               <div onClick={popupShow}>
-                <button>Book Free Session Now <span>&#8594;</span></button>
+                <button>
+                  Book Free Session Now <span>&#8594;</span>
+                </button>
                 <p>
                   No strings attached—explore your career options with expert
                   advice!
                 </p>
               </div>
-<div className={styles.conImg}>
-<Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/coun_round.webp" width={150} height={45} alt="loading" quality={100} className={styles.desktopImg}/>
-<Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_mobile_con.webp" width={150} height={45} alt="loading" quality={100} className={styles.mblImag}/>
-</div>
+              <div className={styles.conImg}>
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/coun_round.webp"
+                  width={150}
+                  height={45}
+                  alt="loading"
+                  quality={100}
+                  className={styles.desktopImg}
+                />
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_mobile_con.webp"
+                  width={150}
+                  height={45}
+                  alt="loading"
+                  quality={100}
+                  className={styles.mblImag}
+                />
+              </div>
             </div>
-
-          
-
           </div>
         </div>
-     <div className={styles.btnmblDiv}>
-     <button className={styles.btnMbl} onClick={popupShow}>
+        <div className={styles.btnmblDiv}>
+          <button className={styles.btnMbl} onClick={popupShow}>
             Apply for Counselling{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -161,17 +209,17 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
               />
             </svg>
           </button>
-     </div>
-   <div className={styles.typelogo}>
-   <Image
-          src={typeLogo}
-          width={isMobile ? 400 : 800} // Adjust width based on view
-          height={40}
-          alt="type-logo"
-          priority
-          quality={100}
-        />
-   </div>
+        </div>
+        <div className={styles.typelogo}>
+          <Image
+            src={typeLogo}
+            width={isMobile ? 400 : 800} // Adjust width based on view
+            height={40}
+            alt="type-logo"
+            priority
+            quality={100}
+          />
+        </div>
       </div>
     </section>
   );

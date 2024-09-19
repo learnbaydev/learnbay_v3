@@ -13,7 +13,7 @@
   border-radius: 81px;
   background: rgba(10, 10, 10, 0.9);
   width: 100%;
-  max-width: 1300px;
+  max-width: 1400px;
   margin: auto;
   margin-top: 70px;
   color: #000;
@@ -294,14 +294,62 @@
   margin-top: 50px;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1381px) {
   .container {
-    width: auto;
+    width: 1280px;
+  }
+
+}
+@media (max-width: 1281px) {
+  .container {
+    width: 1180px;
   }
   .oneSecond img {
     width: 340px;
     height: auto;
   }
+}
+@media (max-width: 1081px) {
+  .container {
+    width: 980px;
+  }
+  .oneFirst h3 {
+    font-size: 24px;
+  }
+
+  .SecondFour h3 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 951px) {
+
+  .container{
+    width: 840px;
+  }
+  .oneFirst h3 {
+    font-size: 14px;
+  }
+  .oneFirst p {
+    font-size: 12px;
+  }
+.twoSecond p {
+  font-size: 12px;
+}
+
+.SecondFour h3 {
+  font-size: 14px;
+}
+
+.SecondFour p {
+  font-size: 14px;
+}
+.innerDivOne{
+  gap: 30px;
+}
+.twoSecond h3 {
+  font-size: 20px;
+}
 }
 
 @media (max-width: 768px) {
@@ -311,11 +359,13 @@
   .bgImageMobile {
     display: block;
   }
+
 }
 
 @media (max-width: 641px) {
   .container {
     border-radius: 0;
+    width: 100%;
   }
   .oneFirst {
     background-repeat: no-repeat;

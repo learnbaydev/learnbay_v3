@@ -268,9 +268,39 @@ display: none;
 font-weight: 700;
 
 }
+
+@media (max-width: 1281px) {
+
+  .ContactUs {
+    width: 960px;
+    grid-template-columns: 44% 44%;
+  
+  }
+  .leftpaerson {
+    gap: 20px;
+    align-items: center;
+  }
+  .slider{
+    overflow:hidden;
+  }
+}
+
+
+@media (max-width: 1081px) {
+  .ContactUs {
+    width: 960px;
+    grid-template-columns: 48% 40%;
+    justify-content: center;
+    gap: 40px;
+  }
+
+}
 @media (max-width: 1024px) {
   .ContactUs {
     padding: 30px;
+  }
+  .slider{
+    overflow: -moz-hidden-unscrollable;
   }
 
   .h1Span {

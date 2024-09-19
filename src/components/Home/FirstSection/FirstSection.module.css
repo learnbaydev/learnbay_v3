@@ -337,6 +337,10 @@ line-height: 153%;
 
 
   }
+  .desktopImg {
+    width: 100px;
+    height: auto;
+  }
 
  
 
@@ -344,8 +348,30 @@ line-height: 153%;
 
 
 
+}
+
+@media screen  and (max-width:951px){
+.gridConteiner{
+  grid-template-columns:   52% 38%;
+  width: 100%;
+        max-width: 860px;
+}
+.gridConteiner h1 {
+  font-size: 32px;
+}
+.listleft{
+  margin: 40px 0;
+}
+
+.desktopImg {
+  width: 80px;
 
 }
+.bookFreebtn button {
+  font-size: 12px;
+}
+}
+
 
 @media screen  and (max-width:641px){
   .conteiner {

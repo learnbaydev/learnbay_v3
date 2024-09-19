@@ -2,11 +2,11 @@
   display: grid;
   grid-template-columns: 66% 32%;
   border-radius: 30px;
-  border: 1px solid #FE7A36;
-  background: #d3d3d330;
   margin: 50px 130px;
   padding: 50px 50px 0px 50px;
   align-items: center;
+  border-radius: 50px;
+background: #E5F1F8;
 }
 
 .FirstDiv h4 {
@@ -28,7 +28,9 @@
 }
 
 .btnWrapper button {
-    border: 1px solid #FE7A36;
+  border-radius: 10px;
+  background: #0072BC;
+  border:none;
 }
 
 .MobileReviewImageContainer {
@@ -80,6 +82,22 @@
   margin: 30px;
 }
 
+
+}
+
+@media (max-width: 961px) {
+
+  .FirstDiv h4 {
+    font-size: 24px;
+  }
+
+  .btnWrapper{
+    margin-top: 10px;
+  }
+  .MobileReviewImageContainer img {
+    width: 250px;
+    height: auto;
+  }
 
 }
 

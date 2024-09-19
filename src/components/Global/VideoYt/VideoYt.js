@@ -19,7 +19,6 @@ const VideoYt = () => {
   const [isEnded, setIsEnded] = useState(false);
   const [showThumbnail, setShowThumbnail] = useState(true);
 
-  const audioUrl = "/sounds/mouse-click-153941.mp3";
 
   const handlePlayPause = useCallback(() => {
     if (!videoRef.current) return;
@@ -111,9 +110,9 @@ const VideoYt = () => {
 
   return (
     <div className={Styles.videomain}>
-      {/* <button className={Styles.muteButton} onClick={handleMute}>
+      <button className={Styles.muteButton} onClick={handleMute}>
         {isMuted ? <FaVolumeMute /> : <FaVolumeUp />}
-      </button> */}
+      </button>
       <div className={Styles.videoContainer}>
         {showThumbnail && (
           <Image

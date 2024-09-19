@@ -32,9 +32,15 @@ const Popup = ({ message, onClose }) => {
 
           {/* Bottom Gradient Div */}
           <div className={styles.gradientDiv}>
-            <p className={styles.offerText}>
-              Offer valid till: <span>14th Sep, 9:00 pm</span>
+            <p className={styles.batch}>Batch Details</p>
+           <div className={styles.batchDiv}>
+           <p className={styles.offerText}>
+            Weekend Batch : <span>9:30 AM - 1 PM</span> 
             </p>
+            <p className={styles.offerText}>
+            Weekday Batch : <span>8:00 PM - 10:30 PM</span> 
+            </p>
+           </div>
             <Link href="/submit-info" target="_blank">
               <div className={styles.buttonDiv}>
                 <button>Apply for Scholarship Now</button>

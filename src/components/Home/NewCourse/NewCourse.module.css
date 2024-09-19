@@ -1,37 +1,431 @@
-.section{
-background: linear-gradient(180deg, #FFF 1.26%, #EFF3F6 17.6%, #EFF3F6 90.85%, #FFF 100%);
-padding: 20px;
+.section {
+  background: linear-gradient(
+    180deg,
+    #fff 1.26%,
+    #eff3f6 17.6%,
+    #eff3f6 90.85%,
+    #fff 100%
+  );
+  padding: 20px;
 }
 
 .tabdiv.active {
-    background: rgba(254, 122, 54, 0.10); /* Change background color for the active tab */
-    color: #fe7a36; /* Change text color for the active tab */
-
-    
-  }
-  .tabdiv.active p {
-    color: #fe7a36; /* Change text color for the active tab */
+  background: rgba(
+    254,
+    122,
+    54,
+    0.1
+  ); /* Change background color for the active tab */
+  color: #fe7a36; /* Change text color for the active tab */
+}
+.tabdiv.active p {
+  color: #fe7a36; /* Change text color for the active tab */
 }
 /* Updated styles for sticky tab section */
 .tabMain {
-    border-radius: 20px;
-    background: #fff;
-    display: flex;
-    width: 1200px; /* Change width to 100% */
-    padding: 15px;
-    align-items: center;
-    justify-content: space-around;
-    gap: 20px;
-    margin: auto;
-   
-    top: 0; /* Sticks to the top */
-    z-index: 999; /* Ensures it's on top of other elements */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
-    background-color: #fff; /* Ensures the background color stays solid */
+  border-radius: 20px;
+  background: #fff;
+  display: flex;
+  width: 1200px; /* Change width to 100% */
+  padding: 15px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  margin: auto;
+
+  top: 0; /* Sticks to the top */
+  z-index: 999; /* Ensures it's on top of other elements */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+  background-color: #fff; /* Ensures the background color stays solid */
+}
+
+/* Additional styling for container */
+.section {
+  background: linear-gradient(
+    180deg,
+    #fff 1.26%,
+    #eff3f6 17.6%,
+    #eff3f6 90.85%,
+    #fff 100%
+  );
+
+  padding: 20px;
+  margin-top: 0; /* Add some margin to avoid overlap */
+  padding-top: 0;
+}
+
+.conteiner {
+  max-width: 1350px; /* Ensure max-width for responsiveness */
+  width: auto;
+  margin: 0 auto; /* Center content */
+}
+
+.tabMain p {
+  margin-top: 0;
+  color: #353535;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 126.5%; /* 31.625px */
+}
+
+.tabdiv {
+  border-radius: 10px;
+  cursor: pointer;
+
+  padding: 10px;
+}
+
+.CourseCardHead {
+  display: flex;
+  width: 1400px;
+  margin: 50px auto;
+  gap: 100px 65px;
+  flex-wrap: wrap;
+  justify-content:  center;
+}
+
+.courseCard {
+  width: 410px;
+}
+.cardContent {
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  background: #fff;
+  padding: 16px 30px 21px 30px;
+}
+
+.cardContent h3 {
+  color: #212121;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 126.5%; /* 40.48px */
+  letter-spacing: -0.32px;
+}
+
+.lists {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 0;
+  gap: 10px;
+}
+
+.lists span {
+  color: #666;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%; /* 31px */
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 18px;
+  align-items: center;
+}
+.brochurebtn {
+  border-radius: 26px;
+  background: #212121;
+  color: #fff;
+  color: #fff;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%; /* 34.1px */
+  padding: 10px 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.viewDetailsButton {
+  border-radius: 26px;
+  background: transparent;
+  color: #000;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%; /* 34.1px */
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.viewMoreContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  margin-top: -40px;
+}
+
+.viewMoreButton {
+  border-radius: 12px;
+  background: #0072bc;
+  color: #fff;
+  padding: 10px 50px;
+  border: none;
+  color: #fff;
+  text-align: center;
+
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 126.5%; /* 31.625px */
+  cursor: pointer;
+}
+.tabMain {
+  width: 1000px;
+  background-color: #fff; /* Optional: Keep the background consistent */
+  padding: 10px 0;
+}
+
+.tabHead {
+  background-color: #fff;
+  display: none;
+
+  top: 0;
+  z-index: 999;
+  position: -webkit-sticky;
+  position: sticky;
+}
+.listicondiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.masterConteiner {
+  margin-top: 80px;
+}
+
+.MasterCard {
+  width: 1400px;
+  margin: auto;
+  position: relative;
+}
+.contentConteiner {
+  position: absolute;
+  top: 30px;
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contentConteiner h2 {
+  color: #212121;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 126.5%;
+  letter-spacing: -0.32px;
+}
+.contentConteiner p {
+  color: #0383ff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.mastericon {
+  display: flex;
+  gap: 6px;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+.gridConteiner {
+  background-color: red;
+  display: grid;
+  grid-template-columns: 50% 45%;
+}
+.absloute {
+  float: right;
+  position: absolute;
+  right: 130px;
+  bottom: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.absloute h4 {
+  color: #ffc436;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+}
+.absloute span {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 155%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 1381px) {
+  .courseCard {
+    width: 380px;
   }
-  
-  /* Additional styling for container */
+  .mainImage {
+    width: 100%;
+  }
+  .CourseCardHead {
+    width: 100%;
+    justify-content: center;
+  }
+  .cardContent h3 {
+    font-size: 24px;
+  }
+  .brochurebtn svg {
+    width: 12px;
+  }
+  .brochurebtn {
+    font-size: 14px;
+  }
+  .MasterCard {
+    width: 1280px;
+  }
+  .bgImageMaster{
+    width: 100%;
+    height: auto;
+  }
+
+}
+@media screen and (max-width: 1281px) {
+  .CourseCardHead {
+    user-select: auto;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+  }
+  .MasterCard {
+    width: 1180px;
+  }
+  .bgImageMaster {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1181px) {
+  .CourseCardHead {
+    grid-template-columns: 28% 28% 28%;
+  }
+
+  .courseCard {
+    width: 350px;
+  }
+
+  .cardContent h3 {
+    font-size: 22px;
+  }
+  .lists span {
+    font-size: 14px;
+  }
+  .viewDetailsButton {
+    font-size: 12px;
+    padding: 10px 25px;
+  }
+
+  .contentConteiner {
+    top: 30px;
+  }
+}
+
+@media screen and (max-width: 1081px) {
+
+    .MasterCard {
+        width: 980px;
+        height: autonew;
+    }
+    .bgImageMaster{
+        width: 100%;
+    }
+  .courseCard {
+    width: 320px;
+  }
+  .cardContent h3 {
+    font-size: 18px;
+  }
+  .lists span {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 951px) {
+
+.MasterCard{
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width: 641px) {
+  .CourseCardHead {
+    width: 100%;
+    gap: 50px;
+    display: flex;
+    padding: 20px;
+    margin-bottom:0;
+    margin-top: 0;
+  }
+  .tabMain {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 3px;
+    justify-content: center;
+  }
+  .tabMain p {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .tabMain p :nth-child(2) {
+    background-color: red;
+    color: #0072bc;
+  }
+
+  .courseCard {
+    width: 100%;
+  }
+  .courseCard img {
+    width: 100%;
+  }
+
+  .cardContent h3 {
+    font-size: 24px;
+  }
+  .cardContent {
+    padding: 20px 30px;
+  }
+
+  .buttons button {
+    font-size: 16px;
+    padding: 7px 19px;
+  }
+  .buttons {
+    gap: 10px;
+  }
+
+  .viewMoreContainer {
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
   .section {
+    padding: 0;
+  }
+
+  .listicondiv img {
+    width: 30px;
+    height: auto;
+  }
+  .tabHead {
     background: linear-gradient(
       180deg,
       #fff 1.26%,
@@ -39,318 +433,68 @@ padding: 20px;
       #eff3f6 90.85%,
       #fff 100%
     );
+
+    padding: 0 20px;
+  }
+  .container {
+    padding-bottom: 0;
+  }
+  .MasterCard {
+    width: 100%;
     padding: 20px;
-    margin-top: 20px; /* Add some margin to avoid overlap */
   }
-  
-  .conteiner {
-    max-width: 1350px; /* Ensure max-width for responsiveness */
-    width: auto;
-    margin: 0 auto; /* Center content */
-  }
-  
-
-.tabMain p {
-    margin-top: 0;
-    color: #353535;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: 126.5%; /* 31.625px */
-}
-
-
-.tabdiv{
-    border-radius: 10px;
-    cursor: pointer;
-
-padding: 10px;
-
-
-}
-
-
-.CourseCardHead{
-    display: flex;
-    width: 1400px;
-    margin: 50px auto;
-    gap: 100px 65px;
-    flex-wrap: wrap;
-    /* justify-content:  center; */
-
-
-
-}
-.courseCard{
-    width: 410px;
-}
-.cardContent{
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background: #FFF;
-    padding: 30px 40px;
-}
-
-.cardContent h3 {
+  .contentConteiner h2 {
     color: #212121;
-font-size: 26px;
-font-style: normal;
-font-weight: 600;
-line-height: 126.5%; /* 40.48px */
-letter-spacing: -0.32px;
-}
-
-.lists{
-    display: flex;
-    flex-direction: column;
-    margin: 24px 0;
-    gap: 10px;
-}
-
-.lists span {
-    color: #666;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 155%; /* 31px */
-}
-
-.buttons {
-    display: flex;
-    justify-content: flex-start;
-    gap:18px;
-
-
-}
-.brochurebtn {
-    border-radius: 26px;
-background: #212121;
-color: #fff;
-color: #FFF;
-font-size: 17px;
-font-style: normal;
-font-weight: 400;
-line-height: 155%; /* 34.1px */
-padding: 10px 18px;
-display: flex;
-    align-items: center;
-    gap: 10px;
-cursor: pointer;
-border: none;
-}
-
-.viewDetailsButton{
-    border-radius: 26px;
-background: transparent;
-color: #000;
-font-size: 17px;
-font-style: normal;
-font-weight: 400;
-line-height: 155%; /* 34.1px */
-padding: 10px 30px;
-cursor: pointer;
-}
-
-.viewMoreContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 40px;
-}
-
-.viewMoreButton{
-    border-radius: 12px;
-background: #0072BC;
-color: #fff;
-padding: 10px 50px;
-border: none;
-color: #FFF;
-text-align: center;
-
-font-size: 22px;
-font-style: normal;
-font-weight: 400;
-line-height: 126.5%; /* 31.625px */
-cursor: pointer;
-}
-.tabMain {
-
-    background-color:#fff ; /* Optional: Keep the background consistent */
-    padding: 10px 0;
-  }
-  
-
-
-  .tabHead{
-    background-color:#fff;
-
-    top: 0;
-    z-index:999; 
-    position: -webkit-sticky; 
-    position: sticky;
-  }
-  .listicondiv{
-  display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  
-@media screen and (max-width:1381px) {
-.courseCard{
-    width: 380px;
-
-}
-.mainImage{
-    width: 100%;
-}
-.CourseCardHead{
-    width: 100%;
-    justify-content: center;
-
-}
-.cardContent h3 {
-    font-size: 24px;
-}
-.brochurebtn svg {
-    width: 12px;
-}
-.brochurebtn {
-    font-size: 14px;
-}
-
-}
-@media screen and (max-width:1281px) {
-
-.CourseCardHead {
-    user-select: auto;
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    justify-content: center;
-}
-
-}
-
-@media screen and (max-width:1181px) {
-
-    .CourseCardHead {
-
-        grid-template-columns: 28% 28% 28%;
-    }
-
-    .courseCard{
-        width: 350px;
-    }
-    
-    .cardContent h3 {
-        font-size: 22px;
-    }
-    .lists span {
-        font-size: 14px;
-    }
-    .viewDetailsButton {
-    font-size: 12px;
-    }
-    }
-
-
-
-    @media screen and (max-width:1181px) {
-
-
-        .courseCard{
-            width: 320px;
-        }
-        .cardContent h3 {
-            font-size: 18px;
-        }
-        .lists span {
-            font-size: 14px;
-        }
-    }
-
-
-
-@media screen and (max-width:641px) {
-
-.CourseCardHead {
-    width: 100%;
-    gap: 50px;
-    display: flex;
-    padding: 20px;
-    margin-bottom: 0;
-}
-.tabMain {
-    width: 100%;
-    flex-wrap: wrap;
-    gap: 3px;
-    justify-content: center;
-
-}
-.tabMain p {
-    font-size: 14px;
+    font-size: 20px;
+    font-style: normal;
     font-weight: 600;
-}.tabMain p :nth-child(2){
-    background-color: red;
-    color: #0072BC;
+    line-height: 126.5%;
+    letter-spacing: -0.22px;
+    text-wrap: balance;
+  }
+  .contentConteiner {
+    top: 80px;
+    padding: 10px 20px;
+  }
+  .contentConteiner img {
+    width: 30px;
+    height: auto;
+  }
+  .absloute {
+    top: 156px;
+    left: 40px;
+  }
+  .absloute h4 {
+    color: #7a7a7a;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 155%;
+    text-wrap: balance;
+  }
+  .absloute span {
+    color: #212121;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 155%;
+  }
+  .mastericon {
+    margin-top: 120px;
+    align-items: center;
+
+  }
+  .contentConteiner p {
+    font-size: 14px;
+  }
 }
 
-.courseCard{
-    width: 100%;
-}
-.courseCard img {
-    width: 100%;
-}
-
-.cardContent h3 {
-    font-size: 24px
-}
-    .cardContent {
-        padding: 20px 30px;
-    }
-
-    .buttons button {
-        font-size: 16px;
-        padding: 7px 19px;
-    }
-    .buttons{
-        gap: 10px;
-    }
-
-    .viewMoreContainer{
-        margin: 0;
-    }
-   
-    .section {
-        padding: 0;
-    }
-   
-    .listicondiv img {
-        width: 30px;
-        height: auto;
-    }
-    .tabHead {
-        background: linear-gradient(
-            180deg,
-            #fff 1.26%,
-            #eff3f6 17.6%,
-            #eff3f6 90.85%,
-            #fff 100%
-          );
-    
-        padding:0  20px;
-    }
-    .container{
-        padding-bottom: 0;
-    }
-
-}
-
-@media screen and (max-width:360px) {
-
-    .cardContent h3 {
-        font-size: 20px
-    }
-    .buttons button {
-        font-size: 12px;
-    }
+@media screen and (max-width: 360px) {
+  .cardContent h3 {
+    font-size: 20px;
+  }
+  .buttons button {
+    font-size: 12px;
+  }
 }
