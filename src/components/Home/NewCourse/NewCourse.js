@@ -51,35 +51,7 @@ const NewCourse = ({
       <>
         {visibleCourses.map((course, index) => (
           <div className={styles.courseCard} key={index}>
-            <Popup
-              trigger={popups}
-              setTrigger={setPopups}
-              className="popupModal"
-              downloadBrochure
-            >
-              <div className="leftPopup">
-                <div
-                  className="whiteP"
-                  style={{ width: "340px", height: "400px" }}
-                ></div>
-              </div>
-              <div className="RightPopup">
-                <h5>Download Syllabus</h5>
-                <Form
-                  titleCourse={titleCourse}
-                  brochureLink={brochureLinks}
-                  brochurePdf={brochurePdfs}
-                  dataScience={dataScience}
-                  dataScienceCounselling={dataScienceCounselling}
-                  dataScienceGeneric={dataScienceGeneric}
-                  radio={radio}
-                  downloadBrochure
-                  upSkillingHide={true}
-                  interstedInHide={interstedInHide}
-                />
-              </div>
-            </Popup>
-
+         
             <Image
               src={course.image}
               width={410}
@@ -297,6 +269,34 @@ const NewCourse = ({
             </button>
           </div>
         )}
+   <Popup
+              trigger={popups}
+              setTrigger={setPopups}
+              className="popupModal"
+              downloadBrochure
+            >
+              <div className="leftPopup">
+                <div
+                  className="whiteP"
+                  style={{ width: "340px", height: "400px" }}
+                ></div>
+              </div>
+              <div className="RightPopup">
+                <h5>Download Syllabus</h5>
+                <Form
+                  titleCourse={titleCourse}
+                  brochureLink={brochureLinks}
+                  brochurePdf={brochurePdfs}
+                  dataScience={dataScience}
+                  dataScienceCounselling={dataScienceCounselling}
+                  dataScienceGeneric={dataScienceGeneric}
+                  radio={radio}
+                  downloadBrochure
+                  upSkillingHide={true}
+                  interstedInHide={interstedInHide}
+                />
+              </div>
+            </Popup>
 
       
         {activeTab === "all" && renderMasterCourse()}

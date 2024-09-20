@@ -250,9 +250,7 @@ line-height: 153%;
   z-index: -1;
   width: 100%;
   height: 690px;
-  /* Default background image for desktop */
-  background: url("")
-    no-repeat center center;
+
   background-size: contain;
   background: linear-gradient(89deg, #212121 11.25%, rgba(33, 33, 33, 0.90) 62.25%, #212121 95.94%);
   

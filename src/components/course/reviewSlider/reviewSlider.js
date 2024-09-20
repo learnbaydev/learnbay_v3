@@ -2,10 +2,15 @@
 
 import styles from "./reviewSlider.module.css";
 import Image from "next/image";
+import dynamic from "next/dynamic";
 
-
-import VideoYt from "@/components/Global/VideoYt/VideoYt";
-import Reels from "./Reels";
+// Dynamically import components for code splitting and client-side rendering
+const VideoYt = dynamic(() => import("@/components/Global/VideoYt/VideoYt"), {
+  ssr: false,
+});
+const Reels = dynamic(() => import("./Reels"), {
+  ssr: false,
+});
 
 const WhyLearnbay = () => {
   return (
@@ -21,11 +26,10 @@ const WhyLearnbay = () => {
               src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/Social_review.webp"
               alt="Learnbay"
               quality={100}
-              priority
-              width="800"
-              height="408"
+              loading="lazy" // Enable lazy loading
+              width={800}
+              height={408}
               className={styles.socailR}
-
             />
           </div>
           <div className={styles.secondBotReview}>

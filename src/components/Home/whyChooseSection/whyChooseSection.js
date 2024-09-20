@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useMemo } from "react";
 import styles from "./whyChooseSection.module.css";
 import Image from "next/image";
 
 function WhyChooseSection() {
-  const SVgRightMark = (
+  const SVgRightMark = useMemo(() => (
     <svg
       height="25"
       width="25"
@@ -48,7 +48,7 @@ function WhyChooseSection() {
         />
       </defs>
     </svg>
-  );
+  ), []);
 
   return (
     <section className={styles.whyChooseSection}>
@@ -77,26 +77,15 @@ function WhyChooseSection() {
           </div>
         </div>
 
-        <h2>
-          Why choose Learnbay?
-        </h2>
+        <h2>Why choose Learnbay?</h2>
 
         <div className={styles.innerDivOne}>
           <div className={styles.oneFirst}>
             <h3>Gain project-specific expertise with real-world experience</h3>
             <div>
-              <p>
-                {SVgRightMark} Work on hands-on projects designed by industry
-                experts.
-              </p>
-              <p>
-                {SVgRightMark} Gain practical, job-ready skills through
-                real-world practice.
-              </p>
-              <p>
-                {SVgRightMark} Create a standout portfolio to boost your job
-                search.
-              </p>
+              <p>{SVgRightMark} Work on hands-on projects designed by industry experts.</p>
+              <p>{SVgRightMark} Gain practical, job-ready skills through real-world practice.</p>
+              <p>{SVgRightMark} Create a standout portfolio to boost your job search.</p>
             </div>
           </div>
           <div className={styles.oneSecond}>
@@ -123,18 +112,20 @@ function WhyChooseSection() {
             />
           </div>
           <div className={styles.twoSecond}>
-            <p className={styles.twoSecondTop}>
-              How can you make your previous experience count?
-            </p>
+            <p className={styles.twoSecondTop}>How can you make your previous experience count?</p>
             <h3>Domain electives</h3>
             <p>
-              Select your domain electives and engage in live projects across
-              various industries to gain hands-on experience. This practical
-              approach will deepen your understanding of real-world challenges
-              and enhance your expertise.
+              Select your domain electives and engage in live projects across various industries to gain hands-on experience. This practical approach will deepen your understanding of real-world challenges and enhance your expertise.
             </p>
             <div className={styles.domains}>
-<Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/mbl_why_domins.webp" width={300} height={90} alt="domain" loading="lazy" quality={100}/>
+              <Image
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/mbl_why_domins.webp"
+                width={300}
+                height={90}
+                alt="domain"
+                loading="lazy"
+                quality={100}
+              />
             </div>
           </div>
         </div>
@@ -143,14 +134,9 @@ function WhyChooseSection() {
           <div className={styles.SecondFour}>
             <h3>How will our placement assistance help you succeed?</h3>
             <div className={styles.listhree}>
-              <p>
-                {SVgRightMark} Personalized career guidance and resume support.
-              </p>
+              <p>{SVgRightMark} Personalized career guidance and resume support.</p>
               <p>{SVgRightMark} Mock interviews with expert feedback.</p>
-              <p>
-                {SVgRightMark} Exclusive job opportunities via our hiring
-                network.
-              </p>
+              <p>{SVgRightMark} Exclusive job opportunities via our hiring network.</p>
             </div>
           </div>
           <div className={styles.oneFour}>
