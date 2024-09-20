@@ -35,7 +35,11 @@
 .sliderInner {
   display: flex;
   width: 200%; /* This should be set to 200% of the width of the viewport to handle the duplicated content */
-  animation: slide 44s linear infinite;
+  animation: slide 44s linear infinite paused; /* Initially paused */
+}
+
+.sliderInner.active {
+  animation-play-state: running; /* Resume animation when in view */
 }
 
 .topDiv {
@@ -78,7 +82,11 @@
 
 .sliderInnerDown {
   display: flex;
-  animation: slideDown 20s linear infinite;
+  animation: slideDown 20s linear infinite paused;
+}
+
+.sliderInnerDown.active {
+  animation-play-state: running;
 }
 
 @keyframes slideDown {
@@ -154,8 +162,6 @@
   .cards {
     margin: 18px 20px;
   }
-
-
 }
 
 @media screen and (max-width: 860px) {
@@ -166,21 +172,26 @@
   .conteiner h2 {
     font-size: 27px;
   }
- .cardsDown p {
+  .cardsDown p {
     font-size: 14px;
   }
-  .cards p{
+  .cards p {
     font-size: 14px;
   }
-
-
 }
+
 @media screen and (max-width: 641px) {
+  .sliderInnerDown {
+    animation: slideDown 8s linear infinite paused;
+  }
+
+  .sliderInner {
+    animation: slide 10s linear infinite paused; /* Initially paused */
+  }
   .conteiner {
     width: 100%;
     padding: 20px 0 40px 0;
     margin: 20px 0;
-
   }
 
   .section {
@@ -211,6 +222,7 @@
     line-height: 126.5%; /* 56.925px */
     text-wrap: balance;
   }
+
   .mblonly p {
     color: #000;
     font-size: 14px;
@@ -218,7 +230,6 @@
     font-weight: 500;
     line-height: 126.5%; /* 20.24px */
   }
-
 
   .cards p {
     font-size: 10px;
@@ -238,9 +249,5 @@
   .cardsDown {
     padding: 0 10px;
     margin: 10px;
-  }
-  .cardsDown img {
-    width: 50px;
-    height: auto;
   }
 }
