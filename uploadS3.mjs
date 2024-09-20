@@ -7,11 +7,11 @@ import "dotenv/config";
 AWS.config.update({
   accessKeyId: process.env.AWS_ACCESS_KEY_ID,
   secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
-  region: "us-east-2", // Set your desired region
+  region: "ap-south-1", // Set your desired region
 });
 
 const s3 = new AWS.S3();
-const bucketName = "learnbay-s3"; // Replace with your bucket name
+const bucketName = "adlearnbay-static"; // Replace with your bucket name
 
 async function uploadFileToS3(localPath, s3Key) {
   const fileContent = fs.readFileSync(localPath, { encoding: null });
