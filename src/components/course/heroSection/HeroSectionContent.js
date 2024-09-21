@@ -12,6 +12,9 @@ function HeroSectionContent({
   interstedInHide,
   dataScienceCounselling,
   upSkillingHide,
+  title,
+  orgTitle,
+  descrption,
 }) {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
   const [showThumbnail, setShowThumbnail] = useState(true);
@@ -85,12 +88,23 @@ function HeroSectionContent({
         <div className="containerWidth">
           <div className={styles.innerDiv}>
             <div className={styles.firstSection}>
+            <div className={styles.spanDiv}>
+            <Image
+                    src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/hero_brain.webp"
+                    alt="Curriculum Inclusive of Gen-AI"
+                    width={30}
+                    height={40}
+                    loading="lazy"
+                    placeholder="blur"
+                    blurDataURL="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/hero_brain.webp"
+                  />
               <h5>{spanTag}</h5>
+            </div>
               <h1>
-                Executive Program in Data Science & AI for{" "}
-                <span className={styles.span}>Managers and Leaders</span>
+           {title} 
+                 <span className={styles.span}> {orgTitle}</span>
               </h1>
-              <div className={styles.starDivSection}>
+              {/* <div className={styles.starDivSection}>
                 <div className={styles.starDiv}>
                   <Image
                     src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/hero_brain.webp"
@@ -102,6 +116,7 @@ function HeroSectionContent({
                     blurDataURL="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/hero_brain.webp"
                   />
                   <p>Curriculum Inclusive of Gen-AI</p>
+                
                 </div>
                 <div className={styles.starDiv}>
                   <Image
@@ -115,6 +130,9 @@ function HeroSectionContent({
                   />
                   <p>Campus Immersion @IIT</p>
                 </div>
+              </div> */}
+              <div className={styles.Descrption}>
+                <p>{descrption}</p>
               </div>
               <div className={styles.btnDiv}>
                 <div className={styles.outlineButton} onClick={popupShow}>

@@ -175,6 +175,27 @@
     color: #FE7A36;
 }
 
+.botDiv{
+    position: relative;
+}
+.botDiv h4 {
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
+    color: #FFF;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 144.5%; /* 52.02px */
+
+
+}
+.spanOrange{
+    color: #FE7A36;
+font-weight: 600;
+}
+
+
 @media screen and (max-width: 1608px) {
     .mySwiper {
         width: 1000px;

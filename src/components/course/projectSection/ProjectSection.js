@@ -23,14 +23,13 @@ const ProjectSection = ({
   brochureLink,
   brochurePdf,
 }) => {
-
   const [popups, setPopups] = useState(false);
   const popupShow = () => {
     setPopups(true);
   };
   return (
     <section className={styles.projectSection}>
-            <Popup
+      <Popup
         trigger={popups}
         setTrigger={setPopups}
         className="popupModal"
@@ -105,11 +104,16 @@ const ProjectSection = ({
                     className={styles.projectIcon}
                   />
                 </div>
-                <div className={styles.cardText}><span style={{color:"#0072BC"}}><b>Outcome:</b></span> {item.cta}</div>
+                <div className={styles.cardText}>
+                  <span style={{ color: "#0072BC" }}>
+                    <b>Outcome:</b>
+                  </span>{" "}
+                  {item.cta}
+                </div>
               </div>
             </SwiperSlide>
           ))}
-        </Swiper>  
+        </Swiper>
       </div>
       <div className={styles.botDiv}>
         <Image
@@ -120,7 +124,14 @@ const ProjectSection = ({
           loading="lazy"
         />
         <h4 className={styles.h4Bot}>Practical Project Experience</h4>
-        <p className={styles.pBot}><span className={styles.spanOrange}>Important Note:</span> The final number of quizzes, assignments and discussions will be confirmed closer to the programme start. To know more <span className={styles.blueSpan } onClick={popupShow}>check eligibility</span></p>
+        <p className={styles.pBot}>
+          <span className={styles.spanOrange}>Important Note:</span> The final
+          number of quizzes, assignments and discussions will be confirmed
+          closer to the programme start. To know more{" "}
+          <span className={styles.blueSpan} onClick={popupShow}>
+            check eligibility
+          </span>
+        </p>
       </div>
     </section>
   );
