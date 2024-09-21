@@ -11,7 +11,7 @@ AWS.config.update({
 });
 
 const s3 = new AWS.S3();
-const bucketName = "adlearnbay-static"; // Replace with your bucket name
+const bucketName = "adleanbay-static"; // Replace with your bucket name
 
 async function uploadFileToS3(localPath, s3Key) {
   const fileContent = fs.readFileSync(localPath, { encoding: null });
