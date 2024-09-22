@@ -147,6 +147,9 @@ export default function Home() {
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
+<link rel="preload" href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/shades.webp" as="image"/>
+<link rel="preload" href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/mbl_shadows.webp" as="image"/>
+
 
         <script
           type="application/ld+json"
