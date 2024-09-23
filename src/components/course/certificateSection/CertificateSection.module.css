@@ -21,6 +21,12 @@
 .certBox {
   position: relative; /* Ensure relative positioning for cards */
 }
+.certBoxDemo{
+  display: grid;
+    grid-template-columns: 40% 50%;
+    justify-content: center;
+    gap: 30px;
+}
 
 /* To handle the third card */
 .certBox:nth-child(3) {
@@ -44,8 +50,8 @@
 }
 
 .innerDiv {
-  display: grid;
-  grid-template-columns: 42% 42%;
+  display: flex;
+  flex-direction: column;
   gap: 80px;
   margin: auto;
   justify-content: center;
@@ -97,6 +103,32 @@ margin: 30px auto 50px auto;
       fill: #20A898;
       font-size: 22px;
   }
+
+  .divider {
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 255, 255), rgb(7, 7, 7));
+    margin: 20px 0;
+  }
+  
+
+  .certBoxWrapper{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    gap: 100px;
+  }
+  .certBoxWrapperthree{
+    display: flex;
+  }
+
+  .toolIconThree{
+
+    width: 450px;
+    height: fit-content;
+  }
+  
 
 @media only screen and (max-width: 641px) {
 .mainBg{

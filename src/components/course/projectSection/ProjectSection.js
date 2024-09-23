@@ -14,14 +14,14 @@ import "swiper/css/pagination";
 import Image from "next/image";
 import Popup from "../../Global/Popup/Popup";
 import Form from "@/components/Global/Form/Form";
+import PopupContent from "@/components/Global/PopupContent/PopupContent";
 
 const ProjectSection = ({
-  dataScience,
-  dataScienceCounselling,
   interstedInHide,
-  titleCourse,
   brochureLink,
   brochurePdf,
+  ADS,
+  formotp,
 }) => {
   const [popups, setPopups] = useState(false);
   const popupShow = () => {
@@ -29,46 +29,34 @@ const ProjectSection = ({
   };
   return (
     <section className={styles.projectSection}>
-      <Popup
-        trigger={popups}
-        setTrigger={setPopups}
-        className="popupModal"
-        popup={true}
-        // radio={radio}
-        dataScience={dataScience}
-        dataScienceCounselling={dataScienceCounselling}
-      >
-        <div className="leftPopup">
-          <div
-            className="whiteP"
-            style={{ width: "340px", height: "400px" }}
-          ></div>
-        </div>
-        <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
-          <Form
-            titleCourse={titleCourse}
-            brochureLink={brochureLink}
-            brochurePdf={brochurePdf}
-            dataScience={dataScience}
-            interstedInHide={interstedInHide}
-            dataScienceCounselling={dataScienceCounselling}
-            upSkillingHide={true}
-            // radio={radio}
-          />
-        </div>
-      </Popup>
-      <h3 className={styles.projectHeading}>
-        Industry <span className={styles.boldHeading}>Projects</span>
-      </h3>
+      <PopupContent
+        popups={popups}
+        setPopups={setPopups}
+        heading="Download Syllabus"
+        downloadBrochure
+        dataScience={true}
+        interstedInHide={interstedInHide}
+        brochureLink={brochureLink}
+        brochurePdf={brochurePdf}
+        ADS={ADS}
+        formotp={formotp}
+      />
+      <h2 className={styles.headline}>
+        Industry <span>Projects</span>
+      </h2>
       <div className={styles.subheadingContainer}>
         <div className={styles.orangeBox}>95% industry relevance</div>
-        <div className={styles.blueBox}>22+ tools, 100% hands-on</div>
+        <div className={styles.blueBox}>22+ tools and modules</div>
         <div className={styles.greenBox}>100% real-world experience</div>
       </div>
       <div className={styles.projectsConatiner}>
         <Swiper
-          slidesPerView={3}
+          breakpoints={{
+            320: { slidesPerView: 1.1, spaceBetween: 30 },
+            768: { slidesPerView: 2, spaceBetween: 20 },
+            1024: { slidesPerView: 3, spaceBetween: 30 },
+            1440: { slidesPerView: 3, spaceBetween: 30 },
+          }}
           spaceBetween={30}
           pagination={{
             clickable: true,
@@ -124,6 +112,23 @@ const ProjectSection = ({
           loading="lazy"
         />
         <h4 className={styles.h4Bot}>Practical Project Experience</h4>
+        <p className={styles.pBot}>
+          <span className={styles.spanOrange}>Important Note:</span> The final
+          number of quizzes, assignments and discussions will be confirmed
+          closer to the programme start. To know more{" "}
+          <span className={styles.blueSpan} onClick={popupShow}>
+            check eligibility
+          </span>
+        </p>
+      </div>
+      <div className={styles.botDivMobile}>
+        <Image
+          src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/practical_bot_mobile.webp"
+          alt="practical"
+          width={555}
+          height={313}
+          loading="lazy"
+        />
         <p className={styles.pBot}>
           <span className={styles.spanOrange}>Important Note:</span> The final
           number of quizzes, assignments and discussions will be confirmed

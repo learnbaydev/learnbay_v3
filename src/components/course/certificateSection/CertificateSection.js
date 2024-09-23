@@ -12,9 +12,10 @@ function CertificateSection({ certificateNew }) {
           <span className={styles.spanHead}>&nbsp;career growth</span>
         </h2>
         <div className={styles.innerDiv}>
-          {certificateNew.map((certificate, index) => (
-            <React.Fragment key={certificate.id}>
-              <div className={styles.certBox}>
+          {/* First two certificates */}
+          <div className={styles.certBoxWrapper}>
+            {certificateNew.slice(0, 2).map((certificate) => (
+              <div key={certificate.id} className={styles.certBox}>
                 <Image
                   src={certificate.imageUrl}
                   alt={certificate.title}
@@ -33,9 +34,36 @@ function CertificateSection({ certificateNew }) {
                   ))}
                 </div>
               </div>
-              {(index === 1) && <div className={styles.middleLine}></div>} {/* Line after the second certificate */}
-            </React.Fragment>
-          ))}
+            ))}
+          </div>
+
+          {/* HR line */}
+          <hr className={styles.divider} />
+
+          {/* Remaining certificates */}
+          <div className={styles.certBoxWrapperthree}>
+            {certificateNew.slice(2).map((certificate) => (
+              <div key={certificate.id} className={styles.certBoxDemo}>
+                <Image
+                  src={certificate.imageUrl}
+                  alt={certificate.title}
+                  width={certificate.imageWidth}
+                  height={certificate.imageHeight}
+                  className={`${styles.toolIcon} ${styles.toolIconThree}`}
+                  loading="lazy"
+                />
+                <div className={styles.iconDivMain}>
+                  <h4>{certificate.title}</h4>
+                  {certificate.description.map((desc, descIndex) => (
+                    <div key={descIndex} className={styles.iconDiv}>
+                      <FaCheckCircle />
+                      <p>{desc}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

@@ -30,7 +30,7 @@ const ManagersNewSecondPart = ({ sections, FAQNewData, certificateNew }) => {
     <>
       <ReviewSlider />
       <MentorsSection />
-      <UpskillingSection />
+      {/* <UpskillingSection /> */}
       <ProjectSection dataScienceCounselling={true} interstedInHide={true} />
       <SyllabusSection
         sections={sections}
@@ -38,8 +38,8 @@ const ManagersNewSecondPart = ({ sections, FAQNewData, certificateNew }) => {
         brochurePdf={pdfUrl}
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
       />
-      <ToolsSection />
-      <CertificateSection certificateNew={certificateNew} />
+      {/* <ToolsSection /> */}
+      {/* <CertificateSection certificateNew={certificateNew} /> */}
       <FeeSection
         // EMIPOPUP
         emiType="Live online classes"

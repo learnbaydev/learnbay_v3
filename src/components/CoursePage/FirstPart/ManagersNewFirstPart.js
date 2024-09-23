@@ -5,7 +5,7 @@ import DecisionSection from "@/components/course/decisionSection/DecisionSection
 import { TRUE } from "sass";
 import ProgramSummary from "@/components/course/pSummary/ProgramSummary";
 const Navbar = dynamic(() =>
-  import("@/components/course/navbarSection/NavbarSection")
+  import("@/components/Global/Navbar/Navbar")
 );
 const ProgramSection = dynamic(() =>
   import("@/components/course/programSection/programSection")
