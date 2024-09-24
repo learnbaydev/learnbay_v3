@@ -1653,31 +1653,37 @@ export const DataScienceCourseData = [
 
     Certificate: {
       degreeCertificate: {
-        id: 3,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/certificate-guwati.webp",
-        title: "Certification from E&ICT Academy IIT Guwahati",
+        id: 1,
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm-min.webp",
+        title: "Course Completion Certificate from IBM",
         para: [
-          "Upon successfully completing this program, you’ll earn a Executive program Certification in DS and AI in collaboration with E&ICT Academy IIT Guwahati.   ",
-
-          "Access to lectures from top faculties of E&ICT Academy IIT Guwahati.",
-          "Experential learning opportunity at IIT Guwahati campus",
+          "Complete your training with the internationally recognized certificate.",
+          "Validate your Data Science and AI skills with IBM Course Completion Certificate.",
+          "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
         ],
-
-        link: false,
-        linkText: "https://legal.woolf.university/accreditation",
-        linkUrl: "https://legal.woolf.university/accreditation",
+      },
+      microCertificate: {
+        id: 2,
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
+        title: "Certification in Collaboration with Microsoft",
+        para: [
+          "Industry-certified Microsoft certificates",
+          "Gain expertise & get recognized worldwide",
+          "Boost job opportunities and earnings with Microsoft’s certification",
+        ],
       },
       projectCertificate: {
-        id: 1,
+        id: 3,
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Certification-min.webp",
         title: "Capstone Project Certificate from IBM",
         para: [
           "Globally recognized IBM certification based on industrial-level projects.",
-          "Work on 1 capstone project certified by IBM.",
+          "Earn 1 capstone project certification from IBM.",
           "Individualized project experience with easy access to premium job opportunities.",
         ],
       },
     },
+
 
     masterSyllabusMobile: [
       {

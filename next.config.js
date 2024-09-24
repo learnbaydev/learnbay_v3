@@ -1339,6 +1339,97 @@ const nextConfig = {
           "/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati",
         permanent: true,
       },
+
+
+      {
+        source: "/success-story",
+        destination:
+          "/reviews",
+        permanent: true,
+      },
+
+
+
+      {
+        source: "/data-science-course/enrol-ai-ml/",
+        destination:
+          "/datascience/artificial-intelligence-certification-course",
+        permanent: true,
+      },
+      {
+        source: "/terms-conditions-job",
+        destination:
+          "/terms-conditions",
+        permanent: true,
+      },
+      {
+        source: "/data-science-certification-courses",
+        destination:
+          "/datascience/data-science-certification-courses",
+        permanent: true,
+      },
+      {
+        source: "/data-science-course/datascience-certification-in-mumbai",
+        destination:
+          "/datascience/mumbai/data-science-course-training-in-mumbai",
+        permanent: true,
+      },
+      {
+        source: "/cloud&devops/advance-cloud-computing-certification-program",
+        destination:
+          "/cloud&devops/cloud-computing-online-course-training-institute",
+        permanent: true,
+      },
+      {
+        source: "/hr-analytics-course",
+        destination:
+          "/datascience/hr-analytics",
+        permanent: true,
+      },
+      {
+        source: "/datascience/dhaka/data-science-course-training-in-dhaka",
+        destination:
+          "/datascience/bangladesh/data-science-course-training-in-dhaka",
+        permanent: true,
+      },
+      {
+        source: "/data-science-course/demo-session-and-sample-class-recordings",
+        destination:
+          "/demo",
+        permanent: true,
+      },
+      {
+        source: "/data-science-course/privacy-policy-2",
+        destination:
+          "/privacy-policy",
+        permanent: true,
+      },
+      {
+        source: "/success-story",
+        destination:
+          "/reviews",
+        permanent: true,
+      },
+      {
+        source: "/data-science-course/artificial-intelligence-certification",
+        destination:
+          "/datascience/artificial-intelligence-certification-course",
+        permanent: true,
+      },
+      {
+        source: "/data-science-course/data-science-and-ai",
+        destination:
+          "/datascience/advance-data-science-certification-courses",
+        permanent: true,
+      },
+      {
+        source: "/data-science-course/datascience-courses-in-chennai/",
+        destination:
+          "/datascience/chennai/data-science-course-training-in-chennai",
+        permanent: true,
+      },
+ 
+
     ];
   },
 };

@@ -1,3 +1,5 @@
+
+
 .popupOverlay {
   position: fixed;
   bottom: 0; /* Align to the bottom */
@@ -71,11 +73,16 @@
   padding: 40px 20px;
   color: white;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .tagLine {
   position: absolute;
-  top: 42%;
+  top: 37%;
   left: 24%;
   transform: translate(-50%, -50%);
   padding: 8px 30px;
@@ -122,19 +129,31 @@
 
 .offerText {
   color: #FFF;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 126.5%; /* 22.77px */
   letter-spacing: -0.18px;
 }
 
 .offerText span {
-  color: #FFF;
-  font-size: 25px;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 126.5%; /* 27.83px */
+  letter-spacing: -0.22px;
+}
+.batch{
+  color: #fff;
+  font-size: 22px;
   font-style: normal;
   font-weight: 700;
   line-height: 126.5%; /* 27.83px */
   letter-spacing: -0.22px;
+}
+.batchDiv{
+  display: flex;
+  flex-direction: column;
 }
 
 .tagLine p {
@@ -176,7 +195,7 @@
   }
   .tagLine {
     left: 15%;
-    top: 40%;
+    top: 34%;
   }
   .offerText span {
     font-size: 18px;
@@ -202,7 +221,7 @@
   }
   .tagLine {
     left: 15%;
-    top: 40%;
+    top: 34%;
   }
   .offerText span {
     font-size: 14px;
