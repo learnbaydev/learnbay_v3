@@ -1,100 +1,138 @@
+/* Container and layout styles */
 .container {
-  border-radius: 74px;
-  background: linear-gradient(
-    180deg,
-    #fff 0%,
-    #eff3f6 42.69%,
-    #eff3f6 66.46%,
-    #fff 98.82%
-  );
-  color: #000;
-  padding: 50px 0px 70px 0px;
+  padding: 2rem;
 }
 .container h2 {
-  color: #022646;
   text-align: center;
-  font-size: 42px;
-  font-weight: 500;
-  margin-right: 100px;
-  line-height: 60px;
+  margin: 50px;
 }
-
-.topHead {
-  font-weight: 800;
-  text-decoration: underline;
-  text-decoration-color: #fe7a36;
-  text-underline-offset: 10px;
-
-}
-
-
 
 .innerDiv {
   display: grid;
-  grid-template-columns: 36% 47%;
-  gap: 34px 60px;
-  margin-top: 70px;
-  border-radius: 33px;
-  justify-content: center;
-  align-items: center;
+  grid-template-columns: 40% 50%;
+  margin: 50px auto;
+  justify-content: space-around;
+}
+
+.leftSide {
+  flex: 1;
+}
+
+.rightSide {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
 }
 
 .rightContainer {
-  display: grid;
-  grid-template-columns: 20% 78%;
+  display: flex;
   align-items: center;
-  gap: 14px;
+  margin-bottom:0;
+  opacity: 0.6; /* Start with gray and less opacity */
+  transition: all 0.5s ease; /* Smooth animation */
+  gap: 30px;
 }
 
-.spanLine {
-  margin: 10px 0px 5px 53px;
+/* Active state for blue text */
+.activeStep {
+  opacity: 1; /* Fully visible when active */
+  transition: all 0.5s ease-in-out; /* Smooth transition */
 }
 
-.SpanBlue,
-.spanGrey {
+.SpanGrey {
+  color: #a5a5a5; /* Gray for inactive steps */
+}
+
+.SpanGrey span {
   text-align: center;
-  font-weight: 700;
-  width: fit-content;
-  height: fit-content;
-  margin: auto;
+font-size: 45px;
+font-weight: 700;
+line-height: 126.5%; /* 56.925px */
+}
+.SpanBlue{
+  border-radius: 20.796px;
+  border: 1px solid rgba(0, 114, 188, 0.50);
+  background: #EBF4FA;
+  padding: 18px 30px;
+ 
+}
+.SpanGrey {
+border-radius: 20.796px;
+border: 1px solid rgba(0, 114, 188, 0.50);
+background: #EBF4FA;
+padding: 18px 30px;
+}
+.SpanBlue span {
+color: #0072bc;
+text-align: center;
+font-size: 45px;
+font-weight: 700;
+line-height: 126.5%; /* 56.925px */
 }
 
-.SpanBlue {
-  border-radius: 29.796px;
-  border: 1px solid rgba(0, 114, 188, 0.5);
-  background: #ebf4fa;
-  color: #0072bc;
-  font-size: 60px;
-  padding: 8px 28px 14px 28px;
-}
-
-.spanGrey {
-  border-radius: 22.677px;
-  border: 4.319px solid #ebebeb;
-  background: #fff;
-  color: #8c8c8c;
-  font-size: 40px;
-  padding: 2px 20px 12px 20px;
-}
-
-.paraTopBlue,
 .paraTopGrey {
-  font-weight: 700;
-  margin: 0;
+  color: #a5a5a5; /* Gray for inactive paragraph headers */
 }
 
 .paraTopBlue {
-  color: #0072bc;
-  font-size: 22px;
+  color: #0072bc; /* Blue for active paragraph headers */
+font-size: 24.076px;
+font-style: normal;
+font-weight: 600;
+line-height: 126.5%; /* 35.516px */
 }
 
-.paraTopGrey {
-  color: #949494;
-  font-size: 24px;
+.paraTopGrey{
+  color: #a5a5a5; /* Gray for inactive paragraph headers */
+  font-size: 24.076px;
+font-style: normal;
+font-weight: 600;
+line-height: 126.5%; /* 35.516px */
 }
 
 .para {
   color: #696868;
-  font-size: 15px;
+  font-size: 17.597px;
+  font-style: normal;
   font-weight: 400;
+  line-height: 148%; /* 31.963px */
+}
+
+/* SVG styles */
+.spanLine svg rect, .spanLine svg circle {
+  transition: fill 0.3s ease-in-out;
+}
+
+.spanLine {
+  margin-left: 2.2rem;
+}
+
+
+@media screen and (max-width:641px) {
+  .innerDiv {
+    display: flex;
+  }
+  .leftSide{
+    display: none;
+  }
+  .container h2 {
+    margin: 10px;
+    text-wrap: balance;
+    text-align: justify;
+  }
+  .paraTopBlue, .paraTopGrey  {
+    font-size: 18px;
+
+  }
+
+  .para {
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 148%; /* 23.68px */
+  }
+  .container{
+    padding: 1rem;
+  }
+  
 }

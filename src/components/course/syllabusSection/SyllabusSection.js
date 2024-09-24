@@ -150,6 +150,9 @@ const SyllabusSection = ({
                   centeredSlides={true}
                   className={styles.swiper}
                   ref={swiperRef}
+                  grabCursor={true} // Enable grab cursor
+                  touchRatio={1} // Set touch ratio
+                  freeMode={false} // Ensure free mode is disabled for smoother slides
                   modules={[EffectCoverflow]}
                   effect="coverflow"
                   coverflowEffect={{
@@ -161,7 +164,7 @@ const SyllabusSection = ({
                   initialSlide={initialSlide}
                   onSlideChange={updateActiveSlides}
                   breakpoints={{
-                    320: { slidesPerView: 1.1, spaceBetween: 10 },
+                    320: { slidesPerView: 1, spaceBetween: 10 },
                     768: { slidesPerView: 2, spaceBetween: 20 },
                     1024: { slidesPerView: 3, spaceBetween: 30 },
                     1440: { slidesPerView: 3, spaceBetween: 30 },
