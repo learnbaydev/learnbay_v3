@@ -1849,11 +1849,12 @@ certificateNew:[
         title: "Capstone Project Certificate from IBM",
         para: [
           "Globally recognized IBM certification based on industrial-level projects.",
-          "Earn 2 capstone project certifications from IBM.",
+          "Earn 1 capstone project certification from IBM.",
           "Individualized project experience with easy access to premium job opportunities.",
         ],
       },
     },
+
 
     masterSyllabusMobile: [
       {
