@@ -7,13 +7,23 @@
 .domains{
   display: none;
 }
+
+.Head{
+  text-align: center;
+  color: #FFF1EA;
+  font-size: 40px;
+  font-weight: 500;
+}
+.Head span {
+  font-weight: 600;
+}
 .container {
   position: relative;
   z-index: 1;
   border-radius: 81px;
   background: rgba(10, 10, 10, 0.9);
   width: 100%;
-  max-width: 1400px;
+  max-width: 1200px;
   margin: auto;
   margin-top: 70px;
   color: #000;
@@ -47,13 +57,13 @@
 .bgImageMobile {
   display: none;
 }
-
+/* 
 .container h2 {
   text-align: center;
   color: #FFF1EA;
   font-size: 44px;
   font-weight: 700;
-}
+} */
 
 .orangeLine {
   text-decoration: underline;
@@ -73,12 +83,12 @@
 
 .innerDivOne,
 .innerDivThree {
-  grid-template-columns: 40% 30%;
+  grid-template-columns:50% 30%;
 }
 
 .innerDivTwo,
 .innerDivFour {
-  grid-template-columns:30% 39%;
+  grid-template-columns:28% 48%;
   margin-top: 50px;
 }
 
@@ -89,13 +99,21 @@
 .SecondFour h3,
 .SecondFour p {
   color: #fff;
+
+}
+.SecondFour h3 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+
 }
 
 .SecondFour p {
-  font-size: 18px;
+  font-size: 15px;
   line-height: 28px;
   display: flex;
   gap: 10px;
+  font-weight: 300;
 }
 
 .innerDivFour {
@@ -114,7 +132,7 @@
 }
 
 .oneFirst {
-  padding: 40px 0 46px 40px;
+  padding:40px 40px 54px 40px;
   border-width:4px 4px 4px 0px;
   border-radius: 30px;
   border-color:#FE7A36;
@@ -148,7 +166,7 @@
 
 .twoSecond {
   background-repeat: no-repeat;
-  padding:24px 66px 35px 40px;
+  padding:24px 40px 35px 40px;
   border-width: 5px 0px 5px 5px;
   border-radius: 30px;
   border-color: #0072BC70;
@@ -160,7 +178,7 @@
 .twoSecond h3,
 .threeFirst h3 {
   color: #FFF;
-  font-size: 34px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: 144.5%;
@@ -184,7 +202,7 @@
 .twoSecond p {
   color: #fff;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 25px;
   display: flex;
   gap: 10px;
@@ -290,7 +308,7 @@
 
 .innerDivFourLast {
   display: grid;
-  grid-template-columns: 41% 30%;
+  grid-template-columns:47% 27%;
   justify-content: space-around;
   padding-bottom: 50px;
   margin-top: 50px;

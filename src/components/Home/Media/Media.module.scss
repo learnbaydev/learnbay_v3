@@ -1,4 +1,7 @@
-
+.projectHeader{
+  width: 1400px;
+  margin:auto;
+}
 
 
 @media (min-width: 1281px) {
@@ -593,6 +596,8 @@ line-height: 153%; /* 30.6px */
         }
       }
 
+ 
+
       .project {
         margin-top: 40px;
         width: 400px;
@@ -818,11 +823,14 @@ line-height: 153%; /* 30.6px */
 }
 
 @media (max-width: 481px) {
+
+  
   .pNavg{
     display: none;
   }
   .projectHeader {
     margin-bottom: 30px;
+    width: 100%;
     .headWrapper {
       display: flex;
       flex-flow: column;

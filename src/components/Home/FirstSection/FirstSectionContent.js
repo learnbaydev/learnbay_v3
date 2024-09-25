@@ -33,8 +33,8 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
             <div className={styles.pointsDiv}>
               <Image
                 src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_one.webp"
-                width={40}
-                height={40}
+                width={30}
+                height={30}
                 alt="icon"
                 priority
                 quality={80}
@@ -47,8 +47,8 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
             <div className={styles.pointsDiv}>
               <Image
                 src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_two.webp"
-                width={40}
-                height={40}
+                width={30}
+                height={30}
                 alt="icon"
                 priority
                 quality={80}
@@ -123,7 +123,7 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
                   height={30}
                   alt="jobseaker"
                   priority
-                  quality={80}
+                  quality={100}
                 />
                 <span>Get personalized career guidance</span>
               </div>
@@ -135,7 +135,7 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
                   height={30}
                   alt="jobseaker"
                   priority
-                  quality={80}
+                  quality={100}
                 />
                 <span>30 min call with industry expert</span>
               </div>
@@ -146,7 +146,7 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
                   height={30}
                   alt="jobseaker"
                   priority
-                  quality={80}
+                  quality={100}
                 />
                 <span>Discover your upskilling path</span>
               </div>
@@ -166,8 +166,8 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
               <div className={styles.conImg}>
                 <Image
                   src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/coun_round.webp"
-                  width={150}
-                  height={45}
+                  width={100}
+                  height={30}
                   alt="loading"
                   quality={100}
                   className={styles.desktopImg}
@@ -204,8 +204,8 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
         <div className={styles.typelogo}>
           <Image
             src={typeLogo}
-            width={isMobile ? 400 : 800}
-            height={40}
+            width={isMobile ? 400 : 700}
+            height={36}
             alt="type-logo"
             priority
             quality={100}

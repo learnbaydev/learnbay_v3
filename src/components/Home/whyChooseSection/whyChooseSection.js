@@ -77,8 +77,8 @@ function WhyChooseSection() {
           </div>
         </div>
 
-        <h2>
-          Why choose Learnbay?
+        <h2 className={styles.Head}>
+          Why choose <span>Learnbay?</span>
         </h2>
 
         <div className={styles.innerDivOne}>
@@ -159,8 +159,8 @@ function WhyChooseSection() {
               alt="Learnbay"
               quality={100}
               loading="lazy"
-              width={684}
-              height={527}
+              width={600}
+              height={400}
             />
           </div>
         </div>

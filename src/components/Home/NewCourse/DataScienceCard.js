@@ -55,7 +55,7 @@ const DataScienceCard = ({
             <div key={course.title} className={styles.maindiv}>
               <Image
                 src={course.image}
-                width={410}
+                width={350}
                 height={120}
                 alt={course.title}
                 loading="lazy"

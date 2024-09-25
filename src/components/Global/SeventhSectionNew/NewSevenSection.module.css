@@ -1,7 +1,7 @@
 .NewSevenSection{
     border-radius: 50px;
 background: #212121;
-width: 1400px;
+width: 1200px;
 margin: 100px auto;
 
 padding: 60px 80px;
@@ -10,22 +10,22 @@ padding: 60px 80px;
 
 .griContiner{
     display: grid;
-    grid-template-columns: 70% 20%;
+    grid-template-columns: 75% 20%;
     justify-content: center;
 }
 .fontDiv h4 {
     color: #FFC436;
-font-size: 24px;
+font-size: 22px;
 font-style: normal;
-font-weight: 600;
+font-weight: 400;
 line-height: 153%; /* 45.9px */
 }
 .fontDiv h3 {
     color: #FFF;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: 153%; /* 61.2px */
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 153%;
 }
 .fontDiv p {
     color: #FFF;
@@ -58,7 +58,7 @@ display: flex;
     color: #fff;
     border: none;
     padding: 6px 40px;
-    font-size: 20px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 153%; /* 30.6px */
@@ -76,7 +76,7 @@ display: flex;
     display: flex;
     gap: 10px;
     color: #0072BC;
-    font-size: 20px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 500;
     text-transform: uppercase;

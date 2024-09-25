@@ -13,8 +13,8 @@
   position: relative; /* Ensures content is above the background image */
   padding: 80px 0 0 0;
   display: grid;
-  grid-template-columns: 60% 30%;
-  width: 1300px;
+  grid-template-columns:58% 32%;
+  width: 1200px;
   margin: auto;
   gap: 110px;
   z-index: 1; /* Ensure the content is above the image */
@@ -105,7 +105,7 @@
 
 .conpara p {
   color: #FFF;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 153%; /* 33.66px */

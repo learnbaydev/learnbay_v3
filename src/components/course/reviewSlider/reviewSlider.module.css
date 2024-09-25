@@ -1,5 +1,5 @@
 .keyContainer {
-  width: 1350px;
+  width: 1200px;
   margin: auto;
 }
 
@@ -123,7 +123,7 @@
 }
 .mainHeading {
   color: #022646;
-  font-size: 36px;
+  font-size: 34px;
   font-weight: 700;
 }
 .subHeading {
@@ -172,7 +172,7 @@
 }
 .reviewBotSection {
   display: grid;
-  grid-template-columns: 47% 40%;
+  grid-template-columns:55% 36%;
   margin-top: 100px;
   align-items: center;
   gap: 0px;
@@ -180,7 +180,12 @@
 }
 
 .firstBotReview p {
-  font-size: 20px;
+  font-size: 18px;
+  color: #6C6C6C;
+font-style: normal;
+font-weight: 400;
+line-height: 153%; /* 38.25px */
+margin: 0;
 }
 
 .firstBotReview img {

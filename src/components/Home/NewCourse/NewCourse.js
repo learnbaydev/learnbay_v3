@@ -82,7 +82,7 @@ const NewCourse = ({
 
             <Image
               src={course.image}
-              width={410}
+              width={360}
               height={120}
               alt={course.title}
               loading="lazy"
@@ -158,7 +158,7 @@ const NewCourse = ({
     <div className={styles.MasterCard}>
       <Image
         src={isMobile ? masterCourse.mImage : masterCourse.image}
-        width={isMobile ? 375 : 1350}
+        width={isMobile ? 375 : 1200}
         height={isMobile ? 300 : 200}
         alt="MasterCard"
         loading="lazy"

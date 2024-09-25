@@ -7,6 +7,8 @@
   align-items: center;
   border-radius: 50px;
 background: #E5F1F8;
+width: 1200px;
+margin: auto;
 }
 
 .FirstDiv h4 {
@@ -106,6 +108,7 @@ background: #E5F1F8;
     padding: 10px 10px 0px 10px;
     display: block;
     border-radius: 0px;
+    width: 100%;
 }
 .FirstDiv span {
     font-size: 28px;
@@ -154,4 +157,5 @@ height: 50px;
 .ShowInMobile {
     display: block;
 }
+
 }

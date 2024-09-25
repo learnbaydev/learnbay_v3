@@ -5,6 +5,7 @@ import SecondPart from "@/components/CoursePage/FirstPart/ManagersSecondPart";
 
 import ManagersNewFirstPart from "@/components/CoursePage/FirstPart/ManagersNewFirstPart";
 import ManagersNewSecondPart from "@/components/CoursePage/FirstPart/ManagersNewSecondPart"
+import Navbar from "@/components/Global/Navbar/Navbar";
 
 
 function Blockchain({ DataScienceCourseDataJson }) {
@@ -71,13 +72,29 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
       </Head>
       <main>
-      <ManagersNewFirstPart/>
+        <Navbar dataScienceCounselling={true} interstedInHide={true} />
       
+        <FirstPart
+          SecondSectionData={
+            DataScienceCourseData.DataScienceCourseData[0].secondSection
+          }
+          TestimonialData={
+            DataScienceCourseData.DataScienceCourseData[0].testimonial
+          }
+        />
+
       </main>
       <main>
-      <ManagersNewSecondPart
-                certificateNew={DataScienceCourseData.DataScienceCourseData[0].certificateNew} // Pass certificate data
-          sections={DataScienceCourseData.DataScienceCourseData[0].sections}
+        <SecondPart
+          masterSyllabusMobile={
+            DataScienceCourseData.DataScienceCourseData[0].masterSyllabusMobile
+          }
+          CertificateData={
+            DataScienceCourseData.DataScienceCourseData[0].Certificate
+          }
+          projectSection={
+            DataScienceCourseData.DataScienceCourseData[0].projectSection
+          }
           FAQNewData={DataScienceCourseData.DataScienceCourseData[0].faq}
         />
       </main>

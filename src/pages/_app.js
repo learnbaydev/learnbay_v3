@@ -3,12 +3,12 @@ import "@/styles/Button.css";
 import Script from "next/script";
 import { useEffect } from "react";
 import TagManager from "react-gtm-module";
-import { Georama } from "next/font/google";
+import { Poppins } from "next/font/google";
 import { PopupProvider, usePopup } from "../context/PopupContext";
 import Popup from "../components/Popup/Popup";
 import { useRouter } from "next/router";
 
-const georama = Georama({
+const poppins = Poppins({
   weight: ["300", "400", "500", "600", "700", "800"],
   style: ["normal", "italic"],
   subsets: ["latin"],
@@ -26,7 +26,7 @@ const App = ({ Component, pageProps }) => {
 
   return (
     <PopupProvider>
-      <main className={georama.className}>
+      <main className={poppins.className}>
         <Script
           strategy="lazyOnload"
           onError={(err) => {
