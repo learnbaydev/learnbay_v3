@@ -8,21 +8,12 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
     setPopups(true);
   };
 
-  const videoShow = () => {
-    setVideo(true);
-  };
 
   const isMobile = useMediaQuery({ query: "(max-width: 640px)" });
 
-  const [bgImage, setBgImage] = useState("");
   const [typeLogo, setTypeLogo] = useState("");
 
   useEffect(() => {
-    // setBgImage(
-    //   isMobile
-    //     ? "https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/mbl_home_two.webp"
-    //     : "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BG_Home_1.webp"
-    // );
     setTypeLogo(
       isMobile
         ? "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/type_logo_mbl.webp"
@@ -35,19 +26,33 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
       <div className={styles.gridConteiner}>
         <div className={styles.leftside}>
           <h1>
-            India’s #1 Project-based Upskilling Platform for Professionals
+            India’s <span className={styles.spantitle}>#1 Project-based</span> Upskilling Platform for Professionals
           </h1>
 
           <div className={styles.listleft}>
             <div className={styles.pointsDiv}>
-              <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_one.webp" width={40} height={40} alt="icon" priority quality={80}/>
+              <Image
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sign_mark.webp"
+                width={25}
+                height={25}
+                alt="icon"
+                priority
+                quality={80}
+              />
               <p>
                 Get ready to crack your{" "}
                 <span className={styles.orgleft}>dream job</span> interview
               </p>
             </div>
             <div className={styles.pointsDiv}>
-            <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_two.webp" width={40} height={40} alt="icon" priority quality={80}/>
+              <Image
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sign_mark.webp"
+                width={25}
+                height={25}
+                alt="icon"
+                priority
+                quality={80}
+              />
               <p>
                 {" "}
                 Learn from industry experts on{" "}
@@ -59,8 +64,8 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
             Apply for Counselling{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="37"
-              height="20"
+              width="30"
+              height="16"
               viewBox="0 0 37 20"
               fill="none"
             >
@@ -76,7 +81,7 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
           <div className={styles.rytConteiner}>
             <div className={styles.greenTag}>
               <svg
-                height="50"
+                height="40"
                 width="92"
                 fill="none"
                 viewBox="0 0 92 59"
@@ -105,43 +110,81 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
               </svg>
             </div>
             <h2>
-              Free Counselling
-              <br /> for Professionals
+            Check your eligibility!
             </h2>
             <hr className={styles.hr} />
 
             <div className={styles.spandiv}>
               <div className={styles.listryt}>
-                <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/job_seeker.webp" width={30} height={30} alt="jobseaker" priority quality={80}/>
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/job_seeker.webp"
+                  width={25}
+                  height={25}
+                  alt="jobseaker"
+                  priority
+                  quality={100}
+                />
                 <span>Get personalized career guidance</span>
               </div>
 
               <div className={styles.listryt}>
-              <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/popular_man.webp" width={30} height={30} alt="jobseaker" priority quality={80}/>
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/popular_man.webp"
+                  width={25}
+                  height={25}
+                  alt="jobseaker"
+                  priority
+                  quality={100}
+                />
                 <span>30 min call with industry expert</span>
               </div>
               <div className={styles.listryt}>
-              <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/growth_and_flag.webp" width={30} height={30} alt="jobseaker" priority quality={80}/>
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/growth_and_flag.webp"
+                  width={25}
+                  height={25}
+                  alt="jobseaker"
+                  priority
+                  quality={100}
+                />
                 <span>Discover your upskilling path</span>
               </div>
             </div>
           </div>
           <div className={styles.listDown}>
             <div className={styles.bookFreebtn}>
-              <div>
-                <button>Book Free Session Now <span>&#8594;</span></button>
+              <div onClick={popupShow}>
+                <button>
+                  Book Free Session Now 
+                </button>
                 <p>
                   No strings attached—explore your career options with expert
                   advice!
                 </p>
               </div>
-          
+              <div className={styles.conImg}>
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/coun_round.webp"
+                  width={100}
+                  height={30}
+                  alt="loading"
+                  quality={100}
+                  className={styles.desktopImg}
+                />
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_mobile_con.webp"
+                  width={150}
+                  height={45}
+                  alt="loading"
+                  quality={100}
+                  className={styles.mblImag}
+                />
+              </div>
             </div>
-
           </div>
         </div>
-     <div className={styles.btnmblDiv}>
-     <button className={styles.btnMbl} onClick={popupShow}>
+        <div className={styles.btnmblDiv}>
+          <button className={styles.btnMbl} onClick={popupShow}>
             Apply for Counselling{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -156,17 +199,17 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
               />
             </svg>
           </button>
-     </div>
-   <div className={styles.typelogo}>
-   <Image
-          src={typeLogo}
-          width={isMobile ? 400 : 800} // Adjust width based on view
-          height={40}
-          alt="type-logo"
-          priority
-          quality={100}
-        />
-   </div>
+        </div>
+        <div className={styles.typelogo}>
+          <Image
+            src={typeLogo}
+            width={isMobile ? 400 : 760}
+            height={36}
+            alt="type-logo"
+            priority
+            quality={100}
+          />
+        </div>
       </div>
     </section>
   );

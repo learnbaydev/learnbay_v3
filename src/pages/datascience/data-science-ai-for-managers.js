@@ -2,6 +2,9 @@ import Head from "next/head";
 import { parseJSONData } from "@/Util/JsonConvertor";
 import FirstPart from "@/components/CoursePage/FirstPart/ManagersFirstPart";
 import SecondPart from "@/components/CoursePage/FirstPart/ManagersSecondPart";
+
+import ManagersNewFirstPart from "@/components/CoursePage/FirstPart/ManagersNewFirstPart";
+import ManagersNewSecondPart from "@/components/CoursePage/FirstPart/ManagersNewSecondPart"
 import Navbar from "@/components/Global/Navbar/Navbar";
 
 
@@ -79,6 +82,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
             DataScienceCourseData.DataScienceCourseData[0].testimonial
           }
         />
+
       </main>
       <main>
         <SecondPart

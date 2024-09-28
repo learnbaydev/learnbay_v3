@@ -474,6 +474,15 @@
   color: red;
 
 }
+
+.swiper {
+  overflow: hidden; /* Ensure overflow is hidden */
+}
+.swiper-slide {
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+
 @media (max-width:1381px) {
 
 
@@ -493,5 +502,124 @@
   .card{
     width: 550px;
     height: 600px;
+  }
+}
+
+
+
+
+
+@media screen and (max-width:641px){
+.mainConteiner{
+  width: 100%;
+  padding: 20px;
+}
+  .gridConteiner {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 20px;
+  }
+  .verticalLine{
+    display: none;
+  }
+  .headline{
+    font-size: 30px;
+    margin: 20px;
+  }
+.leftinside h3 {
+  font-size: 30px;
+}
+.leftinside img {
+  width: 40px;
+    height: auto;
+}
+.rytmain{
+  padding: 10px;
+  margin: 0;
+}
+.ryttop p{
+  color: #000;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 126.5%; /* 22.77px */
+}
+.date{
+  border-radius: 16.804px;
+background: rgba(254, 122, 54, 0.16);
+padding: 2px;
+}
+.date p {
+  color: #FE7A36;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 126.5%; /* 17.71px */
+
+}
+.date svg {
+  width: 20px;
+}
+.ryttop{
+  display: grid;
+  grid-template-columns: 57% 32%;
+  justify-content: space-around;
+}
+.pline{
+  color: #000;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 126.5%;
+}
+.org{
+  color: #FE7A36;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 126.5%; /* 18.975px */
+}
+.contentlist{
+  margin-top: 24px;
+}
+  .lists{
+    color: #000;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 126.5%;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+  }
+  .buttondiv {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .card{
+    width: 350px;
+    height: 500px;
+  }
+  .titleH{
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .rytdiv p {
+    font-size: 14px;
+  }
+  .listItem {
+    font-size: 14px;
+  }
+  .rotateText {
+    font-size: 14px;
+  }
+  .closePopup{
+    top: 130px;
+    right: 30px;
+  }
+  .tools img {
+    width: 200px;
+    height: auto;
   }
 }

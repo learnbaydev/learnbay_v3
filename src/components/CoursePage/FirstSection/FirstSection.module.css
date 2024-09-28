@@ -451,7 +451,7 @@ width: 100%;
 
   .ptop {
     color: #fff;
-    text-align: start;
+    text-align: flex-start;
     font-size: 15px;
     font-weight: 400;
     margin-left: 22px;
@@ -475,7 +475,7 @@ width: 100%;
   .ImageBlock {
     margin: 22px;
         display: flex;
-        justify-content: start;
+        justify-content:flex-start;
         margin-top: 0;
   }
   .animationText {
@@ -534,7 +534,7 @@ color: #fff;
     .ImageBlock{
       margin: auto;
       display: flex;
-      justify-content: start;
+      justify-content: flex-start;
       margin-bottom: 20px;
       margin-left: 18px;
   

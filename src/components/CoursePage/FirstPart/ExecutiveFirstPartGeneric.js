@@ -32,6 +32,8 @@ const ExecutiveFirstPartGeneric = () => {
 
       />
       <HeroSection
+      title="Executive Program in Data Science & AI for "
+      orgTitle="Managers and Tech Leaders"
    thumbnailurl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/first_yt_thumb.webp"
       spanTag="E&ICT Academy IIT Guwahati"
         isSpecialPage={true}

@@ -17,7 +17,10 @@ const HeroSection = ({
   dataScienceGeneric,
   spanTag,
   thumbnailurl,
-  noIIt 
+  noIIt,
+  title,
+  orgTitle,
+  descrption
 }) => {
 
   const [popups, setPopups] = useState(false);
@@ -37,6 +40,8 @@ const HeroSection = ({
       />
       <VideoPopup triggers={video} setTriggers={setVideo} ids={idss} />
       <HeroSectionContent
+      title={title}
+      orgTitle={orgTitle}
       thumbnailurl={thumbnailurl}
       spanTag={spanTag}
         setPopups={setPopups}
@@ -48,6 +53,7 @@ const HeroSection = ({
         dataScienceCounselling={dataScienceCounselling}
         radio={radio}
         noIIt ={noIIt}
+        descrption={descrption}
       
       />
     </div>

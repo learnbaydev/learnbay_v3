@@ -1,112 +1,179 @@
-.container {
-  color: white;
+.mainBg{
   width: 1300px;
+  display: flex;
   margin: auto;
-  border-radius: 74px;
+  margin-top: 120px;
+  flex-direction: column;
+  border-radius: 54px;
   background: #212121;
-  margin-bottom: 80px;
-  padding: 60px 120px;
+  padding: 50px 0px 100px 0px;
+  gap: 10px;
 }
-
-.topSpan {
-  font-weight: 800;
-  text-decoration: underline;
-  text-decoration-color: #fe7a36;
-  text-underline-offset: 14px;
-}
-
-.degree h2 {
-  color: #fff;
-  text-align: center;
-  font-size: 34px;
-  font-weight: 400;
-}
-
-.greenTop {
-  color: #04C988;
-font-size: 20px;
-font-weight: 600;
-margin: 0px 20px 20px;
-}
-
-.degreeContainer {
+.innerDiv {
   display: grid;
-  grid-template-columns: 42% 46%;
-  gap: 126px;
-  margin-top: 40px;
+  grid-template-columns: repeat(2, 1fr); /* Two columns for the first two cards */
+  gap: 80px; /* Space between cards */
+  margin: auto;
+  justify-content: center;
   align-items: center;
 }
 
-.degreeContainer img {
-  width: 100%;
-  height: auto;
+.certBox {
+  position: relative; /* Ensure relative positioning for cards */
 }
-
-.containerGrid1 {
-  border-radius: 41px;
-  border: 1.5px solid #0072bc;
-  background: rgba(217, 217, 217, 0.1);
-  padding: 30px 20px 10px 20px;
-}
-
-.firstImg {
-  padding: 0px 50px 20px 50px;
-}
-
-.iconPlus {
-  display: flex;
-  margin: auto;
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 600;
-}
-
-.secondImg {
-  padding: 0px 20px;
-}
-.containerGrid1 h3,
-.containerGridSecond h3 {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 26px;
-  font-weight: 600;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.paraDiv h4,
-.secondBotDiv h4 {
-  color: #fff;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 125%; /* 36.989px */
-  margin-bottom: 20px;
-}
-
-.secondBotDiv {
-  padding: 50px 30px 0px 30px;
-}
-.IconDiv p {
+.certBoxDemo{
   display: grid;
-  grid-template-columns: 5% 90%;
+    grid-template-columns: 40% 50%;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* To handle the third card */
+.certBox:nth-child(3) {
+  grid-column: 1 / -1; /* Make it span across all columns */
+  margin-top: 20px; /* Add some margin for spacing */
+}
+
+
+.upskillHeading{
+  font-size: 42px;
   color: #fff;
-  font-size: 14px;
-  gap: 5px;
   font-weight: 400;
-  align-items: flex-start;
-  margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.spanHead {
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 20px;
+  text-decoration-color: #FE7A36;
 }
 
-.icon {
-  fill: #20a898;
-  font-size: 16px;
-  margin-top: 3px;
+.innerDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
 }
 
-@media (max-width: 1280px) {
-  .container{
-    width:auto;
+.middleLine {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 0%, #FFF 24.48%, #FFF 74.07%, rgba(255, 255, 255, 0.00) 100%);
+  width: 1083.078px;
+height: 1px;
+margin: 30px auto 50px auto;
+}
+
+.certBox img {
+  width: 100%;
+  height: 350px;
+}
+
+.iconDivMain {
+  margin-top: 20px;
+  margin-left: 16px;
+}
+
+.iconDivMain h4 {
+  color: #FFF;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 26px;
+  }
+
+  .iconDiv {
+      display: grid;
+      grid-template-columns: 5% 90%;
+      gap: 10px;
+      align-items: flex-start;
+  }
+
+  .iconDiv p {
+      margin: 0;
+      color: #FFF;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 28px;
+      margin-bottom: 20px;
+      margin-top: -5px;
+  }
+
+  .iconDiv svg {
+      fill: #20A898;
+      font-size: 22px;
+  }
+
+  .divider {
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 255, 255), rgb(7, 7, 7));
+    margin: 20px 0;
   }
   
+
+  .certBoxWrapper{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    gap: 100px;
+  }
+  .certBoxWrapperthree{
+    display: flex;
+  }
+
+  .toolIconThree{
+
+    width: 450px;
+    height: fit-content;
+  }
+  
+
+@media only screen and (max-width: 641px) {
+.mainBg{
+  width: 100%;
+  margin-top: 0px;
+  border-radius: 0px;
+  padding: 40px 24px;
+}
+.upskillHeading{
+  font-size: 28px;
+}
+.middleLine {
+  width: 0px;
+  margin: 10px 0px;
+}
+.spanHead {
+  text-underline-offset: 14px;
+}
+.innerDiv {
+  grid-template-columns: 100%;
+  gap: 30px;
+}
+.certBox img {
+  height: auto;
+  width: 100%;
+}
+.iconDiv {
+  grid-template-columns: 7% 90%;
+}
+.iconDivMain h4 {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.iconDivMain {
+  margin-left: 8px;
+}
+.iconDiv svg {
+  font-size: 20px;
+}
+.iconDiv p {
+  font-size: 16px;
+  line-height: 24px;
+}
+.mHead {
+  margin-top: -24px;
+}
 }

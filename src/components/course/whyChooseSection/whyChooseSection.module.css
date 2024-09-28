@@ -12,13 +12,15 @@
   text-align: center;
   color: #FFF1EA;
   font-size: 44px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .orangeLine {
   text-decoration: underline;
   text-decoration-color: #fe7a36;
-  text-underline-offset: 14px;
+  text-underline-offset: 22px;
+  font-size: 44px;
+  font-weight: 700;
 }
 
 .innerDivOne, .innerDivTwo, .innerDivThree, .innerDivFour {
@@ -29,7 +31,7 @@
 }
 
 .innerDivOne, .innerDivThree {
-  grid-template-columns: 48% 30%;
+  grid-template-columns: 50% 30%;
 }
 
 .innerDivTwo, .innerDivFour {
@@ -37,7 +39,7 @@
 }
 
 .innerDivOne {
-  margin-top: 70px;
+  margin-top: 80px;
 }
 
 .SecondFour h3, .SecondFour p {
@@ -87,11 +89,13 @@
 }
 
 .twoSecond {
-  background: url("https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/domain_bg_why.webp");
-  background-size: contain;
-  height: fit-content;
   background-repeat: no-repeat;
-  padding: 24px 70px 50px 40px;
+  padding: 24px 70px 35px 40px;
+  border-width: 5px 0px 5px 5px;
+  border-radius: 40px;
+  border-color: #0072BC70;
+  background: linear-gradient(270deg, rgba(0, 114, 188, 0.15) 0.32%, rgba(0, 114, 188, 0.00) 98.75%);
+  border-style: solid;
 }
 
 .threeFirst {
@@ -99,7 +103,11 @@
   background-size: contain;
   height: fit-content;
   background-repeat: no-repeat;
-  padding: 35px 70px 50px 40px;
+  padding: 40px 0px 25px 30px;
+}
+
+.ytHead {
+  font-size: 32px !important;
 }
 
 .oneFirst h3, .twoSecond h3, .threeFirst h3 {
@@ -122,10 +130,14 @@ margin: 0px 0px 20px 0px;
 
 .oneFirst p, .twoSecond p {
   color: #fff;
-  font-size: 15px;
+  font-size: 19px;
   font-weight: 400;
   /* margin-right: 85px; */
   line-height: 25px;
+}
+
+.domainText {
+  font-size: 15px !important;
 }
 
 .innerBox {
@@ -164,8 +176,8 @@ margin: 0px 0px 20px 0px;
   background-size: contain;
   background-repeat: no-repeat;
   height: 140px;
-  padding: 7px 20px;
-  margin-top: 30px;
+  padding: 7px 12px;
+  margin-top: 45px;
 }
 
 .botDivYellow {
@@ -173,7 +185,7 @@ margin: 0px 0px 20px 0px;
   background-size: contain;
   background-repeat: no-repeat;
   height: 140px;
-  padding: 7px 20px;
+  padding: 7px 14px;
   margin-top: 30px;
 }
 
@@ -191,14 +203,20 @@ margin: 0px 0px 20px 0px;
   margin: 0;
 }
 
-.botDiv span, .ytBot span {
+.botDiv span, .ytBot span, .botDivYellow span {
   color: #fe7a36;
   font-weight: 700;
 }
 
-.twoFirst img, .threeSecond img {
+.twoFirst img {
   height: auto;
   width: 100%;
+}
+
+.threeSecond img {
+  height: auto;
+  width: 200px;
+  margin: auto;
 }
 
 .threeSecond {
@@ -208,9 +226,9 @@ margin: 0px 0px 20px 0px;
 
 .contentIconDiv {
   display: grid;
-  grid-template-columns: 50% 50%;
-  gap: 30px;
-  margin-top: 20px;
+  grid-template-columns: 50% 38%;
+  gap: 50px;
+  margin-top: 34px;
 }
 
 .contentIconDiv > div {
@@ -251,5 +269,137 @@ width: 340px;
 height: auto;
   }
 
+
+}
+
+@media only screen and (max-width: 641px) {
+  .container {
+    border-radius: 0;
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 1px;
+  }
+  .container h2, .orangeLine {
+    font-size: 28px;
+  }
+  .orangeLine {
+    text-underline-offset: 12px;
+  }
+  .innerDivOne, .innerDivTwo, .innerDivThree {
+    grid-template-columns: 100%;
+    margin-top:60px;
+    margin: 50px 24px 0px 24px;
+    gap: 0px;
+    align-items: center;
+  }
+  .innerDivTwo, .innerDivFour {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 30px;
+    gap: 30px;
+  }
+  .twoSecond {
+    padding: 10px;
+    border-radius: 20px;
+    border-width: 2.5px 0cqh 2.5px 2.5px;
+  }
+  .oneFirst {
+    padding: 20px 10px;
+  }
+  .twoSecondTop {
+    padding: 5px 10px; 
+  }
+  .twoSecondTop{
+    font-size: 13px !important;
+    margin-bottom: 10px;
+    
+  }
+  .domainText {
+    font-size: 14px !important;
+    line-height: 22px !important;
+  }
+  .oneFirst h3, .twoSecond h3, .threeFirst h3 {
+    font-size: 28px;
+  }
+  .oneFirst p, .twoSecond p {
+    color: #fff;
+    font-size: 14px;
+    line-height: normal;
+    margin-top: 5px;
+  }
+  .innerBox {
+    margin-top: 20px;
+    gap: 20px;
+    grid-template-columns: 47% 47%;
+  }
+  .iconBox img {
+    width: 50px;
+    height: auto;
+  }
+
+  .oneSecond {
+    display: flex;
+    justify-content: center;
+  }
+  .oneSecond img {
+    padding: 0px 40px;
+  }
+  .botDiv {
+    margin-top: 14px;
+    padding: 8px 10px;
+    height: fit-content;
+  }
+  .botDiv p {
+    font-size: 10px;
+  }
+  .threeFirst {
+    padding: 30px 10px;
+  }
+  .ytHead {
+    font-size: 20px !important;
+  }
+  .icon {
+    width: 16px;
+    height: 22px;
+  }
+  .contentIconDiv {
+    grid-template-columns: 51% 45%;
+    gap: 10px;
+    margin-top: 12px;
+  }
+  .ytBot {
+    height: 76px;
+  }
+  .ytBot p {
+    line-height: 20px;
+  }
+  .pHead {
+    font-size: 13px;
+  }
+  .pBot {
+    font-size: 12px;
+  }
+  .innerDivFour {
+    margin: 30px 24px;
+    gap: 10px;
+  }
+  .SecondFour {
+    padding:  14px;
+  }
+  .SecondFour h3 {
+    font-size: 24px;
+  }
+  .SecondFour p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .botDivYellow {
+    margin-top: 16px;
+    height: 60px;
+  }
+  .botDivYellow p {
+    margin-top: 0px;
+    font-size: 12px;
+  }
 
 }

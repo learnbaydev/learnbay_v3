@@ -8,7 +8,7 @@ const InfinityLogo = () => {
       <div className={styles.conteiner}>
         <h2 className={styles.Desktoponly}>
           Upskill and transform your career in latest <br />
-          <span>technologies and domains</span>
+          <span>technologies</span> and <span> domains</span>
         </h2>
 
         <div className={styles.mblonly}>

@@ -1,7 +1,6 @@
 import { ThirdSectionData } from "@/Data/ThirdSectionData";
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-import CareerHome from "@/components/Home/CareerHome/CareerHome";
 import FirstSection from "@/components/Home/FirstSection/FirstSection";
 import Media from "@/components/Home/Media/Media";
 import MobileTestimonial from "@/components/Home/MobileTestimonial/MobileTestimonial";
@@ -14,7 +13,10 @@ import InfinityLogo from "@/components/Home/InfinityLogo/InfinityLogo";
 import KickStart from "@/components/Home/KickStartSection/KickStart";
 import ReviewSlider from "@/components/course/reviewSlider/reviewSlider";
 import WhyChooseSection from "@/components/Home/whyChooseSection/whyChooseSection";
-const Course = dynamic(() => import("@/components/Home/Course/Course"));
+import NewCourse from "@/components/Home/NewCourse/NewCourse";
+import NewSevenSection from "@/components/Global/SeventhSectionNew/NewSevenSection";
+import CLogo from "@/components/Home/Compnays/CLogo";
+import Other from "@/components/Home/OtherVS/Other";
 const WhyLearnbay = dynamic(() =>
   import("@/components/Home/WhyLearnbay/WhyLearnbay")
 );
@@ -111,24 +113,7 @@ export default function Home() {
       SDesc: "20th November",
       url: "https://www.business-standard.com/content/press-releases-ani/learnbay-collaborates-with-woolf-to-launch-master-s-degree-in-computer-science-data-science-specializations-123112000350_1.html",
     },
-    // {
-    //   id: 9,
-    //   domain:
-    //     "How healthcare professionals can transition to data science career        ",
-    //   CLogo:
-    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/business-standard-logo.webp",
-    //   SDesc: "20th April",
-    //   url: "https://www.expresshealthcare.in/news/how-healthcare-professionals-can-transition-to-data-science-career/438946/",
-    // },
-    // {
-    //   id: 10,
-    //   domain:
-    //     "Krishna Kumar, Founder and CEO, Learnbay, Providing Comprehensive Data Science, AI,& ML Education With Career Advancement Support ",
-    //   CLogo:
-    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/business-standard-logo.webp",
-    //   SDesc: "7th Feb",
-    //   url: "https://startuptalky.com/krishna-kumar-learnbay-edtech-industry-recap22/",
-    // },
+ 
   ];
   const [popupData, setPopupData] = useState([]);
   const isMobile = useMediaQuery({ query: "(max-width: 640px)" });
@@ -181,20 +166,6 @@ export default function Home() {
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
-        {!isMobile && (
-          <link
-            rel="preload"
-            href="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/mbl_home_two.webp"
-            as="image"
-          />
-        )}
-        {!isMobile && (
-          <link
-            rel="preload"
-            href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BG_Home_1.webp"
-            as="image"
-          />
-        )}
 
         <script
           type="application/ld+json"
@@ -412,21 +383,20 @@ export default function Home() {
         radio={true}
         idss="ZPOTy4PEnNU"
       />
-      <InfinityLogo/>
-      <KickStart/>
+      <InfinityLogo />
+      <KickStart />
+      <NewCourse dataScience={true} radio={true} />
 
-      <Course dataScience={true} radio={true} />
+      <WhyChooseSection />
 
-<WhyChooseSection/>
-    
-      {/* <ReviewSlider/> */}
+      <ReviewSlider />
 
-      {/* <TrainerSection idss="eautK0odE7Q" /> */}
       <ContactUs dataScienceCounselling={true} radio={true} />
-      <GetHire />
+      <CLogo/>
+<Other/>
       <MobileTestimonial radio={true} dataScienceCounselling={true} />
       <Media projectData={data} />
-      <SeventhSection />
+      <NewSevenSection radio={true} dataScienceCounselling={true} />
 
       <Footer />
       <WhatsappFloat chat360code1={true} />

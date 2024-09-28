@@ -7,21 +7,7 @@ import Emipopup from "@/components/CoursePage/EMIPopup/Emipopup";
 import Modal from "react-modal";
 
 const feeContent = ({
-  Fee,
-  adsHide,
-  WeekdayDate,
-  WeekendDate,
-  WeekdayTime,
-  WeekendTime,
-  CutFee,
   setPopups,
-  FeeEmi,
-  weekday,
-  weekend,
-  weekdaybatch,
-  weekendbatch,
-  devopfee,
-  openTablePopup,
   emiType,
   duration1,
   totalAmount1,
@@ -44,27 +30,11 @@ const feeContent = ({
   const closeEmiPopup = () => {
     setEmiPopupIsOpen(false);
   };
-  // const emiPopupProps = {
-  //   emiType: 'No Cost EMI',
-  //   duration1: '18 months',
-  //   totalAmount1: '₹2,50,000',
-  //   monthlyPayment1: '₹16,389',
-  //   greenDown1: 'Standard Interest Rates Applicable',
-  //   duration2: '24 months',
-  //   totalAmount2: '₹2,50,000',
-  //   monthlyPayment2: '₹12,292',
-  //   greenDown2: 'Another Green Down Text',
-  // };
   return (
     <div className={styles.feesmain}>
       <h2>
         <span>Fee</span> & Batch Details
       </h2>
-      {/* <p className={styles.pTop}>
-        Invest in your future with affordable program fees and flexible batch
-        options
-      </p> */}
-
       <div className={styles.mainContainer}>
         <div className={styles.innerMainContainer}>
           <div className={styles.innerContainer}>
@@ -133,11 +103,26 @@ const feeContent = ({
                     </p>
                   </div>
                 </div>
-                <p style={{ fontSize: "12px" }}>
+                <p className={styles.pImp}>
                   <span>Important Note:</span> You will be assigned 5 members to
                   oversee the entire project life-cycle and gain practical
                   project management skills.
                 </p>
+              </div>
+              <div className={styles.feeSectionContainer}>
+                <div className={styles.feeContentContainer}>
+                  <p>Pay in easy EMIs starting as low as</p>
+                  <h4>₹ 9,833/ month</h4>
+                  <div className={styles.border}>
+                    <p>Program Fee</p>
+                    <h4>
+                      ₹ 1,50,000<span> + 18% GST</span>
+                    </h4>
+                  </div>
+                  <div className={styles.emiButton} onClick={openEmiPopup}>
+                    <Button text="Check EMI Options" />
+                  </div>
+                </div>
               </div>
             </div>
             <div>
@@ -210,39 +195,26 @@ const feeContent = ({
                     </p>
                   </div>
                 </div>
-                <p style={{ fontSize: "12px" }}>
+                <p className={styles.pImp}>
                   <span style={{ color: "#0072BC" }}>Important Note:</span> You
                   will be assigned 5 members to oversee the entire project
                   life-cycle and gain practical project management skills.
                 </p>
               </div>
-            </div>
-          </div>
-          <div className={styles.feeSectionContainer}>
-            <div className={styles.feeContentContainer}>
-              <p>Pay in easy EMIs starting as low as</p>
-              <h4>₹ 12,455/ month</h4>
-              <div className={styles.border}>
-                <p>Program Fee</p>
-                <h4>
-                  ₹ 1,90,000<span> + 18% GST</span>
-                </h4>
-              </div>
-              <div className={styles.emiButton} onClick={openEmiPopup}>
-                <Button text="Check EMI Options" />
-              </div>
-            </div>
-            <div className={styles.feeContentContainer}>
-              <p>Pay in easy EMIs starting as low as</p>
-              <h4 style={{ color: "#0072BC" }}>₹ 14,094/ month</h4>
-              <div className={styles.border}>
-                <p>Program Fee</p>
-                <h4>
-                  ₹ 2,15,000<span> + 18% GST</span>
-                </h4>
-              </div>
-              <div className={styles.emiButton} onClick={openEmiPopup}>
-                <Button text="Check EMI Options" />
+              <div className={styles.feeSectionContainer}>
+                <div className={styles.feeContentContainer}>
+                  <p>Pay in easy EMIs starting as low as</p>
+                  <h4 style={{ color: "#0072BC" }}>₹ 11,472/ month</h4>
+                  <div className={styles.border}>
+                    <p>Program Fee</p>
+                    <h4>
+                      ₹ 1,75,000<span> + 18% GST</span>
+                    </h4>
+                  </div>
+                  <div className={styles.emiButton} onClick={openEmiPopup}>
+                    <Button text="Check EMI Options" />
+                  </div>
+                </div>
               </div>
             </div>
           </div>

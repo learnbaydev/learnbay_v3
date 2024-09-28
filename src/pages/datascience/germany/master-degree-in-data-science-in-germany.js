@@ -90,7 +90,7 @@ export default function Home() {
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/Germany/masters-degree-in-data-science-in-Germany"
+          content="https://www.learnbay.co/datascience/germany/master-degree-in-data-science-in-germany"
         />
         <meta
           property="og:title"

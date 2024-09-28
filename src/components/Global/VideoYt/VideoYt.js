@@ -17,26 +17,25 @@ const VideoYt = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
   const [isEnded, setIsEnded] = useState(false);
-  const [showThumbnail, setShowThumbnail] = useState(true); // State to control thumbnail visibility
+  const [showThumbnail, setShowThumbnail] = useState(true);
 
-  const audioUrl = "/sounds/mouse-click-153941.mp3";
 
   const handlePlayPause = useCallback(() => {
     if (!videoRef.current) return;
 
     if (videoRef.current.paused) {
       videoRef.current.play();
-      soundRef.current.src = audioUrl;
+      // soundRef.current.src = audioUrl;
       soundRef.current.play();
       setIsPlaying(true);
       setIsEnded(false);
-      setShowThumbnail(false); // Hide thumbnail on play
+      setShowThumbnail(false); 
     } else {
       videoRef.current.pause();
-      soundRef.current.src = audioUrl;
+      // soundRef.current.src = audioUrl;
       soundRef.current.play();
       setIsPlaying(false);
-      setShowThumbnail(true); // Show thumbnail on pause
+      setShowThumbnail(true);
     }
   }, []);
 
@@ -57,7 +56,7 @@ const VideoYt = () => {
   const handleMute = useCallback(() => {
     if (!videoRef.current) return;
     videoRef.current.muted = !videoRef.current.muted;
-    soundRef.current.src = audioUrl;
+    // soundRef.current.src = audioUrl;
     soundRef.current.play();
     setIsMuted(videoRef.current.muted);
   }, []);
@@ -69,7 +68,7 @@ const VideoYt = () => {
       setIsPlaying(true);
       setIsEnded(false);
       setProgress(0);
-      setShowThumbnail(false); // Hide thumbnail on restart
+      setShowThumbnail(false); 
     }
   };
 
@@ -81,7 +80,7 @@ const VideoYt = () => {
             if (videoRef.current && !videoRef.current.paused) {
               videoRef.current.pause();
               setIsPlaying(false);
-              setShowThumbnail(true); // Show thumbnail when not in view
+              setShowThumbnail(true); 
             }
           }
         });
@@ -96,7 +95,7 @@ const VideoYt = () => {
     const handleEnded = () => {
       setIsEnded(true);
       setIsPlaying(false);
-      setShowThumbnail(true); // Show thumbnail on video end
+      setShowThumbnail(true);
     };
 
     videoRef.current.addEventListener("ended", handleEnded);
@@ -115,28 +114,27 @@ const VideoYt = () => {
         {isMuted ? <FaVolumeMute /> : <FaVolumeUp />}
       </button>
       <div className={Styles.videoContainer}>
-        {/* Thumbnail */}
         {showThumbnail && (
           <Image
-            src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/yt_choose.webp"
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/course_yop.webp"
             alt="Learnbay"
             quality={100}
             priority
             width={550}
             height={250}
             className={Styles.thumbnail}
-            onClick={handlePlayPause} // Play video on thumbnail click
+            onClick={handlePlayPause}
           />
         )}
         {/* Video */}
         <video
           ref={videoRef}
-          src="/learn.mp4"
+          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/videoplayback_1.mp4"
           width="390"
           height="500"
           className={Styles.video}
           onTimeUpdate={handleTimeUpdate}
-          style={{ display: showThumbnail ? "none" : "block" }} // Hide video when showing thumbnail
+          style={{ display: showThumbnail ? "none" : "block" }} 
         >
           Your browser does not support the video tag.
         </video>

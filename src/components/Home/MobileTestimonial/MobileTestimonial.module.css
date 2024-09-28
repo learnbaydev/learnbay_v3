@@ -2,24 +2,25 @@
   display: grid;
   grid-template-columns: 66% 32%;
   border-radius: 30px;
-  border: 1px solid #FE7A36;
-  background: #d3d3d330;
   margin: 50px 130px;
   padding: 50px 50px 0px 50px;
   align-items: center;
+  border-radius: 50px;
+background: #E5F1F8;
+width: 1200px;
+margin: auto;
 }
 
 .FirstDiv h4 {
   color: #000;
   font-size: 38px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .FirstDiv span {
-  background: linear-gradient(90deg, #000 0.02%, #9d5e00 39.74%);
+
   background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #000;
 }
 
 
@@ -28,7 +29,9 @@
 }
 
 .btnWrapper button {
-    border: 1px solid #FE7A36;
+  border-radius: 10px;
+  background: #0072BC;
+  border:none;
 }
 
 .MobileReviewImageContainer {
@@ -83,12 +86,29 @@
 
 }
 
+@media (max-width: 961px) {
+
+  .FirstDiv h4 {
+    font-size: 24px;
+  }
+
+  .btnWrapper{
+    margin-top: 10px;
+  }
+  .MobileReviewImageContainer img {
+    width: 250px;
+    height: auto;
+  }
+
+}
+
 @media (max-width: 641px) {
 .section {
     margin: 0px;
     padding: 10px 10px 0px 10px;
     display: block;
     border-radius: 0px;
+    width: 100%;
 }
 .FirstDiv span {
     font-size: 28px;
@@ -137,4 +157,5 @@ height: 50px;
 .ShowInMobile {
     display: block;
 }
+
 }

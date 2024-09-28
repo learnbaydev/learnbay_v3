@@ -4,7 +4,7 @@ import Popup from "../../Global/Popup/Popup";
 import Form from "../../Global/Form/Form";
 import { useState } from "react";
 
-function programSection({
+function ProgramSection({
   dataScience,
   dataScienceCounselling,
   interstedInHide,
@@ -107,4 +107,4 @@ function programSection({
   );
 }
 
-export default programSection;
+export default ProgramSection;

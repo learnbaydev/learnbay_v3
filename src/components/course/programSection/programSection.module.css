@@ -17,19 +17,19 @@
 .topSpan {
   text-decoration: underline;
   text-decoration-color: #fe7a36;
-  text-underline-offset: 14px;
+  text-underline-offset: 18px;
   font-weight: 800;
 }
 
 .firstSection h3 {
   color: rgba(33, 33, 33, 0.6);
-  font-size: 46px;
+  font-size: 43px;
   font-weight: 800;
 }
 
 .lightGray {
-  color: #212121;
-  font-weight: 300;
+  color: #000;
+  font-weight: 400;
 }
 
 .orangeHead {
@@ -40,14 +40,14 @@
   color: rgba(33, 33, 33, 0.63);
   font-size: 19px;
   font-weight: 400;
-  line-height: 146.5%; /* 36.625px */
-  margin-top: 20px;
+  line-height: 29px;
+  margin-top: 26px;
 }
 
 .innerBoxDiv {
   display: flex;
-  gap: 100px;
-  margin: 30px 40px 30px 20px;
+  gap: 130px;
+  margin: 30px 0px;
 }
 
 .innerBox h3 {
@@ -63,18 +63,17 @@
 }
 
 .pBot {
-    margin: 0px 110px 0px 20px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 27px;
 }
 
 .twoSection {
   display: grid;
-  grid-template-columns: 68% 28%;
+  grid-template-columns: 65% 28%;
   gap: 48px;
   align-items: center;
   justify-content: space-between;
-  margin-top: 40px;
+  margin-top: 70px;
 }
 
 .orangeSpan {
@@ -98,11 +97,77 @@ font-weight: 700;
 
 .firstSection {
   border-radius: 49px;
-  padding: 30px 35px;
+  padding: 30px 60px 30px 35px;
   background: #fff;
 }
 
 .secondSection img { 
   width: 100%;
   height: auto;
+}
+.dShow {
+  display: block;
+}
+
+.dHide {
+  display: none;
+}
+@media only screen and (max-width: 641px) {
+  .container {
+    padding: 40px 0px;
+  }
+  .innerDiv {
+    margin: 0 24px;
+  }
+  .topSpan {
+    text-underline-offset : 12px;
+  }
+  .container h2 {
+    font-size: 28px;
+  }
+  .twoSection {
+    grid-template-columns: 100%;
+    margin-top: 30px;
+  }
+
+  .firstSection {
+    border-radius: 17px;
+    padding: 20px 14px;
+  }
+  .innerBoxDiv {
+    gap: 20px;
+    margin: 20px 0;
+  }
+  .firstSection h3 {
+    font-size: 32px;
+  }
+  .innerBox {
+     gap: 5px;
+  }
+  .innerBox h3 {
+    font-size: 16px;
+  }
+  .pTop {
+    margin-top: 12px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .pBot {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .innerBox img {
+    width: 42px;
+    height: auto;
+  }
+  .dShow {
+    display: none;
+  }
+
+  .dHide {
+    display: block;
+  }
+  .secondSection {
+    padding: 0px 30px;
+  }
 }

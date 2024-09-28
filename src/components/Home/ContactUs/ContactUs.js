@@ -60,8 +60,7 @@ function ContactUs({
               <br />I had a great learning experience at Learnbay. The faculties
               here are top notch. Right from enrollment to getting a good job,
               they keep putting enormous efforts for each and every candidate.
-              Thanks to all the trainers, backend team, the HR team and to the
-              directors for making this journey smooth.
+              Thanks to all the trainers, backend team.
             </p>
           </div>
 
@@ -83,7 +82,6 @@ function ContactUs({
 
           <div className={styles.slider}>
             <div className={styles.swiperslider}>
-   
               <div className={styles.cardBox}>
                 {" "}
                 <Image

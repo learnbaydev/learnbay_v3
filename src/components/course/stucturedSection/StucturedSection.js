@@ -1,13 +1,41 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import styles from "./StucturedSection.module.css";
 import Image from "next/image";
-import { FaArrowDown } from "react-icons/fa";
 
-function StucturedSection() {
+function StructuredSection() {
+  const stepRefs = useRef([]);
+  const [activeStep, setActiveStep] = useState(0);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const index = stepRefs.current.indexOf(entry.target);
+            setActiveStep(index + 1);
+          }
+        });
+      },
+      { threshold: 0.20 }
+    );
+
+    stepRefs.current.forEach((step) => {
+      if (step) observer.observe(step);
+    });
+
+    return () => {
+      stepRefs.current.forEach((step) => {
+        if (step) observer.unobserve(step);
+      });
+    };
+  }, []);
+
   return (
     <section className={styles.container}>
       <div className="containerWidth">
-        <h2>Structured <span className={styles.topHead}>Admission Process</span></h2>
+        <h2>
+          Structured <span className={styles.topHead}>Admission Process</span>
+        </h2>
         <div className={styles.innerDiv}>
           <div className={styles.leftSide}>
             <Image
@@ -20,13 +48,24 @@ function StucturedSection() {
           </div>
           <div>
             <div className={styles.rightSide}>
-              <div className={styles.rightContainer}>
-                <span className={styles.SpanBlue}>1</span>
+              {/* Step 1 */}
+              <div
+                className={`${styles.rightContainer} ${
+                  activeStep >= 1 ? styles.activeStep : ""
+                }`}
+                ref={(el) => (stepRefs.current[0] = el)}
+              >
+   <div className={activeStep >= 1 ? styles.SpanBlue : styles.SpanGrey}>
+
+   <span >1</span>
+   </div>
                 <div>
-                  <p className={styles.paraTopBlue}>Fill The Application Form</p>
+                  <p className={activeStep >= 1 ? styles.paraTopBlue : styles.paraTopGrey}>
+                    Application Submission
+                  </p>
                   <p className={styles.para}>
-                    We follow an application process to carefully curate our
-                    learning community.
+                    Share your professional background and aspirations with us
+                    by filling out a simple application form.
                   </p>
                 </div>
               </div>
@@ -44,26 +83,40 @@ function StucturedSection() {
                     width="3.23951"
                     height="58.3113"
                     rx="1.61976"
-                    fill="#0072BC"
+                    fill={activeStep >= 2 ? "#0072BC" : "#ebebeb"}
                   />
                   <circle
                     cx="8.09097"
                     cy="55.7506"
                     r="8.09879"
-                    fill="#0072BC"
+                    fill={activeStep >= 2 ? "#0072BC" : "#ebebeb"}
                   />
                 </svg>
               </div>
-              <div className={styles.rightContainer}>
-                <span className={styles.SpanBlue}>2</span>
+
+              {/* Step 2 */}
+              <div
+                className={`${styles.rightContainer} ${
+                  activeStep >= 2 ? styles.activeStep : ""
+                }`}
+                ref={(el) => (stepRefs.current[1] = el)}
+              >
+                <div className={activeStep >= 2 ? styles.SpanBlue : styles.SpanGrey}>
+                <span >2</span>
+                </div>
+
                 <div>
-                  <p className={styles.paraTopBlue}>Eligibility Test</p>
+                  <p className={activeStep >= 2 ? styles.paraTopBlue : styles.paraTopGrey}>
+                    Application Evaluation
+                  </p>
                   <p className={styles.para}>
-                    Successfully complete the eligibility test to confirm your
-                    admission
+                    Our admissions team will review your application, assessing
+                    your experience and goals to ensure the program fits your
+                    career objectives.
                   </p>
                 </div>
               </div>
+
               <div className={styles.spanLine}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -78,23 +131,35 @@ function StucturedSection() {
                     width="3.23951"
                     height="58.3113"
                     rx="1.61976"
-                    fill="#0072BC"
+                    fill={activeStep >= 3 ? "#0072BC" : "#ebebeb"}
                   />
                   <circle
                     cx="8.09097"
                     cy="55.7506"
                     r="8.09879"
-                    fill="#0072BC"
+                    fill={activeStep >= 3 ? "#0072BC" : "#ebebeb"}
                   />
                 </svg>
               </div>
-              <div className={styles.rightContainer}>
-                <span className={styles.spanGrey}>3</span>
+
+              {/* Step 3 */}
+              <div
+                className={`${styles.rightContainer} ${
+                  activeStep >= 3 ? styles.activeStep : ""
+                }`}
+                ref={(el) => (stepRefs.current[2] = el)}
+              >
+                <div className={activeStep >= 3 ? styles.SpanBlue : styles.SpanGrey}>
+                <span >3</span>
+                </div>
+           
                 <div>
-                  <p className={styles.paraTopGrey}>Start Learning</p>
+                  <p className={activeStep >= 3 ? styles.paraTopBlue : styles.paraTopGrey}>
+                    Start Learning
+                  </p>
                   <p className={styles.para}>
-                    Congratulations, you're in! It's time to embark on your
-                    journey.
+                    Once selected, you'll receive confirmation and onboarding
+                    support to quickly start your learning journey.
                   </p>
                 </div>
               </div>
@@ -106,4 +171,4 @@ function StucturedSection() {
   );
 }
 
-export default StucturedSection;
+export default StructuredSection;

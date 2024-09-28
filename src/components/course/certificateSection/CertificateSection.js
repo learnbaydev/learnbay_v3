@@ -1,77 +1,68 @@
 import React from "react";
+import styles from "./CertificateSection.module.css";
 import Image from "next/image";
 import { FaCheckCircle } from "react-icons/fa";
-import { FaPlus } from "react-icons/fa6";
-import styles from "./CertificateSection.module.css";
 
-function CertificateSection() {
+function CertificateSection({ certificateNew }) {
   return (
-    <section className={styles.container}>
-      <div className={styles.degree}>
-        <h2>Get certified and accelerate your <span className={styles.topSpan}>career growth</span></h2>
-        <div className={styles.degreeContainer}>
-          <div className={styles.containerGrid1}>
-            <h3>E&ICT IIT Guwahati</h3>
-            <div className={styles.firstImg}>
-              <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/EICT_certificate_img.webp"
-                width={563}
-                height={700}
-                alt="image"
-              />
-            </div>
-            <div className={styles.paraDiv}>
-              <h4>Certification from E&ICT Academy, IIT Guwahati</h4>
-              <div className={styles.IconDiv}>
-                <p>
-                  <FaCheckCircle className={styles.icon} />Executive Certification: Earned in DS & AI from IIT Guwahati.
-                </p>
-                <p>
-                  <FaCheckCircle className={styles.icon} />Hands-On Experience: Practical learning at IIT Guwahati campus.
-                </p>
-                <p>
-                  <FaCheckCircle className={styles.icon} />Top Faculty: Learn directly from IIT experts.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className={styles.containerGridSecond}>
-            <p className={styles.greenTop}>Add-on Certification</p>
-            <h3>IBM & Microsoft Project Certification</h3>
-            <div>
-              <div className={styles.secondImg}>
+    <section className="containerWidth">
+      <div className={styles.mainBg}>
+        <h2 className={styles.upskillHeading}>
+          Get certified and accelerate your
+          <span className={styles.spanHead}>&nbsp;career growth</span>
+        </h2>
+        <div className={styles.innerDiv}>
+          {/* First two certificates */}
+          <div className={styles.certBoxWrapper}>
+            {certificateNew.slice(0, 2).map((certificate) => (
+              <div key={certificate.id} className={styles.certBox}>
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/IBM_certificate.webp"
-                  width={867}
-                  height={368}
-                  alt="image"
+                  src={certificate.imageUrl}
+                  alt={certificate.title}
+                  width={certificate.imageWidth}
+                  height={certificate.imageHeight}
+                  className={styles.toolIcon}
+                  loading="lazy"
                 />
-              </div>
-              <FaPlus className={styles.iconPlus} />
-              <div className={styles.secondImg}>
-                <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/Microsoft_certificate.webp"
-                  width={866}
-                  height={368}
-                  alt="image"
-                />
-              </div>
-              <div className={styles.secondBotDiv}>
-                <h4>IBM & Microsoft Certification</h4>
-                <div className={styles.IconDiv}>
-                  <p>
-                    <FaCheckCircle className={styles.icon} />Global Credentials: Certified by IBM & Microsoft.
-                  </p>
-                  <p>
-                    <FaCheckCircle className={styles.icon} />In-Demand Skills: Gain expertise recognized worldwide.
-                  </p>
-                  <p>
-                    <FaCheckCircle className={styles.icon} />Career Boost: Elevate your job prospects and earnings.
-
-                  </p>
+                <div className={styles.iconDivMain}>
+                  <h4>{certificate.title}</h4>
+                  {certificate.description.map((desc, descIndex) => (
+                    <div key={descIndex} className={styles.iconDiv}>
+                      <FaCheckCircle />
+                      <p>{desc}</p>
+                    </div>
+                  ))}
                 </div>
               </div>
-            </div>
+            ))}
+          </div>
+
+          {/* HR line */}
+          <hr className={styles.divider} />
+
+          {/* Remaining certificates */}
+          <div className={styles.certBoxWrapperthree}>
+            {certificateNew.slice(2).map((certificate) => (
+              <div key={certificate.id} className={styles.certBoxDemo}>
+                <Image
+                  src={certificate.imageUrl}
+                  alt={certificate.title}
+                  width={certificate.imageWidth}
+                  height={certificate.imageHeight}
+                  className={`${styles.toolIcon} ${styles.toolIconThree}`}
+                  loading="lazy"
+                />
+                <div className={styles.iconDivMain}>
+                  <h4>{certificate.title}</h4>
+                  {certificate.description.map((desc, descIndex) => (
+                    <div key={descIndex} className={styles.iconDiv}>
+                      <FaCheckCircle />
+                      <p>{desc}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
