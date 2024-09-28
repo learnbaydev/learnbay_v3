@@ -59,8 +59,8 @@ const NewSevenSection = ({
           <div className={styles.ryt}>
             <Image
               src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/seven_mblss.webp"
-              width={260}
-              height={400}
+              width={220}
+              height={350}
               alt="coun"
               loading="lazy"
             />
@@ -96,8 +96,8 @@ const NewSevenSection = ({
 
             <Image
               src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/seven_mblss.webp"
-              width={550}
-              height={430}
+              width={400}
+              height={350}
               alt="coun"
               loading="lazy"
             />

@@ -26,7 +26,7 @@
   padding-bottom: 16px;
 }
 .gridConteiner h1 {
-  font-size: 36px;
+  font-size: 42px;
   font-style: normal;
   font-weight: 600 !important;
   line-height: 126.5%; /* 75.9px */
@@ -241,7 +241,7 @@
 }
 .typelogo img {
   position: relative;
-    top: -40px;
+    top: -20px;
     width: 650px;
     height: auto;
 }

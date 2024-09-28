@@ -4,13 +4,13 @@ background: #212121;
 width: 1200px;
 margin: 100px auto;
 
-padding: 60px 80px;
+padding: 50px 80px;
 
 }
 
 .griContiner{
     display: grid;
-    grid-template-columns: 75% 20%;
+    grid-template-columns:62% 25%;
     justify-content: center;
 }
 .fontDiv h4 {
@@ -29,9 +29,9 @@ line-height: 153%; /* 45.9px */
 }
 .fontDiv p {
     color: #FFF;
-font-size: 18px;
+font-size: 17px;
 font-style: normal;
-font-weight: 400;
+font-weight: 300;
 line-height: 153%; /* 33.66px */
 }
 .ryt {
@@ -43,7 +43,7 @@ position: relative;
 
 .ryt  img {
     position: absolute;
-    bottom: -60px;
+    bottom: -50px;
 }
 
 .buttonDiv{
