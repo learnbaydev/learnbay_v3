@@ -1,11 +1,15 @@
 .projectHeader{
-  width: 1400px;
+  width: 100%;
+  max-width: 1400px;
   margin:auto;
 }
 
 
 @media (min-width: 1281px) {
+  .projectHeader{
 
+    max-width: 1400px;
+  }
   
   .projectHeader {
     .headWrapper {

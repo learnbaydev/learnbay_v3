@@ -26,15 +26,15 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
       <div className={styles.gridConteiner}>
         <div className={styles.leftside}>
           <h1>
-            India’s #1 Project-based Upskilling Platform for Professionals
+            India’s <span className={styles.spantitle}>#1 Project-based</span> Upskilling Platform for Professionals
           </h1>
 
           <div className={styles.listleft}>
             <div className={styles.pointsDiv}>
               <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_one.webp"
-                width={30}
-                height={30}
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sign_mark.webp"
+                width={25}
+                height={25}
                 alt="icon"
                 priority
                 quality={80}
@@ -46,9 +46,9 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
             </div>
             <div className={styles.pointsDiv}>
               <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_two.webp"
-                width={30}
-                height={30}
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sign_mark.webp"
+                width={25}
+                height={25}
                 alt="icon"
                 priority
                 quality={80}
@@ -64,8 +64,8 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
             Apply for Counselling{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="37"
-              height="20"
+              width="30"
+              height="16"
               viewBox="0 0 37 20"
               fill="none"
             >
@@ -81,7 +81,7 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
           <div className={styles.rytConteiner}>
             <div className={styles.greenTag}>
               <svg
-                height="50"
+                height="40"
                 width="92"
                 fill="none"
                 viewBox="0 0 92 59"
@@ -110,8 +110,7 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
               </svg>
             </div>
             <h2>
-              Free Counselling
-              <br /> for Professionals
+            Check your eligibility!
             </h2>
             <hr className={styles.hr} />
 
@@ -119,8 +118,8 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
               <div className={styles.listryt}>
                 <Image
                   src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/job_seeker.webp"
-                  width={30}
-                  height={30}
+                  width={25}
+                  height={25}
                   alt="jobseaker"
                   priority
                   quality={100}
@@ -131,8 +130,8 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
               <div className={styles.listryt}>
                 <Image
                   src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/popular_man.webp"
-                  width={30}
-                  height={30}
+                  width={25}
+                  height={25}
                   alt="jobseaker"
                   priority
                   quality={100}
@@ -142,8 +141,8 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
               <div className={styles.listryt}>
                 <Image
                   src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/growth_and_flag.webp"
-                  width={30}
-                  height={30}
+                  width={25}
+                  height={25}
                   alt="jobseaker"
                   priority
                   quality={100}
@@ -156,7 +155,7 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
             <div className={styles.bookFreebtn}>
               <div onClick={popupShow}>
                 <button>
-                  Book Free Session Now <span>&#8594;</span>
+                  Book Free Session Now 
                 </button>
                 <p>
                   No strings attached—explore your career options with expert
@@ -204,7 +203,7 @@ function HeroSection({ setPopups, setVideo, btnHide }) {
         <div className={styles.typelogo}>
           <Image
             src={typeLogo}
-            width={isMobile ? 400 : 700}
+            width={isMobile ? 400 : 760}
             height={36}
             alt="type-logo"
             priority

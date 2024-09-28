@@ -43,6 +43,24 @@ const NewCourse = ({
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  const svgFile = (isActive)=> {
+
+    <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="10"
+    height="12"
+    viewBox="0 0 12 20"
+    fill="none"
+    className={isActive ? styles.svgActive : styles.svgIcon}
+  >
+    <path
+      d="M10.884 10.8839C11.3721 10.3957 11.3721 9.60427 10.884 9.11612L2.92903 1.16117C2.44088 0.67301 1.64942 0.67301 1.16127 1.16117C0.67311 1.64932 0.67311 2.44078 1.16127 2.92893L8.23233 10L1.16127 17.0711C0.67311 17.5592 0.67311 18.3507 1.16127 18.8388C1.64942 19.327 2.44088 19.327 2.92903 18.8388L10.884 10.8839ZM10 11.25H10.0001V8.75H10V11.25Z"
+fill="black"
+    />
+  </svg>
+  } 
+  
+  
   const renderCourses = () => {
     const selectedCourses = courses[activeTab];
     const visibleCourses = selectedCourses.slice(0, visibleCount);
@@ -169,7 +187,7 @@ const NewCourse = ({
         <div>
           <div className={styles.mastericon}>
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Save_icons.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/yellow_save+(1).webp"
               width={25}
               height={25}
               alt="certificate_icon"
@@ -182,7 +200,7 @@ const NewCourse = ({
         <div>
           <div className={styles.buttons}>
             <button
-              className={styles.brochurebtn}
+              className={`${styles.brochurebtn} ${styles.brochurebtnMaster}`}
               onClick={() => {
                 setTitleCourse(masterCourse.title);
                 setBrochureLinks(masterCourse.brochureLinks);
@@ -195,7 +213,7 @@ const NewCourse = ({
 
             {masterCourse.link ? (
               <Link href={masterCourse.link} passHref>
-                <button className={styles.viewDetailsButton}>
+                <button className={`${styles.viewDetailsButton} ${styles.viewDetailsButtonmaster}`}>
                   View Details
                 </button>
               </Link>
@@ -239,68 +257,160 @@ const NewCourse = ({
   return (
     <section className={styles.section}>
       <div className={styles.container} ref={containerRef}>
-        <div className={styles.tabHead}>
-          <div className={styles.tabMain}>
-            <div
-              className={`${styles.tabdiv} ${
-                activeTab === "all" ? styles.active : ""
-              }`}
-              onClick={() => handleTabClick("all")}
-            >
-              <p>All Courses</p>
+        <div className={styles.newSection}>
+          <div className={styles.tabHead}>
+            <div className={styles.tabMain}>
+              <div
+                className={`${styles.tabdiv} ${
+                  activeTab === "all" ? styles.active : ""
+                }`}
+                onClick={() => handleTabClick("all")}
+              >
+                <div className={styles.sliders}>
+                <div className={styles.imgText}>
+                  <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/round_side.webp" width={30} height={30} loading="lazy" alt="slide_icon"/>
+                  <p>Popular Program </p>
+                  </div>
+                  {svgFile}
+                </div>
+              </div>
+              {}
+              <div
+                className={`${styles.tabdiv} ${
+                  activeTab === "Certifications" ? styles.active : ""
+                }`}
+                onClick={() => handleTabClick("Certifications")}
+              >
+                <div className={styles.sliders}>
+                <div className={styles.imgText}>
+                <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cer_side.webp" width={30} height={30} loading="lazy" alt="slide_icon"/>
+                  <p>Certification Courses</p>
+                  </div>
+                  {svgFile}
+                </div>
+              </div>
+              <div
+                className={`${styles.tabdiv} ${
+                  activeTab === "domainCourse" ? styles.active : ""
+                }`}
+                onClick={() => handleTabClick("domainCourse")}
+              >
+                <div className={styles.sliders}>
+                <div className={styles.imgText}>
+                <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_side.webp" width={30} height={30} loading="lazy" alt="slide_icon"/>
+                  <p>Domain Certification </p>
+                  </div>
+                  {svgFile}
+              
+                </div>
+              </div>
+
+              <div
+                className={`${styles.tabdiv} ${
+                  activeTab === "CloudDevops" ? styles.active : ""
+                }`}
+                onClick={() => handleTabClick("CloudDevops")}
+              >
+                <div className={styles.sliders}>
+                <div className={styles.imgText}>
+                <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_side.webp" width={30} height={30} loading="lazy" alt="slide_icon"/>
+                  <p>Cloud & DevOps</p>
+                  </div>
+                  {svgFile}
+            
+                </div>
+              </div>
+              {/* <div
+                className={`${styles.tabdiv} ${
+                  activeTab === "dataScience" ? styles.active : ""
+                }`}
+                onClick={() => handleTabClick("dataScience")}
+              >
+                            <div className={styles.sliders}>
+                <p>Data Science</p>
+                {svgFile}
+              </div>
+              </div> */}
+              {/* <div
+                className={`${styles.tabdiv} ${
+                  activeTab === "MasterDegree" ? styles.active : ""
+                }`}
+                onClick={() => handleTabClick("MasterDegree")}
+              >
+                             <div className={styles.sliders}>
+                <p>Master's Degree</p>
+                {svgFile}
+              </div>
+              </div> */}
+              <div
+                className={`${styles.tabdiv} ${
+                  activeTab === "bfsi" ? styles.active : ""
+                }`}
+                onClick={() => handleTabClick("bfsi")}
+              >
+                <div className={styles.sliders}>
+                <div className={styles.imgText}>
+                <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cer_side.webp" width={30} height={30} loading="lazy" alt="slide_icon"/>
+                  <p>BFSI</p>
+                  </div>
+                  {svgFile}
+                </div>
+              </div>
+              <div
+                className={`${styles.tabdiv} ${
+                  activeTab === "hr" ? styles.active : ""
+                }`}
+                onClick={() => handleTabClick("hr")}
+              >
+                <div className={styles.sliders}>
+                <div className={styles.imgText}>
+                <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_side.webp" width={30} height={30} loading="lazy" alt="slide_icon"/>
+                  <p>HR</p>
+                  </div>
+                  {svgFile}
+                </div>
+              </div>
+              <div
+                className={`${styles.tabdiv} ${
+                  activeTab === "manager" ? styles.active : ""
+                }`}
+                onClick={() => handleTabClick("manager")}
+              >
+                <div className={styles.sliders}>
+            <div className={styles.imgText}>
+            <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_side.webp" width={30} height={30} loading="lazy" alt="slide_icon"/>
+            <p>Managers </p>
             </div>
-            <div
-              className={`${styles.tabdiv} ${
-                activeTab === "domainCourse" ? styles.active : ""
-              }`}
-              onClick={() => handleTabClick("domainCourse")}
-            >
-              <p>Domain Course</p>
-            </div>
-            <div
-              className={`${styles.tabdiv} ${
-                activeTab === "dataScience" ? styles.active : ""
-              }`}
-              onClick={() => handleTabClick("dataScience")}
-            >
-              <p>Data Science</p>
-            </div>
-            <div
-              className={`${styles.tabdiv} ${
-                activeTab === "MasterDegree" ? styles.active : ""
-              }`}
-              onClick={() => handleTabClick("MasterDegree")}
-            >
-              <p>Master's Degree</p>
-            </div>
-            <div
-              className={`${styles.tabdiv} ${
-                activeTab === "CloudDevops" ? styles.active : ""
-              }`}
-              onClick={() => handleTabClick("CloudDevops")}
-            >
-              <p>Cloud & DevOps</p>
+                  {svgFile}
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-
-        {activeTab === "all" && (
+          
+       <div>
+       {activeTab === "all" && (
           <DataScienceCard dataScience={true} radio={true} />
         )}
 
-        <div className={styles.CourseCardHead}>{renderCourses()}</div>
+          <div className={styles.CourseCardHead}>{renderCourses()}</div>
+       </div>
+
+
+          {/* Render the Master Course after the View More button */}
+        </div>
 
         {courses[activeTab].length > visibleCount && (
-          <div className={styles.viewMoreContainer}>
-            <button onClick={handleViewMore} className={styles.viewMoreButton}>
-              View More
-            </button>
-          </div>
-        )}
-
-        {/* Render the Master Course after the View More button */}
-        {activeTab === "all" && renderMasterCourse()}
+            <div className={styles.viewMoreContainer}>
+              <button
+                onClick={handleViewMore}
+                className={styles.viewMoreButton}
+              >
+                View More
+              </button>
+            </div>
+          )}
       </div>
+      {['all', 'bfsi', 'Certifications', 'hr', 'manager','CloudDevops', 'domainCourse'  ].includes(activeTab) && renderMasterCourse()}
     </section>
   );
 };

@@ -100,14 +100,15 @@ display: flex;
 
 @media screen and (max-width:1381px) {
     .NewSevenSection{
-        width: 1280px;
+        width:100%;
+        max-width: 1180px;
     }
 
 
 }
 @media screen and (max-width:1281px) {
     .NewSevenSection{
-        width: 1180px;
+        max-width: 1100px;
     }
 
     @media screen and (max-width:951px) {

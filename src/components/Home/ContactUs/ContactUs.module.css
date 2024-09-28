@@ -33,10 +33,10 @@
 
 .h1 {
   color: #FFF;
-  font-size: 26px;
+  font-size: 22px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 153%; /* 45.9px */
+  font-weight: 600;
+  line-height: 153%;
   margin-bottom: 10px;
 }
 

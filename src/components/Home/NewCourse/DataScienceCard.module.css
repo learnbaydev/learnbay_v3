@@ -34,7 +34,7 @@
   
   .cardTitle {
     color: #212121;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
     line-height: 126.5%;
     letter-spacing: -0.32px;
@@ -90,25 +90,22 @@
   
   .desktopContainer {
     display: flex;
-    gap: 60px 65px;
-    margin-top: 30px;
+    gap: 30px;
     flex-wrap: wrap;
-    align-items: center;
     width: 100%; /* Make it responsive */
     max-width: 1200px; /* Limit the max width */
-    justify-content: center;
   }
   
   .maindiv {
     width: 100%;
-    max-width: 350px; /* Set max width */
+    max-width: 300px; /* Set max width */
   }
   
   .card {
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
     background: #fff;
-    padding: 16px 30px 21px 30px;
+    padding:16px 12px 21px 12px;
   }
   
   .mainContienr {
@@ -169,6 +166,25 @@
         padding: 10px 23px;
     }
     
+  }
+  @media screen and (max-width:1281px) {
+    .maindiv {
+      max-width: 274px;
+  }
+
+  .sectionTitle {
+    margin-top: 50px;
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  .desktopContainer {
+    justify-content: none;
+    gap: 20px;
+  }
+  .cardTitle{
+    font-size: 19px;
+  }
   }
 
   @media screen and (max-width:1181px) {

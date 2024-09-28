@@ -16,6 +16,7 @@ import WhyChooseSection from "@/components/Home/whyChooseSection/whyChooseSectio
 import NewCourse from "@/components/Home/NewCourse/NewCourse";
 import NewSevenSection from "@/components/Global/SeventhSectionNew/NewSevenSection";
 import CLogo from "@/components/Home/Compnays/CLogo";
+import Other from "@/components/Home/OtherVS/Other";
 const WhyLearnbay = dynamic(() =>
   import("@/components/Home/WhyLearnbay/WhyLearnbay")
 );
@@ -392,7 +393,7 @@ export default function Home() {
 
       <ContactUs dataScienceCounselling={true} radio={true} />
       <CLogo/>
-
+<Other/>
       <MobileTestimonial radio={true} dataScienceCounselling={true} />
       <Media projectData={data} />
       <NewSevenSection radio={true} dataScienceCounselling={true} />

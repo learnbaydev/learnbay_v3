@@ -250,12 +250,11 @@ export const courses = {
   domainCourse: [
     {
       title: "Data Science AI for Managers & leaders",
-      duration: "11 months | 2 Projects",
+      duration: "11 months | 3 Projects",
       certification: "Project Certification form IBM",
       description: "For Manager & Team leader",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/mangers_card.webp",
-
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Manager_cards.webp",
       link: "/datascience/data-science-ai-for-managers",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
@@ -268,20 +267,19 @@ export const courses = {
       certification: "Project Certification form IBM",
       description: "For HR Professional",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/hr_card.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/hr_cards.webp",
       link: "datascience/hr-analytics",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
       brochurePdfs: "/Brochure/hr-analytics.pdf",
     },
-
     {
       title: "Data Science & AI for BFSI Professionals",
       duration: "7 months | 2 capstone Projects",
       certification: "Project Certification form IBM",
       description: "For BFSI Professional",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BFSI_card.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BFSI_card_1.webp",
       link: "/datascience/data-science-for-bfsi-professional",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
@@ -294,7 +292,7 @@ export const courses = {
       certification: "Project Certification form IBM",
       description: "For Marketing Professional",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/marketing_card.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/marketing_cards.webp",
       link: "/datascience/marketing-analytics ",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Marketing+Analytics+Certification+Program.pdf",
@@ -302,30 +300,18 @@ export const courses = {
         "/Brochure/Healthcare-Pharma-and-Clinical-Research-domain.pdf",
     },
 
-    {
-      title: "Data Science & AI for Healthcare Professionals",
-      duration: "5 months | 2 capstone Projects",
-      certification: "Project Certification form IBM",
-      description: "For Marketing Professional",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/demo_card.webp",
-      link: "/datascience/data-science-and-ai-for-healthcare-professionals",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Healthcare-Pharma-and-Clinical-Research-domain.pdf",
-      brochurePdfs:
-        "/Brochure/Healthcare-Pharma-and-Clinical-Research-domain.pdf",
-    },
+ 
     // Add more data science courses as needed
   ],
 
-  dataScience: [
+  Certifications: [
     {
       title: "Data Science and AI Master Certification Program",
       duration: "13 months | 4 Capstone Project",
       certification: "Project Certification from IBM",
       description: "For Working Professional",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DS_AI_master.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI_Master_card.webp",
       link: "/datascience/data-science-and-ai-master-certification-program",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf",
@@ -337,7 +323,7 @@ export const courses = {
       certification: "Project Certification form IBM",
       description: "For Working Professional",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Business_M.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BS_card+(1).webp",
       link: "/datascience/business-analytics-certification-course",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf",
@@ -350,7 +336,7 @@ export const courses = {
       certification: "Project Certification form IBM",
       description: "Inclusive of Gen Ai",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Advance_AIML.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI_ML_cards.webp",
 
       link: "/datascience/artificial-intelligence-certification-course",
       brochureLinks:
@@ -364,7 +350,7 @@ export const courses = {
       certification: "Project Certification form IBM",
       description: "For Working Professional",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data_Scienc_Cer_+card.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DS_AD_card+(1).webp",
       link: "/datascience/advance-data-science-certification-courses",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
@@ -377,7 +363,7 @@ export const courses = {
       certification: "Project Certification form IBM",
       description: "for fresher",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/fresher_card.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/freshers_card.webp",
       link: "/datascience/data-science-ai-for-freshers",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data_Science_%26_AI_For_Freshers.pdf",
@@ -390,7 +376,7 @@ export const courses = {
       certification: "Project Certification form IBM",
       description: "For Non-Tech Professionals",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data_an.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA_cards.webp",
 
       link: "/datascience/data-analytics-certification-course",
       brochureLinks:
@@ -403,7 +389,7 @@ export const courses = {
       certification: "Project Certification form IBM",
       description: "For Data science enthusiasts",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/fondation_card.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/fondation_cards.webp",
 
       link: "/datascience/data-science-certification-courses",
       brochureLinks:
@@ -436,7 +422,7 @@ export const courses = {
       certification: "Global Certification",
       description: "Designed by industry experts",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/CD_D.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cloud_cards.webp",
 
       link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
       brochureLinks:
@@ -445,16 +431,62 @@ export const courses = {
     },
     // Add more data science courses as needed
   ],
+  
+  bfsi:[
+    {
+      title: "Data Science & AI for BFSI Professionals",
+      duration: "7 months | 2 capstone Projects",
+      certification: "Project Certification form IBM",
+      description: "For BFSI Professional",
+      image:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BFSI_card_1.webp",
+      link: "/datascience/data-science-for-bfsi-professional",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
+      brochurePdfs: "/Brochure/BFSI.pdf",
+    },
+  ],
 
+  hr:[
+
+    {
+      title: "HR Analytics Certification Program",
+      duration: "5 months | 2 capstone Projects",
+      certification: "Project Certification form IBM",
+      description: "For HR Professional",
+      image:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/hr_cards.webp",
+      link: "datascience/hr-analytics",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
+      brochurePdfs: "/Brochure/hr-analytics.pdf",
+    },
+
+  ],
+  manager:[
+    {
+      title: "Data Science AI for Managers & leaders",
+      duration: "11 months | 3 Projects",
+      certification: "Project Certification form IBM",
+      description: "For Manager & Team leader",
+      image:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Manager_cards.webp",
+      link: "/datascience/data-science-ai-for-managers",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+      brochurePdfs: "/Brochure/data-science-ai-for-managers.pdf",
+    },
+  ],
+  
 };
 
 export const masterCourse = {
-  title: "Master's Degree in CS: Data Science and AI",
+  title: "Data Science and AI Master Certification Program",
   duration: "Earn a Degree Without Pausing Your Career",
   certification: "Master Degree from Woolf University",
   description: "Project Certification from IBM",
   image:
-    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_DS_card+(1).webp",
+    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_card_longm.webp",
    mImage: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cs_bg_M+(1).webp",
   link: "/datascience/data-science-and-ai-masters-in-cs",
   brochureLinks:
