@@ -63,7 +63,7 @@ const Reels = () => {
             }}
     
             slidesPerView={4}
-            spaceBetween={30}
+            spaceBetween={40}
             className={styles.mySwiper}
             breakpoints={{
               320: {

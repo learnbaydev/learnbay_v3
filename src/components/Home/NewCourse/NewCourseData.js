@@ -501,7 +501,7 @@ export const courses = {
 };
 
 export const masterCourse = {
-  title: "Data Science and AI Master Certification Program",
+  title: "Master’s Degree in CS Data Science & AI",
   duration: "Earn a Degree Without Pausing Your Career",
   certification: "Master Degree from Woolf University",
   description: "Project Certification from IBM",
