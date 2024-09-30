@@ -1,3 +1,5 @@
+
+
 .container{
 }
 .newSection{
@@ -140,6 +142,8 @@ align-items: center;
   justify-content: flex-start;
   gap: 18px;
   align-items: center;
+  position: relative;
+    z-index: 2;
 }
 .brochurebtn {
   border-radius: 25px;
@@ -250,6 +254,7 @@ align-items: center;
   cursor: pointer;
   color: black;
   transition: color 0.3s ease;
+  justify-content: space-between;
 }
 
 .active {
@@ -267,6 +272,7 @@ align-items: center;
   display: flex;
   align-items: center;
   gap: 10px;
+  
 }
 .masterConteiner {
   margin-top: 80px;
@@ -504,6 +510,7 @@ line-height: 155%; /* 34.1px */
   .viewMoreContainer {
     margin: 0;
     margin-bottom: 30px;
+    margin-top: -50px;
   }
 
   .section {
@@ -577,6 +584,9 @@ line-height: 155%; /* 34.1px */
   .contentConteiner p {
     font-size: 14px;
   }
+  .swiperContainer{
+    padding-bottom: 30px;
+   }
 }
 
 @media screen and (max-width: 412px) {

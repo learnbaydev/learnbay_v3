@@ -486,6 +486,7 @@ export const courses = {
   ],
   manager: [
     {
+  
       title: "Data Science AI for Managers & leaders",
       duration: "11 months | 3 Projects",
       certification: "Project Certification form IBM",
@@ -514,3 +515,19 @@ export const masterCourse = {
     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf",
   brochurePdfs: "/Brochure/Masters-in-CS.pdf",
 };
+
+
+export const SvgArrow = ({ color }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="8"
+    height="20"
+    viewBox="0 0 12 20"
+    fill="none"
+  >
+    <path
+      d="M10.884 10.8839C11.3721 10.3957 11.3721 9.60427 10.884 9.11612L2.92903 1.16117C2.44088 0.67301 1.64942 0.67301 1.16127 1.16117C0.67311 1.64932 0.67311 2.44078 1.16127 2.92893L8.23233 10L1.16127 17.0711C0.67311 17.5592 0.67311 18.3507 1.16127 18.8388C1.64942 19.327 2.44088 19.327 2.92903 18.8388L10.884 10.8839ZM10 11.25H10.0001V8.75H10V11.25Z"
+      fill={color}
+    />
+  </svg>
+);
