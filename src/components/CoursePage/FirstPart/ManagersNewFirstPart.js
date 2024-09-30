@@ -1,22 +1,17 @@
-import React from "react";
-import dynamic from "next/dynamic";
 import HeroSection from "@/components/course/heroSection/HeroSection";
-import DecisionSection from "@/components/course/decisionSection/DecisionSection";
-import { TRUE } from "sass";
 import ProgramSummary from "@/components/course/pSummary/ProgramSummary";
-const Navbar = dynamic(() =>
-  import("@/components/Global/Navbar/Navbar")
-);
+import dynamic from "next/dynamic";
+const Navbar = dynamic(() => import("@/components/Global/Navbar/Navbar"));
 const ProgramSection = dynamic(() =>
-  import("@/components/course/programSection/programSection")
+  import("@/components/course/programSection/ProgramSection")
 );
 
 const OutcomeSection = dynamic(() =>
-  import("@/components/course/outcomeSection/outcomeSection")
+  import("@/components/course/outcomeSection/OutcomeSection")
 );
 
 const WhyChooseSection = dynamic(() =>
-  import("@/components/course/whyChooseSection/whyChooseSection")
+  import("@/components/course/whyChooseSection/WhyChooseSection")
 );
 const ExecutiveFirstPartGeneric = () => {
   const pdfUrl = "/Brochure/Executive-iit-guwahati-generic.pdf";
@@ -45,9 +40,8 @@ const ExecutiveFirstPartGeneric = () => {
         brochurePdf={pdfUrl}
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
         noIIt={true}
-    
       />
-      <ProgramSummary/>
+      <ProgramSummary />
       <ProgramSection
         dataScienceCounselling={true}
         interstedInHide={true}

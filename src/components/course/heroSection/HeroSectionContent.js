@@ -12,6 +12,10 @@ function HeroSectionContent({
   interstedInHide,
   dataScienceCounselling,
   upSkillingHide,
+  dataScience,
+  DomainInput,
+  ADS,
+  HideInterest,
   title,
   orgTitle,
   descrption,
@@ -19,7 +23,7 @@ function HeroSectionContent({
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
   const [showThumbnail, setShowThumbnail] = useState(true);
   const [lastScrollTop, setLastScrollTop] = useState(0);
-  const [counter, setCounter] = useState(1568); 
+  const [counter, setCounter] = useState(1568);
   const videoRef = useRef(null);
   const iframeRef = useRef(null);
 
@@ -88,51 +92,30 @@ function HeroSectionContent({
         <div className="containerWidth">
           <div className={styles.innerDiv}>
             <div className={styles.firstSection}>
-            <div className={styles.spanDiv}>
-            <Image
-                    src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/hero_brain.webp"
-                    alt="Curriculum Inclusive of Gen-AI"
-                    width={30}
-                    height={40}
-                    loading="lazy"
-                    placeholder="blur"
-                    blurDataURL="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/hero_brain.webp"
-                  />
-              <h5>{spanTag}</h5>
-            </div>
+              <div className={styles.starDiv}>
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/hero_brain.webp"
+                  alt="Curriculum Inclusive of Gen-AI"
+                  width={59}
+                  height={72}
+                  loading="lazy"
+                  placeholder="blur"
+                  blurDataURL="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/hero_brain.webp"
+                />
+                <h5>Curriculum Inclusive of Gen-AI</h5>
+              </div>
               <h1>
-           {title} 
-                 <span className={styles.span}> {orgTitle}</span>
+                Executive Program in Data Science & AI for{" "}
+                <span className={styles.span}>Managers and Tech Leaders</span>
               </h1>
-              {/* <div className={styles.starDivSection}>
+              <div className={styles.starDivSection}>
                 <div className={styles.starDiv}>
-                  <Image
-                    src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/hero_brain.webp"
-                    alt="Curriculum Inclusive of Gen-AI"
-                    width={59}
-                    height={72}
-                    loading="lazy"
-                    placeholder="blur"
-                    blurDataURL="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/hero_brain.webp"
-                  />
-                  <p>Curriculum Inclusive of Gen-AI</p>
-                
+                  <p>
+                    "Learn to leverage the power of data and AI to solve complex
+                    business challenges, enhance decision-making, and lead
+                    high-impact projects in your organization."
+                  </p>
                 </div>
-                <div className={styles.starDiv}>
-                  <Image
-                    src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/first_bank.webp"
-                    alt="Campus Immersion @IIT"
-                    width={69}
-                    height={75}
-                    loading="lazy"
-                    placeholder="blur"
-                    blurDataURL="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/first_bank.webp"
-                  />
-                  <p>Campus Immersion @IIT</p>
-                </div>
-              </div> */}
-              <div className={styles.Descrption}>
-                <p>{descrption}</p>
               </div>
               <div className={styles.btnDiv}>
                 <div className={styles.outlineButton} onClick={popupShow}>
@@ -141,6 +124,17 @@ function HeroSectionContent({
                 <div className={styles.orangeButton} onClick={popupShow}>
                   START MY APPLICATION
                 </div>
+              </div>
+              <div className={styles.imgBot}>
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/V4/Coursepage/ibm_microsoft_head.webp"
+                  alt="Video Thumbnail"
+                  width={684}
+                  height={450}
+                  loading="lazy"
+                  placeholder="blur"
+                  blurDataURL="https://d32and0ii3b8oy.cloudfront.net/web/V4/Coursepage/ibm_microsoft_head.webp"
+                />
               </div>
             </div>
             {noIIt ? (
@@ -151,6 +145,7 @@ function HeroSectionContent({
                 <h3>
                   Check Your <span className={styles.span}>Eligibility</span>
                 </h3>
+
                 <Form
                   dataScienceCounselling={dataScienceCounselling}
                   upSkillingHide={upSkillingHide}
@@ -194,6 +189,14 @@ function HeroSectionContent({
             )}
           </div>
         </div>
+        <div className={styles.btnDivM}>
+          <div className={styles.outlineButton} onClick={popupShow}>
+            DOWNLOAD SYLLABUS
+          </div>
+          <div className={styles.orangeButton} onClick={popupShow}>
+            START MY APPLICATION
+          </div>
+        </div>
       </div>
       <div className="containerWidth">
         <div className={styles.botDiv}>
@@ -209,7 +212,7 @@ function HeroSectionContent({
             />
             <div className={styles.content}>
               <p>Application closes on</p>
-              <h3>06 Aug, 2024</h3>
+              <h3>29 Sept, 2024</h3>
             </div>
           </div>
           <div className={styles.innerBotDiv}>

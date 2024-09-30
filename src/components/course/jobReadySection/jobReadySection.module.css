@@ -4,24 +4,16 @@
 
 .headH4 {
   color: #000;
-font-size: 34px;
-font-weight: 700;
-text-align: center;
-}
-
-.grey {
-  color: #7A7A7A;
-}
-
-.orange {
-  color: #FE7A36;
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
 }
 
 .innerdiv {
   display: grid;
   grid-template-columns: 47.5% 47.5%;
   gap: 34px 60px;
-  margin-top:50px;
+  margin-top:30px;
   padding: 0px 50px;
   border-radius: 33px;
 /* background: #F8FCFF; */
@@ -29,41 +21,42 @@ text-align: center;
 
 .innerdiv div h4 {
   color: #0072BC;
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 26px;
 }
 
 .innerdiv div p {
   color: #121212;
-  font-size: 19px;
-  font-weight: 400;
-  margin-right: 150px;
-  line-height: 148%; /* 42.153px */
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  margin-right: 190px;
 }
 
 .innerdiv div:nth-child(1), .innerdiv div:nth-child(2), .innerdiv div:nth-child(3), .innerdiv div:nth-child(4) {
-  border: 1.835px solid transparent;
-  border-radius: 41.284px; /* Border radius */
-      padding: 36px 0px 0px 42px;
+  border-radius: 28.284px; /* Border radius */
+      padding: 26px 0px 0px 42px;
 
 }
 
 .innerdiv div:nth-child(1), .innerdiv div:nth-child(4) {
-  background: 
-      linear-gradient(#DFEEF8, #DFEEF8) padding-box, 
-      linear-gradient(to right, #0072BC, #DFEEF8) border-box;
+  background: #EBF4FA;
 }
 
+
 .innerdiv div:nth-child(2), .innerdiv div:nth-child(3) {
-  background: 
-      linear-gradient(#FFF2EB, #FFF2EB) padding-box, 
-      linear-gradient(to right, #FE7A36, #FFF2EB) border-box;
+  background: #FFFAED;
+}
+
+.innerdiv div:nth-child(2) h4, .innerdiv div:nth-child(3) h4 {
+  color: #FE7A36;
 }
 
 .innerdiv img {
-  width: 200px;
+  width: 190px;
   height: auto;
   float: right;
-  margin-top: -70px;
+  margin-top: -120px;
   margin-right: 20px;
 }
 

@@ -9,16 +9,16 @@ const FAQNew = dynamic(() =>
   import("../../../components/CoursePage/FAQNew/FAQNew")
 );
 const ReviewSlider = dynamic(() =>
-  import("@/components/course/reviewSlider/reviewSlider")
+  import("@/components/course/reviewSlider/ReviewSlider")
 );
 const FeeSection = dynamic(() =>
-  import("@/components/course/feeSection/feeSection")
+  import("@/components/course/feeSection/FeeSection")
 );
 const JobReadySection = dynamic(() =>
-  import("@/components/course/jobReadySection/jobReadySection")
+  import("@/components/course/jobReadySection/JobReadySection")
 );
 const StructuredSection = dynamic(() =>
-  import("@/components/course/stucturedSection/StucturedSection")
+  import("@/components/course/structuredSection/StructuredSection")
 );
 const UpskillingSection = dynamic(() =>
   import("@/components/course/upskillingSection/upskillingSection")

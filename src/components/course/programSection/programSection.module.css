@@ -11,20 +11,22 @@
 .innerDiv h2 {
   color: #022646;
   font-size: 42px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .topSpan {
-  text-decoration: underline;
-  text-decoration-color: #fe7a36;
-  text-underline-offset: 18px;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .firstSection h3 {
   color: rgba(33, 33, 33, 0.6);
-  font-size: 43px;
-  font-weight: 800;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 50px;
+}
+
+.pTop span {
+  font-weight: 600;
 }
 
 .lightGray {
@@ -38,10 +40,11 @@
 
 .pTop {
   color: rgba(33, 33, 33, 0.63);
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 29px;
-  margin-top: 26px;
+  line-height: 26px;
+  margin-top: 20px;
+  margin-right: 60px;
 }
 
 .innerBoxDiv {
@@ -52,8 +55,8 @@
 
 .innerBox h3 {
   color: #0072bc;
-  font-size: 22px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .innerBox {
@@ -63,17 +66,19 @@
 }
 
 .pBot {
-    font-size: 16px;
-    line-height: 27px;
+  font-size: 14px;
+  line-height: 22px;
+  margin-right: 60px;
+
 }
 
 .twoSection {
   display: grid;
-  grid-template-columns: 65% 28%;
+  grid-template-columns: 62% 28%;
   gap: 48px;
   align-items: center;
   justify-content: space-between;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .orangeSpan {
@@ -96,7 +101,7 @@ font-weight: 700;
 
 
 .firstSection {
-  border-radius: 49px;
+  border-radius: 40px;
   padding: 30px 60px 30px 35px;
   background: #fff;
 }
@@ -140,6 +145,7 @@ font-weight: 700;
   }
   .firstSection h3 {
     font-size: 32px;
+    line-height: 38px;
   }
   .innerBox {
      gap: 5px;
@@ -149,12 +155,14 @@ font-weight: 700;
   }
   .pTop {
     margin-top: 12px;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 22px;
+    margin-right: 0px;
   }
   .pBot {
     font-size: 12px;
-    line-height: 20px;
+    line-height: 16px;
+    margin: 0;
   }
   .innerBox img {
     width: 42px;

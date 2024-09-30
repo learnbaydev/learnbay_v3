@@ -1,21 +1,18 @@
 import Footer from "@/components/Global/Footer/Footer";
 import MentorsSection from "@/components/course/MentorsSection/MentorsSection";
-import CertificateSection from "@/components/course/certificateSection/CertificateSection";
 import ProjectSection from "@/components/course/projectSection/ProjectSection";
 import SyllabusSection from "@/components/course/syllabusSection/SyllabusSection";
 import ToolsSection from "@/components/course/toolsSection/ToolsSection";
 import dynamic from "next/dynamic";
-const FAQNew = dynamic(() =>
-  import("../FAQNew/FAQNew")
-);
+const FAQNew = dynamic(() => import("../FAQNew/FAQNew"));
 const ReviewSlider = dynamic(() =>
-  import("@/components/course/reviewSlider/reviewSlider")
+  import("@/components/course/reviewSlider/ReviewSlider")
 );
 const FeeSection = dynamic(() =>
-  import("@/components/course/feeSection/feeSection")
+  import("@/components/course/feeSection/FeeSection")
 );
 const JobReadySection = dynamic(() =>
-  import("@/components/course/jobReadySection/jobReadySection")
+  import("@/components/course/jobReadySection/JobReadySection")
 );
 const StructuredSection = dynamic(() =>
   import("@/components/course/stucturedSection/StucturedSection")
