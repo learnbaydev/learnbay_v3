@@ -5,35 +5,21 @@
   margin-top: 120px;
   flex-direction: column;
   border-radius: 54px;
-  background: #212121;
+  background:radial-gradient(
+      circle at 10% 10%, /* Blue circle positioned at the top left */
+      rgba(6, 59, 92, 0.9) 1%, /* Smaller blue circle */
+      transparent 30% /* Smooth transition to black */
+    ),
+    radial-gradient(
+      circle at 90% 80%, /* Orange circle positioned at the bottom right */
+      rgba(254, 122, 54, 000.30) 1%, /* Glowing orange circle */
+      transparent 40% /* Smooth transition to black */
+    ),
+    #212121;
+    background-color: rgba(15, 14, 14, 0.954);
   padding: 50px 0px 100px 0px;
   gap: 10px;
 }
-.innerDiv {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns for the first two cards */
-  gap: 80px; /* Space between cards */
-  margin: auto;
-  justify-content: center;
-  align-items: center;
-}
-
-.certBox {
-  position: relative; /* Ensure relative positioning for cards */
-}
-.certBoxDemo{
-  display: grid;
-    grid-template-columns: 40% 50%;
-    justify-content: center;
-    gap: 30px;
-}
-
-/* To handle the third card */
-.certBox:nth-child(3) {
-  grid-column: 1 / -1; /* Make it span across all columns */
-  margin-top: 20px; /* Add some margin for spacing */
-}
-
 
 .upskillHeading{
   font-size: 42px;
@@ -43,15 +29,15 @@
   text-align: center;
 }
 .spanHead {
-  font-weight: 700;
+  font-weight: 600;
   text-decoration: underline;
-  text-underline-offset: 20px;
+  text-underline-offset: 16px;
   text-decoration-color: #FE7A36;
 }
 
 .innerDiv {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 42% 42%;
   gap: 80px;
   margin: auto;
   justify-content: center;
@@ -59,15 +45,12 @@
 }
 
 .middleLine {
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 0%, #FFF 24.48%, #FFF 74.07%, rgba(255, 255, 255, 0.00) 100%);
-  width: 1083.078px;
-height: 1px;
-margin: 30px auto 50px auto;
+margin: 0px auto 30px auto;
 }
 
 .certBox img {
-  width: 100%;
-  height: 350px;
+  width: auto;
+  height: 330px;
 }
 
 .iconDivMain {
@@ -104,32 +87,6 @@ margin: 30px auto 50px auto;
       font-size: 22px;
   }
 
-  .divider {
-    border: 0;
-    height: 1px;
-    width: 100%;
-    background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 255, 255), rgb(7, 7, 7));
-    margin: 20px 0;
-  }
-  
-
-  .certBoxWrapper{
-    display: grid;
-    grid-template-columns: 40% 40%;
-    justify-content: center;
-    gap: 100px;
-  }
-  .certBoxWrapperthree{
-    display: flex;
-  }
-
-  .toolIconThree{
-
-    width: 450px;
-    height: fit-content;
-  }
-  
-
 @media only screen and (max-width: 641px) {
 .mainBg{
   width: 100%;
@@ -137,6 +94,7 @@ margin: 30px auto 50px auto;
   border-radius: 0px;
   padding: 40px 24px;
 }
+
 .upskillHeading{
   font-size: 28px;
 }

@@ -1,22 +1,21 @@
-import { ThirdSectionData } from "@/Data/ThirdSectionData";
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
+import NewSevenSection from "@/components/Global/SeventhSectionNew/NewSevenSection";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+import CLogo from "@/components/Home/Compnays/CLogo";
 import FirstSection from "@/components/Home/FirstSection/FirstSection";
-import Media from "@/components/Home/Media/Media";
-import MobileTestimonial from "@/components/Home/MobileTestimonial/MobileTestimonial";
-import dynamic from "next/dynamic";
-import Head from "next/head";
-import { useMediaQuery } from "react-responsive";
-import { useEffect, useState } from "react";
-import Navbar from "../components/Global/Navbar/Navbar";
 import InfinityLogo from "@/components/Home/InfinityLogo/InfinityLogo";
 import KickStart from "@/components/Home/KickStartSection/KickStart";
-import ReviewSlider from "@/components/course/reviewSlider/reviewSlider";
-import WhyChooseSection from "@/components/Home/whyChooseSection/whyChooseSection";
+import Media from "@/components/Home/Media/Media";
+import MobileTestimonial from "@/components/Home/MobileTestimonial/MobileTestimonial";
 import NewCourse from "@/components/Home/NewCourse/NewCourse";
-import NewSevenSection from "@/components/Global/SeventhSectionNew/NewSevenSection";
-import CLogo from "@/components/Home/Compnays/CLogo";
 import Other from "@/components/Home/OtherVS/Other";
+import WhyChooseSection from "@/components/Home/whyChooseSection/whyChooseSection";
+import ReviewSlider from "@/components/course/reviewSlider/ReviewSlider";
+import dynamic from "next/dynamic";
+import Head from "next/head";
+import { useEffect, useState } from "react";
+import { useMediaQuery } from "react-responsive";
+import Navbar from "../components/Global/Navbar/Navbar";
 const WhyLearnbay = dynamic(() =>
   import("@/components/Home/WhyLearnbay/WhyLearnbay")
 );
@@ -113,7 +112,6 @@ export default function Home() {
       SDesc: "20th November",
       url: "https://www.business-standard.com/content/press-releases-ani/learnbay-collaborates-with-woolf-to-launch-master-s-degree-in-computer-science-data-science-specializations-123112000350_1.html",
     },
- 
   ];
   const [popupData, setPopupData] = useState([]);
   const isMobile = useMediaQuery({ query: "(max-width: 640px)" });
@@ -392,8 +390,8 @@ export default function Home() {
       <ReviewSlider />
 
       <ContactUs dataScienceCounselling={true} radio={true} />
-      <CLogo/>
-<Other/>
+      <CLogo />
+      <Other />
       <MobileTestimonial radio={true} dataScienceCounselling={true} />
       <Media projectData={data} />
       <NewSevenSection radio={true} dataScienceCounselling={true} />

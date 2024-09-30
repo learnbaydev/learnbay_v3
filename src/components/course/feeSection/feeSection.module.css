@@ -218,8 +218,8 @@
 .feesmain h2 {
   color: #212121;
   text-align: center;
-  font-size: 40px;
-  font-weight: 800;
+  font-size: 42px;
+  font-weight: 600;
 }
 
 .feesmain {
@@ -273,7 +273,7 @@
 
 .mainContainer {
   border-radius: 38.262px;
-  padding: 50px 50px 0px 50px;
+  padding: 60px 50px 0px 50px;
   width: 1200px;
   margin: auto;
 }
@@ -283,15 +283,43 @@
   } */
 .innerContainer {
   display: grid;
-  grid-template-columns: 46% 46%;
-  gap: 30px;
-  justify-content: space-between;
+  grid-template-columns: 44% 44%;
+  gap: 60px;
+  justify-content: center;
+}
+.divTop {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  
+}
+
+.starRight {
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 142px;
+}
+
+.starRight img {
+  width: 100%;
+  height: auto;
+}
+.divTop span {
+  border-radius: 33px;
+border: 1px solid #0383FF;
+background: rgba(3, 131, 255, 0.15);
+color: #0383FF;
+font-size: 14px;
+font-weight: 500;
+padding:  3px 10px;
+margin-bottom: 34px;
 }
 .firstContainer,
 .secondContainer {
-  border-radius: 40px;
-  background: #fff;
-  padding: 30px 30px 50px 30px;
+  padding: 50px 40px 30px 40px;
+  border-radius: 39.625px;
+border: 4px solid #F3F3F3;
+background: #FFF;
 }
 .headContent, .headContentBlue {
   font-size: 36px;
@@ -343,19 +371,11 @@
     border: 1px solid #0072BC;
 }
 
-.headOrange {
-    color: #FE7A36;
-    font-size: 32px;
-    font-weight: 600;
-}
-
-.headBlue {
-    font-size: 32px;
-    font-weight: 600;
-    background: linear-gradient(90deg, #686464 1.09%, #AAA 35.59%, #212121 72.11%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.headOrange, .headBlue {
+  color: #212121;
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 34px;
 }
 
 .headContent img, .headContentBlue img {
@@ -377,7 +397,9 @@ background-clip: text;
 }
 
 .firstContainer .iconDiv {
-  margin-top: 30px;
+  margin-top: 26px;
+  padding-bottom: 47px;
+  border-bottom: 1px solid #000;
 }
 .secondContainer .headContent h4 {
   color: #0072bc;
@@ -386,24 +408,31 @@ background-clip: text;
 
 .iconDiv {
   display: grid;
-  gap: 34px;
-  margin: 10px 0px 50px 0px;
+  gap: 28px;
+  margin-top: 26px;
+  padding-bottom: 34px;
+  border-bottom: 1px solid #000;
 }
 
 .innerIconDiv {
   display: flex;
-  gap: 20px;
+  gap: 14px;
   align-items: center;
+}
+
+.iconContent span {
+  color: #000;
+  font-weight: 500;
 }
 
 .iconDiv p {
   color: #212121;
-  font-weight: 500;
+  font-weight: 400;
   margin: 0;
 }
 
-.firstP {
-  font-weight: 700;
+.firstP, .fadedText {
+  font-weight: 500;
   font-size: 20px;
   margin: 0;
 }
@@ -429,20 +458,6 @@ background-clip: text;
   color: #fe7a36;
 }
 
-.fadedText {
-  background: linear-gradient(
-    90deg,
-    #707070 0.14%,
-    #999a9a 38.22%,
-    #212121 74.36%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 20px;
-  font-weight: 700;
-  margin: 30px 0px 20px 0px;
-}
 .secondContainer > .innerIconDiv {
   text-align: center;
   margin-top: 30px;
@@ -452,32 +467,29 @@ background-clip: text;
   width: auto;
   height: 24px;
 }
-.feeSectionContainer {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 10px;
-  align-items: flex-end;
-}
 
-.feeContentContainer {
+.emiButton button, .emiButtonBlue button {
   text-align: center;
-}
-
-.emiButton button {
-  padding: 7px 16px;
-  color: #fe7a36;
-  text-align: center;
-  font-size: 13px;
-  font-weight: 600;
-  margin: auto;
-  border-radius: 9px;
-  border: 1px solid #fe7a36;
+  border-radius: 10px;
   background: #fff;
-  margin-top: 30px;
+  margin-top: 24px;
+  width: fit-content;
+  padding: 14px 40px;
+  border: none;
 }
+
+.emiButtonBlue button {
+  background: #0072BC;
+
+  }
+
+  .emiButton button {
+    color: #0072BC;
+  font-weight: 600;
+background: #EFF3F6;
+    }
 
 .emiButton button:hover {
-  border: 1px solid #fe7a36;
   background: #fff;
   color: #000;
 }
@@ -485,17 +497,15 @@ background-clip: text;
 .feeContentContainer p {
   font-size: 16px;
   font-weight: 400;
+  margin: 0;
 }
 .feeContentContainer h4 {
-  color: #fe7a36;
-  font-size: 38px;
-  font-weight: 700;
-  margin-top: 10px;
+  color: #000;
+  font-size: 36px;
+  font-weight: 500;
+  margin-top: 4px;
 }
 .feeContentContainer > h4 {
-  border-bottom: 1px solid #000;
-  padding-bottom: 20px;
-  margin: auto;
   width: fit-content;
 }
 .paymentPartner {
@@ -515,15 +525,14 @@ background-clip: text;
 }
 
 .border {
-  display: flex;
-  gap: 15px;
-
+padding: 24px 0px 40px 0px;
 }
 
 .border h4 {
   color: #838383;
-  font-size: 35px;
-  font-weight: 700;
+  font-size: 24px;
+  margin-top: 5px;
+  font-weight: 600;
 }
 
 .border span {
@@ -533,9 +542,8 @@ background-clip: text;
 }
 
 .border p {
-  font-weight: 700;
-  padding-top: 20px;
-  font-size: 22px;
+  font-weight: 500;
+  font-size: 20px;
   margin: 0;
 }
 .pImp {
@@ -575,6 +583,14 @@ background-clip: text;
 font-weight: 400;
   }
 
+  .iconDiv {
+    padding-bottom: 26px;
+  }
+
+  .emiButtonBlue button {
+    padding: 10px 20px;
+  }
+
   .feesmain span {
     color: #212121;
 font-weight: 700;
@@ -601,7 +617,7 @@ font-weight: 700;
   .mainContainer {
     width: 100%;
     margin-top: 20px;
-    padding: 0px 30px 40px 30px;
+    padding: 0px 24px 40px 24px;
     height: 100%;
   }
 
@@ -618,14 +634,22 @@ font-weight: 700;
     margin-top: 20px;
     gap: 12px;
     grid-template-columns: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 24px;
   }
+  .feesmain {
+    margin-top: 50px;
+    }
+    .border {
+      padding: 0px 0px 20px 0px;
+    }
   .firstContainer,
   .secondContainer {
     padding: 20px 16px;
+    border-radius: 20px;
   }
   .feeContentContainer h4 {
-    padding: 10px 0px;
+    padding: 0px;
     font-size: 32px;
   }
   .emiButton {
@@ -645,8 +669,8 @@ font-weight: 700;
   margin-bottom: 0px;
 }
 .headOrange, .headBlue {
-  font-size: 22px;
-  margin: 0;
+  font-size: 26px;
+  margin-bottom: 20px;
 }
 .headContent img, .headContentBlue img {
   width: 40px;
@@ -686,7 +710,7 @@ font-weight: 700;
 
 .iconDiv {
   gap: 12px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .innerIconDiv {
   gap: 14px;
@@ -697,14 +721,28 @@ font-weight: 700;
 .border h4 {
   font-size: 22px !important;
   margin-bottom: 0;
+  padding: 0;
 }
 .emiButton {
   margin-top: 10px;
 }
 .emiButton button {
   margin-top: 0;
+  padding: 10px 20px;
 }
 .headContentBlue {
   margin-top: 40px;
+}
+.starRight {
+  margin-top: -20px;
+  margin-left: 23px;
+}
+.divTop  {
+    gap: 10px;
+    z-index: 1;
+    position: relative;
+}
+.divTop span {
+  margin-bottom: 20px;
 }
 }

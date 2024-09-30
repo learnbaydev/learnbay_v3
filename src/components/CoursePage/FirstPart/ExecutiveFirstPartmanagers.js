@@ -1,23 +1,22 @@
-import React from "react";
-import dynamic from "next/dynamic";
-import HeroSection from "@/components/course/heroSection/HeroSection";
 import DecisionSection from "@/components/course/decisionSection/DecisionSection";
+import HeroSection from "@/components/course/heroSection/HeroSection";
+import dynamic from "next/dynamic";
 const Navbar = dynamic(() =>
   import("@/components/course/navbarSection/NavbarSection")
 );
 const ProgramSection = dynamic(() =>
-  import("@/components/course/programSection/programSection")
+  import("@/components/course/programSection/ProgramSection")
 );
 
 const OutcomeSection = dynamic(() =>
-  import("@/components/course/outcomeSection/outcomeSection")
+  import("@/components/course/outcomeSection/OutcomeSection")
 );
 
 const WhyChooseSection = dynamic(() =>
-  import("@/components/course/whyChooseSection/whyChooseSection")
+  import("@/components/course/whyChooseSection/WhyChooseSection")
 );
 const ExecutiveFirstPartmanagers = () => {
-    const pdfUrl = "/Brochure/Executive-iit-guwahati-generic.pdf"
+  const pdfUrl = "/Brochure/Executive-iit-guwahati-generic.pdf";
   return (
     <>
       {" "}
@@ -31,8 +30,8 @@ const ExecutiveFirstPartmanagers = () => {
         interstedInHide={true}
       />
       <HeroSection
-      thumbnailurl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_YT.webp"
-      spanTag="Curriculum Inclusive of Gen-AI"
+        thumbnailurl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_YT.webp"
+        spanTag="Curriculum Inclusive of Gen-AI"
         isSpecialPage={true}
         isGuwahati={true}
         interstedInHide={true}
@@ -41,10 +40,13 @@ const ExecutiveFirstPartmanagers = () => {
         brochurePdf={pdfUrl}
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
         noIIt={true}
-
       />
       <DecisionSection noIIt={true} />
-      <ProgramSection   dataScienceCounselling={true} interstedInHide={true}    brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf" />
+      <ProgramSection
+        dataScienceCounselling={true}
+        interstedInHide={true}
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
+      />
       <OutcomeSection />
       <WhyChooseSection />
     </>

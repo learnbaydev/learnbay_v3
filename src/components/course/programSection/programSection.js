@@ -10,7 +10,13 @@ function ProgramSection({
   interstedInHide,
   titleCourse,
   brochureLink,
-  brochurePdf,
+  formotp,
+  ADS,
+  adPage,
+  HideInterest,
+  OS,
+  DomainInput,
+  upSkillingHide,
 }) {
 
   const [popups, setPopups] = useState(false);
@@ -36,16 +42,11 @@ function ProgramSection({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          <Form
-            titleCourse={titleCourse}
-            brochureLink={brochureLink}
-            brochurePdf={brochurePdf}
-            dataScience={dataScience}
-            interstedInHide={interstedInHide}
-            dataScienceCounselling={dataScienceCounselling}
-            upSkillingHide={true}
-            // radio={radio}
-          />
+        <Form
+dataScienceCounselling={dataScienceCounselling}
+upSkillingHide={upSkillingHide}
+interstedInHide={interstedInHide}
+        />
         </div>
       </Popup>
       <div className="containerWidth">
@@ -59,7 +60,7 @@ function ProgramSection({
                 Years of Experience</span>
               </h3>
               <p className={styles.pTop}>
-              This program is perfect for <b>Business Analysts, Data Scientist, Consultant, Finance Professional, Entrepreneurs, IT Professionals</b>
+              This program is perfect for <span>Business Analysts, Data Scientist, Consultant, Finance Professional, Entrepreneurs, IT Professionals</span>
               </p>
               <div className={styles.innerBoxDiv}>
                 <div className={styles.innerBox}>
@@ -68,8 +69,8 @@ function ProgramSection({
                     alt="Learnbay"
                     quality={100}
                     priority
-                    width="50"
-                    height="50"
+                    width="40"
+                    height="40"
                   />
                   <h3>Project Manager</h3>
                 </div>
@@ -79,10 +80,11 @@ function ProgramSection({
                     alt="Learnbay"
                     quality={100}
                     priority
-                    width="60"
-                    height="60"
+                    width="50"
+                    height="50"
                   />
-                  <h3>Tech Lead(IT/Non-IT)</h3>
+                  <h3 className={styles.dShow}>Tech Lead(IT/Non-IT)</h3>
+                  <h3 className={styles.dHide}>Team Lead</h3>
                 </div>
               </div>
               <p className={styles.pBot}>

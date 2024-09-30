@@ -7,7 +7,7 @@ import Image from "next/image";
 import VideoYt from "@/components/Global/VideoYt/VideoYt";
 import Reels from "./Reels";
 
-const WhyLearnbay = () => {
+const ReviewSlider = () => {
   return (
     <div className={styles.keyContainer}>
       <Reels />
@@ -37,4 +37,4 @@ const WhyLearnbay = () => {
   );
 };
 
-export default WhyLearnbay;
+export default ReviewSlider;

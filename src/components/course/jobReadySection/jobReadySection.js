@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./jobReadySection.module.css";
 import Image from "next/image";
 
-function jobReadySection() {
+function JobReadySection() {
   return (
     <section className={styles.container}>
       <div className="containerWidth">
@@ -77,4 +77,4 @@ strengths and achievements.
   );
 }
 
-export default jobReadySection;
+export default JobReadySection;

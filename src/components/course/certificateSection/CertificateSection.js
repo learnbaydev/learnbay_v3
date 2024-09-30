@@ -3,7 +3,11 @@ import styles from "./CertificateSection.module.css";
 import Image from "next/image";
 import { FaCheckCircle } from "react-icons/fa";
 
-function CertificateSection({ certificateNew }) {
+function CertificateSection({ certificateNew = [] }) {
+  if (!certificateNew || certificateNew.length === 0) {
+    return <p>No certificates available at the moment.</p>;
+  }
+
   return (
     <section className="containerWidth">
       <div className={styles.mainBg}>
