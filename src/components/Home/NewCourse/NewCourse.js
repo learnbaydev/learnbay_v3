@@ -581,4 +581,5 @@ const NewCourse = ({
   );
 };
 
+
 export default memo(NewCourse);

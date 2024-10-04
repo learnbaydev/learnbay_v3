@@ -10,7 +10,7 @@ import MobileTestimonial from "@/components/Home/MobileTestimonial/MobileTestimo
 import NewCourse from "@/components/Home/NewCourse/NewCourse";
 import Other from "@/components/Home/OtherVS/Other";
 import WhyChooseSection from "@/components/Home/whyChooseSection/whyChooseSection";
-import ReviewSlider from "@/components/course/reviewSlider/reviewSlider";
+import ReviewSlider from "@/components/course/reviewSlider/ReviewSlider";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import { useEffect, useState } from "react";

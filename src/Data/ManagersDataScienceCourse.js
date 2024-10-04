@@ -1498,8 +1498,8 @@ certificateNew:[
     id: 1,
     title: "IBM Course Completion Certificate",
     imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/ibm_Cert_new.webp",
-    imageWidth: 884,
-    imageHeight: 634,
+    imageWidth: 450,
+    imageHeight: 300,
     description: [
       "Complete your training with the internationally recognized certificate.",
       "In-Demand Skills: Gain expertise recognized worldwide.",
@@ -1510,8 +1510,8 @@ certificateNew:[
     id: 2,
     title: "Microsoft Course Completion Certificate",
     imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/microsoft_Cert_new.webp",
-    imageWidth: 995,
-    imageHeight: 651,
+    imageWidth: 450,
+    imageHeight: 300,
     description: [
       "Industry-certified Microsoft certificates.",
       "Gain expertise & get recognized worldwide.",
@@ -1522,8 +1522,8 @@ certificateNew:[
     id: 3,
     title: "Capstone Project Certificate from IBM",
     imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project_ibm_Cert_new.webp",
-    imageWidth: 884,
-    imageHeight: 634,
+    imageWidth: 360,
+    imageHeight: 240,
     description: [
       "Globally recognized IBM certification based on industrial-level projects.",
       "Earn 1 capstone project certification from IBM.",

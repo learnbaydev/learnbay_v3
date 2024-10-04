@@ -17,7 +17,7 @@ function CertificateSection({ certificateNew = [] }) {
         </h2>
         <div className={styles.innerDiv}>
           {/* First two certificates */}
-          <div className={styles.certBoxWrapper}>
+          <div className={styles.certBoxWrapperTop}>
             {certificateNew.slice(0, 2).map((certificate) => (
               <div key={certificate.id} className={styles.certBox}>
                 <Image
@@ -41,13 +41,11 @@ function CertificateSection({ certificateNew = [] }) {
             ))}
           </div>
 
-          {/* HR line */}
-          <hr className={styles.divider} />
-
-          {/* Remaining certificates */}
-          <div className={styles.certBoxWrapperthree}>
+          {/* Remaining certificate */}
+          <div className={styles.certBoxWrapperBottom}>
             {certificateNew.slice(2).map((certificate) => (
               <div key={certificate.id} className={styles.certBoxDemo}>
+    
                 <Image
                   src={certificate.imageUrl}
                   alt={certificate.title}
@@ -57,6 +55,7 @@ function CertificateSection({ certificateNew = [] }) {
                   loading="lazy"
                 />
                 <div className={styles.iconDivMain}>
+            <div className={styles.Addon}><p>Add on</p></div>
                   <h4>{certificate.title}</h4>
                   {certificate.description.map((desc, descIndex) => (
                     <div key={descIndex} className={styles.iconDiv}>

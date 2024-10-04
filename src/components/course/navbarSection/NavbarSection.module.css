@@ -197,6 +197,9 @@
   .megaMenu {
     position: absolute;
   }
+  .logoMBL{
+    display: none;
+  }
   
   @media (max-width: 1281px) {
     .nav {
@@ -209,6 +212,7 @@
       font-weight: 400;
     }
   }
+
   
   @media (max-width: 1070px) {
     .right span {
@@ -257,8 +261,17 @@
       width: 100%;
       padding: 0px 10px;
     }
-    .logo {
+    .logo{
+      display: none;
+    }
+    .logoMBL {
+      display: block;
       width: 160px;
+    }
+
+    .logoMBL img {
+      width: 100%;
+      height: auto;
     }
     .left {
       width: 100%;
@@ -345,6 +358,9 @@
   padding: 20px;
   border-radius: 0 0 10px 10px;
 }
+.blueButtonMBL{
+  display: none;
+}
 
 @media (max-width: 801px) {
   .nav {
@@ -361,9 +377,7 @@
     width: 160px;
   }
 
-  .blueButton {
-    display: none;
-  }
+
 
   .orangeButton {
     display: none;
@@ -400,5 +414,116 @@
   .nav {
     width: 100vw;
   }
+
+  /* Existing styles above */
+
+/* Hamburger icon styles */
+.hamburgerIcon {
+  display: none; /* Hidden by default, will be shown in mobile view */
+  cursor: pointer;
+  font-size: 28px;
+  color: #0072bc;
+  margin-right: 10px;
 }
 
+/* Mobile menu styles */
+.mobileMenu {
+  display: none; /* Hidden by default */
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  position: absolute;
+  top: 70px; /* Adjust this value as needed */
+  left: 0;
+  right: 0;
+  z-index: 999;
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+}
+
+.mobileMenuItems {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+
+
+}
+
+/* Responsive styles */
+@media (max-width: 801px) {
+  
+
+  .menuItemsDesktop{
+    display:none;
+  }
+  .hamburgerIcon {
+    display: block; /* Show hamburger icon on mobile */
+  }
+
+  .nav {
+    padding: 0 10px;
+  }
+
+  .innerDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    width: 160px;
+  }
+
+  .blueButton {
+    display: none; /* Hide the Course button in mobile view */
+  }
+
+  .blueButtonMBL{
+    display: block;
+  background: #022646;
+  border-radius: 6px;
+  color: #fff;
+  padding: 8px 10px;
+  align-items: center;
+  display: flex;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  }
+  .orangeButton {
+    display: none; /* Hide Apply for Counselling button in mobile view */
+  }
+
+  .mobileMenu {
+    display: flex; /* Show mobile menu when activated */
+    top: 60px;
+  }
+
+  .menuItems {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .menuItems span {
+    cursor: pointer;
+  }
+
+  .menuItems span:hover {
+    color: #2d9cd7;
+  }
+
+  .firstSection {
+    flex-direction: row-reverse;
+  }
+
+  .menuItemsDesktop{
+    display: none;
+  }
+}

@@ -1,12 +1,16 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, lazy, Suspense, useCallback, memo } from "react";
 import Image from "next/image"; // Import Next.js Image component
 import styles from "./HeroSection.module.css";
-import Form from "@/components/Global/Form/Form";
 import { FaRegUser } from "react-icons/fa";
+import Button from "@/components/Global/Button/Button";
+
+// Lazy-load heavy components to improve FID and LCP
+const Form = lazy(() => import("@/components/Global/Form/Form"));
 
 function HeroSectionContent({
   setPopups,
   spanTag,
+  spanIcon,
   thumbnailurl,
   noIIt,
   interstedInHide,
@@ -19,82 +23,61 @@ function HeroSectionContent({
   title,
   orgTitle,
   descrption,
+  OrangeButton,
+  outline,
+  applicationIcon,
+  CloseDes,
+  ProgramIcon,
+  DurationBot,
+  DurationBotDate,
+  trainingIcon,
+  TrainingBot,
+  CloseBotDate,
+  BotWidth,
+  BotHeight,
+  backgroundImage, // URL for background image
+  backgroundGradient, // CSS for gradient
+  showRightForm, // Prop to control visibility of the right-side form
+  children, // Any content inside the section
+  purpleButton,
+  PointsDiv,
 }) {
-  const [isVideoPlaying, setIsVideoPlaying] = useState(false);
-  const [showThumbnail, setShowThumbnail] = useState(true);
-  const [lastScrollTop, setLastScrollTop] = useState(0);
-  const [counter, setCounter] = useState(1568);
-  const videoRef = useRef(null);
-  const iframeRef = useRef(null);
-
-  // Handle Video Play/Pause
-  const handleVideoPlay = () => {
-    if (isVideoPlaying) {
-      if (iframeRef.current && iframeRef.current.contentWindow) {
-        iframeRef.current.contentWindow.postMessage(
-          '{"event":"command","func":"pauseVideo","args":""}',
-          "*"
-        );
-      }
-      setIsVideoPlaying(false);
-    } else {
-      setIsVideoPlaying(true);
-      setShowThumbnail(false);
-    }
-  };
-
-  useEffect(() => {
-    const incrementCounter = setInterval(() => {
-      setCounter((prevCounter) => Math.min(prevCounter + 20, 7568));
-    }, 1);
-
-    return () => clearInterval(incrementCounter);
-  }, []);
-  useEffect(() => {
-    const handleScroll = () => {
-      const threshold = 300;
-      const scrollY = window.scrollY;
-      const scrollDirection = scrollY > lastScrollTop ? "down" : "up";
-      const isScrollingUp = scrollDirection === "up";
-      const isBeyondThreshold = scrollY <= threshold;
-
-      if (
-        !isScrollingUp &&
-        iframeRef.current &&
-        iframeRef.current.contentWindow
-      ) {
-        iframeRef.current.contentWindow.postMessage(
-          '{"event":"command","func":"pauseVideo","args":""}',
-          "*"
-        );
-        setIsVideoPlaying(false);
-      }
-
-      setShowThumbnail(isBeyondThreshold || (isScrollingUp && !isVideoPlaying));
-
-      setLastScrollTop(scrollY);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [lastScrollTop, isVideoPlaying]);
-
-  const popupShow = () => {
+  // Use useCallback for event handler to prevent unnecessary re-creations
+  const popupShow = useCallback(() => {
     setPopups(true);
-  };
+  }, [setPopups]);
+
+  // Dynamically set the background style
+  const backgroundStyle = backgroundImage
+    ? {
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }
+    : { background: backgroundGradient };
+
+  // Helper function to render buttons to avoid repetition
+  const renderButtons = () => (
+    <>
+      <Button text="DOWNLOAD SYLLABUS" grayButton onClick={popupShow} />
+      <Button
+        text="START MY APPLICATION"
+        OrangeButton={OrangeButton}
+        purpleButton={purpleButton}
+        onClick={popupShow}
+      />
+    </>
+  );
 
   return (
     <section className={styles.mainBg}>
-      <div className={styles.container}>
+      <div className={styles.container} style={backgroundStyle}>
         <div className="containerWidth">
           <div className={styles.innerDiv}>
             <div className={styles.firstSection}>
               <div className={styles.starDiv}>
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/hero_brain.webp"
+                  src={spanIcon}
                   alt="Curriculum Inclusive of Gen-AI"
                   width={59}
                   height={72}
@@ -102,29 +85,36 @@ function HeroSectionContent({
                   placeholder="blur"
                   blurDataURL="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/hero_brain.webp"
                 />
-                <h5>Curriculum Inclusive of Gen-AI</h5>
+                <h5>{spanTag}</h5>
               </div>
               <h1>
-                Executive Program in Data Science & AI for{" "}
-                <span className={styles.span}>Managers and Tech Leaders</span>
+                {title}
+                <span className={styles.span}> {orgTitle}</span>
               </h1>
               <div className={styles.starDivSection}>
-                <div className={styles.starDiv}>
-                  <p>
-                    "Learn to leverage the power of data and AI to solve complex
-                    business challenges, enhance decision-making, and lead
-                    high-impact projects in your organization."
-                  </p>
-                </div>
+                {PointsDiv ? (
+                  <div className={styles.points}>
+                    <div className={styles.firstBox}>
+                      <span>Program Eligibility</span>
+                      <p>Min 1 year in tech</p>
+                    </div>
+                    <hr className={styles.hrOne} />
+                    <div className={styles.secondBox}>
+                      <span>Training Mode</span>
+                      <div className={styles.insidBox}>
+                        <p>Live Online </p>
+                        <hr className={styles.HrTwo} />
+                        <p>Hybrid</p>
+                      </div>
+                    </div>
+                  </div>
+                ) : (
+                  <div className={styles.starDiv}>
+                    <p>{descrption}</p>
+                  </div>
+                )}
               </div>
-              <div className={styles.btnDiv}>
-                <div className={styles.outlineButton} onClick={popupShow}>
-                  DOWNLOAD SYLLABUS
-                </div>
-                <div className={styles.orangeButton} onClick={popupShow}>
-                  START MY APPLICATION
-                </div>
-              </div>
+              <div className={styles.btnDiv}>{renderButtons()}</div>
               <div className={styles.imgBot}>
                 <Image
                   src="https://d32and0ii3b8oy.cloudfront.net/web/V4/Coursepage/ibm_microsoft_head.webp"
@@ -136,121 +126,86 @@ function HeroSectionContent({
                   blurDataURL="https://d32and0ii3b8oy.cloudfront.net/web/V4/Coursepage/ibm_microsoft_head.webp"
                 />
               </div>
-            </div>
-            {noIIt ? (
-              <div className={styles.formdiv}>
-                <span className={styles.fill}>
-                  <FaRegUser className={styles.icon} /> {counter} people filled
-                </span>
-                <h3>
-                  Check Your <span className={styles.span}>Eligibility</span>
-                </h3>
 
-                <Form
-                  dataScienceCounselling={dataScienceCounselling}
-                  upSkillingHide={upSkillingHide}
-                  interstedInHide={interstedInHide}
-                />
-              </div>
-            ) : (
-              <div className={styles.secondSection} onClick={handleVideoPlay}>
-                <div className={styles.videoContainer}>
-                  {showThumbnail ? (
-                    <div className={styles.videoThumbnail}>
-                      <Image
-                        src={thumbnailurl}
-                        alt="Video Thumbnail"
-                        width={684}
-                        height={450}
-                        className={styles.clickableImage}
-                        loading="lazy"
-                        placeholder="blur"
-                        blurDataURL="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/first_yt_thumb.webp"
-                      />
-                      <div className={styles.playButton} />{" "}
-                      {/* Add a play button overlay */}
-                    </div>
-                  ) : (
-                    <iframe
-                      ref={iframeRef}
-                      width="480"
-                      height="350"
-                      src="https://www.youtube.com/embed/6Lr-sJLQ100?enablejsapi=1&autoplay=1"
-                      title="YouTube video player"
-                      frameBorder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowFullScreen
-                      className={styles.videoIframe}
-                      loading="lazy"
-                    ></iframe>
-                  )}
+              <div className={styles.btnDivM}>{renderButtons()}</div>
+            </div>
+
+            {/* Lazy-load the form to improve FID */}
+            {showRightForm && (
+              <Suspense fallback={<div>Loading Form...</div>}>
+                <div className={styles.formdiv}>
+                  <h3>
+                    Check Your <span className={styles.span}>Eligibility</span>
+                  </h3>
+                  <Form
+                    dataScienceCounselling={dataScienceCounselling}
+                    upSkillingHide={upSkillingHide}
+                    interstedInHide={interstedInHide}
+                  />
                 </div>
-              </div>
+              </Suspense>
             )}
           </div>
         </div>
-        <div className={styles.btnDivM}>
-          <div className={styles.outlineButton} onClick={popupShow}>
-            DOWNLOAD SYLLABUS
-          </div>
-          <div className={styles.orangeButton} onClick={popupShow}>
-            START MY APPLICATION
-          </div>
-        </div>
       </div>
-      <div className="containerWidth">
-        <div className={styles.botDiv}>
-          <div className={styles.innerBotDiv}>
-            <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/application_b.webp"
-              alt="Application Closes"
-              width={60}
-              height={60}
-              loading="lazy"
-              placeholder="blur"
-              blurDataURL="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/application_b.webp"
-            />
-            <div className={styles.content}>
-              <p>Application closes on</p>
-              <h3>29 Sept, 2024</h3>
+
+      {/* Lazy-load the bottom content to reduce initial load */}
+      {showRightForm && (
+        <div className="containerWidth">
+          <div className={styles.botDiv}>
+            <div className={styles.innerBotDiv}>
+              <Image
+                src={applicationIcon}
+                alt="Application Closes"
+                width={BotWidth}
+                height={BotHeight}
+                loading="lazy"
+                placeholder="blur"
+                blurDataURL="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/application_b.webp"
+              />
+              <div className={styles.content}>
+                <p>{CloseDes}</p>
+                <h3>{CloseBotDate}</h3>
+              </div>
             </div>
-          </div>
-          <div className={styles.innerBotDiv}>
-            <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/program_b.webp"
-              alt="Program Duration"
-              width={60}
-              height={60}
-              loading="lazy"
-              placeholder="blur"
-              blurDataURL="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/program_b.webp"
-            />
-            <div className={styles.content}>
-              <p>Program Duration</p>
-              <h3>11 Months</h3>
+            <div className={styles.innerBotDiv}>
+              <Image
+                src={ProgramIcon}
+                alt="Program Duration"
+                width={BotWidth}
+                height={BotHeight}
+                loading="lazy"
+                placeholder="blur"
+                blurDataURL="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/program_b.webp"
+              />
+              <div className={styles.content}>
+                <p>{DurationBot}</p>
+                <h3>{DurationBotDate}</h3>
+              </div>
             </div>
-          </div>
-          <div className={styles.innerBotDiv}>
-            <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/training_b.webp"
-              alt="Training Format"
-              width={60}
-              height={60}
-              loading="lazy"
-              placeholder="blur"
-              blurDataURL="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/training_b.webp"
-            />
-            <div className={styles.content}>
-              <p>Training Format</p>
-              <h3>
-                Live Online <span className={styles.span}>|</span> Hybrid
-              </h3>
+            <div className={styles.innerBotDiv}>
+              <Image
+                src={trainingIcon}
+                alt="Training Format"
+                width={BotWidth}
+                height={BotHeight}
+                loading="lazy"
+                placeholder="blur"
+                blurDataURL="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/training_b.webp"
+              />
+              <div className={styles.content}>
+                <p>{TrainingBot}</p>
+                <h3>
+                  Live Online <span className={styles.span}>|</span> Hybrid
+                </h3>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      )}
     </section>
   );
 }
 
-export default HeroSectionContent;
+// Using React.memo to prevent unnecessary re-renders
+export default memo(HeroSectionContent);

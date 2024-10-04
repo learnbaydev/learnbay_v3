@@ -190,7 +190,7 @@ const SyllabusSection = ({
                           </div>
                           <h5 className={styles.titleH}>{item.title}</h5>
                           <div className={styles.slidercontent}>
-                            {item.modules.map((module, moduleIdx) => (
+                            {item.modules.map((module, ) => (
                               <div
                                 className={styles.module}
                                 key={module.moduleTitle}
@@ -233,11 +233,12 @@ const SyllabusSection = ({
       ))}
       <div className={styles.buttondiv}>
         <div className={styles.btnone} onClick={popupShow}>
+          <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Thumb_Icon+(1).webp" width={30} height={30} loading="lazy" alt="Python"/>
           Start Your Application
         </div>
         <div className={styles.btntwo} onClick={popupShow}>
           <div className={styles.pdficon}>
-            <FaRegFilePdf />
+          <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/pdF_icon+(1).webp" width={30} height={30} loading="lazy" alt="Python"/>
           </div>
           Download Brochure
         </div>

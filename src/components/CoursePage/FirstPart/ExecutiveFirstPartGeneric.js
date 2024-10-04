@@ -5,15 +5,15 @@ const Navbar = dynamic(() =>
   import("@/components/course/navbarSection/NavbarSection")
 );
 const ProgramSection = dynamic(() =>
-  import("@/components/course/programSection/ProgramSection")
+  import("@/components/course/programSection/programSection")
 );
 
 const OutcomeSection = dynamic(() =>
-  import("@/components/course/outcomeSection/OutcomeSection")
+  import("@/components/course/outcomeSection/outcomeSection")
 );
 
 const WhyChooseSection = dynamic(() =>
-  import("@/components/course/whyChooseSection/WhyChooseSection")
+  import("@/components/course/whyChooseSection/whyChooseSection")
 );
 const ExecutiveFirstPartGeneric = () => {
   const pdfUrl = "/Brochure/Executive-iit-guwahati-generic.pdf";
@@ -41,6 +41,7 @@ const ExecutiveFirstPartGeneric = () => {
         dataScience={true}
         brochurePdf={pdfUrl}
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
+        backgroundGradient="radial-gradient(circle at 10% 10%, rgba(6, 59, 92, 0.9) 1%, transparent 30%), radial-gradient(circle at 90% 80%, rgba(254, 122, 54, 0.3) 1%, transparent 40%), #212121"
       />
       <DecisionSection />
       <ProgramSection

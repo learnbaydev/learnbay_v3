@@ -23,7 +23,7 @@ function WhyChooseSection() {
                   src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/online_why.webp"
                   alt="Learnbay"
                   quality={100}
-                  priority
+                loading="lazy"
                   width="80"
                   height="80"
                 />
@@ -34,7 +34,7 @@ function WhyChooseSection() {
                   src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/location_why.webp"
                   alt="Learnbay"
                   quality={100}
-                  priority
+                loading="lazy"
                   width="80"
                   height="80"
                 />
@@ -59,7 +59,7 @@ function WhyChooseSection() {
               src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/choose_first_right.webp"
               alt="Learnbay"
               quality={100}
-              priority
+            loading="lazy"
               width="795"
               height="770"
             />
@@ -71,7 +71,7 @@ function WhyChooseSection() {
               src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/Domain_left_side.webp"
               alt="Learnbay"
               quality={100}
-              priority
+            loading="lazy"
               width="711"
               height="335"
             />
@@ -136,7 +136,7 @@ function WhyChooseSection() {
               src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project_img.webp"
               alt="Learnbay"
               quality={100}
-              priority
+            loading="lazy"
               width="550"
               height="250"
             />
@@ -155,7 +155,7 @@ function WhyChooseSection() {
               src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/Doubt_Learnbay.webp"
               alt="Learnbay"
               quality={100}
-              priority
+            loading="lazy"
               width="684"
               height="527"
             />

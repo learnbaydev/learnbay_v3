@@ -17,6 +17,15 @@ function ProgramSection({
   OS,
   DomainInput,
   upSkillingHide,
+  mid,
+  senoir,
+  yearExp,
+  to,
+  PointOne,
+  pointTwo,
+  pointTwoIcon,
+  PointOneIcon,
+  rightImg,
 }) {
 
   const [popups, setPopups] = useState(false);
@@ -55,9 +64,8 @@ interstedInHide={interstedInHide}
           <div className={styles.twoSection}>
             <div className={styles.firstSection}>
               <h3>
-                Mid <span className={styles.lightGray}>to</span> Senior <span className={styles.lightGray}>Level 
-                Professionals with</span><span className={styles.orangeHead}> 4+
-                Years of Experience</span>
+                {mid} <span className={styles.lightGray}>{to}</span> {senoir} <span className={styles.lightGray}>Level 
+                Professionals with</span><span className={styles.orangeHead}> {yearExp}</span>
               </h3>
               <p className={styles.pTop}>
               This program is perfect for <span>Business Analysts, Data Scientist, Consultant, Finance Professional, Entrepreneurs, IT Professionals</span>
@@ -65,25 +73,26 @@ interstedInHide={interstedInHide}
               <div className={styles.innerBoxDiv}>
                 <div className={styles.innerBox}>
                   <Image
-                    src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project_ma.webp"
+                    src={PointOneIcon}
                     alt="Learnbay"
                     quality={100}
                     priority
-                    width="40"
-                    height="40"
+                    width={40}
+                    height={40}
                   />
-                  <h3>Project Manager</h3>
+                  <h3>{PointOne}</h3>
                 </div>
                 <div className={styles.innerBox}>
                   <Image
-                    src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/eligible_de.webp"
+                                   src={pointTwoIcon}
+                
                     alt="Learnbay"
                     quality={100}
                     priority
                     width="50"
                     height="50"
                   />
-                  <h3 className={styles.dShow}>Tech Lead(IT/Non-IT)</h3>
+                  <h3 className={styles.dShow}>{pointTwo}</h3>
                   <h3 className={styles.dHide}>Team Lead</h3>
                 </div>
               </div>
@@ -94,7 +103,7 @@ interstedInHide={interstedInHide}
             </div>
             <div className={styles.secondSection}>
               <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/program_right_side.webp"
+                src={rightImg}
                 alt="Learnbay"
                 quality={100}
                 priority
