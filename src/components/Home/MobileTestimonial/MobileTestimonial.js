@@ -363,6 +363,7 @@ function MobileTestimonial({dataScienceGeneric, dataScienceCounselling, radio, i
             style={{width:"100%"}}
             src={testimonials[activeIndex].MobileReviewImage}
             alt={`User ${testimonials[activeIndex].UserImage}`}
+            loading="lazy"
           />
         </div>
       </section>

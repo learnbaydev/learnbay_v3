@@ -1,58 +1,61 @@
 "use client";
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useMemo } from "react";
 import Reeldata from "./reelData";
-import VideoPopup from "@/components/Global/VideoPopup/VideoPopup"; 
+import dynamic from 'next/dynamic';
 import styles from "./reviewSlider.module.css";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
-
-import {
-  MdOutlineKeyboardArrowLeft,
-  MdOutlineKeyboardArrowRight,
-} from "react-icons/md";
+import { MdOutlineKeyboardArrowLeft, MdOutlineKeyboardArrowRight } from "react-icons/md";
 import Image from "next/image";
+
+// Dynamically import VideoPopup
+const VideoPopup = dynamic(() => import('@/components/Global/VideoPopup/VideoPopup'), { ssr: false });
 
 const Reels = () => {
   const reelswiperRef = useRef(null);
-  const [swap, setSwap] = useState(false);
+  const [videoId, setVideoId] = useState("");
 
-  const nextreelSlide = () => {
-    reelswiperRef.current.slideNext();
-    if (!swap) setSwap(true);
-  };
-
-  const prevreelSlide = () => {
-    reelswiperRef.current.slidePrev();
-    if (swap) setSwap(false);
-  };
-
-  const [vId, setVId] = useState("");
-  const [video, setVideo] = useState(false);
+  const isVideoPopupOpen = videoId !== "";
 
   const videoShow = (id) => {
-    setVideo(true);
-    setVId(id);
+    setVideoId(id);
   };
+
+  const videoClose = () => {
+    setVideoId(""); // Close the popup by clearing the ID
+  };
+
+  // Debounce function for navigation
+  const debounce = (func, delay) => {
+    let timeout;
+    return (...args) => {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => func.apply(this, args), delay);
+    };
+  };
+
+  const nextreelSlide = debounce(() => {
+    reelswiperRef.current.slideNext();
+  }, 300);
+
+  const prevreelSlide = debounce(() => {
+    reelswiperRef.current.slidePrev();
+  }, 300);
 
   return (
     <>
-      <VideoPopup triggers={video} setTriggers={setVideo} ids={vId} />
+      <VideoPopup triggers={isVideoPopupOpen} setTriggers={videoClose} ids={videoId} />
       <div className={styles.headingContainer}>
-       <div className={styles.Header}>
-
-       <h2>
-          Real Stories, <span className={styles.topSpan}>Real Success</span>
-        </h2>
-        <p className={styles.subHeading}>
-          Discover what our learners say about us
-        </p>
-       </div>
-        {/* Custom Navigation Buttons */}
-        <div className={styles.btnContainer}></div>
-
+        <div className={styles.Header}>
+          <h2>
+            Real Stories, <span className={styles.topSpan}>Real Success</span>
+          </h2>
+          <p className={styles.subHeading}>
+            Discover what our learners say about us
+          </p>
+        </div>
         <div className={styles.mainContiner}>
           <div className={styles.prevBtn} onClick={prevreelSlide}>
             <MdOutlineKeyboardArrowLeft />
@@ -61,7 +64,6 @@ const Reels = () => {
             onSwiper={(swiper) => {
               reelswiperRef.current = swiper;
             }}
-    
             slidesPerView={4}
             spaceBetween={30}
             className={styles.mySwiper}
@@ -106,6 +108,7 @@ const Reels = () => {
                   height={200}
                   className={styles.videoImage}
                   onClick={() => videoShow(item.link)}
+  
                 />
               </SwiperSlide>
             ))}

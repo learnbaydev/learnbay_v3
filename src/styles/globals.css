@@ -116,7 +116,7 @@ iframe {
   align-items: center;
 }
 .flexAlignStart {
-  align-items: start;
+  align-items: flex-start;
 }
 
 .realstory{

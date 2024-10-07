@@ -14,6 +14,7 @@ const FirstContent = ({
   cityParaCont,
   setPopups,
   setVideo,
+
 }) => {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {

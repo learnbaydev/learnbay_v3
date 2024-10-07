@@ -13,6 +13,7 @@ import WhyChooseSection from "@/components/Home/whyChooseSection/whyChooseSectio
 import ReviewSlider from "@/components/course/reviewSlider/ReviewSlider";
 import dynamic from "next/dynamic";
 import Head from "next/head";
+import { schemaData } from "@/CityData/Schemadata/Data";
 import { useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import Navbar from "../components/Global/Navbar/Navbar";
@@ -31,13 +32,7 @@ const Realstory = dynamic(() =>
 const ContactUs = dynamic(() =>
   import("@/components/Home/ContactUs/ContactUs")
 );
-const GetHire = dynamic(() => import("@/components/Home/GetHire/GetHire"));
-const TrainerSection = dynamic(() =>
-  import("@/components/Global/TrainerSection/TrainerSection")
-);
-const SeventhSection = dynamic(() =>
-  import("@/components/Global/SeventhSection/SeventhSection")
-);
+
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
 
 export default function Home() {
@@ -148,7 +143,6 @@ export default function Home() {
     <>
       <Head>
         <title>Online IT Certification Courses and Professional Programs</title>
-        <meta name="robots" content="index, follow" />
         <meta name="referrer" content="strict-origin-when-cross-origin" />
 
         <meta
@@ -156,223 +150,24 @@ export default function Home() {
           content="Enhance your skills with Learnbay's comprehensive online courses and master programs and achieve your professional goals. Enroll Now!"
         />
         <link rel="canonical" href="https://www.learnbay.co/" />
-        <meta
-          name="keywords"
-          content="Learnbay Training Institute, Learnbay Data Science, Best Training Institute, Classroom Training, online Training, best institute for cloud computing,best online learning platform for technology, best it training institute, best institute for data analyst course, best institute for data science course"
-        />
         <link
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
+        <link
+          rel="preload"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/shades.webp"
+          as="image"
+        />
+        <link
+          rel="preload"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/mbl_shadows.webp"
+          as="image"
+        />
 
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: `{
-            "@context": "https://schema.org",
-            "@type": "ItemList",
-            "name": "Course List",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "item": {
-                  "@type": "course",
-                  "name": "Master's Degree in Computer Science: Data Science and AI",
-                  "description": "A comprehensive Master's degree program with specializations in Data Science and AI.",
-                  "provider": {
-                    "@type": "Organization",
-                    "name": "Learnbay"
-                  },
-                   "occupationalCategory": [
-                    "Data Science and Analytics",
-                    "AI & Machine Learning"
-                  ],
-                  "url": "https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs",
-                  "offers": {
-                    "@type": "Offer",
-                    "priceSpecification": {
-                      "@type": "QuantitativeValue",
-                      "value": 250000,
-                      "currencyCode": "INR"
-                    },
-                    "availability": "http://schema.org/InStock",
-                    "url": "https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs",
-                    "category": "Data Science and Analytics"
-                  },
-                  "hasCourseInstance": {
-                    "@type": "CourseInstance",
-                    "startDate": "2023-11-15",
-                    "endDate": "2024-05-15",
-                    "courseMode": "Online",
-                    "courseWorkload": "P10W"
-                  }
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "item": {
-                  "@type": "Course",
-                  "name": "Advance Data Science and AI Certification",
-                  "description": "An advanced certification course in Data Science and AI.",
-                  "provider": {
-                    "@type": "Organization",
-                    "name": "Learnbay"
-                  },
-                  "url": "https://www.learnbay.co/datascience/advance-data-science-certification-courses",
-                  "offers": {
-                    "@type": "Offer",
-                    "priceSpecification": {
-                      "@type": "QuantitativeValue",
-                      "value": 125000,
-                      "currencyCode": "INR"
-                    },
-                    "availability": "http://schema.org/InStock",
-                    "url": "https://www.learnbay.co/datascience/advance-data-science-certification-courses",
-                    "category": "Data Science"
-                  },
-                  "hasCourseInstance": {
-                    "@type": "CourseInstance",
-                    "startDate": "2023-11-15",
-                    "endDate": "2024-05-15",
-                    "courseMode": "Online",
-                    "courseWorkload": "P10W"
-                  }
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "item": {
-                  "@type": "Course",
-                  "name": "Advance AI and ML Certification Program",
-                  "description": "An advanced certification program in Artificial Intelligence and Machine Learning.",
-                  "provider": {
-                    "@type": "Organization",
-                    "name": "Learnbay"
-                  },
-                  "url": "https://www.learnbay.co/datascience/artificial-intelligence-certification-course",
-                  "offers": {
-                    "@type": "Offer",
-                    "priceSpecification": {
-                      "@type": "QuantitativeValue",
-                      "value": 110000,
-                      "currencyCode": "INR"
-                    },
-                    "availability": "http://schema.org/InStock",
-                    "url": "https://www.learnbay.co/datascience/artificial-intelligence-certification-course",
-                    "category": "AI & Machine Learning"
-                  },
-                  "hasCourseInstance": {
-                    "@type": "CourseInstance",
-                    "startDate": "2023-11-15",
-                    "endDate": "2024-06-15",
-                    "courseMode": "Online",
-                    "courseWorkload": "P10W"
-                  }
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 4,
-                "item": {
-                  "@type": "Course",
-                  "name": "Business Analytics Program",
-                  "description": "A comprehensive program in Business Analytics with real-world projects.",
-                  "provider": {
-                    "@type": "Organization",
-                    "name": "Learnbay"
-                  },
-                  "url": "https://www.learnbay.co/datascience/business-analytics-certification-course",
-                  "offers": {
-                    "@type": "Offer",
-                    "priceSpecification": {
-                      "@type": "QuantitativeValue",
-                      "value": 90000,
-                      "currencyCode": "INR"
-                    },
-                    "availability": "http://schema.org/InStock",
-                    "url": "https://www.learnbay.co/datascience/business-analytics-certification-course",
-                    "category": "Business Analytics"
-                  },
-                  "hasCourseInstance": {
-                    "@type": "CourseInstance",
-                    "startDate": "2023-11-15",
-                    "endDate": "2024-07-15",
-                    "courseMode": "Online",
-                    "courseWorkload": "P10W"
-                  }
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 5,
-                "item": {
-                  "@type": "Course",
-                  "name": "Data Analytics Program",
-                  "description": "Upskill yourself to the top within 6 months with a curriculum designed by industry experts.",
-                  "provider": {
-                    "@type": "Organization",
-                    "name": "Learnbay"
-                  },
-                  "url": "https://www.learnbay.co/datascience/data-analytics-certification-course",
-                  "offers": {
-                    "@type": "Offer",
-                    "priceSpecification": {
-                      "@type": "QuantitativeValue",
-                      "value": 80000,
-                      "currencyCode": "INR"
-                    },
-                    "availability": "http://schema.org/InStock",
-                    "url": "https://www.learnbay.co/datascience/data-analytics-certification-course",
-                    "category": "Data Analytics"
-                  },
-                  "hasCourseInstance": {
-                    "@type": "CourseInstance",
-                    "startDate": "2023-11-15",
-                    "endDate": "2024-08-15",
-                    "courseMode": "Online",
-                    "courseWorkload": "P10W"
-                  }
-                }
-              },
-             {
-            "@type": "ListItem",
-            "position": 6,
-            "item": {
-              "@type": "Course",
-              "name": "Software Development Certification Program",
-              "description": "Upskill and switch from service-based to product-based companies with our Software Development Certification Program.",
-              "provider": {
-                "@type": "Organization",
-                "name": "Learnbay"
-              },
-              "url": "https://www.learnbay.co/fullstack/full-stack-software-development-program",
-              "offers": {
-                "@type": "Offer",
-                "priceSpecification": {
-                  "@type": "QuantitativeValue",
-                  "value": 115000,
-                  "currencyCode": "INR"
-                },
-                "availability": "http://schema.org/InStock",
-                "url": "https://www.learnbay.co/fullstack/full-stack-software-development-program",
-                "category": "Software Development"
-              },
-              "hasCourseInstance": {
-                "@type": "CourseInstance",
-                "startDate": "2023-11-15",
-                "endDate": "2024-08-15",
-                "courseMode": "Online",
-                "courseWorkload": "P10W"
-              }
-            }
-          }
-            ]
-
-          } `,
-          }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} // Use imported schema data
         />
       </Head>
       <Navbar radio={true} dataScienceCounselling={true} />

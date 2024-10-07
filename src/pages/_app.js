@@ -1,12 +1,12 @@
-import "@/styles/globals.css";
 import "@/styles/Button.css";
+import "@/styles/globals.css";
+import { Georama } from "next/font/google";
+import { useRouter } from "next/router";
 import Script from "next/script";
 import { useEffect } from "react";
 import TagManager from "react-gtm-module";
-import { Georama } from "next/font/google";
-import { PopupProvider, usePopup } from "../context/PopupContext";
 import Popup from "../components/Popup/Popup";
-import { useRouter } from "next/router";
+import { PopupProvider, usePopup } from "../context/PopupContext";
 
 const georama = Georama({
   weight: ["300", "400", "500", "600", "700", "800"],
@@ -54,7 +54,10 @@ const ComponentWithPopup = ({ Component, pageProps }) => {
   const router = useRouter();
 
   useEffect(() => {
-    if (router.pathname !== "/organic/generic" && router.pathname !== "/submit-info") {
+    if (
+      router.pathname !== "/organic/generic" &&
+      router.pathname !== "/submit-info"
+    ) {
       const timer = setTimeout(() => {
         triggerPopup("");
       }, 5000);

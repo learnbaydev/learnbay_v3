@@ -497,6 +497,8 @@ line-height: 155%; /* 34.1px */
   }
   .buttons {
     gap: 10px;
+        z-index: 1;
+        position: relative;
   }
 
   .viewMoreContainer {
