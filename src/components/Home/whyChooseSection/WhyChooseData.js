@@ -102,6 +102,8 @@ const whyChooseData = [
       image: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/org_why.webp",
       svg: null, // No SVG for this item
     },
+
+    
   ];
   
   export default whyChooseData;

@@ -61,7 +61,7 @@ PointsDiv,
       title={title}
       orgTitle={orgTitle}
       thumbnailurl={thumbnailurl}
-      spanTag={spanTag}
+    
         setPopups={setPopups}
         setVideo={setVideo}
         videoId={videoId}
@@ -70,7 +70,7 @@ PointsDiv,
         upSkillingHide={upSkillingHide}
         dataScienceCounselling={dataScienceCounselling}
         radio={radio}
-        noIIt ={noIIt}
+
         descrption={descrption}
         spanIcon={spanIcon}
         OrangeButton={OrangeButton}

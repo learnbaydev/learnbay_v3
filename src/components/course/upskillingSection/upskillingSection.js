@@ -121,8 +121,8 @@ const UpskillingSection = () => {
           <div className={styles.svgLinetwo}>
     
             <svg
-              height="430"
-              width="191"
+              height="400"
+              width="171"
               fill="none"
               viewBox="0 0 191 430"
               xmlns="http://www.w3.org/2000/svg"
@@ -370,34 +370,36 @@ const UpskillingSection = () => {
           <div className={styles.svgLinetfourth}>
       
 
-            <svg
-              height="16"
-              width="204"
-              fill="none"
-              viewBox="0 0 204 16"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <defs>
-                <clipPath id="rounded-left">
-                  <path d="M8 0 Q 0 0 0 8 Q 0 16 8 16 H 204 V 0 H 8 Z" />
-                </clipPath>
-              </defs>
-              <rect
-                height="16"
-                width="204"
-                fill="#FE7A36"
-                fillOpacity="0.25"
-                clipPath="url(#rounded-left)"
-              />
-              <path
-                d="M10.4785 8L192.63 9.00444"
-                stroke="white"
-                strokeDasharray="8 8"
-                strokeLinecap="round"
-                strokeLinejoin="bevel"
-                strokeWidth="3"
-              />
-            </svg>
+          <svg
+  height="20"
+  width="180"
+  fill="none"
+  viewBox="0 0 204 16"
+  xmlns="http://www.w3.org/2000/svg"
+  style={{ transform: 'translateX(16px)' }}  // Use object notation
+>
+  <defs>
+    <clipPath id="rounded-left">
+      <path d="M8 0 Q 0 0 0 8 Q 0 16 8 16 H 204 V 0 H 8 Z" />
+    </clipPath>
+  </defs>
+  <rect
+    height="16"
+    width="204"
+    fill="#FE7A36"
+    fillOpacity="0.25"
+    clipPath="url(#rounded-left)"
+  />
+  <path
+    d="M10.4785 8L192.63 9.00444"
+    stroke="white"
+    strokeDasharray="8 8"
+    strokeLinecap="round"
+    strokeLinejoin="bevel"
+    strokeWidth="3"
+  />
+</svg>
+
           </div>
           <h4 className={styles.boxTitle}>Domain + 2 Capstone Projects</h4>
           <p className={styles.boxText}>

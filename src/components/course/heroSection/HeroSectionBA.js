@@ -1,22 +1,27 @@
-import { useEffect, useRef, useState, lazy, Suspense } from "react";
+import { useEffect, useState, lazy, Suspense } from "react";
 import Image from "next/image"; // Import Next.js Image component
 import styles from "./HeroSection.module.css";
-import { FaRegUser } from "react-icons/fa";
 import Button from "@/components/Global/Button/Button";
+import PopupContent from "@/components/Global/PopupContent/PopupContent";
 
-// Lazy-load heavy components to improve FID and LCP
+// Lazy-load the Form component
 const Form = lazy(() => import("@/components/Global/Form/Form"));
 
-function HeroSectionContent({
-  setPopups,
-  spanTag,
-  spanIcon,
-
+function HeroSectionBA({
   interstedInHide,
   dataScienceCounselling,
   upSkillingHide,
+  brochureLink,
+  brochurePdf,
+  radio,
+  dataScience,
+  title,
+  orgTitle,
+  descrption,
   OrangeButton,
-
+  purpleButton,
+  backgroundImage, // URL for background image
+  showRightForm, // Prop to control visibility of the right-side form
   applicationIcon,
   CloseDes,
   ProgramIcon,
@@ -27,32 +32,49 @@ function HeroSectionContent({
   CloseBotDate,
   BotWidth,
   BotHeight,
-  backgroundImage, // URL for background image
-  backgroundGradient, // CSS for gradient
-  purpleButton,
 }) {
-  const popupShow = () => {
-    setPopups(true);
-  };
+  const [popups, setPopups] = useState(false);
+  const [isMobile, setIsMobile] = useState(false); // Track mobile view
 
-  // Dynamically set the background style
-  const backgroundStyle = backgroundImage
-    ? {
-        backgroundImage: `url(${backgroundImage})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }
-    : { background: backgroundGradient };
+  const popupShow = () => setPopups(true);
+
+  // Check if the screen is mobile on initial load and on resize
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth <= 768);
+    checkMobile(); // Initial check
+    window.addEventListener("resize", checkMobile); // Update on resize
+
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
 
   return (
     <section className={styles.mainBg}>
-      <div className={styles.container} >
+      <PopupContent
+        popups={popups}
+        setPopups={setPopups}
+        heading="Download Syllabus"
+        downloadBrochure
+        dataScience={true}
+        interstedInHide={interstedInHide}
+        brochureLink={brochureLink}
+        brochurePdf={brochurePdf}
+        radio={radio}
+      />
+
+      <div
+        className={styles.containerMaster}
+        style={{
+          backgroundImage: !isMobile && `url(${backgroundImage})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
         <div className="containerWidth">
-          <div className={styles.innerDiv}>
-            <div className={styles.firstSection}>
+          <div className={`${styles.innerDiv} ${styles.innerDivMaster}`}>
+            <div className={`${styles.firstSection} ${styles.firstSectionBA}`}>
               <div className={styles.starDiv}>
                 <Image
-                  src={spanIcon}
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp"
                   alt="Curriculum Inclusive of Gen-AI"
                   width={59}
                   height={72}
@@ -63,31 +85,28 @@ function HeroSectionContent({
                 <h5>Project-based learning</h5>
               </div>
               <h1>
-                Advanced Data Science & AI Program with
-                <span className={styles.span}> Domain Specialization</span>
+                Best
+                <span className={styles.span}> Business Analytics </span>
+                Course Training Online
               </h1>
-              <div className={styles.starDivSection}>
-                <div className={styles.starDiv}>
-                  <p>
-                    Unlock the power of data with our comprehensive program,
-                    featuring hands-on learning, real-world projects, and domain
-                    specialization in fields like BFSI, healthcare, and retail.
-                  </p>
+              <div className={`${styles.points} ${styles.pointsBA}`}>
+                <div>
+                  <span>Program Eligibility </span>
+                  <p>Min 1 year in tech</p>
+                </div>
+                <hr className={styles.hrOne} />
+                <div>
+                  <span>Placement rate </span>
+                  <p>90%</p>
+                </div>
+                <hr className={styles.hrOne} />
+
+                <div>
+                  <span>Hours of learning </span>
+                  <p>300+</p>
                 </div>
               </div>
-              <div className={styles.btnDiv}>
-                <Button
-                  text="DOWNLOAD SYLLABUS"
-                  grayButton
-                  onClick={popupShow}
-                />
-                <Button
-                  text="START MY APPLICATION"
-                  OrangeButton={OrangeButton}
-                  purpleButton={purpleButton}
-                  onClick={popupShow}
-                />
-              </div>
+
               <div className={styles.imgBot}>
                 <Image
                   src="https://d32and0ii3b8oy.cloudfront.net/web/V4/Coursepage/ibm_microsoft_head.webp"
@@ -100,20 +119,34 @@ function HeroSectionContent({
                 />
               </div>
 
-              <div className={styles.btnDivM}>
-                <Button
-                  text="DOWNLOAD SYLLABUS"
-                  grayButton
-                  onClick={popupShow}
-                />
+              <div className={styles.btnDiv} onClick={popupShow}>
+                <Button text="DOWNLOAD SYLLABUS" grayButton />
                 <Button
                   text="START MY APPLICATION"
-                  purpleButton={purpleButton}
                   OrangeButton={OrangeButton}
+                  purpleButton={purpleButton}
                   onClick={popupShow}
                 />
               </div>
+              {/* Mobile-only button */}
+              {isMobile && (
+                <div className={styles.btnDivM}>
+                  <Button
+                    text="DOWNLOAD SYLLABUS"
+                    grayButton
+                    onClick={popupShow}
+                  />
+                  <Button
+                    text="START MY APPLICATION"
+                    purpleButton={purpleButton}
+                    OrangeButton={OrangeButton}
+                    onClick={popupShow}
+                  />
+                </div>
+              )}
             </div>
+
+            {/* Right-side form, mobile only */}
 
             <Suspense fallback={<div>Loading Form...</div>}>
               <div className={styles.formdiv}>
@@ -131,8 +164,9 @@ function HeroSectionContent({
         </div>
       </div>
 
+      {/* Bottom Section */}
       <div className="containerWidth">
-        <div className={styles.botDiv}>
+        <div className={`${styles.botDiv} ${styles.bottomSection}`}>
           <div className={styles.innerBotDiv}>
             <Image
               src={applicationIcon}
@@ -186,4 +220,4 @@ function HeroSectionContent({
   );
 }
 
-export default HeroSectionContent;
+export default HeroSectionBA;

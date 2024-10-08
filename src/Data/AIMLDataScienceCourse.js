@@ -1,12 +1,40 @@
 export const AIMLDataScienceCourseData = [
-  {
-
+    
+    {
+      ProggramSection: [
+        {
+          content: {
+            mid: "Senior Data Scientist",
+            to: "to",
+            senior: "Senior",
+            yearExp: "3+ years",
+            description: "This program is designed for experienced professionals.",
+            importantNote: "This program is highly selective.",
+            points: [
+              {
+                title: "Expert Instructors",
+                icon: "/path/to/icon1.png",
+              },
+              {
+                title: "Industry Projects",
+                icon: "/path/to/icon2.png",
+              },
+            
+            ],
+          },
+          rightImg: "/path/to/rightImg1.png",
+          popupTitle: "Eligibility Check",
+          formProps: {
+            /* Your form properties here */
+          },
+        },
+      ],
 
     sections: [
       {
         id: "0",
         trackIcon:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_one.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/peoples.webp",
         width: 80,
         height: 80,
         title: "Term 1",
@@ -287,7 +315,7 @@ export const AIMLDataScienceCourseData = [
       {
         id: "1",
         trackIcon:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_two.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/greens.webp",
         width: 80,
         height: 80,
         title: "Term 2",
@@ -569,7 +597,7 @@ export const AIMLDataScienceCourseData = [
       {
         id: "2",
         trackIcon:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_three.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/yellow_rs.webp",
         width: 80,
         height: 80,
         title: "Term 3",
@@ -851,7 +879,7 @@ export const AIMLDataScienceCourseData = [
       {
         id: "3",
         trackIcon:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_four.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/brainMans.webp",
         width: 80,
         height: 80,
         title: "Term 4",

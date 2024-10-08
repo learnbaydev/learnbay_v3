@@ -1,11 +1,40 @@
 export const DataScienceCourseData = [
   {
+    ProggramSection: [
+      {
+        content: {
+          mid: "Early to Mid",
+          to: "",
+          senior: "",
+          yearExp: "3+ years",
+          description:
+            "This program is perfect for Marketing/ Sales Associate, HR Assistant, Entry-Level Financial Analyst, Project Coordinator, Customer Service Representative, QA Tester, Web Developer.",
+          importantNote: "This program is highly selective.",
+          points: [
+            {
+              title: "Expert Instructors",
+              icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_Datas.webp",
+            },
+            {
+              title: "Industry Projects",
+              icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_ytwos.webp",
+            },
+          ],
+        },
+        rightImg:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ryt_programImg+(2).webp",
+        popupTitle: "Eligibility Check",
+        formProps: {
+  
+        },
+      },
+    ],
 
     sections: [
       {
         id: "0",
         trackIcon:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_one.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/peoples.webp",
         width: 80,
         height: 80,
         title: "Term 1",
@@ -286,7 +315,7 @@ export const DataScienceCourseData = [
       {
         id: "1",
         trackIcon:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_two.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/greens.webp",
         width: 80,
         height: 80,
         title: "Term 2",
@@ -568,7 +597,7 @@ export const DataScienceCourseData = [
       {
         id: "2",
         trackIcon:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_three.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/yellow_rs.webp",
         width: 80,
         height: 80,
         title: "Term 3",
@@ -850,7 +879,7 @@ export const DataScienceCourseData = [
       {
         id: "3",
         trackIcon:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_four.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/brainMans.webp",
         width: 80,
         height: 80,
         title: "Term 4",
@@ -1492,11 +1521,12 @@ export const DataScienceCourseData = [
       //   ],
       // },
     ],
-    certificateNew:[
+    certificateNew: [
       {
         id: 1,
         title: "IBM Course Completion Certificate",
-        imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/ibm_Cert_new.webp",
+        imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/ibm_Cert_new.webp",
         imageWidth: 400,
         imageHeight: 260,
         description: [
@@ -1508,7 +1538,8 @@ export const DataScienceCourseData = [
       {
         id: 2,
         title: "Microsoft Course Completion Certificate",
-        imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/microsoft_Cert_new.webp",
+        imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/microsoft_Cert_new.webp",
         imageWidth: 400,
         imageHeight: 260,
         description: [
@@ -1520,20 +1551,17 @@ export const DataScienceCourseData = [
       {
         id: 3,
         title: "Capstone Project Certificate from IBM",
-        imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project_ibm_Cert_new.webp",
+        imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project_ibm_Cert_new.webp",
         imageWidth: 360,
-    imageHeight: 240,
+        imageHeight: 240,
         description: [
           "Globally recognized IBM certification based on industrial-level projects.",
           "Earn 1 capstone project certification from IBM.",
           "Individualized project experience with easy access to premium job opportunities.",
         ],
-      }
+      },
     ],
-
-
-
-
 
     secondSection: [
       {
@@ -1766,13 +1794,13 @@ export const DataScienceCourseData = [
         Module0: {
           title: "Module 0 :- Preparatory Classes (Programming + Maths)",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_round.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_Up.webp",
-        points: "Cohort Orientation",
-        points1: "Fundamentals of programming",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_Up.webp",
+          points: "Cohort Orientation",
+          points1: "Fundamentals of programming",
           content: [
             {
               chap: {
@@ -1815,13 +1843,13 @@ export const DataScienceCourseData = [
         Module0: {
           title: "TERM 1 :- Python Programming",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
-        points: "Basic Python",
-        points1: "Advance Python",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
+          points: "Basic Python",
+          points1: "Advance Python",
           content: [
             {
               chap: {
@@ -1854,13 +1882,13 @@ export const DataScienceCourseData = [
         Module0: {
           title: " TERM 2 :- Statistics and Machine Learning ",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
-        points: "Statistics",
-        points1: "Machine Learning",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
+          points: "Statistics",
+          points1: "Machine Learning",
           content: [
             {
               chap: {
@@ -1911,14 +1939,14 @@ export const DataScienceCourseData = [
         Module0: {
           title: "TERM 3 :- Big Data Analytics and Visualization",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_up.webp",
-        points: "SQL",
-        points1: "MongoDB",
-        points2:"Tableau",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_up.webp",
+          points: "SQL",
+          points1: "MongoDB",
+          points2: "Tableau",
           content: [
             {
               chap: {
@@ -2007,13 +2035,13 @@ export const DataScienceCourseData = [
         Module0: {
           title: "TERM 4 :- AI TOOLS",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_up.webp",
-        points: "Deep Learning",
-        points1: "(NLP)",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_up.webp",
+          points: "Deep Learning",
+          points1: "(NLP)",
           content: [
             {
               chap: {
@@ -2042,13 +2070,13 @@ export const DataScienceCourseData = [
         Module0: {
           title: "TERM 5 :- Deployment ",
           imageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_round.webp",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
-        points: "-MLOps",
-        points1: "(NLP)",
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_round.webp",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
+          points: "-MLOps",
+          points1: "(NLP)",
           content: [
             {
               chap: {
@@ -2072,13 +2100,13 @@ export const DataScienceCourseData = [
         Module0: {
           title: "BONUS :- AI Generative Tools and Future Trends",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
-        points: "Emerging Trends in AI",
-        points1: "NLP and ChatGPT",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
+          points: "Emerging Trends in AI",
+          points1: "NLP and ChatGPT",
           content: [
             {
               chap: {

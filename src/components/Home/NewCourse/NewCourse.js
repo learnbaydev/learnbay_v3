@@ -366,7 +366,7 @@ const NewCourse = ({
   }, 200); // Adjust delay as needed
 
   const handleViewMore = () => {
-    setVisibleCount((prevCount) => prevCount + (isMobile ? 9 : 9));
+    setVisibleCount((prevCount) => prevCount + (isMobile ? 6 : 6));
   };
 
   return (

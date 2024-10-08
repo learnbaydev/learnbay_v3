@@ -72,12 +72,9 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <Navbar dataScienceCounselling={true} interstedInHide={true} />
       
         <FirstPart
-          SecondSectionData={
-            DataScienceCourseData.DataScienceCourseData[0].secondSection
-          }
-          TestimonialData={
-            DataScienceCourseData.DataScienceCourseData[0].testimonial
-          }
+           ProggramSectionData={
+            DataScienceCourseData.DataScienceCourseData[0].ProggramSection
+           }
         />
       </main>
       <main>

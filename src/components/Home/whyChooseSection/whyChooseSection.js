@@ -3,20 +3,24 @@ import styles from "./whyChooseSection.module.css";
 import Image from "next/image";
 import whyChooseData from "./WhyChooseData"; // Import the data
 
-function WhyChooseSection() {
+function Animation() {
   const divRefs = useRef([]); // Reference for all divs
 
   useEffect(() => {
     const options = {
-      threshold: 0.7, // Trigger when 50% of the element is in view
+      threshold: 0.7, // Trigger when 70% of the element is in view
     };
 
     const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
+      entries.forEach((entry, index) => {
         if (entry.isIntersecting) {
-          entry.target.classList.add(styles.highlight); // Add highlight class when in view
+          // Introduce a delay based on the index to stagger the effect
+          setTimeout(() => {
+            entry.target.classList.add(styles.highlight); // Add highlight class when in view
+          }, index * 200); // 200ms delay per div
         } else {
-          entry.target.classList.remove(styles.highlight); // Remove highlight class when out of view
+          // Immediately remove the highlight class when out of view
+          entry.target.classList.remove(styles.highlight);
         }
       });
     }, options);
@@ -73,4 +77,4 @@ function WhyChooseSection() {
   );
 }
 
-export default WhyChooseSection;
+export default Animation;

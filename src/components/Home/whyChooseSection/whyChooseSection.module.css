@@ -1,189 +1,267 @@
+/* Updated radial gradient for smoother transitions */
 .whyChooseSection {
   background: radial-gradient(
     circle at 10% 10%, /* Blue circle positioned at the top left */
-    rgba(6, 59, 92, 0.9) 15%, /* Smaller blue circle */
-    transparent 30% /* Smooth transition to black */
+    rgba(6, 59, 92, 0.9) 20%, /* Larger blue circle */
+    transparent 50% /* Smoother transition */
   ),
   radial-gradient(
     circle at 90% 80%, /* Orange circle positioned at the bottom right */
-    rgba(254, 122, 54, 000.30) 15%, /* Glowing orange circle */
-    transparent 40% /* Smooth transition to black */
+    rgba(254, 122, 54, 0.30) 20%, /* Glowing orange circle */
+    transparent 60% /* Smoother transition */
   ),
   #212121; /* Black background covering everything else */
 }
 
-
 .header p {
   color: #36DDFE;
-text-align: center;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
+  text-align: center;
+  font-size: 1.5rem; /* Use rem for responsive font size */
+  font-style: normal;
+  font-weight: 500;
 }
-
 
 .header h2 {
   color: #FFF;
   text-align: center;
-  font-size: 65px;
+  font-size: clamp(2.5rem, 5vw, 4rem); /* Responsive typography with clamp */
   font-style: normal;
   font-weight: 600;
-  line-height: 90px; /* 127.551% */
+  line-height: 1.5; /* Flexible line height */
 }
 
 .header span {
-    font-size: 65px; /* Adjust as needed */
-    font-weight: bold; /* Optional */
-    color: transparent; /* Text fill color */
-    -webkit-text-stroke: 1px #fff; /* Stroke width and color */
-
+  font-size: clamp(2.5rem, 5vw, 4rem); /* Responsive typography with clamp */
+  font-weight: bold;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff; /* Stroke width and color */
 }
 
-.columnDiv{
+.columnDiv {
   width: 760px;
   margin: 80px auto;
 }
 
-.divContainer{
+.divContainer {
   display: flex;
-  gap: 14px;
-  margin-bottom: 30px;
+  gap: 1rem; /* Use rem instead of px */
+  margin-bottom: 2rem; /* Rem-based margin for better scaling */
+  opacity: 0.1; /* Initially dim the divs */
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  will-change: opacity, transform; /* Performance optimization */
+}
+
+.divContainerANI {
+  gap: 2rem; /* Rem-based gap for flexibility */
+  align-items: flex-start;
 }
 
 .divContainer h4 {
   color: #FFF;
-font-size: 40px;
-font-style: normal;
-font-weight: 500;
-line-height: 34px;
+  font-size: 2.5rem; /* Use rem for responsiveness */
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
 }
+
 .divContainer p {
   color: rgba(255, 255, 255, 0.70);
-  font-size: 24px;
+  font-size: 1.5rem; /* Responsive font size */
   font-style: normal;
   font-weight: 300;
-  line-height: 30px;
-  text-wrap: pretty;
-
-
+  line-height: 1.875rem;
 }
 
-
-
-
+.highlight {
+  opacity: 1; /* Highlight the div */
+  transform: scale(1.05); /* Scale effect */
+}
 
 .whyChooseSection {
   position: relative;
   overflow: hidden;
-  padding: 60px 0 60px 0px;
+  padding: 60px 0;
   margin-top: 100px;
 }
 
-.domains{
+.domains {
   display: none;
 }
 
-.Head{
+.Head {
   text-align: center;
   color: #FFF1EA;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 500;
 }
+
 .Head span {
   font-weight: 600;
 }
+
 .container {
   position: relative;
   z-index: 1;
-  /* border-radius: 81px; */
   background: rgba(10, 10, 10, 0.9);
   width: 100%;
   margin: auto;
   margin-top: 70px;
   color: #000;
-  padding: 70px 0 0;
+  padding: 4.375rem 0 0;
   overflow: hidden;
 }
 
-.svglogo{
+.svglogo {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+/* Animation Section */
 
-/* whyChooseSection.module.css */
-
-.divContainer {
-  opacity: 0.1; /* Initially dim the divs */
-  transition: opacity 0.5s ease, transform 0.5s ease;
+.downBox {
+  display: grid;
+  grid-template-columns: 45% 40%;
+  border-radius: 54px;
+  background: rgba(254, 122, 54, 0.10);
+  gap: 20px;
+  padding: 10px;
+  width: 450px;
+  justify-content: center;
+  margin: 20px 0;
 }
 
-.highlight {
-  opacity: 4; /* Highlight the div */
-  transform: scale(1.05); /* Optional scale effect */
+.Contents h5 {
+  color: #FFF;
+  font-size: 1.875rem; /* Responsive font size */
+  font-style: normal;
+  font-weight: 600;
 }
 
-@media screen and (max-width:641px) {
+.pTag {
+  color: rgba(255, 255, 255, 0.70);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.45;
+}
 
+.insideBox {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.insideBox p {
+  color: #FFF;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.noteP {
+  color: #FFF;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+.orgText {
+  color: #FE7A36;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.mainDivS {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.smalDiv {
+  padding: 6px 10px;
+  border-radius: 63px;
+  background: rgba(3, 131, 255, 0.20);
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+  align-items: center;
+}
+
+.smalDiv span {
+  color: #FFF;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.IBMDiv {
+  border-radius: 15px;
+  background: rgba(255, 196, 54, 0.10);
+  width: 250px;
+  padding: 1px 20px;
+  display: flex;
+  gap: 1.25rem;
+  margin: 20px 0;
+}
+
+.IBMDiv span {
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Media Queries for smaller screens */
+
+@media screen and (max-width: 641px) {
   .whyChooseSection {
     background: radial-gradient(
-      circle at 10% 10%, /* Blue circle positioned at the top left */
-      rgba(6, 59, 92, 0.8) 1%, /* Smaller blue circle */
-      transparent 30% /* Smooth transition to black */
+      circle at 10% 10%,
+      rgba(6, 59, 92, 0.8) 1%,
+      transparent 30%
     ),
     radial-gradient(
-      circle at 90% 80%, /* Orange circle positioned at the bottom right */
-      rgba(254, 122, 54, 000.20) 1%, /* Glowing orange circle */
-      transparent 40% /* Smooth transition to black */
+      circle at 90% 80%,
+      rgba(254, 122, 54, 0.20) 1%,
+      transparent 40%
     ),
-    #212121; /* Black background covering everything else */
+    #212121;
     margin-bottom: 60px;
     margin-top: 30px;
   }
 
   .header p {
-    text-align: center;
-    font-size: 16.78px;
-    font-style: normal;
-    font-weight: 500;
+    font-size: 1rem; /* Adjusted for smaller screens */
   }
+
   .header h2 {
-    color: #FFF;
-text-align: center;
-font-size: 51.138px;
-font-weight: 600;
-line-height: 65.227px; /* 127.551% */
+    font-size: 3.2rem;
   }
+
   .header span {
-    font-size: 51.138px;
+    font-size: 3.2rem;
   }
-  .divContainer{
+
+  .divContainer {
     margin: 30px;
   }
 
   .divContainer h4 {
-    color: #FFF;
-font-size: 22px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    font-size: 1.375rem;
   }
-  .divContainer p {
-    color: rgba(255, 255, 255, 0.70);
-font-style: normal;
-font-weight: 400;
-line-height: 23.909px; /* 149.43% */
-font-size: 16px;
 
+  .divContainer p {
+    font-size: 1rem;
+    line-height: 1.5;
   }
-  .columnDiv{
+
+  .columnDiv {
     width: 100%;
-    margin-bottom: 0;
   }
+
   .svglogo img {
     width: 60px;
-    height: auto;
   }
 }

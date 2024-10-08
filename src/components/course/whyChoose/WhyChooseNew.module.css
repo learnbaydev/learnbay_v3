@@ -73,20 +73,20 @@
   text-underline-offset: 14px;
 }
 
-.innerDivOne,
-.innerDivTwo,
-.innerDivThree,
-.innerDivFour {
+
+.innerDivOne, .innerDivTwo, .innerDivThree, .innerDivFour {
   display: grid;
   justify-content: center;
   align-items: center;
   gap: 110px;
 }
 
-.innerDivOne,
-.innerDivThree {
-  grid-template-columns: 48% 30%;
+.innerDivOne, .innerDivThree {
+  grid-template-columns: 50% 30%;
+  margin-bottom: 100px;
 }
+
+
 
 .innerDivTwo,
 .innerDivFour {
@@ -95,8 +95,10 @@
 }
 
 .innerDivOne {
-  margin-top: 70px;
+  margin-top: 80px;
 }
+
+
 
 .SecondFour h3,
 .SecondFour p {
@@ -126,7 +128,7 @@
 }
 
 .oneFirst {
-  padding: 40px 0 46px 40px;
+  padding: 40px 40px 46px 40px;
   border-width: 4px 4px 4px 0px;
   border-radius: 30px;
   border-color: #fe7a36;
@@ -136,6 +138,7 @@
     rgba(254, 122, 54, 0.15) 98.75%
   );
   border-style: solid;
+  position: relative;
 }
 
 .SecondFour {
@@ -176,6 +179,14 @@
   border-style: solid;
 }
 
+.twoSecond p {
+  color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 144.5%; /* 31.79px */
+}
+
 .oneFirst h3,
 .twoSecond h3,
 .threeFirst h3 {
@@ -199,13 +210,11 @@
   color: #0092d0;
 }
 
-.oneFirst p,
-.twoSecond p {
+.oneFirst p{
   color: #fff;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 25px;
-  display: flex;
   gap: 10px;
 }
 
@@ -214,6 +223,7 @@
   margin-top: 30px;
   gap: 40px;
   grid-template-columns: 44% 35%;
+  margin-bottom: 40px;
 }
 
 .iconBox {
@@ -240,26 +250,33 @@
   width: auto;
 }
 
-.botDivYellow p {
-  font-size: 14px;
-  line-height: 24px;
+.botDiv {
+    background: url(https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/botBg_new.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 140px;
+    padding: 7px 12px;
+    margin-top: 45px;
+    position: absolute;
+    width: 500px;
+    bottom: -90px;
 }
 
-.botDiv p,
-.ytBot p {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  margin: 0;
+.botDiv p {
+  color: #FFF;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 144.5%;
 }
 
-.botDiv span,
-.ytBot span {
-  color: #fe7a36;
-  font-weight: 700;
+.botDiv span {
+  color: #FE7A36;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 144.5%; /* 26.01px */
 }
-
 .twoFirst img,
 .threeSecond img {
   height: auto;
@@ -363,9 +380,7 @@
   .SecondFour p {
     font-size: 14px;
   }
-  .innerDivOne {
-    gap: 30px;
-  }
+
   .twoSecond h3 {
     font-size: 20px;
   }
@@ -397,10 +412,7 @@
     font-weight: 500;
     line-height: 144.5%;
   }
-  .innerDivOne {
-    margin: 0;
-    display: flex;
-  }
+
   .twoSecondTop {
     padding: 10px;
     font-size: 12px !important;
@@ -471,5 +483,15 @@
   }
   .innerDivFourLast {
     margin-top: 20px;
+  }
+
+  .innerDivOne{
+    display: flex;
+  }
+  .botDiv {
+    width: 100%;
+  }
+  .botDiv p{
+    font-size: 12px;
   }
 }

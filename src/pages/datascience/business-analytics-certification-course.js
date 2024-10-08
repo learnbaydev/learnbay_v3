@@ -131,20 +131,15 @@ function Blockchain({ DataScienceCourseDataJson }) {
       </Head>
       <main>
         <BAFirstPart
-          SecondSectionData={
-            DataScienceCourseData.BADataScienceCourseData[0].secondSection
-          }
-          TestimonialData={
-            DataScienceCourseData.BADataScienceCourseData[0].testimonial
-          }
+
+ProggramSectionData={
+  DataScienceCourseData.BADataScienceCourseData[0].ProggramSection
+}
         />
         <BASecondPart
-          masterSyllabusMobile={
-            DataScienceCourseData.BADataScienceCourseData[0]
-              .masterSyllabusMobile
-          }
-          CertificateData={
-            DataScienceCourseData.BADataScienceCourseData[0].Certificate
+          sections={DataScienceCourseData.BADataScienceCourseData[0].sections}
+          certificateNew={
+            DataScienceCourseData.BADataScienceCourseData[0].certificateNew
           }
           projectSection={
             DataScienceCourseData.BADataScienceCourseData[0].projectSection

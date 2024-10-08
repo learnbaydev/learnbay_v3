@@ -1,30 +1,24 @@
-
 import dynamic from "next/dynamic";
 
 import PsummaryForm from "../PSummary/PsummaryForm";
 import React, { useEffect, useState } from "react";
+import HeroSectionAI from "@/components/course/heroSection/HeroSectionAI";
 
-const Navbar = dynamic(() => import("@/components/course/navbarSection/NavbarSection"));
-const HeroSection = dynamic(() => import("@/components/course/heroSection/HeroSection"));
+const Navbar = dynamic(() =>
+  import("@/components/course/navbarSection/NavbarSection")
+);
 const PSummaryAD = dynamic(() => import("../PSummary/PSummaryAD"));
 const Practical = dynamic(() => import("../Practical/Practical"));
-const ProgramSection = dynamic(() => import("@/components/course/programSection/programSection"));
-const OutcomeSection = dynamic(() => import("@/components/course/outcomeSection/outcomeSection"));
-const WhyChooseSection = dynamic(() => import("@/components/course/whyChoose/WhyChooseNew"));
-const SecondNavbar = dynamic(() => import("../SecondNavbar/SecondNavbar"));
-const WhoProgram = dynamic(() => import("../WhoProgram/ThirdSection"));
-const TrainerSection = dynamic(() => import("../../Global/TrainerSection/TrainerSection"));
-const Testimonial = dynamic(() => import("../../Global/Testimonial/Testimonial"));
-const WhoIsProgram = dynamic(() => import("../WhoIsProgram/WhoIsProgram"));
-const WhyLearnbay = dynamic(() => import("../WhyLearnbay/WhyLearnbay"));
-const GetHire = dynamic(() => import("../../Home/GetHire/GetHire"));
-const ContactConsellor = dynamic(() => import("../ContactCounsellor/ContactCounsellor"));
-const CloudDevopsecond = dynamic(() => import("../../CoursePage/cloud&devops/DevOpsSecondSection/DevOpsSecondSection"));
-const MasterSecondSection = dynamic(() => import("../../MastersCourse/MasterSecondSection/MasterSecondSection"));
-const JobAbroad = dynamic(() => import("../../MastersCourse/JobAbroad/JobAbroad"));
-const Realstory = dynamic(() => import("../../Home/Realstory/Realstory"));
-
-const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
+const ProgramSection = dynamic(() =>
+  import("@/components/course/programSection/programSection")
+);
+const OutcomeSection = dynamic(() =>
+  import("@/components/course/outcomeSection/outcomeSection")
+);
+const WhyChooseSection = dynamic(() =>
+  import("@/components/course/whyChoose/WhyChooseNew")
+);
+const AIFirstPart = ({ ProggramSectionData }) => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -45,10 +39,7 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
   return (
     <>
       <Navbar dataScienceCounselling={true} interstedInHide={true} />
-      <HeroSection
-        thumbnailurl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_YT.webp"
-        spanTag="Project-based learning"
-        spanIcon="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp"
+      <HeroSectionAI
         isSpecialPage={true}
         isGuwahati={true}
         interstedInHide={true}
@@ -56,9 +47,6 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
         dataScience={true}
         brochurePdf={pdfUrl}
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
-        title="Artificial Intelligence and "
-        orgTitle="Machine Learning Program"
-        descrption="Unlock the power of data with our comprehensive program, featuring hands-on learning, real-world projects, and domain specialization in fields like BFSI, healthcare, and retail."
         noIIt={true}
         applicationIcon="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_Bots.webp"
         ProgramIcon="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_Cal_bots.webp"
@@ -75,17 +63,18 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
         PointsDiv={true}
       />
 
-  {isMobile && <PSummaryAD />}
-      {!isMobile && <PsummaryForm showForm={true} interstedInHide={true} dataScienceCounselling={true} dataScience={true}/> }
+      {isMobile && <PSummaryAD />}
+      {!isMobile && (
+        <PsummaryForm
+          showForm={true}
+          interstedInHide={true}
+          dataScienceCounselling={true}
+          dataScience={true}
+        />
+      )}
       <Practical />
       <ProgramSection
-        mid="Early to Mid"
-        yearExp="1+ Years of Experience"
-        PointOne="Data Analyst"
-        pointTwo="Non-Techies"
-        PointOneIcon="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_Datas.webp"
-        pointTwoIcon="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_ytwos.webp"
-        rightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ryt_programImg+(2).webp"
+        ProggramSectionData={ProggramSectionData}
         dataScienceCounselling={true}
         interstedInHide={true}
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"

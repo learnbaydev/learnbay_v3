@@ -4,7 +4,6 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
 import { EffectCoverflow } from "swiper";
-import { FaRegFilePdf } from "react-icons/fa";
 import PopupContent from "@/components/Global/PopupContent/PopupContent";
 
 const SyllabusSection = ({
@@ -146,7 +145,7 @@ const SyllabusSection = ({
               section.popuplist.length > 0 ? (
                 <Swiper
                   spaceBetween={40}
-                  slidesPerView={3}
+                  slidesPerView={1} // Set default to 1 for mobile view
                   centeredSlides={true}
                   className={styles.swiper}
                   ref={swiperRef}
@@ -190,7 +189,7 @@ const SyllabusSection = ({
                           </div>
                           <h5 className={styles.titleH}>{item.title}</h5>
                           <div className={styles.slidercontent}>
-                            {item.modules.map((module, ) => (
+                            {item.modules.map((module) => (
                               <div
                                 className={styles.module}
                                 key={module.moduleTitle}
@@ -203,11 +202,9 @@ const SyllabusSection = ({
                                 <div className={styles.rytdiv}>
                                   <p>{module.moduleContent}</p>
                                   <ul className={styles.listItem}>
-                                    {module.moduleList.map(
-                                      (detail, detailIdx) => (
-                                        <li key={detailIdx}>{detail}</li>
-                                      )
-                                    )}
+                                    {module.moduleList.map((detail, detailIdx) => (
+                                      <li key={detailIdx}>{detail}</li>
+                                    ))}
                                   </ul>
                                 </div>
                               </div>
@@ -238,7 +235,7 @@ const SyllabusSection = ({
         </div>
         <div className={styles.btntwo} onClick={popupShow}>
           <div className={styles.pdficon}>
-          <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/pdF_icon+(1).webp" width={30} height={30} loading="lazy" alt="Python"/>
+            <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/pdF_icon+(1).webp" width={30} height={30} loading="lazy" alt="Python"/>
           </div>
           Download Brochure
         </div>

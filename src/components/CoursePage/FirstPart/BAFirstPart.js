@@ -34,6 +34,14 @@ import { BsDisplay } from "react-icons/bs";
 import { AiOutlineContainer } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsPeople } from "react-icons/bs";
+import NavbarSection from "@/components/course/navbarSection/NavbarSection";
+import HeroSectionBA from "@/components/course/heroSection/HeroSectionBA";
+import PSummaryAD from "../PSummary/PSummaryAD";
+import Practical from "../Practical/Practical";
+import ProgramSection from "@/components/course/programSection/programSection";
+import OutcomeSection from "@/components/course/outcomeSection/outcomeSection";
+import Animation from "@/components/Home/whyChooseSection/whyChooseSection";
+import AnimationNew from "@/components/Home/whyChooseSection/AnimationNew";
 
 const MasterSecondSection  = dynamic(() =>
 import("../../MastersCourse/MasterSecondSection/MasterSecondSection")
@@ -46,7 +54,7 @@ const Realstory = dynamic(()=>
 import( "../../Home/Realstory/Realstory"
 )
 );
-const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
+const BusinessAnalyticsFirstPart = ({ ProggramSectionData}) => {
 
 
   const seconddata = [
@@ -128,56 +136,64 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
   const pdfUrl = "/Brochure/Business-Analytics-Program.pdf"
   return (
     <>
-      <Navbar dataScienceCounselling={true} interstedInHide={true} />
-      <FirstSection
+
+{" "}
+      <NavbarSection
+        dataScienceCounselling={true}
+        dataScience={true}
+        fullStack={true}
+        backgorunimg={true}
+        isSpecialPage={true}
+        isGuwahati={true}
+        interstedInHide={true}
+      />
+   
+
+<HeroSectionBA
+        isSpecialPage={true}
+        isGuwahati={true}
+        interstedInHide={true}
+        dataScienceCounselling={true}
+        dataScience={true}
+        brochurePdf={pdfUrl}
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
+        noIIt={true}
+        applicationIcon="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_Bots.webp"
+        ProgramIcon="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_Cal_bots.webp"
+        trainingIcon="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/build_bots.webp"
+        CloseDes="Program Eligibility"
+        CloseBotDate="Min 1 year"
+        DurationBot="Program Duration"
+        DurationBotDate="11 Months"
+        TrainingBot="Training Format"
+        BotWidth={70}
+        BotHeight={56}
+        backgroundImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BA_BGS.webp"
+        PointsDiv={true}
+      />
+
+
+      
+<PSummaryAD/>
+<Practical />
+
+
+
+<ProgramSection
+        ProggramSectionData={ProggramSectionData}
         dataScienceCounselling={true}
         interstedInHide={true}
-        dataScience={true}
-        ThirdTyped="Live Interactive Classes"
-        titleCourse="Best Business Analytics Course Training Online"
-        cityParaCont="Elevate your tech career with our programs"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
-        brochurePdf={pdfUrl}
-        FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BA-min.webp"
-        firstToparaImg=""
-        firstHeading="Best Business Analytics Course Training Online        "
-        firstTopPara="Get real-world experience with capstone projects"
-        idss="DPrMXHkPx0M"
-         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ba-f.webp"
-          videoId="DPrMXHkPx0M"
-         
       />
-         <MasterSecondSection data={seconddata} />
+
+
+<OutcomeSection />
+
+
+
+<AnimationNew/>
       
-         <CloudDevopsecond data={BASecond} />
-         <JobAbroad data={JobData} dataScienceCounselling={true}
-        interstedInHide={true}/>
-      {/* <SecondSection SecondSectionData={SecondSectionData} /> */}
-      <SecondNavbar />
-      <WhoProgram
-        dataScience={true}
-        leftImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/advance-who.webp"
-        ThirdSectionData={BAThirdSectionData}
-        interstedInHide={true}
-      />
-      <Realstory/>
-      <TrainerSection idss="eautK0odE7Q" />
-      {/* <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} /> */}
-      <WhoIsProgram
-        first="Bachelor's degree with consistent good academic"
-        second="Minimum 6 Month of IT/Non-IT work experience"
-        third="Early to mid-career professionals interested in Business analytics"
-        forth="Developing skills in Business analytics for future opportunities"
-      />
-      <WhyLearnbay idss="ZPOTy4PEnNU" />
-      <GetHire />
-      <ContactConsellor
-        dataScience={true}
-        titleCourse="Businesss Analytics Master Certification Program"
-        interstedInHide={true}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
-        brochurePdf={pdfUrl}
-      />
+    
     </>
   );
 };

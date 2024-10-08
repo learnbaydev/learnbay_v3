@@ -587,6 +587,37 @@ line-height: 155%; /* 34.1px */
   .swiperContainer{
     padding-bottom: 30px;
    }
+
+   .accordionContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .accordionItem {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .accordionHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .accordionContent {
+    padding: 15px;
+    display: none;
+    background-color: #fff;
+  }
+  
+  .expanded .accordionContent {
+    display: block;
+  }
+  
 }
 
 @media screen and (max-width: 412px) {

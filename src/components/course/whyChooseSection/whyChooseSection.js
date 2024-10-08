@@ -89,7 +89,7 @@ function WhyChooseSection() {
             </p>
           </div>
         </div>
-        <div className={styles.innerDivThree}>
+        {/* <div className={styles.innerDivThree}>
           <div className={styles.threeFirst}>
             <h3 className={styles.ytHead}>Practical project experience</h3>
             <div className={styles.contentIconDiv}>
@@ -148,7 +148,7 @@ function WhyChooseSection() {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className={styles.innerDivFour}>
           <div className={styles.oneFour}>
             <Image

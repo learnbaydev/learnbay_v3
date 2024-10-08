@@ -2,6 +2,17 @@ import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
 import LJourney from "../LJourney/LJourney";
+import ReviewSlider from "@/components/course/reviewSlider/ReviewSlider";
+import UpskillMbl from "@/components/course/upskillingSection/UpskillMbl";
+import UpskillingSection from "@/components/course/upskillingSection/upskillingSection";
+import ProjectSection from "@/components/course/projectSection/ProjectSection";
+import SyllabusSection from "@/components/course/syllabusSection/SyllabusSection";
+import ToolsSection from "@/components/course/toolsSection/ToolsSection";
+import CertificateSection from "@/components/course/certificateSection/CertificateSection";
+import FeeSection from "@/components/course/feeSection/FeeSection";
+import NewSevenSection from "@/components/Global/SeventhSectionNew/NewSevenSection";
+import StructuredSection from "@/components/course/structuredSection/StructuredSection";
+import Achive from "@/components/course/jobReadySection/Achive";
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
 const WhatsappFloat = dynamic(() =>
@@ -11,9 +22,7 @@ const Certificate = dynamic(() =>
   import("../../../components/CoursePage/Certificate/Certificate")
 );
 const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
-const FeeSection = dynamic(() =>
-  import("../../../components/CoursePage/FeeSection/FeeSection")
-);
+
 
 const MentorsSection = dynamic(() =>
   import("../../../components/Global/MentorsSection/MentorsSection")
@@ -44,9 +53,8 @@ const MobileTestimonial = dynamic(() =>
 );
 
 const SecondPart = ({
-  masterSyllabusMobile,
-  CertificateData,
-  projectSection,
+  sections,
+  certificateNew,
   FAQNewData,
   toolsdynamic,
 }) => {
@@ -83,65 +91,42 @@ const SecondPart = ({
   const pdfUrl = "/Brochure/Business-Analytics-Program.pdf";
   return (
     <div>
-      <LJourney />
-      <SyllabusNew
-        masterSyllabusMobile={masterSyllabusMobile}
-        dataScienceCounselling={true}
-        dataScience={true}
-        titleCourse="Business Analytics Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
-        brochurePdf={pdfUrl}
-        buttonHide={true}
+
+<ReviewSlider />
+<MentorsSection />
+<UpskillMbl />
+<UpskillingSection />
+
+<ProjectSection dataScienceCounselling={true} interstedInHide={true} />
+<SyllabusSection
+        sections={sections}
         interstedInHide={true}
+        brochurePdf={pdfUrl}
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
       />
-      <ToolsCovered toolsdynamic={toolsdynamic} />
-      <Certificate data={CertificateData} />
-      <FeeSection
-        Fee="₹ 95,000"
-        FeeEmi="₹ 6,228/month"
-        weekdaybatch="Weekday Batch"
-        weekendbatch="Weekend Batch"
-        weekday="MON-FRI"
-        weekend="SAT- SUN"
-        WeekdayDate=" Oct 18th"
-        WeekendDate="Sept 15th"
-        WeekendTime="9:30 AM - 1:00 PM"
-        WeekdayTime="8:00 PM - 10:30 PM"
-        FeeContent3="Flexible payment"
-        FeeContent4="Easy loan procedure"
-        FeeContent5="10 days refund policy"
-        FeeContent6="No additional cost"
-        dataScienceCounselling={true}
-        interstedInHide={true}
-        titleCourse="Business Analytics Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
-        brochurePdf={pdfUrl}
-        dataScience={true}
-        // EMI POPUPDATA
-        emiType="NO COST EMI"
-        duration1="18 Months"
-        totalAmount1="₹95,000"
-        monthlyPayment1="₹6,228"
-        greenDown1="Standard Intrest rate Applicable"
+
+
+<ToolsSection />
+<CertificateSection certificateNew={certificateNew} />
+<FeeSection
+        // EMIPOPUP
+        emiType="Live online classes"
+        duration1="12 Months"
+        totalAmount1="₹ 95,000"
+        monthlyPayment1="₹14,094"
+        greenDown1="Hybrid Classes"
         duration2="12 Months"
-        totalAmount2="₹95,000"
-        monthlyPayment2="₹9,342"
+        totalAmount2="₹2,10,000"
+        monthlyPayment2="₹12,455"
+        dataScienceCounselling={true}
+        iitGuwatiGen={true}
       />
-      <MentorsSection />
-      <SliderTab />
-      <PlacementCall />
-      <MobileTestimonial />
-      <NewProjectSection
-        dataScience={true}
-        titleCourse="Business Analytics Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
-        brochurePdf={pdfUrl}
-        projectSection={projectSection}
-        interstedInHide={true}
-      />
+   <StructuredSection />
+   <Achive/>
+
       <FAQNew FAQNewData={FAQNewData} toolsdynamic={toolsdynamic} />
       <Content Banalytics={true} dataScienceCounselling={true} />
-      <SeventhSection />
+<NewSevenSection/>
       <Footer />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />
       <WhatsappFloat />

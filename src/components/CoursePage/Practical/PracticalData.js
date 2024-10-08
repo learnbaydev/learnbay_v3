@@ -2,26 +2,28 @@ export const practicalData = {
     title: "Practical Project Experience",
     description: "Work on projects based on real-world scenarios",
     points: [
-      { svg: "svgRight", text: "Live mentorship and interactive sessions" },
-      { svg: "svgRight", text: "Fully flexible, online and hybrid learning modes" }
+      { svg: "svgRight", text: "Live mentorship" },
+      { svg: "svgRight", text: "Interactive sessions" },
+      { svg: "svgRight", text: "1:1 Doubt Clearing" },
+      { svg: "svgRight", text: "Hybrid Learning" }
     ],
     boxes: [
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Practical_ones.webp",
         imgAlt: "Practical",
-        title: "Work on Complex, Real-World Data",
-        description: "Leverage your skills by working on advanced datasets and scenarios directly applicable to industries such as finance, healthcare, e-commerce, and more."
+        title: "Work with real data",
+        description: "Leverage your skills with advanced datasets and industry-relevant scenarios in finance, healthcare, and e-commerce."
       },
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/practical_threes.webp",
         imgAlt: "Practical",
-        title: "Mentorship from Industry Pioneers",
-        description: "Through tailored mentorship, you will receive expert feedback and direction, helping you bridge the gap between theory and practical implementation."
+        title: "Learn from top 1% experts",
+        description: "Learn directly from the top 1% experts for unmatched expertise and guidance."
       },
       {
         imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Practical_twos.webp",
         imgAlt: "Practical",
-        title: "Globally Recognized Certification",
+        title: "World-Class Certification",
         description: "Upon successful project completion, earn an IBM-endorsed certification recognized across industries."
       }
     ],

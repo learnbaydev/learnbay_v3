@@ -20,7 +20,8 @@
   width: 230px;
 }
 .left button,
-.right button, .righta button {
+.right button,
+.righta button {
   border-radius: 2.67px;
   color: #fff;
   font-size: 16px;
@@ -30,7 +31,8 @@
   letter-spacing: 0.7px;
 }
 
-.right button, .righta button {
+.right button,
+.righta button {
   font-size: 16px;
   padding: 10px 20px;
 }
@@ -50,7 +52,8 @@
   margin-top: -5px;
 }
 
-.right span, .righta button {
+.right span,
+.righta button {
   margin-right: 50px;
   cursor: pointer;
   font-weight: 400;
@@ -133,6 +136,85 @@
 .megaMenu {
   position: absolute;
 }
+.requestBtn {
+  display: block;
+}
+
+.requestBtn button {
+  border-radius: 37px;
+  background: linear-gradient(90deg, #e95407 0%, #d74900 100%);
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 127.182%; /* 22.893px */
+  border: none;
+}
+
+.dropdownContainer {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  top: 30px;
+  left: -30px;
+  background: white;
+  z-index: 1000;
+  border-radius: 20px;
+  width: 200px;
+}
+
+/* Dropdown container for 'More' */
+.dropdownContainer {
+  position: relative;
+}
+
+.moreLink {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #000; /* Customize your text color */
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.moreLink svg {
+  margin-left: 5px;
+}
+
+
+
+/* Dropdown Links */
+.dropdown a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333; /* Text color for links */
+  font-size: 14px;
+  font-weight: 400;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  cursor: pointer;
+}
+
+/* Hover effect for dropdown items */
+.dropdown a:hover {
+  background-color: #f5f5f5; /* Background color on hover */
+  color: #0070f3; /* Link text color on hover */
+}
+
+/* Adjust the dropdown arrow icon */
+.dropdown svg {
+  margin-left: 5px;
+}
+
+/* Smooth transition effect for dropdown visibility */
+.dropdownContainer {
+  transition: opacity 0.3s ease;
+}
+
+
 
 @media (max-width: 1281px) {
   .nav {
@@ -255,5 +337,8 @@
   }
   .nav {
     width: 100vw;
+  }
+  .requestBtn{
+    display: none;
   }
 }

@@ -72,21 +72,56 @@ function WhyChooseSection() {
 
         <div className={styles.innerDivOne}>
           <div className={styles.oneFirst}>
-            <h3>Gain project-specific expertise with real-world experience</h3>
-            <div>
-              <p>{SVgRightMark} Work on hands-on projects designed by industry experts.</p>
-              <p>{SVgRightMark} Gain practical, job-ready skills through real-world practice.</p>
-              <p>{SVgRightMark} Create a standout portfolio to boost your job search.</p>
+            <h3>Training mode</h3>
+            <p>
+              You can choose from two flexible training modes to suit your needs
+              and preferences:
+            </p>
+            <div className={styles.innerBox}>
+              <div className={styles.iconBox}>
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/online_why.webp"
+                  alt="Learnbay"
+                  quality={100}
+                loading="lazy"
+                  width="80"
+                  height="80"
+                />
+                <p>100% Live online classes</p>
+              </div>
+              <div className={styles.iconBox}>
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/location_why.webp"
+                  alt="Learnbay"
+                  quality={100}
+                loading="lazy"
+                  width="80"
+                  height="80"
+                />
+                <p>Hybrid * classes</p>
+              </div>
+            </div>
+            <div className={styles.botDiv}>
+              <p>
+                <span>*Important Note:</span> Hybrid mode allows learners to
+                benefit from both flexible, remote learning and direct,
+                face-to-face interaction.{" "}
+              </p>
+              <p>
+              Classroom training are available in <b>Pune, Mumbai, Delhi, Chennai,
+                Hydrabad, Kolkata, Bangalore.</b>
+              </p>
             </div>
           </div>
+
           <div className={styles.oneSecond}>
             <Image
               src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/choose_first_right.webp"
               alt="Learnbay"
               quality={100}
-              loading="lazy"
-              width={795}
-              height={770}
+            loading="lazy"
+              width="795"
+              height="770"
             />
           </div>
         </div>

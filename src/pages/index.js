@@ -16,6 +16,7 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import Navbar from "../components/Global/Navbar/Navbar";
+import NavbarHome from "@/components/Global/Navbar/NavbarHome";
 const WhyLearnbay = dynamic(() =>
   import("@/components/Home/WhyLearnbay/WhyLearnbay")
 );
@@ -375,7 +376,7 @@ export default function Home() {
           }}
         />
       </Head>
-      <Navbar radio={true} dataScienceCounselling={true} />
+      <NavbarHome radio={true} dataScienceCounselling={true} />
       <FirstSection
         dataScienceCounselling={true}
         radio={true}
