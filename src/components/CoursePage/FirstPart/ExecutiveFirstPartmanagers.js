@@ -1,6 +1,8 @@
 import DecisionSection from "@/components/course/decisionSection/DecisionSection";
 import HeroSection from "@/components/course/heroSection/HeroSection";
 import dynamic from "next/dynamic";
+import PSummaryAD from "../PSummary/PSummaryAD";
+import Practical from "../Practical/Practical";
 const Navbar = dynamic(() =>
   import("@/components/course/navbarSection/NavbarSection")
 );
@@ -62,7 +64,10 @@ const ExecutiveFirstPartmanagers = ({ProggramSectionData}) => {
     
   showRightForm={true}
     />
-      <DecisionSection noIIt={true} />
+
+    <PSummaryAD/>
+    <Practical />
+      {/* <DecisionSection noIIt={true} /> */}
       <ProgramSection
        ProggramSectionData={ProggramSectionData}
        yearExp="1+ Years of Experience"

@@ -72,8 +72,8 @@ function AnimationNew() {
                     y2="452.895"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#6E7D87" stop-opacity="0" />
-                    <stop offset="1" stop-color="white" />
+                    <stop stopColor="#6E7D87" stopOpacity="0" />
+                    <stop offset="1" stopColor="white" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -152,8 +152,8 @@ function AnimationNew() {
                     y2="452.895"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#6E7D87" stop-opacity="0" />
-                    <stop offset="1" stop-color="white" />
+                    <stop stopColor="#6E7D87" stopOpacity="0" />
+                    <stop offset="1" stopColor="white" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -227,8 +227,8 @@ function AnimationNew() {
                     y2="452.895"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#6E7D87" stop-opacity="0" />
-                    <stop offset="1" stop-color="white" />
+                    <stop stopColor="#6E7D87" stopOpacity="0" />
+                    <stop offset="1" stopColor="white" />
                   </linearGradient>
                 </defs>
               </svg>

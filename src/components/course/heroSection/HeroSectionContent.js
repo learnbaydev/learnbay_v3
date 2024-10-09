@@ -1,17 +1,15 @@
-import { useEffect, useRef, useState, lazy, Suspense } from "react";
+import { useEffect, useRef, useState, lazy, Suspense, memo, useCallback } from "react";
 import Image from "next/image"; // Import Next.js Image component
 import styles from "./HeroSection.module.css";
-import { FaRegUser } from "react-icons/fa";
 import Button from "@/components/Global/Button/Button";
 
 // Lazy-load heavy components to improve FID and LCP
 const Form = lazy(() => import("@/components/Global/Form/Form"));
 
-function HeroSectionContent({
+const HeroSectionContent = memo(({
   setPopups,
   spanTag,
   spanIcon,
-
   interstedInHide,
   dataScienceCounselling,
   upSkillingHide,
@@ -32,10 +30,11 @@ function HeroSectionContent({
   backgroundGradient, // CSS for gradient
   purpleButton,
   descrption,
-}) {
-  const popupShow = () => {
+}) => {
+  // Memoized callback to show popup
+  const popupShow = useCallback(() => {
     setPopups(true);
-  };
+  }, [setPopups]);
 
   return (
     <section className={styles.mainBg}>
@@ -61,23 +60,26 @@ function HeroSectionContent({
               </h1>
               <div className={styles.starDivSection}>
                 <div className={styles.starDiv}>
-                  <p>
-                   {descrption}
-                  </p>
+                  <p>{descrption}</p>
                 </div>
               </div>
               <div className={styles.btnDiv}>
-                <Button
+               <div   onClick={popupShow} className={styles.btn}>
+
+               <Button
                   text="DOWNLOAD SYLLABUS"
                   grayButton
-                  onClick={popupShow}
+                 
                 />
-                <Button
+               </div>
+             <div  onClick={popupShow}>
+             <Button
                   text="START MY APPLICATION"
                   OrangeButton={OrangeButton}
                   purpleButton={purpleButton}
                   onClick={popupShow}
                 />
+             </div>
               </div>
               <div className={styles.imgBot}>
                 <Image
@@ -175,6 +177,6 @@ function HeroSectionContent({
       </div>
     </section>
   );
-}
+});
 
 export default HeroSectionContent;
