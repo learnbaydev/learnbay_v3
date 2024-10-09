@@ -20,25 +20,11 @@ import NavbarHome from "@/components/Global/Navbar/NavbarHome";
 const WhyLearnbay = dynamic(() =>
   import("@/components/Home/WhyLearnbay/WhyLearnbay")
 );
-const OfferPopup = dynamic(() =>
-  import("../components/Global/OfferPopup/OfferPopup")
-);
-const ProjectSection = dynamic(() =>
-  import("@/components/Home/ProjectSection/ProjectSection")
-);
-const Realstory = dynamic(() =>
-  import("@/components/Home/Realstory/Realstory")
-);
+
 const ContactUs = dynamic(() =>
   import("@/components/Home/ContactUs/ContactUs")
 );
-const GetHire = dynamic(() => import("@/components/Home/GetHire/GetHire"));
-const TrainerSection = dynamic(() =>
-  import("@/components/Global/TrainerSection/TrainerSection")
-);
-const SeventhSection = dynamic(() =>
-  import("@/components/Global/SeventhSection/SeventhSection")
-);
+
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
 
 export default function Home() {

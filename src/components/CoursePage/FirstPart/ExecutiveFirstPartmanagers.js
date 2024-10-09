@@ -13,9 +13,9 @@ const OutcomeSection = dynamic(() =>
 );
 
 const WhyChooseSection = dynamic(() =>
-  import("@/components/course/whyChooseSection/WhyChooseSection")
+  import("@/components/course/whyChooseSection/whyChooseSection")
 );
-const ExecutiveFirstPartmanagers = () => {
+const ExecutiveFirstPartmanagers = ({ProggramSectionData}) => {
   const pdfUrl = "/Brochure/Executive-iit-guwahati-generic.pdf";
   return (
     <>
@@ -64,18 +64,17 @@ const ExecutiveFirstPartmanagers = () => {
     />
       <DecisionSection noIIt={true} />
       <ProgramSection
-        mid="Mid"
-        senoir="Senior"
-        yearExp="4+ Years of Experience"
-        to="to"
-        PointOne="Project Manager "
-pointTwo="Tech Lead(IT/Non-IT)"
-PointOneIcon="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project_ma.webp"
-pointTwoIcon="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/eligible_de.webp"
-rightImg="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/program_right_side.webp"
-        dataScienceCounselling={true}
-        interstedInHide={true}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
+       ProggramSectionData={ProggramSectionData}
+       yearExp="1+ Years of Experience"
+       PointOne="Data Analyst "
+       pointTwo="Non-Techies"
+       PointOneIcon="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_Datas.webp"
+       pointTwoIcon="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_ytwos.webp"
+       rightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ryt_programImg+(2).webp"
+       dataScienceCounselling={true}
+       interstedInHide={true}
+       brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
+  
       />
       <OutcomeSection />
       <WhyChooseSection />

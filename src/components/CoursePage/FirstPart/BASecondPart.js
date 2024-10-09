@@ -9,7 +9,7 @@ import ProjectSection from "@/components/course/projectSection/ProjectSection";
 import SyllabusSection from "@/components/course/syllabusSection/SyllabusSection";
 import ToolsSection from "@/components/course/toolsSection/ToolsSection";
 import CertificateSection from "@/components/course/certificateSection/CertificateSection";
-import FeeSection from "@/components/course/feeSection/FeeSection";
+import FeeSection from "@/components/course/feeSection/FeeSectionCourse";
 import NewSevenSection from "@/components/Global/SeventhSectionNew/NewSevenSection";
 import StructuredSection from "@/components/course/structuredSection/StructuredSection";
 import Achive from "@/components/course/jobReadySection/Achive";

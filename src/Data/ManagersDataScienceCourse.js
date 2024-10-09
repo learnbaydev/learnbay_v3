@@ -1,6 +1,35 @@
 export const DataScienceCourseData = [
   {
 
+    ProggramSection: [
+      {
+        content: {
+          mid: "Early to Mid",
+          to: "",
+          senior: "",
+          yearExp: "3+ years",
+          description:
+            "This program is perfect for Marketing/ Sales Associate, HR Assistant, Entry-Level Financial Analyst, Project Coordinator, Customer Service Representative, QA Tester, Web Developer.",
+          importantNote: "This program is highly selective.",
+          points: [
+            {
+              title: "Expert Instructors",
+              icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_Datas.webp",
+            },
+            {
+              title: "Industry Projects",
+              icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_ytwos.webp",
+            },
+          ],
+        },
+        rightImg:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ryt_programImg+(2).webp",
+        popupTitle: "Eligibility Check",
+        formProps: {
+  
+        },
+      },
+    ],
     sections: [
       {
         id: "0",

@@ -61,7 +61,7 @@ PointsDiv,
       title={title}
       orgTitle={orgTitle}
       thumbnailurl={thumbnailurl}
-    
+      spanTag={spanTag}
         setPopups={setPopups}
         setVideo={setVideo}
         videoId={videoId}

@@ -98,10 +98,10 @@ const NavbarHome = ({
         {/* Courses Button with Dropdown */}
         <div
           onMouseEnter={() => setIcon(true)}
-          onMouseLeave={() => setIcon(false)}
+          onMouseLeave={() => setIcon(true)}
           onClick={() => {
             setIcon(!icon);
-            setShow(false);
+            setShow(true);
           }}
           className="flexBox"
         >

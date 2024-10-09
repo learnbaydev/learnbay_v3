@@ -16,7 +16,8 @@ function HeroSectionContent({
   dataScienceCounselling,
   upSkillingHide,
   OrangeButton,
-
+  title,
+  orgTitle,
   applicationIcon,
   CloseDes,
   ProgramIcon,
@@ -30,23 +31,15 @@ function HeroSectionContent({
   backgroundImage, // URL for background image
   backgroundGradient, // CSS for gradient
   purpleButton,
+  descrption,
 }) {
   const popupShow = () => {
     setPopups(true);
   };
 
-  // Dynamically set the background style
-  const backgroundStyle = backgroundImage
-    ? {
-        backgroundImage: `url(${backgroundImage})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }
-    : { background: backgroundGradient };
-
   return (
     <section className={styles.mainBg}>
-      <div className={styles.container} >
+      <div className={styles.container}>
         <div className="containerWidth">
           <div className={styles.innerDiv}>
             <div className={styles.firstSection}>
@@ -60,18 +53,16 @@ function HeroSectionContent({
                   placeholder="blur"
                   blurDataURL="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/hero_brain.webp"
                 />
-                <h5>Project-based learning</h5>
+                <h5>{spanTag}</h5>
               </div>
               <h1>
-                Advanced Data Science & AI Program with
-                <span className={styles.span}> Domain Specialization</span>
+                {title}
+                <span className={styles.span}> {orgTitle}</span>
               </h1>
               <div className={styles.starDivSection}>
                 <div className={styles.starDiv}>
                   <p>
-                    Unlock the power of data with our comprehensive program,
-                    featuring hands-on learning, real-world projects, and domain
-                    specialization in fields like BFSI, healthcare, and retail.
+                   {descrption}
                   </p>
                 </div>
               </div>

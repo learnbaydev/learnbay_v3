@@ -1,10 +1,8 @@
 import Head from "next/head";
 import { parseJSONData } from "@/Util/JsonConvertor";
-import FirstPart from "@/components/CoursePage/FirstPart/ManagersFirstPart";
-import SecondPart from "@/components/CoursePage/FirstPart/ManagersSecondPart";
+import ExecutiveFirstPartmanagers from "@/components/CoursePage/FirstPart/ExecutiveFirstPartmanagers";
+import ExecutiveSecondPartMangers from "@/components/CoursePage/FirstPart/ExecutiveSecondPartMangers";
 
-import ManagersNewFirstPart from "@/components/CoursePage/FirstPart/ManagersNewFirstPart";
-import ManagersNewSecondPart from "@/components/CoursePage/FirstPart/ManagersNewSecondPart"
 import Navbar from "@/components/Global/Navbar/Navbar";
 
 
@@ -72,31 +70,27 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
       </Head>
       <main>
-        <Navbar dataScienceCounselling={true} interstedInHide={true} />
+        {/* <Navbar dataScienceCounselling={true} interstedInHide={true} /> */}
       
-        <FirstPart
+        {/* <FirstPart
           SecondSectionData={
             DataScienceCourseData.DataScienceCourseData[0].secondSection
           }
           TestimonialData={
             DataScienceCourseData.DataScienceCourseData[0].testimonial
           }
-        />
-
+          
+        /> */}
+      <ExecutiveFirstPartmanagers    ProggramSectionData={
+            DataScienceCourseData.DataScienceCourseData[0].ProggramSection
+           }/>
       </main>
       <main>
-        <SecondPart
-          masterSyllabusMobile={
-            DataScienceCourseData.DataScienceCourseData[0].masterSyllabusMobile
-          }
-          CertificateData={
-            DataScienceCourseData.DataScienceCourseData[0].Certificate
-          }
-          projectSection={
-            DataScienceCourseData.DataScienceCourseData[0].projectSection
-          }
+
+      <ExecutiveSecondPartMangers sections={DataScienceCourseData.DataScienceCourseData[0].sections}
           FAQNewData={DataScienceCourseData.DataScienceCourseData[0].faq}
-        />
+          certificateNew={DataScienceCourseData.DataScienceCourseData[0].certificateNew}/>
+      
       </main>
     </>
   );

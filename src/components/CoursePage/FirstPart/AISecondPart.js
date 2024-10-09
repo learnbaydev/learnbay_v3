@@ -1,4 +1,4 @@
-import FeeSection from "@/components/course/feeSection/FeeSection";
+import FeeSection from "@/components/course/feeSection/FeeSectionCourse";
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
 

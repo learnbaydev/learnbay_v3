@@ -15,7 +15,7 @@ import Achive from "@/components/course/jobReadySection/Achive";
 import NewSevenSection from "@/components/Global/SeventhSectionNew/NewSevenSection";
 import AnimationNew from "@/components/Home/whyChooseSection/AnimationNew";
 
-const FeeSection = dynamic(() => import("../../course/feeSection/FeeSection"));
+const FeeSection = dynamic(() => import("../../course/feeSection/FeeSectionCourse"));
 
 const Content = dynamic(() => import("../../CoursePage/Content/content"));
 

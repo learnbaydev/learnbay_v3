@@ -28,7 +28,7 @@ const FirstPart = ({ProggramSectionData}) => {
       />
       <HeroSection
         thumbnailurl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_YT.webp"
-
+spanTag="Project-based learning"
         spanIcon="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp"
         isSpecialPage={true}
         isGuwahati={true}

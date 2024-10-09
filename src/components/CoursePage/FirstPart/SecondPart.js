@@ -21,7 +21,7 @@ const Certificate = dynamic(() =>
 );
 const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
 const FeeSection = dynamic(() =>
-  import("../../course/feeSection/FeeSection")
+  import("../../course/feeSection/FeeSectionCourse")
 );
 const MentorsSection = dynamic(() =>
   import("../../../components/Global/MentorsSection/MentorsSection")
