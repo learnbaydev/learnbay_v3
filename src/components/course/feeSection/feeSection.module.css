@@ -479,7 +479,8 @@ background: #FFF;
 }
 
 .emiButtonBlue button {
-  background: #0072BC;
+  border-radius: 10px;
+background: #022646;
 
   }
 

@@ -162,10 +162,11 @@ line-height: 126.5%; /* 69.575px */
 .Container {
   display: flex;
   width: 1200px;
-  margin:40px auto;
+  margin:100px auto;
   gap: 100px;
   flex-wrap: wrap;
   justify-content: center;
+  
 
 
 }
@@ -191,9 +192,10 @@ line-height: 126.5%; /* 69.575px */
 }
 .RoundBox{
   position: absolute;
+  width: -moz-fit-content;
   width: fit-content;
-  left: 40%;
-  top: 80%;
+  left: 36%;
+  top: 76%;
 }
 
 .ContentBox h5{

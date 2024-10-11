@@ -22,7 +22,7 @@ const NewCourse = ({
   interstedInHide,
 }) => {
   const [activeTab, setActiveTab] = useState("all");
-  const [visibleCount, setVisibleCount] = useState(6);
+  const [visibleCount, setVisibleCount] = useState(3);
   const [isMobile, setIsMobile] = useState(false);
   const [popups, setPopups] = useState(false);
   const [titleCourse, setTitleCourse] = useState();
@@ -366,7 +366,7 @@ const NewCourse = ({
   }, 200); // Adjust delay as needed
 
   const handleViewMore = () => {
-    setVisibleCount((prevCount) => prevCount + (isMobile ? 6 : 6));
+    setVisibleCount((prevCount) => prevCount + (isMobile ? 3 : 3));
   };
 
   return (

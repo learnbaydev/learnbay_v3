@@ -78,9 +78,18 @@ margin: auto;
 .ShowInMobile {
     display: none;
 }
+@media (max-width: 1181px) {
+
+  .section{
+    width: 900px;
+  }
+}
 @media (max-width: 1024px) {
 .section {
   margin: 30px;
+}
+.section{
+  width: 900px;
 }
 
 
@@ -99,6 +108,7 @@ margin: auto;
     width: 250px;
     height: auto;
   }
+  
 
 }
 

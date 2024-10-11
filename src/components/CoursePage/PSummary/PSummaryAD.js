@@ -1,9 +1,11 @@
 import React, { useEffect, useState, useRef, memo, useCallback } from "react";
 import Image from "next/image";
 import styles from "./PSummary.module.css";
-import summaryData from "./SummaryData"; // Import the data file
 
-const PSummaryAD = () => {
+const PSummaryAD = ({
+  summaryData,
+  customClassName = "", // New prop for dynamic class
+}) => {
   const [activeDot, setActiveDot] = useState(0); // Track the active dot
   const contentContainerRef = useRef(null); // Ref for content container
 
@@ -71,8 +73,8 @@ const PSummaryAD = () => {
   }, [activeDot]);
 
   return (
-    <div className={styles.Container}>
-      <h2>Program <span className={styles.spans}>Summary</span></h2>
+    <div className={`${styles.Container} ${customClassName}`}>
+      <h2>Program <span className={styles.spans}>Summary <hr className={styles.hrline}/></span></h2>
       <div className={styles.contentConteiner} ref={contentContainerRef}>
         {summaryData.map((item, index) => (
           <div key={item.id} className={styles.Box}>
@@ -118,9 +120,6 @@ const PSummaryAD = () => {
         </div>
       </div>
     </div>
-    
-
-
   );
 };
 

@@ -81,7 +81,12 @@ function Blockchain({ DataScienceCourseDataJson }) {
           }
           
         /> */}
-      <ExecutiveFirstPartmanagers    ProggramSectionData={
+      <ExecutiveFirstPartmanagers 
+       summaryData={
+        DataScienceCourseData.DataScienceCourseData[0].summarySection
+      }
+      
+      ProggramSectionData={
             DataScienceCourseData.DataScienceCourseData[0].ProggramSection
            }/>
       </main>

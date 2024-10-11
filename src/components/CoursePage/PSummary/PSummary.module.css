@@ -6,14 +6,27 @@
 
 .Container h2 {
   text-align: center;
+  font-weight: 600;
 }
+
+.hrline{
+  background: #FE7A36;
+  border: none;
+  width: 140px;
+  height: 2px;
+  position: relative;
+  left: 50%;
+  margin: 6px 0;
+}
+
 
 .contentConteiner {
   display: flex;
-  gap: 96px;
+  gap: 40px;
   justify-content: space-around;
-  margin: 60px 0;
+  margin: 80px 0;
 }
+
 
 .contentConteiner h4 {
   color: #484848;
@@ -218,9 +231,7 @@ font-weight: 600;
     text-align: left;
   }
 
-  .spans {
-    font-weight: 600;
-  }
+
 
   .contentConteiner h4 {
     margin-bottom: 0;

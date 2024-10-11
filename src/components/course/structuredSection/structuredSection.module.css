@@ -78,6 +78,9 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.topImgMBL{
+  display: none;
+}
 
 @media only screen and (max-width: 641px) {
   .container {

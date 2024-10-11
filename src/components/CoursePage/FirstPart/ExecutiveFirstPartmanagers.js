@@ -17,7 +17,7 @@ const OutcomeSection = dynamic(() =>
 const WhyChooseSection = dynamic(() =>
   import("@/components/course/whyChooseSection/whyChooseSection")
 );
-const ExecutiveFirstPartmanagers = ({ProggramSectionData}) => {
+const ExecutiveFirstPartmanagers = ({ProggramSectionData, summaryData}) => {
   const pdfUrl = "/Brochure/Executive-iit-guwahati-generic.pdf";
   return (
     <>
@@ -65,7 +65,7 @@ const ExecutiveFirstPartmanagers = ({ProggramSectionData}) => {
   showRightForm={true}
     />
 
-    <PSummaryAD/>
+<PSummaryAD  summaryData={summaryData}/>
     <Practical />
       {/* <DecisionSection noIIt={true} /> */}
       <ProgramSection

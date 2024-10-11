@@ -85,10 +85,10 @@ function Blockchain({ DataScienceCourseDataJson }) {
           rel="canonical"
           href="https://www.learnbay.co/datascience/business-analytics-certification-course"
         />
-        <script 
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: `{
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
             "@context": "http://schema.org",
             "@type": "Course",
             "name": "Businesss Analytics Master Certification Program",
@@ -121,20 +121,18 @@ function Blockchain({ DataScienceCourseDataJson }) {
 
 
 
-          }`
-
-        }}
-        
-
-
+          }`,
+          }}
         />
       </Head>
       <main>
         <BAFirstPart
-
-ProggramSectionData={
-  DataScienceCourseData.BADataScienceCourseData[0].ProggramSection
-}
+          summaryData={
+            DataScienceCourseData.BADataScienceCourseData[0].summarySection
+          }
+          ProggramSectionData={
+            DataScienceCourseData.BADataScienceCourseData[0].ProggramSection
+          }
         />
         <BASecondPart
           sections={DataScienceCourseData.BADataScienceCourseData[0].sections}

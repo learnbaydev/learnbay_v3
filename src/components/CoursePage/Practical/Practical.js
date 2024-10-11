@@ -33,8 +33,8 @@ const Practical = () => {
                   src={box.imgSrc}
                   alt={box.imgAlt}
                   loading="lazy"
-                  width={40}
-                  height={40}
+                  width={box.width}
+                  height={box.height}
                   quality={75}
                   placeholder="blur"
                   blurDataURL={box.imgSrc}

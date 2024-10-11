@@ -18,7 +18,7 @@ const OutcomeSection = dynamic(() =>
 const WhyChooseSection = dynamic(() =>
   import("@/components/course/whyChoose/WhyChooseNew")
 );
-const AIFirstPart = ({ ProggramSectionData }) => {
+const AIFirstPart = ({ ProggramSectionData, summaryData }) => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -63,7 +63,7 @@ const AIFirstPart = ({ ProggramSectionData }) => {
         PointsDiv={true}
       />
 
-      {isMobile && <PSummaryAD />}
+      {isMobile &&       <PSummaryAD  summaryData={summaryData}/>}
       {!isMobile && (
         <PsummaryForm
           showForm={true}

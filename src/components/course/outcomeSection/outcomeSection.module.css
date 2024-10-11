@@ -1,7 +1,7 @@
 .container {
   color: #000;
   padding: 50px 0px 0px 0px;
-  background: linear-gradient(180deg, #FFF 0.16%, #EFF3F6 51.71%, #FFF 100%);
+  background: #EFF3F6;
 }
 
 .innerDiv {
@@ -12,13 +12,32 @@
   color: #022646;
   font-size: 42px;
   line-height: 60px;
-  font-weight: 400;
+  font-weight: 600;
   text-align: center;
 }
 
 .boldH2,
 .borderBot {
   font-weight: 600;
+}
+
+.hrline{
+  width: 350px;
+  align-items: center;
+  position: relative;
+  left: 50%;
+  background: #FE7A36;
+  height: 2px;
+  border: none;
+}
+
+.pHead{
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150.5%;
+  margin-bottom: 50px;
 }
 
 /* Enable vertical scrolling */
@@ -31,7 +50,7 @@
   padding: 20px 26px 30px 26px;
   width: 100%;
   max-width: 1200px;
-  margin: 40px auto;
+  margin: 40px auto 80px auto;
   gap: 20px;
     justify-content: space-around;
 
@@ -131,6 +150,10 @@
     padding: 20px 26px 30px 26px;
     max-height: 500px; /* Set a max height for vertical scrolling */
     overflow-y: auto; /* Enable vertical scrolling */
+  }
+
+  .hrline{
+    display: none;
   }
 
   .innerBox {

@@ -54,7 +54,7 @@ const Realstory = dynamic(()=>
 import( "../../Home/Realstory/Realstory"
 )
 );
-const BusinessAnalyticsFirstPart = ({ ProggramSectionData}) => {
+const BusinessAnalyticsFirstPart = ({ ProggramSectionData, summaryData}) => {
 
 
   const seconddata = [
@@ -174,7 +174,7 @@ const BusinessAnalyticsFirstPart = ({ ProggramSectionData}) => {
 
 
       
-<PSummaryAD/>
+<PSummaryAD  summaryData={summaryData}/>
 <Practical />
 
 

@@ -75,14 +75,18 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
       </Head>
       <main>
         <FirstPart
-          ProggramSectionData={
-            DataScienceCourseData.DataScienceMastersinCS[0].ProggramSection
+          WolfLink={true}
+          formbtn={true}
+          TestimonialData={
+            DataScienceCourseData.DataScienceMastersinCS[0].testimonial
           }
         />
         <SecondPart
-          sections={DataScienceCourseData.DataScienceMastersinCS[0].sections}
-          certificateNew={
-            DataScienceCourseData.DataScienceMastersinCS[0].certificateNew
+          masterSyllabusMobile={
+            DataScienceCourseData.DataScienceMastersinCS[0].masterSyllabusMobile
+          }
+          CertificateData={
+            DataScienceCourseData.DataScienceMastersinCS[0].Certificate
           }
           projectSection={
             DataScienceCourseData.DataScienceMastersinCS[0].projectSection

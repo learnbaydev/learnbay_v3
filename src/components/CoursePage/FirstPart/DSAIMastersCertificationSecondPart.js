@@ -1,38 +1,28 @@
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import Footer from "@/components/Global/Footer/Footer";
-import SeventhSection from "@/components/Global/SeventhSection/SeventhSection";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
-import LJourney from "../LJourney/LJourney";
-const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
-const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
-const Certificate = dynamic(() => import("../Certificate/Certificate"));
-const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
-const FeeSection = dynamic(() => import("../FeeSection/FeeSection"));
-const MentorsSection = dynamic(() =>
-  import("../../Global/MentorsSection/MentorsSection")
-);
-const SliderTab = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
-const PlacementCall = dynamic(() =>
-  import("../../Global/PlacementCall/PlacementCall")
-);
-const NewProjectSection = dynamic(() =>
-  import("../../Global/NewProjectSection/NewProjectSection")
-);
+import NewSevenSection from "@/components/Global/SeventhSectionNew/NewSevenSection";
+
+import ProjectSection from "@/components/course/projectSection/ProjectSection";
+import SyllabusSection from "@/components/course/syllabusSection/SyllabusSection";
+import StructuredSection from "@/components/course/structuredSection/StructuredSection";
+import Achive from "@/components/course/jobReadySection/Achive";
+import ToolsSection from "@/components/course/toolsSection/ToolsSection";
+import CertificateSection from "@/components/course/certificateSection/CertificateSection";
+import FeeSection from "@/components/course/feeSection/FeeSectionCourse";
+
 
 const FAQNew = dynamic(() => import("../FAQNew/FAQNew"));
 const Content = dynamic(() => import("../Content/content"));
 
-const MobileTestimonial = dynamic(() =>
-  import("@/components/Home/MobileTestimonial/MobileTestimonial")
-);
+
 
 const SecondPart = ({
-  masterSyllabusMobile,
-  CertificateData,
-  projectSection,
+  sections,
   FAQNewData,
+  certificateNew,
 }) => {
   const [popupData, setPopupData] = useState([]);
 
@@ -79,66 +69,38 @@ const SecondPart = ({
   const pdfUrl = "/Brochure/AI-Master-Certification.pdf";
   return (
     <div>
-      <LJourney />
-      <SyllabusNew
-        masterSyllabusMobile={masterSyllabusMobile}
-        dataScienceCounselling={true}
-        dataScience={true}
-        interstedInHide={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf"
-        brochurePdf={pdfUrl}
-        buttonHide={true}
-      />
-      <ToolsCovered />
-      <Certificate data={CertificateData} />
-      <FeeSection
-        Fee="₹1,35,000"
-        FeeEmi="₹8,850/month"
-        weekdaybatch="Weekday Batch"
-        weekendbatch="Weekend Batch"
-        weekday="MON - THU"
-        weekend="SAT - SUN"
-        WeekdayDate="11th October"
-        WeekendDate="Sept 29th"
-        WeekendTime="9:30 AM - 1 PM"
-        WeekdayTime="8:00 PM - 10:30 PM"
-        FeeContent3="Flexible payment"
-        FeeContent4="Easy loan procedure"
-        FeeContent5="10 days refund policy"
-        FeeContent6="No additional cost"
-        dataScienceCounselling={true}
-        interstedInHide={true}
-        dataScience={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf"
-        brochurePdf={pdfUrl}
-        // <EMI POPUP
-        emiType="NO COST EMI"
-        duration1="18 Months"
-        totalAmount1="₹1,35,000"
-        monthlyPayment1="₹8,850"
-        greenDown1="Standard Intrest rate Applicable"
-        duration2="12 Months"
-        totalAmount2="₹1,35,000"
-        monthlyPayment2="₹13,275"
-      />
 
-      <MentorsSection />
-      <SliderTab />
-      <PlacementCall />
-      <MobileTestimonial />
-      <NewProjectSection
-        dataScience={true}
+     
+      <ProjectSection dataScienceCounselling={true} interstedInHide={true} />
+
+      <SyllabusSection
+        sections={sections}
         interstedInHide={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf"
         brochurePdf={pdfUrl}
-        projectSection={projectSection}
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
       />
+      <ToolsSection />
+      <CertificateSection certificateNew={certificateNew} />
+
+      <FeeSection
+        // EMIPOPUP
+        emiType="Live online classes"
+        duration1="12 Months"
+        totalAmount1="₹1,90,000"
+        monthlyPayment1="₹14,094"
+        greenDown1="Hybrid Classes"
+        duration2="12 Months"
+        totalAmount2="₹2,10,000"
+        monthlyPayment2="₹12,455"
+        dataScienceCounselling={true}
+        iitGuwatiGen={true}
+      />
+      <StructuredSection />
+      <Achive />
 
       <FAQNew FAQNewData={FAQNewData} />
-      <SeventhSection />
+      <NewSevenSection />
+      <Content/>
       <Footer />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />
       <WhatsappFloat />

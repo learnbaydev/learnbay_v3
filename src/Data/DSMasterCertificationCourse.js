@@ -1,5 +1,1601 @@
 export const DataScienceCourseData = [
   {
+
+    summarySection: [
+
+      {
+        id: 1,
+        title: "Domain Electives",
+        description: "Work on Live projects from multiple domains like Retail, BFSI, Pharma etc.",
+        imageSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_Icon+(1).webp",
+        imageAlt: "DomainElectives",
+      },
+      {
+        id: 2,
+        title: "Real Project Experience",
+        description: "Gain experience of managing analytics project from scratch.",
+        imageSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_iconTwo+(1).webp",
+        imageAlt: "RealProjectExperience",
+      },
+  
+      {
+        id: 3,
+        title: "Placement Assistance",
+        description: "Receive personalized placement assistance from our dedicated team.",
+        imageSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_iconThree+(1).webp",
+        imageAlt: "PlacementAssistance",
+      },
+      {
+        id: 4,
+        title: "Certification",
+        description: "Get certified from renowned industries.",
+        imageSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/mastr_Icon_four+(1).webp",
+        imageAlt: "Certification",
+        extraImageSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_MICROS.webp",
+        extraImageAlt: "IBMLOGO",
+      },
+    ],
+
+    ProggramSection: [
+      {
+        content: {
+      BoldText:"Working professional ",
+          nonBold:" with min",
+          to: "",
+          senior: "",
+          yearExp: "1+ Year of Experience",
+          description:
+            "This program is perfect for Data Analyst, Web Developer, QA, Technical Support Engineer, Junior Data Scientist, Cyber security Analyst, Cloud Support Engineer, DevOps Engineer (Junior Level)",
+          importantNote: "This program is not for fresh graduates. You must have at least 1 year of work experience. To know more check eligibility",
+          points: [
+            {
+              title: "Software Developer/Engineer",
+              icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_Datas.webp",
+            },
+            {
+              title: "IT Support Specialist",
+              icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_ytwos.webp",
+            },
+          ],
+        },
+        rightImg:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ryt_programImg+(2).webp",
+        popupTitle: "Eligibility Check",
+        formProps: {
+  
+        },
+      },
+    ],
+    certificateNew:[
+      {
+        id: 1,
+        title: "IBM Course Completion Certificate",
+        imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/ibm_Cert_new.webp",
+        imageWidth: 400,
+        imageHeight: 260,
+        description: [
+          "Complete your training with the internationally recognized certificate.",
+          "In-Demand Skills: Gain expertise recognized worldwide.",
+          "Career Boost: Elevate your job prospects and earnings.",
+        ],
+      },
+      {
+        id: 2,
+        title: "Microsoft Course Completion Certificate",
+        imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/microsoft_Cert_new.webp",
+        imageWidth: 400,
+        imageHeight: 260,
+        description: [
+          "Industry-certified Microsoft certificates.",
+          "Gain expertise & get recognized worldwide.",
+          "Boost job opportunities and earnings with Microsoft’s certification.",
+        ],
+      },
+      {
+        id: 3,
+        title: "Capstone Project Certificate from IBM",
+        imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project_ibm_Cert_new.webp",
+        imageWidth: 360,
+    imageHeight: 240,
+        description: [
+          "Globally recognized IBM certification based on industrial-level projects.",
+          "Earn 1 capstone project certification from IBM.",
+          "Individualized project experience with easy access to premium job opportunities.",
+        ],
+      }
+    ],
+
+    sections: [
+      {
+        id: "0",
+        trackIcon:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/peoples.webp",
+        width: 80,
+        height: 80,
+        title: "Term 1",
+        toolsImg:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
+        toolwidth: "200",
+        toolheight: "40",
+        description: "Foundations of Data Science and Leadership",
+        duration: "1.5 Months",
+        contentModule: "Module 1",
+        contentDescription: "Introduction to data science for Managers",
+        contentDetails: [
+          "What is Data Science, Data Analytics, Machine Learning, Artificial Intelligence?",
+          "Role of Data in Various Industries and Businesses",
+        ],
+        popuplist: [
+          {
+            term: "Term 1",
+            title: "Foundations of Data Science and Leadership",
+            duration: "1.5 months",
+            modules: [
+              {
+                moduleTitle: "Module 1",
+                moduleContent: "Introduction to data science for Managers",
+                moduleList: [
+                  "What is Data Science, Data Analytics, Machine Learning, Artificial Intelligence?",
+                  "Role of Data in Various Industries and Businesses",
+                  "Utilizing Data to Enhance Industrial Operations and Management",
+                  "Use Cases of Data Analytics and AI in Various Domains",
+                  "BFSI",
+                  "Manufacturing",
+                  "Retail",
+                  "HR",
+                  "Marketing",
+                  "Sales",
+                  "Healthcare",
+                ],
+              },
+              {
+                moduleTitle: "Module 2",
+                moduleContent: "AI in Business Strategy",
+                moduleList: [
+                  "AI-Driven Decision Making: Leveraging AI for strategic business decisions",
+                  "AI and Business Process Automation: Automating business processes using AI",
+                  "Case Studies: Successful AI implementations in various business domains",
+                ],
+              },
+              {
+                moduleTitle: "Module 3",
+                moduleContent: "Data Strategy and Governance for Managers",
+                moduleList: [
+                  "Developing a Data Strategy",
+                  "Aligning data initiatives with business goals and Roadmap for data maturity",
+                  "Data Governance and Ethics",
+                  "Establishing data governance frameworks and Ethical considerations in data usage",
+                  "Managing Data Quality",
+                  "Ensuring data integrity and accuracy and Tools and techniques for data validation",
+                ],
+              },
+              {
+                moduleTitle: "Module 4",
+                moduleContent: "Excel",
+                moduleList: [
+                  "Introduction to Excel for Data Science",
+                  "Overview of Excel Interface and Functions",
+                  "Data Types and Data Entry",
+                  "Basic Formulas and Functions",
+                  "Data Cleaning and Preparation in Excel",
+                  "Data Analysis with Excel",
+                  "Advanced Excel Functions",
+                  "Data Visualization with Excel",
+                  "PivotTables and PivotCharts",
+                  "Data Automation in Excel",
+                  "Project Management in Excel",
+                ],
+              },
+            ],
+          },
+
+          {
+            term: "Term 2",
+            duration: "4 months",
+            title: "Technical Skills for Data Science",
+            modules: [
+              {
+                moduleTitle: "Module 5",
+                moduleContent: "Python",
+                moduleList: [
+                  "Data Analysis Using Numpy",
+                  "Data Visualization Using Matplotlib",
+                  "Data Visualization Using Seaborn",
+                ],
+              },
+              {
+                moduleTitle: "Module 6",
+                moduleContent: "Statistics",
+                moduleList: [
+                  "Fundamentals of Math and Probability",
+                  "Descriptive Statistics",
+                  "Inferential Statistics",
+                  "Data Processing & EDA",
+                  "Linear Algebra",
+                  "Regression Analysis",
+                ],
+              },
+              {
+                moduleTitle: "Module 7",
+                moduleContent: "Machine Learning",
+                moduleList: [
+                  "Introduction",
+                  "Data Preprocessing",
+                  "Regression and Classification",
+                  "Advanced Techniques",
+                  "Linear Algebra",
+                  "Regression Analysis",
+                ],
+              },
+              {
+                moduleTitle: "Module 8",
+                moduleContent: "GenAI for Leaders",
+                moduleList: [
+                  "Introduction to Generative AI",
+                  "Core Concepts and Techniques",
+                  "Business Applications of Generative AI",
+                  "Ethical and Responsible Use of Generative AI",
+                  "Implementation Strategies for Generative AI",
+                  "Generative AI Project Management",
+                  "Future Trends in Generative AI",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Term 3",
+            duration: "4 months",
+            title: "SQL, Tableau, Power BI, Big data ",
+            modules: [
+              {
+                moduleTitle: "Module 9",
+                moduleContent: "Big Data Tools",
+                moduleList: [
+                  "Introduction to Big Data",
+                  "Core Technologies in Big Data",
+                  "1. Hadoop Ecosystem",
+                  "2. Hive",
+                  "3. Apache Spark",
+                  "",
+                ],
+              },
+              {
+                moduleTitle: "Module 10",
+                moduleContent: "SQL",
+                moduleList: [
+                  "Introduction to SQL and RDBMS",
+                  "Basic and Advanced SQL Queries",
+                  "Data Operations",
+                  "NoSQL Databases",
+                  "JSON Data & CRUD Operations",
+                ],
+              },
+              {
+                moduleTitle: "Module 11",
+                moduleContent: " Tableau",
+                moduleList: [
+                  "Introduction to Tableau",
+                  "Visual Analytics",
+                  "Data Cleansing and Preparation",
+                  "Advanced Visualizations",
+                  "Dashboards and Stories",
+                  "Predictive Analytics",
+                ],
+              },
+
+              {
+                moduleTitle: "Module 12",
+                moduleContent: "PowerBI",
+                moduleList: [
+                  "Introduction to Power BI",
+                  "Data Transformation and Modeling",
+                  "Data Visualization",
+                  "Dashboards and Reports",
+                  "Advanced Analytics",
+                  "Sharing and Collaboration",
+                ],
+              },
+
+              // {
+              //   moduleTitle: "BONUS",
+              //   moduleContent: "PowerBI",
+              //   moduleList: [
+              //     "Introduction to Power BI",
+              //     "Data Transformation and Modeling",
+              //     "Data Visualization",
+              //     "Dashboards and Reports",
+              //     "Advanced Analytics",
+              //     "Sharing and Collaboration",
+
+              //   ],
+              // },
+            ],
+          },
+          {
+            term: "BONUS",
+            duration: "4 months",
+            title: "Domain Specialization & Capstone Project",
+            modules: [
+              {
+                moduleTitle: "BONUS",
+                moduleContent: "Domain Specialization + Capstone project ",
+                moduleList: [
+                  "Industry-Specific Technologies and Innovations",
+                  "Leadership and Change Management",
+                  "Regulatory and Compliance Considerations",
+                ],
+              },
+              {
+                moduleTitle: "BONUS",
+                moduleContent:
+                  "Choose any 2 Capstone Projects from the following:",
+                moduleList: [
+                  "Retail",
+                  "HR (Human Resources)",
+                  "Marketing",
+                  "Healthcare",
+                ],
+              },
+            ],
+          },
+
+          {
+            term: "Term 4",
+            duration: "4 months",
+            title: "AI Tools",
+            modules: [
+              {
+                moduleTitle: "Module 13",
+                moduleContent: "Deep Learning ",
+                moduleList: [
+                  "Introduction to Deep Learning",
+                  "Core Concepts",
+                  "Regulatory and Compliance Considerations",
+                ],
+              },
+              {
+                moduleTitle: "Module 14",
+                moduleContent: "Deep Learning",
+                moduleList: [
+                  "Core NLP Techniques",
+                  "Advanced NLP Models",
+                  "Marketing",
+                  "Healthcare",
+                ],
+              },
+
+              {
+                moduleTitle: "Module 15",
+                moduleContent: "Deployment ",
+                moduleList: [
+                  "Introduction to Cloud Deployment",
+                  "Core Concepts",
+                  "Deployment Strategies",
+                  "Practical Applications",
+                  "Security and Compliance",
+                  "Implementation Strategies",
+                  "Project Management",
+                ],
+              },
+              {
+                moduleTitle: "NLP and Gen AI",
+                moduleContent:
+                  "Project: Automated Document Summarization Using",
+                moduleList: ["Objective", "Technologies", "Outcome"],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: "1",
+        trackIcon:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/greens.webp",
+        width: 80,
+        height: 80,
+        title: "Term 2",
+        toolsImg:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term2_tool.webp",
+        toolwidth: "400",
+        toolheight: "76",
+        description: "Technical Skills for Data Science",
+        duration: "4 Months",
+        contentModule: "Module 1",
+        contentDescription: "Python",
+        contentDetails: [
+          "Data Analysis Using Numpy",
+          "Data Visualization Using Matplotlib",
+        ],
+        popuplist: [
+          {
+            term: "Term 1",
+            duration: "1.5 months",
+            title: "Foundations of Data Science and Leadership",
+            modules: [
+              {
+                moduleTitle: "Module 1",
+                moduleContent: "Introduction to data science for Managers",
+                moduleList: [
+                  "What is Data Science, Data Analytics, Machine Learning, Artificial Intelligence?",
+                  "Role of Data in Various Industries and Businesses",
+                  "Utilizing Data to Enhance Industrial Operations and Management",
+                  "Use Cases of Data Analytics and AI in Various Domains",
+                  "BFSI",
+                  "Manufacturing",
+                  "Retail",
+                  "HR",
+                  "Marketing",
+                  "Sales",
+                  "Healthcare",
+                ],
+              },
+              {
+                moduleTitle: "Module 2",
+                moduleContent: "AI in Business Strategy",
+                moduleList: [
+                  "AI-Driven Decision Making: Leveraging AI for strategic business decisions",
+                  "AI and Business Process Automation: Automating business processes using AI",
+                  "Case Studies: Successful AI implementations in various business domains",
+                ],
+              },
+              {
+                moduleTitle: "Module 3",
+                moduleContent: "Data Strategy and Governance for Managers",
+                moduleList: [
+                  "Developing a Data Strategy",
+                  "Aligning data initiatives with business goals and Roadmap for data maturity",
+                  "Data Governance and Ethics",
+                  "Establishing data governance frameworks and Ethical considerations in data usage",
+                  "Managing Data Quality",
+                  "Ensuring data integrity and accuracy and Tools and techniques for data validation",
+                ],
+              },
+              {
+                moduleTitle: "Module 4",
+                moduleContent: "Excel",
+                moduleList: [
+                  "Introduction to Excel for Data Science",
+                  "Overview of Excel Interface and Functions",
+                  "Data Types and Data Entry",
+                  "Basic Formulas and Functions",
+                  "Data Cleaning and Preparation in Excel",
+                  "Data Analysis with Excel",
+                  "Advanced Excel Functions",
+                  "Data Visualization with Excel",
+                  "PivotTables and PivotCharts",
+                  "Data Automation in Excel",
+                  "Project Management in Excel",
+                ],
+              },
+            ],
+          },
+
+          {
+            term: "Term 2",
+            duration: "4 months",
+            title: "Technical Skills for Data Science",
+            modules: [
+              {
+                moduleTitle: "Module 5",
+                moduleContent: "Python",
+                moduleList: [
+                  "Data Analysis Using Numpy",
+                  "Data Visualization Using Matplotlib",
+                  "Data Visualization Using Seaborn",
+                ],
+              },
+              {
+                moduleTitle: "Module 6",
+                moduleContent: "Statistics",
+                moduleList: [
+                  "Fundamentals of Math and Probability",
+                  "Descriptive Statistics",
+                  "Inferential Statistics",
+                  "Data Processing & EDA",
+                  "Linear Algebra",
+                  "Regression Analysis",
+                ],
+              },
+              {
+                moduleTitle: "Module 7",
+                moduleContent: "Machine Learning",
+                moduleList: [
+                  "Introduction",
+                  "Data Preprocessing",
+                  "Regression and Classification",
+                  "Advanced Techniques",
+                  "Linear Algebra",
+                  "Regression Analysis",
+                ],
+              },
+              {
+                moduleTitle: "Module 8",
+                moduleContent: "GenAI for Leaders",
+                moduleList: [
+                  "Introduction to Generative AI",
+                  "Core Concepts and Techniques",
+                  "Business Applications of Generative AI",
+                  "Ethical and Responsible Use of Generative AI",
+                  "Implementation Strategies for Generative AI",
+                  "Generative AI Project Management",
+                  "Future Trends in Generative AI",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Term 3",
+            duration: "4 months",
+            title: "SQL, Tableau, Power BI, Big data ",
+            modules: [
+              {
+                moduleTitle: "Module 9",
+                moduleContent: "Big Data Tools",
+                moduleList: [
+                  "Introduction to Big Data",
+                  "Core Technologies in Big Data",
+                  "1. Hadoop Ecosystem",
+                  "2. Hive",
+                  "3. Apache Spark",
+                  "",
+                ],
+              },
+              {
+                moduleTitle: "Module 10",
+                moduleContent: "SQL",
+                moduleList: [
+                  "Introduction to SQL and RDBMS",
+                  "Basic and Advanced SQL Queries",
+                  "Data Operations",
+                  "NoSQL Databases",
+                  "JSON Data & CRUD Operations",
+                ],
+              },
+              {
+                moduleTitle: "Module 11",
+                moduleContent: " Tableau",
+                moduleList: [
+                  "Introduction to Tableau",
+                  "Visual Analytics",
+                  "Data Cleansing and Preparation",
+                  "Advanced Visualizations",
+                  "Dashboards and Stories",
+                  "Predictive Analytics",
+                ],
+              },
+
+              {
+                moduleTitle: "Module 12",
+                moduleContent: "PowerBI",
+                moduleList: [
+                  "Introduction to Power BI",
+                  "Data Transformation and Modeling",
+                  "Data Visualization",
+                  "Dashboards and Reports",
+                  "Advanced Analytics",
+                  "Sharing and Collaboration",
+                ],
+              },
+
+              // {
+              //   moduleTitle: "BONUS",
+              //   moduleContent: "PowerBI",
+              //   moduleList: [
+              //     "Introduction to Power BI",
+              //     "Data Transformation and Modeling",
+              //     "Data Visualization",
+              //     "Dashboards and Reports",
+              //     "Advanced Analytics",
+              //     "Sharing and Collaboration",
+
+              //   ],
+              // },
+            ],
+          },
+          {
+            term: "BONUS",
+            duration: "4 months",
+            title: "Domain Specialization & Capstone Project",
+            modules: [
+              {
+                moduleTitle: "BONUS",
+                moduleContent: "Domain Specialization + Capstone project ",
+                moduleList: [
+                  "Industry-Specific Technologies and Innovations",
+                  "Leadership and Change Management",
+                  "Regulatory and Compliance Considerations",
+                ],
+              },
+              {
+                moduleTitle: "BONUS",
+                moduleContent:
+                  "Choose any 2 Capstone Projects from the following:",
+                moduleList: [
+                  "Retail",
+                  "HR (Human Resources)",
+                  "Marketing",
+                  "Healthcare",
+                ],
+              },
+            ],
+          },
+
+          {
+            term: "Term 4",
+            duration: "4 months",
+            title: "AI Tools",
+            modules: [
+              {
+                moduleTitle: "Module 13",
+                moduleContent: "Deep Learning ",
+                moduleList: [
+                  "Introduction to Deep Learning",
+                  "Core Concepts",
+                  "Regulatory and Compliance Considerations",
+                ],
+              },
+              {
+                moduleTitle: "Module 14",
+                moduleContent: "Deep Learning",
+                moduleList: [
+                  "Core NLP Techniques",
+                  "Advanced NLP Models",
+                  "Marketing",
+                  "Healthcare",
+                ],
+              },
+
+              {
+                moduleTitle: "Module 15",
+                moduleContent: "Deployment ",
+                moduleList: [
+                  "Introduction to Cloud Deployment",
+                  "Core Concepts",
+                  "Deployment Strategies",
+                  "Practical Applications",
+                  "Security and Compliance",
+                  "Implementation Strategies",
+                  "Project Management",
+                ],
+              },
+              {
+                moduleTitle: "NLP and Gen AI",
+                moduleContent:
+                  "Project: Automated Document Summarization Using",
+                moduleList: ["Objective", "Technologies", "Outcome"],
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        id: "2",
+        trackIcon:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/yellow_rs.webp",
+        width: 80,
+        height: 80,
+        title: "Term 3",
+        toolsImg:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term3_tool.webp",
+        toolwidth: "380",
+        toolheight: "30",
+        description: "SQL, Tableau, Power BI, Big data",
+        duration: "4 Months",
+        contentModule: "Module",
+        contentDescription: "Big Data Tools",
+        contentDetails: [
+          "Introduction to Big Data",
+          "Core Technologies in Big Data",
+        ],
+        popuplist: [
+          {
+            term: "Term 1",
+            duration: "1.5 months",
+            title: "Foundations of Data Science and Leadership",
+            modules: [
+              {
+                moduleTitle: "Module 1",
+                moduleContent: "Introduction to data science for Managers",
+                moduleList: [
+                  "What is Data Science, Data Analytics, Machine Learning, Artificial Intelligence?",
+                  "Role of Data in Various Industries and Businesses",
+                  "Utilizing Data to Enhance Industrial Operations and Management",
+                  "Use Cases of Data Analytics and AI in Various Domains",
+                  "BFSI",
+                  "Manufacturing",
+                  "Retail",
+                  "HR",
+                  "Marketing",
+                  "Sales",
+                  "Healthcare",
+                ],
+              },
+              {
+                moduleTitle: "Module 2",
+                moduleContent: "AI in Business Strategy",
+                moduleList: [
+                  "AI-Driven Decision Making: Leveraging AI for strategic business decisions",
+                  "AI and Business Process Automation: Automating business processes using AI",
+                  "Case Studies: Successful AI implementations in various business domains",
+                ],
+              },
+              {
+                moduleTitle: "Module 3",
+                moduleContent: "Data Strategy and Governance for Managers",
+                moduleList: [
+                  "Developing a Data Strategy",
+                  "Aligning data initiatives with business goals and Roadmap for data maturity",
+                  "Data Governance and Ethics",
+                  "Establishing data governance frameworks and Ethical considerations in data usage",
+                  "Managing Data Quality",
+                  "Ensuring data integrity and accuracy and Tools and techniques for data validation",
+                ],
+              },
+              {
+                moduleTitle: "Module 4",
+                moduleContent: "Excel",
+                moduleList: [
+                  "Introduction to Excel for Data Science",
+                  "Overview of Excel Interface and Functions",
+                  "Data Types and Data Entry",
+                  "Basic Formulas and Functions",
+                  "Data Cleaning and Preparation in Excel",
+                  "Data Analysis with Excel",
+                  "Advanced Excel Functions",
+                  "Data Visualization with Excel",
+                  "PivotTables and PivotCharts",
+                  "Data Automation in Excel",
+                  "Project Management in Excel",
+                ],
+              },
+            ],
+          },
+
+          {
+            term: "Term 2",
+            duration: "4 months",
+            title: "Technical Skills for Data Science",
+            modules: [
+              {
+                moduleTitle: "Module 5",
+                moduleContent: "Python",
+                moduleList: [
+                  "Data Analysis Using Numpy",
+                  "Data Visualization Using Matplotlib",
+                  "Data Visualization Using Seaborn",
+                ],
+              },
+              {
+                moduleTitle: "Module 6",
+                moduleContent: "Statistics",
+                moduleList: [
+                  "Fundamentals of Math and Probability",
+                  "Descriptive Statistics",
+                  "Inferential Statistics",
+                  "Data Processing & EDA",
+                  "Linear Algebra",
+                  "Regression Analysis",
+                ],
+              },
+              {
+                moduleTitle: "Module 7",
+                moduleContent: "Machine Learning",
+                moduleList: [
+                  "Introduction",
+                  "Data Preprocessing",
+                  "Regression and Classification",
+                  "Advanced Techniques",
+                  "Linear Algebra",
+                  "Regression Analysis",
+                ],
+              },
+              {
+                moduleTitle: "Module 8",
+                moduleContent: "GenAI for Leaders",
+                moduleList: [
+                  "Introduction to Generative AI",
+                  "Core Concepts and Techniques",
+                  "Business Applications of Generative AI",
+                  "Ethical and Responsible Use of Generative AI",
+                  "Implementation Strategies for Generative AI",
+                  "Generative AI Project Management",
+                  "Future Trends in Generative AI",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Term 3",
+            duration: "4 months",
+            title: "SQL, Tableau, Power BI, Big data ",
+            modules: [
+              {
+                moduleTitle: "Module 9",
+                moduleContent: "Big Data Tools",
+                moduleList: [
+                  "Introduction to Big Data",
+                  "Core Technologies in Big Data",
+                  "1. Hadoop Ecosystem",
+                  "2. Hive",
+                  "3. Apache Spark",
+                  "",
+                ],
+              },
+              {
+                moduleTitle: "Module 10",
+                moduleContent: "SQL",
+                moduleList: [
+                  "Introduction to SQL and RDBMS",
+                  "Basic and Advanced SQL Queries",
+                  "Data Operations",
+                  "NoSQL Databases",
+                  "JSON Data & CRUD Operations",
+                ],
+              },
+              {
+                moduleTitle: "Module 11",
+                moduleContent: " Tableau",
+                moduleList: [
+                  "Introduction to Tableau",
+                  "Visual Analytics",
+                  "Data Cleansing and Preparation",
+                  "Advanced Visualizations",
+                  "Dashboards and Stories",
+                  "Predictive Analytics",
+                ],
+              },
+
+              {
+                moduleTitle: "Module 12",
+                moduleContent: "PowerBI",
+                moduleList: [
+                  "Introduction to Power BI",
+                  "Data Transformation and Modeling",
+                  "Data Visualization",
+                  "Dashboards and Reports",
+                  "Advanced Analytics",
+                  "Sharing and Collaboration",
+                ],
+              },
+
+              // {
+              //   moduleTitle: "BONUS",
+              //   moduleContent: "PowerBI",
+              //   moduleList: [
+              //     "Introduction to Power BI",
+              //     "Data Transformation and Modeling",
+              //     "Data Visualization",
+              //     "Dashboards and Reports",
+              //     "Advanced Analytics",
+              //     "Sharing and Collaboration",
+
+              //   ],
+              // },
+            ],
+          },
+          {
+            term: "BONUS",
+            duration: "4 months",
+            title: "Domain Specialization & Capstone Project",
+            modules: [
+              {
+                moduleTitle: "BONUS",
+                moduleContent: "Domain Specialization + Capstone project ",
+                moduleList: [
+                  "Industry-Specific Technologies and Innovations",
+                  "Leadership and Change Management",
+                  "Regulatory and Compliance Considerations",
+                ],
+              },
+              {
+                moduleTitle: "BONUS",
+                moduleContent:
+                  "Choose any 2 Capstone Projects from the following:",
+                moduleList: [
+                  "Retail",
+                  "HR (Human Resources)",
+                  "Marketing",
+                  "Healthcare",
+                ],
+              },
+            ],
+          },
+
+          {
+            term: "Term 4",
+            duration: "4 months",
+            title: "AI Tools",
+            modules: [
+              {
+                moduleTitle: "Module 13",
+                moduleContent: "Deep Learning ",
+                moduleList: [
+                  "Introduction to Deep Learning",
+                  "Core Concepts",
+                  "Regulatory and Compliance Considerations",
+                ],
+              },
+              {
+                moduleTitle: "Module 14",
+                moduleContent: "Deep Learning",
+                moduleList: [
+                  "Core NLP Techniques",
+                  "Advanced NLP Models",
+                  "Marketing",
+                  "Healthcare",
+                ],
+              },
+
+              {
+                moduleTitle: "Module 15",
+                moduleContent: "Deployment ",
+                moduleList: [
+                  "Introduction to Cloud Deployment",
+                  "Core Concepts",
+                  "Deployment Strategies",
+                  "Practical Applications",
+                  "Security and Compliance",
+                  "Implementation Strategies",
+                  "Project Management",
+                ],
+              },
+              {
+                moduleTitle: "NLP and Gen AI",
+                moduleContent:
+                  "Project: Automated Document Summarization Using",
+                moduleList: ["Objective", "Technologies", "Outcome"],
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        id: "3",
+        trackIcon:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/brainMans.webp",
+        width: 80,
+        height: 80,
+        title: "Term 4",
+        toolsImg:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term4_tool.webp",
+        toolwidth: "380",
+        toolheight: "30",
+        description: "AI Tools",
+        duration: "4 Months",
+        contentModule: "Module",
+        contentDescription: "Deep Learning",
+        contentDetails: ["Introduction to Deep Learning", "Core Concepts"],
+        popuplist: [
+          {
+            term: "Term 1",
+            duration: "1.5 months",
+            title: "Foundations of Data Science and Leadership",
+            modules: [
+              {
+                moduleTitle: "Module 1",
+                moduleContent: "Introduction to data science for Managers",
+                moduleList: [
+                  "What is Data Science, Data Analytics, Machine Learning, Artificial Intelligence?",
+                  "Role of Data in Various Industries and Businesses",
+                  "Utilizing Data to Enhance Industrial Operations and Management",
+                  "Use Cases of Data Analytics and AI in Various Domains",
+                  "BFSI",
+                  "Manufacturing",
+                  "Retail",
+                  "HR",
+                  "Marketing",
+                  "Sales",
+                  "Healthcare",
+                ],
+              },
+              {
+                moduleTitle: "Module 2",
+                moduleContent: "AI in Business Strategy",
+                moduleList: [
+                  "AI-Driven Decision Making: Leveraging AI for strategic business decisions",
+                  "AI and Business Process Automation: Automating business processes using AI",
+                  "Case Studies: Successful AI implementations in various business domains",
+                ],
+              },
+              {
+                moduleTitle: "Module 3",
+                moduleContent: "Data Strategy and Governance for Managers",
+                moduleList: [
+                  "Developing a Data Strategy",
+                  "Aligning data initiatives with business goals and Roadmap for data maturity",
+                  "Data Governance and Ethics",
+                  "Establishing data governance frameworks and Ethical considerations in data usage",
+                  "Managing Data Quality",
+                  "Ensuring data integrity and accuracy and Tools and techniques for data validation",
+                ],
+              },
+              {
+                moduleTitle: "Module 4",
+                moduleContent: "Excel",
+                moduleList: [
+                  "Introduction to Excel for Data Science",
+                  "Overview of Excel Interface and Functions",
+                  "Data Types and Data Entry",
+                  "Basic Formulas and Functions",
+                  "Data Cleaning and Preparation in Excel",
+                  "Data Analysis with Excel",
+                  "Advanced Excel Functions",
+                  "Data Visualization with Excel",
+                  "PivotTables and PivotCharts",
+                  "Data Automation in Excel",
+                  "Project Management in Excel",
+                ],
+              },
+            ],
+          },
+
+          {
+            term: "Term 2",
+            duration: "4 months",
+            title: "Technical Skills for Data Science",
+            modules: [
+              {
+                moduleTitle: "Module 5",
+                moduleContent: "Python",
+                moduleList: [
+                  "Data Analysis Using Numpy",
+                  "Data Visualization Using Matplotlib",
+                  "Data Visualization Using Seaborn",
+                ],
+              },
+              {
+                moduleTitle: "Module 6",
+                moduleContent: "Statistics",
+                moduleList: [
+                  "Fundamentals of Math and Probability",
+                  "Descriptive Statistics",
+                  "Inferential Statistics",
+                  "Data Processing & EDA",
+                  "Linear Algebra",
+                  "Regression Analysis",
+                ],
+              },
+              {
+                moduleTitle: "Module 7",
+                moduleContent: "Machine Learning",
+                moduleList: [
+                  "Introduction",
+                  "Data Preprocessing",
+                  "Regression and Classification",
+                  "Advanced Techniques",
+                  "Linear Algebra",
+                  "Regression Analysis",
+                ],
+              },
+              {
+                moduleTitle: "Module 8",
+                moduleContent: "GenAI for Leaders",
+                moduleList: [
+                  "Introduction to Generative AI",
+                  "Core Concepts and Techniques",
+                  "Business Applications of Generative AI",
+                  "Ethical and Responsible Use of Generative AI",
+                  "Implementation Strategies for Generative AI",
+                  "Generative AI Project Management",
+                  "Future Trends in Generative AI",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Term 3",
+            duration: "4 months",
+            title: "SQL, Tableau, Power BI, Big data ",
+            modules: [
+              {
+                moduleTitle: "Module 9",
+                moduleContent: "Big Data Tools",
+                moduleList: [
+                  "Introduction to Big Data",
+                  "Core Technologies in Big Data",
+                  "1. Hadoop Ecosystem",
+                  "2. Hive",
+                  "3. Apache Spark",
+                  "",
+                ],
+              },
+              {
+                moduleTitle: "Module 10",
+                moduleContent: "SQL",
+                moduleList: [
+                  "Introduction to SQL and RDBMS",
+                  "Basic and Advanced SQL Queries",
+                  "Data Operations",
+                  "NoSQL Databases",
+                  "JSON Data & CRUD Operations",
+                ],
+              },
+              {
+                moduleTitle: "Module 11",
+                moduleContent: " Tableau",
+                moduleList: [
+                  "Introduction to Tableau",
+                  "Visual Analytics",
+                  "Data Cleansing and Preparation",
+                  "Advanced Visualizations",
+                  "Dashboards and Stories",
+                  "Predictive Analytics",
+                ],
+              },
+
+              {
+                moduleTitle: "Module 12",
+                moduleContent: "PowerBI",
+                moduleList: [
+                  "Introduction to Power BI",
+                  "Data Transformation and Modeling",
+                  "Data Visualization",
+                  "Dashboards and Reports",
+                  "Advanced Analytics",
+                  "Sharing and Collaboration",
+                ],
+              },
+
+              // {
+              //   moduleTitle: "BONUS",
+              //   moduleContent: "PowerBI",
+              //   moduleList: [
+              //     "Introduction to Power BI",
+              //     "Data Transformation and Modeling",
+              //     "Data Visualization",
+              //     "Dashboards and Reports",
+              //     "Advanced Analytics",
+              //     "Sharing and Collaboration",
+
+              //   ],
+              // },
+            ],
+          },
+
+          {
+            term: "Term 4",
+            duration: "4 months",
+            title: "AI Tools",
+            modules: [
+              {
+                moduleTitle: "Module 13",
+                moduleContent: "Deep Learning ",
+                moduleList: [
+                  "Introduction to Deep Learning",
+                  "Core Concepts",
+                  "Regulatory and Compliance Considerations",
+                ],
+              },
+              {
+                moduleTitle: "Module 14",
+                moduleContent: "Deep Learning",
+                moduleList: [
+                  "Core NLP Techniques",
+                  "Advanced NLP Models",
+                  "Marketing",
+                  "Healthcare",
+                ],
+              },
+
+              {
+                moduleTitle: "Module 15",
+                moduleContent: "Deployment ",
+                moduleList: [
+                  "Introduction to Cloud Deployment",
+                  "Core Concepts",
+                  "Deployment Strategies",
+                  "Practical Applications",
+                  "Security and Compliance",
+                  "Implementation Strategies",
+                  "Project Management",
+                ],
+              },
+              {
+                moduleTitle: "NLP and Gen AI",
+                moduleContent:
+                  "Project: Automated Document Summarization Using",
+                moduleList: ["Objective", "Technologies", "Outcome"],
+              },
+            ],
+          },
+
+          {
+            term: "BONUS",
+            duration: "4 months",
+            title: "Domain Specialization & Capstone Project",
+            modules: [
+              {
+                moduleTitle: "BONUS",
+                moduleContent: "Domain Specialization + Capstone project ",
+                moduleList: [
+                  "Industry-Specific Technologies and Innovations",
+                  "Leadership and Change Management",
+                  "Regulatory and Compliance Considerations",
+                ],
+              },
+              {
+                moduleTitle: "BONUS",
+                moduleContent:
+                  "Choose any 2 Capstone Projects from the following:",
+                moduleList: [
+                  "Retail",
+                  "HR (Human Resources)",
+                  "Marketing",
+                  "Healthcare",
+                ],
+              },
+            ],
+          },
+        ],
+      },
+
+      // {
+      //   id: "1",
+      //   trackIcon:
+      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_two.webp",
+      //   width: 100,
+      //   height: 100,
+      //   title: "Term 2",
+      //   description: "Introduction to data science for Managers",
+      //   duration: "1.5 Months",
+      //   contentModule: "Module",
+      //   contentDescription: "Introduction to data science for Managers",
+      //   contentDetails: [
+      //     "What is Data Science, Data Analytics, Machine Learning, Artificial Intelligence?",
+      //     "Role of Data in Various Industries and Businesses",
+      //   ],
+      //   popuplist: [
+      //     {
+      //       title: "Popup Item 1",
+      //       modules: [
+      //         {
+      //           moduleTitle: "Module 1",
+      //           moduleContent: "Introduction to data science for Managers",
+      //           moduleList: [
+      //             "Sub-detail 1",
+      //             "Sub-detail 2",
+      //             "Sub-detail 3",
+      //             "Sub-detail 4",
+      //           ],
+      //         },
+      //         {
+      //           moduleTitle: "Module 2",
+      //           moduleContent: "Content for Module 2",
+      //           moduleList: ["Sub-detail A", "Sub-detail B"],
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       title: "Popup Item 2",
+      //       modules: [
+      //         {
+      //           moduleTitle: "Module 3",
+      //           moduleContent: "Content for Module 3",
+      //           moduleList: ["Sub-detail C", "Sub-detail D"],
+      //         },
+      //         {
+      //           moduleTitle: "Module 4",
+      //           moduleContent: "Content for Module 4",
+      //           moduleList: ["Sub-detail E", "Sub-detail F"],
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       title: "Popup Item 2",
+      //       modules: [
+      //         {
+      //           moduleTitle: "Module 3",
+      //           moduleContent: "Content for Module 3",
+      //           moduleList: ["Sub-detail C", "Sub-detail D"],
+      //         },
+      //         {
+      //           moduleTitle: "Module 4",
+      //           moduleContent: "Content for Module 4",
+      //           moduleList: ["Sub-detail E", "Sub-detail F"],
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       title: "Popup Item 2",
+      //       modules: [
+      //         {
+      //           moduleTitle: "Module 3",
+      //           moduleContent: "Content for Module 3",
+      //           moduleList: ["Sub-detail C", "Sub-detail D"],
+      //         },
+      //         {
+      //           moduleTitle: "Module 4",
+      //           moduleContent: "Content for Module 4",
+      //           moduleList: ["Sub-detail E", "Sub-detail F"],
+      //         },
+      //       ],
+      //     },
+      //   ],
+      // },
+      // {
+      //   id: "2",
+      //   trackIcon:
+      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_two.webp",
+      //   width: 100,
+      //   height: 100,
+      //   title: "Term 3",
+      //   description: "Introduction to data science for Managers",
+      //   duration: "1.5 Months",
+      //   contentModule: "Module",
+      //   contentDescription: "Introduction to data science for Managers",
+      //   contentDetails: [
+      //     "What is Data Science, Data Analytics, Machine Learning, Artificial Intelligence?",
+      //     "Role of Data in Various Industries and Businesses",
+      //   ],
+      //   popuplist: [
+      //     {
+      //       title: "Popup Item 1",
+      //       modules: [
+      //         {
+      //           moduleTitle: "Module 1",
+      //           moduleContent: "Introduction to data science for Managers",
+      //           moduleList: [
+      //             "Sub-detail 1",
+      //             "Sub-detail 2",
+      //             "Sub-detail 3",
+      //             "Sub-detail 4",
+      //           ],
+      //         },
+      //         {
+      //           moduleTitle: "Module 2",
+      //           moduleContent: "Content for Module 2",
+      //           moduleList: ["Sub-detail A", "Sub-detail B"],
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       title: "Popup Item 2",
+      //       modules: [
+      //         {
+      //           moduleTitle: "Module 3",
+      //           moduleContent: "Content for Module 3",
+      //           moduleList: ["Sub-detail C", "Sub-detail D"],
+      //         },
+      //         {
+      //           moduleTitle: "Module 4",
+      //           moduleContent: "Content for Module 4",
+      //           moduleList: ["Sub-detail E", "Sub-detail F"],
+      //         },
+      //       ],
+      //     },
+      //   ],
+      // },
+      // {
+      //   id: "3",
+      //   trackIcon:
+      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_two.webp",
+      //   width: 100,
+      //   height: 100,
+      //   title: "Term 4",
+      //   description: "Introduction to data science for Managers",
+      //   duration: "1.5 Months",
+      //   contentModule: "Module",
+      //   contentDescription: "Introduction to data science for Managers",
+      //   contentDetails: [
+      //     "What is Data Science, Data Analytics, Machine Learning, Artificial Intelligence?",
+      //     "Role of Data in Various Industries and Businesses",
+      //   ],
+      //   popuplist: [
+      //     {
+      //       title: "Popup Item 1",
+      //       modules: [
+      //         {
+      //           moduleTitle: "Module 1",
+      //           moduleContent: "Introduction to data science for Managers",
+      //           moduleList: [
+      //             "Sub-detail 1",
+      //             "Sub-detail 2",
+      //             "Sub-detail 3",
+      //             "Sub-detail 4",
+      //           ],
+      //         },
+      //         {
+      //           moduleTitle: "Module 2",
+      //           moduleContent: "Content for Module 2",
+      //           moduleList: ["Sub-detail A", "Sub-detail B"],
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       title: "Popup Item 2",
+      //       modules: [
+      //         {
+      //           moduleTitle: "Module 3",
+      //           moduleContent: "Content for Module 3",
+      //           moduleList: ["Sub-detail C", "Sub-detail D"],
+      //         },
+      //         {
+      //           moduleTitle: "Module 4",
+      //           moduleContent: "Content for Module 4",
+      //           moduleList: ["Sub-detail E", "Sub-detail F"],
+      //         },
+      //       ],
+      //     },
+      //   ],
+      // },
+
+      // {
+      //   id: "1",
+      //   "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_two.webp",
+      //   "width": 100,
+      //   "height": 100,
+      //   "title": "two Title",
+      //   "description": "Section Description",
+      //   "duration": "1.5 Months",
+      //   "contentModule": "Module",
+      //   "contentDescription": "Description",
+      //   "contentDetails": ["Detail 1", "Detail 2"],
+      //   "popuplist": ["Popup Item 1", "Popup Item 2", "Popup Item 3"],
+      //   "popupModules": [
+      //     {
+      //       "moduleTitle": "Module 1",
+      //       "moduleContent": "Content for Module 1",
+      //       "moduleList": ["Sub-detail 1", "Sub-detail 2", "Sub-detail 3", "Sub-detail 4"]
+      //     },
+      //     {
+      //       "moduleTitle": "Module 2",
+      //       "moduleContent": "Content for Module 2",
+      //       "moduleList": ["Sub-detail A", "Sub-detail B"]
+      //     },
+      //     {
+      //       "moduleTitle": "Module 3",
+      //       "moduleContent": "Content for Module 2",
+      //       "moduleList": ["Sub-detail A", "Sub-detail B"]
+      //     },    {
+      //       "moduleTitle": "Module 4",
+      //       "moduleContent": "Content for Module 2",
+      //       "moduleList": ["Sub-detail A", "Sub-detail B"]
+      //     }
+      //   ]
+      // },
+
+      // {
+      //   id: "2",
+      //   "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_two.webp",
+      //   "width": 100,
+      //   "height": 100,
+      //   "title": "third Title",
+      //   "description": "Section Description",
+      //   "duration": "1.5 Months",
+      //   "contentModule": "Module",
+      //   "contentDescription": "Description",
+      //   "contentDetails": ["Detail 1", "Detail 2"],
+      //   "popuplist": ["Popup Item 1", "Popup Item 2"],
+      //   "popupModules": [
+      //     {
+      //       "moduleTitle": "Module 1",
+      //       "moduleContent": "Content for Module 1",
+      //       "moduleList": ["Sub-detail 1", "Sub-detail 2", "Sub-detail 3", "Sub-detail 4"]
+      //     },
+      //     {
+      //       "moduleTitle": "Module 2",
+      //       "moduleContent": "Content for Module 2",
+      //       "moduleList": ["Sub-detail A", "Sub-detail B"]
+      //     },
+      //     {
+      //       "moduleTitle": "Module 3",
+      //       "moduleContent": "Content for Module 2",
+      //       "moduleList": ["Sub-detail A", "Sub-detail B"]
+      //     },    {
+      //       "moduleTitle": "Module 4",
+      //       "moduleContent": "Content for Module 2",
+      //       "moduleList": ["Sub-detail A", "Sub-detail B"]
+      //     }
+      //   ]
+      // },
+
+      // {
+      //   id: "3",
+      //   "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_two.webp",
+      //   "width": 100,
+      //   "height": 100,
+      //   "title": "Section Title",
+      //   "description": "Section Description",
+      //   "duration": "1.5 Months",
+      //   "contentModule": "Module",
+      //   "contentDescription": "Description",
+      //   "contentDetails": ["Detail 1", "Detail 2"],
+      //   "popuplist": ["Popup Item 1", "Popup Item 2"],
+      //   "popupModules": [
+      //     {
+      //       "moduleTitle": "Module 1",
+      //       "moduleContent": "Content for Module 1",
+      //       "moduleList": ["Sub-detail 1", "Sub-detail 2", "Sub-detail 3", "Sub-detail 4"]
+      //     },
+      //     {
+      //       "moduleTitle": "Module 2",
+      //       "moduleContent": "Content for Module 2",
+      //       "moduleList": ["Sub-detail A", "Sub-detail B"]
+      //     },
+      //     {
+      //       "moduleTitle": "Module 3",
+      //       "moduleContent": "Content for Module 2",
+      //       "moduleList": ["Sub-detail A", "Sub-detail B"]
+      //     },    {
+      //       "moduleTitle": "Module 4",
+      //       "moduleContent": "Content for Module 2",
+      //       "moduleList": ["Sub-detail A", "Sub-detail B"]
+      //     }
+      //   ]
+      // },
+
+      // {
+      //   id: "1",
+      //   title: "Term 2",
+      //   trackIcon:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_two.webp",
+      //   width:"50",
+      //   height:"60",
+      //   description: "Advanced Data Science Techniques",
+      //   duration: "2 months",
+      //   contentModule: "Module 2",
+      //   contentTitle: "Advanced Data Science Techniques",
+      //   contentDescription: "Deep Learning and Neural Networks",
+      //   contentDetails: [
+      //     "Introduction to Neural Networks",
+      //     "Deep Learning Architectures",
+      //   ],
+      //   popupContent: "Introduction to Data science for managers",
+      //   popupModule: "Module 2",
+      //   popuplist: [
+      //     "Introduction to Neural Networks",
+      //     "Deep Learning Architectures",
+      //     "Data Science Project Management",
+      //   ],
+      // },
+      // {
+      //   id: "2",
+      //   title: "Term 3",
+      //   trackIcon:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_three.webp",
+      //   width:"50",
+      //   height:"50",
+      //   description: "Data Science in Practice",
+      //   duration: "2.5 months",
+      //   contentModule: "Module 3",
+      //   contentTitle: "Data Science in Practice",
+      //   contentDescription: "Practical Applications of Data Science",
+      //   contentDetails: [
+      //     "Real-world Case Studies",
+      //     "Data Science Project Management",
+      //   ],
+      //   popupContent:
+      //     "This module focuses on applying data science techniques to real-world problems...",
+      //   popupModule: "Module 3",
+      //   popuplist: [
+      //     "Real-world Case Studies",
+      //     "Data Science Project Management",
+      //   ],
+      // },
+      // {
+      //   id: "3",
+      //   title: "Term 4",
+      //   trackIcon:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_four.webp",
+      //   width:"50",
+      //   height:"50",
+      //   description: "Leadership in Data Science",
+      //   duration: "1 month",
+      //   contentModule: "Module 4",
+      //   contentTitle: "Leadership in Data Science",
+      //   contentDescription: "Leading Data Science Teams",
+      //   contentDetails: [
+      //     "Team Management Strategies",
+      //     "Building Data-Driven Cultures",
+      //   ],
+      //   popupContent:
+      //     "This module prepares you for leading data science teams effectively...",
+      //   popupModule: "Module 4",
+      //   popuplist: [
+      //     "Team Management Strategies",
+      //     "Building Data-Driven Cultures",
+      //   ],
+      // },
+    ],
     secondSection: [
       {
         id: 1,

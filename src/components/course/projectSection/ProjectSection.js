@@ -103,15 +103,62 @@ const ProjectSection = ({
           ))}
         </Swiper>
       </div>
-      <div className={styles.botDiv}>
-        <Image
-          src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/practical_Project.webp"
-          alt="practical"
-          width={900}
-          height={200}
-          loading="lazy"
-        />
-        <h4 className={styles.h4Bot}>Practical Project Experience</h4>
+      <div className={styles.MainDown}>
+      <div className={styles.boxDiv}>
+
+      <div className={styles.downDiv}>
+          <h6>Gain Practical Experience with Real-World Projects</h6>
+
+          <div className={styles.ryticons}>
+            <div className={styles.imgesIconDiv}>
+              <Image
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_project.webp"
+                width={30}
+                height={30}
+                alt="icon"
+                loading="lazy"
+              />
+              <span>Practical Skills</span>
+            </div>
+
+            <div className={styles.imgesIconDiv}>
+              <Image
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_project_two.webp"
+                width={30}
+                height={30}
+                alt="icon"
+                loading="lazy"
+              />
+              <span>Project Life Cycle</span>
+            </div>
+
+            <div className={styles.imgesIconDiv}>
+              <Image
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_project_three.webp"
+                width={30}
+                height={30}
+                alt="icon"
+                loading="lazy"
+              />
+              <span>Lead a Team</span>
+            </div>
+
+            <div className={styles.imgesIconDiv}>
+              <Image
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_Project_four.webp"
+                width={30}
+                height={30}
+                alt="icon"
+                loading="lazy"
+              />
+              <span>Industry Knowledge</span>
+            </div>
+          </div>
+        </div>
+
+        <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/lineCross+(1).webp" width={120} height={150} loading="lazy" alt="data science" className={styles.imgside}/>
+      </div>
+
         <p className={styles.pBot}>
           <span className={styles.spanOrange}>Important Note:</span> The final
           number of quizzes, assignments and discussions will be confirmed
@@ -121,23 +168,7 @@ const ProjectSection = ({
           </span>
         </p>
       </div>
-      <div className={styles.botDivMobile}>
-        <Image
-          src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/practical_bot_mobile.webp"
-          alt="practical"
-          width={555}
-          height={313}
-          loading="lazy"
-        />
-        <p className={styles.pBot}>
-          <span className={styles.spanOrange}>Important Note:</span> The final
-          number of quizzes, assignments and discussions will be confirmed
-          closer to the programme start. To know more{" "}
-          <span className={styles.blueSpan} onClick={popupShow}>
-            check eligibility
-          </span>
-        </p>
-      </div>
+     
     </section>
   );
 };

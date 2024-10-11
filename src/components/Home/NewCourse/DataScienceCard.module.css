@@ -192,10 +192,10 @@
 
   @media screen and (max-width:1181px) {
     .maindiv {
-        max-width: 350px;
+        max-width: 250px;
     }
     .cardTitle {
-        font-size: 20px;
+        font-size: 16px;
     }
 .brochurebtn {
     font-size: 18px;
@@ -204,6 +204,15 @@
 .viewDetailsButton{
     font-size: 18px;
     padding: 10px 16px;
+}
+.lists span {
+  font-size: 12px;
+}
+.brochurebtn {
+  font-size: 12px;
+}
+.viewDetailsButton {
+  font-size: 12px;
 }
   }
 

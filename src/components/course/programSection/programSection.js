@@ -6,11 +6,13 @@ import { useState } from "react";
 
 function ProgramSection({
   ProggramSectionData,
-  designOverrides,  // Dynamic design (custom classes or styles)
-  formProps,        // Props for the form component
-  popupProps,       // Props for the popup component
-  popupTitle,       // Popup title
-  rightImg,         // Right side image for this section
+  designOverrides, // Dynamic design (custom classes or styles)
+  formProps, // Props for the form component
+  popupProps, // Props for the popup component
+  popupTitle, // Popup title
+  rightImg,
+  BoldText,
+  nonBold, // Right side image for this section
 }) {
   const [popups, setPopups] = useState(false);
   const popupShow = () => setPopups(true);
@@ -28,7 +30,10 @@ function ProgramSection({
         {...popupProps}
       >
         <div className="leftPopup">
-          <div className="whiteP" style={{ width: "340px", height: "400px" }}></div>
+          <div
+            className="whiteP"
+            style={{ width: "340px", height: "400px" }}
+          ></div>
         </div>
         <div className="RightPopup">
           <h5>{popupTitle || "Apply For Counselling"}</h5>
@@ -39,23 +44,35 @@ function ProgramSection({
       <div className="containerWidth">
         <div className={styles.innerDiv}>
           <h2>
-            Who is this <span className={styles.topSpan}>program for?</span>
+            Who is this program for?
+            <hr className={styles.hrline} />
           </h2>
-
+          <p className={styles.pHead}>
+            Work on projects based on real-world scenarios
+          </p>
           <div className={styles.twoSection}>
             {ProggramSectionData.map((section, index) => {
               const { content, rightImg, popupTitle, formProps } = section;
 
               return (
                 <div key={index} className={styles.firstSection}>
-                  <h3>
-                    {content?.mid || "Default Mid"}{" "}
-                    <span className={styles.lightGray}>{content?.to || "Default To"}</span>{" "}
-                    {content?.senior || "Default Senior"}{" "}
-                    <span className={styles.lightGray}>Level Professionals with</span>{" "}
-                    <span className={styles.orangeHead}>{content?.yearExp}</span>
+                  <h3 className={styles.H3}>
+                    <span className={styles.blackSpan}>{content.BoldText}</span>{" "}
+                    {content.nonBold}{" "}
+                    <span className={styles.colors}>{content.yearExp}</span>
                   </h3>
-                  <p className={styles.pTop}>{content?.description}</p>
+                  <p className={styles.pTop}>
+                    {content.description
+                      .split("not mandatory")
+                      .map((segment, index, array) => (
+                        <span key={index}>
+                          {segment}
+                          {index < array.length - 1 && (
+                            <span className={styles.green}>not mandatory</span>
+                          )}
+                        </span>
+                      ))}
+                  </p>
 
                   <div className={styles.innerBoxDiv}>
                     {content?.points?.map((point, index) => (
@@ -74,7 +91,8 @@ function ProgramSection({
                   </div>
 
                   <p className={styles.pBot}>
-                    <span className={styles.orangeSpan}>Important Note:</span> {content?.importantNote}{" "}
+                    <span className={styles.orangeSpan}>Important Note:</span>{" "}
+                    {content.importantNote}{" "}
                     <span className={styles.blueSpan} onClick={popupShow}>
                       check eligibility
                     </span>
@@ -85,7 +103,7 @@ function ProgramSection({
 
             <div className={styles.secondSection}>
               <Image
-                src={rightImg}
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ryt_programImg+(2).webp"
                 alt="Learnbay"
                 quality={100}
                 priority

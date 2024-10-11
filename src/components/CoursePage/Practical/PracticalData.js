@@ -9,26 +9,33 @@ export const practicalData = {
     ],
     boxes: [
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Practical_ones.webp",
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/one_Practials.webp",
         imgAlt: "Practical",
         title: "Work with real data",
-        description: "Leverage your skills with advanced datasets and industry-relevant scenarios in finance, healthcare, and e-commerce."
+        description: "Leverage your skills with advanced datasets and industry-relevant scenarios in finance, healthcare, and e-commerce.",
+        width:"80",
+        height:"80",
       },
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/practical_threes.webp",
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/two%2Bpractiacals.webp",
         imgAlt: "Practical",
         title: "Learn from top 1% experts",
-        description: "Learn directly from the top 1% experts for unmatched expertise and guidance."
+        description: "Learn directly from the top 1% experts for unmatched expertise and guidance.",
+        width:"80",
+        height:"80",
+        
       },
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Practical_twos.webp",
+        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/three_practicals.webp",
         imgAlt: "Practical",
         title: "World-Class Certification",
-        description: "Upon successful project completion, earn an IBM-endorsed certification recognized across industries."
+        description: "Upon successful project completion, earn an IBM-endorsed certification recognized across industries.",
+        width:"80",
+        height:"80",
       }
     ],
     svgRight: (
-        <svg height="20" width="42" fill="none" viewBox="0 0 42 28" xmlns="http://www.w3.org/2000/svg">
+        <svg height="20" width="40" fill="none" viewBox="0 0 40 22" xmlns="http://www.w3.org/2000/svg">
         <mask height="28" id="mask0_2250_2342" style={{"maskType":"alpha"}} width="42" x="0" y="0" maskUnits="userSpaceOnUse">
             <rect height="28" width="42" fill="url(#pattern0_2250_2342)"/>
         </mask>

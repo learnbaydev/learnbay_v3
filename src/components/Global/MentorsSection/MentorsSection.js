@@ -43,7 +43,7 @@ function MentorsSection() {
 
   return (
     <section className={styles.container}>
-      <h4>Meet Our Mentors</h4>
+      <h4>Meet Our <span className={styles.spans}>Mentors <hr className={styles.hrLine}/></span></h4>
       <p>Guiding You Every Step of the Way Towards Professional Excellence</p>
       <div className={styles.SliderDiv}>
         <Swiper
@@ -60,7 +60,7 @@ function MentorsSection() {
           {mentorImg.map((mentor, index) => (
             <SwiperSlide key={`mentor-${index}`} className={styles.slide}>
               <div className={styles.box}>
-                <div>
+                <div className={styles.mentorImg}>
                   <Image
                     src={mentor}
                     width={100}

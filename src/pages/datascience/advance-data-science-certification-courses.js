@@ -72,6 +72,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         {/* <Navbar dataScienceCounselling={true} interstedInHide={true} /> */}
       
         <FirstPart
+        summaryData={            DataScienceCourseData.DataScienceCourseData[0].summarySection}
            ProggramSectionData={
             DataScienceCourseData.DataScienceCourseData[0].ProggramSection
            }

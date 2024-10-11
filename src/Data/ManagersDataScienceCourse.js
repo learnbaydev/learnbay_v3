@@ -1,23 +1,58 @@
 export const DataScienceCourseData = [
   {
 
+   
+    summarySection: [
+
+      {
+        id: 1,
+        title: "Domain Electives",
+        description: "Work on Live projects from multiple domains like Retail, BFSI, Pharma etc.",
+        imageSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/work_experience_1+(1).webp",
+        imageAlt: "DomainElectives",
+      },
+      {
+        id: 2,
+        title: "Real Project Experience",
+        description: "Gain experience of managing analytics project from scratch.",
+        imageSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/experiences_2+(1).webp",
+        imageAlt: "RealProjectExperience",
+      },
+      {
+        id: 3,
+        title: "Certification",
+        description: "Get certified from renowned industries.",
+        imageSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/business_concept_1+(1).webp",
+        imageAlt: "Certification",
+        extraImageSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_MICROS.webp",
+        extraImageAlt: "IBMLOGO",
+      },
+      {
+        id: 4,
+        title: "Placement Assistance",
+        description: "Receive personalized placement assistance from our dedicated team.",
+        imageSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/research_1+(1).webp",
+        imageAlt: "PlacementAssistance",
+      },
+    ],
     ProggramSection: [
       {
         content: {
-          mid: "Early to Mid",
+      BoldText:"Early to Mid",
+          nonBold:"Level Professionals with min",
           to: "",
           senior: "",
-          yearExp: "3+ years",
+          yearExp: "1+ Year of Experience",
           description:
-            "This program is perfect for Marketing/ Sales Associate, HR Assistant, Entry-Level Financial Analyst, Project Coordinator, Customer Service Representative, QA Tester, Web Developer.",
-          importantNote: "This program is highly selective.",
+            "Professionals with a minimum of 1 year of experience in any domain. Prior knowledge of Programming is not mandatory as we provide special bootcamp for non programmers with this course.",
+          importantNote: "This program is not for fresh graduates. You must have at least 1 year of work experience. To know more check eligibility",
           points: [
             {
-              title: "Expert Instructors",
+              title: "Data Analyst",
               icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_Datas.webp",
             },
             {
-              title: "Industry Projects",
+              title: "Non-Techies",
               icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/icon_ytwos.webp",
             },
           ],

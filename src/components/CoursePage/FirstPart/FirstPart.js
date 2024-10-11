@@ -12,7 +12,7 @@ import OutcomeSection from "@/components/course/outcomeSection/outcomeSection";
 import WhyChooseNew from "@/components/course/whyChoose/WhyChooseNew";
 
 import Practical from "../Practical/Practical";
-const FirstPart = ({ProggramSectionData}) => {
+const FirstPart = ({ProggramSectionData, summaryData}) => {
  
   const pdfUrl = "/Brochure/Advanced-Data-Science.pdf";
   return (
@@ -55,10 +55,12 @@ spanTag="Project-based learning"
      
   showRightForm={true}
      />
-      <PSummaryAD />
+      <PSummaryAD  summaryData={summaryData}/>
       <Practical />
       <ProgramSection
         ProggramSectionData={ProggramSectionData}
+
+
         yearExp="1+ Years of Experience"
         PointOne="Data Analyst "
         pointTwo="Non-Techies"

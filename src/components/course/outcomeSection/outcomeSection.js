@@ -65,8 +65,11 @@ const OutcomeSection = () => {
       <div className={styles.innerDiv}>
         <h2>
           Program Outcome:
-          <span className={styles.borderBot}> What’s in it for you?</span>
+          <span className={styles.borderBot}> What’s in it for you? <hr className={styles.hrline}/></span>
+    
         </h2>
+
+        <p className={styles.pHead}>Work on projects based on real-world scenarios</p>
         <div className={styles.innerBoxDiv}>
           {outcomeData.map((item, index) => {
             const backgroundClass =

@@ -270,9 +270,9 @@ const UpskillingSection = () => {
                 height="165"
                 id="mask1_1668_3"
                 style={{ maskType: "alpha" }}
-                width="133"
+                width="203"
                 x="15"
-                y="400"
+                y="390"
                 maskUnits="userSpaceOnUse"
               >
                 <rect
@@ -323,7 +323,7 @@ const UpskillingSection = () => {
                   strokeWidth="16"
                   transform="matrix(-1 0 0 1 299.195 25.1111)"
                   x="-8"
-                  y="8"
+                  y="9"
                 />
               </g>
               <g mask="url(#mask2_1668_3)">

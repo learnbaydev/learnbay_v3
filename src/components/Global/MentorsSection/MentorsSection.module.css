@@ -2,6 +2,9 @@
   margin: 100px 100px 0px;
   text-align: center;
 }
+.container h4 {
+  font-weight: 400;
+}
 .SliderDiv {
   display: flex;
   grid-template-columns: 24% 24% 24% 24%;
@@ -11,14 +14,31 @@
   display: grid;
   grid-template-columns: 39% 53%;
   gap: 20px;
-  border-radius: 1.361px;
+  border-radius: 20px;
   background: #fff;
   box-shadow: 0px 0px 1.81464px 0px rgba(0, 0, 0, 0.25);
   padding: 10px;
-  border-bottom: 10px solid rgba(249, 150, 0, 0.06);
+  /* border-bottom: 10px solid rgba(249, 150, 0, 0.06); */
   text-align: left;
   align-items: center;
   margin: 40px 10px 40px 10px;
+
+}
+.mentorImg img {
+  border-radius: 20px;
+}
+
+.spans{
+  font-weight: 600;
+}
+.hrLine{
+  background: #FE7A36;
+  width: 140px;
+  height: 3px;
+  border: none;
+  border-radius: 20px;
+  position: relative;
+left:  50%;
 }
 
 .Name {
@@ -78,5 +98,8 @@
     font-weight: 700;
     margin: 0px;
     margin-bottom: 10px;
+  }
+  .hrLine{
+    width: 100%;
   }
 }

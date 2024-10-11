@@ -127,6 +127,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
       </Head>
       <main>
         <AIFirstPart
+            summaryData={DataScienceCourseData.AIMLDataScienceCourseData[0].summarySection}
          ProggramSectionData={
           DataScienceCourseData.AIMLDataScienceCourseData[0].ProggramSection
         }

@@ -3,8 +3,7 @@ import { parseJSONData } from "@/Util/JsonConvertor";
 import FirstPart from "@/components/CoursePage/FirstPart/DSAIMastersCertificationFirstPart";
 import SecondPart from "@/components/CoursePage/FirstPart/DSAIMastersCertificationSecondPart";
 import Navbar from "@/components/Global/Navbar/Navbar";
-import { MasterAI } from "@/Data/Schema/DataScienceAndAIMasterSchema"
-
+import { MasterAI } from "@/Data/Schema/DataScienceAndAIMasterSchema";
 
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
@@ -13,7 +12,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
     <>
       <Head>
         <title>
-        Best Data Science and AI Master Certification Program Online
+          Best Data Science and AI Master Certification Program Online
         </title>
         <meta
           name="description"
@@ -69,7 +68,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
           }}
         />
 
-<script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(MasterAI),
@@ -77,25 +76,22 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
       </Head>
       <main>
-        <Navbar dataScienceCounselling={true} interstedInHide={true} />
-      
         <FirstPart
-          SecondSectionData={
-            DataScienceCourseData.DataScienceCourseData[0].secondSection
+          summaryData={
+            DataScienceCourseData.DataScienceCourseData[0].summarySection
           }
-          TestimonialData={
-            DataScienceCourseData.DataScienceCourseData[0].testimonial
+          ProggramSectionData={
+            DataScienceCourseData.DataScienceCourseData[0].ProggramSection
           }
+        
         />
       </main>
       <main>
         <SecondPart
-          masterSyllabusMobile={
-            DataScienceCourseData.DataScienceCourseData[0].masterSyllabusMobile
-          }
-          CertificateData={
-            DataScienceCourseData.DataScienceCourseData[0].Certificate
-          }
+         sections={DataScienceCourseData.DataScienceCourseData[0].sections}
+         certificateNew={
+           DataScienceCourseData.DataScienceCourseData[0].certificateNew
+         }
           projectSection={
             DataScienceCourseData.DataScienceCourseData[0].projectSection
           }

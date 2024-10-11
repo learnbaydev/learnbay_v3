@@ -398,26 +398,33 @@ line-height: 155%; /* 34.1px */
 
 @media screen and (max-width: 1181px) {
   .CourseCardHead {
-    grid-template-columns: 28% 28% 28%;
+    /* grid-template-columns: 28% 28% 28%; */
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+
   }
 
   .courseCard {
-    width: 350px;
+    width: 250px;
   }
 
   .cardContent h3 {
-    font-size: 22px;
+    font-size: 16px;
   }
   .lists span {
-    font-size: 14px;
+    font-size: 12px;
   }
   .viewDetailsButton {
     font-size: 12px;
-    padding: 10px 25px;
+    padding: 10px 16px;
   }
 
   .contentConteiner {
     top: 30px;
+  }
+  .brochurebtn {
+    font-size: 12px;
   }
 }
 

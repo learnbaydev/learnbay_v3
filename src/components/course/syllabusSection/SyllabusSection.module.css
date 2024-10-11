@@ -260,7 +260,7 @@
 .leftinside img {
   border-radius: 50%;
   border: 2px dashed #0072bc;
-  padding: 8px;
+  padding: 14px;
 }
 
 .popup {
@@ -424,7 +424,7 @@
 .buttondiv {
   display: flex;
   justify-content: center;
-  margin: 40px;
+  margin:60px;
   gap: 40px;
 }
 .btnone {
