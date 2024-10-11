@@ -278,4 +278,9 @@ font-weight: 600;
   .ContainerForm {
     display: none;
   }
+
+  .hrline {
+    left: 115px;
+    width: 114px;
+  }
 }

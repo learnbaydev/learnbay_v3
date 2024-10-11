@@ -1,10 +1,8 @@
-
 import HeroSection from "@/components/course/heroSection/HeroSection";
 import NavbarSection from "@/components/course/navbarSection/NavbarSection";
 
 import dynamic from "next/dynamic";
 import React from "react";
-
 
 import PSummaryAD from "../PSummary/PSummaryAD";
 import ProgramSection from "@/components/course/programSection/programSection";
@@ -12,8 +10,7 @@ import OutcomeSection from "@/components/course/outcomeSection/outcomeSection";
 import WhyChooseNew from "@/components/course/whyChoose/WhyChooseNew";
 
 import Practical from "../Practical/Practical";
-const FirstPart = ({ProggramSectionData, summaryData}) => {
- 
+const FirstPart = ({ ProggramSectionData, summaryData }) => {
   const pdfUrl = "/Brochure/Advanced-Data-Science.pdf";
   return (
     <>
@@ -28,7 +25,7 @@ const FirstPart = ({ProggramSectionData, summaryData}) => {
       />
       <HeroSection
         thumbnailurl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_YT.webp"
-spanTag="Project-based learning"
+        spanTag="Project-based learning"
         spanIcon="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp"
         isSpecialPage={true}
         isGuwahati={true}
@@ -52,15 +49,12 @@ spanTag="Project-based learning"
         BotWidth={70}
         BotHeight={56}
         backgroundGradient="radial-gradient(circle at 10% 10%, rgba(6, 59, 92, 0.9) 1%, transparent 30%), radial-gradient(circle at 90% 80%, rgba(254, 122, 54, 0.3) 1%, transparent 40%), #212121"
-     
-  showRightForm={true}
-     />
-      <PSummaryAD  summaryData={summaryData}/>
+        showRightForm={true}
+      />
+      <PSummaryAD summaryData={summaryData} />
       <Practical />
       <ProgramSection
         ProggramSectionData={ProggramSectionData}
-
-
         yearExp="1+ Years of Experience"
         PointOne="Data Analyst "
         pointTwo="Non-Techies"

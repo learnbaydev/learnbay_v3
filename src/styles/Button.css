@@ -280,8 +280,10 @@
   }
   .button,
   .grayButton {
-    font-size: 10px;
-    padding: 10px;
+    font-size: 14px;
+    padding: 8px;
+
+
   }
 }
 

@@ -144,7 +144,7 @@ const SyllabusSection = ({
               {Array.isArray(section.popuplist) &&
               section.popuplist.length > 0 ? (
                 <Swiper
-                  spaceBetween={40}
+                  spaceBetween={10}
                   slidesPerView={1} // Set default to 1 for mobile view
                   centeredSlides={true}
                   className={styles.swiper}

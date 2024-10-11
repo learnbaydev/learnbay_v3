@@ -2,8 +2,6 @@ import Head from "next/head";
 import { parseJSONData } from "@/Util/JsonConvertor";
 import FirstPart from "@/components/CoursePage/FirstPart/FirstPart";
 import SecondPart from "@/components/CoursePage/FirstPart/SecondPart";
-import Navbar from "@/components/Global/Navbar/Navbar";
-
 
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
@@ -12,7 +10,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
     <>
       <Head>
         <title>
-        Advanced Data Science Course & AI Program With Certification
+          Advanced Data Science Course & AI Program With Certification
         </title>
         <meta
           name="description"
@@ -70,23 +68,26 @@ function Blockchain({ DataScienceCourseDataJson }) {
       </Head>
       <main>
         {/* <Navbar dataScienceCounselling={true} interstedInHide={true} /> */}
-      
+
         <FirstPart
-        summaryData={            DataScienceCourseData.DataScienceCourseData[0].summarySection}
-           ProggramSectionData={
+          summaryData={
+            DataScienceCourseData.DataScienceCourseData[0].summarySection
+          }
+          ProggramSectionData={
             DataScienceCourseData.DataScienceCourseData[0].ProggramSection
-           }
+          }
         />
       </main>
       <main>
         <SecondPart
-         sections={DataScienceCourseData.DataScienceCourseData[0].sections}
- certificateNew={DataScienceCourseData.DataScienceCourseData[0].certificateNew}
+          sections={DataScienceCourseData.DataScienceCourseData[0].sections}
+          certificateNew={
+            DataScienceCourseData.DataScienceCourseData[0].certificateNew
+          }
           projectSection={
             DataScienceCourseData.DataScienceCourseData[0].projectSection
           }
           FAQNewData={DataScienceCourseData.DataScienceCourseData[0].faq}
-
         />
       </main>
     </>

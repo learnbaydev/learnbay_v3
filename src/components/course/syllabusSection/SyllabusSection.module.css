@@ -532,7 +532,7 @@
   font-size: 30px;
 }
 .leftinside img {
-  width: 40px;
+  width: 60px;
     height: auto;
 }
 .rytmain{
@@ -623,6 +623,7 @@ line-height: 126.5%; /* 18.975px */
     width: 200px;
     height: auto;
   }
+  
 
   
 }

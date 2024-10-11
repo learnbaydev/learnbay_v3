@@ -2,18 +2,15 @@ import Image from "next/image";
 import styles from "./programSection.module.css";
 import Popup from "../../Global/Popup/Popup";
 import Form from "../../Global/Form/Form";
-import { useState } from "react";
+import { useState, memo } from "react";
 
-function ProgramSection({
+const ProgramSection = memo(({
   ProggramSectionData,
-  designOverrides, // Dynamic design (custom classes or styles)
-  formProps, // Props for the form component
-  popupProps, // Props for the popup component
-  popupTitle, // Popup title
-  rightImg,
-  BoldText,
-  nonBold, // Right side image for this section
-}) {
+  designOverrides,
+  formProps,
+  popupProps,
+  popupTitle,
+}) => {
   const [popups, setPopups] = useState(false);
   const popupShow = () => setPopups(true);
 
@@ -30,10 +27,7 @@ function ProgramSection({
         {...popupProps}
       >
         <div className="leftPopup">
-          <div
-            className="whiteP"
-            style={{ width: "340px", height: "400px" }}
-          ></div>
+          <div className="whiteP" style={{ width: "340px", height: "400px" }}></div>
         </div>
         <div className="RightPopup">
           <h5>{popupTitle || "Apply For Counselling"}</h5>
@@ -52,14 +46,14 @@ function ProgramSection({
           </p>
           <div className={styles.twoSection}>
             {ProggramSectionData.map((section, index) => {
-              const { content, rightImg, popupTitle, formProps } = section;
+              const { content } = section;
 
               return (
                 <div key={index} className={styles.firstSection}>
                   <h3 className={styles.H3}>
-                    <span className={styles.blackSpan}>{content.BoldText}</span>{" "}
-                    {content.nonBold}{" "}
-                    <span className={styles.colors}>{content.yearExp}</span>
+                    <span className={styles.blackSpan}>{content.BoldText} </span>
+                    {content.nonBold} 
+                    <span className={styles.colors}> {content.yearExp}</span>
                   </h3>
                   <p className={styles.pTop}>
                     {content.description
@@ -77,22 +71,24 @@ function ProgramSection({
                   <div className={styles.innerBoxDiv}>
                     {content?.points?.map((point, index) => (
                       <div key={index} className={styles.innerBox}>
-                        <Image
+                     <div>   <Image
                           src={point.icon}
                           alt={point.title}
                           quality={100}
-                          priority
-                          width={40}
+                          layout="responsive" 
+                          width={40} 
                           height={40}
+                          loading="lazy" 
                         />
+                        </div>
                         <h3>{point.title}</h3>
                       </div>
                     ))}
                   </div>
 
                   <p className={styles.pBot}>
-                    <span className={styles.orangeSpan}>Important Note:</span>{" "}
-                    {content.importantNote}{" "}
+                    <span className={styles.orangeSpan}>Important Note:</span>
+                    {content.importantNote}
                     <span className={styles.blueSpan} onClick={popupShow}>
                       check eligibility
                     </span>
@@ -106,9 +102,10 @@ function ProgramSection({
                 src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ryt_programImg+(2).webp"
                 alt="Learnbay"
                 quality={100}
-                priority
-                width="611"
-                height="506"
+                layout="responsive"
+                width={611} // Maintain aspect ratio
+                height={506}
+                loading="lazy"
               />
             </div>
           </div>
@@ -116,6 +113,6 @@ function ProgramSection({
       </div>
     </section>
   );
-}
+});
 
 export default ProgramSection;
