@@ -17,10 +17,10 @@ function JobReadySection() {
             Unlock exclusive access to a wide range of job opportunities, with personalized support to enhance your interview readiness and optimize your professional profile.
             </p>
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/placement_support_icon.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Job_Bag+(1).webp"
               alt="Zest"
-              width="393"
-              height="346"
+              width={80}
+              height={70}
               loading="lazy"
               className={styles.img1}
             />
@@ -34,10 +34,10 @@ experience to excel in actual
 job interviews.
             </p>
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/mock_icon.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Person_Bag+(1).webp"
               alt="Zest"
-              width="393"
-              height="323"
+              width={80}
+              height={70}
               loading="lazy"
               className={styles.img2}
             />
@@ -49,10 +49,10 @@ job interviews.
 strengths and achievements.
             </p>
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/resume_icon.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/yellow_icon.webp"
               alt="Zest"
-              width="393"
-              height="346"
+              width={80}
+              height={70}
               loading="lazy"
               className={styles.img1}
             />
@@ -63,10 +63,10 @@ strengths and achievements.
             Maximise your chances of landing the perfect job with unlimited interview opportunities, backed by continuous support and feedback to refine your approach.
             </p>
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/calls_icon.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/lapTop_person+(1)+(1).webp"
               alt="Zest"
-              width="393"
-              height="346"
+              width={80}
+              height={70}
               loading="lazy"
               className={styles.img2}
             />

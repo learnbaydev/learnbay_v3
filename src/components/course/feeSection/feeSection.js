@@ -1,6 +1,6 @@
 import { useState } from "react";
 import PopupContent from "@/components/Global/PopupContent/PopupContent";
-import FeeContent from "./FeeContent";
+import FeeContent from "./feeContent";
 
 const FeeSection = ({
   Fee,

@@ -1,11 +1,14 @@
 import React, { useState, useRef, useEffect, memo } from "react";
 import styles from "./NewCourse.module.css";
 import Image from "next/image";
-import { courses, masterCourse } from "./NewCourseData"; // Import course and master data
+import { courses, masterCourse, SvgArrow } from "./NewCourseData"; // Import course and master data
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import { MdOutlineFileDownload } from "react-icons/md";
 import DataScienceCard from "./DataScienceCard";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.min.css"; // Import Swiper styles
+import { Navigation, Pagination } from "swiper"; // Import modules for Swiper
 
 const Popup = dynamic(() => import("@/components/Global/Popup/Popup"));
 const Form = dynamic(() => import("@/components/Global/Form/Form"));
@@ -19,7 +22,7 @@ const NewCourse = ({
   interstedInHide,
 }) => {
   const [activeTab, setActiveTab] = useState("all");
-  const [visibleCount, setVisibleCount] = useState(3);
+  const [visibleCount, setVisibleCount] = useState(6);
   const [isMobile, setIsMobile] = useState(false);
   const [popups, setPopups] = useState(false);
   const [titleCourse, setTitleCourse] = useState();
@@ -31,10 +34,10 @@ const NewCourse = ({
     const handleResize = () => {
       if (window.innerWidth <= 768) {
         setIsMobile(true);
-        setVisibleCount(0);
+        setVisibleCount(3);
       } else {
         setIsMobile(false);
-        setVisibleCount(0);
+        setVisibleCount(3);
       }
     };
 
@@ -43,109 +46,234 @@ const NewCourse = ({
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const svgFile = (isActive)=> {
-
-    <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="10"
-    height="12"
-    viewBox="0 0 12 20"
-    fill="none"
-    className={isActive ? styles.svgActive : styles.svgIcon}
-  >
-    <path
-      d="M10.884 10.8839C11.3721 10.3957 11.3721 9.60427 10.884 9.11612L2.92903 1.16117C2.44088 0.67301 1.64942 0.67301 1.16127 1.16117C0.67311 1.64932 0.67311 2.44078 1.16127 2.92893L8.23233 10L1.16127 17.0711C0.67311 17.5592 0.67311 18.3507 1.16127 18.8388C1.64942 19.327 2.44088 19.327 2.92903 18.8388L10.884 10.8839ZM10 11.25H10.0001V8.75H10V11.25Z"
-fill="black"
-    />
-  </svg>
-  } 
-  
-  
   const renderCourses = () => {
     const selectedCourses = courses[activeTab];
     const visibleCourses = selectedCourses.slice(0, visibleCount);
 
     return (
       <>
-        {visibleCourses.map((course, index) => (
-          <div className={styles.courseCard} key={index}>
-         
-            <Image
-              src={course.image}
-              width={360}
-              height={120}
-              alt={course.title}
-              loading="lazy"
-              className={styles.mainImage}
-            />
-            <div className={styles.cardContent}>
-              <h3>{course.title}</h3>
-              <div className={styles.lists}>
-                <div className={styles.listicondiv}>
+        {isMobile ? (
+          <Swiper
+            modules={[Navigation, Pagination]}
+            spaceBetween={16}
+            slidesPerView={1}
+            pagination={{ clickable: true }}
+            className={styles.swiperContainer}
+          >
+            {visibleCourses.map((course, index) => (
+              <SwiperSlide key={course.title}>
+                <div className={styles.courseCard} key={index}>
                   <Image
-                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cer_icons.webp"
-                    width={25}
-                    height={25}
-                    alt="certificate_icon"
+                    src={course.image}
+                    width={360}
+                    height={120}
+                    alt={course.title}
                     loading="lazy"
+                    className={styles.mainImage}
                   />
-                  <span>{course.duration}</span>
-                </div>
-                <div className={styles.listicondiv}>
-                  <Image
-                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Date_icons.webp"
-                    width={25}
-                    height={25}
-                    alt="certificate_icon"
-                    loading="lazy"
-                  />
-                  <span>{course.certification}</span>
-                </div>
-                <div className={styles.listicondiv}>
-                  <Image
-                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Save_icons.webp"
-                    width={25}
-                    height={25}
-                    alt="certificate_icon"
-                    loading="lazy"
-                  />
-                  <span>{course.description}</span>
-                </div>
-              </div>
-              <div className={styles.buttons}>
-                <button
-                  className={styles.brochurebtn}
-                  onClick={() => {
-                    setTitleCourse(course.titleCourse);
-                    setBrochureLinks(course.brochureLinks);
-                    setBrochurePdfs(course.brochurePdfs);
-                    setPopups(true);
-                  }}
-                >
-                  Brochure <MdOutlineFileDownload />
-                </button>
+                  <div className={styles.cardContent}>
+                    <h3>{course.title}</h3>
+                    <div className={styles.lists}>
+                      <div className={styles.listicondiv}>
+                        <Image
+                          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cer_icons.webp"
+                          width={25}
+                          height={25}
+                          alt="certificate_icon"
+                          loading="lazy"
+                        />
+                        <span>{course.duration}</span>
+                      </div>
+                      <div className={styles.listicondiv}>
+                        <Image
+                          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Date_icons.webp"
+                          width={25}
+                          height={25}
+                          alt="certificate_icon"
+                          loading="lazy"
+                        />
+                        <span>{course.certification}</span>
+                      </div>
+                      <div className={styles.listicondiv}>
+                        <Image
+                          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Save_icons.webp"
+                          width={25}
+                          height={25}
+                          alt="certificate_icon"
+                          loading="lazy"
+                        />
+                        <span>{course.description}</span>
+                      </div>
+                    </div>
+                    <div className={styles.buttons}>
+                      <button
+                        className={styles.brochurebtn}
+                        onClick={() => {
+                          setTitleCourse(course.titleCourse);
+                          setBrochureLinks(course.brochureLinks);
+                          setBrochurePdfs(course.brochurePdfs);
+                          setPopups(true);
+                        }}
+                      >
+                        Brochure <MdOutlineFileDownload />
+                      </button>
 
-                {course.link ? (
-                  <Link href={course.link} passHref>
-                    <button className={styles.viewDetailsButton}>
-                      View Details
+                      {course.link ? (
+                        <Link href={course.link} passHref>
+                          <button className={styles.viewDetailsButton}>
+                            View Details
+                          </button>
+                        </Link>
+                      ) : (
+                        <button disabled className={styles.viewDetailsButton}>
+                          No Details Available
+                        </button>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        ) : (
+          <>
+            {visibleCourses.map((course, index) => (
+              <div className={styles.courseCard} key={index}>
+                <Popup
+                  trigger={popups}
+                  setTrigger={setPopups}
+                  className="popupModal"
+                  downloadBrochure
+                >
+                  <div className="leftPopup">
+                    <div
+                      className="whiteP"
+                      style={{ width: "340px", height: "400px" }}
+                    ></div>
+                  </div>
+                  <div className="RightPopup">
+                    <h5>Download Syllabus</h5>
+                    <Form
+                      titleCourse={titleCourse}
+                      brochureLink={brochureLinks}
+                      brochurePdf={brochurePdfs}
+                      dataScience={dataScience}
+                      dataScienceCounselling={dataScienceCounselling}
+                      dataScienceGeneric={dataScienceGeneric}
+                      radio={radio}
+                      downloadBrochure
+                      upSkillingHide={true}
+                      interstedInHide={interstedInHide}
+                    />
+                  </div>
+                </Popup>
+
+                <Image
+                  src={course.image}
+                  width={360}
+                  height={120}
+                  alt={course.title}
+                  loading="lazy"
+                  className={styles.mainImage}
+                />
+                <div className={styles.cardContent}>
+                  <h3>{course.title}</h3>
+                  <div className={styles.lists}>
+                    <div className={styles.listicondiv}>
+                      <Image
+                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cer_icons.webp"
+                        width={25}
+                        height={25}
+                        alt="certificate_icon"
+                        loading="lazy"
+                      />
+                      <span>{course.duration}</span>
+                    </div>
+                    <div className={styles.listicondiv}>
+                      <Image
+                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Date_icons.webp"
+                        width={25}
+                        height={25}
+                        alt="certificate_icon"
+                        loading="lazy"
+                      />
+                      <span>{course.certification}</span>
+                    </div>
+                    <div className={styles.listicondiv}>
+                      <Image
+                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Save_icons.webp"
+                        width={25}
+                        height={25}
+                        alt="certificate_icon"
+                        loading="lazy"
+                      />
+                      <span>{course.description}</span>
+                    </div>
+                  </div>
+                  <div className={styles.buttons}>
+                    <button
+                      className={styles.brochurebtn}
+                      onClick={() => {
+                        setTitleCourse(course.titleCourse);
+                        setBrochureLinks(course.brochureLinks);
+                        setBrochurePdfs(course.brochurePdfs);
+                        setPopups(true);
+                      }}
+                    >
+                      Brochure <MdOutlineFileDownload />
                     </button>
-                  </Link>
-                ) : (
-                  <button disabled className={styles.viewDetailsButton}>
-                    No Details Available
-                  </button>
-                )}
+
+                    {course.link ? (
+                      <Link href={course.link} passHref>
+                        <button className={styles.viewDetailsButton}>
+                          View Details
+                        </button>
+                      </Link>
+                    ) : (
+                      <button disabled className={styles.viewDetailsButton}>
+                        No Details Available
+                      </button>
+                    )}
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        ))}
+            ))}
+          </>
+        )}
       </>
     );
   };
 
   const renderMasterCourse = () => (
     <div className={styles.MasterCard}>
+      <Popup
+        trigger={popups}
+        setTrigger={setPopups}
+        className="popupModal"
+        downloadBrochure
+      >
+        <div className="leftPopup">
+          <div
+            className="whiteP"
+            style={{ width: "340px", height: "400px" }}
+          ></div>
+        </div>
+        <div className="RightPopup">
+          <h5>Download Syllabus</h5>
+          <Form
+            titleCourse={titleCourse}
+            brochureLink={brochureLinks}
+            brochurePdf={brochurePdfs}
+            dataScience={dataScience}
+            dataScienceCounselling={dataScienceCounselling}
+            dataScienceGeneric={dataScienceGeneric}
+            radio={radio}
+            downloadBrochure
+            upSkillingHide={true}
+            interstedInHide={interstedInHide}
+          />
+        </div>
+      </Popup>
       <Image
         src={isMobile ? masterCourse.mImage : masterCourse.image}
         width={isMobile ? 375 : 1200}
@@ -185,7 +313,9 @@ fill="black"
 
             {masterCourse.link ? (
               <Link href={masterCourse.link} passHref>
-                <button className={`${styles.viewDetailsButton} ${styles.viewDetailsButtonmaster}`}>
+                <button
+                  className={`${styles.viewDetailsButton} ${styles.viewDetailsButtonmaster}`}
+                >
                   View Details
                 </button>
               </Link>
@@ -213,17 +343,30 @@ fill="black"
       </div>
     </div>
   );
-
-  const handleTabClick = (tabName) => {
-    setActiveTab(tabName);
-    setVisibleCount(isMobile ? 3 : 9);
-    if (containerRef.current) {
-      containerRef.current.scrollIntoView({ behavior: "smooth" });
-    }
+  const debounceScroll = (func, delay) => {
+    let timeout;
+    return (...args) => {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => func(...args), delay);
+    };
   };
+  const handleTabClick = debounceScroll((tabName) => {
+    setActiveTab(tabName);
+    setVisibleCount(isMobile ? 9 : 9);
+
+    if (containerRef.current) {
+      const containerTop =
+        containerRef.current.getBoundingClientRect().top + window.scrollY;
+
+      window.scrollTo({
+        top: containerTop - 100,
+        behavior: "smooth",
+      });
+    }
+  }, 200); // Adjust delay as needed
 
   const handleViewMore = () => {
-    setVisibleCount((prevCount) => prevCount + (isMobile ? 3 : 9));
+    setVisibleCount((prevCount) => prevCount + (isMobile ? 9 : 9));
   };
 
   return (
@@ -239,12 +382,19 @@ fill="black"
                 onClick={() => handleTabClick("all")}
               >
                 <div className={styles.sliders}>
-                <div className={styles.imgText}>
-                  <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/round_side.webp" width={30} height={30} loading="lazy" alt="slide_icon"/>
-                  <p>Popular Program </p>
+                  <div className={styles.imgText}>
+                    <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/round_side.webp"
+                      width={30}
+                      height={30}
+                      loading="lazy"
+                      alt="slide_icon"
+                    />
+                    <p>Popular Program </p>
                   </div>
-                  {svgFile}
                 </div>
+
+                <SvgArrow color={activeTab === "all" ? "white" : "black"} />
               </div>
               {}
               <div
@@ -254,12 +404,20 @@ fill="black"
                 onClick={() => handleTabClick("Certifications")}
               >
                 <div className={styles.sliders}>
-                <div className={styles.imgText}>
-                <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cer_side.webp" width={30} height={30} loading="lazy" alt="slide_icon"/>
-                  <p>Certification Courses</p>
+                  <div className={styles.imgText}>
+                    <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cer_side.webp"
+                      width={30}
+                      height={30}
+                      loading="lazy"
+                      alt="slide_icon"
+                    />
+                    <p>Certification Courses</p>
                   </div>
-                  {svgFile}
                 </div>
+                <SvgArrow
+                  color={activeTab === "Certifications" ? "white" : "black"}
+                />
               </div>
               <div
                 className={`${styles.tabdiv} ${
@@ -268,13 +426,20 @@ fill="black"
                 onClick={() => handleTabClick("domainCourse")}
               >
                 <div className={styles.sliders}>
-                <div className={styles.imgText}>
-                <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_side.webp" width={30} height={30} loading="lazy" alt="slide_icon"/>
-                  <p>Domain Certification </p>
+                  <div className={styles.imgText}>
+                    <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_side.webp"
+                      width={30}
+                      height={30}
+                      loading="lazy"
+                      alt="slide_icon"
+                    />
+                    <p>Domain Certification </p>
                   </div>
-                  {svgFile}
-              
                 </div>
+                <SvgArrow
+                  color={activeTab === "domainCourse" ? "white" : "black"}
+                />
               </div>
 
               <div
@@ -284,13 +449,20 @@ fill="black"
                 onClick={() => handleTabClick("CloudDevops")}
               >
                 <div className={styles.sliders}>
-                <div className={styles.imgText}>
-                <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_side.webp" width={30} height={30} loading="lazy" alt="slide_icon"/>
-                  <p>Cloud & DevOps</p>
+                  <div className={styles.imgText}>
+                    <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_side.webp"
+                      width={30}
+                      height={30}
+                      loading="lazy"
+                      alt="slide_icon"
+                    />
+                    <p>Cloud & DevOps</p>
                   </div>
-                  {svgFile}
-            
                 </div>
+                <SvgArrow
+                  color={activeTab === "CloudDevops" ? "white" : "black"}
+                />
               </div>
               {/* <div
                 className={`${styles.tabdiv} ${
@@ -321,12 +493,18 @@ fill="black"
                 onClick={() => handleTabClick("bfsi")}
               >
                 <div className={styles.sliders}>
-                <div className={styles.imgText}>
-                <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cer_side.webp" width={30} height={30} loading="lazy" alt="slide_icon"/>
-                  <p>BFSI</p>
+                  <div className={styles.imgText}>
+                    <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cer_side.webp"
+                      width={30}
+                      height={30}
+                      loading="lazy"
+                      alt="slide_icon"
+                    />
+                    <p>BFSI</p>
                   </div>
-                  {svgFile}
                 </div>
+                <SvgArrow color={activeTab === "bfsi" ? "white" : "black"} />
               </div>
               <div
                 className={`${styles.tabdiv} ${
@@ -335,12 +513,18 @@ fill="black"
                 onClick={() => handleTabClick("hr")}
               >
                 <div className={styles.sliders}>
-                <div className={styles.imgText}>
-                <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_side.webp" width={30} height={30} loading="lazy" alt="slide_icon"/>
-                  <p>HR</p>
+                  <div className={styles.imgText}>
+                    <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_side.webp"
+                      width={30}
+                      height={30}
+                      loading="lazy"
+                      alt="slide_icon"
+                    />
+                    <p>HR</p>
                   </div>
-                  {svgFile}
                 </div>
+                <SvgArrow color={activeTab === "hr" ? "white" : "black"} />
               </div>
               <div
                 className={`${styles.tabdiv} ${
@@ -349,42 +533,53 @@ fill="black"
                 onClick={() => handleTabClick("manager")}
               >
                 <div className={styles.sliders}>
-            <div className={styles.imgText}>
-            <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_side.webp" width={30} height={30} loading="lazy" alt="slide_icon"/>
-            <p>Managers </p>
-            </div>
-                  {svgFile}
+                  <div className={styles.imgText}>
+                    <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_side.webp"
+                      width={30}
+                      height={30}
+                      loading="lazy"
+                      alt="slide_icon"
+                    />
+                    <p>Managers </p>
+                  </div>
                 </div>
+                <SvgArrow color={activeTab === "manager" ? "white" : "black"} />
               </div>
             </div>
           </div>
-          
-       <div>
-       {activeTab === "all" && (
-          <DataScienceCard dataScience={true} radio={true} />
-        )}
 
-          <div className={styles.CourseCardHead}>{renderCourses()}</div>
-       </div>
+          <div>
+            {activeTab === "all" && (
+              <DataScienceCard dataScience={true} radio={true} />
+            )}
 
+            <div className={styles.CourseCardHead}>{renderCourses()}</div>
+          </div>
 
           {/* Render the Master Course after the View More button */}
         </div>
 
         {courses[activeTab].length > visibleCount && (
-            <div className={styles.viewMoreContainer}>
-              <button
-                onClick={handleViewMore}
-                className={styles.viewMoreButton}
-              >
-                View More
-              </button>
-            </div>
-          )}
+          <div className={styles.viewMoreContainer}>
+            <button onClick={handleViewMore} className={styles.viewMoreButton}>
+              View More
+            </button>
+          </div>
+        )}
       </div>
-      {['all', 'bfsi', 'Certifications', 'hr', 'manager','CloudDevops', 'domainCourse'  ].includes(activeTab) && renderMasterCourse()}
+      {[
+        "all",
+        "bfsi",
+        "Certifications",
+        "hr",
+        "manager",
+        "CloudDevops",
+        "domainCourse",
+      ].includes(activeTab) && renderMasterCourse()}
     </section>
   );
 };
+
 
 export default memo(NewCourse);

@@ -102,6 +102,7 @@ const NavbarContent = ({ adPage, setPopups, DMD, careerportalbtn }) => {
               className="flexBox"
             >
               <Button
+              newBlueButton
                 text="Courses"
                 passIcon={icon ? <FaChevronUp /> : <FaChevronDown />}
               />

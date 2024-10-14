@@ -1,5 +1,5 @@
 .sectionWrapper{
-    width: 1300px;
+    width: 1200px;
     display: flex;
     margin: auto;
     margin-top: 120px;
@@ -232,4 +232,12 @@ line-height: 125%; /* 31.25px */
     .boxContainer {
         width: 263px;
     }
+  }
+
+  @media screen and (max-width:641px) {
+
+    .sectionWrapper{
+        display: none;
+    }
+    
   }

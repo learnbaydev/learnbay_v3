@@ -84,7 +84,8 @@ function Blockchain({ DataScienceCourseDataJson }) {
       <main>
 
       <ExecutiveSecondPartMangers sections={DataScienceCourseData.DataScienceCourseData[0].sections}
-          FAQNewData={DataScienceCourseData.DataScienceCourseData[0].faq}/>
+          FAQNewData={DataScienceCourseData.DataScienceCourseData[0].faq}
+          certificateNew={DataScienceCourseData.DataScienceCourseData[0].certificateNew}/>
       
       </main>
     </>

@@ -23,12 +23,12 @@
 .headingContainer h2 {
   color: #022646;
   font-size: 42px;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .topSpan {
   text-underline-offset: 14px;
-  font-weight: 700;
+  font-weight: 600;
 }
 .learnSlides img {
   width: 100%;
@@ -160,7 +160,7 @@
   margin: auto;
 }
 .videoImage {
-  width: 190px;
+  width: 176px;
   height: auto;
 }
 .btnnextContainer {

@@ -12,7 +12,7 @@ const ReviewSlider = dynamic(() =>
   import("@/components/course/reviewSlider/ReviewSlider")
 );
 const FeeSection = dynamic(() =>
-  import("@/components/course/feeSection/FeeSection")
+  import("@/components/course/feeSection/feeSection")
 );
 const JobReadySection = dynamic(() =>
   import("@/components/course/jobReadySection/JobReadySection")
@@ -24,7 +24,7 @@ const UpskillingSection = dynamic(() =>
   import("@/components/course/upskillingSection/upskillingSection")
 );
 
-const ExecutiveSecondPart = ({ sections, FAQNewData }) => {
+const ExecutiveSecondPart = ({ sections, FAQNewData, certificateNew }) => {
   const pdfUrl = "/Brochure/Executive-iit-guwahati-generic.pdf";
   return (
     <>
@@ -39,7 +39,7 @@ const ExecutiveSecondPart = ({ sections, FAQNewData }) => {
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
       />
       <ToolsSection />
-      <CertificateSection />
+      <CertificateSection  certificateNew={certificateNew}/>
       <FeeSection
         // EMIPOPUP
         emiType="Live online classes"

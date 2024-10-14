@@ -1,5 +1,6 @@
 .container {
   margin-top: 100px;
+  background: linear-gradient(180deg, #FFF 0%, #EFF3F6 49.89%, #FFF 100%);
 }
 
 .headH4 {
@@ -30,7 +31,7 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 300;
-  margin-right: 190px;
+  margin-right:150px;
 }
 
 .innerdiv div:nth-child(1), .innerdiv div:nth-child(2), .innerdiv div:nth-child(3), .innerdiv div:nth-child(4) {
@@ -40,24 +41,22 @@
 }
 
 .innerdiv div:nth-child(1), .innerdiv div:nth-child(4) {
-  background: #EBF4FA;
+  background: #FFF;
 }
 
 
 .innerdiv div:nth-child(2), .innerdiv div:nth-child(3) {
-  background: #FFFAED;
+  background: #FFF;
 }
 
 .innerdiv div:nth-child(2) h4, .innerdiv div:nth-child(3) h4 {
-  color: #FE7A36;
+  color: #0072BC;
 }
 
 .innerdiv img {
-  width: 190px;
-  height: auto;
   float: right;
-  margin-top: -120px;
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .img1 {
@@ -71,8 +70,12 @@
 @media only screen and (max-width: 641px) {
 .container {
   margin-top: 0px;
+
 }
 .innerdiv {
+  flex-direction: column;
+    display: flex;
+    position: relative;
   gap: 24px;
   overflow: scroll;
   width: 100%;
@@ -95,11 +98,23 @@
 }
 
 .innerdiv img {
-
-  width: 120px;
-  margin-top: -80px;
+  width: 50px;
+  height: auto;
+    margin-top: -80px;
   margin-right: 4px;
-
+  position: relative;
+  top: -130px;
+  bottom: 10px;
+  right: 20px;
+}
+.innerdiv div h4 {
+  font-size: 20px;
+}
+.innerdiv div p {
+  color: #121212;
+font-size: 14px;
+font-style: normal;
+line-height: 148%; /* 23.68px */
 }
 
 .headH4 {

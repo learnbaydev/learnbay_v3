@@ -1,12 +1,11 @@
-/* OutcomeSection.module.css */
 .container {
   color: #000;
-  padding: 50px 0px 70px 0px;
+  padding: 50px 0px 0px 0px;
   background: linear-gradient(180deg, #FFF 0.16%, #EFF3F6 51.71%, #FFF 100%);
 }
 
 .innerDiv {
-  margin: 0px 50px;
+  position: relative; /* Keep relative for positioning children */
 }
 
 .innerDiv h2 {
@@ -22,19 +21,23 @@
   font-weight: 600;
 }
 
+/* Enable vertical scrolling */
 .innerBoxDiv {
-  display: flex;
-  gap: 140px;
-  justify-content: center;
+  display: grid;
+  grid-template-columns:28% 29% 28%;
   margin-top: 70px;
   background: #fff;
   border-radius: 30px;
   padding: 20px 26px 30px 26px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto;
+  gap: 20px;
+    justify-content: space-around;
+
 }
 
-.innerBox {
-  width: 100%;
-}
+
 
 .innerBox div {
   margin: auto;
@@ -58,8 +61,53 @@
   font-size: 17px;
   font-weight: 400;
   line-height: 144.5%;
+  text-wrap: balance;
 }
 
+/* Custom scrollbar styles */
+.innerBoxDiv::-webkit-scrollbar {
+  width: 10px; /* Width of scrollbar */
+}
+
+.innerBoxDiv::-webkit-scrollbar-thumb {
+  background-color:rgba(0, 114, 188, 1); 
+  border-radius: 8px; 
+}
+
+.innerBoxDiv::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.customScrollbar {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.scrollIndicator {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  background-color: #878686;
+  transition: width 0.4s ease;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #878686;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #0070f3; /* Change color when active */
+}
+
+/* Media queries */
 @media only screen and (max-width: 1280px) {
   .headContBlue,
   .headContGreen,
@@ -70,10 +118,26 @@
     font-size: 20px;
     line-height: 30px;
   }
-
 }
 
 @media only screen and (max-width: 641px) {
+
+  .innerBoxDiv {
+    display: flex;
+    flex-direction: column; /* Change direction to column for vertical stacking */
+    margin-top: 70px;
+    background: #fff;
+    border-radius: 30px;
+    padding: 20px 26px 30px 26px;
+    max-height: 500px; /* Set a max height for vertical scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+
+  .innerBox {
+    min-width: 200px; /* Set a minimum width for each box */
+    margin-bottom: 20px; /* Spacing between boxes */
+    flex: 0 0 auto; /* Prevent flex items from shrinking */
+  }
   .container {
     padding: 0px;
   }
@@ -83,15 +147,17 @@
   .innerDiv h2 {
     margin: 0;
     font-size: 28px;
-    line-height:  38px;
+    line-height: 38px;
+    text-align: left;
+    text-wrap: pretty;
   }
   .borderBot {
     text-underline-offset: 12px;
   }
   .innerBox {
     border-radius: 15px;
-border-width: 1.5px 1.5px 1.5px 0px;
-padding: 20px;
+    border-width: 1.5px 1.5px 1.5px 0px;
+    padding: 20px;
   }
   .innerBox div {
     align-items: center;
@@ -100,7 +166,7 @@ padding: 20px;
     width: auto;
   }
   .innerBoxDiv {
-    flex-direction: column;
+    flex-direction: column; /* Keep flex-direction as column for vertical scroll */
     gap: 0px;
     margin-top: 24px;
     padding: 0;

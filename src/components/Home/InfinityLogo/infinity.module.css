@@ -242,7 +242,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: 126.5%; /* 56.925px */
-    text-wrap: balance;
+    text-wrap: pretty;
   }
 
   .mblonly p {

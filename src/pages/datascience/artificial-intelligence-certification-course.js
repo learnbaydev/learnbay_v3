@@ -135,13 +135,8 @@ function Blockchain({ DataScienceCourseDataJson }) {
           }
         />
         <AISecondPart
-          masterSyllabusMobile={
-            DataScienceCourseData.AIMLDataScienceCourseData[0]
-              .masterSyllabusMobile
-          }
-          CertificateData={
-            DataScienceCourseData.AIMLDataScienceCourseData[0].Certificate
-          }
+          sections={DataScienceCourseData.AIMLDataScienceCourseData[0].sections}
+          certificateNew={DataScienceCourseData.AIMLDataScienceCourseData[0].certificateNew}
           projectSection={
             DataScienceCourseData.AIMLDataScienceCourseData[0].projectSection
           }

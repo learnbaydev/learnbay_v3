@@ -4,28 +4,29 @@ import SeventhSection from "@/components/Global/SeventhSection/SeventhSection";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
-import LJourney from "../LJourney/LJourney";
-const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
+import ReviewSlider from "@/components/course/reviewSlider/ReviewSlider";
+import UpskillingSection from "@/components/course/upskillingSection/upskillingSection";
+import ProjectSection from "@/components/course/projectSection/ProjectSection";
+import SyllabusSection from "@/components/course/syllabusSection/SyllabusSection";
+import ToolsSection from "@/components/course/toolsSection/ToolsSection";
+import CertificateSection from "@/components/course/certificateSection/CertificateSection";
+import JobReadySection from "@/components/course/jobReadySection/JobReadySection";
+import StructuredSection from "@/components/course/structuredSection/StructuredSection";
+import NewSevenSection from "@/components/Global/SeventhSectionNew/NewSevenSection";
+import UpskillMbl from "@/components/course/upskillingSection/UpskillMbl";
+
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
 const Certificate = dynamic(() =>
   import("../../../components/CoursePage/Certificate/Certificate")
 );
 const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
 const FeeSection = dynamic(() =>
-  import("../../../components/CoursePage/FeeSection/FeeSection")
+  import("../../course/feeSection/FeeSection")
 );
 const MentorsSection = dynamic(() =>
   import("../../../components/Global/MentorsSection/MentorsSection")
 );
-const SliderTab = dynamic(() =>
-  import("../../../components/Global/SliderTabs/SliderTabs")
-);
-const PlacementCall = dynamic(() =>
-  import("../../../components/Global/PlacementCall/PlacementCall")
-);
-const NewProjectSection = dynamic(() =>
-  import("../../../components/Global/NewProjectSection/NewProjectSection")
-);
+
 
 const FAQNew = dynamic(() =>
   import("../../../components/CoursePage/FAQNew/FAQNew")
@@ -33,15 +34,12 @@ const FAQNew = dynamic(() =>
 const Content = dynamic(() =>
   import("../../../components/CoursePage/Content/content")
 );
-const MobileTestimonial = dynamic(() =>
-  import("../../Home/MobileTestimonial/MobileTestimonial")
-);
+
 
 const SecondPart = ({
-  masterSyllabusMobile,
-  CertificateData,
-  projectSection,
+  sections, 
   FAQNewData,
+  certificateNew
 }) => {
   const [popupData, setPopupData] = useState([]);
 
@@ -88,67 +86,43 @@ const SecondPart = ({
   const pdfUrl = "/Brochure/Advanced-Data-Science.pdf";
   return (
     <div>
-      <LJourney />
-      <SyllabusNew
-        masterSyllabusMobile={masterSyllabusMobile}
-        dataScienceCounselling={true}
-        dataScience={true}
+
+<ReviewSlider/>
+<MentorsSection/>
+
+<UpskillMbl/>
+<UpskillingSection/>
+
+<ProjectSection dataScienceCounselling={true} interstedInHide={true} />
+      <SyllabusSection
+        sections={sections}
         interstedInHide={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
         brochurePdf={pdfUrl}
-        buttonHide={true}
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
       />
-      <ToolsCovered />
-      <Certificate data={CertificateData} />
+      <ToolsSection />
+      <CertificateSection certificateNew={certificateNew}/>
       <FeeSection
-        Fee="₹1,05,000"
-        FeeEmi="₹6,883/month"
-        weekdaybatch="Weekday Batch"
-        weekendbatch="Weekend Batch"
-        weekday="MON - THU"
-        weekend="SAT - SUN"
-        WeekdayDate="11th October"
-        WeekendDate="Sept 29th"
-        WeekendTime="9:30 AM - 1 PM"
-        WeekdayTime="8:00 PM - 10:30 PM"
-        FeeContent3="Flexible payment"
-        FeeContent4="Easy loan procedure"
-        FeeContent5="10 days refund policy"
-        FeeContent6="No additional cost"
-        dataScienceCounselling={true}
-        interstedInHide={true}
-        dataScience={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
-        brochurePdf={pdfUrl}
-        // <EMI POPUP
-        emiType="NO COST EMI"
-        duration1="18 Months"
-        totalAmount1="₹1,05,000"
-        monthlyPayment1="₹6,883"
-        greenDown1="Standard Intrest rate Applicable"
+        // EMIPOPUP
+        emiType="Live online classes"
+        duration1="12 Months"
+        totalAmount1="₹1,90,000"
+        monthlyPayment1="₹14,094"
+        greenDown1="Hybrid Classes"
         duration2="12 Months"
-        totalAmount2="₹1,05,000"
-        monthlyPayment2="₹10,325"
+        totalAmount2="₹2,10,000"
+        monthlyPayment2="₹12,455"
+        dataScienceCounselling={true}
+        iitGuwatiGen={true}
       />
-
-      <MentorsSection />
-      <SliderTab WithoutService={true} />
-      <PlacementCall />
-      <MobileTestimonial />
-      <NewProjectSection
-        dataScience={true}
-        interstedInHide={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
-        brochurePdf={pdfUrl}
-        projectSection={projectSection}
-      />
-
+      <JobReadySection />
+      <StructuredSection />
       <FAQNew FAQNewData={FAQNewData} />
+
+
+
       <Content dataScienceCounselling={true} Advance={true} />
-      <SeventhSection />
+      <NewSevenSection/>
       <Footer />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />
       <WhatsappFloat />

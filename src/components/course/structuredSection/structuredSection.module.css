@@ -23,7 +23,7 @@
 
 .innerdiv {
   display: grid;
-  grid-template-columns: 28% 28% 28%;
+  grid-template-columns: 31% 31% 28%;
   grid-gap: 34px 60px;
   gap: 100px;
   margin: 40px 140px;

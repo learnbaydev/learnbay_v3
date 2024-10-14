@@ -16,11 +16,29 @@ const HeroSection = ({
   downloadBrochure,
   dataScienceGeneric,
   spanTag,
+  spanIcon,
   thumbnailurl,
   noIIt,
   title,
   orgTitle,
-  descrption
+  descrption,
+  OrangeButton,
+  applicationIcon,
+  CloseDes,
+  ProgramIcon,
+  DurationBot,
+  DurationBotDate,
+  trainingIcon,
+  TrainingBot,
+  CloseBotDate,
+  BotWidth,
+BotHeight,
+backgroundGradient,
+backgroundImage,
+showRightForm,
+purpleButton,
+PointsDiv,
+
 }) => {
 
   const [popups, setPopups] = useState(false);
@@ -54,7 +72,23 @@ const HeroSection = ({
         radio={radio}
         noIIt ={noIIt}
         descrption={descrption}
-      
+        spanIcon={spanIcon}
+        OrangeButton={OrangeButton}
+        applicationIcon={applicationIcon}
+        CloseDes={CloseDes}
+        ProgramIcon={ProgramIcon}
+        DurationBot={DurationBot}
+        DurationBotDate={DurationBotDate}
+        trainingIcon={trainingIcon}
+        TrainingBot={TrainingBot}
+        CloseBotDate={CloseBotDate}
+        BotWidth={BotWidth}
+BotHeight={BotHeight}
+backgroundGradient={backgroundGradient}
+backgroundImage={backgroundImage}
+showRightForm={showRightForm}
+purpleButton={purpleButton}
+PointsDiv={PointsDiv}
       />
     </div>
   );

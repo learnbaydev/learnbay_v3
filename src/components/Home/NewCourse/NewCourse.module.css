@@ -1,3 +1,5 @@
+
+
 .container{
 }
 .newSection{
@@ -140,6 +142,8 @@ align-items: center;
   justify-content: flex-start;
   gap: 18px;
   align-items: center;
+  position: relative;
+    z-index: 2;
 }
 .brochurebtn {
   border-radius: 25px;
@@ -250,6 +254,7 @@ align-items: center;
   cursor: pointer;
   color: black;
   transition: color 0.3s ease;
+  justify-content: space-between;
 }
 
 .active {
@@ -267,6 +272,7 @@ align-items: center;
   display: flex;
   align-items: center;
   gap: 10px;
+  
 }
 .masterConteiner {
   margin-top: 80px;
@@ -464,7 +470,9 @@ line-height: 155%; /* 34.1px */
     gap: 3px;
     justify-content: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    margin-top: 20px;
+
   }
   .tabMain p {
     font-size: 14px;
@@ -492,7 +500,7 @@ line-height: 155%; /* 34.1px */
   }
 
   .buttons button {
-    font-size: 16px;
+    font-size: 17px;
     padding: 7px 19px;
   }
   .buttons {
@@ -504,6 +512,7 @@ line-height: 155%; /* 34.1px */
   .viewMoreContainer {
     margin: 0;
     margin-bottom: 30px;
+    margin-top: -50px;
   }
 
   .section {
@@ -533,8 +542,8 @@ line-height: 155%; /* 34.1px */
     padding: 20px;
   }
   .contentConteiner h2 {
-    color: #212121;
-    font-size: 20px;
+    color: #fff;
+    font-size: 22px;
     font-style: normal;
     font-weight: 600;
     line-height: 126.5%;
@@ -542,7 +551,7 @@ line-height: 155%; /* 34.1px */
     text-wrap: balance;
   }
   .contentConteiner {
-    top: 80px;
+    top: 70px;
     padding: 10px 20px;
   }
   .contentConteiner img {
@@ -550,8 +559,8 @@ line-height: 155%; /* 34.1px */
     height: auto;
   }
   .absloute {
-    top: 156px;
-    left: 40px;
+    top: 148px;
+    left: 11px;
   }
   .absloute h4 {
     color: #7a7a7a;
@@ -563,8 +572,8 @@ line-height: 155%; /* 34.1px */
     text-wrap: balance;
   }
   .absloute span {
-    color: #212121;
-    font-size: 14px;
+    color: #fff;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 155%;
@@ -576,6 +585,23 @@ line-height: 155%; /* 34.1px */
   }
   .contentConteiner p {
     font-size: 14px;
+  }
+  .swiperContainer{
+    padding-bottom: 30px;
+   }
+}
+
+@media screen and (max-width: 412px) {
+
+  .contentConteiner{
+    font-size: 20px;
+    padding: 0 20px;
+  }
+  .absloute h4 {
+    font-size: 27px;
+  }
+  .absloute span {
+    font-size: 13px;
   }
 }
 
