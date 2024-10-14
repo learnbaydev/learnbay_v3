@@ -2,7 +2,7 @@ import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
 import LJourney from "../LJourney/LJourney";
-import ReviewSlider from "@/components/course/reviewSlider/ReviewSlider";
+import ReviewSlider from "@/components/course/reviewSlider/reviewSlider";
 import UpskillMbl from "@/components/course/upskillingSection/UpskillMbl";
 import UpskillingSection from "@/components/course/upskillingSection/upskillingSection";
 import ProjectSection from "@/components/course/projectSection/ProjectSection";

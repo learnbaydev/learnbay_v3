@@ -32,7 +32,14 @@ const ExecutiveIIT = ({ DataScienceCourseDataJson }) => {
         />
       </Head>
       <main>
-        <ExecutiveFirstPartGeneric />
+        
+        <ExecutiveFirstPartGeneric
+        summaryData={
+          DataScienceCourseData.ExcutiveProgramAIDS[0].summarySection
+        }
+        ProggramSectionData={
+          DataScienceCourseData.ExcutiveProgramAIDS[0].ProggramSection
+        }/>
         <ExecutiveSecondPart
           sections={DataScienceCourseData.ExcutiveProgramAIDS[0].sections}
           FAQNewData={DataScienceCourseData.ExcutiveProgramAIDS[0].faq}

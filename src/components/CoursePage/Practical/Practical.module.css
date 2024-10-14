@@ -118,17 +118,18 @@ line-height: 126.5%; /* 31.625px */
 .pTag{
     color: #FFF;
 text-align: center;
-font-size: 16px;
+font-size: 17px;
 font-style: normal;
 font-weight: 400;
 line-height: 126.5%; /* 20.24px */
+text-wrap: pretty;
 }
 
 .spanDiv span {
     color: #FFF;
-font-size: 10px;
+font-size: 12px;
 font-style: normal;
-font-weight: 400;
+font-weight: 600;
 line-height: 125%; /* 20px */
 text-align: left;
 }
@@ -148,9 +149,10 @@ text-align: left;
 }
 .spanDiv{
   display: grid;
-    padding: 0;
-    grid-template-columns: 40% 40%;
-    justify-content: normal;
+  padding: 0;
+  grid-template-columns: 44% 50%;
+  justify-content: normal;
+  gap: 20px 1px;
 }
 
 

@@ -46,13 +46,13 @@
 }
 
 .mainBg {
-  background: linear-gradient(
+  /* background: linear-gradient(
     176deg,
     #eff3f6 3.89%,
     #fff 42.38%,
     #eff3f6 80.09%,
     #fff 95.5%
-  );
+  ); */
   padding-bottom: 70px;
 }
 
@@ -516,7 +516,7 @@ padding: 10px 20px;
 
 @media only screen and (max-width: 890px) {
   .firstSection h1 {
-    font-size: 26px;
+    font-size: 28px;
   }
   .firstSection h5 {
     font-size: 20px;
@@ -680,6 +680,7 @@ opacity: 0.2; /* Adjust opacity for the grid */
     margin: 20px 24px;
     width: auto;
     padding: 20px;
+background: #EFF3F6;
   }
   .mainBg {
     padding-bottom: 0;

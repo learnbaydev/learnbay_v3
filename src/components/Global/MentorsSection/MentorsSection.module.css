@@ -90,6 +90,7 @@ left:  50%;
     text-align: left;
     align-items: center;
     margin: 10px;
+    border-radius: 20px;
   }
 
   .Name {

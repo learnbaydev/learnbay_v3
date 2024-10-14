@@ -15,7 +15,7 @@ const OutcomeSection = dynamic(() =>
 const WhyChooseSection = dynamic(() =>
   import("@/components/course/whyChooseSection/whyChooseSection")
 );
-const ExecutiveFirstPartGeneric = () => {
+const ExecutiveFirstPartGeneric = ({ProggramSectionData}) => {
   const pdfUrl = "/Brochure/Executive-iit-guwahati-generic.pdf";
   return (
     <>
@@ -45,6 +45,7 @@ const ExecutiveFirstPartGeneric = () => {
       />
       <DecisionSection />
       <ProgramSection
+                    ProggramSectionData={ProggramSectionData}
         dataScienceCounselling={true}
         interstedInHide={true}
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"

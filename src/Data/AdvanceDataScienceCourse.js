@@ -1565,11 +1565,8 @@ export const DataScienceCourseData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/ibm_Cert_new.webp",
         imageWidth: 400,
         imageHeight: 260,
-        description: [
-          "Complete your training with the internationally recognized certificate.",
-          "In-Demand Skills: Gain expertise recognized worldwide.",
-          "Career Boost: Elevate your job prospects and earnings.",
-        ],
+        description: 
+"Achieve an industry-recognized IBM certification, showcasing your proficiency in data science and AI." ,
       },
       {
         id: 2,
@@ -1578,11 +1575,7 @@ export const DataScienceCourseData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/microsoft_Cert_new.webp",
         imageWidth: 400,
         imageHeight: 260,
-        description: [
-          "Industry-certified Microsoft certificates.",
-          "Gain expertise & get recognized worldwide.",
-          "Boost job opportunities and earnings with Microsoft’s certification.",
-        ],
+        description:"Gain an internationally recognized Microsoft certification, proving your expertise in cloud technologies."
       },
       {
         id: 3,
@@ -1592,9 +1585,8 @@ export const DataScienceCourseData = [
         imageWidth: 360,
         imageHeight: 240,
         description: [
-          "Globally recognized IBM certification based on industrial-level projects.",
-          "Earn 1 capstone project certification from IBM.",
-          "Individualized project experience with easy access to premium job opportunities.",
+          "This certification boosts your credibility in the IT sector and enhances your career prospects.",
+      "Note: The certification is granted upon the successful completion of two capstone projects."
         ],
       },
     ],

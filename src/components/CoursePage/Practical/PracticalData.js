@@ -3,9 +3,11 @@ export const practicalData = {
     description: "Work on projects based on real-world scenarios",
     points: [
       { svg: "svgRight", text: "Live mentorship" },
-      { svg: "svgRight", text: "Interactive sessions" },
       { svg: "svgRight", text: "1:1 Doubt Clearing" },
-      { svg: "svgRight", text: "Hybrid Learning" }
+      { svg: "svgRight", text: "Hybrid Learning" },
+      { svg: "svgRight", text: "Interactive sessions" },
+
+ 
     ],
     boxes: [
       {

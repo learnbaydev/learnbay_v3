@@ -64,7 +64,7 @@ margin: 0px auto 30px auto;
   }
 
   .iconDiv {
-      display: grid;
+      /* display: grid; */
       grid-template-columns: 5% 90%;
       gap: 10px;
       align-items: flex-start;
@@ -78,6 +78,8 @@ margin: 0px auto 30px auto;
       line-height: 28px;
       margin-bottom: 20px;
       margin-top: -5px;
+      width: 100%;
+      max-width: 400px;
   }
 
   .iconDiv svg {
@@ -87,15 +89,16 @@ margin: 0px auto 30px auto;
 
   .certBoxWrapperTop{
     display: grid;
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 61% 48%;
     justify-content: center;
-    gap: 80px;
+    grid-gap: 80px;
+    gap: 34px;
   }
   .certBoxDemo{
     display: grid;
     grid-template-columns: 36% 49%;
-    justify-content: space-evenly;
-    gap: 80px;
+    justify-content: flex-start;
+    gap:120px;
     align-items: center;
 
   }
@@ -107,13 +110,20 @@ font-weight: 600;
 line-height: 126.5%; /* 31.625px */
 margin: 0;
   }
+ 
   .Addon{
-    border-radius: 28px;
-border: 1px solid #0383FF;
-background: rgba(3, 131, 255, 0.19);
-width: fit-content;
-padding: 4px 18px;
-margin-bottom: 16px;
+
+      display: block;
+      border-radius: 28px;
+    border: 1px solid #0383FF;
+    background: rgba(3, 131, 255, 0.19);
+    width: fit-content;
+    padding: 4px 18px;
+    margin-bottom: 16px;
+
+  }
+  .AddonMbl{
+    display: none;
   }
 
 @media only screen and (max-width: 641px) {
@@ -177,6 +187,31 @@ margin-bottom: 16px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: baseline;
 }
 
+.AddonMbl{
+  display: block;
+  border-radius: 28px;
+  border: 1px solid #FE7A36;
+  background: rgba(254, 122, 54, 0.18);
+  width: fit-content;
+  padding: 4px 18px;
+  margin-bottom: 16px;
+}
+.Addon{
+  display: none;
+}
+
+.AddonMbl p{
+  background: linear-gradient(90deg, #FE7A36 7.69%, #FFC436 93.08%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 126.5%; /* 31.625px */
+margin: 0;
+}
 }

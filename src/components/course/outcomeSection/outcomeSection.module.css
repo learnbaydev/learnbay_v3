@@ -89,7 +89,7 @@
 }
 
 .innerBoxDiv::-webkit-scrollbar-thumb {
-  background-color:rgba(0, 114, 188, 1); 
+  background-color:#d9d9d9; 
   border-radius: 8px; 
 }
 
@@ -153,8 +153,17 @@
   }
 
   .hrline{
-    display: none;
+    width: 230px;
+    align-items: center;
+    position: relative;
+    left: 1%;
+    background: #FE7A36;
+    height: 2px;
+    border: none;
+    top: -40px;
   }
+
+
 
   .innerBox {
     min-width: 200px; /* Set a minimum width for each box */
@@ -166,6 +175,7 @@
   }
   .innerDiv {
     margin: 0px 24px;
+    padding-top: 50px;
   }
   .innerDiv h2 {
     margin: 0;

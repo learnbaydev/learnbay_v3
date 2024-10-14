@@ -126,19 +126,12 @@
   gap: 60px;
   margin-top: 60px;
 }
-
 .oneFirst {
-  padding: 40px 40px 46px 40px;
-  border-width: 4px 4px 4px 0px;
-  border-radius: 30px;
-  border-color: #fe7a36;
-  background: linear-gradient(
-    270deg,
-    rgba(254, 122, 54, 0) 0.32%,
-    rgba(254, 122, 54, 0.15) 98.75%
-  );
-  border-style: solid;
-  position: relative;
+  background: url("https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/choose_first_left.webp");
+  background-size: contain;
+  height: fit-content;
+  background-repeat: no-repeat;
+  padding: 50px;
 }
 
 .SecondFour {
@@ -231,6 +224,13 @@ line-height: 144.5%; /* 31.79px */
   gap: 10px;
   align-items: center;
 }
+.iconBox img{
+  width: 40px;
+  height: auto;
+}
+.innerBox{
+  margin-bottom: 0;
+}
 
 .iconBox p {
   color: #fff;
@@ -247,7 +247,7 @@ line-height: 144.5%; /* 31.79px */
 
 .oneSecond img {
   height: 100%;
-  width: auto;
+  width: 100%;
 }
 
 .botDiv {
@@ -399,6 +399,10 @@ line-height: 144.5%; /* 26.01px */
   .container {
     border-radius: 0;
     width: 100%;
+    margin-top: 0;
+  }
+  .whyChooseSection{
+    padding-top: 0;
   }
   .oneFirst {
     background-repeat: no-repeat;
@@ -479,7 +483,7 @@ line-height: 144.5%; /* 26.01px */
     margin-top: 20px;
   }
   .innerDivTwo {
-    margin-top: 40px;
+    margin-top: 140px;
   }
   .innerDivFourLast {
     margin-top: 20px;
@@ -487,9 +491,16 @@ line-height: 144.5%; /* 26.01px */
 
   .innerDivOne{
     display: flex;
+    margin-top: 0;
+  }
+  .botDiv{
+    background: none;
   }
   .botDiv {
+
     width: 100%;
+        position: absolute;
+        bottom: -140px;
   }
   .botDiv p{
     font-size: 12px;

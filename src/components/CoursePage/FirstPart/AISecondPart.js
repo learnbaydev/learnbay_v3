@@ -3,7 +3,7 @@ import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
 
 const ReviewSlider = dynamic(() =>
-  import("@/components/course/reviewSlider/ReviewSlider"), 
+  import("@/components/course/reviewSlider/reviewSlider"), 
 );
 const UpskillMbl = dynamic(() =>
   import("@/components/course/upskillingSection/UpskillMbl"), 
@@ -24,7 +24,7 @@ const CertificateSection = dynamic(() =>
   import("@/components/course/certificateSection/CertificateSection"), 
 );
 const JobReadySection = dynamic(() =>
-  import("@/components/course/jobReadySection/JobReadySection"), 
+  import("@/components/course/jobReadySection/jobReadySection"), 
 );
 const StructuredSection = dynamic(() =>
   import("@/components/course/structuredSection/StructuredSection"), 

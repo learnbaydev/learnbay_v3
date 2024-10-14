@@ -4,13 +4,13 @@ import SeventhSection from "@/components/Global/SeventhSection/SeventhSection";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
-import ReviewSlider from "@/components/course/reviewSlider/ReviewSlider";
+import ReviewSlider from "@/components/course//reviewSlider/reviewSlider";
 import UpskillingSection from "@/components/course/upskillingSection/upskillingSection";
 import ProjectSection from "@/components/course/projectSection/ProjectSection";
 import SyllabusSection from "@/components/course/syllabusSection/SyllabusSection";
 import ToolsSection from "@/components/course/toolsSection/ToolsSection";
 import CertificateSection from "@/components/course/certificateSection/CertificateSection";
-import JobReadySection from "@/components/course/jobReadySection/JobReadySection";
+import JobReadySection from "@/components/course/jobReadySection/jobReadySection";
 import StructuredSection from "@/components/course/structuredSection/StructuredSection";
 import NewSevenSection from "@/components/Global/SeventhSectionNew/NewSevenSection";
 import UpskillMbl from "@/components/course/upskillingSection/UpskillMbl";
@@ -115,8 +115,9 @@ const SecondPart = ({
         dataScienceCounselling={true}
         iitGuwatiGen={true}
       />
-      <JobReadySection />
+
       <StructuredSection />
+      <JobReadySection />
       <FAQNew FAQNewData={FAQNewData} />
 
 

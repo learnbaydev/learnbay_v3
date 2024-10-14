@@ -10,6 +10,7 @@ import OutcomeSection from "@/components/course/outcomeSection/outcomeSection";
 import WhyChooseNew from "@/components/course/whyChoose/WhyChooseNew";
 
 import Practical from "../Practical/Practical";
+import WhyChooseSection from "@/components/course/whyChooseSection/whyChooseSection";
 const FirstPart = ({ ProggramSectionData, summaryData }) => {
   const pdfUrl = "/Brochure/Advanced-Data-Science.pdf";
   return (
@@ -67,8 +68,7 @@ const FirstPart = ({ ProggramSectionData, summaryData }) => {
       />
 
       <OutcomeSection />
-
-      <WhyChooseNew />
+<WhyChooseSection/>
     </>
   );
 };

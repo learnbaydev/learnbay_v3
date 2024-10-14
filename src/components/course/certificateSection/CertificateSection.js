@@ -30,12 +30,12 @@ function CertificateSection({ certificateNew = [] }) {
                 />
                 <div className={styles.iconDivMain}>
                   <h4>{certificate.title}</h4>
-                  {certificate.description.map((desc, descIndex) => (
-                    <div key={descIndex} className={styles.iconDiv}>
-                      <FaCheckCircle />
-                      <p>{desc}</p>
+
+                    <div className={styles.iconDiv}>
+                
+                      <p>{certificate.description}</p>
                     </div>
-                  ))}
+     
                 </div>
               </div>
             ))}
@@ -45,7 +45,7 @@ function CertificateSection({ certificateNew = [] }) {
           <div className={styles.certBoxWrapperBottom}>
             {certificateNew.slice(2).map((certificate) => (
               <div key={certificate.id} className={styles.certBoxDemo}>
-    
+               <div className={styles.AddonMbl}><p>Add on</p></div>
                 <Image
                   src={certificate.imageUrl}
                   alt={certificate.title}
@@ -59,7 +59,7 @@ function CertificateSection({ certificateNew = [] }) {
                   <h4>{certificate.title}</h4>
                   {certificate.description.map((desc, descIndex) => (
                     <div key={descIndex} className={styles.iconDiv}>
-                      <FaCheckCircle />
+                 
                       <p>{desc}</p>
                     </div>
                   ))}
