@@ -298,7 +298,7 @@ const NewCourse = ({
         </div>
 
         <div>
-          <div className={styles.buttons}>
+          <div className={`${styles.buttons} ${styles.buttonsMaster}`}>
             <button
               className={`${styles.brochurebtn} ${styles.brochurebtnMaster}`}
               onClick={() => {
@@ -352,29 +352,43 @@ const NewCourse = ({
   };
   const handleTabClick = debounceScroll((tabName) => {
     setActiveTab(tabName);
-    setVisibleCount(isMobile ? 9 : 9);
+    setVisibleCount(isMobile ? 9 : 9); // Adjust visibility count if needed
 
     if (containerRef.current) {
-      const containerTop =
-        containerRef.current.getBoundingClientRect().top + window.scrollY;
+        const containerTop = containerRef.current.getBoundingClientRect().top + window.scrollY;
 
-      window.scrollTo({
-        top: containerTop - 100,
-        behavior: "smooth",
-      });
+        window.scrollTo({
+            top: containerTop - 100, // Scroll to the top of the container
+            behavior: "smooth",
+        });
+
+        // Ensure the active tab is scrolled into view
+        const activeTabElement = document.querySelector(`.${styles.tabdiv}.active`);
+        if (activeTabElement) {
+            activeTabElement.scrollIntoView({ behavior: "smooth", inline: "nearest" });
+        }
     }
-  }, 200); // Adjust delay as needed
-
+}, 200);
   const handleViewMore = () => {
     setVisibleCount((prevCount) => prevCount + (isMobile ? 3 : 3));
+  };
+  
+  const handleWheel = (event) => {
+    event.preventDefault();
+    if (containerRef.current) {
+      containerRef.current.scrollBy({
+        left: event.deltaX > 0 ? 100 : -100, // Scroll right on down scroll and left on up scroll
+        behavior: 'smooth',
+      });
+    }
   };
 
   return (
     <section className={styles.section}>
-      <div className={styles.container} ref={containerRef}>
+      <div className={styles.container} ref={containerRef}  >
         <div className={styles.newSection}>
           <div className={styles.tabHead}>
-            <div className={styles.tabMain}>
+            <div className={styles.tabMain}  onWheel={handleWheel}>
               <div
                 className={`${styles.tabdiv} ${
                   activeTab === "all" ? styles.active : ""

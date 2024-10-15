@@ -70,7 +70,6 @@
   font-style: normal;
   font-weight: 700;
   line-height: 28.679px; /* 143.396% */
-  text-transform: uppercase;
 }
 
 .blackButton {
@@ -281,8 +280,8 @@
   }
   .button,
   .grayButton {
-    font-size: 14px;
-    padding: 8px;
+    font-size: 12px;
+    padding: 10px;
     font-weight: 400;
 
 

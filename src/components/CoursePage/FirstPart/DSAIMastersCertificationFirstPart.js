@@ -6,7 +6,7 @@ import React from "react";
 import PSummaryAD from "../PSummary/PSummaryAD";
 import Practical from "../Practical/Practical";
 import ProgramSection from "@/components/course/programSection/programSection";
-import ReviewSlider from "@/components/course/reviewSlider/ReviewSlider";
+import ReviewSlider from "@/components/course/reviewSlider/reviewSlider";
 import UpskillMbl from "@/components/course/upskillingSection/UpskillMbl";
 import UpskillingSection from "@/components/course/upskillingSection/upskillingSection";
 import MentorsSection from "@/components/Global/MentorsSection/MentorsSection";
@@ -61,9 +61,9 @@ const FirstPart = ({ ProggramSectionData, summaryData, customClassName }) => {
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
       />
 
-<OutcomeSection />
+      <OutcomeSection />
 
-<AnimationNew />
+      <AnimationNew />
 
       <ReviewSlider />
       <MentorsSection />

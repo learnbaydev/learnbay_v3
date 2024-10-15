@@ -144,41 +144,40 @@ const SyllabusSection = ({
               {Array.isArray(section.popuplist) &&
               section.popuplist.length > 0 ? (
                 <Swiper
-                  spaceBetween={10}
-                  slidesPerView={1} // Set default to 1 for mobile view
-                  centeredSlides={true}
-                  className={styles.swiper}
-                  ref={swiperRef}
-                  grabCursor={true} // Enable grab cursor
-                  touchRatio={1} // Set touch ratio
-                  freeMode={false} // Ensure free mode is disabled for smoother slides
-                  modules={[EffectCoverflow]}
-                  effect="coverflow"
-                  coverflowEffect={{
-                    rotate: 0,
-                    stretch: 40,
-                    depth: 100,
-                    modifier: 2,
-                  }}
-                  initialSlide={initialSlide}
-                  onSlideChange={updateActiveSlides}
-                  breakpoints={{
-                    320: { slidesPerView: 1, spaceBetween: 10 },
-                    768: { slidesPerView: 2, spaceBetween: 20 },
-                    1024: { slidesPerView: 3, spaceBetween: 30 },
-                    1440: { slidesPerView: 3, spaceBetween: 30 },
-                  }}
-                >
+                spaceBetween={10}
+                slidesPerView={1} // Default for mobile view
+                centeredSlides={true}
+                className={styles.swiper}
+                ref={swiperRef}
+                grabCursor={true}
+                touchRatio={2} // Adjusted for sensitivity
+                freeMode={false}
+                modules={[EffectCoverflow]}
+                effect="coverflow"
+                coverflowEffect={{
+                  rotate: 0,
+                  stretch: 40,
+                  depth: 100,
+                  modifier: 2,
+                }}
+                initialSlide={initialSlide}
+                onSlideChange={updateActiveSlides}
+                breakpoints={{
+                  320: { slidesPerView: 1, spaceBetween: 10 },
+                  480: { slidesPerView: 1.5, spaceBetween: 15 }, // New breakpoint for small screens
+                  768: { slidesPerView: 2, spaceBetween: 20 },
+                  1024: { slidesPerView: 3, spaceBetween: 30 },
+                  1440: { slidesPerView: 3, spaceBetween: 30 },
+                }}
+              >
                   {section.popuplist.map((item, idx) => (
-                    <SwiperSlide
-                      key={item.id}
-                      data-swiper-slide-index={idx}
-                      className={`${styles.swiperSlide} ${
-                        activeSlides.includes(idx.toString())
-                          ? styles.active
-                          : ""
-                      }`}
-                    >
+                   <SwiperSlide
+                   key={item.id}
+                   data-swiper-slide-index={idx}
+                   className={`${styles.swiperSlide} ${
+                     activeSlides.includes(idx.toString()) ? styles.active : ""
+                   }`}
+                 >
                       <div className={styles.card}>
                         <div className={styles.cardContent}>
                           <div className={styles.cardHead}>

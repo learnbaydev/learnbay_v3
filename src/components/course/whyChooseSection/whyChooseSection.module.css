@@ -3,7 +3,6 @@
   background: #212121;
   width: 1300px;
   margin: auto;
-  margin-top: 70px;
   color: #000;
   padding: 70px 0px 0px 0px;
 }
@@ -37,16 +36,22 @@
   grid-template-columns: 50% 30%;
 }
 
-.innerDivTwo,
 .innerDivFour {
   grid-template-columns: 30% 46%;
+}
+
+.innerDivTwo{
+  grid-template-columns: 35% 42%;
 }
 
 .innerDivOne {
   margin-top: 80px;
 }
 
-.SecondFour h3,
+.SecondFour h3 {
+  color: #fff;
+  font-weight: 600;
+}
 .SecondFour p {
   color: #fff;
 }
@@ -54,6 +59,9 @@
 .SecondFour p {
   font-size: 16px;
   line-height: 28px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 .innerDivFour {
@@ -75,13 +83,32 @@
   padding: 50px;
 }
 
-.SecondFour {
-  background: url("https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/four_bottom_doubt.webp");
-  background-size: contain;
-  height: fit-content;
-  background-repeat: no-repeat;
-  padding: 50px;
+.twoSecond {
+  position: relative;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 30px;
+    background: linear-gradient(270deg, rgba(0, 114, 188, 0.15) 0.32%, rgba(0, 114, 188, 0.00) 98.75%);
+    color: white;
+    z-index: 1;
 }
+
+.twoSecond::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 30px; /* Match the border radius */
+  padding: 3px; /* Adjust the border thickness */
+  background: linear-gradient(to right, #0072BC, #212121); /* Gradient border */
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude; /* Makes only the border visible */
+  z-index: -1; /* Ensures the border stays behind the content */
+}
+
 
 .ytBot {
   padding: 0px 20px;
@@ -93,19 +120,6 @@
   background: rgba(4, 201, 136, 0.1);
 }
 
-.twoSecond {
-  background-repeat: no-repeat;
-  padding: 24px 70px 35px 40px;
-  border-width: 5px 0px 5px 5px;
-  border-radius: 40px;
-  border-color: #0072bc70;
-  background: linear-gradient(
-    270deg,
-    rgba(0, 114, 188, 0.15) 0.32%,
-    rgba(0, 114, 188, 0) 98.75%
-  );
-  border-style: solid;
-}
 
 .threeFirst {
   background: url("https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project_choose.webp");
@@ -146,6 +160,7 @@
   font-weight: 400;
   /* margin-right: 85px; */
   line-height: 25px;
+  width: fit-content;
 }
 
 .domainText {
@@ -192,20 +207,32 @@
   padding: 7px 12px;
   margin-top: 45px;
 }
-
 .SecondFour {
-  padding: 24px 70px 35px 40px;
-  border-width: 4px 4px 4px 0px;
-  border-radius: 30px;
-  border-color: #04c988;
-  background: linear-gradient(
-    270deg,
-    rgba(4, 201, 136, 0) 0%,
-    rgba(4, 201, 136, 0.15) 100%
-  );
-  border-style: solid;
-  padding: 30px;
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  border-radius:30px; /* Match the border radius */
+  background: linear-gradient(270deg, rgba(4, 201, 136, 0.00) 0%, rgba(4, 201, 136, 0.15) 100%);
+  color: white; /* Text color */
+  z-index: 1; /* Ensure the content stays above the gradient border */
 }
+
+.SecondFour::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 30px; /* Match the border radius */
+  padding: 3px; /* Adjust the border thickness */
+  background: linear-gradient(to right, #212121, #04C988); /* Gradient border */
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude; /* Makes only the border visible */
+  z-index: -1; /* Ensures the border stays behind the content */
+}
+
 
 .botDivYellow p {
   font-size: 14px;
@@ -300,7 +327,7 @@
 @media only screen and (max-width: 641px) {
   .container {
     border-radius: 0;
-    margin-top: 50px;
+    margin-top: 0;
     padding-top: 40px;
     padding-bottom: 1px;
   }
@@ -329,9 +356,12 @@
   }
   .twoSecond {
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 30px;
     border-width: 2.5px 0cqh 2.5px 2.5px;
   }
+
+
+  
   .oneFirst {
     padding: 20px 10px;
   }
@@ -419,7 +449,7 @@
     padding: 14px;
   }
   .SecondFour h3 {
-    font-size: 24px;
+    font-size: 22px;
   }
   .SecondFour p {
     font-size: 12px;

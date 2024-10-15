@@ -9,6 +9,8 @@
   margin-top: 50px;
 }
 
+
+
 .first {
   border-radius: 6px;
   background: #f4fbff;
@@ -550,6 +552,27 @@ padding: 24px 0px 40px 0px;
 .pImp {
   font-size: 12px;
   line-height: normal;
+}
+
+.btnone {
+  border-radius: 30px;
+  background: #0072bc;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 20px 8px 10px;
+  cursor: pointer;
+}
+.btnDown{
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
 }
 
 @media (max-width: 1281px) {

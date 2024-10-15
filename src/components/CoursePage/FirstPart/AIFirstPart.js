@@ -16,7 +16,7 @@ const OutcomeSection = dynamic(() =>
   import("@/components/course/outcomeSection/outcomeSection")
 );
 const WhyChooseSection = dynamic(() =>
-  import("@/components/course/whyChoose/WhyChooseNew")
+  import("@/components/course/whyChooseSection/whyChooseSection")
 );
 const AIFirstPart = ({ ProggramSectionData, summaryData }) => {
   const [isMobile, setIsMobile] = useState(false);

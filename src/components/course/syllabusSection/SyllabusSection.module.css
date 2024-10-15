@@ -256,6 +256,7 @@
   white-space: nowrap;
   line-height: 6; /* Ensure no extra space between letters */
   font-weight: 600;
+  margin-top: 35px;
 }
 .leftinside img {
   border-radius: 50%;
@@ -275,6 +276,37 @@
   align-items: center;
   z-index: 1000;
   overflow: auto;
+}
+
+/* Customize scrollbar for webkit browsers */
+.popup::-webkit-scrollbar {
+  width: 30px; /* Width of the scrollbar */
+}
+
+.popup::-webkit-scrollbar-thumb {  background-color: #555; /* Color on hover */
+  border-radius: 6px; /* Rounded corners for the scrollbar thumb */
+
+}
+
+.popup::-webkit-scrollbar-track {
+  background-color: #f0f0f0; /* Background of the scrollbar track */
+  border-radius: 6px; /* Rounded corners for the scrollbar track */
+}
+
+.popup::-webkit-scrollbar-thumb:hover {
+
+}
+/* For Firefox */
+.popup {
+  scrollbar-width:20px; /* Thin scrollbar */
+  scrollbar-color: #555 #f0f0f0; /* Color of scrollbar thumb and track */
+ scroll-behavior: smooth;
+ scroll-snap-type: proximity;
+ 
+}
+
+.popup::-webkit-scrollbar-corner{
+  background-color: red;
 }
 
 .swiper {
@@ -598,6 +630,7 @@ line-height: 126.5%; /* 18.975px */
     flex-direction: column;
     gap: 20px;
     margin-bottom: 0;
+    margin: 30px;
   }
   .card{
     width: 350px;

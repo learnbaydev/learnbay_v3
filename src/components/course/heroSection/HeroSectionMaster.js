@@ -85,8 +85,11 @@ function HeroSectionMaster({
                 <h5>Most recommended course for professionals</h5>
               </div>
               <h1>
-              Data Science and AI 
-                <span className={styles.spanMaster}> Master Certification Program</span> 
+                Data Science and AI
+                <span className={styles.spanMaster}>
+                  {" "}
+                  Master Certification Program
+                </span>
               </h1>
               <div className={styles.points}>
                 <div>
@@ -99,22 +102,25 @@ function HeroSectionMaster({
                   <p>90%</p>
                 </div>
                 <hr className={styles.hrOne} />
-              
+
                 <div>
                   <span>Hours of learning </span>
                   <p>300+</p>
                 </div>
-              
               </div>
 
-              <div className={styles.btnDiv} onClick={popupShow}>
-                <Button text="DOWNLOAD SYLLABUS" grayButton />
-                <Button
-                  text="START MY APPLICATION"
-                  OrangeButton={OrangeButton}
-                  purpleButton={purpleButton}
-                  onClick={popupShow}
-                />
+              <div className={styles.btnDiv}>
+                <div onClick={popupShow} className={styles.btn}>
+                  {" "}
+                  <Button text="DOWNLOAD SYLLABUS" grayButton />
+                </div>
+                <div onClick={popupShow}>
+                  <Button
+                    text="START MY APPLICATION"
+                    OrangeButton={OrangeButton}
+                    purpleButton={purpleButton}
+                  />
+                </div>
               </div>
 
               <div className={styles.imgBot}>
@@ -148,27 +154,26 @@ function HeroSectionMaster({
             </div>
 
             {/* Right-side form, mobile only */}
-      
-              <Suspense fallback={<div>Loading Form...</div>}>
-                <div className={styles.formdiv}>
-                  <h3>
-                    Check Your <span className={styles.span}>Eligibility</span>
-                  </h3>
-                  <Form
-                    dataScienceCounselling={dataScienceCounselling}
-                    upSkillingHide={upSkillingHide}
-                    interstedInHide={interstedInHide}
-                  />
-                </div>
-              </Suspense>
 
+            <Suspense fallback={<div>Loading Form...</div>}>
+              <div className={styles.formdiv}>
+                <h3>
+                  Check Your <span className={styles.span}>Eligibility</span>
+                </h3>
+                <Form
+                  dataScienceCounselling={dataScienceCounselling}
+                  upSkillingHide={upSkillingHide}
+                  interstedInHide={interstedInHide}
+                />
+              </div>
+            </Suspense>
           </div>
         </div>
       </div>
 
       {/* Bottom Section */}
       <div className="containerWidth">
-      <div className={`${styles.botDiv} ${styles.bottomSection}`}>
+        <div className={`${styles.botDiv} ${styles.bottomSection}`}>
           <div className={styles.innerBotDiv}>
             <Image
               src={applicationIcon}

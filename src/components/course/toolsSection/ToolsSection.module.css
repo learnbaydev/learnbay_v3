@@ -2,7 +2,7 @@
   display: grid;
   justify-content: center;
   gap: 30px;
-  margin: 70px auto;
+  margin: 0 auto;
 }
 
 .container h2 {
@@ -16,15 +16,29 @@
   width: auto;
   height: auto;
 }
+.mobileImage{
+  display: none;
+}
+.desktopImg{
+  display: block;
+}
 
 @media only screen and (max-width: 641px) {
   .container {
     padding: 0px 24px 50px 24px;
+    margin: 10px;
   }
   .container h2 {
     font-size: 22px;
   }
   .container img {
     width: 100%;
+  }
+
+  .mobileImage{
+    display: block;
+  }
+  .desktopImg{
+    display: none;
   }
 }

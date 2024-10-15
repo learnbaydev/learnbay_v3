@@ -471,19 +471,57 @@ line-height: 155%; /* 34.1px */
     margin-top: 0;
 
   }
-  .tabMain {
-    width: 100%;
-    flex-wrap: wrap;
-    gap: 3px;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
 
-  }
+/* Custom scrollbar styles for .tabMain */
+.tabMain {
+  width: 100%; /* Full width */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; /* Prevent wrapping */
+  gap: 10px; /* Space between tabs */
+  overflow-x: auto; /* Allow horizontal scrolling */
+  scroll-behavior: smooth; /* Smooth scrolling */
+  -webkit-overflow-scrolling: touch; /* For iOS devices */
+  padding: 10px 0; /* Optional padding for aesthetics */
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #0072bc black; /* For Firefox (thumb, track) */
+}
+
+/* WebKit browsers */
+.tabMain::-webkit-scrollbar {
+  height: 1px; /* Height of horizontal scrollbar */
+}
+
+.tabMain::-webkit-scrollbar-track {
+  background: black; /* Track color */
+  border-radius: 10px; /* Round track */
+}
+
+.tabMain::-webkit-scrollbar-thumb {
+  background: #0072bc; /* Scrollbar thumb color */
+  border-radius: 10px; /* Round scrollbar thumb */
+  border: 10px solid black; /* Add border around the thumb */
+}
+
+.tabMain::-webkit-scrollbar-thumb:hover {
+  background: #005f8a; /* Thumb color on hover (optional) */
+}
+
+.tabdiv {
+  flex: 0 0 auto; /* Ensure each tab does not shrink */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer on hover */
+  min-width: 150px; /* Minimum width to prevent small tabs */
+  padding: 10px 20px; /* Optional padding for tabs */
+  background-color: white; /* Tab background color for visibility */
+}
+
+
+
   .tabMain p {
     font-size: 14px;
     font-weight: 600;
+    margin-right: 10px;
   }
   .tabMain p :nth-child(2) {
     background-color: red;
@@ -647,5 +685,16 @@ line-height: 155%; /* 34.1px */
   }
   .buttons button {
     font-size: 12px;
+  }
+  .absloute{
+    top: 130px;
+    width: fit-content;
+    height: fit-content;
+  }
+  .contentConteiner h2 {
+    font-size: 18px;
+  }
+  .buttonsMaster{
+    top: -20px;
   }
 }

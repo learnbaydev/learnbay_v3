@@ -188,8 +188,18 @@ const FeeContent = ({
               </div>
             </div>
           </div>
+        
+
+    
         </div>
+     <div className={styles.btnDown}>
+     <div className={styles.btnone} onClick={popupShow}>
+          <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Thumb_Icon+(1).webp" width={30} height={30} loading="lazy" alt="Python"/>
+          Start Your Application
+        </div>
+     </div>
       </div>
+      
 
       {/* Emi Popup */}
       <Modal

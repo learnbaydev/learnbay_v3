@@ -1,37 +1,43 @@
 export const DataScienceCourseData = [
   {
-
     summarySection: [
-
       {
         id: 1,
         title: "Domain Electives",
-        description: "Work on Live projects from multiple domains like Retail, BFSI, Pharma etc.",
-        imageSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_Icon+(1).webp",
+        description:
+          "Work on Live projects from multiple domains like Retail, BFSI, Pharma etc.",
+        imageSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_Icon+(1).webp",
         imageAlt: "DomainElectives",
       },
       {
         id: 2,
         title: "Real Project Experience",
-        description: "Gain experience of managing analytics project from scratch.",
-        imageSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_iconTwo+(1).webp",
+        description:
+          "Gain experience of managing analytics project from scratch.",
+        imageSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_iconTwo+(1).webp",
         imageAlt: "RealProjectExperience",
       },
-  
+
       {
         id: 3,
         title: "Placement Assistance",
-        description: "Receive personalized placement assistance from our dedicated team.",
-        imageSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_iconThree+(1).webp",
+        description:
+          "Receive personalized placement assistance from our dedicated team.",
+        imageSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_iconThree+(1).webp",
         imageAlt: "PlacementAssistance",
       },
       {
         id: 4,
         title: "Certification",
         description: "Get certified from renowned industries.",
-        imageSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/mastr_Icon_four+(1).webp",
+        imageSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/mastr_Icon_four+(1).webp",
         imageAlt: "Certification",
-        extraImageSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_MICROS.webp",
+        extraImageSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_MICROS.webp",
         extraImageAlt: "IBMLOGO",
       },
     ],
@@ -39,14 +45,15 @@ export const DataScienceCourseData = [
     ProggramSection: [
       {
         content: {
-      BoldText:"Working professional ",
-          nonBold:" with min",
+          BoldText: "Working professional ",
+          nonBold: " with min",
           to: "",
           senior: "",
           yearExp: "1+ Year of Experience",
           description:
             "This program is perfect for Data Analyst, Web Developer, QA, Technical Support Engineer, Junior Data Scientist, Cyber security Analyst, Cloud Support Engineer, DevOps Engineer (Junior Level)",
-          importantNote: "This program is not for fresh graduates. You must have at least 1 year of work experience. To know more check eligibility",
+          importantNote:
+            "This program is not for fresh graduates. You must have at least 1 year of work experience. To know more check eligibility",
           points: [
             {
               title: "Software Developer/Engineer",
@@ -61,16 +68,15 @@ export const DataScienceCourseData = [
         rightImg:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ryt_programImg+(2).webp",
         popupTitle: "Eligibility Check",
-        formProps: {
-  
-        },
+        formProps: {},
       },
     ],
-    certificateNew:[
+    certificateNew: [
       {
         id: 1,
         title: "IBM Course Completion Certificate",
-        imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/ibm_Cert_new.webp",
+        imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/ibm_Cert_new.webp",
         imageWidth: 400,
         imageHeight: 260,
         description: [
@@ -82,7 +88,8 @@ export const DataScienceCourseData = [
       {
         id: 2,
         title: "Microsoft Course Completion Certificate",
-        imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/microsoft_Cert_new.webp",
+        imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/microsoft_Cert_new.webp",
         imageWidth: 400,
         imageHeight: 260,
         description: [
@@ -94,15 +101,16 @@ export const DataScienceCourseData = [
       {
         id: 3,
         title: "Capstone Project Certificate from IBM",
-        imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project_ibm_Cert_new.webp",
+        imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project_ibm_Cert_new.webp",
         imageWidth: 360,
-    imageHeight: 240,
+        imageHeight: 240,
         description: [
           "Globally recognized IBM certification based on industrial-level projects.",
           "Earn 1 capstone project certification from IBM.",
           "Individualized project experience with easy access to premium job opportunities.",
         ],
-      }
+      },
     ],
 
     sections: [
@@ -112,78 +120,55 @@ export const DataScienceCourseData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/peoples.webp",
         width: 80,
         height: 80,
-        title: "Term 1",
+        title: "Module 0",
         toolsImg:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
         toolwidth: "200",
         toolheight: "40",
-        description: "Foundations of Data Science and Leadership",
+        description: "Python Bootcamp for Non-Programmers",
         duration: "1.5 Months",
-        contentModule: "Module 1",
-        contentDescription: "Introduction to data science for Managers",
-        contentDetails: [
-          "What is Data Science, Data Analytics, Machine Learning, Artificial Intelligence?",
-          "Role of Data in Various Industries and Businesses",
-        ],
+        contentModule: "Topics Covered",
+        contentDescription: "",
+        contentDetails: ["Installation & Setup", "Basic Syntax & I/O"],
         popuplist: [
           {
-            term: "Term 1",
-            title: "Foundations of Data Science and Leadership",
+            term: "Module 0",
+            title: "Python Bootcamp for Non-Programmers",
             duration: "1.5 months",
             modules: [
               {
-                moduleTitle: "Module 1",
-                moduleContent: "Introduction to data science for Managers",
+                moduleTitle: "Topic 1",
+                moduleContent: "Installation & Setup",
                 moduleList: [
-                  "What is Data Science, Data Analytics, Machine Learning, Artificial Intelligence?",
-                  "Role of Data in Various Industries and Businesses",
-                  "Utilizing Data to Enhance Industrial Operations and Management",
-                  "Use Cases of Data Analytics and AI in Various Domains",
-                  "BFSI",
-                  "Manufacturing",
-                  "Retail",
-                  "HR",
-                  "Marketing",
-                  "Sales",
-                  "Healthcare",
+                  "Installing Python and setting up IDEs (Jupyter, VSCode).",
+                  "Overview of the Python environment and running basic scripts.",
+                  "Introduction to Jupyter Notebook for interactive coding.",
                 ],
               },
               {
-                moduleTitle: "Module 2",
-                moduleContent: "AI in Business Strategy",
+                moduleTitle: "Topic 2",
+                moduleContent: "Basic Syntax & I/O",
                 moduleList: [
-                  "AI-Driven Decision Making: Leveraging AI for strategic business decisions",
-                  "AI and Business Process Automation: Automating business processes using AI",
-                  "Case Studies: Successful AI implementations in various business domains",
+                  "Understanding variables, data types (integers, floats, strings, booleans).",
+                  "Input and output operations using the input() and print() functions.",
+                  "Performing basic arithmetic operations.",
                 ],
               },
               {
-                moduleTitle: "Module 3",
-                moduleContent: "Data Strategy and Governance for Managers",
+                moduleTitle: "Topic 3",
+                moduleContent: "Control Structures",
                 moduleList: [
-                  "Developing a Data Strategy",
-                  "Aligning data initiatives with business goals and Roadmap for data maturity",
-                  "Data Governance and Ethics",
-                  "Establishing data governance frameworks and Ethical considerations in data usage",
-                  "Managing Data Quality",
-                  "Ensuring data integrity and accuracy and Tools and techniques for data validation",
+                  "Conditional logic using if, else, and elif statements.",
+                  "Looping with for and while loops to iterate over data.",
                 ],
               },
               {
-                moduleTitle: "Module 4",
-                moduleContent: "Excel",
+                moduleTitle: "Topic 4",
+                moduleContent: "Basic Data Structures",
                 moduleList: [
-                  "Introduction to Excel for Data Science",
-                  "Overview of Excel Interface and Functions",
-                  "Data Types and Data Entry",
-                  "Basic Formulas and Functions",
-                  "Data Cleaning and Preparation in Excel",
-                  "Data Analysis with Excel",
-                  "Advanced Excel Functions",
-                  "Data Visualization with Excel",
-                  "PivotTables and PivotCharts",
-                  "Data Automation in Excel",
-                  "Project Management in Excel",
+                  "Introduction to lists, tuples, and dictionaries.",
+                  "Accessing, modifying, and iterating through collections.",
+                  "Understanding how to use indexing and slicing with lists and tuples",
                 ],
               },
             ],
@@ -393,18 +378,18 @@ export const DataScienceCourseData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/greens.webp",
         width: 80,
         height: 80,
-        title: "Term 2",
+        title: "Term 1",
         toolsImg:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term2_tool.webp",
         toolwidth: "400",
         toolheight: "76",
-        description: "Technical Skills for Data Science",
-        duration: "4 Months",
-        contentModule: "Module 1",
-        contentDescription: "Python",
+        description: "Python for Data Science",
+        duration: "40-50 hrs",
+        contentModule: "Section 1",
+        contentDescription: "Core Python Basics",
         contentDetails: [
-          "Data Analysis Using Numpy",
-          "Data Visualization Using Matplotlib",
+          "Python Environment Setup",
+          "Python Syntax and Code Structure",
         ],
         popuplist: [
           {
@@ -471,29 +456,29 @@ export const DataScienceCourseData = [
           },
 
           {
-            term: "Term 2",
-            duration: "4 months",
-            title: "Technical Skills for Data Science",
+            term: "Term 1",
+            duration: "40-50 hrs",
+            title: "Python for Data Science",
             modules: [
               {
-                moduleTitle: "Module 5",
-                moduleContent: "Python",
+                moduleTitle: "Section 1",
+                moduleContent: "Core Python Basics",
                 moduleList: [
-                  "Data Analysis Using Numpy",
-                  "Data Visualization Using Matplotlib",
-                  "Data Visualization Using Seaborn",
+                  "Python Environment Setup",
+                  "Python Syntax and Code Structure",
+                  "Data Types and Control Flow",
                 ],
               },
               {
-                moduleTitle: "Module 6",
-                moduleContent: "Statistics",
+                moduleTitle: "Section 2",
+                moduleContent: "Data analytics Using Python",
                 moduleList: [
-                  "Fundamentals of Math and Probability",
-                  "Descriptive Statistics",
-                  "Inferential Statistics",
-                  "Data Processing & EDA",
-                  "Linear Algebra",
-                  "Regression Analysis",
+                  "File I/O An d Exceptional Handling and Regular Expression",
+                  "Basic Web Scraping for Data Analytics",
+                  "Data Analysis using Numpy",
+                  "Data Analysis using Pandas",
+                  "Data Visualization using Matplotlib",
+                  "Data Visualization using Seaborn",
                 ],
               },
               {
@@ -524,7 +509,7 @@ export const DataScienceCourseData = [
             ],
           },
           {
-            term: "Term 3",
+            term: "Term 2",
             duration: "4 months",
             title: "SQL, Tableau, Power BI, Big data ",
             modules: [
@@ -1827,13 +1812,13 @@ export const DataScienceCourseData = [
         Module0: {
           title: "Module 0 :- Preparatory Classes (Programming + Maths)",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_round.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_Up.webp",
-        points: "Cohort Orientation",
-        points1: "Fundamentals of programming",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_Up.webp",
+          points: "Cohort Orientation",
+          points1: "Fundamentals of programming",
           content: [
             {
               chap: {
@@ -1876,13 +1861,13 @@ export const DataScienceCourseData = [
         Module0: {
           title: "TERM 1 :- Python Programming",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
-        points: "Python Programming",
-        points1: "Statistics and Machine Learning",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
+          points: "Python Programming",
+          points1: "Statistics and Machine Learning",
           content: [
             {
               chap: {
@@ -1915,13 +1900,13 @@ export const DataScienceCourseData = [
         Module0: {
           title: " TERM 2 :- Statistics and Machine Learning ",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
-        points: "Statistics",
-        points1: "Machine Learning",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
+          points: "Statistics",
+          points1: "Machine Learning",
           content: [
             {
               chap: {
@@ -1972,14 +1957,14 @@ export const DataScienceCourseData = [
         Module0: {
           title: "TERM 3 :- Big Data Analytics and Visualization",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
-        points: "SQL",
-        points1: "MongoDB",
-        points2:"Tableau",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
+          points: "SQL",
+          points1: "MongoDB",
+          points2: "Tableau",
           content: [
             {
               chap: {
@@ -2069,13 +2054,13 @@ export const DataScienceCourseData = [
         Module0: {
           title: "BONUS :- AI Generative Tools and Future Trends",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_up.webp",
-        points: "Emerging Trends in AI",
-        points1: "NLP and ChatGPT",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_up.webp",
+          points: "Emerging Trends in AI",
+          points1: "NLP and ChatGPT",
           content: [
             {
               chap: {
@@ -2220,13 +2205,13 @@ export const DataScienceCourseData = [
         Module0: {
           title: "TERM 4 :- AI TOOLS",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_up.webp",
-        points: "Deep Learning",
-        points1: "(NLP)",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_up.webp",
+          points: "Deep Learning",
+          points1: "(NLP)",
           content: [
             {
               chap: {
@@ -2283,13 +2268,13 @@ export const DataScienceCourseData = [
         Module0: {
           title: "TERM 5 :- Data Management and Deployment ",
           imageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_round.webp",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_up.webp",
-        points: "-MLOps",
-        points1: "(NLP)",
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_round.webp",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_up.webp",
+          points: "-MLOps",
+          points1: "(NLP)",
           content: [
             {
               chap: {
@@ -2325,13 +2310,13 @@ export const DataScienceCourseData = [
         Module0: {
           title: "TERM 6 :- Essentials",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_up.webp",
-        points: "Project Management Module",
-        points1: "AI Generative Tools",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_up.webp",
+          points: "Project Management Module",
+          points1: "AI Generative Tools",
           content: [
             {
               chap: {
