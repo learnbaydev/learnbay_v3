@@ -1340,32 +1340,19 @@ const nextConfig = {
         permanent: true,
       },
 
-
       {
         source: "/success-story",
-        destination:
-          "/reviews",
-        permanent: true,
-      },
-
-
-
-      {
-        source: "/data-science-course/enrol-ai-ml/",
-        destination:
-          "/datascience/artificial-intelligence-certification-course",
+        destination: "/reviews",
         permanent: true,
       },
       {
         source: "/terms-conditions-job",
-        destination:
-          "/terms-conditions",
+        destination: "/terms-conditions",
         permanent: true,
       },
       {
         source: "/data-science-certification-courses",
-        destination:
-          "/datascience/data-science-certification-courses",
+        destination: "/datascience/data-science-certification-courses",
         permanent: true,
       },
       {
@@ -1382,8 +1369,7 @@ const nextConfig = {
       },
       {
         source: "/hr-analytics-course",
-        destination:
-          "/datascience/hr-analytics",
+        destination: "/datascience/hr-analytics",
         permanent: true,
       },
       {
@@ -1394,20 +1380,17 @@ const nextConfig = {
       },
       {
         source: "/data-science-course/demo-session-and-sample-class-recordings",
-        destination:
-          "/demo",
+        destination: "/demo",
         permanent: true,
       },
       {
         source: "/data-science-course/privacy-policy-2",
-        destination:
-          "/privacy-policy",
+        destination: "/privacy-policy",
         permanent: true,
       },
       {
         source: "/success-story",
-        destination:
-          "/reviews",
+        destination: "/reviews",
         permanent: true,
       },
       {
@@ -1418,18 +1401,81 @@ const nextConfig = {
       },
       {
         source: "/data-science-course/data-science-and-ai",
-        destination:
-          "/datascience/advance-data-science-certification-courses",
+        destination: "/datascience/advance-data-science-certification-courses",
         permanent: true,
       },
       {
-        source: "/data-science-course/datascience-courses-in-chennai/",
+        source: "/data-science-course/datascience-courses-in-chennai",
         destination:
           "/datascience/chennai/data-science-course-training-in-chennai",
         permanent: true,
       },
- 
-
+      {
+        source: "/data-science-course/enrol-ai-ml",
+        destination:
+          "/datascience/artificial-intelligence-certification-course",
+        permanent: true,
+      },
+      {
+        source: "/data-science-course/blog-post/win-this-covid-19-with-data-science-course",
+        destination:
+          "https://blog.learnbay.co/win-this-covid-19-with-data-science-course",
+        permanent: true,
+      },
+      {
+        source: "/data-science-course/blog-post/you-could-be-a-pro-in-data-science-by-self-assisting",
+        destination:
+          "https://blog.learnbay.co/you-could-be-a-pro-in-data-science-by-self-assisting",
+        permanent: true,
+      },
+      {
+        source: "/data-science-course/blog-post/data-scientist-vs-data-analyst",
+        destination:
+          "https://blog.learnbay.co/data-analyst-vs-data-scientist",
+        permanent: true,
+      },
+      {
+        source: "/data-science-course/blog-post/to-learn-data-science-as-a-working-professional",
+        destination:
+          "https://blog.learnbay.co/data-science-for-working-professionals",
+        permanent: true,
+      },
+      {
+        source: "/data-science-course/blog-post/decision-tree",
+        destination:
+          "https://blog.learnbay.co/everything-about-decision-tree-from-scratch",
+        permanent: true,
+      },
+      {
+        source: "/data-science-course/category/data-science",
+        destination:
+          "https://blog.learnbay.co/category/data-science",
+        permanent: true,
+      },
+      {
+        source: "/data-science-course/blog-post/different-jobs-in-data-science",
+        destination:
+          "https://blog.learnbay.co/different-jobs-opportunities-of-data-science",
+        permanent: true,
+      },
+      {
+        source: "/data-science-course/blog-post/gaussian-and-normal-distribution",
+        destination:
+          "https://blog.learnbay.co/gaussian-and-normal-distribution",
+        permanent: true,
+      },
+      {
+        source: "/data-science-course/blog-post/xgboost-classifier",
+        destination:
+          "https://blog.learnbay.co/everything-about-the-xgboost-classifier",
+        permanent: true,
+      },
+      {
+        source: "/data-science-course/blog-post/regression-techniques-in-machine-learning",
+        destination:
+          "https://blog.learnbay.co/regression-techniques-in-machine-learning",
+        permanent: true,
+      },
     ];
   },
 };

@@ -176,7 +176,7 @@ export default function Home() {
           heading="Our Alumni Speak"
           para="Discover the impact of our programs on career growth"
         />
-  <div className={styles.cityFee}>
+        <div className={styles.cityFee}>
           <FeeSection
             Fee="₹85,000"
             FeeEmi="₹5,572/month"
@@ -184,8 +184,8 @@ export default function Home() {
             weekendbatch="Weekend Batch"
             weekday="MON - FRI"
             weekend="SAT - SUN"
-            WeekdayDate="August 16th"
-            WeekendDate="Sept 29th"
+            WeekdayDate="Nov 8th"
+            WeekendDate="Oct 27th"
             WeekendTime="9:30 AM - 1 PM"
             WeekdayTime="8:00 AM - 10:00 AM"
             FeeContent3="Flexible payment"
@@ -215,7 +215,6 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-      
               DAnalyst={true}
               ProgramBot1={DAnalystPuneCourseData[0].ProgramBot1}
               ProgramBot2={DAnalystPuneCourseData[0].ProgramBot2}
