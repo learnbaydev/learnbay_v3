@@ -40,7 +40,7 @@ const BottomBar = dynamic(() =>
   import("@/components/Global/BottomBar/BottomBar"), 
 );
 
-const SecondPart = ({ certificateNew, sections, FAQNewData }) => {
+const SecondPart = ({ certificateNew, sections, FAQNewData, upskillData }) => {
   const [popupData, setPopupData] = useState([]);
 
   useEffect(() => {
@@ -71,7 +71,7 @@ const SecondPart = ({ certificateNew, sections, FAQNewData }) => {
   return (
     <div>
       <ReviewSlider />
-      <UpskillMbl />
+      <UpskillMbl  upskillData={upskillData}/>
       <UpskillingSection />
       <ProjectSection dataScienceCounselling={true} interstedInHide={true} />
       <SyllabusSection

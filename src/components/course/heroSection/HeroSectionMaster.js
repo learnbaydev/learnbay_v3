@@ -112,11 +112,11 @@ function HeroSectionMaster({
               <div className={styles.btnDiv}>
                 <div onClick={popupShow} className={styles.btn}>
                   {" "}
-                  <Button text="DOWNLOAD SYLLABUS" grayButton />
+                  <Button text=" Download Syllabus" grayButton />
                 </div>
                 <div onClick={popupShow}>
                   <Button
-                    text="START MY APPLICATION"
+                    text="Start My Application"
                     OrangeButton={OrangeButton}
                     purpleButton={purpleButton}
                   />
@@ -139,12 +139,12 @@ function HeroSectionMaster({
               {isMobile && (
                 <div className={styles.btnDivM}>
                   <Button
-                    text="DOWNLOAD SYLLABUS"
+                    text="Download Syllabus"
                     grayButton
                     onClick={popupShow}
                   />
                   <Button
-                    text="START MY APPLICATION"
+                    text="Start my Application"
                     purpleButton={purpleButton}
                     OrangeButton={OrangeButton}
                     onClick={popupShow}

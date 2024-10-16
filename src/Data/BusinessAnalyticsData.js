@@ -3,6 +3,48 @@ import Link from "next/link";
 export const BADataScienceCourseData = [
   {
 
+ // data.js
+ upskillMbl : [
+  {
+    term: 1,
+    duration: "30 hrs",
+    title: "Excel",
+    description: "We will cover Excel fundamentals and advanced features including formulas, functions, pivot tables, and data visualization.",
+    toolsImage: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/tool_BA_one+(1).webp",
+    width:"120",
+    height:"20",
+  },
+  {
+    term: 2,
+    duration: "30 hrs",
+    title: "Statistics",
+    description: "We will cover statistical methods and explore advanced topics like regression analysis, hypothesis testing, EDA. Practice all the topics with real time projects and case studies.",
+    toolsImage: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/tool_ba_two+(1).webp", // replace with actual URL
+    width:"120",
+    height:"20",
+  },
+  {
+    term: 3,
+    duration: "50 hrs",
+    title: "Business Analytics + Deployment",
+    description: "We will cover business analytics basics using popular tools like Excel, SQL, Tableau, and also focus on deployment using cloud platforms. ",
+    toolsImage: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ba_tool_three+(1).webp", // replace with actual URL
+    width:"120",
+    height:"20",
+  },
+  {
+    term: 4,
+    duration: "60 hrs",
+    title: "Data Visualization & Data Analysis with GenAI",
+    description: "We will cover data visualization and data analysis including interactive dashboards, statistical analysis, data mining, and predictive modeling.",
+    toolsImage: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ba_tool_four+(1).webp", // replace with actual URL
+    width:"120",
+    height:"20",
+  },
+
+],
+
+
     summarySection: [
 
       {
@@ -67,6 +109,9 @@ export const BADataScienceCourseData = [
         },
       },
     ],
+
+
+
 
     certificateNew:[
       {

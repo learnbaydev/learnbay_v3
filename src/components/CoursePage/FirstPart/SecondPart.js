@@ -39,7 +39,8 @@ const Content = dynamic(() =>
 const SecondPart = ({
   sections, 
   FAQNewData,
-  certificateNew
+  certificateNew,
+  upskillData
 }) => {
   const [popupData, setPopupData] = useState([]);
 
@@ -90,7 +91,7 @@ const SecondPart = ({
 <ReviewSlider/>
 <MentorsSection/>
 
-<UpskillMbl/>
+<UpskillMbl  upskillData={upskillData}/>
 <UpskillingSection/>
 
 <ProjectSection dataScienceCounselling={true} interstedInHide={true} />

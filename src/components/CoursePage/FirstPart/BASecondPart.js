@@ -51,7 +51,7 @@ const MobileTestimonial = dynamic(() =>
   import("@/components/Home/MobileTestimonial/MobileTestimonial")
 );
 
-const SecondPart = ({ sections, certificateNew, FAQNewData, toolsdynamic }) => {
+const SecondPart = ({ sections, certificateNew, FAQNewData, toolsdynamic, upskillData }) => {
   const [popupData, setPopupData] = useState([]);
   // console.log(popupData);
   useEffect(() => {
@@ -87,8 +87,8 @@ const SecondPart = ({ sections, certificateNew, FAQNewData, toolsdynamic }) => {
     <div>
       <ReviewSlider />
       <MentorsSection />
-      <UpskillMbl />
-      <UpskillingSection />
+      <UpskillMbl  upskillData={upskillData}/>
+      <UpskillingSection  />
 
       <ProjectSection dataScienceCounselling={true} interstedInHide={true} />
       <SyllabusSection

@@ -12,7 +12,7 @@ import UpskillingSection from "@/components/course/upskillingSection/upskillingS
 import MentorsSection from "@/components/Global/MentorsSection/MentorsSection";
 import OutcomeSection from "@/components/course/outcomeSection/outcomeSection";
 import AnimationNew from "@/components/Home/whyChooseSection/AnimationNew";
-const FirstPart = ({ ProggramSectionData, summaryData, customClassName }) => {
+const FirstPart = ({ ProggramSectionData, summaryData, upskillData }) => {
   const pdfUrl = "/Brochure/AI-Master-Certification.pdf";
   return (
     <>
@@ -67,7 +67,7 @@ const FirstPart = ({ ProggramSectionData, summaryData, customClassName }) => {
 
       <ReviewSlider />
       <MentorsSection />
-      <UpskillMbl />
+      <UpskillMbl  upskillData={upskillData}/>
 
       <UpskillingSection />
     </>

@@ -1,5 +1,77 @@
 export const AIMLDataScienceCourseData = [
   {
+
+     // data.js
+     upskillMbl: [
+      {
+        term: 1,
+        duration: "6 Weeks",
+        title: "Python for Data Science",
+        description:
+          "Learn to manipulate and visualize data using core Python libraries such as NumPy, Pandas, and Matplotlib for effective data analysis.",
+        toolsImage:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_one+(1).webp",
+        width: "120",
+        height: "20",
+      },
+      {
+        term: 2,
+        duration: "18 Weeks",
+        title: "Statistics and Machine Learning + GenAI",
+        description:
+          "Apply statistical methods and machine learning algorithms to solve data problems, with an introduction to generative AI techniques.",
+        toolsImage:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_two+(1).webp", // replace with actual URL
+        width: "120",
+        height: "20",
+      },
+      {
+        term: 3,
+        duration: "10 Weeks",
+        title: "Data Visualization & Data Analysis",
+        description:
+          "Master SQL, NoSQL, and Power BI for efficient data management, querying, and visualization of complex datasets.",
+        toolsImage:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_three+(1).webp", // replace with actual URL
+        width: "120",
+        height: "20",
+      },
+
+      {
+        term: 4,
+        duration: "60 hrs",
+        title: "AI Tools and Deployment",
+        description:
+          "Build and deploy advanced AI models, including deep learning, NLP, CV and Reinforcement Learning using cloud-based MLOps tools for real-world applications.",
+        toolsImage:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_four+(1).webp", // replace with actual URL
+        width: "120",
+        height: "20",
+      },
+      {
+        term: 5,
+        duration: "6 Weeks",
+        title: "Data Structure and Algorithm",
+        description:
+          "We will cover AI tools fundamentals and advanced features including machine learning frameworks, natural language processing, and computer vision applications.",
+        toolsImage:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_six+(1).webp ", // replace with actual URL
+        width: "120",
+        height: "20",
+      },
+      {
+        term: 6,
+        duration: "6 Weeks",
+        title: "GenAI for Software Developers",
+        description:
+          "We will cover AI tools fundamentals and advanced features including machine learning frameworks, natural language processing, and computer vision applications.",
+        toolsImage:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/gen_ai_tools+(1).webp", // replace with actual URL
+        width: "120",
+        height: "20",
+      },
+      
+    ],
     summarySection: [
       {
         id: 1,

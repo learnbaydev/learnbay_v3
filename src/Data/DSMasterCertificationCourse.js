@@ -1,5 +1,75 @@
 export const DataScienceCourseData = [
   {
+    // data.js
+    upskillMbl: [
+      {
+        term: 1,
+        duration: "6 Weeks",
+        title: "Python for Data Science",
+        description:
+          "We will cover Python basics and data analytics using popular libraries like NumPy, Pandas, Matplotlib, and Seaborn.",
+        toolsImage:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_one+(1).webp",
+        width: "120",
+        height: "20",
+      },
+      {
+        term: 2,
+        duration: "18 Weeks",
+        title: "Statistics and Machine Learning + GenAI",
+        description:
+          "We will cover statistical methods and explore advanced topics like regression analysis, hypothesis testing, EDA and machine learning algorithms.",
+        toolsImage:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_two+(1).webp", // replace with actual URL
+        width: "120",
+        height: "20",
+      },
+      {
+        term: 3,
+        duration: "10 Weeks",
+        title: "Data Visualization & Data Analysis",
+        description:
+          "We will cover data visualization and data analysis including interactive dashboards, statistical analysis, data mining, and predictive modeling.",
+        toolsImage:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_three+(1).webp", // replace with actual URL
+        width: "120",
+        height: "20",
+      },
+      {
+        term: 4,
+        duration: "6 Weeks",
+        title: "Data Structure and Algorithm",
+        description:
+          "We will cover data structures and algorithms using popular languages like Python and Java. You’ll understand concepts such as arrays, linked lists, trees, sorting, and searching algorithms.",
+        toolsImage:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_four+(1).webp", // replace with actual URL
+        width: "120",
+        height: "20",
+      },
+      {
+        term: 5,
+        duration: "6 Weeks",
+        title: "Excel",
+        description:
+          "We will cover Excel fundamentals and advanced features including formulas, functions, pivot tables, and data visualization.",
+        toolsImage:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_five+(1).webp", // replace with actual URL
+        width: "60",
+        height: "20",
+      },
+      {
+        term: 6,
+        duration: "60 hrs",
+        title: "AI Tools and Deployment",
+        description:
+          "We will cover AI tools fundamentals and advanced features including machine learning frameworks, natural language processing, and computer vision applications.",
+        toolsImage:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_six+(1).webp", // replace with actual URL
+        width: "120",
+        height: "20",
+      },
+    ],
+
     summarySection: [
       {
         id: 1,

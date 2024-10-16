@@ -15,11 +15,8 @@ import dynamic from "next/dynamic";
 import Head from "next/head";
 import { useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
-import Navbar from "../components/Global/Navbar/Navbar";
 import NavbarHome from "@/components/Global/Navbar/NavbarHome";
-const WhyLearnbay = dynamic(() =>
-  import("@/components/Home/WhyLearnbay/WhyLearnbay")
-);
+
 
 const ContactUs = dynamic(() =>
   import("@/components/Home/ContactUs/ContactUs")

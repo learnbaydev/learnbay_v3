@@ -7,7 +7,7 @@
     border-radius: 54px;
     background: #212121;
 padding: 50px 0px 100px 0px;
-    gap: 42px;
+    gap:40px;
 }
 .upskillHeading{
     font-size: 45px;
@@ -37,7 +37,7 @@ padding: 50px 0px 100px 0px;
 }
 .boxContainer{
     color: white;
-    width:300px;
+    width:250px;
 }
 
 
@@ -156,7 +156,7 @@ line-height: 125%; /* 31.25px */
 
 .svgLine {
   position: relative;
-    left: 124px;
+    left: 140px;
     text-align: center;
     top: -27px;
 }
@@ -171,7 +171,7 @@ line-height: 125%; /* 31.25px */
   position: absolute;
   left: 10px;
   text-align: center;
-  top: 12px;
+  top: -10px;
   z-index: 2;
 
 

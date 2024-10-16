@@ -4,6 +4,7 @@ import CertificateSection from "@/components/course/certificateSection/Certifica
 import ProjectSection from "@/components/course/projectSection/ProjectSection";
 import SyllabusSection from "@/components/course/syllabusSection/SyllabusSection";
 import ToolsSection from "@/components/course/toolsSection/ToolsSection";
+import UpskillMbl from "@/components/course/upskillingSection/UpskillMbl";
 import dynamic from "next/dynamic";
 const FAQNew = dynamic(() =>
   import("../../../components/CoursePage/FAQNew/FAQNew")
@@ -24,12 +25,14 @@ const UpskillingSection = dynamic(() =>
   import("@/components/course/upskillingSection/upskillingSection")
 );
 
-const ExecutiveSecondPart = ({ sections, FAQNewData, certificateNew }) => {
+const ExecutiveSecondPart = ({ sections, FAQNewData, certificateNew, upskillData }) => {
   const pdfUrl = "/Brochure/Executive-iit-guwahati-generic.pdf";
   return (
     <>
       <ReviewSlider />
       <MentorsSection />
+
+      <UpskillMbl upskillData={upskillData}/>
       <UpskillingSection />
       <ProjectSection dataScienceCounselling={true} interstedInHide={true} />
       <SyllabusSection

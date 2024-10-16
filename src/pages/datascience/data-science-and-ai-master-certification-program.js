@@ -77,18 +77,24 @@ function Blockchain({ DataScienceCourseDataJson }) {
       </Head>
       <main>
         <FirstPart
+
+
           summaryData={
             DataScienceCourseData.DataScienceCourseData[0].summarySection
           }
           ProggramSectionData={
             DataScienceCourseData.DataScienceCourseData[0].ProggramSection
           }
+
+          upskillData={DataScienceCourseData.DataScienceCourseData[0].upskillMbl}
         
         />
       </main>
       <main>
         <SecondPart
+        
          sections={DataScienceCourseData.DataScienceCourseData[0].sections}
+
          certificateNew={
            DataScienceCourseData.DataScienceCourseData[0].certificateNew
          }

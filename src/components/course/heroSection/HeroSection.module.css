@@ -622,6 +622,7 @@ opacity: 0.2; /* Adjust opacity for the grid */
     flex-direction: column;
     margin: 20px 24px;
     gap: 40px;
+    padding: 0;
   }
   .innerBotDiv img {
     width: 60px;
@@ -651,7 +652,7 @@ opacity: 0.2; /* Adjust opacity for the grid */
     display: flex;
     margin: 50px 0 0 0;
     gap: 20px;
-    justify-content: center;
+  
   }
   .btnDivM .outlineButton,
   .btnDivM .orangeButton {

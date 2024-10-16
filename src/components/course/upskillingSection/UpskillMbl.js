@@ -24,12 +24,11 @@ const SVgLine = () => (
   </svg>
 );
 
-const UpskillMbl = () => {
+const UpskillMbl = ({ upskillData }) => { // Accept upskillData as a prop
   const sliderRef = useRef(null);
   const [activeIndex, setActiveIndex] = useState(0);
   const [arrowDirection, setArrowDirection] = useState("right");
-  const totalSlides = 5; 
-
+  const totalSlides = upskillData.length; // Use dynamic length from data
 
   const debounce = (func, delay) => {
     let timeout;
@@ -39,14 +38,12 @@ const UpskillMbl = () => {
     };
   };
 
-
   const handleScroll = useCallback(() => {
     const slider = sliderRef.current;
     const slideWidth = slider.children[0].offsetWidth;
     const newActiveIndex = Math.round(slider.scrollLeft / slideWidth);
     setActiveIndex(newActiveIndex);
 
-   
     if (newActiveIndex === totalSlides - 1) {
       setArrowDirection("right");
     } else if (newActiveIndex === 0) {
@@ -56,12 +53,10 @@ const UpskillMbl = () => {
     }
   }, [totalSlides]);
 
-
   useEffect(() => {
     const slider = sliderRef.current;
     const debouncedScroll = debounce(handleScroll, 100);
     slider.addEventListener("scroll", debouncedScroll);
-
 
     return () => {
       slider.removeEventListener("scroll", debouncedScroll);
@@ -91,29 +86,25 @@ const UpskillMbl = () => {
         </h2>
 
         <div className={styles.sliderMain} ref={sliderRef}>
-          {[...Array(totalSlides)].map((_, index) => (
+          {upskillData.map((item, index) => (
             <div className={styles.Box} key={index}>
               <div className={styles.svglineDiv}>
                 <div className={styles.termBox}>
-                  <h5>Term {index + 1}</h5>
-                  <span>6 weeks</span>
+                  <h5>Term {item.term}</h5>
+                  <span>{item.duration}</span>
                 </div>
                 {index < totalSlides - 1 && <SVgLine />}
               </div>
               <div className={styles.contentBox}>
-                <h4>Foundation for Data Science and Leadership</h4>
-                <p>
-                  This term covers Business Strategy, Excel for Managers to
-                  align data initiatives with business goals, ensure ethical
-                  data usage, and manage data quality effectively.
-                </p>
+                <h4>{item.title}</h4>
+                <p>{item.description}</p>
               </div>
               <div className={styles.ToolsBox}>
                 <p>tool: </p>
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/microsoft_excel_S.webp"
-                  width={100}
-                  height={50}
+                  src={item.toolsImage}
+                  width={item.width}
+                  height={item.height}
                   alt="tools"
                   loading="lazy"
                 />
@@ -122,7 +113,6 @@ const UpskillMbl = () => {
           ))}
         </div>
 
-
         <div className={styles.pagination}>
           <div className={styles.dotBar}>
             <div
@@ -130,7 +120,7 @@ const UpskillMbl = () => {
               style={{ left: `${activeIndex * (100 / totalSlides)}%` }}
             />
           </div>
-          {[...Array(totalSlides)].map((_, index) => (
+          {upskillData.map((_, index) => (
             <button
               key={index}
               onClick={() => scrollToSlide(index)}

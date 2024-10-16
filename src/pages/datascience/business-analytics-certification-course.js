@@ -135,7 +135,11 @@ function Blockchain({ DataScienceCourseDataJson }) {
           }
         />
         <BASecondPart
+
+        
           sections={DataScienceCourseData.BADataScienceCourseData[0].sections}
+          upskillData={DataScienceCourseData.BADataScienceCourseData[0].upskillMbl}
+        
           certificateNew={
             DataScienceCourseData.BADataScienceCourseData[0].certificateNew
           }

@@ -135,6 +135,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
       
         />
         <AISecondPart
+                  upskillData={DataScienceCourseData.AIMLDataScienceCourseData[0].upskillMbl}
           sections={DataScienceCourseData.AIMLDataScienceCourseData[0].sections}
           certificateNew={DataScienceCourseData.AIMLDataScienceCourseData[0].certificateNew}
           projectSection={

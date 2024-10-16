@@ -64,7 +64,7 @@
     max-width: 240px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 2px;
   }
 
   .termBox {
@@ -94,7 +94,7 @@
     color: #fff;
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom:0;
   }
 
   .contentBox p {
@@ -106,14 +106,13 @@
   .ToolsBox {
     border-radius: 6.137px;
     background: rgba(0, 114, 188, 0.15);
-    /* padding: 5px 20px; */
+    padding: 10px 20px;
     margin: 28px 0;
     display: flex;
-    align-items: center;
     justify-content: space-around;
-
     max-width: 250px;
     width: 100%;
+    align-items: center
   }
   .ToolsBox p{
     color: #FFF;
@@ -121,6 +120,7 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 125%; /* 17.5px */
+margin: 0;
   }
 
   .svgLine {

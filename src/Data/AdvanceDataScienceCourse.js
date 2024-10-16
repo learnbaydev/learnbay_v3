@@ -1,5 +1,63 @@
 export const DataScienceCourseData = [
   {
+ // data.js
+ upskillMbl : [
+  {
+    term: 1,
+    duration: "30 hrs",
+    title: "Python Bootcamp for Non-Programmers",
+    description: "These sessions are recommended for non programmers to learn basics of programming.",
+    toolsImage: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/tool_BA_one+(1).webp",
+    width:"120",
+    height:"20",
+  },
+  {
+    term: 2,
+    duration: "30 hrs",
+    title: "Python for Data Science",
+    description: "We will cover Python basics and data analytics using popular libraries like NumPy, Pandas, Matplotlib, and Seaborn.",
+    toolsImage: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/tool_ba_two+(1).webp", // replace with actual URL
+    width:"120",
+    height:"20",
+  },
+  {
+    term: 3,
+    duration: "18 Weeks",
+    title: "Statistics and Machine Learning + GenAI",
+    description:
+      "Apply statistical methods and machine learning algorithms to solve data problems, with an introduction to generative AI techniques.",
+    toolsImage:
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_two+(1).webp", // replace with actual URL
+    width: "120",
+    height: "20",
+  },
+  {
+    term: 4,
+    duration: "10 Weeks",
+    title: "Data Visualization & Data Analysis",
+    description:
+      "Master SQL, NoSQL, and Power BI for efficient data management, querying, and visualization of complex datasets.",
+    toolsImage:
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_three+(1).webp", // replace with actual URL
+    width: "120",
+    height: "20",
+  },
+
+
+  {
+    term: 5,
+    duration: "60 hrs",
+    title: "AI Tools and Deployment",
+    description:
+      "Build and deploy advanced AI models, including deep learning, NLP, CV and Reinforcement Learning using cloud-based MLOps tools for real-world applications.",
+    toolsImage:
+      " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_four+(1).webp", // replace with actual URL
+    width: "120",
+    height: "20",
+  },
+
+
+],
 
 
     summarySection: [

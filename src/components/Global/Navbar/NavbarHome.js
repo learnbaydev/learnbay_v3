@@ -1,15 +1,16 @@
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback, useRef } from "react";
 import { FaBars, FaChevronDown, FaChevronUp } from "react-icons/fa";
 import styles from "./Navbar.module.css";
 import { menuItemHome } from "./NavbarData";
-import Popup from "../Popup/Popup";
-import Form from "../Form/Form";
 
-const Button = dynamic(() => import("../Button/Button"));
-const Tabs = dynamic(() => import("../Tabs/Tabs"));
+// Dynamic imports for components
+const Popup = dynamic(() => import("../Popup/Popup"), { ssr: false });
+const Form = dynamic(() => import("../Form/Form"), { ssr: false });
+const Button = dynamic(() => import("../Button/Button"), { ssr: false });
+const Tabs = dynamic(() => import("../Tabs/Tabs"), { ssr: false });
 
 const NavbarHome = ({
   radio,
@@ -20,40 +21,58 @@ const NavbarHome = ({
   interstedInHide,
 }) => {
   const [icon, setIcon] = useState(false);
-  const [showMoreDropdown, setShowMoreDropdown] = useState(false); // Add dropdown state
+  const [showMoreDropdown, setShowMoreDropdown] = useState(false);
   const [show, setShow] = useState(false);
   const [Popups, setPopup] = useState(false);
   const [mobile, setMobile] = useState(false);
 
-  const showMenu = () => {
-    setShow(!show);
-  };
+  const dropdownRef = useRef(null); // Reference for dropdown container
 
-  const handleIcon = (data) => {
+  const showMenu = useCallback(() => {
+    setShow((prevShow) => !prevShow);
+  }, []);
+
+  const handleIcon = useCallback((data) => {
     setIcon(data);
-  };
+  }, []);
 
-  const popupShow = () => {
+  const popupShow = useCallback(() => {
     setPopup(true);
-  };
+  }, []);
 
-  const toggleMoreDropdown = () => {
-    setShowMoreDropdown(!showMoreDropdown); // Toggle More dropdown
-  };
+  const toggleMoreDropdown = useCallback(() => {
+    setShowMoreDropdown((prevShowMore) => !prevShowMore);
+  }, []);
 
-  useEffect(() => {
-    let width = window.innerWidth;
-    if (width < 481) {
-      setMobile(true);
-    } else {
-      setMobile(false);
+  const handleClickOutside = useCallback((event) => {
+    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+      setShowMoreDropdown(false);
     }
   }, []);
 
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [handleClickOutside]);
+
+  useEffect(() => {
+    const updateMobileView = () => {
+      setMobile(window.innerWidth < 481);
+    };
+
+    window.addEventListener("resize", updateMobileView);
+    updateMobileView();
+
+    return () => {
+      window.removeEventListener("resize", updateMobileView);
+    };
+  }, []);
+
   return (
-    <nav
-      className={`${styles.nav} flexBox flexJustSpaceBetween flexAlignCenter`}
-    >
+    <nav className={`${styles.nav} flexBox flexJustSpaceBetween flexAlignCenter`}>
       {/* Popup Component */}
       <Popup trigger={Popups} setTrigger={setPopup} className="popupModal">
         <div className="leftPopup">
@@ -90,8 +109,8 @@ const NavbarHome = ({
           alt="Learnbay"
           quality={100}
           priority
-          style={{ objectFit: "contain" }}
-          width={mobile ? "135" : "180"}
+          className={mobile ? styles.mobileLogo : styles.desktopLogo}
+          width={mobile ? 135 : 180}
           height={60}
         />
 
@@ -101,7 +120,7 @@ const NavbarHome = ({
           onMouseLeave={() => setIcon(true)}
           onClick={() => {
             setIcon(!icon);
-            setShow(true);
+            setShow(false);
           }}
           className="flexBox"
         >
@@ -113,9 +132,11 @@ const NavbarHome = ({
         </div>
 
         {/* Mega Menu */}
-        <div className={styles.megaMenu} onMouseLeave={() => setIcon(false)}>
-          {icon && <Tabs handleIcon={handleIcon} />}
-        </div>
+        {icon && (
+          <div className={styles.megaMenu} onMouseLeave={() => setIcon(false)}>
+            <Tabs handleIcon={handleIcon} />
+          </div>
+        )}
       </div>
 
       {/* Mobile Menu */}
@@ -133,17 +154,19 @@ const NavbarHome = ({
       </div>
 
       {/* Right Section */}
-      <div
-        className={`${styles.right} flexBox flexAlignCenter flexJustSpaceBetween`}
-      >
+      <div className={`${styles.right} flexBox flexAlignCenter flexJustSpaceBetween`}>
         {menuItemHome.map((item) => {
           if (item.name === "More") {
             return (
-              <div key={item.id} className={styles.dropdownContainer}>
+              <div
+                key={item.id}
+                className={styles.dropdownContainer}
+                ref={dropdownRef} // Attach reference here
+              >
                 <span
                   className={styles.moreLink}
                   onClick={toggleMoreDropdown}
-                  onMouseOver={toggleMoreDropdown}
+      
                 >
                   {item.name} <FaChevronDown />
                 </span>
@@ -173,7 +196,6 @@ const NavbarHome = ({
                     height={20}
                   />
                 )}{" "}
-                {/* Master’s Degree Icon */}
                 {item.name}
               </Link>
             </span>
