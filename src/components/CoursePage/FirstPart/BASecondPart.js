@@ -23,7 +23,6 @@ const Certificate = dynamic(() =>
 );
 const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
 
-
 const MentorsSection = dynamic(() =>
   import("../../../components/Global/MentorsSection/MentorsSection")
 );
@@ -52,12 +51,7 @@ const MobileTestimonial = dynamic(() =>
   import("@/components/Home/MobileTestimonial/MobileTestimonial")
 );
 
-const SecondPart = ({
-  sections,
-  certificateNew,
-  FAQNewData,
-  toolsdynamic,
-}) => {
+const SecondPart = ({ sections, certificateNew, FAQNewData, toolsdynamic }) => {
   const [popupData, setPopupData] = useState([]);
   // console.log(popupData);
   useEffect(() => {
@@ -91,24 +85,27 @@ const SecondPart = ({
   const pdfUrl = "/Brochure/Business-Analytics-Program.pdf";
   return (
     <div>
+      <ReviewSlider />
+      <MentorsSection />
+      <UpskillMbl />
+      <UpskillingSection />
 
-<ReviewSlider />
-<MentorsSection />
-<UpskillMbl />
-<UpskillingSection />
-
-<ProjectSection dataScienceCounselling={true} interstedInHide={true} />
-<SyllabusSection
+      <ProjectSection dataScienceCounselling={true} interstedInHide={true} />
+      <SyllabusSection
         sections={sections}
         interstedInHide={true}
         brochurePdf={pdfUrl}
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
       />
 
-
-<ToolsSection />
-<CertificateSection certificateNew={certificateNew} />
-<FeeSection
+      <ToolsSection />
+      <CertificateSection certificateNew={certificateNew} />
+      <FeeSection
+        Fee="₹ 95,000"
+        FeeEmi="₹ 5,277/ month"
+        // Hybrid Classes
+        hybridFee="₹ 1,05,000"
+        hybridEmi="₹ 5,833/ month"
         // EMIPOPUP
         emiType="Live online classes"
         duration1="12 Months"
@@ -121,12 +118,12 @@ const SecondPart = ({
         dataScienceCounselling={true}
         iitGuwatiGen={true}
       />
-   <StructuredSection />
-   <Achive/>
+      <StructuredSection />
+      <Achive />
 
       <FAQNew FAQNewData={FAQNewData} toolsdynamic={toolsdynamic} />
       <Content Banalytics={true} dataScienceCounselling={true} />
-<NewSevenSection/>
+      <NewSevenSection />
       <Footer />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />
       <WhatsappFloat />

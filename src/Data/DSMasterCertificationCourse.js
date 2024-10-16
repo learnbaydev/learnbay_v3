@@ -126,27 +126,29 @@ export const DataScienceCourseData = [
         toolwidth: "200",
         toolheight: "40",
         description: "Python Bootcamp for Non-Programmers",
-        duration: "1.5 Months",
+        duration: "40-50 hrs",
         contentModule: "Topics Covered",
         contentDescription: "",
         contentDetails: ["Installation & Setup", "Basic Syntax & I/O"],
         popuplist: [
           {
-            term: "Module 0",
-            title: "Python Bootcamp for Non-Programmers",
-            duration: "1.5 months",
+            term: "Moudle 0",
+            title: "Topics Covered",
+            duration: "40-50 hrs",
             modules: [
               {
-                moduleTitle: "Topic 1",
+                moduleTitle: "Section 1",
                 moduleContent: "Installation & Setup",
                 moduleList: [
                   "Installing Python and setting up IDEs (Jupyter, VSCode).",
                   "Overview of the Python environment and running basic scripts.",
                   "Introduction to Jupyter Notebook for interactive coding.",
+                  "Data Structures",
+                  "Functions And Modules",
                 ],
               },
               {
-                moduleTitle: "Topic 2",
+                moduleTitle: "Section 2",
                 moduleContent: "Basic Syntax & I/O",
                 moduleList: [
                   "Understanding variables, data types (integers, floats, strings, booleans).",
@@ -154,16 +156,18 @@ export const DataScienceCourseData = [
                   "Performing basic arithmetic operations.",
                 ],
               },
+
               {
-                moduleTitle: "Topic 3",
+                moduleTitle: "Section 3",
                 moduleContent: "Control Structures",
                 moduleList: [
                   "Conditional logic using if, else, and elif statements.",
                   "Looping with for and while loops to iterate over data.",
                 ],
               },
+
               {
-                moduleTitle: "Topic 4",
+                moduleTitle: "Section 4",
                 moduleContent: "Basic Data Structures",
                 moduleList: [
                   "Introduction to lists, tuples, and dictionaries.",
@@ -173,292 +177,10 @@ export const DataScienceCourseData = [
               },
             ],
           },
-
           {
-            term: "Term 2",
-            duration: "4 months",
-            title: "Technical Skills for Data Science",
-            modules: [
-              {
-                moduleTitle: "Module 5",
-                moduleContent: "Python",
-                moduleList: [
-                  "Data Analysis Using Numpy",
-                  "Data Visualization Using Matplotlib",
-                  "Data Visualization Using Seaborn",
-                ],
-              },
-              {
-                moduleTitle: "Module 6",
-                moduleContent: "Statistics",
-                moduleList: [
-                  "Fundamentals of Math and Probability",
-                  "Descriptive Statistics",
-                  "Inferential Statistics",
-                  "Data Processing & EDA",
-                  "Linear Algebra",
-                  "Regression Analysis",
-                ],
-              },
-              {
-                moduleTitle: "Module 7",
-                moduleContent: "Machine Learning",
-                moduleList: [
-                  "Introduction",
-                  "Data Preprocessing",
-                  "Regression and Classification",
-                  "Advanced Techniques",
-                  "Linear Algebra",
-                  "Regression Analysis",
-                ],
-              },
-              {
-                moduleTitle: "Module 8",
-                moduleContent: "GenAI for Leaders",
-                moduleList: [
-                  "Introduction to Generative AI",
-                  "Core Concepts and Techniques",
-                  "Business Applications of Generative AI",
-                  "Ethical and Responsible Use of Generative AI",
-                  "Implementation Strategies for Generative AI",
-                  "Generative AI Project Management",
-                  "Future Trends in Generative AI",
-                ],
-              },
-            ],
-          },
-          {
-            term: "Term 3",
-            duration: "4 months",
-            title: "SQL, Tableau, Power BI, Big data ",
-            modules: [
-              {
-                moduleTitle: "Module 9",
-                moduleContent: "Big Data Tools",
-                moduleList: [
-                  "Introduction to Big Data",
-                  "Core Technologies in Big Data",
-                  "1. Hadoop Ecosystem",
-                  "2. Hive",
-                  "3. Apache Spark",
-                  "",
-                ],
-              },
-              {
-                moduleTitle: "Module 10",
-                moduleContent: "SQL",
-                moduleList: [
-                  "Introduction to SQL and RDBMS",
-                  "Basic and Advanced SQL Queries",
-                  "Data Operations",
-                  "NoSQL Databases",
-                  "JSON Data & CRUD Operations",
-                ],
-              },
-              {
-                moduleTitle: "Module 11",
-                moduleContent: " Tableau",
-                moduleList: [
-                  "Introduction to Tableau",
-                  "Visual Analytics",
-                  "Data Cleansing and Preparation",
-                  "Advanced Visualizations",
-                  "Dashboards and Stories",
-                  "Predictive Analytics",
-                ],
-              },
-
-              {
-                moduleTitle: "Module 12",
-                moduleContent: "PowerBI",
-                moduleList: [
-                  "Introduction to Power BI",
-                  "Data Transformation and Modeling",
-                  "Data Visualization",
-                  "Dashboards and Reports",
-                  "Advanced Analytics",
-                  "Sharing and Collaboration",
-                ],
-              },
-
-              // {
-              //   moduleTitle: "BONUS",
-              //   moduleContent: "PowerBI",
-              //   moduleList: [
-              //     "Introduction to Power BI",
-              //     "Data Transformation and Modeling",
-              //     "Data Visualization",
-              //     "Dashboards and Reports",
-              //     "Advanced Analytics",
-              //     "Sharing and Collaboration",
-
-              //   ],
-              // },
-            ],
-          },
-          {
-            term: "BONUS",
-            duration: "4 months",
-            title: "Domain Specialization & Capstone Project",
-            modules: [
-              {
-                moduleTitle: "BONUS",
-                moduleContent: "Domain Specialization + Capstone project ",
-                moduleList: [
-                  "Industry-Specific Technologies and Innovations",
-                  "Leadership and Change Management",
-                  "Regulatory and Compliance Considerations",
-                ],
-              },
-              {
-                moduleTitle: "BONUS",
-                moduleContent:
-                  "Choose any 2 Capstone Projects from the following:",
-                moduleList: [
-                  "Retail",
-                  "HR (Human Resources)",
-                  "Marketing",
-                  "Healthcare",
-                ],
-              },
-            ],
-          },
-
-          {
-            term: "Term 4",
-            duration: "4 months",
-            title: "AI Tools",
-            modules: [
-              {
-                moduleTitle: "Module 13",
-                moduleContent: "Deep Learning ",
-                moduleList: [
-                  "Introduction to Deep Learning",
-                  "Core Concepts",
-                  "Regulatory and Compliance Considerations",
-                ],
-              },
-              {
-                moduleTitle: "Module 14",
-                moduleContent: "Deep Learning",
-                moduleList: [
-                  "Core NLP Techniques",
-                  "Advanced NLP Models",
-                  "Marketing",
-                  "Healthcare",
-                ],
-              },
-
-              {
-                moduleTitle: "Module 15",
-                moduleContent: "Deployment ",
-                moduleList: [
-                  "Introduction to Cloud Deployment",
-                  "Core Concepts",
-                  "Deployment Strategies",
-                  "Practical Applications",
-                  "Security and Compliance",
-                  "Implementation Strategies",
-                  "Project Management",
-                ],
-              },
-              {
-                moduleTitle: "NLP and Gen AI",
-                moduleContent:
-                  "Project: Automated Document Summarization Using",
-                moduleList: ["Objective", "Technologies", "Outcome"],
-              },
-            ],
-          },
-        ],
-      },
-      {
-        id: "1",
-        trackIcon:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/greens.webp",
-        width: 80,
-        height: 80,
-        title: "Term 1",
-        toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term2_tool.webp",
-        toolwidth: "400",
-        toolheight: "76",
-        description: "Python for Data Science",
-        duration: "40-50 hrs",
-        contentModule: "Section 1",
-        contentDescription: "Core Python Basics",
-        contentDetails: [
-          "Python Environment Setup",
-          "Python Syntax and Code Structure",
-        ],
-        popuplist: [
-          {
-            term: "Term 1",
-            duration: "1.5 months",
-            title: "Foundations of Data Science and Leadership",
-            modules: [
-              {
-                moduleTitle: "Module 1",
-                moduleContent: "Introduction to data science for Managers",
-                moduleList: [
-                  "What is Data Science, Data Analytics, Machine Learning, Artificial Intelligence?",
-                  "Role of Data in Various Industries and Businesses",
-                  "Utilizing Data to Enhance Industrial Operations and Management",
-                  "Use Cases of Data Analytics and AI in Various Domains",
-                  "BFSI",
-                  "Manufacturing",
-                  "Retail",
-                  "HR",
-                  "Marketing",
-                  "Sales",
-                  "Healthcare",
-                ],
-              },
-              {
-                moduleTitle: "Module 2",
-                moduleContent: "AI in Business Strategy",
-                moduleList: [
-                  "AI-Driven Decision Making: Leveraging AI for strategic business decisions",
-                  "AI and Business Process Automation: Automating business processes using AI",
-                  "Case Studies: Successful AI implementations in various business domains",
-                ],
-              },
-              {
-                moduleTitle: "Module 3",
-                moduleContent: "Data Strategy and Governance for Managers",
-                moduleList: [
-                  "Developing a Data Strategy",
-                  "Aligning data initiatives with business goals and Roadmap for data maturity",
-                  "Data Governance and Ethics",
-                  "Establishing data governance frameworks and Ethical considerations in data usage",
-                  "Managing Data Quality",
-                  "Ensuring data integrity and accuracy and Tools and techniques for data validation",
-                ],
-              },
-              {
-                moduleTitle: "Module 4",
-                moduleContent: "Excel",
-                moduleList: [
-                  "Introduction to Excel for Data Science",
-                  "Overview of Excel Interface and Functions",
-                  "Data Types and Data Entry",
-                  "Basic Formulas and Functions",
-                  "Data Cleaning and Preparation in Excel",
-                  "Data Analysis with Excel",
-                  "Advanced Excel Functions",
-                  "Data Visualization with Excel",
-                  "PivotTables and PivotCharts",
-                  "Data Automation in Excel",
-                  "Project Management in Excel",
-                ],
-              },
-            ],
-          },
-
-          {
-            term: "Term 1",
-            duration: "40-50 hrs",
+            term: "TERM 1",
             title: "Python for Data Science",
+            duration: "40-50 hrs",
             modules: [
               {
                 moduleTitle: "Section 1",
@@ -467,6 +189,8 @@ export const DataScienceCourseData = [
                   "Python Environment Setup",
                   "Python Syntax and Code Structure",
                   "Data Types and Control Flow",
+                  "Data Structures",
+                  "Functions And Modules",
                 ],
               },
               {
@@ -481,173 +205,548 @@ export const DataScienceCourseData = [
                   "Data Visualization using Seaborn",
                 ],
               },
+            ],
+          },
+          {
+            term: "TERM 2",
+            duration: "70-75 hrs",
+            title: "Statistics and Machine Learning + GenAI",
+            modules: [
               {
-                moduleTitle: "Module 7",
+                moduleTitle: "Section 1",
+                moduleContent: "Statistics",
+                moduleList: [
+                  "Fundamentals of Math and Probability",
+                  "All about Population & Sample",
+                  "Introduction to Statistics, Statistical Thinking",
+                  "Descriptive Statistics",
+                  "Inferential Statistics",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Advance Statistics",
+                moduleList: [
+                  "Hypothesis Testing",
+                  "Linear Algebra",
+                  "Data Processing & Exploratory Data Analysis",
+                  "EDA",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
                 moduleContent: "Machine Learning",
                 moduleList: [
-                  "Introduction",
+                  "Machine Learning Introduction",
                   "Data Preprocessing",
-                  "Regression and Classification",
-                  "Advanced Techniques",
-                  "Linear Algebra",
-                  "Regression Analysis",
+                  "Logistic Regression Model",
+                  "Evaluation Metrics for Classification model",
+                  "K Nearest Neighbours Model",
                 ],
               },
               {
-                moduleTitle: "Module 8",
-                moduleContent: "GenAI for Leaders",
+                moduleTitle: "Section 4",
+                moduleContent: "Advance Machine Learning Concepts",
                 moduleList: [
-                  "Introduction to Generative AI",
-                  "Core Concepts and Techniques",
-                  "Business Applications of Generative AI",
-                  "Ethical and Responsible Use of Generative AI",
-                  "Implementation Strategies for Generative AI",
-                  "Generative AI Project Management",
-                  "Future Trends in Generative AI",
+                  "Decision Tree Model",
+                  "Random Forest Model",
+                  "Hyperparameter Tuning",
+                  "Naive Baye’s Model",
+                  "K Means and Hierarchical Clustering",
+                  "Hierarchical Clustering",
+                  "Principal Component Analysis(PCA)",
+                  "Support Vector Machine(SVM)",
+                  "XGBoost Model",
+                ],
+              },
+              {
+                moduleTitle: "Section 5",
+                moduleContent: "GenAI",
+                moduleList: [
+                  "Introduction to Generative AI concepts: GANs, VAEs, Transformers. ",
+                  "Text generation techniques using GPT models and Hugging Face Transformers.",
+                  "Image generation with GANs, StyleGAN, and DeepDream.",
+                  "Building generative models using TensorFlow, PyTorch, and Keras.",
+                  "Hierarchical Clustering",
+                  "Ethical considerations in AI: bias mitigation, fairness, interpretability.",
+                  "Practical applications like chatbots, art generation, and data augmentation.",
+                  "Advanced topics on fine-tuning models and deploying generative AI solutions",
                 ],
               },
             ],
           },
+
           {
-            term: "Term 2",
-            duration: "4 months",
-            title: "SQL, Tableau, Power BI, Big data ",
+            term: "TERM 3",
+            duration: "80-85 hrs",
+            title: "Data Visualization & Data Analysis",
             modules: [
               {
-                moduleTitle: "Module 9",
-                moduleContent: "Big Data Tools",
+                moduleTitle: "Section 1",
+                moduleContent: "SQL and Databases",
                 moduleList: [
-                  "Introduction to Big Data",
-                  "Core Technologies in Big Data",
-                  "1. Hadoop Ecosystem",
-                  "2. Hive",
-                  "3. Apache Spark",
-                  "",
+                  "SQL and RDBMS",
+                  "Advance SQL",
+                  "NoSQL, HBase & MongoDB",
+                  "JSON Data & CRUD",
+                  "Programming with SQL",
+                  "Programming with SQL",
                 ],
               },
               {
-                moduleTitle: "Module 10",
-                moduleContent: "SQL",
-                moduleList: [
-                  "Introduction to SQL and RDBMS",
-                  "Basic and Advanced SQL Queries",
-                  "Data Operations",
-                  "NoSQL Databases",
-                  "JSON Data & CRUD Operations",
-                ],
+                moduleTitle: "Section 2",
+                moduleContent: "MongoDB",
+                moduleList: ["Introduction to MongoDB", "MongoDB (Advance)"],
               },
               {
-                moduleTitle: "Module 11",
-                moduleContent: " Tableau",
+                moduleTitle: "Section 3",
+                moduleContent: " PowerBI",
                 moduleList: [
-                  "Introduction to Tableau",
-                  "Visual Analytics",
-                  "Data Cleansing and Preparation",
-                  "Advanced Visualizations",
-                  "Dashboards and Stories",
-                  "Predictive Analytics",
+                  "Getting Started With Power BI",
+                  "Programming with Power BI",
+                  "Assignments",
                 ],
               },
 
               {
-                moduleTitle: "Module 12",
-                moduleContent: "PowerBI",
+                moduleTitle: "Section 4",
+                moduleContent: "BigData and Spark Analytics",
                 moduleList: [
-                  "Introduction to Power BI",
-                  "Data Transformation and Modeling",
+                  "Introduction To Hadoop & Big Data",
+                  "What is Spark",
                   "Data Visualization",
-                  "Dashboards and Reports",
-                  "Advanced Analytics",
-                  "Sharing and Collaboration",
+                  "Hands-on:",
                 ],
               },
 
-              // {
-              //   moduleTitle: "BONUS",
-              //   moduleContent: "PowerBI",
-              //   moduleList: [
-              //     "Introduction to Power BI",
-              //     "Data Transformation and Modeling",
-              //     "Data Visualization",
-              //     "Dashboards and Reports",
-              //     "Advanced Analytics",
-              //     "Sharing and Collaboration",
-
-              //   ],
-              // },
-            ],
-          },
-          {
-            term: "BONUS",
-            duration: "4 months",
-            title: "Domain Specialization & Capstone Project",
-            modules: [
               {
-                moduleTitle: "BONUS",
-                moduleContent: "Domain Specialization + Capstone project ",
+                moduleTitle: "Section 5",
+                moduleContent: "Time Series",
                 moduleList: [
-                  "Industry-Specific Technologies and Innovations",
-                  "Leadership and Change Management",
-                  "Regulatory and Compliance Considerations",
-                ],
-              },
-              {
-                moduleTitle: "BONUS",
-                moduleContent:
-                  "Choose any 2 Capstone Projects from the following:",
-                moduleList: [
-                  "Retail",
-                  "HR (Human Resources)",
-                  "Marketing",
-                  "Healthcare",
+                  "Introduction to Time Series Forecasting",
+                  "Introduction to ARIMA Models",
                 ],
               },
             ],
           },
-
           {
-            term: "Term 4",
-            duration: "4 months",
-            title: "AI Tools",
+            term: "TERM 4",
+            duration: "70-75 hrs",
+            title: "AI Tools and Deployment",
             modules: [
               {
-                moduleTitle: "Module 13",
-                moduleContent: "Deep Learning ",
+                moduleTitle: "Section 1",
+                moduleContent: "Deep Learning using TensorFlow",
                 moduleList: [
-                  "Introduction to Deep Learning",
-                  "Core Concepts",
-                  "Regulatory and Compliance Considerations",
+                  "Introduction to Deep Learning and TensorFlow",
+                  "TensorFlow Classification Examples",
+                  "Understanding Neural Networks With TensorFlow",
                 ],
               },
               {
-                moduleTitle: "Module 14",
-                moduleContent: "Deep Learning",
+                moduleTitle: "Section 2",
+                moduleContent: " Natural Language Processing (NLP)",
                 moduleList: [
-                  "Core NLP Techniques",
-                  "Advanced NLP Models",
-                  "Marketing",
-                  "Healthcare",
+                  "Natural Language Processing",
+                  "Text Analysis",
+                  "KNN",
+                  "Text Pre Processing Techniques",
+                  "Stemming",
                 ],
               },
 
               {
-                moduleTitle: "Module 15",
-                moduleContent: "Deployment ",
+                moduleTitle: "Section 3",
+                moduleContent: " Deployment AWS+Azure",
                 moduleList: [
-                  "Introduction to Cloud Deployment",
-                  "Core Concepts",
-                  "Deployment Strategies",
-                  "Practical Applications",
-                  "Security and Compliance",
-                  "Implementation Strategies",
-                  "Project Management",
+                  "Introduction to AWS and Azure Machine Learning Services",
+                  "Setting up the Environment",
+                  "Data Preparation and Feature Engineering",
+                  "Model Training and Evaluation",
+                ],
+              },
+            ],
+          },
+
+          {
+            term: "TERM 5",
+            duration: "30-35 hrs",
+            title: "Excel",
+            modules: [
+              {
+                moduleTitle: "Section-1",
+                moduleContent: " Excel for Data Science and AI ",
+                moduleList: [
+                  "Introduction to Excel for Data Science",
+                  "Data Cleaning and Preparation in Excel",
+                  "Data Analysis with Excel",
+                  "Data Visualization with Excel",
+                  "PivotTables and PivotCharts",
+                  "Data Automation in Excel",
+                  "Project Management in Excel",
+                  "Case Studies and Applications",
+                ],
+              },
+            ],
+          },
+          {
+            term: "TERM 6",
+            duration: "40-50  hrs",
+            title: "Data Structure and Algorithm",
+            modules: [
+              {
+                moduleTitle: "Section-1",
+                moduleContent: " Fundamentals of Data Structures ",
+                moduleList: [
+                  "Introduction to Data Structures",
+                  "Hands-On Lab:",
                 ],
               },
               {
-                moduleTitle: "NLP and Gen AI",
-                moduleContent:
-                  "Project: Automated Document Summarization Using",
-                moduleList: ["Objective", "Technologies", "Outcome"],
+                moduleTitle: "Section-2",
+                moduleContent: " Advanced Data Structures ",
+                moduleList: ["Trees", "Graphs", "Hands-On Lab:"],
+              },
+
+              {
+                moduleTitle: "Section-3",
+                moduleContent: " Sorting and Searching Algorithms ",
+                moduleList: [
+                  "Sorting Algorithms",
+                  "Searching Algorithms",
+                  "Hands-On Lab:",
+                ],
+              },
+
+              {
+                moduleTitle: "Section-4",
+                moduleContent: " Dynamic Programming and Greedy Algorithms",
+                moduleList: [
+                  "Dynamic Programming",
+                  "Greedy Algorithms",
+                  "Hands-On Lab:",
+                ],
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        id: "1",
+        trackIcon:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/greens.web",
+        width: 80,
+        height: 80,
+        title: "TERM 1",
+        toolsImg:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
+        toolwidth: "200",
+        toolheight: "40",
+        description: "Python for Data Science",
+        duration: "40-50 hrs",
+        contentModule: "Section 1 -",
+        contentDescription: "Core Python Basics",
+        contentDetails: [
+          "Python Environment Setup",
+          "Python Syntax and Code Structure",
+        ],
+        popuplist: [
+          {
+            term: "Moudle 0",
+            title: "Topics Covered",
+            duration: "40-50 hrs",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Installation & Setup",
+                moduleList: [
+                  "Installing Python and setting up IDEs (Jupyter, VSCode).",
+                  "Overview of the Python environment and running basic scripts.",
+                  "Introduction to Jupyter Notebook for interactive coding.",
+                  "Data Structures",
+                  "Functions And Modules",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Basic Syntax & I/O",
+                moduleList: [
+                  "Understanding variables, data types (integers, floats, strings, booleans).",
+                  "Input and output operations using the input() and print() functions.",
+                  "Performing basic arithmetic operations.",
+                ],
+              },
+
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Control Structures",
+                moduleList: [
+                  "Conditional logic using if, else, and elif statements.",
+                  "Looping with for and while loops to iterate over data.",
+                ],
+              },
+
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Basic Data Structures",
+                moduleList: [
+                  "Introduction to lists, tuples, and dictionaries.",
+                  "Accessing, modifying, and iterating through collections.",
+                  "Understanding how to use indexing and slicing with lists and tuples",
+                ],
+              },
+            ],
+          },
+          {
+            term: "TERM 1",
+            title: "Python for Data Science",
+            duration: "40-50 hrs",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Core Python Basics",
+                moduleList: [
+                  "Python Environment Setup",
+                  "Python Syntax and Code Structure",
+                  "Data Types and Control Flow",
+                  "Data Structures",
+                  "Functions And Modules",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Data analytics Using Python",
+                moduleList: [
+                  "File I/O An d Exceptional Handling and Regular Expression",
+                  "Basic Web Scraping for Data Analytics",
+                  "Data Analysis using Numpy",
+                  "Data Analysis using Pandas",
+                  "Data Visualization using Matplotlib",
+                  "Data Visualization using Seaborn",
+                ],
+              },
+            ],
+          },
+          {
+            term: "TERM 2",
+            duration: "70-75 hrs",
+            title: "Statistics and Machine Learning + GenAI",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Statistics",
+                moduleList: [
+                  "Fundamentals of Math and Probability",
+                  "All about Population & Sample",
+                  "Introduction to Statistics, Statistical Thinking",
+                  "Descriptive Statistics",
+                  "Inferential Statistics",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Advance Statistics",
+                moduleList: [
+                  "Hypothesis Testing",
+                  "Linear Algebra",
+                  "Data Processing & Exploratory Data Analysis",
+                  "EDA",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Machine Learning",
+                moduleList: [
+                  "Machine Learning Introduction",
+                  "Data Preprocessing",
+                  "Logistic Regression Model",
+                  "Evaluation Metrics for Classification model",
+                  "K Nearest Neighbours Model",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Advance Machine Learning Concepts",
+                moduleList: [
+                  "Decision Tree Model",
+                  "Random Forest Model",
+                  "Hyperparameter Tuning",
+                  "Naive Baye’s Model",
+                  "K Means and Hierarchical Clustering",
+                  "Hierarchical Clustering",
+                  "Principal Component Analysis(PCA)",
+                  "Support Vector Machine(SVM)",
+                  "XGBoost Model",
+                ],
+              },
+              {
+                moduleTitle: "Section 5",
+                moduleContent: "GenAI",
+                moduleList: [
+                  "Introduction to Generative AI concepts: GANs, VAEs, Transformers. ",
+                  "Text generation techniques using GPT models and Hugging Face Transformers.",
+                  "Image generation with GANs, StyleGAN, and DeepDream.",
+                  "Building generative models using TensorFlow, PyTorch, and Keras.",
+                  "Hierarchical Clustering",
+                  "Ethical considerations in AI: bias mitigation, fairness, interpretability.",
+                  "Practical applications like chatbots, art generation, and data augmentation.",
+                  "Advanced topics on fine-tuning models and deploying generative AI solutions",
+                ],
+              },
+            ],
+          },
+
+          {
+            term: "TERM 3",
+            duration: "80-85 hrs",
+            title: "Data Visualization & Data Analysis",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "SQL and Databases",
+                moduleList: [
+                  "SQL and RDBMS",
+                  "Advance SQL",
+                  "NoSQL, HBase & MongoDB",
+                  "JSON Data & CRUD",
+                  "Programming with SQL",
+                  "Programming with SQL",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "MongoDB",
+                moduleList: ["Introduction to MongoDB", "MongoDB (Advance)"],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: " PowerBI",
+                moduleList: [
+                  "Getting Started With Power BI",
+                  "Programming with Power BI",
+                  "Assignments",
+                ],
+              },
+
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "BigData and Spark Analytics",
+                moduleList: [
+                  "Introduction To Hadoop & Big Data",
+                  "What is Spark",
+                  "Data Visualization",
+                  "Hands-on:",
+                ],
+              },
+
+              {
+                moduleTitle: "Section 5",
+                moduleContent: "Time Series",
+                moduleList: [
+                  "Introduction to Time Series Forecasting",
+                  "Introduction to ARIMA Models",
+                ],
+              },
+            ],
+          },
+          {
+            term: "TERM 4",
+            duration: "70-75 hrs",
+            title: "AI Tools and Deployment",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Deep Learning using TensorFlow",
+                moduleList: [
+                  "Introduction to Deep Learning and TensorFlow",
+                  "TensorFlow Classification Examples",
+                  "Understanding Neural Networks With TensorFlow",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: " Natural Language Processing (NLP)",
+                moduleList: [
+                  "Natural Language Processing",
+                  "Text Analysis",
+                  "KNN",
+                  "Text Pre Processing Techniques",
+                  "Stemming",
+                ],
+              },
+
+              {
+                moduleTitle: "Section 3",
+                moduleContent: " Deployment AWS+Azure",
+                moduleList: [
+                  "Introduction to AWS and Azure Machine Learning Services",
+                  "Setting up the Environment",
+                  "Data Preparation and Feature Engineering",
+                  "Model Training and Evaluation",
+                ],
+              },
+            ],
+          },
+
+          {
+            term: "TERM 5",
+            duration: "30-35 hrs",
+            title: "Excel",
+            modules: [
+              {
+                moduleTitle: "Section-1",
+                moduleContent: " Excel for Data Science and AI ",
+                moduleList: [
+                  "Introduction to Excel for Data Science",
+                  "Data Cleaning and Preparation in Excel",
+                  "Data Analysis with Excel",
+                  "Data Visualization with Excel",
+                  "PivotTables and PivotCharts",
+                  "Data Automation in Excel",
+                  "Project Management in Excel",
+                  "Case Studies and Applications",
+                ],
+              },
+            ],
+          },
+          {
+            term: "TERM 6",
+            duration: "40-50  hrs",
+            title: "Data Structure and Algorithm",
+            modules: [
+              {
+                moduleTitle: "Section-1",
+                moduleContent: " Fundamentals of Data Structures ",
+                moduleList: [
+                  "Introduction to Data Structures",
+                  "Hands-On Lab:",
+                ],
+              },
+              {
+                moduleTitle: "Section-2",
+                moduleContent: " Advanced Data Structures ",
+                moduleList: ["Trees", "Graphs", "Hands-On Lab:"],
+              },
+
+              {
+                moduleTitle: "Section-3",
+                moduleContent: " Sorting and Searching Algorithms ",
+                moduleList: [
+                  "Sorting Algorithms",
+                  "Searching Algorithms",
+                  "Hands-On Lab:",
+                ],
+              },
+
+              {
+                moduleTitle: "Section-4",
+                moduleContent: " Dynamic Programming and Greedy Algorithms",
+                moduleList: [
+                  "Dynamic Programming",
+                  "Greedy Algorithms",
+                  "Hands-On Lab:",
+                ],
               },
             ],
           },
@@ -660,276 +759,315 @@ export const DataScienceCourseData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/yellow_rs.webp",
         width: 80,
         height: 80,
-        title: "Term 3",
+        title: "TERM 2",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term3_tool.webp",
-        toolwidth: "380",
-        toolheight: "30",
-        description: "SQL, Tableau, Power BI, Big data",
-        duration: "4 Months",
-        contentModule: "Module",
-        contentDescription: "Big Data Tools",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
+        toolwidth: "200",
+        toolheight: "40",
+        description: "Statistics and Machine Learning + GenAI",
+        duration: "70-75 hrs",
+        contentModule: "Section 1 -",
+        contentDescription: "Statistics",
         contentDetails: [
-          "Introduction to Big Data",
-          "Core Technologies in Big Data",
+          "Fundamentals of Math and Probability",
+          "All about Population & Sample",
         ],
         popuplist: [
           {
-            term: "Term 1",
-            duration: "1.5 months",
-            title: "Foundations of Data Science and Leadership",
+            term: "Moudle 0",
+            title: "Topics Covered",
+            duration: "40-50 hrs",
             modules: [
               {
-                moduleTitle: "Module 1",
-                moduleContent: "Introduction to data science for Managers",
+                moduleTitle: "Section 1",
+                moduleContent: "Installation & Setup",
                 moduleList: [
-                  "What is Data Science, Data Analytics, Machine Learning, Artificial Intelligence?",
-                  "Role of Data in Various Industries and Businesses",
-                  "Utilizing Data to Enhance Industrial Operations and Management",
-                  "Use Cases of Data Analytics and AI in Various Domains",
-                  "BFSI",
-                  "Manufacturing",
-                  "Retail",
-                  "HR",
-                  "Marketing",
-                  "Sales",
-                  "Healthcare",
+                  "Installing Python and setting up IDEs (Jupyter, VSCode).",
+                  "Overview of the Python environment and running basic scripts.",
+                  "Introduction to Jupyter Notebook for interactive coding.",
+                  "Data Structures",
+                  "Functions And Modules",
                 ],
               },
               {
-                moduleTitle: "Module 2",
-                moduleContent: "AI in Business Strategy",
+                moduleTitle: "Section 2",
+                moduleContent: "Basic Syntax & I/O",
                 moduleList: [
-                  "AI-Driven Decision Making: Leveraging AI for strategic business decisions",
-                  "AI and Business Process Automation: Automating business processes using AI",
-                  "Case Studies: Successful AI implementations in various business domains",
+                  "Understanding variables, data types (integers, floats, strings, booleans).",
+                  "Input and output operations using the input() and print() functions.",
+                  "Performing basic arithmetic operations.",
+                ],
+              },
+
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Control Structures",
+                moduleList: [
+                  "Conditional logic using if, else, and elif statements.",
+                  "Looping with for and while loops to iterate over data.",
+                ],
+              },
+
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Basic Data Structures",
+                moduleList: [
+                  "Introduction to lists, tuples, and dictionaries.",
+                  "Accessing, modifying, and iterating through collections.",
+                  "Understanding how to use indexing and slicing with lists and tuples",
+                ],
+              },
+            ],
+          },
+          {
+            term: "TERM 1",
+            title: "Python for Data Science",
+            duration: "40-50 hrs",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Core Python Basics",
+                moduleList: [
+                  "Python Environment Setup",
+                  "Python Syntax and Code Structure",
+                  "Data Types and Control Flow",
+                  "Data Structures",
+                  "Functions And Modules",
                 ],
               },
               {
-                moduleTitle: "Module 3",
-                moduleContent: "Data Strategy and Governance for Managers",
+                moduleTitle: "Section 2",
+                moduleContent: "Data analytics Using Python",
                 moduleList: [
-                  "Developing a Data Strategy",
-                  "Aligning data initiatives with business goals and Roadmap for data maturity",
-                  "Data Governance and Ethics",
-                  "Establishing data governance frameworks and Ethical considerations in data usage",
-                  "Managing Data Quality",
-                  "Ensuring data integrity and accuracy and Tools and techniques for data validation",
+                  "File I/O An d Exceptional Handling and Regular Expression",
+                  "Basic Web Scraping for Data Analytics",
+                  "Data Analysis using Numpy",
+                  "Data Analysis using Pandas",
+                  "Data Visualization using Matplotlib",
+                  "Data Visualization using Seaborn",
+                ],
+              },
+            ],
+          },
+          {
+            term: "TERM 2",
+            duration: "70-75 hrs",
+            title: "Statistics and Machine Learning + GenAI",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Statistics",
+                moduleList: [
+                  "Fundamentals of Math and Probability",
+                  "All about Population & Sample",
+                  "Introduction to Statistics, Statistical Thinking",
+                  "Descriptive Statistics",
+                  "Inferential Statistics",
                 ],
               },
               {
-                moduleTitle: "Module 4",
-                moduleContent: "Excel",
+                moduleTitle: "Section 2",
+                moduleContent: "Advance Statistics",
+                moduleList: [
+                  "Hypothesis Testing",
+                  "Linear Algebra",
+                  "Data Processing & Exploratory Data Analysis",
+                  "EDA",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Machine Learning",
+                moduleList: [
+                  "Machine Learning Introduction",
+                  "Data Preprocessing",
+                  "Logistic Regression Model",
+                  "Evaluation Metrics for Classification model",
+                  "K Nearest Neighbours Model",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Advance Machine Learning Concepts",
+                moduleList: [
+                  "Decision Tree Model",
+                  "Random Forest Model",
+                  "Hyperparameter Tuning",
+                  "Naive Baye’s Model",
+                  "K Means and Hierarchical Clustering",
+                  "Hierarchical Clustering",
+                  "Principal Component Analysis(PCA)",
+                  "Support Vector Machine(SVM)",
+                  "XGBoost Model",
+                ],
+              },
+              {
+                moduleTitle: "Section 5",
+                moduleContent: "GenAI",
+                moduleList: [
+                  "Introduction to Generative AI concepts: GANs, VAEs, Transformers. ",
+                  "Text generation techniques using GPT models and Hugging Face Transformers.",
+                  "Image generation with GANs, StyleGAN, and DeepDream.",
+                  "Building generative models using TensorFlow, PyTorch, and Keras.",
+                  "Hierarchical Clustering",
+                  "Ethical considerations in AI: bias mitigation, fairness, interpretability.",
+                  "Practical applications like chatbots, art generation, and data augmentation.",
+                  "Advanced topics on fine-tuning models and deploying generative AI solutions",
+                ],
+              },
+            ],
+          },
+
+          {
+            term: "TERM 3",
+            duration: "80-85 hrs",
+            title: "Data Visualization & Data Analysis",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "SQL and Databases",
+                moduleList: [
+                  "SQL and RDBMS",
+                  "Advance SQL",
+                  "NoSQL, HBase & MongoDB",
+                  "JSON Data & CRUD",
+                  "Programming with SQL",
+                  "Programming with SQL",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "MongoDB",
+                moduleList: ["Introduction to MongoDB", "MongoDB (Advance)"],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: " PowerBI",
+                moduleList: [
+                  "Getting Started With Power BI",
+                  "Programming with Power BI",
+                  "Assignments",
+                ],
+              },
+
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "BigData and Spark Analytics",
+                moduleList: [
+                  "Introduction To Hadoop & Big Data",
+                  "What is Spark",
+                  "Data Visualization",
+                  "Hands-on:",
+                ],
+              },
+
+              {
+                moduleTitle: "Section 5",
+                moduleContent: "Time Series",
+                moduleList: [
+                  "Introduction to Time Series Forecasting",
+                  "Introduction to ARIMA Models",
+                ],
+              },
+            ],
+          },
+          {
+            term: "TERM 4",
+            duration: "70-75 hrs",
+            title: "AI Tools and Deployment",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Deep Learning using TensorFlow",
+                moduleList: [
+                  "Introduction to Deep Learning and TensorFlow",
+                  "TensorFlow Classification Examples",
+                  "Understanding Neural Networks With TensorFlow",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: " Natural Language Processing (NLP)",
+                moduleList: [
+                  "Natural Language Processing",
+                  "Text Analysis",
+                  "KNN",
+                  "Text Pre Processing Techniques",
+                  "Stemming",
+                ],
+              },
+
+              {
+                moduleTitle: "Section 3",
+                moduleContent: " Deployment AWS+Azure",
+                moduleList: [
+                  "Introduction to AWS and Azure Machine Learning Services",
+                  "Setting up the Environment",
+                  "Data Preparation and Feature Engineering",
+                  "Model Training and Evaluation",
+                ],
+              },
+            ],
+          },
+
+          {
+            term: "TERM 5",
+            duration: "30-35 hrs",
+            title: "Excel",
+            modules: [
+              {
+                moduleTitle: "Section-1",
+                moduleContent: " Excel for Data Science and AI ",
                 moduleList: [
                   "Introduction to Excel for Data Science",
-                  "Overview of Excel Interface and Functions",
-                  "Data Types and Data Entry",
-                  "Basic Formulas and Functions",
                   "Data Cleaning and Preparation in Excel",
                   "Data Analysis with Excel",
-                  "Advanced Excel Functions",
                   "Data Visualization with Excel",
                   "PivotTables and PivotCharts",
                   "Data Automation in Excel",
                   "Project Management in Excel",
-                ],
-              },
-            ],
-          },
-
-          {
-            term: "Term 2",
-            duration: "4 months",
-            title: "Technical Skills for Data Science",
-            modules: [
-              {
-                moduleTitle: "Module 5",
-                moduleContent: "Python",
-                moduleList: [
-                  "Data Analysis Using Numpy",
-                  "Data Visualization Using Matplotlib",
-                  "Data Visualization Using Seaborn",
-                ],
-              },
-              {
-                moduleTitle: "Module 6",
-                moduleContent: "Statistics",
-                moduleList: [
-                  "Fundamentals of Math and Probability",
-                  "Descriptive Statistics",
-                  "Inferential Statistics",
-                  "Data Processing & EDA",
-                  "Linear Algebra",
-                  "Regression Analysis",
-                ],
-              },
-              {
-                moduleTitle: "Module 7",
-                moduleContent: "Machine Learning",
-                moduleList: [
-                  "Introduction",
-                  "Data Preprocessing",
-                  "Regression and Classification",
-                  "Advanced Techniques",
-                  "Linear Algebra",
-                  "Regression Analysis",
-                ],
-              },
-              {
-                moduleTitle: "Module 8",
-                moduleContent: "GenAI for Leaders",
-                moduleList: [
-                  "Introduction to Generative AI",
-                  "Core Concepts and Techniques",
-                  "Business Applications of Generative AI",
-                  "Ethical and Responsible Use of Generative AI",
-                  "Implementation Strategies for Generative AI",
-                  "Generative AI Project Management",
-                  "Future Trends in Generative AI",
+                  "Case Studies and Applications",
                 ],
               },
             ],
           },
           {
-            term: "Term 3",
-            duration: "4 months",
-            title: "SQL, Tableau, Power BI, Big data ",
+            term: "TERM 6",
+            duration: "40-50  hrs",
+            title: "Data Structure and Algorithm",
             modules: [
               {
-                moduleTitle: "Module 9",
-                moduleContent: "Big Data Tools",
+                moduleTitle: "Section-1",
+                moduleContent: " Fundamentals of Data Structures ",
                 moduleList: [
-                  "Introduction to Big Data",
-                  "Core Technologies in Big Data",
-                  "1. Hadoop Ecosystem",
-                  "2. Hive",
-                  "3. Apache Spark",
-                  "",
+                  "Introduction to Data Structures",
+                  "Hands-On Lab:",
                 ],
               },
               {
-                moduleTitle: "Module 10",
-                moduleContent: "SQL",
-                moduleList: [
-                  "Introduction to SQL and RDBMS",
-                  "Basic and Advanced SQL Queries",
-                  "Data Operations",
-                  "NoSQL Databases",
-                  "JSON Data & CRUD Operations",
-                ],
+                moduleTitle: "Section-2",
+                moduleContent: " Advanced Data Structures ",
+                moduleList: ["Trees", "Graphs", "Hands-On Lab:"],
               },
+
               {
-                moduleTitle: "Module 11",
-                moduleContent: " Tableau",
+                moduleTitle: "Section-3",
+                moduleContent: " Sorting and Searching Algorithms ",
                 moduleList: [
-                  "Introduction to Tableau",
-                  "Visual Analytics",
-                  "Data Cleansing and Preparation",
-                  "Advanced Visualizations",
-                  "Dashboards and Stories",
-                  "Predictive Analytics",
+                  "Sorting Algorithms",
+                  "Searching Algorithms",
+                  "Hands-On Lab:",
                 ],
               },
 
               {
-                moduleTitle: "Module 12",
-                moduleContent: "PowerBI",
+                moduleTitle: "Section-4",
+                moduleContent: " Dynamic Programming and Greedy Algorithms",
                 moduleList: [
-                  "Introduction to Power BI",
-                  "Data Transformation and Modeling",
-                  "Data Visualization",
-                  "Dashboards and Reports",
-                  "Advanced Analytics",
-                  "Sharing and Collaboration",
+                  "Dynamic Programming",
+                  "Greedy Algorithms",
+                  "Hands-On Lab:",
                 ],
-              },
-
-              // {
-              //   moduleTitle: "BONUS",
-              //   moduleContent: "PowerBI",
-              //   moduleList: [
-              //     "Introduction to Power BI",
-              //     "Data Transformation and Modeling",
-              //     "Data Visualization",
-              //     "Dashboards and Reports",
-              //     "Advanced Analytics",
-              //     "Sharing and Collaboration",
-
-              //   ],
-              // },
-            ],
-          },
-          {
-            term: "BONUS",
-            duration: "4 months",
-            title: "Domain Specialization & Capstone Project",
-            modules: [
-              {
-                moduleTitle: "BONUS",
-                moduleContent: "Domain Specialization + Capstone project ",
-                moduleList: [
-                  "Industry-Specific Technologies and Innovations",
-                  "Leadership and Change Management",
-                  "Regulatory and Compliance Considerations",
-                ],
-              },
-              {
-                moduleTitle: "BONUS",
-                moduleContent:
-                  "Choose any 2 Capstone Projects from the following:",
-                moduleList: [
-                  "Retail",
-                  "HR (Human Resources)",
-                  "Marketing",
-                  "Healthcare",
-                ],
-              },
-            ],
-          },
-
-          {
-            term: "Term 4",
-            duration: "4 months",
-            title: "AI Tools",
-            modules: [
-              {
-                moduleTitle: "Module 13",
-                moduleContent: "Deep Learning ",
-                moduleList: [
-                  "Introduction to Deep Learning",
-                  "Core Concepts",
-                  "Regulatory and Compliance Considerations",
-                ],
-              },
-              {
-                moduleTitle: "Module 14",
-                moduleContent: "Deep Learning",
-                moduleList: [
-                  "Core NLP Techniques",
-                  "Advanced NLP Models",
-                  "Marketing",
-                  "Healthcare",
-                ],
-              },
-
-              {
-                moduleTitle: "Module 15",
-                moduleContent: "Deployment ",
-                moduleList: [
-                  "Introduction to Cloud Deployment",
-                  "Core Concepts",
-                  "Deployment Strategies",
-                  "Practical Applications",
-                  "Security and Compliance",
-                  "Implementation Strategies",
-                  "Project Management",
-                ],
-              },
-              {
-                moduleTitle: "NLP and Gen AI",
-                moduleContent:
-                  "Project: Automated Document Summarization Using",
-                moduleList: ["Objective", "Technologies", "Outcome"],
               },
             ],
           },
@@ -942,273 +1080,311 @@ export const DataScienceCourseData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/brainMans.webp",
         width: 80,
         height: 80,
-        title: "Term 4",
+        title: "TERM 3",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term4_tool.webp",
-        toolwidth: "380",
-        toolheight: "30",
-        description: "AI Tools",
-        duration: "4 Months",
-        contentModule: "Module",
-        contentDescription: "Deep Learning",
-        contentDetails: ["Introduction to Deep Learning", "Core Concepts"],
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
+        toolwidth: "200",
+        toolheight: "40",
+        description: "Data Visualization & Data Analysis",
+        duration: "80-85 hrs",
+        contentModule: "Section 1 -",
+        contentDescription: "SQL and Databases",
+        contentDetails: ["SQL and RDBMS", "Advance SQL"],
         popuplist: [
           {
-            term: "Term 1",
-            duration: "1.5 months",
-            title: "Foundations of Data Science and Leadership",
+            term: "Moudle 0",
+            title: "Topics Covered",
+            duration: "40-50 hrs",
             modules: [
               {
-                moduleTitle: "Module 1",
-                moduleContent: "Introduction to data science for Managers",
+                moduleTitle: "Section 1",
+                moduleContent: "Installation & Setup",
                 moduleList: [
-                  "What is Data Science, Data Analytics, Machine Learning, Artificial Intelligence?",
-                  "Role of Data in Various Industries and Businesses",
-                  "Utilizing Data to Enhance Industrial Operations and Management",
-                  "Use Cases of Data Analytics and AI in Various Domains",
-                  "BFSI",
-                  "Manufacturing",
-                  "Retail",
-                  "HR",
-                  "Marketing",
-                  "Sales",
-                  "Healthcare",
+                  "Installing Python and setting up IDEs (Jupyter, VSCode).",
+                  "Overview of the Python environment and running basic scripts.",
+                  "Introduction to Jupyter Notebook for interactive coding.",
+                  "Data Structures",
+                  "Functions And Modules",
                 ],
               },
               {
-                moduleTitle: "Module 2",
-                moduleContent: "AI in Business Strategy",
+                moduleTitle: "Section 2",
+                moduleContent: "Basic Syntax & I/O",
                 moduleList: [
-                  "AI-Driven Decision Making: Leveraging AI for strategic business decisions",
-                  "AI and Business Process Automation: Automating business processes using AI",
-                  "Case Studies: Successful AI implementations in various business domains",
+                  "Understanding variables, data types (integers, floats, strings, booleans).",
+                  "Input and output operations using the input() and print() functions.",
+                  "Performing basic arithmetic operations.",
+                ],
+              },
+
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Control Structures",
+                moduleList: [
+                  "Conditional logic using if, else, and elif statements.",
+                  "Looping with for and while loops to iterate over data.",
+                ],
+              },
+
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Basic Data Structures",
+                moduleList: [
+                  "Introduction to lists, tuples, and dictionaries.",
+                  "Accessing, modifying, and iterating through collections.",
+                  "Understanding how to use indexing and slicing with lists and tuples",
+                ],
+              },
+            ],
+          },
+          {
+            term: "TERM 1",
+            title: "Python for Data Science",
+            duration: "40-50 hrs",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Core Python Basics",
+                moduleList: [
+                  "Python Environment Setup",
+                  "Python Syntax and Code Structure",
+                  "Data Types and Control Flow",
+                  "Data Structures",
+                  "Functions And Modules",
                 ],
               },
               {
-                moduleTitle: "Module 3",
-                moduleContent: "Data Strategy and Governance for Managers",
+                moduleTitle: "Section 2",
+                moduleContent: "Data analytics Using Python",
                 moduleList: [
-                  "Developing a Data Strategy",
-                  "Aligning data initiatives with business goals and Roadmap for data maturity",
-                  "Data Governance and Ethics",
-                  "Establishing data governance frameworks and Ethical considerations in data usage",
-                  "Managing Data Quality",
-                  "Ensuring data integrity and accuracy and Tools and techniques for data validation",
+                  "File I/O An d Exceptional Handling and Regular Expression",
+                  "Basic Web Scraping for Data Analytics",
+                  "Data Analysis using Numpy",
+                  "Data Analysis using Pandas",
+                  "Data Visualization using Matplotlib",
+                  "Data Visualization using Seaborn",
+                ],
+              },
+            ],
+          },
+          {
+            term: "TERM 2",
+            duration: "70-75 hrs",
+            title: "Statistics and Machine Learning + GenAI",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Statistics",
+                moduleList: [
+                  "Fundamentals of Math and Probability",
+                  "All about Population & Sample",
+                  "Introduction to Statistics, Statistical Thinking",
+                  "Descriptive Statistics",
+                  "Inferential Statistics",
                 ],
               },
               {
-                moduleTitle: "Module 4",
-                moduleContent: "Excel",
+                moduleTitle: "Section 2",
+                moduleContent: "Advance Statistics",
+                moduleList: [
+                  "Hypothesis Testing",
+                  "Linear Algebra",
+                  "Data Processing & Exploratory Data Analysis",
+                  "EDA",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Machine Learning",
+                moduleList: [
+                  "Machine Learning Introduction",
+                  "Data Preprocessing",
+                  "Logistic Regression Model",
+                  "Evaluation Metrics for Classification model",
+                  "K Nearest Neighbours Model",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Advance Machine Learning Concepts",
+                moduleList: [
+                  "Decision Tree Model",
+                  "Random Forest Model",
+                  "Hyperparameter Tuning",
+                  "Naive Baye’s Model",
+                  "K Means and Hierarchical Clustering",
+                  "Hierarchical Clustering",
+                  "Principal Component Analysis(PCA)",
+                  "Support Vector Machine(SVM)",
+                  "XGBoost Model",
+                ],
+              },
+              {
+                moduleTitle: "Section 5",
+                moduleContent: "GenAI",
+                moduleList: [
+                  "Introduction to Generative AI concepts: GANs, VAEs, Transformers. ",
+                  "Text generation techniques using GPT models and Hugging Face Transformers.",
+                  "Image generation with GANs, StyleGAN, and DeepDream.",
+                  "Building generative models using TensorFlow, PyTorch, and Keras.",
+                  "Hierarchical Clustering",
+                  "Ethical considerations in AI: bias mitigation, fairness, interpretability.",
+                  "Practical applications like chatbots, art generation, and data augmentation.",
+                  "Advanced topics on fine-tuning models and deploying generative AI solutions",
+                ],
+              },
+            ],
+          },
+
+          {
+            term: "TERM 3",
+            duration: "80-85 hrs",
+            title: "Data Visualization & Data Analysis",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "SQL and Databases",
+                moduleList: [
+                  "SQL and RDBMS",
+                  "Advance SQL",
+                  "NoSQL, HBase & MongoDB",
+                  "JSON Data & CRUD",
+                  "Programming with SQL",
+                  "Programming with SQL",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "MongoDB",
+                moduleList: ["Introduction to MongoDB", "MongoDB (Advance)"],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: " PowerBI",
+                moduleList: [
+                  "Getting Started With Power BI",
+                  "Programming with Power BI",
+                  "Assignments",
+                ],
+              },
+
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "BigData and Spark Analytics",
+                moduleList: [
+                  "Introduction To Hadoop & Big Data",
+                  "What is Spark",
+                  "Data Visualization",
+                  "Hands-on:",
+                ],
+              },
+
+              {
+                moduleTitle: "Section 5",
+                moduleContent: "Time Series",
+                moduleList: [
+                  "Introduction to Time Series Forecasting",
+                  "Introduction to ARIMA Models",
+                ],
+              },
+            ],
+          },
+          {
+            term: "TERM 4",
+            duration: "70-75 hrs",
+            title: "AI Tools and Deployment",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Deep Learning using TensorFlow",
+                moduleList: [
+                  "Introduction to Deep Learning and TensorFlow",
+                  "TensorFlow Classification Examples",
+                  "Understanding Neural Networks With TensorFlow",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: " Natural Language Processing (NLP)",
+                moduleList: [
+                  "Natural Language Processing",
+                  "Text Analysis",
+                  "KNN",
+                  "Text Pre Processing Techniques",
+                  "Stemming",
+                ],
+              },
+
+              {
+                moduleTitle: "Section 3",
+                moduleContent: " Deployment AWS+Azure",
+                moduleList: [
+                  "Introduction to AWS and Azure Machine Learning Services",
+                  "Setting up the Environment",
+                  "Data Preparation and Feature Engineering",
+                  "Model Training and Evaluation",
+                ],
+              },
+            ],
+          },
+
+          {
+            term: "TERM 5",
+            duration: "30-35 hrs",
+            title: "Excel",
+            modules: [
+              {
+                moduleTitle: "Section-1",
+                moduleContent: " Excel for Data Science and AI ",
                 moduleList: [
                   "Introduction to Excel for Data Science",
-                  "Overview of Excel Interface and Functions",
-                  "Data Types and Data Entry",
-                  "Basic Formulas and Functions",
                   "Data Cleaning and Preparation in Excel",
                   "Data Analysis with Excel",
-                  "Advanced Excel Functions",
                   "Data Visualization with Excel",
                   "PivotTables and PivotCharts",
                   "Data Automation in Excel",
                   "Project Management in Excel",
-                ],
-              },
-            ],
-          },
-
-          {
-            term: "Term 2",
-            duration: "4 months",
-            title: "Technical Skills for Data Science",
-            modules: [
-              {
-                moduleTitle: "Module 5",
-                moduleContent: "Python",
-                moduleList: [
-                  "Data Analysis Using Numpy",
-                  "Data Visualization Using Matplotlib",
-                  "Data Visualization Using Seaborn",
-                ],
-              },
-              {
-                moduleTitle: "Module 6",
-                moduleContent: "Statistics",
-                moduleList: [
-                  "Fundamentals of Math and Probability",
-                  "Descriptive Statistics",
-                  "Inferential Statistics",
-                  "Data Processing & EDA",
-                  "Linear Algebra",
-                  "Regression Analysis",
-                ],
-              },
-              {
-                moduleTitle: "Module 7",
-                moduleContent: "Machine Learning",
-                moduleList: [
-                  "Introduction",
-                  "Data Preprocessing",
-                  "Regression and Classification",
-                  "Advanced Techniques",
-                  "Linear Algebra",
-                  "Regression Analysis",
-                ],
-              },
-              {
-                moduleTitle: "Module 8",
-                moduleContent: "GenAI for Leaders",
-                moduleList: [
-                  "Introduction to Generative AI",
-                  "Core Concepts and Techniques",
-                  "Business Applications of Generative AI",
-                  "Ethical and Responsible Use of Generative AI",
-                  "Implementation Strategies for Generative AI",
-                  "Generative AI Project Management",
-                  "Future Trends in Generative AI",
+                  "Case Studies and Applications",
                 ],
               },
             ],
           },
           {
-            term: "Term 3",
-            duration: "4 months",
-            title: "SQL, Tableau, Power BI, Big data ",
+            term: "TERM 6",
+            duration: "40-50  hrs",
+            title: "Data Structure and Algorithm",
             modules: [
               {
-                moduleTitle: "Module 9",
-                moduleContent: "Big Data Tools",
+                moduleTitle: "Section-1",
+                moduleContent: " Fundamentals of Data Structures ",
                 moduleList: [
-                  "Introduction to Big Data",
-                  "Core Technologies in Big Data",
-                  "1. Hadoop Ecosystem",
-                  "2. Hive",
-                  "3. Apache Spark",
-                  "",
+                  "Introduction to Data Structures",
+                  "Hands-On Lab:",
                 ],
               },
               {
-                moduleTitle: "Module 10",
-                moduleContent: "SQL",
-                moduleList: [
-                  "Introduction to SQL and RDBMS",
-                  "Basic and Advanced SQL Queries",
-                  "Data Operations",
-                  "NoSQL Databases",
-                  "JSON Data & CRUD Operations",
-                ],
+                moduleTitle: "Section-2",
+                moduleContent: " Advanced Data Structures ",
+                moduleList: ["Trees", "Graphs", "Hands-On Lab:"],
               },
+
               {
-                moduleTitle: "Module 11",
-                moduleContent: " Tableau",
+                moduleTitle: "Section-3",
+                moduleContent: " Sorting and Searching Algorithms ",
                 moduleList: [
-                  "Introduction to Tableau",
-                  "Visual Analytics",
-                  "Data Cleansing and Preparation",
-                  "Advanced Visualizations",
-                  "Dashboards and Stories",
-                  "Predictive Analytics",
+                  "Sorting Algorithms",
+                  "Searching Algorithms",
+                  "Hands-On Lab:",
                 ],
               },
 
               {
-                moduleTitle: "Module 12",
-                moduleContent: "PowerBI",
+                moduleTitle: "Section-4",
+                moduleContent: " Dynamic Programming and Greedy Algorithms",
                 moduleList: [
-                  "Introduction to Power BI",
-                  "Data Transformation and Modeling",
-                  "Data Visualization",
-                  "Dashboards and Reports",
-                  "Advanced Analytics",
-                  "Sharing and Collaboration",
-                ],
-              },
-
-              // {
-              //   moduleTitle: "BONUS",
-              //   moduleContent: "PowerBI",
-              //   moduleList: [
-              //     "Introduction to Power BI",
-              //     "Data Transformation and Modeling",
-              //     "Data Visualization",
-              //     "Dashboards and Reports",
-              //     "Advanced Analytics",
-              //     "Sharing and Collaboration",
-
-              //   ],
-              // },
-            ],
-          },
-
-          {
-            term: "Term 4",
-            duration: "4 months",
-            title: "AI Tools",
-            modules: [
-              {
-                moduleTitle: "Module 13",
-                moduleContent: "Deep Learning ",
-                moduleList: [
-                  "Introduction to Deep Learning",
-                  "Core Concepts",
-                  "Regulatory and Compliance Considerations",
-                ],
-              },
-              {
-                moduleTitle: "Module 14",
-                moduleContent: "Deep Learning",
-                moduleList: [
-                  "Core NLP Techniques",
-                  "Advanced NLP Models",
-                  "Marketing",
-                  "Healthcare",
-                ],
-              },
-
-              {
-                moduleTitle: "Module 15",
-                moduleContent: "Deployment ",
-                moduleList: [
-                  "Introduction to Cloud Deployment",
-                  "Core Concepts",
-                  "Deployment Strategies",
-                  "Practical Applications",
-                  "Security and Compliance",
-                  "Implementation Strategies",
-                  "Project Management",
-                ],
-              },
-              {
-                moduleTitle: "NLP and Gen AI",
-                moduleContent:
-                  "Project: Automated Document Summarization Using",
-                moduleList: ["Objective", "Technologies", "Outcome"],
-              },
-            ],
-          },
-
-          {
-            term: "BONUS",
-            duration: "4 months",
-            title: "Domain Specialization & Capstone Project",
-            modules: [
-              {
-                moduleTitle: "BONUS",
-                moduleContent: "Domain Specialization + Capstone project ",
-                moduleList: [
-                  "Industry-Specific Technologies and Innovations",
-                  "Leadership and Change Management",
-                  "Regulatory and Compliance Considerations",
-                ],
-              },
-              {
-                moduleTitle: "BONUS",
-                moduleContent:
-                  "Choose any 2 Capstone Projects from the following:",
-                moduleList: [
-                  "Retail",
-                  "HR (Human Resources)",
-                  "Marketing",
-                  "Healthcare",
+                  "Dynamic Programming",
+                  "Greedy Algorithms",
+                  "Hands-On Lab:",
                 ],
               },
             ],
@@ -1216,370 +1392,965 @@ export const DataScienceCourseData = [
         ],
       },
 
-      // {
-      //   id: "1",
-      //   trackIcon:
-      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_two.webp",
-      //   width: 100,
-      //   height: 100,
-      //   title: "Term 2",
-      //   description: "Introduction to data science for Managers",
-      //   duration: "1.5 Months",
-      //   contentModule: "Module",
-      //   contentDescription: "Introduction to data science for Managers",
-      //   contentDetails: [
-      //     "What is Data Science, Data Analytics, Machine Learning, Artificial Intelligence?",
-      //     "Role of Data in Various Industries and Businesses",
-      //   ],
-      //   popuplist: [
-      //     {
-      //       title: "Popup Item 1",
-      //       modules: [
-      //         {
-      //           moduleTitle: "Module 1",
-      //           moduleContent: "Introduction to data science for Managers",
-      //           moduleList: [
-      //             "Sub-detail 1",
-      //             "Sub-detail 2",
-      //             "Sub-detail 3",
-      //             "Sub-detail 4",
-      //           ],
-      //         },
-      //         {
-      //           moduleTitle: "Module 2",
-      //           moduleContent: "Content for Module 2",
-      //           moduleList: ["Sub-detail A", "Sub-detail B"],
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       title: "Popup Item 2",
-      //       modules: [
-      //         {
-      //           moduleTitle: "Module 3",
-      //           moduleContent: "Content for Module 3",
-      //           moduleList: ["Sub-detail C", "Sub-detail D"],
-      //         },
-      //         {
-      //           moduleTitle: "Module 4",
-      //           moduleContent: "Content for Module 4",
-      //           moduleList: ["Sub-detail E", "Sub-detail F"],
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       title: "Popup Item 2",
-      //       modules: [
-      //         {
-      //           moduleTitle: "Module 3",
-      //           moduleContent: "Content for Module 3",
-      //           moduleList: ["Sub-detail C", "Sub-detail D"],
-      //         },
-      //         {
-      //           moduleTitle: "Module 4",
-      //           moduleContent: "Content for Module 4",
-      //           moduleList: ["Sub-detail E", "Sub-detail F"],
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       title: "Popup Item 2",
-      //       modules: [
-      //         {
-      //           moduleTitle: "Module 3",
-      //           moduleContent: "Content for Module 3",
-      //           moduleList: ["Sub-detail C", "Sub-detail D"],
-      //         },
-      //         {
-      //           moduleTitle: "Module 4",
-      //           moduleContent: "Content for Module 4",
-      //           moduleList: ["Sub-detail E", "Sub-detail F"],
-      //         },
-      //       ],
-      //     },
-      //   ],
-      // },
-      // {
-      //   id: "2",
-      //   trackIcon:
-      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_two.webp",
-      //   width: 100,
-      //   height: 100,
-      //   title: "Term 3",
-      //   description: "Introduction to data science for Managers",
-      //   duration: "1.5 Months",
-      //   contentModule: "Module",
-      //   contentDescription: "Introduction to data science for Managers",
-      //   contentDetails: [
-      //     "What is Data Science, Data Analytics, Machine Learning, Artificial Intelligence?",
-      //     "Role of Data in Various Industries and Businesses",
-      //   ],
-      //   popuplist: [
-      //     {
-      //       title: "Popup Item 1",
-      //       modules: [
-      //         {
-      //           moduleTitle: "Module 1",
-      //           moduleContent: "Introduction to data science for Managers",
-      //           moduleList: [
-      //             "Sub-detail 1",
-      //             "Sub-detail 2",
-      //             "Sub-detail 3",
-      //             "Sub-detail 4",
-      //           ],
-      //         },
-      //         {
-      //           moduleTitle: "Module 2",
-      //           moduleContent: "Content for Module 2",
-      //           moduleList: ["Sub-detail A", "Sub-detail B"],
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       title: "Popup Item 2",
-      //       modules: [
-      //         {
-      //           moduleTitle: "Module 3",
-      //           moduleContent: "Content for Module 3",
-      //           moduleList: ["Sub-detail C", "Sub-detail D"],
-      //         },
-      //         {
-      //           moduleTitle: "Module 4",
-      //           moduleContent: "Content for Module 4",
-      //           moduleList: ["Sub-detail E", "Sub-detail F"],
-      //         },
-      //       ],
-      //     },
-      //   ],
-      // },
-      // {
-      //   id: "3",
-      //   trackIcon:
-      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_two.webp",
-      //   width: 100,
-      //   height: 100,
-      //   title: "Term 4",
-      //   description: "Introduction to data science for Managers",
-      //   duration: "1.5 Months",
-      //   contentModule: "Module",
-      //   contentDescription: "Introduction to data science for Managers",
-      //   contentDetails: [
-      //     "What is Data Science, Data Analytics, Machine Learning, Artificial Intelligence?",
-      //     "Role of Data in Various Industries and Businesses",
-      //   ],
-      //   popuplist: [
-      //     {
-      //       title: "Popup Item 1",
-      //       modules: [
-      //         {
-      //           moduleTitle: "Module 1",
-      //           moduleContent: "Introduction to data science for Managers",
-      //           moduleList: [
-      //             "Sub-detail 1",
-      //             "Sub-detail 2",
-      //             "Sub-detail 3",
-      //             "Sub-detail 4",
-      //           ],
-      //         },
-      //         {
-      //           moduleTitle: "Module 2",
-      //           moduleContent: "Content for Module 2",
-      //           moduleList: ["Sub-detail A", "Sub-detail B"],
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       title: "Popup Item 2",
-      //       modules: [
-      //         {
-      //           moduleTitle: "Module 3",
-      //           moduleContent: "Content for Module 3",
-      //           moduleList: ["Sub-detail C", "Sub-detail D"],
-      //         },
-      //         {
-      //           moduleTitle: "Module 4",
-      //           moduleContent: "Content for Module 4",
-      //           moduleList: ["Sub-detail E", "Sub-detail F"],
-      //         },
-      //       ],
-      //     },
-      //   ],
-      // },
+      {
+        id: "4",
+        trackIcon:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/peoples.webp",
+        width: 80,
+        height: 80,
+        title: "TERM 4",
+        toolsImg:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
+        toolwidth: "200",
+        toolheight: "40",
+        description: "AI Tools and Deployment",
+        duration: "70-75 hrs",
+        contentModule: "Section 1 -",
+        contentDescription: "Deep Learning using TensorFlow",
+        contentDetails: [
+          "Introduction to Deep Learning and TensorFlow",
+          "TensorFlow Classification Examples",
+        ],
+        popuplist: [
+          {
+            term: "Moudle 0",
+            title: "Topics Covered",
+            duration: "40-50 hrs",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Installation & Setup",
+                moduleList: [
+                  "Installing Python and setting up IDEs (Jupyter, VSCode).",
+                  "Overview of the Python environment and running basic scripts.",
+                  "Introduction to Jupyter Notebook for interactive coding.",
+                  "Data Structures",
+                  "Functions And Modules",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Basic Syntax & I/O",
+                moduleList: [
+                  "Understanding variables, data types (integers, floats, strings, booleans).",
+                  "Input and output operations using the input() and print() functions.",
+                  "Performing basic arithmetic operations.",
+                ],
+              },
 
-      // {
-      //   id: "1",
-      //   "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_two.webp",
-      //   "width": 100,
-      //   "height": 100,
-      //   "title": "two Title",
-      //   "description": "Section Description",
-      //   "duration": "1.5 Months",
-      //   "contentModule": "Module",
-      //   "contentDescription": "Description",
-      //   "contentDetails": ["Detail 1", "Detail 2"],
-      //   "popuplist": ["Popup Item 1", "Popup Item 2", "Popup Item 3"],
-      //   "popupModules": [
-      //     {
-      //       "moduleTitle": "Module 1",
-      //       "moduleContent": "Content for Module 1",
-      //       "moduleList": ["Sub-detail 1", "Sub-detail 2", "Sub-detail 3", "Sub-detail 4"]
-      //     },
-      //     {
-      //       "moduleTitle": "Module 2",
-      //       "moduleContent": "Content for Module 2",
-      //       "moduleList": ["Sub-detail A", "Sub-detail B"]
-      //     },
-      //     {
-      //       "moduleTitle": "Module 3",
-      //       "moduleContent": "Content for Module 2",
-      //       "moduleList": ["Sub-detail A", "Sub-detail B"]
-      //     },    {
-      //       "moduleTitle": "Module 4",
-      //       "moduleContent": "Content for Module 2",
-      //       "moduleList": ["Sub-detail A", "Sub-detail B"]
-      //     }
-      //   ]
-      // },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Control Structures",
+                moduleList: [
+                  "Conditional logic using if, else, and elif statements.",
+                  "Looping with for and while loops to iterate over data.",
+                ],
+              },
 
-      // {
-      //   id: "2",
-      //   "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_two.webp",
-      //   "width": 100,
-      //   "height": 100,
-      //   "title": "third Title",
-      //   "description": "Section Description",
-      //   "duration": "1.5 Months",
-      //   "contentModule": "Module",
-      //   "contentDescription": "Description",
-      //   "contentDetails": ["Detail 1", "Detail 2"],
-      //   "popuplist": ["Popup Item 1", "Popup Item 2"],
-      //   "popupModules": [
-      //     {
-      //       "moduleTitle": "Module 1",
-      //       "moduleContent": "Content for Module 1",
-      //       "moduleList": ["Sub-detail 1", "Sub-detail 2", "Sub-detail 3", "Sub-detail 4"]
-      //     },
-      //     {
-      //       "moduleTitle": "Module 2",
-      //       "moduleContent": "Content for Module 2",
-      //       "moduleList": ["Sub-detail A", "Sub-detail B"]
-      //     },
-      //     {
-      //       "moduleTitle": "Module 3",
-      //       "moduleContent": "Content for Module 2",
-      //       "moduleList": ["Sub-detail A", "Sub-detail B"]
-      //     },    {
-      //       "moduleTitle": "Module 4",
-      //       "moduleContent": "Content for Module 2",
-      //       "moduleList": ["Sub-detail A", "Sub-detail B"]
-      //     }
-      //   ]
-      // },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Basic Data Structures",
+                moduleList: [
+                  "Introduction to lists, tuples, and dictionaries.",
+                  "Accessing, modifying, and iterating through collections.",
+                  "Understanding how to use indexing and slicing with lists and tuples",
+                ],
+              },
+            ],
+          },
+          {
+            term: "TERM 1",
+            title: "Python for Data Science",
+            duration: "40-50 hrs",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Core Python Basics",
+                moduleList: [
+                  "Python Environment Setup",
+                  "Python Syntax and Code Structure",
+                  "Data Types and Control Flow",
+                  "Data Structures",
+                  "Functions And Modules",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Data analytics Using Python",
+                moduleList: [
+                  "File I/O An d Exceptional Handling and Regular Expression",
+                  "Basic Web Scraping for Data Analytics",
+                  "Data Analysis using Numpy",
+                  "Data Analysis using Pandas",
+                  "Data Visualization using Matplotlib",
+                  "Data Visualization using Seaborn",
+                ],
+              },
+            ],
+          },
+          {
+            term: "TERM 2",
+            duration: "70-75 hrs",
+            title: "Statistics and Machine Learning + GenAI",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Statistics",
+                moduleList: [
+                  "Fundamentals of Math and Probability",
+                  "All about Population & Sample",
+                  "Introduction to Statistics, Statistical Thinking",
+                  "Descriptive Statistics",
+                  "Inferential Statistics",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Advance Statistics",
+                moduleList: [
+                  "Hypothesis Testing",
+                  "Linear Algebra",
+                  "Data Processing & Exploratory Data Analysis",
+                  "EDA",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Machine Learning",
+                moduleList: [
+                  "Machine Learning Introduction",
+                  "Data Preprocessing",
+                  "Logistic Regression Model",
+                  "Evaluation Metrics for Classification model",
+                  "K Nearest Neighbours Model",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Advance Machine Learning Concepts",
+                moduleList: [
+                  "Decision Tree Model",
+                  "Random Forest Model",
+                  "Hyperparameter Tuning",
+                  "Naive Baye’s Model",
+                  "K Means and Hierarchical Clustering",
+                  "Hierarchical Clustering",
+                  "Principal Component Analysis(PCA)",
+                  "Support Vector Machine(SVM)",
+                  "XGBoost Model",
+                ],
+              },
+              {
+                moduleTitle: "Section 5",
+                moduleContent: "GenAI",
+                moduleList: [
+                  "Introduction to Generative AI concepts: GANs, VAEs, Transformers. ",
+                  "Text generation techniques using GPT models and Hugging Face Transformers.",
+                  "Image generation with GANs, StyleGAN, and DeepDream.",
+                  "Building generative models using TensorFlow, PyTorch, and Keras.",
+                  "Hierarchical Clustering",
+                  "Ethical considerations in AI: bias mitigation, fairness, interpretability.",
+                  "Practical applications like chatbots, art generation, and data augmentation.",
+                  "Advanced topics on fine-tuning models and deploying generative AI solutions",
+                ],
+              },
+            ],
+          },
 
-      // {
-      //   id: "3",
-      //   "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_two.webp",
-      //   "width": 100,
-      //   "height": 100,
-      //   "title": "Section Title",
-      //   "description": "Section Description",
-      //   "duration": "1.5 Months",
-      //   "contentModule": "Module",
-      //   "contentDescription": "Description",
-      //   "contentDetails": ["Detail 1", "Detail 2"],
-      //   "popuplist": ["Popup Item 1", "Popup Item 2"],
-      //   "popupModules": [
-      //     {
-      //       "moduleTitle": "Module 1",
-      //       "moduleContent": "Content for Module 1",
-      //       "moduleList": ["Sub-detail 1", "Sub-detail 2", "Sub-detail 3", "Sub-detail 4"]
-      //     },
-      //     {
-      //       "moduleTitle": "Module 2",
-      //       "moduleContent": "Content for Module 2",
-      //       "moduleList": ["Sub-detail A", "Sub-detail B"]
-      //     },
-      //     {
-      //       "moduleTitle": "Module 3",
-      //       "moduleContent": "Content for Module 2",
-      //       "moduleList": ["Sub-detail A", "Sub-detail B"]
-      //     },    {
-      //       "moduleTitle": "Module 4",
-      //       "moduleContent": "Content for Module 2",
-      //       "moduleList": ["Sub-detail A", "Sub-detail B"]
-      //     }
-      //   ]
-      // },
+          {
+            term: "TERM 3",
+            duration: "80-85 hrs",
+            title: "Data Visualization & Data Analysis",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "SQL and Databases",
+                moduleList: [
+                  "SQL and RDBMS",
+                  "Advance SQL",
+                  "NoSQL, HBase & MongoDB",
+                  "JSON Data & CRUD",
+                  "Programming with SQL",
+                  "Programming with SQL",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "MongoDB",
+                moduleList: ["Introduction to MongoDB", "MongoDB (Advance)"],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: " PowerBI",
+                moduleList: [
+                  "Getting Started With Power BI",
+                  "Programming with Power BI",
+                  "Assignments",
+                ],
+              },
 
-      // {
-      //   id: "1",
-      //   title: "Term 2",
-      //   trackIcon:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_two.webp",
-      //   width:"50",
-      //   height:"60",
-      //   description: "Advanced Data Science Techniques",
-      //   duration: "2 months",
-      //   contentModule: "Module 2",
-      //   contentTitle: "Advanced Data Science Techniques",
-      //   contentDescription: "Deep Learning and Neural Networks",
-      //   contentDetails: [
-      //     "Introduction to Neural Networks",
-      //     "Deep Learning Architectures",
-      //   ],
-      //   popupContent: "Introduction to Data science for managers",
-      //   popupModule: "Module 2",
-      //   popuplist: [
-      //     "Introduction to Neural Networks",
-      //     "Deep Learning Architectures",
-      //     "Data Science Project Management",
-      //   ],
-      // },
-      // {
-      //   id: "2",
-      //   title: "Term 3",
-      //   trackIcon:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_three.webp",
-      //   width:"50",
-      //   height:"50",
-      //   description: "Data Science in Practice",
-      //   duration: "2.5 months",
-      //   contentModule: "Module 3",
-      //   contentTitle: "Data Science in Practice",
-      //   contentDescription: "Practical Applications of Data Science",
-      //   contentDetails: [
-      //     "Real-world Case Studies",
-      //     "Data Science Project Management",
-      //   ],
-      //   popupContent:
-      //     "This module focuses on applying data science techniques to real-world problems...",
-      //   popupModule: "Module 3",
-      //   popuplist: [
-      //     "Real-world Case Studies",
-      //     "Data Science Project Management",
-      //   ],
-      // },
-      // {
-      //   id: "3",
-      //   title: "Term 4",
-      //   trackIcon:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/syllbus_track_four.webp",
-      //   width:"50",
-      //   height:"50",
-      //   description: "Leadership in Data Science",
-      //   duration: "1 month",
-      //   contentModule: "Module 4",
-      //   contentTitle: "Leadership in Data Science",
-      //   contentDescription: "Leading Data Science Teams",
-      //   contentDetails: [
-      //     "Team Management Strategies",
-      //     "Building Data-Driven Cultures",
-      //   ],
-      //   popupContent:
-      //     "This module prepares you for leading data science teams effectively...",
-      //   popupModule: "Module 4",
-      //   popuplist: [
-      //     "Team Management Strategies",
-      //     "Building Data-Driven Cultures",
-      //   ],
-      // },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "BigData and Spark Analytics",
+                moduleList: [
+                  "Introduction To Hadoop & Big Data",
+                  "What is Spark",
+                  "Data Visualization",
+                  "Hands-on:",
+                ],
+              },
+
+              {
+                moduleTitle: "Section 5",
+                moduleContent: "Time Series",
+                moduleList: [
+                  "Introduction to Time Series Forecasting",
+                  "Introduction to ARIMA Models",
+                ],
+              },
+            ],
+          },
+          {
+            term: "TERM 4",
+            duration: "70-75 hrs",
+            title: "AI Tools and Deployment",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Deep Learning using TensorFlow",
+                moduleList: [
+                  "Introduction to Deep Learning and TensorFlow",
+                  "TensorFlow Classification Examples",
+                  "Understanding Neural Networks With TensorFlow",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: " Natural Language Processing (NLP)",
+                moduleList: [
+                  "Natural Language Processing",
+                  "Text Analysis",
+                  "KNN",
+                  "Text Pre Processing Techniques",
+                  "Stemming",
+                ],
+              },
+
+              {
+                moduleTitle: "Section 3",
+                moduleContent: " Deployment AWS+Azure",
+                moduleList: [
+                  "Introduction to AWS and Azure Machine Learning Services",
+                  "Setting up the Environment",
+                  "Data Preparation and Feature Engineering",
+                  "Model Training and Evaluation",
+                ],
+              },
+            ],
+          },
+
+          {
+            term: "TERM 5",
+            duration: "30-35 hrs",
+            title: "Excel",
+            modules: [
+              {
+                moduleTitle: "Section-1",
+                moduleContent: " Excel for Data Science and AI ",
+                moduleList: [
+                  "Introduction to Excel for Data Science",
+                  "Data Cleaning and Preparation in Excel",
+                  "Data Analysis with Excel",
+                  "Data Visualization with Excel",
+                  "PivotTables and PivotCharts",
+                  "Data Automation in Excel",
+                  "Project Management in Excel",
+                  "Case Studies and Applications",
+                ],
+              },
+            ],
+          },
+          {
+            term: "TERM 6",
+            duration: "40-50  hrs",
+            title: "Data Structure and Algorithm",
+            modules: [
+              {
+                moduleTitle: "Section-1",
+                moduleContent: " Fundamentals of Data Structures ",
+                moduleList: [
+                  "Introduction to Data Structures",
+                  "Hands-On Lab:",
+                ],
+              },
+              {
+                moduleTitle: "Section-2",
+                moduleContent: " Advanced Data Structures ",
+                moduleList: ["Trees", "Graphs", "Hands-On Lab:"],
+              },
+
+              {
+                moduleTitle: "Section-3",
+                moduleContent: " Sorting and Searching Algorithms ",
+                moduleList: [
+                  "Sorting Algorithms",
+                  "Searching Algorithms",
+                  "Hands-On Lab:",
+                ],
+              },
+
+              {
+                moduleTitle: "Section-4",
+                moduleContent: " Dynamic Programming and Greedy Algorithms",
+                moduleList: [
+                  "Dynamic Programming",
+                  "Greedy Algorithms",
+                  "Hands-On Lab:",
+                ],
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        id: "5",
+        trackIcon:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/peoples.webp",
+        width: 80,
+        height: 80,
+        title: "TERM 5",
+        toolsImg:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
+        toolwidth: "200",
+        toolheight: "40",
+        description: "Excel",
+        duration: "30-35 hrs",
+        contentModule: "Section 1 -",
+        contentDescription: "Excel for Data Science and AI",
+        contentDetails: [
+          "Introduction to Excel for Data Science",
+          "Data Cleaning and Preparation in Excel",
+        ],
+        popuplist: [
+          {
+            term: "Moudle 0",
+            title: "Topics Covered",
+            duration: "40-50 hrs",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Installation & Setup",
+                moduleList: [
+                  "Installing Python and setting up IDEs (Jupyter, VSCode).",
+                  "Overview of the Python environment and running basic scripts.",
+                  "Introduction to Jupyter Notebook for interactive coding.",
+                  "Data Structures",
+                  "Functions And Modules",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Basic Syntax & I/O",
+                moduleList: [
+                  "Understanding variables, data types (integers, floats, strings, booleans).",
+                  "Input and output operations using the input() and print() functions.",
+                  "Performing basic arithmetic operations.",
+                ],
+              },
+
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Control Structures",
+                moduleList: [
+                  "Conditional logic using if, else, and elif statements.",
+                  "Looping with for and while loops to iterate over data.",
+                ],
+              },
+
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Basic Data Structures",
+                moduleList: [
+                  "Introduction to lists, tuples, and dictionaries.",
+                  "Accessing, modifying, and iterating through collections.",
+                  "Understanding how to use indexing and slicing with lists and tuples",
+                ],
+              },
+            ],
+          },
+          {
+            term: "TERM 1",
+            title: "Python for Data Science",
+            duration: "40-50 hrs",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Core Python Basics",
+                moduleList: [
+                  "Python Environment Setup",
+                  "Python Syntax and Code Structure",
+                  "Data Types and Control Flow",
+                  "Data Structures",
+                  "Functions And Modules",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Data analytics Using Python",
+                moduleList: [
+                  "File I/O An d Exceptional Handling and Regular Expression",
+                  "Basic Web Scraping for Data Analytics",
+                  "Data Analysis using Numpy",
+                  "Data Analysis using Pandas",
+                  "Data Visualization using Matplotlib",
+                  "Data Visualization using Seaborn",
+                ],
+              },
+            ],
+          },
+          {
+            term: "TERM 2",
+            duration: "70-75 hrs",
+            title: "Statistics and Machine Learning + GenAI",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Statistics",
+                moduleList: [
+                  "Fundamentals of Math and Probability",
+                  "All about Population & Sample",
+                  "Introduction to Statistics, Statistical Thinking",
+                  "Descriptive Statistics",
+                  "Inferential Statistics",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Advance Statistics",
+                moduleList: [
+                  "Hypothesis Testing",
+                  "Linear Algebra",
+                  "Data Processing & Exploratory Data Analysis",
+                  "EDA",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Machine Learning",
+                moduleList: [
+                  "Machine Learning Introduction",
+                  "Data Preprocessing",
+                  "Logistic Regression Model",
+                  "Evaluation Metrics for Classification model",
+                  "K Nearest Neighbours Model",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Advance Machine Learning Concepts",
+                moduleList: [
+                  "Decision Tree Model",
+                  "Random Forest Model",
+                  "Hyperparameter Tuning",
+                  "Naive Baye’s Model",
+                  "K Means and Hierarchical Clustering",
+                  "Hierarchical Clustering",
+                  "Principal Component Analysis(PCA)",
+                  "Support Vector Machine(SVM)",
+                  "XGBoost Model",
+                ],
+              },
+              {
+                moduleTitle: "Section 5",
+                moduleContent: "GenAI",
+                moduleList: [
+                  "Introduction to Generative AI concepts: GANs, VAEs, Transformers. ",
+                  "Text generation techniques using GPT models and Hugging Face Transformers.",
+                  "Image generation with GANs, StyleGAN, and DeepDream.",
+                  "Building generative models using TensorFlow, PyTorch, and Keras.",
+                  "Hierarchical Clustering",
+                  "Ethical considerations in AI: bias mitigation, fairness, interpretability.",
+                  "Practical applications like chatbots, art generation, and data augmentation.",
+                  "Advanced topics on fine-tuning models and deploying generative AI solutions",
+                ],
+              },
+            ],
+          },
+
+          {
+            term: "TERM 3",
+            duration: "80-85 hrs",
+            title: "Data Visualization & Data Analysis",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "SQL and Databases",
+                moduleList: [
+                  "SQL and RDBMS",
+                  "Advance SQL",
+                  "NoSQL, HBase & MongoDB",
+                  "JSON Data & CRUD",
+                  "Programming with SQL",
+                  "Programming with SQL",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "MongoDB",
+                moduleList: ["Introduction to MongoDB", "MongoDB (Advance)"],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: " PowerBI",
+                moduleList: [
+                  "Getting Started With Power BI",
+                  "Programming with Power BI",
+                  "Assignments",
+                ],
+              },
+
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "BigData and Spark Analytics",
+                moduleList: [
+                  "Introduction To Hadoop & Big Data",
+                  "What is Spark",
+                  "Data Visualization",
+                  "Hands-on:",
+                ],
+              },
+
+              {
+                moduleTitle: "Section 5",
+                moduleContent: "Time Series",
+                moduleList: [
+                  "Introduction to Time Series Forecasting",
+                  "Introduction to ARIMA Models",
+                ],
+              },
+            ],
+          },
+          {
+            term: "TERM 4",
+            duration: "70-75 hrs",
+            title: "AI Tools and Deployment",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Deep Learning using TensorFlow",
+                moduleList: [
+                  "Introduction to Deep Learning and TensorFlow",
+                  "TensorFlow Classification Examples",
+                  "Understanding Neural Networks With TensorFlow",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: " Natural Language Processing (NLP)",
+                moduleList: [
+                  "Natural Language Processing",
+                  "Text Analysis",
+                  "KNN",
+                  "Text Pre Processing Techniques",
+                  "Stemming",
+                ],
+              },
+
+              {
+                moduleTitle: "Section 3",
+                moduleContent: " Deployment AWS+Azure",
+                moduleList: [
+                  "Introduction to AWS and Azure Machine Learning Services",
+                  "Setting up the Environment",
+                  "Data Preparation and Feature Engineering",
+                  "Model Training and Evaluation",
+                ],
+              },
+            ],
+          },
+
+          {
+            term: "TERM 5",
+            duration: "30-35 hrs",
+            title: "Excel",
+            modules: [
+              {
+                moduleTitle: "Section-1",
+                moduleContent: " Excel for Data Science and AI ",
+                moduleList: [
+                  "Introduction to Excel for Data Science",
+                  "Data Cleaning and Preparation in Excel",
+                  "Data Analysis with Excel",
+                  "Data Visualization with Excel",
+                  "PivotTables and PivotCharts",
+                  "Data Automation in Excel",
+                  "Project Management in Excel",
+                  "Case Studies and Applications",
+                ],
+              },
+            ],
+          },
+          {
+            term: "TERM 6",
+            duration: "40-50  hrs",
+            title: "Data Structure and Algorithm",
+            modules: [
+              {
+                moduleTitle: "Section-1",
+                moduleContent: " Fundamentals of Data Structures ",
+                moduleList: [
+                  "Introduction to Data Structures",
+                  "Hands-On Lab:",
+                ],
+              },
+              {
+                moduleTitle: "Section-2",
+                moduleContent: " Advanced Data Structures ",
+                moduleList: ["Trees", "Graphs", "Hands-On Lab:"],
+              },
+
+              {
+                moduleTitle: "Section-3",
+                moduleContent: " Sorting and Searching Algorithms ",
+                moduleList: [
+                  "Sorting Algorithms",
+                  "Searching Algorithms",
+                  "Hands-On Lab:",
+                ],
+              },
+
+              {
+                moduleTitle: "Section-4",
+                moduleContent: " Dynamic Programming and Greedy Algorithms",
+                moduleList: [
+                  "Dynamic Programming",
+                  "Greedy Algorithms",
+                  "Hands-On Lab:",
+                ],
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        id: "6",
+        trackIcon:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/peoples.webp",
+        width: 80,
+        height: 80,
+        title: "TERM 6",
+        toolsImg:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
+        toolwidth: "200",
+        toolheight: "40",
+        description: "Data Structure and Algorithm",
+        duration: "40-45 hrs",
+        contentModule: "Section 1 -",
+        contentDescription: "Fundamentals of Data Structures",
+        contentDetails: ["Introduction to Data Structures", "Hands-On Lab:"],
+        popuplist: [
+          {
+            term: "Moudle 0",
+            title: "Topics Covered",
+            duration: "40-50 hrs",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Installation & Setup",
+                moduleList: [
+                  "Installing Python and setting up IDEs (Jupyter, VSCode).",
+                  "Overview of the Python environment and running basic scripts.",
+                  "Introduction to Jupyter Notebook for interactive coding.",
+                  "Data Structures",
+                  "Functions And Modules",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Basic Syntax & I/O",
+                moduleList: [
+                  "Understanding variables, data types (integers, floats, strings, booleans).",
+                  "Input and output operations using the input() and print() functions.",
+                  "Performing basic arithmetic operations.",
+                ],
+              },
+
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Control Structures",
+                moduleList: [
+                  "Conditional logic using if, else, and elif statements.",
+                  "Looping with for and while loops to iterate over data.",
+                ],
+              },
+
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Basic Data Structures",
+                moduleList: [
+                  "Introduction to lists, tuples, and dictionaries.",
+                  "Accessing, modifying, and iterating through collections.",
+                  "Understanding how to use indexing and slicing with lists and tuples",
+                ],
+              },
+            ],
+          },
+          {
+            term: "TERM 1",
+            title: "Python for Data Science",
+            duration: "40-50 hrs",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Core Python Basics",
+                moduleList: [
+                  "Python Environment Setup",
+                  "Python Syntax and Code Structure",
+                  "Data Types and Control Flow",
+                  "Data Structures",
+                  "Functions And Modules",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Data analytics Using Python",
+                moduleList: [
+                  "File I/O An d Exceptional Handling and Regular Expression",
+                  "Basic Web Scraping for Data Analytics",
+                  "Data Analysis using Numpy",
+                  "Data Analysis using Pandas",
+                  "Data Visualization using Matplotlib",
+                  "Data Visualization using Seaborn",
+                ],
+              },
+            ],
+          },
+          {
+            term: "TERM 2",
+            duration: "70-75 hrs",
+            title: "Statistics and Machine Learning + GenAI",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Statistics",
+                moduleList: [
+                  "Fundamentals of Math and Probability",
+                  "All about Population & Sample",
+                  "Introduction to Statistics, Statistical Thinking",
+                  "Descriptive Statistics",
+                  "Inferential Statistics",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Advance Statistics",
+                moduleList: [
+                  "Hypothesis Testing",
+                  "Linear Algebra",
+                  "Data Processing & Exploratory Data Analysis",
+                  "EDA",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Machine Learning",
+                moduleList: [
+                  "Machine Learning Introduction",
+                  "Data Preprocessing",
+                  "Logistic Regression Model",
+                  "Evaluation Metrics for Classification model",
+                  "K Nearest Neighbours Model",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Advance Machine Learning Concepts",
+                moduleList: [
+                  "Decision Tree Model",
+                  "Random Forest Model",
+                  "Hyperparameter Tuning",
+                  "Naive Baye’s Model",
+                  "K Means and Hierarchical Clustering",
+                  "Hierarchical Clustering",
+                  "Principal Component Analysis(PCA)",
+                  "Support Vector Machine(SVM)",
+                  "XGBoost Model",
+                ],
+              },
+              {
+                moduleTitle: "Section 5",
+                moduleContent: "GenAI",
+                moduleList: [
+                  "Introduction to Generative AI concepts: GANs, VAEs, Transformers. ",
+                  "Text generation techniques using GPT models and Hugging Face Transformers.",
+                  "Image generation with GANs, StyleGAN, and DeepDream.",
+                  "Building generative models using TensorFlow, PyTorch, and Keras.",
+                  "Hierarchical Clustering",
+                  "Ethical considerations in AI: bias mitigation, fairness, interpretability.",
+                  "Practical applications like chatbots, art generation, and data augmentation.",
+                  "Advanced topics on fine-tuning models and deploying generative AI solutions",
+                ],
+              },
+            ],
+          },
+
+          {
+            term: "TERM 3",
+            duration: "80-85 hrs",
+            title: "Data Visualization & Data Analysis",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "SQL and Databases",
+                moduleList: [
+                  "SQL and RDBMS",
+                  "Advance SQL",
+                  "NoSQL, HBase & MongoDB",
+                  "JSON Data & CRUD",
+                  "Programming with SQL",
+                  "Programming with SQL",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "MongoDB",
+                moduleList: ["Introduction to MongoDB", "MongoDB (Advance)"],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: " PowerBI",
+                moduleList: [
+                  "Getting Started With Power BI",
+                  "Programming with Power BI",
+                  "Assignments",
+                ],
+              },
+
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "BigData and Spark Analytics",
+                moduleList: [
+                  "Introduction To Hadoop & Big Data",
+                  "What is Spark",
+                  "Data Visualization",
+                  "Hands-on:",
+                ],
+              },
+
+              {
+                moduleTitle: "Section 5",
+                moduleContent: "Time Series",
+                moduleList: [
+                  "Introduction to Time Series Forecasting",
+                  "Introduction to ARIMA Models",
+                ],
+              },
+            ],
+          },
+          {
+            term: "TERM 4",
+            duration: "70-75 hrs",
+            title: "AI Tools and Deployment",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Deep Learning using TensorFlow",
+                moduleList: [
+                  "Introduction to Deep Learning and TensorFlow",
+                  "TensorFlow Classification Examples",
+                  "Understanding Neural Networks With TensorFlow",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: " Natural Language Processing (NLP)",
+                moduleList: [
+                  "Natural Language Processing",
+                  "Text Analysis",
+                  "KNN",
+                  "Text Pre Processing Techniques",
+                  "Stemming",
+                ],
+              },
+
+              {
+                moduleTitle: "Section 3",
+                moduleContent: " Deployment AWS+Azure",
+                moduleList: [
+                  "Introduction to AWS and Azure Machine Learning Services",
+                  "Setting up the Environment",
+                  "Data Preparation and Feature Engineering",
+                  "Model Training and Evaluation",
+                ],
+              },
+            ],
+          },
+
+          {
+            term: "TERM 5",
+            duration: "30-35 hrs",
+            title: "Excel",
+            modules: [
+              {
+                moduleTitle: "Section-1",
+                moduleContent: " Excel for Data Science and AI ",
+                moduleList: [
+                  "Introduction to Excel for Data Science",
+                  "Data Cleaning and Preparation in Excel",
+                  "Data Analysis with Excel",
+                  "Data Visualization with Excel",
+                  "PivotTables and PivotCharts",
+                  "Data Automation in Excel",
+                  "Project Management in Excel",
+                  "Case Studies and Applications",
+                ],
+              },
+            ],
+          },
+          {
+            term: "TERM 6",
+            duration: "40-50  hrs",
+            title: "Data Structure and Algorithm",
+            modules: [
+              {
+                moduleTitle: "Section-1",
+                moduleContent: " Fundamentals of Data Structures ",
+                moduleList: [
+                  "Introduction to Data Structures",
+                  "Hands-On Lab:",
+                ],
+              },
+              {
+                moduleTitle: "Section-2",
+                moduleContent: " Advanced Data Structures ",
+                moduleList: ["Trees", "Graphs", "Hands-On Lab:"],
+              },
+
+              {
+                moduleTitle: "Section-3",
+                moduleContent: " Sorting and Searching Algorithms ",
+                moduleList: [
+                  "Sorting Algorithms",
+                  "Searching Algorithms",
+                  "Hands-On Lab:",
+                ],
+              },
+
+              {
+                moduleTitle: "Section-4",
+                moduleContent: " Dynamic Programming and Greedy Algorithms",
+                moduleList: [
+                  "Dynamic Programming",
+                  "Greedy Algorithms",
+                  "Hands-On Lab:",
+                ],
+              },
+            ],
+          },
+        ],
+      },
     ],
     secondSection: [
       {

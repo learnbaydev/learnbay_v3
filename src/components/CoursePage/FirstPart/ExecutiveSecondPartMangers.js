@@ -41,12 +41,22 @@ const ExecutiveSecondPart = ({ sections, FAQNewData, certificateNew }) => {
       <ToolsSection />
       <CertificateSection  certificateNew={certificateNew}/>
       <FeeSection
+// OnlineFEE
+Fee="₹ 1,15,000 "
+FeeEmi="₹ 6,388/ month"
+
+// Hybrid Classes
+hybridFee="₹ 1,30,000"
+hybridEmi="₹ 7,222/ month"
+
+
+
         // EMIPOPUP
-        emiType="Live online classes"
+        emiType="NO COST EMI"
         duration1="12 Months"
         totalAmount1="₹1,90,000"
         monthlyPayment1="₹14,094"
-        greenDown1="Hybrid Classes"
+        greenDown1="Standard Interest Rates Applicable"
         duration2="12 Months"
         totalAmount2="₹2,10,000"
         monthlyPayment2="₹12,455"

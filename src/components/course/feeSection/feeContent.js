@@ -7,6 +7,10 @@ import Emipopup from "@/components/CoursePage/EMIPopup/Emipopup";
 import Modal from "react-modal";
 
 const FeeContent = ({
+  Fee,
+  FeeEmi,
+  hybridFee,
+  hybridEmi,
   setPopups,
   emiType,
   duration1,
@@ -88,11 +92,11 @@ const FeeContent = ({
               <div className={styles.border}>
                 <p>Program Fee</p>
                 <h4>
-                  ₹ 1,50,000<span> + 18% GST</span>
+                  {Fee}<span> + 18% GST</span>
                 </h4>
               </div>
               <p>Pay in easy EMIs starting as low as</p>
-              <h4>₹ 9,833/ month</h4>
+              <h4>{FeeEmi}</h4>
 
               <div className={styles.emiButton} onClick={openEmiPopup}>
                 <Button text="Check EMI Options" />
@@ -176,11 +180,11 @@ const FeeContent = ({
                 <div className={styles.border}>
                   <p>Program Fee</p>
                   <h4>
-                    ₹ 1,75,000<span> + 18% GST</span>
+                    {hybridFee}<span> + 18% GST</span>
                   </h4>
                 </div>
                 <p>Pay in easy EMIs starting as low as</p>
-                <h4 style={{ color: "#0072BC" }}>₹ 11,472/ month</h4>
+                <h4 style={{ color: "#0072BC" }}>{hybridEmi}</h4>
 
                 <div className={styles.emiButtonBlue} onClick={openEmiPopup}>
                   <Button text="Check EMI Options" />

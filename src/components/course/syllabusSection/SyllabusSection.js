@@ -95,7 +95,7 @@ const SyllabusSection = ({
               />
               <h3>{section.title}</h3>
             </div>
-            {index < 3 && <div className={styles.verticalLine}></div>}
+            {index !== sections.length - 1 && <div className={styles.verticalLine}></div>}
           </div>
           <div className={styles.gridryt}>
             <div className={styles.rytmain}>
