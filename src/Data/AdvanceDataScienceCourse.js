@@ -72,12 +72,12 @@ export const DataScienceCourseData = [
       {
         id: "0",
         trackIcon:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/peoples.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/excel-icon.webp",
         width: 80,
         height: 80,
         title: "Module 0",
         toolsImg:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-right.webp",
         toolwidth: "200",
         toolheight: "40",
         description: "Python Bootcamp for Non-Programmers",
@@ -345,12 +345,12 @@ export const DataScienceCourseData = [
         {
             id: "1",
             trackIcon:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/greens.web",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/user-setting.webp",
             width: 80,
             height: 80,
             title: "TERM 1",
             toolsImg:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-pandas.webp",
             toolwidth: "200",
             toolheight: "40",
             description: "Python for Data Science",
@@ -624,10 +624,10 @@ export const DataScienceCourseData = [
                 height: 80,
                 title: "TERM 2",
                 toolsImg:
-                "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
+                "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/numpy-matplotlib-seaborn.webp",
                 toolwidth: "200",
                 toolheight: "40",
-                description: "Statistics and Machine Learning + GenA",
+                description: "Statistics and Machine Learning + GenAI",
                 duration: "70-75 hrs",
                 contentModule: "Section 1 -",
                 contentDescription: "Statistic",
@@ -898,7 +898,7 @@ export const DataScienceCourseData = [
                     height: 80,
                     title: "TERM 3",
                     toolsImg:
-                    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
+                    "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/sql-tableau-powerbi-hadoop-spark.webp",
                     toolwidth: "200",
                     toolheight: "40",
                     description: "Data Visualization & Data Analysis",
@@ -1166,12 +1166,12 @@ export const DataScienceCourseData = [
                     {
                         id: "4",
                         trackIcon:
-                        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/peoples.webp",
+                        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/brain-setting.webp",
                         width: 80,
                         height: 80,
                         title: "TERM 4",
                         toolsImg:
-                        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
+                        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/tensorflow-openai-docker.webp",
                         toolwidth: "200",
                         toolheight: "40",
                         description: "AI Tools and Deployment",
