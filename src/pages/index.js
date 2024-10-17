@@ -1,22 +1,45 @@
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import NewSevenSection from "@/components/Global/SeventhSectionNew/NewSevenSection";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-import CLogo from "@/components/Home/Compnays/CLogo";
-import FirstSection from "@/components/Home/FirstSection/FirstSection";
-import InfinityLogo from "@/components/Home/InfinityLogo/InfinityLogo";
-import KickStart from "@/components/Home/KickStartSection/KickStart";
-import Media from "@/components/Home/Media/Media";
-import MobileTestimonial from "@/components/Home/MobileTestimonial/MobileTestimonial";
-import NewCourse from "@/components/Home/NewCourse/NewCourse";
-import Other from "@/components/Home/OtherVS/Other";
-import WhyChooseSection from "@/components/Home/whyChooseSection/whyChooseSection";
-import ReviewSlider from "@/components/course/reviewSlider/reviewSlider";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import { useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
-import NavbarHome from "@/components/Global/Navbar/NavbarHome";
 
+// Dynamic imports for all components
+const BottomBar = dynamic(() =>
+  import("@/components/Global/BottomBar/BottomBar")
+);
+const NewSevenSection = dynamic(() =>
+  import("@/components/Global/SeventhSectionNew/NewSevenSection")
+);
+const WhatsappFloat = dynamic(() =>
+  import("@/components/Global/WhatappsFloat/WhatsappFloat")
+);
+const CLogo = dynamic(() => import("@/components/Home/Compnays/CLogo"));
+const FirstSection = dynamic(() =>
+  import("@/components/Home/FirstSection/FirstSection")
+);
+const InfinityLogo = dynamic(() =>
+  import("@/components/Home/InfinityLogo/InfinityLogo")
+);
+const KickStart = dynamic(() =>
+  import("@/components/Home/KickStartSection/KickStart")
+);
+const Media = dynamic(() => import("@/components/Home/Media/Media"));
+const MobileTestimonial = dynamic(() =>
+  import("@/components/Home/MobileTestimonial/MobileTestimonial")
+);
+const NewCourse = dynamic(() =>
+  import("@/components/Home/NewCourse/NewCourse")
+);
+const Other = dynamic(() => import("@/components/Home/OtherVS/Other"));
+const WhyChooseSection = dynamic(() =>
+  import("@/components/Home/whyChooseSection/whyChooseSection")
+);
+const ReviewSlider = dynamic(() =>
+  import("@/components/course/reviewSlider/reviewSlider")
+);
+const NavbarHome = dynamic(() =>
+  import("@/components/Global/Navbar/NavbarHome")
+); // Changed Navbar import to dynamic
 
 const ContactUs = dynamic(() =>
   import("@/components/Home/ContactUs/ContactUs")
