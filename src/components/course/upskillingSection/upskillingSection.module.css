@@ -8,6 +8,7 @@
     background: #212121;
 padding: 50px 0px 100px 0px;
     gap:40px;
+    position: relative;
 }
 .upskillHeading{
     font-size: 45px;
@@ -31,13 +32,15 @@ padding: 50px 0px 100px 0px;
 .UpperBoxContainer{
     display: flex;
     justify-content: center;
-    gap: 8rem;
+    gap: 7rem;
     margin: 2rem 4rem;
     position: relative;
+    flex-wrap: wrap;
 }
 .boxContainer{
     color: white;
     width:250px;
+    height: 250px;
 }
 
 
@@ -161,18 +164,18 @@ line-height: 125%; /* 31.25px */
     top: -27px;
 }
 .svgLinetwo{
-  position: absolute;
-  right: -62px;
-  top: -7px;
+    position: absolute;
+    right: 1px;
+    top: 226px;
 
 }
 
 .svgLinethree{
-  position: absolute;
-  left: 10px;
-  text-align: center;
-  top: -10px;
-  z-index: 2;
+    text-align: center;
+    z-index: 2;
+    position: absolute;
+    left: -10px;
+    bottom: -110px;
 
 
 

@@ -354,7 +354,7 @@ line-height: 155%; /* 34.1px */
 }
 @media screen and (max-width: 1381px) {
   .courseCard {
-    width: 380px;
+    max-width: 274px;
   }
   .mainImage {
     width: 100%;
@@ -364,13 +364,13 @@ line-height: 155%; /* 34.1px */
     justify-content: center;
   }
   .cardContent h3 {
-    font-size: 24px;
+    font-size: 18px;
   }
   .brochurebtn svg {
     width: 12px;
   }
   .brochurebtn {
-    font-size: 14px;
+    font-size: 12px;
   }
   .MasterCard {
     width: 1280px;
@@ -393,6 +393,9 @@ line-height: 155%; /* 34.1px */
   }
   .bgImageMaster {
     width: 100%;
+  }
+  .viewDetailsButton{
+    font-size: 12px;
   }
 }
 
@@ -438,13 +441,20 @@ line-height: 155%; /* 34.1px */
         width: 100%;
     }
   .courseCard {
-    width: 320px;
+    width: 220px;
   }
   .cardContent h3 {
-    font-size: 18px;
+    font-size: 16px;
   }
   .lists span {
-    font-size: 14px;
+    font-size: 11px;
+  }
+  .viewDetailsButton {
+    font-size: 8px;
+    padding: 10px 16px;
+  }
+  .brochurebtn{
+    font-size: 8px;
   }
 }
 @media screen and (max-width: 951px) {

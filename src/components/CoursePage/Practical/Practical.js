@@ -24,7 +24,6 @@ const Practical = () => {
           ))}
         </div>
 
-    
         <div className={styles.boxMain}>
           {memoizedBoxes.map((box, index) => (
             <div className={styles.box} key={index}>
@@ -49,6 +48,5 @@ const Practical = () => {
     </div>
   );
 };
-
 
 export default memo(Practical);

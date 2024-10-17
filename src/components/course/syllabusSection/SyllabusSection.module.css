@@ -1,5 +1,5 @@
 .mainConteiner {
-  width: 1100px;
+max-width: 1100px;
   /* background-color: red; */
   margin: 50px auto;
 }
@@ -344,12 +344,13 @@
   border-radius: 50%;
   width: 50px;
   height: 50px;
+  transition: transform 0.3s ease-in-out;
 }
 .closePopup:hover {
-  background-color: rgb(121, 110, 110);
-  font-weight: 800;
-  color: #fff;
+  transform: rotate(180deg); /* Rotate 180 degrees */
+  color: #04c988; /* Optional: Change color on hover */
 }
+
 
 .cardHead {
   display: flex;
@@ -529,7 +530,7 @@
 @media (max-width:1281px) {
   
   .mainConteiner{
-  width: auto;
+max-width: 1180px;
   }
 
   .card{
@@ -650,8 +651,9 @@ line-height: 126.5%; /* 18.975px */
     font-size: 14px;
   }
   .closePopup{
-    top: 130px;
-    right: 30px;
+    top: 100px;
+    right: 20px;
+
   }
   .tools img {
     width: 200px;

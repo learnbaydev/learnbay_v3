@@ -94,6 +94,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
 
       <ExecutiveSecondPartMangers 
       upskillData={DataScienceCourseData.DataScienceCourseData[0].upskillMbl}
+      upskillingData={DataScienceCourseData.DataScienceCourseData[0].upskillingData}
       
       sections={DataScienceCourseData.DataScienceCourseData[0].sections}
                 

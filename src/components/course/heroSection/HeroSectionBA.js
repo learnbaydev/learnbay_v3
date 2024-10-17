@@ -119,29 +119,37 @@ function HeroSectionBA({
                 />
               </div>
 
-              <div className={styles.btnDiv} onClick={popupShow}>
-                <Button text="DOWNLOAD SYLLABUS" grayButton />
-                <Button
-                  text="START MY APPLICATION"
+              <div className={styles.btnDiv}  >
+          <div  className={styles.btn} onClick={popupShow} >
+          <Button  text="Download Syllabus " grayButton />
+          </div>
+               <div onClick={popupShow}>
+               <Button
+                  text="Start My Application"
                   OrangeButton={OrangeButton}
                   purpleButton={purpleButton}
                   onClick={popupShow}
                 />
+               </div>
               </div>
               {/* Mobile-only button */}
               {isMobile && (
                 <div className={styles.btnDivM}>
+                  <div className={styles.btn} onClick={popupShow}> 
                   <Button
-                    text="DOWNLOAD SYLLABUS"
+                    text="Download Syllabus"
                     grayButton
-                    onClick={popupShow}
+                   
                   />
-                  <Button
-                    text="START MY APPLICATION"
+                  </div>
+                 <div onClick={popupShow}>
+                 <Button
+                    text="Start My Application"
                     purpleButton={purpleButton}
                     OrangeButton={OrangeButton}
                     onClick={popupShow}
                   />
+                  </div>
                 </div>
               )}
             </div>

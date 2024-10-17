@@ -1,8 +1,79 @@
 export const AIMLDataScienceCourseData = [
   {
+    upskillingData: [
+      {
+        term: "Term 1",
+        duration: "40 hrs",
+        title: "Python for Data Science",
+        useCases:
+          "Learn to manipulate and visualize data using core Python libraries such as NumPy, Pandas, and Matplotlib for effective data analysis.",
+        toolImage:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/tool_BA_one+(1).webp",
+        toolImageWidth: "122",
+        toolImageHeight: "69",
+      },
+      {
+        term: "Term 2",
+        duration: "70 hrs",
+        title: "Statistics and Machine Learning + GenAI",
+        useCases:
+          "Apply statistical methods and machine learning algorithms to solve data problems, with an introduction to generative AI techniques.",
+        toolImage:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/tool_ba_two+(1).webp",
+          toolImageWidth: "130",
+          toolImageHeight: "50",
+      },
 
-     // data.js
-     upskillMbl: [
+      {
+        term: "Term 3",
+        duration: "18 Weeks",
+        title: "Data Visualization & Data Analysis",
+        useCases:
+          "Master SQL, NoSQL, and Power BI for efficient data management, querying, and visualization of complex datasets.",
+        toolImage:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_three+(1).webp",
+        toolImageWidth: "122",
+        toolImageHeight: "69",
+      },
+
+      // Divid3
+      {
+        term: "Term 6",
+        duration: "6 Weeks",
+        title: "GenAI for Software Developers",
+        useCases:
+          "We will cover AI tools fundamentals and advanced features including machine learning frameworks, natural language processing, and computer vision applications.",
+        toolImage:
+          "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/bi_tool.webp",
+        toolImageWidth: "150",
+        toolImageHeight: "60",
+      },
+      {
+        term: "Term 5",
+        duration: "6 Weeks",
+        title: "Data Structure and Algorithm",
+        useCases:
+          "We will cover data structures and algorithms using popular languages like Python and Java. ",
+        toolImage:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_four+(1).webp",
+          toolImageWidth: "100",
+          toolImageHeight: "30",
+      },
+
+      {
+        term: "Term 4",
+        duration: "6 Weeks",
+        title: "AI Tools and Deployment",
+        useCases:
+          "Build and deploy advanced AI models, including deep learning, NLP, CV and Reinforcement Learning using cloud-based MLOps tools for real-world applications.",
+        toolImage:
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_four+(1).webp",
+        toolImageWidth: "100",
+        toolImageHeight: "30",
+      },
+    ],
+    // data.js
+    upskillMbl: [
       {
         term: 1,
         duration: "6 Weeks",
@@ -70,7 +141,6 @@ export const AIMLDataScienceCourseData = [
         width: "120",
         height: "20",
       },
-      
     ],
     summarySection: [
       {

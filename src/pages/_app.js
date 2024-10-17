@@ -1,13 +1,13 @@
 import "@/styles/globals.css";
-import "@/styles/Button.css";
-import Script from "next/script";
 import { useEffect } from "react";
-import TagManager from "react-gtm-module";
+import dynamic from "next/dynamic";
+import Script from "next/script";
 import { Georama } from "next/font/google";
+import TagManager from "react-gtm-module";
 import { PopupProvider, usePopup } from "../context/PopupContext";
-import Popup from "../components/Popup/Popup";
 import { useRouter } from "next/router";
 
+// Load font dynamically with preload in _document.js for better performance
 const georama = Georama({
   weight: ["300", "400", "500", "600", "700", "800"],
   style: ["normal", "italic"],
@@ -17,20 +17,25 @@ const georama = Georama({
 
 const App = ({ Component, pageProps }) => {
   useEffect(() => {
-    const timer = setTimeout(() => {
+    const handleScroll = () => {
       TagManager.initialize({ gtmId: "GTM-NN8XWH8" });
-    }, 3000);
+      window.removeEventListener("scroll", handleScroll);
+    };
 
-    return () => clearTimeout(timer);
+    // GTM will load on the first user scroll, instead of waiting 3 seconds
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
     <PopupProvider>
       <main className={georama.className}>
+        {/* Lazy-load GTM script */}
         <Script
           strategy="lazyOnload"
           onError={(err) => {
-            console.error("Error", err);
+            console.error("Error loading GTM script:", err);
           }}
           onLoad={() => {
             window.dataLayer = window.dataLayer || [];
@@ -49,6 +54,11 @@ const App = ({ Component, pageProps }) => {
   );
 };
 
+// Dynamically import the Popup component
+const DynamicPopup = dynamic(() => import("../components/Popup/Popup"), {
+  ssr: false,
+});
+
 const ComponentWithPopup = ({ Component, pageProps }) => {
   const { popup, triggerPopup, closePopup } = usePopup();
   const router = useRouter();
@@ -65,7 +75,7 @@ const ComponentWithPopup = ({ Component, pageProps }) => {
 
   return (
     <>
-      {popup.show && <Popup message={popup.message} onClose={closePopup} />}
+      {popup.show && <DynamicPopup message={popup.message} onClose={closePopup} />}
       <Component {...pageProps} />
     </>
   );

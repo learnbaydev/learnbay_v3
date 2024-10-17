@@ -89,8 +89,9 @@ const ProgramSection = memo(({
                   <p className={styles.pBot}>
                     <span className={styles.orangeSpan}>Important Note:</span>
                     {content.importantNote}
-                    <span className={styles.blueSpan} onClick={popupShow}>
-                      check eligibility
+                     
+                     <span className={styles.blueSpan} onClick={popupShow}>
+                      {""}  check eligibility
                     </span>
                   </p>
                 </div>

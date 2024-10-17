@@ -139,6 +139,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         
           sections={DataScienceCourseData.BADataScienceCourseData[0].sections}
           upskillData={DataScienceCourseData.BADataScienceCourseData[0].upskillMbl}
+          upskillingData={DataScienceCourseData.BADataScienceCourseData[0].upskillingData}
         
           certificateNew={
             DataScienceCourseData.BADataScienceCourseData[0].certificateNew

@@ -1,57 +1,31 @@
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
-import LJourney from "../LJourney/LJourney";
-import ReviewSlider from "@/components/course/reviewSlider/reviewSlider";
-import UpskillMbl from "@/components/course/upskillingSection/UpskillMbl";
-import UpskillingSection from "@/components/course/upskillingSection/upskillingSection";
-import ProjectSection from "@/components/course/projectSection/ProjectSection";
-import SyllabusSection from "@/components/course/syllabusSection/SyllabusSection";
-import ToolsSection from "@/components/course/toolsSection/ToolsSection";
-import CertificateSection from "@/components/course/certificateSection/CertificateSection";
-import FeeSection from "@/components/course/feeSection/FeeSectionCourse";
-import NewSevenSection from "@/components/Global/SeventhSectionNew/NewSevenSection";
-import StructuredSection from "@/components/course/structuredSection/StructuredSection";
-import Achive from "@/components/course/jobReadySection/Achive";
-const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
-const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
-const WhatsappFloat = dynamic(() =>
-  import("@/components/Global/WhatappsFloat/WhatsappFloat")
-);
-const Certificate = dynamic(() =>
-  import("../../../components/CoursePage/Certificate/Certificate")
-);
-const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
 
-const MentorsSection = dynamic(() =>
-  import("../../../components/Global/MentorsSection/MentorsSection")
-);
+// Dynamic Imports for Components
+const BottomBar = dynamic(() => import("@/components/Global/BottomBar/BottomBar"));
+const ReviewSlider = dynamic(() => import("@/components/course/reviewSlider/reviewSlider"));
+const UpskillMbl = dynamic(() => import("@/components/course/upskillingSection/UpskillMbl"));
+const UpskillingSection = dynamic(() => import("@/components/course/upskillingSection/upskillingSection"));
+const ProjectSection = dynamic(() => import("@/components/course/projectSection/ProjectSection"));
+const SyllabusSection = dynamic(() => import("@/components/course/syllabusSection/SyllabusSection"));
+const ToolsSection = dynamic(() => import("@/components/course/toolsSection/ToolsSection"));
+const CertificateSection = dynamic(() => import("@/components/course/certificateSection/CertificateSection"));
+const FeeSection = dynamic(() => import("@/components/course/feeSection/FeeSectionCourse"));
+const NewSevenSection = dynamic(() => import("@/components/Global/SeventhSectionNew/NewSevenSection"));
+const StructuredSection = dynamic(() => import("@/components/course/structuredSection/StructuredSection"));
+const Achive = dynamic(() => import("@/components/course/jobReadySection/Achive"));
 
-const SliderTab = dynamic(() =>
-  import("../../../components/Global/SliderTabs/SliderTabs")
-);
+// Already Dynamic Imports
 
-const PlacementCall = dynamic(() =>
-  import("../../../components/Global/PlacementCall/PlacementCall")
-);
+const WhatsappFloat = dynamic(() => import("@/components/Global/WhatappsFloat/WhatsappFloat"));
 
-const NewProjectSection = dynamic(() =>
-  import("../../../components/Global/NewProjectSection/NewProjectSection")
-);
+const MentorsSection = dynamic(() => import("../../../components/Global/MentorsSection/MentorsSection"));
 
-const FAQNew = dynamic(() =>
-  import("../../../components/CoursePage/FAQNew/FAQNew")
-);
+const FAQNew = dynamic(() => import("../../../components/CoursePage/FAQNew/FAQNew"));
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
 const Content = dynamic(() => import("../../CoursePage/Content/content"));
-const SeventhSection = dynamic(() =>
-  import("@/components/Global/SeventhSection/SeventhSection")
-);
-const MobileTestimonial = dynamic(() =>
-  import("@/components/Home/MobileTestimonial/MobileTestimonial")
-);
 
-const SecondPart = ({ sections, certificateNew, FAQNewData, toolsdynamic, upskillData }) => {
+const SecondPart = ({ sections, certificateNew, FAQNewData, toolsdynamic, upskillData, upskillingData }) => {
   const [popupData, setPopupData] = useState([]);
   // console.log(popupData);
   useEffect(() => {
@@ -88,7 +62,7 @@ const SecondPart = ({ sections, certificateNew, FAQNewData, toolsdynamic, upskil
       <ReviewSlider />
       <MentorsSection />
       <UpskillMbl  upskillData={upskillData}/>
-      <UpskillingSection  />
+      <UpskillingSection upskillingData={upskillingData} />
 
       <ProjectSection dataScienceCounselling={true} interstedInHide={true} />
       <SyllabusSection

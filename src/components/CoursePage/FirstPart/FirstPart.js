@@ -1,16 +1,24 @@
-import HeroSection from "@/components/course/heroSection/HeroSection";
-import NavbarSection from "@/components/course/navbarSection/NavbarSection";
-
 import dynamic from "next/dynamic";
 import React from "react";
 
-import PSummaryAD from "../PSummary/PSummaryAD";
-import ProgramSection from "@/components/course/programSection/programSection";
-import OutcomeSection from "@/components/course/outcomeSection/outcomeSection";
-import WhyChooseNew from "@/components/course/whyChoose/WhyChooseNew";
-
-import Practical from "../Practical/Practical";
-import WhyChooseSection from "@/components/course/whyChooseSection/whyChooseSection";
+// Dynamically importing components
+const HeroSection = dynamic(() =>
+  import("@/components/course/heroSection/HeroSection")
+);
+const NavbarSection = dynamic(() =>
+  import("@/components/course/navbarSection/NavbarSection")
+);
+const PSummaryAD = dynamic(() => import("../PSummary/PSummaryAD"));
+const ProgramSection = dynamic(() =>
+  import("@/components/course/programSection/programSection")
+);
+const OutcomeSection = dynamic(() =>
+  import("@/components/course/outcomeSection/outcomeSection")
+);
+const WhyChooseSection = dynamic(() =>
+  import("@/components/course/whyChooseSection/whyChooseSection")
+);
+const Practical = dynamic(() => import("../Practical/Practical"));
 const FirstPart = ({ ProggramSectionData, summaryData }) => {
   const pdfUrl = "/Brochure/Advanced-Data-Science.pdf";
   return (
@@ -68,7 +76,7 @@ const FirstPart = ({ ProggramSectionData, summaryData }) => {
       />
 
       <OutcomeSection />
-<WhyChooseSection/>
+      <WhyChooseSection />
     </>
   );
 };

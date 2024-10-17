@@ -41,11 +41,14 @@
   right: 15px;
   font-size: 26px;
   cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+
 }
 .close:hover {
-  color:#0383FF;
+  transform: rotate(180deg); /* Rotate 180 degrees on hover */
+  color: #ff0000; /* Optional: change color on hover */
+  font-size: 28px;
 }
-
 .mainDiv {
   display: flex;
   flex-direction: column;
