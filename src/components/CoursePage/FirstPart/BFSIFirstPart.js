@@ -6,7 +6,8 @@ import Navbar from "@/components/Global/Navbar/Navbar";
 import { AiOutlineContainer } from "react-icons/ai";
 import { BsDatabaseUp, BsDisplay, BsPeople } from "react-icons/bs";
 import { FaLinkedinIn, FaReact } from "react-icons/fa";
-import { TbBrandGoogleAnalytics } from "react-icons/tb";
+import { TbBrandGoogleAnalyticsSvg } from "@/Data/svgData/TbIcons";
+
 const SecondNavbar = dynamic(() => import("../SecondNavbar/SecondNavbar"));
 const TrainerSection = dynamic(() =>
   import("../../Global/TrainerSection/TrainerSection")
@@ -57,7 +58,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         salary: " 17.3 LPA",
       },
       {
-        icon: <TbBrandGoogleAnalytics />,
+        icon: <TbBrandGoogleAnalyticsSvg />,
         role: "AI Specialist (BFSI) ",
         salary: " 27.6 LPA",
       },

@@ -1,3 +1,4 @@
+import { TbBrandGoogleAnalyticsSvg } from "@/Data/svgData/TbIcons";
 import dynamic from "next/dynamic";
 import React from "react";
 const SecondNavbar = dynamic(() => import("../SecondNavbar/SecondNavbar"));
@@ -29,7 +30,6 @@ const Realstory = dynamic(() => import("../../Home/Realstory/Realstory"));
 import { AiOutlineContainer } from "react-icons/ai";
 import { BsDisplay, BsPeople, BsPersonGear } from "react-icons/bs";
 import { FaLinkedinIn, FaReact } from "react-icons/fa";
-import { TbBrandGoogleAnalytics } from "react-icons/tb";
 const FirstPart = ({ SecondSectionData, TestimonialData }) => {
   const seconddata = [
     {
@@ -63,7 +63,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         salary: " 14.4 LPA",
       },
       {
-        icon: <TbBrandGoogleAnalytics />,
+        icon: <TbBrandGoogleAnalyticsSvg/>,
         role: "Tableau Developer ",
         salary: "11.9 LPA        ",
       },

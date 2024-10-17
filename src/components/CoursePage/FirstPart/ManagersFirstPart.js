@@ -1,3 +1,4 @@
+import { TbBrandGoogleAnalyticsSvg } from "@/Data/svgData/TbIcons";
 import { ThirdSectionData } from "@/Data/ThirdSectionData";
 import dynamic from "next/dynamic";
 import React from "react";
@@ -45,7 +46,6 @@ import ("../../Home/Realstory/Realstory"));
 import { AiOutlineContainer } from "react-icons/ai";
 import { BsDisplay, BsPeople, BsPersonGear } from "react-icons/bs";
 import { FaLinkedinIn, FaReact } from "react-icons/fa";
-import { TbBrandGoogleAnalytics } from "react-icons/tb";
 const FirstPart = ({ SecondSectionData, TestimonialData }) => {
   const seconddata = [
     { boldText: "IBM", normalText: "Certified Capstone", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
@@ -71,7 +71,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         salary: "33 LPA",
       },
       {
-        icon: <TbBrandGoogleAnalytics />,
+        icon: <TbBrandGoogleAnalyticsSvg />,
         role: "AI Project Manager ",
         salary: " 17.3 LPA",
       },

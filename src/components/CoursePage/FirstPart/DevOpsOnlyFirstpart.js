@@ -41,13 +41,13 @@ const JobAbroad = dynamic(()=>
 import( "../../MastersCourse/JobAbroad/JobAbroad"
 )
 );
-import { TbCloudComputing } from "react-icons/tb";
 import { PiInfinity } from "react-icons/pi";
 import { BsPersonGear } from "react-icons/bs";
 import { BsDisplay } from "react-icons/bs";
 import { AiOutlineContainer } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsPeople } from "react-icons/bs";
+import { TbCloudComputing } from "@/Data/svgData/TbIcons";
 
 const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
   const seconddata = [

@@ -12,10 +12,11 @@ import {
   FaUserGraduate,
   FaUserShield,
 } from "react-icons/fa";
-import { IoRocketOutline } from "react-icons/io5";
+
 import { MdOutlinePrecisionManufacturing } from "react-icons/md";
 import VideoPopup from "../../Global/VideoPopup/VideoPopup";
 import Styles from "./WhyLearnbay.module.css";
+import { IoRocketOutline } from "@/Data/svgData/Io5";
 // import { BsFillPeopleFill } from "react-icons/bs";
 
 function WhyLearnbay({
@@ -70,12 +71,11 @@ function WhyLearnbay({
             }}
             className={projectInno ? Styles.ActiveInnerBox : Styles.InnerBox}
           >
-            <p className={projectInno ? Styles.ActiveCont : Styles.Cont}>
-              <IoRocketOutline
-                className={projectInno ? Styles.Activeicon : Styles.icon}
-              />
-              Project Innovation Lab
-            </p>
+           <p className={projectInno ? Styles.ActiveCont : Styles.Cont}>
+  <IoRocketOutline fillColor={projectInno ? "#0072BC" : "gray"} />
+  Project Innovation Lab
+</p>
+
           </div>
 
           <div

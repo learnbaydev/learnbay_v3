@@ -7,7 +7,6 @@ import styles from "./FeeSection.module.css";
 const Button = dynamic(() => import("../../Global/Button/Button"));
 import Emipopup from "../../CoursePage/EMIPopup/Emipopup"
 import Modal from 'react-modal';
-import { FaGlobe } from "react-icons/fa6";
 import { FaRegCreditCard } from "react-icons/fa";
 
 const FeeSection = ({
@@ -156,7 +155,7 @@ const FeeSection = ({
               </p>
               <div className={styles.iconDiv}>
                 <div className={styles.icons}>
-                  <FaGlobe className={styles.PaymentsIcon} />
+                  {/* <FaGlobe className={styles.PaymentsIcon} /> */}
                   <p>Internet Banking</p>
                 </div>
                 <div className={styles.icons}>

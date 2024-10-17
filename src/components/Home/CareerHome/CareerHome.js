@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import styles from "./CareerHome.module.css";
 import Image from "next/image";
-import { TbDownload } from "react-icons/tb";
 import { useMediaQuery } from "react-responsive";
 import Form from "../../Global/Form/Form";
 import Popup from "../../Global/Popup/Popup";
+import { TbDownloadSvg } from "@/Data/svgData/TbIcons";
 
 function careerHome({
   dataScienceGeneric,
@@ -161,7 +161,7 @@ function careerHome({
                         Manufacturing
                       </div>
                     </div>
-                    <TbDownload
+                    <TbDownloadSvg
                       className={styles.iconDownload}
                       onClick={() => {
                         popupShow(
@@ -198,7 +198,7 @@ function careerHome({
                         HR & Sales
                       </div>
                     </div>
-                    <TbDownload
+                    <TbDownloadSvg
                       className={styles.iconDownload}
                       onClick={() => {
                         popupShow(
@@ -235,7 +235,7 @@ function careerHome({
                         BFSI
                       </div>
                     </div>
-                    <TbDownload
+                    <TbDownloadSvg
                       className={styles.iconDownload}
                       onClick={() => {
                         popupShow(
@@ -273,7 +273,7 @@ function careerHome({
                         Managers & Leader
                       </div>
                     </div>
-                    <TbDownload
+                    <TbDownloadSvg
                       className={styles.iconDownload}
                       onClick={() => {
                         popupShow(

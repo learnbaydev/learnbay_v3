@@ -50,7 +50,6 @@ const Realstory = dynamic(() => import("../../Home/Realstory/Realstory"));
 import { AiOutlineContainer } from "react-icons/ai";
 import { BsDisplay, BsPeople, BsPersonGear } from "react-icons/bs";
 import { FaLinkedinIn, FaReact } from "react-icons/fa";
-import { TbBrandGoogleAnalytics } from "react-icons/tb";
 import Dropdown from "@/components/Seo/DropDownContent/Accordion";
 import Accordion from "@/components/Seo/DropDownContent/Accordion";
 const FirstPart = ({ SecondSectionData, TestimonialData,  }) => {

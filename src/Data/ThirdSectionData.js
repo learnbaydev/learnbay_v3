@@ -3,7 +3,6 @@ import { FaClinicMedical } from "react-icons/fa";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { BsBank } from "react-icons/bs";
 import { FaUsers } from "react-icons/fa";
-import { FaTruckRampBox } from "react-icons/fa6";
 
 
 
@@ -28,7 +27,7 @@ export const ThirdSectionData = [
   },
   {
     id: 1,
-    icon: <FaTruckRampBox/>,
+    icon:"",
     heading: "Supply Chain",
     para: " For retail, e-commerce & supplychain professionals.",
     brochureLink:

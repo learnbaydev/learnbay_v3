@@ -1,8 +1,9 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { AiOutlineRise } from "react-icons/ai";
-import { IoClose } from "react-icons/io5";
+
 import styles from "./ReviewPopup.module.css";
+import { IoCloseSvg } from "@/Data/svgData/Io5";
 // import { TestimonialDS, TestimonialFS } from "./TestimonialData";
 
 const ReviewPopup = (props) => {
@@ -30,14 +31,14 @@ const ReviewPopup = (props) => {
         }
       >
         {props.downloadBrochure ? (
-          <IoClose
+          <IoCloseSvg
             className={styles.closeBtn}
             onClick={() => {
               props.setTrigger(false);
             }}
           />
         ) : (
-          <IoClose
+          <IoCloseSvg 
             className={styles.closeBtn}
             onClick={() => {
               props.setTrigger(false);

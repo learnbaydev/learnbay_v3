@@ -6,18 +6,12 @@ import CloudDevopsecond from "../cloud&devops/DevOpsSecondSection/DevOpsSecondSe
 const SecondNavbar = dynamic(() =>
   import("../../../components/CoursePage/SecondNavbar/SecondNavbar")
 );
-import { ThirdSectionData } from "@/Data/ThirdSectionData";
-const WhoProgram = dynamic(() =>
-  import("../../../components/CoursePage/WhoProgram/ThirdSection")
-);
+
+
 const TrainerSection = dynamic(() =>
   import("../../../components/Global/TrainerSection/TrainerSection")
 );
-const Testimonial = dynamic(() =>
-  import(
-    "../../../components/CoursePage/cloud&devops/CloudDevopstestimonial/Clouddevoptestimonials"
-  )
-);
+
 const FirstSection = dynamic(() =>
   import("../../CoursePage/FirstSection/FirstSection")
 );
@@ -41,13 +35,14 @@ const JobAbroad = dynamic(()=>
 import( "../../MastersCourse/JobAbroad/JobAbroad"
 )
 );
-import { TbCloudComputing } from "react-icons/tb";
+
 import { PiInfinity } from "react-icons/pi";
 import { BsPersonGear } from "react-icons/bs";
 import { BsDisplay } from "react-icons/bs";
 import { AiOutlineContainer } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsPeople } from "react-icons/bs";
+import { TbCloudComputing } from "@/Data/svgData/TbIcons";
 
 const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
   const seconddata = [
@@ -69,7 +64,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
     title2: "Job Roles You Can Target",
     jobRoles: [
       {
-        icon: <TbCloudComputing />,
+        icon: <TbCloudComputing/>,
         role: "Cloud Engineer",
         salary: "12.5 LPA",
       },

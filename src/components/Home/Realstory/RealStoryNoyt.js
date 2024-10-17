@@ -2,13 +2,13 @@ import { useState } from "react";
 import Image from "next/image";
 import styles from "./Realstory.module.css";
 import sliderData from "./sliderDataNoYt";
-import { GrLinkNext, GrLinkPrevious } from "react-icons/gr";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation } from "swiper/core";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/effect-fade"; // Import fade effect style
 import VideoPopup from "@/components/Global/VideoPopup/VideoPopup";
+import { GrNextSvg, GrPrevSvg } from "@/Data/svgData/GrIocns";
 
 SwiperCore.use([Navigation]);
 
@@ -142,7 +142,7 @@ const Realstory = () => {
             onClick={handlePrevSlide}
           >
             <p>
-              <GrLinkPrevious />
+              <GrPrevSvg />
             </p>
           </div>
           <div
@@ -152,7 +152,7 @@ const Realstory = () => {
             onClick={handleNextSlide}
           >
             <p>
-              <GrLinkNext />
+              <GrNextSvg />
             </p>
           </div>
         </div>

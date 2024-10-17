@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { BsFillTelephoneFill, BsTwitterX } from "react-icons/bs";
+import {BsTwitterX } from "react-icons/bs";
 import {
   FaAndroid,
   FaArrowDown,
@@ -12,7 +12,6 @@ import {
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
-import { IoMailSharp } from "react-icons/io5";
 import styles from "../Footer/Footer.module.css";
 import {
   CityFooterData,
@@ -23,6 +22,8 @@ import {
   genHeadData,
   puneLocation,
 } from "./FooterData";
+import { IoMailSharpSvg } from "@/Data/svgData/Io5";
+import { BsFillTelephoneFillSvg } from "@/Data/svgData/BsIcons";
 
 const Footer = ({
   adPage,
@@ -113,12 +114,12 @@ const Footer = ({
 
           {mailno ? (
             <span style={{ display: "flex", marginTop: "20px" }}>
-              <IoMailSharp className="bIcons" />
+              <IoMailSharpSvg className="bIcons" />
               contacts@learnbay.co
             </span>
           ) : (
             <span style={{ display: "flex", marginTop: "20px" }}>
-              <IoMailSharp className="bIcons" />
+              <IoMailSharpSvg className="bIcons" />
               <Link href="mailto:contacts@learnbay.co" target="_blank">
                 contacts@learnbay.co
               </Link>
@@ -128,7 +129,7 @@ const Footer = ({
           {adPage ? (
             <>
               <span style={{ display: "flex", marginTop: "10px" }}>
-                <BsFillTelephoneFill className="bIcons" />
+                <BsFillTelephoneFillSvg className="bIcons" />
                 <Link href="tel:+917795687988" target="_blank">
                   (+91) 77956 87988
                 </Link>
@@ -138,7 +139,7 @@ const Footer = ({
             <>
               {" "}
               <span style={{ display: "flex", marginTop: "10px" }}>
-                <BsFillTelephoneFill className="bIcons" />
+                <BsFillTelephoneFillSvg className="bIcons" />
                 <Link href="tel:+917795687988" target="_blank">
                   (+91) 77956 87988
                 </Link>

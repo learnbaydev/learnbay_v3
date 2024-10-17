@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./SecondSection.module.css";
 import Image from "next/image";
-import { IoRocketOutline } from "react-icons/io5";
+import { IoRocketOutline } from "@/Data/svgData/Io5";
+
 
 function SecondSection() {
   return (

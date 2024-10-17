@@ -27,12 +27,13 @@ const Realstory = dynamic(() =>
   )
 );
 import { FaReact } from "react-icons/fa";
-import { TbBrandGoogleAnalytics } from "react-icons/tb";
+
 import { BsPersonGear } from "react-icons/bs";
 import { BsDisplay } from "react-icons/bs";
 import { AiOutlineContainer } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsPeople } from "react-icons/bs";
+import { TbBrandGoogleAnalyticsSvg } from "@/Data/svgData/TbIcons";
 const FirstPart = ({
   TestimonialData,
   WolfLink,
@@ -73,7 +74,7 @@ const FirstPart = ({
         salary: " 27 LPA",
       },
       {
-        icon: <TbBrandGoogleAnalytics />,
+        icon: <TbBrandGoogleAnalyticsSvg/>,
         role: "Sr. Data Analyst:",
         salary: " 15 LPA",
       },

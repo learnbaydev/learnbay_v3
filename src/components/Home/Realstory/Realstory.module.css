@@ -5,6 +5,11 @@
   border: 3px solid #FE7A36;
   background: linear-gradient(85deg, #333 -0.08%, #412700 98.16%);
 }
+.disabled {
+  opacity: 0.1;
+  pointer-events: none;
+}
+
 
 .leftcard {
   display: grid;

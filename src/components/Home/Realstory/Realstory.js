@@ -2,15 +2,13 @@ import { useState } from "react";
 import Image from "next/image";
 import styles from "./Realstory.module.css";
 import sliderData from "./SliderData";
-import { GrLinkNext, GrLinkPrevious } from "react-icons/gr";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation } from "swiper/core";
 import "swiper/css";
 import "swiper/css/navigation";
-import "swiper/css/effect-fade"; // Import fade effect style
+import "swiper/css/effect-fade";
 import VideoPopup from "@/components/Global/VideoPopup/VideoPopup";
-import PopupContent from "@/components/Global/PopupContent/PopupContent";
-import { FaYoutube } from "react-icons/fa";
+import { GrNextSvg, GrPrevSvg } from "@/Data/svgData/GrIocns";
 
 SwiperCore.use([Navigation]);
 
@@ -19,14 +17,14 @@ const Realstory = () => {
   const [profileIndex, setProfileIndex] = useState(0);
 
   const handleNextSlide = () => {
-    if (bigImageIndex < sliderData.length - 1) {
+    if (profileIndex < sliderData.length - 1) {
       setBigImageIndex((prevIndex) => prevIndex + 1);
       setProfileIndex((prevIndex) => prevIndex + 1);
     }
   };
 
   const handlePrevSlide = () => {
-    if (bigImageIndex > 0) {
+    if (profileIndex > 0) {
       setBigImageIndex((prevIndex) => prevIndex - 1);
       setProfileIndex((prevIndex) => prevIndex - 1);
     }
@@ -140,22 +138,24 @@ const Realstory = () => {
         <div className={styles.arrowButtons}>
           <div
             className={`${styles.prevarrow} ${
-              profileIndex === 0 && styles.activeProfile
+              profileIndex === 0 ? styles.disabled : ""
             }`}
-            onClick={handlePrevSlide}
+            onClick={profileIndex === 0 ? null : handlePrevSlide}
           >
             <p>
-              <GrLinkPrevious />
+              <GrPrevSvg />
             </p>
           </div>
           <div
             className={`${styles.nextarrow} ${
-              profileIndex === profileData.length - 1 && styles.activeProfile
+              profileIndex === profileData.length - 1 ? styles.disabled : ""
             }`}
-            onClick={handleNextSlide}
+            onClick={
+              profileIndex === profileData.length - 1 ? null : handleNextSlide
+            }
           >
             <p>
-              <GrLinkNext />
+              <GrNextSvg className={styles.nextSvg} />
             </p>
           </div>
         </div>

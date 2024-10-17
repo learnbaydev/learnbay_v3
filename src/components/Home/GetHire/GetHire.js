@@ -1,9 +1,9 @@
 import React from "react";
 import Styles from "./Gethire.module.css";
 import Image from "next/image";
-import { FcCheckmark } from "react-icons/fc";
+import { FcCheckmarkSvg } from "@/Data/svgData/FcIcons";
 
-function GetHire({proHide}) {
+function GetHire({ proHide }) {
   return (
     <div id="servicePro">
       <div className={Styles.GetHireMain}>
@@ -11,33 +11,33 @@ function GetHire({proHide}) {
           <div className={Styles.HireLeft}>
             <h2>
               Land Your Dream Job with Career Services{" "}
-              {proHide ? ("") : ( <span className={Styles.PRo}>PRO</span>)}
+              {proHide ? "" : <span className={Styles.PRo}>PRO</span>}
             </h2>
             <div className={Styles.GetHireBulet}>
               <div className={Styles.minibullet}>
                 <div className={Styles.Points}>
                   <span>
-                    <FcCheckmark />
+                    <FcCheckmarkSvg />
                   </span>
                   <p>1:1 Doubt Sessions</p>
                 </div>
 
                 <div className={Styles.Points}>
                   <span>
-                    <FcCheckmark />
+                    <FcCheckmarkSvg />
                   </span>
                   <p>Interview Prep.</p>
                 </div>
 
                 <div className={Styles.Points}>
                   <span>
-                    <FcCheckmark />
+                    <FcCheckmarkSvg />
                   </span>
                   <p>Resume BuildUp</p>
                 </div>
                 <div className={Styles.Points}>
                   <span>
-                    <FcCheckmark />
+                  <FcCheckmarkSvg/>
                   </span>
                   <p>3 Years Flexible Sub.</p>
                 </div>

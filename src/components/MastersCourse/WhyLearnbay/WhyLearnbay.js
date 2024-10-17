@@ -11,7 +11,7 @@ import {
   FaUserGraduate,
   FaUserShield,
 } from "react-icons/fa";
-import { IoRocketOutline } from "react-icons/io5";
+
 import { MdOutlinePrecisionManufacturing } from "react-icons/md";
 
 import { BsTruck } from "react-icons/bs";
@@ -22,8 +22,9 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/scrollbar";
 import Button from "../../Global/Button/Button";
+import { IoRocketOutline } from "@/Data/svgData/Io5";
 
-function WhyLearnbay({ idss, NoGuwahati  }) {
+function WhyLearnbay({ idss, NoGuwahati }) {
   const [domainSpec, setDomainSpec] = useState(false);
   const [projectInno, setProjectInno] = useState(true);
   const [projectCert, setProjectCert] = useState(false);
@@ -63,10 +64,8 @@ function WhyLearnbay({ idss, NoGuwahati  }) {
             className={projectInno ? Styles.ActiveInnerBox : Styles.InnerBox}
           >
             <p className={projectInno ? Styles.ActiveCont : Styles.Cont}>
-              <IoRocketOutline
-                className={projectInno ? Styles.Activeicon : Styles.icon}
-              />
-              Globally Recognised Degree
+              <IoRocketOutline fillColor={projectInno ? "#0072BC" : "gray"} />
+              Project Innovation Lab
             </p>
           </div>
           <div
@@ -98,7 +97,6 @@ function WhyLearnbay({ idss, NoGuwahati  }) {
               />
               Domain Specialization
             </p>
-            
           </div>
         </div>
 
@@ -269,24 +267,25 @@ function WhyLearnbay({ idss, NoGuwahati  }) {
           <div className={Styles.RightSide}>
             <div className={Styles.firstBox}>
               <div className={`${Styles.topImg} imgWrapper`}>
-
-                {NoGuwahati ? ( <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/certificate-Guwahati.webp"
-                  loading="lazy"
-                  width="200"
-                  height="212"
-                  alt="profile-Img"
-                  // onClick={() => videoSHow()}
-                />):( <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/certificate/degree-woolf.webp"
-                  loading="lazy"
-                  width="200"
-                  height="212"
-                  alt="profile-Img"
-                  // onClick={() => videoSHow()}
-                />)}
-               
-
+                {NoGuwahati ? (
+                  <Image
+                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/certificate-Guwahati.webp"
+                    loading="lazy"
+                    width="200"
+                    height="212"
+                    alt="profile-Img"
+                    // onClick={() => videoSHow()}
+                  />
+                ) : (
+                  <Image
+                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/certificate/degree-woolf.webp"
+                    loading="lazy"
+                    width="200"
+                    height="212"
+                    alt="profile-Img"
+                    // onClick={() => videoSHow()}
+                  />
+                )}
               </div>
               <div className={Styles.BlueBox}>
                 <FaRocket className={Styles.Icon} />

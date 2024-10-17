@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./Popup.module.css";
-import { IoClose } from "react-icons/io5";
+import { IoCloseSvg } from "@/Data/svgData/Io5";
+
 
 const Popup = (props) => {
   if (props.price) color = "white";
@@ -19,14 +20,14 @@ const Popup = (props) => {
         }
       >
         {props.downloadBrochure ? (
-          <IoClose
+          <IoCloseSvg
             className={styles.closeBtn}
             onClick={() => {
               props.setTrigger(false);
             }}
           />
         ) : (
-          <IoClose
+          <IoCloseSvg
             className={styles.closeBtn}
             onClick={() => {
               props.setTrigger(false);

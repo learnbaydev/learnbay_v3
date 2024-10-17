@@ -1,11 +1,11 @@
 import FirstSection from "@/components/CoursePage/FirstSection/FirstSection";
 import Navbar from "@/components/Global/Navbar/Navbar";
+import { TbBrandGoogleAnalyticsSvg } from "@/Data/svgData/TbIcons";
 import dynamic from "next/dynamic";
 import React from "react";
 import { AiOutlineContainer } from "react-icons/ai";
 import { BsDatabaseUp, BsDisplay, BsPeople } from "react-icons/bs";
 import { FaLinkedinIn, FaReact } from "react-icons/fa";
-import { TbBrandGoogleAnalytics } from "react-icons/tb";
 const SecondNavbar = dynamic(() => import("../SecondNavbar/SecondNavbar"));
 const TrainerSection = dynamic(() =>
   import("../../Global/TrainerSection/TrainerSection")
@@ -56,7 +56,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         salary: " 11 LPA",
       },
       {
-        icon: <TbBrandGoogleAnalytics />,
+        icon: <TbBrandGoogleAnalyticsSvg />,
         role: "HR Data Analyst ",
         salary: " 15.8 LPA",
       },

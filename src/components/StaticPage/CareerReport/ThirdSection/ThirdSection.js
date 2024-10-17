@@ -3,9 +3,10 @@ import Image from "next/image";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { BiTimeFive } from "react-icons/bi";
 import { FaArrowRight, FaDownload } from "react-icons/fa";
-import { IoRocketOutline } from "react-icons/io5";
+
 import { MdCurrencyRupee } from "react-icons/md";
 import styles from "./ThirdSection.module.css";
+import { IoRocketOutline } from "@/Data/svgData/Io5";
 const Button = dynamic(() => import("../../../Global/Button/Button"));
 
 function ThirdSection() {
