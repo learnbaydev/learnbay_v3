@@ -146,14 +146,14 @@ export const AIMLDataScienceCourseData = [
       {
         id: "0",
         trackIcon:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/peoples.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/excel-icon.webp",
         width: 80,
         height: 80,
         title: "Module 0",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
-        toolwidth: "200",
-        toolheight: "40",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-right.webp",
+        toolwidth: "100",
+        toolheight: "30",
         description: "Python Bootcamp for Non-Programmers",
         duration: "1.5 Months",
         contentModule: "Topics Covered",
@@ -183,7 +183,6 @@ export const AIMLDataScienceCourseData = [
                   "Understanding variables, data types (integers, floats, strings, booleans).",
                   "Input and output operations using the input() and print() functions.",
                   "Performing basic arithmetic operations.",
-               
                 ],
               },
 
@@ -193,8 +192,6 @@ export const AIMLDataScienceCourseData = [
                 moduleList: [
                   "Conditional logic using if, else, and elif statements.",
                   "Looping with for and while loops to iterate over data.",
-
-               
                 ],
               },
 
@@ -205,7 +202,6 @@ export const AIMLDataScienceCourseData = [
                   "Introduction to lists, tuples, and dictionaries.",
                   "Accessing, modifying, and iterating through collections.",
                   "Understanding how to use indexing and slicing with lists and tuples",
-               
                 ],
               },
             ],
@@ -215,32 +211,31 @@ export const AIMLDataScienceCourseData = [
             title: "Python for Data Science",
             duration: "40-50 hrs",
             modules: [
-            {
-            moduleTitle: "Section 1",
-            moduleContent: "Core Python Basicsup",
-            moduleList: [
-            "Python Environment Setup",
-            " Python Syntax and Code Structure",
-            "Data Types and Control Flow",
-            "Data Structures",
-            "Functions And Modules",
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Core Python Basicsup",
+                moduleList: [
+                  "Python Environment Setup",
+                  " Python Syntax and Code Structure",
+                  "Data Types and Control Flow",
+                  "Data Structures",
+                  "Functions And Modules",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Data analytics Using Python",
+                moduleList: [
+                  "File I/O An d Exceptional Handling and Regular Expression",
+                  "Basic Web Scraping for Data Analytics",
+                  "Data Analysis using Numpy",
+                  "Data Analysis using Pandas",
+                  "Data Visualization using Matplotlib",
+                  "Data Visualization using Seaborn",
+                ],
+              },
             ],
-            },
-            {
-            moduleTitle: "Section 2",
-            moduleContent: "Data analytics Using Python",
-            moduleList: [
-            "File I/O An d Exceptional Handling and Regular Expression",
-            "Basic Web Scraping for Data Analytics",
-            "Data Analysis using Numpy",
-            "Data Analysis using Pandas",
-            "Data Visualization using Matplotlib",
-            "Data Visualization using Seaborn",
-            ],
-            },
-            ],
-            },
-           
+          },
 
           {
             term: "Term 2",
@@ -491,19 +486,17 @@ export const AIMLDataScienceCourseData = [
         ],
       },
 
-
-
       {
         id: "1",
         trackIcon:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/greens.web",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/user-setting.webp",
         width: 80,
         height: 80,
         title: "Term 1",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
-        toolwidth: "200",
-        toolheight: "40",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-pandas-matplotlib.webp",
+        toolwidth: "300",
+        toolheight: "30",
         description: "Python for Data Science",
         duration: "1.5 Months",
         contentModule: "Section 1 -",
@@ -533,7 +526,6 @@ export const AIMLDataScienceCourseData = [
                   "Understanding variables, data types (integers, floats, strings, booleans).",
                   "Input and output operations using the input() and print() functions.",
                   "Performing basic arithmetic operations.",
-               
                 ],
               },
 
@@ -543,8 +535,6 @@ export const AIMLDataScienceCourseData = [
                 moduleList: [
                   "Conditional logic using if, else, and elif statements.",
                   "Looping with for and while loops to iterate over data.",
-
-               
                 ],
               },
 
@@ -555,7 +545,6 @@ export const AIMLDataScienceCourseData = [
                   "Introduction to lists, tuples, and dictionaries.",
                   "Accessing, modifying, and iterating through collections.",
                   "Understanding how to use indexing and slicing with lists and tuples",
-               
                 ],
               },
             ],
@@ -565,32 +554,31 @@ export const AIMLDataScienceCourseData = [
             title: "Python for Data Science",
             duration: "40-50 hrs",
             modules: [
-            {
-            moduleTitle: "Section 1",
-            moduleContent: "Core Python Basicsup",
-            moduleList: [
-            "Python Environment Setup",
-            " Python Syntax and Code Structure",
-            "Data Types and Control Flow",
-            "Data Structures",
-            "Functions And Modules",
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Core Python Basicsup",
+                moduleList: [
+                  "Python Environment Setup",
+                  " Python Syntax and Code Structure",
+                  "Data Types and Control Flow",
+                  "Data Structures",
+                  "Functions And Modules",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Data analytics Using Python",
+                moduleList: [
+                  "File I/O An d Exceptional Handling and Regular Expression",
+                  "Basic Web Scraping for Data Analytics",
+                  "Data Analysis using Numpy",
+                  "Data Analysis using Pandas",
+                  "Data Visualization using Matplotlib",
+                  "Data Visualization using Seaborn",
+                ],
+              },
             ],
-            },
-            {
-            moduleTitle: "Section 2",
-            moduleContent: "Data analytics Using Python",
-            moduleList: [
-            "File I/O An d Exceptional Handling and Regular Expression",
-            "Basic Web Scraping for Data Analytics",
-            "Data Analysis using Numpy",
-            "Data Analysis using Pandas",
-            "Data Visualization using Matplotlib",
-            "Data Visualization using Seaborn",
-            ],
-            },
-            ],
-            },
-           
+          },
 
           {
             term: "Term 2",
@@ -841,8 +829,6 @@ export const AIMLDataScienceCourseData = [
         ],
       },
 
-
-
       {
         id: "2",
         trackIcon:
@@ -851,14 +837,17 @@ export const AIMLDataScienceCourseData = [
         height: 80,
         title: "Term 2",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/seaborn-numpy.webp",
         toolwidth: "200",
         toolheight: "40",
         description: "Statistics and Machine Learning + GenAI",
         duration: "70-75 hrs",
         contentModule: "Section 1 -",
         contentDescription: "Statistics",
-        contentDetails: ["Fundamentals of Math and Probability", "All about Population & Sample"],
+        contentDetails: [
+          "Fundamentals of Math and Probability",
+          "All about Population & Sample",
+        ],
         popuplist: [
           {
             term: "Moudle 0",
@@ -883,7 +872,6 @@ export const AIMLDataScienceCourseData = [
                   "Understanding variables, data types (integers, floats, strings, booleans).",
                   "Input and output operations using the input() and print() functions.",
                   "Performing basic arithmetic operations.",
-               
                 ],
               },
 
@@ -893,8 +881,6 @@ export const AIMLDataScienceCourseData = [
                 moduleList: [
                   "Conditional logic using if, else, and elif statements.",
                   "Looping with for and while loops to iterate over data.",
-
-               
                 ],
               },
 
@@ -905,7 +891,6 @@ export const AIMLDataScienceCourseData = [
                   "Introduction to lists, tuples, and dictionaries.",
                   "Accessing, modifying, and iterating through collections.",
                   "Understanding how to use indexing and slicing with lists and tuples",
-               
                 ],
               },
             ],
@@ -915,32 +900,31 @@ export const AIMLDataScienceCourseData = [
             title: "Python for Data Science",
             duration: "40-50 hrs",
             modules: [
-            {
-            moduleTitle: "Section 1",
-            moduleContent: "Core Python Basicsup",
-            moduleList: [
-            "Python Environment Setup",
-            " Python Syntax and Code Structure",
-            "Data Types and Control Flow",
-            "Data Structures",
-            "Functions And Modules",
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Core Python Basicsup",
+                moduleList: [
+                  "Python Environment Setup",
+                  " Python Syntax and Code Structure",
+                  "Data Types and Control Flow",
+                  "Data Structures",
+                  "Functions And Modules",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Data analytics Using Python",
+                moduleList: [
+                  "File I/O An d Exceptional Handling and Regular Expression",
+                  "Basic Web Scraping for Data Analytics",
+                  "Data Analysis using Numpy",
+                  "Data Analysis using Pandas",
+                  "Data Visualization using Matplotlib",
+                  "Data Visualization using Seaborn",
+                ],
+              },
             ],
-            },
-            {
-            moduleTitle: "Section 2",
-            moduleContent: "Data analytics Using Python",
-            moduleList: [
-            "File I/O An d Exceptional Handling and Regular Expression",
-            "Basic Web Scraping for Data Analytics",
-            "Data Analysis using Numpy",
-            "Data Analysis using Pandas",
-            "Data Visualization using Matplotlib",
-            "Data Visualization using Seaborn",
-            ],
-            },
-            ],
-            },
-           
+          },
 
           {
             term: "Term 2",
@@ -1191,7 +1175,6 @@ export const AIMLDataScienceCourseData = [
         ],
       },
 
-      
       {
         id: "3",
         trackIcon:
@@ -1200,9 +1183,9 @@ export const AIMLDataScienceCourseData = [
         height: 80,
         title: "Term 3",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
-        toolwidth: "200",
-        toolheight: "40",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/sql-tableu-powerbi-hadoop.webp",
+        toolwidth: "300",
+        toolheight: "30",
         description: "Data Visualization & Data Analysis",
         duration: "80-85 hrs",
         contentModule: "Section 1 -",
@@ -1232,7 +1215,6 @@ export const AIMLDataScienceCourseData = [
                   "Understanding variables, data types (integers, floats, strings, booleans).",
                   "Input and output operations using the input() and print() functions.",
                   "Performing basic arithmetic operations.",
-               
                 ],
               },
 
@@ -1242,8 +1224,6 @@ export const AIMLDataScienceCourseData = [
                 moduleList: [
                   "Conditional logic using if, else, and elif statements.",
                   "Looping with for and while loops to iterate over data.",
-
-               
                 ],
               },
 
@@ -1254,7 +1234,6 @@ export const AIMLDataScienceCourseData = [
                   "Introduction to lists, tuples, and dictionaries.",
                   "Accessing, modifying, and iterating through collections.",
                   "Understanding how to use indexing and slicing with lists and tuples",
-               
                 ],
               },
             ],
@@ -1264,32 +1243,31 @@ export const AIMLDataScienceCourseData = [
             title: "Python for Data Science",
             duration: "40-50 hrs",
             modules: [
-            {
-            moduleTitle: "Section 1",
-            moduleContent: "Core Python Basicsup",
-            moduleList: [
-            "Python Environment Setup",
-            " Python Syntax and Code Structure",
-            "Data Types and Control Flow",
-            "Data Structures",
-            "Functions And Modules",
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Core Python Basicsup",
+                moduleList: [
+                  "Python Environment Setup",
+                  " Python Syntax and Code Structure",
+                  "Data Types and Control Flow",
+                  "Data Structures",
+                  "Functions And Modules",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Data analytics Using Python",
+                moduleList: [
+                  "File I/O An d Exceptional Handling and Regular Expression",
+                  "Basic Web Scraping for Data Analytics",
+                  "Data Analysis using Numpy",
+                  "Data Analysis using Pandas",
+                  "Data Visualization using Matplotlib",
+                  "Data Visualization using Seaborn",
+                ],
+              },
             ],
-            },
-            {
-            moduleTitle: "Section 2",
-            moduleContent: "Data analytics Using Python",
-            moduleList: [
-            "File I/O An d Exceptional Handling and Regular Expression",
-            "Basic Web Scraping for Data Analytics",
-            "Data Analysis using Numpy",
-            "Data Analysis using Pandas",
-            "Data Visualization using Matplotlib",
-            "Data Visualization using Seaborn",
-            ],
-            },
-            ],
-            },
-           
+          },
 
           {
             term: "Term 2",
@@ -1539,25 +1517,26 @@ export const AIMLDataScienceCourseData = [
           },
         ],
       },
-  
 
-          
       {
         id: "4",
         trackIcon:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/peoples.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/brain-setting.webp",
         width: 80,
         height: 80,
         title: "Term 4",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
-        toolwidth: "200",
-        toolheight: "40",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/tensorflow-openai-docker.webp",
+        toolwidth: "300",
+        toolheight: "30",
         description: "AI Tools and Deployment",
         duration: "80-85 hrs",
         contentModule: "Section 1 -",
         contentDescription: "Deep Learning using TensorFlow",
-        contentDetails: ["Introduction to Deep Learning and TensorFlow", "TensorFlow Classification Examples"],
+        contentDetails: [
+          "Introduction to Deep Learning and TensorFlow",
+          "TensorFlow Classification Examples",
+        ],
         popuplist: [
           {
             term: "Moudle 0",
@@ -1582,7 +1561,6 @@ export const AIMLDataScienceCourseData = [
                   "Understanding variables, data types (integers, floats, strings, booleans).",
                   "Input and output operations using the input() and print() functions.",
                   "Performing basic arithmetic operations.",
-               
                 ],
               },
 
@@ -1592,8 +1570,6 @@ export const AIMLDataScienceCourseData = [
                 moduleList: [
                   "Conditional logic using if, else, and elif statements.",
                   "Looping with for and while loops to iterate over data.",
-
-               
                 ],
               },
 
@@ -1604,7 +1580,6 @@ export const AIMLDataScienceCourseData = [
                   "Introduction to lists, tuples, and dictionaries.",
                   "Accessing, modifying, and iterating through collections.",
                   "Understanding how to use indexing and slicing with lists and tuples",
-               
                 ],
               },
             ],
@@ -1614,32 +1589,31 @@ export const AIMLDataScienceCourseData = [
             title: "Python for Data Science",
             duration: "40-50 hrs",
             modules: [
-            {
-            moduleTitle: "Section 1",
-            moduleContent: "Core Python Basicsup",
-            moduleList: [
-            "Python Environment Setup",
-            " Python Syntax and Code Structure",
-            "Data Types and Control Flow",
-            "Data Structures",
-            "Functions And Modules",
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Core Python Basicsup",
+                moduleList: [
+                  "Python Environment Setup",
+                  " Python Syntax and Code Structure",
+                  "Data Types and Control Flow",
+                  "Data Structures",
+                  "Functions And Modules",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Data analytics Using Python",
+                moduleList: [
+                  "File I/O An d Exceptional Handling and Regular Expression",
+                  "Basic Web Scraping for Data Analytics",
+                  "Data Analysis using Numpy",
+                  "Data Analysis using Pandas",
+                  "Data Visualization using Matplotlib",
+                  "Data Visualization using Seaborn",
+                ],
+              },
             ],
-            },
-            {
-            moduleTitle: "Section 2",
-            moduleContent: "Data analytics Using Python",
-            moduleList: [
-            "File I/O An d Exceptional Handling and Regular Expression",
-            "Basic Web Scraping for Data Analytics",
-            "Data Analysis using Numpy",
-            "Data Analysis using Pandas",
-            "Data Visualization using Matplotlib",
-            "Data Visualization using Seaborn",
-            ],
-            },
-            ],
-            },
-           
+          },
 
           {
             term: "Term 2",
@@ -1890,18 +1864,17 @@ export const AIMLDataScienceCourseData = [
         ],
       },
 
-               
       {
         id: "5",
         trackIcon:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/peoples.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/DSA-systemDesign.webp",
         width: 80,
         height: 80,
         title: "Term 5",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/java-networkX.webp",
         toolwidth: "200",
-        toolheight: "40",
+        toolheight: "30",
         description: "Data Structure and Algorithm",
         duration: "40-50 hrs ",
         contentModule: "Section 1 -",
@@ -1931,7 +1904,6 @@ export const AIMLDataScienceCourseData = [
                   "Understanding variables, data types (integers, floats, strings, booleans).",
                   "Input and output operations using the input() and print() functions.",
                   "Performing basic arithmetic operations.",
-               
                 ],
               },
 
@@ -1941,8 +1913,6 @@ export const AIMLDataScienceCourseData = [
                 moduleList: [
                   "Conditional logic using if, else, and elif statements.",
                   "Looping with for and while loops to iterate over data.",
-
-               
                 ],
               },
 
@@ -1953,7 +1923,6 @@ export const AIMLDataScienceCourseData = [
                   "Introduction to lists, tuples, and dictionaries.",
                   "Accessing, modifying, and iterating through collections.",
                   "Understanding how to use indexing and slicing with lists and tuples",
-               
                 ],
               },
             ],
@@ -1963,32 +1932,31 @@ export const AIMLDataScienceCourseData = [
             title: "Python for Data Science",
             duration: "40-50 hrs",
             modules: [
-            {
-            moduleTitle: "Section 1",
-            moduleContent: "Core Python Basicsup",
-            moduleList: [
-            "Python Environment Setup",
-            " Python Syntax and Code Structure",
-            "Data Types and Control Flow",
-            "Data Structures",
-            "Functions And Modules",
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Core Python Basicsup",
+                moduleList: [
+                  "Python Environment Setup",
+                  " Python Syntax and Code Structure",
+                  "Data Types and Control Flow",
+                  "Data Structures",
+                  "Functions And Modules",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Data analytics Using Python",
+                moduleList: [
+                  "File I/O An d Exceptional Handling and Regular Expression",
+                  "Basic Web Scraping for Data Analytics",
+                  "Data Analysis using Numpy",
+                  "Data Analysis using Pandas",
+                  "Data Visualization using Matplotlib",
+                  "Data Visualization using Seaborn",
+                ],
+              },
             ],
-            },
-            {
-            moduleTitle: "Section 2",
-            moduleContent: "Data analytics Using Python",
-            moduleList: [
-            "File I/O An d Exceptional Handling and Regular Expression",
-            "Basic Web Scraping for Data Analytics",
-            "Data Analysis using Numpy",
-            "Data Analysis using Pandas",
-            "Data Visualization using Matplotlib",
-            "Data Visualization using Seaborn",
-            ],
-            },
-            ],
-            },
-           
+          },
 
           {
             term: "Term 2",
@@ -2242,19 +2210,23 @@ export const AIMLDataScienceCourseData = [
       {
         id: "6",
         trackIcon:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/peoples.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/GenAi-icon.webp",
         width: 80,
         height: 80,
         title: "Term 6",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
-        toolwidth: "200",
-        toolheight: "40",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/chatGpt-syntesia-githubCopilot.webp",
+        toolwidth: "300",
+        toolheight: "30",
         description: "GenAI for Software Developers",
         duration: "20-30 hrs ",
         contentModule: "Section 1 -",
-        contentDescription: "Learn to integrate AI tools into software applications for real-world use cases.",
-        contentDetails: ["Introduction to the Program", "Prompt Engineering Fundamentals"],
+        contentDescription:
+          "Learn to integrate AI tools into software applications for real-world use cases.",
+        contentDetails: [
+          "Introduction to the Program",
+          "Prompt Engineering Fundamentals",
+        ],
         popuplist: [
           {
             term: "Moudle 0",
@@ -2279,7 +2251,6 @@ export const AIMLDataScienceCourseData = [
                   "Understanding variables, data types (integers, floats, strings, booleans).",
                   "Input and output operations using the input() and print() functions.",
                   "Performing basic arithmetic operations.",
-               
                 ],
               },
 
@@ -2289,8 +2260,6 @@ export const AIMLDataScienceCourseData = [
                 moduleList: [
                   "Conditional logic using if, else, and elif statements.",
                   "Looping with for and while loops to iterate over data.",
-
-               
                 ],
               },
 
@@ -2301,7 +2270,6 @@ export const AIMLDataScienceCourseData = [
                   "Introduction to lists, tuples, and dictionaries.",
                   "Accessing, modifying, and iterating through collections.",
                   "Understanding how to use indexing and slicing with lists and tuples",
-               
                 ],
               },
             ],
@@ -2311,32 +2279,31 @@ export const AIMLDataScienceCourseData = [
             title: "Python for Data Science",
             duration: "40-50 hrs",
             modules: [
-            {
-            moduleTitle: "Section 1",
-            moduleContent: "Core Python Basicsup",
-            moduleList: [
-            "Python Environment Setup",
-            " Python Syntax and Code Structure",
-            "Data Types and Control Flow",
-            "Data Structures",
-            "Functions And Modules",
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Core Python Basicsup",
+                moduleList: [
+                  "Python Environment Setup",
+                  " Python Syntax and Code Structure",
+                  "Data Types and Control Flow",
+                  "Data Structures",
+                  "Functions And Modules",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Data analytics Using Python",
+                moduleList: [
+                  "File I/O An d Exceptional Handling and Regular Expression",
+                  "Basic Web Scraping for Data Analytics",
+                  "Data Analysis using Numpy",
+                  "Data Analysis using Pandas",
+                  "Data Visualization using Matplotlib",
+                  "Data Visualization using Seaborn",
+                ],
+              },
             ],
-            },
-            {
-            moduleTitle: "Section 2",
-            moduleContent: "Data analytics Using Python",
-            moduleList: [
-            "File I/O An d Exceptional Handling and Regular Expression",
-            "Basic Web Scraping for Data Analytics",
-            "Data Analysis using Numpy",
-            "Data Analysis using Pandas",
-            "Data Visualization using Matplotlib",
-            "Data Visualization using Seaborn",
-            ],
-            },
-            ],
-            },
-           
+          },
 
           {
             term: "Term 2",
@@ -2586,9 +2553,6 @@ export const AIMLDataScienceCourseData = [
           },
         ],
       },
-
-
-     
     ],
     certificateNew: [
       {

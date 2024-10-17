@@ -157,14 +157,14 @@ export const BADataScienceCourseData = [
       {
         id: "0",
         trackIcon:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/peoples.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/excel-icon.webp",
         width: 80,
         height: 80,
-        title: "TERM 2",
+        title: "TERM 1",
         toolsImg:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
-        toolwidth: "200",
-        toolheight: "40",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/excel-open.webp",
+        toolwidth: "250",
+        toolheight: "50",
         description: "Excel",
         duration: "30-35 hrs",
         contentModule: "Section 1 -",
@@ -357,13 +357,13 @@ export const BADataScienceCourseData = [
         {
             id: "1",
             trackIcon:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/peoples.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/statistics-icon.webp",
             width: 80,
             height: 80,
             title: "TERM 2",
             toolsImg:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
-            toolwidth: "200",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/pandas-numpy-matplotlib.webp",
+            toolwidth: "300",
             toolheight: "40",
             description: "Statistics",
             duration: "70-75 hrs",
@@ -557,14 +557,14 @@ export const BADataScienceCourseData = [
         {
             id: "2",
             trackIcon:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/peoples.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/visualization-icon.webp",
             width: 80,
             height: 80,
             title: "TERM 3",
             toolsImg:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
-            toolwidth: "200",
-            toolheight: "40",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/sql-tableu-powerbi-hadoop.webp",
+            toolwidth: "300",
+            toolheight: "30",
             description: "Data Visualization & Data Analysis withStatistics",
             duration: "80-85 hrs",
             contentModule: "Section 1 -",
@@ -758,14 +758,14 @@ export const BADataScienceCourseData = [
         {
             id: "3",
             trackIcon:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/peoples.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/Deployment-icon.webp",
             width: 80,
             height: 80,
             title: "TERM 4",
             toolsImg:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
-            toolwidth: "200",
-            toolheight: "40",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/tenser-docker-azure-amazon.webp",
+            toolwidth: "300",
+            toolheight: "30",
             description: "Business Analytics + Deployment",
             duration: "50-55 hrs",
             contentModule: "Section 1 -",

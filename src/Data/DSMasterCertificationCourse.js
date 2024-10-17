@@ -187,14 +187,14 @@ export const DataScienceCourseData = [
       {
         id: "0",
         trackIcon:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/peoples.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-icon-left.webp",
         width: 80,
         height: 80,
         title: "Module 0",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
-        toolwidth: "200",
-        toolheight: "40",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-right.webp",
+        toolwidth: "100",
+        toolheight: "30",
         description: "Python Bootcamp for Non-Programmers",
         duration: "40-50 hrs",
         contentModule: "Topics Covered",
@@ -505,14 +505,14 @@ export const DataScienceCourseData = [
       {
         id: "1",
         trackIcon:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/greens.web",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/user-setting.webp",
         width: 80,
         height: 80,
         title: "TERM 1",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
-        toolwidth: "200",
-        toolheight: "40",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-pandas-matplotlib.webp",
+        toolwidth: "300",
+        toolheight: "30",
         description: "Python for Data Science",
         duration: "40-50 hrs",
         contentModule: "Section 1 -",
@@ -826,14 +826,14 @@ export const DataScienceCourseData = [
       {
         id: "2",
         trackIcon:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/yellow_rs.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/visualization-icon.webp",
         width: 80,
         height: 80,
         title: "TERM 2",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/seaborn-numpy.webp",
         toolwidth: "200",
-        toolheight: "40",
+        toolheight: "30",
         description: "Statistics and Machine Learning + GenAI",
         duration: "70-75 hrs",
         contentModule: "Section 1 -",
@@ -1152,9 +1152,9 @@ export const DataScienceCourseData = [
         height: 80,
         title: "TERM 3",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
-        toolwidth: "200",
-        toolheight: "40",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/sql-tableu-powerbi-mongoDB.webp",
+        toolwidth: "300",
+        toolheight: "30",
         description: "Data Visualization & Data Analysis",
         duration: "80-85 hrs",
         contentModule: "Section 1 -",
@@ -1465,13 +1465,13 @@ export const DataScienceCourseData = [
       {
         id: "4",
         trackIcon:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/peoples.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/brain-setting.webp",
         width: 80,
         height: 80,
         title: "TERM 4",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
-        toolwidth: "200",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/tensorflow-openai-docker.webp",
+        toolwidth: "300",
         toolheight: "40",
         description: "AI Tools and Deployment",
         duration: "70-75 hrs",
@@ -1786,13 +1786,13 @@ export const DataScienceCourseData = [
       {
         id: "5",
         trackIcon:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/peoples.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/excel-icon.webp",
         width: 80,
         height: 80,
         title: "TERM 5",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
-        toolwidth: "200",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/excel-single.webp",
+        toolwidth: "80",
         toolheight: "40",
         description: "Excel",
         duration: "30-35 hrs",
@@ -2107,14 +2107,14 @@ export const DataScienceCourseData = [
       {
         id: "6",
         trackIcon:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/peoples.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/DSA-systemDesign.webp",
         width: 80,
         height: 80,
         title: "TERM 6",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/term1_tool.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/java-networkX.webp",
         toolwidth: "200",
-        toolheight: "40",
+        toolheight: "30",
         description: "Data Structure and Algorithm",
         duration: "40-45 hrs",
         contentModule: "Section 1 -",
