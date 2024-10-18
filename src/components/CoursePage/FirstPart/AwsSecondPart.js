@@ -1,16 +1,23 @@
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import Footer from "@/components/Global/Footer/Footer";
-import SeventhSection from "@/components/Global/SeventhSection/SeventhSection";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
-import LJourney from "../LJourney/LJourney";
+
+// Dynamically imported components
+const BottomBar = dynamic(() =>
+  import("@/components/Global/BottomBar/BottomBar")
+);
+const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
+const SeventhSection = dynamic(() =>
+  import("@/components/Global/SeventhSection/SeventhSection")
+);
+const WhatsappFloat = dynamic(() =>
+  import("@/components/Global/WhatappsFloat/WhatsappFloat")
+);
+const LJourney = dynamic(() => import("../LJourney/LJourney"));
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
 const Certificate = dynamic(() =>
   import("../../../components/CoursePage/Certificate/Certificate")
 );
-const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
 const FeeSection = dynamic(() =>
   import("../../../components/CoursePage/FeeSection/FeeSection")
 );
@@ -26,11 +33,9 @@ const PlacementCall = dynamic(() =>
 const DevOpsProject = dynamic(() =>
   import("../DevOps/DevOpsProject/DevOpsProject")
 );
-
 const FAQNew = dynamic(() =>
   import("../../../components/CoursePage/FAQNew/FAQNewDomain")
 );
-const Content = dynamic(() => import("../Content/content"));
 
 const SecondPart = ({
   masterSyllabusMobile,

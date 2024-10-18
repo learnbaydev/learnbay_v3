@@ -11,7 +11,6 @@ const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const FeeSection = dynamic(() =>
   import("../../../components/CoursePage/FeeSection/FeeSection")
 );
-const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
 const MentorsSection = dynamic(() =>
   import("../../../components/Global/MentorsSection/MentorsSection")
 );

@@ -15,15 +15,11 @@ const FirstSection = dynamic(() =>
 const SecondSection = dynamic(() =>
   import("../../../components/Seo/SecondSection/SecondSection")
 );
-const ProgramInfo = dynamic(() =>
-  import("../../../components/Seo/ProgramInfo/ProgramInfo")
-);
+
 const SeventhSection = dynamic(() =>
   import("../../../components/Seo/SeventhSection/SeventhSection")
 );
-const ProgramFee = dynamic(() =>
-  import("../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee")
-);
+
 const CityText = dynamic(() =>
   import("../../../components/Seo/CityText/CityText")
 );
@@ -34,9 +30,7 @@ const CitiesRight = dynamic(() =>
   import("../../../components/Seo/CitiesRight/CitiesRight")
 );
 const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
-const OfferPopup = dynamic(() =>
-  import("../../../components/Global/OfferPopup/OfferPopup")
-);
+
 
 export default function Home() {
   const [popups, setPopups] = useState(false);

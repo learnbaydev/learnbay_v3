@@ -1,35 +1,21 @@
-import { ThirdSectionData } from "@/Data/ThirdSectionData";
 import dynamic from "next/dynamic";
 import React from "react";
-
 
 const TrainerSection = dynamic(() =>
   import("../../../components/Global/TrainerSection/TrainerSection")
 );
 
-
 const GetHire = dynamic(() => import("../../Home/GetHire/GetHire"));
-
-
-
-
-
 
 const FirstSection = dynamic(() =>
   import("../../CoursePage/FirstSection/FirstSection")
 );
 
-
 const Course = dynamic(() => import("../../Home/Course/DSCourse"));
 const Realstory = dynamic(() => import("../../Home/Realstory/Realstory"));
 
-
-
 import Accordion from "@/components/Seo/DropDownContent/Accordion";
 const FirstPart = () => {
-
-  
-
   return (
     <>
       <FirstSection
@@ -48,30 +34,25 @@ const FirstPart = () => {
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ds-fs.webp"
         videoId="djokazk1d-0"
         DSWolf={true}
-       softwareBtnHide={true}
+        softwareBtnHide={true}
       />
 
       <Course
         // radio={true}
-       
+
         // interstedInHide={true}
         newDesign={true}
-      
         DomainInput={true}
         interstedInHide={true}
         DatascienOnlycourse={true}
       />
-    
-
-
-  
 
       <Realstory />
       <TrainerSection idss="eautK0odE7Q" />
 
       {/* <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} /> */}
 
-<Accordion/>
+      <Accordion />
       <GetHire />
     </>
   );

@@ -4,37 +4,24 @@ import SeventhSection from "@/components/Global/SeventhSection/SeventhSection";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
-const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
-const Certificate = dynamic(() =>
-  import("../../../components/CoursePage/Certificate/Certificate")
-);
-const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
-const FeeSection = dynamic(() =>
-  import("../../../components/CoursePage/FeeSection/FeeSection")
-);
+
 const MentorsSection = dynamic(() =>
   import("../../../components/Global/MentorsSection/MentorsSection")
 );
 
-const NewProjectSection = dynamic(() =>
-  import("../../../components/Global/NewProjectSection/NewProjectSection")
-);
+
 
 const FAQNew = dynamic(() =>
   import("../../../components/CoursePage/FAQNew/FAQNew")
 );
-const Content = dynamic(() =>
-  import("../../../components/CoursePage/Content/content")
-);
+
 const MobileTestimonial = dynamic(() =>
   import("../../Home/MobileTestimonial/MobileTestimonial")
 );
 
 const SecondPart = ({
-  masterSyllabusMobile,
-  CertificateData,
-  projectSection,
+
   FAQNewData,
 }) => {
   const [popupData, setPopupData] = useState([]);

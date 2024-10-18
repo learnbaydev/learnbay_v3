@@ -2,13 +2,10 @@ import { TbBrandGoogleAnalyticsSvg } from "@/Data/svgData/TbIcons";
 import dynamic from "next/dynamic";
 import React from "react";
 const SecondNavbar = dynamic(() => import("../SecondNavbar/SecondNavbar"));
-const WhoProgram = dynamic(() => import("../WhoProgram/ThirdSection"));
 const TrainerSection = dynamic(() =>
   import("../../Global/TrainerSection/TrainerSection")
 );
-const Testimonial = dynamic(() =>
-  import("../../Global/Testimonial/Testimonial")
-);
+
 const WhoIsProgram = dynamic(() => import("../WhoIsProgram/WhoIsProgram"));
 const WhyLearnbay = dynamic(() => import("../WhyLearnbay/WhyLearnbay"));
 const GetHire = dynamic(() => import("../../Home/GetHire/GetHire"));

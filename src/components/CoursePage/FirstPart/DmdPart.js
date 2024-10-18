@@ -1,29 +1,27 @@
 import styles from "@/components/CoursePage/FirstSectionDmd/FirstSection.module.css";
-import DmdPopup from "@/components/Dmd/Popup/DmdPopup";
-import Footer from "@/components/Global/Footer/Footer";
-import MentorsSection from "@/components/Global/MentorsSection/MentorsSection";
-import Course from "@/components/Home/Course/CourseDmd";
-import GetHire from "@/components/Home/GetHire/GetHire";
-import HomeLine from "@/components/Home/HomeLine/HomeLine";
-import Media from "@/components/Home/Media/Media";
-import ProjectSection from "@/components/OrganicGeneric/ProjectSection/ProjectSection";
 import dynamic from "next/dynamic";
-import EightSection from "../EightSection/EightSection";
+
+// Dynamically imported components
 const FirstSection = dynamic(() =>
   import("@/components/CoursePage/FirstSectionDmd/FirstSection")
 );
 const Certificate = dynamic(() =>
   import("@/components/CoursePage/Certificate/Certificate")
 );
-
 const Transpro = dynamic(() => import("@/components/Dmd/Transpro/Transpro"));
-const SliderTab = dynamic(() =>
-  import("@/components/Dmd/SliderTab/SliderTabs")
-);
+const SliderTab = dynamic(() => import("@/components/Dmd/SliderTab/SliderTabs"));
 const Webinar = dynamic(() => import("@/components/Dmd/ReactWebinar/Webinar"));
-const NewProjectSection = dynamic(() =>
-  import("@/components/Global/NewProjectSection/NewProjectSection")
-);
+const NewProjectSection = dynamic(() => import("@/components/Global/NewProjectSection/NewProjectSection"));
+const DmdPopup = dynamic(() => import("@/components/Dmd/Popup/DmdPopup"));
+const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
+const MentorsSection = dynamic(() => import("@/components/Global/MentorsSection/MentorsSection"));
+const Course = dynamic(() => import("@/components/Home/Course/CourseDmd"));
+const GetHire = dynamic(() => import("@/components/Home/GetHire/GetHire"));
+const HomeLine = dynamic(() => import("@/components/Home/HomeLine/HomeLine"));
+const Media = dynamic(() => import("@/components/Home/Media/Media"));
+const ProjectSection = dynamic(() => import("@/components/OrganicGeneric/ProjectSection/ProjectSection"));
+const EightSection = dynamic(() => import("../EightSection/EightSection"));
+
 const DmdPart = ({ CertificateData, S3RightImage, projectSection }) => {
   const data = [
     {

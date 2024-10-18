@@ -1,41 +1,22 @@
-import React from "react";
 import dynamic from "next/dynamic";
-import Navbar from "@/components/Global/Navbar/Navbar";
-import FirstSection from "@/components/CoursePage/FirstSection/FirstSection";
-import MasterSecondSection from "../../MastersCourse/MasterSecondSection/MasterSecondSection";
-import JobAbroad from "../../MastersCourse/JobAbroad/JobAbroad";
-const SecondNavbar = dynamic(() =>
-  import("../../CoursePage/SecondNavbar/SecondNavbar")
-);
-const TrainerSection = dynamic(() =>
-  import("../../Global/TrainerSection/TrainerSection")
-);
-const Testimonial = dynamic(() =>
-  import("../../Global/Testimonial/Testimonial")
-);
-
-const CloudDevopsecond = dynamic(() =>
-  import(
-    "../../CoursePage/cloud&devops/DevOpsSecondSection/DevOpsSecondSection"
-  )
-);
-const Realstory = dynamic(() =>
-  import(
-    "../../Home/Realstory/Realstory"
-  )
-);
-import { FaReact } from "react-icons/fa";
-import { BsPersonGear } from "react-icons/bs";
-import { BsDisplay } from "react-icons/bs";
+import { FaReact, FaLinkedinIn } from "react-icons/fa";
+import { BsPersonGear, BsDisplay, BsPeople } from "react-icons/bs";
 import { AiOutlineContainer } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-import { BsPeople } from "react-icons/bs";
-import WhoIsProgram from "../WhoIsProgram/WhoIsProgram";
 import { TbBrandGoogleAnalyticsSvg } from "@/Data/svgData/TbIcons";
+
+// Dynamically imported components
+const Navbar = dynamic(() => import("@/components/Global/Navbar/Navbar"));
+const FirstSection = dynamic(() => import("@/components/CoursePage/FirstSection/FirstSection"));
+const SecondNavbar = dynamic(() => import("../../CoursePage/SecondNavbar/SecondNavbar"));
+const TrainerSection = dynamic(() => import("../../Global/TrainerSection/TrainerSection"));
+const CloudDevopsecond = dynamic(() => import("../../CoursePage/cloud&devops/DevOpsSecondSection/DevOpsSecondSection"));
+const Realstory = dynamic(() => import("../../Home/Realstory/Realstory"));
+const MasterSecondSection = dynamic(() => import("../../MastersCourse/MasterSecondSection/MasterSecondSection"));
+const JobAbroad = dynamic(() => import("../../MastersCourse/JobAbroad/JobAbroad"));
+const WhoIsProgram = dynamic(() => import("../WhoIsProgram/WhoIsProgram"));
+
 const ExecutiveFirstPart = ({
-  TestimonialData,
-  WolfLink,
-  formbtn,
+
 
 
 }) => {

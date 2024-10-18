@@ -1,6 +1,4 @@
 
-import dynamic from "next/dynamic";
-import Image from "next/image";
 import styles from "./Survey.module.css";
 
 const Survey = ({ topPara, para, header }) => {

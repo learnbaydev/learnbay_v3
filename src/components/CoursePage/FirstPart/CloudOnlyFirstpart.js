@@ -6,18 +6,11 @@ import CloudDevopsecond from "../cloud&devops/DevOpsSecondSection/DevOpsSecondSe
 const SecondNavbar = dynamic(() =>
   import("../SecondNavbar/SecondNavbar")
 );
-import { ThirdSectionData } from "@/Data/ThirdSectionData";
-const WhoProgram = dynamic(() =>
-  import("../WhoProgram/ThirdSection")
-);
+
 const TrainerSection = dynamic(() =>
   import("../../Global/TrainerSection/TrainerSection")
 );
-const Testimonial = dynamic(() =>
-  import(
-    "../cloud&devops/CloudDevopstestimonial/Clouddevoptestimonials"
-  )
-);
+
 const FirstSection = dynamic(() =>
   import("../FirstSection/FirstSection")
 );

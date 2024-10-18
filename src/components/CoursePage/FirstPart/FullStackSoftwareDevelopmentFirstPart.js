@@ -2,7 +2,6 @@ import React from "react";
 import dynamic from "next/dynamic";
 import Navbar from "@/components/Global/Navbar/Navbar";
 import FirstSection from "../FirstSection/FirstSection";
-import SecondSection from "../SecondSection/SecondSection";
 const FullStackSecondSection = dynamic(() =>
   import("../FullStackSecondSection/FullStackSecondSection")
 );

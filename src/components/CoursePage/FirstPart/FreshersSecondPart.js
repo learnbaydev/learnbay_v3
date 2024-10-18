@@ -8,7 +8,6 @@ import LJourney from "../LJourney/LJourney";
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
 const Certificate = dynamic(() => import("../Certificate/Certificate"));
-const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
 const FeeSection = dynamic(() => import("../FeeSection/FeeSection"));
 const MentorsSection = dynamic(() =>
   import("../../Global/MentorsSection/MentorsSection")
@@ -20,9 +19,7 @@ const PlacementCall = dynamic(() =>
 const NewProjectSection = dynamic(() =>
   import("../../Global/NewProjectSection/NewProjectSection")
 );
-
-const FAQNew = dynamic(() => import("../FAQNew/FAQNew"));
-const Content = dynamic(() => import("../Content/content"));
+;
 const MobileTestimonial = dynamic(() =>
   import("@/components/Home/MobileTestimonial/MobileTestimonial")
 );

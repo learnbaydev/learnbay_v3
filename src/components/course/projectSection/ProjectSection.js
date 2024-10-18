@@ -12,8 +12,7 @@ import "swiper/css/pagination";
 
 // import required modules
 import Image from "next/image";
-import Popup from "../../Global/Popup/Popup";
-import Form from "@/components/Global/Form/Form";
+
 import PopupContent from "@/components/Global/PopupContent/PopupContent";
 
 const ProjectSection = ({

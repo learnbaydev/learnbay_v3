@@ -29,7 +29,6 @@ const SliderTab = dynamic(() =>
 const PlacementCall = dynamic(() =>
   import("../../../components/Global/PlacementCall/PlacementCall")
 );
-const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
 const NewProjectSection = dynamic(() =>
   import("../../../components/Global/NewProjectSection/NewProjectSection")
 );

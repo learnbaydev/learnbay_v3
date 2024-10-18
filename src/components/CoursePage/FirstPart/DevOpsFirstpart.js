@@ -6,18 +6,11 @@ import CloudDevopsecond from "../cloud&devops/DevOpsSecondSection/DevOpsSecondSe
 const SecondNavbar = dynamic(() =>
   import("../../../components/CoursePage/SecondNavbar/SecondNavbar")
 );
-import { ThirdSectionData } from "@/Data/ThirdSectionData";
-const WhoProgram = dynamic(() =>
-  import("../../../components/CoursePage/WhoProgram/ThirdSection")
-);
+
 const TrainerSection = dynamic(() =>
   import("../../../components/Global/TrainerSection/TrainerSection")
 );
-const Testimonial = dynamic(() =>
-  import(
-    "../../../components/CoursePage/cloud&devops/CloudDevopstestimonial/Clouddevoptestimonials"
-  )
-);
+
 const FirstSection = dynamic(() =>
   import("../../CoursePage/FirstSection/FirstSection")
 );

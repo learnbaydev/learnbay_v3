@@ -1,30 +1,35 @@
-import React from "react";
 import dynamic from "next/dynamic";
-import Navbar from "@/components/Global/Navbar/Navbar";
-import FirstSection from "@/components/CoursePage/FirstSection/FirstSection";
-import MasterSecondSection from "../../MastersCourse/MasterSecondSection/MasterSecondSection";
-import JobAbroad from "../../MastersCourse/JobAbroad/JobAbroad";
+import React from "react";
+
+// Dynamic imports for all components
+const Navbar = dynamic(() => import("@/components/Global/Navbar/Navbar"));
+const FirstSection = dynamic(() =>
+  import("@/components/CoursePage/FirstSection/FirstSection")
+);
+const MasterSecondSection = dynamic(() =>
+  import("../../MastersCourse/MasterSecondSection/MasterSecondSection")
+);
+const JobAbroad = dynamic(() =>
+  import("../../MastersCourse/JobAbroad/JobAbroad")
+);
 const SecondNavbar = dynamic(() =>
   import("../../CoursePage/SecondNavbar/SecondNavbar")
 );
 const TrainerSection = dynamic(() =>
   import("../../Global/TrainerSection/TrainerSection")
 );
-const Testimonial = dynamic(() =>
-  import("../../Global/Testimonial/Testimonial")
-);
 const WhyLearnbay = dynamic(() =>
   import("../../CoursePage/WhyLearnbay/WhyLearnbay")
 );
 const CloudDevopsecond = dynamic(() =>
-  import(
-    "../../CoursePage/cloud&devops/DevOpsSecondSection/DevOpsSecondSection"
-  )
+  import("../../CoursePage/cloud&devops/DevOpsSecondSection/DevOpsSecondSection")
 );
 const Realstory = dynamic(() =>
-  import(
-    "../../Home/Realstory/Realstory"
-  )
+  import("../../Home/Realstory/Realstory")
+);
+const WhoIsProgram = dynamic(() => import("../WhoIsProgram/WhoIsProgram"));
+const TbBrandGoogleAnalyticsSvg = dynamic(() =>
+  import("@/Data/svgData/TbIcons")
 );
 import { FaReact } from "react-icons/fa";
 import { BsPersonGear } from "react-icons/bs";
@@ -32,12 +37,8 @@ import { BsDisplay } from "react-icons/bs";
 import { AiOutlineContainer } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsPeople } from "react-icons/bs";
-import WhoIsProgram from "../WhoIsProgram/WhoIsProgram";
-import { TbBrandGoogleAnalyticsSvg } from "@/Data/svgData/TbIcons";
+
 const ExecutiveFirstPart = ({
-  TestimonialData,
-  WolfLink,
-  formbtn,
 
 
 }) => {

@@ -1,43 +1,21 @@
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
-import BottomBar from "../../Global/BottomBar/BottomBar";
-import LJourney from "../LJourney/LJourney";
+
+// Dynamically imported components
+const WhatsappFloat = dynamic(() => import("@/components/Global/WhatappsFloat/WhatsappFloat"));
+const BottomBar = dynamic(() => import("../../Global/BottomBar/BottomBar"));
+const LJourney = dynamic(() => import("../LJourney/LJourney"));
 const GetHire = dynamic(() => import("../../MastersCourse/GetHire/GetHire"));
-const ContactCounsellor = dynamic(() =>
-  import("../ContactCounsellor/ContactCounsellor")
-);
-const SyllabusNew = dynamic(() =>
-  import("../../CoursePage/Syllabus/MasterSyllabus")
-);
-const ToolsCovered = dynamic(() =>
-  import("../../CoursePage/ToolsCovered/ToolsCovered")
-);
-const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
-const Certificate = dynamic(() =>
-  import("../../MastersCourse/Certificate/Certificate")
-);
-const FeeSection = dynamic(() =>
-  import("../../CoursePage/FeeSection/FeeSection")
-);
-const MentorsSection = dynamic(() =>
-  import("../../Global/MentorsSection/MentorsSection")
-);
+const ContactCounsellor = dynamic(() => import("../ContactCounsellor/ContactCounsellor"));
+const SyllabusNew = dynamic(() => import("../../CoursePage/Syllabus/MasterSyllabus"));
+const ToolsCovered = dynamic(() => import("../../CoursePage/ToolsCovered/ToolsCovered"));
+const Certificate = dynamic(() => import("../../MastersCourse/Certificate/Certificate"));
+const FeeSection = dynamic(() => import("../../CoursePage/FeeSection/FeeSection"));
 const SliderTabs = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
-const PlacementCall = dynamic(() =>
-  import("../../Global/PlacementCall/PlacementCall")
-);
-const NewProjectSection = dynamic(() =>
-  import("../../Global/NewProjectSection/NewProjectSection")
-);
-
-const SeventhSection = dynamic(() =>
-  import("../../Global/SeventhSection/SeventhSection")
-);
-const MobileTestimonial = dynamic(() =>
-  import("@/components/Home/MobileTestimonial/MobileTestimonial")
-);
-
+const PlacementCall = dynamic(() => import("../../Global/PlacementCall/PlacementCall"));
+const NewProjectSection = dynamic(() => import("../../Global/NewProjectSection/NewProjectSection"));
+const SeventhSection = dynamic(() => import("../../Global/SeventhSection/SeventhSection"));
+const MobileTestimonial = dynamic(() => import("@/components/Home/MobileTestimonial/MobileTestimonial"));
 const Footer = dynamic(() => import("../../Global/Footer/Footer"));
 const FAQNew = dynamic(() => import("../../CoursePage/FAQNew/FAQNewDomain"));
 
@@ -46,7 +24,6 @@ const ExecutiveSecondPart = ({
   masterSyllabusMobile,
   projectSection,
   FAQNewData,
-  noGuwahatiimg,
 }) => {
   const [popupData, setPopupData] = useState([]);
   // console.log(popupData);

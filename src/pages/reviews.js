@@ -1,11 +1,11 @@
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import dynamic from "next/dynamic";
 import Head from "next/head";
-import { DataScienceCourseData } from "../Data/AdvanceDataScienceCourse";
+
 import BottomBar from "../components/Global/BottomBar/BottomBar";
 import Footer from "../components/Global/Footer/Footer";
 import Navbar from "../components/Global/Navbar/Navbar";
-const Button = dynamic(() => import("../components/Global/Button/Button"));
+
 const GoogleReview = dynamic(() =>
   import("../components/StaticPage/SuccessStory/GoogleReview/GoogleReview")
 );
@@ -21,12 +21,7 @@ const ReviewCourse = dynamic(() =>
 const ReviewSwitch = dynamic(() =>
   import("../components/StaticPage/SuccessStory/ReviewSwitch/ReviewSwitch")
 );
-const VideoReview = dynamic(() =>
-  import("../components/StaticPage/SuccessStory/VideoReview/VideoReview")
-);
-const Testimonial = dynamic(() =>
-  import("../components/Global/Testimonial/Testimonial")
-);
+
 const Realstory = dynamic(() =>
   import("../components/Home/Realstory/Realstory")
 );

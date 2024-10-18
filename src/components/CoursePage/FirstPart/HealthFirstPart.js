@@ -15,7 +15,7 @@ const Testimonial = dynamic(() =>
   import("../../Global/Testimonial/Testimonial")
 );
 const WhoIsProgram = dynamic(() => import("../WhoIsProgram/WhoIsProgram"));
-const WhyLearnbay = dynamic(() => import("../WhyLearnbay/WhyLearnbay"));
+
 const GetHire = dynamic(() => import("../../Home/GetHire/GetHire"));
 const ContactConsellor = dynamic(() =>
   import("../ContactCounsellor/ContactCounsellor")

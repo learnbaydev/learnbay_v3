@@ -1,17 +1,36 @@
-import HeroSectionMaster from "@/components/course/heroSection/HeroSectionMaster";
-import NavbarSection from "@/components/course/navbarSection/NavbarSection";
 import dynamic from "next/dynamic";
 import React from "react";
 
-import PSummaryAD from "../PSummary/PSummaryAD";
-import Practical from "../Practical/Practical";
-import ProgramSection from "@/components/course/programSection/programSection";
-import ReviewSlider from "@/components/course/reviewSlider/reviewSlider";
-import UpskillMbl from "@/components/course/upskillingSection/UpskillMbl";
-import UpskillingSection from "@/components/course/upskillingSection/upskillingSection";
-import MentorsSection from "@/components/Global/MentorsSection/MentorsSection";
-import OutcomeSection from "@/components/course/outcomeSection/outcomeSection";
-import AnimationNew from "@/components/Home/whyChooseSection/AnimationNew";
+// Dynamically imported components
+const HeroSectionMaster = dynamic(() =>
+  import("@/components/course/heroSection/HeroSectionMaster")
+);
+const NavbarSection = dynamic(() =>
+  import("@/components/course/navbarSection/NavbarSection")
+);
+const PSummaryAD = dynamic(() => import("../PSummary/PSummaryAD"));
+const Practical = dynamic(() => import("../Practical/Practical"));
+const ProgramSection = dynamic(() =>
+  import("@/components/course/programSection/programSection")
+);
+const ReviewSlider = dynamic(() =>
+  import("@/components/course/reviewSlider/reviewSlider")
+);
+const UpskillMbl = dynamic(() =>
+  import("@/components/course/upskillingSection/UpskillMbl")
+);
+const UpskillingSection = dynamic(() =>
+  import("@/components/course/upskillingSection/upskillingSection")
+);
+const MentorsSection = dynamic(() =>
+  import("@/components/Global/MentorsSection/MentorsSection")
+);
+const OutcomeSection = dynamic(() =>
+  import("@/components/course/outcomeSection/outcomeSection")
+);
+const AnimationNew = dynamic(() =>
+  import("@/components/Home/whyChooseSection/AnimationNew")
+);
 const FirstPart = ({ ProggramSectionData, summaryData, upskillData, upskillingData }) => {
   const pdfUrl = "/Brochure/AI-Master-Certification.pdf";
   return (

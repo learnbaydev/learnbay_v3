@@ -40,11 +40,10 @@
 .spantitle {
   background: linear-gradient(90deg, #fe7a36 23.18%, #ffc436 65.33%);
   background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-weight: 600;
   line-height: 125%;
   letter-spacing: 0.55px;
+  color: transparent; /* Keep this for desktop view */
 }
 .btn {
   position: relative; /* For positioning the pseudo-element */
@@ -473,6 +472,11 @@
     display: block;
     width: 100%;
     height: auto;
+  }
+
+  .spantitle {
+    background: none; /* Remove the gradient */
+    color: #ffc436; /* Set text color to white */
   }
 }
 

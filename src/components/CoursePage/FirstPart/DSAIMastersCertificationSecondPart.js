@@ -1,22 +1,20 @@
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import Footer from "@/components/Global/Footer/Footer";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
-import NewSevenSection from "@/components/Global/SeventhSectionNew/NewSevenSection";
 
-import ProjectSection from "@/components/course/projectSection/ProjectSection";
-import SyllabusSection from "@/components/course/syllabusSection/SyllabusSection";
-import StructuredSection from "@/components/course/structuredSection/StructuredSection";
-import Achive from "@/components/course/jobReadySection/Achive";
-import ToolsSection from "@/components/course/toolsSection/ToolsSection";
-import CertificateSection from "@/components/course/certificateSection/CertificateSection";
-import FeeSection from "@/components/course/feeSection/FeeSectionCourse";
-
-
+// Dynamically imported components
+const BottomBar = dynamic(() => import("@/components/Global/BottomBar/BottomBar"));
+const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
+const WhatsappFloat = dynamic(() => import("@/components/Global/WhatappsFloat/WhatsappFloat"));
+const NewSevenSection = dynamic(() => import("@/components/Global/SeventhSectionNew/NewSevenSection"));
+const ProjectSection = dynamic(() => import("@/components/course/projectSection/ProjectSection"));
+const SyllabusSection = dynamic(() => import("@/components/course/syllabusSection/SyllabusSection"));
+const StructuredSection = dynamic(() => import("@/components/course/structuredSection/StructuredSection"));
+const Achive = dynamic(() => import("@/components/course/jobReadySection/Achive"));
+const ToolsSection = dynamic(() => import("@/components/course/toolsSection/ToolsSection"));
+const CertificateSection = dynamic(() => import("@/components/course/certificateSection/CertificateSection"));
+const FeeSection = dynamic(() => import("@/components/course/feeSection/FeeSectionCourse"));
 const FAQNew = dynamic(() => import("../FAQNew/FAQNew"));
 const Content = dynamic(() => import("../Content/content"));
-
 
 
 const SecondPart = ({

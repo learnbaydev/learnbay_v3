@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, lazy, Suspense, memo, useCallback } from "react";
+import {lazy, Suspense, memo, useCallback } from "react";
 import Image from "next/image"; // Import Next.js Image component
 import styles from "./HeroSection.module.css";
 import Button from "@/components/Global/Button/Button";

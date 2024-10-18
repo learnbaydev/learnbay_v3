@@ -32,9 +32,7 @@ const SecondPart = ({
   CertificateData,
   projectSection,
   FAQNewData,
-  singlecertificate,
-  foundation,
-  devops,
+
 }) => {
   const [popupData, setPopupData] = useState([]);
 

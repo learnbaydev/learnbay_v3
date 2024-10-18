@@ -8,7 +8,6 @@ const WhatsappFloat = dynamic(() =>
   import("@/components/Global/WhatappsFloat/WhatsappFloat")
 );
 const Certificate = dynamic(() => import("../Certificate/Certificate"));
-const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
 const FeeSection = dynamic(() => import("../FeeSection/FeeSection"));
 
 const MentorsSection = dynamic(() =>
@@ -21,9 +20,6 @@ const PlacementCall = dynamic(() =>
   import("../../Global/PlacementCall/PlacementCall")
 );
 
-const NewProjectSection = dynamic(() =>
-  import("../../Global/NewProjectSection/NewProjectSection")
-);
 
 const MobileTestimonial = dynamic(() =>
   import("@/components/Home/MobileTestimonial/MobileTestimonial")
@@ -31,7 +27,6 @@ const MobileTestimonial = dynamic(() =>
 
 const FAQNew = dynamic(() => import("../FAQNew/FAQNewDomain"));
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
-const Content = dynamic(() => import("../Content/content"));
 const SeventhSection = dynamic(() =>
   import("@/components/Global/SeventhSection/SeventhSection")
 );
