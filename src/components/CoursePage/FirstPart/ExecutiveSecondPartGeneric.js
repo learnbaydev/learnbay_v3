@@ -24,13 +24,13 @@ const UpskillingSection = dynamic(() =>
   import("@/components/course/upskillingSection/upskillingSection")
 );
 
-const ExecutiveSecondPart = ({ sections, FAQNewData }) => {
+const ExecutiveSecondPart = ({ sections, FAQNewData, upskillingData }) => {
   const pdfUrl = "/Brochure/Executive-iit-guwahati-generic.pdf";
   return (
     <>
       <ReviewSlider />
       <MentorsSection />
-      <UpskillingSection />
+      <UpskillingSection upskillingData={upskillingData} />
       <ProjectSection dataScienceCounselling={true} interstedInHide={true} />
       <SyllabusSection
         sections={sections}

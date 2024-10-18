@@ -37,10 +37,12 @@ const ExecutiveIIT = ({ DataScienceCourseDataJson }) => {
         summaryData={
           DataScienceCourseData.ExcutiveProgramAIDS[0].summarySection
         }
+
         ProggramSectionData={
           DataScienceCourseData.ExcutiveProgramAIDS[0].ProggramSection
         }/>
         <ExecutiveSecondPart
+                upskillingData={DataScienceCourseData.ExcutiveProgramAIDS[0].upskillingData}
           sections={DataScienceCourseData.ExcutiveProgramAIDS[0].sections}
           FAQNewData={DataScienceCourseData.ExcutiveProgramAIDS[0].faq}
         />

@@ -2,8 +2,10 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./Popup.module.css";
+import React from "react";
 
-const Popup = ({ message, onClose }) => {
+// Popup component wrapped with React.memo
+const Popup = React.memo(({ message, onClose }) => {
   return (
     <div className={styles.popupOverlay}>
       <div
@@ -48,19 +50,20 @@ const Popup = ({ message, onClose }) => {
       </div>
     </div>
   );
-};
+});
 
-const PopupWrapper = () => {
+// PopupWrapper component wrapped with React.memo
+const PopupWrapper = React.memo(() => {
   const [isPopupVisible, setPopupVisible] = useState(false);
 
   useEffect(() => {
     // Check if the popup has already been shown for the session
     const hasSeenPopup = sessionStorage.getItem("hasSeenPopup");
-    
+
     if (!hasSeenPopup) {
       // Show the popup if the user hasn't seen it yet during this session
       setPopupVisible(true);
-      
+
       // Set a flag in sessionStorage to mark that the user has seen the popup
       sessionStorage.setItem("hasSeenPopup", "true");
       console.log(`User has seen the popup: ${!hasSeenPopup}`);
@@ -73,9 +76,11 @@ const PopupWrapper = () => {
 
   return (
     <>
-      {isPopupVisible && <Popup message="Get Scholarship" onClose={handleClosePopup} />}
+      {isPopupVisible && (
+        <Popup message="Get Scholarship" onClose={handleClosePopup} />
+      )}
     </>
   );
-};
+});
 
 export default PopupWrapper;

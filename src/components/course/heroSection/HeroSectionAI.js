@@ -105,9 +105,9 @@ function HeroSectionAI({
               </div>
 
               <div className={styles.btnDiv} onClick={popupShow}>
-                <Button text="DOWNLOAD SYLLABUS" grayButton />
+                <Button text="Download Syllabus" grayButton />
                 <Button
-                  text="START MY APPLICATION"
+                  text="Start My Application"
                   OrangeButton={OrangeButton}
                   purpleButton={purpleButton}
                   onClick={popupShow}
@@ -130,12 +130,12 @@ function HeroSectionAI({
               {isMobile && (
                 <div className={styles.btnDivM}>
                   <Button
-                    text="DOWNLOAD SYLLABUS"
+                    text="Download Syllabus"
                     grayButton
                     onClick={popupShow}
                   />
                   <Button
-                    text="START MY APPLICATION"
+                    text="Start My Application"
                     purpleButton={purpleButton}
                     OrangeButton={OrangeButton}
                     onClick={popupShow}

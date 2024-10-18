@@ -1,5 +1,63 @@
 export const ExcutiveProgramAIDS = [
   {
+    upskillingData:[
+      {
+        term: "Module 0",
+        duration: "30 hrs",
+        title: "Python Bootcamp for Non-Programmers",
+        useCases: "These sessions are recommended for non programmers to learn basics of programming.",
+        toolImage: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/tool_BA_one+(1).webp",
+        toolImageWidth: "122",
+        toolImageHeight: "69",
+      },
+      {
+        term: "Term 1",
+        duration: "30 hrs",
+        title: "Python for Data Science",
+        useCases: "We will cover Python basics and data analytics using popular libraries like NumPy, Pandas, Matplotlib, and Seaborn.",
+        toolImage: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/tool_ba_two+(1).webp",
+        toolImageWidth: "326",
+        toolImageHeight: "56",
+      },
+      {
+        term: "Term 2",
+        duration: "10 Weeks",
+        title: "Statistics and Machine Learning + GenAI",
+        useCases: "Apply statistical methods and machine learning algorithms to solve data problems, with an introduction to generative AI techniques.",
+        toolImage: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_two+(1).webp",
+        toolImageWidth: "150",
+        toolImageHeight: "60",
+      },
+      {
+        term: "Term 3",
+        duration: "18 Weeks",
+        title: "Data Visualization & Data Analysis",
+        useCases: "Master SQL, NoSQL, and Power BI for efficient data management, querying, and visualization of complex datasets.",
+        toolImage: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_three+(1).webp",
+        toolImageWidth: "122",
+        toolImageHeight: "69",
+      },
+      {
+        term: "Term 4",
+        duration: "6 Weeks",
+        title: "AI Tools and Deployment",
+        useCases: "Build and deploy advanced AI models, including deep learning, NLP, CV and Reinforcement Learning using cloud-based MLOps tools for real-world applications.",
+        toolImage: " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_four+(1).webp",
+        toolImageWidth: "326",
+        toolImageHeight: "56",
+      },
+      {
+        term: "Term 5",
+        duration: "6 Weeks",
+        title: "Project Management",
+        useCases: "Introduction to Big Data, Data Warehousing, Cloud Computing",
+        toolImage: "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/bi_tool.webp",
+        toolImageWidth: "150",
+        toolImageHeight: "60",
+      },
+  
+  
+],
 
 
     summarySection: [

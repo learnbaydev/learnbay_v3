@@ -111,7 +111,7 @@ const NavbarHome = ({
           priority
           className={mobile ? styles.mobileLogo : styles.desktopLogo}
           width={mobile ? 135 : 180}
-          height={50}
+          height={40}
         />
 
         {/* Courses Button with Dropdown */}
