@@ -1,7 +1,6 @@
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import { BiTimeFive } from "react-icons/bi";
 import { BsCheckLg, BsFire } from "react-icons/bs";
 import { FaDownload } from "react-icons/fa";
 import { Pagination } from "swiper";
@@ -12,6 +11,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import styles from "./Course.module.css";
 import { courseDetails, courseDetailsM } from "./courseDetails";
 import Link from "next/link";
+import { Clocktimefiveoutline } from "@/Data/svgData/BiIcons";
 const Popup = dynamic(() => import("@/components/Global/Popup/Popup"));
 const Form = dynamic(() => import("@/components/Global/Form/Form"));
 
@@ -319,7 +319,7 @@ const Course = ({
                                         <div className={styles.contentBox}>
                                           <div className={styles.paraDiv}>
                                             <p className={styles.singleP}>
-                                              <BiTimeFive
+                                              <Clocktimefiveoutline
                                                 className={styles.checkCircle}
                                               />
                                               {para[0]} {courseTime}

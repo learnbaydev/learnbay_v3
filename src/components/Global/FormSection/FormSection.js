@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./FormSection.module.css";
-import { MdCall } from "react-icons/md";
 import FormInline from "./FormInline";
+import { MdCallSvg } from "@/Data/svgData/MDIcons";
 
 const FormSection = (dataScience, dataScienceCounselling) => {
   return (
@@ -10,7 +10,7 @@ const FormSection = (dataScience, dataScienceCounselling) => {
         <h5>Apply For Free Career Counselling</h5>
         <a href="tel:+917795687988">
           <button>
-            <MdCall />
+            <MdCallSvg />
             +91 77956 87988
           </button>
         </a>

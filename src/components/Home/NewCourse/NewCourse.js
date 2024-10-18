@@ -4,11 +4,11 @@ import Image from "next/image";
 import { courses, masterCourse, SvgArrow } from "./NewCourseData"; // Import course and master data
 import Link from "next/link";
 import dynamic from "next/dynamic";
-import { MdOutlineFileDownload } from "react-icons/md";
 import DataScienceCard from "./DataScienceCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css"; // Import Swiper styles
 import { Navigation, Pagination } from "swiper"; // Import modules for Swiper
+import { MdOutlineFileDownloadSvg } from "@/Data/svgData/MDIcons";
 
 const Popup = dynamic(() => import("@/components/Global/Popup/Popup"));
 const Form = dynamic(() => import("@/components/Global/Form/Form"));
@@ -115,7 +115,7 @@ const NewCourse = ({
                           setPopups(true);
                         }}
                       >
-                        Brochure <MdOutlineFileDownload />
+                        Brochure <MdOutlineFileDownloadSvg />
                       </button>
 
                       {course.link ? (
@@ -220,7 +220,7 @@ const NewCourse = ({
                         setPopups(true);
                       }}
                     >
-                      Brochure <MdOutlineFileDownload />
+                      Brochure <MdOutlineFileDownloadSvg/>
                     </button>
 
                     {course.link ? (
@@ -308,7 +308,7 @@ const NewCourse = ({
                 setPopups(true);
               }}
             >
-              Brochure <MdOutlineFileDownload />
+              Brochure <MdOutlineFileDownloadSvg />
             </button>
 
             {masterCourse.link ? (

@@ -12,12 +12,11 @@
   "dependencies": {
     "@next/bundle-analyzer": "^14.2.5",
     "@next/third-parties": "^14.0.2",
-    "@typeform/embed-react": "^3.8.0",
     "aws-sdk": "^2.1504.0",
     "aws4": "^1.13.1",
-    "axios": "^1.6.7",
+
     "dotenv": "^16.3.1",
-    "framer-motion": "^11.0.6",
+
     "fs": "^0.0.1-security",
     "js-cookie": "^3.0.5",
     "latest": "^0.2.0",
@@ -36,9 +35,7 @@
     "react-phone-input-2": "^2.15.1",
     "react-player": "^2.14.1",
     "react-responsive": "^10.0.0",
-    "react-slick": "^0.30.2",
-    "rsuite": "^5.53.2",
-    "sass": "^1.77.8",
+
     "sharp": "^0.32.6",
     "shortid": "^2.2.16",
     "slick-carousel": "^1.8.1",

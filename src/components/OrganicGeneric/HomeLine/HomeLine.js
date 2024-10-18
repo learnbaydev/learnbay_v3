@@ -2,7 +2,6 @@ import styles from "./HomeLine.module.css";
 import React from "react";
 import Image from "next/image";
 import { AiOutlineRise } from "react-icons/ai";
-import { BiBriefcase } from "react-icons/bi";
 import { FaAward } from "react-icons/fa";
 
 const HomeLine = ({ Emi }) => {
@@ -15,7 +14,7 @@ const HomeLine = ({ Emi }) => {
         </div>
         <hr className={styles.hr} />
         <div className={styles.middle}>
-          <BiBriefcase style={{ color: "#0072bc", fontSize: "40px" }} />
+          {/* <BiBriefcase style={{ color: "#0072bc", fontSize: "40px" }} /> */}
           <p>300+ hiring partners</p>
         </div>
         <hr className={styles.hr} />

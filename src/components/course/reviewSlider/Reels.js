@@ -9,11 +9,8 @@ import { Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 
-import {
-  MdOutlineKeyboardArrowLeft,
-  MdOutlineKeyboardArrowRight,
-} from "react-icons/md";
 import Image from "next/image";
+import { MdOutlineKeyboardArrowLeftSvg, MdOutlineKeyboardArrowRightSvg } from "@/Data/svgData/MDIcons";
 
 const Reels = () => {
   const reelswiperRef = useRef(null);
@@ -55,7 +52,7 @@ const Reels = () => {
 
         <div className={styles.mainContiner}>
           <div className={styles.prevBtn} onClick={prevreelSlide}>
-            <MdOutlineKeyboardArrowLeft />
+            <MdOutlineKeyboardArrowLeftSvg />
           </div>
           <Swiper
             onSwiper={(swiper) => {
@@ -111,7 +108,7 @@ const Reels = () => {
             ))}
           </Swiper>
           <div className={styles.nextBtn} onClick={nextreelSlide}>
-            <MdOutlineKeyboardArrowRight />
+            <MdOutlineKeyboardArrowRightSvg />
           </div>
         </div>
       </div>

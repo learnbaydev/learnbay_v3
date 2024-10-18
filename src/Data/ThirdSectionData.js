@@ -1,8 +1,9 @@
-import { MdOutlinePrecisionManufacturing } from "react-icons/md";
+
 import { FaClinicMedical } from "react-icons/fa";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { BsBank } from "react-icons/bs";
 import { FaUsers } from "react-icons/fa";
+import { MdOutlinePrecisionManufacturingSvg } from "./svgData/MDIcons";
 
 
 
@@ -36,7 +37,7 @@ export const ThirdSectionData = [
   },
   {
     id: 1,
-    icon: <MdOutlinePrecisionManufacturing />,
+    icon: <MdOutlinePrecisionManufacturingSvg />,
     heading: "Manufacturing",
     para: "For production manager, quality control inspector and engineers.",
     brochureLink:

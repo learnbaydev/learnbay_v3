@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import styles from "./BoxShape.module.css";
-import { MdOutlineLiveTv } from "react-icons/md";
 import { BsGraphUp } from "react-icons/bs";
 import Image from "next/image";
 import { HomeBoxData } from "./BoxShapeData";
@@ -14,7 +13,7 @@ const BoxShape = () => {
         onMouseLeave={() => setHover(false)}
       >
         <div className={styles.imgBack}>
-          <MdOutlineLiveTv className={styles.boxIcon} />
+          {/* <MdOutlineLiveTv className={styles.boxIcon} /> */}
         </div>
         <h5>{HomeBoxData[0].title}</h5>
         <p>{HomeBoxData[0].desc}</p>

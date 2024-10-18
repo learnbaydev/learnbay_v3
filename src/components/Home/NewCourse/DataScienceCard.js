@@ -5,10 +5,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css'; // Import Swiper styles
 import { Navigation, Pagination } from 'swiper'; // Import modules for Swiper
 import Image from 'next/image';
-import { MdOutlineFileDownload } from 'react-icons/md';
 import Form from '@/components/Global/Form/Form';
 import Popup from '@/components/Global/Popup/Popup';
 import Link from 'next/link'; // Import Link for navigation
+import { MdOutlineFileDownloadSvg } from '@/Data/svgData/MDIcons';
 
 const DataScienceCard = ({
   dataScience,
@@ -105,7 +105,7 @@ const DataScienceCard = ({
                       popupShow();
                     }}
                   >
-                    Brochure <MdOutlineFileDownload />
+                    Brochure <MdOutlineFileDownloadSvg />
                   </button>
                   {course.link ? (
                     <Link href={course.link} passHref>
@@ -185,7 +185,7 @@ const DataScienceCard = ({
                     popupShow();
                   }}
                 >
-                  Brochure <MdOutlineFileDownload />
+                  Brochure <MdOutlineFileDownloadSvg/>
                 </button>
                 {course.link ? (
                   <Link href={course.link} passHref>

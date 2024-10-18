@@ -12,7 +12,7 @@ import {
   FaUserShield,
 } from "react-icons/fa";
 
-import { MdOutlinePrecisionManufacturing } from "react-icons/md";
+
 
 import { BsTruck } from "react-icons/bs";
 import VideoPopup from "../../Global/VideoPopup/VideoPopup";
@@ -23,6 +23,7 @@ import "swiper/css/free-mode";
 import "swiper/css/scrollbar";
 import Button from "../../Global/Button/Button";
 import { IoRocketOutline } from "@/Data/svgData/Io5";
+import { MdOutlinePrecisionManufacturingSvg } from "@/Data/svgData/MDIcons";
 
 function WhyLearnbay({ idss, NoGuwahati }) {
   const [domainSpec, setDomainSpec] = useState(false);
@@ -166,7 +167,7 @@ function WhyLearnbay({ idss, NoGuwahati }) {
                         width={40}
                         height={40}
                       /> */}
-                      <MdOutlinePrecisionManufacturing
+                      <MdOutlinePrecisionManufacturingSvg
                         className={Styles.domainicon}
                       />
                       <p>MANUFACTURING</p>
@@ -232,7 +233,7 @@ function WhyLearnbay({ idss, NoGuwahati }) {
                         width={40}
                         height={40}
                       /> */}
-                      <MdOutlinePrecisionManufacturing
+                      <MdOutlinePrecisionManufacturingSvg
                         className={Styles.domainicon}
                       />
                       <p>MANUFACTURING</p>

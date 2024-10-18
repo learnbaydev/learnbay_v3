@@ -36,13 +36,14 @@ import( "../../MastersCourse/JobAbroad/JobAbroad"
 )
 );
 
-import { PiInfinity } from "react-icons/pi";
+
 import { BsPersonGear } from "react-icons/bs";
 import { BsDisplay } from "react-icons/bs";
 import { AiOutlineContainer } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsPeople } from "react-icons/bs";
 import { TbCloudComputing } from "@/Data/svgData/TbIcons";
+import { PiInfinitySvg } from "@/Data/svgData/PiIcons";
 
 const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
   const seconddata = [
@@ -68,7 +69,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
         role: "Cloud Engineer",
         salary: "12.5 LPA",
       },
-      { icon: <PiInfinity />, role: "DevOps Engineer", salary: "7.6 LPA" },
+      { icon: <PiInfinitySvg />, role: "DevOps Engineer", salary: "7.6 LPA" },
       { icon: <BsPersonGear />, role: "Solutions Architect", salary: "27 LPA" },
     ],
     image3:

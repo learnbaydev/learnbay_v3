@@ -13,7 +13,7 @@ import {
   FaUserShield,
 } from "react-icons/fa";
 
-import { MdOutlinePrecisionManufacturing } from "react-icons/md";
+
 import VideoPopup from "../../Global/VideoPopup/VideoPopup";
 import Styles from "./WhyLearnbay.module.css";
 import { IoRocketOutline } from "@/Data/svgData/Io5";
@@ -241,9 +241,9 @@ function WhyLearnbay({
                       <p>SUPPLY CHAIN</p>
                     </div>
                     <div className={Styles.BoxIconinner}>
-                      <MdOutlinePrecisionManufacturing
+                      {/* <MdOutlinePrecisionManufacturing
                         className={Styles.domainicon}
-                      />
+                      /> */}
                       <p>MANUFACTURING</p>
                     </div>
                   </div>
@@ -277,9 +277,9 @@ function WhyLearnbay({
                       <p>SUPPLYCHAIN</p>
                     </div>
                     <div className={Styles.BoxIconinner}>
-                      <MdOutlinePrecisionManufacturing
+                      {/* <MdOutlinePrecisionManufacturing
                         className={Styles.domainicon}
-                      />
+                      /> */}
                       <p>MANUFACTURING</p>
                     </div>
                     <div className={Styles.BoxIconinner}>

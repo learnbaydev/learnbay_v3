@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
-import { IoLogoWhatsapp } from "react-icons/io";
 import Link from "next/dist/client/link";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
+import { IoLogoWhatsappSvg } from "@/Data/svgData/IoIcons";
 
 const BottomBar = ({
   whatsappShow,
@@ -52,7 +52,7 @@ const BottomBar = ({
       {whatsappShow ? (
         <div className="flDivRight">
           <Link href="https://wa.me/+917349222263">Chat with us </Link>
-          <IoLogoWhatsapp className="bIcon" style={{ color: "Green" }} />
+          <IoLogoWhatsappSvg className="bIcon" style={{ color: "Green" }} />
         </div>
       ) : (
         ""

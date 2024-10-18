@@ -1,4 +1,4 @@
-import { PopupButton } from "@typeform/embed-react";
+
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import styles from "./Survey.module.css";

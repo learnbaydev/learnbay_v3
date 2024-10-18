@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./PlacementCall.module.css";
-import { PiCertificate } from "react-icons/pi";
 import { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper";

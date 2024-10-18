@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import styles from "./Accordion.module.css"; // Import your CSS module
-import { MdArrowDropDown } from "react-icons/md";
+
 import Image from "next/image";
 import Link from "next/link";
+import { Menudown } from "@/Data/svgData/MDIcons";
 
 const Accordion = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -673,7 +674,7 @@ const Accordion = () => {
                 onClick={() => toggleAccordion(index)}
               >
                 {section.title}
-                <MdArrowDropDown />
+                <Menudown />
               </button>
               <div
                 className={`${styles.accordionContent} ${

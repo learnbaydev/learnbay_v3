@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import styles from "./SeventhSection.module.css";
 import { AiOutlineWhatsApp } from "react-icons/ai";
-import { MdCall } from "react-icons/md";
 import Image from "next/image";
 import Button from "../../Global/Button/Button";
+import { MdCallSvg } from "@/Data/svgData/MDIcons";
 
 function SeventhSection({ fullStackCont }) {
   const [mobile, setMobile] = useState(false);
@@ -56,7 +56,7 @@ function SeventhSection({ fullStackCont }) {
               <a href="tel: +919731135221">
                 <Button
                   text="+91 97311 35221"
-                  passIcon={<MdCall />}
+                  passIcon={<MdCallSvg />}
                   outline={true}
                   invert
                 />
@@ -76,7 +76,7 @@ function SeventhSection({ fullStackCont }) {
               <a href="tel: +917795687988">
                 <Button
                   text="+917795687988"
-                  passIcon={<MdCall />}
+                  passIcon={<MdCallSvg />}
                   outline={true}
                   invert
                 />

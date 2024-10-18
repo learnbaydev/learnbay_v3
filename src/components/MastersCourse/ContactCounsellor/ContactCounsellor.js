@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import styles from "../ContactCounsellor/ContactCounsellor.module.css";
-import { MdOutlineWhatsapp } from "react-icons/md";
+
 import { AiOutlineMail } from "react-icons/ai";
 import Image from "next/image";
 import Popup from "../../Global/Popup/Popup";
 import Form from "../../Global/Form/Form";
+import { MdOutlineWhatsappSvg } from "@/Data/svgData/MDIcons";
 
 const ContactCounsellor = ({ dataScience, dataScienceCounselling }) => {
   const [popups, setPopups] = useState(false);
@@ -59,7 +60,7 @@ const ContactCounsellor = ({ dataScience, dataScienceCounselling }) => {
             onClick={() => window.open("https://wa.me/+917795687988", "_blank")}
             className={styles.inf}
           >
-            <MdOutlineWhatsapp className={styles.conicon} />
+            <MdOutlineWhatsappSvg className={styles.conicon} />
             (+91) 77956 87988
           </button>
           <button onClick={sendEmail} className={styles.inf}>

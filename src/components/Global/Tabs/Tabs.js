@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { IoIosArrowForward } from "react-icons/io";
+
 import { TabData } from "./TabData";
 import styles from "./Tabs.module.css";
 

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import axios from "axios";
 import styles from "./EnrollPage.module.css";
 import { FaRegCheckCircle } from "react-icons/fa";
 import Image from "next/image";
@@ -29,7 +28,8 @@ const EnrollPopup = ({
     setSelectedTime(e.target.value);
   };
 
-  const handleFormSubmit = () => {
+  // Using fetch instead of axios to submit the form data
+  const handleFormSubmit = async () => {
     setSubmittingForm(true);
     const formData = {
       date: selectedDate,
@@ -44,22 +44,32 @@ const EnrollPopup = ({
       url: router.asPath,
     };
 
-    axios
-      .post(
+    try {
+      const response = await fetch(
         "https://getform.io/f/df003555-86c7-4ae5-a7f8-98c21dd9ad92",
-        formData
-      )
-      .then((response) => {
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
+
+      if (response.ok) {
         console.log("Form submitted successfully to external endpoint!");
-        router.push(`/loan-process?course=${selectedProduct.name}&amount=${totalPrice}&date=${selectedDate}&time=${selectedTime}`);
-      })
-      .catch((error) => {
-        console.error("Error submitting form:", error);
-      })
-      .finally(() => {
+        router.push(
+          `/loan-process?course=${selectedProduct.name}&amount=${totalPrice}&date=${selectedDate}&time=${selectedTime}`
+        );
         setFormSubmitted(true);
-        setSubmittingForm(false);
-      });
+      } else {
+        console.error("Error submitting form:", response.statusText);
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+    } finally {
+      setSubmittingForm(false);
+    }
   };
 
   return (
@@ -108,7 +118,9 @@ const EnrollPopup = ({
           </div>
           <div>
             <form>
-          <p className={styles.LabelPopup}>Select a slot for our finance team to contact you.</p>
+              <p className={styles.LabelPopup}>
+                Select a slot for our finance team to contact you.
+              </p>
               <div className={styles.divFlexPopup}>
                 <div className={styles.formGroupPopup}>
                   <label className={styles.LabelPopup}>Date</label>
@@ -116,7 +128,7 @@ const EnrollPopup = ({
                     className={styles.formControlPopup}
                     type="date"
                     value={selectedDate}
-                    required={true}
+                    required
                     onChange={handleDateChange}
                   />
                 </div>
@@ -127,7 +139,7 @@ const EnrollPopup = ({
                     type="time"
                     value={selectedTime}
                     onChange={handleTimeChange}
-                    required={true}
+                    required
                   />
                 </div>
                 <input
@@ -145,16 +157,11 @@ const EnrollPopup = ({
                 <button
                   type="button"
                   onClick={() => {
-                    console.log("Checking if fields are empty...");
                     if (!selectedTime || !selectedDate || submittingForm) {
-                      console.log("Fields are empty. Showing alert...");
                       alert("Please fill in all the required fields.");
                       return;
                     }
                     setSubmittingForm(true);
-                    console.log(
-                      "Fields are filled. Proceeding with checkout..."
-                    );
                     handleFormSubmit();
                   }}
                   className={`${styles.button} ${

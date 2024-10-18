@@ -1,10 +1,8 @@
 import { FaUserGraduate, FaArrowUp } from "react-icons/fa";
 
-import {
-  MdOutlineCastForEducation,
-  MdOutlineWorkOutline,
-} from "react-icons/md";
+
 import Styles from "./WhoIsProgram.module.css";
+import { MdOutlineCastForEducationSvg, MdOutlineWorkOutlineSvg } from "@/Data/svgData/MDIcons";
 
 function WhoIsProgram({ first, second, third, forth }) {
   return (
@@ -13,14 +11,14 @@ function WhoIsProgram({ first, second, third, forth }) {
       <div className={Styles.BoxDiv}>
         <div className={Styles.InnerBox}>
           <div className={Styles.imgBox}>
-            <MdOutlineCastForEducation className={Styles.icon} />
+            <MdOutlineCastForEducationSvg className={Styles.icon} />
             <p className={Styles.BgCont1}>Education</p>
           </div>
           <p className={Styles.BoxCont}>{first}</p>
         </div>
         <div className={Styles.InnerBox}>
           <div className={Styles.imgBox}>
-            <MdOutlineWorkOutline className={Styles.icon} />
+            <MdOutlineWorkOutlineSvg className={Styles.icon} />
             <p className={Styles.BgCont2}>Work Exp.</p>
           </div>
           <p className={Styles.BoxCont}>{second}</p>

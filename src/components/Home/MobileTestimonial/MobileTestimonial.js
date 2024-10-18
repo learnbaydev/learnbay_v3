@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Styles from "./MobileTestimonial.module.css";
 import Image from "next/image";
-import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import Button from "@/components/Global/Button/Button";
 import Form from "@/components/Global/Form/Form";
 import Popup from "@/components/Global/Popup/Popup";
+import { MdOutlineKeyboardArrowLeftSvg, MdOutlineKeyboardArrowRightSvg } from "@/Data/svgData/MDIcons";
 
 const testimonials = [
   {
@@ -315,7 +315,7 @@ function MobileTestimonial({dataScienceGeneric, dataScienceCounselling, radio, i
             <div className={Styles.leftSlide}>
               <div onClick={handlePrevClick}>
                 {" "}
-                <IoIosArrowBack className={Styles.icons} />{" "}
+                <MdOutlineKeyboardArrowLeftSvg className={Styles.icons} />{" "}
               </div>
               <div className={Styles.sliderUser} style={{ transform: calculateTransform() }}>
                 {testimonials.map((testimonial, index) => (
@@ -342,7 +342,8 @@ function MobileTestimonial({dataScienceGeneric, dataScienceCounselling, radio, i
                 ))}
               </div>
               <div onClick={handleNextClick}>
-                <IoIosArrowForward className={Styles.icons} />
+
+              <MdOutlineKeyboardArrowRightSvg className={Styles.icons} />
               </div>
             </div>
           </div>

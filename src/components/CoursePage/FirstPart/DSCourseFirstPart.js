@@ -1,73 +1,33 @@
 import { ThirdSectionData } from "@/Data/ThirdSectionData";
 import dynamic from "next/dynamic";
 import React from "react";
-const SecondNavbar = dynamic(() =>
-  import("../../../components/CoursePage/SecondNavbar/SecondNavbar")
-);
-const WhoProgram = dynamic(() =>
-  import("../../../components/CoursePage/WhoProgram/ThirdSection")
-);
+
+
 const TrainerSection = dynamic(() =>
   import("../../../components/Global/TrainerSection/TrainerSection")
 );
-const Testimonial = dynamic(() =>
-  import("../../../components/Global/Testimonial/Testimonial")
-);
-const WhoIsProgram = dynamic(() =>
-  import("../../CoursePage/WhoIsProgram/WhoIsProgram")
-);
-const WhyLearnbay = dynamic(() =>
-  import("../../CoursePage/WhyLearnbay/WhyLearnbay")
-);
-const GetHire = dynamic(() => import("../../Home/GetHire/GetHire"));
-const ContactConsellor = dynamic(() =>
-  import("../../CoursePage/ContactCounsellor/ContactCounsellor")
-);
-const CloudDevopsecond = dynamic(() =>
-  import(
-    "../../CoursePage/cloud&devops/DevOpsSecondSection/DevOpsSecondSection"
-  )
-);
-import styles from "../../../styles/Home.module.css"
-import { DataScienceCourseData } from "../../../Data/DataScinceCourseOnly";
 
-import FAQNew from "../FAQNew/FAQNew";
+
+const GetHire = dynamic(() => import("../../Home/GetHire/GetHire"));
+
+
+
+
+
+
 const FirstSection = dynamic(() =>
   import("../../CoursePage/FirstSection/FirstSection")
 );
 
-const MasterSecondSection = dynamic(() =>
-  import("../../MastersCourse/MasterSecondSection/MasterSecondSection")
-);
-const CitiesRight = dynamic(() =>
-  import("../../Seo/CitiesRight/CitiesRight")
-);
-const CitiesLeft = dynamic(()=>
-import ("../../Seo/CitiesLeft/CitiesLeft"));
+
 const Course = dynamic(() => import("../../Home/Course/DSCourse"));
 const Realstory = dynamic(() => import("../../Home/Realstory/Realstory"));
 
-import { AiOutlineContainer } from "react-icons/ai";
-import { BsDisplay, BsPeople, BsPersonGear } from "react-icons/bs";
-import { FaLinkedinIn, FaReact } from "react-icons/fa";
-import Dropdown from "@/components/Seo/DropDownContent/Accordion";
+
+
 import Accordion from "@/components/Seo/DropDownContent/Accordion";
-const FirstPart = ({ SecondSectionData, TestimonialData,  }) => {
-  const seconddata = [
-    {
-      boldText: "IBM",
-      normalText: "Certified Capstone",
-      imageUrl:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp",
-    },
-    {
-      CboldText: "175%",
-      normalText: "Average Salary Hike",
-      imageUrl:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp",
-    },
-    { boldText: "35K+", normalText: "Trusted Learners" },
-  ];
+const FirstPart = () => {
+
   
 
   return (

@@ -1,12 +1,12 @@
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
-import { BiTimeFive } from "react-icons/bi";
 import { FaArrowRight, FaDownload } from "react-icons/fa";
 
-import { MdCurrencyRupee } from "react-icons/md";
 import styles from "./ThirdSection.module.css";
 import { IoRocketOutline } from "@/Data/svgData/Io5";
+import { MdCurrencyRupeeSvg } from "@/Data/svgData/MDIcons";
+import { Clocktimefiveoutline } from "@/Data/svgData/BiIcons";
 const Button = dynamic(() => import("../../../Global/Button/Button"));
 
 function ThirdSection() {
@@ -89,7 +89,7 @@ function ThirdSection() {
           </div>
           <div className={styles.boxInneer}>
             <p className={styles.pCont}>
-              <BiTimeFive className={styles.checkCircle} />
+              <Clocktimefiveoutline className={styles.checkCircle} />
               500 + hours content | 13-15 months
             </p>
             <p className={styles.pCont}>
@@ -100,7 +100,7 @@ function ThirdSection() {
               12 Advance + 4 Capstone
             </p>
             <p className={styles.pCont}>
-              <MdCurrencyRupee className={styles.checkCircle} />
+              <MdCurrencyRupeeSvg className={styles.checkCircle} />
               Course Fee : ₹ 1,29,000 | No cost EMI
             </p>
           </div>
@@ -127,7 +127,7 @@ function ThirdSection() {
           </div>
           <div className={styles.boxInneer}>
             <p className={styles.pCont}>
-              <BiTimeFive className={styles.checkCircle} />
+              <Clocktimefiveoutline className={styles.checkCircle} />
               500 + hours content | 13-15 months
             </p>
             <p className={styles.pCont}>
@@ -138,7 +138,7 @@ function ThirdSection() {
               12 Advance + 4 Capstone
             </p>
             <p className={styles.pCont}>
-              <MdCurrencyRupee className={styles.checkCircle} />
+              <MdCurrencyRupeeSvg className={styles.checkCircle} />
               Course Fee : ₹ 1,29,000 | No cost EMI
             </p>
           </div>
@@ -165,7 +165,7 @@ function ThirdSection() {
           </div>
           <div className={styles.boxInneer}>
             <p className={styles.pCont}>
-              <BiTimeFive className={styles.checkCircle} />
+              <Clocktimefiveoutline className={styles.checkCircle} />
               500 + hours content | 13-15 months
             </p>
             <p className={styles.pCont}>
@@ -176,7 +176,7 @@ function ThirdSection() {
               12 Advance + 4 Capstone
             </p>
             <p className={styles.pCont}>
-              <MdCurrencyRupee className={styles.checkCircle} />
+              <MdCurrencyRupeeSvg className={styles.checkCircle} />
               Course Fee : ₹ 1,29,000 | No cost EMI
             </p>
           </div>

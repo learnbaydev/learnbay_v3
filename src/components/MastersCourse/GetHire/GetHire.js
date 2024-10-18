@@ -1,7 +1,8 @@
 import React from "react";
 import Styles from "./Gethire.module.css";
 import Image from "next/image";
-import { FcCheckmark } from "react-icons/fc";
+import { FcCheckmarkSvg } from "@/Data/svgData/FcIcons";
+
 
 function GetHire() {
   return (
@@ -17,27 +18,27 @@ function GetHire() {
               <div className={Styles.minibullet}>
                 <div className={Styles.Points}>
                   <span>
-                    <FcCheckmark />
+                    <FcCheckmarkSvg/>
                   </span>
                   <p>1:1 Doubt Sessions</p>
                 </div>
 
                 <div className={Styles.Points}>
                   <span>
-                    <FcCheckmark />
+                    <FcCheckmarkSvg />
                   </span>
                   <p>Interview Prep.</p>
                 </div>
 
                 <div className={Styles.Points}>
                   <span>
-                    <FcCheckmark />
+                    <FcCheckmarkSvg />
                   </span>
                   <p>Resume BuildUp</p>
                 </div>
                 <div className={Styles.Points}>
                   <span>
-                    <FcCheckmark />
+                    <FcCheckmarkSvg />
                   </span>
                   <p>3 Years Flexible Sub.</p>
                 </div>

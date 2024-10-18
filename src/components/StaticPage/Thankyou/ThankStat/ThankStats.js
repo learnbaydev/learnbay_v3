@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import styles from "./ThankStats.module.css";
 import { BsCheck } from "react-icons/bs";
-import { PopupButton } from "@typeform/embed-react";
 const ThankStats = ({
   img1,
   heading,

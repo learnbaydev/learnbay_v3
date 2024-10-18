@@ -4,7 +4,6 @@ import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 // import styles from "./Course.module.css";
 import dynamic from "next/dynamic";
-import { BiTimeFive } from "react-icons/bi";
 import { BsCheckLg } from "react-icons/bs";
 import { FaDownload } from "react-icons/fa";
 import "swiper/css";
@@ -12,6 +11,7 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import styles from "./CourseDmd.module.css";
 import { courseDetails, courseDetailsM } from "./DSCourseDetails";
+import { Clocktimefiveoutline } from "@/Data/svgData/BiIcons";
 const Popup = dynamic(() => import("@/components/Global/Popup/Popup"));
 const Form = dynamic(() => import("@/components/Global/Form/Form"));
 
@@ -262,7 +262,7 @@ const Course = ({
                                           {/* <hr className={styles.hr} /> */}
                                           <div className={styles.paraDiv}>
                                             <p className={styles.singleP}>
-                                              <BiTimeFive
+                                              <Clocktimefiveoutline
                                                 className={styles.checkCircle}
                                               />
                                               {/* <IoTimeOutline

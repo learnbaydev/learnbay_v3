@@ -3,7 +3,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import styles from "./SliderTab.module.css";
 import Image from "next/image";
-import { BiDownArrowAlt, BiUpArrowAlt } from "react-icons/bi";
+import { Arrowdown, Arrowupthin } from "@/Data/svgData/BiIcons";
 
 const SliderTabs = () => {
   const [viewAll, setViewAll] = useState(false);
@@ -58,7 +58,7 @@ const SliderTabs = () => {
             className={oneYear ? styles.ActiveSpan : styles.span}
           >
             BFSI
-            {mobile ? oneYear ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""}
+            {mobile ? oneYear ? <Arrowupthin /> : <Arrowdown/> : ""}
           </span>
           {oneYear ? (
             <div className={styles.gridPanel}>
@@ -107,7 +107,7 @@ const SliderTabs = () => {
             className={nonTech ? styles.ActiveSpan : styles.span}
           >
             Sales, Marketing & HR
-            {mobile ? nonTech ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""}
+            {mobile ? nonTech ? <Arrowupthin /> : <Arrowdown/> : ""}
           </span>
           {nonTech ? (
             <div className={styles.gridPanel}>
@@ -155,7 +155,7 @@ const SliderTabs = () => {
             className={Stack ? styles.ActiveSpan : styles.span}
           >
             Healthcare
-            {mobile ? Stack ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""}
+            {mobile ? Stack ? <Arrowupthin /> : <Arrowdown/> : ""}
           </span>
           {Stack ? (
             <div className={styles.gridPanel}>
@@ -207,7 +207,7 @@ const SliderTabs = () => {
             className={Retail ? styles.ActiveSpan : styles.span}
           >
             Retail & E-commerce
-            {mobile ? Retail ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""}
+            {mobile ? Retail ? <Arrowupthin /> : <Arrowdown/> : ""}
           </span>
           {Retail ? (
             <div className={styles.gridPanel}>
@@ -259,7 +259,7 @@ const SliderTabs = () => {
             className={Guarantee ? styles.ActiveSpan : styles.span}
           >
             Media and Hospitality
-            {mobile ? Guarantee ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""}
+            {mobile ? Guarantee ? <Arrowupthin /> : <Arrowdown/> : ""}
           </span>
           {Guarantee ? (
             <div className={styles.gridPanel}>
@@ -309,7 +309,7 @@ const SliderTabs = () => {
             className={viewAll ? styles.ActiveSpan : styles.span}
           >
             Manufacturing
-            {mobile ? viewAll ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""}
+            {mobile ? viewAll ? <Arrowupthin /> : <Arrowdown/> : ""}
           </span>
           {viewAll ? (
             <div className={styles.gridPanel}>
@@ -362,7 +362,7 @@ const SliderTabs = () => {
             className={Oil ? styles.ActiveSpan : styles.span}
           >
             Energy, Oil & Gas
-            {mobile ? Oil ? <BiUpArrowAlt /> : <BiDownArrowAlt /> : ""}
+            {mobile ? Oil ? <Arrowupthin /> : <Arrowdown/> : ""}
           </span>
           {Oil ? (
             <div className={styles.gridPanel}>

@@ -2,8 +2,9 @@ import dynamic from "next/dynamic";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { BsCheckCircle } from "react-icons/bs";
-import { IoIosArrowForward } from "react-icons/io";
+
 import styles from "./SliderTab.module.css";
+import { IoIosArrowForwardSvg } from "@/Data/svgData/IoIcons";
 
 const Form = dynamic(() => import("../../Global/Form/Form"));
 const Popup = dynamic(() => import("../../Global/Popup/Popup"));
@@ -146,7 +147,7 @@ const SliderTabs = ({
             <h4>{service.title}</h4>
           </div>
           <div>
-            <IoIosArrowForward className={styles.rightIcon} />
+            <IoIosArrowForwardSvg className={styles.rightIcon} />
           </div>
         </div>
         {index === activeService ? (
