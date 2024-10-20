@@ -20,7 +20,7 @@ const WhyChooseSection = dynamic(() =>
 );
 const Practical = dynamic(() => import("../Practical/Practical"));
 const FirstPart = ({ ProggramSectionData, summaryData }) => {
-  const pdfUrl = "/Brochure/Advanced-Data-Science.pdf";
+  const pdfUrl = "/Brochure/Advance_DSAI.pdf";
   return (
     <>
       <NavbarSection
@@ -42,7 +42,7 @@ const FirstPart = ({ ProggramSectionData, summaryData }) => {
         dataScienceCounselling={true}
         dataScience={true}
         brochurePdf={pdfUrl}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/Advance_DSAI.pdf"
         title="Advanced Data Science & AI Program with"
         orgTitle=" Domain Specialization"
         descrption="Unlock the power of data with our comprehensive program, featuring hands-on learning, real-world projects, and domain specialization in fields like BFSI, healthcare, and retail."
@@ -72,7 +72,7 @@ const FirstPart = ({ ProggramSectionData, summaryData }) => {
         rightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ryt_programImg+(2).webp"
         dataScienceCounselling={true}
         interstedInHide={true}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/Advance_DSAI.pdf"
       />
 
       <OutcomeSection />

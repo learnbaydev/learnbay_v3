@@ -34,9 +34,13 @@ function HeroSectionMaster({
   BotHeight,
 }) {
   const [popups, setPopups] = useState(false);
+  const [popupType, setPopupType] = useState(""); // New state for popup type
   const [isMobile, setIsMobile] = useState(false); // Track mobile view
 
-  const popupShow = () => setPopups(true);
+  const showPopup = (type) => {
+    setPopupType(type); // Set the type of the popup
+    setPopups(true); // Show the popup
+  };
 
   // Check if the screen is mobile on initial load and on resize
   useEffect(() => {
@@ -52,8 +56,13 @@ function HeroSectionMaster({
       <PopupContent
         popups={popups}
         setPopups={setPopups}
-        heading="Download Syllabus"
-        downloadBrochure
+        heading={
+          popupType === "download"
+            ? "Download Brochure"
+            : "Apply for Counselling"
+        }
+        downloadBrochure={popupType === "download"}
+        applyForCounselling={popupType === "counselling"} // Use this prop to show the counselling form
         dataScience={true}
         interstedInHide={interstedInHide}
         brochureLink={brochureLink}
@@ -86,13 +95,11 @@ function HeroSectionMaster({
               </div>
               <h1>
                 Data Science and AI
-                <span className={styles.spanMaster}>
-                  {" "}
-                  Master Certification Program
-                </span>
+                <span className={styles.spanMaster}> Master Certification </span>
+                  Program
               </h1>
               <div className={styles.points}>
-                <div>
+                <div className={styles.item1}>
                   <span>Program Eligibility </span>
                   <p>Min 1 year in tech</p>
                 </div>
@@ -102,7 +109,6 @@ function HeroSectionMaster({
                   <p>90%</p>
                 </div>
                 <hr className={styles.hrOne} />
-
                 <div>
                   <span>Hours of learning </span>
                   <p>300+</p>
@@ -110,13 +116,15 @@ function HeroSectionMaster({
               </div>
 
               <div className={styles.btnDiv}>
-                <div onClick={popupShow} className={styles.btn}>
-                  {" "}
-                  <Button text=" Download Syllabus" grayButton />
+                <div
+                  onClick={() => showPopup("download")}
+                  className={styles.btn}
+                >
+                  <Button text="Download Brochure" grayButton />
                 </div>
-                <div onClick={popupShow}>
+                <div onClick={() => showPopup("counselling")}>
                   <Button
-                    text="Start My Application"
+                    text="Apply for Counselling"
                     OrangeButton={OrangeButton}
                     purpleButton={purpleButton}
                   />
@@ -138,27 +146,24 @@ function HeroSectionMaster({
               {/* Mobile-only button */}
               {isMobile && (
                 <div className={styles.btnDivM}>
-                 <div     className={styles.btn}      onClick={popupShow}>
-                 <Button
-                    text="Download Syllabus"
-                    grayButton
-                    onClick={popupShow}
-                  />
+                  <div
+                    className={styles.btn}
+                    onClick={() => showPopup("download")}
+                  >
+                    <Button text="Download Brochure" grayButton />
                   </div>
-                 <div           onClick={popupShow}>
-                 <Button
-                    text="Start my Application"
-                    purpleButton={purpleButton}
-                    OrangeButton={OrangeButton}
-          
-                  />
+                  <div onClick={() => showPopup("counselling")}>
+                    <Button
+                      text="Apply for Counselling"
+                      purpleButton={purpleButton}
+                      OrangeButton={OrangeButton}
+                    />
                   </div>
                 </div>
               )}
             </div>
 
             {/* Right-side form, mobile only */}
-
             <Suspense fallback={<div>Loading Form...</div>}>
               <div className={styles.formdiv}>
                 <h3>

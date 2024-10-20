@@ -13,14 +13,16 @@ const SyllabusNew = dynamic(() =>
 const ToolsCovered = dynamic(() =>
   import("../../CoursePage/ToolsCovered/ToolsCovered")
 );
-
+const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
 const Certificate = dynamic(() =>
   import("../../MastersCourse/Certificate/Certificate")
 );
 const FeeSection = dynamic(() =>
   import("../../CoursePage/FeeSection/FeeSection")
 );
-
+const MentorsSection = dynamic(() =>
+  import("../../Global/MentorsSection/MentorsSection")
+);
 const SliderTabs = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
 const PlacementCall = dynamic(() =>
   import("../../Global/PlacementCall/PlacementCall")

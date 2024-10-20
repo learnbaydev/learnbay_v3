@@ -136,20 +136,37 @@
 .megaMenu {
   position: absolute;
 }
+
+
+/* Styles for the button inside the Navbar */
 .requestBtn {
-  display: block;
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+  align-items: center;     /* Center the button vertically */
+  padding: 0.5rem 1rem;    /* Adjust padding for button */
+  position: relative;      /* Ensure button stays in place */
+  margin: 0;               /* Remove any unwanted margin */
 }
 
 .requestBtn button {
-  border-radius: 37px;
   background: linear-gradient(90deg, #e95407 0%, #d74900 100%);
   color: #fff;
-  text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 127.182%; /* 22.893px */
   border: none;
+  border-radius: 37px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease; /* Smooth transitions */
+  outline: none;
+  position: relative; /* Fixes positioning */
+  cursor: pointer;
+}
+
+/* Add hover effect */
+.requestBtn button:hover {
+  background: #fff;
+  transform: scale(1.01); /* Slight scaling for effect */
+  border: 1px solid #e95407;
+  color: #e95407;
 }
 
 .dropdownContainer {
@@ -177,12 +194,17 @@
   align-items: center;
   color: #000; /* Customize your text color */
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 800;
 }
 
 .moreLink svg {
   margin-left: 5px;
 }
+.right span {
+font-weight: 600;
+}
+
+
 
 
 
@@ -327,6 +349,9 @@
   .mobileWrapper .mobileMenu span:hover {
     color: #fff;
     background-color: #2d9cd7;
+  }
+  .left img {
+    height: auto;
   }
 }
 

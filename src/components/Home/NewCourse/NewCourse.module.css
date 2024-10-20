@@ -167,7 +167,7 @@ align-items: center;
   background: #FE7A36;
   color: #fff;
   color: #fff;
-  font-size: 16px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 400;
   line-height: 155%; /* 34.1px */
@@ -389,7 +389,8 @@ line-height: 155%; /* 34.1px */
     justify-content: center;
   }
   .MasterCard {
-    width: 1180px;
+    max-width: 100%;
+  
   }
   .bgImageMaster {
     width: 100%;
@@ -552,6 +553,7 @@ line-height: 155%; /* 34.1px */
   }
   .cardContent {
     padding: 20px 30px;
+    margin-bottom: 40px;
   }
 
   .buttons button {
@@ -613,7 +615,7 @@ line-height: 155%; /* 34.1px */
   }
   .absloute {
     top: 148px;
-    left: 11px;
+    left: 30px;
   }
   .absloute h4 {
     color: #7a7a7a;
@@ -671,6 +673,9 @@ line-height: 155%; /* 34.1px */
   
   .expanded .accordionContent {
     display: block;
+  }
+  .lists span{
+font-size: 16px;
   }
   
 }

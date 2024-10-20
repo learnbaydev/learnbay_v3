@@ -3,7 +3,7 @@ import styles from "./FirstSection.module.css";
 import Image from "next/image";
 import { useMediaQuery } from "react-responsive";
 
-function HeroSection({ setPopups, setVideo, btnHide }) {
+function HeroSection({ setPopups, }) {
   const popupShow = () => {
     setPopups(true);
   };

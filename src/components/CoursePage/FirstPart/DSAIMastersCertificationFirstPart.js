@@ -32,7 +32,7 @@ const AnimationNew = dynamic(() =>
   import("@/components/Home/whyChooseSection/AnimationNew")
 );
 const FirstPart = ({ ProggramSectionData, summaryData, upskillData, upskillingData }) => {
-  const pdfUrl = "/Brochure/AI-Master-Certification.pdf";
+  const pdfUrl = "/Brochure/DSAI_Master.pdf";
   return (
     <>
       <NavbarSection
@@ -52,7 +52,7 @@ const FirstPart = ({ ProggramSectionData, summaryData, upskillData, upskillingDa
         dataScienceCounselling={true}
         dataScience={true}
         brochurePdf={pdfUrl}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/DSAI_Master.pdf"
         noIIt={true}
         applicationIcon="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_Bots.webp"
         ProgramIcon="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_Cal_bots.webp"
@@ -77,7 +77,7 @@ const FirstPart = ({ ProggramSectionData, summaryData, upskillData, upskillingDa
         ProggramSectionData={ProggramSectionData}
         dataScienceCounselling={true}
         interstedInHide={true}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/DSAI_Master.pdf"
       />
 
       <OutcomeSection />

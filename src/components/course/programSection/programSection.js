@@ -10,6 +10,10 @@ const ProgramSection = memo(({
   formProps,
   popupProps,
   popupTitle,
+  radio,
+  dataScience,
+  dataScienceCounselling,
+  interstedInHide,
 }) => {
   const [popups, setPopups] = useState(false);
   const popupShow = () => setPopups(true);
@@ -31,7 +35,16 @@ const ProgramSection = memo(({
         </div>
         <div className="RightPopup">
           <h5>{popupTitle || "Apply For Counselling"}</h5>
-          <Form {...formProps} />
+          <Form
+            popup={true}
+            setTrigger={setPopups}
+            radio={radio}
+
+            dataScience={dataScience}
+            dataScienceCounselling={dataScienceCounselling}
+            upSkillingHide={true}
+            interstedInHide={interstedInHide}
+          />
         </div>
       </Popup>
 

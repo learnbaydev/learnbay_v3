@@ -27,6 +27,7 @@ const NavbarHome = ({
   const [mobile, setMobile] = useState(false);
 
   const dropdownRef = useRef(null); // Reference for dropdown container
+  const coursesButtonRef = useRef(null); // Reference for "Courses" button
 
   const showMenu = useCallback(() => {
     setShow((prevShow) => !prevShow);
@@ -45,8 +46,13 @@ const NavbarHome = ({
   }, []);
 
   const handleClickOutside = useCallback((event) => {
-    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-      setShowMoreDropdown(false);
+    if (
+      dropdownRef.current &&
+      !dropdownRef.current.contains(event.target) &&
+      coursesButtonRef.current &&
+      !coursesButtonRef.current.contains(event.target)
+    ) {
+      setIcon(false); // Close the "Courses" dropdown when clicking outside
     }
   }, []);
 
@@ -110,16 +116,15 @@ const NavbarHome = ({
           quality={100}
           priority
           className={mobile ? styles.mobileLogo : styles.desktopLogo}
-          width={mobile ? 135 : 180}
+          width={mobile ? 160 : 180}
           height={40}
         />
 
         {/* Courses Button with Dropdown */}
         <div
-          onMouseEnter={() => setIcon(true)}
-          onMouseLeave={() => setIcon(true)}
+          ref={coursesButtonRef} // Add ref to "Courses" button
           onClick={() => {
-            setIcon(!icon);
+            setIcon((prevIcon) => !prevIcon); // Toggle the dropdown on click
             setShow(false);
           }}
           className="flexBox"
@@ -133,7 +138,10 @@ const NavbarHome = ({
 
         {/* Mega Menu */}
         {icon && (
-          <div className={styles.megaMenu} onMouseLeave={() => setIcon(false)}>
+          <div
+            className={styles.megaMenu}
+            ref={dropdownRef} // Add ref to dropdown container
+          >
             <Tabs handleIcon={handleIcon} />
           </div>
         )}
@@ -166,7 +174,6 @@ const NavbarHome = ({
                 <span
                   className={styles.moreLink}
                   onClick={toggleMoreDropdown}
-      
                 >
                   {item.name} <FaChevronDown />
                 </span>

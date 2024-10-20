@@ -33,10 +33,12 @@ function HeroSectionAI({
   BotWidth,
   BotHeight,
 }) {
-  const [popups, setPopups] = useState(false);
+  const [popupType, setPopupType] = useState(null); // Track which popup to show
   const [isMobile, setIsMobile] = useState(false); // Track mobile view
 
-  const popupShow = () => setPopups(true);
+  const popupShow = (type) => {
+    setPopupType(type);
+  };
 
   // Check if the screen is mobile on initial load and on resize
   useEffect(() => {
@@ -50,15 +52,22 @@ function HeroSectionAI({
   return (
     <section className={styles.mainBg}>
       <PopupContent
-        popups={popups}
-        setPopups={setPopups}
-        heading="Download Syllabus"
+        popups={popupType === "brochure"}
+        setPopups={() => setPopupType(null)}
         downloadBrochure
         dataScience={true}
         interstedInHide={interstedInHide}
         brochureLink={brochureLink}
         brochurePdf={brochurePdf}
         radio={radio}
+        heading="Download Brochure"
+      />
+      <PopupContent
+        popups={popupType === "counselling"}
+        setPopups={() => setPopupType(null)}
+        dataScience={true}
+        interstedInHide={interstedInHide}
+        heading="Apply For Counselling"
       />
 
       <div
@@ -104,14 +113,16 @@ function HeroSectionAI({
                 </div>
               </div>
 
-              <div className={styles.btnDiv} onClick={popupShow}>
-                <Button text="Download Syllabus" grayButton />
-                <Button
-                  text="Start My Application"
-                  OrangeButton={OrangeButton}
-                  purpleButton={purpleButton}
-                  onClick={popupShow}
-                />
+              <div className={styles.btnDiv}>
+                <div className={styles.btn} onClick={() => popupShow("brochure")}>
+                  <Button text="Download Brochure" grayButton />
+                </div>
+                <div onClick={() => popupShow("counselling")}>
+                  <Button
+                    text="Start My Application"
+                    purpleButton={purpleButton}
+                  />
+                </div>
               </div>
 
               <div className={styles.imgBot}>
@@ -129,17 +140,16 @@ function HeroSectionAI({
               {/* Mobile-only button */}
               {isMobile && (
                 <div className={styles.btnDivM}>
-                  <Button
-                    text="Download Syllabus"
-                    grayButton
-                    onClick={popupShow}
-                  />
-                  <Button
-                    text="Start My Application"
-                    purpleButton={purpleButton}
-                    OrangeButton={OrangeButton}
-                    onClick={popupShow}
-                  />
+                  <div onClick={() => popupShow("brochure")}>
+                    <Button text="Download Brochure" grayButton />
+                  </div>
+                  <div className={styles.btn} onClick={() => popupShow("counselling")}>
+                    <Button
+                      text="Start My Application"
+                      purpleButton={purpleButton}
+                      OrangeButton={OrangeButton}
+                    />
+                  </div>
                 </div>
               )}
             </div>
@@ -165,7 +175,7 @@ function HeroSectionAI({
 
       {/* Bottom Section */}
       <div className="containerWidth">
-      <div className={`${styles.botDiv} ${styles.bottomSection}`}>
+        <div className={`${styles.botDiv} ${styles.bottomSection}`}>
           <div className={styles.innerBotDiv}>
             <Image
               src={applicationIcon}

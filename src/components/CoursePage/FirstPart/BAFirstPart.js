@@ -11,7 +11,7 @@ const OutcomeSection = dynamic(() => import("@/components/course/outcomeSection/
 const AnimationNew = dynamic(() => import("@/components/Home/whyChooseSection/AnimationNew"), { ssr: false });
 
 const BusinessAnalyticsFirstPart = ({ ProggramSectionData, summaryData }) => {
-  const pdfUrl = "/Brochure/Business-Analytics-Program.pdf";
+  const pdfUrl = "/Brochure/Business_Analytics.pdf";
   return (
     <>
       {" "}
@@ -31,7 +31,7 @@ const BusinessAnalyticsFirstPart = ({ ProggramSectionData, summaryData }) => {
         dataScienceCounselling={true}
         dataScience={true}
         brochurePdf={pdfUrl}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/Business_Analytics.pdf"
         noIIt={true}
         applicationIcon="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_Bots.webp"
         ProgramIcon="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_Cal_bots.webp"
@@ -43,7 +43,7 @@ const BusinessAnalyticsFirstPart = ({ ProggramSectionData, summaryData }) => {
         TrainingBot="Training Format"
         BotWidth={70}
         BotHeight={56}
-        backgroundImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BA_BGS.webp"
+        backgroundImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/businesssss_Bg.webp"
         PointsDiv={true}
       />
       <PSummaryAD summaryData={summaryData} />
@@ -52,7 +52,10 @@ const BusinessAnalyticsFirstPart = ({ ProggramSectionData, summaryData }) => {
         ProggramSectionData={ProggramSectionData}
         dataScienceCounselling={true}
         interstedInHide={true}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
+        brochurePdf={pdfUrl}
+
+    
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/Business_Analytics.pdf"
       />
       <OutcomeSection />
       <AnimationNew />

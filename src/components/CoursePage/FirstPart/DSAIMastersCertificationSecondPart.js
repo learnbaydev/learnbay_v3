@@ -64,7 +64,7 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "/Brochure/AI-Master-Certification.pdf";
+  const pdfUrl = "/Brochure/DSAI_Master.pdf";
   return (
     <div>
 
@@ -75,7 +75,7 @@ const SecondPart = ({
         sections={sections}
         interstedInHide={true}
         brochurePdf={pdfUrl}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/DSAI_Master.pdf"
       />
       <ToolsSection />
       <CertificateSection certificateNew={certificateNew} />

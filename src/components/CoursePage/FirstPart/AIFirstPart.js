@@ -2,7 +2,14 @@ import dynamic from "next/dynamic";
 
 import PsummaryForm from "../PSummary/PsummaryForm";
 import React, { useEffect, useState } from "react";
-import HeroSectionAI from "@/components/course/heroSection/HeroSectionAI";
+const HeroSectionAI = dynamic(() => import("@/components/course/heroSection/HeroSectionAI"), {
+  ssr: false, // Disable server-side rendering if needed
+});
+
+const ReviewSlider = dynamic(() => import("@/components/course/reviewSlider/reviewSlider"), {
+  ssr: false, // Disable server-side rendering if needed
+});
+
 
 const Navbar = dynamic(() =>
   import("@/components/course/navbarSection/NavbarSection")
@@ -34,7 +41,7 @@ const AIFirstPart = ({ ProggramSectionData, summaryData }) => {
     };
   }, []);
 
-  const pdfUrl = "/Brochure/Advance-AI-ML.pdf";
+  const pdfUrl = "/Brochure/AIML.pdf";
 
   return (
     <>
@@ -46,7 +53,7 @@ const AIFirstPart = ({ ProggramSectionData, summaryData }) => {
         dataScienceCounselling={true}
         dataScience={true}
         brochurePdf={pdfUrl}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/AIML.pdf"
         noIIt={true}
         applicationIcon="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_Bots.webp"
         ProgramIcon="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_Cal_bots.webp"
@@ -75,13 +82,15 @@ const AIFirstPart = ({ ProggramSectionData, summaryData }) => {
       <Practical />
       <ProgramSection
         ProggramSectionData={ProggramSectionData}
-        dataScienceCounselling={true}
         interstedInHide={true}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
+        dataScienceCounselling={true}
+        dataScience={true}
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/AIML.pdf"
       />
 
       <OutcomeSection />
       <WhyChooseSection />
+      <ReviewSlider />
     </>
   );
 };

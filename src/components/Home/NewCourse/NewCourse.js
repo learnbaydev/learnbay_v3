@@ -22,7 +22,7 @@ const NewCourse = ({
   interstedInHide,
 }) => {
   const [activeTab, setActiveTab] = useState("all");
-  const [visibleCount, setVisibleCount] = useState(3);
+  const [visibleCount, setVisibleCount] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
   const [popups, setPopups] = useState(false);
   const [titleCourse, setTitleCourse] = useState();
@@ -34,10 +34,10 @@ const NewCourse = ({
     const handleResize = () => {
       if (window.innerWidth <= 768) {
         setIsMobile(true);
-        setVisibleCount(3);
+        setVisibleCount(0);
       } else {
         setIsMobile(false);
-        setVisibleCount(3);
+        setVisibleCount(0);
       }
     };
 

@@ -8,9 +8,9 @@ export const DataScienceCourseData = [
         title: "Python for Data Science",
         useCases:
           "Learn to manipulate and visualize data using core Python libraries such as NumPy, Pandas, and Matplotlib for effective data analysis.",
-        toolImage:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/tool_BA_one+(1).webp",
-        toolImageWidth: "122",
+          toolImage:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/newimg+(1).webp",
+        toolImageWidth: "120",
         toolImageHeight: "69",
       },
       {
@@ -19,9 +19,9 @@ export const DataScienceCourseData = [
         title: "Statistics and Machine Learning + GenAI",
         useCases:
           "Apply statistical methods and machine learning algorithms to solve data problems, with an introduction to generative AI techniques.",
-        toolImage:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/tool_ba_two+(1).webp",
-          toolImageWidth: "130",
+          toolImage:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/newimg2+(1).webp",
+          toolImageWidth: "128",
           toolImageHeight: "50",
       },
 
@@ -44,10 +44,10 @@ export const DataScienceCourseData = [
         title: "Data Structure and Algorithm",
         useCases:
           "We will cover data structures and algorithms using popular languages like Python and Java. ",
-        toolImage:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_four+(1).webp",
-          toolImageWidth: "100",
-          toolImageHeight: "30",
+          toolImage:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/newimg3+(1).webp",
+        toolImageWidth: "128",
+        toolImageHeight: "69",
       },
       {
         term: "Term 5",
@@ -55,10 +55,10 @@ export const DataScienceCourseData = [
         title: "Excel",
         useCases:
           "We will cover Excel fundamentals and advanced features including formulas, functions, pivot tables, and data visualization.",
-        toolImage:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_four+(1).webp",
-        toolImageWidth: "100",
-        toolImageHeight: "30",
+          toolImage:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/tool_BA_one+(1).webp",
+        toolImageWidth: "122",
+        toolImageHeight: "69",
       },
 
       {
@@ -67,10 +67,10 @@ export const DataScienceCourseData = [
         title: "AI Tools and Deployment",
         useCases:
           "Build and deploy advanced AI models, including deep learning, NLP, CV and Reinforcement Learning using cloud-based MLOps tools for real-world applications.",
-        toolImage:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_four+(1).webp",
-        toolImageWidth: "100",
-        toolImageHeight: "30",
+          toolImage:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/newimg4+(1).webp",
+        toolImageWidth: "120",
+        toolImageHeight: "60",
       },
     ],
     // data.js

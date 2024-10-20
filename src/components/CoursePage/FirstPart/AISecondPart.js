@@ -2,9 +2,7 @@ import FeeSection from "@/components/course/feeSection/FeeSectionCourse";
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
 
-const ReviewSlider = dynamic(() =>
-  import("@/components/course/reviewSlider/reviewSlider"), 
-);
+
 const UpskillMbl = dynamic(() =>
   import("@/components/course/upskillingSection/UpskillMbl"), 
 );
@@ -66,19 +64,20 @@ const SecondPart = ({ certificateNew, sections, FAQNewData, upskillData, upskill
     fetchPopup();
   }, []);
 
-  const pdfUrl = "/Brochure/Advance-AI-ML.pdf";
+  const pdfUrl = "/Brochure/AIML.pdf";
 
   return (
     <div>
-      <ReviewSlider />
+
       <UpskillMbl  upskillData={upskillData}/>
       <UpskillingSection  upskillingData={upskillingData}/>
-      <ProjectSection dataScienceCounselling={true} interstedInHide={true} />
+      <ProjectSection dataScienceCounselling={true} interstedInHide={true}   brochurePdf={pdfUrl}
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/AIML.pdf"/>
       <SyllabusSection
         sections={sections}
         interstedInHide={true}
         brochurePdf={pdfUrl}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/AIML.pdf"
       />
       <ToolsSection />
       <CertificateSection certificateNew={certificateNew} />

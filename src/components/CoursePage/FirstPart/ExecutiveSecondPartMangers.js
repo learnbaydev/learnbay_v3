@@ -26,7 +26,7 @@ const UpskillingSection = dynamic(() =>
 );
 
 const ExecutiveSecondPart = ({ sections, FAQNewData, certificateNew, upskillData, upskillingData }) => {
-  const pdfUrl = "/Brochure/Executive-iit-guwahati-generic.pdf";
+  const pdfUrl = "/Brochure/DSAI_for_Managers_and_Leaders.pdf";
   return (
     <>
       <ReviewSlider />
@@ -39,7 +39,7 @@ const ExecutiveSecondPart = ({ sections, FAQNewData, certificateNew, upskillData
         sections={sections}
         interstedInHide={true}
         brochurePdf={pdfUrl}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/DSAI_for_Managers_and_Leaders.pdf"
       />
       <ToolsSection />
       <CertificateSection  certificateNew={certificateNew}/>

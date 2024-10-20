@@ -35,15 +35,42 @@
 }
 
 .orangeButton {
-    background: #FE7A36;
-    border-radius: 6px;
-    color: #fff;
-    padding: 9px 20px;
-    font-weight: 700;
-    font-size: 15px;
-    cursor: pointer;
+  background: #FE7A36;; /* White background */
+  border-radius: 6px;
+  color: #fff; /* Text color */
+  padding: 9px 20px;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden; /* Ensures the animation stays within the button bounds */
+  transition: color 0.4s, background 0.4s; /* Smooth transitions for background and text color */
 
 }
+
+.orangeButton::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%; /* Start from outside the left */
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2); /* Glass effect with slight orange tint */
+  transform: skewX(-30deg); /* Slant effect */
+  transition: left 0.4s;
+}
+
+.orangeButton:hover {
+  border: 1px solid #FE7A36; /* Border matching the text color */
+  color: #FE7A36; /* Text color */
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.orangeButton:hover::before {
+  left: 100%; /* Move to outside the right */
+}
+
 
 .blueButton {
     background: #022646;

@@ -101,7 +101,7 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "/Brochure/Advanced-Data-Science.pdf";
+  const pdfUrl = "/Brochure/Advance_DSAI.pdf";
   return (
     <div>
       <ReviewSlider />
@@ -115,7 +115,7 @@ const SecondPart = ({
         sections={sections}
         interstedInHide={true}
         brochurePdf={pdfUrl}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/Advance_DSAI.pdf"
       />
       <ToolsSection />
       <CertificateSection certificateNew={certificateNew} />

@@ -32,19 +32,20 @@ const HeroSection = ({
   TrainingBot,
   CloseBotDate,
   BotWidth,
-BotHeight,
-backgroundGradient,
-backgroundImage,
-showRightForm,
-purpleButton,
-PointsDiv,
-
+  BotHeight,
+  backgroundGradient,
+  backgroundImage,
+  showRightForm,
+  purpleButton,
+  PointsDiv,
 }) => {
-
-  const [popups, setPopups] = useState(false);
+  const [popups, setPopups] = useState(false); // Popup for Download Brochure
+  const [applyCounselingPopup, setApplyCounselingPopup] = useState(false); // Popup for Apply for Counseling
   const [video, setVideo] = useState(false);
+
   return (
     <div>
+      {/* Download Brochure Popup */}
       <PopupContent
         popups={popups}
         setPopups={setPopups}
@@ -56,13 +57,26 @@ PointsDiv,
         brochurePdf={brochurePdf}
         radio={radio}
       />
+
+      {/* Apply for Counseling Popup */}
+      <PopupContent
+        popups={applyCounselingPopup}
+        setPopups={setApplyCounselingPopup}
+        heading="Apply for Counseling"
+        dataScience={true}
+        interstedInHide={interstedInHide}
+        // Include any additional props needed for the counseling application
+      />
+
       <VideoPopup triggers={video} setTriggers={setVideo} ids={idss} />
+
       <HeroSectionContent
-      title={title}
-      orgTitle={orgTitle}
-      thumbnailurl={thumbnailurl}
-      spanTag={spanTag}
+        title={title}
+        orgTitle={orgTitle}
+        thumbnailurl={thumbnailurl}
+        spanTag={spanTag}
         setPopups={setPopups}
+        setApplyCounselingPopup={setApplyCounselingPopup} // Pass down the function to show the counseling popup
         setVideo={setVideo}
         videoId={videoId}
         interstedInHide={interstedInHide}
@@ -70,7 +84,6 @@ PointsDiv,
         upSkillingHide={upSkillingHide}
         dataScienceCounselling={dataScienceCounselling}
         radio={radio}
-
         descrption={descrption}
         spanIcon={spanIcon}
         OrangeButton={OrangeButton}
@@ -83,12 +96,12 @@ PointsDiv,
         TrainingBot={TrainingBot}
         CloseBotDate={CloseBotDate}
         BotWidth={BotWidth}
-BotHeight={BotHeight}
-backgroundGradient={backgroundGradient}
-backgroundImage={backgroundImage}
-showRightForm={showRightForm}
-purpleButton={purpleButton}
-PointsDiv={PointsDiv}
+        BotHeight={BotHeight}
+        backgroundGradient={backgroundGradient}
+        backgroundImage={backgroundImage}
+        showRightForm={showRightForm}
+        purpleButton={purpleButton}
+        PointsDiv={PointsDiv}
       />
     </div>
   );

@@ -17,11 +17,39 @@ const SyllabusSection = ({
   const [initialSlide, setInitialSlide] = useState(0);
   const [activeSlides, setActiveSlides] = useState([]);
   const swiperRef = useRef(null);
+  const gridContainerRef = useRef(null);
   const [popups, setPopups] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Detect screen size
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+    handleResize();
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const toggleSlider = (index) => {
     setInitialSlide(index);
     setOpenSliderIndex(openSliderIndex === index ? null : index);
+
+    // Scroll to the first card when opening the popup
+    if (gridContainerRef.current) {
+      const firstCard = gridContainerRef.current.querySelector(".card");
+      if (firstCard) {
+        const cardLeftPosition = firstCard.offsetLeft;
+        gridContainerRef.current.scrollTo({
+          left: cardLeftPosition,
+          behavior: "smooth",
+        });
+      }
+    }
   };
 
   const updateActiveSlides = () => {
@@ -67,6 +95,10 @@ const SyllabusSection = ({
     setPopups(true);
   };
 
+  const closePopup = () => {
+    setOpenSliderIndex(null);
+  };
+
   return (
     <div className={styles.mainConteiner}>
       <PopupContent
@@ -84,7 +116,7 @@ const SyllabusSection = ({
         Explore Our <span>Syllabus</span>
       </h2>
       {sections.map((section, index) => (
-        <div key={section.id} className={styles.gridConteiner}>
+        <div key={section.id} className={styles.gridConteiner} ref={gridContainerRef}>
           <div className={styles.gridleft}>
             <div className={styles.leftinside}>
               <Image
@@ -141,44 +173,88 @@ const SyllabusSection = ({
 
           {openSliderIndex === index && (
             <div className={styles.popup}>
-              {Array.isArray(section.popuplist) &&
-              section.popuplist.length > 0 ? (
-                <Swiper
-                spaceBetween={10}
-                slidesPerView={1} // Default for mobile view
-                centeredSlides={true}
-                className={styles.swiper}
-                ref={swiperRef}
-                grabCursor={true}
-                touchRatio={2} // Adjusted for sensitivity
-                freeMode={false}
-                modules={[EffectCoverflow]}
-                effect="coverflow"
-                coverflowEffect={{
-                  rotate: 0,
-                  stretch: 40,
-                  depth: 100,
-                  modifier: 2,
-                }}
-                initialSlide={initialSlide}
-                onSlideChange={updateActiveSlides}
-                breakpoints={{
-                  320: { slidesPerView: 1, spaceBetween: 10 },
-                  480: { slidesPerView: 1.5, spaceBetween: 15 }, // New breakpoint for small screens
-                  768: { slidesPerView: 2, spaceBetween: 20 },
-                  1024: { slidesPerView: 3, spaceBetween: 30 },
-                  1440: { slidesPerView: 3, spaceBetween: 30 },
-                }}
-              >
-                  {section.popuplist.map((item, idx) => (
-                   <SwiperSlide
-                   key={item.id}
-                   data-swiper-slide-index={idx}
-                   className={`${styles.swiperSlide} ${
-                     activeSlides.includes(idx.toString()) ? styles.active : ""
-                   }`}
-                 >
-                      <div className={styles.card}>
+              <button className={styles.closePopup} onClick={closePopup}>
+                Close
+              </button>
+              {Array.isArray(section.popuplist) && section.popuplist.length > 0 ? (
+                !isMobile ? (
+                  <Swiper
+                    spaceBetween={10}
+                    slidesPerView={1}
+                    centeredSlides={true}
+                    className={styles.swiper}
+                    ref={swiperRef}
+                    grabCursor={true}
+                    touchRatio={2}
+                    freeMode={false}
+                    modules={[EffectCoverflow]}
+                    effect="coverflow"
+                    coverflowEffect={{
+                      rotate: 0,
+                      stretch: 40,
+                      depth: 100,
+                      modifier: 2,
+                    }}
+                    initialSlide={initialSlide}
+                    onSlideChange={updateActiveSlides}
+                    breakpoints={{
+                      320: { slidesPerView: 1, spaceBetween: 10 },
+                      480: { slidesPerView: 1.5, spaceBetween: 15 },
+                      768: { slidesPerView: 2, spaceBetween: 20 },
+                      1024: { slidesPerView: 3, spaceBetween: 30 },
+                      1440: { slidesPerView: 3, spaceBetween: 30 },
+                    }}
+                  >
+                    {section.popuplist.map((item, idx) => (
+                      <SwiperSlide
+                        key={item.id}
+                        data-swiper-slide-index={idx}
+                        className={`${styles.swiperSlide} ${
+                          activeSlides.includes(idx.toString()) ? styles.active : ""
+                        }`}
+                      >
+                        <div className={styles.card}>
+                          <div className={styles.cardContent}>
+                            <div className={styles.cardHead}>
+                              <div className={styles.termGreen}>{item.term}</div>
+                              <div className={styles.date}>
+                                <span>{item.duration}</span>
+                              </div>
+                            </div>
+                            <h5 className={styles.titleH}>{item.title}</h5>
+                            <div className={styles.slidercontent}>
+                              {item.modules.map((module) => (
+                                <div
+                                  className={styles.module}
+                                  key={module.moduleTitle}
+                                >
+                                  <div className={styles.popupleft}>
+                                    <span className={styles.rotateText}>
+                                      {module.moduleTitle}
+                                    </span>
+                                  </div>
+                                  <div className={styles.rytdiv}>
+                                    <p>{module.moduleContent}</p>
+                                    <ul className={styles.listItem}>
+                                      {module.moduleList.map(
+                                        (detail, detailIdx) => (
+                                          <li key={detailIdx}>{detail}</li>
+                                        )
+                                      )}
+                                    </ul>
+                                  </div>
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                        </div>
+                      </SwiperSlide>
+                    ))}
+                  </Swiper>
+                ) : (
+                  <div className={styles.cardContainer}>
+                    {section.popuplist.map((item, idx) => (
+                      <div key={idx} className={styles.card}>
                         <div className={styles.cardContent}>
                           <div className={styles.cardHead}>
                             <div className={styles.termGreen}>{item.term}</div>
@@ -201,9 +277,11 @@ const SyllabusSection = ({
                                 <div className={styles.rytdiv}>
                                   <p>{module.moduleContent}</p>
                                   <ul className={styles.listItem}>
-                                    {module.moduleList.map((detail, detailIdx) => (
-                                      <li key={detailIdx}>{detail}</li>
-                                    ))}
+                                    {module.moduleList.map(
+                                      (detail, detailIdx) => (
+                                        <li key={detailIdx}>{detail}</li>
+                                      )
+                                    )}
                                   </ul>
                                 </div>
                               </div>
@@ -211,23 +289,18 @@ const SyllabusSection = ({
                           </div>
                         </div>
                       </div>
-                    </SwiperSlide>
-                  ))}
-                </Swiper>
+                    ))}
+                  </div>
+                )
               ) : (
-                <p>No content available.</p>
+                <div>No modules available.</div>
               )}
-              <button
-                className={styles.closePopup}
-                onClick={() => toggleSlider(null)}
-              >
-                &#x2715;
-              </button>
             </div>
           )}
         </div>
       ))}
-      <div className={styles.buttondiv}>
+
+<div className={styles.buttondiv}>
         <div className={styles.btnone} onClick={popupShow}>
           <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Thumb_Icon+(1).webp" width={30} height={30} loading="lazy" alt="Python"/>
           Start Your Application
@@ -239,6 +312,7 @@ const SyllabusSection = ({
           Download Brochure
         </div>
       </div>
+  
     </div>
   );
 };

@@ -56,7 +56,7 @@ const SecondPart = ({ sections, certificateNew, FAQNewData, toolsdynamic, upskil
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "/Brochure/Business-Analytics-Program.pdf";
+  const pdfUrl = "/Brochure/Business_Analytics.pdf";
   return (
     <div>
       <ReviewSlider />
@@ -64,12 +64,14 @@ const SecondPart = ({ sections, certificateNew, FAQNewData, toolsdynamic, upskil
       <UpskillMbl  upskillData={upskillData}/>
       <UpskillingSection upskillingData={upskillingData} />
 
-      <ProjectSection dataScienceCounselling={true} interstedInHide={true} />
+      <ProjectSection dataScienceCounselling={true} interstedInHide={true}
+        brochurePdf={pdfUrl}
+              brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/Business_Analytics.pdf" />
       <SyllabusSection
         sections={sections}
         interstedInHide={true}
         brochurePdf={pdfUrl}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/Business_Analytics.pdf"
       />
 
       <ToolsSection />

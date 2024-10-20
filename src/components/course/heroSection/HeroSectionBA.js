@@ -33,10 +33,13 @@ function HeroSectionBA({
   BotWidth,
   BotHeight,
 }) {
+  const [popupType, setPopupType] = useState(null); // Track which popup to show
   const [popups, setPopups] = useState(false);
   const [isMobile, setIsMobile] = useState(false); // Track mobile view
 
-  const popupShow = () => setPopups(true);
+  const popupShow = (type) => {
+    setPopupType(type);
+  };
 
   // Check if the screen is mobile on initial load and on resize
   useEffect(() => {
@@ -49,16 +52,23 @@ function HeroSectionBA({
 
   return (
     <section className={styles.mainBg}>
-      <PopupContent
-        popups={popups}
-        setPopups={setPopups}
-        heading="Download Syllabus"
+    <PopupContent
+        popups={popupType === "brochure"}
+        setPopups={() => setPopupType(null)}
         downloadBrochure
         dataScience={true}
         interstedInHide={interstedInHide}
         brochureLink={brochureLink}
         brochurePdf={brochurePdf}
         radio={radio}
+        heading="Download Brochure"
+      />
+      <PopupContent
+        popups={popupType === "counselling"}
+        setPopups={() => setPopupType(null)}
+        dataScience={true}
+        interstedInHide={interstedInHide}
+        heading="Apply For Counselling"
       />
 
       <div
@@ -90,18 +100,18 @@ function HeroSectionBA({
                 Course Training Online
               </h1>
               <div className={`${styles.points} ${styles.pointsBA}`}>
-                <div>
+              <div className={styles.item1}>
                   <span>Program Eligibility </span>
                   <p>Min 1 year in tech</p>
                 </div>
                 <hr className={styles.hrOne} />
-                <div>
+                <div className={styles.itm2}>
                   <span>Placement rate </span>
                   <p>90%</p>
-                </div>
+                </div >
                 <hr className={styles.hrOne} />
 
-                <div>
+                <div className={styles.itm3}>
                   <span>Hours of learning </span>
                   <p>300+</p>
                 </div>
@@ -119,36 +129,36 @@ function HeroSectionBA({
                 />
               </div>
 
-              <div className={styles.btnDiv}  >
-          <div  className={styles.btn} onClick={popupShow} >
-          <Button  text="Download Syllabus " grayButton />
-          </div>
-               <div onClick={popupShow}>
-               <Button
-                  text="Start My Application"
-                  OrangeButton={OrangeButton}
-                  purpleButton={purpleButton}
-                  onClick={popupShow}
-                />
-               </div>
+              <div className={styles.btnDiv}>
+                <div
+                  className={styles.btn}
+                  onClick={() => popupShow("brochure")}
+                >
+                  <Button text="Download Syllabus " grayButton />
+                </div>
+                <div onClick={() => popupShow("counselling")}>
+                  <Button
+                    text="Start My Application"
+                    OrangeButton={OrangeButton}
+                    purpleButton={purpleButton}
+                  />
+                </div>
               </div>
               {/* Mobile-only button */}
               {isMobile && (
                 <div className={styles.btnDivM}>
-                  <div className={styles.btn} onClick={popupShow}> 
-                  <Button
-                    text="Download Syllabus"
-                    grayButton
-                   
-                  />
+                  <div
+                    className={styles.btn}
+                    onClick={() => popupShow("brochure")}
+                  >
+                    <Button text="Download Syllabus" grayButton />
                   </div>
-                 <div onClick={popupShow}>
-                 <Button
-                    text="Start My Application"
-                    purpleButton={purpleButton}
-                    OrangeButton={OrangeButton}
-                    onClick={popupShow}
-                  />
+                  <div onClick={() => popupShow("counselling")}>
+                    <Button
+                      text="Start My Application"
+                      purpleButton={purpleButton}
+                      OrangeButton={OrangeButton}
+                    />
                   </div>
                 </div>
               )}

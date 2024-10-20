@@ -5,6 +5,8 @@
 }
 
 
+
+
 @media (min-width: 1281px) {
   .projectHeader{
 
@@ -201,6 +203,14 @@ line-height: 153%; /* 30.6px */
   cursor: pointer;
 }
 
+.body h5 {
+  font-size: 20px;
+    font-weight: 400;
+}
+.container{
+  padding: 10px;
+}
+
 @media (max-width: 1280px) {
   .projectHeader {
     .headWrapper {
@@ -334,7 +344,7 @@ line-height: 153%; /* 30.6px */
           }
         }
         .body {
-          padding: 10px 50px;
+          // padding: 10px 50px;
           display: flex;
           flex-flow: column;
           justify-content: center;

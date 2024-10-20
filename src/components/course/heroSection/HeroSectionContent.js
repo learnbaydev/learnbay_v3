@@ -1,4 +1,4 @@
-import {lazy, Suspense, memo, useCallback } from "react";
+import { lazy, Suspense, memo, useCallback } from "react";
 import Image from "next/image"; // Import Next.js Image component
 import styles from "./HeroSection.module.css";
 import Button from "@/components/Global/Button/Button";
@@ -8,6 +8,7 @@ const Form = lazy(() => import("@/components/Global/Form/Form"));
 
 const HeroSectionContent = memo(({
   setPopups,
+  setApplyCounselingPopup,
   spanTag,
   spanIcon,
   interstedInHide,
@@ -31,10 +32,15 @@ const HeroSectionContent = memo(({
   purpleButton,
   descrption,
 }) => {
-  // Memoized callback to show popup
+  // Memoized callback to show download popup
   const popupShow = useCallback(() => {
     setPopups(true);
   }, [setPopups]);
+
+  // Memoized callback to show apply counseling popup
+  const applyCounselingShow = useCallback(() => {
+    setApplyCounselingPopup(true);
+  }, [setApplyCounselingPopup]);
 
   return (
     <section className={styles.mainBg}>
@@ -64,22 +70,16 @@ const HeroSectionContent = memo(({
                 </div>
               </div>
               <div className={styles.btnDiv}>
-               <div   onClick={popupShow} className={styles.btn}>
-
-               <Button
-                  text="Download Syllabus"
-                  grayButton
-                 
-                />
-               </div>
-             <div  onClick={popupShow}>
-             <Button
-                  text="Start my Application"
-                  OrangeButton={OrangeButton}
-                  purpleButton={purpleButton}
-                  onClick={popupShow}
-                />
-             </div>
+                <div onClick={popupShow} className={styles.btn}>
+                  <Button text="Download Syllabus" grayButton />
+                </div>
+                <div onClick={applyCounselingShow}>
+                  <Button
+                    text="Apply for Counseling"
+                    OrangeButton={OrangeButton}
+                    purpleButton={purpleButton}
+                  />
+                </div>
               </div>
               <div className={styles.imgBot}>
                 <Image
@@ -94,16 +94,12 @@ const HeroSectionContent = memo(({
               </div>
 
               <div className={styles.btnDivM}>
+                <Button text="Download Syllabus" grayButton onClick={popupShow} />
                 <Button
-                  text="Download Syllabus"
-                  grayButton
-                  onClick={popupShow}
-                />
-                <Button
-                  text="Start my Application"
+                  text="Apply for Counseling"
                   purpleButton={purpleButton}
                   OrangeButton={OrangeButton}
-                  onClick={popupShow}
+                  onClick={applyCounselingShow}
                 />
               </div>
             </div>
@@ -168,9 +164,7 @@ const HeroSectionContent = memo(({
             />
             <div className={styles.content}>
               <p>{TrainingBot}</p>
-              <h3>
-                Live Online <span className={styles.span}>|</span> Hybrid
-              </h3>
+              <h3>{CloseBotDate}</h3>
             </div>
           </div>
         </div>

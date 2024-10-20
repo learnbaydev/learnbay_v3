@@ -8,10 +8,10 @@ export const BADataScienceCourseData = [
     upskillingData: [
       {
         term: "Term 1",
-        duration: "40 hrs",
-        title: "Python for Data Science",
+        duration: "30 hrs",
+        title: "Excel",
         useCases:
-          "Learn to manipulate and visualize data using core Python libraries such as NumPy, Pandas, and Matplotlib for effective data analysis.",
+          "We will cover Excel fundamentals and advanced features including formulas, functions, pivot tables, and data visualization.",
         toolImage:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/tool_BA_one+(1).webp",
         toolImageWidth: "122",
@@ -19,10 +19,10 @@ export const BADataScienceCourseData = [
       },
       {
         term: "Term 2",
-        duration: "70 hrs",
-        title: "Statistics and Machine Learning + GenAI",
+        duration: "30 hrs",
+        title: "Statistics",
         useCases:
-          "Apply statistical methods and machine learning algorithms to solve data problems, with an introduction to generative AI techniques.",
+          "We will cover statistical methods and explore advanced topics like regression analysis, hypothesis testing, EDA. Practice all the topics with real time projects and case studies.",
         toolImage:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/tool_ba_two+(1).webp",
           toolImageWidth: "130",
@@ -43,22 +43,22 @@ export const BADataScienceCourseData = [
 
       // Divid3
       {
-        term: "Term 6",
-        duration: "6 Weeks",
-        title: "Data Structure and Algorithm",
+        term: "PROJECT",
+        duration: "2.5 HRS",
+        title: "Game Environment Solver with Q-Learning  ",
         useCases:
-          "We will cover data structures and algorithms using popular languages like Python and Java. ",
+          ": Implement a Q-Learning algorithm to train an agent to solve a grid-world or maze environment using OpenAI Gym.",
         toolImage:
           " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_four+(1).webp",
           toolImageWidth: "100",
           toolImageHeight: "30",
       },
       {
-        term: "Term 5",
-        duration: "6 Weeks",
-        title: "Excel",
+        term: "PROJECT",
+        duration: "2 HRS",
+        title: "Text Generation using GPT-2",
         useCases:
-          "We will cover Excel fundamentals and advanced features including formulas, functions, pivot tables, and data visualization.",
+          "Fine-tune a pre-trained GPT-2 model to generate coherent text in a specific domain or style.",
         toolImage:
           " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_four+(1).webp",
         toolImageWidth: "100",
@@ -68,11 +68,11 @@ export const BADataScienceCourseData = [
       {
         term: "Term 4",
         duration: "6 Weeks",
-        title: "AI Tools and Deployment",
+        title: "Business Analytics + Deployment",
         useCases:
-          "Build and deploy advanced AI models, including deep learning, NLP, CV and Reinforcement Learning using cloud-based MLOps tools for real-world applications.",
+          "We will cover business analytics basics using popular tools like Excel, SQL, Tableau, and also focus on deployment using cloud platforms. ",
         toolImage:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_four+(1).webp",
+          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/newimg7+(1).webp",
         toolImageWidth: "100",
         toolImageHeight: "30",
       },

@@ -18,7 +18,7 @@ const WhyChooseSection = dynamic(() =>
   import("@/components/course/whyChooseSection/whyChooseSection")
 );
 const ExecutiveFirstPartmanagers = ({ProggramSectionData, summaryData}) => {
-  const pdfUrl = "/Brochure/Executive-iit-guwahati-generic.pdf";
+  const pdfUrl = "/Brochure/DSAI_for_Managers_and_Leaders.pdf";
   return (
     <>
       {" "}
@@ -46,7 +46,7 @@ const ExecutiveFirstPartmanagers = ({ProggramSectionData, summaryData}) => {
         dataScienceCounselling={true}
         dataScience={true}
         brochurePdf={pdfUrl}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/DSAI_for_Managers_and_Leaders.pdf"
         noIIt={true}
         OrangeButton={true}
         applicationIcon="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/application_b.webp"
@@ -78,7 +78,7 @@ const ExecutiveFirstPartmanagers = ({ProggramSectionData, summaryData}) => {
        rightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ryt_programImg+(2).webp"
        dataScienceCounselling={true}
        interstedInHide={true}
-       brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
+       brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/DSAI_for_Managers_and_Leaders.pdf"
   
       />
       <OutcomeSection />

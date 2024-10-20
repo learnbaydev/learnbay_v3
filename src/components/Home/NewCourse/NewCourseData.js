@@ -10,8 +10,8 @@ export const courses = {
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_cards.webp",
       link: "/datascience/advance-data-science-certification-courses",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
-      brochurePdfs: "/Brochure/Advanced-Data-Science.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/Advance_DSAI.pdf",
+      brochurePdfs: "/Brochure/Advance_DSAI.pdf",
     },
     {
       title: "Executive program in Data Science & AI",
@@ -35,8 +35,8 @@ export const courses = {
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Ai_master_cards.webp",
       link: "/datascience/data-science-and-ai-master-certification-program",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf",
-      brochurePdfs: "/Brochure/AI-Master-Certification.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/DSAI_Master.pdf",
+      brochurePdfs: "/Brochure/DSAI_Master.pdf",
     },
     {
       title: "Data Science AI for Managers & leaders",
@@ -60,8 +60,8 @@ export const courses = {
 
       link: "/datascience/artificial-intelligence-certification-course",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
-      brochurePdfs: "/Brochure/Advance-AI-ML.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/AIML.pdf",
+      brochurePdfs: "/Brochure/AIML.pdf",
     },
     {
       title: "Data Science & AI for BFSI Professionals",
@@ -87,8 +87,8 @@ export const courses = {
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BS_Cardsss.webp",
       link: "/datascience/business-analytics-certification-course",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf",
-      brochurePdfs: "/Brochure/Business-Analytics-Program.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/Business_Analytics.pdf",
+      brochurePdfs: "/Brochure/Business_Analytics.pdf",
     },
 
     {
@@ -254,8 +254,8 @@ export const courses = {
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cardss.webp",
       link: "/datascience/data-science-ai-for-managers",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
-      brochurePdfs: "/Brochure/data-science-ai-for-managers.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/DSAI_for_Managers_and_Leaders.pdf",
+      brochurePdfs: "/Brochure/DSAI_for_Managers_and_Leaders.pdf",
     },
 
     {
@@ -310,8 +310,8 @@ export const courses = {
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Ai_master_cards.webp",
       link: "/datascience/data-science-and-ai-master-certification-program",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf",
-      brochurePdfs: "/Brochure/AI-Master-Certification.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/DSAI_Master.pdf",
+      brochurePdfs: "/Brochure/DSAI_Master.pdf",
     },
     {
       title: "Business Analytics Master Certification Program",
@@ -322,8 +322,8 @@ export const courses = {
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BS_Cardsss.webp",
       link: "/datascience/business-analytics-certification-course",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf",
-      brochurePdfs: "/Brochure/Business-Analytics-Program.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/Business_Analytics.pdf",
+      brochurePdfs: "/Brochure/Business_Analytics.pdf",
     },
 
     {
@@ -336,8 +336,8 @@ export const courses = {
 
       link: "/datascience/artificial-intelligence-certification-course",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
-      brochurePdfs: "/Brochure/Advance-AI-ML.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/AIML.pdf",
+      brochurePdfs: "/Brochure/AIML.pdf",
     },
 
     {
@@ -349,8 +349,8 @@ export const courses = {
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_cards.webp",
       link: "/datascience/advance-data-science-certification-courses",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
-      brochurePdfs: "/Brochure/Advanced-Data-Science.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/Advance_DSAI.pdf",
+      brochurePdfs: "/Brochure/Advance_DSAI.pdf",
     },
     // {
     //   title: "Data Science & AI Program For Freshers",
@@ -495,8 +495,8 @@ export const courses = {
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Manager_cards.webp",
       link: "/datascience/data-science-ai-for-managers",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
-      brochurePdfs: "/Brochure/data-science-ai-for-managers.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/DSAI_for_Managers_and_Leaders.pdf",
+      brochurePdfs: "/Brochure/DSAI_for_Managers_and_Leaders.pdf",
     },
   ],
 };

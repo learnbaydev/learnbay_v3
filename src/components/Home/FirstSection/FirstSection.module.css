@@ -483,6 +483,7 @@
 @media screen and (max-width: 412px) {
   .gridConteiner h1 {
     font-size: 28px;
+    line-height: 44px;
   }
 }
 
