@@ -476,7 +476,7 @@
 
   .spantitle {
     background: none; /* Remove the gradient */
-    color: #ffc436; /* Set text color to white */
+    color: #fff; /* Set text color to white */
   }
 }
 

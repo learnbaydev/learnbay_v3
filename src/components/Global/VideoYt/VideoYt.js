@@ -119,7 +119,7 @@ const VideoYt = () => {
             src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/course_yop.webp"
             alt="Learnbay"
             quality={100}
-            priority
+              loading="lazy"
             width={550}
             height={250}
             className={Styles.thumbnail}

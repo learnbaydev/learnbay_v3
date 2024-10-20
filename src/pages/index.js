@@ -1,3 +1,5 @@
+import NavbarHome from "@/components/Global/Navbar/NavbarHome";
+import FirstSection from "@/components/Home/FirstSection/FirstSection";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import { useEffect, useState } from "react";
@@ -14,9 +16,7 @@ const WhatsappFloat = dynamic(() =>
   import("@/components/Global/WhatappsFloat/WhatsappFloat")
 );
 const CLogo = dynamic(() => import("@/components/Home/Compnays/CLogo"));
-const FirstSection = dynamic(() =>
-  import("@/components/Home/FirstSection/FirstSection")
-);
+
 const InfinityLogo = dynamic(() =>
   import("@/components/Home/InfinityLogo/InfinityLogo")
 );
@@ -37,9 +37,6 @@ const WhyChooseSection = dynamic(() =>
 const ReviewSlider = dynamic(() =>
   import("@/components/course/reviewSlider/reviewSlider")
 );
-const NavbarHome = dynamic(() =>
-  import("@/components/Global/Navbar/NavbarHome")
-); // Changed Navbar import to dynamic
 
 const ContactUs = dynamic(() =>
   import("@/components/Home/ContactUs/ContactUs")
@@ -120,37 +117,37 @@ export default function Home() {
       url: "https://www.business-standard.com/content/press-releases-ani/learnbay-collaborates-with-woolf-to-launch-master-s-degree-in-computer-science-data-science-specializations-123112000350_1.html",
     },
   ];
-  const [popupData, setPopupData] = useState([]);
-  const isMobile = useMediaQuery({ query: "(max-width: 640px)" });
-  // console.log(popupData);
-  useEffect(() => {
-    // console.log("inside UseEFFect");
-    const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
-      });
-      if (data.status === 200) {
-        const { popData } = await data.json();
-        // console.log(popData, "get data");
-        if (popData == []) {
-          setPopupData([]);
-        }
+  // const [popupData, setPopupData] = useState([]);
 
-        popData.map((data, i) => {
-          // console.log(data);
-          data.page.map((popupData, i) => {
-            // console.log(popData);
-            if (popupData === "Adv Data Science and AI") {
-              setPopupData(data);
-              // console.log(popupData);
-              return;
-            }
-          });
-        });
-      }
-    };
-    fetchPopup();
-  }, []);
+  // console.log(popupData);
+  // useEffect(() => {
+  //   // console.log("inside UseEFFect");
+  //   const fetchPopup = async () => {
+  //     const data = await fetch("/api/Popup/popupGenerate", {
+  //       method: "GET",
+  //     });
+  //     if (data.status === 200) {
+  //       const { popData } = await data.json();
+  //       // console.log(popData, "get data");
+  //       if (popData == []) {
+  //         setPopupData([]);
+  //       }
+
+  //       popData.map((data, i) => {
+  //         // console.log(data);
+  //         data.page.map((popupData, i) => {
+  //           // console.log(popData);
+  //           if (popupData === "Adv Data Science and AI") {
+  //             setPopupData(data);
+  //             // console.log(popupData);
+  //             return;
+  //           }
+  //         });
+  //       });
+  //     }
+  //   };
+  //   fetchPopup();
+  // }, []);
   return (
     <>
       <Head>

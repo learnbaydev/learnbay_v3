@@ -21,7 +21,7 @@ const ReviewSlider = () => {
               src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/Social_review.webp"
               alt="Learnbay"
               quality={100}
-              priority
+               loading="lazy"
               width="800"
               height="408"
               className={styles.socailR}
