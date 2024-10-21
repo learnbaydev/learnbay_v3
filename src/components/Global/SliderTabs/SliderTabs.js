@@ -4,7 +4,8 @@ import { useEffect, useState } from "react";
 import { BsCheckCircle } from "react-icons/bs";
 
 import styles from "./SliderTab.module.css";
-import { IoIosArrowForwardSvg } from "@/Data/svgData/IoIcons";
+import { IoIosArrowForwardSvg } from "@/Data/svgData/IoI/IoIosArrowForwardSvg";
+
 
 const Form = dynamic(() => import("../../Global/Form/Form"));
 const Popup = dynamic(() => import("../../Global/Popup/Popup"));

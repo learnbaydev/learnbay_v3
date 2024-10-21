@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./FormSection.module.css";
 import FormInline from "./FormInline";
-import { MdCallSvg } from "@/Data/svgData/MDIcons";
+import { MdCallSvg } from "@/Data/svgData/MDIcons/MdCallSvg";
+
 
 const FormSection = (dataScience, dataScienceCounselling) => {
   return (

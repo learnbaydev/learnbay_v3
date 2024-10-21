@@ -1,9 +1,11 @@
 import React from "react";
 import dynamic from "next/dynamic";
+import HeroSectionBA from "@/components/course/heroSection/HeroSectionBA";
+import NavbarSection from "@/components/course/navbarSection/NavbarSection";
 
 // Dynamically import components
-const NavbarSection = dynamic(() => import("@/components/course/navbarSection/NavbarSection"), { ssr: false });
-const HeroSectionBA = dynamic(() => import("@/components/course/heroSection/HeroSectionBA"));
+
+
 const PSummaryAD = dynamic(() => import("../PSummary/PSummaryAD"));
 const Practical = dynamic(() => import("../Practical/Practical"));
 const ProgramSection = dynamic(() => import("@/components/course/programSection/programSection"));

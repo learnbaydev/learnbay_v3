@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useMediaQuery } from "react-responsive";
 import Form from "../../Global/Form/Form";
 import Popup from "../../Global/Popup/Popup";
-import { TbDownloadSvg } from "@/Data/svgData/TbIcons";
+import { TbDownloadSvg } from "@/Data/svgData/TbIcons/TbDownloadSvg";
 
 function careerHome({
   dataScienceGeneric,
@@ -25,7 +25,7 @@ function careerHome({
   const [popups, setPopups] = useState(false);
   const [titleCourse, setTitleCourse] = useState();
   const [brochureLinks, setBrochureLinks] = useState();
-  const [brochurePdfs, setBrochurePdfs]= useState();
+  const [brochurePdfs, setBrochurePdfs] = useState();
 
   const popupShow = (title, link, linkTwo) => {
     setTitleCourse(title);
@@ -83,7 +83,7 @@ function careerHome({
         <Image
           src={bgImage}
           alt="Learnbay"
-       loading="lazy"
+          loading="lazy"
           height={800}
           width={1500}
         />
@@ -102,9 +102,7 @@ function careerHome({
               className={styles.careerImg}
             />
             <div className={styles.DivCont01}>
-              <h4 className={styles.goldenH4}>
-              Project Innovation Lab
-              </h4>
+              <h4 className={styles.goldenH4}>Project Innovation Lab</h4>
               <p className={styles.paraBot}>
                 Work in an industry like environment and gain practical hands-on
                 experience.
@@ -126,7 +124,7 @@ function careerHome({
             <Image
               src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/career-img.webp"
               alt="Learnbay"
-         loading="lazy"
+              loading="lazy"
               height={310}
               width={194}
               className={styles.careerImg}
@@ -242,7 +240,6 @@ function careerHome({
                           "BFSI Course",
                           "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf",
                           "/Brochure/Banking-Finance.pdf"
-                         
                         );
                       }}
                     />
@@ -279,7 +276,7 @@ function careerHome({
                         popupShow(
                           "Managers & Leader Course",
                           "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
-                          "/Brochure/data-science-ai-for-managers.pdf",
+                          "/Brochure/data-science-ai-for-managers.pdf"
                         );
                       }}
                     />

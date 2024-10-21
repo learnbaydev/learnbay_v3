@@ -8,7 +8,8 @@ import DataScienceCard from "./DataScienceCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css"; // Import Swiper styles
 import { Navigation, Pagination } from "swiper"; // Import modules for Swiper
-import { MdOutlineFileDownloadSvg } from "@/Data/svgData/MDIcons";
+import { MdOutlineFileDownloadSvg } from "@/Data/svgData/MDIcons/MdOutlineFileDownloadSvg";
+
 
 const Popup = dynamic(() => import("@/components/Global/Popup/Popup"));
 const Form = dynamic(() => import("@/components/Global/Form/Form"));

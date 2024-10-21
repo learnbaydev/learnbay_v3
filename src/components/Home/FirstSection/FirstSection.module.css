@@ -36,6 +36,7 @@
   color: #fff;
   font-weight: 700;
   margin-top: -8px;
+  font-family: sans-serif !important;
 }
 .spantitle {
   background: linear-gradient(90deg, #fe7a36 23.18%, #ffc436 65.33%);

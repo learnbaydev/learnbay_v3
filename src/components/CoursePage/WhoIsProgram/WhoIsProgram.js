@@ -2,7 +2,9 @@ import { FaUserGraduate, FaArrowUp } from "react-icons/fa";
 
 
 import Styles from "./WhoIsProgram.module.css";
-import { MdOutlineCastForEducationSvg, MdOutlineWorkOutlineSvg } from "@/Data/svgData/MDIcons";
+import { MdOutlineCastForEducationSvg } from "@/Data/svgData/MDIcons/MdOutlineCastForEducationSvg";
+import { MdOutlineWorkOutlineSvg } from "@/Data/svgData/MDIcons/MdOutlineWorkOutlineSvg";
+
 
 function WhoIsProgram({ first, second, third, forth }) {
   return (

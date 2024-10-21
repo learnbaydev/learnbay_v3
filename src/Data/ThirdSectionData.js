@@ -3,7 +3,8 @@ import { FaClinicMedical } from "react-icons/fa";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { BsBank } from "react-icons/bs";
 import { FaUsers } from "react-icons/fa";
-import { MdOutlinePrecisionManufacturingSvg } from "./svgData/MDIcons";
+import { MdOutlinePrecisionManufacturingSvg } from "./svgData/MDIcons/MdOutlinePrecisionManufacturingSvg";
+
 
 
 

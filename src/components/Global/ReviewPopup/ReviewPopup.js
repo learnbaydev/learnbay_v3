@@ -3,8 +3,7 @@ import { useEffect, useState } from "react";
 import { AiOutlineRise } from "react-icons/ai";
 
 import styles from "./ReviewPopup.module.css";
-import { IoCloseSvg } from "@/Data/svgData/Io5";
-// import { TestimonialDS, TestimonialFS } from "./TestimonialData";
+import { IoCloseSvg } from "@/Data/svgData/Io5/IoCloseSvg";
 
 const ReviewPopup = (props) => {
   let color = "transparent";

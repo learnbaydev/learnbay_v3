@@ -10,7 +10,11 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 import Image from "next/image";
-import { MdOutlineKeyboardArrowLeftSvg, MdOutlineKeyboardArrowRightSvg } from "@/Data/svgData/MDIcons";
+import { MdOutlineKeyboardArrowRightSvg } from "@/Data/svgData/MDIcons/MdOutlineKeyboardArrowRightSvg";
+import { MdOutlineKeyboardArrowLeftSvg } from "@/Data/svgData/MDIcons/MdOutlineKeyboardArrowLeftSvg";
+
+
+
 
 const Reels = () => {
   const reelswiperRef = useRef(null);
@@ -108,7 +112,7 @@ const Reels = () => {
             ))}
           </Swiper>
           <div className={styles.nextBtn} onClick={nextreelSlide}>
-            <MdOutlineKeyboardArrowRightSvg />
+            <MdOutlineKeyboardArrowRightSvg/>
           </div>
         </div>
       </div>

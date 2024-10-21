@@ -22,8 +22,10 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/scrollbar";
 import Button from "../../Global/Button/Button";
-import { IoRocketOutline } from "@/Data/svgData/Io5";
-import { MdOutlinePrecisionManufacturingSvg } from "@/Data/svgData/MDIcons";
+// import { IoRocketOutline } from "@/Data/svgData/Io5";
+
+import { IoRocketOutline } from "@/Data/svgData/Io5/IoRocketOutline";
+import { MdOutlinePrecisionManufacturingSvg } from "@/Data/svgData/MDIcons/MdOutlinePrecisionManufacturingSvg";
 
 function WhyLearnbay({ idss, NoGuwahati }) {
   const [domainSpec, setDomainSpec] = useState(false);

@@ -1,6 +1,7 @@
 import FirstSection from "@/components/CoursePage/FirstSection/FirstSection";
 import Navbar from "@/components/Global/Navbar/Navbar";
-import { TbBrandGoogleAnalyticsSvg } from "@/Data/svgData/TbIcons";
+import { TbBrandGoogleAnalyticsSvg } from "@/Data/svgData/TbIcons/TbBrandGoogleAnalyticsSvg";
+
 import dynamic from "next/dynamic";
 import React from "react";
 import { AiOutlineContainer } from "react-icons/ai";

@@ -4,7 +4,9 @@ import Image from "next/image";
 import Button from "@/components/Global/Button/Button";
 import Form from "@/components/Global/Form/Form";
 import Popup from "@/components/Global/Popup/Popup";
-import { MdOutlineKeyboardArrowLeftSvg, MdOutlineKeyboardArrowRightSvg } from "@/Data/svgData/MDIcons";
+import { MdOutlineKeyboardArrowRightSvg } from "@/Data/svgData/MDIcons/MdOutlineKeyboardArrowRightSvg";
+import { MdOutlineKeyboardArrowLeftSvg } from "@/Data/svgData/MDIcons/MdOutlineKeyboardArrowLeftSvg";
+
 
 const testimonials = [
   {

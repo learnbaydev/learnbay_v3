@@ -3,7 +3,6 @@ import { parseJSONData } from "@/Util/JsonConvertor";
 import ExecutiveFirstPartmanagers from "@/components/CoursePage/FirstPart/ExecutiveFirstPartmanagers";
 import ExecutiveSecondPartMangers from "@/components/CoursePage/FirstPart/ExecutiveSecondPartMangers";
 
-import Navbar from "@/components/Global/Navbar/Navbar";
 
 
 function Blockchain({ DataScienceCourseDataJson }) {

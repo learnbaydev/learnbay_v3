@@ -8,7 +8,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/effect-fade"; // Import fade effect style
 import VideoPopup from "@/components/Global/VideoPopup/VideoPopup";
-import { GrNextSvg, GrPrevSvg } from "@/Data/svgData/GrIocns";
+import { GrNextSvg } from "@/Data/svgData/GrIocns/GrNextSvg";
+import { GrPrevSvg } from "@/Data/svgData/GrIocns/GrPrevSvg";
+
 
 SwiperCore.use([Navigation]);
 

@@ -4,9 +4,12 @@ import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { FaArrowRight, FaDownload } from "react-icons/fa";
 
 import styles from "./ThirdSection.module.css";
-import { IoRocketOutline } from "@/Data/svgData/Io5";
-import { MdCurrencyRupeeSvg } from "@/Data/svgData/MDIcons";
-import { Clocktimefiveoutline } from "@/Data/svgData/BiIcons";
+
+
+import { Clocktimefiveoutline } from "@/Data/svgData/BiIcons/Clocktimefiveoutline";
+import { IoRocketOutline } from "@/Data/svgData/Io5/IoRocketOutline";
+import { MdCurrencyRupeeSvg } from "@/Data/svgData/MDIcons/MdCurrencyRupeeSvg";
+// import { Clocktimefiveoutline } from "@/Data/svgData/BiIcons";
 const Button = dynamic(() => import("../../../Global/Button/Button"));
 
 function ThirdSection() {

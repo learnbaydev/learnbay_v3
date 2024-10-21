@@ -13,10 +13,10 @@ import {
   FaUserShield,
 } from "react-icons/fa";
 
-
 import VideoPopup from "../../Global/VideoPopup/VideoPopup";
 import Styles from "./WhyLearnbay.module.css";
-import { IoRocketOutline } from "@/Data/svgData/Io5";
+import { IoRocketOutline } from "@/Data/svgData/Io5/IoRocketOutline";
+
 // import { BsFillPeopleFill } from "react-icons/bs";
 
 function WhyLearnbay({
@@ -71,11 +71,10 @@ function WhyLearnbay({
             }}
             className={projectInno ? Styles.ActiveInnerBox : Styles.InnerBox}
           >
-           <p className={projectInno ? Styles.ActiveCont : Styles.Cont}>
-  <IoRocketOutline fillColor={projectInno ? "#0072BC" : "gray"} />
-  Project Innovation Lab
-</p>
-
+            <p className={projectInno ? Styles.ActiveCont : Styles.Cont}>
+              <IoRocketOutline fillColor={projectInno ? "#0072BC" : "gray"} />
+              Project Innovation Lab
+            </p>
           </div>
 
           <div
@@ -392,17 +391,19 @@ function WhyLearnbay({
                   Work in an industry like environment and gain practical
                   hands-on experience
                 </p>
-                {CloudContent ? (<p className={Styles.para}>
-                  <FaCheckCircle className={Styles.checkCircle} />
-                  Gain the work experience of DevOps Engineer with dedicated
-                  project mentors from industry.
-                </p>) : (
-                <p className={Styles.para}>
-                  <FaCheckCircle className={Styles.checkCircle} />
-                  Gain the work experience of data scientist with dedicated
-                  project mentors from industry.
-                </p>
-                  )}
+                {CloudContent ? (
+                  <p className={Styles.para}>
+                    <FaCheckCircle className={Styles.checkCircle} />
+                    Gain the work experience of DevOps Engineer with dedicated
+                    project mentors from industry.
+                  </p>
+                ) : (
+                  <p className={Styles.para}>
+                    <FaCheckCircle className={Styles.checkCircle} />
+                    Gain the work experience of data scientist with dedicated
+                    project mentors from industry.
+                  </p>
+                )}
               </div>
             </div>
           </div>

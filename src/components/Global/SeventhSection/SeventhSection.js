@@ -3,7 +3,8 @@ import styles from "./SeventhSection.module.css";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import Image from "next/image";
 import Button from "../Button/Button";
-import { MdCallSvg } from "@/Data/svgData/MDIcons";
+import { MdCallSvg } from "@/Data/svgData/MDIcons/MdCallSvg";
+
 
 function SeventhSection({ fullStackCont }) {
   const [mobile, setMobile] = useState(false);

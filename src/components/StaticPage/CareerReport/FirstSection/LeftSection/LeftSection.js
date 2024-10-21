@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "./LeftSide.module.css"
-import { IoRocketOutline } from '@/Data/svgData/Io5'
+import { IoRocketOutline } from '@/Data/svgData/Io5/IoRocketOutline'
+
 
 
 

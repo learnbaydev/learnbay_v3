@@ -31,7 +31,8 @@ import { AiOutlineContainer } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsPeople } from "react-icons/bs";
 import WhoIsProgram from "../WhoIsProgram/WhoIsProgram";
-import { TbBrandGoogleAnalyticsSvg } from "@/Data/svgData/TbIcons";
+import { TbBrandGoogleAnalyticsSvg } from "@/Data/svgData/TbIcons/TbBrandGoogleAnalyticsSvg";
+
 const ExecutiveFirstPart = ({
 
 

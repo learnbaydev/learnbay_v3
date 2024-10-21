@@ -3,7 +3,8 @@ import styles from "./Accordion.module.css"; // Import your CSS module
 
 import Image from "next/image";
 import Link from "next/link";
-import { Menudown } from "@/Data/svgData/MDIcons";
+import { Menudown } from "@/Data/svgData/MDIcons/Menudown";
+
 
 const Accordion = () => {
   const [activeIndex, setActiveIndex] = useState(null);

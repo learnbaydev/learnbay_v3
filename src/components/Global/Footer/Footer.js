@@ -22,8 +22,9 @@ import {
   genHeadData,
   puneLocation,
 } from "./FooterData";
-import { IoMailSharpSvg } from "@/Data/svgData/Io5";
+// import { IoMailSharpSvg } from "@/Data/svgData/Io5";
 import { BsFillTelephoneFillSvg } from "@/Data/svgData/BsIcons";
+import { IoMailSharpSvg } from "@/Data/svgData/Io5/IoMailSharpSvg";
 
 const Footer = ({
   adPage,

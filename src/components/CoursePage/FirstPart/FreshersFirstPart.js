@@ -1,4 +1,5 @@
-import { TbBrandGoogleAnalyticsSvg } from "@/Data/svgData/TbIcons";
+
+import { TbBrandGoogleAnalyticsSvg } from "@/Data/svgData/TbIcons/TbBrandGoogleAnalyticsSvg";
 import dynamic from "next/dynamic";
 import React from "react";
 const SecondNavbar = dynamic(() => import("../SecondNavbar/SecondNavbar"));

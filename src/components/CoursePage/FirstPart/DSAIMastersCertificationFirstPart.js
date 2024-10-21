@@ -1,13 +1,11 @@
+import HeroSectionMaster from "@/components/course/heroSection/HeroSectionMaster";
+import NavbarSection from "@/components/course/navbarSection/NavbarSection";
 import dynamic from "next/dynamic";
 import React from "react";
 
 // Dynamically imported components
-const HeroSectionMaster = dynamic(() =>
-  import("@/components/course/heroSection/HeroSectionMaster")
-);
-const NavbarSection = dynamic(() =>
-  import("@/components/course/navbarSection/NavbarSection")
-);
+
+
 const PSummaryAD = dynamic(() => import("../PSummary/PSummaryAD"));
 const Practical = dynamic(() => import("../Practical/Practical"));
 const ProgramSection = dynamic(() =>

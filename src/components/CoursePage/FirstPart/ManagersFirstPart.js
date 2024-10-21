@@ -1,4 +1,5 @@
-import { TbBrandGoogleAnalyticsSvg } from "@/Data/svgData/TbIcons";
+
+import { TbBrandGoogleAnalyticsSvg } from "@/Data/svgData/TbIcons/TbBrandGoogleAnalyticsSvg";
 import { ThirdSectionData } from "@/Data/ThirdSectionData";
 import dynamic from "next/dynamic";
 import React from "react";

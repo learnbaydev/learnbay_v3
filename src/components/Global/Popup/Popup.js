@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import styles from "./Popup.module.css";
-import { IoCloseSvg } from "@/Data/svgData/Io5";
+import { IoCloseSvg } from "@/Data/svgData/Io5/IoCloseSvg";
 
 
 const Popup = (props) => {

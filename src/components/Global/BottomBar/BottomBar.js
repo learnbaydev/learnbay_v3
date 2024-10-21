@@ -3,7 +3,8 @@ import { FaArrowRight } from "react-icons/fa";
 import Link from "next/dist/client/link";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
-import { IoLogoWhatsappSvg } from "@/Data/svgData/IoIcons";
+import { IoLogoWhatsappSvg } from "@/Data/svgData/IoI/IoLogoWhatsappSvg";
+
 
 const BottomBar = ({
   whatsappShow,

@@ -2,7 +2,8 @@ import dynamic from "next/dynamic";
 import { FaReact, FaLinkedinIn } from "react-icons/fa";
 import { BsPersonGear, BsDisplay, BsPeople } from "react-icons/bs";
 import { AiOutlineContainer } from "react-icons/ai";
-import { TbBrandGoogleAnalyticsSvg } from "@/Data/svgData/TbIcons";
+import { TbBrandGoogleAnalyticsSvg } from "@/Data/svgData/TbIcons/TbBrandGoogleAnalyticsSvg";
+
 
 // Dynamically imported components
 const Navbar = dynamic(() => import("@/components/Global/Navbar/Navbar"));

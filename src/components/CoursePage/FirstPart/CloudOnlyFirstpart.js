@@ -39,8 +39,9 @@ import { BsDisplay } from "react-icons/bs";
 import { AiOutlineContainer } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsPeople } from "react-icons/bs";
-import { TbCloudComputing } from "@/Data/svgData/TbIcons";
+
 import { PiInfinitySvg } from "@/Data/svgData/PiIcons";
+import { TbCloudComputing } from "@/Data/svgData/TbIcons/TbCloudComputing";
 
 const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
   const seconddata = [

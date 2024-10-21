@@ -3,7 +3,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import styles from "./SliderTab.module.css";
 import Image from "next/image";
-import { Arrowdown, Arrowupthin } from "@/Data/svgData/BiIcons";
+import { Arrowupthin } from "@/Data/svgData/BiIcons/Arrowupthin";
+import { Arrowdown } from "@/Data/svgData/BiIcons/Arrowdown";
 
 const SliderTabs = () => {
   const [viewAll, setViewAll] = useState(false);

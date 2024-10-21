@@ -6,7 +6,8 @@ import Navbar from "@/components/Global/Navbar/Navbar";
 import { AiOutlineContainer } from "react-icons/ai";
 import { BsDatabaseUp, BsDisplay, BsPeople } from "react-icons/bs";
 import { FaLinkedinIn, FaReact } from "react-icons/fa";
-import { TbBrandGoogleAnalyticsSvg } from "@/Data/svgData/TbIcons";
+import { TbBrandGoogleAnalyticsSvg } from "@/Data/svgData/TbIcons/TbBrandGoogleAnalyticsSvg";
+
 
 const SecondNavbar = dynamic(() => import("../SecondNavbar/SecondNavbar"));
 const TrainerSection = dynamic(() =>

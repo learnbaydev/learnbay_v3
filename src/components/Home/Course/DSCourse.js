@@ -11,7 +11,8 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import styles from "./CourseDmd.module.css";
 import { courseDetails, courseDetailsM } from "./DSCourseDetails";
-import { Clocktimefiveoutline } from "@/Data/svgData/BiIcons";
+import { Clocktimefiveoutline } from "@/Data/svgData/BiIcons/Clocktimefiveoutline";
+// import { Clocktimefiveoutline } from "@/Data/svgData/BiIcons";
 const Popup = dynamic(() => import("@/components/Global/Popup/Popup"));
 const Form = dynamic(() => import("@/components/Global/Form/Form"));
 

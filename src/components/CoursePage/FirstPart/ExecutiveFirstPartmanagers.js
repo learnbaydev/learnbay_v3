@@ -1,8 +1,8 @@
-import DecisionSection from "@/components/course/decisionSection/DecisionSection";
-import HeroSection from "@/components/course/heroSection/HeroSection";
+
 import dynamic from "next/dynamic";
 import PSummaryAD from "../PSummary/PSummaryAD";
 import Practical from "../Practical/Practical";
+import HeroSection from "@/components/course/heroSection/HeroSection";
 const Navbar = dynamic(() =>
   import("@/components/course/navbarSection/NavbarSection")
 );

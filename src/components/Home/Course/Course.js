@@ -11,7 +11,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import styles from "./Course.module.css";
 import { courseDetails, courseDetailsM } from "./courseDetails";
 import Link from "next/link";
-import { Clocktimefiveoutline } from "@/Data/svgData/BiIcons";
+import { Clocktimefiveoutline } from "@/Data/svgData/BiIcons/Clocktimefiveoutline";
+// import { Clocktimefiveoutline } from "@/Data/svgData/BiIcons";
 const Popup = dynamic(() => import("@/components/Global/Popup/Popup"));
 const Form = dynamic(() => import("@/components/Global/Form/Form"));
 

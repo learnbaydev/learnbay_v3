@@ -36,7 +36,7 @@ function DecisionSection({noIIt}) {
                   src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/campus_de.webp"
                   alt="Learnbay"
                   quality={100}
-                  priority
+                   loading="lazy"
                   width="50"
                   height="50"
                 />
@@ -50,7 +50,7 @@ function DecisionSection({noIIt}) {
                   src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/certificate_de.webp"
                   alt="Learnbay"
                   quality={100}
-                  priority
+              loading="lazy"
                   width="50"
                   height="50"
                 />
@@ -60,7 +60,7 @@ function DecisionSection({noIIt}) {
                   src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/ibm_microsoft_combined.webp"
                   alt="Learnbay"
                   quality={100}
-                  priority
+                 loading="lazy"
                   width="200"
                   height="50"
                   style={{ marginTop: "10px" }}
@@ -71,7 +71,7 @@ function DecisionSection({noIIt}) {
                   src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/eligible_de.webp"
                   alt="Learnbay"
                   quality={100}
-                  priority
+         loading="lazy"
                   width="50"
                   height="50"
                 />
@@ -85,7 +85,7 @@ function DecisionSection({noIIt}) {
                   src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/faculty_de.webp"
                   alt="Learnbay"
                   quality={100}
-                  priority
+     loading="lazy"
                   width="60"
                   height="60"
                 />
