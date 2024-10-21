@@ -10,9 +10,8 @@ const WhatsappFloat = dynamic(() =>
 const Certificate = dynamic(() =>
   import("../../../components/CoursePage/Certificate/Certificate")
 );
-const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
 const FeeSection = dynamic(() =>
-  import("../../../components/CoursePage/FeeSection/FeeSection")
+  import("../../course/feeSection/FeeSectionCourse")
 );
 
 const MentorsSection = dynamic(() =>
@@ -99,34 +98,21 @@ const SecondPart = ({
       <Certificate data={CertificateData} />
       <FeeSection
         Fee="₹ 1,15,000"
-        FeeEmi="₹ 7,539/ Month"
-        weekdaybatch="Weekday Batch"
-        weekendbatch="Weekend Batch"
-        weekday="MON - THU"
-        weekend="SAT - SUN"
-        WeekdayDate="Nov 8th"
-        WeekendDate="Oct 27th"
-        WeekendTime="9:30 AM - 1 PM"
-        WeekdayTime="8:00 PM - 10:30 PM"
-        FeeContent3="Flexible payment"
-        FeeContent4="Easy loan procedure"
-        FeeContent5="10 days refund policy"
-        FeeContent6="No additional cost"
-        dataScienceCounselling={true}
-        dataScience={true}
-        titleCourse="AI & ML Program for tech professionals"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf"
-        brochurePdf={pdfUrl}
-        interstedInHide={true}
-        // <EMI POPUP
-        emiType="NO COST EMI"
-        duration1="18 Months"
-        totalAmount1="₹1,15,000"
-        monthlyPayment1="₹7,539"
-        greenDown1="Standard Intrest rate Applicable"
+        FeeEmi="₹ 6,388/ month"
+        // Hybrid Classes
+        hybridFee="₹ 1,30,000"
+        hybridEmi="₹ 7,222/ month"
+        // EMIPOPUP
+        emiType="Live online classes"
+        duration1="12 Months"
+        totalAmount1="₹1,90,000"
+        monthlyPayment1="₹14,094"
+        greenDown1="Hybrid Classes"
         duration2="12 Months"
-        totalAmount2="₹1,15,000"
-        monthlyPayment2="₹11,308"
+        totalAmount2="₹2,10,000"
+        monthlyPayment2="₹12,455"
+        dataScienceCounselling={true}
+        iitGuwatiGen={true}
       />
 
       <MentorsSection />

@@ -1,6 +1,8 @@
+import WhyChooseSection from "@/components/course/whyChooseSection/whyChooseSection";
 import { ThirdSectionData } from "@/Data/ThirdSectionData";
 import dynamic from "next/dynamic";
 import React from "react";
+
 const SecondNavbar = dynamic(() =>
   import("../../../components/CoursePage/SecondNavbar/SecondNavbar")
 );
@@ -9,9 +11,6 @@ const WhoProgram = dynamic(() =>
 );
 const TrainerSection = dynamic(() =>
   import("../../../components/Global/TrainerSection/TrainerSection")
-);
-const Testimonial = dynamic(() =>
-  import("../../../components/Global/Testimonial/Testimonial")
 );
 const WhoIsProgram = dynamic(() =>
   import("../../CoursePage/WhoIsProgram/WhoIsProgram")
@@ -39,8 +38,7 @@ const JobAbroad = dynamic(() =>
   import("../../MastersCourse/JobAbroad/JobAbroad")
 );
 
-const Realstory = dynamic (() =>
-import ("../../Home/Realstory/Realstory"));
+const Realstory = dynamic(() => import("../../Home/Realstory/Realstory"));
 
 import { AiOutlineContainer } from "react-icons/ai";
 import { BsDisplay, BsPeople, BsPersonGear } from "react-icons/bs";
@@ -48,10 +46,19 @@ import { FaLinkedinIn, FaReact } from "react-icons/fa";
 import { TbBrandGoogleAnalytics } from "react-icons/tb";
 const FirstPart = ({ SecondSectionData, TestimonialData }) => {
   const seconddata = [
-    { boldText: "IBM", normalText: "Certified Capstone", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
-    { CboldText: "175%", normalText: "Average Salary Hike", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
-    { boldText: "35K+", normalText: "Trusted Learners", },
-    
+    {
+      boldText: "IBM",
+      normalText: "Certified Capstone",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp",
+    },
+    {
+      CboldText: "175%",
+      normalText: "Average Salary Hike",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp",
+    },
+    { boldText: "35K+", normalText: "Trusted Learners" },
   ];
   const DsSecond = {
     title1: "Domain Specialization",
@@ -75,7 +82,11 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         role: "AI Project Manager ",
         salary: " 17.3 LPA",
       },
-      { icon: <BsPersonGear />, role: "Data Analytics Manager", salary: "22.2 LPA" },
+      {
+        icon: <BsPersonGear />,
+        role: "Data Analytics Manager",
+        salary: "22.2 LPA",
+      },
     ],
     image3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Frame+42.webp",
     image4:
@@ -150,8 +161,11 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       />
       <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={DsSecond} />
-      <JobAbroad data={JobData}  dataScienceCounselling={true}
-        interstedInHide={true}/>
+      <JobAbroad
+        data={JobData}
+        dataScienceCounselling={true}
+        interstedInHide={true}
+      />
       <SecondNavbar
         interstedInHide={true}
         dataScience={true}
@@ -164,7 +178,8 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         leftImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/advance-who.webp"
         ThirdSectionData={ThirdSectionData}
       />
-      <Realstory/>
+      <WhyChooseSection />
+      <Realstory />
       <TrainerSection idss="eautK0odE7Q" />
       {/* <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} /> */}
       <WhoIsProgram
@@ -180,7 +195,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         interstedInHide={true}
         titleCourse="Data Science & AI Certification Program For Managers and Leaders"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
-         brochurePdf="/Brochure/data-science-ai-for-managers.pdf"
+        brochurePdf="/Brochure/data-science-ai-for-managers.pdf"
       />
     </>
   );

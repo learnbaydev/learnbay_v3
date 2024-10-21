@@ -4,14 +4,14 @@ import React from "react";
 const SecondNavbar = dynamic(() =>
   import("../../../components/CoursePage/SecondNavbar/SecondNavbar")
 );
+const AnimationNew = dynamic(() =>
+  import("@/components/Home/whyChooseSection/AnimationNew")
+);
 const WhoProgram = dynamic(() =>
   import("../../../components/CoursePage/WhoProgram/ThirdSection")
 );
 const TrainerSection = dynamic(() =>
   import("../../../components/Global/TrainerSection/TrainerSection")
-);
-const Testimonial = dynamic(() =>
-  import("../../../components/Global/Testimonial/Testimonial")
 );
 const WhoIsProgram = dynamic(() =>
   import("../../CoursePage/WhoIsProgram/WhoIsProgram")
@@ -31,30 +31,33 @@ const CloudDevopsecond = dynamic(() =>
 const FirstSection = dynamic(() =>
   import("../../CoursePage/FirstSection/FirstSection")
 );
-const MasterSecondSection  = dynamic(() =>
+const MasterSecondSection = dynamic(() =>
   import("../../MastersCourse/MasterSecondSection/MasterSecondSection")
 );
-const JobAbroad = dynamic(()=>
-import( "../../MastersCourse/JobAbroad/JobAbroad"
-)
+const JobAbroad = dynamic(() =>
+  import("../../MastersCourse/JobAbroad/JobAbroad")
 );
-const Realstory = dynamic(()=>
-import( "../../Home/Realstory/Realstory"
-)
-);
-
+const Realstory = dynamic(() => import("../../Home/Realstory/Realstory"));
 
 import { AiOutlineContainer } from "react-icons/ai";
 import { BsDisplay, BsPeople, BsPersonGear } from "react-icons/bs";
 import { FaLinkedinIn, FaReact } from "react-icons/fa";
 import { TbBrandGoogleAnalytics } from "react-icons/tb";
 const FirstPart = ({ SecondSectionData, TestimonialData }) => {
-
   const seconddata = [
-    { boldText: "IBM", normalText: "Certified Capstone", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
-    { CboldText: "175%", normalText: "Average Salary Hike", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
-    { boldText: "35K+", normalText: "Trusted Learners", },
-    
+    {
+      boldText: "IBM",
+      normalText: "Certified Capstone",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp",
+    },
+    {
+      CboldText: "175%",
+      normalText: "Average Salary Hike",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp",
+    },
+    { boldText: "35K+", normalText: "Trusted Learners" },
   ];
   const DsSecond = {
     title1: "Domain Specialization",
@@ -98,24 +101,28 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
     title: "Elevate Your Expertise in Data Science and AI    ",
     points: [
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
         imgAlt: "",
         title: "Bridge your Career Gap        ",
-        description: "Internship certificate that helps you fill your career gap.         ",
+        description:
+          "Internship certificate that helps you fill your career gap.         ",
       },
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
         imgAlt: "",
         title: "Flexible Learning at your Convenience        ",
-        description: "For professionals aiming to upskill without quitting their job.",
+        description:
+          "For professionals aiming to upskill without quitting their job.",
       },
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
         imgAlt: "",
-        title: "Curriculum Inclusive of Gen-AI        "        ,
+        title: "Curriculum Inclusive of Gen-AI        ",
         description: "Tailored for career transformation in a tech-driven era",
       },
-   
     ],
     bannerImage: {
       src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Adv-dsai-_1_-min.webp",
@@ -126,7 +133,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
-  const pdfUrl = "/Brochure/Advanced-Data-Science.pdf"
+  const pdfUrl = "/Brochure/Advanced-Data-Science.pdf";
   return (
     <>
       <FirstSection
@@ -145,28 +152,30 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         idss="djokazk1d-0"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ds-fs.webp"
         videoId="djokazk1d-0"
-        
       />
-       <MasterSecondSection data={seconddata} />
-      <CloudDevopsecond data={DsSecond}   dataScience={true} />
-      <JobAbroad data={JobData} dataScienceCounselling={true}
-        interstedInHide={true} />
+      <MasterSecondSection data={seconddata} />
+      <CloudDevopsecond data={DsSecond} dataScience={true} />
+      <JobAbroad
+        data={JobData}
+        dataScienceCounselling={true}
+        interstedInHide={true}
+      />
       <SecondNavbar
         interstedInHide={true}
         dataScience={true}
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
         brochurePdf={pdfUrl}
         titleCourse="Advance Data Science & AI Program with Domain Specialization"
-        
       />
       <WhoProgram
         dataScience={true}
         leftImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/advance-who.webp"
         ThirdSectionData={ThirdSectionData}
       />
-            <Realstory />
+      <AnimationNew />
+      <Realstory />
       <TrainerSection idss="eautK0odE7Q" />
- 
+
       {/* <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} /> */}
       <WhoIsProgram
         first="Bachelor's degree with consistent good academic"

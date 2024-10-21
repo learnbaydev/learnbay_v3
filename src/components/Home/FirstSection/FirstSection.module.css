@@ -1,8 +1,249 @@
-.section {
-  width: 1350px;
-  margin: 90px auto;
+.conteiner {
+  margin-top: 70px;
+  background: radial-gradient(
+      circle at 10% 10%,
+      /* Blue circle positioned at the top left */ rgba(6, 59, 92, 0.9) 1%,
+      /* Smaller blue circle */ transparent 30% /* Smooth transition to black */
+    ),
+    radial-gradient(
+      circle at 90% 80%,
+      /* Orange circle positioned at the bottom right */
+        rgba(254, 122, 54, 000.3) 1%,
+      /* Glowing orange circle */ transparent 40%
+        /* Smooth transition to black */
+    ),
+    #212121;
+  background-color: rgba(15, 14, 14, 0.954);
+  background-repeat: no-repeat;
+}
+
+.gridConteiner {
+  display: grid;
+  grid-template-columns: 60% 30%;
+  width: 1200px;
+  margin: auto;
+  padding-top: 90px;
+  gap: 10px;
+  justify-content: space-between;
+  padding-bottom: 16px;
+}
+.gridConteiner h1 {
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600 !important;
+  line-height: 126.5%; /* 75.9px */
+  letter-spacing: 0.6px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: -8px;
+}
+.spantitle {
+  background: linear-gradient(90deg, #fe7a36 23.18%, #ffc436 65.33%);
+  background-clip: text;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0.55px;
+  color: transparent; /* Keep this for desktop view */
+}
+.btn {
+  position: relative; /* For positioning the pseudo-element */
+  overflow: hidden; /* To prevent the pseudo-element from overflowing */
+  border-radius: 12px;
+  background: linear-gradient(90deg, #0383ff 0%, #003456 100%);
+  border: none;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: rgba(10, 10, 10, 0.2) 0px 8px 24px;
+  margin-top: 60px;
+  transition: all 10s ease; /* Smooth transition for the button */
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%; /* Start from outside the button */
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2); /* Glass-like effect */
+  border-radius: 1px;
+  backdrop-filter: blur(1px); /* Adds a blur to create the glass effect */
+  transition: all 0.5s ease; /* Smooth transition */
+}
+
+.btn:hover::before {
+  left: 100%; /* Move to the other side */
+}
+
+.backgroundGradient {
+  width: 100vw;
+  height: 800px; /* Adjust the height as needed */
+  background: radial-gradient(circle at top left, #063b5c, transparent 60%),
+    radial-gradient(circle at bottom right, #fe7a36, transparent 60%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
-  height: 620px;
+}
+
+.rytConteiner {
+  border-top-right-radius: 34px;
+  border-top-left-radius: 34px;
+  background: linear-gradient(0deg, #fbfbfb 0%, #fbfbfb 100%),
+    linear-gradient(0deg, #f5f5f5 0%, #f5f5f5 100%), #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+  position: relative;
+  padding-top: 40px;
+}
+.rytConteiner h2 {
+  color: #4f4b4b;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 0px;
+}
+
+.hr {
+  width: 330px;
+  height: 1px;
+}
+.spandiv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 16px;
+}
+.listryt {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.listryt span {
+  color: #212121;
+  font-size: 14.377px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.listDown {
+  border-radius: 0px 0px 34px 34px;
+  background: linear-gradient(0deg, #e1e1e1 0%, #e1e1e1 100%),
+    linear-gradient(0deg, #f5f5f5 0%, #f5f5f5 100%), #f5f5f5;
+  padding: 12px 20px;
+  display: flex;
+}
+.bookFreebtn {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 6px;
+}
+.bookFreebtn button {
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 6px;
+  background: #022646;
+  border: none;
+  padding: 15px 20px;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  overflow: hidden;
+  transition: background 0.3s, box-shadow 0.5s ease;
+  cursor: pointer;
+}
+
+.bookFreebtn button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(39, 103, 180, 0.2); /* Transparent white for glow */
+  transition: left 0.5s ease;
+  z-index: 0;
+}
+
+.bookFreebtn button:hover::before {
+  left: 0;
+}
+
+.bookFreebtn button:hover {
+  background: #022646; /* Keep the same background color */
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6); /* Glowing effect */
+  color: #35d028;
+}
+
+.bookFreebtn button span {
+  position: relative;
+  z-index: 1; /* Ensure text is above the glowing effect */
+}
+
+.bookFreebtn p {
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.greenTag {
+  width: fit-content;
+  float: right;
+  position: absolute;
+  top: -3px;
+  right: 20px;
+}
+
+.pointsDiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.listleft {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 46px 0;
+  margin-top: 35px;
+}
+.listleft p {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 153%; /* 45.9px */
+  margin-top: 0;
+}
+
+.orgleft {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 153%;
+}
+.typelogo {
+  width: 100%;
+  height: auto;
+}
+.typelogo img {
+  position: relative;
+  top: -20px;
+  width: 650px;
+  height: auto;
 }
 
 .bgWrap {
@@ -12,315 +253,257 @@
   width: 100%;
   height: 690px;
   /* Default background image for desktop */
-  background: url("https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BG_Home_1.webp")
-    no-repeat center center;
+  background: url("") no-repeat center center;
   background-size: contain;
-}
-
-.content {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  padding: 60px 0px 0px 0px;
-}
-
-@keyframes animate-gradient {
-  0% {
-    background-position: 0% 0%;
-  }
-  50% {
-    background-position: 100% 0%;
-  }
-  100% {
-    background-position: 0% 0%;
-  }
-}
-
-.content h3 {
   background: linear-gradient(
-    90deg,
-    #0fa1ff 12.99%,
-    #0fa1ff 32.19%,
-    #686afb 53.32%,
-    #fe5449 70.48%
+    89deg,
+    #212121 11.25%,
+    rgba(33, 33, 33, 0.9) 62.25%,
+    #212121 95.94%
   );
-  background-size: 200% 200%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 700;
-  margin: 40px 0px 80px 0px;
-  animation: animate-gradient 6s linear infinite;
 }
 
-.content h1 {
-  text-align: center;
-  font-size: 52px;
-  width: 800px;
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 0.65px;
-  line-height: 62px;
-  color: #fff;
+.btnmblDiv {
+  display: none;
+}
+.mblImag {
+  display: none;
 }
 
-.india {
-  color: #fe7a36;
-}
+@media screen and (max-width: 1381px) {
+  .gridConteiner {
+    width: 1050px;
 
-.round {
-  display: flex;
-  gap: 30px;
-  margin: 0px 0px 30px 0px;
-}
-
-.round p {
-  border-radius: 30.964px;
-  background: linear-gradient(0deg, #212121 0%, #212121 100%), #212121;
-  font-size: 16px;
-  border-width: 1px 0px 0px 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  padding: 10px 30px;
-  color: #fff;
-  gap: 10px;
-}
-
-.round svg {
-  color: #35d028;
-  font-size: 24px;
-}
-
-.buttonDiv {
-  display: flex;
-  gap: 50px;
-  color: #fff;
-  align-items: center;
-  margin-top: 40px;
-}
-
-.playIcon {
-  font-size: 32px;
-  margin-left: 5px;
-}
-
-.iconDiv {
-  padding: 5px;
-  width: 70px;
-  height: 70px;
-  border-radius: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.learnDiv {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  font-size: 18px;
-  text-decoration: underline;
-  text-underline-offset: 2px;
-  cursor: pointer;
-}
-
-.learnDiv svg {
-  transition: filter 0.3s ease;
-}
-
-.learnDiv:hover svg {
-  filter: drop-shadow(0 0 9px rgba(390, 40, 40, 0.9));
-}
-
-.button {
-  position: relative;
-  overflow: hidden;
-  display: inline-block;
-  padding: 10px 30px;
-  font-size: 20px;
-  font-weight: 600;
-  height: fit-content;
-  flex-shrink: 0;
-  color: #fff;
-  border: 1px solid #fe7a36;
-  border-radius: 29.22px;
-  background: linear-gradient(90deg, #fe7a36 0%, #953402 100%);
-  box-shadow: -3.489px -4.361px 0px 0px rgba(0, 0, 0, 0.25) inset;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.button::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.5);
-  transform: skewX(-30deg);
-  transition: left 0.8s;
-}
-
-.button:hover::before {
-  left: 100%;
-}
-
-.button:hover {
-  background: #fe7a36;
-  color: #fff;
-}
-
-.curverdiv {
-  margin: auto;
-}
-
-.typeLogo {
-  display: flex;
-  flex-direction: column;
-  margin-left: 80px;
-  margin-top: 40px;
-  gap: 10px;
-}
-
-.typeLogo p {
-  color: #9c9c9c;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 153%; /* 38.25px */
-}
-
-/* Media Queries */
-
-@media (max-width: 641px) {
-  .section {
-    width: 100%;
-    margin: 60px auto;
-    align-items: center;
-    height: fit-content;
+    grid-template-columns: 60% 36%;
   }
-  .learnDiv span {
-    display: none;
+
+  .gridConteiner h1 {
+    font-size: 36px;
   }
-  .content {
-    padding: 70px 0px 60px 0px;
-  }
-  .content h3 {
-    font-size: 20px;
-    text-align: center;
-    margin: 20px;
-  }
-  .content h1 {
+
+  .rytConteiner h2 {
     font-size: 30px;
-    width: fit-content;
-    line-height: 140%;
   }
-  .round {
-    margin: 10px 0px 70px 0px;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 16px 0px;
+  .listDown {
+    padding: 24px 24px;
   }
-  .buttonDiv {
-    gap: 16px;
+  .bookFreebtn {
+    grid-template-columns: 66% 30%;
+  }
+  .bookFreebtn p {
+    line-height: 16px;
+  }
+  .listDown img {
+    margin-top: 6px;
+  }
+  .typelogo img {
+    width: 620px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1181px) {
+  .gridConteiner {
+    width: 980px;
+    display: grid;
+    grid-template-columns: 62% 38%;
+
     margin: auto;
-    display: flex;
-    align-items: center;
+    padding: 60px 0;
+    gap: 0;
     justify-content: center;
   }
-  .button {
-    font-size: 18px;
-    font-weight: 600;
-    padding: 8px 20px;
-    cursor: pointer;
-  }
-  .iconDiv {
-    width: 50px;
-    height: 50px;
-  }
-  .playIcon {
+
+  .gridConteiner h1 {
     font-size: 30px;
   }
-  .learnDiv {
+
+  .rytConteiner h2 {
+    font-size: 32px;
+  }
+  .listleft p {
     font-size: 20px;
   }
-  .bgWrap {
-    width: 100%;
-    height: 100%;
-    /* Mobile background image */
-    /* background: url('https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/mbl_home_two.webp') no-repeat center center; */
-    background: #161616;
-    background-image: none;
-    background-size: cover;
+
+  .listleft img {
+    width: 30px;
+    height: auto;
   }
-  .typeLogoMobile {
-    display: flex;
-    flex-direction: column;
-    margin-left: 80px;
-    margin-top: 40px;
-    gap: 10px;
-    align-items: center;
-    position: relative;
-    top: -20px;
+  .rytConteiner {
+    padding: 40px 20px;
   }
-  .logoWrapMobile {
-    text-align: center;
+  .hr {
+    width: 200px;
   }
-  .typeLogo {
-    margin: 10px 22px;
-    position: relative;
-    top: -21px;
+  .listryt span {
+    font-size: 16px;
+    font-weight: 500;
   }
-  .typeLogo p {
-    text-align: start;
-    font-size: 17px;
+
+  .bookFreebtn {
+    grid-template-columns: 75% 24%;
   }
-  .typeLogo img {
+
+  .bookFreebtn button {
+    font-size: 14px;
+  }
+
+  .typelogo img {
     width: 100%;
     height: auto;
   }
-  .round svg {
-    font-size: 16px;
+  .desktopImg {
+    width: 100px;
+    height: auto;
   }
 }
 
-@media (max-width: 370px) {
-  .content h3 {
-    font-size: 16px;
-    margin-bottom: 14px;
-    text-align: center;
+@media screen and (max-width: 951px) {
+  .gridConteiner {
+    grid-template-columns: 52% 38%;
+    width: 100%;
+    max-width: 860px;
   }
-  .content {
-    font-size: 25px;
-    width: fit-content;
-    line-height: 116%;
-    padding: 40px 10px 60px 10px;
+  .gridConteiner h1 {
+    font-size: 32px;
   }
-  .content h1 {
-    font-size: 26px;
+  .listleft {
+    margin: 40px 0;
+  }
+
+  .desktopImg {
+    width: 80px;
+  }
+  .bookFreebtn button {
+    font-size: 12px;
   }
 }
 
-@media (max-width: 412px) {
-  .content h3 {
-    font-size: 22px;
-    margin: 40px 20px;
-    text-align: center;
+@media screen and (max-width: 641px) {
+  .conteiner {
+    padding: 0 30px;
+    background-color: rgba(15, 14, 14, 0.954);
+    margin-top: 64px;
   }
-  .content {
-    font-size: 25px;
-    width: fit-content;
-    line-height: 116%;
-    padding: 40px 10px 50px 10px;
+
+  .bookFreebtn {
+    grid-template-columns: 64% 30%;
+    gap: 0;
   }
-  .content h1 {
+
+  .gridConteiner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    gap: 30px;
+    padding-bottom: 20px;
+  }
+
+  .gridConteiner h1 {
     font-size: 30px;
+  }
+  .listleft p {
+    font-size: 15px;
+  }
+  .listleft {
+    margin: 20px 0;
+    gap: 20px;
+  }
+  .rytConteiner h2 {
+    font-size: 30px;
+  }
+  .rytConteiner {
+    width: 100%;
+    justify-content: center;
+    align-items: normal;
+    padding: 50px 0 20px 24px;
+  }
+
+  .listDown {
+    padding: 11px 20px;
+  }
+
+  .bookFreebtn button {
+    font-size: 12px;
+  }
+  .bookFreebtn p {
+    font-size: 11px;
+  }
+  .btn {
+    display: none;
+  }
+  .hr {
+    width: 300px;
+  }
+  .spandiv {
+    margin-top: 20px;
+  }
+  .btnMbl {
+    display: flex;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #0383ff 0%, #003456 100%);
+    border: none;
+    padding: 14px 20px;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: rgba(10, 10, 10, 0.2) 0px 8px 24px;
+    margin-top: 20px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-bottom: 20px;
+  }
+
+  .btnmblDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bookFreebtn img {
+    width: 100px;
+  }
+  .desktopImg {
+    display: none;
+  }
+  .mblImag {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .spantitle {
+    background: none; /* Remove the gradient */
+    color: #fff; /* Set text color to white */
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .gridConteiner h1 {
+    font-size: 28px;
+    line-height: 44px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .gridConteiner h1 {
+    font-size: 24px;
+  }
+  .bookFreebtn button {
+    font-size: 10px;
+  }
+  .bookFreebtn img {
+    width: 90px;
+  }
+  .hr {
+    width: 260px;
+  }
+  .rytConteiner h2 {
+    font-size: 24px;
+  }
+  .listryt span {
+    font-size: 14px;
   }
 }

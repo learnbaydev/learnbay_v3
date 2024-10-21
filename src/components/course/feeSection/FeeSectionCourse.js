@@ -20,7 +20,8 @@ const FeeSection = ({
   devopfee,
   adsHide,
   iitGuwatiGen,
-
+  hybridFee,
+  hybridEmi,
   
   emiPopupProps,
   emiType,
@@ -73,6 +74,8 @@ const FeeSection = ({
      monthlyPayment2 ={monthlyPayment2}
      greenDown2 ={greenDown2}
      iitGuwatiGen={iitGuwatiGen}
+     hybridFee={hybridFee}
+     hybridEmi={hybridEmi}
       />
     </div>
   );

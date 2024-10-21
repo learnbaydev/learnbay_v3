@@ -218,18 +218,14 @@
 .feesmain h2 {
   color: #212121;
   text-align: center;
-  font-size: 40px;
-  font-weight: 800;
+  font-size: 42px;
+  position: relative;
+  z-index: 1;
+  font-weight: 600;
 }
 
 .feesmain {
-  background: linear-gradient(
-    180deg,
-    #fff 0%,
-    #eff3f6 42.69%,
-    #eff3f6 66.46%,
-    #fff 98.82%
-  );
+  margin-top: 70px;
 }
 
 .feesmain span {
@@ -272,10 +268,40 @@
 
 .mainContainer {
   border-radius: 38.262px;
-  padding: 0px 50px 120px 50px;
+  padding: 60px 50px 0px 50px;
   width: 1200px;
   margin: auto;
-  margin-top: 90px;
+  position: relative;
+}
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+.background::before,
+.background::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  background-image: linear-gradient(
+      90deg,
+      hsla(0, 0%, 70%, 0.1) 1px,
+      transparent 0
+    ),
+    linear-gradient(180deg, hsla(0, 0%, 69%, 0.1) 1px, transparent 0);
+  background-size: 50px 50px;
+  z-index: -1;
+  /* opacity: .2; */
 }
 /* .innerMainContainer {
     position: relative;
@@ -283,17 +309,71 @@
   } */
 .innerContainer {
   display: grid;
-  grid-template-columns: 46% 46%;
-  gap: 30px;
-  justify-content: space-between;
+  grid-template-columns: 47% 47%;
+  gap: 60px;
+  justify-content: center;
+}
+.divTop {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.starRight {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.starRight img {
+  width: 100%;
+  height: auto;
+}
+.divTop span {
+  border-radius: 33px;
+  border: 1px solid #0383ff;
+  background: rgba(3, 131, 255, 0.15);
+  color: #0383ff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 3px 10px;
+  margin-bottom: 34px;
 }
 .firstContainer,
 .secondContainer {
-  border-radius: 40px;
+  padding: 50px 40px 30px 40px;
+  border-radius: 38px;
+  border: 1px solid #f3f3f3;
   background: #fff;
-  padding: 30px 30px 50px 30px;
+  box-shadow: -171px 154px 64px 0px rgba(0, 0, 0, 0),
+    -109px 99px 59px 0px rgba(0, 0, 0, 0.01),
+    -61px 55px 50px 0px rgba(0, 0, 0, 0.03),
+    -27px 25px 37px 0px rgba(0, 0, 0, 0.05),
+    -7px 6px 20px 0px rgba(0, 0, 0, 0.06);
 }
-.headContent, .headContentBlue {
+.secondContainer {
+  position: relative;
+  border-radius: 0px 38px 38px 38px;
+}
+.popularTag {
+  background-color: #0072bc;
+  border-radius: 40px 40px 0 0;
+  position: absolute;
+  padding: 10px 60px;
+  min-width: 73%;
+  left: 0;
+  top: -45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popularText {
+  font-size: 20px;
+  color: white;
+  margin: 0;
+}
+.headContent,
+.headContentBlue {
   font-size: 36px;
   font-weight: 600;
   display: flex;
@@ -308,13 +388,14 @@
   z-index: 1;
 }
 
-.botDivArrowBlue, .botDivArrowOrange {
-    background: #fff;
-    width: 130px;
-    height: 100px;
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
-    margin-top: -130px;
-    margin-bottom: 50px;
+.botDivArrowBlue,
+.botDivArrowOrange {
+  background: #fff;
+  width: 130px;
+  height: 100px;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+  margin-top: -130px;
+  margin-bottom: 50px;
 }
 
 .botDivArrowOrange {
@@ -327,38 +408,31 @@
 }
 
 .botDivArrowBlue {
-    background: #0072bc40;
+  background: #0072bc40;
 }
 
 .botDivArrowOrange {
-    background: #FE7A3640;
+  background: #fe7a3640;
 }
 
 .headContent {
-    border: 1px solid #FE7A36;
-
+  border: 1px solid #fe7a36;
 }
 
 .headContentBlue {
-    border: 1px solid #0072BC;
+  border: 1px solid #0072bc;
 }
 
-.headOrange {
-    color: #FE7A36;
-    font-size: 32px;
-    font-weight: 600;
-}
-
+.headOrange,
 .headBlue {
-    font-size: 32px;
-    font-weight: 600;
-    background: linear-gradient(90deg, #686464 1.09%, #AAA 35.59%, #212121 72.11%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  color: #212121;
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 34px;
 }
 
-.headContent img, .headContentBlue img {
+.headContent img,
+.headContentBlue img {
   width: auto;
   height: 100%;
 }
@@ -377,7 +451,9 @@ background-clip: text;
 }
 
 .firstContainer .iconDiv {
-  margin-top: 30px;
+  margin-top: 26px;
+  padding-bottom: 47px;
+  border-bottom: 1px solid #000;
 }
 .secondContainer .headContent h4 {
   color: #0072bc;
@@ -386,24 +462,32 @@ background-clip: text;
 
 .iconDiv {
   display: grid;
-  gap: 34px;
-  margin: 10px 0px 50px 0px;
+  gap: 28px;
+  margin-top: 26px;
+  padding-bottom: 34px;
+  border-bottom: 1px solid #000;
 }
 
 .innerIconDiv {
   display: flex;
-  gap: 20px;
+  gap: 14px;
   align-items: center;
+}
+
+.iconContent span {
+  color: #000;
+  font-weight: 500;
 }
 
 .iconDiv p {
   color: #212121;
-  font-weight: 500;
+  font-weight: 400;
   margin: 0;
 }
 
-.firstP {
-  font-weight: 700;
+.firstP,
+.fadedText {
+  font-weight: 500;
   font-size: 20px;
   margin: 0;
 }
@@ -429,20 +513,6 @@ background-clip: text;
   color: #fe7a36;
 }
 
-.fadedText {
-  background: linear-gradient(
-    90deg,
-    #707070 0.14%,
-    #999a9a 38.22%,
-    #212121 74.36%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 20px;
-  font-weight: 700;
-  margin: 30px 0px 20px 0px;
-}
 .secondContainer > .innerIconDiv {
   text-align: center;
   margin-top: 30px;
@@ -452,32 +522,37 @@ background-clip: text;
   width: auto;
   height: 24px;
 }
-.feeSectionContainer {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 10px;
-  align-items: flex-end;
+
+.emiButton button,
+.emiButtonBlue button {
+  text-align: center;
+  border-radius: 10px;
+  background: #fff;
+  margin-top: 24px;
+  width: fit-content;
+  padding: 14px 40px;
+  border: none;
 }
 
-.feeContentContainer {
-  text-align: center;
+.emiButtonBlue button {
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #022646;
 }
 
 .emiButton button {
-  padding: 7px 16px;
-  color: #fe7a36;
-  text-align: center;
-  font-size: 13px;
+  color: white;
   font-weight: 600;
-  margin: auto;
-  border-radius: 9px;
-  border: 1px solid #fe7a36;
-  background: #fff;
-  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: #212121;
 }
 
 .emiButton button:hover {
-  border: 1px solid #fe7a36;
   background: #fff;
   color: #000;
 }
@@ -485,17 +560,15 @@ background-clip: text;
 .feeContentContainer p {
   font-size: 16px;
   font-weight: 400;
+  margin: 0;
 }
 .feeContentContainer h4 {
-  color: #fe7a36;
-  font-size: 38px;
-  font-weight: 700;
-  margin-top: 10px;
+  color: #000;
+  font-size: 36px;
+  font-weight: 500;
+  margin-top: 4px;
 }
 .feeContentContainer > h4 {
-  border-bottom: 1px solid #000;
-  padding-bottom: 20px;
-  margin: auto;
   width: fit-content;
 }
 .paymentPartner {
@@ -515,15 +588,14 @@ background-clip: text;
 }
 
 .border {
-  display: flex;
-  gap: 15px;
-
+  padding: 24px 0px 40px 0px;
 }
 
 .border h4 {
   color: #838383;
-  font-size: 35px;
-  font-weight: 700;
+  font-size: 24px;
+  margin-top: 5px;
+  font-weight: 600;
 }
 
 .border span {
@@ -533,10 +605,34 @@ background-clip: text;
 }
 
 .border p {
-  font-weight: 700;
-  padding-top: 20px;
-  font-size: 22px;
+  font-weight: 500;
+  font-size: 20px;
   margin: 0;
+}
+.pImp {
+  font-size: 12px;
+  line-height: normal;
+}
+
+.btnone {
+  border-radius: 30px;
+  background: #0072bc;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 20px 8px 10px;
+  cursor: pointer;
+}
+.btnDown {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
 }
 
 @media (max-width: 1281px) {
@@ -544,7 +640,7 @@ background-clip: text;
     font-size: 35px;
   }
 
-  .mainContainer{
+  .mainContainer {
     width: auto;
   }
 }
@@ -566,6 +662,22 @@ background-clip: text;
   .feesmain h2 {
     text-align: center;
     margin-top: 50px;
+    font-size: 28px;
+    color: #212121;
+    font-weight: 400;
+  }
+
+  .iconDiv {
+    padding-bottom: 26px;
+  }
+
+  .emiButtonBlue button {
+    padding: 10px 20px;
+  }
+
+  .feesmain span {
+    color: #212121;
+    font-weight: 700;
   }
 
   .second {
@@ -588,7 +700,7 @@ background-clip: text;
   .mainContainer {
     width: 100%;
     margin-top: 20px;
-    padding: 0px 20px 40px 20px;
+    padding: 0px 24px 40px 24px;
     height: 100%;
   }
 
@@ -598,20 +710,33 @@ background-clip: text;
 
   .innerContainer {
     display: flex;
-    gap: 20px;
+    gap: 60px;
     flex-direction: column;
+  }
+  .popularTag {
+    top: -34px;
   }
   .firstContainer .iconDiv {
     margin-top: 20px;
-    gap: 20px;
-    grid-template-columns: 47% 47%;
+    gap: 12px;
+    grid-template-columns: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 24px;
+  }
+  .feesmain {
+    margin-top: 50px;
+  }
+  .border {
+    padding: 0px 0px 20px 0px;
   }
   .firstContainer,
   .secondContainer {
-    padding: 20px;
+    padding: 20px 16px;
+    border-radius: 20px;
   }
-  .feeContentContainer {
-    display: none;
+  .feeContentContainer h4 {
+    padding: 0px;
+    font-size: 32px;
   }
   .emiButton {
     margin: auto;
@@ -620,12 +745,95 @@ background-clip: text;
   .divHeadIcon h4 {
     margin: 0;
     padding: 0;
+    font-size: 18px;
   }
   .fadedText {
-    font-size: 24px;
+    font-size: 18px;
   }
+  .headContent,
+  .headContentBlue {
+    padding: 12px;
+    margin-bottom: 0px;
+  }
+  .headOrange,
+  .headBlue {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .headContent img,
+  .headContentBlue img {
+    width: 40px;
+  }
+  .botDivArrowOrange {
+    margin-top: -60px;
+    margin-bottom: 24px;
+    width: 84px;
+    height: 80px;
+  }
+  .botDivArrowBlue {
+    float: left;
+    margin: -60px 0px 24px 40px;
+    width: 84px;
+    height: 80px;
+  }
+  .secondContainer {
+    margin-top: 40px;
+    border-radius: 0px 35px 35px 35px;
+  }
+  .popularTag {
+    padding: 5px 60px;
+  }
+  .firstP {
+    font-size: 18px;
+  }
+  .innerIconDiv img,
+  .divHeadIcon img {
+    height: 20px;
+  }
+  .pImp {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .pImp span {
+    color: #fe7a36;
+  }
+
   .iconDiv {
-    gap: 20px;
-    grid-template-columns: 46% 46%;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  .innerIconDiv {
+    gap: 14px;
+  }
+  .border p {
+    font-size: 18px;
+  }
+  .border h4 {
+    font-size: 22px !important;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .emiButton {
+    margin-top: 10px;
+  }
+  .emiButton button {
+    margin-top: 0;
+    padding: 10px 20px;
+  }
+  .headContentBlue {
+    margin-top: 40px;
+  }
+  .starRight {
+    right: 0;
+    top: 0;
+  }
+  .divTop {
+    gap: 10px;
+
+    position: relative;
+  }
+  .divTop span {
+    margin-bottom: 20px;
   }
 }

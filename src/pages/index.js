@@ -1,7 +1,5 @@
-import { ThirdSectionData } from "@/Data/ThirdSectionData";
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-import CareerHome from "@/components/Home/CareerHome/CareerHome";
 import FirstSection from "@/components/Home/FirstSection/FirstSection";
 import Media from "@/components/Home/Media/Media";
 import MobileTestimonial from "@/components/Home/MobileTestimonial/MobileTestimonial";
@@ -10,15 +8,12 @@ import Head from "next/head";
 import { useMediaQuery } from "react-responsive";
 import { useEffect, useState } from "react";
 import Navbar from "../components/Global/Navbar/Navbar";
+const Animation = dynamic(() =>
+  import("@/components/Home/whyChooseSection/whyChooseSection")
+);
 const Course = dynamic(() => import("@/components/Home/Course/Course"));
 const WhyLearnbay = dynamic(() =>
   import("@/components/Home/WhyLearnbay/WhyLearnbay")
-);
-const OfferPopup = dynamic(() =>
-  import("../components/Global/OfferPopup/OfferPopup")
-);
-const ProjectSection = dynamic(() =>
-  import("@/components/Home/ProjectSection/ProjectSection")
 );
 const Realstory = dynamic(() =>
   import("@/components/Home/Realstory/Realstory")
@@ -126,37 +121,10 @@ export default function Home() {
     //   url: "https://startuptalky.com/krishna-kumar-learnbay-edtech-industry-recap22/",
     // },
   ];
-  const [popupData, setPopupData] = useState([]);
+
   const isMobile = useMediaQuery({ query: "(max-width: 640px)" });
   // console.log(popupData);
-  useEffect(() => {
-    // console.log("inside UseEFFect");
-    const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
-      });
-      if (data.status === 200) {
-        const { popData } = await data.json();
-        // console.log(popData, "get data");
-        if (popData == []) {
-          setPopupData([]);
-        }
 
-        popData.map((data, i) => {
-          // console.log(data);
-          data.page.map((popupData, i) => {
-            // console.log(popData);
-            if (popupData === "Adv Data Science and AI") {
-              setPopupData(data);
-              // console.log(popupData);
-              return;
-            }
-          });
-        });
-      }
-    };
-    fetchPopup();
-  }, []);
   return (
     <>
       <Head>
@@ -412,11 +380,7 @@ export default function Home() {
       <Course dataScience={true} radio={true} />
       <WhyLearnbay ids="YWxTtvb3x-U" />
 
-      <CareerHome
-        dataScience={true}
-        ThirdSectionData={ThirdSectionData}
-        radio={true}
-      />
+      <Animation />
       <div className="realstory">
         <Realstory />
       </div>

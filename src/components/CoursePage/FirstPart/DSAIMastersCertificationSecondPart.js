@@ -8,8 +8,9 @@ import LJourney from "../LJourney/LJourney";
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
 const Certificate = dynamic(() => import("../Certificate/Certificate"));
-const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
-const FeeSection = dynamic(() => import("../FeeSection/FeeSection"));
+const FeeSection = dynamic(() =>
+  import("../../course/feeSection/FeeSectionCourse")
+);
 const MentorsSection = dynamic(() =>
   import("../../Global/MentorsSection/MentorsSection")
 );
@@ -93,35 +94,22 @@ const SecondPart = ({
       <ToolsCovered />
       <Certificate data={CertificateData} />
       <FeeSection
-        Fee="₹1,35,000"
-        FeeEmi="₹8,850/month"
-        weekdaybatch="Weekday Batch"
-        weekendbatch="Weekend Batch"
-        weekday="MON - THU"
-        weekend="SAT - SUN"
-        WeekdayDate="Nov 8th"
-        WeekendDate="Oct 27th"
-        WeekendTime="9:30 AM - 1 PM"
-        WeekdayTime="8:00 PM - 10:30 PM"
-        FeeContent3="Flexible payment"
-        FeeContent4="Easy loan procedure"
-        FeeContent5="10 days refund policy"
-        FeeContent6="No additional cost"
-        dataScienceCounselling={true}
-        interstedInHide={true}
-        dataScience={true}
-        titleCourse="Advanced Data Science and AI Program with domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf"
-        brochurePdf={pdfUrl}
-        // <EMI POPUP
-        emiType="NO COST EMI"
-        duration1="18 Months"
-        totalAmount1="₹1,35,000"
-        monthlyPayment1="₹8,850"
-        greenDown1="Standard Intrest rate Applicable"
+        Fee="₹ 1,35,000 "
+        FeeEmi="₹ 7,500/ month"
+        // Hybrid Classes
+        hybridFee="₹ 1,50,000"
+        hybridEmi="₹ 8,333/ month"
+        // EMIPOPUP
+        emiType="Live online classes"
+        duration1="12 Months"
+        totalAmount1="₹1,90,000"
+        monthlyPayment1="₹14,094"
+        greenDown1="Hybrid Classes"
         duration2="12 Months"
-        totalAmount2="₹1,35,000"
-        monthlyPayment2="₹13,275"
+        totalAmount2="₹2,10,000"
+        monthlyPayment2="₹12,455"
+        dataScienceCounselling={true}
+        iitGuwatiGen={true}
       />
 
       <MentorsSection />

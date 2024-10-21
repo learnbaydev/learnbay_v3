@@ -6,7 +6,7 @@ import styles from "../../styles/Home.module.css";
 import Navbar from "../../components/Global/Navbar/Navbar";
 import Footer from "../../components/Global/Footer/Footer";
 import WhatsappFloat from "../../components/Global/WhatappsFloat/WhatsappFloat";
-import CareerHome from "@/components/Home/CareerHome/CareerHome";
+import Animation from "@/components/Home/whyChooseSection/whyChooseSection";
 const SeventhSection = dynamic(() =>
   import("../../components/Global/SeventhSection/SeventhSection")
 );
@@ -160,11 +160,7 @@ export default function Home() {
       />
       <WhyLearnbay ids="YWxTtvb3x-U" />
 
-      <CareerHome
-        ThirdSectionData={ThirdSectionData}
-        radio={true}
-        dataScienceGeneric={true}
-      />
+      <Animation />
 
       <div className="realstory">
         <Realstory noYt={true} />
@@ -173,10 +169,7 @@ export default function Home() {
       <TrainerSection adsHide={true} />
       <ContactUs dataScienceGeneric={true} radio={true} />
       <GetHire />
-      <MobileTestimonial
-        radio={true}
-        dataScienceGeneric={true}
-      />
+      <MobileTestimonial radio={true} dataScienceGeneric={true} />
       <Media projectData={data} noLink={true} />
 
       <SeventhSection whatsappShow={true} />

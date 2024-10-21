@@ -1,32 +1,10 @@
 import Head from "next/head";
 import { parseJSONData } from "@/Util/JsonConvertor";
-import { useEffect, useState } from "react";
 import BAFirstPart from "@/components/CoursePage/FirstPart/BAFirstPart";
 import BASecondPart from "@/components/CoursePage/FirstPart/BASecondPart";
 
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
-
-  const [popupData, setPopupData] = useState([]);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      const popupResponse = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
-      });
-      if (popupResponse.status === 200) {
-        const { popData } = await popupResponse.json();
-        const foundPopup = popData.find((data) =>
-          data.page.includes("Business Analytics master Certification Program")
-        );
-        if (foundPopup) {
-          setPopupData(foundPopup);
-        }
-      }
-    };
-
-    fetchData();
-  }, []);
 
   // const [batchDateData, setBatchDateData] = useState("");
 
@@ -85,10 +63,10 @@ function Blockchain({ DataScienceCourseDataJson }) {
           rel="canonical"
           href="https://www.learnbay.co/datascience/business-analytics-certification-course"
         />
-        <script 
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: `{
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
             "@context": "http://schema.org",
             "@type": "Course",
             "name": "Businesss Analytics Master Certification Program",
@@ -121,12 +99,8 @@ function Blockchain({ DataScienceCourseDataJson }) {
 
 
 
-          }`
-
-        }}
-        
-
-
+          }`,
+          }}
         />
       </Head>
       <main>

@@ -10,9 +10,8 @@ const WhatsappFloat = dynamic(() =>
 const Certificate = dynamic(() =>
   import("../../../components/CoursePage/Certificate/Certificate")
 );
-const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
 const FeeSection = dynamic(() =>
-  import("../../../components/CoursePage/FeeSection/FeeSection")
+  import("../../course/feeSection/FeeSectionCourse")
 );
 
 const MentorsSection = dynamic(() =>
@@ -98,34 +97,21 @@ const SecondPart = ({
       <Certificate data={CertificateData} />
       <FeeSection
         Fee="₹ 95,000"
-        FeeEmi="₹ 6,228/month"
-        weekdaybatch="Weekday Batch"
-        weekendbatch="Weekend Batch"
-        weekday="MON-FRI"
-        weekend="SAT- SUN"
-        WeekdayDate="Oct 18th"
-        WeekendDate="Nov 17th"
-        WeekendTime="9:30 AM - 1:00 PM"
-        WeekdayTime="8:00 PM - 10:30 PM"
-        FeeContent3="Flexible payment"
-        FeeContent4="Easy loan procedure"
-        FeeContent5="10 days refund policy"
-        FeeContent6="No additional cost"
-        dataScienceCounselling={true}
-        interstedInHide={true}
-        titleCourse="Business Analytics Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
-        brochurePdf={pdfUrl}
-        dataScience={true}
-        // EMI POPUPDATA
-        emiType="NO COST EMI"
-        duration1="18 Months"
-        totalAmount1="₹95,000"
-        monthlyPayment1="₹6,228"
-        greenDown1="Standard Intrest rate Applicable"
+        FeeEmi="₹ 5,277/ month"
+        // Hybrid Classes
+        hybridFee="₹ 1,05,000"
+        hybridEmi="₹ 5,833/ month"
+        // EMIPOPUP
+        emiType="Live online classes"
+        duration1="12 Months"
+        totalAmount1="₹ 95,000"
+        monthlyPayment1="₹14,094"
+        greenDown1="Hybrid Classes"
         duration2="12 Months"
-        totalAmount2="₹95,000"
-        monthlyPayment2="₹9,342"
+        totalAmount2="₹2,10,000"
+        monthlyPayment2="₹12,455"
+        dataScienceCounselling={true}
+        iitGuwatiGen={true}
       />
       <MentorsSection />
       <SliderTab />
