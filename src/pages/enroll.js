@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Footer from "../components/Global//Footer/Footer";
-import EnrollPage from "@/components/EnrollPage/EnrollPage";
+// import EnrollPage from "@/components/EnrollPage/EnrollPage";
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
         <link rel="canonical" href="https://www.learnbay.co/demo" />
       </Head>
       <main>
-        <EnrollPage />
+        {/* <EnrollPage /> */}
       </main>
     </div>
   );

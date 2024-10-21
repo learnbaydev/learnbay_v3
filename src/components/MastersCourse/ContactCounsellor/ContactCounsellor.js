@@ -5,7 +5,8 @@ import { AiOutlineMail } from "react-icons/ai";
 import Image from "next/image";
 import Popup from "../../Global/Popup/Popup";
 import Form from "../../Global/Form/Form";
-import { MdOutlineWhatsappSvg } from "@/Data/svgData/MDIcons";
+import { MdOutlineWhatsappSvg } from "@/Data/svgData/MDIcons/MdOutlineWhatsappSvg";
+
 
 const ContactCounsellor = ({ dataScience, dataScienceCounselling }) => {
   const [popups, setPopups] = useState(false);
