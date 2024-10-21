@@ -38,6 +38,7 @@ function HeroSection({ setPopups, }) {
                 alt="icon"
                 priority
                 quality={80}
+                sr
               />
               <p>
                 Get ready to crack your{" "}

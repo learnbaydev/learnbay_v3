@@ -29,23 +29,19 @@
 }
 .gridConteiner h1 {
   font-size: 42px;
-  font-style: normal;
-  font-weight: 600 !important;
-  line-height: 126.5%; /* 75.9px */
   letter-spacing: 0.6px;
   color: #fff;
-  font-weight: 700;
   margin-top: -8px;
-  font-family: sans-serif !important;
+  font-family: "Open Sans", sans-serif;
 }
-.spantitle {
+/* .spantitle {
   background: linear-gradient(90deg, #fe7a36 23.18%, #ffc436 65.33%);
   background-clip: text;
   font-weight: 600;
   line-height: 125%;
   letter-spacing: 0.55px;
-  color: transparent; /* Keep this for desktop view */
-}
+  color: transparent; 
+} */
 .btn {
   position: relative; /* For positioning the pseudo-element */
   overflow: hidden; /* To prevent the pseudo-element from overflowing */
@@ -484,7 +480,7 @@
 @media screen and (max-width: 412px) {
   .gridConteiner h1 {
     font-size: 28px;
-    line-height: 44px;
+    /* line-height: 44px; */
   }
 }
 

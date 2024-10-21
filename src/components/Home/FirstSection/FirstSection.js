@@ -3,7 +3,8 @@ import React, { useState } from "react";
 const PopupContent = dynamic(() =>
   import("../../Global/PopupContent/PopupContent")
 );
-const FirstSectionContent = dynamic(() => import("./FirstSectionContent"));
+
+import  FirstSectionContent from "./FirstSectionContent" 
 
 const FirstSection = ({
   dataScience,
