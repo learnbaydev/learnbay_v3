@@ -12,7 +12,7 @@ const ReviewSlider = dynamic(() =>
   import("@/components/course/reviewSlider/reviewSlider")
 );
 const FeeSection = dynamic(() =>
-  import("@/components/course/feeSection/feeSection")
+  import("../../course/feeSection/FeeSectionCourse")
 );
 const JobReadySection = dynamic(() =>
   import("@/components/course/jobReadySection/jobReadySection")
