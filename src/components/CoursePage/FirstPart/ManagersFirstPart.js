@@ -1,4 +1,3 @@
-import WhyChooseSection from "@/components/course/whyChooseSection/whyChooseSection";
 import { ThirdSectionData } from "@/Data/ThirdSectionData";
 import dynamic from "next/dynamic";
 import React from "react";
@@ -8,6 +7,9 @@ const SecondNavbar = dynamic(() =>
 );
 const WhoProgram = dynamic(() =>
   import("../../../components/CoursePage/WhoProgram/ThirdSection")
+);
+const AnimationNew = dynamic(() =>
+  import("@/components/Home/whyChooseSection/AnimationNew")
 );
 const TrainerSection = dynamic(() =>
   import("../../../components/Global/TrainerSection/TrainerSection")
@@ -178,7 +180,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         leftImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/advance-who.webp"
         ThirdSectionData={ThirdSectionData}
       />
-      <WhyChooseSection />
+      <AnimationNew />
       <Realstory />
       <TrainerSection idss="eautK0odE7Q" />
       {/* <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} /> */}

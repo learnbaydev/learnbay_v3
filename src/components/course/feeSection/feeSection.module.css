@@ -539,7 +539,11 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  background: #022646;
+  font-weight: 600;
+  background: linear-gradient(90deg, #17224e 0%, #0383ff 100%);
+}
+.emiButtonBlue button:hover {
+  color: white !important;
 }
 
 .emiButton button {

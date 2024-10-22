@@ -421,13 +421,15 @@
   }
 
   .listDown {
-    padding: 11px 20px;
+    padding: 15px 20px;
   }
 
   .bookFreebtn button {
     font-size: 12px;
+    display: none;
   }
   .bookFreebtn p {
+    margin: 0;
     font-size: 11px;
   }
   .btn {
@@ -463,6 +465,7 @@
     align-items: center;
   }
   .bookFreebtn img {
+    margin: 0;
     width: 100px;
   }
   .desktopImg {
@@ -472,11 +475,6 @@
     display: block;
     width: 100%;
     height: auto;
-  }
-
-  .spantitle {
-    background: none; /* Remove the gradient */
-    color: #fff; /* Set text color to white */
   }
 }
 
