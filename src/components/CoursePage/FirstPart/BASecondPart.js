@@ -112,6 +112,7 @@ const SecondPart = ({
         monthlyPayment2="₹12,455"
         dataScienceCounselling={true}
         iitGuwatiGen={true}
+        interstedInHide={true}
       />
       <MentorsSection />
       <SliderTab />

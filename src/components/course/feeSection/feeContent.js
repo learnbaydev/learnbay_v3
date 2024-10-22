@@ -36,7 +36,6 @@ const FeeContent = ({
   };
   return (
     <div className={styles.feesmain}>
-      <div className={styles.background} />
       <h2>Course Fee</h2>
       <div className={styles.mainContainer}>
         <div className={styles.innerContainer}>
@@ -93,30 +92,26 @@ const FeeContent = ({
               <div className={styles.border}>
                 <p>Program Fee</p>
                 <h4>
-                  {Fee}
-                  <span> + 18% GST</span>
+                  {Fee}<span> + 18% GST</span>
                 </h4>
               </div>
               <p>Pay in easy EMIs starting as low as</p>
               <h4>{FeeEmi}</h4>
 
-              <div className={styles.emiButton} onClick={openEmiPopup}>
+              <div className={styles.emiButton} onClick={popupShow}>
                 <Button text="Check EMI Options" />
               </div>
             </div>
           </div>
           <div className={styles.secondContainer}>
-            <div className={styles.popularTag}>
-              <p className={styles.popularText}> Popular</p>
-            </div>
             <div className={styles.starRight}>
-              <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/V4/Coursepage/star_right.webp"
-                alt="Zest"
-                width="590"
-                height="525"
-                loading="lazy"
-              />
+            <Image
+              src="https://d32and0ii3b8oy.cloudfront.net/web/V4/Coursepage/star_right.webp"
+              alt="Zest"
+              width="590"
+              height="525"
+              loading="lazy"
+            />
             </div>
             <div className={styles.divTop}>
               <h4 className={styles.headBlue}>Hybrid Classes</h4>
@@ -185,33 +180,30 @@ const FeeContent = ({
                 <div className={styles.border}>
                   <p>Program Fee</p>
                   <h4>
-                    {hybridFee}
-                    <span> + 18% GST</span>
+                    {hybridFee}<span> + 18% GST</span>
                   </h4>
                 </div>
                 <p>Pay in easy EMIs starting as low as</p>
                 <h4 style={{ color: "#0072BC" }}>{hybridEmi}</h4>
 
-                <div className={styles.emiButtonBlue} onClick={openEmiPopup}>
+                <div className={styles.emiButtonBlue} onClick={popupShow}>
                   <Button text="Check EMI Options" />
                 </div>
               </div>
             </div>
           </div>
+        
+
+    
         </div>
-        <div className={styles.btnDown}>
-          <div className={styles.btnone} onClick={popupShow}>
-            <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Thumb_Icon+(1).webp"
-              width={30}
-              height={30}
-              loading="lazy"
-              alt="Python"
-            />
-            Start Your Application
-          </div>
+     <div className={styles.btnDown}>
+     <div className={styles.btnone} onClick={popupShow}>
+          <Image src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Thumb_Icon+(1).webp" width={30} height={30} loading="lazy" alt="Python"/>
+          Start Your Application
         </div>
+     </div>
       </div>
+      
 
       {/* Emi Popup */}
       <Modal

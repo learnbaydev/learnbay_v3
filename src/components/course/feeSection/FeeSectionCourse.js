@@ -76,6 +76,7 @@ const FeeSection = ({
      iitGuwatiGen={iitGuwatiGen}
      hybridFee={hybridFee}
      hybridEmi={hybridEmi}
+     interstedInHide={interstedInHide}
       />
     </div>
   );
