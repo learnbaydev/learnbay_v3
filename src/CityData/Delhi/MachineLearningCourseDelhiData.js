@@ -842,7 +842,11 @@ export const MLDelhiCourseData = [
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf",
     CertificationBot1:
       "In collaboration with IBM, we provide a course completion certificate upon completing Learnbay's professional Machine Learning training course in Delhi. Interestingly, after finishing several modules of Artificial Intelligence and Machine Learning courses, students will receive six additional IBM credentials. The IBM Machine Learning Project Experience Certificate is the most important of all six certificates. These are undeniably valuable additions to your resume.",
-    src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Advanced-AI-ML.jpeg",
+      src33:
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
+    src22:
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
     ModuleBot1:
       "Learnbay is a great place for students to pursue Machine Learning course training in Delhi. Programming and Machine Learning technologies and advanced statistical applications are the core topics of this training in Delhi. Each of these modules contains a variety of domain-based case studies and advanced Machine Learning-related assignments.",
     ModuleBot2:
