@@ -1,58 +1,53 @@
 import { ThirdSectionData } from "@/Data/ThirdSectionData";
 import dynamic from "next/dynamic";
 import React from "react";
-const SecondNavbar = dynamic(() =>
-  import("../SecondNavbar/SecondNavbar")
+const SecondNavbar = dynamic(() => import("../SecondNavbar/SecondNavbar"));
+const AnimationNew = dynamic(() =>
+  import("@/components/Home/whyChooseSection/AnimationNew")
 );
-const WhoProgram = dynamic(() =>
-  import("../WhoProgram/ThirdSection")
-);
+const WhoProgram = dynamic(() => import("../WhoProgram/ThirdSection"));
 const TrainerSection = dynamic(() =>
   import("../../Global/TrainerSection/TrainerSection")
 );
-const Testimonial = dynamic(() =>
-  import("../../Global/Testimonial/Testimonial")
-);
-const WhoIsProgram = dynamic(() =>
-  import("../WhoIsProgram/WhoIsProgram")
-);
-const WhyLearnbay = dynamic(() =>
-  import("../WhyLearnbay/WhyLearnbay")
-);
+const WhoIsProgram = dynamic(() => import("../WhoIsProgram/WhoIsProgram"));
+const WhyLearnbay = dynamic(() => import("../WhyLearnbay/WhyLearnbay"));
 const GetHire = dynamic(() => import("../../Home/GetHire/GetHire"));
 const ContactConsellor = dynamic(() =>
   import("../ContactCounsellor/ContactCounsellor")
 );
 const CloudDevopsecond = dynamic(() =>
-  import(
-    "../cloud&devops/DevOpsSecondSection/DevOpsSecondSection"
-  )
+  import("../cloud&devops/DevOpsSecondSection/DevOpsSecondSection")
 );
-const FirstSection = dynamic(() =>
-  import("../FirstSection/FirstSection")
-);
+const FirstSection = dynamic(() => import("../FirstSection/FirstSection"));
 
-const MasterSecondSection  = dynamic(() =>
+const MasterSecondSection = dynamic(() =>
   import("../../MastersCourse/MasterSecondSection/MasterSecondSection")
 );
-const JobAbroad = dynamic(()=>
-import( "../../MastersCourse/JobAbroad/JobAbroad"
-)
+const JobAbroad = dynamic(() =>
+  import("../../MastersCourse/JobAbroad/JobAbroad")
 );
-const Realstory = dynamic (() =>
-import ("../../Home/Realstory/Realstory"));
+
+const Realstory = dynamic(() => import("../../Home/Realstory/Realstory"));
 
 import { AiOutlineContainer } from "react-icons/ai";
 import { BsDisplay, BsPeople, BsPersonGear } from "react-icons/bs";
 import { FaLinkedinIn, FaReact } from "react-icons/fa";
 import { TbBrandGoogleAnalytics } from "react-icons/tb";
 const FirstPart = ({ SecondSectionData, TestimonialData }) => {
-
   const seconddata = [
-    { boldText: "IBM", normalText: "Certified Capstone", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
-    { CboldText: "175%", normalText: "Average Salary Hike", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
-    { boldText: "35K+", normalText: "Trusted Learners", },
-    
+    {
+      boldText: "IBM",
+      normalText: "Certified Capstone",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp",
+    },
+    {
+      CboldText: "175%",
+      normalText: "Average Salary Hike",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp",
+    },
+    { boldText: "35K+", normalText: "Trusted Learners" },
   ];
   const DsSecond = {
     title1: "Domain Specialization",
@@ -96,24 +91,29 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
     title: "Fast-Track Your Career in AI    ",
     points: [
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
         imgAlt: "",
         title: "Comprehensive Mastery of AI and Data Science:        ",
-        description: "Gain in-depth knowledge and practical skills in AI and Data Science        ",
+        description:
+          "Gain in-depth knowledge and practical skills in AI and Data Science        ",
       },
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
         imgAlt: "",
         title: "Complimentary Advance Gen-AI Module        ",
-        description: "Tailored for career transformation in a tech-driven era        ",
+        description:
+          "Tailored for career transformation in a tech-driven era        ",
       },
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
         imgAlt: "",
         title: "3 years of Job and Placement support        ",
-        description: "Online and flexible, ideal for busy professionals:        ",
+        description:
+          "Online and flexible, ideal for busy professionals:        ",
       },
-   
     ],
     bannerImage: {
       src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Adv-dsai-_1_-min.webp",
@@ -124,7 +124,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
-const pdfUrl = "/Brochure/AI-Master-Certification.pdf"
+  const pdfUrl = "/Brochure/AI-Master-Certification.pdf";
   return (
     <>
       <FirstSection
@@ -143,12 +143,14 @@ const pdfUrl = "/Brochure/AI-Master-Certification.pdf"
         idss="nutaXz8kwBc"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Foundation+program-min.webp"
         videoId="nutaXz8kwBc"
-      
       />
-       <MasterSecondSection data={seconddata} />
+      <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={DsSecond} />
-      <JobAbroad data={JobData} dataScienceCounselling={true}
-        interstedInHide={true}/>
+      <JobAbroad
+        data={JobData}
+        dataScienceCounselling={true}
+        interstedInHide={true}
+      />
       <SecondNavbar
         interstedInHide={true}
         dataScience={true}
@@ -161,9 +163,10 @@ const pdfUrl = "/Brochure/AI-Master-Certification.pdf"
         leftImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/advance-who.webp"
         ThirdSectionData={ThirdSectionData}
       />
-      <Realstory/>
+      <AnimationNew />
+      <Realstory />
       <TrainerSection idss="eautK0odE7Q" />
-  
+
       <WhoIsProgram
         first="Bachelor's degree with consistent good academic"
         second="Minimum 6 Months of IT/Non-IT work experience"

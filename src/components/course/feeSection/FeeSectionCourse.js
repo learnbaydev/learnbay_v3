@@ -20,8 +20,9 @@ const FeeSection = ({
   devopfee,
   adsHide,
   iitGuwatiGen,
+  hybridFee,
+  hybridEmi,
 
-  
   emiPopupProps,
   emiType,
   duration1,
@@ -62,17 +63,19 @@ const FeeSection = ({
         weekendbatch={weekendbatch}
         setPopups={setPopups}
         devopfee={devopfee}
-     emiPopupProps = {emiPopupProps} 
-     emiType ={ emiType }
-     duration1 ={duration1}
-     totalAmount1 ={totalAmount1}
-     monthlyPayment1 = {monthlyPayment1}
-     greenDown1 ={ greenDown1}
-     duration2 ={duration2}
-     totalAmount2 ={totalAmount2}
-     monthlyPayment2 ={monthlyPayment2}
-     greenDown2 ={greenDown2}
-     iitGuwatiGen={iitGuwatiGen}
+        emiPopupProps={emiPopupProps}
+        emiType={emiType}
+        duration1={duration1}
+        totalAmount1={totalAmount1}
+        monthlyPayment1={monthlyPayment1}
+        greenDown1={greenDown1}
+        duration2={duration2}
+        totalAmount2={totalAmount2}
+        monthlyPayment2={monthlyPayment2}
+        greenDown2={greenDown2}
+        iitGuwatiGen={iitGuwatiGen}
+        hybridFee={hybridFee}
+        hybridEmi={hybridEmi}
       />
     </div>
   );

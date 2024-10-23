@@ -3,7 +3,6 @@ import React, { useState } from "react";
 const PopupContent = dynamic(() =>
   import("../../Global/PopupContent/PopupContent")
 );
-import VideoPopup from "@/components/Global/VideoPopup/VideoPopup";
 const FirstSectionContent = dynamic(() => import("./FirstSectionContent"));
 
 const FirstSection = ({
@@ -16,7 +15,6 @@ const FirstSection = ({
   dataScienceGeneric,
 }) => {
   const [popups, setPopups] = useState(false);
-  const [video, setVideo] = useState(false);
   return (
     <>
       <PopupContent
@@ -29,9 +27,8 @@ const FirstSection = ({
         interstedInHide={interstedInHide}
         heading="Apply For Counselling"
       />
-       <VideoPopup triggers={video} setTriggers={setVideo} ids={idss} />
-      <FirstSectionContent btnHide={btnHide} setPopups={setPopups}
-        setVideo={setVideo}/>
+
+      <FirstSectionContent btnHide={btnHide} setPopups={setPopups} />
     </>
   );
 };

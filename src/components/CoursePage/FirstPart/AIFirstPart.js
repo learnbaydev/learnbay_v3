@@ -1,17 +1,12 @@
 import React from "react";
 import dynamic from "next/dynamic";
-
 import Navbar from "@/components/Global/Navbar/Navbar";
 import FirstSection from "@/components/CoursePage/FirstSection/FirstSection";
-import SecondSection from "@/components/CoursePage/SecondSection/SecondSection";
 const SecondNavbar = dynamic(() => import("../SecondNavbar/SecondNavbar"));
 import { ThirdSectionData } from "@/Data/ThirdSectionData";
 const WhoProgram = dynamic(() => import("../WhoProgram/ThirdSection"));
 const TrainerSection = dynamic(() =>
   import("../../Global/TrainerSection/TrainerSection")
-);
-const Testimonial = dynamic(() =>
-  import("../../Global/Testimonial/Testimonial")
 );
 const WhoIsProgram = dynamic(() => import("../WhoIsProgram/WhoIsProgram"));
 const WhyLearnbay = dynamic(() => import("../WhyLearnbay/WhyLearnbay"));
@@ -39,6 +34,7 @@ import { BsDisplay } from "react-icons/bs";
 import { AiOutlineContainer } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsPeople } from "react-icons/bs";
+import AnimationNew from "@/components/Home/whyChooseSection/AnimationNew";
 
 const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
   const seconddata = [
@@ -132,7 +128,7 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
     },
   };
 
-    const pdfUrl = "/Brochure/Advance-AI-ML.pdf"
+  const pdfUrl = "/Brochure/Advance-AI-ML.pdf";
   return (
     <>
       <Navbar dataScienceCounselling={true} interstedInHide={true} />
@@ -179,6 +175,7 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
         leftImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/advance-who.webp"
         ThirdSectionData={ThirdSectionData}
       />
+      <AnimationNew />
       <Realstory />
       <TrainerSection idss="eautK0odE7Q" />
 
