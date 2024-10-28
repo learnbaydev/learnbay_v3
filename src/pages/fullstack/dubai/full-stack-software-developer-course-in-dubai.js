@@ -310,6 +310,10 @@ export default function Home() {
               ProjectsBot1={FullStackDubaiCourseData[0].ProgramBot1}
               ProjectsBot2={FullStackDubaiCourseData[0].ProgramBot2}
               src1={FullStackDubaiCourseData[0].src1}
+              alt2={FullStackDubaiCourseData[0].alt2}
+              alt3={FullStackDubaiCourseData[0].alt3}
+              alt4={FullStackDubaiCourseData[0].alt4}
+              alt5={FullStackDubaiCourseData[0].alt5}
               ProjectsH1={FullStackDubaiCourseData[0].ProjectsH1}
               Projectsp1={FullStackDubaiCourseData[0].Projectsp1}
               src2={FullStackDubaiCourseData[0].src2}

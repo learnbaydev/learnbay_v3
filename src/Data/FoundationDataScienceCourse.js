@@ -517,13 +517,13 @@ export const DataScienceCourseData = [
           {
             id: 0,
             ques: "What is the total fee for Data Science Foundation Program?",
-            ans: "The total program fee for the Data Science Foundation Program is INR 85,000/- inclusive of GST.",
+            ans: "The total program fee for the Data Science Foundation Program is INR 75,000/- inclusive of GST.",
             open: true,
           },
           {
             id: 1,
             ques: "Can I pay in installments for Data Science Foundation Program?",
-            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for up to 18 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more.",
+            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI of ₹4,917/month up to 18 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip. Please check with our sales team to know more.",
             linkText1: " +917795687988 ",
             link1: "tel:+917795687988",
             link: true,

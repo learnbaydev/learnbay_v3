@@ -1,11 +1,10 @@
+import Image from "next/image";
 import { useState } from "react";
 import { BsClock } from "react-icons/bs";
 import { FiCheck } from "react-icons/fi";
 import Button from "../../Global/Button/Button";
 import YoutubeVideo from "../YoutubeVideo/YoutubeVideo";
 import styles from "./CitiesRight.module.css";
-import Image from "next/image";
-import Link from "next/link";
 
 const CitiesRight = ({
   ProgramHead1,
@@ -2181,7 +2180,7 @@ const CitiesRight = ({
                 and Jupyter Notebook for just 1,10,000 + 18% GST.
               </li>
               <h3 className={styles.pHead}>
-                Highlights of the Data Science Foundation Program in Bangalore
+                Highlights of the Data Science Foundation Program in Delhi
               </h3>
               <li>200+ hours of rigorous training</li>
               <li>Industry-specific training </li>
@@ -2361,7 +2360,7 @@ const CitiesRight = ({
             </p>
             <p>
               <a
-                href="https://www.learnbay.co/data-science-course-training-in-delhi"
+                href="https://www.learnbay.co/"
                 target="_blank"
                 style={{ color: "#2D9CD7", fontWeight: "600" }}
               >
@@ -2382,20 +2381,13 @@ const CitiesRight = ({
               <b>average data scientist salary in Delhi</b> is close to INR 9.5
               lakhs. <b>Learnbay</b> also provides classroom mode for{" "}
               <a
-                href="https://www.learnbay.co/machine-learning-course-training-in-delhi"
+                href="https://www.learnbay.co/datascience/delhi/machine-learning-course-training-in-delhi"
                 target="_blank"
                 style={{ color: "#2D9CD7", fontWeight: "600" }}
               >
                 machine learning
               </a>{" "}
-              and artificial intelligence courses in Delhi and{" "}
-              <a
-                href="https://www.learnbay.co/artificial-intelligence-ai-course-training-delhi"
-                target="_blank"
-                style={{ color: "#2D9CD7", fontWeight: "600" }}
-              >
-                data science
-              </a>
+              and artificial intelligence courses in Delhi and data science
               .
             </p>
             <p>
@@ -6679,7 +6671,7 @@ const CitiesRight = ({
                       height={250}
                       loading="lazy"
                       src={src33}
-                              alt="Learnbay - Sample Microsoft Certificate Course"
+                      alt="Learnbay - Sample Microsoft Certificate Course"
                     />
                   </>
                 ) : null}

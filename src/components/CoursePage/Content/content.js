@@ -19,6 +19,7 @@ function DataAnalytics({
   Bfsi,
   DevopsOnly,
   cComputingOnly,
+  DSASeoContent,
 }) {
   const [read, setRead] = useState(false);
 
@@ -49,6 +50,273 @@ function DataAnalytics({
           <Form dataScienceCounselling={dataScienceCounselling} />
         </div>
       </Popup>
+
+      {DSASeoContent ? (
+        <div className={styles.content}>
+          <h2>
+            Best Data Structures Algorithms & System Design with Domain
+            Specialization
+          </h2>
+          <p>
+            Enhance your career with our online{" "}
+            <b>Data Structures and Algorithms course</b>. Enroll in a
+            specialized data structures and algorithms program with
+            industry-leading education. Our advanced modules will help you
+            become a DSA Specialist through expert mentorship, globally
+            recognized certifications, and live training sessions.
+          </p>
+          <h4 style={{ fontSize: "24px" }}>About Learnbay's DSA Course</h4>
+          <h3 style={{ fontSize: "20px" }}>Course Description</h3>
+          <p>
+            Learnbay provides the{" "}
+            <b>best Data Structures and Algorithms course</b> with comprehensive
+            DSA modules for learners to learn from the best mentors and offers
+            placement opportunities in top MNCs. Professionals or learners will
+            gain basic and advanced technical skills by enrolling in the{" "}
+            <b>best DSA course online</b>. They learn in mentor-led live
+            sessions, practice their skills in real-world projects, and earn IBM
+            & Microsoft certificates for help in placements.
+          </p>
+          <h3 style={{ fontSize: "20px" }}>
+            Why study data structures and algorithms?
+          </h3>
+          {read ? (
+            <>
+              <p>
+                This is a confusing topic for many programmers, especially when
+                it comes to whether a <b>DSA Course</b> is important in
+                programming. Certainly, the best Data Structures and Algorithms
+                courses are required to create efficient programs. However, as
+                this concept is complex, most beginners choose to defer from
+                their study of DSA. Below are the reasons why data structures
+                and algorithms are essential:
+              </p>
+              <ul>
+                <li>
+                  <b>• Understand programming languages</b>
+                  <p>
+                    Learning DSA courses helps you write better codes and
+                    understand programming languages better. All languages are
+                    based on DSA, so understanding their concepts helps solve
+                    complex problems. Libraries and APIs are also significant in
+                    programming, and DSA knowledge helps us understand how to
+                    utilize them in the programs efficiently.
+                  </p>
+                </li>
+                <li>
+                  <b>• Crack product base interviews</b>
+                  <p>
+                    The end goal for many aspirants is to work in a
+                    product-based company of their choice. The recruitment
+                    drives for these companies include testing a candidate's
+                    problem-solving abilities. They want to hire programmers
+                    capable of solving large and complicated problems. The{" "}
+                    <b>best course for data structures and algorithms</b>{" "}
+                    enhances a candidate's proficiency with programming basics,
+                    i.e., Algorithms and Data Structures.
+                  </p>
+                </li>
+                <li>
+                  <b>• Developing optimized codes</b>
+                  <p>
+                    Once you understand DSA, you can optimize codes that reduce
+                    time and space usage. You should build codes with the most
+                    suitable data structures that take less space and algorithms
+                    that run the code in less time. This helps limit the usage
+                    of company resources.
+                  </p>
+                </li>
+                <li>
+                  <b>• Understand programming languages</b>
+                  <p>
+                    Learning DSA courses helps you write better codes and
+                    understand programming languages better. All languages are
+                    based on DSA, so understanding their concepts helps solve
+                    complex problems. Libraries and APIs are also significant in
+                    programming, and DSA knowledge helps us understand how to
+                    utilize them in the programs efficiently.{" "}
+                  </p>
+                </li>
+              </ul>{" "}
+              <h3 style={{ fontSize: "20px" }}>
+                Why enroll in the DSA courses?
+              </h3>
+              <p>
+                Learnbay's <b>data structures online course</b> allows learners
+                to learn from home. In this fast-paced world, everyone needs to
+                manage their time efficiently. Learners can manage their time
+                and study effectively by enrolling in the{" "}
+                <b>best DSA course online</b> that enhances their overall
+                learning experience.
+              </p>
+              <ul>
+                <li>
+                  <b>• Mentor led classes</b>
+                  <p>
+                    Learners study in line with mentor-led classes. They are
+                    provided with expert mentors who help them throughout the{" "}
+                    <b>DSA course online</b>. Learners get 1:1 doubt-clearing
+                    sessions with the mentors. They can also choose their
+                    preferred batch from weekends and weekdays to study and
+                    maintain a flexible schedule.
+                  </p>
+                </li>
+                <li>
+                  <b>• Hand on experience</b>
+                  <p>
+                    Learners can practice solving real-time and capstone
+                    problems in a <b>data structures and algorithms course</b>.
+                    Mentors are present for guidance in case they get stuck.
+                    They will develop and learn advanced DSA skills with the
+                    help of mentors. There are project innovation labs that
+                    learners will be using to practice their problem-solving
+                    skills. These labs are in major cities across India, where
+                    learners can practice independently.
+                  </p>
+                </li>
+                <li>
+                  <b>• Placement aid</b>
+                  <p>
+                    The <b>DSA and system design course</b> is currently
+                    conducting mock interviews, which will provide learners with
+                    the opportunity to learn interview questions and receive
+                    dedicated placement calls. Our 300+ placement services can
+                    help you get a job at top companies hiring partners. We will
+                    help you build resumes, maintain portfolios, and get
+                    placements till you land a job.
+                  </p>
+                </li>
+                <li>
+                  <b>• Projects</b>
+                  <p>
+                    The <b>data structures and algorithms online course</b>{" "}
+                    comes with our two capstone and 10+ real-time projects;
+                    learners get the chance to experience working in a real
+                    industrial environment. The projects range from mechanical
+                    to banking industries, so learners can practice real-world
+                    problems and gain expertise on industry problems.
+                  </p>
+                </li>
+                <li>
+                  <b>• Certifications</b>
+                  <p>
+                    Certifications from accredited organizations are provided in
+                    the <b>data structures online course</b> to assist learners
+                    in getting their dream jobs. The IBM and Microsoft
+                    certifications are provided to learners after they complete
+                    their courses. These certify the candidate's skills and
+                    knowledge of tools in front of recruiters. Learners can also
+                    impress recruiters with certificates from reputable
+                    organizations.
+                  </p>
+                </li>
+              </ul>{" "}
+              <h3 style={{ fontSize: "20px" }}>
+                Who is eligible for the DSA program?
+              </h3>
+              <p>
+                The <b>best course for data structures and algorithms</b> is
+                for:
+              </p>
+              <ul>
+                <li>
+                  Students or professionals with a bachelor's degree and good
+                  academic performance.
+                </li>
+                <li>
+                  Learners having at least six months of IT/non-IT domain
+                  experience.
+                </li>
+                <li>
+                  Learners pursuing B.Tech, Computer Science, or B.Sc and want
+                  to gain software development skills.
+                </li>
+              </ul>
+              <h3 style={{ fontSize: "20px" }}>What are domain electives?</h3>
+              <p>
+                Domain electives help learners gain real-world project
+                experience in their preferred sector. Learnbay provides domain
+                knowledge to learners, using which they can gain specialization
+                in a particular industry and get better placement opportunities.
+                The domains offered are as follows.
+              </p>
+              <ul>
+                <li>DevOps & Cloud</li>
+                <li>Product Engineer/Manager</li>
+                <li>Full Stack</li>
+                <li>Web 3.0 Developer</li>
+                <li>Data Science and AI</li>
+              </ul>
+              <h3 style={{ fontSize: "20px" }}>
+                Are domain electives helpful in algorithms and data structures?
+              </h3>
+              <p>
+                The <b>best Data Structures and Algorithms course</b> provides
+                domain electives to help you gain a promising role and secure
+                your job. You can balance your work and study obligations in a
+                specific sector. You can ease your work, improve programming in
+                a particular domain, and enhance your job selection chances.
+                With the help of specialized training, learners can increase
+                their programming skills and expertise to help them quickly
+                grasp the DSA concepts.
+              </p>
+              <p>
+                <b>Term 1:- Programming Fundamentals</b>
+              </p>
+              <p>
+                Get started with the DSA course and explore the coding basics.
+                Learn data types, if statements, functions, object-oriented
+                programming, and more concepts.
+              </p>
+              <p>
+                <b>Term 2:- Basic DSA</b>
+              </p>
+              <p>
+                This module familiarises learners with algorithms and data
+                structures basics. Concepts such as recursion, time/space
+                complexity, searching/sorting techniques, as well as different
+                types of data structures like stack, queue, array, and linked
+                list will all be covered during this lesson.
+              </p>
+              <p>
+                <b>Term 3:- Advanced DSA</b>
+              </p>
+              <p>
+                In this module, learners will start learning advanced data
+                structures and algorithms. They will understand maths concepts
+                in DSA and advanced DSA like greedy search, graphs, trees, etc.
+              </p>
+              <p>
+                <b>Term 4:- System Design</b>
+              </p>
+              <p>
+                Learn relevant system design concepts in this module. Learners
+                will be taught every concept, from basics, design principles,
+                and scalability to integration and deployment.
+              </p>
+              <div onClick={popupShow} className={styles.buttonDiv}>
+                <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
+              </div>
+            </>
+          ) : (
+            ""
+          )}
+          <p
+            style={{
+              color: "#2D9CD7",
+              fontWeight: "600",
+              textDecoration: "underline",
+              cursor: "pointer",
+            }}
+            onClick={handler}
+            className={styles.readP}
+          >
+            {read ? "Read Less..." : "Read More..."}
+          </p>
+        </div>
+      ) : (
+        ""
+      )}
 
       {Advance ? (
         <div className={styles.content}>
@@ -369,7 +637,6 @@ function DataAnalytics({
 
       {AIML ? (
         <div className={styles.content}>
-          
           <h2>
             Gain Expertise to Grow Beyond Technology with Artificial
             Intelligence Certification Program{" "}
@@ -567,8 +834,7 @@ function DataAnalytics({
                   industry-paced Artificial Intelligence certification Program
                   with a flexible fee structure. The program fee is INR 1,10,000
                   plus 18% GST. Yet, techies get a flexible payment option in
-                  terms of installment. For this, learners can pay INR 7,211 per
-                  month and start learning. It also offers a scholarship
+                  terms of installment. For this, learners can pay INR ₹5,244/month up to 18 months and start learning. It also offers a scholarship
                   facility (up to 25%) to eligible students, making their
                   learning journey hassle-free.{" "}
                 </p>
@@ -1354,9 +1620,9 @@ function DataAnalytics({
                 <p>
                   Yes, Learnbay introduces an industry-paced cloud program with
                   an affordable fee structure. Its cloud course fees cost INR
-                  1,10,000 + 18% GST. It includes a flexible financing plan with
+                  80,000 + 18% GST. It includes a flexible financing plan with
                   easy payment options – No-cost EMI and easy loans. With this,
-                  one can pay INR 7,211 per month and start learning.{" "}
+                  one can pay INR ₹5,244/month up to 18 months and start learning.{" "}
                 </p>
                 <h3>
                   Can Cloud and DevOps certification unlock better job prospects
@@ -2390,23 +2656,21 @@ function DataAnalytics({
       )}
       {Banalytics ? (
         <div className={styles.content}>
-        <div className={styles.btnread}>
-        <p
-            style={{
-              color: "#fff",
-              fontWeight: "600",
-              textDecoration: "underline",
-              cursor: "pointer",
-            }}
-            onClick={handler}
-            className={styles.readP}
-          >
-            {read ? "Read Less..." : "Read More..."}
-          </p>
+          <div className={styles.btnread}>
+            <p
+              style={{
+                color: "#fff",
+                fontWeight: "600",
+                textDecoration: "underline",
+                cursor: "pointer",
+              }}
+              onClick={handler}
+              className={styles.readP}
+            >
+              {read ? "Read Less..." : "Read More..."}
+            </p>
           </div>
-          <h2>
-          Online Business Analyst Course Overview
-          </h2>
+          <h2>Online Business Analyst Course Overview</h2>
           <p>
             Industries consist of innumerable amounts of data, and companies are
             in a blind situation where they are not able to use this data to
@@ -2417,7 +2681,6 @@ function DataAnalytics({
           </p>
           {read ? (
             <>
-            
               <h2 style={{ fontSize: "24px" }}>
                 <b>What is Business Analytics? Why Do We Need It? </b>
               </h2>
@@ -2486,7 +2749,9 @@ function DataAnalytics({
                 of various industries.
                 <ul>
                   <li>
-                    <h4 style={{ fontSize: "18px" }}>• Business Analytics in Healthcare Industry</h4>
+                    <h4 style={{ fontSize: "18px" }}>
+                      • Business Analytics in Healthcare Industry
+                    </h4>
                     <p>
                       The Healthcare Industry has seen a significant change in
                       recent years. As you can see, the use of business
@@ -2503,7 +2768,9 @@ function DataAnalytics({
                     </p>
                   </li>
                   <li>
-                    <h4 style={{ fontSize: "18px" }}>• Business Analytics in Finance Industry</h4>
+                    <h4 style={{ fontSize: "18px" }}>
+                      • Business Analytics in Finance Industry
+                    </h4>
                     <p>
                       The finance industry is one of the most impacted
                       industries by business analytics and new-age technology.
@@ -2520,7 +2787,9 @@ function DataAnalytics({
                     </p>
                   </li>
                   <li>
-                    <h4 style={{ fontSize: "18px" }}>• Business Analytics in Retail Industry</h4>
+                    <h4 style={{ fontSize: "18px" }}>
+                      • Business Analytics in Retail Industry
+                    </h4>
                     <p>
                       The Retail industry is seeing innovative changes by
                       adapting business analytics practices. With the help of
@@ -2570,7 +2839,7 @@ function DataAnalytics({
                 recognized by top-tier companies from different industries.
               </p>
               <h2>
-              Why Go With Learnbay’s Business Analytics Certification Course?
+                Why Go With Learnbay’s Business Analytics Certification Course?
               </h2>
 
               <p>
@@ -2675,7 +2944,7 @@ function DataAnalytics({
                       <ul>
                         <li>
                           <h3 style={{ fontSize: "20px" }}>
-                          • Placement Support
+                            • Placement Support
                           </h3>
                           <p>
                             Learnbay offers comprehensive career services where
@@ -2716,7 +2985,8 @@ function DataAnalytics({
                 </ul>
               </p>
               <h2>
-              What are the Benefits of Learning a Business Analytics Course Online?
+                What are the Benefits of Learning a Business Analytics Course
+                Online?
               </h2>
               <p>
                 If you are interested in advancing your career as a business

@@ -540,8 +540,8 @@ export const DSBangladeshCourseData = [
       "Hands-on learning of deployment, evaluation, & analysis (AWS & Azure)      ",
     Joblist11:
       "Practical exposure to real-world business issues via projects       ",
-      Joblist12:"R for database handling",
-      Joblist13:"NLP for handling complex data sets ",
+    Joblist12: "R for database handling",
+    Joblist13: "NLP for handling complex data sets ",
     JobBot18:
       "Today’s data science field demands cutting-edge skills to drive competitive success for your career and businesses. Gone are the days when generic skills were enough to continue a career. The current digital age demands 360-degree data literacy with practical insights. Learnbay’s data science online course in Bangladesh helps you gain job-oriented skills and ace interviews.       ",
 
@@ -549,7 +549,7 @@ export const DSBangladeshCourseData = [
 
     JobBot20:
       "Owing to the rising data-driven trends, the demand for a data science course with placement guarantee increases. Eligible learners (at least 70% score in assessments) get the privilege of ‘Career Service Pro’ – Learnbay’s job assist program. With this program experts clear their course-related doubts, attend mock interviews, refine soft skills, and optimize their resumes.         ",
-      JobBot39: "Major highlights are –    ",
+    JobBot39: "Major highlights are –    ",
     Joblist14:
       "Hassle-free job and placement support for 3 years (global job offers)        ",
     Joblist15: "Six 1:1 mock interviews (any of 450+ industry partners)      ",
@@ -559,7 +559,8 @@ export const DSBangladeshCourseData = [
       "Unlike generic courses, Learnbay’s industry-driven data science courses help you revamp a slow-paced career with proven expertise. Uninterrupted job support guides you to see through current market trends and prepare yourself.          ",
     JobHead21:
       "Is Learnbay’s data science course in Bangladesh worth it for swift career promotions?         ",
-      JobBot41:"Learnbay’s data science training in Bangladesh elevates the chances of swift career promotions with attractive hikes. Working pros from diverse domains can enroll in our programs to get industry-driven upskilling. Industry experts share their insightful experiences with learners for practical learning.",
+    JobBot41:
+      "Learnbay’s data science training in Bangladesh elevates the chances of swift career promotions with attractive hikes. Working pros from diverse domains can enroll in our programs to get industry-driven upskilling. Industry experts share their insightful experiences with learners for practical learning.",
     JobBot21:
       " Learners opt for our data science courses due to their inclusive learning setup with the benefits of kickstarting global-level careers. Our alliance with IBM & MS offers globally recognized certificates that unlock competitive success.         ",
     JobBot22:
@@ -577,7 +578,8 @@ export const DSBangladeshCourseData = [
     Joblist23: "Data Analyst and Business Analyst    ",
     Joblist24: "Data and Process Analyst    ",
     Joblist25: "Data Scientist Engineer    ",
-    Joblist26: "Python Engineer (AI/ML) and Business Intelligence Developer    ",
+    Joblist26:
+      "Python Engineer (AI/ML) and Business Intelligence Developer    ",
     Joblist27: "Data Engineer and Graph Data Engineer     ",
     Joblist28: "Azure Data Engineer and Big Data Analyst     ",
     Joblist29: "ML/AI Engineer and Database Manager    ",
@@ -603,18 +605,22 @@ export const DSBangladeshCourseData = [
       "In addition, you will receive IBM certifications once you complete your projects. It validates your skill sets and attests prime job offers to your career.   ",
     ProjectsBot2: "Below are a few projects from the Learnbay alumni profiles:",
     src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
+    alt2: "Samsung Logo",
     ProjectsH1: "Samsung Health Monitor App",
     Projectsp1:
       "Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app.",
     src2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IBM.png",
+    alt3: "IBM Logo",
     ProjectsH2: "IBM HR Analytics",
     Projectsp2:
       "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other Data science abilities.",
     src3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/amazon1.png",
+    alt4: "Amazon Logo",
     ProjectsH3: "Amazon Customer Review Analysis",
     Projectsp3:
       "Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can participate in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach.",
     src4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BMW.png",
+    alt5: "BMW Logo",
     ProjectsH4: "BMW Used Car Price Optimization",
     Projectsp4:
       "BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects.",
@@ -648,8 +654,7 @@ export const DSBangladeshCourseData = [
     alt9: "data science course training in Bangladesh",
     CityTextB:
       "Artificial Intelligence Course Certification Training locations in Bangladesh ",
-    CityText:
-      " : ",
+    CityText: " : ",
     CityTextL:
       " :Artificial Intelligence Course viman nagar,Artificial Intelligence Training in kalyan nagar,Artificial Intelligence Training in magarpetta,Artificial Intelligence Training in pimpri chinchwad,Artificial Intelligence Classes in yerwada,Artificial Intelligence Classes in kharadi,Artificial Intelligence Classes in vishrantwadi,Artificial Intelligence Classes in deccan,Artificial Intelligence Course in Katraj,Artificial Intelligence Training in warje,,Artificial Intelligence Certification Training in bavdhan,Artificial Intelligence Certification in boat club road,Artificial Intelligence Certification in model colony,Best Artificial Intelligence Training in Bangladesh,Best Artificial Intelligence Course in Bangladesh",
   },

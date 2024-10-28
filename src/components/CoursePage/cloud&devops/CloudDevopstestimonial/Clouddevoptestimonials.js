@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from "react";
-import styles from "./clouddevoptestimonials.module.css";
 import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { useEffect, useState } from "react";
+import { AiOutlineRise } from "react-icons/ai";
+import { Scrollbar } from "swiper";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/scrollbar";
-import { Scrollbar } from "swiper";
-import { AiOutlineRise } from "react-icons/ai";
+import { Swiper, SwiperSlide } from "swiper/react";
+import styles from "./clouddevoptestimonials.module.css";
 
 function FullStackSecondSection({ fullStackReview }) {
   const [mobile, setMobile] = useState(false);
@@ -36,6 +36,7 @@ function FullStackSecondSection({ fullStackReview }) {
         <div className={styles.line}>
           <Image
             src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/alumni-arrow.png"
+            alt="Image containing arrow"
             width={80}
             height={40}
             loading="lazy"
@@ -556,7 +557,6 @@ function FullStackSecondSection({ fullStackReview }) {
                     grabCursor={true}
                     modules={[Scrollbar]}
                     className="mySwiper"
-
                     breakpoints={{
                       1400: {
                         slidesPerView: 3.1,
@@ -572,7 +572,6 @@ function FullStackSecondSection({ fullStackReview }) {
                         spaceBetween: 85,
                       },
 
-
                       961: {
                         slidesPerView: 3,
                         spaceBetween: 30,
@@ -581,39 +580,8 @@ function FullStackSecondSection({ fullStackReview }) {
                         slidesPerView: 1,
                         spaceBetween: 30,
                       },
-
-
                     }}
                   >
-                    <SwiperSlide className={styles.slide}>
-                      <div className={styles.mainSlider}>
-                        <div className={styles.imgP}>
-                          <div className={styles.name}>
-                            <h3>Qudsia Tahniyath</h3>
-                          </div>
-                          <div>
-                            <div className="imgWrapper">
-                              <Image
-                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Alumni+Images/Qudsia.png"
-                                loading="lazy"
-                                width="100"
-                                height="100"
-                                alt="Qudsia"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div className={styles.paraDiv}>
-                          <p className={styles.para}>
-                            "Learnbay has helped me a lot to learn data science
-                            applications in the e-commerce industry. The live
-                            class concept was really helpful in receiving proper
-                            DS training. Thanks to all my mentors and the
-                            placement team."
-                          </p>
-                        </div>
-                      </div>
-                    </SwiperSlide>
                     <SwiperSlide className={styles.slide}>
                       <div className={styles.mainSlider}>
                         <div className={styles.imgP}>

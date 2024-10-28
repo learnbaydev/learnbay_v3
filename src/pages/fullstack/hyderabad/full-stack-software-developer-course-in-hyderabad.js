@@ -265,6 +265,10 @@ export default function Home() {
                 FullStackHyderabadCourseData[0].CertificationBot1
               }
               src={FullStackHyderabadCourseData[0].src}
+              alt2={FullStackHyderabadCourseData[0].alt2}
+              alt3={FullStackHyderabadCourseData[0].alt3}
+              alt4={FullStackHyderabadCourseData[0].alt4}
+              alt5={FullStackHyderabadCourseData[0].alt5}
               ModuleHead1={FullStackHyderabadCourseData[0].ModuleHead1}
               ModuleBot1={FullStackHyderabadCourseData[0].ModuleBot1}
               ModuleHead2={FullStackHyderabadCourseData[0].Head2}

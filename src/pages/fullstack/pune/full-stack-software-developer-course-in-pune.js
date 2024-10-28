@@ -332,6 +332,10 @@ export default function Home() {
               ProjectsBot1={FSDPuneCourseData[0].ProjectsBot1}
               ProjectsBot2={FSDPuneCourseData[0].ProjectsBot2}
               src1={FSDPuneCourseData[0].src1}
+              alt2={FSDPuneCourseData[0].alt2}
+              alt3={FSDPuneCourseData[0].alt3}
+              alt4={FSDPuneCourseData[0].alt4}
+              alt5={FSDPuneCourseData[0].alt5}
               ProjectsH1={FSDPuneCourseData[0].ProjectsH1}
               Projectsp1={FSDPuneCourseData[0].Projectsp1}
               src2={FSDPuneCourseData[0].src2}

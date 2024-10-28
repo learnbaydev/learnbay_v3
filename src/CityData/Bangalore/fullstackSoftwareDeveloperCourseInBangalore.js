@@ -226,7 +226,7 @@ export const FullStackBangaloreCourseData = [
           {
             id: 1,
             ques: "Is there any Installment / EMI option available for this course in Bangalore?",
-            ans: "YYes, you can use a credit card to pay the installments with a no-fee EMI option for INR ₹7,538/month up to 11 months. By presenting a valid copy of the Aadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan. For further details, you can contact",
+            ans: "YYes, you can use a credit card to pay the installments with a no-fee EMI option for INR ₹7,538/month up to 18 months. By presenting a valid copy of the Aadhar card, Pan card, and the latest three months' salary, you can also avail of an interest-free loan. For further details, you can contact",
             linkText1: "@ +917795687988",
             link1: "tel:+917795687988",
             open: false,
@@ -463,15 +463,19 @@ export const FullStackBangaloreCourseData = [
     ProjectsBot2:
       "Capstone projects are the key factor of your resume. In our full stack developer course at Bangalore, we have our project innovation lab for our students to complete the capstone project. You can even bring your own project ideas. Our expert trainer will help you to complete the same.",
     src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/project/2.png",
+    alt2: "Bubble Logo",
     Projectsp1:
       "Create an online application that displays the contents of a database in list form, modify or delete each record and add new ones.",
     src2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/project/4.png",
+    alt3: "Boomi Logo",
     Projectsp2:
       "Learn advanced API integration to connect two or more applications, via their APIs, that lets those systems exchange data.",
     src3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/project/5.png",
+    alt4: "Expedia Logo",
     Projectsp3:
       "The connected website must offer signup, login/logout, and profile creation/editing. This must include a wishlist box, a order tracker, personalized suggestions, personalized and occasional discount features, a chatbot, etc.",
     src4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/project/6.png",
+    alt5: "Zoom Logo",
     Projectsp4:
       "This is a full-stack web development project at the advanced level that includes seamless audio-video call management services.",
     AlumniBot1:

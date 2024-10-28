@@ -71,7 +71,7 @@ export const cloudDevOpsSchema = {
       "name": "Are there any installment options available for program payments?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, we have an installment payment facility where you need to pay INR 7,211 per month. You can make payments through Credit card, UPI, or Internet banking."
+        "text": "Yes, we have an installment payment facility where you need to pay INR ₹5,244/month up to 18 months. You can make payments through Credit card, UPI, or Internet banking."
       }
     },{
       "@type": "Question",

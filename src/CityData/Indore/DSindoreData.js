@@ -482,9 +482,9 @@ export const DSinodreCourseData = [
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
 
-    JobHead1: "Which technical and skill-building abilities can you acquire with Learnbay’s best data science course, Indore?",
-    MasterJobBot1:
-      "",
+    JobHead1:
+      "Which technical and skill-building abilities can you acquire with Learnbay’s best data science course, Indore?",
+    MasterJobBot1: "",
     Joblist1: "Basic knowledge of data cleansing",
     Joblist2: "Coding skills",
     Joblist3: "Python for data science",
@@ -563,12 +563,12 @@ export const DSinodreCourseData = [
     JobBot25:
       "Enrolling in the best data science course in Indore provides specialized knowledge. Those seeking career success can join this program regardless of the data science course fee. Experts can secure lucrative data science jobs that align with their career goals using the selected domains.",
 
-    ProjectsHead1: "Would Learnbay’s practical upskilling approach, involving actual-world projects, facilitate a successful data science career in Indore?",
+    ProjectsHead1:
+      "Would Learnbay’s practical upskilling approach, involving actual-world projects, facilitate a successful data science career in Indore?",
 
     ProjectsBot1:
       "The Data science training in Indore is a broad field that demands basic domain knowledge and practical expertise. The dynamic job market offers endless growth offers. Consequently, leading MNCs seek skilled data experts to understand and sustain the rising demand.",
-    ProjectsBot2:
-      "",
+    ProjectsBot2: "",
     ProjectsBot3:
       "In summary, data scientists examine big datasets to uncover valuable insights. Thereon, firms utilize this data to make informed choices and enhance their products and services.",
     ProjectsBot4:
@@ -579,18 +579,22 @@ export const DSinodreCourseData = [
       "Learnbay’s practical upskilling approach empowers experts globally with 360-degree career-building methods. Moreover, an IBM project certificate enhances your career worth, opening doors to improved job prospects and notable career achievements.",
     ProjectsBot2: "Below are a few projects from the Learnbay alumni profiles:",
     src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
+    alt2: "Samsung Logo",
     ProjectsH1: "Samsung Health Monitor App",
     Projectsp1:
       "Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app.",
     src2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IBM.png",
+    alt3: "IBM Logo",
     ProjectsH2: "IBM HR Analytics",
     Projectsp2:
       "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other Data science abilities.",
     src3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/amazon1.png",
+    alt4: "Amazon Logo",
     ProjectsH3: "Amazon Customer Review Analysis",
     Projectsp3:
       "Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can participate in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach.",
     src4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BMW.png",
+    alt5: "BMW Logo",
     ProjectsH4: "BMW Used Car Price Optimization",
     Projectsp4:
       "BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects.",

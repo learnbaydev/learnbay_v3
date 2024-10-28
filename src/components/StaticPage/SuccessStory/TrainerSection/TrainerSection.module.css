@@ -52,7 +52,7 @@
 .container {
   margin-bottom: -50px;
 }
-.container h4 {
+.container h1 {
   color: #0072BC;
   font-size: 44px;
   font-weight: 700;
@@ -124,7 +124,7 @@ font-weight: 400;
     justify-content: space-around;
     margin: 14px;
 }
-.container h4 {
+.container h1 {
   color: #0072BC;
 font-family: Open Sans;
 font-size: 29.532px;

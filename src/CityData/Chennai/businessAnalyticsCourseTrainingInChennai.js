@@ -648,6 +648,7 @@ export const BusinessAnalyticsChennaiCourseData = [
     Projectsp1:
       "Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach.",
     src2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IBM.png",
+    alt3: "IBM Logo",
     ProjectsH2: "IBM HR Analytics",
     Projectsp2:
       "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities.",
@@ -686,7 +687,5 @@ export const BusinessAnalyticsChennaiCourseData = [
     alt7: "business analytics course training in chennai",
     alt8: "business analytics course training in chennai",
     alt9: "business analytics course training in chennai",
-
-
- },
+  },
 ];

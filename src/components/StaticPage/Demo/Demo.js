@@ -27,7 +27,7 @@ function demo({ demos }) {
 
   return (
     <section className={styles.Demos}>
-
+<h1 className={styles.h1}>Demo Videos</h1>
       <div className={styles.Demo}>
 
         <div className={styles.listPanel}>

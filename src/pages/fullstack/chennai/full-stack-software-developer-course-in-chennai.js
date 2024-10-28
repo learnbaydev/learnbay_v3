@@ -364,6 +364,10 @@ export default function Home() {
               ProjectsBot1={FullStackChennaiCourseData[0].ProgramBot1}
               ProjectsBot2={FullStackChennaiCourseData[0].ProgramBot2}
               src1={FullStackChennaiCourseData[0].src1}
+              alt2={FullStackChennaiCourseData[0].alt2}
+              alt3={FullStackChennaiCourseData[0].alt3}
+              alt4={FullStackChennaiCourseData[0].alt4}
+              alt5={FullStackChennaiCourseData[0].alt5}
               ProjectsH1={FullStackChennaiCourseData[0].ProjectsH1}
               Projectsp1={FullStackChennaiCourseData[0].Projectsp1}
               src2={FullStackChennaiCourseData[0].src2}

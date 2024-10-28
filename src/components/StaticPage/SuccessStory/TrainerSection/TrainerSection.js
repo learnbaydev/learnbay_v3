@@ -22,7 +22,7 @@ function TrainerSection({ idss }) {
           <VideoPopup triggers={video} setTriggers={setVideo} ids={idss} />
           <div className={Styles.hear}>
             <div>
-              <h4>Hear it from our Alumni</h4>
+              <h1>Hear it from our Alumni</h1>
               <p></p>
             </div>
             <div className={Styles.switch}>

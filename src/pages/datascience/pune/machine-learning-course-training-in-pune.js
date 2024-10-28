@@ -262,6 +262,10 @@ export default function Home() {
               src={MLPuneCourseData[0].src}
               src22={MLPuneCourseData[0].src22}
               src33={MLPuneCourseData[0].src33}
+              alt2={MLPuneCourseData[0].alt2}
+              alt3={MLPuneCourseData[0].alt3}
+              alt4={MLPuneCourseData[0].alt4}
+              alt5={MLPuneCourseData[0].alt5}
               ModuleBot1={MLPuneCourseData[0].ModuleBot1}
               ModuleBot2={MLPuneCourseData[0].ModuleBot2}
               syllabush1={MLPuneCourseData[0].syllabush1}
