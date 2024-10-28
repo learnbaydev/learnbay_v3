@@ -248,6 +248,10 @@ export default function Home() {
               src={DataScienceChennaiCourseData[0].src}
               src22={DataScienceChennaiCourseData[0].src22}
               src33={DataScienceChennaiCourseData[0].src33}
+              alt2={DataScienceChennaiCourseData[0].alt2}
+              alt3={DataScienceChennaiCourseData[0].alt3}
+              alt4={DataScienceChennaiCourseData[0].alt4}
+              alt5={DataScienceChennaiCourseData[0].alt5}
               ModuleHead1={DataScienceChennaiCourseData[0].ModuleHead1}
               ModuleBot1={DataScienceChennaiCourseData[0].ModuleBot1}
               ModuleBot2={DataScienceChennaiCourseData[0].ModuleBot2}

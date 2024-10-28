@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from "react";
-import styles from "./Testimonial.module.css";
-import Image from "next/image";
-import { AiOutlineRise } from "react-icons/ai";
 import dynamic from "next/dynamic";
-const ReviewPopup = dynamic(() => import("../../Global/ReviewPopup/ReviewPopup"));
-
+import Image from "next/image";
+import { useEffect, useState } from "react";
+import { AiOutlineRise } from "react-icons/ai";
+import styles from "./Testimonial.module.css";
+const ReviewPopup = dynamic(() =>
+  import("../../Global/ReviewPopup/ReviewPopup")
+);
 
 function Testimonial({ redirectDS, para, heading, Testimonial }) {
   const [mobile, setMobile] = useState(false);
@@ -18,7 +19,6 @@ function Testimonial({ redirectDS, para, heading, Testimonial }) {
     hike: "",
     position: "",
   });
- 
 
   const [desc, setDesc] = useState("");
   const [popups, setPopups] = useState(false);
@@ -34,7 +34,6 @@ function Testimonial({ redirectDS, para, heading, Testimonial }) {
 
   return (
     <div className={styles.testimonial} id="alumni">
-      
       <ReviewPopup
         trigger={popups}
         setTrigger={setPopups}
@@ -47,6 +46,7 @@ function Testimonial({ redirectDS, para, heading, Testimonial }) {
       {/* <div className={styles.line}>
         <img
           src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/alumni-arrow.png"
+alt="Image containing arrow"
           width="80px"
         />
       </div> */}
@@ -75,7 +75,6 @@ function Testimonial({ redirectDS, para, heading, Testimonial }) {
                           width="358"
                           height="212"
                           alt="profile-Img"
-                      
                         />
                       </div>
                     </div>

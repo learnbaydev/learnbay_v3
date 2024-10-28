@@ -363,6 +363,10 @@ export default function Home() {
               ProjectsH1={FullStackBangaloreCourseData[0].ProjectsH1}
               Projectsp1={FullStackBangaloreCourseData[0].Projectsp1}
               src2={FullStackBangaloreCourseData[0].src2}
+              alt2={FullStackBangaloreCourseData[0].alt2}
+              alt3={FullStackBangaloreCourseData[0].alt3}
+              alt4={FullStackBangaloreCourseData[0].alt4}
+              alt5={FullStackBangaloreCourseData[0].alt5}
               ProjectsH2={FullStackBangaloreCourseData[0].ProjectsH2}
               Projectsp2={FullStackBangaloreCourseData[0].Projectsp2}
               src3={FullStackBangaloreCourseData[0].src3}

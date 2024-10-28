@@ -788,18 +788,22 @@ export const DataAnalyticsChennaiCourseData = [
     ProjectsBot1:
       "Learnbay aims to assist students in gaining practical hands-on experience through the completion of multiple projects under the guidance of our mentors. In the data analytics course curriculum in Chennai, you’ll have the opportunity to work on 5 popular data analytics projects. One of the best features of the IBM data analytics course is its premium cloud lab feature where learners can access this cloud lab to observe the data handling and mining process of MNC live projects. These hands-on training sessions in the data analytics course in Chennai make your learning easier and more efficient. Some of the data analytics projects done by our students are listed below:",
     src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
+    alt2: "Samsung Logo",
     ProjectsH1: "Samsung Health Monitor App",
     Projectsp1:
       "Samsung will launch a new healthcare app soon. The key goal of this app is an accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app.",
     src2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IBM.png",
+    alt3: "IBM Logo",
     ProjectsH2: "IBM HR Analytics",
     Projectsp2:
       "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities.",
     src3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/amazon1.png",
+    alt4: "Amazon Logo",
     ProjectsH3: "Amazon Customer Review Analysis",
     Projectsp3:
       "Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can take part in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach.",
     src4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BMW.png",
+    alt5: "BMW Logo",
     ProjectsH4: "BMW Used Car Price Optimization",
     Projectsp4:
       " BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects.",

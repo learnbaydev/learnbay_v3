@@ -1684,7 +1684,6 @@ export const DataScienceCourseData = [
       },
     },
 
-
     masterSyllabusMobile: [
       {
         Module0: {
@@ -2172,73 +2171,43 @@ export const DataScienceCourseData = [
         data: [
           {
             id: 0,
-            ques: "Can I do an Executive program in data science and AI, as I already have 7+ years of experience?",
-            ans: "Anyone positioned as a business leader, senior manager, or tech leader with 4+ years of experience can pursue an executive program in data science and AI to advance their career.",
+            ques: "What are the prerequisites for Data Science and AI for Managers & Leaders with Domain Specialization?",
+            ans: "There are no prerequisites as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-programmers. However, basic knowledge of applied Mathematics/Statistics and at least executive-level work experience is a must.",
             open: true,
           },
           {
             id: 1,
-            ques: "What career can I have with an Executive program in data science and AI?",
-            ans: "Managers and leaders who join this program in data science and AI can find great jobs. They can become project managers or team leaders at top companies.",
+            ques: "What if I miss a few classes due to an emergency?",
+            ans: "In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch.",
             open: false,
           },
           {
             id: 2,
-            ques: "Can I pursue this program while working full-time or from a different time zone?",
-            ans: "Experts in the executive program will work on case studies. They will also do practical exercises in their chosen area. This will help them improve their data science and AI skills. They will become better in their fields.",
+            ques: "What is a Flexi Subscription?",
+            ans: `Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 2 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
             open: false,
           },
           {
             id: 3,
-            ques: "Are there any hands-on labs or practical exercises in the course curriculum?",
-            ans: "Yes, an executive program in data science is valuable for managers and leaders. Experts at mid-to-senior level careers can opt for this course to attain proven success. Its industry-paced syllabus helps you acquire in-demand skills and land your dream roles.",
+            ques: "What’s the duration of the Data Science and AI for Managers & Leaders Program?",
+            ans: `The duration of this course is about 13 months (350 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
+        
+            Classes will be conducted on weekdays and weekend batches.
+            Weekday batch – 11 months, Monday to Friday – 2 hours/day,
+            Weekend batch - 13 months, Saturday & Sunday – 3.5 hours/day.
+            After the completion of term-3, you can start working on real-time projects and attend job interviews.`,
             open: false,
           },
           {
             id: 4,
-            ques: "Is an Executive program in data science and AI worth it?",
-            ans: "Yes, an executive program in data science for managers and leaders is worth it for mid-to-senior level experts. Its industry-paced syllabus helps you acquire in-demand skills and land your dream roles.",
+            ques: "What is the mode of training at Learnbay?",
+            ans: "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.",
             open: false,
           },
           {
             id: 5,
-            ques: "Can I opt for different specializations in data science and AI executive programs?",
-            ans: "Yes, a learner can choose their preferred domain in data science and AI executive programs to excel in their career.",
-            open: false,
-          },
-          {
-            id: 6,
-            ques: "What is the duration of an Executive program in data science and AI?",
-            ans: "The executive program in data science and AI takes 11 months to complete the course tasks and project activities.",
-            open: false,
-          },
-          {
-            id: 7,
-            ques: "What are the additional benefits provided in this executive program?",
-            ans: "The executive data science course for managers and leaders is exclusively designed to enhance decision-making skills with optimal gains. Apart from flexible training and project handling aspects, the course offers additional yet unique benefits such as",
-            open: false,
-            list1:"2-day immersion learning experience at IIT Guwahati",
-            list2:"Guest lectures from IIT Guwahati for absolute insights",
-            list3:"Collaboration with E&ICT Academy",
-            dscoursefaq1:true,
-          },
-          {
-            id: 8,
-            ques: "What are the features of live online and hybrid classes under an Executive program in data science and AI?",
-            ans: "The executive program in data science for managers and leaders offers 100% live online and hybrid training sessions, with flexibility for experts to choose the best-suited ones.",
-            span:"Features of live online classes are –",
-            list1:"Live online interactive training sessions",
-            list2:"1:1 online doubt-clearing sessions",
-            list3:"Virtual mock interviews",
-            list4:"Online capstone projects",
-
-            span:"Features of hybrid classes arell –",
-            list5:"Offline training sessions",
-            list6:"Offline doubt-clearing from respective mentors ",
-            list7:"3-5 members panel-driven offline mock interviews",
-            list8:"Offline capstone project handling in selective cities - Bangalore, Pune, Delhi, Chennai, Hyderabad, and Mumbai",
-            dscoursefaq1:true,
-     
+            ques: "How can I opt for a Hybrid mode of learning?",
+            ans: "Simply, you can choose an online mode of study for the theoretical classes and a classroom mode for all the capstone projects and interview preparation sessions.",
             open: false,
           },
         ],
@@ -2250,7 +2219,7 @@ export const DataScienceCourseData = [
           {
             id: 0,
             ques: "What is domain specialization?",
-            ans: "Domain specialization refers to the practice of gaining specific expertise in a particular field of an industry. It is a metric of career growth where experts gain domain-specific knowledge to face real-world challenges and tackle them effectively.             ",
+            ans: "Domain specialization refers to the practice of gaining specific expertise in a particular field of an industry. It is a metric of career growth where experts gain domain-specific knowledge to face real-world challenges and tackle them effectively.",
             open: true,
           },
           {
@@ -2261,16 +2230,9 @@ export const DataScienceCourseData = [
           },
           {
             id: 2,
-            ques: "What are the available elective domain options?            ",
-            ans: `Experts from diversified backgrounds can join this to gain domain-specific knowledge. The available domain elective options are –            `,
-            list1: "BFSI            ",
-            list2: "HR           ",
-            list3: "Marketing            ",
-            list4: "Manufacturing              ",
-            list5: "Healthcare              ",
-            list6: "Supply Chain              ",
+            ques: "What are the available elective domain options?",
+            ans: `Advance Data Structures & Algo; Automotive, IoT & Embedded; Cloud & DevOps; Sales, Marketing, & HR; Retail, E-Commerce, & Supply Chain; Healthcare, Pharma, & Clinical Research; BFSI, Manufacturing, Mechanical, & Telecom; Media, Hospitality, & Transportation; Oil, Gas, & Energy.`,
             open: false,
-            dscoursefaq1: true,
           },
           {
             id: 3,
@@ -2290,7 +2252,7 @@ export const DataScienceCourseData = [
           {
             id: 5,
             ques: "What if I don’t have any prior experience in any domain?",
-            ans: "We offer industry-focused upskilling with the domain electives that are trending at present with alluring career opportunities. In case, you do not hold any prior experience, you can opt for any domain as per your career interests and goals. You can here consider specializations during academics if you wish to craft a successful career in the same.             ",
+            ans: "If you don’t have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.",
             open: false,
           },
           {
@@ -2307,29 +2269,36 @@ export const DataScienceCourseData = [
         data: [
           {
             id: 0,
-            ques: "What is the cost of the Executive program in data science and AI?",
-            ans: "The executive program in data science for managers includes live online and hybrid classes with different fee structures. The live online classes cost INR 2,10,000 + 18% GST, and the hybrid sessions cost INR 2,25,000 + 18% GST.",
+            ques: "What is the total Fee for the Data Science and AI for Managers & Leaders Program?",
+            ans: "The Data Science & AI for Managers includes live online and hybrid classes with different fee structures. The live online classes cost INR 1,15,000 + 18% GST, and the hybrid sessions cost INR 1,30,000 + 18% GST.",
             open: true,
           },
           {
             id: 1,
-            ques: "Can I pay in installments for the Executive program in data science and AI?",
-            ans: "Yes, learners opting for an executive program in data science for leaders can opt for a hassle-free installment payment option. Here, experts joining live online sessions will pay INR 8,178/month, and for hybrid classes, it is INR 9,178/month.",
+            ques: "Can I pay in installments for Data Science and AI for Managers & Leaders Program?",
+            ans: "Yes, learners opting for the Data Science & AI program for Managers & Leaders can opt for a hassle-free installment payment option. Here, experts joining live online sessions will pay INR 6,388/ month, and for hybrid classes, it is INR 7,222/ month.",
             open: false,
           },
           {
             id: 2,
-            ques: "Is there any scholarship/discount available for the Executive program in data science and AI?",
-            ans: "You can refer to the course website for information about scholarships or discounts available for the executive program in data science for managers.",
+            ques: "Is there any scholarship available for the Data Science and AI for Managers & Leaders Program? What is Group Discount?",
+            ans: `Learnbay offers a 15 – 20% scholarship for early birds occasionally.
+            Please check our website or contact our sales team to know more about the applicable discounts.
+            
+            Group Discount :
+            Group Discount is applicable only if you’re joining with your friends.
+            5% extra discount : Group of 2,
+            8% extra discount : Group of 3,
+            Max 10% discount : Groupe of 4+.`,
             open: false,
           },
           {
             id: 3,
-            ques: "What is the refund policy for the Executive program at Learnbay?",
-            ans: "We offer an effortless refund or cancellation policy for those who need to withdraw from the program. For further details, refer to Learnbay’s Refund/Cancellation Policy.",
+            ques: "What is the refund policy for the data science courses at Learnbay?",
+            ans: "Candidates are advised to read ",
             linkText1: "Learnbay’s Refund/Cancellation Policy",
             link1: "/refund-cancellation-policy",
-            ansAfter: "",
+            ansAfter: " before enrolling in the program.",
             link: true,
             open: false,
           },
@@ -2342,19 +2311,23 @@ export const DataScienceCourseData = [
           {
             id: 0,
             ques: "How many capstone projects will be there?",
-            ans: "Learners pursuing an executive data science course for managers and leaders must choose 2 capstone projects in their preferred domains.",
+            ans: "Learners pursuing the data science course for managers and leaders must choose 2 capstone projects in their preferred domains.",
             open: true,
           },
           {
             id: 1,
-            ques: "Are there chances to work on real-time industry projects?",
-            ans: "Learners pursuing the executive program will get 10+ real-time industry projects to enrich their skills and attain proven success.",
+            ques: "How many real-time projects will be there?",
+            ans: "We have a set of 10+ Real-time projects from multiple domains such as Healthcare, Banking, Finance, Insurance, Retail, and others. Based on your interest you can choose your project to work on.",
+            linkText1: " Click here to download the list of the projects.",
+            link1:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+            link: true,
             open: false,
           },
           {
             id: 2,
-            ques: "Can I choose my project for the capstone, or are projects assigned?",
-            ans: "Yes, experts joining the course can choose the projects best suited to their domain and career interests.",
+            ques: "How will the project be executed?",
+            ans: `At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.`,
             open: false,
           },
         ],
@@ -2366,14 +2339,8 @@ export const DataScienceCourseData = [
           {
             id: 0,
             ques: "Is there any accredited certification after course completion?",
-            ans: "Yes, experts pursuing an executive data science course for managers will earn a globally recognized certificate of completion from E&ICT Academy.",
+            ans: "Yes, you will be awarded IBM and Microsoft accredited certificates on successful course completion of the Data Science and AI for Managers & Leaders Program.",
             open: true,
-          },
-          {
-            id: 1,
-            ques: "Is there any accredited certification after project work?",
-            ans: "Yes, experts joining an executive program in data science for managers and leaders will receive add-on project certificates from IBM & Microsoft.",
-            open: false,
           },
         ],
       },
@@ -2384,7 +2351,8 @@ export const DataScienceCourseData = [
           {
             id: 0,
             ques: "What’s the eligibility for a job assistance program at Learnbay?",
-            ans: "Learners joining an executive program in data science for leaders must score a minimum of 70% in all the course tasks and projects to become eligible for the job assistance program.",
+
+            ans: "You should have completed the course with : A minimum score of 70% in assessments. Should have completed the assignments and case studies. Worked and successfully completed the minimum recommended number of real-time projects.",
             open: true,
           },
           {
@@ -2396,21 +2364,20 @@ export const DataScienceCourseData = [
           {
             id: 2,
             ques: "Can I opt for the Career Service Pro feature?",
-            ans: "Yes, eligible learners with at least a 70% score can opt for the Career Services Pro feature. It includes –",
+            ans: `Yes, eligible learners with at least a 70% score can opt for the Career Services Pro feature. It includes –
+Uninterrupted Job and Placement Support
+Complete access to course materials and resources
+1:1 Mock Interviews with any of 450+ Industry Experts
+24/7 contact with Mentors
+Resume Building Session
+1:1 LinkedIn Review Session
+Dedicated Placement Team for soft skills training`,
             open: false,
-            list1:"Uninterrupted Job and Placement Support",
-            list2:"Complete access to course materials and resources",
-            list3:"1:1 Mock Interviews with any of 450+ Industry Experts ",
-            list4:"24/7 contact with Mentors",
-            list5:"Resume Building Session",
-            list6:"1:1 LinkedIn Review Session",
-            list7:"Dedicated Placement Team for soft skills training",
-            dscoursefaq1:true,
           },
           {
             id: 3,
-            ques: "Do you offer job placement or job assistance services after course completion?",
-            ans: "Yes, Learnbay offers job placement services to eligible learners (anyone with 70% scores) after completing the course.",
+            ques: "Will I get job referrals at Learnbay?",
+            ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies.",
             open: false,
           },
         ],
@@ -2421,16 +2388,15 @@ export const DataScienceCourseData = [
         data: [
           {
             id: 0,
-            ques: "Until when will the Learnbay students get the facility of mentorship?",
+            ques: "Until when will the students get the facility of mentorship?",
 
             ans: "Our mentors will provide data science training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to specialized mentors for project and placement purposes.",
             open: true,
           },
           {
             id: 1,
-            ques: "Can a learner choose to study from their desired mentor?",
-
-            ans: "The executive program in data science for managers offers IIT faculty industry-paced training sessions. In this program, students work with experienced professionals.",
+            ques: "Can a Learnbay student choose to study from their desired mentor?",
+            ans: "Every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
             open: false,
           },
           {

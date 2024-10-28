@@ -1289,16 +1289,11 @@ const nextConfig = {
       //   destination: "/datascience/business-analytics-certification-course",
       //   permanent: true,
       // },
-      {
-        source: "/fullstack/dsa-system-design",
-        destination: "/fullstack/full-stack-software-development-program",
-        permanent: true,
-      },
-      {
-        source: "/fullstack/dsa-system-design",
-        destination: "/fullstack/full-stack-software-development-program",
-        permanent: true,
-      },
+      // {
+      //   source: "/fullstack/dsa-system-design",
+      //   destination: "/fullstack/full-stack-software-development-program",
+      //   permanent: true,
+      // },
       {
         source: "/fullstack/software-development-program-for-freshers",
         destination: "/fullstack/full-stack-software-development-program",

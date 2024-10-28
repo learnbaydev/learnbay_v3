@@ -567,7 +567,6 @@ export const BAnalystPuneCourseData = [
             id: 1,
             ques: "Are there any instalment options available for program payments?",
             ans: "Yes, we have an instalment payment facility where you need to pay INR 6,228 per month. You can make payments through Credit card, UPI, or Internet banking. ",
-        
 
             open: false,
           },
@@ -597,7 +596,6 @@ export const BAnalystPuneCourseData = [
             id: 0,
             ques: "What is a capstone project, and how does it fit into the course?",
             ans: `Capstone projects are curated for professional skill development and help learners get exposure to real-world business issues. Business analyst  Program includes fresh capstone projects from diverse domains. Capstone projects are group project work where learners will learn the use and application of business analytics tools to tackle a business problem. `,
-  
 
             open: true,
           },
@@ -607,7 +605,6 @@ export const BAnalystPuneCourseData = [
             ans: `Yes, learners joining the business analyst training institute in Pune can choose their own capstone project as per their domain electives. After enrolling, learners can opt for their desired domain electives and continue upskilling. Then, they are assigned their project group and mentor to guide them through the learning process. `,
             open: false,
           },
-
 
           {
             id: 2,
@@ -656,31 +653,31 @@ export const BAnalystPuneCourseData = [
             id: 0,
             ques: "Does the course include job placement assistance?",
             ans: `Working professionals opt business analysis course in Pune to expand their job opportunities. Learnbay’s job assist program ensures 100% placement support guided by industry experts. Learners after completion of the course are eligible for this assistance including`,
-            list1:"Uninterrupted Job and Placement Support",
-            list2:"Complete access to course materials and resources",
-            list3:"1:1 Mock Interviews with any of 450+ Industry Experts ",
-            list4:"24/7 contact with Mentors",
-            list5:"Resume Building Session",
-            list6:"1:1 LinkedIn Review Session",
-            list7:"Dedicated Placement Team for soft skills training ",
-            
-            dscoursefaq1:true,
+            list1: "Uninterrupted Job and Placement Support",
+            list2: "Complete access to course materials and resources",
+            list3: "1:1 Mock Interviews with any of 450+ Industry Experts ",
+            list4: "24/7 contact with Mentors",
+            list5: "Resume Building Session",
+            list6: "1:1 LinkedIn Review Session",
+            list7: "Dedicated Placement Team for soft skills training ",
+
+            dscoursefaq1: true,
             open: true,
           },
           {
             id: 1,
             ques: "What types of job roles can I expect to be eligible for after completing this course?",
             ans: `Business analyst course in Pune helps learners craft a successful career in their domains with attractive pay scales. With this, one can expect job roles like –`,
-            list1:"Operations Research Analyst",
-            list2:"Business Analyst",
-            list3:"Market Research Analyst ",
-            list4:"Management Consultant",
-            list5:"Programmer Analyst ",
-            list6:"Quantitative Analyst",
-            list7:"Business Manager  ",
-            list8:"Program Manager ",
-            
-            dscoursefaq1:true,
+            list1: "Operations Research Analyst",
+            list2: "Business Analyst",
+            list3: "Market Research Analyst ",
+            list4: "Management Consultant",
+            list5: "Programmer Analyst ",
+            list6: "Quantitative Analyst",
+            list7: "Business Manager  ",
+            list8: "Program Manager ",
+
+            dscoursefaq1: true,
             open: true,
           },
           {
@@ -748,7 +745,7 @@ export const BAnalystPuneCourseData = [
             ques: "What is the best way to contact your support team if I have general inquiries?",
             ans: "Learnbay offers 24x7 learner’s support to help with general inquiries. You can check with our sales team at +91 7795687988 in case you have any questions in your mind. They will reach out to you as soon as possible with the best solutions. ",
             open: false,
-          }
+          },
         ],
       },
     ],
@@ -761,55 +758,87 @@ export const BAnalystPuneCourseData = [
 
     ProgramBot5:
       "Learners who want to pursue analytics in the non-tech fields will thus benefit from this program. This includes sectors like healthcare, retail, manufacturing, supply chain, etc. Likewise, the targeted placement cell helps you gain your dream job and guides you through the right path.",
-      ProgramHead1:"Who is a Business Analyst?",
-    ProgramBot6: "This is a united job role in many sectors and various genres. The authority for this job profile varies with the industry. Yet, the core task training given during the business analysis training in Pune deals with business workings. The business analyst can be both an entry-level or expert-level job spot.",
-    list1:"Noticing the gaps",
-    list2:"Suggests ways to fulfill the company’s desired goal of having a better presence in the market. ",
-    list3:"Assist in describing methods",
-    list4:"Plan shelling",
-    list5:"Inspect where the company can increase its skills and participate in its success.",
-    ProgramHead2:"Difference between a Business Analyst and a Data Analyst ",
+    ProgramHead1: "Who is a Business Analyst?",
+    ProgramBot6:
+      "This is a united job role in many sectors and various genres. The authority for this job profile varies with the industry. Yet, the core task training given during the business analysis training in Pune deals with business workings. The business analyst can be both an entry-level or expert-level job spot.",
+    list1: "Noticing the gaps",
+    list2:
+      "Suggests ways to fulfill the company’s desired goal of having a better presence in the market. ",
+    list3: "Assist in describing methods",
+    list4: "Plan shelling",
+    list5:
+      "Inspect where the company can increase its skills and participate in its success.",
+    ProgramHead2: "Difference between a Business Analyst and a Data Analyst ",
 
-    ProgramBot7:"The breach in the role of business analysts and data analysts lies in explaining job details.",
-    ProgramHead3:"Difference between a Business Analyst and a Data Scientist", 
-    ProgramBot8:"These experts allow for tracking evidence-driven subjection of industries regarding business aspects. The tools help skilful persons use to analyse are the same; both deal with data sets. To distinguish, data scientists are more worried solely with the data sets. On the other hand, business analysts are more into communicating business needs and suggesting answers.",
-   ProgramHead4:"Benefits of learning Business analysis online",
-   ProgramBot9:"The business analysis training in Pune is an attractive option for many aspiring pros. The points aiding the perk of studying business analyst certification in Pune are -",
-   list6:"Resilience- The aspirants can access the study materials at their ease. Attend this program from any geography with working solid internet. Thus, the course fees become much lower and affordable for many learners. This includes freshers to skillful people. ",
-   list7:"Availability of resources- These include recorded video lectures, study material kits, and software access to crucial tools for practice.",
-   list8:"Money-saving- Online courses tend to be cheaper compared to classroom training. Also, the online business analysis course in Pune helps you save on lodging, commuting, and other expenses. These mostly come with the course module requiring physical presence. Besides, selected aspirants are also eligible for scholarships, discounts, and other financial ease.",
-   list9:"Access to expertise- The business analyst training institute in Pune onboard trainers who have expertise working in the industries. This gives the trainers a logical mindset and the skills to relate theoretical concepts with practical use.",
-   list10:"Live classes- The subjection of online business analysis learning occurs in many formats. One such format is live classes, where the trainers give lectures in the colloquial format in the online learning portal. These sessions promote immediate doubt-clearing and two-way learning, even online.",
-   list11:"Globally acceptable- IBM and Microsoft are the developers behind Learnbay’s business analyst course in Pune. This makes the program of global notice and the skills you learn in this program stand valid across the globe.",
-   list12:"Trendy content- Using analytics to improve business results is a new trend in the digital world. Thus, constant learning and keeping an eye on all the recent progress in this field are required. This program engages learners in capstone and real-world projects. The making of these projects relies on the latest facts and trends.",
-   ProgramBot10:"Additionally, the tie-ups of online business analysis courses in Pune make it possible to update the program regularly. It also results in adding the latest progress in the field. Following the same principle, Learnbay has included gen-AI in its coursework.",
-   ProgramHead5:"Job trends for business analysts in Pune",
-   ProgramBot11:"The city’s talk around business analyst job roles is an everyday affair. Pune hosts many business analysts' training centers. The city has a flourishing community of tech and non-tech experts working as business analysts.",
-   ProgramBot12:"Pune also has the robust industrial-based best institute for business analyst courses in Pune centers. This makes the city the ideal choice for chasing a career as a future-proof business analyst.",
-   ProgramBot13:"The need for these experts is increasing. The reason for this need is to apply data-driven planning processes in companies. A business analyst plays a crucial role in noticing patterns from past data sets and finding promising trends. Besides, it also promotes the prediction of the business's future. ",
-   ProgramSpan1:"The sectors that are driving the business analyst job trends in Pune are -",
-   list13:"Information Technology- Tech companies need expert hands to help them streamline processes, enhance efficacy, and support project management tasks. ",
-   list14:"BFSI- This sector heavily depends on predicting market trends, fraud detection systems, and risk evaluation. Business analysts also ensure that the company is following regulatory rules. ",
-   list15:"Manufacturing- The business analysts in this industry are liable for cost reduction, process optimization, and supply chain management. ",
-   list16:"Healthcare- The medical sector needs business analytics to inspect patient data, increase service delivery, and fortify functional order.",
-   ProgramSpan2:"The most explored skills when you want to build your career as a business analyst are:",
-list17:"Data analysis and visualization facts",
-ProgramBot14:"Experience with tools like Tableau, PowerBI, and NoSQL is vital. You should be able to figure out and convert the data sets for the concerned governing body.",
-list18:"Data analysis and visualization facts",
-ProgramBot15:"The previous knowledge of your relevant domain might make you want to pursue your career as a business analyst. Depending on your choice, it can be in the same industrial segment or different. Thus, knowledge of the IT, BFSI, healthcare, and other sectors is pivotal. ",
+    ProgramBot7:
+      "The breach in the role of business analysts and data analysts lies in explaining job details.",
+    ProgramHead3: "Difference between a Business Analyst and a Data Scientist",
+    ProgramBot8:
+      "These experts allow for tracking evidence-driven subjection of industries regarding business aspects. The tools help skilful persons use to analyse are the same; both deal with data sets. To distinguish, data scientists are more worried solely with the data sets. On the other hand, business analysts are more into communicating business needs and suggesting answers.",
+    ProgramHead4: "Benefits of learning Business analysis online",
+    ProgramBot9:
+      "The business analysis training in Pune is an attractive option for many aspiring pros. The points aiding the perk of studying business analyst certification in Pune are -",
+    list6:
+      "Resilience- The aspirants can access the study materials at their ease. Attend this program from any geography with working solid internet. Thus, the course fees become much lower and affordable for many learners. This includes freshers to skillful people. ",
+    list7:
+      "Availability of resources- These include recorded video lectures, study material kits, and software access to crucial tools for practice.",
+    list8:
+      "Money-saving- Online courses tend to be cheaper compared to classroom training. Also, the online business analysis course in Pune helps you save on lodging, commuting, and other expenses. These mostly come with the course module requiring physical presence. Besides, selected aspirants are also eligible for scholarships, discounts, and other financial ease.",
+    list9:
+      "Access to expertise- The business analyst training institute in Pune onboard trainers who have expertise working in the industries. This gives the trainers a logical mindset and the skills to relate theoretical concepts with practical use.",
+    list10:
+      "Live classes- The subjection of online business analysis learning occurs in many formats. One such format is live classes, where the trainers give lectures in the colloquial format in the online learning portal. These sessions promote immediate doubt-clearing and two-way learning, even online.",
+    list11:
+      "Globally acceptable- IBM and Microsoft are the developers behind Learnbay’s business analyst course in Pune. This makes the program of global notice and the skills you learn in this program stand valid across the globe.",
+    list12:
+      "Trendy content- Using analytics to improve business results is a new trend in the digital world. Thus, constant learning and keeping an eye on all the recent progress in this field are required. This program engages learners in capstone and real-world projects. The making of these projects relies on the latest facts and trends.",
+    ProgramBot10:
+      "Additionally, the tie-ups of online business analysis courses in Pune make it possible to update the program regularly. It also results in adding the latest progress in the field. Following the same principle, Learnbay has included gen-AI in its coursework.",
+    ProgramHead5: "Job trends for business analysts in Pune",
+    ProgramBot11:
+      "The city’s talk around business analyst job roles is an everyday affair. Pune hosts many business analysts' training centers. The city has a flourishing community of tech and non-tech experts working as business analysts.",
+    ProgramBot12:
+      "Pune also has the robust industrial-based best institute for business analyst courses in Pune centers. This makes the city the ideal choice for chasing a career as a future-proof business analyst.",
+    ProgramBot13:
+      "The need for these experts is increasing. The reason for this need is to apply data-driven planning processes in companies. A business analyst plays a crucial role in noticing patterns from past data sets and finding promising trends. Besides, it also promotes the prediction of the business's future. ",
+    ProgramSpan1:
+      "The sectors that are driving the business analyst job trends in Pune are -",
+    list13:
+      "Information Technology- Tech companies need expert hands to help them streamline processes, enhance efficacy, and support project management tasks. ",
+    list14:
+      "BFSI- This sector heavily depends on predicting market trends, fraud detection systems, and risk evaluation. Business analysts also ensure that the company is following regulatory rules. ",
+    list15:
+      "Manufacturing- The business analysts in this industry are liable for cost reduction, process optimization, and supply chain management. ",
+    list16:
+      "Healthcare- The medical sector needs business analytics to inspect patient data, increase service delivery, and fortify functional order.",
+    ProgramSpan2:
+      "The most explored skills when you want to build your career as a business analyst are:",
+    list17: "Data analysis and visualization facts",
+    ProgramBot14:
+      "Experience with tools like Tableau, PowerBI, and NoSQL is vital. You should be able to figure out and convert the data sets for the concerned governing body.",
+    list18: "Data analysis and visualization facts",
+    ProgramBot15:
+      "The previous knowledge of your relevant domain might make you want to pursue your career as a business analyst. Depending on your choice, it can be in the same industrial segment or different. Thus, knowledge of the IT, BFSI, healthcare, and other sectors is pivotal. ",
 
-list19:"Technical Skills",
-ProgramBot16:"Getting well-versed in programming languages, databases, and analytical skills should be at the fingertips of a business analyst.",
-list20:"Business Acumen",
-ProgramBot17:"Besides tech skills, the idea of business aspects and their impacts are added aid.",
-list21:"Soft skills",
-ProgramBot18:"These are crucial skills that a business analyst should have. Business analysts are liable for regular talks with the company owners and stakeholders. They help guide them with data insights and other business-related findings.",
-list22:"Logical mindset",
-ProgramBot19:"Powerful analytical skills and the prospect to predict strategically are the keys to recognizing main business hurdles. It helps in giving result-based insights. ",
-ProgramBot20:"According to Glassdoor's reports, a business analyst's approximate salary is around INR 7.37 lakhs per annum. Thus, the average basic pay ranges from INR 5 lakhs to 11 lakhs per year. However, the pay scale completely differs and depends on your experience level and subject knowledge. Senior business analyst roles also have a budget of over INR 15 lakhs per annum.",
-ProgramBot21:"The best institute for business analyst courses in Pune prepares aspirants for the countless scopes. It is associated with business analyst profiles or similar roles. You may get jobs as a junior analyst or business analyst associate at the start of your career.",
-ProgramBot22:"The mid-senior roles include project management associate, senior analyst, etc. As the experts grow and gain skills in the field, they might opt for upskilling. As a senior expert, you must have both skills and valid certification. This will help you get the role of BI manager, chief business analyst, etc.",
-CertificationBot1:
+    list19: "Technical Skills",
+    ProgramBot16:
+      "Getting well-versed in programming languages, databases, and analytical skills should be at the fingertips of a business analyst.",
+    list20: "Business Acumen",
+    ProgramBot17:
+      "Besides tech skills, the idea of business aspects and their impacts are added aid.",
+    list21: "Soft skills",
+    ProgramBot18:
+      "These are crucial skills that a business analyst should have. Business analysts are liable for regular talks with the company owners and stakeholders. They help guide them with data insights and other business-related findings.",
+    list22: "Logical mindset",
+    ProgramBot19:
+      "Powerful analytical skills and the prospect to predict strategically are the keys to recognizing main business hurdles. It helps in giving result-based insights. ",
+    ProgramBot20:
+      "According to Glassdoor's reports, a business analyst's approximate salary is around INR 7.37 lakhs per annum. Thus, the average basic pay ranges from INR 5 lakhs to 11 lakhs per year. However, the pay scale completely differs and depends on your experience level and subject knowledge. Senior business analyst roles also have a budget of over INR 15 lakhs per annum.",
+    ProgramBot21:
+      "The best institute for business analyst courses in Pune prepares aspirants for the countless scopes. It is associated with business analyst profiles or similar roles. You may get jobs as a junior analyst or business analyst associate at the start of your career.",
+    ProgramBot22:
+      "The mid-senior roles include project management associate, senior analyst, etc. As the experts grow and gain skills in the field, they might opt for upskilling. As a senior expert, you must have both skills and valid certification. This will help you get the role of BI manager, chief business analyst, etc.",
+    CertificationBot1:
       "Learnbay Business Analyst program in Pune is Certified by IBM.",
     CertificationBot2:
       "Learnbay is a one-stop solution for professional training in  Business analytics skills and tools. Our students in Pune receive IBM certificates for course completion. IBM certificates for Business analytics in a resume or portfolio add an extra mark and high skill to their profile. Learnbay business analyst course training in pune would make recruiters mark your profile with extra importance.",
@@ -857,89 +886,153 @@ CertificationBot1:
     SyllabusBotlist46: "Advanced Topics in Machine Learning on AWS and Azure",
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf",
-   JobHead2:
-      "Salary Packages for Various Job Roles and Experience",
-      JobBot1:
+    JobHead2: "Salary Packages for Various Job Roles and Experience",
+    JobBot1:
       "Many factors impact the average salary of a business analyst in the tech city of Pune. This includes your experience, industry type, job location, company size, and skill sets. Skilled experts should always look to upgrade their pay scale. This requires improving the blend of these factors and aligning it correctly.",
-   JobBot2:"Businesses increasingly rely on data-driven planning, and thus, the input of business analysts remains pivotal. The business analyst training in Pune helps learners add successful records. The validation of completed real-world projects and in-depth knowledge of industry best practices make your profile highlight.",
+    JobBot2:
+      "Businesses increasingly rely on data-driven planning, and thus, the input of business analysts remains pivotal. The business analyst training in Pune helps learners add successful records. The validation of completed real-world projects and in-depth knowledge of industry best practices make your profile highlight.",
     JobBot3:
       "The job role of a business analyst is way over between the stakeholders and IT groups. This ensures effective transmission of the company's needs and findings.",
-    JobBot4:"The first aim of a business analyst is to help firms enhance processes. This follows products, services, and applications via data analysis. Starting from the freshers to the 7 years experience can apply for this role. Yet, the job spots might have different names. It depends on whether entry-level (associate, junior) or mid-senior level (senior, lead). ",
-    JobBot5:"A business consultant supervises firms to assist in focusing their efforts, ability, and gain. They inspect the existing business issues and build plans for upgrading. These functions are available in various domains. Those experts with almost 12 years of skills can apply for this spot. Nearly every firm offers a full-time role for this profile. Sometimes, it can be on a freelance basis.",
-    JobBot6:"The senior leadership role is the Director of Business Analysis/ Chief Business Analyst. It is liable for conducting business analysis in the relevant firm. This job profile mostly involves experts having experience in similar roles for more than 15 years. Their duties comprise managing teams of business analysts and mid-senior level experts. They guide strategic drive and proper order of tasks with the company's goals.",
-    JobBot7:"The business analyst course with placement in Pune offers this role to multiple learners. It happens in tie-ups with various firms and facilities that place the enrolled learners in esteemed MNCs.",
-    JobHead3:"Startups & MNCs Hiring for Freshers",
-    JobBot8:"Currently, if you are fresher but have received training from the best institute for business analyst courses in Pune. Thus, you have great options for renowned firms to hire. It allows you to gain the heights of the business analytics field. ",
-    listJob1:"Techgimini- They are the IT services and consulting company recruiting for their data science and analytics branch. It is a full-time, full-time on-site job spot in Pune. This spot demands an aspirant who can ideally manage the functions between IT and business functions. ",
-    listJob2:"The person will be liable for supporting the process. They are liable to successfully finish the analytical growth, testing, and deployment tasks.",
-    listJob3:"It also demands performing quality assurance checks, defining alerting & reporting needs, reporting common technical issues, and making or creating doubts for the product team. The required education for this spot is a degree in either IT or CS.",
-   listJob4:"Aexonic Technologies- Aexonic Technologies is a staffing and recruitment firm. Apart from technical skills, this company also focuses on soft skills. This includes a logical mindset, resolving complex issues, multitasking, and resilience.",
-   listJob5:"This is a fresher role, and the individual is a strong team player who can function according to the given tasks. In this spot, you must work with the development team and technical analysts.",
-   listJob6:"Thus, you should be able to conduct business process modeling, create outcomes. for the software testing team, and review change specifications. It also helps find, analyze, and organize business needs.",
-   listJob7:"Bacentric- The data science and analytics Bacentric's unit provides business analyst training roles to freshers. The job involves working with stakeholders, learning their needs, and researching work processes quickly.",
-   listJob8:"This job requires using data to enrich business functions. It also involves monitoring the accuracy of solutions and identifying prospects for cost savings. Also, the role includes finding ways to improve and optimize processes.",
-   listJob9:"Capitalxai- This is a startup company that mostly hires business analysts. It's a tough job that involves studying the market, spotting trends, and improving AI algorithms based on user input.",
-   listJob10:"The person creates reports, gives useful insights, and keeps up with the latest trends in the financial services sector. Any graduate with certification in business analysis is most welcome for the spot. This profile also needs to talk with different teams to offer curated solutions to the client.",
-listJob11:"Wipro- They are into IT services and consulting. The job title is data management data analyst, and it is a full-time offer for fresher aspirants. Identify data doubling and unfinishness.",
-   listJob12:"Performing data enrichment tasks, applying data cleansing processes & maintaining data accuracy and integrity. This job role involves a great change of words with the clients. It is a well-known MNC with exciting career roles. Starting your career as a fresher in this organization will provide many future aids. ",
-   listJob13:"Emerson- It is an industrial instrument and machinery servicing company. The role class for this profile comes in the group of BI and analytics. It is a fresher job, and you are expected to construct and convert functional specifications using PowerBI, Excel, etc. ",
- listJob14:"Also, you will be creating reports & data cleaning. Next, you will suggest the efficacy of new processes & data warehousing, and convey your findings to the clients. The job title they offer is a master data analyst.",
-  listJob15:"Besides a few of this list, many other firms are hiring for fresher business analyst profiles in Pune. This list includes MNCs like Infosys, Tech Mahindra, Capgemini, ZS Associates, and others in the technology and business sectors.",
- JobBot9:"Starting a career as a new business analyst can be tough. Beginning a career as a new business analyst can be tough. But, it offers good growing scopes in both smaller and larger corporates. Although some might think getting a job in a big company has more benefits, that might not happen. Let’s get this by comparing both sides.",
-  JobHead4:"Benefits of Smaller Firms",
-  listJob16:"Diverse duties- Here, freshers get exposure to broader skill sets and a deeper insight into various roles. Thus, they get roles that give them a variety of duties.",
-  listJob17:"Fast-paced learning- The changing nature of small-scale firms gives aspirants more practical scope to learn.",
-  listJob18:"Direct leadership scopes- Working in smaller firms makes business analysts often speak with the senior management and decision-makers. Thus, it enriches proximity and effective advice.",
-  listJob19:"Entrepreneurial experience- Due to the smaller workforce in these companies, they are more likely to cultivate an entrepreneurial culture within the firm. This promotes scope for innovation and helps experts gain confidence in generating ideas.",
-  listJob20:"Flexibility- You tend to get a more flexible working setup in smaller companies. Thereby leading to a more stable work-life balance.",
-  listJob21:"Strong Team Culture- The smaller teams can foster close bonds, leading to strong connections and a supportive workplace culture.",
-  JobHead5:"Benefits of Leading MNCs",
-  JobBot10:"Structured training programs- They usually have well-designed training programs helping freshers to adapt vital skills and knowledge. This method furnishes a solid base for new employees.",
- JobBot11:"Hands-on learning - Working on big projects with global partners provides valuable experience in simplifying complex business processes and systems. ",
-  JobBot12:"Career advancement scopes- The career paths in startups and MNCs are clear, with a regular cycle of promotions, international offers, and role changes.",
- JobBot13:"Access to resources- The availability of prime resources is one of the great aids that MNCs include—starting from tools, advanced tech creations, professional networks, etc. This adds credibility and prestige to your resume. ",
- JobBot14:"Brand acceptance- Working for a publicly known company at the beginning of my career opens doors to future scopes. ",
- JobBot15:"Employee aids- Large MNCs usually offer combined employee welfare programs like health insurance, retirement plans, and other perks, contributing to overall job satisfaction.",
- JobHead6:"Startups & MNCs Hiring for Experienced Pros",
- JobBot16:"Becoming a business analyst in Pune is a great chance. This is because the city has a growing stature as a digital hub. This section includes a detailed outline of firms that often recruit expert business analyst experts.",
- JobBot17:"If you are an expert in your field, you may want to advance to a senior position in a company. Consider taking business analyst training in Pune to improve your skills. This training can help you develop the skills needed to advance your career. It is vital to constantly improve and expand your knowledge to rise in your field.",
- listJob22:"Accenture- The typical day for this job title will be leading business analysis, designing solutions, recognizing customer needs, etc. You need to research and gather info to support the design of the business solutions. ",
- listJob23:"The tieing-up ability with all-purpose units ensures the successful application of the designed business solutions. The perfect candidate for this job needs to know business analysis methods well. They should also have experience in designing and improving methods. They should have a track record of a minimum of 15 years of academic background.",
- listJob24:"Seva Infotech- The job role is business analyst and the education required for this role is a B.E or B.tech degree with 2 to 3 years of experience. The duties of this role include asses business functions, predicting needs, and optimizing plans.",
- listJob25:"The involvement of employees covers conducting meetings, presenting key findings, performing requirement analysis, working with other teams, user acceptance testing, etc.",
- listJob26:"In addition, others are expected to furnish leadership, training, coaching, and mentorship to the juniors in the team. This organization mostly offers office-based jobs and demands employees to commute to the office location.",
- listJob27:"Capco- This company comes in the banking sector category and is looking for a full-time business analyst to work on-site. It prefers skilled experts with proven skills including domain expertise, coding in Python & SQL, and data ingestion into On-prem & cloud.",
- listJob28:"Data analysis, data conversion, effective reporting skills, proven record of previous leadership roles, and stakeholder management are also vital. The domain group of this company comes in BFSI (banking, financial services, and insurance).",
- listJob29:"The education background can be any bachelor's or master's degree individual with the experience of working in a similar profile.",
- listJob30:"Hexaware Technologies- This is a tech manufacturing company. It has many branches all over India and in Pune. This profile needs an expert who can multitask at the same time.",
- listJob31:"The job involves gathering requirements, analyzing data, using Scrum agile methods, studying user behavior, finding solutions, uniting with tech teams, documenting, and reporting. The other duties of this job include writing PAD documents, managing RAID, and managing APIs.",
- listJob32:"Essenware- The industry type is IT services and consulting, and the role type comes in BI and analytics. These employees must support all kinds of business tasks occurring in the firm. The employee must support, answer questions, track cases, provide info, and report problems to stakeholders.",
- listJob33:"The employee is liable for helping, responding, monitoring, informing, and communicating with stakeholders. Also, create custom reports and ad hoc for all systems.",
- listJob34:"Mobisoft Infotech- The company genre is into internet service provided to the customer. Their data science and analytics unit enquires for master business analyst experts.",
- listJob35:"The role includes system analysis, translating business problems, functional specifications, proposals, and presentations. The individual will also produce functional flowcharts and workflow process maps. The leadership exposure, a pre-requisite for this role, is the ability to coordinate business, management, and technical teams. Plus, contributions to tasks like presales, project coordination, and testing are needed.",
- listJob36:"Apart from these firms, other well-known ones that onboard capable business analysts experts are Tata Consultancy Services (TCS), Wipro, Cognizant, Infosys, and so on.",
- JobHead7:"Types of Upskilling Options for Skilled Business Analysts",
- JobBot18:"For experts, it is crucial to keep working on your business analyst skills. This means they must upskill to thrive in this ever-changing digital habitat. Now, let’s focus on the choices open.",
- listJob37:"Advanced Certifications- It improves your credibility and skills in specialized methods, shells, etc.",
- listJob38:"Technical Skill Enhancement- As the role of business analysts bisects various teams like management, IT, and stakeholders. Thus it is vital to know all the tools and trends that are part of their everyday functioning. The names of the tools are Power BI, Tableau, Matplotlib, Python, SQL, R, etc.",
- listJob39:"Agile and Scrum Methods- Hands-on learning with agile methods and getting certificates such as Certified Scrum Master (CSM) or Agile Certified Practitioner (PMI-ACP) is of great benefit. The reason is firms mostly use these tools for project management and growth.",
- listJob40:"Data Analytics and Machine Learning- With tech mediation in almost all industrial sectors, data-based decision-making is becoming crucial. Thus, learning advanced analytics concepts like ML and statistics can provide a competitive edge.",
- listJob41:"Project Management Skills- Gaining these skills will help you manage projects more effectively and increase your value to the company.",
- listJob42:"Domain Expertise- Obtaining in-depth learning of your functional industry type helps you furnish more relevant insight into its business functions and remedies. The domains are healthcare, manufacturing, supply chain, e-commerce, human resources, etc.",
- listJob43:"Soft Skill Building- The soft skills include leadership quality, negotiation skills, reporting ability, stakeholder management, etc. These are your crucial job duties. Joining in workshops and seminars can help you develop these skills.",
- listJob44:"Multidiscipline Experience- As a business analyst, you need to expand your knowledge on various subjects of your company’s functioning. The reason is that the type of data you will deal with coincides with IT, marketing, finance, management, etc. Thus, grasping the functioning of each sector is crucial for the business analyst expert. Thus, it helps widen your lookout and enriches your ability to obtain learning and address cross-branch issues.",
- listJob45:"Guidance and Networking- Joining with peers and mentors in the industry gives you insights, guidance, and scope for growth. Networking can also lead to job referrals and career scope.",
- listJob46:"Constant Learning- The role of a business analyst is ever-evolving, which has led to its changing nature. With the constant progress happening in the field, it is vital to upskill yourself with the latest progress, tools, and trends. It helps your profile grow and find the current job role.",
- JobBot19:"The business analyst certification course in Pune has all these features combined in a single learning module. Learning from this institute fosters growth in academic, practical, and aptitude-based knowledge of business analysis. The course does not bias between the experiences of learners. It is open to both freshers and skilled masters. ",
- ProjectsBot1:
+    JobBot4:
+      "The first aim of a business analyst is to help firms enhance processes. This follows products, services, and applications via data analysis. Starting from the freshers to the 7 years experience can apply for this role. Yet, the job spots might have different names. It depends on whether entry-level (associate, junior) or mid-senior level (senior, lead). ",
+    JobBot5:
+      "A business consultant supervises firms to assist in focusing their efforts, ability, and gain. They inspect the existing business issues and build plans for upgrading. These functions are available in various domains. Those experts with almost 12 years of skills can apply for this spot. Nearly every firm offers a full-time role for this profile. Sometimes, it can be on a freelance basis.",
+    JobBot6:
+      "The senior leadership role is the Director of Business Analysis/ Chief Business Analyst. It is liable for conducting business analysis in the relevant firm. This job profile mostly involves experts having experience in similar roles for more than 15 years. Their duties comprise managing teams of business analysts and mid-senior level experts. They guide strategic drive and proper order of tasks with the company's goals.",
+    JobBot7:
+      "The business analyst course with placement in Pune offers this role to multiple learners. It happens in tie-ups with various firms and facilities that place the enrolled learners in esteemed MNCs.",
+    JobHead3: "Startups & MNCs Hiring for Freshers",
+    JobBot8:
+      "Currently, if you are fresher but have received training from the best institute for business analyst courses in Pune. Thus, you have great options for renowned firms to hire. It allows you to gain the heights of the business analytics field. ",
+    listJob1:
+      "Techgimini- They are the IT services and consulting company recruiting for their data science and analytics branch. It is a full-time, full-time on-site job spot in Pune. This spot demands an aspirant who can ideally manage the functions between IT and business functions. ",
+    listJob2:
+      "The person will be liable for supporting the process. They are liable to successfully finish the analytical growth, testing, and deployment tasks.",
+    listJob3:
+      "It also demands performing quality assurance checks, defining alerting & reporting needs, reporting common technical issues, and making or creating doubts for the product team. The required education for this spot is a degree in either IT or CS.",
+    listJob4:
+      "Aexonic Technologies- Aexonic Technologies is a staffing and recruitment firm. Apart from technical skills, this company also focuses on soft skills. This includes a logical mindset, resolving complex issues, multitasking, and resilience.",
+    listJob5:
+      "This is a fresher role, and the individual is a strong team player who can function according to the given tasks. In this spot, you must work with the development team and technical analysts.",
+    listJob6:
+      "Thus, you should be able to conduct business process modeling, create outcomes. for the software testing team, and review change specifications. It also helps find, analyze, and organize business needs.",
+    listJob7:
+      "Bacentric- The data science and analytics Bacentric's unit provides business analyst training roles to freshers. The job involves working with stakeholders, learning their needs, and researching work processes quickly.",
+    listJob8:
+      "This job requires using data to enrich business functions. It also involves monitoring the accuracy of solutions and identifying prospects for cost savings. Also, the role includes finding ways to improve and optimize processes.",
+    listJob9:
+      "Capitalxai- This is a startup company that mostly hires business analysts. It's a tough job that involves studying the market, spotting trends, and improving AI algorithms based on user input.",
+    listJob10:
+      "The person creates reports, gives useful insights, and keeps up with the latest trends in the financial services sector. Any graduate with certification in business analysis is most welcome for the spot. This profile also needs to talk with different teams to offer curated solutions to the client.",
+    listJob11:
+      "Wipro- They are into IT services and consulting. The job title is data management data analyst, and it is a full-time offer for fresher aspirants. Identify data doubling and unfinishness.",
+    listJob12:
+      "Performing data enrichment tasks, applying data cleansing processes & maintaining data accuracy and integrity. This job role involves a great change of words with the clients. It is a well-known MNC with exciting career roles. Starting your career as a fresher in this organization will provide many future aids. ",
+    listJob13:
+      "Emerson- It is an industrial instrument and machinery servicing company. The role class for this profile comes in the group of BI and analytics. It is a fresher job, and you are expected to construct and convert functional specifications using PowerBI, Excel, etc. ",
+    listJob14:
+      "Also, you will be creating reports & data cleaning. Next, you will suggest the efficacy of new processes & data warehousing, and convey your findings to the clients. The job title they offer is a master data analyst.",
+    listJob15:
+      "Besides a few of this list, many other firms are hiring for fresher business analyst profiles in Pune. This list includes MNCs like Infosys, Tech Mahindra, Capgemini, ZS Associates, and others in the technology and business sectors.",
+    JobBot9:
+      "Starting a career as a new business analyst can be tough. Beginning a career as a new business analyst can be tough. But, it offers good growing scopes in both smaller and larger corporates. Although some might think getting a job in a big company has more benefits, that might not happen. Let’s get this by comparing both sides.",
+    JobHead4: "Benefits of Smaller Firms",
+    listJob16:
+      "Diverse duties- Here, freshers get exposure to broader skill sets and a deeper insight into various roles. Thus, they get roles that give them a variety of duties.",
+    listJob17:
+      "Fast-paced learning- The changing nature of small-scale firms gives aspirants more practical scope to learn.",
+    listJob18:
+      "Direct leadership scopes- Working in smaller firms makes business analysts often speak with the senior management and decision-makers. Thus, it enriches proximity and effective advice.",
+    listJob19:
+      "Entrepreneurial experience- Due to the smaller workforce in these companies, they are more likely to cultivate an entrepreneurial culture within the firm. This promotes scope for innovation and helps experts gain confidence in generating ideas.",
+    listJob20:
+      "Flexibility- You tend to get a more flexible working setup in smaller companies. Thereby leading to a more stable work-life balance.",
+    listJob21:
+      "Strong Team Culture- The smaller teams can foster close bonds, leading to strong connections and a supportive workplace culture.",
+    JobHead5: "Benefits of Leading MNCs",
+    JobBot10:
+      "Structured training programs- They usually have well-designed training programs helping freshers to adapt vital skills and knowledge. This method furnishes a solid base for new employees.",
+    JobBot11:
+      "Hands-on learning - Working on big projects with global partners provides valuable experience in simplifying complex business processes and systems. ",
+    JobBot12:
+      "Career advancement scopes- The career paths in startups and MNCs are clear, with a regular cycle of promotions, international offers, and role changes.",
+    JobBot13:
+      "Access to resources- The availability of prime resources is one of the great aids that MNCs include—starting from tools, advanced tech creations, professional networks, etc. This adds credibility and prestige to your resume. ",
+    JobBot14:
+      "Brand acceptance- Working for a publicly known company at the beginning of my career opens doors to future scopes. ",
+    JobBot15:
+      "Employee aids- Large MNCs usually offer combined employee welfare programs like health insurance, retirement plans, and other perks, contributing to overall job satisfaction.",
+    JobHead6: "Startups & MNCs Hiring for Experienced Pros",
+    JobBot16:
+      "Becoming a business analyst in Pune is a great chance. This is because the city has a growing stature as a digital hub. This section includes a detailed outline of firms that often recruit expert business analyst experts.",
+    JobBot17:
+      "If you are an expert in your field, you may want to advance to a senior position in a company. Consider taking business analyst training in Pune to improve your skills. This training can help you develop the skills needed to advance your career. It is vital to constantly improve and expand your knowledge to rise in your field.",
+    listJob22:
+      "Accenture- The typical day for this job title will be leading business analysis, designing solutions, recognizing customer needs, etc. You need to research and gather info to support the design of the business solutions. ",
+    listJob23:
+      "The tieing-up ability with all-purpose units ensures the successful application of the designed business solutions. The perfect candidate for this job needs to know business analysis methods well. They should also have experience in designing and improving methods. They should have a track record of a minimum of 15 years of academic background.",
+    listJob24:
+      "Seva Infotech- The job role is business analyst and the education required for this role is a B.E or B.tech degree with 2 to 3 years of experience. The duties of this role include asses business functions, predicting needs, and optimizing plans.",
+    listJob25:
+      "The involvement of employees covers conducting meetings, presenting key findings, performing requirement analysis, working with other teams, user acceptance testing, etc.",
+    listJob26:
+      "In addition, others are expected to furnish leadership, training, coaching, and mentorship to the juniors in the team. This organization mostly offers office-based jobs and demands employees to commute to the office location.",
+    listJob27:
+      "Capco- This company comes in the banking sector category and is looking for a full-time business analyst to work on-site. It prefers skilled experts with proven skills including domain expertise, coding in Python & SQL, and data ingestion into On-prem & cloud.",
+    listJob28:
+      "Data analysis, data conversion, effective reporting skills, proven record of previous leadership roles, and stakeholder management are also vital. The domain group of this company comes in BFSI (banking, financial services, and insurance).",
+    listJob29:
+      "The education background can be any bachelor's or master's degree individual with the experience of working in a similar profile.",
+    listJob30:
+      "Hexaware Technologies- This is a tech manufacturing company. It has many branches all over India and in Pune. This profile needs an expert who can multitask at the same time.",
+    listJob31:
+      "The job involves gathering requirements, analyzing data, using Scrum agile methods, studying user behavior, finding solutions, uniting with tech teams, documenting, and reporting. The other duties of this job include writing PAD documents, managing RAID, and managing APIs.",
+    listJob32:
+      "Essenware- The industry type is IT services and consulting, and the role type comes in BI and analytics. These employees must support all kinds of business tasks occurring in the firm. The employee must support, answer questions, track cases, provide info, and report problems to stakeholders.",
+    listJob33:
+      "The employee is liable for helping, responding, monitoring, informing, and communicating with stakeholders. Also, create custom reports and ad hoc for all systems.",
+    listJob34:
+      "Mobisoft Infotech- The company genre is into internet service provided to the customer. Their data science and analytics unit enquires for master business analyst experts.",
+    listJob35:
+      "The role includes system analysis, translating business problems, functional specifications, proposals, and presentations. The individual will also produce functional flowcharts and workflow process maps. The leadership exposure, a pre-requisite for this role, is the ability to coordinate business, management, and technical teams. Plus, contributions to tasks like presales, project coordination, and testing are needed.",
+    listJob36:
+      "Apart from these firms, other well-known ones that onboard capable business analysts experts are Tata Consultancy Services (TCS), Wipro, Cognizant, Infosys, and so on.",
+    JobHead7: "Types of Upskilling Options for Skilled Business Analysts",
+    JobBot18:
+      "For experts, it is crucial to keep working on your business analyst skills. This means they must upskill to thrive in this ever-changing digital habitat. Now, let’s focus on the choices open.",
+    listJob37:
+      "Advanced Certifications- It improves your credibility and skills in specialized methods, shells, etc.",
+    listJob38:
+      "Technical Skill Enhancement- As the role of business analysts bisects various teams like management, IT, and stakeholders. Thus it is vital to know all the tools and trends that are part of their everyday functioning. The names of the tools are Power BI, Tableau, Matplotlib, Python, SQL, R, etc.",
+    listJob39:
+      "Agile and Scrum Methods- Hands-on learning with agile methods and getting certificates such as Certified Scrum Master (CSM) or Agile Certified Practitioner (PMI-ACP) is of great benefit. The reason is firms mostly use these tools for project management and growth.",
+    listJob40:
+      "Data Analytics and Machine Learning- With tech mediation in almost all industrial sectors, data-based decision-making is becoming crucial. Thus, learning advanced analytics concepts like ML and statistics can provide a competitive edge.",
+    listJob41:
+      "Project Management Skills- Gaining these skills will help you manage projects more effectively and increase your value to the company.",
+    listJob42:
+      "Domain Expertise- Obtaining in-depth learning of your functional industry type helps you furnish more relevant insight into its business functions and remedies. The domains are healthcare, manufacturing, supply chain, e-commerce, human resources, etc.",
+    listJob43:
+      "Soft Skill Building- The soft skills include leadership quality, negotiation skills, reporting ability, stakeholder management, etc. These are your crucial job duties. Joining in workshops and seminars can help you develop these skills.",
+    listJob44:
+      "Multidiscipline Experience- As a business analyst, you need to expand your knowledge on various subjects of your company’s functioning. The reason is that the type of data you will deal with coincides with IT, marketing, finance, management, etc. Thus, grasping the functioning of each sector is crucial for the business analyst expert. Thus, it helps widen your lookout and enriches your ability to obtain learning and address cross-branch issues.",
+    listJob45:
+      "Guidance and Networking- Joining with peers and mentors in the industry gives you insights, guidance, and scope for growth. Networking can also lead to job referrals and career scope.",
+    listJob46:
+      "Constant Learning- The role of a business analyst is ever-evolving, which has led to its changing nature. With the constant progress happening in the field, it is vital to upskill yourself with the latest progress, tools, and trends. It helps your profile grow and find the current job role.",
+    JobBot19:
+      "The business analyst certification course in Pune has all these features combined in a single learning module. Learning from this institute fosters growth in academic, practical, and aptitude-based knowledge of business analysis. The course does not bias between the experiences of learners. It is open to both freshers and skilled masters. ",
+    ProjectsBot1:
       "Overall, being a business analyst brings you a rewarding career with lucrative salaries. It allows you to grow professionally and financially and provides the delight of making a tangible impact on the business's success. The business analyst role differs slightly from the typical data scientist and data analyst profile.",
-      ProjectsBot2:"Although the notional learning, tool usage, and practical sessions are the same, their application differs. The pay scale for this profile is also quite decent, regardless of whether it is a fresher or more competent profile. The business analyst course in Pune provides thorough learning, a project innovation lab for practice, a career support program, etc. Enroll in this program to begin the journey of business analytics learning.", 
-    
-      src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/amazon1.png",
+    ProjectsBot2:
+      "Although the notional learning, tool usage, and practical sessions are the same, their application differs. The pay scale for this profile is also quite decent, regardless of whether it is a fresher or more competent profile. The business analyst course in Pune provides thorough learning, a project innovation lab for practice, a career support program, etc. Enroll in this program to begin the journey of business analytics learning.",
+
+    src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/amazon1.png",
     ProjectsH1: "Amazon Customer Review Analysis",
     Projectsp1:
       "Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can participate in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach.",
     src2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IBM.png",
+    alt3: "IBM Logo",
     ProjectsH2: "IBM HR Analytics",
     Projectsp2:
       "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other Data science abilities.",

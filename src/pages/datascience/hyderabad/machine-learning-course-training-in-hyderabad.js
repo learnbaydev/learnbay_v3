@@ -262,6 +262,10 @@ export default function Home() {
                 MachineLearningHyderabadCourseData[0].CertificationBot1
               }
               src={MachineLearningHyderabadCourseData[0].src}
+              alt2={MachineLearningHyderabadCourseData[0].alt2}
+              alt3={MachineLearningHyderabadCourseData[0].alt3}
+              alt4={MachineLearningHyderabadCourseData[0].alt4}
+              alt5={MachineLearningHyderabadCourseData[0].alt5}
               ModuleHead1={MachineLearningHyderabadCourseData[0].ModuleHead1}
               ModuleBot1={MachineLearningHyderabadCourseData[0].ModuleBot1}
               ModuleBot2={MachineLearningHyderabadCourseData[0].ModuleBot2}

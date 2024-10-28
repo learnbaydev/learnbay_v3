@@ -831,7 +831,7 @@ export const DSVietnamCourseData = [
       "Learnbay offers career transition certified by IBM with job-driven gains. Our learners will be able to stand out against career races with in-demand skills and expertise. IBM’s advancement in AI and automation help Learnbay restructure the course modules as per the trend.       ",
     CertificationBot3:
       "However, this course has an additional certification too. Microsoft (MS), a well-known digital leader, paves the way for career upskilling with assured global-scale success. Learnbay’s collaboration with MS unlocks a proven career path with expanding earning limits.      ",
-  
+
     ModuleHead1: "Listing Out the Learning Outcomes       ",
     ModuleBot1:
       "Learnbay foresees a digitally proven career path for working pros from diverse domains. MNCs in Vietnam are on the verge of reforming their firms for data-driven insights. Their urge to elevate their decision-making skills with insightful facts and figures ends up becoming a skilful data scientist.         ",
@@ -926,7 +926,8 @@ export const DSVietnamCourseData = [
       "Recent years have seen a gradual growth of data science in Vietnam. As a result, business sectors feel the transformative impacts of data science. This alters the job market outlook and fills it with prime career options. Experts from IT/non-IT domains with part-time and full-time jobs opt for upskilling. Yet, upskilling with a common certification is worthless.",
     JobBot22:
       "Learnbay’s data science course has an alliance with IBM & MS that expands career growth limits abruptly. Its hands-on learning space equips experts with proven skills to thrive in the data science field with a bright future. With IBM & MS certificates, learners can crack their dream roles with leading MNCs.",
-      JobBot60: "A data science certificate validates the skills to face industry issues and tackle them with expertise. It increases your job selection chances with prime MNCs in Vietnam and overseas. In short, career gains with Learnbay’s certification with notable results are –",
+    JobBot60:
+      "A data science certificate validates the skills to face industry issues and tackle them with expertise. It increases your job selection chances with prime MNCs in Vietnam and overseas. In short, career gains with Learnbay’s certification with notable results are –",
     Joblist50: "GenAI-rich syllabus for realistic career development",
     Joblist51: "Real-time simulation projects for exclusive portfolios",
     Joblist52: "IBM & MS certifications (with premium data science programs)",
@@ -951,7 +952,7 @@ export const DSVietnamCourseData = [
     Joblist30: "Front-end Data Engineer",
     Joblist30: "Database Manager",
     Joblist30: "Forensic Investigations and Intelligence",
-  
+
     JobBot25:
       "Hence, enrolling in Learnbay’s data science course in Vietnam unlocks potential chances of making swift career growth. Our custom-fit course syllabus with GenAI trends and ChatGPT unlocks promising career growth. Register with Learnbay today, and escalate your career transition chances.",
 
@@ -966,21 +967,25 @@ export const DSVietnamCourseData = [
       "Learnbay’s data science course brings an elite platform for gaining project-based learning. It covers major domains like – BFSI, Marketing, HR, Healthcare, Supply Chain, and Manufacturing. Learners get a chance to work on capstone projects in their chosen field.",
     ProjectsBot5:
       "Furthermore, learners obtain IBM certifications once they complete the projects. These certificates are useful for a global-level career rise across leading MNCs.",
-    
+
     ProjectsBot2: "Below are a few projects from the Learnbay alumni profiles:",
     src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
+    alt2: "Samsung Logo",
     ProjectsH1: "Samsung Health Monitor App",
     Projectsp1:
       "Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app.",
     src2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IBM.png",
+    alt3: "IBM Logo",
     ProjectsH2: "IBM HR Analytics",
     Projectsp2:
       "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other Data science abilities.",
     src3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/amazon1.png",
+    alt4: "Amazon Logo",
     ProjectsH3: "Amazon Customer Review Analysis",
     Projectsp3:
       "Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can participate in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach.",
     src4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BMW.png",
+    alt5: "BMW Logo",
     ProjectsH4: "BMW Used Car Price Optimization",
     Projectsp4:
       "BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects.",
@@ -1013,8 +1018,7 @@ export const DSVietnamCourseData = [
     alt9: "data science course training in Vietnam",
     CityTextB:
       "Artificial Intelligence Course Certification Training locations in Vietnam ",
-    CityText:
-      " ",
+    CityText: " ",
     CityTextL:
       " :Artificial Intelligence Course viman nagar,Artificial Intelligence Training in kalyan nagar,Artificial Intelligence Training in magarpetta,Artificial Intelligence Training in pimpri chinchwad,Artificial Intelligence Classes in yerwada,Artificial Intelligence Classes in kharadi,Artificial Intelligence Classes in vishrantwadi,Artificial Intelligence Classes in deccan,Artificial Intelligence Course in Katraj,Artificial Intelligence Training in warje,,Artificial Intelligence Certification Training in bavdhan,Artificial Intelligence Certification in boat club road,Artificial Intelligence Certification in model colony,Best Artificial Intelligence Training in Vietnam,Best Artificial Intelligence Course in Vietnam",
   },

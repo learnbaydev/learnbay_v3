@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export const DABangaloreCourseData = [
   {
     script1: {
@@ -992,47 +990,62 @@ export const DABangaloreCourseData = [
     SyllabusBotlist46: "Introduction to Time Series Forecasting",
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
-    
-      JobHead1:
+
+    JobHead1:
       "What does the Data Analytics Job Assistance Program by Learnbay in Bangalore include?",
     JobBot1:
       "Data analytics has become part and parcel of today’s business setting. Several startups and MNCs in Bangalore rely on data analytics and its factual support. Having fine data analytics skills is vital to succeed in the career race. Hence, opting for a data analyst course institute in Bangalore with 100% job support is useful. Unlike typical courses, learning from an institute with job support services is good. It helps to develop the required skills, refine your job search ways, and enrich your resume.       ",
     JobBot2:
       "Learnbay presents elite data analytics courses in Bangalore with placement assistance. Many working pros fail to find the right way to refine their skills and prepare for critical jobs. Hence, they must join mentors and training centers that offer in-depth career support services. Experts enrolling in our data analytics programs can avail of industry-driven career support services – from mock interviews to resume reviewing. Learners with at least 70% scores in course tasks and projects can avail of our ‘Career Service PRO’.       ",
-    JobHead2: "What prime technical skills will you develop via our data analysis courses in Bangalore? ",
-    JobBot3: " Data analytics learning has become crucial amidst the fierce career race in today’s job market. Many startups and MNCs deal with massive data sets to reach final decisions or make a business move. This enriches the demand for high-end quality data analysis. Hence, upskilling via the best data analyst course in Bangalore is critical for career growth.    ",
-    JobHead3:"Why are skilled data analysts in demand?     ",
-    JobBot4:"Learnbay envisions successful career shifts for working experts from diverse fields. Its best data analytics classes in Bangalore equip tech and non-tech pros with proven skills. Most non-tech experts gain proper technical skills to face critical job interviews and ace with 100% success. Hence, joining us will enhance your career prospects with alluring gains.      ",
-    JobBot5:"In other words, this large amount of data is called “Big data.” As it holds most of the business data, it contains invaluable insights and will be useful if interpreted correctly. Companies are eyeing skillful data analysts, as they can contribute to the business and gain a competitive edge in the market.     ",
-    JobBot6:"Despite the shakedowns in the global tech space, data analytics markets are in high demand and are experiencing project growth. The data analytics market is expected to rise to 184.5 billion by 2027 globally. Also, data analysts are expected to play an important role in sectors like manufacturing, retail, banking, supply chain, healthcare, and energy.     ",
+    JobHead2:
+      "What prime technical skills will you develop via our data analysis courses in Bangalore? ",
+    JobBot3:
+      " Data analytics learning has become crucial amidst the fierce career race in today’s job market. Many startups and MNCs deal with massive data sets to reach final decisions or make a business move. This enriches the demand for high-end quality data analysis. Hence, upskilling via the best data analyst course in Bangalore is critical for career growth.    ",
+    JobHead3: "Why are skilled data analysts in demand?     ",
+    JobBot4:
+      "Learnbay envisions successful career shifts for working experts from diverse fields. Its best data analytics classes in Bangalore equip tech and non-tech pros with proven skills. Most non-tech experts gain proper technical skills to face critical job interviews and ace with 100% success. Hence, joining us will enhance your career prospects with alluring gains.      ",
+    JobBot5:
+      "In other words, this large amount of data is called “Big data.” As it holds most of the business data, it contains invaluable insights and will be useful if interpreted correctly. Companies are eyeing skillful data analysts, as they can contribute to the business and gain a competitive edge in the market.     ",
+    JobBot6:
+      "Despite the shakedowns in the global tech space, data analytics markets are in high demand and are experiencing project growth. The data analytics market is expected to rise to 184.5 billion by 2027 globally. Also, data analysts are expected to play an important role in sectors like manufacturing, retail, banking, supply chain, healthcare, and energy.     ",
 
-    JobBot7:"Data analysts in India are getting lucrative opportunities and the average salary of a data analyst starts at INR 6,50,000 per annum. On the other hand, an experienced or senior data analyst will grab an average package of INR 12,00,000 per annum. The salary of a data analyst relies on experience, skills, and recruiting company. Many companies have started to prioritize skills over experience, having skills will boost your career growth.     ",
-    JobHead4:"Is skills upgrade via our data analytics course in Bangalore crucial for career growth?    ",
-    JobBot8:"Career upskilling is vital to sustain yourself in today’s ever-evolving job market. The rise of data analytics alters the career outlook for many experts from diverse domains. Owing to the rising career trends, just a graduation degree and basic domain skills are not enough to sustain yourself and thrive. Hence, learning is crucial to refine pre-existing skills and attain career-driven clarity. ",
-    JobBotSpan1:"Entry-level Roles:     ",
-JobBot9:"Learnbay’s online data analytics training in Bangalore offers everything you need to excel in today’s time. Its GenAI-inclusive course modules guide non-tech pros to ace arising data-driven careers with 100% success. Experts can showcase the merit of their domains with real-time learning via live projects. Here, experts can choose any project based on their domain expertise and practice the proven tools. Unlike common courses, joining our best data analyst course in Bangalore is worth investing in. ",
-JobBot10: "Experts joining our data analytics course in Bangalore will go through varied stages of job and placement programs that enrich their chances of success. Plus, you will obtain IBM course and project certificates that validate your skill sets on a global level. Hence, joining Learnbay’s cutting-edge courses is crucial for your career growth. ",
-JobBot11: "If you’re willing to update your career in today’s digital age, enrolling in our data analyst institute in Bangalore is useful. It equips you with the potential to face career hurdles and land your dream jobs. If you’re a fresher or have 3–5 years of experience, upskilling from our cutting-edge courses confirms global-level success. With us, you can crack critical jobs with alluring salary packages at any career level. Hence, join us today and fulfill your dream of seizing top-tier career options.",
+    JobBot7:
+      "Data analysts in India are getting lucrative opportunities and the average salary of a data analyst starts at INR 6,50,000 per annum. On the other hand, an experienced or senior data analyst will grab an average package of INR 12,00,000 per annum. The salary of a data analyst relies on experience, skills, and recruiting company. Many companies have started to prioritize skills over experience, having skills will boost your career growth.     ",
+    JobHead4:
+      "Is skills upgrade via our data analytics course in Bangalore crucial for career growth?    ",
+    JobBot8:
+      "Career upskilling is vital to sustain yourself in today’s ever-evolving job market. The rise of data analytics alters the career outlook for many experts from diverse domains. Owing to the rising career trends, just a graduation degree and basic domain skills are not enough to sustain yourself and thrive. Hence, learning is crucial to refine pre-existing skills and attain career-driven clarity. ",
+    JobBotSpan1: "Entry-level Roles:     ",
+    JobBot9:
+      "Learnbay’s online data analytics training in Bangalore offers everything you need to excel in today’s time. Its GenAI-inclusive course modules guide non-tech pros to ace arising data-driven careers with 100% success. Experts can showcase the merit of their domains with real-time learning via live projects. Here, experts can choose any project based on their domain expertise and practice the proven tools. Unlike common courses, joining our best data analyst course in Bangalore is worth investing in. ",
+    JobBot10:
+      "Experts joining our data analytics course in Bangalore will go through varied stages of job and placement programs that enrich their chances of success. Plus, you will obtain IBM course and project certificates that validate your skill sets on a global level. Hence, joining Learnbay’s cutting-edge courses is crucial for your career growth. ",
+    JobBot11:
+      "If you’re willing to update your career in today’s digital age, enrolling in our data analyst institute in Bangalore is useful. It equips you with the potential to face career hurdles and land your dream jobs. If you’re a fresher or have 3–5 years of experience, upskilling from our cutting-edge courses confirms global-level success. With us, you can crack critical jobs with alluring salary packages at any career level. Hence, join us today and fulfill your dream of seizing top-tier career options.",
 
-      ProjectsBot1:
+    ProjectsBot1:
       "Our data analytics institute in Bangalore offers real-time and capstone projects from a diverse range of industries. You will find 8+ real-time projects in our data analytics certification program. These projects will help you to learn about the usage of tools and how to use your skills optimally.       ",
     ProjectsBot2:
       "At Learnbay, our goal is to provide learners with real-world exposure and make them successful data analysts. To provide learners with real-world exposure, Learnbay offers a hybrid feature that allows you to work on projects in real-world industry settings. From start to finish, you will be assisted and guided by our industry experts, who have years of experience.       ",
     ProjectsBot3:
       "Additionally, to increase your learning experience, Learnbay will be offering you project opportunities in your selected domain area. Through this, you will get to know about the domain knowledge in particular, as well as data applications used in the domain.       ",
     src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
+    alt2: "Samsung Logo",
     ProjectsH1: "Samsung Health Monitor App",
     Projectsp1:
       "Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app.",
     src2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IBM.png",
+    alt3: "IBM Logo",
     ProjectsH2: "IBM HR Analytics",
     Projectsp2:
       "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other Data analytics abilities.",
     src3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/amazon1.png",
+    alt4: "Amazon Logo",
     ProjectsH3: "Amazon Customer Review Analysis",
     Projectsp3:
       "Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can participate in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach.",
     src4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BMW.png",
+    alt5: "BMW Logo",
     ProjectsH4: "BMW Used Car Price Optimization",
     Projectsp4:
       "BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects.",

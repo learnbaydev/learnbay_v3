@@ -13,7 +13,7 @@ function Blockchain({ AwsAndDevOpsCourseDataJson }) {
     <>
       <Head>
         <title>
-        Master Cloud Computing and DevOps with Advanced Certification Programs - Learnbay
+        Master Cloud Computing & DevOps with Advanced Certification
         </title>
         <meta
           name="description"

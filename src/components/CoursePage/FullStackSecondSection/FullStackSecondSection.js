@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from "react";
-import styles from "./FullStackSecondSection.module.css";
 import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { useEffect, useState } from "react";
+import { AiOutlineRise } from "react-icons/ai";
+import { Scrollbar } from "swiper";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/scrollbar";
-import { Scrollbar } from "swiper";
-import { AiOutlineRise } from "react-icons/ai";
+import { Swiper, SwiperSlide } from "swiper/react";
+import styles from "./FullStackSecondSection.module.css";
 
 function FullStackSecondSection({ fullStackReview }) {
   const [mobile, setMobile] = useState(false);
@@ -36,6 +36,7 @@ function FullStackSecondSection({ fullStackReview }) {
         <div className={styles.line}>
           <img
             src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/alumni-arrow.png"
+            alt="Image containing arrow"
             width="80px"
           />
         </div>

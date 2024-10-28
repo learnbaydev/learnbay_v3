@@ -1240,14 +1240,14 @@ export const CloudAndDevOpsCourseData = [
           {
             id: 0,
             ques: "How much does the Cloud Computing and DevOps Certification Program cost?            ",
-            ans: "The DevOps & Cloud Computing course fee is INR 1,10,000 plus 18% GST.             ",
+            ans: "The DevOps & Cloud Computing course fee is INR 80,000 plus 18% GST.             ",
             open: true,
           },
 
           {
             id: 2,
             ques: "Are there any installment options available for program payments?            ",
-            ans: "Yes, we have an installment payment facility where you need to pay INR 7,211 per month. You can make payments through Credit card, UPI, or Internet banking.             ",
+            ans: "Yes, we have an installment payment facility where you need to pay INR ₹5,244/month up to 18 months. You can make payments through Credit card, UPI, or Internet banking.             ",
             open: false,
           },
           {

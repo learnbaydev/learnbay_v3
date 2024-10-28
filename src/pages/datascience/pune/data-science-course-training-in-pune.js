@@ -405,6 +405,10 @@ export default function Home() {
               src={DSPuneCourseData[0].src}
               src22={DSPuneCourseData[0].src22}
               src33={DSPuneCourseData[0].src33}
+              alt2={DSPuneCourseData[0].alt2}
+              alt3={DSPuneCourseData[0].alt3}
+              alt4={DSPuneCourseData[0].alt4}
+              alt5={DSPuneCourseData[0].alt5}
               ModuleBot1={DSPuneCourseData[0].ModuleBot1}
               ModuleBot2={DSPuneCourseData[0].ModuleBot2}
               syllabush1={DSPuneCourseData[0].syllabush1}

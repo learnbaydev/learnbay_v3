@@ -846,7 +846,7 @@ export const DataScienceMastersinCS = [
           {
             id: 1,
             ques: "Can I pay in installments for the Data Science and AI master's degree Program?",
-            ans: "Learnbay offers flexible financing options for learners to have constant upskilling. You can pay INR 15,980/month in installments under a no-cost EMI option within 12 months. You can also opt for interest-free loans with the necessary documents (Aadhar card, PAN card, & salary slip).             ",
+            ans: "Learnbay offers flexible financing options for learners to have constant upskilling. You can pay INR 21,306/month in installments under a no-cost EMI option within 18 months. You can also opt for interest-free loans with the necessary documents (Aadhar card, PAN card, & salary slip).             ",
             open: false,
           },
           {

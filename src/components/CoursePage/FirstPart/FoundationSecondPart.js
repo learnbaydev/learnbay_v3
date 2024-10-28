@@ -78,7 +78,7 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "/Brochure/data-science-ai-for-managers.pdf";
+  const pdfUrl = "/Brochure/Data-Science-Foundation-Program.pdf";
   return (
     <div>
       <LJourney />

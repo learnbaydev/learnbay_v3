@@ -1,6 +1,5 @@
 export const DSUSACourseData = [
   {
-   
     secondSection: [
       {
         id: 1,
@@ -458,7 +457,8 @@ export const DSUSACourseData = [
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf",
     Domainlink5:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf",
-    Domainlink6: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf",
+    Domainlink6:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf",
     CertificationBot1:
       "IBM is one of the top-notch tech giants in the world with proven predictive analytics and machine learning solutions. Its unstoppable support to businesses with insightful solutions assures success.",
     src33:
@@ -555,8 +555,7 @@ export const DSUSACourseData = [
     Joblist15: "6 mock interviews with industry partners       ",
     Joblist16: "Resume Build up      ",
     Joblist17: "LinkedIn Profile Review       ",
-    JobHead21:
-      "Why opt for Learnbay’s Data science programs in USA?     ",
+    JobHead21: "Why opt for Learnbay’s Data science programs in USA?     ",
     JobBot21:
       "Learnbay’s data science course in USA offers industry-specific training to experts, unlocking a lucrative career path. It equips learners with technical and business skills to face the changing industry dynamics. You gain theoretical and practical insights into the current data science trends.       ",
     JobBot22:
@@ -599,18 +598,22 @@ export const DSUSACourseData = [
       "Project-based learning adds optimal values to tackle real-world issues tactfully. In short, upskilling is equivalent to a master's in data science in the US, which makes you the most searched data scientist in today’s era.",
     ProjectsBot2: "Below are a few projects from the Learnbay alumni profiles:",
     src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
+    alt2: "Samsung Logo",
     ProjectsH1: "Samsung Health Monitor App",
     Projectsp1:
       "Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app.",
     src2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IBM.png",
+    alt3: "IBM Logo",
     ProjectsH2: "IBM HR Analytics",
     Projectsp2:
       "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other Data science abilities.",
     src3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/amazon1.png",
+    alt4: "Amazon Logo",
     ProjectsH3: "Amazon Customer Review Analysis",
     Projectsp3:
       "Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can participate in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach.",
     src4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BMW.png",
+    alt5: "BMW Logo",
     ProjectsH4: "BMW Used Car Price Optimization",
     Projectsp4:
       "BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects.",

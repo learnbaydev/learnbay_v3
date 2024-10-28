@@ -862,15 +862,19 @@ export const FullStackHyderabadCourseData = [
       "Capstone projects are critical as MNC's talent acquisition teams look for candidates who have worked on relevant real-world problems.",
     ProjectsHead2: "Full-stack software development projects example:",
     src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/project/2.png",
+    alt2: "Bubble Logo",
     Projectsp1:
       "Create an online application that displays the contents of a database in list form, modify or delete each record and add new ones.",
     src2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/project/4.png",
+    alt3: "Boomi Logo",
     Projectsp2:
       "Learn advanced API integration to connect two or more applications, via their APIs, that lets those systems exchange data.",
     src3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/project/5.png",
+    alt4: "Expedia Logo",
     Projectsp3:
       "The connected website must offer signup, login/logout, and profile creation/editing. This must include a wishlist box, a order tracker, personalized suggestions, personalized and occasional discount features, a chatbot, etc.",
     src4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/project/6.png",
+    alt5: "Zoom Logo",
     Projectsp4:
       "This is a full-stack web development project at the advanced level that includes seamless audio-video call management services.",
     AlumniBot1:

@@ -1,6 +1,5 @@
 export const DSNigeriaCourseData = [
   {
-  
     secondSection: [
       {
         id: 1,
@@ -469,19 +468,18 @@ export const DSNigeriaCourseData = [
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
     CertificationBot2:
       "Learnbay’s data science course also attests MS certificate for your career. Working pros from early and mid-career stages can ace their careers with data-driven skills, and an MS certificate validates them.      ",
-    CertificationBot3:
-      "  ",
+    CertificationBot3: "  ",
     CertificationBot4:
       "Our globally recognized certificates from IBM & MS extend visionary support for learners to excel in data science. If you are still working on your slow-paced career, we are here to help you out with our job-driven programs.      ",
-    ModuleHead1: "Learning Objectives of Learnbay’s Data Science Training in Nigeria     ",
+    ModuleHead1:
+      "Learning Objectives of Learnbay’s Data Science Training in Nigeria     ",
     ModuleBot1:
       "Learnbay’s data science certificate programs equip you with industry-specific training as per the latest trends.  We guide learners through current industry cases and prepare them for forthcoming career opportunities.  Experts can enroll in data science programs to learn the trends with insights.       ",
-    ModuleBot2:
-      "Learning outcomes are –      ",
+    ModuleBot2: "Learning outcomes are –      ",
     Modulelist1: "Basic and advanced learning of statistical analysis    ",
-    Modulelist2: "Programming languages (Python & related libraries and flavors)    ",
-    Modulelist3:
-      "Dashboard design tools (Power BI & Tableau)      ",
+    Modulelist2:
+      "Programming languages (Python & related libraries and flavors)    ",
+    Modulelist3: "Dashboard design tools (Power BI & Tableau)      ",
     Modulelist4: "AI tools and trends (ML, NLP, Deep Learning)    ",
     Modulelist5: "Big data analytics    ",
 
@@ -542,7 +540,7 @@ export const DSNigeriaCourseData = [
     Joblist11:
       "Hands-on learning with Generative AI, ML, and Python for data science tasks",
     Joblist12: "Capstone projects (domain-specific)",
-    Joblist13 : "Python bootcamp for AI",
+    Joblist13: "Python bootcamp for AI",
 
     JobHead19: "Career Service Pro",
 
@@ -604,18 +602,22 @@ export const DSNigeriaCourseData = [
 
     ProjectsBot2: "Below are a few projects from the Learnbay alumni profiles:",
     src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
+    alt2: "Samsung Logo",
     ProjectsH1: "Samsung Health Monitor App",
     Projectsp1:
       "Samsung will launch a new healthcare app soon. The key goal of this app is accurate human activity tracking and providing relevant health-related recommendations. Continuous analysis of a massive amount of mobile data is required for such an app.",
     src2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IBM.png",
+    alt3: "IBM Logo",
     ProjectsH2: "IBM HR Analytics",
     Projectsp2:
       "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other Data science abilities.",
     src3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/amazon1.png",
+    alt4: "Amazon Logo",
     ProjectsH3: "Amazon Customer Review Analysis",
     Projectsp3:
       "Amazon has made a goal to identify the most successful consumer electronic products. For these, they require live customer review analysis. You can participate in the assisting project of customer insight regeneration from the ongoing and existing reviews via a suitable data visualization approach.",
     src4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BMW.png",
+    alt5: "BMW Logo",
     ProjectsH4: "BMW Used Car Price Optimization",
     Projectsp4:
       "BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, etc. Develop your analytical skills through such projects.",
@@ -649,8 +651,7 @@ export const DSNigeriaCourseData = [
     alt9: "data science course training in Nigeria",
     CityTextB:
       "Artificial Intelligence Course Certification Training locations in Nigeria ",
-    CityText:
-      "",
+    CityText: "",
     CityTextLB: "Locations Offered",
     CityTextL:
       " :Artificial Intelligence Course viman nagar,Artificial Intelligence Training in kalyan nagar,Artificial Intelligence Training in magarpetta,Artificial Intelligence Training in pimpri chinchwad,Artificial Intelligence Classes in yerwada,Artificial Intelligence Classes in kharadi,Artificial Intelligence Classes in vishrantwadi,Artificial Intelligence Classes in deccan,Artificial Intelligence Course in Katraj,Artificial Intelligence Training in warje,,Artificial Intelligence Certification Training in bavdhan,Artificial Intelligence Certification in boat club road,Artificial Intelligence Certification in model colony,Best Artificial Intelligence Training in Nigeria,Best Artificial Intelligence Course in Nigeria",

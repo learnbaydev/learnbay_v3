@@ -120,7 +120,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
-  const pdfUrl ="/Brochure/data-science-ai-for-managers.pdf"
+  const pdfUrl ="/Brochure/Data-Science-Foundation-Program.pdf"
   return (
     <>
       <FirstSection

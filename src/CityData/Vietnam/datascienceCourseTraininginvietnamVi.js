@@ -1,6 +1,5 @@
 export const DSVietnamCourseData = [
   {
-   
     secondSection: [
       {
         id: 1,
@@ -35,7 +34,7 @@ export const DSVietnamCourseData = [
         para: "Ưu tiên sự phát triển, nâng cao sự nghiệp với những kỹ năng được yêu cầu",
       },
     ],
-    
+
     testimonial: [
       {
         id: 1,
@@ -98,7 +97,7 @@ export const DSVietnamCourseData = [
         statLogo: "Tăng 150%",
       },
     ],
-    
+
     faq: [
       {
         id: 0,
@@ -394,184 +393,224 @@ export const DSVietnamCourseData = [
       },
     ],
 
-DomainBot1:
-"Những thay đổi số hóa hôm nay trên thị trường việc làm toàn cầu đòi hỏi sự thành thạo được chứng minh trong lĩnh vực bạn đã chọn. Do đó, các chuyên gia tìm kiếm cách khả thi để nâng cao kiến thức chuyên môn của họ và đảm bảo thành công với các cơ hội việc làm cao cấp. Khóa chứng chỉ Khoa học Dữ liệu của Learnbay trình bày các mô-đun khóa học đặc sắc theo xu hướng lĩnh vực. Chúng tôi tập trung tích cực vào các môn chuyên ngành đang thịnh hành để xây dựng sự nghiệp của bạn. Các chuyên gia tham gia các khóa học khoa học dữ liệu có thể chọn bất kỳ lĩnh vực nào theo sở thích của họ.",
+    DomainBot1:
+      "Những thay đổi số hóa hôm nay trên thị trường việc làm toàn cầu đòi hỏi sự thành thạo được chứng minh trong lĩnh vực bạn đã chọn. Do đó, các chuyên gia tìm kiếm cách khả thi để nâng cao kiến thức chuyên môn của họ và đảm bảo thành công với các cơ hội việc làm cao cấp. Khóa chứng chỉ Khoa học Dữ liệu của Learnbay trình bày các mô-đun khóa học đặc sắc theo xu hướng lĩnh vực. Chúng tôi tập trung tích cực vào các môn chuyên ngành đang thịnh hành để xây dựng sự nghiệp của bạn. Các chuyên gia tham gia các khóa học khoa học dữ liệu có thể chọn bất kỳ lĩnh vực nào theo sở thích của họ.",
 
-DomainBot2: "Các môn chuyên ngành bao gồm -",
+    DomainBot2: "Các môn chuyên ngành bao gồm -",
 
-DomainList1: "• Tài chính - Ngân hàng, Bảo hiểm",
-DomainList2: "• Nhân sự",
-DomainList3: "• Tiếp thị",
-DomainList4: "• Sản xuất",
-DomainList5: "• Chăm sóc sức khỏe",
-DomainList6: "• Chuỗi cung ứng",
+    DomainList1: "• Tài chính - Ngân hàng, Bảo hiểm",
+    DomainList2: "• Nhân sự",
+    DomainList3: "• Tiếp thị",
+    DomainList4: "• Sản xuất",
+    DomainList5: "• Chăm sóc sức khỏe",
+    DomainList6: "• Chuỗi cung ứng",
 
-Domainlink1: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf",
-Domainlink2: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales,+Marketing+and+HR+Domain.pdf",
-Domainlink3: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales,+Marketing+and+HR+Domain.pdf",
-Domainlink4: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf",
-Domainlink5: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf",
-Domainlink6: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf",
-CertificationBot1:
-"IBM, một tập đoàn Mỹ nổi tiếng với các sản phẩm trí tuệ nhân tạo thế hệ tiếp theo, dự báo phân tích và các dịch vụ bảo mật. Sự hiện diện hàng đầu của IBM trong lĩnh vực khoa học dữ liệu nâng cao giá trị phát triển kinh doanh. Do sự tăng đáng kể của sự uy tín của IBM trong ngành công nghệ, Learnbay tuyên bố sự liên minh của mình.",
-src33:
-"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
-src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
-src22:
-"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
-CertificationBot2:
-"Learnbay cung cấp chứng chỉ chuyển đổi nghề nghiệp được chứng nhận bởi IBM với những lợi ích điều hướng nghề nghiệp. Học viên của chúng tôi sẽ có khả năng nổi bật trong cuộc đua sự nghiệp với kỹ năng và chuyên môn đang được yêu cầu. Sự tiến bộ của IBM trong trí tuệ nhân tạo và tự động hóa giúp Learnbay điều chỉnh các mô-đun khóa học theo xu hướng.",
-CertificationBot3:
-"Tuy nhiên, khóa học này cũng có một chứng chỉ bổ sung. Microsoft (MS), một nhà lãnh đạo số hàng đầu, mở đường cho việc nâng cao kỹ năng nghề nghiệp với sự thành công toàn cầu được đảm bảo. Sự hợp tác của Learnbay với MS mở khóa một con đường nghề nghiệp được chứng minh với giới hạn thu nhập mở rộng.",
+    Domainlink1:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf",
+    Domainlink2:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales,+Marketing+and+HR+Domain.pdf",
+    Domainlink3:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales,+Marketing+and+HR+Domain.pdf",
+    Domainlink4:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf",
+    Domainlink5:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf",
+    Domainlink6:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf",
+    CertificationBot1:
+      "IBM, một tập đoàn Mỹ nổi tiếng với các sản phẩm trí tuệ nhân tạo thế hệ tiếp theo, dự báo phân tích và các dịch vụ bảo mật. Sự hiện diện hàng đầu của IBM trong lĩnh vực khoa học dữ liệu nâng cao giá trị phát triển kinh doanh. Do sự tăng đáng kể của sự uy tín của IBM trong ngành công nghệ, Learnbay tuyên bố sự liên minh của mình.",
+    src33:
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
+    src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
+    src22:
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
+    CertificationBot2:
+      "Learnbay cung cấp chứng chỉ chuyển đổi nghề nghiệp được chứng nhận bởi IBM với những lợi ích điều hướng nghề nghiệp. Học viên của chúng tôi sẽ có khả năng nổi bật trong cuộc đua sự nghiệp với kỹ năng và chuyên môn đang được yêu cầu. Sự tiến bộ của IBM trong trí tuệ nhân tạo và tự động hóa giúp Learnbay điều chỉnh các mô-đun khóa học theo xu hướng.",
+    CertificationBot3:
+      "Tuy nhiên, khóa học này cũng có một chứng chỉ bổ sung. Microsoft (MS), một nhà lãnh đạo số hàng đầu, mở đường cho việc nâng cao kỹ năng nghề nghiệp với sự thành công toàn cầu được đảm bảo. Sự hợp tác của Learnbay với MS mở khóa một con đường nghề nghiệp được chứng minh với giới hạn thu nhập mở rộng.",
 
-ModuleHead1: "Liệt kê Các Kết Quả Học Tập",
-ModuleBot1: "Learnbay dự đoán một con đường nghề nghiệp kỹ thuật số được chứng minh cho các chuyên gia làm việc từ các lĩnh vực đa dạng. Các tập đoàn đa quốc gia tại Việt Nam đang trên bờ vực cải tổ doanh nghiệp của họ để có những hiểu biết dựa trên dữ liệu. Sự mong muốn của họ là nâng cao kỹ năng ra quyết định với những sự thật và con số sâu sắc cuối cùng trở thành một nhà khoa học dữ liệu tài năng.",
-ModuleBot2: "Do đó, việc nâng cao kỹ năng với khóa đào tạo khoa học dữ liệu của Learnbay tại Việt Nam sẽ mở ra cơ hội nghề nghiệp.",
-ModuleBot3: "Các kết quả học tập tinh hoa để nâng cao sự nghiệp của bạn là –",
-Modulelist1: "Phân tích dữ liệu mô tả với thống kê",
-Modulelist2: "Ngôn ngữ lập trình (Python & thư viện Python)",
-Modulelist3: "Phân tích dữ liệu lớn & Hadoop",
-Modulelist4: "Trực quan hóa dữ liệu (Tạo bảng điều khiển)",
-Modulelist5: "Công cụ AI (Các kỹ thuật học sâu và xử lý ngôn ngữ tự nhiên)",
-Modulelist6: "Các kỹ thuật, thuật toán và mô hình Học Máy",
-Modulelist7: "Đánh giá và Triển khai AWS & Azure và AI Sáng tạo",
-syllabush1: "Các Lớp Chuẩn bị (Lập trình + Toán học)",
-syllabusb1: "6 Giờ",
-SyllabusBotlist11: "Hướng Dẫn Nhóm",
-SyllabusBotlist12: "Một giới thiệu ngắn gọn về các công cụ liên quan đến dữ liệu",
-SyllabusBotlist13: "Các Nguyên Tắc Cơ Bản của Lập Trình",
-SyllabusBotlist14: "Giới thiệu về Anaconda & Jupyter notebook",
-SyllabusBotlist15: "Các Nguyên Tắc Cơ Bản của Thống Kê",
-SyllabusBotlist16: "Trung bình, Trung vị, Yếu tố",
-syllabush2: "Python cho Khoa Học Dữ Liệu",
-syllabusb2: "40 Giờ",
-SyllabusBotlist21: "Lập Trình Python",
-SyllabusBotlist22: "Phân Tích Dữ Liệu Sử Dụng Numpy",
-SyllabusBotlist23: "Tổng Quan về Lập Trình Python",
-SyllabusBotlist24: "Các Loại Dữ Liệu trong Python",
-SyllabusBotlist25: "Xâu, Quyết Định và Lệnh Lặp",
-SyllabusBotlist26: "Phân Tích Dữ Liệu Sử Dụng Pandas",
-syllabush3: "Thống Kê và Học Máy",
-syllabusb3: "70 Giờ",
-SyllabusBotlist31: "Thống Kê",
-SyllabusBotlist32: "Cơ Bản về Toán và Xác Suất",
-SyllabusBotlist33: "Thống Kê Mô Tả",
-SyllabusBotlist34: "Học Máy",
-SyllabusBotlist35: "Mô Hình Hồi Quy Tuyến Tính",
-SyllabusBotlist36: "Tiền Xử Lý Dữ Liệu",
-syllabush4: "Các Công Cụ Khoa Học Dữ Liệu",
-syllabusb4: "12+ Buổi",
-SyllabusBotlist41: "SQL",
-SyllabusBotlist42: "MongoDB",
-SyllabusBotlist43: "Tableau",
-SyllabusBotlist44: "PowerBI",
-SyllabusBotlist45: "Phân Tích Dữ Liệu Lớn & Spark",
-SyllabusBotlist46: "Phân Tích Dữ Liệu Lớn & Spark",
-syllabussrc:
+    ModuleHead1: "Liệt kê Các Kết Quả Học Tập",
+    ModuleBot1:
+      "Learnbay dự đoán một con đường nghề nghiệp kỹ thuật số được chứng minh cho các chuyên gia làm việc từ các lĩnh vực đa dạng. Các tập đoàn đa quốc gia tại Việt Nam đang trên bờ vực cải tổ doanh nghiệp của họ để có những hiểu biết dựa trên dữ liệu. Sự mong muốn của họ là nâng cao kỹ năng ra quyết định với những sự thật và con số sâu sắc cuối cùng trở thành một nhà khoa học dữ liệu tài năng.",
+    ModuleBot2:
+      "Do đó, việc nâng cao kỹ năng với khóa đào tạo khoa học dữ liệu của Learnbay tại Việt Nam sẽ mở ra cơ hội nghề nghiệp.",
+    ModuleBot3:
+      "Các kết quả học tập tinh hoa để nâng cao sự nghiệp của bạn là –",
+    Modulelist1: "Phân tích dữ liệu mô tả với thống kê",
+    Modulelist2: "Ngôn ngữ lập trình (Python & thư viện Python)",
+    Modulelist3: "Phân tích dữ liệu lớn & Hadoop",
+    Modulelist4: "Trực quan hóa dữ liệu (Tạo bảng điều khiển)",
+    Modulelist5: "Công cụ AI (Các kỹ thuật học sâu và xử lý ngôn ngữ tự nhiên)",
+    Modulelist6: "Các kỹ thuật, thuật toán và mô hình Học Máy",
+    Modulelist7: "Đánh giá và Triển khai AWS & Azure và AI Sáng tạo",
+    syllabush1: "Các Lớp Chuẩn bị (Lập trình + Toán học)",
+    syllabusb1: "6 Giờ",
+    SyllabusBotlist11: "Hướng Dẫn Nhóm",
+    SyllabusBotlist12:
+      "Một giới thiệu ngắn gọn về các công cụ liên quan đến dữ liệu",
+    SyllabusBotlist13: "Các Nguyên Tắc Cơ Bản của Lập Trình",
+    SyllabusBotlist14: "Giới thiệu về Anaconda & Jupyter notebook",
+    SyllabusBotlist15: "Các Nguyên Tắc Cơ Bản của Thống Kê",
+    SyllabusBotlist16: "Trung bình, Trung vị, Yếu tố",
+    syllabush2: "Python cho Khoa Học Dữ Liệu",
+    syllabusb2: "40 Giờ",
+    SyllabusBotlist21: "Lập Trình Python",
+    SyllabusBotlist22: "Phân Tích Dữ Liệu Sử Dụng Numpy",
+    SyllabusBotlist23: "Tổng Quan về Lập Trình Python",
+    SyllabusBotlist24: "Các Loại Dữ Liệu trong Python",
+    SyllabusBotlist25: "Xâu, Quyết Định và Lệnh Lặp",
+    SyllabusBotlist26: "Phân Tích Dữ Liệu Sử Dụng Pandas",
+    syllabush3: "Thống Kê và Học Máy",
+    syllabusb3: "70 Giờ",
+    SyllabusBotlist31: "Thống Kê",
+    SyllabusBotlist32: "Cơ Bản về Toán và Xác Suất",
+    SyllabusBotlist33: "Thống Kê Mô Tả",
+    SyllabusBotlist34: "Học Máy",
+    SyllabusBotlist35: "Mô Hình Hồi Quy Tuyến Tính",
+    SyllabusBotlist36: "Tiền Xử Lý Dữ Liệu",
+    syllabush4: "Các Công Cụ Khoa Học Dữ Liệu",
+    syllabusb4: "12+ Buổi",
+    SyllabusBotlist41: "SQL",
+    SyllabusBotlist42: "MongoDB",
+    SyllabusBotlist43: "Tableau",
+    SyllabusBotlist44: "PowerBI",
+    SyllabusBotlist45: "Phân Tích Dữ Liệu Lớn & Spark",
+    SyllabusBotlist46: "Phân Tích Dữ Liệu Lớn & Spark",
+    syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
 
-      JobHead1: "Những kỹ năng hướng nghiệp bạn sẽ xây dựng thông qua Khóa Học Khoa Học Dữ Liệu của Learnbay tại Việt Nam?",
-      Joblist1: "Kiến thức chi tiết về các xu hướng và ứng dụng dữ liệu hiện tại",
-      Joblist2: "Kỹ năng lập trình với các thư viện, phiên bản và cơ bản của Python",
-      Joblist3: "Phân tích thống kê",
-      Joblist4: "Kiến thức về các loại Python khác nhau cho việc phân tích dữ liệu công bằng",
-      Joblist5: "Trực quan hóa dữ liệu bằng các thư viện Python (Numpy, Seaborn, Matplotlib, Pandas)",
-      Joblist6: "Kỹ năng chứng minh trong việc tiền xử lý dữ liệu và phân tích dữ liệu khám phá",
-      Joblist7: "Các mô hình Học Máy (KNN, SVM, PCA, cây quyết định, v.v.)",
-      Joblist8: "Kỹ năng SQL để xử lý cơ sở dữ liệu một cách hiệu quả",
-      Joblist9: "Kỹ năng thiết kế bảng điều khiển với báo cáo công bằng (Tableau & Power BI)",
-      Joblist10: "Dự báo xu hướng và mẫu thị trường để phân tích tốt hơn (Time-series)",
-      Joblist11: "Kiến thức về các kỹ năng Trí Tuệ Nhân Tạo",
-      Joblist12: "Kỹ năng triển khai để chuẩn bị và phân tích dữ liệu chất lượng (AWS & Azure)",
-      Joblist13: "Học thực hành về Trí Tuệ Nhân Tạo, thống kê, SQL và Python để có chuyên môn về khoa học dữ liệu",
-      JobBot19: "Khác với các khóa học tiêu chuẩn, Learnbay tin rằng việc xây dựng kiến thức 360 độ là quan trọng. Chúng tôi tập trung vào phần học lý thuyết và thực hành để mang lại những lợi ích nghề nghiệp tinh hoa. Với những kỹ năng hướng nghiệp này, các chuyên gia có thể thành công trong bất kỳ vai trò nào tại các tập đoàn hàng đầu ở Việt Nam và trên toàn thế giới.",
-      JobHead19: "Dịch Vụ Hướng Nghiệp Chuyên Nghiệp",
-      JobBot35: "Các chuyên gia làm việc mong muốn tái định nghĩa sự nghiệp của họ trên phạm vi toàn cầu dựa vào các chương trình cụ thể cho từng ngành với cơ hội việc làm tốt hơn. Khóa học khoa học dữ liệu của Learnbay tại Việt Nam giới thiệu một chương trình hỗ trợ việc làm 'Career Service Pro' dành cho bạn.",
-      JobBot20: "Với những học viên đủ điều kiện này (với điểm số đánh giá 70%), bạn có thể đảm bảo được 100% hỗ trợ việc làm và định vị. Nó bao gồm –",
-      Joblist14: "100% hỗ trợ việc làm và định vị trong 3 năm với các cơ hội việc làm chất lượng",
-      Joblist15: "6 cuộc phỏng vấn giả mạo",
-      Joblist16: "Tối ưu hóa Sơ yếu lý lịch",
-      Joblist17: "Đánh giá Hồ sơ LinkedIn",
-      JobHead21: "Các chương trình chứng chỉ khoa học dữ liệu của Learnbay tại Việt Nam có đáng giá với những chuyên gia có ước mơ nghề nghiệp toàn cầu không?",
-      JobBot21: "Những năm gần đây, việc phát triển của khoa học dữ liệu tại Việt Nam đã dần tăng. Kết quả là, các lĩnh vực kinh doanh cảm nhận được sự ảnh hưởng biến đổi của khoa học dữ liệu. Điều này làm thay đổi triển vọng thị trường lao động và tạo ra các lựa chọn nghề nghiệp chất lượng. Các chuyên gia từ các lĩnh vực CNTT/Không CNTT với công việc làm bán thời gian và toàn thời gian chọn cách nâng cao kỹ năng của họ. Tuy nhiên, việc nâng cao kỹ năng với một chứng chỉ thông thường là không đáng giá.",
-      JobBot22: "Khóa học khoa học dữ liệu của Learnbay có liên minh với IBM & MS mở rộng giới hạn phát triển nghề nghiệp một cách đột phá. Không gian học thực hành của nó trang bị các chuyên gia với các kỹ năng chứng minh để phát triển trong lĩnh vực khoa học dữ liệu với một tương lai sáng sủa. Với các chứng chỉ của IBM & MS, người học có thể đạt được vai trò mơ ước của mình với các tập đoàn hàng đầu.",
-      Joblist50: "Chương trình chính sách GenAI cho sự phát triển nghề nghiệp thực tế",
-      Joblist51: "Các dự án mô phỏng thời gian thực cho các hồ sơ độc quyền",
-      Joblist52: "Chứng chỉ IBM & MS (với các chương trình khoa học dữ liệu cao cấp)",
-      Joblist53: "Bằng thạc sĩ từ Đại học Woolf",
-      Joblist54: "Dịch vụ Hướng nghiệp Pro (Hỗ trợ việc làm 100%)",
-      JobHead22: "Khóa học khoa học dữ liệu của Learnbay tại Việt Nam có thể cung cấp những lựa chọn nghề nghiệp nào?",
-      JobBot37: "Các nghề nghiệp về khoa học dữ liệu tại Việt Nam đang chứng kiến sự tăng nhanh về nhu cầu của các chuyên gia có kỹ năng để ra các quyết định thông minh. Đất nước này là lựa chọn tốt nhất cho những người đam mê dữ liệu vì thị trường lao động hiện tại đang ở giai đoạn phát triển. Các chuyên gia có các bộ kỹ năng được yêu cầu có thể dễ dàng đảm nhận các vai trò hàng đầu trong lĩnh vực khoa học dữ liệu.",
-      JobBot24: "Bộ phận định vị chuyên biệt của chúng tôi với một khóa học khoa học dữ liệu giúp bạn sẵn sàng cho việc làm vào các vai trò như –",
-      Joblist23: "Nhà Phân Tích Dữ Liệu và Kiến Trúc Dữ Liệu",
-      Joblist24: "Nhà Khoa Học Dữ Liệu (Thị giác máy tính, ML)",
-      Joblist25: "Nhà Khoa Học Dữ Liệu Python",
-      Joblist26: "Kỹ sư Học Máy và Dữ Liệu",
-      Joblist27: "Chuyên gia/Chuyên viên Kho Dữ Liệu",
-      Joblist28: "Nhà Phát triển BI và Kỹ sư Dữ liệu Front-end",
-      Joblist29: "Quản lý Cơ sở dữ liệu và Kỹ sư Nền tảng Dữ liệu",
-      Joblist30: "Điều Tra Pháp Lý và Tình Báo",
-      Joblist30: "Kỹ sư Dữ liệu Front-end",
-      Joblist30: "Quản lý Cơ sở dữ liệu",
-      Joblist30: "Điều Tra Pháp Lý và Tình Báo",
-      JobBot25: "Do đó, việc đăng ký khóa học khoa học dữ liệu của Learnbay tại Việt Nam mở ra cơ hội tiềm năng để phát triển nghề nghiệp nhanh chóng. Chương trình giáo trình tùy chỉnh của chúng tôi với các xu hướng GenAI và ChatGPT mở ra cơ hội phát triển nghề nghiệp hứa hẹn. Đăng ký với Learnbay ngay hôm nay và tăng cơ hội chuyển đổi nghề nghiệp của bạn.",
-      
-      ProjectsHead1: "Làm thế nào các dự án capstone của Learnbay giúp trong việc phát triển sự nghiệp của bạn?",
+    JobHead1:
+      "Những kỹ năng hướng nghiệp bạn sẽ xây dựng thông qua Khóa Học Khoa Học Dữ Liệu của Learnbay tại Việt Nam?",
+    Joblist1: "Kiến thức chi tiết về các xu hướng và ứng dụng dữ liệu hiện tại",
+    Joblist2:
+      "Kỹ năng lập trình với các thư viện, phiên bản và cơ bản của Python",
+    Joblist3: "Phân tích thống kê",
+    Joblist4:
+      "Kiến thức về các loại Python khác nhau cho việc phân tích dữ liệu công bằng",
+    Joblist5:
+      "Trực quan hóa dữ liệu bằng các thư viện Python (Numpy, Seaborn, Matplotlib, Pandas)",
+    Joblist6:
+      "Kỹ năng chứng minh trong việc tiền xử lý dữ liệu và phân tích dữ liệu khám phá",
+    Joblist7: "Các mô hình Học Máy (KNN, SVM, PCA, cây quyết định, v.v.)",
+    Joblist8: "Kỹ năng SQL để xử lý cơ sở dữ liệu một cách hiệu quả",
+    Joblist9:
+      "Kỹ năng thiết kế bảng điều khiển với báo cáo công bằng (Tableau & Power BI)",
+    Joblist10:
+      "Dự báo xu hướng và mẫu thị trường để phân tích tốt hơn (Time-series)",
+    Joblist11: "Kiến thức về các kỹ năng Trí Tuệ Nhân Tạo",
+    Joblist12:
+      "Kỹ năng triển khai để chuẩn bị và phân tích dữ liệu chất lượng (AWS & Azure)",
+    Joblist13:
+      "Học thực hành về Trí Tuệ Nhân Tạo, thống kê, SQL và Python để có chuyên môn về khoa học dữ liệu",
+    JobBot19:
+      "Khác với các khóa học tiêu chuẩn, Learnbay tin rằng việc xây dựng kiến thức 360 độ là quan trọng. Chúng tôi tập trung vào phần học lý thuyết và thực hành để mang lại những lợi ích nghề nghiệp tinh hoa. Với những kỹ năng hướng nghiệp này, các chuyên gia có thể thành công trong bất kỳ vai trò nào tại các tập đoàn hàng đầu ở Việt Nam và trên toàn thế giới.",
+    JobHead19: "Dịch Vụ Hướng Nghiệp Chuyên Nghiệp",
+    JobBot35:
+      "Các chuyên gia làm việc mong muốn tái định nghĩa sự nghiệp của họ trên phạm vi toàn cầu dựa vào các chương trình cụ thể cho từng ngành với cơ hội việc làm tốt hơn. Khóa học khoa học dữ liệu của Learnbay tại Việt Nam giới thiệu một chương trình hỗ trợ việc làm 'Career Service Pro' dành cho bạn.",
+    JobBot20:
+      "Với những học viên đủ điều kiện này (với điểm số đánh giá 70%), bạn có thể đảm bảo được 100% hỗ trợ việc làm và định vị. Nó bao gồm –",
+    Joblist14:
+      "100% hỗ trợ việc làm và định vị trong 3 năm với các cơ hội việc làm chất lượng",
+    Joblist15: "6 cuộc phỏng vấn giả mạo",
+    Joblist16: "Tối ưu hóa Sơ yếu lý lịch",
+    Joblist17: "Đánh giá Hồ sơ LinkedIn",
+    JobHead21:
+      "Các chương trình chứng chỉ khoa học dữ liệu của Learnbay tại Việt Nam có đáng giá với những chuyên gia có ước mơ nghề nghiệp toàn cầu không?",
+    JobBot21:
+      "Những năm gần đây, việc phát triển của khoa học dữ liệu tại Việt Nam đã dần tăng. Kết quả là, các lĩnh vực kinh doanh cảm nhận được sự ảnh hưởng biến đổi của khoa học dữ liệu. Điều này làm thay đổi triển vọng thị trường lao động và tạo ra các lựa chọn nghề nghiệp chất lượng. Các chuyên gia từ các lĩnh vực CNTT/Không CNTT với công việc làm bán thời gian và toàn thời gian chọn cách nâng cao kỹ năng của họ. Tuy nhiên, việc nâng cao kỹ năng với một chứng chỉ thông thường là không đáng giá.",
+    JobBot22:
+      "Khóa học khoa học dữ liệu của Learnbay có liên minh với IBM & MS mở rộng giới hạn phát triển nghề nghiệp một cách đột phá. Không gian học thực hành của nó trang bị các chuyên gia với các kỹ năng chứng minh để phát triển trong lĩnh vực khoa học dữ liệu với một tương lai sáng sủa. Với các chứng chỉ của IBM & MS, người học có thể đạt được vai trò mơ ước của mình với các tập đoàn hàng đầu.",
+    Joblist50:
+      "Chương trình chính sách GenAI cho sự phát triển nghề nghiệp thực tế",
+    Joblist51: "Các dự án mô phỏng thời gian thực cho các hồ sơ độc quyền",
+    Joblist52:
+      "Chứng chỉ IBM & MS (với các chương trình khoa học dữ liệu cao cấp)",
+    Joblist53: "Bằng thạc sĩ từ Đại học Woolf",
+    Joblist54: "Dịch vụ Hướng nghiệp Pro (Hỗ trợ việc làm 100%)",
+    JobHead22:
+      "Khóa học khoa học dữ liệu của Learnbay tại Việt Nam có thể cung cấp những lựa chọn nghề nghiệp nào?",
+    JobBot37:
+      "Các nghề nghiệp về khoa học dữ liệu tại Việt Nam đang chứng kiến sự tăng nhanh về nhu cầu của các chuyên gia có kỹ năng để ra các quyết định thông minh. Đất nước này là lựa chọn tốt nhất cho những người đam mê dữ liệu vì thị trường lao động hiện tại đang ở giai đoạn phát triển. Các chuyên gia có các bộ kỹ năng được yêu cầu có thể dễ dàng đảm nhận các vai trò hàng đầu trong lĩnh vực khoa học dữ liệu.",
+    JobBot24:
+      "Bộ phận định vị chuyên biệt của chúng tôi với một khóa học khoa học dữ liệu giúp bạn sẵn sàng cho việc làm vào các vai trò như –",
+    Joblist23: "Nhà Phân Tích Dữ Liệu và Kiến Trúc Dữ Liệu",
+    Joblist24: "Nhà Khoa Học Dữ Liệu (Thị giác máy tính, ML)",
+    Joblist25: "Nhà Khoa Học Dữ Liệu Python",
+    Joblist26: "Kỹ sư Học Máy và Dữ Liệu",
+    Joblist27: "Chuyên gia/Chuyên viên Kho Dữ Liệu",
+    Joblist28: "Nhà Phát triển BI và Kỹ sư Dữ liệu Front-end",
+    Joblist29: "Quản lý Cơ sở dữ liệu và Kỹ sư Nền tảng Dữ liệu",
+    Joblist30: "Điều Tra Pháp Lý và Tình Báo",
+    Joblist30: "Kỹ sư Dữ liệu Front-end",
+    Joblist30: "Quản lý Cơ sở dữ liệu",
+    Joblist30: "Điều Tra Pháp Lý và Tình Báo",
+    JobBot25:
+      "Do đó, việc đăng ký khóa học khoa học dữ liệu của Learnbay tại Việt Nam mở ra cơ hội tiềm năng để phát triển nghề nghiệp nhanh chóng. Chương trình giáo trình tùy chỉnh của chúng tôi với các xu hướng GenAI và ChatGPT mở ra cơ hội phát triển nghề nghiệp hứa hẹn. Đăng ký với Learnbay ngay hôm nay và tăng cơ hội chuyển đổi nghề nghiệp của bạn.",
 
-      ProjectsBot1: "Các dự án capstone giúp bạn hoàn thành nhiệm vụ của mình với sự thành thạo thời gian thực và mang lại kết quả tốt hơn. Do đó, việc lựa chọn một chương trình đào tạo theo ngành công nghiệp với các dự án thực tế và chứng chỉ có giá trị là rất quan trọng.",
-      ProjectsBot3: "Các chương trình chứng chỉ khoa học dữ liệu theo ngành công nghiệp của Learnbay dẫn đầu trong việc làm giàu các bộ kỹ năng với khả năng xử lý các cơn bão kỹ thuật số. Các buổi đào tạo của nó tiết lộ cách học khoa học dữ liệu với việc xử lý thời gian thực của các trường hợp kinh doanh.",
-      ProjectsBot4: "Khóa học khoa học dữ liệu của Learnbay mang lại một nền tảng hoàn hảo để đạt được học hỏi dựa trên dự án. Nó bao gồm các lĩnh vực chính như – BFSI, Marketing, HR, Healthcare, Supply Chain và Manufacturing. Học viên có cơ hội làm việc trên các dự án capstone trong lĩnh vực mà họ lựa chọn.",
-      ProjectsBot5: "Hơn nữa, học viên nhận được các chứng chỉ IBM sau khi hoàn thành các dự án. Các chứng chỉ này hữu ích cho sự thăng tiến nghề nghiệp trên toàn cầu trong các tập đoàn hàng đầu.",
-      
-      ProjectsBot2: "Dưới đây là một số dự án từ các hồ sơ cựu sinh viên của Learnbay:",
-      src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
-      ProjectsH1: "Ứng dụng theo dõi sức khỏe Samsung",
-      Projectsp1:
-        "Samsung sẽ sớm ra mắt một ứng dụng chăm sóc sức khỏe mới. Mục tiêu chính của ứng dụng này là theo dõi hoạt động của con người một cách chính xác và cung cấp các gợi ý liên quan đến sức khỏe phù hợp. Việc phân tích liên tục một lượng lớn dữ liệu di động là cần thiết cho một ứng dụng như vậy.",
-      src2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IBM.png",
-      ProjectsH2: "Phân tích nhân sự IBM",
-      Projectsp2:
-        "IBM dự định nâng cao bộ phận nhân sự của mình bằng cách xác định sự không nhất quán ẩn của nhân viên. Họ cần các mô hình để xác định các biến đổi đồ họa trong hiệu suất của 14000 nhân viên của họ. Hãy giúp họ xây dựng các mô hình với các kỹ năng phân tích dữ liệu và khác của bạn.",
-      src3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/amazon1.png",
-      ProjectsH3: "Phân tích Đánh giá Khách hàng của Amazon",
-      Projectsp3:
-        "Amazon đã đặt mục tiêu xác định các sản phẩm điện tử tiêu biểu nhất của người tiêu dùng. Đối với những điều này, họ cần phân tích đánh giá khách hàng thời gian thực. Bạn có thể tham gia vào dự án hỗ trợ tái tạo thông tin từ các đánh giá hiện tại và đang diễn ra thông qua một phương pháp trực quan hóa dữ liệu phù hợp.",
-      src4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BMW.png",
-      ProjectsH4: "Tối ưu hóa Giá xe Hơi đã qua sử dụng của BMW",
-      Projectsp4:
-        "BMW cho phép khách hàng hiện tại bán các xe đã qua sử dụng nhưng nhiều đối thủ đang cung cấp các giá trị bán lại tốt hơn. Một ứng dụng thống kê được cung cấp bởi khoa học dữ liệu từ BMW sẽ cung cấp giá trị thị trường tốt nhất cho các xe đã qua sử dụng dựa trên các thông số như Km đã đi, giá hàng ngày lên và xuống, ngày sản xuất, v.v. Phát triển kỹ năng phân tích của bạn thông qua các dự án như vậy.",
-      AlumniBot1:
-        "Chúng tôi đã đặt nhiều ứng viên vào các công ty toàn cầu và các startup hàng đầu. Hơn 1000+ cựu sinh viên Learnbay đã bắt đầu làm việc ngay sau khi hoàn thành khóa học. Phần còn lại được tuyển dụng trong vài tháng. Thậm chí 300+ ứng viên đã trực tiếp tham gia lãnh đạo dự án khoa học dữ liệu hoặc nhân sự sau khi hoàn thành chương trình Khoa học Dữ liệu và AI dành cho Các quản lý và nhà lãnh đạo. Dưới đây là một số cựu sinh viên của chúng tôi chia sẻ về công việc và thành công của họ:",
-      Asrc1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/devraj.jpg",
-      AlumniH1: "Deveraj",
-      Alumnip1:
-        "Chất lượng nội dung rất tốt. Điều tôi thích nhất chính là giảng viên tập trung vào phần thực hành, các buổi học dự án thực tế giúp bạn cảm thấy tự tin khi tham dự phỏng vấn. Nhiều tùy chọn lớp học, truy cập vào bất kỳ video lớp học hoặc tài liệu nào của giảng viên. Môi trường hoàn toàn tích cực xung quanh.",
-      Asrc2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/shezan.png",
-      AlumniH2: "Shezan Baig",
-      Alumnip2:
-        "Learnbay là một trong những viện đào tạo khoa học dữ liệu đáng chú ý nhất mà tôi đã gặp. So với các viện đào tạo khác tại Ấn Độ, nó cung cấp một khóa học khoa học dữ liệu với giá thấp. Giá trị tuyệt vời cho tiền bạc. Cuối cùng, tôi đạt được sự hài lòng với công việc. Tôi khuyên mọi người nên tham gia viện đào tạo này.",
-      Asrc3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/viraj.png",
-      AlumniH3: "Viraj Ghodke",
-      Alumnip3:
-        "Đối với tôi, việc học bằng cách sử dụng nền tảng Learnbay đã là một trải nghiệm tuyệt vời. Đội ngũ giảng dạy và quản lý rất hữu ích. Họ luôn sẵn lòng làm sáng tỏ những thắc mắc của từng cá nhân và đáp ứng nhu cầu của các chuyên gia làm việc. Các buổi tập phỏng vấn thực hành đơn giản như một bản sao của các cuộc phỏng vấn của các công ty đa quốc gia.",
-      Asrc4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/shubhangi.png",
-      AlumniH4: "Shubhangi J. Waghmare ",
-      Alumnip4:
-        "Những gì tốt nhất về ngành công nghiệp từ cả mặt giá và chương trình học. Một lợi ích của việc tham gia ở đây là bạn có thể truy cập vào tài nguyên của họ trong suốt cuộc đời, khác với các trường khác nơi bạn chỉ có thể truy cập trong một năm hoặc là như vậy. Quan trọng hơn, có sự hỗ trợ liên tục cho việc tuyển dụng.",
-      alt1: "khóa học đào tạo khoa học dữ liệu tại Việt Nam",
-      alt2: "khóa học đào tạo khoa học dữ liệu tại Việt Nam",
-      alt3: "khóa học đào tạo khoa học dữ liệu tại Việt Nam",
-      alt4: "khóa học đào tạo khoa học dữ liệu tại Việt Nam",
-      alt5: "khóa học đào tạo khoa học dữ liệu tại Việt Nam",
-      alt6: "khóa học đào tạo khoa học dữ liệu tại Việt Nam",
-      alt7: "khóa học đào tạo khoa học dữ liệu tại Việt Nam",
-      alt8: "khóa học đào tạo khoa học dữ liệu tại Việt Nam",
-      alt9: "khóa học đào tạo khoa học dữ liệu tại Việt Nam",
-      CityTextB:
-        "Vị trí Đào tạo Chứng chỉ Trí Tuệ Nhân Tạo tại Việt Nam ",
-      CityText:
-        " ",
-      CityTextL:
-        " :Khoá học Trí Tuệ Nhân Tạo ở viman nagar,Khoá học Trí Tuệ Nhân Tạo tại kalyan nagar,Khoá học Trí Tuệ Nhân Tạo tại magarpetta,Khoá học Trí Tuệ Nhân Tạo tại pimpri chinchwad,Khoá học Trí Tuệ Nhân Tạo ở yerwada,Khoá học Trí Tuệ Nhân Tạo ở kharadi,Khoá học Trí Tuệ Nhân Tạo ở vishrantwadi,Khoá học Trí Tuệ Nhân Tạo ở deccan,Khoá học Trí Tuệ Nhân Tạo ở Katraj,Khoá học Trí Tuệ Nhân Tạo tại warje,,Chứng chỉ Trí Tuệ Nhân Tạo tại bavdhan,Chứng chỉ Trí Tuệ Nhân Tạo ở đường bờ sông,Chứng chỉ Trí Tuệ Nhân Tạo ở khu phố mẫu,Khoá học Trí Tuệ Nhân Tạo tốt nhất ở Việt Nam,Khoá học Trí Tuệ Nhân Tạo tốt nhất ở Việt Nam",
-        },
+    ProjectsHead1:
+      "Làm thế nào các dự án capstone của Learnbay giúp trong việc phát triển sự nghiệp của bạn?",
+
+    ProjectsBot1:
+      "Các dự án capstone giúp bạn hoàn thành nhiệm vụ của mình với sự thành thạo thời gian thực và mang lại kết quả tốt hơn. Do đó, việc lựa chọn một chương trình đào tạo theo ngành công nghiệp với các dự án thực tế và chứng chỉ có giá trị là rất quan trọng.",
+    ProjectsBot3:
+      "Các chương trình chứng chỉ khoa học dữ liệu theo ngành công nghiệp của Learnbay dẫn đầu trong việc làm giàu các bộ kỹ năng với khả năng xử lý các cơn bão kỹ thuật số. Các buổi đào tạo của nó tiết lộ cách học khoa học dữ liệu với việc xử lý thời gian thực của các trường hợp kinh doanh.",
+    ProjectsBot4:
+      "Khóa học khoa học dữ liệu của Learnbay mang lại một nền tảng hoàn hảo để đạt được học hỏi dựa trên dự án. Nó bao gồm các lĩnh vực chính như – BFSI, Marketing, HR, Healthcare, Supply Chain và Manufacturing. Học viên có cơ hội làm việc trên các dự án capstone trong lĩnh vực mà họ lựa chọn.",
+    ProjectsBot5:
+      "Hơn nữa, học viên nhận được các chứng chỉ IBM sau khi hoàn thành các dự án. Các chứng chỉ này hữu ích cho sự thăng tiến nghề nghiệp trên toàn cầu trong các tập đoàn hàng đầu.",
+
+    ProjectsBot2:
+      "Dưới đây là một số dự án từ các hồ sơ cựu sinh viên của Learnbay:",
+    src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
+    alt2: "Samsung Logo",
+    ProjectsH1: "Ứng dụng theo dõi sức khỏe Samsung",
+    Projectsp1:
+      "Samsung sẽ sớm ra mắt một ứng dụng chăm sóc sức khỏe mới. Mục tiêu chính của ứng dụng này là theo dõi hoạt động của con người một cách chính xác và cung cấp các gợi ý liên quan đến sức khỏe phù hợp. Việc phân tích liên tục một lượng lớn dữ liệu di động là cần thiết cho một ứng dụng như vậy.",
+    src2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IBM.png",
+    alt3: "IBM Logo",
+    ProjectsH2: "Phân tích nhân sự IBM",
+    Projectsp2:
+      "IBM dự định nâng cao bộ phận nhân sự của mình bằng cách xác định sự không nhất quán ẩn của nhân viên. Họ cần các mô hình để xác định các biến đổi đồ họa trong hiệu suất của 14000 nhân viên của họ. Hãy giúp họ xây dựng các mô hình với các kỹ năng phân tích dữ liệu và khác của bạn.",
+    src3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/amazon1.png",
+    alt4: "Amazon Logo",
+    ProjectsH3: "Phân tích Đánh giá Khách hàng của Amazon",
+    Projectsp3:
+      "Amazon đã đặt mục tiêu xác định các sản phẩm điện tử tiêu biểu nhất của người tiêu dùng. Đối với những điều này, họ cần phân tích đánh giá khách hàng thời gian thực. Bạn có thể tham gia vào dự án hỗ trợ tái tạo thông tin từ các đánh giá hiện tại và đang diễn ra thông qua một phương pháp trực quan hóa dữ liệu phù hợp.",
+    src4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BMW.png",
+    alt5: "BMW Logo",
+    ProjectsH4: "Tối ưu hóa Giá xe Hơi đã qua sử dụng của BMW",
+    Projectsp4:
+      "BMW cho phép khách hàng hiện tại bán các xe đã qua sử dụng nhưng nhiều đối thủ đang cung cấp các giá trị bán lại tốt hơn. Một ứng dụng thống kê được cung cấp bởi khoa học dữ liệu từ BMW sẽ cung cấp giá trị thị trường tốt nhất cho các xe đã qua sử dụng dựa trên các thông số như Km đã đi, giá hàng ngày lên và xuống, ngày sản xuất, v.v. Phát triển kỹ năng phân tích của bạn thông qua các dự án như vậy.",
+    AlumniBot1:
+      "Chúng tôi đã đặt nhiều ứng viên vào các công ty toàn cầu và các startup hàng đầu. Hơn 1000+ cựu sinh viên Learnbay đã bắt đầu làm việc ngay sau khi hoàn thành khóa học. Phần còn lại được tuyển dụng trong vài tháng. Thậm chí 300+ ứng viên đã trực tiếp tham gia lãnh đạo dự án khoa học dữ liệu hoặc nhân sự sau khi hoàn thành chương trình Khoa học Dữ liệu và AI dành cho Các quản lý và nhà lãnh đạo. Dưới đây là một số cựu sinh viên của chúng tôi chia sẻ về công việc và thành công của họ:",
+    Asrc1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/devraj.jpg",
+    AlumniH1: "Deveraj",
+    Alumnip1:
+      "Chất lượng nội dung rất tốt. Điều tôi thích nhất chính là giảng viên tập trung vào phần thực hành, các buổi học dự án thực tế giúp bạn cảm thấy tự tin khi tham dự phỏng vấn. Nhiều tùy chọn lớp học, truy cập vào bất kỳ video lớp học hoặc tài liệu nào của giảng viên. Môi trường hoàn toàn tích cực xung quanh.",
+    Asrc2: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/shezan.png",
+    AlumniH2: "Shezan Baig",
+    Alumnip2:
+      "Learnbay là một trong những viện đào tạo khoa học dữ liệu đáng chú ý nhất mà tôi đã gặp. So với các viện đào tạo khác tại Ấn Độ, nó cung cấp một khóa học khoa học dữ liệu với giá thấp. Giá trị tuyệt vời cho tiền bạc. Cuối cùng, tôi đạt được sự hài lòng với công việc. Tôi khuyên mọi người nên tham gia viện đào tạo này.",
+    Asrc3: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/viraj.png",
+    AlumniH3: "Viraj Ghodke",
+    Alumnip3:
+      "Đối với tôi, việc học bằng cách sử dụng nền tảng Learnbay đã là một trải nghiệm tuyệt vời. Đội ngũ giảng dạy và quản lý rất hữu ích. Họ luôn sẵn lòng làm sáng tỏ những thắc mắc của từng cá nhân và đáp ứng nhu cầu của các chuyên gia làm việc. Các buổi tập phỏng vấn thực hành đơn giản như một bản sao của các cuộc phỏng vấn của các công ty đa quốc gia.",
+    Asrc4: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/shubhangi.png",
+    AlumniH4: "Shubhangi J. Waghmare ",
+    Alumnip4:
+      "Những gì tốt nhất về ngành công nghiệp từ cả mặt giá và chương trình học. Một lợi ích của việc tham gia ở đây là bạn có thể truy cập vào tài nguyên của họ trong suốt cuộc đời, khác với các trường khác nơi bạn chỉ có thể truy cập trong một năm hoặc là như vậy. Quan trọng hơn, có sự hỗ trợ liên tục cho việc tuyển dụng.",
+    alt1: "khóa học đào tạo khoa học dữ liệu tại Việt Nam",
+    alt2: "khóa học đào tạo khoa học dữ liệu tại Việt Nam",
+    alt3: "khóa học đào tạo khoa học dữ liệu tại Việt Nam",
+    alt4: "khóa học đào tạo khoa học dữ liệu tại Việt Nam",
+    alt5: "khóa học đào tạo khoa học dữ liệu tại Việt Nam",
+    alt6: "khóa học đào tạo khoa học dữ liệu tại Việt Nam",
+    alt7: "khóa học đào tạo khoa học dữ liệu tại Việt Nam",
+    alt8: "khóa học đào tạo khoa học dữ liệu tại Việt Nam",
+    alt9: "khóa học đào tạo khoa học dữ liệu tại Việt Nam",
+    CityTextB: "Vị trí Đào tạo Chứng chỉ Trí Tuệ Nhân Tạo tại Việt Nam ",
+    CityText: " ",
+    CityTextL:
+      " :Khoá học Trí Tuệ Nhân Tạo ở viman nagar,Khoá học Trí Tuệ Nhân Tạo tại kalyan nagar,Khoá học Trí Tuệ Nhân Tạo tại magarpetta,Khoá học Trí Tuệ Nhân Tạo tại pimpri chinchwad,Khoá học Trí Tuệ Nhân Tạo ở yerwada,Khoá học Trí Tuệ Nhân Tạo ở kharadi,Khoá học Trí Tuệ Nhân Tạo ở vishrantwadi,Khoá học Trí Tuệ Nhân Tạo ở deccan,Khoá học Trí Tuệ Nhân Tạo ở Katraj,Khoá học Trí Tuệ Nhân Tạo tại warje,,Chứng chỉ Trí Tuệ Nhân Tạo tại bavdhan,Chứng chỉ Trí Tuệ Nhân Tạo ở đường bờ sông,Chứng chỉ Trí Tuệ Nhân Tạo ở khu phố mẫu,Khoá học Trí Tuệ Nhân Tạo tốt nhất ở Việt Nam,Khoá học Trí Tuệ Nhân Tạo tốt nhất ở Việt Nam",
+  },
 ];
