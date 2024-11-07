@@ -463,6 +463,8 @@ const CitiesRight = ({
   DSNoida,
   DSIndore,
   DSKochi,
+  DSABangalore,
+  DSAPune,
 }) => {
   const [read, setRead] = useState(false);
   const handler = () => {
@@ -2387,8 +2389,7 @@ const CitiesRight = ({
               >
                 machine learning
               </a>{" "}
-              and artificial intelligence courses in Delhi and data science
-              .
+              and artificial intelligence courses in Delhi and data science .
             </p>
             <p>
               Considering the current facts and statistics, every company needs
@@ -5721,6 +5722,177 @@ const CitiesRight = ({
             </ul>
 
             <br />
+          </div>
+        ) : (
+          ""
+        )}
+
+        {DSABangalore ? (
+          <div className={styles.CitiesRightInner}>
+            <p>
+              Propel competitive success as a DSA expert to thrive across the
+              Silicon Valley of India, Bangalore. Join Learnbay’s data
+              structures and algorithms training in Bangalore to ace
+              product-based interviews. Our structurally designed DSA syllabus
+              boosts your tech expertise to have a hassle-free career switch.
+            </p>
+            <p>
+              Learnbay’s cutting-edge DSA course in Bangalore equips you with
+              abilities to tackle data intricacies and optimize algorithmic
+              thinking and decision-making. Our dedicated 1:1 training sessions
+              and project-based learning revamp your career background. Also,
+              joining our reliable placement programs can help you crack
+              critical interviews.
+            </p>
+            <p>
+              Once you complete the data structures and algorithms course in
+              Bangalore, you can kick-start your tech career with competitive
+              abilities. Join our industry-paced coding classes to enrich your
+              software development expertise.
+            </p>
+            <h3 style={{ fontSize: "18px" }}>
+              Industry-paced Coding Sessions for Tech/non-tech Experts
+            </h3>
+            <p>
+              Renowned experts from rising tech hubs offer data structures and
+              algorithms classes in Bangalore. Tech and non-tech experts can
+              fortify their career growth options via cutting-edge coding
+              sessions and learn everything from scratch. We offer 1:1
+              doubt-clearing sessions to help learners clarify their queries and
+              refine tech skills.
+            </p>
+            <h3 style={{ fontSize: "18px" }}>
+              Industry-relevant Career Counselling
+            </h3>{" "}
+            <p>
+              Our dedicated counselors guide you throughout the upskilling
+              process. Career counselors analyze your academic records and
+              skills to suggest a proper upskilling method. Also, they help you
+              choose the right domain best suited for tech career growth and
+              stability.
+            </p>
+            <h3 style={{ fontSize: "18px" }}>
+              Why does Learnbay seem to be the{" "}
+              <b>
+                best institute for data structures and algorithms in Bangalore?
+              </b>
+            </h3>
+            <p>
+              Learnbay anticipates a tech-savvy career for experts willing to
+              modernize their skills. Its leading-edge DSA course in Bangalore
+              crafts a hassle-free learning path for busy working professionals.
+              Its hybrid training model guides experts to master abstract and
+              practical programming languages, DSA concepts, and practices.
+            </p>
+            <p>
+              Industry-driven mentorship from eminent tech experts offers
+              end-to-end upskilling support with 1:1 doubt-clearing sessions.
+              Learners work on real-time projects in Bangalore’s project
+              innovation lab (offline) and solidify their skills.
+            </p>
+            <p>
+              Our DSA courses in Bangalore set the stage for end-to-end career
+              support – from mock interviews to resume buildup. Also, our IBM &
+              Microsoft certifications validate your skills and help you justify
+              your tech career with top MNCs.
+            </p>
+            <p>
+              Hence, experts willing to modernize their tech careers must join
+              our best data structures & algorithms training institute in
+              Bangalore. Enroll today to escalate your career success globally.
+            </p>
+            <p>
+              Learnbay’s{" "}
+              <b>Data Structures and Algorithms Course in Bangalore</b>
+              {" "} offers –
+            </p>
+            <ul>
+              <li>
+                Industry-specific DSA training to familiarize you with core
+                concepts and practices{" "}
+              </li>
+              <li>Live interactive mentorship from eminent tech experts </li>
+              <li>
+                Offline 16+ real-time project handling at Bangalore’s innovation
+                labs{" "}
+              </li>
+              <li>Experiential learning with 300+ coding exercises </li>
+              <li>
+                3 years of flexible career support services (mock interviews &
+                resume writing){" "}
+              </li>
+              <li>Globally acknowledged IBM & Microsoft certifications </li>
+            </ul>
+          </div>
+        ) : (
+          ""
+        )}
+
+{DSAPune ? (
+          <div className={styles.CitiesRightInner}>
+            <p>
+            Today’s tech-driven business functions call for real-time mastery of new-age concepts and tools. Pune’s bustling tech space inspires IT and non-IT experts to rethink their career paths to unleash true growth potential. Learnbay’s DSA course in Pune envisions a hassle-free career transition for aspiring experts. 
+            </p>
+            <p>
+            Our inclusively-crafted course modules balance your abstract and practical learning expectations with enriched growth options. Our data structures and algorithms classes in Pune lay the basis for an open-learning experience. Here, you can master in-demand DSA tools and practices via 1:1 interactive sessions. Plus, hands-on learning via live projects limitlessly accelerates your growth chances. 
+
+            </p>
+            <p>
+            Learnbay’s endless support throughout your career switch journey in DSA offers 100% job and placement assistance. Its career support services (1:1 mock interviews, CV-making, and doubt-clearing sessions) make you job-ready. Our DSA classes in Pune help you master coding knacks and crack product-based interviews. 
+
+            </p>
+            <p>Also, attesting IBM & Microsoft certificates to your career empowers a globally acclaimed tech career with exciting perks.             </p>
+            <h3 style={{ fontSize: "18px" }}>
+            Cutting-edge Data Structure Training in Pune for IT and non-IT Professionals 
+            </h3>
+            <p>
+            IT and non-IT aspirants keen to rebuild a thriving career in DSA must join Learnbay for its cutting-edge interactive training. Our meticulously planned DSA syllabus helps you sharpen elementary concepts and learn advanced practices. Our data structures and algorithms training in Pune offers real-time sessions to grasp proven knowledge. Here, experts can learn everything from scratch. You can become a DSA expert beyond age-old coder/developer/programmer roles with us. 
+            </p>
+            <h3 style={{ fontSize: "18px" }}>
+            Career-enriched Counselling Sessions 
+            </h3>{" "}
+            <p>
+
+            Learnbay’s dedicated career counseling team is here to help you throughout your transition journey. Our counselors will evaluate your qualifications, domain knowledge, job experience, and skill sets to guide you with the best-suited role. A career-enriched counseling helps you choose the right path and induce better gains. 
+
+            </p>
+            <h3 style={{ fontSize: "18px" }}>
+            Why is investing in Learnbay’s <b>DSA course in Pune</b> worth it?
+              
+
+            </h3>
+            <p>
+            Today’s data-driven age expects skilled tech talents with in-depth DSA knowledge. Mastering proven DSA tools, concepts, and practices helps experts excel in their tech roles and grab high-paying jobs. Learnbay’s data structures and algorithms course in Pune designs a job-enriched syllabus covering top trends. 
+            </p>
+            <p>
+            Its hybrid learning model helps busy working pros balance their job tasks and upskilling. Here, learners can choose the preferred time for DSA learning without hampering their workplace commitments. 
+            </p>
+            <p>
+            In addition, mentorship from eminent DSA experts helps you dive deeper into real-world uses of related tools and practices, setting new growth standards. DSA classes in Pune offer theoretical and practical training with live projects. Here, experts can gain real-world insights into DSA applications across diverse sectors. 
+            </p>
+            <p>
+            Learnbay’s data structures and algorithms training in Pune offers end-to-end career support services to help you crack critical roles. Learners can fortify career success chances with abilities to ace product-based interviews. Our mock interviews, 1:1 doubt-clearing sessions, resume-making, and LinkedIn profiling enrich growth terms. 
+            </p>
+            <p>Also, experts can validate their skills with IBM & Microsoft certificates to escalate career growth chances. Earn these credentials and unleash true growth potential on a global level.             </p>
+            <p>
+            Hence, investing in Learnbay’s <b>DSA course in Pune</b> is worth it as you will gain –
+            </p>
+            <ul>
+              <li>
+              Industry-driven DSA training to master core concepts and practices 
+              </li>
+              <li>Live interactive mentorship from eminent tech experts </li>
+              <li>
+                Offline 16+ real-time project handling at Bangalore’s innovation
+                labs{" "}
+              </li>
+              <li>Experiential learning with 300+ coding exercises </li>
+              <li>
+                3 years of flexible career support services (mock interviews &
+                resume writing){" "}
+              </li>
+              <li>Globally conceded IBM & Microsoft certifications              </li>
+            </ul>
           </div>
         ) : (
           ""
