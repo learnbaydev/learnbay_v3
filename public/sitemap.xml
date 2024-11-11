@@ -632,13 +632,13 @@
 
 
 	<url>
-		<loc>https://www.learnbay.co/datascience/pune/dsa-course-training-pune</loc>
+		<loc>https://www.learnbay.co/fullstack/pune/dsa-course-training-pune</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.70</priority>
 	</url>
 
 		<url>
-		<loc>https://www.learnbay.co/datascience/bangalore/dsa-course-training-bangalore</loc>
+		<loc>https://www.learnbay.co/fullstack/bangalore/dsa-course-training-bangalore</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.70</priority>
 	</url>
