@@ -160,7 +160,7 @@ export default function Home() {
           titleCourse="Best Data Structures and Algorithms Training in Bangalore"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/head/W+Dev.png"
-          firstHeading="Full-Stack Software Developer Course In Bangalore "
+          firstHeading="Best Data Structures and Algorithms Training in Bangalore "
           firstToparaImg=""
           firstTopPara="Ace Your Coding Interviews"
           idss="YWxTtvb3x-U"
