@@ -156,7 +156,7 @@ export default function Home() {
           FirstTyped="Guaranteed Interview Calls"
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
-          cityParaCont=" Enroll in the best Job-ready full-stack software development course in Bangalore. Take a 10-step step ahead of others towards the most lucrative salary package of product-based MNCs, which you deserve."
+          cityParaCont=" Level up your coding expertise via a DSA course in Bangalore and leap forward to craft a compelling tech career with leading MNCs/MAANG. Enroll in our job-enriched course to build data management, algorithmic optimization, and critical thinking skills."
           titleCourse="Best Data Structures and Algorithms Training in Bangalore"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/head/W+Dev.png"
@@ -236,7 +236,7 @@ export default function Home() {
               DomainHead1={DSABangaloreCourseData[0].DomainHead1}
               DomainBot1={DSABangaloreCourseData[0].DomainBot1}
               DomainHead2={DSABangaloreCourseData[0].DomainHead2}
-              DomainHead3={DSABangaloreCourseData[0].DomainHead3}
+              DomainHead30={DSABangaloreCourseData[0].DomainHead30}
               DomainHead4={DSABangaloreCourseData[0].DomainHead4}
               DomainHead5={DSABangaloreCourseData[0].DomainHead5}
               DomainHead6={DSABangaloreCourseData[0].DomainHead6}
@@ -369,7 +369,7 @@ export default function Home() {
               JobBot9={DSABangaloreCourseData[0].JobBot9}
               JobBot11={DSABangaloreCourseData[0].JobBot11}
               ProjectsBot1={DSABangaloreCourseData[0].ProjectsBot1}
-              ProjectsBot2={DSABangaloreCourseData[0].ProjectsBot2}
+             
               src1={DSABangaloreCourseData[0].src1}
               ProjectsH1={DSABangaloreCourseData[0].ProjectsH1}
               Projectsp1={DSABangaloreCourseData[0].Projectsp1}
