@@ -398,7 +398,7 @@ export const DSAPuneData = [
       "Learnbay’s data structures and algorithms training in Pune offers aspiring experts a domain-specific learning experience. Here, experts can enrich their prior domain knowledge and skills to stay ahead of the race and induce better gains. ",
     DomainBot3:
       "Anyone joining our DSA program in Pune can choose his/her preferred domain electives that match his/her career interests and goals. Our career-focused domain electives are – ",
-      DomainHead3: "• Full Stack",
+      DomainHead30: "• Full Stack",
     DomainHead4:"• Product Engineer/Manager",
     DomainHead5: "• Data Science and AI",
     DomainHead6: "• Web 3.0 Developer",

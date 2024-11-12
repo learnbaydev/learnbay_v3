@@ -57,6 +57,7 @@ const CitiesRight = ({
   DomainHead1,
   DomainHead2,
   DomainHead3,
+  DomainHead30,
   DomainHead4,
   DomainHead5,
   DomainHead6,
@@ -5883,10 +5884,9 @@ const CitiesRight = ({
               </li>
               <li>Live interactive mentorship from eminent tech experts </li>
               <li>
-                Offline 16+ real-time project handling at Bangalore’s innovation
-                labs{" "}
+              16+ real-time project work at Pune’s offline innovation lab
               </li>
-              <li>Experiential learning with 300+ coding exercises </li>
+              <li>Project-based learning with 300+ coding exercises              </li>
               <li>
                 3 years of flexible career support services (mock interviews &
                 resume writing){" "}
@@ -6682,6 +6682,7 @@ const CitiesRight = ({
 
           {fullStackCity ? (
             <>
+             <h2 className={styles.pHead}>{DomainHead30}</h2>
               <h2 className={styles.pHead}>{DomainHead3}</h2>
               <h2 className={styles.pHead}>{DomainHead4}</h2>
               <h2 className={styles.pHead}>{DomainHead5}</h2>

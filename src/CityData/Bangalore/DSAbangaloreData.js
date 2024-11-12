@@ -392,7 +392,7 @@ export const DSABangaloreCourseData = [
     DomainBot2: "",
     DomainBot3:
       "Learners joining our DSA training institute can choose their preferred domain aligned with their career goals and interests. Our elite domain electives are –",
-      DomainHead3: "• Full Stack",
+      DomainHead30: "• Full Stack",
     DomainHead4:"• Product Engineer/Manager",
     DomainHead5: "• Data Science and AI",
     DomainHead6: "• Web 3.0 Developer",
