@@ -87,7 +87,7 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="Full-Stack Software Developer Course in Bangalore, Full-Stack Software Developer Course training in Bangalore, Full-Stack Software Developer Course institute in Bangalore, best Full-Stack Software Developer Course institute in Bangalore, data scientist course in Bangalore,data scientist certification in Bangalore, Full-Stack Software Developer Course training institute in Bangalore, advanced Full-Stack Software Developer Course in Bangalore, Full-Stack Software Developer Course with Placement Assistance, Full-Stack Software Developer Course"
+          content="dsa course in pune, data structures and algorithms training in pune, data structures and algorithms classes in pune, data structure training in pune, dsa classes in pune, data structures and algorithms course in pune"
         />
 
         <meta
@@ -115,6 +115,7 @@ export default function Home() {
         <meta
           name="twitter:title"
           content="Data Structures & Algorithms Course | DSA Training in Pune"
+          
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
@@ -132,6 +133,7 @@ export default function Home() {
         <link
           rel="canonical"
           href="https://www.learnbay.co/fullstack/pune/dsa-course-training-pune"
+
         />
         <meta
           name="copyright"
