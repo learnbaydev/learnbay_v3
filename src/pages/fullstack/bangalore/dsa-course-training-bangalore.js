@@ -85,7 +85,7 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="Full-Stack Software Developer Course in Bangalore, Full-Stack Software Developer Course training in Bangalore, Full-Stack Software Developer Course institute in Bangalore, best Full-Stack Software Developer Course institute in Bangalore, data scientist course in Bangalore,data scientist certification in Bangalore, Full-Stack Software Developer Course training institute in Bangalore, advanced Full-Stack Software Developer Course in Bangalore, Full-Stack Software Developer Course with Placement Assistance, Full-Stack Software Developer Course"
+          content="dsa course in bangalore, data structures and algorithms training in bangalore, data structure training in bangalore, data structures and algorithms course in bangalore, best datastructures & algorithms training institute in bangalore, best institute for data structures and algorithms in bangalore, data structures and algorithms classes in bangalore, dsa courses in bangalore"
         />
 
         <meta
