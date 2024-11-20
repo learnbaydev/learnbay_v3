@@ -149,7 +149,7 @@ const ExecutiveFirstPart = ({
         isSpecialPage={true}
         isGuwahati={true}
         backgroundImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/iit-background.webp"
-
+IIT={true}
 
 
       />

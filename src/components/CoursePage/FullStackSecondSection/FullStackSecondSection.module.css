@@ -251,6 +251,12 @@
   margin-top: 30px;
 }
 
+@media screen and (max-width:1181px) {
+  .para{
+    font-size: 10px;
+  }
+}
+
 @media (max-width: 641px) {
   .h1 {
     color: black;
@@ -265,6 +271,9 @@
     margin: 0;
   }
 
+  .para{
+    font-size: 16px;
+  }
   .testimonial {
     margin-top: 0px;
   }

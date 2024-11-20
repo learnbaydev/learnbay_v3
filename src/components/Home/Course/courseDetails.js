@@ -124,6 +124,27 @@ export const courseDetails = [
           },
 
           {
+            id: 0,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/dsa-cardss.webp",
+            title: "Data Structure Algorithm &",
+            title1: "System Design",
+            tag: "Data Structure",
+            tagHead: "for software developers",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
+            brochurePdfs: "/Brochure/Data-Structure-System-Design.pdf",
+            titleCourse: "Data Structure Algorithm & System Design",
+            para: [
+              "10 months | 4 capstone projects",
+              "Project Certification form IBM",
+              "Unlimited Interview Calls",
+            ],
+            link1: "fullstack/dsa-system-design",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
+          },
+
+          {
             id: 7,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/BA-Card.webp",
             title: "Business Analytics",
@@ -548,6 +569,27 @@ export const courseDetails = [
           },
 
           {
+            id: 0,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/dsa-cardss.webp",
+            title: "Data Structure Algorithm &",
+            title1: "System Design",
+            tag: "Data Structure",
+            tagHead: "for software developers",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
+            brochurePdfs: "/Brochure/Data-Structure-System-Design.pdf",
+            titleCourse: "Data Structure Algorithm & System Design",
+            para: [
+              "10 months | 4 capstone projects",
+              "Project Certification form IBM",
+              "Unlimited Interview Calls",
+            ],
+            link1: "fullstack/dsa-system-design",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
+          },
+
+          {
             id: 7,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/BA-Card.webp",
             title: "Business Analytics",
@@ -1019,6 +1061,27 @@ export const courseDetails = [
           },
 
           {
+            id: 0,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/dsa-cardss.webp",
+            title: "Data Structure Algorithm &",
+            title1: "System Design",
+            tag: "Data Structure",
+            tagHead: "for software developers",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
+            brochurePdfs: "/Brochure/Data-Structure-System-Design.pdf",
+            titleCourse: "Data Structure Algorithm & System Design",
+            para: [
+              "10 months | 4 capstone projects",
+              "Project Certification form IBM",
+              "Unlimited Interview Calls",
+            ],
+            link1: "fullstack/dsa-system-design",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
+          },
+
+          {
             id: 7,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/BA-Card.webp",
             title: "Business Analytics",
@@ -1339,6 +1402,26 @@ export const courseDetails = [
             link1: "/datascience/artificial-intelligence-certification-course",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
+          },
+          {
+            id: 0,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/dsa-cardss.webp",
+            title: "Data Structure Algorithm &",
+            title1: "System Design",
+            tag: "Data Structure",
+            tagHead: "for software developers",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
+            brochurePdfs: "/Brochure/Data-Structure-System-Design.pdf",
+            titleCourse: "Data Structure Algorithm & System Design",
+            para: [
+              "10 months | 4 capstone projects",
+              "Project Certification form IBM",
+              "Unlimited Interview Calls",
+            ],
+            link1: "fullstack/dsa-system-design",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
           },
 
           {
@@ -1705,6 +1788,27 @@ export const courseDetails = [
             link1: "/datascience/artificial-intelligence-certification-course",
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
+          },
+
+          {
+            id: 0,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/dsa-cardss.webp",
+            title: "Data Structure Algorithm &",
+            title1: "System Design",
+            tag: "Data Structure",
+            tagHead: "for software developers",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
+            brochurePdfs: "/Brochure/Data-Structure-System-Design.pdf",
+            titleCourse: "Data Structure Algorithm & System Design",
+            para: [
+              "10 months | 4 capstone projects",
+              "Project Certification form IBM",
+              "Unlimited Interview Calls",
+            ],
+            link1: "fullstack/dsa-system-design",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
           },
 
           {
@@ -2102,6 +2206,27 @@ export const courseDetailsM = [
           },
 
           {
+            id: 0,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/dsa-cardss.webp",
+            title: "Data Structure Algorithm &",
+            title1: "System Design",
+            tag: "Data Structure",
+            tagHead: "for software developers",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
+            brochurePdfs: "/Brochure/Data-Structure-System-Design.pdf",
+            titleCourse: "Data Structure Algorithm & System Design",
+            para: [
+              "10 months | 4 capstone projects",
+              "Project Certification form IBM",
+              "Unlimited Interview Calls",
+            ],
+            link1: "fullstack/dsa-system-design",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
+          },
+
+          {
             id: 7,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/BA-Card.webp",
             title: "Business Analytics",
@@ -2589,6 +2714,26 @@ export const courseDetailsM = [
           },
 
           {
+            id: 0,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/dsa-cardss.webp",
+            title: "Data Structure Algorithm &",
+            title1: "System Design",
+            tag: "Data Structure",
+            tagHead: "for software developers",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
+            brochurePdfs: "/Brochure/Data-Structure-System-Design.pdf",
+            titleCourse: "Data Structure Algorithm & System Design",
+            para: [
+              "10 months | 4 capstone projects",
+              "Project Certification form IBM",
+              "Unlimited Interview Calls",
+            ],
+            link1: "fullstack/dsa-system-design",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
+          },
+          {
             id: 7,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/BA-Card.webp",
             title: "Business Analytics",
@@ -2969,7 +3114,26 @@ export const courseDetailsM = [
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
           },
-
+          {
+            id: 0,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/dsa-cardss.webp",
+            title: "Data Structure Algorithm &",
+            title1: "System Design",
+            tag: "Data Structure",
+            tagHead: "for software developers",
+            brochureLinks:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
+            brochurePdfs: "/Brochure/Data-Structure-System-Design.pdf",
+            titleCourse: "Data Structure Algorithm & System Design",
+            para: [
+              "10 months | 4 capstone projects",
+              "Project Certification form IBM",
+              "Unlimited Interview Calls",
+            ],
+            link1: "fullstack/dsa-system-design",
+            link2:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
+          },
           {
             id: 7,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/BA-Card.webp",

@@ -34,89 +34,120 @@ export const FSSPDataScienceCourseData = [
         para: "Boost your career growth with hands-on software training",
       },
     ],
+
+    summarySection: [
+      {
+        id: 1,
+        title: "System Design Projects",
+        description:
+          "Work on end to end system design projects & Gain real experience",
+        imageSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_Icon+(1).webp",
+        imageAlt: "DomainElectives",
+      },
+      {
+        id: 2,
+        title: "Practice 200+ DSA Problems",
+        description:
+          "Work on 200+ DSA Problems asked in top tech interviews & improve problem solving",
+        imageSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_iconTwo+(1).webp",
+        imageAlt: "RealProjectExperience",
+      },
+
+      {
+        id: 3,
+        title: "Referrals in Top Tech MNCs",
+        description:
+          "Secure referrals in top product-based companies with our Program",
+        imageSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_iconThree+(1).webp",
+        imageAlt: "PlacementAssistance",
+      },
+      {
+        id: 4,
+        title: "Multiple Electives",
+        description:
+          "Choose  electives like GenAI, Devops, Product management & Data engineering",
+        imageSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/mastr_Icon_four+(1).webp",
+        imageAlt: "Certification",
+      },
+    ],
     masterSyllabusMobile: [
       {
         Module0: {
-          title: "L1 :- Programming Fundamentals",
+          title: "module 0 :- Programming Fundamentals (2-3 weeks)",
           imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_round.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
           StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_down.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
           endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_Up.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_structures.webp",
           points: "Why Programming",
           content: [
             {
               chap: {
-                title:
-                  "Topic 1 :- Programming Basics, Data Types and Code Flow",
+                title: "Topic 1 :- Introduction to Programming",
                 desc: [
-                  "Why Programming",
-                  "Simple use case where programming is required",
-                  "How to Write simple psuedo code",
-                  "Difference in different programming languages",
-                  "Intro to Java and Development setup",
+                  "Basics of programming and Java installation (JDK, IDE like IntelliJ, Eclipse)",
+                  "Writing and running your first Java program (e.g., Hello World)",
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 2 :- If statement, Loops and Code flow",
+                title: "Topic 2 :- Variables, Data Types, and Operators",
                 desc: [
-                  "Java Basics",
-                  "Writing code in Java",
-                  "If statements Loops",
-                  "Flow of basic code and best coding practices",
+                  "Variables: Declaration, Initialization, Scope in Java",
+                  "Data types: int, float, double, char, boolean",
+                  "Operators: Arithmetic, Relational, Logical, Assignment,Increment/Decrement",
+                  "Input and output in Java: Scanner class and System.out.println",
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 3 :- Input, Output and Exceptions",
+                title: "Topic 3 :- Control Flow",
                 desc: [
-                  "Taking Input and printing",
-                  "Types of exception and handling them.",
-                  "More on Java language fundamentals",
-                  "JDK",
-                  "JRE",
+                  "Conditional statements: if, else if, else",
+                  "Switch-case in Java",
+                  "Loops: for, while, do-while",
+                  "Break and continue",
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 4 :- Functions",
+                title: "Topic 4 :- Functions (Methods)",
                 desc: [
-                  "How functions work and how to make custom functions and work with them",
-                  "Significance",
-                  "Defining",
-                  "Function return type",
-                  "Passing arguments",
+                  "Defining and calling methods in Java",
+                  "Method parameters, return types, and scope",
+                  "Method overloading",
+                  "Recursion in Java",
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 5 :- Objected Oriented Programming",
+                title: "Topic 5 :- Arrays and Strings",
                 desc: [
-                  "Abstraction",
-                  "Encapsulation",
-                  "Inheritance",
-                  "Polymorphism",
-                  "Interfaces, Modifiers, Classes and Objects",
+                  "Arrays: Declaration, initialization, and traversal",
+                  "Multidimensional arrays",
+                  "Strings: String class methods, concatenation, comparison, and manipulation",
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 6 :- 2-D Matrix",
-                desc: [],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 7 :- 1-D Array",
+                title: "Topic 6 :- Object-Oriented Programming (OOP)",
                 desc: [
-                  "1-D Array (Defining & initializing, iterations, looping on Arrays)",
+                  "Classes and Objects",
+                  "Constructors and destructors",
+                  "Encapsulation, Inheritance, Polymorphism, Abstraction",
+                  "Access modifiers: private, public, protected",
+                  "Static and non-static members",
+                  "OOP practice problems (e.g., real-world object modeling)",
                 ],
               },
             },
@@ -127,87 +158,89 @@ export const FSSPDataScienceCourseData = [
       },
       {
         Module0: {
-          title: "L2 :- Data Structures and Algorithm",
+          title: "TERM 1 :- Data Structures & Algorithms ( 3.5 Months )",
           imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_structure_rounds.webp",
           StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_structure-downs.webp",
           endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/tv-ups.webp",
           points: "Functions & Recursion",
           content: [
             {
               chap: {
-                title: "Topic 1 :- Functions & Recursion",
-                desc: [
-                  "Significance",
-                  " Defining",
-                  "Function return type",
-                  "Passing arguments",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 2 :- Recursion",
-                desc: ["Recursion", "Divide and Conquer"],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 3 :- Linear Search and Binary Search",
-                desc: ["Linear Search", "Binary Search", "Ternary Search"],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 4 :- Time and space Complexity",
-                desc: ["Best, worst & average case"],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 5 :- Bit Manipulation",
-                desc: [],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 6 :- Two Pointers",
-                desc: [],
-              },
-            },
-            {
-              chap: {
                 title:
-                  "Topic 7 :- Sorting using Divide and Conquer and implementation",
+                  "Section 1 :- Foundations of Data Structures and Algorithms",
+                desc: [],
+              },
+            },
+
+            {
+              chap: {
+                title: "Topic 1 :- Time and Space Complexity",
                 desc: [
-                  "Sortings",
-                  "Divide and Conquer",
-                  "Merge Sort",
-                  "Quick Sort",
-                  "Comparator Sort",
+                  "Understanding Performance: Importance of complexity analysis in interviews",
+                  "Big O Notation: Common complexities and how to analyze them during coding interviews.",
+                  "Space Complexity: Optimizing memory usage in data structure choices.",
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 8 :- Simple Array Sorting and its implementation",
-                desc: ["Sortings", "Bubble sort", "Insertion Sort"],
+                title: "Topic 2 :- Arrays",
+                desc: [
+                  "Array Basics: Efficiently handling and manipulating arrays.",
+                  "Operations: Insertion, deletion, searching, and updating—focus on interview",
+                  "Two-Dimensional Arrays: Common problems like matrix manipulation.",
+                  "Sample Practice Problems:",
+                  "Maximum element in an array, Reverse an array, Minimum element in an array, Sorted array check, Count occurrences.",
+                  "Rotate an array, Merge sorted arrays, Intersection of arrays, Move zeroes, Pairs with given sum",
+                  "Longest increasing subsequence, Maximum subarray sum, Longest common subsequence, Minimum path sum, Maximum product subarray",
+                ],
               },
             },
             {
               chap: {
-                title: "Topic 9 :- Strings",
+                title: "Topic 3 :- Linked Lists",
                 desc: [
-                  "Pattern matching",
-                  "Z Algorithm",
-                  "KMP",
-                  "String Hashing",
-                  "Aho corasick",
+                  "Singly Linked List: Creation, traversal, insertion, and deletion.",
+
+                  "Doubly and Circular Linked Lists: Differences and use cases; related problems.",
                 ],
               },
             },
+            {
+              chap: {
+                title: "Sample Practice Problems:",
+                desc: [
+                  "Middle element of a linked list, Detect a loop in a linked list, Length of a linked list, Check if a linked list is a palindrome,Merge two linked lists",
+                  "Reverse a linked list, Add two numbers represented by linked lists, Rotate a linked list, Find the start of the loop, Partition a linked list around a value.",
+                  "Remove the N-th node from the end, Flatten a multilevel doubly linked list, Reorder a linked list,Clone a linked list with next and random, pointers, Split a linked list into two halves",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 4 :- Stacks and Queues",
+                desc: [
+                  "Understanding Concepts: LIFO and FIFO principles—common in problem statements.",
+                  "Operations: Implementing stacks and queues efficiently.",
+                  "Priority Queues and Dequeues: Applications in interview questions.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Sample Practice Problems:",
+                desc: [
+                  "Check for balanced parentheses, Implement a stack using linked list, Implement a stack using an array,",
+                  "Implement a queue using stacks, Evaluate a postfix expression, Implement a double-ended queue (Deque), Generate binary numbers from 1 to N, Reverse a queue.",
+                  "Implement a queue using a circular array, Design a stack that supports duplicate elements, Evaluate infix expressions.",
+                ],
+              },
+            },
+
             // {
             //   chap: {
             //     title: "Module 10 :- STL - 1",
@@ -242,98 +275,221 @@ export const FSSPDataScienceCourseData = [
             // },
             {
               chap: {
-                title: "Topic 10 :- ArrayList and Linked List - 1",
+                title: "Section 2 :- Advanced Data Structures and Algorithms",
+                desc: [],
+              },
+            },
+
+            {
+              chap: {
+                title: "Topic 5 :- Recursion and Backtracking",
                 desc: [
-                  "Single Linked List (Insertion at positions in Linked List, iteration in Linked List, Deletion at position in Linked List, Linked List loops)",
+                  "Mastering Recursion: Key concepts and base cases crucial for problem- solving",
+                  "Divide and Conquer: Understanding its application in interviews.",
+                  "Backtracking: Common problems like N-Queens, Sudoku.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Practice Problems:",
+                desc: [
+                  "Calculate the factorial of a number, Fibonacci sequence using recursion, Tower of Hanoi, Sum of digits of a number.",
+                  "Generate all subsets of a set, Solve the N-Queens problem, Generate permutations of a string, Rat in a maze.",
+                  "Solve the Sudoku puzzle, Permutations of a string, Word search, Generate all valid parentheses, Subset sum problem.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Topic 6 :- Searching Algorithms",
+                desc: [
+                  "Linear vs Binary Search: Time complexities and when to use which.",
+                  "Advanced Searches: Ternary search and applications.",
+                  "Backtracking: Common problems like N-Queens, Sudoku.",
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 11 :- Linked List - 2",
+                title: "Practice Problems:",
                 desc: [
-                  "Double Linked List (Double Linked list creation (prev pointer), iteration in Double Linked List, insertion at positions in Linked List, Deletion in Double Linked List)",
+                  "Basic: Linear search in sorted array, Find minimum in array, Find maximum in array, Reverse an array, Find unique element in array",
+                  "Intermediate: Binary search in sorted array, Search in rotated sorted array, k-th smallest element in array",
+                  "Advanced: First and last position of element in sorted array, Square root using binary search, Median of two sorted arrays, Find smallest pair sum",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Topic 7 :- Sorting Algorithms",
+                desc: [
+                  "Simple Sorting Algorithms: Bubble, selection, insertion—understanding their performance.",
+                  "Advanced Sorting Algorithms: Merge sort, quick sort—key algorithms in interviews.",
+                  "Backtracking: Common problems like N-Queens, Sudoku.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Practice Problems:",
+                desc: [
+                  "Bubble sort, Selection sort, Insertion sort, Sort array of 0s, 1s, and 2s, Merge two sorted arrays",
+                  "Merge sort, Quick sort, Heap sort, Counting sort ",
+                  "Sort nearly sorted array, K-th largest element in unsorted array, Find median of two sorted arrays, Find minimum difference pair in array",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Topic 8 :- Hashing",
+                desc: [
+                  "Hash Tables and Hash Functions: Importance in optimizing search operations.",
+                  "Collision Handling Techniques: Techniques to handle collisions effectively. ",
+                  "Hash Table Implementations",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Practice Problems:",
+                desc: [
+                  "Count frequencies of elements in an array.",
+                  "Two-sum problem, Find the first non-repeating character in a string. ",
+                  "Longest consecutive sequence, Group anagrams from a list of strings.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Topic 9 :- Trees",
+                desc: [
+                  "Binary Trees: Understanding traversal techniques (inorder, preorder, postorder).",
+                  "Binary Search Trees (BSTs): Key operations and their complexities. ",
+                  "Balanced Trees (AVL, Red-Black): Importance of balancing in interviews.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Practice Problems:",
+                desc: [
+                  "Implement binary tree traversals, Count the number of nodes in a binary tree.",
+                  "Validate a binary search tree, Find the height of a binary tree.",
+                  "Lowest common ancestor in a binary tree, Serialize and deserialize a binary tree.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Topic 10 :- Tries",
+                desc: [
+                  "Understanding Tries: Structure and its applications in string problems.",
+                  "Insertion and Search Operations: Common tasks to practice.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Practice Problems:",
+                desc: [
+                  "Insert and search in a trie.",
+                  "Find all words with a given prefix, Count distinct substrings.",
+                  "Implement autocomplete system, Implement a phone directory.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Topic 11 :- Heaps",
+                desc: [
+                  "Max-Heaps and Min-Heaps: Key properties and operations.",
+                  "Heap Applications: Priority queues and their importance in algorithms.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Practice Problems:",
+                desc: [
+                  "Build a max heap from an array, Find the maximum element in a heap.",
+                  "Implement heap sort, K-th largest element in a stream using a min heap.",
+                  "Merge k sorted linked lists, Top k frequent elements in an array.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Topic 12 :- Greedy Algorithms",
+                desc: [
+                  "Understanding Greedy Strategy: When to apply greedy methods in problem-solving.",
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 12 :- Linked List - 3",
+                title: "Practice Problems:",
                 desc: [
-                  "Circular Linked list (Circular Linked list creation,iteration in Circular Linked List, insertion at positions in Circular Linked List, Deletion in Circular Linked List",
+                  "Coin change problem (greedy version), Activity selection problem.",
+                  "Job sequencing problem, Fractional knapsack problem.",
+                  "Huffman coding, Minimum spanning tree using Prim's or Kruskal's algorithm.",
                 ],
               },
             },
+
             {
               chap: {
-                title: "Topic 13 :- Stack",
-                desc: ["Intro", "Application and Implementation using Array"],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 14 :- Applications of Stack",
-                desc: ["Implementation using Linked list", "Stack as library"],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 15 :- Queue",
+                title: "Topic 13 :- Dynamic Programming (DP)",
                 desc: [
-                  "Implementation using Array",
-                  "Implementation using Linked list",
-                  "Queue as a library",
+                  "Introduction to DP: Recognizing overlapping subproblems and optimal substructure.",
+                  "Top-down vs. Bottom-up: Techniques for solving DP problems.",
+                  "Common DP Problems: Longest common subsequence, 0/1 knapsack— key problems for interviews.",
                 ],
               },
             },
+
             {
               chap: {
-                title: "Topic 16 :- Applications of Queue",
+                title: "Practice Problems:",
                 desc: [
-                  "Implementation using Array",
-                  "Implementation using Linked list",
-                  "Queue as a library",
+                  "Calculate the nth Fibonacci number using DP.",
+                  "Longest increasing subsequence, Coin change problem.",
+                  "0/1 knapsack problem, Edit distance between two strings.",
                 ],
               },
             },
+
             {
               chap: {
-                title: "Topic 17 :- Maths",
+                title: "Topic 14 :- Graphs",
                 desc: [
-                  "Modular Arithmetic, Modular Exponentiation, GCD, Modular Multiplicative Inverse",
-                  " GCD, Primality Testing, Seive of Eratosthenes",
+                  "Graph Representations: Adjacency matrix vs. adjacency list—pros and cons.",
+                  "Graph Traversal Algorithms: BFS and DFS—understanding their applications in problem-solving.",
+                  "Shortest Path Algorithms: Dijkstra's, Bellman-Ford; how to apply them in interviews.",
                 ],
               },
             },
+
             {
               chap: {
-                title: "Topic 18 :- Analysis of Algorithm - Advance",
-                desc: ["Greedy"],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 19 :- Advance Data Structure",
+                title: "Practice Problems:",
                 desc: [
-                  "Tree -1 (Traversals)",
-                  "Tree - 2 (Construction of tree from traversals, height of tree, mirror of tree)",
-                  "Tree - 3 (LCA, Diameter)",
-                  "BST",
-                  "Heaps",
-                  "Graph - 1 (BFS, DFS)",
-                  "Graph - 2 (Cycles in Graph)",
-                  "Graph - 3 (DFS, BFS on matrix)",
-                  "Graph - 4 ([Dijkstra Algorithm, Flood Fill Algorithm])",
-                  "Heaps",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 20 :- Analysis of Algorithm - Advance",
-                desc: [
-                  "Dynamic Programming",
-                  "Graph - 5 [Minimum Spanning Tree, Floyd Warshall, Topological Sorting]",
+                  "Implement BFS and DFS for a graph.",
+                  "Detect cycles in an undirected graph, Find connected components.",
+                  "Dijkstra's algorithm for shortest path, Kruskal's or Prim's algorithm for minimum spanning tree.",
                 ],
               },
             },
@@ -344,66 +500,96 @@ export const FSSPDataScienceCourseData = [
       },
       {
         Module0: {
-          title: "L3 :- CS Fundamentals and DBMS",
+          title: "TERM 2 :- Computer Fundamentals ( 1 Month )",
           imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/tv-rounds.webp ",
           StartImageUrl:
-            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/tv-downs.webp",
           endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/api-ups.webp",
           points: "DBMS",
           content: [
             {
               chap: {
-                title: "Topic 1 :- DBMS",
+                title: "Section 1 :- Statistics",
+                desc: [],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 1 :- Introduction to Computer Systems",
                 desc: [
-                  "Introduction to Databases",
-                  "The Relational Model",
-                  "Entity-Relationship Model",
-                  "Database Design",
-                  "Structured Query Language (SQL)",
-                  "Database Indexing and Optimization",
-                  "Transaction Management",
-                  "Database Security and Authorisation",
-                  "Backup, Recovery, and Integrity",
-                  "Emerging Trends in Database Management",
+                  "Overview of Computer Architecture",
+                  "Core Components: CPU, Memory, Storage Devices",
+                  "Memory Types: RAM, ROM, Cache",
+                  "Basics of Program Execution",
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 2 :- Networking Fundamentals",
+                title: "Topic 2 :- Operating Systems:",
                 desc: [
-                  "Introduction to Computer Networking",
-                  "Network Topologies and Technologies",
-                  "OSI Model and Protocol Stack",
+                  "OS Functions and Resource Management",
+                  "Processes and Threads, Scheduling Basics",
+                  "Memory Management: Paging, Virtual Memory",
                   "IP Addressing and Subnetting",
-                  "Routing and Switching",
-                  "Local Area Networks (LANs)",
-                  "Wide Area Networks (WANs)",
-                  "Wireless Networking",
-                  "Network Security",
-                  "Domain Name System (DNS)",
-                  "Cloud Networking",
-                  "Emerging Trends in Computer Networking",
+                  "Concurrency Basics: Locks, Semaphores",
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 3 :- Operating System",
+                title: "Topic 3 :- Data Representation and Number Systems:",
                 desc: [
-                  "Introduction to Operating Systems",
-                  "Computer System Architecture",
-                  "Process Management",
-                  "Memory Management",
-                  "File System Management",
-                  "Input/Output (I/O) Systems",
-                  "User Interface and Command-Line Interaction",
-                  "System Security and Authentication",
-                  "Virtualization and Cloud Computing",
-                  "Distributed Operating Systems",
-                  "Real-Time Operating Systems (RTOS)",
+                  "Number Systems: Binary, Decimal, Hexadecimal",
+                  "Conversions between Number Systems",
+                  "Encoding Basics: ASCII, Unicode",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Topic 4 :- Networking Fundamentals:",
+                desc: [
+                  "Networking Basics: LAN, WAN, Internet",
+                  "OSI and TCP/IP Models, Key Protocols",
+                  "IP Addressing Basics, Routing Concepts",
+                  "Network Security: Firewalls, NAT",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Topic 5 :- Programming Concepts and Problem-Solving:",
+                desc: [
+                  "Programming Paradigms Overview",
+                  "Complexity Analysis Basics",
+                  "Core Data Structures: Arrays, Linked Lists",
+                  "Sorting and Searching Algorithms",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 6 :- Version Control Systems:",
+                desc: [
+                  "Git and GitHub Essentials",
+                  "Basic Commands: Clone, Commit, Push",
+                  "Branching, Merging, Collaboration Practices",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Topic 7 :- Computer Security Basics:",
+                desc: [
+                  "Cybersecurity Fundamentals",
+                  "Encryption: Symmetric, Asymmetric",
+                  "Authentication and Common Security Threats",
                 ],
               },
             },
@@ -414,112 +600,247 @@ export const FSSPDataScienceCourseData = [
       },
       {
         Module0: {
-          title: "L4 :- System Design",
+          title: "TERM 3 :- System Design : LLD + HLD ( 2.5 Months )",
           imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/api-rounds.webp",
           StartImageUrl:
-            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/api-downs.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
           points: "Introduction to System Design",
           content: [
             {
               chap: {
-                title: "Topic 1 :- Introduction to System Design",
+                title: "Overview of System Design",
                 desc: [
-                  "What is System Design?",
-                  "Goals of System Design",
-                  "Components of a System Design",
-                  "System Design Process",
-                  "Importance of System Design",
-                  "Types of Systems",
-                  "Architecture of a System",
+                  "Introduction to System Design: Explanation of key concepts in system design, including scalability, reliability, performance, and security.",
+                  "Components of System Design: Overview of high-level vs low-level design, explaining how each contributes to a well-architected system.",
+                  "Building Blocks of System Design: Introduction to core components like databases, servers, clients, APIs, and message queues.",
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 2 :- Design Principles",
-                desc: [
-                  "SOLID Principles",
-                  "KISS Principle",
-                  "DRY Principle",
-                  "YAGNI Principle",
-                  "Separation of Concerns",
-                  "Law of Demeter",
-                ],
+                title: "Section 1 - Statistics",
+                desc: [],
               },
             },
             {
               chap: {
-                title: "Topic 3 :- Design Patterns",
-                desc: [
-                  "Creational Patterns",
-                  "Structural Patterns",
-                  "Behavioral Patterns",
-                  "Singleton Pattern",
-                  "Factory Pattern",
-                  "Adapter Pattern",
-                  "Observer Pattern",
-                  "Command Pattern",
-                ],
+                title: "Topic 1: Low-Level Design (LLD) - 9 Chapters",
+                desc: [],
               },
             },
             {
               chap: {
-                title: "Topic 4 :- Low-Level Design (HLD)",
+                title:
+                  "Chapter 1: Fundamentals of Object-Oriented Programming (OOP)",
                 desc: [
-                  "Understanding the Purpose and Scope of LLD",
-                  "LLD Design Process",
-                  "Types of LLD",
+                  "Core principles: Abstraction, Encapsulation, Inheritance, and Polymorphism.",
+                  "Practical applications with real-world examples to solidify understanding.",
+                  "Modular component design for ease of code maintenance. ",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Chapter 2: SOLID Principles for Effective Design",
+                desc: [
+                  "Detailed coverage of each SOLID principle: Single Responsibility,",
+                  "Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion.",
+                  "Exercises for applying these principles to various scenarios to achieve adaptable and clean code.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Chapter 3:- Essential Design Patterns",
+                desc: [
+                  "Overview of major design patterns: Creational (Factory, Singleton), Structural (Adapter, Composite), Behavioral (Observer, Strategy).",
+                  "Identifying the right pattern based on requirements and scenarios. ",
+                  "Practical examples to solve common challenges with design patterns.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Chapter 4:- UML Diagrams for Visual Representation",
+                desc: [
+                  "Introduction to essential UML diagrams, including Class, Sequence, and Component diagrams.",
+                  "Exercises in creating visual maps for clear communication of design.",
+                  "Best practices for organized, understandable diagramming.",
                   "Creating a Low-Level Design Document",
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 5 :- High-Level Design (HLD)",
+                title: "Chapter 5:- Designing Efficient Database Schemas)",
                 desc: [
-                  "Understanding the Purpose and Scope of HLD",
-                  "HLD Design Process",
-                  "Types of HLD",
-                  "Creating a High-Level Design Document",
+                  "Basics of schema design for efficient data management and retrieval.",
+                  "Creation of Entity-Relationship Diagrams (ERDs) and normalization techniques.",
+                  "Optimization methods for scalable schemas in high-volume databases. ",
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 6 :- Scalability and Performance",
+                title: "Chapter 6: API Design and Implementation Basics",
                 desc: [
-                  "Scalability",
-                  "Performance",
-                  "Load Balancing",
-                  "Caching",
-                  "Database Scaling",
+                  "RESTful API design principles: Structuring endpoints, managing errors, and versioning.",
+                  "Exercises for creating well-structured, scalable APIs with error handling.",
+                  "Best practices in API development for smooth integrations.",
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 7 :- Security and Reliability",
+                title: "Chapter 7:- Multithreading and Concurrency Management",
                 desc: [
-                  "Security",
-                  "Reliability",
-                  "Fault Tolerance",
-                  "Disaster Recovery",
-                  "Backup and Restore",
+                  "Introduction to multithreading and concurrency control basics.",
+                  "Managing issues like race conditions and deadlocks effectively.",
+                  "Practical examples to design systems handling concurrent tasks efficiently.",
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 8 :- Integration and Deployment",
+                title: "Chapter 8:- Basic Integration AI/ML in Software Design",
                 desc: [
-                  "Continuous Integration",
-                  "Continuous Deployment",
-                  "DevOps",
+                  "Basics of embedding ML models and GenAI in systems for functionality enhancement.",
+                  "Setting up data flows for AI/ML and GenAI: Data preprocessing, model execution, and output integration.",
+                  "Model lifecycle management, including monitoring and updates for performance consistency.",
                   "Microservices",
                   "Containers",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Chapter 9:- Testing and Code Quality Best Practices",
+                desc: [
+                  "Overview of unit and integration testing to maintain design stability.",
+                  "Techniques for documenting and structuring code for clarity and maintenance.",
+                  "Continuous monitoring and refinement for long-term code and design quality.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Topic 2:- High-Level Design (HLD) - 9 Chapters",
+                desc: [
+                  "Overview of unit and integration testing to maintain design stability.",
+                  "Techniques for documenting and structuring code for clarity and maintenance.",
+                  "Continuous monitoring and refinement for long-term code and design quality.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title:
+                  "Chapter 1:- Introduction to System Architecture and Design",
+                desc: [
+                  "System design fundamentals: Overview of monolithic, client-server, and microservices architectures.",
+                  "Principles of system design: Scalability, reliability, maintainability, and fault tolerance.",
+                  "Evaluating architecture choices: Choosing the right design patterns for different application needs.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Chapter 2:- Distributed Systems Overview",
+                desc: [
+                  "Key concepts: Data replication, data consistency, and distributed communication.",
+                  "Design challenges in distributed systems: Fault tolerance, data integrity, and managing distributed transactions.",
+                  "Use cases: Examining examples of distributed systems and architectures in action.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Chapter 3:- Network and Communication Protocols",
+                desc: [
+                  "Network fundamentals: How TCP/IP, DNS, and HTTP/HTTPS protocols function within HLD.",
+                  "Load balancing techniques: Understanding load balancers, DNS-based load balancing, and API gateways.",
+                  "Case studies: Implementing load balancing in distributed environments. ",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title:
+                  "Chapter 4:- ZooKeeper and Kafka (Distributed Messaging Queue)",
+                desc: [
+                  "ZooKeeper: Overview of distributed coordination, leader election, and configuration management.",
+                  "Apache Kafka: Introduction to message queuing, real-time data streaming, and event-driven architecture.",
+                  "Implementing a distributed messaging system: Practical applications and setup for reliable messaging. ",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title:
+                  "Chapter 5:- Designing with Microservices and CAP Theorem",
+                desc: [
+                  "Microservices architecture: Benefits and challenges of service decomposition and design.",
+                  "CAP Theorem: Trade-offs between Consistency, Availability, and Partition tolerance.",
+                  "Data partitioning: Techniques like sharding, horizontal scaling, and load distribution.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Chapter 6:- Database Selection and Data Storage Models",
+                desc: [
+                  "Database types: SQL, NoSQL, and NewSQL, understanding their scalability and data integrity trade-offs.",
+                  "Choosing a database: ACID vs. BASE properties, and database selection based on application needs.",
+                  "Distributed databases: How they manage scalability, availability, and latency.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title:
+                  "Chapter 7:- Caching and Content Delivery Networks (CDNs)",
+                desc: [
+                  "Caching strategies: Implementing in-memory caching (Redis, Memcached) and cache expiration techniques.",
+                  "Content Delivery Networks (CDNs): Using CDNs for load reduction and latency improvements.",
+                  "Optimizing data access: Practical steps to build efficient caching strategies.",
+                  "Project: Instagram like Image and Video Feed System",
+                  "Objective: Design Instagram’s feed system to handle high-frequency data retrieval for photos and videos.",
+                  "Focus: Integrate caching and CDN strategies to reduce latency and improve user experience on a large scale.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Chapter 8:- Scalability, Security, and Reliability",
+                desc: [
+                  "Security best practices: Authentication, data encryption, and secure API design in high-level architectures.",
+                  "Reliability patterns: Circuit breaker, retry mechanisms, and failover strategies.",
+                  "Scaling infrastructure: Vertical and horizontal scaling, auto-scaling, and designing for peak load handling.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Chapter 9:- AI/ML Systems in High-Level Design",
+                desc: [
+                  "Integrating AI/ML: High-level considerations for data pipelines model serving, and scalability for ML.",
+                  "Data infrastructure for ML: Handling large datasets, real-time processing, and model versioning.",
+                  "Real-world case studies: Examples of high-level AI/ML systems in production environments.",
                 ],
               },
             },
@@ -528,53 +849,54 @@ export const FSSPDataScienceCourseData = [
           open: false,
         },
       },
+
       {
         Module0: {
-          title: "L5 :- Specialization",
+          title: "Elective 1 :- GenAI for Software Developers",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_round.webp ",
           StartImageUrl:
             " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_down.webp",
           endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_up.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/idea-ups.webp",
           points: "MERN (Full-Stack Specialization)",
           content: [
             {
               chap: {
-                title: "MERN (Full-Stack Specialization)",
+                title: "Objective:",
                 desc: [
-                  "Programming Basics, Data Types and Code Flow",
-                  "Project work on HTML5 and CSS3",
-                  "JavaScript",
-                  "Package Managers",
-                  "HTML and CSS3",
-                  "Bootstrap",
-                  "jQuery",
-                  "ReactJS",
-                  "Application Programming Interface",
-                  "Deploying WEB Application using AWS and Azure",
-                  "Final Project Work",
-                  "Node.js and Express.js",
-                  "Database",
-                  "Authentication and Security",
+                  "Empower developers to leverage Generative AI for application development and workflow automation, emphasizing OpenAI APIs and LangChain integration.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Recommended Experience:",
+                desc: [
+                  "2-4 years in software development, familiar with Python, APIs, and basic machine learning concepts. Ideal for those integrating AI into applications.machine learning concepts. Ideal for those integrating AI into applications. ",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Career Fit:",
+                desc: [
+                  "Perfect for developers interested in AI-driven development and enhancing user experiences or pursuing roles in AI application design",
                 ],
               },
             },
             {
               chap: {
-                title: "SPRING (Backend Specialization)",
+                title: "Topics Covered:- GenAI for Software Developers",
                 desc: [
-                  "Framework Introduction",
-                  "Spring JDBC / DAO Module",
-                  "Spring AOP Module",
-                  "Spring Core Module",
-                  "Spring ORM Module",
-                  "Spring WEB & WEB MVC Module",
-                  "Spring Security Module",
-                  "Maven",
-                  "Springboot",
-                  "Advance Java (Servlet + JSP)",
-                  "Other Technologies",
+                  "Fundamentals of Generative AI: Overview of generative models and their real-world applications, highlighting differences from traditional AI.",
+                  "Integration of OpenAI APIs: Techniques for effectively integrating OpenAI APIs, including authentication and best practices for data handling.",
+                  "Building Applications with LangChain: Utilizing LangChain to create intelligent applications that leverage large language models.",
+                  "Utilizing Hugging Face: Accessing and deploying Hugging Face pre-trained models, with a focus on fine-tuning for specific uses.",
+                  "Prompt Engineering: Strategies for crafting effective prompts to optimize AI responses and improve user interaction.",
+                  "Ethical Considerations in AI: Discussion of ethical issues in AI, including bias, privacy, and responsible usage in development.",
                 ],
               },
             },
@@ -585,123 +907,53 @@ export const FSSPDataScienceCourseData = [
       },
       {
         Module0: {
-          title: "L6 :- Deployment",
+          title: "Elective 2 :- Product Management for Tech Professionals",
           imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/idea-rounds.webp",
           StartImageUrl:
-            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/idea-downs.webp",
           endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_up.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/paper-ups.webp",
           points: "Deep Learning",
           points1: "(NLP)",
           content: [
             {
               chap: {
-                title: "Topic 1 :- Building a Spring Boot Application",
+                title: "Objective",
                 desc: [
-                  "Creating a new Spring Boot project",
-                  "Dependency management with Maven or Gradle",
-                  "Defining application properties (e.g., database configuration, logging)",
+                  "Equip developers with a product management mindset to align technical and business goals in tech products.",
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 2 :- Working with Databases",
+                title: "Recommended Experience",
                 desc: [
-                  "Integrating Spring Boot with relational databases (e.g., MySQL, PostgreSQL)",
-                  "Using Spring Data JPA for database interactions",
-                  "Implementing CRUD operations with JPA repositories",
+                  "3-5 years in software development, ideally in cross-functional settings with product managers. Suitable for senior developers or leads transitioning to product roles.",
                 ],
               },
             },
 
             {
               chap: {
-                title: "Topic 3 :- Securing a Spring Boot Application",
+                title: "Career Fit",
                 desc: [
-                  "Implementing authentication and authorization",
-                  "Securing REST APIs with Spring Security",
-                  "Handling CSRF attacks and other security considerations",
+                  "Engineers aiming for product management or tech lead roles to navigate both technical and business needs effectively.",
                 ],
               },
             },
 
             {
               chap: {
-                title:
-                  "Topic 4 :- Building and Packaging Spring Boot Applications",
+                title: "Topics Covered:",
                 desc: [
-                  "Creating executable JARs or WARs",
-                  "Deploying Spring Boot applications to local and remote servers",
-                ],
-              },
-            },
-
-            {
-              chap: {
-                title: "Topic 5 :- Developing a Basic Spring Boot Application",
-                desc: [
-                  "Creating and configuring Spring Beans",
-                  "Implementing RESTful APIs with Spring Web",
-                  "Handling HTTP requests and responses",
-                  "Data validation and error handling",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 6 :- Testing Spring Boot Applications",
-                desc: [
-                  "Writing unit tests for Spring components (e.g., controllers, services)",
-                  "Using JUnit and Mockito for testing",
-                  "Understanding test best practices and test coverage",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 7 :- Spring Boot Actuator",
-                desc: [
-                  "Monitoring and managing Spring Boot applications using Actuator endpoints",
-                  "Customizing Actuator endpoints and security configurations",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 8 :- Containerization and Deployment",
-                desc: [
-                  "Introduction to Docker and containerization",
-                  "Dockerizing a Spring Boot application",
-                  "Deploying Spring Boot apps to cloud platforms (e.g., AWS, Azure, Google Cloud)",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 9 :- Containerization and Deployment",
-                desc: [
-                  "Setting up CI/CD pipelines with tools like Jenkins or GitLab CI",
-                  "Automating the deployment process",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 10 :- Monitoring and Scaling",
-                desc: [
-                  "Utilizing monitoring tools (e.g., Spring Boot Admin, Prometheus, Grafana)",
-                  "Scaling Spring Boot applications in different deployment environments",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Topic 11 :- Troubleshooting and Best Practices",
-                desc: [
-                  "Identifying and resolving common issues",
-                  "Adopting best practices for Spring Boot application development and deployment",
+                  "Product Life Cycle & Development: Understanding phases from concept to launch and maintenance.",
+                  "Market Research for Tech Products: Conducting research to align product with user needs and market demands.",
+                  "Feature Prioritization Techniques: Balancing business and technical requirements to drive value. requirements to drive value.",
+                  "Technical Roadmapping: Creating roadmaps for technical execution aligned with business goals. ",
+                  "Stakeholder Communication: Translating complex tech concepts for business stakeholders.",
+                  "Data-Driven Decision Making: Leveraging metrics and KPIs to guide product strategy.",
+                  "Product Design Basics for Engineers: Fundamentals of UI/UX that impact product usability and satisfaction",
                 ],
               },
             },
@@ -710,7 +962,147 @@ export const FSSPDataScienceCourseData = [
           open: false,
         },
       },
+
+      {
+        Module0: {
+          title:
+            "Elective 3 :- Data Engineering Essentials for Software Engineers",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/paper-rounds.webp",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/paper-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/yellow_in-ups.webp",
+          points: "Deep Learning",
+          points1: "(NLP)",
+          content: [
+            {
+              chap: {
+                title: "Objective",
+                desc: [
+                  "Equip software engineers with essential data engineering skills to design, manage, and optimize data pipelines and infrastructures for data- driven applications.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Recommended Experience",
+                desc: [
+                  "2-4 years in software development, familiar with databases and cloud computing. Ideal for engineers interested in data-rich systems or supporting data science teams.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Career Fit",
+                desc: [
+                  "Suitable for engineers moving into data engineering roles or those enhancing their understanding of data infrastructure in analytics-heavy or data-centric product teams.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Topics Covered:",
+                desc: [
+                  "Data Pipelines & Workflow Orchestration: Designing efficient data flow for analytics and operations.",
+                  "Database Management & Optimization: Basics of SQL, NoSQL, and performance tuning for scalable solutions.",
+                  "Data Warehousing Concepts: Building and maintaining data warehouses for business intelligence.",
+                  "Big Data Processing: Using frameworks like Hadoop, Spark for large-scale data operations. ",
+                  "ETL/ELT: Data extraction, transformation, and load processes, with real-world application. ",
+                  "Data Quality & Monitoring: Ensuring accuracy and reliability in data-driven applications.",
+                  "Cloud Data Solutions: Overview of cloud-based tools (AWS, GCP, Azure) for data engineering",
+                ],
+              },
+            },
+          ],
+          id: 6,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Elective 4 :- DevOps Essentials for Software Engineers",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/yellow_in-rounds.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/yellow_in-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/yellow_in-ups.webp",
+          points: "Deep Learning",
+          points1: "(NLP)",
+          content: [
+            {
+              chap: {
+                title: "Objective",
+                desc: [
+                  "Equip developers with DevOps skills for efficient, scalable code deployment by enhancing CI/CD, infrastructure, and automation workflows.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Recommended Experience",
+                desc: [
+                  "2-4 years in software engineering with basic knowledge of scripting and cloud services; ideal for developers moving toward DevOps.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Career Fit",
+                desc: [
+                  "Suited for developers interested in DevOps, cloud management, and automated deployment.",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Topics Covered:",
+                desc: [
+                  "Programming & Scripting for Automation: Python, Bash, and scripting for DevOps automation",
+                  "Linux & System Administration: Essential Linux commands, permissions, and troubleshooting",
+                  "Version Control with Git: Git workflows for collaborative DevOps and code management",
+                  "CI/CD Integration: Jenkins, GitHub Actions for automated deployment and testing ",
+                  "Containerization & Orchestration: Using Docker and Kubernetes for scalable deployment environments",
+                  "Infrastructure as Code (IaC): Terraform and Ansible for automated infrastructure setup",
+                  "Monitoring & Logging: Prometheus, Grafana, and ELK stack for real-time monitoring and troubleshooting",
+                ],
+              },
+            },
+          ],
+          id: 7,
+          open: false,
+        },
+      },
     ],
+
+    certificateNew: [
+      {
+        id: 1,
+        title: "Microsoft Course Completion Certificate",
+        imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/microsoft_Cert_new.webp",
+        imageWidth: 400,
+        imageHeight: 260,
+        description: `Industry-certified Microsoft certificates,
+        Gain expertise & get recognized worldwide,
+        Boost job opportunities and earnings with Microsoft’s certification`,
+      },
+      {
+        id: 2,
+        title: "Learnbay Course Completion Certificate",
+        imageUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/learnbay_cert_demo.webp ",
+        imageWidth: 400,
+        imageHeight: 260,
+        description: `The certification reflects not only theoretical knowledge but also the practical implementation of concepts through live projects and case studies.`,
+      },
+    ],
+
     faq: [
       {
         id: 0,
@@ -892,14 +1284,14 @@ export const FSSPDataScienceCourseData = [
             id: 2,
             ques: "What does the Career Services PRO package include?",
             ans: "The Career Services PRO at Learnbay offers you the - ",
-            list1: "Three years of job placement assistance with unlimited access to interviews and learning portals",
-            list2:
-              "Six mock interviews with industry partners",
-            list3:
-              "Powerful resume design to ace interviews",
+            list1:
+              "Three years of job placement assistance with unlimited access to interviews and learning portals",
+            list2: "Six mock interviews with industry partners",
+            list3: "Powerful resume design to ace interviews",
             list4: "1:1 review session",
             list5: "Unlimited interview calls",
-            list6: "At the end of the course, learners will be able to get these benefits that shall equip their career with the in-demand skills to crack the interviews with the leading MNCs",
+            list6:
+              "At the end of the course, learners will be able to get these benefits that shall equip their career with the in-demand skills to crack the interviews with the leading MNCs",
             dscoursefaq1: true,
 
             open: false,
@@ -908,10 +1300,14 @@ export const FSSPDataScienceCourseData = [
             id: 3,
             ques: "How is Learnbay's Placement program different from others?",
             ans: "When you get upskilled with Learnbay's course program successfully, you become eligible for its placement program. It offers -",
-            list1: "Guaranteed interview calls from prime MNCs & MAANG partnered with Learnbay",
-            list2: "Capstone project certification from IBM enhances the quality of your resume.",
-            list3: "Domain-specialized training and upskilling help get selected in placement drives",
-            list4: "100% live and instructor-led sessions refining the core concepts",
+            list1:
+              "Guaranteed interview calls from prime MNCs & MAANG partnered with Learnbay",
+            list2:
+              "Capstone project certification from IBM enhances the quality of your resume.",
+            list3:
+              "Domain-specialized training and upskilling help get selected in placement drives",
+            list4:
+              "100% live and instructor-led sessions refining the core concepts",
             list5:
               "Personalized resume preparation helps showcase your proven skills & increase your chances of getting selected. ",
             dscoursefaq1: true,

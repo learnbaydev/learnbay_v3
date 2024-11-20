@@ -95,6 +95,14 @@
   align-items: center;
 }
 
+@media (max-width: 1181px) {
+
+.rightPart{
+  max-width: 600px;
+    width: 100%;
+}
+}
+
 @media (max-width: 1024px) {
   .LearnSupport {
     padding: 30px 30px 30px 180px;
