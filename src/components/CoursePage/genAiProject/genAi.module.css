@@ -1,0 +1,88 @@
+.main{
+    width: 100%;
+    margin: auto;
+    max-width: 1200px;
+    position: relative;
+}
+
+.Header{
+    text-align: center;
+}
+
+.Card{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 330px;
+    justify-content: space-between;
+}
+
+
+.iconDIv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.swiperDiv{
+    display: flex;
+    gap: 20px;
+    padding-top: 100px;
+}
+
+.greenBox {
+    border-radius: 0px 5px;
+background: #2DB621;
+margin: 0;
+padding:4px 20px;
+font-size:20px;
+
+position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.greenBox  p {
+    margin: 0;
+    color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 158%; /* 55.3px */text-align: justify;
+text-wrap: balance;
+}
+.Card h6 {
+    color: #858585;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 143%; /* 35.75px */
+width: 100%;
+max-width: 250px;
+}
+.lightBox{
+
+border-radius: 5px;
+background: rgba(254, 122, 54, 0.10);
+padding: 20px;
+
+
+}
+
+.lightBox p {
+    list-style: none;
+    color: #616161;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+

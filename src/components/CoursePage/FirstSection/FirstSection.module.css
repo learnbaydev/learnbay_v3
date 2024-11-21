@@ -7,6 +7,33 @@
   font-size: 45px; /* Example larger font size */
 }
 
+
+.cyberH1{
+  color: #FFF;
+font-size: 44px;
+font-style: normal;
+font-weight: 600;
+line-height: 120.2%; /* 54.09px */
+letter-spacing: 0.45px;
+width: 100%;
+max-width: 80%;
+background: linear-gradient(270deg, #FFC6C6 5.73%, #8EC8FF 98.25%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.iHubdiv{
+  padding: 20px 20px 50px 10px;
+}
+.cyberspan{
+  font-size: 38px;
+  color: #fff;
+  background: #fff;
+  background-clip: text;
+  font-weight: 400;
+}
+
 .form {
 width: 100%;
 }
@@ -14,6 +41,31 @@ width: 100%;
   font-size: 30px;
   text-align: center;
   margin: 20px 0; 
+}
+.highlightedWord {
+  background: linear-gradient(90deg, #FFC436 55.97%, #FE7A36 80.72%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120.2%;
+  letter-spacing: 0.48px;
+}
+
+
+.GEnAI{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
 .p {
   margin-bottom: 21px;
@@ -23,10 +75,22 @@ width: 100%;
 
 }
 
+
+
 .animationTextWrap {
   overflow: hidden;
   height: 30px;
   font-weight: 800; /* Adjust the height as needed */
+}
+.orange{
+  background: linear-gradient(90deg, #FFC436 55.97%, #FE7A36 80.72%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120.2%;
+  letter-spacing: 0.48px;
 }
 
 .verticalSlideWrapper {
@@ -137,6 +201,14 @@ width: 100%;
 }
 .h1Span {
   color: #FE7A36;
+}
+
+.h1Spanblue{
+
+  background: linear-gradient(90deg, #9A9CFF 17.9%, #0383FF 99.99%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 .h1 {
   color: #fff;
@@ -259,6 +331,12 @@ width: 100%;
 }
 .divone span {
   color: #35d028;
+}
+
+.gur{
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 @media (max-width: 1281px) {
   .First {
@@ -384,7 +462,26 @@ width: 100%;
   .p {
     text-align: center;
   }
+  .cyberH1{
+    text-align: left;
+        font-size: 28px;
+        line-height: 1.3;
+        margin: 0;
+        padding: 0px 20px;
+    
+  }
+  .cyberspan{
+    font-size: 20px;
+  }
 
+  .mangImg img{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  .mangImg {
+    padding-left: 20px;
+  }
 
 
 }

@@ -14,6 +14,7 @@ const ContactCounsellor = ({
   titleCourse,
   brochureLink,
   brochurePdf,
+  GenAi,
 }) => {
   const [popups, setPopups] = useState(false);
 
@@ -120,13 +121,19 @@ const ContactCounsellor = ({
         </div>
       </div>
       <div className={styles.conimg}>
-        <Image
+       {GenAi ? ( <Image
+          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/contact_man+(1).webp"
+          width={450}
+          height={265}
+          alt="contact-counseller"
+          loading="lazy"
+        />):( <Image
           src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/fee-newboy.webp"
           width={320}
           height={380}
           alt="contact-counseller"
           loading="lazy"
-        />
+        />)}
       </div>
     </div>
   );

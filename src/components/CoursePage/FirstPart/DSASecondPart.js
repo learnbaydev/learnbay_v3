@@ -4,19 +4,17 @@ import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
 import LJourney from "../LJourney/LJourney";
+import NewCertificateSection from "../newCertificate/NewCertificate";
+import DSAFeeSection from "../dsaFee/DSAFeeSection";
 const SeventhSection = dynamic(() =>
   import("@/components/Global/SeventhSection/SeventhSection")
 );
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
-const FeeSection = dynamic(() =>
-  import("../FeeSection/FeeSection")
-);
+const FeeSection = dynamic(() => import("../FeeSection/FeeSection"));
 const MentorsSection = dynamic(() =>
   import("../../Global/MentorsSection/MentorsSection")
 );
-const SliderTab = dynamic(() =>
-  import("../../Global/SliderTabs/SliderTabs")
-);
+const SliderTab = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
 const PlacementCall = dynamic(() =>
   import("../../Global/PlacementCall/PlacementCallFsd")
 );
@@ -30,6 +28,7 @@ const Content = dynamic(() =>
 const FullStackSoftwareDevelopmentSecondPart = ({
   masterSyllabusMobile,
   FAQNewData,
+  certificateNew,
 }) => {
   const [popupData, setPopupData] = useState([]);
   // console.log(popupData);
@@ -61,7 +60,7 @@ const FullStackSoftwareDevelopmentSecondPart = ({
     };
     fetchPopup();
   }, []);
-       const pdfUrl = "/Brochure/Software-Developer-Certification.pdf"
+  const pdfUrl = "/Brochure/Data-Structure-System-Design.pdf";
   return (
     <div>
       <LJourney />
@@ -70,12 +69,38 @@ const FullStackSoftwareDevelopmentSecondPart = ({
         dataScienceCounselling={true}
         dataScience={true}
         titleCourse="Software Development Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf"
         brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}
       />
-      <FeeSection
+
+      <NewCertificateSection certificateNew={certificateNew} />
+
+      <DSAFeeSection
+        Fee="₹ 70,000"
+        FeeEmi="₹ 4,588/month"
+        weekendbatch="Weekday Evening (DSA BATCHES)"
+        weekdaybatch="Weekday Evening (DSA BATCHES)"
+        weekday="MON-WED-FRI"
+        weekend="MON-WED-FRI"
+        WeekendDate="JAN 26th"
+        WeekdayDate="JAN 10th "
+        WeekendTime="08:00PM - 10:00PM"
+        WeekdayTime="08:00PM - 10:00PM"
+        FeeContent3="Flexible payment"
+
+         // <EMI POPUP
+         emiType="NO COST EMI"
+         duration1="18 Months"
+         totalAmount1="₹70,000"
+         monthlyPayment1="₹4,588"
+         greenDown1="Standard Intrest rate Applicable"
+         duration2="12 Months"
+         totalAmount2="₹70,000"
+         monthlyPayment2="₹6,883"
+      />
+      {/* <FeeSection
         Fee="₹ 70,000"
         FeeEmi="₹ 4,588/month"
         weekendbatch="Weekday Evening (DSA BATCHES)"
@@ -105,8 +130,8 @@ const FullStackSoftwareDevelopmentSecondPart = ({
         duration2="12 Months"
         totalAmount2="₹70,000"
         monthlyPayment2="₹6,883"
-      />
-      <MentorsSection />
+      /> */}
+      {/* <MentorsSection /> */}
       <SliderTab />
       <PlacementCall />
       <FAQNew FAQNewData={FAQNewData} />

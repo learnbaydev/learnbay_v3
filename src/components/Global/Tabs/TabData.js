@@ -73,8 +73,8 @@ export const TabData = [
   },
 
   {
-    id: "Cloud & DevOps and Fullstack",
-    title: "Cloud & DevOps and Fullstack",
+    id: "Cloud & DevOps",
+    title: "Cloud & DevOps",
     courseName: [
       {
         CName: "Cloud Computing & DevOps Certification Program",
@@ -86,6 +86,27 @@ export const TabData = [
         hours: "3-4 Months",
         url: "/cloud&devops/aws-cloud-computing-and-devOps",
       },
+      // {
+      //   CName: "Software Development Certification Program",
+      //   hours: "11 Months",
+      //   url: "/fullstack/full-stack-software-development-program",
+      // },
+    ],
+  },
+
+  {
+    id: "Software Development",
+    title: "Software Development",
+    courseName: [
+    
+    
+
+      {
+        CName: "Data Structure Algorithms & System Design",
+        hours: "10 Months",
+        url: "/fullstack/dsa-system-design",
+      },
+
       {
         CName: "Software Development Certification Program",
         hours: "11 Months",

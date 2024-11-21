@@ -60,11 +60,12 @@
   font-style: normal;
   font-weight: 400;
   line-height: 146.5%; /* 36.625px */
+  margin: 0;
 }
 
 .JobAbroadRight {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   /* align-items: center; */
   position: relative;
 }

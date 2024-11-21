@@ -2,7 +2,16 @@ import React, { useState } from "react";
 import styles from "./Certificate.module.css";
 import Image from "next/image";
 import { BsCheckCircle } from "react-icons/bs";
-function CertificateTab({ data, singlecertificate, doubleCertificate, projectWithCertificate, FreshersDoubleCertificate, OnlyDS }) {
+function CertificateTab({
+  data,
+  singlecertificate,
+  doubleCertificate,
+  projectWithCertificate,
+  FreshersDoubleCertificate,
+  OnlyDS,
+  noTabs,
+  cyber,
+}) {
   const [MActive, setMActive] = useState(false);
   const [IActive, setIActive] = useState(true);
   const [IBCActive, setIBCActive] = useState(false);
@@ -10,49 +19,22 @@ function CertificateTab({ data, singlecertificate, doubleCertificate, projectWit
   return (
     <section className={styles.CertificateTab}>
       <div className={styles.header}>
-        <div className={styles.pWrap}>
-          <p
-            onClick={() => {
-              setIActive(true);
-              setMActive(false);
-              setIBCActive(false);
-              setDegreeActive(false);
-            }}
-            className={IActive ? styles.activeP : styles.inactiveP}
-          >
-            IBM
-          </p>
-          {singlecertificate ? (
-            ""
-          ) : (
-            <>
-              {" "}
-              <p
-                onClick={() => {
-                  setIActive(false);
-                  setMActive(true);
-                  setIBCActive(false);
-                  setDegreeActive(false);
-                }}
-                className={MActive ? styles.activeP : styles.inactiveP}
-              >
-                Microsoft
-              </p>
-              <p
-                onClick={() => {
-                  setIActive(false);
-                  setMActive(false);
-                  setIBCActive(true);
-                  setDegreeActive(false);
-                }}
-                className={IBCActive ? styles.activeP : styles.inactiveP}
-              >
-                Project Certificate
-              </p>
-            </>
-          )}
-          {doubleCertificate ? (
-            <>
+        {cyber ? (
+          <div className={`${styles.pWrapN} ${styles.cyberwrap}`}>
+            <p
+              onClick={() => {
+                setIActive(true);
+                setMActive(false);
+                setIBCActive(false);
+                setDegreeActive(false);
+              }}
+              className={IActive ? styles.activeP : styles.inactiveP}
+            >
+              IIT Roorkee
+            </p>
+            
+            
+
             <p
               onClick={() => {
                 setIActive(false);
@@ -62,59 +44,133 @@ function CertificateTab({ data, singlecertificate, doubleCertificate, projectWit
               }}
               className={MActive ? styles.activeP : styles.inactiveP}
             >
-              Microsoft
+              MicroSoft Azure
             </p>
+          </div>
+        ) : (
+          <>
+            {" "}
+            {noTabs ? (
+              ""
+            ) : (
+              <div className={styles.pWrap}>
+                <p
+                  onClick={() => {
+                    setIActive(true);
+                    setMActive(false);
+                    setIBCActive(false);
+                    setDegreeActive(false);
+                  }}
+                  className={IActive ? styles.activeP : styles.inactiveP}
+                >
+                  IBM
+                </p>
+                {singlecertificate ? (
+                  ""
+                ) : (
+                  <>
+                    {" "}
+                    <p
+                      onClick={() => {
+                        setIActive(false);
+                        setMActive(true);
+                        setIBCActive(false);
+                        setDegreeActive(false);
+                      }}
+                      className={MActive ? styles.activeP : styles.inactiveP}
+                    >
+                      Microsoft
+                    </p>
+                    <p
+                      onClick={() => {
+                        setIActive(false);
+                        setMActive(false);
+                        setIBCActive(true);
+                        setDegreeActive(false);
+                      }}
+                      className={IBCActive ? styles.activeP : styles.inactiveP}
+                    >
+                      Project Certificate
+                    </p>
+                  </>
+                )}
+                {doubleCertificate ? (
+                  <>
+                    <p
+                      onClick={() => {
+                        setIActive(false);
+                        setMActive(true);
+                        setIBCActive(false);
+                        setDegreeActive(false);
+                      }}
+                      className={MActive ? styles.activeP : styles.inactiveP}
+                    >
+                      Microsoft
+                    </p>
+                  </>
+                ) : (
+                  ""
+                )}
+                {FreshersDoubleCertificate ? (
+                  <>
+                    <p
+                      onClick={() => {
+                        setIActive(false);
+                        setMActive(true);
+                        setIBCActive(false);
+                        setDegreeActive(false);
+                      }}
+                      className={MActive ? styles.activeP : styles.inactiveP}
+                    >
+                      Internship Certificate
+                    </p>
+                  </>
+                ) : (
+                  ""
+                )}
+                {projectWithCertificate ? (
+                  <>
+                    <p
+                      onClick={() => {
+                        setIActive(false);
+                        setMActive(false);
+                        setIBCActive(true);
+                        setDegreeActive(false);
+                      }}
+                      className={
+                        DegreeCActive ? styles.activeP : styles.inactiveP
+                      }
+                    >
+                      Project Certificate
+                    </p>
+                  </>
+                ) : (
+                  ""
+                )}
+                {OnlyDS ? (
+                  <>
+                    {" "}
+                    <p
+                      onClick={() => {
+                        setIActive(false);
+                        setMActive(false);
+                        setIBCActive(false);
+                        setDegreeActive(true);
+                      }}
+                      className={
+                        DegreeCActive ? styles.activeP : styles.inactiveP
+                      }
+                    >
+                      Degree Certificate
+                    </p>
+                  </>
+                ) : (
+                  ""
+                )}
+              </div>
+            )}
           </>
-          ) : (
-            ""
-          )}
-          {FreshersDoubleCertificate ? (
-            <>
-            <p
-              onClick={() => {
-                setIActive(false);
-                setMActive(true);
-                setIBCActive(false);
-                setDegreeActive(false);
-              }}
-              className={MActive ? styles.activeP : styles.inactiveP}
-            >
-              Internship Certificate
-            </p>
-          </>
-          ) : (
-            ""
-          )}
-          {projectWithCertificate ? (
-            <>
-            <p
-                onClick={() => {
-                  setIActive(false);
-                  setMActive(false);
-                  setIBCActive(true);
-                  setDegreeActive(false);
-                }}
-                className={DegreeCActive? styles.activeP : styles.inactiveP}
-              >
-                Project Certificate
-              </p>
-          </>
-          ) : (
-            ""
-          )}
-          {OnlyDS ? ( <>   <p
-                onClick={() => {
-                  setIActive(false);
-                  setMActive(false);
-                  setIBCActive(false);
-                  setDegreeActive(true);
-                }}
-                className={DegreeCActive ? styles.activeP : styles.inactiveP}
-              >
-                Degree Certificate
-              </p></>):("")}
-         
-        </div>
+        )}
       </div>
 
       {IActive ? (
@@ -141,16 +197,37 @@ function CertificateTab({ data, singlecertificate, doubleCertificate, projectWit
               loading="lazy"
               quality={40}
             />
-            <div className={`${styles.CertificateDiv} ${styles.ibmImg} imgWrapper`}>
-              <Image
-                src={data.degreeCertificate.img}
-                alt="Certificate"
-                loading="lazy"
-                quality={100}
-                width={1150}
-                height={800}
-            
-              />
+            <div
+              className={`${styles.CertificateDiv} ${styles.IItImag} imgWrapper`}
+            >
+           {cyber ? ( <Image
+                  src={data.degreeCertificate.img}
+                  alt="Certificate"
+                  loading="lazy"
+                  quality={100}
+                  width={200}
+                  height={800}
+                  className={styles.iitImage}
+                />):(<>   {noTabs ? (
+                <Image
+                  src={data.degreeCertificate.img}
+                  alt="Certificate"
+                  loading="lazy"
+                  quality={100}
+                  width={200}
+                  height={800}
+                  className={styles.iitImage}
+                />
+              ) : (
+                <Image
+                  src={data.degreeCertificate.img}
+                  alt="Certificate"
+                  loading="lazy"
+                  quality={100}
+                  width={1150}
+                  height={800}
+                />
+              )}</>)}
             </div>
           </div>
         </div>
@@ -237,7 +314,7 @@ function CertificateTab({ data, singlecertificate, doubleCertificate, projectWit
       ) : (
         ""
       )}
-       {DegreeCActive? (
+      {DegreeCActive ? (
         <div className={styles.MicroCert}>
           <div className={styles.rightSide}>
             <h6>{data.DSDegreeCertificate.title}</h6>

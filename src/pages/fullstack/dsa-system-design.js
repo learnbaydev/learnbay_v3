@@ -73,15 +73,24 @@ function Blockchain({ DataScienceCourseDataJson }) {
       </Head>
       <main>
         <DSAFirstPart
+        summaryData={
+          DataScienceCourseData.FSSPDataScienceCourseData[0].summarySection
+        }
           SecondSectionData={
             DataScienceCourseData.FSSPDataScienceCourseData[0].secondSection
           }
         />
 
         <DSASecondPart
+
+
           masterSyllabusMobile={
             DataScienceCourseData.FSSPDataScienceCourseData[0]
               .masterSyllabusMobile
+          }
+
+          certificateNew={
+            DataScienceCourseData.FSSPDataScienceCourseData[0].certificateNew
           }
           FAQNewData={DataScienceCourseData.FSSPDataScienceCourseData[0].faq}
         />

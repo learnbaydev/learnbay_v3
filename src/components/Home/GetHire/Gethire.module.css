@@ -103,6 +103,16 @@
   .GetHireMain  {
     padding: 0px 30px;
   }
+  
+
+
+}
+@media only screen and (max-width: 1181px) {
+.showDesktop img {
+  width: 100%;
+  height: auto;
+}
+  
 
 
 }

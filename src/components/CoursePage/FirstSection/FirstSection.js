@@ -27,15 +27,14 @@ function FirstSection({
   IBMGl,
   fresher,
   upSkillingHide,
-  dataScienceGeneric,
-  radio,
-  downloadBrochure,
-  fullStack,
+  highlightWord,
   DSWolf,
   backgorunimg,
   isSpecialPage,
   isGuwahati,
   backgroundImage,
+  IIT,
+  GEnAi,
 }) {
   const [popups, setPopups] = useState(false);
   const [video, setVideo] = useState(false);
@@ -82,6 +81,9 @@ function FirstSection({
         isGuwahati={isGuwahati}
         backgroundImage={backgroundImage}
         ibmOnly={ibmOnly}
+        highlightWord={highlightWord}
+        GEnAi={GEnAi}
+        IIT={IIT}
       />
     </>
   );

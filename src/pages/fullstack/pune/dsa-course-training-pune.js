@@ -73,7 +73,7 @@ export default function Home() {
     fetchPopup();
   }, []);
 
-  const pdfUrl = "/Brochure/Advanced-Data-Science.pdf";
+  const pdfUrl = "/Brochure/Data-Structure-System-Design.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -162,7 +162,7 @@ export default function Home() {
           ThirdTyped="Live Interactive Classes"
           cityParaCont=" Accelerate a rewarding tech career with new-age knowledge and coding expertise via our DSA course in Pune. Join us to effortlessly crack top product-based interviews and craft a lucrative career in DSA. Also, earn globally recognized IBM & Microsoft credentials to exhibit your potential in the present tech age. "
           titleCourse="Full-Stack Software Developer Course In Bangalore To Achieve Your Dream Job"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/head/W+Dev.png"
           firstHeading="Best Data Structures and Algorithms Training in Pune"
           firstToparaImg=""

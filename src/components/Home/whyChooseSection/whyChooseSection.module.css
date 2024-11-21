@@ -11,6 +11,7 @@
       /* Glowing orange circle */ transparent 30% /* Smoother transition */
     ),
     #212121;
+    margin-bottom: 100px;
 }
 
 .header p {
@@ -39,7 +40,11 @@ color: rgba(255, 241, 234, 1);
 
 .columnDiv {
   width: 760px;
-  margin:115px auto;
+  margin:80px auto;
+}
+
+.columnDivDSA{
+  width: 760px;
 }
 
 .divContainer {
@@ -64,13 +69,13 @@ color: rgba(255, 241, 234, 1);
   line-height: 1.2;
 }
 
-.divContainer p {
+/* .divContainer p {
   color: rgba(255, 255, 255, 0.7);
-  font-size: 1.5rem; /* Responsive font size */
+  font-size: 1.5rem; 
   font-style: normal;
   font-weight: 300;
   line-height: 1.875rem;
-}
+} */
 
 .highlight {
   opacity: 1; /* Highlight the div */
@@ -290,6 +295,47 @@ color: rgba(255, 241, 234, 1);
   margin-right: 20px;
 }
 
+.blueDiv{
+  border-radius: 55px;
+background: rgba(0, 114, 188, 0.12);
+display: flex;
+padding: 16px 20px;
+width: fit-content;
+gap: 20px;
+align-items: center;
+margin-top: 20px;
+}
+.blueDiv p {
+  margin: 0;
+  color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 126.5%; /* 31.625px */
+}
+.hr{
+  width: 1px;
+  height: 20px;
+
+  border: 1px solid #0072BC;;
+}
+.lastItemPoints{
+  display: flex;
+  gap: 10px;
+  padding: 20px 0;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.point{
+  display: flex ;
+      gap: 4px;
+      padding: 8px;
+      border-radius: 34px;
+      background: rgba(254, 122, 54, 0.15);
+      font-size: 12px;
+      color: #fff;
+
+}
 /* Media Queries for smaller screens */
 
 @media screen and (max-width: 641px) {
@@ -307,6 +353,15 @@ color: rgba(255, 241, 234, 1);
       #212121;
     margin-bottom: 60px;
   }
+
+  .point{
+
+       font-size: 8px;
+align-items: center;
+  
+  }
+
+
 
   .header p {
     font-size: 1rem; /* Adjusted for smaller screens */
@@ -349,7 +404,7 @@ color: rgba(255, 241, 234, 1);
   .downBoxDesign1{
     width: 100%;
     height: fit-content;
-
+justify-content: center;
     padding: 4px;
   }
   .downBoxDesign2{
@@ -361,7 +416,7 @@ color: rgba(255, 241, 234, 1);
 
   }
   .downBoxDesign2 p {
-    font-size: 12px;
+    font-size: 8px;
   }
   .downBoxDesign1 img {
 
@@ -387,5 +442,8 @@ gap: 4px;
   }
   .imageSection {
     width: auto;
+  }
+  .blueDiv{
+    padding: 10px;
   }
 }

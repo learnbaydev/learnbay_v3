@@ -73,7 +73,7 @@ export default function Home() {
     fetchPopup();
   }, []);
 
-  const pdfUrl = "/Brochure/Advanced-Data-Science.pdf";
+  const pdfUrl = "/Brochure/Data-Structure-System-Design.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -158,7 +158,7 @@ export default function Home() {
           ThirdTyped="Live Interactive Classes"
           cityParaCont=" Level up your coding expertise via a DSA course in Bangalore and leap forward to craft a compelling tech career with leading MNCs/MAANG. Enroll in our job-enriched course to build data management, algorithmic optimization, and critical thinking skills."
           titleCourse="Best Data Structures and Algorithms Training in Bangalore"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/head/W+Dev.png"
           firstHeading="Best Data Structures and Algorithms Training in Bangalore "
           firstToparaImg=""

@@ -9,6 +9,8 @@ const Certificate = ({
   projectWithCertificate,
   FreshersDoubleCertificate,
   OnlyDS,
+  noTabs,
+  cyber,
 }) => {
   return NoCertificate ? (
     ""
@@ -25,6 +27,8 @@ const Certificate = ({
         microCertificate={data.microCertificate}
         data={data}
         OnlyDS={OnlyDS}
+        noTabs={noTabs}
+        cyber={cyber}
         
       />
     </div>

@@ -67,7 +67,7 @@ function Animation() {
               <div className={styles.downArrow}></div>
               <div>
                 <h4>{item.title}</h4>
-                <p>{item.description}</p>
+                <p className={styles.pTag}>{item.description}</p>
               </div>
             </div>
           ))}
