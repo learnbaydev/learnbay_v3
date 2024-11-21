@@ -189,6 +189,10 @@
   .CertificateDiv {
     padding-left:0px;
   }
+  .CertificateDiv img {
+    width: auto;
+    height: 250px;
+  }
   .IItImag img {
     height: 270px;
   }
