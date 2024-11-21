@@ -104,9 +104,9 @@ const GenAiMLeadersFirstPart = ({ summaryData, whyChooseData }) => {
 
 
       <WhoIsProgram
-        first="Non-tech professionals with 6 months experience"
-        second="Minimum 1 year of IT work experience"
-        third="Mid-career professionals interested in data science & AI"
+        first="For Project Managers, Technical Leaders, and Team Leads in tech."
+        second="Minimum 4 year of  work experience is required"
+        third="Mid-career professionals interested in data science & AII"
         forth="Achieving higher career growth in data science and AI "
       />
     

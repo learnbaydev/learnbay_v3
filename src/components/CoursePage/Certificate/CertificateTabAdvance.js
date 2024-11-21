@@ -44,7 +44,7 @@ function CertificateTab({
               }}
               className={MActive ? styles.activeP : styles.inactiveP}
             >
-              MicroSoft Azure
+  Certified Ethical Hacker
             </p>
           </div>
         ) : (

@@ -16,9 +16,7 @@ const GetHire = dynamic(() => import("../../Home/GetHire/GetHire"));
 const ContactConsellor = dynamic(() =>
   import("../ContactCounsellor/ContactCounsellor")
 );
-const MasterSecondSection = dynamic(() =>
-  import("../../MastersCourse/MasterSecondSection/MasterSecondSection")
-);
+
 const JobAbroad = dynamic(() =>
   import("../../MastersCourse/JobAbroad/JobAbroad")
 );
@@ -30,7 +28,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData, summaryData 
     points: [
       {
         imgSrc:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/adobe_illustrator+(1).webp",
         imgAlt: "",
         title: "Transform with Coding Expertise",
         description:
@@ -38,15 +36,15 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData, summaryData 
       },
       {
         imgSrc:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/generated_photos+(1).webp",
         imgAlt: "",
-        title: "Learn and Practice with Real-time coding projects in an industry-leading setup",
+        title: "Elevate Your Coding Skills with Real-World Projects",
         description:
           "Exhibit real-time coding mastery to tackle algorithmic ordeals.",
       },
       {
         imgSrc:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/smart_upscaler+(1).webp",
         imgAlt: "",
         title: "From Novice to Specialist",
         description:
@@ -54,9 +52,9 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData, summaryData 
       },
     ],
     bannerImage: {
-      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job1.webp",
-      width: 500,
-      height: 400,
+      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/dsa-job-lefts.webp",
+      width: 360,
+      height: 350,
       priority: true,
       quality: 80,
       alt: "Banner Image 1 Alt",
@@ -74,12 +72,12 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData, summaryData 
         ThirdTyped="Live Interactive Classes"
         dataScience={true}
         titleCourse="Data Structure Algorithms & System Design"
-        cityParaCont="Master coding & land promising DSA roles with leading product-based companies"
+        cityParaCont="with Gen-AI for Software Developers"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf"
         brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/fullhead.webp"
-        firstToparaImg="System Design"
-        firstHeading="Data Structure Algorithms &"
+        firstToparaImg="Algorithms & System Design"
+        firstHeading="Data Structure"
         firstTopPara="Ace PRODUCT-BASED interviews in Top MNCs"
         idss="0cspp1jXAbM"
         interstedInHide={true}
@@ -87,6 +85,8 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData, summaryData 
         videoId="0cspp1jXAbM"
             backgorunimg={true}
       backgroundImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/dsa_backgrounds.webp"
+      microsoftOnly={true}
+      DSA={true}
       />
 
       {/* <MasterSecondSection data={seconddata} /> */}
@@ -96,7 +96,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData, summaryData 
         dataScienceCounselling={true}
         interstedInHide={true}
       />
-      <TrainerSection idss="eautK0odE7Q" />
+      <TrainerSection idss="eautK0odE7Q" DSA={true} />
       <FullStackSecondSection />
 
       <WhoIsProgram
@@ -108,6 +108,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData, summaryData 
       <AnimationDSA/>
       <GetHire />
       <ContactConsellor
+      GenAi={true}
         titleCourse="Data Structure Algorithms & System Design"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf"
         brochurePdf={pdfUrl}
