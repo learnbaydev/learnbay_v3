@@ -599,12 +599,12 @@ export const IITCyberSecurityData = [
       },
       microCertificate: {
         id: 2,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
-        title: "Certification in Collaboration with Microsoft",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ceh-cers.webp",
+        title: "EC Council Certified ethical hacker Certificate",
         para: [
-          "Industry-certified Microsoft certificates",
-          "Gain expertise & get recognized worldwide",
-          "Boost job opportunities and earnings with Microsoft’s certification",
+          "Gain an EC-Council certificate that is recognized globally.",
+          "Achieve the top credential in the field of cybersecurity.",
+          "Build a strong foundation to accelerate your career in cybersecurity.",
         ],
       },
       projectCertificate: {

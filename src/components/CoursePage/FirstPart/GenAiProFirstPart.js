@@ -104,10 +104,10 @@ const GenAiProFirstPart = ({ summaryData, whyChooseData }) => {
    
 
       <WhoIsProgram
-        first="Non-tech professionals with 6 months experience"
-        second="Minimum 1 year of IT work experience"
-        third="Mid-career professionals interested in data science & AI"
-        forth="Achieving higher career growth in data science and AI "
+        first="Graduation/Masters Degree in CS/IT and MCA."
+        second="Minimum 2 year of  work experience is required"
+        third="Mid-career professionals interested in Advance GenAI"
+        forth="Achieving higher career growth in  AI."
       />
     
       <GetHire />

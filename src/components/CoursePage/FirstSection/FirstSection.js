@@ -35,6 +35,8 @@ function FirstSection({
   backgroundImage,
   IIT,
   GEnAi,
+  microsoftOnly,
+  DSA,
 }) {
   const [popups, setPopups] = useState(false);
   const [video, setVideo] = useState(false);
@@ -84,6 +86,8 @@ function FirstSection({
         highlightWord={highlightWord}
         GEnAi={GEnAi}
         IIT={IIT}
+        microsoftOnly={microsoftOnly}
+        DSA={DSA}
       />
     </>
   );

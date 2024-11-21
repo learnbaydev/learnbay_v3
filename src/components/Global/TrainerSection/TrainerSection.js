@@ -3,7 +3,7 @@ import Styles from "./TrainerSection.module.css";
 import Image from "next/image";
 import VideoPopup from "../VideoPopup/VideoPopup";
 
-function TrainerSection({ idss, adsHide }) {
+function TrainerSection({ idss, adsHide, DSA }) {
   // const [vId, setVId] = useState("");
 
   const [popups, setPopups] = useState(false);
@@ -33,7 +33,7 @@ function TrainerSection({ idss, adsHide }) {
         <p className={Styles.newPara}>Discover what our learners say about us</p>
           <div className={Styles.reviewMain}>
             {images.map((image, index) => (
-              <div key={index}>
+              <div key={index} className={Styles.leftimg}>
                 <Image
                   src={image}
                   width={280}
@@ -57,7 +57,7 @@ function TrainerSection({ idss, adsHide }) {
                 />
               </div>
             <h2>Hear it from Alumni</h2>
-            {adsHide ? (
+          {DSA ? (""):(<>  {adsHide ? (
               <div className="imgWrapper">
                 <Image
                   src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/alumini-mbl.webp"
@@ -79,10 +79,22 @@ function TrainerSection({ idss, adsHide }) {
                   className={Styles.spaceImg}
                 />
               </div>
-            )}
+            )}</>)}
           </div>
 
-          <div className={Styles.proImgWrap}>
+        {DSA ? ( <div className="imgWrapper">
+               <div className={Styles.imgDiv}>
+               <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/demo-tests.webp"
+                  loading="lazy"
+                  quality={100}
+                  width={200}
+                  height={100}
+                  onClick={() => videoSHow(popupShow)}
+                  alt="profile-Img"
+                />
+               </div>
+              </div>):(  <div className={Styles.proImgWrap}>
             <h2>Alumni Spotlight</h2>
             {adsHide ? (
               <div className="imgWrapper">
@@ -108,7 +120,7 @@ function TrainerSection({ idss, adsHide }) {
                 />
               </div>
             )}
-          </div>
+          </div>)}
         </div>
       </section>
     </>

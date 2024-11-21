@@ -1,3 +1,4 @@
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
@@ -16,7 +17,6 @@ const FirstContent = ({
   ibmOnly,
   cityParaCont,
   setPopups,
-  S3RightImage,
   setVideo,
   DSWolf,
   IBMGl,
@@ -25,8 +25,7 @@ const FirstContent = ({
   interstedInHide,
   upSkillingHide,
   dataScienceGeneric,
-  brochureLink,
-  brochurePdf,
+  DSA,
   dataScienceCounselling,
   downloadBrochure,
   fullStack,
@@ -38,6 +37,7 @@ const FirstContent = ({
   isSpecialPage,
   isGuwahati,
   backgroundImage,
+  microsoftOnly,
 }) => {
   const texts = [
     "Guaranteed Interview Calls",
@@ -52,12 +52,7 @@ const FirstContent = ({
     "6 Months Internship Certificate",
     "Final Year Project Assistance",
   ];
-  const GENAI = [
-    "Guaranteed Interview Calls",
-    "1:1 Doubt Session",
-    "6 Months Internship Certificate",
-    "Final Year Project Assistance",
-  ];
+
   const [mobile, setMobile] = useState(false);
   const [showThumbnail, setShowThumbnail] = useState(true);
   const [lastScrollTop, setLastScrollTop] = useState(0);
@@ -127,76 +122,112 @@ const FirstContent = ({
       >
         <div className={styles.FirstLeft}>
           {topHide ? "" : <p className={styles.ptopC}>{firstTopPara}</p>}
-          <h1
-            className={`${styles.h1} ${
-              isSpecialPage ? styles.specialPageH1 : ""
-            }`}
-          >
-            {firstHeading}{" "}
-            <span className={styles.h1Span}>{firstToparaImg}</span>
-          </h1>
-          <p className={styles.ptopCiity}>{cityParaCont}</p>
+          {DSA ? (
+            <h1 className={`${styles.h1} ${styles.DsaH1}`}>
+              {firstHeading}{" "}
+              <span className={styles.DsaSpan}>{firstToparaImg}</span>
+            </h1>
+          ) : (
+            <h1
+              className={`${styles.h1} ${
+                isSpecialPage ? styles.specialPageH1 : ""
+              }`}
+            >
+              {firstHeading}{" "}
+              <span className={styles.h1Span}>{firstToparaImg}</span>
+            </h1>
+          )}
+          {DSA ? (
+            <p className={`${styles.ptopCiity} ${styles.ptopGen}`}>
+              {cityParaCont.split("Gen-AI").map((part, index, arr) => (
+                <React.Fragment key={index}>
+                  {part}
+                  {index < arr.length - 1 && (
+                    <span className={styles.GENAI}>Gen-AI</span>
+                  )}
+                </React.Fragment>
+              ))}
+            </p>
+          ) : (
+            <p className={styles.ptopCiity}>{cityParaCont}</p>
+          )}
           {mobile ? (
             ""
           ) : (
             <>
-              <div className={ibmOnly ? styles.DAibm : styles.Desktop}>
-                {IIT ? (
-                  <>
-                    {" "}
-                    <p className={styles.ptop}>In Collaboration With</p>{" "}
-                    <Image
-                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp"
-                      width={180}
-                      height={50}
-                      priority
-                      alt="data science course"
-                    />
-                  </>
-                ) : (
-                  <>
-                    {" "}
-                    {DSWolf ? (
-                      <>
-                        <p className={styles.ptop}>Degree & Certification(s)</p>
-                        <div className={styles.ImageBlock}>
-                          <Image
-                            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/DS-only.webp"
-                            width="430"
-                            height="44"
-                            priority
-                            alt="data science course"
-                          />
-                        </div>
-                      </>
-                    ) : (
-                      <>
-                        {" "}
-                        <p className={styles.ptop}>In Collaboration With</p>
-                        <div className={styles.ImageBlock}>
-                          {ibmOnly ? (
+              {microsoftOnly ? (
+                                <div className={styles.microsoftDiv}>
+                         <p className={styles.ptop}>In Collaboration With</p>{" "}
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micrososfttss.webp"
+                  width={190}
+                  height={40}
+                  priority
+                  alt="data science course"
+            
+                />
+                </div>
+              ) : (
+                <div className={ibmOnly ? styles.DAibm : styles.Desktop}>
+                  {IIT ? (
+                    <>
+                      {" "}
+                      <p className={styles.ptop}>In Collaboration With</p>{" "}
+                      <Image
+                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp"
+                        width={180}
+                        height={50}
+                        priority
+                        alt="data science course"
+                      />
+                    </>
+                  ) : (
+                    <>
+                      {" "}
+                      {DSWolf ? (
+                        <>
+                          <p className={styles.ptop}>
+                            Degree & Certification(s)
+                          </p>
+                          <div className={styles.ImageBlock}>
                             <Image
-                              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ibmnew.webp"
-                              width="70"
-                              height="30"
+                              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/DS-only.webp"
+                              width="430"
+                              height="44"
                               priority
                               alt="data science course"
                             />
-                          ) : (
-                            <Image
-                              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp"
-                              width="266"
-                              height="48"
-                              priority
-                              alt="data science course"
-                            />
-                          )}
-                        </div>
-                      </>
-                    )}
-                  </>
-                )}
-              </div>
+                          </div>
+                        </>
+                      ) : (
+                        <>
+                          {" "}
+                          <p className={styles.ptop}>In Collaboration With</p>
+                          <div className={styles.ImageBlock}>
+                            {ibmOnly ? (
+                              <Image
+                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ibmnew.webp"
+                                width="70"
+                                height="30"
+                                priority
+                                alt="data science course"
+                              />
+                            ) : (
+                              <Image
+                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp"
+                                width="266"
+                                height="48"
+                                priority
+                                alt="data science course"
+                              />
+                            )}
+                          </div>
+                        </>
+                      )}
+                    </>
+                  )}
+                </div>
+              )}
 
               {isGuwahati ? (
                 <>
@@ -218,44 +249,44 @@ const FirstContent = ({
               ) : (
                 <>
                   {" "}
-                  {fresher ? (
+                 {DSA ? (""):(<> {fresher ? (
                     <div className={styles.animationTextWrap}>
                       <span className={styles.animationText}>
-                      <div className={styles.gur}>
-                      <svg
-                          height="30"
-                          width="30"
-                          fill="none"
-                          viewBox="0 0 39 37"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <rect
-                            height="37"
-                            width="39"
-                            fill="url(#pattern0_17_489)"
-                          />
-                          <defs>
-                            <pattern
-                              height="1"
-                              id="pattern0_17_489"
-                              width="1"
-                              patternContentUnits="objectBoundingBox"
-                            >
-                              <use
-                                transform="matrix(0.00988248 0 0 0.0104167 0.025641 0)"
-                                xlinkHref="#image0_17_489"
-                              />
-                            </pattern>
-                            <image
-                              height="96"
-                              id="image0_17_489"
-                              width="96"
-                              xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAEMUlEQVR4nO2dO4hWRxSAZ4nZaFZ8oEYDpkqRysKQ2l1sVEQCgo/GJBaBBIKwSiJpImihhaK2NlqIiK81WFisaBJIDAhCIKgJgSz4QBaMj9VY+PjCYadYdO+fe/87r505X7975pzv/++dO3fm/MYoiqIoiqIoiqIoiqIoSkOAOcBnwBBwA3hMPjy2OZ0BPpVck/mAANOBb4D7lMM/wNfAW7GL/y7wK+VyGVgUs/gjsSuQACPBJchXr/BP/qv8EvRyBGx/bQjKtpCznU433FNAP9BnMgHosznJLKiKe8DsEIORqWYVgyZzgG0d8v8kxABknj8Zp00hELMGwB8VwZeZQmD8cjQZN0IEH6sIPtMUAjCzogZjIYJPiikMYtXBd2DGZ1kbgaPATeClveztBd4xiZCdAGCZvbk9q4oB3AaWmATIRgAwDdhDfeTbMN1tVoUKAHqA72nOFveZlSlgK93xt3xz3GdXkAC7oDdK92zwk2E5AtbTjit+MixHwEHaM+AnyzIE/OBAwDE/WZYh4KYDAaN+sixDwAMHAp76ybIMAc8cCPjTT5ZlCBhzIGCHnyzLEDDSsvi/AW/7ybIMAVdaFP8asNhPhuUIONJl8UXcAj/ZlSVgsIviXwRmmQTIQUB/w+IPRd+LmZmA3gYzoTsxb7hZCrD/62xNASdMYuQi4POaAs6bxMhFwFxZTqghYDT2C5gsBQjAceqx0iRETgJW1BSQ1NbHnAT0AL/XECD7g5aaRMhGgABsph7nTCLkJqC3wQua5SYBshIgAF/VFPBXCg9lOQp4U16w1JSw3002rcablwABWFdTwAtgrYlIrgJ67NnbOjztdCgEeA/4EjgMDAOHgDUuxpmtAAH4EHheU8ITW+ReK+8jYCdwtcPfDLs4TJKtAEGu8TTj34bvmC8Ab5gW5C6gz27A9cmO1OsQNTCw0j79+uJ5m4OFoeoQNTBwAL/Iw9+81OsQLTDjrXBk+4lPhlKvQ9TAwAcBehGtT70OUQMzvmTtYitjFT9OhTpEDQxs8VZ+eDRV6hD1oDbwnScBD7sYS3kCBGCXBwHDpiHFChBswzxZkHPFatOQogUIwMeOtrjvM11QvAABeB/4qUXx5YR+j+kCFWCRRTXbt/Rhg8LLEse3pgUq4BVkSQHYXUPEXWCVaYkKqACYYQ+Bn7TthmWp+hZwCfjCVWM9FRCZmAK0ZRnMcvVA57JpX78pBGAgZtO+qualZ0whUH2u4VSI4NI/P2773ojYp/AqNoUYwBzbP7/TWa6BDFsXD/zPiZ4wrYtrfApKZTBI8Sd0u6q7gaoEfpa9ScEEWAmLAmwdmQpIDRYGLf4ECfMdNV6ayj/cEOcnTCZI6LUt3eUmVAr3bMfHsJedTsgMQPrny1ku4LqjtfpUGLMNQiS3TcFmO4qiKIqiKIqiKIqiKIrJif8AdURhYYnBLUUAAAAASUVORK5CYII="
+                        <div className={styles.gur}>
+                          <svg
+                            height="30"
+                            width="30"
+                            fill="none"
+                            viewBox="0 0 39 37"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <rect
+                              height="37"
+                              width="39"
+                              fill="url(#pattern0_17_489)"
                             />
-                          </defs>
-                        </svg>
-                        Guaranteed Interview Calls
-                      </div>
+                            <defs>
+                              <pattern
+                                height="1"
+                                id="pattern0_17_489"
+                                width="1"
+                                patternContentUnits="objectBoundingBox"
+                              >
+                                <use
+                                  transform="matrix(0.00988248 0 0 0.0104167 0.025641 0)"
+                                  xlinkHref="#image0_17_489"
+                                />
+                              </pattern>
+                              <image
+                                height="96"
+                                id="image0_17_489"
+                                width="96"
+                                xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAEMUlEQVR4nO2dO4hWRxSAZ4nZaFZ8oEYDpkqRysKQ2l1sVEQCgo/GJBaBBIKwSiJpImihhaK2NlqIiK81WFisaBJIDAhCIKgJgSz4QBaMj9VY+PjCYadYdO+fe/87r505X7975pzv/++dO3fm/MYoiqIoiqIoiqIoiqIoSkOAOcBnwBBwA3hMPjy2OZ0BPpVck/mAANOBb4D7lMM/wNfAW7GL/y7wK+VyGVgUs/gjsSuQACPBJchXr/BP/qv8EvRyBGx/bQjKtpCznU433FNAP9BnMgHosznJLKiKe8DsEIORqWYVgyZzgG0d8v8kxABknj8Zp00hELMGwB8VwZeZQmD8cjQZN0IEH6sIPtMUAjCzogZjIYJPiikMYtXBd2DGZ1kbgaPATeClveztBd4xiZCdAGCZvbk9q4oB3AaWmATIRgAwDdhDfeTbMN1tVoUKAHqA72nOFveZlSlgK93xt3xz3GdXkAC7oDdK92zwk2E5AtbTjit+MixHwEHaM+AnyzIE/OBAwDE/WZYh4KYDAaN+sixDwAMHAp76ybIMAc8cCPjTT5ZlCBhzIGCHnyzLEDDSsvi/AW/7ybIMAVdaFP8asNhPhuUIONJl8UXcAj/ZlSVgsIviXwRmmQTIQUB/w+IPRd+LmZmA3gYzoTsxb7hZCrD/62xNASdMYuQi4POaAs6bxMhFwFxZTqghYDT2C5gsBQjAceqx0iRETgJW1BSQ1NbHnAT0AL/XECD7g5aaRMhGgABsph7nTCLkJqC3wQua5SYBshIgAF/VFPBXCg9lOQp4U16w1JSw3002rcablwABWFdTwAtgrYlIrgJ67NnbOjztdCgEeA/4EjgMDAOHgDUuxpmtAAH4EHheU8ITW+ReK+8jYCdwtcPfDLs4TJKtAEGu8TTj34bvmC8Ab5gW5C6gz27A9cmO1OsQNTCw0j79+uJ5m4OFoeoQNTBwAL/Iw9+81OsQLTDjrXBk+4lPhlKvQ9TAwAcBehGtT70OUQMzvmTtYitjFT9OhTpEDQxs8VZ+eDRV6hD1oDbwnScBD7sYS3kCBGCXBwHDpiHFChBswzxZkHPFatOQogUIwMeOtrjvM11QvAABeB/4qUXx5YR+j+kCFWCRRTXbt/Rhg8LLEse3pgUq4BVkSQHYXUPEXWCVaYkKqACYYQ+Bn7TthmWp+hZwCfjCVWM9FRCZmAK0ZRnMcvVA57JpX78pBGAgZtO+qualZ0whUH2u4VSI4NI/P2773ojYp/AqNoUYwBzbP7/TWa6BDFsXD/zPiZ4wrYtrfApKZTBI8Sd0u6q7gaoEfpa9ScEEWAmLAmwdmQpIDRYGLf4ECfMdNV6ayj/cEOcnTCZI6LUt3eUmVAr3bMfHsJedTsgMQPrny1ku4LqjtfpUGLMNQiS3TcFmO4qiKIqiKIqiKIqiKIrJif8AdURhYYnBLUUAAAAASUVORK5CYII="
+                              />
+                            </defs>
+                          </svg>
+                          Guaranteed Interview Calls
+                        </div>
                       </span>
                     </div>
                   ) : (
@@ -288,7 +319,7 @@ const FirstContent = ({
                         </div>
                       )}
                     </>
-                  )}
+                  )}</>)}
                 </>
               )}
 
@@ -372,61 +403,81 @@ const FirstContent = ({
         {mobile ? (
           <>
             <div className={styles.Mobile}>
-              {IIT ? (
+              {microsoftOnly ? (
                 <>
                   <p className={styles.ptoptwo}>In Collaboration With</p>{" "}
                   <div className={styles.ImageBlock}>
                     <Image
-                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp"
-                      width="340"
-                      height="44"
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micrososfttss.webp"
+                      width={160}
+                      height={30}
                       priority
                       alt="data science course"
-                      className={styles.imgGuwahati}
                     />
                   </div>
                 </>
               ) : (
                 <>
                   {" "}
-                  {DSWolf ? (
+                  {IIT ? (
                     <>
-                      <p className={styles.ptop}>Degree & Certification(s)</p>
+                      <p className={styles.ptoptwo}>In Collaboration With</p>{" "}
                       <div className={styles.ImageBlock}>
                         <Image
-                          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/DS-only.webp"
+                          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp"
                           width="340"
                           height="44"
                           priority
                           alt="data science course"
+                          className={styles.imgGuwahati}
                         />
                       </div>
                     </>
                   ) : (
                     <>
                       {" "}
-                      <p className={styles.ptop}>In Collaboration With</p>
+                      {DSWolf ? (
+                        <>
+                          <p className={styles.ptop}>
+                            Degree & Certification(s)
+                          </p>
+                          <div className={styles.ImageBlock}>
+                            <Image
+                              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/DS-only.webp"
+                              width="340"
+                              height="44"
+                              priority
+                              alt="data science course"
+                            />
+                          </div>
+                        </>
+                      ) : (
+                        <>
+                          {" "}
+                          <p className={styles.ptop}>In Collaboration With</p>
+                        </>
+                      )}
+                      <div className={styles.ImageBlock}>
+                        {ibmOnly ? (
+                          <Image
+                            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ibmnew.webp"
+                            width="70"
+                            height="30"
+                            priority
+                            alt="data science course"
+                          />
+                        ) : (
+                          <Image
+                            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp"
+                            width="250"
+                            height="40"
+                            priority
+                            alt="data science course"
+                          />
+                        )}
+                      </div>
                     </>
                   )}
-                  <div className={styles.ImageBlock}>
-                    {ibmOnly ? (
-                      <Image
-                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ibmnew.webp"
-                        width="70"
-                        height="30"
-                        priority
-                        alt="data science course"
-                      />
-                    ) : (
-                      <Image
-                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp"
-                        width="250"
-                        height="40"
-                        priority
-                        alt="data science course"
-                      />
-                    )}
-                  </div>
                 </>
               )}
               {isGuwahati ? (

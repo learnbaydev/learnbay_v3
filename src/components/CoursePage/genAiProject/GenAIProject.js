@@ -13,7 +13,7 @@ const GenAIProject = ({ genAiData }) => {
     <div className={styles.main}>
       <div className={styles.Header}>
         <h2>Industry Projects</h2>
-        <p>Work on live capstone projects certified from IBM</p>
+        <p>Work on live capstone projects</p>
       </div>
 
       <div className={styles.swiperDiv}>

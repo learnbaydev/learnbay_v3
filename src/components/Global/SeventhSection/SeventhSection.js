@@ -21,16 +21,18 @@ function SeventhSection({ fullStackCont }) {
         <div className="bgWrap">
           {mobile ? (
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learner's+support.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/seven-girl-mbls.webp"
               fill={true}
               className={styles.deskImage}
               alt="Learners support"
+              loading="lazy"
             />
           ) : (
             <Image
               src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/new-bg-sevventt.webp"
               fill={true}
               alt="Learners support"
+              loading="lazy"
             />
           )}
         </div>
@@ -85,11 +87,12 @@ function SeventhSection({ fullStackCont }) {
         <div className={styles.rightPart}>
           <div className="imgWrapper">
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/girl-seventh.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/seven-new-girls.webp"
               width={600}
               height={600}
               alt="data science course"
               style={{ borderRadius: "5px" }}
+              loading="lazy"
             />
           </div>
         </div>

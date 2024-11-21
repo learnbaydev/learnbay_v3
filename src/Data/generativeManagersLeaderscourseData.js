@@ -124,7 +124,7 @@ export const GENAIManagersLeadersCourseData = [
           id: 1,
           title: "Program Eligibility",
           description:
-            "Tech professionals having 2+ years of work experience.",
+            "Working professionals having minimum 4 years of exp.",
           imageSrc:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_Icon+(1).webp",
           imageAlt: "DomainElectives",
@@ -150,7 +150,7 @@ export const GENAIManagersLeadersCourseData = [
         },
         {
           id: 4,
-          title: "Certification ",
+          title: "Certification from IIT ",
           description:
             "Get certified from  ",
           imageSrc:

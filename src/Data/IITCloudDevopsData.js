@@ -903,26 +903,26 @@ export const IITCloudDevopsData = [
               },
             },
 
-            {
-              chap: {
-                title: "Module 3:- Expert Sessions and Certification",
-                desc: [
-                  "Interactive Workshops with IIT Guwahati Faculty",
-                  " Panel Discussions with Industry Experts",
-                  "Masterclass Certification from E & ICT Academy, IIT Guwahati",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 4:- Certification Pathways and Exam Prep",
-                desc: [
-                  "AWS Solutions Architect, SysOps, and DevOps Prep",
-                  "Azure Solutions Architect, DevOps Engineer Exam",
-                  "GCP Architect Certification and Practice Exams",
-                ],
-              },
-            },
+            // {
+            //   chap: {
+            //     title: "Module 3:- Expert Sessions and Certification",
+            //     desc: [
+            //       "Interactive Workshops with IIT Guwahati Faculty",
+            //       " Panel Discussions with Industry Experts",
+            //       "Masterclass Certification from E & ICT Academy, IIT Guwahati",
+            //     ],
+            //   },
+            // },
+            // {
+            //   chap: {
+            //     title: "Module 4:- Certification Pathways and Exam Prep",
+            //     desc: [
+            //       "AWS Solutions Architect, SysOps, and DevOps Prep",
+            //       "Azure Solutions Architect, DevOps Engineer Exam",
+            //       "GCP Architect Certification and Practice Exams",
+            //     ],
+            //   },
+            // },
           ],
           id: 11,
           open: false,
