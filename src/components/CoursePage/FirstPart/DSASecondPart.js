@@ -78,8 +78,8 @@ const FullStackSoftwareDevelopmentSecondPart = ({
       <NewCertificateSection certificateNew={certificateNew} />
 
       <DSAFeeSection
-        Fee="₹ 70,000"
-        FeeEmi="₹ 4,588/month"
+        Fee="₹ 75,000"
+        FeeEmi="₹ ₹4,916/month"
         weekendbatch="Weekday Evening (DSA BATCHES)"
         weekdaybatch="Weekday Evening (DSA BATCHES)"
         weekday="MON-WED-FRI"
@@ -93,12 +93,12 @@ const FullStackSoftwareDevelopmentSecondPart = ({
          // <EMI POPUP
          emiType="NO COST EMI"
          duration1="18 Months"
-         totalAmount1="₹70,000"
-         monthlyPayment1="₹4,588"
+         totalAmount1="₹75,000"
+         monthlyPayment1="₹₹4,916"
          greenDown1="Standard Intrest rate Applicable"
          duration2="12 Months"
-         totalAmount2="₹70,000"
-         monthlyPayment2="₹6,883"
+         totalAmount2="₹75,000"
+         monthlyPayment2="₹7,375"
       />
       {/* <FeeSection
         Fee="₹ 70,000"
