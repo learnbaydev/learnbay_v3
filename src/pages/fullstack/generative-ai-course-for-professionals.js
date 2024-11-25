@@ -52,16 +52,16 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>Advance GenAI Developer Program For Professionals-Learnbay</title>
+        <title>Advance Gen AI Developer Course for Professionals | Learnbay </title>
         <meta
           name="description"
-          content="Enroll in the best data structures and algorithms course at Learnbay. Get familiar with basic & advanced concepts in DSA and system design."
+          content="Join Learnbay's Advance Gen AI Developer course. Develop cutting-edge AI solutions and take your career to the next level with hands-on learning."
         />
       
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="data structures and algorithms course, best data structures and algorithms course, dsa course, best course for data structures and algorithms, dsa course online, data structures and algorithms in python, learn data structures and algorithms, data structures and algorithms online course, data structures online course, best dsa course online"
+          content="generative ai for managers, gen ai for managers, generative ai course for managers, gen ai course for managers"
         />
         
         <link
@@ -71,6 +71,45 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <link
           rel="canonical"
           href="https://www.learnbay.co/fullstack/generative-ai-course-for-professionals"
+        />
+           <meta
+          property="og:url"
+          content="https://www.learnbay.co/fullstack/generative-ai-course-for-professionals"
+        />
+        <meta
+          property="og:title"
+          content="Advance Gen AI Developer Course for Professionals | Learnbay "
+        />
+        <meta property="og:site_name" content="learnbay.co" />
+        <meta property="og:type" content="article" />
+        <meta
+          property="og:description"
+          content="Join our online cloud computing course training in Bangalore to gain in-demand skills and accelerate your tech career. Start Learning Today."
+        />
+        <meta
+          property="og:image"
+          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+        />
+        <meta property="og:image:height" content="100" />
+        <meta property="og:image:width" content="256" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@Learnbay" />
+        <meta
+          name="twitter:title"
+          content="Advance Gen AI Developer Course for Professionals | Learnbay"
+        />
+        <meta name="twitter:creator" content="@Learnbay" />
+        <meta
+          itemProp="description"
+          content="Join Learnbay's Advance Gen AI Developer course. Develop cutting-edge AI solutions and take your career to the next level with hands-on learning."
+        />
+        <meta
+          name="twitter:description"
+          content="Join Learnbay's Advance Gen AI Developer course. Develop cutting-edge AI solutions and take your career to the next level with hands-on learning."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
         />
 
 {/* <script

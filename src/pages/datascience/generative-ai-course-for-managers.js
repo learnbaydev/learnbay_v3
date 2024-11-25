@@ -5,21 +5,18 @@ import { parseJSONData } from "@/Util/JsonConvertor";
 import GenAiMLeadersFirstPart from "@/components/CoursePage/FirstPart/GenAiMLeadersFirstPart";
 import GenAiMLeadersSecondPart from "@/components/CoursePage/FirstPart/GenAiMLeadersSecondPart";
 
-
-const OfferPopup = dynamic(() =>
-  import("../../components/Global/OfferPopup/OfferPopup")
-);
-
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
 
   return (
     <>
       <Head>
-        <title>Advance GenAI Program For Managers & Tech Leaders</title>
+        <title>
+          Advance Gen AI Course For Managers & Tech Leaders - Learnbay
+        </title>
         <meta
           name="description"
-          content="Enroll in the best data structures and algorithms course at Learnbay. Get familiar with basic & advanced concepts in DSA and system design."
+          content="Master Advance Gen AI Course with Learnbay. Enhance your leadership skills by leveraging AI for making strategic and impactful decisions."
         />
         <meta name="robots" content="index, follow" />
         <meta
@@ -32,10 +29,50 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/fullstack/generative-ai-course-for-professionals"
+          href="https://www.learnbay.co/datascience/generative-ai-course-for-managers"
         />
 
-{/* <script
+        <meta
+          property="og:url"
+          content="https://www.learnbay.co/datascience/generative-ai-course-for-managers"
+        />
+        <meta
+          property="og:title"
+          content="Advance Gen AI Course For Managers & Tech Leaders - Learnbay"
+        />
+        <meta property="og:site_name" content="learnbay.co" />
+        <meta property="og:type" content="article" />
+        <meta
+          property="og:description"
+          content="Master Advance Gen AI Course with Learnbay. Enhance your leadership skills by leveraging AI for making strategic and impactful decisions."
+        />
+        <meta
+          property="og:image"
+          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+        />
+        <meta property="og:image:height" content="100" />
+        <meta property="og:image:width" content="256" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@Learnbay" />
+        <meta
+          name="twitter:title"
+          content="Advance Gen AI Course For Managers & Tech Leaders - Learnbay"
+        />
+        <meta name="twitter:creator" content="@Learnbay" />
+        <meta
+          itemProp="description"
+          content="Master Advance Gen AI Course with Learnbay. Enhance your leadership skills by leveraging AI for making strategic and impactful decisions."
+        />
+        <meta
+          name="twitter:description"
+          content="Master Advance Gen AI Course with Learnbay. Enhance your leadership skills by leveraging AI for making strategic and impactful decisions."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+        />
+
+        {/* <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{
     __html: `{
@@ -71,43 +108,44 @@ function Blockchain({ DataScienceCourseDataJson }) {
     }`
   }}
 /> */}
-
       </Head>
       <main>
         <GenAiMLeadersFirstPart
-        summaryData={
-          DataScienceCourseData.GENAIManagersLeadersCourseData[0].summarySection
-        }
+          summaryData={
+            DataScienceCourseData.GENAIManagersLeadersCourseData[0]
+              .summarySection
+          }
           SecondSectionData={
-            DataScienceCourseData.GENAIManagersLeadersCourseData[0].secondSection
+            DataScienceCourseData.GENAIManagersLeadersCourseData[0]
+              .secondSection
           }
           whyChooseData={
-            DataScienceCourseData.GENAIManagersLeadersCourseData[0].whyChooseData
+            DataScienceCourseData.GENAIManagersLeadersCourseData[0]
+              .whyChooseData
           }
         />
 
         <GenAiMLeadersSecondPart
-
-
           masterSyllabusMobile={
             DataScienceCourseData.GENAIManagersLeadersCourseData[0]
               .masterSyllabusMobile
           }
           toolsData={
-            DataScienceCourseData.GENAIManagersLeadersCourseData[0]
-            .toolsData
+            DataScienceCourseData.GENAIManagersLeadersCourseData[0].toolsData
           }
           CertificateData={
             DataScienceCourseData.GENAIManagersLeadersCourseData[0].Certificate
           }
-
           certificateNew={
-            DataScienceCourseData.GENAIManagersLeadersCourseData[0].certificateNew
+            DataScienceCourseData.GENAIManagersLeadersCourseData[0]
+              .certificateNew
           }
           genAiData={
             DataScienceCourseData.GENAIManagersLeadersCourseData[0].genAiData
-          } 
-          FAQNewData={DataScienceCourseData.GENAIManagersLeadersCourseData[0].faq}
+          }
+          FAQNewData={
+            DataScienceCourseData.GENAIManagersLeadersCourseData[0].faq
+          }
         />
       </main>
     </>

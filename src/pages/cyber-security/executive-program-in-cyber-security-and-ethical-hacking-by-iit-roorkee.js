@@ -5,77 +5,76 @@ import { parseJSONData } from "@/Util/JsonConvertor";
 import IITCyberFirstPart from "@/components/CoursePage/FirstPart/IITCyberFirstPart";
 import IITCyberSecondPart from "@/components/CoursePage/FirstPart/IITCyberSecondPart";
 
-
-
-const OfferPopup = dynamic(() =>
-  import("../../components/Global/OfferPopup/OfferPopup")
-);
-
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
-  const JobData = {
-    title: "Decode Your Tech Carer Path to Competitive Success",
-    points: [
-      {
-        imgSrc:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
-        imgAlt: "",
-        title: "Transform with Coding Expertise",
-        description:
-          "Build a highly desired software developer/engineer role with our multifaceted training.",
-      },
-      {
-        imgSrc:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
-        imgAlt: "",
-        title:
-          "Learn and Practice with Real-time coding projects in an industry-leading setup",
-        description:
-          "Exhibit real-time coding mastery to tackle algorithmic ordeals.",
-      },
-      {
-        imgSrc:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
-        imgAlt: "",
-        title: "From Novice to Specialist",
-        description:
-          "Master, from basics to advanced DSA concepts to specify your reign in the tech field. ",
-      },
-    ],
-    bannerImage: {
-      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job1.webp",
-      width: 500,
-      height: 400,
-      priority: true,
-      quality: 80,
-      alt: "Banner Image 1 Alt",
-    },
-  };
+
   return (
     <>
       <Head>
-        <title>Executive Certification in Cyber Security -Learnbay</title>
+        <title>
+          Best Cyber Security & Ethical Hacking Course | IITR Certification
+        </title>
         <meta
           name="description"
-          content="Enroll in the best data structures and algorithms course at Learnbay. Get familiar with basic & advanced concepts in DSA and system design."
+          content="Become an expert in cyber security & ethical hacking with Learnbay's Executive Program. Master the skills to secure networks & data from cyber threats."
         />
-      
+
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="data structures and algorithms course, best data structures and algorithms course, dsa course, best course for data structures and algorithms, dsa course online, data structures and algorithms in python, learn data structures and algorithms, data structures and algorithms online course, data structures online course, best dsa course online"
+          content="cyber security and ethical hacking course, cyber security and ethical hacking, cyber hacking course, cyber security ethical hacking course, cyber security and hacking courses, cyber security ethical hacking certification"
         />
-        
+
         <link
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/fullstack/generative-ai-course-for-professionals"
+          href="https://www.learnbay.co/cyber-security/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee"
         />
 
-{/* <script
+        <meta
+          property="og:url"
+          content="https://www.learnbay.co/fullstack/generative-ai-course-for-professionals"
+        />
+        <meta
+          property="og:title"
+          content="Best Cyber Security & Ethical Hacking Course | IITR Certification"
+        />
+        <meta property="og:site_name" content="learnbay.co" />
+        <meta property="og:type" content="article" />
+        <meta
+          property="og:description"
+          content="Become an expert in cyber security & ethical hacking with Learnbay's Executive Program. Master the skills to secure networks & data from cyber threats."
+        />
+        <meta
+          property="og:image"
+          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+        />
+        <meta property="og:image:height" content="100" />
+        <meta property="og:image:width" content="256" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@Learnbay" />
+        <meta
+          name="twitter:title"
+          content="Best Cyber Security & Ethical Hacking Course | IITR Certification"
+        />
+        <meta name="twitter:creator" content="@Learnbay" />
+        <meta
+          itemProp="description"
+          content="Become an expert in cyber security & ethical hacking with Learnbay's Executive Program. Master the skills to secure networks & data from cyber threats."
+        />
+        <meta
+          name="twitter:description"
+          content="Become an expert in cyber security & ethical hacking with Learnbay's Executive Program. Master the skills to secure networks & data from cyber threats."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+        />
+
+        {/* <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{
     __html: `{
@@ -111,37 +110,27 @@ function Blockchain({ DataScienceCourseDataJson }) {
     }`
   }}
 /> */}
-
       </Head>
       <main>
         <IITCyberFirstPart
-        summaryData={
-          DataScienceCourseData.IITCyberSecurityData[0].summarySection
-        }
+          summaryData={
+            DataScienceCourseData.IITCyberSecurityData[0].summarySection
+          }
           SecondSectionData={
             DataScienceCourseData.IITCyberSecurityData[0].secondSection
           }
           whyChooseData={
             DataScienceCourseData.IITCyberSecurityData[0].whyChooseData
           }
-
         />
-<IITCyberSecondPart
-
-
+        <IITCyberSecondPart
           masterSyllabusMobile={
-            DataScienceCourseData.IITCyberSecurityData[0]
-              .masterSyllabusMobile
+            DataScienceCourseData.IITCyberSecurityData[0].masterSyllabusMobile
           }
-
-          toolsData={
-            DataScienceCourseData.IITCyberSecurityData[0]
-            .toolsData
-          }
+          toolsData={DataScienceCourseData.IITCyberSecurityData[0].toolsData}
           CertificateData={
             DataScienceCourseData.IITCyberSecurityData[0].Certificate
           }
-
           certificateNew={
             DataScienceCourseData.IITCyberSecurityData[0].certificateNew
           }
