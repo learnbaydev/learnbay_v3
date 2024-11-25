@@ -1149,7 +1149,7 @@ export const FSSPDataScienceCourseData = [
           {
             id: 6,
             ques: "How long can I have access to the course materials and resources?",
-            ans: "Learnbay introduces a Flexi subscription offer for learners with a better scope of uninterrupted learning. Flexi is a 3-year membership where learners will have direct access to course materials, training sessions, live projects, videos, and other helpful resources. With the Flexi pass, learners can get self-paced learning access even after the course completion.",
+            ans: "The DSA and System Design Course takes 400+ hours or 6.5 months. During the program, learners will get live training sessions, live projects, job-readiness assistance, & interview preparations under the guidance of mentors. One can complete the course modules and projects per batch timings. ",
             open: false,
           },
         ],

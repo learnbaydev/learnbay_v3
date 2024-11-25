@@ -408,13 +408,15 @@ export const DSABangaloreCourseData = [
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
 
       ModuleBot1:
-          "Learnbay’s data structures and algorithms training in Bangalore offers a 360-degree knowledge-building scope. Experts can gain abstract and practical DSA skills to tackle real-world problems. Our course modules are frequently revised according to the latest trends and developments. ",
+          "DSA has become one of the trending skills to get into a product-based company or likewise role. Certified DSA skills with proven years of work experience can add a competitive edge to your career in today’s age. Learnbay’s data structures and algorithms training in Bangalore offers a 360-degree knowledge-building scope. Experts can gain abstract and practical DSA skills to tackle real-world problems. Our course modules are frequently revised according to the latest trends and developments. ",
 
       syllabussrc:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
         JobHead1: "Career Services PRO",
         JobBot1:
-          "Several tech and non-tech professionals pursue a DSA course in Bangalore with 100% placement assistance. Eligible learners (with at least 70% scores in tasks and projects) opt for Learnbay’s ‘Career Services PRO’ to boost their success prospects. Our tie-up with 450+ industry partners escalates your success chances limitlessly. ",
+          "Data usage keeps increasing each year driving a large base of users worldwide. Businesses prefer skilled experts to tackle huge data sets and optimize core functions. Hence, the demand for data structures and algorithm learning has increased inspiring experts to constantly upgrade their skills. Learnbay’s data structures and algorithms classes in Bangalore can be your ultimate stop enriching career worth.",
+        JobBot2:"Yet, learning can be challenging if you’re not placed in your dream company or job position. Join Learnbay’s end-to-end job assistance program to land your dream roles with exciting perks, rewards, and hassle-free promotions. Hence, DSA courses in Bangalore with proven placement aid are worth investing in for experts. ",
+         JobBot5:"Several tech and non-tech professionals pursue a DSA course in Bangalore with 100% placement assistance. Eligible learners (with at least 70% scores in tasks and projects) opt for Learnbay’s ‘Career Services PRO’ to boost their success prospects. Our tie-up with 450+ industry partners escalates your success chances limitlessly. ",
         JobHead2: "Career Services PRO includes –",
         JobBot3:
           "Three years of placement support with unlimited access to interviews and learning resources",
@@ -424,7 +426,7 @@ export const DSABangaloreCourseData = [
     
         JobBot11: "Unlimited interview calls",
         ProjectsBot1:
-        "Learning is essential yet complete with practice. Learnbay’s data structure training in Bangalore offers a practice-based learning platform with enriched perks. Learners can choose their projects based on domain electives and kick-start a thriving DSA career in Bangalore.",
+        "Learning is essential yet complete with practice. Learnbay’s data structure training in Bangalore offers a practice-based learning platform with enriched perks. Learners can choose their projects based on domain electives and kick-start a thriving DSA career in Bangalore.  Learners can choose their projects based on domain electives and kick-start a thriving DSA career in Bangalore. Hence, marking a competitive success with Learnbay can bring globally recognized shifts to your career. Learn and work on real-time projects to advance a progressive career in DSA. ",
         ProjectsBot2:
         "Capstone projects are the key factor of your resume. In our full stack developer course at Bangalore, we have our project innovation lab for our students to complete the capstone project. You can even bring your own project ideas. Our expert trainer will help you to complete the same.",
       src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/project/2.png",
