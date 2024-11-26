@@ -76,9 +76,9 @@ const GenAiMLeadersFirstPart = ({ summaryData, whyChooseData }) => {
        brochurePdf={pdfUrl}
        FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/fullhead.webp"
        firstToparaImg=""
-       highlightedWords={["GenAI", "Program"]}
+       highlightedWords={["GenAI", "Certification"]}
        GEnAi={true}
-       firstHeading="GenAI Program For Managers & Tech Leaders"
+       firstHeading="GenAI Certification For Managers & Tech Leaders"
        firstTopPara="Curriculum Inclusive of Gen-AI"
        idss="0cspp1jXAbM"
        interstedInHide={true}

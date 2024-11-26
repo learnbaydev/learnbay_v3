@@ -243,6 +243,7 @@ background-clip: text;
   text-align: left;
   line-height: 46px;
   font-size: 36px;
+  letter-spacing: 1px;
 }
 .FirstLeft {
   position: relative;
