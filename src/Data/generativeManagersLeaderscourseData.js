@@ -39,7 +39,7 @@ export const GENAIManagersLeadersCourseData = [
       {
         image:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_why.webp",
-        title: "E&ICT IIT Guwahati-Backed Certification",
+        title: "E&ICT Academy, IIT Guwahati-Backed Certification",
         description:
           "Stand out with a prestigious certification from E&ICT Academy, IIT Guwahati.",
         subItems: [
@@ -645,9 +645,9 @@ export const GENAIManagersLeadersCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IIt_certificate+(1).webp",
         title: "Certification from E&ICT Academy, IIT Guwahati",
         para: [
-          "Executive Certification: Earned in DS & AI from E&ICT, IIT Guwahati.",
-          "Hands-On Experience: Practical learning at IIT Guwahati campus.",
-          "Top Faculty: Learn directly from E&ICT Guwahati IIT experts.",
+          "Executive Certification: Earned in DS & AI from E&ICT Academy, IIT Guwahati.",
+          "Hands-On Experience: Practical learning at E&ICT Academy IIT, Guwahati campus.",
+          "Top Faculty: Learn directly from E&ICT Academy, Guwahati IIT experts.",
         ],
       },
       microCertificate: {
