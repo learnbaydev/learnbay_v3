@@ -466,6 +466,12 @@ const CitiesRight = ({
   DSKochi,
   DSABangalore,
   DSAPune,
+  listsCertificate,
+  Certificationlist1,
+  Certificationlist2,
+  Certificationlist3,
+  hydraListJob,
+
 }) => {
   const [read, setRead] = useState(false);
   const handler = () => {
@@ -1009,382 +1015,75 @@ const CitiesRight = ({
         {cityTextDSHyderabad ? (
           <div className={styles.CitiesRightInner}>
             <p>
-              Learnbay provides the <b>Data Science Course in Hyderabad</b> to
-              help you become an industry-competent data scientist. This
-              IBM-certified course allows you to learn from scratch and
-              according to the industrial requirements. The{" "}
-              <b>Data Science Course</b> has been in high demand in recent
-              years, and our course is designed to provide you with current
-              knowledge in the field. Our approach to practical and theoretical
-              education provides a richer learning experience. Our{" "}
-              <b>Data Science certification in Hyderabad</b> is cost-effective
-              and even guarantees an interview at top MNCs and FinTech Startups.{" "}
+            Data science is trending as a thriving career role in Hyderabad, setting the stage for an evolved career change. The city's bustling tech space adopts a data-driven culture to stay ahead of industry rivalry. Data science in Hyderabad calls for fast-growing evolutions that drive success. Experts from distinct fields rely on data science training in Hyderabad to build proven skills. 
+
             </p>
 
             <p>
-              From programming to data visualization and statistics, the course
-              curriculum helps you to learn in-demand data science skills. The
-              mentors help you every step of the way to make sure you are
-              learning the <b>Data Science course</b> according to industry
-              standards. Even if you are a fresher, Leanbay has the best suited
-              course for you.
+            Hyderabad is adopting cutting-edge tech creations to lead the city's emerging IT hubs. Many startups and trending MNCs in Hyderabad are harnessing the data-driven power to tackle related intricacies. Data science education has become crucial for experts following the industry shifts. This reflects a growing demand for data science institutes in Hyderabad with optimal gains. 
+
             </p>
 
             <p>
-              Learners enrolling in data science live classroom training are
-              eligible for a Flexi Pass. This means learners get 1.5 years of
-              limitless independence to access learning materials. You can make
-              learning an exciting experience by setting up the calendar at your
-              convenience.
+            Learnbay concocts a world where data scientists are crucial for business growth and success. Hence, it lends notable help to busy working experts for steady learning. Our proactive step toward career stability via a data science course in Hyderabad states our future-proofing talents. 
+
             </p>
 
             <p>
-              Once you complete our <b>Data Science course</b>, you will get an
-              internationally recognized certificate in collaboration with IBM.
-              The certificate will validate your skills and acknowledge you in
-              the IT Sector. Learnbay provides cost-effective and high-quality
-              training to learners, making the process more compelling. In the
-              21st century, we are experiencing a technological outburst, and we
-              inevitably need lots of knowledge in this field to grow and
-              develop our careers.
+            Our data science program sets the stage for open and flexible learning with the intent of giving hassle-free training. Our motto to help busy working pros is justified via our hybrid training model and regularly revised syllabus. Experts join this best data science institute in Hyderabad to land promising roles. Our live interactive training sessions equip you with basic and refined skills. 
             </p>
 
             <p>
-              Our <b>Data Science learning modules</b> are customized according
-              to your domain and industry requirements. A lot of learners take
-              an active interest in learning from our modules because of our
-              domain specialization feature. MNCs and top startups look for
-              candidates updated with the latest knowledge and market trends.
-              This makes it important for learners to constantly upgrade their
-              knowledge.
+            Indeed, our notable industry tie-ups with 450+ MNCs ease your job-hunting process. Our devoted placement teams enrich your job-ready skills to help you grab exciting job offers. Also, we offer IBM & Microsoft certificates for course tasks and domain-driven projects. 
             </p>
 
-            <p>
-              Learnbay’s Data Science course is covered using various modules,
-              and all of them are prepared according to the trending job market
-              requirements. Some of the modules that we offer are
-            </p>
-
-            <ul>
-              <li>Cohort Orientation </li>
-              <li>Special Programming Classes</li>
-              <li>Basic Python Programming</li>
-              <li>Special Python Programming</li>
-              <li>Statistics</li>
-              <li>Machine Learning </li>
-              <li>SQL</li>
-              <li>Tableau</li>
-              <li>Deep Learning</li>
-            </ul>
-
-            <p>
-              The <b>Data Science course in Hyderabad</b> has a duration of 250+
-              hours. This means you will learn from our trained professionals
-              for almost 9 months.
-            </p>
-
-            <p>
-              The structured course consists of <b>4 terms.</b>
-            </p>
-
-            <b>Module 0: Preparatory Session </b>
-
-            <p>
-              In the preparatory session of our <b>Data Science course</b>, you
-              will get a brief overview of data-related tools. The module will
-              make it easy for you to learn about particular real-time projects
-              and capstone projects. In the coming years, the data will have a
-              lot more impact on job opportunities. This module will give you
-              the fundamental relevance of projects using data. You will get a
-              brief learning of data’s roles in business.{" "}
-            </p>
-
-            <p>
-              Module 0 will teach you the basics of programming, including the
-              flavors of Python, introduction to Git, GitHub, and memory
-              management in Python. Learners will also get a brief knowledge of
-              the fundamentals of statistics, including the mean, median, and
-              mode. This module is for those with a non-technical background or
-              those working in the non-IT Sector. Some tools covered in Module 0
-              are Anaconda, Jupyter, Git, and GitHub.
-            </p>
-
-            <h2 className={styles.pHead}>Term 1 - Python Programming </h2>
+            <h3 className={styles.pHead}>Cutting-edge Training Sessions by Eminent Industry Experts </h3>
             <b>Module 1- Basics and Advanced Python</b>
 
             <p>
-              It is a 50 hours term that covers the programming basics,
-              environment setup, and Python Programming overview. Python is a
-              vast programming language; learners can find all the important
-              topics and subtopics covered in our module. It also introduces
-              Jupyter notebook, and basic Github commands for students to get a
-              short introduction to the topic. After the first few days,
-              students will learn Strings, Decisions, Loop Control, Python Data
-              Types, Functions, and Modules.
+            Learnbay’s leading-edge training sessions are famous among working pros eager to reshape their careers in data science. Our network with India’s leading MNCs and well-known industry experts enriches our training quality. Experts joining our data science training in Hyderabad can induce 100% career growth. Our hybrid training model helps busy experts master basic and avant-garde concepts to tackle data-driven risks. 
+
+            </p>
+            <h3 className={styles.pHead}>Industry-enriched Career Counselling             </h3>
+            <p>
+            Learnbay’s career experts and advisors provide real-time aid to learners in making fruitful decisions. As data science trends in Hyderabad enrich business growth and stability, upskilling has become vital. Our advisors help learners stay updated on industry shifts and make fair moves. Also, our career-driven advice and tips help you choose a proper upskilling program with the utmost returns. 
+
+            </p>
+
+            <h3 className={styles.pHead}>
+            Why is Learnbay claimed to be the best data science institute in Hyderabad? 
+
+            </h3>
+
+
+            <p>
+            Hyderabad’s data science job market requires constant reskilling and upskilling to induce exciting gains. Many diversified business setups spread their functions across Hyderabad, driving strategic gains. Hence, career upskilling has become vital for experts to confound stagnancies and attain success. In the interim, Learnbay has declared a job-driven data science course in Hyderabad. 
+
+            </p>
+            <p>
+            Today's modern workspace demands unique skill sets and mastery to handle digital threats and boost success rates. A firm’s ordeal in handling massive data sets and making informed decisions triggers the haste for data science. Hence, experts join top-rated data science institutes in Hyderabad to elevate their skills and grab alluring job offers. 
+
+            </p>
+
+
+            <p>
+            Our inclusively crafted syllabus lures learners to update their skills and crack critical jobs. We focus on the recent industry shifts and revise the learning modules accordingly. Plus, our career-specific hybrid training model helps experts to balance their learning and job duties. 
+
             </p>
 
             <p>
-              Our module also covers File I/O Exceptional Handling and Regular
-              Expression. Data Analysis using NumPy and Pandas is another
-              chapter that will teach you array creation, basic operations, and
-              data import into Python Pandas, among many others. After every
-              module is complete or a few chapters are over, learners take an
-              assignment to access their knowledge and skills. The exercise
-              consists of questions related to Python Programming and coding
-              exercises on functions, Lambda, etc.
-            </p>
+            Experts find Learnbay as the best institute to learn data science in Hyderabad due to its hands-on upskilling scope. You can work on domain-driven projects and case studies to refine your skills and grab rewarding roles. Our reputed mentors are here to guide you in mastering data-driven tools. Their real-time insights will help you optimize your skills and tackle tough cases tactfully. 
 
-            <h2 className={styles.pHead}>
-              Term 2 - Statistics and Machine Learning
-            </h2>
-            <b>Module 1 - Statistics </b>
-
-            <p>
-              This module covers the fundamentals of Math and probability. From
-              learning about probability distribution functions to learning
-              about Baye’s theorem, you develop knowledge of how to solve
-              problems involving probability. It is a 30-hour term focusing on
-              population vs sample, sample size, systematic sampling,
-              convenience sampling, and quotation sampling, among many other
-              topics.{" "}
-            </p>
-            <p>
-              Introduction to Statistics, Statistical Thinking, descriptive
-              statistics, and inferential statistics are a few other topics that
-              learners will be introduced to. Learnbay’s{" "}
-              <b>data science course</b> teaches you matrices in Python, Element
-              indexing, matrix multiplication, matrix transpose, data
-              processing, and exploratory data analysis. You will learn about
-              data wrangling, pre-processing, and cleaning. We will cover the
-              Problem-Solving Techniques and Case Studies using Statistics in
-              class from week 2. There will be a total of 4 practice sets and
-              assignments from this module.
-            </p>
-
-            <b>Module 2 - Machine Learning </b>
-
-            <p>
-              It is a 40-hour module covering the ins and outs of machine
-              learning required to get a lucrative job offer. From the
-              definition, example, and importance of machine learning to gaining
-              a deep knowledge of machine learning elements, the module’s first
-              chapter will introduce ML. You will learn how MAE, MSE, and RMSE
-              are different from each other. You will also learn how to use the
-              Python library <b>Sklearn</b> to create the linear regression
-              model and evaluate the model created.{" "}
             </p>
 
             <p>
-              Data preprocessing and logistic regression models are important
-              chapters when learning about Data Science. This module covers
-              these topics and helps learners learn the valuation metrics for
-              classification models and K Nearest neighbor models. The decision
-              tree and random forest models are also part of this module.{" "}
+            Learnbay’s industry-driven career support services engage learners with high-paying roles. Here, experts will receive everything required to crack critical roles – from 1:1 interview prep to CV-making. Also, having IBM & Microsoft certificates can validate your skills and enhance your selection rates. Our globally valued credentials enrich career worth and make it job-ready with solid portfolios. 
+
+            </p>
+            <p>Joining our data science training in Hyderabad is worth investing in as it boosts success and arms you with lucrative earning limits. 
             </p>
 
-            <p>
-              The term completes by giving students an in-depth understanding of
-              all machine learning algorithms. The real-time case studies for
-              each algorithm help hone learners’ knowledge.{" "}
-            </p>
 
-            <h2 className={styles.pHead}>
-              <b>Term 3: Data Science Tools</b>
-            </h2>
-            <p>
-              <b>Module 1 - SQL</b>
-            </p>
-            <p>
-              <b>Module 2 - Mongo DB </b>
-            </p>
-            <p>
-              <b>Module 3 - Tableau</b>
-            </p>
-            <p>
-              <b>Module 4 - PowerBI</b>
-            </p>
-            <p>
-              <b>Module 5 - Big Data and Spark Analytics</b>
-            </p>
-            <p>
-              <b>Module 6 - Time Series</b>
-            </p>
-            <h2 className={styles.pHead}>
-              <b>Term 4: Artificial Intelligence Tools</b>
-            </h2>
-            <p>
-              <b>Module 1 - Deep Learning using TensorFlow</b>
-            </p>
-            <p>
-              <b>Module 2 - Natural Language Processing</b>
-            </p>
-            <p>
-              <b>Module 3 - Model Training and Deployment using ( AWS GCP) </b>
-            </p>
-
-            <h2 className={styles.pHead}>
-              Premium Features of Data Scientist Course in Hyderabad
-            </h2>
-            <p>
-              <b>100% Live Online Classes:</b> You can take live classes while
-              sitting at the comforts of your home. You can ask any doubts in
-              the live sessions. Our experts help and assist you at every step
-              of your learning curve.{" "}
-            </p>
-
-            <p>
-              <b>Dedicated Placement Cell:</b> The placement cell handles it
-              all, from resume preparation to preparing you for job interviews.
-              It makes you confident enough to crack the interviews. You get
-              assured job referrals in product-based MNCs too.{" "}
-            </p>
-
-            <p>
-              <b>IBM Certified Capstone:</b> Learnbay allows you to work on
-              domain-specialized capstone projects with IBM. After successfully
-              completing your course, Learnbay will provide you with a globally
-              recognized certificate in collaboration with IBM. The dual
-              certification and global accreditation sets us apart from others.{" "}
-            </p>
-
-            <p>
-              <b>1:1 Personal Mentorship:</b> Our experts are always available
-              if you have any doubts. Even if you wish to clear your doubts just
-              after the live classes, you can take 1:1 doubt sessions with them.
-              We also have that option if you wish to take classes from multiple
-              mentors. You can even change your batches.
-            </p>
-
-            <p>
-              <b>Special Classes for Beginners:</b> Fresher or a working
-              professional, you have come to the right place if you wish to make
-              a career in data science. We have curated special programming
-              classes for you to learn from scratch.
-            </p>
-
-            <p>
-              <b>Project Innovation Lab:</b> Our{" "}
-              <b>Data Science course in Hyderabad</b> has a project innovation
-              lab where you can work on industry-certified projects offline. You
-              get a chance to collaborate with project mentors and other
-              learners. The hands-on experience across several domains is an
-              added advantage.{" "}
-            </p>
-
-            <h2 className={styles.pHead}>
-              Other Courses We Offer in Data Science
-            </h2>
-            <p>
-              <b>Data Science Foundation Program:</b> : The basic program is
-              designed for beginners with a non-IT background. The program
-              introduces you to the basics of Python and how Anaconda and
-              Jupyter Notebook works. The course gives you rigorous training of
-              200+ hours at just ₹ 79,000 + 18% GST.
-            </p>
-
-            <p>
-              <b>Advanced Data Science and AI Program:</b> The advanced course
-              offers in-depth knowledge about Data Science. Looking forward to
-              switching your domain? Look no further. The advanced course help
-              you to gain a deeper understanding. You get 250+ hours of learning
-              in this course at just ₹ 99,000 + 18% GST.{" "}
-            </p>
-
-            <p>
-              <b>Data Science and AI program for Managers and Leaders:</b> This
-              course is best suited for you if you have an experience of 8+
-              years. The experts at Learnbay help you in a smooth transition
-              throughout the process. The domain-specific projects give you an
-              edge over the others. The program fee is just ₹1,10,000 + 18% GST.
-            </p>
-
-            <p>
-              <b>Data Science and AI Master Program:</b> This course is aimed at
-              working professionals who wants to get premium mentoring and
-              hands-on experience in real-world projects. The custom-fit
-              training will help you learn Data Science and AI effectively and
-              efficiently. The course gives you rigorous training of 500+ hours
-              at just ₹1,29,000 + 18% GST.
-            </p>
-
-            <h2 className={styles.pHead}>
-              Available Domains at Learnbay Data Science Course in Hyderabad
-            </h2>
-            <p>
-              <b>Data Science in BFSI Domain:</b> It helps you understand the
-              finance sector’s best practices. Learners get to work on real-time
-              projects using live data. The data is taken from companies like JP
-              Morgan and HDFC. it provides a helping hand when building
-              recommendation systems or predicting the upcoming stock market
-              predictions.
-            </p>
-
-            <p>
-              <b>Data Science in Sales, Marketing, and HR domain:</b> Data
-              Science in this domain help to understand data-driven consumer and
-              market insights. The hands-on Capstone projects help you get
-              involved with business management’s functional aspects.{" "}
-            </p>
-
-            <p>
-              <b>Data Science in the Healthcare domain:</b> Data Science courses
-              help learners incorporate future-proof practices. If you are a
-              working professional having experience in this field, you will be
-              offered a maximum salary hike and job security.{" "}
-            </p>
-
-            <p>
-              <b>Data Science in Retail and E-commerce domain:</b> The retail
-              sector is one of the fastest-growing businesses in the 21st
-              century. The business requirements and functionalities can be
-              better understood by incorporating Data Science.
-            </p>
-
-            <p>
-              <b>Data Science in Media and Hospitality Domain:</b> This course
-              helps you work on projects implemented for business growth. You
-              get better insights into personalized marketing and revenue
-              management. Non-programmers can opt for special classes.{" "}
-            </p>
-
-            <p>
-              <b>Data Science in Manufacturing Domain:</b> The course gives you
-              an insight into the applications of data science in the
-              manufacturing and automotive domain. You also learn about
-              robotics, computer-aided design, and nanotechnology.{" "}
-            </p>
-
-            <p>
-              <b>Data Science in Energy, Oil, and Gas domain:</b> This course
-              helps you better understand how industry expands exponentially
-              with the help of AI. You get a real-time recording of drilling
-              data.{" "}
-            </p>
-
-            <p>
-              Learnbay provides you with flexible learning options. You can opt
-              for a <b>Data Science Course in Hyderabad</b> on weekdays or
-              weekends. You can choose your timings and sessions if you want to.
-            </p>
-
-            <p>
-              The average <b>data scientist salary in Hyderabad</b> is
-              ₹10,00,000 per annum. Wondering which is the{" "}
-              <b>best Data Training Institute in Hyderabad</b>? Well, look no
-              further. Learnbay’s customized and domain-specialized courses give
-              you an edge over the others. <br /> <br /> Choose{" "}
-              <a
-                href="https://www.learnbay.co/data-science-course-training-in-hyderabad"
-                target="_blank"
-                style={{ color: "#2D9CD7", fontWeight: "600" }}
-              >
-                Learnbay Institute
-              </a>{" "}
-              to be a part of your learnings, and trust us, you’ll not regret
-              it.
-            </p>
-
-            <p></p>
           </div>
         ) : (
           ""
@@ -6889,11 +6588,17 @@ const CitiesRight = ({
               <h4 style={{ fontSize: "16px" }}>{CertificationHead30}</h4>
               <h4 style={{ fontSize: "16px" }}>{CertificationMasterHead2}</h4>
               <p className={styles.pp}>{CertificationBot3}</p>
+             
             </div>
             <div>
               <h2 className={styles.pHead}>{CertificationHead2}</h2>
               <h4 style={{ fontSize: "16px" }}>{CertificationHead31}</h4>
               <p className={styles.pp}>{CertificationBot4}</p>
+              {listsCertificate ? (<ul className={styles.pp}>
+                    <li>{Certificationlist1}</li>
+                    <li>{Certificationlist2}</li>
+                    <li>{Certificationlist3}</li>
+                  </ul>):(null)}
               <h4 style={{ fontSize: "16px" }}>{CertificationHead32}</h4>
               <p className={styles.pp}>{CertificationBot5}</p>
               <p className={styles.pp}>{CertificationBot6}</p>
@@ -7234,6 +6939,15 @@ const CitiesRight = ({
           <p className={styles.pp}>{JobBot10}</p>
           <h2 className={styles.pHead}>{JobHead6}</h2>
           <p className={styles.pp}>{JobBot11}</p>
+
+          {hydraListJob ? ( <ul className={styles.pp}>
+                <li>{Joblist1}</li>
+                <li>{Joblist2}</li>
+                <li>{Joblist3}</li>
+                <li>{Joblist4}</li>
+                <li>{Joblist5}</li>
+                <li>{Joblist6}</li>
+              </ul>): null}
           {joblist ? (
             <>
               <ul className={styles.pp}>
