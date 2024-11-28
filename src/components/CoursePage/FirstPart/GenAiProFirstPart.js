@@ -72,14 +72,14 @@ const GenAiProFirstPart = ({ summaryData, whyChooseData }) => {
       <GenAiFirstSection
         ThirdTyped="Live Interactive Classes"
         dataScience={true}
-        titleCourse="GenAI Developer Program For Professionals"
+        titleCourse="GenAI Developer Certification For Professionals"
         cityParaCont="Future-Ready Leadership Starts with Generative AI Mastery"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI-Developer-Program.pdf"
         brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/fullhead.webp"
         firstToparaImg=""
         GEnAi={true}
-        firstHeading="GenAI Developer Program For Professionals"
+        firstHeading="GenAI Developer Certification For Professionals"
         firstTopPara="For Tech Professionals & Developers"
         idss="0cspp1jXAbM"
         interstedInHide={true}

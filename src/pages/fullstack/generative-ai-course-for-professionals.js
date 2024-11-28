@@ -61,7 +61,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="generative ai for managers, gen ai for managers, generative ai course for managers, gen ai course for managers"
+          content="generative ai course online, generative ai course, generative ai courses, gen ai developer course, gen ai course online, advance gen ai program, gen ai course for professionals, advance gen ai course for professionals, advance generative ai course, generative ai course for professionals"
         />
         
         <link
@@ -84,7 +84,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Join our online cloud computing course training in Bangalore to gain in-demand skills and accelerate your tech career. Start Learning Today."
+          content="Join Learnbay's Advance Gen AI Developer course. Develop cutting-edge AI solutions and take your career to the next level with hands-on learning."
         />
         <meta
           property="og:image"

@@ -819,39 +819,50 @@ export const DataScienceHyderabadCourseData = [
 
     DomainHead1: "Why Domain Specialization?",
     DomainBot1:
-      "Our domain-specific courses are intended to assist students in approaching the complexities of business problems from a certain industry or domain with the most profitable data scientific solutions.",
+      "Data science in Hyderabad is buzzing here and there. Hence, the demand for skill upgrades from the best data science institute in Hyderabad keeps rising. In the interim, the advent of data science boosts the haste for domain-rich learning. Domain learning has become a proven metric to bridge the gap between technical skills and real-time knowledge. ",
     DomainBot2:
-      "A domain-specific Data scientist will have a much better grasp of the domain and its nuances and the essential business concerns that must be addressed. Recruiters are looking for domain-specific Data scientists at present. One cannot deliver precise analytical insights without subject understanding. As a result, it's critical to select courses that include domain electives.",
-    DomainBot3:
-      "Learnbay's Advanced data science course online covers domains in almost all sectors like :",
-    DomainList1: "• BFSI",
-    DomainList2: "• Manufacturing",
-    DomainList3: "• Energy, Oil and Gas",
+      "Domain-specific learning has become crucial for experts keen to revamp their static careers in data science. Hence, experts prefer joining data science training in Hyderabad with domain-driven modules. Experts can frame business issues properly to tackle them with proven solutions. ",
+    DomainBot4:
+      "Learnbay’s data science course in Hyderabad offers domain-focused training to gain real-time insights and outpace close rivals. Our domain electives enrich technical mastery and help experts build insightful ways. Join us to choose the right domain elective and enrich your prior learning. ",
+    DomainBot3: "Our domain electives are –",
+    DomainList1: "• Manufacturing",
+    DomainList2: "• Technology",
+    DomainList3: "• Consulting",
     DomainList4: "• Healthcare",
-    DomainList5: "• Supply Chain, E-Commerce & Retail",
+    DomainList5: "• BFSI",
+    DomainList6: "• Retail",
     Domainlink1:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf",
-    Domainlink2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf",
-    Domainlink3:
+    Domainlink2:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Energy%2C+Oil+and+Gas+Domain.pdf",
+    Domainlink3:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf",
     Domainlink4:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf",
     Domainlink5:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf",
     CertificationBot1:
-      "You get hassle-free classes from many professional educators when pursuing the Learnbay IBM data scientist course. You'll also receive multiple IBM certifications in Data Science and Artificial intelligence micro-skills. Aside from that, upon completion of the capstone project featured in the Data Science courses in Hyderabad, you will obtain an IBM Project Experience Certificate. Depending on your course, you will receive 1 to 8 certifications.",
+      "Hyderabad’s bustling tech space inspires working pros for constant upskilling and reskilling. Mainly, the experts with stagnant skill sets must join the best institute to learn data science in Hyderabad. Unlike generic ones, joining a certification course can equip you with definite growth skills. ",
     CertificationBot2:
-      "For more details about the certification, you can read our syllabus",
+      "Certifications are vital for experts who want to kick-start data science career roles in Hyderabad. The city’s thriving business space seeks skilled data scientists to tackle upcoming issues. Hence, experts favor certifying their abilities despite data science course fees in Hyderabad. ",
+    CertificationBot3:
+      "Learnbay’s cutting-edge data science training in Hyderabad attests IBM & Microsoft certificates to your resume. These certificates validate your data-driven skills and help you exhibit your mastery on a global level. Our alliance with IBM & Microsoft boosts your success rates, paving the way toward competitive career-building. ",
+    CertificationBot4:
+      "The trending data science institutes in Hyderabad are popular among career aspirants, and we are one of them. Our globally recognized credentials confirm your worth to stand out in Hyderabad’s rising tech space. Anyone enrolling in our course will receive – ",
+    Certificationlist1: "One IBM course certificate",
+    Certificationlist2: "One Microsoft course certificate ",
+    Certificationlist3: "One IBM project certificate",
     src33:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
     src22:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
     ModuleBot1:
-      "Expert Data scientists have meticulously crafted the Data science training modules. You'll master various data science tools and strategies to understand business problems in the Data Science certification course. Enrolling in Learnbay’s IBM Data science course in Hyderabad might help students realize their full potential as Data scientists. Our courses are meant to be simple to follow and comprehend while providing the finest possible Data science foundation. We teach you how your Data science abilities will be used in the future by using real-time capstone projects.",
+      "Data science learning has become a proven growth metric for experts keen to join leading data-driven firms. Yet, joining a typical data science training institute in Hyderabad can demean your growth motive. Hence, Learnbay presents a structured training program with data-enriched modules. ",
     ModuleBot2:
-      "A few of the most important data science submodules covered in our courses are Python, Statistics, MongoDB, Tensorflow, Deep Learning, Time series, Deployment GCP, and other data science tools.",
+      "Our meticulously curated data science course modules follow the latest trends and practices affecting startups and MNCs. Our researchers follow the current data-driven trends that aspirants must upskill to stay successful. Our data science course in Hyderabad follows the latest trends in the city with the utmost returns. It helps our learners grasp cutting-edge wisdom and stay ahead of the career race. ",
+    ModuleBot3:
+      "We offer the best institute to learn data science in Hyderabad with interactive training sessions, updated modules, and live learning via projects. Our modules enrich your domain learning, practical courses, and skills to grow. ",
     syllabush1: " Preparatory Classes (Programming + Maths)",
     syllabusb1: "6 Hours",
     SyllabusBotlist11: " Cohort Orientation",
@@ -887,15 +898,33 @@ export const DataScienceHyderabadCourseData = [
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
     JobBot1:
-      "The Data science curriculum at Learnbay includes a Job Assistance program. Students will receive CV preparation and soft skills training sessions by the end of the IBM Data science course. Our students gain confidence before the interviews by participating in various company-specific mock interviews. Furthermore, our representatives verify that your portfolio meets industry standards and appeals to hiring managers. In Hyderabad, you can take a Data science course with a placement assistance. You can claim a Data science course fee refund if you cannot find a Data science career role within six months of completing the course.",
+      "Hyderabad’s job market outlook reflects a constantly changing space for working experts to acquire proven skills and grow. Its established tech space accepts skilled experts with the talent to face data-driven intricacies. Hence, experts prefer learning despite costly data science course fees in Hyderabad. Yet, joining a course with 100% job support is worth investing in for experts with stagnant salaries and positions. ",
     JobBot2:
-      "We have collaborated with lead organizations like IBM, TCS, EY, Accenture, and others. Over 1000 Learnbay alumni have already started working in data science roles all over Hyderabad.",
-    ProjectsHead1: "Industry curated live data science projects.",
+      "Learnbay is the best data science institute in Hyderabad with career-driven offerings. Its approach toward hassle-free career-building equips learners with mastery to handle tough cases and become the right fit for a firm. Experts from diverse fields can build front-age skills and justify innate demands. Our career support services enrich your worth to land lucrative roles. ",
+    JobHead2: "Career Services PRO",
+    JobBot3:
+      "Learnbay presents leading-edge career support services, helping experts stay ahead of the race. Our inclusively curated career support program helps you to gain proven mastery to build job-ready skills and crack critical interviews. Our career-rich data science training in Hyderabad lends eternal support to land the best job roles. ",
+    JobBot4:
+      "Learners find Learnbay to be the best institute for data science in Hyderabad. All eligible learners with a minimum of 70% scores can join our solely designed career support services and attain success. Our reliable mentors and counselors follow the industry changes and global job market trends. Hence, we offer full-fledged career support services to confirm your success globally. ",
+    JobBot6:
+      "Joining the data science institutes in Hyderabad with a job assistance program refines your abilities to land top-rated roles with the leading MNCs. Experts can opt for a 100% career support program to get placed with the trending roles. Our job and placement program improves your industry outlook and helps you master skills to stay ahead of the career race. ",
+
+    JobBot7:
+      "Despite the data science course in Hyderabad fee structure learners prefer constant upskilling and reskilling for its career support services. Our Career Services PRO will offer you the following job-enriched perks –",
+      Joblist1:"Three years of career support with access to interviews and learning materials",
+      Joblist2:"Six 1:1 mock interviews with tied-up MNCs",
+      Joblist3:"Resume Making",
+      Joblist4:"LinkedIn profiling",
+      Joblist5:"1:1 doubt-clearing sessions with reliable mentors",
+      Joblist6:"Unlimited job calls from top MNCs",
+          ProjectsHead1: "",
     ProjectsBot1:
-      "Learners can comprehend Data science Projects and methodologies using Learnbay's premium cloud lab feature. You can choose from 8 to 15 real-time projects in your chosen domains in Learnbay’s Advanced Data science courses in Hyderabad. This cloud lab also allows you to see and practice various data mining, data wrangling, and real MNC data projects. Students will have the opportunity to work on two to three Data science capstone projects, after which an IBM Project experience credential will be issued.",
+      "Today’s data-driven age inspires working pros to overcome static careers via upskilling. The data science domain is ever-changing, with new practices to lift business growth and yields. Hence, experts willing to kick-start data science careers in Hyderabad must undergo an upskilling program. Joining the best data science institutes in Hyderabad can ease your learning process. ",
     ProjectsBot2:
-      "Here are a few of our projects that Learnbay alumni have succeeded at:",
-    src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
+      "In the interim, Learnbay presents a career-driven data scientist course in Hyderabad with real-time learning. Hands-on learning of critical data science trends and practices can enrich career worth and optimize success metrics. Here, learners can choose best-suited projects following their domain expertise and career goals to escalate success chances. ",
+      ProjectsBot31:"Our industry-specific best data science courses in Hyderabad engage learners with cutting-edge upskilling. Working on real-time projects helps experts gain industry insights and tackle tough cases tactfully. We offer projects in our career-focused domain electives (Manufacturing, Technology, Consulting, Healthcare, BFSI, Retail). Experts can choose a best-suited domain and work on live projects accordingly to attain proven success. ",
+      ProjectsBot32:"If you’re willing to revamp your career paths with notable success, join our data science course in Hyderabad today. ",
+      src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
     alt2: "Samsung Logo",
     ProjectsH1: "Samsung Health Monitor App",
     Projectsp1:

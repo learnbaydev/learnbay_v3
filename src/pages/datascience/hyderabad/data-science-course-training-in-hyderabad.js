@@ -1,7 +1,7 @@
 import { DSHyderabadSchema } from "@/Data/Schema/DSHyderabadSchema";
 import dynamic from "next/dynamic";
 import Head from "next/head";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { DataScienceHyderabadCourseData } from "../../../CityData/Hyderabad/dataScienceCourseTrainingInHyderabad";
 import Footer from "../../../components/Global/Footer/Footer";
 import Form from "../../../components/Global/Form/Form";
@@ -16,15 +16,11 @@ const FirstSection = dynamic(() =>
 const SecondSection = dynamic(() =>
   import("../../../components/Seo/SecondSection/SecondSection")
 );
-const ProgramInfo = dynamic(() =>
-  import("../../../components/Seo/ProgramInfo/ProgramInfo")
-);
+
 const SeventhSection = dynamic(() =>
   import("../../../components/Seo/SeventhSection/SeventhSection")
 );
-const ProgramFee = dynamic(() =>
-  import("../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee")
-);
+
 const CityText = dynamic(() =>
   import("../../../components/Seo/CityText/CityText")
 );
@@ -35,45 +31,11 @@ const CitiesRight = dynamic(() =>
   import("../../../components/Seo/CitiesRight/CitiesRight")
 );
 const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
-const OfferPopup = dynamic(() =>
-  import("../../../components/Global/OfferPopup/OfferPopup")
-);
+
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
-  const popupShow = () => {
-    setPopups(true);
-  };
-  const [popupData, setPopupData] = useState([]);
-  // console.log(popupData);
-  useEffect(() => {
-    // console.log("inside UseEFFect");
-    const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
-      });
-      if (data.status === 200) {
-        const { popData } = await data.json();
-        // console.log(popData, "get data");
-        if (popData == []) {
-          setPopupData([]);
-        }
 
-        popData.map((data, i) => {
-          // console.log(data);
-          data.page.map((popupData, i) => {
-            // console.log(popData);
-            if (popupData === "Adv Data Science and AI") {
-              setPopupData(data);
-              // console.log(popupData);
-              return;
-            }
-          });
-        });
-      }
-    };
-    fetchPopup();
-  }, []);
   const pdfUrl = "/Brochure/Advanced-Data-Science.pdf";
   return (
     <div className={styles.container}>
@@ -161,7 +123,7 @@ export default function Home() {
           FirstTyped="Guaranteed Interview Calls"
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
-          cityParaCont="Enhance your Data Science career with our comprehensive Data Science course in Hyderabad with IBM Certification. Our advanced Data Science training in Hyderabad will help you to make experts in Python, Power BI, etc. You will get training from industry leaders and masters to gain the most in-demand data science and AI skills."
+          cityParaCont="Propel global-scale success with our Generative AI-rich data science course in Hyderabad. Earn prestigious IBM & Microsoft certificates to reshape your career and validate job-driven skills – from Python basics to Advanced AI. Make resilient career advances with our seasoned experts' aid and thrive globally. "
           dataScience={true}
           interstedInHide={true}
           titleCourse="Advanced Data Science and AI Program with domain specialization"
@@ -225,6 +187,7 @@ export default function Home() {
               DomainBot1={DataScienceHyderabadCourseData[0].DomainBot1}
               DomainBot2={DataScienceHyderabadCourseData[0].DomainBot2}
               DomainBot3={DataScienceHyderabadCourseData[0].DomainBot3}
+              DomainBot4={DataScienceHyderabadCourseData[0].DomainBot4}
               DomainList1={DataScienceHyderabadCourseData[0].DomainList1}
               DomainList2={DataScienceHyderabadCourseData[0].DomainList2}
               DomainList3={DataScienceHyderabadCourseData[0].DomainList3}
@@ -251,12 +214,19 @@ export default function Home() {
               CertificationBot2={
                 DataScienceHyderabadCourseData[0].CertificationBot2
               }
+              CertificationBot3={DataScienceHyderabadCourseData[0].CertificationBot3}
+              CertificationBot4={DataScienceHyderabadCourseData[0].CertificationBot4}
+              listsCertificate={true}
+              Certificationlist1={DataScienceHyderabadCourseData[0].Certificationlist1}
+              Certificationlist2={DataScienceHyderabadCourseData[0].Certificationlist2}
+              Certificationlist3={DataScienceHyderabadCourseData[0].Certificationlist3}
               src={DataScienceHyderabadCourseData[0].src}
               src22={DataScienceHyderabadCourseData[0].src22}
               src33={DataScienceHyderabadCourseData[0].src33}
               ModuleHead1={DataScienceHyderabadCourseData[0].ModuleHead1}
               ModuleBot1={DataScienceHyderabadCourseData[0].ModuleBot1}
               ModuleBot2={DataScienceHyderabadCourseData[0].ModuleBot2}
+              ModuleBot3={DataScienceHyderabadCourseData[0].ModuleBot3}
               syllabush1={DataScienceHyderabadCourseData[0].syllabush1}
               syllabusb1={DataScienceHyderabadCourseData[0].syllabusb1}
               SyllabusBotlist11={
@@ -346,9 +316,21 @@ export default function Home() {
               JobBot3={DataScienceHyderabadCourseData[0].JobBot3}
               JobBot4={DataScienceHyderabadCourseData[0].JobBot4}
               JobBot6={DataScienceHyderabadCourseData[0].JobBot6}
+              JobBot7={DataScienceHyderabadCourseData[0].JobBot7}
+              hydraListJob={true}
+              Joblist1={DataScienceHyderabadCourseData[0].Joblist1}
+              Joblist2={DataScienceHyderabadCourseData[0].Joblist2}
+              Joblist3={DataScienceHyderabadCourseData[0].Joblist3}
+              Joblist4={DataScienceHyderabadCourseData[0].Joblist4}
+              Joblist5={DataScienceHyderabadCourseData[0].Joblist5}
+              Joblist6={DataScienceHyderabadCourseData[0].Joblist6}
+
+              Joblist50={DataScienceHyderabadCourseData[0].Joblist50}
               ProjectsHead1={DataScienceHyderabadCourseData[0].ProjectsHead1}
               ProjectsBot1={DataScienceHyderabadCourseData[0].ProjectsBot1}
               ProjectsBot2={DataScienceHyderabadCourseData[0].ProjectsBot2}
+              ProjectsBot31={DataScienceHyderabadCourseData[0].ProjectsBot31}
+              ProjectsBot32={DataScienceHyderabadCourseData[0].ProjectsBot32}
               src1={DataScienceHyderabadCourseData[0].src1}
               ProjectsH1={DataScienceHyderabadCourseData[0].ProjectsH1}
               Projectsp1={DataScienceHyderabadCourseData[0].Projectsp1}

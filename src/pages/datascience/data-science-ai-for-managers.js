@@ -4,7 +4,6 @@ import FirstPart from "@/components/CoursePage/FirstPart/ManagersFirstPart";
 import SecondPart from "@/components/CoursePage/FirstPart/ManagersSecondPart";
 import Navbar from "@/components/Global/Navbar/Navbar";
 
-
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
 
@@ -12,16 +11,16 @@ function Blockchain({ DataScienceCourseDataJson }) {
     <>
       <Head>
         <title>
-        Data Science & AI Program For Managers and Leaders - Learnbay
+          Data Science & AI Course for Managers and Leaders | Learnbay
         </title>
         <meta
           name="description"
-          content="Lead with data-driven excellence! Learnbay offers a Data Science & AI Certification Program for Managers and Leaders. Elevate your leadership strategic skills          "
+          content="Elevate your leadership and strategic skills with our AI & Data Science  Program for Managers and Leaders. Lead the Future with data-driven excellence!"
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="data science and ai course, Data Science and AI Program For Managers and Leaders course, data science and ai, ai and data science course, artificial intelligence and data science course, advanced certification in data science and ai"
+          content="data science for managers, data science course for managers and leaders, data science course for managers, data science for leaders, artificial intelligence and data science for leaders, artificial intelligence course for managers, ai course for managers, data science for business leaders"
         />
         <link
           rel="icon"
@@ -70,7 +69,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
       </Head>
       <main>
         <Navbar dataScienceCounselling={true} interstedInHide={true} />
-      
+
         <FirstPart
           SecondSectionData={
             DataScienceCourseData.DataScienceCourseData[0].secondSection

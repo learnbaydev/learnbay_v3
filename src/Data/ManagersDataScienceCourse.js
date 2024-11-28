@@ -2190,12 +2190,7 @@ export const DataScienceCourseData = [
           {
             id: 3,
             ques: "What’s the duration of the Data Science and AI for Managers & Leaders Program?",
-            ans: `The duration of this course is about 13 months (350 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. You need to complete the modules within the specified duration to earn a certificate.
-        
-            Classes will be conducted on weekdays and weekend batches.
-            Weekday batch – 11 months, Monday to Friday – 2 hours/day,
-            Weekend batch - 13 months, Saturday & Sunday – 3.5 hours/day.
-            After the completion of term-3, you can start working on real-time projects and attend job interviews.`,
+            ans: `The Data Science and AI for Managers and Leaders Program takes 9 – 11 months, including weekday and weekend batches.`,
             open: false,
           },
           {
@@ -2231,8 +2226,15 @@ export const DataScienceCourseData = [
           {
             id: 2,
             ques: "What are the available elective domain options?",
-            ans: `Advance Data Structures & Algo; Automotive, IoT & Embedded; Cloud & DevOps; Sales, Marketing, & HR; Retail, E-Commerce, & Supply Chain; Healthcare, Pharma, & Clinical Research; BFSI, Manufacturing, Mechanical, & Telecom; Media, Hospitality, & Transportation; Oil, Gas, & Energy.`,
+            ans: `We focus on industry-relevant advances in data science and cover top-rated domains like –`,
             open: false,
+            dscoursefaq1:true,
+            list1:"Retail",
+            list2:"Technology",
+            list3:"Consulting",
+            list4:"Healthcare",
+            list5:"Manufacturing",
+            list6:"BFSI",
           },
           {
             id: 3,
@@ -2317,7 +2319,7 @@ export const DataScienceCourseData = [
           {
             id: 1,
             ques: "How many real-time projects will be there?",
-            ans: "We have a set of 10+ Real-time projects from multiple domains such as Healthcare, Banking, Finance, Insurance, Retail, and others. Based on your interest you can choose your project to work on.",
+            ans: "Here, you will work on 12+ executive-level real-time industry projects best suited to your selected domains. ",
             linkText1: " Click here to download the list of the projects.",
             link1:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
@@ -2339,8 +2341,12 @@ export const DataScienceCourseData = [
           {
             id: 0,
             ques: "Is there any accredited certification after course completion?",
-            ans: "Yes, you will be awarded IBM and Microsoft accredited certificates on successful course completion of the Data Science and AI for Managers & Leaders Program.",
+            ans: "Learners joining our Data Science and AI program for Managers and Leaders will receive globally recognized IBM & Microsoft certifications. Most specifically, experts will earn –",
             open: true,
+            dscoursefaq:true,
+            list1:"Industry-recognized IBM Course Certification",
+            list2:"Globally recognized Microsoft Azure AI Certification",
+            list3:"IBM Capstone Project Certificate",
           },
         ],
       },
@@ -2358,7 +2364,7 @@ export const DataScienceCourseData = [
           {
             id: 1,
             ques: "How many interview calls will I get at Learnbay?",
-            ans: "At Learnbay, we offer unlimited interview calls. You can attend these interviews until you land a job with top MNCs.",
+            ans: "Learners will receive 8 – 10 interview calls from top-rated industry partners (MNCs). ",
             open: false,
           },
           {
@@ -2429,20 +2435,15 @@ Dedicated Placement Team for soft skills training`,
             ans: "After enrolling in the course, you are open to use 24x7 learner’s support to resolve any query. Call the helpline to connect with service providers who can assist you with any technical problems on the course platform.",
             open: true,
           },
+       
           {
             id: 1,
-            ques: "Is there a discussion forum or community for students?              ",
-            ans: "Learners will get access to a customized ‘Learnbay App’ where batch-wise students are added along with their mentors. They can directly reach out to their mentors to resolve queries (related to coursework, projects, & placement) in case of need and also discuss doubts with peers.               ",
-            open: false,
-          },
-          {
-            id: 2,
             ques: "Is there a discussion forum or community for students to interact and seek help?",
             ans: "Learnbay offers live-instructor-led training sessions that are also recorded for future use. In case, you miss a class, you have access to pre-recorded sessions to go through the learnings. If you wish to catch up on a topic or clarify some doubts, our mentors are available 24/7 on call/chat. Apart from this, if you find difficulties in managing your class timings and miss them, you can request for batch or timing change.               ",
             open: false,
           },
           {
-            id: 3,
+            id: 2,
             ques: "How long will I get Job referrals?",
             ans: "You will be provided with job assistance after the completion of the course for 1 year.",
             open: false,
