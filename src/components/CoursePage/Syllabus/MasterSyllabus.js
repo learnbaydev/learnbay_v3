@@ -6,6 +6,7 @@ import Button from "../../Global/Button/Button";
 import Form from "../../Global/Form/Form";
 import NewSyllabusMap from "./NewSyllabusMap";
 import styles from "./Syllabus.module.css";
+import NewSyllabusMangersGenAiMap from "./NewSyllabusMapMangersGenAI";
 
 function SyllabusNew({
   masterSyllabusMobile,
@@ -13,12 +14,14 @@ function SyllabusNew({
   fullStack,
   titleCourse,
   brochureLink,
-   brochurePdf,
+  brochurePdf,
   buttonHide,
   dataScienceCounselling,
   interstedInHide,
   MastersContent,
   isGuwahati,
+  onlyGENAIPage,
+  GenAIMangersOnly,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -34,7 +37,7 @@ function SyllabusNew({
           downloadBrochure
           titleCourse={titleCourse}
           brochureLink={brochureLink}
-           brochurePdf={brochurePdf}
+          brochurePdf={brochurePdf}
           interstedInHide={interstedInHide}
           upSkillingHide={true}
           popups={popups}
@@ -52,7 +55,17 @@ function SyllabusNew({
 
         <section className={styles.Syllabus}>
           <div className={styles.syllabusLeft}>
-            <NewSyllabusMap Syllabus={masterSyllabusMobile} />
+            {GenAIMangersOnly ? (
+              <NewSyllabusMangersGenAiMap
+                Syllabus={masterSyllabusMobile}
+                onlyGENAIPage={onlyGENAIPage}
+              />
+            ) : (
+              <NewSyllabusMap
+                Syllabus={masterSyllabusMobile}
+                onlyGENAIPage={onlyGENAIPage}
+              />
+            )}
           </div>
           <div className={styles.button}>
             <div className={styles.formWrapper}>

@@ -6,7 +6,7 @@ import MobileTestimonial from "@/components/Home/MobileTestimonial/MobileTestimo
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import { useMediaQuery } from "react-responsive";
-import { useEffect, useState } from "react";
+
 import Navbar from "../components/Global/Navbar/Navbar";
 const Animation = dynamic(() =>
   import("@/components/Home/whyChooseSection/whyChooseSection")

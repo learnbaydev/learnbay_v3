@@ -4,10 +4,10 @@ import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import dynamic from "next/dynamic";
 
 import LJourney from "../LJourney/LJourney";
-import NewCertificateSection from "../newCertificate/NewCertificate";
 import DSAFeeSection from "../dsaFee/DSAFeeSection";
 import NewTools from "../newTools/NewTools";
 import GenAIProject from "../genAiProject/GenAIProject";
+import FAQNew from "../FAQNew/FAQNew";
 const Certificate= dynamic(() =>
 import("../../../components/CoursePage/Certificate/Certificate")
 )
@@ -15,27 +15,16 @@ const SeventhSection = dynamic(() =>
   import("@/components/Global/SeventhSection/SeventhSection")
 );
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
-const FeeSection = dynamic(() => import("../FeeSection/FeeSection"));
-const MentorsSection = dynamic(() =>
-  import("../../Global/MentorsSection/MentorsSection")
-);
+
 const SliderTab = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
-const PlacementCall = dynamic(() =>
-  import("../../Global/PlacementCall/PlacementCallFsd")
-);
-const FAQNew = dynamic(() =>
-  import("../../../components/CoursePage/FAQNew/FAQNew")
-);
-const Content = dynamic(() =>
-  import("@/components/CoursePage/Content/content")
-);
+
 
 const GenAiProSecondPart = ({
   masterSyllabusMobile,
-  FAQNewData,
   toolsData,
   CertificateData,
   genAiData,
+  FAQNewData,
 }) => {
 
   // console.log(popupData);
@@ -47,6 +36,7 @@ const GenAiProSecondPart = ({
       <NewTools toolsData={toolsData}/>
       <SyllabusNew
         masterSyllabusMobile={masterSyllabusMobile}
+        onlyGENAIPage={true}
         dataScienceCounselling={true}
         dataScience={true}
         titleCourse=""
@@ -116,8 +106,8 @@ const GenAiProSecondPart = ({
       {/* <MentorsSection /> */}
       <SliderTab />
       {/* <PlacementCall /> */}
-      <GenAIProject genAiData ={genAiData }/>
-      {/* <FAQNew FAQNewData={FAQNewData} /> */}
+      <GenAIProject genAiData ={genAiData} Duration={true}/>
+      <FAQNew FAQNewData={FAQNewData} />
       {/* <Content dataScienceCounselling={true} DSASeoContent={true} /> */}
       <SeventhSection />
       <Footer />

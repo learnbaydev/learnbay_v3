@@ -46,6 +46,7 @@ const IITCloudDevopsSecondPart = ({
         brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}
+        onlyGENAIPage={true}
       />
 
       <Certificate data={CertificateData} noTabs={true} />

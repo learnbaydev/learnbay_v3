@@ -161,6 +161,7 @@ export const GENAIManagersLeadersCourseData = [
       {
         Module0: {
           title: "Module 1:- Fundamentals of Generative AI for Leaders",
+          hours: "(40 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp",
           StartImageUrl:
@@ -186,6 +187,7 @@ export const GENAIManagersLeadersCourseData = [
       {
         Module0: {
           title: "Module 2:- Industry-Specific Use Cases of GenAI",
+          hours: "(40 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -215,6 +217,7 @@ export const GENAIManagersLeadersCourseData = [
       {
         Module0: {
           title: "Module 3 :- AI-Driven Decision Making",
+          hours: "(20 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellows.webp",
           StartImageUrl:
@@ -241,6 +244,7 @@ export const GENAIManagersLeadersCourseData = [
       {
         Module0: {
           title: "Module 4 :- Workflow Automation using GenAI",
+          hours: "(20 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/world-rounds.webp",
           StartImageUrl:
@@ -268,6 +272,7 @@ export const GENAIManagersLeadersCourseData = [
       {
         Module0: {
           title: "Module 5 :- GenAI in Sales and Marketing",
+          hours: "(20 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/deployment-colors.webp",
           StartImageUrl:
@@ -301,6 +306,7 @@ export const GENAIManagersLeadersCourseData = [
         Module0: {
           title:
             "Module 6 :- GenAI Tools & Applications for Software Development",
+          hours: "(20 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/mix-round.webp ",
           StartImageUrl:
@@ -327,6 +333,7 @@ export const GENAIManagersLeadersCourseData = [
       {
         Module0: {
           title: "Module 7:- GenAI in Customer Services and Operations",
+          hours: "(20 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-round.webp",
           StartImageUrl:
@@ -355,6 +362,7 @@ export const GENAIManagersLeadersCourseData = [
       {
         Module0: {
           title: "Module 8:- GenAI in Data Analytics",
+          hours: "(20 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/slice-rounds.webp",
           StartImageUrl:
@@ -384,6 +392,7 @@ export const GENAIManagersLeadersCourseData = [
       {
         Module0: {
           title: "Module 1:- Deep Learning Essentials for GenAI",
+          hours: "(20 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lap-rounds.webp",
           StartImageUrl:
@@ -410,6 +419,7 @@ export const GENAIManagersLeadersCourseData = [
       {
         Module0: {
           title: "Module 2:- Prompt Engineering for Managers",
+          hours: "(20 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
           StartImageUrl:
@@ -436,6 +446,7 @@ export const GENAIManagersLeadersCourseData = [
       {
         Module0: {
           title: "Module 3 :- Transformers and Large Language Models (LLMs)",
+          hours: "(20 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
           StartImageUrl:
@@ -463,6 +474,7 @@ export const GENAIManagersLeadersCourseData = [
       {
         Module0: {
           title: "Module 4 :- Integration of OpenAI APIs",
+          hours: "(20 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/flow-rounds.webp",
           StartImageUrl:
@@ -490,6 +502,7 @@ export const GENAIManagersLeadersCourseData = [
         Module0: {
           title:
             "Module 5 :- Building Applications with LangChain for Business Use",
+          hours: "(20 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
           StartImageUrl:
@@ -517,6 +530,7 @@ export const GENAIManagersLeadersCourseData = [
       {
         Module0: {
           title: "Module 6 :- RetrievalAugmented Generation Fudamentals (RAG)",
+          hours: "(20 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lazy-rounds.webp",
           StartImageUrl:
@@ -544,6 +558,7 @@ export const GENAIManagersLeadersCourseData = [
       {
         Module0: {
           title: "Module 7 :- Overview of Model Deployment and Scalability",
+          hours: "(20 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-round.webp",
           StartImageUrl:
@@ -571,6 +586,7 @@ export const GENAIManagersLeadersCourseData = [
       {
         Module0: {
           title: "Module 8:- Ethical Considerations in AI for Leadership",
+          hours: "(20 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/chat-rounds.webp",
           StartImageUrl:
@@ -701,30 +717,48 @@ export const GENAIManagersLeadersCourseData = [
     genAiData: [
       {
         id: 1,
-        title: "Employee Engagement Chatbot",
+        title: "Sales Forecasting Using Generative AI ",
         description:
           "Objective: Build a conversational AI chatbot that provides personalized employee feedback, wellness suggestions, and engagement insights. Outcome: Managers will learn to enhance HR processes using AI-driven solutions",
         iconUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-61.webp", // Provide the path to the icon image
+        listItems: [
+          "Objective: Develop a generative AI-based sales forecasting model tailored for decision-making in retail or FMCG domains.",
+          "Outcome: Learners will create predictive sales reports and simulate scenarios for strategic planning.",
+          "Skills Covered: Time-series analysis, prompt engineering, data preprocessing, using OpenAI APIs, and visualization techniques.",
+        ],
         rank: "#1",
+        duration:"20 hours",
       },
       {
         id: 2,
-        title: "Strategic Decision Automation for Supply Chain",
+        title: "Employee Engagement Chatbot",
         description:
           "Objective: Create an AI system that generates actionable insights and strategies for inventory optimization and logistics planning. Outcome: Learn to automate decision-making processes, ensuring cost efficiency and reduced lead times.",
         iconUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-21.webp", // Provide the path to the icon image
+        listItems: [
+          "Objective: Build a conversational AI chatbot that provides personalized employee feedback, wellness suggestions, and engagement insights.",
+          "Outcome: Managers will learn to enhance HR processes using AI-driven solutions for improved employee satisfaction.",
+          "Skills Covered: Natural language understanding (NLU), chatbot flow design, fine-tuning LLMs, and LangChain integration.",
+        ],
         rank: "#2",
+        duration:"20 hours",
       },
       {
         id: 3,
-        title: "Sales Forecasting Using Generative AI",
+        title: "Strategic Decision Automation for Supply Chain",
         description:
           "Objective: Develop a generative AI-based sales forecasting model tailored for decision-making in retail or FMCG domains. Outcome: Learners will create predictive sales reports and simulate scenarios for strategic planning.",
         iconUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-31.webp", // Provide the path to the icon image
+        listItems: [
+          "Objective: Create an AI system that generates actionable insights and strategies for inventory optimization and logistics planning.",
+          "Outcome: Participants will learn to automate decision-making processes, ensuring cost efficiency and reduced lead times.",
+          "Skills Covered: Generative AI applications in supply chain, OpenAI APIs, and dashboard creation using Tableau/Power BI.",
+        ],
         rank: "#3",
+        duration:"20 hours",
       },
 
       {
@@ -734,7 +768,46 @@ export const GENAIManagersLeadersCourseData = [
           "Objective: Design a  GenAI tool to create personalized ad campaigns and content suggestions Outcome: Learn how to leverage AI to boost ROI through targeted and data-driven marketing strategies.",
         iconUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-41.webp", // Provide the path to the icon image
-        rank: "#4",
+          listItems: [
+            "Objective: Design a generative AI tool to create personalized ad campaigns and content suggestions for diverse customer segments.",
+            "Outcome: Learners will understand how to leverage AI to boost ROI through targeted and data-driven marketing strategies.",
+            "Skills Covered: Customer segmentation using AI, creative content generation, and integration with marketing platforms.",
+          ],
+          rank: "#4",
+          duration:"20 hours",
+      },
+
+      {
+        id: 5,
+        title: "Financial Risk Assessment with AI Insights",
+        description:
+          "Objective: Design a  GenAI tool to create personalized ad campaigns and content suggestions Outcome: Learn how to leverage AI to boost ROI through targeted and data-driven marketing strategies.",
+        iconUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-31.webp", // Provide the path to the icon image
+          listItems: [
+            "Objective: Build a generative AI model that identifies potential financial risks and suggests mitigation strategies for banking or investment sectors.",
+            "Outcome: Participants will learn to use AI for improving risk management and decision-making in financial operations.",
+            "Skills Covered: Prompt engineering for financial insights, OpenAI APIs, and data interpretation for risk analysis.",
+          ],
+          rank: "#5",
+          duration:"20 hours",
+      },
+
+
+      {
+        id: 6,
+        title: " Automated Customer Feedback Analysis",
+        description:
+          "Objective: Design a  GenAI tool to create personalized ad campaigns and content suggestions Outcome: Learn how to leverage AI to boost ROI through targeted and data-driven marketing strategies.",
+        iconUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-41.webp", // Provide the path to the icon image
+          listItems: [
+            "Objective: Develop an AI-driven tool to analyze and summarize customer feedback from various platforms (social media, surveys, etc.).",
+            "Outcome: Learners will design solutions to extract actionable insights for product or service improvement.",
+            "Skills Covered: Text summarization, sentiment analysis, and using generative AI for customer experience management.",
+          ],
+          rank: "#6",
+          duration:"20 hours",
       },
       // Add more data as needed
     ],

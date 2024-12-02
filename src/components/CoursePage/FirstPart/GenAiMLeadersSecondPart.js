@@ -43,6 +43,8 @@ const GenAiMLeadersSecondPart = ({
         brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}
+        // onlyGENAIPage={true}
+        GenAIMangersOnly={true}
       />
 
 <Certificate data={CertificateData}  noTabs={true}/>
@@ -106,7 +108,7 @@ const GenAiMLeadersSecondPart = ({
       <SliderTab />
       {/* <PlacementCall /> */}
 
-      <GenAIProject genAiData ={genAiData }/>
+      <GenAIProject genAiData ={genAiData } GENAIMAN={true} Duration={true}/>
       {/* <FAQNew FAQNewData={FAQNewData} /> */}
       {/* <Content dataScienceCounselling={true} DSASeoContent={true} /> */}
       <SeventhSection />

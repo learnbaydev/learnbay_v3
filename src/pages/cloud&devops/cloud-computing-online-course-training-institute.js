@@ -3,10 +3,6 @@ import { parseJSONData } from "@/Util/JsonConvertor";
 import FirstPart from "@/components/CoursePage/FirstPart/CloudOnlyFirstpart";
 import SecondPart from "@/components/CoursePage/FirstPart/CloudOnlySecondPart";
 import Navbar from "@/components/Global/Navbar/Navbar";
-import {
-  cloudDevOpsSchema,
-  cloudCourseSchema,
-} from "@/Data/Schema/CloudAnddevopsSchema"; // Import the schema
 
 function CloudAndDevOpsCoursePage({ CloudAndDevOpsCourseDataJson }) {
   const CloudAndDevOpsCourseData = parseJSONData(CloudAndDevOpsCourseDataJson);

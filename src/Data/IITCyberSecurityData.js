@@ -65,7 +65,7 @@ export const IITCyberSecurityData = [
       },
       {
         id: 4,
-        title: "Certification from IIT ",
+        title: "Certification ",
         description: "Get certified from  ",
         imageSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/mastr_Icon_four+(1).webp",
@@ -81,7 +81,7 @@ export const IITCyberSecurityData = [
       {
         image:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_why.webp",
-        title: "IIT-Backed Certification",
+        title: "iHUB DivyaSampark, IIT Roorkee Certification",
         description:
           "Stand out with a prestigious certification from iHUB DivyaSampark, IIT Roorkee.",
         subItems: [
@@ -592,9 +592,9 @@ export const IITCyberSecurityData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iHub-cer.webp",
         title: "Certification from iHUB DivyaSampark, IIT Roorkee",
         para: [
-          "Executive Certification: Earned in Cyber Security from DivyaSampark, IIT Roorkee.",
+          "Executive Certification: Earned in Cyber Security from iHUB DivyaSampark, IIT Roorkee.",
           "Hands-On Experience: Practical learning at IIT Roorkee campus",
-          "Top Faculty: Learn directly from IIT experts.",
+          "Top Faculty: Learn directly from iHUB DivyaSampark, IIT Roorkee experts.",
         ],
       },
       microCertificate: {
