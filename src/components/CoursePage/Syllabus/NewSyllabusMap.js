@@ -3,7 +3,7 @@ import { FaChevronUp, FaChevronDown } from "react-icons/fa";
 import styles from "./Syllabus.module.css";
 import Image from "next/image";
 
-const NewSyllabusMap = ({ Syllabus }) => {
+const NewSyllabusMap = ({ Syllabus, onlyGENAIPage }) => {
   const [mSyllabus, setMSyllabus] = useState(Syllabus);
 
   const handleChangeMobile = (index) => {
@@ -66,7 +66,8 @@ const NewSyllabusMap = ({ Syllabus }) => {
             >
               <div className={Module0.open ? styles.quesO : styles.ques}>
                 <div className={styles.pointsdiv}>
-                  <h2>{Module0.title}</h2>
+                  <h2>{Module0.title}</h2> 
+         
                   {/* <div className={styles.pointsinside}>
                     {Module0.points && (
                       <span className={styles.points}>{Module0.points}</span>
@@ -79,6 +80,7 @@ const NewSyllabusMap = ({ Syllabus }) => {
                     )}
                   </div> */}
                 </div>
+                {onlyGENAIPage ? (  <span className={styles.hoursSpan}>{Module0.hours}</span>):(null)}
                 <span>
                   {Module0.open ? (
                     <FaChevronUp className="icon" />

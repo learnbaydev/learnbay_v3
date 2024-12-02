@@ -160,6 +160,7 @@ export const IITCloudDevopsData = [
       {
         Module0: {
           title: "TERM 1  :- Cloud Basics and Linux Fundamentals",
+          hours: "(40 Hours)",
           imageUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/LINUX+FUNDAMENTALS_round.webp ",
         StartImageUrl:
@@ -210,6 +211,7 @@ export const IITCloudDevopsData = [
       {
         Module0: {
           title: "TERM 2 :- Python Programming Essentials",
+          hours: "(40 Hours)",
           imageUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
         StartImageUrl:
@@ -278,6 +280,7 @@ export const IITCloudDevopsData = [
       {
         Module0: {
           title: "TERM 3 :- AWS Cloud Mastery",
+          hours: "(40 Hours)",
           imageUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Aws_syll.webp",
         StartImageUrl:
@@ -337,6 +340,7 @@ export const IITCloudDevopsData = [
       {
         Module0: {
           title: "TERM 4 :- Microsoft Azure Proficiency (Optional)",
+          hours: "(40 Hours)",
           imageUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_round.webp",
         StartImageUrl:
@@ -395,6 +399,7 @@ export const IITCloudDevopsData = [
       {
         Module0: {
           title: "TERM 5 :- Google Cloud Platform (GCP) Fundamentals",
+          hours: "(40 Hours)",
           imageUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_round.webp",
         StartImageUrl:
@@ -446,6 +451,7 @@ export const IITCloudDevopsData = [
       {
         Module0: {
           title: "TERM 6 :- Server and Application Virtualization",
+          hours: "(40 Hours)",
           imageUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SERVER_round.webp",
         StartImageUrl:
@@ -496,6 +502,7 @@ export const IITCloudDevopsData = [
       {
         Module0: {
           title: "TERM 7 :- Data Migration and Resilience",
+          hours: "(40 Hours)",
           imageUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
         StartImageUrl:
@@ -555,6 +562,7 @@ export const IITCloudDevopsData = [
       {
         Module0: {
           title: "TERM 8 :- DevOps Mastery and Tooling",
+          hours: "(40 Hours)",
           imageUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEVOPS_round.webp",
         StartImageUrl:
@@ -625,6 +633,7 @@ export const IITCloudDevopsData = [
       {
         Module0: {
           title: "TERM 9 :- Advanced Security and DevSecOps",
+          hours: "(40 Hours)",
           imageUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
         StartImageUrl:
@@ -675,6 +684,7 @@ export const IITCloudDevopsData = [
       {
         Module0: {
           title: "TERM 10 :- Electives and Specialized Cloud Projects",
+          hours: "(40 Hours)",
           imageUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_round.webp",
         StartImageUrl:
@@ -733,6 +743,7 @@ export const IITCloudDevopsData = [
       {
         Module0: {
           title: "TERM 11 :- GenAI Essentials for Cloud & Devops",
+          hours: "(40 Hours)",
           imageUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_round.webp",
         StartImageUrl:
@@ -873,6 +884,7 @@ export const IITCloudDevopsData = [
         Module0: {
           title:
             "TERM 12 :- Cloud Computing Masterclass - IIT Guwahati Faculty",
+            hours: "(40 Hours)",
             imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SERVER_round.webp",
           StartImageUrl:

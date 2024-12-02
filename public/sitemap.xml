@@ -26,11 +26,6 @@
 		<changefreq>daily</changefreq>
 		<priority>0.90</priority>
 	</url>
-	<url>
-		<loc>https://www.learnbay.co/datascience/data-science-ai-masters-program</loc>
-		<changefreq>daily</changefreq>
-		<priority>0.90</priority>
-	</url>
 
 	<url>
 		<loc>https://www.learnbay.co/fullstack/full-stack-software-development-program</loc>
