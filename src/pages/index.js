@@ -8,6 +8,13 @@ import Head from "next/head";
 import { useMediaQuery } from "react-responsive";
 
 import Navbar from "../components/Global/Navbar/Navbar";
+import InfinityLogo from "@/components/Home/newUI/InfinityLogo/InfinityLogo";
+import KickStart from "@/components/Home/newUI/KickStartSection/KickStart";
+import NewCourse from "@/components/Home/newUI/NewCourse/NewCourse";
+import ReviewSlider from "@/components/Home/newUI/reviewSlider/reviewSlider";
+import CLogo from "@/components/Home/newUI/Compnays/CLogo";
+import Other from "@/components/Home/newUI/OtherVS/Other";
+import NewSevenSection from "@/components/Home/newUI/SeventhSectionNew/NewSevenSection";
 const Animation = dynamic(() =>
   import("@/components/Home/whyChooseSection/whyChooseSection")
 );
@@ -19,7 +26,7 @@ const Realstory = dynamic(() =>
   import("@/components/Home/Realstory/Realstory")
 );
 const ContactUs = dynamic(() =>
-  import("@/components/Home/ContactUs/ContactUs")
+  import("@/components/Home/newUI/ContactUs/ContactUs")
 );
 const GetHire = dynamic(() => import("@/components/Home/GetHire/GetHire"));
 const TrainerSection = dynamic(() =>
@@ -376,21 +383,27 @@ export default function Home() {
         radio={true}
         idss="ZPOTy4PEnNU"
       />
-
-      <Course dataScience={true} radio={true} />
-      <WhyLearnbay ids="YWxTtvb3x-U" />
+      <InfinityLogo />
+      <KickStart />
+      <NewCourse dataScience={true} radio={true} />
+      {/* <Course dataScience={true} radio={true} /> */}
+      {/* <WhyLearnbay ids="YWxTtvb3x-U" /> */}
 
       <Animation />
-      <div className="realstory">
+      <ReviewSlider />
+      {/* <div className="realstory">
         <Realstory />
-      </div>
-
-      <TrainerSection idss="eautK0odE7Q" />
+      </div> */}
       <ContactUs dataScienceCounselling={true} radio={true} />
-      <GetHire />
+      <CLogo/>
+      <Other/>
+      {/* <TrainerSection idss="eautK0odE7Q" /> */}
+      <ContactUs dataScienceCounselling={true} radio={true} />
+      {/* <GetHire /> */}
       <MobileTestimonial radio={true} dataScienceCounselling={true} />
       <Media projectData={data} />
-      <SeventhSection />
+      <NewSevenSection radio={true} dataScienceCounselling={true} />
+      {/* <SeventhSection /> */}
 
       <Footer />
       <WhatsappFloat chat360code1={true} />

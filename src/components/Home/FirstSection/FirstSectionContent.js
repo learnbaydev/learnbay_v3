@@ -22,7 +22,7 @@ function HeroSection({ setPopups }) {
 
   return (
     <section className={styles.conteiner}>
-      <div className={styles.gridConteiner}>
+      <div className={`${styles.gridConteiner} width`}>
         <div className={styles.leftside}>
           <h1>
             India’s <span className={styles.spantitle}>#1 Project-based</span>{" "}
