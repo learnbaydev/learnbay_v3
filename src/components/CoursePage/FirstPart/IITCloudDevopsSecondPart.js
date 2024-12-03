@@ -47,6 +47,7 @@ const IITCloudDevopsSecondPart = ({
         buttonHide={true}
         interstedInHide={true}
         onlyGENAIPage={true}
+        IITGenCloudonly={true}
       />
 
       <Certificate data={CertificateData} noTabs={true} />

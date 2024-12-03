@@ -106,8 +106,9 @@ const GenAiMLeadersFirstPart = ({ summaryData, whyChooseData }) => {
       <WhoIsProgram
         first="For Project Managers, Technical Leaders, and Team Leads in tech."
         second="Minimum 4 year of  work experience is required"
-        third="Mid-career professionals interested in data science & AII"
+        third="You should understand Python, Machine Learning, and basic Deep Learning."
         forth="Achieving higher career growth in data science and AI "
+        genAI={true}
       />
     
       <GetHire />

@@ -6,7 +6,7 @@ import {
 } from "react-icons/md";
 import Styles from "./WhoIsProgram.module.css";
 
-function WhoIsProgram({ first, second, third, forth }) {
+function WhoIsProgram({ first, second, third, forth, genAI }) {
   return (
     <section className={Styles.container}>
       <h3>Who is this program for</h3>
@@ -28,7 +28,10 @@ function WhoIsProgram({ first, second, third, forth }) {
         <div className={Styles.InnerBox}>
           <div className={Styles.imgBox}>
             <FaUserGraduate className={Styles.icon} />
-            <p className={Styles.BgCont1}>Career Stage</p>
+{
+
+  genAI ? (            <p className={Styles.BgCont1}>Course Prerequisites</p>):(            <p className={Styles.BgCont1}>Career Stage</p>)
+}
           </div>
           <p className={Styles.BoxCont}>{third}</p>
         </div>
