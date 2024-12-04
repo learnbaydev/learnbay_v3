@@ -30,7 +30,7 @@ function CertificateTab({
               }}
               className={IActive ? styles.activeP : styles.inactiveP}
             >
-              IIT Roorkee
+              iHUB IIT Roorkee
             </p>
             
             

@@ -108,6 +108,7 @@ const GenAiMLeadersFirstPart = ({ summaryData, whyChooseData }) => {
         second="Minimum 4 year of  work experience is required"
         third="Mid-career professionals interested in data science & AII"
         forth="Achieving higher career growth in data science and AI "
+        
       />
     
       <GetHire />

@@ -593,8 +593,8 @@ export const IITCyberSecurityData = [
         title: "Certification from iHUB DivyaSampark, IIT Roorkee",
         para: [
           "Executive Certification: Earned in Cyber Security from iHUB DivyaSampark, IIT Roorkee.",
-          "Hands-On Experience: Practical learning at IIT Roorkee campus",
-          "Top Faculty: Learn directly from iHUB DivyaSampark, IIT Roorkee experts.",
+          "Hands-On Experience: Practical learning at IIT Roorkee campus*",
+          "Top Faculty: Learn directly from IIT faculty.",
         ],
       },
       microCertificate: {

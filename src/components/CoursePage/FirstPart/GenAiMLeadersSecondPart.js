@@ -45,6 +45,7 @@ const GenAiMLeadersSecondPart = ({
         interstedInHide={true}
         // onlyGENAIPage={true}
         GenAIMangersOnly={true}
+        genAIIIT={true}
       />
 
 <Certificate data={CertificateData}  noTabs={true}/>

@@ -176,6 +176,14 @@
   margin-bottom: 30px;
 }
 
+.GenAIQues{
+  display: grid;
+  grid-template-columns: 72% 20% 10%;
+}
+.GenAIQuesO{
+  display: grid;
+  grid-template-columns: 72% 20% 10%;
+}
 .quesO {
   display: flex;
   justify-content: space-between;
@@ -196,7 +204,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 158%; /* 31.6px */
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .ques h2 {
@@ -205,7 +213,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: 158%; /* 31.6px */
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .ans {
@@ -454,9 +462,12 @@
   align-items: center;
   gap: 10px;
 }
+.pointsdivGEnAI{
+  justify-content:start;
+}
 
 .hoursSpan {
-  position: absolute;
+  /* position: absolute; */
   top: 40px;
   left: 82%;
   font-weight: 800;
@@ -540,16 +551,24 @@
   padding: 0;
   margin: 0;
 }
-@media (min-width: 1281px) {
-  .customArrow2 {
-    left: 1264px;
-  }
+
+.coursePReq{
+  margin-left: 180px;
+  color: #0072bc;
 }
+.coursePReq :nth-child(1){
+color: red;
+font-weight: 300;
+}
+
 
 @media (max-width: 1281px) {
 
   .Syllabus {
     margin: 70px 20px 0px 20px;
+  }
+  .customArrow2 {
+    left: 1264px;
   }
   .FlexInput {
     display: flex;
@@ -630,7 +649,7 @@
   }
 
   .hoursSpan {
-    position: absolute;
+    /* position: absolute; */
     top: 40px;
     left: 79%;
     font-weight: 800;
@@ -711,6 +730,9 @@
     padding: 20px;
     height: fit-content;
   }
+  .GenAIQues{
+    grid-template-columns: 71% 23% 2%;
+  }
   .quesO {
     padding: 20px;
     height: fit-content;
@@ -758,6 +780,9 @@
     display: grid;
     grid-template-columns: 65% 30%;
     align-items: center;
+  }
+  .coursePReq{
+    margin: 20px;
   }
 }
 @media (max-width: 481px) {

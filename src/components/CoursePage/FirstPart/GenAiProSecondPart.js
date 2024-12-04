@@ -44,6 +44,7 @@ const GenAiProSecondPart = ({
         brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}
+        genAIIIT={true}
       />
 
 <Certificate data={CertificateData}  noTabs={true}/>
