@@ -1,13 +1,13 @@
 import React, { useState, useRef, useEffect, memo } from "react";
 import styles from "./NewCourse.module.css";
 import Image from "next/image";
-import { courses, masterCourse, SvgArrow } from "./NewCourseData"; // Import course and master data
+import { courses, masterCourse, SvgArrow } from "./NewCourseData"; 
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import DataScienceCard from "./DataScienceCard";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/swiper-bundle.min.css"; // Import Swiper styles
-import { Navigation, Pagination } from "swiper"; // Import modules for Swiper
+import "swiper/swiper-bundle.min.css"; 
+import { Navigation, Pagination } from "swiper"; 
 import { MdOutlineFileDownloadSvg } from "@/Data/svgData/MDIcons";
 
 const Popup = dynamic(() => import("@/components/Global/Popup/Popup"));
@@ -22,7 +22,7 @@ const NewCourse = ({
   interstedInHide,
 }) => {
   const [activeTab, setActiveTab] = useState("all");
-  const [visibleCount, setVisibleCount] = useState(0);
+  const [visibleCount, setVisibleCount] = useState(6);
   const [isMobile, setIsMobile] = useState(false);
   const [popups, setPopups] = useState(false);
   const [titleCourse, setTitleCourse] = useState();
@@ -34,10 +34,10 @@ const NewCourse = ({
     const handleResize = () => {
       if (window.innerWidth <= 768) {
         setIsMobile(true);
-        setVisibleCount(0);
+        setVisibleCount(12);
       } else {
         setIsMobile(false);
-        setVisibleCount(0);
+        setVisibleCount(9);
       }
     };
 
@@ -55,10 +55,40 @@ const NewCourse = ({
         {isMobile ? (
           <Swiper
             modules={[Navigation, Pagination]}
-            spaceBetween={16}
-            slidesPerView={1}
+    
             pagination={{ clickable: true }}
             className={styles.swiperContainer}
+            breakpoints={{
+              320: {
+                slidesPerView: 1, 
+                spaceBetween: 10,
+              },
+              412: {
+                slidesPerView: 1.2,
+                spaceBetween: 0,
+              },
+
+              512: {
+                slidesPerView: 1.4,
+                spaceBetween: 0,
+              },
+              612: {
+                slidesPerView: 1.6,
+                spaceBetween: 0,
+              },
+              712: {
+                slidesPerView: 2.1,
+                spaceBetween: 0,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+              },
+              1440: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+              },
+            }}
           >
             {visibleCourses.map((course, index) => (
               <SwiperSlide key={course.title}>
@@ -245,7 +275,7 @@ const NewCourse = ({
   };
 
   const renderMasterCourse = () => (
-    <div className={styles.MasterCard}>
+    <div className={`${styles.MasterCard} width`}>
       <Popup
         trigger={popups}
         setTrigger={setPopups}
@@ -352,17 +382,17 @@ const NewCourse = ({
   };
   const handleTabClick = debounceScroll((tabName) => {
     setActiveTab(tabName);
-    setVisibleCount(isMobile ? 9 : 9); // Adjust visibility count if needed
+    setVisibleCount(isMobile ? 9 : 6); 
 
     if (containerRef.current) {
         const containerTop = containerRef.current.getBoundingClientRect().top + window.scrollY;
 
         window.scrollTo({
-            top: containerTop - 100, // Scroll to the top of the container
+            top: containerTop - 100,
             behavior: "smooth",
         });
 
-        // Ensure the active tab is scrolled into view
+
         const activeTabElement = document.querySelector(`.${styles.tabdiv}.active`);
         if (activeTabElement) {
             activeTabElement.scrollIntoView({ behavior: "smooth", inline: "nearest" });
@@ -370,14 +400,14 @@ const NewCourse = ({
     }
 }, 200);
   const handleViewMore = () => {
-    setVisibleCount((prevCount) => prevCount + (isMobile ? 3 : 3));
+    setVisibleCount((prevCount) => prevCount + (isMobile ? 6 : 6));
   };
   
   const handleWheel = (event) => {
     event.preventDefault();
     if (containerRef.current) {
       containerRef.current.scrollBy({
-        left: event.deltaX > 0 ? 100 : -100, // Scroll right on down scroll and left on up scroll
+        left: event.deltaX > 0 ? 100 : -100, 
         behavior: 'smooth',
       });
     }
@@ -564,9 +594,9 @@ const NewCourse = ({
           </div>
 
           <div>
-            {activeTab === "all" && (
+            {/* {activeTab === "all" && (
               <DataScienceCard dataScience={true} radio={true} />
-            )}
+            )} */}
 
             <div className={styles.CourseCardHead}>{renderCourses()}</div>
           </div>

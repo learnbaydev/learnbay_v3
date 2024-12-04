@@ -279,8 +279,7 @@ align-items: center;
 }
 
 .MasterCard {
-  width: 100%;
-  max-width: 1200px;
+
   margin: auto;
   position: relative;
 }
@@ -372,9 +371,7 @@ line-height: 155%; /* 34.1px */
   .brochurebtn {
     font-size: 12px;
   }
-  .MasterCard {
-    width: 1280px;
-  }
+ 
   .bgImageMaster{
     width: 100%;
     height: auto;
@@ -429,14 +426,13 @@ line-height: 155%; /* 34.1px */
   .brochurebtn {
     font-size: 12px;
   }
+  .buttonsMaster{
+    top: -1vw;
+  }
 }
 
 @media screen and (max-width: 1081px) {
 
-    .MasterCard {
-        width: 980px;
-        height: autonew;
-    }
     .bgImageMaster{
         width: 100%;
     }
@@ -451,31 +447,25 @@ line-height: 155%; /* 34.1px */
     font-size:11px;
     padding: 10px 16px;
   }
-
-  .newSection{
-    grid-template-columns: 19% 74%;
-  }
-}
-@media screen and (max-width: 951px) {
-
-.MasterCard{
-    width: 100%;
-}
-
-}
-
-@media screen and (max-width: 1081px) {
-
   .CourseCardHead{
     grid-template-columns: 32% 32% 32%;
   }
   .cardContent h3 {
-    font-size: 17px;
+    font-size: 16px;
   }
   .lists span {
-    font-size: 15px;
+    font-size: 13px;
+  }
+
+  .newSection{
+    grid-template-columns: 19% 74%;
+  }
+  .contentConteiner h2 {
+    font-size: 22px;
   }
 }
+
+
 
 @media screen and (max-width:1024px) {
   .CourseCardHead{
@@ -487,9 +477,46 @@ line-height: 155%; /* 34.1px */
   .courseCard{
     max-width: 100%;
   }
+  .contentConteiner{
+    top: 2vw;
+  }
+  .contentConteiner h2 {
+    font-size: 18px;
+  }
+  .absloute h4 {
+    font-size: 28px;
+  }
+  .absloute span {
+    font-size: 14px;
+  }
+  .buttonsMaster button {
+    font-size: 10px;
+  }
 }
 
-@media screen and (max-width: 641px) {
+@media screen and (max-width: 961px) {
+
+  .MasterCard{
+      width: 100%;
+      padding: 0 30px;
+  }
+
+
+  .contentConteiner{
+    top: 1vw;
+  }
+  
+  }
+
+  @media screen and (max-width: 868px) {
+
+    .buttonsMaster{
+      top: -1.8vw;
+    }
+
+  }
+
+@media screen and (max-width: 768px) {
 
   .newSection {
 
@@ -506,6 +533,7 @@ line-height: 155%; /* 34.1px */
 
   }
 
+
 /* Custom scrollbar styles for .tabMain */
 .tabMain {
   width: 100%; /* Full width */
@@ -519,6 +547,7 @@ line-height: 155%; /* 34.1px */
   padding: 10px 0; /* Optional padding for aesthetics */
   scrollbar-width: thin; /* For Firefox */
   scrollbar-color: #0072bc black; /* For Firefox (thumb, track) */
+  max-width: 100%;
 }
 
 /* WebKit browsers */
@@ -572,19 +601,22 @@ line-height: 155%; /* 34.1px */
   }
 
   .cardContent h3 {
-    font-size: 24px;
+    font-size: 20px;
   }
   .cardContent {
     padding: 20px 30px;
     margin-bottom: 40px;
   }
-
+  .buttonsMaster button{
+    font-size: 18px !important;
+  }
   .buttons button {
-    font-size: 17px;
+    font-size: 15px;
     padding: 7px 19px;
   }
-  .buttons {
+  .buttonsMaster{
     gap: 10px;
+    top: 4vw;
   }
 
   .viewMoreContainer {
@@ -616,29 +648,37 @@ line-height: 155%; /* 34.1px */
     padding-bottom: 0;
   }
   .MasterCard {
-    width: 100%;
     padding: 20px;
   }
   .contentConteiner h2 {
     color: #fff;
-    font-size: 22px;
+    font-size: 34px;
     font-style: normal;
     font-weight: 600;
     line-height: 126.5%;
     letter-spacing: -0.22px;
     text-wrap: balance;
+    text-align: center;
   }
   .contentConteiner {
-    top: 70px;
-    padding: 10px 20px;
+    width: 80%;
+    display: flex;
+    left: 10%;
+    align-items: center;
+    justify-content: center;
+    top: 25%;
+
+  
   }
+
+
   .contentConteiner img {
     width: 30px;
     height: auto;
   }
   .absloute {
-    top: 148px;
-    left: 30px;
+    top: 47%;
+    left: 27%;
   }
   .absloute h4 {
     color: #7a7a7a;
@@ -700,14 +740,77 @@ line-height: 155%; /* 34.1px */
   .lists span{
 font-size: 16px;
   }
+
+  .bgImageMaster{
+      align-items: center;
+      width: 80%;
+      display: flex
+;
+      justify-content: center;
+      margin: auto;
+  }
+
+
   
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 481px) {
+
+.cardContent h3{
+font-size: 20px;
+}
+.lists span{
+  font-size: 14px;
+    }
+    .buttons button{
+      font-size: 15px;
+    }
+
+    .bgImageMaster{
+      margin: 0;
+      width: 100%;
+    }
+    .contentConteiner h2 {
+      text-align: left;
+      font-size: 26px;
+    }
+    .contentConteiner{
+      width: 80%;
+      align-items: flex-start;
+      justify-content: flex-start;
+      left: 3%;
+
+
+    }
+    .absloute {
+      top: 47%;
+      left: 6%;
+      right: 34%;
+
+    }
+}
+
+@media screen and (max-width: 431px) {
+.buttons button {
+  font-size: 14px;
+}
+.contentConteiner{
+  top: 15%;
+}
+.contentConteiner h2 {
+  font-size: 22px;
+}
+.absloute{
+  top: 32%;
+}
+}
+
+@media screen and (max-width: 414px) {
 
   .contentConteiner{
     font-size: 20px;
     padding: 0 20px;
+    top: 20%;
   }
   .absloute h4 {
     font-size: 27px;
@@ -715,9 +818,22 @@ font-size: 16px;
   .absloute span {
     font-size: 13px;
   }
+  .buttons button{
+    font-size: 13px;
+  }
+  .absloute{
+    top: 40%;
+  }
+
+  .buttonsMaster{
+    top: -2vw;
+  }
+  .buttonsMaster button{
+    font-size: 12px !important;
+  }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 375px) {
   .cardContent h3 {
     font-size: 20px;
   }
@@ -735,4 +851,14 @@ font-size: 16px;
   .buttonsMaster{
     top: -20px;
   }
+}
+
+@media screen and (max-width: 341px) {
+
+.lists span {
+  font-size: 12px;
+}
+.buttons button{
+  font-size: 10px;
+}
 }

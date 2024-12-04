@@ -9,8 +9,8 @@ import Reels from "./Reels";
 
 const ReviewSlider = () => {
   return (
-    <div className={styles.keyContainer}>
-      <Reels />
+    <div className={`${styles.keyContainer} width`}>
+      <Reels /> 
       <div className={styles.mainDiv}>
         {/* Bottom Review Section */}
         <div className={styles.reviewBotSection}>

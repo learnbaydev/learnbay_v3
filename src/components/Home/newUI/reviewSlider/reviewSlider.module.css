@@ -1,7 +1,4 @@
-.keyContainer {
-  width: 1200px;
-  margin: auto;
-}
+
 
 .mainContiner {
   display: flex;
@@ -116,9 +113,7 @@
   width: auto;
   height: 70px;
 }
-.headingContainer {
-  padding-top: 100px;
-}
+
 .mainHeading {
   color: #022646;
   font-size: 34px;
@@ -202,20 +197,15 @@ margin: 0;
 
 @media screen and ( max-width:1281px) {
   
-.keyContainer {
-  width: 1180px;
-}
+
 
 }
 @media screen and (max-width: 1081px) {
-  .keyContainer {
-    width: 1000px;
-  }
+ 
   .mySwiper {
     width: 1000px;
   }
-  .btnContainer {
-  }
+
   
 }
 
@@ -223,10 +213,7 @@ margin: 0;
   .mySwiper {
     width: 860px;
   }
-  .keyContainer {
-    width: 100%;
-    max-width: 860px;
-  }
+ 
 }
 
 

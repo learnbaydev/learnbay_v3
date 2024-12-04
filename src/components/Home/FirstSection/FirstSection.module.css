@@ -359,7 +359,7 @@
 
 @media screen and (max-width: 961px) {
   .gridConteiner {
-    grid-template-columns: 52% 38%;
+    grid-template-columns: 60% 38%;
     width: 100%;
     max-width: 860px;
   }

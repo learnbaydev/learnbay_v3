@@ -45,10 +45,40 @@ const DataScienceCard = ({
       <h2 className={styles.sectionTitle}>{sectionTitle}</h2>
       <Swiper
         modules={[Navigation, Pagination]}
-        spaceBetween={16}
-        slidesPerView={1}
+      
         pagination={{ clickable: true }}
         className={styles.swiperContainer}
+        breakpoints={{
+          320: {
+            slidesPerView: 1,  // Start simple for troubleshooting
+            spaceBetween: 10,
+          },
+          412: {
+            slidesPerView: 1.2,
+            spaceBetween: 0,
+          },
+
+          512: {
+            slidesPerView: 1.4,
+            spaceBetween: 0,
+          },
+          612: {
+            slidesPerView: 1.6,
+            spaceBetween: 0,
+          },
+          712: {
+            slidesPerView: 2.1,
+            spaceBetween: 0,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          1440: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+        }}
       >
         {sectionData.map((course) => (
           <SwiperSlide key={course.title}>
@@ -238,19 +268,19 @@ const DataScienceCard = ({
       </Popup>
 
       {/* Data Science and AI Section */}
-      {isMobile
+      {/* {isMobile
         ? renderSwiper(courses.dataScienceAndAI, '')
-        : renderDesktop(courses.dataScienceAndAI, '')}
+        : renderDesktop(courses.dataScienceAndAI, '')} */}
 
       {/* Business Analytics / Data Analytics Section */}
-      {isMobile
+      {/* {isMobile
         ? renderSwiper(courses.DABA, '', styles.BADA)
-        : renderDesktop(courses.DABA, '', styles.BADA)}
+        : renderDesktop(courses.DABA, '', styles.BADA)} */}
 
       {/* Cloud Computing & Software Development Section */}
-      {isMobile
+      {/* {isMobile
         ? renderSwiper(courses.CloudS, '', styles.CloudS)
-        : renderDesktop(courses.CloudS, '', styles.CloudS)}
+        : renderDesktop(courses.CloudS, '', styles.CloudS)} */}
     </div>
   );
 };

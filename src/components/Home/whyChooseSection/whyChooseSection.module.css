@@ -11,7 +11,7 @@
       /* Glowing orange circle */ transparent 30% /* Smoother transition */
     ),
     #212121;
-    margin-bottom: 100px;
+    margin: 60px 0;
 }
 
 .header p {
@@ -39,12 +39,14 @@ color: rgba(255, 241, 234, 1);
 }
 
 .columnDiv {
-  width: 760px;
+  width: 100%;
+  max-width: 760px;
   margin:80px auto;
 }
 
 .columnDivDSA{
-  width: 760px;
+  width: 100%;
+max-width: 760px;
 }
 
 .divContainer {
@@ -337,6 +339,28 @@ line-height: 126.5%; /* 31.625px */
 
 }
 /* Media Queries for smaller screens */
+@media screen and (max-width: 961px) {
+
+.columnDiv{
+  max-width: 700px;
+}
+.divContainer h4 {
+  font-size: 2.2rem;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .columnDiv{
+    max-width: 650px;
+  }
+  .divContainer h4 {
+    font-size: 1.8rem;
+  }
+
+
+
+}
+
 
 @media screen and (max-width: 641px) {
   .whyChooseSection {
