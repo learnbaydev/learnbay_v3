@@ -551,16 +551,24 @@
   padding: 0;
   margin: 0;
 }
-@media (min-width: 1281px) {
-  .customArrow2 {
-    left: 1264px;
-  }
+
+.coursePReq{
+  margin-left: 180px;
+  color: #0072bc;
 }
+.coursePReq :nth-child(1){
+color: red;
+font-weight: 300;
+}
+
 
 @media (max-width: 1281px) {
 
   .Syllabus {
     margin: 70px 20px 0px 20px;
+  }
+  .customArrow2 {
+    left: 1264px;
   }
   .FlexInput {
     display: flex;
@@ -772,6 +780,9 @@
     display: grid;
     grid-template-columns: 65% 30%;
     align-items: center;
+  }
+  .coursePReq{
+    margin: 20px;
   }
 }
 @media (max-width: 481px) {
