@@ -108,6 +108,7 @@ const GenAiProFirstPart = ({ summaryData, whyChooseData }) => {
         second="Minimum 2 year of  work experience is required"
         third="Mid-career professionals interested in Advance GenAI"
         forth="Achieving higher career growth in  AI."
+        
       />
     
       <GetHire />

@@ -113,7 +113,7 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Data Science Course in Chennai | Data Science Training in Chennai"
+          content="Data Science Course in pune | Data Science Training in pune"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta

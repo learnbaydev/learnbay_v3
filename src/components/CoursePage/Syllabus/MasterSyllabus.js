@@ -22,6 +22,7 @@ function SyllabusNew({
   isGuwahati,
   onlyGENAIPage,
   GenAIMangersOnly,
+  genAIIIT,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -131,6 +132,8 @@ function SyllabusNew({
             />
           </div>
         </div>
+{genAIIIT ? (        <p className={styles.coursePReq}><b>Note-</b> <strong>Course Prerequisites:</strong> You should have a basic understanding of Python, Machine Learning, & basic Deep Learning. *</p>
+):(null)}
       </div>
     </>
   );
