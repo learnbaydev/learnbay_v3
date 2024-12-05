@@ -215,8 +215,19 @@ margin: 0;
   }
  
 }
-
-
+@media screen and (max-width:961px) {
+  
+  .firstBotReview img {
+    width: 400px;
+    height: auto;
+  }
+}
+@media screen and (max-width:768px){
+  .firstBotReview img {
+    width: 350px;
+  }
+  
+}
 @media screen and (max-width: 641px) {
   .reviewBotSection {
     display: flex;

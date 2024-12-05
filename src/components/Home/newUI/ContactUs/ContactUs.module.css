@@ -15,8 +15,6 @@
   padding: 60px 0 0 0;
   display: grid;
   grid-template-columns: 56% 32%;
-  width: 1200px;
-  margin: auto;
   grid-gap: 110px;
   gap: 134px;
   z-index: 1;
@@ -278,7 +276,6 @@ font-weight: 700;
 @media (max-width: 1281px) {
 
   .ContactUs {
-    width: 960px;
     grid-template-columns: 44% 44%;
   
   }
@@ -294,7 +291,7 @@ font-weight: 700;
 
 @media (max-width: 1081px) {
   .ContactUs {
-    width: 960px;
+  
     grid-template-columns: 48% 40%;
     justify-content: center;
     gap: 40px;
@@ -303,7 +300,18 @@ font-weight: 700;
 }
 @media (max-width: 1024px) {
   .ContactUs {
-    padding: 30px;
+
+    grid-template-columns: 50% 34%;
+        justify-content: center;
+        gap: 40px;
+        padding: 0;
+        align-items: center;
+        margin: 50px auto;
+        gap: 10%;
+    
+  }
+  .NormalPForm{
+    font-size: 22px;
   }
   .slider{
     overflow: -moz-hidden-unscrollable;
@@ -316,11 +324,15 @@ font-weight: 700;
   .RightSide {
     padding: 10px;
   }
+  .conpara p {
+    width: 100%;
+  }
 }
 
 @media (max-width: 961px) {
+ 
   .ContactUs {
-    padding: 30px;
+    grid-template-columns: 56% 34%;
   }
 
   .h1Span {

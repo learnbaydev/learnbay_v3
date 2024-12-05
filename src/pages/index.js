@@ -398,7 +398,6 @@ export default function Home() {
       <CLogo/>
       <Other/>
       {/* <TrainerSection idss="eautK0odE7Q" /> */}
-      <ContactUs dataScienceCounselling={true} radio={true} />
       {/* <GetHire /> */}
       <MobileTestimonial radio={true} dataScienceCounselling={true} />
       <Media projectData={data} />

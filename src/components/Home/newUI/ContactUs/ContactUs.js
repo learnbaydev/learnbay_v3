@@ -48,7 +48,7 @@ function ContactUs({
         />
       )}
 
-      <div className={styles.ContactUs}>
+      <div className={`${styles.ContactUs} width`}>
         <div className={styles.LeftSide}>
           <h2 className={styles.h1}>
             Get Ahead with Industry-Leading Courses <br />
