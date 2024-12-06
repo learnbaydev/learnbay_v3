@@ -62,10 +62,16 @@
 }
 
 
-@media screen  and (max-width:951px){
+@media screen  and (max-width:968px){
   .container{
     width: 100%;
     max-width: 800px;
+  }
+}
+
+@media screen and (max-width:868px) {
+  .container{
+    max-width: 700px;
   }
 }
   

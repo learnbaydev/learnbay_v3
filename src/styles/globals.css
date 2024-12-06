@@ -22,6 +22,18 @@ body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
 }
+.react-tel-input{
+  border: none !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.20) !important;
+  border-radius: 0 !important;
+}
+.react-tel-input .selected-flag{
+  background-color:#fff;
+  border: 0;
+}
+.react-tel-input .flag-dropdown{
+  border: none !important;
+}
 h1 {
   font-size: 34px;
 }
@@ -201,6 +213,7 @@ margin-top: 100px;
 
 .react-tel-input .form-control {
   width: 100% !important;
+  color: gray !important;
 }
 
 /* New Styles */

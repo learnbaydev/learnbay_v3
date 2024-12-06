@@ -83,7 +83,7 @@ display: flex;
     
 }
 .continer h3{
-    font-size: 24px;
+    font-size: 28px;
 }
 .desktopText {
     display: none; /* Hide on mobile */
@@ -95,7 +95,7 @@ display: flex;
   .continer p {
     color: #000;
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 400;
     line-height: 140.5%;
@@ -108,20 +108,23 @@ display: flex;
 
   .MblTop{
     display: flex;
-    justify-content: space-around;
+            justify-content: center;
+            gap: 10px;
+    
+
     
   }
   .MblTop span {
     color: #0072BC;
-    font-size: 11.38px;
+    font-size: 13.38px;
     font-weight: 500;
     line-height: 243%;
     border-radius: 10.424px;
-    background: rgba(3, 131, 255, 0.10);
     display: flex;
     justify-content: center;
-    padding: 5px 10px;
+    /* padding: 5px 10px; */
     align-items: center;
+
 }
 
 .MblDown {
@@ -132,16 +135,14 @@ justify-content: center;
 }
 .MblDown span {
     color: #0072BC;
-    font-size: 11.38px;
+    font-size: 12.38px;
     font-weight: 500;
     line-height: 243%;
     border-radius:10.424px;
-    background: rgba(3, 131, 255, 0.10);
+ 
     display: flex;
     justify-content: center;
-    padding: 5px 10px;
     align-items: center;
-    margin: 20px;
 }
 .spantagsMbl{
     display:block;
@@ -151,13 +152,13 @@ justify-content: center;
 
 @media screen and (max-width:380px){
     .MblDown span {
-        font-size: 8.38px;
+        font-size: 11.38px;
 
 
     }
 
     .MblTop span {
-        font-size: 8.38px;
+        font-size: 11.38px;
     }
 
 }

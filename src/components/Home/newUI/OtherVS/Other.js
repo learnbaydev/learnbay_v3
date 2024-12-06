@@ -50,7 +50,7 @@ const Other = () => {
   };
 
   return (
-    <div className={styles.mainContainer}>
+    <div className={`${styles.mainContainer} width`}>
       <h2 className={styles.h2}>{otherData.title}</h2>
 
       <div className={styles.HeadDiv} ref={headDivRef}>

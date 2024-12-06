@@ -1,13 +1,13 @@
 import React, { useState, useRef, useEffect, memo } from "react";
 import styles from "./NewCourse.module.css";
 import Image from "next/image";
-import { courses, masterCourse, SvgArrow } from "./NewCourseData"; 
+import { courses, masterCourse, SvgArrow } from "./NewCourseData";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import DataScienceCard from "./DataScienceCard";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/swiper-bundle.min.css"; 
-import { Navigation, Pagination } from "swiper"; 
+import "swiper/swiper-bundle.min.css";
+import { Navigation, Pagination } from "swiper";
 import { MdOutlineFileDownloadSvg } from "@/Data/svgData/MDIcons";
 
 const Popup = dynamic(() => import("@/components/Global/Popup/Popup"));
@@ -17,7 +17,7 @@ const NewCourse = ({
   dataScience,
   radio,
   dataScienceCounselling,
-  organicADS,
+
   dataScienceGeneric,
   interstedInHide,
 }) => {
@@ -33,6 +33,7 @@ const NewCourse = ({
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth <= 768) {
+        
         setIsMobile(true);
         setVisibleCount(12);
       } else {
@@ -47,7 +48,16 @@ const NewCourse = ({
   }, []);
 
   const renderCourses = () => {
-    const selectedCourses = courses[activeTab];
+
+
+    let selectedCourses = courses[activeTab] || [];
+
+    // If it's mobile and 'all' tab is active, hide the 'all' courses
+    if (isMobile && activeTab === 'all') {
+      selectedCourses = []; // Clear courses when 'all' is active in mobile
+    }
+
+    // Slice the array to show only the number of visible courses
     const visibleCourses = selectedCourses.slice(0, visibleCount);
 
     return (
@@ -55,12 +65,11 @@ const NewCourse = ({
         {isMobile ? (
           <Swiper
             modules={[Navigation, Pagination]}
-    
             pagination={{ clickable: true }}
             className={styles.swiperContainer}
             breakpoints={{
               320: {
-                slidesPerView: 1, 
+                slidesPerView: 1,
                 spaceBetween: 10,
               },
               412: {
@@ -107,8 +116,8 @@ const NewCourse = ({
                       <div className={styles.listicondiv}>
                         <Image
                           src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cer_icons.webp"
-                          width={25}
-                          height={25}
+                          width={20}
+                          height={20}
                           alt="certificate_icon"
                           loading="lazy"
                         />
@@ -117,8 +126,8 @@ const NewCourse = ({
                       <div className={styles.listicondiv}>
                         <Image
                           src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Date_icons.webp"
-                          width={25}
-                          height={25}
+                          width={20}
+                          height={20}
                           alt="certificate_icon"
                           loading="lazy"
                         />
@@ -127,8 +136,8 @@ const NewCourse = ({
                       <div className={styles.listicondiv}>
                         <Image
                           src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Save_icons.webp"
-                          width={25}
-                          height={25}
+                          width={20}
+                          height={20}
                           alt="certificate_icon"
                           loading="lazy"
                         />
@@ -212,8 +221,8 @@ const NewCourse = ({
                     <div className={styles.listicondiv}>
                       <Image
                         src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cer_icons.webp"
-                        width={25}
-                        height={25}
+                        width={20}
+                        height={20}
                         alt="certificate_icon"
                         loading="lazy"
                       />
@@ -222,8 +231,8 @@ const NewCourse = ({
                     <div className={styles.listicondiv}>
                       <Image
                         src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Date_icons.webp"
-                        width={25}
-                        height={25}
+                        width={20}
+                        height={20}
                         alt="certificate_icon"
                         loading="lazy"
                       />
@@ -232,8 +241,8 @@ const NewCourse = ({
                     <div className={styles.listicondiv}>
                       <Image
                         src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Save_icons.webp"
-                        width={25}
-                        height={25}
+                        width={20}
+                        height={20}
                         alt="certificate_icon"
                         loading="lazy"
                       />
@@ -250,7 +259,7 @@ const NewCourse = ({
                         setPopups(true);
                       }}
                     >
-                      Brochure <MdOutlineFileDownloadSvg/>
+                      Brochure <MdOutlineFileDownloadSvg />
                     </button>
 
                     {course.link ? (
@@ -382,43 +391,48 @@ const NewCourse = ({
   };
   const handleTabClick = debounceScroll((tabName) => {
     setActiveTab(tabName);
-    setVisibleCount(isMobile ? 9 : 6); 
+    setVisibleCount(isMobile ? 9 : 6);
 
     if (containerRef.current) {
-        const containerTop = containerRef.current.getBoundingClientRect().top + window.scrollY;
+      const containerTop =
+        containerRef.current.getBoundingClientRect().top + window.scrollY;
 
-        window.scrollTo({
-            top: containerTop - 100,
-            behavior: "smooth",
+      window.scrollTo({
+        top: containerTop - 100,
+        behavior: "smooth",
+      });
+
+      const activeTabElement = document.querySelector(
+        `.${styles.tabdiv}.active`
+      );
+      if (activeTabElement) {
+        activeTabElement.scrollIntoView({
+          behavior: "smooth",
+          inline: "nearest",
         });
-
-
-        const activeTabElement = document.querySelector(`.${styles.tabdiv}.active`);
-        if (activeTabElement) {
-            activeTabElement.scrollIntoView({ behavior: "smooth", inline: "nearest" });
-        }
+      }
     }
-}, 200);
+  }, 200);
   const handleViewMore = () => {
-    setVisibleCount((prevCount) => prevCount + (isMobile ? 6 : 6));
+    setVisibleCount((prevCount) => prevCount + (isMobile ? 20 : 6));
   };
-  
+
   const handleWheel = (event) => {
     event.preventDefault();
     if (containerRef.current) {
       containerRef.current.scrollBy({
-        left: event.deltaX > 0 ? 100 : -100, 
-        behavior: 'smooth',
+        left: event.deltaX > 0 ? 100 : -100,
+        behavior: "smooth",
       });
     }
   };
 
   return (
     <section className={styles.section}>
-      <div className={`${styles.container}`} ref={containerRef}  >
+      <div className={`${styles.container}`} ref={containerRef}>
         <div className={styles.newSection}>
           <div className={styles.tabHead}>
-            <div className={styles.tabMain}  onWheel={handleWheel}>
+            <div className={styles.tabMain} onWheel={handleWheel}>
               <div
                 className={`${styles.tabdiv} ${
                   activeTab === "all" ? styles.active : ""
@@ -532,6 +546,26 @@ const NewCourse = ({
               </div> */}
               <div
                 className={`${styles.tabdiv} ${
+                  activeTab === "dsa" ? styles.active : ""
+                }`}
+                onClick={() => handleTabClick("dsa")}
+              >
+                <div className={styles.sliders}>
+                  <div className={styles.imgText}>
+                    <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_side.webp"
+                      width={30}
+                      height={30}
+                      loading="lazy"
+                      alt="slide_icon"
+                    />
+                    <p>DSA</p>
+                  </div>
+                </div>
+                <SvgArrow color={activeTab === "dsa" ? "white" : "black"} />
+              </div>
+              <div
+                className={`${styles.tabdiv} ${
                   activeTab === "bfsi" ? styles.active : ""
                 }`}
                 onClick={() => handleTabClick("bfsi")}
@@ -545,31 +579,12 @@ const NewCourse = ({
                       loading="lazy"
                       alt="slide_icon"
                     />
-                    <p>BFSI</p>
+                    <p>BFSI / HR / Managers</p>
                   </div>
                 </div>
                 <SvgArrow color={activeTab === "bfsi" ? "white" : "black"} />
               </div>
-              <div
-                className={`${styles.tabdiv} ${
-                  activeTab === "hr" ? styles.active : ""
-                }`}
-                onClick={() => handleTabClick("hr")}
-              >
-                <div className={styles.sliders}>
-                  <div className={styles.imgText}>
-                    <Image
-                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_side.webp"
-                      width={30}
-                      height={30}
-                      loading="lazy"
-                      alt="slide_icon"
-                    />
-                    <p>HR</p>
-                  </div>
-                </div>
-                <SvgArrow color={activeTab === "hr" ? "white" : "black"} />
-              </div>
+              {/*            
               <div
                 className={`${styles.tabdiv} ${
                   activeTab === "manager" ? styles.active : ""
@@ -589,14 +604,15 @@ const NewCourse = ({
                   </div>
                 </div>
                 <SvgArrow color={activeTab === "manager" ? "white" : "black"} />
-              </div>
+              </div> */}
             </div>
           </div>
 
           <div>
-            {/* {activeTab === "all" && (
-              <DataScienceCard dataScience={true} radio={true} />
-            )} */}
+            {isMobile && activeTab === "all" && (
+              <DataScienceCard data={dataScience} />
+            )}
+            {/* Render DataScienceCard only on mobile */}
 
             <div className={styles.CourseCardHead}>{renderCourses()}</div>
           </div>
@@ -624,6 +640,5 @@ const NewCourse = ({
     </section>
   );
 };
-
 
 export default memo(NewCourse);

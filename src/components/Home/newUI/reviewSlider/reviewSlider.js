@@ -1,15 +1,27 @@
-"use client";
 
 import styles from "./reviewSlider.module.css";
 import Image from "next/image";
-
+import VideoPopup from "../../../Global/VideoPopup/VideoPopup";
 
 import VideoYt from "@/components/Global/VideoYt/VideoYt";
-import Reels from "./Reels";
+import Reels from "./Reels"
+import { useState } from "react";
 
-const ReviewSlider = () => {
+const ReviewSlider = ({
+  idss
+}) => {
+  const [popups, setPopups] = useState(false);
+  const [video, setVideo] = useState(false);
+  const videoSHow = () => {
+    setVideo(true);
+  };
+   // const el = useRef(null);
+   const popupShow = () => {
+    setPopups(true);
+  };
   return (
     <div className={`${styles.keyContainer} width`}>
+              <VideoPopup triggers={video} setTriggers={setVideo} ids={idss} />
       <Reels /> 
       <div className={styles.mainDiv}>
         {/* Bottom Review Section */}
@@ -28,8 +40,21 @@ const ReviewSlider = () => {
 
             />
           </div>
-          <div className={styles.secondBotReview}>
+          {/* <div className={styles.secondBotReview}>
+
             <VideoYt className={styles.YT} />
+          </div> */}
+
+          <div className={styles.secondBotReview}>
+            <Image
+              src="https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/review_right_side.webp"
+              alt="Learnbay"
+              quality={100}
+              priority
+              width="974"
+              height="668"
+              onClick={() => videoSHow(popupShow)}
+            />
           </div>
         </div>
       </div>

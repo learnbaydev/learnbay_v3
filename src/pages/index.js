@@ -15,6 +15,8 @@ import ReviewSlider from "@/components/Home/newUI/reviewSlider/reviewSlider";
 import CLogo from "@/components/Home/newUI/Compnays/CLogo";
 import Other from "@/components/Home/newUI/OtherVS/Other";
 import NewSevenSection from "@/components/Home/newUI/SeventhSectionNew/NewSevenSection";
+import FormNew from "@/components/Global/Form/FormNew";
+import AnimationNew from "@/components/Home/whyChooseSection/AnimationNew";
 const Animation = dynamic(() =>
   import("@/components/Home/whyChooseSection/whyChooseSection")
 );
@@ -389,14 +391,14 @@ export default function Home() {
       {/* <Course dataScience={true} radio={true} /> */}
       {/* <WhyLearnbay ids="YWxTtvb3x-U" /> */}
 
-      <Animation />
-      <ReviewSlider />
+      <AnimationNew />
+      <ReviewSlider idss="eautK0odE7Q"/>
       {/* <div className="realstory">
         <Realstory />
       </div> */}
       <ContactUs dataScienceCounselling={true} radio={true} />
-      <CLogo/>
-      <Other/>
+      <CLogo />
+      <Other />
       {/* <TrainerSection idss="eautK0odE7Q" /> */}
       {/* <GetHire /> */}
       <MobileTestimonial radio={true} dataScienceCounselling={true} />

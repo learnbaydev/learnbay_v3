@@ -2,9 +2,9 @@
   display: grid;
   grid-template-columns: 66% 32%;
   border-radius: 30px;
-  border: 1px solid #FE7A36;
-  background: #d3d3d330;
-  margin: 50px 130px;
+  border-radius: 50px;
+  background: #E5F1F8;
+  margin: 50px auto;
   padding: 50px 50px 0px 50px;
   align-items: center;
 }
@@ -75,20 +75,66 @@
 .ShowInMobile {
     display: none;
 }
+@media screen and (max-width:1181px){
+  .FirstDiv h4 {
+    font-size: 32px;
+  }
+  .MobileReviewImageContainer img {
+    height: fit-content;
+  }
+}
 @media (max-width: 1024px) {
 .section {
   margin: 30px;
+  padding: 40px;
+}
+.MobileReviewImageContainer{
+      /* margin-bottom: -5px; */
+      position: relative;
+      top: 38px;
 }
 
+
+}
+@media screen and (max-width:968px) {
+  .FirstDiv h4 {
+    font-size: 26px;
+  }
+  .MobileReviewImageContainer{
+    top: 34px;
+
+  }
+.btnWrapper{
+  margin-top: 20px;
+  }
+  .MobileReviewImageContainer img{
+width: 100%;
+height: fit-content;
+  }
+  .sliderUser img {
+  width: 50px;
+  height: auto;
+}
+}
+@media (max-width: 768px) {
+
+.leftSlide {
+  margin-top: 20px;
+}
 
 }
 
 @media (max-width: 641px) {
 .section {
     margin: 0px;
-    padding: 10px 10px 0px 10px;
+padding: 50px;
     display: block;
     border-radius: 0px;
+    max-width: 100%;
+    width: 100%;
+}
+.sliderUser img {
+  width: 100px;
 }
 .FirstDiv span {
     font-size: 28px;
@@ -130,6 +176,7 @@ height: 50px;
     position: relative;
     display: flex;
     justify-content: center;
+    top: 50px;
 }
 .HideInMobile {
     display: none;
@@ -137,4 +184,22 @@ height: 50px;
 .ShowInMobile {
     display: block;
 }
+}
+
+
+@media screen and (max-width:481px) {
+
+  .sliderUser img {
+    width: 60px;
+  }
+  .leftSlide{
+    margin-bottom: 0;
+  }
+  .section{
+    padding: 18px;
+  }
+  .MobileReviewImageContainer{
+    top: 20px;
+  }
+  
 }

@@ -223,9 +223,20 @@ margin: 0;
   }
 }
 @media screen and (max-width:768px){
-  .firstBotReview img {
-    width: 350px;
+  .reviewBotSection{
+    display: flex;
+    flex-direction: column;
   }
+
+  .firstBotReview img {
+    width: 100%;
+  }
+
+  .secondBotReview img {
+    width: auto;
+    height: 260px
+  }
+
   
 }
 @media screen and (max-width: 641px) {
@@ -277,5 +288,10 @@ margin: 0;
   }
   .subHeading{
     text-wrap: pretty;
+  }
+
+  .secondBotReview img {
+    width: 100%;
+    height: auto;
   }
 }

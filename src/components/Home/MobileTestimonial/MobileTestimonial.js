@@ -288,7 +288,7 @@ function MobileTestimonial({dataScienceGeneric, dataScienceCounselling, radio, i
 
   return (
     <>
-      <section className={Styles.section}>
+      <section className={`${Styles.section} width`}>
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="leftPopup">
             <div className="whiteP" />

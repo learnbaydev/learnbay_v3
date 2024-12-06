@@ -106,15 +106,15 @@ align-items: center;
   max-width: 300px;
 }
 .cardContent {
-  border-bottom-left-radius: 35px;
-  border-bottom-right-radius: 35px;
+  border-bottom-left-radius: 27px;
+  border-bottom-right-radius: 27px;
   background: #fff;
-  padding: 16px 12px 21px 12px;
+  padding: 16px 12px 14px 12px;
 }
 
 .cardContent h3 {
   color: #212121;
-  font-size: 17px;
+  font-size: 18.4px;
   font-style: normal;
   font-weight: 600;
   line-height: 126.5%; /* 40.48px */
@@ -131,7 +131,7 @@ align-items: center;
 
 .lists span {
   color: #666;
-  font-size: 14px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 400;
   line-height: 155%; /* 31px */
@@ -154,7 +154,7 @@ align-items: center;
   font-style: normal;
   font-weight: 400;
   line-height: 155%; /* 34.1px */
-  padding: 9px 18px;
+  padding: 6px 18px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -187,7 +187,7 @@ align-items: center;
   font-style: normal;
   font-weight: 400;
   line-height: 155%; /* 34.1px */
-  padding: 9px 20px;
+  padding: 6px 20px;
   cursor: pointer;
   border: 1px solid #000;
 }
@@ -221,18 +221,18 @@ align-items: center;
 
 .viewMoreButton {
   border-radius: 12px;
-  background: #0072bc;
-  color: #fff;
+  background: transparent;
+  color: #666;
   padding: 10px 50px;
-  border: none;
-  color: #fff;
+  border: 1px solid #666;
   text-align: center;
 
-  font-size: 22px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 126.5%; /* 31.625px */
   cursor: pointer;
+  margin-top: 20px;
 }
 
 
@@ -271,7 +271,7 @@ align-items: center;
 .listicondiv {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 6px;
   
 }
 .masterConteiner {
@@ -611,7 +611,7 @@ line-height: 155%; /* 34.1px */
     font-size: 18px !important;
   }
   .buttons button {
-    font-size: 15px;
+    font-size: 13px;
     padding: 7px 19px;
   }
   .buttonsMaster{
@@ -775,7 +775,7 @@ font-size: 20px;
       font-size: 26px;
     }
     .contentConteiner{
-      width: 80%;
+      width: 90%;
       align-items: flex-start;
       justify-content: flex-start;
       left: 3%;
@@ -829,7 +829,7 @@ font-size: 20px;
     top: -2vw;
   }
   .buttonsMaster button{
-    font-size: 12px !important;
+    font-size: 15px !important;
   }
 }
 
@@ -850,6 +850,9 @@ font-size: 20px;
   }
   .buttonsMaster{
     top: -20px;
+  }
+  .contentConteiner{
+    top: 17%;
   }
 }
 

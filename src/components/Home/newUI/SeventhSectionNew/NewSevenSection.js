@@ -31,7 +31,7 @@ const NewSevenSection = ({
         interstedInHide={interstedInHide}
         heading="Apply For Counselling"
       />
-      <div className={styles.NewSevenSection}>
+      <div className={`${styles.NewSevenSection} width`}>
         <div className={styles.griContiner}>
           <div className={styles.left}>
             <div className={styles.fontDiv}>
