@@ -6,6 +6,7 @@ import Modal from "react-modal";
 import { Points } from "@/Data/svgdata/Points";
 
 
+
 const DSAFeeSection = ({
     weekendbatch,
     weekdaybatch,
