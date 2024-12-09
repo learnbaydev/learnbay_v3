@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
-import styles from "./Form.module.css";
+import styles from "./FormNew.module.css";
 import {
   getEndPoint,
   getFormFields,
@@ -11,7 +11,7 @@ import {
   redirectionThankYou,
 } from "./formFunction";
 
-const Form = ({
+const FormNew = ({
   popup,
   setTrigger,
   downloadBrochure,
@@ -39,6 +39,7 @@ const Form = ({
   const [formField, setFormField] = useState(
     getFormFields(radio, google, referrals, interstedInHide)
   );
+  
 
   const [value, setValue] = useState();
   const [error, setError] = useState();
@@ -168,6 +169,7 @@ const Form = ({
                   query: {
                     titleCourse: titleCourse,
                     brochureLink: brochureLink,
+                    
                   },
                 }
               : {
@@ -182,10 +184,12 @@ const Form = ({
     }
   };
 
+
+
   const downloadFileAtUrl = (url) => {
-    const aTag = document.createElement("a");
+    const aTag = document.createElement('a');
     aTag.href = url;
-    aTag.download = url.split("/").pop();
+    aTag.download = url.split('/').pop();
     document.body.appendChild(aTag);
     aTag.click();
     document.body.removeChild(aTag);
@@ -227,14 +231,15 @@ const Form = ({
                 (field) =>
                   field.showField && (
                     <div key={field.name} className={styles.formWrapper}>
-                      {/* <label htmlFor={field.name}>
+                      <label htmlFor={field.name}>
                         {field.label}
                         {field.required && (
                           <span className={styles.spanLabel}>*</span>
                         )}
-                      </label> */}
+                      </label>
                       {field.type === "phone" ? (
                         <PhoneInput
+                        
                           inputStyle={field.inputStyle}
                           containerStyle={field.containerStyle}
                           name={field.name}
@@ -332,6 +337,7 @@ const Form = ({
                   )
               )}
         </>
+
         <input name="country" value={query.country} type="hidden" />
         <input name="region" value={query.region} type="hidden" />
         <input name="city" value={query.city} type="hidden" />
@@ -339,8 +345,7 @@ const Form = ({
           <p className={styles.errorMsg}>
             Please fill all the fields marked with *
           </p>
-        )}{" "}
-        {popup && (
+        )}        {popup && (
           <input type="hidden" id="url" name="url" value={router.asPath} />
         )}
         <div>{toggle ? "" : <p className={styles.alert}>{alertMSG}</p>}</div>
@@ -401,9 +406,10 @@ const Form = ({
         <p className={styles.formWrapper} style={{ color: "red" }}>
           {error}
         </p>
+        
       </form>
     </div>
   );
 };
 
-export default Form;
+export default FormNew;

@@ -12,7 +12,7 @@ SwiperCore.use([Navigation, Pagination]);
 const Media = ({ projectData, noLink }) => {
   return (
     <div className={styles.projectHeader}>
-      <div className={styles.headWrapper}>
+      <div className={`${styles.headWrapper} width`}>
         <div className={styles.left}>
           <p className={styles.ptop}>Featured in</p>
           <h4>Media Spotlight</h4>
@@ -26,7 +26,7 @@ const Media = ({ projectData, noLink }) => {
           </div>
         </div>
       </div>
-      <div className={styles.container}>
+      <div className={`${styles.container} width`}>
         <Swiper
           slidesPerView={1}
           spaceBetween={30}
@@ -39,15 +39,19 @@ const Media = ({ projectData, noLink }) => {
               spaceBetween: 35,
             },
             481: {
-              slidesPerView: 1,
+              slidesPerView: 1.6,
               spaceBetween: 35,
             },
+            641:{
+              slidesPerView:2,
+              spaceBetween:20,
+            },
             761: {
-              slidesPerView: 2,
+              slidesPerView: 3.2,
               spaceBetween: 30,
             },
             961: {
-              slidesPerView: 2.1,
+              slidesPerView: 3.4,
               spaceBetween: 40,
             },
             1024: {

@@ -22,6 +22,18 @@ body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
 }
+.react-tel-input{
+  border: none !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.20) !important;
+  border-radius: 0 !important;
+}
+.react-tel-input .selected-flag{
+  background-color:#fff;
+  border: 0;
+}
+.react-tel-input .flag-dropdown{
+  border: none !important;
+}
 h1 {
   font-size: 34px;
 }
@@ -88,7 +100,7 @@ a {
   height: 100%;
   left: 0;
   top: 0;
-  /* border-radius: 10px; */
+
   width: 100%;
   overflow: hidden;
   z-index: -1;
@@ -201,12 +213,19 @@ margin-top: 100px;
 
 .react-tel-input .form-control {
   width: 100% !important;
+  color: gray !important;
 }
 
 /* New Styles */
 
 .containerWidth {
   width: 1300px;
+  margin: auto;
+}
+
+.width{
+  width: 90%;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -240,22 +259,30 @@ margin-top: 100px;
     width: 1180px;
     margin: auto;
   }
+  .width{
 
-}
-
-@media (max-width: 1180px) {
-  .containerWidth {
-    width: auto;
-    margin: auto;
+    max-width: 1100px;
+   
   }
-  
+
 }
+@media (max-width: 1181px) {
+  .width{
+
+    max-width: 980px;
+    
+   
+  }
+
+}
+
 
 @media (max-width: 1080px) {
   .containerWidth {
     width: 1040px;
     margin: auto;
   }
+  
   
 }
 @media (max-width: 1024px) {

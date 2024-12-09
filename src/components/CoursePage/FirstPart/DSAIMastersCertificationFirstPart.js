@@ -175,6 +175,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       />
       <WhyLearnbay idss="ZPOTy4PEnNU" />
       <GetHire />
+      
       <ContactConsellor
         dataScience={true}
         interstedInHide={true}

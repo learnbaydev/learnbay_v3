@@ -1,32 +1,42 @@
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-import FirstSection from "@/components/Home/FirstSection/FirstSection";
-import Media from "@/components/Home/Media/Media";
-import MobileTestimonial from "@/components/Home/MobileTestimonial/MobileTestimonial";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import { useMediaQuery } from "react-responsive";
 
-import Navbar from "../components/Global/Navbar/Navbar";
-const Animation = dynamic(() =>
-  import("@/components/Home/whyChooseSection/whyChooseSection")
+// Dynamic imports
+import FirstSection from "@/components/Home/FirstSection/FirstSection";
+const BottomBar = dynamic(() =>
+  import("@/components/Global/BottomBar/BottomBar")
 );
-const Course = dynamic(() => import("@/components/Home/Course/Course"));
-const WhyLearnbay = dynamic(() =>
-  import("@/components/Home/WhyLearnbay/WhyLearnbay")
+const WhatsappFloat = dynamic(() =>
+  import("@/components/Global/WhatappsFloat/WhatsappFloat")
 );
-const Realstory = dynamic(() =>
-  import("@/components/Home/Realstory/Realstory")
+const Media = dynamic(() => import("@/components/Home/Media/Media"));
+const MobileTestimonial = dynamic(() =>
+  import("@/components/Home/MobileTestimonial/MobileTestimonial")
+);
+const Navbar = dynamic(() => import("@/components/Global/Navbar/Navbar"));
+const InfinityLogo = dynamic(() =>
+  import("@/components/Home/newUI/InfinityLogo/InfinityLogo")
+);
+const KickStart = dynamic(() =>
+  import("@/components/Home/newUI/KickStartSection/KickStart")
+);
+const NewCourse = dynamic(() =>
+  import("@/components/Home/newUI/NewCourse/NewCourse")
+);
+const ReviewSlider = dynamic(() =>
+  import("@/components/Home/newUI/reviewSlider/reviewSlider")
+);
+const CLogo = dynamic(() => import("@/components/Home/newUI/Compnays/CLogo"));
+const Other = dynamic(() => import("@/components/Home/newUI/OtherVS/Other"));
+const NewSevenSection = dynamic(() =>
+  import("@/components/Home/newUI/SeventhSectionNew/NewSevenSection")
+);
+const AnimationNew = dynamic(() =>
+  import("@/components/Home/whyChooseSection/AnimationNew")
 );
 const ContactUs = dynamic(() =>
-  import("@/components/Home/ContactUs/ContactUs")
-);
-const GetHire = dynamic(() => import("@/components/Home/GetHire/GetHire"));
-const TrainerSection = dynamic(() =>
-  import("@/components/Global/TrainerSection/TrainerSection")
-);
-const SeventhSection = dynamic(() =>
-  import("@/components/Global/SeventhSection/SeventhSection")
+  import("@/components/Home/newUI/ContactUs/ContactUs")
 );
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
 
@@ -102,24 +112,6 @@ export default function Home() {
       SDesc: "20th November",
       url: "https://www.business-standard.com/content/press-releases-ani/learnbay-collaborates-with-woolf-to-launch-master-s-degree-in-computer-science-data-science-specializations-123112000350_1.html",
     },
-    // {
-    //   id: 9,
-    //   domain:
-    //     "How healthcare professionals can transition to data science career        ",
-    //   CLogo:
-    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/business-standard-logo.webp",
-    //   SDesc: "20th April",
-    //   url: "https://www.expresshealthcare.in/news/how-healthcare-professionals-can-transition-to-data-science-career/438946/",
-    // },
-    // {
-    //   id: 10,
-    //   domain:
-    //     "Krishna Kumar, Founder and CEO, Learnbay, Providing Comprehensive Data Science, AI,& ML Education With Career Advancement Support ",
-    //   CLogo:
-    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/media/business-standard-logo.webp",
-    //   SDesc: "7th Feb",
-    //   url: "https://startuptalky.com/krishna-kumar-learnbay-edtech-industry-recap22/",
-    // },
   ];
 
   const isMobile = useMediaQuery({ query: "(max-width: 640px)" });
@@ -376,26 +368,24 @@ export default function Home() {
         radio={true}
         idss="ZPOTy4PEnNU"
       />
+      <InfinityLogo />
+      <KickStart />
+      <NewCourse dataScience={true} radio={true}  />
 
-      <Course dataScience={true} radio={true} />
-      <WhyLearnbay ids="YWxTtvb3x-U" />
+      <AnimationNew />
+      <ReviewSlider idss="eautK0odE7Q" />
 
-      <Animation />
-      <div className="realstory">
-        <Realstory />
-      </div>
-
-      <TrainerSection idss="eautK0odE7Q" />
       <ContactUs dataScienceCounselling={true} radio={true} />
-      <GetHire />
+      <CLogo />
+      <Other />
+
       <MobileTestimonial radio={true} dataScienceCounselling={true} />
       <Media projectData={data} />
-      <SeventhSection />
+      <NewSevenSection radio={true} dataScienceCounselling={true} />
 
       <Footer />
       <WhatsappFloat chat360code1={true} />
       <BottomBar dataScienceCounselling={true} radio={true} />
-      {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
     </>
   );
 }

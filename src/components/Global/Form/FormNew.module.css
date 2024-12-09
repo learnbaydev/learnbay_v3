@@ -46,7 +46,7 @@
   font-weight: 500;
 }
 .NameInput {
-
+  border-radius: 2px;
   border: 0;
   width: 100%;
   border-bottom: 1px solid grey;
@@ -58,7 +58,7 @@
 }
 .NameInputs {
   width: 100%;
-
+  border-radius: 6px;
   border: 1px solid #d3d3d3;
   outline: none;
   background-color: rgba(255, 255, 255);
@@ -66,7 +66,7 @@
   color: #000;
 }
 .EmailInput {
-
+  border-radius: 2px;
   border: 0;
   width: 100%;
   border-bottom: 1px solid grey;
@@ -89,6 +89,7 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.20);
 .PhoneInput {
   display: flex;
   align-items: center;
+  border-radius: 6px;
   border: 1px solid #d3d3d3;
   padding: 10px;
   color: #000;
@@ -125,6 +126,7 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.20);
 
 .formWrapper select {
   width: 100%;
+  /* border-radius: 6px; */
   border: none;
   outline: none;
   background-color: rgba(255, 255, 255);
@@ -151,6 +153,7 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.20);
 
 .formWrappers select {
   width: 100%;
+  border-radius: 6px;
   border: 1px solid #d3d3d3;
   outline: none;
   background-color: rgba(255, 255, 255);
@@ -167,7 +170,7 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.20);
 }
 .DateFormWrappers .date {
   border: 1px solid grey;
-
+  border-radius: 8px;
   padding: 10px;
   width: 100%;
   color: rgb(167, 167, 167);
@@ -196,7 +199,7 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.20);
 }
 .DateFormWrappers .time {
   border: 1px solid grey;
-
+  border-radius: 8px;
   padding: 10px;
   width: 100%;
   color: rgb(167, 167, 167);
@@ -267,7 +270,7 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.20);
 }
 .date input {
   border: 1px solid grey;
-
+  border-radius: 8px;
   padding: 10px;
   width: 100%;
   height: 50px;
