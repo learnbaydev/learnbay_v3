@@ -633,7 +633,7 @@ const NewCourse = ({
         "bfsi",
         "Certifications",
         "hr",
-        "manager",
+        "dsa",
         "CloudDevops",
         "domainCourse",
       ].includes(activeTab) && renderMasterCourse()}
