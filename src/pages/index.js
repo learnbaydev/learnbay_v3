@@ -370,7 +370,7 @@ export default function Home() {
       />
       <InfinityLogo />
       <KickStart />
-      <NewCourse dataScience={true} radio={true} />
+      <NewCourse dataScience={true} radio={true}  />
 
       <AnimationNew />
       <ReviewSlider idss="eautK0odE7Q" />

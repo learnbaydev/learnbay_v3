@@ -5,7 +5,7 @@ import VideoPopup from "@/components/Global/VideoPopup/VideoPopup";
 import styles from "./reviewSlider.module.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper";
+
 import "swiper/css";
 import "swiper/css/navigation";
 

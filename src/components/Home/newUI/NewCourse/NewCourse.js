@@ -610,7 +610,7 @@ const NewCourse = ({
 
           <div>
             {isMobile && activeTab === "all" && (
-              <DataScienceCard data={dataScience} />
+              <DataScienceCard data={dataScience} radio={true} dataScience={true} />
             )}
             {/* Render DataScienceCard only on mobile */}
 
