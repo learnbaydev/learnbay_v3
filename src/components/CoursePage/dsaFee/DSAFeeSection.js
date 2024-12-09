@@ -3,7 +3,7 @@ import styles from "./dsaFee.module.css";
 import Image from "next/image";
 import Emipopup from "../EMIPopup/Emipopup";
 import Modal from "react-modal";
-import { Points } from "@/Data/svgdata/points";
+import { Points } from "@/Data/svgdata/Points";
 
 
 const DSAFeeSection = ({

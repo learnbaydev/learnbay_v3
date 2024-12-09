@@ -10,7 +10,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 import Image from "next/image";
-import { MdOutlineKeyboardArrowLeftSvg, MdOutlineKeyboardArrowRightSvg } from "@/Data/svgData/MDIcons";
+import { MdOutlineKeyboardArrowLeftSvg, MdOutlineKeyboardArrowRightSvg } from "@/Data/svgdata/MDIcons";
 
 
 const Reels = () => {
