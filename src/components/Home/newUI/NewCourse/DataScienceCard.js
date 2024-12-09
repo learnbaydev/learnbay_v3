@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import { courses } from './NewCourseData'; // Import the course data
+import { courses } from './NewCourseData'; 
 import styles from './DataScienceCard.module.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper-bundle.min.css'; // Import Swiper styles
-import { Navigation, Pagination } from 'swiper'; // Import modules for Swiper
+import 'swiper/swiper-bundle.min.css'; 
+import { Navigation, Pagination } from 'swiper'; 
 import Image from 'next/image';
 import Form from '@/components/Global/Form/Form';
 import Popup from '@/components/Global/Popup/Popup';
-import Link from 'next/link'; // Import Link for navigation
-import { MdOutlineFileDownloadSvg } from '@/Data/svgData/MDIcons';
+import Link from 'next/link';
+import { MdOutlineFileDownloadSvg } from '@/Data/svgdata/MDIcons';
 
 const DataScienceCard = ({
   dataScience,

@@ -417,7 +417,7 @@ line-height: 155%; /* 34.1px */
   }
   .viewDetailsButton {
     font-size: 12px;
-    padding: 10px 16px;
+    padding: 6px 18px;
   }
 
   .contentConteiner {
@@ -790,7 +790,7 @@ font-size: 20px;
     }
 }
 
-@media screen and (max-width: 431px) {
+@media screen and (max-width: 451px) {
 .buttons button {
   font-size: 14px;
 }
@@ -816,10 +816,10 @@ font-size: 20px;
     font-size: 27px;
   }
   .absloute span {
-    font-size: 13px;
+    font-size: 16px;
   }
   .buttons button{
-    font-size: 13px;
+    font-size: 16px;
   }
   .absloute{
     top: 40%;
