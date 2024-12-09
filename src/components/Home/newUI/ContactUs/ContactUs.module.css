@@ -450,4 +450,8 @@
   .RightSide {
     width: 100%;
   }
+  .NormalPForm{
+    padding: 10px;
+}
+  
 }

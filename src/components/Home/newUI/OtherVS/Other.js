@@ -1,19 +1,24 @@
 import React, { useEffect, useRef, useState } from "react";
 import styles from "./Other.module.css";
 import Image from "next/image";
-import { otherData } from "./OtherData"; // Adjust the path accordingly
+import { otherData } from "./OtherData";
 
 const Other = () => {
   const headDivRef = useRef(null); // Create a ref for the HeadDiv
   const [activeDot, setActiveDot] = useState(0); // State to track active dot
 
   useEffect(() => {
-    // Scroll to the leftmost side when the component mounts
-    if (headDivRef.current) {
-      headDivRef.current.scrollLeft = 0; // Scroll to the left
+    const isMobile = window.innerWidth <= 768; // Adjust breakpoint for mobile view
+
+    if (headDivRef.current && isMobile) {
+      const containerWidth = headDivRef.current.clientWidth;
+      const contentWidth = headDivRef.current.scrollWidth;
+      const initialScroll = (contentWidth - containerWidth) / 2; // Centering logic
+      headDivRef.current.scrollLeft = initialScroll;
+    } else if (headDivRef.current) {
+      headDivRef.current.scrollLeft = 0; // Default behavior for larger screens
     }
 
-    // Add scroll event listener to track active dot when scrolling
     const handleScroll = () => {
       if (headDivRef.current) {
         const scrollPosition = headDivRef.current.scrollLeft;
@@ -29,10 +34,8 @@ const Other = () => {
       }
     };
 
-    // Attach the scroll event listener
     headDivRef.current.addEventListener("scroll", handleScroll);
 
-    // Clean up the event listener on component unmount
     return () => {
       if (headDivRef.current) {
         headDivRef.current.removeEventListener("scroll", handleScroll);
@@ -40,10 +43,13 @@ const Other = () => {
     };
   }, []);
 
-  // Scroll to a specific section based on dot click
   const scrollToSection = (index) => {
     if (headDivRef.current) {
-      const scrollAmount = index === 0 ? 0 : headDivRef.current.scrollWidth;
+      const containerWidth = headDivRef.current.clientWidth;
+      const scrollAmount =
+        index === 0
+          ? 0
+          : headDivRef.current.scrollWidth - containerWidth; // Scroll to end for dot 1
       headDivRef.current.scrollTo({ left: scrollAmount, behavior: "smooth" });
       setActiveDot(index);
     }
@@ -54,7 +60,7 @@ const Other = () => {
       <h2 className={styles.h2}>{otherData.title}</h2>
 
       <div className={styles.HeadDiv} ref={headDivRef}>
-        {/* Left Side */}
+
         <div className={styles.left}>
           {otherData.leftSide.map((item, index) => (
             <div className={styles.inside} key={index}>
@@ -64,7 +70,7 @@ const Other = () => {
           ))}
         </div>
 
-        {/* Middle Side */}
+
         <div className={styles.middle}>
           <div className={styles.imgdiv}>
             <Image
@@ -119,10 +125,9 @@ const Other = () => {
       {/* Custom Scrollbar */}
       <div className={styles.customScrollbar}>
         <div className={styles.dotContainer}>
-          {/* Clicking these dots will scroll to the corresponding section */}
           <span
             onClick={() => scrollToSection(0)}
-            className={`${styles.dotOne}  ${activeDot === 0 ? styles.active : ""}`}
+            className={`${styles.dotOne} ${activeDot === 0 ? styles.active : ""}`}
           />
           <span
             onClick={() => scrollToSection(1)}

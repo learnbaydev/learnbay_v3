@@ -78,7 +78,7 @@
 
 .sliderInnerDown {
   display: flex;
-  animation: slideDown 20s linear infinite;
+  animation: slideDown 10s linear infinite;
 }
 
 @keyframes slideDown {
@@ -236,7 +236,7 @@
 
 
   .cards p {
-    font-size: 10px;
+    font-size: 15px;
   }
   .cards {
     padding: 0 10px;
@@ -248,7 +248,7 @@
   }
 
   .cardsDown p {
-    font-size: 10px;
+    font-size: 15px;
   }
   .cardsDown {
     padding: 0 10px;
@@ -258,6 +258,15 @@
     width: 50px;
     height: auto;
   }
+
+  .sliderInnerDown {
+    animation: slideDown 4s linear infinite;
+  }
+  .sliderInner {
+
+    animation: slide 8s linear infinite;
+  }
+  
 }
 
 @media screen and (max-width:481px) {

@@ -54,7 +54,7 @@ const whyChooseData = [
       },
 
       {
-        icon: " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BFSI_M+(1).webp",
+        icon: " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BFSI_Ms.webp",
         text: "BFSI",
         width: "20",
         height: "20",

@@ -559,7 +559,7 @@ const NewCourse = ({
                       loading="lazy"
                       alt="slide_icon"
                     />
-                    <p>DSA</p>
+                    <p>Data Structure Algorithms</p>
                   </div>
                 </div>
                 <SvgArrow color={activeTab === "dsa" ? "white" : "black"} />
@@ -579,7 +579,7 @@ const NewCourse = ({
                       loading="lazy"
                       alt="slide_icon"
                     />
-                    <p>BFSI / HR / Managers</p>
+                    <p> Managers / HR / BFSI </p>
                   </div>
                 </div>
                 <SvgArrow color={activeTab === "bfsi" ? "white" : "black"} />

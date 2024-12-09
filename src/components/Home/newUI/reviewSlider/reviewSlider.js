@@ -3,7 +3,6 @@ import styles from "./reviewSlider.module.css";
 import Image from "next/image";
 import VideoPopup from "../../../Global/VideoPopup/VideoPopup";
 
-import VideoYt from "@/components/Global/VideoYt/VideoYt";
 import Reels from "./Reels"
 import { useState } from "react";
 

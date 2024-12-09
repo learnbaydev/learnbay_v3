@@ -220,16 +220,16 @@ export const courses = {
     // },
 
     {
-      title: "Data Science & AI for BFSI Professionals",
-      duration: "7 months | 2 capstone Projects",
+      title: "Executive Program in Data Science Ai for managers & leaders",
+      duration: "11 months | 3 Projects",
       certification: "Project Certification form IBM",
-      description: "For BFSI Professional",
+      description: "For Manager & Team leader",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cards.webp",
-      link: "/datascience/data-science-for-bfsi-professional",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cardss.webp",
+      link: "/datascience/data-science-ai-for-managers",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
-      brochurePdfs: "/Brochure/BFSI.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+      brochurePdfs: "/Brochure/data-science-ai-for-managers.pdf",
     },
 
     {
@@ -244,19 +244,22 @@ export const courses = {
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
       brochurePdfs: "/Brochure/hr-analytics.pdf",
     },
-
     {
-      title: "Executive Program in Data Science Ai for managers & leaders",
-      duration: "11 months | 3 Projects",
+      title: "Data Science & AI for BFSI Professionals",
+      duration: "7 months | 2 capstone Projects",
       certification: "Project Certification form IBM",
-      description: "For Manager & Team leader",
+      description: "For BFSI Professional",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cardss.webp",
-      link: "/datascience/data-science-ai-for-managers",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cards.webp",
+      link: "/datascience/data-science-for-bfsi-professional",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
-      brochurePdfs: "/Brochure/data-science-ai-for-managers.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
+      brochurePdfs: "/Brochure/BFSI.pdf",
     },
+
+
+
+   
 
   ],
 
@@ -781,17 +784,18 @@ export const courses = {
 
   bfsi: [
     {
-      title: "Data Science & AI for BFSI Professionals",
-      duration: "7 months | 2 capstone Projects",
+      title: "Executive Program in Data Science Ai for managers & leaders",
+      duration: "11 months | 3 Projects",
       certification: "Project Certification form IBM",
-      description: "For BFSI Professional",
+      description: "For Manager & Team leader",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cards.webp",
-      link: "/datascience/data-science-for-bfsi-professional",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Manager_cards.webp",
+      link: "/datascience/data-science-ai-for-managers",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
-      brochurePdfs: "/Brochure/BFSI.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/DSAI_for_Managers_and_Leaders.pdf",
+      brochurePdfs: "/Brochure/DSAI_for_Managers_and_Leaders.pdf",
     },
+
     {
       title: "HR Analytics Certification Program",
       duration: "5 months | 2 capstone Projects",
@@ -804,19 +808,21 @@ export const courses = {
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
       brochurePdfs: "/Brochure/hr-analytics.pdf",
     },
-
     {
-      title: "Executive Program in Data Science Ai for managers & leaders",
-      duration: "11 months | 3 Projects",
+      title: "Data Science & AI for BFSI Professionals",
+      duration: "7 months | 2 capstone Projects",
       certification: "Project Certification form IBM",
-      description: "For Manager & Team leader",
+      description: "For BFSI Professional",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Manager_cards.webp",
-      link: "/datascience/data-science-ai-for-managers",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cards.webp",
+      link: "/datascience/data-science-for-bfsi-professional",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/DSAI_for_Managers_and_Leaders.pdf",
-      brochurePdfs: "/Brochure/DSAI_for_Managers_and_Leaders.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
+      brochurePdfs: "/Brochure/BFSI.pdf",
     },
+   
+
+  
   ],
 
   dsa: [

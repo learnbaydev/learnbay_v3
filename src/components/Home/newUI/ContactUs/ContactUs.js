@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 // import FormInline from "../../Global/FormSection/FormInline";
 import styles from "./ContactUs.module.css";
-import Form from "@/components/Global/Form/Form";
 import FormNew from "@/components/Global/Form/FormNew";
 
 function ContactUs({

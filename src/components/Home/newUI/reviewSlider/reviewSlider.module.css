@@ -165,7 +165,7 @@
 }
 .reviewBotSection {
   display: grid;
-  grid-template-columns:55% 36%;
+  grid-template-columns:60% 40%;
   margin-top: 100px;
   align-items: center;
   gap: 0px;
@@ -226,6 +226,7 @@ margin: 0;
   .reviewBotSection{
     display: flex;
     flex-direction: column;
+    gap: 50px;
   }
 
   .firstBotReview img {

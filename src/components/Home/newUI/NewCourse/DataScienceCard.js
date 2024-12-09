@@ -275,7 +275,7 @@ const DataScienceCard = ({
 
       {/* Business Analytics / Data Analytics Section */}
       {isMobile
-        ? renderSwiper(courses.DABA, 'BFSI / HR / Managers', styles.BADA)
+        ? renderSwiper(courses.DABA, 'Managers / HR / BFSI  ', styles.BADA)
         : renderDesktop(courses.DABA, '', styles.BADA)}
 
       {/* Cloud Computing & Software Development Section */}
