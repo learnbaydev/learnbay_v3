@@ -319,6 +319,16 @@
   }
 }
 
+@media screen  and (max-width:451px) {
+  .brochurebtn {
+    font-size: 13px;
+  }
+
+  .viewDetailsButton {
+    font-size: 13px;
+  }
+}
+
 @media screen and (max-width: 360px) {
   .cardTitle {
     font-size: 16px;
