@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
 import Head from "next/head";
-import { useEffect, useState } from "react";
+import {useState } from "react";
 import { DSABangaloreCourseData } from "../../../CityData/Bangalore/DSAbangaloreData";
 import Footer from "../../../components/Global/Footer/Footer";
 import Form from "../../../components/Global/Form/Form";
@@ -14,15 +14,11 @@ const FirstSection = dynamic(() =>
 const SecondSection = dynamic(() =>
   import("../../../components/Seo/SecondSection/SecondSection")
 );
-const ProgramInfo = dynamic(() =>
-  import("../../../components/Seo/ProgramInfo/ProgramInfo")
-);
+
 const SeventhSection = dynamic(() =>
   import("../../../components/Seo/SeventhSection/SeventhSection")
 );
-const ProgramFee = dynamic(() =>
-  import("../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee")
-);
+
 const CityText = dynamic(() =>
   import("../../../components/Seo/CityText/CityText")
 );
@@ -33,45 +29,10 @@ const CitiesRight = dynamic(() =>
   import("../../../components/Seo/CitiesRight/CitiesRight")
 );
 const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
-const OfferPopup = dynamic(() =>
-  import("../../../components/Global/OfferPopup/OfferPopup")
-);
+;
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
-  const popupShow = () => {
-    setPopups(true);
-  };
-  const [popupData, setPopupData] = useState([]);
-  // console.log(popupData);
-  useEffect(() => {
-    // console.log("inside UseEFFect");
-    const fetchPopup = async () => {
-      const data = await fetch("/api/Popup/popupGenerate", {
-        method: "GET",
-      });
-      if (data.status === 200) {
-        const { popData } = await data.json();
-        // console.log(popData, "get data");
-        if (popData == []) {
-          setPopupData([]);
-        }
-
-        popData.map((data, i) => {
-          // console.log(data);
-          data.page.map((popupData, i) => {
-            // console.log(popData);
-            if (popupData === "Full Stack Developer course") {
-              setPopupData(data);
-              // console.log(popupData);
-              return;
-            }
-          });
-        });
-      }
-    };
-    fetchPopup();
-  }, []);
 
   const pdfUrl = "/Brochure/Data-Structure-System-Design.pdf";
   return (
@@ -164,6 +125,8 @@ export default function Home() {
           firstToparaImg=""
           firstTopPara="Ace Your Coding Interviews"
           idss="YWxTtvb3x-U"
+          softwareBtnHide={true}
+          microsSoftOnly={true}
         />
         <SecondSection
           SecondSectionData={DSABangaloreCourseData[0].secondSection}

@@ -168,6 +168,8 @@ export default function Home() {
           firstToparaImg=""
           firstTopPara="Exhibit Your Coding Deft "
           idss="YWxTtvb3x-U"
+          microsSoftOnly={true}
+          softwareBtnHide={true}
         />
         <SecondSection SecondSectionData={DSAPuneData[0].secondSection} />
         {/* <Testimonial

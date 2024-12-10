@@ -471,7 +471,8 @@ const CitiesRight = ({
   Certificationlist2,
   Certificationlist3,
   hydraListJob,
-
+  CyberSecurityBangalore,
+  CyberSecurityPune,
 }) => {
   const [read, setRead] = useState(false);
   const handler = () => {
@@ -1015,75 +1016,129 @@ const CitiesRight = ({
         {cityTextDSHyderabad ? (
           <div className={styles.CitiesRightInner}>
             <p>
-            Data science is trending as a thriving career role in Hyderabad, setting the stage for an evolved career change. The city's bustling tech space adopts a data-driven culture to stay ahead of industry rivalry. Data science in Hyderabad calls for fast-growing evolutions that drive success. Experts from distinct fields rely on data science training in Hyderabad to build proven skills. 
-
+              Data science is trending as a thriving career role in Hyderabad,
+              setting the stage for an evolved career change. The city's
+              bustling tech space adopts a data-driven culture to stay ahead of
+              industry rivalry. Data science in Hyderabad calls for fast-growing
+              evolutions that drive success. Experts from distinct fields rely
+              on data science training in Hyderabad to build proven skills.
             </p>
 
             <p>
-            Hyderabad is adopting cutting-edge tech creations to lead the city's emerging IT hubs. Many startups and trending MNCs in Hyderabad are harnessing the data-driven power to tackle related intricacies. Data science education has become crucial for experts following the industry shifts. This reflects a growing demand for data science institutes in Hyderabad with optimal gains. 
-
+              Hyderabad is adopting cutting-edge tech creations to lead the
+              city's emerging IT hubs. Many startups and trending MNCs in
+              Hyderabad are harnessing the data-driven power to tackle related
+              intricacies. Data science education has become crucial for experts
+              following the industry shifts. This reflects a growing demand for
+              data science institutes in Hyderabad with optimal gains.
             </p>
 
             <p>
-            Learnbay concocts a world where data scientists are crucial for business growth and success. Hence, it lends notable help to busy working experts for steady learning. Our proactive step toward career stability via a data science course in Hyderabad states our future-proofing talents. 
-
+              Learnbay concocts a world where data scientists are crucial for
+              business growth and success. Hence, it lends notable help to busy
+              working experts for steady learning. Our proactive step toward
+              career stability via a data science course in Hyderabad states our
+              future-proofing talents.
             </p>
 
             <p>
-            Our data science program sets the stage for open and flexible learning with the intent of giving hassle-free training. Our motto to help busy working pros is justified via our hybrid training model and regularly revised syllabus. Experts join this best data science institute in Hyderabad to land promising roles. Our live interactive training sessions equip you with basic and refined skills. 
+              Our data science program sets the stage for open and flexible
+              learning with the intent of giving hassle-free training. Our motto
+              to help busy working pros is justified via our hybrid training
+              model and regularly revised syllabus. Experts join this best data
+              science institute in Hyderabad to land promising roles. Our live
+              interactive training sessions equip you with basic and refined
+              skills.
             </p>
 
             <p>
-            Indeed, our notable industry tie-ups with 450+ MNCs ease your job-hunting process. Our devoted placement teams enrich your job-ready skills to help you grab exciting job offers. Also, we offer IBM & Microsoft certificates for course tasks and domain-driven projects. 
-            </p>
-
-            <h3 className={styles.pHead}>Cutting-edge Training Sessions by Eminent Industry Experts </h3>
-            <b>Module 1- Basics and Advanced Python</b>
-
-            <p>
-            Learnbay’s leading-edge training sessions are famous among working pros eager to reshape their careers in data science. Our network with India’s leading MNCs and well-known industry experts enriches our training quality. Experts joining our data science training in Hyderabad can induce 100% career growth. Our hybrid training model helps busy experts master basic and avant-garde concepts to tackle data-driven risks. 
-
-            </p>
-            <h3 className={styles.pHead}>Industry-enriched Career Counselling             </h3>
-            <p>
-            Learnbay’s career experts and advisors provide real-time aid to learners in making fruitful decisions. As data science trends in Hyderabad enrich business growth and stability, upskilling has become vital. Our advisors help learners stay updated on industry shifts and make fair moves. Also, our career-driven advice and tips help you choose a proper upskilling program with the utmost returns. 
-
+              Indeed, our notable industry tie-ups with 450+ MNCs ease your
+              job-hunting process. Our devoted placement teams enrich your
+              job-ready skills to help you grab exciting job offers. Also, we
+              offer IBM & Microsoft certificates for course tasks and
+              domain-driven projects.
             </p>
 
             <h3 className={styles.pHead}>
-            Why is Learnbay claimed to be the best data science institute in Hyderabad? 
+              Cutting-edge Training Sessions by Eminent Industry Experts{" "}
+            </h3>
+            <b>Module 1- Basics and Advanced Python</b>
 
+            <p>
+              Learnbay’s leading-edge training sessions are famous among working
+              pros eager to reshape their careers in data science. Our network
+              with India’s leading MNCs and well-known industry experts enriches
+              our training quality. Experts joining our data science training in
+              Hyderabad can induce 100% career growth. Our hybrid training model
+              helps busy experts master basic and avant-garde concepts to tackle
+              data-driven risks.
+            </p>
+            <h3 className={styles.pHead}>
+              Industry-enriched Career Counselling{" "}
+            </h3>
+            <p>
+              Learnbay’s career experts and advisors provide real-time aid to
+              learners in making fruitful decisions. As data science trends in
+              Hyderabad enrich business growth and stability, upskilling has
+              become vital. Our advisors help learners stay updated on industry
+              shifts and make fair moves. Also, our career-driven advice and
+              tips help you choose a proper upskilling program with the utmost
+              returns.
+            </p>
+
+            <h3 className={styles.pHead}>
+              Why is Learnbay claimed to be the best data science institute in
+              Hyderabad?
             </h3>
 
-
             <p>
-            Hyderabad’s data science job market requires constant reskilling and upskilling to induce exciting gains. Many diversified business setups spread their functions across Hyderabad, driving strategic gains. Hence, career upskilling has become vital for experts to confound stagnancies and attain success. In the interim, Learnbay has declared a job-driven data science course in Hyderabad. 
-
+              Hyderabad’s data science job market requires constant reskilling
+              and upskilling to induce exciting gains. Many diversified business
+              setups spread their functions across Hyderabad, driving strategic
+              gains. Hence, career upskilling has become vital for experts to
+              confound stagnancies and attain success. In the interim, Learnbay
+              has declared a job-driven data science course in Hyderabad.
             </p>
             <p>
-            Today's modern workspace demands unique skill sets and mastery to handle digital threats and boost success rates. A firm’s ordeal in handling massive data sets and making informed decisions triggers the haste for data science. Hence, experts join top-rated data science institutes in Hyderabad to elevate their skills and grab alluring job offers. 
-
-            </p>
-
-
-            <p>
-            Our inclusively crafted syllabus lures learners to update their skills and crack critical jobs. We focus on the recent industry shifts and revise the learning modules accordingly. Plus, our career-specific hybrid training model helps experts to balance their learning and job duties. 
-
-            </p>
-
-            <p>
-            Experts find Learnbay as the best institute to learn data science in Hyderabad due to its hands-on upskilling scope. You can work on domain-driven projects and case studies to refine your skills and grab rewarding roles. Our reputed mentors are here to guide you in mastering data-driven tools. Their real-time insights will help you optimize your skills and tackle tough cases tactfully. 
-
+              Today's modern workspace demands unique skill sets and mastery to
+              handle digital threats and boost success rates. A firm’s ordeal in
+              handling massive data sets and making informed decisions triggers
+              the haste for data science. Hence, experts join top-rated data
+              science institutes in Hyderabad to elevate their skills and grab
+              alluring job offers.
             </p>
 
             <p>
-            Learnbay’s industry-driven career support services engage learners with high-paying roles. Here, experts will receive everything required to crack critical roles – from 1:1 interview prep to CV-making. Also, having IBM & Microsoft certificates can validate your skills and enhance your selection rates. Our globally valued credentials enrich career worth and make it job-ready with solid portfolios. 
-
+              Our inclusively crafted syllabus lures learners to update their
+              skills and crack critical jobs. We focus on the recent industry
+              shifts and revise the learning modules accordingly. Plus, our
+              career-specific hybrid training model helps experts to balance
+              their learning and job duties.
             </p>
-            <p>Joining our data science training in Hyderabad is worth investing in as it boosts success and arms you with lucrative earning limits. 
+
+            <p>
+              Experts find Learnbay as the best institute to learn data science
+              in Hyderabad due to its hands-on upskilling scope. You can work on
+              domain-driven projects and case studies to refine your skills and
+              grab rewarding roles. Our reputed mentors are here to guide you in
+              mastering data-driven tools. Their real-time insights will help
+              you optimize your skills and tackle tough cases tactfully.
             </p>
 
-
+            <p>
+              Learnbay’s industry-driven career support services engage learners
+              with high-paying roles. Here, experts will receive everything
+              required to crack critical roles – from 1:1 interview prep to
+              CV-making. Also, having IBM & Microsoft certificates can validate
+              your skills and enhance your selection rates. Our globally valued
+              credentials enrich career worth and make it job-ready with solid
+              portfolios.
+            </p>
+            <p>
+              Joining our data science training in Hyderabad is worth investing
+              in as it boosts success and arms you with lucrative earning
+              limits.
+            </p>
           </div>
         ) : (
           ""
@@ -5564,6 +5619,204 @@ const CitiesRight = ({
         ) : (
           ""
         )}
+        {CyberSecurityBangalore ? (
+          <div className={styles.CitiesRightInner}>
+            <p>
+              Advance a digitally liable career with Learnbay’s Cyber Security
+              Course in Bangalore with placement support. Join the course today
+              to protect data systems and valuable assets from external threats.
+              Our inclusive syllabus helps you master cybersecurity basics and
+              evolving concepts.
+            </p>
+            <p>
+              Learnbay’s front-age cyber security certification course in
+              Bangalore equips you with the powers to detect threats, enrich
+              network safety, and build encrypted systems. Our industry-paced
+              training sessions by eminent experts accelerate your wisdom about
+              data security and defense shields.
+            </p>
+            <p>
+              Learnbay believes in future-proofing static careers with powers to
+              face digital risks and guard them against external threats. Our
+              1:1 mentorship and project-based learning help experts tackle
+              digital intricacies with end-to-end security keys. Our cyber
+              security course engages learners with proven skill sets to build
+              defensive systems and pave the way for ethical hacking.
+            </p>
+            <h3 style={{ fontSize: "18px" }}>
+              Industry-paced Cyber Security and Ethical Hacking Course in
+              Bangalore
+            </h3>
+            <p>
+              Reputed industry experts from top-notch MNCs in Bangalore offer
+              1:1 live interactive training to our learners. Our cyber security
+              courses online keep you ahead of the digital race and help you
+              build a defensive system against hacks and threats. You will learn
+              everything from scratch via elemental modules and live projects.
+            </p>
+            <p>
+              Our course modules are regularly updated following the industry
+              trends. We try to include diverse operating sectors influenced by
+              tech creations and data usage. We follow industry researchers to
+              understand the essence of cyber security in handling modern
+              businesses and their data usage. Hence, joining our cyber security
+              training can help you excel in your career and attain proven
+              success.
+            </p>
+            <h3 style={{ fontSize: "18px" }}>
+              Industry-relevant Career Counselling
+            </h3>{" "}
+            <p>
+              Reputed industry experts from top-notch MNCs in Bangalore offer
+              1:1 live interactive training to our learners. Our cyber security
+              courses online keep you ahead of the digital race and help you
+              build a defensive system against hacks and threats. You will learn
+              everything from scratch via elemental modules and live projects.
+            </p>
+            <p>
+              Our course modules are regularly updated following the industry
+              trends. We try to include diverse operating sectors that are
+              influenced by tech creations and data usage. We follow industry
+              researchers to understand the essence of cyber security in
+              handling modern businesses and their data usage. Hence, joining
+              our cyber security training can help you excel in your career and
+              attain proven success.
+            </p>
+            <h3 style={{ fontSize: "18px" }}>
+              Digitally-driven Career Counselling
+            </h3>
+            <p>
+              Our reliable career experts and advisors offer end-to-end learning
+              aids to excel in today’s challenging times. Enterprise security
+              has become vital for firms dealing with massive data sets, raising
+              the urgency of upskilling. Our counsellors help you learn the
+              essence of cyber security and master proven tools.
+            </p>
+            <p>
+              Join us to prepare for ethical hacking, security analysis, and IT
+              norms for threat detection and prevention. Our cyber security
+              course in Bangalore with placement drives exciting success
+              globally.
+            </p>
+            <h3 style={{ fontSize: "18px" }}>
+              Why does Learnbay’s cyber security course in Bangalore drive
+              notable success?
+            </h3>
+            <p>
+              Career upskilling has become crucial for experts from diverse
+              fields. In the interim, fast-paced tech shifts inspire experts to
+              upskill and learn the recent trends. Yet, joining a generic course
+              can limit your success chances and degrade your career value.
+              Hence, joining proven cyber security courses online is vital in
+              inducing better gains.
+            </p>
+            <p>
+              Upskilling has become vital regardless of cyber security course
+              fees in Bangalore. Hence, Learnbay presents a regularly revised
+              syllabus to escalate your career worth and prepare you for
+              critical interviews. Its flexible learning method helps learners
+              grasp real-time learning of security tools, trends, and practices.
+            </p>
+            <p>
+              Join our interactive cyber security training from well-known
+              experts and unleash your true worth. Training from reputed mentors
+              followed by 1:1 doubt-clearing sessions enhances your wisdom.
+              Also, learning via real-time projects at offline innovation labs
+              in Bangalore assures global-level success.
+            </p>
+            <p>
+              Our cyber security courses support working experts with their
+              flexibly designed course fees. Our inclusively planned cyber
+              security course in Bangalore fees boosts experts' ability to step
+              forward for hassle-free learning. Experts can opt for easy
+              payments, scholarships, and an affordable fee structure.
+            </p>
+            <p>
+              Lastly, Learnbay’s cyber security certifications validate your
+              skills and help you grow with definite career success. Experts can
+              earn IBM & Microsoft certificates and add them to their resumes
+              for enriched returns. These globally recognized certifications
+              help you land promising roles, have swift promotions, and attain
+              exciting growth.{" "}
+            </p>
+            <p>
+              Enrol in Learnbay’s <b>cyber security course in Bangalore</b>{" "}
+              today to gain –
+            </p>
+            <ul>
+              <li>
+                Industry-paced training to orient you with core ideas and
+                practices
+              </li>
+              <li>
+                1:1 Live interactive sessions from famed industry experts{" "}
+              </li>
+              <li>
+                Offline real-time project work at Bangalore’s innovation labs
+              </li>
+              <li>
+                Hands-on learning with case studies and capstone projects{" "}
+              </li>
+              <li>
+                3 years of flexible career support services (1:1 mock interviews
+                & CV making)
+              </li>
+              <li>Globally recognised IBM & Microsoft certificates </li>
+            </ul>
+          </div>
+        ) : (
+          ""
+        )}
+          {CyberSecurityPune ? (
+          <div className={styles.CitiesRightInner}>
+            <p>
+            Technology influences every part of our digital world. It connects people and helps us work in new markets. In the interim, cybercrime has taken a toll on many firms and personal lives.
+            </p>
+            <p>
+            Recent reports have stated the impacts of growing cybercrimes to cost the world $10.5 trillion by 2025. Hence, startups and long-term firms prefer having cyber experts to control internal and external risks. Indeed, such cases trigger the haste for upskilling via a cyber security course in Pune with placement. 
+            </p>
+            <p>
+            Learnbay marks an apparent breakthrough with its leading-edge Cyber Security Course with a Generative AI-driven syllabus. Our alliance with iHUB DivyaSampark and IIT Roorkee enriches course worth endlessly. We have designed this course solely for IT experts and network engineers to excel in the rising cyber security domain. Techies can join our cyber security course with placement in Pune and build a prestigious career. 
+            </p>
+            <p>Techies can join our 2-day classroom training at IIT Roorkee to gain industry insights from IIT faculty members. This classroom learning scope will help you kick-start a competitive career with exciting perks. Also, we provide an open learning space where techies can learn and practice cyber security tools via live projects. Join the top cyber security training institute in Pune—Excel in your tech career with great rewards and easy promotions.             </p>
+           <p>Our alliance with iHUB DivyaSampark and IIT Roorkee validates your tech-driven skills to build a thriving career globally. These certificates will help you crack critical tech interviews with assured success. At last, our cyber security classes in Pune equip you with technical and soft skills to stay at the forefront of today’s digital space.            </p>
+            <h3 style={{ fontSize: "18px" }}>
+            Industry-specific Cyber Security Course in Pune with Placement
+            </h3>
+            <p>
+            Cybercrimes keep growing now and then, creating a haste for defensive mechanisms and frameworks. Constant learning has become vital for techies willing to revamp or switch careers. In the interim, Learnbay eases the upskilling journey via its cyber security course with placement in Pune.
+            </p>
+            <p>
+            Techies who join us will get training focused on important tools and models. This training will help them protect their data and network systems. 
+            </p>
+            <p>Our learning modules follow GenAI-rich models and frameworks to help techies evolve their careers with exciting perks. We follow industry happenings and evolving tech models to protect network systems. The learning modules integrate GenAI-rich concepts to guide learners in leading diverse fields.             </p>
+            <h3 style={{ fontSize: "18px" }}>
+              Industry-relevant Career Counselling
+            </h3>{" "}
+            <p>
+            Techies prefer upskilling despite hefty cyber security course fees in Pune to unleash alluring perks and rewards. We provide industry-specific career counseling to experts joining Learnbay.
+            </p>
+            <p>
+            Our reliable counselors guide learners in decoding industry updates and excelling in their careers. Learnbay’s reliable career experts assess your skill sets, understand your goals and interests, and advise proper upskilling courses. Join today to master front-age tools and restrict crucial threats. 
+            </p>
+            <h3 style={{ fontSize: "18px" }}>
+            Is Learnbay’s cyber security course in Pune worth investing in? 
+            </h3>
+            <p>
+            Learnbay expects a digitally defensive career path via its cutting-edge cyber security course in Pune. Its expansively curated Generative AI-rich learning modules help experts master key tools, methods, and frameworks to secure networks. Here, experts can upgrade their skills according to the new-age network security concepts and Gen AI models. 
+            </p>
+            <p>
+            We believe in first-hand learning experiences where experts can learn and practice cutting-edge tools and practices. Learners can practice via live projects to gain insights and optimize their skills. Our cyber security training in Pune follows a hybrid method to help experts balance their work-study terms. 
+            </p>
+           <p>Our tie-up with IIT Roorkee faculty members offers a career-specific mentorship. Learners acquire tech-driven skills via live cyber security classes in Pune. Our mentors help you develop skills to specify likely risks, manage network systems, ensure safety, and build defensive walls.             </p>
+           <p>Also, learners can add globally valued credentials to their careers, unleashing true growth options. Our best cyber security institute in Pune offers iHUB DivyaSampark and IIT Roorkee certificates once you complete your learning. These certificates help you grow endlessly and grab exciting offers.            </p>
+            <p>At last, Learnbay’s job assistance program helps you refine your skills and kick-start a thriving career. Our cyber security course in Pune with placement equips you with skills to crack critical job interviews effortlessly. Learnbay’s career support services help techies prepare for upcoming risks and make them job-ready.             </p>
+            
+        
+          </div>
+        ) : (
+          ""
+        )}
 
         {DSAPune ? (
           <div className={styles.CitiesRightInner}>
@@ -6588,17 +6841,18 @@ const CitiesRight = ({
               <h4 style={{ fontSize: "16px" }}>{CertificationHead30}</h4>
               <h4 style={{ fontSize: "16px" }}>{CertificationMasterHead2}</h4>
               <p className={styles.pp}>{CertificationBot3}</p>
-             
             </div>
             <div>
               <h2 className={styles.pHead}>{CertificationHead2}</h2>
               <h4 style={{ fontSize: "16px" }}>{CertificationHead31}</h4>
               <p className={styles.pp}>{CertificationBot4}</p>
-              {listsCertificate ? (<ul className={styles.pp}>
-                    <li>{Certificationlist1}</li>
-                    <li>{Certificationlist2}</li>
-                    <li>{Certificationlist3}</li>
-                  </ul>):(null)}
+              {listsCertificate ? (
+                <ul className={styles.pp}>
+                  <li>{Certificationlist1}</li>
+                  <li>{Certificationlist2}</li>
+                  <li>{Certificationlist3}</li>
+                </ul>
+              ) : null}
               <h4 style={{ fontSize: "16px" }}>{CertificationHead32}</h4>
               <p className={styles.pp}>{CertificationBot5}</p>
               <p className={styles.pp}>{CertificationBot6}</p>
@@ -6940,14 +7194,16 @@ const CitiesRight = ({
           <h2 className={styles.pHead}>{JobHead6}</h2>
           <p className={styles.pp}>{JobBot11}</p>
 
-          {hydraListJob ? ( <ul className={styles.pp}>
-                <li>{Joblist1}</li>
-                <li>{Joblist2}</li>
-                <li>{Joblist3}</li>
-                <li>{Joblist4}</li>
-                <li>{Joblist5}</li>
-                <li>{Joblist6}</li>
-              </ul>): null}
+          {hydraListJob ? (
+            <ul className={styles.pp}>
+              <li>{Joblist1}</li>
+              <li>{Joblist2}</li>
+              <li>{Joblist3}</li>
+              <li>{Joblist4}</li>
+              <li>{Joblist5}</li>
+              <li>{Joblist6}</li>
+            </ul>
+          ) : null}
           {joblist ? (
             <>
               <ul className={styles.pp}>

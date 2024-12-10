@@ -728,7 +728,7 @@ export const GENAIManagersLeadersCourseData = [
           "Skills Covered: Time-series analysis, prompt engineering, data preprocessing, using OpenAI APIs, and visualization techniques.",
         ],
         rank: "#1",
-        duration:"20 hours",
+        duration: "20 hours",
       },
       {
         id: 2,
@@ -743,7 +743,7 @@ export const GENAIManagersLeadersCourseData = [
           "Skills Covered: Natural language understanding (NLU), chatbot flow design, fine-tuning LLMs, and LangChain integration.",
         ],
         rank: "#2",
-        duration:"20 hours",
+        duration: "20 hours",
       },
       {
         id: 3,
@@ -758,7 +758,7 @@ export const GENAIManagersLeadersCourseData = [
           "Skills Covered: Generative AI applications in supply chain, OpenAI APIs, and dashboard creation using Tableau/Power BI.",
         ],
         rank: "#3",
-        duration:"20 hours",
+        duration: "20 hours",
       },
 
       {
@@ -768,13 +768,13 @@ export const GENAIManagersLeadersCourseData = [
           "Objective: Design a  GenAI tool to create personalized ad campaigns and content suggestions Outcome: Learn how to leverage AI to boost ROI through targeted and data-driven marketing strategies.",
         iconUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-41.webp", // Provide the path to the icon image
-          listItems: [
-            "Objective: Design a generative AI tool to create personalized ad campaigns and content suggestions for diverse customer segments.",
-            "Outcome: Learners will understand how to leverage AI to boost ROI through targeted and data-driven marketing strategies.",
-            "Skills Covered: Customer segmentation using AI, creative content generation, and integration with marketing platforms.",
-          ],
-          rank: "#4",
-          duration:"20 hours",
+        listItems: [
+          "Objective: Design a generative AI tool to create personalized ad campaigns and content suggestions for diverse customer segments.",
+          "Outcome: Learners will understand how to leverage AI to boost ROI through targeted and data-driven marketing strategies.",
+          "Skills Covered: Customer segmentation using AI, creative content generation, and integration with marketing platforms.",
+        ],
+        rank: "#4",
+        duration: "20 hours",
       },
 
       {
@@ -784,15 +784,14 @@ export const GENAIManagersLeadersCourseData = [
           "Objective: Design a  GenAI tool to create personalized ad campaigns and content suggestions Outcome: Learn how to leverage AI to boost ROI through targeted and data-driven marketing strategies.",
         iconUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-31.webp", // Provide the path to the icon image
-          listItems: [
-            "Objective: Build a generative AI model that identifies potential financial risks and suggests mitigation strategies for banking or investment sectors.",
-            "Outcome: Participants will learn to use AI for improving risk management and decision-making in financial operations.",
-            "Skills Covered: Prompt engineering for financial insights, OpenAI APIs, and data interpretation for risk analysis.",
-          ],
-          rank: "#5",
-          duration:"20 hours",
+        listItems: [
+          "Objective: Build a generative AI model that identifies potential financial risks and suggests mitigation strategies for banking or investment sectors.",
+          "Outcome: Participants will learn to use AI for improving risk management and decision-making in financial operations.",
+          "Skills Covered: Prompt engineering for financial insights, OpenAI APIs, and data interpretation for risk analysis.",
+        ],
+        rank: "#5",
+        duration: "20 hours",
       },
-
 
       {
         id: 6,
@@ -801,13 +800,13 @@ export const GENAIManagersLeadersCourseData = [
           "Objective: Design a  GenAI tool to create personalized ad campaigns and content suggestions Outcome: Learn how to leverage AI to boost ROI through targeted and data-driven marketing strategies.",
         iconUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-41.webp", // Provide the path to the icon image
-          listItems: [
-            "Objective: Develop an AI-driven tool to analyze and summarize customer feedback from various platforms (social media, surveys, etc.).",
-            "Outcome: Learners will design solutions to extract actionable insights for product or service improvement.",
-            "Skills Covered: Text summarization, sentiment analysis, and using generative AI for customer experience management.",
-          ],
-          rank: "#6",
-          duration:"20 hours",
+        listItems: [
+          "Objective: Develop an AI-driven tool to analyze and summarize customer feedback from various platforms (social media, surveys, etc.).",
+          "Outcome: Learners will design solutions to extract actionable insights for product or service improvement.",
+          "Skills Covered: Text summarization, sentiment analysis, and using generative AI for customer experience management.",
+        ],
+        rank: "#6",
+        duration: "20 hours",
       },
       // Add more data as needed
     ],
@@ -818,275 +817,273 @@ export const GENAIManagersLeadersCourseData = [
         data: [
           {
             id: 0,
-            ques: "Who is eligible for the Data Structures Algorithms and System Design Program?",
-            ans: "Any tech professional (B.Tech, MCA, B.Sc, BE, M.Tech) with basic coding knowledge can enroll in the Data Structures Algorithms and System Design Program. However, a bachelor's degree in computer science or any equivalent domain with good academics is required to qualify for the program. For working professionals, a minimum of 6 months of expertise is essential. For non-tech professionals (BBA/MBA, B.Com), basic domain knowledge and six months of work experience make them eligible for the program.",
+            ques: "Can I do a Gen AI Course for Managers & Tech Leaders at Learnbay?",
+            ans: "Yes. Any mid to senior-level professional with 4+ years of work experience can pursue our Generative AI course for managers and leaders program. The project managers/team leaders from IT/non-IT sectors can pursue this course with basic knowledge. Apart from this, one must have basic Python, ML, and Deep Learning knowledge.",
             open: true,
           },
           {
             id: 1,
-            ques: "What modules are covered in the Data Structures Algorithms & System Design Course?",
-            ans: `The course module is designed separately for basic and advanced levels. Under the basic course, you will get - 
-              Basic programming, data types, & code flow, If statements, loops, & code flow, I/O & exceptions, Functions, Object-oriented programming, 2-D matrix, 1-D array. Under the advanced course, you will learn - 
-              Functions and recursion, Linear & binary search, Time & space complexity, Bit manipulation, Two pointers, Sorting, Strings, Array, Linked lists, Stack, Queue, Maths, Advanced analysis of algorithms, Advanced data structure, Analysis of algorithms, System design principles, System design patterns, Low-level & high-level designs , Scalability, performance, Security, reliability, Integration, deployment.`,
+            ques: "Can I pursue a Gen AI for managers course while working full-time or from a distinct time zone?",
+            ans: `Mid- to senior-level experts opting for this Gen AI course get the flexibility to maintain work-study equilibrium. Hence, experts can opt for upskilling with a full-time job or from a distinct time zone. This course offers 100% live online interactive training sessions. Experts can opt for our hybrid training model to choose and plan their weekday or weekend batches. `,
             open: false,
           },
           {
             id: 2,
-            ques: "What are the modes of learning I can choose from?",
-            ans: `Learnbay believes in a flexible and open learning environment. Thus, working professionals willing to upskill themselves get the advantage of a hybrid learning mode. DSA course program comes on weekdays (8 PM – 10 PM; Mon-Wed-Fri) and weekends (8.30 AM – 12 PM; Sat-Sun). Concerning the working schedules, learners can fix their sessions with the mentors. Learnbay offers both classrooms and virtual learning sessions. Yet, with hybrid learning, learners get the scope of working on live projects across offline experience centers. Note: The course timing keeps changing based on the new batch launch. Confirm the latest availability from your dedicated support executive. `,
+            ques: "Are there any hands-on labs or practical exercises in the course curriculum?",
+            ans: `Yes. The Generative AI course for managers and tech leaders offers a hands-on learning scope where you can work on practical projects and exercises. Our modules are curated following the latest trends and practices to enrich your skills. Learners can work on best-suited real-time projects, exercises, and case studies to tackle business uncertainties tactfully.  `,
             open: false,
           },
           {
             id: 3,
-            ques: "Are the data structures and algorithms programs suitable for non-IT professionals?",
-            ans: "While a programming or CS background can be helpful, it's not always essential. We have our courses start from the basics and advance tackling the complexities. So, non-IT professionals can take the online data structures and algorithms course. Only they need an ample level of self-motivation. The course is structured to help learners with non-IT backgrounds easily understand the modules with the help of experienced mentors, 24/7 support, and one-on-one doubt sessions.",
+            ques: "Is a Gen AI course for managers worth it?",
+            ans: "Pursuing a Generative AI for managers course is worth investing in due to its expansive career honors. IT/non-IT experts with 4+ years of experience can opt for this course to master the in-demand GenAI models. Experts can acquire proven skills to tackle business issues amidst GenAI growth. Also, our cutting-edge training sessions, career support services, and global credentials can escalate your success metrics with lasting gains",
             open: false,
           },
           {
             id: 4,
-            ques: "Is DSA hard to learn?",
-            ans: "It may be hard to study data structure and algorithms without proper guidance. But the appropriate guidance makes it super easy. Yet, with our expert mentors and great learning assistance, we ensure learners get the best type of education to understand every DSA concept.",
+            ques: "What is the duration of an Advance Gen AI Program for Tech Leaders and Managers?",
+            ans: "The Advance Gen AI for Managers course is 4.5 months long (weekday and weekend batches) and involves live projects.      ",
             open: false,
           },
           {
             id: 5,
-            ques: "How long it takes to complete the Data Structures Algorithms and System Design Program?",
-            ans: "The Data Structures Algorithms and System Design Program takes 400+ hours or 6.5 months. During the program, learners will get live training sessions, live projects, job-readiness assistance, & interview preparations under the guidance of mentors. One can complete the course modules and projects per batch timings.",
+            ques: "What are the additional benefits provided by this Advance Gen AI program for managers?",
+            ans: "Learners joining our Advance GenAI course will receive job-driven career growth options. Constant learning can help team leaders and project managers master front-age GenAI skills with exciting job offers.  Apart from this, you will receive extra benefits like – ",
+            list1:
+              "Acquiring cutting-edge GenAI-rich skills (OpenAI APIs, Lang Chain, LLMs, RAG, etc.)",
+            list2: "Senior GenAI domain experts and IIT professors as trainers",
+            list3: "E&ICT and IIT Guwahati certifications",
+            list4: "Career Services PRO (100% assured interviews)",
             open: false,
           },
           {
             id: 6,
-            ques: "How long can I have access to the course materials and resources?",
-            ans: "Learnbay introduces a Flexi subscription offer for learners with a better scope of uninterrupted learning. Flexi is a 3-year membership where learners will have direct access to course materials, training sessions, live projects, videos, and other helpful resources. With the Flexi pass, learners can get self-paced learning access even after the course completion.",
+            ques: "What is the cost of the Advance Gen AI Program for Managers and Tech Leaders?",
+            ans: "The Generative AI for Managers program costs ₹75,000 plus 18% GST.",
+
+            dscoursefaq: true,
             open: false,
           },
         ],
       },
+      // {
+      //   id: 1,
+      //   sectionName: "Domain Electives",
+      //   data: [
+      //     {
+      //       id: 0,
+      //       ques: "Can I pay in installments for the Generative AI Course for Managers & Leaders?",
+      //       ans: "Yes. Learners opting for this course can pay INR 4,916/month in installments under a no-cost EMI option within 12 months. Also, learners can opt for interest-free loans, credit cards, or UPI for hassle-free learning",
+      //       open: true,
+      //     },
+      //     {
+      //       id: 1,
+      //       ques: "Is there any scholarship/discount available for leaders and managers for the Gen AI course?",
+      //       ans: "The Advance Gen AI Course for Managers and Tech Leaders offers an early bird discount of 15% – 20%. Apart from this, experts who join with one or more friends can avail of group discounts following the given terms and conditions. ",
+      //       list1: "Group of 2: 5% extra discount",
+      //       list2: "Group of 3: 8% additional discount",
+      //       list3: "Group of 4+: Max 10% discount",
+      //       open: false,
+      //     },
+      //     {
+      //       id: 2,
+      //       ques: "What is the refund policy for the Advance Gen AI Program for Managers and Tech Leaders at Learnbay?",
+      //       ans: `Experts joining our Advance Generative AI course for managers can stop their learning anytime with a valid reason. For further details, refer to Learnbay’s Refund/Cancellation Policy. `,
+      //       open: false,
+      //     },
+      //     {
+      //       id: 3,
+      //       ques: "How many real-time projects will be there?",
+      //       ans: "The Generative AI for Managers course includes 4+ executive-level real-time industrial projects to demonstrate success with exciting offers. ",
+      //       open: false,
+      //     },
+      //     {
+      //       id: 4,
+      //       ques: "Are there possibilities to work on real-time industry projects?",
+      //       ans: "Yes. Learners opting for this course will work on real-time projects to boost industry knowledge. Our eminent mentors are here to guide you throughout the project-handling stage at our offline innovation labs. These projects are designed to equip you with real-time industry insights refining your expertise.",
+      //       open: false,
+      //     },
+      //     {
+      //       id: 5,
+      //       ques: "Can I choose my project for the capstone, or are projects assigned?",
+      //       ans: "Yes. Learners joining the Gen AI course for managers can choose their best-suited projects with their mentor’s advice. You can assess your skills, career goals, and interests while selecting the projects.",
+      //       open: false,
+      //     },
+      //   ],
+      // },
       {
         id: 1,
-        sectionName: "Domain Electives",
-        data: [
-          {
-            id: 0,
-            ques: "What is domain specialization?",
-            ans: "We offer five elite domains, from which you can choose your preferred one as your specialization. You can opt for a specific elective based on your targeted job role.",
-            open: true,
-          },
-          {
-            id: 1,
-            ques: "What are the available elective domain options?",
-            ans: "These are as follows: Full Stack, Product Engineer/Manager, Data Science and AI, Web 3.0 Developer, DevOps & Clouds.",
-            open: false,
-          },
-          {
-            id: 2,
-            ques: "Which domain elective is best suited for me?",
-            ans: `You can select your domain based on your prior work experience, academics, and career goals. Please book a slot with our industry expert for a free profile review and career guidance.`,
-            open: false,
-          },
-          {
-            id: 3,
-            ques: "Why is domain specialization important?",
-            ans: "After enrolling in the Software Development Master Program with Domain Specialization, one must opt for domain electives for Level 06. It is essential to have a specialization. Because the generic study is not going to help you land a promising and secure job role, choosing such specialization will make your project work, interview preparation, and the job application process easier.",
-            open: false,
-          },
-          {
-            id: 4,
-            ques: "Is prior experience in any domain necessary?",
-            ans: "Yes, it's essential to have basic knowledge in your domain. Yet, if you are a fresher with no prior work experience, you can choose any electives to upskill in your domain and gain practical experience through live projects.",
-            open: false,
-          },
-          {
-            id: 5,
-            ques: "Will I have the scope to switch my domain later?",
-            ans: "Yes, you can change your electives anytime during the training sessions. Based on the updated domain choice, your training sessions shall be guided by our industry experts.",
-            open: false,
-          },
-        ],
-      },
-      {
-        id: 2,
         sectionName: "Payments and Scholarships",
         data: [
           {
             id: 0,
-            ques: "What is the course fee for the Data Structures Algorithms and System Design Program?",
-            ans: "The Data Structures Algorithms and System Design Program cost INR 82,600 (inclusive of taxes). The working professionals willing to enroll in the course can visit the Learnbay website or schedule a call with our counselor for more details. To know more about the course, contact us at +91 7795687988.",
+            ques: "Is there any accredited certification after course completion?",
+            ans: "Yes. The Gen AI course for managers offers globally valued certifications to fast-forward your career race. You will receive accredited certifications from E&ICT and IIT Guwahati once you complete course tasks and GenAI projects. These IIT-backed certificates will validate your managerial skills and help you land compelling roles.",
             open: true,
           },
 
           {
-            id: 2,
-            ques: "What are the financing options available for the course?",
-            ans: "Learnbay supports quality learning and career empowerment. Thus, it curates affordable course programs for learners with flexible financing options. Concerning the DSA course fees, a learner has to pay just INR 4,588 per month under the EMI plan through cards, net banking, & UPI. Also, you can avail of easy loan procedures and flexible payment terms. In case you do not like the training sessions during DEMO or initial classes, you can cancel the program and claim the fees under the 10-day refund policy.",
+            id: 1,
+            ques: "How do I receive my certificate, and is it a digital or printed certificate?",
+            ans: "Learnbay offers IIT-backed certificates to enrich your career worth and help you land promising roles. Hence, all eligible learners with 70% scores can earn globally acknowledged certificates in digital form. Your digital E&ICT, IIT Guwahati accredited certificates will reach you within 7 days. ",
             open: false,
           },
           {
-            id: 3,
-            id: 6,
-            ques: "Is there any scholarship or discount offer available for the Data Structures Algorithms and System Design Program?",
-            ans: "Learnbay offers a 15% – 20% discount for early birds occasionally. Yet, a group discount is available for the learners who join with one or more friends. For further details, you can check with our sales team at +91 7795687988.",
+            id: 2,
+            ques: "Who is eligible for a job assistance program at Learnbay?",
+            ans: "Learners enrolling in this Gen AI course must complete the course tasks, live projects, and case studies with at least 70% scores. It makes you eligible for a job assistance program at Learnbay (Career Services PRO) to overtake the exciting career opportunities.   ",
             open: false,
             list1: "Group of 2: 5% extra discount",
             list2: "Group of 3: 8% additional discount",
             list3: "Group of 4+: Max 10% discount",
             dscoursefaq1: true,
           },
+          {
+            id: 3,
+            ques: "How many interview calls will I get at Learnbay?",
+            ans: "Learners joining our Generative AI for Managers course will get endless job calls from top-rated 350+ industry partners to accelerate career rise metrics.",
+            open: true,
+          },
         ],
       },
       {
-        id: 3,
+        id: 2,
         sectionName: "Capstone and Real-Time Projects",
         data: [
           {
             id: 0,
-            ques: "How many projects are available on the course?",
-            ans: "During the course sessions, learners will get 12+ live projects in several domains like product management, blockchain, cloud & DevOps, & MERN Stack. After the completion of the course, you will work on two capstone projects to become eligible for globally recognized certifications from IBM. Apart from these, learners may need to work on multiple case studies, assignments, and tasks.",
+            ques: "Can I opt for the Career Services Pro feature?",
+            ans: "Mid- to senior working experts with 70% score in course and live projects are eligible for Learnbay’s Career Services PRO feature. Here, you will get –",
+            list1: "6 months of Career Services PRO",
+            list2: "Online resume build-up sessions",
+            list3: "Favorable job calls from top-rated MNCs/MAANG/FAANG",
 
             open: false,
           },
           {
             id: 1,
-            ques: "How will the projects be executed?",
-            ans: `The learners get the advantage of working with real-time industry projects and gaining practical experience in their domains. Learnbay brings group project-handling sessions under the guidance of mentors and experts. For virtual learning mode, learners can work via cloud labs and online guidance from industry experts. For the hybrid training mode, learners can opt for offline experience centers in metro cities like Bangalore, Hyderabad, Pune, & Delhi. In-person meetings and doubt-clearing sessions help the learners refine their skills in real time.`,
+            ques: "Do you offer job placement or assistance services after course completion?",
+            ans: `Yes. Experts pursuing a Gen AI course for managers can avail of 100% job and placement services at Learnbay. Our industry-driven career support services back you with definite skills to thrive globally. Join us to avail yourself of exciting perks – from interview prep to CV-making.`,
+            open: false,
+          },
+
+          {
+            id: 2,
+            ques: "When will the learners receive the mentorship?",
+            ans: `We believe in industry-relevant mentorship to expand career potential and growth options. Our learners can avail of the mentorship facility until they complete the course. Our mentors are here for doubt-clearing, career support, and offline project advice.`,
+            open: false,
+          },
+        ],
+      },
+      {
+        id: 3,
+        sectionName: "Certification",
+        data: [
+          {
+            id: 0,
+            ques: "Can a Learnbay student choose to study from their desired mentor?",
+            ans: "Learnbay has a team of dedicated mentors with pertinent industry insights. Our learners are assigned to respected mentors who can justify upskilling and meet a learner’s career interests. If you find a mentor unfit for training, you can request your desired mentor. We support quality upskilling, and our learners are free to change their mentors and study from the ones they desire. ",
+            open: true,
+          },
+          {
+            id: 1,
+            ques: "Are mentors available for one-on-one or group sessions?",
+            ans: `Yes. Our venerable mentors are here for 1:1 or group training sessions during projects or course tasks. If learners opt for a 1:1 training session, doubt-clearing, or project-related queries, mentors are open for them. `,
             open: false,
           },
         ],
       },
       {
         id: 4,
-        sectionName: "Certification",
+        sectionName: "Job Assistance",
         data: [
           {
             id: 0,
-            ques: "Is certification essential for career transformation with the DSA program?",
-            ans: "Certification is necessary to prove your skills and expertise with the latest DSA tools and techniques. Learnbay offers a globally recognized certification for the course in association with IBM & Microsoft that adds more value to your resume. It is a badge to showcase your proven skills and crack job offers from the leading MNCs. A good certification enhances your demand in the industry, and this recognition helps you get better placement assistance with lucrative hikes.",
+            ques: "Are there mentors available to help with coursework and projects? ",
+            ans: `Experts joining the Advance Gen AI for Managers and Leaders course can avail of reliable industry-driven training. Our mentors are accountable for guiding learners with course tasks, case studies, and live projects. So, yes, you will get hassle-free help from your mentor while working on real-time projects and course tasks.  `,
             open: true,
           },
           {
             id: 1,
-            ques: "Is there any accredited certification after course completion?",
-            ans: `Yes, you will be awarded an IBM & Microsoft accredited Data Structures Algorithms & System Design Certificate on successful course completion.`,
+            ques: "How can I reach out for technical support if I face any problems with the course platform?",
+            ans: "Once you join the Generative AI course for managers, you will get 24x7 support that resolves any learning query. You can call our helpline number to reach the expected service providers who can help you with any technical matters (login, sessions, projects, chat, or course materials) with the course platform.",
+          },
+
+          {
+            id: 2,
+            ques: "Is there a discussion forum or community for learners to communicate, discuss, and seek help?",
+            ans: "Learners will get a personalized Learnbay app with each bit of course, project, and mentor details. They can directly reach out to their mentors to fix course/project queries and discuss doubts with peers. ",
+            dscoursefaq1: true,
+
+            open: false,
+          },
+          {
+            id: 3,
+            ques: "How long will I get job referrals?",
+            ans: "You are eligible to avail of job referrals once you complete the course tasks and projects. With the Career Services Pro, a learner can avail of endless job referrals to get placed across 350+ industry allies. ",
+            dscoursefaq1: true,
+            open: false,
+          },
+          {
+            id: 4,
+            ques: "Do you offer job placement or job assistance services after course completion?",
+            ans: "Yes. We offer 100% job assistance services to learners opting for a Gen AI course online. Experts can avail of a career services pro package after completing the course. The program supports learners with premium career-enrich perks – from 1:1 interview prep to CV-making. ",
             open: false,
           },
         ],
       },
       {
         id: 5,
-        sectionName: "Job Assistance",
+        sectionName: "Mentorship",
         data: [
           {
             id: 0,
-            ques: "What is a job readiness program at Learnbay?",
+            ques: "When will the students get the mentorship facility?",
 
-            ans: `A job-readiness program at Learnbay includes resume-building sessions, portfolio designing, and 1:1 mock interview preparation sessions for the experts. This program aims to help working professionals redefine their careers in relevant fields with attractive pay. The tie-ups with 450+ industry partners help the learners get their entry into the leading MNCs in their desired areas.`,
+            ans: "The learners will get the mentorship facility until they complete the course. After completing the course tasks and projects, you can reach your mentors for doubt-clearing, career assistance, and offline project guidance. ",
             open: true,
           },
           {
             id: 1,
-            ques: "Who is eligible for the job assistance program at Learnbay?",
-            ans: "The learners obtaining a minimum of 70% in tasks and assessments become eligible for the job-readiness or job assistance program. Before this, one must have completed the training sessions, gained the required knowledge, and completed minimum tasks, assignments, and projects provided by the experts.",
+            ques: "Can a Learnbay student choose to study from their desired mentor?",
+            ans: "Learnbay has a team of reliable mentors with relevant industry experience. Each learner is assigned a mentor who can justify upskilling and meet a learner’s career goals and interests. If a student does not find the mentor fit for training, he/she can request a new mentor. Learnbay supports quality upskilling; hence, students can change their mentors and study from the ones they desire. ",
+            open: false,
           },
-
           {
             id: 2,
-            ques: "What does the Career Services PRO package include?",
-            ans: "The Career Services PRO at Learnbay offers you the - ",
-            list1:
-              "Three years of job placement assistance with unlimited access to interviews and learning portals",
-            list2: "Six mock interviews with industry partners",
-            list3: "Powerful resume design to ace interviews",
-            list4: "1:1 review session",
-            list5: "Unlimited interview calls",
-            list6:
-              "At the end of the course, learners will be able to get these benefits that shall equip their career with the in-demand skills to crack the interviews with the leading MNCs",
-            dscoursefaq1: true,
-
+            ques: "Are mentors available for one-on-one or group sessions?",
+            ans: "Yes. Our esteemed mentors are available for 1:1 or group sessions in respective projects or courses. If a learner opts for a 1:1 session for live training, doubt-clearing, or project queries, mentors are available for them. ",
             open: false,
           },
           {
             id: 3,
-            ques: "How is Learnbay's Placement program different from others?",
-            ans: "When you get upskilled with Learnbay's course program successfully, you become eligible for its placement program. It offers -",
-            list1:
-              "Guaranteed interview calls from prime MNCs & MAANG partnered with Learnbay",
-            list2:
-              "Capstone project certification from IBM enhances the quality of your resume.",
-            list3:
-              "Domain-specialized training and upskilling help get selected in placement drives",
-            list4:
-              "100% live and instructor-led sessions refining the core concepts",
-            list5:
-              "Personalized resume preparation helps showcase your proven skills & increase your chances of getting selected. ",
-            dscoursefaq1: true,
-            open: false,
-          },
-          {
-            id: 4,
-            ques: "Will I get job referrals at Learnbay?",
-            ans: "After successful completion of course training sessions, live projects, and other assessments provided, a learner becomes eligible to attend job interviews with our partnered industries. Here, Learnbay offers job referrals for your desired roles to its industry partners, consultancies, and companies.",
+            ques: "Are there mentors available to help with coursework and projects?",
+            ans: "Learners enrolling in the Advance Gen AI program get the scope of learning under reliable industry training. These mentors are liable for guiding each learner with course tasks and real-time projects. So, yes, you will get hassle-free help from your mentor while working on fresh capstone projects and course modules. ",
             open: false,
           },
         ],
       },
       {
         id: 6,
-        sectionName: "Mentorship",
-        data: [
-          {
-            id: 0,
-            ques: "Who are the mentors at Learnbay?",
-
-            ans: "Learnbay supports quality education and right upskilling according to the latest industry trends. Hence, it appoints trained professionals from different industries in different domains specialized in their fields. With mandatory proven work experience, industry experts guide our learners with the best training support. Industry experts relevantly hold practical experience and real-time exposure to the real business world to guide our learners better.",
-            open: true,
-          },
-          {
-            id: 1,
-            ques: "Can I reach my mentors to clear up my doubts regarding the course?",
-            ans: "Any learner enrolling for a course is entitled to get maximum benefits in terms of upskilling, practical learning, and doubt-clearing assistance. Mentors are liable to support their learners with the best solutions to their doubts. At the end of each module, a doubt-clearing session is conducted that helps the learners know the concepts better. Plus, by the end of the course, a job-readiness program is held where learners have 1:1 interaction with their mentors on their doubts. Plus, our offline experience centers across metro cities play a key role in doubt-clearing.",
-            open: false,
-          },
-          {
-            id: 2,
-            ques: "Do the mentors take live classes or play recorded sessions during the training?",
-            ans: "Mentors at Learnbay take live classes for the learners, while the recorded sessions are for helping the latter with self-paced learning afterward. In the instructor-led live sessions, learners get the benefit of knowing the real concepts, refining their skills, and clearing their doubts. After the end of the sessions till getting placed in an MNC, the working professionals need quality learning where these recordings are useful.",
-            open: false,
-          },
-          {
-            id: 3,
-            ques: "Do counseling sessions help learners make wise decisions before enrolling in a course?",
-            ans: "Learnbay offers the scope of understanding the course program and its role in shaping a bright career in a desired field. This happens through an industry-led counseling session. Our counselors help learners in upskilling with DSA concepts with practical knowledge. Before enrolling in the DSA program, you also get the benefit of attending demo sessions by industry experts to check the quality of training and course curriculum. Thus, it helps working professionals make the right decision in a career shift.",
-            open: false,
-          },
-          {
-            id: 4,
-            ques: "How long can I avail myself of the mentorship facility?",
-            ans: "Our Mentors will provide DSA course training to the learners until the completion of the course. Next, during the job placement programs, a learner can opt for doubt-clearing sessions where mentorship is required. After completion of each task, assessment, and project work, mentorship ends.",
-            open: false,
-          },
-          {
-            id: 5,
-            ques: "Can learners choose to study from their desired mentor at Learnbay?",
-            ans: "Every batch has its respective mentor, but if a learner is not satisfied with their mentor's teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
-            open: false,
-          },
-        ],
-      },
-      {
-        id: 7,
         sectionName: "Support",
         data: [
           {
             id: 0,
-            ques: "When is the job assistance provided at Learnbay?",
+            ques: "How can I contact technical support if I face any problems with the course platform?",
 
-            ans: "Job assistance is provided after the course is completed. It includes resume design sessions, 1:1 mock interviews, and job referrals from top industry giants. This assistance is provided unless one gets placed in a company.",
+            ans: "Once you register with the course, you will get 24×7 learner support that resolves any learning query. You can call our helpline number to reach the desired service providers who can help you with any technical issues (login, sessions, projects, chat, or course materials) with the course platform. ",
             open: true,
           },
           {
             id: 1,
-            ques: "How long will I get Job referrals?",
-            ans: "You'll be provided with job assistance or job referrals after the completion of the course for 3 years as per the career service pro package by Learnbay.",
+            ques: "Is there a discussion forum or community for learners to communicate and seek support?",
+            ans: "Learners will get a custom-fit Learnbay app having a list of learners with their mentors mentioned. They can directly reach out to their mentors to resolve queries in case of need and discuss doubts with peers. ",
+            open: false,
+          },
+          {
+            id: 2,
+            ques: "How long will I get job referrals?",
+            ans: "You are qualified to avail of job referrals once you complete the course. Under the Career Services Pro package, a learner can avail of continuous job referrals to get placed across 350+ industry partners. ",
             open: false,
           },
         ],

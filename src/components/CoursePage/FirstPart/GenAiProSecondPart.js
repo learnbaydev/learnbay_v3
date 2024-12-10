@@ -7,7 +7,7 @@ import LJourney from "../LJourney/LJourney";
 import DSAFeeSection from "../dsaFee/DSAFeeSection";
 import NewTools from "../newTools/NewTools";
 import GenAIProject from "../genAiProject/GenAIProject";
-import FAQNew from "../FAQNew/FAQNew";
+import FAQNew from "../FAQNew/FAQNewDomain";
 const Certificate= dynamic(() =>
 import("../../../components/CoursePage/Certificate/Certificate")
 )
@@ -73,38 +73,7 @@ const GenAiProSecondPart = ({
       totalAmount2="₹75,000"
       monthlyPayment2="₹7,375"
       />
-      {/* <FeeSection
-        Fee="₹ 70,000"
-        FeeEmi="₹ 4,588/month"
-        weekendbatch="Weekday Evening (DSA BATCHES)"
-        weekdaybatch="Weekday Evening (DSA BATCHES)"
-        weekday="MON-WED-FRI"
-        weekend="MON-WED-FRI"
-        WeekendDate="JAN 26th"
-        WeekdayDate="JAN 10th "
-        WeekendTime="08:00PM - 10:00PM"
-        WeekdayTime="08:00PM - 10:00PM"
-        FeeContent3="Flexible payment"
-        FeeContent4="Easy loan procedure"
-        FeeContent5="10 days refund policy"
-        FeeContent6="No additional cost"
-        dataScienceCounselling={true}
-        titleCourse="Software Development Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI-Developer-Program.pdf"
-        brochurePdf={pdfUrl}
-        dataScience={true}
-        interstedInHide={true}
-        // <EMI POPUP
-        emiType="NO COST EMI"
-        duration1="18 Months"
-        totalAmount1="₹70,000"
-        monthlyPayment1="₹4,588"
-        greenDown1="Standard Intrest rate Applicable"
-        duration2="12 Months"
-        totalAmount2="₹70,000"
-        monthlyPayment2="₹6,883"
-      /> */}
-      {/* <MentorsSection /> */}
+   
       <SliderTab />
       {/* <PlacementCall /> */}
       <GenAIProject genAiData ={genAiData} Duration={true}/>

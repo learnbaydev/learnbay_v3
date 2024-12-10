@@ -12,19 +12,13 @@ const SeventhSection = dynamic(() =>
   import("@/components/Global/SeventhSection/SeventhSection")
 );
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
-const MentorsSection = dynamic(() =>
-  import("../../Global/MentorsSection/MentorsSection")
-);
+
 const SliderTab = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
-const PlacementCall = dynamic(() =>
-  import("../../Global/PlacementCall/PlacementCallFsd")
-);
+
 const FAQNew = dynamic(() =>
-  import("../FAQNew/FAQNew")
+  import("../FAQNew/FAQNewDomain")
 );
-const Content = dynamic(() =>
-  import("@/components/CoursePage/Content/content")
-);
+
 
 const IITCyberSecondPart = ({
   masterSyllabusMobile,
@@ -108,7 +102,7 @@ const IITCyberSecondPart = ({
       {/* <MentorsSection /> */}
       <SliderTab />
       {/* <PlacementCall /> */}
-      {/* <FAQNew FAQNewData={FAQNewData} /> */}
+      <FAQNew FAQNewData={FAQNewData} />
       {/* <Content dataScienceCounselling={true} DSASeoContent={true} /> */}
       <SeventhSection />
       <Footer />
