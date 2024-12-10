@@ -20,10 +20,9 @@ function FirstSection({
   titleCourse,
   brochureLink,
   dataScienceCounselling,
-  ThirdTyped,
+  microsSoftOnly,
   ibmOnly,
   cityParaCont,
-  cityPara,
   interstedInHide,
   brochurePdf,
 }) {
@@ -39,8 +38,6 @@ function FirstSection({
   const popupShow = () => {
     setPopups(true);
   };
-
-
 
   return (
     <>
@@ -89,29 +86,41 @@ function FirstSection({
               width={508}
               height={327}
               alt="data science course"
-
               priority // Priority for critical images
             />
           </div>
           <div className={styles.Desktop}>
             <p className={styles.ptop}>In Collaboration With</p>
             <div className={styles.ImageBlock}>
-              {ibmOnly ? (
+              {microsSoftOnly ? (
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/ibm-single-home.png"
-                  width={127}
-                  height={51}
-                  loading="lazy" // Lazy load non-critical images
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micrososfttss.webp"
+                  width={150}
+                  height={30}
+                  priority
                   alt="data science course"
                 />
               ) : (
-                <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp"
-                  width={266}
-                  height={48}
-                  loading="lazy" // Lazy load non-critical images
-                  alt="data science course"
-                />
+                <>
+                  {" "}
+                  {ibmOnly ? (
+                    <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/ibm-single-home.png"
+                      width={127}
+                      height={51}
+                      loading="lazy" // Lazy load non-critical images
+                      alt="data science course"
+                    />
+                  ) : (
+                    <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp"
+                      width={266}
+                      height={48}
+                      loading="lazy" // Lazy load non-critical images
+                      alt="data science course"
+                    />
+                  )}
+                </>
               )}
             </div>
           </div>
@@ -146,30 +155,40 @@ function FirstSection({
               height={460}
               alt="data science course"
               priority // Priority for critical images
-        
-
             />
           </div>
         </div>
         <div className={styles.Mobile}>
           <p className={styles.ptop}>In Collaboration With</p>
           <div className={styles.ImageBlock}>
-            {ibmOnly ? (
+            {microsSoftOnly ? (
               <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/ibm-single-home.png"
-                width={127}
-                height={51}
-                loading="lazy" // Lazy load non-critical images
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micrososfttss.webp"
+                width={190}
+                height={40}
+                priority
                 alt="data science course"
               />
             ) : (
-              <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp"
-                width={283}
-                height={51}
-                loading="lazy" // Lazy load non-critical images
-                alt="data science course"
-              />
+              <>
+                {ibmOnly ? (
+                  <Image
+                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/ibm-single-home.png"
+                    width={127}
+                    height={51}
+                    loading="lazy" // Lazy load non-critical images
+                    alt="data science course"
+                  />
+                ) : (
+                  <Image
+                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp"
+                    width={283}
+                    height={51}
+                    loading="lazy" // Lazy load non-critical images
+                    alt="data science course"
+                  />
+                )}
+              </>
             )}
           </div>
         </div>

@@ -7,6 +7,7 @@ import LJourney from "../LJourney/LJourney";
 import DSAFeeSection from "../dsaFee/DSAFeeSection";
 import NewTools from "../newTools/NewTools";
 import GenAIProject from "../genAiProject/GenAIProject";
+import FAQNew from "../FAQNew/FAQNewDomain";
 const Certificate= dynamic(() =>
 import("../../../components/CoursePage/Certificate/Certificate")
 )
@@ -110,7 +111,7 @@ const GenAiMLeadersSecondPart = ({
       {/* <PlacementCall /> */}
 
       <GenAIProject genAiData ={genAiData } GENAIMAN={true} Duration={true}/>
-      {/* <FAQNew FAQNewData={FAQNewData} /> */}
+      <FAQNew FAQNewData={FAQNewData} />
       {/* <Content dataScienceCounselling={true} DSASeoContent={true} /> */}
       <SeventhSection />
       <Footer />

@@ -843,50 +843,9 @@ export const GENAIPROCourseData = [
           },
         ],
       },
+   
       {
         id: 1,
-        sectionName: "Domain Electives",
-        data: [
-          {
-            id: 0,
-            ques: "What is domain specialization?",
-            ans: "We offer five elite domains, from which you can choose your preferred one as your specialization. You can opt for a specific elective based on your targeted job role.",
-            open: true,
-          },
-          {
-            id: 1,
-            ques: "What are the available elective domain options?",
-            ans: "These are as follows: Full Stack, Product Engineer/Manager, Data Science and AI, Web 3.0 Developer, DevOps & Clouds.",
-            open: false,
-          },
-          {
-            id: 2,
-            ques: "Which domain elective is best suited for me?",
-            ans: `You can select your domain based on your prior work experience, academics, and career goals. Please book a slot with our industry expert for a free profile review and career guidance.`,
-            open: false,
-          },
-          {
-            id: 3,
-            ques: "Why is domain specialization important?",
-            ans: "After enrolling in the Software Development Master Program with Domain Specialization, one must opt for domain electives for Level 06. It is essential to have a specialization. Because the generic study is not going to help you land a promising and secure job role, choosing such specialization will make your project work, interview preparation, and the job application process easier.",
-            open: false,
-          },
-          {
-            id: 4,
-            ques: "Is prior experience in any domain necessary?",
-            ans: "Yes, it's essential to have basic knowledge in your domain. Yet, if you are a fresher with no prior work experience, you can choose any electives to upskill in your domain and gain practical experience through live projects.",
-            open: false,
-          },
-          {
-            id: 5,
-            ques: "Will I have the scope to switch my domain later?",
-            ans: "Yes, you can change your electives anytime during the training sessions. Based on the updated domain choice, your training sessions shall be guided by our industry experts.",
-            open: false,
-          },
-        ],
-      },
-      {
-        id: 2,
         sectionName: "Payments and Scholarships",
         data: [
           {
@@ -921,7 +880,7 @@ export const GENAIPROCourseData = [
         ],
       },
       {
-        id: 3,
+        id: 2,
         sectionName: "Capstone and Real-Time Projects",
         data: [
           {
@@ -947,7 +906,7 @@ export const GENAIPROCourseData = [
         ],
       },
       {
-        id: 4,
+        id: 3,
         sectionName: "Certification",
         data: [
           {
@@ -965,7 +924,7 @@ export const GENAIPROCourseData = [
         ],
       },
       {
-        id: 5,
+        id: 4,
         sectionName: "Job Assistance",
         data: [
           {
@@ -1021,7 +980,7 @@ export const GENAIPROCourseData = [
         ],
       },
       {
-        id: 6,
+        id: 5,
         sectionName: "Mentorship",
         data: [
           {
@@ -1053,7 +1012,7 @@ export const GENAIPROCourseData = [
         ],
       },
       {
-        id: 7,
+        id: 6,
         sectionName: "Support",
         data: [
           {
