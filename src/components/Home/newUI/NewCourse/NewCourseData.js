@@ -417,7 +417,7 @@ export const courses = {
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf",
       brochurePdfs:
-        "/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati",
+        "/Brochure/Executive-program-iit.pdf",
     },
     {
       title: "Advanced AI & ML Certification Program",
