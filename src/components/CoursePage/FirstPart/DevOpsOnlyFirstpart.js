@@ -124,6 +124,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
     },
   };
 
+   const pdfUrl ="/Brochure/Cloud-and-Devops.pdf"
   return (
     <>
     <FirstSection
@@ -139,6 +140,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
           firstHeading="Best DevOps Certification          "
           firstTopPara="Crack Interview in top MNCs "
           idss="gaQYhVPCudQ"
+          brochurePdf={pdfUrl}
           thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/cd-f.webp"
         // videoId="gaQYhVPCudQ"
         
@@ -154,6 +156,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
         <SecondNavbar
           // interstedInHide={true}
           dataScience={true}
+          brochurePdf={pdfUrl}
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
           titleCourse="Advance Data Science & AI Program with Domain Specialization"
         />
@@ -179,6 +182,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
         <ContactConsellor
           dataScience={true}
           // interstedInHide={true}
+          brochurePdf={pdfUrl}
           titleCourse="Advance Data Science & AI Program with Domain Specialization"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
         />
