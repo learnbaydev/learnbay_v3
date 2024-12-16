@@ -163,7 +163,7 @@ export const GENAIPROCourseData = [
       {
         Module0: {
           title: "Topic 1 :- Fundamentals of Generative AI",
-          hours: "(4 Hours)",
+          hours: "(5 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
           StartImageUrl:
@@ -189,7 +189,7 @@ export const GENAIPROCourseData = [
         Module0: {
           title:
             "Topic 2 :- Use Cases of GenAI in Various Industries and Domains",
-          hours: "(4 Hours)",
+          hours: "(5 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -249,7 +249,7 @@ export const GENAIPROCourseData = [
       {
         Module0: {
           title: "Topic 3 :- Deep Learning Foundations for GenAI",
-          hours: "(4 Hours)",
+          hours: "(5 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellows.webp",
           StartImageUrl:
@@ -277,7 +277,7 @@ export const GENAIPROCourseData = [
       {
         Module0: {
           title: "Topic 4 :- Prompt Engineering and optimisation",
-          hours: "(4 Hours)",
+          hours: "(5 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/hash_rounds.webp",
           StartImageUrl:
@@ -305,7 +305,7 @@ export const GENAIPROCourseData = [
       {
         Module0: {
           title: "Topic 5 :- Transformers and Attention Mechanisms",
-          hours: "(4 Hours)",
+          hours: "(5 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/deployment-colors.webp",
           StartImageUrl:
@@ -331,7 +331,7 @@ export const GENAIPROCourseData = [
       {
         Module0: {
           title: "Topic 6 :- Large Language Models (LLMs)",
-          hours: "(4 Hours)",
+          hours: "(5 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/world-rounds.webp",
           StartImageUrl:
@@ -359,7 +359,7 @@ export const GENAIPROCourseData = [
       {
         Module0: {
           title: "Topic 7 :- Integration of OpenAI APIs",
-          hours: "(4 Hours)",
+          hours: "(5 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/chat-rounds.webp",
           StartImageUrl:
@@ -386,7 +386,7 @@ export const GENAIPROCourseData = [
       {
         Module0: {
           title: "Topic 8 :- Building Applications with LangChain",
-          hours: "(4 Hours)",
+          hours: "(5 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/new-rounds.webp",
           StartImageUrl:
@@ -415,7 +415,7 @@ export const GENAIPROCourseData = [
       {
         Module0: {
           title: "Topic 9 :- Utilizing Hugging Face",
-          hours: "(4 Hours)",
+          hours: "(5 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-round.webp",
           StartImageUrl:
@@ -443,7 +443,7 @@ export const GENAIPROCourseData = [
       {
         Module0: {
           title: "Topic 10 :- GANs (Generative Adversarial Networks)",
-          hours: "(4 Hours)",
+          hours: "(5 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/mix-round.webp ",
           StartImageUrl:
@@ -473,7 +473,7 @@ export const GENAIPROCourseData = [
       {
         Module0: {
           title: "Topic 11 :- Variational Autoencoders (VAEs)",
-          hours: "(4 Hours)",
+          hours: "(6 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/slice-rounds.webp",
           StartImageUrl:
@@ -501,7 +501,7 @@ export const GENAIPROCourseData = [
       {
         Module0: {
           title: "Topic 12 :- Retrieval-Augmented Generation (RAG)",
-          hours: "(4 Hours)",
+          hours: "(6 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lap-rounds.webp",
           StartImageUrl:
@@ -529,7 +529,7 @@ export const GENAIPROCourseData = [
       {
         Module0: {
           title: "Topic 13 :- Model Deployment for Generative AI",
-          hours: "(4 Hours)",
+          hours: "(6 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/flow-rounds.webp",
           StartImageUrl:
@@ -557,7 +557,7 @@ export const GENAIPROCourseData = [
       {
         Module0: {
           title: "Topic 14 :- GenAI Copilot Tools for Coding",
-          hours: "(4 Hours)",
+          hours: "(6 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lazy-rounds.webp",
           StartImageUrl:
@@ -584,7 +584,7 @@ export const GENAIPROCourseData = [
       {
         Module0: {
           title: "Topic 15 :- Ethical Considerations in AI",
-          hours: "(4 Hours)",
+          hours: "(6 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-rounds.webp",
           StartImageUrl:
@@ -718,7 +718,7 @@ export const GENAIPROCourseData = [
         iconUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-61.webp", // Provide the path to the icon image
         rank: "#1",
-        duration: "5 hours",
+        duration: "8 hours",
       },
       {
         id: 2,
@@ -728,7 +728,7 @@ export const GENAIPROCourseData = [
         iconUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-21.webp", // Provide the path to the icon image
         rank: "#2",
-        duration: "5 hours",
+        duration: "8 hours",
       },
       {
         id: 3,
@@ -738,51 +738,22 @@ export const GENAIPROCourseData = [
         iconUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-31.webp", // Provide the path to the icon image
         rank: "#3",
-        duration: "5 hours",
+        duration: "8 hours",
       },
 
+      
       {
         id: 4,
-        title: "Customer Feedback Analyser for e-commerce",
-        description:
-          "This GenAI based tool will processes customer reviews and feedback, identifying emotions, trends, and key themes. This insights will help to improve products, enhance customer satisfaction, and refine strategies.",
-        iconUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-41.webp", // Provide the path to the icon image
-        rank: "#4",
-        duration: "5 hours",
-      },
-      {
-        id: 5,
         title: " Employee Feedback Insights ",
         description:
           "Analyze employee feedback and surveys for trends and sentiments. LangChain processes responses, and Hugging Face identifies sentiments, helping HR make better decisions.",
         iconUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-61.webp", // Provide the path to the icon image
-        rank: "#5",
-        duration: "5 hours",
+        rank: "#4",
+        duration: "8 hours",
       },
 
-      {
-        id: 6,
-        title: "Fraud Detection Tool ",
-        description:
-          "Detect unusual financial activities and risks. LangChain connects to transaction data, and Hugging Face flags suspicious patterns to prevent fraud.",
-        iconUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-21.webp", // Provide the path to the icon image
-        rank: "#6",
-        duration: "5 hours",
-      },
-
-      {
-        id: 7,
-        title: " AI Ad Creator",
-        description:
-          "Create ad copies, social media posts, and email content with AI. LangChain helps customize content, and Hugging Face ensures it aligns with brand tone.",
-        iconUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-31.webp", // Provide the path to the icon image
-        rank: "#7",
-        duration: "5 hours",
-      },
+    
       // Add more data as needed
     ],
 

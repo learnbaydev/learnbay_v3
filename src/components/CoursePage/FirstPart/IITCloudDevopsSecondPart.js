@@ -6,6 +6,7 @@ import LJourney from "../LJourney/LJourney";
 import NewCertificateSection from "../newCertificate/NewCertificate";
 import DSAFeeSection from "../dsaFee/DSAFeeSection";
 import NewTools from "../newTools/NewTools";
+import GenAIProject from "../genAiProject/GenAIProject";
 const Certificate = dynamic(() => import("../Certificate/Certificate"));
 const SeventhSection = dynamic(() =>
   import("@/components/Global/SeventhSection/SeventhSection")
@@ -28,6 +29,7 @@ const IITCloudDevopsSecondPart = ({
   FAQNewData,
   CertificateData,
   toolsData,
+  genAiData,
 }) => {
 
   // console.log(popupData);
@@ -48,7 +50,7 @@ const IITCloudDevopsSecondPart = ({
         interstedInHide={true}
         onlyGENAIPage={true}
         IITGenCloudonly={true}
-        genAIIIT={true}
+        // genAIIIT={true}
       />
 
       <Certificate data={CertificateData} noTabs={true} />
@@ -109,6 +111,7 @@ const IITCloudDevopsSecondPart = ({
       /> */}
       {/* <MentorsSection /> */}
       <SliderTab />
+      <GenAIProject genAiData ={genAiData} GENAIMAN={true} noClud={true}/>
       {/* <PlacementCall /> */}
       {/* <FAQNew FAQNewData={FAQNewData} /> */}
       {/* <Content dataScienceCounselling={true} DSASeoContent={true} /> */}

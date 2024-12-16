@@ -121,7 +121,7 @@ export const GENAIManagersLeadersCourseData = [
       {
         id: 1,
         title: "Program Eligibility",
-        description: "Working professionals having minimum 4 years of exp.",
+        description: "Working professionals having 4+ years of exp.",
         imageSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_Icon+(1).webp",
         imageAlt: "DomainElectives",
@@ -775,39 +775,7 @@ export const GENAIManagersLeadersCourseData = [
         ],
         rank: "#4",
         duration: "20 hours",
-      },
-
-      {
-        id: 5,
-        title: "Financial Risk Assessment with AI Insights",
-        description:
-          "Objective: Design a  GenAI tool to create personalized ad campaigns and content suggestions Outcome: Learn how to leverage AI to boost ROI through targeted and data-driven marketing strategies.",
-        iconUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-31.webp", // Provide the path to the icon image
-        listItems: [
-          "Objective: Build a generative AI model that identifies potential financial risks and suggests mitigation strategies for banking or investment sectors.",
-          "Outcome: Participants will learn to use AI for improving risk management and decision-making in financial operations.",
-          "Skills Covered: Prompt engineering for financial insights, OpenAI APIs, and data interpretation for risk analysis.",
-        ],
-        rank: "#5",
-        duration: "20 hours",
-      },
-
-      {
-        id: 6,
-        title: " Automated Customer Feedback Analysis",
-        description:
-          "Objective: Design a  GenAI tool to create personalized ad campaigns and content suggestions Outcome: Learn how to leverage AI to boost ROI through targeted and data-driven marketing strategies.",
-        iconUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-41.webp", // Provide the path to the icon image
-        listItems: [
-          "Objective: Develop an AI-driven tool to analyze and summarize customer feedback from various platforms (social media, surveys, etc.).",
-          "Outcome: Learners will design solutions to extract actionable insights for product or service improvement.",
-          "Skills Covered: Text summarization, sentiment analysis, and using generative AI for customer experience management.",
-        ],
-        rank: "#6",
-        duration: "20 hours",
-      },
+      }
       // Add more data as needed
     ],
     faq: [
