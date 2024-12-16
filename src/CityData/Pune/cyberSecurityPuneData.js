@@ -109,44 +109,47 @@ export const CuberSecurityPuneCourseData = [
         data: [
           {
             id: 0,
-            ques: "Who is eligible for the Data Structures Algorithms and System Design Program in Bangalore? ",
-            ans: "Any tech professional (B.Tech, MCA, B.Sc, BE, M.Tech) with basic coding knowledge can enroll in the DSA course in Bangalore. However, a bachelor's degree in computer science or any equivalent domain with good academics is required to qualify for the program. For working professionals, a minimum of 6 months of expertise is essential. For non-tech professionals (BBA/MBA, B.Com), basic domain knowledge and six months of work experience make them eligible for the program. ",
-            open: true,
+            ques: "Can I do a Cyber Security course in Pune at Learnbay?",
+           ans:"Yes. Entry- to mid-level IT experts with 1+ years of job experience can join this cyber security course institute in Pune. All IT experts, security analysts, IT consultants, network admins, etc can enroll in the course. Yet, fresh grads, freshers, or students are not eligible for the course. ",
+           open: true,
           },
           {
             id: 1,
-            ques: "What modules are covered in the DSA courses in Bangalore? ",
-            ans: `The course module is designed separately for basic and advanced levels. 
-              Under the introductory course, you will learn Basic programming, data types, & code flow, I/O & exceptions, and many more. 
-              Under the advanced course, you will learn functions, recursion, sorting, queue, advanced data structure, and many more. `,
+            ques: "Can I join the best cyber security course in Pune while working full-time or from a distinct time zone?",
+            ans: `Entry- to mid-level IT experts opting for our cyber security classes in Pune can avail of a blended learning mode. Our flexibly planned training models help techies learn while working or from a different time zone. Techies can choose the best-suitable batch (weekday or weekend) to kick-start learning. `,
             open: false,
           },
           {
             id: 2,
-            ques: "What are the modes of learning I can choose from? ",
-            ans: `Learnbay believes in a flexible and open learning environment. Thus, working professionals willing to upskill themselves get the advantage of a hybrid learning mode. Data structures and algorithms classes in Bangalore come on weekdays (8 PM – 10 PM; Mon-Wed-Fri) and weekends (8.30 AM – 12 PM; Sat-Sun). Concerning the working schedules, learners can fix their sessions with the mentors. Learnbay offers both classrooms and virtual learning sessions. Yet, with hybrid learning, learners get the scope of working on live projects across offline experience centers. 
-              
-              Note: The course timing keeps changing based on the new batch launch. Confirm the latest availability from your dedicated support executive. `,
+            ques: "Are there any hands-on labs or practical exercises in the course?",
+            ans: `Yes. The cyber security course in Pune offers a flexible learning stage with project innovation labs. Techies will learn and practice cutting-edge tools via real-time projects. Our customized modules are designed following the latest industry practices to enhance your abilities to tackle industry difficulties. `,
             open: false,
           },
           {
             id: 3,
-            ques: "Are the data structures and algorithms programs suitable for non-IT professionals?",
-            ans: "While a programming or CS background can be helpful, it's only sometimes essential. Our courses start with the basics and tackle the complexities in advance. So, non-IT professionals can opt for the data structures and algorithms course in Bangalore. Only they need an ample level of self-motivation. The course is structured to help learners with non-IT backgrounds easily understand the modules with the help of experienced mentors, 24/7 support, and one-on-one doubt sessions.",
+            ques: "Is joining a cyber security training institute in Pune worth it?",
+            ans: "Tech experts with 1+ years of experience can opt for our cyber security course in Pune with placement. Experts in system admin, network analysis, or any IT role can grasp cyber security practices via our customized modules. Also, our IIT-backed credentials and career services can help you land exciting roles with top-rated MNCs. Hence, enrolling in the course is worth investing in and drives tempting gains. ",
             open: false,
           },
           {
             id: 4,
-            ques: "Is DSA hard to learn?",
-            ans: "The data structures and algorithms course in Bangalore takes 400+ hours or 6.5 months. During the program, learners will get live training sessions, live projects, job-readiness assistance, & interview preparations under the guidance of mentors. One can complete the course modules and projects per batch timings. ",
+            ques: "What is the duration of a cyber security training program?",
+            ans: "The cyber security course takes 8 months (weekday and weekend batches) to help you refine cutting-edge concepts via live projects. ",
             open: false,
           },
           {
             id: 5,
-            ques: "How long can I have access to the course materials and resources? ",
-            ans: "Learnbay introduces a Flexi subscription offer for learners with a better scope of uninterrupted learning. Flexi is a 3-year membership where learners will have direct access to course materials, training sessions, live projects, videos, and other helpful resources. With the Flexi pass, learners can get self-paced learning access to the data structures and algorithms classes in Bangalore even after the course completion. ",
+            ques: "What are the unique benefits offered by the best cyber security institute in Pune? ",
+            ans: "Learners joining the cyber security classes in Pune will receive career-enriched rewards. Techies can invest in the course to gain notable career benefits and kick-start a competitive future. Learners will receive unique benefits like – ",
+            list1:"- A 2-day immersive learning experience with IIT Roorkee faculties ",
+            list2:"- iHUB DivyaSampark, IIT Roorkee certificates ",
+            list3:"- Mastering IAM and ISO Standards via real-time projects",
+            list4:"- Personalized career support services to crack high-demand roles",
+         
+            dscoursefaq:true,
             open: false,
           },
+        
         ],
       },
       {
@@ -169,7 +172,7 @@ export const CuberSecurityPuneCourseData = [
             id: 2,
             ques: "Which domain elective is best suited for me?",
             ans: `You can select your domain based on your prior work experience, academics, and career goals. Please book a slot with our industry expert for a free profile review and career guidance.`,
-
+          
             open: false,
           },
           {
@@ -190,6 +193,7 @@ export const CuberSecurityPuneCourseData = [
             ans: " Yes, you can change your electives anytime during the training sessions. Based on the updated domain choice, our industry experts will guide your training sessions. ",
             open: false,
           },
+        
         ],
       },
       {
@@ -198,30 +202,39 @@ export const CuberSecurityPuneCourseData = [
         data: [
           {
             id: 0,
-            ques: "What is the course fee for the Data Structures Algorithms and System Design Program?",
-            ans: `The data structures and algorithms training in Bangalore costs INR 82,000 (including taxes). The working professionals willing to enroll in the course can visit the Learnbay website or schedule a call with our counselor for more details. To know more about the course, contact us at +91 7795687988. `,
+            ques: "What is the cost of the cyber security course in Pune?",
+            ans: `The cyber security course fees in Pune is ₹1,10,000 plus 18% GST. `,
             open: true,
           },
           {
             id: 1,
-            ques: "What financing options are available for the course? ",
-            ans: "Learnbay supports quality learning and career empowerment. Thus, it curates affordable course programs for learners with flexible financing options. Concerning the DSA course fees, a learner has to pay just INR 6,883 per month under the EMI plan through cards, net banking, & UPI. Also, you can avail of easy loan procedures and flexible payment terms. If you do not like the training sessions during DEMO or initial classes, you can cancel the program and claim the fees under the 15-day refund policy. ",
+            ques: "Can I pay in installments for the cyber security training in Pune for tech professionals?",
+            ans: "Yes. IT experts opting for this course can pay INR 7,211/month in installments. Techies can opt for a no-cost EMI, interest-free loans, credit cards, or UPI to repay the course fees. ",
             //Check This
             open: false,
           },
           {
             id: 2,
-            ques: "Is any scholarship or discount offer available for the Data Structures Algorithms and System Design Program? ",
-            ans: `Learnbay offers a 15% – 20% discount for early birds occasionally. However, a group discount is available for learners who join with one or more friends. `,
+            ques: "Is there any scholarship/discount available for the cyber security training in Pune?",
+            ans: `The cyber security course in Pune offers a 15% – 20% discount for early birds. Besides, techies who join with one or more friends can avail of group discounts following the terms and conditions. `,
+                  
+            list1:"Group of 2: 5% extra discount",
+            list2:"Group of 3: 8% additional discount",
+            list3:"Group of 4+: Max 10% discount",
 
-            list1: "Group of 2: 5% extra discount",
-            list2: "Group of 3: 8% additional discount",
-            list3: "Group of 4+: Max 10% discount",
-
-            list4: `  You can check with our sales team at +91 7795687988 for further details.`,
+          list4:`Besides, eligible learners can apply for a 25% scholarship while registering for the course. You can check with our sales team at +91 7795687988 for further details.  `,
 
             open: false,
-            dscoursefaq: true,
+            dscoursefaq:true
+          },
+         
+          {
+            id: 2,
+            ques: "What is the refund policy for the cyber security course at Learnbay?",
+            ans: `Techies pursuing a cyber security course in Pune can withdraw from it with a valid reason and a refund. For more details, refer to Learnbay’s Refund/Cancellation Policy. `,
+                  
+           
+            open: false,
           },
         ],
       },
@@ -231,15 +244,21 @@ export const CuberSecurityPuneCourseData = [
         data: [
           {
             id: 0,
-            ques: "How many projects are available on the course?  ",
-            ans: `During the course sessions, learners will get 12+ live projects in several domains like product management, blockchain, cloud & DevOps, & MERN Stack. After completing the course, you will work on two capstone projects to become eligible for globally recognized certifications from IBM. Learners may also need to work on multiple case studies, assignments, and tasks. `,
-
+            ques: "How many real-time projects will be there?",
+            ans: `The cyber security course in Pune with placement includes 4+ real-time industrial projects.  `,
+           
             open: true,
           },
           {
             id: 1,
-            ques: "How will the projects be executed? ",
-            ans: "The learners can work with real-time industry projects and gain practical experience in their domains. Learnbay brings group project-handling sessions under the guidance of mentors and experts. For virtual learning mode, learners can work via cloud labs and online guidance from industry experts. For the hybrid training mode, learners can opt for offline experience centers in metro cities like Bangalore, Hyderabad, Pune, & Delhi. In-person meetings and doubt-clearing sessions help the learners refine their skills in real-time.",
+            ques: "Are there opportunities to work on real-time projects?",
+            ans: "Yes. Techies enrolling in our cyber security course in Pune will gain business insights via real-time projects. Experts can learn and practice via project tasks and case studies to tackle real-world incidents well. Our mentors will guide you in handling project tasks via the Pune-based innovation lab. ",
+            open: false,
+          },
+          {
+            id: 2,
+            ques: "Can I select my real-time project or are projects assigned?",
+            ans: "Yes. Learners can choose their preferred projects to develop their abilities and tackle industry intricacies. You will work on 4+ real-time projects at the best cyber security institute in Pune. ",
             open: false,
           },
         ],
@@ -250,17 +269,20 @@ export const CuberSecurityPuneCourseData = [
         data: [
           {
             id: 0,
-            ques: "Is certification essential for career transformation with the DSA program? ",
-            ans: `Certification is necessary to prove your skills and expertise with the latest DSA tools and techniques. Learnbay offers a globally recognized certification for the course in association with IBM & Microsoft that adds more value to your resume. It is a badge to showcase your proven skills and crack job offers from the leading MNCs. A good certification enhances your demand in the industry, and this recognition helps you get better placement assistance with lucrative hikes. `,
+            ques: "Is there any accredited certification after course completion?",
+            ans: `Yes. The cyber security certification in Pune offers career-worthy credentials with global accreditation. Learners will earn globally valued certificates from iHUB DivyaSampark, and IIT Roorkee boosting growth chances. `,
             open: true,
           },
 
           {
-            id: 1,
-            ques: "Is there any accredited certification after course completion? ",
-            ans: `Yes, you will be awarded an IBM & Microsoft accredited Data Structures Algorithms & System Design Certificate on successful course completion.`,
+            id:1,
+            ques: "How do I receive my certificate, and is it a digital or printed certificate?",
+            ans: `Learnbay offers digitally created IIT-backed credentials to validate your skills and enrich your career worth. Your digital certificates will take 7 days to reach your destination.  `,
             open: true,
           },
+
+
+          
         ],
       },
       {
@@ -269,55 +291,37 @@ export const CuberSecurityPuneCourseData = [
         data: [
           {
             id: 0,
-            ques: "What is a job readiness program at Learnbay? ",
+            ques: "Who is eligible for a job assistance program at Learnbay?",
 
-            ans: `Learnbay is the best institute for data structures and algorithms in Bangalore with resume-building sessions, portfolio designing, and 1:1 mock interview preparation sessions. This program aims to help working professionals redefine their careers in relevant fields with attractive pay. The tie-ups with 450+ industry partners help the learners get their entry into the leading MNCs in their desired areas. `,
+            ans: `Learners enrolling in this cyber security course in Pune with placement must get at least 70% marks in course tasks and projects. Eligible learners can apply for Learnbay’s job assistance program (Career Support Services) to grab lucrative offers.   `,
             open: true,
           },
           {
             id: 1,
-            ques: "Who is eligible for the job assistance program at Learnbay? ",
-            ans: `The learners obtaining a minimum of 70% in tasks and assessments become eligible for the job-readiness or job assistance program. Before this, one must have completed the training sessions, gained the required knowledge, and completed minimum tasks, assignments, and projects provided by the experts. `,
+            ques: "How many interview calls will I get at Learnbay?",
+            ans: `Experts joining our cyber security course with placement in Pune will get unlimited interview calls from top-notch 350+ industry allies to fast-forward stagnant tech careers. `,
             open: false,
           },
           {
             id: 2,
-            ques: "What does the Career Services PRO package include?",
-            ans: `The Career Services PRO at Learnbay offers you the - `,
-            list1:
-              "Three years of job placement assistance with unlimited access to interviews and learning portals",
-            list2: "Six mock interviews with industry partners",
-            list3: "Powerful resume design to ace interviews",
-            list4: "1:1 review session",
-            list5: "Unlimited interview calls",
-
-            span: "At the end of the course, learners will be able to get these benefits that shall equip their career with the in-demand skills to crack the interviews with the leading MNCs. ",
-            dscoursefaq1: true,
+            ques: "Can I opt for the Career Support Services feature?",
+            ans: `Entry to mid-level IT pros with at least 70% score in the course and live projects can apply for Career Support Services. Here, learners will get –`,
+            list1:"Effortless job assistance ",
+            list2:"Virtual interview prep with 350+ allied industry partners",
+            list3:"Resume-making sessions",
+                        dscoursefaq1:true,
             open: false,
+
+
           },
           {
             id: 3,
-            ques: "How is Learnbay's Placement program different from others? ",
-            ans: `When you get upskilled with the best data structures & algorithms training institute in Bangalore, you become eligible for its placement program. It offers -`,
-            list1:
-              "Guaranteed interview calls from prime MNCs & MAANG partnered with Learnbay",
-            list2:
-              "Capstone project certification from IBM enhances the quality of your resume.",
-            list3:
-              "Domain-specialized training and upskilling help get selected in placement drives",
-            list4:
-              "100% live and instructor-led sessions refining the core concepts",
-            lust5:
-              "Personalized resume preparation helps showcase your proven skills & increase your chances of getting selected. ",
-            dscoursefaq1: true,
+            ques: "Do you offer job assistance services after completing a course?",
+            ans: `Yes. Our best cyber security training institute in Pune offers an industry-driven job assistance program. Its absolute career-enrich support during your learning helps learners handle the rising intricacies well. Our job assistance equips you with alluring career growth offers globally. `,
+           
             open: false,
           },
-          {
-            id: 4,
-            ques: "Will I get job referrals at Learnbay? ",
-            ans: `After successful completion of course training sessions, live projects, and other assessments provided, a learner becomes eligible to attend job interviews with our partnered industries. Here, Learnbay offers job referrals for your desired roles to its industry partners, consultancies, and companies. `,
-            open: false,
-          },
+        
         ],
       },
       {
@@ -326,43 +330,33 @@ export const CuberSecurityPuneCourseData = [
         data: [
           {
             id: 0,
-            ques: "Who are the mentors at Learnbay? ",
+            ques: "Until when will the learners get the facility of mentorship?",
 
-            ans: "Learnbay supports quality education and right upskilling according to the latest industry trends. Hence, it appoints trained professionals from different industries in different domains specialized in their fields. With mandatory proven work experience, industry experts guide our learners with the best training support. Industry experts relevantly hold practical experience and real-time exposure to the real business world to guide our learners better. ",
+            ans: "We believe in industry-specific training and mentorship to expand career worth and potential. Our learners can avail of the live mentorship until they complete their course. Our reputed mentors offer 1:1 doubt-clearing, customized career support, and steady project advice.  ",
             open: true,
           },
           {
             id: 1,
-            ques: "Can I reach out to my mentors to clear up any doubts regarding the course? ",
-            ans: "Any learner enrolling for the data structures and algorithms training in Bangalore is entitled to get maximum benefits in terms of upskilling, practical learning, and doubt-clearing assistance. Mentors are liable to support their learners with the best solutions to their doubts. At the end of each module, a doubt-clearing session is conducted that helps the learners know the concepts better. Plus, by the end of the course, a job-readiness program is held where learners have 1:1 interaction with their mentors on their doubts. Plus, our offline experience centers across metro cities play a key role in doubt-clearing.  ",
+            ques: "Can a Learnbay student choose to study from their desired mentor?",
+            ans: "Learnbay has a dedicated team of industry experts or mentors from IIT Roorkee to guide you during the learning stage. Their experience and industry insights help techies refine their skill sets and build a booming career aligned with their best interests. If a learner finds his/her mentor unfit in any way, our expert team is here to help you and allocate a new desired mentor. ",
             open: false,
           },
 
           {
             id: 2,
-            ques: "Do the mentors take live classes or play recorded sessions during the training? ",
-            ans: "Mentors at Learnbay take live classes for the learners, while the recorded sessions are for helping the latter with self-paced learning afterward. In the instructor-led live sessions, learners benefit from knowing the real concepts, refining their skills, and clearing their doubts. After the end of the sessions till getting placed in an MNC, the working professionals need quality learning where these recordings are useful.  ",
+            ques: "Are mentors available for one-on-one or group sessions?",
+            ans: "Yes. Our esteemed mentors are available for 1:1 or group training to help you with live projects and course tasks. If learners opt for live instructor-led training, 1:1 doubt-clearing, or project-related inquiries, mentors are open for them. ",
             open: false,
           },
 
+
           {
             id: 3,
-            ques: "Do counseling sessions help learners make wise decisions before enrolling in a DSA course in Bangalore?  ",
-            ans: "Learnbay offers the scope of understanding the course program and its role in shaping a bright career in a desired field. This happens through an industry-led counseling session. Our counselors help learners in upskilling with DSA concepts with practical knowledge. Before enrolling in the DSA courses in Bangalore, you also get the benefit of attending demo sessions by industry experts to check the quality of training and course curriculum. Thus, it helps working professionals make the right decision in a career shift. ",
+            ques: "Are there mentors available to help with coursework and projects?",
+            ans: "Experts enrolling in the cyber security course in Pune will get committed and industry-focused training. Our mentors are responsible for training learners with coursework, case studies, and live projects. So, yes, you will get help from your mentor while working on real-time projects and course-related tasks.  ",
             open: false,
           },
-          {
-            id: 4,
-            ques: "How long can I avail myself of the mentorship facility?",
-            ans: "Our Mentors will provide DSA course training to the learners until the completion of the course. Next, during the job placement programs, a learner can opt for doubt-clearing sessions where mentorship is required. After completing each task, assessment, and project work, mentorship ends.  ",
-            open: false,
-          },
-          {
-            id: 5,
-            ques: "Can learners choose to study from their desired mentor at Learnbay?",
-            ans: "Every batch has its respective mentor, but if a learner is not satisfied with their mentor's teaching method, they can raise the issue to management and resolve it by replacing them with other mentors. ",
-            open: false,
-          },
+        
         ],
       },
       {
@@ -371,15 +365,22 @@ export const CuberSecurityPuneCourseData = [
         data: [
           {
             id: 0,
-            ques: "When is the job assistance provided at Learnbay?",
+            ques: "How can I reach out for technical support if I encounter any issues with the course platform?",
 
-            ans: "Job assistance is provided after the course is completed. It includes resume design sessions, 1:1 mock interviews, and job referrals from top industry giants. This assistance is provided unless one gets placed in a company. ",
+            ans: "Once you join the cyber security course in Pune with placement, you can reach our technical support team to fix your queries. Besides, you can also reach us via our helpline portal to handle technical issues. Our support team is here to tackle your course platform-related issues.  ",
             open: true,
           },
           {
             id: 1,
-            ques: "How long will I get Job referrals?",
-            ans: "You'll be provided with job assistance or job referrals after completing the course for 3 years as per the career service pro package by Learnbay. ",
+            ques: "Is there a discussion forum or community for learners to interact and seek help?",
+            ans: "Learners will get a learner-centric app with each bit of course, project, and mentor data. They can immediately reach out to their mentors to fix course/project queries and consult doubts with peers.  ",
+            open: false,
+          },
+
+          {
+            id: 2,
+            ques: "How long will I get job referrals?",
+            ans: "You are eligible to avail of job referrals once you complete the course tasks and live projects. With the Career Support Services, a learner can avail of endless job referrals to get placed across 350+ MNC partners. ",
             open: false,
           },
         ],
