@@ -5663,25 +5663,7 @@ const CitiesRight = ({
               training can help you excel in your career and attain proven
               success.
             </p>
-            <h3 style={{ fontSize: "18px" }}>
-              Industry-relevant Career Counselling
-            </h3>{" "}
-            <p>
-              Reputed industry experts from top-notch MNCs in Bangalore offer
-              1:1 live interactive training to our learners. Our cyber security
-              courses online keep you ahead of the digital race and help you
-              build a defensive system against hacks and threats. You will learn
-              everything from scratch via elemental modules and live projects.
-            </p>
-            <p>
-              Our course modules are regularly updated following the industry
-              trends. We try to include diverse operating sectors that are
-              influenced by tech creations and data usage. We follow industry
-              researchers to understand the essence of cyber security in
-              handling modern businesses and their data usage. Hence, joining
-              our cyber security training can help you excel in your career and
-              attain proven success.
-            </p>
+
             <h3 style={{ fontSize: "18px" }}>
               Digitally-driven Career Counselling
             </h3>
@@ -5732,6 +5714,14 @@ const CitiesRight = ({
               payments, scholarships, and an affordable fee structure.
             </p>
             <p>
+              Our cyber security course with placement in Bangalore sets the
+              basis for 360-degree career-building. Learners can use 1:1 mock
+              interviews, resume-making, LinkedIn profiling, and
+              portfolio-building help. Eligible learners can join the placement
+              program to prepare themselves for the trending jobs with leading
+              MNCs.{" "}
+            </p>
+            <p>
               Lastly, Learnbay’s cyber security certifications validate your
               skills and help you grow with definite career success. Experts can
               earn IBM & Microsoft certificates and add them to their resumes
@@ -5745,74 +5735,144 @@ const CitiesRight = ({
             </p>
             <ul>
               <li>
-                Industry-paced training to orient you with core ideas and
-                practices
+              2-days immersive experience at IIT Roorkee from IIT experts 
+
               </li>
               <li>
-                1:1 Live interactive sessions from famed industry experts{" "}
+              Hands-on learning with case studies and capstone projects
+
               </li>
               <li>
-                Offline real-time project work at Bangalore’s innovation labs
+              Career support services (interview preparation, resume building, and job placement assistance)
+
               </li>
               <li>
-                Hands-on learning with case studies and capstone projects{" "}
+              Globally recognized iHUB DivyaSampark, IIT Roorkee certificates
+
               </li>
-              <li>
-                3 years of flexible career support services (1:1 mock interviews
-                & CV making)
-              </li>
-              <li>Globally recognised IBM & Microsoft certificates </li>
+        
             </ul>
           </div>
         ) : (
           ""
         )}
-          {CyberSecurityPune ? (
+        {CyberSecurityPune ? (
           <div className={styles.CitiesRightInner}>
             <p>
-            Technology influences every part of our digital world. It connects people and helps us work in new markets. In the interim, cybercrime has taken a toll on many firms and personal lives.
+              Technology influences every part of our digital world. It connects
+              people and helps us work in new markets. In the interim,
+              cybercrime has taken a toll on many firms and personal lives.
             </p>
             <p>
-            Recent reports have stated the impacts of growing cybercrimes to cost the world $10.5 trillion by 2025. Hence, startups and long-term firms prefer having cyber experts to control internal and external risks. Indeed, such cases trigger the haste for upskilling via a cyber security course in Pune with placement. 
+              Recent reports have stated the impacts of growing cybercrimes to
+              cost the world $10.5 trillion by 2025. Hence, startups and
+              long-term firms prefer having cyber experts to control internal
+              and external risks. Indeed, such cases trigger the haste for
+              upskilling via a cyber security course in Pune with placement.
             </p>
             <p>
-            Learnbay marks an apparent breakthrough with its leading-edge Cyber Security Course with a Generative AI-driven syllabus. Our alliance with iHUB DivyaSampark and IIT Roorkee enriches course worth endlessly. We have designed this course solely for IT experts and network engineers to excel in the rising cyber security domain. Techies can join our cyber security course with placement in Pune and build a prestigious career. 
+              Learnbay marks an apparent breakthrough with its leading-edge
+              Cyber Security Course with a Generative AI-driven syllabus. Our
+              alliance with iHUB DivyaSampark and IIT Roorkee enriches course
+              worth endlessly. We have designed this course solely for IT
+              experts and network engineers to excel in the rising cyber
+              security domain. Techies can join our cyber security course with
+              placement in Pune and build a prestigious career.
             </p>
-            <p>Techies can join our 2-day classroom training at IIT Roorkee to gain industry insights from IIT faculty members. This classroom learning scope will help you kick-start a competitive career with exciting perks. Also, we provide an open learning space where techies can learn and practice cyber security tools via live projects. Join the top cyber security training institute in Pune—Excel in your tech career with great rewards and easy promotions.             </p>
-           <p>Our alliance with iHUB DivyaSampark and IIT Roorkee validates your tech-driven skills to build a thriving career globally. These certificates will help you crack critical tech interviews with assured success. At last, our cyber security classes in Pune equip you with technical and soft skills to stay at the forefront of today’s digital space.            </p>
+            <p>
+              Techies can join our 2-day classroom training at IIT Roorkee to
+              gain industry insights from IIT faculty members. This classroom
+              learning scope will help you kick-start a competitive career with
+              exciting perks. Also, we provide an open learning space where
+              techies can learn and practice cyber security tools via live
+              projects. Join the top cyber security training institute in
+              Pune—Excel in your tech career with great rewards and easy
+              promotions.{" "}
+            </p>
+            <p>
+              Our alliance with iHUB DivyaSampark and IIT Roorkee validates your
+              tech-driven skills to build a thriving career globally. These
+              certificates will help you crack critical tech interviews with
+              assured success. At last, our cyber security classes in Pune equip
+              you with technical and soft skills to stay at the forefront of
+              today’s digital space.{" "}
+            </p>
             <h3 style={{ fontSize: "18px" }}>
-            Industry-specific Cyber Security Course in Pune with Placement
+              Industry-specific Cyber Security Course in Pune with Placement
             </h3>
             <p>
-            Cybercrimes keep growing now and then, creating a haste for defensive mechanisms and frameworks. Constant learning has become vital for techies willing to revamp or switch careers. In the interim, Learnbay eases the upskilling journey via its cyber security course with placement in Pune.
+              Cybercrimes keep growing now and then, creating a haste for
+              defensive mechanisms and frameworks. Constant learning has become
+              vital for techies willing to revamp or switch careers. In the
+              interim, Learnbay eases the upskilling journey via its cyber
+              security course with placement in Pune.
             </p>
             <p>
-            Techies who join us will get training focused on important tools and models. This training will help them protect their data and network systems. 
+              Techies who join us will get training focused on important tools
+              and models. This training will help them protect their data and
+              network systems.
             </p>
-            <p>Our learning modules follow GenAI-rich models and frameworks to help techies evolve their careers with exciting perks. We follow industry happenings and evolving tech models to protect network systems. The learning modules integrate GenAI-rich concepts to guide learners in leading diverse fields.             </p>
+            <p>
+              Our learning modules follow GenAI-rich models and frameworks to
+              help techies evolve their careers with exciting perks. We follow
+              industry happenings and evolving tech models to protect network
+              systems. The learning modules integrate GenAI-rich concepts to
+              guide learners in leading diverse fields.{" "}
+            </p>
             <h3 style={{ fontSize: "18px" }}>
               Industry-relevant Career Counselling
             </h3>{" "}
             <p>
-            Techies prefer upskilling despite hefty cyber security course fees in Pune to unleash alluring perks and rewards. We provide industry-specific career counseling to experts joining Learnbay.
+              Techies prefer upskilling despite hefty cyber security course fees
+              in Pune to unleash alluring perks and rewards. We provide
+              industry-specific career counseling to experts joining Learnbay.
             </p>
             <p>
-            Our reliable counselors guide learners in decoding industry updates and excelling in their careers. Learnbay’s reliable career experts assess your skill sets, understand your goals and interests, and advise proper upskilling courses. Join today to master front-age tools and restrict crucial threats. 
+              Our reliable counselors guide learners in decoding industry
+              updates and excelling in their careers. Learnbay’s reliable career
+              experts assess your skill sets, understand your goals and
+              interests, and advise proper upskilling courses. Join today to
+              master front-age tools and restrict crucial threats.
             </p>
             <h3 style={{ fontSize: "18px" }}>
-            Is Learnbay’s cyber security course in Pune worth investing in? 
+              Is Learnbay’s cyber security course in Pune worth investing in?
             </h3>
             <p>
-            Learnbay expects a digitally defensive career path via its cutting-edge cyber security course in Pune. Its expansively curated Generative AI-rich learning modules help experts master key tools, methods, and frameworks to secure networks. Here, experts can upgrade their skills according to the new-age network security concepts and Gen AI models. 
+              Learnbay expects a digitally defensive career path via its
+              cutting-edge cyber security course in Pune. Its expansively
+              curated Generative AI-rich learning modules help experts master
+              key tools, methods, and frameworks to secure networks. Here,
+              experts can upgrade their skills according to the new-age network
+              security concepts and Gen AI models.
             </p>
             <p>
-            We believe in first-hand learning experiences where experts can learn and practice cutting-edge tools and practices. Learners can practice via live projects to gain insights and optimize their skills. Our cyber security training in Pune follows a hybrid method to help experts balance their work-study terms. 
+              We believe in first-hand learning experiences where experts can
+              learn and practice cutting-edge tools and practices. Learners can
+              practice via live projects to gain insights and optimize their
+              skills. Our cyber security training in Pune follows a hybrid
+              method to help experts balance their work-study terms.
             </p>
-           <p>Our tie-up with IIT Roorkee faculty members offers a career-specific mentorship. Learners acquire tech-driven skills via live cyber security classes in Pune. Our mentors help you develop skills to specify likely risks, manage network systems, ensure safety, and build defensive walls.             </p>
-           <p>Also, learners can add globally valued credentials to their careers, unleashing true growth options. Our best cyber security institute in Pune offers iHUB DivyaSampark and IIT Roorkee certificates once you complete your learning. These certificates help you grow endlessly and grab exciting offers.            </p>
-            <p>At last, Learnbay’s job assistance program helps you refine your skills and kick-start a thriving career. Our cyber security course in Pune with placement equips you with skills to crack critical job interviews effortlessly. Learnbay’s career support services help techies prepare for upcoming risks and make them job-ready.             </p>
-            
-        
+            <p>
+              Our tie-up with IIT Roorkee faculty members offers a
+              career-specific mentorship. Learners acquire tech-driven skills
+              via live cyber security classes in Pune. Our mentors help you
+              develop skills to specify likely risks, manage network systems,
+              ensure safety, and build defensive walls.{" "}
+            </p>
+            <p>
+              Also, learners can add globally valued credentials to their
+              careers, unleashing true growth options. Our best cyber security
+              institute in Pune offers iHUB DivyaSampark and IIT Roorkee
+              certificates once you complete your learning. These certificates
+              help you grow endlessly and grab exciting offers.{" "}
+            </p>
+            <p>
+              At last, Learnbay’s job assistance program helps you refine your
+              skills and kick-start a thriving career. Our cyber security course
+              in Pune with placement equips you with skills to crack critical
+              job interviews effortlessly. Learnbay’s career support services
+              help techies prepare for upcoming risks and make them job-ready.{" "}
+            </p>
           </div>
         ) : (
           ""

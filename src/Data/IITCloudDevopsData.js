@@ -120,7 +120,7 @@ export const IITCloudDevopsData = [
       {
         id: 1,
         title: "Program Eligibility",
-        description: "Working professionals having a minimum of 1 year's experience",
+        description: "Working professionals having 1+ year experience",
         imageSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_Icon+(1).webp",
         imageAlt: "DomainElectives",
@@ -398,7 +398,7 @@ export const IITCloudDevopsData = [
 
       {
         Module0: {
-          title: "TERM 5 :- Google Cloud Platform (GCP) Fundamentals",
+          title: "TERM 5 :- Google Cloud Platform (GCP) Fundamentals (optional)",
           hours: "(40 Hours)",
           imageUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_round.webp",
@@ -451,7 +451,7 @@ export const IITCloudDevopsData = [
       {
         Module0: {
           title: "TERM 6 :- Server and Application Virtualization",
-          hours: "(40 Hours)",
+          hours: "(30 Hours)",
           imageUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SERVER_round.webp",
         StartImageUrl:
@@ -502,7 +502,7 @@ export const IITCloudDevopsData = [
       {
         Module0: {
           title: "TERM 7 :- Data Migration and Resilience",
-          hours: "(40 Hours)",
+          hours: "(25 Hours)",
           imageUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
         StartImageUrl:
@@ -562,7 +562,7 @@ export const IITCloudDevopsData = [
       {
         Module0: {
           title: "TERM 8 :- DevOps Mastery and Tooling",
-          hours: "(40 Hours)",
+          hours: "(60 Hours)",
           imageUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEVOPS_round.webp",
         StartImageUrl:
@@ -633,7 +633,7 @@ export const IITCloudDevopsData = [
       {
         Module0: {
           title: "TERM 9 :- Advanced Security and DevSecOps",
-          hours: "(40 Hours)",
+          hours: "(30 Hours)",
           imageUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
         StartImageUrl:
@@ -684,7 +684,7 @@ export const IITCloudDevopsData = [
       {
         Module0: {
           title: "TERM 10 :- Electives and Specialized Cloud Projects",
-          hours: "(40 Hours)",
+          hours: "(20 Hours)",
           imageUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_round.webp",
         StartImageUrl:
@@ -743,7 +743,7 @@ export const IITCloudDevopsData = [
       {
         Module0: {
           title: "TERM 11 :- GenAI Essentials for Cloud & Devops",
-          hours: "(40 Hours)",
+          hours: "(30 Hours)",
           imageUrl:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_round.webp",
         StartImageUrl:
@@ -884,7 +884,7 @@ export const IITCloudDevopsData = [
         Module0: {
           title:
             "TERM 12 :- Cloud Computing Masterclass - IIT Guwahati Faculty",
-            hours: "(40 Hours)",
+            hours: "(5 Hours)",
             imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SERVER_round.webp",
           StartImageUrl:
@@ -985,7 +985,72 @@ export const IITCloudDevopsData = [
         alt: "Tool 10",
       },
     ],
+         // genAiData.js
+    genAiData: [
+     
+      {
+        id: 1,
+        title: "Cloud Infrastructure Automation",
+        description:
+          "Objective: Create an AI system that generates actionable insights and strategies for inventory optimization and logistics planning. Outcome: Learn to automate decision-making processes, ensuring cost efficiency and reduced lead times.",
+        iconUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-21.webp", // Provide the path to the icon image
+        listItems: [
+          "Design and deploy an automated cloud infrastructure setup using Terraform to create and manage cloud resources.",
+          "Tools: Tools: Terraform, AWS CloudFormation,Azure Resource Manager",
+          "outcome: Automate infrastructure provisioning and management across clouds.",
+        ],
+        rank: "#2",
+        duration: "",
+      },
+      {
+        id: 2,
+        title: "Monitoring and Logging Solution",
+        description:
+          "Objective: Develop a generative AI-based sales forecasting model tailored for decision-making in retail or FMCG domains. Outcome: Learners will create predictive sales reports and simulate scenarios for strategic planning.",
+        iconUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-31.webp", // Provide the path to the icon image
+        listItems: [
+          "Objective: Set up a robust monitoring and logging infrastructure for realtime data analysis and alerting.",
+          "Outcome: Prometheus, Grafana, ELK Stack, AWS CloudWatch",
+          "Skills Covered: Create a robust system for real-time monitoring and alerts.",
+        ],
+        rank: "#3",
+        duration: "",
+      },
 
+      {
+        id: 3,
+        title: "Serverless Application Deployment with DevOps",
+        description:
+          "Objective: Design a  GenAI tool to create personalized ad campaigns and content suggestions Outcome: Learn how to leverage AI to boost ROI through targeted and data-driven marketing strategies.",
+        iconUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-41.webp", // Provide the path to the icon image
+        listItems: [
+          "Build and deploy a serverless application using cloud functions, ensuring that the entire process follows a DevOps workflow.",
+          "Tools: AWS Lambda, Azure Functions, Google Cloud Functions, GitHub Actions",
+          "outcome: Develop and deploy ascalable serverless application.",
+        ],
+        rank: "#4",
+        duration: "20 hours",
+      },
+      {
+        id: 4,
+        title: "CI/CD Pipeline",
+        description:
+          "Create a multistage CI/CD pipeline for deploying a microservices based application to a cloud platform like AWS, Azure, or GCP.",
+        iconUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-61.webp", // Provide the path to the icon image
+        listItems: [
+          "Create a multistage CI/CD pipeline for deploying a microservices based application to a cloud platform like AWS, Azure, or GCP.",
+          "Jenkins, GitLab CI/CD, Docker, Kubernetes",
+          "Outcome : Automate microservices deployment using a multistage CI/CD pipeline.",
+        ],
+        rank: "#1",
+        duration: "",
+      },
+      // Add more data as needed
+    ],
     Certificate: {
       degreeCertificate: {
         id: 1,

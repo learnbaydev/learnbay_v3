@@ -322,6 +322,9 @@ export default function Home() {
               JobBot9={CuberSecurityPuneCourseData[0].JobBot9}
               JobBot11={CuberSecurityPuneCourseData[0].JobBot11}
               ProjectsBot1={CuberSecurityPuneCourseData[0].ProjectsBot1}
+              ProjectsBot2={CuberSecurityPuneCourseData[0].ProjectsBot2}
+              ProjectsBot3={CuberSecurityPuneCourseData[0].ProjectsBot3}
+              ProjectsBot4={CuberSecurityPuneCourseData[0].ProjectsBot4}
               src1={CuberSecurityPuneCourseData[0].src1}
               ProjectsH1={CuberSecurityPuneCourseData[0].ProjectsH1}
               Projectsp1={CuberSecurityPuneCourseData[0].Projectsp1}

@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-const GenAIProject = ({ genAiData, Duration, GENAIMAN }) => {
+const GenAIProject = ({ genAiData, Duration, GENAIMAN, noClud }) => {
   // Function to highlight specific words in red
   const highlightRed = (text) => {
     // Regular expressions to match "Objective", "Outcome", "Skills Covered" (case insensitive)
@@ -26,11 +26,15 @@ const GenAIProject = ({ genAiData, Duration, GENAIMAN }) => {
     <div className={styles.main}>
       <div className={styles.Header}>
         {GENAIMAN ? (
-          <h2>Industry Projects (Electives - any 2 )</h2>
+          <h2>Industry Projects </h2>
         ) : (
-          <h2>Industry Projects (Electives)</h2>
+   <>
+   
+   <h2>Industry Projects (Electives)</h2>
+  </>
         )}
         <p>Work on live capstone projects</p>
+      {noClud ? (null):(  <span className={styles.spanHighlet}>(Pick Any - two)</span>)}
       </div>
 
       <div className={styles.swiperDiv}>

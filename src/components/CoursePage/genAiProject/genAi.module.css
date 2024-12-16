@@ -8,6 +8,8 @@
 .Header {
   text-align: center;
   margin: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 .Card {
@@ -119,6 +121,11 @@
   color: #6c6c6c;
   padding: 4px 0;
   font-size: 14px;
+}
+.spanHighlet{
+  color: #0072bc;
+  font-weight: 600;
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 641px) {

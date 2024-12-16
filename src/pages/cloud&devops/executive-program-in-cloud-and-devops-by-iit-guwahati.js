@@ -131,6 +131,9 @@ function Blockchain({ DataScienceCourseDataJson }) {
           certificateNew={
             DataScienceCourseData.IITCloudDevopsData[0].certificateNew
           }
+          genAiData={
+            DataScienceCourseData.IITCloudDevopsData[0].genAiData
+          }
           FAQNewData={DataScienceCourseData.IITCloudDevopsData[0].faq}
         />
       </main>

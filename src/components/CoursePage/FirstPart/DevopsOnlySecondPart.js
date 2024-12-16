@@ -67,6 +67,8 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
+
+   const pdfUrl ="/Brochure/Cloud-and-Devops.pdf"
   return (
     <div style={{ marginTop: "50px" }}>
       <SyllabusNew
@@ -77,6 +79,7 @@ const SecondPart = ({
         titleCourse="Cloud Computing & DevOps Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
         buttonHide={true}
+        brochurePdf={pdfUrl}
       />
       <ToolsCovered devops={true} mbldevops={mbldevops} />
       <Certificate data={CertificateData} />
@@ -119,6 +122,7 @@ const SecondPart = ({
 
       <DevOpsProject
         adsHide={adsHide}
+        brochurePdf={pdfUrl}
         titleCourse="Cloud Computing & DevOps Certification Program"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
         dataScience={true}

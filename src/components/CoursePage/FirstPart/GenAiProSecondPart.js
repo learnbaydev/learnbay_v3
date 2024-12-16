@@ -51,8 +51,8 @@ const GenAiProSecondPart = ({
       {/* <NewCertificateSection certificateNew={certificateNew} /> */}
 
       <DSAFeeSection
-     Fee="₹ 75,000"
-     FeeEmi="₹ 4,916/month"
+     Fee="₹ 80,000"
+     FeeEmi="₹ 5,244/month"
      weekendbatch="Weekday Evening "
      weekdaybatch="Weekday Evening "
      weekday="MON-WED-FRI"
@@ -66,12 +66,12 @@ const GenAiProSecondPart = ({
       // <EMI POPUP
       emiType="NO COST EMI"
       duration1="18 Months"
-      totalAmount1="₹75,000"
-      monthlyPayment1="₹4,916"
+      totalAmount1="₹80,000"
+      monthlyPayment1="₹5,244"
       greenDown1="Standard Intrest rate Applicable"
       duration2="12 Months"
-      totalAmount2="₹75,000"
-      monthlyPayment2="₹7,375"
+      totalAmount2="₹80,000"
+      monthlyPayment2="₹7,866"
       />
    
       <SliderTab />

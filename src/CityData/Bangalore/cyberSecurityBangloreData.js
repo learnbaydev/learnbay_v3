@@ -409,19 +409,18 @@ export const CuberSecurityBangaloreCourseData = [
 
       syllabussrc:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
-        JobHead1: "Career Services PRO",
+        JobHead1: "Career Support Services",
         JobBot1:
           "Today’s diversified job market inspires tech experts to acquire proven skills and support businesses with enriched gains. As we dive deeper into the tech-driven era, cyber security has become vital for techies with static skills. Hence, pursuing a cyber security course in Bangalore with placement aid has become vital for techies. ",
         JobBot2:"Working experts from diverse fields opt for a cyber security course in Bangalore with placement aid. Our career counselors help you assess your skills, choose the right career path, and enroll in a suitable course. Eligible learners with a minimum of 70% scores can join our job and placement program for exciting rewards. ",
          JobBot5:"",
         JobHead2: "Career Services PRO includes –",
         JobBot3:
-          "Three years of placement help",
-        JobBot7: "1:1 mock interview preparation with allied partners",
-        JobBot8: "Resume review sessions",
-        JobBot9: "1:1 doubt-clearing ",
+          "- Hassle-free job assistance ",
+        JobBot7: "- Virtual mock interview preparation with allied 350+ industry partners",
+        JobBot8: "- Resume review sessions",
     
-        JobBot11: "Continued job calls",
+    
         ProjectsBot1:
         "Cyber security learning is crucial for experts to enrich their career worth and build lucrative futures. Projects help them gain in-depth details of real-world business cases. Our approach to practice-based learning helps experts work on domain-specific projects and enrich their career values. Hence, join our cyber security course in Bangalore with placement aid and propel career success.  ",
         ProjectsBot2:
