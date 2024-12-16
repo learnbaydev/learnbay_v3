@@ -433,9 +433,9 @@ export const CuberSecurityPuneCourseData = [
     JobBot11: "Continued job calls",
     ProjectsBot1:
       "Indeed, cyber security has become a vital growth metric for firms serving larger market segments. Hence, the demand for live instructor-led cyber security classes in Pune keeps growing. Yet, these classes are less effective if they fail to offer hands-on learning scopes. ",
-    ProjectsBot2: "Learnbay provides a great tech career through its cyber security course in Pune. This course is project-based and includes job placement.",
-    ProjectsBot3:"Here, techies will work on real-time industry projects to refine their skill sets. First-hand learning with trending tools and models revamps a static career. Hence, we offer an open learning stage to techies to gain insights into real-world business updates. ",
-    ProjectsBot4:"Join our top cyber security training in Pune to elevate your career worth and attain success in your field. ",
+    ProjectsBot2: "Join our top cyber security training in Pune to elevate your career worth and attain success in your field. ",
+    ProjectsBot3:" Learnbay provides a great tech career through its cyber security course in Pune. This course is project-based and includes job placement.",
+    ProjectsBot4:"Here, techies will work on real-time industry projects to refine their skill sets. First-hand learning with trending tools and models revamps a static career. Hence, we offer an open learning stage to techies to gain insights into real-world business updates.  ",
     src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/project/2.png",
     alt2: "Bubble Logo",
     Projectsp1:

@@ -139,8 +139,8 @@ export default function Home() {
         /> */}
         <div className={styles.cityFee}>
           <FeeSection
-            Fee="₹70,000"
-            FeeEmi="₹6,883/month"
+            Fee="₹95,000"
+            FeeEmi="₹6,228/month"
             weekendbatch="Weekday Evening (DSA BATCHES)"
             weekdaybatch="Weekday Evening (DSA BATCHES)"
             weekday="MON-WED-FRI"
@@ -163,11 +163,11 @@ export default function Home() {
             emiType="NO COST EMI"
             duration1="18 Months"
             totalAmount1="₹70,000"
-            monthlyPayment1="₹6,883/month"
+            monthlyPayment1="₹6,228"
             greenDown1="Standard Intrest rate Applicable"
             duration2="12 Months"
             totalAmount2="₹70,000"
-            monthlyPayment2="₹13,275"
+            monthlyPayment2="₹9,342"
           />
         </div>
         <div className="MainCities">
