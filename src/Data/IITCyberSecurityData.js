@@ -701,28 +701,32 @@ export const IITCyberSecurityData = [
         data: [
           {
             id: 0,
-            ques: "Can I select my real-time project or are projects assigned?",
-            ans: "Yes. Learners can pick their preferred real-time projects to sharpen their skills and understand industry intricacies. Our cyber security course offers 4+ real-time projects to help you acquire the best possible wisdom and redefine yourself. ",
+            ques: "What is the cost of the cyber security and ethical hacking program?",
+            ans: "The Executive Certification in Cybersecurity and Ethical Hacking program costs ₹1,10,000 plus 18% GST. ",
             open: true,
           },
   
           {
             id: 2,
-            ques: "Is there any accredited certification after course completion?",
-            ans: "Yes. The cyber security ethical hacking certification program offers prestigious credentials with global-level validation. Learners will receive globally accredited certifications from iHUB DivyaSampark, IIT Roorkee accelerating growth rates. You will also receive a Microsoft course completion certificate to kick-start your career as a certified ethical hacker. ",
+            ques: "Can I pay in installments for the Cybersecurity Course for tech professionals?",
+            ans: "Yes. IT pros and engineers opting for this course can pay INR 7,211/month in installments under a no-cost EMI plan within 1 year. Learners can choose feasible options for repayment of fees via interest-free loans, credit cards, or UPI. ",
             open: false,
           },
           {
             id: 3,
-            ques: "How do I receive my certificate, and is it a digital or printed certificate?",
-            ans: "Learnbay offers digitally curated IIT-backed certificates and Microsoft credentials to validate your skills and enrich your career worth. Your digital certificates will reach you within 7 days of your application. ",
+            ques: "Is there any scholarship/discount available for the cybersecurity course?",
+            ans: "The cyber security and hacking course offers an attractive discount of 15% – 20% for early birds. Besides, experts who join with one or more friends can avail of group discounts according to the given terms and conditions. ",
             open: false,
+            list1:"Group of 2: 5% extra discount",
+            list2:"Group of 3: 8% extra discount",
+            list3:"Group of 4+: Max 10% discount",
+            span:"In addition to these offers, learners can avail of up to 25% scholarship while enrolling in the course. You can check with our sales team at +91 7795687988 for further details. ",
             dscoursefaq1: true,
           },
           {
             id: 4,
-            ques: "Who is eligible for a job assistance program at Learnbay?",
-            ans: "Learners enrolling in this cyber security and ethical hacking course must achieve at least 70% marks in course tasks and projects. It makes learners eligible for Learnbay’s placement program (Career Services PRO) and makes them available for high-paying job offers.  ",
+            ques: "What is the refund policy for the cyber security and hacking courses at Learnbay?",
+            ans: "Experts joining our cybersecurity course can withdraw from learning with a valid reason and ask for a refund. For more details, refer to Learnbay’s Refund/Cancellation Policy. ",
             open: true,
           },
         ],
@@ -733,26 +737,22 @@ export const IITCyberSecurityData = [
         data: [
           {
             id: 0,
-            ques: "How many interview calls will I get at Learnbay?",
-            ans: "Experts joining our cyber security ethical hacking course will get unlimited job calls from top-tier 350+ industry allies to fast-forward static careers. ",
+            ques: "How many real-time projects will be there?",
+            ans: "The cyber security ethical hacking certification course includes 4+ executive-level real-time industrial projects. ",
   
             open: false,
           },
           {
             id: 1,
-            ques: "Can I opt for the Career Services Pro feature?",
-            ans: `Entry to mid-level working experts with a 70% score in the course and live projects can opt for Learnbay’s Career Services PRO feature. Here, you will get –
-              6 months of Career Services PRO
-              Job-driven 1:1 mock interviews with 350+ industry partners
-              Online CV-making and LinkedIn profiling sessions
-              Promising job calls from top-notch MNCs/MAANG/FAANG`,
+            ques: "Are there possibilities to work on real-time industry projects?",
+            ans: `Yes. We believe in hands-on learning methods to grasp real-time insights into business cases. Techies enrolling in our cyber hacking course will gain industrial insights via real-time projects. Working on project tasks and case studies will help you apprehend and tackle real-world happenings well. Our mentors will guide you throughout the project-handling stage via offline innovation labs. `,
             open: false,
           },
   
           {
             id: 2,
-            ques: "Do you offer job assistance services after completing a course?",
-            ans: `Yes. Tech professionals pursuing cyber security and hacking courses can apply for Learnbay’s dedicated job assistance services. Its industry-focused support throughout your learning helps you tackle the rising complexities well. Our career assistance services equip you with exciting job offers globally.`,
+            ques: "Can I select my real-time project or are projects assigned?",
+            ans: `Yes. Learners can pick their preferred real-time projects to sharpen their skills and understand industry intricacies. Our cyber security course offers 4+ real-time projects to help you acquire the best possible wisdom and redefine yourself. `,
             open: false,
           },
         ],
@@ -763,14 +763,14 @@ export const IITCyberSecurityData = [
         data: [
           {
             id: 0,
-            ques: "Until when will the learners get the facility of mentorship?",
-            ans: "We believe in industry-driven career guidance and mentorship to expand your potential and growth chances. Our learners can avail of the mentorship scope until they finish their course. Our career guide and mentors are here for 1:1 doubt-clearing, custom-fit career support, and offline project guidance. ",
+            ques: "Is there any accredited certification after course completion?",
+            ans: "Yes. The cyber security ethical hacking certification program offers prestigious credentials with global-level validation. Learners will receive globally accredited certifications from iHUB DivyaSampark, IIT Roorkee accelerating growth rates. You will also receive a Microsoft course completion certificate to kick-start your career as a certified ethical hacker. ",
             open: true,
           },
           {
             id: 1,
-            ques: "Can a Learnbay student choose to study from their desired mentor?",
-            ans: `Learnbay has a reliable team of industry experts or mentors to guide you throughout the learning process. Their real-time industry insights help learners refine their skill sets and build a thriving career aligned with their best interests. If a learner finds his/her mentor unfit in any way, our expert team is here to help you and assign a new desired mentor.  `,
+            ques: "How do I receive my certificate, and is it a digital or printed certificate?",
+            ans: `Learnbay offers digitally curated IIT-backed certificates and Microsoft credentials to validate your skills and enrich your career worth. Your digital certificates will reach you within 7 days of your application.  `,
             open: false,
           },
         ],
@@ -781,38 +781,37 @@ export const IITCyberSecurityData = [
         data: [
           {
             id: 0,
-            ques: "What’s the eligibility for a job assistance program at Learnbay?",
+            ques: "Who is eligible for a job assistance program at Learnbay?",
   
-            ans: `Learners enrolling in this Generative AI course must complete the tasks and projects with a minimum of 70% scores. Then they are eligible for a job assistance program at Learnbay to avail of exciting career growth options.  `,
+            ans: `Learners enrolling in this cyber security and ethical hacking course must achieve at least 70% marks in course tasks and projects. It makes learners eligible for Learnbay’s placement program (Career Services PRO) and makes them available for high-paying job offers.   `,
             open: true,
           },
           {
             id: 1,
-            ques: "Are mentors available for one-on-one or group sessions?",
-            ans: "Yes. Our esteemed career guides or mentors are available for 1:1 or group training to help you with live projects and course tasks. If learners opt for live interactive training, 1:1 doubt-clearing, or project-related questions, mentors are open for them. ",
+            ques: "How many interview calls will I get at Learnbay?",
+            ans: "Experts joining our cyber security ethical hacking course will get unlimited job calls from top-tier 350+ industry allies to fast-forward static careers. ",
           },
   
           {
             id: 2,
-            ques: "Are there mentors available to help with coursework and projects?",
-            ans: "Experts pursuing the cyber security ethical hacking certification course will get dedicated industry-focused training. Our mentors are liable for directing learners with coursework, real-time case studies, and live projects. So, yes, you will get absolute help from your mentor while working on real-time projects and course-related activities",
-             dscoursefaq1: true,
+            ques: "Can I opt for the Career Services Pro feature?",
+            ans: "Entry to mid-level working experts with a 70% score in the course and live projects can opt for Learnbay’s Career Services PRO feature. Here, you will get –",
+
+            list2:"Job-driven 1:1 mock interviews with 350+ industry partners",
+list3:"Online CV-making and LinkedIn profiling sessions",
+list4:"Promising job calls from top-notch MNCs/MAANG/FAANG",
+            dscoursefaq1: true,
   
             open: false,
           },
           {
             id: 3,
-            ques: "How can I reach out for technical support if I encounter any issues with the course platform?",
-            ans: "Once you join the cyber security and ethical hacking course, you can reach our support team, who are there 24x7 to resolve your queries. Apart from this, you can also reach us through our helpline number to handle technical issues. Our support team experts are here to tackle your course platform-related issues. ",
+            ques: "Do you offer job assistance services after completing a course?",
+            ans: "Yes. Tech professionals pursuing cyber security and hacking courses can apply for Learnbay’s dedicated job assistance services. Its industry-focused support throughout your learning helps you tackle the rising complexities well. Our career assistance services equip you with exciting job offers globally. ",
             dscoursefaq1: true,
             open: false,
           },
-          {
-            id: 4,
-            ques: "Is there a discussion forum or community for learners to interact and seek help?",
-            ans: "Learners will get a custom-fit Learnbay app with each bit of course, project, and mentor data. They can instantly reach out to their mentors to fix course/project queries and consult doubts with peers. ",
-            open: false,
-          },
+         
         ],
       },
       {
@@ -821,15 +820,15 @@ export const IITCyberSecurityData = [
         data: [
           {
             id: 0,
-            ques: "How long will I get job referrals?",
+            ques: "Until when will the learners get the facility of mentorship?",
   
-            ans: "You are qualified to avail of job referrals once you finish the course tasks and live projects. With the Career Services Pro, a learner can avail of ongoing job referrals to get placed across 350+ industry partners. ",
+            ans: "We believe in industry-driven career guidance and mentorship to expand your potential and growth chances. Our learners can avail of the mentorship scope until they finish their course. Our career guide and mentors are here for 1:1 doubt-clearing, custom-fit career support, and offline project guidance. ",
             open: true,
           },
           {
             id: 1,
             ques: "Can a Learnbay student choose to study from their desired mentor?",
-            ans: "Learnbay has a team of reliable mentors with relevant industry experience. Each learner is assigned a mentor who can justify upskilling and meet a learner’s career goals and interests. If a student does not find the mentor fit for training, he/she can request a new mentor. Learnbay supports quality upskilling; hence, students can change their mentors and study from the ones they desire. ",
+            ans: "Learnbay has a reliable team of industry experts or mentors to guide you throughout the learning process. Their real-time industry insights help learners refine their skill sets and build a thriving career aligned with their best interests. If a learner finds his/her mentor unfit in any way, our expert team is here to help you and assign a new desired mentor. ",
             open: false,
           },
           {
@@ -841,7 +840,7 @@ export const IITCyberSecurityData = [
           {
             id: 3,
             ques: "Are there mentors available to help with coursework and projects?",
-            ans: "Learners enrolling in the Advance Gen AI program get the scope of learning under reliable industry training. These mentors are liable for guiding each learner with course tasks and real-time projects. So, yes, you will get hassle-free help from your mentor while working on fresh capstone projects and course modules. ",
+            ans: "Experts pursuing the cyber security ethical hacking certification course will get dedicated industry-focused training. Our mentors are liable for directing learners with coursework, real-time case studies, and live projects. So, yes, you will get absolute help from your mentor while working on real-time projects and course-related activities.  ",
             open: false,
           },
          
@@ -855,19 +854,19 @@ export const IITCyberSecurityData = [
             id: 0,
             ques: "How can I contact technical support if I face any problems with the course platform?",
   
-            ans: "Once you register with the course, you will get 24×7 learner support that resolves any learning query. You can call our helpline number to reach the desired service providers who can help you with any technical issues (login, sessions, projects, chat, or course materials) with the course platform. ",
+            ans: "Once you join the cyber security and ethical hacking course, you can reach our support team, who are there 24x7 to resolve your queries. Apart from this, you can also reach us through our helpline number to handle technical issues. Our support team experts are here to tackle your course platform-related issues.  ",
             open: true,
           },
           {
             id: 1,
             ques: "Is there a discussion forum or community for learners to communicate and seek support?",
-            ans: "Learners will get a custom-fit Learnbay app having a list of learners with their mentors mentioned. They can directly reach out to their mentors to resolve queries in case of need and discuss doubts with peers. ",
+            ans: "Learners will get a custom-fit Learnbay app with each bit of course, project, and mentor data. They can instantly reach out to their mentors to fix course/project queries and consult doubts with peers.  ",
             open: false,
           },
           {
             id: 2,
             ques: "How long will I get job referrals?",
-            ans: "You are qualified to avail of job referrals once you complete the course. Under the Career Services Pro package, a learner can avail of continuous job referrals to get placed across 350+ industry partners. ",
+            ans: "You are qualified to avail of job referrals once you finish the course tasks and live projects. With the Career Services Pro, a learner can avail of ongoing job referrals to get placed across 350+ industry partners. ",
             open: false,
           },
         ],
