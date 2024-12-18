@@ -589,7 +589,7 @@ export const IITCyberSecurityData = [
     Certificate: {
       degreeCertificate: {
         id: 1,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iHub-cer.webp",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ihub+_rrk.webp",
         title: "Certification from iHUB DivyaSampark, IIT Roorkee",
         para: [
           "Executive Certification: Earned in Cyber Security from iHUB DivyaSampark, IIT Roorkee.",
