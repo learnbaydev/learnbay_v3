@@ -108,7 +108,7 @@ const IITCyberFirstPart = ({ summaryData, whyChooseData }) => {
       <GetHire />
       <ContactConsellor
   GenAi={true}
-        titleCourse="Data Structure Algorithms & System Design"
+        titleCourse="Cyber Security & Ethical Hacking"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cyber-Security-IIT.pdf"
         brochurePdf={pdfUrl}
         dataScience={true}
