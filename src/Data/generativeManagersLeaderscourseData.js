@@ -658,7 +658,7 @@ export const GENAIManagersLeadersCourseData = [
     Certificate: {
       degreeCertificate: {
         id: 1,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IIt_certificate+(1).webp",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/e%26ICTs.webp",
         title: "Certification from E&ICT Academy, IIT Guwahati",
         para: [
           "Executive Certification: Earned in DS & AI from E&ICT Academy, IIT Guwahati.",
