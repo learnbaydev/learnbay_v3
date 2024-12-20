@@ -584,6 +584,26 @@ const NewCourse = ({
                 </div>
                 <SvgArrow color={activeTab === "bfsi" ? "white" : "black"} />
               </div>
+              <div
+                className={`${styles.tabdiv} ${
+                  activeTab === "CyberSecurity" ? styles.active : ""
+                }`}
+                onClick={() => handleTabClick("CyberSecurity")}
+              >
+                <div className={styles.sliders}>
+                  <div className={styles.imgText}>
+                  <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/round_side.webp"
+                      width={30}
+                      height={30}
+                      loading="lazy"
+                      alt="slide_icon"
+                    />
+                    <p>Cyber Security</p>
+                  </div>
+                </div>
+                <SvgArrow color={activeTab === "CyberSecurity" ? "white" : "black"} />
+              </div>
               {/*            
               <div
                 className={`${styles.tabdiv} ${
