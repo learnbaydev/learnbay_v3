@@ -656,6 +656,7 @@ const NewCourse = ({
         "dsa",
         "CloudDevops",
         "domainCourse",
+        "CyberSecurity"
       ].includes(activeTab) && renderMasterCourse()}
     </section>
   );
