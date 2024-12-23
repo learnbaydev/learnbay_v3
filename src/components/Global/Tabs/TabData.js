@@ -142,5 +142,18 @@ export const TabData = [
       ,
     ],
   },
+  {
+    id: "Cyber Security",
+    title: "Cyber Security",
+    courseName: [
+      {
+        CName: "Executive Certification in Cyber Security & Ethical Hacking",
+        hours: "11 Months",
+        url: "/cyber-security/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee",
+      },
+    
+      ,
+    ],
+  },
 ];
 export default TabData;

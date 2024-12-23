@@ -839,6 +839,20 @@ export const courses = {
       brochurePdfs: "/Brochure/Data-Structure-System-Design.pdf",
     },
   ],
+  CyberSecurity: [
+    {
+      title: "Executive Certification in Cyber Security & Ethical Hacking",
+      duration: "8 months",
+      certification: "EC Council Certified ethical hacker Certificate",
+      description: "For Working Professional",
+      image:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cyber-cards.webp",
+      link: "/cyber-security/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cyber-Security-IIT.pdf",
+      brochurePdfs: "/Brochure/Cyber-Security-IIT.pdf",
+    },
+  ],
   manager: [
     {
       title: "Executive Program in Data Science Ai for managers & leaders",
