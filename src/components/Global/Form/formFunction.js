@@ -259,8 +259,12 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
           label: "Cloud Computing & DevOps ",
         },
         {
-          value: "Master in CS: Data Science and AI",
-          label: "Master in CS: Data Science and AI",
+          value: "Data Structure Algorithms & System Design",
+          label: "Data Structure Algorithms & System Design",
+        },
+        {
+          value: "Cyber Security & Ethical Hacking",
+          label: "Cyber Security & Ethical Hacking",
         },
       ],
       required: radio, // Conditionally required
