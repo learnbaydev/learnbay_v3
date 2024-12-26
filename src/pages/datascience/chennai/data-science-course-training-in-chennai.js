@@ -13,9 +13,8 @@ const FirstSection = dynamic(() =>
 const SecondSection = dynamic(() =>
   import("../../../components/Seo/SecondSection/SecondSection")
 );
-const ProgramInfo = dynamic(() =>
-  import("../../../components/Seo/ProgramInfo/ProgramInfo")
-);
+
+import YoutubeVideo from "../../../components/Seo/YoutubeVideo/YoutubeVideo";
 const SeventhSection = dynamic(() =>
   import("../../../components/Seo/SeventhSection/SeventhSection")
 );
@@ -35,6 +34,7 @@ const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
 
 import FeeSection from "../../../components/Seo/FeeSection/FeeSection";
 import Testimonial from "../../../components/Seo/Testimonial/Testimonial";
+import YoutubeEmbed from "@/components/Seo/YoutubeVideo/YoutubeEmbed";
 const OfferPopup = dynamic(() =>
   import("../../../components/Global/OfferPopup/OfferPopup")
 );
@@ -179,14 +179,14 @@ export default function Home() {
           <FeeSection
             Fee="₹1,35,000"
             FeeEmi="₹8,850/month"
-           weekdaybatch="Weekend Batch"
-        weekendbatch="Weekday Batch"
-        weekday="SAT - SUN"
-        weekend="MON - THU"
-        WeekdayDate="19th Jan"
-        WeekendDate="3rd Jan"
-        WeekendTime="8:00 PM - 10:30 PM"
-        WeekdayTime="9:30 AM - 1 PM"
+            weekdaybatch="Weekday Batch"
+            weekendbatch="  Weekend Batch"
+            weekday="MON - THU"
+            weekend="SAT - SUN"
+            WeekdayDate="Dec 6th"
+            WeekendDate="Nov 24th"
+            WeekendTime="9:30 AM - 1 PM"
+            WeekdayTime="8:00 PM - 10:30 PM "
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
             FeeContent5="10 days refund policy"
@@ -215,6 +215,7 @@ export default function Home() {
           <div className="CitiesRight">
             <CitiesRight
               cityTextDSChennai={true}
+  // Programvideo={[<br />, <YoutubeEmbed />]}
               DomainHead1={DataScienceChennaiCourseData[0].DomainHead1}
               DomainBot1={DataScienceChennaiCourseData[0].DomainBot1}
               DomainBot2={DataScienceChennaiCourseData[0].DomainBot2}

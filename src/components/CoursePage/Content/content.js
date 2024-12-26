@@ -61,8 +61,8 @@ function DataAnalytics({
             Enhance your career with our online{" "}
             <b>Data Structures and Algorithms course</b>. Enroll in a
             specialized data structures and algorithms program with
-            industry-leading education. Our advanced modules will help you
-            become a DSA Specialist through expert mentorship, globally
+            industry-leading education. Our Advanced DSA course modules will
+            help you become a DSA Specialist through expert mentorship, globally
             recognized certifications, and live training sessions.
           </p>
           <h4 style={{ fontSize: "24px" }}>About Learnbay's DSA Course</h4>
@@ -83,27 +83,31 @@ function DataAnalytics({
           {read ? (
             <>
               <p>
-                This is a confusing topic for many programmers, especially when
-                it comes to whether a <b>DSA Course</b> is important in
-                programming. Certainly, the best Data Structures and Algorithms
-                courses are required to create efficient programs. However, as
-                this concept is complex, most beginners choose to defer from
-                their study of DSA. Below are the reasons why joining courses on
-                data structures and algorithms is essential:
+                It is probably one of the most frequently asked questions in the
+                developer’s community. This is a confusing topic for many
+                programmers, especially when it comes to whether DSA courses are
+                important in programming or a coding interview. Certainly, the
+                best Data Structures and Algorithms courses are required to
+                create efficient programs. However, as this concept is complex,
+                most beginners choose to defer from their study of DSA. Below
+                are the reasons why joining courses on data structures and
+                algorithms is essential:
               </p>
               <ul>
                 <li>
                   <b>• Understand programming languages</b>
                   <p>
-                    Learning data structures & algorithms in Python helps you
-                    write better codes and understand programming languages
-                    better. All languages are based on DSA, so understanding
-                    their concepts helps solve complex problems. Libraries and
-                    APIs are also significant in programming, and DSA knowledge
-                    helps us understand how to utilize them in the programs
+                    Programmers who learn data structures & algorithms in Python
+                    understand programming languages better and writes better
+                    code. All languages are based on DSA, so understanding their
+                    concepts helps solve complex problems. Libraries and APIs
+                    are also significant in programming, and DSA knowledge helps
+                    us understand how to utilize them in the programs
                     efficiently. Plus, experts can refine data structures and
                     algorithms in Java for an in-depth understanding of
-                    programming languages.
+                    programming languages. A good understanding of data
+                    structures and algorithms help programmers to scale their
+                    operations and work efficiently.
                   </p>
                 </li>
                 <li>
@@ -111,22 +115,27 @@ function DataAnalytics({
                   <p>
                     The end goal for many aspirants is to work in a
                     product-based company of their choice. The recruitment
-                    drives for these companies include testing a candidate's
-                    problem-solving abilities. They want to hire programmers
-                    capable of solving large and complicated problems. The{" "}
-                    <b>best course on data structures and algorithms</b>{" "}
-                    enhances a candidate's proficiency with programming basics,
-                    i.e., Algorithms and Data Structures.
+                    drives for these companies include a technical interview or
+                    a coding interview to assess a candidate's problem-solving
+                    abilities. They want to hire programmers who are capable of
+                    solving complex problems and have a good understanding of
+                    data structures. The best course on data structures and
+                    algorithms enhances a candidate's proficiency with
+                    programming basics, i.e., Algorithms and Data Structures.
                   </p>
                 </li>
                 <li>
                   <b>• Developing optimized codes</b>
                   <p>
-                    Once you learn DSA, you can optimize codes that reduce time
-                    and space usage. You should build codes with the most
-                    suitable data structures that take less space and algorithms
-                    that run the code in less time. This helps limit the usage
-                    of company resources.
+                    Once you learn DSA by enrolling in advanced DSA courses, you
+                    will get to know about code optimization. Having good skills
+                    in algorithms and understanding of data structures allows
+                    you to work efficiently in a shorter time frame. You can
+                    build codes with the most suitable data structures that take
+                    less space and algorithms that run the code in less time.
+                    This helps limit the usage of company resources. Candidates
+                    with good code optimization skills will get priority in
+                    coding interview rounds.
                   </p>
                 </li>
                 <li>
@@ -145,23 +154,24 @@ function DataAnalytics({
                 Why enroll in the DSA courses?
               </h3>
               <p>
-                Learnbay's <b>data structures online course</b> allows learners
-                to learn from home. In this fast-paced world, everyone needs to
-                manage their time efficiently. Learners can manage their time
-                and study effectively by enrolling in the <b>best DSA course</b>{" "}
-                that enhances their overall learning experience.
+                Learnbay's data structures online course allows learners to
+                learn from home. In this fast-paced world, everyone needs to
+                manage their time efficiently. Learnbay’s course is one of the
+                most unique DSA courses that allows learners gain in-demand
+                industry skills. Learners can manage their time and study
+                effectively by enrolling in the best DSA course that enhances
+                their overall learning experience.
               </p>
               <ul>
                 <li>
                   <b>• Mentor led classes</b>
                   <p>
-                    Learners study in line with mentor-led{" "}
-                    <b>data structures and algorithms class</b> They are
-                    provided with expert mentors who help them throughout the{" "}
-                    <b>DSA course online</b>. Learners get 1:1 doubt-clearing
-                    sessions with the mentors. They can also choose their
-                    preferred batch from weekends and weekdays to study and
-                    maintain a flexible schedule.
+                    Learners study in line with mentor-led data structures and
+                    algorithms class. They are provided with expert mentors who
+                    help them throughout the DSA course online. Learners get 1:1
+                    doubt-clearing sessions with the mentors. They can also
+                    choose their preferred batch from weekends and weekdays to
+                    study and maintain a flexible schedule.
                   </p>
                 </li>
                 <li>
@@ -180,13 +190,14 @@ function DataAnalytics({
                 <li>
                   <b>• Placement aid</b>
                   <p>
-                    The <b>DSA and system design course</b> is currently
-                    conducting mock interviews, which will provide learners with
-                    the opportunity to learn interview questions and receive
-                    dedicated placement calls. Our 300+ placement services can
-                    help you get a job at top companies hiring partners. We will
-                    help you build resumes, maintain portfolios, and get
-                    placements till you land a job.
+                    The DSA and system design course is currently conducting
+                    mock interviews, which will provide learners with the
+                    opportunity to learn interview questions and receive
+                    dedicated interview calls. Our placement services can help
+                    you get a job at top companies which acts as our hiring
+                    partners. Our DSA courses include placement services that
+                    help you build resumes, maintain portfolios, and provide
+                    assistance till you land a job.
                   </p>
                 </li>
                 <li>
@@ -204,13 +215,20 @@ function DataAnalytics({
                   <b>• Certifications</b>
                   <p>
                     Certifications from accredited organizations are provided in
-                    the <b>data structures online course</b> to assist learners
-                    in getting their dream jobs. The IBM and Microsoft
+                    the data structures online course to assist learners in
+                    getting their dream jobs. The IBM and Microsoft
                     certifications are provided to learners after they complete
                     their courses. These certify the candidate's skills and
-                    knowledge of tools in front of recruiters. Learners can also
-                    impress recruiters with certificates from reputable
-                    organizations.
+                    knowledge of tools in front of recruiters.Learners can
+                    leverage their certifications in coding interview rounds to
+                    impress recruiters.
+                  </p>
+                  <p>
+                    Learnbay offers all the essential features in its Advanced
+                    DSA course which sets it apart from other DSA Courses.
+                    Through this course students will get to learn data
+                    structures & algorithms in-depth, and insights on solving
+                    complex industry problems.
                   </p>
                 </li>
               </ul>{" "}
@@ -222,7 +240,7 @@ function DataAnalytics({
                 you are interested in joining. You can schedule your session
                 online and get the expert help you require. In short, our
                 counselors will help you choose the best system design course
-                with optimal benefits.{" "}
+                with optimal benefits.
               </p>
               <h3 style={{ fontSize: "20px" }}>
                 Who is eligible for the DSA and System Design Course?
@@ -264,14 +282,15 @@ function DataAnalytics({
                 Are domain electives helpful in algorithms and data structures?
               </h3>
               <p>
-                The <b>best Data Structures and Algorithms course</b> provides
-                domain electives to help you gain a promising role and secure
-                your job. You can balance your work and study obligations in a
-                specific sector. You can ease your work, improve programming in
-                a particular domain, and enhance your job selection chances.
-                With the help of specialized training, learners can increase
-                their programming skills and expertise to help them quickly
-                grasp the DSA concepts.
+                The best Data Structures and Algorithms course provides domain
+                electives to help you gain a promising role and secure your job.
+                You can balance your work and study obligations in a specific
+                sector. You can ease your work, improve programming in a
+                particular domain, and enhance your job selection chances. With
+                the help of specialized training, learners can increase their
+                programming skills and expertise to help them quickly grasp the
+                DSA concepts. With domain knowledge, you can gain an advantage
+                in technical interviews by showcasing your specialization.
               </p>
               <p>
                 <b>Term 1:- Programming Fundamentals</b>
@@ -279,26 +298,27 @@ function DataAnalytics({
               <p>
                 Get started with the DSA course and explore the coding basics.
                 Learn data types, if statements, functions, object-oriented
-                programming, and more concepts.
+                programming languages, and more concepts.
               </p>
               <p>
                 <b>Term 2:- Basic DSA</b>
               </p>
               <p>
-                This module familiarises learners with basic{" "}
-                <b>DSA and system design course</b> concepts. Concepts such as
-                recursion, time/space complexity, searching/sorting techniques,
-                and different types of data structures like stack, queue, array,
-                and linked list will all be covered during this lesson.
+                This module familiarises learners with basic DSA and system
+                design course concepts. This includes recursion, time/space
+                complexity, and searching/sorting techniques. Additionally, it
+                covers data structures like stack, queue, array, and linked
+                list.
               </p>
               <p>
                 <b>Term 3:- Advanced DSA</b>
               </p>
               <p>
-                In this module, of the <b>DSA course online</b> learners will
-                start learning advanced data structures and algorithms. They
-                will understand maths concepts in DSA and advanced DSA like
-                greedy search, graphs, trees, etc.
+                Learn DSA and system design concepts in this module. Learners
+                will be taught every idea, from basics, design principles, and
+                scalability to integration and deployment. This allows them to
+                excel in their technical interview and gain complex
+                problem-solving skills.
               </p>
               <p>
                 <b>Term 4:- System Design</b>
@@ -3069,16 +3089,15 @@ function DataAnalytics({
             Data Science and AI Certification Program for Managers and Leaders{" "}
           </h4>
           <p>
-            The growth of technology in recent years has forced everyone to
-            change their perspective and mandated most of them to learn and
-            upskill. Managers and leaders in the organization are also not
-            exceptional in this change. As a manager, it is really important to
-            get familiar with the recent trends and technological changes to
+            The growth of cutting edge technologies in recent years has forced
+            everyone to change their perspective and mandated most of them to
+            learn and upskill. Managers and leaders in the organization are also
+            not exceptional in this change. As a manager, it is really important
+            to get familiar with the recent trends and technological changes to
             manage effectively. Suppose you are an existing manager or a team
-            leader who is interested in starting the journey with data science
-            and artificial intelligence. In that case, mastering{" "}
-            <b>data science for managers </b>via upskilling will greatly help
-            you.
+            leader who is interested in starting the journey with data science,
+            deep learning, and artificial intelligence. In that case, mastering
+            data science for managers via upskilling will greatly help you.
           </p>
           {read ? (
             <>
@@ -3093,12 +3112,20 @@ function DataAnalytics({
               </h2>
 
               <p>
-                The importance of{" "}
-                <b>artificial intelligence and data science for leaders </b>{" "}
-                speaks volumes about today’s business solutions and insightful
-                decisions. The integration of data science and AI modernizes
-                business solutions. These AI-rich transformative shifts in
-                businesses induce better profits, setting new leadership bars.
+                The importance of artificial intelligence and data science for
+                leaders speaks volumes about today’s business solutions and
+                insightful decisions. The integration of data science and AI
+                modernizes business solutions. These AI-rich transformative
+                shifts in businesses induce better profits, setting new
+                leadership bars. With the introduction of deep learning and
+                Generative AI, the landscape has changed and it has become
+                mandatory for leaders to possess new-age skills.
+              </p>
+              <p>
+                The continuous evolution of data science and machine learning
+                possesses significant value for managers and leaders. To utilize
+                the trends, many enthusiastic learners are opting for Data
+                Science and Artificial Intelligence Course for Managers.
               </p>
               <p>
                 Hence, decision-makers or senior executives must join a{" "}
@@ -3111,14 +3138,14 @@ function DataAnalytics({
                     a. Personalized learning and growth implications:
                   </h3>
                   <p>
-                    AI for managers course help experts become skilled managers
-                    and leaders with proven abilities. Constant learning,
-                    training, and development sessions help them conceptualize
-                    the benefits. AI helps to decode real-time patterns, align
-                    your skills with organizational goals, and refine core
-                    abilities. Aspirants can modify and customize their
-                    abilities following changing trends and make informed
-                    decisions.
+                    Personalized learning and growth implications: AI for
+                    managers course helps experts become skilled managers and
+                    leaders with proven abilities. Constant learning, training,
+                    and development sessions help them conceptualize the
+                    benefits. AI helps to decode real-time patterns, align your
+                    skills with organizational goals, and refine core abilities.
+                    Aspirants can leverage new technologies like deep learning
+                    and Generative AI to make better decisions.
                   </p>
                 </li>
                 <li>
@@ -3151,8 +3178,12 @@ function DataAnalytics({
               <p>
                 Hence, managers and leaders willing to redefine their careers in
                 today’s data-driven age must pursue an industry-paced course.
-                Mastering AI and <b>data science for managers</b> unleashes true
-                growth potential and success.
+                Mastering AI and data science for managers unleashes true growth
+                potential and success. You can gain these essential skills by
+                enrolling in a Data Science and AI course for Managers. This
+                curated Artificial Intelligence Course for Managers and Leaders
+                will significantly improve your skillsets and provide you with
+                an edge.
               </p>
 
               <h2 style={{ fontSize: "24px" }}>
@@ -3197,15 +3228,14 @@ function DataAnalytics({
                   </h3>
                   <p>
                     Machine learning models help managers analyze the potential
-                    risks in all aspects including{" "}
-                    <b>
-                      machinery failures, raw material shortage, financial
-                      frauds, custom churn,
-                    </b>{" "}
-                    and <b>data on employee performance.</b> With this
-                    prediction and suggestion on risk management, the management
-                    can be more proactive and hedge against the risk to protect
-                    the business.{" "}
+                    risks in all aspects including machinery failures, raw
+                    material shortage, financial frauds, custom churn, and data
+                    on employee performance. With this prediction and suggestion
+                    on risk management, the management can be more proactive and
+                    hedge against the risk to protect the business. Having a
+                    comprehensive knowledge of topics like neural networks,
+                    logistic regression, reinforcement learning, and decision
+                    trees will help you a lot as a manager.
                   </p>
                   <p>
                     {" "}
@@ -3220,12 +3250,17 @@ function DataAnalytics({
                   </p>
                   <p>
                     {" "}
-                    <b>Artificial intelligence and data science for leaders </b>
-                    have become essential skills in the 21st century. Yet, the
-                    rise of AI-rich functions creates a fear of job loss and
+                    Artificial intelligence and data science for leaders have
+                    become essential skills in the 21st century. Yet, the rise
+                    of AI-rich functions creates a fear of job loss and
                     replacements. Hence, upskilling has become a crucial growth
                     metric for experts from diverse fields. Managers and leaders
-                    must refine their abilities to retain their roles.{" "}
+                    must refine their abilities to retain their roles. Learning
+                    the practical application of artificial intelligence, data
+                    science and machine learning will provide an edge to
+                    managers and leaders. You can use the Data Science and
+                    Artificial Intelligence Course for Managers to gain exposure
+                    to these latest managerial skills.
                   </p>
                 </li>
               </ul>
@@ -3261,69 +3296,77 @@ function DataAnalytics({
               <p>
                 In short, AI cannot replace a human-centric leadership culture.
                 It can only support making insightful decisions and automating
-                daily tasks for better outcomes.{" "}
+                daily tasks for better outcomes. Leaders can learn an
+                introduction to AI and deep dive into advanced concepts using
+                the Data Science and Artificial Intelligence Course for Managers
+                and Leaders.
               </p>
 
               <h2 style={{ fontSize: "24px" }}>
-                Is There Any Specific AI and Data Science Course for Managers
-                and Leaders?{" "}
+                Is There Any Specific Data Science and AI Course for Managers
+                and Leaders?
               </h2>
               <p>
-                Learnbay offers a specifically designed course for professionals
-                who are in managerial and leadership roles. This{" "}
-                <b>data science course for managers and leaders</b> contains all
-                the necessary and advanced modules in AI and data science
-                topics. You can find the essential issues in tech and non-tech
-                skills like{" "}
-                <b>
-                  Deep learning, Natural language processing, Power BI, Machine
-                  learning, project management,
-                </b>{" "}
-                and <b>Agile</b> among others. Additionally, as a perk, you can
-                find training for <b>Generative AI tools </b> like{" "}
-                <b>ChatGPT</b> and <b>Dall-E.</b> In their bonus modules, you
-                can find training for various other latest and valuable skills
-                and tools.{" "}
+                Yes, Learnbay offers an exclusive Data Science and AI Course for
+                Managers and Leaders. The course is designed specifically for
+                professionals who are in managerial and leadership roles. This
+                data science course for managers and leaders contains all the
+                necessary and advanced modules in AI and data science topics.
+                You can find the essential issues in tech and non-tech skills
+                like Natural language processing, Power BI, Machine learning,
+                project management, Agile, Deep learning and Generative AI among
+                others. Additionally, as a perk, you can find training for
+                Generative AI tools like ChatGPT and Dall-E. In their bonus
+                modules, you can find training for various other latest and
+                valuable skills and tools.
               </p>
 
               <p>
-                Another important thing to notice is that this course program
-                has a supporting faculty and flexibility to attend the training
-                sessions. Mastering <b>data science for business leaders</b> has
-                become crucial in today’s time. Learnbay, being fully aware of
-                the learner's timings, offers more flexibility and supports them
-                constantly throughout the course completion. You can find a{" "}
-                <b>Career Service Pro</b> feature in this program that gives
-                learners full support and helps them to crack the interviews by
-                giving them mock interviews, resume preparation, unlimited
-                interview calls, and career guidance from industry experts.{" "}
+                Another important thing to note is that this course is designed
+                to support students by providing them with flexibility and
+                expert faculty training. Mastering data science for business
+                leaders has become crucial in today’s time. Learnbay, being
+                fully aware of the learner's timings, offers more flexibility
+                and supports them constantly throughout the course completion.
+                You can find a Career Service Pro feature in this program that
+                gives learners full support and helps them to crack the
+                interviews by giving them mock interviews, resume preparation,
+                unlimited interview calls, and career guidance from industry
+                experts.
               </p>
               <p>
-                This program authenticates your learning journey by helping you
-                to earn <b>IBM and Microsoft certifications.</b> These AI for
-                managers course and project certifications own global
-                recognition, and even recruiters from various industries will
-                value the certifications highly. To provide more real-world
-                exposure to the students, Learnbay offers simulated real-time
-                and capstone projects. At the end of the program, you will be
-                provided opportunities to work on capstone projects. To make
-                practical training more interesting, they offer{" "}
-                <b> project innovation labs.</b> These project labs help
-                learners to learn in a cutting-edge environment, especially
-                under the guidance of industry experts.{" "}
+                This course is designed to provide you with an authentic
+                learning journey by helping you earn IBM and Microsoft
+                certifications. These AI for managers course and project
+                certifications own global recognition, and even recruiters from
+                various industries will value the certifications highly. To
+                provide more real-world exposure to the students, Learnbay
+                offers simulated real-time and capstone projects. At the end of
+                the program, you will be provided opportunities to work on
+                capstone projects. This AI course for managers includes project
+                innovation labs to enhance student’s practical training
+                sessions.
+              </p>
+              <p>
+                These project labs help learners to gain knowledge of in-depth
+                practical applications under the guidance of industry experts.
+                Participants will have the opportunity to dive into complex
+                topics like neural networks, natural language processing, and
+                reinforcement learning.
+              </p>
+              <p>
+                AI and Data Science for managers play a vital role in the
+                professional field. This Data Science course for managers and
+                leaders will provide domain-based training. This feature of the
+                AI for managers course will enhance the learning experience and
+                help you hone your career path in a particular industry by
+                teaching the specific set of skills required for that domain.
               </p>
               <h2 style={{ fontSize: "24px" }}>
                 Why Opt For Learnbay’s Data Science and Artificial Intelligence
                 Course For Managers?{" "}
               </h2>
-              <p>
-                AI and <b>Data Science for managers</b> play a vital role in the
-                professional field. This Data Science course for managers and
-                leaders will provide domain-based training. This feature of the
-                AI for managers course will enhance the learning experience and
-                help you hone your career path in a particular industry by
-                teaching the specific set of skills required for that domain.{" "}
-              </p>
+
               <p>
                 If you are a person who wants to get into the banking industry,
                 you can choose an elective related to banking to make your
@@ -3356,18 +3399,17 @@ function DataAnalytics({
                 In brief, Learnbay honed and designed an AI for managers course
                 to benefit managerial and leadership professionals. If you
                 enroll in this AI for managers program, you can expect to
-                receive training for cutting-edge tools and technologies, gain
+                receive training for cutting edge tools and technologies, gain
                 real-world industry exposure, earn globally recognized
                 certifications, and work on simulated real-time capstone
-                projects.
+                projects.{" "}
               </p>
               <p>
-                Also, suppose you are a candidate looking for cutting-edge data
-                science and artificial intelligence with specialization
-                training. In that case, you can look out for Learnbay's master's
-                degree in Data Science and AI. This program has two advanced
-                specializations and a certification from the world's first
-                Global Collegiate University.
+                In this AI Course for Managers, you will gain practical
+                application of complex concepts like natural language
+                processing, neural networks, and reinforcement learning. The
+                course starts with a basic introduction to AI and then delves
+                into complex topics in a logically structured manner.
               </p>
 
               <div onClick={popupShow} className={styles.buttonDiv}>
