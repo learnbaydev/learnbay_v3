@@ -11,7 +11,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
     <>
       <Head>
         <title>
-          Data Science & AI Course for Managers and Leaders | Learnbay
+        Data Science & AI for Managers and Leaders | Learnbay
         </title>
         <meta
           name="description"
