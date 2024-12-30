@@ -1210,7 +1210,7 @@ export const FSSPDataScienceCourseData = [
           {
             id: 2,
             ques: "What are the financing options available for the course?",
-            ans: "Learnbay supports quality learning and career empowerment. Thus, it curates affordable course programs for learners with flexible financing options. Concerning the DSA course fees, a learner has to pay just INR 4,588 per month under the EMI plan through cards, net banking, & UPI. Also, you can avail of easy loan procedures and flexible payment terms. In case you do not like the training sessions during DEMO or initial classes, you can cancel the program and claim the fees under the 10-day refund policy.",
+            ans: "Learnbay supports quality learning and career empowerment. Thus, it curates affordable course programs for learners with flexible financing options. Concerning the DSA course fees, a learner has to pay just INR 6,883 per month under the EMI plan through cards, net banking, & UPI. Also, you can avail of easy loan procedures and flexible payment terms. In case you do not like the training sessions during DEMO or initial classes, you can cancel the program and claim the fees under the 15-day refund policy. ",
             open: false,
           },
           {
