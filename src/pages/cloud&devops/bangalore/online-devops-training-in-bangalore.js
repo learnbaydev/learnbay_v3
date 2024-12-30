@@ -42,29 +42,31 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Enroll in the best DevOps course training in Bangalore. Gain hands-on experience with tools like Docker, Kubernetes, and Jenkins. Kickstart your career in DevOps now."
+          content="Enroll in the best DevOps course training in Bangalore. Gain hands-on experience with tools like Docker, Kubernetes, and Jenkins. Kickstart your career in DevOps now.
+"
         />
         <meta
           name="keywords"
-          content="cloud computing training in bangalore, best cloud computing institute in bangalore, cloud computing course fees in bangalore, best cloud computing training institute in bangalore, best cloud computing courses in bangalore, cloud computing training institute in bangalore, best cloud training institute in bangalore, cloud training institutes in bangalore, cloud computing classes in bangalore, cloud computing training bangalore"
+          content="devops course in Bangalore, best devops training in bangalore, devops training in bangalore, best institute for devops in bangalore, devops certification in bangalore, devops institute in bangalore, azure devops training in bangalore, devops offline training in bangalore, top 10 devops training institutes in bangalore, devops training institute in bangalore, devops course fees in bangalore, best devops training institute in bangalore, devops classes in bangalore, devops coaching centers in bangalore"
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/cloud&devops/bangalore/online-cloud-computing-course-bangalore"
+          href="https://www.learnbay.co/cloud&devops/bangalore/online-devops-training-in-bangalore"
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/cloud&devops/bangalore/online-cloud-computing-course-bangalore"
+          content="https://www.learnbay.co/cloud&devops/bangalore/online-devops-training-in-bangalore"
         />
         <meta
           property="og:title"
-          content="Online Cloud Computing Course in Bangalore - Learnbay"
+          content="DevOps Course Training in Bangalore - Learnbay"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Enroll in the best DevOps course training in Bangalore. Gain hands-on experience with tools like Docker, Kubernetes, and Jenkins. Kickstart your career in DevOps now."
+          content="Enroll in the best DevOps course training in Bangalore. Gain hands-on experience with tools like Docker, Kubernetes, and Jenkins. Kickstart your career in DevOps now.
+."
         />
         <meta
           property="og:image"
@@ -76,16 +78,18 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Online Cloud Computing Course in Bangalore - Learnbay"
+          content="DevOps Course Training in Bangalore - Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           itemProp="description"
-          content="Enroll in the best DevOps course training in Bangalore. Gain hands-on experience with tools like Docker, Kubernetes, and Jenkins. Kickstart your career in DevOps now."
+          content="Enroll in the best DevOps course training in Bangalore. Gain hands-on experience with tools like Docker, Kubernetes, and Jenkins. Kickstart your career in DevOps now.
+"
         />
         <meta
           name="twitter:description"
-          content="Enroll in the best DevOps course training in Bangalore. Gain hands-on experience with tools like Docker, Kubernetes, and Jenkins. Kickstart your career in DevOps now."
+          content="Enroll in the best DevOps course training in Bangalore. Gain hands-on experience with tools like Docker, Kubernetes, and Jenkins. Kickstart your career in DevOps now.
+"
         />
         <meta
           name="twitter:image"
