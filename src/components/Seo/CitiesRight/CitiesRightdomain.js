@@ -1281,6 +1281,14 @@ const CitiesRight = ({
                     <p className={styles.pp}>{ProgramBot14}</p>
                     <p className={styles.pp}>{ProgramBot15}</p>
                     <p className={styles.pp}>{ProgramBot16}</p>
+                    <p className={styles.pp}>{ProgramBot17}</p>
+                    <p className={styles.pp}>{ProgramBot18}</p>
+                    <p className={styles.pp}>{ProgramBot19}</p>
+                    <p className={styles.pp}>{ProgramBot20}</p>
+                    <p className={styles.pp}>{ProgramBot21}</p>
+                    <h2 className={styles.pHead}>{ProgramHead2}</h2>
+                    <p className={styles.pp}>{ProgramBot22}</p>
+                    <p className={styles.pp}>{ProgramBot23}</p>
                   </div>
                 )}
                 {cityTextCloudBangalore ? (
@@ -1524,23 +1532,35 @@ const CitiesRight = ({
             <ul style={{ marginLeft: "40px", marginBottom: "40px" }}>
               <li>Advance Data Science & AI Program</li>
               <li style={{ color: "#0072bc" }}>
-                <a href="https://www.learnbay.co/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati" target="_blank">
+                <a
+                  href="https://www.learnbay.co/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati"
+                  target="_blank"
+                >
                   Executive Program in Data Science & AI from IIT Guwahati
                 </a>
               </li>
               <li>Advance AI & ML Certification Program</li>
               <li style={{ color: "#0072bc" }}>
-                <a href="https://www.learnbay.co/datascience/data-analytics-certification-course" target="_blank">
+                <a
+                  href="https://www.learnbay.co/datascience/data-analytics-certification-course"
+                  target="_blank"
+                >
                   Data Analytics Certification Program
                 </a>
               </li>
               <li style={{ color: "#0072bc" }}>
-                <a href="https://www.learnbay.co/datascience/advance-data-analytics-program-iit-guwahati" target="_blank">
+                <a
+                  href="https://www.learnbay.co/datascience/advance-data-analytics-program-iit-guwahati"
+                  target="_blank"
+                >
                   Advance Data Analytics Certification from IIT Guwahati
                 </a>
               </li>
               <li style={{ color: "#0072bc" }}>
-                <a href="https://www.learnbay.co/datascience/business-analytics-certification-course" target="_blank">
+                <a
+                  href="https://www.learnbay.co/datascience/business-analytics-certification-course"
+                  target="_blank"
+                >
                   Business Analytics Master Program
                 </a>
               </li>
@@ -1738,6 +1758,9 @@ const CitiesRight = ({
                   <li>{list4}</li>
                   <li>{list5}</li>
                   <li>{list6}</li>
+                  <li>{list7 && list7}</li>
+                  <li>{list8 && list8}</li>
+                  <li>{list9 && list9}</li>
                 </ul>
               </>
             ) : (
@@ -1914,34 +1937,34 @@ const CitiesRight = ({
         </div>
         {cityTextCloudPune ? (
           <div className={styles.CitiesRightInner}>
-          <h2 className={styles.pHead}>{JobHead1}</h2>
-          <p className={styles.pp}>{JobBot1}</p>
-          <span className={styles.pp}>{JobBotA}</span>
-          <p className={styles.pp}>{JobBot2}</p>
-          <p className={styles.pp}>{JobBot21}</p>
-          <p className={styles.pp}>{JobBot5}</p>
-          <h2 className={styles.pHead}>{JobHead2}</h2>
-          <p className={styles.pp}>{JobBot3}</p>
-          <h2 className={styles.pHead}>{JobHead3}</h2>
-          <p className={styles.pp}>{JobBot4}</p>
-          <p className={styles.pp}>{JobBot51}</p>
-          <p className={styles.pp}>{JobBot6}</p>
-          <p className={styles.pp}>{JobBot11}</p>
-          <span className={styles.pp}>{JobBotB}</span>
-          <p className={styles.pp}>{JobBot12}</p>
-          <h2 className={styles.pHead}>{JobHead4}</h2>
-          <p className={styles.pp}>{JobBot13}</p>
-          <p className={styles.pp}>{JobBot14}</p>
-          <p className={styles.pp}>{JobBot15}</p>
-          <span className={styles.pp}>{JobBotC}</span>
-          <p className={styles.pp}>{JobBot16}</p>
-          <p className={styles.pp}>{JobBot17}</p>
-          <h2 className={styles.pHead}>{JobHead5}</h2>
-          <p className={styles.pp}>{JobBot18}</p>
-          <p className={styles.pp}>{JobBot19}</p>
-          <p className={styles.pp}>{JobBot20}</p>
-          <span className={styles.pp}>{JobBotD}</span>
-        </div>
+            <h2 className={styles.pHead}>{JobHead1}</h2>
+            <p className={styles.pp}>{JobBot1}</p>
+            <span className={styles.pp}>{JobBotA}</span>
+            <p className={styles.pp}>{JobBot2}</p>
+            <p className={styles.pp}>{JobBot21}</p>
+            <p className={styles.pp}>{JobBot5}</p>
+            <h2 className={styles.pHead}>{JobHead2}</h2>
+            <p className={styles.pp}>{JobBot3}</p>
+            <h2 className={styles.pHead}>{JobHead3}</h2>
+            <p className={styles.pp}>{JobBot4}</p>
+            <p className={styles.pp}>{JobBot51}</p>
+            <p className={styles.pp}>{JobBot6}</p>
+            <p className={styles.pp}>{JobBot11}</p>
+            <span className={styles.pp}>{JobBotB}</span>
+            <p className={styles.pp}>{JobBot12}</p>
+            <h2 className={styles.pHead}>{JobHead4}</h2>
+            <p className={styles.pp}>{JobBot13}</p>
+            <p className={styles.pp}>{JobBot14}</p>
+            <p className={styles.pp}>{JobBot15}</p>
+            <span className={styles.pp}>{JobBotC}</span>
+            <p className={styles.pp}>{JobBot16}</p>
+            <p className={styles.pp}>{JobBot17}</p>
+            <h2 className={styles.pHead}>{JobHead5}</h2>
+            <p className={styles.pp}>{JobBot18}</p>
+            <p className={styles.pp}>{JobBot19}</p>
+            <p className={styles.pp}>{JobBot20}</p>
+            <span className={styles.pp}>{JobBotD}</span>
+          </div>
         ) : (
           <>
             {cityTextCloudBangalore ? (
