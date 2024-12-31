@@ -10,9 +10,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>
-        Data Science & AI for Managers and Leaders | Learnbay
-        </title>
+        <title>Data Science & AI for Managers and Leaders | Learnbay</title>
         <meta
           name="description"
           content="Elevate your leadership and strategic skills with our AI & Data Science  Program for Managers and Leaders. Lead the Future with data-driven excellence!"
@@ -29,6 +27,55 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <link
           rel="canonical"
           href="https://www.learnbay.co/datascience/data-science-ai-for-managers"
+        />
+
+        <meta
+          property="og:url"
+          content="https://www.learnbay.co/datascience/data-science-ai-for-managers"
+        />
+        <meta
+          property="og:title"
+          content="Data Science & AI for Managers and Leaders | Learnbay"
+        />
+        <meta property="og:site_name" content="learnbay.co" />
+        <meta property="og:type" content="article" />
+        <meta
+          property="og:description"
+          content="Elevate your leadership and strategic skills with our AI & Data Science  Program for Managers and Leaders. Lead the Future with data-driven excellence!"
+        />
+        <meta
+          property="og:image"
+          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+        />
+        <meta property="og:image:height" content="100" />
+        <meta property="og:image:width" content="256" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@Learnbay" />
+        <meta
+          name="twitter:title"
+          content="Data Science & AI for Managers and Leaders | Learnbay"
+        />
+        <meta name="twitter:creator" content="@Learnbay" />
+        <meta
+          itemProp="description"
+          content="Elevate your leadership and strategic skills with our AI & Data Science  Program for Managers and Leaders. Lead the Future with data-driven excellence!"
+        />
+        <meta
+          name="twitter:description"
+          content="Elevate your leadership and strategic skills with our AI & Data Science  Program for Managers and Leaders. Lead the Future with data-driven excellence!"
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+        />
+
+        <meta
+          name="copyright"
+          content="Learnbay:  Data Science & AI for Managers and Leaders | Learnbay"
+        />
+        <link
+          rel="icon"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
         <script
           type="application/ld+json"

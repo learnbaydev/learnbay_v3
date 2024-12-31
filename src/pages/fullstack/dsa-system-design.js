@@ -39,7 +39,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
         <meta
           property="og:title"
-          content="Best Data Structure Algorithms & System Design Coursen"
+          content="Best Data Structure Algorithms & System Design Course"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="article" />
@@ -57,7 +57,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Best Data Structure Algorithms & System Design Coursen"
+          content="Best Data Structure Algorithms & System Design Course"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
