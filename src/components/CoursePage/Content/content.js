@@ -138,17 +138,7 @@ function DataAnalytics({
                     coding interview rounds.
                   </p>
                 </li>
-                <li>
-                  <b>• Understand programming languages</b>
-                  <p>
-                    Learning DSA courses helps you write better codes and
-                    understand programming languages better. All languages are
-                    based on DSA, so understanding their concepts helps solve
-                    complex problems. Libraries and APIs are also significant in
-                    programming, and DSA knowledge helps us understand how to
-                    utilize them in the programs efficiently.{" "}
-                  </p>
-                </li>
+         
               </ul>{" "}
               <h3 style={{ fontSize: "20px" }}>
                 Why enroll in the DSA courses?
@@ -323,10 +313,14 @@ function DataAnalytics({
               <p>
                 <b>Term 4:- System Design</b>
               </p>
+           
               <p>
-                Learn relevant system design concepts in this module. Learners
-                will be taught every concept, from basics, design principles,
-                and scalability to integration and deployment.
+                {" "}
+                Learn DSA and system design concepts in this module. Learners
+                will be taught every idea, from basics, design principles, and
+                scalability to integration and deployment. This allows them to
+                excel in their technical interview and gain complex
+                problem-solving skills.
               </p>
               <div onClick={popupShow} className={styles.buttonDiv}>
                 <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
@@ -3354,6 +3348,11 @@ function DataAnalytics({
                 topics like neural networks, natural language processing, and
                 reinforcement learning.
               </p>
+
+              <h2 style={{ fontSize: "24px" }}>
+                Why Opt For Learnbay’s Data Science and Artificial Intelligence
+                Course For Managers?{" "}
+              </h2>
               <p>
                 AI and Data Science for managers play a vital role in the
                 professional field. This Data Science course for managers and
@@ -3362,11 +3361,6 @@ function DataAnalytics({
                 help you hone your career path in a particular industry by
                 teaching the specific set of skills required for that domain.
               </p>
-              <h2 style={{ fontSize: "24px" }}>
-                Why Opt For Learnbay’s Data Science and Artificial Intelligence
-                Course For Managers?{" "}
-              </h2>
-
               <p>
                 If you are a person who wants to get into the banking industry,
                 you can choose an elective related to banking to make your
@@ -3374,7 +3368,6 @@ function DataAnalytics({
                 <a
                   href="https://www.learnbay.co/datascience/advance-data-science-certification-courses"
                   target="_blank"
-                  rel="nofollow"
                   style={{ color: "#0072bc" }}
                 >
                   <i> artificial intelligence and data science course</i>{" "}
@@ -3410,6 +3403,16 @@ function DataAnalytics({
                 processing, neural networks, and reinforcement learning. The
                 course starts with a basic introduction to AI and then delves
                 into complex topics in a logically structured manner.
+              </p>
+              <p>
+                Also, suppose you are a candidate looking for cutting edge data
+                science and artificial intelligence with specialization
+                training. In that case, you can look out for Learnbay's master's
+                degree in Data Science and AI. It is another best Data Science
+                and Artificial Intelligence Course for Managers and leaders.
+                This program has two advanced specializations and a
+                certification from the world's first Global Collegiate
+                University.
               </p>
 
               <div onClick={popupShow} className={styles.buttonDiv}>
