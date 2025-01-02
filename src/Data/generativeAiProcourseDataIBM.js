@@ -1,4 +1,4 @@
-export const GENAIPROCourseData = [
+export const GENAIPROCourseDataIBM = [
   {
     secondSection: [
       {
@@ -72,23 +72,23 @@ export const GENAIPROCourseData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/mastr_Icon_four+(1).webp",
         imageAlt: "Certification",
         extraImageSrc:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iit_Gu_sum+(1).webp",
-        extraImageAlt: "IIt Guwati",
-               extraImageSrcWidth:"180",
-        extraImageSrcHeight:"40"
-      },
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png",
+      extraImageAlt: "IIt IBM",
+      extraImageSrcWidth:"140",
+      extraImageSrcHeight:"36"
+    },
     ],
 
     whyChooseData: [
       {
         image:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_why.webp",
-        title: "E&ICT Academy IIT Guwahati-Backed Certification",
+        title: "from Learnbay Certification",
         description:
-          "Stand out with a prestigious certification from E&ICT Academy, IIT Guwahati.",
-          logos:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iit_GEN_WHy+(1).webp",
-          logosWidth:"200",
-              logosHeight:"45",
+          "Stand out with a prestigious certification from Learnbay.",
+          logos:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/white-logo.webp",
+    logosWidth:"160",
+        logosHeight:"90",
         subItems: [
           {
             icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/3dicons+(1).webp",
@@ -658,12 +658,12 @@ export const GENAIPROCourseData = [
     Certificate: {
       degreeCertificate: {
         id: 1,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/e%26ICTs.webp",
-        title: "Certification from E&ICT Academy, IIT Guwahati",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm-min.webp",
+        title: "Course Completion Certificate from Learnbay",
         para: [
-          "Executive Certification: Earned in DS & AI from E&ICT Academy, IIT Guwahati.",
-          "Hands-On Experience: Practical learning at E&ICT Academy, IIT Guwahati campus.",
-          "Top Faculty: Learn directly from E&ICT Academy, IIT Guwahati experts.",
+          "Complete your training with the internationally recognized certificate.",
+          "Validate your Data Science and AI skills with IBM Course Completion Certificate.",
+          "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
         ],
       },
       microCertificate: {
@@ -679,10 +679,10 @@ export const GENAIPROCourseData = [
       projectCertificate: {
         id: 3,
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Certification-min.webp",
-        title: "Capstone Project Certificate from IBM",
+        title: "Capstone Project Certificate from Learnbay",
         para: [
           "Globally recognized IBM certification based on industrial-level projects.",
-          "Earn 1 capstone project certification from IBM.",
+          "Earn 1 capstone project certification from Learnbay.",
           "Individualized project experience with easy access to premium job opportunities.",
         ],
       },
@@ -802,21 +802,10 @@ export const GENAIPROCourseData = [
           {
             id: 5,
             ques: "What is the duration of an Advance Gen AI Course for Professionals?",
-            ans: "The Advance Generative AI course comes with a duration of 2.5 months with live projects. ",
+            ans: "The Advance Generative AI course comes with a duration of 3 months with live projects. ",
             open: false,
           },
-          {
-            id: 6,
-            ques: "What are the extra advantages delivered via this Advance Gen AI program?",
-            ans: "Learners joining our Generative AI course online will receive endless career benefits. Quality learning can enrich your skill sets and help you land promising developer roles with attractive salaries. Apart from this, you will receive extra benefits like – ",
-            list1:"Mastering cutting-edge GenAI tools and frameworks (OpenAI, Lang Chain, Hugging Face, etc.)",
-            list2:"IIT professors as mentors ",
-            list3:"E&ICT and IIT Guwahati certifications",
-            list4:"Career Service Pro (100% placement support)",
-
-            dscoursefaq:true,
-            open: false,
-          },
+        
         ],
       },
    
@@ -824,21 +813,9 @@ export const GENAIPROCourseData = [
         id: 1,
         sectionName: "Payments and Scholarships",
         data: [
+          
           {
             id: 0,
-            ques: "What is the cost of the Generative AI course online?",
-            ans: "The Generative AI course costs ₹75,000 + 18% GST. ",
-            open: true,
-          },
-
-          {
-            id: 2,
-            ques: "Can I pay in installments for the Generative AI Developer Course?",
-            ans: "Learnbay offers flexible financing options for hassle-free learning without hampering work-study duties. You can pay INR 4,916/month in installments under a no-cost EMI option within 12 months. You can also opt for interest-free loans, credit cards, or UPI with the necessary documents (Aadhaar card, PAN card, and salary slip). ",
-            open: false,
-          },
-          {
-            id: 3,
             ques: "Is there any scholarship/discount available for the Gen AI course online?",
             ans: "The Advance Gen AI Course for Professionals offers a 15% – 20% discount for early birds. Yet, learners who join with one or more friends can avail of group discounts per the following terms and conditions.  Apart from discounts, experts can receive up to a 25% scholarship while enrolling in the course. You can check with our sales team at +91 7795687988 for further details. ",
             open: false,
@@ -848,7 +825,7 @@ export const GENAIPROCourseData = [
             dscoursefaq1: true,
           },
           {
-            id: 4,
+            id: 1,
             ques: "What is the refund policy for the Advance Gen AI Program at Learnbay?",
             ans: "Experts joining our Advance Generative AI course can cancel anytime with a valid reason. For further details, refer to Learnbay’s Refund/Cancellation Policy. ",
             open: true,
@@ -888,13 +865,13 @@ export const GENAIPROCourseData = [
           {
             id: 0,
             ques: "Is there any accredited certification after course completion?",
-            ans: "Yes. Learners joining this course will receive prestigious certifications to stand ahead in the career race. Once you complete the course and project tasks, you will receive globally valued credentials from E&ICT, IIT Guwahati. These IIT-backed certificates will validate your skills and help you land exciting roles.",
+            ans: "Yes. Learners joining this course will receive prestigious certifications to stand ahead in the career race. Once you complete the course and project tasks, you will receive globally valued credentials from Learnbay. These from Learnbay certificates will validate your skills and help you land exciting roles.",
             open: true,
           },
           {
             id: 1,
             ques: "How do I receive my certificate, and is it a digital or printed certificate?",
-            ans: `All eligible learners with at least 70% scores in course tasks and projects can earn globally recognized certificates. Your digitally available E&ICT, IIT Guwahati accredited certificates will reach you within 7 days. `,
+            ans: `All eligible learners with at least 70% scores in course tasks and projects can earn globally recognized certificates. Your digitally available IBM accredited certificates will reach you within 7 days. `,
             open: false,
           },
         ],
@@ -937,7 +914,7 @@ export const GENAIPROCourseData = [
             list1:
               "Guaranteed interview calls from prime MNCs & MAANG partnered with Learnbay",
             list2:
-              "Capstone project certification from IBM enhances the quality of your resume.",
+              "Capstone project certification from Learnbay enhances the quality of your resume.",
             list3:
               "Domain-specialized training and upskilling help get selected in placement drives",
             list4:

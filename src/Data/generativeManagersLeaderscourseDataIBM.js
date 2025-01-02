@@ -1,4 +1,4 @@
-export const GENAIManagersLeadersCourseData = [
+export const GENAIManagersLeadersCourseDataIBM = [
   {
     secondSection: [
       {
@@ -39,12 +39,12 @@ export const GENAIManagersLeadersCourseData = [
       {
         image:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_why.webp",
-        title: "E&ICT Academy, IIT Guwahati-Backed Certification",
+        title: "Learnbay-Backed Certification",
         description:
-          "Stand out with a prestigious certification from E&ICT Academy, IIT Guwahati.",
-          logos:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iit_GEN_WHy+(1).webp",
-          logosWidth:"200",
-              logosHeight:"45",
+          "Stand out with a prestigious certification from Learnbay.",
+          logos:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/white-logo.webp",
+    logosWidth:"160",
+        logosHeight:"90",
         subItems: [
           {
             icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/3dicons+(1).webp",
@@ -58,6 +58,7 @@ export const GENAIManagersLeadersCourseData = [
             width: "50",
             height: "50",
           },
+
         ],
         //   note: "Hybrid mode allows learners to benefit from both flexible, remote learning and direct, face-to-face interaction.",
       },
@@ -156,10 +157,10 @@ export const GENAIManagersLeadersCourseData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/mastr_Icon_four+(1).webp",
         imageAlt: "Certification",
         extraImageSrc:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iit_Gu_sum+(1).webp",
-        extraImageAlt: "IIt Guwati",
-               extraImageSrcWidth:"180",
-        extraImageSrcHeight:"40"
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png",
+        extraImageAlt: "IIt IBM",
+        extraImageSrcWidth:"140",
+        extraImageSrcHeight:"36"
       },
     ],
     masterSyllabusMobile: [
@@ -663,12 +664,12 @@ export const GENAIManagersLeadersCourseData = [
     Certificate: {
       degreeCertificate: {
         id: 1,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/e%26ICTs.webp",
-        title: "Certification from E&ICT Academy, IIT Guwahati",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm-min.webp",
+        title: "Course Completion Certificate from Learnbay",
         para: [
-          "Executive Certification: Earned in DS & AI from E&ICT Academy, IIT Guwahati.",
-          "Hands-On Experience: Practical learning at E&ICT Academy IIT, Guwahati campus.",
-          "Top Faculty: Learn directly from E&ICT Academy, Guwahati IIT experts.",
+          "Complete your training with the internationally recognized certificate.",
+          "Validate your Data Science and AI skills with IBM Course Completion Certificate.",
+          "Get acknowledged in IT sector by adding Learnbay Certificate to your profile.",
         ],
       },
       microCertificate: {
@@ -684,10 +685,10 @@ export const GENAIManagersLeadersCourseData = [
       projectCertificate: {
         id: 3,
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Certification-min.webp",
-        title: "Capstone Project Certificate from IBM",
+        title: "Capstone Project Certificate from Learnbay",
         para: [
           "Globally recognized IBM certification based on industrial-level projects.",
-          "Earn 1 capstone project certification from IBM.",
+          "Earn 1 capstone project certification from Learnbay.",
           "Individualized project experience with easy access to premium job opportunities.",
         ],
       },
@@ -815,7 +816,7 @@ export const GENAIManagersLeadersCourseData = [
           {
             id: 4,
             ques: "What is the duration of an Advance Gen AI Program for Tech Leaders and Managers?",
-            ans: "The Advance Gen AI for Managers course is 4.5 months long (weekday and weekend batches) and involves live projects.      ",
+            ans: "The Advance Gen AI for Managers course is 4 Months long (weekday and weekend batches) and involves live projects.      ",
             open: false,
           },
           {
@@ -825,14 +826,14 @@ export const GENAIManagersLeadersCourseData = [
             list1:
               "Acquiring cutting-edge GenAI-rich skills (OpenAI APIs, Lang Chain, LLMs, RAG, etc.)",
             list2: "Senior GenAI domain experts and IIT professors as trainers",
-            list3: "E&ICT and IIT Guwahati certifications",
+            list3: "IBM certifications",
             list4: "Career Services PRO (100% assured interviews)",
             open: false,
           },
           {
             id: 6,
             ques: "What is the cost of the Advance Gen AI Program for Managers and Tech Leaders?",
-            ans: "The Generative AI for Managers program costs ₹75,000 plus 18% GST.",
+            ans: "The Generative AI for Managers program costs ₹90,000 plus 18% GST.",
 
             dscoursefaq: true,
             open: false,
@@ -891,18 +892,13 @@ export const GENAIManagersLeadersCourseData = [
           {
             id: 0,
             ques: "Is there any accredited certification after course completion?",
-            ans: "Yes. The Gen AI course for managers offers globally valued certifications to fast-forward your career race. You will receive accredited certifications from E&ICT and IIT Guwahati once you complete course tasks and GenAI projects. These IIT-backed certificates will validate your managerial skills and help you land compelling roles.",
+            ans: "Yes. The Gen AI course for managers offers globally valued certifications to fast-forward your career race. You will receive accredited certifications from Learnbay once you complete course tasks and GenAI projects. These IBM  certificates will validate your managerial skills and help you land compelling roles.",
             open: true,
           },
 
+        
           {
             id: 1,
-            ques: "How do I receive my certificate, and is it a digital or printed certificate?",
-            ans: "Learnbay offers IIT-backed certificates to enrich your career worth and help you land promising roles. Hence, all eligible learners with 70% scores can earn globally acknowledged certificates in digital form. Your digital E&ICT, IIT Guwahati accredited certificates will reach you within 7 days. ",
-            open: false,
-          },
-          {
-            id: 2,
             ques: "Who is eligible for a job assistance program at Learnbay?",
             ans: "Learners enrolling in this Gen AI course must complete the course tasks, live projects, and case studies with at least 70% scores. It makes you eligible for a job assistance program at Learnbay (Career Services PRO) to overtake the exciting career opportunities.   ",
             open: false,
@@ -912,7 +908,7 @@ export const GENAIManagersLeadersCourseData = [
             dscoursefaq1: true,
           },
           {
-            id: 3,
+            id: 2,
             ques: "How many interview calls will I get at Learnbay?",
             ans: "Learners joining our Generative AI for Managers course will get endless job calls from top-rated 350+ industry partners to accelerate career rise metrics.",
             open: true,

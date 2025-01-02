@@ -1,88 +1,50 @@
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import { parseJSONData } from "@/Util/JsonConvertor";
-import GenAiProFirstPart from "@/components/CoursePage/FirstPart/GenAiProFirstPart";
-import GenAiProSecondPart from "@/components/CoursePage/FirstPart/GenAiProSecondPart";
 
-
-
+import GenAiMLeadersFirstPartIBM from "@/components/CoursePage/FirstPart/GenAiMLeadersFirstPartIBM";
+import GenAiMLeadersSecondPartIBM from "@/components/CoursePage/FirstPart/GenAiMLeadersSecondPartIBM";
 
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
-  const JobData = {
-    title: "Decode Your Tech Carer Path to Competitive Success",
-    points: [
-      {
-        imgSrc:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
-        imgAlt: "",
-        title: "Transform with Coding Expertise",
-        description:
-          "Build a highly desired software developer/engineer role with our multifaceted training.",
-      },
-      {
-        imgSrc:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
-        imgAlt: "",
-        title:
-          "Learn and Practice with Real-time coding projects in an industry-leading setup",
-        description:
-          "Exhibit real-time coding mastery to tackle algorithmic ordeals.",
-      },
-      {
-        imgSrc:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
-        imgAlt: "",
-        title: "From Novice to Specialist",
-        description:
-          "Master, from basics to advanced DSA concepts to specify your reign in the tech field. ",
-      },
-    ],
-    bannerImage: {
-      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job1.webp",
-      width: 500,
-      height: 400,
-      priority: true,
-      quality: 80,
-      alt: "Banner Image 1 Alt",
-    },
-  };
+
   return (
     <>
       <Head>
-        <title>Advance Gen AI Developer Course for Professionals | Learnbay </title>
+        <title>
+          Advance Gen AI Course For Managers & Tech Leaders - Learnbay
+        </title>
         <meta
           name="description"
-          content="Join Learnbay's Advance Gen AI Developer course. Develop cutting-edge AI solutions and take your career to the next level with hands-on learning."
+          content="Master Advance Gen AI Course with Learnbay. Enhance your leadership skills by leveraging AI for making strategic and impactful decisions."
         />
-      
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="generative ai course online, generative ai course, generative ai courses, gen ai developer course, gen ai course online, advance gen ai program, gen ai course for professionals, advance gen ai course for professionals, advance generative ai course, generative ai course for professionals"
+          content="generative ai for managers, gen ai for managers, generative ai course for managers, gen ai course for managers"
         />
-        
         <link
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/fullstack/generative-ai-course-for-professionals"
+          href="https://www.learnbay.co/datascience/generative-ai-course-for-manager"
         />
-           <meta
+
+        <meta
           property="og:url"
-          content="https://www.learnbay.co/fullstack/generative-ai-course-for-professionals"
+          content="https://www.learnbay.co/datascience/generative-ai-course-for-manager"
         />
         <meta
           property="og:title"
-          content="Advance Gen AI Developer Course for Professionals | Learnbay "
+          content="Advance Gen AI Course For Managers & Tech Leaders - Learnbay"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Join Learnbay's Advance Gen AI Developer course. Develop cutting-edge AI solutions and take your career to the next level with hands-on learning."
+          content="Master Advance Gen AI Course with Learnbay. Enhance your leadership skills by leveraging AI for making strategic and impactful decisions."
         />
         <meta
           property="og:image"
@@ -94,23 +56,23 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Advance Gen AI Developer Course for Professionals | Learnbay"
+          content="Advance Gen AI Course For Managers & Tech Leaders - Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           itemProp="description"
-          content="Join Learnbay's Advance Gen AI Developer course. Develop cutting-edge AI solutions and take your career to the next level with hands-on learning."
+          content="Master Advance Gen AI Course with Learnbay. Enhance your leadership skills by leveraging AI for making strategic and impactful decisions."
         />
         <meta
           name="twitter:description"
-          content="Join Learnbay's Advance Gen AI Developer course. Develop cutting-edge AI solutions and take your career to the next level with hands-on learning."
+          content="Master Advance Gen AI Course with Learnbay. Enhance your leadership skills by leveraging AI for making strategic and impactful decisions."
         />
         <meta
           name="twitter:image"
           content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
         />
 
-{/* <script
+        {/* <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{
     __html: `{
@@ -146,47 +108,44 @@ function Blockchain({ DataScienceCourseDataJson }) {
     }`
   }}
 /> */}
-
       </Head>
       <main>
-        <GenAiProFirstPart
-        summaryData={
-          DataScienceCourseData.GENAIPROCourseData[0].summarySection
-        }
+        <GenAiMLeadersFirstPartIBM
+          summaryData={
+            DataScienceCourseData.GENAIManagersLeadersCourseDataIBM[0]
+              .summarySection
+          }
           SecondSectionData={
-            DataScienceCourseData.GENAIPROCourseData[0].secondSection
+            DataScienceCourseData.GENAIManagersLeadersCourseDataIBM[0]
+              .secondSection
           }
           whyChooseData={
-            DataScienceCourseData.GENAIPROCourseData[0].whyChooseData
+            DataScienceCourseData.GENAIManagersLeadersCourseDataIBM[0]
+              .whyChooseData
           }
         />
 
-        <GenAiProSecondPart
-
-
+        <GenAiMLeadersSecondPartIBM
           masterSyllabusMobile={
-            DataScienceCourseData.GENAIPROCourseData[0]
+            DataScienceCourseData.GENAIManagersLeadersCourseDataIBM[0]
               .masterSyllabusMobile
           }
-
           toolsData={
-            DataScienceCourseData.GENAIPROCourseData[0]
-            .toolsData
+            DataScienceCourseData.GENAIManagersLeadersCourseDataIBM[0].toolsData
           }
-          
           CertificateData={
-            DataScienceCourseData.GENAIPROCourseData[0].Certificate
+            DataScienceCourseData.GENAIManagersLeadersCourseDataIBM[0].Certificate
           }
-
-
           certificateNew={
-            DataScienceCourseData.GENAIPROCourseData[0].certificateNew
+            DataScienceCourseData.GENAIManagersLeadersCourseDataIBM[0]
+              .certificateNew
           }
-
           genAiData={
-            DataScienceCourseData.GENAIPROCourseData[0].genAiData
-          } 
-          FAQNewData={DataScienceCourseData.GENAIPROCourseData[0].faq}
+            DataScienceCourseData.GENAIManagersLeadersCourseDataIBM[0].genAiData
+          }
+          FAQNewData={
+            DataScienceCourseData.GENAIManagersLeadersCourseDataIBM[0].faq
+          }
         />
       </main>
     </>
@@ -194,7 +153,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
 }
 export default Blockchain;
 export async function getStaticProps() {
-  const data = await import("../../Data/generativeAiProcourseData");
+  const data = await import("../../Data/generativeManagersLeaderscourseDataIBM");
   function getDataScienceCourseDataJSON(dataScienceCourseData) {
     return JSON.stringify(dataScienceCourseData);
   }

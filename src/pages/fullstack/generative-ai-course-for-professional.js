@@ -1,8 +1,8 @@
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import { parseJSONData } from "@/Util/JsonConvertor";
-import GenAiProFirstPart from "@/components/CoursePage/FirstPart/GenAiProFirstPart";
-import GenAiProSecondPart from "@/components/CoursePage/FirstPart/GenAiProSecondPart";
+import GenAiProFirstPartIBM from "@/components/CoursePage/FirstPart/GenAiProFirstPartIBM";
+import GenAiProSecondPartIBM from "@/components/CoursePage/FirstPart/GenAiProSecondPartIBM";
 
 
 
@@ -68,11 +68,11 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/fullstack/generative-ai-course-for-professionals"
+          href="https://www.learnbay.co/fullstack/generative-ai-course-for-professional"
         />
            <meta
           property="og:url"
-          content="https://www.learnbay.co/fullstack/generative-ai-course-for-professionals"
+          content="https://www.learnbay.co/fullstack/generative-ai-course-for-professional"
         />
         <meta
           property="og:title"
@@ -149,44 +149,44 @@ function Blockchain({ DataScienceCourseDataJson }) {
 
       </Head>
       <main>
-        <GenAiProFirstPart
+        <GenAiProFirstPartIBM
         summaryData={
-          DataScienceCourseData.GENAIPROCourseData[0].summarySection
+          DataScienceCourseData.GENAIPROCourseDataIBM[0].summarySection
         }
           SecondSectionData={
-            DataScienceCourseData.GENAIPROCourseData[0].secondSection
+            DataScienceCourseData.GENAIPROCourseDataIBM[0].secondSection
           }
           whyChooseData={
-            DataScienceCourseData.GENAIPROCourseData[0].whyChooseData
+            DataScienceCourseData.GENAIPROCourseDataIBM[0].whyChooseData
           }
         />
 
-        <GenAiProSecondPart
+        <GenAiProSecondPartIBM
 
 
           masterSyllabusMobile={
-            DataScienceCourseData.GENAIPROCourseData[0]
+            DataScienceCourseData.GENAIPROCourseDataIBM[0]
               .masterSyllabusMobile
           }
 
           toolsData={
-            DataScienceCourseData.GENAIPROCourseData[0]
+            DataScienceCourseData.GENAIPROCourseDataIBM[0]
             .toolsData
           }
           
           CertificateData={
-            DataScienceCourseData.GENAIPROCourseData[0].Certificate
+            DataScienceCourseData.GENAIPROCourseDataIBM[0].Certificate
           }
 
 
           certificateNew={
-            DataScienceCourseData.GENAIPROCourseData[0].certificateNew
+            DataScienceCourseData.GENAIPROCourseDataIBM[0].certificateNew
           }
 
           genAiData={
-            DataScienceCourseData.GENAIPROCourseData[0].genAiData
+            DataScienceCourseData.GENAIPROCourseDataIBM[0].genAiData
           } 
-          FAQNewData={DataScienceCourseData.GENAIPROCourseData[0].faq}
+          FAQNewData={DataScienceCourseData.GENAIPROCourseDataIBM[0].faq}
         />
       </main>
     </>
@@ -194,7 +194,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
 }
 export default Blockchain;
 export async function getStaticProps() {
-  const data = await import("../../Data/generativeAiProcourseData");
+  const data = await import("../../Data/generativeAiProcourseDataIBM");
   function getDataScienceCourseDataJSON(dataScienceCourseData) {
     return JSON.stringify(dataScienceCourseData);
   }

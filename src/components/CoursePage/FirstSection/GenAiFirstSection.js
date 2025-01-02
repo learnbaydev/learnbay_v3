@@ -17,7 +17,7 @@ const GenAiFirstSection = ({
   firstTopPara,
   ibmOnly,
   cityParaCont,
-
+  compLogo,
   IBMGl,
   IIT,
   dataScience,
@@ -40,6 +40,9 @@ const GenAiFirstSection = ({
   highlightedWords = [],
   devopsIIt,
   cyber,
+  logoWidth,
+  logoHeight,
+  noLogoDemo,
 }) => {
   const texts = [
     "Guaranteed Interview Calls",
@@ -190,16 +193,16 @@ const GenAiFirstSection = ({
               ) : (
                 <>
                   <div className={ibmOnly ? styles.DAibm : styles.Desktop}>
-                    {IIT ? (
+                  {noLogoDemo ? (null):(<>  {IIT ? (
                       <>
                         {" "}
                         <p className={styles.ptop}>
                           In Collaboration With
                         </p>{" "}
                         <Image
-                          src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp"
-                          width={180}
-                          height={50}
+                          src={compLogo}
+                          width={logoWidth}
+                          height={logoHeight}
                           priority
                           alt="data science course"
                         />
@@ -245,7 +248,7 @@ const GenAiFirstSection = ({
                           </div>
                         </>
                       </>
-                    )}
+                    )}</>)}
                   </div>
                 </>
               )}
@@ -410,18 +413,17 @@ const GenAiFirstSection = ({
                     priority
                     alt="data science course"
                   />
-                  </div></>):(<> {IIT ? (
+                  </div></>):(<> {noLogoDemo ? (""):(<> {IIT ? (
                 <>
                   <p className={styles.ptoptwo}>In Collaboration With</p>{" "}
                   <div className={styles.ImageBlock}>
-                    <Image
-                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp"
-                      width="340"
-                      height="44"
-                      priority
-                      alt="data science course"
-                      className={styles.imgGuwahati}
-                    />
+                  <Image
+                          src={compLogo}
+                          width={logoWidth}
+                          height={logoHeight}
+                          priority
+                          alt="data science course"
+                        />
                   </div>
                 </>
               ) : (
@@ -444,7 +446,7 @@ const GenAiFirstSection = ({
                     />
                   )}
                 </div>
-              )}</>)}
+              )}</>)}</>)}
               {isGuwahati ? (
                 <div className={styles.twodiv}>
                   <div className={styles.divone}>

@@ -509,13 +509,13 @@ const NewCourse = ({
                 <div className={styles.sliders}>
                   <div className={styles.imgText}>
                     <Image
-                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_side.webp"
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cloud_DSA_icons.webp"
                       width={30}
                       height={30}
                       loading="lazy"
                       alt="slide_icon"
                     />
-                    <p>Cloud & DevOps</p>
+                    <p>DSA / Cloud & DevOps</p>
                   </div>
                 </div>
                 <SvgArrow
@@ -544,26 +544,7 @@ const NewCourse = ({
                 {svgFile}
               </div>
               </div> */}
-              <div
-                className={`${styles.tabdiv} ${
-                  activeTab === "dsa" ? styles.active : ""
-                }`}
-                onClick={() => handleTabClick("dsa")}
-              >
-                <div className={styles.sliders}>
-                  <div className={styles.imgText}>
-                    <Image
-                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_side.webp"
-                      width={30}
-                      height={30}
-                      loading="lazy"
-                      alt="slide_icon"
-                    />
-                    <p>Data Structure Algorithms</p>
-                  </div>
-                </div>
-                <SvgArrow color={activeTab === "dsa" ? "white" : "black"} />
-              </div>
+          
               <div
                 className={`${styles.tabdiv} ${
                   activeTab === "bfsi" ? styles.active : ""
@@ -603,6 +584,30 @@ const NewCourse = ({
                   </div>
                 </div>
                 <SvgArrow color={activeTab === "CyberSecurity" ? "white" : "black"} />
+              </div>
+
+              <div
+                className={`${styles.tabdiv} ${
+                  activeTab === "dsa" ? styles.active : ""
+                }`}
+                onClick={() => handleTabClick("dsa")}
+              >
+                <div className={styles.sliders}>
+                  <div className={styles.imgText}>
+                    <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_side.webp"
+                      width={30}
+                      height={30}
+                      loading="lazy"
+                      alt="slide_icon"
+                    />
+                 <div className={styles.tagGen}>
+                 <p>GEN AI</p>
+                 <div className={styles.tagNew}>NEW</div>
+                 </div>
+                  </div>
+                </div>
+                <SvgArrow color={activeTab === "dsa" ? "white" : "black"} />
               </div>
               {/*            
               <div

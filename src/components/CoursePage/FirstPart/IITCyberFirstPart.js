@@ -86,6 +86,8 @@ const IITCyberFirstPart = ({ summaryData, whyChooseData }) => {
         fresher={true}
         backgroundImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cyber-backs.webp"
         cyber={true}
+        logoWidth={180}
+logoHeight={50}
       />
 
       {/* <MasterSecondSection data={seconddata} /> */}
