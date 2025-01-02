@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import styles from "./whyChooseSection.module.css";
 import Image from "next/image";
 
-function AnimationGEN({ cyber, whyChooseData }) {
+function AnimationGEN({ cyber, whyChooseData,  }) {
   const divRefs = useRef([]);
   const arrowSvg = [
     <svg
@@ -161,9 +161,9 @@ function AnimationGEN({ cyber, whyChooseData }) {
                       />
                     ) : (
                       <Image
-                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iit_GEN_WHy+(1).webp"
-                        width={200}
-                        height={40}
+                        src={item.logos}
+                        width={item.logosWidth}
+                        height={item.logosHeight}
                         loading="lazy"
                         alt="IIT"
                       />

@@ -266,11 +266,11 @@ export const courses = {
   CloudS: [
     {
       title: "Data Structure Algorithms & System Design ",
-      duration: "7 months | 2 capstone Projects",
-      certification: "Project Certification form microsoft",
-      description: "For Working Professional",
+      duration: "9-10 Months",
+      certification: "Certification form Microsoft",
+      description: "with Gen-AI for Software Developers",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_cards.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DSA-card_imgs.webp",
       link: "/fullstack/dsa-system-design",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
@@ -447,11 +447,11 @@ export const courses = {
     },
     {
       title: "Data Structure Algorithms & System Design ",
-      duration: "7 months | 2 capstone Projects",
-      certification: "Project Certification form microsoft",
-      description: "For Working Professional",
+      duration: "9-10 Months",
+      certification: "Certification form Microsoft",
+      description: "with Gen-AI for Software Developers",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_cards.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DSA-card_imgs.webp",
       link: "/fullstack/dsa-system-design",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
@@ -737,6 +737,18 @@ export const courses = {
   ],
 
   CloudDevops: [
+    {
+      title: "Data Structure Algorithms & System Design ",
+      duration: "9-10 Months",
+      certification: "Certification form Microsoft",
+      description: "with Gen-AI for Software Developers",
+      image:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DSA-card_imgs.webp",
+      link: "/fullstack/dsa-system-design",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
+      brochurePdfs: "/Brochure/Data-Structure-System-Design.pdf",
+    },
     
     {
       title: "Cloud Computing & DevOps Certification Program",
@@ -826,16 +838,29 @@ export const courses = {
   ],
 
   dsa: [
+
     {
-      title: "Data Structure Algorithms & System Design ",
-      duration: "7 months | 2 capstone Projects",
-      certification: "Project Certification form microsoft",
+      title: "GenAI Certification for Managers & Tech Leaders",
+      duration: "4 months",
+      certification: "Project Certification form Learnbay",
       description: "For Working Professional",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_cards.webp",
-      link: "/fullstack/dsa-system-design",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GEN_AI_Mans.webp",
+      link: "/datascience/generative-ai-course-for-manager",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IBM-GenAI-Managers.pdf",
+      brochurePdfs: "/Brochure/IBM-GenAI-Developers.pdf",
+    },
+    {
+      title: "GenAI Developer Certification for Professionals",
+      duration: "3 months",
+      certification: "Project Certification form Learnbay",
+      description: "For Working Professional",
+      image:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Gen_AI_Devls.webp",
+      link: "/fullstack/generative-ai-course-for-professional",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IBM-GenAI-Developers.pdf",
       brochurePdfs: "/Brochure/Data-Structure-System-Design.pdf",
     },
   ],

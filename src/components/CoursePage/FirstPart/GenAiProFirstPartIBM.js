@@ -1,6 +1,7 @@
 import React from "react";
 import dynamic from "next/dynamic";
 import Navbar from "@/components/Global/Navbar/Navbar";
+import FirstSection from "../FirstSection/FirstSection";
 import PSummary from "../pSummary/PSummary";
 import AnimationGEN from "@/components/Home/whyChooseSection/AnimationGEN";
 import GenAiFirstSection from "../FirstSection/GenAiFirstSection";
@@ -8,7 +9,7 @@ import GenAiFirstSection from "../FirstSection/GenAiFirstSection";
 const TrainerSection = dynamic(() =>
   import("../../Global/TrainerSection/TrainerSection")
 );
-
+const WhoIsProgram = dynamic(() => import("../WhoIsProgram/WhoIsProgram"));
 
 const GetHire = dynamic(() => import("../../Home/GetHire/GetHire"));
 const ContactConsellor = dynamic(() =>
@@ -19,7 +20,7 @@ const JobAbroad = dynamic(() =>
   import("../../MastersCourse/JobAbroad/JobAbroad")
 );
 
-const IITCloudDevopsFirstPart = ({ summaryData, whyChooseData }) => {
+const GenAiProFirstPartIBM = ({ summaryData, whyChooseData }) => {
   const JobData = {
     title: "Program outcome: What’s in it for you?",
     points: [
@@ -27,30 +28,30 @@ const IITCloudDevopsFirstPart = ({ summaryData, whyChooseData }) => {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/adobe_illustrator+(1).webp",
         imgAlt: "",
-        title: "Full stack Cloud Mastery For Professionals ",
+        title: "Master GenAI Tools + Frameworks",
         description:
-          "Learn  AWS, GCP, and Azure with end-to-end real projects. Mastering these skills helps you to manage, deploy, and scale cloud-based applications",
+          "Learn OpenAI APIs, LangChain, Hugging Face, and more to build intelligent applications effortlessly.",
       },
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/generated_photos+(1).webp",
         imgAlt: "",
         title:
-          "Master GenAI Skills for Cloud and Devops",
+          "Real-World GenAI Project Portfolio",
         description:
-          "By integrating GenAI into our programs, we ensure that our learners are well-prepared to lead and innovate in their respective fields.",
+          "Work on live projects like chatbot creation, workflow automation, and RAG-powered assistants to showcase your expertise.",
       },
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/smart_upscaler+(1).webp",
         imgAlt: "",
-        title: "Accelerate Your Career Growth",
+        title: "Higher Earning Potential",
         description:
           "Leverage advanced GenAI knowledge to drive business success, enhancing career prospects and salary growth.",
       },
     ],
     bannerImage: {
-      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cloud_iit_jobs.webp",
+      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/genAI_DEV+(1).webp  ",
       width: 350,
       height: 350,
       priority: true,
@@ -58,7 +59,7 @@ const IITCloudDevopsFirstPart = ({ summaryData, whyChooseData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
-  const pdfUrl = "/Brochure/IIT-cloud-devops.pdf";
+  const pdfUrl = "/Brochure/IBM-GenAI-Developers.pdf";
   return (
     <div>
       <Navbar
@@ -69,27 +70,27 @@ const IITCloudDevopsFirstPart = ({ summaryData, whyChooseData }) => {
       <GenAiFirstSection
         ThirdTyped="Live Interactive Classes"
         dataScience={true}
-        titleCourse="Executive Certification in Cloud and Devops"
-        cityParaCont=""
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IIT-cloud-devops.pdf"
+        titleCourse="GenAI Developer Certification For Professionals"
+        cityParaCont="Future-Ready Leadership Starts with Generative AI Mastery"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI-Developer-Program.pdf"
         brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/fullhead.webp"
-        firstToparaImg="Cloud and Devops"
+        firstToparaImg=""
         GEnAi={true}
-        firstHeading="Executive Certification in "
-        firstTopPara="Curriculum Inclusive of Gen-AI"
+        firstHeading="GenAI Developer Certification For Professionals"
+        firstTopPara="For Tech Professionals & Developers"
         idss="0cspp1jXAbM"
         interstedInHide={true}
         videoId="0cspp1jXAbM"
         backgorunimg={true}
         IIT={true}
         fresher={true}
-        backgroundImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cloud-iit.webp"
+        // backgroundImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/iitGen_twos.webp"
         highlightedWords={["GenAI", "Developer"]}
-        devopsIIt={true}
-        compLogo="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp"
-        logoWidth={180}
-logoHeight={50}
+        // compLogo="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ibm-grays.webp"
+        // logoWidth={100}
+        // logoHeight={46}
+        noLogoDemo={true}
       />
 
       {/* <MasterSecondSection data={seconddata} /> */}
@@ -101,20 +102,21 @@ logoHeight={50}
       />
         <AnimationGEN  whyChooseData={whyChooseData}/>
       <TrainerSection idss="eautK0odE7Q" />
-  
+   
 
-      {/* <WhoIsProgram
-        first="BE/B.Tech, MBA, MCA/M.Tech, B.Sc, CS"
-        second="6 months plus experience in the IT domain"
-        third="Students pursuing BE/B.Tech, MBA, MCA/M.Tech, B.Sc, CS"
-        forth="For individuals seeking coding mastery, programming libraries, and API skills"
-      /> */}
+      <WhoIsProgram
+        first="Graduation/Masters Degree in CS/IT and MCA."
+        second="2+ year of  work experience is required"
+        third="Mid-career professionals interested in Advance GenAI"
+        forth="Achieving higher career growth in  AI."
+        
+      />
     
       <GetHire />
       <ContactConsellor
   GenAi={true}
         titleCourse="Data Structure Algorithms & System Design"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IIT-cloud-devops.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI-Developer-Program.pdf"
         brochurePdf={pdfUrl}
         dataScience={true}
         interstedInHide={true}
@@ -123,4 +125,4 @@ logoHeight={50}
   );
 };
 
-export default React.memo(IITCloudDevopsFirstPart);
+export default React.memo(GenAiProFirstPartIBM);

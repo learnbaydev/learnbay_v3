@@ -41,6 +41,9 @@ export const IITCloudDevopsData = [
         title: "E&ICT Academy IIT Guwahati-Backed Certification",
         description:
           "Stand out with a prestigious certification from E&ICT Academy, IIT Guwahati.",
+          logos:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iit_GEN_WHy+(1).webp",
+          logosWidth:"200",
+              logosHeight:"45",
         subItems: [
           {
             icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/3dicons+(1).webp",
@@ -154,6 +157,8 @@ export const IITCloudDevopsData = [
         extraImageSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iit_Gu_sum+(1).webp",
         extraImageAlt: "IIt Guwati",
+            extraImageSrcWidth:"180",
+        extraImageSrcHeight:"40"
       },
     ],
     masterSyllabusMobile: [
