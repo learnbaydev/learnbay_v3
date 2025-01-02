@@ -72,7 +72,7 @@ const GenAiProFirstPartIBM = ({ summaryData, whyChooseData }) => {
         dataScience={true}
         titleCourse="GenAI Developer Certification For Professionals"
         cityParaCont="Future-Ready Leadership Starts with Generative AI Mastery"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI-Developer-Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IBM-GenAI-Developers.pdf"
         brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/fullhead.webp"
         firstToparaImg=""
@@ -116,7 +116,7 @@ const GenAiProFirstPartIBM = ({ summaryData, whyChooseData }) => {
       <ContactConsellor
   GenAi={true}
         titleCourse="Data Structure Algorithms & System Design"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI-Developer-Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IBM-GenAI-Developers.pdf"
         brochurePdf={pdfUrl}
         dataScience={true}
         interstedInHide={true}
