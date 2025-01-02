@@ -849,7 +849,7 @@ export const courses = {
       link: "/datascience/generative-ai-course-for-manager",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IBM-GenAI-Managers.pdf",
-      brochurePdfs: "/Brochure/IBM-GenAI-Developers.pdf",
+      brochurePdfs: "/Brochure/IBM-GenAI-Managers.pdf",
     },
     {
       title: "GenAI Developer Certification for Professionals",
@@ -861,7 +861,7 @@ export const courses = {
       link: "/fullstack/generative-ai-course-for-professional",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IBM-GenAI-Developers.pdf",
-      brochurePdfs: "/Brochure/Data-Structure-System-Design.pdf",
+      brochurePdfs: "/Brochure/IBM-GenAI-Developers.pdf",
     },
   ],
   CyberSecurity: [
