@@ -191,12 +191,13 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-            //   cityTextCloudBangalore={true}
+            cityTextDevopsBangalore={true}
             ProgramHead1={DevOpsCourseInBangalore[0].ProgramHead1}
             ProgramBot1={DevOpsCourseInBangalore[0].ProgramBot1}
             ProgramBot2={DevOpsCourseInBangalore[0].ProgramBot2}
             ProgramBot3={DevOpsCourseInBangalore[0].ProgramBot3}
             ProgramBot4={DevOpsCourseInBangalore[0].ProgramBot4}
+            ProgramBot5={DevOpsCourseInBangalore[0].ProgramBot5}
             ProgramBot6={DevOpsCourseInBangalore[0].ProgramBot6}
             ProgramBot7={DevOpsCourseInBangalore[0].ProgramBot7}
             ProgramBot8={DevOpsCourseInBangalore[0].ProgramBot8}
@@ -216,6 +217,16 @@ export default function Home() {
             ProgramHead2={DevOpsCourseInBangalore[0].ProgramHead2}
             ProgramBot22={DevOpsCourseInBangalore[0].ProgramBot22}
             ProgramBot23={DevOpsCourseInBangalore[0].ProgramBot23}
+            list10={DevOpsCourseInBangalore[0].list10}
+            list11={DevOpsCourseInBangalore[0].list11}
+            list12={DevOpsCourseInBangalore[0].list12}
+            list13={DevOpsCourseInBangalore[0].list13}
+            list14={DevOpsCourseInBangalore[0].list14}
+            list15={DevOpsCourseInBangalore[0].list15}
+            list16={DevOpsCourseInBangalore[0].list16}
+            list17={DevOpsCourseInBangalore[0].list17}
+            list18={DevOpsCourseInBangalore[0].list18}
+            list19={DevOpsCourseInBangalore[0].list19}
             ulModule={true}
             lis1={DevOpsCourseInBangalore[0].list1}
               Programvideo={[<br />, <YoutubeVideo />]}
@@ -408,3 +419,4 @@ export default function Home() {
     </div>
   );
 }
+ 
