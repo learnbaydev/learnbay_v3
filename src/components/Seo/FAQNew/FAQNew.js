@@ -7,7 +7,7 @@ import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper";
 
-function FAQNew({ FAQNewData,bAnalystAbout  }) {
+function FAQNew({ FAQNewData, bAnalystAbout }) {
   // const [mobile, setMobile] = useState(false);
   const [dataLoop, setDataLoop] = useState([
     { title: "Course Related", value: true },
@@ -20,27 +20,31 @@ function FAQNew({ FAQNewData,bAnalystAbout  }) {
     { title: "Support", value: false },
     { title: "Eligiblity Criteria", value: false },
     { title: "Generic Queries", value: false },
-
   ]);
 
-  const menuChange = (title, index) => {
-    if (title === dataLoop[index].title) {
-      setDataLoop([...dataLoop], (dataLoop[index].value = true));
-      for (let i = 0; i < dataLoop.length; i++) {
-        if (index === i) {
-          setDataLoop([...dataLoop], (dataLoop[index].value = true));
-        } else {
-          setDataLoop([...dataLoop], (dataLoop[i].value = false));
-        }
-      }
-    }
+  const menuChange = (title) => {
+    setDataLoop((prevDataLoop) =>
+      prevDataLoop.map((item) => ({
+        ...item,
+        value: item.title === title,
+      }))
+    );
   };
 
   return (
     <div className={styles.course} id="faqs">
-             {bAnalystAbout ? (   <h4 className={styles.infop} style={{fontSize:"30px"}}>FAQs for Business Analyst Course Training in Pune: –              </h4>):(   <h4 className={styles.infop}>FAQs</h4>)}
-     
-        <p>Curriculum is specifically engineered to meet the expectations of leading tech companies.</p>
+      {bAnalystAbout ? (
+        <h4 className={styles.infop} style={{ fontSize: "30px" }}>
+          FAQs for Business Analyst Course Training in Pune: –{" "}
+        </h4>
+      ) : (
+        <h4 className={styles.infop}>FAQs</h4>
+      )}
+
+      <p>
+        Curriculum is specifically engineered to meet the expectations of
+        leading tech companies.
+      </p>
       <div className={styles.courseM}>
         <div className={styles.courses}>
           <div className={styles.listPanel}>
@@ -48,11 +52,15 @@ function FAQNew({ FAQNewData,bAnalystAbout  }) {
               return (
                 <span
                   onClick={() => {
-                    menuChange(data.sectionName, data.id);
+                    menuChange(data.sectionName);
                   }}
                   style={
-                    dataLoop[data.id].value
-                      ? { background: "white",color:"#000", borderLeft: "4px solid #2D9CD7" }
+                    dataLoop.find((item) => item.title === data.sectionName)?.value
+                      ? {
+                          background: "white",
+                          color: "#000",
+                          borderLeft: "4px solid #2D9CD7",
+                        }
                       : {}
                   }
                   key={index}
@@ -63,8 +71,9 @@ function FAQNew({ FAQNewData,bAnalystAbout  }) {
             })}
           </div>
           {FAQNewData.map((dataF, index) => {
-            const { data } = dataF;
-            return dataLoop[index].value ? (
+            const { data,sectionName } = dataF;
+            const isActive = dataLoop.find((item) => item.title === sectionName)?.value;
+            return isActive ? (
               <div className={styles.gridPanel} key={index}>
                 <FAQ FaqData={data} />
               </div>
@@ -96,10 +105,10 @@ function FAQNew({ FAQNewData,bAnalystAbout  }) {
                 <SwiperSlide className={styles.slide} key={index}>
                   <span
                     onClick={() => {
-                      menuChange(data.sectionName, index);
+                      menuChange(data.sectionName);
                     }}
                     style={
-                      dataLoop[index].value
+                      dataLoop.find((item) => item.title === data.sectionName)?.value
                         ? {
                             background: "#E1F1F566",
                             color: "#0072BC",
@@ -125,8 +134,9 @@ function FAQNew({ FAQNewData,bAnalystAbout  }) {
           </Swiper>
         </div>
         {FAQNewData.map((dataF, index) => {
-          const { data } = dataF;
-          return dataLoop[index].value ? (
+          const { data,sectionName } = dataF;
+          const isActive = dataLoop.find((item) => item.title === sectionName)?.value;
+          return isActive ? (
             <div className={styles.gridPanel} key={index}>
               <FAQ FaqData={data} />
             </div>
