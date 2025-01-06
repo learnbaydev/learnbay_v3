@@ -67,8 +67,10 @@ const IITCyberFirstPart = ({ summaryData, whyChooseData }) => {
         interstedInHide={true}
       />
       <GenAiFirstSection
+
         ThirdTyped="Live Interactive Classes"
         dataScience={true}
+        dataScienceCounselling={true}
         titleCourse="Executive Certification in"
         cityParaCont=""
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cyber-Security-IIT.pdf"
@@ -88,6 +90,7 @@ const IITCyberFirstPart = ({ summaryData, whyChooseData }) => {
         cyber={true}
         logoWidth={180}
 logoHeight={50}
+
       />
 
       {/* <MasterSecondSection data={seconddata} /> */}
