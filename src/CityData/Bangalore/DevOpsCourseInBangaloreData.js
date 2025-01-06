@@ -44,7 +44,6 @@ export const DevOpsCourseInBangalore = [
           {
             id: 3,
             ques: "What DevOps platforms are covered in the program?",
-            // ans: "During the cloud computing classes in Bangalore, we will cover Google Cloud Platform (GCP), Microsoft Azure, and Amazon AWS concepts and tools to craft an unbeatable Cloud career.",
             ans: (
               <span>
                 During the <b>DevOps training in Bangalore</b>, we will cover
@@ -57,7 +56,6 @@ export const DevOpsCourseInBangalore = [
           {
             id: 4,
             ques: "Are there any real-world projects or case studies included in the program?",
-            // ans: "The Cloud Computing Certification Program includes ten live projects and some case studies in different learning modules. Real-time projects help experts explore the practical use of cloud-based tools and tackle issues well. Case studies and practical exercises help techies enrich their learning about the latest trends.",
             ans: (
               <span>
                 The <b>DevOps course in Bangalore </b> includes ten live
@@ -113,63 +111,6 @@ export const DevOpsCourseInBangalore = [
                 in real-time issues. You also gain domain-specific knowledge.
               </span>
             ),
-            open: false,
-          },
-        ],
-      },
-      {
-        id: 1,
-        sectionName: "Domain Electives",
-        data: [
-          {
-            id: 0,
-            ques: "What is domain specialization in the professional data science certification courses provided by Learnbay in Bangalore?",
-            ans: "We offer industry-specific full-stack data science modules, via which you learn the respective industry’s best practices. But this added benefit is available in all the three mentioned courses, except the foundational data science course. ",
-            open: true,
-          },
-          {
-            id: 1,
-            ques: "What are the available elective domain options in the different data science training courses of Learnbay in Bangalore?",
-            ans: " Advanced Data Structure & algo; Automotive, IoT & Embedded; Cloud & DevOps; Sales, Marketing, & HR; Retail, E-Commerce, & Supply Chain; Healthcare, Pharma, & Clinical Research; BFSI; Manufacturing, Mechanical, & Telecom; Media, Hospitality, & Transportation; Oil, Gas, & Energy",
-            open: false,
-          },
-          {
-            id: 2,
-            ques: "Which data science specialization domain elective is best suited for me?",
-            ans: `You can select your domain based on your prior work experience, academics, and career goals.
-                    Book a slot with our industry expert for free profile review and career guidance.`,
-            linkText1: " +917795687988 ",
-            link1: "tel:+917795687988",
-            link: true,
-            open: false,
-          },
-          {
-            id: 3,
-            ques: "Why is domain specialization important in professional data science certification?",
-            ans: "After enrolling in the advanced data science courses, one must opt for domain electives. It is essential to have business/industry knowledge that is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset's attributes. Furthermore, the model will be more observable in a real-world situation.",
-            open: false,
-          },
-          {
-            id: 4,
-            ques: "Can I select multiple domain electives and do I need to pay extra charges in any of the eligible data science courses?",
-            ans: `You can select a pre-set maximum number (based on course) of domain electives (both tech and non-tech) based on your interest and career goals.
-                    Advance Data Science and AI Certification course- Maximum 2 domains.
-                    Data Science and AI Certification Course for Managers and Leaders- All domains
-                    Data Science and AI Training with Placement Assistance- All domains
-    
-                    No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.`,
-            open: false,
-          },
-          {
-            id: 5,
-            ques: "What if I don't have any prior experience in any domain?",
-            ans: " If you don't have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.",
-            open: false,
-          },
-          {
-            id: 6,
-            ques: "Can I change my domain electives later?",
-            ans: "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration.",
             open: false,
           },
         ],
@@ -591,7 +532,7 @@ export const DevOpsCourseInBangalore = [
     ),
     ProgramBot5: (
       <span>
-        Learnbay’s DevOps course in Bangalore is an eye-catcher for all aspiring
+        Learnbay’s <b>DevOps course in Bangalore</b> is an eye-catcher for all aspiring
         cloud computing pros. The syllabus aligns with recent updates and
         inventions in the DevOps field.
       </span>
@@ -640,7 +581,7 @@ export const DevOpsCourseInBangalore = [
     ),
     ProgramBot11: (
       <span>
-        The best institute for DevOps in Bangalore comes with hands-on training
+        The <b>best institute for DevOps in Bangalore</b> comes with hands-on training
         that helps in upskilling. You can simultaneously gain theoretical
         knowledge and practice those concepts with the help of capstone
         projects.
@@ -660,8 +601,8 @@ export const DevOpsCourseInBangalore = [
         This course enables learners with cloud proficiency for the modern
         technology world. After completing the course, Learnbay works on your
         profile. It includes resume writing and LinkedIn to optimize it for fine
-        reach to recruiters. Learnbay is one of the best DevOps training in
-        Bangalore. Microsoft & IBM are the partners for this course. Unlike
+        reach to recruiters. Learnbay is one of the <b>best DevOps training in
+        Bangalore</b>. Microsoft & IBM are the partners for this course. Unlike
         other DevOps training, Learnbay believes in extensive project-based
         learning besides theoretical concepts. This gives you a competitive
         edge. Join our course today and build a racing career.
@@ -683,7 +624,7 @@ export const DevOpsCourseInBangalore = [
     ),
     ProgramBot16: (
       <span>
-        Gain expertise with our best institute for DevOps in Bangalore and
+        Gain expertise with our <b>best institute for DevOps in Bangalore</b> and
         anchor to career success & dream job. Our alliance with various
         industries is like a solid basis beneath every footstep toward your
         goal. It promotes DevOps & cloud-effective learning.
@@ -691,7 +632,7 @@ export const DevOpsCourseInBangalore = [
     ),
     ProgramBot17: (
       <span>
-        Additionally, the DevOps course in Bangalore gives certification from
+        Additionally, the <b>DevOps course in Bangalore</b> gives certification from
         IBM and Microsoft. These two tech leaders have globally recognized
         prestige.
       </span>
@@ -720,7 +661,7 @@ export const DevOpsCourseInBangalore = [
     ),
     ProgramBot21: (
       <span>
-        The DevOps institute in Bangalore charges course fees that come in the
+        <b>The DevOps institute in Bangalore</b> charges course fees that come in the
         affordable range of INR 80,000. To make it cheap, Learnbay gives easy,
         no-cost EMI options.
       </span>
@@ -728,12 +669,12 @@ export const DevOpsCourseInBangalore = [
 
     ProgramHead2: (
       <span>
-        What is the Value of Leanbay’s DevOps certification in Bangalore?
+        What is the Value of Learnbay’s DevOps certification in Bangalore?
       </span>
     ),
     ProgramBot22: (
       <span>
-        Earning a Leanbay DevOps certification in Bangalore marks your position
+        Earning a Learnbay DevOps certification in Bangalore marks your position
         in the IT job world. Recruiters always look for potentially skilled
         candidates. These candidates should be able to fulfill the job
         necessities of software developers, cloud engineers, and DevOps
@@ -742,11 +683,21 @@ export const DevOpsCourseInBangalore = [
     ),
     ProgramBot23: (
       <span>
-        The accreditation of the DevOps course in Bangalore validates the skills
+        The accreditation of the <b>DevOps course in Bangalore</b> validates the skills
         learned via tool usage and real-time projects. It improves their
-        reliability and employability. Key course benefits are – The course module teaches programming languages and tools usage from the start, Project Innovation lab delivers industry-based learning along with hands-on training, A globally recognized program stamps your gained abstract and practical ability worldwide, The eligibility of the program is from early to mid-career experts, It promises guaranteed interview calls, Learnbay fosters hands-on learning via various capstone and real-time projects, You get IBM project & course certification, along with a Microsoft certification, It also offers 100% job assistance, Flexible learning via weekend & weekdays and online & offline classes, Experienced mentors promote learning via real-life cases
+        reliability and employability. Key course benefits are –
       </span>
     ),
+    list10: "The course module teaches programming languages and tools usage from the start.",
+    list11: "Project Innovation lab delivers industry-based learning along with hands-on training.",
+    list12: "A globally recognized program stamps your gained abstract and practical ability worldwide.",
+    list13: "The eligibility of the program is from early to mid-career experts.",
+    list14: "It promises guaranteed interview calls.",
+    list15: "Learnbay fosters hands-on learning via various capstone and real-time projects.",
+    list16: "You get IBM project & course certification, along with a Microsoft certification.",
+    list17: "It also offers 100% job assistance.",
+    list18: "Flexible learning via weekend & weekdays and online & offline classes.",
+    list19: "Experienced mentors promote learning via real-life cases.",
 
     CertificationBot1: (
       <span>
