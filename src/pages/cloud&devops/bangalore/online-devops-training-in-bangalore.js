@@ -1,5 +1,5 @@
 import { CloudBangalore } from "@/Data/Schema/CloudBangalore";
-import Map from "@/components/Seo/Maps/Maps";
+// import Map from "@/components/Seo/Maps/Maps";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import { DevOpsCourseInBangalore } from "../../../CityData/Bangalore/DevOpsCourseInBangaloreData";
@@ -412,7 +412,7 @@ export default function Home() {
           </div>
         </div>
         <SeventhSection />
-        <Map BangaloreMap={true} />
+        {/* <Map BangaloreMap={true} /> */}
         <CityText CityText={true} />
         <Footer />
       </main>

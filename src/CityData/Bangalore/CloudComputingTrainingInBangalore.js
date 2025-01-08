@@ -532,7 +532,7 @@ export const CloudComputingTrainingInBangalore = [
     SyllabusBotlist45: "Performance Optimization in Splunk",
     SyllabusBotlist46: "Splunk for Cloud Services",
     syllabussrc:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf",
     JobHead1:
       "What career-driven skills will you gain with the best cloud computing institute in Bangalore? ",
     JobBotA: (
