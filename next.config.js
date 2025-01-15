@@ -1471,6 +1471,13 @@ const nextConfig = {
           "https://blog.learnbay.co/regression-techniques-in-machine-learning",
         permanent: true,
       },
+
+      {
+        source: "/cyber-security/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee",
+        destination:
+          "/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee",
+        permanent: true,
+      },
     ];
   },
 };
