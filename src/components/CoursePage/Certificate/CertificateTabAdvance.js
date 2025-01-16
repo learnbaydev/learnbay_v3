@@ -267,7 +267,7 @@ const currentPath = router.pathname;
              {
       ECCou ? (           <div className={styles.noteIt}>
                   
-        <span><i>* Exam voucher included in this program</i></span></div> ):("")
+        <span><i>*Exam voucher  for EC council sold separately</i></span></div> ):("")
      }
           </div>
           <div className={styles.leftSide}>
