@@ -1,4 +1,4 @@
-export const IITCyberSecurityData = [
+export const ECCyberSecurityData = [
   {
     secondSection: [
       {
@@ -71,10 +71,10 @@ export const IITCyberSecurityData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/mastr_Icon_four+(1).webp",
         imageAlt: "Certification",
         extraImageSrc:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iHub-logos.webp",
-        extraImageAlt: "IIt Guwati",
-            extraImageSrcWidth:"180",
-        extraImageSrcHeight:"40"
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ec-coun.webp",
+        extraImageAlt: "EC Counsil",
+            extraImageSrcWidth:"140",
+        extraImageSrcHeight:"30"
       },
     ],
 
@@ -83,12 +83,12 @@ export const IITCyberSecurityData = [
       {
         image:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_why.webp",
-        title: "iHUB DivyaSampark, IIT Roorkee Certification",
+          title: "EC-Council Certification",
         description:
-          "Stand out with a prestigious certification from iHUB DivyaSampark, IIT Roorkee.",
-          logos:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iHub-logos.webp",
-          logosWidth:"200",
-              logosHeight:"45",
+          "Stand out with a Advance certification from EC-Council",
+          logos:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ec-coun.webp",
+          logosWidth:"140",
+              logosHeight:"30",
         subItems: [
           {
             icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/3dicons+(1).webp",
@@ -594,7 +594,7 @@ export const IITCyberSecurityData = [
     Certificate: {
       degreeCertificate: {
         id: 1,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ihub+_rrk.webp",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ceh-cers.webp",
         title: "Certification from iHUB DivyaSampark, IIT Roorkee",
         para: [
           "Executive Certification: Earned in Cyber Security from iHUB DivyaSampark, IIT Roorkee.",
@@ -612,6 +612,17 @@ export const IITCyberSecurityData = [
           "Build a strong foundation to accelerate your career in cybersecurity.",
         ],
       },
+      degreeCertificate: {
+        id: 1,
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ceh-cers.webp",
+        title: "EC Council Certified ethical hacker Certificate",
+        para: [
+          "Gain an EC-Council certificate that is recognized globally.",
+          "Achieve the top credential in the field of cybersecurity.",
+          "Build a strong foundation to accelerate your career in cybersecurity.",
+      ],
+      },
+     
       projectCertificate: {
         id: 3,
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Certification-min.webp",
