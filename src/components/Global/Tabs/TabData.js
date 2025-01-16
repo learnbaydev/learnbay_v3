@@ -148,7 +148,7 @@ export const TabData = [
     courseName: [
       {
         CName: "Executive Certification in Cyber Security & Ethical Hacking",
-        hours: "11 Months",
+        hours: "8 Months",
         url: "/cyber-security/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee",
       },
     

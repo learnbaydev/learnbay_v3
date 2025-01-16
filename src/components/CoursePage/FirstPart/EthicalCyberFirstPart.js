@@ -19,7 +19,7 @@ const JobAbroad = dynamic(() =>
   import("../../MastersCourse/JobAbroad/JobAbroad")
 );
 
-const IITCyberFirstPart = ({ summaryData, whyChooseData }) => {
+const EthicalCyberFirstPart = ({ summaryData, whyChooseData }) => {
   const JobData = {
     title: "Program outcome: What’s in it for you?",
     points: [
@@ -58,7 +58,7 @@ const IITCyberFirstPart = ({ summaryData, whyChooseData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
-  const pdfUrl = "/Brochure/Cyber-Security-IIT.pdf";
+  const pdfUrl = "/Brochure/Advance-Cyber-security.pdf";
   return (
     <div>
       <Navbar
@@ -71,14 +71,14 @@ const IITCyberFirstPart = ({ summaryData, whyChooseData }) => {
         ThirdTyped="Live Interactive Classes"
         dataScience={true}
         dataScienceCounselling={true}
-        titleCourse="Executive Certification in"
+        titleCourse="Advance Certification in"
         cityParaCont=""
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cyber-Security-IIT.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance-Cyber-security.pdf"
         brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/fullhead.webp"
         firstToparaImg="Cyber Security & Ethical Hacking"
         GEnAi={true}
-        firstHeading="Executive Certification in"
+        firstHeading="Advance Certification in"
         firstTopPara="Curriculum Inclusive of Gen-AI"
         idss="0cspp1jXAbM"
         interstedInHide={true}
@@ -90,9 +90,10 @@ const IITCyberFirstPart = ({ summaryData, whyChooseData }) => {
         cyber={true}
         logoWidth={180}
 logoHeight={50}
-cyberTitle="Executive Certification in"
-cyberTitleSpan="Cyber Security & Ethical Hacking"
-compLogo="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iHub-logos.webp"
+cyberTitle="Advance Certification in "
+cyberTitleSpan=" Cyber Security & Ethical Hacking"
+compLogo="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ec-coun.webp"
+softwareBtnHide={true}
 
       />
 
@@ -117,7 +118,7 @@ compLogo="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iHub-log
       <ContactConsellor
   GenAi={true}
         titleCourse="Cyber Security & Ethical Hacking"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cyber-Security-IIT.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance-Cyber-security.pdf"
         brochurePdf={pdfUrl}
         dataScience={true}
         interstedInHide={true}
@@ -126,4 +127,4 @@ compLogo="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iHub-log
   );
 };
 
-export default React.memo(IITCyberFirstPart);
+export default React.memo(EthicalCyberFirstPart);

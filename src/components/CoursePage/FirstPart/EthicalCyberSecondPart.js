@@ -21,14 +21,14 @@ const FAQNew = dynamic(() =>
 );
 
 
-const IITCyberSecondPart = ({
+const EthicalCyberSecondPart = ({
   masterSyllabusMobile,
   FAQNewData,
   toolsData,
   CertificateData,
 }) => {
 
-  const pdfUrl = "/Brochure/Cyber-Security-IIT.pdf";
+  const pdfUrl = "/Brochure/Advance-Cyber-security.pdf";
   return (
     <div>
       <LJourney />
@@ -38,17 +38,17 @@ const IITCyberSecondPart = ({
         dataScienceCounselling={true}
         dataScience={true}
         titleCourse=""
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cyber-Security-IIT.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance-Cyber-security.pdf"
         brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}
       />
 
-<Certificate data={CertificateData}  cyber={true} ECCou={true}/>
+<Certificate data={CertificateData} singlecertificate={true} AdCyber={true} ECCou={true}/>
 
       <DSAFeeSection
-         Fee="₹1,10,000"
-         FeeEmi="₹ 7,211/month"
+         Fee="₹60,000"
+         FeeEmi="₹ 3,933/month"
          weekendbatch="Weekday Evening"
          weekdaybatch="Weekday Evening"
          weekday="MON-WED-FRI"
@@ -61,16 +61,15 @@ const IITCyberSecondPart = ({
          // <EMI POPUP
          emiType="NO COST EMI"
          duration1="18 Months"
-         totalAmount1="₹1,10,000"
-         monthlyPayment1="₹7,211"
+         totalAmount1="₹60,000"
+         monthlyPayment1="₹3,933"
          greenDown1="Standard Intrest rate Applicable"
          duration2="12 Months"
-         totalAmount2="₹1,10,000"
-         monthlyPayment2="₹10,816"
+         totalAmount2="₹60,000"
+         monthlyPayment2="₹5,900"
       />
   
       <SliderTab />
-<IHubAboutIIT/>
       <FAQNew FAQNewData={FAQNewData} />
       <SeventhSection />
       <Footer />
@@ -80,4 +79,4 @@ const IITCyberSecondPart = ({
   );
 };
 
-export default IITCyberSecondPart;
+export default EthicalCyberSecondPart;
