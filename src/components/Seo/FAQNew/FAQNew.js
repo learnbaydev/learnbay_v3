@@ -20,7 +20,7 @@ function FAQNew({ FAQNewData, bAnalystAbout }) {
     { title: "Support", value: false },
     { title: "Eligiblity Criteria", value: false },
     { title: "Eligibility Criteria", value: false },
-    { title: "Generic Queries", value: false },
+    { title: "Generic Queries", value: false }, 
   ]);
 
   const menuChange = (title) => {
