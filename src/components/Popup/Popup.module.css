@@ -53,15 +53,24 @@
 
 .whiteDiv {
   background-color: white;
-  padding: 20px 20px 50px 20px;
+  padding: 20px 20px 36px 20px;
   text-align: center;
   border-bottom: 2px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
 }
+
+.vaildTag{
+  margin: 10px;
+  font-style: italic;
+  font-weight: 600;
+}
+
 
 .whiteDiv h3 {
   color: #353535;
   text-align: center;
-  font-size: 38.882px;
+  font-size: 34.882px;
   font-style: normal;
   font-weight: 900;
   line-height: 160%;
@@ -90,7 +99,7 @@
   border-left: 3px solid #0072BC;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  transform: rotate(-6deg);
+  transform: rotate(-9deg);
   border-radius: 8px;
   border-right: 3px solid #0072BC;
   border-bottom: 3px solid #0072BC;
@@ -100,7 +109,7 @@
 
 .OFF {
   color: #353535;
-  font-size: 50.804px;
+  font-size: 40.804px;
   font-style: normal;
   font-weight: 900;
   line-height: 100%;
@@ -120,7 +129,7 @@
   transition: background-color 0.3s ease;
   border-radius: 51px;
   background: #0383FF;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .buttonDiv button:hover {
@@ -188,14 +197,14 @@
 
   
   .whiteDiv h3 {
-    font-size: 30px;
+    font-size: 26px;
   }
   .tagLine p {
   font-size: 24px;
   }
   .tagLine {
     left: 15%;
-    top: 34%;
+    top: 36%;
   }
   .offerText span {
     font-size: 18px;
@@ -204,7 +213,7 @@
     font-size: 18px;
   }
   .OFF {
-    font-size: 40px;
+    font-size: 36px;
   }
   .buttonDiv button {
     font-size: 18px;

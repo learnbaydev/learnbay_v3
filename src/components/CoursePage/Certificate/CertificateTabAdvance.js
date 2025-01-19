@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useRouter } from 'next/router';
 import styles from "./Certificate.module.css";
 import Image from "next/image";
 import { BsCheckCircle } from "react-icons/bs";
@@ -11,11 +12,18 @@ function CertificateTab({
   OnlyDS,
   noTabs,
   cyber,
+  AdCyber,
+  ECCou,
 }) {
   const [MActive, setMActive] = useState(false);
   const [IActive, setIActive] = useState(true);
   const [IBCActive, setIBCActive] = useState(false);
   const [DegreeCActive, setDegreeActive] = useState(false);
+// Initialize the router
+const router = useRouter();
+const currentPath = router.pathname;
+
+
   return (
     <section className={styles.CertificateTab}>
       <div className={styles.header}>
@@ -63,7 +71,7 @@ function CertificateTab({
                   }}
                   className={IActive ? styles.activeP : styles.inactiveP}
                 >
-                  IBM
+    {AdCyber ? ("  Certified Ethical Hacker"):("IBM")}
                 </p>
                 {singlecertificate ? (
                   ""
@@ -183,8 +191,17 @@ function CertificateTab({
                   <BsCheckCircle className={styles.checkCircle} />
                   {data}
                 </p>
+       
               );
+              
             })}
+    {currentPath === '/advanced-cyber-security-course-training' && ECCou ? (
+        <div className={styles.noteIt}>
+          <span>
+            <i>* Exam voucher included in this program</i>
+          </span>
+        </div>
+      ) : null}
           </div>
           <div className={styles.leftSide}>
             <Image
@@ -247,6 +264,11 @@ function CertificateTab({
                 </p>
               );
             })}
+             {
+      ECCou ? (           <div className={styles.noteIt}>
+                  
+        <span><i>*Exam voucher  for EC council sold separately</i></span></div> ):("")
+     }
           </div>
           <div className={styles.leftSide}>
             <Image

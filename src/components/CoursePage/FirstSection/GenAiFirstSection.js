@@ -43,6 +43,8 @@ const GenAiFirstSection = ({
   logoWidth,
   logoHeight,
   noLogoDemo,
+  cyberTitle,
+  cyberTitleSpan
 }) => {
   const texts = [
     "Guaranteed Interview Calls",
@@ -140,9 +142,9 @@ const GenAiFirstSection = ({
             <h1 className={styles.cyberH1}>
               <span className={styles.cyberspan}>
                 {" "}
-                Executive Certification in{" "}
+               {cyberTitle} {" "}
               </span>
-              Cyber Security & Ethical Hacking
+            {cyberTitleSpan}  
             </h1>
           ) : (
             <h1 className={styles.h1}>
@@ -183,7 +185,7 @@ const GenAiFirstSection = ({
                   {" "}
                   <p className={styles.ptop}>In Collaboration With</p>{" "}
                   <Image
-                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iHub-logos.webp"
+                    src={compLogo}
                     width={180}
                     height={40}
                     priority
@@ -407,7 +409,7 @@ const GenAiFirstSection = ({
               <p className={styles.ptoptwo}>In Collaboration With</p>{" "}
                   <div className={styles.ImageBlock}>
                   <Image
-                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iHub-logos.webp"
+                    src={compLogo}
                     width={180}
                     height={40}
                     priority

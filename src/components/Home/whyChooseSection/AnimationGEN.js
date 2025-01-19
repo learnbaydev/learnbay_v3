@@ -152,13 +152,18 @@ function AnimationGEN({ cyber, whyChooseData,  }) {
                 {index === 0 ? (
                   <div style={{ marginTop: "20px" }}>
                     {cyber ? (
+                      
                       <Image
-                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iHub-logos.webp"
-                        width={240}
-                        height={50}
+                        src={item.logos}
+                        width={item.logosWidth}
+                        height={item.logosHeight}
+                        // width={240}
+                        // height={50}
                         loading="lazy"
                         alt="IIT"
                       />
+
+                     
                     ) : (
                       <Image
                         src={item.logos}
