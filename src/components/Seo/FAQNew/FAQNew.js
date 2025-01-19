@@ -19,6 +19,7 @@ function FAQNew({ FAQNewData, bAnalystAbout }) {
     { title: "Mentorship", value: false },
     { title: "Support", value: false },
     { title: "Eligiblity Criteria", value: false },
+    { title: "Eligibility Criteria", value: false },
     { title: "Generic Queries", value: false },
   ]);
 
