@@ -814,7 +814,7 @@ export const DevOpsCourseInBangalore = [
     SyllabusBotlist45: "Performance Optimization in Splunk",
     SyllabusBotlist46: "Splunk for Cloud Services",
     syllabussrc:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf",
     JobHead1:
       "What proficiency do you develop with Learnbay’s best DevOps training in Bangalore?",
     JobBotA: (

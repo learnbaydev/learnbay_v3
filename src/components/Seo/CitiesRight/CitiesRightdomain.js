@@ -1291,18 +1291,22 @@ const CitiesRight = ({
                     <p className={styles.pp}>{ProgramBot22}</p>
                     <p className={styles.pp}>{ProgramBot23}</p>
                     {ulModule && (
-                      <ul style={{ marginLeft: "15px" }}>
-                        {list10 && <li>{list10}</li>}
-                        {list11 && <li>{list11}</li>}
-                        {list12 && <li>{list12}</li>}
-                        {list13 && <li>{list13}</li>}
-                        {list14 && <li>{list14}</li>}
-                        {list15 && <li>{list15}</li>}
-                        {list16 && <li>{list16}</li>}
-                        {list17 && <li>{list17}</li>}
-                        {list18 && <li>{list18}</li>}
-                        {list19 && <li>{list19}</li>}
-                      </ul>
+                      <>
+                        {cityTextDevopsBangalore && (
+                          <ul style={{ marginLeft: "15px" }}>
+                            {list10 && <li>{list10}</li>}
+                            {list11 && <li>{list11}</li>}
+                            {list12 && <li>{list12}</li>}
+                            {list13 && <li>{list13}</li>}
+                            {list14 && <li>{list14}</li>}
+                            {list15 && <li>{list15}</li>}
+                            {list16 && <li>{list16}</li>}
+                            {list17 && <li>{list17}</li>}
+                            {list18 && <li>{list18}</li>}
+                            {list19 && <li>{list19}</li>}
+                          </ul>
+                        )}
+                      </>
                     )}
                   </div>
                 )}
@@ -1773,9 +1777,13 @@ const CitiesRight = ({
                   <li>{list4}</li>
                   <li>{list5}</li>
                   <li>{list6}</li>
-                  <li>{list7 && list7}</li>
-                  <li>{list8 && list8}</li>
-                  <li>{list9 && list9}</li>
+                  {cityTextDevopsBangalore && (
+                    <>
+                      {list7 && <li>{list7}</li>}
+                      {list8 && <li>{list8}</li>}
+                      {list9 && <li>{list9}</li>}
+                    </>
+                  )}
                 </ul>
               </>
             ) : (
