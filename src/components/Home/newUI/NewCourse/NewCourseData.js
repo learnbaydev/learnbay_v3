@@ -278,6 +278,18 @@ export const courses = {
     },
     {
       title: "Cloud Computing & DevOps Certification Program",
+      duration: "10 months | 3 Project",
+      certification: "Global Certification",
+      description: "Designed by industry experts",
+      image:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cloud_Gens.webp",
+      link: "/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IIT-cloud-devops.pdf",
+      brochurePdfs: "/Brochure/IIT-cloud-devops.pdf",
+    },
+    {
+      title: "Cloud Computing & DevOps Certification Program",
       duration: "7 months | 3 Project",
       certification: "Global Certification",
       description: "Designed by industry experts",
@@ -752,6 +764,18 @@ export const courses = {
     
     {
       title: "Cloud Computing & DevOps Certification Program",
+      duration: "10 months | 3 Project",
+      certification: "Global Certification",
+      description: "Designed by industry experts",
+      image:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cloud_Gens.webp",
+      link: "/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IIT-cloud-devops.pdf",
+      brochurePdfs: "/Brochure/IIT-cloud-devops.pdf",
+    },
+    {
+      title: "Cloud Computing & DevOps Certification Program",
       duration: "7 months | 3 Project",
       certification: "Global Certification",
       description: "Designed by industry experts",
@@ -842,26 +866,38 @@ export const courses = {
     {
       title: "GenAI Certification for Managers & Tech Leaders",
       duration: "4 months",
-      certification: "Project Certification form Learnbay",
-      description: "For Working Professional",
+      certification: "Project Certification form Guwahati",
+      description: "For Managers & Tech Leaders",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GEN_AI_Mans.webp",
-      link: "/datascience/generative-ai-course-for-manager",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GEN_AI_Techs.webp",
+      link: "/datascience/generative-ai-course-for-managers",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IBM-GenAI-Managers.pdf",
-      brochurePdfs: "/Brochure/IBM-GenAI-Managers.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI-Managers-Tech-Leaders-iits.pdf",
+      brochurePdfs: "/Brochure/GenAI-Managers-Tech-Leaders-iits.pdf",
     },
     {
       title: "GenAI Developer Certification for Professionals",
       duration: "3 months",
-      certification: "Project Certification form Learnbay",
+      certification: "Project Certification form IIT Guwahati",
       description: "For Working Professional",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Gen_AI_Devls.webp",
-      link: "/fullstack/generative-ai-course-for-professional",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/genAI_IIT_Devs.webp",
+      link: "/fullstack/generative-ai-course-for-professionals",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IBM-GenAI-Developers.pdf",
-      brochurePdfs: "/Brochure/IBM-GenAI-Developers.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI-Developer-Program.pdf",
+      brochurePdfs: "/Brochure/GenAI-Developer-Program.pdf",
+    },
+    {
+      title: "Cloud Computing & DevOps Certification Program",
+      duration: "10 months | 3 Project",
+      certification: "Global Certification",
+      description: "Designed by industry experts",
+      image:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cloud_Gens.webp",
+      link: "/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IIT-cloud-devops.pdf",
+      brochurePdfs: "/Brochure/IIT-cloud-devops.pdf",
     },
   ],
   CyberSecurity: [
