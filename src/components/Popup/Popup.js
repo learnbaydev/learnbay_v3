@@ -18,7 +18,7 @@ const Popup = ({ message, onClose }) => {
           <div className={styles.whiteDiv}>
             <h3>Get Scholarship upto</h3>
             <span className={styles.OFF}>20% OFF</span>
-            <span className={styles.vaildTag}>( Valid till 16th Jan )</span>
+            {/* <span className={styles.vaildTag}>( Valid till 16th Jan )</span> */}
           </div>
 
           {/* Middle TagLine */}

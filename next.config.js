@@ -1478,6 +1478,18 @@ const nextConfig = {
           "/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee",
         permanent: true,
       },
+      {
+        source: "/datascience/generative-ai-course-for-manager",
+        destination:
+          "/datascience/generative-ai-course-for-managers",
+        permanent: true,
+      },
+      {
+        source: "/fullstack/generative-ai-course-for-professional",
+        destination:
+          "/fullstack/generative-ai-course-for-professionals",
+        permanent: true,
+      },
     ];
   },
 };
