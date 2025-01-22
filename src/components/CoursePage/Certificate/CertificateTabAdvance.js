@@ -14,6 +14,7 @@ function CertificateTab({
   cyber,
   AdCyber,
   ECCou,
+  microEC,
 }) {
   const [MActive, setMActive] = useState(false);
   const [IActive, setIActive] = useState(true);
@@ -27,22 +28,42 @@ const currentPath = router.pathname;
   return (
     <section className={styles.CertificateTab}>
       <div className={styles.header}>
-        {cyber ? (
-          <div className={`${styles.pWrapN} ${styles.cyberwrap}`}>
+       {
+
+
+microEC ? (     <div className={`${styles.pWrapN} ${styles.cyberwrap}`}>
+        <p
+          onClick={() => {
+            setIActive(true);
+            setMActive(false);
+            setIBCActive(false);
+            setDegreeActive(false);
+          }}
+          className={IActive ? styles.activeP : styles.inactiveP}
+        >
+Certified Ethical Hacker
+        </p>
+        {singlecertificate ? (
+          ""
+        ) : (
+          <>
+            {" "}
+           
             <p
               onClick={() => {
-                setIActive(true);
+                setIActive(false);
                 setMActive(false);
-                setIBCActive(false);
+                setIBCActive(true);
                 setDegreeActive(false);
               }}
-              className={IActive ? styles.activeP : styles.inactiveP}
+              className={IBCActive ? styles.activeP : styles.inactiveP}
             >
-              iHUB IIT Roorkee
+ Microsoft
             </p>
-            
-            
-
+          </>
+        )}
+        {doubleCertificate ? (
+          <>
             <p
               onClick={() => {
                 setIActive(false);
@@ -52,133 +73,221 @@ const currentPath = router.pathname;
               }}
               className={MActive ? styles.activeP : styles.inactiveP}
             >
-  Certified Ethical Hacker
+              Microsoft
             </p>
-          </div>
+          </>
+        ) : (
+          ""
+        )}
+        {FreshersDoubleCertificate ? (
+          <>
+            <p
+              onClick={() => {
+                setIActive(false);
+                setMActive(true);
+                setIBCActive(false);
+                setDegreeActive(false);
+              }}
+              className={MActive ? styles.activeP : styles.inactiveP}
+            >
+              Internship Certificate
+            </p>
+          </>
+        ) : (
+          ""
+        )}
+        {projectWithCertificate ? (
+          <>
+            <p
+              onClick={() => {
+                setIActive(false);
+                setMActive(false);
+                setIBCActive(true);
+                setDegreeActive(false);
+              }}
+              className={
+                DegreeCActive ? styles.activeP : styles.inactiveP
+              }
+            >
+              Project Certificate
+            </p>
+          </>
+        ) : (
+          ""
+        )}
+        {OnlyDS ? (
+          <>
+            {" "}
+            <p
+              onClick={() => {
+                setIActive(false);
+                setMActive(false);
+                setIBCActive(false);
+                setDegreeActive(true);
+              }}
+              className={
+                DegreeCActive ? styles.activeP : styles.inactiveP
+              }
+            >
+              Degree Certificate
+            </p>
+          </>
+        ) : (
+          ""
+        )}
+      </div>):(<> {cyber ? (
+  <div className={`${styles.pWrapN} ${styles.cyberwrap}`}>
+    <p
+      onClick={() => {
+        setIActive(true);
+        setMActive(false);
+        setIBCActive(false);
+        setDegreeActive(false);
+      }}
+      className={IActive ? styles.activeP : styles.inactiveP}
+    >
+      iHUB IIT Roorkee
+    </p>
+    
+    
+
+    <p
+      onClick={() => {
+        setIActive(false);
+        setMActive(true);
+        setIBCActive(false);
+        setDegreeActive(false);
+      }}
+      className={MActive ? styles.activeP : styles.inactiveP}
+    >
+Certified Ethical Hacker
+    </p>
+  </div>
+) : (
+  <>
+    {" "}
+    {noTabs ? (
+      ""
+    ) : (
+      <div className={styles.pWrap}>
+        <p
+          onClick={() => {
+            setIActive(true);
+            setMActive(false);
+            setIBCActive(false);
+            setDegreeActive(false);
+          }}
+          className={IActive ? styles.activeP : styles.inactiveP}
+        >
+{AdCyber ? ("  Certified Ethical Hacker"):("IBM")}
+        </p>
+        {singlecertificate ? (
+          ""
         ) : (
           <>
             {" "}
-            {noTabs ? (
-              ""
-            ) : (
-              <div className={styles.pWrap}>
-                <p
-                  onClick={() => {
-                    setIActive(true);
-                    setMActive(false);
-                    setIBCActive(false);
-                    setDegreeActive(false);
-                  }}
-                  className={IActive ? styles.activeP : styles.inactiveP}
-                >
-    {AdCyber ? ("  Certified Ethical Hacker"):("IBM")}
-                </p>
-                {singlecertificate ? (
-                  ""
-                ) : (
-                  <>
-                    {" "}
-                    <p
-                      onClick={() => {
-                        setIActive(false);
-                        setMActive(true);
-                        setIBCActive(false);
-                        setDegreeActive(false);
-                      }}
-                      className={MActive ? styles.activeP : styles.inactiveP}
-                    >
-                      Microsoft
-                    </p>
-                    <p
-                      onClick={() => {
-                        setIActive(false);
-                        setMActive(false);
-                        setIBCActive(true);
-                        setDegreeActive(false);
-                      }}
-                      className={IBCActive ? styles.activeP : styles.inactiveP}
-                    >
-                      Project Certificate
-                    </p>
-                  </>
-                )}
-                {doubleCertificate ? (
-                  <>
-                    <p
-                      onClick={() => {
-                        setIActive(false);
-                        setMActive(true);
-                        setIBCActive(false);
-                        setDegreeActive(false);
-                      }}
-                      className={MActive ? styles.activeP : styles.inactiveP}
-                    >
-                      Microsoft
-                    </p>
-                  </>
-                ) : (
-                  ""
-                )}
-                {FreshersDoubleCertificate ? (
-                  <>
-                    <p
-                      onClick={() => {
-                        setIActive(false);
-                        setMActive(true);
-                        setIBCActive(false);
-                        setDegreeActive(false);
-                      }}
-                      className={MActive ? styles.activeP : styles.inactiveP}
-                    >
-                      Internship Certificate
-                    </p>
-                  </>
-                ) : (
-                  ""
-                )}
-                {projectWithCertificate ? (
-                  <>
-                    <p
-                      onClick={() => {
-                        setIActive(false);
-                        setMActive(false);
-                        setIBCActive(true);
-                        setDegreeActive(false);
-                      }}
-                      className={
-                        DegreeCActive ? styles.activeP : styles.inactiveP
-                      }
-                    >
-                      Project Certificate
-                    </p>
-                  </>
-                ) : (
-                  ""
-                )}
-                {OnlyDS ? (
-                  <>
-                    {" "}
-                    <p
-                      onClick={() => {
-                        setIActive(false);
-                        setMActive(false);
-                        setIBCActive(false);
-                        setDegreeActive(true);
-                      }}
-                      className={
-                        DegreeCActive ? styles.activeP : styles.inactiveP
-                      }
-                    >
-                      Degree Certificate
-                    </p>
-                  </>
-                ) : (
-                  ""
-                )}
-              </div>
-            )}
+            <p
+              onClick={() => {
+                setIActive(false);
+                setMActive(true);
+                setIBCActive(false);
+                setDegreeActive(false);
+              }}
+              className={MActive ? styles.activeP : styles.inactiveP}
+            >
+              Microsoft
+            </p>
+            <p
+              onClick={() => {
+                setIActive(false);
+                setMActive(false);
+                setIBCActive(true);
+                setDegreeActive(false);
+              }}
+              className={IBCActive ? styles.activeP : styles.inactiveP}
+            >
+              Project Certificate
+            </p>
           </>
         )}
+        {doubleCertificate ? (
+          <>
+            <p
+              onClick={() => {
+                setIActive(false);
+                setMActive(true);
+                setIBCActive(false);
+                setDegreeActive(false);
+              }}
+              className={MActive ? styles.activeP : styles.inactiveP}
+            >
+              Microsoft
+            </p>
+          </>
+        ) : (
+          ""
+        )}
+        {FreshersDoubleCertificate ? (
+          <>
+            <p
+              onClick={() => {
+                setIActive(false);
+                setMActive(true);
+                setIBCActive(false);
+                setDegreeActive(false);
+              }}
+              className={MActive ? styles.activeP : styles.inactiveP}
+            >
+              Internship Certificate
+            </p>
+          </>
+        ) : (
+          ""
+        )}
+        {projectWithCertificate ? (
+          <>
+            <p
+              onClick={() => {
+                setIActive(false);
+                setMActive(false);
+                setIBCActive(true);
+                setDegreeActive(false);
+              }}
+              className={
+                DegreeCActive ? styles.activeP : styles.inactiveP
+              }
+            >
+              Project Certificate
+            </p>
+          </>
+        ) : (
+          ""
+        )}
+        {OnlyDS ? (
+          <>
+            {" "}
+            <p
+              onClick={() => {
+                setIActive(false);
+                setMActive(false);
+                setIBCActive(false);
+                setDegreeActive(true);
+              }}
+              className={
+                DegreeCActive ? styles.activeP : styles.inactiveP
+              }
+            >
+              Degree Certificate
+            </p>
+          </>
+        ) : (
+          ""
+        )}
+      </div>
+    )}
+  </>
+)}</>)
+       }
       </div>
 
       {IActive ? (

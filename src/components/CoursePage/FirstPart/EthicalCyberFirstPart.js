@@ -88,11 +88,11 @@ const EthicalCyberFirstPart = ({ summaryData, whyChooseData }) => {
         fresher={true}
         backgroundImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cyber-backs.webp"
         cyber={true}
-        logoWidth={180}
-logoHeight={50}
+        logoWidth={200}
+logoHeight={20}
 cyberTitle="Advance Certification in "
 cyberTitleSpan=" Cyber Security & Ethical Hacking"
-compLogo="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ec-coun.webp"
+compLogo="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ec-mcs.webp"
 softwareBtnHide={true}
 
       />
