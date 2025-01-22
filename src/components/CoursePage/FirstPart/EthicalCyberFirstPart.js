@@ -80,7 +80,7 @@ const EthicalCyberFirstPart = ({ summaryData, whyChooseData }) => {
         GEnAi={true}
         firstHeading="Advance Certification in"
         firstTopPara="Curriculum Inclusive of Gen-AI"
-        idss="0cspp1jXAbM"
+        idss="DzxLshgOtXE"
         interstedInHide={true}
         videoId="0cspp1jXAbM"
         backgorunimg={true}
@@ -93,7 +93,7 @@ logoHeight={20}
 cyberTitle="Advance Certification in "
 cyberTitleSpan=" Cyber Security & Ethical Hacking"
 compLogo="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ec-mcs.webp"
-softwareBtnHide={true}
+
 
       />
 

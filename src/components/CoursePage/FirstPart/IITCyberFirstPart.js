@@ -80,7 +80,7 @@ const IITCyberFirstPart = ({ summaryData, whyChooseData }) => {
         GEnAi={true}
         firstHeading="Executive Certification in"
         firstTopPara="Curriculum Inclusive of Gen-AI"
-        idss="0cspp1jXAbM"
+        idss="DzxLshgOtXE"
         interstedInHide={true}
         videoId="0cspp1jXAbM"
         backgorunimg={true}
