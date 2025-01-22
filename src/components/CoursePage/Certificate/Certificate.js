@@ -13,7 +13,7 @@ const Certificate = ({
   cyber,
   AdCyber,
   ECCou,
-
+  microEC,
 }) => {
   return NoCertificate ? (
     ""
@@ -34,6 +34,7 @@ const Certificate = ({
         cyber={cyber}
         AdCyber={AdCyber}
         ECCou={ECCou}
+        microEC={microEC}
 
       />
     </div>

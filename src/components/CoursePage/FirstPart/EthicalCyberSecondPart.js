@@ -44,7 +44,7 @@ const EthicalCyberSecondPart = ({
         interstedInHide={true}
       />
 
-<Certificate data={CertificateData} singlecertificate={true} AdCyber={true} ECCou={true}/>
+<Certificate data={CertificateData} microEC={true} AdCyber={true} ECCou={true}/>
 
       <DSAFeeSection
          Fee="₹60,000"

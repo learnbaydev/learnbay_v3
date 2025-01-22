@@ -186,8 +186,8 @@ const GenAiFirstSection = ({
                   <p className={styles.ptop}>In Collaboration With</p>{" "}
                   <Image
                     src={compLogo}
-                    width={180}
-                    height={40}
+                    width={logoWidth}
+                    height={logoHeight}
                     priority
                     alt="data science course"
                   />
@@ -410,8 +410,8 @@ const GenAiFirstSection = ({
                   <div className={styles.ImageBlock}>
                   <Image
                     src={compLogo}
-                    width={180}
-                    height={40}
+                    width={logoWidth}
+                    height={logoHeight}
                     priority
                     alt="data science course"
                   />

@@ -71,10 +71,10 @@ export const ECCyberSecurityData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/mastr_Icon_four+(1).webp",
         imageAlt: "Certification",
         extraImageSrc:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ec-coun.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ec-mc-black.webp",
         extraImageAlt: "EC Counsil",
-            extraImageSrcWidth:"140",
-        extraImageSrcHeight:"30"
+            extraImageSrcWidth:"180",
+        extraImageSrcHeight:"26"
       },
     ],
 
@@ -83,12 +83,12 @@ export const ECCyberSecurityData = [
       {
         image:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_why.webp",
-          title: "EC-Council Certification",
+          title: "EC-Council & Microsoft Certification",
         description:
-          "Stand out with a Advance certification from EC-Council",
-          logos:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ec-coun.webp",
-          logosWidth:"140",
-              logosHeight:"30",
+          "Stand out with a Advance certification from EC-Council and Microsoft",
+          logos:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ec-mcs.webp",
+          logosWidth:"200",
+              logosHeight:"20",
         subItems: [
           {
             icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/3dicons+(1).webp",
@@ -592,16 +592,7 @@ export const ECCyberSecurityData = [
       },
     ],
     Certificate: {
-      degreeCertificate: {
-        id: 1,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ceh-cers.webp",
-        title: "Certification from iHUB DivyaSampark, IIT Roorkee",
-        para: [
-          "Executive Certification: Earned in Cyber Security from iHUB DivyaSampark, IIT Roorkee.",
-          "Hands-On Experience: Practical learning at IIT Roorkee campus*",
-          "Top Faculty: Learn directly from IIT faculty.",
-        ],
-      },
+   
       microCertificate: {
         id: 2,
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ceh-cers.webp",
@@ -624,15 +615,16 @@ export const ECCyberSecurityData = [
       },
      
       projectCertificate: {
-        id: 3,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Certification-min.webp",
-        title: "Capstone Project Certificate from IBM",
+        id: 2,
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
+        title: "Certification in Collaboration with Microsoft",
         para: [
-          "Globally recognized IBM certification based on industrial-level projects.",
-          "Earn 1 capstone project certification from IBM.",
-          "Individualized project experience with easy access to premium job opportunities.",
+          "Industry-certified Microsoft certificates",
+          "Gain expertise & get recognized worldwide",
+          "Boost job opportunities and earnings with Microsoft’s certification",
         ],
       },
+      
     },
 
     certificateNew: [
