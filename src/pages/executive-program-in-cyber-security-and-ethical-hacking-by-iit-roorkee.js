@@ -31,12 +31,12 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/cyber-security/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee"
+          href="https://www.learnbay.co/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee"
         />
 
         <meta
           property="og:url"
-          content="https://www.learnbay.co/fullstack/generative-ai-course-for-professionals"
+          content="https://www.learnbay.co/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee"
         />
         <meta
           property="og:title"
