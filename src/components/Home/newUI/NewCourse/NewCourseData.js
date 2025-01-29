@@ -312,18 +312,18 @@ export const courses = {
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
       brochurePdfs: "/Brochure/AWS.pdf",
     },
-    {
-      title: "Software Development Certification",
-      duration: "11 months | 4 Projects",
-      certification: "Project Certification form IBM",
-      description: "For Working Professionals",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sogtware_card+(1).webp",
-      link: "/fullstack/full-stack-software-development-program",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
-      brochurePdfs: "/Brochure/Software-Developer-Certification.pdf",
-    },
+    // {
+    //   title: "Software Development Certification",
+    //   duration: "11 months | 4 Projects",
+    //   certification: "Project Certification form IBM",
+    //   description: "For Working Professionals",
+    //   image:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sogtware_card+(1).webp",
+    //   link: "/fullstack/full-stack-software-development-program",
+    //   brochureLinks:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
+    //   brochurePdfs: "/Brochure/Software-Developer-Certification.pdf",
+    // },
   ],
 
   all: [
@@ -567,19 +567,19 @@ export const courses = {
       brochurePdfs: "/Brochure/AWS.pdf",
     },
 
-    {
-      title: "Software Development Certification",
-      duration: "11 months | 4 Projects",
-      certification: "Project Certification form IBM",
-      description: "For Working Professionals",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sogtware_card+(1).webp",
+    // {
+    //   title: "Software Development Certification",
+    //   duration: "11 months | 4 Projects",
+    //   certification: "Project Certification form IBM",
+    //   description: "For Working Professionals",
+    //   image:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sogtware_card+(1).webp",
 
-      link: "/fullstack/full-stack-software-development-program",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
-      brochurePdfs: "/Brochure/Software-Developer-Certification.pdf",
-    },
+    //   link: "/fullstack/full-stack-software-development-program",
+    //   brochureLinks:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
+    //   brochurePdfs: "/Brochure/Software-Developer-Certification.pdf",
+    // },
   ],
 
   domainCourse: [
@@ -802,20 +802,20 @@ export const courses = {
       brochurePdfs: "/Brochure/AWS.pdf",
     },
 
-    {
-      title: "Software Development Certification",
-      duration: "11 months | 4 Projects",
-      certification: "Project Certification form IBM",
-      description: "For Working Professionals",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sogtware_card+(1).webp",
+    // {
+    //   title: "Software Development Certification",
+    //   duration: "11 months | 4 Projects",
+    //   certification: "Project Certification form IBM",
+    //   description: "For Working Professionals",
+    //   image:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sogtware_card+(1).webp",
 
-      link: "/fullstack/full-stack-software-development-program",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
-      brochurePdfs: "/Brochure/Software-Developer-Certification.pdf",
-    },
-    // Add more data science courses as needed
+    //   link: "/fullstack/full-stack-software-development-program",
+    //   brochureLinks:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
+    //   brochurePdfs: "/Brochure/Software-Developer-Certification.pdf",
+    // },
+
   ],
 
   bfsi: [
