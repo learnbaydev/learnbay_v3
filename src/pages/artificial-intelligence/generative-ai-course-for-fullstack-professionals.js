@@ -68,11 +68,11 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/fullstack/generative-ai-course-for-professionals"
+          href="https://www.learnbay.co/artificial-intelligence/generative-ai-course-for-fullstack-professionals"
         />
            <meta
           property="og:url"
-          content="https://www.learnbay.co/fullstack/generative-ai-course-for-professionals"
+          content="https://www.learnbay.co/artificial-intelligence/generative-ai-course-for-fullstack-professionals"
         />
         <meta
           property="og:title"

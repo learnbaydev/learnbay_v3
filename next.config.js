@@ -1481,15 +1481,30 @@ const nextConfig = {
       {
         source: "/datascience/generative-ai-course-for-manager",
         destination:
-          "/datascience/generative-ai-course-for-managers",
+          "/artificial-intelligence/generative-ai-course-for-data-science-professionals",
+        permanent: true,
+      },
+      {
+        source: "/datascience/generative-ai-course-for-managers",
+        destination:
+          "/artificial-intelligence/generative-ai-course-for-data-science-professionals",
         permanent: true,
       },
       {
         source: "/fullstack/generative-ai-course-for-professional",
         destination:
-          "/fullstack/generative-ai-course-for-professionals",
+          "/artificial-intelligence/generative-ai-course-for-fullstack-professionals",
         permanent: true,
       },
+
+      {
+        source: "/fullstack/generative-ai-course-for-professionals",
+        destination:
+          "/artificial-intelligence/generative-ai-course-for-fullstack-professionals",
+        permanent: true,
+      },
+
+
     ];
   },
 };
