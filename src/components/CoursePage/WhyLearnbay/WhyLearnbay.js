@@ -312,7 +312,7 @@ function WhyLearnbay({
               width="350"
               height="212"
               alt="profile-Img"
-              onClick={() => videoSHow()}
+              // onClick={() => videoSHow()}
               style={{ boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px" }}
             />
           </div>
@@ -328,7 +328,7 @@ function WhyLearnbay({
               width="350"
               height="212"
               alt="profile-Img"
-              onClick={() => videoSHow()}
+              // onClick={() => videoSHow()}
               style={{ boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px" }}
             />
           </div>
@@ -344,7 +344,7 @@ function WhyLearnbay({
               width="350"
               height="212"
               alt="profile-Img"
-              onClick={() => videoSHow()}
+              // onClick={() => videoSHow()}
             />
           </div>
         ) : (
@@ -419,7 +419,7 @@ function WhyLearnbay({
                 width="350"
                 height="212"
                 alt="profile-Img"
-                onClick={() => videoSHow()}
+                // onClick={() => videoSHow()}
                 style={{ boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px" }}
               />
             ) : (
@@ -431,7 +431,7 @@ function WhyLearnbay({
                     width="350"
                     height="212"
                     alt="profile-Img"
-                    onClick={() => videoSHow()}
+            
                     style={{ boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px" }}
                   />
                 ) : (
@@ -441,7 +441,6 @@ function WhyLearnbay({
                     width="350"
                     height="212"
                     alt="profile-Img"
-                    onClick={() => videoSHow()}
                   />
                 )}
               </>

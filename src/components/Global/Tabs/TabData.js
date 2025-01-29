@@ -107,11 +107,11 @@ export const TabData = [
         url: "/fullstack/dsa-system-design",
       },
 
-      {
-        CName: "Software Development Certification Program",
-        hours: "11 Months",
-        url: "/fullstack/full-stack-software-development-program",
-      },
+      // {
+      //   CName: "Software Development Certification Program",
+      //   hours: "11 Months",
+      //   url: "/fullstack/full-stack-software-development-program",
+      // },
     ],
   },
   {
