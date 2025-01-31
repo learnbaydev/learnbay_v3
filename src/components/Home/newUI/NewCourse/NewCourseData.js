@@ -266,15 +266,27 @@ export const courses = {
   CloudS: [
     {
       title: "Data Structure Algorithms & System Design ",
-      duration: "7 months | 2 capstone Projects",
-      certification: "Project Certification form microsoft",
-      description: "For Working Professional",
+      duration: "9-10 Months",
+      certification: "Certification form Microsoft",
+      description: "with Gen-AI for Software Developers",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_cards.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DSA-card_imgs.webp",
       link: "/fullstack/dsa-system-design",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
       brochurePdfs: "/Brochure/Data-Structure-System-Design.pdf",
+    },
+    {
+      title: "Cloud Computing & DevOps Certification Program",
+      duration: "10 months | 3 Project",
+      certification: "Global Certification",
+      description: "Designed by industry experts",
+      image:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cloud_Gens.webp",
+      link: "/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IIT-cloud-devops.pdf",
+      brochurePdfs: "/Brochure/IIT-cloud-devops.pdf",
     },
     {
       title: "Cloud Computing & DevOps Certification Program",
@@ -300,18 +312,18 @@ export const courses = {
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
       brochurePdfs: "/Brochure/AWS.pdf",
     },
-    {
-      title: "Software Development Certification",
-      duration: "11 months | 4 Projects",
-      certification: "Project Certification form IBM",
-      description: "For Working Professionals",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sogtware_card+(1).webp",
-      link: "/fullstack/full-stack-software-development-program",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
-      brochurePdfs: "/Brochure/Software-Developer-Certification.pdf",
-    },
+    // {
+    //   title: "Software Development Certification",
+    //   duration: "11 months | 4 Projects",
+    //   certification: "Project Certification form IBM",
+    //   description: "For Working Professionals",
+    //   image:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sogtware_card+(1).webp",
+    //   link: "/fullstack/full-stack-software-development-program",
+    //   brochureLinks:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
+    //   brochurePdfs: "/Brochure/Software-Developer-Certification.pdf",
+    // },
   ],
 
   all: [
@@ -447,11 +459,11 @@ export const courses = {
     },
     {
       title: "Data Structure Algorithms & System Design ",
-      duration: "7 months | 2 capstone Projects",
-      certification: "Project Certification form microsoft",
-      description: "For Working Professional",
+      duration: "9-10 Months",
+      certification: "Certification form Microsoft",
+      description: "with Gen-AI for Software Developers",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_cards.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DSA-card_imgs.webp",
       link: "/fullstack/dsa-system-design",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
@@ -555,19 +567,19 @@ export const courses = {
       brochurePdfs: "/Brochure/AWS.pdf",
     },
 
-    {
-      title: "Software Development Certification",
-      duration: "11 months | 4 Projects",
-      certification: "Project Certification form IBM",
-      description: "For Working Professionals",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sogtware_card+(1).webp",
+    // {
+    //   title: "Software Development Certification",
+    //   duration: "11 months | 4 Projects",
+    //   certification: "Project Certification form IBM",
+    //   description: "For Working Professionals",
+    //   image:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sogtware_card+(1).webp",
 
-      link: "/fullstack/full-stack-software-development-program",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
-      brochurePdfs: "/Brochure/Software-Developer-Certification.pdf",
-    },
+    //   link: "/fullstack/full-stack-software-development-program",
+    //   brochureLinks:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
+    //   brochurePdfs: "/Brochure/Software-Developer-Certification.pdf",
+    // },
   ],
 
   domainCourse: [
@@ -737,7 +749,31 @@ export const courses = {
   ],
 
   CloudDevops: [
+    {
+      title: "Data Structure Algorithms & System Design ",
+      duration: "9-10 Months",
+      certification: "Certification form Microsoft",
+      description: "with Gen-AI for Software Developers",
+      image:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DSA-card_imgs.webp",
+      link: "/fullstack/dsa-system-design",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
+      brochurePdfs: "/Brochure/Data-Structure-System-Design.pdf",
+    },
     
+    {
+      title: "Cloud Computing & DevOps Certification Program",
+      duration: "10 months | 3 Project",
+      certification: "Global Certification",
+      description: "Designed by industry experts",
+      image:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cloud_Gens.webp",
+      link: "/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IIT-cloud-devops.pdf",
+      brochurePdfs: "/Brochure/IIT-cloud-devops.pdf",
+    },
     {
       title: "Cloud Computing & DevOps Certification Program",
       duration: "7 months | 3 Project",
@@ -766,20 +802,20 @@ export const courses = {
       brochurePdfs: "/Brochure/AWS.pdf",
     },
 
-    {
-      title: "Software Development Certification",
-      duration: "11 months | 4 Projects",
-      certification: "Project Certification form IBM",
-      description: "For Working Professionals",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sogtware_card+(1).webp",
+    // {
+    //   title: "Software Development Certification",
+    //   duration: "11 months | 4 Projects",
+    //   certification: "Project Certification form IBM",
+    //   description: "For Working Professionals",
+    //   image:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sogtware_card+(1).webp",
 
-      link: "/fullstack/full-stack-software-development-program",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
-      brochurePdfs: "/Brochure/Software-Developer-Certification.pdf",
-    },
-    // Add more data science courses as needed
+    //   link: "/fullstack/full-stack-software-development-program",
+    //   brochureLinks:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
+    //   brochurePdfs: "/Brochure/Software-Developer-Certification.pdf",
+    // },
+
   ],
 
   bfsi: [
@@ -826,17 +862,42 @@ export const courses = {
   ],
 
   dsa: [
+
     {
-      title: "Data Structure Algorithms & System Design ",
-      duration: "7 months | 2 capstone Projects",
-      certification: "Project Certification form microsoft",
+      title: "GenAI Certification for Managers & Tech Leaders",
+      duration: "4 months",
+      certification: "Project Certification form Guwahati",
+      description: "For Managers & Tech Leaders",
+      image:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GEN_AI_Techs.webp",
+      link: "/datascience/generative-ai-course-for-managers",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI-Managers-Tech-Leaders-iits.pdf",
+      brochurePdfs: "/Brochure/GenAI-Managers-Tech-Leaders-iits.pdf",
+    },
+    {
+      title: "GenAI Developer Certification for Professionals",
+      duration: "3 months",
+      certification: "Project Certification form IIT Guwahati",
       description: "For Working Professional",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_cards.webp",
-      link: "/fullstack/dsa-system-design",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/genAI_IIT_Devs.webp",
+      link: "/fullstack/generative-ai-course-for-professionals",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
-      brochurePdfs: "/Brochure/Data-Structure-System-Design.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI-Developer-Program.pdf",
+      brochurePdfs: "/Brochure/GenAI-Developer-Program.pdf",
+    },
+    {
+      title: "Cloud Computing & DevOps Certification Program",
+      duration: "10 months | 3 Project",
+      certification: "Global Certification",
+      description: "Designed by industry experts",
+      image:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cloud_Gens.webp",
+      link: "/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IIT-cloud-devops.pdf",
+      brochurePdfs: "/Brochure/IIT-cloud-devops.pdf",
     },
   ],
   CyberSecurity: [

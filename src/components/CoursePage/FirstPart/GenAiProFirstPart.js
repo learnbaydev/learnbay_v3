@@ -89,7 +89,9 @@ const GenAiProFirstPart = ({ summaryData, whyChooseData }) => {
         fresher={true}
         backgroundImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/iitGen_twos.webp"
         highlightedWords={["GenAI", "Developer"]}
-        
+        compLogo="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp"
+        logoWidth={180}
+logoHeight={50}
       />
 
       {/* <MasterSecondSection data={seconddata} /> */}

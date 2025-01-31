@@ -2,8 +2,8 @@ import dynamic from "next/dynamic";
 import Head from "next/head";
 import { parseJSONData } from "@/Util/JsonConvertor";
 
-import IITCyberFirstPart from "@/components/CoursePage/FirstPart/IITCyberFirstPart";
-import IITCyberSecondPart from "@/components/CoursePage/FirstPart/IITCyberSecondPart";
+import GenAiMLeadersFirstPartIBM from "@/components/CoursePage/FirstPart/GenAiMLeadersFirstPartIBM";
+import GenAiMLeadersSecondPartIBM from "@/components/CoursePage/FirstPart/GenAiMLeadersSecondPartIBM";
 
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
@@ -12,41 +12,39 @@ function Blockchain({ DataScienceCourseDataJson }) {
     <>
       <Head>
         <title>
-          Best Cyber Security & Ethical Hacking Course | IITR Certification
+          Advance Gen AI Course For Managers & Tech Leaders - Learnbay
         </title>
         <meta
           name="description"
-          content="Become an expert in cyber security & ethical hacking with Learnbay's Executive Program. Master the skills to secure networks & data from cyber threats."
+          content="Master Advance Gen AI Course with Learnbay. Enhance your leadership skills by leveraging AI for making strategic and impactful decisions."
         />
-
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="cyber security and ethical hacking course, cyber security and ethical hacking, cyber hacking course, cyber security ethical hacking course, cyber security and hacking courses, cyber security ethical hacking certification"
+          content="generative ai for managers, gen ai for managers, generative ai course for managers, gen ai course for managers"
         />
-
         <link
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/cyber-security/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee"
+          href="https://www.learnbay.co/datascience/generative-ai-course-for-manager"
         />
 
         <meta
           property="og:url"
-          content="https://www.learnbay.co/fullstack/generative-ai-course-for-professionals"
+          content="https://www.learnbay.co/datascience/generative-ai-course-for-manager"
         />
         <meta
           property="og:title"
-          content="Best Cyber Security & Ethical Hacking Course | IITR Certification"
+          content="Advance Gen AI Course For Managers & Tech Leaders - Learnbay"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Become an expert in cyber security & ethical hacking with Learnbay's Executive Program. Master the skills to secure networks & data from cyber threats."
+          content="Master Advance Gen AI Course with Learnbay. Enhance your leadership skills by leveraging AI for making strategic and impactful decisions."
         />
         <meta
           property="og:image"
@@ -58,16 +56,16 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Best Cyber Security & Ethical Hacking Course | IITR Certification"
+          content="Advance Gen AI Course For Managers & Tech Leaders - Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           itemProp="description"
-          content="Become an expert in cyber security & ethical hacking with Learnbay's Executive Program. Master the skills to secure networks & data from cyber threats."
+          content="Master Advance Gen AI Course with Learnbay. Enhance your leadership skills by leveraging AI for making strategic and impactful decisions."
         />
         <meta
           name="twitter:description"
-          content="Become an expert in cyber security & ethical hacking with Learnbay's Executive Program. Master the skills to secure networks & data from cyber threats."
+          content="Master Advance Gen AI Course with Learnbay. Enhance your leadership skills by leveraging AI for making strategic and impactful decisions."
         />
         <meta
           name="twitter:image"
@@ -112,29 +110,42 @@ function Blockchain({ DataScienceCourseDataJson }) {
 /> */}
       </Head>
       <main>
-        <IITCyberFirstPart
+        <GenAiMLeadersFirstPartIBM
           summaryData={
-            DataScienceCourseData.IITCyberSecurityData[0].summarySection
+            DataScienceCourseData.GENAIManagersLeadersCourseDataIBM[0]
+              .summarySection
           }
           SecondSectionData={
-            DataScienceCourseData.IITCyberSecurityData[0].secondSection
+            DataScienceCourseData.GENAIManagersLeadersCourseDataIBM[0]
+              .secondSection
           }
           whyChooseData={
-            DataScienceCourseData.IITCyberSecurityData[0].whyChooseData
+            DataScienceCourseData.GENAIManagersLeadersCourseDataIBM[0]
+              .whyChooseData
           }
         />
-        <IITCyberSecondPart
+
+        <GenAiMLeadersSecondPartIBM
           masterSyllabusMobile={
-            DataScienceCourseData.IITCyberSecurityData[0].masterSyllabusMobile
+            DataScienceCourseData.GENAIManagersLeadersCourseDataIBM[0]
+              .masterSyllabusMobile
           }
-          toolsData={DataScienceCourseData.IITCyberSecurityData[0].toolsData}
+          toolsData={
+            DataScienceCourseData.GENAIManagersLeadersCourseDataIBM[0].toolsData
+          }
           CertificateData={
-            DataScienceCourseData.IITCyberSecurityData[0].Certificate
+            DataScienceCourseData.GENAIManagersLeadersCourseDataIBM[0].Certificate
           }
           certificateNew={
-            DataScienceCourseData.IITCyberSecurityData[0].certificateNew
+            DataScienceCourseData.GENAIManagersLeadersCourseDataIBM[0]
+              .certificateNew
           }
-          FAQNewData={DataScienceCourseData.IITCyberSecurityData[0].faq}
+          genAiData={
+            DataScienceCourseData.GENAIManagersLeadersCourseDataIBM[0].genAiData
+          }
+          FAQNewData={
+            DataScienceCourseData.GENAIManagersLeadersCourseDataIBM[0].faq
+          }
         />
       </main>
     </>
@@ -142,7 +153,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
 }
 export default Blockchain;
 export async function getStaticProps() {
-  const data = await import("../../Data/IITCyberSecurityData");
+  const data = await import("../../Data/generativeManagersLeaderscourseDataIBM");
   function getDataScienceCourseDataJSON(dataScienceCourseData) {
     return JSON.stringify(dataScienceCourseData);
   }

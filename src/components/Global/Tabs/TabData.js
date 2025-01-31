@@ -107,11 +107,11 @@ export const TabData = [
         url: "/fullstack/dsa-system-design",
       },
 
-      {
-        CName: "Software Development Certification Program",
-        hours: "11 Months",
-        url: "/fullstack/full-stack-software-development-program",
-      },
+      // {
+      //   CName: "Software Development Certification Program",
+      //   hours: "11 Months",
+      //   url: "/fullstack/full-stack-software-development-program",
+      // },
     ],
   },
   {
@@ -139,7 +139,12 @@ export const TabData = [
         hours: "6 Months",
         url: "/datascience/advance-data-analytics-program-iit-guwahati",
       },
-      ,
+      {
+        CName: "Executive Certification in Cloud and Devops",
+        hours: "10 Months",
+        url: "/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati",
+      },
+      
     ],
   },
   {
@@ -148,9 +153,30 @@ export const TabData = [
     courseName: [
       {
         CName: "Executive Certification in Cyber Security & Ethical Hacking",
-        hours: "11 Months",
+        hours: "8 Months",
         url: "/cyber-security/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee",
       },
+    
+      ,
+    ],
+  },
+
+  {
+    id: "GenAI",
+    title: "Gen AI",
+    courseName: [
+      {
+        CName: "GenAI Developer Certification For Professionals",
+        hours: "3 Months",
+        url: "/fullstack/generative-ai-course-for-professionals",
+      },
+
+      {
+        CName: "GenAI Certification For Managers & Tech Leaders",
+        hours: "4 Months",
+        url: "/datascience/generative-ai-course-for-managers",
+      },
+      
     
       ,
     ],

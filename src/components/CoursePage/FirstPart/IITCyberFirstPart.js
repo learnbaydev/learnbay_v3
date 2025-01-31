@@ -67,8 +67,10 @@ const IITCyberFirstPart = ({ summaryData, whyChooseData }) => {
         interstedInHide={true}
       />
       <GenAiFirstSection
+
         ThirdTyped="Live Interactive Classes"
         dataScience={true}
+        dataScienceCounselling={true}
         titleCourse="Executive Certification in"
         cityParaCont=""
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cyber-Security-IIT.pdf"
@@ -78,7 +80,7 @@ const IITCyberFirstPart = ({ summaryData, whyChooseData }) => {
         GEnAi={true}
         firstHeading="Executive Certification in"
         firstTopPara="Curriculum Inclusive of Gen-AI"
-        idss="0cspp1jXAbM"
+        idss="DzxLshgOtXE"
         interstedInHide={true}
         videoId="0cspp1jXAbM"
         backgorunimg={true}
@@ -86,6 +88,12 @@ const IITCyberFirstPart = ({ summaryData, whyChooseData }) => {
         fresher={true}
         backgroundImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cyber-backs.webp"
         cyber={true}
+        logoWidth={180}
+logoHeight={50}
+cyberTitle="Executive Certification in"
+cyberTitleSpan="Cyber Security & Ethical Hacking"
+compLogo="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iHub-logos.webp"
+
       />
 
       {/* <MasterSecondSection data={seconddata} /> */}

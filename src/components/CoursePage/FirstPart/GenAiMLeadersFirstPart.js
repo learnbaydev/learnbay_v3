@@ -84,7 +84,9 @@ const GenAiMLeadersFirstPart = ({ summaryData, whyChooseData }) => {
        interstedInHide={true}
        videoId="0cspp1jXAbM"
        backgorunimg={true}
-
+compLogo="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp"
+logoWidth={180}
+logoHeight={50}
        IIT={true}
        fresher={true}
         backgroundImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/iitGen_ones.webp"

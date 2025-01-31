@@ -73,6 +73,8 @@ export const IITCyberSecurityData = [
         extraImageSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iHub-logos.webp",
         extraImageAlt: "IIt Guwati",
+            extraImageSrcWidth:"180",
+        extraImageSrcHeight:"40"
       },
     ],
 
@@ -84,6 +86,9 @@ export const IITCyberSecurityData = [
         title: "iHUB DivyaSampark, IIT Roorkee Certification",
         description:
           "Stand out with a prestigious certification from iHUB DivyaSampark, IIT Roorkee.",
+          logos:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iHub-logos.webp",
+          logosWidth:"200",
+              logosHeight:"45",
         subItems: [
           {
             icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/3dicons+(1).webp",
