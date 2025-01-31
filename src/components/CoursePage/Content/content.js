@@ -256,7 +256,7 @@ function DataAnalytics({
               <ul>
                 <li>DevOps & Cloud</li>
                 <li>Product Engineer/Manager</li>
-                <li>Full Stack</li>
+                <li>Full Stack [MERN]</li>
                 <li>Web 3.0 Developer</li>
                 <li>Data Science and AI</li>
               </ul>

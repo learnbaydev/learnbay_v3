@@ -68,7 +68,7 @@ export const FSSPDataScienceCourseData = [
         id: 4,
         title: "Multiple Electives",
         description:
-          "Choose  electives like GenAI, Devops, Product management & Data engineering",
+          "Choose  electives like GenAI, Devops, Product management & Full Stack [MERN]",
         imageSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/mastr_Icon_four+(1).webp",
         imageAlt: "Certification",
@@ -963,10 +963,68 @@ export const FSSPDataScienceCourseData = [
         },
       },
 
+      // {
+      //   Module0: {
+      //     title:
+      //       "Elective 3 :- Data Engineering Essentials for Software Engineers",
+      //     imageUrl:
+      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/paper-rounds.webp",
+      //     StartImageUrl:
+      //       " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/paper-downs.webp",
+      //     endImageUrl:
+      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/yellow_in-ups.webp",
+      //     points: "Deep Learning",
+      //     points1: "(NLP)",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title: "Objective",
+      //           desc: [
+      //             "Equip software engineers with essential data engineering skills to design, manage, and optimize data pipelines and infrastructures for data- driven applications.",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title: "Recommended Experience",
+      //           desc: [
+      //             "2-4 years in software development, familiar with databases and cloud computing. Ideal for engineers interested in data-rich systems or supporting data science teams.",
+      //           ],
+      //         },
+      //       },
+
+      //       {
+      //         chap: {
+      //           title: "Career Fit",
+      //           desc: [
+      //             "Suitable for engineers moving into data engineering roles or those enhancing their understanding of data infrastructure in analytics-heavy or data-centric product teams.",
+      //           ],
+      //         },
+      //       },
+
+      //       {
+      //         chap: {
+      //           title: "Topics Covered:",
+      //           desc: [
+      //             "Data Pipelines & Workflow Orchestration: Designing efficient data flow for analytics and operations.",
+      //             "Database Management & Optimization: Basics of SQL, NoSQL, and performance tuning for scalable solutions.",
+      //             "Data Warehousing Concepts: Building and maintaining data warehouses for business intelligence.",
+      //             "Big Data Processing: Using frameworks like Hadoop, Spark for large-scale data operations. ",
+      //             "ETL/ELT: Data extraction, transformation, and load processes, with real-world application. ",
+      //             "Data Quality & Monitoring: Ensuring accuracy and reliability in data-driven applications.",
+      //             "Cloud Data Solutions: Overview of cloud-based tools (AWS, GCP, Azure) for data engineering",
+      //           ],
+      //         },
+      //       },
+      //     ],
+      //     id: 6,
+      //     open: false,
+      //   },
+      // },
       {
         Module0: {
           title:
-            "Elective 3 :- Data Engineering Essentials for Software Engineers",
+            "Elective 3 :- Full Stack [MERN] for Software Developers",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/paper-rounds.webp",
           StartImageUrl:
@@ -980,7 +1038,7 @@ export const FSSPDataScienceCourseData = [
               chap: {
                 title: "Objective",
                 desc: [
-                  "Equip software engineers with essential data engineering skills to design, manage, and optimize data pipelines and infrastructures for data- driven applications.",
+                  "Equip software engineers with the essential skills to design, develop, and deploy full-stack web applications using the MERN (MongoDB, Express, React, Node.js) stack.",
                 ],
               },
             },
@@ -988,7 +1046,7 @@ export const FSSPDataScienceCourseData = [
               chap: {
                 title: "Recommended Experience",
                 desc: [
-                  "2-4 years in software development, familiar with databases and cloud computing. Ideal for engineers interested in data-rich systems or supporting data science teams.",
+                  "1-4 years in software development with familiarity in JavaScript, web technologies, and basic software development practices. Ideal for developers interested in building end-to-end applications or pursuing full-stack roles.",
                 ],
               },
             },
@@ -997,7 +1055,7 @@ export const FSSPDataScienceCourseData = [
               chap: {
                 title: "Career Fit",
                 desc: [
-                  "Suitable for engineers moving into data engineering roles or those enhancing their understanding of data infrastructure in analytics-heavy or data-centric product teams.",
+                  "Perfect for engineers aiming to transition into full-stack development roles or expand their expertise in building complex, modern web applications using the MERN stack.",
                 ],
               },
             },
@@ -1006,13 +1064,12 @@ export const FSSPDataScienceCourseData = [
               chap: {
                 title: "Topics Covered:",
                 desc: [
-                  "Data Pipelines & Workflow Orchestration: Designing efficient data flow for analytics and operations.",
-                  "Database Management & Optimization: Basics of SQL, NoSQL, and performance tuning for scalable solutions.",
-                  "Data Warehousing Concepts: Building and maintaining data warehouses for business intelligence.",
-                  "Big Data Processing: Using frameworks like Hadoop, Spark for large-scale data operations. ",
-                  "ETL/ELT: Data extraction, transformation, and load processes, with real-world application. ",
-                  "Data Quality & Monitoring: Ensuring accuracy and reliability in data-driven applications.",
-                  "Cloud Data Solutions: Overview of cloud-based tools (AWS, GCP, Azure) for data engineering",
+                  "Front-End Development with React: React fundamentals like components, Props, State, Functional vs. Class Components, JSX syntax and CSS and its frameworks",
+                  "Back-End Development with Node.js and Express: Setting up Node.js and NPM, Asynchronous programming: Callbacks, Promises,Async/Await; Setting up a basic Express server, Handling HTTP requests and responses, Middleware functions in Express,RESTful API design and implementation.",
+                  "Database Management with MongoDB: Overview of MongoDB vs. relational databases, CRUD operations in MongoDB, Defining collections and documents, MongoDB data types, Relationships and references in MongoDB.",
+                  "Connecting Front-End with Back-End: Designing RESTful routes and endpoints,HTTP methods (GET, POST, PUT, DELETE),Error handling and status codes",
+                  "Testing and Debugging Full Stack Applications: Writing tests for React components,Writing API tests with Jest and Supertest",
+                  "Deployment and Version Control: Git basics: Commits, branches, merges,Working with GitHub repositories, Continuous Integration and Continuous Deployment, Setting up a simple CI pipeline",
                 ],
               },
             },

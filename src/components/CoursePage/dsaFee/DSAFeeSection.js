@@ -27,6 +27,7 @@ const DSAFeeSection = ({
     totalAmount2,
     monthlyPayment2,
     greenDown2,
+    isDSAFresher,
 }) => {
 
     const [emiPopupIsOpen, setEmiPopupIsOpen] = useState(false);
@@ -57,7 +58,7 @@ const DSAFeeSection = ({
               <ul>
                 <li>{point} Live online interactive sessions</li>
                 <li> {point} 1:1 online Doubt Session with experts</li>
-                <li> {point} Online Capstone projects</li>
+                {!isDSAFresher &&<li> {point} Online Capstone projects</li>}
                 <li> {point} Virtual Mock interviews</li>
               </ul>
             </div>
