@@ -4,7 +4,7 @@ import Image from "next/image";
 function GoogleReview() {
   return (
     <section className={Styles.container}>
-      <h4>Google</h4>
+      <h4>Google Reviews</h4>
       <div className={Styles.BoxDiv}>
         <div className="imgWrapper">
           <Image

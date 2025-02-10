@@ -12,26 +12,20 @@ const GoogleReview = dynamic(() =>
 const LinkedinReview = dynamic(() =>
   import("../components/StaticPage/SuccessStory/LinkedinReview/LinkedinReview")
 );
-const TrainerSection = dynamic(() =>
-  import("../components/StaticPage/SuccessStory/TrainerSection/TrainerSection")
-);
 const ReviewCourse = dynamic(() =>
   import("../components/StaticPage/SuccessStory/ReviewCourse/ReviewCourse")
 );
 const ReviewSwitch = dynamic(() =>
   import("../components/StaticPage/SuccessStory/ReviewSwitch/ReviewSwitch")
 );
-const VideoReview = dynamic(() =>
-  import("../components/StaticPage/SuccessStory/VideoReview/VideoReview")
+const ReviewSlider = dynamic(() =>
+  import("@/components/Home/newUI/reviewSlider/reviewSlider")
 );
-const Testimonial = dynamic(() =>
-  import("../components/Global/Testimonial/Testimonial")
+const Header = dynamic(() => import("../components/Home/Header/Header"));
+const Review = dynamic(() => import("../components/StaticPage/Review/Review"));
+const ContactUs = dynamic(() =>
+  import("@/components/Home/newUI/ContactUs/ContactUs")
 );
-const Realstory = dynamic(() =>
-  import("../components/Home/Realstory/Realstory")
-);
-
-
 
 export default function Home() {
   return (
@@ -57,14 +51,16 @@ export default function Home() {
           radio={true}
           interstedInHide={true}
         />
-        <TrainerSection idss="eautK0odE7Q" />
-        <Realstory/>
+        {/* <TrainerSection idss="eautK0odE7Q" /> */}
+        <Header />
+        <ReviewSlider idss="eautK0odE7Q" />
+        <ContactUs dataScienceCounselling={true} radio={true} />
         <LinkedinReview />
         <GoogleReview />
         {/* <VideoReview idss="YWxTtvb3x-U" /> */}
         <ReviewCourse />
         <ReviewSwitch />
-   
+        <Review />
         <Footer />
         <WhatsappFloat />
         <BottomBar

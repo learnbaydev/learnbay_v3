@@ -6,6 +6,7 @@ import BottomBar from "../components/Global/BottomBar/BottomBar";
 import Navbar from "../components/Global/Navbar/Navbar";
 import Review from "../components/StaticPage/Review/Review";
 import styles from "../styles/Home.module.css";
+
 const Button = dynamic(() => import("../components/Global/Button/Button"));
 
 export default function Home() {
@@ -29,7 +30,7 @@ export default function Home() {
       <main>
         {" "}
         <Navbar popup={true} dataScienceCounselling={true} radio={true} />
-        <Review />
+        <Review viewmore={false} />
         <div
           className={styles.Button}
           style={{
