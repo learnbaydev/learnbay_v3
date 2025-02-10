@@ -275,6 +275,7 @@ const CitiesRight = ({
   ProjectsBot5,
   CertificationBot4,
   cityTextCloudBangalore,
+  cityTextDevopsBangalore,
   cityTextCloudPune,
   ulModule,
 }) => {
@@ -1281,6 +1282,32 @@ const CitiesRight = ({
                     <p className={styles.pp}>{ProgramBot14}</p>
                     <p className={styles.pp}>{ProgramBot15}</p>
                     <p className={styles.pp}>{ProgramBot16}</p>
+                    <p className={styles.pp}>{ProgramBot17}</p>
+                    <p className={styles.pp}>{ProgramBot18}</p>
+                    <p className={styles.pp}>{ProgramBot19}</p>
+                    <p className={styles.pp}>{ProgramBot20}</p>
+                    <p className={styles.pp}>{ProgramBot21}</p>
+                    <h2 className={styles.pHead}>{ProgramHead2}</h2>
+                    <p className={styles.pp}>{ProgramBot22}</p>
+                    <p className={styles.pp}>{ProgramBot23}</p>
+                    {ulModule && (
+                      <>
+                        {cityTextDevopsBangalore && (
+                          <ul style={{ marginLeft: "15px" }}>
+                            {list10 && <li>{list10}</li>}
+                            {list11 && <li>{list11}</li>}
+                            {list12 && <li>{list12}</li>}
+                            {list13 && <li>{list13}</li>}
+                            {list14 && <li>{list14}</li>}
+                            {list15 && <li>{list15}</li>}
+                            {list16 && <li>{list16}</li>}
+                            {list17 && <li>{list17}</li>}
+                            {list18 && <li>{list18}</li>}
+                            {list19 && <li>{list19}</li>}
+                          </ul>
+                        )}
+                      </>
+                    )}
                   </div>
                 )}
                 {cityTextCloudBangalore ? (
@@ -1524,23 +1551,35 @@ const CitiesRight = ({
             <ul style={{ marginLeft: "40px", marginBottom: "40px" }}>
               <li>Advance Data Science & AI Program</li>
               <li style={{ color: "#0072bc" }}>
-                <a href="https://www.learnbay.co/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati" target="_blank">
+                <a
+                  href="https://www.learnbay.co/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati"
+                  target="_blank"
+                >
                   Executive Program in Data Science & AI from IIT Guwahati
                 </a>
               </li>
               <li>Advance AI & ML Certification Program</li>
               <li style={{ color: "#0072bc" }}>
-                <a href="https://www.learnbay.co/datascience/data-analytics-certification-course" target="_blank">
+                <a
+                  href="https://www.learnbay.co/datascience/data-analytics-certification-course"
+                  target="_blank"
+                >
                   Data Analytics Certification Program
                 </a>
               </li>
               <li style={{ color: "#0072bc" }}>
-                <a href="https://www.learnbay.co/datascience/advance-data-analytics-program-iit-guwahati" target="_blank">
+                <a
+                  href="https://www.learnbay.co/datascience/advance-data-analytics-program-iit-guwahati"
+                  target="_blank"
+                >
                   Advance Data Analytics Certification from IIT Guwahati
                 </a>
               </li>
               <li style={{ color: "#0072bc" }}>
-                <a href="https://www.learnbay.co/datascience/business-analytics-certification-course" target="_blank">
+                <a
+                  href="https://www.learnbay.co/datascience/business-analytics-certification-course"
+                  target="_blank"
+                >
                   Business Analytics Master Program
                 </a>
               </li>
@@ -1738,6 +1777,13 @@ const CitiesRight = ({
                   <li>{list4}</li>
                   <li>{list5}</li>
                   <li>{list6}</li>
+                  {cityTextDevopsBangalore && (
+                    <>
+                      {list7 && <li>{list7}</li>}
+                      {list8 && <li>{list8}</li>}
+                      {list9 && <li>{list9}</li>}
+                    </>
+                  )}
                 </ul>
               </>
             ) : (
@@ -1914,34 +1960,34 @@ const CitiesRight = ({
         </div>
         {cityTextCloudPune ? (
           <div className={styles.CitiesRightInner}>
-          <h2 className={styles.pHead}>{JobHead1}</h2>
-          <p className={styles.pp}>{JobBot1}</p>
-          <span className={styles.pp}>{JobBotA}</span>
-          <p className={styles.pp}>{JobBot2}</p>
-          <p className={styles.pp}>{JobBot21}</p>
-          <p className={styles.pp}>{JobBot5}</p>
-          <h2 className={styles.pHead}>{JobHead2}</h2>
-          <p className={styles.pp}>{JobBot3}</p>
-          <h2 className={styles.pHead}>{JobHead3}</h2>
-          <p className={styles.pp}>{JobBot4}</p>
-          <p className={styles.pp}>{JobBot51}</p>
-          <p className={styles.pp}>{JobBot6}</p>
-          <p className={styles.pp}>{JobBot11}</p>
-          <span className={styles.pp}>{JobBotB}</span>
-          <p className={styles.pp}>{JobBot12}</p>
-          <h2 className={styles.pHead}>{JobHead4}</h2>
-          <p className={styles.pp}>{JobBot13}</p>
-          <p className={styles.pp}>{JobBot14}</p>
-          <p className={styles.pp}>{JobBot15}</p>
-          <span className={styles.pp}>{JobBotC}</span>
-          <p className={styles.pp}>{JobBot16}</p>
-          <p className={styles.pp}>{JobBot17}</p>
-          <h2 className={styles.pHead}>{JobHead5}</h2>
-          <p className={styles.pp}>{JobBot18}</p>
-          <p className={styles.pp}>{JobBot19}</p>
-          <p className={styles.pp}>{JobBot20}</p>
-          <span className={styles.pp}>{JobBotD}</span>
-        </div>
+            <h2 className={styles.pHead}>{JobHead1}</h2>
+            <p className={styles.pp}>{JobBot1}</p>
+            <span className={styles.pp}>{JobBotA}</span>
+            <p className={styles.pp}>{JobBot2}</p>
+            <p className={styles.pp}>{JobBot21}</p>
+            <p className={styles.pp}>{JobBot5}</p>
+            <h2 className={styles.pHead}>{JobHead2}</h2>
+            <p className={styles.pp}>{JobBot3}</p>
+            <h2 className={styles.pHead}>{JobHead3}</h2>
+            <p className={styles.pp}>{JobBot4}</p>
+            <p className={styles.pp}>{JobBot51}</p>
+            <p className={styles.pp}>{JobBot6}</p>
+            <p className={styles.pp}>{JobBot11}</p>
+            <span className={styles.pp}>{JobBotB}</span>
+            <p className={styles.pp}>{JobBot12}</p>
+            <h2 className={styles.pHead}>{JobHead4}</h2>
+            <p className={styles.pp}>{JobBot13}</p>
+            <p className={styles.pp}>{JobBot14}</p>
+            <p className={styles.pp}>{JobBot15}</p>
+            <span className={styles.pp}>{JobBotC}</span>
+            <p className={styles.pp}>{JobBot16}</p>
+            <p className={styles.pp}>{JobBot17}</p>
+            <h2 className={styles.pHead}>{JobHead5}</h2>
+            <p className={styles.pp}>{JobBot18}</p>
+            <p className={styles.pp}>{JobBot19}</p>
+            <p className={styles.pp}>{JobBot20}</p>
+            <span className={styles.pp}>{JobBotD}</span>
+          </div>
         ) : (
           <>
             {cityTextCloudBangalore ? (
@@ -1974,122 +2020,391 @@ const CitiesRight = ({
               </div>
             ) : (
               <>
-                {DAnalyst ? (
-                  <>
-                    <div className={styles.CitiesRightInner}>
-                      <h3 className={styles.pHead}>{JobHead40}</h3>
-                      <p className={styles.pp}>{JobBot41}</p>
-                      <p className={styles.pp}>{JobBot42}</p>
-                      <p className={styles.pp}>{JobBot43}</p>
-                      <table style={tableStyle}>
-                        <thead>
-                          <tr style={headerRowStyle}>
-                            <th style={thStyle}>Job Roles</th>
-                            <th style={thStyle}>Experience Level</th>
-                            <th style={thStyle}>Annual Payscale (INR)</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td style={tdStyle}>Junior Data Analyst</td>
-                            <td style={tdStyle}>0 to 2 years</td>
-                            <td style={tdStyle}>3.5 to 6 Lakhs</td>
-                          </tr>
-                          <tr>
-                            <td style={tdStyle}>Data Analyst</td>
-                            <td style={tdStyle}>3 to 5 years</td>
-                            <td style={tdStyle}>6 to 10 Lakhs</td>
-                          </tr>
-                          <tr>
-                            <td style={tdStyle}>Senior Data Analyst</td>
-                            <td style={tdStyle}>5 to 9 years</td>
-                            <td style={tdStyle}>10 to 18 Lakhs</td>
-                          </tr>
-
-                          <tr>
-                            <td style={tdStyle}>Specialized Data Analyst</td>
-                            <td style={tdStyle}>More than 10 years</td>
-                            <td style={tdStyle}>18 to 30 Lakhs</td>
-                          </tr>
-                        </tbody>
-                      </table>
-
-                      <p className={styles.pp}>{JobBot4}</p>
-                      <p className={styles.pp}>{JobBot5}</p>
-                      <p className={styles.pp}>{JobBot6}</p>
-                      <p className={styles.pp}>{JobBot7}</p>
-                      <h2 className={styles.pHead}>{JobHead3}</h2>
-
-                      <p className={styles.pp}>{JobBot8}</p>
-                      <p className={styles.pp}>{JobBot9}</p>
-                      <p className={styles.pp}>{JobBot10}</p>
-
-                      <h3 className={styles.pHead}>{JobHead5}</h3>
-                      <p className={styles.pp}>{JobBot11}</p>
-                      <ul
-                        style={{
-                          display: "flex",
-                          flexDirection: "column",
-                          gap: "20px",
-                          marginBottom: "20px",
-                        }}
-                      >
-                        <li>{listJob1}</li>
-                        <li style={{ listStyle: "none" }}>{listJob2}</li>
-
-                        <li>{listJob3}</li>
-                      </ul>
-
-                      <ul
-                        style={{
-                          display: "flex",
-                          flexDirection: "column",
-                          gap: "20px",
-                          marginBottom: "20px",
-                        }}
-                      >
-                        <li style={{ listStyle: "none" }}>{listJob4}</li>
-                        <li style={{ listStyle: "none" }}>{listJob5}</li>
-                        <li style={{ listStyle: "none" }}>{listJob6}</li>
-                        <li style={{ listStyle: "none" }}>{listJob7}</li>
-                        <li style={{ listStyle: "none" }}>{listJob8}</li>
-                        <li style={{ listStyle: "none" }}>{listJob9}</li>
-                        <li style={{ listStyle: "none" }}>{listJob10}</li>
-                        <li style={{ listStyle: "none" }}>{listJob11}</li>
-                      </ul>
-
-                      <ul
-                        style={{
-                          display: "flex",
-                          flexDirection: "column",
-                          gap: "20px",
-                        }}
-                      >
-                        <li>{listJob12}</li>
-                        <li style={{ listStyle: "none" }}>{listJob13}</li>
-                        <li style={{ listStyle: "none" }}>{listJob14}</li>
-                        <li style={{ listStyle: "none" }}>{listJob15}</li>
-                        <li style={{ listStyle: "none" }}>{listJob16}</li>
-                        <li style={{ listStyle: "none" }}>{listJob17}</li>
-                      </ul>
-
-                      <ul style={{ display: "flex", flexDirection: "column" }}>
-                        <li>{listJob18}</li>
-                        <li style={{ listStyle: "none" }}>{listJob19}</li>
-
-                        <li style={{ listStyle: "none" }}>{listJob20}</li>
-                        <li style={{ listStyle: "none" }}>{listJob21}</li>
-                        <li style={{ listStyle: "none" }}>{listJob22}</li>
-                        <li style={{ listStyle: "none" }}>{listJob23}</li>
-                      </ul>
-
-                      <p className={styles.pp}>{JobBot19}</p>
-                      <p className={styles.pp}>{JobBot20}</p>
-                    </div>
-                  </>
+                {cityTextDevopsBangalore ? (
+                  <div className={styles.CitiesRightInner}>
+                    <h2 className={styles.pHead}>{JobHead1}</h2>
+                    <span className={styles.pp}>{JobBotA}</span>
+                    <h2 className={styles.pHead}>{JobHead2}</h2>
+                    <p className={styles.pp}>{JobBot3}</p>
+                    <p className={styles.pp}>{JobBot4}</p>
+                    <p className={styles.pp}>{JobBot12}</p>
+                    <h2 className={styles.pHead}>{JobHead4}</h2>
+                    <p className={styles.pp}>{JobBot13}</p>
+                    <span className={styles.pp}>{JobBotC}</span>
+                    <p className={styles.pp}>{JobBot16}</p>
+                  </div>
                 ) : (
                   <>
-                    {" "}
+                    {DAnalyst ? (
+                      <>
+                        <div className={styles.CitiesRightInner}>
+                          <h3 className={styles.pHead}>{JobHead40}</h3>
+                          <p className={styles.pp}>{JobBot41}</p>
+                          <p className={styles.pp}>{JobBot42}</p>
+                          <p className={styles.pp}>{JobBot43}</p>
+                          <table style={tableStyle}>
+                            <thead>
+                              <tr style={headerRowStyle}>
+                                <th style={thStyle}>Job Roles</th>
+                                <th style={thStyle}>Experience Level</th>
+                                <th style={thStyle}>Annual Payscale (INR)</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td style={tdStyle}>Junior Data Analyst</td>
+                                <td style={tdStyle}>0 to 2 years</td>
+                                <td style={tdStyle}>3.5 to 6 Lakhs</td>
+                              </tr>
+                              <tr>
+                                <td style={tdStyle}>Data Analyst</td>
+                                <td style={tdStyle}>3 to 5 years</td>
+                                <td style={tdStyle}>6 to 10 Lakhs</td>
+                              </tr>
+                              <tr>
+                                <td style={tdStyle}>Senior Data Analyst</td>
+                                <td style={tdStyle}>5 to 9 years</td>
+                                <td style={tdStyle}>10 to 18 Lakhs</td>
+                              </tr>
+
+                              <tr>
+                                <td style={tdStyle}>
+                                  Specialized Data Analyst
+                                </td>
+                                <td style={tdStyle}>More than 10 years</td>
+                                <td style={tdStyle}>18 to 30 Lakhs</td>
+                              </tr>
+                            </tbody>
+                          </table>
+
+                          <p className={styles.pp}>{JobBot4}</p>
+                          <p className={styles.pp}>{JobBot5}</p>
+                          <p className={styles.pp}>{JobBot6}</p>
+                          <p className={styles.pp}>{JobBot7}</p>
+                          <h2 className={styles.pHead}>{JobHead3}</h2>
+
+                          <p className={styles.pp}>{JobBot8}</p>
+                          <p className={styles.pp}>{JobBot9}</p>
+                          <p className={styles.pp}>{JobBot10}</p>
+
+                          <h3 className={styles.pHead}>{JobHead5}</h3>
+                          <p className={styles.pp}>{JobBot11}</p>
+                          <ul
+                            style={{
+                              display: "flex",
+                              flexDirection: "column",
+                              gap: "20px",
+                              marginBottom: "20px",
+                            }}
+                          >
+                            <li>{listJob1}</li>
+                            <li style={{ listStyle: "none" }}>{listJob2}</li>
+
+                            <li>{listJob3}</li>
+                          </ul>
+
+                          <ul
+                            style={{
+                              display: "flex",
+                              flexDirection: "column",
+                              gap: "20px",
+                              marginBottom: "20px",
+                            }}
+                          >
+                            <li style={{ listStyle: "none" }}>{listJob4}</li>
+                            <li style={{ listStyle: "none" }}>{listJob5}</li>
+                            <li style={{ listStyle: "none" }}>{listJob6}</li>
+                            <li style={{ listStyle: "none" }}>{listJob7}</li>
+                            <li style={{ listStyle: "none" }}>{listJob8}</li>
+                            <li style={{ listStyle: "none" }}>{listJob9}</li>
+                            <li style={{ listStyle: "none" }}>{listJob10}</li>
+                            <li style={{ listStyle: "none" }}>{listJob11}</li>
+                          </ul>
+
+                          <ul
+                            style={{
+                              display: "flex",
+                              flexDirection: "column",
+                              gap: "20px",
+                            }}
+                          >
+                            <li>{listJob12}</li>
+                            <li style={{ listStyle: "none" }}>{listJob13}</li>
+                            <li style={{ listStyle: "none" }}>{listJob14}</li>
+                            <li style={{ listStyle: "none" }}>{listJob15}</li>
+                            <li style={{ listStyle: "none" }}>{listJob16}</li>
+                            <li style={{ listStyle: "none" }}>{listJob17}</li>
+                          </ul>
+
+                          <ul
+                            style={{ display: "flex", flexDirection: "column" }}
+                          >
+                            <li>{listJob18}</li>
+                            <li style={{ listStyle: "none" }}>{listJob19}</li>
+
+                            <li style={{ listStyle: "none" }}>{listJob20}</li>
+                            <li style={{ listStyle: "none" }}>{listJob21}</li>
+                            <li style={{ listStyle: "none" }}>{listJob22}</li>
+                            <li style={{ listStyle: "none" }}>{listJob23}</li>
+                          </ul>
+
+                          <p className={styles.pp}>{JobBot19}</p>
+                          <p className={styles.pp}>{JobBot20}</p>
+                        </div>
+                      </>
+                    ) : (
+                      <>
+                        {" "}
+                        {bAnalystAbout ? (
+                          <div className={styles.CitiesRightInner}>
+                            <h3 className={styles.pHead}>{JobHead2}</h3>
+                            <p className={styles.pp}>{JobBot1}</p>
+                            <p className={styles.pp}>{JobBot2}</p>
+                            <table style={tableStyle}>
+                              <thead>
+                                <tr style={headerRowStyle}>
+                                  <th style={thStyle}>Job Roles</th>
+                                  <th style={thStyle}>Experience Level</th>
+                                  <th style={thStyle}>Annual Payscale (INR)</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td style={tdStyle}>
+                                    Junior Buisness Analyst
+                                  </td>
+                                  <td style={tdStyle}>Entry, Mid-senior</td>
+                                  <td style={tdStyle}>5 to 8 Lakhs</td>
+                                </tr>
+                                <tr>
+                                  <td style={tdStyle}>Business Analyst</td>
+                                  <td style={tdStyle}>Entry, Mid-senior</td>
+                                  <td style={tdStyle}>3 to 5 Lakhs</td>
+                                </tr>
+                                <tr>
+                                  <td style={tdStyle}>
+                                    Senior Buisness Analyst
+                                  </td>
+                                  <td style={tdStyle}>Mid-senior</td>
+                                  <td style={tdStyle}>8 to 15 lakhs</td>
+                                </tr>
+
+                                <tr>
+                                  <td style={tdStyle}>
+                                    Leading Business Analyst
+                                  </td>
+                                  <td style={tdStyle}>Senior</td>
+                                  <td style={tdStyle}>15 to 25 lakhs</td>
+                                </tr>
+                                <tr>
+                                  <td style={tdStyle}>Buisness Consultation</td>
+                                  <td style={tdStyle}>Senior</td>
+                                  <td style={tdStyle}>25 to 40 lakhs</td>
+                                </tr>
+                                <tr>
+                                  <td style={tdStyle}>
+                                    Director of Business Analysis
+                                  </td>
+                                  <td style={tdStyle}>
+                                    Managerial level (senior)
+                                  </td>
+                                  <td style={tdStyle}>More than 40 lakhs</td>
+                                </tr>
+                              </tbody>
+                            </table>
+
+                            <p className={styles.pp}>{JobBot3}</p>
+                            <p className={styles.pp}>{JobBot4}</p>
+                            <p className={styles.pp}>{JobBot5}</p>
+                            <p className={styles.pp}>{JobBot6}</p>
+                            <p className={styles.pp}>{JobBot7}</p>
+                            <h2 className={styles.pHead}>{JobHead3}</h2>
+
+                            <p className={styles.pp}>{JobBot8}</p>
+                            <ul
+                              style={{
+                                display: "flex",
+                                flexDirection: "column",
+                                gap: "20px",
+                                marginBottom: "20px",
+                              }}
+                            >
+                              <li>{listJob1}</li>
+                              <li style={{ listStyle: "none" }}>{listJob2}</li>
+                              <li style={{ listStyle: "none" }}>{listJob3}</li>
+                            </ul>
+
+                            <ul
+                              style={{
+                                display: "flex",
+                                flexDirection: "column",
+                                gap: "20px",
+                                marginBottom: "20px",
+                              }}
+                            >
+                              <li>{listJob4}</li>
+                              <li style={{ listStyle: "none" }}>{listJob5}</li>
+                              <li style={{ listStyle: "none" }}>{listJob6}</li>
+                            </ul>
+                            <ul
+                              style={{
+                                display: "flex",
+                                flexDirection: "column",
+                                gap: "20px",
+                              }}
+                            >
+                              <li>{listJob7}</li>
+                              <li style={{ listStyle: "none" }}>{listJob8}</li>
+                              <li>{listJob9}</li>
+                              <li style={{ listStyle: "none" }}>{listJob10}</li>
+                              <li>{listJob11}</li>
+                              <li style={{ listStyle: "none" }}>{listJob12}</li>
+                              <li>{listJob13}</li>
+                              <li style={{ listStyle: "none" }}>{listJob14}</li>
+                              <li style={{ listStyle: "none" }}>{listJob15}</li>
+                            </ul>
+
+                            <p className={styles.pp}>{JobBot9}</p>
+                            <h3 className={styles.pHead}>{JobHead4}</h3>
+                            <ul
+                              style={{
+                                display: "flex",
+                                flexDirection: "column",
+                                gap: "20px",
+                              }}
+                            >
+                              <li>{listJob16}</li>
+                              <li>{listJob17}</li>
+                              <li>{listJob18}</li>
+                              <li>{listJob19}</li>
+                              <li>{listJob20}</li>
+                              <li>{listJob21}</li>
+                            </ul>
+                            <h3 className={styles.pHead}>{JobHead5}</h3>
+                            <i>
+                              <p className={styles.pp}>{JobBot10}</p>
+                            </i>
+                            <i>
+                              <p className={styles.pp}>{JobBot11}</p>
+                            </i>
+                            <i>
+                              <p className={styles.pp}>{JobBot12}</p>
+                            </i>
+                            <i>
+                              <p className={styles.pp}>{JobBot13}</p>
+                            </i>
+
+                            <i>
+                              <p className={styles.pp}>{JobBot14}</p>
+                            </i>
+                            <i>
+                              <p className={styles.pp}>{JobBot15}</p>
+                            </i>
+                            <h3 className={styles.pHead}>{JobHead6}</h3>
+                            <p className={styles.pp}>{JobBot16}</p>
+                            <p className={styles.pp}>{JobBot17}</p>
+                            <ul
+                              style={{
+                                display: "flex",
+                                flexDirection: "column",
+                                gap: "20px",
+                              }}
+                            >
+                              <li>{listJob22}</li>
+                              <li style={{ listStyle: "none" }}>{listJob23}</li>
+                              <li>{listJob24}</li>
+                              <li style={{ listStyle: "none" }}>{listJob25}</li>
+                              <li style={{ listStyle: "none" }}>{listJob26}</li>
+                              <li>{listJob27}</li>
+                              <li style={{ listStyle: "none" }}>{listJob28}</li>
+                              <li style={{ listStyle: "none" }}>{listJob29}</li>
+                              <li>{listJob30}</li>
+
+                              <li style={{ listStyle: "none" }}>{listJob31}</li>
+                              <li>{listJob32}</li>
+                              <li style={{ listStyle: "none" }}>{listJob33}</li>
+                              <li>{listJob34}</li>
+                              <li style={{ listStyle: "none" }}>{listJob35}</li>
+                              <li style={{ listStyle: "none" }}>{listJob36}</li>
+                            </ul>
+                            <h3 className={styles.pHead}>{JobHead7}</h3>
+                            <p className={styles.pp}>{JobBot18}</p>
+                            <ul
+                              style={{
+                                listStyleType: "decimal",
+                                display: "flex",
+                                flexDirection: "column",
+                                gap: "20px",
+                              }}
+                            >
+                              <li>{listJob37}</li>
+                              <li>{listJob38}</li>
+                              <li>{listJob39}</li>
+                              <li>{listJob40}</li>
+                              <li>{listJob41}</li>
+                              <li>{listJob42}</li>
+                              <li>{listJob43}</li>
+                              <li>{listJob44}</li>
+                              <li>{listJob45}</li>
+                              <li>{listJob46}</li>
+                            </ul>
+                            <p className={styles.pp}>{JobBot19}</p>
+                          </div>
+                        ) : (
+                          <>
+                            {cityTextJDAPune ? (
+                              <div className={styles.CitiesRightInner}>
+                                <h2 className={styles.pHead}>{JobHead1}</h2>
+                                <p className={styles.pp}>{JobBot1}</p>
+                                <p className={styles.pp}>{JobBot2}</p>
+                                <h2 className={styles.pHead}>{JobHead2}</h2>
+                                <p className={styles.pp}>{JobBot3}</p>
+
+                                <p className={styles.pp}>{JobBot4}</p>
+
+                                <h2 className={styles.pHead}>{JobHead4}</h2>
+
+                                <p className={styles.pp}>{JobBot8}</p>
+                                <p className={styles.pp}>{JobBot9}</p>
+                                <p className={styles.pp}>{JobBot10}</p>
+                                <p className={styles.pp}>{JobBot11}</p>
+                              </div>
+                            ) : (
+                              <div className={styles.CitiesRightInner}>
+                                <h2 className={styles.pHead}>{JobHead1}</h2>
+                                <p className={styles.pp}>{JobBot1}</p>
+                                <span className={styles.pp}>{JobBotA}</span>
+                                <p className={styles.pp}>{JobBot2}</p>
+                                <p className={styles.pp}>{JobBot21}</p>
+                                <p className={styles.pp}>{JobBot5}</p>
+                                <h2 className={styles.pHead}>{JobHead2}</h2>
+                                <p className={styles.pp}>{JobBot3}</p>
+                                <h2 className={styles.pHead}>{JobHead3}</h2>
+                                <p className={styles.pp}>{JobBot4}</p>
+                                <p className={styles.pp}>{JobBot51}</p>
+                                <p className={styles.pp}>{JobBot6}</p>
+                                <p className={styles.pp}>{JobBot11}</p>
+                                <span className={styles.pp}>{JobBotB}</span>
+                                <p className={styles.pp}>{JobBot12}</p>
+                                <h2 className={styles.pHead}>{JobHead4}</h2>
+                                <p className={styles.pp}>{JobBot13}</p>
+                                <p className={styles.pp}>{JobBot14}</p>
+                                <p className={styles.pp}>{JobBot15}</p>
+                                <span className={styles.pp}>{JobBotC}</span>
+                                <p className={styles.pp}>{JobBot16}</p>
+                                <p className={styles.pp}>{JobBot17}</p>
+                                <h2 className={styles.pHead}>{JobHead5}</h2>
+                                <p className={styles.pp}>{JobBot18}</p>
+                                <p className={styles.pp}>{JobBot19}</p>
+                                <p className={styles.pp}>{JobBot20}</p>
+                                <span className={styles.pp}>{JobBotD}</span>
+                              </div>
+                            )}
+                          </>
+                        )}
+                      </>
+                    )}
+
                     {bAnalystAbout ? (
                       <div className={styles.CitiesRightInner}>
                         <h3 className={styles.pHead}>{JobHead2}</h3>
@@ -2140,14 +2455,14 @@ const CitiesRight = ({
                           </tbody>
                         </table>
 
-                        <p className={styles.pp}>{JobBot3}</p>
-                        <p className={styles.pp}>{JobBot4}</p>
-                        <p className={styles.pp}>{JobBot5}</p>
-                        <p className={styles.pp}>{JobBot6}</p>
-                        <p className={styles.pp}>{JobBot7}</p>
+                        <p className={styles.pp}>{JobBot43}</p>
+                        <p className={styles.pp}>{JobBot44}</p>
+                        <p className={styles.pp}>{JobBot45}</p>
+                        <p className={styles.pp}>{JobBot46}</p>
+                        <p className={styles.pp}>{JobBot47}</p>
                         <h2 className={styles.pHead}>{JobHead3}</h2>
 
-                        <p className={styles.pp}>{JobBot8}</p>
+                        <p className={styles.pp}>{JobBot48}</p>
                         <ul
                           style={{
                             display: "flex",
@@ -2209,10 +2524,10 @@ const CitiesRight = ({
                         </ul>
                         <h3 className={styles.pHead}>{JobHead5}</h3>
                         <i>
-                          <p className={styles.pp}>{JobBot10}</p>
+                          <p className={styles.pp}>{JobBot49}</p>
                         </i>
                         <i>
-                          <p className={styles.pp}>{JobBot11}</p>
+                          <p className={styles.pp}>{JobBot50}</p>
                         </i>
                         <i>
                           <p className={styles.pp}>{JobBot12}</p>
@@ -2300,309 +2615,71 @@ const CitiesRight = ({
                           <div className={styles.CitiesRightInner}>
                             <h2 className={styles.pHead}>{JobHead1}</h2>
                             <p className={styles.pp}>{JobBot1}</p>
-                            <span className={styles.pp}>{JobBotA}</span>
                             <p className={styles.pp}>{JobBot2}</p>
-                            <p className={styles.pp}>{JobBot21}</p>
                             <p className={styles.pp}>{JobBot5}</p>
                             <h2 className={styles.pHead}>{JobHead2}</h2>
                             <p className={styles.pp}>{JobBot3}</p>
                             <h2 className={styles.pHead}>{JobHead3}</h2>
                             <p className={styles.pp}>{JobBot4}</p>
-                            <p className={styles.pp}>{JobBot51}</p>
                             <p className={styles.pp}>{JobBot6}</p>
                             <p className={styles.pp}>{JobBot11}</p>
-                            <span className={styles.pp}>{JobBotB}</span>
                             <p className={styles.pp}>{JobBot12}</p>
-                            <h2 className={styles.pHead}>{JobHead4}</h2>
                             <p className={styles.pp}>{JobBot13}</p>
                             <p className={styles.pp}>{JobBot14}</p>
-                            <p className={styles.pp}>{JobBot15}</p>
-                            <span className={styles.pp}>{JobBotC}</span>
-                            <p className={styles.pp}>{JobBot16}</p>
-                            <p className={styles.pp}>{JobBot17}</p>
-                            <h2 className={styles.pHead}>{JobHead5}</h2>
-                            <p className={styles.pp}>{JobBot18}</p>
-                            <p className={styles.pp}>{JobBot19}</p>
-                            <p className={styles.pp}>{JobBot20}</p>
-                            <span className={styles.pp}>{JobBotD}</span>
-                          </div>
-                        )}
-                      </>
-                    )}
-                  </>
-                )}
 
-                {bAnalystAbout ? (
-                  <div className={styles.CitiesRightInner}>
-                    <h3 className={styles.pHead}>{JobHead2}</h3>
-                    <p className={styles.pp}>{JobBot1}</p>
-                    <p className={styles.pp}>{JobBot2}</p>
-                    <table style={tableStyle}>
-                      <thead>
-                        <tr style={headerRowStyle}>
-                          <th style={thStyle}>Job Roles</th>
-                          <th style={thStyle}>Experience Level</th>
-                          <th style={thStyle}>Annual Payscale (INR)</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td style={tdStyle}>Junior Buisness Analyst</td>
-                          <td style={tdStyle}>Entry, Mid-senior</td>
-                          <td style={tdStyle}>5 to 8 Lakhs</td>
-                        </tr>
-                        <tr>
-                          <td style={tdStyle}>Business Analyst</td>
-                          <td style={tdStyle}>Entry, Mid-senior</td>
-                          <td style={tdStyle}>3 to 5 Lakhs</td>
-                        </tr>
-                        <tr>
-                          <td style={tdStyle}>Senior Buisness Analyst</td>
-                          <td style={tdStyle}>Mid-senior</td>
-                          <td style={tdStyle}>8 to 15 lakhs</td>
-                        </tr>
+                            {DAnalyst ? (
+                              <>
+                                <h3 className={styles.pHead}>{JobHead4}</h3>
+                                <ul
+                                  style={{
+                                    listStyleType: "decimal",
+                                    display: "flex",
+                                    flexDirection: "column",
+                                    gap: "20px",
+                                  }}
+                                >
+                                  <li>{JobList1}</li>
+                                  <li>{JobList2}</li>
+                                  <li>{JobList3}</li>
+                                  <li>{JobList4}</li>
+                                  <li>{JobList5}</li>
+                                </ul>
 
-                        <tr>
-                          <td style={tdStyle}>Leading Business Analyst</td>
-                          <td style={tdStyle}>Senior</td>
-                          <td style={tdStyle}>15 to 25 lakhs</td>
-                        </tr>
-                        <tr>
-                          <td style={tdStyle}>Buisness Consultation</td>
-                          <td style={tdStyle}>Senior</td>
-                          <td style={tdStyle}>25 to 40 lakhs</td>
-                        </tr>
-                        <tr>
-                          <td style={tdStyle}>Director of Business Analysis</td>
-                          <td style={tdStyle}>Managerial level (senior)</td>
-                          <td style={tdStyle}>More than 40 lakhs</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                                <ul
+                                  style={{
+                                    listStyleType: "decimal",
+                                    display: "flex",
+                                    flexDirection: "column",
+                                    gap: "20px",
+                                  }}
+                                >
+                                  <h3 className={styles.pHead}>{JobHead6}</h3>
+                                  <li>{JobList6}</li>
+                                  <li>{JobList7}</li>
+                                  <li>{JobList8}</li>
+                                  <li>{JobList9}</li>
+                                  <li>{JobList10}</li>
+                                </ul>
 
-                    <p className={styles.pp}>{JobBot43}</p>
-                    <p className={styles.pp}>{JobBot44}</p>
-                    <p className={styles.pp}>{JobBot45}</p>
-                    <p className={styles.pp}>{JobBot46}</p>
-                    <p className={styles.pp}>{JobBot47}</p>
-                    <h2 className={styles.pHead}>{JobHead3}</h2>
+                                <h2 className={styles.pHead}>{JobHead7}</h2>
+                                <p className={styles.pp}>{JobBot21}</p>
+                                <p className={styles.pp}>{JobBot22}</p>
+                                <p className={styles.pp}>{JobBot23}</p>
 
-                    <p className={styles.pp}>{JobBot48}</p>
-                    <ul
-                      style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        gap: "20px",
-                        marginBottom: "20px",
-                      }}
-                    >
-                      <li>{listJob1}</li>
-                      <li style={{ listStyle: "none" }}>{listJob2}</li>
-                      <li style={{ listStyle: "none" }}>{listJob3}</li>
-                    </ul>
-
-                    <ul
-                      style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        gap: "20px",
-                        marginBottom: "20px",
-                      }}
-                    >
-                      <li>{listJob4}</li>
-                      <li style={{ listStyle: "none" }}>{listJob5}</li>
-                      <li style={{ listStyle: "none" }}>{listJob6}</li>
-                    </ul>
-                    <ul
-                      style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        gap: "20px",
-                      }}
-                    >
-                      <li>{listJob7}</li>
-                      <li style={{ listStyle: "none" }}>{listJob8}</li>
-                      <li>{listJob9}</li>
-                      <li style={{ listStyle: "none" }}>{listJob10}</li>
-                      <li>{listJob11}</li>
-                      <li style={{ listStyle: "none" }}>{listJob12}</li>
-                      <li>{listJob13}</li>
-                      <li style={{ listStyle: "none" }}>{listJob14}</li>
-                      <li style={{ listStyle: "none" }}>{listJob15}</li>
-                    </ul>
-
-                    <p className={styles.pp}>{JobBot9}</p>
-                    <h3 className={styles.pHead}>{JobHead4}</h3>
-                    <ul
-                      style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        gap: "20px",
-                      }}
-                    >
-                      <li>{listJob16}</li>
-                      <li>{listJob17}</li>
-                      <li>{listJob18}</li>
-                      <li>{listJob19}</li>
-                      <li>{listJob20}</li>
-                      <li>{listJob21}</li>
-                    </ul>
-                    <h3 className={styles.pHead}>{JobHead5}</h3>
-                    <i>
-                      <p className={styles.pp}>{JobBot49}</p>
-                    </i>
-                    <i>
-                      <p className={styles.pp}>{JobBot50}</p>
-                    </i>
-                    <i>
-                      <p className={styles.pp}>{JobBot12}</p>
-                    </i>
-                    <i>
-                      <p className={styles.pp}>{JobBot13}</p>
-                    </i>
-
-                    <i>
-                      <p className={styles.pp}>{JobBot14}</p>
-                    </i>
-                    <i>
-                      <p className={styles.pp}>{JobBot15}</p>
-                    </i>
-                    <h3 className={styles.pHead}>{JobHead6}</h3>
-                    <p className={styles.pp}>{JobBot16}</p>
-                    <p className={styles.pp}>{JobBot17}</p>
-                    <ul
-                      style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        gap: "20px",
-                      }}
-                    >
-                      <li>{listJob22}</li>
-                      <li style={{ listStyle: "none" }}>{listJob23}</li>
-                      <li>{listJob24}</li>
-                      <li style={{ listStyle: "none" }}>{listJob25}</li>
-                      <li style={{ listStyle: "none" }}>{listJob26}</li>
-                      <li>{listJob27}</li>
-                      <li style={{ listStyle: "none" }}>{listJob28}</li>
-                      <li style={{ listStyle: "none" }}>{listJob29}</li>
-                      <li>{listJob30}</li>
-
-                      <li style={{ listStyle: "none" }}>{listJob31}</li>
-                      <li>{listJob32}</li>
-                      <li style={{ listStyle: "none" }}>{listJob33}</li>
-                      <li>{listJob34}</li>
-                      <li style={{ listStyle: "none" }}>{listJob35}</li>
-                      <li style={{ listStyle: "none" }}>{listJob36}</li>
-                    </ul>
-                    <h3 className={styles.pHead}>{JobHead7}</h3>
-                    <p className={styles.pp}>{JobBot18}</p>
-                    <ul
-                      style={{
-                        listStyleType: "decimal",
-                        display: "flex",
-                        flexDirection: "column",
-                        gap: "20px",
-                      }}
-                    >
-                      <li>{listJob37}</li>
-                      <li>{listJob38}</li>
-                      <li>{listJob39}</li>
-                      <li>{listJob40}</li>
-                      <li>{listJob41}</li>
-                      <li>{listJob42}</li>
-                      <li>{listJob43}</li>
-                      <li>{listJob44}</li>
-                      <li>{listJob45}</li>
-                      <li>{listJob46}</li>
-                    </ul>
-                    <p className={styles.pp}>{JobBot19}</p>
-                  </div>
-                ) : (
-                  <>
-                    {cityTextJDAPune ? (
-                      <div className={styles.CitiesRightInner}>
-                        <h2 className={styles.pHead}>{JobHead1}</h2>
-                        <p className={styles.pp}>{JobBot1}</p>
-                        <p className={styles.pp}>{JobBot2}</p>
-                        <h2 className={styles.pHead}>{JobHead2}</h2>
-                        <p className={styles.pp}>{JobBot3}</p>
-
-                        <p className={styles.pp}>{JobBot4}</p>
-
-                        <h2 className={styles.pHead}>{JobHead4}</h2>
-
-                        <p className={styles.pp}>{JobBot8}</p>
-                        <p className={styles.pp}>{JobBot9}</p>
-                        <p className={styles.pp}>{JobBot10}</p>
-                        <p className={styles.pp}>{JobBot11}</p>
-                      </div>
-                    ) : (
-                      <div className={styles.CitiesRightInner}>
-                        <h2 className={styles.pHead}>{JobHead1}</h2>
-                        <p className={styles.pp}>{JobBot1}</p>
-                        <p className={styles.pp}>{JobBot2}</p>
-                        <p className={styles.pp}>{JobBot5}</p>
-                        <h2 className={styles.pHead}>{JobHead2}</h2>
-                        <p className={styles.pp}>{JobBot3}</p>
-                        <h2 className={styles.pHead}>{JobHead3}</h2>
-                        <p className={styles.pp}>{JobBot4}</p>
-                        <p className={styles.pp}>{JobBot6}</p>
-                        <p className={styles.pp}>{JobBot11}</p>
-                        <p className={styles.pp}>{JobBot12}</p>
-                        <p className={styles.pp}>{JobBot13}</p>
-                        <p className={styles.pp}>{JobBot14}</p>
-
-                        {DAnalyst ? (
-                          <>
-                            <h3 className={styles.pHead}>{JobHead4}</h3>
-                            <ul
-                              style={{
-                                listStyleType: "decimal",
-                                display: "flex",
-                                flexDirection: "column",
-                                gap: "20px",
-                              }}
-                            >
-                              <li>{JobList1}</li>
-                              <li>{JobList2}</li>
-                              <li>{JobList3}</li>
-                              <li>{JobList4}</li>
-                              <li>{JobList5}</li>
-                            </ul>
-
-                            <ul
-                              style={{
-                                listStyleType: "decimal",
-                                display: "flex",
-                                flexDirection: "column",
-                                gap: "20px",
-                              }}
-                            >
-                              <h3 className={styles.pHead}>{JobHead6}</h3>
-                              <li>{JobList6}</li>
-                              <li>{JobList7}</li>
-                              <li>{JobList8}</li>
-                              <li>{JobList9}</li>
-                              <li>{JobList10}</li>
-                            </ul>
-
-                            <h2 className={styles.pHead}>{JobHead7}</h2>
-                            <p className={styles.pp}>{JobBot21}</p>
-                            <p className={styles.pp}>{JobBot22}</p>
-                            <p className={styles.pp}>{JobBot23}</p>
-
-                            <ul>
-                              <li>{JobList11}</li>
-                              {/* <li>{JobList12}</li>
+                                <ul>
+                                  <li>{JobList11}</li>
+                                  {/* <li>{JobList12}</li>
                       <li>{JobList13}</li>
                       <li>{JobList14}</li>
                       <li>{JobList15}</li> */}
-                            </ul>
-                          </>
-                        ) : (
-                          ""
+                                </ul>
+                              </>
+                            ) : (
+                              ""
+                            )}
+                          </div>
                         )}
-                      </div>
+                      </>
                     )}
                   </>
                 )}

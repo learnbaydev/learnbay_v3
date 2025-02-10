@@ -1125,19 +1125,19 @@ export const FSSPDataScienceCourseData = [
           {
             id: 2,
             ques: "What are the modes of learning I can choose from?",
-            ans: `Learnbay believes in a flexible and open learning environment. Thus, working professionals willing to upskill themselves get the advantage of a hybrid learning mode. DSA course program comes on weekdays (8 PM – 10 PM; Mon-Wed-Fri) and weekends (8.30 AM – 12 PM; Sat-Sun). Concerning the working schedules, learners can fix their sessions with the mentors. Learnbay offers both classrooms and virtual learning sessions. Yet, with hybrid learning, learners get the scope of working on live projects across offline experience centers. Note: The course timing keeps changing based on the new batch launch. Confirm the latest availability from your dedicated support executive. `,
+            ans: `Learnbay believes in a flexible and open learning environment. Thus, working professionals willing to upskill themselves get the advantage of a hybrid learning mode. Advanced DSA course comes on weekdays (8 PM – 10 PM; Mon-Wed-Fri) and weekends (8.30 AM – 12 PM; Sat-Sun). Concerning the working schedules, learners can fix their sessions with the mentors. Learnbay offers both classrooms and virtual learning sessions. Yet, with hybrid learning, learners get the scope of working on live projects across offline experience centers. `,
             open: false,
           },
           {
             id: 3,
             ques: "Are the data structures and algorithms programs suitable for non-IT professionals?",
-            ans: "While a programming or CS background can be helpful, it's not always essential. We have our courses start from the basics and advance tackling the complexities. So, non-IT professionals can take the online data structures and algorithms course. Only they need an ample level of self-motivation. The course is structured to help learners with non-IT backgrounds easily understand the modules with the help of experienced mentors, 24/7 support, and one-on-one doubt sessions.",
+            ans: "Knowing programming languages or a CS background can be helpful, but it's not always essential. Our courses start with the basics and tackle the complexities in advance. So, non-IT professionals can take the online data structures and algorithms course. Only they need an ample level of self-motivation. The online course is structured to help learners with non-IT backgrounds easily understand the modules with the help of experienced mentors, 24/7 support, and one-on-one doubt sessions.",
             open: false,
           },
           {
             id: 4,
-            ques: "Is DSA hard to learn?",
-            ans: "It may be hard to study data structure and algorithms without proper guidance. But the appropriate guidance makes it super easy. Yet, with our expert mentors and great learning assistance, we ensure learners get the best type of education to understand every DSA concept.",
+            ques: "Is it hard to learn Data structures and algorithms? ",
+            ans: "It may be hard to learn data structure and algorithms without proper guidance. But the appropriate guidance makes it super easy. Yet, with our expert mentors and great learning assistance, we ensure learners get the best type of education to understand every DSA concept.",
             open: false,
           },
           {
@@ -1203,14 +1203,14 @@ export const FSSPDataScienceCourseData = [
           {
             id: 0,
             ques: "What is the course fee for the Data Structures Algorithms and System Design Program?",
-            ans: "The Data Structures Algorithms and System Design Program cost INR 82,600 (inclusive of taxes). The working professionals willing to enroll in the course can visit the Learnbay website or schedule a call with our counselor for more details. To know more about the course, contact us at +91 7795687988.",
+            ans: "The Data Structures Algorithms and System Design Program cost INR 82,000 (inclusive of taxes). The working professionals willing to enroll in the course can visit the Learnbay website or schedule a call with our counselor for more details. You can get in touch with us at +91 7795687988. ",
             open: true,
           },
 
           {
             id: 2,
             ques: "What are the financing options available for the course?",
-            ans: "Learnbay supports quality learning and career empowerment. Thus, it curates affordable course programs for learners with flexible financing options. Concerning the DSA course fees, a learner has to pay just INR 4,588 per month under the EMI plan through cards, net banking, & UPI. Also, you can avail of easy loan procedures and flexible payment terms. In case you do not like the training sessions during DEMO or initial classes, you can cancel the program and claim the fees under the 10-day refund policy.",
+            ans: "Learnbay supports quality learning and career empowerment. Thus, it curates affordable course programs for learners with flexible financing options. Concerning the DSA course fees, a learner has to pay just INR 6,883 per month under the EMI plan through cards, net banking, & UPI. Also, you can avail of easy loan procedures and flexible payment terms. In case you do not like the training sessions during DEMO or initial classes, you can cancel the program and claim the fees under the 15-day refund policy. ",
             open: false,
           },
           {
@@ -1233,7 +1233,7 @@ export const FSSPDataScienceCourseData = [
           {
             id: 0,
             ques: "How many projects are available on the course?",
-            ans: "During the course sessions, learners will get 12+ live projects in several domains like product management, blockchain, cloud & DevOps, & MERN Stack. After the completion of the course, you will work on two capstone projects to become eligible for globally recognized certifications from IBM. Apart from these, learners may need to work on multiple case studies, assignments, and tasks.",
+            ans: "During the course sessions, learners will get 12+ live projects in several domains like product management, blockchain, cloud & DevOps, & MERN Stack. After the completion of the course, you will work on two capstone projects to become eligible for globally recognized certifications from IBM. Apart from these, learners may need to work on multiple case studies, assignments, and tasks. Capstone projects will help learners gain skills that help in solving complex problems and provide a better understanding of data structures. ",
 
             open: false,
           },
@@ -1252,7 +1252,7 @@ export const FSSPDataScienceCourseData = [
           {
             id: 0,
             ques: "Is certification essential for career transformation with the DSA program?",
-            ans: "Certification is necessary to prove your skills and expertise with the latest DSA tools and techniques. Learnbay offers a globally recognized certification for the course in association with IBM & Microsoft that adds more value to your resume. It is a badge to showcase your proven skills and crack job offers from the leading MNCs. A good certification enhances your demand in the industry, and this recognition helps you get better placement assistance with lucrative hikes.",
+            ans: "Certification is necessary to prove your skills and expertise with the latest DSA tools and techniques. Learnbay offers a globally recognized certification for the course in association with IBM & Microsoft that adds more value to your resume. It is a badge to showcase your proven skills and crack job offers from the leading MNCs. A good certification enhances your demand in the industry, and this recognition helps you get better placement assistance with lucrative hikes. Also, it provides you with a good stance while attending a technical interview. ",
             open: true,
           },
           {
@@ -1287,7 +1287,7 @@ export const FSSPDataScienceCourseData = [
             list1:
               "Three years of job placement assistance with unlimited access to interviews and learning portals",
             list2: "Six mock interviews with industry partners",
-            list3: "Powerful resume design to ace interviews",
+            list3: "Powerful resume design to ace coding interview",
             list4: "1:1 review session",
             list5: "Unlimited interview calls",
             list6:
@@ -1316,7 +1316,7 @@ export const FSSPDataScienceCourseData = [
           {
             id: 4,
             ques: "Will I get job referrals at Learnbay?",
-            ans: "After successful completion of course training sessions, live projects, and other assessments provided, a learner becomes eligible to attend job interviews with our partnered industries. Here, Learnbay offers job referrals for your desired roles to its industry partners, consultancies, and companies.",
+            ans: "After successful completion of course training sessions, live projects, and other assessments, a learner becomes eligible to attend job interviews with our hiring partners. Here, Learnbay offers job referrals for your desired roles to its industry partners, consultancies, and companies. ",
             open: false,
           },
         ],
@@ -1359,7 +1359,7 @@ export const FSSPDataScienceCourseData = [
           {
             id: 5,
             ques: "Can learners choose to study from their desired mentor at Learnbay?",
-            ans: "Every batch has its respective mentor, but if a learner is not satisfied with their mentor's teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+            ans: "Every batch of DSA Courses has its respective mentor. Still, if a learner is not satisfied with their mentor's teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
             open: false,
           },
         ],

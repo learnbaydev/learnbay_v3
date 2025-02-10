@@ -34,11 +34,11 @@ const YoutubeEmbed = ({ embedId }) => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
           title="Embedded youtube"
-          loading="lazy" // Hinting to the browser to lazy load the iframe
+          loading="lazy" 
         />
       ) : (
         <div className={styles.placeholder}>
-          {/* Optionally add some content or a visual indicator here */}
+
         </div>
       )}
     </div>

@@ -50,20 +50,21 @@ function ContactUs() {
             <a href="mailto:contacts@learnbay.co" target="_blank">
               <p>Email :- contacts@learnbay.co</p>
             </a>
-            <a href="tel:+917795687988" target="_blank">
+            <a href="tel:+917349222263" target="_blank">
               <p>Phone :- (+91) 77956 87988</p>
             </a>
           </div>
           <div className={styles.InnerBox}>
-            <a href="https://wa.me/+917795687988" target="_blank">
+            <a href="https://wa.me/+917349222263" target="_blank">
               <FaWhatsapp className={styles.tick} />
             </a>
             <h3>Whatsapp</h3>
-            <a href="https://wa.me/+917795687988" target="_blank">
+            <a href="https://wa.me/+917349222263" target="_blank">
               <Button
+              title="whatsapp"
                 className={styles.btn}
                 style={{ marginTop: "25px" }}
-                text="(+91) 77956 87988"
+                text="(+91) 7349222263"
               />
             </a>
           </div>

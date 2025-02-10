@@ -5,6 +5,9 @@ import styles from "./pSummary.module.css";
 const PSummaryAD = ({
   summaryData,
   customClassName = "", // New prop for dynamic class
+  extraImageSrcWidth,
+  extraImageSrcHeight
+
 }) => {
   const [activeDot, setActiveDot] = useState(0); // Track the active dot
   const contentContainerRef = useRef(null); // Ref for content container
@@ -93,8 +96,8 @@ const PSummaryAD = ({
               {item.extraImageSrc && (
                 <Image
                   src={item.extraImageSrc}
-                  width={180}
-                  height={40}
+                  width={item.extraImageSrcWidth}
+                  height={item.extraImageSrcHeight}
                   loading="lazy"
                   alt={item.extraImageAlt}
                   className={styles.ibmLogo}

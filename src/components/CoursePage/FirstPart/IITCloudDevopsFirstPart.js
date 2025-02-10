@@ -87,6 +87,9 @@ const IITCloudDevopsFirstPart = ({ summaryData, whyChooseData }) => {
         backgroundImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cloud-iit.webp"
         highlightedWords={["GenAI", "Developer"]}
         devopsIIt={true}
+        compLogo="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp"
+        logoWidth={180}
+logoHeight={50}
       />
 
       {/* <MasterSecondSection data={seconddata} /> */}

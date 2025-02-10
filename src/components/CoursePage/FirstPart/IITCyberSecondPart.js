@@ -44,7 +44,7 @@ const IITCyberSecondPart = ({
         interstedInHide={true}
       />
 
-<Certificate data={CertificateData}  cyber={true}/>
+<Certificate data={CertificateData}  cyber={true} ECCou={true}/>
 
       <DSAFeeSection
          Fee="₹1,10,000"

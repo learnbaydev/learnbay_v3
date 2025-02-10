@@ -46,10 +46,10 @@ function refund() {
           1. A user isn't eligible for a refund after the initial trial period
           of 10 days unless they reached out to Learnbay before
         </p>
-        <p className={styles.bot}>
+        {/* <p className={styles.bot}>
           <b>Note: </b>The Master Program is excluded from this please refer to
           the Terms & Conditions specified for the Master Program.
-        </p>
+        </p> */}
         <p className={styles.bot}>
           2. In case, the user opted for a student loan via Learnbay, and the
           same is already approved (when applying for a refund) approved

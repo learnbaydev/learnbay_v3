@@ -347,6 +347,20 @@ line-height: 155%; /* 34.1px */
   line-height: 155%;
 }
 
+.tagGen{
+  display: flex;
+  gap: 10px;
+}
+
+.tagNew{
+
+  border-radius: 28px;
+background: linear-gradient(90deg, #FE7A36 0%, #F94F4F 100%);
+padding:2px 16px;
+color: #FFF;
+font-size: 12px;
+font-weight: 600;
+}
 .box {
   display: flex;
   flex-direction: column;
@@ -748,6 +762,11 @@ font-size: 16px;
 ;
       justify-content: center;
       margin: auto;
+  }
+  .tagGen{
+    display: flex;
+    gap: 2px;
+    margin-right: 10px;
   }
 
 

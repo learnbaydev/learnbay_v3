@@ -1471,6 +1471,40 @@ const nextConfig = {
           "https://blog.learnbay.co/regression-techniques-in-machine-learning",
         permanent: true,
       },
+
+      {
+        source: "/cyber-security/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee",
+        destination:
+          "/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee",
+        permanent: true,
+      },
+      {
+        source: "/datascience/generative-ai-course-for-manager",
+        destination:
+          "/artificial-intelligence/generative-ai-course-for-data-science-professionals",
+        permanent: true,
+      },
+      {
+        source: "/datascience/generative-ai-course-for-managers",
+        destination:
+          "/artificial-intelligence/generative-ai-course-for-data-science-professionals",
+        permanent: true,
+      },
+      {
+        source: "/fullstack/generative-ai-course-for-professional",
+        destination:
+          "/artificial-intelligence/generative-ai-course-for-fullstack-professionals",
+        permanent: true,
+      },
+
+      {
+        source: "/fullstack/generative-ai-course-for-professionals",
+        destination:
+          "/artificial-intelligence/generative-ai-course-for-fullstack-professionals",
+        permanent: true,
+      },
+
+
     ];
   },
 };

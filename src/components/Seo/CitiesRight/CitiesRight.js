@@ -5,6 +5,7 @@ import { FiCheck } from "react-icons/fi";
 import Button from "../../Global/Button/Button";
 import YoutubeVideo from "../YoutubeVideo/YoutubeVideo";
 import styles from "./CitiesRight.module.css";
+import YoutubeEmbed from "../YoutubeVideo/YoutubeEmbed";
 
 const CitiesRight = ({
   ProgramHead1,
@@ -473,6 +474,7 @@ const CitiesRight = ({
   hydraListJob,
   CyberSecurityBangalore,
   CyberSecurityPune,
+  embedId
 }) => {
   const [read, setRead] = useState(false);
   const handler = () => {
@@ -2231,6 +2233,7 @@ const CitiesRight = ({
               Learnbay institute ranges from INR 1,10,000 to INR 125,000,
               depending on the preferred course.
             </p>
+   
             {read ? (
               <>
                 <h2 className={styles.pHead}>
@@ -2395,6 +2398,7 @@ const CitiesRight = ({
                   mentorship is provided on Linkedin profile building and
                   insider tips for enhancing the marketability of a resume.{" "}
                 </p>
+
               </>
             ) : (
               ""
@@ -2411,7 +2415,9 @@ const CitiesRight = ({
             >
               {read ? "View Less..." : "View More..."}
             </p>
+            <YoutubeEmbed embedId="1Y0JwDAuthg"/>
           </div>
+
         ) : (
           ""
         )}
@@ -6070,7 +6076,7 @@ const CitiesRight = ({
             <p>
               The{" "}
               <a
-                href="https://www.learnbay.co/data-science-course-training-in-bangalore"
+                href="https://www.learnbay.co/datascience/bangalore/data-science-course-training-in-bangalore"
                 style={{ color: "#2D9CD7", fontWeight: "600" }}
                 target="_blank"
               >
@@ -6603,7 +6609,9 @@ const CitiesRight = ({
               and data science courses.
             </p>
 
-            <YoutubeVideo />
+<YoutubeEmbed embedId="gvSdkorN6PE"/>
+
+
           </div>
         ) : (
           <div className={styles.CitiesRightInner}>
