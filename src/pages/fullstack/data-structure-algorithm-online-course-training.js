@@ -14,15 +14,15 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>Best Data Structure Algorithms & System Design Course</title>
+        <title>DSA Course with Placement Prep. {2025} - Learnbay</title>
         <meta
           name="description"
-          content="Enroll in Learnbay to comprehensively understand DSA and System Design. Master fundamental ideas and develop competencies to boost technical skills."
+          content="Master DSA course & ace placements assistance with our expert-led training. Gain coding skills, interview prep, and job-ready expertise. Get into a Data Field Today."
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="dsa and system design course, best dsa course, best system design course, dsa course online, dsa course, data structures and algorithms course, data structures and algorithms class, courses on data structures and algorithms, best data structures and algorithms course, best course on data structures and algorithms"
+          content="DSA course, Best DSA course, Best DSA course for beginners, Learn data structures and algorithms from scratch, DSA course online, DSA online course, Data structures and algorithms course"
         />
         <link
           rel="icon"
@@ -30,22 +30,22 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/fullstack/dsa-system-design"
+          href="https://www.learnbay.co/fullstack/data-structure-algorithm-online-course-training"
         />
 
         <meta
           property="og:url"
-          content="https://www.learnbay.co/fullstack/dsa-system-design"
+          content="https://www.learnbay.co/fullstack/data-structure-algorithm-online-course-training"
         />
         <meta
           property="og:title"
-          content="Best Data Structure Algorithms & System Design Coursen"
+          content="DSA Course with Placement Prep. {2025} - Learnbay"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Enroll in Learnbay to comprehensively understand DSA and System Design. Master fundamental ideas and develop competencies to boost technical skills."
+          content="Master DSA course & ace placements assistance with our expert-led training. Gain coding skills, interview prep, and job-ready expertise. Get into a Data Field Today."
         />
         <meta
           property="og:image"
@@ -57,16 +57,16 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Best Data Structure Algorithms & System Design Coursen"
+          content="DSA Course with Placement Prep. {2025}"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           itemProp="description"
-          content="Enroll in Learnbay to comprehensively understand DSA and System Design. Master fundamental ideas and develop competencies to boost technical skills."
+          content="Master DSA course & ace placements assistance with our expert-led training. Gain coding skills, interview prep, and job-ready expertise. Get into a Data Field Today."
         />
         <meta
           name="twitter:description"
-          content="Enroll in Learnbay to comprehensively understand DSA and System Design. Master fundamental ideas and develop competencies to boost technical skills."
+          content="Master DSA course & ace placements assistance with our expert-led training. Gain coding skills, interview prep, and job-ready expertise. Get into a Data Field Today."
         />
         <meta
           name="twitter:image"
@@ -79,12 +79,12 @@ function Blockchain({ DataScienceCourseDataJson }) {
             __html: `{
       "@context": "http://schema.org",
       "@type": "Course",
-      "name": "Best Data Structure Algorithms & System Design Course",
-      "description": "Enroll in Learnbay to comprehensively understand DSA and System Design. Master fundamental ideas and develop competencies to boost technical skills.",
-      "url": "https://www.learnbay.co/fullstack/dsa-system-design",
+      "name": "DSA Course with Placement Prep. {2025} - Learnbay",
+      "description": "Master DSA course & ace placements assistance with our expert-led training. Gain coding skills, interview prep, and job-ready expertise. Get into a Data Field Today.",
+      "url": "https://www.learnbay.co/fullstack/data-structure-algorithm-online-course-training",
       "offers": {
         "@type": "Offer",
-        "price": 75000,
+        "price": 45000,
         "priceCurrency": "INR",
         "category": "Educational"
       },
@@ -101,7 +101,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
           "courseWorkload": "P10W",
           "courseFee": {
             "@type": "PriceSpecification",
-            "price": "₹ 75,000 + 18% GST",
+            "price": "₹ 45,000 + 18% GST",
             "priceCurrency": "INR"
           }
         }

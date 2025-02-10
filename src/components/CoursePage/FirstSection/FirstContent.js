@@ -38,6 +38,7 @@ const FirstContent = ({
   isGuwahati,
   backgroundImage,
   microsoftOnly,
+  DSAFresherHeadContent,
 }) => {
   const texts = [
     "Guaranteed Interview Calls",
@@ -167,7 +168,44 @@ const FirstContent = ({
             
                 />
                 </div>
-              ) : (
+              ) : DSAFresherHeadContent? (
+                <div className={styles.listContent}>
+                <div className={styles.pointContent}>
+                <Image
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sign_mark.webp"
+                width={25}
+                height={25}
+                alt="icon"
+                priority
+                quality={80}
+              />
+              <p>Industry-Recognized Certification</p>
+                </div>
+                <div className={styles.pointContent}>
+                <Image
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sign_mark.webp"
+                width={25}
+                height={25}
+                alt="icon"
+                priority
+                quality={80}
+              />
+              <p>Hands-On Project Validation</p>
+              </div>
+              <div className={styles.pointContent}>
+                <Image
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sign_mark.webp"
+                width={25}
+                height={25}
+                alt="icon"
+                priority
+                quality={80}
+              />
+              <p>Boost Your Career Prospects</p>
+              </div>
+                </div>
+              ):
+              (
                 <div className={ibmOnly ? styles.DAibm : styles.Desktop}>
                   {IIT ? (
                     <>
@@ -416,7 +454,43 @@ const FirstContent = ({
                     />
                   </div>
                 </>
-              ) : (
+              ) : DSAFresherHeadContent? (
+                <div className={styles.listContent}>
+                <div className={styles.pointContent}>
+                <Image
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sign_mark.webp"
+                width={25}
+                height={25}
+                alt="icon"
+                priority
+                quality={80}
+              />
+              <p>Industry-Recognized Certification</p>
+                </div>
+                <div className={styles.pointContent}>
+                <Image
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sign_mark.webp"
+                width={25}
+                height={25}
+                alt="icon"
+                priority
+                quality={80}
+              />
+              <p>Hands-On Project Validation</p>
+              </div>
+              <div className={styles.pointContent}>
+                <Image
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sign_mark.webp"
+                width={25}
+                height={25}
+                alt="icon"
+                priority
+                quality={80}
+              />
+              <p>Boost Your Career Prospects</p>
+              </div>
+                </div>
+              ): (
                 <>
                   {" "}
                   {IIT ? (

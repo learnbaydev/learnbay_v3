@@ -102,7 +102,7 @@ const FullStackSoftwareDevelopmentSecondPart = ({
       <SliderTab />
       <PlacementCall />
       <FAQNew FAQNewData={FAQNewData} />
-      <Content dataScienceCounselling={true} DSASeoContent={true} />
+      <Content dataScienceCounselling={true} DSANewContent={true} />
       <SeventhSection />
       <Footer />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />

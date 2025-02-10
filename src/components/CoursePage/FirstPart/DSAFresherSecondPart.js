@@ -5,6 +5,8 @@ import dynamic from "next/dynamic";
 import LJourney from "../LJourney/LJourney";
 import NewCertificateSection from "../newCertificate/NewCertificate";
 import DSAFeeSection from "../dsaFee/DSAFeeSection";
+import Certificate from "../Certificate/Certificate";
+
 const SeventhSection = dynamic(() =>
   import("@/components/Global/SeventhSection/SeventhSection")
 );
@@ -14,8 +16,8 @@ const SliderTab = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
 const PlacementCall = dynamic(() =>
   import("../../Global/PlacementCall/PlacementCallFsd")
 );
-const FAQNew = dynamic(() =>
-  import("../../../components/CoursePage/FAQNew/FAQNew")
+const FAQNewDSAFresher = dynamic(() =>
+  import("../FAQNew/FAQNewDSAFresher")
 );
 const Content = dynamic(() =>
   import("@/components/CoursePage/Content/content")
@@ -26,7 +28,6 @@ const FullStackSoftwareDevelopmentSecondPart = ({
   FAQNewData,
   certificateNew,
 }) => {
-
   const pdfUrl = "/Brochure/Data-Structure-System-Design.pdf";
   return (
     <div>
@@ -36,13 +37,14 @@ const FullStackSoftwareDevelopmentSecondPart = ({
         dataScienceCounselling={true}
         dataScience={true}
         titleCourse="Software Development Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA+for+Freshers.pdf"
         brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}
       />
 
-      <NewCertificateSection certificateNew={certificateNew} />
+      {/* <NewCertificateSection certificateNew={certificateNew} /> */}
+      <Certificate noTabs={true} data={certificateNew} DSAFresherCertHeading={true}/>
 
       <DSAFeeSection isDSAFresher={true}
         Fee="₹ 45,000"
@@ -99,10 +101,10 @@ const FullStackSoftwareDevelopmentSecondPart = ({
         monthlyPayment2="₹6,883"
       /> */}
       {/* <MentorsSection /> */}
-      <SliderTab />
+      <SliderTab WithoutService={true}/>
       <PlacementCall />
-      <FAQNew FAQNewData={FAQNewData} />
-      <Content dataScienceCounselling={true} DSASeoContent={true} />
+      <FAQNewDSAFresher FAQNewData={FAQNewData} DSAFresherFAQT={true}/>
+      <Content dataScienceCounselling={true} DSAFresherContent={true} />
       <SeventhSection />
       <Footer />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />

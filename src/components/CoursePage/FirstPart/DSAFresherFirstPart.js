@@ -60,7 +60,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData, summaryData 
       alt: "Banner Image 1 Alt",
     },
   };
-  const pdfUrl = "/Brochure/Data-Structure-System-Design.pdf";
+  const pdfUrl = "/NewCourseBrochure/DSA.pdf";
   return (
     <div>
       <Navbar
@@ -71,7 +71,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData, summaryData 
       <FirstSection
         ThirdTyped="Live Interactive Classes"
         dataScience={true}
-        titleCourse="Data Structure Algorithms & System Design"
+        titleCourse="DSA Course with Placement Prep. {2025}"
         cityParaCont="For Freshers & Students"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf"
         brochurePdf={pdfUrl}
@@ -85,8 +85,9 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData, summaryData 
         videoId="0cspp1jXAbM"
             backgorunimg={true}
       backgroundImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/dsa_backgrounds.webp"
-      microsoftOnly={true}
+      // microsoftOnly={true}
       DSA={true}
+      DSAFresherHeadContent={true}
       />
 
       {/* <MasterSecondSection data={seconddata} /> */}
@@ -106,10 +107,10 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData, summaryData 
         forth="For individuals seeking coding mastery, programming libraries, and API skills"
       />
       <AnimationDSAFresher/>
-      <GetHire />
+      <GetHire proHide={true}/>
       <ContactConsellor
       GenAi={true}
-        titleCourse="Data Structure Algorithms & System Design"
+        titleCourse="DSA Course with Placement Prep. {2025}"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf"
         brochurePdf={pdfUrl}
         dataScience={true}

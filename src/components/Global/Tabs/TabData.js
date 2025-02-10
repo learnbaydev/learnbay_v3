@@ -106,6 +106,11 @@ export const TabData = [
         hours: "10 Months",
         url: "/fullstack/dsa-system-design",
       },
+      {
+        CName: "DSA Course with Placement Prep",
+        hours: "3-4 Months",
+        url: "/fullstack/data-structure-algorithm-online-course-training",
+      },
 
       // {
       //   CName: "Software Development Certification Program",

@@ -121,6 +121,12 @@
 .CertificateDiv {
   padding-left:80px;
 }
+.DSAFresherCertificateImgDiv{
+  padding: 0 !important;
+}
+.DSAFresherCertificateImg{
+  padding-left: 70px !important;
+}
 .CertificateDiv img {
   width: auto;
   height: 320px;
@@ -373,6 +379,9 @@ position: relative;
   .ibmImg img{
     width: auto;
     height: 250px;
+  }
+  .DSAFresherCertificateImg{
+    padding-left: 0 !important;
   }
 }
 

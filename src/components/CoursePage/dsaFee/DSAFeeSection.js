@@ -72,6 +72,7 @@ const DSAFeeSection = ({
               <h6>{FeeEmi}</h6>
 
               <button onClick={openEmiPopup} className={styles.btn}>Check EMI Options</button>
+             
             </div>
           </div>
         </div>
