@@ -18,7 +18,7 @@
   gap: 8px;
 }
 .textContent p,
-.textContent h2 {
+.textContent h1 {
   flex: 1;
   color: white;
   margin: 0;
@@ -282,6 +282,7 @@
   }
   .statsContainer {
     margin: -87px auto;
+    width: 20rem;
   }
   .heroSection {
     background: url("https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/GroupHeader.png")

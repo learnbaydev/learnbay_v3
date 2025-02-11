@@ -8,10 +8,10 @@ export default function Home() {
         <div className={styles.heroSection}>
           <div className={styles.overlay}>
             <div className={styles.textContent}>
-              <h2 className={styles.heading}>
+              <h1 className={styles.heading}>
                 Learnbay Reviews: Real Voices, Real Successes to Trusted Career
                 Excellence
-              </h2>
+              </h1>
               <p className={styles.description}>
                 Read the genuine reviews of our learners regarding the courses
                 offered by Learnbay. Our diverse course completion programs have

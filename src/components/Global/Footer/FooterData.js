@@ -595,33 +595,33 @@ export const CityFooterData = [
       },
     ],
   },
-  {
-    id: "SecondDiv",
-    FirstDiv: [
-      {
-        id: "Xpert Edge",
-        city: "Xpert Edge",
-        cityData: [
-          {
-            id: 1,
-            name: "Advance Data Science & AI",
-            url: "https://course.learnbay.co/datascience/OS/sp/s2-data-science-generic",
-          },
+  // {
+  //   id: "SecondDiv",
+  //   FirstDiv: [
+  //     {
+  //       id: "Xpert Edge",
+  //       city: "Xpert Edge",
+  //       cityData: [
+  //         {
+  //           id: 1,
+  //           name: "Advance Data Science & AI",
+  //           url: "https://course.learnbay.co/datascience/OS/sp/s2-data-science-generic",
+  //         },
 
-          {
-            id: 2,
-            name: "Advance AI & ML",
-            url: "https://course.learnbay.co/datascience/OS/sp/s2-artificial-intelligence-machine-learning-generic",
-          },
-          {
-            id: 3,
-            name: "Data Analytics",
-            url: "https://course.learnbay.co/datascience/OS/sp/s2-data-analytics-generic",
-          },
-        ],
-      },
-    ],
-  },
+  //         {
+  //           id: 2,
+  //           name: "Advance AI & ML",
+  //           url: "https://course.learnbay.co/datascience/OS/sp/s2-artificial-intelligence-machine-learning-generic",
+  //         },
+  //         {
+  //           id: 3,
+  //           name: "Data Analytics",
+  //           url: "https://course.learnbay.co/datascience/OS/sp/s2-data-analytics-generic",
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
 ];
 
 export const HeadData = [
@@ -777,7 +777,7 @@ export const CourseData = [
       {
         id: 4,
         url: "/fullstack/dsa-system-design",
-        name: "Data Structure Algorithms & System Design", 
+        name: "Data Structure Algorithms & System Design",
       },
       {
         id: 5,

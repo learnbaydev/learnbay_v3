@@ -34,12 +34,11 @@ const ContactConsellor = dynamic(() =>
 const CloudDevopstestimonials = dynamic(() =>
   import("../cloud&devops/CloudDevopstestimonial/Clouddevoptestimonials")
 );
-const MasterSecondSection  = dynamic(() =>
+const MasterSecondSection = dynamic(() =>
   import("../../MastersCourse/MasterSecondSection/MasterSecondSection")
 );
-const JobAbroad = dynamic(()=>
-import( "../../MastersCourse/JobAbroad/JobAbroad"
-)
+const JobAbroad = dynamic(() =>
+  import("../../MastersCourse/JobAbroad/JobAbroad")
 );
 import { TbCloudComputing } from "react-icons/tb";
 import { PiInfinity } from "react-icons/pi";
@@ -51,10 +50,19 @@ import { BsPeople } from "react-icons/bs";
 
 const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
   const seconddata = [
-    { boldText: "IBM", normalText: "Certified Capstone", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
-    { CboldText: "175%", normalText: "Average Salary Hike", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
-    { boldText: "35K+", normalText: "Trusted Learners", },
-    
+    {
+      boldText: "IBM",
+      normalText: "Certified Capstone",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp",
+    },
+    {
+      CboldText: "175%",
+      normalText: "Average Salary Hike",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp",
+    },
+    { boldText: "35K+", normalText: "Trusted Learners" },
   ];
   const clouddevops = {
     title1: "Project-Based Learning",
@@ -95,24 +103,28 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
     title: "Cloud Mastery for the Modern Tech Professional    ",
     points: [
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
         imgAlt: "",
         title: "Master the future in Cloud        ",
         description: "Comprehensive syllabus designed by experts        ",
       },
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
         imgAlt: "",
         title: "Flexible Learning at your Convenience        ",
-        description: "For professionals aiming to upskill without quitting their job         ",
+        description:
+          "For professionals aiming to upskill without quitting their job         ",
       },
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
         imgAlt: "",
         title: "Transform with Global Standards        ",
-        description: "Globally recognized certificate from IBM & MIcrosoft        ",
+        description:
+          "Globally recognized certificate from IBM & MIcrosoft        ",
       },
-   
     ],
     bannerImage: {
       src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-first-devops-min.webp",
@@ -123,32 +135,35 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
       alt: "Banner Image 1 Alt",
     },
   };
- const pdfUrl ="/Brochure/Cloud-and-Devops.pdf"
+  const pdfUrl = "/Brochure/Cloud-and-Devops.pdf";
   return (
     <>
-    <FirstSection
-          dataScienceCounselling={true}
-          // interstedInHide={true}
-          ThirdTyped="Live Interactive Classes"
-          dataScience={true}
-          titleCourse="Advanced Cloud Computing & DevOps Certification Program"
-          cityParaCont="Elevate your career to a Cloud Solution Architect or DevOps Engineer"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
-          brochurePdf={pdfUrl}
-          FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-first-devops-min.webp"
-          firstToparaImg=" Certification Program"
-          firstHeading="Advanced Cloud Computing & DevOps"
-          firstTopPara="Crack Interview in top MNCs "
-          idss="gaQYhVPCudQ"
-          thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/cd-f.webp"
+      <FirstSection
+        dataScienceCounselling={true}
+        // interstedInHide={true}
+        ThirdTyped="Live Interactive Classes"
+        dataScience={true}
+        titleCourse="Advanced Cloud Computing & DevOps Certification Program"
+        cityParaCont="Elevate your career to a Cloud Solution Architect or DevOps Engineer"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
+        brochurePdf={pdfUrl}
+        FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-first-devops-min.webp"
+        firstToparaImg=" Certification Program"
+        firstHeading="Advanced Cloud Computing & DevOps"
+        firstTopPara="Crack Interview in top MNCs "
+        idss="gaQYhVPCudQ"
+        thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/cd-f.webp"
         // videoId="gaQYhVPCudQ"
-        
+
         S3RightImage={S3RightImage}
-        />
-         <MasterSecondSection data={seconddata} />
+      />
+      <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={clouddevops} showimg={true} shoimgtwo={true} />
-      <JobAbroad data={JobData} dataScienceCounselling={true}
-        interstedInHide={true}/>
+      <JobAbroad
+        data={JobData}
+        dataScienceCounselling={true}
+        interstedInHide={true}
+      />
       {adsHide ? (
         ""
       ) : (
@@ -173,7 +188,12 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
         third="Early to mid-career professionals interested in Cloud & DevOps"
         forth="Achieving higher career growth in Cloud & DevoOps        "
       />
-      <WhyLearnbay idss="ZPOTy4PEnNU" targetjobs={true} CloudContent={true} adsHide={adsHide} />
+      <WhyLearnbay
+        idss="ZPOTy4PEnNU"
+        targetjobs={true}
+        CloudContent={true}
+        adsHide={adsHide}
+      />
       <GetHire />
       {adsHide ? (
         ""
