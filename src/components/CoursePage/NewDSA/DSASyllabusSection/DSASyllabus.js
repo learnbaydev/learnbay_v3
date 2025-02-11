@@ -252,13 +252,33 @@ const SyllabusSection = ({
                                     key={module.moduleTitle}
                                   >
                                     <div className={styles.popupleft}>
-                                      <span>{module.moduleTitle}</span>
+                                      <span className={styles.rotateText}>
+                                        {module.moduleTitle}
+                                      </span>
                                     </div>
-                                    <div className={styles.populist}>
+                                    <div className={styles.rytdiv}>
+                                      <div className={styles.textwrapper}>
+                                        {module.sectionTitle && (
+                                          <span>{module.sectionTitle}</span>
+                                        )}
+                                        {module.sectionTitle2 && (
+                                          <span>{module.sectionTitle2}</span>
+                                        )}
+                                      </div>
+                                      <p>{module.moduleContent}</p>
+                                      <ul className={styles.listItem}>
+                                        {module.moduleList.map(
+                                          (detail, detailIdx) => (
+                                            <li key={detailIdx}>{detail}</li>
+                                          )
+                                        )}
+                                      </ul>
+                                    </div>
+                                    {/* <div className={styles.populist}>
                                       {module.moduleList.map((content, idx) => (
                                         <p key={idx}>{content}</p>
                                       ))}
-                                    </div>
+                                    </div> */}
                                   </div>
                                 ))}
                               </div>
@@ -293,6 +313,14 @@ const SyllabusSection = ({
                                     </span>
                                   </div>
                                   <div className={styles.rytdiv}>
+                                    <div className={styles.textwrapper}>
+                                      {module.sectionTitle && (
+                                        <span>{module.sectionTitle}</span>
+                                      )}
+                                      {module.sectionTitle2 && (
+                                        <span>{module.sectionTitle2}</span>
+                                      )}
+                                    </div>
                                     <p>{module.moduleContent}</p>
                                     <ul className={styles.listItem}>
                                       {module.moduleList.map(
