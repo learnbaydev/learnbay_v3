@@ -28,7 +28,7 @@ const FullStackSoftwareDevelopmentSecondPart = ({
   FAQNewData,
   certificateNew,
 }) => {
-  const pdfUrl = "/Brochure/Data-Structure-System-Design.pdf";
+  const pdfUrl = "/Brochure/DSA-for-Fresherss.pdf";
   return (
     <div>
       <LJourney />

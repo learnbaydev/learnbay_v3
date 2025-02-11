@@ -60,7 +60,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData, summaryData 
       alt: "Banner Image 1 Alt",
     },
   };
-  const pdfUrl = "/NewCourseBrochure/DSA.pdf";
+  const pdfUrl = "/Brochure/DSA-for-Fresherss.pdf";
   return (
     <div>
       <Navbar
@@ -73,7 +73,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData, summaryData 
         dataScience={true}
         titleCourse="DSA Course with Placement Prep. {2025}"
         cityParaCont="For Freshers & Students"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA+for+Freshers.pdf"
         brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/fullhead.webp"
         firstToparaImg="With Placement Prep"
@@ -111,7 +111,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData, summaryData 
       <ContactConsellor
       GenAi={true}
         titleCourse="DSA Course with Placement Prep. {2025}"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA+for+Freshers.pdf"
         brochurePdf={pdfUrl}
         dataScience={true}
         interstedInHide={true}
