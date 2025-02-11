@@ -7,19 +7,16 @@ import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper";
 
-function FAQNew({ FAQNewData, dscoursefaq, toolsdynamic, DSAFresherFAQT}) {
+function FAQNewDSAFresher({ FAQNewData, dscoursefaq, toolsdynamic, DSAFresherFAQT}) {
   // const [mobile, setMobile] = useState(false);
   const [dataLoop, setDataLoop] = useState([
     { title: "Course Related", value: true },
-    { title: "Domain Electives", value: false },
     { title: "Payments and Scholarships", value: false },
-    { title: "Capstone and Real-Time Projects", value: false },
+    { title: "Final Year Project Experience", value: false },
     { title: "Certification", value: false },
     { title: "Job Assistance", value: false },
     { title: "Mentorship", value: false },
     { title: "Support", value: false },
-    { title: "Eligiblity Criteria", value: false },
-    { title: "Generic Queries", value: false },
   ]);
 
   const menuChange = (title, index) => {
@@ -160,4 +157,4 @@ function FAQNew({ FAQNewData, dscoursefaq, toolsdynamic, DSAFresherFAQT}) {
   );
 }
 
-export default FAQNew;
+export default FAQNewDSAFresher;

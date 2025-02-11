@@ -5,6 +5,8 @@ import dynamic from "next/dynamic";
 import LJourney from "../LJourney/LJourney";
 import NewCertificateSection from "../newCertificate/NewCertificate";
 import DSAFeeSection from "../dsaFee/DSAFeeSection";
+import Certificate from "../Certificate/Certificate";
+
 const SeventhSection = dynamic(() =>
   import("@/components/Global/SeventhSection/SeventhSection")
 );
@@ -14,8 +16,8 @@ const SliderTab = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
 const PlacementCall = dynamic(() =>
   import("../../Global/PlacementCall/PlacementCallFsd")
 );
-const FAQNew = dynamic(() =>
-  import("../../../components/CoursePage/FAQNew/FAQNew")
+const FAQNewDSAFresher = dynamic(() =>
+  import("../FAQNew/FAQNewDSAFresher")
 );
 const Content = dynamic(() =>
   import("@/components/CoursePage/Content/content")
@@ -26,8 +28,7 @@ const FullStackSoftwareDevelopmentSecondPart = ({
   FAQNewData,
   certificateNew,
 }) => {
-
-  const pdfUrl = "/Brochure/Data-Structure-System-Design.pdf";
+  const pdfUrl = "/Brochure/DSA-for-Fresherss.pdf";
   return (
     <div>
       <LJourney />
@@ -36,36 +37,37 @@ const FullStackSoftwareDevelopmentSecondPart = ({
         dataScienceCounselling={true}
         dataScience={true}
         titleCourse="Software Development Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA+for+Freshers.pdf"
         brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}
       />
 
-      <NewCertificateSection certificateNew={certificateNew} />
+      {/* <NewCertificateSection certificateNew={certificateNew} /> */}
+      <Certificate noTabs={true} data={certificateNew} DSAFresherCertHeading={true}/>
 
-      <DSAFeeSection
-        Fee="₹ 95,000"
-        FeeEmi="₹ 6,333/month"
-        weekendbatch="Weekend Evening (DSA BATCHES)"
-        weekdaybatch="Weekend Evening (DSA BATCHES)"
+      <DSAFeeSection isDSAFresher={true}
+        Fee="₹ 45,000"
+        FeeEmi="₹ 4,425/month"
+        weekendbatch="Weekend Morning (DSA BATCHES)"
+        weekdaybatch="Weekend Morning (DSA BATCHES)"
         weekday="SAT-SUN"
-        weekend="SAT-SUN"
-        WeekendDate="FEB 1st"
-        WeekdayDate="JAN 12th "
-        WeekendTime="08:00PM - 10:00PM"
-        WeekdayTime="08:00PM - 10:00PM"
+        weekend="SAR-SUN"
+        WeekendDate="MAR 1st"
+        WeekdayDate="FEB 1st"
+        WeekendTime="10:00AM - 01:00PM"
+        WeekdayTime="10:00AM - 01:00PM"
         FeeContent3="Flexible payment"
 
          // <EMI POPUP
          emiType="NO COST EMI"
          duration1="18 Months"
-         totalAmount1="₹95,000"
-         monthlyPayment1="₹6,333"
+         totalAmount1="₹45,000"
+         monthlyPayment1="₹2,950"
          greenDown1="Standard Intrest rate Applicable"
          duration2="12 Months"
-         totalAmount2="₹95,000"
-         monthlyPayment2="₹9,228"
+         totalAmount2="₹45,000"
+         monthlyPayment2="₹4,425"
       />
       {/* <FeeSection
         Fee="₹ 70,000"
@@ -99,10 +101,10 @@ const FullStackSoftwareDevelopmentSecondPart = ({
         monthlyPayment2="₹6,883"
       /> */}
       {/* <MentorsSection /> */}
-      <SliderTab />
+      <SliderTab WithoutService={true}/>
       <PlacementCall />
-      <FAQNew FAQNewData={FAQNewData} />
-      <Content dataScienceCounselling={true} DSANewContent={true} />
+      <FAQNewDSAFresher FAQNewData={FAQNewData} DSAFresherFAQT={true}/>
+      <Content dataScienceCounselling={true} DSAFresherContent={true} />
       <SeventhSection />
       <Footer />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />

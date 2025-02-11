@@ -366,6 +366,26 @@ background-clip: text;
   align-items: center;
   gap: 10px;
 }
+.pointContent{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.listContent{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 46px 0;
+  margin-top: 35px;
+}
+.pointContent p{
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 153%; /* 45.9px */
+  margin-top: 0;
+}
 @media (max-width: 1281px) {
   .First {
     padding: 40px 80px;
@@ -448,6 +468,9 @@ background-clip: text;
 
   .FaPlay {
     padding: 7px 10px;
+  }
+  .listContent{
+    padding: 0 20px;
   }
   
   .IconYou {

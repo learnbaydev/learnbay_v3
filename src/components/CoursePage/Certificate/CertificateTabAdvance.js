@@ -15,6 +15,7 @@ function CertificateTab({
   AdCyber,
   ECCou,
   microEC,
+  DSAFresherCertHeading,
 }) {
   const [MActive, setMActive] = useState(false);
   const [IActive, setIActive] = useState(true);
@@ -324,7 +325,7 @@ Certified Ethical Hacker
               quality={40}
             />
             <div
-              className={`${styles.CertificateDiv} ${styles.IItImag} imgWrapper`}
+              className={`${styles.CertificateDiv} ${styles.IItImag} ${DSAFresherCertHeading && styles.DSAFresherCertificateImgDiv} imgWrapper`}
             >
            {cyber ? ( <Image
                   src={data.degreeCertificate.img}
@@ -342,7 +343,7 @@ Certified Ethical Hacker
                   quality={100}
                   width={200}
                   height={800}
-                  className={styles.iitImage}
+                  className={DSAFresherCertHeading ? styles.DSAFresherCertificateImg : styles.iitImage}
                 />
               ) : (
                 <Image

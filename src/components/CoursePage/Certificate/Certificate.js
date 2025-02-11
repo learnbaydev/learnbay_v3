@@ -14,12 +14,13 @@ const Certificate = ({
   AdCyber,
   ECCou,
   microEC,
+  DSAFresherCertHeading,
 }) => {
   return NoCertificate ? (
     ""
   ) : (
     <div className={`${styles.Certificate}`}>
-      <h2 className={styles.infop}>Globally Recognized Certification Course </h2>
+      <h2 className={styles.infop}>{ DSAFresherCertHeading? "Industry Recognized Certification Course":"Globally Recognized Certification Course"} </h2>
       <CertificateTabAdvance
       singlecertificate={singlecertificate}
       projectWithCertificate={projectWithCertificate}
@@ -35,7 +36,7 @@ const Certificate = ({
         AdCyber={AdCyber}
         ECCou={ECCou}
         microEC={microEC}
-
+        DSAFresherCertHeading={DSAFresherCertHeading}
       />
     </div>
   );

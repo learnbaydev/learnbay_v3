@@ -36,6 +36,7 @@ function FirstSection({
   IIT,
   GEnAi,
   microsoftOnly,
+  DSAFresherHeadContent,
   DSA,
 }) {
   const [popups, setPopups] = useState(false);
@@ -88,6 +89,7 @@ function FirstSection({
         IIT={IIT}
         microsoftOnly={microsoftOnly}
         DSA={DSA}
+        DSAFresherHeadContent={DSAFresherHeadContent}
       />
     </>
   );
