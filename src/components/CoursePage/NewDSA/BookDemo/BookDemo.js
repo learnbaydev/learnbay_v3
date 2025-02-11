@@ -1,11 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
 import styles from "./BookDemo.module.css";
 import Image from "next/image";
-import PathSteps from "../../../../../public/asset/PathSteps.png";
-import Classroom from "../../../../../public/asset/Classroom.png";
-import LaptopCoding from "../../../../../public/asset/LaptopCoding.png";
-import horizontalConnector from "../../../../../public/asset/HorizontalLineDotted.png";
-import verticalConnector from "../../../../../public/asset/VertialLineDotted.png";
 import PopupContent from "@/components/Global/PopupContent/PopupContent";
 import Button from "@/components/Global/Button/Button";
 
