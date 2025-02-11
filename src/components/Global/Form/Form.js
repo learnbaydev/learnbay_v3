@@ -14,6 +14,8 @@ import {
 const Form = ({
   popup,
   setTrigger,
+  dsaPopup,
+  setDSAPopup,
   downloadBrochure,
   radio,
   event,
@@ -31,6 +33,7 @@ const Form = ({
   Domain,
   DomainInput,
   brochurePdf,
+  DSADemoSession,
 }) => {
   const router = useRouter();
   const [formFields, setFormFields] = useState(
@@ -95,6 +98,10 @@ const Form = ({
     btnText = "Download Resources";
   }
 
+  if (DSADemoSession) {
+    btnText = "Book Session";
+  }
+
   const formSubmit = async (e) => {
     e.preventDefault();
     setSubmitting(true); // Set submitting state to true
@@ -154,6 +161,10 @@ const Form = ({
 
         if (popup) {
           setTrigger(false);
+        }
+
+        if (dsaPopup) {
+          setDSAPopup();
         }
 
         if (sendData.status === 200) {

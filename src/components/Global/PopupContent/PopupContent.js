@@ -20,6 +20,9 @@ const PopupContent = ({
   interstedInHide,
   Domain,
   DomainInput,
+  DSADemoSession,
+  dsaPopup,
+  setDSAPopup
 }) => {
   return (
     <Popup
@@ -50,6 +53,11 @@ const PopupContent = ({
           interstedInHide={interstedInHide}
           Domain={Domain}
           DomainInput={DomainInput}
+          DSADemoSession={DSADemoSession}
+          popup={popups}
+          setTrigger={setPopups}
+          dsaPopup={dsaPopup}
+          setDSAPopup={setDSAPopup}
         />
       </div>
     </Popup>
