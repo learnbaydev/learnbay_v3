@@ -24,6 +24,11 @@ const nextConfig = {
         hostname: "d32and0ii3b8oy.cloudfront.net",
         pathname: "**",
       },
+      {
+        protocol: "https",
+        hostname: "learnbay-s3.s3.us-east-2.amazonaws.com",
+        pathname: "**",
+      },
     ],
     formats: ["image/avif", "image/webp"],
     minimumCacheTTL: 2678400,

@@ -31,6 +31,7 @@ const Form = ({
   Domain,
   DomainInput,
   brochurePdf,
+  DSADemoSession,
 }) => {
   const router = useRouter();
   const [formFields, setFormFields] = useState(
@@ -93,6 +94,10 @@ const Form = ({
   }
   if (learning) {
     btnText = "Download Resources";
+  }
+
+  if(DSADemoSession){
+    btnText="Book Session"
   }
 
   const formSubmit = async (e) => {
