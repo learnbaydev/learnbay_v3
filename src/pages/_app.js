@@ -7,6 +7,7 @@ import { Georama } from "next/font/google";
 import { PopupProvider, usePopup } from "../context/PopupContext";
 import Popup from "../components/Popup/Popup";
 import { useRouter } from "next/router";
+import DSAPopupWrapper from "@/components/CoursePage/NewDSA/DSAPopup/DSAPopup";
 
 const georama = Georama({
   weight: ["300", "400", "500", "600", "700", "800"],
@@ -50,13 +51,19 @@ const App = ({ Component, pageProps }) => {
 };
 
 const ComponentWithPopup = ({ Component, pageProps }) => {
-  const { popup, triggerPopup, closePopup } = usePopup();
+  const { popup, triggerPopup, closePopup, dsaPopup, triggerDsaPopup, closeDsaPopup } = usePopup();
   const router = useRouter();
 
   useEffect(() => {
-    if (router.pathname !== "/organic/generic" && router.pathname !== "/submit-info") {
+    if (router.pathname !== "/organic/generic" && router.pathname !== "/submit-info" && router.pathname !== "/fullstack/dsa-and-system-design") {
       const timer = setTimeout(() => {
         triggerPopup("");
+      }, 5000);
+
+      return () => clearTimeout(timer);
+    }else if (router.pathname === "/fullstack/dsa-and-system-design") {
+      const timer = setTimeout(() => {
+        triggerDsaPopup("Welcome to the DSA section!");
       }, 5000);
 
       return () => clearTimeout(timer);
@@ -65,6 +72,7 @@ const ComponentWithPopup = ({ Component, pageProps }) => {
 
   return (
     <>
+    {dsaPopup.show && <DSAPopupWrapper message={dsaPopup.message} onClose={closeDsaPopup} />}
       {popup.show && <Popup message={popup.message} onClose={closePopup} />}
       <Component {...pageProps} />
     </>

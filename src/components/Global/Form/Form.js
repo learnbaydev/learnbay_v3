@@ -14,6 +14,8 @@ import {
 const Form = ({
   popup,
   setTrigger,
+  dsaPopup,
+  setDSAPopup,
   downloadBrochure,
   radio,
   event,
@@ -96,8 +98,8 @@ const Form = ({
     btnText = "Download Resources";
   }
 
-  if(DSADemoSession){
-    btnText="Book Session"
+  if (DSADemoSession) {
+    btnText = "Book Session";
   }
 
   const formSubmit = async (e) => {
@@ -159,6 +161,10 @@ const Form = ({
 
         if (popup) {
           setTrigger(false);
+        }
+
+        if(dsaPopup){
+          setDSAPopup();
         }
 
         if (sendData.status === 200) {
@@ -364,7 +370,9 @@ const Form = ({
               {submitting
                 ? "Submitting..."
                 : downloadBrochure
-                ? "Download Now"
+                ? DSADemoSession
+                  ? "Book Session"
+                  : "Download Now"
                 : btnText}
             </button>
           </div>
@@ -383,7 +391,9 @@ const Form = ({
               {submitting
                 ? "Submitting..."
                 : downloadBrochure
-                ? "Download Now"
+                ? DSADemoSession
+                  ? "Book Session"
+                  : "Download Now"
                 : btnText}
             </button>
           </>

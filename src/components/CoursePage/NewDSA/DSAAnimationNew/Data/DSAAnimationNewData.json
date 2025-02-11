@@ -5,13 +5,13 @@
       "description": "Learn DSA from basics to advanced with 200+ problems and live coding sessions in class. Solve guided assignments covering intermediate to advanced-level challenges to build strong problem-solving skills.",
       "subItems": [
         {
-          "icon": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/ProjectManagement.webp",
+          "icon": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/ProjectManagement.webp",
           "text": "Live Projects from industry",
           "width": "50",
           "height": "50"
         },
         {
-          "icon": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/CheckedUserMale.webp",
+          "icon": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/CheckedUserMale.webp",
           "text": "Dedicated Project Mentor",
           "width": "50",
           "height": "50"
@@ -24,7 +24,7 @@
       "description": "Build scalable, high-performance applications with real-world architectural patterns.Learn to design robust backend systems, optimize databases, caching, and load balancing, and solve real-world scalability challenges",
       "subItems": [
         {
-          "icon": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/New+Job.webp",
+          "icon": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/New+Job.webp",
           "text": "Crack System Design Interviews at Top Tech Companies",
           "width": "50",
           "height": "50"

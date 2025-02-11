@@ -3,17 +3,13 @@ import styles from "./BookDemo.module.css";
 import Image from "next/image";
 import PathSteps from "../../../../../public/asset/PathSteps.png";
 import Classroom from "../../../../../public/asset/Classroom.png";
-// import Button from "../../global/button/Button";
 import LaptopCoding from "../../../../../public/asset/LaptopCoding.png";
-// import Popup from "../../global/popup/Popup";
-// import Form from "../../global/form/Form";
 import horizontalConnector from "../../../../../public/asset/HorizontalLineDotted.png";
 import verticalConnector from "../../../../../public/asset/VertialLineDotted.png";
 import PopupContent from "@/components/Global/PopupContent/PopupContent";
 import Button from "@/components/Global/Button/Button";
 
-const BookDemo = ({ interstedInHide}) => {
-//   const [applyCounselingPopup, setApplyCounselingPopup] = useState(false);
+const BookDemo = ({ interstedInHide,dataScienceCounselling}) => {
   const [popups, setPopups] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const [connectorDimensions, setConnectorDimensions] = useState({
@@ -107,12 +103,9 @@ const BookDemo = ({ interstedInHide}) => {
                       setPopups={setPopups}
                       heading="Request For Demo Session"
                       DSADemoSession={true}
-                      dataScience={true}
                       interstedInHide={interstedInHide}
                       upSkillingHide={true}
-                    //   titleCourse={titleCourse}
-                    //   brochureLink={brochureLink}
-                    //   brochurePdf={brochurePdf}
+                      dataScienceCounselling={dataScienceCounselling}
                     />
       <div className="width">
         <div className={styles.contentsWrapper}>
@@ -184,7 +177,7 @@ const BookDemo = ({ interstedInHide}) => {
           </div>
           <div className={styles.rightSection}>
             <Image
-              src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DSADemoRightImage.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/DSADemoRightImage.webp"
               width={430}
               height={530}
               quality={100}

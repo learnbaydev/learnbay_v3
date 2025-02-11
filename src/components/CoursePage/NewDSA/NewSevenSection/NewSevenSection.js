@@ -12,7 +12,7 @@ import Form from "@/components/Global/Form/Form";
 // const PopupContent = dynamic(() => import("../popup/PopupContent"));
 
 const NewSevenSection = ({
-  platform,dataScience,interstedInHide,titleCourse,brochureLink,brochurePdf,dataScienceCounselling
+  dataScience,interstedInHide,dataScienceCounselling,upSkillingHide
 }) => {
 
   const [popups, setPopups] = useState(false);
@@ -28,7 +28,6 @@ const NewSevenSection = ({
         setTrigger={setPopups}
         className="popupModal"
         popup={true}
-        // radio={radio}
         dataScience={dataScience}
         dataScienceCounselling={dataScienceCounselling}
       >
@@ -41,14 +40,10 @@ const NewSevenSection = ({
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           <Form
-            titleCourse={titleCourse}
-            brochureLink={brochureLink}
-            brochurePdf={brochurePdf}
             dataScience={dataScience}
             interstedInHide={interstedInHide}
             dataScienceCounselling={dataScienceCounselling}
-            upSkillingHide={true}
-            // radio={radio}
+            upSkillingHide={upSkillingHide}
           />
         </div>
       </Popup>

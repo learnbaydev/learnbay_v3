@@ -7,24 +7,24 @@
         "imgAlt": "Practical",
         "title": "Backend Engineering Specialisation",
         "description": "Build scalable backend systems, automate workflows. Work on real projects to gain skills in system architecture, API development",
-        "width": "60",
-        "height": "60"
+        "width": "50",
+        "height": "50"
       },
       {
         "imgSrc": "/asset/ProjectManagement.png",
         "imgAlt": "Practical",
         "title": "Product Management",
         "description": "Streamline development, align technology with business goals, and drive product success effectively.",
-        "width": "60",
-        "height": "60"
+        "width": "50",
+        "height": "50"
       },
       {
         "imgSrc": "/asset/IIT.png",
         "imgAlt": "Practical",
         "title": "Gen-AI Certification for Developers",
         "description": "Get Gen-AI Developer Certification from E&ICT Academy IIT Guwahati",
-        "width": "60",
-        "height": "60"
+        "width": "50",
+        "height": "50"
       }
     ]
   }

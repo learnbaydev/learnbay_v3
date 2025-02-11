@@ -175,7 +175,7 @@ function AnimationDSA() {
                       <p className={styles.specialPTag}>
                         Master{" "}
                         <Image
-                          src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/LangChain.webp"
+                          src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/LangChain.webp"
                           alt="LangChain"
                           width={70}
                           height={30}
@@ -192,7 +192,7 @@ function AnimationDSA() {
                       />{" "}
                       ,{" "} */}
                         <Image
-                          src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/HuggingFace.webp"
+                          src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/HuggingFace.webp"
                           alt="hugging face"
                           width={140}
                           height={30}
@@ -201,7 +201,7 @@ function AnimationDSA() {
                         />{" "}
                         ,and{" "}
                         <Image
-                          src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/GithubCopilot.webp"
+                          src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/GithubCopilot.webp"
                           alt="github copilot"
                           width={50}
                           height={35}

@@ -80,16 +80,17 @@ const NewDSA = ({ DSADataJson }) => {
         mentorText={NewDSAData[0].header[0].mentorText}
         mentorFromImg={NewDSAData[0].header[0].mentorFromImg}
         descrption={NewDSAData[0].header[0].descrption}
-        interstedInHide={true}
-      />
-      <BookDemo interstedInHide={true} />
-      <ProgramSection
-        programSectionData={NewDSAData[0].ProgramSection}
         titleCourse="Data Structure Algorithms & System Design"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf"
         brochurePdf={pdfUrl}
-        dataScience={true}
         interstedInHide={true}
+      />
+      <BookDemo dataScienceCounselling={true}
+        interstedInHide={true} upSkillingHide={true}/>
+      <ProgramSection
+        programSectionData={NewDSAData[0].ProgramSection}
+        dataScienceCounselling={true}
+        interstedInHide={true} upSkillingHide={true}
       />
       <DSAPractical />
       <AnimationDSA />
@@ -113,10 +114,10 @@ const NewDSA = ({ DSADataJson }) => {
         weekdaybatch="Weekend Morning (DSA BATCHES)"
         weekday="SAT-SUN"
         weekend="SAT-SUN"
-        WeekendDate="23rd Feb"
-        WeekdayDate="8th Feb"
-        WeekendTime="09:30AM - 12:30PM"
-        WeekdayTime="09:30AM - 12:30PM"
+        WeekendDate="23rd Mar"
+        WeekdayDate="23rd Feb"
+        WeekendTime="09:00AM - 12:00PM"
+        WeekdayTime="09:00AM - 12:00PM"
         FeeContent3="Flexible payment"
         // <EMI POPUP
         emiType="NO COST EMI"
@@ -138,11 +139,8 @@ const NewDSA = ({ DSADataJson }) => {
         brochurePdf={pdfUrl}
       />
       <NewSevenSection
-        dataScience={true}
-        interstedInHide={true}
-        titleCourse="Data Structure Algorithms & System Design"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf"
-        brochurePdf={pdfUrl}
+        dataScienceCounselling={true}
+        interstedInHide={true} upSkillingHide={true}
       />
       <Footer />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />

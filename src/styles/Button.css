@@ -1,5 +1,5 @@
 .greenButton {
-  background-color: #72BC00;
+  background-color: #04c988;
   color: white;
   border: none;
   border-radius: 4px;
@@ -16,7 +16,7 @@
 }
 .greenButton:hover{
   /* background-color: #000; */
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
 }
 
 .OrangeButton {

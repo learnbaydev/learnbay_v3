@@ -36,17 +36,17 @@ const DSAHeader = ({
   interstedInHide,
   titleCourse,
   brochureLink,
-  brochurePdf
+  brochurePdf,
 }) => {
   const [popups, setPopups] = useState(false);
-  const [applyCounselingPopup, setApplyCounselingPopup] = useState(false);
+  const [requestDemoPopup, setRequestDemoPopup] = useState(false);
 
   const popupShow = useCallback(() => {
     setPopups(true);
   }, []);
 
-  const applyCounselingShow = useCallback(() => {
-    setApplyCounselingPopup(true);
+  const requestDemoShow = useCallback(() => {
+    setRequestDemoPopup(true);
   }, []);
 
   return (
@@ -63,6 +63,16 @@ const DSAHeader = ({
                 titleCourse={titleCourse}
                 brochureLink={brochureLink}
                 brochurePdf={brochurePdf}
+                // DSADemoSession={true}
+              />
+        <PopupContent
+                popups={requestDemoPopup}
+                setPopups={setRequestDemoPopup}
+                heading="Book Your Demo Session"
+                // downloadBrochure
+                dataScienceCounselling={true}
+                interstedInHide={interstedInHide}
+                DSADemoSession={true}
               />
         <div className={styles.contentTitleWrapper}>
           <h1>
@@ -152,31 +162,31 @@ const DSAHeader = ({
             </div>
           </div>
           <div className={styles.buttonsWrapper}>
-            <div onClick={applyCounselingShow}>
-              <Button text="Request A Demo Class" grayButton />
+            <div onClick={requestDemoShow}>
+              <Button text="Request A Demo Class" />
             </div>
             <div onClick={popupShow}>
-              <Button text="Download Syllabus" purpleButton={purpleButton} />
+              <Button text="Download Syllabus" />
             </div>
           </div>
         </div>
         <div className={styles.headerIconsWrapper}>
           <div className={styles.TableauSoftwareIconWrapper}>
             <Image
-              src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/TableauSoftware.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/TableauSoftware.webp"
               alt="Tableau Software"
               width={40}
               height={40}
             />
           </div>
           <div className={styles.ModuleIconWrapper}>
-            <Image src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Module.webp" alt="Module" width={28} height={28} />
+            <Image src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Module.webp" alt="Module" width={28} height={28} />
           </div>
           <div className={styles.PieChartIconWrapper}>
-            <Image src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/PieChart.webp" alt="Pie Chart" width={38} height={33} />
+            <Image src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/PieChart.webp" alt="Pie Chart" width={38} height={33} />
           </div>
           <div className={styles.HierarchyIconWrapper}>
-            <Image src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Hierarchy.webp" alt="Hierarchy" width={50} height={50} />
+            <Image src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Hierarchy.webp" alt="Hierarchy" width={50} height={50} />
           </div>
         </div>
       </div>

@@ -19,6 +19,7 @@ const ProgramSection = memo(
     titleCourse,
     brochureLink,
     brochurePdf,
+    upSkillingHide,
   }) => {
     const [isMobile, setIsMobile] = useState(false);
     const [popups, setPopups] = useState(false);
@@ -93,7 +94,7 @@ const ProgramSection = memo(
               dataScience={dataScience}
               interstedInHide={interstedInHide}
               dataScienceCounselling={dataScienceCounselling}
-              upSkillingHide={true}
+              upSkillingHide={upSkillingHide}
               // radio={radio}
             />
           </div>
