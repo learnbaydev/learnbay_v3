@@ -24,11 +24,6 @@ const nextConfig = {
         hostname: "d32and0ii3b8oy.cloudfront.net",
         pathname: "**",
       },
-      {
-        protocol: "https",
-        hostname: "learnbay-s3.s3.us-east-2.amazonaws.com",
-        pathname: "**",
-      },
     ],
     formats: ["image/avif", "image/webp"],
     minimumCacheTTL: 2678400,
@@ -1417,25 +1412,27 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/data-science-course/blog-post/win-this-covid-19-with-data-science-course",
+        source:
+          "/data-science-course/blog-post/win-this-covid-19-with-data-science-course",
         destination:
           "https://blog.learnbay.co/win-this-covid-19-with-data-science-course",
         permanent: true,
       },
       {
-        source: "/data-science-course/blog-post/you-could-be-a-pro-in-data-science-by-self-assisting",
+        source:
+          "/data-science-course/blog-post/you-could-be-a-pro-in-data-science-by-self-assisting",
         destination:
           "https://blog.learnbay.co/you-could-be-a-pro-in-data-science-by-self-assisting",
         permanent: true,
       },
       {
         source: "/data-science-course/blog-post/data-scientist-vs-data-analyst",
-        destination:
-          "https://blog.learnbay.co/data-analyst-vs-data-scientist",
+        destination: "https://blog.learnbay.co/data-analyst-vs-data-scientist",
         permanent: true,
       },
       {
-        source: "/data-science-course/blog-post/to-learn-data-science-as-a-working-professional",
+        source:
+          "/data-science-course/blog-post/to-learn-data-science-as-a-working-professional",
         destination:
           "https://blog.learnbay.co/data-science-for-working-professionals",
         permanent: true,
@@ -1448,8 +1445,7 @@ const nextConfig = {
       },
       {
         source: "/data-science-course/category/data-science",
-        destination:
-          "https://blog.learnbay.co/category/data-science",
+        destination: "https://blog.learnbay.co/category/data-science",
         permanent: true,
       },
       {
@@ -1459,7 +1455,8 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/data-science-course/blog-post/gaussian-and-normal-distribution",
+        source:
+          "/data-science-course/blog-post/gaussian-and-normal-distribution",
         destination:
           "https://blog.learnbay.co/gaussian-and-normal-distribution",
         permanent: true,
@@ -1471,14 +1468,16 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/data-science-course/blog-post/regression-techniques-in-machine-learning",
+        source:
+          "/data-science-course/blog-post/regression-techniques-in-machine-learning",
         destination:
           "https://blog.learnbay.co/regression-techniques-in-machine-learning",
         permanent: true,
       },
 
       {
-        source: "/cyber-security/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee",
+        source:
+          "/cyber-security/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee",
         destination:
           "/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee",
         permanent: true,
@@ -1508,8 +1507,6 @@ const nextConfig = {
           "/artificial-intelligence/generative-ai-course-for-fullstack-professionals",
         permanent: true,
       },
-
-
     ];
   },
 };

@@ -122,7 +122,7 @@ const BookDemo = ({ interstedInHide,dataScienceCounselling}) => {
               {!isMobile && (
                 <div className={styles.horizontalConnectorWrapper}>
                   <Image
-                    src={horizontalConnector}
+                    src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/HorizontalLineDotted.webp"
                     width={connectorDimensions.width}
                     height={connectorDimensions.height}
                     quality={100}
@@ -133,7 +133,7 @@ const BookDemo = ({ interstedInHide,dataScienceCounselling}) => {
               {isMobile && (
                 <div className={styles.verticalConnectorWrapper}>
                   <Image
-                    src={verticalConnector}
+                    src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/VertialLineDotted.webp"
                     width={verticalConnectorDimensions.width}
                     height={verticalConnectorDimensions.height}
                     quality={100}
@@ -143,7 +143,7 @@ const BookDemo = ({ interstedInHide,dataScienceCounselling}) => {
               )}
               <div className={styles.demoPoint}>
                 <div className={styles.PathStepsImg}>
-                  <Image src={PathSteps} width={40} height={40} />
+                  <Image src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/PathSteps.webp" width={40} height={40} />
                 </div>
                 <div className={styles.pointWrapper}>
                   <p>Course</p>
@@ -152,7 +152,7 @@ const BookDemo = ({ interstedInHide,dataScienceCounselling}) => {
               </div>
               <div className={styles.demoPoint}>
                 <div className={styles.ClassroomImg}>
-                  <Image src={Classroom} width={40} height={40} />
+                  <Image src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Classroom.webp" width={40} height={40} />
                 </div>
                 <div className={styles.pointWrapper}>
                   <p>Interact</p>
@@ -161,7 +161,7 @@ const BookDemo = ({ interstedInHide,dataScienceCounselling}) => {
               </div>
               <div className={styles.demoPoint}>
                 <div className={styles.LaptopCodingImg}>
-                  <Image src={LaptopCoding} width={40} height={40} />
+                  <Image src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/LaptopCoding.webp" width={40} height={40} />
                 </div>
                 <div className={styles.pointWrapper}>
                   <p>Live</p>

@@ -127,7 +127,7 @@
     position: relative;
     display: flex;
     border-radius: 40px;
-    background: url("/asset/Programsection.webp") no-repeat;
+    background: url("https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Programsection+(1).webp") no-repeat;
     position: relative;
     width: 111%;
     height: max-content;

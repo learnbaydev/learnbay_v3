@@ -1,39 +1,5 @@
 export const NewDSAData = [
   {
-    // MetaHead: {
-    //   title: "Data Structures Algorithms and System Design Course - Learnbay",
-    //   meta: [
-    //     {
-    //       id: 1,
-    //       name: "description",
-    //       content:
-    //         "Elevate your tech skills through our Software development Certification Program and switch from service-based to product-based companies. Earn globally recoganized IBM and Microsoft Certifications.",
-    //     },
-    //     {
-    //       id: 2,
-    //       name: "robots",
-    //       content: "index, follow",
-    //     },
-    //     {
-    //       id: 3,
-    //       name: "keywords",
-    //       content:
-    //         "software development course, software development program, software engineering course, software engineer certification, software developer certifications, software developer training, software engineer online course",
-    //     },
-    //   ],
-    //   link: [
-    //     {
-    //       id: 1,
-    //       rel: "icon",
-    //       href: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp",
-    //     },
-    //     {
-    //       id: 2,
-    //       rel: "canonical",
-    //       href: "https://www.learnbay.co/fullstack/full-stack-software-development-program",
-    //     },
-    //   ],
-    // },
     header: [
       {
         spanTag: "Data Structure Algorithm & System Design",
@@ -45,7 +11,7 @@ export const NewDSAData = [
         points: [
           {
             id: 1,
-            img: "/asset/firstPoint.png",
+            img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/firstPoint.webp",
             imgAlt: "DSA First Point",
             text1: "Integrated With ",
             boldText: "Gen-AI ",
@@ -53,7 +19,7 @@ export const NewDSAData = [
           },
           {
             id: 2,
-            img: "/asset/secondPoint.png",
+            img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/secondPoint.webp",
             imgAlt: "DSA Second Point",
             text1: "Practice ",
             boldText: "200+ DSA Problems & System Design Projects",
@@ -63,7 +29,7 @@ export const NewDSAData = [
         mentorFromImg: [
           {
             id: 1,
-            img: "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Google.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Google.webp",
             imgAlt: "Google Logo",
             width: "80",
             height: "30",
@@ -77,7 +43,7 @@ export const NewDSAData = [
           },
           {
             id: 3,
-            img: "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Microsoft.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Microsoft.webp",
             imgAlt: "",
             width: "130",
             height: "30",
@@ -154,7 +120,7 @@ export const NewDSAData = [
           ],
         },
         rightImg:
-          "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DSAProgramRight.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/DSAProgramRight.webp",
         popupTitle: "Eligibility Check",
         formProps: {},
       },
@@ -168,7 +134,7 @@ export const NewDSAData = [
         height: 80,
         title: "Module 0",
         toolsImg:
-          "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/java_python.png",
+          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/java_python.png",
         imageSizes: {
           vsm: { width: 160, height: 38 },
           sm: { width: 160, height: 38 },
@@ -1714,7 +1680,7 @@ export const NewDSAData = [
         height: 80,
         title: "TERM 2",
         toolsImg:
-          "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/python+git_11zon.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/python+git_11zon.webp",
         imageSizes: {
           vsm: { width: 140, height: 44 },
           sm: { width: 140, height: 44 },
@@ -2487,7 +2453,7 @@ export const NewDSAData = [
         height: 80,
         title: "TERM 3",
         toolsImg:
-          "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/kafta+sql+mongodb_11zon.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/kafta+sql+mongodb_11zon.webp",
         imageSizes: {
           vsm: { width: 160, height: 22 },
           sm: { width: 180, height: 25 },
@@ -4033,7 +3999,7 @@ export const NewDSAData = [
         height: 80,
         title: "Elective 2",
         toolsImg:
-          "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/powerbi+tableu+sql_11zon.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/powerbi+tableu+sql_11zon.webp",
         imageSizes: {
           vsm: { width: 195, height: 34 },
           sm: { width: 195, height: 31 },

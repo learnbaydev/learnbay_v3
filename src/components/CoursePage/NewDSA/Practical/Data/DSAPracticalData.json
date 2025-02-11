@@ -3,7 +3,7 @@
     "description": "Master Proficiency in System Design ( HLD + LLD ) with real Projects",
     "boxes": [
       {
-        "imgSrc": "/asset/Sparkling.png",
+        "imgSrc": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Sparkling.webp",
         "imgAlt": "Practical",
         "title": "Backend Engineering Specialisation",
         "description": "Build scalable backend systems, automate workflows. Work on real projects to gain skills in system architecture, API development",
@@ -11,7 +11,7 @@
         "height": "50"
       },
       {
-        "imgSrc": "/asset/ProjectManagement.png",
+        "imgSrc": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/ProjectManagement.webp",
         "imgAlt": "Practical",
         "title": "Product Management",
         "description": "Streamline development, align technology with business goals, and drive product success effectively.",
@@ -19,7 +19,7 @@
         "height": "50"
       },
       {
-        "imgSrc": "/asset/IIT.png",
+        "imgSrc": "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/IIT.webp",
         "imgAlt": "Practical",
         "title": "Gen-AI Certification for Developers",
         "description": "Get Gen-AI Developer Certification from E&ICT Academy IIT Guwahati",
