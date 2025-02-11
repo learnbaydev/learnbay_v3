@@ -19,9 +19,9 @@ export const menuItem = [
     name: "ProjectLab",
     url: "#ProjectLab",
   },
-  {
-    id: 5,
-    name: "Blog",
-    url: "https://blog.learnbay.co/",
-  },
+  // {
+  //   id: 5,
+  //   name: "Blog",
+  //   url: "https://blog.learnbay.co/",
+  // },
 ];

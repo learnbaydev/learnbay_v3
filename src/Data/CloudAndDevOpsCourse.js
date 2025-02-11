@@ -196,7 +196,7 @@ export const CloudAndDevOpsCourseData = [
     Certificate: {
       degreeCertificate: {
         id: 1,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm-min.webp",
+        img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Certificate.webp",
         title: "Course Completion Certificate from IBM",
         para: [
           "Complete your training with the internationally recognized certificate.",
@@ -231,12 +231,12 @@ export const CloudAndDevOpsCourseData = [
         Module0: {
           title: "TERM 1:- Linux Fundamentals and Introduction",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/LINUX+FUNDAMENTALS_round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/LINUX+FUNDAMENTALS_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_Up.webp",
-        points: "Linux Basics and System Administration",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/LINUX+FUNDAMENTALS_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/LINUX+FUNDAMENTALS_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_Up.webp",
+          points: "Linux Basics and System Administration",
           content: [
             {
               chap: {
@@ -246,13 +246,13 @@ export const CloudAndDevOpsCourseData = [
                   "Command Line Interface (CLI) Essentials",
                   "User and Group Management",
                   "Networking Basics in Linux ",
-
                 ],
               },
             },
             {
               chap: {
-                title: "Module 2 :- Practical exercises and assignments for mastering Linux commands ",
+                title:
+                  "Module 2 :- Practical exercises and assignments for mastering Linux commands ",
                 desc: [
                   "Command Line Mastery: Exercises focusing on everyday CLI usage",
                   "Script Writing: Basics of Shell Scripting for Automation",
@@ -260,35 +260,31 @@ export const CloudAndDevOpsCourseData = [
                 ],
               },
             },
-
           ],
           id: 0,
           open: true,
         },
       },
 
-
-
-
       {
         Module0: {
           title: "TERM 2:- Python Programming Essentials",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AWS_up.webp",
-        points: "Introduction to Python and Environment Setup",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AWS_up.webp",
+          points: "Introduction to Python and Environment Setup",
           content: [
             {
               chap: {
-                title: "Module 1 :- Introduction to Python and Environment Setup ",
+                title:
+                  "Module 1 :- Introduction to Python and Environment Setup ",
                 desc: [
                   "Basics of Python Programming Language",
                   "Setting Up Python Development Environment",
                   "IDE Setup and Introduction (PyCharm, Jupyter Notebook)",
-
                 ],
               },
             },
@@ -299,7 +295,6 @@ export const CloudAndDevOpsCourseData = [
                   "Data Types, Variables, and Basic Operators",
                   "Control Structures: If-Else Statements, Loops",
                   "Functions: Definition, Arguments, Return Values",
-
                 ],
               },
             },
@@ -310,8 +305,6 @@ export const CloudAndDevOpsCourseData = [
                   "Lists, Tuples, Dictionaries, and Sets",
                   "String Manipulation and Regular Expressions",
                   "File Operations: Reading and Writing Files",
-
-
                 ],
               },
             },
@@ -324,9 +317,6 @@ export const CloudAndDevOpsCourseData = [
                   "Encapsulation and Abstraction",
                   "Exception Handling and Debugging Techniques",
                   "Modules and Packages: Importing and Creating",
-
-
-
                 ],
               },
             },
@@ -338,8 +328,6 @@ export const CloudAndDevOpsCourseData = [
             //       "Basic Data Analysis and Manipulation",
             //       "Visualization with Matplotlib and Seaborn",
 
-
-
             //     ],
             //   },
             // },
@@ -350,9 +338,6 @@ export const CloudAndDevOpsCourseData = [
                   "Hands-on sessions with Python scripting and automation projects",
                   "Real-world problem-solving using Python",
                   "Mini-projects: Developing small-scale applications or scripts",
-
-
-
                 ],
               },
             },
@@ -362,19 +347,17 @@ export const CloudAndDevOpsCourseData = [
         },
       },
 
-
-
       {
         Module0: {
           title: " TERM 3 :- AWS Cloud Mastery ",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Aws_syll.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AWS_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_up.webp",
-        points: "AWS Administration Level",
-        points1: "Transitioning to Solution Architect",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Aws_syll.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AWS_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_up.webp",
+          points: "AWS Administration Level",
+          points1: "Transitioning to Solution Architect",
           content: [
             {
               chap: {
@@ -388,8 +371,6 @@ export const CloudAndDevOpsCourseData = [
                   "AWS Database Services",
                   "Security and Identity",
                   "Monitoring and Management",
-
-
                 ],
               },
             },
@@ -404,30 +385,27 @@ export const CloudAndDevOpsCourseData = [
                   "Data Security",
                   "Cost Optimization",
                   "Designing for New Technologies",
-
                 ],
               },
             },
             {
               chap: {
-                title: "Module 3 :- AWS Certified Solutions Architect - Associate",
+                title:
+                  "Module 3 :- AWS Certified Solutions Architect - Associate",
                 desc: [
                   "Exam Preparation",
                   "Preparation Tips",
                   "Practice Exams and Scenarios",
-
-
                 ],
               },
             },
             {
               chap: {
-                title: "Module 4 :- AWS Certified Solutions Architect - Professional",
+                title:
+                  "Module 4 :- AWS Certified Solutions Architect - Professional",
                 desc: [
                   "Deep Dive into Complex Architectures",
                   "Professional Level Exam Preparation",
-
-
                 ],
               },
             },
@@ -437,18 +415,17 @@ export const CloudAndDevOpsCourseData = [
         },
       },
 
-
       {
         Module0: {
           title: "TERM 4 :- Microsoft Azure Proficiency (optional)",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_round.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_up.webp",
-        points: "Azure Administration Level",
-        points1: "Transitioning to Solution Architect",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_up.webp",
+          points: "Azure Administration Level",
+          points1: "Transitioning to Solution Architect",
           content: [
             {
               chap: {
@@ -462,7 +439,6 @@ export const CloudAndDevOpsCourseData = [
                   "Azure Networking",
                   "Database Services",
                   "Monitoring and Management",
-
                 ],
               },
             },
@@ -481,7 +457,8 @@ export const CloudAndDevOpsCourseData = [
             },
             {
               chap: {
-                title: " Module 3 :- Preparation for Azure Architect Technologies ",
+                title:
+                  " Module 3 :- Preparation for Azure Architect Technologies ",
                 desc: [
                   "Certification Path and Exam Preparation",
                   "Practice Tests and Scenarios",
@@ -490,12 +467,12 @@ export const CloudAndDevOpsCourseData = [
             },
             {
               chap: {
-                title: " Module 4 :- Advanced Course: Azure Solutions Architect Expert ",
+                title:
+                  " Module 4 :- Advanced Course: Azure Solutions Architect Expert ",
                 desc: [
                   "Complex Architectural Solutions",
                   "Case Studies and Real-World Scenarios",
                   "Advanced Certification Preparation",
-
                 ],
               },
             },
@@ -510,7 +487,6 @@ export const CloudAndDevOpsCourseData = [
                 ],
               },
             },
-
           ],
           id: 6,
           open: false,
@@ -520,13 +496,13 @@ export const CloudAndDevOpsCourseData = [
         Module0: {
           title: "TERM 5:-Google Cloud Platform (optional) ",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_round.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SERVER_up.webp",
-        points: "GCP Administration Level",
-        points1: "Transitioning to Solution Architect ",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SERVER_up.webp",
+          points: "GCP Administration Level",
+          points1: "Transitioning to Solution Architect ",
           content: [
             {
               chap: {
@@ -558,15 +534,13 @@ export const CloudAndDevOpsCourseData = [
             },
             {
               chap: {
-                title: "Module 3:- Machine Learning and Artificial Intelligence ",
+                title:
+                  "Module 3:- Machine Learning and Artificial Intelligence ",
                 desc: [
                   "AI Platform ",
                   "Machine Learning Services",
                   "Integrating AI into Cloud Solutions",
                   "AutoML for Custom Model Training",
-
-
-
                 ],
               },
             },
@@ -588,22 +562,20 @@ export const CloudAndDevOpsCourseData = [
         Module0: {
           title: "TERM 6 :- Server and Application virtualization",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SERVER_round.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SERVER_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
-        points: "Overview of Virtualization",
-        points1: "Server Virtualization",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SERVER_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SERVER_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
+          points: "Overview of Virtualization",
+          points1: "Server Virtualization",
           content: [
             {
               chap: {
-                title:
-                  "Module 1 :- Overview of Virtualization ",
+                title: "Module 1 :- Overview of Virtualization ",
                 desc: [
                   "Introduction to Virtualization: Understanding Its Historical Development",
                   "Different Forms of Virtualization",
-
                 ],
               },
             },
@@ -615,9 +587,6 @@ export const CloudAndDevOpsCourseData = [
                   "Understanding Hypervisor-Based Virtualization",
                   "Comparing Type 1 and Type 2 Hypervisors",
                   "Differences Between Full and Paravirtualization",
-
-
-
                 ],
               },
             },
@@ -636,19 +605,12 @@ export const CloudAndDevOpsCourseData = [
               },
             },
 
-
             {
               chap: {
                 title: "Module 4 :- Application Virtualization",
-                desc: [
-                  "Application Virtualization in VMs",
-
-
-
-                ],
+                desc: ["Application Virtualization in VMs"],
               },
             },
-
 
             {
               chap: {
@@ -659,9 +621,6 @@ export const CloudAndDevOpsCourseData = [
                   "Container Image: Structure and Formats",
                   "Managing Container Instances: Resource Allocation",
                   "Networking in the Context of Containers",
-
-
-
                 ],
               },
             },
@@ -672,9 +631,6 @@ export const CloudAndDevOpsCourseData = [
                 desc: [
                   "Unikernels: Composition, Formats, and Management",
                   "Allocating Resources and Networking in Unikernels",
-
-
-
                 ],
               },
             },
@@ -684,26 +640,16 @@ export const CloudAndDevOpsCourseData = [
                 title: "Module 7 :- Comparative Analysis",
                 desc: [
                   "Differentiating Between VMs, Containers, and Unikernels",
-
-
-
                 ],
               },
             },
-
 
             {
               chap: {
                 title: "Module 8 :- Network Function Virtualization (NFV)",
-                desc: [
-                  "An Introduction to Network Function Virtualization",
-
-
-
-                ],
+                desc: ["An Introduction to Network Function Virtualization"],
               },
             },
-
           ],
           id: 6,
           open: false,
@@ -713,13 +659,13 @@ export const CloudAndDevOpsCourseData = [
         Module0: {
           title: "TERM 7 :- Data Migration and Resilience",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEVOPS_up.webp",
-        points: "Introduction to deep learning",
-        points1: "Product Analytics",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEVOPS_up.webp",
+          points: "Introduction to deep learning",
+          points1: "Product Analytics",
           content: [
             {
               chap: {
@@ -728,26 +674,24 @@ export const CloudAndDevOpsCourseData = [
                 desc: [
                   "Understanding the Basics of Data Migration",
                   "Key Considerations for Cloud Data Migration",
-
                 ],
               },
             },
             {
               chap: {
-                title: "Module 2 :- Data Migration Strategies and Best Practices",
+                title:
+                  "Module 2 :- Data Migration Strategies and Best Practices",
                 desc: [
                   "Planning and Executing a Migration Strategy",
                   "Tools and Techniques for Effective Data Migration",
-
-
-
                 ],
               },
             },
 
             {
               chap: {
-                title: "Module 3 :- Building Resilience and High Availability in Cloud",
+                title:
+                  "Module 3 :- Building Resilience and High Availability in Cloud",
                 desc: [
                   "Principles of Resilience in Cloud Computing",
                   "Designing for High Availability and Disaster Recovery",
@@ -755,20 +699,16 @@ export const CloudAndDevOpsCourseData = [
               },
             },
 
-
             {
               chap: {
-                title: "Module 4 :- Integrating Data Migration with DevOps Practices",
+                title:
+                  "Module 4 :- Integrating Data Migration with DevOps Practices",
                 desc: [
                   "Automation in Data Migration Processes",
                   "Continuous Integration and Continuous Deployment (CI/CD) for Data Migration",
-
-
-
                 ],
               },
             },
-
 
             {
               chap: {
@@ -776,9 +716,6 @@ export const CloudAndDevOpsCourseData = [
                 desc: [
                   "Analyzing Successful Data Migration Projects",
                   "Lessons Learned and Best Practices in Action",
-
-
-
                 ],
               },
             },
@@ -789,9 +726,6 @@ export const CloudAndDevOpsCourseData = [
                 desc: [
                   "Unikernels: Composition, Formats, and Management",
                   "Allocating Resources and Networking in Unikernels",
-
-
-
                 ],
               },
             },
@@ -801,67 +735,49 @@ export const CloudAndDevOpsCourseData = [
                 title: "Module 7 :- Comparative Analysis",
                 desc: [
                   "Differentiating Between VMs, Containers, and Unikernels",
-
-
-
                 ],
               },
             },
-
 
             {
               chap: {
                 title: "Module 8 :- Network Function Virtualization (NFV)",
-                desc: [
-                  "An Introduction to Network Function Virtualization",
-
-
-
-                ],
+                desc: ["An Introduction to Network Function Virtualization"],
               },
             },
-
           ],
           id: 6,
           open: false,
         },
       },
 
-
       {
         Module0: {
           title: "TERM 8 :- DevOps Expertise",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEVOPS_round.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEVOPS_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
-        points: "Mastering DevOps ",
-        points1: "Introduction to DevOps",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEVOPS_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEVOPS_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
+          points: "Mastering DevOps ",
+          points1: "Introduction to DevOps",
           content: [
             {
               chap: {
-                title:
-                  " Mastering DevOps ",
-                desc: [
-                  "",
-                ],
+                title: " Mastering DevOps ",
+                desc: [""],
               },
             },
             {
               chap: {
-                title:
-                  "Module 1 :- DevOps Tools and Practices ",
-                desc: [
-                  "",
-                ],
+                title: "Module 1 :- DevOps Tools and Practices ",
+                desc: [""],
               },
             },
             {
               chap: {
-                title:
-                  "Introduction to DevOps",
+                title: "Introduction to DevOps",
                 desc: [
                   "Evolution of DevOps and its significance in modern software development.",
                   "Core principles of DevOps practices.",
@@ -870,8 +786,7 @@ export const CloudAndDevOpsCourseData = [
             },
             {
               chap: {
-                title:
-                  "Infrastructure Setup",
+                title: "Infrastructure Setup",
                 desc: [
                   "Fundamentals of server configuration and management.",
                   "Setting up and managing virtual environments for DevOps practices.",
@@ -879,20 +794,15 @@ export const CloudAndDevOpsCourseData = [
               },
             },
 
-
             {
               chap: {
-                title:
-                  "Module 2 :- Version Control with Git ",
-                desc: [
-                  "",
-                ],
+                title: "Module 2 :- Version Control with Git ",
+                desc: [""],
               },
             },
             {
               chap: {
-                title:
-                  "Basics of Git",
+                title: "Basics of Git",
                 desc: [
                   "Introduction to version control systems.",
                   "Fundamental Git commands and workflows.",
@@ -902,8 +812,7 @@ export const CloudAndDevOpsCourseData = [
 
             {
               chap: {
-                title:
-                  "Advanced Git Techniques",
+                title: "Advanced Git Techniques",
                 desc: [
                   "Branching strategies for collaborative development.",
                   "Conflict resolution and best practices for maintaining code integrity.",
@@ -913,17 +822,13 @@ export const CloudAndDevOpsCourseData = [
 
             {
               chap: {
-                title:
-                  "Module 3:- Containerization with Docker ",
-                desc: [
-                  "",
-                ],
+                title: "Module 3:- Containerization with Docker ",
+                desc: [""],
               },
             },
             {
               chap: {
-                title:
-                  "Introduction to Containerization",
+                title: "Introduction to Containerization",
                 desc: [
                   "Concepts of containerization and its advantages.",
                   "Docker installation and setup.",
@@ -932,8 +837,7 @@ export const CloudAndDevOpsCourseData = [
             },
             {
               chap: {
-                title:
-                  "Docker in Practice",
+                title: "Docker in Practice",
                 desc: [
                   "Building, running, and managing Docker containers.",
                   "Docker Compose for multi-container setups.",
@@ -942,17 +846,13 @@ export const CloudAndDevOpsCourseData = [
             },
             {
               chap: {
-                title:
-                  "Module 4:- Configuration Management ",
-                desc: [
-                  "",
-                ],
+                title: "Module 4:- Configuration Management ",
+                desc: [""],
               },
             },
             {
               chap: {
-                title:
-                  "Puppet for Configuration Management",
+                title: "Puppet for Configuration Management",
                 desc: [
                   "Basics of Puppet: Architecture, setup, and usage.",
                   "Writing and applying Puppet manifests.",
@@ -961,8 +861,7 @@ export const CloudAndDevOpsCourseData = [
             },
             {
               chap: {
-                title:
-                  "Ansible for Automated Configuration",
+                title: "Ansible for Automated Configuration",
                 desc: [
                   "Ansible fundamentals: Playbooks, roles, and inventory.",
                   "Automation of repetitive tasks using Ansible.",
@@ -973,15 +872,12 @@ export const CloudAndDevOpsCourseData = [
               chap: {
                 title:
                   "Module 5:- Continuous Integration and Continuous Delivery (CI/CD)",
-                desc: [
-                  "",
-                ],
+                desc: [""],
               },
             },
             {
               chap: {
-                title:
-                  "Jenkins for CI/CD",
+                title: "Jenkins for CI/CD",
                 desc: [
                   "Setting up Jenkins for automated build and deployment.",
                   "Integrating Jenkins with various development tools.",
@@ -990,8 +886,7 @@ export const CloudAndDevOpsCourseData = [
             },
             {
               chap: {
-                title:
-                  "Continuous Delivery and Deployment Strategies",
+                title: "Continuous Delivery and Deployment Strategies",
                 desc: [
                   "Automating the software release process.",
                   "Best practices in maintaining a CI/CD pipeline.",
@@ -1000,17 +895,13 @@ export const CloudAndDevOpsCourseData = [
             },
             {
               chap: {
-                title:
-                  "Module 6:- Container Orchestration with Kubernetes",
-                desc: [
-                  "",
-                ],
+                title: "Module 6:- Container Orchestration with Kubernetes",
+                desc: [""],
               },
             },
             {
               chap: {
-                title:
-                  "Kubernetes Fundamentals",
+                title: "Kubernetes Fundamentals",
                 desc: [
                   "Architecture of Kubernetes, pods, and services.",
                   "Deploying applications on Kubernetes clusters.",
@@ -1019,8 +910,7 @@ export const CloudAndDevOpsCourseData = [
             },
             {
               chap: {
-                title:
-                  "Advanced Kubernetes Management",
+                title: "Advanced Kubernetes Management",
                 desc: [
                   "Scaling applications with Kubernetes.",
                   "Kubernetes networking, storage, and security.",
@@ -1029,17 +919,13 @@ export const CloudAndDevOpsCourseData = [
             },
             {
               chap: {
-                title:
-                  "Module 7:- Monitoring and Logging with ELK Stack",
-                desc: [
-                  "",
-                ],
+                title: "Module 7:- Monitoring and Logging with ELK Stack",
+                desc: [""],
               },
             },
             {
               chap: {
-                title:
-                  "Elasticsearch, Logstash, and Kibana (ELK)",
+                title: "Elasticsearch, Logstash, and Kibana (ELK)",
                 desc: [
                   "Setting up the ELK Stack for logging and monitoring.",
                   "Creating dashboards and visualizations in Kibana.",
@@ -1048,8 +934,7 @@ export const CloudAndDevOpsCourseData = [
             },
             {
               chap: {
-                title:
-                  "Integrating Monitoring into DevOps Workflows",
+                title: "Integrating Monitoring into DevOps Workflows",
                 desc: [
                   "Automated monitoring and alerting.",
                   "Best practices for log management and analysis.",
@@ -1058,17 +943,13 @@ export const CloudAndDevOpsCourseData = [
             },
             {
               chap: {
-                title:
-                  "Module 8:- Infrastructure as Code (IaC) with Terraform",
-                desc: [
-                  "",
-                ],
+                title: "Module 8:- Infrastructure as Code (IaC) with Terraform",
+                desc: [""],
               },
             },
             {
               chap: {
-                title:
-                  "Introduction to IaC and Terraform",
+                title: "Introduction to IaC and Terraform",
                 desc: [
                   "Principles of IaC and its benefits.",
                   "Installing and configuring Terraform.",
@@ -1077,8 +958,7 @@ export const CloudAndDevOpsCourseData = [
             },
             {
               chap: {
-                title:
-                  "Building Infrastructure with Terraform",
+                title: "Building Infrastructure with Terraform",
                 desc: [
                   "Writing Terraform scripts for automated infrastructure deployment.",
                   "Managing and scaling infrastructure with Terraform.",
@@ -1088,8 +968,7 @@ export const CloudAndDevOpsCourseData = [
 
             {
               chap: {
-                title:
-                  "Module 9:- AWS Devops",
+                title: "Module 9:- AWS Devops",
                 desc: [
                   "Code Commit",
                   "Code Build",
@@ -1100,8 +979,7 @@ export const CloudAndDevOpsCourseData = [
             },
             {
               chap: {
-                title:
-                  "Module 10:- Azure Devops",
+                title: "Module 10:- Azure Devops",
                 desc: [
                   "Introduction to Microsoft Azure",
                   "Introduction to DevOps",
@@ -1117,59 +995,53 @@ export const CloudAndDevOpsCourseData = [
           open: false,
         },
       },
-      {
-        Module0: {
-          title: "TERM 9 :- Splunk Development and Admin ",
-          imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
-        points: "Splunk Developer and Administration Esentials",
-          content: [
-            {
-              chap: {
-                title:
-                  "Module 1 :- Splunk Developer and Administration Esentials ",
-                desc: [
-                  "Splunk Development and Administration",
-                  "Splunk Development Concepts, Searching, Reports, and Visualizations",
-                  "Splunk Administration, Installation, and Deployment Management",
+      // {
+      //   Module0: {
+      //     title: "TERM 9 :- Splunk Development and Admin ",
+      //     imageUrl:
+      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
+      //   StartImageUrl:
+      //     " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
+      //   endImageUrl:
+      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
+      //   points: "Splunk Developer and Administration Esentials",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title:
+      //             "Module 1 :- Splunk Developer and Administration Esentials ",
+      //           desc: [
+      //             "Splunk Development and Administration",
+      //             "Splunk Development Concepts, Searching, Reports, and Visualizations",
+      //             "Splunk Administration, Installation, and Deployment Management",
 
+      //           ],
+      //         },
+      //       },
 
-                ],
-              },
-            },
+      //       {
+      //         chap: {
+      //           title:
+      //             "Module 2 :- Advanced Splunk Skills",
+      //           desc: [
+      //             "Data Parsing, Pivot, Common Information Model (CIM) Add-On",
+      //             "Splunk Security Essentials",
+      //             "Splunk Data Analysis Techniques",
+      //             "Splunk Dashboard Customization",
+      //             "Splunk API Integration",
+      //             "Performance Optimization in Splunk",
+      //             "Troubleshooting and Problem Solving",
+      //             "Splunk for Cloud Services",
 
-            {
-              chap: {
-                title:
-                  "Module 2 :- Advanced Splunk Skills",
-                desc: [
-                  "Data Parsing, Pivot, Common Information Model (CIM) Add-On",
-                  "Splunk Security Essentials",
-                  "Splunk Data Analysis Techniques",
-                  "Splunk Dashboard Customization",
-                  "Splunk API Integration",
-                  "Performance Optimization in Splunk",
-                  "Troubleshooting and Problem Solving",
-                  "Splunk for Cloud Services",
+      //           ],
+      //         },
+      //       },
 
-
-                ],
-              },
-            },
-
-
-          ],
-          id: 6,
-          open: false,
-        },
-      },
-
-
-
+      //     ],
+      //     id: 6,
+      //     open: false,
+      //   },
+      // },
     ],
     faq: [
       {
@@ -1232,7 +1104,7 @@ export const CloudAndDevOpsCourseData = [
           },
         ],
       },
-     
+
       {
         id: 1,
         sectionName: "Payments and Scholarships",
@@ -1277,19 +1149,19 @@ export const CloudAndDevOpsCourseData = [
             ques: "Are there any discounts for early registration in the program?            ",
             ans: "Yes, we offer early bird discounts of 15% – 20% for learners registering in the program at first. Yet, a group discount is available for the learners who join with one or more friends.             ",
             open: false,
-          list1:"Group of 2: 5% extra discount          ",
-          list2:"Group of 3: 8% additional discount          ",
-          list3:"Group of 4+: Max 10% discount          ",
-          dscoursefaq1 :true,
+            list1: "Group of 2: 5% extra discount          ",
+            list2: "Group of 3: 8% additional discount          ",
+            list3: "Group of 4+: Max 10% discount          ",
+            dscoursefaq1: true,
           },
           {
             id: 7,
             ques: "Is there a refund policy in case I need to withdraw from the program?            ",
             ans: "Yes, we offer an effortless refund or cancellation policy for those who need to withdraw from the program. For further details, refer to Learnbay’s Refund/Cancellation Policy.             ",
             open: false,
-         linkText1: "Learnbay’s Refund/Cancellation Policy",
-             link1: "/refund-cancellation-policy",
-           ansAfter: " before enrolling in the program.",
+            linkText1: "Learnbay’s Refund/Cancellation Policy",
+            link1: "/refund-cancellation-policy",
+            ansAfter: " before enrolling in the program.",
             link: true,
           },
           {
@@ -1297,7 +1169,6 @@ export const CloudAndDevOpsCourseData = [
             ques: "Are there any additional costs for course materials, textbooks, or certification exams?            ",
             ans: "No, you don’t have to pay additionally for course materials, textbooks, or certification exams. With just payment of course fees, you can start upskilling.             ",
             open: false,
-        
           },
         ],
       },
@@ -1305,12 +1176,11 @@ export const CloudAndDevOpsCourseData = [
         id: 2,
         sectionName: "Capstone and Real-Time Projects",
         data: [
-
           {
             id: 0,
             ques: "How many real-time projects will be there?            ",
             ans: "You will get 10+ real-time projects with this program in different domains or areas of expertise.             ",
-      
+
             open: false,
           },
           {
@@ -1372,14 +1242,17 @@ export const CloudAndDevOpsCourseData = [
             id: 1,
             ques: "What distinguishes this cloud computing course from others in the market?            ",
             ans: "Learnbay believes in real-time upskilling to enrich the existing skill sets and attain career success. Its Cloud Computing and DevOps Certification Program is different from others in the following ways –            ",
-            list1:"Industry-driven syllabus with AWS, Microsoft Azure, and GCP            ",
-            list2:"Guaranteed calls for Interviews from Industry partners             ",
-            list3:"Globally recognized project certification from IBM",            
-            list4:"Domain-specific training             ",
-            list5:"100% 1:1 live interactions with industry experts            ",
-            list6:"On-demand video doubt-clearing support            ",
-            list7:"Customized resume preparation             ",
-            dscoursefaq1:true,
+            list1:
+              "Industry-driven syllabus with AWS, Microsoft Azure, and GCP            ",
+            list2:
+              "Guaranteed calls for Interviews from Industry partners             ",
+            list3: "Globally recognized project certification from IBM",
+            list4: "Domain-specific training             ",
+            list5:
+              "100% 1:1 live interactions with industry experts            ",
+            list6: "On-demand video doubt-clearing support            ",
+            list7: "Customized resume preparation             ",
+            dscoursefaq1: true,
             open: false,
           },
 
@@ -1387,39 +1260,43 @@ export const CloudAndDevOpsCourseData = [
             id: 2,
             ques: "Can you provide details on the job assistance provided after completing the Cloud Computing and DevOps Certification Program?            ",
             ans: " After completing the Cloud Computing and DevOps Certification Program end-to-end job assistance is offered to learners. Learners with a minimum of 70% in assessments and completed projects are eligible to get job assistance from Learnbay. We have a Career Service Pro deal for eligible learners where they will get benefits like –             ",
-            list1:"Uninterrupted Job and Placement Support            ",
-            list2:"Complete access to course materials and resources            ",
-            list3:"1:1 Mock Interviews with any of 450+ Industry Experts             ",            
-            list4:"24/7 contact with Mentors            ",
-            list5:"Resume Building Session            ",
-            list6:"1:1 LinkedIn Review Session            ",
-            list7:"Dedicated Placement Team for soft skills training             ",
-            dscoursefaq1:true,
-            
+            list1: "Uninterrupted Job and Placement Support            ",
+            list2:
+              "Complete access to course materials and resources            ",
+            list3:
+              "1:1 Mock Interviews with any of 450+ Industry Experts             ",
+            list4: "24/7 contact with Mentors            ",
+            list5: "Resume Building Session            ",
+            list6: "1:1 LinkedIn Review Session            ",
+            list7:
+              "Dedicated Placement Team for soft skills training             ",
+            dscoursefaq1: true,
+
             open: false,
           },
           {
             id: 3,
             ques: " What resources or support systems are in place to help graduates secure positions in the field of cloud computing and DevOps?            ",
             ans: "Learnbay offers industry-paced training to help graduates secure a promising position in Cloud Computing and DevOps. Resources or support they offer are –            ",
-            list1:"360-degree knowledge-building training             ",
-            list2:"Live projects for practical learning            ",
-            list3:"Training on in-demand Cloud & DevOps tools            ",            
-            list4:"100% placement support (Career Service Pro)            ",
-            list5:"Globally recognized dual certifications (IBM & Microsoft)            ",
-            dscoursefaq1:true,
+            list1: "360-degree knowledge-building training             ",
+            list2: "Live projects for practical learning            ",
+            list3: "Training on in-demand Cloud & DevOps tools            ",
+            list4: "100% placement support (Career Service Pro)            ",
+            list5:
+              "Globally recognized dual certifications (IBM & Microsoft)            ",
+            dscoursefaq1: true,
             open: false,
           },
           {
             id: 4,
             ques: "Explain Learnbay's Career Service Pro. Can I opt for Career Service Pro for the Cloud & DevOps Program?            ",
             ans: "Learnbay’s Career Service Pro aims to support a successful career transition in a preferred role. It has features like –            ",
-            list1:"3 years of Job and Placement Support            ",
-            list2:"6 Mock Interviews with Industry Experts             ",
-            list3:"Resume Preparation Session            ",            
-            list4:"1:1 LinkedIn Review Session            ",
-            list5:"Dedicated Placement Team            ",
-            dscoursefaq1:true,
+            list1: "3 years of Job and Placement Support            ",
+            list2: "6 Mock Interviews with Industry Experts             ",
+            list3: "Resume Preparation Session            ",
+            list4: "1:1 LinkedIn Review Session            ",
+            list5: "Dedicated Placement Team            ",
+            dscoursefaq1: true,
             open: false,
           },
         ],

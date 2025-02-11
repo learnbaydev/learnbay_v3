@@ -4,7 +4,7 @@ import Image from "next/image";
 function ReviewSwitch() {
   return (
     <section className={Styles.container}>
-      <h4>Switchup review</h4>
+      <h4>Switchup Reviews</h4>
       <div className={Styles.BoxDiv}>
         <div className="imgWrapper">
           <Image

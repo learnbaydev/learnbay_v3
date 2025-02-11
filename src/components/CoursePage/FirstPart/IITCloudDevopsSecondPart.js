@@ -31,7 +31,6 @@ const IITCloudDevopsSecondPart = ({
   toolsData,
   genAiData,
 }) => {
-
   // console.log(popupData);
 
   const pdfUrl = "/Brochure/IIT-cloud-devops.pdf";
@@ -57,15 +56,15 @@ const IITCloudDevopsSecondPart = ({
       {/* <NewCertificateSection certificateNew={certificateNew} /> */}
 
       <DSAFeeSection
-        Fee="₹1,10,000"
+        Fee="₹1,10,0000"
         FeeEmi="₹ 7,211/month"
-        weekendbatch="Weekday Evening"
+        weekendbatch="Weekend Evening"
         weekdaybatch="Weekday Evening"
         weekday="MON-WED-FRI"
-        weekend="MON-WED-FRI"
-        WeekendDate="JAN 26th"
-        WeekdayDate="JAN 10th "
-        WeekendTime="08:00PM - 10:00PM"
+        weekend="SAT-SUN"
+        WeekendDate="March 2nd"
+        WeekdayDate="March 14th"
+        WeekendTime="09:30PM - 01:00PM"
         WeekdayTime="08:00PM - 10:00PM"
         FeeContent3="Flexible payment"
         // <EMI POPUP
@@ -111,7 +110,7 @@ const IITCloudDevopsSecondPart = ({
       /> */}
       {/* <MentorsSection /> */}
       <SliderTab />
-      <GenAIProject genAiData ={genAiData} GENAIMAN={true} noClud={true}/>
+      <GenAIProject genAiData={genAiData} GENAIMAN={true} noClud={true} />
       {/* <PlacementCall /> */}
       {/* <FAQNew FAQNewData={FAQNewData} /> */}
       {/* <Content dataScienceCounselling={true} DSASeoContent={true} /> */}

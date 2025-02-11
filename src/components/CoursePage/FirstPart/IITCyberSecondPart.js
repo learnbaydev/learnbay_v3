@@ -6,9 +6,7 @@ import LJourney from "../LJourney/LJourney";
 import DSAFeeSection from "../dsaFee/DSAFeeSection";
 import NewTools from "../newTools/NewTools";
 import IHubAboutIIT from "../iHubAbout/IHubAboutIIT";
-const Certificate= dynamic(() =>
-import("../Certificate/Certificate")
-)
+const Certificate = dynamic(() => import("../Certificate/Certificate"));
 const SeventhSection = dynamic(() =>
   import("@/components/Global/SeventhSection/SeventhSection")
 );
@@ -16,10 +14,7 @@ const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 
 const SliderTab = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
 
-const FAQNew = dynamic(() =>
-  import("../FAQNew/FAQNewDomain")
-);
-
+const FAQNew = dynamic(() => import("../FAQNew/FAQNewDomain"));
 
 const IITCyberSecondPart = ({
   masterSyllabusMobile,
@@ -27,12 +22,11 @@ const IITCyberSecondPart = ({
   toolsData,
   CertificateData,
 }) => {
-
   const pdfUrl = "/Brochure/Cyber-Security-IIT.pdf";
   return (
     <div>
       <LJourney />
-      <NewTools toolsData={toolsData}/>
+      <NewTools toolsData={toolsData} />
       <SyllabusNew
         masterSyllabusMobile={masterSyllabusMobile}
         dataScienceCounselling={true}
@@ -44,33 +38,33 @@ const IITCyberSecondPart = ({
         interstedInHide={true}
       />
 
-<Certificate data={CertificateData}  cyber={true} ECCou={true}/>
+      <Certificate data={CertificateData} cyber={true} ECCou={true} />
 
       <DSAFeeSection
-         Fee="₹1,10,000"
-         FeeEmi="₹ 7,211/month"
-         weekendbatch="Weekday Evening"
-         weekdaybatch="Weekday Evening"
-         weekday="MON-WED-FRI"
-         weekend="MON-WED-FRI"
-         WeekendDate="JAN 26th"
-         WeekdayDate="JAN 10th "
-         WeekendTime="08:00PM - 10:00PM"
-         WeekdayTime="08:00PM - 10:00PM"
-         FeeContent3="Flexible payment"
-         // <EMI POPUP
-         emiType="NO COST EMI"
-         duration1="18 Months"
-         totalAmount1="₹1,10,000"
-         monthlyPayment1="₹7,211"
-         greenDown1="Standard Intrest rate Applicable"
-         duration2="12 Months"
-         totalAmount2="₹1,10,000"
-         monthlyPayment2="₹10,816"
+        Fee="₹1,10,000"
+        FeeEmi="₹ 7,211/month"
+        weekendbatch="Weekend Morning"
+        weekdaybatch="Weekend Morning"
+        weekday="MON-WED-FRI"
+        weekend="MON-WED-FRI"
+        WeekendDate="23rd Mar"
+        WeekdayDate="2nd Mar"
+        WeekendTime="09:00AM - 12:00PM"
+        WeekdayTime="09:00AM - 12:00PM"
+        FeeContent3="Flexible payment"
+        // <EMI POPUP
+        emiType="NO COST EMI"
+        duration1="18 Months"
+        totalAmount1="₹1,10,000"
+        monthlyPayment1="₹7,211"
+        greenDown1="Standard Intrest rate Applicable"
+        duration2="12 Months"
+        totalAmount2="₹1,10,000"
+        monthlyPayment2="₹10,816"
       />
-  
+
       <SliderTab />
-<IHubAboutIIT/>
+      <IHubAboutIIT />
       <FAQNew FAQNewData={FAQNewData} />
       <SeventhSection />
       <Footer />

@@ -4,7 +4,7 @@ import Image from "next/image";
 function ReviewCourse() {
   return (
     <section className={Styles.container}>
-      <h4>Course Report review</h4>
+      <h4>Course Report Reviews</h4>
       <div className={Styles.BoxDiv}>
         <div className="imgWrapper">
           <Image

@@ -41,7 +41,7 @@ const Footer = ({
   };
 
   const currentYear = new Date().getFullYear();
-  
+
   return (
     <section className={styles.FooterSection}>
       <div className={styles.FooterDiv}>
@@ -87,10 +87,14 @@ const Footer = ({
             </div>
           ) : (
             <div className={styles.FooterSocial}>
-              <Link href="https://twitter.com/Learnbay" target="_blank" >
+              <Link href="https://twitter.com/Learnbay" target="_blank">
                 <BsTwitterX className="bIcons" />
               </Link>
-              <Link href="https://www.facebook.com/learnbay/" target="_blank" rel="noreferrer">
+              <Link
+                href="https://www.facebook.com/learnbay/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaFacebookF className="bIcons" />
               </Link>
               <Link
@@ -363,7 +367,7 @@ const Footer = ({
       <div className={styles.FooterBottom}>
         <div className={styles.FooterBottomInner}>
           <p className={styles.FooterInnerB}>
-            Copyright © 2015 - 2024 Learnbay by Learnvista Pvt. Ltd. All Rights
+            Copyright © 2015 - 2025 Learnbay by Learnvista Pvt. Ltd. All Rights
             Reserved.
           </p>
         </div>

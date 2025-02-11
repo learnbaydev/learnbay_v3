@@ -74,7 +74,7 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
-    const pdfUrl = "/Brochure/Masters-in-CS.pdf"
+  const pdfUrl = "/Brochure/Masters-in-CS.pdf";
   return (
     <>
       <GetHire />
@@ -100,9 +100,9 @@ const SecondPart = ({
         weekendbatch="Weekday Batch"
         weekday="SAT-SUN"
         weekend="MON-FRI"
-        WeekdayDate="Dec 29th"
-        WeekendDate="SEP 13th"
-        WeekendTime="08:00 PM - 10:00 PM"
+        WeekdayDate="7th Mar"
+        WeekendDate="23rd Feb"
+        WeekendTime="08:00 PM - 10:30 PM"
         WeekdayTime=" 09:30 AM - 01:00 PM"
         CutFee="₹ 3,25,000/-"
         FeeContent3="Flexible payment"

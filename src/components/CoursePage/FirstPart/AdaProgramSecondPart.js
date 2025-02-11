@@ -78,7 +78,7 @@ const ExecutiveSecondPart = ({
     };
     fetchPopup();
   }, []);
-    const pdfUrl = "/Brochure/Iit-Data-Analytics-Certifications.pdf"
+  const pdfUrl = "/Brochure/Iit-Data-Analytics-Certifications.pdf";
   return (
     <>
       <GetHire />
@@ -107,8 +107,8 @@ const ExecutiveSecondPart = ({
         weekendbatch="Weekend Batch"
         weekday="MON - FRI"
         weekend="SAT - SUN"
-        WeekdayDate="15th November"
-        WeekendDate="19th January"
+        WeekdayDate="14th Feb"
+        WeekendDate="16th Mar"
         WeekdayTime="8:00 PM - 10:00 PM "
         WeekendTime="9:30 AM - 1:00 PM"
         FeeContent3="Flexible payment"
