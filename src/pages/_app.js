@@ -55,13 +55,13 @@ const ComponentWithPopup = ({ Component, pageProps }) => {
   const router = useRouter();
 
   useEffect(() => {
-    if (router.pathname !== "/organic/generic" && router.pathname !== "/submit-info" && router.pathname !== "/fullstack/dsa-and-system-design") {
+    if (router.pathname !== "/organic/generic" && router.pathname !== "/submit-info" && router.pathname !== "/fullstack/dsa-system-design") {
       const timer = setTimeout(() => {
         triggerPopup("");
       }, 5000);
 
       return () => clearTimeout(timer);
-    }else if (router.pathname === "/fullstack/dsa-and-system-design") {
+    }else if (router.pathname === "/fullstack/dsa-system-design") {
       const timer = setTimeout(() => {
         triggerDsaPopup("Welcome to the DSA section!");
       }, 5000);
