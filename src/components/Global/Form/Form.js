@@ -163,7 +163,7 @@ const Form = ({
           setTrigger(false);
         }
 
-        if(dsaPopup){
+        if (dsaPopup) {
           setDSAPopup();
         }
 
@@ -370,9 +370,7 @@ const Form = ({
               {submitting
                 ? "Submitting..."
                 : downloadBrochure
-                ? DSADemoSession
-                  ? "Book Session"
-                  : "Download Now"
+                ? "Download Now"
                 : btnText}
             </button>
           </div>
@@ -391,9 +389,7 @@ const Form = ({
               {submitting
                 ? "Submitting..."
                 : downloadBrochure
-                ? DSADemoSession
-                  ? "Book Session"
-                  : "Download Now"
+                ? "Download Now"
                 : btnText}
             </button>
           </>
