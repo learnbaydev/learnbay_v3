@@ -7,7 +7,13 @@ import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper";
 
-function FAQNew({ FAQNewData, dscoursefaq, toolsdynamic, DSAFresherFAQT}) {
+function FAQNew({
+  background,
+  FAQNewData,
+  dscoursefaq,
+  toolsdynamic,
+  DSAFresherFAQT,
+}) {
   // const [mobile, setMobile] = useState(false);
   const [dataLoop, setDataLoop] = useState([
     { title: "Course Related", value: true },
@@ -44,21 +50,20 @@ function FAQNew({ FAQNewData, dscoursefaq, toolsdynamic, DSAFresherFAQT}) {
             Business Analyst Certification Course FAQs
           </h4>
         </>
-      ) : DSAFresherFAQT ?  (<h4 className={styles.infop}>
-            FAQs for DSA Course [Freshers]
-          </h4>):(
+      ) : DSAFresherFAQT ? (
+        <h4 className={styles.infop}>FAQs for DSA Course [Freshers]</h4>
+      ) : (
         <>
           {" "}
           <h4 className={styles.infop}>FAQs</h4>
         </>
-      )
-      }
+      )}
 
       <p>
         Curriculum is specifically engineered to meet the expectations of
         leading tech companies.
       </p>
-      <div className={styles.courseM}>
+      <div className={background ? styles.backgroundcolor : styles.courseM}>
         <div className={styles.courses}>
           <div className={styles.listPanel}>
             {FAQNewData.map((data, index) => {

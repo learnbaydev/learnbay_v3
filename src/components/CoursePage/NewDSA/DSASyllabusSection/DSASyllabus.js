@@ -1,29 +1,25 @@
 "use client";
 
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, memo, useCallback, useEffect } from "react";
 import styles from "./DSASyllabus.module.css";
 import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCoverflow, Navigation, Pagination } from "swiper";
-import "swiper/css"; // Swiper core styles
-import "swiper/css/navigation"; // Navigation styles (if used)
-import "swiper/css/pagination"; // Pagination styles (if used)
-import "swiper/css/effect-coverflow"; // Coverflow effect styles (if used)
+import dynamic from "next/dynamic";
 
+import Popup from "@/components/Global/Popup/Popup";
+import PopupContent from "@/components/Global/PopupContent/PopupContent";
+// const PopupContent = dynamic(() => import("../../global/popup/PopupContent"), {
+//   ssr: false,
+//   loading: () => <p>Loading EMI options...</p>,
+// });
 const SyllabusSection = ({
   sections = [],
   brochureLink,
   brochurePdf,
-  interstedInHide,
-  radio,
+  downloadBrochure,
+  titleCourse,
 }) => {
-  const [openSliderIndex, setOpenSliderIndex] = useState(null);
-  const [initialSlide, setInitialSlide] = useState(0);
-  const [activeSlides, setActiveSlides] = useState([]);
-  const swiperRef = useRef(null);
-  const gridContainerRef = useRef(null);
   const [popups, setPopups] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
+  const [applyCounselingPopup, setApplyCounselingPopup] = useState(false);
   const [windowWidth, setWindowWidth] = useState(0);
   useEffect(() => {
     const handleResize = () => setWindowWidth(window.innerWidth);
@@ -32,83 +28,16 @@ const SyllabusSection = ({
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  // Detect screen size
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
-    };
-
-    window.addEventListener("resize", handleResize);
-    handleResize();
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
+  const popupShow = useCallback(() => {
+    setPopups(true);
   }, []);
-
-  const toggleSlider = (index) => {
-    setInitialSlide(index);
-    setOpenSliderIndex(openSliderIndex === index ? null : index);
-
-    if (gridContainerRef.current) {
-      const firstCard = gridContainerRef.current.querySelector(".card");
-      if (firstCard) {
-        const cardLeftPosition = firstCard.offsetLeft;
-        gridContainerRef.current.scrollTo({
-          left: cardLeftPosition,
-          behavior: "smooth",
-        });
-      }
-    }
-  };
-
-  const updateActiveSlides = () => {
-    if (!swiperRef.current?.swiper) return;
-
-    const swiperInstance = swiperRef.current.swiper;
-    const slides = Array.from(swiperInstance.slides);
-    const swiperRect = swiperInstance.el.getBoundingClientRect();
-    const swiperCenter = swiperRect.left + swiperRect.width / 2;
-    const activeRange = 0.3 * swiperRect.width;
-
-    const newActiveSlides = slides
-      .filter((slide) => {
-        const slideRect = slide.getBoundingClientRect();
-        const slideCenter = (slideRect.left + slideRect.right) / 2;
-        return Math.abs(swiperCenter - slideCenter) < activeRange;
-      })
-      .map((slide) => slide.getAttribute("data-swiper-slide-index"));
-
-    setActiveSlides(newActiveSlides);
-  };
-
-  useEffect(() => {
-    const swiperInstance = swiperRef.current?.swiper;
-
-    if (swiperInstance) {
-      swiperInstance.on("slideChange", updateActiveSlides);
-      swiperInstance.on("transitionEnd", updateActiveSlides);
-      updateActiveSlides();
-    }
-
-    return () => {
-      swiperInstance?.off("slideChange", updateActiveSlides);
-      swiperInstance?.off("transitionEnd", updateActiveSlides);
-    };
-  }, [openSliderIndex]);
+  const applyCounselingShow = useCallback(() => {
+    setApplyCounselingPopup(true);
+  }, []);
 
   if (!Array.isArray(sections) || sections.length === 0) {
     return <div>No sections available.</div>;
   }
-
-  const popupShow = () => {
-    setPopups(true);
-  };
-
-  const closePopup = () => {
-    setOpenSliderIndex(null);
-  };
-
   const getResponsiveSize = (sizes) => {
     if (!sizes) {
       return { width: 100, height: 100 }; // Fallback to default size
@@ -121,18 +50,29 @@ const SyllabusSection = ({
 
   return (
     <div className={styles.mainConteiner}>
+      <PopupContent
+        popups={popups ? popups : applyCounselingPopup}
+        setPopups={popups ? setPopups : setApplyCounselingPopup}
+        heading={popups ? "Download Syllabus" : "Apply For Counselling"}
+        downloadBrochure={popups ? downloadBrochure : false}
+        brochureLink={brochureLink}
+        brochurePdf={brochurePdf}
+        dataScienceCounselling={applyCounselingPopup ? true : false}
+        interstedInHide={true}
+        dataScience={popups ? true : false}
+        titleCourse={titleCourse}
+        upSkillingHide={true}
+        // dataScienceCounselling={dataScienceCounselling}
+      />
       <h2 className={styles.headline}>
         Explore Our <span>Syllabus</span>
       </h2>
       {sections.map((section, index) => {
         const reasult = getResponsiveSize(section.imageSizes);
         const { height, width } = reasult;
+
         return (
-          <div
-            key={section.id}
-            className={styles.gridConteiner}
-            ref={gridContainerRef}
-          >
+          <div key={section.id} className={styles.gridConteiner}>
             <div className={styles.gridleft}>
               <div className={styles.leftinside}>
                 <Image
@@ -140,8 +80,10 @@ const SyllabusSection = ({
                   width={section.width}
                   height={section.height}
                   alt="trackIcon"
+                  loading="lazy"
+                  quality={50}
                 />
-                <h3>{section.title}</h3>
+                <h3 className={styles.leftInsideH3}>{section.title}</h3>
               </div>
               {index !== sections.length - 1 && (
                 <div className={styles.verticalLine}></div>
@@ -168,186 +110,58 @@ const SyllabusSection = ({
                         <li key={idx}>{detail}</li>
                       ))}
                     </ul>
-                    <div
-                      className={styles.popupbtn}
-                      onClick={() => toggleSlider(index)}
-                    >
+                    <div className={styles.popupbtn} onClick={popupShow}>
                       Read more
                     </div>
                   </div>
                   <div className={styles.tools}>
                     <p>Topics</p>
-                    <Image
-                      src={section.toolsImg}
-                      width={width}
-                      height={height}
-                      alt="tools"
-                      loading="lazy"
-                    />
+                    <div className={styles.toolsImgWrapper}>
+                      <Image
+                        src={section.toolsImg}
+                        width={width}
+                        height={height}
+                        alt="tools"
+                        loading="lazy"
+                        quality={50}
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-
-            {openSliderIndex === index && (
-              <div className={styles.popup}>
-                <button className={styles.closePopup} onClick={closePopup}>
-                  Close
-                </button>
-                {Array.isArray(section.popuplist) &&
-                section.popuplist.length > 0 ? (
-                  !isMobile ? (
-                    <Swiper
-                      spaceBetween={10}
-                      slidesPerView={1}
-                      centeredSlides={true}
-                      className={styles.swiper}
-                      ref={swiperRef}
-                      grabCursor={true}
-                      touchRatio={2}
-                      freeMode={false}
-                      modules={[EffectCoverflow]}
-                      effect="coverflow"
-                      coverflowEffect={{
-                        rotate: 0,
-                        stretch: 40,
-                        depth: 100,
-                        modifier: 2,
-                      }}
-                      initialSlide={initialSlide}
-                      onSlideChange={updateActiveSlides}
-                      breakpoints={{
-                        320: { slidesPerView: 1, spaceBetween: 10 },
-                        480: { slidesPerView: 1.5, spaceBetween: 15 },
-                        768: { slidesPerView: 2, spaceBetween: 20 },
-                        1024: { slidesPerView: 3, spaceBetween: 30 },
-                        1440: { slidesPerView: 3, spaceBetween: 30 },
-                      }}
-                    >
-                      {section.popuplist.map((item, idx) => (
-                        <SwiperSlide
-                          key={item.id}
-                          data-swiper-slide-index={idx}
-                          className={`${styles.swiperSlide} ${
-                            activeSlides.includes(idx.toString())
-                              ? styles.active
-                              : ""
-                          }`}
-                        >
-                          <div className={styles.card}>
-                            <div className={styles.cardContent}>
-                              <div className={styles.cardHead}>
-                                <div className={styles.termGreen}>
-                                  {item.term}
-                                </div>
-                                <div className={styles.date}>
-                                  <span>{item.duration}</span>
-                                </div>
-                              </div>
-                              <h5 className={styles.titleH}>{item.title}</h5>
-                              <div className={styles.slidercontent}>
-                                {item.modules.map((module) => (
-                                  <div
-                                    className={styles.module}
-                                    key={module.moduleTitle}
-                                  >
-                                    <div className={styles.popupleft}>
-                                      <span className={styles.rotateText}>
-                                        {module.moduleTitle}
-                                      </span>
-                                    </div>
-                                    <div className={styles.rytdiv}>
-                                      <div className={styles.textwrapper}>
-                                        {module.sectionTitle && (
-                                          <span>{module.sectionTitle}</span>
-                                        )}
-                                        {module.sectionTitle2 && (
-                                          <span>{module.sectionTitle2}</span>
-                                        )}
-                                      </div>
-                                      <p>{module.moduleContent}</p>
-                                      <ul className={styles.listItem}>
-                                        {module.moduleList.map(
-                                          (detail, detailIdx) => (
-                                            <li key={detailIdx}>{detail}</li>
-                                          )
-                                        )}
-                                      </ul>
-                                    </div>
-                                    {/* <div className={styles.populist}>
-                                      {module.moduleList.map((content, idx) => (
-                                        <p key={idx}>{content}</p>
-                                      ))}
-                                    </div> */}
-                                  </div>
-                                ))}
-                              </div>
-                            </div>
-                          </div>
-                        </SwiperSlide>
-                      ))}
-                    </Swiper>
-                  ) : (
-                    <div className={styles.cardContainer}>
-                      {section.popuplist.map((item, idx) => (
-                        <div key={idx} className={styles.card}>
-                          <div className={styles.cardContent}>
-                            <div className={styles.cardHead}>
-                              <div className={styles.termGreen}>
-                                {item.term}
-                              </div>
-                              <div className={styles.date}>
-                                <span>{item.duration}</span>
-                              </div>
-                            </div>
-                            <h5 className={styles.titleH}>{item.title}</h5>
-                            <div className={styles.slidercontent}>
-                              {item.modules.map((module) => (
-                                <div
-                                  className={styles.module}
-                                  key={module.moduleTitle}
-                                >
-                                  <div className={styles.popupleft}>
-                                    <span className={styles.rotateText}>
-                                      {module.moduleTitle}
-                                    </span>
-                                  </div>
-                                  <div className={styles.rytdiv}>
-                                    <div className={styles.textwrapper}>
-                                      {module.sectionTitle && (
-                                        <span>{module.sectionTitle}</span>
-                                      )}
-                                      {module.sectionTitle2 && (
-                                        <span>{module.sectionTitle2}</span>
-                                      )}
-                                    </div>
-                                    <p>{module.moduleContent}</p>
-                                    <ul className={styles.listItem}>
-                                      {module.moduleList.map(
-                                        (detail, detailIdx) => (
-                                          <li key={detailIdx}>{detail}</li>
-                                        )
-                                      )}
-                                    </ul>
-                                  </div>
-                                </div>
-                              ))}
-                            </div>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  )
-                ) : (
-                  <div>No content available</div>
-                )}
-              </div>
-            )}
           </div>
         );
       })}
+
+      <div className={styles.buttondiv}>
+        <div className={styles.btnone} onClick={applyCounselingShow}>
+          <Image
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Thumb_Icon+(1).webp"
+            width={30}
+            height={30}
+            loading="lazy"
+            alt="Python"
+            quality={40}
+          />
+          Start Your Application
+        </div>
+        <div className={styles.btntwo} onClick={popupShow}>
+          <div className={styles.pdficon}>
+            <Image
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/pdF_icon+(1).webp"
+              width={30}
+              height={30}
+              loading="lazy"
+              alt="PDF Download"
+              quality={40}
+            />
+          </div>
+          Download Brochure
+        </div>
+      </div>
     </div>
   );
 };
 
-export default SyllabusSection;
+export default memo(SyllabusSection);
