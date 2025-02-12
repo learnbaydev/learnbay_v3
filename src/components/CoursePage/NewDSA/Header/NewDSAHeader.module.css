@@ -14,10 +14,12 @@
   gap: 80px;
   padding: 30px 180px;
   border-radius: 0 0 60px 60px;
-  background: linear-gradient(to bottom,
-      #212121 0%,
-      rgba(0, 114, 188, 0.2) 60%,
-      rgba(0, 114, 188, 0.2) 100%);
+  background: linear-gradient(
+    to bottom,
+    #212121 0%,
+    rgba(0, 114, 188, 0.2) 60%,
+    rgba(0, 114, 188, 0.2) 100%
+  );
 }
 
 .contentTitleWrapper {
@@ -284,13 +286,13 @@
     padding: 30px 35px;
   }
 
-  .contentTitleWrapper h1{
+  .contentTitleWrapper h1 {
     width: 105%;
   }
 
   .contentTitleWrapper h5 {
     font-size: 24px;
-}
+  }
 }
 
 @media only screen and (max-width: 641px) {
@@ -349,21 +351,28 @@
 
   .pointText {
     font-size: 14px;
-
   }
 
   .mentorsWraper {
     gap: 30px;
   }
+
+  .buttonsWrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media only screen and (max-width: 481px) {
   .contentWrapper {
-    background: linear-gradient(to bottom,
-        #212121 0%,
-        #212121 50%,
-        rgba(0, 114, 188, 0.2) 80%,
-        rgba(0, 114, 188, 0.2) 100%);
+    background: linear-gradient(
+      to bottom,
+      #212121 0%,
+      #212121 50%,
+      rgba(0, 114, 188, 0.2) 80%,
+      rgba(0, 114, 188, 0.2) 100%
+    );
   }
 
   .mainContainer {
@@ -486,7 +495,7 @@
   }
 
   .staticPoints p {
-    color: #FFF;
+    color: #fff;
     font-style: normal;
     line-height: 125%;
     font-weight: 400;
@@ -563,7 +572,6 @@
     border-radius: 0;
   }
 
-
   .staticPoints p {
     font-size: 13px;
   }
@@ -577,7 +585,6 @@
           padding: 5px 10px;
           width: -webkit-fill-available;
       } */
-
 
   .mentorsWraper {
     gap: 40px;

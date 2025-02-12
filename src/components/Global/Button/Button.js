@@ -2,19 +2,50 @@
 
 import React from "react";
 
-const Button = ({ text, passIcon, outline, invert, bannerButton, nobannerButton, whiteBgButton, ButtonWhiteBg, greenButton, blackButton, OrangeButton }) => {
+const Button = ({
+  text,
+  passIcon,
+  outline,
+  invert,
+  bannerButton,
+  nobannerButton,
+  whiteBgButton,
+  ButtonWhiteBg,
+  greenButton,
+  blackButton,
+  OrangeButton,
+  newButton,
+  grayButton,
+  newBlueButton,
+}) => {
   return (
     <button
       className={
-        ButtonWhiteBg ? "ButtonWhiteBg" :
-        whiteBgButton ? "whiteBgButton" :
-        nobannerButton ? "nobannerButton" :
-        bannerButton ? "bannerButton" :
-        outline ? "outLineBtn" :
-        greenButton ? "greenButton" :
-        OrangeButton ? "OrangeButton" :
-        blackButton ? "blackButton" : "button"
-    
+        newButton
+          ? `glassEffect ${
+              grayButton
+                ? "grayButton"
+                : newBlueButton
+                ? "newBlueButton"
+                : "button"
+            }`
+          : ButtonWhiteBg
+          ? "ButtonWhiteBg"
+          : whiteBgButton
+          ? "whiteBgButton"
+          : nobannerButton
+          ? "nobannerButton"
+          : bannerButton
+          ? "bannerButton"
+          : outline
+          ? "outLineBtn"
+          : greenButton
+          ? "greenButton"
+          : OrangeButton
+          ? "OrangeButton"
+          : blackButton
+          ? "blackButton"
+          : "button"
       }
       style={invert ? { flexFlow: "row-reverse" } : { flexFlow: "row" }}
     >

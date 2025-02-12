@@ -26,9 +26,7 @@ const NewCertificateSection = dynamic(() =>
 const DSAFeeSection = dynamic(() =>
   import("@/components/CoursePage/dsaFee/DSAFeeSection")
 );
-const Footer = dynamic(() =>
-  import("@/components/Global/Footer/Footer")
-);
+const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 const NewSevenSection = dynamic(() =>
   import("@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection")
@@ -42,7 +40,12 @@ const DSAProjectSection = dynamic(() =>
 const ReviewSlider = dynamic(() =>
   import("@/components/Home/newUI/reviewSlider/reviewSlider")
 );
+import Certificate from "@/components/CoursePage/Certificate/Certificate";
+const Content = dynamic(() =>
+  import("@/components/CoursePage/Content/content")
+);
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
+import FAQNew from "@/components/CoursePage/FAQNew/FAQNew";
 
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
@@ -190,11 +193,18 @@ const NewDSA = ({ DSADataJson }) => {
           titleCourse="Data Structure Algorithms & System Design"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf"
           brochurePdf={pdfUrl}
+          downloadBrochure={true}
         />
-        <NewCertificateSection certificateNew={NewDSAData[0].certificateNew} />
+        <Certificate
+          noTabs={true}
+          data={NewDSAData[0].certificateNew}
+          DSAFresherCertHeading={true}
+        />
+
+        {/* <NewCertificateSection certificateNew={NewDSAData[0].certificateNew} /> */}
         <DSAFeeSection
-          Fee="₹ 95,000"
-          FeeEmi="₹ 6,333/month"
+          Fee="₹ 1,10,000"
+          FeeEmi="₹ 7,211/month"
           weekendbatch="Weekend Morning (DSA BATCHES)"
           weekdaybatch="Weekend Morning (DSA BATCHES)"
           weekday="SAT-SUN"
@@ -207,12 +217,12 @@ const NewDSA = ({ DSADataJson }) => {
           // <EMI POPUP
           emiType="NO COST EMI"
           duration1="18 Months"
-          totalAmount1="₹95,000"
-          monthlyPayment1="₹6,333"
+          totalAmount1="₹1,10,000"
+          monthlyPayment1="₹7,211"
           greenDown1="Standard Intrest rate Applicable"
           duration2="12 Months"
-          totalAmount2="₹95,000"
-          monthlyPayment2="₹9,228"
+          totalAmount2="₹1,10,000"
+          monthlyPayment2="₹10,816"
         />
         <ReviewSlider idss="eautK0odE7Q" />
         <MentorsSection />
@@ -222,6 +232,12 @@ const NewDSA = ({ DSADataJson }) => {
           titleCourse="Data Structure Algorithms & System Design"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf"
           brochurePdf={pdfUrl}
+        />
+        <FAQNew FAQNewData={NewDSAData[0].faq} background={true} />
+        <Content
+          dataScienceCounselling={true}
+          DSANewContent={true}
+          background={true}
         />
         <NewSevenSection
           dataScienceCounselling={true}
