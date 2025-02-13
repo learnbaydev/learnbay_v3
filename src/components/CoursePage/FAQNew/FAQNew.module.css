@@ -121,7 +121,12 @@
   display: block;
   padding: 30px 150px;
   margin-top: 50px;
-  background: #eff3f6;
+  background: linear-gradient(
+    180deg,
+    var(--white) 8.58%,
+    #eff3f6 69.44%,
+    var(--white) 99.96%
+  );
 }
 .courseM {
   display: block;

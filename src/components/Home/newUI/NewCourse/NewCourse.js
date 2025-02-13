@@ -9,6 +9,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
 import { Navigation, Pagination } from "swiper";
 import { MdOutlineFileDownloadSvg } from "@/Data/svgdata/MDIcons";
+import CertificationCard from "../CertificationCard/CertificationCard";
 
 const Popup = dynamic(() => import("@/components/Global/Popup/Popup"));
 const Form = dynamic(() => import("@/components/Global/Form/Form"));
@@ -280,105 +281,125 @@ const NewCourse = ({
     );
   };
 
-  // const renderMasterCourse = () => (
-  //   <div className={`${styles.MasterCard} width`}>
-  //     <Popup
-  //       trigger={popups}
-  //       setTrigger={setPopups}
-  //       className="popupModal"
-  //       downloadBrochure
-  //     >
-  //       <div className="leftPopup">
-  //         <div
-  //           className="whiteP"
-  //           style={{ width: "340px", height: "400px" }}
-  //         ></div>
-  //       </div>
-  //       <div className="RightPopup">
-  //         <h5>Download Syllabus</h5>
-  //         <Form
-  //           titleCourse={titleCourse}
-  //           brochureLink={brochureLinks}
-  //           brochurePdf={brochurePdfs}
-  //           dataScience={dataScience}
-  //           dataScienceCounselling={dataScienceCounselling}
-  //           dataScienceGeneric={dataScienceGeneric}
-  //           radio={radio}
-  //           downloadBrochure
-  //           upSkillingHide={true}
-  //           interstedInHide={interstedInHide}
-  //         />
-  //       </div>
-  //     </Popup>
-  //     <Image
-  //       src={isMobile ? masterCourse.mImage : masterCourse.image}
-  //       width={isMobile ? 375 : 1200}
-  //       height={isMobile ? 300 : 200}
-  //       alt="MasterCard"
-  //       loading="lazy"
-  //       className={styles.bgImageMaster}
-  //     />
-  //     <div className={styles.contentConteiner}>
-  //       <h2>{masterCourse.title}</h2>
-  //       <div>
-  //         <div className={styles.mastericon}>
-  //           <Image
-  //             src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/yellow_save+(1).webp"
-  //             width={25}
-  //             height={25}
-  //             alt="certificate_icon"
-  //             loading="lazy"
-  //           />
-  //           <p>{masterCourse.duration}</p>
-  //         </div>
-  //       </div>
+  const renderMasterCourse = () => (
+    <div className={`${styles.MasterCard} width`}>
+      <Popup
+        trigger={popups}
+        setTrigger={setPopups}
+        className="popupModal"
+        downloadBrochure
+      >
+        <div className="leftPopup">
+          <div
+            className="whiteP"
+            style={{ width: "340px", height: "400px" }}
+          ></div>
+        </div>
+        <div className="RightPopup">
+          <h5>Download Syllabus</h5>
+          <Form
+            titleCourse={titleCourse}
+            brochureLink={brochureLinks}
+            brochurePdf={brochurePdfs}
+            dataScience={dataScience}
+            dataScienceCounselling={dataScienceCounselling}
+            dataScienceGeneric={dataScienceGeneric}
+            radio={radio}
+            downloadBrochure
+            upSkillingHide={true}
+            interstedInHide={interstedInHide}
+          />
+        </div>
+      </Popup>
+      <Image
+        src={isMobile ? masterCourse.mImage : masterCourse.image}
+        width={isMobile ? 375 : 1200}
+        height={isMobile ? 300 : 200}
+        alt="MasterCard"
+        loading="lazy"
+        className={styles.bgImageMaster}
+      />
+      <div className={styles.contentConteiner}>
+        <h2>{masterCourse.title}</h2>
+        <div>
+          <div className={styles.mastericon}>
+            <Image
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/yellow_save+(1).webp"
+              width={25}
+              height={25}
+              alt="certificate_icon"
+              loading="lazy"
+            />
+            <p>{masterCourse.duration}</p>
+          </div>
+        </div>
 
-  //       <div>
-  //         <div className={`${styles.buttons} ${styles.buttonsMaster}`}>
-  //           <button
-  //             className={`${styles.brochurebtn} ${styles.brochurebtnMaster}`}
-  //             onClick={() => {
-  //               setTitleCourse(masterCourse.title);
-  //               setBrochureLinks(masterCourse.brochureLinks);
-  //               setBrochurePdfs(masterCourse.brochurePdfs);
-  //               setPopups(true);
-  //             }}
-  //           >
-  //             Brochure <MdOutlineFileDownloadSvg />
-  //           </button>
+        <div>
+          <div className={`${styles.buttons} ${styles.buttonsMaster}`}>
+            <button
+              className={`${styles.brochurebtn} ${styles.brochurebtnMaster}`}
+              onClick={() => {
+                setTitleCourse(masterCourse.title);
+                setBrochureLinks(masterCourse.brochureLinks);
+                setBrochurePdfs(masterCourse.brochurePdfs);
+                setPopups(true);
+              }}
+            >
+              Brochure <MdOutlineFileDownloadSvg />
+            </button>
 
-  //           {masterCourse.link ? (
-  //             <Link href={masterCourse.link} passHref>
-  //               <button
-  //                 className={`${styles.viewDetailsButton} ${styles.viewDetailsButtonmaster}`}
-  //               >
-  //                 View Details
-  //               </button>
-  //             </Link>
-  //           ) : (
-  //             <button disabled className={styles.viewDetailsButton}>
-  //               No Details Available
-  //             </button>
-  //           )}
-  //         </div>
-  //       </div>
-  //     </div>
-  //     <div className={styles.absloute}>
-  //       <div>
-  //         <h4>
-  //           90+
-  //           <span>Transferrable ECTS Credits</span>
-  //         </h4>
-  //       </div>
-  //       <div>
-  //         <h4>
-  //           60+
-  //           <span>Countries Recognition</span>
-  //         </h4>
-  //       </div>
-  //     </div>
-  //   </div>
-  // );
+            {masterCourse.link ? (
+              <Link href={masterCourse.link} passHref>
+                <button
+                  className={`${styles.viewDetailsButton} ${styles.viewDetailsButtonmaster}`}
+                >
+                  View Details
+                </button>
+              </Link>
+            ) : (
+              <button disabled className={styles.viewDetailsButton}>
+                No Details Available
+              </button>
+            )}
+          </div>
+        </div>
+      </div>
+      <div className={styles.absloute}>
+        <div>
+          <h4>
+            90+
+            <span>Transferrable ECTS Credits</span>
+          </h4>
+        </div>
+        <div>
+          <h4>
+            60+
+            <span>Countries Recognition</span>
+          </h4>
+        </div>
+      </div>
+      {/* <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
+        <CertificationCard
+          title="GenAI Certification for Managers & Tech Leaders"
+          subtitle="13 months"
+          points={[
+            "Project Certification from IIT Guwahati",
+            "For Managers & Tech Leaders",
+          ]}
+          imageSrc="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/part1.webp"
+        />
+        <CertificationCard
+          title="GenAI Developer Certification for Professionals"
+          subtitle="13 months"
+          points={[
+            "Project Certification from IIT Guwahati",
+            "For Tech Professionals & Developers",
+          ]}
+          imageSrc="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/part2.webp"
+        />
+      </div> */}
+    </div>
+  );
   const debounceScroll = (func, delay) => {
     let timeout;
     return (...args) => {
@@ -656,19 +677,16 @@ const NewCourse = ({
           </div>
         )}
       </div>
-      {
-        [
-          "all",
-          "bfsi",
-          "Certifications",
-          "hr",
-          "dsa",
-          "CloudDevops",
-          "domainCourse",
-          "CyberSecurity",
-        ].includes(activeTab)
-        // && renderMasterCourse()
-      }
+      {[
+        "all",
+        "bfsi",
+        "Certifications",
+        "hr",
+        "dsa",
+        "CloudDevops",
+        "domainCourse",
+        "CyberSecurity",
+      ].includes(activeTab) && renderMasterCourse()}
     </section>
   );
 };

@@ -11,7 +11,9 @@
   grid-template-columns: 3.4% 94%;
   gap: 4px;
 }
-
+.note {
+  font-size: 10px !important;
+}
 /* Syllabus.module.css */
 .maindivGENMANGERS {
   margin-bottom: 0px; /* Add vertical spacing between modules */
@@ -176,11 +178,11 @@
   margin-bottom: 30px;
 }
 
-.GenAIQues{
+.GenAIQues {
   display: grid;
   grid-template-columns: 72% 20% 10%;
 }
-.GenAIQuesO{
+.GenAIQuesO {
   display: grid;
   grid-template-columns: 72% 20% 10%;
 }
@@ -462,8 +464,8 @@
   align-items: center;
   gap: 10px;
 }
-.pointsdivGEnAI{
-  justify-content:start;
+.pointsdivGEnAI {
+  justify-content: start;
 }
 
 .hoursSpan {
@@ -552,18 +554,16 @@
   margin: 0;
 }
 
-.coursePReq{
+.coursePReq {
   margin-left: 180px;
   color: #0072bc;
 }
-.coursePReq :nth-child(1){
-color: red;
-font-weight: 300;
+.coursePReq :nth-child(1) {
+  color: red;
+  font-weight: 300;
 }
 
-
 @media (max-width: 1281px) {
-
   .Syllabus {
     margin: 70px 20px 0px 20px;
   }
@@ -604,21 +604,17 @@ font-weight: 300;
     z-index: 1;
     margin: 0px 10px;
   }
- 
 
   .hoursSpan {
-
     top: 60px;
     left: 82%;
-  
   }
 }
 
 @media (max-width: 1081px) {
-
-.centerHeadline{
-  max-width: 490px;
-}
+  .centerHeadline {
+    max-width: 490px;
+  }
 }
 @media (max-width: 1024px) {
   .Syllabus {
@@ -730,7 +726,7 @@ font-weight: 300;
     padding: 20px;
     height: fit-content;
   }
-  .GenAIQues{
+  .GenAIQues {
     grid-template-columns: 71% 23% 2%;
   }
   .quesO {
@@ -781,7 +777,7 @@ font-weight: 300;
     grid-template-columns: 65% 30%;
     align-items: center;
   }
-  .coursePReq{
+  .coursePReq {
     margin: 20px;
   }
 }
@@ -889,6 +885,5 @@ font-weight: 300;
   .hoursSpan {
     top: 36px;
     left: 74%;
-
   }
 }
