@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import { parseJSONData } from "@/Util/JsonConvertor";
 import Header from "@/components/CoursePage/NewCyberECCouncil/NewCyberECCouncilHeader";
 import Navbar from "@/components/Global/Navbar/Navbar";
@@ -17,7 +18,6 @@ import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import FAQNew from "@/components/CoursePage/FAQNew/FAQNewDomain";
 import NewSevenSection from "@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection";
-import Head from "next/head";
 
 const CyberSecurityECCouncil = ({ NewCyberSecurityECCouncilDataJson }) => {
   const NewCyberSecurityECCouncilData = parseJSONData(

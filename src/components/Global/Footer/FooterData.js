@@ -818,6 +818,11 @@ export const CourseData = [
         id: 12,
         name: "Executive Certification in Cyber Security & Ethical Hacking",
         url: "/cyber-security/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee",
+      },
+      {
+        id: 13,
+        name: "Advance Certification in Cyber Security & Ethical Hacking",
+        url: "/advanced-cyber-security-course-training",
       }
     ],
   },
