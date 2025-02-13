@@ -1,4 +1,3 @@
-
 import React, { useCallback, useState } from "react";
 import styles from "./NewDSAHeader.module.css";
 import Image from "next/image";
@@ -53,27 +52,27 @@ const DSAHeader = ({
     <section className={styles.mainContainer}>
       <div className={styles.contentWrapper}>
         <PopupContent
-                popups={popups}
-                setPopups={setPopups}
-                heading="Download Syllabus"
-                downloadBrochure
-                dataScience={true}
-                interstedInHide={interstedInHide}
-                upSkillingHide={true}
-                titleCourse={titleCourse}
-                brochureLink={brochureLink}
-                brochurePdf={brochurePdf}
-                // DSADemoSession={true}
-              />
+          popups={popups}
+          setPopups={setPopups}
+          heading="Download Syllabus"
+          downloadBrochure
+          dataScience={true}
+          interstedInHide={interstedInHide}
+          upSkillingHide={true}
+          titleCourse={titleCourse}
+          brochureLink={brochureLink}
+          brochurePdf={brochurePdf}
+          // DSADemoSession={true}
+        />
         <PopupContent
-                popups={requestDemoPopup}
-                setPopups={setRequestDemoPopup}
-                heading="Book Your Demo Session"
-                // downloadBrochure
-                dataScienceCounselling={true}
-                interstedInHide={interstedInHide}
-                DSADemoSession={true}
-              />
+          popups={requestDemoPopup}
+          setPopups={setRequestDemoPopup}
+          heading="Book Your Demo Session"
+          // downloadBrochure
+          dataScienceCounselling={true}
+          interstedInHide={interstedInHide}
+          DSADemoSession={true}
+        />
         <div className={styles.contentTitleWrapper}>
           <h1>
             {title1} <span>{orgTitle}</span> {title2}
@@ -135,9 +134,15 @@ const DSAHeader = ({
               )}
               {index === 1 && (
                 <div className={styles.staticPoints}>
-                  <p>Practice <b>200+</b> </p>
-                  <p><b>DSA Problems</b> &</p>
-                  <p><b>System Design Projects</b></p>
+                  <p>
+                    Practice <b>200+</b>{" "}
+                  </p>
+                  <p>
+                    <b>DSA Problems</b> &
+                  </p>
+                  <p>
+                    <b>System Design Projects</b>
+                  </p>
                 </div>
               )}
             </div>
@@ -163,10 +168,18 @@ const DSAHeader = ({
           </div>
           <div className={styles.buttonsWrapper}>
             <div onClick={requestDemoShow}>
-              <Button text="Request A Demo Class" />
+              <Button
+                text="Request A Demo Class"
+                newButton={true}
+                grayButton={true}
+              />
             </div>
             <div onClick={popupShow}>
-              <Button text="Download Syllabus" />
+              <Button
+                text="Download Syllabus"
+                newButton={true}
+                newBlueButton={true}
+              />
             </div>
           </div>
         </div>
@@ -180,13 +193,28 @@ const DSAHeader = ({
             />
           </div>
           <div className={styles.ModuleIconWrapper}>
-            <Image src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Module.webp" alt="Module" width={28} height={28} />
+            <Image
+              src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Module.webp"
+              alt="Module"
+              width={28}
+              height={28}
+            />
           </div>
           <div className={styles.PieChartIconWrapper}>
-            <Image src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/PieChart.webp" alt="Pie Chart" width={38} height={33} />
+            <Image
+              src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/PieChart.webp"
+              alt="Pie Chart"
+              width={38}
+              height={33}
+            />
           </div>
           <div className={styles.HierarchyIconWrapper}>
-            <Image src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Hierarchy.webp" alt="Hierarchy" width={50} height={50} />
+            <Image
+              src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Hierarchy.webp"
+              alt="Hierarchy"
+              width={50}
+              height={50}
+            />
           </div>
         </div>
       </div>

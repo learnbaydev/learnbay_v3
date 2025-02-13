@@ -819,6 +819,11 @@ export const CourseData = [
         name: "Executive Certification in Cyber Security & Ethical Hacking",
         url: "/cyber-security/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee",
       },
+      {
+        id: 12,
+        name: "Data Structure Algorithms & System Design",
+        url: "fullstack/dsa-system-design",
+      },
     ],
   },
 ];

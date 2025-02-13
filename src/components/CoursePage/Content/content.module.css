@@ -1,60 +1,74 @@
 .container {
-    background: aliceblue;
-    padding: 50px 80px;
-    height: fit-content;
-    overflow: scroll;
-    margin-top: 50px;
+  background: aliceblue;
+  padding: 50px 80px;
+  height: fit-content;
+  overflow: scroll;
+  margin-top: 50px;
 }
+.backgroundcolor {
+  background: #eff3f6;
+  padding: 50px 80px;
+  height: fit-content;
+  /* overflow: scroll; */
+  margin-top: 50px;
+}
+.backgroundcolor li,
 .container li {
-    margin: 24px;
+  margin: 24px;
 }
+.backgroundcolor ul,
 .container ul {
-    list-style: none;
+  list-style: none;
 }
-.links{
-    color: rgb(42, 110, 165);
+.links {
+  color: rgb(42, 110, 165);
 }
 .dothide {
-    list-style: none;
+  list-style: none;
 }
+.backgroundcolor h1,
 .container h1 {
-    text-align: center;
+  text-align: center;
 }
-
+.backgroundcolor h4,
 .container h4 {
-    text-align: left;
-    margin: 18px 0px;
+  text-align: left;
+  margin: 18px 0px;
 }
+.backgroundcolor h3,
 .container h3 {
-    margin: 10px 0px;
+  margin: 10px 0px;
 }
+.backgroundcolor h2,
 .container h2 {
-    margin: 10px 0px;
+  margin: 10px 0px;
 }
+.backgroundcolor p,
 .container p {
-    line-height: 30px;
-    margin: 10px 0px;
+  line-height: 30px;
+  margin: 10px 0px;
 }
 
-.btnread{
-    display: flex;
-    background-color: #0072bc;
-    float: right;
-    padding: 0px 20px;
-    border-radius: 4px;
-    color: #fff;
+.btnread {
+  display: flex;
+  background-color: #0072bc;
+  float: right;
+  padding: 0px 20px;
+  border-radius: 4px;
+  color: #fff;
 }
 
 @media (max-width: 650px) {
-    .container {
-        background: aliceblue;
-        padding: 30px 20px;
-        height: 440px;
-        overflow: scroll;
-        margin-top: 50px;
-    }
-    .container h1 {
-        font-size: 26px;
-    }
+  .backgroundcolor,
+  .container {
+    background: aliceblue;
+    padding: 30px 20px;
+    height: 440px;
+    overflow: scroll;
+    margin-top: 50px;
+  }
+  .backgroundcolor h1,
+  .container h1 {
+    font-size: 26px;
+  }
 }
-
