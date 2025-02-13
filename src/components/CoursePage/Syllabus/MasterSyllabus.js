@@ -132,8 +132,12 @@ function SyllabusNew({
             />
           </div>
         </div>
-{genAIIIT ? (        <p className={styles.coursePReq}><b>Note-</b> <strong>Course Prerequisites:</strong> You should have knowledge of Python, Machine Learning, & Deep Learning. *</p>
-):(null)}
+        {genAIIIT ? (
+          <p className={styles.coursePReq}>
+            <b>Note-</b> <strong>Course Prerequisites:</strong> You should have
+            knowledge of Python, Machine Learning, & Deep Learning. *
+          </p>
+        ) : null}
       </div>
     </>
   );

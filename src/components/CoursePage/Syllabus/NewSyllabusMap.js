@@ -64,13 +64,19 @@ const NewSyllabusMap = ({ Syllabus, onlyGENAIPage }) => {
               className={styles.FaqWrapper}
               onClick={() => handleChangeMobile(i)}
             >
-            {onlyGENAIPage ? (<>
-            
-              <div className={`${styles.GenAIQues} ${Module0.open ? styles.quesO : styles.ques}`}>
-                <div className={`${styles.pointsdiv} ${styles.pointsdivGEnAI}`}>
-                  <h2>{Module0.title}</h2> 
-         
-                  {/* <div className={styles.pointsinside}>
+              {onlyGENAIPage ? (
+                <>
+                  <div
+                    className={`${styles.GenAIQues} ${
+                      Module0.open ? styles.quesO : styles.ques
+                    }`}
+                  >
+                    <div
+                      className={`${styles.pointsdiv} ${styles.pointsdivGEnAI}`}
+                    >
+                      <h2>{Module0.title}</h2>
+
+                      {/* <div className={styles.pointsinside}>
                     {Module0.points && (
                       <span className={styles.points}>{Module0.points}</span>
                     )}
@@ -81,22 +87,26 @@ const NewSyllabusMap = ({ Syllabus, onlyGENAIPage }) => {
                       <span className={styles.points}>{Module0.points2}</span>
                     )}
                   </div> */}
-                </div>
-                {onlyGENAIPage ? (  <span className={styles.hoursSpan}>{Module0.hours}</span>):(null)}
-                <span>
-                  {Module0.open ? (
-                    <FaChevronUp className="icon" />
-                  ) : (
-                    <FaChevronDown className="icon" />
-                  )}
-                </span>
-              </div>
-</>):(<>
-              <div className={Module0.open ? styles.quesO : styles.ques}>
-                <div className={styles.pointsdiv}>
-                  <h2>{Module0.title}</h2> 
-         
-                  {/* <div className={styles.pointsinside}>
+                    </div>
+                    {onlyGENAIPage ? (
+                      <span className={styles.hoursSpan}>{Module0.hours}</span>
+                    ) : null}
+                    <span>
+                      {Module0.open ? (
+                        <FaChevronUp className="icon" />
+                      ) : (
+                        <FaChevronDown className="icon" />
+                      )}
+                    </span>
+                  </div>
+                </>
+              ) : (
+                <>
+                  <div className={Module0.open ? styles.quesO : styles.ques}>
+                    <div className={styles.pointsdiv}>
+                      <h2>{Module0.title}</h2>
+
+                      {/* <div className={styles.pointsinside}>
                     {Module0.points && (
                       <span className={styles.points}>{Module0.points}</span>
                     )}
@@ -107,17 +117,20 @@ const NewSyllabusMap = ({ Syllabus, onlyGENAIPage }) => {
                       <span className={styles.points}>{Module0.points2}</span>
                     )}
                   </div> */}
-                </div>
-                {onlyGENAIPage ? (  <span className={styles.hoursSpan}>{Module0.hours}</span>):(null)}
-                <span>
-                  {Module0.open ? (
-                    <FaChevronUp className="icon" />
-                  ) : (
-                    <FaChevronDown className="icon" />
-                  )}
-                </span>
-              </div>
-</>)}
+                    </div>
+                    {onlyGENAIPage ? (
+                      <span className={styles.hoursSpan}>{Module0.hours}</span>
+                    ) : null}
+                    <span>
+                      {Module0.open ? (
+                        <FaChevronUp className="icon" />
+                      ) : (
+                        <FaChevronDown className="icon" />
+                      )}
+                    </span>
+                  </div>
+                </>
+              )}
               {Module0.open && (
                 <div className={styles.ans}>
                   <p>{Module0.desc}</p>
@@ -127,6 +140,9 @@ const NewSyllabusMap = ({ Syllabus, onlyGENAIPage }) => {
                       {content.chap.desc.map((desc, k) => (
                         <div key={`desc-${k}`}>{desc && <li>{desc}</li>}</div>
                       ))}
+                      {content.chap.note && (
+                        <p className={styles.note}>{content.chap.note}</p>
+                      )}
                     </div>
                   ))}
                   <div className={styles.trackimgend}>
