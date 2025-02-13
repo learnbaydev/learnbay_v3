@@ -49,6 +49,7 @@ const SyllabusSection = ({
   };
 
   return (
+    <div className="width">
     <div className={styles.mainConteiner}>
       <PopupContent
         popups={popups ? popups : applyCounselingPopup}
@@ -160,6 +161,7 @@ const SyllabusSection = ({
           Download Brochure
         </div>
       </div>
+    </div>
     </div>
   );
 };
