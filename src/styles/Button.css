@@ -80,25 +80,24 @@
 }
 
 .button {
-  padding: 12px 15px;
+  padding: 12px 30px;
   outline: none;
-  border-radius: 10px;
-  background: #0383ff;
+  background-color: #0072bc;
+  color: white;
   border: 0;
   cursor: pointer;
   display: flex;
   gap: 5px;
-  color: #fff;
-  text-align: center;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 28.679px;
-  /* 143.396% */
+  outline: none;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 16px;
+  border: 1px solid #0072bc;
 }
-
 .button:hover {
-  color: #fff;
+  border: 1px solid #0072bc;
+  background-color: white;
+  color: #0072bc;
 }
 
 .newBlueButton:hover {

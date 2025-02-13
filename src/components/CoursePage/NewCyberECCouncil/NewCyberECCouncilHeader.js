@@ -144,20 +144,21 @@ const Header = memo(
                     )}
                   </div>
                   <div className={styles.btnDiv}>
-                    <div onClick={popupShow} className={styles.btn}>
-                      <Button text="Download Syllabus" />
-                    </div>
                     <div onClick={applyCounselingShow} className={styles.btn}>
-                      <Button text="Apply for Counseling" />
+                      <Button text="Apply for Counseling"  newButton={true} grayButton={true}/>
+                    </div>
+                    <div onClick={popupShow} className={styles.btn}>
+                      <Button text="Download Syllabus" newButton={true} newBlueButton={true}/>
                     </div>
                   </div>
 
                   <div className={styles.btnDivM}>
-                    <div onClick={popupShow}>
-                      <Button text="Download Syllabus" />
+                    <div onClick={applyCounselingShow} className={styles.cyberECCouncilGrayBtn}>
+                      <Button text="Apply for Counseling" newButton={true} grayButton={true}/>
                     </div>
-                    <div onClick={applyCounselingShow}>
-                      <Button text="Apply for Counseling" />
+                    <div onClick={popupShow} className={styles.cyberECCouncilNewBlueBtn}>
+                      <Button text="Download Syllabus" 
+                      newButton={true} newBlueButton={true}/>
                     </div>
                   </div>
                 </div>

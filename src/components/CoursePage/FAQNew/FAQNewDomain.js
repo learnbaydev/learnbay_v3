@@ -7,7 +7,7 @@ import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper";
 
-function FAQNew({ FAQNewData, isGuwahati, isSpecial  }) {
+function FAQNew({ FAQNewData, isGuwahati, isSpecial,background  }) {
   // const [mobile, setMobile] = useState(false);
   const [dataLoop, setDataLoop] = useState([
     { title: "Course Related", value: true },
@@ -39,7 +39,7 @@ function FAQNew({ FAQNewData, isGuwahati, isSpecial  }) {
     <div className={styles.course} id="faqs">
         <h4 className={styles.infop}>FAQs</h4>
         <p>Curriculum is specifically engineered to meet the expectations of leading tech companies.</p>
-        <div className={styles.courseM}>
+        <div className={background ? styles.backgroundcolor : styles.courseM}>
  
 
         <div className={`${styles.courses} ${isSpecial ? styles.specialClass : ''}`}>

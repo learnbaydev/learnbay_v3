@@ -511,15 +511,36 @@
   }
   
   @media only screen and (max-width: 481px) {
+    .backgroundImgContainer {
+        margin-top: 61px;
+    }
+
     .btnDiv {
       display: none;
     }
   
     .btnDivM {
       display: flex;
+      flex-direction: column;
+      align-items: center;
       gap: 30px;
       margin-top: 40px;
     }
+
+    .btnDivM button{
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .cyberECCouncilNewBlueBtn button{
+        padding: 13px 25px;
+    }
+
+    .cyberECCouncilGrayBtn button{
+        padding: 13px 20px;
+    }
+
+    
   
     .botDiv {
       padding: 20px 7px;
@@ -530,7 +551,7 @@
     }
   
     .formdiv h3 {
-      font-size: 22px;
+      font-size: 28px;
       /* font-weight: 200; */
     }
   
@@ -539,10 +560,29 @@
     }
   
     .firstSection h5 {
-      font-size: 12px;
+      font-size: 16px;
     }
+    .imgBot{
+        margin-top: -45px;
+      }
+      .firstSection h1{
+        font-size: 30px;
+        line-height: 1.4;
+      }
+      .imgBot img{
+        width: 290px;
+        height: 25px;
+      }
   }
   
+  @media only screen and (max-width: 391px) {
+    /* .cyberECCouncilGrayBtn button{padding: 18px 13px;} */
+  }
+  @media only screen and (max-width: 376px) {
+    /* .cyberECCouncilGrayBtn button{
+        padding: 15px 7px;
+    } */
+  }
   @media only screen and (max-width: 361px) {
     .innerDiv {
       padding: 30px 0 30px;

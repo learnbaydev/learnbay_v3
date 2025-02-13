@@ -167,14 +167,14 @@ const DSAHeader = ({
             </div>
           </div>
           <div className={styles.buttonsWrapper}>
-            <div onClick={requestDemoShow}>
+            <div onClick={requestDemoShow} className={styles.newDsaGrayBtn}>
               <Button
-                text="Request A Demo Class"
+                text="Request Demo Class"
                 newButton={true}
                 grayButton={true}
               />
             </div>
-            <div onClick={popupShow}>
+            <div onClick={popupShow} className={styles.newDsaNewBlueBtn}>
               <Button
                 text="Download Syllabus"
                 newButton={true}

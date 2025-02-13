@@ -35,11 +35,7 @@ function DataAnalytics({
   };
 
   return (
-    <div
-      className={
-        background ? styles.backgroundcolor : styles.container
-      }
-    >
+    <div className={background ? styles.backgroundcolor : styles.container}>
       <Popup
         trigger={popups}
         setTrigger={setPopups}
@@ -352,130 +348,196 @@ function DataAnalytics({
       )}
       {DSANewContent ? (
         <div className={styles.content}>
-          <h2>Data Structure & Algorithm Course | Learnbay</h2>
+          <h2>
+            Best Data Structures Algorithms & System Design with Domain
+            Specialization
+          </h2>
           <p>
-            Build a data-intensive tech career with our leading GenAI-rich{" "}
-            <b>data structures and algorithms course.</b>. Join us to acquire
-            data-rich skills and gain traction across a rapidly evolving digital
-            landscape. Earn a <b>Learnbay</b> credential to optimize your
-            position globally.
+            Enhance your career with our online{" "}
+            <b>Data Structures and Algorithms course.</b> Enroll in a
+            specialized data structures and algorithms program with
+            industry-leading education. Our advanced modules will help you
+            become a DSA Specialist through expert mentorship, industry
+            recognized certifications, and live training sessions.
           </p>
-          <h4 style={{ fontSize: "24px" }}>About the Program</h4>
-          {/* <h3 style={{ fontSize: "20px" }}>Course Description</h3> */}
+          <h4 style={{ fontSize: "24px" }}>About Learnbay's DSA Course</h4>
+          <h3 style={{ fontSize: "20px" }}>Course Description</h3>
           <p>
-            The field of research and tech innovation is steadily growing
-            unleashing an invincible growth potential. In the interim, data
-            structures and algorithms mark a historic move paving the way for
-            optimized problem-solving. DSA has become a crucial part of
-            computation and software development. Hence, techies prefer
-            upskilling via a <b>DSA course</b> with proven knowledge gains.{" "}
-          </p>
-          <p>
-            IT pros deal with endless critical tasks, interface design, and
-            software development. These involve challenging cases that require
-            modern tactics to enrich accuracy levels with optimal solutions.
-            Hence, Learnbay presents a <b>data structures and algorithms</b>{" "}
-            course with industry-driven modules to help you tackle real-time
-            cases.
-          </p>
-
-          <p>
-            Unlike classic methods, modern data structures ensure more efficient
-            and scalable results. Learners can master binary search trees, hash
-            tables, graphs, arrays, linked lists, and many more. Techies who
-            master DSA tools can tackle industry delicacies and counter-critical
-            cases. We offer the <b>best DSA course</b> with Generative AI-rich
-            modules to modify work practices with better returns and
-            scalability.
+            Learnbay provides the{" "}
+            <b>best Data Structures and Algorithms course</b> with comprehensive
+            DSA modules for learners to learn from the best mentors and offers
+            placement opportunities in top MNCs. Professionals or learners will
+            gain basic and advanced technical skills by enrolling in the{" "}
+            <b>best DSA course.</b> They learn in mentor-led live sessions,
+            practice their skills in real-world projects, and earn a Learnbay
+            certificate followed by placements.
           </p>
           <h3 style={{ fontSize: "20px" }}>
-            How does Learnbay's best DSA course help techies excel in their
-            domain?
+            Why study data structures and algorithms?
           </h3>
+          <p>
+            This is a confusing topic for many programmers, especially when it
+            comes to whether a <b>DSA Course</b> is important in programming.
+            Certainly, the best Data Structures and Algorithms courses are
+            required to create efficient programs. However, as this concept is
+            complex, most beginners choose to defer from their study of DSA.
+            Below are the reasons why joining{" "}
+            <b>courses on data structures and algorithms</b> is essential:
+          </p>
+          <b>• Understand programming languages</b>
+          <p>
+            Learning <b>data structures & algorithms in Python</b> helps you
+            write better codes and understand programming languages better. All
+            languages are based on DSA, so understanding their concepts helps
+            solve complex problems. Libraries and APIs are also significant in
+            programming, and DSA knowledge helps us understand how to utilize
+            them in the programs efficiently. Plus, experts can refine{" "}
+            <b>data structures and algorithms in Java</b> for an in-depth
+            understanding of programming languages.
+          </p>
+          <b>• Crack product base interviews</b>
+          <p>
+            The end goal for many aspirants is to work in a product-based
+            company of their choice. The recruitment drives for these companies
+            include testing a candidate's problem-solving abilities. They want
+            to hire programmers capable of solving large and complicated
+            problems. The <b>best course on data structures and algorithms</b>{" "}
+            enhances a candidate's proficiency with programming basics, i.e.,
+            Algorithms and Data Structures.
+          </p>
+          <b>• Developing optimized codes</b>
+          <p>
+            Once you <b>learn DSA</b>, you can optimize codes that reduce time
+            and space usage. You should build codes with the most suitable data
+            structures that take less space and algorithms that run the code in
+            less time. This helps limit the usage of company resources.
+          </p>
+          <h3 style={{ fontSize: "20px" }}>Why enroll in the DSA courses?</h3>
           {read ? (
             <>
               <p>
-                Learnbay envisions a tech-driven workspace where that guides
-                techies to prepare techies for the future. Its thoroughly
-                designed syllabus with theoretical and practical learning
-                engages techies to make an impact. We focus on the holistic
-                growth of IT developers and engineers via our{" "}
-                <b>DSA course online</b>.
+                Learnbay's <b>data structures online course</b> allows learners
+                to learn from home. In this fast-paced world, everyone needs to
+                manage their time efficiently. Learners can manage their time
+                and study effectively by enrolling in the <b>best DSA course</b>{" "}
+                that enhances their overall learning experience.
               </p>
+              <b>• Mentor led classes</b>
               <p>
-                Our live instructor-led{" "}
-                <b>data structures and algorithms class</b> engages learners
-                with the industry's varying dynamics and trends. Mentorship from
-                eminent experts helps techies enhance their skills and excel in
-                their functions. Live training sessions help techies understand
-                industry updates and upgrade their skills likewise.
+                Learners study in line with mentor-led 100% live online{" "}
+                <b>data structures and algorithms class.</b> They are provided
+                with expert mentors who help them throughout the{" "}
+                <b>DSA course online.</b> Learners get 1:1 doubt-clearing
+                sessions with the mentors. They can also choose their preferred
+                batch from weekends and weekdays to study and maintain a
+                flexible schedule.
               </p>
+              <b>• Hand on experience</b>
               <p>
-                Techies enrolling in our{" "}
-                <b>data structure and algorithms course</b> will benefit from
-                working on practical tasks. Learners will work on various case
-                studies, mini-challenges, practical tasks, assignments, etc, to
-                sharpen their knowledge base. It guides you in handling industry
-                cases efficiently and optimizes business yields.
+                Learners can practice solving real-time problems in a{" "}
+                <b>data structures and algorithms course.</b> Mentors are
+                present for guidance in case they get stuck. They will develop
+                and learn advanced DSA skills with the help of mentors. There
+                are project innovation labs that learners will be using to
+                practice their problem-solving skills. These labs are in major
+                cities across India, where learners can practice independently.
               </p>
+              <b>• Placement aid</b>
               <p>
-                Our leading-edge <b>DSA course offers</b> a hassle-free job and
-                placement program. Eligible learners (with at least 70% scores
-                in course tasks and projects) can opt for our career assistance
-                to avail of perks like –
+                The <b>DSA and system design course</b> is currently conducting
+                mock interviews, which will allow learners to learn interview
+                questions and receive dedicated placement calls. Our 350+
+                placement services can help you get a job at top companies
+                hiring partners. We will help you build resumes, maintain
+                portfolios, and get placements till you land a job. In short,
+                you will get services like resume optimization, interview
+                preparation, interview opportunities, and career counseling
+                here. Also, you can get access to job referrals from top-tier
+                product-based firms with exciting returns.
               </p>
-              <ul>
-                <li>
-                  <b>• Resume buildup</b>
-                </li>
-                <li>
-                  <b>• Interview prep</b>
-                </li>
-                <li>
-                  <b>• Mock trials</b>
-                </li>
-                <li>
-                  <b>• Career counseling</b>
-                </li>
-                <li>
-                  <b>• Endless interview calls</b>
-                </li>
-              </ul>
+              <b>• Projects</b>
               <p>
-                Lastly, Learnbay's <b>best DSA course</b> offers globally
-                recognized certifications to validate and confirm your expertise
-                to excel in your chosen field. Learners can add{" "}
-                <b>Learnbay certification</b> to their careers to crack alluring
-                jobs. These credentials enhance your resume worth grabbing more
-                alluring job offers.
+                The <b>data structures and algorithms online course</b> offers a
+                hands-on learning experience to learners. Aspirants will work on
+                real-time projects to gain mastery of high-level and low-level
+                designs. Learners get the chance to experience working in a real
+                industrial environment to enrich system implementations. The
+                projects will help you tackle GenAI-rich system models and have
+                seamless LLMs integration.{" "}
+              </p>
+              <b>• Certifications</b>
+              <p>
+                Certifications from accredited organizations are provided in the{" "}
+                <b>data structures online course</b> to assist learners in
+                getting their dream jobs. Aspirants enrolling in our DSA course
+                will earn a course completion certificate from Learnbay. It
+                offers practical validation to your theoretical knowledge and
+                practical skills developed. Learners can also impress recruiters
+                with certificates from reputable organizations.
+              </p>
+              <h3 style={{ fontSize: "20px" }}>What is career counseling?</h3>
+              <p>
+                Learnbay provides help to those learners who have difficulty
+                choosing the right career for themselves. We provide experts to
+                help you make the right choice and understand the field in which
+                you are interested in joining. You can schedule your session
+                online and get the expert help you require. In short, our
+                counselors will help you choose the{" "}
+                <b>best system design course</b> with optimal benefits.
               </p>
               <h3 style={{ fontSize: "20px" }}>
-                Domain Electives & Specialization
+                Who is eligible for the DSA and System Design Course?
               </h3>
               <p>
-                Gradually, Generative AI has become a promising domain for
-                software developers and related professionals. Its ability to
-                automate time-taking tasks, design smarter apps, and enhance the
-                team's productivity, makes it popular. Data structure and
-                algorithms with GenAI set the base for faster innovation and
-                optimal gains. Hence, upskilling via a <b>DSA course</b> has
-                become crucial for IT pros.
-              </p>
-              <p>
-                In the interim, Learnbay presents an online domain-specific{" "}
-                <b>DSA course</b> to prepare IT experts to thrive in the
-                industry. This inclusively curated course helps IT pros dive
-                deeper into the changing dynamics of the tech world. We also
-                offer domain electives to help IT pros specialize their careers
-                in the best-suited roles.
-              </p>
-              <p>
-                Our domain electives help you develop unique skill sets and
-                thrive to crack product-based roles. Hence, Learnbay has become
-                the <b>best platform to learn DSA</b> and excel in respective
-                domains.{" "}
+                The<b> best course on data structures and algorithms </b>is for:
               </p>
               <ul>
+                <li>
+                  <b>
+                    • Software developers, engineers, or executives from the IT
+                    domain with a basic understanding of programming languages
+                    (Java)
+                  </b>
+                </li>
+                <li>
+                  <b>• Aspirants with a minimum of 1+ years of experience</b>
+                </li>
+              </ul>
+              <h3 style={{ fontSize: "20px" }}>
+              What are domain electives?
+              </h3>
+              <p>
+              Domain electives help learners gain real-world project experience in their preferred sector. Learnbay provides domain knowledge to learners, using which they can gain specialization in a particular industry and get better placement opportunities. The <b>best system design course</b> offers the following domains –
+              </p>
+              <ul>
+                <li><b>• GenAI</b></li>
+                <li><b>• DevOps</b></li>
+                <li><b>• Full Stack [MERN]</b></li>
+                <li><b>• Product Management</b></li>
+              </ul>
+              <h3 style={{ fontSize: "20px" }}>
+              Are domain electives helpful in algorithms and data structures?
+              </h3>
+              <p>
+              The <b>best Data Structures and Algorithms course</b> provides domain electives to help you gain a promising role and secure your job. You can balance your work and study obligations in a specific sector. You can ease your work, improve programming in a particular domain, and enhance your job selection chances. With the help of specialized training, learners can increase their programming skills and expertise to help them quickly grasp the DSA concepts.
+              </p>
+              <h3 style={{ fontSize: "20px" }}>
+              How is Learnbay’s DSA course module structured with maximum gains? 
+              </h3>
+              <p>
+              Learnbay’s <b>data structures online course</b> is structured as per the latest industry trends with maximum career benefits. Software professionals (developers, engineers, and related pros) can opt for this course to gain a 360-degree learning. Hour program curriculum consists of key learning modules such as –
+              </p>
+              <b>Term 1:- Programming Fundamentals</b>
+              <p>
+              Get started with the <b>DSA course</b> and explore the coding basics. Learn data types, if statements, functions, object-oriented programming, and more concepts.
+              </p>
+              <b>Term 2:- Data Structures & Algorithms</b>
+              <p>This module familiarises learners with basic <b>DSA and system design course</b> concepts. Concepts such as recursion, time/space complexity, searching/sorting techniques, dynamic programming, and different types of data structures like stack, queue, array, and linked list will all be covered during this lesson.</p>
+              <b>Term 2:- Computer Fundamentals</b>
+              <p>In this module of the <b>DSA course online,</b> learners will get a basic introduction to computer systems, operating systems, data representation, networking basics, version control, and computer security basics. With this learning, aspirants can easily crack network design interviews.</p>
+              <b>Term 3:- System Design: LLD + HLD</b>
+              <p><b>Learn DSA</b> and system design concepts in this module. Learners will be taught high-level and low-level design principles, and scalability to integration and deployment. It will help you master key skills to work with APIs, GenAI, and complex databases. </p>
+              {/* <ul>
                 <li>
                   <b>• Generative AI</b>
                 </li>
@@ -549,8 +611,8 @@ function DataAnalytics({
                 via our domain-specific training. Learners must choose any two
                 domain electives and start upskilling to acquire hands-on skills
                 and tackle real-world cases.
-              </p>
-              <h3 style={{ fontSize: "20px" }}>Certification Details</h3>
+              </p> */}
+              {/* <h3 style={{ fontSize: "20px" }}>Certification Details</h3>
               <p>
                 Today's rapidly evolving tech space directs constant upskilling
                 for those with stagnant careers or skill sets. IT pros from
@@ -708,7 +770,7 @@ function DataAnalytics({
                 GenAI-rich projects, assignments with practical problems, and
                 case studies. Also, the module includes mini-challenges, where
                 you can practice and learn DSA tools in various cases.
-              </p>
+              </p> */}
               <div onClick={popupShow} className={styles.buttonDiv}>
                 <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
               </div>
