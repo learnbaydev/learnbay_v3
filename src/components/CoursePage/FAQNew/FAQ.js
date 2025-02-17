@@ -36,6 +36,29 @@ function FAQ({ FaqData }) {
           list6,
           list7,
           list8,
+          list9,
+          list10,
+          list11,
+          list12,
+          list13,
+          list14,
+          list15,
+          list16,
+          list17,
+          list18,
+          list19,
+          list20,
+          list21,
+          list22,
+          list23,
+          list24,
+          list25,
+          list26,
+          list27,
+          list28,
+          list29,
+          list30,
+          list31,
           ans,
           open,
           link1,
@@ -67,10 +90,7 @@ function FAQ({ FaqData }) {
           linksfour,
           linksfive,
           linkssix,
-          
- 
-
-
+          span,
         } = data;
 
         return (
@@ -132,18 +152,23 @@ function FAQ({ FaqData }) {
                     <>
                       {" "}
                       <br /> <br />
-
                       <span>{list1}</span> <br />
                       <span>{list2}</span> <br />
                       <span>{list3}</span> <br />
                       <span>{list4}</span> <br />
                       <span>{list5}</span> <br />
+                      {span && (
+                        <>
+                          <span>{span}</span>
+                        </>
+                      )}
                     </>
                   ) : (
                     <></>
                   )}
                   {dscoursefaq1 ? (
-                    <><br />
+                    <>
+                      <br />
                       <span>{list1}</span> <br />
                       <span>{list2}</span> <br />
                       <span>{list3}</span> <br />
@@ -152,25 +177,80 @@ function FAQ({ FaqData }) {
                       <span>{list6}</span> <br />
                       <span>{list7}</span> <br />
                       <span>{list8}</span> <br />
+                      {list9 && (<><span>{list9}</span><br/></>)}
+                      {list10 && (<><span>{list10}</span><br/></>)}
+                      {list11 && (<><span>{list11}</span><br/></>)}
+                      {list12 && (<><span>{list12}</span><br/></>)}
+                      {list13 && (<><span>{list13}</span><br/></>)}
+                      {list14 && (<><span>{list14}</span><br/></>)}
+                      {list15 && (<><span>{list15}</span><br/></>)}
+                      {list16 && (<><span>{list16}</span><br/></>)}
+                      {list17 && (<><span>{list17}</span><br/></>)}
+                      {list18 && (<><span>{list18}</span><br/></>)}
+                      {list19 && (<><span>{list19}</span><br/></>)}
+                      {list20 && (<><span>{list20}</span><br/></>)}
+                      {list21 && (<><span>{list21}</span><br/></>)}
+                      {list22 && (<><span>{list22}</span><br/></>)}
+                      {list23 && (<><span>{list23}</span><br/></>)}
+                      {list24 && (<><span>{list24}</span><br/></>)}
+                      {list25 && (<><span>{list25}</span><br/></>)}
+                      {list26 && (<><span>{list26}</span><br/></>)}
+                      {list27 && (<><span>{list27}</span><br/></>)}
+                      {list28 && (<><span>{list28}</span><br/><br/></>)}
+                      {span && (<><span>{span}</span><br/></>)}
+                      {list29 && (<><span>{list29}</span><br/></>)}
+                      {list30 && (<><span>{list30}</span><br/></>)}
+                      {list31 && (<><span>{list31}</span><br/></>)}
+
                     </>
                   ) : (
                     <></>
                   )}
-         
 
-                  {linksli ? (<>
-                    <ul style={{color:"#0072BC"}}>
-                      <li ><a href={linksone} target="_blank">{linkone}</a></li>
-                  
-                 <li> <a href={linkstwo} target="_blank">{linktwo}</a></li>
-                 <li> <a href={linksthree} target="_blank">{linkthree}</a></li>
-                 <li> <a href={linksfour} target="_blank">{linkfour}</a></li>
-                 <li> <a href={linksfive} target="_blank">{linkfive}</a></li>
-                 <li> <a href={linkssix} target="_blank">{linksix}</a></li>
-                  </ul>
-                  
-                  </>):(<></>)}
-              
+                  {linksli ? (
+                    <>
+                      <ul style={{ color: "#0072BC" }}>
+                        <li>
+                          <a href={linksone} target="_blank">
+                            {linkone}
+                          </a>
+                        </li>
+
+                        <li>
+                          {" "}
+                          <a href={linkstwo} target="_blank">
+                            {linktwo}
+                          </a>
+                        </li>
+                        <li>
+                          {" "}
+                          <a href={linksthree} target="_blank">
+                            {linkthree}
+                          </a>
+                        </li>
+                        <li>
+                          {" "}
+                          <a href={linksfour} target="_blank">
+                            {linkfour}
+                          </a>
+                        </li>
+                        <li>
+                          {" "}
+                          <a href={linksfive} target="_blank">
+                            {linkfive}
+                          </a>
+                        </li>
+                        <li>
+                          {" "}
+                          <a href={linkssix} target="_blank">
+                            {linksix}
+                          </a>
+                        </li>
+                      </ul>
+                    </>
+                  ) : (
+                    <></>
+                  )}
 
                   <a href={link1} target="_blank" className={styles.link}>
                     {linkText1}

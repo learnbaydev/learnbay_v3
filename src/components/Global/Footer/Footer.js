@@ -69,7 +69,7 @@ const Footer = ({
             <b>
               <Link href="/data-science-courses">data science courses</Link>
             </b>
-            , System designing or full stack development courses. Master the
+            ,DSA & System designing or full stack development courses. Master the
             most demanding skills of job market and experience and ever growing
             and lucrative career transformation.
           </p>

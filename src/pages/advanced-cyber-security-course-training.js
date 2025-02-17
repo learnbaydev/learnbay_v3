@@ -1,15 +1,33 @@
-import dynamic from "next/dynamic";
+import React from "react";
 import Head from "next/head";
 import { parseJSONData } from "@/Util/JsonConvertor";
-import EthicalCyberFirstPart from "@/components/CoursePage/FirstPart/EthicalCyberFirstPart";
-import EthicalCyberSecondPart from "@/components/CoursePage/FirstPart/EthicalCyberSecondPart";
+import Header from "@/components/CoursePage/NewCyberECCouncil/NewCyberECCouncilHeader";
+import Navbar from "@/components/Global/Navbar/Navbar";
+import ProgramSection from "@/components/CoursePage/NewDSA/ProgramSection/ProgramSection";
+import NewCyberSecurityECCouncilPractical from "@/components/CoursePage/NewDSA/Practical/NewCyberSecurityECCouncilPractical";
+import AnimationGEN from "@/components/Home/whyChooseSection/AnimationGEN";
+import JobReadySection from "@/components/CoursePage/NewDSA/JobReadySection/JobReadySection";
+import NewCyberECCouncilCertificate from "@/components/CoursePage/NewCyberECCouncil/NewCyberECCouncilCertificate/NewCyberECCouncilCertificate";
+import DSAFeeSection from "@/components/CoursePage/dsaFee/DSAFeeSection";
+import ReviewSlider from "@/components/Home/newUI/reviewSlider/reviewSlider";
+import DSASyllabus from "@/components/CoursePage/NewDSA/DSASyllabusSection/DSASyllabus";
+import NewCyberECCouncilProject from "@/components/CoursePage/NewDSA/ProjectSection/NewCyberECCouncilProject";
+import MentorsSection from "@/components/course/MentorsSection/MentorsSection";
+import Footer from "@/components/Global/Footer/Footer";
+import BottomBar from "@/components/Global/BottomBar/BottomBar";
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+import FAQNew from "@/components/CoursePage/FAQNew/FAQNewDomain";
+import NewSevenSection from "@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection";
 
-function Blockchain({ DataScienceCourseDataJson }) {
-  const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
+const CyberSecurityECCouncil = ({ NewCyberSecurityECCouncilDataJson }) => {
+  const NewCyberSecurityECCouncilData = parseJSONData(
+    NewCyberSecurityECCouncilDataJson
+  );
 
+  const pdfUrl = "/Brochure/Advance-Cyber-security.pdf";
   return (
     <>
-      <Head>
+    <Head>
         <title>
           Best Cyber Security & Ethical Hacking Course | IITR Certification
         </title>
@@ -111,40 +129,126 @@ function Blockchain({ DataScienceCourseDataJson }) {
 /> */}
       </Head>
       <main>
-        <EthicalCyberFirstPart
-          summaryData={
-            DataScienceCourseData.ECCyberSecurityData[0].summarySection
-          }
-          SecondSectionData={
-            DataScienceCourseData.ECCyberSecurityData[0].secondSection
-          }
-          whyChooseData={
-            DataScienceCourseData.ECCyberSecurityData[0].whyChooseData
-          }
+        <Navbar
+          popup={true}
+          dataScienceCounselling={true}
+          interstedInHide={true}
         />
-        <EthicalCyberSecondPart
-          masterSyllabusMobile={
-            DataScienceCourseData.ECCyberSecurityData[0].masterSyllabusMobile
+        <Header
+          title={NewCyberSecurityECCouncilData[0].header[0].title}
+          orgTitle={NewCyberSecurityECCouncilData[0].header[0].orgTitle}
+          spanTag={NewCyberSecurityECCouncilData[0].header[0].spanTag}
+          spanIcon={NewCyberSecurityECCouncilData[0].header[0].spanIcon}
+          descrption={NewCyberSecurityECCouncilData[0].header[0].descrption}
+          collaborationImg={
+            NewCyberSecurityECCouncilData[0].header[0].collaborationImg
           }
-          toolsData={DataScienceCourseData.ECCyberSecurityData[0].toolsData}
-          CertificateData={
-            DataScienceCourseData.ECCyberSecurityData[0].Certificate
+          subtitle={NewCyberSecurityECCouncilData[0].header[0].subtitle}
+          applicationIcon={
+            NewCyberSecurityECCouncilData[0].header[0].applicationIcon
           }
-          certificateNew={
-            DataScienceCourseData.ECCyberSecurityData[0].certificateNew
+          BotWidth={NewCyberSecurityECCouncilData[0].header[0].BotWidth}
+          BotHeight={NewCyberSecurityECCouncilData[0].header[0].BotHeight}
+          ProgramIcon={NewCyberSecurityECCouncilData[0].header[0].ProgramIcon}
+          trainingIcon={NewCyberSecurityECCouncilData[0].header[0].trainingIcon}
+          CloseDes={NewCyberSecurityECCouncilData[0].header[0].CloseDes}
+          CloseBotDate={NewCyberSecurityECCouncilData[0].header[0].CloseBotDate}
+          DurationBot={NewCyberSecurityECCouncilData[0].header[0].DurationBot}
+          DurationBotDate={
+            NewCyberSecurityECCouncilData[0].header[0].DurationBotDate
           }
-          FAQNewData={DataScienceCourseData.ECCyberSecurityData[0].faq}
+          TrainingBot={NewCyberSecurityECCouncilData[0].header[0].TrainingBot}
+          TrainingBotFormat={
+            NewCyberSecurityECCouncilData[0].header[0].TrainingBotFormat
+          }
+          downloadBrochure={true}
+          backgroundImg={
+            NewCyberSecurityECCouncilData[0].header[0].backgroundImg
+          }
+          isCyberSecurity={true}
+          dataScience={true}
+          dataScienceCounselling={true}
+          titleCourse="Advance Certification in Cyber Security & Ethical Hacking"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance-Cyber-security.pdf"
+          brochurePdf={pdfUrl}
+          interstedInHide={true}
         />
+        <ProgramSection
+          programSectionData={NewCyberSecurityECCouncilData[0].ProgramSection}
+          dataScienceCounselling={true}
+          interstedInHide={true}
+          upSkillingHide={true}
+        />
+        <NewCyberSecurityECCouncilPractical />
+        <AnimationGEN
+          whyChooseData={NewCyberSecurityECCouncilData[0].whyChooseData}
+          cyber={true}
+        />
+        <JobReadySection />
+        <DSASyllabus
+          sections={NewCyberSecurityECCouncilData[0].sections}
+          dataScience={true}
+          interstedInHide={true}
+          titleCourse="Advance Certification in Cyber Security & Ethical Hacking"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance-Cyber-security.pdf"
+          brochurePdf={pdfUrl}
+          downloadBrochure={true}
+        />
+        <NewCyberECCouncilCertificate
+          certificateData={NewCyberSecurityECCouncilData[0].certificateNew}
+        />
+
+        <DSAFeeSection
+          Fee="₹60,000"
+          FeeEmi="₹ 3,933/month"
+          weekendbatch="Weekend Morning"
+          weekdaybatch="Weekend Morning"
+          weekday="SAT-SUN"
+          weekend="SAT-SUN"
+          WeekendDate="23rd Mar"
+          WeekdayDate="2nd Mar"
+          WeekendTime="09:00AM - 12:00PM"
+          WeekdayTime="09:00AM - 12:00PM"
+          FeeContent3="Flexible payment"
+          // <EMI POPUP
+          emiType="NO COST EMI"
+          duration1="18 Months"
+          totalAmount1="₹60,000"
+          monthlyPayment1="₹3,933"
+          greenDown1="Standard Intrest rate Applicable"
+          duration2="12 Months"
+          totalAmount2="₹60,000"
+          monthlyPayment2="₹5,900"
+        />
+        <ReviewSlider />
+        <MentorsSection />
+        <NewCyberECCouncilProject />
+        <FAQNew
+          FAQNewData={NewCyberSecurityECCouncilData[0].faq}
+          background={true}
+        />
+        <NewSevenSection
+          dataScienceCounselling={true}
+          interstedInHide={true}
+          upSkillingHide={true}
+        />
+        <Footer />
+        <BottomBar dataScienceCounselling={true} interstedInHide={true} />
+        <WhatsappFloat />
       </main>
     </>
   );
-}
-export default Blockchain;
+};
+
+export default CyberSecurityECCouncil;
+
 export async function getStaticProps() {
-  const data = await import("../Data/EcCouncilCyberSecurityData");
-  function getDataScienceCourseDataJSON(dataScienceCourseData) {
-    return JSON.stringify(dataScienceCourseData);
-  }
-  const DataScienceCourseDataJson = getDataScienceCourseDataJSON(data);
-  return { props: { DataScienceCourseDataJson } };
+  const module = await import("../Data/NewCyberSecurityECCouncilData");
+  const data = module.default;
+
+  const NewCyberSecurityECCouncilDataJson = JSON.stringify(data, (key, value) =>
+    value === undefined ? null : value
+  );
+
+  return { props: { NewCyberSecurityECCouncilDataJson } };
 }

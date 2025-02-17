@@ -5,7 +5,7 @@ import Image from "next/image";
 import dynamic from "next/dynamic";
 
 const Reels = dynamic(() => import("./Reels"));
-const VideoYt = dynamic(() => import("../videoYt/VideoYt"), { ssr: false });
+// const VideoYt = dynamic(() => import("../videoYt/VideoYt"), { ssr: false });
 
 const ReviewSlider = ({ showVideoYt }) => {
   return (
@@ -31,9 +31,9 @@ const ReviewSlider = ({ showVideoYt }) => {
                   />
                 </div>
               </div>
-              <div className={styles.secondBotReview}>
+              {/* <div className={styles.secondBotReview}>
                 <VideoYt className={styles.YT} />
-              </div>
+              </div> */}
             </div>
           </div>
         )}
