@@ -385,11 +385,7 @@ const NewCourse = ({
       </div> */}
       <div className={styles.cardwrapper}>
         {certificationCourses.map((course, index) => (
-          <CertificationCard
-            data={course}
-            interstedInHide={true}
-            dataScience={true}
-          />
+          <CertificationCard data={course} radio={true} dataScience={true} />
         ))}
       </div>
     </div>
