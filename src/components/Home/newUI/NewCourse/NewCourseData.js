@@ -23,8 +23,7 @@ export const courses = {
       link: "/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf",
-      brochurePdfs:
-        "/Brochure/Executive-program-iit.pdf",
+      brochurePdfs: "/Brochure/Executive-program-iit.pdf",
     },
     {
       title: "Advanced AI & ML Certification Program",
@@ -53,7 +52,7 @@ export const courses = {
       brochurePdfs: "/Brochure/data-science-ai-for-managers.pdf",
     },
 
-        {
+    {
       title: "Data Analytics Certification Program",
       duration: "5 months | 1 capstone Projects",
       certification: "Project Certification form IBM",
@@ -62,7 +61,7 @@ export const courses = {
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA_card+(1).webp",
 
       link: "/datascience/data-analytics-certification-course",
-  brochureLinks:
+      brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
       brochurePdfs: "/Brochure/Data-Analytics-Certification.pdf",
     },
@@ -80,48 +79,45 @@ export const courses = {
       brochurePdfs: "/Brochure/Business-Analytics-Program.pdf",
     },
 
-  //   {
-  //     title: "Data Structure Algorithms & System Design ",
-  //     duration: "7 months | 2 capstone Projects",
-  //     certification: "Project Certification form microsoft",
-  //     description: "For Working Professional",
-  //     image:
-  //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_cards.webp",
-  //     link: "/fullstack/dsa-system-design",
-  //     brochureLinks:
-  //       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
-  //     brochurePdfs: "/Brochure/Data-Structure-System-Design.pdf",
-  //   },
+    //   {
+    //     title: "Data Structure Algorithms & System Design ",
+    //     duration: "7 months | 2 capstone Projects",
+    //     certification: "Project Certification form microsoft",
+    //     description: "For Working Professional",
+    //     image:
+    //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_cards.webp",
+    //     link: "/fullstack/dsa-system-design",
+    //     brochureLinks:
+    //       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
+    //     brochurePdfs: "/Brochure/Data-Structure-System-Design.pdf",
+    //   },
 
-  //   {
-  //     title: "Cloud Computing & DevOps Certification Program",
-  //     duration: "7 months | 3 Project",
-  //     certification: "Global Certification",
-  //     description: "Designed by industry experts",
-  //     image:
-  //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cloud_cardss.webp",
+    //   {
+    //     title: "Cloud Computing & DevOps Certification Program",
+    //     duration: "7 months | 3 Project",
+    //     certification: "Global Certification",
+    //     description: "Designed by industry experts",
+    //     image:
+    //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cloud_cardss.webp",
 
-  //     link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
-  //     brochureLinks:
-  //       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
-  //     brochurePdfs: "/Brochure/Cloud-and-Devops.pdf",
-  //   },
+    //     link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+    //     brochureLinks:
+    //       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
+    //     brochurePdfs: "/Brochure/Cloud-and-Devops.pdf",
+    //   },
 
-
-
-
-  //   {
-  //     title: "HR Analytics Certification Program",
-  //     duration: "5 months | 2 capstone Projects",
-  //     certification: "Project Certification form IBM",
-  //     description: "For HR Professional",
-  //     image:
-  //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/HR_cardssss.webp",
-  //     link: "datascience/hr-analytics",
-  //     brochureLinks:
-  //       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
-  //     brochurePdfs: "/Brochure/hr-analytics.pdf",
-  //   },
+    //   {
+    //     title: "HR Analytics Certification Program",
+    //     duration: "5 months | 2 capstone Projects",
+    //     certification: "Project Certification form IBM",
+    //     description: "For HR Professional",
+    //     image:
+    //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/HR_cardssss.webp",
+    //     link: "datascience/hr-analytics",
+    //     brochureLinks:
+    //       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
+    //     brochurePdfs: "/Brochure/hr-analytics.pdf",
+    //   },
     // {
     //   title: "Advanced Data Science & AI Certification ",
     //   duration: "7 months | 2 capstone Projects",
@@ -135,8 +131,6 @@ export const courses = {
     //   brochurePdfs: "/Brochure/Advance_DSAI.pdf",
     // },
 
- 
-  
     // {
     //   title: "Data Science & AI for BFSI Professionals",
     //   duration: "7 months | 2 capstone Projects",
@@ -149,8 +143,6 @@ export const courses = {
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
     //   brochurePdfs: "/Brochure/BFSI.pdf",
     // },
-
-    
 
     // {
     //   title: "Professional Certificate in AWS Cloud Computing & Devops",
@@ -256,11 +248,6 @@ export const courses = {
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
       brochurePdfs: "/Brochure/BFSI.pdf",
     },
-
-
-
-   
-
   ],
 
   CloudS: [
@@ -428,8 +415,7 @@ export const courses = {
       link: "/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/iit-Guwahati/Executive+program+in+Data+Science+%26+AI-+IIT_compress.pdf",
-      brochurePdfs:
-        "/Brochure/Executive-program-iit.pdf",
+      brochurePdfs: "/Brochure/Executive-program-iit.pdf",
     },
     {
       title: "Advanced AI & ML Certification Program",
@@ -510,7 +496,6 @@ export const courses = {
       brochurePdfs: "/Brochure/hr-analytics.pdf",
     },
 
-    
     // {
     //   title: "Advanced Data Science & AI Certification ",
     //   duration: "7 months | 2 capstone Projects",
@@ -523,8 +508,6 @@ export const courses = {
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/Advance_DSAI.pdf",
     //   brochurePdfs: "/Brochure/Advance_DSAI.pdf",
     // },
-
-   
 
     {
       title: "Business Analytics Master Certification Program",
@@ -550,8 +533,6 @@ export const courses = {
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
       brochurePdfs: "/Brochure/BFSI.pdf",
     },
-
-   
 
     {
       title: "Professional Certificate in AWS Cloud Computing & Devops",
@@ -761,7 +742,7 @@ export const courses = {
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
       brochurePdfs: "/Brochure/Data-Structure-System-Design.pdf",
     },
-    
+
     {
       title: "Cloud Computing & DevOps Certification Program",
       duration: "10 months | 3 Project",
@@ -815,7 +796,6 @@ export const courses = {
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf",
     //   brochurePdfs: "/Brochure/Software-Developer-Certification.pdf",
     // },
-
   ],
 
   bfsi: [
@@ -856,13 +836,9 @@ export const courses = {
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
       brochurePdfs: "/Brochure/BFSI.pdf",
     },
-   
-
-  
   ],
 
   dsa: [
-
     {
       title: "GenAI Certification for Managers & Tech Leaders",
       duration: "4 months",
@@ -944,6 +920,55 @@ export const masterCourse = {
     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf",
   brochurePdfs: "/Brochure/Masters-in-CS.pdf",
 };
+export const certificationCourses = [
+  {
+    title: "GenAI Certification for Managers & Tech Leaders",
+    points: [
+      {
+        icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cer_icons.webp",
+        text: "13 months",
+      },
+      {
+        icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Date_icons.webp",
+        text: "Project Certification from IIT Guwahati",
+      },
+      {
+        icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Save_icons.webp",
+        text: "For Managers & Tech Leaders",
+      },
+    ],
+    imageSrc: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Part_I.webp",
+    logoSrc: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/ECIT_new.webp",
+    link: "/datascience/generative-ai-course-for-managers",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI-Managers-Tech-Leaders-iits.pdf",
+    brochurePdfs: "/Brochure/GenAI-Managers-Tech-Leaders-iits.pdf",
+  },
+  {
+    title: "GenAI Developer Certification for Professionals",
+    points: [
+      {
+        icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cer_icons.webp",
+        text: "13 months",
+      },
+      {
+        icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Date_icons.webp",
+        text: "Project Certification from IIT Guwahati",
+      },
+      {
+        icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Save_icons.webp",
+        text: "For Tech Professionals & Developers",
+      },
+    ],
+    link: "/fullstack/generative-ai-course-for-professionals",
+    brochureLinks:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI-Developer-Program.pdf",
+    brochurePdfs: "/Brochure/GenAI-Developer-Program.pdf",
+    imageSrc: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Part_II.webp",
+    logoSrc: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/ECIT_new.webp",
+  },
+  // Add more course objects here as needed...
+];
 
 export const SvgArrow = ({ color }) => (
   <svg

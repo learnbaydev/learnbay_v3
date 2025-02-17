@@ -79,7 +79,7 @@ const DSAPopup = ({ message, onClose }) => {
             </div>
             <div className={styles.middleLineDiv}></div>
             <div className={styles.rightContentDiv}>
-              <span>Time : 8 pm , Date : 30 Jan</span>
+              <span>Time : 9 am , Date : 23 Feb</span>
               <div className={styles.mentorsFromDiv}>
                 <p>Mentors from:</p>
                 <div className={styles.mentorsFromImageDiv}>

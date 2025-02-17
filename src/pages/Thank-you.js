@@ -9,6 +9,8 @@ import Survey from "../components/StaticPage/Thankyou/Survey/Survey";
 import ThankStats from "../components/StaticPage/Thankyou/ThankStat/ThankStats";
 import Head from "next/head";
 import cookies from "next-cookies";
+import CertificationCard from "../components/Home/newUI/CertificationCard/CertificationCard";
+import { certificationCourses } from "../components/Home/newUI/NewCourse/NewCourseData";
 const setCookie = (name, value, days, domain) => {
   const expires = new Date();
   expires.setTime(expires.getTime() + days * 24 * 60 * 60 * 1000);

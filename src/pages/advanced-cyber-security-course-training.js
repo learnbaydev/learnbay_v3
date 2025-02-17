@@ -27,19 +27,19 @@ const CyberSecurityECCouncil = ({ NewCyberSecurityECCouncilDataJson }) => {
   const pdfUrl = "/Brochure/Advance-Cyber-security.pdf";
   return (
     <>
-    <Head>
+      <Head>
         <title>
-          Best Cyber Security & Ethical Hacking Course | IITR Certification
+          Advance Cyber Security & Ethical Hacking Course | Learnbay
         </title>
         <meta
           name="description"
-          content="Become an expert in cyber security & ethical hacking with Learnbay's Executive Program. Master the skills to secure networks & data from cyber threats."
+          content="Join Learnbay's Advance Cyber Security & Ethical Hacking program. Master top skills to become a cybersecurity expert and protect systems from cyber threats."
         />
 
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="cyber security and ethical hacking course, cyber security and ethical hacking, cyber hacking course, cyber security ethical hacking course, cyber security and hacking courses, cyber security ethical hacking certification"
+          content=" advance cyber security course, advanced cyber security course"
         />
 
         <link
@@ -57,13 +57,13 @@ const CyberSecurityECCouncil = ({ NewCyberSecurityECCouncilDataJson }) => {
         />
         <meta
           property="og:title"
-          content="Best Cyber Security & Ethical Hacking Course | IITR Certification"
+          content="Advance Cyber Security & Ethical Hacking Course | Learnbay "
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Become an expert in cyber security & ethical hacking with Learnbay's Executive Program. Master the skills to secure networks & data from cyber threats."
+          content="Join Learnbay's Advance Cyber Security & Ethical Hacking program. Master top skills to become a cybersecurity expert and protect systems from cyber threats."
         />
         <meta
           property="og:image"
@@ -75,7 +75,7 @@ const CyberSecurityECCouncil = ({ NewCyberSecurityECCouncilDataJson }) => {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Best Cyber Security & Ethical Hacking Course | IITR Certification"
+          content="Advance Cyber Security & Ethical Hacking Course | Learnbay "
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
@@ -84,7 +84,7 @@ const CyberSecurityECCouncil = ({ NewCyberSecurityECCouncilDataJson }) => {
         />
         <meta
           name="twitter:description"
-          content="Become an expert in cyber security & ethical hacking with Learnbay's Executive Program. Master the skills to secure networks & data from cyber threats."
+          content="Join Learnbay's Advance Cyber Security & Ethical Hacking program. Master top skills to become a cybersecurity expert and protect systems from cyber threats."
         />
         <meta
           name="twitter:image"

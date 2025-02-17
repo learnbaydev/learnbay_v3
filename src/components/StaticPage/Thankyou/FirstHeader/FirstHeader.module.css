@@ -10,6 +10,15 @@
   gap: 20px;
   border-radius: 0 0 50% 50%;
 }
+
+.cardwrapper {
+  display: grid;
+  grid-template-columns: 37% 37%;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  /* margin: 20px 0; */
+}
 .headerWrap p {
   margin: 0;
   font-size: 30px;
@@ -36,9 +45,9 @@
 }
 .btnDownload {
   border: 0;
-    font-weight: 500;
-    color: #242424;
-    background-color: #edbb52;
+  font-weight: 500;
+  color: #242424;
+  background-color: #edbb52;
 }
 
 .btnFlex {
@@ -49,24 +58,29 @@
   .headerWrap {
     border-radius: 0 0 10% 10%;
     padding: 20px;
-  margin-top: 47px;
+    margin-top: 47px;
+  }
+  .cardwrapper {
+    grid-template-columns: 100%;
+    margin: 0 14px;
   }
   .headerWrap h1 {
     font-size: 22px;
   }
-  
+
   .btnFlex {
     display: block;
-  }.headerWrap button {
+  }
+  .headerWrap button {
     margin: auto;
     margin-top: 20px;
   }
-.btnDownload {
-  margin: auto;
-  margin-top: 20px;
-}
-.headerWrap p {
-  margin: 0;
-  font-size: 25px;
-}
+  .btnDownload {
+    margin: auto;
+    margin-top: 20px;
+  }
+  .headerWrap p {
+    margin: 0;
+    font-size: 25px;
+  }
 }
