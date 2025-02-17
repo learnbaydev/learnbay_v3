@@ -1,7 +1,12 @@
 import React, { useState, useRef, useEffect, memo } from "react";
 import styles from "./NewCourse.module.css";
 import Image from "next/image";
-import { courses, masterCourse, SvgArrow } from "./NewCourseData";
+import {
+  courses,
+  masterCourse,
+  SvgArrow,
+  certificationCourses,
+} from "./NewCourseData";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import DataScienceCard from "./DataScienceCard";
@@ -283,7 +288,7 @@ const NewCourse = ({
 
   const renderMasterCourse = () => (
     <div className={`${styles.MasterCard} width`}>
-      <Popup
+      {/* <Popup
         trigger={popups}
         setTrigger={setPopups}
         className="popupModal"
@@ -377,27 +382,16 @@ const NewCourse = ({
             <span>Countries Recognition</span>
           </h4>
         </div>
-      </div>
-      {/* <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
-        <CertificationCard
-          title="GenAI Certification for Managers & Tech Leaders"
-          subtitle="13 months"
-          points={[
-            "Project Certification from IIT Guwahati",
-            "For Managers & Tech Leaders",
-          ]}
-          imageSrc="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/part1.webp"
-        />
-        <CertificationCard
-          title="GenAI Developer Certification for Professionals"
-          subtitle="13 months"
-          points={[
-            "Project Certification from IIT Guwahati",
-            "For Tech Professionals & Developers",
-          ]}
-          imageSrc="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/part2.webp"
-        />
       </div> */}
+      <div className={styles.cardwrapper}>
+        {certificationCourses.map((course, index) => (
+          <CertificationCard
+            data={course}
+            interstedInHide={true}
+            dataScience={true}
+          />
+        ))}
+      </div>
     </div>
   );
   const debounceScroll = (func, delay) => {

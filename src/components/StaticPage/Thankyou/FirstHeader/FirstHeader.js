@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Navbar from "../../../Global/Navbar/Navbar";
 import styles from "./FirstHeader.module.css";
+import CertificationCard from "../../../Home/newUI/CertificationCard/CertificationCard";
+import { certificationCourses } from "../../../Home/newUI/NewCourse/NewCourseData";
 
 const FirstHeader = ({ donwnload, brochureLink }) => {
   return (
@@ -47,6 +49,17 @@ const FirstHeader = ({ donwnload, brochureLink }) => {
             ""
           )}
         </div>
+      </div>
+
+      <div className={styles.cardwrapper}>
+        {certificationCourses.map((course, index) => (
+          <CertificationCard
+            data={course}
+            interstedInHide={true}
+            dataScience={true}
+            download={true}
+          />
+        ))}
       </div>
     </>
   );
