@@ -51,6 +51,146 @@ const Popup = ({ message, onClose }) => {
   );
 };
 
+const PopupNew = ({ message, onClose }) => {
+  return (
+    <div className={styles.popupOverlay}>
+      <div
+        className={styles.popupContainer}
+        onClick={(e) => e.stopPropagation()} // Prevents propagation to the overlay
+      >
+        <span className={styles.close} onClick={onClose}>
+          &times;
+        </span>
+
+        <div className={styles.mainDiv}>
+          <div className={styles.whiteDiv}>
+            <div className={styles.iitDiv}>
+            <Image
+              src = ' https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Full-IIT-New.webp'
+               loading="lazy"
+                width={127}
+                height={88}
+               quality={100}
+               className={styles.iitImg}
+               alt="genai-pop"
+            /> 
+            </div>
+            <Image
+              src = 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Sparkling-New.webp'
+               loading="lazy"
+                width={50}
+                height={50}
+               quality={100}
+               className={styles.starPop}
+               alt="star-pop"
+            />
+            <h3>GenAI Certification <span className={styles.forTitle}>For</span></h3>
+            <span className={styles.popupTitle}>
+            Working professionals</span>
+            {/* <span className={styles.OFF}>20% OFF</span> */}
+            {/* <span className={styles.vaildTag}>( Valid till 16th Jan )</span> */}
+          </div>
+
+          {/* Middle TagLine */}
+          {/* <div className={styles.tagLine}>
+            <p>
+              on all Our <span>Course</span>
+            </p>
+          </div> */}
+
+          {/* Bottom Gradient Div */}
+          <div className={styles.gradientDiv}>
+            <p className={styles.newbatch}>Learn from Gen AI Industry Mentors</p>
+            <div className={styles.popupPoints}>
+              <div className={styles.popPoint}>
+              <Image
+                src = 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Check+Mark.webp'
+                loading="lazy"
+                width={20}
+                height={20}
+                quality={100}
+                alt='green-tick'
+              />
+              Master LangChain & OpenAI APIs
+              </div>
+              <div className={styles.popPoint}>
+              <Image
+                src = 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Check+Mark.webp'
+                loading="lazy"
+                width={20}
+                height={20}
+                quality={100}
+                alt='green-tick'
+              />
+              Get Certified in GenAI from EICT Academy, IIT Guwahati
+              </div>
+              <div className={styles.popPoint}>
+              <Image
+                src = 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Check+Mark.webp'
+                loading="lazy"
+                width={20}
+                height={20}
+                quality={100}
+                alt='green-tick'
+              />
+              Build and Integrate GenAI application
+              </div>
+            </div>
+            <div className={styles.mpopupPoints}>
+              <div className={styles.mpopPoint}>
+              <Image
+                src = 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Check+Mark.webp'
+                loading="lazy"
+                width={20}
+                height={20}
+                quality={100}
+                alt='green-tick'
+              />
+              Master LangChain & OpenAI APIs
+              </div>
+              <div className={styles.mpopPoint}>
+              <Image
+                src = 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Check+Mark.webp'
+                loading="lazy"
+                width={20}
+                height={20}
+                quality={100}
+                alt='green-tick'
+              />
+              Build and Integrate GenAI application
+              </div>
+              <div className={styles.mpopPoint}>
+              <Image
+                src = 'https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Check+Mark.webp'
+                loading="lazy"
+                width={20}
+                height={20}
+                quality={100}
+                alt='green-tick'
+              />
+              Get Certified in GenAI from EICT Academy, IIT Guwahati
+              </div>
+            </div>
+            {/* <div className={styles.batchDiv}>
+              <p className={styles.offerText}>
+                Weekend Batch : <span>9:30 AM - 1 PM</span>
+              </p>
+              <p className={styles.offerText}>
+                Weekday Batch : <span>8:00 PM - 10:30 PM</span>
+              </p>
+            </div> */}
+            <Link href="/submit-info" target="_blank">
+              <div className={styles.buttonDiv}>
+                <button>Apply for Scholarship Now</button>
+              </div>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 const PopupWrapper = () => {
   const [isPopupVisible, setPopupVisible] = useState(false);
 
@@ -74,7 +214,7 @@ const PopupWrapper = () => {
 
   return (
     <>
-      {isPopupVisible && <Popup message="Get Scholarship" onClose={handleClosePopup} />}
+      {isPopupVisible && <PopupNew message="Get Scholarship" onClose={handleClosePopup} />}
     </>
   );
 };
