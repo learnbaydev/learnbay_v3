@@ -34,6 +34,7 @@ const Form = ({
   DomainInput,
   brochurePdf,
   DSADemoSession,
+  genAISelectOption,
 }) => {
   const router = useRouter();
   const [formFields, setFormFields] = useState(
@@ -105,8 +106,15 @@ const Form = ({
   const formSubmit = async (e) => {
     e.preventDefault();
     setSubmitting(true); // Set submitting state to true
+
+    let updatedQuery = { ...query };
+
+    // If genAISelectOption is true, set platform to "generative ai"
+    if (genAISelectOption) {
+        updatedQuery.platform = "Generative AI";
+    }
     const formData = new FormData();
-    Object.entries(query).forEach(([key, value]) => {
+    Object.entries(updatedQuery).forEach(([key, value]) => {
       formData.append(key, value);
     });
 

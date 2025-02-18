@@ -50,16 +50,17 @@ const FirstHeader = ({ donwnload, brochureLink }) => {
           )}
         </div>
       </div>
-
-      <div className={styles.cardwrapper}>
-        {certificationCourses.map((course, index) => (
-          <CertificationCard
-            data={course}
-            interstedInHide={true}
-            dataScience={true}
-            download={true}
-          />
-        ))}
+      <div className={`${styles.MasterCard} width`}>
+        <div className={styles.cardwrapper}>
+          {certificationCourses.map((course, index) => (
+            <CertificationCard
+              data={course}
+              interstedInHide={true}
+              dataScience={true}
+              download={true}
+            />
+          ))}
+        </div>
       </div>
     </>
   );

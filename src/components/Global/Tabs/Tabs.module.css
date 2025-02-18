@@ -26,6 +26,7 @@
 
 .span,
 .spanActive {
+  position: relative;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -39,11 +40,17 @@
   transition: background-color 0.3s, transform 0.3s;
 }
 
+.span,
+.spanActive {
+  justify-content: flex-start !important;
+}
+
 .span:hover,
 .spanActive:hover {
   background-color: #0367a6;
   transform: scale(1.05);
   color: white;
+  position: relative;
 }
 
 .spanActive {
@@ -65,10 +72,30 @@
   animation: fadeIn 0.5s ease-in-out;
 }
 
+.tagNew {
+  position: relative;
+  width: max-content;
+  height: max-content;
+}
+
+.tagNew p{
+  padding: 2px 3px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #fe7a36 0%, #f94f4f 100%);
+  position: absolute;
+  margin: 0;
+  font-size: 7px !important;
+  color: #fff;
+  font-weight: 600;
+  top: -13px;
+  left: 1px;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -123,7 +150,7 @@
 }
 
 @media (min-width: 961px) and (max-width: 1070px),
-  (min-width: 799px) and (max-width: 960px) {
+(min-width: 799px) and (max-width: 960px) {
   .MenuTabs {
     padding: 20px;
     width: 100%;
@@ -179,4 +206,5 @@
   .middlePanel {
     display: none;
   }
+
 }

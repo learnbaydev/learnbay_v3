@@ -930,7 +930,7 @@ export const certificationCourses = [
       },
       {
         icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Date_icons.webp",
-        text: "Project Certification from IIT Guwahati",
+        text: "Certification from IIT Guwahati",
       },
       {
         icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Save_icons.webp",
@@ -953,7 +953,7 @@ export const certificationCourses = [
       },
       {
         icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Date_icons.webp",
-        text: "Project Certification from IIT Guwahati",
+        text: "Certification from IIT Guwahati",
       },
       {
         icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Save_icons.webp",

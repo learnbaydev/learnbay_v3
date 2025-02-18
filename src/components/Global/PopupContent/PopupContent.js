@@ -22,7 +22,8 @@ const PopupContent = ({
   DomainInput,
   DSADemoSession,
   dsaPopup,
-  setDSAPopup
+  setDSAPopup,
+  genAISelectOption,
 }) => {
   return (
     <Popup
@@ -58,6 +59,7 @@ const PopupContent = ({
           setTrigger={setPopups}
           dsaPopup={dsaPopup}
           setDSAPopup={setDSAPopup}
+          genAISelectOption={genAISelectOption}
         />
       </div>
     </Popup>

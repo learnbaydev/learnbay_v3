@@ -1,7 +1,8 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./Popup.module.css";
+import PopupContent from "../Global/PopupContent/PopupContent";
 
 const Popup = ({ message, onClose }) => {
   return (
@@ -52,8 +53,21 @@ const Popup = ({ message, onClose }) => {
 };
 
 const PopupNew = ({ message, onClose }) => {
+   const [popups, setPopups] = useState(false);
+  
+    const popupShow = useCallback(() => {
+      setPopups(true);
+    }, []);
   return (
     <div className={styles.popupOverlay}>
+      <PopupContent
+              popups={popups}
+              setPopups={setPopups}
+              heading="Apply for Gen AI Program"
+              upSkillingHide={true}
+              dataScienceCounselling={true}
+              genAISelectOption={true}
+            />
       <div
         className={styles.popupContainer}
         onClick={(e) => e.stopPropagation()} // Prevents propagation to the overlay
@@ -179,11 +193,11 @@ const PopupNew = ({ message, onClose }) => {
                 Weekday Batch : <span>8:00 PM - 10:30 PM</span>
               </p>
             </div> */}
-            <Link href="/submit-info" target="_blank">
-              <div className={styles.buttonDiv}>
-                <button>Apply for Scholarship Now</button>
+            {/* <Link href="/submit-info" target="_blank"> */}
+              <div className={styles.buttonDiv} onClick={popupShow}>
+                <button>Apply Now</button>
               </div>
-            </Link>
+            {/* </Link> */}
           </div>
         </div>
       </div>

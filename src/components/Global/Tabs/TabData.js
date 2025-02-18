@@ -1,5 +1,24 @@
 export const TabData = [
   {
+    id: "GenAI",
+    title: "Gen AI",
+    courseName: [
+      {
+        CName: "GenAI Developer Certification For Professionals",
+        hours: "3 Months",
+        url: "/fullstack/generative-ai-course-for-professionals",
+      },
+
+      {
+        CName: "GenAI Certification For Managers & Tech Leaders",
+        hours: "4 Months",
+        url: "/datascience/generative-ai-course-for-managers",
+      },
+
+      ,
+    ],
+  },
+  {
     id: "Domain Certification Courses",
     title: "Domain Certification Courses",
     courseName: [
@@ -98,9 +117,6 @@ export const TabData = [
     id: "Software Development",
     title: "Software Development",
     courseName: [
-    
-    
-
       {
         CName: "Data Structure Algorithms & System Design",
         hours: "10 Months",
@@ -149,7 +165,6 @@ export const TabData = [
         hours: "10 Months",
         url: "/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati",
       },
-      
     ],
   },
   {
@@ -166,28 +181,7 @@ export const TabData = [
         hours: "8 Months",
         url: "/advanced-cyber-security-course-training",
       },
-    
-      ,
-    ],
-  },
 
-  {
-    id: "GenAI",
-    title: "Gen AI",
-    courseName: [
-      {
-        CName: "GenAI Developer Certification For Professionals",
-        hours: "3 Months",
-        url: "/fullstack/generative-ai-course-for-professionals",
-      },
-
-      {
-        CName: "GenAI Certification For Managers & Tech Leaders",
-        hours: "4 Months",
-        url: "/datascience/generative-ai-course-for-managers",
-      },
-      
-    
       ,
     ],
   },
