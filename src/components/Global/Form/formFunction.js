@@ -251,6 +251,10 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
       options: [
         { value: "Select an option", label: "Select an option", hidden: true },
         {
+          value: "Generative AI",
+          label: "Generative AI",
+        },
+        {
           value: "Data Science & AI Courses",
           label: "Data Science & AI Courses",
         },

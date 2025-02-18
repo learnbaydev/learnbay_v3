@@ -11,9 +11,18 @@
   border-radius: 0 0 50% 50%;
 }
 
+.MasterCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  margin: auto;
+  position: relative;
+}
+
 .cardwrapper {
   display: grid;
-  grid-template-columns: 37% 37%;
+  grid-template-columns: 45% 45%;
   align-items: center;
   justify-content: center;
   gap: 30px;
@@ -54,15 +63,17 @@
   display: flex;
   gap: 30px;
 }
+@media (max-width: 641px) {
+  .cardwrapper {
+    grid-template-columns: 100%;
+    margin: 0 14px;
+  }
+}
 @media (max-width: 481px) {
   .headerWrap {
     border-radius: 0 0 10% 10%;
     padding: 20px;
     margin-top: 47px;
-  }
-  .cardwrapper {
-    grid-template-columns: 100%;
-    margin: 0 14px;
   }
   .headerWrap h1 {
     font-size: 22px;
