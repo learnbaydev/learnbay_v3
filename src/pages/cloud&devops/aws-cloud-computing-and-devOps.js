@@ -5,15 +5,14 @@ import Navbar from "@/components/Global/Navbar/Navbar";
 import AwsFirstPart from "@/components/CoursePage/FirstPart/AwsFirstPart";
 import AwsSecondPart from "@/components/CoursePage/FirstPart/AwsSecondPart";
 
-
 function Blockchain({ AwsAndDevOpsCourseDataJson }) {
   const AwsAndDevOpsCourseData = parseJSONData(AwsAndDevOpsCourseDataJson);
- 
+
   return (
     <>
       <Head>
         <title>
-        Master Cloud Computing & DevOps with Advanced Certification
+          Master Cloud Computing & DevOps with Advanced Certification
         </title>
         <meta
           name="description"
@@ -32,25 +31,18 @@ function Blockchain({ AwsAndDevOpsCourseDataJson }) {
           rel="canonical"
           href="https://www.learnbay.co/cloud&devops/aws-cloud-computing-and-devOps"
         />
-
-       
-    
       </Head>
       <main>
         <Navbar dataScienceCounselling={true} />
-        
+
         <AwsFirstPart
           SecondSectionData={
             AwsAndDevOpsCourseData.AwsAndDevOpsCourseData[0].secondSection
           }
-          
-      
         />
-
       </main>
       <main>
         <AwsSecondPart
-        
           masterSyllabusMobile={
             AwsAndDevOpsCourseData.AwsAndDevOpsCourseData[0]
               .masterSyllabusMobile
@@ -58,7 +50,7 @@ function Blockchain({ AwsAndDevOpsCourseDataJson }) {
           devops={true}
           mbldevops={true}
           CertificateData={
-            AwsAndDevOpsCourseData.AwsAndDevOpsCourseData[0].Certificate
+            AwsAndDevOpsCourseData.AwsAndDevOpsCourseData[0].certificateNew
           }
           devopfee={true}
           projectSection={

@@ -3,7 +3,7 @@ import Styles from "./Gethire.module.css";
 import Image from "next/image";
 import { FcCheckmark } from "react-icons/fc";
 
-function GetHire({proHide}) {
+function GetHire({ proHide, hideduration }) {
   return (
     <div id="servicePro">
       <div className={Styles.GetHireMain}>
@@ -11,7 +11,7 @@ function GetHire({proHide}) {
           <div className={Styles.HireLeft}>
             <h2>
               Land Your Dream Job with Career Services{" "}
-              {proHide ? ("") : ( <span className={Styles.PRo}>PRO</span>)}
+              {proHide ? "" : <span className={Styles.PRo}>PRO</span>}
             </h2>
             <div className={Styles.GetHireBulet}>
               <div className={Styles.minibullet}>
@@ -21,26 +21,28 @@ function GetHire({proHide}) {
                   </span>
                   <p>1:1 Doubt Sessions</p>
                 </div>
-
                 <div className={Styles.Points}>
                   <span>
                     <FcCheckmark />
                   </span>
                   <p>Interview Prep.</p>
                 </div>
-
                 <div className={Styles.Points}>
                   <span>
                     <FcCheckmark />
                   </span>
                   <p>Resume BuildUp</p>
-                </div>
-                <div className={Styles.Points}>
-                  <span>
-                    <FcCheckmark />
-                  </span>
-                  <p>3 Years Flexible Sub.</p>
-                </div>
+                </div>{" "}
+                {hideduration ? (
+                  ""
+                ) : (
+                  <div className={Styles.Points}>
+                    <span>
+                      <FcCheckmark />
+                    </span>
+                    <p>3 Years Flexible Sub.</p>
+                  </div>
+                )}
               </div>
               <div>
                 <Image

@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
 const Certificate = dynamic(() =>
-  import("../../../components/CoursePage/Certificate/Certificate")
+  import("../../../components/CoursePage/UpdatedCertificate/UpdatedCertificate")
 );
 const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
 const FeeSection = dynamic(() =>

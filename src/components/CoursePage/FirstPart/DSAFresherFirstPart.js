@@ -21,8 +21,11 @@ const JobAbroad = dynamic(() =>
   import("../../MastersCourse/JobAbroad/JobAbroad")
 );
 
-const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData, summaryData }) => {
- 
+const FullStackSoftwareDevelopmentFirstPart = ({
+  SecondSectionData,
+  summaryData,
+  hideduration,
+}) => {
   const JobData = {
     title: "Build your foundation for a Bright Tech Future!",
     points: [
@@ -83,15 +86,15 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData, summaryData 
         interstedInHide={true}
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/sf-f.webp"
         videoId="0cspp1jXAbM"
-            backgorunimg={true}
-      backgroundImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/dsa_backgrounds.webp"
-      // microsoftOnly={true}
-      DSA={true}
-      DSAFresherHeadContent={true}
+        backgorunimg={true}
+        backgroundImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/dsa_backgrounds.webp"
+        // microsoftOnly={true}
+        DSA={true}
+        DSAFresherHeadContent={true}
       />
 
       {/* <MasterSecondSection data={seconddata} /> */}
-      <PSummary summaryData={summaryData}/>
+      <PSummary summaryData={summaryData} />
       <JobAbroad
         data={JobData}
         dataScienceCounselling={true}
@@ -106,10 +109,10 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData, summaryData 
         third="Students pursuing BE/B.Tech, B.Sc, CS"
         forth="For individuals seeking coding mastery, programming libraries, and API skills"
       />
-      <AnimationDSAFresher/>
-      <GetHire proHide={true}/>
+      <AnimationDSAFresher />
+      <GetHire proHide={true} hideduration={hideduration} />
       <ContactConsellor
-      GenAi={true}
+        GenAi={true}
         titleCourse="DSA Course with Placement Prep. {2025}"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA+for+Freshers.pdf"
         brochurePdf={pdfUrl}

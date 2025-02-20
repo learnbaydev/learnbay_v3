@@ -41,9 +41,10 @@ export const IITCloudDevopsData = [
         title: "E&ICT Academy IIT Guwahati-Backed Certification",
         description:
           "Stand out with a prestigious certification from E&ICT Academy, IIT Guwahati.",
-          logos:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iit_GEN_WHy+(1).webp",
-          logosWidth:"200",
-              logosHeight:"45",
+        logos:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iit_GEN_WHy+(1).webp",
+        logosWidth: "200",
+        logosHeight: "45",
         subItems: [
           {
             icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/3dicons+(1).webp",
@@ -157,8 +158,8 @@ export const IITCloudDevopsData = [
         extraImageSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iit_Gu_sum+(1).webp",
         extraImageAlt: "IIt Guwati",
-            extraImageSrcWidth:"180",
-        extraImageSrcHeight:"40"
+        extraImageSrcWidth: "180",
+        extraImageSrcHeight: "40",
       },
     ],
     masterSyllabusMobile: [
@@ -167,11 +168,11 @@ export const IITCloudDevopsData = [
           title: "TERM 1  :- Cloud Basics and Linux Fundamentals",
           hours: "(40 Hours)",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/LINUX+FUNDAMENTALS_round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/LINUX+FUNDAMENTALS_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_Up.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/LINUX+FUNDAMENTALS_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/LINUX+FUNDAMENTALS_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_Up.webp",
           points: "Why Programming",
           content: [
             {
@@ -218,11 +219,11 @@ export const IITCloudDevopsData = [
           title: "TERM 2 :- Python Programming Essentials",
           hours: "(40 Hours)",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AWS_up.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AWS_up.webp",
           points: "Functions & Recursion",
           content: [
             {
@@ -287,11 +288,11 @@ export const IITCloudDevopsData = [
           title: "TERM 3 :- AWS Cloud Mastery",
           hours: "(40 Hours)",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Aws_syll.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AWS_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_up.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Aws_syll.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AWS_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_up.webp",
           points: "DBMS",
           content: [
             {
@@ -347,11 +348,11 @@ export const IITCloudDevopsData = [
           title: "TERM 4 :- Microsoft Azure Proficiency (Optional)",
           hours: "(40 Hours)",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_round.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_up.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_up.webp",
           points: "Introduction to System Design",
           content: [
             {
@@ -403,14 +404,15 @@ export const IITCloudDevopsData = [
 
       {
         Module0: {
-          title: "TERM 5 :- Google Cloud Platform (GCP) Fundamentals (optional)",
+          title:
+            "TERM 5 :- Google Cloud Platform (GCP) Fundamentals (optional)",
           hours: "(40 Hours)",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_round.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SERVER_up.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SERVER_up.webp",
           points: "MERN (Full-Stack Specialization)",
           content: [
             {
@@ -458,11 +460,11 @@ export const IITCloudDevopsData = [
           title: "TERM 6 :- Server and Application Virtualization",
           hours: "(30 Hours)",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SERVER_round.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SERVER_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SERVER_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SERVER_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
           points: "Deep Learning",
           points1: "(NLP)",
           content: [
@@ -509,11 +511,11 @@ export const IITCloudDevopsData = [
           title: "TERM 7 :- Data Migration and Resilience",
           hours: "(25 Hours)",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEVOPS_up.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEVOPS_up.webp",
           points: "Deep Learning",
           points1: "(NLP)",
           content: [
@@ -569,11 +571,11 @@ export const IITCloudDevopsData = [
           title: "TERM 8 :- DevOps Mastery and Tooling",
           hours: "(60 Hours)",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEVOPS_round.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEVOPS_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEVOPS_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEVOPS_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
           points: "Deep Learning",
           points1: "(NLP)",
           content: [
@@ -640,11 +642,11 @@ export const IITCloudDevopsData = [
           title: "TERM 9 :- Advanced Security and DevSecOps",
           hours: "(30 Hours)",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
           points: "Deep Learning",
           points1: "(NLP)",
           content: [
@@ -691,11 +693,11 @@ export const IITCloudDevopsData = [
           title: "TERM 10 :- Electives and Specialized Cloud Projects",
           hours: "(20 Hours)",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_round.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_up.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_up.webp",
           points: "Deep Learning",
           points1: "(NLP)",
           content: [
@@ -750,11 +752,11 @@ export const IITCloudDevopsData = [
           title: "TERM 11 :- GenAI Essentials for Cloud & Devops",
           hours: "(30 Hours)",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_round.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SERVER_up.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SERVER_up.webp",
           points: "Deep Learning",
           points1: "(NLP)",
           content: [
@@ -889,8 +891,8 @@ export const IITCloudDevopsData = [
         Module0: {
           title:
             "TERM 12 :- Cloud Computing Masterclass - IIT Guwahati Faculty",
-            hours: "(5 Hours)",
-            imageUrl:
+          hours: "(5 Hours)",
+          imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SERVER_round.webp",
           StartImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SERVER_down.webp",
@@ -990,9 +992,8 @@ export const IITCloudDevopsData = [
         alt: "Tool 10",
       },
     ],
-         // genAiData.js
+    // genAiData.js
     genAiData: [
-     
       {
         id: 1,
         title: "Cloud Infrastructure Automation",
@@ -1056,10 +1057,14 @@ export const IITCloudDevopsData = [
       },
       // Add more data as needed
     ],
-    Certificate: {
-      degreeCertificate: {
+    // data/certificateData.js
+    Certificate: [
+      {
         id: 1,
+        topnav: "IIT Guwahati",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/e%26ICTs.webp",
+        width: 300,
+        height: 340,
         title: "Certification from E&ICT Academy, IIT Guwahati",
         para: [
           "Executive Certification: Earned in DS & AI from E&ICT Academy, IIT Guwahati.",
@@ -1067,27 +1072,19 @@ export const IITCloudDevopsData = [
           "Top Faculty: Learn directly from E&ICT Academy, IIT Guwahati experts.",
         ],
       },
-      microCertificate: {
+      {
         id: 2,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
+        topnav: "Microsoft",
+        img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/solution_arch.webp",
+
+        img2: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/MFundamentals.webp",
+        img3: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/administrator.jpg",
         title: "Certification in Collaboration with Microsoft",
-        para: [
-          "Industry-certified Microsoft certificates",
-          "Gain expertise & get recognized worldwide",
-          "Boost job opportunities and earnings with Microsoft’s certification",
-        ],
+        para1: ["Solution Architect Expert"],
+        para2: ["Azure Fundamentals"],
+        para3: ["Administrator Associate"],
       },
-      projectCertificate: {
-        id: 3,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Certification-min.webp",
-        title: "Capstone Project Certificate from IBM",
-        para: [
-          "Globally recognized IBM certification based on industrial-level projects.",
-          "Earn 1 capstone project certification from IBM.",
-          "Individualized project experience with easy access to premium job opportunities.",
-        ],
-      },
-    },
+    ],
 
     certificateNew: [
       {

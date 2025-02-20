@@ -152,6 +152,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
         firstHeading="Advanced Cloud Computing & DevOps"
         firstTopPara="Crack Interview in top MNCs "
         idss="gaQYhVPCudQ"
+        microsoftOnly={true}
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/cd-f.webp"
         // videoId="gaQYhVPCudQ"
 

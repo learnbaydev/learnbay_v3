@@ -118,6 +118,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
           SecondSectionData={
             DataScienceCourseData.FSSPDataScienceCourseData[0].secondSection
           }
+          hideduration={true}
         />
 
         <DSAFresherSecondPart
@@ -128,6 +129,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
           certificateNew={
             DataScienceCourseData.FSSPDataScienceCourseData[0].certificateNew
           }
+          notcall={true}
           FAQNewData={DataScienceCourseData.FSSPDataScienceCourseData[0].faq}
         />
       </main>

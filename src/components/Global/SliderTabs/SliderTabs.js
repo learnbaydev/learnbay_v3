@@ -12,6 +12,7 @@ const SliderTabs = ({
   dataScience,
   dataScienceCounselling,
   WithoutService,
+  notcall,
 }) => {
   const services = [
     {
@@ -90,11 +91,33 @@ const SliderTabs = ({
       ],
     },
   ];
+  const notcalls = [
+    {
+      title: "Mock Interviews",
+      icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/career2.webp",
+      content: [
+        "LearnBay's targeted mock interviews sessions to ready you for your dream role.",
+        "Actionable feedback for skill enhancement that keeps you in pace with interview trends.",
+        "Industry-specific interview practice so that you can crack your dream job.",
+      ],
+    },
+    {
+      title: "Resume BuildUp",
+      icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/career3.webp",
+      content: [
+        "LearnBay's tailored resume-building guidance.",
+        "Strategic advice for impactful resumes.",
+        "Tools and tips for resume optimization.",
+      ],
+    },
+  ];
 
   const [activeService, setActiveService] = useState(0);
   const [withActiveService, setWithActiveService] = useState(0);
+  const [not8call, setnot8call] = useState(0);
   const currentService = services[activeService];
   const withoutCurrentService = withoutServices[withActiveService];
+  const notcallServices = notcalls[not8call];
 
   const [isMobileView, setIsMobileView] = useState(false);
 
@@ -122,10 +145,12 @@ const SliderTabs = ({
         setWithActiveService((prevActive) =>
           prevActive === index ? null : index
         );
+        setnot8call((prevActive) => (prevActive === index ? null : index));
       } else {
         // Always open the clicked tab on non-mobile view
         setActiveService(index);
         setWithActiveService(index);
+        setnot8call(index);
       }
     };
 
@@ -154,6 +179,8 @@ const SliderTabs = ({
             <div className={styles.left}>
               {WithoutService ? (
                 <h6>{withoutCurrentService.title}</h6>
+              ) : notcall ? (
+                <h6>{notcallServices.title}</h6>
               ) : (
                 <h6>{currentService.title}</h6>
               )}
@@ -198,13 +225,21 @@ const SliderTabs = ({
     <div className={styles.Course} id="servicePro">
       <h2>
         Get job ready within 6 months with Career Services{" "}
-        {WithoutService ? "" : <span style={{ color: "#FE7A36" }}>PRO</span>}
+        {WithoutService || notcall ? (
+          ""
+        ) : (
+          <span style={{ color: "#FE7A36" }}>PRO</span>
+        )}
       </h2>
 
       <div className={styles.courses}>
         {WithoutService ? (
           <div className={styles.listPanel}>
             {withoutServices.map(renderServiceItem)}
+          </div>
+        ) : notcall ? (
+          <div className={styles.listPanel}>
+            {notcalls.map(renderServiceItem)}
           </div>
         ) : (
           <div className={styles.listPanel}>
@@ -218,6 +253,8 @@ const SliderTabs = ({
               <div className={styles.left}>
                 {WithoutService ? (
                   <h6>{withoutCurrentService.title}</h6>
+                ) : notcalls ? (
+                  <h6>{notcallServices.title}</h6>
                 ) : (
                   <h6>{currentService.title}</h6>
                 )}

@@ -926,7 +926,7 @@ export const certificationCourses = [
     points: [
       {
         icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cer_icons.webp",
-        text: "13 months",
+        text: "4 months",
       },
       {
         icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Date_icons.webp",
@@ -949,7 +949,7 @@ export const certificationCourses = [
     points: [
       {
         icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cer_icons.webp",
-        text: "13 months",
+        text: "3 months",
       },
       {
         icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Date_icons.webp",
