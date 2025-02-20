@@ -20,12 +20,16 @@ const Certificate = ({
     ""
   ) : (
     <div className={`${styles.Certificate}`}>
-      <h2 className={styles.infop}>{ DSAFresherCertHeading? "Industry Recognized Certification Course":"Globally Recognized Certification Course"} </h2>
+      <h2 className={styles.infop}>
+        {DSAFresherCertHeading
+          ? "Industry Recognized Certification Course"
+          : "Globally Recognized Certification Course"}{" "}
+      </h2>
       <CertificateTabAdvance
-      singlecertificate={singlecertificate}
-      projectWithCertificate={projectWithCertificate}
-      FreshersDoubleCertificate={FreshersDoubleCertificate}
-      doubleCertificate={doubleCertificate}
+        singlecertificate={singlecertificate}
+        projectWithCertificate={projectWithCertificate}
+        FreshersDoubleCertificate={FreshersDoubleCertificate}
+        doubleCertificate={doubleCertificate}
         degreeCertificate={data.degreeCertificate}
         projectCertificate={data.projectCertificate}
         microCertificate={data.microCertificate}
@@ -36,6 +40,8 @@ const Certificate = ({
         AdCyber={AdCyber}
         ECCou={ECCou}
         microEC={microEC}
+        onlymicrosoft={true}
+        // fourtab={true}
         DSAFresherCertHeading={DSAFresherCertHeading}
       />
     </div>

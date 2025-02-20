@@ -193,38 +193,19 @@ export const CloudAndDevOpsCourseData = [
       },
     ],
 
-    Certificate: {
-      degreeCertificate: {
-        id: 1,
-        img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Certificate.webp",
-        title: "Course Completion Certificate from IBM",
-        para: [
-          "Complete your training with the internationally recognized certificate.",
-          "Validate your Cloud Computing & DevOps skills with IBM Course Completion Certificate.",
-          "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
-        ],
-      },
-      microCertificate: {
+    Certificate: [
+      {
         id: 2,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-min.webp",
+        topnav: "Microsoft",
+        img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/solution_arch.webp",
+        img2: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/MFundamentals.webp",
+        img3: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/administrator.jpg",
         title: "Certification in Collaboration with Microsoft",
-        para: [
-          "Industry-certified Microsoft certificates",
-          "Gain expertise & get recognized worldwide",
-          "Boost job opportunities and earnings with Microsoft’s certification",
-        ],
+        para1: ["Solution Architect Expert"],
+        para2: ["Azure Fundamentals"],
+        para3: ["Administrator Associate"],
       },
-      projectCertificate: {
-        id: 3,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Certification-min.webp",
-        title: "Capstone Project Certificate from IBM",
-        para: [
-          "Globally recognized IBM certification based on industrial-level projects.",
-          "Work on 1 capstone project certified by IBM.",
-          "Individualized project experience with easy access to premium job opportunities.",
-        ],
-      },
-    },
+    ],
 
     masterSyllabusMobile: [
       {

@@ -16,9 +16,7 @@ const SliderTab = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
 const PlacementCall = dynamic(() =>
   import("../../Global/PlacementCall/PlacementCallFsd")
 );
-const FAQNewDSAFresher = dynamic(() =>
-  import("../FAQNew/FAQNewDSAFresher")
-);
+const FAQNewDSAFresher = dynamic(() => import("../FAQNew/FAQNewDSAFresher"));
 const Content = dynamic(() =>
   import("@/components/CoursePage/Content/content")
 );
@@ -27,6 +25,7 @@ const FullStackSoftwareDevelopmentSecondPart = ({
   masterSyllabusMobile,
   FAQNewData,
   certificateNew,
+  notcall,
 }) => {
   const pdfUrl = "/Brochure/DSA-for-Fresherss.pdf";
   return (
@@ -44,9 +43,14 @@ const FullStackSoftwareDevelopmentSecondPart = ({
       />
 
       {/* <NewCertificateSection certificateNew={certificateNew} /> */}
-      <Certificate noTabs={true} data={certificateNew} DSAFresherCertHeading={true}/>
+      <Certificate
+        noTabs={true}
+        data={certificateNew}
+        DSAFresherCertHeading={true}
+      />
 
-      <DSAFeeSection isDSAFresher={true}
+      <DSAFeeSection
+        isDSAFresher={true}
         Fee="₹ 45,000"
         FeeEmi="₹ 4,425/month"
         weekendbatch="Weekend Morning (DSA BATCHES)"
@@ -58,16 +62,15 @@ const FullStackSoftwareDevelopmentSecondPart = ({
         WeekendTime="10:00AM - 01:00PM"
         WeekdayTime="10:00AM - 01:00PM"
         FeeContent3="Flexible payment"
-
-         // <EMI POPUP
-         emiType="NO COST EMI"
-         duration1="18 Months"
-         totalAmount1="₹45,000"
-         monthlyPayment1="₹2,950"
-         greenDown1="Standard Intrest rate Applicable"
-         duration2="12 Months"
-         totalAmount2="₹45,000"
-         monthlyPayment2="₹4,425"
+        // <EMI POPUP
+        emiType="NO COST EMI"
+        duration1="18 Months"
+        totalAmount1="₹45,000"
+        monthlyPayment1="₹2,950"
+        greenDown1="Standard Intrest rate Applicable"
+        duration2="12 Months"
+        totalAmount2="₹45,000"
+        monthlyPayment2="₹4,425"
       />
       {/* <FeeSection
         Fee="₹ 70,000"
@@ -101,9 +104,12 @@ const FullStackSoftwareDevelopmentSecondPart = ({
         monthlyPayment2="₹6,883"
       /> */}
       {/* <MentorsSection /> */}
-      <SliderTab WithoutService={true}/>
+      <SliderTab
+        {...(notcall ? { notcall: true } : { WithoutService: true })}
+      />
+
       <PlacementCall />
-      <FAQNewDSAFresher FAQNewData={FAQNewData} DSAFresherFAQT={true}/>
+      <FAQNewDSAFresher FAQNewData={FAQNewData} DSAFresherFAQT={true} />
       <Content dataScienceCounselling={true} DSAFresherContent={true} />
       <SeventhSection />
       <Footer />

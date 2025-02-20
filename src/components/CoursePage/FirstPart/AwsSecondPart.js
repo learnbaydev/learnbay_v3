@@ -7,9 +7,8 @@ import { useEffect, useState } from "react";
 import LJourney from "../LJourney/LJourney";
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
-const Certificate = dynamic(() =>
-  import("../../../components/CoursePage/Certificate/Certificate")
-);
+
+import Certificate from "../Certificate/Certificate";
 const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
 const FeeSection = dynamic(() =>
   import("../../../components/CoursePage/FeeSection/FeeSection")
@@ -91,7 +90,12 @@ const SecondPart = ({
         buttonHide={true}
       />
       <ToolsCovered devops={true} mbldevops={mbldevops} />
-      <Certificate data={CertificateData} />
+
+      <Certificate
+        noTabs={true}
+        data={CertificateData}
+        DSAFresherCertHeading={true}
+      />
       <FeeSection
         devopfee={devopfee}
         adsHide={adsHide}

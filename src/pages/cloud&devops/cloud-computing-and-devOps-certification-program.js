@@ -14,9 +14,7 @@ function CloudAndDevOpsCoursePage({ CloudAndDevOpsCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>
-        Best Cloud Computing Certification Course | Learnbay
-        </title>
+        <title>Best Cloud Computing Certification Course | Learnbay</title>
         <meta
           name="description"
           content="Future-proof your career today with Learnbay's Advanced Cloud Computing Certification. Expertise in cutting-edge tools like the GCP, AWS, and AZURE.           "
@@ -36,7 +34,6 @@ function CloudAndDevOpsCoursePage({ CloudAndDevOpsCourseDataJson }) {
           rel="canonical"
           href="https://www.learnbay.co/cloud&devops/cloud-computing-and-devOps-certification-program"
         />
-
       </Head>
       <main>
         <Navbar dataScienceCounselling={true} />
@@ -58,6 +55,7 @@ function CloudAndDevOpsCoursePage({ CloudAndDevOpsCourseDataJson }) {
           CertificateData={
             CloudAndDevOpsCourseData.CloudAndDevOpsCourseData[0].Certificate
           }
+          fourtab={true}
           devopfee={true}
           projectSection={
             CloudAndDevOpsCourseData.CloudAndDevOpsCourseData[0].projectSection

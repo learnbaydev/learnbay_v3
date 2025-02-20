@@ -193,35 +193,15 @@ export const AwsAndDevOpsCourseData = [
       },
     ],
 
-    Certificate: {
+    certificateNew: {
       degreeCertificate: {
         id: 1,
-        img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Certificate.webp",
-        title: "Course Completion Certificate from IBM",
+        img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/awscertificate.webp",
+        title: "Learnbay Course Completion Certificate",
         para: [
-          "Complete your training with the internationally recognized certificate.",
-          "Validate your Cloud Computing & DevOps skills with IBM Course Completion Certificate.",
-          "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
-        ],
-      },
-      microCertificate: {
-        id: 2,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-min.webp",
-        title: "Certification in Collaboration with Microsoft",
-        para: [
-          "Industry-certified Microsoft certificates",
-          "Gain expertise & get recognized worldwide",
-          "Boost job opportunities and earnings with Microsoft’s certification",
-        ],
-      },
-      projectCertificate: {
-        id: 3,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Certification-min.webp",
-        title: "Capstone Project Certificate from IBM",
-        para: [
-          "Globally recognized IBM certification based on industrial-level projects.",
-          "Work on 1 capstone project certified by IBM.",
-          "Individualized project experience with easy access to premium job opportunities.",
+          "Earn a Learnbay-certified DSA certificate, validating your problem-solving and algorithmic skills for top tech roles.",
+          "Your certification reflects real-world coding experience, demonstrating your ability to tackle DSA challenges.",
+          "Showcase your expertise to recruiters and enhance your resume with a certification that highlights job-ready skills.",
         ],
       },
     },

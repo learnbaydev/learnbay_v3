@@ -7,7 +7,9 @@ import NewCertificateSection from "../newCertificate/NewCertificate";
 import DSAFeeSection from "../dsaFee/DSAFeeSection";
 import NewTools from "../newTools/NewTools";
 import GenAIProject from "../genAiProject/GenAIProject";
-const Certificate = dynamic(() => import("../Certificate/Certificate"));
+const Certificate = dynamic(() =>
+  import("../../../components/CoursePage/UpdatedCertificate/UpdatedCertificate")
+);
 const SeventhSection = dynamic(() =>
   import("@/components/Global/SeventhSection/SeventhSection")
 );
@@ -52,7 +54,7 @@ const IITCloudDevopsSecondPart = ({
         // genAIIIT={true}
       />
 
-      <Certificate data={CertificateData} noTabs={true} />
+      <Certificate data={CertificateData} />
       {/* <NewCertificateSection certificateNew={certificateNew} /> */}
 
       <DSAFeeSection

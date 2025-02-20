@@ -155,7 +155,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
         idss="gaQYhVPCudQ"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/cd-f.webp"
         // videoId="gaQYhVPCudQ"
-
+        microsoftOnly={true}
         S3RightImage={S3RightImage}
       />
       <MasterSecondSection data={seconddata} />
