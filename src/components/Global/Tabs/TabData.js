@@ -118,7 +118,7 @@ export const TabData = [
     title: "Software Development",
     courseName: [
       {
-        CName: "Data Structure Algorithms & System Design",
+        CName: "Full Stack Software Development Program For Professionals",
         hours: "10 Months",
         url: "/fullstack/dsa-system-design",
       },

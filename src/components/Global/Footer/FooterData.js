@@ -777,50 +777,55 @@ export const CourseData = [
       {
         id: 4,
         url: "/fullstack/dsa-system-design",
-        name: "Data Structure Algorithms & System Design",
+        name: "Full Stack Software Development Program For Professionals",
       },
       {
         id: 5,
+        url: "/fullstack/data-structure-algorithm-online-course-training",
+        name: "DSA Course With Placement Prep",
+      },
+      {
+        id: 6,
         url: "/fullstack/full-stack-software-development-program",
         name: "Software Development Certification Course",
       },
       {
-        id: 6,
+        id: 7,
         url: "/datascience/business-analytics-certification-course",
         name: "Business Analytics Master Certification Course",
       },
       {
-        id: 7,
+        id: 8,
         url: "/datascience/data-analytics-certification-course",
         name: "Data Analytics Course",
       },
       {
-        id: 8,
+        id: 9,
         name: "Advanced Cloud Computing & DevOps Certification Course",
         url: "/cloud&devops/cloud-computing-and-devOps-certification-program",
       },
       {
-        id: 9,
+        id: 10,
         name: "Certificate in AWS Cloud Computing & Devops",
         url: "/cloud&devops/aws-cloud-computing-and-devOps",
       },
       {
-        id: 10,
+        id: 11,
         name: "Executive Course in Data Science & AI",
         url: "/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati",
       },
       {
-        id: 11,
+        id: 12,
         name: "Advance Data Analytics Course",
         url: "/datascience/advance-data-analytics-program-iit-guwahati",
       },
       {
-        id: 12,
+        id: 13,
         name: "Executive Certification in Cyber Security & Ethical Hacking",
         url: "/cyber-security/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee",
       },
       {
-        id: 13,
+        id: 14,
         name: "Advance Certification in Cyber Security & Ethical Hacking",
         url: "/advanced-cyber-security-course-training",
       }
