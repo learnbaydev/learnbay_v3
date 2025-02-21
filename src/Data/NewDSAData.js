@@ -2,20 +2,18 @@ export const NewDSAData = [
   {
     header: [
       {
-        spanTag: "Data Structure Algorithm & System Design",
+        spanTag: "Crack Tech Interviews at Top MNC’s",
         spanIcon:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
-        title1: "Crack",
-        orgTitle: "Tech interviews",
-        title2: "at top MNC’s with confidence",
+        title1: "Full Stack",
+        orgTitle: "Software Development",
+        title2: "Program For Professionals",
         points: [
           {
             id: 1,
             img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/firstPoint.webp",
             imgAlt: "DSA First Point",
-            text1: "Integrated With ",
-            boldText: "Gen-AI ",
-            text2: "for Software Developers",
+            text1: "Backend Engineering and GenAI Specialisation",
           },
           {
             id: 2,

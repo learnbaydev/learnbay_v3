@@ -141,8 +141,8 @@ const BookDemo = ({ interstedInHide,dataScienceCounselling}) => {
                   <Image src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/PathSteps.webp" width={40} height={40} />
                 </div>
                 <div className={styles.pointWrapper}>
-                  <p>Course</p>
-                  <p>Structure</p>
+                <p>Career</p>
+                <p>Roadmap</p>
                 </div>
               </div>
               <div className={styles.demoPoint}>
@@ -159,8 +159,8 @@ const BookDemo = ({ interstedInHide,dataScienceCounselling}) => {
                   <Image src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/LaptopCoding.webp" width={40} height={40} />
                 </div>
                 <div className={styles.pointWrapper}>
-                  <p>Live</p>
-                  <p>Practice class</p>
+                <p>Interview</p>
+                <p>Guidance</p>
                 </div>
               </div>
             </div>

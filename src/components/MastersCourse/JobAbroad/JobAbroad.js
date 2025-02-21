@@ -94,7 +94,7 @@ const JobAbroad = ({
               {WolfLink ? (
                 <p className={Styles.woolfText}>
                   Learnbay Excelversity is a constituent college affiliated with{" "}
-                  <a href="https://woolf.university/academics/college-membership/bb43ed7d-edff-4e25-b530-2e950496519c">
+                  <a href="https://woolf.university">
                     <span className={Styles.spanWoolf}>
                       Woolf University, EU
                     </span>

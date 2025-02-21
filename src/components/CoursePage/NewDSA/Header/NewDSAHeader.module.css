@@ -5,6 +5,10 @@
   overflow: hidden;
 }
 
+.mainContainer p{
+  margin: 0;
+}
+
 .contentWrapper {
   position: relative;
   width: 85%;
@@ -14,12 +18,10 @@
   gap: 80px;
   padding: 30px 180px;
   border-radius: 0 0 60px 60px;
-  background: linear-gradient(
-    to bottom,
-    #212121 0%,
-    rgba(0, 114, 188, 0.2) 60%,
-    rgba(0, 114, 188, 0.2) 100%
-  );
+  background: linear-gradient(to bottom,
+      #212121 0%,
+      rgba(0, 114, 188, 0.2) 60%,
+      rgba(0, 114, 188, 0.2) 100%);
 }
 
 .contentTitleWrapper {
@@ -60,15 +62,15 @@
   background: rgb(50, 42, 74);
   border: 1px solid white;
   width: max-content;
-  padding: 10px 20px;
+  padding: 10px 90px;
   border-radius: 25px;
   margin: auto;
 }
 
 .svgWrapper {
   position: absolute;
-  top: 80px;
-  right: 70px;
+  top: 75px;
+  right: 30px;
 }
 
 .contentPointWrapper {
@@ -88,11 +90,10 @@
 
 .pointText {
   color: #fff;
-  font-size: 17px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 300;
   line-height: 125%;
-  margin: 0;
 }
 
 .pointTextBold {
@@ -119,7 +120,6 @@
   font-weight: 700;
   line-height: 28.679px;
   text-transform: capitalize;
-  margin: 0;
 }
 
 .mentorFromImgWrapper {
@@ -166,17 +166,37 @@
 }
 
 @media only screen and (max-width: 1481px) {
+  .contentWrapper {
+    padding: 30px 150px 0;
+    gap: 70px;
+  }
+}
+
+@media only screen and (max-width: 1419px) {
+  .contentWrapper {
+    padding: 30px 130px 0;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .newDsaGrayBtn button {
+    padding: 18px 24px;
+  }
+}
+
+@media only screen and (max-width: 1329px) {
   .contentTitleWrapper h1 {
     width: 95%;
   }
 }
+
 @media only screen and (max-width: 1381px) {
   .contentTitleWrapper h1 {
     font-size: 48px;
-    width: 100%;
   }
+
   .svgWrapper {
-    right: 10px;
+    right: 30px;
   }
 
   .TableauSoftwareIconWrapper {
@@ -188,14 +208,34 @@
   }
 }
 
+@media only screen and (max-width: 1361px) {
+  .svgWrapper{
+    right: 20px;
+  }
+}
+
+@media only screen and (max-width: 1325px) {
+  .svgWrapper{
+    right: 10px;
+  }
+}
 @media only screen and (max-width: 1281px) {
   .contentTitleWrapper h1 {
     font-size: 44px;
   }
 
+  .contentTitleWrapper h5{
+    padding: 10px 70px;
+  }
+
+  .contentWrapper {
+    padding: 30px 110px 0;
+    gap: 50px;
+  }
+
   .svgWrapper {
     top: 70px;
-    right: -35px;
+    right: 10px;
   }
 
   .TableauSoftwareIconWrapper {
@@ -205,15 +245,40 @@
   .HierarchyIconWrapper {
     right: 100px;
   }
+
+  .newDsaNewBlueBtn button {
+    padding: 13px 20px;
+  }
 }
 
+@media only screen and (max-width: 1261px) {
+  .svgWrapper{
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 1238px) {
+  .svgWrapper{
+    right: -10px;
+  }
+}
+@media only screen and (max-width: 1213px) {
+  .svgWrapper{
+    right: -20px;
+  }
+}
 @media only screen and (max-width: 1181px) {
-  .contentWrapper {
-    padding: 30px 135px;
+  .contentTitleWrapper h1 {
+    font-size: 40px;
+  }
+
+  .contentTitleWrapper h5{
+    padding: 10px 50px;
   }
 
   .TableauSoftwareIconWrapper {
     left: 110px;
+    top: 250px;
   }
 
   .ModuleIconWrapper {
@@ -222,24 +287,42 @@
 
   .PieChartIconWrapper {
     left: 70px;
+    bottom: 160px;
   }
 
   .HierarchyIconWrapper {
     right: 85px;
   }
+
+  .svgWrapper{
+    right: -10px;
+    top: 55px;
+  }
 }
 
-@media only screen and (max-width: 1081px) {
-  .contentTitleWrapper h1 {
-    font-size: 40px;
-  }
+@media only screen and (max-width: 1165px) {
+  /* .svgWrapper{
+    right: -40px;
+  } */
+}
 
+@media only screen and (max-width: 1121px) {
+  .svgWrapper {
+    right: -25px;
+  }
+}
+
+@media only screen and (max-width: 1231px) {
+  /* .svgWrapper{
+    right: -60px;
+  } */
+}
+@media only screen and (max-width: 1081px) {
   .contentTitleWrapper h5 {
     font-size: 26px;
   }
 
   .svgWrapper {
-    top: 60px;
     right: -10px;
   }
 
@@ -261,37 +344,98 @@
   }
 }
 
-@media only screen and (max-width: 1024px) {
-  .contentWrapper {
-    padding: 30px 90px;
-  }
-
-  .svgWrapper {
-    right: 10px;
-  }
-}
-
-@media only screen and (max-width: 968px) {
+@media only screen and (max-width: 1067px) {
   .contentTitleWrapper h1 {
     font-size: 38px;
   }
 
-  .svgWrapper {
-    right: -5px;
+  .contentWrapper {
+    padding: 30px 90px 0;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .contentWrapper {
+    padding: 30px 70px 0;
+  }
+
+  .TableauSoftwareIconWrapper {
+    top: 225px;
+    left: 48px;
+  }
+
+  .contentTitleWrapper h1 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 961px) {
+  .svgWrapper{
+    right: -30px;
+  }
+}
+@media only screen and (max-width: 901px) {
+  .svgWrapper{
+    right: -40px;
+  }
+}
+@media only screen and (max-width: 894px) {
+  .contentTitleWrapper h1 {
+    width: 105%;
+  }
+}
+
+@media only screen and (max-width: 877px) {
+  .pointWrapper {
+    gap: 0;
+  }
+
+  .contentWrapper {
+    padding: 30px 60px 0;
   }
 }
 
 @media only screen and (max-width: 841px) {
+  .svgWrapper {
+    top: 50px;
+  }
+
+  .svgWrapper svg {
+    width: 100px;
+    height: 100px;
+  }
+
+  .mainContainer {
+    padding: 30px 0 45px;
+  }
+
   .contentWrapper {
-    padding: 30px 35px;
+    padding: 30px 45px 0;
   }
+}
 
+@media only screen and (max-width: 789px) {
   .contentTitleWrapper h1 {
-    width: 105%;
+    font-size: 35px;
   }
 
-  .contentTitleWrapper h5 {
-    font-size: 24px;
+  .pointText {
+    font-size: 15px;
+  }
+
+  .svgWrapper svg {
+    width: 90px;
+  }
+}
+
+@media only screen and (max-width: 761px) {
+  .svgWrapper {
+    top: 40px;
+    right: -28px;
+  }
+
+  .contentWrapper {
+    gap: 40px;
   }
 }
 
@@ -304,7 +448,6 @@
   .contentWrapper {
     width: 90%;
     padding: 20px 25px;
-    gap: 60px;
     border-radius: 0 0 40px 40px;
   }
 
@@ -316,10 +459,6 @@
     font-size: 22px;
     padding: 8px 15px;
   }
-
-  /* .svgWrapper {
-          display: none;
-      } */
 
   .TableauSoftwareIconWrapper {
     top: 185px;
@@ -357,35 +496,22 @@
     gap: 30px;
   }
 
-  .buttonsWrapper {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  .svgWrapper {
+    top: 50px;
+    right: -10px;
   }
+
+  
 }
 
 @media only screen and (max-width: 481px) {
   .contentWrapper {
-    background: linear-gradient(
-      to bottom,
-      #212121 0%,
-      #212121 50%,
-      rgba(0, 114, 188, 0.2) 80%,
-      rgba(0, 114, 188, 0.2) 100%
-    );
+    background: linear-gradient(to bottom,
+        #212121 0%,
+        #212121 50%,
+        rgba(0, 114, 188, 0.2) 80%,
+        rgba(0, 114, 188, 0.2) 100%);
   }
-  .buttonsWrapper button{
-    font-size: 16px;
-        line-height: 1.6;
-  }
-
-  .newDsaNewBlueBtn button{
-    padding: 13px 25px;
-}
-
-.newDsaGrayBtn button{
-  padding: 13px 20px;
-}
 
   .mainContainer {
     padding: 20px 0 40px 0;
@@ -400,6 +526,7 @@
     width: 77%;
     margin: auto;
     font-size: 30px;
+    line-height: 1.3;
   }
 
   .svgWrapper {
@@ -410,19 +537,19 @@
     position: absolute;
     display: block;
     width: max-content;
-    top: 80px;
-    right: 65px;
+    top: 100px;
+    right: 30px;
   }
 
   .mobileSvgWrapper svg {
     width: 50px;
-    height: 40px;
+    height: 55px;
   }
 
   .contentTitleWrapper h5 {
-    width: 70%;
+    width: 72%;
     font-size: 19px;
-    padding: 6px 20px;
+    padding: 6px 31px;
   }
 
   .TableauSoftwareIconWrapper,
@@ -430,40 +557,40 @@
   .ModuleIconWrapper,
   .PieChartIconWrapper {
     /* top: 135px;
-          left: 3px; */
+    left: 3px; */
     display: none;
   }
 
   /* 
-      .TableauSoftwareIconWrapper img {
-          width: 25px;
-          height: 25px;
+  .TableauSoftwareIconWrapper img {
+    width: 25px;
+    height: 25px;
+    }
+    
+    .ModuleIconWrapper {
+      top: 70px;
+      right: 5px;
       }
-  
-      .ModuleIconWrapper {
-          top: 70px;
-          right: 5px;
-      }
-  
+      
       .PieChartIconWrapper {
-          bottom: 73px;
-          left: 0px;
-      }
-  
-      .PieChartIconWrapper img {
+        bottom: 73px;
+        left: 0px;
+        }
+        
+        .PieChartIconWrapper img {
           width: 25px;
           height: 20px;
-      }
-  
-      .HierarchyIconWrapper {
-          bottom: 145px;
-          right: 0px;
-      }
-  
-      .HierarchyIconWrapper img {
-          width: 35px;
-          height: 35px;
-      } */
+          }
+          
+          .HierarchyIconWrapper {
+            bottom: 145px;
+            right: 0px;
+            }
+            
+            .HierarchyIconWrapper img {
+              width: 35px;
+              height: 35px;
+              } */
 
   .contentPointWrapper {
     gap: 10px;
@@ -507,7 +634,7 @@
   }
 
   .staticPoints p {
-    color: #fff;
+    color: #FFF;
     font-style: normal;
     line-height: 125%;
     font-weight: 400;
@@ -525,15 +652,23 @@
   }
 }
 
-@media only screen and (max-width: 449px) {
+@media only screen and (max-width: 461px) {
   .contentTitleWrapper h1 {
     width: 85%;
+  }
+
+  .mobileSvgWrapper{
+    right: 30px;
   }
 }
 
 @media only screen and (max-width: 431px) {
   .contentTitleWrapper h1 {
     width: 90%;
+  }
+
+  .mobileSvgWrapper{
+    right: 20px;
   }
 }
 
@@ -544,23 +679,40 @@
   }
 }
 
-@media only screen and (max-width: 419px) {
+@media only screen and (max-width: 421px) {
   .contentTitleWrapper h1 {
     width: 100%;
   }
 
   .mobileSvgWrapper {
-    right: 40px;
+    right: 15px;
+    top: 100px;
   }
 
   .contentTitleWrapper h5 {
     width: 74%;
+  }
+
+  .newDsaGrayBtn button {
+    padding: 18px 20px;
   }
 }
 
 @media only screen and (max-width: 401px) {
   .contentTitleWrapper h5 {
     font-size: 18px;
+  }
+
+  .newDsaNewBlueBtn button {
+    padding: 13px 10px;
+  }
+
+  .newDsaGrayBtn button {
+    padding: 18px 10px;
+  }
+
+  .mobileSvgWrapper{
+    right: 5px;
   }
 }
 
@@ -570,12 +722,29 @@
   }
 }
 
-@media only screen and (max-width: 387px) {
+@media only screen and (max-width: 391px) {
   .staticPoints p {
     font-size: 14px;
   }
+
+  .mobileSvgWrapper{
+    right: 0px;
+  }
+
+  .newDsaGrayBtn button {
+    padding: 15px 5px;
+  }
 }
 
+@media only screen and (max-width: 371px) {
+  .mobileSvgWrapper{
+    right: -5px;
+    top: 95px;
+  }
+  .contentTitleWrapper h1{
+    font-size: 28px;
+  }
+}
 @media only screen and (max-width: 361px) {
   .contentWrapper {
     width: 100%;
@@ -584,19 +753,21 @@
     border-radius: 0;
   }
 
+
   .staticPoints p {
     font-size: 13px;
   }
 
   /* .contentTitleWrapper h1 {
-          font-size: 24px;
-      } */
+        font-size: 24px;
+    } */
 
   /* .contentTitleWrapper h5 {
-          font-size: 14px;
-          padding: 5px 10px;
-          width: -webkit-fill-available;
-      } */
+        font-size: 14px;
+        padding: 5px 10px;
+        width: -webkit-fill-available;
+    } */
+
 
   .mentorsWraper {
     gap: 40px;

@@ -2,6 +2,10 @@
     margin: 70px 0 0;
 }
 
+.demoContainer p{
+    margin: 0;
+}
+
 .contentsWrapper {
     width: 100%;
     display: grid;
