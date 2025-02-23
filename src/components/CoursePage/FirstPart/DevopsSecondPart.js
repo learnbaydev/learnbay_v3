@@ -22,9 +22,7 @@ const SliderTab = dynamic(() =>
 const PlacementCall = dynamic(() =>
   import("../../../components/Global/PlacementCall/PlacementCall")
 );
-const DevOpsProject = dynamic(() =>
-  import("../DevOps/DevOpsProject/DevOpsProject")
-);
+const DevOpsProject = dynamic(() => import("../NewProjectSection/NewProject"));
 
 const FAQNew = dynamic(() =>
   import("../../../components/CoursePage/FAQNew/FAQNewDomain")
@@ -134,6 +132,7 @@ const SecondPart = ({
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
         brochurePdf={pdfUrl}
         dataScience={true}
+        data={projectSection}
         // interstedInHide={true}
       />
 
