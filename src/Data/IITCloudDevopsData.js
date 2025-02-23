@@ -1067,7 +1067,7 @@ export const IITCloudDevopsData = [
         height: 340,
         title: "Certification from E&ICT Academy, IIT Guwahati",
         para: [
-          "Executive Certification: Earned in DS & AI from E&ICT Academy, IIT Guwahati.",
+          "Executive Certification:: Earned in Cloud & Devops from E&ICT, IIT Guwahati. ",
           "Hands-On Experience: Practical learning at E&ICT Academy, IIT Guwahati campus.",
           "Top Faculty: Learn directly from E&ICT Academy, IIT Guwahati experts.",
         ],

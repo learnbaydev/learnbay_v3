@@ -145,51 +145,59 @@ export const CloudAndDevOpsCourseData = [
     projectSection: [
       {
         id: 1,
-        duration: "12 Hours",
+        duration: "7 Hours",
         logo: "",
-        heading:
-          "Learn and develop classification techniques for the digital transformation of banking",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+675+(1)-min.png",
-        para: "JPMorgan offers tax-friendly insurance choices. You can help them forecastinsurance premiums. Targeted marketing using your random forest algorithm skills can help obtain better premium values.",
+        heading: "CI/CD Pipeline for a Microservices Application ",
+        para: "Create a multistage CI/CD pipeline for deploying a microservicesbased application to a cloud platform like AWS, Azure, or Google Cloud Platform (GCP).",
         toolImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/morgan-strip.webp",
-        learnMore: "Learn more",
+          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/azure+aws+git_11zon.webp",
+        learnMore:
+          "Automated build, test, and deployment using Jenkins or GitLab CI/CD. ",
       },
+
       {
         id: 2,
-        duration: "17 Hours",
+        duration: "11 Hours",
         logo: "",
-        heading:
-          "Building a content recommendation model on the basis of regional viewer categorization",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+674-min.png",
-        para: "Netflix is a global entertainment video streaming site. They offer content in various regional languages. Build a local recommendation engine for Netflix customers residing in south Bangalore on their weekend and weekdays activities, utilizing NLP.",
+        heading: "Cloud Infrastructure Automation with Terraform",
+        para: "Design and deploy an automated cloud infrastructure setup using Terraform to create and manage cloud resources like virtual machines, databases, and storage services.",
         toolImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Netfliix.webp",
-        learnMore: "Learn more",
+          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/awsazure.png",
+        learnMore: " Create reusable modules for infrastructure components",
       },
+
       {
         id: 3,
-        duration: "14 Hours",
+        duration: "8 Hours",
         logo: "",
-        heading:
-          "Understanding in-depth about logging while drilling (LWD) technique",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+683-min.png",
-        para: "Saudi Aramco company is working onthe development of high-efficiency drilling models. Use the bright sides of big data analytics to identify the most cost-effective and highly productive drilling sites.",
+        heading: "Monitoring and Logging Solution on the Cloud",
+        para: "Set up a robust monitoring and logging infrastructure for realtime data analysis and alerting.",
         toolImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/saudi-aramco-strip.webp",
-        learnMore: "Learn more",
+          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/datadog_promethus.webp",
+        learnMore:
+          "Collect logs and metrics from applications and infrastructure.",
       },
+
       {
         id: 4,
-        duration: "19 Hours",
+        duration: "10 Hours",
         logo: "",
-        heading:
-          "Career progression planning of employees with workforce defections & efficiency",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+688-min.png",
-        para: "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities.",
+        heading: "Serverless Application Deployment ",
+        para: "Build and deploy a serverless application using cloud functions, ensuring that the entire process follows a DevOps workflow.",
         toolImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/IBM-Strip.webp",
-        learnMore: "Learn more",
+          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Google_Cloud_logo.svg.webp",
+        learnMore: "Deploy serverless functions as part of a CI/CD pipeline.",
+      },
+
+      {
+        id: 5,
+        duration: "12 Hours",
+        logo: "",
+        heading: "CloudBased DevOps Pipeline",
+        para: "Implement a secure DevOps pipeline that incorporates security practices (DevSecOps) into the development and deployment cycle.",
+        toolImg:
+          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/azureawsjenkins.webp",
+        learnMore: " Integrate security scanning into the build pipeline",
       },
     ],
 
