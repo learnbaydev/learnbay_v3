@@ -326,11 +326,6 @@
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
 	</url>
-	<!-- <url>
-		<loc>https://www.learnbay.co/career-portal</loc>
-		<changefreq>daily</changefreq>
-		<priority>0.80</priority>
-	</url> -->
 	<url>
 		<loc>https://www.learnbay.co/terms-conditions</loc>
 		<changefreq>daily</changefreq>
@@ -357,11 +352,6 @@
 		<priority>0.80</priority>
 	</url>
 
-	<!-- <url>
-		<loc>https://www.learnbay.co/fullstack/software-development-program-for-freshers</loc>
-		<changefreq>daily</changefreq>
-		<priority>0.80</priority>
-	</url> -->
 	<url>
 		<loc>https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program</loc>
 		<changefreq>daily</changefreq>
@@ -527,7 +517,7 @@
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://www.learnbay.co/datascience/india/data-science-course-training-in-inodre</loc>
+		<loc>https://www.learnbay.co/datascience/india/data-science-course-training-in-indore</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
 	</url>
@@ -582,16 +572,6 @@
 		<priority>0.80</priority>
 	</url>
 
-	<!-- <url>
-		<loc>https://www.learnbay.co/datascience/executive-program-in-data-science-and-ai</loc>
-		<changefreq>daily</changefreq>
-		<priority>0.80</priority>
-	</url> -->
-	<!-- <url>
-		<loc>https://www.learnbay.co/datascience/advance-data-analytics-program</loc>
-		<changefreq>daily</changefreq>
-		<priority>0.80</priority>
-	</url> -->
 	<url>
 		<loc>https://www.learnbay.co/datascience/data-science-and-ai-for-healthcare-professionals</loc>
 		<changefreq>daily</changefreq>
