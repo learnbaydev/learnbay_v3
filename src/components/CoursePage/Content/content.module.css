@@ -20,6 +20,10 @@
 .container ul {
   list-style: none;
 }
+.backgroundcolor ol,
+.container ol{
+  line-height: 30px;
+}
 .links {
   color: rgb(42, 110, 165);
 }
@@ -56,6 +60,11 @@
   padding: 0px 20px;
   border-radius: 4px;
   color: #fff;
+}
+
+.hyperLink{
+  color: blue;
+  font-style: italic;
 }
 
 @media (max-width: 650px) {

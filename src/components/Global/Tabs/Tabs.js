@@ -57,7 +57,7 @@ const Tabs = ({ handleIcon }) => {
                 }
               >
                 {data.title}
-                {data.title === "Gen AI" && (
+                {data.id === "GenAI" && (
                   <div className={styles.tagNew}>
                     <p>NEW</p>
                   </div>
