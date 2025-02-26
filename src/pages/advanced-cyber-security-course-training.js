@@ -1,4 +1,5 @@
 import React from "react";
+import dynamic from "next/dynamic";
 import Head from "next/head";
 import { parseJSONData } from "@/Util/JsonConvertor";
 import Header from "@/components/CoursePage/NewCyberECCouncil/NewCyberECCouncilHeader";
@@ -18,6 +19,9 @@ import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import FAQNew from "@/components/CoursePage/FAQNew/FAQNewDomain";
 import NewSevenSection from "@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection";
+const Content = dynamic(() =>
+  import("@/components/CoursePage/Content/content")
+);
 
 const CyberSecurityECCouncil = ({ NewCyberSecurityECCouncilDataJson }) => {
   const NewCyberSecurityECCouncilData = parseJSONData(
@@ -39,7 +43,7 @@ const CyberSecurityECCouncil = ({ NewCyberSecurityECCouncilDataJson }) => {
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content=" advance cyber security course, advanced cyber security course"
+          content="advance cyber security course, advanced cyber security course"
         />
 
         <link
@@ -225,6 +229,11 @@ const CyberSecurityECCouncil = ({ NewCyberSecurityECCouncilDataJson }) => {
         <NewCyberECCouncilProject />
         <FAQNew
           FAQNewData={NewCyberSecurityECCouncilData[0].faq}
+          background={true}
+        />
+        <Content
+          dataScienceCounselling={true}
+          AdvanceCyberSecurity={true}
           background={true}
         />
         <NewSevenSection

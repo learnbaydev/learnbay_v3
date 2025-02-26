@@ -1,7 +1,7 @@
 export const TabData = [
   {
     id: "GenAI",
-    title: "Gen AI",
+    title: "Generative AI Courses",
     courseName: [
       {
         CName: "GenAI Developer Certification For Professionals",
