@@ -11,7 +11,7 @@ const Content = dynamic(() =>
   import("../../../components/CoursePage/Content/content")
 );
 const Certificate = dynamic(() =>
-  import("../../../components/CoursePage/Certificate/Certificate")
+  import("../../../components/CoursePage/UpdatedCertificate/UpdatedCertificate")
 );
 
 const FeeSection = dynamic(() =>

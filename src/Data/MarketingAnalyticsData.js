@@ -147,8 +147,7 @@ export const MarketingDataScienceCourseData = [
         id: 1,
         duration: "26 Hours",
         logo: "",
-        heading:
-          "",
+        heading: "",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coc.webp",
         para: "Coca-Cola used Tableau to optimize their social media campaign performance by analyzing the data from their social media channels and identifying key performance indicators (KPIs).",
         toolImg:
@@ -159,8 +158,7 @@ export const MarketingDataScienceCourseData = [
         id: 2,
         duration: "26 Hours",
         logo: "",
-        heading:
-          "",
+        heading: "",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/amazon.webp",
         para: "Amazon used machine learning algorithms to analyze customer behavior, preferences, and purchase history, enabling targeted product recommendations and customized marketing campaigns.",
         toolImg:
@@ -171,8 +169,7 @@ export const MarketingDataScienceCourseData = [
         id: 3,
         duration: "26 Hours",
         logo: "",
-        heading:
-          "",
+        heading: "",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/pg.webp",
         para: "Procter & Gamble used SAS to analyze customer data and identify patterns in customer behavior, enabling them to make data-driven decisions about their marketing strategy.",
         toolImg:
@@ -183,8 +180,7 @@ export const MarketingDataScienceCourseData = [
         id: 4,
         duration: "26 Hours",
         logo: "",
-        heading:
-         "",
+        heading: "",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+674-min.png",
         para: "Netflix used A/B testing and machine learning algorithms to optimize their recommendations engine and improve the personalized content recommendations for their users.",
         toolImg:
@@ -195,8 +191,7 @@ export const MarketingDataScienceCourseData = [
         id: 5,
         duration: "26 Hours",
         logo: "",
-        heading:
-         "",
+        heading: "",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/uber.webp",
         para: "Uber used predictive analytics and machine learning algorithms to optimize their pricing strategies and surge pricing algorithm, enabling them to provide a better user experience.",
         toolImg:
@@ -207,8 +202,7 @@ export const MarketingDataScienceCourseData = [
         id: 6,
         duration: "26 Hours",
         logo: "",
-        heading:
-         "",
+        heading: "",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/airnub.webp",
         para: "Airbnb used R to analyze customer data and improve their marketing campaigns, resulting in increased customer engagement and revenue.",
         toolImg:
@@ -219,8 +213,7 @@ export const MarketingDataScienceCourseData = [
         id: 7,
         duration: "26 Hours",
         logo: "",
-        heading:
-         "",
+        heading: "",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/walmart.webp",
         para: "Walmart used Hadoop and Hive to analyze customer data and identify patterns in customer behaviour, enabling them to optimize their marketing campaigns and increase sales.",
         toolImg:
@@ -231,8 +224,7 @@ export const MarketingDataScienceCourseData = [
         id: 8,
         duration: "26 Hours",
         logo: "",
-        heading:
-         "",
+        heading: "",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/linkedin.png",
         para: "LinkedIn used data analytics tools such as Tableau and R to analyse customer data and improve their advertising platform, resulting in increased revenue and customer engagement.",
         toolImg:
@@ -244,7 +236,7 @@ export const MarketingDataScienceCourseData = [
     Certificate: {
       degreeCertificate: {
         id: 1,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/business-analytics-Cer.webp",
+        img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Banalysis%26optimization.webp",
         title: "Course Completion Certificate from IBM",
         para: [
           "Complete your training with the internationally recognized certificate.",
@@ -279,12 +271,12 @@ export const MarketingDataScienceCourseData = [
         Module0: {
           title: "Marketing Analytics",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MARKETING+ANALYTICS_round.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MARKETING+ANALYTICS_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
-        points: "Introduction to Marketing Analytics",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MARKETING+ANALYTICS_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MARKETING+ANALYTICS_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
+          points: "Introduction to Marketing Analytics",
           content: [
             {
               chap: {
@@ -313,14 +305,14 @@ export const MarketingDataScienceCourseData = [
           title: "TERM 1:- Excel, Statistics, SQL & MongoDB",
           title: "TERM 1:- Excel, Statistics, SQL & MongoDB",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Power+BI_Up.webp",
-        points: "Excel",
-        points1: "Statistics",
-        points2: "SQL",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Power+BI_Up.webp",
+          points: "Excel",
+          points1: "Statistics",
+          points2: "SQL",
           content: [
             {
               chap: {
@@ -385,13 +377,13 @@ export const MarketingDataScienceCourseData = [
         Module0: {
           title: "TERM 2 :- TABLEAU & Power BI",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Power+BI_round+(1).webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/power+BI_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
-        points: "TABLEAU",
-        points1: "Power BI",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Power+BI_round+(1).webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/power+BI_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
+          points: "TABLEAU",
+          points1: "Power BI",
           content: [
             {
               chap: {
@@ -430,13 +422,13 @@ export const MarketingDataScienceCourseData = [
         Module0: {
           title: "TERM 3 :- Data Science & AI",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_up.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_up.webp",
 
-        points: "Data Science & AI",
+          points: "Data Science & AI",
           content: [
             {
               chap: {
@@ -459,12 +451,12 @@ export const MarketingDataScienceCourseData = [
         Module0: {
           title: "TERM 4 :- Deployment ",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_round.webp",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
-        points: "Deployment AWS+Azure",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_round.webp",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
+          points: "Deployment AWS+Azure",
           content: [
             {
               chap: {
@@ -487,13 +479,13 @@ export const MarketingDataScienceCourseData = [
           title: "BONUS :- AI Generative Tools and Future Trends",
 
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
-        points: "AI and Generative Modeling",
-        points1: "DALL·E:",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
+          points: "AI and Generative Modeling",
+          points1: "DALL·E:",
           content: [
             {
               chap: {

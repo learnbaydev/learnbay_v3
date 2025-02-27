@@ -1651,38 +1651,47 @@ export const DataScienceCourseData = [
       // },
     ],
 
-    Certificate: {
-      degreeCertificate: {
+    Certificate: [
+      {
         id: 1,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm-min.webp",
+        topnav: "IBM",
+        img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/DSAI_for_managersand+leaders.webp",
+        width: 300,
+        height: 280,
         title: "Course Completion Certificate from IBM",
         para: [
           "Complete your training with the internationally recognized certificate.",
-          "Validate your Data Science and AI skills with IBM Course Completion Certificate.",
+          "Validate your Data Science skills with IBM Course Completion Certificate.",
           "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
         ],
       },
-      microCertificate: {
+      {
         id: 2,
+        topnav: "Microsoft",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
+        width: 330,
+        height: 260,
         title: "Certification in Collaboration with Microsoft",
         para: [
-          "Industry-certified Microsoft certificates",
-          "Gain expertise & get recognized worldwide",
+          "Earn an Industry-certified Microsoft certificate , validating your skills",
+          "Showcase your expertise & enhance your resume highlighting job ready skills",
           "Boost job opportunities and earnings with Microsoft’s certification",
         ],
       },
-      projectCertificate: {
+      {
         id: 3,
+        topnav: "Project Certificate",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Certification-min.webp",
+        width: 300,
+        height: 270,
         title: "Capstone Project Certificate from IBM",
         para: [
           "Globally recognized IBM certification based on industrial-level projects.",
-          "Earn 1 capstone project certification from IBM.",
+          "Earn an industry recognized Capstone project certification from IBM.",
           "Individualized project experience with easy access to premium job opportunities.",
         ],
       },
-    },
+    ],
 
     masterSyllabusMobile: [
       {
@@ -2228,13 +2237,13 @@ export const DataScienceCourseData = [
             ques: "What are the available elective domain options?",
             ans: `We focus on industry-relevant advances in data science and cover top-rated domains like –`,
             open: false,
-            dscoursefaq1:true,
-            list1:"Retail",
-            list2:"Technology",
-            list3:"Consulting",
-            list4:"Healthcare",
-            list5:"Manufacturing",
-            list6:"BFSI",
+            dscoursefaq1: true,
+            list1: "Retail",
+            list2: "Technology",
+            list3: "Consulting",
+            list4: "Healthcare",
+            list5: "Manufacturing",
+            list6: "BFSI",
           },
           {
             id: 3,
@@ -2343,10 +2352,10 @@ export const DataScienceCourseData = [
             ques: "Is there any accredited certification after course completion?",
             ans: "Learners joining our Data Science and AI program for Managers and Leaders will receive globally recognized IBM & Microsoft certifications. Most specifically, experts will earn –",
             open: true,
-            dscoursefaq:true,
-            list1:"Industry-recognized IBM Course Certification",
-            list2:"Globally recognized Microsoft Azure AI Certification",
-            list3:"IBM Capstone Project Certificate",
+            dscoursefaq: true,
+            list1: "Industry-recognized IBM Course Certification",
+            list2: "Globally recognized Microsoft Azure AI Certification",
+            list3: "IBM Capstone Project Certificate",
           },
         ],
       },
@@ -2435,7 +2444,7 @@ Dedicated Placement Team for soft skills training`,
             ans: "After enrolling in the course, you are open to use 24x7 learner’s support to resolve any query. Call the helpline to connect with service providers who can assist you with any technical problems on the course platform.",
             open: true,
           },
-       
+
           {
             id: 1,
             ques: "Is there a discussion forum or community for students to interact and seek help?",

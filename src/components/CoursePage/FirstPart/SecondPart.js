@@ -7,7 +7,7 @@ import LJourney from "../LJourney/LJourney";
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
 const Certificate = dynamic(() =>
-  import("../../../components/CoursePage/Certificate/Certificate")
+  import("../../../components/CoursePage/UpdatedCertificate/UpdatedCertificate")
 );
 const FeeSection = dynamic(() =>
   import("../../course/feeSection/FeeSectionCourse")
