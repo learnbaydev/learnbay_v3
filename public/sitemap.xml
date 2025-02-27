@@ -556,7 +556,7 @@
 	</url>
 
 	<url>
-		<loc>https://www.learnbay.co/cloud&amp;devops/aws-cloud-computing-and-devOps</loc>
+		<loc>https://www.learnbay.co/cloud&amp;devops/executive-program-in-cloud-and-devops-by-iit-guwahati</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
 	</url>
@@ -627,6 +627,22 @@
 
 		<url>
 		<loc>https://www.learnbay.co/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.80</priority>
+	</url>
+
+	<url>
+		<loc>https://www.learnbay.co/fullstack/data-structure-algorithm-online-course-training</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>https://www.learnbay.co/artificial-intelligence/generative-ai-course-for-fullstack-professionals</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>https://www.learnbay.co/artificial-intelligence/generative-ai-course-for-data-science-professionals</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
 	</url>
