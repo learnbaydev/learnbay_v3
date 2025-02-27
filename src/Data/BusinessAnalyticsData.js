@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 export const BADataScienceCourseData = [
   {
@@ -195,50 +194,59 @@ export const BADataScienceCourseData = [
       },
     ],
 
-    Certificate: {
-      degreeCertificate: {
+    Certificate: [
+      {
         id: 1,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/business-analytics-Cer.webp",
-        title: "Business Analytics Certification from IBM        ",
+        topnav: "IBM",
+        img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/BusinessAnalytics.webp",
+        width: 300,
+        height: 280,
+        title: "Course Completion Certificate from IBM",
         para: [
           "Complete your training with the internationally recognized certificate.",
-          "Validate your Data Science and AI skills with IBM Course Completion Certificate.",
+          "Validate your Business Analytics skills with IBM Course Completion Certificate.",
           "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
         ],
       },
-      microCertificate: {
+      {
         id: 2,
+        topnav: "Microsoft",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
+        width: 330,
+        height: 260,
         title: "Certification in Collaboration with Microsoft",
         para: [
-          "Industry-certified Microsoft certificates",
-          "Gain expertise & get recognized worldwide",
+          "Earn an Industry-certified Microsoft certificate , validating your skills",
+          "Showcase your expertise & enhance your resume highlighting job ready skills",
           "Boost job opportunities and earnings with Microsoft’s certification",
         ],
       },
-      projectCertificate: {
+      {
         id: 3,
+        topnav: "Project Certificate",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Certification-min.webp",
+        width: 300,
+        height: 270,
         title: "Capstone Project Certificate from IBM",
         para: [
           "Globally recognized IBM certification based on industrial-level projects.",
-          "Earn 1 capstone project certification from IBM.",
+          "Earn an industry recognized Capstone project certification from IBM.",
           "Individualized project experience with easy access to premium job opportunities.",
         ],
       },
-    },
+    ],
 
     masterSyllabusMobile: [
       {
         Module0: {
           title: "Intro to Business Analytics",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BUSINESS+ANALYTICS_round.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BUSINESS+ANALYTICS_Down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
-        points: "Introduction to Business Analysis ",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BUSINESS+ANALYTICS_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BUSINESS+ANALYTICS_Down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
+          points: "Introduction to Business Analysis ",
           content: [
             {
               chap: {
@@ -262,13 +270,13 @@ export const BADataScienceCourseData = [
         Module0: {
           title: "TERM 1:- Excel & Business Statistics",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
-        points: "Excel",
-        points1: "Statistics",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
+          points: "Excel",
+          points1: "Statistics",
           content: [
             {
               chap: {
@@ -311,13 +319,13 @@ export const BADataScienceCourseData = [
         Module0: {
           title: "TERM 2 :- Data Science & AI ",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
-        points: "ML",
-        points1: " NLP",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
+          points: "ML",
+          points1: " NLP",
           content: [
             {
               chap: {
@@ -356,14 +364,14 @@ export const BADataScienceCourseData = [
         Module0: {
           title: "TERM 3 :- Big Data Analytics and Visualization",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_up.webp",
-        points: "SQL",
-        points1: "MongoDB",
-        points2:"Tableau",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_up.webp",
+          points: "SQL",
+          points1: "MongoDB",
+          points2: "Tableau",
           content: [
             {
               chap: {
@@ -425,12 +433,12 @@ export const BADataScienceCourseData = [
         Module0: {
           title: "TERM 5 :- Deployment ",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_round.webp",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
-        points: "Deployment AWS+Azure",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_round.webp",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
+          points: "Deployment AWS+Azure",
           content: [
             {
               chap: {
@@ -453,13 +461,13 @@ export const BADataScienceCourseData = [
         Module0: {
           title: "BONUS :- AI Generative Tools and Future Trends",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
-        points: "AI and Generative Modeling",
-        points1: "DALL·E:",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
+          points: "AI and Generative Modeling",
+          points1: "DALL·E:",
           content: [
             {
               chap: {
@@ -773,8 +781,7 @@ export const BADataScienceCourseData = [
             ques: "How many real-time projects will be there?",
             ans: "We have a set of 12 Real-time projects from multiple domains such as Healthcare, Banking, Finance, Insurance, Retail, and others. Based on your interest you can choose your project to work on.",
             linkText1: " Click here to download the list of the projects.",
-            Link:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+            Link: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
             link: true,
             open: false,
           },
@@ -789,21 +796,26 @@ export const BADataScienceCourseData = [
             ques: "What is a capstone project, and how does it fit into the course?            ",
             ans: `Capstone projects are curated for professional skill development and help learners get exposure to real-world business issues. Business Analytics Program includes fresh capstone projects from diverse domains. Capstone projects are group project work where learners will learn the use and application of business analytics tools to tackle a business problem. In addition, you may opt for a project innovation lab for business analytics courses in many cities across India, such as:             `,
             linksone:
-           "https://www.learnbay.co/datascience/bangalore/business-analytics-course-training-in-bangalore",
-            linkone:"Business Analytics Project Innovation Lab Bangalore ",
-            linkstwo:"https://www.learnbay.co/datascience/pune/business-analytics-course-training-in-pune",
-            linktwo:"Business Analytics Project Innovation Lab Pune ",
-            linksthree:"https://www.learnbay.co/datascience/mumbai/business-analytics-course-training-in-mumbai",
-            linkthree:"Business Analytics Project Innovation Lab Mumbai ",
-            linksfour:"https://www.learnbay.co/datascience/chennai/business-analytics-course-training-in-chennai",
-            linkfour:"Business Analytics Project Innovation Lab Chennai ",
-            linksfive:"https://www.learnbay.co/datascience/hyderabad/business-analytics-course-training-in-hyderabad",
-            linkfive:"Business Analytics Project Innovation Lab Hyderabad",
-            linkssix:"https://www.learnbay.co/datascience/delhi/business-analytics-course-training-in-delhi",
-            linksix:"Business Analytics Project Innovation Lab Delhi",
-      
+              "https://www.learnbay.co/datascience/bangalore/business-analytics-course-training-in-bangalore",
+            linkone: "Business Analytics Project Innovation Lab Bangalore ",
+            linkstwo:
+              "https://www.learnbay.co/datascience/pune/business-analytics-course-training-in-pune",
+            linktwo: "Business Analytics Project Innovation Lab Pune ",
+            linksthree:
+              "https://www.learnbay.co/datascience/mumbai/business-analytics-course-training-in-mumbai",
+            linkthree: "Business Analytics Project Innovation Lab Mumbai ",
+            linksfour:
+              "https://www.learnbay.co/datascience/chennai/business-analytics-course-training-in-chennai",
+            linkfour: "Business Analytics Project Innovation Lab Chennai ",
+            linksfive:
+              "https://www.learnbay.co/datascience/hyderabad/business-analytics-course-training-in-hyderabad",
+            linkfive: "Business Analytics Project Innovation Lab Hyderabad",
+            linkssix:
+              "https://www.learnbay.co/datascience/delhi/business-analytics-course-training-in-delhi",
+            linksix: "Business Analytics Project Innovation Lab Delhi",
+
             open: false,
-            linksli:true,
+            linksli: true,
           },
           {
             id: 4,

@@ -13,7 +13,7 @@ const FirstSection = dynamic(() =>
   import("@/components/CoursePage/FirstSectionDmd/FirstSection")
 );
 const Certificate = dynamic(() =>
-  import("@/components/CoursePage/Certificate/Certificate")
+  import("@/components/CoursePage/UpdatedCertificate/UpdatedCertificate")
 );
 
 const Transpro = dynamic(() => import("@/components/Dmd/Transpro/Transpro"));
@@ -97,7 +97,7 @@ const DmdPart = ({ CertificateData, S3RightImage, projectSection }) => {
       url: "https://www.business-standard.com/content/press-releases-ani/learnbay-collaborates-with-woolf-to-launch-master-s-degree-in-computer-science-data-science-specializations-123112000350_1.html",
     },
   ];
-   const pdfUrl = "/Brochure/Dmd-Cloud-and-Devops-Certification.pdf"
+  const pdfUrl = "/Brochure/Dmd-Cloud-and-Devops-Certification.pdf";
   return (
     <div>
       <FirstSection

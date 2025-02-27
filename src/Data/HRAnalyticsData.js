@@ -147,8 +147,7 @@ export const HRDataScienceCourseData = [
         id: 1,
         duration: "26 Hours",
         logo: "",
-        heading:
-          "Workforce Planning at GE",
+        heading: "Workforce Planning at GE",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/jphr.webp",
         para: "GE uses predictive analytics to forecast future talent needs and identify gaps in their workforce. By analyzing HR data such as employee demographics, attrition rates, and skills, GE can make informed decisions about hiring and workforce planning.",
         toolImg:
@@ -159,8 +158,7 @@ export const HRDataScienceCourseData = [
         id: 2,
         duration: "26 Hours",
         logo: "",
-        heading:
-          "Performance Management at Deloitte",
+        heading: "Performance Management at Deloitte",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/deloitte.webp",
         para: "Deloitte uses a data-driven approach to performance management. The company utilizes analytics to measure employee performance, provide feedback, and identify areas for improvement.",
         toolImg:
@@ -171,8 +169,7 @@ export const HRDataScienceCourseData = [
         id: 3,
         duration: "26 Hours",
         logo: "",
-        heading:
-          "Succession Planning at AT&T",
+        heading: "Succession Planning at AT&T",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/at.webp",
         para: "AT&T uses analytics to identify high-potential employees and develop them for future leadership roles. By analyzing HR data such as performance metrics, skills, and career aspirations, AT&T can create targeted development plans for its employees.",
         toolImg:
@@ -183,8 +180,7 @@ export const HRDataScienceCourseData = [
         id: 4,
         duration: "26 Hours",
         logo: "",
-        heading:
-          "Compensation Analytics at Netflix",
+        heading: "Compensation Analytics at Netflix",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+674-min.png",
         para: "Netflix uses analytics to determine employee compensation packages. By analyzing HR data such as market benchmarks, employee performance, and tenure, Netflix can offer compensation packages that are competitive and fair.",
         toolImg:
@@ -196,7 +192,7 @@ export const HRDataScienceCourseData = [
     Certificate: {
       degreeCertificate: {
         id: 1,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/hr-analytics-Cer.webp",
+        img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Banalysis%26optimization.webp",
         title: "Course Completion Certificate from IBM",
         para: [
           "Complete your training with the internationally recognized certificate.",
@@ -231,12 +227,12 @@ export const HRDataScienceCourseData = [
         Module0: {
           title: "HRM",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/HRM_Round.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/HRM_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
-        points: "Human Resource Management using Data Analytics",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/HRM_Round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/HRM_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
+          points: "Human Resource Management using Data Analytics",
           content: [
             {
               chap: {
@@ -261,14 +257,14 @@ export const HRDataScienceCourseData = [
         Module0: {
           title: "TERM 1:- Excel, Statistics, SQL & MongoDB",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Power+BI_Up.webp",
-        points: "Excel",
-        points1: "Statistics",
-        points2: "SQL",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Power+BI_Up.webp",
+          points: "Excel",
+          points1: "Statistics",
+          points2: "SQL",
           content: [
             {
               chap: {
@@ -333,13 +329,13 @@ export const HRDataScienceCourseData = [
         Module0: {
           title: "TERM 2 :- TABLEAU & Power BI",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Power+BI_round+(1).webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/power+BI_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
-        points: "TABLEAU",
-        points1: "Power BI",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Power+BI_round+(1).webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/power+BI_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
+          points: "TABLEAU",
+          points1: "Power BI",
           content: [
             {
               chap: {
@@ -378,14 +374,14 @@ export const HRDataScienceCourseData = [
         Module0: {
           title: "TERM 3 :- Data Science & AI",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_up.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_up.webp",
 
-        points: "Data Science & AI",
-   
+          points: "Data Science & AI",
+
           content: [
             {
               chap: {
@@ -409,12 +405,12 @@ export const HRDataScienceCourseData = [
           title: "TERM 4 :- Deployment ",
 
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_round.webp",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
-        points: "Deployment AWS+Azure",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_round.webp",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
+          points: "Deployment AWS+Azure",
 
           content: [
             {
@@ -438,13 +434,13 @@ export const HRDataScienceCourseData = [
           title: "BONUS :- AI Generative Tools and Future Trends",
 
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
-        points: "AI and Generative Modeling",
-        points1: "DALL·E:",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
+          points: "AI and Generative Modeling",
+          points1: "DALL·E:",
           content: [
             {
               chap: {

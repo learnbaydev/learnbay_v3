@@ -7,7 +7,9 @@ const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
 const WhatsappFloat = dynamic(() =>
   import("@/components/Global/WhatappsFloat/WhatsappFloat")
 );
-const Certificate = dynamic(() => import("../Certificate/Certificate"));
+const Certificate = dynamic(() =>
+  import("../UpdatedCertificate/UpdatedCertificate")
+);
 const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
 const FeeSection = dynamic(() => import("../FeeSection/FeeSection"));
 

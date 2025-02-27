@@ -8,7 +8,7 @@ const WhatsappFloat = dynamic(() =>
   import("@/components/Global/WhatappsFloat/WhatsappFloat")
 );
 const Certificate = dynamic(() =>
-  import("../../../components/CoursePage/Certificate/Certificate")
+  import("../../../components/CoursePage/UpdatedCertificate/UpdatedCertificate")
 );
 const FeeSection = dynamic(() =>
   import("../../course/feeSection/FeeSectionCourse")

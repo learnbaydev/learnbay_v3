@@ -147,8 +147,7 @@ export const HealthcareDataScienceCourseData = [
         id: 1,
         duration: "26 Hours",
         logo: "",
-        heading:
-          "Fraud Detection",
+        heading: "Fraud Detection",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+675+(1)-min.png",
         para: "Develop a fraud detection system that uses machine learning algorithms to identify potential fraud in financial transactions.",
         toolImg:
@@ -159,8 +158,7 @@ export const HealthcareDataScienceCourseData = [
         id: 2,
         duration: "26 Hours",
         logo: "",
-        heading:
-          "Risk Management",
+        heading: "Risk Management",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/american-express.webp",
         para: "Develop a risk management system that uses predictive analytics to identify and assess risks in the financial sector.",
         toolImg:
@@ -171,8 +169,7 @@ export const HealthcareDataScienceCourseData = [
         id: 3,
         duration: "26 Hours",
         logo: "",
-        heading:
-          "Customer Segmentation",
+        heading: "Customer Segmentation",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/citibank.webp",
         para: "Develop a customer segmentation system that uses data analytics to segment customers based on demographics and financial behavior",
         toolImg:
@@ -183,8 +180,7 @@ export const HealthcareDataScienceCourseData = [
         id: 4,
         duration: "19 Hours",
         logo: "",
-        heading:
-          "Anti-Money Laundering",
+        heading: "Anti-Money Laundering",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/hsbc.webp",
         para: "Develop an anti-money laundering system that uses predictive analytics to detect and prevent money laundering.",
         toolImg:
@@ -195,8 +191,7 @@ export const HealthcareDataScienceCourseData = [
         id: 5,
         duration: "26 Hours",
         logo: "",
-        heading:
-          "Loan Origination",
+        heading: "Loan Origination",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/jpmorgan.png",
         para: "Develop a loan origination system that uses machine learning to automate the loan application process and determine creditworthiness.",
         toolImg:
@@ -207,8 +202,7 @@ export const HealthcareDataScienceCourseData = [
         id: 6,
         duration: "26 Hours",
         logo: "",
-        heading:
-          "Trading Analytics",
+        heading: "Trading Analytics",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/golden-sachs.webp",
         para: "Develop a trading analytics system that uses big data analytics to analyze financial data and improve trading strategies",
         toolImg:
@@ -219,8 +213,7 @@ export const HealthcareDataScienceCourseData = [
         id: 7,
         duration: "26 Hours",
         logo: "",
-        heading:
-          "Portfolio Management",
+        heading: "Portfolio Management",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/blackrock.webp",
         para: "Develop a portfolio management system that uses data analytics to optimize investment portfolios and maximize returns.",
         toolImg:
@@ -231,8 +224,7 @@ export const HealthcareDataScienceCourseData = [
         id: 8,
         duration: "26 Hours",
         logo: "",
-        heading:
-          "Regulatory Compliance",
+        heading: "Regulatory Compliance",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ms.webp",
         para: "Develop a regulatory compliance system that uses data analytics to ensure compliance with financial regulations.",
         toolImg:
@@ -241,55 +233,63 @@ export const HealthcareDataScienceCourseData = [
       },
     ],
 
-    Certificate: {
-      degreeCertificate: {
+    Certificate: [
+      {
         id: 1,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm-min.webp",
+        topnav: "IBM",
+        img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Banalysis%26optimization.webp",
+        width: 300,
+        height: 280,
         title: "Course Completion Certificate from IBM",
         para: [
           "Complete your training with the internationally recognized certificate.",
-          "Validate your Data Science and AI skills with IBM Course Completion Certificate.",
+          "Validate your Data Science skills with IBM Course Completion Certificate.",
           "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
         ],
       },
-      microCertificate: {
+      {
         id: 2,
+        topnav: "Microsoft",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
+        width: 330,
+        height: 260,
         title: "Certification in Collaboration with Microsoft",
         para: [
-          "Industry-certified Microsoft certificates",
-          "Gain expertise & get recognized worldwide",
+          "Earn an Industry-certified Microsoft certificate , validating your skills",
+          "Showcase your expertise & enhance your resume highlighting job ready skills",
           "Boost job opportunities and earnings with Microsoft’s certification",
         ],
       },
-      projectCertificate: {
+      {
         id: 3,
+        topnav: "Project Certificate",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Certification-min.webp",
+        width: 300,
+        height: 270,
         title: "Capstone Project Certificate from IBM",
         para: [
           "Globally recognized IBM certification based on industrial-level projects.",
-          "Earn 1 capstone project certification from IBM.",
+          "Earn an industry recognized Capstone project certification from IBM.",
           "Individualized project experience with easy access to premium job opportunities.",
         ],
       },
-    },
+    ],
 
     masterSyllabusMobile: [
       {
         Module0: {
           title: "Healthcare Analytics",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/health-round.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/health-down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_UP.webp",
-        points: "Introduction Healthcare",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/health-round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/health-down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_UP.webp",
+          points: "Introduction Healthcare",
           content: [
             {
               chap: {
-                title:
-                  "Introduction to Healthcare Analytics",
+                title: "Introduction to Healthcare Analytics",
                 desc: [
                   "Drug discovery and Development, Pre-clinical studies, Basics of clinical trials and clinical research",
                   "Terminologies and definitions in clinical trials, Types and phases of clinical trials, Good clinical practices",
@@ -311,13 +311,13 @@ export const HealthcareDataScienceCourseData = [
         Module0: {
           title: "TERM 1:- Preparatory Session and Python Programming",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_round.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
-        points: "Cohort Orientation",
-        points1: "Fundamentals of programming",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
+          points: "Cohort Orientation",
+          points1: "Fundamentals of programming",
           content: [
             {
               chap: {
@@ -356,13 +356,13 @@ export const HealthcareDataScienceCourseData = [
         Module0: {
           title: "TERM 2 :-Statistics and Machine Learning",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
-        points: "Statistics",
-        points1: "Machine Learning",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
+          points: "Statistics",
+          points1: "Machine Learning",
           content: [
             {
               chap: {
@@ -409,17 +409,16 @@ export const HealthcareDataScienceCourseData = [
       },
       {
         Module0: {
-          title:
-            "TERM 3 :- Data Science Tools",
-            imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_up.webp",
-        points: "SQL",
-        points1: "MongoDB",
-        points2: "Tableau",
+          title: "TERM 3 :- Data Science Tools",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_up.webp",
+          points: "SQL",
+          points1: "MongoDB",
+          points2: "Tableau",
           content: [
             {
               chap: {
@@ -492,13 +491,13 @@ export const HealthcareDataScienceCourseData = [
         Module0: {
           title: "TERM 4 :- AI TOOLS",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_up.webp",
-        points: "Deep Learning",
-        points1: "(NLP)",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_up.webp",
+          points: "Deep Learning",
+          points1: "(NLP)",
           content: [
             {
               chap: {
@@ -515,11 +514,7 @@ export const HealthcareDataScienceCourseData = [
             {
               chap: {
                 title: "Module 2 :- NLP",
-                desc: [
-                  "Natural Language Processing",
-                  "Text Analysis",
-                  "KNN",
-                ],
+                desc: ["Natural Language Processing", "Text Analysis", "KNN"],
               },
             },
           ],
@@ -531,12 +526,12 @@ export const HealthcareDataScienceCourseData = [
         Module0: {
           title: "TERM 5 :- Deployment ",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_round.webp",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
-        points: "Deployment AWS+Azure",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_round.webp",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
+          points: "Deployment AWS+Azure",
           content: [
             {
               chap: {
@@ -559,13 +554,13 @@ export const HealthcareDataScienceCourseData = [
           title: "BONUS :- AI Generative Tools and Future Trends",
 
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
-        points: "AI and Generative Modeling",
-        points1: "DALL·E:",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
+          points: "AI and Generative Modeling",
+          points1: "DALL·E:",
           content: [
             {
               chap: {
@@ -789,10 +784,10 @@ export const HealthcareDataScienceCourseData = [
             id: 4,
             ques: "Are there any discounts for early registration in the program?",
             ans: "Yes, we offer early bird discounts of 15% – 20% for learners registering in the program at first. Yet, a group discount is available for the learners who join with one or more friends.             ",
-          list1:"Group of 2: 5% extra discount          ",
-          list2:"Group of 3: 8% additional discount          ",
-          list3:"Group of 4+: Max 10% discount          ",
-          dscoursefaq:true,
+            list1: "Group of 2: 5% extra discount          ",
+            list2: "Group of 3: 8% additional discount          ",
+            list3: "Group of 4+: Max 10% discount          ",
+            dscoursefaq: true,
             open: false,
           },
         ],
@@ -818,7 +813,6 @@ export const HealthcareDataScienceCourseData = [
             ans: "At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.",
             open: false,
           },
-         
         ],
       },
       {
@@ -835,9 +829,10 @@ export const HealthcareDataScienceCourseData = [
             id: 1,
             ques: "What categories of certifications might I expect to receive?            ",
             ans: "This course offers you two categories of certifications –            ",
-            list1:"Two-Course Completion Certificates from IBM & Microsoft            ",
-            list2:"One Capstone Project Certification from IBM            ",
-            dscoursefaq1:true,
+            list1:
+              "Two-Course Completion Certificates from IBM & Microsoft            ",
+            list2: "One Capstone Project Certification from IBM            ",
+            dscoursefaq1: true,
             open: true,
           },
         ],

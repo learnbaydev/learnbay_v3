@@ -7,7 +7,9 @@ import { useEffect, useState } from "react";
 import LJourney from "../LJourney/LJourney";
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
-const Certificate = dynamic(() => import("../Certificate/Certificate"));
+const Certificate = dynamic(() =>
+  import("../UpdatedCertificate/UpdatedCertificate")
+);
 const FeeSection = dynamic(() =>
   import("../../course/feeSection/FeeSectionCourse")
 );

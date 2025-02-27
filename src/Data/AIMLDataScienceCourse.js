@@ -193,10 +193,13 @@ export const AIMLDataScienceCourseData = [
       },
     ],
 
-    Certificate: {
-      degreeCertificate: {
+    Certificate: [
+      {
         id: 1,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm-min.webp",
+        topnav: "IBM",
+        img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Adv_AIML.webp",
+        width: 300,
+        height: 280,
         title: "Course Completion Certificate from IBM",
         para: [
           "Complete your training with the internationally recognized certificate.",
@@ -204,40 +207,46 @@ export const AIMLDataScienceCourseData = [
           "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
         ],
       },
-      microCertificate: {
+      {
         id: 2,
+        topnav: "Microsoft",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
+        width: 330,
+        height: 260,
         title: "Certification in Collaboration with Microsoft",
         para: [
-          "Industry-certified Microsoft certificates",
-          "Gain expertise & get recognized worldwide",
+          "Earn an Industry-certified Microsoft certificate , validating your skills",
+          "Showcase your expertise & enhance your resume highlighting job ready skills",
           "Boost job opportunities and earnings with Microsoft’s certification",
         ],
       },
-      projectCertificate: {
+      {
         id: 3,
+        topnav: "Project Certificate",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Certification-min.webp",
+        width: 300,
+        height: 270,
         title: "Capstone Project Certificate from IBM",
         para: [
           "Globally recognized IBM certification based on industrial-level projects.",
-          "Earn 1 capstone project certification from IBM.",
+          "Earn an industry recognized Capstone project certification from IBM.",
           "Individualized project experience with easy access to premium job opportunities.",
         ],
       },
-    },
+    ],
 
     masterSyllabusMobile: [
       {
         Module0: {
           title: "Module 0 :- Preparatory Classes (Programming + Maths)",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_round.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_Up.webp",
-        points: "Cohort Orientation",
-        points1: "Fundamentals of programming",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_Up.webp",
+          points: "Cohort Orientation",
+          points1: "Fundamentals of programming",
           content: [
             {
               chap: {
@@ -280,13 +289,13 @@ export const AIMLDataScienceCourseData = [
         Module0: {
           title: "TERM 1 :- Python Programming",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
-        points: "Basic Python",
-        points1: "Advance Python",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
+          points: "Basic Python",
+          points1: "Advance Python",
           content: [
             {
               chap: {
@@ -319,13 +328,13 @@ export const AIMLDataScienceCourseData = [
         Module0: {
           title: " TERM 2 :- Statistics and Machine Learning ",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
-        points: "Statistics",
-        points1: "Machine Learning",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
+          points: "Statistics",
+          points1: "Machine Learning",
           content: [
             {
               chap: {
@@ -376,14 +385,14 @@ export const AIMLDataScienceCourseData = [
         Module0: {
           title: "TERM 3 :- Big Data Analytics and Visualization",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_up.webp",
-        points: "SQL",
-        points1: "MongoDB",
-        points2:"Tableau",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_up.webp",
+          points: "SQL",
+          points1: "MongoDB",
+          points2: "Tableau",
           content: [
             {
               chap: {
@@ -473,13 +482,13 @@ export const AIMLDataScienceCourseData = [
         Module0: {
           title: "TERM 4:- Advance AI and Deployment",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_up.webp",
-        points: "Deep Learning",
-        points1: "(NLP)",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_up.webp",
+          points: "Deep Learning",
+          points1: "(NLP)",
           content: [
             {
               chap: {
@@ -574,12 +583,12 @@ export const AIMLDataScienceCourseData = [
         Module0: {
           title: " TERM 5 :- Essentials",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
-        points: "DSA",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
+          points: "DSA",
           content: [
             {
               chap: {
@@ -614,13 +623,13 @@ export const AIMLDataScienceCourseData = [
         Module0: {
           title: "BONUS :- AI Generative Tools and Future Trends",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
-        points: "Emerging Trends in AI",
-        points1: "NLP and ChatGPT",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
+          points: "Emerging Trends in AI",
+          points1: "NLP and ChatGPT",
           content: [
             {
               chap: {
@@ -879,10 +888,10 @@ export const AIMLDataScienceCourseData = [
             id: 2,
             ques: "Are there any discounts for early registration in the program?   ",
             ans: "",
-            list1:"Group of 2: 5% extra discount           ",
-            list2:"Group of 3: 8% additional discount            ",
-            list3:"Group of 4+: Max 10% discount            ",
-            dscoursefaq1:true,
+            list1: "Group of 2: 5% extra discount           ",
+            list2: "Group of 3: 8% additional discount            ",
+            list3: "Group of 4+: Max 10% discount            ",
+            dscoursefaq1: true,
             open: false,
           },
           {
@@ -901,7 +910,6 @@ export const AIMLDataScienceCourseData = [
             ans: "You must contact and book a counseling session with a career counselor to get details of the course and scholarship schemes. It will be a telephone discussion of 15 – 20 minutes. All the eligible candidates will receive up to a 25% scholarship from Learnbay.             ",
             open: false,
           },
-         
         ],
       },
       {
@@ -946,9 +954,10 @@ export const AIMLDataScienceCourseData = [
             id: 1,
             ques: "What categories of certifications might I expect to receive?",
             ans: "This course offers you two categories of certifications –            ",
-            list1:"Two-Course Completion Certificates from IBM & Microsoft            ",
-            list2:"One Capstone Project Certification from IBM            ",
-            dscoursefaq1:true,
+            list1:
+              "Two-Course Completion Certificates from IBM & Microsoft            ",
+            list2: "One Capstone Project Certification from IBM            ",
+            dscoursefaq1: true,
             open: false,
           },
         ],
