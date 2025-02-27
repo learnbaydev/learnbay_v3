@@ -199,9 +199,9 @@ export const AwsAndDevOpsCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/awscertificate.webp",
         title: "Learnbay Course Completion Certificate",
         para: [
-          "Earn a Learnbay-certified DSA certificate, validating your problem-solving and algorithmic skills for top tech roles.",
-          "Your certification reflects real-world coding experience, demonstrating your ability to tackle DSA challenges.",
-          "Showcase your expertise to recruiters and enhance your resume with a certification that highlights job-ready skills.",
+          "Earn a Learnbay-certified AWS Cloud Computing & DevOps certificate, validating your skills for top tech roles.",
+          "Showcase hands-on experience with cloud platforms and DevOps, proving your ability to manage scalable systems.",
+          "Boost your resume with a certification that highlights your expertise and makes you job-ready.",
         ],
       },
     },
