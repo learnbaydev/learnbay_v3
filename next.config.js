@@ -1507,6 +1507,18 @@ const nextConfig = {
           "/artificial-intelligence/generative-ai-course-for-fullstack-professionals",
         permanent: true,
       },
+      {
+        source: "/fullstack/bangalore/dsa-course-training-bangalore",
+        destination:
+          "/fullstack/dsa-course-training-bangalore",
+        permanent: true,
+      },
+      {
+        source: "/fullstack/pune/dsa-course-training-pune",
+        destination:
+          "/fullstack/dsa-course-training-pune",
+        permanent: true,
+      },
     ];
   },
 };
