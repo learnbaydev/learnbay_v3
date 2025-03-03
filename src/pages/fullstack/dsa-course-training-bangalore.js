@@ -51,7 +51,7 @@ export default function Home() {
 
         <meta
           property="og:url"
-          content="https://www.learnbay.co/fullstack/bangalore/dsa-course-training-bangalore"
+          content="https://www.learnbay.co/fullstack/dsa-course-training-bangalore"
         />
         <meta
           property="og:title"
@@ -90,7 +90,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/fullstack/bangalore/dsa-course-training-bangalore"
+          href="https://www.learnbay.co/fullstack/dsa-course-training-bangalore"
         />
         <meta
           name="copyright"
