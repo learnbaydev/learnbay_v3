@@ -1512,13 +1512,7 @@ const nextConfig = {
         destination:
           "/fullstack/dsa-course-training-bangalore",
         permanent: true,
-      },
-      {
-        source: "/fullstack/pune/dsa-course-training-pune",
-        destination:
-          "/fullstack/dsa-course-training-pune",
-        permanent: true,
-      },
+      }
     ];
   },
 };

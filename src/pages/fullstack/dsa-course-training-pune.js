@@ -92,7 +92,7 @@ export default function Home() {
 
         <meta
           property="og:url"
-          content="https://www.learnbay.co/fullstack/pune/dsa-course-training-pune"
+          content="https://www.learnbay.co/fullstack/dsa-course-training-pune"
         />
         <meta
           property="og:title"
@@ -132,7 +132,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/fullstack/pune/dsa-course-training-pune"
+          href="https://www.learnbay.co/fullstack/dsa-course-training-pune"
 
         />
         <meta
