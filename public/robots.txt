@@ -11,7 +11,9 @@ User-agent: *
 Disallow: /*?utm_*
 Disallow: /*?fbclid*
 Disallow: /*?gclid*
+Disallow: /*?trk*
+Disallow: /*?ref*
 
 Allow: /
 
-Sitemap:https://www.learnbay.co/sitemap.xml
+Sitemap: https://www.learnbay.co/sitemap.xml

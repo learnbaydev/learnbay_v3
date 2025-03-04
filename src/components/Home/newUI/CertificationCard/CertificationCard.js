@@ -113,9 +113,9 @@ const CertificationCard = ({
         {/* Buttons */}
         <div className={styles.buttonGroup}>
           {data.link ? (
-            <Link href={data.link} passHref>
+            <a href={data.link}>
               <button className={styles.viewDetails}>View Details</button>
-            </Link>
+            </a>
           ) : (
             <button disabled className={styles.viewDetails}>
               No Details Available
