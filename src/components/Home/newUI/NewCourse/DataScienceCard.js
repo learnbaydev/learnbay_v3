@@ -139,11 +139,11 @@ const DataScienceCard = ({
                     Brochure <MdOutlineFileDownloadSvg />
                   </button>
                   {course.link ? (
-                    <Link href={course.link} passHref>
+                    <a href={course.link}>
                       <button className={styles.viewDetailsButton}>
                         View Details
                       </button>
-                    </Link>
+                    </a>
                   ) : (
                     <button disabled className={styles.viewDetailsButton}>
                       No Details Available
@@ -219,11 +219,11 @@ const DataScienceCard = ({
                   Brochure <MdOutlineFileDownloadSvg/>
                 </button>
                 {course.link ? (
-                  <Link href={course.link} passHref>
+                  <a href={course.link}>
                     <button className={styles.viewDetailsButton}>
                       View Details
                     </button>
-                  </Link>
+                  </a>
                 ) : (
                   <button disabled className={styles.viewDetailsButton}>
                     No Details Available

@@ -5,7 +5,12 @@ export function middleware(req) {
     {
       source: "/fullstack/pune/dsa-course-training-pune",
       destination: "/fullstack/dsa-course-training-pune",
-      statusCode: 301, // Force 301 Redirect
+      statusCode: 301,
+    },
+    {
+      source: "/fullstack/bangalore/dsa-course-training-bangalore",
+      destination: "/fullstack/dsa-course-training-bangalore",
+      statusCode: 301,
     },
   ];
 
