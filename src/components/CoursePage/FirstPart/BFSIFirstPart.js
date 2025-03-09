@@ -23,22 +23,29 @@ const ContactConsellor = dynamic(() =>
 const CloudDevopsecond = dynamic(() =>
   import("../cloud&devops/DevOpsSecondSection/DevOpsSecondSection")
 );
-const MasterSecondSection  = dynamic(() =>
+const MasterSecondSection = dynamic(() =>
   import("../../MastersCourse/MasterSecondSection/MasterSecondSection")
 );
-const JobAbroad = dynamic(()=>
-import( "../../MastersCourse/JobAbroad/JobAbroad"
-)
+const JobAbroad = dynamic(() =>
+  import("../../MastersCourse/JobAbroad/JobAbroad")
 );
-const Realstory = dynamic (() =>
-import ("../../Home/Realstory/Realstory"));
+const Realstory = dynamic(() => import("../../Home/Realstory/Realstory"));
 
 const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
   const seconddata = [
-    { boldText: "IBM", normalText: "Certified Capstone", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
-    { CboldText: "175%", normalText: "Average Salary Hike", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
-    { boldText: "35K+", normalText: "Trusted Learners", },
-    
+    {
+      boldText: "IBM",
+      normalText: "Certified Capstone",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp",
+    },
+    {
+      CboldText: "175%",
+      normalText: "Average Salary Hike",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp",
+    },
+    { boldText: "35K+", normalText: "Trusted Learners" },
   ];
   const BASecond = {
     title1: "Project-Based Learning",
@@ -81,24 +88,29 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
     title: "Banking on Data: AI Mastery for BFSI    ",
     points: [
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
-        imgAlt: "",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
+        imgAlt: "image",
         title: "Specialise in Bridging Finance with AI Technology   ",
-        description: "Gain specialisation by working on real-time projects        ",
+        description:
+          "Gain specialisation by working on real-time projects        ",
       },
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
-        imgAlt: "",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
+        imgAlt: "image",
         title: "Maximize Your Earning Potential in BFSI Domain  ",
-        description: "Gain skills and earn higher salaries in your dream company        ",
+        description:
+          "Gain skills and earn higher salaries in your dream company        ",
       },
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
-        imgAlt: "",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
+        imgAlt: "image",
         title: "Curriculum inclusive of Gen-AI        ",
-        description: "Tailored for career transformation in a tech-driven era        ",
+        description:
+          "Tailored for career transformation in a tech-driven era        ",
       },
-   
     ],
     bannerImage: {
       src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/BFSI_job.webp",
@@ -109,7 +121,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
-  const pdfUrl = "/Brochure/BFSI.pdf"
+  const pdfUrl = "/Brochure/BFSI.pdf";
   return (
     <>
       <Navbar dataScienceCounselling={true} interstedInHide={true} />
@@ -131,13 +143,20 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         videoId="ecI6FD8ElDs"
         topHide={true}
       />
-         <MasterSecondSection data={seconddata} />
+      <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={BASecond} />
-      <JobAbroad data={JobData} dataScienceCounselling={true}
-        interstedInHide={true}/>
+      <JobAbroad
+        data={JobData}
+        dataScienceCounselling={true}
+        interstedInHide={true}
+      />
       {/* <SecondSection SecondSectionData={SecondSectionData} /> */}
-      <SecondNavbar hideProjectLab={true} dataScienceCounselling={true} interstedInHide={true}/>
-      <Realstory/>
+      <SecondNavbar
+        hideProjectLab={true}
+        dataScienceCounselling={true}
+        interstedInHide={true}
+      />
+      <Realstory />
       <TrainerSection idss="eautK0odE7Q" />
       {/* <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} /> */}
       <WhoIsProgram

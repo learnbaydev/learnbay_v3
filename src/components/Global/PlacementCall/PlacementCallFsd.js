@@ -57,6 +57,7 @@ const PlacementCall = () => {
       <div className={styles.imgsection}>
         <img
           src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/Dedicated-Placement-Cell.gif"
+          alt="placement"
           width={600}
           height={200}
         />

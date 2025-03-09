@@ -21,15 +21,17 @@ const JobAbroad = dynamic(() =>
   import("../../MastersCourse/JobAbroad/JobAbroad")
 );
 
-const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData, summaryData }) => {
- 
+const FullStackSoftwareDevelopmentFirstPart = ({
+  SecondSectionData,
+  summaryData,
+}) => {
   const JobData = {
     title: "Decode Your Tech Carer Path to Competitive Success",
     points: [
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/adobe_illustrator+(1).webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Transform with Coding Expertise",
         description:
           "Build a highly desired software developer/engineer role with our multifaceted training.",
@@ -37,7 +39,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData, summaryData 
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/generated_photos+(1).webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Elevate Your Coding Skills with Real-World Projects",
         description:
           "Exhibit real-time coding mastery to tackle algorithmic ordeals.",
@@ -45,7 +47,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData, summaryData 
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/smart_upscaler+(1).webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "From Novice to Specialist",
         description:
           "Master, from basics to advanced DSA concepts to specify your reign in the tech field. ",
@@ -83,14 +85,14 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData, summaryData 
         interstedInHide={true}
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/sf-f.webp"
         videoId="0cspp1jXAbM"
-            backgorunimg={true}
-      backgroundImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/dsa_backgrounds.webp"
-      microsoftOnly={true}
-      DSA={true}
+        backgorunimg={true}
+        backgroundImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/dsa_backgrounds.webp"
+        microsoftOnly={true}
+        DSA={true}
       />
 
       {/* <MasterSecondSection data={seconddata} /> */}
-      <PSummary summaryData={summaryData}/>
+      <PSummary summaryData={summaryData} />
       <JobAbroad
         data={JobData}
         dataScienceCounselling={true}
@@ -105,10 +107,10 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData, summaryData 
         third="Students pursuing BE/B.Tech, MBA, MCA/M.Tech, B.Sc, CS"
         forth="For individuals seeking coding mastery, programming libraries, and API skills"
       />
-      <AnimationDSA/>
+      <AnimationDSA />
       <GetHire />
       <ContactConsellor
-      GenAi={true}
+        GenAi={true}
         titleCourse="Data Structure Algorithms & System Design"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf"
         brochurePdf={pdfUrl}

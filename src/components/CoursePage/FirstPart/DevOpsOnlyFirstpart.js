@@ -3,30 +3,18 @@ import dynamic from "next/dynamic";
 import CloudDevopsecond from "../cloud&devops/DevOpsSecondSection/DevOpsSecondSection";
 
 // import SecondSection from "@/components/CoursePage/SecondSection/SecondSection";
-const SecondNavbar = dynamic(() =>
-  import("../SecondNavbar/SecondNavbar")
-);
+const SecondNavbar = dynamic(() => import("../SecondNavbar/SecondNavbar"));
 import { ThirdSectionData } from "@/Data/ThirdSectionData";
-const WhoProgram = dynamic(() =>
-  import("../WhoProgram/ThirdSection")
-);
+const WhoProgram = dynamic(() => import("../WhoProgram/ThirdSection"));
 const TrainerSection = dynamic(() =>
   import("../../Global/TrainerSection/TrainerSection")
 );
 const Testimonial = dynamic(() =>
-  import(
-    "../cloud&devops/CloudDevopstestimonial/Clouddevoptestimonials"
-  )
+  import("../cloud&devops/CloudDevopstestimonial/Clouddevoptestimonials")
 );
-const FirstSection = dynamic(() =>
-  import("../FirstSection/FirstSection")
-);
-const WhoIsProgram = dynamic(() =>
-  import("../WhoIsProgram/WhoIsProgram")
-);
-const WhyLearnbay = dynamic(() =>
-  import("../WhyLearnbay/WhyLearnbay")
-);
+const FirstSection = dynamic(() => import("../FirstSection/FirstSection"));
+const WhoIsProgram = dynamic(() => import("../WhoIsProgram/WhoIsProgram"));
+const WhyLearnbay = dynamic(() => import("../WhyLearnbay/WhyLearnbay"));
 const GetHire = dynamic(() => import("../../Home/GetHire/GetHire"));
 const ContactConsellor = dynamic(() =>
   import("../ContactCounsellor/ContactCounsellor")
@@ -34,12 +22,11 @@ const ContactConsellor = dynamic(() =>
 const CloudDevopstestimonials = dynamic(() =>
   import("../cloud&devops/CloudDevopstestimonial/Clouddevoptestimonials")
 );
-const MasterSecondSection  = dynamic(() =>
+const MasterSecondSection = dynamic(() =>
   import("../../MastersCourse/MasterSecondSection/MasterSecondSection")
 );
-const JobAbroad = dynamic(()=>
-import( "../../MastersCourse/JobAbroad/JobAbroad"
-)
+const JobAbroad = dynamic(() =>
+  import("../../MastersCourse/JobAbroad/JobAbroad")
 );
 import { TbCloudComputing } from "react-icons/tb";
 import { PiInfinity } from "react-icons/pi";
@@ -51,10 +38,19 @@ import { BsPeople } from "react-icons/bs";
 
 const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
   const seconddata = [
-    { boldText: "IBM", normalText: "Certified Capstone", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
-    { CboldText: "175%", normalText: "Average Salary Hike", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
-    { boldText: "35K+", normalText: "Trusted Learners", },
-    
+    {
+      boldText: "IBM",
+      normalText: "Certified Capstone",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp",
+    },
+    {
+      CboldText: "175%",
+      normalText: "Average Salary Hike",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp",
+    },
+    { boldText: "35K+", normalText: "Trusted Learners" },
   ];
   const clouddevops = {
     title1: "Project-Based Learning",
@@ -95,24 +91,28 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
     title: "Cloud Mastery for the Modern Tech Professional    ",
     points: [
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
-        imgAlt: "",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
+        imgAlt: "image",
         title: "Master the future in Cloud        ",
         description: "Comprehensive syllabus designed by experts        ",
       },
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
-        imgAlt: "",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
+        imgAlt: "image",
         title: "Flexible Learning at your Convenience        ",
-        description: "For professionals aiming to upskill without quitting their job         ",
+        description:
+          "For professionals aiming to upskill without quitting their job         ",
       },
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
-        imgAlt: "",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
+        imgAlt: "image",
         title: "Transform with Global Standards        ",
-        description: "Globally recognized certificate from IBM & MIcrosoft        ",
+        description:
+          "Globally recognized certificate from IBM & MIcrosoft        ",
       },
-   
     ],
     bannerImage: {
       src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-first-devops-min.webp",
@@ -124,32 +124,35 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
     },
   };
 
-   const pdfUrl ="/Brochure/Cloud-and-Devops.pdf"
+  const pdfUrl = "/Brochure/Cloud-and-Devops.pdf";
   return (
     <>
-    <FirstSection
-          dataScienceCounselling={true}
-          // interstedInHide={true}
-          ThirdTyped="Live Interactive Classes"
-          dataScience={true}
-          titleCourse="Advanced Cloud Computing & DevOps Certification Program"
-          cityParaCont="Build your technical skills to deploy and monitor complex software solutions for an industry-driven tech career. Join Learnbay’s front-age DevOps certification course to gain in-depth learning of proven tools and trends. Learn with us to grab front-tier IT jobs with globally valued IBM & Microsoft certifications.           "
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
-          FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-first-devops-min.webp"
-          firstToparaImg=" Course Online "
-          firstHeading="Best DevOps Certification          "
-          firstTopPara="Crack Interview in top MNCs "
-          idss="gaQYhVPCudQ"
-          brochurePdf={pdfUrl}
-          thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/cd-f.webp"
+      <FirstSection
+        dataScienceCounselling={true}
+        // interstedInHide={true}
+        ThirdTyped="Live Interactive Classes"
+        dataScience={true}
+        titleCourse="Advanced Cloud Computing & DevOps Certification Program"
+        cityParaCont="Build your technical skills to deploy and monitor complex software solutions for an industry-driven tech career. Join Learnbay’s front-age DevOps certification course to gain in-depth learning of proven tools and trends. Learn with us to grab front-tier IT jobs with globally valued IBM & Microsoft certifications.           "
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
+        FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-first-devops-min.webp"
+        firstToparaImg=" Course Online "
+        firstHeading="Best DevOps Certification          "
+        firstTopPara="Crack Interview in top MNCs "
+        idss="gaQYhVPCudQ"
+        brochurePdf={pdfUrl}
+        thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/cd-f.webp"
         // videoId="gaQYhVPCudQ"
-        
+
         S3RightImage={S3RightImage}
-        />
-         <MasterSecondSection data={seconddata} />
+      />
+      <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={clouddevops} showimg={true} shoimgtwo={true} />
-      <JobAbroad data={JobData} dataScienceCounselling={true}
-        interstedInHide={true}/>
+      <JobAbroad
+        data={JobData}
+        dataScienceCounselling={true}
+        interstedInHide={true}
+      />
       {adsHide ? (
         ""
       ) : (
@@ -174,7 +177,12 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
         third="Early to mid-career professionals interested in Cloud & DevOps"
         forth="Achieving higher career growth in Cloud & DevoOps        "
       />
-      <WhyLearnbay idss="ZPOTy4PEnNU" targetjobs={true} CloudContent={true} adsHide={adsHide} />
+      <WhyLearnbay
+        idss="ZPOTy4PEnNU"
+        targetjobs={true}
+        CloudContent={true}
+        adsHide={adsHide}
+      />
       <GetHire />
       {adsHide ? (
         ""

@@ -93,7 +93,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "6 Month Internship Certificate        ",
         description:
           "Earn an internship certificate by working on real-time data science projects.         ",
@@ -101,7 +101,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Final Year Project Assistance        ",
         description:
           "Get Live help from Industry Experts for your final year project        ",
@@ -109,7 +109,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Expert Crafted Curriculum        ",
         description:
           "Tailored for career transformation in a tech-driven era        ",
@@ -124,7 +124,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
-  const pdfUrl = "/Brochure/AI-For-Freshers.pdf"
+  const pdfUrl = "/Brochure/AI-For-Freshers.pdf";
   return (
     <>
       <FirstSection

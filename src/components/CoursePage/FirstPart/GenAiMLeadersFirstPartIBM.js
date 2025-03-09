@@ -26,7 +26,7 @@ const GenAiMLeadersFirstPart = ({ summaryData, whyChooseData }) => {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/adobe_illustrator+(1).webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Master GenAI For Business Transformation",
         description:
           "Learn to harness cutting-edge GenAI tools to solve real-world challenges and lead your organization into the future",
@@ -34,16 +34,15 @@ const GenAiMLeadersFirstPart = ({ summaryData, whyChooseData }) => {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/generated_photos+(1).webp",
-        imgAlt: "",
-        title:
-          "Real-World GenAI Project Portfolio",
+        imgAlt: "image",
+        title: "Real-World GenAI Project Portfolio",
         description:
           "Work on live projects like chatbot creation, workflow automation, and RAG-powered assistants to showcase your expertise.",
       },
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/smart_upscaler+(1).webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Accelerate Your Career Growth",
         description:
           "Leverage advanced GenAI knowledge to drive business success, enhancing career prospects and salary growth.",
@@ -66,34 +65,31 @@ const GenAiMLeadersFirstPart = ({ summaryData, whyChooseData }) => {
         dataScienceCounselling={true}
         interstedInHide={true}
       />
-  
-      <GenAiFirstSection
-       ThirdTyped="Live Interactive Classes"
-       dataScience={true}
-       titleCourse="Curriculum Inclusive of Gen-AI"
-       cityParaCont="Future-Ready Leadership Starts with Generative AI Mastery"
-       brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IBM-GenAI-Managers.pdf"
-       brochurePdf={pdfUrl}
-       FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/fullhead.webp"
-       firstToparaImg=""
-       highlightedWords={["GenAI", "Certification"]}
-       GEnAi={true}
-       firstHeading="GenAI Certification For Managers & Tech Leaders"
-       firstTopPara="Curriculum Inclusive of Gen-AI"
-       idss="0cspp1jXAbM"
-       interstedInHide={true}
-       videoId="0cspp1jXAbM"
-       backgorunimg={true}
 
-       IIT={true}
-       fresher={true}
-       noLogoDemo={true}
-      //  compLogo="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ibm-grays.webp"
-      //  logoWidth={100}
-      //  logoHeight={46}
+      <GenAiFirstSection
+        ThirdTyped="Live Interactive Classes"
+        dataScience={true}
+        titleCourse="Curriculum Inclusive of Gen-AI"
+        cityParaCont="Future-Ready Leadership Starts with Generative AI Mastery"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IBM-GenAI-Managers.pdf"
+        brochurePdf={pdfUrl}
+        FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/fullhead.webp"
+        firstToparaImg=""
+        highlightedWords={["GenAI", "Certification"]}
+        GEnAi={true}
+        firstHeading="GenAI Certification For Managers & Tech Leaders"
+        firstTopPara="Curriculum Inclusive of Gen-AI"
+        idss="0cspp1jXAbM"
+        interstedInHide={true}
+        videoId="0cspp1jXAbM"
+        backgorunimg={true}
+        IIT={true}
+        fresher={true}
+        noLogoDemo={true}
+        //  compLogo="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ibm-grays.webp"
+        //  logoWidth={100}
+        //  logoHeight={46}
         // backgroundImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/iitGen_ones.webp"
-   
-        
       />
 
       {/* <MasterSecondSection data={seconddata} /> */}
@@ -103,21 +99,19 @@ const GenAiMLeadersFirstPart = ({ summaryData, whyChooseData }) => {
         dataScienceCounselling={true}
         interstedInHide={true}
       />
-        <AnimationGEN  whyChooseData={whyChooseData}/>
+      <AnimationGEN whyChooseData={whyChooseData} />
       <TrainerSection idss="eautK0odE7Q" />
-
 
       <WhoIsProgram
         first="For Project Managers, Technical Leaders, and Team Leads in tech."
         second="4+ year of  work experience is required"
         third="Mid-career professionals interested in data science & AII"
         forth="Achieving higher career growth in data science and AI "
-        
       />
-    
+
       <GetHire />
       <ContactConsellor
-  GenAi={true}
+        GenAi={true}
         titleCourse="Data Structure Algorithms & System Design"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IBM-GenAI-Managers.pdf"
         brochurePdf={pdfUrl}

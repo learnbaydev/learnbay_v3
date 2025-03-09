@@ -103,7 +103,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Bridge your Career Gap        ",
         description:
           "Internship certificate that helps you fill your career gap.         ",
@@ -111,7 +111,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Flexible Learning at your Convenience        ",
         description:
           "For professionals aiming to upskill without quitting their job.",
@@ -119,7 +119,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Curriculum Inclusive of Gen-AI        ",
         description: "Tailored for career transformation in a tech-driven era",
       },

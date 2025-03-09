@@ -4,7 +4,7 @@ import Image from "next/image";
 import PopupContent from "@/components/Global/PopupContent/PopupContent";
 import Button from "@/components/Global/Button/Button";
 
-const BookDemo = ({ interstedInHide,dataScienceCounselling}) => {
+const BookDemo = ({ interstedInHide, dataScienceCounselling }) => {
   const [popups, setPopups] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const [connectorDimensions, setConnectorDimensions] = useState({
@@ -94,14 +94,14 @@ const BookDemo = ({ interstedInHide,dataScienceCounselling}) => {
   return (
     <section className={styles.demoContainer}>
       <PopupContent
-                      popups={popups}
-                      setPopups={setPopups}
-                      heading="Request For Demo Session"
-                      DSADemoSession={true}
-                      interstedInHide={interstedInHide}
-                      upSkillingHide={true}
-                      dataScienceCounselling={dataScienceCounselling}
-                    />
+        popups={popups}
+        setPopups={setPopups}
+        heading="Request For Demo Session"
+        DSADemoSession={true}
+        interstedInHide={interstedInHide}
+        upSkillingHide={true}
+        dataScienceCounselling={dataScienceCounselling}
+      />
       <div className="width">
         <div className={styles.contentsWrapper}>
           <div className={styles.leftSection}>
@@ -122,6 +122,7 @@ const BookDemo = ({ interstedInHide,dataScienceCounselling}) => {
                     height={connectorDimensions.height}
                     quality={100}
                     loading="lazy"
+                    alt="Horizontal Connector"
                   />
                 </div>
               )}
@@ -138,16 +139,26 @@ const BookDemo = ({ interstedInHide,dataScienceCounselling}) => {
               )}
               <div className={styles.demoPoint}>
                 <div className={styles.PathStepsImg}>
-                  <Image src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/PathSteps.webp" width={40} height={40} />
+                  <Image
+                    src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/PathSteps.webp"
+                    width={40}
+                    height={40}
+                    alt="Path Steps"
+                  />
                 </div>
                 <div className={styles.pointWrapper}>
-                <p>Career</p>
-                <p>Roadmap</p>
+                  <p>Career</p>
+                  <p>Roadmap</p>
                 </div>
               </div>
               <div className={styles.demoPoint}>
                 <div className={styles.ClassroomImg}>
-                  <Image src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Classroom.webp" width={40} height={40} />
+                  <Image
+                    src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Classroom.webp"
+                    width={40}
+                    alt="Classroom"
+                    height={40}
+                  />
                 </div>
                 <div className={styles.pointWrapper}>
                   <p>Interact</p>
@@ -156,11 +167,16 @@ const BookDemo = ({ interstedInHide,dataScienceCounselling}) => {
               </div>
               <div className={styles.demoPoint}>
                 <div className={styles.LaptopCodingImg}>
-                  <Image src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/LaptopCoding.webp" width={40} height={40} />
+                  <Image
+                    src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/LaptopCoding.webp"
+                    width={40}
+                    height={40}
+                    alt="Laptop Coding"
+                  />
                 </div>
                 <div className={styles.pointWrapper}>
-                <p>Interview</p>
-                <p>Guidance</p>
+                  <p>Interview</p>
+                  <p>Guidance</p>
                 </div>
               </div>
             </div>
@@ -176,6 +192,7 @@ const BookDemo = ({ interstedInHide,dataScienceCounselling}) => {
               width={430}
               height={530}
               quality={100}
+              alt="Book Demo"
               priority
             />
             {isMobile && (

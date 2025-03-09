@@ -19,11 +19,7 @@ const CloudDevopsecond = dynamic(() =>
     "../../CoursePage/cloud&devops/DevOpsSecondSection/DevOpsSecondSection"
   )
 );
-const Realstory = dynamic(() =>
-  import(
-    "../../Home/Realstory/Realstory"
-  )
-);
+const Realstory = dynamic(() => import("../../Home/Realstory/Realstory"));
 import { FaReact } from "react-icons/fa";
 import { TbBrandGoogleAnalytics } from "react-icons/tb";
 import { BsPersonGear } from "react-icons/bs";
@@ -32,18 +28,21 @@ import { AiOutlineContainer } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsPeople } from "react-icons/bs";
 import WhoIsProgram from "../WhoIsProgram/WhoIsProgram";
-const ExecutiveFirstPart = ({
-  TestimonialData,
-  WolfLink,
-  formbtn,
-
-
-}) => {
+const ExecutiveFirstPart = ({ TestimonialData, WolfLink, formbtn }) => {
   const seconddata = [
-    { boldText: "IBM", normalText: "Certified Capstone", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
-    { CboldText: "175%", normalText: "Average Salary Hike", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
-    { boldText: "35K+", normalText: "Trusted Learners", },
-    
+    {
+      boldText: "IBM",
+      normalText: "Certified Capstone",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp",
+    },
+    {
+      CboldText: "175%",
+      normalText: "Average Salary Hike",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp",
+    },
+    { boldText: "35K+", normalText: "Trusted Learners" },
   ];
   const DsSecond = {
     title1: "Domain Specialization",
@@ -89,7 +88,7 @@ const ExecutiveFirstPart = ({
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Comprehensive Mastery of AI and Data Science:     ",
         description:
           "Gain in-depth knowledge and practical skills in AI and Data Science     ",
@@ -97,7 +96,7 @@ const ExecutiveFirstPart = ({
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Complimentary Advance Gen-AI Module     ",
         description:
           "Tailored for career transformation in a tech-driven era      ",
@@ -105,10 +104,9 @@ const ExecutiveFirstPart = ({
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "3 years of Job and Placement support     ",
-        description:
-          "Online and flexible, ideal for busy professionals:      ",
+        description: "Online and flexible, ideal for busy professionals:      ",
       },
     ],
     bannerImage: {
@@ -120,7 +118,7 @@ const ExecutiveFirstPart = ({
       alt: "Banner Image 1 Alt",
     },
   };
-  const pdfUrl = "/Brochure/Iit-Data-Analytics-Certifications.pdf"
+  const pdfUrl = "/Brochure/Iit-Data-Analytics-Certifications.pdf";
   return (
     <>
       {" "}
@@ -149,19 +147,13 @@ const ExecutiveFirstPart = ({
         isSpecialPage={true}
         isGuwahati={true}
         backgroundImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/iit-background.webp"
-IIT={true}
-
-
+        IIT={true}
       />
       <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={DsSecond} />
-      <JobAbroad
-        data={JobData}
-
-      />
+      <JobAbroad data={JobData} />
       <SecondNavbar dataScienceCounselling={true} />
       <Realstory />
-
       <TrainerSection idss="eautK0odE7Q" />
       {/* <Testimonial redirectDS={true} Testimonial={TestimonialData} /> */}
       <WhoIsProgram

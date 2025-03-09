@@ -23,22 +23,29 @@ const ContactConsellor = dynamic(() =>
 const CloudDevopsecond = dynamic(() =>
   import("../cloud&devops/DevOpsSecondSection/DevOpsSecondSection")
 );
-const MasterSecondSection  = dynamic(() =>
+const MasterSecondSection = dynamic(() =>
   import("../../MastersCourse/MasterSecondSection/MasterSecondSection")
 );
-const JobAbroad = dynamic(()=>
-import( "../../MastersCourse/JobAbroad/JobAbroad"
-)
+const JobAbroad = dynamic(() =>
+  import("../../MastersCourse/JobAbroad/JobAbroad")
 );
-const Realstory = dynamic (() =>
-import ("../../Home/Realstory/Realstory"));
+const Realstory = dynamic(() => import("../../Home/Realstory/Realstory"));
 
 const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
   const seconddata = [
-    { boldText: "IBM", normalText: "Certified Capstone", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
-    { CboldText: "175%", normalText: "Average Salary Hike", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
-    { boldText: "35K+", normalText: "Trusted Learners", },
-    
+    {
+      boldText: "IBM",
+      normalText: "Certified Capstone",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp",
+    },
+    {
+      CboldText: "175%",
+      normalText: "Average Salary Hike",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp",
+    },
+    { boldText: "35K+", normalText: "Trusted Learners" },
   ];
   const BASecond = {
     title1: "Project-Based Learning",
@@ -61,7 +68,11 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         role: "Medical Data Scientist",
         salary: " 12-20 LPA",
       },
-      { icon: <BsDatabaseUp />, role: "Telemedicine Analyst", salary: " 20-25 LPA" },
+      {
+        icon: <BsDatabaseUp />,
+        role: "Telemedicine Analyst",
+        salary: " 20-25 LPA",
+      },
     ],
     image3:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/health-bottom.webp",
@@ -81,24 +92,27 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
     title: "Lead the Future of Healthcare with AI Expertise",
     points: [
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
-        imgAlt: "",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
+        imgAlt: "image",
         title: "Stand Out in Healthcare with Innovative Analytics Skills",
         description: "Gain specialisation by working on real-time projects",
       },
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
-        imgAlt: "",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
+        imgAlt: "image",
         title: "Curriculum inclusive of Gen-AI",
         description: "Designed for career advancement in a tech-driven era",
       },
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
-        imgAlt: "",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
+        imgAlt: "image",
         title: "Online Classes with Flexible Learning Options",
-        description: "Learning experience that fits the schedule of Healthcare Professionals",
+        description:
+          "Learning experience that fits the schedule of Healthcare Professionals",
       },
-   
     ],
     bannerImage: {
       src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/health-right-side.webp",
@@ -109,7 +123,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
-      const pdfUrl = "/Brochure/Healthcare-Pharma-and-Clinical-Research-domain.pdf"
+  const pdfUrl = "/Brochure/Healthcare-Pharma-and-Clinical-Research-domain.pdf";
   return (
     <>
       <Navbar dataScienceCounselling={true} interstedInHide={true} />
@@ -131,13 +145,20 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         videoId="dB3WSmDx6OE"
         topHide={true}
       />
-         <MasterSecondSection data={seconddata} />
+      <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={BASecond} />
-      <JobAbroad data={JobData} dataScienceCounselling={true}
-        interstedInHide={true}/>
+      <JobAbroad
+        data={JobData}
+        dataScienceCounselling={true}
+        interstedInHide={true}
+      />
       {/* <SecondSection SecondSectionData={SecondSectionData} /> */}
-      <SecondNavbar hideProjectLab={true} dataScienceCounselling={true} interstedInHide={true}/>
-      <Realstory/>
+      <SecondNavbar
+        hideProjectLab={true}
+        dataScienceCounselling={true}
+        interstedInHide={true}
+      />
+      <Realstory />
       <TrainerSection idss="eautK0odE7Q" />
       {/* <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} /> */}
       <WhoIsProgram

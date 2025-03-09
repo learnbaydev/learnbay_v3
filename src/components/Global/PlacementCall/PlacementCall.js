@@ -395,6 +395,7 @@ const PlacementCall = ({
                           height={200}
                           loading="lazy"
                           quality={40}
+                          alt="Deidicated Placement Cell"
                         />
                       </div>
                       <div className={styles.stttt}>
@@ -463,6 +464,7 @@ const PlacementCall = ({
                               height={200}
                               loading="lazy"
                               quality={40}
+                              alt="Deidicated Placement Cell"
                             />
                           </div>
                           <div className={styles.stttt}>
@@ -534,6 +536,7 @@ const PlacementCall = ({
                                   height={200}
                                   loading="lazy"
                                   quality={40}
+                                  alt="Deidicated Placement Cell"
                                 />
                               </div>
                               <div className={styles.stttt}>
@@ -603,6 +606,7 @@ const PlacementCall = ({
                                   height={200}
                                   loading="lazy"
                                   quality={40}
+                                  alt="Deidicated Placement Cell"
                                 />
                               </div>
                               <div className={styles.stttt}>

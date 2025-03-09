@@ -96,7 +96,7 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Gain cutting-edge skills in AI and Machine Learning        ",
         description:
           "Expert crafted curriculum that readies you for advanced AI ML job roles        ",
@@ -104,7 +104,7 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Maximize Your Earning Potential        ",
         description:
           "Gain skills and earn higher salaries in the booming AI & ML industry        ",
@@ -112,7 +112,7 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Curriculum inclusive of Gen-AI        ",
         description:
           "Tailored for career transformation in a tech-driven era        ",

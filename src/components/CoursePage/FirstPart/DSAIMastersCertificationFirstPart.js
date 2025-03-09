@@ -93,7 +93,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Comprehensive Mastery of AI and Data Science:        ",
         description:
           "Gain in-depth knowledge and practical skills in AI and Data Science        ",
@@ -101,7 +101,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Complimentary Advance Gen-AI Module        ",
         description:
           "Tailored for career transformation in a tech-driven era        ",
@@ -109,7 +109,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "3 years of Job and Placement support        ",
         description:
           "Online and flexible, ideal for busy professionals:        ",
@@ -175,7 +175,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       />
       <WhyLearnbay idss="ZPOTy4PEnNU" />
       <GetHire />
-      
+
       <ContactConsellor
         dataScience={true}
         interstedInHide={true}

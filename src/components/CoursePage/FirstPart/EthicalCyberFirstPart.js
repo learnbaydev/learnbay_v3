@@ -26,7 +26,7 @@ const EthicalCyberFirstPart = ({ summaryData, whyChooseData }) => {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/generated_photos+(1).webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Full stack Cybersecurity Certification",
         description:
           "Learn Cybersecurity and Ethical Hacking with real-world projects. Mastering these skills helps to protect and secure system against threats.",
@@ -34,16 +34,15 @@ const EthicalCyberFirstPart = ({ summaryData, whyChooseData }) => {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/adobe_illustrator+(1).webp",
-        imgAlt: "",
-        title:
-          "Master GenAI Skills for Cybersecurity",
+        imgAlt: "image",
+        title: "Master GenAI Skills for Cybersecurity",
         description:
           "By integrating GenAI into our programs, we ensure that our learners are well-prepared to lead and innovate in their respective fields.",
       },
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/smart_upscaler+(1).webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Accelerate Your Career Growth",
         description:
           "Leverage advanced GenAI knowledge to drive business success, enhancing career prospects and salary growth.",
@@ -67,7 +66,6 @@ const EthicalCyberFirstPart = ({ summaryData, whyChooseData }) => {
         interstedInHide={true}
       />
       <GenAiFirstSection
-
         ThirdTyped="Live Interactive Classes"
         dataScience={true}
         dataScienceCounselling={true}
@@ -89,12 +87,10 @@ const EthicalCyberFirstPart = ({ summaryData, whyChooseData }) => {
         backgroundImage="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cyber-backs.webp"
         cyber={true}
         logoWidth={200}
-logoHeight={20}
-cyberTitle="Advance Certification in "
-cyberTitleSpan=" Cyber Security & Ethical Hacking"
-compLogo="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ec-mcs.webp"
-
-
+        logoHeight={20}
+        cyberTitle="Advance Certification in "
+        cyberTitleSpan=" Cyber Security & Ethical Hacking"
+        compLogo="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ec-mcs.webp"
       />
 
       {/* <MasterSecondSection data={seconddata} /> */}
@@ -104,7 +100,7 @@ compLogo="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ec-mcs.w
         dataScienceCounselling={true}
         interstedInHide={true}
       />
-        <AnimationGEN whyChooseData={whyChooseData}  cyber={true}/>
+      <AnimationGEN whyChooseData={whyChooseData} cyber={true} />
       <TrainerSection idss="eautK0odE7Q" />
 
       <WhoIsProgram
@@ -113,10 +109,10 @@ compLogo="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ec-mcs.w
         third="Entry to Mid Level Professionals with 1+ Years of Experience"
         forth="Achieving higher career growth in data science and AI"
       />
-    
+
       <GetHire />
       <ContactConsellor
-  GenAi={true}
+        GenAi={true}
         titleCourse="Cyber Security & Ethical Hacking"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance-Cyber-security.pdf"
         brochurePdf={pdfUrl}

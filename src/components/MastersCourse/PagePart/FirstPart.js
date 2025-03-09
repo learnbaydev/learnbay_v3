@@ -21,11 +21,7 @@ const CloudDevopsecond = dynamic(() =>
     "../../CoursePage/cloud&devops/DevOpsSecondSection/DevOpsSecondSection"
   )
 );
-const Realstory = dynamic(() =>
-  import(
-    "../../Home/Realstory/Realstory"
-  )
-);
+const Realstory = dynamic(() => import("../../Home/Realstory/Realstory"));
 import { FaReact } from "react-icons/fa";
 import { TbBrandGoogleAnalytics } from "react-icons/tb";
 import { BsPersonGear } from "react-icons/bs";
@@ -33,13 +29,7 @@ import { BsDisplay } from "react-icons/bs";
 import { AiOutlineContainer } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsPeople } from "react-icons/bs";
-const FirstPart = ({
-  TestimonialData,
-  WolfLink,
-  formbtn,
-
- 
-}) => {
+const FirstPart = ({ TestimonialData, WolfLink, formbtn }) => {
   const seconddata = [
     {
       boldText: "60+",
@@ -99,7 +89,7 @@ const FirstPart = ({
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Earn a Degree Without Pausing Your Career        ",
         description:
           "Flexible online degrees from LearnBay's ExcelVarsity for working pros.       ",
@@ -107,7 +97,7 @@ const FirstPart = ({
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Skill Up for Swift Promotions       ",
         description:
           "Curriculum designed for rapid career advancement and leadership roles.       ",
@@ -115,7 +105,7 @@ const FirstPart = ({
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Step into High-Value Research Careers        ",
         description:
           "Degree for prestigious research jobs and institutional collaborations.        ",
@@ -130,7 +120,7 @@ const FirstPart = ({
       alt: "Banner Image 1 Alt",
     },
   };
-    const pdfUrl = "/Brochure/Masters-in-CS.pdf"
+  const pdfUrl = "/Brochure/Masters-in-CS.pdf";
   return (
     <>
       {" "}
@@ -146,19 +136,12 @@ const FirstPart = ({
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/coursepageB.webp"
         firstToparaImg="with domain specialization"
         firstHeading="Advanced Data Science and AI Program"
-        
       />
       <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={DsSecond} />
-      <JobAbroad
-        data={JobData}
-        WolfLink={WolfLink}
-        formbtn={formbtn}
-      
-        
-      />
+      <JobAbroad data={JobData} WolfLink={WolfLink} formbtn={formbtn} />
       <SecondNavbar dataScienceCounselling={true} />
-      <Realstory/>
+      <Realstory />
       <TrainerSection idss="eautK0odE7Q" />
       {/* <Testimonial redirectDS={true} Testimonial={TestimonialData} /> */}
       <WhyLearnbay idss="ZPOTy4PEnNU" />

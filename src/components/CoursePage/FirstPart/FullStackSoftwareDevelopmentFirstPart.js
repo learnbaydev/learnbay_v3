@@ -17,44 +17,56 @@ const GetHire = dynamic(() => import("../../Home/GetHire/GetHire"));
 const ContactConsellor = dynamic(() =>
   import("../../CoursePage/ContactCounsellor/ContactCounsellor")
 );
-const MasterSecondSection  = dynamic(() =>
+const MasterSecondSection = dynamic(() =>
   import("../../MastersCourse/MasterSecondSection/MasterSecondSection")
 );
-const JobAbroad = dynamic(()=>
-import( "../../MastersCourse/JobAbroad/JobAbroad"
-)
+const JobAbroad = dynamic(() =>
+  import("../../MastersCourse/JobAbroad/JobAbroad")
 );
 
 const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData }) => {
-
   const seconddata = [
-    { boldText: "IBM", normalText: "Certified Capstone", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
-    { CboldText: "175%", normalText: "Average Salary Hike", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
-    { boldText: "35K+", normalText: "Trusted Learners", },
-    
+    {
+      boldText: "IBM",
+      normalText: "Certified Capstone",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp",
+    },
+    {
+      CboldText: "175%",
+      normalText: "Average Salary Hike",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp",
+    },
+    { boldText: "35K+", normalText: "Trusted Learners" },
   ];
   const JobData = {
     title: "Code Your Career Path To Success    ",
     points: [
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
-        imgAlt: "",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
+        imgAlt: "image",
         title: "Transform with Top Tech Skills        ",
-        description: "Become a sought-after software developer with our expert-led training.         ",
+        description:
+          "Become a sought-after software developer with our expert-led training.         ",
       },
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
-        imgAlt: "",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
+        imgAlt: "image",
         title: "Practice Real-time projects in industry setting        ",
-        description: "Dive into realt-time projects that solve real-world problems.         ",
+        description:
+          "Dive into realt-time projects that solve real-world problems.         ",
       },
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
-        imgAlt: "",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
+        imgAlt: "image",
         title: "From Novice to Expert        ",
-        description: "Learn from basics to advanced software development techniques.        ",
+        description:
+          "Learn from basics to advanced software development techniques.        ",
       },
-   
     ],
     bannerImage: {
       src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job1.webp",
@@ -65,7 +77,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
-     const pdfUrl = "/Brochure/Software-Developer-Certification.pdf"
+  const pdfUrl = "/Brochure/Software-Developer-Certification.pdf";
   return (
     <div>
       <Navbar
@@ -87,14 +99,16 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData }) => {
         firstHeading="Software Development "
         firstTopPara="Crack Interview in Top MNCs"
         idss="0cspp1jXAbM"
- 
         interstedInHide={true}
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/sf-f.webp"
         videoId="0cspp1jXAbM"
       />
       <MasterSecondSection data={seconddata} />
-      <JobAbroad data={JobData} dataScienceCounselling={true}
-        interstedInHide={true}/>
+      <JobAbroad
+        data={JobData}
+        dataScienceCounselling={true}
+        interstedInHide={true}
+      />
       {/* <SecondSection SecondSectionData={SecondSectionData} /> */}
 
       {/* <WhoProgram

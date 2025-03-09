@@ -27,7 +27,7 @@ const GenAiProFirstPartIBM = ({ summaryData, whyChooseData }) => {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/adobe_illustrator+(1).webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Master GenAI Tools + Frameworks",
         description:
           "Learn OpenAI APIs, LangChain, Hugging Face, and more to build intelligent applications effortlessly.",
@@ -35,16 +35,15 @@ const GenAiProFirstPartIBM = ({ summaryData, whyChooseData }) => {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/generated_photos+(1).webp",
-        imgAlt: "",
-        title:
-          "Real-World GenAI Project Portfolio",
+        imgAlt: "image",
+        title: "Real-World GenAI Project Portfolio",
         description:
           "Work on live projects like chatbot creation, workflow automation, and RAG-powered assistants to showcase your expertise.",
       },
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/smart_upscaler+(1).webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Higher Earning Potential",
         description:
           "Leverage advanced GenAI knowledge to drive business success, enhancing career prospects and salary growth.",
@@ -100,21 +99,19 @@ const GenAiProFirstPartIBM = ({ summaryData, whyChooseData }) => {
         dataScienceCounselling={true}
         interstedInHide={true}
       />
-        <AnimationGEN  whyChooseData={whyChooseData}/>
+      <AnimationGEN whyChooseData={whyChooseData} />
       <TrainerSection idss="eautK0odE7Q" />
-   
 
       <WhoIsProgram
         first="Graduation/Masters Degree in CS/IT and MCA."
         second="2+ year of  work experience is required"
         third="Mid-career professionals interested in Advance GenAI"
         forth="Achieving higher career growth in  AI."
-        
       />
-    
+
       <GetHire />
       <ContactConsellor
-  GenAi={true}
+        GenAi={true}
         titleCourse="Data Structure Algorithms & System Design"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IBM-GenAI-Developers.pdf"
         brochurePdf={pdfUrl}
