@@ -90,14 +90,14 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Expert Crafted Curriculum        ",
         description: "Syllabus designed by top tech-industry experts         ",
       },
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Flexible Learning at your Convenience",
         description:
           "Designed for professionals aiming to upskill without quitting their job        ",
@@ -105,7 +105,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "100% Job Assistance Program",
         description:
           "Get a boost in your career with guaranteed 4 interview calls",
@@ -120,7 +120,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
-  const pdfUrl ="/Brochure/Data-Science-Foundation-Program.pdf"
+  const pdfUrl = "/Brochure/Data-Science-Foundation-Program.pdf";
   return (
     <>
       <FirstSection

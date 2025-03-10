@@ -9,7 +9,6 @@ const TrainerSection = dynamic(() =>
   import("../../Global/TrainerSection/TrainerSection")
 );
 
-
 const GetHire = dynamic(() => import("../../Home/GetHire/GetHire"));
 const ContactConsellor = dynamic(() =>
   import("../ContactCounsellor/ContactCounsellor")
@@ -26,7 +25,7 @@ const IITCloudDevopsFirstPart = ({ summaryData, whyChooseData }) => {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/adobe_illustrator+(1).webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Full stack Cloud Mastery For Professionals ",
         description:
           "Learn  AWS, GCP, and Azure with end-to-end real projects. Mastering these skills helps you to manage, deploy, and scale cloud-based applications",
@@ -34,16 +33,15 @@ const IITCloudDevopsFirstPart = ({ summaryData, whyChooseData }) => {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/generated_photos+(1).webp",
-        imgAlt: "",
-        title:
-          "Master GenAI Skills for Cloud and Devops",
+        imgAlt: "image",
+        title: "Master GenAI Skills for Cloud and Devops",
         description:
           "By integrating GenAI into our programs, we ensure that our learners are well-prepared to lead and innovate in their respective fields.",
       },
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/smart_upscaler+(1).webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Accelerate Your Career Growth",
         description:
           "Leverage advanced GenAI knowledge to drive business success, enhancing career prospects and salary growth.",
@@ -89,7 +87,7 @@ const IITCloudDevopsFirstPart = ({ summaryData, whyChooseData }) => {
         devopsIIt={true}
         compLogo="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp"
         logoWidth={180}
-logoHeight={50}
+        logoHeight={50}
       />
 
       {/* <MasterSecondSection data={seconddata} /> */}
@@ -99,9 +97,8 @@ logoHeight={50}
         dataScienceCounselling={true}
         interstedInHide={true}
       />
-        <AnimationGEN  whyChooseData={whyChooseData}/>
+      <AnimationGEN whyChooseData={whyChooseData} />
       <TrainerSection idss="eautK0odE7Q" />
-  
 
       {/* <WhoIsProgram
         first="BE/B.Tech, MBA, MCA/M.Tech, B.Sc, CS"
@@ -109,10 +106,10 @@ logoHeight={50}
         third="Students pursuing BE/B.Tech, MBA, MCA/M.Tech, B.Sc, CS"
         forth="For individuals seeking coding mastery, programming libraries, and API skills"
       /> */}
-    
+
       <GetHire />
       <ContactConsellor
-  GenAi={true}
+        GenAi={true}
         titleCourse="Data Structure Algorithms & System Design"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IIT-cloud-devops.pdf"
         brochurePdf={pdfUrl}

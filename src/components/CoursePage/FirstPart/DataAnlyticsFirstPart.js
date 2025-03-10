@@ -96,7 +96,7 @@ const DataAnlyticsFirstPart = ({
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "From Beginner to Data Master        ",
         description:
           "Become an expert data professional & gain in-demand analytics skills.",
@@ -104,7 +104,7 @@ const DataAnlyticsFirstPart = ({
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Flexible Learning at your Convenience        ",
         description:
           "Designed for professionals aiming to upskill without quitting their job        ",
@@ -112,7 +112,7 @@ const DataAnlyticsFirstPart = ({
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Achieve Your Dream Role        ",
         description:
           "Get your dream salary package in your dream company        ",
@@ -127,7 +127,7 @@ const DataAnlyticsFirstPart = ({
       alt: "Banner Image 1 Alt",
     },
   };
-    const pdfUrl = "/Brochure/Data-Analytics-Certification.pdf"
+  const pdfUrl = "/Brochure/Data-Analytics-Certification.pdf";
   return (
     <>
       <Navbar dataScienceCounselling={true} interstedInHide={true} />

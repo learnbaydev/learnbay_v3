@@ -23,23 +23,30 @@ const ContactConsellor = dynamic(() =>
 const CloudDevopsecond = dynamic(() =>
   import("../cloud&devops/DevOpsSecondSection/DevOpsSecondSection")
 );
-const MasterSecondSection  = dynamic(() =>
+const MasterSecondSection = dynamic(() =>
   import("../../MastersCourse/MasterSecondSection/MasterSecondSection")
 );
 
-const JobAbroad = dynamic(()=>
-import( "../../MastersCourse/JobAbroad/JobAbroad"
-)
+const JobAbroad = dynamic(() =>
+  import("../../MastersCourse/JobAbroad/JobAbroad")
 );
-const Realstory = dynamic (() =>
-import ("../../Home/Realstory/Realstory"));
+const Realstory = dynamic(() => import("../../Home/Realstory/Realstory"));
 
 const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
   const seconddata = [
-    { boldText: "IBM", normalText: "Certified Capstone", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp" },
-    { CboldText: "175%", normalText: "Average Salary Hike", imageUrl: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp" },
-    { boldText: "35K+", normalText: "Trusted Learners", },
-    
+    {
+      boldText: "IBM",
+      normalText: "Certified Capstone",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review1.webp",
+    },
+    {
+      CboldText: "175%",
+      normalText: "Average Salary Hike",
+      imageUrl:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/review2.webp",
+    },
+    { boldText: "35K+", normalText: "Trusted Learners" },
   ];
   const BASecond = {
     title1: "Project-Based Learning",
@@ -86,24 +93,29 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
     title: "Revolutionize Marketing with Data-Driven Strategies",
     points: [
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
-        imgAlt: "",
-        title: "Master Data-Driven Marketing Strategies:"        ,
-        description: "Specialise in leveraging data for strategic marketing decisions        ",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
+        imgAlt: "image",
+        title: "Master Data-Driven Marketing Strategies:",
+        description:
+          "Specialise in leveraging data for strategic marketing decisions        ",
       },
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
-        imgAlt: "",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
+        imgAlt: "image",
         title: "Curriculum inclusive of Gen-AI        ",
-        description: "Tailored for career transformation in a tech-driven era        ",
+        description:
+          "Tailored for career transformation in a tech-driven era        ",
       },
       {
-        imgSrc: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
-        imgAlt: "",
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
+        imgAlt: "image",
         title: "Flexible Online Learning for Modern Marketers:        ",
-        description: "Learn at your own pace, ideal for the busy marketing professionals        ",
+        description:
+          "Learn at your own pace, ideal for the busy marketing professionals        ",
       },
-   
     ],
     bannerImage: {
       src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Market_job.webp",
@@ -114,7 +126,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
-const pdfUrl = "/Brochure/marketing-analytics.pdf"
+  const pdfUrl = "/Brochure/marketing-analytics.pdf";
   return (
     <>
       <Navbar dataScienceCounselling={true} interstedInHide={true} />
@@ -135,16 +147,21 @@ const pdfUrl = "/Brochure/marketing-analytics.pdf"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/MarketingHeader-min.webp"
         videoId="W-WSqLl8_5o"
         topHide={true}
-
-      
       />
       <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={BASecond} />
-      <JobAbroad data={JobData} dataScienceCounselling={true}
-        interstedInHide={true}/>
+      <JobAbroad
+        data={JobData}
+        dataScienceCounselling={true}
+        interstedInHide={true}
+      />
       {/* <SecondSection SecondSectionData={SecondSectionData} /> */}
-      <SecondNavbar hideProjectLab={true} dataScienceCounselling={true} interstedInHide={true} />
-      <Realstory/>
+      <SecondNavbar
+        hideProjectLab={true}
+        dataScienceCounselling={true}
+        interstedInHide={true}
+      />
+      <Realstory />
       <TrainerSection idss="eautK0odE7Q" />
       {/* <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} /> */}
       <WhoIsProgram

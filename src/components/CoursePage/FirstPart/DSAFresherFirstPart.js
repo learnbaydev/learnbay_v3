@@ -32,7 +32,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/adobe_illustrator+(1).webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Placement Prep For Top MNCs",
         description:
           "Improve Your Problem-Solving Skills with DSA & Aim for Top Tech Companies.",
@@ -40,7 +40,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/generated_photos+(1).webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Live Interactive Sessions",
         description:
           "Hands-on coding sessions and Companywise Interview Preparation.",
@@ -48,7 +48,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/smart_upscaler+(1).webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Instructors from MAANG",
         description:
           "Learn from professionals with extensive teaching experience.",

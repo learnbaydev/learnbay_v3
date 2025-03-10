@@ -110,7 +110,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title:
           "Integrate AI and Data Science in Strategic Decision-Making:        ",
         description:
@@ -119,7 +119,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Customized for Leaders and Managers:        ",
         description:
           "Specially crafted curriculum for project managers and team leads.          ",
@@ -127,7 +127,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Flexible Online Format for Executive Learners:        ",
         description:
           "Study at your own pace, designed for the busy schedules of executives.        ",

@@ -105,14 +105,14 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Master the future in Cloud        ",
         description: "Comprehensive syllabus designed by experts        ",
       },
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Flexible Learning at your Convenience        ",
         description:
           "For professionals aiming to upskill without quitting their job         ",
@@ -120,7 +120,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Transform with Global Standards        ",
         description:
           "Globally recognized certificate from IBM & MIcrosoft        ",

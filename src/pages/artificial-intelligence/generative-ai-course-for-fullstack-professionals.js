@@ -4,9 +4,6 @@ import { parseJSONData } from "@/Util/JsonConvertor";
 import GenAiProFirstPart from "@/components/CoursePage/FirstPart/GenAiProFirstPart";
 import GenAiProSecondPart from "@/components/CoursePage/FirstPart/GenAiProSecondPart";
 
-
-
-
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
   const JobData = {
@@ -15,7 +12,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "Transform with Coding Expertise",
         description:
           "Build a highly desired software developer/engineer role with our multifaceted training.",
@@ -23,7 +20,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title:
           "Learn and Practice with Real-time coding projects in an industry-leading setup",
         description:
@@ -32,7 +29,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
-        imgAlt: "",
+        imgAlt: "image",
         title: "From Novice to Specialist",
         description:
           "Master, from basics to advanced DSA concepts to specify your reign in the tech field. ",
@@ -50,18 +47,20 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>Advance Gen AI Developer Course for Professionals | Learnbay </title>
+        <title>
+          Advance Gen AI Developer Course for Professionals | Learnbay{" "}
+        </title>
         <meta
           name="description"
           content="Join Learnbay's Advance Gen AI Developer course. Develop cutting-edge AI solutions and take your career to the next level with hands-on learning."
         />
-      
+
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
           content="generative ai course online, generative ai course, generative ai courses, gen ai developer course, gen ai course online, advance gen ai program, gen ai course for professionals, advance gen ai course for professionals, advance generative ai course, generative ai course for professionals"
         />
-        
+
         <link
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
@@ -70,7 +69,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
           rel="canonical"
           href="https://www.learnbay.co/artificial-intelligence/generative-ai-course-for-fullstack-professionals"
         />
-           <meta
+        <meta
           property="og:url"
           content="https://www.learnbay.co/artificial-intelligence/generative-ai-course-for-fullstack-professionals"
         />
@@ -110,7 +109,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
           content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
         />
 
-{/* <script
+        {/* <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{
     __html: `{
@@ -146,13 +145,12 @@ function Blockchain({ DataScienceCourseDataJson }) {
     }`
   }}
 /> */}
-
       </Head>
       <main>
         <GenAiProFirstPart
-        summaryData={
-          DataScienceCourseData.GENAIPROCourseData[0].summarySection
-        }
+          summaryData={
+            DataScienceCourseData.GENAIPROCourseData[0].summarySection
+          }
           SecondSectionData={
             DataScienceCourseData.GENAIPROCourseData[0].secondSection
           }
@@ -162,30 +160,17 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
 
         <GenAiProSecondPart
-
-
           masterSyllabusMobile={
-            DataScienceCourseData.GENAIPROCourseData[0]
-              .masterSyllabusMobile
+            DataScienceCourseData.GENAIPROCourseData[0].masterSyllabusMobile
           }
-
-          toolsData={
-            DataScienceCourseData.GENAIPROCourseData[0]
-            .toolsData
-          }
-          
+          toolsData={DataScienceCourseData.GENAIPROCourseData[0].toolsData}
           CertificateData={
             DataScienceCourseData.GENAIPROCourseData[0].Certificate
           }
-
-
           certificateNew={
             DataScienceCourseData.GENAIPROCourseData[0].certificateNew
           }
-
-          genAiData={
-            DataScienceCourseData.GENAIPROCourseData[0].genAiData
-          } 
+          genAiData={DataScienceCourseData.GENAIPROCourseData[0].genAiData}
           FAQNewData={DataScienceCourseData.GENAIPROCourseData[0].faq}
         />
       </main>
