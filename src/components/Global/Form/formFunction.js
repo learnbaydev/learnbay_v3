@@ -225,24 +225,24 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
       required: referrals, // Conditionally required
       showField: referrals, // Conditionally render the field
     },
-    {
-      name: "interstedIn",
-      label: "Interested In",
-      type: "select",
-      options: [
-        { value: "Interested In", label: "Interested In", hidden: true },
-        {
-          value: "Master Degree Program",
-          label: "Master Degree Program",
-        },
-        {
-          value: "Certification Program",
-          label: "Certification Program",
-        },
-      ],
-      required: interstedInHide, // Conditionally required
-      showField: interstedInHide, // Conditionally render the field
-    },
+    // {
+    //   name: "interstedIn",
+    //   label: "Interested In",
+    //   type: "select",
+    //   options: [
+    //     { value: "Interested In", label: "Interested In", hidden: true },
+    //     {
+    //       value: "Master Degree Program",
+    //       label: "Master Degree Program",
+    //     },
+    //     {
+    //       value: "Certification Program",
+    //       label: "Certification Program",
+    //     },
+    //   ],
+    //   required: interstedInHide, // Conditionally required
+    //   showField: interstedInHide, // Conditionally render the field
+    // },
 
     {
       name: "platform",

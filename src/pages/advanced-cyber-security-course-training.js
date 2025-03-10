@@ -57,7 +57,7 @@ const CyberSecurityECCouncil = ({ NewCyberSecurityECCouncilDataJson }) => {
 
         <meta
           property="og:url"
-          content="https://www.learnbay.co/fullstack/generative-ai-course-for-professionals"
+          content="https://www.learnbay.co/advanced-cyber-security-course-training"
         />
         <meta
           property="og:title"
