@@ -846,7 +846,7 @@ export const courses = {
       description: "For Managers & Tech Leaders",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GEN_AI_Techs.webp",
-      link: "/datascience/generative-ai-course-for-managers",
+      link: "/datascience/generative-ai-course-for-manager",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI-Managers-Tech-Leaders-iits.pdf",
       brochurePdfs: "/Brochure/GenAI-Managers-Tech-Leaders-iits.pdf",
@@ -858,7 +858,7 @@ export const courses = {
       description: "For Working Professional",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/genAI_IIT_Devs.webp",
-      link: "/fullstack/generative-ai-course-for-professionals",
+      link: "/fullstack/generative-ai-course-for-professional",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI-Developer-Program.pdf",
       brochurePdfs: "/Brochure/GenAI-Developer-Program.pdf",
@@ -939,7 +939,7 @@ export const certificationCourses = [
     ],
     imageSrc: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Part_I.webp",
     logoSrc: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/ECIT_new.webp",
-    link: "/datascience/generative-ai-course-for-managers",
+    link: "/datascience/generative-ai-course-for-manager",
     brochureLinks:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI-Managers-Tech-Leaders-iits.pdf",
     brochurePdfs: "/Brochure/GenAI-Managers-Tech-Leaders-iits.pdf",
@@ -960,7 +960,7 @@ export const certificationCourses = [
         text: "For Tech Professionals & Developers",
       },
     ],
-    link: "/fullstack/generative-ai-course-for-professionals",
+    link: "/fullstack/generative-ai-course-for-professional",
     brochureLinks:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI-Developer-Program.pdf",
     brochurePdfs: "/Brochure/GenAI-Developer-Program.pdf",

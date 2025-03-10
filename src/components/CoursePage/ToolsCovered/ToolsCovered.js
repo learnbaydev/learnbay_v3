@@ -79,21 +79,7 @@ function ToolsCovered({
                             width={1200}
                             height={400}
                             loading="lazy"
-                            alt="business analyst course with TensorFlow
-                            Business analyst training with Jupyter
-                            Business analytics course with Excel
-                            business analyst course with PyTorch
-                            Business analyst training Keras
-                            Business analytics course Numpy
-                            Business analyst training Pandas
-                            Business analytics course ChatGPT
-                            Business analyst training MidJourney
-                            Business analytics course MatPlotib
-                            Business analyst training MongoDB
-                            Business analytics course Seaborn
-                            Business analyst training hadoop
-                            Business analytics course amazon web services
-                            Business analyst training Azure"
+                            alt="tools covered"
                           />
                         )}
                       </>

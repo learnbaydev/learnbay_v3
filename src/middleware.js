@@ -12,6 +12,25 @@ export function middleware(req) {
       destination: "/fullstack/dsa-course-training-bangalore",
       statusCode: 301,
     },
+    {
+      source: "/datascience/generative-ai-course-for-manager",
+      destination:
+        "/artificial-intelligence/generative-ai-course-for-data-science-professionals",
+      statusCode: 301,
+    },
+    {
+      source:
+        "/cyber-security/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee",
+      destination:
+        "/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee",
+      statusCode: 301,
+    },
+    {
+      source: "/fullstack/generative-ai-course-for-professional",
+      destination:
+        "/artificial-intelligence/generative-ai-course-for-fullstack-professionals",
+      statusCode: 301,
+    },
   ];
 
   const redirect = redirects.find((r) => r.source === req.nextUrl.pathname);

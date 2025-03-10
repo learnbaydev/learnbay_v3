@@ -6,13 +6,13 @@ export const TabData = [
       {
         CName: "GenAI Developer Certification For Professionals",
         hours: "3 Months",
-        url: "/fullstack/generative-ai-course-for-professionals",
+        url: "/fullstack/generative-ai-course-for-professional",
       },
 
       {
         CName: "GenAI Certification For Managers & Tech Leaders",
         hours: "4 Months",
-        url: "/datascience/generative-ai-course-for-managers",
+        url: "/datascience/generative-ai-course-for-manager",
       },
 
       ,

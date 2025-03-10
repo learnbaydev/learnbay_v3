@@ -17,7 +17,7 @@ const masterApplication = () => {
           name="keywords"
           content="Data Science Course, Best data Science Course Training,   Data Science, Master Course Application "
         />
-                <meta name="robots" content="noindex, nofollow" />
+                <meta name="robots" content="index, follow" />
         <link
           rel="canonical"
           href="https://www.learnbay.co/master-application"
