@@ -46,10 +46,20 @@ const Content = dynamic(() =>
 );
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import FAQNew from "@/components/CoursePage/FAQNew/FAQNew";
+import {
+  getDSABookingLaterDate,
+  getDSABookingSoonDate,
+} from "@/Util/getDSABatchData";
 
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl = "/Brochure/Data-Structure-System-Design.pdf";
+
+  let soonDate = getDSABookingSoonDate();
+  let laterDate = getDSABookingLaterDate();
+  // console.log(getDSABookingSoonDate(new Date('2023-03-24')));
+  // console.log(getDSABookingLaterDate(new Date('2023-03-24')));
+  
 
   return (
     <>
@@ -209,8 +219,8 @@ const NewDSA = ({ DSADataJson }) => {
           weekdaybatch="Weekend Morning (DSA BATCHES)"
           weekday="SAT-SUN"
           weekend="SAT-SUN"
-          WeekendDate="23rd Mar"
-          WeekdayDate="23rd Feb"
+          WeekendDate={laterDate}
+          WeekdayDate={soonDate}
           WeekendTime="09:00AM - 12:00PM"
           WeekdayTime="09:00AM - 12:00PM"
           FeeContent3="Flexible payment"

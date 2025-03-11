@@ -3,6 +3,7 @@ import { useCallback, useEffect, useState } from "react";
 import Image from "next/image";
 import styles from "./DSAPopup.module.css";
 import PopupContent from "@/components/Global/PopupContent/PopupContent";
+import { getDSABookingSoonDate } from "@/Util/getDSABatchData";
 
 const DSAPopup = ({ message, onClose }) => {
   const [popups, setPopups] = useState(false);
@@ -24,6 +25,10 @@ const DSAPopup = ({ message, onClose }) => {
       title: "Scholarship Opportunity",
     },
   ];
+
+  const bookingDate = getDSABookingSoonDate();
+  //testing
+  // console.log(getDSABookingSoonDate(new Date("2023-03-24")));
 
   return (
     <div className={styles.popupOverlay}>
@@ -79,7 +84,7 @@ const DSAPopup = ({ message, onClose }) => {
             </div>
             <div className={styles.middleLineDiv}></div>
             <div className={styles.rightContentDiv}>
-              <span>Time : 9 am , Date : 23 Mar</span>
+              <span>Time : 9 am , Date : {bookingDate}</span>
               <div className={styles.mentorsFromDiv}>
                 <p>Mentors from:</p>
                 <div className={styles.mentorsFromImageDiv}>

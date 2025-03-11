@@ -12,7 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  margin: 30px 0;
 }
 .mapdiv iframe {
   border: 1px dotted #2d9cd7;
