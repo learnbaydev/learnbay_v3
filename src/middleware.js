@@ -31,6 +31,21 @@ export function middleware(req) {
         "/artificial-intelligence/generative-ai-course-for-fullstack-professionals",
       statusCode: 301,
     },
+    {
+      source: "/cloud&devops/pune/online-cloud-computing-course-pune",
+      destination: "/cloud&devops/online-cloud-computing-course-pune",
+      statusCode: 301, // Force 301 Redirect
+    },
+    {
+      source: "/cloud&devops/bangalore/online-devops-training-in-bangalore",
+      destination: "/cloud&devops/online-devops-training-in-bangalore",
+      statusCode: 301, // Force 301 Redirect
+    },
+    {
+      source: "/cloud&devops/bangalore/online-cloud-computing-course-bangalore",
+      destination: "/cloud&devops/online-cloud-computing-course-bangalore",
+      statusCode: 301, // Force 301 Redirect
+    },
   ];
 
   const redirect = redirects.find((r) => r.source === req.nextUrl.pathname);
