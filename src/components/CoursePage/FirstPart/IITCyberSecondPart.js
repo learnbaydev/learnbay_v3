@@ -15,6 +15,9 @@ const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const SliderTab = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
 
 const FAQNew = dynamic(() => import("../FAQNew/FAQNewDomain"));
+const Content = dynamic(() =>
+  import("@/components/CoursePage/Content/content")
+);
 
 const IITCyberSecondPart = ({
   masterSyllabusMobile,
@@ -66,6 +69,11 @@ const IITCyberSecondPart = ({
       <SliderTab />
       <IHubAboutIIT />
       <FAQNew FAQNewData={FAQNewData} />
+      <Content
+          dataScienceCounselling={true}
+          ExecutiveCyberSecurity={true}
+          background={true}
+        />
       <SeventhSection />
       <Footer />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />
