@@ -11,7 +11,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>Best Data Science Courses with Certification [2024] </title>
+        <title>Best Data Science Courses with Certification [2025] </title>
         <meta
           name="description"
           content="Enroll in the best data science courses to elevate your skills. Select from foundation to advanced courses according to your career requirement. Join Now!!"

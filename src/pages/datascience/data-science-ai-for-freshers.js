@@ -4,7 +4,6 @@ import FirstPart from "@/components/CoursePage/FirstPart/FreshersFirstPart";
 import SecondPart from "@/components/CoursePage/FirstPart/FreshersSecondPart";
 import Navbar from "@/components/Global/Navbar/Navbar";
 
-
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
 
@@ -12,16 +11,16 @@ function Blockchain({ DataScienceCourseDataJson }) {
     <>
       <Head>
         <title>
-        Data Science and AI Certification Program For Frehers  - Learnbay
+          Data Science and AI Certification Program For Freshers - Learnbay
         </title>
         <meta
           name="description"
-          content="Are you searching for the Data Science and AI Certification Program For Frehers ? Learnbay is providing the best online Advanced Data Science and AI Program . Enroll now!"
+          content="Are you searching for the Data Science and AI Certification Program For Freshers ? Learnbay is providing the best online Advanced Data Science and AI Program . Enroll now!"
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="data science and ai course, Data Science and AI Certification Program For Frehers, data science and ai, ai and data science course, artificial intelligence and data science course, advanced certification in data science and ai"
+          content="data science and ai course, Data Science and AI Certification Program For Freshers, data science and ai, ai and data science course, artificial intelligence and data science course, advanced certification in data science and ai"
         />
         <link
           rel="icon"
@@ -37,7 +36,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
             __html: `{
       "@context": "http://schema.org",
   "@type": "Course",
-  "name": "Data Science and AI Certification Program For Frehers",
+  "name": "Data Science and AI Certification Program For Freshers",
   "description": "Our Advance Data Science and AI Course brings you a wide knowledge of Data Science and AI and helps you to make precise data-driven decisions.",
   "url": "https://www.learnbay.co/datascience/advance-data-science-certification-courses",
   "offers": {
@@ -70,7 +69,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
       </Head>
       <main>
         <Navbar dataScienceCounselling={true} interstedInHide={true} />
-      
+
         <FirstPart
           SecondSectionData={
             DataScienceCourseData.DataScienceCourseData[0].secondSection
