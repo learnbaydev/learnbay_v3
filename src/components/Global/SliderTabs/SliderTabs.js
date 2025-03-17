@@ -253,7 +253,7 @@ const SliderTabs = ({
               <div className={styles.left}>
                 {WithoutService ? (
                   <h6>{withoutCurrentService.title}</h6>
-                ) : notcalls ? (
+                ) : notcall ? (
                   <h6>{notcallServices.title}</h6>
                 ) : (
                   <h6>{currentService.title}</h6>
@@ -261,6 +261,15 @@ const SliderTabs = ({
                 {WithoutService ? (
                   <>
                     {withoutCurrentService.content.map((point, i) => (
+                      <div key={i} className={styles.mainCont}>
+                        <BsCheckCircle className={styles.checkCircle} />
+                        <p className={styles.para}>{point}</p>
+                      </div>
+                    ))}
+                  </>
+                ) : notcall ? (
+                  <>
+                    {notcallServices.content.map((point, i) => (
                       <div key={i} className={styles.mainCont}>
                         <BsCheckCircle className={styles.checkCircle} />
                         <p className={styles.para}>{point}</p>
