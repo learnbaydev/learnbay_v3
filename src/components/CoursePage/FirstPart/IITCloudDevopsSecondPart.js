@@ -58,7 +58,7 @@ const IITCloudDevopsSecondPart = ({
       {/* <NewCertificateSection certificateNew={certificateNew} /> */}
 
       <DSAFeeSection
-        Fee="₹1,10,0000"
+        Fee="₹1,10,000"
         FeeEmi="₹ 7,211/month"
         weekendbatch="Weekend Evening"
         weekdaybatch="Weekday Evening"

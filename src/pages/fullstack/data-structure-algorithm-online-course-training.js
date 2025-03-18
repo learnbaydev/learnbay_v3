@@ -14,7 +14,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>DSA Course with Placement Prep. {2025} - Learnbay</title>
+        <title>DSA Course with Placement Prep. 2025 - Learnbay</title>
         <meta
           name="description"
           content="Master DSA course & ace placements assistance with our expert-led training. Gain coding skills, interview prep, and job-ready expertise. Get into a Data Field Today."
@@ -39,7 +39,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
         <meta
           property="og:title"
-          content="DSA Course with Placement Prep. {2025} - Learnbay"
+          content="DSA Course with Placement Prep. 2025 - Learnbay"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="article" />
@@ -57,7 +57,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="DSA Course with Placement Prep. {2025}"
+          content="DSA Course with Placement Prep. 2025"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
@@ -79,7 +79,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
             __html: `{
       "@context": "http://schema.org",
       "@type": "Course",
-      "name": "DSA Course with Placement Prep. {2025} - Learnbay",
+      "name": "DSA Course with Placement Prep. 2025 - Learnbay",
       "description": "Master DSA course & ace placements assistance with our expert-led training. Gain coding skills, interview prep, and job-ready expertise. Get into a Data Field Today.",
       "url": "https://www.learnbay.co/fullstack/data-structure-algorithm-online-course-training",
       "offers": {
