@@ -24,6 +24,7 @@ function DataAnalytics({
   DSANewContent,
   DSAFresherContent,
   AdvanceCyberSecurity,
+  ExecutiveCyberSecurity,
 }) {
   const [read, setRead] = useState(false);
 
@@ -5128,124 +5129,313 @@ function DataAnalytics({
           </h4>
           <h3 style={{ fontSize: "20px" }}>Course Details</h3>
           <p>
-          In the data age, where data explosions and breaches are growing simultaneously, Learnbay marks a landmark with its <b>certificate course in ethical hacking and cyber security.</b> Our proactive step toward a GenAI-rich learning stage will help you build a thriving career in cyber security.
+            In the data age, where data explosions and breaches are growing
+            simultaneously, Learnbay marks a landmark with its{" "}
+            <b>certificate course in ethical hacking and cyber security.</b> Our
+            proactive step toward a GenAI-rich learning stage will help you
+            build a thriving career in cyber security.
           </p>
           <p>
-          Our inclusively designed course is here to help IT experts, network admins, security analysts, and other tech pros learn and grow. It presents a broadly curated <b>cybersecurity and ethical hacking roadmap</b>, equipping techies with vital skills to lessen cyber-attacks and enrich AI-driven security.
+            Our inclusively designed course is here to help IT experts, network
+            admins, security analysts, and other tech pros learn and grow. It
+            presents a broadly curated{" "}
+            <b>cybersecurity and ethical hacking roadmap</b>, equipping techies
+            with vital skills to lessen cyber-attacks and enrich AI-driven
+            security.
           </p>
           <p>
-          Join the program to build GenAI-rich security systems and accelerate career growth options. Our custom-fit career support helps you go through mock interviews, resume-making, and profiling sessions for better learning. Also, attesting cyber security ethical hacking certificates from <b>EC Council and Microsoft</b> to your career can enrich your worth.
+            Join the program to build GenAI-rich security systems and accelerate
+            career growth options. Our custom-fit career support helps you go
+            through mock interviews, resume-making, and profiling sessions for
+            better learning. Also, attesting cyber security ethical hacking
+            certificates from <b>EC Council and Microsoft</b> to your career can
+            enrich your worth.
           </p>
           <h3 style={{ fontSize: "20px" }}>
-          Who is eligible for Learnbay's Advance Cyber Security Course?
+            Who is eligible for Learnbay's Advance Cyber Security Course?
           </h3>
           <p>
-          Learnbay presents an ideal cyber hacking course for learners eager to build tech-driven careers. As cyber-attacks continue to rise, the urgency of career updates rapidly evolves. Hence, many working professionals step forward to advance digitally secure careers or cyber security roles.
+            Learnbay presents an ideal cyber hacking course for learners eager
+            to build tech-driven careers. As cyber-attacks continue to rise, the
+            urgency of career updates rapidly evolves. Hence, many working
+            professionals step forward to advance digitally secure careers or
+            cyber security roles.
           </p>
           <p>
-          Before enrolling in our <b>cyber security and ethical hacking course</b>, check if you can join –
+            Before enrolling in our{" "}
+            <b>cyber security and ethical hacking course</b>, check if you can
+            join –
           </p>
           <ul>
             <li>
-              <b>• Entry to Mid-career IT experts (Security analysts, network admin, IT engineers, risk consultants, system admins, etc.)</b>
+              <b>
+                • Entry to Mid-career IT experts (Security analysts, network
+                admin, IT engineers, risk consultants, system admins, etc.)
+              </b>
             </li>
             <li>
               <b>• At least 1+ year of work experience</b>
             </li>
           </ul>
           <p>
-          Yet, it is crucial to note that freshers, recent graduates, and students cannot take this course.
+            Yet, it is crucial to note that freshers, recent graduates, and
+            students cannot take this course.
           </p>
           <h4 style={{ fontSize: "24px" }}>
-          Briefing the Essence of Cyber Security and Ethical Hacking in the Tech Age
+            Briefing the Essence of Cyber Security and Ethical Hacking in the
+            Tech Age
           </h4>
           <p>
-          According to cybercrime <a href="https://secureframe.com/blog/data-breach-statistics" className={styles.hyperLink} target="_blank">findings</a>, data breaches increased by over 10% in 2024 compared to 2023. Almost 46% of stats pointed toward customer data breaches, which resulted in huge cost investments. Hence, cyber security plays a crucial role in today's digital space, offering a 360-degree data shield.
+            According to cybercrime{" "}
+            <a
+              href="https://secureframe.com/blog/data-breach-statistics"
+              className={styles.hyperLink}
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              data-nosnippet
+            >
+              findings
+            </a>
+            , data breaches increased by over 10% in 2024 compared to 2023.
+            Almost 46% of stats pointed toward customer data breaches, which
+            resulted in huge cost investments. Hence, cyber security plays a
+            crucial role in today's digital space, offering a 360-degree data
+            shield.
           </p>
           <p>
-          Cyber security is a well-known practice of guarding digital assets from external threats and hacks. It takes vital steps to protect system hardware and software with firewalls, antivirus programs, and data privacy rules. It removes the risky factors from the network systems and limits data breaches like sensitive cases. Hence, boosting your skill sets with cyber security tools and methods is crucial.
+            Cyber security is a well-known practice of guarding digital assets
+            from external threats and hacks. It takes vital steps to protect
+            system hardware and software with firewalls, antivirus programs, and
+            data privacy rules. It removes the risky factors from the network
+            systems and limits data breaches like sensitive cases. Hence,
+            boosting your skill sets with cyber security tools and methods is
+            crucial.
           </p>
-          <h3 style={{ fontSize: "20px" }}>Let's review the essence of cyber security in today's age.</h3>
-          <p><b>• Complete data protection : </b>Cyber security protects crucial data sets from external threats. Key security practices help firms and experts adopt vital steps to keep their data secure and free from breaches. As a result, they decrease data theft and piracy risks.</p>
-          <p><b>• Managing business goodwill : </b> Constant cyber-attacks can tarnish a business's stature, resulting in a loss of funds and reduced customer loyalty. Hence, merging cyber security principles into firms can save your prestige and settle the loss of funds.</p>
-          <p><b>• Economic losses : </b>Firms with no or lesser cyber safety practices can affect their financial well-being. Firms that fail to protect their data sets from theft may incur hefty operating costs, financial losses, and legal fines.</p>
+          <h3 style={{ fontSize: "20px" }}>
+            Let's review the essence of cyber security in today's age.
+          </h3>
           <p>
-          Indeed, tech experts can use their skills to lessen the effects of cyberattacks. Ethical hacking is a modern solution with technically skilled pros to identify and remove odds. In short, ethical hackers step forward to protect several firms from rising cyber crimes. Hence, the demand for cyber security and hacking courses keeps growing rapidly.
+            <b>• Complete data protection : </b>Cyber security protects crucial
+            data sets from external threats. Key security practices help firms
+            and experts adopt vital steps to keep their data secure and free
+            from breaches. As a result, they decrease data theft and piracy
+            risks.
           </p>
           <p>
-          Experts join a <b>certificate course in ethical hacking and cyber security</b> to protect firms from piracy attacks, data breaches, and other risks. Ethical hackers help firms protect their systems from piracy attacks. Upskilling in ethical hacking is vital to building defensive tactics and ensuring 360-degree security. Gradually, ethical hacking has become a crucial part of firms, ensuring 100% safety and security.
+            <b>• Managing business goodwill : </b> Constant cyber-attacks can
+            tarnish a business's stature, resulting in a loss of funds and
+            reduced customer loyalty. Hence, merging cyber security principles
+            into firms can save your prestige and settle the loss of funds.
           </p>
-          <h3 style={{ fontSize: "20px" }}>Let’s learn more about the extent of ethical hacking in limiting cyber-attacks.</h3>
+          <p>
+            <b>• Economic losses : </b>Firms with no or lesser cyber safety
+            practices can affect their financial well-being. Firms that fail to
+            protect their data sets from theft may incur hefty operating costs,
+            financial losses, and legal fines.
+          </p>
+          <p>
+            Indeed, tech experts can use their skills to lessen the effects of
+            cyberattacks. Ethical hacking is a modern solution with technically
+            skilled pros to identify and remove odds. In short, ethical hackers
+            step forward to protect several firms from rising cyber crimes.
+            Hence, the demand for cyber security and hacking courses keeps
+            growing rapidly.
+          </p>
+          <p>
+            Experts join a{" "}
+            <b>certificate course in ethical hacking and cyber security</b> to
+            protect firms from piracy attacks, data breaches, and other risks.
+            Ethical hackers help firms protect their systems from piracy
+            attacks. Upskilling in ethical hacking is vital to building
+            defensive tactics and ensuring 360-degree security. Gradually,
+            ethical hacking has become a crucial part of firms, ensuring 100%
+            safety and security.
+          </p>
+          <h3 style={{ fontSize: "20px" }}>
+            Let’s learn more about the extent of ethical hacking in limiting
+            cyber-attacks.
+          </h3>
           {read ? (
             <>
               <p>
-              <b>• Testing network security systems : </b>Ethical hackers pursue a <b>cyber security and ethical hacking course</b> to improve system handling. This helps techies manage security systems with 100% bug fixing. Experts identify the threats, test, and manage the systems to fix them.
+                <b>• Testing network security systems : </b>Ethical hackers
+                pursue a <b>cyber security and ethical hacking course</b> to
+                improve system handling. This helps techies manage security
+                systems with 100% bug fixing. Experts identify the threats,
+                test, and manage the systems to fix them.
               </p>
               <p>
-              <b>• Data security : </b>Experts prefer constant learning and upskilling to build secure walls with better results. Ethical hackers find malicious factors that affect system operations and limit the risks of hacking. It ensures overall data security with end-to-end risk handling and smooth working.
+                <b>• Data security : </b>Experts prefer constant learning and
+                upskilling to build secure walls with better results. Ethical
+                hackers find malicious factors that affect system operations and
+                limit the risks of hacking. It ensures overall data security
+                with end-to-end risk handling and smooth working.
               </p>
               <p>
-              <b>• Mitigating cyber threats : </b>Ethical hackers help firms address cyberattacks and prevent linked factors from unethical actions. Aspirants can opt for an <b>advance cyber security course</b> to master ethical hacking tools and methods and mitigate further cyber attacks. This course helps them grab ethical hacker job roles with prime MNCs.
+                <b>• Mitigating cyber threats : </b>Ethical hackers help firms
+                address cyberattacks and prevent linked factors from unethical
+                actions. Aspirants can opt for an{" "}
+                <b>advance cyber security course</b> to master ethical hacking
+                tools and methods and mitigate further cyber attacks. This
+                course helps them grab ethical hacker job roles with prime MNCs.
               </p>
               <p>
-              <b>• Risk management : </b>Ethical hackers can stop likely cyber threats and set the stage for end-to-end security. The <b>cybersecurity and ethical hacking roadmap</b> prepares them to face upcoming risks, identify them on time, and manage those for better results. Experts regularly test the systems, monitor the changes, and develop defensive plans to handle the innate risks.
+                <b>• Risk management : </b>Ethical hackers can stop likely cyber
+                threats and set the stage for end-to-end security. The{" "}
+                <b>cybersecurity and ethical hacking roadmap</b> prepares them
+                to face upcoming risks, identify them on time, and manage those
+                for better results. Experts regularly test the systems, monitor
+                the changes, and develop defensive plans to handle the innate
+                risks.
               </p>
               <p>
-              Indeed, upskilling with cutting-edge cyber security tools and trends is helpful. Experts can enroll in a <b>certificate course in ethical hacking and cyber security</b> to handle risk factors and ensure safety. If you're willing to execute your work swiftly and help various firms from cyber attacks, join our course today.
+                Indeed, upskilling with cutting-edge cyber security tools and
+                trends is helpful. Experts can enroll in a{" "}
+                <b>certificate course in ethical hacking and cyber security</b>{" "}
+                to handle risk factors and ensure safety. If you're willing to
+                execute your work swiftly and help various firms from cyber
+                attacks, join our course today.
               </p>
               <h4 style={{ fontSize: "24px" }}>
-              How is Learnbay's Advance Cyber Security Course Different From Others?
-          </h4>
+                How is Learnbay's Advance Cyber Security Course Different From
+                Others?
+              </h4>
               <p>
-              Learning with a leading-edge <b>cyber security and ethical hacking course</b> is vital for aspirants willing to have tempting career growth. Hence, our course is entirely curated to meet learner's needs.
+                Learning with a leading-edge{" "}
+                <b>cyber security and ethical hacking course</b> is vital for
+                aspirants willing to have tempting career growth. Hence, our
+                course is entirely curated to meet learner's needs.
               </p>
               <ol>
-                <li><b>Exclusively designed for tech pros : </b>Our cyber hacking course is solely curated for tech experts from diverse fields. This course allows techies with 1+ years of experience to redefine their careers in the best possible way. IT pros, network analysts, security admins, etc., can join our course to kick-start an exciting career with proven gains. Techies can enrich their skill sets with IAM and ISO-standard cyber security tools to grow and attain proven success. Gaining expertise in tech fields can help you grab seniority roles with exciting perks.</li>
-                <li><b>Regularly updated GenAI-rich syllabus : </b>Our cyber security and ethical hacking program follows the latest industry trends and practices. Its GenAI-inclusive syllabus helps techies master cyber security tools and tactics. We aim to prepare our learners with cutting-edge GenAI tools to detect risks and fight against cyberattacks. Our syllabus covers threat detection, risk assessment, incident responses, automation, and other security keys. In short, we aim to prepare you with skills to thrive against growing cyber-attacks.</li>
-                <li><b>Reliable industry experts to keep you abreast of competition : </b>Join our advanced cyber security course to gain live mentorship from industry experts. Our reliable mentors are here to guide you through learning with their real-time experience. They prepare you to face the future digital world with better defensive systems. Hence, you can learn to lead and create better ways to tackle real-world cyber security risks.</li>
-                <li><b>Practical learning experiences : </b>Our <b>cybersecurity and ethical hacking roadmap</b> prepares you for critical roles with real-time insights. You can work on GenAI-rich projects to tackle cyber issues and attain proven success. These projects help you decode network system threats and address them before time. Techies will work on cutting-edge GenAI projects to excel in their careers and attain inspiring growth.</li>
-                <li><b>Prestigious Certifications : </b>Techies joining our <b>certificate course in ethical hacking and cyber security</b> will earn notable credentials to stand out. Our course offers <b>EC Council and Microsoft certifications</b> to enrich your career values globally. Its global validation helps you build a strong career base and boost your success rates.</li>
-                <li><b>Custom-fit career support : </b>Our cybersecurity and ethical hacking roadmap states tailored career support to help you grow and excel in your field. You can avail of mock interviews, resume build-up, LinkedIn profiling, interview prep, and 1:1 doubt-clearing sessions. Our reliable mentors are here to guide you at each career stage with exciting perks.</li>
+                <li>
+                  <b>Exclusively designed for tech pros : </b>Our cyber hacking
+                  course is solely curated for tech experts from diverse fields.
+                  This course allows techies with 1+ years of experience to
+                  redefine their careers in the best possible way. IT pros,
+                  network analysts, security admins, etc., can join our course
+                  to kick-start an exciting career with proven gains. Techies
+                  can enrich their skill sets with IAM and ISO-standard cyber
+                  security tools to grow and attain proven success. Gaining
+                  expertise in tech fields can help you grab seniority roles
+                  with exciting perks.
+                </li>
+                <li>
+                  <b>Regularly updated GenAI-rich syllabus : </b>Our cyber
+                  security and ethical hacking program follows the latest
+                  industry trends and practices. Its GenAI-inclusive syllabus
+                  helps techies master cyber security tools and tactics. We aim
+                  to prepare our learners with cutting-edge GenAI tools to
+                  detect risks and fight against cyberattacks. Our syllabus
+                  covers threat detection, risk assessment, incident responses,
+                  automation, and other security keys. In short, we aim to
+                  prepare you with skills to thrive against growing
+                  cyber-attacks.
+                </li>
+                <li>
+                  <b>
+                    Reliable industry experts to keep you abreast of competition
+                    :{" "}
+                  </b>
+                  Join our advanced cyber security course to gain live
+                  mentorship from industry experts. Our reliable mentors are
+                  here to guide you through learning with their real-time
+                  experience. They prepare you to face the future digital world
+                  with better defensive systems. Hence, you can learn to lead
+                  and create better ways to tackle real-world cyber security
+                  risks.
+                </li>
+                <li>
+                  <b>Practical learning experiences : </b>Our{" "}
+                  <b>cybersecurity and ethical hacking roadmap</b> prepares you
+                  for critical roles with real-time insights. You can work on
+                  GenAI-rich projects to tackle cyber issues and attain proven
+                  success. These projects help you decode network system threats
+                  and address them before time. Techies will work on
+                  cutting-edge GenAI projects to excel in their careers and
+                  attain inspiring growth.
+                </li>
+                <li>
+                  <b>Prestigious Certifications : </b>Techies joining our{" "}
+                  <b>
+                    certificate course in ethical hacking and cyber security
+                  </b>{" "}
+                  will earn notable credentials to stand out. Our course offers{" "}
+                  <b>EC Council and Microsoft certifications</b> to enrich your
+                  career values globally. Its global validation helps you build
+                  a strong career base and boost your success rates.
+                </li>
+                <li>
+                  <b>Custom-fit career support : </b>Our cybersecurity and
+                  ethical hacking roadmap states tailored career support to help
+                  you grow and excel in your field. You can avail of mock
+                  interviews, resume build-up, LinkedIn profiling, interview
+                  prep, and 1:1 doubt-clearing sessions. Our reliable mentors
+                  are here to guide you at each career stage with exciting
+                  perks.
+                </li>
               </ol>
               <h4 style={{ fontSize: "24px" }}>
-              Is the Advance Cyber Security Course Syllabus at Learnbay Worth Investing In?
-          </h4>
-          <p>Yes. Learnbay's <b>cyber security and ethical hacking course</b> syllabus is worth investing in to master front-age tools and excel in your career. Our course module offers –</p>
+                Is the Advance Cyber Security Course Syllabus at Learnbay Worth
+                Investing In?
+              </h4>
+              <p>
+                Yes. Learnbay's <b>cyber security and ethical hacking course</b>{" "}
+                syllabus is worth investing in to master front-age tools and
+                excel in your career. Our course module offers –
+              </p>
               <b>Term 1: Fundamentals and Prerequisites</b>
               <p>
-              This module will help you learn the basics of operating systems, networking, and cloud computing. Gaining a basic synopsis of security tools and practices will also help you build your career foundation.
+                This module will help you learn the basics of operating systems,
+                networking, and cloud computing. Gaining a basic synopsis of
+                security tools and practices will also help you build your
+                career foundation.
               </p>
               <b>Term 2: Ethical Hacking and Penetration Testing</b>
               <p>
-              This module provides a complete outline of ethical hacking and its real-time uses. Learners will work on real-time projects to master Nmap, Wireshark, and other tools to secure their network systems against the odds.
+                This module provides a complete outline of ethical hacking and
+                its real-time uses. Learners will work on real-time projects to
+                master Nmap, Wireshark, and other tools to secure their network
+                systems against the odds.
               </p>
               <b>Term 3: Advanced Cyber Security Techniques</b>
               <p>
-              This module equips learners with critical-level cyber security tools to find and assess risks, hack systems, check passwords, and decode malware. Here, you will learn thoroughly about Nessus, Burp Suite, etc to fight against system oddities.
+                This module equips learners with critical-level cyber security
+                tools to find and assess risks, hack systems, check passwords,
+                and decode malware. Here, you will learn thoroughly about
+                Nessus, Burp Suite, etc to fight against system oddities.
               </p>
               <b>Term 4: Cyber security and Information Security Basics</b>
               <p>
-              In this module, techies will master cyber security tools, frameworks, and principles. You can work on real-time projects to handle critical cases and suggest real-time solutions.
+                In this module, techies will master cyber security tools,
+                frameworks, and principles. You can work on real-time projects
+                to handle critical cases and suggest real-time solutions.
               </p>
               <b>Term 5: Advanced Cyber Security and Threat Intelligence</b>
               <p>
-              In this module, you will master key security management tools to decode and mitigate the threats. Learning threat intelligence can help you fight against cyber-attacks and attain proven success.
+                In this module, you will master key security management tools to
+                decode and mitigate the threats. Learning threat intelligence
+                can help you fight against cyber-attacks and attain proven
+                success.
               </p>
               <b>Term 6: GenAI in Cyber security</b>
               <p>
-              This module will help you master GenAI-rich tools for tackling cyber security risks and responding to critical cases. You will learn ways to detect cyber threats, automate security alerts, and identify malware patterns.
+                This module will help you master GenAI-rich tools for tackling
+                cyber security risks and responding to critical cases. You will
+                learn ways to detect cyber threats, automate security alerts,
+                and identify malware patterns.
               </p>
               <h4 style={{ fontSize: "24px" }}>
-              How does Learnbay's Career Support Services Help Tech Experts?
+                How does Learnbay's Career Support Services Help Tech Experts?
               </h4>
               <p>
-              A proven <b>cybersecurity and ethical hacking roadmap</b> sets the stage for custom-fit career support. Our historic move toward hassle-free growth relies on reliable career support. It includes –
+                A proven <b>cybersecurity and ethical hacking roadmap</b> sets
+                the stage for custom-fit career support. Our historic move
+                toward hassle-free growth relies on reliable career support. It
+                includes –
               </p>
               <ul>
                 <li>
-                  <b>
-                    • Interview Prep
-                  </b>
+                  <b>• Interview Prep</b>
                 </li>
                 <li>
                   <b>• Mock interviews</b>
@@ -5258,7 +5448,397 @@ function DataAnalytics({
                 </li>
               </ul>
               <p>
-              Experts enrolling in our <b>advance cyber security course</b> will attain high-paying roles with top-tier MNCs. Join our course today to excel in your career and battle against upcoming cyber risks.
+                Experts enrolling in our <b>advance cyber security course</b>{" "}
+                will attain high-paying roles with top-tier MNCs. Join our
+                course today to excel in your career and battle against upcoming
+                cyber risks.
+              </p>
+              <div onClick={popupShow} className={styles.buttonDiv}>
+                <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
+              </div>
+            </>
+          ) : (
+            ""
+          )}
+          <p
+            style={{
+              color: "#2D9CD7",
+              fontWeight: "600",
+              textDecoration: "underline",
+              cursor: "pointer",
+            }}
+            onClick={handler}
+            className={styles.readP}
+          >
+            {read ? "Read Less..." : "Read More..."}
+          </p>
+        </div>
+      ) : (
+        ""
+      )}
+      
+      {ExecutiveCyberSecurity ? (
+        <div className={styles.content}>
+          <h2>Executive Certification in Cybersecurity and Ethical Hacking</h2>
+          <p>
+            Become a proficient guardian of the evolving digital realm
+            encompassing defensive tactics to protect computing network systems.
+            Join our <b>cyber security and ethical hacking course</b> to
+            preserve data integrity and privacy. Earn globally recognized{" "}
+            <b>IIT Roorkee and EC Council certifications</b> to become a
+            frontline defensive expert.
+          </p>
+          <h4 style={{ fontSize: "24px" }}>
+            About Learnbay's Executive Cyber Security and Ethical Hacking
+            Program
+          </h4>
+          <h3 style={{ fontSize: "20px" }}>Course Details</h3>
+          <p>
+            Today's fast-paced digital world sees splendid tech creations and
+            advances. However, it also notifies of piracy attacks, data
+            breaches, phishing, and ransomware. Cyber security learning has
+            become vital for experts integral to this modern age. Thus,
+            enrolling in a <b>cyber security and ethical hacking course</b> is
+            crucial to drive tempting growth.
+          </p>
+          <p>
+            In the interim, Learnbay envisions a tech-driven future for techies
+            willing to excel in their fields and grab exciting offers. Our
+            visionary steps will help you fight rising cyber-attacks and guard
+            your firm. Today's workspace relies heavily on cutting-edge tech
+            creations like AI, Robots, ML models, etc, which drive insightful
+            results. Hence, the severity of cyber crimes keeps growing rapidly.
+          </p>
+          <p>
+            Our <b>ethical hacking and cyber security course</b> offers a
+            learner-centric space to refine your skills, empower, and prepare
+            yourself for further tech hurdles. Constant learning will equip you
+            with creative skills to build a thriving career and excel in your
+            field. Our course is solely designed for IT experts eager to
+            redefine their jobs following the latest trends. Also, join our
+            2-day immersive learning sessions with IIT Roorkee experts and
+            master in-demand tools with global credentials.
+          </p>
+          <h3 style={{ fontSize: "20px" }}>
+            Who is eligible for Learnbay’s Cyber Security and Ethical Hacking
+            Program?
+          </h3>
+          <p>
+            Learnbay strives to foster an ingenious mindset to tackle
+            cutting-edge tech creations. Its inclusively designed{" "}
+            <b>cyber security and hacking courses</b> help techies treat cyber
+            attacks. Our executive-level cyber security course is solely
+            designed for –
+          </p>
+          <ul>
+            <li>
+              <b>
+                • IT experts, network admins, security analysis, risk
+                consultants, etc
+              </b>
+            </li>
+            <li>
+              <b>
+                • Entry to mid-level techies with at least 1+ years of work
+                experience
+              </b>
+            </li>
+          </ul>
+          <p>
+            <b>Also note:</b> This program is not ideal for fresh graduates and
+            students.
+          </p>
+          <p>
+            In short, anyone meeting the above-stated conditions can enroll in
+            our <b>cyber security and ethical hacking course</b>, driving proven
+            gains.
+          </p>
+          <h4 style={{ fontSize: "24px" }}>
+            Overview of Cyber Security and Ethical Hacking in Today's
+            Tech-driven Era
+          </h4>
+          <p>
+            The advent of cutting-edge tech creations has set the stage for
+            regular data usage and a growing reliance on digital models. These
+            tech-driven shifts have triggered firms and users with constant
+            cyber threats. Hence, the demand for cyber security experts and
+            ethical hackers keeps growing. In the interim, techies prefer
+            joining the <b>best institute for cyber security in India.</b>
+          </p>
+          <p>
+            According to{" "}
+            <a
+              className={styles.hyperLink}
+              href="https://www.marketsandmarkets.com/Market-Reports/cyber-security-market-505.html#:~:text=The%20global%20Cybersecurity%20Market%20size,projected%20to%20reach%20%24298.5%20billion."
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              data-nosnippet
+            >
+              {" "}
+              M&M reports
+            </a>
+            , the global cyber security markets expect a 9.4% growth by 2028,
+            creating an urgency to battle against constant cyber-attacks. As the
+            rates of cyber crimes grow, so does the haste to build defense walls
+            coming into the spotlight. Hence, cyber security learning has become
+            vital for techies to tackle critical risks and build a thriving
+            career.
+          </p>
+          <p>
+            Cyber security has become a buzzing practice that techies adopt to
+            protect their data sets and digital assets from piracy attacks.
+            Experts with good <b>ethical hacking and cyber security</b> wisdom
+            can fight cyber crimes and build encrypted walls.
+          </p>
+          <p>
+            Cyber security skills help techies identify and remove risk factors,
+            ensuring security. Hence, joining the{" "}
+            <b>best cyber security institute in India</b> has become crucial to
+            lessen the presence of cyber-attacks and remove unauthorized access.
+          </p>
+          <h3 style={{ fontSize: "20px" }}>
+            Let’s dive deeper into the essence of cyber security in managing
+            tech-driven risks.
+          </h3>
+          <p>
+            <b>• Fight against cloud-driven network systems : </b>Many firms
+            adopt cloud-driven methods to meet their day-to-day tasks. They have
+            also migrated to cloud-based spaces to have seamless and
+            cost-effective processes. As a result, cyber crimes have increased,
+            creating functional turmoil. Hence, cyber security learning has
+            become vital for techies to battle against cloud-driven data risks.
+            It secures the APIs, enhances access controls for safe data
+            processing, and rectifies the misconfigurations.
+          </p>
+          <p>
+            <b>• Combat AI-rich frauds and attacks : </b>The rising AI-driven
+            trends are becoming the main reason behind growing cyber crimes.
+            AI-powered systems decode human instincts and enhance work
+            practices, driving compelling gains. On the other hand, the rise of
+            AI and machine learning models paves the way for fighting against
+            rising cyber crimes. Learning via{" "}
+            <b>cyber security and hacking courses</b> can equip you with skills
+            to lessen fraudulent actions. Techies with proven cyber security
+            skills can fight against phishing, hacking, and data breaches with
+            tactful solutions. Cybersecurity AI skills have become vital for
+            techies to lead and grow in today’s data-driven era.
+          </p>
+          <p>
+            <b>• Increasing data breaches : </b>Modern-day work practices
+            counter increasing data hacks and breaches. Techies join{" "}
+            <b>cyber security and ethical hacking</b> programs to master prime
+            skills to identify and tackle threats. Cyber security skills help
+            experts protect various data records from being misused by hackers.
+            Also, skilled IT pros can fight against ransomware actions and
+            lessen the rates of cyber attacks. The proven way to tackle cyber
+            crimes is to boost working teams and fill the skill gaps.
+          </p>
+          <p>
+            No wonder, the present data-driven age has seen constantly rising
+            risks of cyber crimes. Hence, leveling up skills via a{" "}
+            <b>cyber security and ethical hacking course</b> has become crucial
+            for techies from diverse fields. In the interim, the role of ethical
+            hackers comes into the limelight, driving compelling results.
+          </p>
+          <p>
+            Techies enrolling in a <b>cyber security ethical hacking course</b>{" "}
+            can master proven tools and trends to build encrypted walls. Hackers
+            develop new methods to invade a firm’s safe space, so enrolling in
+            an inclusively curated course can help you battle rising data hacks
+            and breaches.
+          </p>
+          <h3 style={{ fontSize: "20px" }}>
+            Let’s unleash the extent of ethical hacking in limiting cyber
+            crimes.
+          </h3>
+          {read ? (
+            <>
+              <p>
+                <b>• Ensuring end-to-end systems security : </b>Ethical hacking
+                involves practices for guarding firms and their systems from
+                external hacks. It aims to limit data breaches and network
+                hacks, ensuring well-maintained system security. Techies must
+                master ethical hacking skills to find hidden risks and develop
+                security steps for better results.
+              </p>
+              <p>
+                <b>• Timely detection of malicious moves : </b>Ethical hackers
+                are skilled enough to identify and decode risky factors and
+                limit further losses. An expert with a{" "}
+                <b>cyber security ethical hacking certification</b> can take a
+                legal approach to identifying possible risks and ensuring their
+                complete removal.
+              </p>
+              <p>
+                <b>• On-time incident responses : </b>Ethical hackers are highly
+                demanded to tackle the rising cybercrimes. Such experts help
+                firms find and remove viable risk factors boosting overall
+                growth. They can also respond to critical cases, preparing firms
+                to fight security risks. Hence, enrolling in an{" "}
+                <b>ethical hacking and cyber security</b> program is vital for
+                techies.
+              </p>
+              <p>
+                <b>• End-to-end system surveillance : </b>Ethical hacking is a
+                legal process for combating cyber attacks and saving firms from
+                huge losses. Ethical hackers closely monitor system functions,
+                IP addresses, employee data, and domain names. This helps them
+                decode likely attack sources and devise cogent responses to
+                control them.
+              </p>
+              <p>
+                In short, enrolling in an <b>ethical hacking course</b> is vital
+                for techies willing to join the IT sector. Mastering{" "}
+                <b>cyber security and ethical hacking</b> has become crucial for
+                setting the basis for risk-free business moves. Hence, constant
+                learning of proven tools and trends is vital.
+              </p>
+              <h4 style={{ fontSize: "24px" }}>
+                Is Joining Learnbay’s Cyber Security and Ethical Hacking Course
+                Worth it?
+              </h4>
+              <p>
+                Learnbay’s <b>cyber security and ethical hacking</b> program
+                prepares tech experts for the upcoming future and system
+                vulnerabilities. Our course helps you gain insights into
+                real-world cyber crimes and devise optimal ways to tackle them.
+                Unlike generic courses, joining Learnbay is worth investing in
+                for the following reasons –
+              </p>
+              <ol>
+                <li>
+                  <b>Inclusively curated modules for techies : </b>Learnbay
+                  brings regularly updated learning modules for techies. Our
+                  course module allows you to excel and lead in cyber security
+                  fields with exciting gains. Our inclusion of GenAI with cyber
+                  security prepares you for critical roles. Here, techies can
+                  master tools to detect risks, assess risk factors, and respond
+                  to them timely.
+                </li>
+                <li>
+                  <b>Real-world learning scope : </b>Techies joining our{" "}
+                  <b>ethical hacking and cyber security</b> course will gain
+                  real-world insights. Learners will work on GenAI live projects
+                  to gain practical skills and thrive globally. It equips you
+                  with the skills to decode security risks and tackle them. You
+                  can gain real-time insights into cyber security tools and
+                  their uses for safety goals.
+                </li>
+                <li>
+                  <b>Detailed learning of cyber security tools : </b>Our
+                  learning module is curated based on demand trends. Techies can
+                  learn IAM, ISO standards, cyber security automation, threat
+                  detection, and incident response ways to tackle tech
+                  creations.
+                </li>
+                <li>
+                  <b>Eminent mentors from IIT Roorkee : </b>Techies enrolling in
+                  our <b>cyber hacking course</b> will get endless mentorship
+                  and guidance from IIT Roorkee experts. Also, experts can avail
+                  of 2-day classroom training at IIT Roorkee for quality
+                  upskilling. This immersive learning enriches your career worth
+                  and helps you grab exciting roles.
+                </li>
+                <li>
+                  <b>
+                    Earn IIT Roorkee credentials for enriched career worth :{" "}
+                  </b>
+                  Learning without proof is worthless. Many firms and hiring
+                  partners prefer certified experts over generic ones. Learners
+                  receive{" "}
+                  <b>
+                    iHUB Divya Sampark, IIT Roorkee, and EC Council certificates
+                  </b>{" "}
+                  to build a prestigious career in your domain.
+                </li>
+                <li>
+                  <b>Drive exciting career growth with our placement aid : </b>
+                  Our <b>cyber security and hacking courses</b> offer custom-fit
+                  career support services. Learners enrolling in this course
+                  will gain career-driven perks like mock interviews, resume
+                  build-up, 1:1 doubt-clearing, and interview prep.
+                </li>
+              </ol>
+              <h4 style={{ fontSize: "24px" }}>
+                How valuable is Learnbay’s cyber security and ethical hacking
+                program module?
+              </h4>
+              <p>
+                Learnbay's <b>ethical hacking and cyber security</b> course
+                covers elementary and practical concepts to help you prepare for
+                challenging industry roles. Let’s explore the concisely designed
+                module terms.
+              </p>
+              <b>Term 1: Fundamentals and Prerequisites</b>
+              <p>
+                Learners will gain the basics of OS networking, cloud security,
+                and related tools that are vital in battling against cyber
+                crimes.
+              </p>
+              <b>Term 2: Ethical Hacking and Penetration Testing</b>
+              <p>
+                This module will prepare you for facing tough hacking cases with
+                proven skills and expertise in Nmap and Wireshark-like tools.
+                Experts can gain immense wisdom via this module to kick-start
+                their careers as ethical hackers.
+              </p>
+              <b>Term 3: Advanced Cybersecurity Techniques</b>
+              <p>
+                This module term will help you master cutting-edge cyber
+                security tools to assess critical vulnerabilities, analyze
+                malware, and ensure web protection.
+              </p>
+              <b>Term 4: Cybersecurity and Information Security Essentials</b>
+              <p>
+                Learners will gain a solid knowledge of cyber security
+                principles, practices, network managing measures, and other
+                vital. Also, real-time projects will help you tackle real-world
+                hacking cases for better gains.
+              </p>
+              <b>Term 5: Advanced Cybersecurity Threat Intelligence</b>
+              <p>
+                This module can provide definite gains to techies willing to
+                prosper in their careers in IoT, Red Teaming, automation, and
+                other evolved areas.
+              </p>
+              <b>Term 6: GenAI in Cybersecurity</b>
+              <p>
+                This module helps you master GenAI-rich tools and practices to
+                tackle cyber security threats and respond to each incident.
+              </p>
+              <b>Add-on Term : CISSP Exam</b>
+              <p>
+                This term will help you prepare for the CISSP exam that covers 8
+                crucial domains.
+              </p>
+              <h4 style={{ fontSize: "24px" }}>
+                How does Learnbay's Personalized Career Assistance Help Techies?
+              </h4>
+              <p>
+                Our <b>cyber security and hacking courses</b> help techies
+                throughout their career transition journey. Our learner-centric
+                placement program helps techies excel in tough roles and grow in
+                their careers.
+              </p>
+              <p>Our career support services include –</p>
+              <ul>
+                <li>
+                  <b>• 1:1 doubt-clearing</b>
+                </li>
+                <li>
+                  <b>• Mock interview prep</b>
+                </li>
+                <li>
+                  <b>• Resume build-up</b>
+                </li>
+                <li>
+                  <b>• Assured interview calls</b>
+                </li>
+              </ul>
+              <p>
+                Techies enrolling in our{" "}
+                <b>cyber security ethical hacking course</b> can avail of these
+                career perks and excel in their fields.
               </p>
               <div onClick={popupShow} className={styles.buttonDiv}>
                 <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
