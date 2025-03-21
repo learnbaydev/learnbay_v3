@@ -141,22 +141,26 @@ const DSAFeeSection = ({
                 </div>
               </div>
             )}
-            {showStickyBanner && (
-              <div className={styles.stickySpecialOffer}>
-                <span className={styles.specialOfferTitle}>Special Offer:</span>
-                <div className={styles.vertical}>
-                  <span className={styles.offerDetails}>
-                    Avail up to{" "}
-                    <span className={styles.highlight}>
-                      20% Financial Year-End Scholarship
+            <div ref={sentinelRef}>
+              {showStickyBanner && (
+                <div className={styles.stickySpecialOffer}>
+                  <span className={styles.specialOfferTitle}>
+                    Special Offer:
+                  </span>
+                  <div className={styles.vertical}>
+                    <span className={styles.offerDetails}>
+                      Avail up to{" "}
+                      <span className={styles.highlight}>
+                        20% Financial Year-End Scholarship
+                      </span>
                     </span>
-                  </span>
-                  <span className={styles.validityBadge}>
-                    Valid till- 31st March
-                  </span>
+                    <span className={styles.validityBadge}>
+                      Valid till- 31st March
+                    </span>
+                  </div>
                 </div>
-              </div>
-            )}
+              )}
+            </div>
           </div>
           {/* </div> */}
           <div className={styles.batch}>

@@ -1,5 +1,6 @@
 .main {
   margin: 100px 0;
+  position: relative;
 }
 
 .main h2 {
@@ -57,9 +58,9 @@
   height: 1px;
   width: 100%;
 }
-.stickyContainer {
+/* .stickyContainer {
   position: relative;
-}
+} */
 /* Sticky banner for mobile view */
 .stickySpecialOffer {
   position: sticky;
