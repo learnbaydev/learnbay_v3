@@ -24,9 +24,9 @@ const SeventhSection = dynamic(() =>
 const ProgramFee = dynamic(() =>
   import("../../../components/Seo/ProgramInfo/ProgramFee/ProgramFee")
 );
-const CityText = dynamic(() =>
-  import("../../../components/Seo/CityText/CityText")
-);
+// const CityText = dynamic(() =>
+//   import("../../../components/Seo/CityText/CityText")
+// );
 const CitiesLeft = dynamic(() =>
   import("../../../components/Seo/CitiesLeft/CitiesLeft")
 );
@@ -451,12 +451,12 @@ export default function Home() {
           </div>
         </div>
         <SeventhSection />
-        <CityText
+        {/* <CityText
           CityTextB={DSBangladeshCourseData[0].CityTextB}
           CityText={DSBangladeshCourseData[0].CityText}
           CityTextLB={DSBangladeshCourseData[0].CityTextLB}
           CityTextL={DSBangladeshCourseData[0].CityTextL}
-        />
+        /> */}
         <Footer />
         {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>
