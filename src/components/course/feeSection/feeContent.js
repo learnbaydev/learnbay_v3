@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 const Button = dynamic(() => import("@/components/Global/Button/Button"));
@@ -24,6 +24,41 @@ const FeeContent = ({
   iitGuwatiGen,
 }) => {
   const [emiPopupIsOpen, setEmiPopupIsOpen] = useState(false);
+  const [showStickyBanner, setShowStickyBanner] = useState(false);
+    const sentinelRef = useRef(null);
+
+useEffect(() => {
+    const isMobile = window.matchMedia("(max-width: 768px)").matches;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        // If 80% of part1 is visible and component is in view
+        if (
+          entry.isIntersecting &&
+          entry.intersectionRatio >= 0.8 &&
+          isMobile
+        ) {
+          setShowStickyBanner(true);
+        }
+        // else if (entry.intersectionRatio < 0.1) {
+        //   setShowStickyBanner(false);
+        // }
+      },
+      {
+        root: null, // viewport
+        threshold: [0, 0.8], // triggers when crossing 80%
+      }
+    );
+
+
+    if (sentinelRef.current) observer.observe(sentinelRef.current);
+
+    return () => {
+      if (sentinelRef.current) observer.unobserve(sentinelRef.current);
+    };
+  }, []);
+
+
   const popupShow = () => {
     setPopups(true);
   };
@@ -40,7 +75,7 @@ const FeeContent = ({
       <h2>Course Fee</h2>
       <div className={styles.mainContainer}>
         <div className={styles.innerContainer}>
-          <div className={styles.firstContainer}>
+          <div className={styles.firstContainer} ref={sentinelRef}>
             <h4 className={styles.headOrange}>Live online classes</h4>
             <p className={styles.firstP}>Benefits :</p>
             <div className={styles.iconDiv}>
@@ -200,6 +235,7 @@ const FeeContent = ({
             </div>
           </div>
         </div>
+        {!showStickyBanner && (
         <div className={styles.specialOfferBanner}>
           <span className={styles.specialOfferTitle}>Special Offer:</span>
           <div className={styles.vertical}>
@@ -212,6 +248,7 @@ const FeeContent = ({
             <span className={styles.validityBadge}>Valid till- 31st March</span>
           </div>
         </div>
+      )}
         <div className={styles.btnDown}>
           <div className={styles.btnone} onClick={popupShow}>
             <Image
@@ -225,6 +262,22 @@ const FeeContent = ({
           </div>
         </div>
       </div>
+
+      
+      {showStickyBanner && (
+        <div className={styles.stickySpecialOffer}>
+          <span className={styles.specialOfferTitle}>Special Offer:</span>
+          <div className={styles.vertical}>
+            <span className={styles.offerDetails}>
+              Avail up to{" "}
+              <span className={styles.highlight}>
+                20% Financial Year-End Scholarship
+              </span>
+            </span>
+            <span className={styles.validityBadge}>Valid till- 31st March</span>
+          </div>
+        </div>
+      )}
 
       {/* Emi Popup */}
       <Modal
