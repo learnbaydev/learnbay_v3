@@ -36,6 +36,7 @@ const FeeContent = ({
   const popupShow = () => {
     setPopups(true);
   };
+  const [showStickyBanner, setShowStickyBanner] = useState(false);
   const openEmiPopup = () => {
     setEmiPopupIsOpen(true);
   };
@@ -61,7 +62,6 @@ const FeeContent = ({
         Invest in your future with affordable program fees and flexible batch
         options
       </p> */}
-
       {/* <div className={styles.mainContainer}>
         <div className={styles.innerMainContainer}>
           <div className={styles.innerContainer}>
@@ -222,7 +222,6 @@ const FeeContent = ({
           </div>
         </div>
       </div> */}
-
       <div className={styles.ThreeCard}>
         <div className={styles.first}>
           <p style={{ textAlign: "center" }}>
@@ -312,7 +311,7 @@ const FeeContent = ({
             />
           </div>
         </div>
-        
+
         <div className={styles.third}>
           <p>Batch Details</p>
           <div className={styles.boxOrange}>
@@ -335,7 +334,6 @@ const FeeContent = ({
             }}
           />
           <div className={styles.boxOrange}>
-            
             <p> {weekdaybatch}</p>
             <div className={styles.batches}>
               <p className={styles.date}>{WeekdayDate}</p>
@@ -345,11 +343,40 @@ const FeeContent = ({
               </div>
             </div>
           </div>
-      
-        
         </div>
+      </div>{" "}
+      {!showStickyBanner && (
+        <div className={styles.specialOfferBanner}>
+          <span className={styles.specialOfferTitle}>Special Offer:</span>
+          <div className={styles.vertical}>
+            <span className={styles.offerDetails}>
+              Avail up to{" "}
+              <span className={styles.highlight}>
+                20% Financial Year-End Scholarship
+              </span>
+            </span>
+            <span className={styles.validityBadge}>Valid till- 31st March</span>
+          </div>
+        </div>
+      )}
+      <div ref={sentinelRef}>
+        {showStickyBanner && (
+          <div className={styles.stickySpecialOffer}>
+            <span className={styles.specialOfferTitle}>Special Offer:</span>
+            <div className={styles.vertical}>
+              <span className={styles.offerDetails}>
+                Avail up to{" "}
+                <span className={styles.highlight}>
+                  20% Financial Year-End Scholarship
+                </span>
+              </span>
+              <span className={styles.validityBadge}>
+                Valid till- 31st March
+              </span>
+            </div>
+          </div>
+        )}
       </div>
-
       {/* Emi Popup */}
       <Modal
         isOpen={emiPopupIsOpen}
