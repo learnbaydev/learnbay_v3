@@ -29,7 +29,7 @@ const DSAFeeSection = ({
 }) => {
   const [emiPopupIsOpen, setEmiPopupIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-  const containerRef = useRef(null);
+  // const containerRef = useRef(null);
   const popupShow = () => {
     setPopups(true);
   };
@@ -78,7 +78,7 @@ const DSAFeeSection = ({
 
   useEffect(() => {
     const isMobile = window.matchMedia("(max-width: 768px)").matches;
-    
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         // If 80% of part1 is visible and component is in view
@@ -88,9 +88,10 @@ const DSAFeeSection = ({
           isMobile
         ) {
           setShowStickyBanner(true);
-        } else if (entry.intersectionRatio < 0.1) {
-          setShowStickyBanner(false);
         }
+        // else if (entry.intersectionRatio < 0.1) {
+        //   setShowStickyBanner(false);
+        // }
       },
       {
         root: null, // viewport
@@ -98,30 +99,30 @@ const DSAFeeSection = ({
       }
     );
 
-    const containerObserver = new IntersectionObserver(
-      ([entry]) => {
-        if (!entry.isIntersecting) {
-          setShowStickyBanner(false); // Component out of view
-        }
-      },
-      {
-        root: null,
-        threshold: 0,
-      }
-    );
+    // const containerObserver = new IntersectionObserver(
+    //   ([entry]) => {
+    //     if (!entry.isIntersecting) {
+    //       setShowStickyBanner(false); // Component out of view
+    //     }
+    //   },
+    //   {
+    //     root: null,
+    //     threshold: 0,
+    //   }
+    // );
 
     if (sentinelRef.current) observer.observe(sentinelRef.current);
-    if (containerRef.current) containerObserver.observe(containerRef.current);
+    // if (containerRef.current) containerObserver.observe(containerRef.current);
 
     return () => {
       if (sentinelRef.current) observer.unobserve(sentinelRef.current);
-      if (containerRef.current)
-        containerObserver.unobserve(containerRef.current);
+      // if (containerRef.current)
+      //   containerObserver.unobserve(containerRef.current);
     };
   }, []);
 
   return (
-    <section className={styles.main} ref={containerRef}>
+    <section className={styles.main}>
       <div className={styles.stickyContainer}>
         <h2>Fee & Batch Details </h2>
         <div className={styles.mainContainer}>
@@ -216,24 +217,23 @@ const DSAFeeSection = ({
               </div>
             </div>
           </div>
-        </div>
-
-        {showStickyBanner && (
-          <div className={styles.stickySpecialOffer}>
-            <span className={styles.specialOfferTitle}>Special Offer:</span>
-            <div className={styles.vertical}>
-              <span className={styles.offerDetails}>
-                Avail up to{" "}
-                <span className={styles.highlight}>
-                  20% Financial Year-End Scholarship
+          {showStickyBanner && (
+            <div className={styles.stickySpecialOffer}>
+              <span className={styles.specialOfferTitle}>Special Offer:</span>
+              <div className={styles.vertical}>
+                <span className={styles.offerDetails}>
+                  Avail up to{" "}
+                  <span className={styles.highlight}>
+                    20% Financial Year-End Scholarship
+                  </span>
                 </span>
-              </span>
-              <span className={styles.validityBadge}>
-                Valid till- 31st March
-              </span>
+                <span className={styles.validityBadge}>
+                  Valid till- 31st March
+                </span>
+              </div>
             </div>
-          </div>
-        )}
+          )}
+        </div>
 
         {/* Emi Popup */}
         <Modal

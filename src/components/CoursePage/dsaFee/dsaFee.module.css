@@ -15,7 +15,7 @@
   margin-top: 20px; /* Optional spacing from the container above */
 }
 
-.stickySpecialOffer{
+.stickySpecialOffer {
   display: none;
 }
 
@@ -65,7 +65,6 @@
   position: relative;
 } */
 /* Sticky banner for mobile view */
-
 
 /* Add additional existing styles for other elements below as needed */
 
@@ -330,17 +329,17 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .specialOfferBanner{
+  .specialOfferBanner {
     display: none;
   }
 
   .stickySpecialOffer {
-    position: fixed;
+    position: sticky;
     bottom: 0;
     left: 0;
     right: 0;
     background-color: #f7f3ff;
-    border-radius: 50px 50px 0 0;
+    /* border-radius: 50px 50px 0 0; */
     padding: 15px 25px;
     gap: 10px;
     display: flex;
