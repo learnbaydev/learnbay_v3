@@ -1,6 +1,5 @@
 .main {
   margin: 100px 0;
-  position: relative;
 }
 
 .main h2 {
@@ -14,6 +13,10 @@
   padding: 15px 25px; /* Spacing inside the pill */
   gap: 30px; /* Space between elements */
   margin-top: 20px; /* Optional spacing from the container above */
+}
+
+.stickySpecialOffer{
+  display: none;
 }
 
 .specialOfferTitle {
@@ -62,27 +65,7 @@
   position: relative;
 } */
 /* Sticky banner for mobile view */
-.stickySpecialOffer {
-  position: sticky;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #f7f3ff;
-  border-radius: 50px 50px 0 0;
-  padding: 15px 25px;
-  gap: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1000;
-}
 
-/* Only show sticky banner on mobile */
-@media (min-width: 768px) {
-  .stickySpecialOffer {
-    display: none;
-  }
-}
 
 /* Add additional existing styles for other elements below as needed */
 
@@ -344,6 +327,26 @@
 @media screen and (max-width: 1181px) {
   .mainContainer {
     max-width: 1000px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .specialOfferBanner{
+    display: none;
+  }
+
+  .stickySpecialOffer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f7f3ff;
+    border-radius: 50px 50px 0 0;
+    padding: 15px 25px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
   }
 }
 @media screen and (max-width: 641px) {
