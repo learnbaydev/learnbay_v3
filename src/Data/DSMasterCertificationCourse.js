@@ -380,10 +380,165 @@ export const DataScienceCourseData = [
           open: false,
         },
       },
+      {
+        Module0: {
+          title: "TERM 3 :- Generative AI and Agentic AI",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_up.webp",
+          points: "SQL",
+          points1: "MongoDB",
+          points2: "Tableau",
+          content: [
+            {
+              chap: {
+                section: "Section 1: Generative AI ",
+                title: "Fundamentals of Generative AI",
+                desc: [
+                  "Overview of generative models and their real-world applications,highlighting differences from traditional AI.",
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Use Cases of GenAI in Various Industries and Domains",
+                desc: [
+                  "Finance: Fraud detection, automated report generation, and investment insights.",
+                  "Healthcare: Drug discovery, medical image analysis, and personalized treatment.",
+                  "Retail and E-commerce: Personalized recommendations, inventory management, and customer service automation.",
+                  "Manufacturing: Quality control, predictive maintenance, and process optimization.",
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Deep Learning Foundations for GenAI",
+                desc: [
+                  "Neural networks and deep learning basics, Backpropagation and optimization techniques",
+                  "Overview of popular deep learning frameworks (TensorFlow,PyTorch).",
+                  "Hands-on Project: Build a basic image classifier using CNNs with TensorFlow or PyTorch, applying optimization techniques learned.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Prompt Engineering and optimisation",
+                desc: [
+                  "Strategies for crafting effective prompts to optimize AI responses and improve user interaction",
+                  "Techniques for prompt optimization and prompt chaining.",
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Transformers and Attention Mechanisms",
+                desc: [
+                  "Introduction to transformers and self-attention, BERT, GPT, and other transformer-based architectures, Hands-on exercise: Finetuning a transformer model for text generation.",
+                  "Hands-on Project: Fine-tune a transformer model on a custom text dataset for a text classification or summarization task.",
+                
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Large Language Models (LLMs)",
+                desc: [
+                  "Overview of LLMs like GPT-3, ChatGPT, and LLaMA",
+                  "Fine-tuning LLMs for specific use cases, Applications in chatbots, summarization, and sentiment analysis.",
+                  " Hands-on exercise: Design and deploy a conversational AI model that simulates a customer service assistant for a chosen domain (e.g., retail or tech support).",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Integration of OpenAI APIs",
+                desc: [
+                  "Techniques for effectively integrating OpenAI APIs, including authentication and best practices for data handling. Rate limits and error handling.",
+                  "Hands-on Project: Develop a web app that uses OpenAI’s API for content generation based on user inputs, including authentication and error handling.",
+                ],
+              },
+            },
+            {
+              chap: {
+                section: "Section 2: Agentic AI",
+                title: "Understanding Agentic AI and Autonomous Agents",
+                desc: [
+                  "Core principles of agentic systems (Autonomy, Goal-oriented behavior, Decision-making)",
+                  "Use cases in business and technology",
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                
+                title: "Introduction to Agentic AI",
+                desc: [
+                  "Task Management and Automation",
+                  "Decision-making frameworks",
+                  "Practical demonstration using LangChain"
+                ],
+              },
+            },
+            {
+              chap: {
+                
+                title: "Key Components of Agentic AI",
+                desc: [
+                  "LangChain: Introduction and hands-on exercises",
+                  "AutoGPT: Setup and practical application",
+                  "CrewAI: Introduction and practical demonstrations"
+                ],
+              },
+            },
+            {
+              chap: {
+                
+                title: "Essential Tools for Agentic AI",
+                desc: [
+                  "Integrating agents with OpenAI APIs",
+                  "Building custom agents for specific tasks",
+                  "Hands-on session with OpenAI's GPT models",
+                ],
+              },
+            },
+            {
+              chap: {
+                
+                title: "Agentic AI Integration",
+                desc: [
+                  "Integrating agents with OpenAI APIs",
+                  "Building custom agents for specific tasks",
+                  "Hands-on session with OpenAI's GPT models",
+                ],
+              },
+            },
+            {
+              chap: {
+                
+                title: "GenAI Copilot, Deployment and Ethical Considerations in GenAI",
+                desc: [
+                  "Learn Model Deployment for Generative AI, covering deployment techniques, best practices, API setup, and scaling infrastructure.",
+                  "Explore GenAI Copilot Tools for Coding, including GitHub Copilot, Tabnine, Amazon CodeWhisperer, Replit Ghostwriter, and Codex.",
+                  "Gain insights into Ethical Considerations in GenAI, addressing bias, privacy, and responsible AI development.",
+                ],
+              },
+            },
+          ],
+          id: 3,
+          open: false,
+        },
+      },
 
       {
         Module0: {
-          title: "TERM 3 :- Big Data Analytics and Visualization",
+          title: "TERM 4 :- Big Data Analytics and Visualization",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
           StartImageUrl:
@@ -478,6 +633,202 @@ export const DataScienceCourseData = [
         },
       },
 
+     
+
+      {
+        Module0: {
+          title: "TERM  5:- AI TOOLS",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_up.webp",
+          points: "Deep Learning",
+          points1: "(NLP)",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :- Deep Learning ",
+                desc: [
+                  "Neural Network",
+                  "Simple Computation, Constants, and Variables",
+                  "Back-propagation",
+                  "TensorBoard",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 2 :- NLP",
+                desc: [
+                  "Natural Language Processing",
+                  "Text Analysis",
+                  "KNN",
+                  "Text Pre Processing Techniques",
+                  "Stemming",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 3 :- Computer Vision",
+                desc: [
+                  "Computer Vision overview",
+                  "Image Filtering",
+                  "Image Processing",
+                  "Image Classification and segmentation",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 4 :- Reinforcement Learning",
+                desc: [
+                  "What is Reinforcement Learning - Basics",
+                  "Approximation Methods for Reinforcement Learning",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+
+      {
+        Module0: {
+          title: "TERM 6 :- Data Management and Deployment ",
+          imageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_round.webp",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_up.webp",
+          points: "-MLOps",
+          points1: "(NLP)",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :-MLOps ",
+                desc: [
+                  "Introduction to MLOps",
+                  "Version Control for ML",
+                  "Containerization and Docker",
+                  "Orchestration with Kubernetes",
+                  "Continuous Integration (CI) for ML",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 2 :-  Deployment AWS+Azure ",
+                desc: [
+                  "Data Preparation and Feature Engineering",
+                  "Model Training and Evaluation",
+                  "Model Deployment and Management",
+                  "Advanced Topics in Machine Learning on AWS and Azure",
+                ],
+              },
+            },
+          ],
+          id: 6,
+          open: false,
+        },
+      },
+
+      {
+        Module0: {
+          title: "TERM 7 :- Essentials",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_up.webp",
+          points: "Project Management Module",
+          points1: "AI Generative Tools",
+          content: [
+            {
+              chap: {
+                title: "Module 1 :- Data Structures & Algorithms ",
+                desc: [
+                  "Array Overview",
+                  "String",
+                  "Linked List",
+                  "Queue",
+                  "Stack",
+                  "Trie",
+                  "Tree, Binary Search Tree and AVL Tree",
+                  "Segment Tree",
+                  "Graph & Recursion",
+                  "Introduction to recursion",
+                  "Backtracking Algorithm",
+                  "Searching",
+                  "Sorting",
+                  "Greedy Algorithm",
+                  "Pattern Searching",
+                  "Dynamic Programming",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 2 :- Excel",
+                desc: [
+                  "Introduction to Excel",
+                  "Basic Formulas and Functions",
+                  "Data Formatting and Cell Styles",
+                  "Data Sorting and Filtering",
+                  "Charts and Graphs",
+                  "Data Validation and Protection",
+                  "PivotTables and PivotCharts",
+                  "Advanced Formulas and Functions",
+                  "Data Analysis Tools",
+                  "Excel Macros and Automation",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 3 :-  Project Management",
+                desc: [
+                  "Introduction to Excel",
+                  "Basic Formulas and Functions",
+                  "Data Formatting and Cell Styles",
+                  "Data Sorting and Filtering",
+                  "Charts and Graphs",
+                  "Data Validation and Protection",
+                  "PivotTables and PivotCharts",
+                  "Advanced Formulas and Functions",
+                  "Data Analysis Tools",
+                  "Excel Macros and Automation",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 4 :-  Business Analytics",
+                desc: [
+                  "Introduction to Business Analysis",
+                  "Stakeholders in Business Analysis",
+                  "Formulating Requirements",
+                  "Flowchart and Modelling",
+                  "Analysing andAnalysing and Transforming Requirements",
+                  "Finalising Requirements",
+                ],
+              },
+            },
+          ],
+          id: 6,
+          open: false,
+        },
+      },
       {
         Module0: {
           title: "BONUS :- AI Generative Tools and Future Trends",
@@ -625,201 +976,6 @@ export const DataScienceCourseData = [
             },
           ],
           id: 4,
-          open: false,
-        },
-      },
-
-      {
-        Module0: {
-          title: "TERM 4 :- AI TOOLS",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
-          StartImageUrl:
-            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_up.webp",
-          points: "Deep Learning",
-          points1: "(NLP)",
-          content: [
-            {
-              chap: {
-                title: "Module 1 :- Deep Learning ",
-                desc: [
-                  "Neural Network",
-                  "Simple Computation, Constants, and Variables",
-                  "Back-propagation",
-                  "TensorBoard",
-                ],
-              },
-            },
-
-            {
-              chap: {
-                title: "Module 2 :- NLP",
-                desc: [
-                  "Natural Language Processing",
-                  "Text Analysis",
-                  "KNN",
-                  "Text Pre Processing Techniques",
-                  "Stemming",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 3 :- Computer Vision",
-                desc: [
-                  "Computer Vision overview",
-                  "Image Filtering",
-                  "Image Processing",
-                  "Image Classification and segmentation",
-                ],
-              },
-            },
-
-            {
-              chap: {
-                title: "Module 4 :- Reinforcement Learning",
-                desc: [
-                  "What is Reinforcement Learning - Basics",
-                  "Approximation Methods for Reinforcement Learning",
-                ],
-              },
-            },
-          ],
-          id: 5,
-          open: false,
-        },
-      },
-
-      {
-        Module0: {
-          title: "TERM 5 :- Data Management and Deployment ",
-          imageUrl:
-            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_round.webp",
-          StartImageUrl:
-            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_down.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_up.webp",
-          points: "-MLOps",
-          points1: "(NLP)",
-          content: [
-            {
-              chap: {
-                title: "Module 1 :-MLOps ",
-                desc: [
-                  "Introduction to MLOps",
-                  "Version Control for ML",
-                  "Containerization and Docker",
-                  "Orchestration with Kubernetes",
-                  "Continuous Integration (CI) for ML",
-                ],
-              },
-            },
-
-            {
-              chap: {
-                title: "Module 2 :-  Deployment AWS+Azure ",
-                desc: [
-                  "Data Preparation and Feature Engineering",
-                  "Model Training and Evaluation",
-                  "Model Deployment and Management",
-                  "Advanced Topics in Machine Learning on AWS and Azure",
-                ],
-              },
-            },
-          ],
-          id: 6,
-          open: false,
-        },
-      },
-
-      {
-        Module0: {
-          title: "TERM 6 :- Essentials",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_round.webp ",
-          StartImageUrl:
-            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_down.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_up.webp",
-          points: "Project Management Module",
-          points1: "AI Generative Tools",
-          content: [
-            {
-              chap: {
-                title: "Module 1 :- Data Structures & Algorithms ",
-                desc: [
-                  "Array Overview",
-                  "String",
-                  "Linked List",
-                  "Queue",
-                  "Stack",
-                  "Trie",
-                  "Tree, Binary Search Tree and AVL Tree",
-                  "Segment Tree",
-                  "Graph & Recursion",
-                  "Introduction to recursion",
-                  "Backtracking Algorithm",
-                  "Searching",
-                  "Sorting",
-                  "Greedy Algorithm",
-                  "Pattern Searching",
-                  "Dynamic Programming",
-                ],
-              },
-            },
-
-            {
-              chap: {
-                title: "Module 2 :- Excel",
-                desc: [
-                  "Introduction to Excel",
-                  "Basic Formulas and Functions",
-                  "Data Formatting and Cell Styles",
-                  "Data Sorting and Filtering",
-                  "Charts and Graphs",
-                  "Data Validation and Protection",
-                  "PivotTables and PivotCharts",
-                  "Advanced Formulas and Functions",
-                  "Data Analysis Tools",
-                  "Excel Macros and Automation",
-                ],
-              },
-            },
-
-            {
-              chap: {
-                title: "Module 3 :-  Project Management",
-                desc: [
-                  "Introduction to Excel",
-                  "Basic Formulas and Functions",
-                  "Data Formatting and Cell Styles",
-                  "Data Sorting and Filtering",
-                  "Charts and Graphs",
-                  "Data Validation and Protection",
-                  "PivotTables and PivotCharts",
-                  "Advanced Formulas and Functions",
-                  "Data Analysis Tools",
-                  "Excel Macros and Automation",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 4 :-  Business Analytics",
-                desc: [
-                  "Introduction to Business Analysis",
-                  "Stakeholders in Business Analysis",
-                  "Formulating Requirements",
-                  "Flowchart and Modelling",
-                  "Analysing andAnalysing and Transforming Requirements",
-                  "Finalising Requirements",
-                ],
-              },
-            },
-          ],
-          id: 6,
           open: false,
         },
       },

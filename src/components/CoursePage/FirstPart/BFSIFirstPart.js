@@ -136,7 +136,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
         brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BFSIHeader-min.webp"
         firstToparaImg="for BFSI Professionals"
-        firstHeading="Data Science & AI Certification Program"
+        firstHeading="Data Science & Generative AI Certification Program"
         firstTopPara=""
         idss="Fp03J-kqweY"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BFSIHeader-min.webp"
