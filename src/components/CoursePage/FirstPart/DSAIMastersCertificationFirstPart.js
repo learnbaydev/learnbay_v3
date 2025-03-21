@@ -138,7 +138,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Adv-dsai-_1_-min.webp"
         firstToparaImg="Master Certification Program"
-        firstHeading="Data Science and AI"
+        firstHeading="Data Science and Generative AI"
         firstTopPara="Curriculum Inclusive of Gen-AI "
         idss="nutaXz8kwBc"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Foundation+program-min.webp"

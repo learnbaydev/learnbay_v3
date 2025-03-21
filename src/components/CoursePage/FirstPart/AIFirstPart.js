@@ -145,7 +145,7 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
         idss="KcQfbuwJBmU"
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ai-ml-main.webp"
         firstToparaImg="for Tech Professionals"
-        firstHeading="Advanced AI & ML Certification Program "
+        firstHeading="Generative AI & Machine Learning Program"
         firstTopPara="Expand beyond technology"
         // thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ai-f-one.webp"
         // videoId="KcQfbuwJBmU"

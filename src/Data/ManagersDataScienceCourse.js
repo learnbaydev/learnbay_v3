@@ -1837,10 +1837,165 @@ export const DataScienceCourseData = [
           open: false,
         },
       },
+      {
+        Module0: {
+          title: "TERM 3 :- Generative AI and Agentic AI",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_up.webp",
+          points: "SQL",
+          points1: "MongoDB",
+          points2: "Tableau",
+          content: [
+            {
+              chap: {
+                section: "Section 1: Generative AI ",
+                title: "Fundamentals of Generative AI",
+                desc: [
+                  "Overview of generative models and their real-world applications,highlighting differences from traditional AI.",
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Use Cases of GenAI in Various Industries and Domains",
+                desc: [
+                  "Finance: Fraud detection, automated report generation, and investment insights.",
+                  "Healthcare: Drug discovery, medical image analysis, and personalized treatment.",
+                  "Retail and E-commerce: Personalized recommendations, inventory management, and customer service automation.",
+                  "Manufacturing: Quality control, predictive maintenance, and process optimization.",
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Deep Learning Foundations for GenAI",
+                desc: [
+                  "Neural networks and deep learning basics, Backpropagation and optimization techniques",
+                  "Overview of popular deep learning frameworks (TensorFlow,PyTorch).",
+                  "Hands-on Project: Build a basic image classifier using CNNs with TensorFlow or PyTorch, applying optimization techniques learned.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Prompt Engineering and optimisation",
+                desc: [
+                  "Strategies for crafting effective prompts to optimize AI responses and improve user interaction",
+                  "Techniques for prompt optimization and prompt chaining.",
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Transformers and Attention Mechanisms",
+                desc: [
+                  "Introduction to transformers and self-attention, BERT, GPT, and other transformer-based architectures, Hands-on exercise: Finetuning a transformer model for text generation.",
+                  "Hands-on Project: Fine-tune a transformer model on a custom text dataset for a text classification or summarization task.",
+                
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Large Language Models (LLMs)",
+                desc: [
+                  "Overview of LLMs like GPT-3, ChatGPT, and LLaMA",
+                  "Fine-tuning LLMs for specific use cases, Applications in chatbots, summarization, and sentiment analysis.",
+                  " Hands-on exercise: Design and deploy a conversational AI model that simulates a customer service assistant for a chosen domain (e.g., retail or tech support).",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Integration of OpenAI APIs",
+                desc: [
+                  "Techniques for effectively integrating OpenAI APIs, including authentication and best practices for data handling. Rate limits and error handling.",
+                  "Hands-on Project: Develop a web app that uses OpenAI’s API for content generation based on user inputs, including authentication and error handling.",
+                ],
+              },
+            },
+            {
+              chap: {
+                section: "Section 2: Agentic AI",
+                title: "Understanding Agentic AI and Autonomous Agents",
+                desc: [
+                  "Core principles of agentic systems (Autonomy, Goal-oriented behavior, Decision-making)",
+                  "Use cases in business and technology",
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                
+                title: "Introduction to Agentic AI",
+                desc: [
+                  "Task Management and Automation",
+                  "Decision-making frameworks",
+                  "Practical demonstration using LangChain"
+                ],
+              },
+            },
+            {
+              chap: {
+                
+                title: "Key Components of Agentic AI",
+                desc: [
+                  "LangChain: Introduction and hands-on exercises",
+                  "AutoGPT: Setup and practical application",
+                  "CrewAI: Introduction and practical demonstrations"
+                ],
+              },
+            },
+            {
+              chap: {
+                
+                title: "Essential Tools for Agentic AI",
+                desc: [
+                  "Integrating agents with OpenAI APIs",
+                  "Building custom agents for specific tasks",
+                  "Hands-on session with OpenAI's GPT models",
+                ],
+              },
+            },
+            {
+              chap: {
+                
+                title: "Agentic AI Integration",
+                desc: [
+                  "Integrating agents with OpenAI APIs",
+                  "Building custom agents for specific tasks",
+                  "Hands-on session with OpenAI's GPT models",
+                ],
+              },
+            },
+            {
+              chap: {
+                
+                title: "GenAI Copilot, Deployment and Ethical Considerations in GenAI",
+                desc: [
+                  "Learn Model Deployment for Generative AI, covering deployment techniques, best practices, API setup, and scaling infrastructure.",
+                  "Explore GenAI Copilot Tools for Coding, including GitHub Copilot, Tabnine, Amazon CodeWhisperer, Replit Ghostwriter, and Codex.",
+                  "Gain insights into Ethical Considerations in GenAI, addressing bias, privacy, and responsible AI development.",
+                ],
+              },
+            },
+          ],
+          id: 3,
+          open: false,
+        },
+      },
 
       {
         Module0: {
-          title: "Term 3 :-  Data Science Tools",
+          title: "Term 4 :-  Data Science Tools",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
           StartImageUrl:
@@ -1916,7 +2071,7 @@ export const DataScienceCourseData = [
 
       {
         Module0: {
-          title: "Term 4 :- Artificial Intelligence Tools",
+          title: "Term 5 :- Artificial Intelligence Tools",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
           StartImageUrl:
@@ -1995,7 +2150,7 @@ export const DataScienceCourseData = [
 
       {
         Module0: {
-          title: "Term 5 :- Essentials",
+          title: "Term 6 :- Essentials",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_round.webp ",
           StartImageUrl:

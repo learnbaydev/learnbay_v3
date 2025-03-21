@@ -238,7 +238,7 @@ export const DataScienceCourseData = [
     masterSyllabusMobile: [
       {
         Module0: {
-          title: "Module 0 :- Preparatory Classes (Programming + Maths)",
+          title: "Module 0 :- Python Bootcamp for Non-Programmers",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_round.webp",
           StartImageUrl:
@@ -250,33 +250,41 @@ export const DataScienceCourseData = [
           content: [
             {
               chap: {
-                title: "Topic 1 :- Cohort Orientation",
+                title: "Topic 1 :- Installation & Setup",
                 desc: [
-                  "A brief introduction to tools related to data ",
-                  "Learn about particular real-time projects and Capstone projects ",
-                  "Data and its impact on career opportunities",
-                  "Utilizing data, to enhance industrial operations and management",
+                  "Installing Python and setting up IDEs (Jupyter, VSCode).",
+                  "Overview of the Python environment and running basic scripts.",
+                  "Introduction to Jupyter Notebook for interactive coding.",
                 ],
               },
             },
 
             {
               chap: {
-                title: "Topic 2 :- Fundamentals of Programming",
+                title: "Topic 2 :- Basic Syntax & I/O",
                 desc: [
-                  "Introduction to Anaconda & Jupyter notebook",
-                  "Flavors of python Introduction to Git, GitHub",
-                  "Python Fundamentals",
+                  "Understanding variables, data types (integers, floats, strings, booleans).",
+                  "Input and output operations using the input() and print() functions.",
+                  "Performing basic arithmetic operations.",
                 ],
               },
             },
             {
               chap: {
-                title: "Topic 3 :-  Fundamentals of Statistics",
+                title: "Topic 3 :-  Control Structures",
                 desc: [
-                  "Mean, Median, Mode",
-                  "Standard Deviation, Average. Probability, Permutations, and Combinations",
-                  "Introduction to Linear Algebra",
+                  "Conditional logic using if, else, and elif statements.",
+                  "Looping with for and while loops to iterate over data.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 4 :-  Basic Data Structures",
+                desc: [
+                  "Introduction to lists, tuples, and dictionaries.",
+                  "Accessing, modifying, and iterating through collections.",
+                  "Understanding how to use indexing and slicing with lists and tuples",
                 ],
               },
             },
@@ -287,7 +295,8 @@ export const DataScienceCourseData = [
       },
       {
         Module0: {
-          title: "TERM 1 :- Python Programming",
+          title: "TERM 1 :- Python for Data Science",
+         
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
           StartImageUrl:
@@ -296,26 +305,127 @@ export const DataScienceCourseData = [
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
           points: "Basic Python",
           points1: "Advance Python",
+          
           content: [
             {
               chap: {
-                title: "Module 1 :- Basic Python",
+                section:"section 1",
+                title:"Python Environment Setup",
                 desc: [
                   "Programming Basics & Environment Setup ",
                   "Strings, Decisions & Loop Control ",
                   "Python Data Types",
                   "File I/O An d Exceptional Handling and Regular Expression",
                 ],
+                
               },
             },
             {
               chap: {
-                title: "Module 2 :- Advance Python",
+                title:"Python Syntax and Code Structure",
                 desc: [
-                  "Data Analysis Using Numpy",
-                  "Data Analysis Using Pandas",
-                  "Data Visualization using Matplotlib",
+                  "Writing and running Python scripts.",
+                  "Best practices for writing clean and readable code (PEP 8).",
+                  "Understanding Python functions and scopes.",
+                ],
+                
+              },
+            },
+            {
+              chap: {
+                title:"Data Types and Control Flow",
+                desc: [
+                  "Primitive data types: integers, floats, strings, and booleans.",
+                  "Control flow statements (if, else, elif) for decision making.",
+                  "Loops: for, while, do while, break, continue, pass",
+                ],
+                
+              },
+            },
+            {
+              chap: {
+                title:"Data Structures",
+                desc: [
+                  "Introduction to basic data structures (lists, tuples, dictionaries).",
+                  "Manipulating collections: Adding, removing, and modifying elements.",
+                  "List comprehension and dictionary comprehension for concise code.",
+                ],
+                
+              },
+            },
+            {
+              chap: {
+                title:"Functions And Modules",
+                desc: [
+                  "Introduction To Functions Defining & Calling Functions",
+                  "Functions With Multiple Arguments",
+                  "Anonymous Functions - Lambda Using Built-In Modules,",
+                  "User-Defined Modules, Module Namespaces, Iterators And Generators",
+                ],
+                
+              },
+            },
+            {
+              chap: {
+                section: "Section 2 - Data analytics Using Python ",
+                title:"File I/O An d Exceptional Handling and Regular Expression",
+                desc: [
+                  "open Function, file Object Attributes",
+                  "close() Method, Read, write, seek.",
+                  "Exception Handling, try-finally Clause",
+                  "Regular Expression- Search and Replace",
+                  "Regular Expression Modifiers",
+                  "Regular Expression Pattern",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:"Basic Web Scraping for Data Analytics",
+                desc: [
+                  "Definition and use cases in data analytics",
+                  "Tools for scraping: requests and BeautifulSoup",
+                  "Parsing HTML content using BeautifulSoup",
                   "Data Visualization using Seaborn",
+                  "Finding elements by tag, class, or attributes",
+                  "Extracting text, links, and attributes from elements",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:"Data Analysis using Numpy",
+                desc: [
+                  "Introduction to Numpy. Array Creation, Printing Arrays, Basic Operation - Indexing, Slicing and Iterating, Shape Manipulation - Changing shape, stacking and splitting of array",
+                  "Vector stacking, Broadcasting with Numpy, Numpy for Statistical Operation",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:"Data Analysis using Pandas",
+                desc: [
+                  "Pandas : Introduction to Pandas",
+                  "Importing data into Python",
+                  "Pandas Data Frames, Indexing Data Frames ,Basic Operations With Data frame, Renaming Columns, Subsetting and filtering a data frame.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:"Data Visualization using Matplotlib",
+                desc: [
+                  "Introduction, plot(), Controlling Line Properties, Subplot with Functional Method, Multiple Plot, Working with Multiple Figures, Histograms",
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                title:"Data Visualization using Seaborn",
+                desc: [
+                  "Introduction to Seaborn and Visualizing statistical relationships , Import and Prepare data. Plotting with categorical data and Visualizing linear relationships.",
+                  
                 ],
               },
             },
@@ -338,9 +448,10 @@ export const DataScienceCourseData = [
           content: [
             {
               chap: {
-                title: "Module 1 :- Statistics",
+                section: "Section 1 - Statistics ",
+                title: "Fundamentals of Math and Probability",
                 desc: [
-                  " Fundamentals of Math and Probability",
+                  "Probability distributed function & cumulative distribution function. Conditional Probability, Baye’s Theorem",
                   "All about Population & Sample",
                   "Introduction to Statistics, ",
                   "Statistical Thinking",
@@ -383,7 +494,162 @@ export const DataScienceCourseData = [
 
       {
         Module0: {
-          title: "TERM 3 :- Big Data Analytics and Visualization",
+          title: "TERM 3 :- Generative AI and Agentic AI",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_up.webp",
+          points: "SQL",
+          points1: "MongoDB",
+          points2: "Tableau",
+          content: [
+            {
+              chap: {
+                section: "Section 1: Generative AI ",
+                title: "Fundamentals of Generative AI",
+                desc: [
+                  "Overview of generative models and their real-world applications,highlighting differences from traditional AI.",
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Use Cases of GenAI in Various Industries and Domains",
+                desc: [
+                  "Finance: Fraud detection, automated report generation, and investment insights.",
+                  "Healthcare: Drug discovery, medical image analysis, and personalized treatment.",
+                  "Retail and E-commerce: Personalized recommendations, inventory management, and customer service automation.",
+                  "Manufacturing: Quality control, predictive maintenance, and process optimization.",
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Deep Learning Foundations for GenAI",
+                desc: [
+                  "Neural networks and deep learning basics, Backpropagation and optimization techniques",
+                  "Overview of popular deep learning frameworks (TensorFlow,PyTorch).",
+                  "Hands-on Project: Build a basic image classifier using CNNs with TensorFlow or PyTorch, applying optimization techniques learned.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Prompt Engineering and optimisation",
+                desc: [
+                  "Strategies for crafting effective prompts to optimize AI responses and improve user interaction",
+                  "Techniques for prompt optimization and prompt chaining.",
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Transformers and Attention Mechanisms",
+                desc: [
+                  "Introduction to transformers and self-attention, BERT, GPT, and other transformer-based architectures, Hands-on exercise: Finetuning a transformer model for text generation.",
+                  "Hands-on Project: Fine-tune a transformer model on a custom text dataset for a text classification or summarization task.",
+                
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Large Language Models (LLMs)",
+                desc: [
+                  "Overview of LLMs like GPT-3, ChatGPT, and LLaMA",
+                  "Fine-tuning LLMs for specific use cases, Applications in chatbots, summarization, and sentiment analysis.",
+                  " Hands-on exercise: Design and deploy a conversational AI model that simulates a customer service assistant for a chosen domain (e.g., retail or tech support).",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Integration of OpenAI APIs",
+                desc: [
+                  "Techniques for effectively integrating OpenAI APIs, including authentication and best practices for data handling. Rate limits and error handling.",
+                  "Hands-on Project: Develop a web app that uses OpenAI’s API for content generation based on user inputs, including authentication and error handling.",
+                ],
+              },
+            },
+            {
+              chap: {
+                section: "Section 2: Agentic AI",
+                title: "Understanding Agentic AI and Autonomous Agents",
+                desc: [
+                  "Core principles of agentic systems (Autonomy, Goal-oriented behavior, Decision-making)",
+                  "Use cases in business and technology",
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                
+                title: "Introduction to Agentic AI",
+                desc: [
+                  "Task Management and Automation",
+                  "Decision-making frameworks",
+                  "Practical demonstration using LangChain"
+                ],
+              },
+            },
+            {
+              chap: {
+                
+                title: "Key Components of Agentic AI",
+                desc: [
+                  "LangChain: Introduction and hands-on exercises",
+                  "AutoGPT: Setup and practical application",
+                  "CrewAI: Introduction and practical demonstrations"
+                ],
+              },
+            },
+            {
+              chap: {
+                
+                title: "Essential Tools for Agentic AI",
+                desc: [
+                  "Integrating agents with OpenAI APIs",
+                  "Building custom agents for specific tasks",
+                  "Hands-on session with OpenAI's GPT models",
+                ],
+              },
+            },
+            {
+              chap: {
+                
+                title: "Agentic AI Integration",
+                desc: [
+                  "Integrating agents with OpenAI APIs",
+                  "Building custom agents for specific tasks",
+                  "Hands-on session with OpenAI's GPT models",
+                ],
+              },
+            },
+            {
+              chap: {
+                
+                title: "GenAI Copilot, Deployment and Ethical Considerations in GenAI",
+                desc: [
+                  "Learn Model Deployment for Generative AI, covering deployment techniques, best practices, API setup, and scaling infrastructure.",
+                  "Explore GenAI Copilot Tools for Coding, including GitHub Copilot, Tabnine, Amazon CodeWhisperer, Replit Ghostwriter, and Codex.",
+                  "Gain insights into Ethical Considerations in GenAI, addressing bias, privacy, and responsible AI development.",
+                ],
+              },
+            },
+          ],
+          id: 3,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "TERM 4 :- Big Data Analytics and Visualization",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
           StartImageUrl:
@@ -479,7 +745,7 @@ export const DataScienceCourseData = [
       },
       {
         Module0: {
-          title: "TERM 4 :- AI TOOLS",
+          title: "TERM 5 :- AI TOOLS",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
           StartImageUrl:
@@ -514,7 +780,7 @@ export const DataScienceCourseData = [
       },
       {
         Module0: {
-          title: "TERM 5 :- Deployment ",
+          title: "TERM 6 :- Deployment ",
           imageUrl:
             " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_round.webp",
           StartImageUrl:

@@ -136,7 +136,13 @@ const NewSyllabusMap = ({ Syllabus, onlyGENAIPage }) => {
                   <p>{Module0.desc}</p>
                   {Module0.content.map((content, j) => (
                     <div key={`content-${j}`}>
-                      <h5>{content.chap.title}</h5>
+
+                      {content.chap.section && (<h5>{content.chap.section}</h5>)}
+                      <h5>{content.chap.title}</h5>   
+
+                     {/* {content.chap.topics.map((topics, id)=>( 
+                      <h6 key={`topics-${id}`}className={styles.topicStyle}>{content.chap.topics}</h6>
+                      ))} */}
                       {content.chap.desc.map((desc, k) => (
                         <div key={`desc-${k}`}>{desc && <li>{desc}</li>}</div>
                       ))}

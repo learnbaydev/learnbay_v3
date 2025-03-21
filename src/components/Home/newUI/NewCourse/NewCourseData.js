@@ -2,7 +2,7 @@
 export const courses = {
   dataScienceAndAI: [
     {
-      title: "Data Science and AI Master Certification Program",
+      title: "Data Science and Generative AI Master Certification Program",
       duration: "13 months | 4 Capstone Project",
       certification: "Project Certification from IBM",
       description: "For Working Professional",
@@ -26,10 +26,10 @@ export const courses = {
       brochurePdfs: "/Brochure/Executive-program-iit.pdf",
     },
     {
-      title: "Advanced AI & ML Certification Program",
+      title: "Generative AI & Machine Learning Program",
       duration: "9 months | 2 capstone Projects",
       certification: "Project Certification form IBM",
-      description: "Inclusive of Gen Ai",
+      description: "Inclusive of Generative AI",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ai_ML_cardss.webp",
 
@@ -40,10 +40,10 @@ export const courses = {
     },
 
     {
-      title: "Executive Program in Data Science Ai for managers & leaders",
+      title: "Executive Program in Data Science & Generative AI for Managers & Leaders",
       duration: "11 months | 3 Projects",
       certification: "Project Certification form IBM",
-      description: "For Manager & Team leader",
+      description: "For Manager & Team leaderS",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cardss.webp",
       link: "/datascience/data-science-ai-for-managers",
@@ -212,10 +212,10 @@ export const courses = {
     // },
 
     {
-      title: "Executive Program in Data Science Ai for managers & leaders",
+      title: "Executive Program in Data Science & Generative AI for Managers & Leaders",
       duration: "11 months | 3 Projects",
       certification: "Project Certification form IBM",
-      description: "For Manager & Team leader",
+      description: "For Manager & Team leaderS",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cardss.webp",
       link: "/datascience/data-science-ai-for-managers",
@@ -237,7 +237,7 @@ export const courses = {
       brochurePdfs: "/Brochure/hr-analytics.pdf",
     },
     {
-      title: "Data Science & AI for BFSI Professionals",
+      title: "Data Science & Generative AI for BFSI Professionals",
       duration: "7 months | 2 capstone Projects",
       certification: "Project Certification form IBM",
       description: "For BFSI Professional",
@@ -394,7 +394,7 @@ export const courses = {
     // },
 
     {
-      title: "Data Science and AI Master Certification Program",
+      title: "Data Science and Generative AI Master Certification Program",
       duration: "13 months | 4 Capstone Project",
       certification: "Project Certification from IBM",
       description: "For Working Professional",
@@ -418,10 +418,10 @@ export const courses = {
       brochurePdfs: "/Brochure/Executive-program-iit.pdf",
     },
     {
-      title: "Advanced AI & ML Certification Program",
+      title: "Generative AI & Machine Learning Program",
       duration: "9 months | 2 capstone Projects",
       certification: "Project Certification form IBM",
-      description: "Inclusive of Gen Ai",
+      description: "Inclusive of Generative AI",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ai_ML_cardss.webp",
 
@@ -432,7 +432,7 @@ export const courses = {
     },
 
     {
-      title: "Executive Program in Data Science Ai for managers & leaders",
+      title: "Executive Program in Data Science & Generative AI for Managers & Leaders",
       duration: "11 months | 3 Projects",
       certification: "Project Certification form IBM",
       description: "For Manager & Team leader",
@@ -522,7 +522,7 @@ export const courses = {
       brochurePdfs: "/Brochure/Business-Analytics-Program.pdf",
     },
     {
-      title: "Data Science & AI for BFSI Professionals",
+      title: "Data Science & Generative AI for BFSI Professionals",
       duration: "7 months | 2 capstone Projects",
       certification: "Project Certification form IBM",
       description: "For BFSI Professional",
@@ -565,7 +565,7 @@ export const courses = {
 
   domainCourse: [
     {
-      title: "Executive Program in Data Science Ai for managers & leaders",
+      title: "Executive Program in Data Science & Generative AI for Managers & Leaders",
       duration: "11 months | 3 Projects",
       certification: "Project Certification form IBM",
       description: "For Manager & Team leader",
@@ -590,7 +590,7 @@ export const courses = {
       brochurePdfs: "/Brochure/hr-analytics.pdf",
     },
     {
-      title: "Data Science & AI for BFSI Professionals",
+      title: "Data Science & Generative AI for BFSI Professionals",
       duration: "7 months | 2 capstone Projects",
       certification: "Project Certification form IBM",
       description: "For BFSI Professional",
@@ -621,7 +621,7 @@ export const courses = {
 
   Certifications: [
     {
-      title: "Data Science and AI Master Certification Program",
+      title: "Data Science and Generative AI Master Certification Program",
       duration: "13 months | 4 Capstone Project",
       certification: "Project Certification from IBM",
       description: "For Working Professional",
@@ -646,10 +646,10 @@ export const courses = {
     },
 
     {
-      title: "Advanced AI & ML Certification Program",
+      title: "Generative AI & Machine Learning Program",
       duration: "9 months | 2 capstone Projects",
       certification: "Project Certification form IBM",
-      description: "Inclusive of Gen Ai",
+      description: "Inclusive of Generative Ai",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ai_ML_cardss.webp",
 
@@ -660,7 +660,7 @@ export const courses = {
     },
 
     {
-      title: "Advanced Data Science & AI Certification ",
+      title: "Advanced Data Science & Generative AI Certification ",
       duration: "7 months | 2 capstone Projects",
       certification: "Project Certification form IBM",
       description: "For Working Professional",
@@ -714,7 +714,7 @@ export const courses = {
 
   MasterDegree: [
     {
-      title: "Master's Degree in CS: Data Science and AI",
+      title: "Master's Degree in CS: Data Science and Generative AI",
       duration: "18 months | 3 Capstone Project",
       certification: "Master Degree from Woolf University",
       description: "Project Certification from IBM",
@@ -800,7 +800,7 @@ export const courses = {
 
   bfsi: [
     {
-      title: "Executive Program in Data Science Ai for managers & leaders",
+      title: "Executive Program in Data Science & Generative AI for Managers & Leaders",
       duration: "11 months | 3 Projects",
       certification: "Project Certification form IBM",
       description: "For Manager & Team leader",
@@ -825,7 +825,7 @@ export const courses = {
       brochurePdfs: "/Brochure/hr-analytics.pdf",
     },
     {
-      title: "Data Science & AI for BFSI Professionals",
+      title: "Data Science & Generative AI for BFSI Professionals",
       duration: "7 months | 2 capstone Projects",
       certification: "Project Certification form IBM",
       description: "For BFSI Professional",
@@ -892,7 +892,7 @@ export const courses = {
   ],
   manager: [
     {
-      title: "Executive Program in Data Science Ai for managers & leaders",
+      title: "Executive Program in Data Science & Generative AI for Managers & Leaders",
       duration: "11 months | 3 Projects",
       certification: "Project Certification form IBM",
       description: "For Manager & Team leader",
@@ -907,7 +907,7 @@ export const courses = {
 };
 
 export const masterCourse = {
-  title: "Master’s Degree in CS Data Science & AI",
+  title: "Master’s Degree in CS Data Science & Generative AI",
   duration: "Earn a Degree Without Pausing Your Career",
   certification: "Master Degree from Woolf University",
   description: "Project Certification from IBM",

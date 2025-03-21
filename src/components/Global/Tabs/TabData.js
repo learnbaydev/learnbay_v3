@@ -23,7 +23,7 @@ export const TabData = [
     title: "Domain Certification Courses",
     courseName: [
       {
-        CName: "Data Science & AI Program For Managers and Leaders",
+        CName: "Data Science & Generative AI Program For Managers and Leaders",
         hours: "11 Months",
         url: "/datascience/data-science-ai-for-managers",
       },
@@ -33,7 +33,7 @@ export const TabData = [
         url: "/datascience/hr-analytics",
       },
       {
-        CName: "Data Science & AI for BFSI Professionals",
+        CName: "Data Science & Generative AI for BFSI Professionals",
         hours: "7 Months",
         url: "/datascience/data-science-for-bfsi-professional",
       },
@@ -43,7 +43,7 @@ export const TabData = [
         url: "/datascience/marketing-analytics",
       },
       {
-        CName: "Data Science & AI for Healthcare Professionals",
+        CName: "Data Science & Generative AI for Healthcare Professionals",
         hours: "5 Months",
         url: "/datascience/data-science-and-ai-for-healthcare-professionals",
       },
@@ -54,7 +54,7 @@ export const TabData = [
     title: "Our Certification Courses",
     courseName: [
       {
-        CName: "Data Science and AI Master Certification Program",
+        CName: "Data Science and Generative AI Master Certification Program",
         hours: "13 Months",
         url: "/datascience/data-science-and-ai-master-certification-program",
       },
@@ -64,17 +64,17 @@ export const TabData = [
         url: "/datascience/business-analytics-certification-course",
       },
       {
-        CName: "Advanced AI and ML Certification Program",
+        CName: "Generative AI & Machine Learning Program",
         hours: "9 Months",
         url: "/datascience/artificial-intelligence-certification-course",
       },
       {
-        CName: "Advanced Data Science and AI Certification",
+        CName: "Advanced Data Science and Generative AI Certification",
         hours: "7 Months",
         url: "/datascience/advance-data-science-certification-courses",
       },
       {
-        CName: "Data Science and AI Program for Freshers",
+        CName: "Data Science and Generative AI Program for Freshers",
         hours: "6 Months",
         url: "/datascience/data-science-ai-for-freshers",
       },
@@ -140,7 +140,7 @@ export const TabData = [
     title: "Master's Degree Program",
     courseName: [
       {
-        CName: "Master's Degree in CS: Data Science and AI",
+        CName: "Master's Degree in CS: Data Science and Generative AI",
         hours: "18 Months",
         url: "/datascience/data-science-and-ai-masters-in-cs",
       },
