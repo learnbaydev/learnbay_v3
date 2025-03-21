@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 const Button = dynamic(() => import("../../Global/Button/Button"));
@@ -37,6 +37,54 @@ const FeeContent = ({
     setPopups(true);
   };
   const [showStickyBanner, setShowStickyBanner] = useState(false);
+  const sentinelRef = useRef(null);
+  const containerRef = useRef(null);
+
+  useEffect(() => {
+    const isMobile = window.matchMedia("(max-width: 768px)").matches;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        // If 80% of part1 is visible and component is in view
+        if (
+          entry.isIntersecting &&
+          entry.intersectionRatio >= 0.8 &&
+          isMobile
+        ) {
+          setShowStickyBanner(true);
+        }
+        // else if (entry.intersectionRatio < 0.1) {
+        //   setShowStickyBanner(false);
+        // }
+      },
+      {
+        root: null, // viewport
+        threshold: [0, 0.8], // triggers when crossing 80%
+      }
+    );
+
+    const containerObserver = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry.isIntersecting) {
+          setShowStickyBanner(false); // Component out of view
+        }
+      },
+      {
+        root: null,
+        threshold: 0,
+      }
+    );
+
+    if (sentinelRef.current) observer.observe(sentinelRef.current);
+    if (containerRef.current) containerObserver.observe(containerRef.current);
+
+    return () => {
+      if (sentinelRef.current) observer.unobserve(sentinelRef.current);
+      if (containerRef.current)
+        containerObserver.unobserve(containerRef.current);
+    };
+  }, []);
+
   const openEmiPopup = () => {
     setEmiPopupIsOpen(true);
   };
@@ -260,7 +308,7 @@ const FeeContent = ({
             />
           </div>
         </div>
-        <div className={styles.second}>
+        <div className={styles.second} ref={sentinelRef}>
           {adsHide ? (
             ""
           ) : (
@@ -359,24 +407,20 @@ const FeeContent = ({
           </div>
         </div>
       )}
-      <div ref={sentinelRef}>
-        {showStickyBanner && (
-          <div className={styles.stickySpecialOffer}>
-            <span className={styles.specialOfferTitle}>Special Offer:</span>
-            <div className={styles.vertical}>
-              <span className={styles.offerDetails}>
-                Avail up to{" "}
-                <span className={styles.highlight}>
-                  20% Financial Year-End Scholarship
-                </span>
+      {showStickyBanner && (
+        <div className={styles.stickySpecialOffer}>
+          <span className={styles.specialOfferTitle}>Special Offer:</span>
+          <div className={styles.vertical}>
+            <span className={styles.offerDetails}>
+              Avail up to{" "}
+              <span className={styles.highlight}>
+                20% Financial Year-End Scholarship
               </span>
-              <span className={styles.validityBadge}>
-                Valid till- 31st March
-              </span>
-            </div>
+            </span>
+            <span className={styles.validityBadge}>Valid till- 31st March</span>
           </div>
-        )}
-      </div>
+        </div>
+      )}
       {/* Emi Popup */}
       <Modal
         isOpen={emiPopupIsOpen}

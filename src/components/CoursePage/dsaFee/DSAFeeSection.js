@@ -29,7 +29,7 @@ const DSAFeeSection = ({
 }) => {
   const [emiPopupIsOpen, setEmiPopupIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-  // const containerRef = useRef(null);
+  const containerRef = useRef(null);
   const popupShow = () => {
     setPopups(true);
   };
@@ -44,37 +44,6 @@ const DSAFeeSection = ({
   const sentinelRef = useRef(null);
   const point = [<Points />];
 
-  // Intersection Observer to detect when the sentinel is visible (at component bottom)
-  // useEffect(() => {
-  //   const observer = new IntersectionObserver(
-  //     (entries) => {
-  //       // When the sentinel enters the viewport, hide the sticky banner.
-  //       entries.forEach((entry) => {
-  //         if (entry.isIntersecting) {
-  //           setShowStickyBanner(false);
-  //         } else {
-  //           // Only show sticky banner on mobile when sentinel is not visible.
-  //           if (window.innerWidth < 768) {
-  //             setShowStickyBanner(true);
-  //           }
-  //         }
-  //       });
-  //     },
-  //     {
-  //       root: null, // viewport
-  //       threshold: 0,
-  //     }
-  //   );
-
-  //   if (sentinelRef.current) {
-  //     observer.observe(sentinelRef.current);
-  //   }
-  //   return () => {
-  //     if (sentinelRef.current) {
-  //       observer.unobserve(sentinelRef.current);
-  //     }
-  //   };
-  // }, []);
 
   useEffect(() => {
     const isMobile = window.matchMedia("(max-width: 768px)").matches;
@@ -99,25 +68,25 @@ const DSAFeeSection = ({
       }
     );
 
-    // const containerObserver = new IntersectionObserver(
-    //   ([entry]) => {
-    //     if (!entry.isIntersecting) {
-    //       setShowStickyBanner(false); // Component out of view
-    //     }
-    //   },
-    //   {
-    //     root: null,
-    //     threshold: 0,
-    //   }
-    // );
+    const containerObserver = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry.isIntersecting) {
+          setShowStickyBanner(false); // Component out of view
+        }
+      },
+      {
+        root: null,
+        threshold: 0,
+      }
+    );
 
     if (sentinelRef.current) observer.observe(sentinelRef.current);
-    // if (containerRef.current) containerObserver.observe(containerRef.current);
+    if (containerRef.current) containerObserver.observe(containerRef.current);
 
     return () => {
       if (sentinelRef.current) observer.unobserve(sentinelRef.current);
-      // if (containerRef.current)
-      //   containerObserver.unobserve(containerRef.current);
+      if (containerRef.current)
+        containerObserver.unobserve(containerRef.current);
     };
   }, []);
 
@@ -217,7 +186,8 @@ const DSAFeeSection = ({
               </div>
             </div>
           </div>
-          {showStickyBanner && (
+        </div>
+        {showStickyBanner && (
             <div className={styles.stickySpecialOffer}>
               <span className={styles.specialOfferTitle}>Special Offer:</span>
               <div className={styles.vertical}>
@@ -233,7 +203,6 @@ const DSAFeeSection = ({
               </div>
             </div>
           )}
-        </div>
 
         {/* Emi Popup */}
         <Modal
