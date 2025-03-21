@@ -8,6 +8,70 @@
   align-items: center;
   margin-top: 50px;
 }
+.feesmain {
+  justify-items: center;
+}
+.specialOfferBanner {
+  display: inline-flex;
+  align-items: center;
+  background-color: #f2eefd; /* Light purple background */
+  border-radius: 50px; /* Rounded edges for pill shape */
+  padding: 15px 125px 15px 35px; /* Spacing inside the pill */
+  gap: 30px; /* Space between elements */
+  margin-top: 20px; /* Optional spacing from the container above */
+}
+
+.specialOfferTitle {
+  font-size: 24px;
+  font-weight: 700;
+  color: #7f59e8; /* Purple color */
+  margin-right: 5px;
+
+  font-style: italic;
+}
+
+.offerDetails {
+  font-size: 18px;
+  color: #000;
+  font-style: italic;
+}
+
+.offerDetails .highlight {
+  color: #0383ff;
+  font-weight: 700;
+}
+
+.validityBadge {
+  background-color: #b80303; /* Red background */
+  color: #fff; /* White text */
+  border-radius: 12px; /* Small pill shape */
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 5px;
+  width: 165px;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+}
+
+/* Sentinel element to detect scroll end */
+.sentinel {
+  height: 1px;
+  width: 100%;
+}
+/* .stickyContainer {
+  position: relative;
+} */
+/* Sticky banner for mobile view */
+.stickySpecialOffer {
+  display: none;
+}
+
+/* Add additional existing styles for other elements below as needed */
 
 .first {
   border-radius: 6px;
@@ -292,11 +356,11 @@
 }
 
 .headContent img {
-  width:auto;
+  width: auto;
   height: 100%;
 }
 .divHeadIcon img {
-  width:auto;
+  width: auto;
   height: 40px;
 }
 .firstContainer .headContent,
@@ -370,7 +434,8 @@
   text-align: center;
   margin-top: 30px;
 }
-.innerIconDiv img, .divHeadIcon img {
+.innerIconDiv img,
+.divHeadIcon img {
   width: 40px;
   height: auto;
 }
@@ -439,6 +504,27 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .specialOfferBanner {
+    display: none;
+  }
+
+  .stickySpecialOffer {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f7f3ff;
+    /* border-radius: 50px 50px 0 0; */
+    padding: 15px 25px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+}
+
 @media (max-width: 641px) {
   .ThreeCard {
     padding: 20px;
@@ -486,31 +572,31 @@
     gap: 20px;
     flex-direction: column;
   }
-.firstContainer .iconDiv {
-  margin-top: 20px;
-  gap: 20px;
-  grid-template-columns: 47% 47%;
-}
-.firstContainer,
-.secondContainer {
-  padding: 20px;
-}
-.feeContentContainer {
-  display: none;
-}
-.emiButton {
-  margin: auto;
-  margin-top: 20px;
-}
-.divHeadIcon h4 {
-  margin: 0;
-  padding: 0;
-}
-.fadedText {
-  font-size: 24px;
-}
-.iconDiv {
-  gap: 20px;
-  grid-template-columns: 46% 46%;
-}
+  .firstContainer .iconDiv {
+    margin-top: 20px;
+    gap: 20px;
+    grid-template-columns: 47% 47%;
+  }
+  .firstContainer,
+  .secondContainer {
+    padding: 20px;
+  }
+  .feeContentContainer {
+    display: none;
+  }
+  .emiButton {
+    margin: auto;
+    margin-top: 20px;
+  }
+  .divHeadIcon h4 {
+    margin: 0;
+    padding: 0;
+  }
+  .fadedText {
+    font-size: 24px;
+  }
+  .iconDiv {
+    gap: 20px;
+    grid-template-columns: 46% 46%;
+  }
 }

@@ -8,6 +8,65 @@
   align-items: center;
   margin-top: 50px;
 }
+.specialOfferBanner {
+  display: inline-flex;
+  align-items: center;
+  background-color: #f2eefd !important; /* Light purple background */
+  border-radius: 50px; /* Rounded edges for pill shape */
+  padding: 15px 25px; /* Spacing inside the pill */
+  gap: 30px; /* Space between elements */
+  margin-top: 20px; /* Optional spacing from the container above */
+}
+
+.specialOfferTitle {
+  font-size: 24px;
+  font-weight: 700;
+  color: #7f59e8 !important; /* Purple color */
+  margin-right: 5px;
+
+  font-style: italic;
+}
+
+.offerDetails {
+  font-size: 18px;
+  color: #000 !important;
+  font-style: italic;
+}
+
+.offerDetails .highlight {
+  color: #0383ff !important;
+  font-weight: 700;
+}
+
+.validityBadge {
+  background-color: #b80303; /* Red background */
+  color: #fff !important; /* White text */
+  border-radius: 12px; /* Small pill shape */
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 5px;
+  width: 165px;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+}
+
+/* Sentinel element to detect scroll end */
+.sentinel {
+  height: 1px;
+  width: 100%;
+}
+.stickyContainer {
+  position: relative;
+}
+/* Sticky banner for mobile view */
+.stickySpecialOffer {
+  display: none;
+}
 
 .first {
   border-radius: 6px;
@@ -272,6 +331,7 @@
   width: 1200px;
   margin: auto;
   position: relative;
+  justify-items: center;
 }
 .background {
   position: absolute;
@@ -651,6 +711,27 @@
 @media (max-width: 1024px) {
   .ThreeCard {
     padding: 20px 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .specialOfferBanner {
+    display: none;
+  }
+
+  .stickySpecialOffer {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f7f3ff;
+    /* border-radius: 50px 50px 0 0; */
+    padding: 15px 25px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
   }
 }
 

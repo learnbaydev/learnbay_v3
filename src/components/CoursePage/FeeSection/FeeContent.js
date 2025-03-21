@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 const Button = dynamic(() => import("../../Global/Button/Button"));
@@ -36,6 +36,55 @@ const FeeContent = ({
   const popupShow = () => {
     setPopups(true);
   };
+  const [showStickyBanner, setShowStickyBanner] = useState(false);
+  const sentinelRef = useRef(null);
+  const containerRef = useRef(null);
+
+  useEffect(() => {
+    const isMobile = window.matchMedia("(max-width: 768px)").matches;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        // If 80% of part1 is visible and component is in view
+        if (
+          entry.isIntersecting &&
+          entry.intersectionRatio >= 0.8 &&
+          isMobile
+        ) {
+          setShowStickyBanner(true);
+        }
+        // else if (entry.intersectionRatio < 0.1) {
+        //   setShowStickyBanner(false);
+        // }
+      },
+      {
+        root: null, // viewport
+        threshold: [0, 0.8], // triggers when crossing 80%
+      }
+    );
+
+    const containerObserver = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry.isIntersecting) {
+          setShowStickyBanner(false); // Component out of view
+        }
+      },
+      {
+        root: null,
+        threshold: 0,
+      }
+    );
+
+    if (sentinelRef.current) observer.observe(sentinelRef.current);
+    if (containerRef.current) containerObserver.observe(containerRef.current);
+
+    return () => {
+      if (sentinelRef.current) observer.unobserve(sentinelRef.current);
+      if (containerRef.current)
+        containerObserver.unobserve(containerRef.current);
+    };
+  }, []);
+
   const openEmiPopup = () => {
     setEmiPopupIsOpen(true);
   };
@@ -61,7 +110,6 @@ const FeeContent = ({
         Invest in your future with affordable program fees and flexible batch
         options
       </p> */}
-
       {/* <div className={styles.mainContainer}>
         <div className={styles.innerMainContainer}>
           <div className={styles.innerContainer}>
@@ -222,7 +270,6 @@ const FeeContent = ({
           </div>
         </div>
       </div> */}
-
       <div className={styles.ThreeCard}>
         <div className={styles.first}>
           <p style={{ textAlign: "center" }}>
@@ -261,7 +308,7 @@ const FeeContent = ({
             />
           </div>
         </div>
-        <div className={styles.second}>
+        <div className={styles.second} ref={sentinelRef}>
           {adsHide ? (
             ""
           ) : (
@@ -312,7 +359,7 @@ const FeeContent = ({
             />
           </div>
         </div>
-        
+
         <div className={styles.third}>
           <p>Batch Details</p>
           <div className={styles.boxOrange}>
@@ -335,7 +382,6 @@ const FeeContent = ({
             }}
           />
           <div className={styles.boxOrange}>
-            
             <p> {weekdaybatch}</p>
             <div className={styles.batches}>
               <p className={styles.date}>{WeekdayDate}</p>
@@ -345,11 +391,36 @@ const FeeContent = ({
               </div>
             </div>
           </div>
-      
-        
         </div>
-      </div>
-
+      </div>{" "}
+      {!showStickyBanner && (
+        <div className={styles.specialOfferBanner}>
+          <span className={styles.specialOfferTitle}>Special Offer:</span>
+          <div className={styles.vertical}>
+            <span className={styles.offerDetails}>
+              Avail up to{" "}
+              <span className={styles.highlight}>
+                20% Financial Year-End Scholarship
+              </span>
+            </span>
+            <span className={styles.validityBadge}>Valid till- 31st March</span>
+          </div>
+        </div>
+      )}
+      {showStickyBanner && (
+        <div className={styles.stickySpecialOffer}>
+          <span className={styles.specialOfferTitle}>Special Offer:</span>
+          <div className={styles.vertical}>
+            <span className={styles.offerDetails}>
+              Avail up to{" "}
+              <span className={styles.highlight}>
+                20% Financial Year-End Scholarship
+              </span>
+            </span>
+            <span className={styles.validityBadge}>Valid till- 31st March</span>
+          </div>
+        </div>
+      )}
       {/* Emi Popup */}
       <Modal
         isOpen={emiPopupIsOpen}
