@@ -11,6 +11,10 @@ import FAQNew from "../FAQNew/FAQNewDomain";
 const Certificate= dynamic(() =>
 import("../../../components/CoursePage/Certificate/Certificate")
 )
+const Content= dynamic(() =>
+  import("../../../components/CoursePage/Content/content")
+  )
+
 const SeventhSection = dynamic(() =>
   import("@/components/Global/SeventhSection/SeventhSection")
 );
@@ -26,6 +30,7 @@ const GenAiMLeadersSecondPart = ({
   toolsData,
   CertificateData,
   genAiData,
+  GenAIManagers
 }) => {
 
   // console.log(popupData);
@@ -112,6 +117,7 @@ const GenAiMLeadersSecondPart = ({
 
       <GenAIProject genAiData ={genAiData } GENAIMAN={true} Duration={true}/>
       <FAQNew FAQNewData={FAQNewData} />
+       <Content GenAIManagers={true} background={true}/>
       {/* <Content dataScienceCounselling={true} DSASeoContent={true} /> */}
       <SeventhSection />
       <Footer />
