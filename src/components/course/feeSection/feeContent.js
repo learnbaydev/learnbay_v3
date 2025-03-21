@@ -200,6 +200,18 @@ const FeeContent = ({
             </div>
           </div>
         </div>
+        <div className={styles.specialOfferBanner}>
+          <span className={styles.specialOfferTitle}>Special Offer:</span>
+          <div className={styles.vertical}>
+            <span className={styles.offerDetails}>
+              Avail up to{" "}
+              <span className={styles.highlight}>
+                20% Financial Year-End Scholarship
+              </span>
+            </span>
+            <span className={styles.validityBadge}>Valid till- 31st March</span>
+          </div>
+        </div>
         <div className={styles.btnDown}>
           <div className={styles.btnone} onClick={popupShow}>
             <Image
