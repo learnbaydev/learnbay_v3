@@ -102,6 +102,35 @@ const NewCourse = ({
               },
             }}
           >
+            {" "}
+            <Popup
+              trigger={popups}
+              setTrigger={setPopups}
+              className="popupModal"
+              downloadBrochure
+            >
+              <div className="leftPopup">
+                <div
+                  className="whiteP"
+                  style={{ width: "340px", height: "400px" }}
+                ></div>
+              </div>
+              <div className="RightPopup">
+                <h5>Download Syllabus</h5>
+                <Form
+                  titleCourse={titleCourse}
+                  brochureLink={brochureLinks}
+                  brochurePdf={brochurePdfs}
+                  dataScience={dataScience}
+                  dataScienceCounselling={dataScienceCounselling}
+                  dataScienceGeneric={dataScienceGeneric}
+                  radio={radio}
+                  downloadBrochure
+                  upSkillingHide={true}
+                  interstedInHide={interstedInHide}
+                />
+              </div>
+            </Popup>
             {visibleCourses.map((course, index) => (
               <SwiperSlide key={course.title}>
                 <div className={styles.courseCard} key={index}>

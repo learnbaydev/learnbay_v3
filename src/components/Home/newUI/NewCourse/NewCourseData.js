@@ -40,7 +40,8 @@ export const courses = {
     },
 
     {
-      title: "Executive Program in Data Science & Generative AI for Managers & Leaders",
+      title:
+        "Executive Program in Data Science & Generative AI for Managers & Leaders",
       duration: "11 months | 3 Projects",
       certification: "Project Certification form IBM",
       description: "For Manager & Team leaderS",
@@ -212,7 +213,8 @@ export const courses = {
     // },
 
     {
-      title: "Executive Program in Data Science & Generative AI for Managers & Leaders",
+      title:
+        "Executive Program in Data Science & Generative AI for Managers & Leaders",
       duration: "11 months | 3 Projects",
       certification: "Project Certification form IBM",
       description: "For Manager & Team leaderS",
@@ -432,7 +434,8 @@ export const courses = {
     },
 
     {
-      title: "Executive Program in Data Science & Generative AI for Managers & Leaders",
+      title:
+        "Executive Program in Data Science & Generative AI for Managers & Leaders",
       duration: "11 months | 3 Projects",
       certification: "Project Certification form IBM",
       description: "For Manager & Team leader",
@@ -565,7 +568,8 @@ export const courses = {
 
   domainCourse: [
     {
-      title: "Executive Program in Data Science & Generative AI for Managers & Leaders",
+      title:
+        "Executive Program in Data Science & Generative AI for Managers & Leaders",
       duration: "11 months | 3 Projects",
       certification: "Project Certification form IBM",
       description: "For Manager & Team leader",
@@ -669,7 +673,7 @@ export const courses = {
       link: "/datascience/advance-data-science-certification-courses",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/Advance_DSAI.pdf",
-      brochurePdfs: "/Brochure/Advance_DSAI.pdf",
+      brochurePdfs: "/Brochure/Advanced-Data-Science.pdf",
     },
     // {
     //   title: "Data Science & AI Program For Freshers",
@@ -800,7 +804,8 @@ export const courses = {
 
   bfsi: [
     {
-      title: "Executive Program in Data Science & Generative AI for Managers & Leaders",
+      title:
+        "Executive Program in Data Science & Generative AI for Managers & Leaders",
       duration: "11 months | 3 Projects",
       certification: "Project Certification form IBM",
       description: "For Manager & Team leader",
@@ -892,7 +897,8 @@ export const courses = {
   ],
   manager: [
     {
-      title: "Executive Program in Data Science & Generative AI for Managers & Leaders",
+      title:
+        "Executive Program in Data Science & Generative AI for Managers & Leaders",
       duration: "11 months | 3 Projects",
       certification: "Project Certification form IBM",
       description: "For Manager & Team leader",
