@@ -1693,10 +1693,646 @@ export const DataScienceCourseData = [
       },
     ],
 
+    // masterSyllabusMobile: [
+    //   {
+    //     Module0: {
+    //       title: "Module 0 :- Preparatory Classes (Programming + Maths)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_round.webp",
+    //       StartImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_down.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_Up.webp",
+    //       points: "Cohort Orientation",
+    //       points1: "Fundamentals of programming",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "Topic 1 :- Cohort Orientation ",
+    //             desc: [
+    //               "A brief introduction to tools related to data  ",
+    //               "Learn about particular real-time projects and Capstone projects ",
+    //               "Data and its impact on career opportunities",
+    //               "Utilizing data, to enhance industrial operations and management",
+    //             ],
+    //           },
+    //         },
+
+    //         {
+    //           chap: {
+    //             title: "Topic 2 :-  Fundamentals of programming ",
+
+    //             desc: [
+    //               "Introduction to Anaconda & Jupyter notebook ",
+    //               "Flavors of python Introduction to Git, GitHub",
+    //               "Python Fundamentals",
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title: " Topic 3 :- Fundamentals of Statistics",
+
+    //             desc: [
+    //               "Mean, Median, Mode.",
+    //               "Standard Deviation, Average. Probability, Permutations, and Combinations ",
+    //               "Introduction to Linear Algebra",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 0,
+    //       open: true,
+    //     },
+    //   },
+    //   {
+    //     Module0: {
+    //       title: "Term 1 :- Python for Data Science",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
+    //       StartImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
+    //       points: "Python Programming",
+    //       points1: "Statistics and Machine Learning",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "Module 1 :- Python Programming ",
+    //             desc: [
+    //               "Programming Basics & Environment Setup.",
+    //               " Python Programming Overview ",
+    //               " Strings, Decisions & Loop Control ",
+    //               " Python Data Types ",
+    //               "Functions And Modules ,Class hands-on: 8+ Programs to be covered in the functions, Lambda, modules, Generators, and Packages class",
+    //               "File I/O And Exceptional Handling and Regular Expression,Class hands-on: 10+ Programs to be covered in class from File IO, Reg-ex and exception handling.",
+    //               " Data Analysis Using Numpy",
+    //               "Data Analysis Using Pandas",
+    //               "Data Visualization using Matplotlib",
+    //               "Data Visualization using Seaborn,3 Case Study on Numpy, Pandas, Matplotlib 1 Case Study on Pandas And Seaborn",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 1,
+    //       open: false,
+    //     },
+    //   },
+
+    //   {
+    //     Module0: {
+    //       title: "Term 2 :- Statistics and Machine Learning",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
+    //       points: "Statistics",
+    //       points1: "Machine Learning",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "Module 1 :- Statistics",
+    //             desc: [
+    //               " Fundamentals of Math and Probability",
+    //               "All about Population & Sample",
+    //               "Introduction to Statistics, Statistical Thinking",
+    //               " Descriptive Statistics",
+    //               " Inferential Statistics",
+    //               " Hypothesis Testing",
+    //               "Linear Algebra",
+    //               "Data Processing & Exploratory Data Analysis",
+    //               " EDA,Statistics Assignments: Total 4 practice sets and Assignments from Statistics",
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title: "Module 2 :- Machine Learning",
+    //             desc: [
+    //               "Introduction to Machine Learning",
+    //               "Regression and Classification Models",
+    //               "Linear Regression Model",
+    //               " Data Preprocessing",
+    //               "Encoding the Model",
+    //               "Logistic Regression Model",
+    //               "Evaluation Metrics for Classification model",
+    //               "K Nearest Neighbours Model",
+    //               "Decision Tree Model",
+    //               "Random Forest Model",
+    //               "Hyperparameter Tuning",
+    //               "Naive Baye’s Model",
+    //               "Case Study on Kart Model Business & Random Forest",
+    //               " K Means and Hierarchical Clustering",
+    //               " Hierarchical Clustering",
+    //               "Principal Component Analysis(PCA)",
+    //               " Support Vector Machine(SVM),Case Study on Recommendation Engine for e-commerce/retail chain & Twitter data analysis using NLP",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 2,
+    //       open: false,
+    //     },
+    //   },
+    //   {
+    //     Module0: {
+    //       title: "TERM 3 :- Generative AI and Agentic AI",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_up.webp",
+    //       points: "SQL",
+    //       points1: "MongoDB",
+    //       points2: "Tableau",
+    //       content: [
+    //         {
+    //           chap: {
+    //             section: "Section 1: Generative AI ",
+    //             title: "Fundamentals of Generative AI",
+    //             desc: [
+    //               "Overview of generative models and their real-world applications,highlighting differences from traditional AI.",
+                  
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title: "Use Cases of GenAI in Various Industries and Domains",
+    //             desc: [
+    //               "Finance: Fraud detection, automated report generation, and investment insights.",
+    //               "Healthcare: Drug discovery, medical image analysis, and personalized treatment.",
+    //               "Retail and E-commerce: Personalized recommendations, inventory management, and customer service automation.",
+    //               "Manufacturing: Quality control, predictive maintenance, and process optimization.",
+                  
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title: "Deep Learning Foundations for GenAI",
+    //             desc: [
+    //               "Neural networks and deep learning basics, Backpropagation and optimization techniques",
+    //               "Overview of popular deep learning frameworks (TensorFlow,PyTorch).",
+    //               "Hands-on Project: Build a basic image classifier using CNNs with TensorFlow or PyTorch, applying optimization techniques learned.",
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title: " Prompt Engineering and optimisation",
+    //             desc: [
+    //               "Strategies for crafting effective prompts to optimize AI responses and improve user interaction",
+    //               "Techniques for prompt optimization and prompt chaining.",
+                  
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title: " Transformers and Attention Mechanisms",
+    //             desc: [
+    //               "Introduction to transformers and self-attention, BERT, GPT, and other transformer-based architectures, Hands-on exercise: Finetuning a transformer model for text generation.",
+    //               "Hands-on Project: Fine-tune a transformer model on a custom text dataset for a text classification or summarization task.",
+                
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title: "Large Language Models (LLMs)",
+    //             desc: [
+    //               "Overview of LLMs like GPT-3, ChatGPT, and LLaMA",
+    //               "Fine-tuning LLMs for specific use cases, Applications in chatbots, summarization, and sentiment analysis.",
+    //               " Hands-on exercise: Design and deploy a conversational AI model that simulates a customer service assistant for a chosen domain (e.g., retail or tech support).",
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title: "Integration of OpenAI APIs",
+    //             desc: [
+    //               "Techniques for effectively integrating OpenAI APIs, including authentication and best practices for data handling. Rate limits and error handling.",
+    //               "Hands-on Project: Develop a web app that uses OpenAI’s API for content generation based on user inputs, including authentication and error handling.",
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             section: "Section 2: Agentic AI",
+    //             title: "Understanding Agentic AI and Autonomous Agents",
+    //             desc: [
+    //               "Core principles of agentic systems (Autonomy, Goal-oriented behavior, Decision-making)",
+    //               "Use cases in business and technology",
+                  
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+                
+    //             title: "Introduction to Agentic AI",
+    //             desc: [
+    //               "Task Management and Automation",
+    //               "Decision-making frameworks",
+    //               "Practical demonstration using LangChain"
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+                
+    //             title: "Key Components of Agentic AI",
+    //             desc: [
+    //               "LangChain: Introduction and hands-on exercises",
+    //               "AutoGPT: Setup and practical application",
+    //               "CrewAI: Introduction and practical demonstrations"
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+                
+    //             title: "Essential Tools for Agentic AI",
+    //             desc: [
+    //               "Integrating agents with OpenAI APIs",
+    //               "Building custom agents for specific tasks",
+    //               "Hands-on session with OpenAI's GPT models",
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+                
+    //             title: "Agentic AI Integration",
+    //             desc: [
+    //               "Integrating agents with OpenAI APIs",
+    //               "Building custom agents for specific tasks",
+    //               "Hands-on session with OpenAI's GPT models",
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+                
+    //             title: "GenAI Copilot, Deployment and Ethical Considerations in GenAI",
+    //             desc: [
+    //               "Learn Model Deployment for Generative AI, covering deployment techniques, best practices, API setup, and scaling infrastructure.",
+    //               "Explore GenAI Copilot Tools for Coding, including GitHub Copilot, Tabnine, Amazon CodeWhisperer, Replit Ghostwriter, and Codex.",
+    //               "Gain insights into Ethical Considerations in GenAI, addressing bias, privacy, and responsible AI development.",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 3,
+    //       open: false,
+    //     },
+    //   },
+
+    //   {
+    //     Module0: {
+    //       title: "Term 4 :-  Data Science Tools",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_down.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_up.webp",
+    //       points: "SQL",
+    //       points1: "MongoDB",
+    //       points2: "Tableau",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "Module 1 :- SQL",
+    //             desc: [
+    //               "SQL and RDBMS",
+    //               " Advance SQL",
+    //               "NoSQL, HBase & MongoDB",
+    //               "JSON Data & CRUD",
+    //               " Programming with SQL",
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title: "Module 2 :- MongoDB",
+    //             desc: ["Introduction to MongoDB", " MongoDB (Advance)"],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title: "Module 3 :- Tableau ",
+    //             desc: [
+    //               "Introduction to Tableau",
+    //               "Visual Analytics",
+    //               "Dashboard and Stories",
+    //               "Tableau (Advance),Hands-on: Connecting data source and data cleansing, Working with various charts, Deployment of Predictive model in visualization",
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title: "Module 4 :- PowerBI",
+    //             desc: [
+    //               "Getting Started With Power BI",
+    //               "Programming with Power BI",
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title: "Module 5 :- Big Data & Spark Analytics",
+    //             desc: [
+    //               " Introduction To Hadoop & Big Data",
+    //               "What is Spark",
+    //               "Getting to know PySpark,Hands-on: Map reduce Use Case : Youtube data analysis & Spark RDD  programming  ",
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title: "Module 6 :- Time Series",
+    //             desc: [
+    //               " Introduction to Time Series Forecasting",
+    //               " Introduction to ARIMA Models,Case Study on Time series classification of smartphone data to predict user behavior, Performing Time Series Analysis on Stock Prices & Time series forecasting of sales data",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 3,
+    //       open: false,
+    //     },
+    //   },
+
+    //   {
+    //     Module0: {
+    //       title: "Term 5 :- Artificial Intelligence Tools",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_up.webp",
+    //       points: "Computer Vision",
+    //       points1: "(NLP)",
+
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "Module 1 :- Deep Learning Using Tensorflow",
+    //             desc: [
+    //               "Introduction to Deep Learning And TensorFlow",
+    //               "TensorFlow Classification Examples",
+    //               "Understanding Neural Networks With TensorFlow",
+    //               "Convolutional Neural Network (CNN),Project on Building a CNN for Image Classification",
+    //               " Introducing Recurrent Neural Networks skflow: RNNs in skflow",
+    //               " Understanding Of TFLearn APIs",
+    //               " Understanding Keras API for implementing Neural Networks,Real-Time Project on SPAM Prediction using RNN & Image Classifier using PyTorch",
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title: "Module 2 :- Natural Language Processing (NLP)",
+    //             desc: [
+    //               " Natural Language Processing",
+    //               "Text Analysis",
+    //               " KNN ,Use cases on NLP : Sentiment analysis for marketing",
+    //               " Text Pre Processing Techniques,",
+    //               " Stemming,Projects And Case Study on Sentiment analysis for Twitter, web articles & Advanced Text Analytics & NLP",
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title: "Module 3 :- Computer Vision",
+    //             desc: [
+    //               " Computer Vision overview",
+    //               "Image Filtering",
+    //               " Image Processing",
+    //               "Image Classification and segmentation",
+    //               "Project: The Problem of Scale and Shape,Real Time Use Case:  Single Shot MultiBox Detector & Object Localization",
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title: "Module 4 :- Reinforcement Learning",
+    //             desc: [
+    //               " What is Reinforcement Learning - Basics",
+    //               "Approximation Methods for Reinforcement Learning,Projects and Case Studies on Solving Taxi Environment & Solving Frozen Lake  ",
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title: "Module 5 :- Deployment (AWS+Azure)",
+    //             desc: [
+    //               "Introduction to AWS and Azure Machine Learning Services",
+    //               "Setting up the Environment",
+    //               "Data Preparation and Feature Engineering",
+    //               "Model Training and Evaluation",
+    //               "Model Deployment and Management",
+    //               "Advanced Topics in Machine Learning on AWS and Azure",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 4,
+    //       open: false,
+    //     },
+    //   },
+
+    //   {
+    //     Module0: {
+    //       title: "Term 6 :- Essentials",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_round.webp ",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_down.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
+    //       points: "Project Management Module",
+    //       points1: "AI Generative Tools",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "Project Management Module",
+    //             desc: [
+    //               "Jira process part 1",
+    //               "Jira process part 2",
+    //               "PM approaches for Technical Projects",
+    //               " JIRA Process",
+    //               " Agile",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 5,
+    //       open: false,
+    //     },
+    //   },
+    //   {
+    //     Module0: {
+    //       title: "BONUS :- AI Generative Tools and Future Trends",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_round.webp ",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_down.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
+    //       points: "Emerging Trends in AI",
+    //       points1: "NLP and ChatGPT",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title:
+    //               "Module 1 :- Emerging Trends in AI and Generative Modeling",
+    //             desc: [
+    //               "Exploring other AI generative tools beyond ChatGPT and DALL·E",
+    //               "Discussion on future trends and advancements in AI generative tools",
+    //               "Open-ended project and/or presentation on a selected topic, incorporating learned concepts",
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title: "Module 2 :- Natural Language Processing and ChatGPT",
+    //             desc: [
+    //               "Introduction to natural language processing techniques",
+    //               "Understanding ChatGPT and its architecture",
+    //               "Hands-on exercises using ChatGPT for text generation",
+    //               "Fine-tuning ChatGPT for specific applications",
+    //             ],
+    //           },
+    //         },
+
+    //         {
+    //           chap: {
+    //             title: "Module 3 :- DALL·E: Image Generation with AI",
+    //             desc: [
+    //               "Exploring image generation using DALL·E",
+    //               "Hands-on exercises for creating unique images with DALL·E",
+    //               "Ethical considerations and limitations of AI-generated images",
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title:
+    //               "Module 4 :-  Graph Neural Networks (GNN) for Data Analysis",
+    //             desc: [
+    //               "Overview of Graph Neural Networks (GNN) and their applications",
+    //               "Hands-on exercises using GNN for tasks such as node classification and link prediction",
+    //               "Case studies on real-world applications of GNN in data science",
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title: "Module 5 :- Python Bootcamp for AI",
+    //             desc: [
+    //               "Python Essentials: Syntax, Data Types, and Variables",
+    //               "Flow Control: Conditionals and Loops",
+    //               "Functions and Custom Modules",
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title: "Module 6 :- Build Your Interview Assistant",
+    //             desc: [
+    //               "Project Overview: Interview Automation Bot",
+    //               "Components & Architecture",
+    //               "Natural Language Models (LLMs): Introduction and Uses",
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title: "Module 7 :- Visual AI for eCommerce",
+    //             desc: [
+    //               "Introduction: Digital Transformation for Offline Businesses",
+    //               "Multimodal Models: DALL-E and Beyond",
+    //               "Style & Photography Principles for Visual AI",
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title: "Module 8 :- Intelligent News Aggregator",
+    //             desc: [
+    //               "Project Outline: Personalized News Recommendation",
+    //               "GPT-3 & Copilot for Code Automation",
+    //               "Data Loading and Cleaning Techniques",
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title: "Module 9 :- Customer Support Bot - HelpMate Pro",
+    //             desc: [
+    //               "Project Introduction and Components",
+    //               "Embeddings vs Fine-Tuning: When and How",
+    //               "Semantic Search in Customer Service",
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title: "Module 10 :- Knowledge Discovery Bot",
+    //             desc: [
+    //               "Project Overview and Architecture",
+    //               "LangChain Tools and Concepts",
+    //               "Backend Development with Vectorstore",
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title: "Module 11 :- Azure OpenAI Integration",
+    //             desc: [
+    //               "OpenAI on Azure: Services and Scalability",
+    //               "Revisiting HelpMate Pro: Scaling Strategy",
+    //               "UI/UX Best Practices for Bots",
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title: "Module 12 :- The Future & Ethics of Generative AI",
+    //             desc: [
+    //               "Responsible AI: Bias and Fairness",
+    //               "Future Trends: Multimodal Models and RLHF",
+    //               "Closing Remarks",
+    //             ],
+    //           },
+    //         },
+    //         {
+    //           chap: {
+    //             title: "Capstone Project",
+    //             desc: [
+    //               "Building an Integrated Prompt Engineering Solution",
+    //               "Project Submission and Peer Review",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 4,
+    //       open: false,
+    //     },
+    //   },
+    // ],
+    
     masterSyllabusMobile: [
       {
         Module0: {
-          title: "Module 0 :- Preparatory Classes (Programming + Maths)",
+          title: "Module 0 :- Python Bootcamp for Non-Programmers",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_round.webp",
           StartImageUrl:
@@ -1708,35 +2344,41 @@ export const DataScienceCourseData = [
           content: [
             {
               chap: {
-                title: "Topic 1 :- Cohort Orientation ",
+                title: "Topic 1 :- Installation & Setup",
                 desc: [
-                  "A brief introduction to tools related to data  ",
-                  "Learn about particular real-time projects and Capstone projects ",
-                  "Data and its impact on career opportunities",
-                  "Utilizing data, to enhance industrial operations and management",
+                  "Installing Python and setting up IDEs (Jupyter, VSCode).",
+                  "Overview of the Python environment and running basic scripts.",
+                  "Introduction to Jupyter Notebook for interactive coding.",
                 ],
               },
             },
 
             {
               chap: {
-                title: "Topic 2 :-  Fundamentals of programming ",
-
+                title: "Topic 2 :- Basic Syntax & I/O",
                 desc: [
-                  "Introduction to Anaconda & Jupyter notebook ",
-                  "Flavors of python Introduction to Git, GitHub",
-                  "Python Fundamentals",
+                  "Understanding variables, data types (integers, floats, strings, booleans).",
+                  "Input and output operations using the input() and print() functions.",
+                  "Performing basic arithmetic operations.",
                 ],
               },
             },
             {
               chap: {
-                title: " Topic 3 :- Fundamentals of Statistics",
-
+                title: "Topic 3 :-  Control Structures",
                 desc: [
-                  "Mean, Median, Mode.",
-                  "Standard Deviation, Average. Probability, Permutations, and Combinations ",
-                  "Introduction to Linear Algebra",
+                  "Conditional logic using if, else, and elif statements.",
+                  "Looping with for and while loops to iterate over data.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Topic 4 :-  Basic Data Structures",
+                desc: [
+                  "Introduction to lists, tuples, and dictionaries.",
+                  "Accessing, modifying, and iterating through collections.",
+                  "Understanding how to use indexing and slicing with lists and tuples",
                 ],
               },
             },
@@ -1747,30 +2389,134 @@ export const DataScienceCourseData = [
       },
       {
         Module0: {
-          title: "Term 1 :- Python for Data Science",
+          title: "TERM 1 :- Python for Data Science",
+         
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
           StartImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
-          points: "Python Programming",
-          points1: "Statistics and Machine Learning",
+          points: "Basic Python",
+          points1: "Advance Python",
+          
           content: [
             {
               chap: {
-                title: "Module 1 :- Python Programming ",
+                section:"Section 1 - Core Python Basics",
+                title:"Python Environment Setup",
                 desc: [
-                  "Programming Basics & Environment Setup.",
-                  " Python Programming Overview ",
-                  " Strings, Decisions & Loop Control ",
-                  " Python Data Types ",
-                  "Functions And Modules ,Class hands-on: 8+ Programs to be covered in the functions, Lambda, modules, Generators, and Packages class",
-                  "File I/O And Exceptional Handling and Regular Expression,Class hands-on: 10+ Programs to be covered in class from File IO, Reg-ex and exception handling.",
-                  " Data Analysis Using Numpy",
-                  "Data Analysis Using Pandas",
-                  "Data Visualization using Matplotlib",
-                  "Data Visualization using Seaborn,3 Case Study on Numpy, Pandas, Matplotlib 1 Case Study on Pandas And Seaborn",
+                  "Setting up Python environments using Anaconda and Jupyter",
+                  "Installing and managing virtual environments using conda/pip.",
+                ],
+                
+              },
+            },
+            {
+              chap: {
+                title:"Python Syntax and Code Structure",
+                desc: [
+                  "Writing and running Python scripts.",
+                  "Best practices for writing clean and readable code (PEP 8).",
+                  "Understanding Python functions and scopes.",
+                ],
+                
+              },
+            },
+            {
+              chap: {
+                title:"Data Types and Control Flow",
+                desc: [
+                  "Primitive data types: integers, floats, strings, and booleans.",
+                  "Control flow statements (if, else, elif) for decision making.",
+                  "Loops: for, while, do while, break, continue, pass",
+                ],
+                
+              },
+            },
+            {
+              chap: {
+                title:"Data Structures",
+                desc: [
+                  "Introduction to basic data structures (lists, tuples, dictionaries).",
+                  "Manipulating collections: Adding, removing, and modifying elements.",
+                  "List comprehension and dictionary comprehension for concise code.",
+                ],
+                
+              },
+            },
+            {
+              chap: {
+                title:"Functions And Modules",
+                desc: [
+                  "Introduction To Functions Defining & Calling Functions",
+                  "Functions With Multiple Arguments",
+                  "Anonymous Functions - Lambda Using Built-In Modules,",
+                  "User-Defined Modules, Module Namespaces, Iterators And Generators",
+                ],
+                
+              },
+            },
+            {
+              chap: {
+                section: "Section 2 - Data analytics Using Python ",
+                title:"File I/O An d Exceptional Handling and Regular Expression",
+                desc: [
+                  "open Function, file Object Attributes",
+                  "close() Method, Read, write, seek.",
+                  "Exception Handling, try-finally Clause",
+                  "Regular Expression- Search and Replace",
+                  "Regular Expression Modifiers",
+                  "Regular Expression Pattern",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:"Basic Web Scraping for Data Analytics",
+                desc: [
+                  "Definition and use cases in data analytics",
+                  "Tools for scraping: requests and BeautifulSoup",
+                  "Parsing HTML content using BeautifulSoup",
+                  "Finding elements by tag, class, or attributes",
+                  "Extracting text, links, and attributes from elements",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:"Data Analysis using Numpy",
+                desc: [
+                  "Introduction to Numpy. Array Creation, Printing Arrays, Basic Operation - Indexing, Slicing and Iterating, Shape Manipulation - Changing shape, stacking and splitting of array",
+                  "Vector stacking, Broadcasting with Numpy, Numpy for Statistical Operation",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:"Data Analysis using Pandas",
+                desc: [
+                  "Pandas : Introduction to Pandas",
+                  "Importing data into Python",
+                  "Pandas Data Frames, Indexing Data Frames ,Basic Operations With Data frame, Renaming Columns, Subsetting and filtering a data frame.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:"Data Visualization using Matplotlib",
+                desc: [
+                  "Introduction, plot(), Controlling Line Properties, Subplot with Functional Method, Multiple Plot, Working with Multiple Figures, Histograms",
+                  
+                ],
+              },
+            },
+            {
+              chap: {
+                title:"Data Visualization using Seaborn",
+                desc: [
+                  "Introduction to Seaborn and Visualizing statistical relationships , Import and Prepare data. Plotting with categorical data and Visualizing linear relationships.",
+                  
                 ],
               },
             },
@@ -1779,56 +2525,261 @@ export const DataScienceCourseData = [
           open: false,
         },
       },
-
       {
         Module0: {
-          title: "Term 2 :- Statistics and Machine Learning",
+          title: " TERM 2 :- Statistics and Machine Learning ",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
           StartImageUrl:
             " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
           endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
           points: "Statistics",
           points1: "Machine Learning",
           content: [
             {
               chap: {
-                title: "Module 1 :- Statistics",
+                section: "Section 1 - Statistics ",
+                title: "Fundamentals of Math and Probability",
                 desc: [
-                  " Fundamentals of Math and Probability",
-                  "All about Population & Sample",
-                  "Introduction to Statistics, Statistical Thinking",
-                  " Descriptive Statistics",
-                  " Inferential Statistics",
-                  " Hypothesis Testing",
-                  "Linear Algebra",
-                  "Data Processing & Exploratory Data Analysis",
-                  " EDA,Statistics Assignments: Total 4 practice sets and Assignments from Statistics",
+                  "Probability distributed function & cumulative distribution function.Conditional Probability, Baye’s Theorem",
+                  "Problem solving for probability assignments",
+                  "Random Experiments, Mutually Exclusive Events, Joint Events, Dependent & Independent Events",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 2 :- Machine Learning",
+                title: "All about Population & Sample",
                 desc: [
-                  "Introduction to Machine Learning",
-                  "Regression and Classification Models",
-                  "Linear Regression Model",
-                  " Data Preprocessing",
-                  "Encoding the Model",
-                  "Logistic Regression Model",
-                  "Evaluation Metrics for Classification model",
-                  "K Nearest Neighbours Model",
-                  "Decision Tree Model",
-                  "Random Forest Model",
-                  "Hyperparameter Tuning",
-                  "Naive Baye’s Model",
-                  "Case Study on Kart Model Business & Random Forest",
-                  " K Means and Hierarchical Clustering",
-                  " Hierarchical Clustering",
-                  "Principal Component Analysis(PCA)",
-                  " Support Vector Machine(SVM),Case Study on Recommendation Engine for e-commerce/retail chain & Twitter data analysis using NLP",
+                  "Population vs Sample, Sample Size",
+                  "Simple Random Sampling, Systematic Sampling, Cluster Sampling, Stratified Sampling, Convenience Sampling, Quota Sampling, Snowball Sampling and Judgement Sampling",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Introduction to Statistics, Statistical Thinking",
+                desc: [
+                  "Variable and its types",
+                  "Quantitative, Categorical, Discrete, Continuous, *all with examples",
+                  "Five Point Summary and Box Plot",
+                  "Outliers, Causes of Outliers, How to treat Outliers, I-QR Method and Z-Score Method",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Descriptive Statistics",
+                desc: [
+                  "Measures of Central Tendency – Mean, Median and Mode",
+                  "Measures of Dispersion – Standard Deviation, Variance, Range, IQR (Inter-Quartile Range)",
+                  "Measure of Symmetricity/ Shape – Skewness and Kurtosis",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Inferential Statistics",
+                desc: [
+                  "Central Limit Theorem",
+                  "Point estimate and Interval estimate",
+                  "Creating confidence interval for population parameter",
+                  "Characteristics of Z-distribution and T-Distribution.",
+                  "Type of test and rejection region.",
+                  "Type of errors in Hypothesis Testing",
+                ],
+              },
+            },
+            {
+              chap: {
+                section: "Section 2 - Advance Statistics",
+                title: "Hypothesis Testing",
+                desc: [
+                  "Type of test and Rejection Region",
+                  "Type o errors-Type 1 Errors, Type 2 Errors. P value method, Z score Method. The Chi-Square Test of Independence",
+                  "Regression. Factorial Analysis of Variance. Pearson Correlation Coefficients in Depth. Statistical Significance",
+                  "Null and Alternative Hypothesis One-tailed and Two-tailed Tests, Critical Value, Rejection region, Inference based on Critical Value",
+                  "Binomial Distribution: Assumptions of Binomial Distribution, Normal Distribution, Properties of Normal Distribution, Z table, Empirical Rule of Normal Distribution & Central Limit Theorem and its Applications",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Linear Algebra",
+                desc: [
+                  "Dot Product, Projecting Point on Axis",
+                  "Matrices in Python, Element Indexing, Square Matrix, Triangular Matrix, Diagonal Matrix, Identity Matrix, Addition of Matrices, Scalar Multiplication, Matrix Multiplication, Matrix Transpose, Determinant, Trace",
+                  "T-Test, Analysis of variance (ANOVA), and Analysis of Covariance(ANCOVA) Regression analysis in ANOVA",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Data Processing & Exploratory Data Analysis",
+                desc: [
+                  "What is Data Wrangling",
+                  "Data Pre-processing and cleaning?",
+                  "How to Restructure the data?",
+                  "What is Data Integration and Transformation",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "EDA",
+                desc: [
+                  "Understand EDA's role in data science workflow",
+                  "Load and inspect data using Pandas",
+                  "Using Z-scores to Find Outliers",
+                  "Clean data by handling missing values and outliers.",
+                  "Perform feature engineering for better modeling",
+                  "Finding and Dealing with Missing Values",
+                  "Bivariate Analysis, Scatter Plots and Heatmaps.",
+                  "Summarize data with descriptive statistics",
+                  "Visualize patterns using Matplotlib and Seaborn",
+                  "Introduction to Multivariate Analysis",
+                ],
+              },
+            },
+            {
+              chap: {
+                section: "Section 3 - - Machine Learning",
+                title: "Machine Learning Introduction",
+                desc: [
+                  "Definition of ML Elements: Algorithm, Model, Predictor Variable, Response Variable, Training - Test Split, Steps in Machine Learning,",
+                  "ML Models Type: Supervised Learning, Unsupervised Learning and Reinforcement Learning",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Data Preprocessing",
+                desc: [
+                  "Encoding the data: Definition, Methods: OneHot Encoding, Mean Encoding, abel Encoding, Target Guided Ordinal Encoding",
+                  "Types of Missing values (MCAR, MAR, MNAR) , Methods to handle missing values",
+                  "Outliers, Methods to handle outliers: IQR Method, Z Method",
+                  "Feature Scaling: Definition , Methods: Absolute Maximum Scaling, MinMax Scaler , Normalization, Standardization, Robust Scaling",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Logistic Regression Model",
+                desc: [
+                  "Definition. Why is it called the “Regression model”?",
+                  "Sigmoid Function, Transformation & Graph of Sigmoid Function",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Evaluation Metrics for Classification model",
+                desc: [
+                  "Confusion Matrix, Accuracy, Misclassification, TPR, FPR, TNR, Precision, Recall, F1 Score, ROC Curve, and AUC. Using Python library Sklearn to create the Logistic Regression Model and evaluate the model created",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "K Nearest Neighbours Model",
+                desc: [
+                  "Definition, Steps in KNN Model, Types of Distance: Manhattan Distance, Euclidean Distance, ‘Lazy Learner Model’.",
+                  "Confusion Matrix of Multi Class Classification",
+                  "Using Python library Sklearn to create the K Nearest Neighbours Model and evaluate the model",
+
+                ],
+              },
+            },
+            {
+              chap: {
+                section: "Section 4 - Advance Machine Learning Concepts",
+                title: "Decision Tree Model",
+                desc: [
+                  "Definition, Basic Terminologies, Tree Splitting Constraints, Splitting Algorithms:CART, C4.5, ID3, CHAID",
+                  "Splitting Methods: GINI, Entropy, Chi-Square, and Reduction in Variance",
+                  "Using Python library Sklearn to create the Decision Tree Model and evaluate the model created",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Random Forest Model",
+                desc: [
+                  "Ensemble Techniques: Bagging/bootstrapping & Boosting",
+                  "Definition of Random Forest, OOB Score",
+                  "K-Fold Cross-Validation",
+
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Hyperparameter Tuning",
+                desc: [
+                  "GridSearchCV, Variable Importance",
+                  "Using Python library Sklearn to create the Random Forest Model and evaluate the model created.",
+
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Naive Baye’s Model",
+                desc: [
+                  "Definition, Advantages, Baye’s Theorem Applicability, Disadvantages of Naive Baye’s Model, Laplace’s Correction, Types of Classifiers: Gaussian, Multinomial and Bernoulli",
+                  "Using Python library Sklearn to create the Naive Baye’s Model and evaluate the model created",
+
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Means and Hierarchical Clustering",
+                desc: [
+                  "Definition of Clustering, Use cases of Clustering",
+                  "K Means Clustering Algorithm, Assumptions of K Means Clustering",
+                  "Sum of Squares Curve or Elbow Curve",
+
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Hierarchical Clustering",
+                desc: [
+                  "Dendrogram, Agglomerative Clustering, Divisive Clustering, Comparison of K Means Clustering and Hierarchical Clustering",
+                  "Using Python library Sklearn to create and evaluate the clustering model",
+
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Principal Component Analysis(PCA)",
+                desc: [
+                  "Definition, Curse of Dimensionality, Dimensionality Reduction Technique, When to use PCA",
+                  "Use Cases",
+                  "Steps in PCA, EigenValues and EigenVectors, Scree Plot.",
+                  "Using Python library Sklearn to create Principal Components",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Support Vector Machine(SVM)",
+                desc: [
+                  "Model: Definition, Use Cases, Kernel Function, Aim of Support Vectors, Hyperplane, Gamma Value, Regularization Parameter",
+                  "Using Python library Sklearn to create and evaluate the SVM Model",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "XGBoost Model",
+                desc: [
+                  "Definition and advantages; enhances gradient boosting with regularization, handling missing values, and parallel processing.",
+                  "Implementing XGBoost in Python for model creation and evaluation;hyperparameter tuning using GridSearchCV.",
                 ],
               },
             },
@@ -1837,6 +2788,7 @@ export const DataScienceCourseData = [
           open: false,
         },
       },
+
       {
         Module0: {
           title: "TERM 3 :- Generative AI and Agentic AI",
@@ -1992,14 +2944,13 @@ export const DataScienceCourseData = [
           open: false,
         },
       },
-
       {
         Module0: {
-          title: "Term 4 :-  Data Science Tools",
+          title: "TERM 4 :- Data Visualization & Data Analysis",
           imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
           StartImageUrl:
-            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_down.webp",
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_up.webp",
           points: "SQL",
@@ -2008,137 +2959,204 @@ export const DataScienceCourseData = [
           content: [
             {
               chap: {
-                title: "Module 1 :- SQL",
+                section: "Section 1 - SQL and Databases",
+                title: "SQL and RDBMS",
                 desc: [
-                  "SQL and RDBMS",
-                  " Advance SQL",
-                  "NoSQL, HBase & MongoDB",
-                  "JSON Data & CRUD",
-                  " Programming with SQL",
+                  "RDBMS And SQL Operations.",
+                  "Single Table Queries - SELECT, WHERE, ORDER BY, Distinct, And, OR",
+                  "Multiple Table Queries: INNER, SELF, CROSS, and OUTER, Join, Left Join, Right",
+                  "Join, Full Join, Union",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 2 :- MongoDB",
-                desc: ["Introduction to MongoDB", " MongoDB (Advance)"],
-              },
-            },
-            {
-              chap: {
-                title: "Module 3 :- Tableau ",
+                title: "Advance SQL",
                 desc: [
-                  "Introduction to Tableau",
-                  "Visual Analytics",
-                  "Dashboard and Stories",
-                  "Tableau (Advance),Hands-on: Connecting data source and data cleansing, Working with various charts, Deployment of Predictive model in visualization",
+                  "Advance SQL Operations",
+                  "Data Aggregations and summarizing the data",
+                  "Ranking Functions: Top-N Analysis",
+                  "Advanced SQL Queries for Analytics",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 4 :- PowerBI",
+                title: "NoSQL, HBase & MongoDB",
                 desc: [
-                  "Getting Started With Power BI",
-                  "Programming with Power BI",
+                  "NoSQL Databases",
+                  "Introduction to HBase",
+                  "HBase Architecture, HBase",
+                  "Components, Storage Model of HBase",
+                  "HBase vs RDBMS",
+                  "Introduction to Mongo DB, CRUD",
+                  "Advantages of MongoDB over RDBMS",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 5 :- Big Data & Spark Analytics",
+                title: "JSON Data & CRUD",
                 desc: [
-                  " Introduction To Hadoop & Big Data",
-                  "What is Spark",
-                  "Getting to know PySpark,Hands-on: Map reduce Use Case : Youtube data analysis & Spark RDD  programming  ",
+                  "Basics and CRUD Operation",
+                  "Databases, Collection & Documents",
+                  "Shell & MongoDB drivers",
+                  "What is JSON Data",
+                  "Create, Read, Update, Delete",
+                  "Finding, Deleting, Updating, Inserting Elements",
+                  "Working with Arrays",
+                  "Understanding Schemas and Relations"
                 ],
               },
             },
             {
               chap: {
-                title: "Module 6 :- Time Series",
+                title: "Programming with SQL",
                 desc: [
-                  " Introduction to Time Series Forecasting",
-                  " Introduction to ARIMA Models,Case Study on Time series classification of smartphone data to predict user behavior, Performing Time Series Analysis on Stock Prices & Time series forecasting of sales data",
-                ],
-              },
-            },
-          ],
-          id: 3,
-          open: false,
-        },
-      },
-
-      {
-        Module0: {
-          title: "Term 5 :- Artificial Intelligence Tools",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
-          StartImageUrl:
-            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_up.webp",
-          points: "Computer Vision",
-          points1: "(NLP)",
-
-          content: [
-            {
-              chap: {
-                title: "Module 1 :- Deep Learning Using Tensorflow",
-                desc: [
-                  "Introduction to Deep Learning And TensorFlow",
-                  "TensorFlow Classification Examples",
-                  "Understanding Neural Networks With TensorFlow",
-                  "Convolutional Neural Network (CNN),Project on Building a CNN for Image Classification",
-                  " Introducing Recurrent Neural Networks skflow: RNNs in skflow",
-                  " Understanding Of TFLearn APIs",
-                  " Understanding Keras API for implementing Neural Networks,Real-Time Project on SPAM Prediction using RNN & Image Classifier using PyTorch",
+                  "Mathematical Functions",
+                  "Variables",
+                  "Conditional Logic",
+                  "Loops",
+                  "Custom Functions",
+                  "Grouping and Ordering",
+                  "Partitioning",
+                  "Filtering Data",
+                  "Subqueries",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 2 :- Natural Language Processing (NLP)",
+                section: "Section 2 - MongoDB",
+                title: "Introduction to MongoDB",
                 desc: [
-                  " Natural Language Processing",
-                  "Text Analysis",
-                  " KNN ,Use cases on NLP : Sentiment analysis for marketing",
-                  " Text Pre Processing Techniques,",
-                  " Stemming,Projects And Case Study on Sentiment analysis for Twitter, web articles & Advanced Text Analytics & NLP",
+                  "What is MongoDB",
+                  "Characteristics and Features",
+                  "MongoDB Ecosystem",
+                  "Installation process",
+                  "Connecting to MongoDB database",
+                  "Introduction to NoSQL",
+                  "Introduction of MongoDB module",
+                  "What are Object Ids in MongoDB",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 3 :- Computer Vision",
+                title: "MongoDB (Advance)",
                 desc: [
-                  " Computer Vision overview",
-                  "Image Filtering",
-                  " Image Processing",
-                  "Image Classification and segmentation",
-                  "Project: The Problem of Scale and Shape,Real Time Use Case:  Single Shot MultiBox Detector & Object Localization",
+                  "MongoDB Use cases",
+                  "MongoDB Structures",
+                  "MongoDB Shell vs MongoDB Server",
+                  "Data Formats in MongoDB",
+                  "MongoDB Aggregation Framework",
+                  "Aggregating Documents",
+                  "Working with MongoDB Compass & exploring data visually",
+                  "Understanding Create, Read, Update, Delete",
+                  "Schemas & Relations",
+                  "Document Structure",
+                  "Working with Numeric Data",
+                  "Working on Scheme Designing",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 4 :- Reinforcement Learning",
+                section: "Section 3 - Power BI",
+                title: "Getting Started With Power BI",
                 desc: [
-                  " What is Reinforcement Learning - Basics",
-                  "Approximation Methods for Reinforcement Learning,Projects and Case Studies on Solving Taxi Environment & Solving Frozen Lake  ",
+                  "Installing Power BI Desktop and Connecting to Data",
+                  "Overview of the Workflow in Power BI Desktop",
+                  "Introducing the Different Views of the Data Mode",
+                  "Query Editor Interface",
+                  "Working on Data Model",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 5 :- Deployment (AWS+Azure)",
+                title: "Programming with Power BI",
                 desc: [
-                  "Introduction to AWS and Azure Machine Learning Services",
-                  "Setting up the Environment",
-                  "Data Preparation and Feature Engineering",
-                  "Model Training and Evaluation",
-                  "Model Deployment and Management",
-                  "Advanced Topics in Machine Learning on AWS and Azure",
+                  "Working with Time Series",
+                  "Understanding aggregation and granularity",
+                  "Filters and Slicers in Power BI Maps",
+                  "Scatterplots and BI Reports",
+                  "Connecting Dataset with Power BI Creating a Customer",
+                  "Segmentation Dashboard Analyzing the Customer",
+                  "Segmentation Dashboard"
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Assignments",
+                desc: [
+                  "Working with Time Series",
+                  "Understanding aggregation and granularity",
+                  "Filters and Slicers in Power BI Maps",
+                  "Scatterplots and BI Reports",
+                  "Connecting Dataset with Power BI Creating a Customer",
+                  "Segmentation Dashboard Analyzing the Customer",
+                  "Segmentation Dashboard"
+                ],
+              },
+            },
+            {
+              chap: {
+                section:"Section 4 - BigData and Spark Analytics",
+                title: "Introduction To Hadoop & Big Data",
+                desc: [
+                  "Distributed Architecture - A Brief Overview. Understanding BigData",
+                  "Introduction To Hadoop, Hadoop Architecture",
+                  "HDFS, Overview of MapReduce Framework",
+                  "Scatterplots and BI Reports",
+                  "Hadoop Master: Slave Architecture",
+                  "MapReduce Architecture",
+                  "Use cases of MapReduce",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "What is Spark",
+                desc: [
+                  "Introduction to Spark RDD",
+                  "Introduction to Spark SQL and Data frames",
+                  "Using R-Spark for machine learning",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Hands-on:",
+                desc: [
+                  "Installation and configuration of Spark",
+                  "Using R-Spark for machine learning programming",
+                ],
+              },
+            },
+            {
+              chap: {
+                section:"Section 5 - Time Series",
+                title: "Introduction to Time Series Forecasting",
+                desc: [
+                  "Basics of Time Series Analysis and Forecasting",
+                  "Method Selection in Forecasting",
+                  "Moving Average (MA) Forecast Example",
+                  "Different Components of Time Series Data",
+                  "Log Based Differencing, Linear Regression for Detrending",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Introduction to ARIMA Models",
+                desc: [
+                  "ARIMA Model Calculations, Manual ARIMA Parameter Selection",
+                  "ARIMA with Explanatory Variables",
+                  "Understanding Multivariate Time Series and their Structure",
+                  "Different Components of Time Series Data",
+                  "Checking for Stationarity and Differencing the MTS",
                 ],
               },
             },
@@ -2147,28 +3165,304 @@ export const DataScienceCourseData = [
           open: false,
         },
       },
-
       {
         Module0: {
-          title: "Term 6 :- Essentials",
+          title: "TERM 5 :- AI Tools and Deployment",
           imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_round.webp ",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
           StartImageUrl:
-            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_down.webp",
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
           endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
-          points: "Project Management Module",
-          points1: "AI Generative Tools",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_up.webp",
+          points: "Deep Learning",
+          points1: "(NLP)",
           content: [
             {
               chap: {
-                title: "Project Management Module",
+                section:"Section 1 - Deep Learning using TensorFlow",
+                title: "Introduction to Deep Learning and TensorFlow",
                 desc: [
-                  "Jira process part 1",
-                  "Jira process part 2",
-                  "PM approaches for Technical Projects",
-                  " JIRA Process",
-                  " Agile",
+                  "Neural Network",
+                  "Understanding Neural Network Model",
+                  "Installing TensorFlow",
+                  "Simple Computation, Constants, and Variables",
+                  "Types of file formats in TensorFlow",
+                  "Creating A Graph – Graph Visualization",
+                  "Creating a Model – Logistic Regression",
+                  "Model Building using tensor flow",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "TensorFlow Classification Examples",
+                desc: [
+                  "Introduction to TensorFlow",
+                  "Installing TensorFlow",
+                  "Simple Computation, Contents and Variables",
+                  "Types of file formats in TensorFlow",
+                  "Creating A Graph - Graph Visualization",
+                  "Creating a Model - Logistic Regression Model Building",
+                  "TensorFlow Classification Examples",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Understanding Neural Networks With TensorFlow",
+                desc: [
+                  "Basic Neural Network",
+                  "Single Hidden Layer Model",
+                  "Multiple Hidden Layer Model",
+                  "Backpropagation – Learning Algorithm and visual representation",
+                  "Understand Backpropagation – Using Neural Network Example",
+                  "TensorBoard",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Convolutional Neural Network (CNN)",
+                desc: [
+                  "Convolutional Layer Motivation",
+                  "Convolutional Layer Application",
+                  "The architecture of a CNN",
+                  "Pooling Layer Application",
+                  "Deep CNN",
+                  "Understanding and Visualizing a CNN",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Introducing Recurrent Neural Networks skflow: RNNs in skflow",
+                desc: [
+                  "Application use cases of RNN",
+                  "Manual Creation of RNN Long Short-Term Memory (LSTM) And GRU theory Restricted Boltzmann Machine(RBM)",
+                  "Autoencoders Collaborative Filtering with RBM Dimensionality Reduction with Linear Autoencoder",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Understanding Of TFLearn APIs",
+                desc: [
+                  "Getting Started With TFLearn",
+                  "High-Level API usage -Layers",
+                  "Built-in Operations",
+                  "Training and Evaluation- Customizing the Training Process",
+                  "Visualization APIs Sequential And Functional Composition Fine-tuning",
+                  "Using TensorBoard with TFLearn",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Understanding Keras API for implementing Neural Networks",
+                desc: [
+                  "Getting Started With Keras APIs Keras Model",
+                  "Sequential And Functional Model, shared layers",
+                  "Composing a Model with Keras API",
+                  "Batch Normalization",
+                  "Tensor Board With Keras",
+                  "Installing Pytorch Matrices",
+                  "Torch to NumPy Bridge",
+                  "Variables, Gradients.",
+                  "PyTorch Autograd Module",
+                  "Linear Regression With PyTorch",
+                  "Logistic Regression With Pytorch",
+                  "CNN in PyTorch",
+                  "Use PyTorch to build CNN",
+                  "Build RNN with PyTorch",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Understanding Keras API for implementing Neural Networks",
+                desc: [
+                  "Build RNN with PyTorch",
+                  "LSTM in PyTorch",
+                  "LSTM from CPU to GPU in PyTorch",
+                ],
+              },
+            },
+            {
+              chap: {
+                section:"Section 2 - Natural Language Processing (NLP)",
+                title: "Natural Language Processing",
+                desc: [
+                  "Text Analytics",
+                  "Introduction to NLP",
+                  "Use cases of NLP algorithms",
+                  "NLP Libraries",
+                  "Need for Textual Analytics",
+                  "Applications of NLP",
+                  "Word Frequency Algorithms for NLP Sentiment Analysis",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Text Analysis",
+                desc: [
+                  "Distance Algorithms used in Text Analytics",
+                  "String Similarity",
+                  "Cosine Similarity Mechanism ",
+                  "The similarity between two text documents",
+                  "Levenshtein distance - measuring the difference between two sequences",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "KNN",
+                desc: [
+                  "Information Retrieval Systems",
+                  "Information Retrieval - Precision, Recall,F- score TF-IDF",
+                  "KNN for document retrieval",
+                  "K-Means for document retrieval",
+                  "Clustering for document retrieval",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Text Pre Processing Techniques",
+                desc: [
+                  "Need for Pre-Processing",
+                  "Various methods to Process the Text data",
+                  "Tokenization, Challenges in Tokenization",
+                  "Stopping, Stop Word Removal",
+                  "Clustering for document retrieval",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Stemming",
+                desc: [
+                  "Stemming - Errors in Stemming",
+                  "Types of Stemming Algorithms - Table",
+                  "Lookup Approach",
+                  "N-Gram Stemmers",
+                ],
+              },
+            },
+            {
+              chap: {
+                section:"Section 3 - Computer Vision",
+                title: "Computer Vision overview",
+                desc: [
+                  "Historical Perspective",
+                  "Introduction to the four R's of Computer Vision",
+                  "OpenCV Installation",
+                  "Python API Drawing shapes",
+                  "Image Processing",
+                  "Image Rotation and Thresholding",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Image Filtering",
+                desc: [
+                  "Gaussian Blur",
+                  "Median Blur Feature Detection - Canny Edge Detector",
+                  "Use of Neural Network in CV",
+                  "Multi-Layer Perceptron",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Image Processing",
+                desc: [
+                  "Histogram equalization",
+                  "Thresholding and Convolution",
+                  "Sharpening and edge detection",
+                  "Morphological transformations",
+                  "Image pyramid",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Image Classification and segmentation",
+                desc: [
+                  "Data-Driven approach",
+                  "K-nearest Neighbour",
+                  "Linear Classification",
+                  "Contours and segmentation",
+                ],
+              },
+            },
+            {
+              chap: {
+                section:"Section 4 - Reinforcement Learning",
+                title: "What is Reinforcement Learning - Basics",
+                desc: [
+                  "Setting up Environment & Installing OpenAI Gym",
+                  "OpenAI Gym Basics",
+                  "Terminology & Environment",
+                  "Dynamic Programming - Prediction, Control, and Value Approximation",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Approximation Methods for Reinforcement Learning",
+                desc: [
+                  "RBF Networks with CartPole",
+                  "TD Lambda and Policy Gradient Algorithms",
+                  "Temporal difference learning. N-Step Methods",
+                  "TD lambda, Policy Gradient Methods Policy Gradient in TensorFlow for CartPole. Mountain Car Continuous using Tensorflow",
+                  "Building Blocks of Reinforcement Learning",
+                  "OpenAI Gym Tutorial Random Search",
+                  "Markov Decision Processes",
+                  "Monte Carlo Methods",
+                ],
+              },
+            },
+            {
+              chap: {
+                section:"Section 5 - Deployment AWS+Azure",
+                title: "Introduction to AWS and Azure Machine Learning Services",
+                desc: [
+                  "Overview of AWS SageMaker and Azure Machine Learning",
+                  "Key features and benefits of using these platforms",
+                  "Understanding different types of machine learning algorithms and use cases",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Setting up the Environment",
+                desc: [
+                  "Creating AWS and Azure accounts",
+                  "Configuring the required tools and SDKs (e.g. AWS CLI, Azure CLI,Azure PowerShell)",
+                  "Understanding the infrastructure requirements for training and deploying models (e.g. EC2 instances, GPU instances, Azure ML Compute)",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Data Preparation and Feature Engineering",
+                desc: [
+                  "Understanding the data requirements for machine learning models (e.g. structured vs unstructured data, data size, data quality)",
+                  "Data cleaning and preprocessing techniques (e.g. missing value imputation, feature scaling, encoding categorical variables)",
+                  "Feature selection and engineering techniques (e.g. PCA, feature importance)",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Model Training and Evaluation",
+                desc: [
+                  "Choosing the right machine learning algorithm and model (e.g.regression, classification, clustering)",
+                  "Training models using AWS SageMaker and Azure Machine Learning (e.g. using built-in algorithms, custom code)",
+                  "Evaluating model performance and tuning hyperparameters (e.g.cross-validation, hyperparameter optimization)",
                 ],
               },
             },
@@ -2177,156 +3471,70 @@ export const DataScienceCourseData = [
           open: false,
         },
       },
+
       {
         Module0: {
-          title: "BONUS :- AI Generative Tools and Future Trends",
+          title: "TERM  6:- Project Management",
           imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_round.webp ",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
           StartImageUrl:
-            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_down.webp",
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
           endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
-          points: "Emerging Trends in AI",
-          points1: "NLP and ChatGPT",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_up.webp",
           content: [
             {
               chap: {
-                title:
-                  "Module 1 :- Emerging Trends in AI and Generative Modeling",
+                section:"Section 1 - Project Management",
+                title: "Topics Covered",
                 desc: [
-                  "Exploring other AI generative tools beyond ChatGPT and DALL·E",
-                  "Discussion on future trends and advancements in AI generative tools",
-                  "Open-ended project and/or presentation on a selected topic, incorporating learned concepts",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 2 :- Natural Language Processing and ChatGPT",
-                desc: [
-                  "Introduction to natural language processing techniques",
-                  "Understanding ChatGPT and its architecture",
-                  "Hands-on exercises using ChatGPT for text generation",
-                  "Fine-tuning ChatGPT for specific applications",
+                  "Project scope and objectives",
+                  "Timeline management",
+                  "Resource allocation and tracking",
+                  "Milestones and deliverables",
                 ],
               },
             },
 
             {
               chap: {
-                title: "Module 3 :- DALL·E: Image Generation with AI",
+                section:"Section 2: Agile and Scrum Methodologies",
+                title: "Topics Covered",
                 desc: [
-                  "Exploring image generation using DALL·E",
-                  "Hands-on exercises for creating unique images with DALL·E",
-                  "Ethical considerations and limitations of AI-generated images",
+                  "Agile principles and Scrum framework",
+                  "Sprint planning, daily stand-ups, and retrospectives",
+                  "Managing iterative development in data science",
+                  "Role of product owners and scrum masters in data science teams",
                 ],
               },
             },
             {
               chap: {
-                title:
-                  "Module 4 :-  Graph Neural Networks (GNN) for Data Analysis",
+                section:"Section 3: Risk Management",
+                title: "Topics Covered",
                 desc: [
-                  "Overview of Graph Neural Networks (GNN) and their applications",
-                  "Hands-on exercises using GNN for tasks such as node classification and link prediction",
-                  "Case studies on real-world applications of GNN in data science",
+                  "Risk identification techniques",
+                  "Risk assessment and prioritization",
+                  "Mitigation strategies for data quality, model failure, and project delays",
                 ],
               },
             },
             {
               chap: {
-                title: "Module 5 :- Python Bootcamp for AI",
+                section:"Section 4: Stakeholder Management",
+                title: "Topics Covered",
                 desc: [
-                  "Python Essentials: Syntax, Data Types, and Variables",
-                  "Flow Control: Conditionals and Loops",
-                  "Functions and Custom Modules",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 6 :- Build Your Interview Assistant",
-                desc: [
-                  "Project Overview: Interview Automation Bot",
-                  "Components & Architecture",
-                  "Natural Language Models (LLMs): Introduction and Uses",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 7 :- Visual AI for eCommerce",
-                desc: [
-                  "Introduction: Digital Transformation for Offline Businesses",
-                  "Multimodal Models: DALL-E and Beyond",
-                  "Style & Photography Principles for Visual AI",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 8 :- Intelligent News Aggregator",
-                desc: [
-                  "Project Outline: Personalized News Recommendation",
-                  "GPT-3 & Copilot for Code Automation",
-                  "Data Loading and Cleaning Techniques",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 9 :- Customer Support Bot - HelpMate Pro",
-                desc: [
-                  "Project Introduction and Components",
-                  "Embeddings vs Fine-Tuning: When and How",
-                  "Semantic Search in Customer Service",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 10 :- Knowledge Discovery Bot",
-                desc: [
-                  "Project Overview and Architecture",
-                  "LangChain Tools and Concepts",
-                  "Backend Development with Vectorstore",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 11 :- Azure OpenAI Integration",
-                desc: [
-                  "OpenAI on Azure: Services and Scalability",
-                  "Revisiting HelpMate Pro: Scaling Strategy",
-                  "UI/UX Best Practices for Bots",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 12 :- The Future & Ethics of Generative AI",
-                desc: [
-                  "Responsible AI: Bias and Fairness",
-                  "Future Trends: Multimodal Models and RLHF",
-                  "Closing Remarks",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Capstone Project",
-                desc: [
-                  "Building an Integrated Prompt Engineering Solution",
-                  "Project Submission and Peer Review",
+                  "Identifying key stakeholders, Managing communication and feedback loops, Aligning project goals with stakeholder expectations",
+                  "Delivering project updates and reports",
                 ],
               },
             },
           ],
-          id: 4,
+          id: 6,
           open: false,
         },
       },
+     
+      
     ],
     faq: [
       {
