@@ -79,6 +79,46 @@ function Blockchain({ DataScienceCourseDataJson }) {
           name="keywords"
           content="data analytics certification course, data analytics certification, data analytics course, best data analytics course, data analyst course online, data analyst training, data analyst certification online, data analyst certification course          "
         />
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta
+          property="og:url"
+          content="https://www.learnbay.co/datascience/data-analytics-certification-course"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Best Data Analytics Course Online | Data Analytics Online Training"
+        />
+        <meta
+          property="og:description"
+          content="Learn data analytics course online with Learnbay and Gain in-demand skills and boost your career. we are providing the best online data analytics courses. Enroll now!"
+        />
+        <meta
+          property="og:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
+        />
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
+        <meta name="twitter:site" content="@Learnbay" />
+        <meta name="twitter:creator" content="@Learnbay" />
+        <meta
+          property="twitter:url"
+          content="https://www.learnbay.co/datascience/data-analytics-certification-course"
+        />
+        <meta
+          name="twitter:title"
+          content="Best Data Analytics Course Online | Data Analytics Online Training"
+        />
+        <meta
+          name="twitter:description"
+          content="Learn data analytics course online with Learnbay and Gain in-demand skills and boost your career. we are providing the best online data analytics courses. Enroll now!"
+        />
+        <meta
+          name="twitter:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
+        />
         <link
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"

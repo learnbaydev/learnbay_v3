@@ -20,6 +20,46 @@ function Blockchain({ DataScienceCourseDataJson }) {
           name="keywords"
           content="data science and ai course, Data Science Foundation Program course, data science and ai, ai and data science course, artificial intelligence and data science course, advanced certification in data science and ai"
         />
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta
+          property="og:url"
+          content="https://www.learnbay.co/datascience/data-science-certification-courses"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Data Science Foundation Program - Learnbay"
+        />
+        <meta
+          property="og:description"
+          content="Are you searching for the Data Science Foundation Program? Learnbay is providing the best online Data Science Foundation Program and AI Program . Enroll now!"
+        />
+        <meta
+          property="og:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
+        />
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
+        <meta name="twitter:site" content="@Learnbay" />
+        <meta name="twitter:creator" content="@Learnbay" />
+        <meta
+          property="twitter:url"
+          content="https://www.learnbay.co/datascience/data-science-certification-courses"
+        />
+        <meta
+          name="twitter:title"
+          content="Data Science Foundation Program - Learnbay"
+        />
+        <meta
+          name="twitter:description"
+          content="Are you searching for the Data Science Foundation Program? Learnbay is providing the best online Data Science Foundation Program and AI Program . Enroll now!"
+        />
+        <meta
+          name="twitter:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
+        />
         <link
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
