@@ -211,8 +211,8 @@ const CyberSecurityECCouncil = ({ NewCyberSecurityECCouncilDataJson }) => {
           weekend="SAT-SUN"
           WeekendDate="23rd Mar"
           WeekdayDate="2nd Mar"
-          WeekendTime="09:00AM - 12:00PM"
-          WeekdayTime="09:00AM - 12:00PM"
+          WeekendTime="09:30AM - 12:30PM"
+          WeekdayTime="09:30AM - 12:30PM"
           FeeContent3="Flexible payment"
           // <EMI POPUP
           emiType="NO COST EMI"
