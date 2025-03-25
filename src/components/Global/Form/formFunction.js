@@ -105,7 +105,7 @@ const getValidation = (radio, interstedInHide, Domain, query) => {
         return true;
       } else if (query.interstedIn === "") {
         return true;
-      } else if (query.platform === "Select an option") {
+      } else if (query.platform === "Select Course Preference") {
         return true;
       } else if (query.platform === "") {
         return true;
@@ -129,7 +129,7 @@ const getValidation = (radio, interstedInHide, Domain, query) => {
       radio === true &&
       (!interstedInHide === undefined || interstedInHide === false && !Domain === undefined || Domain === false)
     ) {
-      if (query.platform === "Select an option") {
+      if (query.platform === "Select Course Preference") {
         return true;
       } else if (query.platform === "") {
         return true;
@@ -225,6 +225,40 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
       required: referrals, // Conditionally required
       showField: referrals, // Conditionally render the field
     },
+    {
+      name: "WorkExperience",
+      label: "Work Experience",
+      type: "select",
+      options: [
+        {
+          value: "Work Experience",
+          label: "Work Experience",
+          hidden: true,
+        },
+        {
+          value: "Freshers",
+          label: "Freshers",
+        },
+        {
+          value: "1-3 years",
+          label: "1-3 years",
+        },
+        {
+          value: "3-5 years",
+          label: "3-5 years",
+        },
+        {
+          value: "5-7 years",
+          label: "5-7 years",
+        },
+        {
+          value: "7+ years",
+          label: "7+ years",
+        },
+      ],
+      required: true, // Conditionally required
+      showField: true, // Conditionally render the field
+    },
     // {
     //   name: "interstedIn",
     //   label: "Interested In",
@@ -249,7 +283,7 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
       label: "Course Preference",
       type: "select",
       options: [
-        { value: "Select an option", label: "Select an option", hidden: true },
+        { value: "Select Course Preference", label: "Select Course Preference", hidden: true },
         {
           value: "Generative AI",
           label: "Generative AI",

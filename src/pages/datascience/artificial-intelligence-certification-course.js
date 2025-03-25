@@ -68,7 +68,8 @@ function Blockchain({ DataScienceCourseDataJson }) {
     <>
       <Head>
         <title>
-        Master AI & ML with Learnbay's Advanced Certification Program - Learnbay
+          Master AI & ML with Learnbay's Advanced Certification Program -
+          Learnbay
         </title>
         <meta
           name="description"
@@ -78,6 +79,46 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta
           name="keywords"
           content="ai and ml course, machine learning course, ai ml courses, artificial intelligence online course, aiml course, artificial intelligence and machine learning course, ai certificate course, ai ml courses online, best ai ml courses          "
+        />
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta
+          property="og:url"
+          content="https://www.learnbay.co/datascience/artificial-intelligence-certification-course"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Master AI & ML with Learnbay's Advanced Certification Program - Learnbay"
+        />
+        <meta
+          property="og:description"
+          content="Unlock the future with Learnbay's Advanced AI & ML Certification Program. Gain expertise in artificial intelligence and machine learning through our comprehensive and hands-on training. Elevate your career today!"
+        />
+        <meta
+          property="og:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
+        />
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
+        <meta name="twitter:site" content="@Learnbay" />
+        <meta name="twitter:creator" content="@Learnbay" />
+        <meta
+          property="twitter:url"
+          content="https://www.learnbay.co/datascience/artificial-intelligence-certification-course"
+        />
+        <meta
+          name="twitter:title"
+          content="Master AI & ML with Learnbay's Advanced Certification Program - Learnbay"
+        />
+        <meta
+          name="twitter:description"
+          content="Unlock the future with Learnbay's Advanced AI & ML Certification Program. Gain expertise in artificial intelligence and machine learning through our comprehensive and hands-on training. Elevate your career today!"
+        />
+        <meta
+          name="twitter:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
         />
         <link
           rel="icon"

@@ -55,6 +55,46 @@ function Blockchain({ DataScienceCourseDataJson }) {
           name="keywords"
           content="  business analytics course, business analyst course with placement, business analyst classes online, business analyst course with placement guarantee, best business analyst course, best business analysis course, best business analyst training, top business analyst certification, business analytics course with placement, business analysis training and placement, best business analyst course with placement,      "
         />
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta
+          property="og:url"
+          content="https://www.learnbay.co/datascience/business-analytics-certification-course"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Best Business Analyst Course with Placement Support"
+        />
+        <meta
+          property="og:description"
+          content="Get the best Business Analytics & Analyst Course with placement support. Top certification & training for online classes. Enrol now for better career options."
+        />
+        <meta
+          property="og:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
+        />
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
+        <meta name="twitter:site" content="@Learnbay" />
+        <meta name="twitter:creator" content="@Learnbay" />
+        <meta
+          property="twitter:url"
+          content="https://www.learnbay.co/datascience/business-analytics-certification-course"
+        />
+        <meta
+          name="twitter:title"
+          content="Best Business Analyst Course with Placement Support"
+        />
+        <meta
+          name="twitter:description"
+          content="Get the best Business Analytics & Analyst Course with placement support. Top certification & training for online classes. Enrol now for better career options."
+        />
+        <meta
+          name="twitter:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
+        />
         <link
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
