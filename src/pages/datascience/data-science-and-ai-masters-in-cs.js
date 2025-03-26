@@ -18,12 +18,52 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
         </title>
         <meta
           name="description"
-          content="Elevate your career with Learnbay's Master's in Data Science and AI program. Gain the skills you need to succeed in today's data-driven world. Enroll now!          "
+          content="Elevate your career with Learnbay's Master's in Data Science and AI program. Gain the skills you need to succeed in today's data-driven world. Enroll now!"
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
           content="masters in data science and ai, masters in data science, data science masters programs, best data science masters programs, data science master degree          "
+        />
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta
+          property="og:url"
+          content="https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Advance Your Career with a Master's in Data Science and AI - Learnbay"
+        />
+        <meta
+          property="og:description"
+          content="Elevate your career with Learnbay's Master's in Data Science and AI program. Gain the skills you need to succeed in today's data-driven world. Enroll now!"
+        />
+        <meta
+          property="og:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
+        />
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
+        <meta name="twitter:site" content="@Learnbay" />
+        <meta name="twitter:creator" content="@Learnbay" />
+        <meta
+          property="twitter:url"
+          content="https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs"
+        />
+        <meta
+          name="twitter:title"
+          content="Advance Your Career with a Master's in Data Science and AI - Learnbay"
+        />
+        <meta
+          name="twitter:description"
+          content="Elevate your career with Learnbay's Master's in Data Science and AI program. Gain the skills you need to succeed in today's data-driven world. Enroll now!"
+        />
+        <meta
+          name="twitter:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
         />
         <link
           rel="icon"

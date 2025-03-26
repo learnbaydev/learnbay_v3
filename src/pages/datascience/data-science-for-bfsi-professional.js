@@ -67,15 +67,58 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>Data Science Course with Certifications for BFSI Professionals - Learnbay</title>
+        <title>
+          Data Science Course with Certifications for BFSI Professionals -
+          Learnbay
+        </title>
         <meta
           name="description"
-          content="Empower your BFSI career with Learnbay's Data Science course for BSFI professionals. Elevate skills, drive innovation in banking and finance. Enroll now!          "
+          content="Empower your BFSI career with Learnbay's Data Science course for BSFI professionals. Elevate skills, drive innovation in banking and finance. Enroll now!"
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
           content="Data Science for BFSI Professional course, Data Science for BFSI Professional certification course, Data Science for BFSI Professional certification, BFSI Professional Program training, hr analytics course, BFSI Professional Program course online, marketing analytics course, BFSI Professional Program certification course, best BFSI Professional Program course, best BFSI Professional Program certification          "
+        />
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta
+          property="og:url"
+          content="https://www.learnbay.co/datascience/data-science-for-bfsi-professional"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Data Science Course with Certifications for BFSI Professionals - Learnbay"
+        />
+        <meta
+          property="og:description"
+          content="Empower your BFSI career with Learnbay's Data Science course for BSFI professionals. Elevate skills, drive innovation in banking and finance. Enroll now!"
+        />
+        <meta
+          property="og:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
+        />
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
+        <meta name="twitter:site" content="@Learnbay" />
+        <meta name="twitter:creator" content="@Learnbay" />
+        <meta
+          property="twitter:url"
+          content="https://www.learnbay.co/datascience/data-science-for-bfsi-professional"
+        />
+        <meta
+          name="twitter:title"
+          content="Data Science Course with Certifications for BFSI Professionals - Learnbay"
+        />
+        <meta
+          name="twitter:description"
+          content="Empower your BFSI career with Learnbay's Data Science course for BSFI professionals. Elevate skills, drive innovation in banking and finance. Enroll now!"
+        />
+        <meta
+          name="twitter:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
         />
         <link
           rel="icon"
@@ -85,10 +128,10 @@ function Blockchain({ DataScienceCourseDataJson }) {
           rel="canonical"
           href="https://www.learnbay.co/datascience/data-science-for-bfsi-professional"
         />
-        <script 
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: `{
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
             "@context": "http://schema.org",
             "@type": "Course",
             "name": "BFSI Professional Program",
@@ -121,12 +164,8 @@ function Blockchain({ DataScienceCourseDataJson }) {
 
 
 
-          }`
-
-        }}
-        
-
- 
+          }`,
+          }}
         />
       </Head>
       <main>
