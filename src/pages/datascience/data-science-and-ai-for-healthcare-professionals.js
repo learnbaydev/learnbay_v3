@@ -68,7 +68,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
     <>
       <Head>
         <title>
-        Data Science & AI Course for Healthcare Professionals | Learnbay
+          Data Science & AI Course for Healthcare Professionals | Learnbay
         </title>
         <meta
           name="description"
@@ -78,6 +78,46 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta
           name="keywords"
           content="data science for medical professionals, data science for healthcare professionals, data science & AI in healthcare, data science certification for healthcare professionals, data science course for healthcare professionals, data science & AI certification for healthcare sector"
+        />
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta
+          property="og:url"
+          content="https://www.learnbay.co/datascience/data-science-and-ai-for-healthcare-professionals"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Data Science & AI Course for Healthcare Professionals | Learnbay"
+        />
+        <meta
+          property="og:description"
+          content="Empower your medical domain knowledge with our Data Science course for  Healthcare Professionals. Elevate your skills and drive innovation with Learnbay!!"
+        />
+        <meta
+          property="og:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
+        />
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
+        <meta name="twitter:site" content="@Learnbay" />
+        <meta name="twitter:creator" content="@Learnbay" />
+        <meta
+          property="twitter:url"
+          content="https://www.learnbay.co/datascience/data-science-and-ai-for-healthcare-professionals"
+        />
+        <meta
+          name="twitter:title"
+          content="Data Science & AI Course for Healthcare Professionals | Learnbay"
+        />
+        <meta
+          name="twitter:description"
+          content="Empower your medical domain knowledge with our Data Science course for  Healthcare Professionals. Elevate your skills and drive innovation with Learnbay!!"
+        />
+        <meta
+          name="twitter:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
         />
         <link
           rel="icon"
@@ -130,7 +170,8 @@ function Blockchain({ DataScienceCourseDataJson }) {
       <main>
         <HealthFirstPart
           SecondSectionData={
-            DataScienceCourseData.HealthcareDataScienceCourseData[0].secondSection
+            DataScienceCourseData.HealthcareDataScienceCourseData[0]
+              .secondSection
           }
           TestimonialData={
             DataScienceCourseData.HealthcareDataScienceCourseData[0].testimonial
@@ -145,9 +186,12 @@ function Blockchain({ DataScienceCourseDataJson }) {
             DataScienceCourseData.HealthcareDataScienceCourseData[0].Certificate
           }
           projectSection={
-            DataScienceCourseData.HealthcareDataScienceCourseData[0].projectSection
+            DataScienceCourseData.HealthcareDataScienceCourseData[0]
+              .projectSection
           }
-          FAQNewData={DataScienceCourseData.HealthcareDataScienceCourseData[0].faq}
+          FAQNewData={
+            DataScienceCourseData.HealthcareDataScienceCourseData[0].faq
+          }
         />
       </main>
     </>

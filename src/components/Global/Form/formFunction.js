@@ -1,5 +1,3 @@
-
-
 const getEndPoint = (pathname, event) => {
   let endPoint = "https://getform.io/f/85e92281-63f9-4d2f-b946-31d1098532f4";
   if (event) {
@@ -91,74 +89,96 @@ const redirectionThankYou = (
 };
 
 const getValidation = (radio, interstedInHide, Domain, query) => {
-  console.log(
-    radio,
-    interstedInHide,
-    query.platform,
-    query.Domain,
-    "asdbfvsvcasfvvcfvcfqwerwe"
-  );
-    if (query.phone === "" || query.phone === undefined) {
+  // console.log(
+  //   radio,
+  //   interstedInHide,
+  //   query.platform,
+  //   query.Domain,
+  //   "asdbfvsvcasfvvcfvcfqwerwe"
+  // );
+  if (query.phone === "" || query.phone === undefined) {
+    return true;
+  } else if (radio === true && interstedInHide === true && Domain === true) {
+    if (query.interstedIn === "Interested In") {
       return true;
-    } else if (radio === true && interstedInHide === true && Domain === true) {
-      if (query.interstedIn === "Interested In") {
-        return true;
-      } else if (query.interstedIn === "") {
-        return true;
-      } else if (query.platform === "Select Course Preference") {
-        return true;
-      } else if (query.platform === "") {
-        return true;
-      } else if (query.Domain === "") {
-        return true;
-      } else if (query.Domain === "Select Domain") {
-        return true;
-      } else {
-        return false;
-      }
-    } else if (
-      interstedInHide === true &&
-      (!radio === undefined || radio === false && !Domain === undefined || Domain === false)
-    ) {
-      if (query.interstedIn === "Interested In") {
-        return true;
-      } else if (query.interstedIn === "") {
-        return true;
-      } else return false;
-    } else if (
-      radio === true &&
-      (!interstedInHide === undefined || interstedInHide === false && !Domain === undefined || Domain === false)
-    ) {
-      if (query.platform === "Select Course Preference") {
-        return true;
-      } else if (query.platform === "") {
-        return true;
-      } else if (query.platform === undefined) {
-        return true;
-      } else return false;
-    } else if (
-      Domain === true &&
-      (!interstedInHide === undefined || interstedInHide === false,
-      !radio === undefined || radio === false)
-    ) {
-      if (query.Domain === "Select Domain") {
-        return true;
-      } else if (query.Domain === "") {
-        return true;
-      } else if (query.Domain === undefined) {
-        return true;
-      } else return false;
-    } else if (
-      interstedInHide === false ||
-      interstedInHide === undefined ||
-      radio === false ||
-      radio === undefined ||
-      Domain === false ||
-      Domain === undefined
-    ) {
+    } else if (query.interstedIn === "") {
+      return true;
+    } else if (query.platform === "Select Course Preference") {
+      return true;
+    } else if (query.platform === "") {
+      return true;
+    } else if (query.Domain === "") {
+      return true;
+    } else if (query.Domain === "Select Domain") {
+      return true;
+    } else {
       return false;
     }
-  };
+  } else if (
+    interstedInHide === true &&
+    (!radio === undefined ||
+      (radio === false && !Domain === undefined) ||
+      Domain === false)
+  ) {
+    if (query.interstedIn === "Interested In") {
+      return true;
+    } else if (query.interstedIn === "") {
+      return true;
+    } else return false;
+  } else if (
+    radio === true &&
+    (!interstedInHide === undefined ||
+      (interstedInHide === false && !Domain === undefined) ||
+      Domain === false)
+  ) {
+    if (query.platform === "Select Course Preference") {
+      return true;
+    } else if (query.platform === "") {
+      return true;
+    } else if (query.platform === undefined) {
+      return true;
+    } else return false;
+  } else if (
+    Domain === true &&
+    (!interstedInHide === undefined || interstedInHide === false,
+    !radio === undefined || radio === false)
+  ) {
+    if (query.Domain === "Select Domain") {
+      return true;
+    } else if (query.Domain === "") {
+      return true;
+    } else if (query.Domain === undefined) {
+      return true;
+    } else return false;
+  }
+  //new validation logics for updated form fields
+  else if (query.name === "") {
+    return true;
+  } else if (query.email === "") {
+    return true;
+  } else if (
+    query.WorkExperience === "" ||
+    query.WorkExperience === "Work Experience"
+  ) {
+    return true;
+  } else if (radio === true) {
+    if (
+      query.platform === "" ||
+      query.platform === "Select Course Preference"
+    ) {
+      return true;
+    }
+  } else if (
+    interstedInHide === false ||
+    interstedInHide === undefined ||
+    radio === false ||
+    radio === undefined ||
+    Domain === false ||
+    Domain === undefined
+  ) {
+    return false;
+  }
+};
 const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
   return [
     // ... (previous form fields)
@@ -167,7 +187,7 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
       label: "Name",
       type: "text",
       required: true,
-      placeholder: "Enter your Full Name",
+      placeholder: "Enter your Full Name *",
       showField: true,
     },
     {
@@ -175,7 +195,7 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
       label: "E-Mail",
       type: "email",
       required: true,
-      placeholder: "Enter your Email",
+      placeholder: "Enter your Email *",
       showField: true,
     },
     {
@@ -195,7 +215,7 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
         required: true,
       },
       required: true,
-      placeholder: "Enter Phone Number",
+      placeholder: "Enter Phone Number *",
       showField: true,
     },
     {
@@ -232,7 +252,7 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
       options: [
         {
           value: "Work Experience",
-          label: "Work Experience",
+          label: "Work Experience *",
           hidden: true,
         },
         {
@@ -283,7 +303,11 @@ const getFormFields = (radio, google, referrals, Domain, interstedInHide) => {
       label: "Course Preference",
       type: "select",
       options: [
-        { value: "Select Course Preference", label: "Select Course Preference", hidden: true },
+        {
+          value: "Select Course Preference",
+          label: "Select Course Preference *",
+          hidden: true,
+        },
         {
           value: "Generative AI",
           label: "Generative AI",

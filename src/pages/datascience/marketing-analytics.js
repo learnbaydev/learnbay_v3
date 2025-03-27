@@ -8,7 +8,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
 
   const [popupData, setPopupData] = useState([]);
- 
+
   useEffect(() => {
     const fetchData = async () => {
       const popupResponse = await fetch("/api/Popup/popupGenerate", {
@@ -77,6 +77,46 @@ function Blockchain({ DataScienceCourseDataJson }) {
           name="keywords"
           content="Marketing Analytics course, Marketing Analytics certification course, Marketing Analytics certification, Marketing Analytics training, Marketing Analytics course online, marketing analytics course, Marketing Analytics certification course, best Marketing Analytics course, best Marketing Analytics certification          "
         />
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta
+          property="og:url"
+          content="https://www.learnbay.co/datascience/marketing-analytics"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Best Marketing Analytics Certification Course | Learnbay"
+        />
+        <meta
+          property="og:description"
+          content="Elevate your business acumen with our comprehensive Marketing Analytics Program. Gain valuable insights, enhance decision-making, and drive success through advanced analytics tools and strategies. Enroll today for a data-driven future."
+        />
+        <meta
+          property="og:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
+        />
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
+        <meta name="twitter:site" content="@Learnbay" />
+        <meta name="twitter:creator" content="@Learnbay" />
+        <meta
+          property="twitter:url"
+          content="https://www.learnbay.co/datascience/marketing-analytics"
+        />
+        <meta
+          name="twitter:title"
+          content="Best Marketing Analytics Certification Course | Learnbay"
+        />
+        <meta
+          name="twitter:description"
+          content="Elevate your business acumen with our comprehensive Marketing Analytics Program. Gain valuable insights, enhance decision-making, and drive success through advanced analytics tools and strategies. Enroll today for a data-driven future."
+        />
+        <meta
+          name="twitter:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
+        />
         <link
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
@@ -85,10 +125,10 @@ function Blockchain({ DataScienceCourseDataJson }) {
           rel="canonical"
           href="https://www.learnbay.co/datascience/marketing-analytics"
         />
-        <script 
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: `{
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
             "@context": "http://schema.org",
             "@type": "Course",
             "name": "Marketing Analytics Certification Program",
@@ -121,18 +161,15 @@ function Blockchain({ DataScienceCourseDataJson }) {
 
 
 
-          }`
-
-        }}
-        
-
-
+          }`,
+          }}
         />
       </Head>
       <main>
         <MarketingFirstPart
           SecondSectionData={
-            DataScienceCourseData.MarketingDataScienceCourseData[0].secondSection
+            DataScienceCourseData.MarketingDataScienceCourseData[0]
+              .secondSection
           }
           TestimonialData={
             DataScienceCourseData.MarketingDataScienceCourseData[0].testimonial
@@ -147,9 +184,12 @@ function Blockchain({ DataScienceCourseDataJson }) {
             DataScienceCourseData.MarketingDataScienceCourseData[0].Certificate
           }
           projectSection={
-            DataScienceCourseData.MarketingDataScienceCourseData[0].projectSection
+            DataScienceCourseData.MarketingDataScienceCourseData[0]
+              .projectSection
           }
-          FAQNewData={DataScienceCourseData.MarketingDataScienceCourseData[0].faq}
+          FAQNewData={
+            DataScienceCourseData.MarketingDataScienceCourseData[0].faq
+          }
         />
       </main>
     </>
