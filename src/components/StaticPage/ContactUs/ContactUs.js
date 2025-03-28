@@ -55,11 +55,11 @@ function ContactUs() {
             </a>
           </div>
           <div className={styles.InnerBox}>
-            <a href="https://wa.me/+917349222263" target="_blank">
+            <a href="https://api.whatsapp.com/send?phone=917349222263" target="_blank">
               <FaWhatsapp className={styles.tick} />
             </a>
             <h3>Whatsapp</h3>
-            <a href="https://wa.me/+917349222263" target="_blank">
+            <a href="https://api.whatsapp.com/send?phone=917349222263" target="_blank">
               <Button
               title="whatsapp"
                 className={styles.btn}
