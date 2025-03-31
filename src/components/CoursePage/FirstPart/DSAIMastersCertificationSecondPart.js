@@ -96,11 +96,11 @@ const SecondPart = ({
       <ToolsCovered />
       <Certificate data={CertificateData} />
       <FeeSection
-        Fee="₹ 1,35,000 "
-        FeeEmi="₹ 7,500/ month"
+        Fee="₹ 1,40,000 "
+        FeeEmi="₹ 9,177/ month"
         // Hybrid Classes
-        hybridFee="₹ 1,50,000"
-        hybridEmi="₹ 8,333/ month"
+        hybridFee="₹ 1,55,000"
+        hybridEmi="₹ 10,161/ month"
         // EMIPOPUP
         emiType="Live online classes"
         duration1="12 Months"

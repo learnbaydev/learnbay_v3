@@ -56,7 +56,7 @@ const GenAiMLeadersSecondPart = ({
 
       <DSAFeeSection
         Fee="₹ 95,000"
-        FeeEmi="₹ 6,277/month"
+        FeeEmi="₹ 6,227/month"
         weekendbatch="Weekday Evening"
         weekdaybatch="Weekday Evening "
         weekday="MON-WED-FRI"
