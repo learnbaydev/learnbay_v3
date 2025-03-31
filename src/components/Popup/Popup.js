@@ -116,7 +116,9 @@ const PopupNew = ({ message, onClose }) => {
           {/* Bottom Gradient Div */}
           <div className={styles.gradientDiv}>
             <div className={styles.wrapper}>
-              <p className={styles.newbatch}>Financial Year-End Scholarship</p>
+              <p className={styles.newbatch}>
+                Learn GenAI from Industry Mentors{" "}
+              </p>
               {/* <p className={styles.orange}>
                 <p className={styles.violet}> - </p> Up to{" "}
                 <p className={styles.bold}>20%</p>

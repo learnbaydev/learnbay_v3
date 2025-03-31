@@ -140,7 +140,7 @@ const DSAFeeSection = ({
             )} */}
         </div>
         {/* </div> */}
-        <div className={styles.batch}>
+        {/* <div className={styles.batch}>
           <p className={styles.batchHead}>Batch Details :</p>
           <div className={styles.weekday}>
             <h6>{weekdaybatch}</h6>
@@ -182,7 +182,7 @@ const DSAFeeSection = ({
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       {/* {showStickyBanner && (
             <div className={styles.stickySpecialOffer}>
