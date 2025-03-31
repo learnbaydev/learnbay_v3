@@ -8,12 +8,12 @@ import DSAFeeSection from "../dsaFee/DSAFeeSection";
 import NewTools from "../newTools/NewTools";
 import GenAIProject from "../genAiProject/GenAIProject";
 import FAQNew from "../FAQNew/FAQNewDomain";
-const Certificate= dynamic(() =>
-import("../../../components/CoursePage/Certificate/Certificate")
-)
-const Content= dynamic(() =>
+const Certificate = dynamic(() =>
+  import("../../../components/CoursePage/Certificate/Certificate")
+);
+const Content = dynamic(() =>
   import("../../../components/CoursePage/Content/content")
-  )
+);
 
 const SeventhSection = dynamic(() =>
   import("@/components/Global/SeventhSection/SeventhSection")
@@ -22,24 +22,21 @@ const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 
 const SliderTab = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
 
-
-
 const GenAiMLeadersSecondPart = ({
   masterSyllabusMobile,
   FAQNewData,
   toolsData,
   CertificateData,
   genAiData,
-  GenAIManagers
+  GenAIManagers,
 }) => {
-
   // console.log(popupData);
 
   const pdfUrl = "/Brochure/GenAI-Managers-Tech-Leaders-iits.pdf";
   return (
     <div>
       <LJourney />
-      <NewTools toolsData={toolsData}/>
+      <NewTools toolsData={toolsData} />
       <SyllabusNew
         masterSyllabusMobile={masterSyllabusMobile}
         dataScienceCounselling={true}
@@ -54,12 +51,12 @@ const GenAiMLeadersSecondPart = ({
         genAIIIT={true}
       />
 
-<Certificate data={CertificateData}  noTabs={true}/>
+      <Certificate data={CertificateData} noTabs={true} />
       {/* <NewCertificateSection certificateNew={certificateNew} /> */}
 
       <DSAFeeSection
-        Fee="₹ 90,000"
-        FeeEmi="₹ 5,900/month"
+        Fee="₹ 95,000"
+        FeeEmi="₹ 6,277/month"
         weekendbatch="Weekday Evening"
         weekdaybatch="Weekday Evening "
         weekday="MON-WED-FRI"
@@ -69,16 +66,15 @@ const GenAiMLeadersSecondPart = ({
         WeekendTime="08:00PM - 10:00PM"
         WeekdayTime="08:00PM - 10:00PM"
         FeeContent3="Flexible payment"
-
-         // <EMI POPUP
-         emiType="NO COST EMI"
-         duration1="18 Months"
-         totalAmount1="₹90,000"
-         monthlyPayment1=" ₹5,900"
-         greenDown1="Standard Intrest rate Applicable"
-         duration2="12 Months"
-         totalAmount2="₹90,000"
-         monthlyPayment2=" ₹8,850"
+        // <EMI POPUP
+        emiType="NO COST EMI"
+        duration1="18 Months"
+        totalAmount1="₹90,000"
+        monthlyPayment1=" ₹5,900"
+        greenDown1="Standard Intrest rate Applicable"
+        duration2="12 Months"
+        totalAmount2="₹90,000"
+        monthlyPayment2=" ₹8,850"
       />
       {/* <FeeSection
         Fee="₹ 70,000"
@@ -115,9 +111,9 @@ const GenAiMLeadersSecondPart = ({
       <SliderTab />
       {/* <PlacementCall /> */}
 
-      <GenAIProject genAiData ={genAiData } GENAIMAN={true} Duration={true}/>
+      <GenAIProject genAiData={genAiData} GENAIMAN={true} Duration={true} />
       <FAQNew FAQNewData={FAQNewData} />
-       <Content GenAIManagers={true} background={true}/>
+      <Content GenAIManagers={true} background={true} />
       {/* <Content dataScienceCounselling={true} DSASeoContent={true} /> */}
       <SeventhSection />
       <Footer />
