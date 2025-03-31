@@ -8,16 +8,15 @@ import DSAFeeSection from "../dsaFee/DSAFeeSection";
 import NewTools from "../newTools/NewTools";
 import GenAIProject from "../genAiProject/GenAIProject";
 import FAQNew from "../FAQNew/FAQNewDomain";
-const Certificate= dynamic(() =>
-import("../../../components/CoursePage/Certificate/Certificate")
-)
+const Certificate = dynamic(() =>
+  import("../../../components/CoursePage/Certificate/Certificate")
+);
 const SeventhSection = dynamic(() =>
   import("@/components/Global/SeventhSection/SeventhSection")
 );
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 
 const SliderTab = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
-
 
 const GenAiProSecondPart = ({
   masterSyllabusMobile,
@@ -26,14 +25,13 @@ const GenAiProSecondPart = ({
   genAiData,
   FAQNewData,
 }) => {
-
   // console.log(popupData);
 
   const pdfUrl = "/Brochure/GenAI-Developer-Program.pdf";
   return (
     <div>
       <LJourney />
-      <NewTools toolsData={toolsData}/>
+      <NewTools toolsData={toolsData} />
       <SyllabusNew
         masterSyllabusMobile={masterSyllabusMobile}
         onlyGENAIPage={true}
@@ -47,36 +45,35 @@ const GenAiProSecondPart = ({
         genAIIIT={true}
       />
 
-<Certificate data={CertificateData}  noTabs={true}/>
+      <Certificate data={CertificateData} noTabs={true} />
       {/* <NewCertificateSection certificateNew={certificateNew} /> */}
 
       <DSAFeeSection
-     Fee="₹ 80,000"
-     FeeEmi="₹ 5,244/month"
-     weekendbatch="Weekday Evening "
-     weekdaybatch="Weekday Evening "
-     weekday="MON-WED-FRI"
-     weekend="MON-WED-FRI"
-     WeekendDate="JAN 26th"
-     WeekdayDate="JAN 10th "
-     WeekendTime="08:00PM - 10:00PM"
-     WeekdayTime="08:00PM - 10:00PM"
-     FeeContent3="Flexible payment"
-
-      // <EMI POPUP
-      emiType="NO COST EMI"
-      duration1="18 Months"
-      totalAmount1="₹80,000"
-      monthlyPayment1="₹5,244"
-      greenDown1="Standard Intrest rate Applicable"
-      duration2="12 Months"
-      totalAmount2="₹80,000"
-      monthlyPayment2="₹7,866"
+        Fee="₹ 95,000"
+        FeeEmi="₹ 6,227/month"
+        weekendbatch="Weekday Evening "
+        weekdaybatch="Weekday Evening "
+        weekday="MON-WED-FRI"
+        weekend="MON-WED-FRI"
+        WeekendDate="JAN 26th"
+        WeekdayDate="JAN 10th "
+        WeekendTime="08:00PM - 10:00PM"
+        WeekdayTime="08:00PM - 10:00PM"
+        FeeContent3="Flexible payment"
+        // <EMI POPUP
+        emiType="NO COST EMI"
+        duration1="18 Months"
+        totalAmount1="₹80,000"
+        monthlyPayment1="₹5,244"
+        greenDown1="Standard Intrest rate Applicable"
+        duration2="12 Months"
+        totalAmount2="₹80,000"
+        monthlyPayment2="₹7,866"
       />
-   
+
       <SliderTab />
       {/* <PlacementCall /> */}
-      <GenAIProject genAiData ={genAiData} Duration={true}/>
+      <GenAIProject genAiData={genAiData} Duration={true} />
       <FAQNew FAQNewData={FAQNewData} />
       {/* <Content dataScienceCounselling={true} DSASeoContent={true} /> */}
       <SeventhSection />

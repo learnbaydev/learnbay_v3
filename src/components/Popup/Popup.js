@@ -117,10 +117,10 @@ const PopupNew = ({ message, onClose }) => {
           <div className={styles.gradientDiv}>
             <div className={styles.wrapper}>
               <p className={styles.newbatch}>Financial Year-End Scholarship</p>
-              <p className={styles.orange}>
+              {/* <p className={styles.orange}>
                 <p className={styles.violet}> - </p> Up to{" "}
                 <p className={styles.bold}>20%</p>
-              </p>
+              </p> */}
             </div>
             <div className={styles.popupPoints}>
               <div className={styles.popPoint}>

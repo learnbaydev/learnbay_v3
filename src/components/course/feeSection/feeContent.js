@@ -24,10 +24,10 @@ const FeeContent = ({
   iitGuwatiGen,
 }) => {
   const [emiPopupIsOpen, setEmiPopupIsOpen] = useState(false);
-  const [showStickyBanner, setShowStickyBanner] = useState(false);
-    const sentinelRef = useRef(null);
+  // const [showStickyBanner, setShowStickyBanner] = useState(false);
+  const sentinelRef = useRef(null);
 
-useEffect(() => {
+  useEffect(() => {
     const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
     const observer = new IntersectionObserver(
@@ -50,14 +50,12 @@ useEffect(() => {
       }
     );
 
-
     if (sentinelRef.current) observer.observe(sentinelRef.current);
 
     return () => {
       if (sentinelRef.current) observer.unobserve(sentinelRef.current);
     };
   }, []);
-
 
   const popupShow = () => {
     setPopups(true);
@@ -75,7 +73,7 @@ useEffect(() => {
       <h2>Course Fee</h2>
       <div className={styles.mainContainer}>
         <div className={styles.innerContainer}>
-          <div className={styles.firstContainer} ref={sentinelRef}>
+          <div className={styles.firstContainer}>
             <h4 className={styles.headOrange}>Live online classes</h4>
             <p className={styles.firstP}>Benefits :</p>
             <div className={styles.iconDiv}>
@@ -235,7 +233,7 @@ useEffect(() => {
             </div>
           </div>
         </div>
-        {!showStickyBanner && (
+        {/* {!showStickyBanner && (
         <div className={styles.specialOfferBanner}>
           <span className={styles.specialOfferTitle}>Special Offer:</span>
           <div className={styles.vertical}>
@@ -248,7 +246,7 @@ useEffect(() => {
             <span className={styles.validityBadge}>Valid till- 31st March</span>
           </div>
         </div>
-      )}
+      )} */}
         <div className={styles.btnDown}>
           <div className={styles.btnone} onClick={popupShow}>
             <Image
@@ -263,8 +261,7 @@ useEffect(() => {
         </div>
       </div>
 
-      
-      {showStickyBanner && (
+      {/* {showStickyBanner && (
         <div className={styles.stickySpecialOffer}>
           <span className={styles.specialOfferTitle}>Special Offer:</span>
           <div className={styles.vertical}>
@@ -277,7 +274,7 @@ useEffect(() => {
             <span className={styles.validityBadge}>Valid till- 31st March</span>
           </div>
         </div>
-      )}
+      )} */}
 
       {/* Emi Popup */}
       <Modal

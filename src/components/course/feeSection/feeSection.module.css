@@ -56,17 +56,16 @@
 }
 
 /* Sentinel element to detect scroll end */
-.sentinel {
+/* .sentinel {
   height: 1px;
   width: 100%;
 }
 .stickyContainer {
   position: relative;
 }
-/* Sticky banner for mobile view */
 .stickySpecialOffer {
   display: none;
-}
+} */
 
 .first {
   border-radius: 6px;

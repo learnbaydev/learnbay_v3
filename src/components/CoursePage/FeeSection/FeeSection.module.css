@@ -2,11 +2,12 @@
 
 .ThreeCard {
   display: grid;
-  grid-template-columns: 28% 34% 28%;
+  grid-template-columns: 37% 34%;
   gap: 58px;
   padding: 0px 150px;
   align-items: center;
   margin-top: 50px;
+  justify-content: center;
 }
 .feesmain {
   justify-items: center;
