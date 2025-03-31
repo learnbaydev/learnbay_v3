@@ -813,8 +813,8 @@ export const courses = {
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Manager_cards.webp",
       link: "/datascience/data-science-ai-for-managers",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/DSAI_for_Managers_and_Leaders.pdf",
-      brochurePdfs: "/Brochure/DSAI_for_Managers_and_Leaders.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSAI_for_Managers_and_Leaders.pdf",
+      brochurePdfs: "/Brochure/data-science-ai-for-managers.pdf",
     },
 
     {
