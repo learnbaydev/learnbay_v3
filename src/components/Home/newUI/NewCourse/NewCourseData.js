@@ -578,7 +578,7 @@ export const courses = {
       link: "/datascience/data-science-ai-for-managers",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/DSAI_for_Managers_and_Leaders.pdf",
-      brochurePdfs: "/Brochure/DSAI_for_Managers_and_Leaders.pdf",
+      brochurePdfs: "/Brochure/data-science-ai-for-managers.pdf",
     },
 
     {
