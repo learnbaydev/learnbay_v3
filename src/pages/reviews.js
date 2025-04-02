@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Success Story</title>
+        <title> Learnbay Reviews 2025: The Real Stories of Success</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
