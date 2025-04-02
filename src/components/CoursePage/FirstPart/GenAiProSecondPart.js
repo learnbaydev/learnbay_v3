@@ -8,6 +8,7 @@ import DSAFeeSection from "../dsaFee/DSAFeeSection";
 import NewTools from "../newTools/NewTools";
 import GenAIProject from "../genAiProject/GenAIProject";
 import FAQNew from "../FAQNew/FAQNewDomain";
+import Content from '../../../components/CoursePage/Content/content'
 const Certificate = dynamic(() =>
   import("../../../components/CoursePage/Certificate/Certificate")
 );
@@ -76,6 +77,7 @@ const GenAiProSecondPart = ({
       <GenAIProject genAiData={genAiData} Duration={true} />
       <FAQNew FAQNewData={FAQNewData} />
       {/* <Content dataScienceCounselling={true} DSASeoContent={true} /> */}
+      <Content GenAIDevelopers={true} background={true}/>
       <SeventhSection />
       <Footer />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />

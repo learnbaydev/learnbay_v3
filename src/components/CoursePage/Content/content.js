@@ -24,7 +24,8 @@ function DataAnalytics({
   DSANewContent,
   DSAFresherContent,
   AdvanceCyberSecurity,
-  GenAIManagers
+  GenAIManagers,
+  GenAIDevelopers
 }) {
   const [read, setRead] = useState(false);
 
@@ -5425,6 +5426,196 @@ function DataAnalytics({
               <p>
               GenAI learning has become vital for managers and leaders for data-driven decision-making. Hence, joining Learnbay's <b>Gen AI course for managers</b> is the ultimate way to solidify your skills and excel in your field. Generative AI for leaders sets the stage for hassle-free career shifts and higher yields. Join the course today to enhance your decision-making and lead your career. 
               </p>
+              <div onClick={popupShow} className={styles.buttonDiv}>
+                <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
+              </div>
+            </>
+          ) : (
+            ""
+          )}
+          <p
+            style={{
+              color: "#2D9CD7",
+              fontWeight: "600",
+              textDecoration: "underline",
+              cursor: "pointer",
+            }}
+            onClick={handler}
+            className={styles.readP}
+          >
+            {read ? "Read Less..." : "Read More..."}
+          </p>
+        </div>
+      ) : (
+        ""
+      )}
+       {GenAIDevelopers ? (
+        <div className={styles.content}>
+          <h2>
+          GenAI Developer Certification for Professionals
+          </h2>
+          <p>
+          Enhance your skills to face the new era of tech-driven changes with the rise of Generative AI. Pursue a <b>Gen AI certification</b> course for a pivotal career shift in the emerging software development sector. Earn <b>E&ICT Academy and IIT Guwahati</b> credentials to advance your tech career beyond digital creations. 
+          </p>
+          <h4 style={{ fontSize: "24px" }}>About Learnbay's Best Generative AI Course for Tech Experts</h4>
+          <h3 style={{ fontSize: "20px" }}>Course Details</h3>
+          <p>
+          The rise of generative AI models lays the basis for functional optimization and custom-fit user dealings with better results. Hence, GenAI learning has become vital for techies from diverse fields. In the interim, Learnbay has made the historic move with its <b>Gen AI certification course</b> for tech experts. Our proactive step is all set to equip techies with skills to enhance data clarity, automate workflows, and drive robust results.  
+          </p>
+          <p>
+          Our thoroughly curated course modules follow the latest GenAI-rich advances to help techies make a real-world career impact. Anyone enrolling in our course shall learn GenAI-rich deployment for better results. Techies can gain hands-on learning scope, master cutting-edge tools, and boost career growth metrics with solid gains.  
+          </p>
+          <p>
+          Enroll in the <b>Generative AI course</b> to design better-quality software and boost your yields. GenAI learning modules help you create better ideas, design amusing user stories, and test cases for better results. Also, attesting globally valued certificates <b>(E&ICT Academy and IIT Guwahati)</b> to your career validates your tech-driven skills and builds a thriving future.    
+          </p>
+          <h3 style={{ fontSize: "20px" }}>
+          Who is eligible for Learnbay's best Gen AI course for tech experts?
+          </h3>
+          <p>
+          As the GenAI-powered era evolves, so does the haste for upskilling and reskilling. Seeing the tech power, Learnbay presents a <b>Gen AI course</b> for IT experts from diverse fields. No wonder, Gen AI has become a prime skill for techies eager to automate their designs, meet user needs, and deliver high-end quality products. 
+          </p>
+          <p>
+          If you're eager to enroll in our Gen <b>AI developer course</b>, check out the minimum conditions –
+          </p>
+          <ul>
+            <li><b>• Domain –</b> IT developers and other related experts </li>
+            <li><b>• Work – </b> At least 2+ years of experience</li>
+            <li><b>• Basic knowledge –</b> Python, machine learning, and deep learning</li>
+          </ul>
+          <p>
+          Aspirants meeting all these conditions can enroll in our Gen AI certification to speed up career growth and success. Yet, anyone lacking essential learning can enroll in the foundation program and pursue the GenAI course. 
+          </p>
+          <h3 style={{ fontSize: "20px" }}>Briefing on the Role of Gen AI in Changing the Modern Tech Age</h3>
+          {read ? (
+            <>
+              <p>
+              Gen AI is key in reinventing the workspace in the age of rapid tech shifts. Its splendid integration with diverse sectors brings notable shifts with better results. As data has become a reality, GenAI has set the stage for people-centric practices. 
+              </p>
+              <p>
+              The Gen AI revolution brings massive shifts across working sectors, driving tempting gains. It revamps daily tasks to provide automated and enriched results. Gen AI learning prepares working experts to reshape today's business image and build a reliable future. Many firms have briefed on notable economic shifts, altering the face of various working sectors. 
+              </p>
+              <p>
+              According to <b><i><a href="https://www.marketsandmarkets.com/Market-Reports/generative-ai-market-142870584.html" rel="nofollow noindex" style={{textDecoration: "underline", color:"#0072bc"}}>M&M reports</a></i></b>, the global Gen AI market expects 36.7% growth by 2030, making firms more creative and engaging. Modern-day business relies heavily on GenAI-rich practices, changing sectors, and driving alluring gains.
+              </p>
+              <p>
+               <b>Let's review the impacts of GenAI on tech-driven sectors in recent years. </b>
+              </p>
+              <ul>
+                <li><p><b>1. Creating data-driven ideas:</b> GenAI-rich practices help firms decode human instincts and devise user-centric ways. Such advances help experts follow human texts and forge operating ways for higher yields. A <b>Gen AI course syllabus</b> equips you with skills to write effective prompts and devise ways to solve user issues.</p></li>
+
+                <li><p><b>2. Enhanced efficiency:</b> Experts with Gen AI skills help firms stay ahead of the industry race and attain proven success. The field of generative AI is ever-evolving and has a growing demand for automated work versions. Unlike manual methods, GenAI automates tasks, drafts emails, writes code, analyzes documents, and enriches operational yield.</p></li>
+
+                <li><p><b>3. User-centric offerings:</b> The demand for applied Generative AI is rapidly rising across diverse fields. Many firms offer user-centric products and services under the force of GenAI. The large language models (LLMs) read complex texts, images, and behavior to tackle business issues. As a result, GenAI-rich models follow user choices and design the offerings accordingly.</p></li>
+
+                <li><p><b>4. Insightful documentation and reporting:</b> Gen AI-rich models can analyze facts and figures and create business reports. It eases the data trends/patterns to prepare business reports for better analysis. Techies can join a <b>Gen AI course online</b> to master cutting-edge tools and trends and stay ahead of the curve. </p></li>
+              </ul>
+              
+              
+               
+              
+              
+              
+              
+              <p>In short, experts joining the <b>best generative AI course</b> can build proven skills to tackle industry cases with tactful options. Learning is the best way to deliver products or services aligned with the user's choices. Hence, join a leading-edge course today and kick-start a thriving career.</p>
+
+              <h3 style={{ fontSize: "20px" }}>How GenAI is Changing the Future of the Software Development Industry?</h3>
+              <p>
+              The <b><i><a href="https://www.globenewswire.com/news-release/2025/01/30/3018135/0/en/Generative-AI-in-Software-and-Coding-Market-is-expected-to-reach-a-revenue-of-USD-243-7-Mn-by-2033-at-25-5-CAGR-Dimension-Market-Research.html#:~:text=Important%20Insights,dominate%20throughout%20the%20forecasted%20period." rel="nofollow noindex" style={{textDecoration: "underline", color:"#0072bc"}}>Gen AI in Software and Coding market</a></i></b> predicts a 25.5% growth by 2033, paving the way for exciting career advances for IT developers. The competitive IT sector adopts proven tools to automate coding tasks, lessen work time, and enhance efficiency. In the interim, the rise of <b>advanced generative AI</b> enriches user abilities and usability.
+              </p>
+              <p>Enrolling in the <b>best generative AI course</b> is worth investing in for seamless functions and higher yields. No wonder, Gen AI is changing today's IT sector and related tasks with its insightful ways.</p>
+
+              <p><b>Let's dive deeper into ways Gen AI is altering the future of the IT industry. </b></p>
+
+
+              <ul>
+                <li>
+                  <p>
+                  <b>1. Automated code writing and reviews:</b> Techies pursuing a <b>Gen AI certification course</b> can master ways to automate their code effortlessly. Gen AI uses automated code generation tools that speed up the design process and reduce errors. It relies on custom-fit models that run coding regularly, enhancing overall yields. Gen AI relies on virtual assistants for coding hints and reviews them for quality revisions. Also, it helps experts translate multilingual codes for easy functions. 
+
+                </p>
+                </li>
+                <li>
+                  <p>
+                  <b>2. Product development and management:</b> Techies upskilling via a <b>Gen AI certification</b> program can create relevant product features. It uses automated models to generate a detailed synopsis of the product's features and reframe them. Gen AI offers an easy-to-use template with data-driven features that ease the system development process. 
+                </p>
+                </li>
+                <li>
+                  <p>
+                  <b>3. Seamless software designing:</b> Techies joining a <b>generative AI course</b> help techies normalize system design and update it as per the latest trends. Gen AI helps techies reuse design elements for time and cost-effective results. It automates software architecture and design with the best-suited options for optimal results. 
+                </p>
+                </li>
+                <li>
+                  <p>
+                  <b>4. Redefines software development essentials:</b> Gen <b>AI for software developers</b> lays the basis for meeting minimum conditions with easy steps. Techies rely on Gen AI models to break down design elements and reframe user stories. It helps to decode user choices and frame them into stories for insightful results. Gen AI makes the software development process faster, aligning with user choices and saving extra time and money. Hence, learning key GenAI-rich models is vital for building a lucrative tech career. 
+                </p>
+                </li>
+              </ul>
+              <p>In short, techies can enroll in the <b>best generative AI course</b> to learn cost and time-saving software development ways. Gen AI helps techies design high-end user stories and test cases followed by data-driven reporting.</p>
+              <h3 style={{ fontSize: "20px" }}>How Does Learnbay's Gen AI Certification Course Help Techies Excel in Their Careers?</h3>
+              <p>
+              Learnbay presents a GenAI developer program for techies willing to excel in their careers and attain proven success. Our thoroughly designed <b>Gen AI course syllabus</b> helps techies master cutting-edge automated tools and tackle industry intricacies. Our GenAI-rich courses help techies easily integrate AI and ML models with daily functions.
+              </p>
+              <p>Let's review how our <b>best Gen AI course</b> helps techies grow and excel in their careers. </p>
+              <ul>
+                <li>
+                  <p>
+                  <b>1. GenAI-driven syllabus:</b> Our <b>generative AI course</b> includes the latest trends and upgrades, setting the stage for seamless career growth. Techies enrolling in this course can automate regular tasks, save time and cost, and make strategic decisions. Our learning modules help developers learn generative AI for data analysis, enrich their yields, deliver creative solutions, and drive tempting growth. 
+
+                </p>
+                </li>
+                <li>
+                  <p>
+                  <b>2. Hands-on GenAI learning</b> Our modules guide techies to master in-demand GenAI models via real-time projects. Techies can work on hands-on projects to master chatbot creation, automate workflows, and build RAG-driven assistants. Learners can work on real-time projects to gain practical experience and learn generative AI applications. It helps you face the industry cases well and devise optimal measures to lessen the impacts. Techies work on group projects to deploy GenAI-rich solutions and have hassle-free integrations. 
+                </p>
+                </li>
+                <li>
+                  <p>
+                  <b>3. Swift career shift with industry experts as mentors:</b> Our <b>Gen AI certification course</b> appoints eminent industry experts for live training and career counseling. Learning from highly adept mentors helps you tackle complex cases and drive alluring gains. Mentorship from IIT Guwahati experts offers an open learning space where you can learn to lead and innovate data-driven solutions. As a result, techies can learn and accelerate their careers with exciting perks.
+                </p>
+                </li>
+                <li>
+                  <p>
+                  <b>4. Prestigious credentials from top-tier institutions:</b> Pursuing an <b>advanced generative AI</b> course adds reputable certificates to your career with optimal gains. Learning with the top-rated training institutes can add value to your job, bringing exciting offers. Here, techies can earn a globally recognized <b>Gen AI certification</b> from <b>E&ICT Academy, IIT Guwahati</b>. These credentials enrich your career worth and prepare you to grab alluring job offers.  
+                </p>
+                </li>
+                <li>
+                  <p>
+                  <b>5. Personalized career support:</b> Our <b>best generative AI course</b> offers 100% career support services to help you excel in your field. Techies can refine their soft skills and become a perfect corporate fit via an industry-paced placement program. Techies will get 1:1 doubt-clearing, mock interview prep, resume-making, and online project sessions. 
+                </p>
+                </li>
+              </ul>
+
+              <p>In short, techies joining a <b>Gen AI course with a certificate</b> and solely planned placement aid can enrich their careers and grab exciting offers. Join the course today and learn to lead and innovate seamless solutions.</p>
+              
+              <h3 style={{ fontSize: "20px" }}>
+              Briefing a Gen AI Developer Course Module
+              </h3>
+              <p>
+              The <b>Gen AI certification course</b> at Learnbay eases the career transition journey and equips you with critical skills to lead and grow. Our inclusively curated learning modules help you master basic and advanced Gen AI skills. 
+              </p>
+              <p>
+               <b>Review essential learning outcomes with our course module and excel in your field.</b>
+              </p>
+              <ul>
+                <li>• GenAI Foundation Prep module (Optional) – Python, ML, and Deep learning (basics)</li>
+                <li>• Master GenAI basics to dive deeper into real-world uses.</li>
+                <li>• Gain in-depth wisdom on the real-time uses of Gen AI in diverse sectors – BFSI, healthcare, retail, manufacturing, etc.</li>
+                <li>• Dive into real-time integration of Gen AI with deep learning</li>
+                <li>• Master prompt engineering to optimize user-centric services</li>
+                <li>• Gain hands-on learning of transformers and mechanisms</li>
+                <li>• Learn LLMs to design and deploy Gen AI-rich solutions</li>
+                <li>• Hands-on learning of OpenAI APIs for impactful error handling</li>
+                <li>• Gain an outline of Hugging Face, LangChain, GANs, VAEs, and RAG</li>
+                <li>• Model deployment with cutting-edge Gen AI tools</li>
+                <li>• Enhance your coding with GenAI Copilot tools</li>
+                <li>• Learn ethical and responsible GenAI practices</li>
+                <li>• Work on any two executive-level industry projects to boost your GenAI skills.</li>
+              </ul>
+              <p>In short, joining an industry-paced <b>Gen AI certification</b> program paves the way toward future-proofing your career and grabbing tempting offers. </p>
+              
+              <h3 style={{ fontSize: "20px" }}>What to do Next??</h3>
+              <p>Any software developer eager to escalate career metrics and excel in their field, enroll in the industry's <b>best generative AI course</b> with prime gains. Mastering the front-end tools and trends is the ultimate way to enrich your career and grab exciting offers. Constant upskilling and reskilling shall help techies confound static careers and attain absolute growth. Join the course today to redefine your career path. </p>
+
               <div onClick={popupShow} className={styles.buttonDiv}>
                 <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
               </div>
