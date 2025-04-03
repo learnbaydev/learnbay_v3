@@ -203,8 +203,8 @@ const CyberSecurityECCouncil = ({ NewCyberSecurityECCouncilDataJson }) => {
         />
 
         <DSAFeeSection
-          Fee="₹60,000"
-          FeeEmi="₹ 3,933/month"
+          Fee="₹70,000"
+          FeeEmi="₹4,588/month"
           weekendbatch="Weekend Morning"
           weekdaybatch="Weekend Morning"
           weekday="SAT-SUN"
@@ -217,12 +217,12 @@ const CyberSecurityECCouncil = ({ NewCyberSecurityECCouncilDataJson }) => {
           // <EMI POPUP
           emiType="NO COST EMI"
           duration1="18 Months"
-          totalAmount1="₹60,000"
-          monthlyPayment1="₹3,933"
+          totalAmount1="₹70,000"
+          monthlyPayment1="₹4,588"
           greenDown1="Standard Intrest rate Applicable"
           duration2="12 Months"
-          totalAmount2="₹60,000"
-          monthlyPayment2="₹5,900"
+          totalAmount2="₹70,000"
+          monthlyPayment2="₹6,883"
         />
         <ReviewSlider />
         <MentorsSection />

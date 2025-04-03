@@ -44,8 +44,8 @@ const IITCyberSecondPart = ({
       <Certificate data={CertificateData} cyber={true} ECCou={true} />
 
       <DSAFeeSection
-        Fee="₹1,10,000"
-        FeeEmi="₹ 7,211/month"
+        Fee="₹1,20,000"
+        FeeEmi="₹ 7,866/month"
         weekendbatch="Weekend Morning"
         weekdaybatch="Weekend Morning"
         weekday="SAT-SUN"
@@ -58,12 +58,12 @@ const IITCyberSecondPart = ({
         // <EMI POPUP
         emiType="NO COST EMI"
         duration1="18 Months"
-        totalAmount1="₹1,10,000"
-        monthlyPayment1="₹7,211"
+        totalAmount1="₹1,20,000"
+        monthlyPayment1="₹ 7,866"
         greenDown1="Standard Intrest rate Applicable"
         duration2="12 Months"
-        totalAmount2="₹1,10,000"
-        monthlyPayment2="₹10,816"
+        totalAmount2="₹ 1,20,000"
+        monthlyPayment2="₹11,800"
       />
 
       <SliderTab />
