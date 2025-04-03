@@ -687,11 +687,11 @@ export const AIMLDataScienceCourseData = [
         Module0: {
           title: "TERM 3 :- Generative AI and Agentic AI",
           imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_round.webp",
           StartImageUrl:
-            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_down.webp",
           endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_up.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
           points: "SQL",
           points1: "MongoDB",
           points2: "Tableau",
