@@ -69,11 +69,7 @@ const IITCyberSecondPart = ({
       <SliderTab />
       <IHubAboutIIT />
       <FAQNew FAQNewData={FAQNewData} />
-      <Content
-          dataScienceCounselling={true}
-          ExecutiveCyberSecurity={true}
-          background={true}
-        />
+      <Content ExecutiveCyberSecurityIITR={true} background={true}/>
       <SeventhSection />
       <Footer />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />
