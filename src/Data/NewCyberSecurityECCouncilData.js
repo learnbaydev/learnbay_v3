@@ -370,32 +370,32 @@ export const NewCyberECCouncilData = [
         ],
       },
 
-      {
-        id: "6",
-        trackIcon:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/visualization-icon.webp",
-        width: 80,
-        height: 80,
-        title: "ADD-ON TERM",
-        toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/azureawsjenkins.webp",
-        imageSizes: {
-          vsm: { width: 180, height: 23 },
-          sm: { width: 200, height: 25 },
-          md: { width: 270, height: 32 },
-          lg: { width: 290, height: 34 },
-        },
-        description: "CISSP Exam Preparation",
-        duration: "15 Hours",
-        contentModule: "Topics Covered",
-        contentDescription: "",
-        contentDetails: [
-          "Security & Risk Management + Asset Security",
-          "Network Security + Identity & Access Management (IAM)",
-          "Security Operations + Incident Response",
-          "CISSP Exam Strategy & Mock Test",
-        ],
-      },
+      // {
+      //   id: "6",
+      //   trackIcon:
+      //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/visualization-icon.webp",
+      //   width: 80,
+      //   height: 80,
+      //   title: "ADD-ON TERM",
+      //   toolsImg:
+      //     "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/azureawsjenkins.webp",
+      //   imageSizes: {
+      //     vsm: { width: 180, height: 23 },
+      //     sm: { width: 200, height: 25 },
+      //     md: { width: 270, height: 32 },
+      //     lg: { width: 290, height: 34 },
+      //   },
+      //   description: "CISSP Exam Preparation",
+      //   duration: "15 Hours",
+      //   contentModule: "Topics Covered",
+      //   contentDescription: "",
+      //   contentDetails: [
+      //     "Security & Risk Management + Asset Security",
+      //     "Network Security + Identity & Access Management (IAM)",
+      //     "Security Operations + Incident Response",
+      //     "CISSP Exam Strategy & Mock Test",
+      //   ],
+      // },
     ],
     certificateNew: [
       {
