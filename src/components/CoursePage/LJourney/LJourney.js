@@ -61,6 +61,7 @@ const LJourney = () => {
               height={80}
               loading="lazy"
               alt="Man Icon"
+              unoptimized
             />
           </div>
           <div className={styles.arrow}></div>

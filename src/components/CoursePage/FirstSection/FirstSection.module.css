@@ -630,7 +630,7 @@ background-clip: text;
   .ImageBlock {
     margin: 22px;
         display: flex;
-        justify-content: start;
+        justify-content: flex-start;
         margin-top: 0;
   }
   .animationText {
@@ -689,7 +689,7 @@ color: #fff;
     .ImageBlock{
       margin: auto;
       display: flex;
-      justify-content: start;
+      justify-content: flex-start;
       margin-bottom: 20px;
       margin-left: 18px;
   
