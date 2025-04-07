@@ -20,9 +20,7 @@ const ContactConsellor = dynamic(() =>
   import("../ContactCounsellor/ContactCounsellor")
 );
 const CloudDevopsecond = dynamic(() =>
-  import(
-    "../cloud&devops/DevOpsSecondSection/DevOpsSecondSection"
-  )
+  import("../cloud&devops/DevOpsSecondSection/DevOpsSecondSection")
 );
 import { LuBrainCircuit } from "react-icons/lu";
 
@@ -98,30 +96,30 @@ const DABAFirstPart = ({ SecondSectionData, TestimonialData }) => {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job4.webp",
         imgAlt: "image",
-        title: "Lead with Data-Driven Decisions   ",
+        title: "Hands-On Experience With Project Certification",
         description:
-          "Learn to drive business growth by making informed business strategies.   ",
+          "Work on real-world business analytics projects, building practical skills and gaining confidence to solve complex business problems.",
       },
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job2.webp",
         imgAlt: "image",
-        title: "Flexible Learning at your Convenience        ",
+        title: "Domain-Specific Mastery",
         description:
-          "Designed for professionals aiming to upskill without quitting their job         ",
+          "With a domain-specialized your previous work experience becomes relevant, making it easier to switch careers. You can work on projects from various fields like BFSI, Retail, Healthcare, HR, Marketing. ",
       },
       {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
         imgAlt: "image",
-        title: "Fast-Track to Higher Earnings    ",
+        title: "Upskill with Cutting-Edge Tools",
         description:
-          "Get significant salary increases in the business analytics domain.",
+          "Master the latest technologies, ensuring you stay ahead in the fast-evolving world of data and unlock new career opportunities.",
       },
     ],
     bannerImage: {
-      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BA-min.webp",
-      width: 500,
+      src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/guwati-job.webp",
+      width: 410,
       height: 400,
       priority: true,
       quality: 80,

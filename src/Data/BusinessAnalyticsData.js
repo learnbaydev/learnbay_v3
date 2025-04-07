@@ -148,8 +148,7 @@ export const BADataScienceCourseData = [
         id: 1,
         duration: "12 Hours",
         logo: "",
-        heading:
-          "Learn and develop classification techniques for the digital transformation of banking",
+        heading: "Sales Performance Optimization",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+675+(1)-min.png",
         para: "JPMorgan offers tax-friendly insurance choices. You can help them forecastinsurance premiums. Targeted marketing using your random forest algorithm skills can help obtain better premium values.",
         toolImg:
