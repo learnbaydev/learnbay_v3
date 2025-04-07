@@ -80,7 +80,7 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "/Brochure/Advance-AI-ML.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Advance-AI-ML.pdf";
   return (
     <div>
       <LJourney />

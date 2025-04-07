@@ -63,7 +63,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({
       alt: "Banner Image 1 Alt",
     },
   };
-  const pdfUrl = "/Brochure/DSA-for-Fresherss.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/DSA-for-Fresherss.pdf";
   return (
     <div>
       <Navbar

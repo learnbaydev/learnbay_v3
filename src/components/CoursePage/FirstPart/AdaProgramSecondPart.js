@@ -78,7 +78,7 @@ const ExecutiveSecondPart = ({
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "/Brochure/Iit-Data-Analytics-Certifications.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Iit-Data-Analytics-Certifications.pdf";
   return (
     <>
       <GetHire />

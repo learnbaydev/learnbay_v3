@@ -35,7 +35,7 @@ const IITCloudDevopsSecondPart = ({
 }) => {
   // console.log(popupData);
 
-  const pdfUrl = "/Brochure/IIT-cloud-devops.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/IIT-cloud-devopss.pdf";
   return (
     <div>
       <LJourney />

@@ -17,7 +17,7 @@ const WhyChooseSection = dynamic(() =>
   import("@/components/course/whyChooseSection/whyChooseSection")
 );
 const ExecutiveFirstPartGeneric = () => {
-    const pdfUrl = "/Brochure/Executive-iit-guwahati-generic.pdf"
+    const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf"
   return (
     <>
       {" "}

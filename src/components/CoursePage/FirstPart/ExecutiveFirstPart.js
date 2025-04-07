@@ -120,7 +120,7 @@ const ExecutiveFirstPart = ({ TestimonialData, WolfLink, formbtn }) => {
       alt: "Banner Image 1 Alt",
     },
   };
-  const pdfUrl = "/Brochure/Executive-program-iit.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Executive-program-iit.pdf";
   return (
     <>
       {" "}

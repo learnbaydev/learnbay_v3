@@ -123,7 +123,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
-  const pdfUrl = "/Brochure/Healthcare-Pharma-and-Clinical-Research-domain.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Healthcare-Pharma-and-Clinical-Research-domain.pdf";
   return (
     <>
       <Navbar dataScienceCounselling={true} interstedInHide={true} />

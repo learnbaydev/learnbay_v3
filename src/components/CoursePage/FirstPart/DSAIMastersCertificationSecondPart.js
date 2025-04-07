@@ -79,7 +79,7 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "/Brochure/AI-Master-Certification.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-Master-Certification.pdf";
   return (
     <div>
       <LJourney />

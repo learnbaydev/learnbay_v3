@@ -167,7 +167,7 @@ function careerHome({
                         popupShow(
                           "Manufacturing Course",
                           "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf",
-                          "/Brochure/Manufacturing.pdf"
+                          "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Manufacturing.pdf"
                         );
                       }}
                     />
@@ -204,7 +204,7 @@ function careerHome({
                         popupShow(
                           "HR & Sales Course",
                           "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales%2C+Marketing+and+HR+Domain.pdf",
-                          "/Brochure/Sales-Marketing.pdf"
+                          "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Sales-Marketing-domain.pdf"
                         );
                       }}
                     />
@@ -241,7 +241,7 @@ function careerHome({
                         popupShow(
                           "BFSI Course",
                           "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf",
-                          "/Brochure/Banking-Finance.pdf"
+                          "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Banking-Finance-and-Insurance-Domain.pdf"
                          
                         );
                       }}
@@ -279,7 +279,7 @@ function careerHome({
                         popupShow(
                           "Managers & Leader Course",
                           "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
-                          "/Brochure/data-science-ai-for-managers.pdf",
+                          "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-science-ai-for-managers.pdf",
                         );
                       }}
                     />

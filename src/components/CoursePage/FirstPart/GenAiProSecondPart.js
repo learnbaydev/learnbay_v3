@@ -28,7 +28,7 @@ const GenAiProSecondPart = ({
 }) => {
   // console.log(popupData);
 
-  const pdfUrl = "/Brochure/GenAI-Developer-Program.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/GenAI-Developer-Program.pdf";
   return (
     <div>
       <LJourney />

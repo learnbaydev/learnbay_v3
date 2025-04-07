@@ -127,7 +127,7 @@ const DataAnlyticsFirstPart = ({
       alt: "Banner Image 1 Alt",
     },
   };
-  const pdfUrl = "/Brochure/Data-Analytics-Certification.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf";
   return (
     <>
       <Navbar dataScienceCounselling={true} interstedInHide={true} />

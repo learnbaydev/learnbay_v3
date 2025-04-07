@@ -57,7 +57,7 @@ const GenAiMLeadersFirstPart = ({ summaryData, whyChooseData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
-  const pdfUrl = "/Brochure/GenAI-Managers-Tech-Leaders-iits.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/GenAI-Managers-Tech-Leaders-iits.pdf";
   return (
     <div>
       <Navbar

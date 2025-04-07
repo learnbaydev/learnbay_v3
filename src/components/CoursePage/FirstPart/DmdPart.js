@@ -97,7 +97,7 @@ const DmdPart = ({ CertificateData, S3RightImage, projectSection }) => {
       url: "https://www.business-standard.com/content/press-releases-ani/learnbay-collaborates-with-woolf-to-launch-master-s-degree-in-computer-science-data-science-specializations-123112000350_1.html",
     },
   ];
-  const pdfUrl = "/Brochure/Dmd-Cloud-and-Devops-Certification.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cloud-and-Devops-Certification.pdf";
   return (
     <div>
       <FirstSection

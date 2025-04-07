@@ -64,7 +64,7 @@ const SecondPart = ({
         interstedInHide={true}
         titleCourse="Data Science & AI Certification Program For Managers and Leaders"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
-        brochurePdf="/Brochure/data-science-ai-for-managers.pdf"
+        brochurePdf="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-science-ai-for-managers.pdf"
         buttonHide={true}
       />
       <ToolsCovered />
@@ -98,7 +98,7 @@ const SecondPart = ({
         interstedInHide={true}
         titleCourse="Data Science & AI Certification Program For Managers and Leaders"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
-        brochurePdf="/Brochure/data-science-ai-for-managers.pdf"
+        brochurePdf="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-science-ai-for-managers.pdf"
         projectSection={projectSection}
       />
 

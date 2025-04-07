@@ -120,7 +120,7 @@ const FirstPart = ({ TestimonialData, WolfLink, formbtn }) => {
       alt: "Banner Image 1 Alt",
     },
   };
-  const pdfUrl = "/Brochure/Masters-in-CS.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Masters-in-CS.pdf";
   return (
     <>
       {" "}
