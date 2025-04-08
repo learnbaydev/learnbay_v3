@@ -46,10 +46,10 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>Best DABA Business Analyst Course with Placement Support</title>
+        <title>Data & Business Analytics Course with Gen AI | Learnbay</title>
         <meta
           name="description"
-          content="Get the best Business Analytics & Analyst Course with placement support. Top certification & training for online classes. Enrol now for better career options."
+          content="Upskill with a hands-on Data & Business Analytics course powered by Generative AI. Learn top tools, real-world projects, and boost your career."
         />
         <meta name="robots" content="index, follow" />
         <meta
@@ -59,16 +59,16 @@ function Blockchain({ DataScienceCourseDataJson }) {
         {/* <!-- Facebook Meta Tags --> */}
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/business-analytics-certification-course"
+          content="https://www.learnbay.co/artificial-intelligence/generative-ai-analytics-course"
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Best Business Analyst Course with Placement Support"
+          content="Data & Business Analytics Course with Gen AI | Learnbay"
         />
         <meta
           property="og:description"
-          content="Get the best Business Analytics & Analyst Course with placement support. Top certification & training for online classes. Enrol now for better career options."
+          content="Upskill with a hands-on Data & Business Analytics course powered by Generative AI. Learn top tools, real-world projects, and boost your career."
         />
         <meta
           property="og:image"
@@ -82,15 +82,15 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/datascience/business-analytics-certification-course"
+          content="https://www.learnbay.co/artificial-intelligence/generative-ai-analytics-course"
         />
         <meta
           name="twitter:title"
-          content="Best Business Analyst Course with Placement Support"
+          content="Data & Business Analytics Course with Gen AI | Learnbay"
         />
         <meta
           name="twitter:description"
-          content="Get the best Business Analytics & Analyst Course with placement support. Top certification & training for online classes. Enrol now for better career options."
+          content="Upskill with a hands-on Data & Business Analytics course powered by Generative AI. Learn top tools, real-world projects, and boost your career."
         />
         <meta
           name="twitter:image"
@@ -102,7 +102,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/business-analytics-certification-course"
+          href="https://www.learnbay.co/artificial-intelligence/generative-ai-analytics-course"
         />
         <script
           type="application/ld+json"
@@ -112,7 +112,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
             "@type": "Course",
             "name": "Businesss Analytics Master Certification Program",
             "description": "Upskill yourself with cutting edge Business Analytics master Skills and Techniques by enrolling into the Learnbay's Business Analaytics certification Course.",
-            "url": "https://www.learnbay.co/datascience/business-analytics-certification-course",
+            "url": "https://www.learnbay.co/artificial-intelligence/generative-ai-analytics-course",
             "offers": {
               "@type": "Offer",
               "price": 90000,
@@ -147,25 +147,25 @@ function Blockchain({ DataScienceCourseDataJson }) {
       <main>
         <DABAFirstPart
           SecondSectionData={
-            DataScienceCourseData.BADataScienceCourseData[0].secondSection
+            DataScienceCourseData.DABAData[0].secondSection
           }
           TestimonialData={
-            DataScienceCourseData.BADataScienceCourseData[0].testimonial
+            DataScienceCourseData.DABAData[0].testimonial
           }
         />
         <DABASecondPart
           masterSyllabusMobile={
-            DataScienceCourseData.BADataScienceCourseData[0]
+            DataScienceCourseData.DABAData[0]
               .masterSyllabusMobile
           }
           CertificateData={
-            DataScienceCourseData.BADataScienceCourseData[0].Certificate
+            DataScienceCourseData.DABAData[0].Certificate
           }
           projectSection={
-            DataScienceCourseData.BADataScienceCourseData[0].projectSection
+            DataScienceCourseData.DABAData[0].projectSection
           }
           toolsdynamic={true}
-          FAQNewData={DataScienceCourseData.BADataScienceCourseData[0].faq}
+          FAQNewData={DataScienceCourseData.DABAData[0].faq}
         />
       </main>
     </>
@@ -173,7 +173,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
 }
 export default Blockchain;
 export async function getStaticProps() {
-  const data = await import("../../Data/BusinessAnalyticsData");
+  const data = await import("../../Data/DABAData");
   function getDataScienceCourseDataJSON(dataScienceCourseData) {
     return JSON.stringify(dataScienceCourseData);
   }
