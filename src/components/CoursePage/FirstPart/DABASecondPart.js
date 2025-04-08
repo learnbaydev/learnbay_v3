@@ -7,6 +7,9 @@ const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
 const WhatsappFloat = dynamic(() =>
   import("@/components/Global/WhatappsFloat/WhatsappFloat")
 );
+const DSAProjectSection = dynamic(() =>
+  import("@/components/CoursePage/NewDSA/ProjectSection/daba")
+);
 const Certificate = dynamic(() =>
   import("../UpdatedCertificate/UpdatedCertificate")
 );
@@ -18,9 +21,7 @@ const MentorsSection = dynamic(() =>
   import("../../Global/MentorsSection/MentorsSection")
 );
 
-const SliderTab = dynamic(() =>
-  import("../../Global/SliderTabs/SliderTabs")
-);
+const SliderTab = dynamic(() => import("../../Global/SliderTabs/SliderTabs"));
 
 const PlacementCall = dynamic(() =>
   import("../../Global/PlacementCall/PlacementCall")
@@ -30,9 +31,7 @@ const NewProjectSection = dynamic(() =>
   import("../../Global/NewProjectSection/NewProjectSection")
 );
 
-const FAQNew = dynamic(() =>
-  import("../FAQNew/FAQNew")
-);
+const FAQNew = dynamic(() => import("../FAQNew/FAQNew"));
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
 const Content = dynamic(() => import("../Content/content"));
 const SeventhSection = dynamic(() =>
@@ -79,7 +78,7 @@ const DABASecondPart = ({
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/DA_BA.pdf";
   return (
     <div>
       <LJourney />
@@ -88,7 +87,7 @@ const DABASecondPart = ({
         dataScienceCounselling={true}
         dataScience={true}
         titleCourse="Business Analytics Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DA-BA.pdf"
         brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}
@@ -118,13 +117,20 @@ const DABASecondPart = ({
       <SliderTab />
       <PlacementCall />
       <MobileTestimonial />
-      <NewProjectSection
+      {/* <NewProjectSection
         dataScience={true}
         titleCourse="Business Analytics Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Business+Analytics+Program+newone.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DA-BA.pdf"
         brochurePdf={pdfUrl}
         projectSection={projectSection}
         interstedInHide={true}
+      /> */}
+      <DSAProjectSection
+        dataScience={true}
+        interstedInHide={true}
+        titleCourse="Data Structure Algorithms & System Design"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf"
+        brochurePdf={pdfUrl}
       />
       <FAQNew FAQNewData={FAQNewData} toolsdynamic={toolsdynamic} />
       <Content Banalytics={true} dataScienceCounselling={true} />

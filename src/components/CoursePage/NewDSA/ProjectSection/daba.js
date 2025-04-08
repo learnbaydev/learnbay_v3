@@ -4,7 +4,7 @@ import { memo, useState, useEffect, useCallback } from "react";
 import styles from "./DSAProjectSection.module.css";
 import dynamic from "next/dynamic";
 import Image from "next/image";
-import data from "./Data/DSAProjectSectionData.json";
+import data from "./Data/dabaProjectSectionData.json";
 import { debounce } from "@/Util/debounce";
 import Popup from "@/components/Global/Popup/Popup";
 import Form from "@/components/Global/Form/Form";

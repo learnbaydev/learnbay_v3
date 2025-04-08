@@ -53,31 +53,43 @@ export const courses = {
       brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-science-ai-for-managers.pdf",
     },
 
-    {
-      title: "Data Analytics Certification Program",
-      duration: "5 months | 1 capstone Projects",
-      certification: "Project Certification form IBM",
-      description: "For Non-Tech Professionals",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA_card+(1).webp",
+    // {
+    //   title: "Data Analytics Certification Program",
+    //   duration: "5 months | 1 capstone Projects",
+    //   certification: "Project Certification form IBM",
+    //   description: "For Non-Tech Professionals",
+    //   image:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA_card+(1).webp",
 
-      link: "/datascience/data-analytics-certification-course",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
-      brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
-    },
+    //   link: "/datascience/data-analytics-certification-course",
+    //   brochureLinks:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
+    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
+    // },
 
+    // {
+    //   title: "Business Analytics Master Certification Program",
+    //   duration: "7 months | 4 capstone Projects",
+    //   certification: "Project Certification form IBM",
+    //   description: "For Working Professional",
+    //   image:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BS_Cardsss.webp",
+    //   link: "/datascience/business-analytics-certification-course",
+    //   brochureLinks:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/Business_Analytics.pdf",
+    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf",
+    // },
     {
-      title: "Business Analytics Master Certification Program",
-      duration: "7 months | 4 capstone Projects",
+      title: "Data Analytics and Business Analytics with Generative AI",
+      duration: "9 months | 4 capstone Projects",
       certification: "Project Certification form IBM",
       description: "For Working Professional",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BS_Cardsss.webp",
-      link: "/datascience/business-analytics-certification-course",
+      link: "/artificial-intelligence/generative-ai-analytics-course",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/Business_Analytics.pdf",
-      brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DA-BA.pdf",
+      brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/DA_BA.pdf",
     },
 
     //   {
@@ -472,19 +484,19 @@ export const courses = {
       brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cloud-and-Devops-Certification.pdf",
     },
 
-    {
-      title: "Data Analytics Certification Program",
-      duration: "5 months | 1 capstone Projects",
-      certification: "Project Certification form IBM",
-      description: "For Non-Tech Professionals",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA_card+(1).webp",
+    // {
+    //   title: "Data Analytics Certification Program",
+    //   duration: "5 months | 1 capstone Projects",
+    //   certification: "Project Certification form IBM",
+    //   description: "For Non-Tech Professionals",
+    //   image:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA_card+(1).webp",
 
-      link: "/datascience/data-analytics-certification-course",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
-      brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
-    },
+    //   link: "/datascience/data-analytics-certification-course",
+    //   brochureLinks:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
+    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
+    // },
 
     {
       title: "HR Analytics Certification Program",
@@ -512,17 +524,29 @@ export const courses = {
     //   brochurePdfs: "/Brochure/Advance_DSAI.pdf",
     // },
 
+    // {
+    //   title: "Business Analytics Master Certification Program",
+    //   duration: "7 months | 4 capstone Projects",
+    //   certification: "Project Certification form IBM",
+    //   description: "For Working Professional",
+    //   image:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BS_Cardsss.webp",
+    //   link: "/datascience/business-analytics-certification-course",
+    //   brochureLinks:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/Business_Analytics.pdf",
+    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf",
+    // },
     {
-      title: "Business Analytics Master Certification Program",
-      duration: "7 months | 4 capstone Projects",
+      title: "Data Analytics and Business Analytics with Generative AI",
+      duration: "9 months | 4 capstone Projects",
       certification: "Project Certification form IBM",
       description: "For Working Professional",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BS_Cardsss.webp",
-      link: "/datascience/business-analytics-certification-course",
+      link: "/artificial-intelligence/generative-ai-analytics-course",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/Business_Analytics.pdf",
-      brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DA-BA.pdf",
+      brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/DA_BA.pdf",
     },
     {
       title: "Data Science & Generative AI for BFSI Professionals",
@@ -636,17 +660,29 @@ export const courses = {
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/DSAI_Master.pdf",
       brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-Master-Certification.pdf",
     },
+    // {
+    //   title: "Business Analytics Master Certification Program",
+    //   duration: "7 months | 4 capstone Projects",
+    //   certification: "Project Certification form IBM",
+    //   description: "For Working Professional",
+    //   image:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BS_Cardsss.webp",
+    //   link: "/datascience/business-analytics-certification-course",
+    //   brochureLinks:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/Business_Analytics.pdf",
+    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf",
+    // },
     {
-      title: "Business Analytics Master Certification Program",
-      duration: "7 months | 4 capstone Projects",
+      title: "Data Analytics and Business Analytics with Generative AI",
+      duration: "9 months | 4 capstone Projects",
       certification: "Project Certification form IBM",
       description: "For Working Professional",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BS_Cardsss.webp",
-      link: "/datascience/business-analytics-certification-course",
+      link: "/artificial-intelligence/generative-ai-analytics-course",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/Business_Analytics.pdf",
-      brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DA-BA.pdf",
+      brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/DA_BA.pdf",
     },
 
     {
@@ -688,19 +724,19 @@ export const courses = {
     //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-For-Freshers.pdf",
     // },
 
-    {
-      title: "Data Analytics Certification Program",
-      duration: "5 months | 1 capstone Projects",
-      certification: "Project Certification form IBM",
-      description: "For Non-Tech Professionals",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA_card+(1).webp",
+    // {
+    //   title: "Data Analytics Certification Program",
+    //   duration: "5 months | 1 capstone Projects",
+    //   certification: "Project Certification form IBM",
+    //   description: "For Non-Tech Professionals",
+    //   image:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA_card+(1).webp",
 
-      link: "/datascience/data-analytics-certification-course",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
-      brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
-    },
+    //   link: "/datascience/data-analytics-certification-course",
+    //   brochureLinks:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
+    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
+    // },
     {
       title: "Data Science Foundation Program ",
       duration: "4 months | 4 Projects",
