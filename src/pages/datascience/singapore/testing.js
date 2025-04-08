@@ -31,7 +31,7 @@ const Footer = dynamic(() =>
 );
 const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
 export default function Home() {
-  const pdfUrl = "/Brochure/Data-Analytics-Certification.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf";
   return (
     <div className={styles.container}>
       <Head>

@@ -27,7 +27,7 @@ const FullStackSoftwareDevelopmentSecondPart = ({
   certificateNew,
 }) => {
 
-  const pdfUrl = "/Brochure/Data-Structure-System-Design.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Structure-System-Design.pdf";
   return (
     <div>
       <LJourney />

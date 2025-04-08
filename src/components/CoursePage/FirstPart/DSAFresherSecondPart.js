@@ -27,7 +27,7 @@ const FullStackSoftwareDevelopmentSecondPart = ({
   certificateNew,
   notcall,
 }) => {
-  const pdfUrl = "/Brochure/DSA-for-Fresherss.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/DSA-for-Fresherss.pdf";
   return (
     <div>
       <LJourney />

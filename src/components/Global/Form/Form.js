@@ -203,15 +203,55 @@ const Form = ({
     }
   };
 
-  const downloadFileAtUrl = (url) => {
-    const aTag = document.createElement("a");
-    aTag.href = url;
-    aTag.download = url.split("/").pop();
-    document.body.appendChild(aTag);
-    aTag.click();
-    document.body.removeChild(aTag);
-  };
+  // const downloadFileAtUrl = (url) => {
+  //   const aTag = document.createElement("a");
+  //   aTag.href = url;
+  //   aTag.download = url.split("/").pop();
+  //   document.body.appendChild(aTag);
+  //   aTag.click();
+  //   document.body.removeChild(aTag);
+  // };
 
+  // const downloadFileAtUrl = async (url) => {
+  //   const fileName = url.split("/").pop();
+  
+  //   try {
+  //     const response = await fetch(url, {
+  //       mode: "cors",
+  //     });
+  
+  //     if (!response.ok) {
+  //       throw new Error("Network response was not ok");
+  //     }
+  
+  //     const blob = await response.blob();
+  //     const blobUrl = window.URL.createObjectURL(blob);
+  
+  //     const a = document.createElement("a");
+  //     a.href = blobUrl;
+  //     a.style.display = "none";
+  //     a.download = fileName; // This triggers the actual file download
+  //     document.body.appendChild(a);
+  //     a.click();
+  //     document.body.removeChild(a);
+  
+  //     window.URL.revokeObjectURL(blobUrl);
+  //   } catch (error) {
+  //     console.error("Download failed:", error);
+  //   }
+  // };
+
+  const downloadFileAtUrl = (url) => {
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = url.split("/").pop(); 
+  a.target = "_blank";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+};
+
+  
   const fetchLocation = async () => {
     try {
       const response = await fetch(

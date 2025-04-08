@@ -74,7 +74,7 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "/Brochure/Masters-in-CS.pdf"
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Masters-in-CS.pdf"
   return (
     <div className={styles.container}>
       <Head>

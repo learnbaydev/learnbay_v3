@@ -77,7 +77,7 @@ const FullStackSoftwareDevelopmentFirstPart = ({ SecondSectionData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
-  const pdfUrl = "/Brochure/Software-Developer-Certification.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Software-Developer-Certification.pdf";
   return (
     <div>
       <Navbar

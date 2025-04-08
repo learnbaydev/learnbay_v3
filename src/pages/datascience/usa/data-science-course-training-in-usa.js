@@ -74,7 +74,7 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "/Brochure/Advanced-Data-Science.pdf"
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Advanced-Data-Science.pdf"
   return (
     <div className={styles.container}>
       <Head>

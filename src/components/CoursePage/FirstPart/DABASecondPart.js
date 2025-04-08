@@ -7,11 +7,15 @@ const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
 const WhatsappFloat = dynamic(() =>
   import("@/components/Global/WhatappsFloat/WhatsappFloat")
 );
+const DSAProjectSection = dynamic(() =>
+  import("@/components/CoursePage/NewDSA/ProjectSection/daba")
+);
 const Certificate = dynamic(() =>
   import("../UpdatedCertificate/UpdatedCertificate")
 );
-const OfferPopup = dynamic(() => import("../../Global/OfferPopup/OfferPopup"));
-const FeeSection = dynamic(() => import("../FeeSection/FeeSection"));
+const FeeSection = dynamic(() =>
+  import("../../course/feeSection/FeeSectionCourse")
+);
 
 const MentorsSection = dynamic(() =>
   import("../../Global/MentorsSection/MentorsSection")
@@ -27,22 +31,22 @@ const NewProjectSection = dynamic(() =>
   import("../../Global/NewProjectSection/NewProjectSection")
 );
 
-const MobileTestimonial = dynamic(() =>
-  import("@/components/Home/MobileTestimonial/MobileTestimonial")
-);
-
-const FAQNew = dynamic(() => import("../FAQNew/FAQNewDomain"));
+const FAQNew = dynamic(() => import("../FAQNew/FAQNew"));
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
 const Content = dynamic(() => import("../Content/content"));
 const SeventhSection = dynamic(() =>
   import("@/components/Global/SeventhSection/SeventhSection")
 );
+const MobileTestimonial = dynamic(() =>
+  import("@/components/Home/MobileTestimonial/MobileTestimonial")
+);
 
-const SecondPart = ({
+const DABASecondPart = ({
   masterSyllabusMobile,
   CertificateData,
   projectSection,
   FAQNewData,
+  toolsdynamic,
 }) => {
   const [popupData, setPopupData] = useState([]);
   // console.log(popupData);
@@ -74,7 +78,7 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/BFSI.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/DA_BA.pdf";
   return (
     <div>
       <LJourney />
@@ -82,57 +86,54 @@ const SecondPart = ({
         masterSyllabusMobile={masterSyllabusMobile}
         dataScienceCounselling={true}
         dataScience={true}
-        titleCourse="Data Science & AI for BFSI Professionals"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf"
+        titleCourse="Business Analytics Certification Program"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DA-BA.pdf"
         brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}
       />
-      <ToolsCovered />
+      <ToolsCovered toolsdynamic={toolsdynamic} />
       <Certificate data={CertificateData} />
       <FeeSection
-        Fee="₹95,000"
-        FeeEmi="₹6,228/month"
-        weekdaybatch="Weekday Batch"
-        weekendbatch="Weekend Batch"
-        weekday="MON - THU"
-        weekend="SAT - SUN"
-        WeekdayDate="1st April"
-        WeekendDate="19th April"
-        WeekdayTime="8:00 PM - 10:30 PM "
-        WeekendTime="9:30 AM - 1:00 PM"
-        FeeContent3="Flexible payment"
-        FeeContent4="Easy loan procedure"
-        FeeContent5="10 days refund policy"
-        FeeContent6="No additional cost"
-        dataScienceCounselling={true}
-        interstedInHide={true}
-        titleCourse="Data Science & AI for BFSI Professionals"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf"
-        brochurePdf={pdfUrl}
-        dataScience={true}
-        // EMI POPUPDATA
-        emiType="NO COST EMI"
-        duration1="18 Months"
-        totalAmount1="₹95,000"
-        monthlyPayment1="₹6,228"
-        greenDown1="Standard Intrest rate Applicable"
+        Fee="₹ 95,000"
+        FeeEmi="₹ 5,277/ month"
+        // Hybrid Classes
+        hybridFee="₹ 1,05,000"
+        hybridEmi="₹ 5,833/ month"
+        // EMIPOPUP
+        emiType="Live online classes"
+        duration1="12 Months"
+        totalAmount1="₹ 95,000"
+        monthlyPayment1="₹14,094"
+        greenDown1="Hybrid Classes"
         duration2="12 Months"
-        totalAmount2="₹95,000"
-        monthlyPayment2="₹9,342"
+        totalAmount2="₹2,10,000"
+        monthlyPayment2="₹12,455"
+        dataScienceCounselling={true}
+        iitGuwatiGen={true}
+        interstedInHide={true}
       />
       <MentorsSection />
-      <SliderTab WithoutService={true} />
-      <PlacementCall BFSI={true} />
-      <MobileTestimonial interstedInHide={true} dataScienceCounselling={true} />
+      <SliderTab />
+      <PlacementCall />
+      <MobileTestimonial />
       {/* <NewProjectSection
         dataScience={true}
-        titleCourse="Data Science & AI for BFSI Professionals"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf"
+        titleCourse="Business Analytics Certification Program"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DA-BA.pdf"
+        brochurePdf={pdfUrl}
         projectSection={projectSection}
         interstedInHide={true}
       /> */}
-      <FAQNew FAQNewData={FAQNewData} />
+      <DSAProjectSection
+        dataScience={true}
+        interstedInHide={true}
+        titleCourse="Data Structure Algorithms & System Design"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf"
+        brochurePdf={pdfUrl}
+      />
+      <FAQNew FAQNewData={FAQNewData} toolsdynamic={toolsdynamic} />
+      <Content Banalytics={true} dataScienceCounselling={true} />
       <SeventhSection />
       <Footer />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />
@@ -142,4 +143,4 @@ const SecondPart = ({
   );
 };
 
-export default SecondPart;
+export default DABASecondPart;

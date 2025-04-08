@@ -28,7 +28,7 @@ const CyberSecurityECCouncil = ({ NewCyberSecurityECCouncilDataJson }) => {
     NewCyberSecurityECCouncilDataJson
   );
 
-  const pdfUrl = "/Brochure/Advance-Cyber-security.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Advance-Cyber-security.pdf";
   return (
     <>
       <Head>

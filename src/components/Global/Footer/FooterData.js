@@ -789,43 +789,49 @@ export const CourseData = [
         url: "/fullstack/full-stack-software-development-program",
         name: "Software Development Certification Course",
       },
+      // {
+      //   id: 7,
+      //   url: "/datascience/business-analytics-certification-course",
+      //   name: "Business Analytics Master Certification Course",
+      // },
+      // {
+      //   id: 8,
+      //   url: "/datascience/data-analytics-certification-course",
+      //   name: "Data Analytics Course",
+      // },
       {
         id: 7,
-        url: "/datascience/business-analytics-certification-course",
-        name: "Business Analytics Master Certification Course",
+        name: "Data Analytics and Business Analytics with Generative AI",
+        url: "/artificial-intelligence/generative-ai-analytics-course",
       },
+
       {
         id: 8,
-        url: "/datascience/data-analytics-certification-course",
-        name: "Data Analytics Course",
-      },
-      {
-        id: 9,
         name: "Advanced Cloud Computing & DevOps Certification Course",
         url: "/cloud&devops/cloud-computing-and-devOps-certification-program",
       },
       {
-        id: 10,
+        id: 9,
         name: "Certificate in AWS Cloud Computing & Devops",
         url: "/cloud&devops/aws-cloud-computing-and-devOps",
       },
       {
-        id: 11,
+        id: 10,
         name: "Executive Course in Data Science & AI",
         url: "/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati",
       },
       {
-        id: 12,
+        id: 11,
         name: "Advance Data Analytics Course",
         url: "/datascience/advance-data-analytics-program-iit-guwahati",
       },
       {
-        id: 13,
+        id: 12,
         name: "Executive Certification in Cyber Security & Ethical Hacking",
         url: "/cyber-security/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee",
       },
       {
-        id: 14,
+        id: 13,
         name: "Advance Certification in Cyber Security & Ethical Hacking",
         url: "/advanced-cyber-security-course-training",
       }

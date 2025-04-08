@@ -58,10 +58,15 @@ export const TabData = [
         hours: "13 Months",
         url: "/datascience/data-science-and-ai-master-certification-program",
       },
+      // {
+      //   CName: "Business Analytics Master Certification Program",
+      //   hours: "7 Months",
+      //   url: "/datascience/business-analytics-certification-course",
+      // },
       {
-        CName: "Business Analytics Master Certification Program",
-        hours: "7 Months",
-        url: "/datascience/business-analytics-certification-course",
+        CName: "Data Analytics and Business Analytics with Generative AI",
+        hours: "8-9 Months",
+        url: "/artificial-intelligence/generative-ai-analytics-course",
       },
       {
         CName: "Generative AI & Machine Learning Program",
@@ -78,11 +83,11 @@ export const TabData = [
         hours: "6 Months",
         url: "/datascience/data-science-ai-for-freshers",
       },
-      {
-        CName: "Data Analytics Certification Program",
-        hours: "5 Months",
-        url: "/datascience/data-analytics-certification-course",
-      },
+      // {
+      //   CName: "Data Analytics Certification Program",
+      //   hours: "5 Months",
+      //   url: "/datascience/data-analytics-certification-course",
+      // },
       {
         CName: "Data Science Foundation Program",
         hours: "4 Months",

@@ -32,7 +32,7 @@ const GenAiMLeadersSecondPart = ({
 }) => {
   // console.log(popupData);
 
-  const pdfUrl = "/Brochure/GenAI-Managers-Tech-Leaders-iits.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/GenAI-Managers-Tech-Leaders-iits.pdf";
   return (
     <div>
       <LJourney />

@@ -79,7 +79,7 @@ const ExecutiveSecondPart = ({
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "/Brochure/Executive-program-iit.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Executive-program-iit.pdf";
   return (
     <>
       <GetHire />
