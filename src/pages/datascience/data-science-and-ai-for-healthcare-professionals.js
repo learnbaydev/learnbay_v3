@@ -67,12 +67,10 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>
-          Data Science & AI Course for Healthcare Professionals | Learnbay
-        </title>
+        <title>Data Science & AI Course for Healthcare - Learnbay</title>
         <meta
           name="description"
-          content="Empower your medical domain knowledge with our Data Science course for  Healthcare Professionals. Elevate your skills and drive innovation with Learnbay!!"
+          content="Transform healthcare with AI. Join Learnbay’s Data Science Course for Healthcare Professionals. Upgrade your skills and drive innovation."
         />
         <meta name="robots" content="index, follow" />
         <meta
@@ -87,11 +85,11 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Data Science & AI Course for Healthcare Professionals | Learnbay"
+          content="Data Science & AI Course for Healthcare - Learnbay"
         />
         <meta
           property="og:description"
-          content="Empower your medical domain knowledge with our Data Science course for  Healthcare Professionals. Elevate your skills and drive innovation with Learnbay!!"
+          content="Transform healthcare with AI. Join Learnbay’s Data Science Course for Healthcare Professionals. Upgrade your skills and drive innovation."
         />
         <meta
           property="og:image"
