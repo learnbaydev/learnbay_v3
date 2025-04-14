@@ -67,13 +67,10 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>
-          Data Science Course with Certifications for BFSI Professionals -
-          Learnbay
-        </title>
+        <title>Data Science Course for BFSI Professionals - Learnbay</title>
         <meta
           name="description"
-          content="Empower your BFSI career with Learnbay's Data Science course for BSFI professionals. Elevate skills, drive innovation in banking and finance. Enroll now!"
+          content="Advance your BFSI career with Learnbay’s Data Science Course. Gain AI-driven skills to innovate in banking & finance. Enroll today."
         />
         <meta name="robots" content="index, follow" />
         <meta
@@ -88,11 +85,11 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Data Science Course with Certifications for BFSI Professionals - Learnbay"
+          content="Data Science Course for BFSI Professionals - Learnbay"
         />
         <meta
           property="og:description"
-          content="Empower your BFSI career with Learnbay's Data Science course for BSFI professionals. Elevate skills, drive innovation in banking and finance. Enroll now!"
+          content="Advance your BFSI career with Learnbay’s Data Science Course. Gain AI-driven skills to innovate in banking & finance. Enroll today."
         />
         <meta
           property="og:image"

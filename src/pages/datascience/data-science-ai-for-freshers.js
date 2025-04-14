@@ -10,12 +10,10 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>
-          Data Science and AI Certification Program For Freshers - Learnbay
-        </title>
+        <title>Data Science & AI Course for Freshers - Learnbay</title>
         <meta
           name="description"
-          content="Are you searching for the Data Science and AI Certification Program For Freshers ? Learnbay is providing the best online Advanced Data Science and AI Program . Enroll now!"
+          content="Start your AI journey with Learnbay’s Data Science & AI Program for Freshers. Learn from experts and boost your career. Enroll now."
         />
         <meta name="robots" content="index, follow" />
         <meta
@@ -30,11 +28,11 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Data Science and AI Certification Program For Freshers - Learnbay"
+          content="Data Science & AI Course for Freshers - Learnbay"
         />
         <meta
           property="og:description"
-          content="Are you searching for the Data Science and AI Certification Program For Freshers ? Learnbay is providing the best online Advanced Data Science and AI Program . Enroll now!"
+          content="Start your AI journey with Learnbay’s Data Science & AI Program for Freshers. Learn from experts and boost your career. Enroll now."
         />
         <meta
           property="og:image"
