@@ -6,6 +6,7 @@ import Button from "@/components/Global/Button/Button";
 import Link from "next/link";
 
 function DataAnalytics({
+  daba,
   background,
   dataScienceCounselling,
   DataAnalytics,
@@ -26,7 +27,7 @@ function DataAnalytics({
   AdvanceCyberSecurity,
   GenAIManagers,
   GenAIDevelopers,
-  ExecutiveCyberSecurityIITR
+  ExecutiveCyberSecurityIITR,
 }) {
   const [read, setRead] = useState(false);
 
@@ -3932,6 +3933,408 @@ function DataAnalytics({
       ) : (
         ""
       )}
+      {daba ? (
+        <div className={styles.content}>
+          <div className={styles.btnread}>
+            <p
+              style={{
+                color: "#fff",
+                fontWeight: "600",
+                textDecoration: "underline",
+                cursor: "pointer",
+              }}
+              onClick={handler}
+              className={styles.readP}
+            >
+              {read ? "Read Less..." : "Read More..."}
+            </p>
+          </div>
+          <h2>
+            Data Analytics and Business Analytics with Gen AI Certification
+            Program
+          </h2>
+          <p>
+            Build a Generative AI-driven expertise to thrive in today’s
+            analytics-driven workspace. Join Learnbay’s cutting-edge{" "}
+            <b>data analytics and AI course </b>to enrich your data-driven
+            decisions and business forte.{" "}
+            <b>
+              Our Data Analytics and Business Analytics with Gen AI Program{" "}
+            </b>
+            (career support & capstone projects) vows you a hassle-free career
+            shift.
+          </p>
+          {read ? (
+            <>
+              <h2 style={{ fontSize: "24px" }}>
+                <b>Diving Deeper into Market Insights</b>
+              </h2>
+              <p>
+                The Indian Data Analytics Market expects a 35.8% growth by 2030,
+                unleashing new profit-making options for business owners and
+                working experts. Also, the business analytics market predicts an
+                8.50% growth by 2034, setting global success. In the meantime,
+                the rise of Generative AI has seized a notable market share,
+                dominating diverse sectors.
+              </p>
+              <p>
+                According to Statista reports, the GenAI market expects a 36.99%
+                growth by 2031, projecting easy-going business and career
+                growth. As GenAI models become a trend, over 61% of firms have
+                shifted their focus to updating their functional models. Thus,
+                the demand for GenAI experts with data and business analytics
+                wisdom keeps rising.
+              </p>
+              <p>
+                Firms rely on GenAI-driven models to lead innovation and forge
+                better profits. Reacting to vital market shifts, data, and
+                business analysts, strongly agree with a GenAI-rich revamp for a
+                better future. Hence, mastering business and
+                <b>data analytics with Generative AI</b> has become crucial for
+                career aspirants.
+              </p>
+              <h2>
+                Diving into Learnbay’s Career-focused Data and Business
+                Analytics Course with Gen AI
+              </h2>
+              <p>
+                Learnbay’s invincible success is again buzzing with a new,
+                thoroughly designed <b>data analytics and AI course.</b> The USP
+                of the course is the hassle-free union of business analytics
+                with industry-focused, GenAI-rich learning. In short, career
+                aspirants can undergo data analytics and business analytics
+                learning with GenAI-rich modules.
+              </p>
+              <p>
+                Our historic move toward bridging skills gaps in modern
+                workspaces inspires many learners to transform their journey.
+                Our learners will get an open learning space to master the role
+                of <b>AI in business analytics</b> and data analytics in one
+                shot. We have designed this program for working experts keen to
+                learn full-stack analytics with GenAI features to upscale their
+                data skills and industry acumen.
+              </p>{" "}
+              <p>
+                <b> Business analytics and artificial intelligence </b>have been
+                a key focus for diverse sectors willing to enrich their
+                decision-making skills. Hence, we have added GenAI-specific
+                learning modules to confront agentic AI and its supreme power.
+                Learners can gain domain-driven wisdom, learn from eminent
+                experts, and excel in their fields.
+              </p>
+              <h2>
+                Why Choose Learnbay’s GenAI-Rich Data and Business Analytics
+                Course?{" "}
+              </h2>
+              <p>
+                A rapidly growing GenAI trend inspires working experts to
+                upgrade their skills and rise beyond cutting-edge tech
+                creations. In the interim, a hassle-free blend of business and
+                <b> data analytics with AI </b>speeds up the career change
+                process with exciting perks. Hence, Learnbay presents a
+                GenAI-driven certification program to drive notable career
+                gains. Let’s explore the course features.
+                <ul>
+                  <li>
+                    <h4 style={{ fontSize: "18px" }}>
+                      • All-inclusive modules with data analytics, business
+                      analytics, and artificial intelligence:
+                    </h4>
+                    <p>
+                      Working experts with at least 1+ year of experience can
+                      enroll in this course to master Agentic AI and GenAI
+                      models. Our learner-centric training sessions help you
+                      gain evolved data and business analytics skills to thrive
+                      in the GenAI-powered era.
+                    </p>
+                  </li>
+                  <li>
+                    <h4 style={{ fontSize: "18px" }}>
+                      • Flexible GenAI-rich training:
+                    </h4>
+                    <p>
+                      We offer balanced training to help you master
+                      <b> AI in business analytics</b> and data analysis.
+                      Working experts can choose learning sessions to balance
+                      their work and study hours. We have instructor-led
+                      sessions where you can attend online classes and learn
+                      directly from mentors. Our hybrid training offers online
+                      coursework sessions and offline project work via
+                      innovation labs.
+                    </p>
+                  </li>
+                  <li>
+                    <h4 style={{ fontSize: "18px" }}>
+                      •Domain-specific training:
+                    </h4>
+                    <p>
+                      Aspirants will get domain-driven learning to tackle
+                      industry cases with 100% proven solutions. Experts can
+                      choose the best-fit domain{" "}
+                      <b>
+                        (BFSI, Retail, Supply Chain, HR, Marketing, or
+                        Manufacturing)
+                      </b>{" "}
+                      and master proven tools. Experts can choose any two
+                      domains to undergo live project work.
+                    </p>
+                    <h4 style={{ fontSize: "18px" }}>
+                      Real-time learning via capstone projects:
+                    </h4>
+                    <p>
+                      We believe in a hands-on learning scope where learners can
+                      work on capstone projects <b>(domain-specific)</b> to
+                      enrich their skills. It offers insights into real-world
+                      cases and equips you with skills to thrive globally.
+                    </p>
+                    <h4 style={{ fontSize: "18px" }}>
+                      Capstone project validation via a job-driven certificate:
+                    </h4>
+                    <p>
+                      Learners can exhibit their project-based skills via an IBM
+                      certificate. Experts can earn this certificate to confirm
+                      their real-time skills in using
+                      <b> AI in business analytics</b>
+                      and data-driven decision-making.
+                    </p>
+                    <h4 style={{ fontSize: "18px" }}>
+                      Career-driven placement aid:
+                    </h4>
+                    <p>
+                      The rising business analytics and artificial intelligence
+                      trends demand proven skills to tackle industry cases and
+                      drive data-led success. Our hassle-free career support
+                      offers resume building, mock interviews, 1:1
+                      doubt-clearing, and endless job calls.
+                    </p>
+                    <h4 style={{ fontSize: "18px" }}>Global certifications:</h4>
+                    <p>
+                      Business and <b> data analytics with AI </b>lay the basis
+                      for swift career shifts for experts from diverse sectors.
+                      Learners can<b> earn IBM and Microsoft certificates</b> to
+                      confirm expertise and grab exciting jobs.
+                    </p>
+                  </li>
+                </ul>
+              </p>
+              <h2>
+                How does Learnbay’s data analytics and AI course certification
+                help you excel in your career?
+              </h2>
+              <p>
+                As the demand for certified data analysts, business analysts, or
+                GenAI experts grows, the urgency for upskilling keeps
+                triggering. Experts prefer joining a{" "}
+                <b>data analytics and AI course </b>with globally valued
+                certificates for proven success.Learnbay promises swift career
+                growth under the industry alliance with IBM & Microsoft. It
+                offers career-driven recognition of your skills via course
+                completion and project certifications. Experts enrolling in our
+                data analytics and business analytics course with GenAI will
+                avail of –
+                <ul>
+                  <li>•One Course Completion Certificate from IBM</li>
+                  <li>• One Azure AI Certificate from Microsoft</li>
+                  <li>• One Capstone Project Certificate from IBM</li>
+                </ul>
+              </p>
+              <h4 style={{ fontSize: "20px" }}>
+                Is learning with Learnbay’s cutting-edge course modules worth
+                investing in?
+              </h4>
+              <p>
+                Our career-driven, reliable course equips you with skills to
+                learn business and data analytics with AI. Our industry-paced
+                training modules are domain-specific and offer the scope to
+                master Agentic AI and GenAI uses in your chosen fields. GenAI is
+                an ever-evolving field, and experts eager to join it must keep
+                boosting their skills.
+              </p>
+              <p>
+                Our custom-fit modules train you with cutting-edge tools to
+                build competitive careers in the evolving world of data. The
+                course module contains basic and advanced data analytics,
+                business analytics, Agentic AI, and GenAI concepts. The 240+
+                hours of learning include 18+ projects and 5 terms to equip you
+                with proven skills.
+                <ul>
+                  <li>
+                    <ul>
+                      <li>
+                        • <b>1st Term:</b>Learners will master Excel functions
+                        and advanced features to apply{" "}
+                        <b>AI in business analytics</b>
+                        and data analysis.
+                      </li>
+                      <li>
+                        • <b>2nd Term:</b>Experts will learn basic and
+                        statistical functions using R and ML models to enhance
+                        their skills to tackle the intricacies of business
+                        analytics and artificial intelligence.
+                      </li>
+                      <li>
+                        • <b>3rd Term:</b> Learners can gain visualization and
+                        analysis skills to decode data patterns, predict future
+                        trends, and explore business and{" "}
+                        <b>data analytics with AI.</b>
+                      </li>
+                      <li>
+                        • <b>4th Term:</b> Experts will learn basic and refined
+                        business analytics tools for hassle-free deployments in
+                        the GenAI-rich era.
+                      </li>
+                      <li>
+                        • <b>5th Term:</b>This is a GenAI-specific term in a
+                        <b> data analytics and AI course</b> that will help you
+                        explore facets of Open API integration.
+                      </li>
+                    </ul>
+                    <p>
+                      Besides theoretical learning, experts will work on live
+                      projects at our offline project innovation labs
+                      <b>
+                        (Bangalore, Delhi, Hyderabad, Kolkata, Pune, and
+                        Chennai).
+                      </b>
+                      So, start learning today if you’re eager to fortify
+                      success in the present GenAI-rich era.
+                    </p>
+                  </li>
+                  <li>
+                    <h3 style={{ fontSize: "24px" }}>
+                      In what ways does Learnbay’s career assistance prepare you
+                      for upcoming roles?
+                    </h3>
+                    <p>
+                      Our job-driven data analytics and business analytics with
+                      the GenAI program offer proven career support. Experts
+                      with at least 1+ years of experience can cherish their
+                      career transition journey with our custom-fit job assist
+                      program. You can refine your soft skills and prepare
+                      yourself for upcoming critical roles.
+                    </p>
+                    <p>
+                      Our<b> data analytics and AI course </b>offers 100% job
+                      and placement aid with a 360-degree change. The job assist
+                      program contains –
+                      <ul>
+                        <li>
+                          • <b>Industry-focused Career Counseling: </b> Experts
+                          give career advice to help you choose the right
+                          domains with wholesome training.
+                        </li>
+                        <li>
+                          • <b>Resume Building: </b> Our mentors and career
+                          experts will help you optimize your resumes and
+                          exhibit skills with proven certificates.
+                        </li>
+                        <li>
+                          • <b>Interview Prep: </b> Learners will undergo mock
+                          trials after 1:1 doubt-clearing to face the real-time
+                          interviews with a 100% success rate.
+                        </li>
+                        <li>
+                          • <b>Interview Prospects: </b> Our reliable placement
+                          team will schedule real-time interviews with any of
+                          our industry partners.
+                        </li>
+                      </ul>
+                    </p>
+                    <p>
+                      <b>Note</b> Learners will receive assured job calls (8 –
+                      10) from the leading industry partners until they land
+                      their promising roles.
+                    </p>
+                  </li>
+                  <li>
+                    <h3 style={{ fontSize: "24px" }}>
+                      Is project-based learning crucial for modern-age career
+                      transformations?
+                    </h3>
+                    <p>
+                      Project-based learning is vital for experts to build
+                      promising AI careers. Owing to the modern age of Agentic
+                      AI and GenAI trends, upskilling has become crucial to have
+                      exciting offers. Our inclusively curated{" "}
+                      <b>data analytics and AI course</b> offers a hands-on
+                      learning space where you can work on domain-driven
+                      projects.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Learners must choose two domains
+                      <b>
+                        {" "}
+                        (BFSI, Retail, Supply Chain, HR, Marketing, or
+                        Manufacturing){" "}
+                      </b>
+                      to undergo live project work across the offline innovation
+                      labs. Working while learning helps you gain insights into
+                      real-world cases and devise ways to confound them. Our
+                      mentors will guide you during the project work and equip
+                      you with skills to excel in your field.
+                    </p>
+                    <p>
+                      Experts can master the trending GenAI and Agentic AI tools
+                      <b>(LangChain, AutoGPT, BabyAGI, CrewAI, etc) </b>via live
+                      projects. It enriches your skills to explore the role of
+                      <b> AI in business analytics</b> and data-driven
+                      decision-making. Enroll in the course to explore aspiring
+                      data and business analytics roles with GenAI-rich skills.
+                    </p>
+                  </li>
+                </ul>
+              </p>
+              <p>
+                Try to search for{" "}
+                <a
+                  href="https://www.learnbay.co/datascience/artificial-intelligence-certification-course"
+                  target="_blank"
+                >
+                  advanced course in artificial intelligence and machine
+                  learning{" "}
+                </a>{" "}
+                to gain more extensive knowledge about the real-world
+                applications of it. There are various master’s degree program in
+                AI as well, so select the best one to gain the edge.
+              </p>
+              <p>
+                Learnbay’s{" "}
+                <a
+                  href="https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs"
+                  target="_blank"
+                >
+                  Master’s in Computer Science Data Science{" "}
+                </a>
+                and AI is a specialization program that leverages your prior
+                work experience by combining it with competitive and most-demand
+                skills in the market. This is an ideal program for those who
+                want to delve more deeply into the field of AI and Analytics.
+              </p>
+              <div onClick={popupShow} className={styles.buttonDiv}>
+                <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
+              </div>
+            </>
+          ) : (
+            ""
+          )}
+          <p
+            style={{
+              color: "#2D9CD7",
+              fontWeight: "600",
+              textDecoration: "underline",
+              cursor: "pointer",
+            }}
+            onClick={handler}
+            className={styles.readP}
+          >
+            {read ? "Read Less..." : ""}
+          </p>
+        </div>
+      ) : (
+        ""
+      )}
       {mangers ? (
         <div className={styles.content}>
           <h4 style={{ textAlign: "center" }}>
@@ -5131,124 +5534,311 @@ function DataAnalytics({
           </h4>
           <h3 style={{ fontSize: "20px" }}>Course Details</h3>
           <p>
-          In the data age, where data explosions and breaches are growing simultaneously, Learnbay marks a landmark with its <b>certificate course in ethical hacking and cyber security.</b> Our proactive step toward a GenAI-rich learning stage will help you build a thriving career in cyber security.
+            In the data age, where data explosions and breaches are growing
+            simultaneously, Learnbay marks a landmark with its{" "}
+            <b>certificate course in ethical hacking and cyber security.</b> Our
+            proactive step toward a GenAI-rich learning stage will help you
+            build a thriving career in cyber security.
           </p>
           <p>
-          Our inclusively designed course is here to help IT experts, network admins, security analysts, and other tech pros learn and grow. It presents a broadly curated <b>cybersecurity and ethical hacking roadmap</b>, equipping techies with vital skills to lessen cyber-attacks and enrich AI-driven security.
+            Our inclusively designed course is here to help IT experts, network
+            admins, security analysts, and other tech pros learn and grow. It
+            presents a broadly curated{" "}
+            <b>cybersecurity and ethical hacking roadmap</b>, equipping techies
+            with vital skills to lessen cyber-attacks and enrich AI-driven
+            security.
           </p>
           <p>
-          Join the program to build GenAI-rich security systems and accelerate career growth options. Our custom-fit career support helps you go through mock interviews, resume-making, and profiling sessions for better learning. Also, attesting cyber security ethical hacking certificates from <b>EC Council and Microsoft</b> to your career can enrich your worth.
+            Join the program to build GenAI-rich security systems and accelerate
+            career growth options. Our custom-fit career support helps you go
+            through mock interviews, resume-making, and profiling sessions for
+            better learning. Also, attesting cyber security ethical hacking
+            certificates from <b>EC Council and Microsoft</b> to your career can
+            enrich your worth.
           </p>
           <h3 style={{ fontSize: "20px" }}>
-          Who is eligible for Learnbay's Advance Cyber Security Course?
+            Who is eligible for Learnbay's Advance Cyber Security Course?
           </h3>
           <p>
-          Learnbay presents an ideal cyber hacking course for learners eager to build tech-driven careers. As cyber-attacks continue to rise, the urgency of career updates rapidly evolves. Hence, many working professionals step forward to advance digitally secure careers or cyber security roles.
+            Learnbay presents an ideal cyber hacking course for learners eager
+            to build tech-driven careers. As cyber-attacks continue to rise, the
+            urgency of career updates rapidly evolves. Hence, many working
+            professionals step forward to advance digitally secure careers or
+            cyber security roles.
           </p>
           <p>
-          Before enrolling in our <b>cyber security and ethical hacking course</b>, check if you can join –
+            Before enrolling in our{" "}
+            <b>cyber security and ethical hacking course</b>, check if you can
+            join –
           </p>
           <ul>
             <li>
-              <b>• Entry to Mid-career IT experts (Security analysts, network admin, IT engineers, risk consultants, system admins, etc.)</b>
+              <b>
+                • Entry to Mid-career IT experts (Security analysts, network
+                admin, IT engineers, risk consultants, system admins, etc.)
+              </b>
             </li>
             <li>
               <b>• At least 1+ year of work experience</b>
             </li>
           </ul>
           <p>
-          Yet, it is crucial to note that freshers, recent graduates, and students cannot take this course.
+            Yet, it is crucial to note that freshers, recent graduates, and
+            students cannot take this course.
           </p>
           <h4 style={{ fontSize: "24px" }}>
-          Briefing the Essence of Cyber Security and Ethical Hacking in the Tech Age
+            Briefing the Essence of Cyber Security and Ethical Hacking in the
+            Tech Age
           </h4>
           <p>
-          According to cybercrime <a href="https://secureframe.com/blog/data-breach-statistics" className={styles.hyperLink} target="_blank">findings</a>, data breaches increased by over 10% in 2024 compared to 2023. Almost 46% of stats pointed toward customer data breaches, which resulted in huge cost investments. Hence, cyber security plays a crucial role in today's digital space, offering a 360-degree data shield.
+            According to cybercrime{" "}
+            <a
+              href="https://secureframe.com/blog/data-breach-statistics"
+              className={styles.hyperLink}
+              target="_blank"
+            >
+              findings
+            </a>
+            , data breaches increased by over 10% in 2024 compared to 2023.
+            Almost 46% of stats pointed toward customer data breaches, which
+            resulted in huge cost investments. Hence, cyber security plays a
+            crucial role in today's digital space, offering a 360-degree data
+            shield.
           </p>
           <p>
-          Cyber security is a well-known practice of guarding digital assets from external threats and hacks. It takes vital steps to protect system hardware and software with firewalls, antivirus programs, and data privacy rules. It removes the risky factors from the network systems and limits data breaches like sensitive cases. Hence, boosting your skill sets with cyber security tools and methods is crucial.
+            Cyber security is a well-known practice of guarding digital assets
+            from external threats and hacks. It takes vital steps to protect
+            system hardware and software with firewalls, antivirus programs, and
+            data privacy rules. It removes the risky factors from the network
+            systems and limits data breaches like sensitive cases. Hence,
+            boosting your skill sets with cyber security tools and methods is
+            crucial.
           </p>
-          <h3 style={{ fontSize: "20px" }}>Let's review the essence of cyber security in today's age.</h3>
-          <p><b>• Complete data protection : </b>Cyber security protects crucial data sets from external threats. Key security practices help firms and experts adopt vital steps to keep their data secure and free from breaches. As a result, they decrease data theft and piracy risks.</p>
-          <p><b>• Managing business goodwill : </b> Constant cyber-attacks can tarnish a business's stature, resulting in a loss of funds and reduced customer loyalty. Hence, merging cyber security principles into firms can save your prestige and settle the loss of funds.</p>
-          <p><b>• Economic losses : </b>Firms with no or lesser cyber safety practices can affect their financial well-being. Firms that fail to protect their data sets from theft may incur hefty operating costs, financial losses, and legal fines.</p>
+          <h3 style={{ fontSize: "20px" }}>
+            Let's review the essence of cyber security in today's age.
+          </h3>
           <p>
-          Indeed, tech experts can use their skills to lessen the effects of cyberattacks. Ethical hacking is a modern solution with technically skilled pros to identify and remove odds. In short, ethical hackers step forward to protect several firms from rising cyber crimes. Hence, the demand for cyber security and hacking courses keeps growing rapidly.
+            <b>• Complete data protection : </b>Cyber security protects crucial
+            data sets from external threats. Key security practices help firms
+            and experts adopt vital steps to keep their data secure and free
+            from breaches. As a result, they decrease data theft and piracy
+            risks.
           </p>
           <p>
-          Experts join a <b>certificate course in ethical hacking and cyber security</b> to protect firms from piracy attacks, data breaches, and other risks. Ethical hackers help firms protect their systems from piracy attacks. Upskilling in ethical hacking is vital to building defensive tactics and ensuring 360-degree security. Gradually, ethical hacking has become a crucial part of firms, ensuring 100% safety and security.
+            <b>• Managing business goodwill : </b> Constant cyber-attacks can
+            tarnish a business's stature, resulting in a loss of funds and
+            reduced customer loyalty. Hence, merging cyber security principles
+            into firms can save your prestige and settle the loss of funds.
           </p>
-          <h3 style={{ fontSize: "20px" }}>Let’s learn more about the extent of ethical hacking in limiting cyber-attacks.</h3>
+          <p>
+            <b>• Economic losses : </b>Firms with no or lesser cyber safety
+            practices can affect their financial well-being. Firms that fail to
+            protect their data sets from theft may incur hefty operating costs,
+            financial losses, and legal fines.
+          </p>
+          <p>
+            Indeed, tech experts can use their skills to lessen the effects of
+            cyberattacks. Ethical hacking is a modern solution with technically
+            skilled pros to identify and remove odds. In short, ethical hackers
+            step forward to protect several firms from rising cyber crimes.
+            Hence, the demand for cyber security and hacking courses keeps
+            growing rapidly.
+          </p>
+          <p>
+            Experts join a{" "}
+            <b>certificate course in ethical hacking and cyber security</b> to
+            protect firms from piracy attacks, data breaches, and other risks.
+            Ethical hackers help firms protect their systems from piracy
+            attacks. Upskilling in ethical hacking is vital to building
+            defensive tactics and ensuring 360-degree security. Gradually,
+            ethical hacking has become a crucial part of firms, ensuring 100%
+            safety and security.
+          </p>
+          <h3 style={{ fontSize: "20px" }}>
+            Let’s learn more about the extent of ethical hacking in limiting
+            cyber-attacks.
+          </h3>
           {read ? (
             <>
               <p>
-              <b>• Testing network security systems : </b>Ethical hackers pursue a <b>cyber security and ethical hacking course</b> to improve system handling. This helps techies manage security systems with 100% bug fixing. Experts identify the threats, test, and manage the systems to fix them.
+                <b>• Testing network security systems : </b>Ethical hackers
+                pursue a <b>cyber security and ethical hacking course</b> to
+                improve system handling. This helps techies manage security
+                systems with 100% bug fixing. Experts identify the threats,
+                test, and manage the systems to fix them.
               </p>
               <p>
-              <b>• Data security : </b>Experts prefer constant learning and upskilling to build secure walls with better results. Ethical hackers find malicious factors that affect system operations and limit the risks of hacking. It ensures overall data security with end-to-end risk handling and smooth working.
+                <b>• Data security : </b>Experts prefer constant learning and
+                upskilling to build secure walls with better results. Ethical
+                hackers find malicious factors that affect system operations and
+                limit the risks of hacking. It ensures overall data security
+                with end-to-end risk handling and smooth working.
               </p>
               <p>
-              <b>• Mitigating cyber threats : </b>Ethical hackers help firms address cyberattacks and prevent linked factors from unethical actions. Aspirants can opt for an <b>advance cyber security course</b> to master ethical hacking tools and methods and mitigate further cyber attacks. This course helps them grab ethical hacker job roles with prime MNCs.
+                <b>• Mitigating cyber threats : </b>Ethical hackers help firms
+                address cyberattacks and prevent linked factors from unethical
+                actions. Aspirants can opt for an{" "}
+                <b>advance cyber security course</b> to master ethical hacking
+                tools and methods and mitigate further cyber attacks. This
+                course helps them grab ethical hacker job roles with prime MNCs.
               </p>
               <p>
-              <b>• Risk management : </b>Ethical hackers can stop likely cyber threats and set the stage for end-to-end security. The <b>cybersecurity and ethical hacking roadmap</b> prepares them to face upcoming risks, identify them on time, and manage those for better results. Experts regularly test the systems, monitor the changes, and develop defensive plans to handle the innate risks.
+                <b>• Risk management : </b>Ethical hackers can stop likely cyber
+                threats and set the stage for end-to-end security. The{" "}
+                <b>cybersecurity and ethical hacking roadmap</b> prepares them
+                to face upcoming risks, identify them on time, and manage those
+                for better results. Experts regularly test the systems, monitor
+                the changes, and develop defensive plans to handle the innate
+                risks.
               </p>
               <p>
-              Indeed, upskilling with cutting-edge cyber security tools and trends is helpful. Experts can enroll in a <b>certificate course in ethical hacking and cyber security</b> to handle risk factors and ensure safety. If you're willing to execute your work swiftly and help various firms from cyber attacks, join our course today.
+                Indeed, upskilling with cutting-edge cyber security tools and
+                trends is helpful. Experts can enroll in a{" "}
+                <b>certificate course in ethical hacking and cyber security</b>{" "}
+                to handle risk factors and ensure safety. If you're willing to
+                execute your work swiftly and help various firms from cyber
+                attacks, join our course today.
               </p>
               <h4 style={{ fontSize: "24px" }}>
-              How is Learnbay's Advance Cyber Security Course Different From Others?
-          </h4>
+                How is Learnbay's Advance Cyber Security Course Different From
+                Others?
+              </h4>
               <p>
-              Learning with a leading-edge <b>cyber security and ethical hacking course</b> is vital for aspirants willing to have tempting career growth. Hence, our course is entirely curated to meet learner's needs.
+                Learning with a leading-edge{" "}
+                <b>cyber security and ethical hacking course</b> is vital for
+                aspirants willing to have tempting career growth. Hence, our
+                course is entirely curated to meet learner's needs.
               </p>
               <ol>
-                <li><b>Exclusively designed for tech pros : </b>Our cyber hacking course is solely curated for tech experts from diverse fields. This course allows techies with 1+ years of experience to redefine their careers in the best possible way. IT pros, network analysts, security admins, etc., can join our course to kick-start an exciting career with proven gains. Techies can enrich their skill sets with IAM and ISO-standard cyber security tools to grow and attain proven success. Gaining expertise in tech fields can help you grab seniority roles with exciting perks.</li>
-                <li><b>Regularly updated GenAI-rich syllabus : </b>Our cyber security and ethical hacking program follows the latest industry trends and practices. Its GenAI-inclusive syllabus helps techies master cyber security tools and tactics. We aim to prepare our learners with cutting-edge GenAI tools to detect risks and fight against cyberattacks. Our syllabus covers threat detection, risk assessment, incident responses, automation, and other security keys. In short, we aim to prepare you with skills to thrive against growing cyber-attacks.</li>
-                <li><b>Reliable industry experts to keep you abreast of competition : </b>Join our advanced cyber security course to gain live mentorship from industry experts. Our reliable mentors are here to guide you through learning with their real-time experience. They prepare you to face the future digital world with better defensive systems. Hence, you can learn to lead and create better ways to tackle real-world cyber security risks.</li>
-                <li><b>Practical learning experiences : </b>Our <b>cybersecurity and ethical hacking roadmap</b> prepares you for critical roles with real-time insights. You can work on GenAI-rich projects to tackle cyber issues and attain proven success. These projects help you decode network system threats and address them before time. Techies will work on cutting-edge GenAI projects to excel in their careers and attain inspiring growth.</li>
-                <li><b>Prestigious Certifications : </b>Techies joining our <b>certificate course in ethical hacking and cyber security</b> will earn notable credentials to stand out. Our course offers <b>EC Council and Microsoft certifications</b> to enrich your career values globally. Its global validation helps you build a strong career base and boost your success rates.</li>
-                <li><b>Custom-fit career support : </b>Our cybersecurity and ethical hacking roadmap states tailored career support to help you grow and excel in your field. You can avail of mock interviews, resume build-up, LinkedIn profiling, interview prep, and 1:1 doubt-clearing sessions. Our reliable mentors are here to guide you at each career stage with exciting perks.</li>
+                <li>
+                  <b>Exclusively designed for tech pros : </b>Our cyber hacking
+                  course is solely curated for tech experts from diverse fields.
+                  This course allows techies with 1+ years of experience to
+                  redefine their careers in the best possible way. IT pros,
+                  network analysts, security admins, etc., can join our course
+                  to kick-start an exciting career with proven gains. Techies
+                  can enrich their skill sets with IAM and ISO-standard cyber
+                  security tools to grow and attain proven success. Gaining
+                  expertise in tech fields can help you grab seniority roles
+                  with exciting perks.
+                </li>
+                <li>
+                  <b>Regularly updated GenAI-rich syllabus : </b>Our cyber
+                  security and ethical hacking program follows the latest
+                  industry trends and practices. Its GenAI-inclusive syllabus
+                  helps techies master cyber security tools and tactics. We aim
+                  to prepare our learners with cutting-edge GenAI tools to
+                  detect risks and fight against cyberattacks. Our syllabus
+                  covers threat detection, risk assessment, incident responses,
+                  automation, and other security keys. In short, we aim to
+                  prepare you with skills to thrive against growing
+                  cyber-attacks.
+                </li>
+                <li>
+                  <b>
+                    Reliable industry experts to keep you abreast of competition
+                    :{" "}
+                  </b>
+                  Join our advanced cyber security course to gain live
+                  mentorship from industry experts. Our reliable mentors are
+                  here to guide you through learning with their real-time
+                  experience. They prepare you to face the future digital world
+                  with better defensive systems. Hence, you can learn to lead
+                  and create better ways to tackle real-world cyber security
+                  risks.
+                </li>
+                <li>
+                  <b>Practical learning experiences : </b>Our{" "}
+                  <b>cybersecurity and ethical hacking roadmap</b> prepares you
+                  for critical roles with real-time insights. You can work on
+                  GenAI-rich projects to tackle cyber issues and attain proven
+                  success. These projects help you decode network system threats
+                  and address them before time. Techies will work on
+                  cutting-edge GenAI projects to excel in their careers and
+                  attain inspiring growth.
+                </li>
+                <li>
+                  <b>Prestigious Certifications : </b>Techies joining our{" "}
+                  <b>
+                    certificate course in ethical hacking and cyber security
+                  </b>{" "}
+                  will earn notable credentials to stand out. Our course offers{" "}
+                  <b>EC Council and Microsoft certifications</b> to enrich your
+                  career values globally. Its global validation helps you build
+                  a strong career base and boost your success rates.
+                </li>
+                <li>
+                  <b>Custom-fit career support : </b>Our cybersecurity and
+                  ethical hacking roadmap states tailored career support to help
+                  you grow and excel in your field. You can avail of mock
+                  interviews, resume build-up, LinkedIn profiling, interview
+                  prep, and 1:1 doubt-clearing sessions. Our reliable mentors
+                  are here to guide you at each career stage with exciting
+                  perks.
+                </li>
               </ol>
               <h4 style={{ fontSize: "24px" }}>
-              Is the Advance Cyber Security Course Syllabus at Learnbay Worth Investing In?
-          </h4>
-          <p>Yes. Learnbay's <b>cyber security and ethical hacking course</b> syllabus is worth investing in to master front-age tools and excel in your career. Our course module offers –</p>
+                Is the Advance Cyber Security Course Syllabus at Learnbay Worth
+                Investing In?
+              </h4>
+              <p>
+                Yes. Learnbay's <b>cyber security and ethical hacking course</b>{" "}
+                syllabus is worth investing in to master front-age tools and
+                excel in your career. Our course module offers –
+              </p>
               <b>Term 1: Fundamentals and Prerequisites</b>
               <p>
-              This module will help you learn the basics of operating systems, networking, and cloud computing. Gaining a basic synopsis of security tools and practices will also help you build your career foundation.
+                This module will help you learn the basics of operating systems,
+                networking, and cloud computing. Gaining a basic synopsis of
+                security tools and practices will also help you build your
+                career foundation.
               </p>
               <b>Term 2: Ethical Hacking and Penetration Testing</b>
               <p>
-              This module provides a complete outline of ethical hacking and its real-time uses. Learners will work on real-time projects to master Nmap, Wireshark, and other tools to secure their network systems against the odds.
+                This module provides a complete outline of ethical hacking and
+                its real-time uses. Learners will work on real-time projects to
+                master Nmap, Wireshark, and other tools to secure their network
+                systems against the odds.
               </p>
               <b>Term 3: Advanced Cyber Security Techniques</b>
               <p>
-              This module equips learners with critical-level cyber security tools to find and assess risks, hack systems, check passwords, and decode malware. Here, you will learn thoroughly about Nessus, Burp Suite, etc to fight against system oddities.
+                This module equips learners with critical-level cyber security
+                tools to find and assess risks, hack systems, check passwords,
+                and decode malware. Here, you will learn thoroughly about
+                Nessus, Burp Suite, etc to fight against system oddities.
               </p>
               <b>Term 4: Cyber security and Information Security Basics</b>
               <p>
-              In this module, techies will master cyber security tools, frameworks, and principles. You can work on real-time projects to handle critical cases and suggest real-time solutions.
+                In this module, techies will master cyber security tools,
+                frameworks, and principles. You can work on real-time projects
+                to handle critical cases and suggest real-time solutions.
               </p>
               <b>Term 5: Advanced Cyber Security and Threat Intelligence</b>
               <p>
-              In this module, you will master key security management tools to decode and mitigate the threats. Learning threat intelligence can help you fight against cyber-attacks and attain proven success.
+                In this module, you will master key security management tools to
+                decode and mitigate the threats. Learning threat intelligence
+                can help you fight against cyber-attacks and attain proven
+                success.
               </p>
               <b>Term 6: GenAI in Cyber security</b>
               <p>
-              This module will help you master GenAI-rich tools for tackling cyber security risks and responding to critical cases. You will learn ways to detect cyber threats, automate security alerts, and identify malware patterns.
+                This module will help you master GenAI-rich tools for tackling
+                cyber security risks and responding to critical cases. You will
+                learn ways to detect cyber threats, automate security alerts,
+                and identify malware patterns.
               </p>
               <h4 style={{ fontSize: "24px" }}>
-              How does Learnbay's Career Support Services Help Tech Experts?
+                How does Learnbay's Career Support Services Help Tech Experts?
               </h4>
               <p>
-              A proven <b>cybersecurity and ethical hacking roadmap</b> sets the stage for custom-fit career support. Our historic move toward hassle-free growth relies on reliable career support. It includes –
+                A proven <b>cybersecurity and ethical hacking roadmap</b> sets
+                the stage for custom-fit career support. Our historic move
+                toward hassle-free growth relies on reliable career support. It
+                includes –
               </p>
               <ul>
                 <li>
-                  <b>
-                    • Interview Prep
-                  </b>
+                  <b>• Interview Prep</b>
                 </li>
                 <li>
                   <b>• Mock interviews</b>
@@ -5261,7 +5851,10 @@ function DataAnalytics({
                 </li>
               </ul>
               <p>
-              Experts enrolling in our <b>advance cyber security course</b> will attain high-paying roles with top-tier MNCs. Join our course today to excel in your career and battle against upcoming cyber risks.
+                Experts enrolling in our <b>advance cyber security course</b>{" "}
+                will attain high-paying roles with top-tier MNCs. Join our
+                course today to excel in your career and battle against upcoming
+                cyber risks.
               </p>
               <div onClick={popupShow} className={styles.buttonDiv}>
                 <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
@@ -5286,146 +5879,363 @@ function DataAnalytics({
       ) : (
         ""
       )}
-       {GenAIManagers ? (
+      {GenAIManagers ? (
         <div className={styles.content}>
-          <h2>
-          GenAI Certification for Managers & Tech Leaders 
-          </h2>
+          <h2>GenAI Certification for Managers & Tech Leaders</h2>
           <p>
-          Learn to harness the power of Generative AI (Gen AI) and lead a team with a visionary mindset. Join an inclusively curated <b>Gen AI course for managers</b> and tech leaders to enrich your leadership skills and decisiveness. Accelerate your success rate with <b>E&ICT Academy, IIT Guwahati</b> certification. 
+            Learn to harness the power of Generative AI (Gen AI) and lead a team
+            with a visionary mindset. Join an inclusively curated{" "}
+            <b>Gen AI course for managers</b> and tech leaders to enrich your
+            leadership skills and decisiveness. Accelerate your success rate
+            with <b>E&ICT Academy, IIT Guwahati</b> certification.
           </p>
-          <h4 style={{ fontSize: "24px" }}>Briefing Learnbay's Best Gen AI Course for Managers & Leaders </h4>
+          <h4 style={{ fontSize: "24px" }}>
+            Briefing Learnbay's Best Gen AI Course for Managers & Leaders{" "}
+          </h4>
           <h3 style={{ fontSize: "20px" }}>Course Insights!!</h3>
           <p>
-          In the age of Gen AI, constant learning and upskilling have become vital for a hassle-free career shift. Gen AI promises to revamp business functions, innovate, and engage customers for better results. Due to tech-driven advances, Learnbay presents a cutting-edge <b>Gen AI course for managers</b> and leaders. 
+            In the age of Gen AI, constant learning and upskilling have become
+            vital for a hassle-free career shift. Gen AI promises to revamp
+            business functions, innovate, and engage customers for better
+            results. Due to tech-driven advances, Learnbay presents a
+            cutting-edge <b>Gen AI course for managers</b> and leaders.
           </p>
           <p>
-          A thoroughly designed course is here to equip you with vital skills to automate time-consuming tasks and drive compelling gains. Our GenAI-rich modules help you strengthen your leadership position and make strategic moves. Managers can master leading-edge GenAI tools and optimize their yields to boost their career worth and attain global success.  
+            A thoroughly designed course is here to equip you with vital skills
+            to automate time-consuming tasks and drive compelling gains. Our
+            GenAI-rich modules help you strengthen your leadership position and
+            make strategic moves. Managers can master leading-edge GenAI tools
+            and optimize their yields to boost their career worth and attain
+            global success.
           </p>
           <p>
-          Join our <b>Gen AI course for managers</b> to enrich their decision-making skills and drive better gains. Managers can leverage crucial changes with the help of GenAI's insightful interventions. Joining our course helps you learn proven skills to integrate GenAI with usual functions and drive higher gains. Also, adding <b>E&ICT Academy, IIT Guwahati credentials</b> to your career to unleash potential job offers with an alluring future.   
+            Join our <b>Gen AI course for managers</b> to enrich their
+            decision-making skills and drive better gains. Managers can leverage
+            crucial changes with the help of GenAI's insightful interventions.
+            Joining our course helps you learn proven skills to integrate GenAI
+            with usual functions and drive higher gains. Also, adding{" "}
+            <b>E&ICT Academy, IIT Guwahati credentials</b> to your career to
+            unleash potential job offers with an alluring future.
           </p>
           <h3 style={{ fontSize: "20px" }}>
-          Who is eligible to pursue Learnbay's generative AI course for managers?
+            Who is eligible to pursue Learnbay's generative AI course for
+            managers?
           </h3>
           <p>
-          As the course name suggests, managers and leaders with proven work experience can enroll in Learnbay's <b>best GenAI courses online</b>. However, it is vital to check their eligibility before registering.
+            As the course name suggests, managers and leaders with proven work
+            experience can enroll in Learnbay's <b>best GenAI courses online</b>
+            . However, it is vital to check their eligibility before
+            registering.
           </p>
           <p>
-          To kick-start a thriving career in today's digital age, check the following parameters and grab <b>Gen AI jobs</b>.
+            To kick-start a thriving career in today's digital age, check the
+            following parameters and grab <b>Gen AI jobs</b>.
           </p>
           <ul>
-            <li><b>• Work:</b> Mid-to-senior level experts with 4+ years of experience.</li>
-            <li><b>• Career domain:</b> Project managers, Tech leaders, Team leads (IT/non-IT).</li>
-            <li><b>• Knowledge: Gen AI for leaders</b> requires essential learning of Python, Machine learning, and Deep learning.</li>
+            <li>
+              <b>• Work:</b> Mid-to-senior level experts with 4+ years of
+              experience.
+            </li>
+            <li>
+              <b>• Career domain:</b> Project managers, Tech leaders, Team leads
+              (IT/non-IT).
+            </li>
+            <li>
+              <b>• Knowledge: Gen AI for leaders</b> requires essential learning
+              of Python, Machine learning, and Deep learning.
+            </li>
           </ul>
           <p>
-          Experts eager to join our <b>best Gen AI course</b> must meet the essentials and fasten career growth metrics with endless gains. Unlike generic learning, enrolling in our course unlocks tempting growth options. 
+            Experts eager to join our <b>best Gen AI course</b> must meet the
+            essentials and fasten career growth metrics with endless gains.
+            Unlike generic learning, enrolling in our course unlocks tempting
+            growth options.
           </p>
-          <h3 style={{ fontSize: "20px" }}>Diving Deeper into the Role of Gen AI in Enriching Decision-making</h3>
+          <h3 style={{ fontSize: "20px" }}>
+            Diving Deeper into the Role of Gen AI in Enriching Decision-making
+          </h3>
           {read ? (
             <>
               <p>
-              The modern business space relies heavily on data-driven decision-making processes. Unlike the age-old experience-based decisions, today's data-driven reality focuses on more innovative solutions. Yet, decision-makers face unwanted issues due to a lack of potential skills. Hence, the demand for a <b>Gen AI course for managers</b> keeps growing rapidly to keep you updated with the latest trends.
+                The modern business space relies heavily on data-driven
+                decision-making processes. Unlike the age-old experience-based
+                decisions, today's data-driven reality focuses on more
+                innovative solutions. Yet, decision-makers face unwanted issues
+                due to a lack of potential skills. Hence, the demand for a{" "}
+                <b>Gen AI course for managers</b> keeps growing rapidly to keep
+                you updated with the latest trends.
               </p>
               <p>
-              <b><i><a href="https://www.statista.com/outlook/tmo/artificial-intelligence/generative-ai/worldwide" rel="nofollow noindex" style={{textDecoration: "underline", color:"#0072bc"}}>Statista reports</a></i></b>  confirm a 41.52% growth in GenAI market stance with US dominance, which will change how we work. Also, firms will have an evolved way to serve their customers with higher ROI. Hence, pursuing a <b>generative AI course for managers</b> has become crucial to global-level success. 
+                <b>
+                  <i>
+                    <a
+                      href="https://www.statista.com/outlook/tmo/artificial-intelligence/generative-ai/worldwide"
+                      rel="nofollow noindex"
+                      style={{ textDecoration: "underline", color: "#0072bc" }}
+                    >
+                      Statista reports
+                    </a>
+                  </i>
+                </b>{" "}
+                confirm a 41.52% growth in GenAI market stance with US
+                dominance, which will change how we work. Also, firms will have
+                an evolved way to serve their customers with higher ROI. Hence,
+                pursuing a <b>generative AI course for managers</b> has become
+                crucial to global-level success.
               </p>
-               
+
               <p>
-              <b>Gen AI for leaders</b> paves the way for factual decisions with tenfold profit margins. Constant AI learning can bridge the gap between data and facts. It also lays the basis for making factual decisions to face time criticalities. Hence, managers and leaders must enroll in <b>generative AI training</b> with exciting perks.
+                <b>Gen AI for leaders</b> paves the way for factual decisions
+                with tenfold profit margins. Constant AI learning can bridge the
+                gap between data and facts. It also lays the basis for making
+                factual decisions to face time criticalities. Hence, managers
+                and leaders must enroll in <b>generative AI training</b> with
+                exciting perks.
               </p>
               <p>
-              Gen AI-powered systems help experts see through the changing data patterns and make real-time moves. Experts with GenAI-rich skills can tackle massive data sets, extract facts, present forecasts, and make data-driven decisions. <b>Let's see how GenAI has helped managers enrich their decisions.</b>
+                Gen AI-powered systems help experts see through the changing
+                data patterns and make real-time moves. Experts with GenAI-rich
+                skills can tackle massive data sets, extract facts, present
+                forecasts, and make data-driven decisions.{" "}
+                <b>
+                  Let's see how GenAI has helped managers enrich their
+                  decisions.
+                </b>
               </p>
               <ul>
-                <li><p><b>1. Timely and accurate forecasts:</b> Managers learning with the best Gen AI course can make exact forecasts that enrich their work. GenAI tracks regular functions, improves operational efficiency, and makes error-free moves. It helps leaders with real-time dashboards that depict true conditions and plan further.</p></li>
+                <li>
+                  <p>
+                    <b>1. Timely and accurate forecasts:</b> Managers learning
+                    with the best Gen AI course can make exact forecasts that
+                    enrich their work. GenAI tracks regular functions, improves
+                    operational efficiency, and makes error-free moves. It helps
+                    leaders with real-time dashboards that depict true
+                    conditions and plan further.
+                  </p>
+                </li>
 
-                <li><p><b>2. Cost-saving working methods:</b> Business leaders upskilling via <b>generative AI courses</b> can collectively ensure better results. Experts can tackle diverse functions (from selling to decision-making) to enrich business growth and stability. GenAI tools help experts see through the changing market dynamics and act responsibly to cut down extra costs.</p></li>
+                <li>
+                  <p>
+                    <b>2. Cost-saving working methods:</b> Business leaders
+                    upskilling via <b>generative AI courses</b> can collectively
+                    ensure better results. Experts can tackle diverse functions
+                    (from selling to decision-making) to enrich business growth
+                    and stability. GenAI tools help experts see through the
+                    changing market dynamics and act responsibly to cut down
+                    extra costs.
+                  </p>
+                </li>
 
-                <li><p><b>3. Faster analysis and insightful moves:</b> Generative AI for managers unleashes a data-driven setup with rapid analysis and seamless actions. Decision-makers no longer rely on manual efforts, experience, and data. Experts use advanced GenAI tools to analyze complex data sets and create facts, empowering them to make data-driven moves with optimal results.</p></li>
+                <li>
+                  <p>
+                    <b>3. Faster analysis and insightful moves:</b> Generative
+                    AI for managers unleashes a data-driven setup with rapid
+                    analysis and seamless actions. Decision-makers no longer
+                    rely on manual efforts, experience, and data. Experts use
+                    advanced GenAI tools to analyze complex data sets and create
+                    facts, empowering them to make data-driven moves with
+                    optimal results.
+                  </p>
+                </li>
 
-                <li><p><b>4. Automate business tasks and personalize decisions: Gen AI for leaders</b> lays the basis for automating business functions and customizing further tactics. Experts with GenAI skills can automate tedious tasks and focus on strategy planning for better results. Experts can also personalize their decisions with GenAI-rich insights for better user engagement.</p></li>
+                <li>
+                  <p>
+                    <b>
+                      4. Automate business tasks and personalize decisions: Gen
+                      AI for leaders
+                    </b>{" "}
+                    lays the basis for automating business functions and
+                    customizing further tactics. Experts with GenAI skills can
+                    automate tedious tasks and focus on strategy planning for
+                    better results. Experts can also personalize their decisions
+                    with GenAI-rich insights for better user engagement.
+                  </p>
+                </li>
               </ul>
-              
-              
-               
-              
-              
-              
-              
-              <p>In short, GenAI shifts have changed the age-old business era with advanced tactics. Hence, enrolling in a <b>Gen AI course for managers</b> has become vital for experts to have first-hand involvement in decision-making.</p>
 
-              <h3 style={{ fontSize: "20px" }}>Gen AI on the Verge of Empowering Managerial Roles</h3>
               <p>
-              According to <b><i><a href="https://economictimes.indiatimes.com/jobs/hr-policies-trends/by-2026-20-of-organisations-will-use-ai-to-reduce-50-middle-management-roles-gartner/articleshow/114535239.cms?from=mdr" rel="nofollow noindex" style={{textDecoration: "underline", color:"#0072bc"}}>ET reports</a></i></b>, over 20% of firms are about to adopt GenAI to reduce middle management roles. Also, 10% of global boards have assured the inclusion of GenAI in decision-making settings, laying an exciting foundation. Hence, experts with at least 4+ years of experience must master the <b>top generative AI</b> tools to stay ahead of the race.
+                In short, GenAI shifts have changed the age-old business era
+                with advanced tactics. Hence, enrolling in a{" "}
+                <b>Gen AI course for managers</b> has become vital for experts
+                to have first-hand involvement in decision-making.
               </p>
-              <p>The rise of GenAI has reshaped business norms and culture, laying the base for data-driven working methods. It ensures corporate restructuring, enriching decision-making practices in diverse ways. GenAI has made an impact across diverse sectors in today's tech-driven era. In the interim, GenAI revamps managerial roles and related posts for optimal gains. Hence, joining the <b>generative AI course for managers</b> has become vital for aspirants. </p>
-
-              <p>The present business space focuses on reducing labor costs and increasing overall yields. Hence, the inclusion of GenAI with regular tasks has started automating them with lesser human effort. As a result, GenAI is seen removing most static middle career roles, driving better gains. Mastering <b>Gen AI for leaders</b> has become the ultimate weapon for tackling industry intricacies.</p>
-
-              <p>In short, GenAI is on the verge of changing leadership dynamics, altering the products or services available, and enriching the results. Experts at decision-making levels must pursue the <b>best Gen AI course</b> to attain success. Such aspirants can unlock immense potential to grab exciting job offers and enhance their decision-making skills. </p>
 
               <h3 style={{ fontSize: "20px" }}>
-               Is Learnbay's Generative AI course for Managers Worth it?
+                Gen AI on the Verge of Empowering Managerial Roles
               </h3>
               <p>
-              Learnbay has become a boon for aspirants willing to redefine their careers and bring data-driven decisions on board. Its industry-paced <b>Gen AI course for managers</b> and tech leaders is worth investing in. <b>Let's view its notable features that bring hassle-free career growth chances. </b>
+                According to{" "}
+                <b>
+                  <i>
+                    <a
+                      href="https://economictimes.indiatimes.com/jobs/hr-policies-trends/by-2026-20-of-organisations-will-use-ai-to-reduce-50-middle-management-roles-gartner/articleshow/114535239.cms?from=mdr"
+                      rel="nofollow noindex"
+                      style={{ textDecoration: "underline", color: "#0072bc" }}
+                    >
+                      ET reports
+                    </a>
+                  </i>
+                </b>
+                , over 20% of firms are about to adopt GenAI to reduce middle
+                management roles. Also, 10% of global boards have assured the
+                inclusion of GenAI in decision-making settings, laying an
+                exciting foundation. Hence, experts with at least 4+ years of
+                experience must master the <b>top generative AI</b> tools to
+                stay ahead of the race.
+              </p>
+              <p>
+                The rise of GenAI has reshaped business norms and culture,
+                laying the base for data-driven working methods. It ensures
+                corporate restructuring, enriching decision-making practices in
+                diverse ways. GenAI has made an impact across diverse sectors in
+                today's tech-driven era. In the interim, GenAI revamps
+                managerial roles and related posts for optimal gains. Hence,
+                joining the <b>generative AI course for managers</b> has become
+                vital for aspirants.{" "}
+              </p>
+
+              <p>
+                The present business space focuses on reducing labor costs and
+                increasing overall yields. Hence, the inclusion of GenAI with
+                regular tasks has started automating them with lesser human
+                effort. As a result, GenAI is seen removing most static middle
+                career roles, driving better gains. Mastering{" "}
+                <b>Gen AI for leaders</b> has become the ultimate weapon for
+                tackling industry intricacies.
+              </p>
+
+              <p>
+                In short, GenAI is on the verge of changing leadership dynamics,
+                altering the products or services available, and enriching the
+                results. Experts at decision-making levels must pursue the{" "}
+                <b>best Gen AI course</b> to attain success. Such aspirants can
+                unlock immense potential to grab exciting job offers and enhance
+                their decision-making skills.{" "}
+              </p>
+
+              <h3 style={{ fontSize: "20px" }}>
+                Is Learnbay's Generative AI course for Managers Worth it?
+              </h3>
+              <p>
+                Learnbay has become a boon for aspirants willing to redefine
+                their careers and bring data-driven decisions on board. Its
+                industry-paced <b>Gen AI course for managers</b> and tech
+                leaders is worth investing in.{" "}
+                <b>
+                  Let's view its notable features that bring hassle-free career
+                  growth chances.{" "}
+                </b>
               </p>
 
               <ul>
                 <li>
                   <p>
-                  <b>
-                  1. GenAI-driven course modules:</b> Learnbay presents an innovative, <b>generative AI training </b>program with exciting career perks. Here, experts can learn essential and cutting-edge Gen AI tools with notable gains. The course modules exclusively cover Large language models (LLMs), OpenAI APIs, LangChain, and RAG.
-                  
+                    <b>1. GenAI-driven course modules:</b> Learnbay presents an
+                    innovative, <b>generative AI training </b>program with
+                    exciting career perks. Here, experts can learn essential and
+                    cutting-edge Gen AI tools with notable gains. The course
+                    modules exclusively cover Large language models (LLMs),
+                    OpenAI APIs, LangChain, and RAG.
                   </p>
                 </li>
                 <li>
                   <p>
-                  <b>2. Hands-on learning:</b> Managers and leaders joining our generative AI courses can refine their skills via live projects. Experts can work on live GenAI projects to tackle industry cases and enhance overall performance. Managers can work on real-time cases and optimize data-driven decisions best suited for leadership roles.
-                </p>
+                    <b>2. Hands-on learning:</b> Managers and leaders joining
+                    our generative AI courses can refine their skills via live
+                    projects. Experts can work on live GenAI projects to tackle
+                    industry cases and enhance overall performance. Managers can
+                    work on real-time cases and optimize data-driven decisions
+                    best suited for leadership roles.
+                  </p>
                 </li>
                 <li>
                   <p>
-                  <b>3. Career-driven mentorship:</b> The <b>best Gen AI course</b> is worth investing in due to its industry-paced mentorship. Experts enrolling in this course will get 100% live training sessions from reputed IIT Guwahati mentors. It will help you master cutting-edge GenAI tools with real-time insights to grow your career.
-                </p>
+                    <b>3. Career-driven mentorship:</b> The{" "}
+                    <b>best Gen AI course</b> is worth investing in due to its
+                    industry-paced mentorship. Experts enrolling in this course
+                    will get 100% live training sessions from reputed IIT
+                    Guwahati mentors. It will help you master cutting-edge GenAI
+                    tools with real-time insights to grow your career.
+                  </p>
                 </li>
                 <li>
                   <p>
-                  <b>4. Accelerate your career graph with reputed credentials:</b> The <b>generative AI course for managers</b> offers career-driven certificates to help you excel in your field. You can earn E&ICT Academy, IIT Guwahati credentials to stand out. This certificate will help you validate your skills and grab exciting GenAI roles at managerial levels.
-                </p>
+                    <b>
+                      4. Accelerate your career graph with reputed credentials:
+                    </b>{" "}
+                    The <b>generative AI course for managers</b> offers
+                    career-driven certificates to help you excel in your field.
+                    You can earn E&ICT Academy, IIT Guwahati credentials to
+                    stand out. This certificate will help you validate your
+                    skills and grab exciting GenAI roles at managerial levels.
+                  </p>
                 </li>
                 <li>
                   <p>
-                  <b>5. Revamp your career with industry-driven placement aid: Gen AI for leaders</b> The <b>generative AI course for managers</b> lays the basis for exciting career shifts. Experts eager to redefine their careers must join Learnbay's generative AI training with custom-fit job support. Its tailored placement features offer everything you need to excel – from 1:1 mock sessions to CV-making.
-                </p>
+                    <b>
+                      5. Revamp your career with industry-driven placement aid:
+                      Gen AI for leaders
+                    </b>{" "}
+                    The <b>generative AI course for managers</b> lays the basis
+                    for exciting career shifts. Experts eager to redefine their
+                    careers must join Learnbay's generative AI training with
+                    custom-fit job support. Its tailored placement features
+                    offer everything you need to excel – from 1:1 mock sessions
+                    to CV-making.
+                  </p>
                 </li>
               </ul>
-              <p>In short, if you want to improve your decisiveness, enroll in Learnbay’s <b>Gen AI course for managers</b> and tech leaders.</p>
-              <h3 style={{ fontSize: "20px" }}>Briefing the Best Gen AI Course Module – Grab Future-ready Leadership Roles!!</h3>
               <p>
-              Enrolling in the best Gen AI courses online has become the ultimate gateway to grabbing exciting jobs in your field. Experts willing to land alluring Gen AI jobs must opt for constant learning and excel endlessly. Learnbay's solely planned course modules bring you –
+                In short, if you want to improve your decisiveness, enroll in
+                Learnbay’s <b>Gen AI course for managers</b> and tech leaders.
+              </p>
+              <h3 style={{ fontSize: "20px" }}>
+                Briefing the Best Gen AI Course Module – Grab Future-ready
+                Leadership Roles!!
+              </h3>
+              <p>
+                Enrolling in the best Gen AI courses online has become the
+                ultimate gateway to grabbing exciting jobs in your field.
+                Experts willing to land alluring Gen AI jobs must opt for
+                constant learning and excel endlessly. Learnbay's solely planned
+                course modules bring you –
               </p>
               <ul>
                 <li>
-                  <p>• GenAI foundation program to help you master Python programming, ML, and Deep learning basics (optional)</p>
+                  <p>
+                    • GenAI foundation program to help you master Python
+                    programming, ML, and Deep learning basics (optional)
+                  </p>
                 </li>
                 <li>
-                  <p>• Learning GenAI applications for business transformation, decision-making, and data analytics</p>
+                  <p>
+                    • Learning GenAI applications for business transformation,
+                    decision-making, and data analytics
+                  </p>
                 </li>
                 <li>
-                  <p>• Advanced GenAI for leaders and tech managers (Prompt engineering, Deep learning, APIs, RAG, LangChain, ethical leadership, etc.)</p>
+                  <p>
+                    • Advanced GenAI for leaders and tech managers (Prompt
+                    engineering, Deep learning, APIs, RAG, LangChain, ethical
+                    leadership, etc.)
+                  </p>
                 </li>
                 <li>
-                  <p>• Case studies and hands-on projects (any two) to build practical skills</p>
+                  <p>
+                    • Case studies and hands-on projects (any two) to build
+                    practical skills
+                  </p>
                 </li>
               </ul>
-              <h3 style={{ fontSize: "20px" }}>
-              What Future Holds?
-              </h3>
+              <h3 style={{ fontSize: "20px" }}>What Future Holds?</h3>
               <p>
-              GenAI learning has become vital for managers and leaders for data-driven decision-making. Hence, joining Learnbay's <b>Gen AI course for managers</b> is the ultimate way to solidify your skills and excel in your field. Generative AI for leaders sets the stage for hassle-free career shifts and higher yields. Join the course today to enhance your decision-making and lead your career. 
+                GenAI learning has become vital for managers and leaders for
+                data-driven decision-making. Hence, joining Learnbay's{" "}
+                <b>Gen AI course for managers</b> is the ultimate way to
+                solidify your skills and excel in your field. Generative AI for
+                leaders sets the stage for hassle-free career shifts and higher
+                yields. Join the course today to enhance your decision-making
+                and lead your career.
               </p>
               <div onClick={popupShow} className={styles.buttonDiv}>
                 <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
@@ -5450,172 +6260,432 @@ function DataAnalytics({
       ) : (
         ""
       )}
-       {GenAIDevelopers ? (
+      {GenAIDevelopers ? (
         <div className={styles.content}>
-          <h2>
-          GenAI Developer Certification for Professionals
-          </h2>
+          <h2>GenAI Developer Certification for Professionals</h2>
           <p>
-          Enhance your skills to face the new era of tech-driven changes with the rise of Generative AI. Pursue a <b>Gen AI certification</b> course for a pivotal career shift in the emerging software development sector. Earn <b>E&ICT Academy and IIT Guwahati</b> credentials to advance your tech career beyond digital creations. 
+            Enhance your skills to face the new era of tech-driven changes with
+            the rise of Generative AI. Pursue a <b>Gen AI certification</b>{" "}
+            course for a pivotal career shift in the emerging software
+            development sector. Earn <b>E&ICT Academy and IIT Guwahati</b>{" "}
+            credentials to advance your tech career beyond digital creations.
           </p>
-          <h4 style={{ fontSize: "24px" }}>About Learnbay's Best Generative AI Course for Tech Experts</h4>
+          <h4 style={{ fontSize: "24px" }}>
+            About Learnbay's Best Generative AI Course for Tech Experts
+          </h4>
           <h3 style={{ fontSize: "20px" }}>Course Details</h3>
           <p>
-          The rise of generative AI models lays the basis for functional optimization and custom-fit user dealings with better results. Hence, GenAI learning has become vital for techies from diverse fields. In the interim, Learnbay has made the historic move with its <b>Gen AI certification course</b> for tech experts. Our proactive step is all set to equip techies with skills to enhance data clarity, automate workflows, and drive robust results.  
+            The rise of generative AI models lays the basis for functional
+            optimization and custom-fit user dealings with better results.
+            Hence, GenAI learning has become vital for techies from diverse
+            fields. In the interim, Learnbay has made the historic move with its{" "}
+            <b>Gen AI certification course</b> for tech experts. Our proactive
+            step is all set to equip techies with skills to enhance data
+            clarity, automate workflows, and drive robust results.
           </p>
           <p>
-          Our thoroughly curated course modules follow the latest GenAI-rich advances to help techies make a real-world career impact. Anyone enrolling in our course shall learn GenAI-rich deployment for better results. Techies can gain hands-on learning scope, master cutting-edge tools, and boost career growth metrics with solid gains.  
+            Our thoroughly curated course modules follow the latest GenAI-rich
+            advances to help techies make a real-world career impact. Anyone
+            enrolling in our course shall learn GenAI-rich deployment for better
+            results. Techies can gain hands-on learning scope, master
+            cutting-edge tools, and boost career growth metrics with solid
+            gains.
           </p>
           <p>
-          Enroll in the <b>Generative AI course</b> to design better-quality software and boost your yields. GenAI learning modules help you create better ideas, design amusing user stories, and test cases for better results. Also, attesting globally valued certificates <b>(E&ICT Academy and IIT Guwahati)</b> to your career validates your tech-driven skills and builds a thriving future.    
+            Enroll in the <b>Generative AI course</b> to design better-quality
+            software and boost your yields. GenAI learning modules help you
+            create better ideas, design amusing user stories, and test cases for
+            better results. Also, attesting globally valued certificates{" "}
+            <b>(E&ICT Academy and IIT Guwahati)</b> to your career validates
+            your tech-driven skills and builds a thriving future.
           </p>
           <h3 style={{ fontSize: "20px" }}>
-          Who is eligible for Learnbay's best Gen AI course for tech experts?
+            Who is eligible for Learnbay's best Gen AI course for tech experts?
           </h3>
           <p>
-          As the GenAI-powered era evolves, so does the haste for upskilling and reskilling. Seeing the tech power, Learnbay presents a <b>Gen AI course</b> for IT experts from diverse fields. No wonder, Gen AI has become a prime skill for techies eager to automate their designs, meet user needs, and deliver high-end quality products. 
+            As the GenAI-powered era evolves, so does the haste for upskilling
+            and reskilling. Seeing the tech power, Learnbay presents a{" "}
+            <b>Gen AI course</b> for IT experts from diverse fields. No wonder,
+            Gen AI has become a prime skill for techies eager to automate their
+            designs, meet user needs, and deliver high-end quality products.
           </p>
           <p>
-          If you're eager to enroll in our Gen <b>AI developer course</b>, check out the minimum conditions –
+            If you're eager to enroll in our Gen <b>AI developer course</b>,
+            check out the minimum conditions –
           </p>
           <ul>
-            <li><b>• Domain –</b> IT developers and other related experts </li>
-            <li><b>• Work – </b> At least 2+ years of experience</li>
-            <li><b>• Basic knowledge –</b> Python, machine learning, and deep learning</li>
+            <li>
+              <b>• Domain –</b> IT developers and other related experts{" "}
+            </li>
+            <li>
+              <b>• Work – </b> At least 2+ years of experience
+            </li>
+            <li>
+              <b>• Basic knowledge –</b> Python, machine learning, and deep
+              learning
+            </li>
           </ul>
           <p>
-          Aspirants meeting all these conditions can enroll in our Gen AI certification to speed up career growth and success. Yet, anyone lacking essential learning can enroll in the foundation program and pursue the GenAI course. 
+            Aspirants meeting all these conditions can enroll in our Gen AI
+            certification to speed up career growth and success. Yet, anyone
+            lacking essential learning can enroll in the foundation program and
+            pursue the GenAI course.
           </p>
-          <h3 style={{ fontSize: "20px" }}>Briefing on the Role of Gen AI in Changing the Modern Tech Age</h3>
+          <h3 style={{ fontSize: "20px" }}>
+            Briefing on the Role of Gen AI in Changing the Modern Tech Age
+          </h3>
           {read ? (
             <>
               <p>
-              Gen AI is key in reinventing the workspace in the age of rapid tech shifts. Its splendid integration with diverse sectors brings notable shifts with better results. As data has become a reality, GenAI has set the stage for people-centric practices. 
+                Gen AI is key in reinventing the workspace in the age of rapid
+                tech shifts. Its splendid integration with diverse sectors
+                brings notable shifts with better results. As data has become a
+                reality, GenAI has set the stage for people-centric practices.
               </p>
               <p>
-              The Gen AI revolution brings massive shifts across working sectors, driving tempting gains. It revamps daily tasks to provide automated and enriched results. Gen AI learning prepares working experts to reshape today's business image and build a reliable future. Many firms have briefed on notable economic shifts, altering the face of various working sectors. 
+                The Gen AI revolution brings massive shifts across working
+                sectors, driving tempting gains. It revamps daily tasks to
+                provide automated and enriched results. Gen AI learning prepares
+                working experts to reshape today's business image and build a
+                reliable future. Many firms have briefed on notable economic
+                shifts, altering the face of various working sectors.
               </p>
               <p>
-              According to <b><i><a href="https://www.marketsandmarkets.com/Market-Reports/generative-ai-market-142870584.html" rel="nofollow noindex" style={{textDecoration: "underline", color:"#0072bc"}}>M&M reports</a></i></b>, the global Gen AI market expects 36.7% growth by 2030, making firms more creative and engaging. Modern-day business relies heavily on GenAI-rich practices, changing sectors, and driving alluring gains.
+                According to{" "}
+                <b>
+                  <i>
+                    <a
+                      href="https://www.marketsandmarkets.com/Market-Reports/generative-ai-market-142870584.html"
+                      rel="nofollow noindex"
+                      style={{ textDecoration: "underline", color: "#0072bc" }}
+                    >
+                      M&M reports
+                    </a>
+                  </i>
+                </b>
+                , the global Gen AI market expects 36.7% growth by 2030, making
+                firms more creative and engaging. Modern-day business relies
+                heavily on GenAI-rich practices, changing sectors, and driving
+                alluring gains.
               </p>
               <p>
-               <b>Let's review the impacts of GenAI on tech-driven sectors in recent years. </b>
+                <b>
+                  Let's review the impacts of GenAI on tech-driven sectors in
+                  recent years.{" "}
+                </b>
               </p>
-              <ul>
-                <li><p><b>1. Creating data-driven ideas:</b> GenAI-rich practices help firms decode human instincts and devise user-centric ways. Such advances help experts follow human texts and forge operating ways for higher yields. A <b>Gen AI course syllabus</b> equips you with skills to write effective prompts and devise ways to solve user issues.</p></li>
-
-                <li><p><b>2. Enhanced efficiency:</b> Experts with Gen AI skills help firms stay ahead of the industry race and attain proven success. The field of generative AI is ever-evolving and has a growing demand for automated work versions. Unlike manual methods, GenAI automates tasks, drafts emails, writes code, analyzes documents, and enriches operational yield.</p></li>
-
-                <li><p><b>3. User-centric offerings:</b> The demand for applied Generative AI is rapidly rising across diverse fields. Many firms offer user-centric products and services under the force of GenAI. The large language models (LLMs) read complex texts, images, and behavior to tackle business issues. As a result, GenAI-rich models follow user choices and design the offerings accordingly.</p></li>
-
-                <li><p><b>4. Insightful documentation and reporting:</b> Gen AI-rich models can analyze facts and figures and create business reports. It eases the data trends/patterns to prepare business reports for better analysis. Techies can join a <b>Gen AI course online</b> to master cutting-edge tools and trends and stay ahead of the curve. </p></li>
-              </ul>
-              
-              
-               
-              
-              
-              
-              
-              <p>In short, experts joining the <b>best generative AI course</b> can build proven skills to tackle industry cases with tactful options. Learning is the best way to deliver products or services aligned with the user's choices. Hence, join a leading-edge course today and kick-start a thriving career.</p>
-
-              <h3 style={{ fontSize: "20px" }}>How GenAI is Changing the Future of the Software Development Industry?</h3>
-              <p>
-              The <b><i><a href="https://www.globenewswire.com/news-release/2025/01/30/3018135/0/en/Generative-AI-in-Software-and-Coding-Market-is-expected-to-reach-a-revenue-of-USD-243-7-Mn-by-2033-at-25-5-CAGR-Dimension-Market-Research.html#:~:text=Important%20Insights,dominate%20throughout%20the%20forecasted%20period." rel="nofollow noindex" style={{textDecoration: "underline", color:"#0072bc"}}>Gen AI in Software and Coding market</a></i></b> predicts a 25.5% growth by 2033, paving the way for exciting career advances for IT developers. The competitive IT sector adopts proven tools to automate coding tasks, lessen work time, and enhance efficiency. In the interim, the rise of <b>advanced generative AI</b> enriches user abilities and usability.
-              </p>
-              <p>Enrolling in the <b>best generative AI course</b> is worth investing in for seamless functions and higher yields. No wonder, Gen AI is changing today's IT sector and related tasks with its insightful ways.</p>
-
-              <p><b>Let's dive deeper into ways Gen AI is altering the future of the IT industry. </b></p>
-
-
-              <ul>
-                <li>
-                  <p>
-                  <b>1. Automated code writing and reviews:</b> Techies pursuing a <b>Gen AI certification course</b> can master ways to automate their code effortlessly. Gen AI uses automated code generation tools that speed up the design process and reduce errors. It relies on custom-fit models that run coding regularly, enhancing overall yields. Gen AI relies on virtual assistants for coding hints and reviews them for quality revisions. Also, it helps experts translate multilingual codes for easy functions. 
-
-                </p>
-                </li>
-                <li>
-                  <p>
-                  <b>2. Product development and management:</b> Techies upskilling via a <b>Gen AI certification</b> program can create relevant product features. It uses automated models to generate a detailed synopsis of the product's features and reframe them. Gen AI offers an easy-to-use template with data-driven features that ease the system development process. 
-                </p>
-                </li>
-                <li>
-                  <p>
-                  <b>3. Seamless software designing:</b> Techies joining a <b>generative AI course</b> help techies normalize system design and update it as per the latest trends. Gen AI helps techies reuse design elements for time and cost-effective results. It automates software architecture and design with the best-suited options for optimal results. 
-                </p>
-                </li>
-                <li>
-                  <p>
-                  <b>4. Redefines software development essentials:</b> Gen <b>AI for software developers</b> lays the basis for meeting minimum conditions with easy steps. Techies rely on Gen AI models to break down design elements and reframe user stories. It helps to decode user choices and frame them into stories for insightful results. Gen AI makes the software development process faster, aligning with user choices and saving extra time and money. Hence, learning key GenAI-rich models is vital for building a lucrative tech career. 
-                </p>
-                </li>
-              </ul>
-              <p>In short, techies can enroll in the <b>best generative AI course</b> to learn cost and time-saving software development ways. Gen AI helps techies design high-end user stories and test cases followed by data-driven reporting.</p>
-              <h3 style={{ fontSize: "20px" }}>How Does Learnbay's Gen AI Certification Course Help Techies Excel in Their Careers?</h3>
-              <p>
-              Learnbay presents a GenAI developer program for techies willing to excel in their careers and attain proven success. Our thoroughly designed <b>Gen AI course syllabus</b> helps techies master cutting-edge automated tools and tackle industry intricacies. Our GenAI-rich courses help techies easily integrate AI and ML models with daily functions.
-              </p>
-              <p>Let's review how our <b>best Gen AI course</b> helps techies grow and excel in their careers. </p>
               <ul>
                 <li>
                   <p>
-                  <b>1. GenAI-driven syllabus:</b> Our <b>generative AI course</b> includes the latest trends and upgrades, setting the stage for seamless career growth. Techies enrolling in this course can automate regular tasks, save time and cost, and make strategic decisions. Our learning modules help developers learn generative AI for data analysis, enrich their yields, deliver creative solutions, and drive tempting growth. 
+                    <b>1. Creating data-driven ideas:</b> GenAI-rich practices
+                    help firms decode human instincts and devise user-centric
+                    ways. Such advances help experts follow human texts and
+                    forge operating ways for higher yields. A{" "}
+                    <b>Gen AI course syllabus</b> equips you with skills to
+                    write effective prompts and devise ways to solve user
+                    issues.
+                  </p>
+                </li>
 
-                </p>
-                </li>
                 <li>
                   <p>
-                  <b>2. Hands-on GenAI learning</b> Our modules guide techies to master in-demand GenAI models via real-time projects. Techies can work on hands-on projects to master chatbot creation, automate workflows, and build RAG-driven assistants. Learners can work on real-time projects to gain practical experience and learn generative AI applications. It helps you face the industry cases well and devise optimal measures to lessen the impacts. Techies work on group projects to deploy GenAI-rich solutions and have hassle-free integrations. 
-                </p>
+                    <b>2. Enhanced efficiency:</b> Experts with Gen AI skills
+                    help firms stay ahead of the industry race and attain proven
+                    success. The field of generative AI is ever-evolving and has
+                    a growing demand for automated work versions. Unlike manual
+                    methods, GenAI automates tasks, drafts emails, writes code,
+                    analyzes documents, and enriches operational yield.
+                  </p>
                 </li>
+
                 <li>
                   <p>
-                  <b>3. Swift career shift with industry experts as mentors:</b> Our <b>Gen AI certification course</b> appoints eminent industry experts for live training and career counseling. Learning from highly adept mentors helps you tackle complex cases and drive alluring gains. Mentorship from IIT Guwahati experts offers an open learning space where you can learn to lead and innovate data-driven solutions. As a result, techies can learn and accelerate their careers with exciting perks.
-                </p>
+                    <b>3. User-centric offerings:</b> The demand for applied
+                    Generative AI is rapidly rising across diverse fields. Many
+                    firms offer user-centric products and services under the
+                    force of GenAI. The large language models (LLMs) read
+                    complex texts, images, and behavior to tackle business
+                    issues. As a result, GenAI-rich models follow user choices
+                    and design the offerings accordingly.
+                  </p>
                 </li>
+
                 <li>
                   <p>
-                  <b>4. Prestigious credentials from top-tier institutions:</b> Pursuing an <b>advanced generative AI</b> course adds reputable certificates to your career with optimal gains. Learning with the top-rated training institutes can add value to your job, bringing exciting offers. Here, techies can earn a globally recognized <b>Gen AI certification</b> from <b>E&ICT Academy, IIT Guwahati</b>. These credentials enrich your career worth and prepare you to grab alluring job offers.  
-                </p>
-                </li>
-                <li>
-                  <p>
-                  <b>5. Personalized career support:</b> Our <b>best generative AI course</b> offers 100% career support services to help you excel in your field. Techies can refine their soft skills and become a perfect corporate fit via an industry-paced placement program. Techies will get 1:1 doubt-clearing, mock interview prep, resume-making, and online project sessions. 
-                </p>
+                    <b>4. Insightful documentation and reporting:</b> Gen
+                    AI-rich models can analyze facts and figures and create
+                    business reports. It eases the data trends/patterns to
+                    prepare business reports for better analysis. Techies can
+                    join a <b>Gen AI course online</b> to master cutting-edge
+                    tools and trends and stay ahead of the curve.{" "}
+                  </p>
                 </li>
               </ul>
 
-              <p>In short, techies joining a <b>Gen AI course with a certificate</b> and solely planned placement aid can enrich their careers and grab exciting offers. Join the course today and learn to lead and innovate seamless solutions.</p>
-              
+              <p>
+                In short, experts joining the <b>best generative AI course</b>{" "}
+                can build proven skills to tackle industry cases with tactful
+                options. Learning is the best way to deliver products or
+                services aligned with the user's choices. Hence, join a
+                leading-edge course today and kick-start a thriving career.
+              </p>
+
               <h3 style={{ fontSize: "20px" }}>
-              Briefing a Gen AI Developer Course Module
+                How GenAI is Changing the Future of the Software Development
+                Industry?
               </h3>
               <p>
-              The <b>Gen AI certification course</b> at Learnbay eases the career transition journey and equips you with critical skills to lead and grow. Our inclusively curated learning modules help you master basic and advanced Gen AI skills. 
+                The{" "}
+                <b>
+                  <i>
+                    <a
+                      href="https://www.globenewswire.com/news-release/2025/01/30/3018135/0/en/Generative-AI-in-Software-and-Coding-Market-is-expected-to-reach-a-revenue-of-USD-243-7-Mn-by-2033-at-25-5-CAGR-Dimension-Market-Research.html#:~:text=Important%20Insights,dominate%20throughout%20the%20forecasted%20period."
+                      rel="nofollow noindex"
+                      style={{ textDecoration: "underline", color: "#0072bc" }}
+                    >
+                      Gen AI in Software and Coding market
+                    </a>
+                  </i>
+                </b>{" "}
+                predicts a 25.5% growth by 2033, paving the way for exciting
+                career advances for IT developers. The competitive IT sector
+                adopts proven tools to automate coding tasks, lessen work time,
+                and enhance efficiency. In the interim, the rise of{" "}
+                <b>advanced generative AI</b> enriches user abilities and
+                usability.
               </p>
               <p>
-               <b>Review essential learning outcomes with our course module and excel in your field.</b>
+                Enrolling in the <b>best generative AI course</b> is worth
+                investing in for seamless functions and higher yields. No
+                wonder, Gen AI is changing today's IT sector and related tasks
+                with its insightful ways.
+              </p>
+
+              <p>
+                <b>
+                  Let's dive deeper into ways Gen AI is altering the future of
+                  the IT industry.{" "}
+                </b>
+              </p>
+
+              <ul>
+                <li>
+                  <p>
+                    <b>1. Automated code writing and reviews:</b> Techies
+                    pursuing a <b>Gen AI certification course</b> can master
+                    ways to automate their code effortlessly. Gen AI uses
+                    automated code generation tools that speed up the design
+                    process and reduce errors. It relies on custom-fit models
+                    that run coding regularly, enhancing overall yields. Gen AI
+                    relies on virtual assistants for coding hints and reviews
+                    them for quality revisions. Also, it helps experts translate
+                    multilingual codes for easy functions.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <b>2. Product development and management:</b> Techies
+                    upskilling via a <b>Gen AI certification</b> program can
+                    create relevant product features. It uses automated models
+                    to generate a detailed synopsis of the product's features
+                    and reframe them. Gen AI offers an easy-to-use template with
+                    data-driven features that ease the system development
+                    process.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <b>3. Seamless software designing:</b> Techies joining a{" "}
+                    <b>generative AI course</b> help techies normalize system
+                    design and update it as per the latest trends. Gen AI helps
+                    techies reuse design elements for time and cost-effective
+                    results. It automates software architecture and design with
+                    the best-suited options for optimal results.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <b>4. Redefines software development essentials:</b> Gen{" "}
+                    <b>AI for software developers</b> lays the basis for meeting
+                    minimum conditions with easy steps. Techies rely on Gen AI
+                    models to break down design elements and reframe user
+                    stories. It helps to decode user choices and frame them into
+                    stories for insightful results. Gen AI makes the software
+                    development process faster, aligning with user choices and
+                    saving extra time and money. Hence, learning key GenAI-rich
+                    models is vital for building a lucrative tech career.
+                  </p>
+                </li>
+              </ul>
+              <p>
+                In short, techies can enroll in the{" "}
+                <b>best generative AI course</b> to learn cost and time-saving
+                software development ways. Gen AI helps techies design high-end
+                user stories and test cases followed by data-driven reporting.
+              </p>
+              <h3 style={{ fontSize: "20px" }}>
+                How Does Learnbay's Gen AI Certification Course Help Techies
+                Excel in Their Careers?
+              </h3>
+              <p>
+                Learnbay presents a GenAI developer program for techies willing
+                to excel in their careers and attain proven success. Our
+                thoroughly designed <b>Gen AI course syllabus</b> helps techies
+                master cutting-edge automated tools and tackle industry
+                intricacies. Our GenAI-rich courses help techies easily
+                integrate AI and ML models with daily functions.
+              </p>
+              <p>
+                Let's review how our <b>best Gen AI course</b> helps techies
+                grow and excel in their careers.{" "}
               </p>
               <ul>
-                <li>• GenAI Foundation Prep module (Optional) – Python, ML, and Deep learning (basics)</li>
-                <li>• Master GenAI basics to dive deeper into real-world uses.</li>
-                <li>• Gain in-depth wisdom on the real-time uses of Gen AI in diverse sectors – BFSI, healthcare, retail, manufacturing, etc.</li>
-                <li>• Dive into real-time integration of Gen AI with deep learning</li>
-                <li>• Master prompt engineering to optimize user-centric services</li>
+                <li>
+                  <p>
+                    <b>1. GenAI-driven syllabus:</b> Our{" "}
+                    <b>generative AI course</b> includes the latest trends and
+                    upgrades, setting the stage for seamless career growth.
+                    Techies enrolling in this course can automate regular tasks,
+                    save time and cost, and make strategic decisions. Our
+                    learning modules help developers learn generative AI for
+                    data analysis, enrich their yields, deliver creative
+                    solutions, and drive tempting growth.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <b>2. Hands-on GenAI learning</b> Our modules guide techies
+                    to master in-demand GenAI models via real-time projects.
+                    Techies can work on hands-on projects to master chatbot
+                    creation, automate workflows, and build RAG-driven
+                    assistants. Learners can work on real-time projects to gain
+                    practical experience and learn generative AI applications.
+                    It helps you face the industry cases well and devise optimal
+                    measures to lessen the impacts. Techies work on group
+                    projects to deploy GenAI-rich solutions and have hassle-free
+                    integrations.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <b>
+                      3. Swift career shift with industry experts as mentors:
+                    </b>{" "}
+                    Our <b>Gen AI certification course</b> appoints eminent
+                    industry experts for live training and career counseling.
+                    Learning from highly adept mentors helps you tackle complex
+                    cases and drive alluring gains. Mentorship from IIT Guwahati
+                    experts offers an open learning space where you can learn to
+                    lead and innovate data-driven solutions. As a result,
+                    techies can learn and accelerate their careers with exciting
+                    perks.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <b>
+                      4. Prestigious credentials from top-tier institutions:
+                    </b>{" "}
+                    Pursuing an <b>advanced generative AI</b> course adds
+                    reputable certificates to your career with optimal gains.
+                    Learning with the top-rated training institutes can add
+                    value to your job, bringing exciting offers. Here, techies
+                    can earn a globally recognized <b>Gen AI certification</b>{" "}
+                    from <b>E&ICT Academy, IIT Guwahati</b>. These credentials
+                    enrich your career worth and prepare you to grab alluring
+                    job offers.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <b>5. Personalized career support:</b> Our{" "}
+                    <b>best generative AI course</b> offers 100% career support
+                    services to help you excel in your field. Techies can refine
+                    their soft skills and become a perfect corporate fit via an
+                    industry-paced placement program. Techies will get 1:1
+                    doubt-clearing, mock interview prep, resume-making, and
+                    online project sessions.
+                  </p>
+                </li>
+              </ul>
+
+              <p>
+                In short, techies joining a{" "}
+                <b>Gen AI course with a certificate</b> and solely planned
+                placement aid can enrich their careers and grab exciting offers.
+                Join the course today and learn to lead and innovate seamless
+                solutions.
+              </p>
+
+              <h3 style={{ fontSize: "20px" }}>
+                Briefing a Gen AI Developer Course Module
+              </h3>
+              <p>
+                The <b>Gen AI certification course</b> at Learnbay eases the
+                career transition journey and equips you with critical skills to
+                lead and grow. Our inclusively curated learning modules help you
+                master basic and advanced Gen AI skills.
+              </p>
+              <p>
+                <b>
+                  Review essential learning outcomes with our course module and
+                  excel in your field.
+                </b>
+              </p>
+              <ul>
+                <li>
+                  • GenAI Foundation Prep module (Optional) – Python, ML, and
+                  Deep learning (basics)
+                </li>
+                <li>
+                  • Master GenAI basics to dive deeper into real-world uses.
+                </li>
+                <li>
+                  • Gain in-depth wisdom on the real-time uses of Gen AI in
+                  diverse sectors – BFSI, healthcare, retail, manufacturing,
+                  etc.
+                </li>
+                <li>
+                  • Dive into real-time integration of Gen AI with deep learning
+                </li>
+                <li>
+                  • Master prompt engineering to optimize user-centric services
+                </li>
                 <li>• Gain hands-on learning of transformers and mechanisms</li>
                 <li>• Learn LLMs to design and deploy Gen AI-rich solutions</li>
-                <li>• Hands-on learning of OpenAI APIs for impactful error handling</li>
-                <li>• Gain an outline of Hugging Face, LangChain, GANs, VAEs, and RAG</li>
+                <li>
+                  • Hands-on learning of OpenAI APIs for impactful error
+                  handling
+                </li>
+                <li>
+                  • Gain an outline of Hugging Face, LangChain, GANs, VAEs, and
+                  RAG
+                </li>
                 <li>• Model deployment with cutting-edge Gen AI tools</li>
                 <li>• Enhance your coding with GenAI Copilot tools</li>
                 <li>• Learn ethical and responsible GenAI practices</li>
-                <li>• Work on any two executive-level industry projects to boost your GenAI skills.</li>
+                <li>
+                  • Work on any two executive-level industry projects to boost
+                  your GenAI skills.
+                </li>
               </ul>
-              <p>In short, joining an industry-paced <b>Gen AI certification</b> program paves the way toward future-proofing your career and grabbing tempting offers. </p>
-              
+              <p>
+                In short, joining an industry-paced <b>Gen AI certification</b>{" "}
+                program paves the way toward future-proofing your career and
+                grabbing tempting offers.{" "}
+              </p>
+
               <h3 style={{ fontSize: "20px" }}>What to do Next??</h3>
-              <p>Any software developer eager to escalate career metrics and excel in their field, enroll in the industry's <b>best generative AI course</b> with prime gains. Mastering the front-end tools and trends is the ultimate way to enrich your career and grab exciting offers. Constant upskilling and reskilling shall help techies confound static careers and attain absolute growth. Join the course today to redefine your career path. </p>
+              <p>
+                Any software developer eager to escalate career metrics and
+                excel in their field, enroll in the industry's{" "}
+                <b>best generative AI course</b> with prime gains. Mastering the
+                front-end tools and trends is the ultimate way to enrich your
+                career and grab exciting offers. Constant upskilling and
+                reskilling shall help techies confound static careers and attain
+                absolute growth. Join the course today to redefine your career
+                path.{" "}
+              </p>
 
               <div onClick={popupShow} className={styles.buttonDiv}>
                 <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
@@ -5640,167 +6710,455 @@ function DataAnalytics({
       ) : (
         ""
       )}
-       {ExecutiveCyberSecurityIITR ? (
+      {ExecutiveCyberSecurityIITR ? (
         <div className={styles.content}>
-          <h2>
-          Executive Certification in Cybersecurity and Ethical Hacking 
-          </h2>
+          <h2>Executive Certification in Cybersecurity and Ethical Hacking</h2>
           <p>
-          Become a proficient guardian of the evolving digital realm encompassing defensive tactics to protect computing network systems. Join our <b>cyber security and ethical hacking course</b> to preserve data integrity and privacy. Earn globally recognized <b>IIT Roorkee and EC Council certifications</b> to become a frontline defensive expert. 
+            Become a proficient guardian of the evolving digital realm
+            encompassing defensive tactics to protect computing network systems.
+            Join our <b>cyber security and ethical hacking course</b> to
+            preserve data integrity and privacy. Earn globally recognized{" "}
+            <b>IIT Roorkee and EC Council certifications</b> to become a
+            frontline defensive expert.
           </p>
-          <h4 style={{ fontSize: "24px" }}>About Learnbay's Executive Cyber Security and Ethical Hacking Program </h4>
+          <h4 style={{ fontSize: "24px" }}>
+            About Learnbay's Executive Cyber Security and Ethical Hacking
+            Program{" "}
+          </h4>
           <h3 style={{ fontSize: "20px" }}>Course Details</h3>
           <p>
-          Today's fast-paced digital world sees splendid tech creations and advances. However, it also notifies of piracy attacks, data breaches, phishing, and ransomware. Cyber security learning has become vital for experts integral to this modern age. Thus, enrolling in a <b>cyber security and ethical hacking course</b> is crucial to drive tempting growth. 
+            Today's fast-paced digital world sees splendid tech creations and
+            advances. However, it also notifies of piracy attacks, data
+            breaches, phishing, and ransomware. Cyber security learning has
+            become vital for experts integral to this modern age. Thus,
+            enrolling in a <b>cyber security and ethical hacking course</b> is
+            crucial to drive tempting growth.
           </p>
           <p>
-          In the interim, Learnbay envisions a tech-driven future for techies willing to excel in their fields and grab exciting offers. Our visionary steps will help you fight rising cyber-attacks and guard your firm. Today's workspace relies heavily on cutting-edge tech creations like AI, Robots, ML models, etc, which drive insightful results. Hence, the severity of cyber crimes keeps growing rapidly.   
+            In the interim, Learnbay envisions a tech-driven future for techies
+            willing to excel in their fields and grab exciting offers. Our
+            visionary steps will help you fight rising cyber-attacks and guard
+            your firm. Today's workspace relies heavily on cutting-edge tech
+            creations like AI, Robots, ML models, etc, which drive insightful
+            results. Hence, the severity of cyber crimes keeps growing rapidly.
           </p>
           <p>
-          Our <b>ethical hacking and cyber security</b> course offers a learner-centric space to refine your skills, empower, and prepare yourself for further tech hurdles. Constant learning will equip you with creative skills to build a thriving career and excel in your field. Our course is solely designed for IT experts eager to redefine their jobs following the latest trends. Also, join our 2-day immersive learning sessions with IIT Roorkee experts and master in-demand tools with global credentials.    
+            Our <b>ethical hacking and cyber security</b> course offers a
+            learner-centric space to refine your skills, empower, and prepare
+            yourself for further tech hurdles. Constant learning will equip you
+            with creative skills to build a thriving career and excel in your
+            field. Our course is solely designed for IT experts eager to
+            redefine their jobs following the latest trends. Also, join our
+            2-day immersive learning sessions with IIT Roorkee experts and
+            master in-demand tools with global credentials.
           </p>
           <h3 style={{ fontSize: "20px" }}>
-          Who is eligible for Learnbay’s Cyber Security and Ethical Hacking Program?
+            Who is eligible for Learnbay’s Cyber Security and Ethical Hacking
+            Program?
           </h3>
           <p>
-          Learnbay strives to foster an ingenious mindset to tackle cutting-edge tech creations. Its inclusively designed <b>cyber security and hacking courses</b> help techies treat cyber attacks. Our executive-level cyber security course is solely designed for – 
+            Learnbay strives to foster an ingenious mindset to tackle
+            cutting-edge tech creations. Its inclusively designed{" "}
+            <b>cyber security and hacking courses</b> help techies treat cyber
+            attacks. Our executive-level cyber security course is solely
+            designed for –
           </p>
 
           <ul>
-            <li><b>•</b> IT experts, network admins, security analysis, risk consultants, etc</li>
-            <li><b>•</b> Entry to mid-level techies with at least 1+ years of work experience</li>
+            <li>
+              <b>•</b> IT experts, network admins, security analysis, risk
+              consultants, etc
+            </li>
+            <li>
+              <b>•</b> Entry to mid-level techies with at least 1+ years of work
+              experience
+            </li>
           </ul>
           <p>
-          <b><i>Also note:</i></b> This program is not ideal for fresh graduates and students. 
+            <b>
+              <i>Also note:</i>
+            </b>{" "}
+            This program is not ideal for fresh graduates and students.
           </p>
-          <p>In short, anyone meeting the above-stated conditions can enroll in our <b>cyber security and ethical hacking course</b>, driving proven gains.</p>
-          <h3 style={{ fontSize: "20px" }}>Overview of Cyber Security and Ethical Hacking in Today's Tech-driven Era</h3>
+          <p>
+            In short, anyone meeting the above-stated conditions can enroll in
+            our <b>cyber security and ethical hacking course</b>, driving proven
+            gains.
+          </p>
+          <h3 style={{ fontSize: "20px" }}>
+            Overview of Cyber Security and Ethical Hacking in Today's
+            Tech-driven Era
+          </h3>
           {read ? (
             <>
               <p>
-              The advent of cutting-edge tech creations has set the stage for regular data usage and a growing reliance on digital models. These tech-driven shifts have triggered firms and users with constant cyber threats. Hence, the demand for cyber security experts and ethical hackers keeps growing. In the interim, techies prefer joining the <b>best institute for cyber security in India</b>.  
+                The advent of cutting-edge tech creations has set the stage for
+                regular data usage and a growing reliance on digital models.
+                These tech-driven shifts have triggered firms and users with
+                constant cyber threats. Hence, the demand for cyber security
+                experts and ethical hackers keeps growing. In the interim,
+                techies prefer joining the{" "}
+                <b>best institute for cyber security in India</b>.
               </p>
               <p>
-              According to <b><i><a href="https://www.marketsandmarkets.com/Market-Reports/cyber-security-market-505.html#:~:text=The%20global%20Cybersecurity%20Market%20size,projected%20to%20reach%20%24298.5%20billion." rel="nofollow noindex" style={{textDecoration: "underline", color:"#0072bc"}}>M&M reports</a></i></b>, the global cyber security markets expect a 9.4% growth by 2028, creating an urgency to battle against constant cyber-attacks. As the rates of cyber crimes grow, so does the haste to build defense walls coming into the spotlight. Hence, cyber security learning has become vital for techies to tackle critical risks and build a thriving career.
+                According to{" "}
+                <b>
+                  <i>
+                    <a
+                      href="https://www.marketsandmarkets.com/Market-Reports/cyber-security-market-505.html#:~:text=The%20global%20Cybersecurity%20Market%20size,projected%20to%20reach%20%24298.5%20billion."
+                      rel="nofollow noindex"
+                      style={{ textDecoration: "underline", color: "#0072bc" }}
+                    >
+                      M&M reports
+                    </a>
+                  </i>
+                </b>
+                , the global cyber security markets expect a 9.4% growth by
+                2028, creating an urgency to battle against constant
+                cyber-attacks. As the rates of cyber crimes grow, so does the
+                haste to build defense walls coming into the spotlight. Hence,
+                cyber security learning has become vital for techies to tackle
+                critical risks and build a thriving career.
               </p>
               <p>
-              Cyber security has become a buzzing practice that techies adopt to protect their data sets and digital assets from piracy attacks. Experts with good <b>ethical hacking and cyber security</b> wisdom can fight cyber crimes and build encrypted walls. 
+                Cyber security has become a buzzing practice that techies adopt
+                to protect their data sets and digital assets from piracy
+                attacks. Experts with good{" "}
+                <b>ethical hacking and cyber security</b> wisdom can fight cyber
+                crimes and build encrypted walls.
               </p>
-              <p>Cyber security skills help techies identify and remove risk factors, ensuring security. Hence, joining the <b>best cyber security institute in India</b> has become crucial to lessen the presence of cyber-attacks and remove unauthorized access.</p>
+              <p>
+                Cyber security skills help techies identify and remove risk
+                factors, ensuring security. Hence, joining the{" "}
+                <b>best cyber security institute in India</b> has become crucial
+                to lessen the presence of cyber-attacks and remove unauthorized
+                access.
+              </p>
 
-              <p><b><i>Let’s dive deeper into the essence of cyber security in managing tech-driven risks.</i></b></p>
+              <p>
+                <b>
+                  <i>
+                    Let’s dive deeper into the essence of cyber security in
+                    managing tech-driven risks.
+                  </i>
+                </b>
+              </p>
               <ul>
-                <li><p><b>1. Fight against cloud-driven network systems:</b> Many firms adopt cloud-driven methods to meet their day-to-day tasks. They have also migrated to cloud-based spaces to have seamless and cost-effective processes. As a result, cyber crimes have increased, creating functional turmoil. Hence, cyber security learning has become vital for techies to battle against cloud-driven data risks. It secures the APIs, enhances access controls for safe data processing, and rectifies the misconfigurations. 
-                </p></li>
+                <li>
+                  <p>
+                    <b>1. Fight against cloud-driven network systems:</b> Many
+                    firms adopt cloud-driven methods to meet their day-to-day
+                    tasks. They have also migrated to cloud-based spaces to have
+                    seamless and cost-effective processes. As a result, cyber
+                    crimes have increased, creating functional turmoil. Hence,
+                    cyber security learning has become vital for techies to
+                    battle against cloud-driven data risks. It secures the APIs,
+                    enhances access controls for safe data processing, and
+                    rectifies the misconfigurations.
+                  </p>
+                </li>
 
-                <li><p><b>2. Combat AI-rich frauds and attacks:</b> The rising AI-driven trends are becoming the main reason behind growing cyber crimes. AI-powered systems decode human instincts and enhance work practices, driving compelling gains. On the other hand, the rise of AI and machine learning models paves the way for fighting against rising cyber crimes. Learning via <b>cyber security and hacking courses</b> can equip you with skills to lessen fraudulent actions. Techies with proven cyber security skills can fight against phishing, hacking, and data breaches with tactful solutions. Cybersecurity AI skills have become vital for techies to lead and grow in today’s data-driven era.</p></li>
+                <li>
+                  <p>
+                    <b>2. Combat AI-rich frauds and attacks:</b> The rising
+                    AI-driven trends are becoming the main reason behind growing
+                    cyber crimes. AI-powered systems decode human instincts and
+                    enhance work practices, driving compelling gains. On the
+                    other hand, the rise of AI and machine learning models paves
+                    the way for fighting against rising cyber crimes. Learning
+                    via <b>cyber security and hacking courses</b> can equip you
+                    with skills to lessen fraudulent actions. Techies with
+                    proven cyber security skills can fight against phishing,
+                    hacking, and data breaches with tactful solutions.
+                    Cybersecurity AI skills have become vital for techies to
+                    lead and grow in today’s data-driven era.
+                  </p>
+                </li>
 
-                <li><p><b>3. Increasing data breaches:</b> Modern-day work practices counter increasing data hacks and breaches. Techies join cyber security and ethical hacking programs to master prime skills to identify and tackle threats. Cyber security skills help experts protect various data records from being misused by hackers. Also, skilled IT pros can fight against ransomware actions and lessen the rates of cyber attacks. The proven way to tackle cyber crimes is to boost working teams and fill the skill gaps.</p></li>
-
+                <li>
+                  <p>
+                    <b>3. Increasing data breaches:</b> Modern-day work
+                    practices counter increasing data hacks and breaches.
+                    Techies join cyber security and ethical hacking programs to
+                    master prime skills to identify and tackle threats. Cyber
+                    security skills help experts protect various data records
+                    from being misused by hackers. Also, skilled IT pros can
+                    fight against ransomware actions and lessen the rates of
+                    cyber attacks. The proven way to tackle cyber crimes is to
+                    boost working teams and fill the skill gaps.
+                  </p>
+                </li>
               </ul>
-              
-              <p>No wonder, the present data-driven age has seen constantly rising risks of cyber crimes. Hence, leveling up skills via a <b>cyber security and ethical hacking course</b> has become crucial for techies from diverse fields. In the interim, the role of ethical hackers comes into the limelight, driving compelling results.</p>
 
-              <p>Techies enrolling in a <b>cyber security ethical hacking course </b>can master proven tools and trends to build encrypted walls. Hackers develop new methods to invade a firm’s safe space, so enrolling in an inclusively curated course can help you battle rising data hacks and breaches.</p>
-
-              <p><b><i>Let’s unleash the extent of ethical hacking in limiting cyber crimes. </i></b></p>
-
-              <ul>
-                <li><p><b>1. Ensuring end-to-end systems security:</b> Ethical hacking involves practices for guarding firms and their systems from external hacks. It aims to limit data breaches and network hacks, ensuring well-maintained system security. Techies must master ethical hacking skills to find hidden risks and develop security steps for better results.  
-                </p></li>
-
-                <li><p><b>2. Timely detection of malicious moves:</b> Ethical hackers are skilled enough to identify and decode risky factors and limit further losses. An expert with a <b>cyber security ethical hacking certification</b> can take a legal approach to identifying possible risks and ensuring their complete removal. 
-                </p></li>
-
-                <li><p><b>3. On-time incident responses:</b> Ethical hackers are highly demanded to tackle the rising cybercrimes. Such experts help firms find and remove viable risk factors boosting overall growth. They can also respond to critical cases, preparing firms to fight security risks. Hence, enrolling in an <b>ethical hacking and cyber security</b> program is vital for techies.</p></li>
-
-                <li><p><b>4. End-to-end system surveillance:</b> Ethical hacking is a legal process for combating cyber attacks and saving firms from huge losses. Ethical hackers closely monitor system functions, IP addresses, employee data, and domain names. This helps them decode likely attack sources and devise cogent responses to control them.</p></li>
-
-              </ul>
-
-              <p>In short, enrolling in an <b>ethical hacking course</b> is vital for techies willing to join the IT sector. Mastering <b>cyber security and ethical hacking</b> has become crucial for setting the basis for risk-free business moves. Hence, constant learning of proven tools and trends is vital.</p>
-
-              <h3 style={{ fontSize: "20px" }}>Is Joining Learnbay’s Cyber Security and Ethical Hacking Course Worth it?</h3>
               <p>
-              Learnbay’s <b>cyber security and ethical hacking</b> program prepares tech experts for the upcoming future and system vulnerabilities. Our course helps you gain insights into real-world cyber crimes and devise optimal ways to tackle them. Unlike generic courses, joining Learnbay is worth investing in for the following reasons – 
+                No wonder, the present data-driven age has seen constantly
+                rising risks of cyber crimes. Hence, leveling up skills via a{" "}
+                <b>cyber security and ethical hacking course</b> has become
+                crucial for techies from diverse fields. In the interim, the
+                role of ethical hackers comes into the limelight, driving
+                compelling results.
               </p>
 
+              <p>
+                Techies enrolling in a{" "}
+                <b>cyber security ethical hacking course </b>can master proven
+                tools and trends to build encrypted walls. Hackers develop new
+                methods to invade a firm’s safe space, so enrolling in an
+                inclusively curated course can help you battle rising data hacks
+                and breaches.
+              </p>
+
+              <p>
+                <b>
+                  <i>
+                    Let’s unleash the extent of ethical hacking in limiting
+                    cyber crimes.{" "}
+                  </i>
+                </b>
+              </p>
 
               <ul>
                 <li>
                   <p>
-                  <b>1. Inclusively curated modules for techies:</b> Learnbay brings regularly updated learning modules for techies. Our course module allows you to excel and lead in cyber security fields with exciting gains. Our inclusion of GenAI with cyber security prepares you for critical roles. Here, techies can master tools to detect risks, assess risk factors, and respond to them timely. 
+                    <b>1. Ensuring end-to-end systems security:</b> Ethical
+                    hacking involves practices for guarding firms and their
+                    systems from external hacks. It aims to limit data breaches
+                    and network hacks, ensuring well-maintained system security.
+                    Techies must master ethical hacking skills to find hidden
+                    risks and develop security steps for better results.
+                  </p>
+                </li>
+
+                <li>
+                  <p>
+                    <b>2. Timely detection of malicious moves:</b> Ethical
+                    hackers are skilled enough to identify and decode risky
+                    factors and limit further losses. An expert with a{" "}
+                    <b>cyber security ethical hacking certification</b> can take
+                    a legal approach to identifying possible risks and ensuring
+                    their complete removal.
+                  </p>
+                </li>
+
+                <li>
+                  <p>
+                    <b>3. On-time incident responses:</b> Ethical hackers are
+                    highly demanded to tackle the rising cybercrimes. Such
+                    experts help firms find and remove viable risk factors
+                    boosting overall growth. They can also respond to critical
+                    cases, preparing firms to fight security risks. Hence,
+                    enrolling in an <b>ethical hacking and cyber security</b>{" "}
+                    program is vital for techies.
+                  </p>
+                </li>
+
+                <li>
+                  <p>
+                    <b>4. End-to-end system surveillance:</b> Ethical hacking is
+                    a legal process for combating cyber attacks and saving firms
+                    from huge losses. Ethical hackers closely monitor system
+                    functions, IP addresses, employee data, and domain names.
+                    This helps them decode likely attack sources and devise
+                    cogent responses to control them.
+                  </p>
+                </li>
+              </ul>
+
+              <p>
+                In short, enrolling in an <b>ethical hacking course</b> is vital
+                for techies willing to join the IT sector. Mastering{" "}
+                <b>cyber security and ethical hacking</b> has become crucial for
+                setting the basis for risk-free business moves. Hence, constant
+                learning of proven tools and trends is vital.
+              </p>
+
+              <h3 style={{ fontSize: "20px" }}>
+                Is Joining Learnbay’s Cyber Security and Ethical Hacking Course
+                Worth it?
+              </h3>
+              <p>
+                Learnbay’s <b>cyber security and ethical hacking</b> program
+                prepares tech experts for the upcoming future and system
+                vulnerabilities. Our course helps you gain insights into
+                real-world cyber crimes and devise optimal ways to tackle them.
+                Unlike generic courses, joining Learnbay is worth investing in
+                for the following reasons –
+              </p>
+
+              <ul>
+                <li>
+                  <p>
+                    <b>1. Inclusively curated modules for techies:</b> Learnbay
+                    brings regularly updated learning modules for techies. Our
+                    course module allows you to excel and lead in cyber security
+                    fields with exciting gains. Our inclusion of GenAI with
+                    cyber security prepares you for critical roles. Here,
+                    techies can master tools to detect risks, assess risk
+                    factors, and respond to them timely.
                   </p>
                 </li>
                 <li>
                   <p>
-                  <b>2. Real-world learning scope:</b> Techies joining our <b>ethical hacking and cyber security</b> course will gain real-world insights. Learners will work on GenAI live projects to gain practical skills and thrive globally. It equips you with the skills to decode security risks and tackle them. You can gain real-time insights into cyber security tools and their uses for safety goals.
-                </p>
+                    <b>2. Real-world learning scope:</b> Techies joining our{" "}
+                    <b>ethical hacking and cyber security</b> course will gain
+                    real-world insights. Learners will work on GenAI live
+                    projects to gain practical skills and thrive globally. It
+                    equips you with the skills to decode security risks and
+                    tackle them. You can gain real-time insights into cyber
+                    security tools and their uses for safety goals.
+                  </p>
                 </li>
                 <li>
                   <p>
-                  <b>3. Detailed learning of cyber security tools:</b> Our learning module is curated based on demand trends. Techies can learn IAM, ISO standards, cyber security automation, threat detection, and incident response ways to tackle tech creations.
-                </p>
+                    <b>3. Detailed learning of cyber security tools:</b> Our
+                    learning module is curated based on demand trends. Techies
+                    can learn IAM, ISO standards, cyber security automation,
+                    threat detection, and incident response ways to tackle tech
+                    creations.
+                  </p>
                 </li>
                 <li>
                   <p>
-                  <b>4. Eminent mentors from IIT Roorkee:</b> Techies enrolling in our <b>cyber hacking course</b> will get endless mentorship and guidance from IIT Roorkee experts. Also, experts can avail of 2-day classroom training at IIT Roorkee for quality upskilling. This immersive learning enriches your career worth and helps you grab exciting roles.
-                </p>
+                    <b>4. Eminent mentors from IIT Roorkee:</b> Techies
+                    enrolling in our <b>cyber hacking course</b> will get
+                    endless mentorship and guidance from IIT Roorkee experts.
+                    Also, experts can avail of 2-day classroom training at IIT
+                    Roorkee for quality upskilling. This immersive learning
+                    enriches your career worth and helps you grab exciting
+                    roles.
+                  </p>
                 </li>
                 <li>
                   <p>
-                  <b>5. Earn IIT Roorkee credentials for enriched career worth:</b> Learning without proof is worthless. Many firms and hiring partners prefer certified experts over generic ones. Learners receive <b>iHUB Divya Sampark, IIT Roorkee, and EC Council certificates</b> to build a prestigious career in your domain. 
-                </p>
+                    <b>
+                      5. Earn IIT Roorkee credentials for enriched career worth:
+                    </b>{" "}
+                    Learning without proof is worthless. Many firms and hiring
+                    partners prefer certified experts over generic ones.
+                    Learners receive{" "}
+                    <b>
+                      iHUB Divya Sampark, IIT Roorkee, and EC Council
+                      certificates
+                    </b>{" "}
+                    to build a prestigious career in your domain.
+                  </p>
                 </li>
                 <li>
                   <p>
-                  <b>6. Drive exciting career growth with our placement aid:</b> Our <b>cyber security and hacking courses</b> offer custom-fit career support services. Learners enrolling in this course will gain career-driven perks like mock interviews, resume build-up, 1:1 doubt-clearing, and interview prep. 
-                </p>
+                    <b>
+                      6. Drive exciting career growth with our placement aid:
+                    </b>{" "}
+                    Our <b>cyber security and hacking courses</b> offer
+                    custom-fit career support services. Learners enrolling in
+                    this course will gain career-driven perks like mock
+                    interviews, resume build-up, 1:1 doubt-clearing, and
+                    interview prep.
+                  </p>
                 </li>
               </ul>
 
-              <h3 style={{ fontSize: "20px" }}>How valuable is Learnbay’s cyber security and ethical hacking program module? </h3>
-              <p>
-              Learnbay's <b>ethical hacking and cyber security</b> course covers elementary and practical concepts to help you prepare for challenging industry roles. Let’s explore the concisely designed module terms. 
-              </p>
-              <p><b>Term 1: Fundamentals and Prerequisites</b></p>
-              <p>Learners will gain the basics of OS networking, cloud security, and related tools that are vital in battling against cyber crimes. </p>
-
-              <p><b>Term 2: Ethical Hacking and Penetration Testing</b></p>
-              <p>This module will prepare you for facing tough hacking cases with proven skills and expertise in Nmap and Wireshark-like tools. Experts can gain immense wisdom via this module to kick-start their careers as ethical hackers.</p>
-
-              <p><b>Term 3: Advanced Cybersecurity Techniques</b></p>
-              <p>This module term will help you master cutting-edge cyber security tools to assess critical vulnerabilities, analyze malware, and ensure web protection.</p>
-
-              <p><b>Term 4: Cybersecurity and Information Security Essentials</b></p>
-              <p>Learners will gain a solid knowledge of cyber security principles, practices, network managing measures, and other vital. Also, real-time projects will help you tackle real-world hacking cases for better gains. </p>
-
-              <p><b>Term 5: Advanced Cybersecurity Threat Intelligence</b></p>
-              <p>This module can provide definite gains to techies willing to prosper in their careers in IoT, Red Teaming, automation, and other evolved areas.</p>
-
-              <p><b>Term 6: GenAI in Cybersecurity</b></p>
-              <p>This module helps you master GenAI-rich tools and practices to tackle cyber security threats and respond to each incident.</p>
-
-              <p><b>Add-on Term: CISSP Exam</b></p>
-              <p>This term will help you prepare for the CISSP exam that covers 8 crucial domains. </p>
-              
               <h3 style={{ fontSize: "20px" }}>
-              How does Learnbay's Personalized Career Assistance Help Techies?
+                How valuable is Learnbay’s cyber security and ethical hacking
+                program module?{" "}
               </h3>
               <p>
-              Our <b>cyber security and hacking courses</b> help techies throughout their career transition journey. Our learner-centric placement program helps techies excel in tough roles and grow in their careers. 
+                Learnbay's <b>ethical hacking and cyber security</b> course
+                covers elementary and practical concepts to help you prepare for
+                challenging industry roles. Let’s explore the concisely designed
+                module terms.
               </p>
               <p>
-              Our career support services include –
+                <b>Term 1: Fundamentals and Prerequisites</b>
               </p>
+              <p>
+                Learners will gain the basics of OS networking, cloud security,
+                and related tools that are vital in battling against cyber
+                crimes.{" "}
+              </p>
+
+              <p>
+                <b>Term 2: Ethical Hacking and Penetration Testing</b>
+              </p>
+              <p>
+                This module will prepare you for facing tough hacking cases with
+                proven skills and expertise in Nmap and Wireshark-like tools.
+                Experts can gain immense wisdom via this module to kick-start
+                their careers as ethical hackers.
+              </p>
+
+              <p>
+                <b>Term 3: Advanced Cybersecurity Techniques</b>
+              </p>
+              <p>
+                This module term will help you master cutting-edge cyber
+                security tools to assess critical vulnerabilities, analyze
+                malware, and ensure web protection.
+              </p>
+
+              <p>
+                <b>Term 4: Cybersecurity and Information Security Essentials</b>
+              </p>
+              <p>
+                Learners will gain a solid knowledge of cyber security
+                principles, practices, network managing measures, and other
+                vital. Also, real-time projects will help you tackle real-world
+                hacking cases for better gains.{" "}
+              </p>
+
+              <p>
+                <b>Term 5: Advanced Cybersecurity Threat Intelligence</b>
+              </p>
+              <p>
+                This module can provide definite gains to techies willing to
+                prosper in their careers in IoT, Red Teaming, automation, and
+                other evolved areas.
+              </p>
+
+              <p>
+                <b>Term 6: GenAI in Cybersecurity</b>
+              </p>
+              <p>
+                This module helps you master GenAI-rich tools and practices to
+                tackle cyber security threats and respond to each incident.
+              </p>
+
+              <p>
+                <b>Add-on Term: CISSP Exam</b>
+              </p>
+              <p>
+                This term will help you prepare for the CISSP exam that covers 8
+                crucial domains.{" "}
+              </p>
+
+              <h3 style={{ fontSize: "20px" }}>
+                How does Learnbay's Personalized Career Assistance Help Techies?
+              </h3>
+              <p>
+                Our <b>cyber security and hacking courses</b> help techies
+                throughout their career transition journey. Our learner-centric
+                placement program helps techies excel in tough roles and grow in
+                their careers.
+              </p>
+              <p>Our career support services include –</p>
               <ul>
-                <li>• <i>1:1 doubt-clearing</i></li>
-                <li>• <i>Mock interview prep</i></li>
-                <li>• <i>Resume build-up</i></li>
-                <li>• <i>Assured interview calls</i></li>
-                
+                <li>
+                  • <i>1:1 doubt-clearing</i>
+                </li>
+                <li>
+                  • <i>Mock interview prep</i>
+                </li>
+                <li>
+                  • <i>Resume build-up</i>
+                </li>
+                <li>
+                  • <i>Assured interview calls</i>
+                </li>
               </ul>
-              <p>Techies enrolling in our <b>cyber security ethical hacking course</b> can avail of these career perks and excel in their fields.</p>
+              <p>
+                Techies enrolling in our{" "}
+                <b>cyber security ethical hacking course</b> can avail of these
+                career perks and excel in their fields.
+              </p>
 
               <div onClick={popupShow} className={styles.buttonDiv}>
                 <Button bannerButton={true} text="DOWNLOAD SYLLABUS" />
@@ -5825,9 +7183,6 @@ function DataAnalytics({
       ) : (
         ""
       )}
-    
     </div>
   );
 }
-
-export default DataAnalytics;
