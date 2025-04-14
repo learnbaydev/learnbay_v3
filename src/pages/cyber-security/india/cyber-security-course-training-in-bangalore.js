@@ -33,7 +33,7 @@ const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Structure-System-Design.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Advance-Cyber-security.pdf";
   return (
     <div className={styles.container}>
       <Head>
