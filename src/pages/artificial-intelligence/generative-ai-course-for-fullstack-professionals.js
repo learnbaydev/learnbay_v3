@@ -47,12 +47,10 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>
-          Advance Gen AI Developer Course for Professionals | Learnbay{" "}
-        </title>
+        <title>Advanced Gen AI Developer Course - Learnbay </title>
         <meta
           name="description"
-          content="Join Learnbay's Advance Gen AI Developer course. Develop cutting-edge AI solutions and take your career to the next level with hands-on learning."
+          content="Join Learnbay’s Advanced Gen AI Developer Course. Build AI solutions, gain hands-on experience, and advance your career in AI. Enroll today."
         />
 
         <meta name="robots" content="index, follow" />
@@ -75,13 +73,13 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
         <meta
           property="og:title"
-          content="Advance Gen AI Developer Course for Professionals | Learnbay "
+          content="Advanced Gen AI Developer Course - Learnbay"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Join Learnbay's Advance Gen AI Developer course. Develop cutting-edge AI solutions and take your career to the next level with hands-on learning."
+          content="Join Learnbay’s Advanced Gen AI Developer Course. Build AI solutions, gain hands-on experience, and advance your career in AI. Enroll today."
         />
         <meta
           property="og:image"

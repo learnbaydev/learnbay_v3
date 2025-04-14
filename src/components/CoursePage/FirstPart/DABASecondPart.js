@@ -78,7 +78,8 @@ const DABASecondPart = ({
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/DA_BA.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/DA_BA.pdf";
   return (
     <div>
       <LJourney />
@@ -133,7 +134,7 @@ const DABASecondPart = ({
         brochurePdf={pdfUrl}
       />
       <FAQNew FAQNewData={FAQNewData} toolsdynamic={toolsdynamic} />
-      <Content Banalytics={true} dataScienceCounselling={true} />
+      <Content daba={true} dataScienceCounselling={true} />
       <SeventhSection />
       <Footer />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />

@@ -53,7 +53,7 @@ import {
 
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Structure-System-Design.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf";
 
   let soonDate = getDSABookingSoonDate();
   let laterDate = getDSABookingLaterDate();
@@ -213,8 +213,8 @@ const NewDSA = ({ DSADataJson }) => {
 
         {/* <NewCertificateSection certificateNew={NewDSAData[0].certificateNew} /> */}
         <DSAFeeSection
-          Fee="₹ 1,10,000"
-          FeeEmi="₹ 7,211/month"
+          Fee="₹ 1,23,900"
+          FeeEmi="₹ 8,122/month"
           weekendbatch="Weekend Morning (DSA BATCHES)"
           weekdaybatch="Weekend Morning (DSA BATCHES)"
           weekday="SAT-SUN"
@@ -227,12 +227,12 @@ const NewDSA = ({ DSADataJson }) => {
           // <EMI POPUP
           emiType="NO COST EMI"
           duration1="18 Months"
-          totalAmount1="₹1,10,000"
-          monthlyPayment1="₹7,211"
+          totalAmount1="₹1,23,900"
+          monthlyPayment1="₹8,122"
           greenDown1="Standard Intrest rate Applicable"
           duration2="12 Months"
-          totalAmount2="₹1,10,000"
-          monthlyPayment2="₹10,816"
+          totalAmount2="₹1,23,900"
+          monthlyPayment2="₹12,183"
         />
         <ReviewSlider idss="eautK0odE7Q" />
         <MentorsSection />

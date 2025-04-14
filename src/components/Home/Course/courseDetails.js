@@ -132,7 +132,7 @@ export const courseDetails = [
             tagHead: "for software developers",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
-            brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Structure-System-Design.pdf",
+            brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf",
             titleCourse: "Data Structure Algorithm & System Design",
             para: [
               "10 months | 4 capstone projects",
@@ -577,7 +577,7 @@ export const courseDetails = [
             tagHead: "for software developers",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
-            brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Structure-System-Design.pdf",
+            brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf",
             titleCourse: "Data Structure Algorithm & System Design",
             para: [
               "10 months | 4 capstone projects",
@@ -1069,7 +1069,7 @@ export const courseDetails = [
             tagHead: "for software developers",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
-            brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Structure-System-Design.pdf",
+            brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf",
             titleCourse: "Data Structure Algorithm & System Design",
             para: [
               "10 months | 4 capstone projects",
@@ -1412,7 +1412,7 @@ export const courseDetails = [
             tagHead: "for software developers",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
-            brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Structure-System-Design.pdf",
+            brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf",
             titleCourse: "Data Structure Algorithm & System Design",
             para: [
               "10 months | 4 capstone projects",
@@ -1799,7 +1799,7 @@ export const courseDetails = [
             tagHead: "for software developers",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
-            brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Structure-System-Design.pdf",
+            brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf",
             titleCourse: "Data Structure Algorithm & System Design",
             para: [
               "10 months | 4 capstone projects",
@@ -2214,7 +2214,7 @@ export const courseDetailsM = [
             tagHead: "for software developers",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
-            brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Structure-System-Design.pdf",
+            brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf",
             titleCourse: "Data Structure Algorithm & System Design",
             para: [
               "10 months | 4 capstone projects",
@@ -2722,7 +2722,7 @@ export const courseDetailsM = [
             tagHead: "for software developers",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
-            brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Structure-System-Design.pdf",
+            brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf",
             titleCourse: "Data Structure Algorithm & System Design",
             para: [
               "10 months | 4 capstone projects",
@@ -3123,7 +3123,7 @@ export const courseDetailsM = [
             tagHead: "for software developers",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
-            brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Structure-System-Design.pdf",
+            brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf",
             titleCourse: "Data Structure Algorithm & System Design",
             para: [
               "10 months | 4 capstone projects",

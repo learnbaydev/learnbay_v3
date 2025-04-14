@@ -13,12 +13,10 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
   return (
     <>
       <Head>
-        <title>
-          Advance Your Career with a Master's in Data Science and AI - Learnbay
-        </title>
+        <title>Master’s in Data Science & AI Course - Learnbay</title>
         <meta
           name="description"
-          content="Elevate your career with Learnbay's Master's in Data Science and AI program. Gain the skills you need to succeed in today's data-driven world. Enroll now!"
+          content="Advance with Learnbay’s Master's in Data Science & AI. Gain industry-ready skills and succeed in a data-driven world. Join today."
         />
         <meta name="robots" content="index, follow" />
         <meta
@@ -33,11 +31,11 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Advance Your Career with a Master's in Data Science and AI - Learnbay"
+          content="Master’s in Data Science & AI Course - Learnbay"
         />
         <meta
           property="og:description"
-          content="Elevate your career with Learnbay's Master's in Data Science and AI program. Gain the skills you need to succeed in today's data-driven world. Enroll now!"
+          content="Advance with Learnbay’s Master's in Data Science & AI. Gain industry-ready skills and succeed in a data-driven world. Join today."
         />
         <meta
           property="og:image"

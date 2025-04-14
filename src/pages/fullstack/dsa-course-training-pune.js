@@ -73,7 +73,7 @@ export default function Home() {
     fetchPopup();
   }, []);
 
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Structure-System-Design.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf";
   return (
     <div className={styles.container}>
       <Head>
