@@ -928,7 +928,7 @@ export const courses = {
       link: "/cyber-security/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cyber-Security-IIT.pdf",
-      brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cyber-Security-IIT.pdf",
+      brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/cybers-Security-IIT.pdf",
     },
   ],
   manager: [

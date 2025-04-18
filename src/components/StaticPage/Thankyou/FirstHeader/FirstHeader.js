@@ -4,7 +4,7 @@ import styles from "./FirstHeader.module.css";
 import CertificationCard from "../../../Home/newUI/CertificationCard/CertificationCard";
 import { certificationCourses } from "../../../Home/newUI/NewCourse/NewCourseData";
 
-const FirstHeader = ({ donwnload, brochureLink }) => {
+const FirstHeader = ({ donwnload, brochurePdf, brochureLink }) => {
   return (
     <>
       <Head>
@@ -41,7 +41,7 @@ const FirstHeader = ({ donwnload, brochureLink }) => {
           >
             Know More
           </PopupButton> */}
-          {donwnload ? (
+          {donwnload || brochurePdf? (
             <a href={brochureLink}>
               <button className={styles.btnDownload}>View Syllabus</button>
             </a>

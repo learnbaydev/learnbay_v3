@@ -44,6 +44,8 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
     }
     setQueryData(data);
   }, []);
+  const showBrochureButton = !!data[1]; // Only true if brochureLink exists
+
 
   return (
     <div>
@@ -63,8 +65,13 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
           }}
         />
       </Head>
-      <Navbar donwnload={true} brochureLink={data[1]} />
-      <FirstHeader donwnload={true} brochureLink={data[1]} />
+      <Navbar donwnload={showBrochureButton} brochureLink={data[1]} />
+<FirstHeader
+  donwnload={showBrochureButton}
+  brochurePdf={showBrochureButton}
+  brochureLink={data[1]}
+/>
+
 
       <ThankStats
         img1="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/GIF.gif"
