@@ -10,10 +10,10 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>Data Science & AI for Managers and Leaders | Learnbay</title>
+        <title>Data Science and AI for Managers - Learnbay</title>
         <meta
           name="description"
-          content="Elevate your leadership and strategic skills with our AI & Data Science  Program for Managers and Leaders. Lead the Future with data-driven excellence!"
+          content="Boost your leadership with Learnbay’s AI and Data Science Program. Make data-driven decisions and lead with confidence. Join now."
         />
         <meta name="robots" content="index, follow" />
         <meta
@@ -35,13 +35,13 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
         <meta
           property="og:title"
-          content="Data Science & AI for Managers and Leaders | Learnbay"
+          content="Data Science and AI for Managers - Learnbay"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Elevate your leadership and strategic skills with our AI & Data Science  Program for Managers and Leaders. Lead the Future with data-driven excellence!"
+          content="Boost your leadership with Learnbay’s AI and Data Science Program. Make data-driven decisions and lead with confidence. Join now."
         />
         <meta
           property="og:image"
@@ -53,16 +53,16 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Data Science & AI for Managers and Leaders | Learnbay"
+          content="Data Science and AI for Managers - Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           itemProp="description"
-          content="Elevate your leadership and strategic skills with our AI & Data Science  Program for Managers and Leaders. Lead the Future with data-driven excellence!"
+          content="Boost your leadership with Learnbay’s AI and Data Science Program. Make data-driven decisions and lead with confidence. Join now."
         />
         <meta
           name="twitter:description"
-          content="Elevate your leadership and strategic skills with our AI & Data Science  Program for Managers and Leaders. Lead the Future with data-driven excellence!"
+          content="Boost your leadership with Learnbay’s AI and Data Science Program. Make data-driven decisions and lead with confidence. Join now."
         />
         <meta
           name="twitter:image"
@@ -71,7 +71,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
 
         <meta
           name="copyright"
-          content="Learnbay:  Data Science & AI for Managers and Leaders | Learnbay"
+          content="Learnbay:  Data Science and AI for Managers - Learnbay"
         />
         <link
           rel="icon"

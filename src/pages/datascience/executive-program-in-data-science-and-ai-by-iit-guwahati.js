@@ -16,7 +16,7 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
         <title>Executive Data Science Training Program - IITG & Learnbay</title>
         <meta
           name="description"
-          content="Advance your career with Learnbay's Executive Program in Data Science and AI. Gain advanced skills and become E&ICT Academy IIT Guwahati certified Data Scientist."
+          content="Get IIT Guwahati certified. Join Learnbay’s Executive Data Science & AI Program. Upgrade your career with expert-led training. Enroll now."
         />
         <meta name="robots" content="index, follow" />
         <meta
@@ -43,7 +43,7 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Advance your career with Learnbay's Executive Program in Data Science and AI. Gain advanced skills and become E&ICT Academy IIT Guwahati certified Data Scientist."
+          content="Get IIT Guwahati certified. Join Learnbay’s Executive Data Science & AI Program. Upgrade your career with expert-led training. Enroll now."
         />
         <meta
           property="og:image"
