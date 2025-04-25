@@ -1474,7 +1474,315 @@ const nextConfig = {
           "https://blog.learnbay.co/regression-techniques-in-machine-learning",
         permanent: true,
       },
+      {
+        source:
+          "/course/advanced-data-science-and-ai-program",
+        destination:
+          "/datascience/advance-data-science-certification-courses",
+        permanent: true,
+      },
+      {
+        source:
+          "/datascience/Vietnam/data-science-course-training-in-Vietnam",
+        destination:
+          "/datascience/vietnam/data-science-course-training-in-vietnam",
+        permanent: true,
+      },
 
+      
+      {
+        source:
+          "/data-science-course/you-could-be-a-pro-in-data-science-by-self-assisting",
+        destination:
+          "https://blog.learnbay.co/you-could-be-a-pro-in-data-science-by-self-assisting",
+        permanent: true,
+      },
+      {
+        source:
+          "/data-analytics-course-training-in-delh",
+        destination:
+          "/datascience/delhi/data-analytics-course-training-in-delhi",
+        permanent: true,
+      },{
+        source:
+          "/data-science-course/blog-post/investing-3-lakhs-on-data-science-certification-course-does-it-really-worth",
+        destination:
+          "https://blog.learnbay.co/investing-3-lakhs-on-data-science-certification-course-does-it-really-worth",
+        permanent: true,
+      },
+   
+      {
+        source:
+          "/datascience/advance-data-science-ce",
+        destination:
+          "/datascience/advance-data-science-certification-courses",
+        permanent: true,
+      },
+      {
+        source:
+          "/datascience/fullstack/dsa-system-design",
+        destination:
+          "/fullstack/dsa-system-design",
+        permanent: true,
+      },
+      {
+        source:
+          "/datascience/hyderabad/data-science-course-training-in-hyderabadBest",
+        destination:
+          "/datascience/hyderabad/data-science-course-training-in-hyderabad",
+        permanent: true,
+      },
+      {
+        source:
+          "/data-science-course-training-in-banglore",
+        destination:
+          "/datascience/bangalore/data-science-course-training-in-bangalore",
+        permanent: true,
+      },
+      {
+        source:
+          "/data-science-course/data-science-courses-in-chennai/l",
+        destination:
+          "/datascience/chennai/data-science-course-training-in-chennai",
+        permanent: true,
+      },
+      {
+        source:
+          "/data-science-course/data-science-courses-in-chennai/l",
+        destination:
+          "/datascience/chennai/data-science-course-training-in-chennai",
+        permanent: true,
+      },
+      {
+        source:
+          "/datascience/bangalore/fullstack/dsa-system-design",
+        destination:
+          "/fullstack/dsa-course-training-bangalore",
+        permanent: true,
+      },
+      {
+        source:
+          "/fullstack/pune/fullstack/dsa-system-design",
+        destination:
+          "/fullstack/dsa-course-training-pune",
+        permanent: true,
+      },
+      {
+        source:
+          "/fullstack/fullstack/dsa-system-design",
+        destination:
+          "/fullstack/dsa-system-design",
+        permanent: true,
+      },
+      {
+        source:
+          "/cloud&devops/fullstack/dsa-system-design",
+        destination:
+          "/fullstack/dsa-system-design",
+        permanent: true,
+      },
+      {
+        source:
+          "/datascience/india/fullstack/dsa-system-design",
+        destination:
+          "/fullstack/dsa-system-design",
+        permanent: true,
+      },
+      {
+        source:
+          "/datascience/pune/fullstack/dsa-system-design",
+        destination:
+          "/fullstack/dsa-course-training-pune",
+        permanent: true,
+      },
+      {
+        source:
+          "/datasscience-course/datasscience-course-in-bangalore",
+        destination:
+          "/datascience/bangalore/data-science-course-training-in-bangalore",
+        permanent: true,
+      },
+
+        {
+        source:
+          "/datascience/chennai",
+        destination:
+          "/datascience/chennai/data-science-course-training-in-chennai",
+        permanent: true,
+      },
+      {
+        source:
+          "/datascience/privacy-policy",
+        destination:
+          "/privacy-policy",
+        permanent: true,
+      },
+      {
+        source:
+          "/data-science-course-training-in-bang",
+        destination:
+          "/datascience/bangalore/data-science-course-training-in-bangalore",
+        permanent: true,
+      },
+      {
+        source:
+          "/data-science-course/data-science-course-in-bangalor",
+        destination:
+          "/datascience/bangalore/data-science-course-training-in-bangalore",
+        permanent: true,
+      },
+      {
+        source:
+          "/datascience/data-science-ai-for-managersData",
+        destination:
+          "/datascience/data-science-ai-for-managers",
+        permanent: true,
+      },
+      {
+        source:
+          "/data-science-course/introduction-to-simple-linear-regression-in-machine-learning/",
+        destination:
+          "https://blog.learnbay.co/introduction-to-simple-linear-regression-in-machine-learning",
+        permanent: true,
+      },
+      {
+        source:
+          "/datascience/che",
+        destination:
+          "/datascience/chennai/data-science-course-training-in-chennai",
+        permanent: true,
+      },
+      {
+        source:
+          "/data-science-course/data-science-certification-in-mumbai/data-science-course/data-science-certification-in-mumbai",
+        destination:
+          "/datascience/mumbai/data-science-course-training-in-mumbai",
+        permanent: true,
+      },
+
+       {
+        source:
+          "/data-science-course/data-data-science-course/data-science-courses-in-chennai",
+        destination:
+          "/datascience/chennai/data-science-course-training-in-chennai",
+        permanent: true,
+      },
+      {
+        source:
+          "/data-science-course/data-science-courses-in-chennai/This",
+        destination:
+          "/datascience/chennai/data-science-course-training-in-chennai",
+        permanent: true,
+      },
+      {
+        source:
+          "/data-analytics-course-training-in-pu",
+        destination:
+          "/datascience/pune/data-science-course-training-in-pune",
+        permanent: true,
+      },
+      {
+        source:
+          "/cloud&devops/bangalore/o",
+        destination:
+          "/cloud&devops/online-cloud-computing-course-bangalore",
+        permanent: true,
+      },
+      {
+        source:
+          "/data-science-course/blogs-learnbay",
+        destination:
+          "https://blog.learnbay.co/category/data-science",
+        permanent: true,
+      },
+      {
+        source:
+          "/clouddevops/c",
+        destination:
+          "/cloud&devops/cloud-computing-and-devOps-certification-program",
+        permanent: true,
+      },
+      {
+        source:
+          "/datascience/bangalore/dsa-course-training-bangalore",
+        destination:
+          "/fullstack/dsa-course-training-bangalore",
+        permanent: true,
+      },
+      {
+        source:
+          "/datascience/pune/dsa-course-training-pune",
+        destination:
+          "/fullstack/dsa-course-training-pune",
+        permanent: true,
+      },
+      {
+        source:
+          "/data-science-course/data-sciencecertification-in-mumbai",
+        destination:
+          "/datascience/mumbai/data-science-course-training-in-mumbai",
+        permanent: true,
+      },
+      {
+        source:
+          "/data-science-course/data-science-course-in-banga",
+        destination:
+          "/datascience/bangalore/data-science-course-training-in-bangalore",
+        permanent: true,
+      },
+
+      {
+        source:
+          "/cloud&amp;devops/cloud-computing-online-course-training-institute",
+        destination:
+          "/cloud&devops/cloud-computing-online-course-training-institute",
+        permanent: true,
+      },
+      {
+        source:
+          "/cloud&amp;devops/devops-online-course-training-institute",
+        destination:
+          "/cloud&devops/devops-online-course-training-institute",
+        permanent: true,
+      },
+      {
+        source:
+          "/cloud&amp;devops/cloud-computing-and-devOps-certification-program",
+        destination:
+          "/cloud&devops/cloud-computing-and-devOps-certification-program",
+        permanent: true,
+      },
+      {
+        source:
+          "/cloud&amp;devops/aws-cloud-computing-and-devOps",
+        destination:
+          "/cloud&devops/aws-cloud-computing-and-devOps",
+        permanent: true,
+      },
+
+
+      {
+        source:
+          "/data-science-course/data-science-courses-in-hyderabad/>Data",
+        destination:
+          "/fullstack/dsa-course-training-bangalore",
+        permanent: true,
+      },
+
+
+      {
+        source:
+          "/data-science-course-training-in-pune",
+        destination:
+          "/datascience/pune/data-science-course-training-in-pune",
+        permanent: true,
+      },
+      
+
+
+
+
+     
       
       
     ];
