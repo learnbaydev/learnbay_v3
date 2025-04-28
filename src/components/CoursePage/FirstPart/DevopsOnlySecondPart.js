@@ -68,7 +68,7 @@ const SecondPart = ({
     fetchPopup();
   }, []);
 
-   const pdfUrl ="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cloud-and-Devops-Certification.pdf"
+   const pdfUrl ="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cloud-and-Devops-Certifications.pdf"
   return (
     <div style={{ marginTop: "50px" }}>
       <SyllabusNew

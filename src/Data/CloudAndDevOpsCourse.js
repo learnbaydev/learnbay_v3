@@ -219,7 +219,7 @@ export const CloudAndDevOpsCourseData = [
       {
         Module0: {
           title: "TERM 1  :- Cloud Basics and Linux Fundamentals",
-          hours: "(40 Hours)",
+          hours: "(25 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/LINUX+FUNDAMENTALS_round.webp ",
           StartImageUrl:
