@@ -34,7 +34,7 @@ const CitiesRight = dynamic(() =>
 const FAQNew = dynamic(() => import("../../components/Seo/FAQNew/FAQNew"));
 
 export default function Home() {
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cloud-and-Devops-Certification.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cloud-and-Devops-Certifications.pdf";
   return (
     <div className={styles.container}>
       <Head>

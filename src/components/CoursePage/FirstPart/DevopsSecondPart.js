@@ -73,7 +73,7 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cloud-and-Devops-Certification.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cloud-and-Devops-Certifications.pdf";
   return (
     <div style={{ marginTop: "50px" }}>
       <SyllabusNew
@@ -85,6 +85,8 @@ const SecondPart = ({
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
         brochurePdf={pdfUrl}
         buttonHide={true}
+        onlyGENAIPage={true}
+        // IITGenCloudonly={true}
       />
       <ToolsCovered devops={true} mbldevops={mbldevops} />
       <Certificate data={CertificateData} />
