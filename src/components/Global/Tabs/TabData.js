@@ -102,13 +102,18 @@ export const TabData = [
     courseName: [
       {
         CName: "Cloud Computing & DevOps Certification Program",
-        hours: "7 Months",
+        hours: "6 Months",
         url: "/cloud&devops/cloud-computing-and-devOps-certification-program",
       },
       {
         CName: "Certificate in AWS Cloud Computing & Devops",
         hours: "3-4 Months",
         url: "/cloud&devops/aws-cloud-computing-and-devOps",
+      },
+      {
+        CName: "Executive Certification in Cloud and Devops",
+        hours: "10 Months",
+        url: "/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati",
       },
       // {
       //   CName: "Software Development Certification Program",

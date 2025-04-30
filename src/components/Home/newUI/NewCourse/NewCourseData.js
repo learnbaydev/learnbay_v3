@@ -291,7 +291,7 @@ export const courses = {
     },
     {
       title: "Cloud Computing & DevOps Certification Program",
-      duration: "7 months | 3 Project",
+      duration: "6 months | 3 Project",
       certification: "Global Certification",
       description: "Designed by industry experts",
       image:
@@ -472,7 +472,7 @@ export const courses = {
     },
     {
       title: "Cloud Computing & DevOps Certification Program",
-      duration: "7 months | 3 Project",
+      duration: "6 months | 3 Project",
       certification: "Global Certification",
       description: "Designed by industry experts",
       image:
@@ -797,7 +797,7 @@ export const courses = {
     },
     {
       title: "Cloud Computing & DevOps Certification Program",
-      duration: "7 months | 3 Project",
+      duration: "6 months | 3 Project",
       certification: "Global Certification",
       description: "Designed by industry experts",
       image:
