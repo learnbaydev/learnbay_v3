@@ -4,17 +4,19 @@ import matter from "gray-matter";
 import { useRouter } from "next/router";
 import styles from "./slug.module.css";
 import Footer from "@/components/Global/Footer/Footer";
-import ReactMarkdown from "react-markdown";
+import dynamic from "next/dynamic";
+import rehypeRaw from "rehype-raw";
 import Link from "next/link";
-import { Children, useEffect, useState } from "react";
+import { Children, useEffect, useState, useRef, useCallback, useMemo } from "react";
 import Head from "next/head";
 import Navbar from "@/components/Global/Navbar/Navbar";
-import RelatedCourses from "@/components/testingComponent/RelatedCourses/RelatedCourses";
 import { TestingCourseData } from "@/CityData/testingData/testingData";
 
-// Helper to extract clean heading text
-const extractText = (children) => {
-  return Children.toArray(children)
+const RelatedCourses = dynamic(() => import("@/components/testingComponent/RelatedCourses/RelatedCourses"));
+const ReactMarkdown = dynamic(() => import("react-markdown"));
+
+const extractText = (children) =>
+  Children.toArray(children)
     .map((child) =>
       typeof child === "string"
         ? child
@@ -28,83 +30,80 @@ const extractText = (children) => {
     .toLowerCase()
     .replace(/\s+/g, "-")
     .replace(/[^\w-]/g, "");
-};
 
 const Blog = ({ postData, nextPost }) => {
   const router = useRouter();
-
-  if (router.isFallback) {
-    return <div>Loading...</div>;
-  }
-
-  if (!postData) {
-    return <div>404 - Blog Post Not Found</div>;
-  }
-
   const [isTOCOpen, setIsTOCOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
+  const tocRef = useRef(null);
 
   useEffect(() => {
     const checkScreen = () => setIsMobile(window.innerWidth <= 861);
     checkScreen();
-    window.addEventListener("resize", checkScreen);
-    return () => window.removeEventListener("resize", checkScreen);
+    const debouncedResize = debounce(checkScreen, 150);
+    window.addEventListener("resize", debouncedResize);
+    return () => window.removeEventListener("resize", debouncedResize);
   }, []);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        isMobile &&
+        isTOCOpen &&
+        tocRef.current &&
+        !tocRef.current.contains(event.target)
+      ) {
+        setIsTOCOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [isMobile, isTOCOpen]);
+
+  const markdownComponents = useMemo(
+    () => ({
+      h1: ({ node, ...props }) => {
+        const id = extractText(props.children);
+        return <h1 id={id} {...props} />;
+      },
+      h2: ({ node, ...props }) => {
+        const id = extractText(props.children);
+        return <h2 id={id} {...props} />;
+      },
+      h3: ({ node, ...props }) => {
+        const id = extractText(props.children);
+        return <h3 id={id} {...props} />;
+      },
+    }),
+    []
+  );
+
+  if (router.isFallback) return <div>Loading...</div>;
+  if (!postData) return <div>404 - Blog Post Not Found</div>;
+
+  const canonicalURL = `https://www.learnbay.co${router.asPath}`;
 
   return (
     <>
       <Head>
         <title>{postData.Stitle} | My Blog</title>
-        <meta
-          name="description"
-          content={postData.description || "Default description"}
-        />
+        <meta name="description" content={postData.description || "Default description"} />
         <meta property="og:title" content={postData.title} />
-        <meta
-          property="og:description"
-          content={postData.description || "Default description"}
-        />
-        <meta
-          name="keywords"
-          content={postData.keywords || "default, keywords"}
-        />
+        <meta property="og:description" content={postData.description || "Default description"} />
+        <meta name="keywords" content={postData.keywords || "default, keywords"} />
         <meta property="og:image" content={postData.image} />
-          {/* <!-- Twitter Meta Tags --> */}
-          <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="learnbay.co" />
-        <meta name="twitter:site" content="@Learnbay" />
-        <meta name="twitter:creator" content="@Learnbay" />
-        <meta
-          property="twitter:url"
-          content="https://www.learnbay.co/blogs/placement-success-story-in-data-science"
-        />
-        <meta
-          name="twitter:title"
-          content={postData.title}
-        
-        />
-        <meta
-          name="twitter:description"
-          content={postData.description || "Welcome to learnbay blogs"} />
-        <meta
-          name="twitter:image"
-          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
-        />
+        <meta name="twitter:card" content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/blogs/blogcover.webp" />
+        <link rel="canonical" href={canonicalURL} />
         <link
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
-        <link
-          rel="canonical"
-          href="https://www.learnbay.co/blogs/placement-success-story-in-data-science"
-        />
       </Head>
-         <Navbar popup={true} dataScience={true} interstedInHide={true} />
+
+      <Navbar popup dataScience interstedInHide />
+
       <div className={styles.blogPage}>
-        <div
-          className={styles.blogHeader}
-          style={{ backgroundImage: `url(${postData.image})` }}
-        ></div>
+        <div className={styles.blogHeader} style={{ backgroundImage: `url(${postData.image})` }}></div>
 
         <div className={styles.metaContainer}>
           <h1 className={styles.blogTitle}>{postData.title}</h1>
@@ -116,63 +115,55 @@ const Blog = ({ postData, nextPost }) => {
         </div>
 
         <div className={styles.blogContainer}>
-        <div className={`${styles.sidebar} ${isMobile ? styles.mobileSidebar : ''}`}>
-  {isMobile && (
-    <button className={styles.toggleButton} onClick={() => setIsTOCOpen(!isTOCOpen)}>
-      {isTOCOpen ? 'Hide Table of Contents ▲' : 'Show Table of Contents ▼'}
-    </button>
-  )}
+          <div ref={tocRef} className={`${styles.sidebar} ${isMobile ? styles.mobileSidebar : ""}`}>
+            {isMobile && (
+              <button className={styles.toggleButton} onClick={() => setIsTOCOpen(!isTOCOpen)}>
+                {isTOCOpen ? "Hide Table of Contents ▲" : "Show Table of Contents ▼"}
+              </button>
+            )}
 
-  {(!isMobile || isTOCOpen) && (
-    <div className={styles.tocContent}>
-      <h2>Table of Contents</h2>
-      <ul>
-        {postData.headings.map((heading, index) => (
-          <li key={index}>
-            <a href={`#${heading.id}`}>{heading.text}</a>
-          </li>
-        ))}
-      </ul>
-    </div>
-  )}
-</div>
+            {(!isMobile || isTOCOpen) && (
+              <div className={styles.tocContent}>
+                <h2>Table of Contents</h2>
+                <ul>
+                  {postData.headings.map((heading, index) => (
+                    <li key={index}>
+                      <a href={`#${heading.id}`}>{heading.text} <hr className={styles.hr}/> </a>
+                    </li>
 
+                  ))}
+                </ul>
+              </div>
+            )}
+          </div>
 
           <div className={styles.blogContent}>
-            <ReactMarkdown
-              components={{
-                h1: ({ node, ...props }) => {
-                  const id = extractText(props.children);
-                  return <h1 id={id} {...props} />;
-                },
-                h2: ({ node, ...props }) => {
-                  const id = extractText(props.children);
-                  return <h2 id={id} {...props} />;
-                },
-                h3: ({ node, ...props }) => {
-                  const id = extractText(props.children);
-                  return <h3 id={id} {...props} />;
-                },
-              }}
-            >
+            <ReactMarkdown rehypePlugins={[rehypeRaw]} components={markdownComponents}>
               {postData.content}
             </ReactMarkdown>
 
             {nextPost && (
               <div className={styles.nextPost}>
-                <Link href={`/blog/${nextPost.slug}`}>
-                  Next Blog: {nextPost.title}
-                </Link>
+                <Link href={`/blog/${nextPost.slug}`}>Next Blog: {nextPost.title}</Link>
               </div>
             )}
           </div>
         </div>
-         <RelatedCourses relatedCourses={TestingCourseData[0].relatedCourses} />
+
+        <RelatedCourses relatedCourses={TestingCourseData[0].relatedCourses} />
         <Footer />
       </div>
     </>
   );
 };
+
+function debounce(func, delay) {
+  let timer;
+  return function (...args) {
+    clearTimeout(timer);
+    timer = setTimeout(() => func.apply(this, args), delay);
+  };
+}
 
 export async function getStaticPaths() {
   const blogDirectory = path.join(process.cwd(), "src/blog");
@@ -181,24 +172,18 @@ export async function getStaticPaths() {
   const paths = fileNames
     .filter((fileName) => fileName.endsWith(".md"))
     .map((fileName) => ({
-      params: {
-        slug: fileName.replace(/\.md$/, ""),
-      },
+      params: { slug: fileName.replace(/\.md$/, "") },
     }));
 
-  return {
-    paths,
-    fallback: "blocking",
-  };
+  return { paths, fallback: "blocking" };
 }
+
 export async function getStaticProps({ params }) {
   try {
     const blogDirectory = path.join(process.cwd(), "src/blog");
     const filePath = path.join(blogDirectory, `${params.slug}.md`);
 
-    if (!fs.existsSync(filePath)) {
-      return { notFound: true };
-    }
+    if (!fs.existsSync(filePath)) return { notFound: true };
 
     const fileContent = fs.readFileSync(filePath, "utf8");
     const { data, content } = matter(fileContent);
@@ -214,47 +199,32 @@ export async function getStaticProps({ params }) {
     const postData = {
       title: data.title || "Untitled",
       date: data.date || "Unknown Date",
-      author: data.author || "author",
+      author: data.author || "Author",
       image: data.image || "/default-image.jpg",
       Stitle: data.Stitle || data.title || "Untitled",
       description: data.description || "Default description",
-      readTime: data.readTime || "read time",
+      readTime: data.readTime || "Read time",
       keywords: data.keywords || "default, keywords",
       content,
       headings,
     };
 
     const fileNames = fs.readdirSync(blogDirectory);
-    const currentSlugIndex = fileNames.findIndex(
-      (file) => file.replace(/\.md$/, "") === params.slug
-    );
+    const currentIndex = fileNames.findIndex((file) => file.replace(/\.md$/, "") === params.slug);
 
     let nextPost = null;
-    if (currentSlugIndex !== -1 && currentSlugIndex + 1 < fileNames.length) {
-      const nextPostFile = fileNames[currentSlugIndex + 1];
-      const nextPostContent = fs.readFileSync(
-        path.join(blogDirectory, nextPostFile),
-        "utf8"
-      );
-      const nextPostData = matter(nextPostContent).data;
-
-      nextPost = {
-        slug: nextPostFile.replace(/\.md$/, ""),
-        title: nextPostData.title || "Next Post",
-      };
+    if (currentIndex !== -1 && currentIndex + 1 < fileNames.length) {
+      const nextFile = fileNames[currentIndex + 1];
+      const nextContent = fs.readFileSync(path.join(blogDirectory, nextFile), "utf8");
+      const nextData = matter(nextContent).data;
+      nextPost = { slug: nextFile.replace(/\.md$/, ""), title: nextData.title || "Next Post" };
     }
 
-    return {
-      props: {
-        postData,
-        nextPost,
-      },
-    };
+    return { props: { postData, nextPost } };
   } catch (error) {
     console.error("Error in getStaticProps:", error);
-    return { notFound: true }; 
+    return { notFound: true };
   }
 }
-
 
 export default Blog;

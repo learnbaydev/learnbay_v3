@@ -1481,13 +1481,7 @@ const nextConfig = {
           "/datascience/advance-data-science-certification-courses",
         permanent: true,
       },
-      {
-        source:
-          "/datascience/Vietnam/data-science-course-training-in-Vietnam",
-        destination:
-          "/datascience/vietnam/data-science-course-training-in-vietnam",
-        permanent: false,
-      },
+   
 
       
       {
@@ -1785,7 +1779,7 @@ const nextConfig = {
           "/artificial-intelligence/generative-ai-course-for-data-science-professionals",
         permanent: true,
       },
-    
+      
       
 
 
