@@ -81,7 +81,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
         role: "Cloud Engineer",
         salary: "12.5 LPA",
       },
-      { icon: <PiInfinity />, role: "DevOps Engineer", salary: "7.6 LPA" },
+      { icon: <PiInfinity />, role: "DevOps Engineer", salary: "9.6 LPA" },
       { icon: <BsPersonGear />, role: "Solutions Architect", salary: "27 LPA" },
     ],
     image3:
