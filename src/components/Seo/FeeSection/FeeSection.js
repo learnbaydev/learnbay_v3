@@ -172,7 +172,7 @@ const FeeSection = ({
               <p className={styles.price}>
                 {Fee} <span className={styles.spanText}>+ 18% GST</span>
               </p>
-              <div className={styles.divButton} onClick={openEmiPopup}>
+              <div className={styles.divButton} onClick={popupShow}>
                 <Button className={styles.Btn} text="Check EMI Options" />
               </div>
               <hr

@@ -71,6 +71,9 @@ const FullStackSoftwareDevelopmentSecondPart = ({
         duration2="12 Months"
         totalAmount2="₹45,000"
         monthlyPayment2="₹4,425"
+        dataScienceCounselling={true}
+        iitGuwatiGen={true}
+        interstedInHide={true}
       />
       {/* <FeeSection
         Fee="₹ 70,000"

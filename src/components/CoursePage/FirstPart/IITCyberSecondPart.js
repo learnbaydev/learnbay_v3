@@ -64,6 +64,9 @@ const IITCyberSecondPart = ({
         duration2="12 Months"
         totalAmount2="₹ 1,20,000"
         monthlyPayment2="₹11,800"
+        dataScienceCounselling={true}
+        iitGuwatiGen={true}
+        interstedInHide={true}
       />
 
       <SliderTab />

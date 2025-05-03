@@ -75,6 +75,9 @@ const GenAiMLeadersSecondPart = ({
         duration2="12 Months"
         totalAmount2="₹90,000"
         monthlyPayment2=" ₹8,850"
+        dataScienceCounselling={true}
+        iitGuwatiGen={true}
+        interstedInHide={true}
       />
       {/* <FeeSection
         Fee="₹ 70,000"

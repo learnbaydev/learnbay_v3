@@ -233,6 +233,9 @@ const NewDSA = ({ DSADataJson }) => {
           duration2="12 Months"
           totalAmount2="₹1,23,900"
           monthlyPayment2="₹12,183"
+          dataScienceCounselling={true}
+        iitGuwatiGen={true}
+        interstedInHide={true}
         />
         <ReviewSlider idss="eautK0odE7Q" />
         <MentorsSection />

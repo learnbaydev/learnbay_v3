@@ -78,6 +78,11 @@ const IITCloudDevopsSecondPart = ({
         duration2="12 Months"
         totalAmount2="₹1,10,000"
         monthlyPayment2="₹10,816"
+
+
+        dataScienceCounselling={true}
+        iitGuwatiGen={true}
+        interstedInHide={true}
       />
       {/* <FeeSection
         Fee="₹ 70,000"

@@ -1634,7 +1634,7 @@ const nextConfig = {
       },
       {
         source:
-          "/data-science-course/introduction-to-simple-linear-regression-in-machine-learning/",
+          "/data-science-course/introduction-to-simple-linear-regression-in-machine-learning",
         destination:
           "https://blog.learnbay.co/introduction-to-simple-linear-regression-in-machine-learning",
         permanent: true,
