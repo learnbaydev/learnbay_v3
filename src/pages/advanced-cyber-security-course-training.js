@@ -223,6 +223,9 @@ const CyberSecurityECCouncil = ({ NewCyberSecurityECCouncilDataJson }) => {
           duration2="12 Months"
           totalAmount2="₹70,000"
           monthlyPayment2="₹6,883"
+          dataScienceCounselling={true}
+        iitGuwatiGen={true}
+        interstedInHide={true}
         />
         <ReviewSlider />
         <MentorsSection />

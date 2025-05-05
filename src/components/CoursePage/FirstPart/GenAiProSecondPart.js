@@ -50,6 +50,7 @@ const GenAiProSecondPart = ({
       {/* <NewCertificateSection certificateNew={certificateNew} /> */}
 
       <DSAFeeSection
+      
         Fee="₹ 95,000"
         FeeEmi="₹ 6,228/month"
         weekendbatch="Weekday Evening "
@@ -70,6 +71,10 @@ const GenAiProSecondPart = ({
         duration2="12 Months"
         totalAmount2="₹95,000"
         monthlyPayment2="₹9,342"
+
+        dataScienceCounselling={true}
+        iitGuwatiGen={true}
+        interstedInHide={true}
       />
 
       <SliderTab />

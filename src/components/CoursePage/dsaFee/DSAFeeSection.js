@@ -4,6 +4,7 @@ import Image from "next/image";
 import Emipopup from "../EMIPopup/Emipopup";
 import Modal from "react-modal";
 import { Points } from "@/Data/svgdata/Points";
+import PopupContent from "@/components/Global/PopupContent/PopupContent";
 
 const DSAFeeSection = ({
   weekendbatch,
@@ -26,6 +27,9 @@ const DSAFeeSection = ({
   monthlyPayment2,
   greenDown2,
   isDSAFresher,
+  dataScience,
+  dataScienceCounselling,
+  interstedInHide,
 }) => {
   const [emiPopupIsOpen, setEmiPopupIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -41,6 +45,7 @@ const DSAFeeSection = ({
     setEmiPopupIsOpen(false);
   };
   const [showStickyBanner, setShowStickyBanner] = useState(false);
+    const [popups, setPopups] = useState(false);
   const sentinelRef = useRef(null);
   const point = [<Points />];
 
@@ -91,6 +96,15 @@ const DSAFeeSection = ({
 
   return (
     <section className={styles.main}>
+       <PopupContent
+              popups={popups}
+              setPopups={setPopups}
+              heading="Apply For Counselling"
+              dataScience={dataScience}
+              dataScienceCounselling={dataScienceCounselling}
+              interstedInHide={interstedInHide}
+              upSkillingHide={true}
+            />
       {/* <div className={styles.stickyContainer}> */}
       <h2>Fee & Batch Details </h2>
       <div className={styles.mainContainer}>
@@ -117,7 +131,7 @@ const DSAFeeSection = ({
               <p className={styles.pEmi}>Pay in easy EMIs starting as low as</p>
               <h6>{FeeEmi}</h6>
 
-              <button onClick={openEmiPopup} className={styles.btn}>
+              <button onClick={popupShow} className={styles.btn}>
                 Check EMI Options
               </button>
             </div>

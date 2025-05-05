@@ -1634,7 +1634,7 @@ const nextConfig = {
       },
       {
         source:
-          "/data-science-course/introduction-to-simple-linear-regression-in-machine-learning/",
+          "/data-science-course/introduction-to-simple-linear-regression-in-machine-learning",
         destination:
           "https://blog.learnbay.co/introduction-to-simple-linear-regression-in-machine-learning",
         permanent: true,
@@ -1777,6 +1777,29 @@ const nextConfig = {
           "/datascience/generative-ai-course-for-managers",
         destination:
           "/artificial-intelligence/generative-ai-course-for-data-science-professionals",
+        permanent: true,
+      },
+
+      {
+        source:
+          "/data-science-course/terms-and-conditions",
+        destination:
+          "/terms-conditions",
+        permanent: true,
+      },
+
+      {
+        source:
+          "/data-science-course/data-science-course/contact",
+        destination:
+          "/contact-us",
+        permanent: true,
+      },
+      {
+        source:
+          "/data-science-course-training-in-mumb",
+        destination:
+          "/datascience/mumbai/data-science-course-training-in-mumbai",
         permanent: true,
       },
       
