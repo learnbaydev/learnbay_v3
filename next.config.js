@@ -1779,6 +1779,29 @@ const nextConfig = {
           "/artificial-intelligence/generative-ai-course-for-data-science-professionals",
         permanent: true,
       },
+
+      {
+        source:
+          "/data-science-course/terms-and-conditions",
+        destination:
+          "/terms-conditions",
+        permanent: true,
+      },
+
+      {
+        source:
+          "/data-science-course/data-science-course/contact",
+        destination:
+          "/contact-us",
+        permanent: true,
+      },
+      {
+        source:
+          "/data-science-course-training-in-mumb",
+        destination:
+          "/datascience/mumbai/data-science-course-training-in-mumbai",
+        permanent: true,
+      },
       
       
 
