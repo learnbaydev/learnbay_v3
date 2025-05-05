@@ -86,10 +86,10 @@ const Blog = ({ postData, nextPost }) => {
   return (
     <>
       <Head>
-        <title>{postData.Stitle} | My Blog</title>
-        <meta name="description" content={postData.description || "Default description"} />
+        <title>{postData.Stitle || "Learnbay blogs"}</title>
+        <meta name="description" content={postData.description || "Welcome to Learnbay Blogs"} />
         <meta property="og:title" content={postData.title} />
-        <meta property="og:description" content={postData.description || "Default description"} />
+        <meta property="og:description" content={postData.description || "Welcome to Learnbay Blogs"} />
         <meta name="keywords" content={postData.keywords || "default, keywords"} />
         <meta property="og:image" content={postData.image} />
         <meta name="twitter:card" content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/blogs/blogcover.webp" />

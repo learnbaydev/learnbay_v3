@@ -1802,7 +1802,13 @@ const nextConfig = {
           "/datascience/mumbai/data-science-course-training-in-mumbai",
         permanent: true,
       },
-      
+      {
+        source:
+        "/data-science-course/author/learnbay",
+        destination:
+        "https://blog.learnbay.co/author",
+        permanent:true,
+      }
       
 
 
