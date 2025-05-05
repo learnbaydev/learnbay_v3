@@ -281,6 +281,9 @@ font-weight: 700;
   .blogContainer{
     padding-bottom: 3rem;
   }
+  .blogContent p {
+    font-size: 1.1rem;
+  }
   .metaInfo{
     font-size: 12px;
     gap: 14px;
