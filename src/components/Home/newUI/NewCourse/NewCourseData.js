@@ -287,7 +287,7 @@ export const courses = {
       link: "/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IIT-cloud-devops.pdf",
-      brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/IIT-cloud-devopss.pdf",
+      brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/IIT-cloud-devops.pdf",
     },
     {
       title: "Cloud Computing & DevOps Certification Program",
@@ -793,7 +793,7 @@ export const courses = {
       link: "/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IIT-cloud-devops.pdf",
-      brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/IIT-cloud-devopss.pdf",
+      brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/IIT-cloud-devops.pdf",
     },
     {
       title: "Cloud Computing & DevOps Certification Program",
@@ -914,7 +914,7 @@ export const courses = {
       link: "/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IIT-cloud-devops.pdf",
-      brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/IIT-cloud-devopss.pdf",
+      brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/IIT-cloud-devops.pdf",
     },
   ],
   CyberSecurity: [
