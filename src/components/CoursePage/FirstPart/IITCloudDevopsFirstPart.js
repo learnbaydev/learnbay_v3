@@ -56,7 +56,7 @@ const IITCloudDevopsFirstPart = ({ summaryData, whyChooseData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/IIT-cloud-devopss.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/IIT-cloud-devops.pdf";
   return (
     <div>
       <Navbar
