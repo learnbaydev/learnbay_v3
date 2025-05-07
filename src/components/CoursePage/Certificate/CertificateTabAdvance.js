@@ -227,7 +227,7 @@ function CertificateTab({
                       }}
                       className={IActive ? styles.activeP : styles.inactiveP}
                     >
-                      Microsoft Azure
+            IBM
                     </p>
                     <p
                       onClick={() => {
@@ -238,9 +238,9 @@ function CertificateTab({
                       }}
                       className={MActive ? styles.activeP : styles.inactiveP}
                     >
-                      Devops
+           MicroSoft
                     </p>
-                    <p
+                    {/* <p
                       onClick={() => {
                         setIActive(false);
                         setMActive(false);
@@ -250,7 +250,7 @@ function CertificateTab({
                       className={IBCActive ? styles.activeP : styles.inactiveP}
                     >
                       Microsoft
-                    </p>
+                    </p> */}
                   </div>
                 ) : (
                   <div className={styles.pWrap}>
