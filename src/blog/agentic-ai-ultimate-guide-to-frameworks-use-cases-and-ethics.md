@@ -2,7 +2,7 @@
 title: "A Guide to Agentic AI Frameworks, Use Cases, and Ethical Issues"
 Stitle: "Agentic AI: Ultimate Guide To Frameworks, Use Cases & Ethics"
 description: "Discover Agentic AI: Explore top frameworks, real-world use cases, and ethical challenges. A guide for upskilling and mastering the future of AI."
-keywords: "gentic AI, Agentic AI framework, agentic ai course, What is agentic AI, Agentic AI vs Generative AI, agentic AI architecture, Agentic AI use cases, agentic ai roadmap, Top agentic AI frameworks"
+keywords: "Agentic AI, Agentic AI framework, agentic ai course, What is agentic AI, Agentic AI vs Generative AI, agentic AI architecture, Agentic AI use cases, agentic ai roadmap, Top agentic AI frameworks"
 date: "14-04-2025"
 author: "Sonalisha Mohanty"
 readTime: "4.5 min"
@@ -63,7 +63,7 @@ Microsoft presents an open-source Agentic AI framework termed ‘AutoGen’. It 
 ### LangGraph
 
 Agentic AI is introduced to LangGraph, a well-known framework for managing stateful workflows. It creates a graph-based architecture, including various steps with logical flows, and manages interdependencies.
-
+                                                                                                                                                                                                                
 <b>Core features:</b>
 
 - A platform to have a graph-based workflow handling
