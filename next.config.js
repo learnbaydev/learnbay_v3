@@ -1806,7 +1806,7 @@ const nextConfig = {
         source:
         "/data-science-course/author/learnbay",
         destination:
-        "https://blog.learnbay.co/author",
+        "/",
         permanent:true,
       }
       

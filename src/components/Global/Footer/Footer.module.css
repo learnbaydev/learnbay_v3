@@ -77,18 +77,30 @@
     color: #fff;
     background-color: #313131;
     border: 1px solid #fff;
-    padding: 5px 15px;
+    padding: 8px 15px;
     margin-bottom: 15px;
     display: flex;
     align-items: center;
     width: fit-content;
+    margin-top: 10px;
+    border-radius: 4px;
   }
 }
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
 
 @media (min-width: 1279px) and (max-width: 1282px) {
   .FooterSection {
     padding: 30px;
   }
+
+  
 }
 
 @media (max-width: 641px) {
@@ -159,6 +171,14 @@
     border: 1px solid #fff;
     padding: 5px 15px;
     margin-bottom: 15px;
+  
+  }
+  .visible {
+    display: block;
+  }
+  
+  .hidden {
+    display: none;
   }
 }
 

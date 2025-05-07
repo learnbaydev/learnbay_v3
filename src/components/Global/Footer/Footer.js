@@ -69,9 +69,9 @@ const Footer = ({
             <b>
               <Link href="/data-science-courses">data science courses</Link>
             </b>
-            ,DSA & System designing or full stack development courses. Master the
-            most demanding skills of job market and experience and ever growing
-            and lucrative career transformation.
+            ,DSA & System designing or full stack development courses. Master
+            the most demanding skills of job market and experience and ever
+            growing and lucrative career transformation.
           </p>
           {iconnolink ? (
             <div className={styles.FooterSocial}>
@@ -323,7 +323,9 @@ const Footer = ({
               </button>
             </div>
           </div>
-          {read ? (
+
+          {/* condiltion renderingg/ */}
+          {/* {read ? (
             <>
               {CityFooterData.map((data, index) => {
                 return (
@@ -361,7 +363,34 @@ const Footer = ({
             </>
           ) : (
             ""
-          )}
+          )} */}
+
+          <>
+            {/* Always render this content, just hide/show using CSS */}
+            <div className={`${read ? styles.visible : styles.hidden}`}>
+              {CityFooterData.map((data, index) => (
+                <div
+                  className={styles.FooterDiv}
+                  key={index}
+                  style={{
+                    borderBottom: "1px solid",
+                    borderColor: "#ffffff50",
+                  }}
+                >
+                  {data.FirstDiv.map((cityData, i) => (
+                    <div className={styles.FooterDivInner} key={i}>
+                      <p className={styles.FooterInnerP}>{cityData.city}</p>
+                      {cityData.cityData.map((city) => (
+                        <Link href={city.url} key={city.name}>
+                          <p className={styles.FooterInnerli}>{city.name}</p>
+                        </Link>
+                      ))}
+                    </div>
+                  ))}
+                </div>
+              ))}
+            </div>
+          </>
         </>
       )}
       <div className={styles.FooterBottom}>
