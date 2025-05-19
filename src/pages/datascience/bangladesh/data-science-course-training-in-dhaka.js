@@ -81,7 +81,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Top online data science certification course in Bangladesh. Gain practical skills, hands-on experience, and industry recognition with Learnbay's program.          "
+          content="Join the best online data science course in Dhaka. Master real-world skills, work on live projects & earn a globally recognized certificate with Learnbay. "
         />
         <meta
           name="keywords"
@@ -99,7 +99,7 @@ export default function Home() {
         <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Data science course in bangladesh. Learnbay is Advanced Data Science Course Training Institute in bangladesh. Data science course in bangladesh will enhance your career"
+          content="Join the best online data science course in Dhaka. Master real-world skills, work on live projects & earn a globally recognized certificate with Learnbay."
         />
         <meta
           property="og:image"
@@ -116,11 +116,11 @@ export default function Home() {
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           itemProp="description"
-          content="Data science course in Dhaka. Learnbay is Advanced Data Science Course Training Institute in Dhaka. Data science course in Dhaka will enhance your career"
+          content="Join the best online data science course in Dhaka. Master real-world skills, work on live projects & earn a globally recognized certificate with Learnbay.Join the best online data science course in Dhaka. Master real-world skills, work on live projects & earn a globally recognized certificate with Learnbay."
         />
         <meta
           name="twitter:description"
-          content="Data science course in Dhaka. Learnbay is Advanced Data Science Course Training Institute in Dhaka. Data science course in Dhaka will enhance your career"
+          content="Join the best online data science course in Dhaka. Master real-world skills, work on live projects & earn a globally recognized certificate with Learnbay."
         />
         <meta
           name="twitter:image"
