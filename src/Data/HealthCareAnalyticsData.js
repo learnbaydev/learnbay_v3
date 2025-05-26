@@ -263,13 +263,13 @@ export const HealthcareDataScienceCourseData = [
       {
         id: 3,
         topnav: "Project Certificate",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Certification-min.webp",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp",
         width: 300,
         height: 270,
-        title: "Capstone Project Certificate from IBM",
+        title: "Capstone Project Certificate from Renowened Industry",
         para: [
-          "Globally recognized IBM certification based on industrial-level projects.",
-          "Earn an industry recognized Capstone project certification from IBM.",
+          "Globally recognized Renowened Industry certification based on industrial-level projects.",
+          "Earn an industry recognized Capstone project certification from Renowened Industry.",
           "Individualized project experience with easy access to premium job opportunities.",
         ],
       },

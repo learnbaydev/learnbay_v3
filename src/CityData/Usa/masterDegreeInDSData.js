@@ -303,7 +303,7 @@ export const masterdegreeUSACourseData = [
           {
             id: 0,
             ques: "Could you provide more information about the capstone project or real-time projects included in the program for MS in Data Science in the USA?            ",
-            ans: `Learners joining the MS in data science course in the USA will gain exclusive learning scope via capstone projects. Here, learners can choose one domain specialization per their career interests and work on three capstone projects. The projects will relate to the leading industries – BFSI, Healthcare, HR, Marketing, Supply Chain, and Manufacturing. At last, learners in the USA will receive one capstone project certificate from IBM with alluring career gains.             `,
+            ans: `Learners joining the MS in data science course in the USA will gain exclusive learning scope via capstone projects. Here, learners can choose one domain specialization per their career interests and work on three capstone projects. The projects will relate to the leading industries – BFSI, Healthcare, HR, Marketing, Supply Chain, and Manufacturing. At last, learners in the USA will receive one Capstone Project Certificate from Renowened Industry with alluring career gains.             `,
 
             open: true,
           },

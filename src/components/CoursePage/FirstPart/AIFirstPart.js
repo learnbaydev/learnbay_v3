@@ -128,7 +128,7 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
     },
   };
 
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Advance-AI-ML.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Advance-AI-ML-v1.pdf";
   return (
     <>
       <Navbar dataScienceCounselling={true} interstedInHide={true} />

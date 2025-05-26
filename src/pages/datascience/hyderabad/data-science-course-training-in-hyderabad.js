@@ -36,7 +36,7 @@ export default function Home() {
   const [popups, setPopups] = useState(false);
 
 
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Advanced-Data-Science.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Advanced-Data-Sciences.pdf";
   return (
     <div className={styles.container}>
       <Head>
