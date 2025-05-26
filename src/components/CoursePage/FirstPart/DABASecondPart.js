@@ -79,7 +79,7 @@ const DABASecondPart = ({
     fetchPopup();
   }, []);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/DA_BA.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/DA-BA-v1.pdf";
   return (
     <div>
       <LJourney />

@@ -159,7 +159,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         idss="rZVkXvgW9gk"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/managers+and+leaders-min.webp"
         videoId="osYNvuuI1_8"
-        brochurePdf="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-science-ai-for-managers.pdf"
+        brochurePdf="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-science-ai-for-managers-v1.pdf"
       />
       <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={DsSecond} />
@@ -172,7 +172,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         interstedInHide={true}
         dataScience={true}
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
-        brochurePdf="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-science-ai-for-managers.pdf"
+        brochurePdf="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-science-ai-for-managers-v1.pdf"
         titleCourse="Data Science & AI Certification Program For Managers and Leaders"
       />
       <WhoProgram
@@ -197,7 +197,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         interstedInHide={true}
         titleCourse="Data Science & AI Certification Program For Managers and Leaders"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
-        brochurePdf="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-science-ai-for-managers.pdf"
+        brochurePdf="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-science-ai-for-managers-v1.pdf"
       />
     </>
   );

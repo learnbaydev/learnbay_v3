@@ -436,7 +436,7 @@ function WhyLearnbay({
                   />
                 ) : (
                   <Image
-                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Certification-min.webp"
+                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp"
                     loading="lazy"
                     width="350"
                     height="212"

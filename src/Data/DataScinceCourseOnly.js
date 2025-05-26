@@ -216,10 +216,10 @@ export const DataScienceCourseData = [
       },
       projectCertificate: {
         id: 3,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Certification-min.webp",
-        title: "Capstone Project Certificate from IBM",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp",
+        title: "Capstone Project Certificate from Renowened Industry",
         para: [
-          "Globally recognized IBM certification based on industrial-level projects.",
+          "Globally recognized Renowened Industry certification based on industrial-level projects.",
           "Earn 1 capstone project certification from IBM.",
           "Individualized project experience with easy access to premium job opportunities.",
         ],

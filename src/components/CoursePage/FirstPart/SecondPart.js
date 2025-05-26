@@ -54,7 +54,7 @@ const SecondPart = ({
   // };
   // console.log(popupData);
 
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Advanced-Data-Science.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Advanced-Data-Sciences.pdf";
   return (
     <div>
       <LJourney />

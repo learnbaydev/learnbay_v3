@@ -4135,7 +4135,7 @@ function DataAnalytics({
                 <ul>
                   <li>•One Course Completion Certificate from IBM</li>
                   <li>• One Azure AI Certificate from Microsoft</li>
-                  <li>• One Capstone Project Certificate from IBM</li>
+                  <li>• One Capstone Project Certificate from Renowened Industry</li>
                 </ul>
               </p>
               <h4 style={{ fontSize: "20px" }}>

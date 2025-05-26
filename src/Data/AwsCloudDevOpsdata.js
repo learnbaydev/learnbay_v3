@@ -767,7 +767,7 @@ export const AwsAndDevOpsCourseData = [
           {
             id: 2,
             ques: "What type of certification do I receive upon course completion?            ",
-            ans: ` Upon course completion, you will receive two certificates from IBM & Microsoft and a Capstone Project Certificate from IBM.               `,
+            ans: ` Upon course completion, you will receive two certificates from IBM & Microsoft and a Capstone Project Certificate from Renowened Industry.               `,
             open: false,
           },
           {

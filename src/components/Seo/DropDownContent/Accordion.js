@@ -375,7 +375,7 @@ const Accordion = () => {
           </p>
           <br />
           <Image
-            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Certification-min.webp"
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp"
             width={400}
             height={300}
             alt="certificate"

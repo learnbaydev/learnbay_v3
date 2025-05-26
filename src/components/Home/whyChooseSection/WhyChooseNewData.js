@@ -75,8 +75,9 @@ const whyChooseData = [
       "Master data science & AI by working on 100+ real-world projects with expert guidance.",
     subItems: [
       {
-        ibmLogo:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
+        // ibmLogo:
+          // "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
+         newTxt: "Renowened Industry",
         text: "Get project Certification from:",
         width: "70",
         height: "40",

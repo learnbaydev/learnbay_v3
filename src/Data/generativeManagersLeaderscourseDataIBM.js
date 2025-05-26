@@ -684,10 +684,10 @@ export const GENAIManagersLeadersCourseDataIBM = [
       },
       projectCertificate: {
         id: 3,
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Certification-min.webp",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp",
         title: "Capstone Project Certificate from Learnbay",
         para: [
-          "Globally recognized IBM certification based on industrial-level projects.",
+          "Globally recognized Renowened Industry certification based on industrial-level projects.",
           "Earn 1 capstone project certification from Learnbay.",
           "Individualized project experience with easy access to premium job opportunities.",
         ],

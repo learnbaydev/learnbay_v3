@@ -171,15 +171,17 @@ function AnimationNew() {
                     {/* Then the text */}
                     <div className={styles.leftText}>
                       <p>{item.subItems[0].text}</p>
+         
                     </div>
-                    <div className={styles.imageSection}>
-                      <Image
+                    <div >
+                      {/* <Image
                         src={item.subItems[0].ibmLogo}
                         alt="IBM Logo"
                         width={item.subItems[0].width}
                         height={item.subItems[0].height}
                         loading="lazy"
-                      />
+                      /> */}
+             <p className={styles.renowed}>{item.subItems[0].newTxt}</p>
                     </div>
                   </div>
                 ) : (
