@@ -111,7 +111,7 @@ export const courses = {
     //     certification: "Global Certification",
     //     description: "Designed by industry experts",
     //     image:
-    //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cloud_cardss.webp",
+    //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws.webp",
 
     //     link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
     //     brochureLinks:
@@ -163,7 +163,7 @@ export const courses = {
     //   certification: "Project Certification form IBM",
     //   description: "Designed by industry experts",
     //   image:
-    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AWS_cardsss.webp",
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws2.webp",
 
     //   link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
     //   brochureLinks:
@@ -295,7 +295,7 @@ export const courses = {
       certification: "Global Certification",
       description: "Designed by industry experts",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cloud_cardss.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws.webp",
       link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf",
@@ -307,7 +307,7 @@ export const courses = {
       certification: "Project Certification form IBM",
       description: "Designed by industry experts",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AWS_cardsss.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws2.webp",
       link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
@@ -476,7 +476,7 @@ export const courses = {
       certification: "Global Certification",
       description: "Designed by industry experts",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cloud_cardss.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws.webp",
 
       link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
       brochureLinks:
@@ -567,7 +567,7 @@ export const courses = {
       certification: "Project Certification form IBM",
       description: "Designed by industry experts",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AWS_cardsss.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws2.webp",
 
       link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
       brochureLinks:
@@ -801,7 +801,7 @@ export const courses = {
       certification: "Global Certification",
       description: "Designed by industry experts",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cloud_cardss.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws.webp",
 
       link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
       brochureLinks:
@@ -815,7 +815,7 @@ export const courses = {
       certification: "Project Certification form IBM",
       description: "Designed by industry experts",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AWS_cardsss.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws2.webp",
 
       link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
       brochureLinks:
@@ -928,7 +928,7 @@ export const courses = {
       link: "/cyber-security/executive-program-in-cyber-security-and-ethical-hacking-by-iit-roorkee",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cyber-Security-IIT.pdf",
-      brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/cybers-Security-IIT.pdf",
+      brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cyberss-Security-IITs.pdf",
     },
   ],
   manager: [
