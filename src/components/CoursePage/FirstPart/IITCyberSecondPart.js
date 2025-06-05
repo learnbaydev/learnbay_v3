@@ -25,7 +25,7 @@ const IITCyberSecondPart = ({
   toolsData,
   CertificateData,
 }) => {
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/cybers-Security-IIT.pdf";
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cyberss-Security-IITs.pdf";
   return (
     <div>
       <LJourney />

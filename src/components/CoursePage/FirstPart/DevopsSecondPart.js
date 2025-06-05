@@ -4,6 +4,7 @@ import SeventhSection from "@/components/Global/SeventhSection/SeventhSection";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
+import DSAFeeSection from "../dsaFee/DSAFeeSection";
 const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
 const Certificate = dynamic(() =>
@@ -90,7 +91,7 @@ const SecondPart = ({
       />
       <ToolsCovered devops={true} mbldevops={mbldevops} />
       <Certificate data={CertificateData} />
-      <FeeSection
+      <DSAFeeSection
         devopfee={devopfee}
         adsHide={adsHide}
         Fee=" ₹ 80,000"
