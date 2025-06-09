@@ -4,6 +4,7 @@ import { useMediaQuery } from "react-responsive";
 
 // Dynamic imports
 import FirstSection from "@/components/Home/FirstSection/FirstSection";
+import HeroSection from "@/components/homeNew/HeroSecation/HeroSection";
 const BottomBar = dynamic(() =>
   import("@/components/Global/BottomBar/BottomBar")
 );
@@ -363,6 +364,8 @@ export default function Home() {
         />
       </Head>
       <Navbar radio={true} dataScienceCounselling={true} />
+
+      <HeroSection />
       <FirstSection
         dataScienceCounselling={true}
         radio={true}
