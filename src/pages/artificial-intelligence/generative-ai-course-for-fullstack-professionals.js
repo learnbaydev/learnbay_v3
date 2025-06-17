@@ -3,6 +3,7 @@ import Head from "next/head";
 import { parseJSONData } from "@/Util/JsonConvertor";
 import GenAiProFirstPart from "@/components/CoursePage/FirstPart/GenAiProFirstPart";
 import GenAiProSecondPart from "@/components/CoursePage/FirstPart/GenAiProSecondPart";
+import GenAiSchemaHead from "@/components/Schemas/GenAiSchemaHead";
 
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
@@ -106,7 +107,47 @@ function Blockchain({ DataScienceCourseDataJson }) {
           name="twitter:image"
           content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
         />
+         <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "http://schema.org",
+            "@type": "Course",
+            "name": "GenAI Developer Certification for Professionals",
+            "description":
+              "Join Learnbay’s Advanced Gen AI Developer Course. Build AI solutions, gain hands-on experience, and advance your career in AI. Enroll today.",
+            "url":
+              "https://www.learnbay.co/artificial-intelligence/generative-ai-course-for-fullstack-professional",
+            "offers": {
+              "@type": "Offer",
+              "price": 95000,
+              "priceCurrency": "INR",
+              "category": "Educational"
+            },
+            "provider": {
+              "@type": "Organization",
+              "name": "Learnbay",
+              "url": "https://www.learnbay.co/"
+            },
+            "coursePrerequisites":
+              "You should have knowledge of Python, Machine Learning, & basic Deep Learning. If you don’t have these skills, you can first complete our foundation program before joining this course.",
+            "hasCourseInstance": [
+              {
+                "@type": "CourseInstance",
+                "courseMode": "Online",
+                "courseWorkload": "P13W",
+                "courseFee": {
+                  "@type": "PriceSpecification",
+                  "price": 95000,
+                  "priceCurrency": "INR"
+                }
+              }
+            ]
+          })
+        }}
+      />
 
+<GenAiSchemaHead />
         {/* <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{
