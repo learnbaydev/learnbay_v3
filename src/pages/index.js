@@ -4,7 +4,12 @@ import { useMediaQuery } from "react-responsive";
 
 // Dynamic imports
 import FirstSection from "@/components/Home/FirstSection/FirstSection";
-import HeroSection from "@/components/homeNew/HeroSecation/HeroSection";
+import HeroSection from "../components/HomeNew/HeroSecation/HeroSection";
+import PartnersSlider from "@/components/HomeNew/PartnerSlides/Partner";
+import ProgramSection from "@/components/HomeNew/ProgramSection/ProgramSection";
+import TabsCard from "@/components/HomeNew/TabsCard/TabsCard";
+import NewUpSkill from "@/components/HomeNew/newUpskill/NewUpSkill";
+import RealWorld from "@/components/HomeNew/RealWorld/RealWorld";
 const BottomBar = dynamic(() =>
   import("@/components/Global/BottomBar/BottomBar")
 );
@@ -365,12 +370,17 @@ export default function Home() {
       </Head>
       <Navbar radio={true} dataScienceCounselling={true} />
 
-      <HeroSection />
-      <FirstSection
+      <HeroSection/>
+      <PartnersSlider/>
+      <ProgramSection/>
+      <TabsCard  dataScience={true} radio={true} />
+      <NewUpSkill/>
+      <RealWorld/>
+      {/* <FirstSection
         dataScienceCounselling={true}
         radio={true}
         idss="ZPOTy4PEnNU"
-      />
+      /> */}
       <InfinityLogo />
       <KickStart />
       <NewCourse dataScience={true} radio={true}  />

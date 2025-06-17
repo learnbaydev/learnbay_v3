@@ -1,8 +1,10 @@
 import { useToast } from "../../../Hooks/use-toast";
-import CallbackButton from "./CallbackButton";
-import DownloadButton from "./DownloadButton";
-import StepCard from "./StepCard";
+import CallbackButton from "./StepCard/Buttons/CallbackButton";
+import DownloadButton from "./StepCard/Buttons/DownloadButton";
+
+import StepCard from "./StepCard/StepCard";
 import styles from "./HeroSection.module.css";
+
 import {
   Brain,
   Code2,
@@ -17,6 +19,7 @@ import {
   TrendingUp,
   Shield,
   Award,
+  
 } from "lucide-react";
 import React from "react";
 
@@ -104,8 +107,8 @@ export default function HeroSection() {
 
             {/* CTA Buttons */}
             <div className={styles.buttonGroup}>
-              <CallbackButton toast={toast} />
-              <DownloadButton toast={toast} />
+              <CallbackButton toast={toast} dataScienceCounselling={true}  radio={true}/>
+              <DownloadButton toast={toast} dataScienceCounselling={true} radio={true}/>
             </div>
           </div>
 
