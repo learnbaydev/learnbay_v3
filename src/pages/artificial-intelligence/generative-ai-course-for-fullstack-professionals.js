@@ -3,7 +3,6 @@ import Head from "next/head";
 import { parseJSONData } from "@/Util/JsonConvertor";
 import GenAiProFirstPart from "@/components/CoursePage/FirstPart/GenAiProFirstPart";
 import GenAiProSecondPart from "@/components/CoursePage/FirstPart/GenAiProSecondPart";
-import GenAiSchemaHead from "@/components/Schemas/GenAiSchemaHead";
 
 function Blockchain({ DataScienceCourseDataJson }) {
   const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
@@ -147,7 +146,6 @@ function Blockchain({ DataScienceCourseDataJson }) {
         }}
       />
 
-<GenAiSchemaHead />
         {/* <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{
