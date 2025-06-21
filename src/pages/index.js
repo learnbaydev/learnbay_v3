@@ -10,6 +10,8 @@ import ProgramSection from "@/components/HomeNew/ProgramSection/ProgramSection";
 import TabsCard from "@/components/HomeNew/TabsCard/TabsCard";
 import NewUpSkill from "@/components/HomeNew/newUpskill/NewUpSkill";
 import RealWorld from "@/components/HomeNew/RealWorld/RealWorld";
+import HandsOn from "@/components/HomeNew/HandsOn/HandsOn";
+import RealPeople from "@/components/HomeNew/RealPeople/RealPeople";
 const BottomBar = dynamic(() =>
   import("@/components/Global/BottomBar/BottomBar")
 );
@@ -381,6 +383,8 @@ export default function Home() {
         radio={true}
         idss="ZPOTy4PEnNU"
       /> */}
+      <HandsOn/>
+      <RealPeople/>
       <InfinityLogo />
       <KickStart />
       <NewCourse dataScience={true} radio={true}  />
