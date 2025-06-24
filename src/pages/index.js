@@ -4,14 +4,14 @@ import { useMediaQuery } from "react-responsive";
 
 // Dynamic imports
 import FirstSection from "@/components/Home/FirstSection/FirstSection";
-import HeroSection from "../components/HomeNew/HeroSecation/HeroSection";
-import PartnersSlider from "@/components/HomeNew/PartnerSlides/Partner";
-import ProgramSection from "@/components/HomeNew/ProgramSection/ProgramSection";
-import TabsCard from "@/components/HomeNew/TabsCard/TabsCard";
-import NewUpSkill from "@/components/HomeNew/newUpskill/NewUpSkill";
-import RealWorld from "@/components/HomeNew/RealWorld/RealWorld";
-import HandsOn from "@/components/HomeNew/HandsOn/HandsOn";
-import RealPeople from "@/components/HomeNew/RealPeople/RealPeople";
+// import HeroSection from "../components/HomeNew/HeroSecation/HeroSection";
+// import PartnersSlider from "@/components/HomeNew/PartnerSlides/Partner";
+// import ProgramSection from "@/components/HomeNew/ProgramSection/ProgramSection";
+// import TabsCard from "@/components/HomeNew/TabsCard/TabsCard";
+// import NewUpSkill from "@/components/HomeNew/newUpskill/NewUpSkill";
+// import RealWorld from "@/components/HomeNew/RealWorld/RealWorld";
+// import HandsOn from "@/components/HomeNew/HandsOn/HandsOn";
+// import RealPeople from "@/components/HomeNew/RealPeople/RealPeople";
 const BottomBar = dynamic(() =>
   import("@/components/Global/BottomBar/BottomBar")
 );
@@ -372,22 +372,22 @@ export default function Home() {
       </Head>
       <Navbar radio={true} dataScienceCounselling={true} />
 
-      <HeroSection/>
-      <PartnersSlider/>
-      <ProgramSection/>
-      <TabsCard  dataScience={true} radio={true} />
-      <NewUpSkill/>
-      <RealWorld/>
+      <HeroSection />
+      <PartnersSlider />
+      <ProgramSection />
+      <TabsCard dataScience={true} radio={true} />
+      <NewUpSkill />
+      <RealWorld />
       {/* <FirstSection
         dataScienceCounselling={true}
         radio={true}
         idss="ZPOTy4PEnNU"
       /> */}
-      <HandsOn/>
-      <RealPeople/>
+      {/* <HandsOn />
+      <RealPeople />
       <InfinityLogo />
       <KickStart />
-      <NewCourse dataScience={true} radio={true}  />
+      <NewCourse dataScience={true} radio={true} />
 
       <AnimationNew />
       <ReviewSlider idss="eautK0odE7Q" />
@@ -398,7 +398,7 @@ export default function Home() {
 
       <MobileTestimonial radio={true} dataScienceCounselling={true} />
       <Media projectData={data} />
-      <NewSevenSection radio={true} dataScienceCounselling={true} />
+      <NewSevenSection radio={true} dataScienceCounselling={true} /> */}
 
       <Footer />
       <WhatsappFloat chat360code1={true} />
