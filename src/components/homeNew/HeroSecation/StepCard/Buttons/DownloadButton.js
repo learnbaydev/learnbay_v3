@@ -22,23 +22,17 @@ export default function DownloadButton({
   const popupShow = () => {
     setPopups(true);
   };
+  const scrollToCourseSection = () => {
+    const section = document.getElementById("course-section");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <>
-      <PopupContent
-        dataScience={dataScience}
-        radio={radio}
-        dataScienceCounselling={dataScienceCounselling}
-        dataScienceGeneric={dataScienceGeneric}
-        popups={popups}
-        setPopups={setPopups}
-        interstedInHide={interstedInHide}
-        idss={idss}
-        btnHide={btnHide}
-        heading="Apply For Counselling"
-      />
       <button
-        onClick={popupShow}
+        onClick={scrollToCourseSection}
         disabled={loading}
         className={`${styles.button} ${styles.downloadButton}`}
       >

@@ -20,11 +20,11 @@ const ProgramSection = () => {
     <div className={styles.programSectionWrapper}>
       <section className={`${styles.section} width`}>
         <div className={styles.header}>
-          <h2 className={styles.heading}>Popular Courses</h2>
+          <h2 className={styles.heading}>Project Based Certification Track</h2>
           <p className={styles.subheading}>
-            Choose from our project-based programs
+            Master in-demand skills through industry certified programs.
           </p>
-          {/* <div className={styles.badgesContainer}>
+          <div className={styles.badgesContainer}>
             <div className={`${styles.badge} ${styles.orange}`}>
               <Award className={styles.icon} />
               <span>Top-Rated Program</span>
@@ -37,7 +37,7 @@ const ProgramSection = () => {
               <Brain className={styles.icon} />
               <span>Domain Specialization</span>
             </div>
-          </div> */}
+          </div>
         </div>
 
         <div className={styles.mainContent}>

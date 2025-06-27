@@ -22,7 +22,7 @@
 .heading {
   font-size: 2.25rem;
   font-weight: 800;
-  background:linear-gradient(90deg, #0881FD 59%, #4655D3 74%);
+  background:linear-gradient(10deg, #0881FD 39%, #4655D3 63%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -554,4 +554,15 @@ border-radius: 12px;
  .applyButton{
   padding: 0.75rem 30px;
  }
+}
+@media (max-width: 401px) {
+  .card{
+    width: min-content;
+  }
+  .brochureButton{
+    padding: 0.75rem 7px;
+  }
+  .green{
+    width: 23rem;
+  }
 }
