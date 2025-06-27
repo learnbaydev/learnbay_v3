@@ -1,8 +1,7 @@
 .conteiner {
-
   border-radius: 40px;
   background: #e5f1f8;
-  margin:80px auto;
+  margin: 80px auto;
   padding: 36px 0;
 }
 .conteiner h2 {
@@ -48,7 +47,7 @@
   display: flex;
   border-radius: 16px;
   background: #fff;
-  padding:0 10px;
+  padding: 0 10px;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -99,7 +98,7 @@
   display: flex;
   border-radius: 16px;
   background: #fff;
-  padding:0 10px;
+  padding: 0 10px;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -131,39 +130,32 @@
   display: none;
 }
 
-.cards{
+.cards {
   padding-right: 22px;
 }
-.cardsDown{
+.cardsDown {
   padding-right: 22px;
 }
-.Desktoponly span{
+.Desktoponly span {
   color: #0383ff;
 }
 
-
 @media screen and (max-width: 1281px) {
-
-  .cards{
+  .cards {
     padding-right: 22px;
   }
-  .cardsDown{
+  .cardsDown {
     padding-right: 22px;
   }
-  .Desktoponly span{
+  .Desktoponly span {
     color: #0383ff;
   }
 }
 
-
 @media screen and (max-width: 980px) {
- 
   .cards {
     margin: 18px 20px;
   }
-
-
-
 }
 
 @media screen and (max-width: 861px) {
@@ -174,17 +166,13 @@
   .conteiner h2 {
     font-size: 27px;
   }
- .cardsDown p {
+  .cardsDown p {
     font-size: 14px;
   }
-  .cards p{
+  .cards p {
     font-size: 14px;
   }
-
-  
-
 }
-
 
 @media screen and (max-width: 641px) {
   .conteiner {
@@ -192,7 +180,6 @@
     padding: 20px 0 40px 0;
     margin: 20px 0;
     max-width: 100%;
-
   }
 
   .section {
@@ -230,10 +217,9 @@
     line-height: 126.5%; /* 20.24px */
   }
 
-  .topDiv{
+  .topDiv {
     margin-top: 20px;
   }
-
 
   .cards p {
     font-size: 15px;
@@ -263,26 +249,23 @@
     animation: slideDown 4s linear infinite;
   }
   .sliderInner {
-
     animation: slide 8s linear infinite;
   }
-  
 }
 
-@media screen and (max-width:481px) {
-  .section{
-    padding: 30px;
+@media screen and (max-width: 481px) {
+  .section {
+    padding: 0 30px 30px 30px;
     margin: 0;
     width: 100%;
   }
 }
 
-@media screen and (max-width:361px) {
-.mblonly h2 {
-  font-size: 22px;
-}
-.mblonly p {
-  font-size: 12px;
-}
-
+@media screen and (max-width: 361px) {
+  .mblonly h2 {
+    font-size: 22px;
+  }
+  .mblonly p {
+    font-size: 12px;
+  }
 }

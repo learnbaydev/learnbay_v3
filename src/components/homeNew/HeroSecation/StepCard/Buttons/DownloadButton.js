@@ -42,12 +42,12 @@ export default function DownloadButton({
         disabled={loading}
         className={`${styles.button} ${styles.downloadButton}`}
       >
-        {loading ? (
+        {/* {loading ? (
           <Loader2 className={`${styles.icon} ${styles.spin}`} />
         ) : (
           <Download className={styles.icon} />
-        )}
-        Download Career Roadmap
+        )} */}
+        Explore Courses
       </button>
     </>
   );
