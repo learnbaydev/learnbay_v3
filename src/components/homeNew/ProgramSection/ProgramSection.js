@@ -14,7 +14,8 @@ import { programCards } from "./programData";
 
 const ProgramSection = () => {
   const [showAll, setShowAll] = useState(false);
-  const displayedCards = showAll ? programCards : programCards.slice(0, 3);
+  // const displayedCards = showAll ? programCards : programCards.slice(0, 3);
+  const displayedCards = programCards;
 
   return (
     <div className={styles.programSectionWrapper}>
@@ -191,7 +192,7 @@ const ProgramSection = () => {
           </div>
         </div>
 
-        {programCards.length > 3 && (
+        {/* {programCards.length > 3 && (
           <div className={styles.viewMoreContainer}>
             <button
               onClick={() => setShowAll((prev) => !prev)}
@@ -200,7 +201,7 @@ const ProgramSection = () => {
               {showAll ? "View Less" : "View More Programs"}
             </button>
           </div>
-        )}
+        )} */}
       </section>
     </div>
   );

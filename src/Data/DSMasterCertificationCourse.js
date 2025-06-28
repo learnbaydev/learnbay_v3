@@ -233,7 +233,21 @@ export const DataScienceCourseData = [
           "Individualized project experience with easy access to premium job opportunities.",
         ],
       },
+      {
+        id: 4,
+        topnav: "Gen-AI Certificate",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/certificategenai+1.webp",
+        width: 300,
+        height: 270,
+        title: "Certification from IBM in Generative AI",
+        para: [
+          "Globally recognized certification directly from IBM.",
+          " Expertise in IBM Watsonx and GenAI frameworks.",
+          "Enhance your AI profile for leading tech employers worldwide.",
+        ],
+      },
     ],
+    Admission: [{ Title: "Book Your Demo Class Now!" }],
     masterSyllabusMobile: [
       {
         Module0: {
