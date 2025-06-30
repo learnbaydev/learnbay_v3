@@ -377,7 +377,9 @@ export default function Home() {
       {/* <PartnersSlider /> */}
       <ProgramSection />
       <KickStart />
-      <NewCourse dataScience={true} radio={true} />
+      <div id="course-section">
+        <NewCourse dataScience={true} radio={true} />
+      </div>
       <AnimationNew />
       <ReviewSlider idss="eautK0odE7Q" />
       <ContactUs dataScienceCounselling={true} radio={true} />

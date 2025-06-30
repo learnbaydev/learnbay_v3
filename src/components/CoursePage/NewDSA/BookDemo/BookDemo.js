@@ -4,7 +4,13 @@ import Image from "next/image";
 import PopupContent from "@/components/Global/PopupContent/PopupContent";
 import Button from "@/components/Global/Button/Button";
 
-const BookDemo = ({ interstedInHide, dataScienceCounselling }) => {
+const BookDemo = ({
+  interstedInHide,
+  dataScienceCounselling,
+  Admission,
+  Content,
+  greenButton,
+}) => {
   const [popups, setPopups] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const [connectorDimensions, setConnectorDimensions] = useState({
@@ -105,13 +111,9 @@ const BookDemo = ({ interstedInHide, dataScienceCounselling }) => {
       <div className="width">
         <div className={styles.contentsWrapper}>
           <div className={styles.leftSection}>
-            <h2>Book Your Demo Class Now!</h2>
+            <h2>{Admission}</h2>
             <div className={styles.leftSectionDescription}>
-              <p>
-                The demo session provides an overview of our Data Structures,
-                Algorithms, and System Design Program.
-              </p>
-              <p>It’s an opportunity to understand the :</p>
+              <p>{Content}</p>
             </div>
             <div className={styles.demoPointsWrapper}>
               {!isMobile && (
@@ -138,7 +140,13 @@ const BookDemo = ({ interstedInHide, dataScienceCounselling }) => {
                 </div>
               )}
               <div className={styles.demoPoint}>
-                <div className={styles.PathStepsImg}>
+                <div
+                  className={
+                    greenButton
+                      ? styles.PathStepsImg
+                      : styles.PathStepsImgViolet
+                  }
+                >
                   <Image
                     src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/PathSteps.webp"
                     width={40}
@@ -152,7 +160,13 @@ const BookDemo = ({ interstedInHide, dataScienceCounselling }) => {
                 </div>
               </div>
               <div className={styles.demoPoint}>
-                <div className={styles.ClassroomImg}>
+                <div
+                  className={
+                    greenButton
+                      ? styles.ClassroomImg
+                      : styles.PathStepsImgViolet
+                  }
+                >
                   <Image
                     src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Classroom.webp"
                     width={40}
@@ -166,7 +180,13 @@ const BookDemo = ({ interstedInHide, dataScienceCounselling }) => {
                 </div>
               </div>
               <div className={styles.demoPoint}>
-                <div className={styles.LaptopCodingImg}>
+                <div
+                  className={
+                    greenButton
+                      ? styles.LaptopCodingImg
+                      : styles.PathStepsImgViolet
+                  }
+                >
                   <Image
                     src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/LaptopCoding.webp"
                     width={40}
@@ -182,7 +202,15 @@ const BookDemo = ({ interstedInHide, dataScienceCounselling }) => {
             </div>
             {!isMobile && (
               <div onClick={popupsShow}>
-                <Button text="Request a Demo Class" greenButton={true} />
+                <div>
+                  <button
+                    className={greenButton ? styles.greenbutton : styles.violet}
+                    // greenButton={greenButton}
+                    // violet={!greenButton}
+                  >
+                    Request a Demo Class
+                  </button>
+                </div>
               </div>
             )}
           </div>
@@ -195,11 +223,11 @@ const BookDemo = ({ interstedInHide, dataScienceCounselling }) => {
               alt="Book Demo"
               priority
             />
-            {isMobile && (
+            {/* {isMobile && (
               <div onClick={popupsShow}>
                 <Button text="Request a Demo Class" greenButton={true} />
               </div>
-            )}
+            )} */}
           </div>
         </div>
       </div>

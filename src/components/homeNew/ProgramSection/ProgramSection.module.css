@@ -2,7 +2,7 @@
 .programSectionWrapper {
   background-color: #f7f8fa;
   padding: 4rem 1rem;
-  font-family: "Inter", sans-serif;
+  /* font-family: "Inter", sans-serif; */
 }
 .textsection{
   display: flex;
@@ -22,7 +22,7 @@
 .heading {
   font-size: 2.25rem;
   font-weight: 800;
-  background:linear-gradient(90deg, #0881FD 59%, #4655D3 74%);
+  background:linear-gradient(10deg, #0881FD 39%, #4655D3 63%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -327,7 +327,7 @@ background: linear-gradient(90deg, rgba(108, 64, 157, 0.20) 0%, rgba(77, 79, 205
   gap: 0.75rem;
   font-weight: 500;
   color: #e0e8ff;
-  font-size: 0.9rem;
+  font-size: 13px;
 }
 
 .skillsTags {
@@ -341,7 +341,7 @@ background: linear-gradient(90deg, rgba(108, 64, 157, 0.20) 0%, rgba(77, 79, 205
   color: #e0e8ff;
   padding: 0.4rem 0.8rem;
   border-radius: 8px;
-  font-size: 0.8rem;
+  font-size: 12px;
   font-weight: 500;
   border: 1px solid rgba(255, 255, 255, 0.2);
   white-space: nowrap;
@@ -554,4 +554,15 @@ border-radius: 12px;
  .applyButton{
   padding: 0.75rem 30px;
  }
+}
+@media (max-width: 401px) {
+  .card{
+    width: min-content;
+  }
+  .brochureButton{
+    padding: 0.75rem 7px;
+  }
+  .green{
+    width: 23rem;
+  }
 }

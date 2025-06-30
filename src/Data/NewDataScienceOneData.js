@@ -6339,6 +6339,61 @@ export const NewDSAData = [
         description: `The certification reflects not only theoretical knowledge but also the practical implementation of concepts through live projects and case studies.`,
       },
     ],
+
+    Certificate: [
+      {
+        id: 1,
+        topnav: "IBM",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp",
+        width: 300,
+        height: 340,
+        title: "Course Completion Certificate from IBM",
+        para: [
+          "Complete your training with the internationally recognized certificate.",
+          "Validate your Data Science & AI skills with IBM Course Completion Certificate.",
+          "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
+        ],
+      },
+      {
+        id: 2,
+        topnav: "Microsoft",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
+        width: 330,
+        height: 260,
+        title: "Certification in Collaboration with Microsoft",
+        para: [
+          "Earn an Industry-certified Microsoft certificate , validating your skills",
+          "Showcase your expertise & enhance your resume highlighting job ready skills",
+          "Boost job opportunities and earnings with Microsoft’s certification",
+        ],
+      },
+      {
+        id: 3,
+        topnav: "Project Certificate",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp",
+        width: 300,
+        height: 270,
+        title: "Capstone Project Certificate from Renowened Industry",
+        para: [
+          "Globally recognized Renowened Industry certification based on industrial-level projects.",
+          "Earn an industry recognized Capstone project certification from Renowened Industry.",
+          "Individualized project experience with easy access to premium job opportunities.",
+        ],
+      },
+      {
+        id: 4,
+        topnav: "Gen-AI Certificate",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/certificategenai+1.webp",
+        width: 300,
+        height: 270,
+        title: "Certification from IBM in Generative AI",
+        para: [
+          "Globally recognized certification directly from IBM.",
+          " Expertise in IBM Watsonx and GenAI frameworks.",
+          "Enhance your AI profile for leading tech employers worldwide.",
+        ],
+      },
+    ],
     faq: [
       {
         id: 0,
@@ -6346,79 +6401,40 @@ export const NewDSAData = [
         data: [
           {
             id: 0,
-            ques: "Who is eligible for the Data Structures Algorithms and System Design Program?",
-            ans: "Any tech professional (B.Tech, MCA, B.Sc, BE, M.Tech) with basic coding knowledge (Java) can enroll in the Data Structures Algorithms and System Design Program. However, a bachelor's degree in computer science or any equivalent domain with good academics is required to qualify for the program. For working professionals, a 1+ years of expertise is essential.",
+            ques: "What are the prerequisites for the Data Science and AI Master Certification Program?",
+            ans: "There are no specific prerequisites for the Data Science and AI Master Certification program. Experts with no prior coding or programming knowledge can join this course. Just with basic mathematics or statistics knowledge and an interest in learning programming, one can enroll with us. ",
             open: true,
           },
           {
             id: 1,
-            ques: "What modules are covered in the Data Structures Algorithms & System Design Course?",
-            ans: `The course module is designed exclusively covering the basic and advanced levels. Under the DSA course, you will get -`,
-            dscoursefaq1: true,
-            list1: "• Basic programming, data types, & code flow",
-            list2: "• If statements, loops, & code flow",
-            list3: "• I/O & exceptions",
-            list4: "• Functions",
-            list5: "• Object-oriented programming",
-            list6: "• 2-D matrix",
-            list7: "• 1-D array",
-            list8: "• Functions and recursion",
-            list9: "• Linear & binary search ",
-            list10: "• Time & space complexity",
-            list11: "• Bit manipulation",
-            list12: "• Two pointers ",
-            list13: "• Sorting ",
-            list14: "• Strings ",
-            list15: "• Array",
-            list16: "• Linked lists",
-            list17: "• Stack",
-            list18: "• Queue",
-            list19: "• Maths ",
-            list20: "• Advanced analysis of algorithms ",
-            list21: "• Advanced data structure ",
-            list22: "• Analysis of algorithms ",
-            list23: "• System design principles ",
-            list24: "• System design patterns",
-            list25: "• Low-level & high-level designs ",
-            list26: "• Scalability, performance",
-            list27: "• Security, reliability ",
-            list28: "• Integration, deployment ",
-            span: "However, our exclusive focus are on industry-focused learning modules that specifically covers – Our leading-edge DSA course module offerings are – ",
-            list29: "• Introductory programming sessions (Java)",
-            list30: "• Data structures and algorithms",
-            list31: "• Computer basics",
+            ques: "What if I miss a few classes due to an emergency?",
+            ans: "In case you miss a few classes, you will be provided with backup classes in other batches. But if you could not attend more classes, you can opt for batch change and join the next batch.",
             open: false,
           },
           {
             id: 2,
-            ques: "What are the modes of learning I can choose from?",
-            ans: `Learnbay believes in a flexible and open learning environment. Thus, working professionals willing to upskill themselves get the advantage of a 100% live learning mode. DSA course comes on weekdays (8 PM – 10 PM; Mon-Wed-Fri) and weekends (8.30 AM – 12 PM; Sat-Sun). Concerning the working schedules, learners can fix their sessions with the mentors.`,
+            ques: "What is a Flexi Subscription in the ⁠Data Science and AI Master Certification Program?",
+            ans: `Those who enroll for Data Science live classroom training are eligible for a Flexi Pass. With this option, we will share access to all the ongoing batch details for a period of 3 years, so that you can attend live sessions from any batch and learn at your own pace. This option is best for people working in shifts or on weekends.`,
             open: false,
           },
           {
             id: 3,
-            ques: "Are the data structures and algorithms programs suitable for non-IT professionals?",
-            ans: `While a programming or CS background can be helpful, it's not always essential. We have our courses start from the basics and advance tackling the complexities. So, software developers and other IT professionals can take the online data structures and algorithms course. Only they need an ample level of self-motivation. The course is structured to help learners with non-IT backgrounds easily understand the modules with the help of experienced mentors, 24/7 support, and one-on-one doubt sessions.`,
+            ques: "What’s the duration of the ⁠Data Science and AI Master Certification Program?",
+            ans: "The duration of this course is about 13-15 months (500 hours) which includes live lectures, hands-on practical training on live projects, and interview preparations. Classes will be conducted on weekdays and weekend batches. Weekday batch – 13 months, Monday to Friday – 2 hours/day, Weekend batch – 15 months, Saturday & Sunday – 3.5 hours/day",
             open: false,
           },
           {
             id: 4,
-            ques: "Is DSA hard to learn?",
-            ans: `It may be hard to study data structure and algorithms without proper guidance. But the appropriate guidance makes it super easy. Yet, with our expert mentors and great learning assistance, we ensure learners get the best type of education to understand every DSA concept.`,
+            ques: "What is the mode of training at Learnbay?",
+            ans: "We provide both classroom and online data science training modes. Based on your requirement, you can choose your preferred mode.",
             open: false,
           },
           {
             id: 5,
-            ques: "How long it takes to complete the Data Structures Algorithms and System Design Program?",
-            ans: `The DSA and System Design Course takes 9 – 10 months. During the program, learners will get live training sessions, live projects, job-readiness assistance, & interview preparations under the guidance of mentors. One can complete the course modules and projects per batch timings. `,
+            ques: "How can I opt for a Hybrid mode of learning?",
+            ans: "Simply, you can choose an online mode of study for the theoretical classes and classroom mode for all the capstone projects and interview preparation sessions.",
             open: false,
           },
-          // {
-          //   id: 6,
-          //   ques: "How long can I have access to the course materials and resources?",
-          //   ans: "The DSA and System Design Course takes 400+ hours or 6.5 months. During the program, learners will get live training sessions, live projects, job-readiness assistance, & interview preparations under the guidance of mentors. One can complete the course modules and projects per batch timings. ",
-          //   open: false,
-          // },
         ],
       },
       {
@@ -6427,38 +6443,52 @@ export const NewDSAData = [
         data: [
           {
             id: 0,
-            ques: "What is domain specialization?",
-            ans: "We offer four elite domain electives, from which you can choose your preferred one as your specialization. You can opt for a specific elective based on your targeted job role.",
+            ques: "What is domain specialization?            ",
+            ans: "Domain specialization refers to the practice of gaining specific expertise in a particular field of an industry. It is a metric of career growth where experts gain domain-specific knowledge to face real-world challenges and tackle them effectively.             ",
             open: true,
           },
           {
             id: 1,
-            ques: "What are the available elective domain options?",
-            ans: "These are as follows: GenAI, DevOps, Full-Stack [MERN], and Product Management",
+            ques: "What are the available elective domain options?            ",
+            ans: "Experts from diversified backgrounds can join this to gain domain-specific knowledge. The available domain elective options are –",
+            list1: "BFSI",
+            list2: "Retail            ",
+            list3: "Supply Chain            ",
+            list4: "Healthcare            ",
+            list5: "Marketing            ",
+            list6: "HR            ",
+            list7: "Manufacturing             ",
+            dscoursefaq1: true,
             open: false,
           },
           {
             id: 2,
-            ques: "Which domain elective is best suited for me?",
-            ans: `You can select your domain based on your prior work experience, academics, and career goals. Please book a slot with our industry expert for a free profile review and career guidance.`,
+            ques: "What if I don’t have any prior experience in any domain?            ",
+            ans: `We offer industry-focused upskilling with the domain electives that are trending at present with alluring career opportunities. In case, you do not hold any prior experience, you can opt for any domain as per your career interests and goals. You can here consider specializations during academics if you wish to craft a successful career in the same.             `,
             open: false,
           },
           {
             id: 3,
             ques: "Why is domain specialization important?",
-            ans: "After enrolling in the Best Data Structures and Algorithms program, one must opt for best-suited domain electives. It is essential to have a specialization. Because the generic study is not going to help you land a promising and secure job role, choosing such specialization will make your project work, interview preparation, and the job application process easier.",
+            ans: "After enrolling in the AI and ML with domain specialization course, one must opt for domain electives. It is essential to have business/industry knowledge which is useful in feature engineering and modeling. Prior knowledge of the industry and domain aids in the development of more precise and accurate predictive models based on the dataset’s attributes. Furthermore, the model will be more observable in a real-world situation.",
             open: false,
           },
           {
             id: 4,
-            ques: "Is prior experience in any domain necessary?",
-            ans: "Yes, it's essential to have basic knowledge in your domain. Yet, if you are a fresher with no prior work experience, you can choose any electives to upskill in your domain and gain practical experience through live projects.",
+            ques: "Can I select multiple domain electives and do I need to pay extra charges?",
+            ans: "You can select up to 4 domain electives based on your interest and career goals. No, you don’t need to pay any extra charges as domain electives and capstone projects are part of our curriculum.",
             open: false,
           },
           {
             id: 5,
-            ques: "Will I have the scope to switch my domain later?",
-            ans: "Yes, you can change your electives anytime during the training sessions. Based on the updated domain choice, your training sessions shall be guided by our industry experts.",
+            ques: "What if I don’t have any prior experience in any domain?",
+            ans: "If you don’t have any prior work experience, you can opt for any electives to gain domain expertise and work on real-time industrial projects.",
+            open: false,
+          },
+          {
+            id: 6,
+            ques: "Can I change my domain electives later?",
+            ans: "Yes, you can change your electives or repeat the training anytime but within the course accessibility duration.",
             open: false,
           },
         ],
@@ -6469,41 +6499,37 @@ export const NewDSAData = [
         data: [
           {
             id: 0,
-            ques: "What is the course fee for the Data Structures Algorithms and System Design Program?",
-            ans: "The Data Structures Algorithms and System Design Program cost INR 1,10,000 plus 18% GST. The IT professionals willing to enroll in the course can visit the Learnbay website or schedule a call with our counselor for more details. For more details, contact us at +91 7795687988.",
+            ques: "What is the total Fee for the Data Science and AI Master Certification Program?",
+            ans: "The total program fee for the Data Science and AI Master Certification Program with Domain Specialization is INR 1,35,000 + 18% GST.",
             open: true,
           },
-
+          {
+            id: 1,
+            ques: "Can I pay in installments for the Data Science and AI Master Certification Program?",
+            ans: "Yes, you can pay the installments using a credit card with a no-cost EMI option for INR 8,850/month up to 18 months. You can also choose an interest-free loan by submitting an Aadhar card, Pan Card, and 3-month salary slip.",
+            open: false,
+          },
           {
             id: 2,
-            ques: "What are the financing options available for the course?",
-            ans: "Learnbay supports quality learning and career empowerment. Thus, it curates affordable course programs for learners with flexible financing options. Concerning the DSA course fees, a learner has to pay just INR 7,211 per month under the EMI plan through cards, net banking, & UPI. Also, you can avail of easy loan procedures and flexible payment terms. In case you do not like the training sessions during DEMO or initial classes, you can cancel the program and claim the fees under the 15-day refund policy.",
+            ques: "Is there any scholarship/discount available for Data Science and AI Master Certification Program? What is Group Discount?",
+            ans: `Learnbay offers a 15 – 20% scholarship for early birds occasionally.
+            Please check our website or contact our sales team to know more about the applicable discounts.
+            
+            Group Discount :
+            Group Discount is applicable only if you’re joining with your friends.
+            5% extra discount : Group of 2,
+            8% extra discount : Group of 3,
+            Max 10% discount : Groupe of 4+.`,
             open: false,
           },
           {
             id: 3,
-            id: 6,
-            ques: "Is there any scholarship or discount offer available for the Data Structures Algorithms and System Design Program?",
-            ans: "Learnbay offers a 15% – 20% discount for early birds occasionally. Yet, a group discount is available for the learners who join with one or more friends. ",
-            dscoursefaq: true,
-            list1: "• Group of 2: 5% extra discount",
-            list2: "• Group of 3: 8% additional discount",
-            list3: "• Group of 4+: Max 10% discount",
-            span: "For further details, you can check with our sales team at +91 7795687988.",
-            // ans: (
-            //   <span>
-            //     Learnbay occasionally offers a 15%—20% discount for early birds.
-            //     However, a group discount is available for learners who join
-            //     with one or more friends.
-            //     <ul style={{margin:"15px 0 15px 15px"}}>
-            //       <li>Group of 2: 5% extra discount</li>
-            //       <li>Group of 2: 5% extra discount</li>
-            //       <li>Group of 2: 5% extra discount</li>
-            //     </ul>
-            //     Eligible learners can avail of up to 30% scholarship before joining the course. You can check with our sales team at +91 7795687988 for further details.
-            //   </span>
-            // ),
-            // "Learnbay occasionally offers a 15%—20% discount for early birds. However, a group discount is available for learners who join with one or more friends.",
+            ques: "What is the refund policy for the Data Science and AI Master Certification Program at Learnbay?",
+            ans: "Candidates are advised to read  ",
+            linkText1: "Learnbay’s Refund/Cancellation Policy",
+            link1: "/refund-cancellation-policy",
+            ansAfter: " before enrolling in the program.",
+            link: true,
             open: false,
           },
         ],
@@ -6514,24 +6540,26 @@ export const NewDSAData = [
         data: [
           {
             id: 0,
-            ques: "How many projects are available on the course? ",
-            ans: "During the course sessions, learners will work on various domain-specific projects, mini-projects, practical tasks, and case studies. You will get exposure to various high-level and low-level system design projects under endless mentor’s guidance. These projects will help you gain industry insights and tackle real-world problems seamlessly.",
-
-            open: false,
+            ques: "How many capstone projects will be there?",
+            ans: "In this course, you’ll be required to work on 3 fresh capstone projects. This will help you get exposure to hands-on projects by implementing your theoretical knowledge gained throughout the training.",
+            open: true,
           },
           {
             id: 1,
-            ques: "How will the projects be executed? ",
-            ans: "The learners get the advantage of working with real-time industry projects and gaining practical experience in their domains. Learnbay brings group project-handling sessions under the guidance of mentors and experts. Learners can work via cloud labs and online guidance from industry experts to boost their DSA skills and tackle top-level projects. Our mentor’s guidance will help you gain real-world industry insights and deliver top-level system designs. ",
-
+            ques: "How many real-time projects will be there?",
+            ans: "We have a set of 12 Real-time projects from multiple domains such as Healthcare, Banking, Finance, Insurance, Retail, and others. Based on your interest you can choose your project to work on.",
+            linkText1: " Click here to download the list of the projects.",
+            link1:
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf",
+            link: true,
             open: false,
           },
-          // {
-          //   id: 1,
-          //   ques: "How will the projects be executed?",
-          //   ans: `The learners get the advantage of working with real-time industry projects and gaining practical experience in their domains. Learnbay brings group project-handling sessions under the guidance of mentors and experts. For virtual learning mode, learners can work via cloud labs and online guidance from industry experts. For the hybrid training mode, learners can opt for offline experience centers in metro cities like Bangalore, Hyderabad, Pune, & Delhi. In-person meetings and doubt-clearing sessions help the learners refine their skills in real time.`,
-          //   open: false,
-          // },
+          {
+            id: 2,
+            ques: "How will the project be executed?",
+            ans: `At Learnbay, you will be required to work in a group where your project group will be assigned a specific project mentor with complete assistance and guidance.`,
+            open: false,
+          },
         ],
       },
       {
@@ -6540,14 +6568,18 @@ export const NewDSAData = [
         data: [
           {
             id: 0,
-            ques: "Is certification essential for career transformation with the DSA program? ",
-            ans: "Certification is necessary to prove your skills and expertise with the latest DSA tools and techniques. Learnbay offers an industry recognized certification that adds more value to your resume. It is a badge to showcase your proven skills and crack job offers from the leading MNCs. A good certification enhances your demand in the industry, and this recognition helps you get better placement assistance with lucrative hikes. ",
+            ques: "Is there any accredited certification after course completion?            ",
+            ans: "Yes. Successful completion of the course will attest to a globally accredited certification for your career. Here, you will receive a course completion certificate accredited by IBM that validates your skills to thrive globally. Apart from this, an industry-certified Microsoft certificate justifies our collaboration for successful career transitions.           ",
             open: true,
           },
           {
             id: 1,
-            ques: "Is there any accredited certification after course completion?",
-            ans: `Yes, you will be awarded a course completion certification from Learnbay for Data Structures Algorithms & System Design course. `,
+            ques: "What categories of certifications might I expect to receive?            ",
+            ans: "This course offers you two categories of certifications –    ",
+            list1: "Two-Course Completion Certificates from IBM & Microsoft",
+            list2: "Capstone Project Certifications from IBM",
+            dscoursefaq1: true,
+
             open: false,
           },
         ],
@@ -6558,42 +6590,34 @@ export const NewDSAData = [
         data: [
           {
             id: 0,
-            ques: "What is a job readiness program at Learnbay? ",
+            ques: "What’s the eligibility for a job assistance program at Learnbay?",
 
-            ans: `A job-readiness program at Learnbay includes resume-building sessions, portfolio designing, and 1:1 mock interview preparation, and career counselling sessions for the experts. This program aims to help working professionals redefine their careers in relevant fields with attractive pay. The tie-ups with 350+ industry partners help the learners get their entry into the leading MNCs in their desired areas. `,
+            ans: `You should have completed the course with :
+            A minimum score of 70% in assessments.
+            Should have completed the assignments and case studies.
+            Worked and successfully completed the minimum recommended number of real-time projects.`,
             open: true,
           },
           {
             id: 1,
-            ques: "Who is eligible for the job assistance program at Learnbay? ",
-            ans: "The learners obtaining a minimum of 70% in tasks and assessments become eligible for the job-readiness or job assistance program. Before this, one must have completed the training sessions, gained the required knowledge, and completed minimum tasks, assignments, and projects provided by the experts. ",
+            ques: "How many interview calls will I get at Learnbay?            ",
+            ans: "This course promises you unlimited interview calls (at least 10 calls) with open-end access to the leading employers.             ",
+            open: false,
           },
-
           {
             id: 2,
-            ques: "How is Learnbay's Placement program different from others? ",
-            ans: "When you get upskilled with Learnbay's course program successfully, you become eligible for its placement program. It offers -",
-
-            list1:
-              "Guaranteed interview calls from prime MNCs & MAANG partnered with Learnbay",
-            list2:
-              "Domain-specialized training and upskilling help get selected in placement drives",
-            list3:
-              "100% live and instructor-led sessions refining the core concepts",
-            list4:
-              "Personalized resume preparation helps showcase your proven skills & increase your chances of getting selected. ",
-            list5:
-              "Course completion certificate from Learnbay with practical validation. ",
-            // list6:
-            //   "At the end of the course, learners will be able to get these benefits that shall equip their career with the in-demand skills to crack the interviews with the leading MNCs",
-            dscoursefaq1: true,
-
+            ques: "What is a job-readiness program?",
+            ans: `Job readiness program helps you prepare for interviews which include:
+            Resume preparation sessions, 
+            Preparing projects for a strong portfolio, 
+            Interview guidance and prep sessions, 
+            1:1 Mock interviews based on targeted companies and roles.`,
             open: false,
           },
           {
             id: 3,
-            ques: "Will I get job referrals at Learnbay? ",
-            ans: "After successful completion of course training sessions, live projects, and other assessments provided, a learner becomes eligible to attend job interviews with our partnered industries. Here, Learnbay offers job referrals for your desired roles to its industry partners, consultancies, and companies. ",
+            ques: "Will I get job referrals at Learnbay?",
+            ans: "Yes, we offer dedicated placement assistance by referring your profile through our partnered consultancies and companies.",
             open: false,
           },
         ],
@@ -6604,39 +6628,33 @@ export const NewDSAData = [
         data: [
           {
             id: 0,
-            ques: "Who are the mentors at Learnbay? ",
+            ques: "Until when will the Learnbay students get the facility of mentorship?",
 
-            ans: "Learnbay supports quality education and right upskilling according to the latest industry trends. Hence, it appoints trained professionals from different industries in different domains specialized in their fields. With mandatory proven work experience, industry experts guide our learners with the best training support. Industry experts relevantly hold practical experience and real-time exposure to the real business world to guide our learners better. ",
+            ans: "Our mentors will provide data science training to the students until the completion of the course depending on the specialization. Post completion, students can reach out to specialized mentors for project and placement purposes.",
             open: true,
           },
           {
             id: 1,
-            ques: "Can I reach my mentors to clear up my doubts regarding the course? ",
-            ans: "Any learner enrolling for a course is entitled to get maximum benefits in terms of upskilling, practical learning, and doubt-clearing assistance. Mentors are liable to support their learners with the best solutions to their doubts. At the end of each module, a doubt-clearing session is conducted that helps the learners know the concepts better. Plus, by the end of the course, a job-readiness program is held where learners have 1:1 interaction with their mentors on their doubts. ",
+            ques: "Can a student choose to study from their desired mentor?",
+            ans: "At Learnbay, every batch has its respective mentor, but if a student is not satisfied with its mentor’s teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
             open: false,
           },
           {
             id: 2,
-            ques: "Do the mentors take live classes or play recorded sessions during the training? ",
-            ans: "Mentors at Learnbay take live classes for the learners, while the recorded sessions are for helping the latter with self-paced learning afterward. In the instructor-led live sessions, learners get the benefit of knowing the real concepts, refining their skills, and clearing their doubts. After the end of the sessions till getting placed in an MNC, the working professionals need quality learning where these recordings are useful. ",
+            ques: "Are there mentors available to help with coursework and projects?            ",
+            ans: "Working professionals have the scope to learn business analytics online under the direct guidance of industry experts from MNCs. Learners will have dedicated coaching from mentors for coursework, job assistance programs, live projects, and 1:1 doubt clearing. You can get in touch with your mentors to resolve any doubts while working on fresh capstone projects.             ",
             open: false,
           },
           {
             id: 3,
-            ques: "Do counseling sessions help learners make wise decisions before enrolling in a course?",
-            ans: "Learnbay offers the scope of understanding the course program and its role in shaping a bright career in a desired field. This happens through an industry-led counseling session. Our counselors help learners in upskilling with DSA concepts with practical knowledge. Before enrolling in the DSA program, you also get the benefit of attending demo sessions by industry experts to check the quality of training and course curriculum. Thus, it helps working professionals make the right decision in a career shift.",
+            ques: "How can I connect with a mentor?            ",
+            ans: "Learners go through business analytics online training guided by industry mentors from MNCs. After enrolling in the course, learners will be assigned a mentor whom they can contact directly during online sessions (chat section) and over the call at any time.             ",
             open: false,
           },
           {
             id: 4,
-            ques: "How long can I avail myself of the mentorship facility?",
-            ans: "Our Mentors will provide DSA course training to the learners until the completion of the course. Next, during the job placement programs, a learner can opt for doubt-clearing sessions where mentorship is required. After completion of each task, assessment, and project work, mentorship ends.",
-            open: false,
-          },
-          {
-            id: 5,
-            ques: "Can learners choose to study from their desired mentor at Learnbay?",
-            ans: "Every batch has its respective mentor, but if a learner is not satisfied with their mentor's teaching method, they can raise the issue to management and resolve the issues by replacing them with other mentors.",
+            ques: "What is the typical response time for mentor support?            ",
+            ans: "Our mentors are available to support queries of learners at any time (during and after the sessions). So, within 10-15 minutes, learners can get mentor support to resolve queries regarding coursework or projects.             ",
             open: false,
           },
         ],
@@ -6647,15 +6665,33 @@ export const NewDSAData = [
         data: [
           {
             id: 0,
-            ques: "When is the job assistance provided at Learnbay?",
+            ques: "When is the job assistance provided and how long will I get it?",
 
-            ans: "Job assistance is provided after the course is completed. It includes resume design sessions, 1:1 mock interviews, interview preparation, career counselling, and job referrals from top industry giants. This assistance is provided unless one gets placed in a company.",
+            ans: "At Learnbay, placement assistance is provided after the completion of the course. It includes build-up sessions, mock interviews, and referrals from top MNC’s/startups. This assistance is provided unless one gets placed in a company.",
             open: true,
           },
           {
             id: 1,
             ques: "How long will I get Job referrals?",
-            ans: "You'll be provided with job assistance or job referrals after the completion of the course to land promising roles with top-tier MNCs.",
+            ans: "You’ll be provided with job referrals after the completion of the course for a period of 1 year.",
+            open: false,
+          },
+          {
+            id: 2,
+            ques: "How can I reach out for technical support if I encounter any issues with the course platform?            ",
+            ans: "After enrolling in the course, you are open to use 24x7 learner’s support to resolve any query. You can call the helpline number to reach the desired service providers to help you out of any technical issues with the course platform.             ",
+            open: false,
+          },
+          {
+            id: 3,
+            ques: "Is there a discussion forum or community for students to interact and seek help?            ",
+            ans: "There is no discussion forum or community for students to interact and seek help. They can directly reach out to the learner’s support team which is available 24x7 to resolve queries. In case of any doubt related to coursework or projects, learners can schedule a call for 1:1 sessions with their respective mentors.              ",
+            open: false,
+          },
+          {
+            id: 4,
+            ques: "What is the best way to contact your support team if I have general inquiries?            ",
+            ans: "Learnbay offers 24x7 learner’s support to help with general inquiries. You can check with our sales team at +91 7795687988 in case you have any questions in your mind. They will reach out to you as soon as possible with the best solutions.             ",
             open: false,
           },
         ],

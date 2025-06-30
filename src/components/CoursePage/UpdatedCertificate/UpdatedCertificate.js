@@ -18,31 +18,24 @@ export default function UpdatedCertificate({ data }) {
 
   if (isMultiple) {
     // Build pairs for each image/paragraph set.
-    const pairs = [];
-    if (currentData.img && currentData.para1) {
-      pairs.push({
-        img: currentData.img,
-        para: currentData.para1,
-        width: currentData.imgWidth || 150,
-        height: currentData.imgHeight || 150,
-      });
-    }
-    if (currentData.img2 && currentData.para2) {
-      pairs.push({
-        img: currentData.img2,
-        para: currentData.para2,
-        width: currentData.img2Width || 150,
-        height: currentData.img2Height || 150,
-      });
-    }
-    if (currentData.img3 && currentData.para3) {
-      pairs.push({
-        img: currentData.img3,
-        para: currentData.para3,
-        width: currentData.img3Width || 150,
-        height: currentData.img3Height || 150,
-      });
-    }
+    Object.entries(currentData).forEach(([key, value]) => {
+      const match = key.match(/^img(\d*)$/); // Matches img, img2, img3...
+      if (match && value) {
+        const index = match[1] || "1"; // "" means "img" (first one)
+        const paraKey = `para${index}`;
+        const widthKey = `${key}Width`;
+        const heightKey = `${key}Height`;
+
+        if (currentData[paraKey]) {
+          pairs.push({
+            img: value,
+            para: currentData[paraKey],
+            width: currentData[widthKey] || 150,
+            height: currentData[heightKey] || 150,
+          });
+        }
+      }
+    });
 
     return (
       <div className={styles.wrapper}>

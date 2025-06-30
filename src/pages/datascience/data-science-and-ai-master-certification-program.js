@@ -1,16 +1,74 @@
+import React from "react";
 import Head from "next/head";
+import dynamic from "next/dynamic";
 import { parseJSONData } from "@/Util/JsonConvertor";
-import FirstPart from "@/components/CoursePage/FirstPart/DSAIMastersCertificationFirstPart";
-import SecondPart from "@/components/CoursePage/FirstPart/DSAIMastersCertificationSecondPart";
+import DSAHeader from "@/components/CoursePage/NewDSA/Header/NewDSAHeader";
 import Navbar from "@/components/Global/Navbar/Navbar";
+import BookDemo from "@/components/CoursePage/NewDSA/BookDemo/BookDemo";
+const ProgramSection = dynamic(() =>
+  import("@/components/CoursePage/NewDSA/ProgramSection/ProgramSection")
+);
+const DSAPractical = dynamic(() =>
+  import("@/components/CoursePage/NewDSA/Practical/DSAPractical")
+);
+const AnimationDSA = dynamic(() =>
+  import("@/components/CoursePage/NewDSA/DSAAnimationNew/DSAAnimationNew")
+);
+const JobReadySection = dynamic(() =>
+  import("@/components/CoursePage/NewDSA/JobReadySection/JobReadySection")
+);
+const DSASyllabus = dynamic(() =>
+  import("@/components/CoursePage/NewDSA/DSASyllabusSection/DSASyllabus")
+);
+const NewCertificateSection = dynamic(() =>
+  import("@/components/CoursePage/newCertificate/NewCertificate")
+);
+const DSAFeeSection = dynamic(() =>
+  import("@/components/CoursePage/dsaFee/DSAFeeSection")
+);
+const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+const NewSevenSection = dynamic(() =>
+  import("@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection")
+);
+const MentorsSection = dynamic(() =>
+  import("@/components/course/MentorsSection/MentorsSection")
+);
+const DSAProjectSection = dynamic(() =>
+  import("@/components/CoursePage/NewDSA/ProjectSection/DSAProjectSection")
+);
+const ReviewSlider = dynamic(() =>
+  import("@/components/Home/newUI/reviewSlider/reviewSlider")
+);
+import Certificate from "@/components/CoursePage/Certificate/Certificate";
+const Content = dynamic(() =>
+  import("@/components/CoursePage/Content/content")
+);
+import BottomBar from "@/components/Global/BottomBar/BottomBar";
+import FAQNew from "@/components/CoursePage/FAQNew/FAQNew";
+import {
+  getDSABookingLaterDate,
+  getDSABookingSoonDate,
+} from "@/Util/getDSABatchData";
+import AlumniCompanies from "@/components/CoursePage/newUICourse/AlumniCompanies";
+import LearningToPlacement from "@/components/CoursePage/newUICourse/LearningToPlacement/LearningToPlacement";
+import Newheader from "@/components/CoursePage/newHeader/newHeader";
 import { MasterAI } from "@/Data/Schema/DataScienceAndAIMasterSchema";
+import FeeSection from "@/components/course/feeSection/FeeSectionCourse";
+import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/UpdatedCertificate";
+const NewDSA = ({ DSADataJson }) => {
+  const NewDSAData = parseJSONData(DSADataJson);
+  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-Master-Certification-v1.pdf";
 
-function Blockchain({ DataScienceCourseDataJson }) {
-  const DataScienceCourseData = parseJSONData(DataScienceCourseDataJson);
+  let soonDate = getDSABookingSoonDate();
+  let laterDate = getDSABookingLaterDate();
+  // console.log(getDSABookingSoonDate(new Date('2023-03-24')));
+  // console.log(getDSABookingLaterDate(new Date('2023-03-24')));
+  
 
   return (
     <>
-      <Head>
+    <Head>
         <title>Best Data Science & AI Online Course - Learnbay</title>
         <meta
           name="description"
@@ -113,41 +171,124 @@ function Blockchain({ DataScienceCourseDataJson }) {
           }}
         />
       </Head>
-      <main>
-        <Navbar dataScienceCounselling={true} interstedInHide={true} />
 
-        <FirstPart
-          SecondSectionData={
-            DataScienceCourseData.DataScienceCourseData[0].secondSection
-          }
-          TestimonialData={
-            DataScienceCourseData.DataScienceCourseData[0].testimonial
-          }
-        />
-      </main>
       <main>
-        <SecondPart
-          masterSyllabusMobile={
-            DataScienceCourseData.DataScienceCourseData[0].masterSyllabusMobile
-          }
-          CertificateData={
-            DataScienceCourseData.DataScienceCourseData[0].Certificate
-          }
-          projectSection={
-            DataScienceCourseData.DataScienceCourseData[0].projectSection
-          }
-          FAQNewData={DataScienceCourseData.DataScienceCourseData[0].faq}
+        <Navbar
+          popup={true}
+          dataScienceCounselling={true}
+          interstedInHide={true}
         />
+        <Newheader
+          title1={NewDSAData[0].header[0].title1}
+          orgTitle={NewDSAData[0].header[0].orgTitle}
+          title2={NewDSAData[0].header[0].title2}
+          spanTag={NewDSAData[0].header[0].spanTag}
+          spanIcon={NewDSAData[0].header[0].spanIcon}
+          points={NewDSAData[0].header[0].points}
+          mentorText={NewDSAData[0].header[0].mentorText}
+          mentorFromImg={NewDSAData[0].header[0].mentorFromImg}
+          descrption={NewDSAData[0].header[0].descrption}
+          svgDSA={NewDSAData[0].header[0].svgDSA}
+          titleCourse="Data Structure Algorithms & System Design"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf"
+          brochurePdf={pdfUrl}
+          interstedInHide={true}
+        />
+        <AlumniCompanies/>
+        <LearningToPlacement/>
+       
+        <ProgramSection
+          programSectionData={NewDSAData[0].ProgramSection}
+          dataScienceCounselling={true}
+          interstedInHide={true}
+          upSkillingHide={true}
+        />
+        {/* <DSAPractical /> */}
+        <AnimationDSA />
+        <JobReadySection />
+        <DSAProjectSection
+          dataScience={true}
+          interstedInHide={true}
+          titleCourse="Data Structure Algorithms & System Design"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf"
+          brochurePdf={pdfUrl}
+        />
+        <DSASyllabus
+          sections={NewDSAData[0].sections}
+          dataScience={true}
+          interstedInHide={true}
+          titleCourse="Data Structure Algorithms & System Design"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf"
+          brochurePdf={pdfUrl}
+          downloadBrochure={true}
+        />
+
+<UpdatedCertificate data={NewDSAData[0].Certificate} />
+        {/* <Certificate
+          noTabs={true}
+          data={NewDSAData[0].certificateNew}
+          DSAFresherCertHeading={true}
+        /> */}
+         <BookDemo
+        dataScienceCounselling={true}
+        interstedInHide={true}
+        upSkillingHide={true}
+        Admission="Admission Process"
+        Content="Our 3-step admission process clearly guides you through checking your eligibility, selecting the right course via expert counselling, and smoothly completing your enrollment. It's designed for simplicity and clarity."
+        // greenButton={true}
+      />
+
+        {/* <NewCertificateSection certificateNew={NewDSAData[0].certificateNew} /> */}
+        <FeeSection
+        Fee="₹ 1,40,000 "
+        FeeEmi="₹ 9,177/ month"
+        // Hybrid Classes
+        hybridFee="₹ 1,55,000"
+        hybridEmi="₹ 10,161/ month"
+        // EMIPOPUP
+        emiType="Live online classes"
+        duration1="12 Months"
+        totalAmount1="₹1,90,000"
+        monthlyPayment1="₹14,094"
+        greenDown1="Hybrid Classes"
+        duration2="12 Months"
+        totalAmount2="₹2,10,000"
+        monthlyPayment2="₹12,455"
+        dataScienceCounselling={true}
+        iitGuwatiGen={true}
+        interstedInHide={true}
+      />
+        <ReviewSlider idss="eautK0odE7Q" />
+        <MentorsSection />
+       
+        <FAQNew FAQNewData={NewDSAData[0].faq} background={true} />
+        {/* <Content
+          dataScienceCounselling={true}
+          DSANewContent={true}
+          background={true}
+        /> */}
+        <NewSevenSection
+          dataScienceCounselling={true}
+          interstedInHide={true}
+          upSkillingHide={true}
+        />
+        <Footer />
+        <BottomBar dataScienceCounselling={true} interstedInHide={true} />
+        <WhatsappFloat />
       </main>
     </>
   );
-}
-export default Blockchain;
+};
+
+export default NewDSA;
+
 export async function getStaticProps() {
-  const data = await import("../../Data/DSMasterCertificationCourse");
-  function getDataScienceCourseDataJSON(dataScienceCourseData) {
-    return JSON.stringify(dataScienceCourseData);
-  }
-  const DataScienceCourseDataJson = getDataScienceCourseDataJSON(data);
-  return { props: { DataScienceCourseDataJson } };
+  const module = await import("../../Data/NewDataScienceOneData");
+  const data = module.default;
+
+  const DSADataJson = JSON.stringify(data, (key, value) =>
+    value === undefined ? null : value
+  );
+
+  return { props: { DSADataJson } };
 }

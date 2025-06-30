@@ -55,6 +55,7 @@
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   background-color: rgba(31, 41, 55, 0.3);
+  padding: 0.8rem 1.5rem;
 }
 
 .downloadButton:hover {

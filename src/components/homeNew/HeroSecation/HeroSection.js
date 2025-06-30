@@ -162,7 +162,7 @@ export default function HeroSection() {
 
         {/* Minimal Color Accent Areas */}
         <div className={styles.blueAccent}></div>
-        <div className={styles.orangeAccent}></div>
+        {/* <div className={styles.orangeAccent}></div> */}
       </section>
     </section>
   );

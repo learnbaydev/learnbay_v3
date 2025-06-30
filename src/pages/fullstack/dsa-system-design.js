@@ -53,13 +53,13 @@ import {
 
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf";
 
   let soonDate = getDSABookingSoonDate();
   let laterDate = getDSABookingLaterDate();
   // console.log(getDSABookingSoonDate(new Date('2023-03-24')));
   // console.log(getDSABookingLaterDate(new Date('2023-03-24')));
-  
 
   return (
     <>
@@ -186,6 +186,10 @@ const NewDSA = ({ DSADataJson }) => {
           dataScienceCounselling={true}
           interstedInHide={true}
           upSkillingHide={true}
+          Admission="Book Your Demo Class Now!"
+          Content="The demo session provides an overview of our Data Structures, Algorithms, and System Design Program.
+It’s an opportunity to understand the :"
+          greenButton={true}
         />
         <ProgramSection
           programSectionData={NewDSAData[0].ProgramSection}
@@ -234,8 +238,8 @@ const NewDSA = ({ DSADataJson }) => {
           totalAmount2="₹1,23,900"
           monthlyPayment2="₹12,183"
           dataScienceCounselling={true}
-        iitGuwatiGen={true}
-        interstedInHide={true}
+          iitGuwatiGen={true}
+          interstedInHide={true}
         />
         <ReviewSlider idss="eautK0odE7Q" />
         <MentorsSection />
