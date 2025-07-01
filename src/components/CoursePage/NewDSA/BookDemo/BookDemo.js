@@ -10,6 +10,10 @@ const BookDemo = ({
   Admission,
   Content,
   greenButton,
+  highlight = [],
+  first,
+  second,
+  third,
 }) => {
   const [popups, setPopups] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -113,7 +117,19 @@ const BookDemo = ({
           <div className={styles.leftSection}>
             <h2>{Admission}</h2>
             <div className={styles.leftSectionDescription}>
-              <p>{Content}</p>
+              <p>
+                {Content.split(
+                  new RegExp(`(${highlight.join("|")})`, "gi")
+                ).map((part, i) =>
+                  highlight.some(
+                    (h) => h.toLowerCase() === part.toLowerCase()
+                  ) ? (
+                    <strong key={i}>{part}</strong>
+                  ) : (
+                    part
+                  )
+                )}
+              </p>
             </div>
             <div className={styles.demoPointsWrapper}>
               {!isMobile && (
@@ -155,8 +171,7 @@ const BookDemo = ({
                   />
                 </div>
                 <div className={styles.pointWrapper}>
-                  <p>Career</p>
-                  <p>Roadmap</p>
+                  <p>{first}</p>
                 </div>
               </div>
               <div className={styles.demoPoint}>
@@ -175,8 +190,7 @@ const BookDemo = ({
                   />
                 </div>
                 <div className={styles.pointWrapper}>
-                  <p>Interact</p>
-                  <p>with mentors</p>
+                  <p>{second}</p>
                 </div>
               </div>
               <div className={styles.demoPoint}>
@@ -195,8 +209,7 @@ const BookDemo = ({
                   />
                 </div>
                 <div className={styles.pointWrapper}>
-                  <p>Interview</p>
-                  <p>Guidance</p>
+                  <p>{third}</p>
                 </div>
               </div>
             </div>

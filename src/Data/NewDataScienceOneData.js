@@ -24,7 +24,6 @@ export const NewDSAData = [
             text1: "Practice ",
             boldText: "Practice with 18+ Real-time Projects & Case Studies",
           },
-         
         ],
         mentorText: "Earn Industry-Ready Certification from",
         mentorFromImg: [
@@ -72,12 +71,7 @@ export const NewDSAData = [
         BotWidth: "70",
         BotHeight: "56",
         svgDSA: <DSASvg />,
-
-        
-        
       },
-      
-      
     ],
     ProgramSection: [
       {
@@ -4794,7 +4788,6 @@ export const NewDSAData = [
           "Front-End Development with React",
           "Back-End Development with Node.js and Express",
           "Database Management with MongoDB",
-          "Connecting Front-End with Back-End",
         ],
         popuplist: [
           {

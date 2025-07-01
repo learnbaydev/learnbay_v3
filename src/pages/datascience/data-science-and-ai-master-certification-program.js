@@ -11,8 +11,11 @@ const ProgramSection = dynamic(() =>
 const DSAPractical = dynamic(() =>
   import("@/components/CoursePage/NewDSA/Practical/DSAPractical")
 );
-const AnimationDSA = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/DSAAnimationNew/DSAAnimationNew")
+const AnimationNew = dynamic(() =>
+  import("@/components/Home/whyChooseSection/Whylb")
+);
+const Other = dynamic(() =>
+  import("@/components/Home/newUI/OtherVS_updated/Other")
 );
 const JobReadySection = dynamic(() =>
   import("@/components/CoursePage/NewDSA/JobReadySection/JobReadySection")
@@ -59,17 +62,17 @@ import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/Updat
 import HighlightsSection from "@/components/CoursePage/newUICourse/Support/HighlightsSection";
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-Master-Certification-v1.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-Master-Certification-v1.pdf";
 
   let soonDate = getDSABookingSoonDate();
   let laterDate = getDSABookingLaterDate();
   // console.log(getDSABookingSoonDate(new Date('2023-03-24')));
   // console.log(getDSABookingLaterDate(new Date('2023-03-24')));
-  
 
   return (
     <>
-    <Head>
+      <Head>
         <title>Best Data Science & AI Online Course - Learnbay</title>
         <meta
           name="description"
@@ -172,7 +175,6 @@ const NewDSA = ({ DSADataJson }) => {
           }}
         />
       </Head>
-
       <main>
         <Navbar
           popup={true}
@@ -195,18 +197,22 @@ const NewDSA = ({ DSADataJson }) => {
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
-        <AlumniCompanies/>
-        <LearningToPlacement/>
-       
-        <ProgramSection
+        <AlumniCompanies />
+        <LearningToPlacement />
+
+        {/* <ProgramSection
           programSectionData={NewDSAData[0].ProgramSection}
           dataScienceCounselling={true}
           interstedInHide={true}
           upSkillingHide={true}
-        />
+        /> */}
         {/* <DSAPractical /> */}
-        <AnimationDSA />
+        <HighlightsSection />
+
+        <AnimationNew />
         <JobReadySection />
+        <ReviewSlider idss="eautK0odE7Q" />
+        <MentorsSection />
         <DSAProjectSection
           dataScience={true}
           interstedInHide={true}
@@ -214,6 +220,7 @@ const NewDSA = ({ DSADataJson }) => {
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf"
           brochurePdf={pdfUrl}
         />
+        <Other />
         <DSASyllabus
           sections={NewDSAData[0].sections}
           dataScience={true}
@@ -224,45 +231,51 @@ const NewDSA = ({ DSADataJson }) => {
           downloadBrochure={true}
         />
 
-<UpdatedCertificate data={NewDSAData[0].Certificate} />
+        <UpdatedCertificate data={NewDSAData[0].Certificate} />
         {/* <Certificate
           noTabs={true}
           data={NewDSAData[0].certificateNew}
           DSAFresherCertHeading={true}
         /> */}
-         <BookDemo
-        dataScienceCounselling={true}
-        interstedInHide={true}
-        upSkillingHide={true}
-        Admission="Admission Process"
-        Content="Our 3-step admission process clearly guides you through checking your eligibility, selecting the right course via expert counselling, and smoothly completing your enrollment. It's designed for simplicity and clarity."
-        // greenButton={true}
-      />
 
         {/* <NewCertificateSection certificateNew={NewDSAData[0].certificateNew} /> */}
-        <FeeSection
-        Fee="₹ 1,40,000 "
-        FeeEmi="₹ 9,177/ month"
-        // Hybrid Classes
-        hybridFee="₹ 1,55,000"
-        hybridEmi="₹ 10,161/ month"
-        // EMIPOPUP
-        emiType="Live online classes"
-        duration1="12 Months"
-        totalAmount1="₹1,90,000"
-        monthlyPayment1="₹14,094"
-        greenDown1="Hybrid Classes"
-        duration2="12 Months"
-        totalAmount2="₹2,10,000"
-        monthlyPayment2="₹12,455"
-        dataScienceCounselling={true}
-        iitGuwatiGen={true}
-        interstedInHide={true}
-      />
-      <HighlightsSection/>
-        <ReviewSlider idss="eautK0odE7Q" />
-        <MentorsSection />
-       
+        <DSAFeeSection
+          Fee="₹ 1,40,000 "
+          FeeEmi="₹ 9,177/ month"
+          // Hybrid Classes
+          hybridFee="₹ 1,55,000"
+          hybridEmi="₹ 10,161/ month"
+          // EMIPOPUP
+          emiType="Live online classes"
+          duration1="12 Months"
+          totalAmount1="₹1,90,000"
+          monthlyPayment1="₹14,094"
+          greenDown1="Hybrid Classes"
+          duration2="12 Months"
+          totalAmount2="₹2,10,000"
+          monthlyPayment2="₹12,455"
+          dataScienceCounselling={true}
+          iitGuwatiGen={true}
+          interstedInHide={true}
+        />
+        <BookDemo
+          dataScienceCounselling={true}
+          interstedInHide={true}
+          upSkillingHide={true}
+          Admission="Admission Process"
+          Content="Our 3-step admission process clearly guides you through checking your eligibility, selecting the right course via expert counselling, and smoothly completing your enrollment. It's designed for simplicity and clarity."
+          highlight={[
+            "3-step admission process",
+            "eligibility",
+            "counselling",
+            "enrollment",
+          ]}
+          first="Eligibility Check"
+          second="Expert Counselling"
+          third="Secure Admission"
+          // greenButton={true}
+        />
+
         <FAQNew FAQNewData={NewDSAData[0].faq} background={true} />
         {/* <Content
           dataScienceCounselling={true}
