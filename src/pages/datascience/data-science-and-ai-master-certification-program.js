@@ -56,6 +56,7 @@ import Newheader from "@/components/CoursePage/newHeader/newHeader";
 import { MasterAI } from "@/Data/Schema/DataScienceAndAIMasterSchema";
 import FeeSection from "@/components/course/feeSection/FeeSectionCourse";
 import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/UpdatedCertificate";
+import HighlightsSection from "@/components/CoursePage/newUICourse/Support/HighlightsSection";
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-Master-Certification-v1.pdf";
@@ -258,6 +259,7 @@ const NewDSA = ({ DSADataJson }) => {
         iitGuwatiGen={true}
         interstedInHide={true}
       />
+      <HighlightsSection/>
         <ReviewSlider idss="eautK0odE7Q" />
         <MentorsSection />
        

@@ -25,7 +25,7 @@ const NewProjectSection = dynamic(() =>
   import("../../Global/NewProjectSection/NewProjectSection")
 );
 
-import HighlightsSection from "@/components/Support/HighlightsSection";
+import HighlightsSection from "@/components/CoursePage/newUICourse/Support/HighlightsSection";
 const FAQNew = dynamic(() => import("../FAQNew/FAQNew"));
 const Content = dynamic(() => import("../Content/content"));
 
