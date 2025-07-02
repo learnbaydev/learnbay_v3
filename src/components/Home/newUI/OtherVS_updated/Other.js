@@ -81,6 +81,7 @@ const Other = () => {
               alt="learnbay"
               loading="lazy"
             />
+            <h4>MasterTrack Certification</h4>
           </div>
 
           {otherData.middleSide.map((content, index) => (
@@ -110,8 +111,8 @@ const Other = () => {
               <div className={styles.rytInside}>
                 <Image
                   src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/cancel.webp"
-                  width={30}
-                  height={30}
+                  width={25}
+                  height={25}
                   alt="icon"
                   priority
                   quality={80}

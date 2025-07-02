@@ -4,21 +4,23 @@ export const NewDSAData = [
   {
     header: [
       {
-        spanTag: "Master GenAI, Agentic AI, RAG and LangChain",
+        spanTag: "Crack your next tech interview",
         spanIcon:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
         title: [
           {
-            text: "Data Science and ",
+            text: "Full Stack",
             color: false,
           },
           {
-            text: "GenAI Master",
+            text: " Software Development ",
             color: true,
-            gradient: "linear-gradient(90deg, #E85868 58.95%, #8081FF 73.36%)",
+            gradient:
+              "linear-gradient(90deg, #FFC436, #F6C37E, #E5B2A9, #B79FD7, #8081FF)",
           },
-          { text: "Certification Program", color: false },
+          { text: " Master Certification", color: false },
         ],
+
         points: [
           {
             id: 1,

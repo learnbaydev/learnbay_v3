@@ -299,7 +299,7 @@ const NewDSA = ({ DSADataJson }) => {
 export default NewDSA;
 
 export async function getStaticProps() {
-  const module = await import("../../Data/NewDataScienceOneData");
+  const module = await import("../../Data/fullstackdata");
   const data = module.default;
 
   const DSADataJson = JSON.stringify(data, (key, value) =>

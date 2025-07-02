@@ -4,21 +4,24 @@ export const NewDSAData = [
   {
     header: [
       {
-        spanTag: "Master GenAI, Agentic AI, RAG and LangChain",
+        spanTag:
+          "Master GenAI-powered Analytics Tools like Copilot & Tableau GPT",
         spanIcon:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
         title: [
           {
-            text: "Data Science and ",
-            color: false,
+            text: "Data Analytics  ",
+            color: true,
+            solid: "#FFC436",
           },
           {
-            text: "GenAI Master",
-            color: true,
-            gradient: "linear-gradient(90deg, #E85868 58.95%, #8081FF 73.36%)",
+            text: "and",
+            color: false,
           },
-          { text: "Certification Program", color: false },
+          { text: " Business Analytics", color: true, solid: "#FFC436" },
+          { text: "  Master Certification Program", color: false },
         ],
+
         points: [
           {
             id: 1,

@@ -1,8 +1,8 @@
 /* LearningToPlacement.module.css */
 .wrapper {
-  background: linear-gradient(125deg, #08093D 3.22%, #141414 84.06%);
+  background: linear-gradient(125deg, #08093d 3.22%, #141414 84.06%);
   color: #ffffff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   padding: 4rem 1rem;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .des {
-  color: #B0B0B0;
+  color: #b0b0b0;
   font-size: 26.635px;
   font-style: normal;
   font-weight: 500;
@@ -40,7 +40,7 @@
 }
 
 .highlight {
-  background: linear-gradient(97deg, #EDBB52 38.18%, #CA3942 79.54%);
+  background: linear-gradient(97deg, #edbb52 38.18%, #ca3942 79.54%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -75,7 +75,7 @@
 }
 
 .skills {
-  color: #FFF;
+  color: #fff;
   font-size: 28.698px;
   font-style: normal;
   font-weight: 500;
@@ -84,17 +84,21 @@
 
 .red {
   border-radius: 15px;
-  background: linear-gradient(180deg, #0C0C30 0%, #CA3942 163.45%);
+  background: linear-gradient(180deg, #0c0c30 0%, #ca3942 163.45%);
 }
 
 .teal {
   border-radius: 15px;
-  background: linear-gradient(177deg, #04C988 -107.23%, #11111F 97.39%);
+  background: linear-gradient(177deg, #04c988 -107.23%, #11111f 97.39%);
 }
 
 .purple {
   border-radius: 15px;
-  background: linear-gradient(181deg, #6F1CC7 -19.06%, rgba(12, 02, 2, 0) 122.7%);
+  background: linear-gradient(
+    181deg,
+    #6f1cc7 -19.06%,
+    rgba(12, 02, 2, 0) 122.7%
+  );
 }
 
 .dark {
@@ -125,13 +129,13 @@
 .bold {
   font-size: 2rem;
   margin-bottom: 0.5rem;
-  color: #FFF;
+  color: #fff;
   font-weight: 600;
   line-height: 126.5%;
 }
 
 .boldYellow {
-  color: #EF0;
+  color: #ef0;
   text-align: center;
   font-size: 45.485px;
   font-style: normal;
@@ -164,7 +168,11 @@
 
 .left {
   border-radius: 15px;
-  background: linear-gradient(181deg, #6F1CC7 -19.06%, rgba(16, 16, 34, 0.00) 122.7%);
+  background: linear-gradient(
+    181deg,
+    #6f1cc7 -19.06%,
+    rgba(16, 16, 34, 0) 122.7%
+  );
   padding: 5px 2rem;
   display: flex;
   flex-direction: column;
@@ -173,7 +181,7 @@
 }
 
 .pTag {
-  color: #FFF;
+  color: #fff;
   font-size: 35.814px;
   font-style: normal;
   font-weight: 700;
@@ -182,16 +190,16 @@
 }
 
 .green {
-  color: #04C988;
+  color: #04c988;
 }
 
 .nor {
-  color: #FFF;
+  color: #fff;
   font-weight: 300;
 }
 
 .learn {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-size: 20.278px;
   font-style: normal;
@@ -211,15 +219,14 @@
   padding: 2rem;
   align-items: center;
   /* background: linear-gradient(270deg, #272935 0%, #00092A 100%); */
-  background: linear-gradient(70deg, #AF8104 -10%, #161617 18%);
+  background: linear-gradient(70deg, #af8104 -10%, #161617 18%);
   border-radius: 15px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   justify-content: space-around;
-  
 }
 
 .capLeft {
-  background: linear-gradient(122deg, #FFC752 25.75%, #785202 60.79%);
+  background: linear-gradient(122deg, #ffc752 25.75%, #785202 60.79%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -230,26 +237,25 @@
 .capLeft span {
   font-weight: 600;
   font-size: 60px;
-  color: #FEC008;
+  color: #fec008;
 }
 
 .capRight h5 {
-  color: #FFF;
+  color: #fff;
   font-size: 40.819px;
   font-style: normal;
   font-weight: 500;
   line-height: 126.5%; /* 65.551px */
   color: #ffffff;
   margin-bottom: 10px;
-
 }
 
 .capRight p {
-  color: #FFF;
-font-size:25.698px;
-font-style: normal;
-font-weight: 400;
-line-height: 126.5%; /* 45.158px */
+  color: #fff;
+  font-size: 25.698px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 126.5%; /* 45.158px */
   color: #ffffffcc;
 }
 
@@ -262,7 +268,7 @@ line-height: 126.5%; /* 45.158px */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(70deg, #AF8104 -10%, #161617 18%);
+  background: linear-gradient(70deg, #af8104 -10%, #161617 18%);
   /* padding: 1.8rem 2rem; */
   border-radius: 15px;
   flex-wrap: wrap;
@@ -270,10 +276,10 @@ line-height: 126.5%; /* 45.158px */
 }
 
 .supportText {
-  padding: 31px 50px;
+  padding: 31px 27px;
 }
 .supportText h5 {
-  color: #EDBB52;
+  color: #edbb52;
   font-size: 30px;
   font-style: normal;
   font-weight: 600;
@@ -289,16 +295,15 @@ line-height: 126.5%; /* 45.158px */
   font-size: 16px;
   color: #ffffff;
   max-width: 400px;
-  color: #FFF;
-font-size: 24.698px;
-font-style: normal;
-font-weight: 400;
-line-height: 126.5%; /* 45.158px */
+  color: #fff;
+  font-size: 24.698px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 126.5%; /* 45.158px */
 }
 
 .supportVideo img {
   border-radius: 10px;
   width: 280px;
   height: auto;
-  
 }

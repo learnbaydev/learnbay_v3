@@ -6,6 +6,7 @@ import PopupContent from "@/components/Global/PopupContent/PopupContent";
 
 const Newheader = ({
   spanTag,
+  title,
   spanIcon,
   OrangeButton,
   title1,
@@ -75,8 +76,39 @@ const Newheader = ({
         />
         <div className={styles.contentTitleWrapper}>
           <h1>
-            {title1} <span>{orgTitle}</span> {title2}
+            {Array.isArray(title) &&
+              title.map((part, index) => {
+                if (part.color) {
+                  if (part.gradient) {
+                    return (
+                      <span
+                        key={index}
+                        style={{
+                          background: part.gradient,
+                          WebkitBackgroundClip: "text",
+                          WebkitTextFillColor: "transparent",
+                        }}
+                      >
+                        {part.text}
+                      </span>
+                    );
+                  }
+                  if (part.solid) {
+                    return (
+                      <span key={index} style={{ color: part.solid }}>
+                        {part.text}
+                      </span>
+                    );
+                  }
+                }
+                return (
+                  <span key={index} style={{ color: "#fff" }}>
+                    {part.text}
+                  </span>
+                );
+              })}
           </h1>
+
           <h5>{spanTag}</h5>
           {/* <div className={styles.svgWrapper}>
           <svg
@@ -125,17 +157,17 @@ const Newheader = ({
               </p>
               {index === 0 && (
                 <div className={styles.staticPoints}>
-                <p>Backend Engineering </p>
-                <p>and GenAI </p>
-                <p>Specialisation</p>
-              </div>
+                  <p>Backend Engineering </p>
+                  <p>and GenAI </p>
+                  <p>Specialisation</p>
+                </div>
               )}
               {index === 1 && (
                 <div className={styles.staticPoints}>
-                <p>Practice 200+ </p>
-                <p>DSA Problems & </p>
-                <p>System Design Projects</p>
-              </div>
+                  <p>Practice 200+ </p>
+                  <p>DSA Problems & </p>
+                  <p>System Design Projects</p>
+                </div>
               )}
             </div>
           ))}
@@ -160,11 +192,7 @@ const Newheader = ({
           </div>
           <div className={styles.buttonsWrapper}>
             <div onClick={requestDemoShow} className={styles.newDsaGrayBtn}>
-              <Button
-                text="View Roadmap"
-                newButton={true}
-                grayButton={true}
-              />
+              <Button text="View Roadmap" newButton={true} grayButton={true} />
             </div>
             <div onClick={popupShow} className={styles.newDsaNewBlueBtn}>
               <Button
