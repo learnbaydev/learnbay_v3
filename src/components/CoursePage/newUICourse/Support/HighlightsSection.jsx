@@ -1,7 +1,7 @@
-import React from 'react';
-import styles from './HighlightsSection.module.css';
-import Image from 'next/image';
-import highlightsData from './highlightsData';
+import React from "react";
+import styles from "./HighlightsSection.module.css";
+import Image from "next/image";
+import highlightsData from "./highlightsData";
 
 const HighlightsSection = () => {
   return (
@@ -29,33 +29,37 @@ const HighlightsSection = () => {
               <div className={styles.left}>
                 <div
                   className={styles.top}
-                  style={{ borderColor: item.tagColor, background: `${item.tagColor}33` }}
+                  style={{
+                    borderColor: item.tagColor,
+                    background: `${item.tagColor}33`,
+                  }}
                 >
                   <span style={{ color: item.tagColor }}>{item.tag}</span>
                 </div>
-                <h5 className={styles.h5} style={{ color: item.headingColor }}>{item.heading}</h5>
+                <h5 className={styles.h5} style={{ color: item.headingColor }}>
+                  {item.heading}
+                </h5>
                 <p
-  className={styles.desc}
-  style={{
-    color: item.descColor,
-    maxWidth: item.descWidth ? `${item.descWidth}px` : '100%',
-  }}
->
-  {item.description.split(" ").map((word, i) =>
-    word.includes("product-based") ||
-    word.includes("real-world") ||
-    word.includes("sharpen") ||
-    word.includes("enterprise") ||
-    word.includes("hiring") ? (
-      <span key={i} className={styles.dark}>
-        {word + " "}
-      </span>
-    ) : (
-      word + " "
-    )
-  )}
-</p>
-
+                  className={styles.desc}
+                  style={{
+                    color: item.descColor,
+                    maxWidth: item.descWidth ? `${item.descWidth}px` : "100%",
+                  }}
+                >
+                  {item.description.split(" ").map((word, i) =>
+                    word.includes("product-based") ||
+                    word.includes("real-world") ||
+                    word.includes("sharpen") ||
+                    word.includes("enterprise") ||
+                    word.includes("hiring") ? (
+                      <span key={i} className={styles.dark}>
+                        {word + " "}
+                      </span>
+                    ) : (
+                      word + " "
+                    )
+                  )}
+                </p>
               </div>
 
               <div
@@ -67,7 +71,7 @@ const HighlightsSection = () => {
                   alt="highlight-img"
                   width={item.width}
                   height={item.height}
-                  style={{ objectFit: 'contain' }}
+                  style={{ objectFit: "contain" }}
                   loading="lazy"
                 />
               </div>

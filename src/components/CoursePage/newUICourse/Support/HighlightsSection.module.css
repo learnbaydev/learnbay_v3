@@ -22,7 +22,7 @@
 }
 
 .titleDiv span {
-  background: linear-gradient(90deg, #4D4FCD 76.43%, #FE7A36 100%);
+  background: linear-gradient(90deg, #4d4fcd 76.43%, #fe7a36 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -83,7 +83,7 @@
 .h5 {
   font-size: 28.9px;
   font-weight: 700;
-  color: #873E18;
+  color: #873e18;
   text-transform: uppercase;
   padding-bottom: 15px;
 }
@@ -116,4 +116,40 @@
 
 .dark {
   font-weight: 600;
+}
+@media (max-width: 768px) {
+  .desc {
+    font-size: 20.2px;
+    font-weight: 400;
+    color: #525252;
+    line-height: 1.5;
+    width: 100%;
+  }
+  .left {
+    flex: 1;
+    margin-bottom: 20px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 0% 20px;
+    gap: 40px;
+    justify-content: center;
+    margin: 50px 0;
+  }
+  .box {
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+  }
+  .right {
+    display: none;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: -20px !important;
+    right: -42px;
+  }
 }
