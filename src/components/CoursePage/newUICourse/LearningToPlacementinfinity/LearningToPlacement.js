@@ -72,15 +72,19 @@ const LearningToPlacement = ({ time, guided }) => {
           <div className={styles.right}>
             <div className={styles.capstoneBox}>
               <div className={styles.capLeft}>
-                6<span>+</span>
+                <img
+                  src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Frame.webp"
+                  alt="Mock Interview Icon"
+                  className={styles.capImage} // optional: add this class if you want to control styling
+                />
               </div>
               <div className={styles.capRight}>
-                <h5>
-                  Industrial <strong>Capstone</strong> Projects
+                <h5 className={styles.orange}>
+                  <strong> Mock Interview</strong>
                 </h5>
                 <p>
-                  Co-built with top companies for <br />
-                  <strong>practical exposure</strong>
+                  Practice with seasoned professionals and FAANG experts to
+                  crack interviews
                 </p>
               </div>
             </div>

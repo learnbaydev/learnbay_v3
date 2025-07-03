@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import styles from "./ProgramSection.module.css";
 import Image from "next/image";
+const Popup = dynamic(() => import("@/components/Global/Popup/Popup"));
+const Form = dynamic(() => import("@/components/Global/Form/Form"));
+import dynamic from "next/dynamic";
 import {
   Award,
   Users,
@@ -13,7 +16,12 @@ import { programCards } from "./programData";
 // import ScrollTracker from "./ScrollTracker/ScrollTracker";
 
 const ProgramSection = () => {
+  const [popups, setPopups] = useState(false);
   const [showAll, setShowAll] = useState(false);
+  const [brochureLinks, setBrochureLinks] = useState();
+  const [brochurePdfs, setBrochurePdfs] = useState();
+  const [selectedCard, setSelectedCard] = useState(null);
+
   // const displayedCards = showAll ? programCards : programCards.slice(0, 3);
   const displayedCards = programCards;
 
@@ -44,7 +52,7 @@ const ProgramSection = () => {
         <div className={styles.mainContent}>
           {/* <ScrollTracker cardCount={displayedCards.length} /> */}
           <div className={styles.cardsContainer} id="program-scroll-section">
-            {displayedCards.map((card) => (
+            {displayedCards.map((card, i) => (
               <div
                 key={card.id}
                 className={`${styles.card} ${styles[card.theme]}`}
@@ -152,14 +160,64 @@ const ProgramSection = () => {
                         </div>
                       </div>
                       <div className={styles.actionButtons}>
-                        <a
-                          href={card.brochureUrl}
+                        <Popup
+                          trigger={popups}
+                          setTrigger={setPopups}
+                          className="popupModal"
+                          downloadBrochure
+                        >
+                          <div className="leftPopup">
+                            <div
+                              className="whiteP"
+                              style={{ width: "340px", height: "400px" }}
+                            ></div>
+                          </div>
+                          <div className="RightPopup">
+                            <h5>Download Syllabus</h5>
+                            <Form
+                              titleCourse={displayedCards[selectedCard]?.title}
+                              brochureLink={
+                                displayedCards[selectedCard]?.brochureUrl
+                              }
+                              brochurePdf={displayedCards[selectedCard]?.pdfUrl}
+                              dataScience={
+                                displayedCards[selectedCard]?.dataScience
+                              }
+                              dataScienceCounselling={
+                                displayedCards[selectedCard]
+                                  ?.dataScienceCounselling
+                              }
+                              dataScienceGeneric={
+                                displayedCards[selectedCard]
+                                  ?.dataScienceCounselling
+                              }
+                              radio={
+                                displayedCards[selectedCard]
+                                  ?.dataScienceCounselling
+                              }
+                              downloadBrochure
+                              upSkillingHide={true}
+                              interstedInHide={
+                                displayedCards[selectedCard]
+                                  ?.dataScienceCounselling
+                              }
+                            />
+                          </div>
+                        </Popup>
+                        <button
                           className={styles.brochureButton}
+                          onClick={() => {
+                            setSelectedCard(i);
+                            setPopups(true);
+                          }}
                         >
                           Download Brochure
-                        </a>
-                        <a href="#" className={styles.applyButton}>
-                          Apply Now
+                        </button>
+                        <a
+                          href={card.detailsUrl}
+                          className={styles.applyButton}
+                        >
+                          View Details
                         </a>
                       </div>
                     </div>
@@ -175,12 +233,15 @@ const ProgramSection = () => {
                       </span>
                     </div>
                     <div className={styles.actionButtonsphone}>
-                      <a
-                        href={card.brochureUrl}
+                      <button
                         className={styles.brochureButton}
+                        onClick={() => {
+                          setSelectedCard(i);
+                          setPopups(true);
+                        }}
                       >
                         Download Brochure
-                      </a>
+                      </button>
                       <a href="#" className={styles.applyButton}>
                         Apply Now
                       </a>

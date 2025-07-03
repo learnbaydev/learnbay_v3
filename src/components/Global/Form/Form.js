@@ -56,7 +56,7 @@ const Form = ({
     upskillingObjective: "",
     platform: "",
     workExperience: "",
-    WorkExperience:"",
+    WorkExperience: "",
     Brief: "",
     dateTime: "",
     WAdropdown: "",
@@ -112,7 +112,7 @@ const Form = ({
 
     // If genAISelectOption is true, set platform to "generative ai"
     if (genAISelectOption) {
-        updatedQuery.platform = "Generative AI";
+      updatedQuery.platform = "Generative AI";
     }
     const formData = new FormData();
     Object.entries(updatedQuery).forEach(([key, value]) => {
@@ -157,7 +157,7 @@ const Form = ({
           jobDescription: "",
           platform: "",
           workExperience: "",
-          WorkExperience:"",
+          WorkExperience: "",
           dateTime: "",
           WAdropdown: "",
           currentOrganization: "",
@@ -214,19 +214,19 @@ const Form = ({
 
   // const downloadFileAtUrl = async (url) => {
   //   const fileName = url.split("/").pop();
-  
+
   //   try {
   //     const response = await fetch(url, {
   //       mode: "cors",
   //     });
-  
+
   //     if (!response.ok) {
   //       throw new Error("Network response was not ok");
   //     }
-  
+
   //     const blob = await response.blob();
   //     const blobUrl = window.URL.createObjectURL(blob);
-  
+
   //     const a = document.createElement("a");
   //     a.href = blobUrl;
   //     a.style.display = "none";
@@ -234,7 +234,7 @@ const Form = ({
   //     document.body.appendChild(a);
   //     a.click();
   //     document.body.removeChild(a);
-  
+
   //     window.URL.revokeObjectURL(blobUrl);
   //   } catch (error) {
   //     console.error("Download failed:", error);
@@ -242,16 +242,18 @@ const Form = ({
   // };
 
   const downloadFileAtUrl = (url) => {
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = url.split("/").pop(); 
-  // a.target = "_blank";
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-};
+    console.log("2: ", url);
 
-  
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = url.split("/").pop();
+    // a.target = "_blank";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    // return;
+  };
+
   const fetchLocation = async () => {
     try {
       const response = await fetch(
@@ -263,7 +265,7 @@ const Form = ({
         );
       }
       const data = await response.json();
-      console.log("API Response:", data);
+      // console.log("API Response:", data);
       const { country, region, city } = data;
       // If city is not available, provide a default value or placeholder
       const finalCity = city ? city : "Unknown";

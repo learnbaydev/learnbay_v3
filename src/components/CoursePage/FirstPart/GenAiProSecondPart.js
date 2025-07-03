@@ -8,7 +8,7 @@ import DSAFeeSection from "../dsaFee/DSAFeeSection";
 import NewTools from "../newTools/NewTools";
 import GenAIProject from "../genAiProject/GenAIProject";
 import FAQNew from "../FAQNew/FAQNewDomain";
-import Content from '../../../components/CoursePage/Content/content'
+import Content from "../../../components/CoursePage/Content/content";
 const Certificate = dynamic(() =>
   import("../../../components/CoursePage/Certificate/Certificate")
 );
@@ -28,7 +28,8 @@ const GenAiProSecondPart = ({
 }) => {
   // console.log(popupData);
 
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/GenAI-Developer-Program.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/GenAI-Developer-Program.pdf";
   return (
     <div>
       <LJourney />
@@ -50,9 +51,8 @@ const GenAiProSecondPart = ({
       {/* <NewCertificateSection certificateNew={certificateNew} /> */}
 
       <DSAFeeSection
-      
-        Fee="₹ 95,000"
-        FeeEmi="₹ 6,228/month"
+        Fee="₹ 1,25,000"
+        FeeEmi="₹ 10,416/month"
         weekendbatch="Weekday Evening "
         weekdaybatch="Weekday Evening "
         weekday="MON-WED-FRI"
@@ -71,7 +71,6 @@ const GenAiProSecondPart = ({
         duration2="12 Months"
         totalAmount2="₹95,000"
         monthlyPayment2="₹9,342"
-
         dataScienceCounselling={true}
         iitGuwatiGen={true}
         interstedInHide={true}
@@ -82,7 +81,7 @@ const GenAiProSecondPart = ({
       <GenAIProject genAiData={genAiData} Duration={true} />
       <FAQNew FAQNewData={FAQNewData} />
       {/* <Content dataScienceCounselling={true} DSASeoContent={true} /> */}
-      <Content GenAIDevelopers={true} background={true}/>
+      <Content GenAIDevelopers={true} background={true} />
       <SeventhSection />
       <Footer />
       <BottomBar dataScienceCounselling={true} interstedInHide={true} />

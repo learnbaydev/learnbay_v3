@@ -5,21 +5,21 @@ export const NewDSAData = [
     header: [
       {
         spanTag:
-          "Master GenAI-powered Analytics Tools like Copilot & Tableau GPT",
+          "Use GenAI tools to analyze data, forecast trends, and guide strategic actions.",
         spanIcon:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
         title: [
           {
-            text: "Data Analytics  ",
+            text: "Generative AI ",
             color: true,
             solid: "#FFC436",
           },
           {
-            text: "and",
+            text: "and ",
             color: false,
           },
-          { text: " Business Analytics", color: true, solid: "#FFC436" },
-          { text: "  Master Certification Program", color: false },
+          { text: "Agentic AI ", color: true, solid: "#FFC436" },
+          { text: "for Managers & Leaders", color: false },
         ],
 
         points: [
@@ -27,14 +27,14 @@ export const NewDSAData = [
             id: 1,
             img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/firstPoint.webp",
             imgAlt: "DSA First Point",
-            text1: "Integrated With Gen-AI for Working Professionals",
+            text1: "Specially designed for Senior Leaders and Managers",
           },
           {
             id: 2,
             img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/secondPoint.webp",
             imgAlt: "DSA Second Point",
-            text1: "Practice ",
-            boldText: "Practice with 18+ Real-time Projects & Case Studies",
+            text1: "Practice with ",
+            boldText: "80+ Real-time Problem Solving Techniques",
           },
         ],
         mentorText: "Earn Industry-Ready Certification from",
@@ -51,13 +51,6 @@ export const NewDSAData = [
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
             imgAlt: "IBM Logo",
             width: "60",
-            height: "30",
-          },
-          {
-            id: 3,
-            img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Microsoft.webp",
-            imgAlt: "image",
-            width: "130",
             height: "30",
           },
         ],
@@ -138,56 +131,6 @@ export const NewDSAData = [
         formProps: {},
       },
     ],
-    projectSection: [
-      {
-        id: 1,
-        duration: "12 Hours",
-        logo: "",
-        heading:
-          "Learn and develop classification techniques for the digital transformation of banking",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+675+(1)-min.png",
-        para: "JPMorgan offers tax-friendly insurance choices. You can help them forecastinsurance premiums. Targeted marketing using your random forest algorithm skills can help obtain better premium values.",
-        toolImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/morgan-strip.webp",
-        learnMore: "Learn more",
-      },
-      {
-        id: 2,
-        duration: "17 Hours",
-        logo: "",
-        heading:
-          "Building a content recommendation model on the basis of regional viewer categorization",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+674-min.png",
-        para: "Netflix is a global entertainment video streaming site. They offer content in various regional languages. Build a local recommendation engine for Netflix customers residing in south Bangalore on their weekend and weekdays activities, utilizing NLP.",
-        toolImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Netfliix.webp",
-        learnMore: "Learn more",
-      },
-      {
-        id: 3,
-        duration: "14 Hours",
-        logo: "",
-        heading:
-          "Understanding in-depth about logging while drilling (LWD) technique",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+683-min.png",
-        para: "Saudi Aramco company is working onthe development of high-efficiency drilling models. Use the bright sides of big data analytics to identify the most cost-effective and highly productive drilling sites.",
-        toolImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/saudi-aramco-strip.webp",
-        learnMore: "Learn more",
-      },
-      {
-        id: 4,
-        duration: "19 Hours",
-        logo: "",
-        heading:
-          "Career progression planning of employees with workforce defections & efficiency",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+688-min.png",
-        para: "IBM intends to boost its HR department by identifying employees' masked inconsistency. They need models to identify the graphical variations in their 14000+ employees' performances. Help them build models with your regressions and other ML abilities.",
-        toolImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/IBM-Strip.webp",
-        learnMore: "Learn more",
-      },
-    ],
     sections: [
       {
         id: "0",
@@ -195,7 +138,7 @@ export const NewDSAData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-icon-left.webp",
         width: 80,
         height: 80,
-        title: "TERM 1",
+        title: "Module 0",
         toolsImg:
           "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/java_python.png",
         imageSizes: {
@@ -204,14 +147,14 @@ export const NewDSAData = [
           md: { width: 160, height: 38 },
           lg: { width: 160, height: 38 },
         },
-        description: "Excel",
+        description: "Programming Fundamentals",
         duration: "2-3 weeks",
         contentModule: "Topics Covered",
         contentDescription: "",
         contentDetails: [
-          "Introduction to Excel",
-          "Data Cleaning and Preparation in Excel",
-          "Data Analysis with Excel",
+          "Introduction to Programming",
+          "Object-Oriented Programming (OOP)",
+          "OOP practice problems (e.g., real-world object modeling)",
         ],
         popuplist: [
           {
@@ -968,7 +911,7 @@ export const NewDSAData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/user-setting.webp",
         width: 80,
         height: 80,
-        title: "TERM 2",
+        title: "TERM 1",
         toolsImg:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/java-networkX.webp",
         imageSizes: {
@@ -977,14 +920,14 @@ export const NewDSAData = [
           md: { width: 170, height: 26 },
           lg: { width: 200, height: 32 },
         },
-        description: "Statistics using R",
+        description: "Data Structures & Algorithms",
         duration: "3.5 Months",
         contentModule: "Topics Covered",
         contentDescription: "",
         contentDetails: [
-          "Understanding Events",
-          "Population vs Sample in R",
-          "Introduction to Statistics, Statistical Thinking",
+          "Foundations of Data Structures and Algorithms",
+          "Time and Space Complexity",
+          "Advanced Data Structures and Algorithms",
         ],
         popuplist: [
           {
@@ -1741,7 +1684,7 @@ export const NewDSAData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/visualization-icon.webp",
         width: 80,
         height: 80,
-        title: "TERM 3",
+        title: "TERM 2",
         toolsImg:
           "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/python+git_11zon.webp",
         imageSizes: {
@@ -1750,14 +1693,14 @@ export const NewDSAData = [
           md: { width: 170, height: 50 },
           lg: { width: 190, height: 57 },
         },
-        description: "Data Visualization & Data Analysis",
+        description: "Computer Fundamentals",
         duration: "1 Month",
         contentModule: "Topics Covered",
         contentDescription: "",
         contentDetails: [
-          "SQL and Databases",
-          "Advance SQL",
-          "NoSQL, HBase & MongoDB",
+          "Networking Fundamentals(Network Security: Firewalls, NAT)",
+          "Programming Concepts and Problem-Solving(Complexity Analysis Basics)",
+          "Version Control Systems(Git and GitHub Essentials)",
         ],
         popuplist: [
           {
@@ -2514,7 +2457,7 @@ export const NewDSAData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/brainMans.webp",
         width: 80,
         height: 80,
-        title: "TERM 4",
+        title: "TERM 3",
         toolsImg:
           "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/kafta+sql+mongodb_11zon.webp",
         imageSizes: {
@@ -2523,14 +2466,14 @@ export const NewDSAData = [
           md: { width: 260, height: 32 },
           lg: { width: 280, height: 36 },
         },
-        description: "Business Analytics + Deployment",
+        description: "System Design : LLD + HLD",
         duration: "2.5 Months",
         contentModule: "Topics Covered",
         contentDescription: "",
         contentDetails: [
-          "Introduction and Data Preparation",
-          "Data Collection and Cleaning",
-          "Descriptive and Predictive Analytics",
+          "Low-Level Design (LLD) - 9 Chapters",
+          "SOLID Principles for Effective Design",
+          "Introduction to System Architecture and Design",
         ],
         popuplist: [
           {
@@ -3287,7 +3230,7 @@ export const NewDSAData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/brain-setting.webp",
         width: 80,
         height: 80,
-        title: "TERM 5",
+        title: "Elective 1",
         toolsImg:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/chatGpt-syntesia-githubCopilot.webp",
         imageSizes: {
@@ -3296,14 +3239,2333 @@ export const NewDSAData = [
           md: { width: 230, height: 24 },
           lg: { width: 300, height: 30 },
         },
-        description: "Generative AI",
+        description: "GenAI for Software Developers",
         duration: "70-75 hrs",
         contentModule: "Topics Covered",
         contentDescription: "",
         contentDetails: [
-          "Fundamentals of Generative AI",
-          "Use Cases of GenAI in Various Industries and Domains",
-          "Prompt Engineering and optimisation",
+          "GenAI for Software Developers",
+          "Integration of OpenAI APIs",
+          "Prompt Engineering",
+        ],
+        popuplist: [
+          {
+            term: "Module 0",
+            title: "Programming Fundamentals",
+            duration: "40-50 hrs",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: " Introduction to Programming",
+                moduleList: [
+                  "Basics of programming and Java installation (JDK, IDE like IntelliJ, Eclipse)",
+                  "Writing and running your first Java program (e.g., Hello World)",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Variables, Data Types, and Operators",
+                moduleList: [
+                  "Variables: Declaration, Initialization, Scope in Java",
+                  "Data types: int, float, double, char, boolean",
+                  "Operators: Arithmetic, Relational, Logical, Assignment,Increment/Decrement",
+                  "Input and output in Java: Scanner class and System.out.println",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Control Flow",
+                moduleList: [
+                  "Conditional statements: if, else if, else",
+                  "Switch-case in Java",
+                  "Loops: for, while, do-while",
+                  "Break and continue",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: " Functions (Methods)",
+                moduleList: [
+                  "Defining and calling methods in Java",
+                  "Method parameters, return types, and scope",
+                  "Method overloading",
+                  "Recursion in Java",
+                ],
+              },
+              {
+                moduleTitle: "Section 5",
+                moduleContent: "Arrays and Strings",
+                moduleList: [
+                  "Arrays: Declaration, initialization, and traversal",
+                  "Multidimensional arrays",
+                  "Strings: String class methods, concatenation, comparison, and manipulation",
+                ],
+              },
+              {
+                moduleTitle: "Section 6",
+                moduleContent: " Object-Oriented Programming (OOP)",
+                moduleList: [
+                  "Classes and Objects",
+                  "Constructors and destructors",
+                  "Encapsulation, Inheritance, Polymorphism, Abstraction",
+                  "Access modifiers: private, public, protected",
+                  "Static and non-static members",
+                  "OOP practice problems (e.g., real-world object modeling)",
+                ],
+              },
+            ],
+          },
+          {
+            term: "TERM 1",
+            title: " Data Structures & Algorithms",
+            duration: "3.5 Months",
+            modules: [
+              {
+                sectionTitle:
+                  "Part 2:-Foundations of Data Structures and Algorithms",
+                moduleTitle: "Section 1",
+                moduleContent: "Time and Space Complexity",
+                moduleList: [
+                  "Understanding Performance: Importance of complexity analysis in interviews",
+                  "Big O Notation: Common complexities and how to analyze them during coding interviews.",
+                  "Space Complexity: Optimizing memory usage in data structure choices.",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Arrays",
+                moduleList: [
+                  "Array Basics: Efficiently handling and manipulating arrays.",
+                  "Operations: Insertion, deletion, searching, and updating—focus on interview",
+                  "Two-Dimensional Arrays: Common problems like matrix manipulation.",
+                  "Sample Practice Problems:",
+                  "Maximum element in an array, Reverse an array, Minimum element in an array, Sorted array check, Count occurrences.",
+                  "Rotate an array, Merge sorted arrays, Intersection of arrays, Move zeroes, Pairs with given sum",
+                  "Longest increasing subsequence, Maximum subarray sum, Longest common subsequence, Minimum path sum, Maximum product subarray",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Linked Lists",
+                moduleList: [
+                  "Singly Linked List: Creation, traversal, insertion, and deletion.",
+
+                  "Doubly and Circular Linked Lists: Differences and use cases; related problems.",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Sample Practice Problems:",
+                moduleList: [
+                  "Middle element of a linked list, Detect a loop in a linked list, Length of a linked list, Check if a linked list is a palindrome,Merge two linked lists",
+                  "Reverse a linked list, Add two numbers represented by linked lists, Rotate a linked list, Find the start of the loop, Partition a linked list around a value.",
+                  "Remove the N-th node from the end, Flatten a multilevel doubly linked list, Reorder a linked list,Clone a linked list with next and random, pointers, Split a linked list into two halves",
+                ],
+              },
+              {
+                moduleTitle: "Section 5",
+                moduleContent: " Stacks and Queues",
+                moduleList: [
+                  "Understanding Concepts: LIFO and FIFO principles—common in problem statements.",
+                  "Operations: Implementing stacks and queues efficiently.",
+                  "Priority Queues and Dequeues: Applications in interview questions.",
+                ],
+              },
+              {
+                moduleTitle: "Section 6",
+                moduleContent: "Sample Practice Problems:",
+                moduleList: [
+                  "Check for balanced parentheses, Implement a stack using linked list, Implement a stack using an array,",
+                  "Implement a queue using stacks, Evaluate a postfix expression, Implement a double-ended queue (Deque), Generate binary numbers from 1 to N, Reverse a queue.",
+                  "Implement a queue using a circular array, Design a stack that supports duplicate elements, Evaluate infix expressions.",
+                ],
+              },
+              {
+                sectionTitle:
+                  "Part 2 :- Advanced Data Structures and Algorithms",
+                moduleTitle: "Section 7",
+                moduleContent: " Recursion and Backtracking",
+                moduleList: [
+                  "Mastering Recursion: Key concepts and base cases crucial for problem- solving",
+                  "Divide and Conquer: Understanding its application in interviews.",
+                  "Backtracking: Common problems like N-Queens, Sudoku.",
+                ],
+              },
+              {
+                moduleTitle: "Section 8",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Calculate the factorial of a number, Fibonacci sequence using recursion, Tower of Hanoi, Sum of digits of a number.",
+                  "Generate all subsets of a set, Solve the N-Queens problem, Generate permutations of a string, Rat in a maze.",
+                  "Solve the Sudoku puzzle, Permutations of a string, Word search, Generate all valid parentheses, Subset sum problem.",
+                ],
+              },
+              {
+                moduleTitle: "Section 9",
+                moduleContent: " Searching Algorithms",
+                moduleList: [
+                  "Linear vs Binary Search: Time complexities and when to use which.",
+                  "Advanced Searches: Ternary search and applications.",
+                  "Backtracking: Common problems like N-Queens, Sudoku.",
+                ],
+              },
+              {
+                moduleTitle: "Section 10",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Basic: Linear search in sorted array, Find minimum in array, Find maximum in array, Reverse an array, Find unique element in array",
+                  "Intermediate: Binary search in sorted array, Search in rotated sorted array, k-th smallest element in array",
+                  "Advanced: First and last position of element in sorted array, Square root using binary search, Median of two sorted arrays, Find smallest pair sum",
+                ],
+              },
+              {
+                moduleTitle: "Section 11",
+                moduleContent: " Sorting Algorithms",
+                moduleList: [
+                  "Simple Sorting Algorithms: Bubble, selection, insertion—understanding their performance.",
+                  "Advanced Sorting Algorithms: Merge sort, quick sort—key algorithms in interviews.",
+                  "Backtracking: Common problems like N-Queens, Sudoku.",
+                ],
+              },
+              {
+                moduleTitle: "Section 12",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Bubble sort, Selection sort, Insertion sort, Sort array of 0s, 1s, and 2s, Merge two sorted arrays",
+                  "Merge sort, Quick sort, Heap sort, Counting sort ",
+                  "Sort nearly sorted array, K-th largest element in unsorted array, Find median of two sorted arrays, Find minimum difference pair in array",
+                ],
+              },
+              {
+                moduleTitle: "Section 13",
+                moduleContent: " Hashing",
+                moduleList: [
+                  "Hash Tables and Hash Functions: Importance in optimizing search operations.",
+                  "Collision Handling Techniques: Techniques to handle collisions effectively. ",
+                  "Hash Table Implementations",
+                ],
+              },
+              {
+                moduleTitle: "Section 14",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Count frequencies of elements in an array.",
+                  "Two-sum problem, Find the first non-repeating character in a string. ",
+                  "Longest consecutive sequence, Group anagrams from a list of strings.",
+                ],
+              },
+              {
+                moduleTitle: "Section 15",
+                moduleContent: "Trees",
+                moduleList: [
+                  "Binary Trees: Understanding traversal techniques (inorder, preorder, postorder).",
+                  "Binary Search Trees (BSTs): Key operations and their complexities. ",
+                  "Balanced Trees (AVL, Red-Black): Importance of balancing in interviews.",
+                ],
+              },
+              {
+                moduleTitle: "Section 16",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Implement binary tree traversals, Count the number of nodes in a binary tree.",
+                  "Validate a binary search tree, Find the height of a binary tree.",
+                  "Lowest common ancestor in a binary tree, Serialize and deserialize a binary tree.",
+                ],
+              },
+              {
+                moduleTitle: "Section 17",
+                moduleContent: "Tries",
+                moduleList: [
+                  "Understanding Tries: Structure and its applications in string problems.",
+                  "Insertion and Search Operations: Common tasks to practice.",
+                ],
+              },
+              {
+                moduleTitle: "Section 18",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Insert and search in a trie.",
+                  "Find all words with a given prefix, Count distinct substrings.",
+                  "Implement autocomplete system, Implement a phone directory.",
+                ],
+              },
+              {
+                moduleTitle: "Section 19",
+                moduleContent: "Heaps",
+                moduleList: [
+                  "Max-Heaps and Min-Heaps: Key properties and operations.",
+                  "Heap Applications: Priority queues and their importance in algorithms.",
+                ],
+              },
+              {
+                moduleTitle: "Section 20",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Build a max heap from an array, Find the maximum element in a heap.",
+                  "Implement heap sort, K-th largest element in a stream using a min heap.",
+                  "Merge k sorted linked lists, Top k frequent elements in an array.",
+                ],
+              },
+              {
+                moduleTitle: "Section 21",
+                moduleContent: "Greedy Algorithms",
+                moduleList: [
+                  "Understanding Greedy Strategy: When to apply greedy methods in problem-solving.",
+                ],
+              },
+              {
+                moduleTitle: "Section 22",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Coin change problem (greedy version), Activity selection problem.",
+                  "Job sequencing problem, Fractional knapsack problem.",
+                  "Huffman coding, Minimum spanning tree using Prim's or Kruskal's algorithm.",
+                ],
+              },
+              {
+                moduleTitle: "Section 23",
+                moduleContent: "Dynamic Programming (DP)",
+                moduleList: [
+                  "Introduction to DP: Recognizing overlapping subproblems and optimal substructure.",
+                  "Top-down vs. Bottom-up: Techniques for solving DP problems.",
+                  "Common DP Problems: Longest common subsequence, 0/1 knapsack— key problems for interviews.",
+                ],
+              },
+              {
+                moduleTitle: "Section 24",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Calculate the nth Fibonacci number using DP.",
+                  "Longest increasing subsequence, Coin change problem.",
+                  "0/1 knapsack problem, Edit distance between two strings.",
+                ],
+              },
+              {
+                moduleTitle: "Section 25",
+                moduleContent: " Graphs",
+                moduleList: [
+                  "Graph Representations: Adjacency matrix vs. adjacency list—pros and cons.",
+                  "Graph Traversal Algorithms: BFS and DFS—understanding their applications in problem-solving.",
+                  "Shortest Path Algorithms: Dijkstra's, Bellman-Ford; how to apply them in interviews.",
+                ],
+              },
+              {
+                moduleTitle: "Section 26",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Implement BFS and DFS for a graph.",
+                  "Detect cycles in an undirected graph, Find connected components.",
+                  "Dijkstra's algorithm for shortest path, Kruskal's or Prim's algorithm for minimum spanning tree.",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Term 2",
+            duration: "1 Month",
+            title: "Computer Fundamentals",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: " Introduction to Computer Systems",
+                moduleList: [
+                  "Overview of Computer Architecture",
+                  "Core Components: CPU, Memory, Storage Devices",
+                  "Memory Types: RAM, ROM, Cache",
+                  "Basics of Program Execution",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Operating Systems:",
+                moduleList: [
+                  "OS Functions and Resource Management",
+                  "Processes and Threads, Scheduling Basics",
+                  "Memory Management: Paging, Virtual Memory",
+                  "IP Addressing and Subnetting",
+                  "Concurrency Basics: Locks, Semaphores",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: " Data Representation and Number Systems:",
+                moduleList: [
+                  "Number Systems: Binary, Decimal, Hexadecimal",
+                  "Conversions between Number Systems",
+                  "Encoding Basics: ASCII, Unicode",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Networking Fundamentals:",
+                moduleList: [
+                  "Networking Basics: LAN, WAN, Internet",
+                  "OSI and TCP/IP Models, Key Protocols",
+                  "IP Addressing Basics, Routing Concepts",
+                  "Network Security: Firewalls, NAT",
+                ],
+              },
+              {
+                moduleTitle: "Section 5",
+                moduleContent: "Programming Concepts and Problem-Solving:",
+                moduleList: [
+                  "Programming Paradigms Overview",
+                  "Complexity Analysis Basics",
+                  "Core Data Structures: Arrays, Linked Lists",
+                  "Sorting and Searching Algorithms",
+                ],
+              },
+              {
+                moduleTitle: "Section 6",
+                moduleContent: " Version Control Systems:",
+                moduleList: [
+                  "Git and GitHub Essentials",
+                  "Basic Commands: Clone, Commit, Push",
+                  "Branching, Merging, Collaboration Practices",
+                ],
+              },
+              {
+                moduleTitle: "Section 7",
+                moduleContent: "Computer Security Basics:",
+                moduleList: [
+                  "Cybersecurity Fundamentals",
+                  "Encryption: Symmetric, Asymmetric",
+                  "Authentication and Common Security Threats",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Term 3",
+            duration: "2.5 Month",
+            title: "System Design : LLD + HLD",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Overview of System Design",
+                moduleList: [
+                  "Introduction to System Design: Explanation of key concepts in system design, including scalability, reliability, performance, and security.",
+                  "Components of System Design: Overview of high-level vs low-level design, explaining how each contributes to a well-architected system.",
+                  "Building Blocks of System Design: Introduction to core components like databases, servers, clients, APIs, and message queues.",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                sectionTitle: "Part 1 - Statistics",
+                sectionTitle2: "Low-Level Design (LLD) - 9 Chapters",
+                moduleContent:
+                  " Fundamentals of Object-Oriented Programming (OOP)",
+                moduleList: [
+                  "Core principles: Abstraction, Encapsulation, Inheritance, and Polymorphism.",
+                  "Practical applications with real-world examples to solidify understanding.",
+                  "Modular component design for ease of code maintenance. ",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: " SOLID Principles for Effective Design",
+                moduleList: [
+                  "Detailed coverage of each SOLID principle: Single Responsibility,",
+                  "Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion.",
+                  "Exercises for applying these principles to various scenarios to achieve adaptable and clean code.",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Essential Design Patterns",
+                moduleList: [
+                  "Overview of major design patterns: Creational (Factory, Singleton), Structural (Adapter, Composite), Behavioral (Observer, Strategy).",
+                  "Identifying the right pattern based on requirements and scenarios. ",
+                  "Practical examples to solve common challenges with design patterns.",
+                ],
+              },
+              {
+                moduleTitle: "Section 5",
+                moduleContent: " UML Diagrams for Visual Representation",
+                moduleList: [
+                  "Introduction to essential UML diagrams, including Class, Sequence, and Component diagrams.",
+                  "Exercises in creating visual maps for clear communication of design.",
+                  "Best practices for organized, understandable diagramming.",
+                  "Creating a Low-Level Design Document",
+                ],
+              },
+              {
+                moduleTitle: "Section 6",
+                moduleContent: "Designing Efficient Database Schemas)",
+                moduleList: [
+                  "Basics of schema design for efficient data management and retrieval.",
+                  "Creation of Entity-Relationship Diagrams (ERDs) and normalization techniques.",
+                  "Optimization methods for scalable schemas in high-volume databases. ",
+                ],
+              },
+              {
+                moduleTitle: "Section 7",
+                moduleContent: " API Design and Implementation Basics",
+                moduleList: [
+                  "RESTful API design principles: Structuring endpoints, managing errors, and versioning.",
+                  "Exercises for creating well-structured, scalable APIs with error handling.",
+                  "Best practices in API development for smooth integrations.",
+                ],
+              },
+              {
+                moduleTitle: "Section 8",
+                moduleContent: " Multithreading and Concurrency Management",
+                moduleList: [
+                  "Introduction to multithreading and concurrency control basics.",
+                  "Managing issues like race conditions and deadlocks effectively.",
+                  "Practical examples to design systems handling concurrent tasks efficiently.",
+                ],
+              },
+              {
+                moduleTitle: "Section 9",
+                moduleContent: " Basic Integration AI/ML in Software Design",
+                moduleList: [
+                  "Basics of embedding ML models and GenAI in systems for functionality enhancement.",
+                  "Setting up data flows for AI/ML and GenAI: Data preprocessing, model execution, and output integration.",
+                  "Model lifecycle management, including monitoring and updates for performance consistency.",
+                  "Microservices",
+                  "Containers",
+                ],
+              },
+              {
+                moduleTitle: "Section 10",
+                moduleContent: " Testing and Code Quality Best Practices",
+                moduleList: [
+                  "Overview of unit and integration testing to maintain design stability.",
+                  "Techniques for documenting and structuring code for clarity and maintenance.",
+                  "Continuous monitoring and refinement for long-term code and design quality.",
+                ],
+              },
+              {
+                moduleTitle: "Section 11",
+                moduleContent: "Topic 2:- High-Level Design (HLD) - 9 Chapters",
+                moduleList: [
+                  "Overview of unit and integration testing to maintain design stability.",
+                  "Techniques for documenting and structuring code for clarity and maintenance.",
+                  "Continuous monitoring and refinement for long-term code and design quality.",
+                ],
+              },
+              {
+                moduleTitle: "Section 12",
+                moduleContent: "Introduction to System Architecture and Design",
+                moduleList: [
+                  "System design fundamentals: Overview of monolithic, client-server, and microservices architectures.",
+                  "Principles of system design: Scalability, reliability, maintainability, and fault tolerance.",
+                  "Evaluating architecture choices: Choosing the right design patterns for different application needs.",
+                ],
+              },
+              {
+                moduleTitle: "Section 13",
+                moduleContent: "Distributed Systems Overview",
+                moduleList: [
+                  "Key concepts: Data replication, data consistency, and distributed communication.",
+                  "Design challenges in distributed systems: Fault tolerance, data integrity, and managing distributed transactions.",
+                  "Use cases: Examining examples of distributed systems and architectures in action.",
+                ],
+              },
+              {
+                moduleTitle: "Section 14",
+                moduleContent: "Network and Communication Protocols",
+                moduleList: [
+                  "Network fundamentals: How TCP/IP, DNS, and HTTP/HTTPS protocols function within HLD.",
+                  "Load balancing techniques: Understanding load balancers, DNS-based load balancing, and API gateways.",
+                  "Case studies: Implementing load balancing in distributed environments. ",
+                ],
+              },
+              {
+                moduleTitle: "Section 15",
+                moduleContent:
+                  "ZooKeeper and Kafka (Distributed Messaging Queue)",
+                moduleList: [
+                  "ZooKeeper: Overview of distributed coordination, leader election, and configuration management.",
+                  "Apache Kafka: Introduction to message queuing, real-time data streaming, and event-driven architecture.",
+                  "Implementing a distributed messaging system: Practical applications and setup for reliable messaging. ",
+                ],
+              },
+              {
+                moduleTitle: "Section 16",
+                moduleContent: "Designing with Microservices and CAP Theorem",
+                moduleList: [
+                  "Microservices architecture: Benefits and challenges of service decomposition and design.",
+                  "CAP Theorem: Trade-offs between Consistency, Availability, and Partition tolerance.",
+                  "Data partitioning: Techniques like sharding, horizontal scaling, and load distribution.",
+                ],
+              },
+              {
+                moduleTitle: "Section 17",
+                moduleContent: "Database Selection and Data Storage Models",
+                moduleList: [
+                  "Database types: SQL, NoSQL, and NewSQL, understanding their scalability and data integrity trade-offs.",
+                  "Choosing a database: ACID vs. BASE properties, and database selection based on application needs.",
+                  "Distributed databases: How they manage scalability, availability, and latency.",
+                ],
+              },
+              {
+                moduleTitle: "Section 18",
+                moduleContent: "Caching and Content Delivery Networks (CDNs)",
+                moduleList: [
+                  "Caching strategies: Implementing in-memory caching (Redis, Memcached) and cache expiration techniques.",
+                  "Content Delivery Networks (CDNs): Using CDNs for load reduction and latency improvements.",
+                  "Optimizing data access: Practical steps to build efficient caching strategies.",
+                  "Project: Instagram like Image and Video Feed System",
+                  "Objective: Design Instagram’s feed system to handle high-frequency data retrieval for photos and videos.",
+                  "Focus: Integrate caching and CDN strategies to reduce latency and improve user experience on a large scale.",
+                ],
+              },
+              {
+                moduleTitle: "Section 19",
+                moduleContent: " Scalability, Security, and Reliability",
+                moduleList: [
+                  "Security best practices: Authentication, data encryption, and secure API design in high-level architectures.",
+                  "Reliability patterns: Circuit breaker, retry mechanisms, and failover strategies.",
+                  "Scaling infrastructure: Vertical and horizontal scaling, auto-scaling, and designing for peak load handling.",
+                ],
+              },
+              {
+                moduleTitle: "Section 20",
+                moduleContent: "AI/ML Systems in High-Level Design",
+                moduleList: [
+                  "Integrating AI/ML: High-level considerations for data pipelines model serving, and scalability for ML.",
+                  "Data infrastructure for ML: Handling large datasets, real-time processing, and model versioning.",
+                  "Real-world case studies: Examples of high-level AI/ML systems in production environments.",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Elective 1 ",
+            duration: "1 Month",
+            title: "GenAI for Software Developers",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Objective:",
+                moduleList: [
+                  "Empower developers to leverage Generative AI for application development and workflow automation, emphasizing OpenAI APIs and LangChain integration.",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Recommended Experience:",
+                moduleList: [
+                  "2-4 years in software development, familiar with Python, APIs, and basic machine learning concepts. Ideal for those integrating AI into applications.machine learning concepts. Ideal for those integrating AI into applications. ",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: " Career Fit:",
+                moduleList: [
+                  "Perfect for developers interested in AI-driven development and enhancing user experiences or pursuing roles in AI application design",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Topics Covered:- GenAI for Software Developers",
+                moduleList: [
+                  "Fundamentals of Generative AI: Overview of generative models and their real-world applications, highlighting differences from traditional AI.",
+                  "Integration of OpenAI APIs: Techniques for effectively integrating OpenAI APIs, including authentication and best practices for data handling.",
+                  "Building Applications with LangChain: Utilizing LangChain to create intelligent applications that leverage large language models.",
+                  "Utilizing Hugging Face: Accessing and deploying Hugging Face pre-trained models, with a focus on fine-tuning for specific uses.",
+                  "Prompt Engineering: Strategies for crafting effective prompts to optimize AI responses and improve user interaction.",
+                  "Ethical Considerations in AI: Discussion of ethical issues in AI, including bias, privacy, and responsible usage in development.",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Elective 2",
+            duration: "1 Month",
+            title: " Product Management for Tech Professionals",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: " Objective",
+                moduleList: [
+                  "Equip developers with a product management mindset to align technical and business goals in tech products.",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Recommended Experience",
+                moduleList: [
+                  "3-5 years in software development, ideally in cross-functional settings with product managers. Suitable for senior developers or leads transitioning to product roles.",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Career Fit",
+                moduleList: [
+                  "Engineers aiming for product management or tech lead roles to navigate both technical and business needs effectively.",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Topics Covered:",
+                moduleList: [
+                  "Product Life Cycle & Development: Understanding phases from concept to launch and maintenance.",
+                  "Market Research for Tech Products: Conducting research to align product with user needs and market demands.",
+                  "Feature Prioritization Techniques: Balancing business and technical requirements to drive value. requirements to drive value.",
+                  "Technical Roadmapping: Creating roadmaps for technical execution aligned with business goals. ",
+                  "Stakeholder Communication: Translating complex tech concepts for business stakeholders.",
+                  "Data-Driven Decision Making: Leveraging metrics and KPIs to guide product strategy.",
+                  "Product Design Basics for Engineers: Fundamentals of UI/UX that impact product usability and satisfaction",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Elective 3",
+            duration: "1 Month",
+            title: "Full Stack [MERN] for Software Developers",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: " Objective",
+                moduleList: [
+                  "Equip software engineers with the essential skills to design, develop, and deploy full-stack web applications using the MERN (MongoDB, Express, React, Node.js) stack.",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Recommended Experience",
+                moduleList: [
+                  "1-4 years in software development with familiarity in JavaScript, web technologies, and basic software development practices. Ideal for developers interested in building end-to-end applications or pursuing full-stack roles.",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Career Fit",
+                moduleList: [
+                  "Perfect for engineers aiming to transition into full-stack development roles or expand their expertise in building complex, modern web applications using the MERN stack.",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Topics Covered:",
+                moduleList: [
+                  "Front-End Development with React: React fundamentals like components, Props, State, Functional vs. Class Components, JSX syntax and CSS and its frameworks",
+                  "Back-End Development with Node.js and Express: Setting up Node.js and NPM, Asynchronous programming: Callbacks, Promises,Async/Await; Setting up a basic Express server, Handling HTTP requests and responses, Middleware functions in Express,RESTful API design and implementation.",
+                  "Database Management with MongoDB: Overview of MongoDB vs. relational databases, CRUD operations in MongoDB, Defining collections and documents, MongoDB data types, Relationships and references in MongoDB.",
+                  "Connecting Front-End with Back-End: Designing RESTful routes and endpoints,HTTP methods (GET, POST, PUT, DELETE),Error handling and status code",
+                  "Testing and Debugging Full Stack Applications: Writing tests for React components,Writing API tests with Jest and Supertest",
+                  "Deployment and Version Control: Git basics: Commits, branches, merges,Working with GitHub repositories, Continuous Integration and Continuous Deployment, Setting up a simple CI pipeline",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Elective 4",
+            duration: "1 Month",
+            title: " DevOps Essentials for Software Engineers",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: " Objective",
+                moduleList: [
+                  "Equip developers with DevOps skills for efficient, scalable code deployment by enhancing CI/CD, infrastructure, and automation workflows.",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Recommended Experience",
+                moduleList: [
+                  "2-4 years in software engineering with basic knowledge of scripting and cloud services; ideal for developers moving toward DevOps.",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Career Fit",
+                moduleList: [
+                  "Suited for developers interested in DevOps, cloud management, and automated deployment.",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Topics Covered:",
+                moduleList: [
+                  "Programming & Scripting for Automation: Python, Bash, and scripting for DevOps automation",
+                  "Linux & System Administration: Essential Linux commands, permissions, and troubleshooting",
+                  "Version Control with Git: Git workflows for collaborative DevOps and code management",
+                  "CI/CD Integration: Jenkins, GitHub Actions for automated deployment and testing ",
+                  "Containerization & Orchestration: Using Docker and Kubernetes for scalable deployment environments",
+                  "Infrastructure as Code (IaC): Terraform and Ansible for automated infrastructure setup",
+                  "Monitoring & Logging: Prometheus, Grafana, and ELK stack for real-time monitoring and troubleshooting",
+                ],
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        id: "5",
+        trackIcon:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/excel-icon.webp",
+        width: 80,
+        height: 80,
+        title: "Elective 2",
+        toolsImg:
+          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/powerbi+tableu+sql_11zon.webp",
+        imageSizes: {
+          vsm: { width: 195, height: 34 },
+          sm: { width: 195, height: 31 },
+          md: { width: 220, height: 37 },
+          lg: { width: 230, height: 39 },
+        },
+        description: "Product Management for Tech Professionals",
+        duration: "30-35 hrs",
+        contentModule: "Topics Covered",
+        contentDescription: "",
+        contentDetails: [
+          "Product Life Cycle & Development",
+          "Feature Prioritization Techniques",
+          "Product Design Basics for Engineers",
+        ],
+        popuplist: [
+          {
+            term: "Module 0",
+            title: "Programming Fundamentals",
+            duration: "40-50 hrs",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: " Introduction to Programming",
+                moduleList: [
+                  "Basics of programming and Java installation (JDK, IDE like IntelliJ, Eclipse)",
+                  "Writing and running your first Java program (e.g., Hello World)",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Variables, Data Types, and Operators",
+                moduleList: [
+                  "Variables: Declaration, Initialization, Scope in Java",
+                  "Data types: int, float, double, char, boolean",
+                  "Operators: Arithmetic, Relational, Logical, Assignment,Increment/Decrement",
+                  "Input and output in Java: Scanner class and System.out.println",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Control Flow",
+                moduleList: [
+                  "Conditional statements: if, else if, else",
+                  "Switch-case in Java",
+                  "Loops: for, while, do-while",
+                  "Break and continue",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: " Functions (Methods)",
+                moduleList: [
+                  "Defining and calling methods in Java",
+                  "Method parameters, return types, and scope",
+                  "Method overloading",
+                  "Recursion in Java",
+                ],
+              },
+              {
+                moduleTitle: "Section 5",
+                moduleContent: "Arrays and Strings",
+                moduleList: [
+                  "Arrays: Declaration, initialization, and traversal",
+                  "Multidimensional arrays",
+                  "Strings: String class methods, concatenation, comparison, and manipulation",
+                ],
+              },
+              {
+                moduleTitle: "Section 6",
+                moduleContent: " Object-Oriented Programming (OOP)",
+                moduleList: [
+                  "Classes and Objects",
+                  "Constructors and destructors",
+                  "Encapsulation, Inheritance, Polymorphism, Abstraction",
+                  "Access modifiers: private, public, protected",
+                  "Static and non-static members",
+                  "OOP practice problems (e.g., real-world object modeling)",
+                ],
+              },
+            ],
+          },
+          {
+            term: "TERM 1",
+            title: " Data Structures & Algorithms",
+            duration: "3.5 Months",
+            modules: [
+              {
+                sectionTitle:
+                  "Part 2:-Foundations of Data Structures and Algorithms",
+                moduleTitle: "Section 1",
+                moduleContent: "Time and Space Complexity",
+                moduleList: [
+                  "Understanding Performance: Importance of complexity analysis in interviews",
+                  "Big O Notation: Common complexities and how to analyze them during coding interviews.",
+                  "Space Complexity: Optimizing memory usage in data structure choices.",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Arrays",
+                moduleList: [
+                  "Array Basics: Efficiently handling and manipulating arrays.",
+                  "Operations: Insertion, deletion, searching, and updating—focus on interview",
+                  "Two-Dimensional Arrays: Common problems like matrix manipulation.",
+                  "Sample Practice Problems:",
+                  "Maximum element in an array, Reverse an array, Minimum element in an array, Sorted array check, Count occurrences.",
+                  "Rotate an array, Merge sorted arrays, Intersection of arrays, Move zeroes, Pairs with given sum",
+                  "Longest increasing subsequence, Maximum subarray sum, Longest common subsequence, Minimum path sum, Maximum product subarray",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Linked Lists",
+                moduleList: [
+                  "Singly Linked List: Creation, traversal, insertion, and deletion.",
+
+                  "Doubly and Circular Linked Lists: Differences and use cases; related problems.",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Sample Practice Problems:",
+                moduleList: [
+                  "Middle element of a linked list, Detect a loop in a linked list, Length of a linked list, Check if a linked list is a palindrome,Merge two linked lists",
+                  "Reverse a linked list, Add two numbers represented by linked lists, Rotate a linked list, Find the start of the loop, Partition a linked list around a value.",
+                  "Remove the N-th node from the end, Flatten a multilevel doubly linked list, Reorder a linked list,Clone a linked list with next and random, pointers, Split a linked list into two halves",
+                ],
+              },
+              {
+                moduleTitle: "Section 5",
+                moduleContent: " Stacks and Queues",
+                moduleList: [
+                  "Understanding Concepts: LIFO and FIFO principles—common in problem statements.",
+                  "Operations: Implementing stacks and queues efficiently.",
+                  "Priority Queues and Dequeues: Applications in interview questions.",
+                ],
+              },
+              {
+                moduleTitle: "Section 6",
+                moduleContent: "Sample Practice Problems:",
+                moduleList: [
+                  "Check for balanced parentheses, Implement a stack using linked list, Implement a stack using an array,",
+                  "Implement a queue using stacks, Evaluate a postfix expression, Implement a double-ended queue (Deque), Generate binary numbers from 1 to N, Reverse a queue.",
+                  "Implement a queue using a circular array, Design a stack that supports duplicate elements, Evaluate infix expressions.",
+                ],
+              },
+              {
+                sectionTitle:
+                  "Part 2 :- Advanced Data Structures and Algorithms",
+                moduleTitle: "Section 7",
+                moduleContent: " Recursion and Backtracking",
+                moduleList: [
+                  "Mastering Recursion: Key concepts and base cases crucial for problem- solving",
+                  "Divide and Conquer: Understanding its application in interviews.",
+                  "Backtracking: Common problems like N-Queens, Sudoku.",
+                ],
+              },
+              {
+                moduleTitle: "Section 8",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Calculate the factorial of a number, Fibonacci sequence using recursion, Tower of Hanoi, Sum of digits of a number.",
+                  "Generate all subsets of a set, Solve the N-Queens problem, Generate permutations of a string, Rat in a maze.",
+                  "Solve the Sudoku puzzle, Permutations of a string, Word search, Generate all valid parentheses, Subset sum problem.",
+                ],
+              },
+              {
+                moduleTitle: "Section 9",
+                moduleContent: " Searching Algorithms",
+                moduleList: [
+                  "Linear vs Binary Search: Time complexities and when to use which.",
+                  "Advanced Searches: Ternary search and applications.",
+                  "Backtracking: Common problems like N-Queens, Sudoku.",
+                ],
+              },
+              {
+                moduleTitle: "Section 10",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Basic: Linear search in sorted array, Find minimum in array, Find maximum in array, Reverse an array, Find unique element in array",
+                  "Intermediate: Binary search in sorted array, Search in rotated sorted array, k-th smallest element in array",
+                  "Advanced: First and last position of element in sorted array, Square root using binary search, Median of two sorted arrays, Find smallest pair sum",
+                ],
+              },
+              {
+                moduleTitle: "Section 11",
+                moduleContent: " Sorting Algorithms",
+                moduleList: [
+                  "Simple Sorting Algorithms: Bubble, selection, insertion—understanding their performance.",
+                  "Advanced Sorting Algorithms: Merge sort, quick sort—key algorithms in interviews.",
+                  "Backtracking: Common problems like N-Queens, Sudoku.",
+                ],
+              },
+              {
+                moduleTitle: "Section 12",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Bubble sort, Selection sort, Insertion sort, Sort array of 0s, 1s, and 2s, Merge two sorted arrays",
+                  "Merge sort, Quick sort, Heap sort, Counting sort ",
+                  "Sort nearly sorted array, K-th largest element in unsorted array, Find median of two sorted arrays, Find minimum difference pair in array",
+                ],
+              },
+              {
+                moduleTitle: "Section 13",
+                moduleContent: " Hashing",
+                moduleList: [
+                  "Hash Tables and Hash Functions: Importance in optimizing search operations.",
+                  "Collision Handling Techniques: Techniques to handle collisions effectively. ",
+                  "Hash Table Implementations",
+                ],
+              },
+              {
+                moduleTitle: "Section 14",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Count frequencies of elements in an array.",
+                  "Two-sum problem, Find the first non-repeating character in a string. ",
+                  "Longest consecutive sequence, Group anagrams from a list of strings.",
+                ],
+              },
+              {
+                moduleTitle: "Section 15",
+                moduleContent: "Trees",
+                moduleList: [
+                  "Binary Trees: Understanding traversal techniques (inorder, preorder, postorder).",
+                  "Binary Search Trees (BSTs): Key operations and their complexities. ",
+                  "Balanced Trees (AVL, Red-Black): Importance of balancing in interviews.",
+                ],
+              },
+              {
+                moduleTitle: "Section 16",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Implement binary tree traversals, Count the number of nodes in a binary tree.",
+                  "Validate a binary search tree, Find the height of a binary tree.",
+                  "Lowest common ancestor in a binary tree, Serialize and deserialize a binary tree.",
+                ],
+              },
+              {
+                moduleTitle: "Section 17",
+                moduleContent: "Tries",
+                moduleList: [
+                  "Understanding Tries: Structure and its applications in string problems.",
+                  "Insertion and Search Operations: Common tasks to practice.",
+                ],
+              },
+              {
+                moduleTitle: "Section 18",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Insert and search in a trie.",
+                  "Find all words with a given prefix, Count distinct substrings.",
+                  "Implement autocomplete system, Implement a phone directory.",
+                ],
+              },
+              {
+                moduleTitle: "Section 19",
+                moduleContent: "Heaps",
+                moduleList: [
+                  "Max-Heaps and Min-Heaps: Key properties and operations.",
+                  "Heap Applications: Priority queues and their importance in algorithms.",
+                ],
+              },
+              {
+                moduleTitle: "Section 20",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Build a max heap from an array, Find the maximum element in a heap.",
+                  "Implement heap sort, K-th largest element in a stream using a min heap.",
+                  "Merge k sorted linked lists, Top k frequent elements in an array.",
+                ],
+              },
+              {
+                moduleTitle: "Section 21",
+                moduleContent: "Greedy Algorithms",
+                moduleList: [
+                  "Understanding Greedy Strategy: When to apply greedy methods in problem-solving.",
+                ],
+              },
+              {
+                moduleTitle: "Section 22",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Coin change problem (greedy version), Activity selection problem.",
+                  "Job sequencing problem, Fractional knapsack problem.",
+                  "Huffman coding, Minimum spanning tree using Prim's or Kruskal's algorithm.",
+                ],
+              },
+              {
+                moduleTitle: "Section 23",
+                moduleContent: "Dynamic Programming (DP)",
+                moduleList: [
+                  "Introduction to DP: Recognizing overlapping subproblems and optimal substructure.",
+                  "Top-down vs. Bottom-up: Techniques for solving DP problems.",
+                  "Common DP Problems: Longest common subsequence, 0/1 knapsack— key problems for interviews.",
+                ],
+              },
+              {
+                moduleTitle: "Section 24",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Calculate the nth Fibonacci number using DP.",
+                  "Longest increasing subsequence, Coin change problem.",
+                  "0/1 knapsack problem, Edit distance between two strings.",
+                ],
+              },
+              {
+                moduleTitle: "Section 25",
+                moduleContent: " Graphs",
+                moduleList: [
+                  "Graph Representations: Adjacency matrix vs. adjacency list—pros and cons.",
+                  "Graph Traversal Algorithms: BFS and DFS—understanding their applications in problem-solving.",
+                  "Shortest Path Algorithms: Dijkstra's, Bellman-Ford; how to apply them in interviews.",
+                ],
+              },
+              {
+                moduleTitle: "Section 26",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Implement BFS and DFS for a graph.",
+                  "Detect cycles in an undirected graph, Find connected components.",
+                  "Dijkstra's algorithm for shortest path, Kruskal's or Prim's algorithm for minimum spanning tree.",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Term 2",
+            duration: "1 Month",
+            title: "Computer Fundamentals",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: " Introduction to Computer Systems",
+                moduleList: [
+                  "Overview of Computer Architecture",
+                  "Core Components: CPU, Memory, Storage Devices",
+                  "Memory Types: RAM, ROM, Cache",
+                  "Basics of Program Execution",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Operating Systems:",
+                moduleList: [
+                  "OS Functions and Resource Management",
+                  "Processes and Threads, Scheduling Basics",
+                  "Memory Management: Paging, Virtual Memory",
+                  "IP Addressing and Subnetting",
+                  "Concurrency Basics: Locks, Semaphores",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: " Data Representation and Number Systems:",
+                moduleList: [
+                  "Number Systems: Binary, Decimal, Hexadecimal",
+                  "Conversions between Number Systems",
+                  "Encoding Basics: ASCII, Unicode",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Networking Fundamentals:",
+                moduleList: [
+                  "Networking Basics: LAN, WAN, Internet",
+                  "OSI and TCP/IP Models, Key Protocols",
+                  "IP Addressing Basics, Routing Concepts",
+                  "Network Security: Firewalls, NAT",
+                ],
+              },
+              {
+                moduleTitle: "Section 5",
+                moduleContent: "Programming Concepts and Problem-Solving:",
+                moduleList: [
+                  "Programming Paradigms Overview",
+                  "Complexity Analysis Basics",
+                  "Core Data Structures: Arrays, Linked Lists",
+                  "Sorting and Searching Algorithms",
+                ],
+              },
+              {
+                moduleTitle: "Section 6",
+                moduleContent: " Version Control Systems:",
+                moduleList: [
+                  "Git and GitHub Essentials",
+                  "Basic Commands: Clone, Commit, Push",
+                  "Branching, Merging, Collaboration Practices",
+                ],
+              },
+              {
+                moduleTitle: "Section 7",
+                moduleContent: "Computer Security Basics:",
+                moduleList: [
+                  "Cybersecurity Fundamentals",
+                  "Encryption: Symmetric, Asymmetric",
+                  "Authentication and Common Security Threats",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Term 3",
+            duration: "2.5 Month",
+            title: "System Design : LLD + HLD",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Overview of System Design",
+                moduleList: [
+                  "Introduction to System Design: Explanation of key concepts in system design, including scalability, reliability, performance, and security.",
+                  "Components of System Design: Overview of high-level vs low-level design, explaining how each contributes to a well-architected system.",
+                  "Building Blocks of System Design: Introduction to core components like databases, servers, clients, APIs, and message queues.",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                sectionTitle: "Part 1 - Statistics",
+                sectionTitle2: "Low-Level Design (LLD) - 9 Chapters",
+                moduleContent:
+                  " Fundamentals of Object-Oriented Programming (OOP)",
+                moduleList: [
+                  "Core principles: Abstraction, Encapsulation, Inheritance, and Polymorphism.",
+                  "Practical applications with real-world examples to solidify understanding.",
+                  "Modular component design for ease of code maintenance. ",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: " SOLID Principles for Effective Design",
+                moduleList: [
+                  "Detailed coverage of each SOLID principle: Single Responsibility,",
+                  "Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion.",
+                  "Exercises for applying these principles to various scenarios to achieve adaptable and clean code.",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Essential Design Patterns",
+                moduleList: [
+                  "Overview of major design patterns: Creational (Factory, Singleton), Structural (Adapter, Composite), Behavioral (Observer, Strategy).",
+                  "Identifying the right pattern based on requirements and scenarios. ",
+                  "Practical examples to solve common challenges with design patterns.",
+                ],
+              },
+              {
+                moduleTitle: "Section 5",
+                moduleContent: " UML Diagrams for Visual Representation",
+                moduleList: [
+                  "Introduction to essential UML diagrams, including Class, Sequence, and Component diagrams.",
+                  "Exercises in creating visual maps for clear communication of design.",
+                  "Best practices for organized, understandable diagramming.",
+                  "Creating a Low-Level Design Document",
+                ],
+              },
+              {
+                moduleTitle: "Section 6",
+                moduleContent: "Designing Efficient Database Schemas)",
+                moduleList: [
+                  "Basics of schema design for efficient data management and retrieval.",
+                  "Creation of Entity-Relationship Diagrams (ERDs) and normalization techniques.",
+                  "Optimization methods for scalable schemas in high-volume databases. ",
+                ],
+              },
+              {
+                moduleTitle: "Section 7",
+                moduleContent: " API Design and Implementation Basics",
+                moduleList: [
+                  "RESTful API design principles: Structuring endpoints, managing errors, and versioning.",
+                  "Exercises for creating well-structured, scalable APIs with error handling.",
+                  "Best practices in API development for smooth integrations.",
+                ],
+              },
+              {
+                moduleTitle: "Section 8",
+                moduleContent: " Multithreading and Concurrency Management",
+                moduleList: [
+                  "Introduction to multithreading and concurrency control basics.",
+                  "Managing issues like race conditions and deadlocks effectively.",
+                  "Practical examples to design systems handling concurrent tasks efficiently.",
+                ],
+              },
+              {
+                moduleTitle: "Section 9",
+                moduleContent: " Basic Integration AI/ML in Software Design",
+                moduleList: [
+                  "Basics of embedding ML models and GenAI in systems for functionality enhancement.",
+                  "Setting up data flows for AI/ML and GenAI: Data preprocessing, model execution, and output integration.",
+                  "Model lifecycle management, including monitoring and updates for performance consistency.",
+                  "Microservices",
+                  "Containers",
+                ],
+              },
+              {
+                moduleTitle: "Section 10",
+                moduleContent: " Testing and Code Quality Best Practices",
+                moduleList: [
+                  "Overview of unit and integration testing to maintain design stability.",
+                  "Techniques for documenting and structuring code for clarity and maintenance.",
+                  "Continuous monitoring and refinement for long-term code and design quality.",
+                ],
+              },
+              {
+                moduleTitle: "Section 11",
+                moduleContent: "Topic 2:- High-Level Design (HLD) - 9 Chapters",
+                moduleList: [
+                  "Overview of unit and integration testing to maintain design stability.",
+                  "Techniques for documenting and structuring code for clarity and maintenance.",
+                  "Continuous monitoring and refinement for long-term code and design quality.",
+                ],
+              },
+              {
+                moduleTitle: "Section 12",
+                moduleContent: "Introduction to System Architecture and Design",
+                moduleList: [
+                  "System design fundamentals: Overview of monolithic, client-server, and microservices architectures.",
+                  "Principles of system design: Scalability, reliability, maintainability, and fault tolerance.",
+                  "Evaluating architecture choices: Choosing the right design patterns for different application needs.",
+                ],
+              },
+              {
+                moduleTitle: "Section 13",
+                moduleContent: "Distributed Systems Overview",
+                moduleList: [
+                  "Key concepts: Data replication, data consistency, and distributed communication.",
+                  "Design challenges in distributed systems: Fault tolerance, data integrity, and managing distributed transactions.",
+                  "Use cases: Examining examples of distributed systems and architectures in action.",
+                ],
+              },
+              {
+                moduleTitle: "Section 14",
+                moduleContent: "Network and Communication Protocols",
+                moduleList: [
+                  "Network fundamentals: How TCP/IP, DNS, and HTTP/HTTPS protocols function within HLD.",
+                  "Load balancing techniques: Understanding load balancers, DNS-based load balancing, and API gateways.",
+                  "Case studies: Implementing load balancing in distributed environments. ",
+                ],
+              },
+              {
+                moduleTitle: "Section 15",
+                moduleContent:
+                  "ZooKeeper and Kafka (Distributed Messaging Queue)",
+                moduleList: [
+                  "ZooKeeper: Overview of distributed coordination, leader election, and configuration management.",
+                  "Apache Kafka: Introduction to message queuing, real-time data streaming, and event-driven architecture.",
+                  "Implementing a distributed messaging system: Practical applications and setup for reliable messaging. ",
+                ],
+              },
+              {
+                moduleTitle: "Section 16",
+                moduleContent: "Designing with Microservices and CAP Theorem",
+                moduleList: [
+                  "Microservices architecture: Benefits and challenges of service decomposition and design.",
+                  "CAP Theorem: Trade-offs between Consistency, Availability, and Partition tolerance.",
+                  "Data partitioning: Techniques like sharding, horizontal scaling, and load distribution.",
+                ],
+              },
+              {
+                moduleTitle: "Section 17",
+                moduleContent: "Database Selection and Data Storage Models",
+                moduleList: [
+                  "Database types: SQL, NoSQL, and NewSQL, understanding their scalability and data integrity trade-offs.",
+                  "Choosing a database: ACID vs. BASE properties, and database selection based on application needs.",
+                  "Distributed databases: How they manage scalability, availability, and latency.",
+                ],
+              },
+              {
+                moduleTitle: "Section 18",
+                moduleContent: "Caching and Content Delivery Networks (CDNs)",
+                moduleList: [
+                  "Caching strategies: Implementing in-memory caching (Redis, Memcached) and cache expiration techniques.",
+                  "Content Delivery Networks (CDNs): Using CDNs for load reduction and latency improvements.",
+                  "Optimizing data access: Practical steps to build efficient caching strategies.",
+                  "Project: Instagram like Image and Video Feed System",
+                  "Objective: Design Instagram’s feed system to handle high-frequency data retrieval for photos and videos.",
+                  "Focus: Integrate caching and CDN strategies to reduce latency and improve user experience on a large scale.",
+                ],
+              },
+              {
+                moduleTitle: "Section 19",
+                moduleContent: " Scalability, Security, and Reliability",
+                moduleList: [
+                  "Security best practices: Authentication, data encryption, and secure API design in high-level architectures.",
+                  "Reliability patterns: Circuit breaker, retry mechanisms, and failover strategies.",
+                  "Scaling infrastructure: Vertical and horizontal scaling, auto-scaling, and designing for peak load handling.",
+                ],
+              },
+              {
+                moduleTitle: "Section 20",
+                moduleContent: "AI/ML Systems in High-Level Design",
+                moduleList: [
+                  "Integrating AI/ML: High-level considerations for data pipelines model serving, and scalability for ML.",
+                  "Data infrastructure for ML: Handling large datasets, real-time processing, and model versioning.",
+                  "Real-world case studies: Examples of high-level AI/ML systems in production environments.",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Elective 1 ",
+            duration: "1 Month",
+            title: "GenAI for Software Developers",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Objective:",
+                moduleList: [
+                  "Empower developers to leverage Generative AI for application development and workflow automation, emphasizing OpenAI APIs and LangChain integration.",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Recommended Experience:",
+                moduleList: [
+                  "2-4 years in software development, familiar with Python, APIs, and basic machine learning concepts. Ideal for those integrating AI into applications.machine learning concepts. Ideal for those integrating AI into applications. ",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: " Career Fit:",
+                moduleList: [
+                  "Perfect for developers interested in AI-driven development and enhancing user experiences or pursuing roles in AI application design",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Topics Covered:- GenAI for Software Developers",
+                moduleList: [
+                  "Fundamentals of Generative AI: Overview of generative models and their real-world applications, highlighting differences from traditional AI.",
+                  "Integration of OpenAI APIs: Techniques for effectively integrating OpenAI APIs, including authentication and best practices for data handling.",
+                  "Building Applications with LangChain: Utilizing LangChain to create intelligent applications that leverage large language models.",
+                  "Utilizing Hugging Face: Accessing and deploying Hugging Face pre-trained models, with a focus on fine-tuning for specific uses.",
+                  "Prompt Engineering: Strategies for crafting effective prompts to optimize AI responses and improve user interaction.",
+                  "Ethical Considerations in AI: Discussion of ethical issues in AI, including bias, privacy, and responsible usage in development.",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Elective 2",
+            duration: "1 Month",
+            title: " Product Management for Tech Professionals",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: " Objective",
+                moduleList: [
+                  "Equip developers with a product management mindset to align technical and business goals in tech products.",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Recommended Experience",
+                moduleList: [
+                  "3-5 years in software development, ideally in cross-functional settings with product managers. Suitable for senior developers or leads transitioning to product roles.",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Career Fit",
+                moduleList: [
+                  "Engineers aiming for product management or tech lead roles to navigate both technical and business needs effectively.",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Topics Covered:",
+                moduleList: [
+                  "Product Life Cycle & Development: Understanding phases from concept to launch and maintenance.",
+                  "Market Research for Tech Products: Conducting research to align product with user needs and market demands.",
+                  "Feature Prioritization Techniques: Balancing business and technical requirements to drive value. requirements to drive value.",
+                  "Technical Roadmapping: Creating roadmaps for technical execution aligned with business goals. ",
+                  "Stakeholder Communication: Translating complex tech concepts for business stakeholders.",
+                  "Data-Driven Decision Making: Leveraging metrics and KPIs to guide product strategy.",
+                  "Product Design Basics for Engineers: Fundamentals of UI/UX that impact product usability and satisfaction",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Elective 3",
+            duration: "1 Month",
+            title: "Full Stack [MERN] for Software Developers",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: " Objective",
+                moduleList: [
+                  "Equip software engineers with the essential skills to design, develop, and deploy full-stack web applications using the MERN (MongoDB, Express, React, Node.js) stack.",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Recommended Experience",
+                moduleList: [
+                  "1-4 years in software development with familiarity in JavaScript, web technologies, and basic software development practices. Ideal for developers interested in building end-to-end applications or pursuing full-stack roles.",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Career Fit",
+                moduleList: [
+                  "Perfect for engineers aiming to transition into full-stack development roles or expand their expertise in building complex, modern web applications using the MERN stack.",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Topics Covered:",
+                moduleList: [
+                  "Front-End Development with React: React fundamentals like components, Props, State, Functional vs. Class Components, JSX syntax and CSS and its frameworks",
+                  "Back-End Development with Node.js and Express: Setting up Node.js and NPM, Asynchronous programming: Callbacks, Promises,Async/Await; Setting up a basic Express server, Handling HTTP requests and responses, Middleware functions in Express,RESTful API design and implementation.",
+                  "Database Management with MongoDB: Overview of MongoDB vs. relational databases, CRUD operations in MongoDB, Defining collections and documents, MongoDB data types, Relationships and references in MongoDB.",
+                  "Connecting Front-End with Back-End: Designing RESTful routes and endpoints,HTTP methods (GET, POST, PUT, DELETE),Error handling and status code",
+                  "Testing and Debugging Full Stack Applications: Writing tests for React components,Writing API tests with Jest and Supertest",
+                  "Deployment and Version Control: Git basics: Commits, branches, merges,Working with GitHub repositories, Continuous Integration and Continuous Deployment, Setting up a simple CI pipeline",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Elective 4",
+            duration: "1 Month",
+            title: " DevOps Essentials for Software Engineers",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: " Objective",
+                moduleList: [
+                  "Equip developers with DevOps skills for efficient, scalable code deployment by enhancing CI/CD, infrastructure, and automation workflows.",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Recommended Experience",
+                moduleList: [
+                  "2-4 years in software engineering with basic knowledge of scripting and cloud services; ideal for developers moving toward DevOps.",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Career Fit",
+                moduleList: [
+                  "Suited for developers interested in DevOps, cloud management, and automated deployment.",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Topics Covered:",
+                moduleList: [
+                  "Programming & Scripting for Automation: Python, Bash, and scripting for DevOps automation",
+                  "Linux & System Administration: Essential Linux commands, permissions, and troubleshooting",
+                  "Version Control with Git: Git workflows for collaborative DevOps and code management",
+                  "CI/CD Integration: Jenkins, GitHub Actions for automated deployment and testing ",
+                  "Containerization & Orchestration: Using Docker and Kubernetes for scalable deployment environments",
+                  "Infrastructure as Code (IaC): Terraform and Ansible for automated infrastructure setup",
+                  "Monitoring & Logging: Prometheus, Grafana, and ELK stack for real-time monitoring and troubleshooting",
+                ],
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        id: "6",
+        trackIcon:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/DSA-systemDesign.webp",
+        width: 80,
+        height: 80,
+        title: "Elective 3",
+        toolsImg:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/numpy-matplotlib-seaborn.webp",
+        imageSizes: {
+          vsm: { width: 210, height: 23 },
+          sm: { width: 210, height: 23 },
+          md: { width: 270, height: 26 },
+          lg: { width: 300, height: 32 },
+        },
+        description: "Full Stack [MERN] for Software Developers",
+        duration: "40-45 hrs",
+        contentModule: "Topics Covered",
+        contentDescription: "",
+        contentDetails: [
+          "Front-End Development with React",
+          "Back-End Development with Node.js and Express",
+          "Database Management with MongoDB",
+          "Connecting Front-End with Back-End",
+        ],
+        popuplist: [
+          {
+            term: "Module 0",
+            title: "Programming Fundamentals",
+            duration: "40-50 hrs",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: " Introduction to Programming",
+                moduleList: [
+                  "Basics of programming and Java installation (JDK, IDE like IntelliJ, Eclipse)",
+                  "Writing and running your first Java program (e.g., Hello World)",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Variables, Data Types, and Operators",
+                moduleList: [
+                  "Variables: Declaration, Initialization, Scope in Java",
+                  "Data types: int, float, double, char, boolean",
+                  "Operators: Arithmetic, Relational, Logical, Assignment,Increment/Decrement",
+                  "Input and output in Java: Scanner class and System.out.println",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Control Flow",
+                moduleList: [
+                  "Conditional statements: if, else if, else",
+                  "Switch-case in Java",
+                  "Loops: for, while, do-while",
+                  "Break and continue",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: " Functions (Methods)",
+                moduleList: [
+                  "Defining and calling methods in Java",
+                  "Method parameters, return types, and scope",
+                  "Method overloading",
+                  "Recursion in Java",
+                ],
+              },
+              {
+                moduleTitle: "Section 5",
+                moduleContent: "Arrays and Strings",
+                moduleList: [
+                  "Arrays: Declaration, initialization, and traversal",
+                  "Multidimensional arrays",
+                  "Strings: String class methods, concatenation, comparison, and manipulation",
+                ],
+              },
+              {
+                moduleTitle: "Section 6",
+                moduleContent: " Object-Oriented Programming (OOP)",
+                moduleList: [
+                  "Classes and Objects",
+                  "Constructors and destructors",
+                  "Encapsulation, Inheritance, Polymorphism, Abstraction",
+                  "Access modifiers: private, public, protected",
+                  "Static and non-static members",
+                  "OOP practice problems (e.g., real-world object modeling)",
+                ],
+              },
+            ],
+          },
+          {
+            term: "TERM 1",
+            title: " Data Structures & Algorithms",
+            duration: "3.5 Months",
+            modules: [
+              {
+                sectionTitle:
+                  "Part 2:-Foundations of Data Structures and Algorithms",
+                moduleTitle: "Section 1",
+                moduleContent: "Time and Space Complexity",
+                moduleList: [
+                  "Understanding Performance: Importance of complexity analysis in interviews",
+                  "Big O Notation: Common complexities and how to analyze them during coding interviews.",
+                  "Space Complexity: Optimizing memory usage in data structure choices.",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Arrays",
+                moduleList: [
+                  "Array Basics: Efficiently handling and manipulating arrays.",
+                  "Operations: Insertion, deletion, searching, and updating—focus on interview",
+                  "Two-Dimensional Arrays: Common problems like matrix manipulation.",
+                  "Sample Practice Problems:",
+                  "Maximum element in an array, Reverse an array, Minimum element in an array, Sorted array check, Count occurrences.",
+                  "Rotate an array, Merge sorted arrays, Intersection of arrays, Move zeroes, Pairs with given sum",
+                  "Longest increasing subsequence, Maximum subarray sum, Longest common subsequence, Minimum path sum, Maximum product subarray",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Linked Lists",
+                moduleList: [
+                  "Singly Linked List: Creation, traversal, insertion, and deletion.",
+
+                  "Doubly and Circular Linked Lists: Differences and use cases; related problems.",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Sample Practice Problems:",
+                moduleList: [
+                  "Middle element of a linked list, Detect a loop in a linked list, Length of a linked list, Check if a linked list is a palindrome,Merge two linked lists",
+                  "Reverse a linked list, Add two numbers represented by linked lists, Rotate a linked list, Find the start of the loop, Partition a linked list around a value.",
+                  "Remove the N-th node from the end, Flatten a multilevel doubly linked list, Reorder a linked list,Clone a linked list with next and random, pointers, Split a linked list into two halves",
+                ],
+              },
+              {
+                moduleTitle: "Section 5",
+                moduleContent: " Stacks and Queues",
+                moduleList: [
+                  "Understanding Concepts: LIFO and FIFO principles—common in problem statements.",
+                  "Operations: Implementing stacks and queues efficiently.",
+                  "Priority Queues and Dequeues: Applications in interview questions.",
+                ],
+              },
+              {
+                moduleTitle: "Section 6",
+                moduleContent: "Sample Practice Problems:",
+                moduleList: [
+                  "Check for balanced parentheses, Implement a stack using linked list, Implement a stack using an array,",
+                  "Implement a queue using stacks, Evaluate a postfix expression, Implement a double-ended queue (Deque), Generate binary numbers from 1 to N, Reverse a queue.",
+                  "Implement a queue using a circular array, Design a stack that supports duplicate elements, Evaluate infix expressions.",
+                ],
+              },
+              {
+                sectionTitle:
+                  "Part 2 :- Advanced Data Structures and Algorithms",
+                moduleTitle: "Section 7",
+                moduleContent: " Recursion and Backtracking",
+                moduleList: [
+                  "Mastering Recursion: Key concepts and base cases crucial for problem- solving",
+                  "Divide and Conquer: Understanding its application in interviews.",
+                  "Backtracking: Common problems like N-Queens, Sudoku.",
+                ],
+              },
+              {
+                moduleTitle: "Section 8",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Calculate the factorial of a number, Fibonacci sequence using recursion, Tower of Hanoi, Sum of digits of a number.",
+                  "Generate all subsets of a set, Solve the N-Queens problem, Generate permutations of a string, Rat in a maze.",
+                  "Solve the Sudoku puzzle, Permutations of a string, Word search, Generate all valid parentheses, Subset sum problem.",
+                ],
+              },
+              {
+                moduleTitle: "Section 9",
+                moduleContent: " Searching Algorithms",
+                moduleList: [
+                  "Linear vs Binary Search: Time complexities and when to use which.",
+                  "Advanced Searches: Ternary search and applications.",
+                  "Backtracking: Common problems like N-Queens, Sudoku.",
+                ],
+              },
+              {
+                moduleTitle: "Section 10",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Basic: Linear search in sorted array, Find minimum in array, Find maximum in array, Reverse an array, Find unique element in array",
+                  "Intermediate: Binary search in sorted array, Search in rotated sorted array, k-th smallest element in array",
+                  "Advanced: First and last position of element in sorted array, Square root using binary search, Median of two sorted arrays, Find smallest pair sum",
+                ],
+              },
+              {
+                moduleTitle: "Section 11",
+                moduleContent: " Sorting Algorithms",
+                moduleList: [
+                  "Simple Sorting Algorithms: Bubble, selection, insertion—understanding their performance.",
+                  "Advanced Sorting Algorithms: Merge sort, quick sort—key algorithms in interviews.",
+                  "Backtracking: Common problems like N-Queens, Sudoku.",
+                ],
+              },
+              {
+                moduleTitle: "Section 12",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Bubble sort, Selection sort, Insertion sort, Sort array of 0s, 1s, and 2s, Merge two sorted arrays",
+                  "Merge sort, Quick sort, Heap sort, Counting sort ",
+                  "Sort nearly sorted array, K-th largest element in unsorted array, Find median of two sorted arrays, Find minimum difference pair in array",
+                ],
+              },
+              {
+                moduleTitle: "Section 13",
+                moduleContent: " Hashing",
+                moduleList: [
+                  "Hash Tables and Hash Functions: Importance in optimizing search operations.",
+                  "Collision Handling Techniques: Techniques to handle collisions effectively. ",
+                  "Hash Table Implementations",
+                ],
+              },
+              {
+                moduleTitle: "Section 14",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Count frequencies of elements in an array.",
+                  "Two-sum problem, Find the first non-repeating character in a string. ",
+                  "Longest consecutive sequence, Group anagrams from a list of strings.",
+                ],
+              },
+              {
+                moduleTitle: "Section 15",
+                moduleContent: "Trees",
+                moduleList: [
+                  "Binary Trees: Understanding traversal techniques (inorder, preorder, postorder).",
+                  "Binary Search Trees (BSTs): Key operations and their complexities. ",
+                  "Balanced Trees (AVL, Red-Black): Importance of balancing in interviews.",
+                ],
+              },
+              {
+                moduleTitle: "Section 16",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Implement binary tree traversals, Count the number of nodes in a binary tree.",
+                  "Validate a binary search tree, Find the height of a binary tree.",
+                  "Lowest common ancestor in a binary tree, Serialize and deserialize a binary tree.",
+                ],
+              },
+              {
+                moduleTitle: "Section 17",
+                moduleContent: "Tries",
+                moduleList: [
+                  "Understanding Tries: Structure and its applications in string problems.",
+                  "Insertion and Search Operations: Common tasks to practice.",
+                ],
+              },
+              {
+                moduleTitle: "Section 18",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Insert and search in a trie.",
+                  "Find all words with a given prefix, Count distinct substrings.",
+                  "Implement autocomplete system, Implement a phone directory.",
+                ],
+              },
+              {
+                moduleTitle: "Section 19",
+                moduleContent: "Heaps",
+                moduleList: [
+                  "Max-Heaps and Min-Heaps: Key properties and operations.",
+                  "Heap Applications: Priority queues and their importance in algorithms.",
+                ],
+              },
+              {
+                moduleTitle: "Section 20",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Build a max heap from an array, Find the maximum element in a heap.",
+                  "Implement heap sort, K-th largest element in a stream using a min heap.",
+                  "Merge k sorted linked lists, Top k frequent elements in an array.",
+                ],
+              },
+              {
+                moduleTitle: "Section 21",
+                moduleContent: "Greedy Algorithms",
+                moduleList: [
+                  "Understanding Greedy Strategy: When to apply greedy methods in problem-solving.",
+                ],
+              },
+              {
+                moduleTitle: "Section 22",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Coin change problem (greedy version), Activity selection problem.",
+                  "Job sequencing problem, Fractional knapsack problem.",
+                  "Huffman coding, Minimum spanning tree using Prim's or Kruskal's algorithm.",
+                ],
+              },
+              {
+                moduleTitle: "Section 23",
+                moduleContent: "Dynamic Programming (DP)",
+                moduleList: [
+                  "Introduction to DP: Recognizing overlapping subproblems and optimal substructure.",
+                  "Top-down vs. Bottom-up: Techniques for solving DP problems.",
+                  "Common DP Problems: Longest common subsequence, 0/1 knapsack— key problems for interviews.",
+                ],
+              },
+              {
+                moduleTitle: "Section 24",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Calculate the nth Fibonacci number using DP.",
+                  "Longest increasing subsequence, Coin change problem.",
+                  "0/1 knapsack problem, Edit distance between two strings.",
+                ],
+              },
+              {
+                moduleTitle: "Section 25",
+                moduleContent: " Graphs",
+                moduleList: [
+                  "Graph Representations: Adjacency matrix vs. adjacency list—pros and cons.",
+                  "Graph Traversal Algorithms: BFS and DFS—understanding their applications in problem-solving.",
+                  "Shortest Path Algorithms: Dijkstra's, Bellman-Ford; how to apply them in interviews.",
+                ],
+              },
+              {
+                moduleTitle: "Section 26",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Implement BFS and DFS for a graph.",
+                  "Detect cycles in an undirected graph, Find connected components.",
+                  "Dijkstra's algorithm for shortest path, Kruskal's or Prim's algorithm for minimum spanning tree.",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Term 2",
+            duration: "1 Month",
+            title: "Computer Fundamentals",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: " Introduction to Computer Systems",
+                moduleList: [
+                  "Overview of Computer Architecture",
+                  "Core Components: CPU, Memory, Storage Devices",
+                  "Memory Types: RAM, ROM, Cache",
+                  "Basics of Program Execution",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Operating Systems:",
+                moduleList: [
+                  "OS Functions and Resource Management",
+                  "Processes and Threads, Scheduling Basics",
+                  "Memory Management: Paging, Virtual Memory",
+                  "IP Addressing and Subnetting",
+                  "Concurrency Basics: Locks, Semaphores",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: " Data Representation and Number Systems:",
+                moduleList: [
+                  "Number Systems: Binary, Decimal, Hexadecimal",
+                  "Conversions between Number Systems",
+                  "Encoding Basics: ASCII, Unicode",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Networking Fundamentals:",
+                moduleList: [
+                  "Networking Basics: LAN, WAN, Internet",
+                  "OSI and TCP/IP Models, Key Protocols",
+                  "IP Addressing Basics, Routing Concepts",
+                  "Network Security: Firewalls, NAT",
+                ],
+              },
+              {
+                moduleTitle: "Section 5",
+                moduleContent: "Programming Concepts and Problem-Solving:",
+                moduleList: [
+                  "Programming Paradigms Overview",
+                  "Complexity Analysis Basics",
+                  "Core Data Structures: Arrays, Linked Lists",
+                  "Sorting and Searching Algorithms",
+                ],
+              },
+              {
+                moduleTitle: "Section 6",
+                moduleContent: " Version Control Systems:",
+                moduleList: [
+                  "Git and GitHub Essentials",
+                  "Basic Commands: Clone, Commit, Push",
+                  "Branching, Merging, Collaboration Practices",
+                ],
+              },
+              {
+                moduleTitle: "Section 7",
+                moduleContent: "Computer Security Basics:",
+                moduleList: [
+                  "Cybersecurity Fundamentals",
+                  "Encryption: Symmetric, Asymmetric",
+                  "Authentication and Common Security Threats",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Term 3",
+            duration: "2.5 Month",
+            title: "System Design : LLD + HLD",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Overview of System Design",
+                moduleList: [
+                  "Introduction to System Design: Explanation of key concepts in system design, including scalability, reliability, performance, and security.",
+                  "Components of System Design: Overview of high-level vs low-level design, explaining how each contributes to a well-architected system.",
+                  "Building Blocks of System Design: Introduction to core components like databases, servers, clients, APIs, and message queues.",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                sectionTitle: "Part 1 - Statistics",
+                sectionTitle2: "Low-Level Design (LLD) - 9 Chapters",
+                moduleContent:
+                  " Fundamentals of Object-Oriented Programming (OOP)",
+                moduleList: [
+                  "Core principles: Abstraction, Encapsulation, Inheritance, and Polymorphism.",
+                  "Practical applications with real-world examples to solidify understanding.",
+                  "Modular component design for ease of code maintenance. ",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: " SOLID Principles for Effective Design",
+                moduleList: [
+                  "Detailed coverage of each SOLID principle: Single Responsibility,",
+                  "Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion.",
+                  "Exercises for applying these principles to various scenarios to achieve adaptable and clean code.",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Essential Design Patterns",
+                moduleList: [
+                  "Overview of major design patterns: Creational (Factory, Singleton), Structural (Adapter, Composite), Behavioral (Observer, Strategy).",
+                  "Identifying the right pattern based on requirements and scenarios. ",
+                  "Practical examples to solve common challenges with design patterns.",
+                ],
+              },
+              {
+                moduleTitle: "Section 5",
+                moduleContent: " UML Diagrams for Visual Representation",
+                moduleList: [
+                  "Introduction to essential UML diagrams, including Class, Sequence, and Component diagrams.",
+                  "Exercises in creating visual maps for clear communication of design.",
+                  "Best practices for organized, understandable diagramming.",
+                  "Creating a Low-Level Design Document",
+                ],
+              },
+              {
+                moduleTitle: "Section 6",
+                moduleContent: "Designing Efficient Database Schemas)",
+                moduleList: [
+                  "Basics of schema design for efficient data management and retrieval.",
+                  "Creation of Entity-Relationship Diagrams (ERDs) and normalization techniques.",
+                  "Optimization methods for scalable schemas in high-volume databases. ",
+                ],
+              },
+              {
+                moduleTitle: "Section 7",
+                moduleContent: " API Design and Implementation Basics",
+                moduleList: [
+                  "RESTful API design principles: Structuring endpoints, managing errors, and versioning.",
+                  "Exercises for creating well-structured, scalable APIs with error handling.",
+                  "Best practices in API development for smooth integrations.",
+                ],
+              },
+              {
+                moduleTitle: "Section 8",
+                moduleContent: " Multithreading and Concurrency Management",
+                moduleList: [
+                  "Introduction to multithreading and concurrency control basics.",
+                  "Managing issues like race conditions and deadlocks effectively.",
+                  "Practical examples to design systems handling concurrent tasks efficiently.",
+                ],
+              },
+              {
+                moduleTitle: "Section 9",
+                moduleContent: " Basic Integration AI/ML in Software Design",
+                moduleList: [
+                  "Basics of embedding ML models and GenAI in systems for functionality enhancement.",
+                  "Setting up data flows for AI/ML and GenAI: Data preprocessing, model execution, and output integration.",
+                  "Model lifecycle management, including monitoring and updates for performance consistency.",
+                  "Microservices",
+                  "Containers",
+                ],
+              },
+              {
+                moduleTitle: "Section 10",
+                moduleContent: " Testing and Code Quality Best Practices",
+                moduleList: [
+                  "Overview of unit and integration testing to maintain design stability.",
+                  "Techniques for documenting and structuring code for clarity and maintenance.",
+                  "Continuous monitoring and refinement for long-term code and design quality.",
+                ],
+              },
+              {
+                moduleTitle: "Section 11",
+                moduleContent: "Topic 2:- High-Level Design (HLD) - 9 Chapters",
+                moduleList: [
+                  "Overview of unit and integration testing to maintain design stability.",
+                  "Techniques for documenting and structuring code for clarity and maintenance.",
+                  "Continuous monitoring and refinement for long-term code and design quality.",
+                ],
+              },
+              {
+                moduleTitle: "Section 12",
+                moduleContent: "Introduction to System Architecture and Design",
+                moduleList: [
+                  "System design fundamentals: Overview of monolithic, client-server, and microservices architectures.",
+                  "Principles of system design: Scalability, reliability, maintainability, and fault tolerance.",
+                  "Evaluating architecture choices: Choosing the right design patterns for different application needs.",
+                ],
+              },
+              {
+                moduleTitle: "Section 13",
+                moduleContent: "Distributed Systems Overview",
+                moduleList: [
+                  "Key concepts: Data replication, data consistency, and distributed communication.",
+                  "Design challenges in distributed systems: Fault tolerance, data integrity, and managing distributed transactions.",
+                  "Use cases: Examining examples of distributed systems and architectures in action.",
+                ],
+              },
+              {
+                moduleTitle: "Section 14",
+                moduleContent: "Network and Communication Protocols",
+                moduleList: [
+                  "Network fundamentals: How TCP/IP, DNS, and HTTP/HTTPS protocols function within HLD.",
+                  "Load balancing techniques: Understanding load balancers, DNS-based load balancing, and API gateways.",
+                  "Case studies: Implementing load balancing in distributed environments. ",
+                ],
+              },
+              {
+                moduleTitle: "Section 15",
+                moduleContent:
+                  "ZooKeeper and Kafka (Distributed Messaging Queue)",
+                moduleList: [
+                  "ZooKeeper: Overview of distributed coordination, leader election, and configuration management.",
+                  "Apache Kafka: Introduction to message queuing, real-time data streaming, and event-driven architecture.",
+                  "Implementing a distributed messaging system: Practical applications and setup for reliable messaging. ",
+                ],
+              },
+              {
+                moduleTitle: "Section 16",
+                moduleContent: "Designing with Microservices and CAP Theorem",
+                moduleList: [
+                  "Microservices architecture: Benefits and challenges of service decomposition and design.",
+                  "CAP Theorem: Trade-offs between Consistency, Availability, and Partition tolerance.",
+                  "Data partitioning: Techniques like sharding, horizontal scaling, and load distribution.",
+                ],
+              },
+              {
+                moduleTitle: "Section 17",
+                moduleContent: "Database Selection and Data Storage Models",
+                moduleList: [
+                  "Database types: SQL, NoSQL, and NewSQL, understanding their scalability and data integrity trade-offs.",
+                  "Choosing a database: ACID vs. BASE properties, and database selection based on application needs.",
+                  "Distributed databases: How they manage scalability, availability, and latency.",
+                ],
+              },
+              {
+                moduleTitle: "Section 18",
+                moduleContent: "Caching and Content Delivery Networks (CDNs)",
+                moduleList: [
+                  "Caching strategies: Implementing in-memory caching (Redis, Memcached) and cache expiration techniques.",
+                  "Content Delivery Networks (CDNs): Using CDNs for load reduction and latency improvements.",
+                  "Optimizing data access: Practical steps to build efficient caching strategies.",
+                  "Project: Instagram like Image and Video Feed System",
+                  "Objective: Design Instagram’s feed system to handle high-frequency data retrieval for photos and videos.",
+                  "Focus: Integrate caching and CDN strategies to reduce latency and improve user experience on a large scale.",
+                ],
+              },
+              {
+                moduleTitle: "Section 19",
+                moduleContent: " Scalability, Security, and Reliability",
+                moduleList: [
+                  "Security best practices: Authentication, data encryption, and secure API design in high-level architectures.",
+                  "Reliability patterns: Circuit breaker, retry mechanisms, and failover strategies.",
+                  "Scaling infrastructure: Vertical and horizontal scaling, auto-scaling, and designing for peak load handling.",
+                ],
+              },
+              {
+                moduleTitle: "Section 20",
+                moduleContent: "AI/ML Systems in High-Level Design",
+                moduleList: [
+                  "Integrating AI/ML: High-level considerations for data pipelines model serving, and scalability for ML.",
+                  "Data infrastructure for ML: Handling large datasets, real-time processing, and model versioning.",
+                  "Real-world case studies: Examples of high-level AI/ML systems in production environments.",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Elective 1 ",
+            duration: "1 Month",
+            title: "GenAI for Software Developers",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Objective:",
+                moduleList: [
+                  "Empower developers to leverage Generative AI for application development and workflow automation, emphasizing OpenAI APIs and LangChain integration.",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Recommended Experience:",
+                moduleList: [
+                  "2-4 years in software development, familiar with Python, APIs, and basic machine learning concepts. Ideal for those integrating AI into applications.machine learning concepts. Ideal for those integrating AI into applications. ",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: " Career Fit:",
+                moduleList: [
+                  "Perfect for developers interested in AI-driven development and enhancing user experiences or pursuing roles in AI application design",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Topics Covered:- GenAI for Software Developers",
+                moduleList: [
+                  "Fundamentals of Generative AI: Overview of generative models and their real-world applications, highlighting differences from traditional AI.",
+                  "Integration of OpenAI APIs: Techniques for effectively integrating OpenAI APIs, including authentication and best practices for data handling.",
+                  "Building Applications with LangChain: Utilizing LangChain to create intelligent applications that leverage large language models.",
+                  "Utilizing Hugging Face: Accessing and deploying Hugging Face pre-trained models, with a focus on fine-tuning for specific uses.",
+                  "Prompt Engineering: Strategies for crafting effective prompts to optimize AI responses and improve user interaction.",
+                  "Ethical Considerations in AI: Discussion of ethical issues in AI, including bias, privacy, and responsible usage in development.",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Elective 2",
+            duration: "1 Month",
+            title: " Product Management for Tech Professionals",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: " Objective",
+                moduleList: [
+                  "Equip developers with a product management mindset to align technical and business goals in tech products.",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Recommended Experience",
+                moduleList: [
+                  "3-5 years in software development, ideally in cross-functional settings with product managers. Suitable for senior developers or leads transitioning to product roles.",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Career Fit",
+                moduleList: [
+                  "Engineers aiming for product management or tech lead roles to navigate both technical and business needs effectively.",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Topics Covered:",
+                moduleList: [
+                  "Product Life Cycle & Development: Understanding phases from concept to launch and maintenance.",
+                  "Market Research for Tech Products: Conducting research to align product with user needs and market demands.",
+                  "Feature Prioritization Techniques: Balancing business and technical requirements to drive value. requirements to drive value.",
+                  "Technical Roadmapping: Creating roadmaps for technical execution aligned with business goals. ",
+                  "Stakeholder Communication: Translating complex tech concepts for business stakeholders.",
+                  "Data-Driven Decision Making: Leveraging metrics and KPIs to guide product strategy.",
+                  "Product Design Basics for Engineers: Fundamentals of UI/UX that impact product usability and satisfaction",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Elective 3",
+            duration: "1 Month",
+            title: "Full Stack [MERN] for Software Developers",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: " Objective",
+                moduleList: [
+                  "Equip software engineers with the essential skills to design, develop, and deploy full-stack web applications using the MERN (MongoDB, Express, React, Node.js) stack.",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Recommended Experience",
+                moduleList: [
+                  "1-4 years in software development with familiarity in JavaScript, web technologies, and basic software development practices. Ideal for developers interested in building end-to-end applications or pursuing full-stack roles.",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Career Fit",
+                moduleList: [
+                  "Perfect for engineers aiming to transition into full-stack development roles or expand their expertise in building complex, modern web applications using the MERN stack.",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Topics Covered:",
+                moduleList: [
+                  "Front-End Development with React: React fundamentals like components, Props, State, Functional vs. Class Components, JSX syntax and CSS and its frameworks",
+                  "Back-End Development with Node.js and Express: Setting up Node.js and NPM, Asynchronous programming: Callbacks, Promises,Async/Await; Setting up a basic Express server, Handling HTTP requests and responses, Middleware functions in Express,RESTful API design and implementation.",
+                  "Database Management with MongoDB: Overview of MongoDB vs. relational databases, CRUD operations in MongoDB, Defining collections and documents, MongoDB data types, Relationships and references in MongoDB.",
+                  "Connecting Front-End with Back-End: Designing RESTful routes and endpoints,HTTP methods (GET, POST, PUT, DELETE),Error handling and status code",
+                  "Testing and Debugging Full Stack Applications: Writing tests for React components,Writing API tests with Jest and Supertest",
+                  "Deployment and Version Control: Git basics: Commits, branches, merges,Working with GitHub repositories, Continuous Integration and Continuous Deployment, Setting up a simple CI pipeline",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Elective 4",
+            duration: "1 Month",
+            title: " DevOps Essentials for Software Engineers",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: " Objective",
+                moduleList: [
+                  "Equip developers with DevOps skills for efficient, scalable code deployment by enhancing CI/CD, infrastructure, and automation workflows.",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Recommended Experience",
+                moduleList: [
+                  "2-4 years in software engineering with basic knowledge of scripting and cloud services; ideal for developers moving toward DevOps.",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Career Fit",
+                moduleList: [
+                  "Suited for developers interested in DevOps, cloud management, and automated deployment.",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Topics Covered:",
+                moduleList: [
+                  "Programming & Scripting for Automation: Python, Bash, and scripting for DevOps automation",
+                  "Linux & System Administration: Essential Linux commands, permissions, and troubleshooting",
+                  "Version Control with Git: Git workflows for collaborative DevOps and code management",
+                  "CI/CD Integration: Jenkins, GitHub Actions for automated deployment and testing ",
+                  "Containerization & Orchestration: Using Docker and Kubernetes for scalable deployment environments",
+                  "Infrastructure as Code (IaC): Terraform and Ansible for automated infrastructure setup",
+                  "Monitoring & Logging: Prometheus, Grafana, and ELK stack for real-time monitoring and troubleshooting",
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: "7",
+        trackIcon:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/DSA-systemDesign.webp",
+        width: 80,
+        height: 80,
+        title: "Elective 4",
+        toolsImg:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/java-networkX.webp",
+        imageSizes: {
+          vsm: { width: 150, height: 21 },
+          sm: { width: 160, height: 23 },
+          md: { width: 170, height: 26 },
+          lg: { width: 200, height: 32 },
+        },
+        description: "DevOps Essentials for Software Engineers",
+        duration: "40-45 hrs",
+        contentModule: "Topics Covered",
+        contentDescription: "",
+        contentDetails: [
+          "Programming & Scripting for Automation",
+          "CI/CD Integration",
+          "Containerization & Orchestration",
         ],
         popuplist: [
           {
@@ -4054,6 +6316,70 @@ export const NewDSAData = [
         ],
       },
     ],
+    genAiData: [
+      {
+        id: 1,
+        title: "Sales Forecasting Using Generative AI ",
+        description:
+          "Objective: Build a conversational AI chatbot that provides personalized employee feedback, wellness suggestions, and engagement insights. Outcome: Managers will learn to enhance HR processes using AI-driven solutions",
+        iconUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-61.webp", // Provide the path to the icon image
+        listItems: [
+          "Objective: Develop a generative AI-based sales forecasting model tailored for decision-making in retail or FMCG domains.",
+          "Outcome: Learners will create predictive sales reports and simulate scenarios for strategic planning.",
+          "Skills Covered: Time-series analysis, prompt engineering, data preprocessing, using OpenAI APIs, and visualization techniques.",
+        ],
+        rank: "#1",
+        duration: "20 hours",
+      },
+      {
+        id: 2,
+        title: "Employee Engagement Chatbot",
+        description:
+          "Objective: Create an AI system that generates actionable insights and strategies for inventory optimization and logistics planning. Outcome: Learn to automate decision-making processes, ensuring cost efficiency and reduced lead times.",
+        iconUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-21.webp", // Provide the path to the icon image
+        listItems: [
+          "Objective: Build a conversational AI chatbot that provides personalized employee feedback, wellness suggestions, and engagement insights.",
+          "Outcome: Managers will learn to enhance HR processes using AI-driven solutions for improved employee satisfaction.",
+          "Skills Covered: Natural language understanding (NLU), chatbot flow design, fine-tuning LLMs, and LangChain integration.",
+        ],
+        rank: "#2",
+        duration: "20 hours",
+      },
+      {
+        id: 3,
+        title: "Strategic Decision Automation for Supply Chain",
+        description:
+          "Objective: Develop a generative AI-based sales forecasting model tailored for decision-making in retail or FMCG domains. Outcome: Learners will create predictive sales reports and simulate scenarios for strategic planning.",
+        iconUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-31.webp", // Provide the path to the icon image
+        listItems: [
+          "Objective: Create an AI system that generates actionable insights and strategies for inventory optimization and logistics planning.",
+          "Outcome: Participants will learn to automate decision-making processes, ensuring cost efficiency and reduced lead times.",
+          "Skills Covered: Generative AI applications in supply chain, OpenAI APIs, and dashboard creation using Tableau/Power BI.",
+        ],
+        rank: "#3",
+        duration: "20 hours",
+      },
+
+      {
+        id: 4,
+        title: "AI-Powered Personalized Marketing Campaigns",
+        description:
+          "Objective: Design a  GenAI tool to create personalized ad campaigns and content suggestions Outcome: Learn how to leverage AI to boost ROI through targeted and data-driven marketing strategies.",
+        iconUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-41.webp", // Provide the path to the icon image
+        listItems: [
+          "Objective: Design a generative AI tool to create personalized ad campaigns and content suggestions for diverse customer segments.",
+          "Outcome: Learners will understand how to leverage AI to boost ROI through targeted and data-driven marketing strategies.",
+          "Skills Covered: Customer segmentation using AI, creative content generation, and integration with marketing platforms.",
+        ],
+        rank: "#4",
+        duration: "20 hours",
+      },
+      // Add more data as needed
+    ],
     certificateNew: [
       {
         id: 1,
@@ -4080,32 +6406,6 @@ export const NewDSAData = [
     Certificate: [
       {
         id: 1,
-        topnav: "IBM",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp",
-        width: 300,
-        height: 340,
-        title: "Course Completion Certificate from IBM",
-        para: [
-          "Complete your training with the internationally recognized certificate.",
-          "Validate your Data Science & AI skills with IBM Course Completion Certificate.",
-          "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
-        ],
-      },
-      {
-        id: 2,
-        topnav: "Microsoft",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
-        width: 330,
-        height: 260,
-        title: "Certification in Collaboration with Microsoft",
-        para: [
-          "Earn an Industry-certified Microsoft certificate , validating your skills",
-          "Showcase your expertise & enhance your resume highlighting job ready skills",
-          "Boost job opportunities and earnings with Microsoft’s certification",
-        ],
-      },
-      {
-        id: 3,
         topnav: "Project Certificate",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp",
         width: 300,
@@ -4118,7 +6418,7 @@ export const NewDSAData = [
         ],
       },
       {
-        id: 4,
+        id: 2,
         topnav: "Gen-AI Certificate",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/certificategenai+1.webp",
         width: 300,
@@ -4446,6 +6746,461 @@ export const NewDSAData = [
         ],
       },
     },
+    masterSyllabusMobile: [
+      {
+        Module0: {
+          title: "Module 1:- Fundamentals of Generative AI for Leaders",
+          hours: "(40 Hours)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp ",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/build_ups.webp",
+          points: "Why Programming",
+          content: [
+            {
+              chap: {
+                title: "",
+                desc: [
+                  "Topics: Overview of generative models and differences from traditional AI, real-world applications of GenAI in business, impact on business strategy.",
+                  "Hands-on Case Study: Analyzing successful GenAI applications in industry (e.g., customer service automation, content generation).",
+                ],
+              },
+            },
+          ],
+          id: 0,
+          open: true,
+        },
+      },
+      {
+        Module0: {
+          title: "Module 2:- Industry-Specific Use Cases of GenAI",
+          hours: "(40 Hours)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Functions & Recursion",
+          content: [
+            {
+              chap: {
+                title: "",
+                desc: [
+                  "Topics: Applications across industries:",
+                  "Finance: Fraud detection, automated reporting, investment insights.",
+                  "Healthcare: Drug discovery, medical imaging, patient personalization",
+                  "Retail/E-commerce: Inventory management, recommendation engines.",
+                  "Manufacturing: Predictive maintenance, quality control.",
+                  "Hands-on Exercise: Develop a strategy proposal for implementing GenAI in a chosen domain (e.g., customer support chatbot for retail).",
+                ],
+              },
+            },
+          ],
+          id: 1,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Module 3 :- AI-Driven Decision Making",
+          hours: "(20 Hours)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellows.webp",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/hash_ups.webp",
+          points: "DBMS",
+          content: [
+            {
+              chap: {
+                title: "",
+                desc: [
+                  "This module examines how AI can augment decision-making processes in organizations",
+                  "It covers data-driven decision-making, predictive analytics, and the integration of AI insights into business strategies.",
+                ],
+              },
+            },
+          ],
+          id: 2,
+          open: false,
+        },
+      },
+
+      {
+        Module0: {
+          title: "Module 4 :- Workflow Automation using GenAI",
+          hours: "(20 Hours)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/world-rounds.webp",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/world-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/deployment-color-ups.webp",
+          points: "MERN (Full-Stack Specialization)",
+          content: [
+            {
+              chap: {
+                title: "",
+                desc: [
+                  "Overview of GenAI in workflow automation.",
+                  "Set up a Zapier account and link it with Generative AI tools.",
+                  "Hands-on with Zapier to integrate GenAI into workflows.",
+                  "Compare automation tools with GenAI features and use cases.",
+                ],
+              },
+            },
+          ],
+          id: 4,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Module 5 :- GenAI in Sales and Marketing",
+          hours: "(20 Hours)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/deployment-colors.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/deployment-color-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/mix-up.webp",
+          points: "Deep Learning",
+          points1: "(NLP)",
+          content: [
+            {
+              chap: {
+                title: "",
+                desc: [
+                  "Overview of GenAI applications in sales and marketing.",
+                  "Personalized content creation.",
+                  "Lead scoring and qualification.",
+                  "Customer segmentation.",
+                  "Automated email responses.",
+                  "Predictive analytics for customer behavior",
+                  "Hands-on project: Build a GenAI-driven campaign for targeted marketing.",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+
+      {
+        Module0: {
+          title:
+            "Module 6 :- GenAI Tools & Applications for Software Development",
+          hours: "(20 Hours)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/mix-round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/mix-down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-up.webp",
+          points: "Deep Learning",
+          points1: "(NLP)",
+          content: [
+            {
+              chap: {
+                title: "",
+                desc: [
+                  "Overview of GenAI tools for code autocompletion, language conversion, code quality review, and automated testing.",
+                  "Applications: Code autocompletion, code refactoring and optimization, code translation, code quality review, automated testing.",
+                ],
+              },
+            },
+          ],
+          id: 7,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Module 7:- GenAI in Customer Services and Operations",
+          hours: "(20 Hours)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-round.webp",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/slice-ups.webp",
+          points: "Deep Learning",
+          points1: "(NLP)",
+          content: [
+            {
+              chap: {
+                title: "",
+                desc: [
+                  "Overview of GenAI applications in customer service and operations",
+                  "Automated chatbots for customer support, Personalized response generation, Predictive maintenance in operations.",
+                  "Workflow automation, Customer feedback analysis.",
+                  "Hands-on project: Design a GenAI-powered customer support assistant for quick query resolution",
+                ],
+              },
+            },
+          ],
+          id: 7,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Module 8:- GenAI in Data Analytics",
+          hours: "(20 Hours)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/slice-rounds.webp",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/slice-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lap-ups.webp",
+          points: "Deep Learning",
+          points1: "(NLP)",
+          content: [
+            {
+              chap: {
+                title: "",
+                desc: [
+                  "Overview of GenAI in data analytics.",
+                  "Data cleaning and preprocessing, Automated data insights, Predictive analytics.",
+                  "GenAI integration with Sheets and Excel for data analysis.",
+                  "Hands-on project: Build a GenAI-powered dashboard for business insights.",
+                ],
+              },
+            },
+          ],
+        },
+      },
+
+      // teram2@
+
+      {
+        Module0: {
+          title: "Module 1:- Deep Learning Essentials for GenAI",
+          hours: "(20 Hours)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lap-rounds.webp",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lap-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_Up.webp",
+          points: "Why Programming",
+          content: [
+            {
+              chap: {
+                title: "",
+                desc: [
+                  "Topics: High-level understanding of neural networks, backpropagation.",
+                  "Popular frameworks (TensorFlow, PyTorch) in the context of GenAI.",
+                  "Hands-on Exercise: Build an end-to-end process diagram for deploying a deep learning-based GenAI solution within an organization.",
+                ],
+              },
+            },
+          ],
+          id: 0,
+          open: true,
+        },
+      },
+      {
+        Module0: {
+          title: "Module 2:- Prompt Engineering for Managers",
+          hours: "(20 Hours)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
+          points: "Functions & Recursion",
+          content: [
+            {
+              chap: {
+                title: "",
+                desc: [
+                  "Topics: Fundamentals of crafting effective prompts, strategies for optimizing AI responses.",
+                  "Prompt templates for different business use cases, basics of prompt chaining.",
+                  "Hands-on Exercise: Design and test prompts for a customer FAQ assistant or internal knowledge base tool.",
+                ],
+              },
+            },
+          ],
+          id: 1,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Module 3 :- Transformers and Large Language Models (LLMs)",
+          hours: "(20 Hours)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/flow-ups.webp",
+          points: "DBMS",
+          content: [
+            {
+              chap: {
+                title: "",
+                desc: [
+                  "Topics: Introduction to transformers, attention mechanisms.",
+                  "Overview of LLMs (GPT-3, ChatGPT, LLaMA),business applications of LLMs.",
+                  "Hands-on Project: Customize prompts for a conversational AI model tailored to a company’scustomer service requirements.",
+                ],
+              },
+            },
+          ],
+          id: 2,
+          open: false,
+        },
+      },
+
+      {
+        Module0: {
+          title: "Module 4 :- Integration of OpenAI APIs",
+          hours: "(20 Hours)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/flow-rounds.webp",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/flow-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_up.webp",
+          points: "MERN (Full-Stack Specialization)",
+          content: [
+            {
+              chap: {
+                title: "",
+                desc: [
+                  "Topics: Overview of OpenAI API capabilities.",
+                  "Data handling best practices, rate limits, error handling, compliance, and data privacy.",
+                  "Hands-on Project: Develop a high-level prototype for a web application using OpenAI API for content generation based on user inputs.",
+                ],
+              },
+            },
+          ],
+          id: 4,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title:
+            "Module 5 :- Building Applications with LangChain for Business Use",
+          hours: "(20 Hours)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lazy-ups.webp",
+          points: "Deep Learning",
+          points1: "(NLP)",
+          content: [
+            {
+              chap: {
+                title: "",
+                desc: [
+                  "Topics: LangChain’s utility for workflow automation, sequential, memory, and conditional chains for task-based applications.",
+                  " Hands-on Project: Build a workflow prototype for automated report generation using LangChain.",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+
+      {
+        Module0: {
+          title: "Module 6 :- RetrievalAugmented Generation Fudamentals (RAG)",
+          hours: "(20 Hours)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lazy-rounds.webp",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lazy-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-up.webp",
+          points: "Deep Learning",
+          points1: "(NLP)",
+          content: [
+            {
+              chap: {
+                title: "",
+                desc: [
+                  " Topics: Basics of RAG, combining generative and retrieval techniques for enhanced information recall.",
+                  "Use cases for RAG in business.",
+                  "Hands-on Project: Implement a RAG-based assistant to answer questions from an internal company FAQ or policy document dataset.",
+                ],
+              },
+            },
+          ],
+          id: 6,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Module 7 :- Overview of Model Deployment and Scalability",
+          hours: "(20 Hours)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-round.webp",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/chat-ups.webp",
+          points: "Deep Learning",
+          points1: "(NLP)",
+          content: [
+            {
+              chap: {
+                title: "",
+                desc: [
+                  "Topics: Overview of model deployment techniques, best practices for production environments.",
+                  "API setup, scaling and monitoring model performance.",
+                  "Hands-on Project: Create a deployment strategy for a customer service chatbot, including model hosting, load balancing, and monitoring requirements.",
+                ],
+              },
+            },
+          ],
+          id: 7,
+          open: false,
+        },
+      },
+      {
+        Module0: {
+          title: "Module 8:- Ethical Considerations in AI for Leadership",
+          hours: "(20 Hours)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/chat-rounds.webp",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/chat-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/chat-ups.webp",
+          points: "Deep Learning",
+          points1: "(NLP)",
+          content: [
+            {
+              chap: {
+                title: "",
+                desc: [
+                  "Topics: Discussion on ethical AI practices, bias detection and mitigation, privacy concerns, responsible AI usage.",
+                  " Implications for leadership decisions.",
+                  "        Hands-on Case Study: Conduct a risk assessment for an AI initiative to evaluate potential ethical challenges and suggest mitigation strategies.",
+                ],
+              },
+            },
+          ],
+          id: 7,
+          open: false,
+        },
+      },
+    ],
     // summary: [
     //   {
     //     id: 1,

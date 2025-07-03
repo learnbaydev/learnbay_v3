@@ -28,8 +28,8 @@ background-clip: text;
 -webkit-text-fill-color: transparent;
   margin-bottom: 0.75rem;
 }
-.cardsContainer .card:nth-child(2) .certLogos,
-.cardsContainer .card:nth-child(4) .certLogos
+.cardsContainer .card:nth-child(2) .certLogos
+
  {
   height: 40px;
   width: auto; /* or set a specific width if needed */

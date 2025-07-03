@@ -15,7 +15,7 @@ export default function UpdatedCertificate({ data }) {
 
   // Determine if this certificate has multiple images/paragraph sets by checking for para1.
   const isMultiple = currentData.para1 !== undefined;
-
+  const pairs = [];
   if (isMultiple) {
     // Build pairs for each image/paragraph set.
     Object.entries(currentData).forEach(([key, value]) => {

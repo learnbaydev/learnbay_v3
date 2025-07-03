@@ -16,11 +16,18 @@ export const programCards = [
     eligibilitytitle: "Program Eligibility :",
     eligibility: "From Learnbay and partnered companies",
     readyfor: "Industry-Ready Certification",
-    brochureUrl: "#",
+    detailsUrl:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/AI-Master-certificationv1.pdf",
     projects: "Projects:",
     theme: "chocolateOrange",
     logo: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/ibm-microsoft+(1).webp",
     icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+2408.webp",
+    brochureUrl:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/AI-Master-certificationv1.pdf",
+    pdfUrl:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/AI-Master-certification.pdf",
+    dataScience: true,
+    dataScienceCounselling: true,
   },
 
   {
@@ -35,10 +42,17 @@ export const programCards = [
     eligibility: "Interactive Problem Solving &",
     secondeligibilitytitle: " Interview Preparation",
     readyfor: "Get Job Ready For",
-    brochureUrl: "#",
+    brochureUrl:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full-Stack-Software-Development-Master-Certification-Programv1.pdf",
+    pdfUrl:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Full-Stack-Software-Development-Master-Certification-Program.pdf",
     theme: "purple",
     logo: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+2673.webp",
     icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+2369.webp",
+
+    detailsUrl: "fullstack/full-stack-software-development",
+    dataScience: true,
+    dataScienceCounselling: true,
   },
   {
     id: 3,
@@ -52,27 +66,43 @@ export const programCards = [
     eligibility: "Unlimited mock interviews and ",
     secondeligibilitytitle: "personalized job calls",
     readyfor: "Be an Expert Using",
-    brochureUrl: "#",
+    brochureUrl:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-Master-certificationv1.pdf",
+    pdfUrl:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cloud-and-Devops-Engineering-Master-certification.pdf",
     projects: "Projects:",
     theme: "green",
     logo: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+2682+(1).webp",
     icon: "https://d32and0ii3b8oy.cloudfront.net/web/learnbay_v4/Homepage/course_section/devops_icon.png",
+    detailsUrl: "/cloud&devops/cloud-and-devops-engineering-masters",
+    dataScience: true,
+    dataScienceCounselling: true,
   },
   {
     id: 4,
-    title: "Cybersecurity & Digital Defense Master",
+    title: "Data Analytics and Business Analytics Master Certification Program",
     description:
-      "Safeguard digital assets & design robust, secure systems from the ground up using GenAI",
-    why: ["Master ethical hacking techniques", "Design secure systems"],
-    keySkills: ["Kali Linux", "Burp Suite", "Prompt Engineering"],
-    duration: " 11 Months",
-    level: "18+ Real-Time",
-    eligibility: "Job placement opportunities in top cybersecurity firms",
-    brochureUrl: "#",
+      "Drive data-informed decisions and unlock business insights with Generative AI.",
+    why: [
+      "Learn storytelling and visualization",
+      "Build smart dashboards with GenAI",
+    ],
+    keySkills: ["PowerBI", "Tableau", "AutoGPT"],
+    duration: " 9 Months",
+    level: "12+ Real-Time",
+    eligibilitytitle: " Program Certification :",
+    eligibility: "From Learnbay and partnered companies",
+    brochureUrl:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data-Analytics-and-Business-Analytics-with-GenAI-Master-Certification-Programv1.pdf",
+    pdfUrl:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-and-Business-Analytics-with-GenAI-Master-Certification-Program.pdf",
     projects: "Projects:",
     readyfor: "Certification from Industry Leader",
     theme: "violet",
-    logo: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+2675.webp",
+    logo: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/ibm-microsoft+(1).webp",
     icon: "https://d32and0ii3b8oy.cloudfront.net/web/learnbay_v4/Homepage/course_section/cyber_security_cion.png",
+    detailsUrl: "/datascience/data-analytics-and-business-analytics-master",
+    dataScience: true,
+    dataScienceCounselling: true,
   },
 ];

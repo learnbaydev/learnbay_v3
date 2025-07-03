@@ -5,6 +5,24 @@
   padding: 30px 0 60px;
   overflow: hidden;
 }
+.violetContainer {
+  margin-top: 70px;
+  /* background: #212121; */
+  background: linear-gradient(
+    90deg,
+    #10234b,
+    #141f47,
+    #181b44,
+    #1c1741,
+    #201341,
+    #220f3c,
+    #270c39,
+    #2b0836,
+    #2e0434
+  );
+  padding: 30px 0 60px;
+  overflow: hidden;
+}
 
 .mainContainer p {
   margin: 0;
@@ -40,7 +58,7 @@
 }
 
 .contentTitleWrapper span {
-  /* background: linear-gradient(90deg, #E85868 58.95%, #8081FF 73.36%); */
+  background: linear-gradient(90deg, #e85868 58.95%, #8081ff 73.36%);
   background-clip: text;
   -webkit-background-clip: text;
   /* -webkit-text-fill-color: transparent; */
@@ -53,14 +71,14 @@
 .contentTitleWrapper h5 {
   color: #fff;
   text-align: center;
-  font-size: 25px;
+  font-size: 21px;
   font-style: normal;
   font-weight: 600;
   line-height: 109%;
   background: rgb(50, 42, 74);
   border: 1px solid white;
   width: max-content;
-  padding: 10px 19px;
+  padding: 10px 14px;
   border-radius: 25px;
   margin: auto;
 }
@@ -222,9 +240,9 @@
     font-size: 44px;
   }
 
-  .contentTitleWrapper h5 {
+  /* .contentTitleWrapper h5 {
     padding: 10px 70px;
-  }
+  } */
 
   .contentWrapper {
     padding: 30px 110px 0;
@@ -317,7 +335,7 @@
 }
 @media only screen and (max-width: 1081px) {
   .contentTitleWrapper h5 {
-    font-size: 26px;
+    font-size: 23px;
   }
 
   .svgWrapper {
@@ -442,7 +460,13 @@
     margin-top: 50px;
     padding: 20px 0 40px;
   }
-
+  .violetContainer {
+    border-radius: 0 0 35px 35px;
+    padding: 0px 0 0px;
+  }
+  .contentTitleWrapper {
+    gap: 20px;
+  }
   .contentWrapper {
     width: 90%;
     padding: 20px 25px;
@@ -512,12 +536,13 @@
   }
 
   .mainContainer {
-    padding: 20px 0 40px 0;
+    padding: 0px 0 0px 0;
+    border-radius: 0px 0px 40px 40px;
   }
 
   .contentWrapper {
     width: 100%;
-    gap: 55px;
+    gap: 35px;
   }
 
   .contentTitleWrapper h1 {
@@ -546,7 +571,7 @@
 
   .contentTitleWrapper h5 {
     width: 72%;
-    font-size: 19px;
+    font-size: 16px;
     padding: 6px 31px;
   }
 
@@ -599,7 +624,7 @@
   }
 
   .mentorsWraper {
-    gap: 60px;
+    gap: 30px;
   }
 
   .mentorsContentsWraper {
@@ -634,7 +659,7 @@
   .staticPoints p {
     color: #fff;
     font-style: normal;
-    line-height: 125%;
+    line-height: 80%;
     font-weight: 400;
     font-size: 15px;
   }
@@ -672,7 +697,7 @@
 
 @media only screen and (max-width: 433px) {
   .contentTitleWrapper h5 {
-    width: 68%;
+    width: 88%;
     padding: 6px 15px;
   }
 }

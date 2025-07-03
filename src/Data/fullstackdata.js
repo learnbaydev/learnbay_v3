@@ -26,14 +26,14 @@ export const NewDSAData = [
             id: 1,
             img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/firstPoint.webp",
             imgAlt: "DSA First Point",
-            text1: "Integrated With Gen-AI for Working Professionals",
+            text1: "Integrated With Gen-AI for Software Developers",
           },
           {
             id: 2,
             img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/secondPoint.webp",
             imgAlt: "DSA Second Point",
-            text1: "Practice ",
-            boldText: "Practice with 18+ Real-time Projects & Case Studies",
+            text1: "Practice with ",
+            boldText: "80+ Real-time Problem Solving Techniques",
           },
         ],
         mentorText: "Earn Industry-Ready Certification from",
@@ -50,13 +50,6 @@ export const NewDSAData = [
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
             imgAlt: "IBM Logo",
             width: "60",
-            height: "30",
-          },
-          {
-            id: 3,
-            img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Microsoft.webp",
-            imgAlt: "image",
-            width: "130",
             height: "30",
           },
         ],
@@ -4799,6 +4792,7 @@ export const NewDSAData = [
           "Front-End Development with React",
           "Back-End Development with Node.js and Express",
           "Database Management with MongoDB",
+          "Connecting Front-End with Back-End",
         ],
         popuplist: [
           {
@@ -6347,32 +6341,6 @@ export const NewDSAData = [
     Certificate: [
       {
         id: 1,
-        topnav: "IBM",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp",
-        width: 300,
-        height: 340,
-        title: "Course Completion Certificate from IBM",
-        para: [
-          "Complete your training with the internationally recognized certificate.",
-          "Validate your Data Science & AI skills with IBM Course Completion Certificate.",
-          "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
-        ],
-      },
-      {
-        id: 2,
-        topnav: "Microsoft",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
-        width: 330,
-        height: 260,
-        title: "Certification in Collaboration with Microsoft",
-        para: [
-          "Earn an Industry-certified Microsoft certificate , validating your skills",
-          "Showcase your expertise & enhance your resume highlighting job ready skills",
-          "Boost job opportunities and earnings with Microsoft’s certification",
-        ],
-      },
-      {
-        id: 3,
         topnav: "Project Certificate",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp",
         width: 300,
@@ -6385,7 +6353,7 @@ export const NewDSAData = [
         ],
       },
       {
-        id: 4,
+        id: 2,
         topnav: "Gen-AI Certificate",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/certificategenai+1.webp",
         width: 300,

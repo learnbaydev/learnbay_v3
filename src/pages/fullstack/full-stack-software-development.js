@@ -12,7 +12,7 @@ const DSAPractical = dynamic(() =>
   import("@/components/CoursePage/NewDSA/Practical/DSAPractical")
 );
 const AnimationNew = dynamic(() =>
-  import("@/components/Home/whyChooseSection/Whylb")
+  import("@/components/Home/whyChooseSection/whylblimited")
 );
 const Other = dynamic(() =>
   import("@/components/Home/newUI/OtherVS_updated/Other")
@@ -54,16 +54,17 @@ import {
   getDSABookingSoonDate,
 } from "@/Util/getDSABatchData";
 import AlumniCompanies from "@/components/CoursePage/newUICourse/AlumniCompanies";
-import LearningToPlacement from "@/components/CoursePage/newUICourse/LearningToPlacement/LearningToPlacement";
+import LearningToPlacement from "@/components/CoursePage/newUICourse/LearningToPlacementinfinity/LearningToPlacement";
 import Newheader from "@/components/CoursePage/newHeader/newHeader";
 import { MasterAI } from "@/Data/Schema/DataScienceAndAIMasterSchema";
 import FeeSection from "@/components/course/feeSection/FeeSectionCourse";
 import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/UpdatedCertificate";
-import HighlightsSection from "@/components/CoursePage/newUICourse/Support/HighlightsSection";
+import HighlightsSection from "@/components/CoursePage/FirstPart/Support_noimage/HighlightsSection";
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-Master-certification.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Full-Stack-Software-Development-Master-Certification-Program.pdf";
+
   let soonDate = getDSABookingSoonDate();
   let laterDate = getDSABookingLaterDate();
   // console.log(getDSABookingSoonDate(new Date('2023-03-24')));
@@ -193,12 +194,12 @@ const NewDSA = ({ DSADataJson }) => {
           descrption={NewDSAData[0].header[0].descrption}
           svgDSA={NewDSAData[0].header[0].svgDSA}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-Master-certification.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full-Stack-Software-Development-Master-Certification-Programv1.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
         <AlumniCompanies />
-        <LearningToPlacement time="370" guided="60" />
+        <LearningToPlacement time="120" guided="100" />
 
         {/* <ProgramSection
           programSectionData={NewDSAData[0].ProgramSection}
@@ -217,7 +218,7 @@ const NewDSA = ({ DSADataJson }) => {
           dataScience={true}
           interstedInHide={true}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-Master-certification.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full-Stack-Software-Development-Master-Certification-Programv1.pdf"
           brochurePdf={pdfUrl}
         />
         <Other />
@@ -226,7 +227,7 @@ const NewDSA = ({ DSADataJson }) => {
           dataScience={true}
           interstedInHide={true}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-Master-certification.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full-Stack-Software-Development-Master-Certification-Programv1.pdf"
           brochurePdf={pdfUrl}
           downloadBrochure={true}
         />
@@ -298,7 +299,7 @@ const NewDSA = ({ DSADataJson }) => {
 export default NewDSA;
 
 export async function getStaticProps() {
-  const module = await import("../../Data/NewDataScienceOneData");
+  const module = await import("../../Data/fullstackdata");
   const data = module.default;
 
   const DSADataJson = JSON.stringify(data, (key, value) =>

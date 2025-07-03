@@ -143,7 +143,7 @@
     padding: 20px;
     position: relative;
     overflow: hidden;
-    height: 300px;
+    height: auto;
   }
   .right {
     display: none;
@@ -151,5 +151,14 @@
     position: absolute;
     bottom: -20px !important;
     right: -42px;
+  }
+  .top span {
+    font-size: 14px;
+  }
+  .h5 {
+    font-size: 20px;
+  }
+  .desc {
+    font-size: 16px;
   }
 }

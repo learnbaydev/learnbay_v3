@@ -148,7 +148,19 @@
   line-height: 126.5%;
   margin-bottom: 10px;
 }
-
+.LearningToPlacement_capLeft__rvDjZ img {
+  width: 70px;
+  height: 70px;
+  margin-right: 34px;
+}
+.capLeft img {
+  width: 70px;
+  height: 70px;
+  margin-right: 34px;
+}
+.LearningToPlacement_orange__wI57Y {
+  color: #f99600 !important;
+}
 .logos {
   display: flex;
   flex-wrap: wrap;
@@ -250,7 +262,7 @@
 }
 
 .capRight h5 {
-  color: #fff;
+  /* color: #fff; */
   font-size: 34px;
   font-style: normal;
   font-weight: 500;
@@ -268,7 +280,7 @@
 }
 
 .capRight strong {
-  color: #ffffff;
+  /* color: #ffffff; */
   font-weight: 700;
 }
 

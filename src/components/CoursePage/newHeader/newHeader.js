@@ -1,10 +1,12 @@
-import React, { useCallback, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import styles from "./NewDSAHeader.module.css";
 import Image from "next/image";
 import Button from "@/components/Global/Button/Button";
+import dynamic from "next/dynamic";
 import PopupContent from "@/components/Global/PopupContent/PopupContent";
 
 const Newheader = ({
+  violet,
   spanTag,
   title,
   spanIcon,
@@ -37,6 +39,7 @@ const Newheader = ({
   titleCourse,
   brochureLink,
   brochurePdf,
+  downloadBrochure,
 }) => {
   const [popups, setPopups] = useState(false);
   const [requestDemoPopup, setRequestDemoPopup] = useState(false);
@@ -49,8 +52,12 @@ const Newheader = ({
     setRequestDemoPopup(true);
   }, []);
 
+  useEffect(() => {
+    // console.log(brochurePdf);
+  }, []);
+
   return (
-    <section className={styles.mainContainer}>
+    <section className={violet ? styles.violetContainer : styles.mainContainer}>
       <div className={styles.contentWrapper}>
         <PopupContent
           popups={popups}
@@ -148,6 +155,7 @@ const Newheader = ({
                   alt={point.imgAlt}
                   width={60}
                   height={60}
+                  priority
                 />
               </div>
               <p className={styles.pointText}>
@@ -210,6 +218,7 @@ const Newheader = ({
               alt="Tableau Software"
               width={40}
               height={40}
+              priority
             />
           </div>
           <div className={styles.ModuleIconWrapper}>
@@ -218,6 +227,7 @@ const Newheader = ({
               alt="Module"
               width={28}
               height={28}
+              priority
             />
           </div>
           <div className={styles.PieChartIconWrapper}>
@@ -226,6 +236,7 @@ const Newheader = ({
               alt="Pie Chart"
               width={38}
               height={33}
+              priority
             />
           </div>
           <div className={styles.HierarchyIconWrapper}>
@@ -234,6 +245,7 @@ const Newheader = ({
               alt="Hierarchy"
               width={50}
               height={50}
+              priority
             />
           </div>
         </div>

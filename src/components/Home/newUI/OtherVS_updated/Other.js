@@ -73,6 +73,13 @@ const Other = () => {
         </div>
 
         <div className={styles.middle}>
+          <Image
+            src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/89dc05d58a93b77c1cfbabd5be90d5d708390a1b+(1).webp"
+            width={60}
+            height={45}
+            alt="learnbay"
+            loading="lazy"
+          />
           <div className={styles.imgdiv}>
             <Image
               src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/learnbay_logo_others.webp"

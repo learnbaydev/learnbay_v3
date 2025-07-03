@@ -12,7 +12,7 @@ const DSAPractical = dynamic(() =>
   import("@/components/CoursePage/NewDSA/Practical/DSAPractical")
 );
 const AnimationNew = dynamic(() =>
-  import("@/components/Home/whyChooseSection/Whylb")
+  import("@/components/Home/whyChooseSection/whylblimited")
 );
 const Other = dynamic(() =>
   import("@/components/Home/newUI/OtherVS_updated/Other")
@@ -20,8 +20,8 @@ const Other = dynamic(() =>
 const JobReadySection = dynamic(() =>
   import("@/components/CoursePage/NewDSA/JobReadySection/JobReadySection")
 );
-const DSASyllabus = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/DSASyllabusSection/DSASyllabus")
+const SyllabusNew = dynamic(() =>
+  import("@/components/CoursePage/Syllabus/MasterSyllabus")
 );
 const NewCertificateSection = dynamic(() =>
   import("@/components/CoursePage/newCertificate/NewCertificate")
@@ -37,9 +37,7 @@ const NewSevenSection = dynamic(() =>
 const MentorsSection = dynamic(() =>
   import("@/components/course/MentorsSection/MentorsSection")
 );
-const DSAProjectSection = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/ProjectSection/DSAProjectSection")
-);
+import GenAIProject from "@/components/CoursePage/genAiProject/GenAIProject";
 const ReviewSlider = dynamic(() =>
   import("@/components/Home/newUI/reviewSlider/reviewSlider")
 );
@@ -54,16 +52,17 @@ import {
   getDSABookingSoonDate,
 } from "@/Util/getDSABatchData";
 import AlumniCompanies from "@/components/CoursePage/newUICourse/AlumniCompanies";
-import LearningToPlacement from "@/components/CoursePage/newUICourse/LearningToPlacement/LearningToPlacement";
+import LearningToPlacement from "@/components/CoursePage/newUICourse/LearningToPlacementinfinity/LearningToPlacement";
 import Newheader from "@/components/CoursePage/newHeader/newHeader";
 import { MasterAI } from "@/Data/Schema/DataScienceAndAIMasterSchema";
 import FeeSection from "@/components/course/feeSection/FeeSectionCourse";
 import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/UpdatedCertificate";
-import HighlightsSection from "@/components/CoursePage/newUICourse/Support/HighlightsSection";
+import HighlightsSection from "@/components/CoursePage/FirstPart/Support_noimage/HighlightsSection";
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-Master-certification.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI-Developer-Master-Certification-sw-dev-v1.pdf";
+
   let soonDate = getDSABookingSoonDate();
   let laterDate = getDSABookingLaterDate();
   // console.log(getDSABookingSoonDate(new Date('2023-03-24')));
@@ -181,6 +180,7 @@ const NewDSA = ({ DSADataJson }) => {
           interstedInHide={true}
         />
         <Newheader
+          violet={true}
           title1={NewDSAData[0].header[0].title1}
           orgTitle={NewDSAData[0].header[0].orgTitle}
           title={NewDSAData[0].header[0].title}
@@ -193,12 +193,12 @@ const NewDSA = ({ DSADataJson }) => {
           descrption={NewDSAData[0].header[0].descrption}
           svgDSA={NewDSAData[0].header[0].svgDSA}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-Master-certification.pdf"
+          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI-Developer-Master-Certification-sw-dev.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
         <AlumniCompanies />
-        <LearningToPlacement time="370" guided="60" />
+        <LearningToPlacement time="130" guided="40" />
 
         {/* <ProgramSection
           programSectionData={NewDSAData[0].ProgramSection}
@@ -213,22 +213,20 @@ const NewDSA = ({ DSADataJson }) => {
         <JobReadySection />
         <ReviewSlider idss="eautK0odE7Q" />
         <MentorsSection />
-        <DSAProjectSection
-          dataScience={true}
-          interstedInHide={true}
-          titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-Master-certification.pdf"
-          brochurePdf={pdfUrl}
-        />
+        <GenAIProject genAiData={NewDSAData[0].genAiData} Duration={true} />
         <Other />
-        <DSASyllabus
-          sections={NewDSAData[0].sections}
+        <SyllabusNew
+          masterSyllabusMobile={NewDSAData[0].masterSyllabusMobile}
+          dataScienceCounselling={true}
           dataScience={true}
-          interstedInHide={true}
-          titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-Master-certification.pdf"
+          titleCourse=""
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI-Developer-Master-Certification-sw-dev.pdf"
           brochurePdf={pdfUrl}
-          downloadBrochure={true}
+          buttonHide={true}
+          interstedInHide={true}
+          // onlyGENAIPage={true}
+          GenAIMangersOnly={true}
+          genAIIIT={true}
         />
 
         <UpdatedCertificate data={NewDSAData[0].Certificate} />
@@ -240,8 +238,8 @@ const NewDSA = ({ DSADataJson }) => {
 
         {/* <NewCertificateSection certificateNew={NewDSAData[0].certificateNew} /> */}
         <DSAFeeSection
-          Fee="₹ 1,59,000 "
-          FeeEmi="₹ 13,250/ month"
+          Fee="₹ 95,000 "
+          FeeEmi="₹ 7,916/ month"
           // Hybrid Classes
           hybridFee="₹ 1,55,000"
           hybridEmi="₹ 10,161/ month"
@@ -298,7 +296,7 @@ const NewDSA = ({ DSADataJson }) => {
 export default NewDSA;
 
 export async function getStaticProps() {
-  const module = await import("../../Data/NewDataScienceOneData");
+  const module = await import("../../Data/genaisoftware");
   const data = module.default;
 
   const DSADataJson = JSON.stringify(data, (key, value) =>
