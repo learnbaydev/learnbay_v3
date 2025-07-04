@@ -14,6 +14,16 @@ export const TabData = [
         hours: "4 Months",
         url: "/datascience/generative-ai-course-for-manager",
       },
+      {
+        CName: "GenAI & Agentic AI for Software Developers",
+        hours: "4 Months",
+        url: "/artificial-intelligence/genai-software-developers",
+      },
+      {
+        CName: "GenAI & Agentic AI for Mangers and Leaders",
+        hours: "4 Months",
+        url: "/artificial-intelligence/generative-ai-for-managers",
+      },
 
       ,
     ],
@@ -58,11 +68,7 @@ export const TabData = [
         hours: "13 Months",
         url: "/datascience/data-science-and-ai-master-certification-program",
       },
-      // {
-      //   CName: "Business Analytics Master Certification Program",
-      //   hours: "7 Months",
-      //   url: "/datascience/business-analytics-certification-course",
-      // },
+
       {
         CName: "Data Analytics and Business Analytics with Generative AI",
         hours: "8-9 Months",
@@ -93,6 +99,11 @@ export const TabData = [
         hours: "4 Months",
         url: "/datascience/data-science-certification-courses",
       },
+      {
+        CName: "Data Analytics and Business Analytics Master Certification",
+        hours: "8 Months",
+        url: "/datascience/data-analytics-and-business-analytics-master",
+      },
     ],
   },
 
@@ -114,6 +125,11 @@ export const TabData = [
         CName: "Executive Certification in Cloud and Devops",
         hours: "10 Months",
         url: "/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati",
+      },
+      {
+        CName: "Cloud and DevOps Engineering Masters Certification",
+        hours: "10 Months",
+        url: "/cloud&devops/cloud-and-devops-engineering-masters",
       },
       // {
       //   CName: "Software Development Certification Program",
@@ -138,11 +154,11 @@ export const TabData = [
         url: "/fullstack/data-structure-algorithm-online-course-training",
       },
 
-      // {
-      //   CName: "Software Development Certification Program",
-      //   hours: "11 Months",
-      //   url: "/fullstack/full-stack-software-development-program",
-      // },
+      {
+        CName: "Full Stack Software Development Master Certification",
+        hours: "10 Months",
+        url: "/fullstack/full-stack-software-development",
+      },
     ],
   },
   {

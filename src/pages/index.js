@@ -4,6 +4,14 @@ import { useMediaQuery } from "react-responsive";
 
 // Dynamic imports
 import FirstSection from "@/components/Home/FirstSection/FirstSection";
+import HeroSection from "../components/homeNew/HeroSecation/HeroSection";
+import PartnersSlider from "@/components/homeNew/PartnerSlides/Partner";
+import ProgramSection from "@/components/homeNew/ProgramSection/ProgramSection";
+import TabsCard from "@/components/homeNew/TabsCard/TabsCard";
+import NewUpSkill from "@/components/homeNew/newUpskill/NewUpSkill";
+import RealWorld from "@/components/homeNew/RealWorld/RealWorld";
+// import HandsOn from "@/components/HomeNew/HandsOn/HandsOn";
+// import RealPeople from "@/components/HomeNew/RealPeople/RealPeople";
 const BottomBar = dynamic(() =>
   import("@/components/Global/BottomBar/BottomBar")
 );
@@ -363,25 +371,36 @@ export default function Home() {
         />
       </Head>
       <Navbar radio={true} dataScienceCounselling={true} />
-      <FirstSection
-        dataScienceCounselling={true}
-        radio={true}
-        idss="ZPOTy4PEnNU"
-      />
-      <InfinityLogo />
-      <KickStart />
-      <NewCourse dataScience={true} radio={true}  />
 
+      <HeroSection />
+      <InfinityLogo />
+      {/* <PartnersSlider /> */}
+      <ProgramSection />
+      <KickStart />
+      <div id="course-section">
+        <NewCourse dataScience={true} radio={true} />
+      </div>
       <AnimationNew />
       <ReviewSlider idss="eautK0odE7Q" />
-
       <ContactUs dataScienceCounselling={true} radio={true} />
       <CLogo />
       <Other />
-
       <MobileTestimonial radio={true} dataScienceCounselling={true} />
       <Media projectData={data} />
       <NewSevenSection radio={true} dataScienceCounselling={true} />
+      {/* <TabsCard dataScience={true} radio={true} /> */}
+      {/* <NewUpSkill /> */}
+      {/* <RealWorld /> */}
+      {/* <FirstSection
+        dataScienceCounselling={true}
+        radio={true}
+        idss="ZPOTy4PEnNU"
+      /> */}
+      {/* <HandsOn />
+      <RealPeople />
+     
+       
+      */}
 
       <Footer />
       <WhatsappFloat chat360code1={true} />

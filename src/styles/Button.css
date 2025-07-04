@@ -103,7 +103,6 @@
 .newBlueButton:hover {
   color: #fff;
 }
-
 .greenButton {
   background-color: #04c988;
   color: white;
@@ -116,7 +115,7 @@
   gap: 5px;
   outline: none;
   align-items: center;
-  border-radius: 4px;
+  border-radius: 28px;
   font-size: 16px;
   font-weight: 800;
 }
@@ -161,7 +160,7 @@
   padding: 12px 30px;
   border-radius: 10px !important;
   outline: none;
-  background-color: #0072bc;
+  background-color: #0383FF;
   color: white;
   border: 0;
   cursor: pointer;

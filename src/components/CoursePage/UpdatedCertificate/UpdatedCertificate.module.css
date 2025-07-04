@@ -4,7 +4,6 @@
   background: linear-gradient(90deg, #262626 0%, #393939 99.02%);
   color: #ffffff;
   padding: 2rem;
-  font-family: sans-serif;
 }
 
 /* Top Navigation (tabs) */
@@ -168,6 +167,14 @@
   }
   .topNav {
     margin: 0 0 2.3rem 2.78rem;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .topNav::-webkit-scrollbar {
+    display: none;
   }
 
   .title {

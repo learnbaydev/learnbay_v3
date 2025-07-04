@@ -32,7 +32,8 @@ const GenAiMLeadersSecondPart = ({
 }) => {
   // console.log(popupData);
 
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/GenAI-Managers-Tech-Leaders-iits.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/GenAI-Managers-Tech-Leaders-iits.pdf";
   return (
     <div>
       <LJourney />
@@ -55,8 +56,8 @@ const GenAiMLeadersSecondPart = ({
       {/* <NewCertificateSection certificateNew={certificateNew} /> */}
 
       <DSAFeeSection
-        Fee="₹ 95,000"
-        FeeEmi="₹ 6,227/month"
+        Fee="₹ 1,25,000"
+        FeeEmi="₹ 10,416/month"
         weekendbatch="Weekday Evening"
         weekdaybatch="Weekday Evening "
         weekday="MON-WED-FRI"

@@ -637,260 +637,259 @@ export const IITCloudDevopsData = [
         },
       },
 
+      // {
+      //   Module0: {
+      //     title: "TERM 9 :- Advanced Security and DevSecOps",
+      //     hours: "(30 Hours)",
+      //     imageUrl:
+      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
+      //     StartImageUrl:
+      //       " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
+      //     endImageUrl:
+      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
+      //     points: "Deep Learning",
+      //     points1: "(NLP)",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title: "Module 1:-Security Fundamentals for Cloud and DevOps",
+      //           desc: [
+      //             "Cloud Compliance Standards: ISO, SOC2, and cloud regulations.",
+      //             "IAM Best Practices: Secure roles, policies, and MFA strategies.",
+      //             "Shared Responsibility: Cloud provider and user security roles.",
+      //             "Encryption and secure key management.",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title: "Module 2:- DevSecOps and Security Automation",
+      //           desc: [
+      //             " DevSecOps Overview: Shift-left security and CI/CD integration.",
+      //             " Automation Tools: SonarQube, Aqua Security, Vault for secrets.",
+      //             "Secure Pipelines: Automate scanning and validation in CI/CD.",
+      //             "Automate alerts and threat response actions",
+      //           ],
+      //         },
+      //       },
+
+      //       {
+      //         chap: {
+      //           title: "Module 3:- Cloud-Specific Security Modules",
+      //           desc: [
+      //             "AWS Security Tools: GuardDuty, Macie, and Inspector for threats.",
+      //             "Azure Security Solutions: Sentinel and Security Center practices.",
+      //             "GCP Security Features: IAM, Security Command Center, and alerts.",
+      //           ],
+      //         },
+      //       },
+      //     ],
+      //     id: 8,
+      //     open: false,
+      //   },
+      // },
+      // {
+      //   Module0: {
+      //     title: "TERM 10 :- Electives and Specialized Cloud Projects",
+      //     hours: "(20 Hours)",
+      //     imageUrl:
+      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_round.webp",
+      //     StartImageUrl:
+      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_down.webp",
+      //     endImageUrl:
+      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_up.webp",
+      //     points: "Deep Learning",
+      //     points1: "(NLP)",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title: "Module 1:- Big Data Integration for Cloud",
+      //           desc: [
+      //             "Big Data Services on AWS, Azure, and GCP",
+      //             " Real-time Analytics and Data Lakes",
+      //             " Optimizing Big Data Workflows for Cost and Performance in Cloud Environments",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title: "Module 2:- Advanced Networking in Multi-Cloud",
+      //           desc: [
+      //             "Multi-cloud Network Design and Load Balancing",
+      //             " VPN, Direct Connect, and Peering Solutions",
+      //             "Implementing Secure Network Architectures Across Multi-Cloud Environments",
+      //           ],
+      //         },
+      //       },
+
+      //       {
+      //         chap: {
+      //           title: "Module 3:- Project-Based Learning and Case Studies",
+      //           desc: [
+      //             " Industry-Specific Scenarios (Healthcare, E-commerce, Finance)",
+      //             "Real-World Multi-cloud Deployment and Management Projects",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title: "Module 4:- Certification Pathways and Exam Prep",
+      //           desc: [
+      //             "AWS Solutions Architect, SysOps, and DevOps Prep",
+      //             "Azure Solutions Architect, DevOps Engineer Exam",
+      //             "GCP Architect Certification and Practice Exams",
+      //           ],
+      //         },
+      //       },
+      //     ],
+      //     id: 9,
+      //     open: false,
+      //   },
+      // },
+
+      // {
+      //   Module0: {
+      //     title: "TERM 11 :- GenAI Essentials for Cloud & Devops",
+      //     hours: "(30 Hours)",
+      //     imageUrl:
+      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_round.webp",
+      //     StartImageUrl:
+      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_down.webp",
+      //     endImageUrl:
+      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SERVER_up.webp",
+      //     points: "Deep Learning",
+      //     points1: "(NLP)",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title: "Module 1:- Introduction to Generative AI in DevOps",
+      //           desc: [
+      //             "Generative AI overview.",
+      //             "Use cases in DevOps automation.",
+      //             "Introduction to Large Language Models (LLMs) like GPT.",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title:
+      //             "Module 2:- Automating DevOps orkflows with Generative AI",
+      //           desc: [
+      //             "AI for Infrastructure as Code (IaC) automation,AI-assisted CI/CD pipeline optimization",
+      //             "Automated script generation.",
+      //           ],
+      //         },
+      //       },
+
+      //       {
+      //         chap: {
+      //           title: "Hands-On Project 1 :",
+      //           desc: [
+      //             "Automate Infrastructure Setup with Generative AI",
+      //             "Build an AI-powered tool that generates Terraform or Ansible scripts to provision resources dynamically.",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title: "Module 3:- AI-Powered Monitoring & Incident Resolution",
+      //           desc: [
+      //             "AI for real-time log analysis, Incident detection using Generative AI.",
+      //             "Automated root cause analysis with AI insights.",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title:
+      //             "Module 4:- Predictive Analytics and Resource Management",
+      //           desc: [
+      //             " AI for cloud resource forecasting, Predicting workload trends.",
+      //             "Automating resource scaling based on AI insights.",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title: "Hands-On Project 2: ",
+      //           desc: [
+      //             "Real-Time Incident Detection and Resolution System",
+      //             "Create a system that uses Generative AI to analyze server logs, detect anomalies, and suggest resolution steps.",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title: "Module 5:-  Generative AI for Container Orchestration",
+      //           desc: [
+      //             "AI for Kubernetes manifest generation.",
+      //             " Automated scaling of microservices.",
+      //             "Dockerfile creation with AI tools.",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title:
+      //             "Module 6:-  Cost Optimization and Budget Planning with AI",
+      //           desc: [
+      //             "AI-driven cost forecasting.",
+      //             "Identifying cost-saving strategies.",
+      //             "Budget optimization with Generative AI tools.",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title: "Hands-On Project 3:  ",
+      //           desc: [
+      //             "AI-Enhanced Cloud Cost Optimization Tool",
+      //             "Develop a dashboard that analyzes cloud billing data and suggests cost-saving actions using Generative AI.",
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         chap: {
+      //           title:
+      //             "Module 7:-  Disaster Recovery and Security Automation with AI",
+      //           desc: [
+      //             "AI for generating disaster recovery plans.",
+      //             "Automating backup configurations.",
+      //             "Generative AI in cloud security workflows.",
+      //           ],
+      //         },
+      //       },
+
+      //       {
+      //         chap: {
+      //           title:
+      //             "Module 8:-  Customizing GenAI Tools for Cloud and DevOps Needs",
+      //           desc: [
+      //             "Fine-tuning LLMs for DevOps tasks.",
+      //             "Integrating OpenAI APIs with DevOps tools.",
+      //             "Custom automation scripts with AI.",
+      //           ],
+      //         },
+      //       },
+
+      //       {
+      //         chap: {
+      //           title: "Hands-On Project 4: ",
+      //           desc: [
+      //             "Disaster Recovery Automation with AI",
+      //             "Build an AI-powered tool to design, test, and automate disaster recovery strategies for cloud environments.",
+      //           ],
+      //         },
+      //       },
+      //     ],
+      //     id: 10,
+      //     open: false,
+      //   },
+      // },
+
       {
         Module0: {
-          title: "TERM 9 :- Advanced Security and DevSecOps",
-          hours: "(30 Hours)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
-          StartImageUrl:
-            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
-          points: "Deep Learning",
-          points1: "(NLP)",
-          content: [
-            {
-              chap: {
-                title: "Module 1:-Security Fundamentals for Cloud and DevOps",
-                desc: [
-                  "Cloud Compliance Standards: ISO, SOC2, and cloud regulations.",
-                  "IAM Best Practices: Secure roles, policies, and MFA strategies.",
-                  "Shared Responsibility: Cloud provider and user security roles.",
-                  "Encryption and secure key management.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 2:- DevSecOps and Security Automation",
-                desc: [
-                  " DevSecOps Overview: Shift-left security and CI/CD integration.",
-                  " Automation Tools: SonarQube, Aqua Security, Vault for secrets.",
-                  "Secure Pipelines: Automate scanning and validation in CI/CD.",
-                  "Automate alerts and threat response actions",
-                ],
-              },
-            },
-
-            {
-              chap: {
-                title: "Module 3:- Cloud-Specific Security Modules",
-                desc: [
-                  "AWS Security Tools: GuardDuty, Macie, and Inspector for threats.",
-                  "Azure Security Solutions: Sentinel and Security Center practices.",
-                  "GCP Security Features: IAM, Security Command Center, and alerts.",
-                ],
-              },
-            },
-          ],
-          id: 8,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "TERM 10 :- Electives and Specialized Cloud Projects",
-          hours: "(20 Hours)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_round.webp",
-          StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_down.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_up.webp",
-          points: "Deep Learning",
-          points1: "(NLP)",
-          content: [
-            {
-              chap: {
-                title: "Module 1:- Big Data Integration for Cloud",
-                desc: [
-                  "Big Data Services on AWS, Azure, and GCP",
-                  " Real-time Analytics and Data Lakes",
-                  " Optimizing Big Data Workflows for Cost and Performance in Cloud Environments",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 2:- Advanced Networking in Multi-Cloud",
-                desc: [
-                  "Multi-cloud Network Design and Load Balancing",
-                  " VPN, Direct Connect, and Peering Solutions",
-                  "Implementing Secure Network Architectures Across Multi-Cloud Environments",
-                ],
-              },
-            },
-
-            {
-              chap: {
-                title: "Module 3:- Project-Based Learning and Case Studies",
-                desc: [
-                  " Industry-Specific Scenarios (Healthcare, E-commerce, Finance)",
-                  "Real-World Multi-cloud Deployment and Management Projects",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 4:- Certification Pathways and Exam Prep",
-                desc: [
-                  "AWS Solutions Architect, SysOps, and DevOps Prep",
-                  "Azure Solutions Architect, DevOps Engineer Exam",
-                  "GCP Architect Certification and Practice Exams",
-                ],
-              },
-            },
-          ],
-          id: 9,
-          open: false,
-        },
-      },
-
-      {
-        Module0: {
-          title: "TERM 11 :- GenAI Essentials for Cloud & Devops",
-          hours: "(30 Hours)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_round.webp",
-          StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GOOGLE+CLOUD_down.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SERVER_up.webp",
-          points: "Deep Learning",
-          points1: "(NLP)",
-          content: [
-            {
-              chap: {
-                title: "Module 1:- Introduction to Generative AI in DevOps",
-                desc: [
-                  "Generative AI overview.",
-                  "Use cases in DevOps automation.",
-                  "Introduction to Large Language Models (LLMs) like GPT.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title:
-                  "Module 2:- Automating DevOps orkflows with Generative AI",
-                desc: [
-                  "AI for Infrastructure as Code (IaC) automation,AI-assisted CI/CD pipeline optimization",
-                  "Automated script generation.",
-                ],
-              },
-            },
-
-            {
-              chap: {
-                title: "Hands-On Project 1 :",
-                desc: [
-                  "Automate Infrastructure Setup with Generative AI",
-                  "Build an AI-powered tool that generates Terraform or Ansible scripts to provision resources dynamically.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 3:- AI-Powered Monitoring & Incident Resolution",
-                desc: [
-                  "AI for real-time log analysis, Incident detection using Generative AI.",
-                  "Automated root cause analysis with AI insights.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title:
-                  "Module 4:- Predictive Analytics and Resource Management",
-                desc: [
-                  " AI for cloud resource forecasting, Predicting workload trends.",
-                  "Automating resource scaling based on AI insights.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Hands-On Project 2: ",
-                desc: [
-                  "Real-Time Incident Detection and Resolution System",
-                  "Create a system that uses Generative AI to analyze server logs, detect anomalies, and suggest resolution steps.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Module 5:-  Generative AI for Container Orchestration",
-                desc: [
-                  "AI for Kubernetes manifest generation.",
-                  " Automated scaling of microservices.",
-                  "Dockerfile creation with AI tools.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title:
-                  "Module 6:-  Cost Optimization and Budget Planning with AI",
-                desc: [
-                  "AI-driven cost forecasting.",
-                  "Identifying cost-saving strategies.",
-                  "Budget optimization with Generative AI tools.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Hands-On Project 3:  ",
-                desc: [
-                  "AI-Enhanced Cloud Cost Optimization Tool",
-                  "Develop a dashboard that analyzes cloud billing data and suggests cost-saving actions using Generative AI.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title:
-                  "Module 7:-  Disaster Recovery and Security Automation with AI",
-                desc: [
-                  "AI for generating disaster recovery plans.",
-                  "Automating backup configurations.",
-                  "Generative AI in cloud security workflows.",
-                ],
-              },
-            },
-
-            {
-              chap: {
-                title:
-                  "Module 8:-  Customizing GenAI Tools for Cloud and DevOps Needs",
-                desc: [
-                  "Fine-tuning LLMs for DevOps tasks.",
-                  "Integrating OpenAI APIs with DevOps tools.",
-                  "Custom automation scripts with AI.",
-                ],
-              },
-            },
-
-            {
-              chap: {
-                title: "Hands-On Project 4: ",
-                desc: [
-                  "Disaster Recovery Automation with AI",
-                  "Build an AI-powered tool to design, test, and automate disaster recovery strategies for cloud environments.",
-                ],
-              },
-            },
-          ],
-          id: 10,
-          open: false,
-        },
-      },
-
-      {
-        Module0: {
-          title:
-            "TERM 12 :- Cloud Computing Masterclass - IIT Guwahati Faculty",
+          title: "TERM 9 :- Cloud Computing Masterclass - IIT Guwahati Faculty",
           hours: "(5 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SERVER_round.webp",
@@ -996,6 +995,21 @@ export const IITCloudDevopsData = [
     genAiData: [
       {
         id: 1,
+        title: "CI/CD Pipeline",
+        description:
+          "Create a multistage CI/CD pipeline for deploying a microservices based application to a cloud platform like AWS, Azure, or GCP.",
+        iconUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-61.webp", // Provide the path to the icon image
+        listItems: [
+          "Create a multistage CI/CD pipeline for deploying a microservices based application to a cloud platform like AWS, Azure, or GCP.",
+          "Jenkins, GitLab CI/CD, Docker, Kubernetes",
+          "Outcome : Automate microservices deployment using a multistage CI/CD pipeline.",
+        ],
+        rank: "#1",
+        duration: "",
+      },
+      {
+        id: 2,
         title: "Cloud Infrastructure Automation",
         description:
           "Objective: Create an AI system that generates actionable insights and strategies for inventory optimization and logistics planning. Outcome: Learn to automate decision-making processes, ensuring cost efficiency and reduced lead times.",
@@ -1010,7 +1024,7 @@ export const IITCloudDevopsData = [
         duration: "",
       },
       {
-        id: 2,
+        id: 3,
         title: "Monitoring and Logging Solution",
         description:
           "Objective: Develop a generative AI-based sales forecasting model tailored for decision-making in retail or FMCG domains. Outcome: Learners will create predictive sales reports and simulate scenarios for strategic planning.",
@@ -1026,7 +1040,7 @@ export const IITCloudDevopsData = [
       },
 
       {
-        id: 3,
+        id: 4,
         title: "Serverless Application Deployment with DevOps",
         description:
           "Objective: Design a  GenAI tool to create personalized ad campaigns and content suggestions Outcome: Learn how to leverage AI to boost ROI through targeted and data-driven marketing strategies.",
@@ -1040,21 +1054,7 @@ export const IITCloudDevopsData = [
         rank: "#4",
         duration: "20 hours",
       },
-      {
-        id: 4,
-        title: "CI/CD Pipeline",
-        description:
-          "Create a multistage CI/CD pipeline for deploying a microservices based application to a cloud platform like AWS, Azure, or GCP.",
-        iconUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-61.webp", // Provide the path to the icon image
-        listItems: [
-          "Create a multistage CI/CD pipeline for deploying a microservices based application to a cloud platform like AWS, Azure, or GCP.",
-          "Jenkins, GitLab CI/CD, Docker, Kubernetes",
-          "Outcome : Automate microservices deployment using a multistage CI/CD pipeline.",
-        ],
-        rank: "#1",
-        duration: "",
-      },
+
       // Add more data as needed
     ],
     // data/certificateData.js

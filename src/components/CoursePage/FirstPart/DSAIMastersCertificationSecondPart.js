@@ -10,6 +10,7 @@ const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
 const Certificate = dynamic(() =>
   import("../UpdatedCertificate/UpdatedCertificate")
 );
+import BookDemo from "@/components/CoursePage/NewDSA/BookDemo/BookDemo";
 const FeeSection = dynamic(() =>
   import("../../course/feeSection/FeeSectionCourse")
 );
@@ -24,6 +25,7 @@ const NewProjectSection = dynamic(() =>
   import("../../Global/NewProjectSection/NewProjectSection")
 );
 
+import HighlightsSection from "@/components/CoursePage/newUICourse/Support/HighlightsSection";
 const FAQNew = dynamic(() => import("../FAQNew/FAQNew"));
 const Content = dynamic(() => import("../Content/content"));
 
@@ -36,6 +38,7 @@ const SecondPart = ({
   CertificateData,
   projectSection,
   FAQNewData,
+  Admission,
 }) => {
   const [popupData, setPopupData] = useState([]);
 
@@ -79,7 +82,8 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-Master-Certification-v1.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-Master-Certification-v1.pdf";
   return (
     <div>
       <LJourney />
@@ -94,6 +98,15 @@ const SecondPart = ({
         buttonHide={true}
       />
       <ToolsCovered />
+      <BookDemo
+        dataScienceCounselling={true}
+        interstedInHide={true}
+        upSkillingHide={true}
+        Admission="Admission Process"
+        Content="Our 3-step admission process clearly guides you through checking your eligibility, selecting the right course via expert counselling, and smoothly completing your enrollment. It's designed for simplicity and clarity."
+        // greenButton={true}
+      />
+      <HighlightsSection />
       <Certificate data={CertificateData} />
       <FeeSection
         Fee="₹ 1,40,000 "

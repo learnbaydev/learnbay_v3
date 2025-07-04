@@ -45,7 +45,7 @@ const DSAFeeSection = ({
     setEmiPopupIsOpen(false);
   };
   const [showStickyBanner, setShowStickyBanner] = useState(false);
-    const [popups, setPopups] = useState(false);
+  const [popups, setPopups] = useState(false);
   const sentinelRef = useRef(null);
   const point = [<Points />];
 
@@ -96,15 +96,15 @@ const DSAFeeSection = ({
 
   return (
     <section className={styles.main}>
-       <PopupContent
-              popups={popups}
-              setPopups={setPopups}
-              heading="Apply For Counselling"
-              dataScience={dataScience}
-              dataScienceCounselling={dataScienceCounselling}
-              interstedInHide={interstedInHide}
-              upSkillingHide={true}
-            />
+      <PopupContent
+        popups={popups}
+        setPopups={setPopups}
+        heading="Apply For Counselling"
+        dataScience={dataScience}
+        dataScienceCounselling={dataScienceCounselling}
+        interstedInHide={interstedInHide}
+        upSkillingHide={true}
+      />
       {/* <div className={styles.stickyContainer}> */}
       <h2>Fee & Batch Details </h2>
       <div className={styles.mainContainer}>
