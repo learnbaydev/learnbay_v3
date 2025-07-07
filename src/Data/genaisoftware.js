@@ -17,7 +17,7 @@ export const NewDSAData = [
               "linear-gradient(90deg, #7eb6f9 0%, #d1a4e8 50%, #f78dc7 100%)",
           },
           {
-            text: " for Software Developers",
+            text: "Certification For Working Professionals ",
             color: false,
           },
         ],

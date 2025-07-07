@@ -1,7 +1,7 @@
 const highlightsData = [
   {
     tag: "TOP COMPANIES",
-    heading: "Explore 350+ Hiring Partners",
+    heading: "Alumni working in 350+ Companies",
     headingColor: "#873E18",
     descColor: "#525252",
     description:

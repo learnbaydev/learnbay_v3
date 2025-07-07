@@ -12,6 +12,13 @@
   line-height: 126.5%;
   text-transform: capitalize;
 }
+.applyButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* optional */
+  margin: 0 auto; /* center itself if it has a fixed width */
+}
 
 .titleDiv h4 {
   color: #000;
@@ -145,6 +152,7 @@
     overflow: hidden;
     height: auto;
   }
+
   .right {
     display: none;
     flex-shrink: 0;

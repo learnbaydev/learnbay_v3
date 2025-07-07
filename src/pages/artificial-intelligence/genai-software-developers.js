@@ -217,15 +217,14 @@ const NewDSA = ({ DSADataJson }) => {
         <Other />
         <SyllabusNew
           masterSyllabusMobile={NewDSAData[0].masterSyllabusMobile}
+          onlyGENAIPage={true}
           dataScienceCounselling={true}
           dataScience={true}
           titleCourse=""
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI-Developer-Master-Certification-sw-dev.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI-Developer-Program.pdf"
           brochurePdf={pdfUrl}
           buttonHide={true}
           interstedInHide={true}
-          // onlyGENAIPage={true}
-          GenAIMangersOnly={true}
           genAIIIT={true}
         />
 

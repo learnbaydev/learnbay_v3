@@ -4,7 +4,7 @@ export const NewDSAData = [
   {
     header: [
       {
-        spanTag: "Crack your next tech interview",
+        spanTag: "Learn DSA + System Design + GenAI",
         spanIcon:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
         title: [
@@ -18,7 +18,7 @@ export const NewDSAData = [
             gradient:
               "linear-gradient(90deg, #FFC436, #F6C37E, #E5B2A9, #B79FD7, #8081FF)",
           },
-          { text: " Master Certification", color: false },
+          { text: " Master Certification For Professionals", color: false },
         ],
 
         points: [
@@ -32,8 +32,7 @@ export const NewDSAData = [
             id: 2,
             img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/secondPoint.webp",
             imgAlt: "DSA Second Point",
-            text1: "Practice with ",
-            boldText: "80+ Real-time Problem Solving Techniques",
+            text1: "Practice 200+ DSA Problems & System Design",
           },
         ],
         mentorText: "Earn Industry-Ready Certification from",

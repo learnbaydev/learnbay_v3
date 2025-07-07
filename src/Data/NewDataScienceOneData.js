@@ -4,7 +4,7 @@ export const NewDSAData = [
   {
     header: [
       {
-        spanTag: "Master GenAI, Agentic AI, RAG and LangChain",
+        spanTag: "Master Advance Data Science ,GenAI and AgenticAI",
         spanIcon:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
         title: [
@@ -30,8 +30,7 @@ export const NewDSAData = [
             id: 2,
             img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/secondPoint.webp",
             imgAlt: "DSA Second Point",
-            text1: "Practice ",
-            boldText: "with 18+ Real-time Projects & Case Studies",
+            text1: "Practice with 18+ Real-Industry Projects ",
           },
         ],
         mentorText: "Earn Industry-Ready Certification from",

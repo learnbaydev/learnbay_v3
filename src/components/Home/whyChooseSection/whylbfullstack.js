@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import styles from "./whyChooseSection.module.css";
 import Image from "next/image";
-import whyChooseData from "./Whylbdatalimited"; // Import the data
+import whyChooseData from "./Whylbdatafull"; // Import the data
 
 function AnimationNew({ fullstack }) {
   const divRefs = useRef([]);

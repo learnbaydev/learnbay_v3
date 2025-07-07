@@ -4,23 +4,24 @@ export const TabData = [
     title: "Generative AI Courses",
     courseName: [
       {
-        CName: "GenAI Developer Certification For Professionals",
+        CName: "GenAI Developer Certification with EICT Academy, IIT Guwahati",
         hours: "3 Months",
         url: "/fullstack/generative-ai-course-for-professional",
       },
 
       {
-        CName: "GenAI Certification For Managers & Tech Leaders",
+        CName:
+          "GenAI Certification For Managers With EICT Academy, IIT Guwahati",
         hours: "4 Months",
         url: "/datascience/generative-ai-course-for-manager",
       },
       {
-        CName: "GenAI & Agentic AI for Software Developers",
+        CName: "GenAI Professional Developer Certification With IBM",
         hours: "4 Months",
         url: "/artificial-intelligence/genai-software-developers",
       },
       {
-        CName: "GenAI & Agentic AI for Mangers and Leaders",
+        CName: "GenAI Professional Certification for Managers With IBM",
         hours: "4 Months",
         url: "/artificial-intelligence/generative-ai-for-managers",
       },
@@ -143,21 +144,21 @@ export const TabData = [
     id: "Software Development",
     title: "Software Development",
     courseName: [
+      // {
+      //   CName: "Full Stack Software Development Program For Professionals",
+      //   hours: "10 Months",
+      //   url: "/fullstack/dsa-system-design",
+      // },
+
       {
-        CName: "Full Stack Software Development Program For Professionals",
-        hours: "10 Months",
-        url: "/fullstack/dsa-system-design",
+        CName: "Full Stack Software Development Master Certification",
+        hours: "12 Months",
+        url: "/fullstack/full-stack-software-development",
       },
       {
         CName: "DSA Course with Placement Prep",
         hours: "3-4 Months",
         url: "/fullstack/data-structure-algorithm-online-course-training",
-      },
-
-      {
-        CName: "Full Stack Software Development Master Certification",
-        hours: "10 Months",
-        url: "/fullstack/full-stack-software-development",
       },
     ],
   },

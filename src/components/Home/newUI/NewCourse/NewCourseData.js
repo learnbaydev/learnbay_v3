@@ -475,17 +475,16 @@ export const courses = {
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-science-ai-for-managers-v1.pdf",
     },
     {
-      title: "Data Structure Algorithms & System Design ",
-      duration: "9-10 Months",
-      certification: "Certification form Microsoft",
-      description: "with Gen-AI for Software Developers",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DSA-card_imgs.webp",
-      link: "/fullstack/dsa-system-design",
+      title: "Full Stack Software Development Master Certification",
+      duration: "12 Months",
+      certification: "Certification form IBM",
+      description: "Gen-AI for Software Developers",
+      image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/fullstack.webp",
+      link: "/fullstack/full-stack-software-development",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full-Stack-Software-Development-Master-Certification-Programv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Full-Stack-Software-Development-Master-Certification-Program.pdf",
     },
     {
       title: "Cloud Computing & DevOps Certification Program",
@@ -802,17 +801,16 @@ export const courses = {
 
   CloudDevops: [
     {
-      title: "Data Structure Algorithms & System Design ",
-      duration: "9-10 Months",
-      certification: "Certification form Microsoft",
-      description: "with Gen-AI for Software Developers",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DSA-card_imgs.webp",
-      link: "/fullstack/dsa-system-design",
+      title: "Full Stack Software Development Master Certification",
+      duration: "12 Months",
+      certification: "Certification form IBM",
+      description: "Gen-AI for Software Developers",
+      image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/fullstack.webp",
+      link: "/fullstack/full-stack-software-development",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full-Stack-Software-Development-Master-Certification-Programv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Full-Stack-Software-Development-Master-Certification-Program.pdf",
     },
 
     {
