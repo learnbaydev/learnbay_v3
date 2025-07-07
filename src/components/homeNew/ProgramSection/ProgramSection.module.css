@@ -467,7 +467,12 @@ border-radius: 12px;
   flex-flow: column;
   gap: 0px;
 }
+.cardsContainer{
+  width: 100%;
+}
 .mainContent{
+  display: flex;
+ width: 100%;
   padding: 0;
 }
 .cardTitle{
@@ -554,15 +559,39 @@ border-radius: 12px;
  .applyButton{
   padding: 0.75rem 30px;
  }
+ .brochureButton{
+    padding: 0.75rem 7px;
+    font-size: 0.7rem;
+  }
 }
 @media (max-width: 401px) {
   .card{
-    width: min-content;
+    width: 100%;
   }
-  .brochureButton{
-    padding: 0.75rem 7px;
+  .cardTitle{
+    font-size: 18px;
   }
-  .green{
-    width: 23rem;
+  .cardDescription{
+    font-size: 13px;}
+   .metaItem{
+  font-size: 14px;
+ }
+  .applyButton{
+    font-size: 0.7rem;
   }
+  .skillTag{
+    font-size: 10px;
+  }
+  .metaItem strong{
+    font-weight: 400;
+  }
+  
+   .cardsContainer .card:nth-child(3) .certLogos{
+    width: 100%;
+   }
+  .cardsContainer .card:nth-child(2) .certLogos
+ {
+  width: 100%; /* or set a specific width if needed */
+}
+
 }

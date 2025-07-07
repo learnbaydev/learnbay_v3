@@ -12,7 +12,7 @@ const DSAPractical = dynamic(() =>
   import("@/components/CoursePage/NewDSA/Practical/DSAPractical")
 );
 const AnimationNew = dynamic(() =>
-  import("@/components/Home/whyChooseSection/whylblimited")
+  import("@/components/Home/whyChooseSection/whylbfullstack")
 );
 const Other = dynamic(() =>
   import("@/components/Home/newUI/OtherVS_updated/Other")
@@ -199,7 +199,7 @@ const NewDSA = ({ DSADataJson }) => {
           interstedInHide={true}
         />
         <AlumniCompanies />
-        <LearningToPlacement time="120" guided="100" />
+        <LearningToPlacement time="350" guided="200" fullstack="true" />
 
         {/* <ProgramSection
           programSectionData={NewDSAData[0].ProgramSection}

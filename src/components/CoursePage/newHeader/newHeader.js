@@ -165,16 +165,16 @@ const Newheader = ({
               </p>
               {index === 0 && (
                 <div className={styles.staticPoints}>
-                  <p>Backend Engineering </p>
-                  <p>and GenAI </p>
-                  <p>Specialisation</p>
+                  {point.text1}
+                  <span className={styles.pointTextBold}>{point.boldText}</span>
+                  {point.text2}
                 </div>
               )}
               {index === 1 && (
                 <div className={styles.staticPoints}>
-                  <p>Practice 200+ </p>
-                  <p>DSA Problems & </p>
-                  <p>System Design Projects</p>
+                  {point.text1}
+                  <span className={styles.pointTextBold}>{point.boldText}</span>
+                  {point.text2}
                 </div>
               )}
             </div>

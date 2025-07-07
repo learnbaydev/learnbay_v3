@@ -22,8 +22,8 @@ const ProgramSection = () => {
   const [brochurePdfs, setBrochurePdfs] = useState();
   const [selectedCard, setSelectedCard] = useState(null);
 
-  // const displayedCards = showAll ? programCards : programCards.slice(0, 3);
-  const displayedCards = programCards;
+  const displayedCards = showAll ? programCards : programCards.slice(0, 3);
+  // const displayedCards = programCards;
 
   return (
     <div className={styles.programSectionWrapper}>
@@ -233,6 +233,50 @@ const ProgramSection = () => {
                       </span>
                     </div>
                     <div className={styles.actionButtonsphone}>
+                      <Popup
+                        trigger={popups}
+                        setTrigger={setPopups}
+                        className="popupModal"
+                        downloadBrochure
+                      >
+                        <div className="leftPopup">
+                          <div
+                            className="whiteP"
+                            style={{ width: "340px", height: "400px" }}
+                          ></div>
+                        </div>
+                        <div className="RightPopup">
+                          <h5>Download Syllabus</h5>
+                          <Form
+                            titleCourse={displayedCards[selectedCard]?.title}
+                            brochureLink={
+                              displayedCards[selectedCard]?.brochureUrl
+                            }
+                            brochurePdf={displayedCards[selectedCard]?.pdfUrl}
+                            dataScience={
+                              displayedCards[selectedCard]?.dataScience
+                            }
+                            dataScienceCounselling={
+                              displayedCards[selectedCard]
+                                ?.dataScienceCounselling
+                            }
+                            dataScienceGeneric={
+                              displayedCards[selectedCard]
+                                ?.dataScienceCounselling
+                            }
+                            radio={
+                              displayedCards[selectedCard]
+                                ?.dataScienceCounselling
+                            }
+                            downloadBrochure
+                            upSkillingHide={true}
+                            interstedInHide={
+                              displayedCards[selectedCard]
+                                ?.dataScienceCounselling
+                            }
+                          />
+                        </div>
+                      </Popup>
                       <button
                         className={styles.brochureButton}
                         onClick={() => {
@@ -242,8 +286,8 @@ const ProgramSection = () => {
                       >
                         Download Brochure
                       </button>
-                      <a href="#" className={styles.applyButton}>
-                        Apply Now
+                      <a href={card.detailsUrl} className={styles.applyButton}>
+                        View Details
                       </a>
                     </div>
                   </div>
@@ -253,7 +297,7 @@ const ProgramSection = () => {
           </div>
         </div>
 
-        {/* {programCards.length > 3 && (
+        {programCards.length > 3 && (
           <div className={styles.viewMoreContainer}>
             <button
               onClick={() => setShowAll((prev) => !prev)}
@@ -262,7 +306,7 @@ const ProgramSection = () => {
               {showAll ? "View Less" : "View More Programs"}
             </button>
           </div>
-        )} */}
+        )}
       </section>
     </div>
   );

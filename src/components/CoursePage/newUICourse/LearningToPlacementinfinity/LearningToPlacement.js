@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./LearningToPlacement.module.css";
 import Image from "next/image";
 
-const LearningToPlacement = ({ time, guided }) => {
+const LearningToPlacement = ({ time, guided, fullstack }) => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.container}>
@@ -40,13 +40,34 @@ const LearningToPlacement = ({ time, guided }) => {
           <div className={`${styles.card} ${styles.teal}`}>
             <p className={styles.boldYellow}>{guided}+ Guided</p>
             <span className={styles.skills}>
-              Skill focused <br />
-              Hands-On Exercises
+              {fullstack ? (
+                <>
+                  Challenges & Real-world
+                  <br />
+                  System Design Projects
+                </>
+              ) : (
+                <>
+                  Skill focused <br />
+                  Hands-On Exercises
+                </>
+              )}
             </span>
+
             <div className={styles.logos}>
-              <span>GitHub</span>
-              <span>OpenAI</span>
-              <span>Python</span>
+              {fullstack ? (
+                <>
+                  <span>DSA</span>
+                  <span>System Design</span>
+                  <span>GenAI</span>
+                </>
+              ) : (
+                <>
+                  <span>GitHub</span>
+                  <span>OpenAI</span>
+                  <span>Python</span>
+                </>
+              )}
             </div>
           </div>
         </div>
@@ -80,8 +101,13 @@ const LearningToPlacement = ({ time, guided }) => {
               </div>
               <div className={styles.capRight}>
                 <h5 className={styles.orange}>
-                  <strong> Mock Interview</strong>
+                  <strong>
+                    {fullstack
+                      ? "Job Referrals at Top MNC's"
+                      : "Mock Interview"}
+                  </strong>
                 </h5>
+
                 <p>
                   Practice with seasoned professionals and FAANG experts to
                   crack interviews

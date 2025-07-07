@@ -2,8 +2,25 @@ import React from "react";
 import styles from "./HighlightsSection.module.css";
 import Image from "next/image";
 import highlightsData from "./highlightsData";
-
-const HighlightsSection = () => {
+import { useState } from "react";
+import dynamic from "next/dynamic";
+const Popup = dynamic(() => import("@/components/Global/Popup/Popup"));
+const FormCareer = dynamic(() =>
+  import("@/components/Global/CareerPortal/Form/Form")
+);
+const Button = dynamic(() => import("@/components/Global/Button/Button"));
+const Form = dynamic(() => import("@/components/Global/Form/Form"));
+const HighlightsSection = ({
+  careerForm,
+  radio,
+  fullStack,
+  dataScience,
+  dataScienceGeneric,
+}) => {
+  const [popups, setPopups] = useState(false);
+  const popupShow = () => {
+    setPopups(true);
+  };
   return (
     <div className={styles.main}>
       <div className={styles.titleDiv}>
@@ -78,6 +95,33 @@ const HighlightsSection = () => {
             </div>
           </div>
         ))}
+      </div>
+      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
+        <div className="leftPopup">
+          <div className="whiteP" />
+        </div>
+        <div className="RightPopup">
+          <h5>Apply For Counselling</h5>
+          {/* <p>Fill the below details to get started</p> */}
+          {careerForm ? (
+            <FormCareer />
+          ) : (
+            <Form
+              popup={true}
+              setTrigger={setPopups}
+              radio={radio}
+              fullStack={true}
+              dataScience={dataScience}
+              dataScienceGeneric={dataScienceGeneric}
+              dataScienceCounselling={true}
+              upSkillingHide={true}
+              interstedInHide={true}
+            />
+          )}
+        </div>
+      </Popup>
+      <div className={styles.applyButton} onClick={popupShow}>
+        <Button text="Start Your Application" outline={true} />
       </div>
     </div>
   );
