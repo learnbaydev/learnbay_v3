@@ -478,9 +478,8 @@ export const courses = {
       title: "Full Stack Software Development Master Certification",
       duration: "12 Months",
       certification: "Certification form IBM",
-      description: "with Gen-AI for Software Developers",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DSA-card_imgs.webp",
+      description: "Gen-AI for Software Developers",
+      image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/fullstack.webp",
       link: "/fullstack/full-stack-software-development",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full-Stack-Software-Development-Master-Certification-Programv1.pdf",
@@ -805,9 +804,8 @@ export const courses = {
       title: "Full Stack Software Development Master Certification",
       duration: "12 Months",
       certification: "Certification form IBM",
-      description: "with Gen-AI for Software Developers",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DSA-card_imgs.webp",
+      description: "Gen-AI for Software Developers",
+      image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/fullstack.webp",
       link: "/fullstack/full-stack-software-development",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full-Stack-Software-Development-Master-Certification-Programv1.pdf",

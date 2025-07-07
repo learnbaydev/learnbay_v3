@@ -38,7 +38,9 @@ const LearningToPlacement = ({ time, guided, fullstack }) => {
           </div>
 
           <div className={`${styles.card} ${styles.teal}`}>
-            <p className={styles.boldYellow}>{guided}+ Guided</p>
+            <p className={styles.boldYellow}>
+              {guided}+ {fullstack ? "DSA" : "Guided"}
+            </p>
             <span className={styles.skills}>
               {fullstack ? (
                 <>

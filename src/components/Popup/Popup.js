@@ -80,10 +80,10 @@ const PopupNew = ({ message, onClose }) => {
           <div className={styles.whiteDiv}>
             <div className={styles.iitDiv}>
               <Image
-                src=" https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Full-IIT-New.webp"
+                src=" https://d32and0ii3b8oy.cloudfront.net/adlearnbay/ibm_logo.webp"
                 loading="lazy"
-                width={127}
-                height={88}
+                width={257}
+                height={182}
                 quality={100}
                 className={styles.iitImg}
                 alt="genai-pop"
@@ -145,7 +145,7 @@ const PopupNew = ({ message, onClose }) => {
                   quality={100}
                   alt="green-tick"
                 />
-                Get Certified in GenAI from EICT Academy, IIT Guwahati
+                Get Certified in GenAI from IBM
               </div>
               <div className={styles.popPoint}>
                 <Image
@@ -191,7 +191,7 @@ const PopupNew = ({ message, onClose }) => {
                   quality={100}
                   alt="green-tick"
                 />
-                Get Certified in GenAI from EICT Academy, IIT Guwahati
+                Get Certified in GenAI from IBM
               </div>
             </div>
             {/* <div className={styles.batchDiv}>
