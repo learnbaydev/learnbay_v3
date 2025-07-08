@@ -4000,8 +4000,6 @@ export const NewDSAData = [
         width: 80,
         height: 80,
         title: "Elective 2",
-        toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/powerbi+tableu+sql_11zon.webp",
         imageSizes: {
           vsm: { width: 195, height: 34 },
           sm: { width: 195, height: 31 },

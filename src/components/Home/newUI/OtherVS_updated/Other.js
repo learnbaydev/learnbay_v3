@@ -3,9 +3,7 @@ import styles from "./Other.module.css";
 import Image from "next/image";
 import { otherData } from "./OtherData";
 
-const Other = ({
-  showDomainSpecializations: showDomainSpecializations = false,
-}) => {
+const Other = () => {
   const headDivRef = useRef(null); // Create a ref for the HeadDiv
   const [activeDot, setActiveDot] = useState(0); // State to track active dot
 

@@ -60,6 +60,7 @@ import { MasterAI } from "@/Data/Schema/DataScienceAndAIMasterSchema";
 import FeeSection from "@/components/course/feeSection/FeeSectionCourse";
 import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/UpdatedCertificate";
 import HighlightsSection from "@/components/CoursePage/newUICourse/Support/HighlightsSection";
+import ToolsCovered from "@/components/CoursePage/ToolsCovered/ToolsCovered";
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
@@ -214,7 +215,7 @@ const NewDSA = ({ DSADataJson }) => {
 
         <AnimationNew />
         <JobReadySection />
-        <ReviewSlider idss="eautK0odE7Q" />
+        <ReviewSlider idss="eautK0odE7Q" showRealStories={true} />
         <MentorsSection />
         <DSAProjectSection
           dataScience={true}
@@ -233,6 +234,8 @@ const NewDSA = ({ DSADataJson }) => {
           brochurePdf={pdfUrl}
           downloadBrochure={true}
         />
+
+        <ToolsCovered />
 
         <UpdatedCertificate data={NewDSAData[0].Certificate} />
         {/* <Certificate
