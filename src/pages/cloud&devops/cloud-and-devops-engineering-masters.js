@@ -49,6 +49,7 @@ import Certificate from "@/components/CoursePage/Certificate/Certificate";
 const Content = dynamic(() =>
   import("@/components/CoursePage/Content/content")
 );
+import NewTools from "@/components/CoursePage/newTools/NewTools";
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import FAQNew from "@/components/CoursePage/FAQNew/FAQNew";
 import {
@@ -61,7 +62,7 @@ import Newheader from "@/components/CoursePage/newHeader/newHeader";
 import { MasterAI } from "@/Data/Schema/DataScienceAndAIMasterSchema";
 import FeeSection from "@/components/course/feeSection/FeeSectionCourse";
 import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/UpdatedCertificate";
-import HighlightsSection from "@/components/CoursePage/FirstPart/Support_noimage/HighlightsSection";
+import HighlightsSection from "@/components/CoursePage/FirstPart/Support_noimage/highlightcloud";
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
@@ -200,7 +201,10 @@ const NewDSA = ({ DSADataJson }) => {
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
-        <AlumniCompanies />
+        <AlumniCompanies
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-Master-certificationv1.pdf"
+          brochurePdf={pdfUrl}
+        />
         <LearningToPlacement time="380" guided="40" />
 
         {/* <ProgramSection
@@ -210,7 +214,7 @@ const NewDSA = ({ DSADataJson }) => {
           upSkillingHide={true}
         /> */}
         {/* <DSAPractical /> */}
-        <HighlightsSection />
+        <HighlightsSection cloud={true} />
 
         <AnimationNew />
         <JobReadySection />
@@ -232,7 +236,7 @@ const NewDSA = ({ DSADataJson }) => {
           brochurePdf={pdfUrl}
           downloadBrochure={true}
         />
-
+        <NewTools toolsData={NewDSAData[0].toolsData} />
         <UpdatedCertificate data={NewDSAData[0].Certificate} />
         {/* <Certificate
           noTabs={true}
@@ -278,7 +282,7 @@ const NewDSA = ({ DSADataJson }) => {
           // greenButton={true}
         />
 
-        <FAQNew FAQNewData={NewDSAData[0].faq} background={true} />
+        {/* <FAQNew FAQNewData={NewDSAData[0].faq} background={true} /> */}
         {/* <Content
           dataScienceCounselling={true}
           DSANewContent={true}

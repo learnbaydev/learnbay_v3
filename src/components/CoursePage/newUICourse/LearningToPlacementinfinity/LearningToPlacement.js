@@ -51,7 +51,7 @@ const LearningToPlacement = ({ time, guided, fullstack }) => {
               ) : (
                 <>
                   Skill focused <br />
-                  Hands-On Exercises
+                  Hands-On Projects
                 </>
               )}
             </span>

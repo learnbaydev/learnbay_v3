@@ -197,7 +197,10 @@ const NewDSA = ({ DSADataJson }) => {
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
-        <AlumniCompanies />
+        <AlumniCompanies
+          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI-Developer-Master-Certification-sw-dev.pdf"
+          brochurePdf={pdfUrl}
+        />
         <LearningToPlacement time="130" guided="40" />
 
         {/* <ProgramSection
