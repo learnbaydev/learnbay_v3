@@ -135,6 +135,48 @@ export const NewDSAData = [
         formProps: {},
       },
     ],
+    toolsData: [
+      {
+        src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/toolnine.webp",
+        alt: "Tool 1",
+      },
+      {
+        src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/toolseven.webp",
+        alt: "Tool 2",
+      },
+      {
+        src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/tools/aws-tools.webp",
+        alt: "Tool 3",
+      },
+      {
+        src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/tools/git-tools.webp",
+        alt: "Tool 4",
+      },
+      {
+        src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/tools/jen-tools.webp",
+        alt: "Tool 5",
+      },
+      {
+        src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/tools/azure-toolsss.webp",
+        alt: "Tool 6",
+      },
+      {
+        src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/tools/dcd-tools.webp",
+        alt: "Tool 7",
+      },
+      {
+        src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/tools/github-tools.webp",
+        alt: "Tool 8",
+      },
+      {
+        src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/tools/kuber-tools.webp",
+        alt: "Tool 9",
+      },
+      {
+        src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/tools/dcoker-tools.webp",
+        alt: "Tool 10",
+      },
+    ],
     genAiData: [
       {
         id: 1,
@@ -208,7 +250,7 @@ export const NewDSAData = [
         height: 80,
         title: "TERM 1 ",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/java_python.png",
+          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/awsazure.png ",
         imageSizes: {
           vsm: { width: 160, height: 38 },
           sm: { width: 160, height: 38 },
@@ -980,12 +1022,12 @@ export const NewDSAData = [
         height: 80,
         title: "TERM 2",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/java-networkX.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/python+git_11zon.webp",
         imageSizes: {
-          vsm: { width: 150, height: 21 },
-          sm: { width: 160, height: 23 },
-          md: { width: 170, height: 26 },
-          lg: { width: 200, height: 32 },
+          vsm: { width: 140, height: 44 },
+          sm: { width: 140, height: 44 },
+          md: { width: 170, height: 50 },
+          lg: { width: 190, height: 57 },
         },
         description: "Python Programming Essentials",
         duration: "3.5 Months",
@@ -1753,12 +1795,12 @@ export const NewDSAData = [
         height: 80,
         title: "TERM 3",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/python+git_11zon.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/aws-lof.webp",
         imageSizes: {
-          vsm: { width: 140, height: 44 },
-          sm: { width: 140, height: 44 },
-          md: { width: 170, height: 50 },
-          lg: { width: 190, height: 57 },
+          vsm: { width: 130, height: 41 },
+          sm: { width: 130, height: 41 },
+          md: { width: 140, height: 42 },
+          lg: { width: 140, height: 42 },
         },
         description: "AWS Cloud Mastery",
         duration: "1 Month",
@@ -2526,12 +2568,12 @@ export const NewDSAData = [
         height: 80,
         title: "TERM 4",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/kafta+sql+mongodb_11zon.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/azuredevopspipeline.webp",
         imageSizes: {
-          vsm: { width: 160, height: 22 },
-          sm: { width: 180, height: 25 },
-          md: { width: 260, height: 32 },
-          lg: { width: 280, height: 36 },
+          vsm: { width: 160, height: 34 },
+          sm: { width: 160, height: 34 },
+          md: { width: 180, height: 36 },
+          lg: { width: 180, height: 36 },
         },
         description: " Microsoft Azure Proficiency (Optional)",
         duration: "2.5 Months",
@@ -3298,13 +3340,12 @@ export const NewDSAData = [
         width: 80,
         height: 80,
         title: "Term 5",
-        toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/chatGpt-syntesia-githubCopilot.webp",
+        toolsImg: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/gcp.webp",
         imageSizes: {
-          vsm: { width: 190, height: 18 },
-          sm: { width: 210, height: 20 },
-          md: { width: 230, height: 24 },
-          lg: { width: 300, height: 30 },
+          vsm: { width: 40, height: 30 },
+          sm: { width: 40, height: 30 },
+          md: { width: 40, height: 30 },
+          lg: { width: 40, height: 30 },
         },
         description: "Google Cloud Platform (GCP) Fundamentals (optional)",
         duration: "70-75 hrs",
@@ -4072,12 +4113,12 @@ export const NewDSAData = [
         height: 80,
         title: "TERM 6",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/powerbi+tableu+sql_11zon.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/vmware.webp",
         imageSizes: {
-          vsm: { width: 195, height: 34 },
-          sm: { width: 195, height: 31 },
-          md: { width: 220, height: 37 },
-          lg: { width: 230, height: 39 },
+          vsm: { width: 125, height: 29 },
+          sm: { width: 135, height: 29 },
+          md: { width: 180, height: 37 },
+          lg: { width: 190, height: 39 },
         },
         description: "Server and Application Virtualization",
         duration: "30-35 hrs",
@@ -4845,12 +4886,12 @@ export const NewDSAData = [
         height: 80,
         title: "TERM 7",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/numpy-matplotlib-seaborn.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/devops.webp",
         imageSizes: {
-          vsm: { width: 210, height: 23 },
-          sm: { width: 210, height: 23 },
-          md: { width: 270, height: 26 },
-          lg: { width: 300, height: 32 },
+          vsm: { width: 110, height: 23 },
+          sm: { width: 110, height: 23 },
+          md: { width: 130, height: 26 },
+          lg: { width: 130, height: 26 },
         },
         description: "Data Migration and Resilience",
         duration: "40-45 hrs",
@@ -5618,12 +5659,12 @@ export const NewDSAData = [
         height: 80,
         title: "TERM 8",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/java-networkX.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/jenkins_gitlab.webp",
         imageSizes: {
           vsm: { width: 150, height: 21 },
           sm: { width: 160, height: 23 },
-          md: { width: 170, height: 26 },
-          lg: { width: 200, height: 32 },
+          md: { width: 190, height: 26 },
+          lg: { width: 220, height: 32 },
         },
         description: " DevOps Mastery and Tooling",
         duration: "40-45 hrs",
@@ -6390,12 +6431,12 @@ export const NewDSAData = [
         height: 80,
         title: "TERM 9",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/java-networkX.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/loadbalancing.webp",
         imageSizes: {
-          vsm: { width: 150, height: 21 },
-          sm: { width: 160, height: 23 },
-          md: { width: 170, height: 26 },
-          lg: { width: 200, height: 32 },
+          vsm: { width: 30, height: 21 },
+          sm: { width: 30, height: 23 },
+          md: { width: 50, height: 26 },
+          lg: { width: 50, height: 32 },
         },
         description: "Advanced Security and DevSecOps",
         duration: "40-45 hrs",
@@ -7160,7 +7201,7 @@ export const NewDSAData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/DSA-systemDesign.webp",
         width: 80,
         height: 80,
-        title: "TERM 9",
+        title: "TERM 10",
         toolsImg:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/java-networkX.webp",
         imageSizes: {
@@ -7933,7 +7974,7 @@ export const NewDSAData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/DSA-systemDesign.webp",
         width: 80,
         height: 80,
-        title: "TERM 10",
+        title: "TERM 11",
         toolsImg:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/java-networkX.webp",
         imageSizes: {
@@ -7948,7 +7989,7 @@ export const NewDSAData = [
         contentDescription: "",
         contentDetails: [
           " Introduction to Generative AI in DevOps",
-          " Automating DevOps orkflows with Generative AI",
+          " Automating DevOps Workflows with Generative AI",
           " AI-Powered Monitoring & Incident Resolution",
         ],
         popuplist: [

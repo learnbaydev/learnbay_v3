@@ -197,7 +197,10 @@ const NewDSA = ({ DSADataJson }) => {
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
-        <AlumniCompanies />
+        <AlumniCompanies
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-Master-certification.pdf"
+          brochurePdf={pdfUrl}
+        />
         <LearningToPlacement time="370" guided="60" />
 
         {/* <ProgramSection
@@ -276,7 +279,7 @@ const NewDSA = ({ DSADataJson }) => {
           // greenButton={true}
         />
 
-        <FAQNew FAQNewData={NewDSAData[0].faq} background={true} />
+        {/* <FAQNew FAQNewData={NewDSAData[0].faq} background={true} /> */}
         {/* <Content
           dataScienceCounselling={true}
           DSANewContent={true}

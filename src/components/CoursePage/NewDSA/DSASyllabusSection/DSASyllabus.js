@@ -51,27 +51,27 @@ const SyllabusSection = ({
 
   return (
     <div className="width">
-      <div className={styles.mainConteiner}>
-        <PopupContent
-          popups={popups ? popups : applyCounselingPopup}
-          setPopups={popups ? setPopups : setApplyCounselingPopup}
-          heading={popups ? "Download Syllabus" : "Apply For Counselling"}
-          downloadBrochure={popups ? downloadBrochure : false}
-          brochureLink={brochureLink}
-          brochurePdf={brochurePdf}
-          dataScienceCounselling={applyCounselingPopup ? true : false}
-          interstedInHide={true}
-          dataScience={popups ? true : false}
-          titleCourse={titleCourse}
-          upSkillingHide={true}
-          // dataScienceCounselling={dataScienceCounselling}
-        />
-        <h2 className={styles.headline}>
-          Explore Our <span>Syllabus</span>
-        </h2>
-        {sections.map((section, index) => {
-          const reasult = getResponsiveSize(section.imageSizes);
-          const { height, width } = reasult;
+        <div className={styles.mainConteiner}>
+          <PopupContent
+            popups={popups ? popups : applyCounselingPopup}
+            setPopups={popups ? setPopups : setApplyCounselingPopup}
+            heading={popups ? "Download Syllabus" : "Apply For Counselling"}
+            downloadBrochure={popups ? downloadBrochure : false}
+            brochureLink={brochureLink}
+            brochurePdf={brochurePdf}
+            dataScienceCounselling={applyCounselingPopup ? true : false}
+            interstedInHide={true}
+            dataScience={popups ? true : false}
+            titleCourse={titleCourse}
+            upSkillingHide={true}
+            // dataScienceCounselling={dataScienceCounselling}
+          />
+          <h2 className={styles.headline}>
+            Explore Our <span>Syllabus</span>
+          </h2>
+          {sections.map((section, index) => {
+            const reasult = getResponsiveSize(section.imageSizes);
+            const { height, width } = reasult;
 
           return (
             <div key={section.id} className={styles.gridConteiner}>
@@ -95,9 +95,9 @@ const SyllabusSection = ({
                 <div className={styles.rytmain}>
                   <div className={styles.ryttop}>
                     <p>{section.description}</p>
-                    <div className={styles.date}>
+                    {/* <div className={styles.date}>
                       <p>{section.duration}</p>
-                    </div>
+                    </div> */}
                   </div>
                   <div className={styles.content}>
                     <div className={styles.contentlist}>
@@ -116,19 +116,21 @@ const SyllabusSection = ({
                         Read more
                       </div>
                     </div>
-                    <div className={styles.tools}>
-                      <p>Topics</p>
-                      <div className={styles.toolsImgWrapper}>
-                        <Image
-                          src={section.toolsImg}
-                          width={width}
-                          height={height}
-                          alt="tools"
-                          loading="lazy"
-                          quality={50}
-                        />
+                    {section.toolsImg && (
+                      <div className={styles.tools}>
+                        <p>Topics</p>
+                        <div className={styles.toolsImgWrapper}>
+                          <Image
+                            src={section.toolsImg}
+                            width={width}
+                            height={height}
+                            alt="tools"
+                            loading="lazy"
+                            quality={50}
+                          />
+                        </div>
                       </div>
-                    </div>
+                    )}
                   </div>
                 </div>
               </div>
@@ -136,33 +138,33 @@ const SyllabusSection = ({
           );
         })}
 
-        <div className={styles.buttondiv}>
-          <div className={styles.btnone} onClick={applyCounselingShow}>
-            <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Thumb_Icon+(1).webp"
-              width={30}
-              height={30}
-              loading="lazy"
-              alt="Python"
-              quality={40}
-            />
-            Start Your Application
-          </div>
-          <div className={styles.btntwo} onClick={popupShow}>
-            <div className={styles.pdficon}>
+          <div className={styles.buttondiv}>
+            <div className={styles.btnone} onClick={applyCounselingShow}>
               <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/pdF_icon+(1).webp"
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Thumb_Icon+(1).webp"
                 width={30}
                 height={30}
                 loading="lazy"
-                alt="PDF Download"
+                alt="Python"
                 quality={40}
               />
+              Start Your Application
             </div>
-            Download Brochure
+            <div className={styles.btntwo} onClick={popupShow}>
+              <div className={styles.pdficon}>
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/pdF_icon+(1).webp"
+                  width={30}
+                  height={30}
+                  loading="lazy"
+                  alt="PDF Download"
+                  quality={40}
+                />
+              </div>
+              Download Brochure
+            </div>
           </div>
-        </div>
-        <ToolsCovered />
+          <ToolsCovered />
       </div>
     </div>
   );

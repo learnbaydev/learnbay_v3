@@ -41,7 +41,7 @@ const LearningToPlacement = ({ time, guided }) => {
             <p className={styles.boldYellow}>{guided}+ Guided</p>
             <span className={styles.skills}>
               Skill focused <br />
-              Hands-On Exercises
+              Hands-On Projects
             </span>
             <div className={styles.logos}>
               <span>GitHub</span>

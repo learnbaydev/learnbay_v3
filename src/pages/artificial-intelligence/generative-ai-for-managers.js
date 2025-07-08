@@ -197,7 +197,10 @@ const NewDSA = ({ DSADataJson }) => {
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
-        <AlumniCompanies />
+        <AlumniCompanies
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Generative-AI-and-Agentic-AI-for-Managers-%26-Leadersv1.pdf"
+          brochurePdf={pdfUrl}
+        />
         <LearningToPlacement time="130" guided="40" />
 
         {/* <ProgramSection
