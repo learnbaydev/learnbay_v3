@@ -32,6 +32,7 @@ const highlightsData = [
     bg: "linear-gradient(111deg, #E6FFFA 3.66%, #DAFFEF 98.21%)",
     border: "#17C37B",
     shadow: "rgba(23, 195, 123, 0.28)",
+
     tagColor: "#17C37B",
   },
 
