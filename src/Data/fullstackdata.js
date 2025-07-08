@@ -910,8 +910,7 @@ export const NewDSAData = [
         width: 80,
         height: 80,
         title: "TERM 1",
-        toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/full1.png",
+        toolsImg: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/full1.png",
         imageSizes: {
           vsm: { width: 90, height: 21 },
           sm: { width: 120, height: 23 },
@@ -1683,8 +1682,7 @@ export const NewDSAData = [
         width: 80,
         height: 80,
         title: "TERM 2",
-        toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/full2.png",
+        toolsImg: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/full2.png",
         imageSizes: {
           vsm: { width: 110, height: 40 },
           sm: { width: 120, height: 40 },
@@ -4775,8 +4773,7 @@ export const NewDSAData = [
         width: 80,
         height: 80,
         title: "Elective 3",
-        toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/full4.png",
+        toolsImg: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/full4.png",
         imageSizes: {
           vsm: { width: 70, height: 21 },
           sm: { width: 100, height: 21 },
@@ -4791,7 +4788,6 @@ export const NewDSAData = [
           "Front-End Development with React",
           "Back-End Development with Node.js and Express",
           "Database Management with MongoDB",
-          "Connecting Front-End with Back-End",
         ],
         popuplist: [
           {
@@ -5549,8 +5545,7 @@ export const NewDSAData = [
         width: 80,
         height: 80,
         title: "Elective 4",
-        toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/full5.png",
+        toolsImg: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/full5.png",
         imageSizes: {
           vsm: { width: 60, height: 21 },
           sm: { width: 70, height: 23 },
