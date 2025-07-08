@@ -143,12 +143,12 @@ export const NewDSAData = [
         height: 80,
         title: "Module 0",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/java_python.png",
+          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/python+git_11zon.webp",
         imageSizes: {
-          vsm: { width: 160, height: 38 },
-          sm: { width: 160, height: 38 },
-          md: { width: 160, height: 38 },
-          lg: { width: 160, height: 38 },
+          vsm: { width: 140, height: 44 },
+          sm: { width: 140, height: 44 },
+          md: { width: 170, height: 50 },
+          lg: { width: 190, height: 57 },
         },
         description: "Python Bootcamp for Non-Programmers",
         duration: "2-3 weeks",
@@ -1689,12 +1689,12 @@ export const NewDSAData = [
         height: 80,
         title: "TERM 2",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/python+git_11zon.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/numpy-matplotlib-seaborn.webp",
         imageSizes: {
-          vsm: { width: 140, height: 44 },
-          sm: { width: 140, height: 44 },
-          md: { width: 170, height: 50 },
-          lg: { width: 190, height: 57 },
+          vsm: { width: 210, height: 23 },
+          sm: { width: 210, height: 23 },
+          md: { width: 270, height: 26 },
+          lg: { width: 300, height: 32 },
         },
         description: "Statistics and Machine Learning + GENAI",
         duration: "1 Month",
@@ -2462,12 +2462,12 @@ export const NewDSAData = [
         height: 80,
         title: "TERM 3",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/kafta+sql+mongodb_11zon.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/chatGpt-syntesia-githubCopilot.webp",
         imageSizes: {
-          vsm: { width: 160, height: 22 },
-          sm: { width: 180, height: 25 },
-          md: { width: 260, height: 32 },
-          lg: { width: 280, height: 36 },
+          vsm: { width: 190, height: 18 },
+          sm: { width: 210, height: 20 },
+          md: { width: 230, height: 24 },
+          lg: { width: 300, height: 30 },
         },
         description: "Generative AI and Agentic AI",
         duration: "2.5 Months",
@@ -3235,12 +3235,12 @@ export const NewDSAData = [
         height: 80,
         title: "TERM 4",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/chatGpt-syntesia-githubCopilot.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/kafta+sql+mongodb_11zon.webp",
         imageSizes: {
-          vsm: { width: 190, height: 18 },
-          sm: { width: 210, height: 20 },
-          md: { width: 230, height: 24 },
-          lg: { width: 300, height: 30 },
+          vsm: { width: 160, height: 22 },
+          sm: { width: 180, height: 25 },
+          md: { width: 260, height: 32 },
+          lg: { width: 280, height: 36 },
         },
         description: " Data Visualization & Data Analysis",
         duration: "70-75 hrs",
@@ -4007,13 +4007,14 @@ export const NewDSAData = [
         width: 80,
         height: 80,
         title: "TERM 5",
+
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/powerbi+tableu+sql_11zon.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/chatGpt-syntesia-githubCopilot.webp",
         imageSizes: {
-          vsm: { width: 195, height: 34 },
-          sm: { width: 195, height: 31 },
-          md: { width: 220, height: 37 },
-          lg: { width: 230, height: 39 },
+          vsm: { width: 190, height: 18 },
+          sm: { width: 210, height: 20 },
+          md: { width: 230, height: 24 },
+          lg: { width: 300, height: 30 },
         },
         description: "AI Tools and Deployment",
         duration: "30-35 hrs",
@@ -4780,14 +4781,7 @@ export const NewDSAData = [
         width: 80,
         height: 80,
         title: "TERM  6",
-        toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/numpy-matplotlib-seaborn.webp",
-        imageSizes: {
-          vsm: { width: 210, height: 23 },
-          sm: { width: 210, height: 23 },
-          md: { width: 270, height: 26 },
-          lg: { width: 300, height: 32 },
-        },
+
         description: " Project Management",
         duration: "40-45 hrs",
         contentModule: "Topics Covered",
@@ -5573,7 +5567,8 @@ export const NewDSAData = [
       {
         id: 1,
         topnav: "IBM",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/data-analytcis-Cer.webp",
+        img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp",
+
         width: 300,
         height: 340,
         title: "Course Completion Certificate from IBM",

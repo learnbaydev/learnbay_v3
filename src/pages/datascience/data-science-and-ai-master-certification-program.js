@@ -60,6 +60,7 @@ import { MasterAI } from "@/Data/Schema/DataScienceAndAIMasterSchema";
 import FeeSection from "@/components/course/feeSection/FeeSectionCourse";
 import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/UpdatedCertificate";
 import HighlightsSection from "@/components/CoursePage/newUICourse/Support/HighlightsSection";
+import ToolsCovered from "@/components/CoursePage/ToolsCovered/ToolsCovered";
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
@@ -197,7 +198,10 @@ const NewDSA = ({ DSADataJson }) => {
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
-        <AlumniCompanies />
+        <AlumniCompanies
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-Master-certification.pdf"
+          brochurePdf={pdfUrl}
+        />
         <LearningToPlacement time="370" guided="60" />
 
         {/* <ProgramSection
@@ -211,7 +215,7 @@ const NewDSA = ({ DSADataJson }) => {
 
         <AnimationNew />
         <JobReadySection />
-        <ReviewSlider idss="eautK0odE7Q" />
+        <ReviewSlider idss="eautK0odE7Q" showRealStories={true} />
         <MentorsSection />
         <DSAProjectSection
           dataScience={true}
@@ -230,6 +234,8 @@ const NewDSA = ({ DSADataJson }) => {
           brochurePdf={pdfUrl}
           downloadBrochure={true}
         />
+
+        <ToolsCovered />
 
         <UpdatedCertificate data={NewDSAData[0].Certificate} />
         {/* <Certificate
@@ -270,13 +276,13 @@ const NewDSA = ({ DSADataJson }) => {
             "counselling",
             "enrollment",
           ]}
-          first="Eligibility Check"
-          second="Expert Counselling"
-          third="Secure Admission"
+          first="Evaluation Call"
+          second="Screening Call"
+          third="Block your seat"
           // greenButton={true}
         />
 
-        <FAQNew FAQNewData={NewDSAData[0].faq} background={true} />
+        {/* <FAQNew FAQNewData={NewDSAData[0].faq} background={true} /> */}
         {/* <Content
           dataScienceCounselling={true}
           DSANewContent={true}

@@ -14,7 +14,7 @@ const whyChooseData = [
       },
       {
         icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/org_container+(1).webp",
-        text: "Hybrid * classes",
+        text: "Hybrid * projects",
         width: "50",
         height: "50",
       },
@@ -76,8 +76,8 @@ const whyChooseData = [
     subItems: [
       {
         // ibmLogo:
-          // "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
-         newTxt: "Renowened Industry",
+        // "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
+        newTxt: "Renowened Industry",
         text: "Get project Certification from:",
         width: "70",
         height: "40",
@@ -88,13 +88,9 @@ const whyChooseData = [
     image:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/org_girl+(1).webp",
     title: "Reach your career goals ",
-    description:
-      "Advance your career with our effective Placement Support.",
+    description: "Advance your career with our effective Placement Support.",
     subItems: [],
   },
 ];
 
-
-
 export default whyChooseData;
-

@@ -53,7 +53,7 @@ export default function Home() {
         />
         {/* <TrainerSection idss="eautK0odE7Q" /> */}
         <Header />
-        <ReviewSlider idss="eautK0odE7Q" />
+        <ReviewSlider idss="eautK0odE7Q" showRealStories={true} />
         <ContactUs dataScienceCounselling={true} radio={true} />
         <LinkedinReview />
         <GoogleReview />

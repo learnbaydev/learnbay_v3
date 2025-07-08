@@ -60,6 +60,7 @@ import { MasterAI } from "@/Data/Schema/DataScienceAndAIMasterSchema";
 import FeeSection from "@/components/course/feeSection/FeeSectionCourse";
 import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/UpdatedCertificate";
 import HighlightsSection from "@/components/CoursePage/FirstPart/Support_noimage/HighlightsSection";
+import FullStackSecondSection from "@/components/CoursePage/FullStackSecondSection/FullStackSecondSection";
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
@@ -198,8 +199,11 @@ const NewDSA = ({ DSADataJson }) => {
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
-        <AlumniCompanies />
-        <LearningToPlacement time="350" guided="200" fullstack="true" />
+        <AlumniCompanies
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full-Stack-Software-Development-Master-Certification-Programv1.pdf"
+          brochurePdf={pdfUrl}
+        />
+        <LearningToPlacement time="350" guided="350" fullstack="true" />
 
         {/* <ProgramSection
           programSectionData={NewDSAData[0].ProgramSection}
@@ -212,7 +216,8 @@ const NewDSA = ({ DSADataJson }) => {
 
         <AnimationNew />
         <JobReadySection />
-        <ReviewSlider idss="eautK0odE7Q" />
+        <ReviewSlider idss="eautK0odE7Q" showRealStories={false} />
+        <FullStackSecondSection />
         <MentorsSection />
         <DSAProjectSection
           dataScience={true}
@@ -221,7 +226,7 @@ const NewDSA = ({ DSADataJson }) => {
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full-Stack-Software-Development-Master-Certification-Programv1.pdf"
           brochurePdf={pdfUrl}
         />
-        <Other />
+        {/* <Other  /> */}
         <DSASyllabus
           sections={NewDSAData[0].sections}
           dataScience={true}
@@ -271,13 +276,13 @@ const NewDSA = ({ DSADataJson }) => {
             "counselling",
             "enrollment",
           ]}
-          first="Eligibility Check"
-          second="Expert Counselling"
-          third="Secure Admission"
+          first="Evaluation Call"
+          second="Screening Call"
+          third="Block your seat"
           // greenButton={true}
         />
 
-        <FAQNew FAQNewData={NewDSAData[0].faq} background={true} />
+        {/* <FAQNew FAQNewData={NewDSAData[0].faq} background={true} /> */}
         {/* <Content
           dataScienceCounselling={true}
           DSANewContent={true}

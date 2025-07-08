@@ -110,7 +110,7 @@ const DSAFeeSection = ({
       <div className={styles.mainContainer}>
         {/* <div className={styles.containerouter}> */}
         <div className={styles.container}>
-          <h4>Live online classes</h4>
+          <h4 style={{ color: "#0072bc" }}>Live online classes</h4>
           <div className={styles.insideMain}>
             <div className={styles.left}>
               <h5>Benefits :</h5>
@@ -128,8 +128,10 @@ const DSAFeeSection = ({
               <h3>
                 {Fee} <span className={styles.span}>+ 18% GST</span>
               </h3>
-              <p className={styles.pEmi}>Pay in easy EMIs starting as low as</p>
-              <h6>{FeeEmi}</h6>
+              <break />
+              <p className={styles.pEmi}> </p>
+
+              <h6 style={{ color: "#0072bc" }}>No Cost EMI Available</h6>
 
               <button onClick={popupShow} className={styles.btn}>
                 Check EMI Options

@@ -1,22 +1,22 @@
 import React from "react";
 import styles from "./HighlightsSection.module.css";
 import Image from "next/image";
-import highlightsData from "./highlightsData";
+import highlightsData from "./clouddata";
+import { useState } from "react";
 import dynamic from "next/dynamic";
 const Popup = dynamic(() => import("@/components/Global/Popup/Popup"));
 const FormCareer = dynamic(() =>
   import("@/components/Global/CareerPortal/Form/Form")
 );
-import { useState } from "react";
 const Button = dynamic(() => import("@/components/Global/Button/Button"));
 const Form = dynamic(() => import("@/components/Global/Form/Form"));
-const HighlightsSection = (
+const HighlightsSection = ({
   careerForm,
   radio,
   fullStack,
   dataScience,
-  dataScienceGeneric
-) => {
+  dataScienceGeneric,
+}) => {
   const [popups, setPopups] = useState(false);
   const popupShow = () => {
     setPopups(true);
@@ -68,11 +68,8 @@ const HighlightsSection = (
                     word.includes("real-world") ||
                     word.includes("sharpen") ||
                     word.includes("enterprise") ||
-                    word.includes("BFSI") ||
-                    word.includes("Healthcare") ||
-                    word.includes("Retail") ||
-                    word.includes("HR") ||
-                    word.includes("more") ||
+                    word.includes("automating cloud workflows") ||
+                    word.includes("AI pipelines") ||
                     word.includes("hiring") ? (
                       <span key={i} className={styles.dark}>
                         {word + " "}
@@ -108,18 +105,21 @@ const HighlightsSection = (
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
           {/* <p>Fill the below details to get started</p> */}
-
-          <Form
-            popup={true}
-            setTrigger={setPopups}
-            radio={false}
-            fullStack={true}
-            dataScience={dataScience}
-            dataScienceGeneric={dataScienceGeneric}
-            dataScienceCounselling={true}
-            upSkillingHide={true}
-            interstedInHide={true}
-          />
+          {careerForm ? (
+            <FormCareer />
+          ) : (
+            <Form
+              popup={true}
+              setTrigger={setPopups}
+              radio={radio}
+              fullStack={true}
+              dataScience={dataScience}
+              dataScienceGeneric={dataScienceGeneric}
+              dataScienceCounselling={true}
+              upSkillingHide={true}
+              interstedInHide={true}
+            />
+          )}
         </div>
       </Popup>
       <div className={styles.applyButton} onClick={popupShow}>

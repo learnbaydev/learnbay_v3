@@ -910,13 +910,12 @@ export const NewDSAData = [
         width: 80,
         height: 80,
         title: "TERM 1",
-        toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/java-networkX.webp",
+        toolsImg: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/full1.png",
         imageSizes: {
-          vsm: { width: 150, height: 21 },
-          sm: { width: 160, height: 23 },
-          md: { width: 170, height: 26 },
-          lg: { width: 200, height: 32 },
+          vsm: { width: 90, height: 21 },
+          sm: { width: 120, height: 23 },
+          md: { width: 120, height: 26 },
+          lg: { width: 120, height: 32 },
         },
         description: "Data Structures & Algorithms",
         duration: "3.5 Months",
@@ -1683,13 +1682,12 @@ export const NewDSAData = [
         width: 80,
         height: 80,
         title: "TERM 2",
-        toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/python+git_11zon.webp",
+        toolsImg: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/full2.png",
         imageSizes: {
-          vsm: { width: 140, height: 44 },
-          sm: { width: 140, height: 44 },
-          md: { width: 170, height: 50 },
-          lg: { width: 190, height: 57 },
+          vsm: { width: 110, height: 40 },
+          sm: { width: 120, height: 40 },
+          md: { width: 150, height: 50 },
+          lg: { width: 150, height: 52 },
         },
         description: "Computer Fundamentals",
         duration: "1 Month",
@@ -2457,12 +2455,12 @@ export const NewDSAData = [
         height: 80,
         title: "TERM 3",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/kafta+sql+mongodb_11zon.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/highlevel.png",
         imageSizes: {
-          vsm: { width: 160, height: 22 },
-          sm: { width: 180, height: 25 },
-          md: { width: 260, height: 32 },
-          lg: { width: 280, height: 36 },
+          vsm: { width: 55, height: 20 },
+          sm: { width: 70, height: 20 },
+          md: { width: 150, height: 30 },
+          lg: { width: 100, height: 40 },
         },
         description: "System Design : LLD + HLD",
         duration: "2.5 Months",
@@ -4002,8 +4000,6 @@ export const NewDSAData = [
         width: 80,
         height: 80,
         title: "Elective 2",
-        toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/powerbi+tableu+sql_11zon.webp",
         imageSizes: {
           vsm: { width: 195, height: 34 },
           sm: { width: 195, height: 31 },
@@ -4775,13 +4771,12 @@ export const NewDSAData = [
         width: 80,
         height: 80,
         title: "Elective 3",
-        toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/numpy-matplotlib-seaborn.webp",
+        toolsImg: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/full4.png",
         imageSizes: {
-          vsm: { width: 210, height: 23 },
-          sm: { width: 210, height: 23 },
-          md: { width: 270, height: 26 },
-          lg: { width: 300, height: 32 },
+          vsm: { width: 70, height: 21 },
+          sm: { width: 100, height: 21 },
+          md: { width: 200, height: 24 },
+          lg: { width: 120, height: 28 },
         },
         description: "Full Stack [MERN] for Software Developers",
         duration: "40-45 hrs",
@@ -4791,7 +4786,6 @@ export const NewDSAData = [
           "Front-End Development with React",
           "Back-End Development with Node.js and Express",
           "Database Management with MongoDB",
-          "Connecting Front-End with Back-End",
         ],
         popuplist: [
           {
@@ -5541,6 +5535,7 @@ export const NewDSAData = [
           },
         ],
       },
+
       {
         id: "7",
         trackIcon:
@@ -5548,13 +5543,12 @@ export const NewDSAData = [
         width: 80,
         height: 80,
         title: "Elective 4",
-        toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/java-networkX.webp",
+        toolsImg: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/full5.png",
         imageSizes: {
-          vsm: { width: 150, height: 21 },
-          sm: { width: 160, height: 23 },
-          md: { width: 170, height: 26 },
-          lg: { width: 200, height: 32 },
+          vsm: { width: 60, height: 21 },
+          sm: { width: 70, height: 23 },
+          md: { width: 100, height: 26 },
+          lg: { width: 100, height: 32 },
         },
         description: "DevOps Essentials for Software Engineers",
         duration: "40-45 hrs",

@@ -25,10 +25,11 @@ const UpskillingSection = dynamic(() =>
 );
 
 const ExecutiveSecondPart = ({ sections, FAQNewData }) => {
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Executive-iit-guwahati-generic.pdf";
   return (
     <>
-      <ReviewSlider />
+      <ReviewSlider showRealStories={true} />
       <MentorsSection />
       <UpskillingSection />
       <ProjectSection dataScienceCounselling={true} interstedInHide={true} />

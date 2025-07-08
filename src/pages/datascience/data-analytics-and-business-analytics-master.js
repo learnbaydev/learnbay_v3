@@ -198,7 +198,8 @@ const NewDSA = ({ DSADataJson }) => {
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
-        <AlumniCompanies />
+        <AlumniCompanies brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data-Analytics-and-Business-Analytics-with-GenAI-Master-Certification-Programv1.pdf"
+          brochurePdf={pdfUrl}/>
         <LearningToPlacement time="240" guided="40" />
 
         {/* <ProgramSection
@@ -212,7 +213,7 @@ const NewDSA = ({ DSADataJson }) => {
 
         <AnimationNew />
         <JobReadySection />
-        <ReviewSlider idss="eautK0odE7Q" />
+        <ReviewSlider idss="eautK0odE7Q" showRealStories={true} />
         <MentorsSection />
         <DSAProjectSection
           projectSection={NewDSAData[0].projectSection}
@@ -272,13 +273,13 @@ const NewDSA = ({ DSADataJson }) => {
             "counselling",
             "enrollment",
           ]}
-          first="Eligibility Check"
-          second="Expert Counselling"
-          third="Secure Admission"
+          first="Evaluation Call"
+          second="Screening Call"
+          third="Block your seat"
           // greenButton={true}
         />
 
-        <FAQNew FAQNewData={NewDSAData[0].faq} background={true} />
+        {/* <FAQNew FAQNewData={NewDSAData[0].faq} background={true} /> */}
         {/* <Content
           dataScienceCounselling={true}
           DSANewContent={true}
