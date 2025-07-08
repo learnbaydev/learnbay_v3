@@ -34,6 +34,7 @@ const highlightsData = [
     shadow: "rgba(23, 195, 123, 0.28)",
     tagColor: "#17C37B",
   },
+
   {
     tag: "LATEST TOOLS",
     heading: "Build. Deploy. Scale.",
