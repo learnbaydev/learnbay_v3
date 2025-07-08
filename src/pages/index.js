@@ -381,7 +381,7 @@ export default function Home() {
         <NewCourse dataScience={true} radio={true} />
       </div>
       <AnimationNew />
-      <ReviewSlider idss="eautK0odE7Q" />
+      <ReviewSlider idss="eautK0odE7Q" showRealStories={true} />
       <ContactUs dataScienceCounselling={true} radio={true} />
       <CLogo />
       <Other />

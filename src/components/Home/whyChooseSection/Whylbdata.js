@@ -14,7 +14,7 @@ const whyChooseData = [
       },
       {
         icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/org_container+(1).webp",
-        text: "Hybrid * classes",
+        text: "Hybrid * projects",
         width: "50",
         height: "50",
       },

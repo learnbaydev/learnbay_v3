@@ -68,6 +68,11 @@ const HighlightsSection = (
                     word.includes("real-world") ||
                     word.includes("sharpen") ||
                     word.includes("enterprise") ||
+                    word.includes("BFSI") ||
+                    word.includes("Healthcare") ||
+                    word.includes("Retail") ||
+                    word.includes("HR") ||
+                    word.includes("more") ||
                     word.includes("hiring") ? (
                       <span key={i} className={styles.dark}>
                         {word + " "}

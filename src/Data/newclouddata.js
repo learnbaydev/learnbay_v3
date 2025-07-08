@@ -8749,6 +8749,19 @@ export const NewDSAData = [
         para2: ["Azure Fundamentals"],
         para3: ["Administrator Associate"],
       },
+      {
+        id: 3,
+        topnav: "Learnbay",
+        img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/cloud_cert.webp",
+        width: 300,
+        height: 270,
+        title: "Course Completion Certificate From Learnbay",
+        para: [
+          "Validates your skills in cloud automation and deployment practices.",
+          "Demonstrates real-world expertise in managing scalable infrastructure.",
+          "Showcases your ability to handle modern DevOps workflows for top tech roles.",
+        ],
+      },
     ],
     faq: [
       {

@@ -177,7 +177,7 @@ const NewDSA = ({ DSADataJson }) => {
           }}
         />
       </Head>
-      <main>
+        <main>
         <Navbar
           popup={true}
           dataScienceCounselling={true}
@@ -214,7 +214,7 @@ const NewDSA = ({ DSADataJson }) => {
 
         <AnimationNew />
         <JobReadySection />
-        <ReviewSlider idss="eautK0odE7Q" />
+        <ReviewSlider idss="eautK0odE7Q" showRealStories={false} />
         <MentorsSection />
         <GenAIProject
           genAiData={NewDSAData[0].genAiData}
@@ -222,7 +222,7 @@ const NewDSA = ({ DSADataJson }) => {
           noClud={true}
         />
 
-        <Other />
+        {/* <Other  /> */}
         <DSASyllabus
           sections={NewDSAData[0].sections}
           dataScience={true}
@@ -272,9 +272,9 @@ const NewDSA = ({ DSADataJson }) => {
             "counselling",
             "enrollment",
           ]}
-          first="Eligibility Check"
-          second="Expert Counselling"
-          third="Secure Admission"
+          first="Evaluation Call"
+          second="Screening Call"
+          third="Block your seat"
           // greenButton={true}
         />
 

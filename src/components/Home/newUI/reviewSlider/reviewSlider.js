@@ -1,27 +1,24 @@
-
 import styles from "./reviewSlider.module.css";
 import Image from "next/image";
 import VideoPopup from "../../../Global/VideoPopup/VideoPopup";
 
-import Reels from "./Reels"
+import Reels from "./Reels";
 import { useState } from "react";
 
-const ReviewSlider = ({
-  idss
-}) => {
+const ReviewSlider = ({ idss, showRealStories: showRealStories = true }) => {
   const [popups, setPopups] = useState(false);
   const [video, setVideo] = useState(false);
   const videoSHow = () => {
     setVideo(true);
   };
-   // const el = useRef(null);
-   const popupShow = () => {
+  // const el = useRef(null);
+  const popupShow = () => {
     setPopups(true);
   };
   return (
     <div className={`${styles.keyContainer} width`}>
-              <VideoPopup triggers={video} setTriggers={setVideo} ids={idss} />
-      <Reels /> 
+      <VideoPopup triggers={video} setTriggers={setVideo} ids={idss} />
+      {showRealStories ? <Reels /> : <>{""}</>}
       <div className={styles.mainDiv}>
         {/* Bottom Review Section */}
         <div className={styles.reviewBotSection}>
@@ -36,7 +33,6 @@ const ReviewSlider = ({
               width="800"
               height="408"
               className={styles.socailR}
-
             />
           </div>
           {/* <div className={styles.secondBotReview}>

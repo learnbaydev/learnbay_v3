@@ -241,7 +241,7 @@ It’s an opportunity to understand the :"
           iitGuwatiGen={true}
           interstedInHide={true}
         />
-        <ReviewSlider idss="eautK0odE7Q" />
+        <ReviewSlider idss="eautK0odE7Q" showRealStories={true} />
         <MentorsSection />
         <DSAProjectSection
           dataScience={true}

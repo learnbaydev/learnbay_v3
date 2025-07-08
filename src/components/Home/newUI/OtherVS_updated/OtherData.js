@@ -14,7 +14,7 @@ export const otherData = {
     "3-Year Flexi Pass",
     "Live, Mentor-Led, Interactive",
     "BFSI, Healthcare, Supply Chain, Manufacturing, HR, Project Management",
-    "Issued by Industry Partners",
+    "Issued by Learnbay and Industry Partners",
     "Hybrid (Online + Classroom Project Sessions)",
     "Dedicated Project Mentor",
   ],

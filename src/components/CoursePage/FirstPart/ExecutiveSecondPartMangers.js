@@ -25,10 +25,11 @@ const UpskillingSection = dynamic(() =>
 );
 
 const ExecutiveSecondPart = ({ sections, FAQNewData }) => {
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/GenAI-Managers-Tech-Leaders-iits.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/GenAI-Managers-Tech-Leaders-iits.pdf";
   return (
     <>
-      <ReviewSlider />
+      <ReviewSlider showRealStories={true} />
       <MentorsSection />
       <UpskillingSection />
       <ProjectSection dataScienceCounselling={true} interstedInHide={true} />

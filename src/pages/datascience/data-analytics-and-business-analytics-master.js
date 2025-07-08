@@ -212,7 +212,7 @@ const NewDSA = ({ DSADataJson }) => {
 
         <AnimationNew />
         <JobReadySection />
-        <ReviewSlider idss="eautK0odE7Q" />
+        <ReviewSlider idss="eautK0odE7Q" showRealStories={true} />
         <MentorsSection />
         <DSAProjectSection
           projectSection={NewDSAData[0].projectSection}
@@ -272,9 +272,9 @@ const NewDSA = ({ DSADataJson }) => {
             "counselling",
             "enrollment",
           ]}
-          first="Eligibility Check"
-          second="Expert Counselling"
-          third="Secure Admission"
+          first="Evaluation Call"
+          second="Screening Call"
+          third="Block your seat"
           // greenButton={true}
         />
 
