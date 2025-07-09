@@ -29,7 +29,7 @@ const GenAiProSecondPart = ({
   // console.log(popupData);
 
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/GenAI-Developer-Program.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI_Developer_Program_For_Professionals.pdf";
   return (
     <div>
       <LJourney />
@@ -40,7 +40,7 @@ const GenAiProSecondPart = ({
         dataScienceCounselling={true}
         dataScience={true}
         titleCourse=""
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI-Developer-Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI_Developer_Program_For_Professionalsv1.pdf"
         brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}

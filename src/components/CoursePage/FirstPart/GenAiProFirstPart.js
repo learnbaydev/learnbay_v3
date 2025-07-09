@@ -60,7 +60,8 @@ const GenAiProFirstPart = ({ summaryData, whyChooseData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/GenAI-Developer-Program.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI_Developer_Program_For_Professionals.pdf";
   return (
     <div>
       <Navbar
@@ -73,7 +74,7 @@ const GenAiProFirstPart = ({ summaryData, whyChooseData }) => {
         dataScience={true}
         titleCourse="GenAI Developer Certification For Professionals"
         cityParaCont="Future-Ready Leadership Starts with Generative AI Mastery"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI-Developer-Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI_Developer_Program_For_Professionalsv1.pdf"
         brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/fullhead.webp"
         firstToparaImg=""
@@ -114,7 +115,7 @@ const GenAiProFirstPart = ({ summaryData, whyChooseData }) => {
       <ContactConsellor
         GenAi={true}
         titleCourse="Data Structure Algorithms & System Design"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI-Developer-Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI_Developer_Program_For_Professionalsv1.pdf"
         brochurePdf={pdfUrl}
         dataScience={true}
         interstedInHide={true}
