@@ -33,7 +33,7 @@ const GenAiMLeadersSecondPart = ({
   // console.log(popupData);
 
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/GenAI-Managers-Tech-Leaders-iits.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI_Certification_for_Managers_and_Tech+Leaders.pdf";
   return (
     <div>
       <LJourney />
@@ -43,7 +43,7 @@ const GenAiMLeadersSecondPart = ({
         dataScienceCounselling={true}
         dataScience={true}
         titleCourse=""
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI-Managers-Tech-Leaders-iits.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI_Certification_for_Managers_and_Tech%2BLeadersv1.pdf"
         brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}
@@ -97,7 +97,7 @@ const GenAiMLeadersSecondPart = ({
         FeeContent6="No additional cost"
         dataScienceCounselling={true}
         titleCourse="Software Development Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI-Managers-Tech-Leaders-iits.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI_Certification_for_Managers_and_Tech%2BLeadersv1.pdf"
         brochurePdf={pdfUrl}
         dataScience={true}
         interstedInHide={true}
