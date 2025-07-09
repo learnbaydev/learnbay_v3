@@ -57,7 +57,8 @@ const GenAiMLeadersFirstPart = ({ summaryData, whyChooseData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/GenAI-Managers-Tech-Leaders-iits.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI_Certification_for_Managers_and_Tech+Leaders.pdf";
   return (
     <div>
       <Navbar
@@ -71,7 +72,7 @@ const GenAiMLeadersFirstPart = ({ summaryData, whyChooseData }) => {
         dataScience={true}
         titleCourse="Curriculum Inclusive of Gen-AI"
         cityParaCont="Future-Ready Leadership Starts with Generative AI Mastery"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI-Managers-Tech-Leaders-iits.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI_Certification_for_Managers_and_Tech%2BLeadersv1.pdf"
         brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/fullhead.webp"
         firstToparaImg=""
@@ -112,7 +113,7 @@ const GenAiMLeadersFirstPart = ({ summaryData, whyChooseData }) => {
       <ContactConsellor
         GenAi={true}
         titleCourse="Data Structure Algorithms & System Design"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI-Managers-Tech-Leaders-iits.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI_Certification_for_Managers_and_Tech%2BLeadersv1.pdf"
         brochurePdf={pdfUrl}
         dataScience={true}
         interstedInHide={true}
