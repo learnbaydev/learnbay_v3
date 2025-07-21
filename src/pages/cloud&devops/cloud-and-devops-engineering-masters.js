@@ -76,35 +76,40 @@ const NewDSA = ({ DSADataJson }) => {
   return (
     <>
       <Head>
-        <title>Best Data Science & AI Online Course - Learnbay</title>
+        <title>Cloud and DevOps Engineering Masters Program - Learnbay</title>
         <meta
           name="description"
-          content="Become a data science expert. Join Learnbay’s AI Master Certification Program. Gain expertise, elevate your skills, and grow your career."
+          content="Build a future-proof tech career with Learnbay's Cloud & DevOps Engineering Masters Program. Learn real-world tools, hands-on projects, and get career support."
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="data science and ai course, advanced data science course, data science and ai, ai and data science course, artificial intelligence and data science course, advanced certification in data science and ai"
+          content="Cloud and DevOps Engineering
+Cloud and DevOps Engineering master certification
+Cloud and DevOps Engineering certification program
+Cloud Engineering master certification
+DevOps Engineering master certification
+Cloud and DevOps engineering program
+Cloud and DevOps master certification"
         />
         {/* <!-- Facebook Meta Tags --> */}
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program"
+          content="https://www.learnbay.co/cloud&devops/cloud-and-devops-engineering-masters"
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Best Data Science & AI Online Course - Learnbay"
+          content="Cloud and DevOps Engineering Masters Program - Learnbay"
         />
         <meta
           property="og:description"
-          content="Become a data science expert. Join Learnbay’s AI Master Certification Program. Gain expertise, elevate your skills, and grow your career."
+          content="Build a future-proof tech career with Learnbay's Cloud & DevOps Engineering Masters Program. Learn real-world tools, hands-on projects, and get career support."
         />
         <meta
           property="og:image"
           content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
         />
-
         {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="learnbay.co" />
@@ -112,20 +117,21 @@ const NewDSA = ({ DSADataJson }) => {
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program"
+          content="https://www.learnbay.co/cloud&devops/cloud-and-devops-engineering-masters"
         />
         <meta
           name="twitter:title"
-          content="Best Data Science and AI Master Certification Program Online"
+          content="Cloud and DevOps Engineering Masters Program - Learnbay"
         />
         <meta
           name="twitter:description"
-          content="Unleash your potential with the best online Data Science and AI Master Certification Program. Elevate your skills, gain expertise, and propel your career."
+          content="Build a future-proof tech career with Learnbay's Cloud & DevOps Engineering Masters Program. Learn real-world tools, hands-on projects, and get career support."
         />
         <meta
           name="twitter:image"
           content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
         />
+
         <link
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
@@ -140,12 +146,12 @@ const NewDSA = ({ DSADataJson }) => {
             __html: `{
       "@context": "http://schema.org",
   "@type": "Course",
-  "name": "Advance data science and AI Certification",
-  "description": "Our Advance Data Science and AI Course brings you a wide knowledge of Data Science and AI and helps you to make precise data-driven decisions.",
-  "url": "https://www.learnbay.co/datascience/advance-data-science-certification-courses",
+  "name": "Cloud and DevOps Engineering Masters Certification Program",
+  "description": "Build a future-proof tech career with Learnbay's Cloud & DevOps Engineering Masters Program. Learn real-world tools, hands-on projects, and get career support.",
+  "url": "https://www.learnbay.co/cloud&devops/cloud-and-devops-engineering-masters",
   "offers": {
     "@type": "offer",
-    "price": "125000",
+    "price": "159000",
     "pricecurrency": "INR",
     "category": "Educational"
   },
@@ -154,20 +160,21 @@ const NewDSA = ({ DSADataJson }) => {
         "name": "Learnbay",
         "Url": "https://www.learnbay.co/"
       },
-  "coursePrerequisites": "There are no prerequisites for Advanced Data Science and AI Program, as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-Programmers.",
+  "coursePrerequisites": "There are no prerequisites for the Cloud and DevOps Engineering Masters Certification Program, as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-Programmers.",
   "hasCourseInstance": [
     {
       "@type": "CourseInstance",
       "courseMode": "Online",
-      "courseWorkload": "P10W",
+      "courseWorkload": "P8M",
       "courseFee": {
         "@type": "PriceSpecification",
-        "price": "₹ 1,25,000 + 18% GST",
+        "price": "₹ 1,59,000 + 18% GST",
         "priceCurrency": "INR"
       }
     }
   ]
-    }`,
+    }
+`,
           }}
         />
 
@@ -178,7 +185,7 @@ const NewDSA = ({ DSADataJson }) => {
           }}
         />
       </Head>
-        <main>
+      <main>
         <Navbar
           popup={true}
           dataScienceCounselling={true}

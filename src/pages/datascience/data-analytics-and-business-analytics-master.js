@@ -73,35 +73,37 @@ const NewDSA = ({ DSADataJson }) => {
   return (
     <>
       <Head>
-        <title>Best Data Science & AI Online Course - Learnbay</title>
+        <title>
+          Data Analyst & Business Analytics Master Program - Learnbay
+        </title>
         <meta
           name="description"
-          content="Become a data science expert. Join Learnbay’s AI Master Certification Program. Gain expertise, elevate your skills, and grow your career."
+          content="Advance your career with Learnbay’s Data & Business Analytics course. Build in-demand skills, work on live projects & get placement assistance. Join today!"
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="data science and ai course, advanced data science course, data science and ai, ai and data science course, artificial intelligence and data science course, advanced certification in data science and ai"
+          content="data analytics master certification business analytics master certification data analytics and business analytics certification data analytics master certification program business analytics master certification program data analytics and business analytics certification course data analytics and business analytics master certification
+data and business analytics master certification"
         />
         {/* <!-- Facebook Meta Tags --> */}
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program"
+          content="https://www.learnbay.co/datascience/data-analytics-and-business-analytics-master"
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Best Data Science & AI Online Course - Learnbay"
+          content="Data Analyst & Business Analytics Master Program - Learnbay"
         />
         <meta
           property="og:description"
-          content="Become a data science expert. Join Learnbay’s AI Master Certification Program. Gain expertise, elevate your skills, and grow your career."
+          content="Advance your career with Learnbay’s Data & Business Analytics course. Build in-demand skills, work on live projects & get placement assistance. Join today!"
         />
         <meta
           property="og:image"
           content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
         />
-
         {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="learnbay.co" />
@@ -109,16 +111,21 @@ const NewDSA = ({ DSADataJson }) => {
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program"
+          content="https://www.learnbay.co/datascience/data-analytics-and-business-analytics-master"
         />
         <meta
           name="twitter:title"
-          content="Best Data Science and AI Master Certification Program Online"
+          content="Data Analyst & Business Analytics Master Program - Learnbay"
         />
         <meta
           name="twitter:description"
-          content="Unleash your potential with the best online Data Science and AI Master Certification Program. Elevate your skills, gain expertise, and propel your career."
+          content="Advance your career with Learnbay’s Data & Business Analytics course. Build in-demand skills, work on live projects & get placement assistance. Join today!"
         />
+        <meta
+          name="twitter:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
+        />
+
         <meta
           name="twitter:image"
           content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
@@ -129,7 +136,7 @@ const NewDSA = ({ DSADataJson }) => {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program"
+          href="https://www.learnbay.co/datascience/data-analytics-and-business-analytics-master/"
         />
         <script
           type="application/ld+json"
@@ -137,12 +144,12 @@ const NewDSA = ({ DSADataJson }) => {
             __html: `{
       "@context": "http://schema.org",
   "@type": "Course",
-  "name": "Advance data science and AI Certification",
-  "description": "Our Advance Data Science and AI Course brings you a wide knowledge of Data Science and AI and helps you to make precise data-driven decisions.",
-  "url": "https://www.learnbay.co/datascience/advance-data-science-certification-courses",
+  "name": "Data Analytics and Business Analytics Master Certification Program",
+  "description": "Advance your career with Learnbay’s Data & Business Analytics course. Build in-demand skills, work on live projects & get placement assistance. Join today!",
+  "url": "https://www.learnbay.co/datascience/data-analytics-and-business-analytics-master",
   "offers": {
     "@type": "offer",
-    "price": "125000",
+    "price": "159000",
     "pricecurrency": "INR",
     "category": "Educational"
   },
@@ -151,20 +158,21 @@ const NewDSA = ({ DSADataJson }) => {
         "name": "Learnbay",
         "Url": "https://www.learnbay.co/"
       },
-  "coursePrerequisites": "There are no prerequisites for Advanced Data Science and AI Program, as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-Programmers.",
+  "coursePrerequisites": "There are no prerequisites for the Data Analytics and Business Analytics Master Certification Program, as all modules are beginner-friendly and are taught from scratch. We provide a special bootcamp for non-programmers with this course.",
   "hasCourseInstance": [
     {
       "@type": "CourseInstance",
       "courseMode": "Online",
-      "courseWorkload": "P10W",
+      "courseWorkload": "P9M",
       "courseFee": {
         "@type": "PriceSpecification",
-        "price": "₹ 1,25,000 + 18% GST",
+        "price": "₹ 1,59,000 + 18% GST",
         "priceCurrency": "INR"
       }
     }
   ]
-    }`,
+    }
+`,
           }}
         />
 
@@ -198,8 +206,10 @@ const NewDSA = ({ DSADataJson }) => {
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
-        <AlumniCompanies brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data-Analytics-and-Business-Analytics-with-GenAI-Master-Certification-Programv1.pdf"
-          brochurePdf={pdfUrl}/>
+        <AlumniCompanies
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data-Analytics-and-Business-Analytics-with-GenAI-Master-Certification-Programv1.pdf"
+          brochurePdf={pdfUrl}
+        />
         <LearningToPlacement time="240" guided="40" />
 
         {/* <ProgramSection
