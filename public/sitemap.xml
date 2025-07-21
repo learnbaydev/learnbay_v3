@@ -668,4 +668,24 @@
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
 	</url>
+	<url>
+		<loc>https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.90</priority>
+	</url>
+	<url>
+		<loc>https://www.learnbay.co/fullstack/full-stack-software-development</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.90</priority>
+	</url>
+	<url>
+		<loc>https://www.learnbay.co/datascience/data-analytics-and-business-analytics-master</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.90</priority>
+	</url>
+	<url>
+		<loc>https://www.learnbay.co/cloud&devops/cloud-and-devops-engineering-masters</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.90</priority>
+	</url>
 </urlset>
