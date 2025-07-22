@@ -84,18 +84,18 @@ const NewDSA = ({ DSADataJson }) => {
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="Cloud and DevOps Engineering
-Cloud and DevOps Engineering master certification
-Cloud and DevOps Engineering certification program
-Cloud Engineering master certification
-DevOps Engineering master certification
-Cloud and DevOps engineering program
+          content="Cloud and DevOps Engineering,
+Cloud and DevOps Engineering master certification,
+Cloud and DevOps Engineering certification program,
+Cloud Engineering master certification,
+DevOps Engineering master certification,
+Cloud and DevOps engineering program,
 Cloud and DevOps master certification"
         />
         {/* <!-- Facebook Meta Tags --> */}
         <meta
           property="og:url"
-          content="https://www.learnbay.co/cloud&devops/cloud-and-devops-engineering-masters"
+          content="https://www.learnbay.co/cloud&amp;devops/cloud-and-devops-engineering-masters"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -117,7 +117,7 @@ Cloud and DevOps master certification"
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/cloud&devops/cloud-and-devops-engineering-masters"
+          content="https://www.learnbay.co/cloud&amp;devops/cloud-and-devops-engineering-masters"
         />
         <meta
           name="twitter:title"
@@ -138,7 +138,7 @@ Cloud and DevOps master certification"
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program"
+          href="https://www.learnbay.co/cloud&amp;devops/cloud-and-devops-engineering-masters"
         />
         <script
           type="application/ld+json"

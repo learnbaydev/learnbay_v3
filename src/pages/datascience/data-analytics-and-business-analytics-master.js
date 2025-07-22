@@ -83,7 +83,13 @@ const NewDSA = ({ DSADataJson }) => {
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="data analytics master certification business analytics master certification data analytics and business analytics certification data analytics master certification program business analytics master certification program data analytics and business analytics certification course data analytics and business analytics master certification
+          content="data analytics master certification,
+business analytics master certification,
+data analytics and business analytics certification,
+data analytics master certification program,
+business analytics master certification program,
+data analytics and business analytics certification course,
+data analytics and business analytics master certification,
 data and business analytics master certification"
         />
         {/* <!-- Facebook Meta Tags --> */}
@@ -136,7 +142,7 @@ data and business analytics master certification"
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/data-analytics-and-business-analytics-master/"
+          href="https://www.learnbay.co/datascience/data-analytics-and-business-analytics-master"
         />
         <script
           type="application/ld+json"
