@@ -82,14 +82,13 @@ const NewDSA = ({ DSADataJson }) => {
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="fullstack software development
-software development master certifications
-full stack software developer course
-fullstack development certification for professionals
-fullstack development master certification
-fullstack software development course
-full stack software development training
-"
+          content="fullstack software development,
+software development master certifications,
+full stack software developer course,
+fullstack development certification for professionals,
+fullstack development master certification,
+fullstack software development course,
+full stack software development training"
         />
         {/* <!-- Facebook Meta Tags --> */}
         <meta
