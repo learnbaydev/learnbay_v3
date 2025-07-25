@@ -74,8 +74,8 @@ export const GENAIPROCourseData = [
         extraImageSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iit_Gu_sum+(1).webp",
         extraImageAlt: "IIt Guwati",
-               extraImageSrcWidth:"180",
-        extraImageSrcHeight:"40"
+        extraImageSrcWidth: "180",
+        extraImageSrcHeight: "40",
       },
     ],
 
@@ -86,9 +86,10 @@ export const GENAIPROCourseData = [
         title: "E&ICT Academy IIT Guwahati-Backed Certification",
         description:
           "Stand out with a prestigious certification from E&ICT Academy, IIT Guwahati.",
-          logos:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iit_GEN_WHy+(1).webp",
-          logosWidth:"200",
-              logosHeight:"45",
+        logos:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iit_GEN_WHy+(1).webp",
+        logosWidth: "200",
+        logosHeight: "45",
         subItems: [
           {
             icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/3dicons+(1).webp",
@@ -746,7 +747,6 @@ export const GENAIPROCourseData = [
         duration: "8 hours",
       },
 
-      
       {
         id: 4,
         title: " Employee Feedback Insights ",
@@ -758,7 +758,6 @@ export const GENAIPROCourseData = [
         duration: "8 hours",
       },
 
-    
       // Add more data as needed
     ],
 
@@ -809,17 +808,18 @@ export const GENAIPROCourseData = [
             id: 6,
             ques: "What are the extra advantages delivered via this Advance Gen AI program?",
             ans: "Learners joining our Generative AI course online will receive endless career benefits. Quality learning can enrich your skill sets and help you land promising developer roles with attractive salaries. Apart from this, you will receive extra benefits like – ",
-            list1:"Mastering cutting-edge GenAI tools and frameworks (OpenAI, Lang Chain, Hugging Face, etc.)",
-            list2:"IIT professors as mentors ",
-            list3:"E&ICT and IIT Guwahati certifications",
-            list4:"Career Service Pro (100% placement support)",
+            list1:
+              "Mastering cutting-edge GenAI tools and frameworks (OpenAI, Lang Chain, Hugging Face, etc.)",
+            list2: "IIT professors as mentors ",
+            list3: "E&ICT and IIT Guwahati certifications",
+            list4: "Career Service Pro (100% placement support)",
 
-            dscoursefaq:true,
+            dscoursefaq: true,
             open: false,
           },
         ],
       },
-   
+
       {
         id: 1,
         sectionName: "Payments and Scholarships",
@@ -827,14 +827,14 @@ export const GENAIPROCourseData = [
           {
             id: 0,
             ques: "What is the cost of the Generative AI course online?",
-            ans: "The Generative AI course costs ₹75,000 + 18% GST. ",
+            ans: "The Generative AI course costs ₹1,25,000 + 18% GST. ",
             open: true,
           },
 
           {
             id: 2,
             ques: "Can I pay in installments for the Generative AI Developer Course?",
-            ans: "Learnbay offers flexible financing options for hassle-free learning without hampering work-study duties. You can pay INR 4,916/month in installments under a no-cost EMI option within 12 months. You can also opt for interest-free loans, credit cards, or UPI with the necessary documents (Aadhaar card, PAN card, and salary slip). ",
+            ans: "Learnbay offers flexible financing options for hassle-free learning without hampering work-study duties. You can pay INR 12,291/month in installments under a no-cost EMI option within 12 months. You can also opt for interest-free loans, credit cards, or UPI with the necessary documents (Aadhaar card, PAN card, and salary slip). ",
             open: false,
           },
           {
@@ -923,10 +923,11 @@ export const GENAIPROCourseData = [
             list1:
               "Three years of job placement assistance with unlimited access to interviews and learning portals",
             list2: "6 months of career support services",
-            list3: "1:1 career-focused mock interviews with 350+ industry partners ",
+            list3:
+              "1:1 career-focused mock interviews with 350+ industry partners ",
             list4: "Online resume build-up sessions",
             list5: "Promising job calls from top-ranked MNCs",
-             dscoursefaq1: true,
+            dscoursefaq1: true,
 
             open: false,
           },
@@ -984,7 +985,6 @@ export const GENAIPROCourseData = [
             ans: "Learners enrolling in the Advance Gen AI program get the scope of learning under reliable industry training. These mentors are liable for guiding each learner with course tasks and real-time projects. So, yes, you will get hassle-free help from your mentor while working on fresh capstone projects and course modules. ",
             open: false,
           },
-         
         ],
       },
       {
