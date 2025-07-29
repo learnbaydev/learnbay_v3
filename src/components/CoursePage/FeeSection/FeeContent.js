@@ -239,7 +239,7 @@ const FeeContent = ({
                 />
                 <p className={styles.iconContent}>
                   Offline Classroom Capstone projects with experts in{" "}
-                  <b>Pune, Delhi, Bangalore, Chennai, Hydrabad and Mumbai</b>
+                  <b>Pune, Delhi, Bangalore, Chennai, Hyderabad and Mumbai</b>
                 </p>
               </div>
             </div>
