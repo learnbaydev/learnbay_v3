@@ -50,7 +50,7 @@ function whyChooseSection() {
               </p>
               <p>
                 Offline classes are available in Pune, Mumbai, Delhi, Chennai,
-                Hydrabad, Kolkata, Bangalore.
+                Hyderabad, Kolkata, Bangalore.
               </p>
             </div>
           </div>
@@ -165,12 +165,15 @@ function whyChooseSection() {
           <div className={styles.SecondFour}>
             <h3>1:1 Doubt Clearing Session</h3>
             <p>
-            You can book personalized doubt classes for modules or projects with experts. These tailored sessions will help you understand concepts better and address any questions or challenges you might have.
-
+              You can book personalized doubt classes for modules or projects
+              with experts. These tailored sessions will help you understand
+              concepts better and address any questions or challenges you might
+              have.
             </p>
             <div className={styles.botDivYellow}>
               <p>
-                <span>*Important Note:</span> Schedule your sessions from 10 AM - 6 PM (Mon-Sat) to secure your preferred time slot.
+                <span>*Important Note:</span> Schedule your sessions from 10 AM
+                - 6 PM (Mon-Sat) to secure your preferred time slot.
               </p>
             </div>
           </div>
