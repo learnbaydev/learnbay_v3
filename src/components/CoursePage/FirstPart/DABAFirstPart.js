@@ -126,7 +126,8 @@ const DABAFirstPart = ({ SecondSectionData, TestimonialData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/DA-BA-v1.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_comp.pdf";
   return (
     <>
       <Navbar dataScienceCounselling={true} interstedInHide={true} />
@@ -137,7 +138,7 @@ const DABAFirstPart = ({ SecondSectionData, TestimonialData }) => {
         ThirdTyped="Live Interactive Classes"
         titleCourse="Data Analytics and Business Analytics with Generative AI "
         cityParaCont="Elevate your tech career with our programs"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DA-BA.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_compv1.pdf"
         brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BA-min.webp"
         firstToparaImg="with Generative AI "
@@ -179,7 +180,7 @@ const DABAFirstPart = ({ SecondSectionData, TestimonialData }) => {
         dataScience={true}
         titleCourse="Businesss Analytics Master Certification Program"
         interstedInHide={true}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DA-BA.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_compv1.pdf"
         brochurePdf={pdfUrl}
       />
     </>

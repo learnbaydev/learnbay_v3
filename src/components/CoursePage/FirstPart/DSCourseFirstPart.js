@@ -28,7 +28,7 @@ const CloudDevopsecond = dynamic(() =>
     "../../CoursePage/cloud&devops/DevOpsSecondSection/DevOpsSecondSection"
   )
 );
-import styles from "../../../styles/Home.module.css"
+import styles from "../../../styles/Home.module.css";
 import { DataScienceCourseData } from "../../../Data/DataScinceCourseOnly";
 
 import FAQNew from "../FAQNew/FAQNew";
@@ -39,11 +39,8 @@ const FirstSection = dynamic(() =>
 const MasterSecondSection = dynamic(() =>
   import("../../MastersCourse/MasterSecondSection/MasterSecondSection")
 );
-const CitiesRight = dynamic(() =>
-  import("../../Seo/CitiesRight/CitiesRight")
-);
-const CitiesLeft = dynamic(()=>
-import ("../../Seo/CitiesLeft/CitiesLeft"));
+const CitiesRight = dynamic(() => import("../../Seo/CitiesRight/CitiesRight"));
+const CitiesLeft = dynamic(() => import("../../Seo/CitiesLeft/CitiesLeft"));
 const Course = dynamic(() => import("../../Home/Course/DSCourse"));
 const Realstory = dynamic(() => import("../../Home/Realstory/Realstory"));
 
@@ -53,7 +50,7 @@ import { FaLinkedinIn, FaReact } from "react-icons/fa";
 import { TbBrandGoogleAnalytics } from "react-icons/tb";
 import Dropdown from "@/components/Seo/DropDownContent/Accordion";
 import Accordion from "@/components/Seo/DropDownContent/Accordion";
-const FirstPart = ({ SecondSectionData, TestimonialData,  }) => {
+const FirstPart = ({ SecondSectionData, TestimonialData }) => {
   const seconddata = [
     {
       boldText: "IBM",
@@ -69,7 +66,6 @@ const FirstPart = ({ SecondSectionData, TestimonialData,  }) => {
     },
     { boldText: "35K+", normalText: "Trusted Learners" },
   ];
-  
 
   return (
     <>
@@ -80,7 +76,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData,  }) => {
         dataScience={true}
         titleCourse="Data Science Courses – Learnbay        "
         cityParaCont="Experience the analytical power of data science with Learnbay’s industry-paced upskilling programs designed to propel competitive success rates. Enroll in our data science courses to break into the perplexity of emerging data-driven culture.     "
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf"
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Adv-dsai-_1_-min.webp"
         firstToparaImg="– Learnbay"
         firstHeading="Data Science Courses       "
@@ -89,30 +85,25 @@ const FirstPart = ({ SecondSectionData, TestimonialData,  }) => {
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ds-fs.webp"
         videoId="djokazk1d-0"
         DSWolf={true}
-       softwareBtnHide={true}
+        softwareBtnHide={true}
       />
 
       <Course
         // radio={true}
-       
+
         // interstedInHide={true}
         newDesign={true}
-      
         DomainInput={true}
         interstedInHide={true}
         DatascienOnlycourse={true}
       />
-    
-
-
-  
 
       <Realstory />
       <TrainerSection idss="eautK0odE7Q" />
 
       {/* <Testimonial redirectDS={true} heading="" Testimonial={TestimonialData} /> */}
 
-<Accordion/>
+      <Accordion />
       <GetHire />
     </>
   );

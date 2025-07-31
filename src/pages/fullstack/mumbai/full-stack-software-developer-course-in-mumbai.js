@@ -156,7 +156,7 @@ export default function Home() {
           cityParaCont="Enroll in the best Job-ready full-stack software development course in Mumbai. Take a 10-step step ahead of others towards the most lucrative salary package of product-based MNCs, which you deserve."
           dataScience={true}
           titleCourse="Full-Stack Software Developer Course In Mumbai To Achieve Your Dream Job"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
           firstToparaImg="To Achieve Your Dream Job"
           firstHeading="Full-Stack Software Developer Course In Mumbai"

@@ -74,7 +74,8 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/BFSI.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_compr.pdf";
   return (
     <div>
       <LJourney />
@@ -83,7 +84,7 @@ const SecondPart = ({
         dataScienceCounselling={true}
         dataScience={true}
         titleCourse="Data Science & AI for BFSI Professionals"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf"
         brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}
@@ -108,7 +109,7 @@ const SecondPart = ({
         dataScienceCounselling={true}
         interstedInHide={true}
         titleCourse="Data Science & AI for BFSI Professionals"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf"
         brochurePdf={pdfUrl}
         dataScience={true}
         // EMI POPUPDATA
@@ -128,7 +129,7 @@ const SecondPart = ({
       {/* <NewProjectSection
         dataScience={true}
         titleCourse="Data Science & AI for BFSI Professionals"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf"
         projectSection={projectSection}
         interstedInHide={true}
       /> */}

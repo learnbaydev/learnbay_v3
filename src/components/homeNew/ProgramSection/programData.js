@@ -95,9 +95,9 @@ export const programCards = [
     eligibilitytitle: " Program Certification :",
     eligibility: "From Learnbay and partnered companies",
     brochureUrl:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data-Analytics-and-Business-Analytics-with-GenAI-Master-Certification-Programv1.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Master+Certification+Program_comprv1.pdf",
     pdfUrl:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-and-Business-Analytics-with-GenAI-Master-Certification-Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Master+Certification+Program_compr.pdf",
     projects: "Projects:",
     readyfor: "Certification from Industry Leader",
     theme: "violet",

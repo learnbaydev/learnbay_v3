@@ -74,7 +74,8 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Advance-AI-ML-v1.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -193,14 +194,14 @@ export default function Home() {
           <FeeSection
             Fee="₹ 1,15,000"
             FeeEmi="₹ 7,539/ Month"
-           weekdaybatch="Weekend Batch"
-        weekendbatch="Weekday Batch"
-        weekday="SAT - SUN"
-        weekend="MON - THU"
-        WeekdayDate="19th Jan"
-        WeekendDate="3rd Jan"
-        WeekendTime="8:00 PM - 10:30 PM"
-        WeekdayTime="9:30 AM - 1 PM"
+            weekdaybatch="Weekend Batch"
+            weekendbatch="Weekday Batch"
+            weekday="SAT - SUN"
+            weekend="MON - THU"
+            WeekdayDate="19th Jan"
+            WeekendDate="3rd Jan"
+            WeekendTime="8:00 PM - 10:30 PM"
+            WeekdayTime="9:30 AM - 1 PM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
             FeeContent5="10 days refund policy"
@@ -208,7 +209,7 @@ export default function Home() {
             dataScienceCounselling={true}
             dataScience={true}
             titleCourse="AI & ML Program for tech professionals"
-            brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf"
+            brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf"
             brochurePdf={pdfUrl}
             interstedInHide={true}
             // <EMI POPUP

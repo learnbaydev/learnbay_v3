@@ -337,7 +337,7 @@ export const DataScienceCourseData = [
     SyllabusBotlist45: " Big Data & Spark Analytics",
     SyllabusBotlist46: "Big Data & Spark Analytics",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
     JobHead1: " ",
     MasterJobBot1:
       "In today’s tech era, we offer the best online data science courses with premium career gains. Experts joining any of the courses will equip themselves with alluring job offers from the leading MNCs. All the eligible learners with at least 70% score in tasks can avail of our job assist program.        ",

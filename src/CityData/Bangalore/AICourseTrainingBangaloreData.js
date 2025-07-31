@@ -933,7 +933,7 @@ export const DataScienceCourseData = [
     SyllabusBotlist45: "Deployment (AWS+Azure)",
     SyllabusBotlist46: "Model Training and Evaluation",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf",
     JobBot1:
       "Learnbay Artificial intelligence program in Bangalore ensures guaranteed placement assistance. Learnbay’s guides and mentors build your resume and portfolio and also refer your profiles so that you get a interview calls. Other than the placement assistance AI course, even in other courses, you get at least the promise of assured AI job interviews in Bangalore.",
     JobHead2:

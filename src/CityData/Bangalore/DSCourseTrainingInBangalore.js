@@ -507,8 +507,8 @@ export const DSBangaloreCourseData = [
           {
             id: 0,
             ques: "What are Data Science Training courses available at Learnbay in Bangalore?",
-            ans:"Foundational Data Science Training Course, Advance Data Science Certification Course, Data Science Certification Course for Managers and Leaders, Data Science Training with Placement Assistance",
-          
+            ans: "Foundational Data Science Training Course, Advance Data Science Certification Course, Data Science Certification Course for Managers and Leaders, Data Science Training with Placement Assistance",
+
             open: true,
           },
           {
@@ -856,7 +856,7 @@ export const DSBangaloreCourseData = [
     SyllabusBotlist45: " Big Data & Spark Analytics",
     SyllabusBotlist46: "Big Data & Spark Analytics",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
     JobHead1:
       "Data science job assistance and Data Science Interview preparation in Bangalore.",
     JobBot1:
