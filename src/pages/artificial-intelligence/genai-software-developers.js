@@ -61,7 +61,7 @@ import HighlightsSection from "@/components/CoursePage/FirstPart/Support_noimage
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI-Developer-Master-Certification-sw-dev-v1.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/GenAI+Developer+Master+Certification+Program.pdf";
 
   let soonDate = getDSABookingSoonDate();
   let laterDate = getDSABookingLaterDate();
@@ -193,12 +193,12 @@ const NewDSA = ({ DSADataJson }) => {
           descrption={NewDSAData[0].header[0].descrption}
           svgDSA={NewDSAData[0].header[0].svgDSA}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI-Developer-Master-Certification-sw-dev.pdf"
+          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+Developer+Master+Certification+Programv1.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
         <AlumniCompanies
-          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI-Developer-Master-Certification-sw-dev.pdf"
+          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+Developer+Master+Certification+Programv1.pdf"
           brochurePdf={pdfUrl}
         />
         <LearningToPlacement time="130" guided="40" />

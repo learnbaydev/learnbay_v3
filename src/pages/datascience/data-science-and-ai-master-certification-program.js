@@ -64,7 +64,7 @@ import ToolsCovered from "@/components/CoursePage/ToolsCovered/ToolsCovered";
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-Master-certification.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+GenAI+Master+Certification+Program+(1)_compressed.pdf";
   let soonDate = getDSABookingSoonDate();
   let laterDate = getDSABookingLaterDate();
   // console.log(getDSABookingSoonDate(new Date('2023-03-24')));
@@ -194,12 +194,12 @@ const NewDSA = ({ DSADataJson }) => {
           descrption={NewDSAData[0].header[0].descrption}
           svgDSA={NewDSAData[0].header[0].svgDSA}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-Master-certification.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+GenAI+Master+Certification+Program+(1)_compressedv1.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
         <AlumniCompanies
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-Master-certification.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+GenAI+Master+Certification+Program+(1)_compressedv1.pdf"
           brochurePdf={pdfUrl}
         />
         <LearningToPlacement time="370" guided="60" />
@@ -221,7 +221,7 @@ const NewDSA = ({ DSADataJson }) => {
           dataScience={true}
           interstedInHide={true}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-Master-certification.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+GenAI+Master+Certification+Program+(1)_compressedv1.pdf"
           brochurePdf={pdfUrl}
         />
         <Other />
@@ -230,7 +230,7 @@ const NewDSA = ({ DSADataJson }) => {
           dataScience={true}
           interstedInHide={true}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AI-Master-certification.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data+Science+and+GenAI+Master+Certification+Program+(1)_compressedv1.pdf"
           brochurePdf={pdfUrl}
           downloadBrochure={true}
         />

@@ -66,7 +66,7 @@ import HighlightsSection from "@/components/CoursePage/FirstPart/Support_noimage
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cloud-and-Devops-Engineering-Master-certification.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Cloud+and+Devops+Engineering+Master+Certification+(1)_compressed.pdf";
 
   let soonDate = getDSABookingSoonDate();
   let laterDate = getDSABookingLaterDate();
@@ -178,7 +178,7 @@ const NewDSA = ({ DSADataJson }) => {
           }}
         />
       </Head>
-        <main>
+      <main>
         <Navbar
           popup={true}
           dataScienceCounselling={true}
@@ -197,12 +197,12 @@ const NewDSA = ({ DSADataJson }) => {
           descrption={NewDSAData[0].header[0].descrption}
           svgDSA={NewDSAData[0].header[0].svgDSA}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-Master-certificationv1.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud+and+Devops+Engineering+Master+Certification+(1)_compressedv1.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
         <AlumniCompanies
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-Master-certificationv1.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud+and+Devops+Engineering+Master+Certification+(1)_compressedv1.pdf"
           brochurePdf={pdfUrl}
         />
         <LearningToPlacement time="380" guided="40" />
@@ -232,7 +232,7 @@ const NewDSA = ({ DSADataJson }) => {
           dataScience={true}
           interstedInHide={true}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-Master-certificationv1.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud+and+Devops+Engineering+Master+Certification+(1)_compressedv1.pdf"
           brochurePdf={pdfUrl}
           downloadBrochure={true}
         />

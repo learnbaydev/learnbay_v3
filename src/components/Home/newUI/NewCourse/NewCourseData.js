@@ -482,9 +482,9 @@ export const courses = {
       image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/fullstack.webp",
       link: "/fullstack/full-stack-software-development",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full-Stack-Software-Development-Master-Certification-Programv1.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressedv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Full-Stack-Software-Development-Master-Certification-Program.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressed.pdf",
     },
     {
       title: "Cloud Computing & DevOps Certification Program",
@@ -808,9 +808,9 @@ export const courses = {
       image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/fullstack.webp",
       link: "/fullstack/full-stack-software-development",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full-Stack-Software-Development-Master-Certification-Programv1.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressedv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Full-Stack-Software-Development-Master-Certification-Program.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressed.pdf",
     },
 
     {
@@ -963,9 +963,9 @@ export const courses = {
       image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/genai.webp",
       link: "/artificial-intelligence/genai-software-developers",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI-Developer-Master-Certification-sw-dev.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+Developer+Master+Certification+Programv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI-Developer-Master-Certification-sw-dev-v1.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/GenAI+Developer+Master+Certification+Program.pdf",
     },
     {
       title: "Generative AI and Agentic AI for Managers & Leaders",
@@ -975,9 +975,9 @@ export const courses = {
       image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/genaisw.webp",
       link: "/artificial-intelligence/generative-ai-for-managers",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Generative-AI-and-Agentic-AI-for-Managers-%26-Leadersv1.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressedv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Generative-AI-and-Agentic-AI-for-Managers-%26-Leaders.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressed.pdf",
     },
   ],
   CyberSecurity: [
@@ -1049,9 +1049,9 @@ export const certificationCourses = [
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
     link: "/artificial-intelligence/genai-software-developers",
     brochureLinks:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI-Developer-Master-Certification-sw-dev.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+Developer+Master+Certification+Programv1.pdf",
     brochurePdfs:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI-Developer-Master-Certification-sw-dev-v1.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/GenAI+Developer+Master+Certification+Program.pdf",
   },
   {
     title: "GenAI & Agentic AI for Mangers and Leaders",
@@ -1071,9 +1071,9 @@ export const certificationCourses = [
     ],
     link: "/artificial-intelligence/generative-ai-for-managers",
     brochureLinks:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Generative-AI-and-Agentic-AI-for-Managers-%26-Leaders.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressed.pdf",
     brochurePdfs:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Generative-AI-and-Agentic-AI-for-Managers-%26-Leaders.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressed.pdf",
     imageSrc: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Part_II.webp",
     logoSrc:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",

@@ -42,9 +42,9 @@ export const programCards = [
     secondeligibilitytitle: " Interview Preparation",
     readyfor: "Get Job Ready For",
     brochureUrl:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full-Stack-Software-Development-Master-Certification-Programv1.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressedv1.pdf",
     pdfUrl:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Full-Stack-Software-Development-Master-Certification-Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressed.pdf",
     theme: "purple",
     logo: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+2673.webp",
     icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+2369.webp",
@@ -69,9 +69,9 @@ export const programCards = [
     secondeligibilitytitle: "personalized job calls",
     readyfor: "Be an Expert Using",
     brochureUrl:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-Master-certificationv1.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud+and+Devops+Engineering+Master+Certification+(1)_compressedv1.pdf",
     pdfUrl:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cloud-and-Devops-Engineering-Master-certification.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Cloud+and+Devops+Engineering+Master+Certification+(1)_compressed.pdf",
     projects: "Projects:",
     theme: "green",
     logo: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+2682+(1).webp",
