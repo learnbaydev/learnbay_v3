@@ -54,7 +54,8 @@ const SecondPart = ({
   // };
   // console.log(popupData);
 
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Advanced-Data-Sciences.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf";
   return (
     <div>
       <LJourney />
@@ -64,7 +65,7 @@ const SecondPart = ({
         dataScience={true}
         interstedInHide={true}
         titleCourse="Advanced Data Science and AI Program with domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf"
         brochurePdf={pdfUrl}
         buttonHide={true}
       />
@@ -98,7 +99,7 @@ const SecondPart = ({
         dataScience={true}
         interstedInHide={true}
         titleCourse="Advanced Data Science and AI Program with domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf"
         brochurePdf={pdfUrl}
         projectSection={projectSection}
       />

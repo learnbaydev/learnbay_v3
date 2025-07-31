@@ -5,8 +5,6 @@ import { BsBank } from "react-icons/bs";
 import { FaUsers } from "react-icons/fa";
 import { FaTruckRampBox } from "react-icons/fa6";
 
-
-
 export const ThirdSectionData = [
   {
     id: 1,
@@ -15,7 +13,8 @@ export const ThirdSectionData = [
     para: "Designed for executive-level BFSI professionals, accountant.",
     brochureLink:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf",
-      brochurePdf:"https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/BFSI.pdf",
+    brochurePdf:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_compr.pdf",
   },
   {
     id: 1,
@@ -24,16 +23,18 @@ export const ThirdSectionData = [
     para: "For pharmacists, therapists, health administrators, etc.",
     brochureLink:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf",
-      brochurePdf:"https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Healthcare-Pharma-and-Clinical-Research-domain.pdf",
+    brochurePdf:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Healthcare-Pharma-and-Clinical-Research-domain.pdf",
   },
   {
     id: 1,
-    icon: <FaTruckRampBox/>,
+    icon: <FaTruckRampBox />,
     heading: "Supply Chain",
     para: " For retail, e-commerce & supplychain professionals.",
     brochureLink:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf",
-      brochurePdf:"https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Retail-Ecommerce-supply-domai.pdf",
+    brochurePdf:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Retail-Ecommerce-supply-domai.pdf",
   },
   {
     id: 1,
@@ -42,7 +43,8 @@ export const ThirdSectionData = [
     para: "For production manager, quality control inspector and engineers.",
     brochureLink:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf",
-      brochurePdf:"https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Manufacturing.pdf",
+    brochurePdf:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Manufacturing.pdf",
   },
 ];
 export const BAThirdSectionData = [
@@ -53,9 +55,10 @@ export const BAThirdSectionData = [
     para: "Designed for executive-level BFSI professionals, accountant.",
     brochureLink:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf",
-      brochurePdf:"https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/BFSI.pdf",
+    brochurePdf:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_compr.pdf",
   },
- 
+
   {
     id: 2,
     icon: <AiOutlineFundProjectionScreen />,
@@ -63,7 +66,8 @@ export const BAThirdSectionData = [
     para: "Designed for marketing researchers and professionals.",
     brochureLink:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales%2C+Marketing+and+HR+Domain.pdf",
-      brochurePdf:"https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/marketing-analytics.pdf",
+    brochurePdf:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/marketing-analytics.pdf",
   },
   {
     id: 3,
@@ -72,7 +76,7 @@ export const BAThirdSectionData = [
     para: "For recruiters and talent acquisition professionals,",
     brochureLink:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Sales%2C+Marketing+and+HR+Domain.pdf",
-      brochurePdf:"https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/hr-analytics.pdf",
+    brochurePdf:
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/hr-analytics.pdf",
   },
- 
 ];

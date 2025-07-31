@@ -527,7 +527,7 @@ export const DSDhakaCourseData = [
     SyllabusBotlist45: " Big Data & Spark Analytics",
     SyllabusBotlist46: "Big Data & Spark Analytics",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
 
     JobBot50:
       "The emerging data science trends anticipate a competitive career graph with profitable growth options. Working pros interested in diving deep into data science career options, can join our data science training institute in Dhaka. Yet, experts often miss the chance to appear in trending job interviews or fail to crack them with good results. Unlike generic courses, our leading-edge data science certificate programs offer a 100% job and placement guide. It guides you to craft a compelling career path with captivating data science jobs worldwide.",

@@ -63,8 +63,8 @@ const SecondPart = ({
         dataScience={true}
         interstedInHide={true}
         titleCourse="Data Science & AI Certification Program For Managers and Leaders"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
-        brochurePdf="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-science-ai-for-managers-v1.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_compv1.pdf"
+        brochurePdf="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_comp.pdf"
         buttonHide={true}
       />
       <ToolsCovered />
@@ -97,8 +97,8 @@ const SecondPart = ({
         dataScience={true}
         interstedInHide={true}
         titleCourse="Data Science & AI Certification Program For Managers and Leaders"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf"
-        brochurePdf="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-science-ai-for-managers-v1.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_compv1.pdf"
+        brochurePdf="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_comp.pdf"
         projectSection={projectSection}
       />
 

@@ -133,7 +133,8 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Advanced-Data-Sciences.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf";
   return (
     <>
       <FirstSection
@@ -143,7 +144,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         dataScience={true}
         titleCourse="Advanced Data Science & AI Program with Domain Specialization"
         cityParaCont="Gain work experience with real projects & domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf"
         brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Adv-dsai-_1_-min.webp"
         firstToparaImg="and Generative AI Program"
@@ -163,7 +164,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       <SecondNavbar
         interstedInHide={true}
         dataScience={true}
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf"
         brochurePdf={pdfUrl}
         titleCourse="Advance Data Science & AI Program with Domain Specialization"
       />
@@ -189,7 +190,7 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         dataScience={true}
         interstedInHide={true}
         titleCourse="Advance Data Science & AI Program with Domain Specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf"
         brochurePdf={pdfUrl}
       />
     </>

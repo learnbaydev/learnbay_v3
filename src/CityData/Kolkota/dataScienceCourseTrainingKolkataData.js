@@ -475,7 +475,7 @@ export const DSKolkotaCourseData = [
     SyllabusBotlist45: " Big Data & Spark Analytics",
     SyllabusBotlist46: "Big Data & Spark Analytics",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
 
     JobHead1:
       "What crucial technical skills can you acquire with Learnbay’s best data science course in Kolkata?         ",

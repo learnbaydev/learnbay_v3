@@ -34,7 +34,7 @@ export const courseDetails = [
             tagHead: "For Project Managers/Team Leads",
             tag: "Data science",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_compv1.pdf",
             titleCourse:
               "Data Science & AI Certification Program For Managers and Leaders",
             para: [
@@ -44,7 +44,7 @@ export const courseDetails = [
             ],
             link1: "/datascience/data-science-ai-for-managers",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_compv1.pdf",
           },
           {
             id: 12,
@@ -73,7 +73,7 @@ export const courseDetails = [
             tagHead: "For BFSI Professionals",
             tag: "Data science",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
             titleCourse:
               "Data Science & AI Certification Program for BFSI Professionals",
             para: [
@@ -83,7 +83,7 @@ export const courseDetails = [
             ],
             link1: "/datascience/data-science-for-bfsi-professional",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
           },
         ],
       },
@@ -126,7 +126,7 @@ export const courseDetailsM = [
             tagHead: "For Project Managers/Team Leads",
             tag: "Data science",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_compv1.pdf",
             titleCourse:
               "Data Science & AI Certification Program For Managers and Leaders",
             para: [
@@ -136,7 +136,7 @@ export const courseDetailsM = [
             ],
             link1: "/datascience/data-science-ai-for-managers",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_compv1.pdf",
           },
           {
             id: 12,
@@ -165,7 +165,7 @@ export const courseDetailsM = [
             tagHead: "For BFSI Professionals",
             tag: "Data science",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
             titleCourse:
               "Data Science & AI Certification Program for BFSI Professionals",
             para: [
@@ -175,7 +175,7 @@ export const courseDetailsM = [
             ],
             link1: "/datascience/data-science-for-bfsi-professional",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
           },
         ],
       },

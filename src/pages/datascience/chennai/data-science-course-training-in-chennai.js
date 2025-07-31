@@ -75,7 +75,8 @@ export default function Home() {
     fetchPopup();
   }, []);
 
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Advanced-Data-Sciences.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -159,7 +160,7 @@ export default function Home() {
           dataScience={true}
           interstedInHide={true}
           titleCourse="Advanced Data Science and AI Program with domain specialization"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf"
           brochurePdf={pdfUrl}
           idss="YWxTtvb3x-U"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
@@ -215,7 +216,7 @@ export default function Home() {
           <div className="CitiesRight">
             <CitiesRight
               cityTextDSChennai={true}
-  // Programvideo={[<br />, <YoutubeEmbed />]}
+              // Programvideo={[<br />, <YoutubeEmbed />]}
               DomainHead1={DataScienceChennaiCourseData[0].DomainHead1}
               DomainBot1={DataScienceChennaiCourseData[0].DomainBot1}
               DomainBot2={DataScienceChennaiCourseData[0].DomainBot2}

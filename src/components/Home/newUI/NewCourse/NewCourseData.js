@@ -37,9 +37,9 @@ export const courses = {
 
       link: "/datascience/artificial-intelligence-certification-course",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Advance-AI-ML-v1.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf",
     },
 
     {
@@ -52,9 +52,9 @@ export const courses = {
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cardss.webp",
       link: "/datascience/data-science-ai-for-managers",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_compv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-science-ai-for-managers-v1.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_comp.pdf",
     },
 
     // {
@@ -92,9 +92,9 @@ export const courses = {
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BS_Cardsss.webp",
       link: "/artificial-intelligence/generative-ai-analytics-course",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DA-BA.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_compv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/DA-BA-v1.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_comp.pdf",
     },
 
     //   {
@@ -120,7 +120,7 @@ export const courses = {
 
     //     link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
     //     brochureLinks:
-    //       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
+    //       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf",
     //     brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cloud-and-Devops-Certifications.pdf",
     //   },
 
@@ -158,8 +158,8 @@ export const courses = {
     //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cards.webp",
     //   link: "/datascience/data-science-for-bfsi-professional",
     //   brochureLinks:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
-    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/BFSI.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
+    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_compr.pdf",
     // },
 
     // {
@@ -198,8 +198,8 @@ export const courses = {
     //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cards.webp",
     //   link: "/datascience/data-science-for-bfsi-professional",
     //   brochureLinks:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
-    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/BFSI.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
+    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_compr.pdf",
     // },
   ],
 
@@ -239,9 +239,9 @@ export const courses = {
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cardss.webp",
       link: "/datascience/data-science-ai-for-managers",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_compv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-science-ai-for-managers-v1.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_comp.pdf",
     },
 
     {
@@ -266,9 +266,9 @@ export const courses = {
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cards.webp",
       link: "/datascience/data-science-for-bfsi-professional",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/BFSI.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_compr.pdf",
     },
   ],
 
@@ -455,9 +455,9 @@ export const courses = {
 
       link: "/datascience/artificial-intelligence-certification-course",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Advance-AI-ML-v1.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf",
     },
 
     {
@@ -470,9 +470,9 @@ export const courses = {
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cardss.webp",
       link: "/datascience/data-science-ai-for-managers",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+For+Managers+%26+Leaders+Learnbay.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_compv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-science-ai-for-managers-v1.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_comp.pdf",
     },
     {
       title: "Full Stack Software Development Master Certification",
@@ -482,9 +482,9 @@ export const courses = {
       image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/fullstack.webp",
       link: "/fullstack/full-stack-software-development",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full-Stack-Software-Development-Master-Certification-Programv1.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressedv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Full-Stack-Software-Development-Master-Certification-Program.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressed.pdf",
     },
     {
       title: "Cloud Computing & DevOps Certification Program",
@@ -563,9 +563,9 @@ export const courses = {
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BS_Cardsss.webp",
       link: "/artificial-intelligence/generative-ai-analytics-course",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DA-BA.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_compv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/DA-BA-v1.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_comp.pdf",
     },
     {
       title: "Data Science & Generative AI for BFSI Professionals",
@@ -576,9 +576,9 @@ export const courses = {
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cards.webp",
       link: "/datascience/data-science-for-bfsi-professional",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/BFSI.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_compr.pdf",
     },
 
     // {
@@ -624,7 +624,7 @@ export const courses = {
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/DSAI_for_Managers_and_Leaders.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-science-ai-for-managers-v1.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_comp.pdf",
     },
 
     {
@@ -649,9 +649,9 @@ export const courses = {
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cards.webp",
       link: "/datascience/data-science-for-bfsi-professional",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/BFSI.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_compr.pdf",
     },
 
     {
@@ -706,9 +706,9 @@ export const courses = {
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BS_Cardsss.webp",
       link: "/artificial-intelligence/generative-ai-analytics-course",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DA-BA.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_compv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/DA-BA-v1.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_comp.pdf",
     },
 
     {
@@ -721,9 +721,9 @@ export const courses = {
 
       link: "/datascience/artificial-intelligence-certification-course",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Advance-AI-ML-v1.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf",
     },
 
     {
@@ -737,7 +737,7 @@ export const courses = {
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/Advance_DSAI.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Advanced-Data-Sciences.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf",
     },
     // {
     //   title: "Data Science & AI Program For Freshers",
@@ -808,9 +808,9 @@ export const courses = {
       image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/fullstack.webp",
       link: "/fullstack/full-stack-software-development",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full-Stack-Software-Development-Master-Certification-Programv1.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressedv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Full-Stack-Software-Development-Master-Certification-Program.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressed.pdf",
     },
 
     {
@@ -884,7 +884,7 @@ export const courses = {
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSAI_for_Managers_and_Leaders.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-science-ai-for-managers-v1.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_comp.pdf",
     },
 
     {
@@ -909,9 +909,9 @@ export const courses = {
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cards.webp",
       link: "/datascience/data-science-for-bfsi-professional",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Certification+Program+for+BFSI+Professionals.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/BFSI.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_compr.pdf",
     },
   ],
 
@@ -963,9 +963,9 @@ export const courses = {
       image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/genai.webp",
       link: "/artificial-intelligence/genai-software-developers",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI-Developer-Master-Certification-sw-dev.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+Developer+Master+Certification+Programv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI-Developer-Master-Certification-sw-dev-v1.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/GenAI+Developer+Master+Certification+Program.pdf",
     },
     {
       title: "Generative AI and Agentic AI for Managers & Leaders",
@@ -975,9 +975,9 @@ export const courses = {
       image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/genaisw.webp",
       link: "/artificial-intelligence/generative-ai-for-managers",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Generative-AI-and-Agentic-AI-for-Managers-%26-Leadersv1.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressedv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Generative-AI-and-Agentic-AI-for-Managers-%26-Leaders.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressed.pdf",
     },
   ],
   CyberSecurity: [
@@ -1049,9 +1049,9 @@ export const certificationCourses = [
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
     link: "/artificial-intelligence/genai-software-developers",
     brochureLinks:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI-Developer-Master-Certification-sw-dev.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+Developer+Master+Certification+Programv1.pdf",
     brochurePdfs:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI-Developer-Master-Certification-sw-dev-v1.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/GenAI+Developer+Master+Certification+Program.pdf",
   },
   {
     title: "GenAI & Agentic AI for Mangers and Leaders",
@@ -1071,9 +1071,9 @@ export const certificationCourses = [
     ],
     link: "/artificial-intelligence/generative-ai-for-managers",
     brochureLinks:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Generative-AI-and-Agentic-AI-for-Managers-%26-Leaders.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressed.pdf",
     brochurePdfs:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Generative-AI-and-Agentic-AI-for-Managers-%26-Leaders.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressed.pdf",
     imageSrc: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Part_II.webp",
     logoSrc:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",

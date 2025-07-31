@@ -15,7 +15,7 @@ export const courseDetails = [
             tag: "Data science",
             tagHead: "For Tech Professionals",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf",
             titleCourse: "Advanced AI and ML Certification Program",
             para: [
               "9 months | 2 capstone projects",
@@ -24,7 +24,7 @@ export const courseDetails = [
             ],
             link1: "/datascience/artificial-intelligence-certification-course",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf",
           },
           {
             id: 2,
@@ -46,8 +46,6 @@ export const courseDetails = [
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf",
           },
-         
-      
 
           {
             id: 3,
@@ -57,7 +55,7 @@ export const courseDetails = [
             tag: "Data science",
             tagHead: "Get Job Ready Within 6 Months",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
             titleCourse: "Advance Data Science and AI Certification",
             para: [
               "7 months | 2 capstone projects",
@@ -66,7 +64,7 @@ export const courseDetails = [
             ],
             link1: "/datascience/advance-data-science-certification-courses",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
           },
           {
             id: 4,
@@ -180,7 +178,7 @@ export const courseDetailsM = [
             tag: "Data science",
             tagHead: "For Tech Professionals",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf",
             titleCourse: "Advanced AI and ML Certification Program",
             para: [
               "9 months | 2 capstone projects",
@@ -189,7 +187,7 @@ export const courseDetailsM = [
             ],
             link1: "/datascience/artificial-intelligence-certification-course",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf",
           },
           {
             id: 2,
@@ -211,7 +209,6 @@ export const courseDetailsM = [
             link2:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Certification+Program.pdf",
           },
-         
 
           {
             id: 3,
@@ -221,7 +218,7 @@ export const courseDetailsM = [
             tag: "Data science",
             tagHead: "Get Job Ready Within 6 Months",
             brochureLinks:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
             titleCourse: "Advance Data Science and AI Certification",
             para: [
               "7 months | 2 capstone projects",
@@ -230,7 +227,7 @@ export const courseDetailsM = [
             ],
             link1: "/datascience/advance-data-science-certification-courses",
             link2:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
           },
           {
             id: 4,
@@ -297,7 +294,6 @@ export const courseDetailsM = [
           },
         ],
       },
-     
 
       {
         courseName: "Master's Degree",

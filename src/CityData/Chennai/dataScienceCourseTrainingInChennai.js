@@ -851,7 +851,7 @@ export const DataScienceChennaiCourseData = [
     SyllabusBotlist45: " Big Data & Spark Analytics",
     SyllabusBotlist46: "Big Data & Spark Analytics",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
     JobHead1:
       "Interview preparation in Learnbay’s IBM data science courses in Chennai",
     JobBot1:

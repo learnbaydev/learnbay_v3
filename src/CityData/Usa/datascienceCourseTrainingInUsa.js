@@ -520,7 +520,7 @@ export const DSUSACourseData = [
     SyllabusBotlist45: " Big Data & Spark Analytics",
     SyllabusBotlist46: "Big Data & Spark Analytics",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
     JobHead1:
       "What Job-oriented skills will you gain with Data Science Courses in USA?         ",
     Joblist1: "In-detailed learning of data tools, trends, and basics        ",

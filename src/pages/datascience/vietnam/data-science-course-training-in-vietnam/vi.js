@@ -216,7 +216,7 @@ export default function Home() {
           dataScience={true}
           interstedInHide={true}
           titleCourse="Các khóa học về khoa học dữ liệu tốt nhất tại Việt Nam"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf"
           idss="YWxTtvb3x-U"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
           firstHeading="Các khóa học về khoa học dữ liệu tốt nhất tại Việt Nam"

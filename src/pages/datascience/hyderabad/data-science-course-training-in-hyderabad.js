@@ -35,8 +35,8 @@ const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
-
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Advanced-Data-Sciences.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -127,7 +127,7 @@ export default function Home() {
           dataScience={true}
           interstedInHide={true}
           titleCourse="Advanced Data Science and AI Program with domain specialization"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf"
           brochurePdf={pdfUrl}
           idss="YWxTtvb3x-U"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
@@ -147,14 +147,14 @@ export default function Home() {
           <FeeSection
             Fee="₹1,35,000"
             FeeEmi="₹8,850/month"
-           weekdaybatch="Weekend Batch"
-        weekendbatch="Weekday Batch"
-        weekday="SAT - SUN"
-        weekend="MON - THU"
-        WeekdayDate="23rd Feb"
-        WeekendDate="14th Feb"
-        WeekendTime="8:00 PM - 10:30 PM"
-        WeekdayTime="9:30 AM - 1 PM"
+            weekdaybatch="Weekend Batch"
+            weekendbatch="Weekday Batch"
+            weekday="SAT - SUN"
+            weekend="MON - THU"
+            WeekdayDate="23rd Feb"
+            WeekendDate="14th Feb"
+            WeekendTime="8:00 PM - 10:30 PM"
+            WeekdayTime="9:30 AM - 1 PM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
             FeeContent5="10 days refund policy"
@@ -214,12 +214,22 @@ export default function Home() {
               CertificationBot2={
                 DataScienceHyderabadCourseData[0].CertificationBot2
               }
-              CertificationBot3={DataScienceHyderabadCourseData[0].CertificationBot3}
-              CertificationBot4={DataScienceHyderabadCourseData[0].CertificationBot4}
+              CertificationBot3={
+                DataScienceHyderabadCourseData[0].CertificationBot3
+              }
+              CertificationBot4={
+                DataScienceHyderabadCourseData[0].CertificationBot4
+              }
               listsCertificate={true}
-              Certificationlist1={DataScienceHyderabadCourseData[0].Certificationlist1}
-              Certificationlist2={DataScienceHyderabadCourseData[0].Certificationlist2}
-              Certificationlist3={DataScienceHyderabadCourseData[0].Certificationlist3}
+              Certificationlist1={
+                DataScienceHyderabadCourseData[0].Certificationlist1
+              }
+              Certificationlist2={
+                DataScienceHyderabadCourseData[0].Certificationlist2
+              }
+              Certificationlist3={
+                DataScienceHyderabadCourseData[0].Certificationlist3
+              }
               src={DataScienceHyderabadCourseData[0].src}
               src22={DataScienceHyderabadCourseData[0].src22}
               src33={DataScienceHyderabadCourseData[0].src33}
@@ -324,7 +334,6 @@ export default function Home() {
               Joblist4={DataScienceHyderabadCourseData[0].Joblist4}
               Joblist5={DataScienceHyderabadCourseData[0].Joblist5}
               Joblist6={DataScienceHyderabadCourseData[0].Joblist6}
-
               Joblist50={DataScienceHyderabadCourseData[0].Joblist50}
               ProjectsHead1={DataScienceHyderabadCourseData[0].ProjectsHead1}
               ProjectsBot1={DataScienceHyderabadCourseData[0].ProjectsBot1}

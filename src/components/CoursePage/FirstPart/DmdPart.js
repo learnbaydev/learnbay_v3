@@ -97,7 +97,8 @@ const DmdPart = ({ CertificateData, S3RightImage, projectSection }) => {
       url: "https://www.business-standard.com/content/press-releases-ani/learnbay-collaborates-with-woolf-to-launch-master-s-degree-in-computer-science-data-science-specializations-123112000350_1.html",
     },
   ];
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cloud-and-Devops-Certifications.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cloud-and-Devops-Certifications.pdf";
   return (
     <div>
       <FirstSection
@@ -145,7 +146,7 @@ const DmdPart = ({ CertificateData, S3RightImage, projectSection }) => {
       <NewProjectSection
         interstedInHide={true}
         titleCourse="Advanced Data Science and AI Program with domain specialization"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf"
         brochurePdf={pdfUrl}
         projectSection={projectSection}
         DomainInput={true}

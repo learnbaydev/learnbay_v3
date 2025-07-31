@@ -94,7 +94,8 @@ export default function Home() {
     "Deep Learning",
     "SQL for Data Science",
   ];
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Advanced-Data-Sciences.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_comp.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -275,7 +276,7 @@ export default function Home() {
           dataScience={true}
           interstedInHide={true}
           titleCourse="Advanced Data Science and AI Program with domain specialization"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf"
           brochurePdf={pdfUrl}
           idss="YWxTtvb3x-U"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
@@ -292,13 +293,13 @@ export default function Home() {
             Fee="₹1,35,000"
             FeeEmi="₹8,850/month"
             weekdaybatch="Weekday Batch"
-        weekendbatch="  Weekend Batch"
-        weekday="MON - THU"
-        weekend="SAT - SUN"
-        WeekdayDate="14th Feb"
-        WeekendDate="23rd Feb"
-        WeekendTime="9:30 AM - 1 PM"
-        WeekdayTime="8:00 PM - 10:30 PM "
+            weekendbatch="  Weekend Batch"
+            weekday="MON - THU"
+            weekend="SAT - SUN"
+            WeekdayDate="14th Feb"
+            WeekendDate="23rd Feb"
+            WeekendTime="9:30 AM - 1 PM"
+            WeekdayTime="8:00 PM - 10:30 PM "
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
             FeeContent5="10 days refund policy"
@@ -327,8 +328,7 @@ export default function Home() {
           <div className="CitiesRight">
             <CitiesRight
               cityText={true}
-              Programvideo={[<br />, <YoutubeEmbed/>]}
-
+              Programvideo={[<br />, <YoutubeEmbed />]}
               DomainHead1={DSBangaloreCourseData[0].DomainHead1}
               DomainBot1={DSBangaloreCourseData[0].DomainBot1}
               DomainBot2={DSBangaloreCourseData[0].DomainBot2}

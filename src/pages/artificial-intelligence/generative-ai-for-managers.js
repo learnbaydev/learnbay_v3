@@ -61,7 +61,7 @@ import HighlightsSection from "@/components/CoursePage/FirstPart/Support_noimage
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Generative-AI-and-Agentic-AI-for-Managers-%26-Leaders.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressed.pdf";
 
   let soonDate = getDSABookingSoonDate();
   let laterDate = getDSABookingLaterDate();
@@ -193,12 +193,12 @@ const NewDSA = ({ DSADataJson }) => {
           descrption={NewDSAData[0].header[0].descrption}
           svgDSA={NewDSAData[0].header[0].svgDSA}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Generative-AI-and-Agentic-AI-for-Managers-%26-Leadersv1.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressedv1.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
         <AlumniCompanies
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Generative-AI-and-Agentic-AI-for-Managers-%26-Leadersv1.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressedv1.pdf"
           brochurePdf={pdfUrl}
         />
         <LearningToPlacement time="130" guided="40" />
@@ -223,7 +223,7 @@ const NewDSA = ({ DSADataJson }) => {
           dataScienceCounselling={true}
           dataScience={true}
           titleCourse=""
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Generative-AI-and-Agentic-AI-for-Managers-%26-Leadersv1.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressedv1.pdf"
           brochurePdf={pdfUrl}
           buttonHide={true}
           interstedInHide={true}

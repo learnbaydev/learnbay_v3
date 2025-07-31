@@ -896,7 +896,7 @@ export const DataScienceHyderabadCourseData = [
     SyllabusBotlist45: " Big Data & Spark Analytics",
     SyllabusBotlist46: "Big Data & Spark Analytics",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advanced+Data+Science+%26+AI++Certification+Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf",
     JobBot1:
       "Hyderabad’s job market outlook reflects a constantly changing space for working experts to acquire proven skills and grow. Its established tech space accepts skilled experts with the talent to face data-driven intricacies. Hence, experts prefer learning despite costly data science course fees in Hyderabad. Yet, joining a course with 100% job support is worth investing in for experts with stagnant salaries and positions. ",
     JobBot2:
@@ -911,20 +911,23 @@ export const DataScienceHyderabadCourseData = [
 
     JobBot7:
       "Despite the data science course in Hyderabad fee structure learners prefer constant upskilling and reskilling for its career support services. Our Career Services PRO will offer you the following job-enriched perks –",
-      Joblist1:"Three years of career support with access to interviews and learning materials",
-      Joblist2:"Six 1:1 mock interviews with tied-up MNCs",
-      Joblist3:"Resume Making",
-      Joblist4:"LinkedIn profiling",
-      Joblist5:"1:1 doubt-clearing sessions with reliable mentors",
-      Joblist6:"Unlimited job calls from top MNCs",
-          ProjectsHead1: "",
+    Joblist1:
+      "Three years of career support with access to interviews and learning materials",
+    Joblist2: "Six 1:1 mock interviews with tied-up MNCs",
+    Joblist3: "Resume Making",
+    Joblist4: "LinkedIn profiling",
+    Joblist5: "1:1 doubt-clearing sessions with reliable mentors",
+    Joblist6: "Unlimited job calls from top MNCs",
+    ProjectsHead1: "",
     ProjectsBot1:
       "Today’s data-driven age inspires working pros to overcome static careers via upskilling. The data science domain is ever-changing, with new practices to lift business growth and yields. Hence, experts willing to kick-start data science careers in Hyderabad must undergo an upskilling program. Joining the best data science institutes in Hyderabad can ease your learning process. ",
     ProjectsBot2:
       "In the interim, Learnbay presents a career-driven data scientist course in Hyderabad with real-time learning. Hands-on learning of critical data science trends and practices can enrich career worth and optimize success metrics. Here, learners can choose best-suited projects following their domain expertise and career goals to escalate success chances. ",
-      ProjectsBot31:"Our industry-specific best data science courses in Hyderabad engage learners with cutting-edge upskilling. Working on real-time projects helps experts gain industry insights and tackle tough cases tactfully. We offer projects in our career-focused domain electives (Manufacturing, Technology, Consulting, Healthcare, BFSI, Retail). Experts can choose a best-suited domain and work on live projects accordingly to attain proven success. ",
-      ProjectsBot32:"If you’re willing to revamp your career paths with notable success, join our data science course in Hyderabad today. ",
-      src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
+    ProjectsBot31:
+      "Our industry-specific best data science courses in Hyderabad engage learners with cutting-edge upskilling. Working on real-time projects helps experts gain industry insights and tackle tough cases tactfully. We offer projects in our career-focused domain electives (Manufacturing, Technology, Consulting, Healthcare, BFSI, Retail). Experts can choose a best-suited domain and work on live projects accordingly to attain proven success. ",
+    ProjectsBot32:
+      "If you’re willing to revamp your career paths with notable success, join our data science course in Hyderabad today. ",
+    src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",
     alt2: "Samsung Logo",
     ProjectsH1: "Samsung Health Monitor App",
     Projectsp1:

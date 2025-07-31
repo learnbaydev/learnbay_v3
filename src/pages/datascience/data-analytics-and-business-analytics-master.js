@@ -63,7 +63,7 @@ import HighlightsSection from "@/components/CoursePage/newUICourse/Support/Highl
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-and-Business-Analytics-with-GenAI-Master-Certification-Program.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Master+Certification+Program_compr.pdf";
 
   let soonDate = getDSABookingSoonDate();
   let laterDate = getDSABookingLaterDate();
@@ -208,12 +208,12 @@ data and business analytics master certification"
           descrption={NewDSAData[0].header[0].descrption}
           svgDSA={NewDSAData[0].header[0].svgDSA}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data-Analytics-and-Business-Analytics-with-GenAI-Master-Certification-Programv1.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Master+Certification+Program_comprv1.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
         <AlumniCompanies
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data-Analytics-and-Business-Analytics-with-GenAI-Master-Certification-Programv1.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Master+Certification+Program_comprv1.pdf"
           brochurePdf={pdfUrl}
         />
         <LearningToPlacement time="240" guided="40" />
@@ -236,7 +236,7 @@ data and business analytics master certification"
           dataScience={true}
           interstedInHide={true}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data-Analytics-and-Business-Analytics-with-GenAI-Master-Certification-Programv1.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Master+Certification+Program_comprv1.pdf"
           brochurePdf={pdfUrl}
         />
         <Other />
@@ -245,7 +245,7 @@ data and business analytics master certification"
           dataScience={true}
           interstedInHide={true}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data-Analytics-and-Business-Analytics-with-GenAI-Master-Certification-Programv1.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Master+Certification+Program_comprv1.pdf"
           brochurePdf={pdfUrl}
           downloadBrochure={true}
         />

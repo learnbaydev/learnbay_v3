@@ -79,7 +79,7 @@ const DABASecondPart = ({
     fetchPopup();
   }, []);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/DA-BA-v1.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_comp.pdf";
   return (
     <div>
       <LJourney />
@@ -88,7 +88,7 @@ const DABASecondPart = ({
         dataScienceCounselling={true}
         dataScience={true}
         titleCourse="Business Analytics Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DA-BA.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_compv1.pdf"
         brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}
@@ -121,7 +121,7 @@ const DABASecondPart = ({
       {/* <NewProjectSection
         dataScience={true}
         titleCourse="Business Analytics Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DA-BA.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_compv1.pdf"
         brochurePdf={pdfUrl}
         projectSection={projectSection}
         interstedInHide={true}

@@ -128,7 +128,8 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
     },
   };
 
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Advance-AI-ML-v1.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf";
   return (
     <>
       <Navbar dataScienceCounselling={true} interstedInHide={true} />
@@ -140,7 +141,7 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
         SecondTyped="Capstone Project Certificate"
         ThirdTyped="Live Interactive Classes"
         titleCourse="AI & ML Program for tech professionals"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf"
         brochurePdf={pdfUrl}
         idss="KcQfbuwJBmU"
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ai-ml-main.webp"
@@ -165,7 +166,7 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
       {/* <SecondSection SecondSectionData={SecondSectionData} /> */}
       <SecondNavbar
         titleCourse="AI & ML Program for tech professionals"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf"
         brochurePdf={pdfUrl}
         interstedInHide={true}
         dataScience={true}
@@ -189,7 +190,7 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
       <GetHire />
       <ContactConsellor
         titleCourse="AI & ML Program for tech professionals"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf"
         brochurePdf={pdfUrl}
         interstedInHide={true}
         dataScience={true}

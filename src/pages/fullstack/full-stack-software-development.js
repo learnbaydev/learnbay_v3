@@ -64,7 +64,7 @@ import FullStackSecondSection from "@/components/CoursePage/FullStackSecondSecti
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Full-Stack-Software-Development-Master-Certification-Program.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressed.pdf";
 
   let soonDate = getDSABookingSoonDate();
   let laterDate = getDSABookingLaterDate();
@@ -201,12 +201,12 @@ full stack software development training"
           descrption={NewDSAData[0].header[0].descrption}
           svgDSA={NewDSAData[0].header[0].svgDSA}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full-Stack-Software-Development-Master-Certification-Programv1.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressedv1.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
         <AlumniCompanies
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full-Stack-Software-Development-Master-Certification-Programv1.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressedv1.pdf"
           brochurePdf={pdfUrl}
         />
         <LearningToPlacement time="350" guided="350" fullstack="true" />
@@ -229,7 +229,7 @@ full stack software development training"
           dataScience={true}
           interstedInHide={true}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full-Stack-Software-Development-Master-Certification-Programv1.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressedv1.pdf"
           brochurePdf={pdfUrl}
         />
         {/* <Other  /> */}
@@ -238,7 +238,7 @@ full stack software development training"
           dataScience={true}
           interstedInHide={true}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full-Stack-Software-Development-Master-Certification-Programv1.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressedv1.pdf"
           brochurePdf={pdfUrl}
           downloadBrochure={true}
         />
