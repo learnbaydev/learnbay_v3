@@ -73,15 +73,17 @@ const NewDSA = ({ DSADataJson }) => {
   return (
     <>
       <Head>
-        <title>Best Data Science & AI Online Course - Learnbay</title>
+        <title>
+          Data Science & GenAI Master Certification Program - Learnbay
+        </title>
         <meta
           name="description"
-          content="Become a data science expert. Join Learnbay’s AI Master Certification Program. Gain expertise, elevate your skills, and grow your career."
+          content="Enhance your career with Learnbay's Data Science & GenAI Master Certification. Develop your skills through live training, hands-on projects, and more. Join now!"
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="data science and ai course, advanced data science course, data science and ai, ai and data science course, artificial intelligence and data science course, advanced certification in data science and ai"
+          content="data science master certification, data science and genAI master certification program, data science and genAI master program, data science and generative AI master certification course, generative AI and data science master certification, data science and generative AI, generative ai and data science , data science and generative ai course"
         />
         {/* <!-- Facebook Meta Tags --> */}
         <meta
@@ -91,11 +93,11 @@ const NewDSA = ({ DSADataJson }) => {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Best Data Science & AI Online Course - Learnbay"
+          content="Data Science & GenAI Master Certification Program | Learnbay"
         />
         <meta
           property="og:description"
-          content="Become a data science expert. Join Learnbay’s AI Master Certification Program. Gain expertise, elevate your skills, and grow your career."
+          content="Enhance your career with Learnbay's Data Science & GenAI Master Certification. Develop your skills through live training, hands-on projects, and more. Join now!"
         />
         <meta
           property="og:image"
@@ -113,11 +115,11 @@ const NewDSA = ({ DSADataJson }) => {
         />
         <meta
           name="twitter:title"
-          content="Best Data Science and AI Master Certification Program Online"
+          content="Data Science & GenAI Master Certification Program | Learnbay"
         />
         <meta
           name="twitter:description"
-          content="Unleash your potential with the best online Data Science and AI Master Certification Program. Elevate your skills, gain expertise, and propel your career."
+          content="Enhance your career with Learnbay’s Data Science & GenAI Master Certification. Develop your skills through live training, hands-on projects, and more. Join now!"
         />
         <meta
           name="twitter:image"
@@ -137,12 +139,12 @@ const NewDSA = ({ DSADataJson }) => {
             __html: `{
       "@context": "http://schema.org",
   "@type": "Course",
-  "name": "Advance data science and AI Certification",
-  "description": "Our Advance Data Science and AI Course brings you a wide knowledge of Data Science and AI and helps you to make precise data-driven decisions.",
-  "url": "https://www.learnbay.co/datascience/advance-data-science-certification-courses",
+  "name": "Data Science and GenAI Master Certification Program",
+  "description": "The Data Science and Generative AI Master Certification Program equips you with in-demand skills in data science, machine learning, and GenAI to solve real-world business problems through hands-on projects and expert-led training.",
+"url": "https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program",
   "offers": {
     "@type": "offer",
-    "price": "125000",
+    "price": "159000",
     "pricecurrency": "INR",
     "category": "Educational"
   },
@@ -151,20 +153,21 @@ const NewDSA = ({ DSADataJson }) => {
         "name": "Learnbay",
         "Url": "https://www.learnbay.co/"
       },
-  "coursePrerequisites": "There are no prerequisites for Advanced Data Science and AI Program, as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-Programmers.",
+  "coursePrerequisites": "There are no prerequisites for the Data Science and GenAI Master Certification Program, as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-Programmers.",
   "hasCourseInstance": [
     {
       "@type": "CourseInstance",
       "courseMode": "Online",
-      "courseWorkload": "P10W",
+      "courseWorkload": "P13M",
       "courseFee": {
         "@type": "PriceSpecification",
-        "price": "₹ 1,25,000 + 18% GST",
+        "price": "₹ 1,59,000 + 18% GST",
         "priceCurrency": "INR"
       }
     }
   ]
-    }`,
+          }}
+`,
           }}
         />
 

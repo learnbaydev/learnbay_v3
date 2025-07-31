@@ -139,7 +139,7 @@ export default function Home() {
         <link rel="canonical" href="https://www.learnbay.co/" />
         <meta
           name="keywords"
-          content="Learnbay Training Institute, Learnbay Data Science, Best Training Institute, Classroom Training, online Training, best institute for cloud computing,best online learning platform for technology, best it training institute, best institute for data analyst course, best institute for data science course"
+          content="Learnbay Training Institute, Learnbay Data Science, Best Training Institute, Classroom Training, online Training, best institute for cloud computing, best online learning platform for technology, best it training institute, best institute for data analyst course, best institute for data science course"
         />
         <link
           rel="icon"
@@ -159,6 +159,38 @@ export default function Home() {
             as="image"
           />
         )}
+
+        <meta property="og:url" content="https://www.learnbay.co" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Online IT Certification Courses and Professional Programs"
+        />
+        <meta
+          property="og:description"
+          content="Enhance your skills with Learnbay's comprehensive online courses and master programs and achieve your professional goals. Enroll Now!"
+        />
+        <meta
+          property="og:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
+        <meta name="twitter:site" content="@Learnbay" />
+        <meta name="twitter:creator" content="@Learnbay" />
+        <meta property="twitter:url" content="https://www.learnbay.co" />
+        <meta
+          name="twitter:title"
+          content="Online IT Certification Courses and Professional Programs"
+        />
+        <meta
+          name="twitter:description"
+          content="Enhance your skills with Learnbay's comprehensive online courses and master programs and achieve your professional goals. Enroll Now!"
+        />
+        <meta
+          name="twitter:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
+        />
 
         <script
           type="application/ld+json"

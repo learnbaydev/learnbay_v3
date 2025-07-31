@@ -312,19 +312,19 @@ export const courses = {
       brochurePdfs:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cloud-and-Devops-Certifications.pdf",
     },
-    {
-      title: "Professional Certificate in AWS Cloud Computing & Devops",
-      duration: "18 months | 3 Capstone Project",
-      certification: "Project Certification form IBM",
-      description: "Designed by industry experts",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws2.webp",
-      link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
-      brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AWS.pdf",
-    },
+    // {
+    //   title: "Professional Certificate in AWS Cloud Computing & Devops",
+    //   duration: "18 months | 3 Capstone Project",
+    //   certification: "Project Certification form IBM",
+    //   description: "Designed by industry experts",
+    //   image:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws2.webp",
+    //   link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+    //   brochureLinks:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
+    //   brochurePdfs:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AWS.pdf",
+    // },
     // {
     //   title: "Software Development Certification",
     //   duration: "11 months | 4 Projects",
@@ -581,20 +581,20 @@ export const courses = {
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/BFSI.pdf",
     },
 
-    {
-      title: "Professional Certificate in AWS Cloud Computing & Devops",
-      duration: "18 months | 3 Capstone Project",
-      certification: "Project Certification form IBM",
-      description: "Designed by industry experts",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws2.webp",
+    // {
+    //   title: "Professional Certificate in AWS Cloud Computing & Devops",
+    //   duration: "18 months | 3 Capstone Project",
+    //   certification: "Project Certification form IBM",
+    //   description: "Designed by industry experts",
+    //   image:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws2.webp",
 
-      link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
-      brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AWS.pdf",
-    },
+    //   link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+    //   brochureLinks:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
+    //   brochurePdfs:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AWS.pdf",
+    // },
 
     // {
     //   title: "Software Development Certification",
@@ -841,20 +841,20 @@ export const courses = {
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cloud-and-Devops-Certifications.pdf",
     },
 
-    {
-      title: "Professional Certificate in AWS Cloud Computing & Devops",
-      duration: "18 months | 3 Capstone Project",
-      certification: "Project Certification form IBM",
-      description: "Designed by industry experts",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws2.webp",
+    // {
+    //   title: "Professional Certificate in AWS Cloud Computing & Devops",
+    //   duration: "18 months | 3 Capstone Project",
+    //   certification: "Project Certification form IBM",
+    //   description: "Designed by industry experts",
+    //   image:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws2.webp",
 
-      link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
-      brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AWS.pdf",
-    },
+    //   link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+    //   brochureLinks:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
+    //   brochurePdfs:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AWS.pdf",
+    // },
 
     // {
     //   title: "Software Development Certification",

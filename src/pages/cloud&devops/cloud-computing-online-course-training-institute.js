@@ -10,14 +10,12 @@ function CloudAndDevOpsCoursePage({ CloudAndDevOpsCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>
-        Advanced Certification in Cloud Computing  - Learnbay
-        </title>
+        <title>Advanced Certification in Cloud Computing - Learnbay</title>
         <meta
           name="description"
           content="Elevate your skills with our Advanced Cloud Computing and DevOps Certification. Gain expertise in cutting-edge technologies to streamline development and enhance cloud-based solutions. Future-proof your career today!"
         />
-        
+
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
@@ -31,8 +29,6 @@ function CloudAndDevOpsCoursePage({ CloudAndDevOpsCourseDataJson }) {
           rel="canonical"
           href="https://www.learnbay.co/cloud&devops/cloud-computing-online-course-training-institute"
         />
-
-       
       </Head>
       <main>
         <Navbar dataScienceCounselling={true} />
