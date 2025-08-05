@@ -71,51 +71,60 @@ const NewDSA = ({ DSADataJson }) => {
   return (
     <>
       <Head>
-        <title>Best Data Science & AI Online Course - Learnbay</title>
+        <title>GenAI Professional Certification for Managers - Learnbay</title>
         <meta
           name="description"
-          content="Become a data science expert. Join Learnbay’s AI Master Certification Program. Gain expertise, elevate your skills, and grow your career."
+          content="A specialized Course in GenAI & Agentic AI for Managers to explore modules in Prompt Engineering, LangChain, & Workflow Automation. Start Learning now."
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="data science and ai course, advanced data science course, data science and ai, ai and data science course, artificial intelligence and data science course, advanced certification in data science and ai"
+          content="generative AI and Agentic AI for managers, 
+generative AI and Agentic AI for leaders,
+generative AI for managers & leaders,
+Agentic AI for managers & leaders,
+Agentic AI for leaders,
+Generative AI for leaders,
+Agentic AI Course for managers,
+Agentic AI Course for leaders,
+generative AI certification for managers & leaders,
+Agentic AI certification for managers & leaders
+
+"
         />
         {/* <!-- Facebook Meta Tags --> */}
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program"
+          content="https://www.learnbay.co/artificial-intelligence/generative-ai-for-managers"
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Best Data Science & AI Online Course - Learnbay"
+          content="GenAI Professional Certification for Managers - Learnbay"
         />
         <meta
           property="og:description"
-          content="Become a data science expert. Join Learnbay’s AI Master Certification Program. Gain expertise, elevate your skills, and grow your career."
+          content="A specialized Course in GenAI & Agentic AI for Managers to explore modules in Prompt Engineering, LangChain, & Workflow Automation. Start Learning now."
         />
         <meta
           property="og:image"
           content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
         />
-
-        {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="learnbay.co" />
         <meta name="twitter:site" content="@Learnbay" />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program"
+          content="https://www.learnbay.co/artificial-intelligence/generative-ai-for-managers"
         />
         <meta
           name="twitter:title"
-          content="Best Data Science and AI Master Certification Program Online"
+          content="GenAI Professional Certification for Managers - Learnbay"
         />
         <meta
           name="twitter:description"
-          content="Unleash your potential with the best online Data Science and AI Master Certification Program. Elevate your skills, gain expertise, and propel your career."
+          content="A specialized Course in GenAI & Agentic AI for Managers to explore modules in Prompt Engineering, LangChain, & Workflow Automation. Start Learning now."
         />
         <meta
           name="twitter:image"
@@ -126,46 +135,51 @@ const NewDSA = ({ DSADataJson }) => {
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
         <link
+          rel="icon"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
+        />
+        <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program"
+          href="https://www.learnbay.co/artificial-intelligence/generative-ai-for-managers"
         />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `{
-      "@context": "http://schema.org",
+     {
+  "@context": "http://schema.org",
   "@type": "Course",
-  "name": "Advance data science and AI Certification",
-  "description": "Our Advance Data Science and AI Course brings you a wide knowledge of Data Science and AI and helps you to make precise data-driven decisions.",
-  "url": "https://www.learnbay.co/datascience/advance-data-science-certification-courses",
+  "name": "GenAI Professional Certification for Managers - Learnbay",
+  "description": "A specialized Course in GenAI & Agentic AI for Managers to explore modules in Prompt Engineering, LangChain, & Workflow Automation. Start Learning now.",
+  "url": "https://www.learnbay.co/artificial-intelligence/generative-ai-for-managers",
   "offers": {
     "@type": "offer",
-    "price": "125000",
+    "price": "95000",
     "pricecurrency": "INR",
     "category": "Educational"
   },
-   "provider": {
-        "@type": "Organization",
-        "name": "Learnbay",
-        "Url": "https://www.learnbay.co/"
-      },
-  "coursePrerequisites": "There are no prerequisites for Advanced Data Science and AI Program, as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-Programmers.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Learnbay",
+    "url": "https://www.learnbay.co/"
+  },
+  "coursePrerequisites": "You should know about Python, Machine Learning, & basic Deep Learning before joining the program.",
   "hasCourseInstance": [
     {
       "@type": "CourseInstance",
       "courseMode": "Online",
-      "courseWorkload": "P10W",
+      "courseWorkload": "P17W",
       "courseFee": {
         "@type": "PriceSpecification",
-        "price": "₹ 1,25,000 + 18% GST",
+        "price": "₹ 95,000 + 18% GST",
         "priceCurrency": "INR"
       }
     }
   ]
+}
     }`,
           }}
         />
-
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
