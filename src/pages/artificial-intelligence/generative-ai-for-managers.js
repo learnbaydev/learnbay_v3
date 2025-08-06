@@ -146,7 +146,6 @@ Agentic AI certification for managers & leaders
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `{
-     {
   "@context": "http://schema.org",
   "@type": "Course",
   "name": "GenAI Professional Certification for Managers - Learnbay",
@@ -174,9 +173,9 @@ Agentic AI certification for managers & leaders
         "price": "₹ 95,000 + 18% GST",
         "priceCurrency": "INR"
       }
-    }
+    } 
   ]
-}
+
     }`,
           }}
         />
