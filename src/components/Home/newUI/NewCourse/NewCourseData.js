@@ -121,7 +121,7 @@ export const courses = {
     //     link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
     //     brochureLinks:
     //       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf",
-    //     brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cloud-and-Devops-Certifications.pdf",
+    //     brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf",
     //   },
 
     //   {
@@ -295,9 +295,9 @@ export const courses = {
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cloud_Gens.webp",
       link: "/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IIT-cloud-devops.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/IIT+cloud+and+devops_compressed.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/IIT-cloud-devops.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/IIT+cloud+and+devops__.pdf",
     },
     {
       title: "Cloud Computing & DevOps Certification Program",
@@ -308,9 +308,9 @@ export const courses = {
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws.webp",
       link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cloud-and-Devops-Certifications.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf",
     },
     // {
     //   title: "Professional Certificate in AWS Cloud Computing & Devops",
@@ -496,9 +496,9 @@ export const courses = {
 
       link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cloud-and-Devops-Certifications.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf",
     },
 
     // {
@@ -822,9 +822,9 @@ export const courses = {
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cloud_Gens.webp",
       link: "/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IIT-cloud-devops.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/IIT+cloud+and+devops_compressed.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/IIT-cloud-devops.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/IIT+cloud+and+devops__.pdf",
     },
     {
       title: "Cloud Computing & DevOps Certification Program",
@@ -836,9 +836,9 @@ export const courses = {
 
       link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cloud-and-Devops-Certifications.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf",
     },
 
     // {
@@ -951,9 +951,9 @@ export const courses = {
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cloud_Gens.webp",
       link: "/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IIT-cloud-devops.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/IIT+cloud+and+devops_compressed.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/IIT-cloud-devops.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/IIT+cloud+and+devops__.pdf",
     },
     {
       title: "Generative AI and Agentic AI for Software Developers",

@@ -203,7 +203,7 @@ export const CloudAndDevOpsCourseData = [
 
     Certificate: [
       {
-        id: 2,
+        id: 1,
         topnav: "Microsoft",
         img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/solution_arch.webp",
         img2: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/MFundamentals.webp",
@@ -212,6 +212,19 @@ export const CloudAndDevOpsCourseData = [
         para1: ["Solution Architect Expert"],
         para2: ["Azure Fundamentals"],
         para3: ["Administrator Associate"],
+      },
+      {
+        id: 2,
+        topnav: "Cloud & DevOps",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud%26devops.webp",
+        title: "Cloud & DevOps Certification",
+        width: 300,
+        height: 270,
+        para: [
+          "Earn an IBM Cloud & DevOps Certification, proving your skills in cloud infrastructure, CI/CD, and automation.",
+          "This globally recognized credential highlights your expertise to top tech employers.",
+          "Build the confidence to lead cloud-native projects and streamline delivery.",
+        ],
       },
     ],
 
@@ -689,8 +702,6 @@ export const CloudAndDevOpsCourseData = [
           open: false,
         },
       },
-
-     
     ],
     faq: [
       {

@@ -135,7 +135,8 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
       alt: "Banner Image 1 Alt",
     },
   };
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cloud-and-Devops-Certifications.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf";
   return (
     <>
       <FirstSection
@@ -145,7 +146,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
         dataScience={true}
         titleCourse="Advanced Cloud Computing & DevOps Certification Program"
         cityParaCont="Elevate your career to a Cloud Solution Architect or DevOps Engineer"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf"
         brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-first-devops-min.webp"
         firstToparaImg=" Certification Program"
@@ -171,7 +172,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
         <SecondNavbar
           // interstedInHide={true}
           dataScience={true}
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf"
           brochurePdf={pdfUrl}
           titleCourse="Advance Data Science & AI Program with Domain Specialization"
         />
@@ -203,7 +204,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
           dataScience={true}
           // interstedInHide={true}
           titleCourse="Advance Data Science & AI Program with Domain Specialization"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf"
           brochurePdf={pdfUrl}
         />
       )}

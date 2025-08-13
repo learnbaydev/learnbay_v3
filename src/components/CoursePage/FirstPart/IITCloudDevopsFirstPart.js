@@ -57,7 +57,7 @@ const IITCloudDevopsFirstPart = ({ summaryData, whyChooseData }) => {
     },
   };
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/IIT-cloud-Devops.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/IIT+cloud+and+devops_p.pdf";
   return (
     <div>
       <Navbar
@@ -70,7 +70,7 @@ const IITCloudDevopsFirstPart = ({ summaryData, whyChooseData }) => {
         dataScience={true}
         titleCourse="Executive Certification in Cloud and Devops"
         cityParaCont=""
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/IIT-cloud-Devops.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/IIT+cloud+and+devops_prog.pdf"
         brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/fullhead.webp"
         firstToparaImg="Cloud and Devops"
@@ -112,7 +112,7 @@ const IITCloudDevopsFirstPart = ({ summaryData, whyChooseData }) => {
       <ContactConsellor
         GenAi={true}
         titleCourse="Data Structure Algorithms & System Design"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/IIT-cloud-Devops.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/IIT+cloud+and+devops_prog.pdf"
         brochurePdf={pdfUrl}
         dataScience={true}
         interstedInHide={true}
