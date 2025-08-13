@@ -34,7 +34,8 @@ const CitiesRight = dynamic(() =>
 const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
 
 export default function Home() {
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cloud-and-Devops-Certifications.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -137,7 +138,7 @@ export default function Home() {
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           titleCourse="Best Online Cloud Computing Course in Pune"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf"
           dataScience={true}
           interstedInHide={true}
           brochurePdf={pdfUrl}
@@ -204,7 +205,6 @@ export default function Home() {
               src={CloudComputingTrainingInPune[0].src}
               src22={CloudComputingTrainingInPune[0].src22}
               src33={CloudComputingTrainingInPune[0].src33}
-
               ModuleHead1={CloudComputingTrainingInPune[0].ModuleHead1}
               ModuleBot1={CloudComputingTrainingInPune[0].ModuleBot1}
               ModuleBot2={CloudComputingTrainingInPune[0].ModuleBot2}
@@ -216,7 +216,6 @@ export default function Home() {
               list4={CloudComputingTrainingInPune[0].list4}
               list5={CloudComputingTrainingInPune[0].list5}
               list6={CloudComputingTrainingInPune[0].list6}
-
               syllabush1={CloudComputingTrainingInPune[0].syllabush1}
               syllabusb1={CloudComputingTrainingInPune[0].syllabusb1}
               SyllabusBotlist11={
@@ -298,7 +297,6 @@ export default function Home() {
                 CloudComputingTrainingInPune[0].SyllabusBotlist46
               }
               syllabussrc={CloudComputingTrainingInPune[0].syllabussrc}
-
               JobHead1={CloudComputingTrainingInPune[0].JobHead1}
               JobBot1={CloudComputingTrainingInPune[0].JobBot1}
               JobBot2={CloudComputingTrainingInPune[0].JobBot2}
@@ -345,7 +343,6 @@ export default function Home() {
               src4={CloudComputingTrainingInPune[0].src4}
               ProjectsH4={CloudComputingTrainingInPune[0].ProjectsH4}
               Projectsp4={CloudComputingTrainingInPune[0].Projectsp4}
-
               AlumniBot1={CloudComputingTrainingInPune[0].AlumniBot1}
               AlumniBot2={CloudComputingTrainingInPune[0].AlumniBot2}
               Asrc1={CloudComputingTrainingInPune[0].Asrc1}

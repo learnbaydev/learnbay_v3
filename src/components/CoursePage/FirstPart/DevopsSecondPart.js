@@ -74,7 +74,8 @@ const SecondPart = ({
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cloud-and-Devops-Certifications.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf";
   return (
     <div style={{ marginTop: "50px" }}>
       <SyllabusNew
@@ -83,7 +84,7 @@ const SecondPart = ({
         dataScience={true}
         // interstedInHide={interstedInHide}
         titleCourse="Cloud Computing & DevOps Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf"
         brochurePdf={pdfUrl}
         buttonHide={true}
         onlyGENAIPage={true}
@@ -94,7 +95,7 @@ const SecondPart = ({
       <DSAFeeSection
         devopfee={devopfee}
         adsHide={adsHide}
-        Fee=" ₹ 80,000"
+        Fee=" ₹ 90,000"
         FeeEmi="₹ 5,244/month"
         weekdaybatch="Weekday Batch"
         weekendbatch="Weekend Batch"
@@ -112,7 +113,7 @@ const SecondPart = ({
         // interstedInHide={interstedInHide}
         dataScience={true}
         titleCourse="Cloud Computing & DevOps Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf"
         brochurePdf={pdfUrl}
         // <EMI POPUP
         emiType="NO COST EMI"
@@ -132,7 +133,7 @@ const SecondPart = ({
       <DevOpsProject
         adsHide={adsHide}
         titleCourse="Cloud Computing & DevOps Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf"
         brochurePdf={pdfUrl}
         dataScience={true}
         data={projectSection}

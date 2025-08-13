@@ -530,7 +530,7 @@ export const CloudComputingTrainingInPune = [
     SyllabusBotlist45: "Performance Optimization in Splunk",
     SyllabusBotlist46: "Splunk for Cloud Services",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf",
     JobHead1:
       "What job-driven skills can techies gain from the best cloud computing training institute in Pune?",
     JobBotA: (
@@ -616,8 +616,15 @@ export const CloudComputingTrainingInPune = [
       "Techies opting for our best cloud computing training institute in Pune can work with 10+ real-time projects to master AWS, Azure, Docker, etc tools. It helps techies decode real-time use of cloud-based tools and build a thriving career. Working on live projects helps techies tackle real-world issues and validate their skills.",
     ProjectsBot5: (
       <span>
-        Also, Learnbay’s <a href="https://www.learnbay.co/cloud&devops/cloud-computing-and-devOps-certification-program" style={{color:"#0072bc"}} target="_blank">Cloud Computing & DevOps Certification Program </a> endorses
-        your skill sets with IBM and Microsoft credentials and ensures
+        Also, Learnbay’s{" "}
+        <a
+          href="https://www.learnbay.co/cloud&devops/cloud-computing-and-devOps-certification-program"
+          style={{ color: "#0072bc" }}
+          target="_blank"
+        >
+          Cloud Computing & DevOps Certification Program{" "}
+        </a>{" "}
+        endorses your skill sets with IBM and Microsoft credentials and ensures
         global-level success. If you’re a tech expert keen to revamp your
         career, join our front-age cloud courses.
       </span>

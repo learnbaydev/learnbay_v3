@@ -35,7 +35,8 @@ const IITCloudDevopsSecondPart = ({
 }) => {
   // console.log(popupData);
 
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/IIT-cloud-devops.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/IIT+cloud+and+devops__.pdf";
   return (
     <div>
       <LJourney />
@@ -45,7 +46,7 @@ const IITCloudDevopsSecondPart = ({
         dataScienceCounselling={true}
         dataScience={true}
         titleCourse="Software Development Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IIT-cloud-devops.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/IIT+cloud+and+devops_compressed.pdf"
         brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}
@@ -58,7 +59,7 @@ const IITCloudDevopsSecondPart = ({
       {/* <NewCertificateSection certificateNew={certificateNew} /> */}
 
       <DSAFeeSection
-        Fee="₹1,10,000"
+        Fee="₹1,20,000"
         FeeEmi="₹ 7,211/month"
         weekendbatch="Weekend Evening"
         weekdaybatch="Weekday Evening"
@@ -78,8 +79,6 @@ const IITCloudDevopsSecondPart = ({
         duration2="12 Months"
         totalAmount2="₹1,10,000"
         monthlyPayment2="₹10,816"
-
-
         dataScienceCounselling={true}
         iitGuwatiGen={true}
         interstedInHide={true}
@@ -101,7 +100,7 @@ const IITCloudDevopsSecondPart = ({
         FeeContent6="No additional cost"
         dataScienceCounselling={true}
         titleCourse="Software Development Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/IIT-cloud-devops.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/IIT+cloud+and+devops_compressed.pdf"
         brochurePdf={pdfUrl}
         dataScience={true}
         interstedInHide={true}

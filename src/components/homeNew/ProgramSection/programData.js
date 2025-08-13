@@ -69,9 +69,9 @@ export const programCards = [
     secondeligibilitytitle: "personalized job calls",
     readyfor: "Be an Expert Using",
     brochureUrl:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud+and+Devops+Engineering+Master+Certification+(1)_compressedv1.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud+and+Devops+Engineering+Master+Certification_prog.pdf",
     pdfUrl:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Cloud+and+Devops+Engineering+Master+Certification+(1)_compressed.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud+and+Devops+Engineering+Master+Certification_p.pdf",
     projects: "Projects:",
     theme: "green",
     logo: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+2682+(1).webp",

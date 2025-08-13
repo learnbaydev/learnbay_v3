@@ -34,7 +34,8 @@ const CitiesRight = dynamic(() =>
 const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
 
 export default function Home() {
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cloud-and-Devops-Certifications.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -141,7 +142,7 @@ export default function Home() {
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           titleCourse="Best Institute For DevOps Course in Bangalore"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf"
           dataScience={true}
           interstedInHide={true}
           brochurePdf={pdfUrl}
@@ -191,57 +192,49 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-            cityTextDevopsBangalore={true}
-            ProgramHead1={DevOpsCourseInBangalore[0].ProgramHead1}
-            ProgramBot1={DevOpsCourseInBangalore[0].ProgramBot1}
-            ProgramBot2={DevOpsCourseInBangalore[0].ProgramBot2}
-            ProgramBot3={DevOpsCourseInBangalore[0].ProgramBot3}
-            ProgramBot4={DevOpsCourseInBangalore[0].ProgramBot4}
-            ProgramBot5={DevOpsCourseInBangalore[0].ProgramBot5}
-            ProgramBot6={DevOpsCourseInBangalore[0].ProgramBot6}
-            ProgramBot7={DevOpsCourseInBangalore[0].ProgramBot7}
-            ProgramBot8={DevOpsCourseInBangalore[0].ProgramBot8}
-            ProgramBot9={DevOpsCourseInBangalore[0].ProgramBot9}
-            ProgramBot10={DevOpsCourseInBangalore[0].ProgramBot10}
-            ProgramBot11={DevOpsCourseInBangalore[0].ProgramBot11}
-            ProgramBot12={DevOpsCourseInBangalore[0].ProgramBot12}
-            ProgramBot13={DevOpsCourseInBangalore[0].ProgramBot13}
-            ProgramBot14={DevOpsCourseInBangalore[0].ProgramBot14}
-            ProgramBot15={DevOpsCourseInBangalore[0].ProgramBot15}
-            ProgramBot16={DevOpsCourseInBangalore[0].ProgramBot16}
-            ProgramBot17={DevOpsCourseInBangalore[0].ProgramBot17}
-            ProgramBot18={DevOpsCourseInBangalore[0].ProgramBot18}
-            ProgramBot19={DevOpsCourseInBangalore[0].ProgramBot19}
-            ProgramBot20={DevOpsCourseInBangalore[0].ProgramBot20}
-            ProgramBot21={DevOpsCourseInBangalore[0].ProgramBot21}
-            ProgramHead2={DevOpsCourseInBangalore[0].ProgramHead2}
-            ProgramBot22={DevOpsCourseInBangalore[0].ProgramBot22}
-            ProgramBot23={DevOpsCourseInBangalore[0].ProgramBot23}
-            list10={DevOpsCourseInBangalore[0].list10}
-            list11={DevOpsCourseInBangalore[0].list11}
-            list12={DevOpsCourseInBangalore[0].list12}
-            list13={DevOpsCourseInBangalore[0].list13}
-            list14={DevOpsCourseInBangalore[0].list14}
-            list15={DevOpsCourseInBangalore[0].list15}
-            list16={DevOpsCourseInBangalore[0].list16}
-            list17={DevOpsCourseInBangalore[0].list17}
-            list18={DevOpsCourseInBangalore[0].list18}
-            list19={DevOpsCourseInBangalore[0].list19}
-            ulModule={true}
-            lis1={DevOpsCourseInBangalore[0].list1}
+              cityTextDevopsBangalore={true}
+              ProgramHead1={DevOpsCourseInBangalore[0].ProgramHead1}
+              ProgramBot1={DevOpsCourseInBangalore[0].ProgramBot1}
+              ProgramBot2={DevOpsCourseInBangalore[0].ProgramBot2}
+              ProgramBot3={DevOpsCourseInBangalore[0].ProgramBot3}
+              ProgramBot4={DevOpsCourseInBangalore[0].ProgramBot4}
+              ProgramBot5={DevOpsCourseInBangalore[0].ProgramBot5}
+              ProgramBot6={DevOpsCourseInBangalore[0].ProgramBot6}
+              ProgramBot7={DevOpsCourseInBangalore[0].ProgramBot7}
+              ProgramBot8={DevOpsCourseInBangalore[0].ProgramBot8}
+              ProgramBot9={DevOpsCourseInBangalore[0].ProgramBot9}
+              ProgramBot10={DevOpsCourseInBangalore[0].ProgramBot10}
+              ProgramBot11={DevOpsCourseInBangalore[0].ProgramBot11}
+              ProgramBot12={DevOpsCourseInBangalore[0].ProgramBot12}
+              ProgramBot13={DevOpsCourseInBangalore[0].ProgramBot13}
+              ProgramBot14={DevOpsCourseInBangalore[0].ProgramBot14}
+              ProgramBot15={DevOpsCourseInBangalore[0].ProgramBot15}
+              ProgramBot16={DevOpsCourseInBangalore[0].ProgramBot16}
+              ProgramBot17={DevOpsCourseInBangalore[0].ProgramBot17}
+              ProgramBot18={DevOpsCourseInBangalore[0].ProgramBot18}
+              ProgramBot19={DevOpsCourseInBangalore[0].ProgramBot19}
+              ProgramBot20={DevOpsCourseInBangalore[0].ProgramBot20}
+              ProgramBot21={DevOpsCourseInBangalore[0].ProgramBot21}
+              ProgramHead2={DevOpsCourseInBangalore[0].ProgramHead2}
+              ProgramBot22={DevOpsCourseInBangalore[0].ProgramBot22}
+              ProgramBot23={DevOpsCourseInBangalore[0].ProgramBot23}
+              list10={DevOpsCourseInBangalore[0].list10}
+              list11={DevOpsCourseInBangalore[0].list11}
+              list12={DevOpsCourseInBangalore[0].list12}
+              list13={DevOpsCourseInBangalore[0].list13}
+              list14={DevOpsCourseInBangalore[0].list14}
+              list15={DevOpsCourseInBangalore[0].list15}
+              list16={DevOpsCourseInBangalore[0].list16}
+              list17={DevOpsCourseInBangalore[0].list17}
+              list18={DevOpsCourseInBangalore[0].list18}
+              list19={DevOpsCourseInBangalore[0].list19}
+              ulModule={true}
+              lis1={DevOpsCourseInBangalore[0].list1}
               Programvideo={[<br />, <YoutubeVideo />]}
-              CertificationBot1={
-                DevOpsCourseInBangalore[0].CertificationBot1
-              }
-              CertificationBot2={
-                DevOpsCourseInBangalore[0].CertificationBot2
-              }
-              CertificationBot3={
-                DevOpsCourseInBangalore[0].CertificationBot3
-              }
-              CertificationBot4={
-                DevOpsCourseInBangalore[0].CertificationBot4
-              }
+              CertificationBot1={DevOpsCourseInBangalore[0].CertificationBot1}
+              CertificationBot2={DevOpsCourseInBangalore[0].CertificationBot2}
+              CertificationBot3={DevOpsCourseInBangalore[0].CertificationBot3}
+              CertificationBot4={DevOpsCourseInBangalore[0].CertificationBot4}
               src={DevOpsCourseInBangalore[0].src}
               src22={DevOpsCourseInBangalore[0].src22}
               src33={DevOpsCourseInBangalore[0].src33}
@@ -260,111 +253,63 @@ export default function Home() {
               list9={DevOpsCourseInBangalore[0].list9}
               syllabush1={DevOpsCourseInBangalore[0].syllabush1}
               syllabusb1={DevOpsCourseInBangalore[0].syllabusb1}
-              SyllabusBotlist11={
-                DevOpsCourseInBangalore[0].SyllabusBotlist11
-              }
-              SyllabusBotlist12={
-                DevOpsCourseInBangalore[0].SyllabusBotlist12
-              }
-              SyllabusBotlist13={
-                DevOpsCourseInBangalore[0].SyllabusBotlist13
-              }
-              SyllabusBotlist14={
-                DevOpsCourseInBangalore[0].SyllabusBotlist14
-              }
-              SyllabusBotlist15={
-                DevOpsCourseInBangalore[0].SyllabusBotlist15
-              }
-              SyllabusBotlist16={
-                DevOpsCourseInBangalore[0].SyllabusBotlist16
-              }
+              SyllabusBotlist11={DevOpsCourseInBangalore[0].SyllabusBotlist11}
+              SyllabusBotlist12={DevOpsCourseInBangalore[0].SyllabusBotlist12}
+              SyllabusBotlist13={DevOpsCourseInBangalore[0].SyllabusBotlist13}
+              SyllabusBotlist14={DevOpsCourseInBangalore[0].SyllabusBotlist14}
+              SyllabusBotlist15={DevOpsCourseInBangalore[0].SyllabusBotlist15}
+              SyllabusBotlist16={DevOpsCourseInBangalore[0].SyllabusBotlist16}
               syllabush2={DevOpsCourseInBangalore[0].syllabush2}
               syllabusb2={DevOpsCourseInBangalore[0].syllabusb2}
-              SyllabusBotlist21={
-                DevOpsCourseInBangalore[0].SyllabusBotlist21
-              }
-              SyllabusBotlist22={
-                DevOpsCourseInBangalore[0].SyllabusBotlist22
-              }
-              SyllabusBotlist23={
-                DevOpsCourseInBangalore[0].SyllabusBotlist23
-              }
-              SyllabusBotlist24={
-                DevOpsCourseInBangalore[0].SyllabusBotlist24
-              }
-              SyllabusBotlist25={
-                DevOpsCourseInBangalore[0].SyllabusBotlist25
-              }
-              SyllabusBotlist26={
-                DevOpsCourseInBangalore[0].SyllabusBotlist26
-              }
+              SyllabusBotlist21={DevOpsCourseInBangalore[0].SyllabusBotlist21}
+              SyllabusBotlist22={DevOpsCourseInBangalore[0].SyllabusBotlist22}
+              SyllabusBotlist23={DevOpsCourseInBangalore[0].SyllabusBotlist23}
+              SyllabusBotlist24={DevOpsCourseInBangalore[0].SyllabusBotlist24}
+              SyllabusBotlist25={DevOpsCourseInBangalore[0].SyllabusBotlist25}
+              SyllabusBotlist26={DevOpsCourseInBangalore[0].SyllabusBotlist26}
               syllabush3={DevOpsCourseInBangalore[0].syllabush3}
               syllabusb3={DevOpsCourseInBangalore[0].syllabusb3}
-              SyllabusBotlist31={
-                DevOpsCourseInBangalore[0].SyllabusBotlist31
-              }
-              SyllabusBotlist32={
-                DevOpsCourseInBangalore[0].SyllabusBotlist32
-              }
-              SyllabusBotlist33={
-                DevOpsCourseInBangalore[0].SyllabusBotlist33
-              }
-              SyllabusBotlist34={
-                DevOpsCourseInBangalore[0].SyllabusBotlist34
-              }
-              SyllabusBotlist35={
-                DevOpsCourseInBangalore[0].SyllabusBotlist35
-              }
-              SyllabusBotlist36={
-                DevOpsCourseInBangalore[0].SyllabusBotlist36
-              }
+              SyllabusBotlist31={DevOpsCourseInBangalore[0].SyllabusBotlist31}
+              SyllabusBotlist32={DevOpsCourseInBangalore[0].SyllabusBotlist32}
+              SyllabusBotlist33={DevOpsCourseInBangalore[0].SyllabusBotlist33}
+              SyllabusBotlist34={DevOpsCourseInBangalore[0].SyllabusBotlist34}
+              SyllabusBotlist35={DevOpsCourseInBangalore[0].SyllabusBotlist35}
+              SyllabusBotlist36={DevOpsCourseInBangalore[0].SyllabusBotlist36}
               syllabush4={DevOpsCourseInBangalore[0].syllabush4}
               syllabusb4={DevOpsCourseInBangalore[0].syllabusb4}
-              SyllabusBotlist41={
-                DevOpsCourseInBangalore[0].SyllabusBotlist41
-              }
-              SyllabusBotlist42={
-                DevOpsCourseInBangalore[0].SyllabusBotlist42
-              }
-              SyllabusBotlist43={
-                DevOpsCourseInBangalore[0].SyllabusBotlist43
-              }
-              SyllabusBotlist44={
-                DevOpsCourseInBangalore[0].SyllabusBotlist44
-              }
-              SyllabusBotlist45={
-                DevOpsCourseInBangalore[0].SyllabusBotlist45
-              }
-              SyllabusBotlist46={
-                DevOpsCourseInBangalore[0].SyllabusBotlist46
-              }
+              SyllabusBotlist41={DevOpsCourseInBangalore[0].SyllabusBotlist41}
+              SyllabusBotlist42={DevOpsCourseInBangalore[0].SyllabusBotlist42}
+              SyllabusBotlist43={DevOpsCourseInBangalore[0].SyllabusBotlist43}
+              SyllabusBotlist44={DevOpsCourseInBangalore[0].SyllabusBotlist44}
+              SyllabusBotlist45={DevOpsCourseInBangalore[0].SyllabusBotlist45}
+              SyllabusBotlist46={DevOpsCourseInBangalore[0].SyllabusBotlist46}
               syllabussrc={DevOpsCourseInBangalore[0].syllabussrc}
               JobHead1={DevOpsCourseInBangalore[0].JobHead1}
-            //   JobBot1={DevOpsCourseInBangalore[0].JobBot1}
-            //   JobBot2={DevOpsCourseInBangalore[0].JobBot2}
+              //   JobBot1={DevOpsCourseInBangalore[0].JobBot1}
+              //   JobBot2={DevOpsCourseInBangalore[0].JobBot2}
               JobHead2={DevOpsCourseInBangalore[0].JobHead2}
               JobBot3={DevOpsCourseInBangalore[0].JobBot3}
               JobBot4={DevOpsCourseInBangalore[0].JobBot4}
-            //   JobHead3={DevOpsCourseInBangalore[0].JobHead3}
-            //   JobBot7={DevOpsCourseInBangalore[0].JobBot7}
+              //   JobHead3={DevOpsCourseInBangalore[0].JobHead3}
+              //   JobBot7={DevOpsCourseInBangalore[0].JobBot7}
               JobHead4={DevOpsCourseInBangalore[0].JobHead4}
-            //   JobBot8={DevOpsCourseInBangalore[0].JobBot8}
-            //   JobBot9={DevOpsCourseInBangalore[0].JobBot9}
-            //   JobHead6={DevOpsCourseInBangalore[0].JobHead6}
-            //   JobHead5={DevOpsCourseInBangalore[0].JobHead5}
-            //   JobBot11={DevOpsCourseInBangalore[0].JobBot11}
+              //   JobBot8={DevOpsCourseInBangalore[0].JobBot8}
+              //   JobBot9={DevOpsCourseInBangalore[0].JobBot9}
+              //   JobHead6={DevOpsCourseInBangalore[0].JobHead6}
+              //   JobHead5={DevOpsCourseInBangalore[0].JobHead5}
+              //   JobBot11={DevOpsCourseInBangalore[0].JobBot11}
               JobBot12={DevOpsCourseInBangalore[0].JobBot12}
               JobBot13={DevOpsCourseInBangalore[0].JobBot13}
-            //   JobBot14={DevOpsCourseInBangalore[0].JobBot14}
-            //   JobBot15={DevOpsCourseInBangalore[0].JobBot15}
+              //   JobBot14={DevOpsCourseInBangalore[0].JobBot14}
+              //   JobBot15={DevOpsCourseInBangalore[0].JobBot15}
               JobBot16={DevOpsCourseInBangalore[0].JobBot16}
-            //   JobBot17={DevOpsCourseInBangalore[0].JobBot17}
-            //   JobBot18={DevOpsCourseInBangalore[0].JobBot18}
-            //   JobBot19={DevOpsCourseInBangalore[0].JobBot19}
+              //   JobBot17={DevOpsCourseInBangalore[0].JobBot17}
+              //   JobBot18={DevOpsCourseInBangalore[0].JobBot18}
+              //   JobBot19={DevOpsCourseInBangalore[0].JobBot19}
               JobBotA={DevOpsCourseInBangalore[0].JobBotA}
-            //   JobBotB={DevOpsCourseInBangalore[0].JobBotB}
+              //   JobBotB={DevOpsCourseInBangalore[0].JobBotB}
               JobBotC={DevOpsCourseInBangalore[0].JobBotC}
-            //   JobBotD={DevOpsCourseInBangalore[0].JobBotD}
+              //   JobBotD={DevOpsCourseInBangalore[0].JobBotD}
               ProjectsHead1={DevOpsCourseInBangalore[0].ProjectsHead1}
               ProjectsBot1={DevOpsCourseInBangalore[0].ProjectsBot1}
               ProjectsBot2={DevOpsCourseInBangalore[0].ProjectsBot2}
@@ -419,4 +364,3 @@ export default function Home() {
     </div>
   );
 }
- 

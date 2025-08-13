@@ -532,9 +532,9 @@ export const DevOpsCourseInBangalore = [
     ),
     ProgramBot5: (
       <span>
-        Learnbay’s <b>DevOps course in Bangalore</b> is an eye-catcher for all aspiring
-        cloud computing pros. The syllabus aligns with recent updates and
-        inventions in the DevOps field.
+        Learnbay’s <b>DevOps course in Bangalore</b> is an eye-catcher for all
+        aspiring cloud computing pros. The syllabus aligns with recent updates
+        and inventions in the DevOps field.
       </span>
     ),
     ProgramBot6: (
@@ -581,10 +581,10 @@ export const DevOpsCourseInBangalore = [
     ),
     ProgramBot11: (
       <span>
-        The <b>best institute for DevOps in Bangalore</b> comes with hands-on training
-        that helps in upskilling. You can simultaneously gain theoretical
-        knowledge and practice those concepts with the help of capstone
-        projects.
+        The <b>best institute for DevOps in Bangalore</b> comes with hands-on
+        training that helps in upskilling. You can simultaneously gain
+        theoretical knowledge and practice those concepts with the help of
+        capstone projects.
       </span>
     ),
     ProgramBot12: (
@@ -601,11 +601,12 @@ export const DevOpsCourseInBangalore = [
         This course enables learners with cloud proficiency for the modern
         technology world. After completing the course, Learnbay works on your
         profile. It includes resume writing and LinkedIn to optimize it for fine
-        reach to recruiters. Learnbay is one of the <b>best DevOps training in
-        Bangalore</b>. Microsoft & IBM are the partners for this course. Unlike
-        other DevOps training, Learnbay believes in extensive project-based
-        learning besides theoretical concepts. This gives you a competitive
-        edge. Join our course today and build a racing career.
+        reach to recruiters. Learnbay is one of the{" "}
+        <b>best DevOps training in Bangalore</b>. Microsoft & IBM are the
+        partners for this course. Unlike other DevOps training, Learnbay
+        believes in extensive project-based learning besides theoretical
+        concepts. This gives you a competitive edge. Join our course today and
+        build a racing career.
       </span>
     ),
     ProgramBot14: (
@@ -624,16 +625,16 @@ export const DevOpsCourseInBangalore = [
     ),
     ProgramBot16: (
       <span>
-        Gain expertise with our <b>best institute for DevOps in Bangalore</b> and
-        anchor to career success & dream job. Our alliance with various
+        Gain expertise with our <b>best institute for DevOps in Bangalore</b>{" "}
+        and anchor to career success & dream job. Our alliance with various
         industries is like a solid basis beneath every footstep toward your
         goal. It promotes DevOps & cloud-effective learning.
       </span>
     ),
     ProgramBot17: (
       <span>
-        Additionally, the <b>DevOps course in Bangalore</b> gives certification from
-        IBM and Microsoft. These two tech leaders have globally recognized
+        Additionally, the <b>DevOps course in Bangalore</b> gives certification
+        from IBM and Microsoft. These two tech leaders have globally recognized
         prestige.
       </span>
     ),
@@ -661,9 +662,9 @@ export const DevOpsCourseInBangalore = [
     ),
     ProgramBot21: (
       <span>
-        <b>The DevOps institute in Bangalore</b> charges course fees that come in the
-        affordable range of INR 80,000. To make it cheap, Learnbay gives easy,
-        no-cost EMI options.
+        <b>The DevOps institute in Bangalore</b> charges course fees that come
+        in the affordable range of INR 80,000. To make it cheap, Learnbay gives
+        easy, no-cost EMI options.
       </span>
     ),
 
@@ -683,20 +684,27 @@ export const DevOpsCourseInBangalore = [
     ),
     ProgramBot23: (
       <span>
-        The accreditation of the <b>DevOps course in Bangalore</b> validates the skills
-        learned via tool usage and real-time projects. It improves their
+        The accreditation of the <b>DevOps course in Bangalore</b> validates the
+        skills learned via tool usage and real-time projects. It improves their
         reliability and employability. Key course benefits are –
       </span>
     ),
-    list10: "The course module teaches programming languages and tools usage from the start.",
-    list11: "Project Innovation lab delivers industry-based learning along with hands-on training.",
-    list12: "A globally recognized program stamps your gained abstract and practical ability worldwide.",
-    list13: "The eligibility of the program is from early to mid-career experts.",
+    list10:
+      "The course module teaches programming languages and tools usage from the start.",
+    list11:
+      "Project Innovation lab delivers industry-based learning along with hands-on training.",
+    list12:
+      "A globally recognized program stamps your gained abstract and practical ability worldwide.",
+    list13:
+      "The eligibility of the program is from early to mid-career experts.",
     list14: "It promises guaranteed interview calls.",
-    list15: "Learnbay fosters hands-on learning via various capstone and real-time projects.",
-    list16: "You get IBM project & course certification, along with a Microsoft certification.",
+    list15:
+      "Learnbay fosters hands-on learning via various capstone and real-time projects.",
+    list16:
+      "You get IBM project & course certification, along with a Microsoft certification.",
     list17: "It also offers 100% job assistance.",
-    list18: "Flexible learning via weekend & weekdays and online & offline classes.",
+    list18:
+      "Flexible learning via weekend & weekdays and online & offline classes.",
     list19: "Experienced mentors promote learning via real-life cases.",
 
     CertificationBot1: (
@@ -814,7 +822,7 @@ export const DevOpsCourseInBangalore = [
     SyllabusBotlist45: "Performance Optimization in Splunk",
     SyllabusBotlist46: "Splunk for Cloud Services",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf",
     JobHead1:
       "What proficiency do you develop with Learnbay’s best DevOps training in Bangalore?",
     JobBotA: (

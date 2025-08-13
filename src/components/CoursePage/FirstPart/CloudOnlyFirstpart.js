@@ -133,7 +133,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
         dataScience={true}
         titleCourse="Advanced Cloud Computing & DevOps Certification Program"
         cityParaCont="Accelerate technical skills and success limits in today’s tech landscape. Enroll in Learnbay’s cloud computing certification course today to ascertain global success. Upskill via industry-driven courses and land your dream roles in the emerging tech world via IBM & Microsoft Certifications.           "
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf"
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-first-devops-min.webp"
         firstToparaImg=" Course Online "
         firstHeading="Best Cloud Computing Certification        "
@@ -157,7 +157,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
         <SecondNavbar
           // interstedInHide={true}
           dataScience={true}
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf"
           titleCourse="Advance Data Science & AI Program with Domain Specialization"
         />
       )}
@@ -188,7 +188,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
           dataScience={true}
           // interstedInHide={true}
           titleCourse="Advance Data Science & AI Program with Domain Specialization"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf"
         />
       )}
     </>

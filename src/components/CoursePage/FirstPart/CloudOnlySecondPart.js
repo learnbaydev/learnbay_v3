@@ -75,7 +75,7 @@ const SecondPart = ({
         dataScience={true}
         // interstedInHide={interstedInHide}
         titleCourse="Cloud Computing & DevOps Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf"
         buttonHide={true}
       />
       <ToolsCovered devops={true} mbldevops={mbldevops} />
@@ -101,7 +101,7 @@ const SecondPart = ({
         // interstedInHide={interstedInHide}
         dataScience={true}
         titleCourse="Cloud Computing & DevOps Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf"
         // <EMI POPUP
         emiType="NO COST EMI"
         duration1="18 Months"
@@ -120,7 +120,7 @@ const SecondPart = ({
       <DevOpsProject
         adsHide={adsHide}
         titleCourse="Cloud Computing & DevOps Certification Program"
-        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
+        brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf"
         dataScience={true}
         // interstedInHide={true}
       />

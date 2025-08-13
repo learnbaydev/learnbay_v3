@@ -34,7 +34,8 @@ const CitiesRight = dynamic(() =>
 const FAQNew = dynamic(() => import("../../components/Seo/FAQNew/FAQNew"));
 
 export default function Home() {
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Cloud-and-Devops-Certifications.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -137,7 +138,7 @@ export default function Home() {
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           titleCourse="Best Online Cloud Computing Course in Bangalore"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Cloud-and-Devops-Certification-Program.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf"
           dataScience={true}
           interstedInHide={true}
           brochurePdf={pdfUrl}
