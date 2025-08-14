@@ -95,7 +95,7 @@ const SecondPart = ({
       <DSAFeeSection
         devopfee={devopfee}
         adsHide={adsHide}
-        Fee=" ₹ 90,000"
+        Fee=" ₹ 95,000"
         FeeEmi="₹ 5,244/month"
         weekdaybatch="Weekday Batch"
         weekendbatch="Weekend Batch"
