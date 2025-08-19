@@ -247,6 +247,7 @@ const CitiesRight = ({
   list27,
   list30,
   list31,
+  delhi,
   ProgramBot30,
   ProgramSpan4,
   JobHead21,
@@ -2818,9 +2819,20 @@ const CitiesRight = ({
           </div>
         </div>
         <div className={styles.Button}>
-          <a href="/reviews" target="_blank">
-            <Button className={styles.btn} text="View All Reviews" />
-          </a>
+          {delhi ? (
+            <>
+              <a
+                href="https://www.google.com/search?cs=0&sca_esv=7629c63154606f1e&output=search&tbm=lcl&kgmid=/g/11tfbcc6wl&q=Learnbay+-+Data+Analytics,+Data+Science+Course+Training+in+Delhi&shndl=30&source=sh/x/kp/local/m1/1&kgs=84ca66be5e686974#lkt=LocalPoiReviews&rlfi=hd:;si:10427489309293925908,l,CkBMZWFybmJheSAtIERhdGEgQW5hbHl0aWNzLCBEYXRhIFNjaWVuY2UgQ291cnNlIFRyYWluaW5nIGluIERlbGhpSPK21qW1uYCACFpvEAAQARACEAMQBBAFEAYYABgBGAIYAxgEGAUYBhgHGAgiPWxlYXJuYmF5IGRhdGEgYW5hbHl0aWNzIGRhdGEgc2NpZW5jZSBjb3Vyc2UgdHJhaW5pbmcgaW4gZGVsaGkqDggCEAAQAxADEAQQBRAGkgEbc29mdHdhcmVfdHJhaW5pbmdfaW5zdGl0dXRlqgF1Cg0vZy8xMXRmYmNjNndsEAEyHxABIhuW9z8glrme8GhKn_zjdDMDLGQ4xMlHsoYoJ5UyQRACIj1sZWFybmJheSBkYXRhIGFuYWx5dGljcyBkYXRhIHNjaWVuY2UgY291cnNlIHRyYWluaW5nIGluIGRlbGhp;mv:[[28.633679720941412,77.23703113968686],[28.623810490962708,77.21716123703445]]"
+                target="_blank"
+              >
+                <Button className={styles.btn} text="View All Reviews" />
+              </a>
+            </>
+          ) : (
+            <a href="/reviews" target="_blank">
+              <Button className={styles.btn} text="View All Reviews" />
+            </a>
+          )}
         </div>
       </div>
       <div id="FAQ">

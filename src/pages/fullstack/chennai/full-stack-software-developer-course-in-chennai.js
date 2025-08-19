@@ -211,7 +211,6 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              fullStackCity={true}
               ProgramBot1={FullStackChennaiCourseData[0].ProgramBot1}
               ProgramBot2={FullStackChennaiCourseData[0].ProgramBot2}
               ProgramBot3={FullStackChennaiCourseData[0].ProgramBot3}

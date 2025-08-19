@@ -342,12 +342,12 @@ export default function Home() {
           </div>
         </div>
         <SeventhSection />
-        <CityText
+        {/* <CityText
           CityTextB={MLMumbaiCourseData[0].CityTextB}
           CityText={MLMumbaiCourseData[0].CityText}
           CityTextLB={MLMumbaiCourseData[0].CityTextLB}
           CityTextL={MLMumbaiCourseData[0].CityTextL}
-        />
+        /> */}
         <Footer />
         {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>

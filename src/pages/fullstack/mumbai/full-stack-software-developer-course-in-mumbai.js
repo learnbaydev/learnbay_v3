@@ -207,7 +207,6 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              fullStackCity={true}
               ProgramBot1={FullStackMumbaiCourseData[0].ProgramBot1}
               ProgramHead3={FullStackMumbaiCourseData[0].ProgramHead3}
               ProgramBot3={FullStackMumbaiCourseData[0].ProgramBot3}
@@ -334,12 +333,12 @@ export default function Home() {
           </div>
         </div>
         <SeventhSection />
-        <CityText
+        {/* <CityText
           CityTextB={FullStackMumbaiCourseData[0].CityTextB}
           CityText={FullStackMumbaiCourseData[0].CityText}
           CityTextLB={FullStackMumbaiCourseData[0].CityTextLB}
           CityTextL={FullStackMumbaiCourseData[0].CityTextL}
-        />
+        /> */}
         <Footer />
         {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>

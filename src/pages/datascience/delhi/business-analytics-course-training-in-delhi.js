@@ -73,7 +73,8 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -224,6 +225,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
+              delhi={true}
               ProgramHead1={BADelhiCourseData[0].ProgramHead1}
               ProgramBot1={BADelhiCourseData[0].ProgramBot1}
               ProgramBot2={BADelhiCourseData[0].ProgramBot2}
@@ -377,7 +379,7 @@ export default function Home() {
           CityTextLB={BADelhiCourseData[0].CityTextLB}
           CityTextL={BADelhiCourseData[0].CityTextL}
         /> */}
-          <div
+        <div
           style={{
             display: "flex",
             justifyContent: "center",

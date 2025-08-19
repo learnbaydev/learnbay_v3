@@ -229,6 +229,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
+              delhi={true}
               ProgramHead1={MLDelhiCourseData[0].ProgramHead1}
               ProgramBot1={MLDelhiCourseData[0].ProgramBot1}
               ProgramBot2={MLDelhiCourseData[0].ProgramBot2}
@@ -381,7 +382,7 @@ export default function Home() {
           CityTextLB={MLDelhiCourseData[0].CityTextLB}
           CityTextL={MLDelhiCourseData[0].CityTextL}
         /> */}
-          <div
+        <div
           style={{
             display: "flex",
             justifyContent: "center",

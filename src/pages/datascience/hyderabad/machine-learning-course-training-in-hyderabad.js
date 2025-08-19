@@ -393,12 +393,12 @@ export default function Home() {
           </div>
         </div>
         <SeventhSection />
-        <CityText
+        {/* <CityText
           CityTextB={MachineLearningHyderabadCourseData[0].CityTextB}
           CityText={MachineLearningHyderabadCourseData[0].CityText}
           CityTextLB={MachineLearningHyderabadCourseData[0].CityTextLB}
           CityTextL={MachineLearningHyderabadCourseData[0].CityTextL}
-        />
+        /> */}
         <Footer />
         {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>

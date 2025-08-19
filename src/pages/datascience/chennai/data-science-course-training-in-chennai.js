@@ -381,7 +381,7 @@ export default function Home() {
           </div>
         </div>
         <SeventhSection />
-        <CityText cityTextChennai={true} />
+        {/* <CityText cityTextChennai={true} /> */}
         <Footer />
         {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>

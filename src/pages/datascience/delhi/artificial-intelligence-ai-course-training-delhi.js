@@ -606,6 +606,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
+              delhi={true}
               ProgramBot1={AIelhiCourseData[0].ProgramBot1}
               ProgramBot2={AIelhiCourseData[0].ProgramBot2}
               ProgramHead3={AIelhiCourseData[0].ProgramHead3}
@@ -746,7 +747,7 @@ export default function Home() {
           CityTextLB={AIelhiCourseData[0].CityTextLB}
           CityTextL={AIelhiCourseData[0].CityTextL}
         /> */}
-          <div
+        <div
           style={{
             display: "flex",
             justifyContent: "center",

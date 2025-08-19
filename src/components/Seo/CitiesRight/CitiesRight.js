@@ -389,6 +389,7 @@ const CitiesRight = ({
   alt7,
   alt8,
   alt9,
+  delhi,
   fullStackCity,
   ProgramBot61,
   ProgramBot62,
@@ -474,7 +475,7 @@ const CitiesRight = ({
   hydraListJob,
   CyberSecurityBangalore,
   CyberSecurityPune,
-  embedId
+  embedId,
 }) => {
   const [read, setRead] = useState(false);
   const handler = () => {
@@ -2233,7 +2234,7 @@ const CitiesRight = ({
               Learnbay institute ranges from INR 1,10,000 to INR 125,000,
               depending on the preferred course.
             </p>
-   
+
             {read ? (
               <>
                 <h2 className={styles.pHead}>
@@ -2398,7 +2399,6 @@ const CitiesRight = ({
                   mentorship is provided on Linkedin profile building and
                   insider tips for enhancing the marketability of a resume.{" "}
                 </p>
-
               </>
             ) : (
               ""
@@ -2415,9 +2415,8 @@ const CitiesRight = ({
             >
               {read ? "View Less..." : "View More..."}
             </p>
-            <YoutubeEmbed embedId="1Y0JwDAuthg"/>
+            <YoutubeEmbed embedId="1Y0JwDAuthg" />
           </div>
-
         ) : (
           ""
         )}
@@ -5741,22 +5740,16 @@ const CitiesRight = ({
             </p>
             <ul>
               <li>
-              2-days immersive experience at IIT Roorkee from IIT experts 
-
+                2-days immersive experience at IIT Roorkee from IIT experts
+              </li>
+              <li>Hands-on learning with case studies and capstone projects</li>
+              <li>
+                Career support services (interview preparation, resume building,
+                and job placement assistance)
               </li>
               <li>
-              Hands-on learning with case studies and capstone projects
-
+                Globally recognized iHUB DivyaSampark, IIT Roorkee certificates
               </li>
-              <li>
-              Career support services (interview preparation, resume building, and job placement assistance)
-
-              </li>
-              <li>
-              Globally recognized iHUB DivyaSampark, IIT Roorkee certificates
-
-              </li>
-        
             </ul>
           </div>
         ) : (
@@ -6609,9 +6602,7 @@ const CitiesRight = ({
               and data science courses.
             </p>
 
-<YoutubeEmbed embedId="gvSdkorN6PE"/>
-
-
+            <YoutubeEmbed embedId="gvSdkorN6PE" />
           </div>
         ) : (
           <div className={styles.CitiesRightInner}>
@@ -7610,6 +7601,15 @@ const CitiesRight = ({
             <>
               <a
                 href="https://www.google.com/search?q=learnbay&rlz=1C1VDKB_enIN998IN998&tbm=lcl&ei=uUDyYunBIoObz7sPzvu7wAQ&oq=learnbay&gs_l=psy-ab.3...0.0.0.6647.0.0.0.0.0.0.0.0..0.0....0...1c..64.psy-ab..0.0.0....0.vlnVRtRM_mw#lrd=0x3bae13b203864921:0xcd2b3d47edc34b69,1,,,&rlfi=hd:;si:14783977580914756457,l,CghsZWFybmJheUj0z4qEu66AgAhaFBAAGAAiCGxlYXJuYmF5KgQIAhAAkgEbc29mdHdhcmVfdHJhaW5pbmdfaW5zdGl0dXRl;mv:[[12.9145896,77.66070289999999],[12.8624165,77.6400574]]"
+                target="_blank"
+              >
+                <Button className={styles.btn} text="View All Reviews" />
+              </a>
+            </>
+          ) : delhi ? (
+            <>
+              <a
+                href="https://www.google.com/search?cs=0&sca_esv=7629c63154606f1e&output=search&tbm=lcl&kgmid=/g/11tfbcc6wl&q=Learnbay+-+Data+Analytics,+Data+Science+Course+Training+in+Delhi&shndl=30&source=sh/x/kp/local/m1/1&kgs=84ca66be5e686974#lkt=LocalPoiReviews&rlfi=hd:;si:10427489309293925908,l,CkBMZWFybmJheSAtIERhdGEgQW5hbHl0aWNzLCBEYXRhIFNjaWVuY2UgQ291cnNlIFRyYWluaW5nIGluIERlbGhpSPK21qW1uYCACFpvEAAQARACEAMQBBAFEAYYABgBGAIYAxgEGAUYBhgHGAgiPWxlYXJuYmF5IGRhdGEgYW5hbHl0aWNzIGRhdGEgc2NpZW5jZSBjb3Vyc2UgdHJhaW5pbmcgaW4gZGVsaGkqDggCEAAQAxADEAQQBRAGkgEbc29mdHdhcmVfdHJhaW5pbmdfaW5zdGl0dXRlqgF1Cg0vZy8xMXRmYmNjNndsEAEyHxABIhuW9z8glrme8GhKn_zjdDMDLGQ4xMlHsoYoJ5UyQRACIj1sZWFybmJheSBkYXRhIGFuYWx5dGljcyBkYXRhIHNjaWVuY2UgY291cnNlIHRyYWluaW5nIGluIGRlbGhp;mv:[[28.633679720941412,77.23703113968686],[28.623810490962708,77.21716123703445]]"
                 target="_blank"
               >
                 <Button className={styles.btn} text="View All Reviews" />

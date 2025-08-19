@@ -296,6 +296,7 @@ export default function Home() {
           <div className="CitiesRight">
             <CitiesRight
               cityTextDSDelhi={true}
+              delhi={true}
               DomainHead1={DSDelhiCourseData[0].DomainHead1}
               DomainBot1={DSDelhiCourseData[0].DomainBot1}
               DomainBot2={DSDelhiCourseData[0].DomainBot2}
@@ -424,7 +425,7 @@ export default function Home() {
           CityTextLB={DSDelhiCourseData[0].CityTextLB}
           CityTextL={DSDelhiCourseData[0].CityTextL}
         /> */}
-          <div
+        <div
           style={{
             display: "flex",
             justifyContent: "center",
