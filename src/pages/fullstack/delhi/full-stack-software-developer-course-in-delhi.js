@@ -72,6 +72,8 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressed.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -156,8 +158,9 @@ export default function Home() {
           ThirdTyped="Live Interactive Classes"
           dataScience={true}
           interstedInHide={true}
+          brochurePdf={pdfUrl}
           titleCourse="Full-Stack Software Developer Course In Delhi"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressedv1.pdf"
           idss="Jn2puEQC8yk"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/head/W+Dev.png"
           firstToparaImg="To Achieve Your Dream Job"
@@ -207,8 +210,8 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              delhi={true}
               fullStackCity={true}
+              delhi={true}
               ProgramBot1={FSDelhiCourseData[0].ProgramBot1}
               ProgramHead3={FSDelhiCourseData[0].ProgramHead3}
               ProgramBot3={FSDelhiCourseData[0].ProgramBot3}

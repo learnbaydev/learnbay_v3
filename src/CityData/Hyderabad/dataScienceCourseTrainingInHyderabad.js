@@ -840,7 +840,9 @@ export const DataScienceHyderabadCourseData = [
     Domainlink4:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf",
     Domainlink5:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf",
+    // Domainlink6:
+    //   "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf",
     CertificationBot1:
       "Hyderabad’s bustling tech space inspires working pros for constant upskilling and reskilling. Mainly, the experts with stagnant skill sets must join the best institute to learn data science in Hyderabad. Unlike generic ones, joining a certification course can equip you with definite growth skills. ",
     CertificationBot2:

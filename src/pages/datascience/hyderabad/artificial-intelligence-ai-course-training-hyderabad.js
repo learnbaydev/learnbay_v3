@@ -529,6 +529,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
+              hydrabad={true}
               ProgramBot1={AIHyderabadCourseData[0].ProgramBot1}
               ProgramBot2={AIHyderabadCourseData[0].ProgramBot2}
               ProgramBot3={AIHyderabadCourseData[0].ProgramBot3}
@@ -670,6 +671,24 @@ export default function Home() {
           CityTextLB={AIHyderabadCourseData[0].CityTextLB}
           CityTextL={AIHyderabadCourseData[0].CityTextL}
         /> */}
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItem: "center",
+            marginBottom: "20px",
+          }}
+        >
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d475.68866029517534!2d78.3934821!3d17.4831859!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9111ba959afb%3A0x1e9251b5636b5de1!2sLearnbay!5e0!3m2!1sen!2sin!4v1755758744210!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            style={{ border: 0 }}
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
         <Footer />
         {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>

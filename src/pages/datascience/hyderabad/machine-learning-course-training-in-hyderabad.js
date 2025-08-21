@@ -220,6 +220,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
+              hydrabad={true}
               ProgramBot1={MachineLearningHyderabadCourseData[0].ProgramBot1}
               ProgramBot2={MachineLearningHyderabadCourseData[0].ProgramBot2}
               ProgramBot3={MachineLearningHyderabadCourseData[0].ProgramBot3}
@@ -263,6 +264,8 @@ export default function Home() {
                 MachineLearningHyderabadCourseData[0].CertificationBot1
               }
               src={MachineLearningHyderabadCourseData[0].src}
+              src22={MachineLearningHyderabadCourseData[0].src22}
+              src33={MachineLearningHyderabadCourseData[0].src33}
               alt2={MachineLearningHyderabadCourseData[0].alt2}
               alt3={MachineLearningHyderabadCourseData[0].alt3}
               alt4={MachineLearningHyderabadCourseData[0].alt4}
@@ -399,6 +402,24 @@ export default function Home() {
           CityTextLB={MachineLearningHyderabadCourseData[0].CityTextLB}
           CityTextL={MachineLearningHyderabadCourseData[0].CityTextL}
         /> */}
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItem: "center",
+            marginBottom: "20px",
+          }}
+        >
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d475.68866029517534!2d78.3934821!3d17.4831859!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9111ba959afb%3A0x1e9251b5636b5de1!2sLearnbay!5e0!3m2!1sen!2sin!4v1755758744210!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            style={{ border: 0 }}
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
         <Footer />
         {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>
