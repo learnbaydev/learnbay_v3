@@ -73,7 +73,8 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -219,6 +220,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
+              chennai={true}
               ProgramHead1={BusinessAnalyticsChennaiCourseData[0].ProgramHead1}
               ProgramBot1={BusinessAnalyticsChennaiCourseData[0].ProgramBot1}
               ProgramBot2={BusinessAnalyticsChennaiCourseData[0].ProgramBot2}
@@ -402,12 +404,24 @@ export default function Home() {
           </div>
         </div>
         <SeventhSection />
-        <CityText
-          CityTextB={BusinessAnalyticsChennaiCourseData[0].CityTextB}
-          CityText={BusinessAnalyticsChennaiCourseData[0].CityText}
-          CityTextLB={BusinessAnalyticsChennaiCourseData[0].CityTextLB}
-          CityTextL={BusinessAnalyticsChennaiCourseData[0].CityTextL}
-        />
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItem: "center",
+            marginBottom: "20px",
+          }}
+        >
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15546.27590561072!2d80.2479449!3d13.0630852!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267157fcdb4bb%3A0x41b85b57fd1d6f0e!2sLearnbay%20-%20Chennai!5e0!3m2!1sen!2sin!4v1755767222127!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            style={{ border: 0 }}
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
         <Footer />
         {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>

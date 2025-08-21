@@ -306,7 +306,7 @@ export default function Home() {
               SyllabusBotlist44={FScanadaCourseData[0].SyllabusBotlist44}
               SyllabusBotlist45={FScanadaCourseData[0].SyllabusBotlist45}
               SyllabusBotlist46={FScanadaCourseData[0].SyllabusBotlist46}
-              // syllabussrc={FScanadaCourseData[0].syllabussrc}
+              syllabussrc={FScanadaCourseData[0].syllabussrc}
               JobHead1={FScanadaCourseData[0].JobHead1}
               JobBot1={FScanadaCourseData[0].JobBot1}
               JobBot2={FScanadaCourseData[0].JobBot2}

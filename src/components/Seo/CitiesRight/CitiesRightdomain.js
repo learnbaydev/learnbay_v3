@@ -151,6 +151,7 @@ const CitiesRight = ({
   src33,
   cityTextDAPune,
   cityTextJDAPune,
+  chennai,
   bAnalystAbout,
   list1,
   list2,
@@ -2824,6 +2825,15 @@ const CitiesRight = ({
             <>
               <a
                 href="https://www.google.com/search?cs=0&sca_esv=7629c63154606f1e&output=search&tbm=lcl&kgmid=/g/11tfbcc6wl&q=Learnbay+-+Data+Analytics,+Data+Science+Course+Training+in+Delhi&shndl=30&source=sh/x/kp/local/m1/1&kgs=84ca66be5e686974#lkt=LocalPoiReviews&rlfi=hd:;si:10427489309293925908,l,CkBMZWFybmJheSAtIERhdGEgQW5hbHl0aWNzLCBEYXRhIFNjaWVuY2UgQ291cnNlIFRyYWluaW5nIGluIERlbGhpSPK21qW1uYCACFpvEAAQARACEAMQBBAFEAYYABgBGAIYAxgEGAUYBhgHGAgiPWxlYXJuYmF5IGRhdGEgYW5hbHl0aWNzIGRhdGEgc2NpZW5jZSBjb3Vyc2UgdHJhaW5pbmcgaW4gZGVsaGkqDggCEAAQAxADEAQQBRAGkgEbc29mdHdhcmVfdHJhaW5pbmdfaW5zdGl0dXRlqgF1Cg0vZy8xMXRmYmNjNndsEAEyHxABIhuW9z8glrme8GhKn_zjdDMDLGQ4xMlHsoYoJ5UyQRACIj1sZWFybmJheSBkYXRhIGFuYWx5dGljcyBkYXRhIHNjaWVuY2UgY291cnNlIHRyYWluaW5nIGluIGRlbGhp;mv:[[28.633679720941412,77.23703113968686],[28.623810490962708,77.21716123703445]]"
+                target="_blank"
+              >
+                <Button className={styles.btn} text="View All Reviews" />
+              </a>
+            </>
+          ) : chennai ? (
+            <>
+              <a
+                href="https://www.google.com/search?q=learnbay+chennai&cs=0&sca_esv=7629c63154606f1e&tbm=lcl&ei=wZOlaJTRH-6K4-EP5pSmmAE&ved=0ahUKEwjUtc6OiJmPAxVuxTgGHWaKCRMQ4dUDCAo&uact=5&oq=learnbay+chennai&gs_lp=Eg1nd3Mtd2l6LWxvY2FsIhBsZWFybmJheSBjaGVubmFpMgsQABiABBiRAhiKBTIFEAAYgAQyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyBRAAGO8FMggQABiABBiiBEiIFVDuCVjFEHAAeACQAQCYAc0BoAGEC6oBBTAuNy4xuAEDyAEA-AEBmAIIoALwC8ICChAAGIAEGEMYigWYAwCIBgGSBwUwLjcuMaAH4CyyBwUwLjcuMbgH8AvCBwcyLTcuNS0xyAdk&sclient=gws-wiz-local#lkt=LocalPoiReviews&rlfi=hd:;si:4735635441646923534,l,ChBsZWFybmJheSBjaGVubmFpSPzX3cmkuICACFoeEAAYABgBIhBsZWFybmJheSBjaGVubmFpKgQIAhAAkgEbc29mdHdhcmVfdHJhaW5pbmdfaW5zdGl0dXRlqgFICg0vZy8xMXM5NG1ndl94EAEyHxABIhu4Ej4DiWts3GrO-fJkXUXTvQLbhh2z9ONB1nQyFBACIhBsZWFybmJheSBjaGVubmFp;mv:[[13.06326517731903,80.2481296585387],[13.06290522268097,80.24776014146127]]"
                 target="_blank"
               >
                 <Button className={styles.btn} text="View All Reviews" />
