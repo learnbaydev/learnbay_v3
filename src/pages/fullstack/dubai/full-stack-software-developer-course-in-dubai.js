@@ -212,6 +212,8 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
+              // certificate1={true}
+              // certificate2={true}
               ProgramBot1={FullStackDubaiCourseData[0].ProgramBot1}
               ProgramBot2={FullStackDubaiCourseData[0].ProgramBot2}
               ProgramBot3={FullStackDubaiCourseData[0].ProgramBot3}

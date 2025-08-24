@@ -389,9 +389,6 @@ const CitiesRight = ({
   alt7,
   alt8,
   alt9,
-  delhi,
-  chennai,
-  hydrabad,
   fullStackCity,
   ProgramBot61,
   ProgramBot62,
@@ -6888,9 +6885,12 @@ const CitiesRight = ({
         <></>
       ) : (
         <div id="Certification">
-          <div className={styles.CitiesRightSpan}>
-            <span>Certification Details</span>
-          </div>
+          {(src || src22 || src33) && (
+            <div className={styles.CitiesRightSpan}>
+              <span>Certification Details</span>
+            </div>
+          )}
+
           <div className={styles.CitiesRightInner}>
             <div>
               <h2 className={styles.pHead}>{CertificationHead1}</h2>
@@ -6949,31 +6949,37 @@ const CitiesRight = ({
                     />
                   </>
                 ) : null}
-                {!certificate1 && !certificate2 ? (
+                {!certificate1 && !certificate2 && (
                   <>
-                    <Image
-                      width={350}
-                      height={250}
-                      loading="lazy"
-                      src={src}
-                      alt="Learnbay - Sample IBM Certification Course"
-                    />
-                    <Image
-                      width={350}
-                      height={250}
-                      loading="lazy"
-                      src={src22}
-                      alt="Learnbay - Sample IBM Certification Course"
-                    />
-                    <Image
-                      width={350}
-                      height={250}
-                      loading="lazy"
-                      src={src33}
-                      alt="Learnbay - Sample Microsoft Certificate Course"
-                    />
+                    {src && (
+                      <Image
+                        width={350}
+                        height={250}
+                        loading="lazy"
+                        src={src}
+                        alt="Learnbay - Sample IBM Certification Course"
+                      />
+                    )}
+                    {src22 && (
+                      <Image
+                        width={350}
+                        height={250}
+                        loading="lazy"
+                        src={src22}
+                        alt="Learnbay - Sample IBM Certification Course"
+                      />
+                    )}
+                    {src33 && (
+                      <Image
+                        width={350}
+                        height={250}
+                        loading="lazy"
+                        src={src33}
+                        alt="Learnbay - Sample Microsoft Certificate Course"
+                      />
+                    )}
                   </>
-                ) : null}
+                )}
               </div>
             </div>
           </div>
@@ -7056,163 +7062,167 @@ const CitiesRight = ({
               ) : (
                 <>
                   {" "}
-                  <p className={styles.pp}>Module Details:</p>
-                  <div className={styles.SyllabusBot}>
-                    <div className={styles.SyllabusBot1}>
-                      <div className={styles.SyllabusBot11}>
-                        <div>
-                          <p className={styles.syllabush}>{syllabush1}</p>
-                          <p className={styles.syllabusb}>
-                            <BsClock className={styles.bIcons} />
-                            {syllabusb1}
-                          </p>
+                  {SyllabusBotlist11 && (
+                    <div>
+                      <p className={styles.pp}>Module Details:</p>
+                      <div className={styles.SyllabusBot}>
+                        <div className={styles.SyllabusBot1}>
+                          <div className={styles.SyllabusBot11}>
+                            <div>
+                              <p className={styles.syllabush}>{syllabush1}</p>
+                              <p className={styles.syllabusb}>
+                                <BsClock className={styles.bIcons} />
+                                {syllabusb1}
+                              </p>
+                            </div>
+                            <div className={styles.number1}>1</div>
+                          </div>
+                          <div className={styles.SyllabusBotlist}>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist11}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist12}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist13}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist14}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist15}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist16}
+                            </p>
+                          </div>
                         </div>
-                        <div className={styles.number1}>1</div>
+                        <div className={styles.SyllabusBot2}>
+                          <div className={styles.SyllabusBot22}>
+                            <div>
+                              <p className={styles.syllabush}>{syllabush2}</p>
+                              <p className={styles.syllabusb}>
+                                <BsClock className={styles.bIcons} />
+                                {syllabusb2}
+                              </p>
+                            </div>
+                            <div className={styles.number2}>2</div>
+                          </div>
+                          <div className={styles.SyllabusBotlist}>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist21}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist22}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist23}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist24}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist25}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist26}
+                            </p>
+                          </div>
+                        </div>
                       </div>
-                      <div className={styles.SyllabusBotlist}>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist11}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist12}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist13}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist14}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist15}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist16}
-                        </p>
+                      <div className={styles.SyllabusBot}>
+                        <div className={styles.SyllabusBot3}>
+                          <div className={styles.SyllabusBot33}>
+                            <div>
+                              <p className={styles.syllabush}>{syllabush3}</p>
+                              <p className={styles.syllabusb}>
+                                <BsClock className={styles.bIcons} />
+                                {syllabusb3}
+                              </p>
+                            </div>
+                            <div className={styles.number3}>3</div>
+                          </div>
+                          <div className={styles.SyllabusBotlist}>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist31}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist32}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist33}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist34}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist35}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist36}
+                            </p>
+                          </div>
+                        </div>
+                        <div className={styles.SyllabusBot4}>
+                          <div className={styles.SyllabusBot44}>
+                            <div>
+                              <p className={styles.syllabush}>{syllabush4}</p>
+                              <p className={styles.syllabusb}>
+                                <BsClock className={styles.bIcons} />
+                                {syllabusb4}
+                              </p>
+                            </div>
+                            <div className={styles.number4}>4</div>
+                          </div>
+                          <div className={styles.SyllabusBotlist}>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist41}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist42}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist43}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist44}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist45}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist46}
+                            </p>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                    <div className={styles.SyllabusBot2}>
-                      <div className={styles.SyllabusBot22}>
-                        <div>
-                          <p className={styles.syllabush}>{syllabush2}</p>
-                          <p className={styles.syllabusb}>
-                            <BsClock className={styles.bIcons} />
-                            {syllabusb2}
-                          </p>
-                        </div>
-                        <div className={styles.number2}>2</div>
-                      </div>
-                      <div className={styles.SyllabusBotlist}>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist21}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist22}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist23}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist24}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist25}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist26}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className={styles.SyllabusBot}>
-                    <div className={styles.SyllabusBot3}>
-                      <div className={styles.SyllabusBot33}>
-                        <div>
-                          <p className={styles.syllabush}>{syllabush3}</p>
-                          <p className={styles.syllabusb}>
-                            <BsClock className={styles.bIcons} />
-                            {syllabusb3}
-                          </p>
-                        </div>
-                        <div className={styles.number3}>3</div>
-                      </div>
-                      <div className={styles.SyllabusBotlist}>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist31}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist32}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist33}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist34}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist35}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist36}
-                        </p>
-                      </div>
-                    </div>
-                    <div className={styles.SyllabusBot4}>
-                      <div className={styles.SyllabusBot44}>
-                        <div>
-                          <p className={styles.syllabush}>{syllabush4}</p>
-                          <p className={styles.syllabusb}>
-                            <BsClock className={styles.bIcons} />
-                            {syllabusb4}
-                          </p>
-                        </div>
-                        <div className={styles.number4}>4</div>
-                      </div>
-                      <div className={styles.SyllabusBotlist}>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist41}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist42}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist43}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist44}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist45}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist46}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                  )}
                 </>
               )}
             </div>
@@ -7599,37 +7609,10 @@ const CitiesRight = ({
           </div>
         </div>
         <div className={styles.Button}>
-          {delhi ? (
-            <>
-              <a
-                href="https://www.google.com/search?cs=0&sca_esv=7629c63154606f1e&output=search&tbm=lcl&kgmid=/g/11tfbcc6wl&q=Learnbay+-+Data+Analytics,+Data+Science+Course+Training+in+Delhi&shndl=30&source=sh/x/kp/local/m1/1&kgs=84ca66be5e686974#lkt=LocalPoiReviews&rlfi=hd:;si:10427489309293925908,l,CkBMZWFybmJheSAtIERhdGEgQW5hbHl0aWNzLCBEYXRhIFNjaWVuY2UgQ291cnNlIFRyYWluaW5nIGluIERlbGhpSPK21qW1uYCACFpvEAAQARACEAMQBBAFEAYYABgBGAIYAxgEGAUYBhgHGAgiPWxlYXJuYmF5IGRhdGEgYW5hbHl0aWNzIGRhdGEgc2NpZW5jZSBjb3Vyc2UgdHJhaW5pbmcgaW4gZGVsaGkqDggCEAAQAxADEAQQBRAGkgEbc29mdHdhcmVfdHJhaW5pbmdfaW5zdGl0dXRlqgF1Cg0vZy8xMXRmYmNjNndsEAEyHxABIhuW9z8glrme8GhKn_zjdDMDLGQ4xMlHsoYoJ5UyQRACIj1sZWFybmJheSBkYXRhIGFuYWx5dGljcyBkYXRhIHNjaWVuY2UgY291cnNlIHRyYWluaW5nIGluIGRlbGhp;mv:[[28.633679720941412,77.23703113968686],[28.623810490962708,77.21716123703445]]"
-                target="_blank"
-              >
-                <Button className={styles.btn} text="View All Reviews" />
-              </a>
-            </>
-          ) : chennai ? (
-            <>
-              <a
-                href="https://www.google.com/search?q=learnbay+chennai&cs=0&sca_esv=7629c63154606f1e&tbm=lcl&ei=wZOlaJTRH-6K4-EP5pSmmAE&ved=0ahUKEwjUtc6OiJmPAxVuxTgGHWaKCRMQ4dUDCAo&uact=5&oq=learnbay+chennai&gs_lp=Eg1nd3Mtd2l6LWxvY2FsIhBsZWFybmJheSBjaGVubmFpMgsQABiABBiRAhiKBTIFEAAYgAQyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyBRAAGO8FMggQABiABBiiBEiIFVDuCVjFEHAAeACQAQCYAc0BoAGEC6oBBTAuNy4xuAEDyAEA-AEBmAIIoALwC8ICChAAGIAEGEMYigWYAwCIBgGSBwUwLjcuMaAH4CyyBwUwLjcuMbgH8AvCBwcyLTcuNS0xyAdk&sclient=gws-wiz-local#lkt=LocalPoiReviews&rlfi=hd:;si:4735635441646923534,l,ChBsZWFybmJheSBjaGVubmFpSPzX3cmkuICACFoeEAAYABgBIhBsZWFybmJheSBjaGVubmFpKgQIAhAAkgEbc29mdHdhcmVfdHJhaW5pbmdfaW5zdGl0dXRlqgFICg0vZy8xMXM5NG1ndl94EAEyHxABIhu4Ej4DiWts3GrO-fJkXUXTvQLbhh2z9ONB1nQyFBACIhBsZWFybmJheSBjaGVubmFp;mv:[[13.06326517731903,80.2481296585387],[13.06290522268097,80.24776014146127]]"
-                target="_blank"
-              >
-                <Button className={styles.btn} text="View All Reviews" />
-              </a>
-            </>
-          ) : fullStackCity ? (
+          {fullStackCity ? (
             <>
               <a
                 href="https://www.google.com/search?q=learnbay&rlz=1C1VDKB_enIN998IN998&tbm=lcl&ei=uUDyYunBIoObz7sPzvu7wAQ&oq=learnbay&gs_l=psy-ab.3...0.0.0.6647.0.0.0.0.0.0.0.0..0.0....0...1c..64.psy-ab..0.0.0....0.vlnVRtRM_mw#lrd=0x3bae13b203864921:0xcd2b3d47edc34b69,1,,,&rlfi=hd:;si:14783977580914756457,l,CghsZWFybmJheUj0z4qEu66AgAhaFBAAGAAiCGxlYXJuYmF5KgQIAhAAkgEbc29mdHdhcmVfdHJhaW5pbmdfaW5zdGl0dXRl;mv:[[12.9145896,77.66070289999999],[12.8624165,77.6400574]]"
-                target="_blank"
-              >
-                <Button className={styles.btn} text="View All Reviews" />
-              </a>
-            </>
-          ) : hydrabad ? (
-            <>
-              <a
-                href="https://www.google.com/search?q=learnbay+hyderabad&cs=0&sca_esv=7629c63154606f1e&tbm=lcl&ei=s5OlaK6HKeiQ4-EPwaSVuAs&ved=0ahUKEwjurIGIiJmPAxVoyDgGHUFSBbcQ4dUDCAo&uact=5&oq=learnbay+hyderabad&gs_lp=Eg1nd3Mtd2l6LWxvY2FsIhJsZWFybmJheSBoeWRlcmFiYWQyCxAAGIAEGJECGIoFMgsQABiABBiRAhiKBTILEAAYgAQYkQIYigUyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyCBAAGIAEGKIESOUtUOsNWNwrcAB4AJABAJgB3QGgAekQqgEGMC4xMC4yuAEDyAEA-AEBmAIMoALyEcICChAAGIAEGEMYigXCAgUQABiABMICBRAAGO8FmAMAiAYBkgcFMC44LjSgB4RMsgcFMC44LjS4B_IRwgcHMi03LjQuMcgHeg&sclient=gws-wiz-local#lkt=LocalPoiReviews&rlfi=hd:;si:2202913007236505057,l,ChJsZWFybmJheSBoeWRlcmFiYWRI_-vJ8uSwgIAIWiAQABgAGAEiEmxlYXJuYmF5IGh5ZGVyYWJhZCoECAIQAJIBG3NvZnR3YXJlX3RyYWluaW5nX2luc3RpdHV0ZaoBSgoNL2cvMTFqdDc1NHloXxABMh8QASIb39ZDxZuh0mdsw1oREE36BZys-4it5SOk6JNbMhYQAiISbGVhcm5iYXkgaHlkZXJhYmFk;mv:[[17.483459477319027,78.3937432941066],[17.48309952268097,78.3933659058934]]"
                 target="_blank"
               >
                 <Button className={styles.btn} text="View All Reviews" />
