@@ -73,7 +73,8 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -224,6 +225,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
+              delhi={true}
               ProgramHead1={BADelhiCourseData[0].ProgramHead1}
               ProgramBot1={BADelhiCourseData[0].ProgramBot1}
               ProgramBot2={BADelhiCourseData[0].ProgramBot2}
@@ -371,12 +373,30 @@ export default function Home() {
           </div>
         </div>
         <SeventhSection />
-        <CityText
+        {/* <CityText
           CityTextB={BADelhiCourseData[0].CityTextB}
           CityText={BADelhiCourseData[0].CityText}
           CityTextLB={BADelhiCourseData[0].CityTextLB}
           CityTextL={BADelhiCourseData[0].CityTextL}
-        />
+        /> */}
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItem: "center",
+            marginBottom: "20px",
+          }}
+        >
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.0377025225034!2d77.22261153488769!3d28.62863210000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd6359f27df9%3A0x90b5e24793a5d614!2sLearnbay%20-%20Data%20Analytics%2C%20Data%20Science%20Course%20Training%20in%20Delhi!5e0!3m2!1sen!2sin!4v1754999874762!5m2!1sen!2sin"
+            width="700"
+            height="350"
+            style={{ border: 0 }}
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
         <Footer />
         {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>

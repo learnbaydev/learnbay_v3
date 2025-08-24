@@ -825,22 +825,23 @@ export const DataScienceHyderabadCourseData = [
     DomainBot4:
       "Learnbay’s data science course in Hyderabad offers domain-focused training to gain real-time insights and outpace close rivals. Our domain electives enrich technical mastery and help experts build insightful ways. Join us to choose the right domain elective and enrich your prior learning. ",
     DomainBot3: "Our domain electives are –",
-    DomainList1: "• Manufacturing",
-    DomainList2: "• Technology",
-    DomainList3: "• Consulting",
+    DomainList1: "• BFSI",
+    DomainList2: "• Manufacturing",
+    DomainList3: "• Energy, Oil and Gas",
     DomainList4: "• Healthcare",
-    DomainList5: "• BFSI",
-    DomainList6: "• Retail",
+    DomainList5: "• Supply Chain, E-Commerce & Retail",
     Domainlink1:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf",
     Domainlink2:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Energy%2C+Oil+and+Gas+Domain.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Manufacturing%2C+Mechanical+and+Telecom+Domain.pdf",
     Domainlink3:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Energy%2C+Oil+and+Gas+Domain.pdf",
     Domainlink4:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Healthcare%2C+Pharma+and+Clinical+Research+Domain.pdf",
     Domainlink5:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf",
+    // Domainlink6:
+    //   "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Retail%2C+Ecommerce+and+Supply+chain+Domain.pdf https://brochureslearnbay.s3.ap-south-1.amazonaws.com/domain/Banking%2C+Finance+and+Insurance+Domain.pdf",
     CertificationBot1:
       "Hyderabad’s bustling tech space inspires working pros for constant upskilling and reskilling. Mainly, the experts with stagnant skill sets must join the best institute to learn data science in Hyderabad. Unlike generic ones, joining a certification course can equip you with definite growth skills. ",
     CertificationBot2:

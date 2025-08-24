@@ -72,6 +72,8 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressed.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -156,7 +158,10 @@ export default function Home() {
           ThirdTyped="Live Interactive Classes"
           cityParaCont=" Enroll in the best Job-ready full-stack software development course in Dubai. Take a 10-step step ahead of others towards the most lucrative salary package of product-based MNCs, which you deserve."
           titleCourse="Full-Stack Software Developer Course In Dubai To Achieve Your Dream Job"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
+          dataScience={true}
+          interstedInHide={true}
+          brochurePdf={pdfUrl}
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressedv1.pdf"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/head/W+Dev.png"
           firstHeading="Full-Stack Software Developer Course In Dubai"
           firstTopPara="Ace Your Coding Interview at PRODUCT Based Companies"
@@ -207,7 +212,8 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              fullStackCity={true}
+              // certificate1={true}
+              // certificate2={true}
               ProgramBot1={FullStackDubaiCourseData[0].ProgramBot1}
               ProgramBot2={FullStackDubaiCourseData[0].ProgramBot2}
               ProgramBot3={FullStackDubaiCourseData[0].ProgramBot3}

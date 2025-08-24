@@ -474,7 +474,7 @@ const CitiesRight = ({
   hydraListJob,
   CyberSecurityBangalore,
   CyberSecurityPune,
-  embedId
+  embedId,
 }) => {
   const [read, setRead] = useState(false);
   const handler = () => {
@@ -2233,7 +2233,7 @@ const CitiesRight = ({
               Learnbay institute ranges from INR 1,10,000 to INR 125,000,
               depending on the preferred course.
             </p>
-   
+
             {read ? (
               <>
                 <h2 className={styles.pHead}>
@@ -2398,7 +2398,6 @@ const CitiesRight = ({
                   mentorship is provided on Linkedin profile building and
                   insider tips for enhancing the marketability of a resume.{" "}
                 </p>
-
               </>
             ) : (
               ""
@@ -2415,9 +2414,8 @@ const CitiesRight = ({
             >
               {read ? "View Less..." : "View More..."}
             </p>
-            <YoutubeEmbed embedId="1Y0JwDAuthg"/>
+            <YoutubeEmbed embedId="1Y0JwDAuthg" />
           </div>
-
         ) : (
           ""
         )}
@@ -5741,22 +5739,16 @@ const CitiesRight = ({
             </p>
             <ul>
               <li>
-              2-days immersive experience at IIT Roorkee from IIT experts 
-
+                2-days immersive experience at IIT Roorkee from IIT experts
+              </li>
+              <li>Hands-on learning with case studies and capstone projects</li>
+              <li>
+                Career support services (interview preparation, resume building,
+                and job placement assistance)
               </li>
               <li>
-              Hands-on learning with case studies and capstone projects
-
+                Globally recognized iHUB DivyaSampark, IIT Roorkee certificates
               </li>
-              <li>
-              Career support services (interview preparation, resume building, and job placement assistance)
-
-              </li>
-              <li>
-              Globally recognized iHUB DivyaSampark, IIT Roorkee certificates
-
-              </li>
-        
             </ul>
           </div>
         ) : (
@@ -6609,9 +6601,7 @@ const CitiesRight = ({
               and data science courses.
             </p>
 
-<YoutubeEmbed embedId="gvSdkorN6PE"/>
-
-
+            <YoutubeEmbed embedId="gvSdkorN6PE" />
           </div>
         ) : (
           <div className={styles.CitiesRightInner}>
@@ -6895,9 +6885,12 @@ const CitiesRight = ({
         <></>
       ) : (
         <div id="Certification">
-          <div className={styles.CitiesRightSpan}>
-            <span>Certification Details</span>
-          </div>
+          {(src || src22 || src33) && (
+            <div className={styles.CitiesRightSpan}>
+              <span>Certification Details</span>
+            </div>
+          )}
+
           <div className={styles.CitiesRightInner}>
             <div>
               <h2 className={styles.pHead}>{CertificationHead1}</h2>
@@ -6956,31 +6949,37 @@ const CitiesRight = ({
                     />
                   </>
                 ) : null}
-                {!certificate1 && !certificate2 ? (
+                {!certificate1 && !certificate2 && (
                   <>
-                    <Image
-                      width={350}
-                      height={250}
-                      loading="lazy"
-                      src={src}
-                      alt="Learnbay - Sample IBM Certification Course"
-                    />
-                    <Image
-                      width={350}
-                      height={250}
-                      loading="lazy"
-                      src={src22}
-                      alt="Learnbay - Sample IBM Certification Course"
-                    />
-                    <Image
-                      width={350}
-                      height={250}
-                      loading="lazy"
-                      src={src33}
-                      alt="Learnbay - Sample Microsoft Certificate Course"
-                    />
+                    {src && (
+                      <Image
+                        width={350}
+                        height={250}
+                        loading="lazy"
+                        src={src}
+                        alt="Learnbay - Sample IBM Certification Course"
+                      />
+                    )}
+                    {src22 && (
+                      <Image
+                        width={350}
+                        height={250}
+                        loading="lazy"
+                        src={src22}
+                        alt="Learnbay - Sample IBM Certification Course"
+                      />
+                    )}
+                    {src33 && (
+                      <Image
+                        width={350}
+                        height={250}
+                        loading="lazy"
+                        src={src33}
+                        alt="Learnbay - Sample Microsoft Certificate Course"
+                      />
+                    )}
                   </>
-                ) : null}
+                )}
               </div>
             </div>
           </div>
@@ -7063,163 +7062,167 @@ const CitiesRight = ({
               ) : (
                 <>
                   {" "}
-                  <p className={styles.pp}>Module Details:</p>
-                  <div className={styles.SyllabusBot}>
-                    <div className={styles.SyllabusBot1}>
-                      <div className={styles.SyllabusBot11}>
-                        <div>
-                          <p className={styles.syllabush}>{syllabush1}</p>
-                          <p className={styles.syllabusb}>
-                            <BsClock className={styles.bIcons} />
-                            {syllabusb1}
-                          </p>
+                  {SyllabusBotlist11 && (
+                    <div>
+                      <p className={styles.pp}>Module Details:</p>
+                      <div className={styles.SyllabusBot}>
+                        <div className={styles.SyllabusBot1}>
+                          <div className={styles.SyllabusBot11}>
+                            <div>
+                              <p className={styles.syllabush}>{syllabush1}</p>
+                              <p className={styles.syllabusb}>
+                                <BsClock className={styles.bIcons} />
+                                {syllabusb1}
+                              </p>
+                            </div>
+                            <div className={styles.number1}>1</div>
+                          </div>
+                          <div className={styles.SyllabusBotlist}>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist11}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist12}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist13}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist14}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist15}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist16}
+                            </p>
+                          </div>
                         </div>
-                        <div className={styles.number1}>1</div>
+                        <div className={styles.SyllabusBot2}>
+                          <div className={styles.SyllabusBot22}>
+                            <div>
+                              <p className={styles.syllabush}>{syllabush2}</p>
+                              <p className={styles.syllabusb}>
+                                <BsClock className={styles.bIcons} />
+                                {syllabusb2}
+                              </p>
+                            </div>
+                            <div className={styles.number2}>2</div>
+                          </div>
+                          <div className={styles.SyllabusBotlist}>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist21}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist22}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist23}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist24}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist25}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist26}
+                            </p>
+                          </div>
+                        </div>
                       </div>
-                      <div className={styles.SyllabusBotlist}>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist11}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist12}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist13}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist14}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist15}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist16}
-                        </p>
+                      <div className={styles.SyllabusBot}>
+                        <div className={styles.SyllabusBot3}>
+                          <div className={styles.SyllabusBot33}>
+                            <div>
+                              <p className={styles.syllabush}>{syllabush3}</p>
+                              <p className={styles.syllabusb}>
+                                <BsClock className={styles.bIcons} />
+                                {syllabusb3}
+                              </p>
+                            </div>
+                            <div className={styles.number3}>3</div>
+                          </div>
+                          <div className={styles.SyllabusBotlist}>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist31}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist32}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist33}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist34}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist35}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist36}
+                            </p>
+                          </div>
+                        </div>
+                        <div className={styles.SyllabusBot4}>
+                          <div className={styles.SyllabusBot44}>
+                            <div>
+                              <p className={styles.syllabush}>{syllabush4}</p>
+                              <p className={styles.syllabusb}>
+                                <BsClock className={styles.bIcons} />
+                                {syllabusb4}
+                              </p>
+                            </div>
+                            <div className={styles.number4}>4</div>
+                          </div>
+                          <div className={styles.SyllabusBotlist}>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist41}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist42}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist43}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist44}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist45}
+                            </p>
+                            <p className={styles.SyllabusBotlistp}>
+                              <FiCheck className={styles.bIcons} />
+                              {SyllabusBotlist46}
+                            </p>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                    <div className={styles.SyllabusBot2}>
-                      <div className={styles.SyllabusBot22}>
-                        <div>
-                          <p className={styles.syllabush}>{syllabush2}</p>
-                          <p className={styles.syllabusb}>
-                            <BsClock className={styles.bIcons} />
-                            {syllabusb2}
-                          </p>
-                        </div>
-                        <div className={styles.number2}>2</div>
-                      </div>
-                      <div className={styles.SyllabusBotlist}>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist21}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist22}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist23}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist24}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist25}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist26}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className={styles.SyllabusBot}>
-                    <div className={styles.SyllabusBot3}>
-                      <div className={styles.SyllabusBot33}>
-                        <div>
-                          <p className={styles.syllabush}>{syllabush3}</p>
-                          <p className={styles.syllabusb}>
-                            <BsClock className={styles.bIcons} />
-                            {syllabusb3}
-                          </p>
-                        </div>
-                        <div className={styles.number3}>3</div>
-                      </div>
-                      <div className={styles.SyllabusBotlist}>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist31}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist32}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist33}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist34}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist35}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist36}
-                        </p>
-                      </div>
-                    </div>
-                    <div className={styles.SyllabusBot4}>
-                      <div className={styles.SyllabusBot44}>
-                        <div>
-                          <p className={styles.syllabush}>{syllabush4}</p>
-                          <p className={styles.syllabusb}>
-                            <BsClock className={styles.bIcons} />
-                            {syllabusb4}
-                          </p>
-                        </div>
-                        <div className={styles.number4}>4</div>
-                      </div>
-                      <div className={styles.SyllabusBotlist}>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist41}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist42}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist43}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist44}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist45}
-                        </p>
-                        <p className={styles.SyllabusBotlistp}>
-                          <FiCheck className={styles.bIcons} />
-                          {SyllabusBotlist46}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                  )}
                 </>
               )}
             </div>

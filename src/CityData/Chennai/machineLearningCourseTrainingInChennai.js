@@ -875,7 +875,11 @@ export const MachineLearningChennaiCourseData = [
       "How many Certificates does the machine learning course in Chennai provide?",
     CertificationBot1:
       "Post successful completion of Learnbay's professional machine learning course, we give a course completion certificate in partnership with IBM. Not only this. Interestingly, you’ll be provided with 6 IBM additional certificates for completing different modules of artificial intelligence and machine learning courses. The most important certificate among these 6 is the IBM Machine Learning Project Experience Certificate. These are unquestionably added bonuses to your resume.",
-    src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Advanced-AI-ML.jpeg",
+    src33:
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Azure+AI+Fundamentals.png",
+    src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",
+    src22:
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-Yellow.png",
     ModuleHead1:
       "What are the modules associated with this IBM machine learning course in Chennai?",
     ModuleBot1:

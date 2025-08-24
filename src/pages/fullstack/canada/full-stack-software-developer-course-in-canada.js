@@ -72,6 +72,9 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressed.pdf";
+
   return (
     <div className={styles.container}>
       <Head>
@@ -157,7 +160,8 @@ export default function Home() {
           dataScience={true}
           interstedInHide={true}
           titleCourse="Full-Stack Software Developer Course In Canada"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
+          brochurePdf={pdfUrl}
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressedv1.pdf"
           idss="Jn2puEQC8yk"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/head/W+Dev.png"
           firstToparaImg="To Achieve Your Dream Job"
@@ -209,7 +213,6 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              fullStackCity={true}
               ProgramHead1={FScanadaCourseData[0].ProgramHead1}
               ProgramBot1={FScanadaCourseData[0].ProgramBot1}
               ProgramBot2={FScanadaCourseData[0].ProgramBot2}
@@ -303,7 +306,7 @@ export default function Home() {
               SyllabusBotlist44={FScanadaCourseData[0].SyllabusBotlist44}
               SyllabusBotlist45={FScanadaCourseData[0].SyllabusBotlist45}
               SyllabusBotlist46={FScanadaCourseData[0].SyllabusBotlist46}
-              // syllabussrc={FScanadaCourseData[0].syllabussrc}
+              syllabussrc={FScanadaCourseData[0].syllabussrc}
               JobHead1={FScanadaCourseData[0].JobHead1}
               JobBot1={FScanadaCourseData[0].JobBot1}
               JobBot2={FScanadaCourseData[0].JobBot2}

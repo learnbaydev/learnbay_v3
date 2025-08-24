@@ -73,7 +73,8 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -168,14 +169,14 @@ export default function Home() {
           <FeeSection
             Fee="₹85,000"
             FeeEmi="₹5,572/month"
-           weekdaybatch="Weekend Batch"
-        weekendbatch="Weekday Batch"
-        weekday="SAT - SUN"
-        weekend="MON - THU"
-        WeekdayDate="19th Jan"
-        WeekendDate="3rd Jan"
-        WeekendTime="8:00 PM - 10:30 PM"
-        WeekdayTime="9:30 AM - 1 PM"
+            weekdaybatch="Weekend Batch"
+            weekendbatch="Weekday Batch"
+            weekday="SAT - SUN"
+            weekend="MON - THU"
+            WeekdayDate="19th Jan"
+            WeekendDate="3rd Jan"
+            WeekendTime="8:00 PM - 10:30 PM"
+            WeekdayTime="9:30 AM - 1 PM"
             FeeContent3="Flexible payment"
             FeeContent4="Easy loan procedure"
             FeeContent5="10 days refund policy"
@@ -204,6 +205,7 @@ export default function Home() {
           <div className="CitiesRight">
             <CitiesRight
               cityTextDAhyderabad={true}
+              hydrabad={true}
               ProgramHead1={DataAnalyticsHyderabadCourseData[0].ProgramHead1}
               ProgramHead2={DataAnalyticsHyderabadCourseData[0].ProgramHead2}
               ProgramBot1={DataAnalyticsHyderabadCourseData[0].ProgramBot1}
@@ -383,12 +385,30 @@ export default function Home() {
           </div>
         </div>
         <SeventhSection />
-        <CityText
+        {/* <CityText
           CityTextB={DataAnalyticsHyderabadCourseData[0].CityTextB}
           CityText={DataAnalyticsHyderabadCourseData[0].CityText}
           CityTextLB={DataAnalyticsHyderabadCourseData[0].CityTextLB}
           CityTextL={DataAnalyticsHyderabadCourseData[0].CityTextL}
-        />
+        /> */}
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItem: "center",
+            marginBottom: "20px",
+          }}
+        >
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d475.68866029517534!2d78.3934821!3d17.4831859!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9111ba959afb%3A0x1e9251b5636b5de1!2sLearnbay!5e0!3m2!1sen!2sin!4v1755758744210!5m2!1sen!2sin"
+            width="700"
+            height="350"
+            style={{ border: 0 }}
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
         <Footer />
         {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>

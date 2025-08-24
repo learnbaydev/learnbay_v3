@@ -216,6 +216,7 @@ export default function Home() {
           <div className="CitiesRight">
             <CitiesRight
               cityTextDSChennai={true}
+              chennai={true}
               // Programvideo={[<br />, <YoutubeEmbed />]}
               DomainHead1={DataScienceChennaiCourseData[0].DomainHead1}
               DomainBot1={DataScienceChennaiCourseData[0].DomainBot1}
@@ -381,7 +382,25 @@ export default function Home() {
           </div>
         </div>
         <SeventhSection />
-        <CityText cityTextChennai={true} />
+        {/* <CityText cityTextChennai={true} /> */}
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItem: "center",
+            marginBottom: "20px",
+          }}
+        >
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15546.27590561072!2d80.2479449!3d13.0630852!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267157fcdb4bb%3A0x41b85b57fd1d6f0e!2sLearnbay%20-%20Chennai!5e0!3m2!1sen!2sin!4v1755767222127!5m2!1sen!2sin"
+            width="700"
+            height="350"
+            style={{ border: 0 }}
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
         <Footer />
         {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>

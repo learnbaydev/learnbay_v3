@@ -437,12 +437,12 @@ export default function Home() {
           </div>
         </div>
         <SeventhSection />
-        <CityText
+        {/* <CityText
           CityTextB={DataScienceMumbaiCourseData[0].CityTextB}
           CityText={DataScienceMumbaiCourseData[0].CityText}
           CityTextLB={DataScienceMumbaiCourseData[0].CityTextLB}
           CityTextL={DataScienceMumbaiCourseData[0].CityTextL}
-        />
+        /> */}
         <Footer />
         {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>

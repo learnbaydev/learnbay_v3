@@ -72,6 +72,8 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressed.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -156,8 +158,9 @@ export default function Home() {
           ThirdTyped="Live Interactive Classes"
           dataScience={true}
           interstedInHide={true}
+          brochurePdf={pdfUrl}
           titleCourse="Full-Stack Software Developer Course In Delhi"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressedv1.pdf"
           idss="Jn2puEQC8yk"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/head/W+Dev.png"
           firstToparaImg="To Achieve Your Dream Job"
@@ -208,6 +211,7 @@ export default function Home() {
           <div className="CitiesRight">
             <CitiesRight
               fullStackCity={true}
+              delhi={true}
               ProgramBot1={FSDelhiCourseData[0].ProgramBot1}
               ProgramHead3={FSDelhiCourseData[0].ProgramHead3}
               ProgramBot3={FSDelhiCourseData[0].ProgramBot3}
@@ -334,12 +338,30 @@ export default function Home() {
           </div>
         </div>
         <SeventhSection />
-        <CityText
+        {/* <CityText
           CityTextB={FSDelhiCourseData[0].CityTextB}
           CityText={FSDelhiCourseData[0].CityText}
           CityTextLB={FSDelhiCourseData[0].CityTextLB}
           CityTextL={FSDelhiCourseData[0].CityTextL}
-        />
+        /> */}
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItem: "center",
+            marginBottom: "20px",
+          }}
+        >
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.0377025225034!2d77.22261153488769!3d28.62863210000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd6359f27df9%3A0x90b5e24793a5d614!2sLearnbay%20-%20Data%20Analytics%2C%20Data%20Science%20Course%20Training%20in%20Delhi!5e0!3m2!1sen!2sin!4v1754999874762!5m2!1sen!2sin"
+            width="700"
+            height="350"
+            style={{ border: 0 }}
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
         <Footer />
         {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>

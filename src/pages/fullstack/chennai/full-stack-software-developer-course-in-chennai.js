@@ -72,6 +72,9 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressed.pdf";
+
   return (
     <div className={styles.container}>
       <Head>
@@ -160,7 +163,10 @@ export default function Home() {
           ThirdTyped="Live Interactive Classes"
           cityParaCont=" Enroll in the best Job-ready full-stack software development course in Chennai. Take a 10-step step ahead of others towards the most lucrative salary package of product-based MNCs, which you deserve."
           titleCourse="Full-Stack Software Developer Course In Chennai To Achieve Your Dream Job"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Software+Developer+Certification.pdf"
+          dataScience={true}
+          interstedInHide={true}
+          brochurePdf={pdfUrl}
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressedv1.pdf"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/head/W+Dev.png"
           firstHeading="Full-Stack Software Developer Course In Chennai "
           firstToparaImg="To Achieve Your Dream Job"
@@ -211,7 +217,7 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              fullStackCity={true}
+              chennai={true}
               ProgramBot1={FullStackChennaiCourseData[0].ProgramBot1}
               ProgramBot2={FullStackChennaiCourseData[0].ProgramBot2}
               ProgramBot3={FullStackChennaiCourseData[0].ProgramBot3}
@@ -399,12 +405,24 @@ export default function Home() {
           </div>
         </div>
         <SeventhSection />
-        <CityText
-          CityTextB={FullStackChennaiCourseData[0].CityTextB}
-          CityText={FullStackChennaiCourseData[0].CityText}
-          CityTextLB={FullStackChennaiCourseData[0].CityTextLB}
-          CityTextL={FullStackChennaiCourseData[0].CityTextL}
-        />
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItem: "center",
+            marginBottom: "20px",
+          }}
+        >
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15546.27590561072!2d80.2479449!3d13.0630852!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267157fcdb4bb%3A0x41b85b57fd1d6f0e!2sLearnbay%20-%20Chennai!5e0!3m2!1sen!2sin!4v1755767222127!5m2!1sen!2sin"
+            width="700"
+            height="350"
+            style={{ border: 0 }}
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
         <Footer />
         {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>

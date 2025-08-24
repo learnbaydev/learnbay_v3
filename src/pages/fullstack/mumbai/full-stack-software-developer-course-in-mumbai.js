@@ -72,6 +72,9 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressed.pdf";
+
   return (
     <div className={styles.container}>
       <Head>
@@ -155,8 +158,10 @@ export default function Home() {
           ThirdTyped="Live Interactive Classes"
           cityParaCont="Enroll in the best Job-ready full-stack software development course in Mumbai. Take a 10-step step ahead of others towards the most lucrative salary package of product-based MNCs, which you deserve."
           dataScience={true}
+          interstedInHide={true}
+          brochurePdf={pdfUrl}
           titleCourse="Full-Stack Software Developer Course In Mumbai To Achieve Your Dream Job"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Advance+Data+Science+and+GenAI+Program_compv1.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressedv1.pdf"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
           firstToparaImg="To Achieve Your Dream Job"
           firstHeading="Full-Stack Software Developer Course In Mumbai"
@@ -207,7 +212,6 @@ export default function Home() {
           </div>
           <div className="CitiesRight">
             <CitiesRight
-              fullStackCity={true}
               ProgramBot1={FullStackMumbaiCourseData[0].ProgramBot1}
               ProgramHead3={FullStackMumbaiCourseData[0].ProgramHead3}
               ProgramBot3={FullStackMumbaiCourseData[0].ProgramBot3}
@@ -334,12 +338,12 @@ export default function Home() {
           </div>
         </div>
         <SeventhSection />
-        <CityText
+        {/* <CityText
           CityTextB={FullStackMumbaiCourseData[0].CityTextB}
           CityText={FullStackMumbaiCourseData[0].CityText}
           CityTextLB={FullStackMumbaiCourseData[0].CityTextLB}
           CityTextL={FullStackMumbaiCourseData[0].CityTextL}
-        />
+        /> */}
         <Footer />
         {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>

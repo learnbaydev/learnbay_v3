@@ -73,7 +73,8 @@ export default function Home() {
     };
     fetchPopup();
   }, []);
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Business-Analytics-Program.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -348,12 +349,12 @@ export default function Home() {
           </div>
         </div>
         <SeventhSection />
-        <CityText
+        {/* <CityText
           CityTextB={BAMumbaiCourseData[0].CityTextB}
           CityText={BAMumbaiCourseData[0].CityText}
           CityTextLB={BAMumbaiCourseData[0].CityTextLB}
           CityTextL={BAMumbaiCourseData[0].CityTextL}
-        />
+        /> */}
         <Footer />
         {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>
