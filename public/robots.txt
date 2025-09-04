@@ -7,6 +7,16 @@ Disallow: /
 User-agent: Sogou
 Disallow: /
 
+# Explicitly allow GPTBot, ChatGPT, and PerplexityBot
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
 User-agent: *
 Disallow: /*?utm_*
 Disallow: /*?fbclid*
