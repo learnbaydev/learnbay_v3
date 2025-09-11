@@ -542,7 +542,8 @@ export const DSSingaporeCourseData = [
     JobBot20:
       "Learnbay’s data science course in Singapore extends promising career support via industry-driven upskilling. Learners opting for data science courses gain 100% job assistance from our dedicated placement cell. Eligible learners (at least 70% score in assessments) will get 100% job support via Career Service Pro. It includes –",
     Joblist14: "Placement support for 3 years with promising job offers",
-    Joblist15: "6 mock interviews (any of the 450+ industry partners)",
+    Joblist15:
+      "6 mock interviews (any of the 450+ leading MNCs & unicorn startups)",
     Joblist16: "Resume Optimization",
     Joblist17: "LinkedIn Profiling",
 

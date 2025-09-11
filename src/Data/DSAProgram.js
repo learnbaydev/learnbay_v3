@@ -1341,7 +1341,7 @@ export const FSSPDataScienceCourseData = [
             id: 0,
             ques: "What is a job readiness program at Learnbay?",
 
-            ans: `Learnbay is the best institute for data structures and algorithms. It offers resume-building, career counseling, and 1:1 mock interview preparation sessions. This program aims to help tech experts redefine their careers in relevant fields with attractive pay. Its tie-ups with 350+ industry partners help the learners get into the leading MNCs in their desired areas. `,
+            ans: `Learnbay is the best institute for data structures and algorithms. It offers resume-building, career counseling, and 1:1 mock interview preparation sessions. This program aims to help tech experts redefine their careers in relevant fields with attractive pay. Its tie-ups with 350+ leading MNCs & unicorn startups help the learners get into the leading MNCs in their desired areas. `,
             open: true,
           },
           {

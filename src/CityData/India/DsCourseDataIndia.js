@@ -561,7 +561,7 @@ export const DSIndiaCourseData = [
     JobBot39: "Career Service Pro feature provides –      ",
     Joblist14: "job and placement services for three years      ",
     Joblist15:
-      "Six 1:1 mock interviews scheduled with any of the 450+ industry partners      ",
+      "Six 1:1 mock interviews scheduled with any of the 450+ leading MNCs & unicorn startups      ",
     Joblist16: "Resume building with job-ready skills    ",
     Joblist17: "LinkedIn profile review     ",
 
@@ -589,7 +589,7 @@ export const DSIndiaCourseData = [
     JobBot007:
       " The data science program entails GenAI-rich training courses with global career paths. Experts have the privilege of working on capstone projects in chosen domains. This helps experts understand real-world business issues and solve them efficiently.      ",
     JobBot005:
-      " Furthermore, we offer data science certification in India accredited by IBM and MS for extended social connections and global recognition. Our 450+ industry partners guide you to crack product/service-based interviews with leading MNCs.     ",
+      " Furthermore, we offer data science certification in India accredited by IBM and MS for extended social connections and global recognition. Our 450+ leading MNCs & unicorn startups guide you to crack product/service-based interviews with leading MNCs.     ",
     JobBot006: " ",
     JobHead22:
       "What job roles can you get into with Learnbay’s online data science course in India?      ",

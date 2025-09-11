@@ -507,7 +507,7 @@ export const DSJaipurCourseData = [
     JobBot39: "Career Service Pro feature offers –",
     Joblist14: "job and placement services for three years",
     Joblist15:
-      "Six 1:1 mock interviews scheduled with any of the 450+ industry partners",
+      "Six 1:1 mock interviews scheduled with any of the 450+ leading MNCs & unicorn startups",
     Joblist16: "Resume building with job-ready skills",
     Joblist17: "LinkedIn profile review",
     Joblist18:
@@ -535,7 +535,7 @@ export const DSJaipurCourseData = [
     JobBot007:
       "The program for Data Science offers training courses on AI and provides better offers around the world. There are various options for experts to pursue diversified live projects which helps them tackle real business issues and arrive, and factual solutions.",
     JobBot005:
-      "Also, we offer data science certification in Jaipur, accredited by IBM and MS, for extended social networks and global recognition. Our 450+ industry partners guide you to crack critical interviews with leading MNCs.",
+      "Also, we offer data science certification in Jaipur, accredited by IBM and MS, for extended social networks and global recognition. Our 450+ leading MNCs & unicorn startups guide you to crack critical interviews with leading MNCs.",
     JobBot006: " ",
     JobHead22:
       "What job roles can you get into with Learnbay’s online data science course in Jaipur?",

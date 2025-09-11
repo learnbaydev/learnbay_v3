@@ -559,7 +559,7 @@ export const DSDhakaCourseData = [
     JobBot39: "Career Service PRO includes –         ",
     Joblist14: "Constant job and placement services for three years         ",
     Joblist15:
-      "1:1 mock interviews with any six of the 450+ industry partners       ",
+      "1:1 mock interviews with any six of the 450+ leading MNCs & unicorn startups       ",
     Joblist16: "LinkedIn profile revision      ",
     Joblist17:
       "Resume optimization    and Unlimited job calls across the MNCs in Dhaka and overseas       ",

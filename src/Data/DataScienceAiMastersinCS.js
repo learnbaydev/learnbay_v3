@@ -925,7 +925,7 @@ export const DataScienceMastersinCS = [
             id: 0,
             ques: "What’s the eligibility for a job assistance program at Learnbay?",
 
-            ans: `Learners enrolling in this master’s program must complete the course with a minimum of 70% marks. Learners must complete all their practical tasks, assessments, and projects to get the job assistance program benefits. Then they are eligible for a job assistance program at Learnbay, that offers the scope of getting placed across one of the 300+ industry partners. `,
+            ans: `Learners enrolling in this master’s program must complete the course with a minimum of 70% marks. Learners must complete all their practical tasks, assessments, and projects to get the job assistance program benefits. Then they are eligible for a job assistance program at Learnbay, that offers the scope of getting placed across one of the 300+ leading MNCs & unicorn startups. `,
             open: true,
           },
           {
@@ -1005,7 +1005,7 @@ export const DataScienceMastersinCS = [
           {
             id: 2,
             ques: "How long will I get Job referrals?",
-            ans: "You are eligible to avail of job referrals once you successfully complete your course. Under the Career Service Pro package, a learner is entitled to get 3 years of continuous job referrals to get placed across 300+ industry partners. ",
+            ans: "You are eligible to avail of job referrals once you successfully complete your course. Under the Career Service Pro package, a learner is entitled to get 3 years of continuous job referrals to get placed across 300+ leading MNCs & unicorn startups. ",
             open: false,
           },
         ],

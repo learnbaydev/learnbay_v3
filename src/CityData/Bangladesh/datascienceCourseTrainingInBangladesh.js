@@ -546,7 +546,8 @@ export const DSBangladeshCourseData = [
     JobBot39: "Major highlights are –    ",
     Joblist14:
       "Hassle-free job and placement support for 3 years (global job offers)        ",
-    Joblist15: "Six 1:1 mock interviews (any of 450+ industry partners)      ",
+    Joblist15:
+      "Six 1:1 mock interviews (any of 450+ leading MNCs & unicorn startups)      ",
     Joblist16: "Resume Review",
     Joblist17: "LinkedIn Profiling",
     JobBot40:
@@ -558,7 +559,7 @@ export const DSBangladeshCourseData = [
     JobBot21:
       " Learners opt for our data science courses due to their inclusive learning setup with the benefits of kickstarting global-level careers. Our alliance with IBM & MS offers globally recognized certificates that unlock competitive success.         ",
     JobBot22:
-      "Plus, our 450+ industry partners (MNC/MAANG) add more value to your career with global placements and perks. It helps in placement programs, preparing you for critical job interviews with leading MNCs.         ",
+      "Plus, our 450+ leading MNCs & unicorn startups (MNC/MAANG) add more value to your career with global placements and perks. It helps in placement programs, preparing you for critical job interviews with leading MNCs.         ",
     JobBot23:
       "Thus, enrolling in Learnbay’s data science online course Bangladesh is worthy of a career rise.       ",
     JobHead23:

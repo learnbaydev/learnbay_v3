@@ -42,9 +42,10 @@ export const GENAIManagersLeadersCourseData = [
         title: "E&ICT Academy, IIT Guwahati-Backed Certification",
         description:
           "Stand out with a prestigious certification from E&ICT Academy, IIT Guwahati.",
-          logos:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iit_GEN_WHy+(1).webp",
-          logosWidth:"200",
-              logosHeight:"45",
+        logos:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iit_GEN_WHy+(1).webp",
+        logosWidth: "200",
+        logosHeight: "45",
         subItems: [
           {
             icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/3dicons+(1).webp",
@@ -158,8 +159,8 @@ export const GENAIManagersLeadersCourseData = [
         extraImageSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iit_Gu_sum+(1).webp",
         extraImageAlt: "IIt Guwati",
-               extraImageSrcWidth:"180",
-        extraImageSrcHeight:"40"
+        extraImageSrcWidth: "180",
+        extraImageSrcHeight: "40",
       },
     ],
     masterSyllabusMobile: [
@@ -780,7 +781,7 @@ export const GENAIManagersLeadersCourseData = [
         ],
         rank: "#4",
         duration: "20 hours",
-      }
+      },
       // Add more data as needed
     ],
     faq: [
@@ -914,7 +915,7 @@ export const GENAIManagersLeadersCourseData = [
           {
             id: 3,
             ques: "How many interview calls will I get at Learnbay?",
-            ans: "Learners joining our Generative AI for Managers course will get endless job calls from top-rated 350+ industry partners to accelerate career rise metrics.",
+            ans: "Learners joining our Generative AI for Managers course will get endless job calls from top-rated 350+ leading MNCs & unicorn startups to accelerate career rise metrics.",
             open: true,
           },
         ],
@@ -1056,7 +1057,7 @@ export const GENAIManagersLeadersCourseData = [
           {
             id: 2,
             ques: "How long will I get job referrals?",
-            ans: "You are qualified to avail of job referrals once you complete the course. Under the Career Services Pro package, a learner can avail of continuous job referrals to get placed across 350+ industry partners. ",
+            ans: "You are qualified to avail of job referrals once you complete the course. Under the Career Services Pro package, a learner can avail of continuous job referrals to get placed across 350+ leading MNCs & unicorn startups. ",
             open: false,
           },
         ],

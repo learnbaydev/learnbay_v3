@@ -679,7 +679,7 @@ export const CloudAndDevOpsCourseData = [
           {
             id: 6,
             ques: "How does the program get updated on recent developments in Cloud technology?              ",
-            ans: "Learnbay follows each significant industrial/job market incident across the global IT sector and its impacts on specific job roles. Quality industry research, networking with industry experts, and tie-ups with industry partners keep us updated with the latest trends in Cloud Computing. In the same way, our course syllabus has been revamped as per the recent developments with AWS, Microsoft Azure, and GCP.               ",
+            ans: "Learnbay follows each significant industrial/job market incident across the global IT sector and its impacts on specific job roles. Quality industry research, networking with industry experts, and tie-ups with leading MNCs & unicorn startups keep us updated with the latest trends in Cloud Computing. In the same way, our course syllabus has been revamped as per the recent developments with AWS, Microsoft Azure, and GCP.               ",
             open: false,
           },
           {

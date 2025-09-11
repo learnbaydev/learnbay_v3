@@ -374,7 +374,7 @@ export const masterdegreeUSACourseData = [
           {
             id: 1,
             ques: "Do you have partnerships with companies or industry connections that help students secure internships or job placements for MS in data science in the USA?            ",
-            ans: `Yes, we have an industry partnership with 450+ leading companies in the USA and overseas that assist career transitions with premium placements and internships.             `,
+            ans: `Yes, we have an leading MNCs & unicorn startupship with 450+ leading companies in the USA and overseas that assist career transitions with premium placements and internships.             `,
             open: false,
           },
           {
@@ -640,10 +640,10 @@ export const masterdegreeUSACourseData = [
       "Reviewing LinkedIn Profiles and Job-readiness with interview support     ",
     Joblist16: "Exclusive Job Assist for 3 years     ",
     Joblist17:
-      "Six 1:1 Mock Interviews with leading MNCs (our 450+ industry partners)    ",
+      "Six 1:1 Mock Interviews with leading MNCs & unicorn startups    ",
     Joblist18: "1:1 Doubt-clearing     ",
     Joblist19:
-      "Six 1:1 Mock Interviews with leading MNCs (our 450+ industry partners)    ",
+      "Six 1:1 Mock Interviews with leading MNCs & unicorn startups    ",
 
     JobBotMasterBot4:
       "Unlike standard upskilling programs, we offer the best online data science masters with unparalleled career success.     ",

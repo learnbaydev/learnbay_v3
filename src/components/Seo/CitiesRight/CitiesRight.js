@@ -2738,7 +2738,7 @@ const CitiesRight = ({
               <li>
                 <b>Career Service Pro:</b> Experts enrolling in our data science
                 course in UK will get 100% job and placement support with 450+
-                industry partners.
+                leading MNCs & unicorn startups.
               </li>
             </ul>
           </div>

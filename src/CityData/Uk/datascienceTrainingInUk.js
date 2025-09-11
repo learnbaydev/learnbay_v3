@@ -559,7 +559,7 @@ export const DSUKCourseData = [
     JobBot39: "It includes –      ",
     Joblist14: "Three years of smooth job and placement support       ",
     Joblist15:
-      "Six mock interviews lined up with our industry partners (any of the 450+ partners)      ",
+      "Six mock interviews lined up with our leading MNCs & unicorn startups (any of the 450+ partners)      ",
     Joblist16: "Resume Buildup and LinkedIn Profile Review    ",
     Joblist17: "Job calls from MNCs in the UK and overseas",
 

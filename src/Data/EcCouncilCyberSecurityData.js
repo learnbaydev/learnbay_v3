@@ -779,7 +779,8 @@ export const ECCyberSecurityData = [
             ques: "Can I opt for the Career Services Pro feature?",
             ans: "Entry to mid-level working experts with a 70% score in the course and live projects can opt for Learnbay’s Career Services PRO feature. Here, you will get –",
 
-            list2: "Job-driven 1:1 mock interviews with 350+ industry partners",
+            list2:
+              "Job-driven 1:1 mock interviews with 350+ leading MNCs & unicorn startups",
             list3: "Online CV-making and LinkedIn profiling sessions",
             list4: "Promising job calls from top-notch MNCs/MAANG/FAANG",
             dscoursefaq1: true,
@@ -846,7 +847,7 @@ export const ECCyberSecurityData = [
           {
             id: 2,
             ques: "How long will I get job referrals?",
-            ans: "You are qualified to avail of job referrals once you finish the course tasks and live projects. With the Career Services Pro, a learner can avail of ongoing job referrals to get placed across 350+ industry partners. ",
+            ans: "You are qualified to avail of job referrals once you finish the course tasks and live projects. With the Career Services Pro, a learner can avail of ongoing job referrals to get placed across 350+ leading MNCs & unicorn startups. ",
             open: false,
           },
         ],

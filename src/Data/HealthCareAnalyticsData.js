@@ -854,7 +854,7 @@ export const HealthcareDataScienceCourseData = [
           {
             id: 1,
             ques: "How many interview calls will I get at Learnbay?            ",
-            ans: "You will be provided with 8 – 10 interview calls from our potential industry partners.             ",
+            ans: "You will be provided with 8 – 10 interview calls from our potential leading MNCs & unicorn startups.             ",
             open: false,
           },
           {

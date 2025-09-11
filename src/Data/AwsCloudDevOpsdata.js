@@ -644,7 +644,7 @@ export const AwsAndDevOpsCourseData = [
           {
             id: 7,
             ques: "How does the program get updated with the recent developments in Cloud technology and DevOps practices?              ",
-            ans: "Learnbay follows each significant industrial/job market incident across the global IT sector and its impacts on specific job roles. Quality industry research, networking with industry experts, and tie-ups with industry partners keep us updated with the latest Cloud and DevOps trends. In the same way, our course syllabus has been revamped as per the recent developments with AWS and DevOps practices.               ",
+            ans: "Learnbay follows each significant industrial/job market incident across the global IT sector and its impacts on specific job roles. Quality industry research, networking with industry experts, and tie-ups with leading MNCs & unicorn startups keep us updated with the latest Cloud and DevOps trends. In the same way, our course syllabus has been revamped as per the recent developments with AWS and DevOps practices.               ",
             open: false,
           },
           {

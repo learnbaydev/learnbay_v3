@@ -42,9 +42,10 @@ export const GENAIManagersLeadersCourseDataIBM = [
         title: "Learnbay-Backed Certification",
         description:
           "Stand out with a prestigious certification from Learnbay.",
-          logos:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/white-logo.webp",
-    logosWidth:"160",
-        logosHeight:"90",
+        logos:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/white-logo.webp",
+        logosWidth: "160",
+        logosHeight: "90",
         subItems: [
           {
             icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/3dicons+(1).webp",
@@ -58,7 +59,6 @@ export const GENAIManagersLeadersCourseDataIBM = [
             width: "50",
             height: "50",
           },
-
         ],
         //   note: "Hybrid mode allows learners to benefit from both flexible, remote learning and direct, face-to-face interaction.",
       },
@@ -159,8 +159,8 @@ export const GENAIManagersLeadersCourseDataIBM = [
         extraImageSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png",
         extraImageAlt: "IIt IBM",
-        extraImageSrcWidth:"140",
-        extraImageSrcHeight:"36"
+        extraImageSrcWidth: "140",
+        extraImageSrcHeight: "36",
       },
     ],
     masterSyllabusMobile: [
@@ -781,7 +781,7 @@ export const GENAIManagersLeadersCourseDataIBM = [
         ],
         rank: "#4",
         duration: "20 hours",
-      }
+      },
       // Add more data as needed
     ],
     faq: [
@@ -896,7 +896,6 @@ export const GENAIManagersLeadersCourseDataIBM = [
             open: true,
           },
 
-        
           {
             id: 1,
             ques: "Who is eligible for a job assistance program at Learnbay?",
@@ -910,7 +909,7 @@ export const GENAIManagersLeadersCourseDataIBM = [
           {
             id: 2,
             ques: "How many interview calls will I get at Learnbay?",
-            ans: "Learners joining our Generative AI for Managers course will get endless job calls from top-rated 350+ industry partners to accelerate career rise metrics.",
+            ans: "Learners joining our Generative AI for Managers course will get endless job calls from top-rated 350+ leading MNCs & unicorn startups to accelerate career rise metrics.",
             open: true,
           },
         ],
@@ -1052,7 +1051,7 @@ export const GENAIManagersLeadersCourseDataIBM = [
           {
             id: 2,
             ques: "How long will I get job referrals?",
-            ans: "You are qualified to avail of job referrals once you complete the course. Under the Career Services Pro package, a learner can avail of continuous job referrals to get placed across 350+ industry partners. ",
+            ans: "You are qualified to avail of job referrals once you complete the course. Under the Career Services Pro package, a learner can avail of continuous job referrals to get placed across 350+ leading MNCs & unicorn startups. ",
             open: false,
           },
         ],

@@ -91,11 +91,11 @@ export const DevOpsCourseInBangalore = [
                 Learnbay follows each substantial industrial/job market incident
                 across the global IT sector and its impacts on specific job
                 roles. Quality industry research, networking with industry
-                experts, and tie-ups with industry partners keep us updated with
-                the latest trends in DevOps. In the same way, our{" "}
-                <b>DevOps training in Bangalore</b> syllabus has been revamped
-                as per the recent developments with AWS, Microsoft Azure, and
-                GCP.{" "}
+                experts, and tie-ups with leading MNCs & unicorn startups keep
+                us updated with the latest trends in DevOps. In the same way,
+                our <b>DevOps training in Bangalore</b> syllabus has been
+                revamped as per the recent developments with AWS, Microsoft
+                Azure, and GCP.{" "}
               </span>
             ),
             open: false,

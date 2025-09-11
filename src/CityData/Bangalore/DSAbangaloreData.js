@@ -271,7 +271,7 @@ export const DSABangaloreCourseData = [
             id: 0,
             ques: "What is a job readiness program at Learnbay? ",
 
-            ans: `Learnbay is the best institute for data structures and algorithms in Bangalore with resume-building sessions, portfolio designing, and 1:1 mock interview preparation sessions. This program aims to help working professionals redefine their careers in relevant fields with attractive pay. The tie-ups with 450+ industry partners help the learners get their entry into the leading MNCs in their desired areas. `,
+            ans: `Learnbay is the best institute for data structures and algorithms in Bangalore with resume-building sessions, portfolio designing, and 1:1 mock interview preparation sessions. This program aims to help working professionals redefine their careers in relevant fields with attractive pay. The tie-ups with 450+ leading MNCs & unicorn startups help the learners get their entry into the leading MNCs in their desired areas. `,
             open: true,
           },
           {
@@ -286,7 +286,7 @@ export const DSABangaloreCourseData = [
             ans: `The Career Services PRO at Learnbay offers you the - `,
             list1:
               "Three years of job placement assistance with Job-ready training, interview support and learning portals",
-            list2: "Six mock interviews with industry partners",
+            list2: "Six mock interviews with leading MNCs & unicorn startups",
             list3: "Powerful resume design to ace interviews",
             list4: "1:1 review session",
             list5: "Job-readiness with interview support",
@@ -315,7 +315,7 @@ export const DSABangaloreCourseData = [
           {
             id: 4,
             ques: "Will I get job referrals at Learnbay? ",
-            ans: `After successful completion of course training sessions, live projects, and other assessments provided, a learner becomes eligible to attend job interviews with our partnered industries. Here, Learnbay offers job referrals for your desired roles to its industry partners, consultancies, and companies. `,
+            ans: `After successful completion of course training sessions, live projects, and other assessments provided, a learner becomes eligible to attend job interviews with our partnered industries. Here, Learnbay offers job referrals for your desired roles to its leading MNCs & unicorn startups, consultancies, and companies. `,
             open: false,
           },
         ],
@@ -417,7 +417,7 @@ export const DSABangaloreCourseData = [
     JobBot2:
       "Yet, learning can be challenging if you’re not placed in your dream company or job position. Join Learnbay’s end-to-end job assistance program to land your dream roles with exciting perks, rewards, and hassle-free promotions. Hence, DSA courses in Bangalore with proven placement aid are worth investing in for experts. ",
     JobBot5:
-      "Several tech and non-tech professionals pursue a DSA course in Bangalore with 100% placement assistance. Eligible learners (with at least 70% scores in tasks and projects) opt for Learnbay’s ‘Career Services PRO’ to boost their success prospects. Our tie-up with 450+ industry partners escalates your success chances limitlessly. ",
+      "Several tech and non-tech professionals pursue a DSA course in Bangalore with 100% placement assistance. Eligible learners (with at least 70% scores in tasks and projects) opt for Learnbay’s ‘Career Services PRO’ to boost their success prospects. Our tie-up with 450+ leading MNCs & unicorn startups escalates your success chances limitlessly. ",
     JobHead2: "Career Services PRO includes –",
     JobBot3:
       "Three years of placement support with Job-ready training, interview support and learning resources",

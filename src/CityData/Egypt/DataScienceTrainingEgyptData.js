@@ -549,7 +549,8 @@ export const DSEgyptCourseData = [
       "Career Service PRO with our data science courses in Egypt offers –        ",
     JobBot39: "  ",
     Joblist14: "Hassle-free job and placement support (for 3 years)        ",
-    Joblist15: "Mock interviews (any of the 450+ industry partners)        ",
+    Joblist15:
+      "Mock interviews (any of the 450+ leading MNCs & unicorn startups)        ",
     Joblist16: "Resume Building and LinkedIn Profiling      ",
     Joblist17: " Endless job calls from MNCs in Egypt and overseas       ",
 

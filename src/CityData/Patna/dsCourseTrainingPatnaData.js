@@ -507,7 +507,7 @@ export const DSPatnaCourseData = [
     JobBot39: "Career Service Pro feature provides –",
     Joblist14: "job and placement services for three years",
     Joblist15:
-      "Six 1:1 mock interviews scheduled with any of the 450+ industry partners",
+      "Six 1:1 mock interviews scheduled with any of the 450+ leading MNCs & unicorn startups",
     Joblist16: "Resume building with job-ready skills",
     Joblist17:
       "Endless job calls from MNCs in Patna and other cities in India        ",
@@ -538,7 +538,7 @@ export const DSPatnaCourseData = [
     JobBot005:
       "The program for Data Science has AI training courses and better offers from all over the world. Experts can work on various real-life projects that help them deal with real business problems and find real solutions.          .",
     JobBot006:
-      "We also offer IBM and MS-approved data science certifications in Patna so that you can build your social networks and get recognized worldwide. Our more than 450 industry partners help you pass tough interviews with top MNCs.         ",
+      "We also offer IBM and MS-approved data science certifications in Patna so that you can build your social networks and get recognized worldwide. Our more than 450 leading MNCs & unicorn startups help you pass tough interviews with top MNCs.         ",
 
     JobHead22:
       "What job roles can you get into with Learnbay’s online Data Science Course in Patna?        ",

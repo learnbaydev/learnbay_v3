@@ -365,7 +365,8 @@ export const DataScienceCourseData = [
     JobBot20: "Vital career gains via our Career Service PRO are –        ",
     Joblist14:
       "1:1 doubt-clearing with mentors (Course and Project-related)      ",
-    Joblist15: "Six 1:1 mock interviews (450+ industry partners)      ",
+    Joblist15:
+      "Six 1:1 mock interviews (450+ leading MNCs & unicorn startups)      ",
     Joblist16: "Three years of job support/Resume building      ",
     Joblist17: "Endless job calls from leading MNCs      ",
     JobHead21: "  ",

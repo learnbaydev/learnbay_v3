@@ -880,7 +880,7 @@ export const CloudAndDevOpsCourseData = [
           {
             id: 5,
             ques: "How does the program get updated on recent developments in DevOps?              ",
-            ans: "Learnbay follows each significant industrial/job market incident across the global IT sector and its impacts on specific job roles. Quality industry research, networking with industry experts, and tie-ups with industry partners keep us updated with the latest trends in DevOps. In the same way, our course syllabus has been revamped as per the recent developments with DevSecOps, Automation, Kubernetes, and GitOps.               ",
+            ans: "Learnbay follows each significant industrial/job market incident across the global IT sector and its impacts on specific job roles. Quality industry research, networking with industry experts, and tie-ups with leading MNCs & unicorn startups keep us updated with the latest trends in DevOps. In the same way, our course syllabus has been revamped as per the recent developments with DevSecOps, Automation, Kubernetes, and GitOps.               ",
             open: false,
           },
           {

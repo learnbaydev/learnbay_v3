@@ -55,7 +55,7 @@ export const CloudBangalore = {
       name: "How does the program get updated on recent developments in Cloud technology?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Learnbay follows each substantial industrial/job market incident across the global IT sector and its impacts on specific job roles. Quality industry research, networking with industry experts, and tie-ups with industry partners keep us updated with the latest trends in Cloud Computing. In the same way, our cloud technology courses in Bangalore syllabus have been revamped as per the recent developments with AWS, Microsoft Azure, and GCP.",
+        text: "Learnbay follows each substantial industrial/job market incident across the global IT sector and its impacts on specific job roles. Quality industry research, networking with industry experts, and tie-ups with leading MNCs & unicorn startups keep us updated with the latest trends in Cloud Computing. In the same way, our cloud technology courses in Bangalore syllabus have been revamped as per the recent developments with AWS, Microsoft Azure, and GCP.",
       },
     },
     {

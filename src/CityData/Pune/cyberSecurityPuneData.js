@@ -303,7 +303,8 @@ export const CuberSecurityPuneCourseData = [
             ques: "Can I opt for the Career Support Services feature?",
             ans: `Entry to mid-level IT pros with at least 70% score in the course and live projects can apply for Career Support Services. Here, learners will get –`,
             list1: "Effortless job assistance ",
-            list2: "Virtual interview prep with 350+ allied industry partners",
+            list2:
+              "Virtual interview prep with 350+ allied leading MNCs & unicorn startups",
             list3: "Resume-making sessions",
             dscoursefaq1: true,
             open: false,
@@ -421,7 +422,8 @@ export const CuberSecurityPuneCourseData = [
       "Techies can join our reliable placement program to refine their soft skills, prepare for interviews, and revamp resumes for better reach. Enrolling in our career-driven cyber security course in Pune equips you with skills to land promising jobs with the leading MNCs. ",
     JobBot7: "In short, our career support services offer –",
     JobBot8: "Effortless job and placement support",
-    JobBot9: "Virtual interview prep with 350+ allied industry partners",
+    JobBot9:
+      "Virtual interview prep with 350+ allied leading MNCs & unicorn startups",
     JobBot10: "CV-making sessions",
 
     JobBot11: "Continued job calls",

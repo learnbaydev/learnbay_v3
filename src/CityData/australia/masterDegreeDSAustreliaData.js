@@ -584,7 +584,7 @@ export const masterdegreeAUSData = [
     Joblist15: "LinkedIn Profile Review    ",
     Joblist16: "Job Support for 3 years with Job Calls     ",
     Joblist17:
-      "Six 1:1 Mock Interviews with leading MNCs (our 450+ industry partners)      ",
+      "Six 1:1 Mock Interviews with leading MNCs & unicorn startups      ",
     Joblist18: "1:1 Doubt-clearing sessions    ",
     Joblist19: "Job Calls       ",
 
