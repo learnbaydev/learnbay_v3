@@ -23,7 +23,7 @@ export const courseDetails = [
             para: [
               "13 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1:
               "/datascience/data-science-and-ai-master-certification-program",
@@ -143,7 +143,7 @@ export const courseDetails = [
             para: [
               "10 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "fullstack/dsa-system-design",
             link2:
@@ -298,7 +298,7 @@ export const courseDetails = [
             para: [
               "6 months | 4 capstone projects",
               "E&ICT Academy IIT Guwahati Certification",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "/datascience/advance-data-analytics-program-iit-guwahati",
             link2:
@@ -605,7 +605,7 @@ export const courseDetails = [
             para: [
               "10 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "fullstack/dsa-system-design",
             link2:
@@ -760,7 +760,7 @@ export const courseDetails = [
             para: [
               "6 months | 4 capstone projects",
               "E&ICT Academy IIT Guwahati Certification",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "/datascience/advance-data-analytics-program-iit-guwahati",
             link2:
@@ -809,7 +809,7 @@ export const courseDetails = [
             para: [
               "13 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1:
               "/datascience/data-science-and-ai-master-certification-program",
@@ -1116,7 +1116,7 @@ export const courseDetails = [
             para: [
               "10 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "fullstack/dsa-system-design",
             link2:
@@ -1269,7 +1269,7 @@ export const courseDetails = [
             para: [
               "6 months | 4 capstone projects",
               "E&ICT Academy IIT Guwahati Certification",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "/datascience/advance-data-analytics-program-iit-guwahati",
             link2:
@@ -1318,7 +1318,7 @@ export const courseDetails = [
             para: [
               "13 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1:
               "/datascience/data-science-and-ai-master-certification-program",
@@ -1472,7 +1472,7 @@ export const courseDetails = [
             para: [
               "10 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "fullstack/dsa-system-design",
             link2:
@@ -1627,7 +1627,7 @@ export const courseDetails = [
             para: [
               "6 months | 4 capstone projects",
               "E&ICT Academy IIT Guwahati Certification",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "/datascience/advance-data-analytics-program-iit-guwahati",
             link2:
@@ -1676,7 +1676,7 @@ export const courseDetails = [
             para: [
               "13 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1:
               "/datascience/data-science-and-ai-master-certification-program",
@@ -1804,7 +1804,7 @@ export const courseDetails = [
             para: [
               "3-4 months  |  4 Capstone Projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
               ,
             ],
             link1: "/cloud&devops/aws-cloud-computing-and-devOps",
@@ -1875,7 +1875,7 @@ export const courseDetails = [
             para: [
               "10 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "fullstack/dsa-system-design",
             link2:
@@ -2030,7 +2030,7 @@ export const courseDetails = [
             para: [
               "6 months | 4 capstone projects",
               "E&ICT Academy IIT Guwahati Certification",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "/datascience/advance-data-analytics-program-iit-guwahati",
             link2:
@@ -2079,7 +2079,7 @@ export const courseDetails = [
             para: [
               "13 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1:
               "/datascience/data-science-and-ai-master-certification-program",
@@ -2187,7 +2187,7 @@ export const courseDetailsM = [
             para: [
               "13 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1:
               "/datascience/data-science-and-ai-master-certification-program",
@@ -2307,7 +2307,7 @@ export const courseDetailsM = [
             para: [
               "10 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "fullstack/dsa-system-design",
             link2:
@@ -2462,7 +2462,7 @@ export const courseDetailsM = [
             para: [
               "6 months | 4 capstone projects",
               "E&ICT Academy IIT Guwahati Certification",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "/datascience/advance-data-analytics-program-iit-guwahati",
             link2:
@@ -2834,7 +2834,7 @@ export const courseDetailsM = [
             para: [
               "10 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "fullstack/dsa-system-design",
             link2:
@@ -2988,7 +2988,7 @@ export const courseDetailsM = [
             para: [
               "6 months | 4 capstone projects",
               "E&ICT Academy IIT Guwahati Certification",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "/datascience/advance-data-analytics-program-iit-guwahati",
             link2:
@@ -3181,7 +3181,7 @@ export const courseDetailsM = [
             para: [
               "3-4 months  |  4 Capstone Projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
               ,
             ],
             link1: "/cloud&devops/aws-cloud-computing-and-devOps",
@@ -3251,7 +3251,7 @@ export const courseDetailsM = [
             para: [
               "10 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "fullstack/dsa-system-design",
             link2:
@@ -3405,7 +3405,7 @@ export const courseDetailsM = [
             para: [
               "6 months | 4 capstone projects",
               "E&ICT Academy IIT Guwahati Certification",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "/datascience/advance-data-analytics-program-iit-guwahati",
             link2:
@@ -3454,7 +3454,7 @@ export const courseDetailsM = [
             para: [
               "13 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1:
               "/datascience/data-science-and-ai-master-certification-program",

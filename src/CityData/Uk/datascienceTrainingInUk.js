@@ -561,7 +561,7 @@ export const DSUKCourseData = [
     Joblist15:
       "Six mock interviews lined up with our industry partners (any of the 450+ partners)      ",
     Joblist16: "Resume Buildup and LinkedIn Profile Review    ",
-    Joblist17: " Unlimited job calls from MNCs in the UK and overseas",
+    Joblist17: "Job calls from MNCs in the UK and overseas",
 
     JobHead30:
       "Is Learnbay’s data science course in UK worthy of career rise?    ",

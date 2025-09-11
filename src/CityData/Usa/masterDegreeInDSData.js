@@ -636,7 +636,8 @@ export const masterdegreeUSACourseData = [
     JobBot20:
       "Learnbay’s MS in data science in USA guides you 24/7 till you land your dream job. Eligible learners (at least 70% score in course tasks) get job support from our dedicated placement cell. It is termed as ‘Career Service Pro’ where experts have the following benefits –      ",
     Joblist14: "Resume Building/1:1 Doubt-clearing     ",
-    Joblist15: "Reviewing LinkedIn Profiles and Unlimited Interview Calls     ",
+    Joblist15:
+      "Reviewing LinkedIn Profiles and Job-readiness with interview support     ",
     Joblist16: "Exclusive Job Assist for 3 years     ",
     Joblist17:
       "Six 1:1 Mock Interviews with leading MNCs (our 450+ industry partners)    ",

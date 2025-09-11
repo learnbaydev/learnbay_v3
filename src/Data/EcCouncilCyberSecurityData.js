@@ -39,7 +39,8 @@ export const ECCyberSecurityData = [
       {
         id: 1,
         title: "Program Eligibility",
-        description: "Working professionals having minimum 1 years of experience",
+        description:
+          "Working professionals having minimum 1 years of experience",
         imageSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_Icon+(1).webp",
         imageAlt: "DomainElectives",
@@ -73,22 +74,22 @@ export const ECCyberSecurityData = [
         extraImageSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ec-mc-black.webp",
         extraImageAlt: "EC Counsil",
-            extraImageSrcWidth:"180",
-        extraImageSrcHeight:"26"
+        extraImageSrcWidth: "180",
+        extraImageSrcHeight: "26",
       },
     ],
 
-
-    whyChooseData : [
+    whyChooseData: [
       {
         image:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_why.webp",
-          title: "EC-Council & Microsoft Certification",
+        title: "EC-Council & Microsoft Certification",
         description:
           "Stand out with a Advance certification from EC-Council and Microsoft",
-          logos:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ec-mcs.webp",
-          logosWidth:"200",
-              logosHeight:"20",
+        logos:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ec-mcs.webp",
+        logosWidth: "200",
+        logosHeight: "20",
         subItems: [
           {
             icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/3dicons+(1).webp",
@@ -103,7 +104,7 @@ export const ECCyberSecurityData = [
             height: "50",
           },
         ],
-      //   note: "Hybrid mode allows learners to benefit from both flexible, remote learning and direct, face-to-face interaction.",
+        //   note: "Hybrid mode allows learners to benefit from both flexible, remote learning and direct, face-to-face interaction.",
       },
       {
         image:
@@ -119,11 +120,11 @@ export const ECCyberSecurityData = [
             height: "20",
           },
           {
-              icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/green_eng.webp",
-              text: "Data engineering",
-              width: "20",
-              height: "20",
-            },
+            icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/green_eng.webp",
+            text: "Data engineering",
+            width: "20",
+            height: "20",
+          },
           {
             icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/devops_pur.webp",
             text: "DevOps",
@@ -136,7 +137,6 @@ export const ECCyberSecurityData = [
             width: "20",
             height: "20",
           },
-          
         ],
       },
       {
@@ -144,14 +144,14 @@ export const ECCyberSecurityData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/green_light+(1).webp",
         title: "Learn from GenAI Industry Mentors",
         description:
-        "Gain insights from top industry experts in Cyber Security. Our mentors bring real-world experience to help you master advanced skills.",
+          "Gain insights from top industry experts in Cyber Security. Our mentors bring real-world experience to help you master advanced skills.",
         subItems: [
           {
-          //   ibmLogo:
-          //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
-          //   text: "Get project Certification from:",
-          //   width: "70",
-          //   height: "40",
+            //   ibmLogo:
+            //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
+            //   text: "Get project Certification from:",
+            //   width: "70",
+            //   height: "40",
           },
         ],
       },
@@ -166,388 +166,362 @@ export const ECCyberSecurityData = [
     ],
     masterSyllabusMobile: [
       {
-      Module0: {
-      title: "TERM 1 :- Fundamentals and Prerequisites",
-      imageUrl:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_round.webp",
-      StartImageUrl:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_down.webp",
-      endImageUrl:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_Up.webp",
-      points: "Why Programming",
-      content: [
-      {
-      chap: {
-      title: "Module 1:- Operating System Basics",
-      desc: [
-      "Windows and Linux OS Fundamentals",
-      "User and Access Permissions",
-      "OS Hardening Techniques",
-      "Introduction to Virtualization and Setting Up Virtual Labs (Kali Linux Installation and Usage)"
-      ],
-      },
-      },
-      {
-      chap: {
-      title: "Module 2 :- Networking Fundamentals",
-      desc: [
-      "Network Topologies and Protocols (OSI and TCP/IP Models)",
-      "IP Addressing, Subnetting, and Routing Basics",
-      "Network Devices: Routers, Switches,Firewalls, Load Balancers",
-      "VPNs, Proxy Servers, and Network Security",
-      ],
-      },
-      },
-      {
-      chap: {
-      title: "Module 3 :- Cloud Security Basics",
-      desc: [
-      "Cloud Computing Models (IaaS, PaaS, SaaS)",
-      "Shared Responsibility Model in Cloud",
-      "Basic Cloud Security Controls",
-      "Hands-On: Setting up a Secure Cloud Instance",
-      ],
-      },
-      },
-      {
-      chap: {
-      title: "Module 4 :- Introduction to Kali Linux and Security Tools",
-      desc: [
-      "Overview of Kali Linux Environment",
-      "Basic Commands and Utilities in Kali Linux",
-      "Introduction to Security and Hacking Tools (Nmap,Wireshark, Metasploit)",
-      "Hands-On Lab: Basic Scanning and Enumeration",
-      ],
-      },
-      },
-    
-      ],
-      id: 0,
-      open: true,
-      },
-      },
-      {
-      Module0: {
-      title: "TERM 2 :- Ethical Hacking and Penetration Testing",
-      imageUrl:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
-      StartImageUrl:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
-      endImageUrl:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
-      points: "Functions & Recursion",
-      content: [
-   
-      
-      {
-      chap: {
-      title: "Module 1:- Introduction to Ethical Hacking",
-      desc: [
-      "Overview of Ethical Hacking and Cybersecurity",
-      "Understanding Cyber Attack Vectors",
-      "Hacking vs. Ethical Hacking: Ethics and Legal Aspects",
-      "Key Phases of Hacking: Reconnaissance, Scanning,Exploitation, and Covering Tracks"
-      ],
-      },
+        Module0: {
+          title: "TERM 1 :- Fundamentals and Prerequisites",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_Up.webp",
+          points: "Why Programming",
+          content: [
+            {
+              chap: {
+                title: "Module 1:- Operating System Basics",
+                desc: [
+                  "Windows and Linux OS Fundamentals",
+                  "User and Access Permissions",
+                  "OS Hardening Techniques",
+                  "Introduction to Virtualization and Setting Up Virtual Labs (Kali Linux Installation and Usage)",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 2 :- Networking Fundamentals",
+                desc: [
+                  "Network Topologies and Protocols (OSI and TCP/IP Models)",
+                  "IP Addressing, Subnetting, and Routing Basics",
+                  "Network Devices: Routers, Switches,Firewalls, Load Balancers",
+                  "VPNs, Proxy Servers, and Network Security",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 3 :- Cloud Security Basics",
+                desc: [
+                  "Cloud Computing Models (IaaS, PaaS, SaaS)",
+                  "Shared Responsibility Model in Cloud",
+                  "Basic Cloud Security Controls",
+                  "Hands-On: Setting up a Secure Cloud Instance",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Module 4 :- Introduction to Kali Linux and Security Tools",
+                desc: [
+                  "Overview of Kali Linux Environment",
+                  "Basic Commands and Utilities in Kali Linux",
+                  "Introduction to Security and Hacking Tools (Nmap,Wireshark, Metasploit)",
+                  "Hands-On Lab: Basic Scanning and Enumeration",
+                ],
+              },
+            },
+          ],
+          id: 0,
+          open: true,
+        },
       },
       {
-      chap: {
-      title: "Module 2 :- Footprinting,Reconnaissance, &Social Engineering Attacks",
-      desc: [
-      "Techniques for Information Gathering (Passive and Active)",
-      "Social Engineering Attacks: Phishing, Pretexting, Baiting",
-      "Phishing Techniques and Tools.(SET,Social-Engineer Toolkit)",
-      "Hands-On Project: Conducting Reconnaissance and Simulating a Phishing Attack",
-      ],
-      },
-      },
-      {
-      chap: {
-      title: "Module 3:- Network Scanning and Enumeration",
-      desc: [
-      "Network Scanning Techniques and Tools (Nmap, Netcat)",
-      "Enumeration of Network Services and Devices.",
-      "Hands-On Project: Scanning a Network and Enumerating Hosts and Services"
-      ],
-      },
-      },
-      {
-      chap: {
-      title: "Module 4:- Sniffing and Traffic Analysis",
-      desc: [
-      "Basics of Sniffing and Importance of Traffic Analysis",
-      "Types of Sniffing: Active vs. Passive",
-      "Hands-On Project: Capturing and Analyzing Network Traffic with Wireshark",
-      ],
-      },
-      },
-     
-   
-  
-     
-      
-      ],
-      id: 1,
-      open: false,
-      },
-      },
-      {
-      Module0: {
-      title: "TERM 3:- Advanced Cybersecurity Techniques",
-      imageUrl:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
-      StartImageUrl:
-      " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
-      endImageUrl:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
-      points: "DBMS",
-      content: [
-   
-      {
-      chap: {
-      title: "Module 1:- Vulnerability,Assessment and Denial-of-Service (DoS) Attacks",
-      desc: [
-      "Vulnerability Assessment Techniques and Tools (Nessus, OpenVAS)",
-      "Types of Denial-of-Service (DoS) and Distributed DoS (DDoS) Attacks",
-      "Hands-On Project: Conducting a Vulnerability Assessment and Simulating a Basic DoS Attack",
-      
-      
-      ],
-      },
+        Module0: {
+          title: "TERM 2 :- Ethical Hacking and Penetration Testing",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/python_Syll.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
+          points: "Functions & Recursion",
+          content: [
+            {
+              chap: {
+                title: "Module 1:- Introduction to Ethical Hacking",
+                desc: [
+                  "Overview of Ethical Hacking and Cybersecurity",
+                  "Understanding Cyber Attack Vectors",
+                  "Hacking vs. Ethical Hacking: Ethics and Legal Aspects",
+                  "Key Phases of Hacking: Reconnaissance, Scanning,Exploitation, and Covering Tracks",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Module 2 :- Footprinting,Reconnaissance, &Social Engineering Attacks",
+                desc: [
+                  "Techniques for Information Gathering (Passive and Active)",
+                  "Social Engineering Attacks: Phishing, Pretexting, Baiting",
+                  "Phishing Techniques and Tools.(SET,Social-Engineer Toolkit)",
+                  "Hands-On Project: Conducting Reconnaissance and Simulating a Phishing Attack",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 3:- Network Scanning and Enumeration",
+                desc: [
+                  "Network Scanning Techniques and Tools (Nmap, Netcat)",
+                  "Enumeration of Network Services and Devices.",
+                  "Hands-On Project: Scanning a Network and Enumerating Hosts and Services",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 4:- Sniffing and Traffic Analysis",
+                desc: [
+                  "Basics of Sniffing and Importance of Traffic Analysis",
+                  "Types of Sniffing: Active vs. Passive",
+                  "Hands-On Project: Capturing and Analyzing Network Traffic with Wireshark",
+                ],
+              },
+            },
+          ],
+          id: 1,
+          open: false,
+        },
       },
       {
-      chap: {
-      title: "Module 2:- System Hacking,Privilege Escalation,& Session Hijacking:",
-      desc: [
-      "System Hacking Techniques and Privilege Escalation",
-      "Password Cracking Tools (Hydra, John the Ripper)",
-      "Evading Security Measures: Bypassing IDS, Firewalls,and Honeypots",
-      ],
-      },
-      },
-      {
-      chap: {
-      title: "Module 3:- Malware Threats and Protection",
-      desc: [
-      "Types of Malware: Viruses, Worms, Trojans, Ransomware",
-      "Malware Analysis Techniques and Tools",
-      "Methods to Protect Against Malware Attacks",
-      
-      ],
-      },
-      },
-      
-      {
-      chap: {
-      title: "Module 4:- Web Server & Application Hacking:",
-      desc: [
-      "Common Web Vulnerabilities: SQL Injection, XSS, CSRF",
-      "Web Application Security Testing Tools (Burp Suite,OWASP ZAP)",
-      "Hands-On Project: Testing Web Applications for SQL Injection and XSS Vulnerabilities",
-      ],
-      },
-      },
-      
-      ],
-      id: 2,
-      open: false,
-      },
-      },
-      {
-      Module0: {
-      title: "TERM 4 :- Cybersecurity and Information Security Essentials",
-      imageUrl:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
-      StartImageUrl:
-      " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
-      endImageUrl:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
-      points: "Introduction to System Design",
-      content: [
-      {
-      chap: {
-      title: "Module 1:- Cybersecurity Basics and Fundamentals",
-      desc: [
-      "Core Principles: Confidentiality, Integrity, Availability (CIA Triad)",
-      "Key Cyber Threats: Malware, Phishing, Ransomware",
-      "Overview of Cybersecurity Domains (Network,Application, Cloud, Data)",
-      
-      ],
-      },
-      },
-      {
-      chap: {
-      title: "Module 2:- Cybersecurity Frameworks & Compliance Standards",
-      desc: [
-          "Introduction to Cybersecurity Frameworks (NIST,ISO 27001)",
-          "Key Compliance Standards: GDPR, PCI-DSS, and India-Specific Laws (IT Act)",
-          "Implementing Security Policies and Risk Management in Organizations",
-      
-      ],
-      },
+        Module0: {
+          title: "TERM 3:- Advanced Cybersecurity Techniques",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
+          points: "DBMS",
+          content: [
+            {
+              chap: {
+                title:
+                  "Module 1:- Vulnerability,Assessment and Denial-of-Service (DoS) Attacks",
+                desc: [
+                  "Vulnerability Assessment Techniques and Tools (Nessus, OpenVAS)",
+                  "Types of Denial-of-Service (DoS) and Distributed DoS (DDoS) Attacks",
+                  "Hands-On Project: Conducting a Vulnerability Assessment and Simulating a Basic DoS Attack",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Module 2:- System Hacking,Privilege Escalation,& Session Hijacking:",
+                desc: [
+                  "System Hacking Techniques and Privilege Escalation",
+                  "Password Cracking Tools (Hydra, John the Ripper)",
+                  "Evading Security Measures: Bypassing IDS, Firewalls,and Honeypots",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 3:- Malware Threats and Protection",
+                desc: [
+                  "Types of Malware: Viruses, Worms, Trojans, Ransomware",
+                  "Malware Analysis Techniques and Tools",
+                  "Methods to Protect Against Malware Attacks",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 4:- Web Server & Application Hacking:",
+                desc: [
+                  "Common Web Vulnerabilities: SQL Injection, XSS, CSRF",
+                  "Web Application Security Testing Tools (Burp Suite,OWASP ZAP)",
+                  "Hands-On Project: Testing Web Applications for SQL Injection and XSS Vulnerabilities",
+                ],
+              },
+            },
+          ],
+          id: 2,
+          open: false,
+        },
       },
       {
-      chap: {
-      title: "Module 3:-  Network Security Essentials",
-      desc: [
-          "Basics of Firewalls, VPNs, IDS/IPS",
-          "Network Security Best Practices for Small and Large Businesses",
-          "Hands-On Lab: Configuring Firewalls and VPN Connections",
-      
-      ],
+        Module0: {
+          title: "TERM 4 :- Cybersecurity and Information Security Essentials",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
+          points: "Introduction to System Design",
+          content: [
+            {
+              chap: {
+                title: "Module 1:- Cybersecurity Basics and Fundamentals",
+                desc: [
+                  "Core Principles: Confidentiality, Integrity, Availability (CIA Triad)",
+                  "Key Cyber Threats: Malware, Phishing, Ransomware",
+                  "Overview of Cybersecurity Domains (Network,Application, Cloud, Data)",
+                ],
+              },
+            },
+            {
+              chap: {
+                title:
+                  "Module 2:- Cybersecurity Frameworks & Compliance Standards",
+                desc: [
+                  "Introduction to Cybersecurity Frameworks (NIST,ISO 27001)",
+                  "Key Compliance Standards: GDPR, PCI-DSS, and India-Specific Laws (IT Act)",
+                  "Implementing Security Policies and Risk Management in Organizations",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 3:-  Network Security Essentials",
+                desc: [
+                  "Basics of Firewalls, VPNs, IDS/IPS",
+                  "Network Security Best Practices for Small and Large Businesses",
+                  "Hands-On Lab: Configuring Firewalls and VPN Connections",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 4:-  Incident Response and Forensics",
+                desc: [
+                  "Steps in Incident Response (Preparation, Detection,Containment, Recovery)",
+                  "Basics of Digital Forensics and Evidence Handling",
+                  "Hands-On Lab: Simulating a Security Incident and Conducting Basic Forensics.",
+                ],
+              },
+            },
+          ],
+          id: 3,
+          open: false,
+        },
       },
+
+      {
+        Module0: {
+          title: "TERM 5:- Advanced Cybersecurity and Threat Intelligence",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_up.webp",
+          points: "MERN (Full-Stack Specialization)",
+          content: [
+            {
+              chap: {
+                title: "Module 1:- Cloud Security and IAM",
+                desc: [
+                  "Understanding Cloud Models (Public, Private, Hybrid)",
+                  "Shared Responsibility Model and Cloud Threats",
+                  "Basics of IAM (Identity and Access Management) for Cloud Security",
+                  "Hands-On Lab: Securing a Cloud Environment and Configuring IAM",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title:
+                  "Module 2:- Identity and Access Management (IAM) & Endpoint Security",
+                desc: [
+                  "Role-Based Access Control (RBAC) and Multi-Factor Authentication (MFA)",
+                  "Endpoint Security Best Practices (Antivirus, Patching)",
+                  "Hands-On Lab: Setting Up IAM Controls and Configuring Endpoint Protection",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title:
+                  "Module 3:- Advanced Cyber Threats and Threat Intelligence",
+                desc: [
+                  "Advanced Persistent Threats (APT) and Ransomware",
+                  "Cyber Threat Intelligence: Indicators of Compromise (IoCs)",
+                  "Hands-On Lab: Setting Up Basic Threat Detection and IoC Analysis",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 4:- Specialization Electives",
+                desc: [
+                  "Mobile and IoT Security",
+                  "Red Teaming and Blue Teaming Basics",
+                  "Industrial Cybersecurity",
+                  "Cybersecurity Automation",
+                ],
+              },
+            },
+          ],
+          id: 4,
+          open: false,
+        },
       },
       {
-      chap: {
-      title: "Module 4:-  Incident Response and Forensics",
-      desc: [
-      "Steps in Incident Response (Preparation, Detection,Containment, Recovery)",
-      "Basics of Digital Forensics and Evidence Handling",
-      "Hands-On Lab: Simulating a Security Incident and Conducting Basic Forensics.",
-      ],
+        Module0: {
+          title: "TERM 6 :- Generative AI in Cybersecurity",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_up.webp",
+          points: "Deep Learning",
+          points1: "(NLP)",
+          content: [
+            {
+              chap: {
+                title:
+                  "Module 1:- Introduction to Generative AI in Cybersecurity",
+                desc: [
+                  "Basics of Generative AI and Its Role in Cybersecurity",
+                  "Applications: Threat Detection, Automated Response, and Malware Analysis",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Module 2:- Generative AI for Threat Detection",
+                desc: [
+                  "Detecting Network Anomalies with GenAI",
+                  "Hands-On Lab: Developing a Simple GenAI Model for Detecting Unusual Network Activity",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title:
+                  "Module 3:- Incident Response Automation with Generative AI",
+                desc: [
+                  "How GenAI Automates Security Alerts and Incident Response",
+                  "Hands-On Lab: Building a GenAI-Based Chatbot for Incident Response",
+                ],
+              },
+            },
+
+            {
+              chap: {
+                title: "Module 4:- GenAI for Malware and Phishing Detection",
+                desc: [
+                  "Using AI to Detect Malware Patterns and Identify Phishing Attempts",
+                  "Hands-On Lab: Using GenAI to Detect Phishing and Analyze Malware Samples",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
       },
-      },
-      
-      
-      
-      
-      
-      
-      ],
-      id: 3,
-      open: false,
-      },
-      },
-       
-      {
-      Module0: {
-      title: "TERM 5:- Advanced Cybersecurity and Threat Intelligence",
-      imageUrl:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_round.webp ",
-      StartImageUrl:
-      " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_down.webp",
-      endImageUrl:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_up.webp",
-      points: "MERN (Full-Stack Specialization)",
-      content: [
-      {
-      chap: {
-      title: "Module 1:- Cloud Security and IAM",
-      desc: [
-      "Understanding Cloud Models (Public, Private, Hybrid)",
-      "Shared Responsibility Model and Cloud Threats",
-      "Basics of IAM (Identity and Access Management) for Cloud Security",
-      "Hands-On Lab: Securing a Cloud Environment and Configuring IAM",
-      ],
-      },
-      },
-      
-      {
-      chap: {
-      title: "Module 2:- Identity and Access Management (IAM) & Endpoint Security",
-      desc: [
-      "Role-Based Access Control (RBAC) and Multi-Factor Authentication (MFA)",
-      "Endpoint Security Best Practices (Antivirus, Patching)",
-      "Hands-On Lab: Setting Up IAM Controls and Configuring Endpoint Protection",
-      
-      ],
-      },
-      },
-      
-      {
-      chap: {
-      title: "Module 3:- Advanced Cyber Threats and Threat Intelligence",
-      desc: [
-      "Advanced Persistent Threats (APT) and Ransomware",
-      "Cyber Threat Intelligence: Indicators of Compromise (IoCs)",
-      "Hands-On Lab: Setting Up Basic Threat Detection and IoC Analysis"
-      
-      ],
-      },
-      },
-      {
-      chap: {
-      title: "Module 4:- Specialization Electives",
-      desc: [
-      "Mobile and IoT Security",
-      "Red Teaming and Blue Teaming Basics",
-      "Industrial Cybersecurity",
-      "Cybersecurity Automation",
-      
-      ],
-      },
-      },
-      
-      
-      
-      
-      
-      
-      ],
-      id: 4,
-      open: false,
-      },
-      },
-      {
-      Module0: {
-      title: "TERM 6 :- Generative AI in Cybersecurity",
-      imageUrl:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
-      StartImageUrl:
-      " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
-      endImageUrl:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_up.webp",
-      points: "Deep Learning",
-      points1: "(NLP)",
-      content: [
-      {
-      chap: {
-      title: "Module 1:- Introduction to Generative AI in Cybersecurity",
-      desc: [
-      "Basics of Generative AI and Its Role in Cybersecurity",
-      "Applications: Threat Detection, Automated Response, and Malware Analysis",
-      ],
-      },
-      },
-      {
-      chap: {
-      title: "Module 2:- Generative AI for Threat Detection",
-      desc: [
-      "Detecting Network Anomalies with GenAI",
-      "Hands-On Lab: Developing a Simple GenAI Model for Detecting Unusual Network Activity",
-      ],
-      },
-      },
-      
-      {
-      chap: {
-      title: "Module 3:- Incident Response Automation with Generative AI",
-      desc: [
-      "How GenAI Automates Security Alerts and Incident Response",
-      "Hands-On Lab: Building a GenAI-Based Chatbot for Incident Response"
-      ],
-      },
-      },
-      
-      {
-      chap: {
-      title:
-      "Module 4:- GenAI for Malware and Phishing Detection",
-      desc: [
-      "Using AI to Detect Malware Patterns and Identify Phishing Attempts",
-      "Hands-On Lab: Using GenAI to Detect Phishing and Analyze Malware Samples",
-      ],
-      },
-      },
-      
-      
-      ],
-      id: 5,
-      open: false,
-      },
-      },
-      
-  ],
+    ],
 
     toolsData: [
       {
@@ -592,7 +566,6 @@ export const ECCyberSecurityData = [
       },
     ],
     Certificate: {
-   
       microCertificate: {
         id: 2,
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ceh-cers.webp",
@@ -611,9 +584,9 @@ export const ECCyberSecurityData = [
           "Gain an EC-Council certificate that is recognized globally.",
           "Achieve the top credential in the field of cybersecurity.",
           "Build a strong foundation to accelerate your career in cybersecurity.",
-      ],
+        ],
       },
-     
+
       projectCertificate: {
         id: 2,
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
@@ -624,7 +597,6 @@ export const ECCyberSecurityData = [
           "Boost job opportunities and earnings with Microsoft’s certification",
         ],
       },
-      
     },
 
     certificateNew: [
@@ -692,17 +664,19 @@ export const ECCyberSecurityData = [
             id: 5,
             ques: "What are the unique benefits offered via this cyber hacking course?",
             ans: "Learners pursuing cyber security and hacking courses will receive job-enriched perks. Techies can opt for this course to cherish definite job-driven perks to set their careers apart from others. With this course, you will receive extra advantages like -",
-            list1:"A 2-day immersive experience with IIT Roorkee experts",
-            list2:"iHUB DivyaSampark, IIT Roorkee certifications (add-on Microsoft certificate)",
-            list3:"Mastering IAM and ISO Standards via real-time projects",
-            list4:"Personalized career support services to crack high-demand roles",
-  
-            dscoursefaq:true,
+            list1: "A 2-day immersive experience with IIT Roorkee experts",
+            list2:
+              "iHUB DivyaSampark, IIT Roorkee certifications (add-on Microsoft certificate)",
+            list3: "Mastering IAM and ISO Standards via real-time projects",
+            list4:
+              "Personalized career support services to crack high-demand roles",
+
+            dscoursefaq: true,
             open: false,
           },
         ],
       },
-  
+
       {
         id: 1,
         sectionName: "Payments and Scholarships",
@@ -713,7 +687,7 @@ export const ECCyberSecurityData = [
             ans: "The Executive Certification in Cybersecurity and Ethical Hacking program costs ₹1,10,000 plus 18% GST. ",
             open: true,
           },
-  
+
           {
             id: 2,
             ques: "Can I pay in installments for the Cybersecurity Course for tech professionals?",
@@ -725,10 +699,10 @@ export const ECCyberSecurityData = [
             ques: "Is there any scholarship/discount available for the cybersecurity course?",
             ans: "The cyber security and hacking course offers an attractive discount of 15% – 20% for early birds. Besides, experts who join with one or more friends can avail of group discounts according to the given terms and conditions. ",
             open: false,
-            list1:"Group of 2: 5% extra discount",
-            list2:"Group of 3: 8% extra discount",
-            list3:"Group of 4+: Max 10% discount",
-            span:"In addition to these offers, learners can avail of up to 25% scholarship while enrolling in the course. You can check with our sales team at +91 7795687988 for further details. ",
+            list1: "Group of 2: 5% extra discount",
+            list2: "Group of 3: 8% extra discount",
+            list3: "Group of 4+: Max 10% discount",
+            span: "In addition to these offers, learners can avail of up to 25% scholarship while enrolling in the course. You can check with our sales team at +91 7795687988 for further details. ",
             dscoursefaq1: true,
           },
           {
@@ -747,7 +721,7 @@ export const ECCyberSecurityData = [
             id: 0,
             ques: "How many real-time projects will be there?",
             ans: "The cyber security ethical hacking certification course includes 4+ executive-level real-time industrial projects. ",
-  
+
             open: false,
           },
           {
@@ -756,7 +730,7 @@ export const ECCyberSecurityData = [
             ans: `Yes. We believe in hands-on learning methods to grasp real-time insights into business cases. Techies enrolling in our cyber hacking course will gain industrial insights via real-time projects. Working on project tasks and case studies will help you apprehend and tackle real-world happenings well. Our mentors will guide you throughout the project-handling stage via offline innovation labs. `,
             open: false,
           },
-  
+
           {
             id: 2,
             ques: "Can I select my real-time project or are projects assigned?",
@@ -790,26 +764,26 @@ export const ECCyberSecurityData = [
           {
             id: 0,
             ques: "Who is eligible for a job assistance program at Learnbay?",
-  
+
             ans: `Learners enrolling in this cyber security and ethical hacking course must achieve at least 70% marks in course tasks and projects. It makes learners eligible for Learnbay’s placement program (Career Services PRO) and makes them available for high-paying job offers.   `,
             open: true,
           },
           {
             id: 1,
             ques: "How many interview calls will I get at Learnbay?",
-            ans: "Experts joining our cyber security ethical hacking course will get unlimited job calls from top-tier 350+ industry allies to fast-forward static careers. ",
+            ans: "Experts joining our cyber security ethical hacking course will get job calls from top-tier 350+ industry allies to fast-forward static careers. ",
           },
-  
+
           {
             id: 2,
             ques: "Can I opt for the Career Services Pro feature?",
             ans: "Entry to mid-level working experts with a 70% score in the course and live projects can opt for Learnbay’s Career Services PRO feature. Here, you will get –",
 
-            list2:"Job-driven 1:1 mock interviews with 350+ industry partners",
-list3:"Online CV-making and LinkedIn profiling sessions",
-list4:"Promising job calls from top-notch MNCs/MAANG/FAANG",
+            list2: "Job-driven 1:1 mock interviews with 350+ industry partners",
+            list3: "Online CV-making and LinkedIn profiling sessions",
+            list4: "Promising job calls from top-notch MNCs/MAANG/FAANG",
             dscoursefaq1: true,
-  
+
             open: false,
           },
           {
@@ -819,7 +793,6 @@ list4:"Promising job calls from top-notch MNCs/MAANG/FAANG",
             dscoursefaq1: true,
             open: false,
           },
-         
         ],
       },
       {
@@ -829,7 +802,7 @@ list4:"Promising job calls from top-notch MNCs/MAANG/FAANG",
           {
             id: 0,
             ques: "Until when will the learners get the facility of mentorship?",
-  
+
             ans: "We believe in industry-driven career guidance and mentorship to expand your potential and growth chances. Our learners can avail of the mentorship scope until they finish their course. Our career guide and mentors are here for 1:1 doubt-clearing, custom-fit career support, and offline project guidance. ",
             open: true,
           },
@@ -851,7 +824,6 @@ list4:"Promising job calls from top-notch MNCs/MAANG/FAANG",
             ans: "Experts pursuing the cyber security ethical hacking certification course will get dedicated industry-focused training. Our mentors are liable for directing learners with coursework, real-time case studies, and live projects. So, yes, you will get absolute help from your mentor while working on real-time projects and course-related activities.  ",
             open: false,
           },
-         
         ],
       },
       {
@@ -861,7 +833,7 @@ list4:"Promising job calls from top-notch MNCs/MAANG/FAANG",
           {
             id: 0,
             ques: "How can I contact technical support if I face any problems with the course platform?",
-  
+
             ans: "Once you join the cyber security and ethical hacking course, you can reach our support team, who are there 24x7 to resolve your queries. Apart from this, you can also reach us through our helpline number to handle technical issues. Our support team experts are here to tackle your course platform-related issues.  ",
             open: true,
           },
@@ -879,6 +851,6 @@ list4:"Promising job calls from top-notch MNCs/MAANG/FAANG",
           },
         ],
       },
-    ]
+    ],
   },
 ];

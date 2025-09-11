@@ -296,7 +296,7 @@ export const DSAPuneData = [
             list2: "Six mock interviews with industry partners",
             list3: "Powerful resume design to ace interviews",
             list4: "1:1 review session",
-            list5: "Unlimited interview calls",
+            list5: "Job-readiness with interview support",
 
             span: "At the end of the course, learners will be able to get these benefits that shall equip their career with the in-demand skills to crack the interviews with the leading MNCs. ",
             dscoursefaq1: true,
@@ -433,7 +433,7 @@ export const DSAPuneData = [
     JobBot8: "Resume Buildup sessions",
     JobBot9: "1:1 doubt-clearing sessions",
 
-    JobBot11: "Unlimited interview calls",
+    JobBot11: "Job-readiness with interview support",
     ProjectsBot1:
       "DSA is a widely evolving field that inspires working experts to master proven expertise to optimize their algorithmic thinking and decision-making. Learnbay’s DSA course in Pune offers an open learning stage where you can refine your skills via live projects. Here, you will work on 16+ real-time projects, aligning your best career goals and interests to land your dream roles. ",
     ProjectsBot2: "Below are a few projects from the Learnbay alumni profiles:",

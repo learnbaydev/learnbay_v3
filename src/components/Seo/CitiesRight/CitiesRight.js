@@ -3883,7 +3883,7 @@ const CitiesRight = ({
                 Career Service Pro: Unlike other universities in Australia, our
                 master’s in data science program offers 100% job assistance.
                 With Career Service Pro, you will gain everything – from resume
-                building to unlimited job calls.
+                building to job calls.
               </li>
               <br />
               <li>

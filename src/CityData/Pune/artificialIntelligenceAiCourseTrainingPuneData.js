@@ -926,7 +926,7 @@ export const AIPuneCourseData = [
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf",
 
     JobBot1:
-      "Learnbay Artificial Intelligence certifications in Pune even come with a Placement Assistance. The artificial intelligence courses offered by Learnbay come with mock interview training sessions, resume help, and an unlimited number of MNC and start-up referrals, until you land on suitable AI job role.",
+      "Learnbay Artificial Intelligence certifications in Pune even come with a Placement Assistance. The artificial intelligence courses offered by Learnbay come with mock interview training sessions, resume help, and an number of MNC and start-up referrals, until you land on suitable AI job role.",
     JobBot2:
       "The roles and responsibilities you can target by competing Learbbay AI Course are:",
     JobBot3:

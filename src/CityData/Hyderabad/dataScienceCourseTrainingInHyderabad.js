@@ -905,7 +905,7 @@ export const DataScienceHyderabadCourseData = [
     Joblist3: "Resume Making",
     Joblist4: "LinkedIn profiling",
     Joblist5: "1:1 doubt-clearing sessions with reliable mentors",
-    Joblist6: "Unlimited job calls from top MNCs",
+    Joblist6: "Job calls from top MNCs",
     ProjectsHead1: "",
     ProjectsBot1:
       "Today’s data-driven age inspires working pros to overcome static careers via upskilling. The data science domain is ever-changing, with new practices to lift business growth and yields. Hence, experts willing to kick-start data science careers in Hyderabad must undergo an upskilling program. Joining the best data science institutes in Hyderabad can ease your learning process. ",

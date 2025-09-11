@@ -568,7 +568,7 @@ export const DSMalaysiaCourseData = [
       "Six 1:1 mock interviews scheduled with any of the 450+ industry partners      ",
     Joblist16: "Resume building with job-ready skills      ",
     Joblist17:
-      "LinkedIn profile review / Unlimited job calls from MNCs in Malaysia and overseas       ",
+      "LinkedIn profile review / job calls from MNCs in Malaysia and overseas       ",
 
     JobHead30: "",
 

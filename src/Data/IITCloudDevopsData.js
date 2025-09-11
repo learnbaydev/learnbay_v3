@@ -1297,7 +1297,7 @@ export const IITCloudDevopsData = [
             list2: "Six mock interviews with industry partners",
             list3: "Powerful resume design to ace interviews",
             list4: "1:1 review session",
-            list5: "Unlimited interview calls",
+            list5: "Job-readiness with interview support",
             list6:
               "At the end of the course, learners will be able to get these benefits that shall equip their career with the in-demand skills to crack the interviews with the leading MNCs",
             dscoursefaq1: true,

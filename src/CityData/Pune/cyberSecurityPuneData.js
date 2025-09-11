@@ -110,8 +110,8 @@ export const CuberSecurityPuneCourseData = [
           {
             id: 0,
             ques: "Can I do a Cyber Security course in Pune at Learnbay?",
-           ans:"Yes. Entry- to mid-level IT experts with 1+ years of job experience can join this cyber security course institute in Pune. All IT experts, security analysts, IT consultants, network admins, etc can enroll in the course. Yet, fresh grads, freshers, or students are not eligible for the course. ",
-           open: true,
+            ans: "Yes. Entry- to mid-level IT experts with 1+ years of job experience can join this cyber security course institute in Pune. All IT experts, security analysts, IT consultants, network admins, etc can enroll in the course. Yet, fresh grads, freshers, or students are not eligible for the course. ",
+            open: true,
           },
           {
             id: 1,
@@ -141,15 +141,16 @@ export const CuberSecurityPuneCourseData = [
             id: 5,
             ques: "What are the unique benefits offered by the best cyber security institute in Pune? ",
             ans: "Learners joining the cyber security classes in Pune will receive career-enriched rewards. Techies can invest in the course to gain notable career benefits and kick-start a competitive future. Learners will receive unique benefits like – ",
-            list1:"- A 2-day immersive learning experience with IIT Roorkee faculties ",
-            list2:"- iHUB DivyaSampark, IIT Roorkee certificates ",
-            list3:"- Mastering IAM and ISO Standards via real-time projects",
-            list4:"- Personalized career support services to crack high-demand roles",
-         
-            dscoursefaq:true,
+            list1:
+              "- A 2-day immersive learning experience with IIT Roorkee faculties ",
+            list2: "- iHUB DivyaSampark, IIT Roorkee certificates ",
+            list3: "- Mastering IAM and ISO Standards via real-time projects",
+            list4:
+              "- Personalized career support services to crack high-demand roles",
+
+            dscoursefaq: true,
             open: false,
           },
-        
         ],
       },
       {
@@ -172,7 +173,7 @@ export const CuberSecurityPuneCourseData = [
             id: 2,
             ques: "Which domain elective is best suited for me?",
             ans: `You can select your domain based on your prior work experience, academics, and career goals. Please book a slot with our industry expert for a free profile review and career guidance.`,
-          
+
             open: false,
           },
           {
@@ -193,7 +194,6 @@ export const CuberSecurityPuneCourseData = [
             ans: " Yes, you can change your electives anytime during the training sessions. Based on the updated domain choice, our industry experts will guide your training sessions. ",
             open: false,
           },
-        
         ],
       },
       {
@@ -217,23 +217,22 @@ export const CuberSecurityPuneCourseData = [
             id: 2,
             ques: "Is there any scholarship/discount available for the cyber security training in Pune?",
             ans: `The cyber security course in Pune offers a 15% – 20% discount for early birds. Besides, techies who join with one or more friends can avail of group discounts following the terms and conditions. `,
-                  
-            list1:"Group of 2: 5% extra discount",
-            list2:"Group of 3: 8% additional discount",
-            list3:"Group of 4+: Max 10% discount",
 
-          list4:`Besides, eligible learners can apply for a 25% scholarship while registering for the course. You can check with our sales team at +91 7795687988 for further details.  `,
+            list1: "Group of 2: 5% extra discount",
+            list2: "Group of 3: 8% additional discount",
+            list3: "Group of 4+: Max 10% discount",
+
+            list4: `Besides, eligible learners can apply for a 25% scholarship while registering for the course. You can check with our sales team at +91 7795687988 for further details.  `,
 
             open: false,
-            dscoursefaq:true
+            dscoursefaq: true,
           },
-         
+
           {
             id: 2,
             ques: "What is the refund policy for the cyber security course at Learnbay?",
             ans: `Techies pursuing a cyber security course in Pune can withdraw from it with a valid reason and a refund. For more details, refer to Learnbay’s Refund/Cancellation Policy. `,
-                  
-           
+
             open: false,
           },
         ],
@@ -246,7 +245,7 @@ export const CuberSecurityPuneCourseData = [
             id: 0,
             ques: "How many real-time projects will be there?",
             ans: `The cyber security course in Pune with placement includes 4+ real-time industrial projects.  `,
-           
+
             open: true,
           },
           {
@@ -275,14 +274,11 @@ export const CuberSecurityPuneCourseData = [
           },
 
           {
-            id:1,
+            id: 1,
             ques: "How do I receive my certificate, and is it a digital or printed certificate?",
             ans: `Learnbay offers digitally created IIT-backed credentials to validate your skills and enrich your career worth. Your digital certificates will take 7 days to reach your destination.  `,
             open: true,
           },
-
-
-          
         ],
       },
       {
@@ -299,29 +295,26 @@ export const CuberSecurityPuneCourseData = [
           {
             id: 1,
             ques: "How many interview calls will I get at Learnbay?",
-            ans: `Experts joining our cyber security course with placement in Pune will get unlimited interview calls from top-notch 350+ industry allies to fast-forward stagnant tech careers. `,
+            ans: `Experts joining our cyber security course with placement in Pune will get Job-readiness with interview support from top-notch 350+ industry allies to fast-forward stagnant tech careers. `,
             open: false,
           },
           {
             id: 2,
             ques: "Can I opt for the Career Support Services feature?",
             ans: `Entry to mid-level IT pros with at least 70% score in the course and live projects can apply for Career Support Services. Here, learners will get –`,
-            list1:"Effortless job assistance ",
-            list2:"Virtual interview prep with 350+ allied industry partners",
-            list3:"Resume-making sessions",
-                        dscoursefaq1:true,
+            list1: "Effortless job assistance ",
+            list2: "Virtual interview prep with 350+ allied industry partners",
+            list3: "Resume-making sessions",
+            dscoursefaq1: true,
             open: false,
-
-
           },
           {
             id: 3,
             ques: "Do you offer job assistance services after completing a course?",
             ans: `Yes. Our best cyber security training institute in Pune offers an industry-driven job assistance program. Its absolute career-enrich support during your learning helps learners handle the rising intricacies well. Our job assistance equips you with alluring career growth offers globally. `,
-           
+
             open: false,
           },
-        
         ],
       },
       {
@@ -349,14 +342,12 @@ export const CuberSecurityPuneCourseData = [
             open: false,
           },
 
-
           {
             id: 3,
             ques: "Are there mentors available to help with coursework and projects?",
             ans: "Experts enrolling in the cyber security course in Pune will get committed and industry-focused training. Our mentors are responsible for training learners with coursework, case studies, and live projects. So, yes, you will get help from your mentor while working on real-time projects and course-related tasks.  ",
             open: false,
           },
-        
         ],
       },
       {
@@ -419,23 +410,29 @@ export const CuberSecurityPuneCourseData = [
       "Cyber security has become an absolute skill for techies to grow and prosper in their field. As per the industry reports, the global cyber security market expects a 9.7% growth by 2030. Indeed, startups and MNCs prefer cyber security experts to handle vast network systems and control anomalies tactfully. Hence, techies prefer joining the best cyber security institute in Pune to tackle critical cases and limit cyber crimes. ",
     JobBot2:
       "Pursuing a cyber security course in Pune with placement confirms solid career success with exciting perks. Our cutting-edge program engages techies with absolute career rise via job assistance services.",
-    JobBot5: "Our career support services equip you with the power to tackle industry intricacies. Cyber security jobs are becoming popular. Tech experts are learning new skills to grow and succeed worldwide. ",
-   JobBot6:"Career support services at Learnbay set the stage for hassle-free learning and gaining success with exciting job offers.",
-   JobBot7:"",
+    JobBot5:
+      "Our career support services equip you with the power to tackle industry intricacies. Cyber security jobs are becoming popular. Tech experts are learning new skills to grow and succeed worldwide. ",
+    JobBot6:
+      "Career support services at Learnbay set the stage for hassle-free learning and gaining success with exciting job offers.",
+    JobBot7: "",
 
     JobHead2: "",
-    JobBot3: "Techies can join our reliable placement program to refine their soft skills, prepare for interviews, and revamp resumes for better reach. Enrolling in our career-driven cyber security course in Pune equips you with skills to land promising jobs with the leading MNCs. ",
+    JobBot3:
+      "Techies can join our reliable placement program to refine their soft skills, prepare for interviews, and revamp resumes for better reach. Enrolling in our career-driven cyber security course in Pune equips you with skills to land promising jobs with the leading MNCs. ",
     JobBot7: "In short, our career support services offer –",
     JobBot8: "Effortless job and placement support",
     JobBot9: "Virtual interview prep with 350+ allied industry partners",
-    JobBot10:"CV-making sessions",
+    JobBot10: "CV-making sessions",
 
     JobBot11: "Continued job calls",
     ProjectsBot1:
       "Indeed, cyber security has become a vital growth metric for firms serving larger market segments. Hence, the demand for live instructor-led cyber security classes in Pune keeps growing. Yet, these classes are less effective if they fail to offer hands-on learning scopes. ",
-    ProjectsBot2: "Join our top cyber security training in Pune to elevate your career worth and attain success in your field. ",
-    ProjectsBot3:" Learnbay provides a great tech career through its cyber security course in Pune. This course is project-based and includes job placement.",
-    ProjectsBot4:"Here, techies will work on real-time industry projects to refine their skill sets. First-hand learning with trending tools and models revamps a static career. Hence, we offer an open learning stage to techies to gain insights into real-world business updates.  ",
+    ProjectsBot2:
+      "Join our top cyber security training in Pune to elevate your career worth and attain success in your field. ",
+    ProjectsBot3:
+      " Learnbay provides a great tech career through its cyber security course in Pune. This course is project-based and includes job placement.",
+    ProjectsBot4:
+      "Here, techies will work on real-time industry projects to refine their skill sets. First-hand learning with trending tools and models revamps a static career. Hence, we offer an open learning stage to techies to gain insights into real-world business updates.  ",
     src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/project/2.png",
     alt2: "Bubble Logo",
     Projectsp1:

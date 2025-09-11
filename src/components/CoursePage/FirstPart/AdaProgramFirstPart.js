@@ -74,7 +74,7 @@ const ExecutiveFirstPart = ({ TestimonialData, WolfLink, formbtn }) => {
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Mask+group+(10).webp",
     title3: "Dedicated Job Assistance",
     jobAssistance: [
-      { icon: <BsDisplay />, text: "Unlimited Interview Calls" },
+      { icon: <BsDisplay />, text: "Job-readiness with interview support" },
       { icon: <AiOutlineContainer />, text: "Resume Building Session" },
       { icon: <FaLinkedinIn />, text: "LinkedIn Profile Review" },
     ],

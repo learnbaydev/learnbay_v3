@@ -285,11 +285,11 @@ export const DSABangaloreCourseData = [
             ques: "What does the Career Services PRO package include?",
             ans: `The Career Services PRO at Learnbay offers you the - `,
             list1:
-              "Three years of job placement assistance with unlimited access to interviews and learning portals",
+              "Three years of job placement assistance with Job-ready training, interview support and learning portals",
             list2: "Six mock interviews with industry partners",
             list3: "Powerful resume design to ace interviews",
             list4: "1:1 review session",
-            list5: "Unlimited interview calls",
+            list5: "Job-readiness with interview support",
 
             span: "At the end of the course, learners will be able to get these benefits that shall equip their career with the in-demand skills to crack the interviews with the leading MNCs. ",
             dscoursefaq1: true,
@@ -420,12 +420,12 @@ export const DSABangaloreCourseData = [
       "Several tech and non-tech professionals pursue a DSA course in Bangalore with 100% placement assistance. Eligible learners (with at least 70% scores in tasks and projects) opt for Learnbay’s ‘Career Services PRO’ to boost their success prospects. Our tie-up with 450+ industry partners escalates your success chances limitlessly. ",
     JobHead2: "Career Services PRO includes –",
     JobBot3:
-      "Three years of placement support with unlimited access to interviews and learning resources",
+      "Three years of placement support with Job-ready training, interview support and learning resources",
     JobBot7: "Six 1:1 mock interviews with allied partners",
     JobBot8: "Resume Buildup sessions",
     JobBot9: "1:1 doubt-clearing sessions",
 
-    JobBot11: "Unlimited interview calls",
+    JobBot11: "Job-readiness with interview support",
     ProjectsBot1:
       "Learning is essential yet complete with practice. Learnbay’s data structure training in Bangalore offers a practice-based learning platform with enriched perks. Learners can choose their projects based on domain electives and kick-start a thriving DSA career in Bangalore.  Learners can choose their projects based on domain electives and kick-start a thriving DSA career in Bangalore. Hence, marking a competitive success with Learnbay can bring globally recognized shifts to your career. Learn and work on real-time projects to advance a progressive career in DSA. ",
     ProjectsBot2:

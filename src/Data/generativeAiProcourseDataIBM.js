@@ -887,7 +887,7 @@ export const GENAIPROCourseDataIBM = [
           {
             id: 1,
             ques: "How many interview calls will I get at Learnbay?",
-            ans: "Learners joining our Generative AI course online will get unlimited interview calls from top-trending 350+ industry partners.  ",
+            ans: "Learners joining our Generative AI course online will get Job-readiness with interview support from top-trending 350+ industry partners.  ",
           },
 
           {

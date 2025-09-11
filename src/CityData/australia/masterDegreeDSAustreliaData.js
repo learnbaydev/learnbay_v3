@@ -582,11 +582,11 @@ export const masterdegreeAUSData = [
     JobBotmaster20: "Major career benefits with Career Service Pro are —      ",
     Joblist14: "Resume Build & Optimization      ",
     Joblist15: "LinkedIn Profile Review    ",
-    Joblist16: "Job Support for 3 years with Unlimited Job Calls     ",
+    Joblist16: "Job Support for 3 years with Job Calls     ",
     Joblist17:
       "Six 1:1 Mock Interviews with leading MNCs (our 450+ industry partners)      ",
     Joblist18: "1:1 Doubt-clearing sessions    ",
-    Joblist19: "Unlimited Job Calls       ",
+    Joblist19: "Job Calls       ",
 
     JobBotMasterBot4:
       "You can do a master in data science in Australia with careful career planning and decision-making. Yet, before making any move, you must consider major career goals and interests. Here, learners can gain a 360-degree skill-building scope, turning a right fit for the companies.       ",

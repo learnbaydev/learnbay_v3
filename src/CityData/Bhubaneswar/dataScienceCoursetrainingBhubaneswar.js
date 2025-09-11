@@ -509,7 +509,7 @@ export const DSBhubabneswasCourseData = [
       "Six 1:1 mock interviews scheduled with any of the 450+ industry partners        ",
     Joblist16: " Resume building with job-ready skills      ",
     Joblist17:
-      "LinkedIn profile review  and Unlimited job calls from MNCs globally      ",
+      "LinkedIn profile review  and job calls from MNCs globally      ",
 
     JobHead30: "",
 

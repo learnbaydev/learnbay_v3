@@ -64,9 +64,9 @@ function jobReadySection() {
           <div className={styles.innerbox}>
             <h4>Interview calls</h4>
             <p>
-              Maximise your chances of landing the perfect job with unlimited
-              interview opportunities, backed by continuous support and feedback
-              to refine your approach.
+              Maximise your chances of landing the perfect job with interview
+              opportunities, backed by continuous support and feedback to refine
+              your approach.
             </p>
             <Image
               src="https://d32and0ii3b8oy.cloudfront.net/web/V4/HomePage/calls_icon.webp"

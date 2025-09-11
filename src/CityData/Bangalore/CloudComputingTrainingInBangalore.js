@@ -561,7 +561,7 @@ export const CloudComputingTrainingInBangalore = [
         <li>1:1 six mock interviews with eminent MNCs</li>
         <li>Resume Building</li>
         <li>1-on-1 LinkedIn Profiling</li>
-        <li>Unlimited interview calls from top-tier employers</li>
+        <li>Job-readiness with interview support from top-tier employers</li>
       </ul>
     ),
     JobBot12:

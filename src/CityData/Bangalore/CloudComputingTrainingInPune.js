@@ -250,7 +250,7 @@ export const CloudComputingTrainingInPune = [
             ans: `Learnbay’s cloud program in Pune offers distinct career honors in comparison with others in the industry. Take a look at the significant course highlights –
             
             Inclusively curated syllabus covering AWS, Microsoft Azure, and GCP, 
-            Unlimited Interview calls from any of 450+ industry partners, 
+            Job-readiness with interview support from any of 450+ industry partners, 
             Globally recognized course and project certificates from IBM & Microsoft, 
             1:1 live instructor-led sessions with industry experts, 
             On-demand 1:1 video doubt-clearing assistance, 

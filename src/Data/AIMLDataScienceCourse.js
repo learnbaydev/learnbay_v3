@@ -1511,7 +1511,7 @@ export const AIMLDataScienceCourseData = [
           {
             id: 1,
             ques: "How many interview calls will I get at Learnbay?",
-            ans: "This course promises you unlimited interview calls (at least 8 – 10 calls) with open-end access to leading employers.             ",
+            ans: "This course promises you Job-readiness with interview support (at least 8 – 10 calls) with open-end access to leading employers.             ",
             open: false,
           },
           {

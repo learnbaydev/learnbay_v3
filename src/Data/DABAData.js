@@ -1409,7 +1409,7 @@ export const DABAData = [
             1:1 mock interviews
             1:1 doubt-clearing sessions
             Resume Preparation
-            Unlimited interview calls from 300+ industry partners
+            Job-readiness with interview support from 300+ industry partners
           `,
             open: false,
           },
