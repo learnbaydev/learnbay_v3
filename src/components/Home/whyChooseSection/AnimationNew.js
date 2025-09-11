@@ -102,7 +102,7 @@ function AnimationNew() {
             Why choose <span>Learnbay?</span>
           </h2>
         </div>
-        <div className={`${styles.columnDiv} width` }>
+        <div className={`${styles.columnDiv} width`}>
           {whyChooseData.map((item, index) => (
             <div
               key={index}
@@ -118,7 +118,7 @@ function AnimationNew() {
                   width={70}
                   height={70}
                 />
-                   {index <= whyChooseData.length - 2 && (
+                {index <= whyChooseData.length - 2 && (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -167,13 +167,12 @@ function AnimationNew() {
                 {index === 2 ? (
                   <div className={styles.customSection}>
                     {/* First, the image */}
-                   
+
                     {/* Then the text */}
                     <div className={styles.leftText}>
                       <p>{item.subItems[0].text}</p>
-         
                     </div>
-                    <div >
+                    <div>
                       {/* <Image
                         src={item.subItems[0].ibmLogo}
                         alt="IBM Logo"
@@ -181,12 +180,16 @@ function AnimationNew() {
                         height={item.subItems[0].height}
                         loading="lazy"
                       /> */}
-             <p className={styles.renowed}>{item.subItems[0].newTxt}</p>
+                      <p className={styles.renowed}>
+                        {item.subItems[0].newTxt}
+                      </p>
                     </div>
                   </div>
                 ) : (
                   <div
-                    className={`${styles.downBox} ${getDownBoxClassName(index)}`}
+                    className={`${styles.downBox} ${getDownBoxClassName(
+                      index
+                    )}`}
                   >
                     {item.subItems.map((subItem, subIndex) => (
                       <div
@@ -208,14 +211,20 @@ function AnimationNew() {
                     ))}
                   </div>
                 )}
-                   {index === whyChooseData.length - 1 && (
+                {index === whyChooseData.length - 1 && (
                   <div className={styles.lastItemPoints}>
                     <div className={styles.point}>
                       {arrowSvg} Placement Support
                     </div>
-                    <div className={styles.point}>{arrowSvg} Mock Interviews</div>
-                    <div className={styles.point}>{arrowSvg} Resume BuildUp</div>
-                    <div className={styles.point}>{arrowSvg} Ultimate Interview calls</div>
+                    <div className={styles.point}>
+                      {arrowSvg} Mock Interviews
+                    </div>
+                    <div className={styles.point}>
+                      {arrowSvg} Resume BuildUp
+                    </div>
+                    <div className={styles.point}>
+                      {arrowSvg} Interview calls
+                    </div>
                   </div>
                 )}
 

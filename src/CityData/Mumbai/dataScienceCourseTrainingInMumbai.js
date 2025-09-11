@@ -225,14 +225,7 @@ export const DataScienceMumbaiCourseData = [
             text: "Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies.",
           },
         },
-        {
-          "@type": "Question",
-          name: "What is an interview guarantee feature?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.",
-          },
-        },
+
         {
           "@type": "Question",
           name: "Until when do the students get the facility of mentorship?",
@@ -335,7 +328,7 @@ export const DataScienceMumbaiCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
+        heading: "Job-ready with interview support",
         para: "Boost your job prospects with referrals from 300+ hiring partners",
       },
       {
@@ -707,12 +700,6 @@ export const DataScienceMumbaiCourseData = [
             id: 3,
             ques: "Will I get job referrals at Learnbay?",
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
-            open: false,
-          },
-          {
-            id: 4,
-            ques: "What is an interview guarantee feature?",
-            ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.`,
             open: false,
           },
         ],
@@ -1511,7 +1498,7 @@ export const DataScienceMumbaiCourseData = [
     JobBot1:
       "While enrolling in any course or program, there is always thought persisting in learners about the jobs and placement after the course completion. So, here the job assistance program comes to play.",
     JobBot2:
-      "Learnbay has introduced the Job assist program, which helps students in assisting in placements. Additionally, it also includes guaranteed interview calls for learners in a few courses.",
+      "Learnbay has introduced the Job assist program, which helps students in assisting in placements. Additionally, it also includes Job-ready with interview support for learners in a few courses.",
     JobHead2: "How does the Job assistance program work?",
     JobBot3:
       "Job assistance program helps in interview preparation through mock interviews and tests. Apart from that, the top instructor from Learnbay helps in the preparation of a proficient portfolio and CV that allows learners to achieve satisfactory results in data science interviews.",

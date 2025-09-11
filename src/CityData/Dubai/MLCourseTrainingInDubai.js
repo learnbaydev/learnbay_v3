@@ -794,16 +794,6 @@ export const MLDubaiCourseData = [
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies.`,
             open: false,
           },
-          {
-            id: 3,
-            ques: "What is an interview guarantee feature?",
-            ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. Note: `,
-            linkText1: " Terms and conditions ",
-            link1: "/terms-conditions ",
-            ansAfter: "applied.",
-            link: true,
-            open: false,
-          },
         ],
       },
       {

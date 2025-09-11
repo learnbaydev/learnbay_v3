@@ -15,7 +15,7 @@ export const DABAData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
+        heading: "Job-ready with interview support",
         para: "Boost your job prospects with referrals from 300+ hiring partners",
       },
       {
@@ -261,7 +261,7 @@ export const DABAData = [
             },
             {
               chap: {
-                 title: "Data Cleaning and Preparation in Excel",
+                title: "Data Cleaning and Preparation in Excel",
                 desc: [
                   "Data Importing and Exporting",
                   "Handling Missing Data",
@@ -271,7 +271,7 @@ export const DABAData = [
             },
             {
               chap: {
-                 title: "Data Analysis with Excel",
+                title: "Data Analysis with Excel",
                 desc: [
                   "Descriptive Statistics (Mean, Median, Mode)",
                   "Using Excel for Statistical Analysis",
@@ -281,7 +281,7 @@ export const DABAData = [
             },
             {
               chap: {
-                 title: "Advanced Excel Functions",
+                title: "Advanced Excel Functions",
                 desc: [
                   "Lookup Functions (VLOOKUP, HLOOKUP)",
                   "Conditional Functions (IF, SUMIF, COUNTIF)",
@@ -291,7 +291,7 @@ export const DABAData = [
             },
             {
               chap: {
-                 title: "Data Visualization with Excel",
+                title: "Data Visualization with Excel",
                 desc: [
                   "Creating Charts and Graphs (Bar, Line, Pie)",
                   "Advanced Charting Techniques",
@@ -301,7 +301,7 @@ export const DABAData = [
             },
             {
               chap: {
-                 title: "PivotTables and PivotCharts",
+                title: "PivotTables and PivotCharts",
                 desc: [
                   "Creating and Using PivotTables",
                   "Analyzing Data with PivotCharts",
@@ -311,7 +311,7 @@ export const DABAData = [
             },
             {
               chap: {
-                 title: "Data Automation in Excel",
+                title: "Data Automation in Excel",
                 desc: [
                   "Using Macros for Automation",
                   "Introduction to VBA (Visual Basic for Applications)",
@@ -321,7 +321,7 @@ export const DABAData = [
             },
             {
               chap: {
-                 title: "Project Management in Excel",
+                title: "Project Management in Excel",
                 desc: [
                   "Creating Project Plans and Timelines",
                   "Tracking Progress with Gantt Charts",
@@ -332,7 +332,7 @@ export const DABAData = [
             },
             {
               chap: {
-                 title: "Case Studies and Applications",
+                title: "Case Studies and Applications",
                 desc: [
                   "Real-world Applications of Excel",
                   "Case Studies from Various Industries",
@@ -615,11 +615,7 @@ export const DABAData = [
             {
               chap: {
                 title: "Programming with SQL",
-                desc: [
-                  "Partitioning",
-                  "Filtering Data",
-                  "Subqueries",
-                ],
+                desc: ["Partitioning", "Filtering Data", "Subqueries"],
               },
             },
             {

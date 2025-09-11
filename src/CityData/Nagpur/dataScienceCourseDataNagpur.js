@@ -14,7 +14,7 @@ export const DSnagpurCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
+        heading: "Job-ready with interview support",
         para: "Boost your job prospects with referrals from 300+ hiring partners",
       },
       {
@@ -316,12 +316,6 @@ export const DSnagpurCourseData = [
             id: 3,
             ques: "Will I get job referrals at Learnbay?",
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
-            open: false,
-          },
-          {
-            id: 4,
-            ques: "What is an interview guarantee feature?",
-            ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.`,
             open: false,
           },
         ],

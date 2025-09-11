@@ -7,7 +7,9 @@ function jobReadySection() {
     <section className={styles.container}>
       <div className="containerWidth">
         <h2 className={styles.headH4}>
-          <span className={styles.grey}>Achieve Your Career Goals with Our </span> 
+          <span className={styles.grey}>
+            Achieve Your Career Goals with Our{" "}
+          </span>
           <span className={styles.orange}>Placement Support</span>
         </h2>
         <div className={styles.innerdiv}>
@@ -60,7 +62,7 @@ function jobReadySection() {
             />
           </div>
           <div className={styles.innerbox}>
-            <h4>Ultimate Interview calls</h4>
+            <h4>Interview calls</h4>
             <p>
               Maximise your chances of landing the perfect job with unlimited
               interview opportunities, backed by continuous support and feedback

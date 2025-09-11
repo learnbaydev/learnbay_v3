@@ -407,14 +407,6 @@ export default function Home() {
                 },
                 {
                   "@type": "Question",
-                  name: "What is an interview guarantee feature?",
-                  acceptedAnswer: {
-                    "@type": "Answer",
-                    text: "In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. Note: Terms and conditions applied.",
-                  },
-                },
-                {
-                  "@type": "Question",
                   name: "Until when do the students get the facility of mentorship?",
                   acceptedAnswer: {
                     "@type": "Answer",
@@ -463,7 +455,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          FirstTyped="Guaranteed Interview Calls"
+          FirstTyped="Job-ready with interview support"
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           dataScience={true}

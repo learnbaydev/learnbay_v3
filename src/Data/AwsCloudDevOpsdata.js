@@ -14,7 +14,7 @@ export const AwsAndDevOpsCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
+        heading: "Job-ready with interview support",
         para: "Boost your job prospects with referrals from 300+ hiring partners",
       },
       {
@@ -795,8 +795,7 @@ export const AwsAndDevOpsCourseData = [
             ans: "Learnbay believes in real-time upskilling to enrich the existing skill sets and attain career success. Its Cloud Computing and DevOps Certification Program is different from others in the following ways –            ",
             list1:
               "Industry-driven syllabus with AWS, Microsoft Azure, and GCP            ",
-            list2:
-              "Guaranteed calls for Interviews from Industry partners             ",
+            list2: "Job-ready training & interview support             ",
             list3: "Globally recognized project certification from IBM",
             list4: "Domain-specific training             ",
             list5:

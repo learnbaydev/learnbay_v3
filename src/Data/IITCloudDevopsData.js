@@ -1309,7 +1309,7 @@ export const IITCloudDevopsData = [
             ques: "How is Learnbay's Placement program different from others?",
             ans: "When you get upskilled with Learnbay's course program successfully, you become eligible for its placement program. It offers -",
             list1:
-              "Guaranteed interview calls from prime MNCs & MAANG partnered with Learnbay",
+              "Job-ready with interview support from prime MNCs & MAANG partnered with Learnbay",
             list2:
               "Capstone project certification from IBM enhances the quality of your resume.",
             list3:

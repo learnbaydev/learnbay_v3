@@ -199,7 +199,7 @@ export const CloudBangalore = {
       name: "What distinguishes this cloud computing course in Bangalore from others in the market?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Learnbay believes in real-time upskilling to enrich the existing skill sets and attain career success. Its Cloud Computing Certification Program is different from others in the following ways –\n\nIndustry-driven syllabus with AWS, Microsoft Azure, and GCP\nGuaranteed calls for Interviews from Industry partners \nGlobally acknowledged project credential from IBM & Microsoft\nDomain-specific training \n100% 1:1 live interactions with industry experts\nOn-demand video doubt-clearing support\nCustomized resume preparation",
+        text: "Learnbay believes in real-time upskilling to enrich the existing skill sets and attain career success. Its Cloud Computing Certification Program is different from others in the following ways –\n\nIndustry-driven syllabus with AWS, Microsoft Azure, and GCP\nJob-ready training & interview support \nGlobally acknowledged project credential from IBM & Microsoft\nDomain-specific training \n100% 1:1 live interactions with industry experts\nOn-demand video doubt-clearing support\nCustomized resume preparation",
       },
     },
     {

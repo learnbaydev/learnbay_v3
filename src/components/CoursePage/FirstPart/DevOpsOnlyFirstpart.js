@@ -76,7 +76,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/devops-gam-min.webp",
     image11:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-infi-min.webp",
-    title3: "Assured Job Assistance",
+    title3: "Dedicated Job Assistance",
     jobAssistance: [
       { icon: <BsDisplay />, text: "Unlimited Interview Calls" },
       { icon: <AiOutlineContainer />, text: "Resume Building Session" },

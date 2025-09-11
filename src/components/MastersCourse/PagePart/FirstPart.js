@@ -73,7 +73,7 @@ const FirstPart = ({ TestimonialData, WolfLink, formbtn }) => {
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group-768-min.webp",
     image4:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Mask+group+(10).webp",
-    title3: "Assured Job Assistance",
+    title3: "Dedicated Job Assistance",
     jobAssistance: [
       { icon: <BsDisplay />, text: "Unlimited Interview Calls" },
       { icon: <AiOutlineContainer />, text: "Resume Building Session" },
@@ -120,7 +120,8 @@ const FirstPart = ({ TestimonialData, WolfLink, formbtn }) => {
       alt: "Banner Image 1 Alt",
     },
   };
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Masters-in-CS.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Masters-in-CS.pdf";
   return (
     <>
       {" "}

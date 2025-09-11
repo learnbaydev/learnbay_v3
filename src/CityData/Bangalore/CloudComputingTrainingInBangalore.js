@@ -249,7 +249,7 @@ export const CloudComputingTrainingInBangalore = [
             ans: `Learnbay believes in real-time upskilling to enrich the existing skill sets and attain career success. Its Cloud Computing Certification Program is different from others in the following ways –
             
             Industry-driven syllabus with AWS, Microsoft Azure, and GCP, 
-            Guaranteed calls for Interviews from Industry partners, 
+            Job-ready training & interview support, 
             Globally acknowledged project credential from IBM & Microsoft, 
             Domain-specific training, 
             100% 1:1 live interactions with industry experts, 
@@ -275,18 +275,6 @@ export const CloudComputingTrainingInBangalore = [
             id: 3,
             ques: "What resources or support systems are in place to help graduates secure positions in cloud computing?",
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
-            open: false,
-          },
-          {
-            id: 4,
-            ques: "What is an interview guarantee feature?",
-            ans: `Learnbay offers industry-paced training to help graduates secure a promising position in Cloud Computing. Resources or support they offer are –
-            360-degree knowledge-building training, 
-            Live projects for practical learning, 
-            Training on in-demand Cloud tools, 
-            100% job support (Career Service Pro), 
-            Globally recognized dual certifications (IBM & Microsoft).
-            `,
             open: false,
           },
           {

@@ -874,7 +874,7 @@ export const MLBangaloreCourseData = [
     JobHead1:
       "How does Learnbay’s ML certification become the most promising training for cracking MNC machine learning interviews?",
     JobBot1:
-      "Learnbay is the best machine learning training institute in Bangalore from the perspective of job assistance. Our expert faculty offer you guidance on facing the product MNC Machine learning interviews with maximum possible efficacy. They prepare candidates with mock interviews and offer best-fit job referrals. Also, you get help with creating a resume and portfolio so that the same remains on top of the recruiter's list. Please note we provide guaranteed interview calls.",
+      "Learnbay is the best machine learning training institute in Bangalore from the perspective of job assistance. Our expert faculty offer you guidance on facing the product MNC Machine learning interviews with maximum possible efficacy. They prepare candidates with mock interviews and offer best-fit job referrals. Also, you get help with creating a resume and portfolio so that the same remains on top of the recruiter's list. Please note we provide Job-ready with interview support.",
     JobHead2:
       "Industrial Training with Ultimate Machine Learning Job Assistance",
     JobBot3:

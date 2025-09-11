@@ -6566,7 +6566,7 @@ export const NewDSAData = [
             ans: "When you get upskilled with Learnbay's course program successfully, you become eligible for its placement program. It offers -",
 
             list1:
-              "Guaranteed interview calls from prime MNCs & MAANG partnered with Learnbay",
+              "Job-ready with interview support from prime MNCs & MAANG partnered with Learnbay",
             list2:
               "Domain-specialized training and upskilling help get selected in placement drives",
             list3:

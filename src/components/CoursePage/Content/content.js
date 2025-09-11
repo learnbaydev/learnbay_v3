@@ -2179,11 +2179,11 @@ function DataAnalytics({
                 <b>It offers you –</b>
                 <ul>
                   <li>
-                    Guaranteed interview calls from any of the 450+ MNCs
+                    Job-ready with interview support from any of the 450+ MNCs
                     (industry partners)
                   </li>
                   <li>
-                    Guaranteed interview calls from any of the 450+ MNCs
+                    Job-ready with interview support from any of the 450+ MNCs
                     (industry partners)
                   </li>
                   <li>● Experiential learning space with live projects</li>
@@ -4135,7 +4135,9 @@ function DataAnalytics({
                 <ul>
                   <li>•One Course Completion Certificate from IBM</li>
                   <li>• One Azure AI Certificate from Microsoft</li>
-                  <li>• One Capstone Project Certificate from Renowened Industry</li>
+                  <li>
+                    • One Capstone Project Certificate from Renowened Industry
+                  </li>
                 </ul>
               </p>
               <h4 style={{ fontSize: "20px" }}>
@@ -7186,4 +7188,4 @@ function DataAnalytics({
     </div>
   );
 }
-export default DataAnalytics
+export default DataAnalytics;

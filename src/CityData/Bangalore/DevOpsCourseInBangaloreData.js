@@ -306,9 +306,7 @@ export const DevOpsCourseInBangalore = [
                   <li>
                     Industry-driven syllabus with AWS, Microsoft Azure, and GCP
                   </li>
-                  <li>
-                    Guaranteed calls for Interviews from Industry partners
-                  </li>
+                  <li>Job-ready training & interview support</li>
                   <li>
                     Globally acknowledged project credential from IBM &
                     Microsoft
@@ -697,7 +695,7 @@ export const DevOpsCourseInBangalore = [
       "A globally recognized program stamps your gained abstract and practical ability worldwide.",
     list13:
       "The eligibility of the program is from early to mid-career experts.",
-    list14: "It promises guaranteed interview calls.",
+    list14: "It promises Job-ready with interview support.",
     list15:
       "Learnbay fosters hands-on learning via various capstone and real-time projects.",
     list16:

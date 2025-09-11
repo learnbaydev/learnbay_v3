@@ -73,7 +73,8 @@ export default function Home() {
     fetchPopup();
   }, []);
 
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -115,7 +116,6 @@ export default function Home() {
         <meta
           name="twitter:title"
           content="Data Structures & Algorithms Course | DSA Training in Pune"
-          
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
@@ -133,7 +133,6 @@ export default function Home() {
         <link
           rel="canonical"
           href="https://www.learnbay.co/fullstack/pune/dsa-course-training-pune"
-
         />
         <meta
           name="copyright"
@@ -157,7 +156,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          FirstTyped="Guaranteed Interview Calls"
+          FirstTyped="Job-ready with interview support"
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           cityParaCont=" Accelerate a rewarding tech career with new-age knowledge and coding expertise via our DSA course in Pune. Join us to effortlessly crack top product-based interviews and craft a lucrative career in DSA. Also, earn globally recognized IBM & Microsoft credentials to exhibit your potential in the present tech age. "

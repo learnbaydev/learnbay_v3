@@ -151,7 +151,7 @@ export default function Home() {
         <FirstSection
           dataScienceCounselling={true}
           interstedInHide={true}
-          FirstTyped="Guaranteed Interview Calls"
+          FirstTyped="Job-ready with interview support"
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           cityParaCont=" Working professionals with less than a year of experience who are hoping for a prosperous or even developing career path should take this course."

@@ -120,7 +120,7 @@ export const courseDetails = [
             titleCourse: "Data Science Foundation Program",
             para: [
               "4 Months | 4 Projects",
-              "Guaranteed Interview Calls",
+              "Job-ready with interview support",
               "Designed by industry experts",
             ],
             newDesign: true,
@@ -283,7 +283,7 @@ export const courseDetailsM = [
             titleCourse: "Data Science Foundation Program",
             para: [
               "4 Months | 4 Projects",
-              "Guaranteed Interview Calls",
+              "Job-ready with interview support",
               "Designed by industry experts",
             ],
             newDesign: true,

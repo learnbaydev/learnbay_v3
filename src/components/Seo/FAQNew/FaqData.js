@@ -1778,12 +1778,6 @@ export const jobFaqData8 = [
     ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies. We have 250+ hiring partners.",
     open: false,
   },
-  {
-    id: 4,
-    ques: "What is an interview guarantee feature?",
-    ans: "As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.",
-    open: false,
-  },
 ];
 export const MentorshipFaqData8 = [
   {
@@ -2038,12 +2032,6 @@ export const jobFaqData9 = [
     id: 3,
     ques: "Will I get Job referrals at Learnbay?",
     ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies. We have 250+ hiring partners.",
-    open: false,
-  },
-  {
-    id: 4,
-    ques: "What is an interview guarantee feature?",
-    ans: "As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.",
     open: false,
   },
 ];
@@ -2301,12 +2289,6 @@ export const jobFaqDataBlockchain = [
     ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies. We have 250+ hiring partners.",
     open: false,
   },
-  {
-    id: 4,
-    ques: "What is an interview guarantee feature?",
-    ans: "As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.",
-    open: false,
-  },
 ];
 export const MentorshipFaqDataBlockchain = [
   {
@@ -2560,12 +2542,6 @@ export const jobFaqDataDevops = [
     id: 3,
     ques: "Will I get Job referrals at Learnbay?",
     ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies. We have 250+ hiring partners.",
-    open: false,
-  },
-  {
-    id: 4,
-    ques: "What is an interview guarantee feature?",
-    ans: "As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.",
     open: false,
   },
 ];

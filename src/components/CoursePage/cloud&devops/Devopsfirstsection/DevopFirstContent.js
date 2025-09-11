@@ -70,7 +70,7 @@ const FirstContent = ({
               </div>
               <div className={styles.animationTextWrap}>
                 <span className={styles.animationText}>
-                  Guaranteed Interview Calls
+                  Job-ready with interview support
                 </span>
               </div>
               {/* Button */}

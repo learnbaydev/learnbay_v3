@@ -474,7 +474,7 @@ const CitiesRight = ({
   hydraListJob,
   CyberSecurityBangalore,
   CyberSecurityPune,
-  embedId
+  embedId,
 }) => {
   const [read, setRead] = useState(false);
   const handler = () => {
@@ -1366,8 +1366,8 @@ const CitiesRight = ({
                 get the flexibility to create your learning calendar.
               </li>
               <li>
-                <b>Guaranteed Interview Calls </b>: We partner with 250+ Top
-                MNCs & FinTech Startups. Many of our learners have grabbed
+                <b>Job-ready with interview support </b>: We partner with 250+
+                Top MNCs & FinTech Startups. Many of our learners have grabbed
                 placements in their dream companies. The placement cell is
                 dedicated to ensuring a smooth career transition for you.
               </li>
@@ -1477,8 +1477,8 @@ const CitiesRight = ({
               <li>The program fee is just ₹1,10,000 + 18% GST. </li>
               <li>
                 Our experts make you interview-ready, and the placement cell
-                ensures you get guaranteed interview calls from FinTech Startups
-                and Top MNCs.{" "}
+                ensures you get Job-ready with interview support from FinTech
+                Startups and Top MNCs.{" "}
               </li>
             </ul>
 
@@ -2233,7 +2233,7 @@ const CitiesRight = ({
               Learnbay institute ranges from INR 1,10,000 to INR 125,000,
               depending on the preferred course.
             </p>
-   
+
             {read ? (
               <>
                 <h2 className={styles.pHead}>
@@ -2398,7 +2398,6 @@ const CitiesRight = ({
                   mentorship is provided on Linkedin profile building and
                   insider tips for enhancing the marketability of a resume.{" "}
                 </p>
-
               </>
             ) : (
               ""
@@ -2415,9 +2414,8 @@ const CitiesRight = ({
             >
               {read ? "View Less..." : "View More..."}
             </p>
-            <YoutubeEmbed embedId="1Y0JwDAuthg"/>
+            <YoutubeEmbed embedId="1Y0JwDAuthg" />
           </div>
-
         ) : (
           ""
         )}
@@ -5741,22 +5739,16 @@ const CitiesRight = ({
             </p>
             <ul>
               <li>
-              2-days immersive experience at IIT Roorkee from IIT experts 
-
+                2-days immersive experience at IIT Roorkee from IIT experts
+              </li>
+              <li>Hands-on learning with case studies and capstone projects</li>
+              <li>
+                Career support services (interview preparation, resume building,
+                and job placement assistance)
               </li>
               <li>
-              Hands-on learning with case studies and capstone projects
-
+                Globally recognized iHUB DivyaSampark, IIT Roorkee certificates
               </li>
-              <li>
-              Career support services (interview preparation, resume building, and job placement assistance)
-
-              </li>
-              <li>
-              Globally recognized iHUB DivyaSampark, IIT Roorkee certificates
-
-              </li>
-        
             </ul>
           </div>
         ) : (
@@ -6609,9 +6601,7 @@ const CitiesRight = ({
               and data science courses.
             </p>
 
-<YoutubeEmbed embedId="gvSdkorN6PE"/>
-
-
+            <YoutubeEmbed embedId="gvSdkorN6PE" />
           </div>
         ) : (
           <div className={styles.CitiesRightInner}>

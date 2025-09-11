@@ -1369,8 +1369,8 @@ const CitiesRight = ({
                 get the flexibility to create your learning calendar.
               </li>
               <li>
-                <b>Guaranteed Interview Calls </b>: We partner with 250+ Top
-                MNCs & FinTech Startups. Many of our learners have grabbed
+                <b>Job-ready with interview support </b>: We partner with 250+
+                Top MNCs & FinTech Startups. Many of our learners have grabbed
                 placements in their dream companies. The placement cell is
                 dedicated to ensuring a smooth career transition for you.
               </li>
@@ -1480,8 +1480,8 @@ const CitiesRight = ({
               <li>The program fee is just ₹1,10,000 + 18% GST. </li>
               <li>
                 Our experts make you interview-ready, and the placement cell
-                ensures you get guaranteed interview calls from FinTech Startups
-                and Top MNCs.{" "}
+                ensures you get Job-ready with interview support from FinTech
+                Startups and Top MNCs.{" "}
               </li>
             </ul>
 

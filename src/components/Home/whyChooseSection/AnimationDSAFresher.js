@@ -4,7 +4,6 @@ import Image from "next/image";
 import whyChooseData from "./AnimationDSAFreshersData"; // Import the data
 
 function AnimationDSAFresher() {
-
   const arrowSvg = [
     <svg
       height="18"
@@ -231,15 +230,21 @@ function AnimationDSAFresher() {
                     ))}
                   </div>
                 )}
-                 {/* Add four div points for the last item */}
-                 {index === whyChooseData.length - 1 && (
+                {/* Add four div points for the last item */}
+                {index === whyChooseData.length - 1 && (
                   <div className={styles.lastItemPoints}>
                     <div className={styles.point}>
                       {arrowSvg} Placement Support
                     </div>
-                    <div className={styles.point}>{arrowSvg} Mock Interviews</div>
-                    <div className={styles.point}>{arrowSvg} Resume BuildUp</div>
-                    <div className={styles.point}>{arrowSvg} Ultimate Interview calls</div>
+                    <div className={styles.point}>
+                      {arrowSvg} Mock Interviews
+                    </div>
+                    <div className={styles.point}>
+                      {arrowSvg} Resume BuildUp
+                    </div>
+                    <div className={styles.point}>
+                      {arrowSvg} Interview calls
+                    </div>
                   </div>
                 )}
 
