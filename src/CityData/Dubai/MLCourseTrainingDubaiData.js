@@ -870,7 +870,7 @@ export const MLDubaiCourseData = [
     JobBot1:
       "Learnbay does its best at training young enthusiasts as well as highly experienced professionals. It ensures that all students are placed in desirable positions at top PRODUCT Based Companies/ MNC companies. This is why we have included a dedicated job assistance program for our IBM machine learning courses. We provide end-to-end machine learning interview sessions by ML experts. Such sessions include resume preparation, company-specific mock interviews, and project portfolio management. Our experts will continue to guide them until they are placed in relevant ML positions.",
     JobBot5:
-      "We have a strong network of over 250 hiring partners like Accenture, Adobe, etc., in Dubai and other cities worldwide.",
+      "We are partnered with leading MNCs & unicorn startups like Accenture, Adobe, etc., in Dubai and other cities worldwide.",
     JobHead2: "What is the ML market trend in Dubai?",
     JobBot3:
       "Machine Learning is one of the most popular and well-paid career fields in Dubai. Most importantly, it's the most future-proof job field. It requires a combination of technical skills and business knowledge, as well as curiosity and creativity. It helps to make data-driven decisions based on historical and live analysis of the data.",

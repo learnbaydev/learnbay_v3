@@ -1279,7 +1279,7 @@ export const IITCloudDevopsData = [
             id: 0,
             ques: "What is a job readiness program at Learnbay?",
 
-            ans: `A job-readiness program at Learnbay includes resume-building sessions, portfolio designing, and 1:1 mock interview preparation sessions for the experts. This program aims to help working professionals redefine their careers in relevant fields with attractive pay. The tie-ups with 450+ leading MNCs & unicorn startups help the learners get their entry into the leading MNCs in their desired areas.`,
+            ans: `A job-readiness program at Learnbay includes resume-building sessions, portfolio designing, and 1:1 mock interview preparation sessions for the experts. This program aims to help working professionals redefine their careers in relevant fields with attractive pay. The tie-ups with 350+ leading MNCs & unicorn startups help the learners get their entry into the leading MNCs in their desired areas.`,
             open: true,
           },
           {

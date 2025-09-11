@@ -380,7 +380,7 @@ export const DataScienceHyderabadCourseData = [
         height: "42",
         width: "42",
         heading: "Job-ready with interview support",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,

@@ -878,7 +878,7 @@ export const MLPuneCourseData = [
     JobBot2:
       "The Learnbay teaching faculty guides students on how to face product MNC Machine Learning Interviews. Industry curated mock interviews by Learnbay with Job referrals.",
     JobBot5:
-      "Learnbay assures Job-ready with interview support from 250+ recruiters channels across Pune as well as all over India. Learnbay teaching faculty conducts Mock-interviews with Artificial Intelligence and Machine Learning experts of specified domains and product MNC'S job roles. Our job Assistance team program also teaches industry-specific tips and tricks that are handy during the interview process.",
+      "Learnbay assures Job-ready with interview support from 350+ recruiters channels across Pune as well as all over India. Learnbay teaching faculty conducts Mock-interviews with Artificial Intelligence and Machine Learning experts of specified domains and product MNC'S job roles. Our job Assistance team program also teaches industry-specific tips and tricks that are handy during the interview process.",
     ProjectsBot1:
       "Learnbay knows the importance of projects and their value if added to a resume or Portfolio. Learnbay machine Learning training in Pune has 15 real-time projects and 2 capstone projects. All our projects and courses are certified by IBM and are recognized globally.",
     src1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/SAMSUNG.png",

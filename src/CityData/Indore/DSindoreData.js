@@ -15,7 +15,7 @@ export const DSinodreCourseData = [
         height: "42",
         width: "42",
         heading: "Job-ready with interview support",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -534,7 +534,7 @@ export const DSinodreCourseData = [
     JobBot007:
       "The data science coaching in Indore program offers Gen AI-rich training courses with global career paths. Experts have the privilege of working on capstone projects in chosen domains. This assists experts in learning real-world business issues and solving them effectively.",
     JobBot005:
-      "In addition, we offer an accredited big data course in Indore, endorsed by IBM and MS. Our 450+ leading MNCs & unicorn startups will help you crack product/service-based jobs with leading MNCs. ",
+      "In addition, we offer an accredited big data course in Indore, endorsed by IBM and MS. Our 350+ leading MNCs & unicorn startups will help you crack product/service-based jobs with leading MNCs. ",
     JobBot006: " ",
     JobHead22:
       "What jobs are possible with Learnbay’s data science course in Indore?",

@@ -5391,7 +5391,7 @@ function DataAnalytics({
                       This course offers 100% placement support via its Career
                       Service Pro program. A learner will get everything – from
                       resume preparation to Job-readiness with interview support
-                      from any of the 450+ leading MNCs & unicorn startups.{" "}
+                      from any of the 350+ leading MNCs & unicorn startups.{" "}
                     </p>
                   </li>
                   <li>

@@ -800,7 +800,7 @@ export const BAMumbaiCourseData = [
     Projectsp4:
       "JP Morgan offers tax-friendly alternatives to traditional insurance policies. You can help them with projects like precise insurance premiums forecasting. Such projects can help achieve overall higher premium values by proper target marketing with the help of your random forest algorithm abilities.",
     AlumniBot1:
-      "In 2020 we had 70+ hiring partners, but our students' business analytics interview success rate has helped us expand the network with 250+ company collaborations in Mumbai now. It's not only the junior business analyst positions that our students are enjoying- rather, but 300+Learnbay alumni are also successfully handling their mid to senior-level BA job roles in several startups and MNCs across the country. ",
+      "In 2020 we had 70+ hiring partners, but our students' business analytics interview success rate has helped us expand the network with 350+ company collaborations in Mumbai now. It's not only the junior business analyst positions that our students are enjoying- rather, but 300+Learnbay alumni are also successfully handling their mid to senior-level BA job roles in several startups and MNCs across the country. ",
     Asrc1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/devraj.jpg",
     AlumniH1: "Deveraj",
     Alumnip1:

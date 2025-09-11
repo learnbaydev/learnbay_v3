@@ -1775,7 +1775,7 @@ export const jobFaqData8 = [
   {
     id: 3,
     ques: "Will I get Job referrals at Learnbay?",
-    ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies. We have 250+ hiring partners.",
+    ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies. Learners working at 350+ companies",
     open: false,
   },
 ];
@@ -2031,7 +2031,7 @@ export const jobFaqData9 = [
   {
     id: 3,
     ques: "Will I get Job referrals at Learnbay?",
-    ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies. We have 250+ hiring partners.",
+    ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies. Learners working at 350+ companies",
     open: false,
   },
 ];
@@ -2286,7 +2286,7 @@ export const jobFaqDataBlockchain = [
   {
     id: 3,
     ques: "Will I get Job referrals at Learnbay?",
-    ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies. We have 250+ hiring partners.",
+    ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies. Learners working at 350+ companies",
     open: false,
   },
 ];
@@ -2541,7 +2541,7 @@ export const jobFaqDataDevops = [
   {
     id: 3,
     ques: "Will I get Job referrals at Learnbay?",
-    ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies. We have 250+ hiring partners.",
+    ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies. Learners working at 350+ companies",
     open: false,
   },
 ];

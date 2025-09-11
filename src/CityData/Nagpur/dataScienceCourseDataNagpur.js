@@ -15,7 +15,7 @@ export const DSnagpurCourseData = [
         height: "42",
         width: "42",
         heading: "Job-ready with interview support",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -503,7 +503,7 @@ export const DSnagpurCourseData = [
     JobBot39: "Career Service Pro feature provides –      ",
     Joblist14: "Uninterrupted job and placement support for three years      ",
     Joblist15:
-      "Six 1:1 mock interviews with any of the 450+ leading MNCs & unicorn startups        ",
+      "Six 1:1 mock interviews with any of the 350+ leading MNCs & unicorn startups        ",
     Joblist16:
       " Resume building & optimization & LinkedIn profile review       ",
     Joblist17:

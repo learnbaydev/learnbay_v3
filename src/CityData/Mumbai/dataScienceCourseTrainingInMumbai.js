@@ -329,7 +329,7 @@ export const DataScienceMumbaiCourseData = [
         height: "42",
         width: "42",
         heading: "Job-ready with interview support",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -1503,7 +1503,7 @@ export const DataScienceMumbaiCourseData = [
     JobBot3:
       "Job assistance program helps in interview preparation through mock interviews and tests. Apart from that, the top instructor from Learnbay helps in the preparation of a proficient portfolio and CV that allows learners to achieve satisfactory results in data science interviews.",
     JobBot4:
-      "Learnbay has partnered with 250+ companies that include top MNCs and startups across the globe. Additionally, we have a dedicated placement cell that helps in prioritizing the smooth career transition for working professionals. Because of Learnbay’s job assistance program, most of the successful alumni are hired in their desired firm one month prior to course completion.",
+      "Learners working at 350+ companies include top MNCs and startups across the globe. Additionally, we have a dedicated placement cell that helps in prioritizing the smooth career transition for working professionals. Because of Learnbay’s job assistance program, most of the successful alumni are hired in their desired firm one month prior to course completion.",
     JobHead3:
       "What is special about Learnbay’s data science interview preparation sessions?",
     JobBot7:

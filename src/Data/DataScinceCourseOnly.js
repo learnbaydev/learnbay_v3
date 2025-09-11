@@ -15,7 +15,7 @@ export const DataScienceCourseData = [
         height: "42",
         width: "42",
         heading: "Job-ready with interview support",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -366,7 +366,7 @@ export const DataScienceCourseData = [
     Joblist14:
       "1:1 doubt-clearing with mentors (Course and Project-related)      ",
     Joblist15:
-      "Six 1:1 mock interviews (450+ leading MNCs & unicorn startups)      ",
+      "Six 1:1 mock interviews (350+ leading MNCs & unicorn startups)      ",
     Joblist16: "Three years of job support/Resume building      ",
     Joblist17: "Endless job calls from leading MNCs      ",
     JobHead21: "  ",

@@ -788,7 +788,7 @@ export const FSDelhiCourseData = [
     JobBot1:
       "Our full-stack developer course in Delhi even has resume-building sessions for candidates. After completing a full-stack software developer course with domain specialization, you can add all the skills you have mastered but highly focus on how that helps in your targeted domain. It offers you an additional advantage at the interview table. ",
     JobBot2:
-      "Learnbay has a dedicated team of recruitment assistants backed up by 250+ hiring partners. This team refers our alumni to top organizations, so they get to land a job that they wish for. ",
+      "Learnbay has a dedicated team of recruitment assistants backed up by Learners working at 350+ companies This team refers our alumni to top organizations, so they get to land a job that they wish for. ",
     ProjectsBot1:
       "The best Full stack developer course in Delhi by Learnbay has a series of fresh capstone projects. Students get to work and gain experience by working on projects using the latest tools and skills they learned from Learnbay. Other than that we encourage our students to come up with their own project ideas. Our industry expert project guides help them to reach the desired project outcomes.",
     ProjectsBot2:

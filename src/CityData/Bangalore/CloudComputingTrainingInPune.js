@@ -250,7 +250,7 @@ export const CloudComputingTrainingInPune = [
             ans: `Learnbay’s cloud program in Pune offers distinct career honors in comparison with others in the industry. Take a look at the significant course highlights –
             
             Inclusively curated syllabus covering AWS, Microsoft Azure, and GCP, 
-            Job-readiness with interview support from any of 450+ leading MNCs & unicorn startups, 
+            Job-readiness with interview support from any of 350+ leading MNCs & unicorn startups, 
             Globally recognized course and project certificates from IBM & Microsoft, 
             1:1 live instructor-led sessions with industry experts, 
             On-demand 1:1 video doubt-clearing assistance, 
@@ -264,7 +264,7 @@ export const CloudComputingTrainingInPune = [
             ans: `Techies joining cloud computing institute in Pune for upskilling shall receive 100% job and placement support. Eligible learners (at least 70% scores in projects and tasks) get uncompromised job assistance at Learnbay. Our Career Services PRO offers – 
                 Endless Job and Placement Support, 
                 Unlimited access to learning materials, 
-                1:1 Mock Interview prep with any of 450+ leading MNCs & unicorn startups, 
+                1:1 Mock Interview prep with any of 350+ leading MNCs & unicorn startups, 
                 24/7 contact with Mentors (training and project-related), 
                 Resume Building, 
                 1:1 LinkedIn Review Session, 

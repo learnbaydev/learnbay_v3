@@ -15,7 +15,7 @@ export const DSMarathCourseData = [
         height: "42",
         width: "42",
         heading: "Job-ready with interview support",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -533,7 +533,7 @@ export const DSMarathCourseData = [
     JobBot007:
       "The data science in the Marathahalli program offers Gen AI-rich training courses with global career paths. Experts have the privilege of working on live projects in chosen domains. This helps pros to recognize and solve practical business issues.",
     JobBot005:
-      "In addition, we offer an accredited Best data science training institute in Marathahalli, endorsed by IBM and MS. Our 450+ leading MNCs & unicorn startups will help you crack product/service-based jobs with leading MNCs. ",
+      "In addition, we offer an accredited Best data science training institute in Marathahalli, endorsed by IBM and MS. Our 350+ leading MNCs & unicorn startups will help you crack product/service-based jobs with leading MNCs. ",
     JobBot006: " ",
     JobHead22:
       "What jobs are possible with Learnbay’s data science course in Marathahalli?",

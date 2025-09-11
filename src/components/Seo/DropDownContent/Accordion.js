@@ -464,7 +464,7 @@ const Accordion = () => {
               1:1 doubt-clearing with mentors (Course and Project-related){" "}
             </li>
             <li>
-              Six 1:1 mock interviews (450+ leading MNCs & unicorn startups)
+              Six 1:1 mock interviews (350+ leading MNCs & unicorn startups)
             </li>
             <li>Three years of job support/Resume building</li>
             <li>Endless job calls from leading MNCs</li>

@@ -933,7 +933,7 @@ export const MLDubaiCourseData = [
 
     JobHead1: "Job support program of artificial intelligence course:",
     JobBot1:
-      "Learnbay has a channel of 250+ hiring partners in Dubai and all over the world. It has helped countless AI and ML enthusiasts crack difficult interviews with our job assistance feature. This assistance includes portfolio building and soft skills training workshops. Our placement experts help them in finding the relevant AI job roles and prepare them accordingly. They also conduct personalized mock interviews as per the candidate's screening process of top MNCs and Dubai-based companies.",
+      "Learnbay has a channel of 350+ company collabrations in Dubai and all over the world. It has helped countless AI and ML enthusiasts crack difficult interviews with our job assistance feature. This assistance includes portfolio building and soft skills training workshops. Our placement experts help them in finding the relevant AI job roles and prepare them accordingly. They also conduct personalized mock interviews as per the candidate's screening process of top MNCs and Dubai-based companies.",
     JobBot2:
       "If you are not placed within 6 months of course completion, you may request a refund of your AI course fee under Learnbay's 100% job assistance program.",
     JobHead2: "Future of AI in Dubai",

@@ -15,7 +15,7 @@ export const DSBhubabneswasCourseData = [
         height: "42",
         width: "42",
         heading: "Job-ready with interview support",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -506,7 +506,7 @@ export const DSBhubabneswasCourseData = [
       "Exclusive gains that our Career Service PRO will offer are –      ",
     Joblist14: "job and placement services for three years      ",
     Joblist15:
-      "Six 1:1 mock interviews scheduled with any of the 450+ leading MNCs & unicorn startups        ",
+      "Six 1:1 mock interviews scheduled with any of the 350+ leading MNCs & unicorn startups        ",
     Joblist16: " Resume building with job-ready skills      ",
     Joblist17:
       "LinkedIn profile review  and job calls from MNCs globally      ",
@@ -534,7 +534,7 @@ export const DSBhubabneswasCourseData = [
     JobBot007:
       " The data science program entails GenAI-rich training courses with global career paths. Experts have the privilege of working on capstone projects in chosen domains. This helps specialists understand real-world business problems and solve them efficiently.        ",
     JobBot005:
-      " Furthermore, we offer a big data course in Bhubaneswar accredited by IBM and MS for extended social connections and global recognition. Our 450+ leading MNCs & unicorn startups guide you to crack product/service-based interviews with leading MNCs.         ",
+      " Furthermore, we offer a big data course in Bhubaneswar accredited by IBM and MS for extended social connections and global recognition. Our 350+ leading MNCs & unicorn startups guide you to crack product/service-based interviews with leading MNCs.         ",
     JobBot006: " ",
     JobHead22:
       "What jobs are possible with Learnbay’s data science course in Bhubaneswar?        ",

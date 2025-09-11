@@ -15,7 +15,7 @@ export const DSMalaysiaCourseData = [
         height: "42",
         width: "42",
         heading: "Job-ready with interview support",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -565,7 +565,7 @@ export const DSMalaysiaCourseData = [
     JobBot39: "Career Service Pro offers –      ",
     Joblist14: "Effortless job and placement services for three years      ",
     Joblist15:
-      "Six 1:1 mock interviews scheduled with any of the 450+ leading MNCs & unicorn startups      ",
+      "Six 1:1 mock interviews scheduled with any of the 350+ leading MNCs & unicorn startups      ",
     Joblist16: "Resume building with job-ready skills      ",
     Joblist17:
       "LinkedIn profile review / job calls from MNCs in Malaysia and overseas       ",
@@ -594,7 +594,7 @@ export const DSMalaysiaCourseData = [
     JobBot005:
       "Our data science online course unlocks the door to global career paths. Experts get the privilege to work with capstone projects in chosen domains. It helps experts get into real-world business issues and solve them with efficiency.       ",
     JobBot006:
-      "Plus, we offer a data science certificate online accredited by IBM & MS for extended social connections and global recognition. Our 450+ leading MNCs & unicorn startups guide you to crack product/service-based interviews with leading MNCs.       ",
+      "Plus, we offer a data science certificate online accredited by IBM & MS for extended social connections and global recognition. Our 350+ leading MNCs & unicorn startups guide you to crack product/service-based interviews with leading MNCs.       ",
     JobHead22:
       "What job roles can you get into with Learnbay’s online data science course?         ",
 

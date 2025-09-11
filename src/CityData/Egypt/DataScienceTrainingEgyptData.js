@@ -15,7 +15,7 @@ export const DSEgyptCourseData = [
         height: "42",
         width: "42",
         heading: "Job-ready with interview support",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -550,7 +550,7 @@ export const DSEgyptCourseData = [
     JobBot39: "  ",
     Joblist14: "Hassle-free job and placement support (for 3 years)        ",
     Joblist15:
-      "Mock interviews (any of the 450+ leading MNCs & unicorn startups)        ",
+      "Mock interviews (any of the 350+ leading MNCs & unicorn startups)        ",
     Joblist16: "Resume Building and LinkedIn Profiling      ",
     Joblist17: " Endless job calls from MNCs in Egypt and overseas       ",
 

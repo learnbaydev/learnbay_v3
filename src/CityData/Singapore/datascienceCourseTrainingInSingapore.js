@@ -15,7 +15,7 @@ export const DSSingaporeCourseData = [
         height: "42",
         width: "42",
         heading: "Job-ready with interview support",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -543,7 +543,7 @@ export const DSSingaporeCourseData = [
       "Learnbay’s data science course in Singapore extends promising career support via industry-driven upskilling. Learners opting for data science courses gain 100% job assistance from our dedicated placement cell. Eligible learners (at least 70% score in assessments) will get 100% job support via Career Service Pro. It includes –",
     Joblist14: "Placement support for 3 years with promising job offers",
     Joblist15:
-      "6 mock interviews (any of the 450+ leading MNCs & unicorn startups)",
+      "6 mock interviews (any of the 350+ leading MNCs & unicorn startups)",
     Joblist16: "Resume Optimization",
     Joblist17: "LinkedIn Profiling",
 

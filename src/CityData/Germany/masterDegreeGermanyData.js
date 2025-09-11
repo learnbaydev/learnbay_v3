@@ -15,7 +15,7 @@ export const masterdegreeGermanyCourseData = [
         height: "42",
         width: "42",
         heading: "Job-ready with interview support",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -572,7 +572,7 @@ export const masterdegreeGermanyCourseData = [
       "Experts opting for a masters in data science will get 100% job and placement support. If you score at least 70% marks in course tasks and assessments, you will be eligible for our job assist program – Career Service PRO. Our dedicated placement team helps you develop job-ready skills to land prime jobs.         ",
     Joblist14: "Incessant job and placement service for three years      ",
     Joblist15:
-      "Six mock interviews with any of the 450+ leading MNCs & unicorn startups       ",
+      "Six mock interviews with any of the 350+ leading MNCs & unicorn startups       ",
     Joblist16: "1:1 doubt-clearing sessions       ",
     Joblist17: "Resume-making and Optimization        ",
     Joblist18: "LinkedIn profiling      ",

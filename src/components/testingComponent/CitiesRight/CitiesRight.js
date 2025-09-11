@@ -2251,9 +2251,10 @@ const CitiesRight = ({
                   until they are placed in a reputed position. In addition, our
                   mentors will assist you with theoretical and practical
                   concepts, assignment completion, and live data science
-                  projects. With over 250 hiring partners and a dedicated
-                  placement cell, Learnbay helps the participants secure jobs by
-                  facilitating multiple MNC interviews. The best part about
+                  projects. We are partnered with leading MNCs & unicorn
+                  startups and a dedicated placement cell, Learnbay helps the
+                  participants secure jobs by facilitating multiple MNC
+                  interviews. The best part about
                 </p>
                 <p>
                   Most of our instructors are IIT and IIM graduates, some of

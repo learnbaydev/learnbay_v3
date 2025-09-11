@@ -369,7 +369,7 @@ export const DSPuneCourseData = [
         height: "42",
         width: "42",
         heading: "Job-ready with interview support",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -853,7 +853,7 @@ export const DSPuneCourseData = [
     JobHead1:
       "Learnbay's data science course is best known for its high placement rate.",
     JobBot1:
-      "It offers data scientists interview calls in the specific domain opted by students. The students of Learnbay get recruited by globally recognized companies and startups as Data scientists, Data engineers, AI experts, etc. Learnbay has created a strong network with 250+ companies that recruit for highly paid data science job roles throughout the year.",
+      "It offers data scientists interview calls in the specific domain opted by students. The students of Learnbay get recruited by globally recognized companies and startups as Data scientists, Data engineers, AI experts, etc. Learnbay has created a strong network with 350+ companies that recruit for highly paid data science job roles throughout the year.",
     JobBot2:
       "Learnbay faculties even focus on students' soft skills, resume building, and portfolios of their students so that they keep shining even in the large data science job seekers crowd. Most Learnbay students have got Data scientist roles in companies like Amazon, Mercedes, JP Morgan, E&Y, SG Analytics, Techart, Alteryx, etc.",
     JobHead2: "What is the scope of Data scientists in Pune?",

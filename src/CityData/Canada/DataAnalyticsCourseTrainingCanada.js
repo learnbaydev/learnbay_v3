@@ -831,7 +831,7 @@ export const DAcanadaCourseData = [
     Projectsp4:
       "BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects. BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects.",
     AlumniBot1:
-      "Learnbay has collaborated with 250+ hiring partners. It has successfully placed many students in well-paying positions within 3 months of the IBM data analytics course completion, on average. Over 700 aspirants have secured their careers as data analysts in leading companies, including  IBM, Accenture, Oracle, and Mindtree. Some of our satisfied learners have shared their experiences with us.",
+      "Learnbay has collaborated with Learners working at 350+ companies It has successfully placed many students in well-paying positions within 3 months of the IBM data analytics course completion, on average. Over 700 aspirants have secured their careers as data analysts in leading companies, including  IBM, Accenture, Oracle, and Mindtree. Some of our satisfied learners have shared their experiences with us.",
     Asrc1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/devraj.jpg",
     AlumniH1: "Deveraj",
     Alumnip1:
