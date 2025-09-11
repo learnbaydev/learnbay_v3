@@ -458,7 +458,7 @@ export const FullStackDubaiCourseData = [
     JobBot1:
       "Learnbay’s 360° full stack software developer course even helps students in resume building. The resume will portray all the skills and knowledge that you have learned as a developer while completing the full-stack software developer course from Learnbay in Dubai.",
     JobBot3:
-      "Our special dedicated team for students refers to jobs of top organizations and MNC. So, alumni get the job they always wanted to work for. The course comes with an interview guarantee.",
+      "Our special dedicated team for students refers to jobs of top organizations and MNC. So, alumni get the job they always wanted to work for. The course comes with an interview support.",
     ProjectsBot1:
       "A full-stack developer course with domain specialization includes real-world capstone projects for students to learn and get experience with real-world examples. It helps students in practicing the tools and skills they have gained after the completion of capstone projects, the full stack software developer course with domain specialization.",
     ProjectsHead2: "Full-stack software development projects example:",

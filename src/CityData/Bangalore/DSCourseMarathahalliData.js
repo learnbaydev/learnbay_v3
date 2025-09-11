@@ -500,7 +500,7 @@ export const DSMarathCourseData = [
     JobHead19: "Career Service Pro    ",
 
     JobBot20:
-      "Enrolling in a data science course can lead to an excellent future with lucrative pay scales for data experts. Hence, working professionals embrace the best data science course in Marathahalli which offers 100% placement assistance guaranteed.",
+      "Enrolling in a data science course can lead to an excellent future with lucrative pay scales for data experts. Hence, working professionals embrace the best data science course in Marathahalli which offers Job-ready training & interview support.",
     JobBot003:
       "We ensure complete growth scopes and provide all-inclusive training in data science courses. You may qualify for a job assist program and custom-fit career guidance if you complete tasks and projects with at least a 70% score. Here, you also earn a chance for 1.1 doubt-clearing and resume-review sessions.",
     JobBot39: "Career Service Pro feature provides –",
@@ -515,7 +515,7 @@ export const DSMarathCourseData = [
 
     JobHeadIndia01: "         ",
     JobBot22:
-      "Learnbay provides a unique data science course in Marathahalli, a modern course module, and a placement guarantee. Our training programs can help experts remove career hurdles, achieve professional growth, and offer constant job support for career success.",
+      "Learnbay provides a unique data science course in Marathahalli, a modern course module, and a placement support. Our training programs can help experts remove career hurdles, achieve professional growth, and offer constant job support for career success.",
     JobHeadIndia01: "        ",
     JobBot23: "",
     JobBot24:

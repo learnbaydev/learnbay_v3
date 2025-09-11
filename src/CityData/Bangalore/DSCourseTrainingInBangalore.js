@@ -846,7 +846,7 @@ export const DSBangaloreCourseData = [
     JobHead1:
       "Data science job assistance and Data Science Interview preparation in Bangalore.",
     JobBot1:
-      "Learnbay Data science classes in Bangalore assures guaranteed job referrals as per the specified domain chosen by the student. They help students and learners to get placed in startups and top MNCs to build a career as Data scientists. We prepare students by conducting mock interviews as per the program. Learnbay even works on soft-skill, portfolio, and resume building. Many of our students had a breakthrough in their careers as they got recruited by leading global companies like TCS, Amazon, Mercedes, JP Morgan, and EY.",
+      "Learnbay Data science classes in Bangalore provides job referrals as per the specified domain chosen by the student. They help students and learners to get placed in startups and top MNCs to build a career as Data scientists. We prepare students by conducting mock interviews as per the program. Learnbay even works on soft-skill, portfolio, and resume building. Many of our students had a breakthrough in their careers as they got recruited by leading global companies like TCS, Amazon, Mercedes, JP Morgan, and EY.",
     JobHead2:
       "What are the advantages of becoming a Data Scientist in Bangalore?",
     JobBot3:

@@ -882,7 +882,7 @@ export const MLMumbaiCourseData = [
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Advance+AI+%26+ML+Certification+Program+Learnbay.pdf",
     JobBot1:
-      "Our aim is to provide assured placement to all of our students. But we believe that only a set of referrals is not the actual job assistance that our students need. Even that can’t assure the placement success rate. We provide end-to-end machine learning job interview sessions by PRODUCT Based Companies ML experts. Such sessions are divided into several company-specific mock interviews, 1-on-1 resume help, and ML project portfolio guidance. We promise a 100% ML interview guarantee. ",
+      "Our aim is to provide assured placement to all of our students. But we believe that only a set of referrals is not the actual job assistance that our students need. Even that can’t assure the placement success rate. We provide end-to-end machine learning job interview sessions by PRODUCT Based Companies ML experts. Such sessions are divided into several company-specific mock interviews, 1-on-1 resume help, and ML project portfolio guidance. We promise a 100% ML interview support. ",
     JobBot5:
       "We have an active recruitment channel with 250+ top hiring partners across Mumbai and all over India. A few of the big names are Fractal, Accenture, SAP, etc.",
     ProjectsBot1:

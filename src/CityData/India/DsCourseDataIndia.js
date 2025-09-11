@@ -568,7 +568,7 @@ export const DSIndiaCourseData = [
     JobHead30: "",
 
     JobBot21:
-      "Learnbay tends to offer an exceptional, cutting-edge data science course with a placement guarantee. Our training programs can help to lead and overcome various career redundancies and attain professional success.  Our continuous job assistance program promotes career growth chances with its constant support.       ",
+      "Learnbay tends to offer an exceptional, cutting-edge data science course with a placement support. Our training programs can help to lead and overcome various career redundancies and attain professional success.  Our continuous job assistance program promotes career growth chances with its constant support.       ",
     JobHeadIndia01: "         ",
     JobBot22:
       " Note: Here, you can easily avail yourself of better job placement support for three years even after completing the course programs. Additionally, renowned experts are available 24/7 to solve your queries regarding training programs.       ",

@@ -493,7 +493,7 @@ export const DSBhubabneswasCourseData = [
     Joblist13:
       "Business case studies in your domain and  Experimental exposure to real-world business issues via projects     ",
     JobBot001:
-      "Our data science course helps guarantee career-oriented skills for cracking interviews with top-tier global MNCs. Experts obtain 24/7 career support here to help them acquire technical, soft, and behavioral skills.         ",
+      "Our data science course helps career-oriented skills for cracking interviews with top-tier global MNCs. Experts obtain 24/7 career support here to help them acquire technical, soft, and behavioral skills.         ",
     JobBot002:
       "Furthermore, technical and soft skills offer an exceptional opportunity to build personalized skills and improve organizational fit.         ",
     JobHead19: "Career Service Pro    ",
@@ -514,7 +514,7 @@ export const DSBhubabneswasCourseData = [
     JobHead30: "",
 
     JobBot21:
-      "Learnbay tends to provide an exceptional, cutting-edge data science course with a placement guarantee. Our training programs can assist in leading and overcoming various career redundancies and attaining professional advancement. Our continuous job assistance program promotes career growth chances with its constant support.         ",
+      "Learnbay tends to provide an exceptional, cutting-edge data science course with a placement support. Our training programs can assist in leading and overcoming various career redundancies and attaining professional advancement. Our continuous job assistance program promotes career growth chances with its constant support.         ",
     JobHeadIndia01: "         ",
     JobBot22:
       " Note: Here, you can easily avail yourself of better job placement support for three years even after completing the course programs. Additionally, renowned experts are available 24/7 to solve your queries regarding training programs.         ",

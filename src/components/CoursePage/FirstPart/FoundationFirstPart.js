@@ -106,9 +106,9 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
         imgAlt: "image",
-        title: "100% Job Assistance Program",
+        title: "Job Assistance Program",
         description:
-          "Get a boost in your career with guaranteed 4 interview calls",
+          "Get a boost in your career with Job-ready training & interview support",
       },
     ],
     bannerImage: {

@@ -941,7 +941,7 @@ export const AIHyderabadCourseData = [
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf",
     JobBot1:
-      "Learnbay's career consultants will assist you in developing your CV and portfolio. Learnbay also refers your resume and portfolio to other companies. Learnbay guarantees top-tier companies in Hyderabad will interview you. You'll also get exposure to mock interviews that make you prepare for difficult real-life interviews.",
+      "Learnbay's career consultants will assist you in developing your CV and portfolio. Learnbay also refers your resume and portfolio to other companies. top-tier companies in Hyderabad will interview you. You'll also get exposure to mock interviews that make you prepare for difficult real-life interviews.",
     JobBot2:
       "If you do not get hired within six months of finishing the course, the Placement Assistance program ensures that you will receive a complete return of your AI course fees.",
     JobHead2:

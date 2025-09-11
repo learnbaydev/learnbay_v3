@@ -361,7 +361,7 @@ export const DataScienceCourseData = [
 
     JobHead19: "Career Service Pro        ",
     JobBot50:
-      "Experts eager to re-establish their careers with premium gains must enroll in the best data science course with placement guarantee. We envision a successful career change with alluring growth offers. Apart from tech skills, our job assist program focuses on soft and behavioral skill development. Mentors guide our learners through their real-time experience and help them become a perfect organizational fit.   ",
+      "Experts eager to re-establish their careers with premium gains must enroll in the best data science course with placement assistance. We envision a successful career change with alluring growth offers. Apart from tech skills, our job assist program focuses on soft and behavioral skill development. Mentors guide our learners through their real-time experience and help them become a perfect organizational fit.   ",
     JobBot20: "Vital career gains via our Career Service PRO are –        ",
     Joblist14:
       "1:1 doubt-clearing with mentors (Course and Project-related)      ",
@@ -370,7 +370,7 @@ export const DataScienceCourseData = [
     Joblist17: "Endless job calls from leading MNCs      ",
     JobHead21: "  ",
     JobBot21:
-      "Unlike generic courses, we are moving on our path toward proven career shifts. A data science course with placement guarantee unlocks true career potential for experts with stagnancy. With our programs, you can unlock alluring job roles of data scientists, data analysts, data engineers, etc.         ",
+      "Unlike generic courses, we are moving on our path toward proven career shifts. A data science course with placement assistance unlocks true career potential for experts with stagnancy. With our programs, you can unlock alluring job roles of data scientists, data analysts, data engineers, etc.         ",
     JobBot22: "   ",
     JobBot23: "    ",
     Joblist50: "    ",

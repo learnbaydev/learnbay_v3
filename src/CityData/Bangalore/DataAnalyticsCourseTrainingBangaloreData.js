@@ -799,9 +799,9 @@ export const DABangaloreCourseData = [
         Considering learners from non-tech backgrounds, we have designed the
         placement assistance program accordingly. Participants of our data
         analytics certification program will receive mock interviews, profile
-        review sessions, resume-crafting sessions, and guaranteed interview
-        calls. Placement assistance will help students gain insights into the
-        hiring process of different companies and industries. GST.
+        review sessions, resume-crafting sessions, and Job-ready training &
+        interview support. Placement assistance will help students gain insights
+        into the hiring process of different companies and industries. GST.
       </span>
     ),
     ProgramBot10: (

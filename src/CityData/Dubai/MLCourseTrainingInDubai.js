@@ -845,7 +845,7 @@ export const MLDubaiCourseData = [
     ProgramBot32:
       "Learnbay even supports learners coming from non-IT backgrounds by arranging additional programming classes. They also host a variety of webinars and hackathons to help pupils learn efficiently.",
     ProgramBot4:
-      "Additionally, you can even get a guarantee placement assistance in specific artificial intelligence certification programs.",
+      "Additionally, you can even get a placement assistance in specific artificial intelligence certification programs.",
     ProgramBot5:
       "Available Artificial Intelligence Certification Courses by Learnbay in Dubai:",
     Courselink1: "/data-science-certification-courses",

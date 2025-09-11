@@ -940,7 +940,7 @@ export const AIChennaiCourseData = [
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf",
     JobBot1:
-      "Learnbay's career coaches and mentors will help you develop your resume and portfolio, as well as refer your profiles to other companies. They ensure that you get guaranteed interviews with top leading organizations in Chennai. In addition, you'll also get multiple mock artificial intelligence interviews to make you ready for challenging real interviews.",
+      "Learnbay's career coaches and mentors will help you develop your resume and portfolio, as well as refer your profiles to other companies. They ensure that you get interviews with top leading organizations in Chennai. In addition, you'll also get multiple mock artificial intelligence interviews to make you ready for challenging real interviews.",
     JobBot2:
       "The Placement Assistance program ensures that you get a full AI course fee to refund if you do not get placed within 6 months after the course.",
     JobHead2: "Is artificial intelligence a good career in Chennai?",

@@ -555,7 +555,7 @@ export const DSUKCourseData = [
     JobBot20:
       "The UK has a wider scope of career success and growth options for data aspirants from diverse sectors. Thus, experts opt for industry-driven course programs to redefine their careers on a global scale with prime job offers.       ",
     JobBot003:
-      "We offer a data science course with placement guarantee for all eligible learners (scoring at least 70% in assessments). Career Service Pro offers every possible job assistance – from 1:1 doubt-clearing to LinkedIn profile review.       ",
+      "We offer a data science course with placement support for all eligible learners (scoring at least 70% in assessments). Career Service Pro offers every possible job assistance – from 1:1 doubt-clearing to LinkedIn profile review.       ",
     JobBot39: "It includes –      ",
     Joblist14: "Three years of smooth job and placement support       ",
     Joblist15:

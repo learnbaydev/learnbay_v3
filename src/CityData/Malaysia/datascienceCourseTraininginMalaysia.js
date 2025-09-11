@@ -573,7 +573,7 @@ export const DSMalaysiaCourseData = [
     JobHead30: "",
 
     JobBot21:
-      "Learnbay offers a cutting-edge data science course with placement guarantee, paving the way for global-level success. Our training programs help experts overcome career redundancies and attain success. Our job assist program elevates career growth chances with its constant support.         ",
+      "Learnbay offers a cutting-edge data science course with placement support, paving the way for global-level success. Our training programs help experts overcome career redundancies and attain success. Our job assist program elevates career growth chances with its constant support.         ",
     JobBot22:
       "Note: You can avail of this placement support for three years even after completing the course. Our renowned experts are available 24/7 to solve your queries regarding the course.         ",
     JobBot34: "",

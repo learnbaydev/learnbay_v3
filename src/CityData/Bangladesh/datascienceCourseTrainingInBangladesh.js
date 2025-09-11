@@ -542,7 +542,7 @@ export const DSBangladeshCourseData = [
     JobHead19: "Career Service Pro    ",
 
     JobBot20:
-      "Owing to the rising data-driven trends, the demand for a data science course with placement guarantee increases. Eligible learners (at least 70% score in assessments) get the privilege of ‘Career Service Pro’ – Learnbay’s job assist program. With this program experts clear their course-related doubts, attend mock interviews, refine soft skills, and optimize their resumes.         ",
+      "Owing to the rising data-driven trends, the demand for a data science course with placement assistance increases. Eligible learners (at least 70% score in assessments) get the privilege of ‘Career Service Pro’ – Learnbay’s job assist program. With this program experts clear their course-related doubts, attend mock interviews, refine soft skills, and optimize their resumes.         ",
     JobBot39: "Major highlights are –    ",
     Joblist14:
       "Hassle-free job and placement support for 3 years (global job offers)        ",

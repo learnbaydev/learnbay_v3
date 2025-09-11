@@ -857,10 +857,10 @@ export const DevOpsCourseInBangalore = [
     JobBot4: (
       <span>
         Further, the <b>best DevOps training institute in Bangalore, i.e.,</b>{" "}
-        Learnbay guarantees 100% placement via its industrial tie-ups and career
-        service pro. Our coaching improves the candidate’s portfolio to crack
-        all the upcoming interviews and achieve success. This program gives
-        constant motivation till you bag a job.
+        Learnbay Job-ready training & interview support. Our coaching improves
+        the candidate’s portfolio to crack all the upcoming interviews and
+        achieve success. This program gives constant motivation till you bag a
+        job.
       </span>
     ),
     // JobBot6: "This program helps you even after completing DevOps certification in Bangalore. Our mentors are there to help you around the clock to fix your confusion.",

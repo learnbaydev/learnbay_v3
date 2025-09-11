@@ -852,7 +852,7 @@ export const AIMumbaiCourseData = [
     ProgramBot67:
       "It also offers a 1- 3 year Flexi membership (based on course) for online artificial intelligence certification courses in Mumbai, allowing students to learn at their own pace but through completely interactive, live sessions.",
     ProgramBot4:
-      "Learnbay Artificial intelligence courses ensure guaranteed placement assurance.",
+      "Learnbay Artificial intelligence courses ensure Job-ready training & interview support",
     ProgramHead4:
       "Available Artificial Intelligence Certification Courses by Learnbay in Canada:",
     Courselink1: "/data-science-certification-courses",
@@ -934,7 +934,7 @@ export const AIMumbaiCourseData = [
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf",
     JobHead1: "Artificial Intelligence Interview preparation in Mumbai:",
     JobBot1:
-      "The artificial intelligence courses offered by Learnbay guarantee MNC/PRODUCT Based Companies interviews for its students. There is a specific artificial intelligence course in Mumbai that even refunds their course fees in case of unsuccessful placement.",
+      "The artificial intelligence courses offered by Learnbay helps you to get MNC/PRODUCT Based Companies interviews for its students. There is a specific artificial intelligence course in Mumbai that even refunds their course fees in case of unsuccessful placement.",
     JobBot2:
       "Learnbay’s career coaches ensure that you are well prepared to land a high-paying job in the field of artificial intelligence and ML. They guide you with everything from resume preparation and soft skills training to conducting mock interviews. They make your portfolio up-to-date and appealing, as well as refer your profile to potential employers.",
     JobBot5:

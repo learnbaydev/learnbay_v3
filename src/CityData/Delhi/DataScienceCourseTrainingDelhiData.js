@@ -867,7 +867,7 @@ export const DSDelhiCourseData = [
     JobBot1:
       "Data science certifications at Learnbay will help you prepare for interviews. Several company-specific mock interviews bolster our students' confidence at the interview table. Learnbay instructors ensure that your resume and portfolio are up to date to attract recruiters. You will receive domain-specific full-stack data scientist training, which will be reflected in your interview preparation.",
     JobBot2:
-      "Our data science course in Delhi comes with a guarantee of an interview with a prominent MNC or a rising startup or India. However, if you enroll in a Data Science Certification course in Delhi with a Job Assistance, you can get a refund if you don't get hired (which is very rare in Learnbay). More than 10000 Learnbay alumni are proudly employed in various data science positions throughout Delhi.",
+      "Our data science course in Delhi comes with a support of an interview with a prominent MNC or a rising startup or India. However, if you enroll in a Data Science Certification course in Delhi with a Job Assistance, you can get a refund if you don't get hired (which is very rare in Learnbay). More than 10000 Learnbay alumni are proudly employed in various data science positions throughout Delhi.",
     JobBot5:
       "We work on placements with various firms, including IBM, TCS, Accenture, EY, JP Morgan, and others.",
     JobHead2: "What are the advantages of working as a Data scientist? ",

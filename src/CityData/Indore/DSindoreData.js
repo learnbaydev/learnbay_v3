@@ -516,7 +516,7 @@ export const DSinodreCourseData = [
 
     JobHeadIndia01: "         ",
     JobBot22:
-      "Learnbay offers unique data science course fees in Indore, a cutting-edge course module, and a placement guarantee. Our training programs can help experts remove various career hurdles, achieve professional growth, and provide constant job support for career success.",
+      "Learnbay offers unique data science course fees in Indore, a cutting-edge course module, and a placement support. Our training programs can help experts remove various career hurdles, achieve professional growth, and provide constant job support for career success.",
     JobHeadIndia01: "        ",
     JobBot23:
       "Note: Here, enjoy extended job placement support for three years even after completing the course programs. Additionally, our 24/7 experts are there to help with any training-related queries.",

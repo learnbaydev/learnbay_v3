@@ -533,10 +533,10 @@ const CitiesRight = ({
               being produced daily, corporations largely depend on data science,
               and Mumbai is quickly becoming one of India's top job hubs. As a
               result, Mumbai offers a variety of opportunities for{" "}
-              <b>online data science training</b>. However, when securing
-              guaranteed job placement, the list of reliable options becomes
-              shorter. Moreover, considering the cost-effectiveness of the
-              course, the list of reliable options shrinks even further.
+              <b>online data science training</b>. However, when securing job
+              placement, the list of reliable options becomes shorter. Moreover,
+              considering the cost-effectiveness of the course, the list of
+              reliable options shrinks even further.
             </p>
             <p>
               In Mumbai, data science has become incredibly popular in recent
@@ -1191,12 +1191,12 @@ const CitiesRight = ({
               Our <b>Data Science course in Pune</b> is a two to a three-year
               subscription program. We have collaborated with IBM to provide a{" "}
               <b>data science certification course</b>. They are globally
-              recognized and guarantee 100% job assistance. One-on-one,
-              personalized, live doubt-clearing sessions with skilled MAANG data
-              scientists make Learnbay different from the rest. Its unique cloud
-              lab feature provides access to live Data science projects from
-              MNCs and even offers guidance from industrial leads. This way, you
-              can learn data science without leaving your job.
+              recognize. One-on-one, personalized, live doubt-clearing sessions
+              with skilled MAANG data scientists make Learnbay different from
+              the rest. Its unique cloud lab feature provides access to live
+              Data science projects from MNCs and even offers guidance from
+              industrial leads. This way, you can learn data science without
+              leaving your job.
             </p>
             <p>
               Learners at Learnbay get a list of specialized domains. To work as
@@ -1636,7 +1636,7 @@ const CitiesRight = ({
             </h2>
             <ul>
               <li>IBM Certified Capstone</li>
-              <li>Guaranteed Job Referrals</li>
+              <li>Job-ready training & interview support</li>
               <li>100% Live Online Classes</li>
               <li>
                 Hassle-free and tailored training for MAANG Company interviews
@@ -1893,7 +1893,7 @@ const CitiesRight = ({
               placement assistance cell offers comprehensive support, from
               resume writing to interview training. Learnbay is the perfect
               choice for people wishing to begin a career in data science
-              because we also provide guaranteed employment recommendations in
+              because we also provide employment recommendations in
               product-based MNCs.
             </p>
             <p>

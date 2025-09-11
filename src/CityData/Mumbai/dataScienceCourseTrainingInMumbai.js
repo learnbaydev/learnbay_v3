@@ -789,8 +789,8 @@ export const DataScienceMumbaiCourseData = [
         produced daily, corporations largely depend on data science, and Mumbai
         is quickly becoming one of India's top job hubs. As a result, Mumbai
         offers a variety of opportunities for{" "}
-        <b>online data science training</b>. However, when securing guaranteed
-        Job Assistance, the list of reliable options becomes shorter. Moreover,
+        <b>online data science training</b>. However, when securing Job
+        Assistance, the list of reliable options becomes shorter. Moreover,
         considering the cost-effectiveness of the course, the list of reliable
         options shrinks even further.
       </span>
@@ -1507,7 +1507,7 @@ export const DataScienceMumbaiCourseData = [
     JobHead3:
       "What is special about Learnbay’s data science interview preparation sessions?",
     JobBot7:
-      "Learnbay offers a 1:1 mock interview round, with the industry and PRODUCT Based Companies experts, which helps them to get prepared for the actual interviews. Apart from that, the learners are offered guaranteed ten interview calls after the successful completion of the course.",
+      "Learnbay offers a 1:1 mock interview round, with the industry and PRODUCT Based Companies experts, which helps them to get prepared for the actual interviews. Apart from that, the learners are offered ten interview calls after the successful completion of the course.",
     ProjectsHead1: "Why are projects important?",
     ProjectsBot1:
       "Projects act as a crucial foundation for an addition to any data science courses. It facilitates learning new procedures and technology for working professionals. Learnbay offers live industrial data science projects, where you can choose any projects from the listed 15+ domains.",

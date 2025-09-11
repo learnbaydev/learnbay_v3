@@ -3210,10 +3210,10 @@ function DataAnalytics({
                     such highly demanded skill expertise.
                   </li>
                   <li>
-                    <b>Guaranteed Career Support:</b> We guarantee 100% job
-                    support to help your success in this field after completion
-                    of the course. We’ll help you cherish all of your existing
-                    potential to land at your desired career level.{" "}
+                    <b>Job Assistance :</b> We provide job support to help you
+                    successed in this field after completion of the course.
+                    We’ll help you cherish all of your existing potential to
+                    land at your desired career level.{" "}
                   </li>
                   <li>
                     <b>Flexible Learning:</b> Our hybrid learning platform
