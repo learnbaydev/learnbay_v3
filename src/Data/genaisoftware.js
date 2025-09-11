@@ -7068,7 +7068,7 @@ export const NewDSAData = [
           {
             id: 1,
             ques: "How many interview calls will I get at Learnbay?            ",
-            ans: "This course promises you unlimited interview calls (at least 10 calls) with open-end access to the leading employers.             ",
+            ans: "This course promises you Job-readiness with interview support (at least 10 calls) with open-end access to the leading employers.             ",
             open: false,
           },
           {

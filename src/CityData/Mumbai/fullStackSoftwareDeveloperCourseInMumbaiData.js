@@ -225,14 +225,7 @@ export const FullStackMumbaiCourseData = [
             text: "Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies.",
           },
         },
-        {
-          "@type": "Question",
-          name: "What is an interview guarantee feature?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.",
-          },
-        },
+
         {
           "@type": "Question",
           name: "Until when do the students get the facility of mentorship?",

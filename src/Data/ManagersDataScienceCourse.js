@@ -1856,7 +1856,7 @@ export const DataScienceCourseData = [
     //             title: "Fundamentals of Generative AI",
     //             desc: [
     //               "Overview of generative models and their real-world applications,highlighting differences from traditional AI.",
-                  
+
     //             ],
     //           },
     //         },
@@ -1868,7 +1868,7 @@ export const DataScienceCourseData = [
     //               "Healthcare: Drug discovery, medical image analysis, and personalized treatment.",
     //               "Retail and E-commerce: Personalized recommendations, inventory management, and customer service automation.",
     //               "Manufacturing: Quality control, predictive maintenance, and process optimization.",
-                  
+
     //             ],
     //           },
     //         },
@@ -1888,7 +1888,7 @@ export const DataScienceCourseData = [
     //             desc: [
     //               "Strategies for crafting effective prompts to optimize AI responses and improve user interaction",
     //               "Techniques for prompt optimization and prompt chaining.",
-                  
+
     //             ],
     //           },
     //         },
@@ -1898,7 +1898,7 @@ export const DataScienceCourseData = [
     //             desc: [
     //               "Introduction to transformers and self-attention, BERT, GPT, and other transformer-based architectures, Hands-on exercise: Finetuning a transformer model for text generation.",
     //               "Hands-on Project: Fine-tune a transformer model on a custom text dataset for a text classification or summarization task.",
-                
+
     //             ],
     //           },
     //         },
@@ -1928,13 +1928,13 @@ export const DataScienceCourseData = [
     //             desc: [
     //               "Core principles of agentic systems (Autonomy, Goal-oriented behavior, Decision-making)",
     //               "Use cases in business and technology",
-                  
+
     //             ],
     //           },
     //         },
     //         {
     //           chap: {
-                
+
     //             title: "Introduction to Agentic AI",
     //             desc: [
     //               "Task Management and Automation",
@@ -1945,7 +1945,7 @@ export const DataScienceCourseData = [
     //         },
     //         {
     //           chap: {
-                
+
     //             title: "Key Components of Agentic AI",
     //             desc: [
     //               "LangChain: Introduction and hands-on exercises",
@@ -1956,7 +1956,7 @@ export const DataScienceCourseData = [
     //         },
     //         {
     //           chap: {
-                
+
     //             title: "Essential Tools for Agentic AI",
     //             desc: [
     //               "Integrating agents with OpenAI APIs",
@@ -1967,7 +1967,7 @@ export const DataScienceCourseData = [
     //         },
     //         {
     //           chap: {
-                
+
     //             title: "Agentic AI Integration",
     //             desc: [
     //               "Integrating agents with OpenAI APIs",
@@ -1978,7 +1978,7 @@ export const DataScienceCourseData = [
     //         },
     //         {
     //           chap: {
-                
+
     //             title: "GenAI Copilot, Deployment and Ethical Considerations in GenAI",
     //             desc: [
     //               "Learn Model Deployment for Generative AI, covering deployment techniques, best practices, API setup, and scaling infrastructure.",
@@ -2328,7 +2328,7 @@ export const DataScienceCourseData = [
     //     },
     //   },
     // ],
-    
+
     masterSyllabusMobile: [
       {
         Module0: {
@@ -2390,7 +2390,7 @@ export const DataScienceCourseData = [
       {
         Module0: {
           title: "TERM 1 :- Python for Data Science",
-         
+
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Python_round.webp",
           StartImageUrl:
@@ -2399,68 +2399,64 @@ export const DataScienceCourseData = [
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
           points: "Basic Python",
           points1: "Advance Python",
-          
+
           content: [
             {
               chap: {
-                section:"Section 1 - Core Python Basics",
-                title:"Python Environment Setup",
+                section: "Section 1 - Core Python Basics",
+                title: "Python Environment Setup",
                 desc: [
                   "Setting up Python environments using Anaconda and Jupyter",
                   "Installing and managing virtual environments using conda/pip.",
                 ],
-                
               },
             },
             {
               chap: {
-                title:"Python Syntax and Code Structure",
+                title: "Python Syntax and Code Structure",
                 desc: [
                   "Writing and running Python scripts.",
                   "Best practices for writing clean and readable code (PEP 8).",
                   "Understanding Python functions and scopes.",
                 ],
-                
               },
             },
             {
               chap: {
-                title:"Data Types and Control Flow",
+                title: "Data Types and Control Flow",
                 desc: [
                   "Primitive data types: integers, floats, strings, and booleans.",
                   "Control flow statements (if, else, elif) for decision making.",
                   "Loops: for, while, do while, break, continue, pass",
                 ],
-                
               },
             },
             {
               chap: {
-                title:"Data Structures",
+                title: "Data Structures",
                 desc: [
                   "Introduction to basic data structures (lists, tuples, dictionaries).",
                   "Manipulating collections: Adding, removing, and modifying elements.",
                   "List comprehension and dictionary comprehension for concise code.",
                 ],
-                
               },
             },
             {
               chap: {
-                title:"Functions And Modules",
+                title: "Functions And Modules",
                 desc: [
                   "Introduction To Functions Defining & Calling Functions",
                   "Functions With Multiple Arguments",
                   "Anonymous Functions - Lambda Using Built-In Modules,",
                   "User-Defined Modules, Module Namespaces, Iterators And Generators",
                 ],
-                
               },
             },
             {
               chap: {
                 section: "Section 2 - Data analytics Using Python ",
-                title:"File I/O An d Exceptional Handling and Regular Expression",
+                title:
+                  "File I/O An d Exceptional Handling and Regular Expression",
                 desc: [
                   "open Function, file Object Attributes",
                   "close() Method, Read, write, seek.",
@@ -2473,7 +2469,7 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                title:"Basic Web Scraping for Data Analytics",
+                title: "Basic Web Scraping for Data Analytics",
                 desc: [
                   "Definition and use cases in data analytics",
                   "Tools for scraping: requests and BeautifulSoup",
@@ -2485,7 +2481,7 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                title:"Data Analysis using Numpy",
+                title: "Data Analysis using Numpy",
                 desc: [
                   "Introduction to Numpy. Array Creation, Printing Arrays, Basic Operation - Indexing, Slicing and Iterating, Shape Manipulation - Changing shape, stacking and splitting of array",
                   "Vector stacking, Broadcasting with Numpy, Numpy for Statistical Operation",
@@ -2494,7 +2490,7 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                title:"Data Analysis using Pandas",
+                title: "Data Analysis using Pandas",
                 desc: [
                   "Pandas : Introduction to Pandas",
                   "Importing data into Python",
@@ -2504,19 +2500,17 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                title:"Data Visualization using Matplotlib",
+                title: "Data Visualization using Matplotlib",
                 desc: [
                   "Introduction, plot(), Controlling Line Properties, Subplot with Functional Method, Multiple Plot, Working with Multiple Figures, Histograms",
-                  
                 ],
               },
             },
             {
               chap: {
-                title:"Data Visualization using Seaborn",
+                title: "Data Visualization using Seaborn",
                 desc: [
                   "Introduction to Seaborn and Visualizing statistical relationships , Import and Prepare data. Plotting with categorical data and Visualizing linear relationships.",
-                  
                 ],
               },
             },
@@ -2687,7 +2681,6 @@ export const DataScienceCourseData = [
                   "Definition, Steps in KNN Model, Types of Distance: Manhattan Distance, Euclidean Distance, ‘Lazy Learner Model’.",
                   "Confusion Matrix of Multi Class Classification",
                   "Using Python library Sklearn to create the K Nearest Neighbours Model and evaluate the model",
-
                 ],
               },
             },
@@ -2709,7 +2702,6 @@ export const DataScienceCourseData = [
                   "Ensemble Techniques: Bagging/bootstrapping & Boosting",
                   "Definition of Random Forest, OOB Score",
                   "K-Fold Cross-Validation",
-
                 ],
               },
             },
@@ -2719,7 +2711,6 @@ export const DataScienceCourseData = [
                 desc: [
                   "GridSearchCV, Variable Importance",
                   "Using Python library Sklearn to create the Random Forest Model and evaluate the model created.",
-
                 ],
               },
             },
@@ -2729,7 +2720,6 @@ export const DataScienceCourseData = [
                 desc: [
                   "Definition, Advantages, Baye’s Theorem Applicability, Disadvantages of Naive Baye’s Model, Laplace’s Correction, Types of Classifiers: Gaussian, Multinomial and Bernoulli",
                   "Using Python library Sklearn to create the Naive Baye’s Model and evaluate the model created",
-
                 ],
               },
             },
@@ -2740,7 +2730,6 @@ export const DataScienceCourseData = [
                   "Definition of Clustering, Use cases of Clustering",
                   "K Means Clustering Algorithm, Assumptions of K Means Clustering",
                   "Sum of Squares Curve or Elbow Curve",
-
                 ],
               },
             },
@@ -2750,7 +2739,6 @@ export const DataScienceCourseData = [
                 desc: [
                   "Dendrogram, Agglomerative Clustering, Divisive Clustering, Comparison of K Means Clustering and Hierarchical Clustering",
                   "Using Python library Sklearn to create and evaluate the clustering model",
-
                 ],
               },
             },
@@ -2808,7 +2796,6 @@ export const DataScienceCourseData = [
                 title: "Fundamentals of Generative AI",
                 desc: [
                   "Overview of generative models and their real-world applications,highlighting differences from traditional AI.",
-                  
                 ],
               },
             },
@@ -2820,7 +2807,6 @@ export const DataScienceCourseData = [
                   "Healthcare: Drug discovery, medical image analysis, and personalized treatment.",
                   "Retail and E-commerce: Personalized recommendations, inventory management, and customer service automation.",
                   "Manufacturing: Quality control, predictive maintenance, and process optimization.",
-                  
                 ],
               },
             },
@@ -2840,7 +2826,6 @@ export const DataScienceCourseData = [
                 desc: [
                   "Strategies for crafting effective prompts to optimize AI responses and improve user interaction",
                   "Techniques for prompt optimization and prompt chaining.",
-                  
                 ],
               },
             },
@@ -2850,7 +2835,6 @@ export const DataScienceCourseData = [
                 desc: [
                   "Introduction to transformers and self-attention, BERT, GPT, and other transformer-based architectures, Hands-on exercise: Finetuning a transformer model for text generation.",
                   "Hands-on Project: Fine-tune a transformer model on a custom text dataset for a text classification or summarization task.",
-                
                 ],
               },
             },
@@ -2880,35 +2864,31 @@ export const DataScienceCourseData = [
                 desc: [
                   "Core principles of agentic systems (Autonomy, Goal-oriented behavior, Decision-making)",
                   "Use cases in business and technology",
-                  
                 ],
               },
             },
             {
               chap: {
-                
                 title: "Introduction to Agentic AI",
                 desc: [
                   "Task Management and Automation",
                   "Decision-making frameworks",
-                  "Practical demonstration using LangChain"
+                  "Practical demonstration using LangChain",
                 ],
               },
             },
             {
               chap: {
-                
                 title: "Key Components of Agentic AI",
                 desc: [
                   "LangChain: Introduction and hands-on exercises",
                   "AutoGPT: Setup and practical application",
-                  "CrewAI: Introduction and practical demonstrations"
+                  "CrewAI: Introduction and practical demonstrations",
                 ],
               },
             },
             {
               chap: {
-                
                 title: "Essential Tools for Agentic AI",
                 desc: [
                   "Integrating agents with OpenAI APIs",
@@ -2919,7 +2899,6 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                
                 title: "Agentic AI Integration",
                 desc: [
                   "Integrating agents with OpenAI APIs",
@@ -2930,8 +2909,8 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                
-                title: "GenAI Copilot, Deployment and Ethical Considerations in GenAI",
+                title:
+                  "GenAI Copilot, Deployment and Ethical Considerations in GenAI",
                 desc: [
                   "Learn Model Deployment for Generative AI, covering deployment techniques, best practices, API setup, and scaling infrastructure.",
                   "Explore GenAI Copilot Tools for Coding, including GitHub Copilot, Tabnine, Amazon CodeWhisperer, Replit Ghostwriter, and Codex.",
@@ -3005,7 +2984,7 @@ export const DataScienceCourseData = [
                   "Create, Read, Update, Delete",
                   "Finding, Deleting, Updating, Inserting Elements",
                   "Working with Arrays",
-                  "Understanding Schemas and Relations"
+                  "Understanding Schemas and Relations",
                 ],
               },
             },
@@ -3083,7 +3062,7 @@ export const DataScienceCourseData = [
                   "Scatterplots and BI Reports",
                   "Connecting Dataset with Power BI Creating a Customer",
                   "Segmentation Dashboard Analyzing the Customer",
-                  "Segmentation Dashboard"
+                  "Segmentation Dashboard",
                 ],
               },
             },
@@ -3097,13 +3076,13 @@ export const DataScienceCourseData = [
                   "Scatterplots and BI Reports",
                   "Connecting Dataset with Power BI Creating a Customer",
                   "Segmentation Dashboard Analyzing the Customer",
-                  "Segmentation Dashboard"
+                  "Segmentation Dashboard",
                 ],
               },
             },
             {
               chap: {
-                section:"Section 4 - BigData and Spark Analytics",
+                section: "Section 4 - BigData and Spark Analytics",
                 title: "Introduction To Hadoop & Big Data",
                 desc: [
                   "Distributed Architecture - A Brief Overview. Understanding BigData",
@@ -3137,7 +3116,7 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                section:"Section 5 - Time Series",
+                section: "Section 5 - Time Series",
                 title: "Introduction to Time Series Forecasting",
                 desc: [
                   "Basics of Time Series Analysis and Forecasting",
@@ -3179,7 +3158,7 @@ export const DataScienceCourseData = [
           content: [
             {
               chap: {
-                section:"Section 1 - Deep Learning using TensorFlow",
+                section: "Section 1 - Deep Learning using TensorFlow",
                 title: "Introduction to Deep Learning and TensorFlow",
                 desc: [
                   "Neural Network",
@@ -3236,7 +3215,8 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                title: "Introducing Recurrent Neural Networks skflow: RNNs in skflow",
+                title:
+                  "Introducing Recurrent Neural Networks skflow: RNNs in skflow",
                 desc: [
                   "Application use cases of RNN",
                   "Manual Creation of RNN Long Short-Term Memory (LSTM) And GRU theory Restricted Boltzmann Machine(RBM)",
@@ -3259,7 +3239,8 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                title: "Understanding Keras API for implementing Neural Networks",
+                title:
+                  "Understanding Keras API for implementing Neural Networks",
                 desc: [
                   "Getting Started With Keras APIs Keras Model",
                   "Sequential And Functional Model, shared layers",
@@ -3280,7 +3261,8 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                title: "Understanding Keras API for implementing Neural Networks",
+                title:
+                  "Understanding Keras API for implementing Neural Networks",
                 desc: [
                   "Build RNN with PyTorch",
                   "LSTM in PyTorch",
@@ -3290,7 +3272,7 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                section:"Section 2 - Natural Language Processing (NLP)",
+                section: "Section 2 - Natural Language Processing (NLP)",
                 title: "Natural Language Processing",
                 desc: [
                   "Text Analytics",
@@ -3352,7 +3334,7 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                section:"Section 3 - Computer Vision",
+                section: "Section 3 - Computer Vision",
                 title: "Computer Vision overview",
                 desc: [
                   "Historical Perspective",
@@ -3400,7 +3382,7 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                section:"Section 4 - Reinforcement Learning",
+                section: "Section 4 - Reinforcement Learning",
                 title: "What is Reinforcement Learning - Basics",
                 desc: [
                   "Setting up Environment & Installing OpenAI Gym",
@@ -3427,8 +3409,9 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                section:"Section 5 - Deployment AWS+Azure",
-                title: "Introduction to AWS and Azure Machine Learning Services",
+                section: "Section 5 - Deployment AWS+Azure",
+                title:
+                  "Introduction to AWS and Azure Machine Learning Services",
                 desc: [
                   "Overview of AWS SageMaker and Azure Machine Learning",
                   "Key features and benefits of using these platforms",
@@ -3484,7 +3467,7 @@ export const DataScienceCourseData = [
           content: [
             {
               chap: {
-                section:"Section 1 - Project Management",
+                section: "Section 1 - Project Management",
                 title: "Topics Covered",
                 desc: [
                   "Project scope and objectives",
@@ -3497,7 +3480,7 @@ export const DataScienceCourseData = [
 
             {
               chap: {
-                section:"Section 2: Agile and Scrum Methodologies",
+                section: "Section 2: Agile and Scrum Methodologies",
                 title: "Topics Covered",
                 desc: [
                   "Agile principles and Scrum framework",
@@ -3509,7 +3492,7 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                section:"Section 3: Risk Management",
+                section: "Section 3: Risk Management",
                 title: "Topics Covered",
                 desc: [
                   "Risk identification techniques",
@@ -3520,7 +3503,7 @@ export const DataScienceCourseData = [
             },
             {
               chap: {
-                section:"Section 4: Stakeholder Management",
+                section: "Section 4: Stakeholder Management",
                 title: "Topics Covered",
                 desc: [
                   "Identifying key stakeholders, Managing communication and feedback loops, Aligning project goals with stakeholder expectations",
@@ -3533,8 +3516,6 @@ export const DataScienceCourseData = [
           open: false,
         },
       },
-     
-      
     ],
     faq: [
       {
@@ -3736,7 +3717,7 @@ export const DataScienceCourseData = [
           {
             id: 1,
             ques: "How many interview calls will I get at Learnbay?",
-            ans: "Learners will receive 8 – 10 interview calls from top-rated industry partners (MNCs). ",
+            ans: "Learners will receive 8 – 10 interview calls from top-rated leading MNCs & unicorn startups (MNCs). ",
             open: false,
           },
           {

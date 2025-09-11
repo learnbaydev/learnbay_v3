@@ -14,8 +14,8 @@ export const DataScienceCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,

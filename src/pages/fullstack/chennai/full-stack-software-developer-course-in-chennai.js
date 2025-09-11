@@ -158,7 +158,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          FirstTyped="Guaranteed Interview Calls"
+          FirstTyped="Job-ready with interview support"
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           cityParaCont=" Enroll in the best Job-ready full-stack software development course in Chennai. Take a 10-step step ahead of others towards the most lucrative salary package of product-based MNCs, which you deserve."

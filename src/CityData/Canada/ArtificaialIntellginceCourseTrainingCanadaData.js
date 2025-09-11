@@ -228,14 +228,7 @@ export const AIcanadaCourseData = [
             text: "Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies.",
           },
         },
-        {
-          "@type": "Question",
-          name: "What is an interview guarantee feature?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.",
-          },
-        },
+
         {
           "@type": "Question",
           name: "Until when do the students get the facility of mentorship?",
@@ -388,8 +381,8 @@ export const AIcanadaCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -798,16 +791,6 @@ export const AIcanadaCourseData = [
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies.`,
             open: false,
           },
-          {
-            id: 3,
-            ques: "What is an interview guarantee feature?",
-            ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed. `,
-            linkText1: " Terms and conditions ",
-            link1: "/terms-conditions ",
-            ansAfter: "applied.",
-            link: true,
-            open: false,
-          },
         ],
       },
       {
@@ -948,7 +931,7 @@ export const AIcanadaCourseData = [
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf",
     JobHead1: "What is the Job Assist Program in the Learnbay AI courses?",
     JobBot1:
-      "Learnbay career coaches help students in developing impressive portfolios as well as refer their profiles to other renowned companies. They ensure you get guaranteed interviews in top Canadian firms. Besides this, you’ll also be provided with multiple mock interviews for AI and ML positions to help you in facing real-world interviews.",
+      "Learnbay career coaches help students in developing impressive portfolios as well as refer their profiles to other renowned companies. They ensure you get interviews in top Canadian firms. Besides this, you’ll also be provided with multiple mock interviews for AI and ML positions to help you in facing real-world interviews.",
     JobBot2:
       "In our Placement Assistance program, you will receive a full refund of your AI course fee in case you are unable to find a relevant job within 6 months after the course completion.",
     JobHead2: "Scope of  Artificial Intelligence in Canada:",

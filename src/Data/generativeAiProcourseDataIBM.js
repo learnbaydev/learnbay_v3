@@ -72,11 +72,11 @@ export const GENAIPROCourseDataIBM = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/mastr_Icon_four+(1).webp",
         imageAlt: "Certification",
         extraImageSrc:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png",
-      extraImageAlt: "IIt IBM",
-      extraImageSrcWidth:"140",
-      extraImageSrcHeight:"36"
-    },
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png",
+        extraImageAlt: "IIt IBM",
+        extraImageSrcWidth: "140",
+        extraImageSrcHeight: "36",
+      },
     ],
 
     whyChooseData: [
@@ -86,9 +86,10 @@ export const GENAIPROCourseDataIBM = [
         title: "from Learnbay Certification",
         description:
           "Stand out with a prestigious certification from Learnbay.",
-          logos:"https://d32and0ii3b8oy.cloudfront.net/web/s3_main/white-logo.webp",
-    logosWidth:"160",
-        logosHeight:"90",
+        logos:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/white-logo.webp",
+        logosWidth: "160",
+        logosHeight: "90",
         subItems: [
           {
             icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/3dicons+(1).webp",
@@ -746,7 +747,6 @@ export const GENAIPROCourseDataIBM = [
         duration: "8 hours",
       },
 
-      
       {
         id: 4,
         title: " Employee Feedback Insights ",
@@ -758,7 +758,6 @@ export const GENAIPROCourseDataIBM = [
         duration: "8 hours",
       },
 
-    
       // Add more data as needed
     ],
 
@@ -805,15 +804,13 @@ export const GENAIPROCourseDataIBM = [
             ans: "The Advance Generative AI course comes with a duration of 3 months with live projects. ",
             open: false,
           },
-        
         ],
       },
-   
+
       {
         id: 1,
         sectionName: "Payments and Scholarships",
         data: [
-          
           {
             id: 0,
             ques: "Is there any scholarship/discount available for the Gen AI course online?",
@@ -890,7 +887,7 @@ export const GENAIPROCourseDataIBM = [
           {
             id: 1,
             ques: "How many interview calls will I get at Learnbay?",
-            ans: "Learners joining our Generative AI course online will get unlimited interview calls from top-trending 350+ industry partners.  ",
+            ans: "Learners joining our Generative AI course online will get Job-readiness with interview support from top-trending 350+ leading MNCs & unicorn startups.  ",
           },
 
           {
@@ -900,10 +897,11 @@ export const GENAIPROCourseDataIBM = [
             list1:
               "Three years of job placement assistance with unlimited access to interviews and learning portals",
             list2: "6 months of career support services",
-            list3: "1:1 career-focused mock interviews with 350+ industry partners ",
+            list3:
+              "1:1 career-focused mock interviews with 350+ leading MNCs & unicorn startups ",
             list4: "Online resume build-up sessions",
             list5: "Promising job calls from top-ranked MNCs",
-             dscoursefaq1: true,
+            dscoursefaq1: true,
 
             open: false,
           },
@@ -912,7 +910,7 @@ export const GENAIPROCourseDataIBM = [
             ques: "How is Learnbay's Placement program different from others?",
             ans: "When you get upskilled with Learnbay's course program successfully, you become eligible for its placement program. It offers -",
             list1:
-              "Guaranteed interview calls from prime MNCs & MAANG partnered with Learnbay",
+              "Job-ready with interview support from prime MNCs & MAANG partnered with Learnbay",
             list2:
               "Capstone project certification from Learnbay enhances the quality of your resume.",
             list3:
@@ -961,7 +959,6 @@ export const GENAIPROCourseDataIBM = [
             ans: "Learners enrolling in the Advance Gen AI program get the scope of learning under reliable industry training. These mentors are liable for guiding each learner with course tasks and real-time projects. So, yes, you will get hassle-free help from your mentor while working on fresh capstone projects and course modules. ",
             open: false,
           },
-         
         ],
       },
       {
@@ -984,7 +981,7 @@ export const GENAIPROCourseDataIBM = [
           {
             id: 2,
             ques: "How long will I get job referrals?",
-            ans: "You are qualified to avail of job referrals once you complete the course. Under the Career Services Pro package, a learner can avail of continuous job referrals to get placed across 350+ industry partners. ",
+            ans: "You are qualified to avail of job referrals once you complete the course. Under the Career Services Pro package, a learner can avail of continuous job referrals to get placed across 350+ leading MNCs & unicorn startups. ",
             open: false,
           },
         ],

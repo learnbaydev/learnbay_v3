@@ -152,7 +152,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          FirstTyped="Guaranteed Interview Calls"
+          FirstTyped="Job-ready with interview support"
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           cityParaCont="Be eligible to work as an AI/ML expert in MNC/PRODUCT Based Companies. Earn the most advanced industrial machine learning skill via fast-paced industry capstones. Be pros of NLP and computer vision."

@@ -138,7 +138,7 @@ export default function Home() {
         {" "}
         <Navbar popup={true} dataScience={true} interstedInHide={true} />
         <FirstSection
-          FirstTyped="Guaranteed Interview Calls"
+          FirstTyped="Job-ready with interview support"
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           titleCourse="Best Institute For DevOps Course in Bangalore"
@@ -150,7 +150,7 @@ export default function Home() {
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/advance+DS+header+image.webp"
           firstHeading="Best Institute For DevOps Course in Bangalore"
           firstTopPara="Expand beyond technology"
-          cityParaCont="Learning based on evidence to acquire data handling abilities. Learnbay provides the best DevOps training in Bangalore. It offers the best-curated program to build a prospective career. Learnbay’s DevOps Certification in Bangalore has the most industry-relevant modules, including generative AI education. Join us and widen your career scope with real-time projects & guaranteed placements."
+          cityParaCont="Learning based on evidence to acquire data handling abilities. Learnbay provides the best DevOps training in Bangalore. It offers the best-curated program to build a prospective career. Learnbay’s DevOps Certification in Bangalore has the most industry-relevant modules, including generative AI education. Join us and widen your career scope with real-time projects & Job-ready training & interview support"
         />
         <SecondSection
           SecondSectionData={DevOpsCourseInBangalore[0].secondSection}

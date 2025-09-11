@@ -335,7 +335,7 @@ export const DADelhiCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Unlimited Interview Calls",
+        heading: "Job-readiness with interview support",
         para: "Boost career chances, gain referrals from 300+ top recruiters",
       },
       {
@@ -820,7 +820,7 @@ export const DADelhiCourseData = [
     Projectsp4:
       "BMW allows existing customers to sell used cars  but many competitors are now offering better resale values. A data science-powered statistical app from BMW will provide the best market value for used cars based on parameters like Km driven, daily pricing up and down, manufacturing dates, and so on. Develop your analytical skills through such projects.",
     AlumniBot1:
-      "Learnbay has over 250+ corporate partners across the globe, such as Adobe, IBM, Salesforce, Oracle, and many more. Numerous students have been successfully placed in profitable positions within 2 to 3  months of completing our data analytics course in Delhi.",
+      "Learnbay has over 250+ company collabrations across the globe, such as Adobe, IBM, Salesforce, Oracle, and many more. Numerous students have been successfully placed in profitable positions within 2 to 3  months of completing our data analytics course in Delhi.",
     Asrc1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/devraj.jpg",
     AlumniH1: "Deveraj",
     Alumnip1:

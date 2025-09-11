@@ -91,11 +91,11 @@ export const DevOpsCourseInBangalore = [
                 Learnbay follows each substantial industrial/job market incident
                 across the global IT sector and its impacts on specific job
                 roles. Quality industry research, networking with industry
-                experts, and tie-ups with industry partners keep us updated with
-                the latest trends in DevOps. In the same way, our{" "}
-                <b>DevOps training in Bangalore</b> syllabus has been revamped
-                as per the recent developments with AWS, Microsoft Azure, and
-                GCP.{" "}
+                experts, and tie-ups with leading MNCs & unicorn startups keep
+                us updated with the latest trends in DevOps. In the same way,
+                our <b>DevOps training in Bangalore</b> syllabus has been
+                revamped as per the recent developments with AWS, Microsoft
+                Azure, and GCP.{" "}
               </span>
             ),
             open: false,
@@ -306,9 +306,7 @@ export const DevOpsCourseInBangalore = [
                   <li>
                     Industry-driven syllabus with AWS, Microsoft Azure, and GCP
                   </li>
-                  <li>
-                    Guaranteed calls for Interviews from Industry partners
-                  </li>
+                  <li>Job-ready training & interview support</li>
                   <li>
                     Globally acknowledged project credential from IBM &
                     Microsoft
@@ -697,7 +695,7 @@ export const DevOpsCourseInBangalore = [
       "A globally recognized program stamps your gained abstract and practical ability worldwide.",
     list13:
       "The eligibility of the program is from early to mid-career experts.",
-    list14: "It promises guaranteed interview calls.",
+    list14: "It promises Job-ready with interview support.",
     list15:
       "Learnbay fosters hands-on learning via various capstone and real-time projects.",
     list16:
@@ -859,10 +857,10 @@ export const DevOpsCourseInBangalore = [
     JobBot4: (
       <span>
         Further, the <b>best DevOps training institute in Bangalore, i.e.,</b>{" "}
-        Learnbay guarantees 100% placement via its industrial tie-ups and career
-        service pro. Our coaching improves the candidate’s portfolio to crack
-        all the upcoming interviews and achieve success. This program gives
-        constant motivation till you bag a job.
+        Learnbay Job-ready training & interview support. Our coaching improves
+        the candidate’s portfolio to crack all the upcoming interviews and
+        achieve success. This program gives constant motivation till you bag a
+        job.
       </span>
     ),
     // JobBot6: "This program helps you even after completing DevOps certification in Bangalore. Our mentors are there to help you around the clock to fix your confusion.",
@@ -875,7 +873,7 @@ export const DevOpsCourseInBangalore = [
     //     <li>1:1 six mock interviews with eminent MNCs</li>
     //     <li>Resume Building</li>
     //     <li>1-on-1 LinkedIn Profiling</li>
-    //     <li>Unlimited interview calls from top-tier employers</li>
+    //     <li>Job-readiness with interview support from top-tier employers</li>
     //   </ul>
     // ),
     JobBot12:

@@ -224,14 +224,7 @@ export const DSDelhiCourseData = [
             text: "Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies.",
           },
         },
-        {
-          "@type": "Question",
-          name: "What is an interview guarantee feature?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.",
-          },
-        },
+
         {
           "@type": "Question",
           name: "Until when do the students get the facility of mentorship?",
@@ -383,8 +376,8 @@ export const DSDelhiCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -758,12 +751,6 @@ export const DSDelhiCourseData = [
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
             open: false,
           },
-          {
-            id: 4,
-            ques: "What is an interview guarantee feature?",
-            ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed. Terms and conditions applied`,
-            open: false,
-          },
         ],
       },
       {
@@ -880,7 +867,7 @@ export const DSDelhiCourseData = [
     JobBot1:
       "Data science certifications at Learnbay will help you prepare for interviews. Several company-specific mock interviews bolster our students' confidence at the interview table. Learnbay instructors ensure that your resume and portfolio are up to date to attract recruiters. You will receive domain-specific full-stack data scientist training, which will be reflected in your interview preparation.",
     JobBot2:
-      "Our data science course in Delhi comes with a guarantee of an interview with a prominent MNC or a rising startup or India. However, if you enroll in a Data Science Certification course in Delhi with a Job Assistance, you can get a refund if you don't get hired (which is very rare in Learnbay). More than 10000 Learnbay alumni are proudly employed in various data science positions throughout Delhi.",
+      "Our data science course in Delhi comes with a support of an interview with a prominent MNC or a rising startup or India. However, if you enroll in a Data Science Certification course in Delhi with a Job Assistance, you can get a refund if you don't get hired (which is very rare in Learnbay). More than 10000 Learnbay alumni are proudly employed in various data science positions throughout Delhi.",
     JobBot5:
       "We work on placements with various firms, including IBM, TCS, Accenture, EY, JP Morgan, and others.",
     JobHead2: "What are the advantages of working as a Data scientist? ",

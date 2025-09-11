@@ -14,8 +14,8 @@ export const DSCoimbCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -318,12 +318,6 @@ export const DSCoimbCourseData = [
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
             open: false,
           },
-          {
-            id: 4,
-            ques: "What is an interview guarantee feature?",
-            ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.`,
-            open: false,
-          },
         ],
       },
       {
@@ -535,7 +529,7 @@ export const DSCoimbCourseData = [
     JobBot007:
       "Upskilling via Learnbay’s best data science courses in Coimbatore unleashes a global-level career path with tempting gains. With us, you will gain GenAI-rich skills to tackle critical business issues and devise optimal solutions. Mentorship from industry experts keeps you informed about the latest incidents and devises the right solution.",
     JobBot005:
-      "Our alliance with IBM & Microsoft crafts a global-scale career path enriching success metrics. Experts will attest valuable IBM & MS certificates to their careers and land their dream roles here. Our coalition with 450+ industry partners helps you crack critical job interviews via career support services. Hence, join us today and escalate your career success chances with ultimate benefits.",
+      "Our alliance with IBM & Microsoft crafts a global-scale career path enriching success metrics. Experts will attest valuable IBM & MS certificates to their careers and land their dream roles here. Our coalition with 350+ leading MNCs & unicorn startups helps you crack critical job interviews via career support services. Hence, join us today and escalate your career success chances with ultimate benefits.",
     JobBot006: " ",
     JobHead22:
       "What specialized job roles can you crack with Learnbay’s data scientist course in Coimbatore?",

@@ -53,7 +53,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="  business analytics course, business analyst course with placement, business analyst classes online, business analyst course with placement guarantee, best business analyst course, best business analysis course, best business analyst training, top business analyst certification, business analytics course with placement, business analysis training and placement, best business analyst course with placement,      "
+          content="  business analytics course, business analyst course with placement, business analyst classes online, business analyst course with placement support, best business analyst course, best business analysis course, best business analyst training, top business analyst certification, business analytics course with placement, business analysis training and placement, best business analyst course with placement,      "
         />
         {/* <!-- Facebook Meta Tags --> */}
         <meta

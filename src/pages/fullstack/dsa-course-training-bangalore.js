@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
 import Head from "next/head";
-import {useState } from "react";
+import { useState } from "react";
 import { DSABangaloreCourseData } from "../../CityData/Bangalore/DSAbangaloreData";
 import Footer from "../../components/Global/Footer/Footer";
 import Form from "../../components/Global/Form/Form";
@@ -29,12 +29,11 @@ const CitiesRight = dynamic(() =>
   import("../../components/Seo/CitiesRight/CitiesRight")
 );
 const FAQNew = dynamic(() => import("../../components/Seo/FAQNew/FAQNew"));
-;
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
-
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -114,7 +113,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          FirstTyped="Guaranteed Interview Calls"
+          FirstTyped="Job-ready with interview support"
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           cityParaCont=" Level up your coding expertise via a DSA course in Bangalore and leap forward to craft a compelling tech career with leading MNCs/MAANG. Enroll in our job-enriched course to build data management, algorithmic optimization, and critical thinking skills."
@@ -226,12 +225,8 @@ export default function Home() {
               Domainlink8={DSABangaloreCourseData[0].Domainlink8}
               Domainlink9={DSABangaloreCourseData[0].Domainlink9}
               Domainlink10={DSABangaloreCourseData[0].Domainlink10}
-              CertificationHead1={
-                DSABangaloreCourseData[0].CertificationHead1
-              }
-              CertificationBot1={
-                DSABangaloreCourseData[0].CertificationBot1
-              }
+              CertificationHead1={DSABangaloreCourseData[0].CertificationHead1}
+              CertificationBot1={DSABangaloreCourseData[0].CertificationBot1}
               src={DSABangaloreCourseData[0].src}
               ModuleHead1={DSABangaloreCourseData[0].ModuleHead1}
               ModuleBot1={DSABangaloreCourseData[0].ModuleBot1}
@@ -240,84 +235,36 @@ export default function Home() {
               ModuleBot2={DSABangaloreCourseData[0].ModuleBot2}
               syllabush1={DSABangaloreCourseData[0].syllabush1}
               syllabusb1={DSABangaloreCourseData[0].syllabusb1}
-              SyllabusBotlist11={
-                DSABangaloreCourseData[0].SyllabusBotlist11
-              }
-              SyllabusBotlist12={
-                DSABangaloreCourseData[0].SyllabusBotlist12
-              }
-              SyllabusBotlist13={
-                DSABangaloreCourseData[0].SyllabusBotlist13
-              }
-              SyllabusBotlist14={
-                DSABangaloreCourseData[0].SyllabusBotlist14
-              }
-              SyllabusBotlist15={
-                DSABangaloreCourseData[0].SyllabusBotlist15
-              }
-              SyllabusBotlist16={
-                DSABangaloreCourseData[0].SyllabusBotlist16
-              }
+              SyllabusBotlist11={DSABangaloreCourseData[0].SyllabusBotlist11}
+              SyllabusBotlist12={DSABangaloreCourseData[0].SyllabusBotlist12}
+              SyllabusBotlist13={DSABangaloreCourseData[0].SyllabusBotlist13}
+              SyllabusBotlist14={DSABangaloreCourseData[0].SyllabusBotlist14}
+              SyllabusBotlist15={DSABangaloreCourseData[0].SyllabusBotlist15}
+              SyllabusBotlist16={DSABangaloreCourseData[0].SyllabusBotlist16}
               syllabush2={DSABangaloreCourseData[0].syllabush2}
               syllabusb2={DSABangaloreCourseData[0].syllabusb2}
-              SyllabusBotlist21={
-                DSABangaloreCourseData[0].SyllabusBotlist21
-              }
-              SyllabusBotlist22={
-                DSABangaloreCourseData[0].SyllabusBotlist22
-              }
-              SyllabusBotlist23={
-                DSABangaloreCourseData[0].SyllabusBotlist23
-              }
-              SyllabusBotlist24={
-                DSABangaloreCourseData[0].SyllabusBotlist24
-              }
-              SyllabusBotlist25={
-                DSABangaloreCourseData[0].SyllabusBotlist25
-              }
-              SyllabusBotlist26={
-                DSABangaloreCourseData[0].SyllabusBotlist26
-              }
+              SyllabusBotlist21={DSABangaloreCourseData[0].SyllabusBotlist21}
+              SyllabusBotlist22={DSABangaloreCourseData[0].SyllabusBotlist22}
+              SyllabusBotlist23={DSABangaloreCourseData[0].SyllabusBotlist23}
+              SyllabusBotlist24={DSABangaloreCourseData[0].SyllabusBotlist24}
+              SyllabusBotlist25={DSABangaloreCourseData[0].SyllabusBotlist25}
+              SyllabusBotlist26={DSABangaloreCourseData[0].SyllabusBotlist26}
               syllabush3={DSABangaloreCourseData[0].syllabush3}
               syllabusb3={DSABangaloreCourseData[0].syllabusb3}
-              SyllabusBotlist31={
-                DSABangaloreCourseData[0].SyllabusBotlist31
-              }
-              SyllabusBotlist32={
-                DSABangaloreCourseData[0].SyllabusBotlist32
-              }
-              SyllabusBotlist33={
-                DSABangaloreCourseData[0].SyllabusBotlist33
-              }
-              SyllabusBotlist34={
-                DSABangaloreCourseData[0].SyllabusBotlist34
-              }
-              SyllabusBotlist35={
-                DSABangaloreCourseData[0].SyllabusBotlist35
-              }
-              SyllabusBotlist36={
-                DSABangaloreCourseData[0].SyllabusBotlist36
-              }
+              SyllabusBotlist31={DSABangaloreCourseData[0].SyllabusBotlist31}
+              SyllabusBotlist32={DSABangaloreCourseData[0].SyllabusBotlist32}
+              SyllabusBotlist33={DSABangaloreCourseData[0].SyllabusBotlist33}
+              SyllabusBotlist34={DSABangaloreCourseData[0].SyllabusBotlist34}
+              SyllabusBotlist35={DSABangaloreCourseData[0].SyllabusBotlist35}
+              SyllabusBotlist36={DSABangaloreCourseData[0].SyllabusBotlist36}
               syllabush4={DSABangaloreCourseData[0].syllabush4}
               syllabusb4={DSABangaloreCourseData[0].syllabusb4}
-              SyllabusBotlist41={
-                DSABangaloreCourseData[0].SyllabusBotlist41
-              }
-              SyllabusBotlist42={
-                DSABangaloreCourseData[0].SyllabusBotlist42
-              }
-              SyllabusBotlist43={
-                DSABangaloreCourseData[0].SyllabusBotlist43
-              }
-              SyllabusBotlist44={
-                DSABangaloreCourseData[0].SyllabusBotlist44
-              }
-              SyllabusBotlist45={
-                DSABangaloreCourseData[0].SyllabusBotlist45
-              }
-              SyllabusBotlist46={
-                DSABangaloreCourseData[0].SyllabusBotlist46
-              }
+              SyllabusBotlist41={DSABangaloreCourseData[0].SyllabusBotlist41}
+              SyllabusBotlist42={DSABangaloreCourseData[0].SyllabusBotlist42}
+              SyllabusBotlist43={DSABangaloreCourseData[0].SyllabusBotlist43}
+              SyllabusBotlist44={DSABangaloreCourseData[0].SyllabusBotlist44}
+              SyllabusBotlist45={DSABangaloreCourseData[0].SyllabusBotlist45}
+              SyllabusBotlist46={DSABangaloreCourseData[0].SyllabusBotlist46}
               syllabussrc={DSABangaloreCourseData[0].syllabussrc}
               JobHead1={DSABangaloreCourseData[0].JobHead1}
               JobBot1={DSABangaloreCourseData[0].JobBot1}
@@ -332,7 +279,6 @@ export default function Home() {
               JobBot9={DSABangaloreCourseData[0].JobBot9}
               JobBot11={DSABangaloreCourseData[0].JobBot11}
               ProjectsBot1={DSABangaloreCourseData[0].ProjectsBot1}
-             
               src1={DSABangaloreCourseData[0].src1}
               ProjectsH1={DSABangaloreCourseData[0].ProjectsH1}
               Projectsp1={DSABangaloreCourseData[0].Projectsp1}

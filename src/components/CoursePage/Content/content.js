@@ -1377,7 +1377,7 @@ function DataAnalytics({
                   2. Profile review and professional sessions to crack
                   interviews
                 </li>
-                <li>3. Unlimited interview calls </li>
+                <li>3. Job-readiness with interview support </li>
                 <li>4. Customized mock interview sessions </li>
                 <li>
                   5. Feedback sessions to enhance the interview performance
@@ -1947,11 +1947,14 @@ function DataAnalytics({
                       interviews with MNCs.{" "}
                     </li>
                     <li>
-                      <b>○ 6 1:1 mock interviews with Industry partners: </b>{" "}
+                      <b>
+                        ○ 6 1:1 mock interviews with leading MNCs & unicorn
+                        startups:{" "}
+                      </b>{" "}
                       Learners gain real-time insights into the latest trends
-                      and attend mock interviews with 450+ industry partners. It
-                      enhances the chances of landing a reputable job across
-                      MNCs.
+                      and attend mock interviews with 450+ leading MNCs &
+                      unicorn startups. It enhances the chances of landing a
+                      reputable job across MNCs.
                     </li>
                     <li>
                       <b>○ Resume Preparation:</b> Mentors help learners revamp
@@ -2179,12 +2182,8 @@ function DataAnalytics({
                 <b>It offers you –</b>
                 <ul>
                   <li>
-                    Guaranteed interview calls from any of the 450+ MNCs
-                    (industry partners)
-                  </li>
-                  <li>
-                    Guaranteed interview calls from any of the 450+ MNCs
-                    (industry partners)
+                    Job-ready with interview support from any of the 450+
+                    leading MNCs & unicorn startups
                   </li>
                   <li>● Experiential learning space with live projects</li>
                   <li>● Domain-specific training</li>
@@ -2440,7 +2439,7 @@ function DataAnalytics({
                 dedicated placement support. Under this, learners will get a
                 Career Service Pro benefit including 1:1 doubt-clearing, resume
                 preparation, LinkedIn profile creation, mock interviews, and
-                unlimited interview calls.
+                Job-readiness with interview support.
               </p>
               <h3>• Globally-recognized Certifications</h3>
               <p>
@@ -3210,10 +3209,10 @@ function DataAnalytics({
                     such highly demanded skill expertise.
                   </li>
                   <li>
-                    <b>Guaranteed Career Support:</b> We guarantee 100% job
-                    support to help your success in this field after completion
-                    of the course. We’ll help you cherish all of your existing
-                    potential to land at your desired career level.{" "}
+                    <b>Job Assistance :</b> We provide job support to help you
+                    successed in this field after completion of the course.
+                    We’ll help you cherish all of your existing potential to
+                    land at your desired career level.{" "}
                   </li>
                   <li>
                     <b>Flexible Learning:</b> Our hybrid learning platform
@@ -3834,8 +3833,8 @@ function DataAnalytics({
                           </h3>
                           <p>
                             Learnbay offers comprehensive career services where
-                            you will receive unlimited job interview calls,
-                            career guidance, and mock interviews.
+                            you will receive job interview calls, career
+                            guidance, and mock interviews.
                           </p>
                         </li>
                         <li>
@@ -4135,7 +4134,9 @@ function DataAnalytics({
                 <ul>
                   <li>•One Course Completion Certificate from IBM</li>
                   <li>• One Azure AI Certificate from Microsoft</li>
-                  <li>• One Capstone Project Certificate from Renowened Industry</li>
+                  <li>
+                    • One Capstone Project Certificate from Renowened Industry
+                  </li>
                 </ul>
               </p>
               <h4 style={{ fontSize: "20px" }}>
@@ -4236,14 +4237,14 @@ function DataAnalytics({
                         <li>
                           • <b>Interview Prospects: </b> Our reliable placement
                           team will schedule real-time interviews with any of
-                          our industry partners.
+                          our leading MNCs & unicorn startups.
                         </li>
                       </ul>
                     </p>
                     <p>
                       <b>Note</b> Learners will receive assured job calls (8 –
-                      10) from the leading industry partners until they land
-                      their promising roles.
+                      10) from the leading leading MNCs & unicorn startups until
+                      they land their promising roles.
                     </p>
                   </li>
                   <li>
@@ -4583,8 +4584,8 @@ function DataAnalytics({
                 You can find a Career Service Pro feature in this program that
                 gives learners full support and helps them to crack the
                 interviews by giving them mock interviews, resume preparation,
-                unlimited interview calls, and career guidance from industry
-                experts.
+                Job-readiness with interview support, and career guidance from
+                industry experts.
               </p>
               <p>
                 This course is designed to provide you with an authentic
@@ -4894,8 +4895,8 @@ function DataAnalytics({
                     Learnbay’s <p>HR analytics training</p> has a ‘Career
                     Service Pro’ deal for eligible experts with 100% placement
                     help. You can upgrade your soft skills, remodel your resume,
-                    and attend unlimited interview calls. A proven gateway to
-                    better job offers in the HR domain.
+                    and attend Job-readiness with interview support. A proven
+                    gateway to better job offers in the HR domain.
                   </p>
                 </li>
                 <li>
@@ -4919,8 +4920,8 @@ function DataAnalytics({
                       <li>• Tailored Resume Build & Optimization</li>
                       <li>• LinkedIn Profile Review</li>
                       <li>
-                        • 8 – 10 Interview calls (450+ industry partners of
-                        Learnbay)
+                        • 8 – 10 Interview calls (450+ leading MNCs & unicorn
+                        startups of Learnbay)
                       </li>
                     </ul>
                   </p>
@@ -5122,11 +5123,11 @@ function DataAnalytics({
                   <li>
                     <h3>• Placement Assistance</h3>
                     <p>
-                      Learnbay’s tie-up with 450+ industry partners supports job
-                      and placement drives. Learners get unlimited exposure to
-                      the industry via mock interviews and soft skills
-                      development via ‘Career Service Pro’. It helps learners
-                      crack job interviews with top-tier MNCs.
+                      Learnbay’s tie-up with 450+ leading MNCs & unicorn
+                      startups supports job and placement drives. Learners get
+                      unlimited exposure to the industry via mock interviews and
+                      soft skills development via ‘Career Service Pro’. It helps
+                      learners crack job interviews with top-tier MNCs.
                     </p>
                   </li>
                   <li>
@@ -5167,8 +5168,8 @@ function DataAnalytics({
                   <li>• Resume Build & Optimization</li>
                   <li>• LinkedIn Profile Review</li>
                   <li>
-                    • 8 – 10 Interview calls (450+ industry partners of
-                    Learnbay)
+                    • 8 – 10 Interview calls (450+ leading MNCs & unicorn
+                    startups of Learnbay)
                   </li>
                 </ul>
               </p>
@@ -5229,7 +5230,8 @@ function DataAnalytics({
                 enrolling in the program receive advanced training sessions that
                 make them job-ready within 6 months. Thus, it turns into a
                 one-stop solution for experts to crack jobs from top-tier
-                industry partners like Walmart, IBM, Microsoft, and others.
+                leading MNCs & unicorn startups like Walmart, IBM, Microsoft,
+                and others.
               </p>
               <p>
                 To summarize, experts at any career level can make up their
@@ -5388,8 +5390,8 @@ function DataAnalytics({
                       envisions a bright BFSI career with valid skills upgrades.
                       This course offers 100% placement support via its Career
                       Service Pro program. A learner will get everything – from
-                      resume preparation to unlimited interview calls from any
-                      of the 450+ industry partners.{" "}
+                      resume preparation to Job-readiness with interview support
+                      from any of the 350+ leading MNCs & unicorn startups.{" "}
                     </p>
                   </li>
                   <li>
@@ -7186,4 +7188,4 @@ function DataAnalytics({
     </div>
   );
 }
-export default DataAnalytics
+export default DataAnalytics;

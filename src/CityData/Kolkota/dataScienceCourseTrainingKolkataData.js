@@ -14,8 +14,8 @@ export const DSKolkotaCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -318,12 +318,6 @@ export const DSKolkotaCourseData = [
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
             open: false,
           },
-          {
-            id: 4,
-            ques: "What is an interview guarantee feature?",
-            ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.`,
-            open: false,
-          },
         ],
       },
       {
@@ -508,7 +502,7 @@ export const DSKolkotaCourseData = [
       "Exclusive gains that our Career Service PRO will offer are –      ",
     Joblist14: "Hassle-free job and placement services for three years      ",
     Joblist15:
-      "Six 1:1 mock interviews scheduled with any of the 450+ MNCs (Industry partners)        ",
+      "Six 1:1 mock interviews scheduled with any of the 450+ MNCs (leading MNCs & unicorn startups)        ",
     Joblist16:
       " Endless job calls from Kolkata-based MNCs and other prime regions and resume building with job-ready skills     ",
     Joblist17: "LinkedIn profile review     ",
@@ -535,7 +529,7 @@ export const DSKolkotaCourseData = [
     JobBot007:
       " Upskilling via Learnbay’s data science course in Kolkata is worth joining. It equips you with Gen AI-rich concepts and trends. Its in-depth training methods guide you to enrich your skill base with project-based learning.         ",
     JobBot005:
-      " Our industry partnership with 450+ leading MNCs expands career growth metrics with vital gains. Our alliance with IBM & Microsoft also lifts your career values with global-scale returns. Hence, learning with us is worth investing in to build a lucrative data science career in Kolkata.         ",
+      " Our leading MNCs & unicorn startupship with 450+ leading MNCs expands career growth metrics with vital gains. Our alliance with IBM & Microsoft also lifts your career values with global-scale returns. Hence, learning with us is worth investing in to build a lucrative data science career in Kolkata.         ",
     JobBot006: " ",
     JobHead22:
       "What are the most talked about job roles that you can crack down with Learnbay’s data science institute in Kolkata?         ",

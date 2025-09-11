@@ -15,7 +15,7 @@ function SecondSectionCopy() {
         id: 2,
         src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/sec2.webp",
         alt: "data science course",
-        text: "Guaranteed Interview Calls",
+        text: "Job-ready with interview support",
       },
       {
         id: 3,

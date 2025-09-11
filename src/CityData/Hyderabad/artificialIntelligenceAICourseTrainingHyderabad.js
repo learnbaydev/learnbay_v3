@@ -284,14 +284,7 @@ export const AIHyderabadCourseData = [
             text: "Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies.",
           },
         },
-        {
-          "@type": "Question",
-          name: "What is an interview guarantee feature?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.",
-          },
-        },
+
         {
           "@type": "Question",
           name: "Until when do the students get the facility of mentorship?",
@@ -396,8 +389,8 @@ export const AIHyderabadCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -812,17 +805,6 @@ export const AIHyderabadCourseData = [
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies.`,
             open: false,
           },
-          {
-            id: 3,
-            ques: "What is an interview guarantee feature?",
-            ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed. `,
-            linkText1: " Terms and conditions ",
-            link1: "/terms-conditions ",
-            ansAfter: "applied.",
-            link: true,
-
-            open: false,
-          },
         ],
       },
 
@@ -959,7 +941,7 @@ export const AIHyderabadCourseData = [
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf",
     JobBot1:
-      "Learnbay's career consultants will assist you in developing your CV and portfolio. Learnbay also refers your resume and portfolio to other companies. Learnbay guarantees top-tier companies in Hyderabad will interview you. You'll also get exposure to mock interviews that make you prepare for difficult real-life interviews.",
+      "Learnbay's career consultants will assist you in developing your CV and portfolio. Learnbay also refers your resume and portfolio to other companies. top-tier companies in Hyderabad will interview you. You'll also get exposure to mock interviews that make you prepare for difficult real-life interviews.",
     JobBot2:
       "If you do not get hired within six months of finishing the course, the Placement Assistance program ensures that you will receive a complete return of your AI course fees.",
     JobHead2:

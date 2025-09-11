@@ -14,8 +14,8 @@ export const DSEgyptCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -388,12 +388,6 @@ export const DSEgyptCourseData = [
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
             open: false,
           },
-          {
-            id: 4,
-            ques: "What is an interview guarantee feature?",
-            ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed. Terms and conditions applied`,
-            open: false,
-          },
         ],
       },
       {
@@ -555,7 +549,8 @@ export const DSEgyptCourseData = [
       "Career Service PRO with our data science courses in Egypt offers –        ",
     JobBot39: "  ",
     Joblist14: "Hassle-free job and placement support (for 3 years)        ",
-    Joblist15: "Mock interviews (any of the 450+ industry partners)        ",
+    Joblist15:
+      "Mock interviews (any of the 350+ leading MNCs & unicorn startups)        ",
     Joblist16: "Resume Building and LinkedIn Profiling      ",
     Joblist17: " Endless job calls from MNCs in Egypt and overseas       ",
 

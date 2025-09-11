@@ -923,7 +923,7 @@ export const SupportFaqData4 = [
 export const FaqData5 = [
   {
     id: 0,
-    ques: "What are the prerequisites for Data Science and AI Master Program with Unlimited Interview calls?",
+    ques: "What are the prerequisites for Data Science and AI Master Program with Job-readiness with interview support?",
     ans: "Basic programming & mathematics knowledge is enough. For strengthening your programming skills we provide special programming classes. We teach required statistics from a very basic.",
     open: true,
   },
@@ -1092,7 +1092,7 @@ export const jobFaqData5 = [
   {
     id: 1,
     ques: "How many interview calls will I get at Learnbay?",
-    ans: "You’ll be provided unlimited interview calls after the completion of the course.",
+    ans: "You’ll be provided Job-readiness with interview support after the completion of the course.",
     open: false,
   },
   {
@@ -1138,7 +1138,7 @@ export const SupportFaqData5 = [
   {
     id: 1,
     ques: "How many interview calls will I get at Learnbay?",
-    ans: "You’ll be provided unlimited interview calls after the completion of the course.",
+    ans: "You’ll be provided Job-readiness with interview support after the completion of the course.",
     open: false,
   },
 ];
@@ -1775,13 +1775,7 @@ export const jobFaqData8 = [
   {
     id: 3,
     ques: "Will I get Job referrals at Learnbay?",
-    ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies. We have 250+ hiring partners.",
-    open: false,
-  },
-  {
-    id: 4,
-    ques: "What is an interview guarantee feature?",
-    ans: "As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.",
+    ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies. Learners working at 350+ companies",
     open: false,
   },
 ];
@@ -2037,13 +2031,7 @@ export const jobFaqData9 = [
   {
     id: 3,
     ques: "Will I get Job referrals at Learnbay?",
-    ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies. We have 250+ hiring partners.",
-    open: false,
-  },
-  {
-    id: 4,
-    ques: "What is an interview guarantee feature?",
-    ans: "As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.",
+    ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies. Learners working at 350+ companies",
     open: false,
   },
 ];
@@ -2298,13 +2286,7 @@ export const jobFaqDataBlockchain = [
   {
     id: 3,
     ques: "Will I get Job referrals at Learnbay?",
-    ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies. We have 250+ hiring partners.",
-    open: false,
-  },
-  {
-    id: 4,
-    ques: "What is an interview guarantee feature?",
-    ans: "As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.",
+    ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies. Learners working at 350+ companies",
     open: false,
   },
 ];
@@ -2559,13 +2541,7 @@ export const jobFaqDataDevops = [
   {
     id: 3,
     ques: "Will I get Job referrals at Learnbay?",
-    ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies. We have 250+ hiring partners.",
-    open: false,
-  },
-  {
-    id: 4,
-    ques: "What is an interview guarantee feature?",
-    ans: "As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.",
+    ans: "Yes, we provide placement assistance by referring your profile to our partnered consultancies and companies. Learners working at 350+ companies",
     open: false,
   },
 ];

@@ -150,7 +150,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          FirstTyped="Guaranteed Interview Calls"
+          FirstTyped="Job-ready with interview support"
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           cityParaCont="Enhance your career with industry-level data science courses in Mumbai. Learn and understand cutting-edge data science techniques with advanced IBM certifications. This will enhance your expertise in tools like Python, Power BI, machine learning, etc. You will receive in-depth data science training from industry leaders and experts, allowing you to gain the most in-demand data science and AI skills."

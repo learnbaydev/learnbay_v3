@@ -23,7 +23,7 @@ export const courseDetails = [
             para: [
               "13 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1:
               "/datascience/data-science-and-ai-master-certification-program",
@@ -82,7 +82,7 @@ export const courseDetails = [
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Cloud_devops_IMG.webp",
             title: "Cloud and DevOps",
             title1: "Certification Program",
-            tagHead: "Guaranteed Interview Call",
+            tagHead: "Job-ready with interview support",
             tag: "Data science",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf",
@@ -143,7 +143,7 @@ export const courseDetails = [
             para: [
               "10 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "fullstack/dsa-system-design",
             link2:
@@ -274,7 +274,7 @@ export const courseDetails = [
             titleCourse: "Data Science Foundation Program",
             para: [
               "4 Months | 4 Projects",
-              "Guaranteed Interview Calls",
+              "Job-ready with interview support",
               "Designed by industry experts",
             ],
             newDesign: true,
@@ -298,7 +298,7 @@ export const courseDetails = [
             para: [
               "6 months | 4 capstone projects",
               "E&ICT Academy IIT Guwahati Certification",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "/datascience/advance-data-analytics-program-iit-guwahati",
             link2:
@@ -390,7 +390,7 @@ export const courseDetails = [
             para: [
               "5 months | 2 capstone projects",
               "Global Certification from IBM",
-              "Guaranteed Interview Calls",
+              "Job-ready with interview support",
             ],
             link1: "/datascience/hr-analytics",
             link2:
@@ -433,7 +433,7 @@ export const courseDetails = [
             para: [
               "5 months | 2 capstone projects",
               "Global Certification from IBM",
-              "Guaranteed Interview Calls",
+              "Job-ready with interview support",
             ],
             link1:
               "/datascience/data-science-and-ai-for-healthcare-professionals",
@@ -512,7 +512,7 @@ export const courseDetails = [
             para: [
               "5 months | 2 capstone projects",
               "Global Certification from IBM",
-              "Guaranteed Interview Calls",
+              "Job-ready with interview support",
             ],
             link1: "/datascience/hr-analytics",
             link2:
@@ -555,7 +555,7 @@ export const courseDetails = [
             para: [
               "5 months | 2 capstone projects",
               "Global Certification from IBM",
-              "Guaranteed Interview Calls",
+              "Job-ready with interview support",
             ],
             link1:
               "/datascience/data-science-and-ai-for-healthcare-professionals",
@@ -605,7 +605,7 @@ export const courseDetails = [
             para: [
               "10 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "fullstack/dsa-system-design",
             link2:
@@ -736,7 +736,7 @@ export const courseDetails = [
             titleCourse: "Data Science Foundation Program",
             para: [
               "4 Months | 4 Projects",
-              "Guaranteed Interview Calls",
+              "Job-ready with interview support",
               "Designed by industry experts",
             ],
             newDesign: true,
@@ -760,7 +760,7 @@ export const courseDetails = [
             para: [
               "6 months | 4 capstone projects",
               "E&ICT Academy IIT Guwahati Certification",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "/datascience/advance-data-analytics-program-iit-guwahati",
             link2:
@@ -809,7 +809,7 @@ export const courseDetails = [
             para: [
               "13 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1:
               "/datascience/data-science-and-ai-master-certification-program",
@@ -868,7 +868,7 @@ export const courseDetails = [
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Cloud_devops_IMG.webp",
             title: "Cloud and DevOps",
             title1: "Certification Program",
-            tagHead: "Guaranteed Interview Call",
+            tagHead: "Job-ready with interview support",
             tag: "Data science",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf",
@@ -1064,7 +1064,7 @@ export const courseDetails = [
             titleCourse: "Data Science Foundation Program",
             para: [
               "4 Months | 4 Projects",
-              "Guaranteed Interview Calls",
+              "Job-ready with interview support",
               "Designed by industry experts",
             ],
             newDesign: true,
@@ -1116,7 +1116,7 @@ export const courseDetails = [
             para: [
               "10 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "fullstack/dsa-system-design",
             link2:
@@ -1245,7 +1245,7 @@ export const courseDetails = [
             titleCourse: "Data Science Foundation Program",
             para: [
               "4 Months | 4 Projects",
-              "Guaranteed Interview Calls",
+              "Job-ready with interview support",
               "Designed by industry experts",
             ],
             newDesign: true,
@@ -1269,7 +1269,7 @@ export const courseDetails = [
             para: [
               "6 months | 4 capstone projects",
               "E&ICT Academy IIT Guwahati Certification",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "/datascience/advance-data-analytics-program-iit-guwahati",
             link2:
@@ -1318,7 +1318,7 @@ export const courseDetails = [
             para: [
               "13 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1:
               "/datascience/data-science-and-ai-master-certification-program",
@@ -1377,7 +1377,7 @@ export const courseDetails = [
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Cloud_devops_IMG.webp",
             title: "Cloud and DevOps",
             title1: "Certification Program",
-            tagHead: "Guaranteed Interview Call",
+            tagHead: "Job-ready with interview support",
             tag: "Data science",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf",
@@ -1472,7 +1472,7 @@ export const courseDetails = [
             para: [
               "10 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "fullstack/dsa-system-design",
             link2:
@@ -1603,7 +1603,7 @@ export const courseDetails = [
             titleCourse: "Data Science Foundation Program",
             para: [
               "4 Months | 4 Projects",
-              "Guaranteed Interview Calls",
+              "Job-ready with interview support",
               "Designed by industry experts",
             ],
             newDesign: true,
@@ -1627,7 +1627,7 @@ export const courseDetails = [
             para: [
               "6 months | 4 capstone projects",
               "E&ICT Academy IIT Guwahati Certification",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "/datascience/advance-data-analytics-program-iit-guwahati",
             link2:
@@ -1676,7 +1676,7 @@ export const courseDetails = [
             para: [
               "13 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1:
               "/datascience/data-science-and-ai-master-certification-program",
@@ -1735,7 +1735,7 @@ export const courseDetails = [
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Cloud_devops_IMG.webp",
             title: "Cloud and DevOps",
             title1: "Certification Program",
-            tagHead: "Guaranteed Interview Call",
+            tagHead: "Job-ready with interview support",
             tag: "Data science",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf",
@@ -1770,7 +1770,7 @@ export const courseDetails = [
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Cloud_devops_IMG.webp",
             title: "Cloud and DevOps",
             title1: "Certification Program",
-            tagHead: "Guaranteed Interview Call",
+            tagHead: "Job-ready with interview support",
             tag: "Data science",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf",
@@ -1794,7 +1794,7 @@ export const courseDetails = [
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/AWS_CARD_img.webp",
             title: "Professional Certificate  ",
             title1: "in AWS Cloud Computing & Devops",
-            tagHead: "Guaranteed Interview Call",
+            tagHead: "Job-ready with interview support",
             tag: "Data science",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
@@ -1804,7 +1804,7 @@ export const courseDetails = [
             para: [
               "3-4 months  |  4 Capstone Projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
               ,
             ],
             link1: "/cloud&devops/aws-cloud-computing-and-devOps",
@@ -1875,7 +1875,7 @@ export const courseDetails = [
             para: [
               "10 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "fullstack/dsa-system-design",
             link2:
@@ -2006,7 +2006,7 @@ export const courseDetails = [
             titleCourse: "Data Science Foundation Program",
             para: [
               "4 Months | 4 Projects",
-              "Guaranteed Interview Calls",
+              "Job-ready with interview support",
               "Designed by industry experts",
             ],
             newDesign: true,
@@ -2030,7 +2030,7 @@ export const courseDetails = [
             para: [
               "6 months | 4 capstone projects",
               "E&ICT Academy IIT Guwahati Certification",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "/datascience/advance-data-analytics-program-iit-guwahati",
             link2:
@@ -2079,7 +2079,7 @@ export const courseDetails = [
             para: [
               "13 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1:
               "/datascience/data-science-and-ai-master-certification-program",
@@ -2138,7 +2138,7 @@ export const courseDetails = [
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Cloud_devops_IMG.webp",
             title: "Cloud and DevOps",
             title1: "Certification Program",
-            tagHead: "Guaranteed Interview Call",
+            tagHead: "Job-ready with interview support",
             tag: "Data science",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf",
@@ -2187,7 +2187,7 @@ export const courseDetailsM = [
             para: [
               "13 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1:
               "/datascience/data-science-and-ai-master-certification-program",
@@ -2246,7 +2246,7 @@ export const courseDetailsM = [
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Cloud_devops_IMG.webp",
             title: "Cloud and DevOps",
             title1: "Certification Program",
-            tagHead: "Guaranteed Interview Call",
+            tagHead: "Job-ready with interview support",
             tag: "Data science",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf",
@@ -2307,7 +2307,7 @@ export const courseDetailsM = [
             para: [
               "10 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "fullstack/dsa-system-design",
             link2:
@@ -2438,7 +2438,7 @@ export const courseDetailsM = [
             titleCourse: "Data Science Foundation Program",
             para: [
               "4 Months | 4 Projects",
-              "Guaranteed Interview Calls",
+              "Job-ready with interview support",
               "Designed by industry experts",
             ],
             newDesign: true,
@@ -2462,7 +2462,7 @@ export const courseDetailsM = [
             para: [
               "6 months | 4 capstone projects",
               "E&ICT Academy IIT Guwahati Certification",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "/datascience/advance-data-analytics-program-iit-guwahati",
             link2:
@@ -2554,7 +2554,7 @@ export const courseDetailsM = [
             para: [
               "5 months | 2 capstone projects",
               "Global Certification from IBM",
-              "Guaranteed Interview Calls",
+              "Job-ready with interview support",
             ],
             link1: "/datascience/hr-analytics",
             link2:
@@ -2597,7 +2597,7 @@ export const courseDetailsM = [
             para: [
               "5 months | 2 capstone projects",
               "Global Certification from IBM",
-              "Guaranteed Interview Calls",
+              "Job-ready with interview support",
             ],
             link1:
               "/datascience/data-science-and-ai-for-healthcare-professionals",
@@ -2782,7 +2782,7 @@ export const courseDetailsM = [
             titleCourse: "Data Science Foundation Program",
             para: [
               "4 Months | 4 Projects",
-              "Guaranteed Interview Calls",
+              "Job-ready with interview support",
               "Designed by industry experts",
             ],
             newDesign: true,
@@ -2834,7 +2834,7 @@ export const courseDetailsM = [
             para: [
               "10 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "fullstack/dsa-system-design",
             link2:
@@ -2964,7 +2964,7 @@ export const courseDetailsM = [
             titleCourse: "Data Science Foundation Program",
             para: [
               "4 Months | 4 Projects",
-              "Guaranteed Interview Calls",
+              "Job-ready with interview support",
               "Designed by industry experts",
             ],
             newDesign: true,
@@ -2988,7 +2988,7 @@ export const courseDetailsM = [
             para: [
               "6 months | 4 capstone projects",
               "E&ICT Academy IIT Guwahati Certification",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "/datascience/advance-data-analytics-program-iit-guwahati",
             link2:
@@ -3081,7 +3081,7 @@ export const courseDetailsM = [
             para: [
               "5 months | 2 capstone projects",
               "Global Certification from IBM",
-              "Guaranteed Interview Calls",
+              "Job-ready with interview support",
             ],
             link1: "/datascience/hr-analytics",
             link2:
@@ -3124,7 +3124,7 @@ export const courseDetailsM = [
             para: [
               "5 months | 2 capstone projects",
               "Global Certification from IBM",
-              "Guaranteed Interview Calls",
+              "Job-ready with interview support",
             ],
             link1:
               "/datascience/data-science-and-ai-for-healthcare-professionals",
@@ -3148,7 +3148,7 @@ export const courseDetailsM = [
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Cloud_devops_IMG.webp",
             title: "Cloud and DevOps",
             title1: "Certification Program",
-            tagHead: "Guaranteed Interview Call",
+            tagHead: "Job-ready with interview support",
             tag: "Data science",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf",
@@ -3171,7 +3171,7 @@ export const courseDetailsM = [
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/AWS_CARD_img.webp",
             title: "Professional Certificate  ",
             title1: "in AWS Cloud Computing & Devops",
-            tagHead: "Guaranteed Interview Call",
+            tagHead: "Job-ready with interview support",
             tag: "Data science",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
@@ -3181,7 +3181,7 @@ export const courseDetailsM = [
             para: [
               "3-4 months  |  4 Capstone Projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
               ,
             ],
             link1: "/cloud&devops/aws-cloud-computing-and-devOps",
@@ -3251,7 +3251,7 @@ export const courseDetailsM = [
             para: [
               "10 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "fullstack/dsa-system-design",
             link2:
@@ -3381,7 +3381,7 @@ export const courseDetailsM = [
             titleCourse: "Data Science Foundation Program",
             para: [
               "4 Months | 4 Projects",
-              "Guaranteed Interview Calls",
+              "Job-ready with interview support",
               "Designed by industry experts",
             ],
             newDesign: true,
@@ -3405,7 +3405,7 @@ export const courseDetailsM = [
             para: [
               "6 months | 4 capstone projects",
               "E&ICT Academy IIT Guwahati Certification",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1: "/datascience/advance-data-analytics-program-iit-guwahati",
             link2:
@@ -3454,7 +3454,7 @@ export const courseDetailsM = [
             para: [
               "13 months | 4 capstone projects",
               "Project Certification form IBM",
-              "Unlimited Interview Calls",
+              "Job-readiness with interview support",
             ],
             link1:
               "/datascience/data-science-and-ai-master-certification-program",
@@ -3513,7 +3513,7 @@ export const courseDetailsM = [
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewCourseCard/Cloud_devops_IMG.webp",
             title: "Cloud and DevOps",
             title1: "Certification Program",
-            tagHead: "Guaranteed Interview Call",
+            tagHead: "Job-ready with interview support",
             tag: "Data science",
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf",

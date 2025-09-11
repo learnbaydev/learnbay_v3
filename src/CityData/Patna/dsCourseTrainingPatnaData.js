@@ -14,8 +14,8 @@ export const DSPatnaCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -318,12 +318,6 @@ export const DSPatnaCourseData = [
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
             open: false,
           },
-          {
-            id: 4,
-            ques: "What is an interview guarantee feature?",
-            ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.`,
-            open: false,
-          },
         ],
       },
       {
@@ -513,7 +507,7 @@ export const DSPatnaCourseData = [
     JobBot39: "Career Service Pro feature provides –",
     Joblist14: "job and placement services for three years",
     Joblist15:
-      "Six 1:1 mock interviews scheduled with any of the 450+ industry partners",
+      "Six 1:1 mock interviews scheduled with any of the 350+ leading MNCs & unicorn startups",
     Joblist16: "Resume building with job-ready skills",
     Joblist17:
       "Endless job calls from MNCs in Patna and other cities in India        ",
@@ -544,7 +538,7 @@ export const DSPatnaCourseData = [
     JobBot005:
       "The program for Data Science has AI training courses and better offers from all over the world. Experts can work on various real-life projects that help them deal with real business problems and find real solutions.          .",
     JobBot006:
-      "We also offer IBM and MS-approved data science certifications in Patna so that you can build your social networks and get recognized worldwide. Our more than 450 industry partners help you pass tough interviews with top MNCs.         ",
+      "We also offer IBM and MS-approved data science certifications in Patna so that you can build your social networks and get recognized worldwide. Our more than 450 leading MNCs & unicorn startups help you pass tough interviews with top MNCs.         ",
 
     JobHead22:
       "What job roles can you get into with Learnbay’s online Data Science Course in Patna?        ",

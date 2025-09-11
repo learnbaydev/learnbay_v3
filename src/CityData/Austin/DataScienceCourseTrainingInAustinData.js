@@ -14,8 +14,8 @@ export const DSAustinCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -388,12 +388,6 @@ export const DSAustinCourseData = [
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
             open: false,
           },
-          {
-            id: 4,
-            ques: "What is an interview guarantee feature?",
-            ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed. Terms and conditions applied`,
-            open: false,
-          },
         ],
       },
       {
@@ -569,7 +563,7 @@ export const DSAustinCourseData = [
     Joblist14:
       "Three years of placement support with global-scale job offers      ",
     Joblist15:
-      "Six mock interviews with any of the 450+ industry partners       ",
+      "Six mock interviews with any of the 350+ leading MNCs & unicorn startups       ",
     Joblist16: "Resume Build up      ",
     Joblist17: "LinkedIn Profiling      ",
 

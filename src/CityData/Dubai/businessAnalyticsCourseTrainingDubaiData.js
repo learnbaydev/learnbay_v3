@@ -320,7 +320,7 @@ export const BADubaiCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
+        heading: "Job-ready with interview support",
         para: "Boost career chances, gain referrals from 300+ top recruiters",
       },
       {
@@ -769,7 +769,7 @@ export const BADubaiCourseData = [
     JobHead1:
       "Job orientation program in Business analytics training by Learnbay",
     JobBot1:
-      "Learnbay offers job assistantships for those who complete the business analytics course in Dubai. This support involves sessions on soft skills training (including presentation), resume writing, and project portfolio management. Apart from this, we also offer 1:1 mock interviews with the leading organizations to practice your interview abilities. Our career experts ensure that you are eligible to ace any business analytics job interview at the earliest given a chance. Learnbay has a great network of over 200 hiring partners in Dubai and other countries.",
+      "Learnbay offers job assistantships for those who complete the business analytics course in Dubai. This support involves sessions on soft skills training (including presentation), resume writing, and project portfolio management. Apart from this, we also offer 1:1 mock interviews with the leading organizations to practice your interview abilities. Our career experts ensure that you are eligible to ace any business analytics job interview at the earliest given a chance. Learnbay has a great network of over 200 leading MNCs & unicorn startups in Dubai and other countries.",
     JobHead2: "Scope and career opportunities of Business analytics in Dubai :",
     JobBot3:
       "Dubai is a global business center and has a large pool of entrepreneurs who want to get their business online. As a result, several new businesses are opening up day by day. Business analysts and BI professionals are in high demand because of the crucial role they play in every business. It can be a fulfilling career path for those who enjoy sorting, viewing, and analyzing data to solve problems, give business intelligence, and make decisions.",

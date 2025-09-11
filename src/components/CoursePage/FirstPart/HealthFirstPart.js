@@ -78,7 +78,7 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/health-bottom.webp",
     image4:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Mask+group+(10).webp",
-    title3: "Assured Job Assistance",
+    title3: "Dedicated Job Assistance",
     jobAssistance: [
       { icon: <BsDisplay />, text: "8-10 Interview Calls" },
       { icon: <AiOutlineContainer />, text: "Resume Building Session" },
@@ -123,7 +123,8 @@ const BusinessAnalyticsFirstPart = ({ SecondSectionData, TestimonialData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Healthcare-Pharma-and-Clinical-Research-domain.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Healthcare-Pharma-and-Clinical-Research-domain.pdf";
   return (
     <>
       <Navbar dataScienceCounselling={true} interstedInHide={true} />

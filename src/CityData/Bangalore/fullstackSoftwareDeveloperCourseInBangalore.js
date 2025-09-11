@@ -457,7 +457,7 @@ export const FullStackBangaloreCourseData = [
     JobBot1:
       "Our full-stack developer course even includes the resume building of candidates.",
     JobBot2:
-      "Our dedicated team helps you get hired through job referrals from a top organization and MNC. So, our alumni can get the career start or the break they dreamed of. We have 250+ hiring partners.",
+      "Our dedicated team helps you get hired through job referrals from a top organization and MNC. So, our alumni can get the career start or the break they dreamed of. Learners working at 350+ companies",
     ProjectsBot1:
       "Full-stack software developer training in Bangalore involves a real-time capstone project. Students get to learn with real-world examples.",
     ProjectsBot2:

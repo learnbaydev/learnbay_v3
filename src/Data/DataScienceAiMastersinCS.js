@@ -158,8 +158,6 @@ export const DataScienceMastersinCS = [
       //   statLogo: "142% Hike",
       // },
     ],
-  
-
 
     Certificate: {
       degreeCertificate: {
@@ -193,13 +191,13 @@ export const DataScienceMastersinCS = [
         Module0: {
           title: "Foundation Track (10 ECTS Credits)",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_round.webp",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
-        points: "Python Fundamentals",
-        points1: "Numerical Programming",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_round.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/PREPARATORY+CLASSES_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/down_syll.webp",
+          points: "Python Fundamentals",
+          points1: "Numerical Programming",
           content: [
             {
               chap: {
@@ -235,13 +233,13 @@ export const DataScienceMastersinCS = [
         Module0: {
           title: "Statistics & Machine Learning (20 ECTS Credits)",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
-        points: "Applied statistics",
-        points1: "Machine Learning",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_up.webp",
+          points: "Applied statistics",
+          points1: "Machine Learning",
           content: [
             {
               chap: {
@@ -305,14 +303,14 @@ export const DataScienceMastersinCS = [
         Module0: {
           title: "S1 :- Data Analytics & Visualization (20 ECTS Credits)",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
-        points: "SQL",
-        points1: "MongoDB",
-        points2:"Tableau",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_round.webp",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BIG+DATA_Down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_up.webp",
+          points: "SQL",
+          points1: "MongoDB",
+          points2: "Tableau",
           content: [
             {
               chap: {
@@ -403,13 +401,13 @@ export const DataScienceMastersinCS = [
         Module0: {
           title: "S1 :- Deep Learning & Applied Analytics (20 ECTS Credits)",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BUSINESS+ANALYTICS_Up.webp",
-        points: "Introduction to deep learning",
-        points1: "Product Analytics",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_Round.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Data+Science+%26+AI_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BUSINESS+ANALYTICS_Up.webp",
+          points: "Introduction to deep learning",
+          points1: "Product Analytics",
           content: [
             {
               chap: {
@@ -504,13 +502,14 @@ export const DataScienceMastersinCS = [
         Module0: {
           title:
             "S1 :- Industry-Specific DA & Professional Development (20 ECTS Credits)",
-            imageUrl:
+          imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BUSINESS+ANALYTICS_round.webp",
           StartImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BUSINESS+ANALYTICS_Down.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_up+(1).webp",
-          points: "Domain electives (BFSI, Healthcare, E-Commerce, Supplychain, etc) ",
+          points:
+            "Domain electives (BFSI, Healthcare, E-Commerce, Supplychain, etc) ",
           content: [
             {
               chap: {
@@ -531,7 +530,7 @@ export const DataScienceMastersinCS = [
         Module0: {
           title:
             "S2 :- Deep Learning & Advanced Data Analysis (20 ECTS Credits)",
-            imageUrl:
+          imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_round+(1).webp",
           StartImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ESSENTIALS_down+(1).webp",
@@ -602,13 +601,13 @@ export const DataScienceMastersinCS = [
         Module0: {
           title: "S2 :- Deployment & Gen-AI (15 ECTS Credits)",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
-        StartImageUrl:
-          " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_up.webp",
-        points: "Deep learning for computer vision",
-        points1: "(NLP)",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
+          StartImageUrl:
+            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_up.webp",
+          points: "Deep learning for computer vision",
+          points1: "(NLP)",
           content: [
             {
               chap: {
@@ -672,12 +671,12 @@ export const DataScienceMastersinCS = [
         Module0: {
           title: "S2 :- Comprehensive Data Structures (10 ECTS Credits)",
           imageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_round.webp ",
-        StartImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_down.webp",
-        endImageUrl:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BUSINESS+ANALYTICS_Up.webp",
-        points: "Essential Data Structures: Lists, Queues, Stacks",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_round.webp ",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/MICROSOFT+AZURE_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BUSINESS+ANALYTICS_Up.webp",
+          points: "Essential Data Structures: Lists, Queues, Stacks",
           content: [
             {
               chap: {
@@ -723,13 +722,14 @@ export const DataScienceMastersinCS = [
         Module0: {
           title:
             "S2 :- Industry-Specific DA & Professional Development (20 ECTS Credits)",
-            imageUrl:
+          imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BUSINESS+ANALYTICS_round.webp",
           StartImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BUSINESS+ANALYTICS_Down.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BUSINESS+ANALYTICS_Up.webp",
-          points: "Domain electives (BFSI, Healthcare, E-Commerce, Supplychain, etc)",
+          points:
+            "Domain electives (BFSI, Healthcare, E-Commerce, Supplychain, etc)",
           content: [
             {
               chap: {
@@ -852,28 +852,24 @@ export const DataScienceMastersinCS = [
           {
             id: 2,
             ques: "Is there any scholarship/discount available for the Data Science and AI master's degree Program?",
-            ans: "The Data Science and AI master’s degree program offers a 15% – 20% discount for early birds occasionally. Yet, a group discount is available for the learners who join with one or more friends.             " ,
+            ans: "The Data Science and AI master’s degree program offers a 15% – 20% discount for early birds occasionally. Yet, a group discount is available for the learners who join with one or more friends.             ",
 
-           list1:"Group of 2: 5% extra discount",
-           list2:
-           " Group of 3: 8% additional discount",
-           list3:"Group of 4+: Max 10% discount",
-           dscoursefaq:true,
-          
-           ans: ` For further details, you can check with our sales team at +91 7795687988`
-        ,
+            list1: "Group of 2: 5% extra discount",
+            list2: " Group of 3: 8% additional discount",
+            list3: "Group of 4+: Max 10% discount",
+            dscoursefaq: true,
+
+            ans: ` For further details, you can check with our sales team at +91 7795687988`,
             open: false,
           },
           {
             id: 3,
             ques: "What is the refund policy for the Master's degree program at Learnbay?",
-            ans:`Before enrolling on the Master’s degree program at Learnbay, Learners are advised to go through its Refund/Cancellation Policy. `,
-            
-                
-          link: true,
-           open: false
-          }
-          
+            ans: `Before enrolling on the Master’s degree program at Learnbay, Learners are advised to go through its Refund/Cancellation Policy. `,
+
+            link: true,
+            open: false,
+          },
         ],
       },
       {
@@ -891,8 +887,7 @@ export const DataScienceMastersinCS = [
             ques: "Are there opportunities to work on real industry projects?",
             ans: "Yes, learners get the chance to work on real industry projects and gain hands-on experience for better exposure to business challenges. Learnbay offers an open learning platform that supports real-time skills upgrades. ",
             linkText1: " Click here to download the list of the projects.",
-            link1:
-              "",
+            link1: "",
             link: true,
             open: false,
           },
@@ -930,13 +925,13 @@ export const DataScienceMastersinCS = [
             id: 0,
             ques: "What’s the eligibility for a job assistance program at Learnbay?",
 
-            ans: `Learners enrolling in this master’s program must complete the course with a minimum of 70% marks. Learners must complete all their practical tasks, assessments, and projects to get the job assistance program benefits. Then they are eligible for a job assistance program at Learnbay, that offers the scope of getting placed across one of the 300+ industry partners. `,
+            ans: `Learners enrolling in this master’s program must complete the course with a minimum of 70% marks. Learners must complete all their practical tasks, assessments, and projects to get the job assistance program benefits. Then they are eligible for a job assistance program at Learnbay, that offers the scope of getting placed across one of the 300+ leading MNCs & unicorn startups. `,
             open: true,
           },
           {
             id: 1,
             ques: "How many interview calls will I get at Learnbay?",
-            ans: "For this master’s program, learners will get unlimited interview calls from MNCs/MAANG worldwide. Based on their domain specialization, learners will get interview calls and if found suitable can apply for further processes. ",
+            ans: "For this master’s program, learners will get Job-readiness with interview support from MNCs/MAANG worldwide. Based on their domain specialization, learners will get interview calls and if found suitable can apply for further processes. ",
             open: false,
           },
           {
@@ -947,17 +942,16 @@ export const DataScienceMastersinCS = [
             3 years of Job and Placement help
             6 Mock Interviews with Industry Experts 
             1:1 Review Session 
-            Unlimited Interview Calls 
+            Job-readiness with interview support 
             `,
             open: false,
           },
           {
             id: 3,
             ques: "Do you offer job placement or job assistance services after course completion?         ",
-            ans: `Yes, Learnbay offers 100% job assistance services to learners opting for a master’s program. Learners get a career service pro package after course completion. The program supports learners with 100% job assistance with resume preparation and unlimited job calls.  `,
+            ans: `Yes, Learnbay offers 100% job assistance services to learners opting for a master’s program. Learners get a career service pro package after course completion. The program supports learners with 100% job assistance with resume preparation and job calls.  `,
             open: false,
           },
-          
         ],
       },
       {
@@ -989,7 +983,6 @@ export const DataScienceMastersinCS = [
             ans: "Learners enrolling for this course get the scope of learning under dedicated mentorship. These mentors are responsible for helping each learner with coursework and projects. So, yes, you will get uninterrupted help from your mentor while working on fresh capstone projects and course modules.",
             open: false,
           },
-          
         ],
       },
       {
@@ -1012,10 +1005,9 @@ export const DataScienceMastersinCS = [
           {
             id: 2,
             ques: "How long will I get Job referrals?",
-            ans: "You are eligible to avail of job referrals once you successfully complete your course. Under the Career Service Pro package, a learner is entitled to get 3 years of continuous job referrals to get placed across 300+ industry partners. ",
+            ans: "You are eligible to avail of job referrals once you successfully complete your course. Under the Career Service Pro package, a learner is entitled to get 3 years of continuous job referrals to get placed across 300+ leading MNCs & unicorn startups. ",
             open: false,
           },
-          
         ],
       },
     ],

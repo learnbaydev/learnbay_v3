@@ -12,7 +12,7 @@ function SecondSection({ SecondSectionData }) {
     {
       src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Mask+group+(5).png",
       alt: "data science course",
-      text: "Guaranteed Interview Calls",
+      text: "Job-ready with interview support",
     },
     {
       src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/sec3.webp",

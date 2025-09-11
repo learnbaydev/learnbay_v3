@@ -74,9 +74,9 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group-770-min.webp",
     image4:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Mask+group+(10).webp",
-    title3: "Assured Job Assistance",
+    title3: "Dedicated Job Assistance",
     jobAssistance: [
-      { icon: <BsDisplay />, text: "4 Guaranteed Interview Calls" },
+      { icon: <BsDisplay />, text: "4 Job-ready with interview support" },
       { icon: <AiOutlineContainer />, text: "Resume Building Session" },
       { icon: <FaLinkedinIn />, text: "LinkedIn Profile Review" },
     ],
@@ -106,9 +106,9 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/job3.webp",
         imgAlt: "image",
-        title: "100% Job Assistance Program",
+        title: "Job Assistance Program",
         description:
-          "Get a boost in your career with guaranteed 4 interview calls",
+          "Get a boost in your career with Job-ready training & interview support",
       },
     ],
     bannerImage: {
@@ -120,7 +120,8 @@ const FirstPart = ({ SecondSectionData, TestimonialData }) => {
       alt: "Banner Image 1 Alt",
     },
   };
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Science-Foundation-Program.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Science-Foundation-Program.pdf";
   return (
     <>
       <FirstSection

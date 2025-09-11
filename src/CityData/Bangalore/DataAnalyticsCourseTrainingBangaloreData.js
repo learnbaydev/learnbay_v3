@@ -321,8 +321,8 @@ export const DABangaloreCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -799,9 +799,9 @@ export const DABangaloreCourseData = [
         Considering learners from non-tech backgrounds, we have designed the
         placement assistance program accordingly. Participants of our data
         analytics certification program will receive mock interviews, profile
-        review sessions, resume-crafting sessions, and guaranteed interview
-        calls. Placement assistance will help students gain insights into the
-        hiring process of different companies and industries. GST.
+        review sessions, resume-crafting sessions, and Job-ready training &
+        interview support. Placement assistance will help students gain insights
+        into the hiring process of different companies and industries. GST.
       </span>
     ),
     ProgramBot10: (

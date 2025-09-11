@@ -14,8 +14,8 @@ export const DSIndiaCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -389,12 +389,6 @@ export const DSIndiaCourseData = [
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
             open: false,
           },
-          {
-            id: 4,
-            ques: "What is an interview guarantee feature?",
-            ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.`,
-            open: false,
-          },
         ],
       },
       {
@@ -567,14 +561,14 @@ export const DSIndiaCourseData = [
     JobBot39: "Career Service Pro feature provides –      ",
     Joblist14: "job and placement services for three years      ",
     Joblist15:
-      "Six 1:1 mock interviews scheduled with any of the 450+ industry partners      ",
+      "Six 1:1 mock interviews scheduled with any of the 350+ leading MNCs & unicorn startups      ",
     Joblist16: "Resume building with job-ready skills    ",
     Joblist17: "LinkedIn profile review     ",
 
     JobHead30: "",
 
     JobBot21:
-      "Learnbay tends to offer an exceptional, cutting-edge data science course with a placement guarantee. Our training programs can help to lead and overcome various career redundancies and attain professional success.  Our continuous job assistance program promotes career growth chances with its constant support.       ",
+      "Learnbay tends to offer an exceptional, cutting-edge data science course with a placement support. Our training programs can help to lead and overcome various career redundancies and attain professional success.  Our continuous job assistance program promotes career growth chances with its constant support.       ",
     JobHeadIndia01: "         ",
     JobBot22:
       " Note: Here, you can easily avail yourself of better job placement support for three years even after completing the course programs. Additionally, renowned experts are available 24/7 to solve your queries regarding training programs.       ",
@@ -595,7 +589,7 @@ export const DSIndiaCourseData = [
     JobBot007:
       " The data science program entails GenAI-rich training courses with global career paths. Experts have the privilege of working on capstone projects in chosen domains. This helps experts understand real-world business issues and solve them efficiently.      ",
     JobBot005:
-      " Furthermore, we offer data science certification in India accredited by IBM and MS for extended social connections and global recognition. Our 450+ industry partners guide you to crack product/service-based interviews with leading MNCs.     ",
+      " Furthermore, we offer data science certification in India accredited by IBM and MS for extended social connections and global recognition. Our 350+ leading MNCs & unicorn startups guide you to crack product/service-based interviews with leading MNCs.     ",
     JobBot006: " ",
     JobHead22:
       "What job roles can you get into with Learnbay’s online data science course in India?      ",

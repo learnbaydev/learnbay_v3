@@ -232,14 +232,7 @@ export const AIChennaiCourseData = [
             text: "Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies.",
           },
         },
-        {
-          "@type": "Question",
-          name: "What is an interview guarantee feature?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.",
-          },
-        },
+
         {
           "@type": "Question",
           name: "Until when do the students get the facility of mentorship?",
@@ -393,8 +386,8 @@ export const AIChennaiCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -808,16 +801,6 @@ export const AIChennaiCourseData = [
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies.`,
             open: false,
           },
-          {
-            id: 3,
-            ques: "What is an interview guarantee feature?",
-            ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.`,
-            linkText1: " Terms and conditions ",
-            link1: "/terms-conditions ",
-            ansAfter: "applied.",
-            link: true,
-            open: false,
-          },
         ],
       },
 
@@ -957,7 +940,7 @@ export const AIChennaiCourseData = [
     syllabussrc:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf",
     JobBot1:
-      "Learnbay's career coaches and mentors will help you develop your resume and portfolio, as well as refer your profiles to other companies. They ensure that you get guaranteed interviews with top leading organizations in Chennai. In addition, you'll also get multiple mock artificial intelligence interviews to make you ready for challenging real interviews.",
+      "Learnbay's career coaches and mentors will help you develop your resume and portfolio, as well as refer your profiles to other companies. They ensure that you get interviews with top leading organizations in Chennai. In addition, you'll also get multiple mock artificial intelligence interviews to make you ready for challenging real interviews.",
     JobBot2:
       "The Placement Assistance program ensures that you get a full AI course fee to refund if you do not get placed within 6 months after the course.",
     JobHead2: "Is artificial intelligence a good career in Chennai?",

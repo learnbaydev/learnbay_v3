@@ -14,8 +14,8 @@ export const masterdegreeAUSData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -388,12 +388,6 @@ export const masterdegreeAUSData = [
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
             open: false,
           },
-          {
-            id: 4,
-            ques: "What is an interview guarantee feature?",
-            ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed. Terms and conditions applied`,
-            open: false,
-          },
         ],
       },
       {
@@ -588,11 +582,11 @@ export const masterdegreeAUSData = [
     JobBotmaster20: "Major career benefits with Career Service Pro are —      ",
     Joblist14: "Resume Build & Optimization      ",
     Joblist15: "LinkedIn Profile Review    ",
-    Joblist16: "Job Support for 3 years with Unlimited Job Calls     ",
+    Joblist16: "Job Support for 3 years with Job Calls     ",
     Joblist17:
-      "Six 1:1 Mock Interviews with leading MNCs (our 450+ industry partners)      ",
+      "Six 1:1 Mock Interviews with leading MNCs & unicorn startups      ",
     Joblist18: "1:1 Doubt-clearing sessions    ",
-    Joblist19: "Unlimited Job Calls       ",
+    Joblist19: "Job Calls       ",
 
     JobBotMasterBot4:
       "You can do a master in data science in Australia with careful career planning and decision-making. Yet, before making any move, you must consider major career goals and interests. Here, learners can gain a 360-degree skill-building scope, turning a right fit for the companies.       ",

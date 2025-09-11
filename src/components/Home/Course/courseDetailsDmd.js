@@ -20,7 +20,7 @@ export const courseDetails = [
             para: [
               "5 months | 2 capstone projects",
               "Global Certification from IBM",
-              "Guaranteed Interview Calls",
+              "Job-ready with interview support",
             ],
             link1: "/datascience/hr-analytics",
             link2:
@@ -112,7 +112,7 @@ export const courseDetailsM = [
             para: [
               "5 months | 2 capstone projects",
               "Global Certification from IBM",
-              "Guaranteed Interview Calls",
+              "Job-ready with interview support",
             ],
             link1: "/datascience/hr-analytics",
             link2:

@@ -15,8 +15,8 @@ export const BADataScienceCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -916,7 +916,7 @@ export const BADataScienceCourseData = [
             1:1 mock interviews
             1:1 doubt-clearing sessions
             Resume Preparation
-            Unlimited interview calls from 300+ industry partners
+            Job-readiness with interview support from 300+ leading MNCs & unicorn startups
           `,
             open: false,
           },
@@ -938,7 +938,7 @@ Program Manager
           {
             id: 6,
             ques: "Do you have partnerships with companies for job placements?            ",
-            ans: "Learnbay has a tie-up with 300+ placement and hiring partners that include top-tier MNCs. Learners are eligible for a job assistance program for this course that mentors them to face interviews with any of the 300+ industry partners. Industry mentors prepare learners with adequate skills and mock interviews to face the competition and attain success.             ",
+            ans: "Learnbay has a tie-up with leading MNCs & unicorn startups that include top-tier MNCs. Learners are eligible for a job assistance program for this course that mentors them to face interviews with any of the 300+ leading MNCs & unicorn startups. Industry mentors prepare learners with adequate skills and mock interviews to face the competition and attain success.             ",
             open: false,
           },
         ],

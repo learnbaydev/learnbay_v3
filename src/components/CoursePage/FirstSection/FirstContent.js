@@ -41,14 +41,14 @@ const FirstContent = ({
   DSAFresherHeadContent,
 }) => {
   const texts = [
-    "Guaranteed Interview Calls",
+    "Job-ready with interview support",
     "1:1 Doubt Session",
     "IBM Project Certification",
     "Designed for Professionals",
   ];
 
   const textfresher = [
-    "Guaranteed Interview Calls",
+    "Job-ready with interview support",
     "1:1 Doubt Session",
     "6 Months Internship Certificate",
     "Final Year Project Assistance",
@@ -157,55 +157,53 @@ const FirstContent = ({
           ) : (
             <>
               {microsoftOnly ? (
-                                <div className={styles.microsoftDiv}>
-                         <p className={styles.ptop}>In Collaboration With</p>{" "}
-                <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micrososfttss.webp"
-                  width={190}
-                  height={40}
-                  priority
-                  alt="data science course"
-            
-                />
+                <div className={styles.microsoftDiv}>
+                  <p className={styles.ptop}>In Collaboration With</p>{" "}
+                  <Image
+                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micrososfttss.webp"
+                    width={190}
+                    height={40}
+                    priority
+                    alt="data science course"
+                  />
                 </div>
-              ) : DSAFresherHeadContent? (
+              ) : DSAFresherHeadContent ? (
                 <div className={styles.listContent}>
-                <div className={styles.pointContent}>
-                <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sign_mark.webp"
-                width={25}
-                height={25}
-                alt="icon"
-                priority
-                quality={80}
-              />
-              <p>Industry-Recognized Certification</p>
+                  <div className={styles.pointContent}>
+                    <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sign_mark.webp"
+                      width={25}
+                      height={25}
+                      alt="icon"
+                      priority
+                      quality={80}
+                    />
+                    <p>Industry-Recognized Certification</p>
+                  </div>
+                  <div className={styles.pointContent}>
+                    <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sign_mark.webp"
+                      width={25}
+                      height={25}
+                      alt="icon"
+                      priority
+                      quality={80}
+                    />
+                    <p>Hands-On Project Validation</p>
+                  </div>
+                  <div className={styles.pointContent}>
+                    <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sign_mark.webp"
+                      width={25}
+                      height={25}
+                      alt="icon"
+                      priority
+                      quality={80}
+                    />
+                    <p>Boost Your Career Prospects</p>
+                  </div>
                 </div>
-                <div className={styles.pointContent}>
-                <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sign_mark.webp"
-                width={25}
-                height={25}
-                alt="icon"
-                priority
-                quality={80}
-              />
-              <p>Hands-On Project Validation</p>
-              </div>
-              <div className={styles.pointContent}>
-                <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sign_mark.webp"
-                width={25}
-                height={25}
-                alt="icon"
-                priority
-                quality={80}
-              />
-              <p>Boost Your Career Prospects</p>
-              </div>
-                </div>
-              ):
-              (
+              ) : (
                 <div className={ibmOnly ? styles.DAibm : styles.Desktop}>
                   {IIT ? (
                     <>
@@ -287,77 +285,84 @@ const FirstContent = ({
               ) : (
                 <>
                   {" "}
-                 {DSA ? (""):(<> {fresher ? (
-                    <div className={styles.animationTextWrap}>
-                      <span className={styles.animationText}>
-                        <div className={styles.gur}>
-                          <svg
-                            height="30"
-                            width="30"
-                            fill="none"
-                            viewBox="0 0 39 37"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <rect
-                              height="37"
-                              width="39"
-                              fill="url(#pattern0_17_489)"
-                            />
-                            <defs>
-                              <pattern
-                                height="1"
-                                id="pattern0_17_489"
-                                width="1"
-                                patternContentUnits="objectBoundingBox"
-                              >
-                                <use
-                                  transform="matrix(0.00988248 0 0 0.0104167 0.025641 0)"
-                                  xlinkHref="#image0_17_489"
-                                />
-                              </pattern>
-                              <image
-                                height="96"
-                                id="image0_17_489"
-                                width="96"
-                                xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAEMUlEQVR4nO2dO4hWRxSAZ4nZaFZ8oEYDpkqRysKQ2l1sVEQCgo/GJBaBBIKwSiJpImihhaK2NlqIiK81WFisaBJIDAhCIKgJgSz4QBaMj9VY+PjCYadYdO+fe/87r505X7975pzv/++dO3fm/MYoiqIoiqIoiqIoiqIoSkOAOcBnwBBwA3hMPjy2OZ0BPpVck/mAANOBb4D7lMM/wNfAW7GL/y7wK+VyGVgUs/gjsSuQACPBJchXr/BP/qv8EvRyBGx/bQjKtpCznU433FNAP9BnMgHosznJLKiKe8DsEIORqWYVgyZzgG0d8v8kxABknj8Zp00hELMGwB8VwZeZQmD8cjQZN0IEH6sIPtMUAjCzogZjIYJPiikMYtXBd2DGZ1kbgaPATeClveztBd4xiZCdAGCZvbk9q4oB3AaWmATIRgAwDdhDfeTbMN1tVoUKAHqA72nOFveZlSlgK93xt3xz3GdXkAC7oDdK92zwk2E5AtbTjit+MixHwEHaM+AnyzIE/OBAwDE/WZYh4KYDAaN+sixDwAMHAp76ybIMAc8cCPjTT5ZlCBhzIGCHnyzLEDDSsvi/AW/7ybIMAVdaFP8asNhPhuUIONJl8UXcAj/ZlSVgsIviXwRmmQTIQUB/w+IPRd+LmZmA3gYzoTsxb7hZCrD/62xNASdMYuQi4POaAs6bxMhFwFxZTqghYDT2C5gsBQjAceqx0iRETgJW1BSQ1NbHnAT0AL/XECD7g5aaRMhGgABsph7nTCLkJqC3wQua5SYBshIgAF/VFPBXCg9lOQp4U16w1JSw3002rcablwABWFdTwAtgrYlIrgJ67NnbOjztdCgEeA/4EjgMDAOHgDUuxpmtAAH4EHheU8ITW+ReK+8jYCdwtcPfDLs4TJKtAEGu8TTj34bvmC8Ab5gW5C6gz27A9cmO1OsQNTCw0j79+uJ5m4OFoeoQNTBwAL/Iw9+81OsQLTDjrXBk+4lPhlKvQ9TAwAcBehGtT70OUQMzvmTtYitjFT9OhTpEDQxs8VZ+eDRV6hD1oDbwnScBD7sYS3kCBGCXBwHDpiHFChBswzxZkHPFatOQogUIwMeOtrjvM11QvAABeB/4qUXx5YR+j+kCFWCRRTXbt/Rhg8LLEse3pgUq4BVkSQHYXUPEXWCVaYkKqACYYQ+Bn7TthmWp+hZwCfjCVWM9FRCZmAK0ZRnMcvVA57JpX78pBGAgZtO+qualZ0whUH2u4VSI4NI/P2773ojYp/AqNoUYwBzbP7/TWa6BDFsXD/zPiZ4wrYtrfApKZTBI8Sd0u6q7gaoEfpa9ScEEWAmLAmwdmQpIDRYGLf4ECfMdNV6ayj/cEOcnTCZI6LUt3eUmVAr3bMfHsJedTsgMQPrny1ku4LqjtfpUGLMNQiS3TcFmO4qiKIqiKIqiKIqiKIrJif8AdURhYYnBLUUAAAAASUVORK5CYII="
-                              />
-                            </defs>
-                          </svg>
-                          Guaranteed Interview Calls
-                        </div>
-                      </span>
-                    </div>
+                  {DSA ? (
+                    ""
                   ) : (
                     <>
-                      {IBMGl ? (
+                      {" "}
+                      {fresher ? (
                         <div className={styles.animationTextWrap}>
-                          {textfresher.map((text, index) => (
-                            <div
-                              key={index}
-                              className={styles.verticalSlideWrapper}
-                            >
-                              <span className={styles.animationText}>
-                                {text}
-                              </span>
+                          <span className={styles.animationText}>
+                            <div className={styles.gur}>
+                              <svg
+                                height="30"
+                                width="30"
+                                fill="none"
+                                viewBox="0 0 39 37"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <rect
+                                  height="37"
+                                  width="39"
+                                  fill="url(#pattern0_17_489)"
+                                />
+                                <defs>
+                                  <pattern
+                                    height="1"
+                                    id="pattern0_17_489"
+                                    width="1"
+                                    patternContentUnits="objectBoundingBox"
+                                  >
+                                    <use
+                                      transform="matrix(0.00988248 0 0 0.0104167 0.025641 0)"
+                                      xlinkHref="#image0_17_489"
+                                    />
+                                  </pattern>
+                                  <image
+                                    height="96"
+                                    id="image0_17_489"
+                                    width="96"
+                                    xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAEMUlEQVR4nO2dO4hWRxSAZ4nZaFZ8oEYDpkqRysKQ2l1sVEQCgo/GJBaBBIKwSiJpImihhaK2NlqIiK81WFisaBJIDAhCIKgJgSz4QBaMj9VY+PjCYadYdO+fe/87r505X7975pzv/++dO3fm/MYoiqIoiqIoiqIoiqIoSkOAOcBnwBBwA3hMPjy2OZ0BPpVck/mAANOBb4D7lMM/wNfAW7GL/y7wK+VyGVgUs/gjsSuQACPBJchXr/BP/qv8EvRyBGx/bQjKtpCznU433FNAP9BnMgHosznJLKiKe8DsEIORqWYVgyZzgG0d8v8kxABknj8Zp00hELMGwB8VwZeZQmD8cjQZN0IEH6sIPtMUAjCzogZjIYJPiikMYtXBd2DGZ1kbgaPATeClveztBd4xiZCdAGCZvbk9q4oB3AaWmATIRgAwDdhDfeTbMN1tVoUKAHqA72nOFveZlSlgK93xt3xz3GdXkAC7oDdK92zwk2E5AtbTjit+MixHwEHaM+AnyzIE/OBAwDE/WZYh4KYDAaN+sixDwAMHAp76ybIMAc8cCPjTT5ZlCBhzIGCHnyzLEDDSsvi/AW/7ybIMAVdaFP8asNhPhuUIONJl8UXcAj/ZlSVgsIviXwRmmQTIQUB/w+IPRd+LmZmA3gYzoTsxb7hZCrD/62xNASdMYuQi4POaAs6bxMhFwFxZTqghYDT2C5gsBQjAceqx0iRETgJW1BSQ1NbHnAT0AL/XECD7g5aaRMhGgABsph7nTCLkJqC3wQua5SYBshIgAF/VFPBXCg9lOQp4U16w1JSw3002rcablwABWFdTwAtgrYlIrgJ67NnbOjztdCgEeA/4EjgMDAOHgDUuxpmtAAH4EHheU8ITW+ReK+8jYCdwtcPfDLs4TJKtAEGu8TTj34bvmC8Ab5gW5C6gz27A9cmO1OsQNTCw0j79+uJ5m4OFoeoQNTBwAL/Iw9+81OsQLTDjrXBk+4lPhlKvQ9TAwAcBehGtT70OUQMzvmTtYitjFT9OhTpEDQxs8VZ+eDRV6hD1oDbwnScBD7sYS3kCBGCXBwHDpiHFChBswzxZkHPFatOQogUIwMeOtrjvM11QvAABeB/4qUXx5YR+j+kCFWCRRTXbt/Rhg8LLEse3pgUq4BVkSQHYXUPEXWCVaYkKqACYYQ+Bn7TthmWp+hZwCfjCVWM9FRCZmAK0ZRnMcvVA57JpX78pBGAgZtO+qualZ0whUH2u4VSI4NI/P2773ojYp/AqNoUYwBzbP7/TWa6BDFsXD/zPiZ4wrYtrfApKZTBI8Sd0u6q7gaoEfpa9ScEEWAmLAmwdmQpIDRYGLf4ECfMdNV6ayj/cEOcnTCZI6LUt3eUmVAr3bMfHsJedTsgMQPrny1ku4LqjtfpUGLMNQiS3TcFmO4qiKIqiKIqiKIqiKIrJif8AdURhYYnBLUUAAAAASUVORK5CYII="
+                                  />
+                                </defs>
+                              </svg>
+                              Job-ready with interview support
                             </div>
-                          ))}
+                          </span>
                         </div>
                       ) : (
-                        <div className={styles.animationTextWrap}>
-                          {texts.map((text, index) => (
-                            <div
-                              key={index}
-                              className={styles.verticalSlideWrapper}
-                            >
-                              <span className={styles.animationText}>
-                                {text}
-                              </span>
+                        <>
+                          {IBMGl ? (
+                            <div className={styles.animationTextWrap}>
+                              {textfresher.map((text, index) => (
+                                <div
+                                  key={index}
+                                  className={styles.verticalSlideWrapper}
+                                >
+                                  <span className={styles.animationText}>
+                                    {text}
+                                  </span>
+                                </div>
+                              ))}
                             </div>
-                          ))}
-                        </div>
+                          ) : (
+                            <div className={styles.animationTextWrap}>
+                              {texts.map((text, index) => (
+                                <div
+                                  key={index}
+                                  className={styles.verticalSlideWrapper}
+                                >
+                                  <span className={styles.animationText}>
+                                    {text}
+                                  </span>
+                                </div>
+                              ))}
+                            </div>
+                          )}
+                        </>
                       )}
                     </>
-                  )}</>)}
+                  )}
                 </>
               )}
 
@@ -454,43 +459,43 @@ const FirstContent = ({
                     />
                   </div>
                 </>
-              ) : DSAFresherHeadContent? (
+              ) : DSAFresherHeadContent ? (
                 <div className={styles.listContent}>
-                <div className={styles.pointContent}>
-                <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sign_mark.webp"
-                width={25}
-                height={25}
-                alt="icon"
-                priority
-                quality={80}
-              />
-              <p>Industry-Recognized Certification</p>
+                  <div className={styles.pointContent}>
+                    <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sign_mark.webp"
+                      width={25}
+                      height={25}
+                      alt="icon"
+                      priority
+                      quality={80}
+                    />
+                    <p>Industry-Recognized Certification</p>
+                  </div>
+                  <div className={styles.pointContent}>
+                    <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sign_mark.webp"
+                      width={25}
+                      height={25}
+                      alt="icon"
+                      priority
+                      quality={80}
+                    />
+                    <p>Hands-On Project Validation</p>
+                  </div>
+                  <div className={styles.pointContent}>
+                    <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sign_mark.webp"
+                      width={25}
+                      height={25}
+                      alt="icon"
+                      priority
+                      quality={80}
+                    />
+                    <p>Boost Your Career Prospects</p>
+                  </div>
                 </div>
-                <div className={styles.pointContent}>
-                <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sign_mark.webp"
-                width={25}
-                height={25}
-                alt="icon"
-                priority
-                quality={80}
-              />
-              <p>Hands-On Project Validation</p>
-              </div>
-              <div className={styles.pointContent}>
-                <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/sign_mark.webp"
-                width={25}
-                height={25}
-                alt="icon"
-                priority
-                quality={80}
-              />
-              <p>Boost Your Career Prospects</p>
-              </div>
-                </div>
-              ): (
+              ) : (
                 <>
                   {" "}
                   {IIT ? (

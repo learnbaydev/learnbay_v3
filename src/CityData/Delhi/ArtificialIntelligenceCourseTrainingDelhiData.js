@@ -224,14 +224,7 @@ export const AIelhiCourseData = [
             text: "Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies.",
           },
         },
-        {
-          "@type": "Question",
-          name: "What is an interview guarantee feature?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.",
-          },
-        },
+
         {
           "@type": "Question",
           name: "Until when do the students get the facility of mentorship?",
@@ -384,8 +377,8 @@ export const AIelhiCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -795,16 +788,6 @@ export const AIelhiCourseData = [
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies.`,
             open: false,
           },
-          {
-            id: 3,
-            ques: "What is an interview guarantee feature?",
-            ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed. `,
-            linkText1: " Terms and conditions ",
-            link1: "/terms-conditions ",
-            ansAfter: "applied.",
-            link: true,
-            open: false,
-          },
         ],
       },
       {
@@ -892,7 +875,7 @@ export const AIelhiCourseData = [
     CertificationBot1:
       "Candidates will acquire IBM certifications after completing an Artificial Intelligence course training in Delhi from Learnbay. You will receive one to eight certificates, depending on your chosen course available in Delhi. Additionally, students will also obtain an IBM project experience accreditation from IBM after completing capstone projects.",
     CertificationBot2:
-      "Learnbay has reached a key milestone by partnering with IBM and 250+ MNCs and startups. With Learnbay IBM certification on your resume, you'll be well on your way to land on a high-paying Artificial Intelligence job at one of the world's most prestigious companies. Over 10,000 students have completed our Artificial Intelligence course, allowing themselves to work in high-paying Artificial Intelligence and Machine Learning jobs all over Delhi.",
+      "Learnbay has reached a key milestone by partnering with IBM and Learners working at 350+ MNCs and startups. With Learnbay IBM certification on your resume, you'll be well on your way to land on a high-paying Artificial Intelligence job at one of the world's most prestigious companies. Over 10,000 students have completed our Artificial Intelligence course, allowing themselves to work in high-paying Artificial Intelligence and Machine Learning jobs all over Delhi.",
     src33:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Microsoft-certificate-data.png",
     src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Certificate-blue.png",

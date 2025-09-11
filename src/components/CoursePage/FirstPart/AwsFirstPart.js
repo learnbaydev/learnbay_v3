@@ -88,7 +88,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/devops-gam-min.webp",
     image11:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-infi-min.webp",
-    title3: "Assured Job Assistance",
+    title3: "Dedicated Job Assistance",
     jobAssistance: [
       { icon: <BsDisplay />, text: "8-10 Interview Calls" },
       { icon: <AiOutlineContainer />, text: "Resume Building Session" },
@@ -135,7 +135,8 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
       alt: "Banner Image 1 Alt",
     },
   };
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AWS.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AWS.pdf";
 
   return (
     <>

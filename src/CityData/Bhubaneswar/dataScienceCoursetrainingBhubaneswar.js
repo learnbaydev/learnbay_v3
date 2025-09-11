@@ -14,8 +14,8 @@ export const DSBhubabneswasCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -318,12 +318,6 @@ export const DSBhubabneswasCourseData = [
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
             open: false,
           },
-          {
-            id: 4,
-            ques: "What is an interview guarantee feature?",
-            ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.`,
-            open: false,
-          },
         ],
       },
       {
@@ -499,7 +493,7 @@ export const DSBhubabneswasCourseData = [
     Joblist13:
       "Business case studies in your domain and  Experimental exposure to real-world business issues via projects     ",
     JobBot001:
-      "Our data science course helps guarantee career-oriented skills for cracking interviews with top-tier global MNCs. Experts obtain 24/7 career support here to help them acquire technical, soft, and behavioral skills.         ",
+      "Our data science course helps career-oriented skills for cracking interviews with top-tier global MNCs. Experts obtain 24/7 career support here to help them acquire technical, soft, and behavioral skills.         ",
     JobBot002:
       "Furthermore, technical and soft skills offer an exceptional opportunity to build personalized skills and improve organizational fit.         ",
     JobHead19: "Career Service Pro    ",
@@ -512,15 +506,15 @@ export const DSBhubabneswasCourseData = [
       "Exclusive gains that our Career Service PRO will offer are –      ",
     Joblist14: "job and placement services for three years      ",
     Joblist15:
-      "Six 1:1 mock interviews scheduled with any of the 450+ industry partners        ",
+      "Six 1:1 mock interviews scheduled with any of the 350+ leading MNCs & unicorn startups        ",
     Joblist16: " Resume building with job-ready skills      ",
     Joblist17:
-      "LinkedIn profile review  and Unlimited job calls from MNCs globally      ",
+      "LinkedIn profile review  and job calls from MNCs globally      ",
 
     JobHead30: "",
 
     JobBot21:
-      "Learnbay tends to provide an exceptional, cutting-edge data science course with a placement guarantee. Our training programs can assist in leading and overcoming various career redundancies and attaining professional advancement. Our continuous job assistance program promotes career growth chances with its constant support.         ",
+      "Learnbay tends to provide an exceptional, cutting-edge data science course with a placement support. Our training programs can assist in leading and overcoming various career redundancies and attaining professional advancement. Our continuous job assistance program promotes career growth chances with its constant support.         ",
     JobHeadIndia01: "         ",
     JobBot22:
       " Note: Here, you can easily avail yourself of better job placement support for three years even after completing the course programs. Additionally, renowned experts are available 24/7 to solve your queries regarding training programs.         ",
@@ -540,7 +534,7 @@ export const DSBhubabneswasCourseData = [
     JobBot007:
       " The data science program entails GenAI-rich training courses with global career paths. Experts have the privilege of working on capstone projects in chosen domains. This helps specialists understand real-world business problems and solve them efficiently.        ",
     JobBot005:
-      " Furthermore, we offer a big data course in Bhubaneswar accredited by IBM and MS for extended social connections and global recognition. Our 450+ industry partners guide you to crack product/service-based interviews with leading MNCs.         ",
+      " Furthermore, we offer a big data course in Bhubaneswar accredited by IBM and MS for extended social connections and global recognition. Our 350+ leading MNCs & unicorn startups guide you to crack product/service-based interviews with leading MNCs.         ",
     JobBot006: " ",
     JobHead22:
       "What jobs are possible with Learnbay’s data science course in Bhubaneswar?        ",

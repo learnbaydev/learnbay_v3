@@ -418,14 +418,6 @@ export default function Home() {
                 },
                 {
                   "@type": "Question",
-                  name: "What is an interview guarantee feature?",
-                  acceptedAnswer: {
-                    "@type": "Answer",
-                    text: "As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed. Terms and conditions applied.",
-                  },
-                },
-                {
-                  "@type": "Question",
                   name: "Until when do the students get the facility of mentorship?",
                   acceptedAnswer: {
                     "@type": "Answer",
@@ -466,7 +458,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          FirstTyped="Guaranteed Interview Calls"
+          FirstTyped="Job-ready with interview support"
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           dataScience={true}

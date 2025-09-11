@@ -14,8 +14,8 @@ export const DSnagpurCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -318,12 +318,6 @@ export const DSnagpurCourseData = [
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
             open: false,
           },
-          {
-            id: 4,
-            ques: "What is an interview guarantee feature?",
-            ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.`,
-            open: false,
-          },
         ],
       },
       {
@@ -509,7 +503,7 @@ export const DSnagpurCourseData = [
     JobBot39: "Career Service Pro feature provides –      ",
     Joblist14: "Uninterrupted job and placement support for three years      ",
     Joblist15:
-      "Six 1:1 mock interviews with any of the 450+ industry partners        ",
+      "Six 1:1 mock interviews with any of the 350+ leading MNCs & unicorn startups        ",
     Joblist16:
       " Resume building & optimization & LinkedIn profile review       ",
     Joblist17:
@@ -537,7 +531,7 @@ export const DSnagpurCourseData = [
     JobBot007:
       " Upskilling via a data science course in Nagpur unlocks the door toward global-level career shifts with top-tier MNCs. Learnbay offers career-worthy solutions via its GenAI-rich syllabus, project-based learning, and global certifications.         ",
     JobBot005:
-      " Our alliance with tech leaders IBM & Microsoft paves the way for alluring success with fortunate gains. Global certifications from IBM & MS extend earning limits with exciting hikes and promotions. Plus, our industry partnership with 450+ MNCs assists with effortless job and placement support. Hence, joining Learnbay’s cutting-edge courses brings proven gains you should not miss.         ",
+      " Our alliance with tech leaders IBM & Microsoft paves the way for alluring success with fortunate gains. Global certifications from IBM & MS extend earning limits with exciting hikes and promotions. Plus, our leading MNCs & unicorn startupship with 450+ MNCs assists with effortless job and placement support. Hence, joining Learnbay’s cutting-edge courses brings proven gains you should not miss.         ",
     JobBot006: " ",
     JobHead22:
       "What specific career roles can you crack with Learnbay’s online data science courses in Nagpur?         ",

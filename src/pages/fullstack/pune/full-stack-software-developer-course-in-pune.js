@@ -159,7 +159,7 @@ export default function Home() {
         </Popup>
         <FirstSection
           fullStack={true}
-          FirstTyped="Guaranteed Interview Calls"
+          FirstTyped="Job-ready with interview support"
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           dataScience={true}

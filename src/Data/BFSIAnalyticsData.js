@@ -14,8 +14,8 @@ export const BFSIDataScienceCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -1229,7 +1229,8 @@ export const BFSIDataScienceCourseData = [
           content: [
             {
               chap: {
-                section: "Section 1 - Fundamentals of AI & Data Science in BFSI: Risk Analytics, Credit Scoring & Fraud Detection",
+                section:
+                  "Section 1 - Fundamentals of AI & Data Science in BFSI: Risk Analytics, Credit Scoring & Fraud Detection",
                 title: "Overview of BFSI Industry & AI Impact",
                 desc: [
                   "Key Data Science Use Cases in BFSI",
@@ -1251,7 +1252,8 @@ export const BFSIDataScienceCourseData = [
             },
             {
               chap: {
-                title: "Risk Analytics & Credit Scoring ModelsBasic Neural Network",
+                title:
+                  "Risk Analytics & Credit Scoring ModelsBasic Neural Network",
                 desc: [
                   "Credit Scoring Metrics & Risk Assessment Techniques",
                   "Logistic Regression & Decision Trees for Credit Default Prediction",
@@ -1263,8 +1265,10 @@ export const BFSIDataScienceCourseData = [
             },
             {
               chap: {
-                section:"Section 2 - AI & Generative AI Applications in BFSI: Fraud Detection,Trading, Personalization & Compliance",
-                title: "Fraud Types: Transactional, Cybersecurity, Identity Theft",
+                section:
+                  "Section 2 - AI & Generative AI Applications in BFSI: Fraud Detection,Trading, Personalization & Compliance",
+                title:
+                  "Fraud Types: Transactional, Cybersecurity, Identity Theft",
                 desc: [
                   "Anomaly Detection Techniques – Isolation Forest, Autoencoders",
                   "NLP for Detecting Suspicious Transactions",
@@ -1328,13 +1332,12 @@ export const BFSIDataScienceCourseData = [
           title: "TERM 6 :- AI Tools and Deployment",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_round.webp",
-            
-            
+
           StartImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DEPLOYMENT_down.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/AI+GENERATIVE+TOOLS_up.webp",
-            
+
           points: "Deep Learning",
           points1: "(NLP)",
           content: [
@@ -1968,7 +1971,7 @@ export const BFSIDataScienceCourseData = [
           {
             id: 1,
             ques: "How many interview calls will I get at Learnbay?            ",
-            ans: "You will be provided with 8 – 10 interview calls from our potential industry partners.             ",
+            ans: "You will be provided with 8 – 10 interview calls from our potential leading MNCs & unicorn startups.             ",
             open: false,
           },
           {

@@ -33,7 +33,8 @@ const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Advance-Cyber-security.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Advance-Cyber-security.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -110,7 +111,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          FirstTyped="Guaranteed Interview Calls"
+          FirstTyped="Job-ready with interview support"
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           cityParaCont="Become a certified expert with our digitally-driven cyber security course in Pune. Join our GenAI-rich course to master network security tools and detect key oddities. Earn iHUB DivyaSampark and IIT Roorkee credentials to validate your skills in shielding data webs from data thefts & breaches. "

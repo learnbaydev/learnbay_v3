@@ -6551,7 +6551,7 @@ export const NewDSAData = [
             id: 0,
             ques: "What is a job readiness program at Learnbay? ",
 
-            ans: `A job-readiness program at Learnbay includes resume-building sessions, portfolio designing, and 1:1 mock interview preparation, and career counselling sessions for the experts. This program aims to help working professionals redefine their careers in relevant fields with attractive pay. The tie-ups with 350+ industry partners help the learners get their entry into the leading MNCs in their desired areas. `,
+            ans: `A job-readiness program at Learnbay includes resume-building sessions, portfolio designing, and 1:1 mock interview preparation, and career counselling sessions for the experts. This program aims to help working professionals redefine their careers in relevant fields with attractive pay. The tie-ups with 350+ leading MNCs & unicorn startups help the learners get their entry into the leading MNCs in their desired areas. `,
             open: true,
           },
           {
@@ -6566,7 +6566,7 @@ export const NewDSAData = [
             ans: "When you get upskilled with Learnbay's course program successfully, you become eligible for its placement program. It offers -",
 
             list1:
-              "Guaranteed interview calls from prime MNCs & MAANG partnered with Learnbay",
+              "Job-ready with interview support from prime MNCs & MAANG partnered with Learnbay",
             list2:
               "Domain-specialized training and upskilling help get selected in placement drives",
             list3:
@@ -6584,7 +6584,7 @@ export const NewDSAData = [
           {
             id: 3,
             ques: "Will I get job referrals at Learnbay? ",
-            ans: "After successful completion of course training sessions, live projects, and other assessments provided, a learner becomes eligible to attend job interviews with our partnered industries. Here, Learnbay offers job referrals for your desired roles to its industry partners, consultancies, and companies. ",
+            ans: "After successful completion of course training sessions, live projects, and other assessments provided, a learner becomes eligible to attend job interviews with our partnered industries. Here, Learnbay offers job referrals for your desired roles to its leading MNCs & unicorn startups, consultancies, and companies. ",
             open: false,
           },
         ],

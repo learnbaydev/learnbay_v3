@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import styles from "./whyChooseSection.module.css";
 import Image from "next/image";
 
-function AnimationGEN({ cyber, whyChooseData,  }) {
+function AnimationGEN({ cyber, whyChooseData }) {
   const divRefs = useRef([]);
   const arrowSvg = [
     <svg
@@ -152,7 +152,6 @@ function AnimationGEN({ cyber, whyChooseData,  }) {
                 {index === 0 ? (
                   <div style={{ marginTop: "20px" }}>
                     {cyber ? (
-                      
                       <Image
                         src={item.logos}
                         width={item.logosWidth}
@@ -162,8 +161,6 @@ function AnimationGEN({ cyber, whyChooseData,  }) {
                         loading="lazy"
                         alt="IIT"
                       />
-
-                     
                     ) : (
                       <Image
                         src={item.logos}
@@ -182,9 +179,15 @@ function AnimationGEN({ cyber, whyChooseData,  }) {
                     <div className={styles.point}>
                       {arrowSvg} Placement Support
                     </div>
-                    <div className={styles.point}>{arrowSvg} Mock Interviews</div>
-                    <div className={styles.point}>{arrowSvg} Resume BuildUp</div>
-                    <div className={styles.point}>{arrowSvg} Ultimate Interview calls</div>
+                    <div className={styles.point}>
+                      {arrowSvg} Mock Interviews
+                    </div>
+                    <div className={styles.point}>
+                      {arrowSvg} Resume BuildUp
+                    </div>
+                    <div className={styles.point}>
+                      {arrowSvg} Interview calls
+                    </div>
                   </div>
                 )}
 

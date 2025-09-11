@@ -310,14 +310,6 @@ export const DSBangaloreCourseData = [
         },
         {
           "@type": "Question",
-          name: "What is an interview guarantee feature?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "In case you choose the Job or 100% job assistance then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. Note: Terms and conditions applied",
-          },
-        },
-        {
-          "@type": "Question",
           name: "Will I get job referrals at Learnbay?",
           acceptedAnswer: {
             "@type": "Answer",
@@ -372,8 +364,8 @@ export const DSBangaloreCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -739,12 +731,6 @@ export const DSBangaloreCourseData = [
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
             open: false,
           },
-          {
-            id: 4,
-            ques: "What is an interview guarantee feature?",
-            ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.`,
-            open: false,
-          },
         ],
       },
       {
@@ -860,7 +846,7 @@ export const DSBangaloreCourseData = [
     JobHead1:
       "Data science job assistance and Data Science Interview preparation in Bangalore.",
     JobBot1:
-      "Learnbay Data science classes in Bangalore assures guaranteed job referrals as per the specified domain chosen by the student. They help students and learners to get placed in startups and top MNCs to build a career as Data scientists. We prepare students by conducting mock interviews as per the program. Learnbay even works on soft-skill, portfolio, and resume building. Many of our students had a breakthrough in their careers as they got recruited by leading global companies like TCS, Amazon, Mercedes, JP Morgan, and EY.",
+      "Learnbay Data science classes in Bangalore provides job referrals as per the specified domain chosen by the student. They help students and learners to get placed in startups and top MNCs to build a career as Data scientists. We prepare students by conducting mock interviews as per the program. Learnbay even works on soft-skill, portfolio, and resume building. Many of our students had a breakthrough in their careers as they got recruited by leading global companies like TCS, Amazon, Mercedes, JP Morgan, and EY.",
     JobHead2:
       "What are the advantages of becoming a Data Scientist in Bangalore?",
     JobBot3:
