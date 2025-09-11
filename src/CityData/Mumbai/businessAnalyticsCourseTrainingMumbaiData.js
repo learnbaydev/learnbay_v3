@@ -771,7 +771,7 @@ export const BAMumbaiCourseData = [
     JobBot1:
       "The concerned business analytics course equips more than four devoted sessions on job orientation. Such sessions include scope discussion available for industry competent business analytics professionals in Mumbai as well as abroad. Apart from that, you will find sessions on the mock interview, resume help, and online project portfolio management guidance. The Learnbay business analytics job orientation sessions aim to make you eligible for cracking any business analytics job interview at the first chance.",
     JobBot5:
-      "We own a very strong network of 200+ hiring partners across Mumbai. About 700+ Learnbay alumni are already working in the companies like Adobe, Manthan, Salesforce, JP Morgan, and Accenture.",
+      "We own a very strong network of 350+ leading MNCs & unicorn startups across Mumbai. About 700+ Learnbay alumni are already working in the companies like Adobe, Manthan, Salesforce, JP Morgan, and Accenture.",
     JobHead2:
       "You can target business analytics job roles in Mumbai after getting the IBM Business Analytics Course Completion certificate?",
     JobBot3:

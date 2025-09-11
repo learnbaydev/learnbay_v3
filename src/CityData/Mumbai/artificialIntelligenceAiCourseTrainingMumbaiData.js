@@ -938,7 +938,7 @@ export const AIMumbaiCourseData = [
     JobBot2:
       "Learnbay’s career coaches ensure that you are well prepared to land a high-paying job in the field of artificial intelligence and ML. They guide you with everything from resume preparation and soft skills training to conducting mock interviews. They make your portfolio up-to-date and appealing, as well as refer your profile to potential employers.",
     JobBot5:
-      "Currently, more than 1000 Learnbay alumni are proudly working in various Artificial Intelligence and ML job roles across Mumbai and all over India. We also have a network of 500+ hiring partners like TCS, JP Morgan, and IBM, amongst others.",
+      "Currently, more than 1000 Learnbay alumni are proudly working in various Artificial Intelligence and ML job roles across Mumbai and all over India.We are partnered with leading MNCs & unicorn startups",
     JobHead2: "Artificial intelligence and its demand in Mumbai:",
     JobBot3:
       "Artificial Intelligence (AI) is a scientific field that emphasizes the creation of intelligent machines that work and react like humans. Computers have been used since rule-based systems to help in human decision-making, but AI research focuses on creating machines that function independently from human beings.",
