@@ -6,8 +6,9 @@ keywords: "Agentic AI, Agentic AI framework, agentic ai course, What is agentic 
 date: "14-04-2025"
 author: "Sonalisha Mohanty"
 readTime: "4.5 min"
-image: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/blogs/blogcover.webp"
-
+image: "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/agentic-ai-technology-illustration_updated.webp"
+imagephone: "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/agentic-ai-technology-illustration+_phone.webp"
+alt: "An illustration of agentic AI concept with robotic hands holding digital brain on tech background."
 ---
 
 According to <a href="https://www.mordorintelligence.com/industry-reports/agentic-ai-market" target="_blank"> Mordor Intelligence reports</a>, the global Agentic AI market is expected to grow 41.48% by 2030. As digital innovation continues to grow, Agentic AI creates a new history. Unlike traditional AI systems, Agentic AI has revolutionized the tech industry with future-intelligent systems. The 21st Century’s splendid creation in the form of Agentic AI sets the basis for autonomous work practices and decision-making. Yet, the latest buzz spins around ‘<i><b>What is Agentic AI and how does it work in real-world settings?</b></i>’ This blog guides you through the <b>Agentic AI frameworks</b>, uses, key risks, and future trends. Also, career fanatics can follow the guide to redefine their careers via an Agentic AI course.
@@ -63,7 +64,7 @@ Microsoft presents an open-source Agentic AI framework termed ‘AutoGen’. It 
 ### LangGraph
 
 Agentic AI is introduced to LangGraph, a well-known framework for managing stateful workflows. It creates a graph-based architecture, including various steps with logical flows, and manages interdependencies.
-                                                                                                                                                                                                                
+
 <b>Core features:</b>
 
 - A platform to have a graph-based workflow handling
