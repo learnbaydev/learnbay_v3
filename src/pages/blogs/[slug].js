@@ -7,12 +7,22 @@ import Footer from "@/components/Global/Footer/Footer";
 import dynamic from "next/dynamic";
 import rehypeRaw from "rehype-raw";
 import Link from "next/link";
-import { Children, useEffect, useState, useRef, useCallback, useMemo } from "react";
+
+import {
+  Children,
+  useEffect,
+  useState,
+  useRef,
+  useCallback,
+  useMemo,
+} from "react";
 import Head from "next/head";
 import Navbar from "@/components/Global/Navbar/Navbar";
 import { TestingCourseData } from "@/CityData/testingData/testingData";
 
-const RelatedCourses = dynamic(() => import("@/components/testingComponent/RelatedCourses/RelatedCourses"));
+const RelatedCourses = dynamic(() =>
+  import("@/components/testingComponent/RelatedCourses/RelatedCourses")
+);
 const ReactMarkdown = dynamic(() => import("react-markdown"));
 
 const extractText = (children) =>
@@ -87,12 +97,24 @@ const Blog = ({ postData, nextPost }) => {
     <>
       <Head>
         <title>{postData.Stitle || "Learnbay blogs"}</title>
-        <meta name="description" content={postData.description || "Welcome to Learnbay Blogs"} />
+        <meta
+          name="description"
+          content={postData.description || "Welcome to Learnbay Blogs"}
+        />
         <meta property="og:title" content={postData.title} />
-        <meta property="og:description" content={postData.description || "Welcome to Learnbay Blogs"} />
-        <meta name="keywords" content={postData.keywords || "default, keywords"} />
+        <meta
+          property="og:description"
+          content={postData.description || "Welcome to Learnbay Blogs"}
+        />
+        <meta
+          name="keywords"
+          content={postData.keywords || "default, keywords"}
+        />
         <meta property="og:image" content={postData.image} />
-        <meta name="twitter:card" content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/blogs/blogcover.webp" />
+        <meta
+          name="twitter:card"
+          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/blogs/blogcover.webp"
+        />
         <link rel="canonical" href={canonicalURL} />
         <link
           rel="icon"
@@ -103,22 +125,44 @@ const Blog = ({ postData, nextPost }) => {
       <Navbar popup dataScience interstedInHide />
 
       <div className={styles.blogPage}>
-        <div className={styles.blogHeader} style={{ backgroundImage: `url(${postData.image})` }}></div>
+        <img
+          src={
+            isMobile && postData.imagephone
+              ? postData.imagephone
+              : postData.image
+          }
+          alt={postData.alt}
+          width="100%"
+          height="auto"
+          className={styles.blogHeader}
+        />
 
         <div className={styles.metaContainer}>
           <h1 className={styles.blogTitle}>{postData.title}</h1>
           <div className={styles.metaInfo}>
             <span className={styles.author}>By: {postData.author}</span>
-            <span className={styles.readTime}>Read Time : {postData.readTime}</span>
+            <span className={styles.readTime}>
+              Read Time : {postData.readTime}
+            </span>
             <span className={styles.date}>Publish on: {postData.date}</span>
           </div>
         </div>
 
         <div className={styles.blogContainer}>
-          <div ref={tocRef} className={`${styles.sidebar} ${isMobile ? styles.mobileSidebar : ""}`}>
+          <div
+            ref={tocRef}
+            className={`${styles.sidebar} ${
+              isMobile ? styles.mobileSidebar : ""
+            }`}
+          >
             {isMobile && (
-              <button className={styles.toggleButton} onClick={() => setIsTOCOpen(!isTOCOpen)}>
-                {isTOCOpen ? "Hide Table of Contents ▲" : "Show Table of Contents ▼"}
+              <button
+                className={styles.toggleButton}
+                onClick={() => setIsTOCOpen(!isTOCOpen)}
+              >
+                {isTOCOpen
+                  ? "Hide Table of Contents ▲"
+                  : "Show Table of Contents ▼"}
               </button>
             )}
 
@@ -128,9 +172,10 @@ const Blog = ({ postData, nextPost }) => {
                 <ul>
                   {postData.headings.map((heading, index) => (
                     <li key={index}>
-                      <a href={`#${heading.id}`}>{heading.text} <hr className={styles.hr}/> </a>
+                      <a href={`#${heading.id}`}>
+                        {heading.text} <hr className={styles.hr} />{" "}
+                      </a>
                     </li>
-
                   ))}
                 </ul>
               </div>
@@ -138,13 +183,18 @@ const Blog = ({ postData, nextPost }) => {
           </div>
 
           <div className={styles.blogContent}>
-            <ReactMarkdown rehypePlugins={[rehypeRaw]} components={markdownComponents}>
+            <ReactMarkdown
+              rehypePlugins={[rehypeRaw]}
+              components={markdownComponents}
+            >
               {postData.content}
             </ReactMarkdown>
 
             {nextPost && (
               <div className={styles.nextPost}>
-                <Link href={`/blog/${nextPost.slug}`}>Next Blog: {nextPost.title}</Link>
+                <Link href={`/blog/${nextPost.slug}`}>
+                  Next Blog: {nextPost.title}
+                </Link>
               </div>
             )}
           </div>
@@ -191,7 +241,10 @@ export async function getStaticProps({ params }) {
     const headings = [];
     content.replace(/^(#{1,6})\s+(.*)$/gm, (match, p1, p2) => {
       const rawText = p2.replace(/[*_~`]/g, "");
-      const id = rawText.toLowerCase().replace(/\s+/g, "-").replace(/[^\w-]/g, "");
+      const id = rawText
+        .toLowerCase()
+        .replace(/\s+/g, "-")
+        .replace(/[^\w-]/g, "");
       headings.push({ id, text: rawText, level: p1.length });
       return match;
     });
@@ -201,6 +254,8 @@ export async function getStaticProps({ params }) {
       date: data.date || "Unknown Date",
       author: data.author || "Author",
       image: data.image || "/default-image.jpg",
+      imagephone: data.imagephone || "/default-image.jpg",
+      alt: data.alt || "Default alt text",
       Stitle: data.Stitle || data.title || "Untitled",
       description: data.description || "Default description",
       readTime: data.readTime || "Read time",
@@ -210,14 +265,22 @@ export async function getStaticProps({ params }) {
     };
 
     const fileNames = fs.readdirSync(blogDirectory);
-    const currentIndex = fileNames.findIndex((file) => file.replace(/\.md$/, "") === params.slug);
+    const currentIndex = fileNames.findIndex(
+      (file) => file.replace(/\.md$/, "") === params.slug
+    );
 
     let nextPost = null;
     if (currentIndex !== -1 && currentIndex + 1 < fileNames.length) {
       const nextFile = fileNames[currentIndex + 1];
-      const nextContent = fs.readFileSync(path.join(blogDirectory, nextFile), "utf8");
+      const nextContent = fs.readFileSync(
+        path.join(blogDirectory, nextFile),
+        "utf8"
+      );
       const nextData = matter(nextContent).data;
-      nextPost = { slug: nextFile.replace(/\.md$/, ""), title: nextData.title || "Next Post" };
+      nextPost = {
+        slug: nextFile.replace(/\.md$/, ""),
+        title: nextData.title || "Next Post",
+      };
     }
 
     return { props: { postData, nextPost } };
