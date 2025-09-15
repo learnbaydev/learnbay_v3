@@ -80,7 +80,7 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group-768-min.webp",
     image4:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Mask+group+(10).webp",
-    title3: "Assured Job Assistance",
+    title3: "Dedicated Job Assistance",
     jobAssistance: [
       { icon: <BsDisplay />, text: "8-10 Interview Calls" },
       { icon: <AiOutlineContainer />, text: "Resume Building Session" },
@@ -137,7 +137,7 @@ const AIFirstPart = ({ SecondSectionData, TestimonialData }) => {
         dataScienceCounselling={true}
         interstedInHide={true}
         dataScience={true}
-        FirstTyped="Guaranteed Interview Calls"
+        FirstTyped="Job-ready with interview support"
         SecondTyped="Capstone Project Certificate"
         ThirdTyped="Live Interactive Classes"
         titleCourse="AI & ML Program for tech professionals"

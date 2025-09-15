@@ -576,7 +576,7 @@ export const NewCyberECCouncilData = [
           {
             id: 1,
             ques: "How many interview calls will I get at Learnbay?",
-            ans: "Experts joining our cyber security ethical hacking course will get endless job calls from top-tier 350+ industry partners to fast-forward stagnant careers.",
+            ans: "Experts joining our cyber security ethical hacking course will get endless job calls from top-tier 350+ leading MNCs & unicorn startups to fast-forward stagnant careers.",
             open: false,
           },
 
@@ -586,7 +586,8 @@ export const NewCyberECCouncilData = [
             ans: "Entry to mid-level IT experts with a 70% score in the course and projects can opt for Learnbay’s Career Services PRO feature. Here, you will get –",
 
             list1: "• 6 months of Career Services PRO",
-            list2: "• Job-driven 1:1 mock interviews with 350+ industry partners",
+            list2:
+              "• Job-driven 1:1 mock interviews with 350+ leading MNCs & unicorn startups",
             list3: "• Online CV-making and LinkedIn profiling sessions",
             list4: "• Promising job calls from top-notch MNCs/MAANG/FAANG",
             dscoursefaq: true,

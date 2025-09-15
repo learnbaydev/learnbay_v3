@@ -83,7 +83,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Learnbay Provides Extensive Machine Learning Certification Training Course in Pune with Assured Job Assistance Assistance. Sign-up now to excel your career."
+          content="Learnbay Provides Extensive Machine Learning Certification Training Course in Pune with Dedicated Job Assistance Assistance. Sign-up now to excel your career."
         />
         <meta
           name="keywords"
@@ -154,7 +154,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          FirstTyped="Guaranteed Interview Calls"
+          FirstTyped="Job-ready with interview support"
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           dataScience={true}

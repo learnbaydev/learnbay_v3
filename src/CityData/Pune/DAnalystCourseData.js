@@ -321,7 +321,7 @@ export const DAnalystPuneCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
+        heading: "Job-ready with interview support",
         para: "Boost career chances, gain referrals from 300+ top recruiters",
       },
       {
@@ -683,7 +683,7 @@ export const DAnalystPuneCourseData = [
           {
             id: 1,
             ques: "Do you have partnerships with companies for job placements?",
-            ans: `Learnbay has a tie-up with 450+ placement and hiring partners that include top-tier MNCs. Learners are eligible for a job assistance program for this course that mentors them to face interviews with any of the 450+ industry partners. Industry mentors prepare learners with adequate skills and mock interviews to face the competition and attain success. `,
+            ans: `Learnbay has a tie-up with 450+ placement and leading MNCs & unicorn startups that include top-tier MNCs. Learners are eligible for a job assistance program for this course that mentors them to face interviews with any of the 350+ leading MNCs & unicorn startups. Industry mentors prepare learners with adequate skills and mock interviews to face the competition and attain success. `,
             open: false,
           },
         ],

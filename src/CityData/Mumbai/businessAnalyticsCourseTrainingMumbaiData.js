@@ -320,7 +320,7 @@ export const BAMumbaiCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
+        heading: "Job-ready with interview support",
         para: "Boost career chances, gain referrals from 300+ top recruiters",
       },
       {
@@ -771,7 +771,7 @@ export const BAMumbaiCourseData = [
     JobBot1:
       "The concerned business analytics course equips more than four devoted sessions on job orientation. Such sessions include scope discussion available for industry competent business analytics professionals in Mumbai as well as abroad. Apart from that, you will find sessions on the mock interview, resume help, and online project portfolio management guidance. The Learnbay business analytics job orientation sessions aim to make you eligible for cracking any business analytics job interview at the first chance.",
     JobBot5:
-      "We own a very strong network of 200+ hiring partners across Mumbai. About 700+ Learnbay alumni are already working in the companies like Adobe, Manthan, Salesforce, JP Morgan, and Accenture.",
+      "We own a very strong network of 350+ leading MNCs & unicorn startups across Mumbai. About 700+ Learnbay alumni are already working in the companies like Adobe, Manthan, Salesforce, JP Morgan, and Accenture.",
     JobHead2:
       "You can target business analytics job roles in Mumbai after getting the IBM Business Analytics Course Completion certificate?",
     JobBot3:
@@ -800,7 +800,7 @@ export const BAMumbaiCourseData = [
     Projectsp4:
       "JP Morgan offers tax-friendly alternatives to traditional insurance policies. You can help them with projects like precise insurance premiums forecasting. Such projects can help achieve overall higher premium values by proper target marketing with the help of your random forest algorithm abilities.",
     AlumniBot1:
-      "In 2020 we had 70+ hiring partners, but our students' business analytics interview success rate has helped us expand the network with 250+ company collaborations in Mumbai now. It's not only the junior business analyst positions that our students are enjoying- rather, but 300+Learnbay alumni are also successfully handling their mid to senior-level BA job roles in several startups and MNCs across the country. ",
+      "In 2020 we had 70+ hiring partners, but our students' business analytics interview success rate has helped us expand the network with 350+ company collaborations in Mumbai now. It's not only the junior business analyst positions that our students are enjoying- rather, but 300+Learnbay alumni are also successfully handling their mid to senior-level BA job roles in several startups and MNCs across the country. ",
     Asrc1: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/devraj.jpg",
     AlumniH1: "Deveraj",
     Alumnip1:

@@ -1279,7 +1279,7 @@ export const IITCloudDevopsData = [
             id: 0,
             ques: "What is a job readiness program at Learnbay?",
 
-            ans: `A job-readiness program at Learnbay includes resume-building sessions, portfolio designing, and 1:1 mock interview preparation sessions for the experts. This program aims to help working professionals redefine their careers in relevant fields with attractive pay. The tie-ups with 450+ industry partners help the learners get their entry into the leading MNCs in their desired areas.`,
+            ans: `A job-readiness program at Learnbay includes resume-building sessions, portfolio designing, and 1:1 mock interview preparation sessions for the experts. This program aims to help working professionals redefine their careers in relevant fields with attractive pay. The tie-ups with 350+ leading MNCs & unicorn startups help the learners get their entry into the leading MNCs in their desired areas.`,
             open: true,
           },
           {
@@ -1294,10 +1294,10 @@ export const IITCloudDevopsData = [
             ans: "The Career Services PRO at Learnbay offers you the - ",
             list1:
               "Three years of job placement assistance with unlimited access to interviews and learning portals",
-            list2: "Six mock interviews with industry partners",
+            list2: "Six mock interviews with leading MNCs & unicorn startups",
             list3: "Powerful resume design to ace interviews",
             list4: "1:1 review session",
-            list5: "Unlimited interview calls",
+            list5: "Job-readiness with interview support",
             list6:
               "At the end of the course, learners will be able to get these benefits that shall equip their career with the in-demand skills to crack the interviews with the leading MNCs",
             dscoursefaq1: true,
@@ -1309,7 +1309,7 @@ export const IITCloudDevopsData = [
             ques: "How is Learnbay's Placement program different from others?",
             ans: "When you get upskilled with Learnbay's course program successfully, you become eligible for its placement program. It offers -",
             list1:
-              "Guaranteed interview calls from prime MNCs & MAANG partnered with Learnbay",
+              "Job-ready with interview support from prime MNCs & MAANG partnered with Learnbay",
             list2:
               "Capstone project certification from IBM enhances the quality of your resume.",
             list3:
@@ -1324,7 +1324,7 @@ export const IITCloudDevopsData = [
           {
             id: 4,
             ques: "Will I get job referrals at Learnbay?",
-            ans: "After successful completion of course training sessions, live projects, and other assessments provided, a learner becomes eligible to attend job interviews with our partnered industries. Here, Learnbay offers job referrals for your desired roles to its industry partners, consultancies, and companies.",
+            ans: "After successful completion of course training sessions, live projects, and other assessments provided, a learner becomes eligible to attend job interviews with our partnered industries. Here, Learnbay offers job referrals for your desired roles to its leading MNCs & unicorn startups, consultancies, and companies.",
             open: false,
           },
         ],

@@ -33,7 +33,8 @@ const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
 export default function Home() {
   const [popups, setPopups] = useState(false);
 
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Advance-Cyber-security.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Advance-Cyber-security.pdf";
   return (
     <div className={styles.container}>
       <Head>
@@ -52,10 +53,7 @@ export default function Home() {
           property="og:url"
           content="https://www.learnbay.co/cyber-security/india/cyber-security-course-training-in-bangalore"
         />
-        <meta
-          property="og:title"
-          content="Cyber Security "
-        />
+        <meta property="og:title" content="Cyber Security " />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="article" />
         <meta
@@ -113,7 +111,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          FirstTyped="Guaranteed Interview Calls"
+          FirstTyped="Job-ready with interview support"
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           cityParaCont="Become a cyber security expert to protect diversified sensitive data and corporate assets from vicious attacks. Level up your responsiveness and powers via our cyber security course in Bangalore and attain a career edge."

@@ -199,7 +199,7 @@ export const CloudPune = {
       name: "What distinguishes this cloud computing course in Pune from others in the market?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Learnbay’s cloud program in Pune offers distinct career honors in comparison with others in the industry. Take a look at the significant course highlights – Inclusively curated syllabus covering AWS, Microsoft Azure, and GCP Unlimited Interview calls from any of 450+ industry partners  Globally recognized course and project certificates from IBM & Microsoft 1:1 live instructor-led sessions with industry experts On-demand 1:1 video doubt-clearing assistance Personalized resume preparation and LinkedIn profiling",
+        text: "Learnbay’s cloud program in Pune offers distinct career honors in comparison with others in the industry. Take a look at the significant course highlights – Inclusively curated syllabus covering AWS, Microsoft Azure, and GCP Job-readiness with interview support from any of 350+ leading MNCs & unicorn startups  Globally recognized course and project certificates from IBM & Microsoft 1:1 live instructor-led sessions with industry experts On-demand 1:1 video doubt-clearing assistance Personalized resume preparation and LinkedIn profiling",
       },
     },
     {
@@ -207,7 +207,7 @@ export const CloudPune = {
       name: "Can you provide details on the job assistance provided after completing the Cloud Computing Certification Course in Pune?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Techies joining cloud computing institute in Pune for upskilling shall receive 100% job and placement support. Eligible learners (at least 70% scores in projects and tasks) get uncompromised job assistance at Learnbay. Our Career Services PRO offers – Endless Job and Placement Support Unlimited access to learning materials 1:1 Mock Interview prep with any of 450+ industry partners 24/7 contact with Mentors (training and project-related) Resume Building 1:1 LinkedIn Review Session Dedicated Placement Team for soft skills training",
+        text: "Techies joining cloud computing institute in Pune for upskilling shall receive 100% job and placement support. Eligible learners (at least 70% scores in projects and tasks) get uncompromised job assistance at Learnbay. Our Career Services PRO offers – Endless Job and Placement Support Unlimited access to learning materials 1:1 Mock Interview prep with any of 350+ leading MNCs & unicorn startups 24/7 contact with Mentors (training and project-related) Resume Building 1:1 LinkedIn Review Session Dedicated Placement Team for soft skills training",
       },
     },
     {
@@ -231,7 +231,7 @@ Globally recognized certifications (IBM & Microsoft)`,
         text: `Learnbay’s Career Services Pro aspires to sustain successful career growth in a preferred role with substantial gains. Elite features of Career Services PRO are –
 
 Three years of Endless Placement Aid
-Six 1:1 Mock Interviews with Industry Partners 
+Six 1:1 Mock Interviews with leading MNCs & unicorn startups 
 Resume Preparation Session
 1:1 LinkedIn Profiling Session
 Dedicated Placement Team

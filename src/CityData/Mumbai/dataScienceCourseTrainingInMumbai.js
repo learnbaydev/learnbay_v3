@@ -225,14 +225,7 @@ export const DataScienceMumbaiCourseData = [
             text: "Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies.",
           },
         },
-        {
-          "@type": "Question",
-          name: "What is an interview guarantee feature?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.",
-          },
-        },
+
         {
           "@type": "Question",
           name: "Until when do the students get the facility of mentorship?",
@@ -335,8 +328,8 @@ export const DataScienceMumbaiCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -709,12 +702,6 @@ export const DataScienceMumbaiCourseData = [
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
             open: false,
           },
-          {
-            id: 4,
-            ques: "What is an interview guarantee feature?",
-            ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.`,
-            open: false,
-          },
         ],
       },
       {
@@ -802,8 +789,8 @@ export const DataScienceMumbaiCourseData = [
         produced daily, corporations largely depend on data science, and Mumbai
         is quickly becoming one of India's top job hubs. As a result, Mumbai
         offers a variety of opportunities for{" "}
-        <b>online data science training</b>. However, when securing guaranteed
-        Job Assistance, the list of reliable options becomes shorter. Moreover,
+        <b>online data science training</b>. However, when securing Job
+        Assistance, the list of reliable options becomes shorter. Moreover,
         considering the cost-effectiveness of the course, the list of reliable
         options shrinks even further.
       </span>
@@ -1511,16 +1498,16 @@ export const DataScienceMumbaiCourseData = [
     JobBot1:
       "While enrolling in any course or program, there is always thought persisting in learners about the jobs and placement after the course completion. So, here the job assistance program comes to play.",
     JobBot2:
-      "Learnbay has introduced the Job assist program, which helps students in assisting in placements. Additionally, it also includes guaranteed interview calls for learners in a few courses.",
+      "Learnbay has introduced the Job assist program, which helps students in assisting in placements. Additionally, it also includes Job-ready with interview support for learners in a few courses.",
     JobHead2: "How does the Job assistance program work?",
     JobBot3:
       "Job assistance program helps in interview preparation through mock interviews and tests. Apart from that, the top instructor from Learnbay helps in the preparation of a proficient portfolio and CV that allows learners to achieve satisfactory results in data science interviews.",
     JobBot4:
-      "Learnbay has partnered with 250+ companies that include top MNCs and startups across the globe. Additionally, we have a dedicated placement cell that helps in prioritizing the smooth career transition for working professionals. Because of Learnbay’s job assistance program, most of the successful alumni are hired in their desired firm one month prior to course completion.",
+      "Learners working at 350+ companies include top MNCs and startups across the globe. Additionally, we have a dedicated placement cell that helps in prioritizing the smooth career transition for working professionals. Because of Learnbay’s job assistance program, most of the successful alumni are hired in their desired firm one month prior to course completion.",
     JobHead3:
       "What is special about Learnbay’s data science interview preparation sessions?",
     JobBot7:
-      "Learnbay offers a 1:1 mock interview round, with the industry and PRODUCT Based Companies experts, which helps them to get prepared for the actual interviews. Apart from that, the learners are offered guaranteed ten interview calls after the successful completion of the course.",
+      "Learnbay offers a 1:1 mock interview round, with the industry and PRODUCT Based Companies experts, which helps them to get prepared for the actual interviews. Apart from that, the learners are offered ten interview calls after the successful completion of the course.",
     ProjectsHead1: "Why are projects important?",
     ProjectsBot1:
       "Projects act as a crucial foundation for an addition to any data science courses. It facilitates learning new procedures and technology for working professionals. Learnbay offers live industrial data science projects, where you can choose any projects from the listed 15+ domains.",

@@ -31,34 +31,23 @@ const Footer = dynamic(() =>
 );
 const FAQNew = dynamic(() => import("../../../components/Seo/FAQNew/FAQNew"));
 export default function Home() {
-  const pdfUrl = "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf";
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf";
   return (
     <div className={styles.container}>
       <Head>
         <title>Testing</title>
         <meta name="robots" content="noindex, nofollow" />
-        <meta
-          name="description"
-          content="testing"
-        />
-        <meta
-          name="keywords"
-          content="testing"
-        />
+        <meta name="description" content="testing" />
+        <meta name="keywords" content="testing" />
         <meta
           property="og:url"
           content="https://www.learnbay.co/datascience/singapore/testing"
         />
-        <meta
-          property="og:title"
-          content="Testing"
-        />
+        <meta property="og:title" content="Testing" />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="article" />
-        <meta
-          property="og:description"
-          content="Testing"
-        />
+        <meta property="og:description" content="Testing" />
         <meta
           property="og:image"
           content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
@@ -67,19 +56,10 @@ export default function Home() {
         <meta property="og:image:width" content="256" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@Learnbay" />
-        <meta
-          name="twitter:title"
-          content="Testing"
-        />
+        <meta name="twitter:title" content="Testing" />
         <meta name="twitter:creator" content="@Learnbay" />
-        <meta
-          itemProp="description"
-          content="testing"
-        />
-        <meta
-          name="twitter:description"
-          content="testing"
-        />
+        <meta itemProp="description" content="testing" />
+        <meta name="twitter:description" content="testing" />
         <meta
           name="twitter:image"
           content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
@@ -101,7 +81,7 @@ export default function Home() {
         {" "}
         <Navbar popup={true} dataScience={true} interstedInHide={true} />
         <FirstSectionCopy
-          FirstTyped="Guaranteed Interview Calls"
+          FirstTyped="Job-ready with interview support"
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           dataScience={true}

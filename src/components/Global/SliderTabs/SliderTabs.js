@@ -20,7 +20,7 @@ const SliderTabs = ({
       icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/career1.webp",
       content: [
         "Unleash your career potential with unlimited job access, interview support, and profile review.",
-        "Receive unlimited interview calls from a diverse pool of interested employers/recruiters until you successfully secure a job.",
+        "Receive Job-readiness with interview support from a diverse pool of interested employers/recruiters until you successfully secure a job.",
         "Find the best suited job role that meets your career and salary expectations.",
       ],
     },
@@ -43,10 +43,10 @@ const SliderTabs = ({
       ],
     },
     {
-      title: "Unlimited Interview Calls",
+      title: "Job-readiness with interview support",
       icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/career4.webp",
       content: [
-        "LearnBay's promise of unlimited interview calls.",
+        "LearnBay's promise of Job-readiness with interview support.",
         "Continuous interview opportunities.",
         "Open-ended access to potential employers.",
       ],

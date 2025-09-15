@@ -14,8 +14,8 @@ export const DSNoidaCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -318,12 +318,6 @@ export const DSNoidaCourseData = [
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
             open: false,
           },
-          {
-            id: 4,
-            ques: "What is an interview guarantee feature?",
-            ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.`,
-            open: false,
-          },
         ],
       },
       {
@@ -537,7 +531,7 @@ export const DSNoidaCourseData = [
     JobBot007:
       "Upskilling with Learnbay unlocks a global-level career path with exciting gains. Experts from various fields join us to gain Gen AI-rich upskilling to face the changing digital era. Here, you will gain uninterrupted learning of vital tools from our esteemed mentors with years of experience in relevant fields. Apart from abstract learning, experts gain practical experience with tools to drive optimal business yields.",
     JobBot005:
-      "Our association with IBM & Microsoft helps experts build a global-scale data science career with promising growth options. Our certificates are career-worthy as they validate your skills and help you crack top-tier roles. Our industry partnership with 450+ companies and endless career support services brings proven success. ",
+      "Our association with IBM & Microsoft helps experts build a global-scale data science career with promising growth options. Our certificates are career-worthy as they validate your skills and help you crack top-tier roles. Our leading MNCs & unicorn startupship with 450+ companies and endless career support services brings proven success. ",
     JobBot006: " ",
     JobHead22:
       "What career-driven roles can you land with Learnbay’s data scientist course in Noida?",

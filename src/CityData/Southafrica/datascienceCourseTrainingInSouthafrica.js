@@ -14,8 +14,8 @@ export const DSSouthAfricaCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -388,12 +388,6 @@ export const DSSouthAfricaCourseData = [
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
             open: false,
           },
-          {
-            id: 4,
-            ques: "What is an interview guarantee feature?",
-            ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed. Terms and conditions applied`,
-            open: false,
-          },
         ],
       },
       {
@@ -555,7 +549,7 @@ export const DSSouthAfricaCourseData = [
     JobBot21:
       "Learnbay’s data science course in South Africa offers comprehensive training with practical insights. Experts gain a 360-degree knowledge-building platform with steady career support. Renowned faculties from MNCs deliver insights into real-world business issues and guide you with proven results.       ",
     JobBot22:
-      " Further, 24/7 doubt-clearing sessions support skills refinement to cope with today’s cut-throat career races. Our 450+ industry partners craft a successful way toward data-driven career rise with alluring hikes. This makes us the best institute for data science aligned with industry metrics.       ",
+      " Further, 24/7 doubt-clearing sessions support skills refinement to cope with today’s cut-throat career races. Our 350+ leading MNCs & unicorn startups craft a successful way toward data-driven career rise with alluring hikes. This makes us the best institute for data science aligned with industry metrics.       ",
     JobBot30:
       "Thus, enrolling in Learnbay’s data science online course South Africa is worthy of a career rise.       ",
     JobBot23: "Unique career gains with Learnbay are –",

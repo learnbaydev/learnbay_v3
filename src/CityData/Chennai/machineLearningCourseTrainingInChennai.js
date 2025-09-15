@@ -408,7 +408,7 @@ export const MachineLearningChennaiCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Unlimited Interview Calls",
+        heading: "Job-readiness with interview support",
         para: "Boost career chances, gain referrals from 300+ top recruiters",
       },
       {
@@ -925,7 +925,7 @@ export const MachineLearningChennaiCourseData = [
     JobBot1:
       "Learnbay’s machine learning Job Assistance program is an assistance provided by various sources to job seekers from all walks of life. Job assistance in machine learning certification includes career counseling, talent assessment, and communication assessment. Moreover, it involves assistance with resume writing, portfolio building, and 1:1 mock interviews as per the candidate screening standard of top MNCs in Chennai.",
     JobBot2:
-      "This prime feature of Learnbay has helped countless machine learning enthusiasts crack the interviews and get placed in several startups and multinational organizations such as Oracle, SAP, Salesforce, etc. Following that, our Job Assistance officials assist job seekers in finding relevant job roles and preparing for interviews. After the completion of the IBM machine learning course, your IBM and other certificates get unlocked, and you'll be prepared to ace the machine learning interviews. We have a channel of 250+ hiring partners.",
+      "This prime feature of Learnbay has helped countless machine learning enthusiasts crack the interviews and get placed in several startups and multinational organizations such as Oracle, SAP, Salesforce, etc. Following that, our Job Assistance officials assist job seekers in finding relevant job roles and preparing for interviews. After the completion of the IBM machine learning course, your IBM and other certificates get unlocked, and you'll be prepared to ace the machine learning interviews. We have a channel of Learners working at 350+ companies",
     JobHead2: "Machine learning and its demand in Chennai",
     JobBot3:
       "Machine learning is a subset of artificial intelligence that enables software programs to increase their predicted accuracy. It is the study of computer algorithms that can improve themselves spontaneously as a result of experience and data usage.",

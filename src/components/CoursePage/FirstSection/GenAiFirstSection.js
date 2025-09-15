@@ -44,17 +44,17 @@ const GenAiFirstSection = ({
   logoHeight,
   noLogoDemo,
   cyberTitle,
-  cyberTitleSpan
+  cyberTitleSpan,
 }) => {
   const texts = [
-    "Guaranteed Interview Calls",
+    "Job-ready with interview support",
     "1:1 Doubt Session",
     "IBM Project Certification",
     "Designed for Professionals",
   ];
 
   const textfresher = [
-    "Guaranteed Interview Calls",
+    "Job-ready with interview support",
     "1:1 Doubt Session",
     "6 Months Internship Certificate",
     "Final Year Project Assistance",
@@ -140,11 +140,8 @@ const GenAiFirstSection = ({
           <p className={styles.ptopC}>{firstTopPara}</p>
           {cyber ? (
             <h1 className={styles.cyberH1}>
-              <span className={styles.cyberspan}>
-                {" "}
-               {cyberTitle} {" "}
-              </span>
-            {cyberTitleSpan}  
+              <span className={styles.cyberspan}> {cyberTitle} </span>
+              {cyberTitleSpan}
             </h1>
           ) : (
             <h1 className={styles.h1}>
@@ -195,62 +192,69 @@ const GenAiFirstSection = ({
               ) : (
                 <>
                   <div className={ibmOnly ? styles.DAibm : styles.Desktop}>
-                  {noLogoDemo ? (null):(<>  {IIT ? (
+                    {noLogoDemo ? null : (
                       <>
                         {" "}
-                        <p className={styles.ptop}>
-                          In Collaboration With
-                        </p>{" "}
-                        <Image
-                          src={compLogo}
-                          width={logoWidth}
-                          height={logoHeight}
-                          priority
-                          alt="data science course"
-                        />
-                      </>
-                    ) : (
-                      <>
-                        {" "}
-                        <>
-                          <p className={styles.ptop}>
-                            Degree & Certification(s)
-                          </p>
-                          <div className={styles.ImageBlock}>
+                        {IIT ? (
+                          <>
+                            {" "}
+                            <p className={styles.ptop}>
+                              In Collaboration With
+                            </p>{" "}
                             <Image
-                              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/DS-only.webp"
-                              width="430"
-                              height="44"
+                              src={compLogo}
+                              width={logoWidth}
+                              height={logoHeight}
                               priority
                               alt="data science course"
                             />
-                          </div>
-                        </>
-                        <>
-                          {" "}
-                          <p className={styles.ptop}>In Collaboration With</p>
-                          <div className={styles.ImageBlock}>
-                            {ibmOnly ? (
-                              <Image
-                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ibmnew.webp"
-                                width="70"
-                                height="30"
-                                priority
-                                alt="data science course"
-                              />
-                            ) : (
-                              <Image
-                                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp"
-                                width="266"
-                                height="48"
-                                priority
-                                alt="data science course"
-                              />
-                            )}
-                          </div>
-                        </>
+                          </>
+                        ) : (
+                          <>
+                            {" "}
+                            <>
+                              <p className={styles.ptop}>
+                                Degree & Certification(s)
+                              </p>
+                              <div className={styles.ImageBlock}>
+                                <Image
+                                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/DS-only.webp"
+                                  width="430"
+                                  height="44"
+                                  priority
+                                  alt="data science course"
+                                />
+                              </div>
+                            </>
+                            <>
+                              {" "}
+                              <p className={styles.ptop}>
+                                In Collaboration With
+                              </p>
+                              <div className={styles.ImageBlock}>
+                                {ibmOnly ? (
+                                  <Image
+                                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ibmnew.webp"
+                                    width="70"
+                                    height="30"
+                                    priority
+                                    alt="data science course"
+                                  />
+                                ) : (
+                                  <Image
+                                    src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp"
+                                    width="266"
+                                    height="48"
+                                    priority
+                                    alt="data science course"
+                                  />
+                                )}
+                              </div>
+                            </>
+                          </>
+                        )}
                       </>
-                    )}</>)}
+                    )}
                   </div>
                 </>
               )}
@@ -297,7 +301,7 @@ const GenAiFirstSection = ({
                                 />
                               </defs>
                             </svg>
-                            Guaranteed Interview Calls
+                            Job-ready with interview support
                           </div>
                         </span>
                       </div>
@@ -405,50 +409,67 @@ const GenAiFirstSection = ({
         {mobile ? (
           <>
             <div className={styles.Mobile}>
-             {cyber ? (<>
-              <p className={styles.ptoptwo}>In Collaboration With</p>{" "}
-                  <div className={styles.ImageBlock}>
-                  <Image
-                    src={compLogo}
-                    width={logoWidth}
-                    height={logoHeight}
-                    priority
-                    alt="data science course"
-                  />
-                  </div></>):(<> {noLogoDemo ? (""):(<> {IIT ? (
+              {cyber ? (
                 <>
                   <p className={styles.ptoptwo}>In Collaboration With</p>{" "}
                   <div className={styles.ImageBlock}>
-                  <Image
-                          src={compLogo}
-                          width={logoWidth}
-                          height={logoHeight}
-                          priority
-                          alt="data science course"
-                        />
+                    <Image
+                      src={compLogo}
+                      width={logoWidth}
+                      height={logoHeight}
+                      priority
+                      alt="data science course"
+                    />
                   </div>
                 </>
               ) : (
-                <div className={styles.ImageBlock}>
-                  {ibmOnly ? (
-                    <Image
-                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ibmnew.webp"
-                      width="70"
-                      height="30"
-                      priority
-                      alt="data science course"
-                    />
+                <>
+                  {" "}
+                  {noLogoDemo ? (
+                    ""
                   ) : (
-                    <Image
-                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp"
-                      width="250"
-                      height="40"
-                      priority
-                      alt="data science course"
-                    />
+                    <>
+                      {" "}
+                      {IIT ? (
+                        <>
+                          <p className={styles.ptoptwo}>
+                            In Collaboration With
+                          </p>{" "}
+                          <div className={styles.ImageBlock}>
+                            <Image
+                              src={compLogo}
+                              width={logoWidth}
+                              height={logoHeight}
+                              priority
+                              alt="data science course"
+                            />
+                          </div>
+                        </>
+                      ) : (
+                        <div className={styles.ImageBlock}>
+                          {ibmOnly ? (
+                            <Image
+                              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/ibmnew.webp"
+                              width="70"
+                              height="30"
+                              priority
+                              alt="data science course"
+                            />
+                          ) : (
+                            <Image
+                              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm%26microsoft.webp"
+                              width="250"
+                              height="40"
+                              priority
+                              alt="data science course"
+                            />
+                          )}
+                        </div>
+                      )}
+                    </>
                   )}
-                </div>
-              )}</>)}</>)}
+                </>
+              )}
               {isGuwahati ? (
                 <div className={styles.twodiv}>
                   <div className={styles.divone}>

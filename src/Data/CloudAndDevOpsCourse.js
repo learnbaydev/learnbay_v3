@@ -14,8 +14,8 @@ export const CloudAndDevOpsCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -753,7 +753,7 @@ export const CloudAndDevOpsCourseData = [
           {
             id: 7,
             ques: "How does the program get updated with the recent developments in Cloud technology and DevOps practices?            ",
-            ans: "Learnbay follows each significant industrial/job market incident across the global IT sector and its impacts on specific job roles. Quality industry research, networking with industry experts, and tie-ups with industry partners keep us updated with the latest trends in Cloud and DevOps practices. In the same way, our course syllabus has been revamped as per the recent developments with AWS, Microsoft Azure, and GCP.             ",
+            ans: "Learnbay follows each significant industrial/job market incident across the global IT sector and its impacts on specific job roles. Quality industry research, networking with industry experts, and tie-ups with leading MNCs & unicorn startups keep us updated with the latest trends in Cloud and DevOps practices. In the same way, our course syllabus has been revamped as per the recent developments with AWS, Microsoft Azure, and GCP.             ",
             open: false,
           },
           {
@@ -904,8 +904,7 @@ export const CloudAndDevOpsCourseData = [
             ans: "Learnbay believes in real-time upskilling to enrich the existing skill sets and attain career success. Its Cloud Computing and DevOps Certification Program is different from others in the following ways –            ",
             list1:
               "Industry-driven syllabus with AWS, Microsoft Azure, and GCP            ",
-            list2:
-              "Guaranteed calls for Interviews from Industry partners             ",
+            list2: "Job-ready training & interview support             ",
             list3: "Globally recognized project certification from IBM",
             list4: "Domain-specific training             ",
             list5:

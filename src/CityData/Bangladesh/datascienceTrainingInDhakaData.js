@@ -14,8 +14,8 @@ export const DSDhakaCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -388,12 +388,6 @@ export const DSDhakaCourseData = [
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
             open: false,
           },
-          {
-            id: 4,
-            ques: "What is an interview guarantee feature?",
-            ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed. Terms and conditions applied`,
-            open: false,
-          },
         ],
       },
       {
@@ -565,7 +559,7 @@ export const DSDhakaCourseData = [
     JobBot39: "Career Service PRO includes –         ",
     Joblist14: "Constant job and placement services for three years         ",
     Joblist15:
-      "1:1 mock interviews with any six of the 450+ industry partners       ",
+      "1:1 mock interviews with any six of the 350+ leading MNCs & unicorn startups       ",
     Joblist16: "LinkedIn profile revision      ",
     Joblist17:
       "Resume optimization    and Unlimited job calls across the MNCs in Dhaka and overseas       ",

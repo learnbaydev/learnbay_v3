@@ -448,7 +448,7 @@ const Accordion = () => {
           <p>
             Experts eager to re-establish their careers with premium gains must
             enroll in the best{" "}
-            <b>data science course with placement guarantee.</b> We envision a
+            <b>data science course with placement support.</b> We envision a
             successful career change with alluring growth offers. Apart from
             tech skills, our job assist program focuses on soft and behavioral
             skill development. Mentors guide our learners through their
@@ -463,7 +463,9 @@ const Accordion = () => {
             <li>
               1:1 doubt-clearing with mentors (Course and Project-related){" "}
             </li>
-            <li>Six 1:1 mock interviews (450+ industry partners)</li>
+            <li>
+              Six 1:1 mock interviews (350+ leading MNCs & unicorn startups)
+            </li>
             <li>Three years of job support/Resume building</li>
             <li>Endless job calls from leading MNCs</li>
             <li>LinkedIn profile review </li>
@@ -471,10 +473,10 @@ const Accordion = () => {
           <br />
           <p>
             Unlike generic courses, we are moving on our path toward proven
-            career shifts. A data science course with placement guarantee
-            unlocks true career potential for experts with stagnancy. With our
-            programs, you can unlock alluring job roles of data scientists, data
-            analysts, data engineers, etc.{" "}
+            career shifts. A data science course with placement support unlocks
+            true career potential for experts with stagnancy. With our programs,
+            you can unlock alluring job roles of data scientists, data analysts,
+            data engineers, etc.{" "}
           </p>
         </>
       ),
@@ -578,7 +580,9 @@ const Accordion = () => {
                   alt="img"
                   loading="lazy"
                 />
-               <p className={styles.headline}>Amazon Customer Review Analysis</p>
+                <p className={styles.headline}>
+                  Amazon Customer Review Analysis
+                </p>
               </div>
               <div>
                 <p>
@@ -600,7 +604,9 @@ const Accordion = () => {
                   alt="img"
                   loading="lazy"
                 />
-                <p className={styles.headline}>BMW Used Car Price Optimization</p>
+                <p className={styles.headline}>
+                  BMW Used Car Price Optimization
+                </p>
               </div>
               <div>
                 <p>
@@ -613,14 +619,35 @@ const Accordion = () => {
                   your analytical skills through such projects.
                 </p>
               </div>
-             
             </div>
-            
           </div>
-          <Link href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf" target="_blank">
-          <div style={{display:"flex", justifyContent:"center", alignContent:"center", alignItems:"center", cursor:"pointer"}}>
-          <button  style={{fontSize:"12px", padding:"10px 16px", background:"#0072bc", border:"none", color:"#fff", borderRadius:"6px", cursor:"pointer" }} >View All Projects</button>
-          </div>
+          <Link
+            href="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/learnbay/Data+Science+and+AI+Projects.pdf"
+            target="_blank"
+          >
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignContent: "center",
+                alignItems: "center",
+                cursor: "pointer",
+              }}
+            >
+              <button
+                style={{
+                  fontSize: "12px",
+                  padding: "10px 16px",
+                  background: "#0072bc",
+                  border: "none",
+                  color: "#fff",
+                  borderRadius: "6px",
+                  cursor: "pointer",
+                }}
+              >
+                View All Projects
+              </button>
+            </div>
           </Link>
         </>
       ),
@@ -664,8 +691,11 @@ const Accordion = () => {
             {/* <div className={styles.leftSide}>
             <h2>{section.leftSideHeadline}</h2>
           </div> */}
-            <div className={`${styles.rightSide}${activeIndex === index && styles.active}`}>
-            
+            <div
+              className={`${styles.rightSide}${
+                activeIndex === index && styles.active
+              }`}
+            >
               <button
                 className={`${styles.accordionButton} ${
                   activeIndex === index && styles.active

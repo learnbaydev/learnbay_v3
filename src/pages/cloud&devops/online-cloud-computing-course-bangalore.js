@@ -134,7 +134,7 @@ export default function Home() {
         {" "}
         <Navbar popup={true} dataScience={true} interstedInHide={true} />
         <FirstSection
-          FirstTyped="Guaranteed Interview Calls"
+          FirstTyped="Job-ready with interview support"
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           titleCourse="Best Online Cloud Computing Course in Bangalore"

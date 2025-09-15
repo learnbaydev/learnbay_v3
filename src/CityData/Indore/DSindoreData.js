@@ -14,8 +14,8 @@ export const DSinodreCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -318,12 +318,6 @@ export const DSinodreCourseData = [
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
             open: false,
           },
-          {
-            id: 4,
-            ques: "What is an interview guarantee feature?",
-            ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.`,
-            open: false,
-          },
         ],
       },
       {
@@ -522,7 +516,7 @@ export const DSinodreCourseData = [
 
     JobHeadIndia01: "         ",
     JobBot22:
-      "Learnbay offers unique data science course fees in Indore, a cutting-edge course module, and a placement guarantee. Our training programs can help experts remove various career hurdles, achieve professional growth, and provide constant job support for career success.",
+      "Learnbay offers unique data science course fees in Indore, a cutting-edge course module, and a placement support. Our training programs can help experts remove various career hurdles, achieve professional growth, and provide constant job support for career success.",
     JobHeadIndia01: "        ",
     JobBot23:
       "Note: Here, enjoy extended job placement support for three years even after completing the course programs. Additionally, our 24/7 experts are there to help with any training-related queries.",
@@ -540,7 +534,7 @@ export const DSinodreCourseData = [
     JobBot007:
       "The data science coaching in Indore program offers Gen AI-rich training courses with global career paths. Experts have the privilege of working on capstone projects in chosen domains. This assists experts in learning real-world business issues and solving them effectively.",
     JobBot005:
-      "In addition, we offer an accredited big data course in Indore, endorsed by IBM and MS. Our 450+ industry partners will help you crack product/service-based jobs with leading MNCs. ",
+      "In addition, we offer an accredited big data course in Indore, endorsed by IBM and MS. Our 350+ leading MNCs & unicorn startups will help you crack product/service-based jobs with leading MNCs. ",
     JobBot006: " ",
     JobHead22:
       "What jobs are possible with Learnbay’s data science course in Indore?",

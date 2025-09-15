@@ -384,7 +384,7 @@ export const MLDubaiCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Unlimited Interview Calls",
+        heading: "Job-readiness with interview support",
         para: "Boost career chances, gain referrals from 300+ top recruiters",
       },
       {
@@ -794,16 +794,6 @@ export const MLDubaiCourseData = [
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies.`,
             open: false,
           },
-          {
-            id: 3,
-            ques: "What is an interview guarantee feature?",
-            ans: `In case you choose the Job or 100% money-back certification course then you can access this added facility. If you don’t get a job within 6 months of your course completion, we will initiate a full refund of your course fees. Note: `,
-            linkText1: " Terms and conditions ",
-            link1: "/terms-conditions ",
-            ansAfter: "applied.",
-            link: true,
-            open: false,
-          },
         ],
       },
       {
@@ -855,7 +845,7 @@ export const MLDubaiCourseData = [
     ProgramBot32:
       "Learnbay even supports learners coming from non-IT backgrounds by arranging additional programming classes. They also host a variety of webinars and hackathons to help pupils learn efficiently.",
     ProgramBot4:
-      "Additionally, you can even get a guarantee placement assistance in specific artificial intelligence certification programs.",
+      "Additionally, you can even get a placement assistance in specific artificial intelligence certification programs.",
     ProgramBot5:
       "Available Artificial Intelligence Certification Courses by Learnbay in Dubai:",
     Courselink1: "/data-science-certification-courses",
@@ -943,7 +933,7 @@ export const MLDubaiCourseData = [
 
     JobHead1: "Job support program of artificial intelligence course:",
     JobBot1:
-      "Learnbay has a channel of 250+ hiring partners in Dubai and all over the world. It has helped countless AI and ML enthusiasts crack difficult interviews with our job assistance feature. This assistance includes portfolio building and soft skills training workshops. Our placement experts help them in finding the relevant AI job roles and prepare them accordingly. They also conduct personalized mock interviews as per the candidate's screening process of top MNCs and Dubai-based companies.",
+      "Learnbay has a channel of 350+ company collabrations in Dubai and all over the world. It has helped countless AI and ML enthusiasts crack difficult interviews with our job assistance feature. This assistance includes portfolio building and soft skills training workshops. Our placement experts help them in finding the relevant AI job roles and prepare them accordingly. They also conduct personalized mock interviews as per the candidate's screening process of top MNCs and Dubai-based companies.",
     JobBot2:
       "If you are not placed within 6 months of course completion, you may request a refund of your AI course fee under Learnbay's 100% job assistance program.",
     JobHead2: "Future of AI in Dubai",

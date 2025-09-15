@@ -120,7 +120,7 @@ export default function Home() {
           </div>
         </Popup>
         <FirstSection
-          FirstTyped="Guaranteed Interview Calls"
+          FirstTyped="Job-ready with interview support"
           SecondTyped="Capstone Project Certificate"
           ThirdTyped="Live Interactive Classes"
           cityParaCont="Propel global-scale success with our Generative AI-rich data science course in Hyderabad. Earn prestigious IBM & Microsoft certificates to reshape your career and validate job-driven skills – from Python basics to Advanced AI. Make resilient career advances with our seasoned experts' aid and thrive globally. "

@@ -14,8 +14,8 @@ export const DSUSACourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -388,12 +388,6 @@ export const DSUSACourseData = [
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
             open: false,
           },
-          {
-            id: 4,
-            ques: "What is an interview guarantee feature?",
-            ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed. Terms and conditions applied`,
-            open: false,
-          },
         ],
       },
       {
@@ -552,7 +546,7 @@ export const DSUSACourseData = [
     JobBot20:
       "Learners in the USA will have the opportunity for 100% placement assistance with Learnbay’s data science course. We offer ‘Career Service Pro’ benefits to eligible learners (one with at least 70% score in assessments). Under this job assist program you will gain –      ",
     Joblist14: "3 years of job assistance with premium job offers      ",
-    Joblist15: "6 mock interviews with industry partners       ",
+    Joblist15: "6 mock interviews with leading MNCs & unicorn startups       ",
     Joblist16: "Resume Build up      ",
     Joblist17: "LinkedIn Profile Review       ",
     JobHead21: "Why opt for Learnbay’s Data science programs in USA?     ",

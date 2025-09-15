@@ -63,6 +63,6 @@ export const PlacementMasters = [
   {
     id: 4,
     img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/4.png",
-    desc: "Get unlimited interview calls",
+    desc: "Get Job-readiness with interview support",
   },
 ];

@@ -14,8 +14,8 @@ export const DSUKCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -388,12 +388,6 @@ export const DSUKCourseData = [
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
             open: false,
           },
-          {
-            id: 4,
-            ques: "What is an interview guarantee feature?",
-            ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed. Terms and conditions applied`,
-            open: false,
-          },
         ],
       },
       {
@@ -561,13 +555,13 @@ export const DSUKCourseData = [
     JobBot20:
       "The UK has a wider scope of career success and growth options for data aspirants from diverse sectors. Thus, experts opt for industry-driven course programs to redefine their careers on a global scale with prime job offers.       ",
     JobBot003:
-      "We offer a data science course with placement guarantee for all eligible learners (scoring at least 70% in assessments). Career Service Pro offers every possible job assistance – from 1:1 doubt-clearing to LinkedIn profile review.       ",
+      "We offer a data science course with placement support for all eligible learners (scoring at least 70% in assessments). Career Service Pro offers every possible job assistance – from 1:1 doubt-clearing to LinkedIn profile review.       ",
     JobBot39: "It includes –      ",
     Joblist14: "Three years of smooth job and placement support       ",
     Joblist15:
-      "Six mock interviews lined up with our industry partners (any of the 450+ partners)      ",
+      "Six mock interviews lined up with our leading MNCs & unicorn startups (any of the 450+ partners)      ",
     Joblist16: "Resume Buildup and LinkedIn Profile Review    ",
-    Joblist17: " Unlimited job calls from MNCs in the UK and overseas",
+    Joblist17: "Job calls from MNCs in the UK and overseas",
 
     JobHead30:
       "Is Learnbay’s data science course in UK worthy of career rise?    ",

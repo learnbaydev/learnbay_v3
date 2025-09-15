@@ -15,8 +15,8 @@ export const DABAData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -261,7 +261,7 @@ export const DABAData = [
             },
             {
               chap: {
-                 title: "Data Cleaning and Preparation in Excel",
+                title: "Data Cleaning and Preparation in Excel",
                 desc: [
                   "Data Importing and Exporting",
                   "Handling Missing Data",
@@ -271,7 +271,7 @@ export const DABAData = [
             },
             {
               chap: {
-                 title: "Data Analysis with Excel",
+                title: "Data Analysis with Excel",
                 desc: [
                   "Descriptive Statistics (Mean, Median, Mode)",
                   "Using Excel for Statistical Analysis",
@@ -281,7 +281,7 @@ export const DABAData = [
             },
             {
               chap: {
-                 title: "Advanced Excel Functions",
+                title: "Advanced Excel Functions",
                 desc: [
                   "Lookup Functions (VLOOKUP, HLOOKUP)",
                   "Conditional Functions (IF, SUMIF, COUNTIF)",
@@ -291,7 +291,7 @@ export const DABAData = [
             },
             {
               chap: {
-                 title: "Data Visualization with Excel",
+                title: "Data Visualization with Excel",
                 desc: [
                   "Creating Charts and Graphs (Bar, Line, Pie)",
                   "Advanced Charting Techniques",
@@ -301,7 +301,7 @@ export const DABAData = [
             },
             {
               chap: {
-                 title: "PivotTables and PivotCharts",
+                title: "PivotTables and PivotCharts",
                 desc: [
                   "Creating and Using PivotTables",
                   "Analyzing Data with PivotCharts",
@@ -311,7 +311,7 @@ export const DABAData = [
             },
             {
               chap: {
-                 title: "Data Automation in Excel",
+                title: "Data Automation in Excel",
                 desc: [
                   "Using Macros for Automation",
                   "Introduction to VBA (Visual Basic for Applications)",
@@ -321,7 +321,7 @@ export const DABAData = [
             },
             {
               chap: {
-                 title: "Project Management in Excel",
+                title: "Project Management in Excel",
                 desc: [
                   "Creating Project Plans and Timelines",
                   "Tracking Progress with Gantt Charts",
@@ -332,7 +332,7 @@ export const DABAData = [
             },
             {
               chap: {
-                 title: "Case Studies and Applications",
+                title: "Case Studies and Applications",
                 desc: [
                   "Real-world Applications of Excel",
                   "Case Studies from Various Industries",
@@ -615,11 +615,7 @@ export const DABAData = [
             {
               chap: {
                 title: "Programming with SQL",
-                desc: [
-                  "Partitioning",
-                  "Filtering Data",
-                  "Subqueries",
-                ],
+                desc: ["Partitioning", "Filtering Data", "Subqueries"],
               },
             },
             {
@@ -1413,7 +1409,7 @@ export const DABAData = [
             1:1 mock interviews
             1:1 doubt-clearing sessions
             Resume Preparation
-            Unlimited interview calls from 300+ industry partners
+            Job-readiness with interview support from 300+ leading MNCs & unicorn startups
           `,
             open: false,
           },
@@ -1435,7 +1431,7 @@ Program Manager
           {
             id: 6,
             ques: "Do you have partnerships with companies for job placements?            ",
-            ans: "Learnbay has a tie-up with 300+ placement and hiring partners that include top-tier MNCs. Learners are eligible for a job assistance program for this course that mentors them to face interviews with any of the 300+ industry partners. Industry mentors prepare learners with adequate skills and mock interviews to face the competition and attain success.             ",
+            ans: "Learnbay has a tie-up with leading MNCs & unicorn startups that include top-tier MNCs. Learners are eligible for a job assistance program for this course that mentors them to face interviews with any of the 300+ leading MNCs & unicorn startups. Industry mentors prepare learners with adequate skills and mock interviews to face the competition and attain success.             ",
             open: false,
           },
         ],

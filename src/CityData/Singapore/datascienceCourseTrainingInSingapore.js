@@ -14,8 +14,8 @@ export const DSSingaporeCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -388,12 +388,6 @@ export const DSSingaporeCourseData = [
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
             open: false,
           },
-          {
-            id: 4,
-            ques: "What is an interview guarantee feature?",
-            ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed. Terms and conditions applied`,
-            open: false,
-          },
         ],
       },
       {
@@ -548,7 +542,8 @@ export const DSSingaporeCourseData = [
     JobBot20:
       "Learnbay’s data science course in Singapore extends promising career support via industry-driven upskilling. Learners opting for data science courses gain 100% job assistance from our dedicated placement cell. Eligible learners (at least 70% score in assessments) will get 100% job support via Career Service Pro. It includes –",
     Joblist14: "Placement support for 3 years with promising job offers",
-    Joblist15: "6 mock interviews (any of the 450+ industry partners)",
+    Joblist15:
+      "6 mock interviews (any of the 350+ leading MNCs & unicorn startups)",
     Joblist16: "Resume Optimization",
     Joblist17: "LinkedIn Profiling",
 

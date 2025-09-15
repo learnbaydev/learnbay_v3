@@ -14,8 +14,8 @@ export const DSMarathCourseData = [
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/icon3.png",
         height: "42",
         width: "42",
-        heading: "Guaranteed Interview Calls",
-        para: "Boost your job prospects with referrals from 300+ hiring partners",
+        heading: "Job-ready with interview support",
+        para: "Boost your job prospects with referrals from leading MNCs & unicorn startups",
       },
       {
         id: 1,
@@ -318,12 +318,6 @@ export const DSMarathCourseData = [
             ans: `Yes, we offer dedicated placement assistance by referring to your profile through our partnered consultancies and companies. `,
             open: false,
           },
-          {
-            id: 4,
-            ques: "What is an interview guarantee feature?",
-            ans: `As a special feature, we provide interview assurance. That means once you complete the course by fulfilling all the scoring and attendance-related criteria, we’ll provide assured interview calls and job referrals. You will get this facility until you get placed.`,
-            open: false,
-          },
         ],
       },
       {
@@ -506,7 +500,7 @@ export const DSMarathCourseData = [
     JobHead19: "Career Service Pro    ",
 
     JobBot20:
-      "Enrolling in a data science course can lead to an excellent future with lucrative pay scales for data experts. Hence, working professionals embrace the best data science course in Marathahalli which offers 100% placement assistance guaranteed.",
+      "Enrolling in a data science course can lead to an excellent future with lucrative pay scales for data experts. Hence, working professionals embrace the best data science course in Marathahalli which offers Job-ready training & interview support.",
     JobBot003:
       "We ensure complete growth scopes and provide all-inclusive training in data science courses. You may qualify for a job assist program and custom-fit career guidance if you complete tasks and projects with at least a 70% score. Here, you also earn a chance for 1.1 doubt-clearing and resume-review sessions.",
     JobBot39: "Career Service Pro feature provides –",
@@ -521,7 +515,7 @@ export const DSMarathCourseData = [
 
     JobHeadIndia01: "         ",
     JobBot22:
-      "Learnbay provides a unique data science course in Marathahalli, a modern course module, and a placement guarantee. Our training programs can help experts remove career hurdles, achieve professional growth, and offer constant job support for career success.",
+      "Learnbay provides a unique data science course in Marathahalli, a modern course module, and a placement support. Our training programs can help experts remove career hurdles, achieve professional growth, and offer constant job support for career success.",
     JobHeadIndia01: "        ",
     JobBot23: "",
     JobBot24:
@@ -539,7 +533,7 @@ export const DSMarathCourseData = [
     JobBot007:
       "The data science in the Marathahalli program offers Gen AI-rich training courses with global career paths. Experts have the privilege of working on live projects in chosen domains. This helps pros to recognize and solve practical business issues.",
     JobBot005:
-      "In addition, we offer an accredited Best data science training institute in Marathahalli, endorsed by IBM and MS. Our 450+ industry partners will help you crack product/service-based jobs with leading MNCs. ",
+      "In addition, we offer an accredited Best data science training institute in Marathahalli, endorsed by IBM and MS. Our 350+ leading MNCs & unicorn startups will help you crack product/service-based jobs with leading MNCs. ",
     JobBot006: " ",
     JobHead22:
       "What jobs are possible with Learnbay’s data science course in Marathahalli?",
