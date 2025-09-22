@@ -3,18 +3,18 @@ export const TabData = [
     id: "GenAI",
     title: "Generative AI Courses",
     courseName: [
-      {
-        CName: "GenAI Developer Certification with EICT Academy, IIT Guwahati",
-        hours: "3 Months",
-        url: "/fullstack/generative-ai-course-for-professional",
-      },
+      // {
+      //   CName: "GenAI Developer Certification with EICT Academy, IIT Guwahati",
+      //   hours: "3 Months",
+      //   url: "/fullstack/generative-ai-course-for-professional",
+      // },
 
-      {
-        CName:
-          "GenAI Certification For Managers With EICT Academy, IIT Guwahati",
-        hours: "4 Months",
-        url: "/datascience/generative-ai-course-for-manager",
-      },
+      // {
+      //   CName:
+      //     "GenAI Certification For Managers With EICT Academy, IIT Guwahati",
+      //   hours: "4 Months",
+      //   url: "/datascience/generative-ai-course-for-manager",
+      // },
       {
         CName: "GenAI Professional Developer Certification With IBM",
         hours: "4 Months",
@@ -173,27 +173,27 @@ export const TabData = [
       },
     ],
   },
-  {
-    id: "E&ICT Academy IIT Guwahati",
-    title: "E&ICT Academy IIT Guwahati",
-    courseName: [
-      {
-        CName: "Executive program in Data Science & AI ",
-        hours: "11 Months",
-        url: "/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati",
-      },
-      {
-        CName: "Advance Data Analytics Program",
-        hours: "6 Months",
-        url: "/datascience/advance-data-analytics-program-iit-guwahati",
-      },
-      {
-        CName: "Executive Certification in Cloud and Devops",
-        hours: "10 Months",
-        url: "/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati",
-      },
-    ],
-  },
+  // {
+  //   id: "E&ICT Academy IIT Guwahati",
+  //   title: "E&ICT Academy IIT Guwahati",
+  //   courseName: [
+  //     {
+  //       CName: "Executive program in Data Science & AI ",
+  //       hours: "11 Months",
+  //       url: "/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati",
+  //     },
+  //     {
+  //       CName: "Advance Data Analytics Program",
+  //       hours: "6 Months",
+  //       url: "/datascience/advance-data-analytics-program-iit-guwahati",
+  //     },
+  //     {
+  //       CName: "Executive Certification in Cloud and Devops",
+  //       hours: "10 Months",
+  //       url: "/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati",
+  //     },
+  //   ],
+  // },
   {
     id: "Cyber Security",
     title: "Cyber Security",

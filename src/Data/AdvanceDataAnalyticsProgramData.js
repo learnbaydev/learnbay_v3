@@ -497,12 +497,12 @@ export const ADAProgram = [
                      `,
             open: false,
           },
-          {
-            id: 2,
-            ques: "Why choose Learnbay for this Advance Data Analytics Program with E&ICT Academy IIT Guwahati certification?                  ",
-            ans: `The Learnbay Executive Program in Data Analytics is designed to ensure that you propel yourself to success in the constantly evolving fields of Data Science and Artificial Intelligence industry. In addition to this, we also provide the E&ICT Academy IIT Guwahati course completion certificate. This program offers a deep dive into Data Analytics, equipping you with vital skills that are essential to stay competitive in the ever-rewarding field.                  `,
-            open: false,
-          },
+          // {
+          //   id: 2,
+          //   ques: "Why choose Learnbay for this Advance Data Analytics Program with E&ICT Academy IIT Guwahati certification?                  ",
+          //   ans: `The Learnbay Executive Program in Data Analytics is designed to ensure that you propel yourself to success in the constantly evolving fields of Data Science and Artificial Intelligence industry. In addition to this, we also provide the E&ICT Academy IIT Guwahati course completion certificate. This program offers a deep dive into Data Analytics, equipping you with vital skills that are essential to stay competitive in the ever-rewarding field.                  `,
+          //   open: false,
+          // },
           {
             id: 3,
             ques: "What Career can you have after completing Advance Data Analytics Program?                  ",
