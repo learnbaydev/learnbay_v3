@@ -589,12 +589,12 @@
 		<priority>0.80</priority>
 	</url>
 	<!-- <url>
-		<loc>https://www.learnbay.co/cloud&amp;devops/bangalore/online-cloud-computing-course-bangalore</loc>
+		<loc>https://www.learnbay.co/cloud&devops/online-cloud-computing-course-bangalore</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
-	</url> -->
-	<!-- <url>
-		<loc>https://www.learnbay.co/cloud&amp;devops/pune/online-cloud-computing-course-pune</loc>
+	</url>
+	<url>
+		<loc>https://www.learnbay.co/cloud&devops/online-cloud-computing-course-pune</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.80</priority>
 	</url> -->
@@ -605,18 +605,6 @@
 		<priority>0.80</priority>
 	</url>
 
-
-	<url>
-		<loc>https://www.learnbay.co/fullstack/pune/dsa-course-training-pune</loc>
-		<changefreq>daily</changefreq>
-		<priority>0.80</priority>
-	</url>
-
-		<url>
-		<loc>https://www.learnbay.co/fullstack/bangalore/dsa-course-training-bangalore</loc>
-		<changefreq>daily</changefreq>
-		<priority>0.80</priority>
-	</url>
 	<url>
 		<loc>https://www.learnbay.co/fullstack/dsa-course-training-pune</loc>
 		<changefreq>daily</changefreq>
@@ -690,6 +678,11 @@
 	</url>
 	<url>
 		<loc> https://www.learnbay.co/artificial-intelligence/generative-ai-for-managers</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.90</priority>
+	</url>
+	<url>
+		<loc>https://www.learnbay.co/blogs/tech-non-tech-careers-bangalore-guide</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.90</priority>
 	</url>
