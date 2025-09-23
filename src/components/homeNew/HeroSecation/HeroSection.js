@@ -91,17 +91,20 @@ export default function HeroSection() {
                   <span className={styles.headingLine1}>
                     Advance Your Career With
                     <span className={styles.headingLine2}>
-                      <span className={styles.gradientText}> Real Project</span>
+                      <span className={styles.gradientText}>
+                        {" "}
+                        AI Co-Lab Projects
+                      </span>
                       <span className={styles.whiteText}> and Get Hired</span>
                     </span>
                   </span>
                 </h1>
                 <p className={styles.subheading}>
-                  Join India's #1{" "}
+                  Work directly with AI startups,{" "}
                   <span className={styles.greenGradientText}>
-                    Project-Based Upskilling
+                    solve live GenAI & Agentic AI challenges
                   </span>{" "}
-                  Platform for Working Professionals
+                  and get certified by industry.
                 </p>
               </div>
 

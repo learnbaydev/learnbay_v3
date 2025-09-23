@@ -71,17 +71,14 @@ const LearningToPlacement = ({ time, guided }) => {
 
           <div className={styles.right}>
             <div className={styles.capstoneBox}>
-              <div className={styles.capLeft}>
-                6<span>+</span>
-              </div>
+              <div className={styles.capLeft}>{/* 6<span>+</span> */}</div>
               <div className={styles.capRight}>
                 <h5>
-                  Industrial <strong>Capstone</strong> Projects
+                  <strong>
+                    Solve real AI/GenAI challenges from startups and add
+                    industry-certified projects to your portfolio.
+                  </strong>
                 </h5>
-                <p>
-                  Co-built with top companies for <br />
-                  <strong>practical exposure</strong>
-                </p>
               </div>
             </div>
 

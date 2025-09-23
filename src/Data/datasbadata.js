@@ -4,8 +4,7 @@ export const NewDSAData = [
   {
     header: [
       {
-        spanTag:
-          "Master GenAI-powered Analytics Tools like Copilot & Tableau GPT",
+        spanTag: "Integrated with AI Co-Lab Experience",
         spanIcon:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
         title: [
@@ -27,14 +26,13 @@ export const NewDSAData = [
             id: 1,
             img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/firstPoint.webp",
             imgAlt: "DSA First Point",
-            text1: "Integrated With Gen-AI for Working Professionals",
+            text1: "Work on Startup-driven GenAI & Agentic AI projects.",
           },
           {
             id: 2,
             img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/secondPoint.webp",
             imgAlt: "DSA Second Point",
-            text1: "Practice ",
-            boldText: "Practice with 18+ Real-time Projects & Case Studies",
+            text1: "Get directly certified from startups",
           },
         ],
         mentorText: "Earn Industry-Ready Certification from",

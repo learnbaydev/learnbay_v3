@@ -94,26 +94,20 @@ const LearningToPlacement = ({ time, guided, fullstack }) => {
 
           <div className={styles.right}>
             <div className={styles.capstoneBox}>
-              <div className={styles.capLeft}>
+              {/* <div className={styles.capLeft}>
                 <img
                   src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Frame.webp"
                   alt="Mock Interview Icon"
                   className={styles.capImage} // optional: add this class if you want to control styling
                 />
-              </div>
-              <div className={styles.capRight}>
-                <h5 className={styles.orange}>
+              </div> */}
+              <div className={styles.capRight} style={{ color: "white" }}>
+                <h5 style={{ color: "white" }}>
                   <strong>
-                    {fullstack
-                      ? "Job Referrals at Top MNC's"
-                      : "Mock Interview"}
+                    Solve real AI/GenAI challenges from startups and add
+                    industry-certified projects to your portfolio.
                   </strong>
                 </h5>
-
-                <p>
-                  Practice with seasoned professionals and FAANG experts to
-                  crack interviews
-                </p>
               </div>
             </div>
 

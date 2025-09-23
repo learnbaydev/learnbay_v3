@@ -46,9 +46,10 @@ export default function CallbackButton({
         {loading ? (
           <Loader2 className={`${styles.icon} ${styles.spin}`} />
         ) : (
-          <Phone className={styles.icon} />
+          // <Phone className={styles.icon} />
+          <></>
         )}
-        Get Expert Callback
+        Explore AI Co-Lab
       </button>
     </>
   );
