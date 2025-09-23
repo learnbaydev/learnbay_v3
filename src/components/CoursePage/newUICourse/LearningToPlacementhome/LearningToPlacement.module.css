@@ -348,6 +348,9 @@
   .header {
     gap: 24px;
   }
+  .supportBox {
+    flex-direction: column;
+  }
   .top h3 {
     font-size: 2.5rem;
     line-height: 1.3;
@@ -399,16 +402,13 @@
     font-size: 0.9rem;
   }
   .supportText {
-    padding: 16px 20px;
+    padding: 0;
   }
   .supportText h5 {
-    font-size: 1rem;
+    font-size: 2rem;
   }
   .supportText p {
     font-size: 0.85rem;
-  }
-  .supportVideo img {
-    width: 180px;
   }
   .left {
     padding: 12px;

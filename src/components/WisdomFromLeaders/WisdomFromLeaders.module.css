@@ -46,7 +46,6 @@
   transition: all 0.3s ease;
   box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
 }
-
 .ctaButton:hover {
   background: #2563eb;
   transform: translateY(-2px);
@@ -61,13 +60,14 @@
 }
 
 .episodeCard {
-  background: white;
+  background: #ffffff;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .episodeCard:hover {
@@ -109,7 +109,6 @@
   cursor: pointer;
   transition: all 0.3s ease;
 }
-
 .playButton:hover {
   background: rgba(0, 0, 0, 0.9);
   transform: translate(-50%, -50%) scale(1.1);
@@ -135,24 +134,44 @@
   line-height: 1.6;
 }
 
+/* V-shaped notch (downward white triangle) */
+.vNotch {
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+  /* Downward pointing triangle in same color as card */
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-top: 14px solid #ffffff;
+  position: relative;
+  z-index: 2; /* sit above the badge gradient */
+}
+
+/* Company Badge */
 .companyBadge {
   background: linear-gradient(91deg, #4b4ae7 -49.9%, #051d5e 71.06%);
   color: white;
   padding: 16px 24px;
   display: flex;
   align-items: center;
-  gap: 8px;
+  justify-content: space-between; /* 👈 pushes text left, logo right */
   font-weight: 600;
+  margin-top: -7px; /* pull the badge up under the notch */
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  position: relative;
+}
+
+.companyLogo {
+  width: 90px; /* adjust as needed */
+  height: 30px;
+  object-fit: contain;
+  border-radius: 4px; /* optional */
 }
 
 .position {
   font-size: 14px;
   opacity: 0.9;
-}
-
-.companyName {
-  font-size: 16px;
-  font-weight: 700;
 }
 
 /* Responsive Design */
@@ -167,24 +186,19 @@
   .wisdomSection {
     padding: 80px 16px;
   }
-
   .header {
     margin-bottom: 60px;
   }
-
   .mainTitle {
     font-size: 32px;
   }
-
   .subtitle {
     font-size: 16px;
   }
-
   .episodesGrid {
     grid-template-columns: 1fr;
     gap: 24px;
   }
-
   .episodeCard {
     max-width: 400px;
     margin: 0 auto;
@@ -195,36 +209,28 @@
   .mainTitle {
     font-size: 28px;
   }
-
   .subtitle {
     font-size: 15px;
   }
-
   .episodeName {
     font-size: 20px;
   }
-
   .episodeDescription {
     font-size: 13px;
   }
-
   .thumbnailContainer {
     height: 180px;
   }
-
   .playButton {
     width: 50px;
     height: 50px;
   }
-
   .companyBadge {
     padding: 14px 20px;
   }
-
   .position {
     font-size: 13px;
   }
-
   .companyName {
     font-size: 15px;
   }

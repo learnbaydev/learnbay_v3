@@ -8,9 +8,7 @@ import Navbar from "@/components/Global/Navbar/Navbar";
 import Popup from "@/components/Global/Popup/Popup";
 import FeeSection from "@/components/Seo/FeeSection/FeeSection";
 import styles from "@/styles/Home.module.css";
-const TrustedByCompanies = dynamic(() =>
-  import("@/components/trusted_companies/trustedcompanies")
-);
+
 const LabFirst = dynamic(() => import("@/components/Seo/Co-lab/co-lab"));
 const Lbdifference = dynamic(() =>
   import("@/components/Seo/Lbdifference/lbdifference")
@@ -19,6 +17,8 @@ const Lbdifference = dynamic(() =>
 const UnderstandingProcess = dynamic(() =>
   import("@/components/Seo/UnderstandingProcess/UnderstandingProcess")
 );
+
+const Benefits = dynamic(() => import("@/components/Seo/Benefits/Benefits"));
 
 const AchievementCertificate = dynamic(() =>
   import("@/components/AchievementCertificate/AchievementCertificate")
@@ -114,7 +114,7 @@ export default function Home() {
         <LabFirst />
         <Lbdifference />
         <UnderstandingProcess />
-        <TrustedByCompanies />
+        <Benefits />
         <AchievementCertificate />
         <WisdomFromLeaders />
         <PieChart />

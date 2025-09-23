@@ -1,32 +1,34 @@
-/* CertificateComponent.module.css */
-
 .certificateContainer {
   width: 100%;
-  /* max-width: 1200px; */
-  /* margin: 0 auto; */
   padding: 50px 0;
   background: #fff;
 }
 
-/* Horizontal Box - Main Container */
+/* Background Box */
 .contentBox {
-  position: relative;
-  background: #fafafa;
+  background: #fafafa; /* 👈 background applied */
   border-radius: 20px;
-  padding: 50px 0;
-  min-height: 300px;
-  /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); */
+  padding: 50px 40px;
+}
+
+/* Grid Layout */
+.gridLayout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
 }
 
 /* Text Section */
 .certificateTextSection {
   width: 100%;
+  padding-left: 20px;
   position: relative;
   z-index: 1;
-  padding-left: 24px;
 }
+
 .certificateTitle {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   font-weight: 700;
   background: linear-gradient(90deg, #0f7afb 0%, #4b4ae7 100%);
   -webkit-background-clip: text;
@@ -59,6 +61,7 @@
   left: 0;
   top: -2px;
 }
+
 .knowMoreBtn {
   background: linear-gradient(90deg, #0383ff 0%, #4e47e5 100%);
   color: white;
@@ -73,37 +76,29 @@
 }
 
 .knowMoreBtn:hover {
-  background: linear-gradient(
-    90deg,
-    #0272e6 0%,
-    #3d39cc 100%
-  ); /* Darker gradient on hover */
+  background: linear-gradient(90deg, #0272e6 0%, #3d39cc 100%);
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(3, 131, 255, 0.3);
 }
 
-/* Certificate Overlay - Positioned absolutely over the box */
+/* Certificate Slider */
 .certificateOverlay {
-  position: absolute;
-  top: -30px; /* Extends above the box */
-  right: 50px;
-  bottom: -30px; /* Extends below the box */
-  width: 450px;
-  z-index: 2;
+  position: relative;
+  width: 100%;
 }
 
 .swiperContainer {
   width: 100%;
-  height: 100%;
+  max-width: 500px;
+  margin: 0 auto;
   border-radius: 16px;
   overflow: hidden;
-  background: white;
-  /* box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15); */
+  background: #fafafa;
 }
 
 .certificateSwiper {
-  width: 100%;
-  height: 100%;
+  width: 77%;
+  height: 70%;
 }
 
 .certificateSlide {
@@ -113,7 +108,7 @@
   align-items: center;
   justify-content: center;
   padding: 15px;
-  background: white;
+  background: transparent;
 }
 
 .certificateImage {
@@ -125,7 +120,7 @@
   border-radius: 8px;
 }
 
-/* Custom Navigation Buttons Styling */
+/* Swiper Navigation Buttons */
 .certificateSwiper :global(.swiper-button-next),
 .certificateSwiper :global(.swiper-button-prev) {
   background: rgba(255, 255, 255, 0.95);
@@ -151,7 +146,7 @@
   font-size: 16px;
 }
 
-/* Custom Pagination Styling */
+/* Swiper Pagination Bullets */
 .customBullet {
   width: 10px !important;
   height: 10px !important;
@@ -174,53 +169,84 @@
   bottom: 15px !important;
 }
 
-/* Responsive design */
+/* Responsive Design */
 @media (max-width: 768px) {
-  .contentBox {
-    padding: 30px 25px;
+  .gridLayout {
+    display: flex;
+    flex-direction: column; /* stack vertically */
+    align-items: center;
+    gap: 0;
     text-align: center;
   }
 
   .certificateOverlay {
-    position: relative;
-    top: 30px;
-    right: 0;
-    bottom: 0;
+    order: -1; /* 👈 moves certificate above text (remove if you want text first) */
     width: 100%;
-    margin-top: 30px;
-  }
-
-  .certificateTitle {
-    font-size: 2rem;
+    display: flex;
+    justify-content: center;
   }
 
   .swiperContainer {
-    height: 280px;
+    width: 90%;
+    max-width: 420px; /* larger on mobile */
+    height: auto;
   }
 
-  .certificateTextSection {
-    max-width: 100%;
+  .certificateImage {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: contain;
+  }
+
+  /* Bullet points cleaner */
+  .certificateBenefits {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 25px 0;
+  }
+
+  .certificateBenefits li {
+    font-size: 1.05rem;
+    color: #374151;
+    margin-bottom: 14px;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .certificateBenefits li::before {
+    content: "●"; /* simple round dot */
+    color: #2563eb;
+    font-size: 0.8rem;
+  }
+  .certificateSwiper :global(.swiper-button-next),
+  .certificateSwiper :global(.swiper-button-prev) {
+    display: none !important;
   }
 }
 
 @media (max-width: 480px) {
   .certificateContainer {
-    padding: 40px 15px;
+    padding: 25px 10px;
   }
 
   .contentBox {
-    padding: 25px 20px;
+    padding: 20px 15px;
   }
 
   .certificateTitle {
-    font-size: 1.75rem;
-  }
-
-  .swiperContainer {
-    height: 240px;
+    font-size: 1.6rem;
   }
 
   .certificateBenefits li {
-    font-size: 1rem;
+    font-size: 0.95rem;
+  }
+
+  .swiperContainer {
+    width: 100%;
+    /* max-width: 320px; */
   }
 }

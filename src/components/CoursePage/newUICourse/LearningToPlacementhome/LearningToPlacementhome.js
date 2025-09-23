@@ -26,16 +26,21 @@ const LearningToPlacement = ({ time, guided }) => {
           </div>
 
           <div className={`${styles.card} ${styles.red}`}>
-            <p className={styles.bold}>{time}Live Industry Problems</p>
+            <p className={styles.bold}>
+              {time}Live Industry
+              <br /> Problems
+            </p>
             <span className={styles.span}>
-              Work on real time problem statements of AI-driven companies.
+              Work on real time
+              <br /> problem statements of AI-driven companies.
             </span>
           </div>
 
           <div className={`${styles.card} ${styles.teal}`}>
             <p className={styles.boldYellow}>{guided}Backed by Industry</p>
             <span className={styles.skills}>
-              Earn certificates directly recognized by companies.
+              Earn certificates <br />
+              directly recognized by companies.
             </span>
           </div>
         </div>

@@ -1,3 +1,4 @@
+/* Main Section Styles */
 .aiCoLabSection {
   background: linear-gradient(98deg, #041d62 2.16%, #00081b 95.2%);
   min-height: 435px;
@@ -33,14 +34,95 @@
   z-index: 1;
 }
 
+/* Main Content Layout */
+.mainContent {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
 .content {
   max-width: 600px;
+  flex: 1;
 }
+
+/* Image Container Styles */
+.imageContainer {
+  flex: 0 0 500px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainImage {
+  width: 470px;
+  height: 470px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+  z-index: 3;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.glowEffect {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 280px;
+  height: 280px;
+  background: radial-gradient(
+    circle,
+    rgba(33, 150, 243, 0.3) 0%,
+    rgba(33, 150, 243, 0.1) 50%,
+    transparent 70%
+  );
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.orbitRing1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 370px;
+  height: 370px;
+  border: 2px solid rgba(101, 158, 204, 0.3);
+  border-radius: 50%;
+  border-top-color: #0968b5;
+  animation: spin 10s linear infinite;
+  z-index: 2;
+}
+
+.orbitRing2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  height: 450px;
+  border: 1px solid rgba(16, 246, 161, 0.2);
+  border-radius: 50%;
+  border-right-color: #1e9970;
+  animation: spin 15s linear infinite reverse;
+  z-index: 1;
+}
+
+/* Badge Styles */
 .badge {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  /* background: linear-gradient(135deg, #ffd700 0%, #ffb300 100%); */
   padding: 6px 16px;
   border-radius: 25px;
   margin-bottom: 32px;
@@ -57,6 +139,10 @@
   justify-content: center;
 }
 
+.badgeIconImage {
+  border-radius: 4px;
+}
+
 .badgeText {
   font-size: 14px;
   font-weight: 600;
@@ -65,6 +151,7 @@
   white-space: nowrap;
 }
 
+/* Typography Styles */
 .mainHeading {
   font-size: 48px;
   font-weight: 700;
@@ -99,6 +186,7 @@
   color: white;
 }
 
+/* Button Styles */
 .buttonGroup {
   display: flex;
   gap: 16px;
@@ -159,7 +247,16 @@
   padding-left: 2px;
 }
 
-/* Responsive Design */
+/* Animations */
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
 @media (max-width: 768px) {
   .aiCoLabSection {
     padding: 40px 16px;
@@ -169,6 +266,42 @@
 
   .aiCoLabSection::before {
     background-size: 30px 30px;
+  }
+
+  .mainContent {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .imageContainer {
+    flex: 0 0 400px;
+    justify-content: center;
+    order: 1; /* 👈 this ensures image goes BELOW text */
+  }
+
+  .imageWrapper {
+    width: 400px;
+    height: 400px;
+  }
+
+  .mainImage {
+    width: 280px;
+    height: 280px;
+  }
+
+  .glowEffect {
+    width: 300px;
+    height: 300px;
+  }
+
+  .orbitRing1 {
+    width: 320px;
+    height: 320px;
+  }
+
+  .orbitRing2 {
+    width: 350px;
+    height: 350px;
   }
 
   .mainHeading {
@@ -192,9 +325,39 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 320px) {
   .aiCoLabSection::before {
     background-size: 25px 25px;
+  }
+
+  .imageContainer {
+    flex: 0 0 320px;
+    justify-content: center;
+  }
+
+  .imageWrapper {
+    width: 320px;
+    height: 320px;
+  }
+
+  .mainImage {
+    width: 220px;
+    height: 220px;
+  }
+
+  .glowEffect {
+    width: 240px;
+    height: 240px;
+  }
+
+  .orbitRing1 {
+    width: 260px;
+    height: 260px;
+  }
+
+  .orbitRing2 {
+    width: 290px;
+    height: 290px;
   }
 
   .mainHeading {

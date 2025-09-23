@@ -5,33 +5,40 @@ const WisdomFromLeaders = () => {
   const podcastEpisodes = [
     {
       id: 1,
-      name: "Saumya Singh",
+      name: "Gabriel Appleton",
       thumbnail:
-        "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/pod1.webp", // Replace with actual image
+        "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/pod--1.webp",
       description:
-        "Issued by Learnbay and the partner. This certificate proves learning and real-world experience.",
-      company: "IBM",
-      position: "Software Engineer at",
+        "It is so important to have a solid understanding of practical approach and upskilling at the same time.",
+      image:
+        "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/vunomic_datalabs.webp",
+      position: "Co-Founder and CEO",
+      videoUrl: "https://youtu.be/EVJN6zCHISk?si=u-zmbr7y4XthR4Gz",
     },
     {
       id: 2,
       name: "Ankit Biyani",
       thumbnail:
-        "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/pod2.webp", // Replace with actual image
+        "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/pod2.webp",
       description:
-        "Issued by Learnbay and the partner. This certificate proves learning and real-world experience.",
-      company: "moneyflo",
-      position: "Software Engineer at",
+        "A blend of doing practical projects on the side so that you get exposure to real environments is very important.",
+      image:
+        "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Moneyflow.webp",
+      position: "Co-Founder and CEO",
+      videoUrl: "https://youtu.be/ecMDMS1Jzwo?si=k_ll9alAZueDwIdv",
     },
     {
       id: 3,
       name: "Lokap Sahu",
       thumbnail:
-        "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/pod3.webp", // Replace with actual image
+        "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/pod3.webp",
       description:
-        "Issued by Learnbay and the partner. This certificate proves learning and real-world experience.",
-      company: "LanguifyAI",
-      position: "Software Engineer at",
+        "As a founder I always look for some proof of experience because at the end it makes our work easy.",
+      image:
+        "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Languify_ai.webp",
+      position: "Co-Founder and CEO",
+      videoUrl:
+        "https://youtu.be/IxQDWoLAO7Y?si=ryNSOu_2liIA9LtPwatch?v=VIDEO_ID_3",
     },
   ];
 
@@ -62,11 +69,16 @@ const WisdomFromLeaders = () => {
                   alt={`${episode.name} podcast episode`}
                   className={styles.thumbnailImage}
                 />
-                <div className={styles.playButton}>
+                <a
+                  href={episode.videoUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.playButton}
+                >
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                     <path d="M8 5V19L19 12L8 5Z" fill="white" />
                   </svg>
-                </div>
+                </a>
               </div>
 
               {/* Episode Content */}
@@ -77,10 +89,17 @@ const WisdomFromLeaders = () => {
                 </p>
               </div>
 
+              {/* ↓ V-shaped notch */}
+              <div className={styles.vNotch} aria-hidden />
+
               {/* Company Badge */}
               <div className={styles.companyBadge}>
                 <span className={styles.position}>{episode.position}</span>
-                <span className={styles.companyName}>{episode.company}</span>
+                <img
+                  src={episode.image}
+                  alt={`${episode.name} logo`}
+                  className={styles.companyLogo}
+                />
               </div>
             </div>
           ))}
