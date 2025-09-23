@@ -27,6 +27,9 @@ const WisdomFromLeaders = dynamic(() =>
   import("@/components/WisdomFromLeaders/WisdomFromLeaders")
 );
 const PieChart = dynamic(() => import("@/components/piechart/piechart"));
+
+// const OfferPopup = dynamic(() => import("@/components/Global/OfferPopup/OfferPopup"));
+// const popupData = DSABangaloreCourseData.popupData;
 const FAQNew = dynamic(() => import("@/components/Seo/FAQNew/FAQNew"));
 export default function Home() {
   const [popups, setPopups] = useState(false);
