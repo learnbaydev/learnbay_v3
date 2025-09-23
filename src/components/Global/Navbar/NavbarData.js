@@ -16,8 +16,8 @@ export const menuItem = [
   },
   {
     id: 4,
-    name: "ProjectLab",
-    url: "#ProjectLab",
+    name: "AI Co-lab",
+    url: "/ai-co-lab",
   },
   // {
   //   id: 5,
