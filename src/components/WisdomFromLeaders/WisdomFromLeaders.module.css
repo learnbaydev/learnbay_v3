@@ -154,7 +154,7 @@
   padding: 16px 24px;
   display: flex;
   align-items: center;
-  gap: 8px;
+  justify-content: space-between; /* 👈 pushes text left, logo right */
   font-weight: 600;
   margin-top: -7px; /* pull the badge up under the notch */
   border-bottom-left-radius: 16px;
@@ -162,14 +162,16 @@
   position: relative;
 }
 
+.companyLogo {
+  width: 90px; /* adjust as needed */
+  height: 30px;
+  object-fit: contain;
+  border-radius: 4px; /* optional */
+}
+
 .position {
   font-size: 14px;
   opacity: 0.9;
-}
-
-.companyName {
-  font-size: 16px;
-  font-weight: 700;
 }
 
 /* Responsive Design */
