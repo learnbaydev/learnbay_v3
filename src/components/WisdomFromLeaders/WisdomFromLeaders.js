@@ -7,7 +7,7 @@ const WisdomFromLeaders = () => {
       id: 1,
       name: "Saumya Singh",
       thumbnail:
-        "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/pod1.webp", // Replace with actual image
+        "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/pod1.webp",
       description:
         "Issued by Learnbay and the partner. This certificate proves learning and real-world experience.",
       company: "IBM",
@@ -17,7 +17,7 @@ const WisdomFromLeaders = () => {
       id: 2,
       name: "Ankit Biyani",
       thumbnail:
-        "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/pod2.webp", // Replace with actual image
+        "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/pod2.webp",
       description:
         "Issued by Learnbay and the partner. This certificate proves learning and real-world experience.",
       company: "moneyflo",
@@ -27,7 +27,7 @@ const WisdomFromLeaders = () => {
       id: 3,
       name: "Lokap Sahu",
       thumbnail:
-        "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/pod3.webp", // Replace with actual image
+        "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/pod3.webp",
       description:
         "Issued by Learnbay and the partner. This certificate proves learning and real-world experience.",
       company: "LanguifyAI",
@@ -62,7 +62,7 @@ const WisdomFromLeaders = () => {
                   alt={`${episode.name} podcast episode`}
                   className={styles.thumbnailImage}
                 />
-                <div className={styles.playButton}>
+                <div className={styles.playButton} aria-hidden>
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                     <path d="M8 5V19L19 12L8 5Z" fill="white" />
                   </svg>
@@ -76,6 +76,9 @@ const WisdomFromLeaders = () => {
                   {episode.description}
                 </p>
               </div>
+
+              {/* ↓ V-shaped notch */}
+              <div className={styles.vNotch} aria-hidden />
 
               {/* Company Badge */}
               <div className={styles.companyBadge}>

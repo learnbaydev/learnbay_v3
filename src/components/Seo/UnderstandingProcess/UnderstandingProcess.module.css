@@ -21,7 +21,10 @@
   font-size: 28px;
   line-height: 1.2;
   font-weight: 800;
-  color: #171717;
+  background: linear-gradient(90deg, #0f7afb 40%, #4b4ae7 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .subtitle {
