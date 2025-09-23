@@ -1,91 +1,78 @@
+"use client";
+
 import React from "react";
+import Image from "next/image";
 import styles from "./LearnbayDifference.module.css";
 
 const LearnbayDifference = () => {
-  const features = [
-    {
-      id: 1,
-      iconSrc:
-        "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Group+2425.webp", // Replace with your actual icon path
-      iconAlt: "User Icon",
-      iconBg: "#6366f1",
-      title: "Work on real challenges",
-      description: "using datasets from leading companies",
-      isActive: true,
-    },
-    {
-      id: 2,
-      iconSrc:
-        "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Group+2426.webp", // Replace with your actual icon path
-      iconAlt: "Trophy Icon",
-      iconBg: "#10b981",
-      title: "Earn dual certification",
-      description: "jointly from Learnbay and the collaborating organization",
-    },
-    {
-      id: 3,
-      iconSrc:
-        "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Group+2427.webp", // Replace with your actual icon path
-      iconAlt: "Briefcase Icon",
-      iconBg: "#f97316",
-      title: "Gain industry experience",
-      description: "through live project collaboration",
-    },
-    {
-      id: 4,
-      iconSrc:
-        "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Group+2425+(1).webp", // Replace with your actual icon path
-      iconAlt: "Portfolio Icon",
-      iconBg: "#8b5cf6",
-      title: "Showcase a recruiter-ready portfolio",
-      description: "validated by recognized industry partners",
-    },
-  ];
-
   return (
-    <section className={styles.learnbaySection}>
-      <div className={styles.container}>
-        {/* Header */}
-        <div className={styles.header}>
-          <div className={styles.headerContent}>
-            <p className={styles.subtitle}>The Learnbay Difference:</p>
-            <h2 className={styles.mainTitle}>
-              <span className={styles.highlight}>
-                Industry-Integrated AI Experience
-              </span>
-            </h2>
-          </div>
-          <button className={styles.ctaButton}>Something</button>
-        </div>
+    <div className={styles.container}>
+      <div className="containerWidth">
+        <div className={styles.card}>
+          {/* Top Section - What is AI Co-Lab */}
+          <div className={styles.topSection}>
+            <div className={styles.topContent}>
+              <div className={styles.topLeft}>
+                <h1 className={styles.mainTitle}>"What is AI Co-Lab?"</h1>
 
-        {/* Features Grid */}
-        <div className={styles.featuresGrid}>
-          {features.map((feature, index) => (
-            <div
-              key={feature.id}
-              className={`${styles.featureCard} ${
-                feature.isActive ? styles.activeCard : ""
-              }`}
-            >
-              <div className={styles.iconContainer}>
-                <img
-                  src={feature.iconSrc}
-                  width={40}
-                  height={40}
-                  alt={feature.iconAlt}
-                  className={styles.iconImage}
-                />
+                <div className={styles.description}>
+                  <p>
+                    AI Colab is a unique platform where learners{" "}
+                    <span className={styles.highlight}>
+                      work directly on real projects
+                    </span>{" "}
+                    from <span className={styles.highlight}>AI startups</span>,
+                    solving actual business challenges in{" "}
+                    <span className={styles.highlight}>GenAI & Agentic AI</span>
+                    . You don't just learn—you co-create with startups.
+                  </p>
+                </div>
               </div>
-              <h3 className={styles.featureTitle}>{feature.title}</h3>
-              <p className={styles.featureDescription}>{feature.description}</p>
-              {feature.isActive && (
-                <div className={styles.activeIndicator}></div>
-              )}
+
+              <Image
+                src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/ai_.webp"
+                alt="AI Co-Lab illustration"
+                width={160}
+                height={120}
+                className={styles.topImage}
+              />
             </div>
-          ))}
+          </div>
+
+          {/* Bottom Section - Why does this matter */}
+          <div className={styles.bottomSection}>
+            <div className={styles.bottomContent}>
+              <Image
+                src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/ai_2.webp"
+                alt="Development illustration"
+                width={160}
+                height={120}
+                className={styles.bottomImage}
+              />
+
+              <div className={styles.bottomRight}>
+                <h2 className={styles.secondaryTitle}>
+                  Why does this matter to me?
+                </h2>
+
+                <div className={styles.description}>
+                  <p>
+                    Because{" "}
+                    <span className={styles.highlight}>
+                      recruiters trust real-world experience
+                    </span>
+                    . AI Co-Lab gives you projects that mirror industry
+                    challenges — and proof of your skills with{" "}
+                    <span className={styles.highlight}>dual certification</span>
+                    .
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
