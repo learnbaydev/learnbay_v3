@@ -1,0 +1,122 @@
+/* components/OutcomesSection.module.css */
+.container {
+  padding: 60px 20px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentWrapper {
+  max-width: 1200px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  /* gap: 60px; */
+  align-items: center;
+}
+
+.textSection {
+  display: flex;
+  flex-direction: column;
+  margin-top: -500px;
+  gap: 16px;
+}
+
+.mainHeading {
+  width: 700px;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  letter-spacing: -0.02em;
+
+  /* Gradient text effect */
+  background: linear-gradient(90deg, #0f7afb 0%, #4b4ae7 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+
+  /* Fallback for older browsers */
+  background-color: #0f7afb;
+}
+
+.subHeading {
+  font-size: 1.125rem;
+  color: rgba(72, 70, 70, 0.8);
+  margin: 0;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.imageWrapper {
+  width: 100%;
+  position: relative;
+}
+
+.outcomeImage {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  /* box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); */
+  /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .contentWrapper {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .mainHeading {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 40px 20px;
+    min-height: auto;
+  }
+
+  .contentWrapper {
+    gap: 30px;
+  }
+
+  .mainHeading {
+    font-size: 2.5rem;
+  }
+
+  .subHeading {
+    font-size: 1rem;
+  }
+  .textSection {
+    margin-top: -10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 30px 15px;
+  }
+
+  .mainHeading {
+    font-size: 2rem;
+  }
+
+  .subHeading {
+    font-size: 0.95rem;
+  }
+
+  .outcomeImage {
+    border-radius: 12px;
+  }
+  .textSection {
+    margin-top: -55px;
+  }
+}

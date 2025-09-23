@@ -43,6 +43,12 @@ const NewSevenSection = dynamic(() =>
 const AnimationNew = dynamic(() =>
   import("@/components/Home/whyChooseSection/AnimationNew")
 );
+const LearningToPlacement = dynamic(() =>
+  import(
+    "@/components/CoursePage/newUICourse/LearningToPlacementhome/LearningToPlacementhome"
+  )
+);
+
 const ContactUs = dynamic(() =>
   import("@/components/Home/newUI/ContactUs/ContactUs")
 );
@@ -412,6 +418,7 @@ export default function Home() {
       <div id="course-section">
         <NewCourse dataScience={true} radio={true} />
       </div>
+      <LearningToPlacement />
       <AnimationNew />
       <ReviewSlider idss="eautK0odE7Q" showRealStories={true} />
       <ContactUs dataScienceCounselling={true} radio={true} />
