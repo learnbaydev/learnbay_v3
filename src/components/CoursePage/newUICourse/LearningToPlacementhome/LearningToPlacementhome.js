@@ -9,10 +9,10 @@ const LearningToPlacement = ({ time, guided }) => {
         <div className={styles.header}>
           <div className={styles.top}>
             <h3>
-              From{" "}
-              <span className={styles.highlight}>Learning to Placement</span>
+              {" "}
+              <span className={styles.highlight}>AI Co-Lab Experience</span>
             </h3>
-            <p className={styles.des}>We've got you covered</p>
+            <p className={styles.des}>Work with startups and enterprises</p>
             <div className={styles.underline}>
               {" "}
               <Image
@@ -26,51 +26,36 @@ const LearningToPlacement = ({ time, guided }) => {
           </div>
 
           <div className={`${styles.card} ${styles.red}`}>
-            <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/alarm_on.webp"
-              width={90}
-              height={90}
-              alt="Live classes"
-              loading="lazy"
-            />
-            <p className={styles.bold}>{time}+ Hours</p>
-            <span className={styles.span}>of Live Instructor-Led Classes</span>
+            <p className={styles.bold}>{time}Live Industry Problems</p>
+            <span className={styles.span}>
+              Work on real time problem statements of AI-driven companies.
+            </span>
           </div>
 
           <div className={`${styles.card} ${styles.teal}`}>
-            <p className={styles.boldYellow}>{guided}+ Guided</p>
+            <p className={styles.boldYellow}>{guided}Backed by Industry</p>
             <span className={styles.skills}>
-              Skill focused <br />
-              Hands-On Projects
+              Earn certificates directly recognized by companies.
             </span>
-            <div className={styles.logos}>
-              <span>GitHub</span>
-              <span>OpenAI</span>
-              <span>Python</span>
-            </div>
           </div>
         </div>
 
         <div className={styles.mainGrid}>
           <div className={styles.left}>
+            <p className={styles.pTag}>
+              <span className={styles.green}>Master tools like:</span>
+            </p>
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/3d_sign.webp"
-              width={140}
-              height={160}
+              src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/logos.webp"
+              width={250}
+              height={200}
               alt="Flexible subscription"
               loading="lazy"
             />
-            <p className={styles.pTag}>
-              <span className={styles.green}>3 Years</span> Flexible{" "}
-              <span className={styles.nor}>Subscription</span>
-            </p>
-            <span className={styles.learn}>
-              Learn at your pace with unlimited access.
-            </span>
           </div>
 
           <div className={styles.right}>
-            <div className={styles.capstoneBox}>
+            {/* <div className={styles.capstoneBox}>
               <div className={styles.capLeft}>
                 6<span>+</span>
               </div>
@@ -83,23 +68,27 @@ const LearningToPlacement = ({ time, guided }) => {
                   <strong>practical exposure</strong>
                 </p>
               </div>
-            </div>
+            </div> */}
 
             <div className={styles.supportBox}>
-              <div className={styles.supportText}>
-                <h5>
-                  <span>1-on-1</span> Personalized Support
-                </h5>
-                <p>Doubt Clearing with Mentors, get help whenever needed.</p>
-              </div>
               <div className={styles.supportVideo}>
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/perd.webp"
+                  src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/OUTSPOKEN+CERTIFICATE+1.webp"
                   width={240}
                   height={175}
                   alt="mentor support"
                   loading="lazy"
                 />
+              </div>
+              <div className={styles.supportText}>
+                <h5>Recruiters cannot say ‘No’ to this portfolio</h5>
+                <ul className={styles.ul}>
+                  <li className={styles.li}>Gain practical AI experience</li>
+                  <li className={styles.li}>
+                    Get startup-certified proof of work
+                  </li>
+                  <li className={styles.li}>Stand out in interviews</li>
+                </ul>
               </div>
             </div>
           </div>
