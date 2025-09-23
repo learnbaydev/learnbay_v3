@@ -13,14 +13,14 @@
 
 .header {
   text-align: center;
-  margin-bottom: 45px;
+  margin-bottom: 81px;
 }
 
 .mainTitle {
   margin: 0 0 8px;
-  font-size: 28px;
+  font-size: 37px;
   line-height: 1.2;
-  font-weight: 800;
+  font-weight: 700;
   background: linear-gradient(90deg, #0f7afb 40%, #4b4ae7 60%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -44,8 +44,9 @@
 .stepRow {
   display: flex;
   width: 100%;
-  padding: 0 20px 26px; /* extra bottom so the long arc has room */
+  padding: 0px 71px 6px;
   position: relative;
+  margin-bottom: -41px;
 }
 
 .left {
@@ -62,7 +63,7 @@
   align-items: flex-start;
   max-width: 360px;
   position: relative;
-  z-index: 2; /* keep cards above the arc for a crisp overlap */
+  z-index: 2; /* keep cards above arrows */
 }
 
 .left .stepContent {
@@ -104,7 +105,7 @@
 }
 
 .stepTitle {
-  font-size: 17px;
+  font-size: 28px;
   font-weight: 700;
   color: #181828;
   margin-bottom: 10px;
@@ -118,39 +119,23 @@
   line-height: 1.5;
 }
 
-/* Arrow container + svg */
-.arrow {
-  display: flex;
-  align-items: center;
-  margin-top: 18px;
-  margin-bottom: -8px; /* slight lift to match the reference look */
+/* Arrow container + image */
+.arrowWrapper {
   position: relative;
-  z-index: 1; /* behind the card but above the background */
+  display: flex;
+  justify-content: center;
+  height: 60px; /* give some vertical space for arrow */
+  margin-top: -20px; /* pull closer to previous card */
 }
 
-.arrowSvg {
-  width: 360px; /* desktop length to match the screenshot */
+.arrowImg {
+  width: 120px;
   height: auto;
-  display: block;
+  transform: translateY(-30px); /* adjust to align with card edge */
 }
 
 /* ---------- Responsive ---------- */
-@media (max-width: 1200px) {
-  .arrowSvg {
-    width: 320px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .arrowSvg {
-    width: 300px;
-  }
-}
-
 @media (max-width: 720px) {
-  .arrowSvg {
-    width: 220px;
-  } /* shorten arc on small screens */
   .left .stepContent,
   .right .stepContent {
     margin-left: 8px;

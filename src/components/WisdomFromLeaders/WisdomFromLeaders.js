@@ -50,11 +50,7 @@ const WisdomFromLeaders = () => {
           <h2 className={styles.mainTitle}>
             Wisdom from Founders & AI Leaders
           </h2>
-          <p className={styles.subtitle}>
-            Learn from visionaries in AI and GenAI. Our podcast offers insights,
-            <br />
-            growth lessons, and predictions from founders and leaders.
-          </p>
+
           <button className={styles.ctaButton}>Watch All Episodes</button>
         </div>
 
