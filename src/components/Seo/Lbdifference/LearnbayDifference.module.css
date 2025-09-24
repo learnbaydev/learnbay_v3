@@ -15,7 +15,7 @@
 /* Top Section Styling */
 .topSection {
   background: #fff;
-  padding: 48px 40px;
+  padding: 48px 40px 0 40px;
   position: relative;
 }
 
@@ -74,7 +74,12 @@
 }
 
 .secondaryTitle {
-  color: #1e40af;
+  background: linear-gradient(90deg, #0f7afb 0%, #4b4ae7 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+
   font-size: 32px;
   font-weight: 700;
   margin: 0 0 24px 0;
