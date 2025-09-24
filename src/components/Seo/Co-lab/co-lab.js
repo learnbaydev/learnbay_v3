@@ -55,8 +55,8 @@ const AICoLabExperience = ({
             {/* Gold Badge */}
             <div className={styles.badge}>
               <div className={styles.badgeIcon}>
-                <img
-                  src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Group+2314.webp"
+                <Image
+                  src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Group+2314.webp"
                   alt="Star Icon"
                   width={30}
                   height={30}
@@ -85,7 +85,7 @@ const AICoLabExperience = ({
               that proves industry experience
             </p>
 
-            {/* /* Action Buttons */}
+            {/* Action Buttons */}
             <div className={styles.buttonGroup}>
               <button
                 onClick={requestDemoShow}
@@ -97,7 +97,9 @@ const AICoLabExperience = ({
                 className={styles.secondaryButton}
                 onClick={() =>
                   window.open(
-                    "https://www.youtube.com/playlist?list=PLl1gyDCKkiQRVRI-K7zwbtCwn6zj3nzkC"
+                    "https://www.youtube.com/playlist?list=PLl1gyDCKkiQRVRI-K7zwbtCwn6zj3nzkC",
+                    "_blank",
+                    "noopener,noreferrer"
                   )
                 }
               >
@@ -106,6 +108,8 @@ const AICoLabExperience = ({
               </button>
             </div>
           </div>
+
+          {/* Right Image (priority added here) */}
           <div className={styles.imageContainer}>
             <div className={styles.imageWrapper}>
               <Image
@@ -114,8 +118,9 @@ const AICoLabExperience = ({
                 className={styles.mainImage}
                 width={470}
                 height={470}
+                priority // ✅ this preloads image for LCP
+                sizes="(max-width: 480px) 280px, (max-width: 768px) 360px, 470px"
               />
-              {/* Decorative elements */}
               <div className={styles.glowEffect}></div>
               <div className={styles.orbitRing1}></div>
               <div className={styles.orbitRing2}></div>
