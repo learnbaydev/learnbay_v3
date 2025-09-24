@@ -1,12 +1,33 @@
-import React from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import styles from "./CertificateComponent.module.css";
+import PopupContent from "@/components/Global/PopupContent/PopupContent";
 
-const CertificateComponent = () => {
+const CertificateComponent = ({
+  interstedInHide,
+  titleCourse,
+  brochureLink,
+  brochurePdf,
+  downloadBrochure,
+}) => {
+  const [popups, setPopups] = useState(false);
+  const [requestDemoPopup, setRequestDemoPopup] = useState(false);
+
+  const popupShow = useCallback(() => {
+    setPopups(true);
+  }, []);
+
+  const requestDemoShow = useCallback(() => {
+    setRequestDemoPopup(true);
+  }, []);
+
+  useEffect(() => {
+    // console.log(brochurePdf);
+  }, []);
   const certificates = [
     {
       id: 1,
@@ -22,6 +43,28 @@ const CertificateComponent = () => {
 
   return (
     <div className={styles.certificateContainer}>
+      <PopupContent
+        popups={popups}
+        setPopups={setPopups}
+        heading="Download Syllabus"
+        downloadBrochure
+        dataScience={true}
+        interstedInHide={interstedInHide}
+        upSkillingHide={true}
+        titleCourse={titleCourse}
+        brochureLink={brochureLink}
+        brochurePdf={brochurePdf}
+        // DSADemoSession={true}
+      />
+      <PopupContent
+        popups={requestDemoPopup}
+        setPopups={setRequestDemoPopup}
+        heading="Book Your Demo Session"
+        // downloadBrochure
+        dataScienceCounselling={true}
+        interstedInHide={interstedInHide}
+        DSADemoSession={true}
+      />
       <div className={styles.contentBox}>
         <div className="containerWidth">
           <div className={styles.gridLayout}>
@@ -36,7 +79,9 @@ const CertificateComponent = () => {
                 <li>Stand out in interviews</li>
                 <li>Build a portfolio recruiters love</li>
               </ul>
-              <button className={styles.knowMoreBtn}>Know More</button>
+              <button onClick={popupShow} className={styles.knowMoreBtn}>
+                Know More
+              </button>
             </div>
 
             {/* Right Side - Certificate Slider */}

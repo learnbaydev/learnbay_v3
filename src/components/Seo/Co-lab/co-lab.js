@@ -1,9 +1,53 @@
-import React from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import styles from "./AICoLabExperience.module.css";
 
-const AICoLabExperience = () => {
+import PopupContent from "@/components/Global/PopupContent/PopupContent";
+
+const AICoLabExperience = ({
+  interstedInHide,
+  titleCourse,
+  brochureLink,
+  brochurePdf,
+  downloadBrochure,
+}) => {
+  const [popups, setPopups] = useState(false);
+  const [requestDemoPopup, setRequestDemoPopup] = useState(false);
+
+  const popupShow = useCallback(() => {
+    setPopups(true);
+  }, []);
+
+  const requestDemoShow = useCallback(() => {
+    setRequestDemoPopup(true);
+  }, []);
+
+  useEffect(() => {
+    // console.log(brochurePdf);
+  }, []);
   return (
     <section className={styles.aiCoLabSection}>
+      <PopupContent
+        popups={popups}
+        setPopups={setPopups}
+        heading="Download Syllabus"
+        downloadBrochure
+        dataScience={true}
+        interstedInHide={interstedInHide}
+        upSkillingHide={true}
+        titleCourse={titleCourse}
+        brochureLink={brochureLink}
+        brochurePdf={brochurePdf}
+        // DSADemoSession={true}
+      />
+      <PopupContent
+        popups={requestDemoPopup}
+        setPopups={setRequestDemoPopup}
+        heading="Book Your Demo Session"
+        // downloadBrochure
+        dataScienceCounselling={true}
+        interstedInHide={interstedInHide}
+        DSADemoSession={true}
+      />
       <div className={styles.container}>
         <div className={styles.mainContent}>
           {/* Left Content */}
@@ -43,7 +87,9 @@ const AICoLabExperience = () => {
 
             {/* /* Action Buttons */}
             <div className={styles.buttonGroup}>
-              <button className={styles.primaryButton}>Know More</button>
+              <button onClick={popupShow} className={styles.primaryButton}>
+                Know More
+              </button>
               <button
                 className={styles.secondaryButton}
                 onClick={() =>

@@ -6,8 +6,8 @@ import Footer from "@/components/Global/Footer/Footer";
 import Form from "@/components/Global/Form/Form";
 import Navbar from "@/components/Global/Navbar/Navbar";
 import Popup from "@/components/Global/Popup/Popup";
-import FeeSection from "@/components/Seo/FeeSection/FeeSection";
 import styles from "@/styles/Home.module.css";
+import NewSevenSection from "@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection";
 
 const LabFirst = dynamic(() => import("@/components/Seo/Co-lab/co-lab"));
 const Lbdifference = dynamic(() =>
@@ -114,13 +114,28 @@ export default function Home() {
             <Form popup={true} setTrigger={setPopups} dataScience={true} />
           </div>
         </Popup>
-        <LabFirst />
+        <LabFirst
+          title={"Hello"}
+          spanTag={"hi"}
+          points={"points"}
+          mentorText={"mentortext"}
+          mentorFromImg={"mentorFromImg"}
+          titleCourse="Data Structure Algorithms & System Design"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud+and+Devops+Engineering+Master+Certification_prog.pdf"
+          brochurePdf={pdfUrl}
+          interstedInHide={true}
+        />
         <Lbdifference />
         <UnderstandingProcess />
         <Benefits />
-        <AchievementCertificate />
+        <AchievementCertificate
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud+and+Devops+Engineering+Master+Certification_prog.pdf"
+          brochurePdf={pdfUrl}
+          interstedInHide={true}
+        />
         <WisdomFromLeaders />
         <PieChart />
+        <NewSevenSection />
         <Footer />
         {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>
