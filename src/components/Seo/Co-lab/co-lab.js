@@ -41,17 +41,22 @@ const AICoLabExperience = () => {
               that proves industry experience
             </p>
 
-            {/* Action Buttons */}
+            {/* /* Action Buttons */}
             <div className={styles.buttonGroup}>
               <button className={styles.primaryButton}>Know More</button>
-              <button className={styles.secondaryButton}>
+              <button
+                className={styles.secondaryButton}
+                onClick={() =>
+                  window.open(
+                    "https://www.youtube.com/playlist?list=PLl1gyDCKkiQRVRI-K7zwbtCwn6zj3nzkC"
+                  )
+                }
+              >
                 <div className={styles.playIcon}>▶</div>
                 Learn from AI Leaders
               </button>
             </div>
           </div>
-
-          {/* Right Side Image */}
           <div className={styles.imageContainer}>
             <div className={styles.imageWrapper}>
               <img
