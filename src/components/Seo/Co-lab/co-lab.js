@@ -60,6 +60,8 @@ const AICoLabExperience = ({
                   alt="Star Icon"
                   width={30}
                   height={30}
+                  quality={40}
+                  priority
                   className={styles.badgeIconImage}
                 />
               </div>
@@ -118,6 +120,7 @@ const AICoLabExperience = ({
                 className={styles.mainImage}
                 width={470}
                 height={470}
+                quality={40}
                 priority // ✅ this preloads image for LCP
                 sizes="(max-width: 480px) 280px, (max-width: 768px) 360px, 470px"
               />

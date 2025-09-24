@@ -27,6 +27,7 @@ const OutcomesSection = () => {
               height={500}
               className={styles.outcomeImage}
               priority
+              quality={70}
             />
           </div>
         </div>

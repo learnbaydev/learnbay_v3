@@ -34,6 +34,8 @@ const LearnbayDifference = () => {
                 alt="AI Co-Lab illustration"
                 width={160}
                 height={120}
+                loading="lazy"
+                quality={100}
                 className={styles.topImage}
               />
             </div>
@@ -47,6 +49,8 @@ const LearnbayDifference = () => {
                 alt="Development illustration"
                 width={160}
                 height={120}
+                priority
+                quality={100}
                 className={styles.bottomImage}
               />
 
