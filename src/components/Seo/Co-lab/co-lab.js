@@ -102,10 +102,10 @@ const AICoLabExperience = ({
 
             {/* Description Text */}
             <p className={styles.description}>
-              Work on live datasets and real problem statements
+              Work on live case studies and problem statements
               <br />
-              from <span className={styles.highlight}>30+ companies</span> using
-              AI & GenAI
+              from <span className={styles.highlight}>30+ companies</span> AI
+              startups
             </p>
 
             {/* Certificate Text */}
@@ -114,17 +114,24 @@ const AICoLabExperience = ({
               that proves industry experience
             </p>
 
-            {/* Action Buttons */}
+            {/* /* Action Buttons */}
             <div className={styles.buttonGroup}>
-              <button className={styles.primaryButton}>Know More</button>
-              <button className={styles.secondaryButton}>
+              <button onClick={popupShow} className={styles.primaryButton}>
+                Know More
+              </button>
+              <button
+                className={styles.secondaryButton}
+                onClick={() =>
+                  window.open(
+                    "https://www.youtube.com/playlist?list=PLl1gyDCKkiQRVRI-K7zwbtCwn6zj3nzkC"
+                  )
+                }
+              >
                 <div className={styles.playIcon}>▶</div>
                 Learn from AI Leaders
               </button>
             </div>
           </div>
-
-          {/* Right Side Image */}
           <div className={styles.imageContainer}>
             <div className={styles.imageWrapper}>
               <img

@@ -55,7 +55,7 @@
 
 .certificateBenefits li::before {
   content: "•";
-  color: #2563eb;
+  color: #676969;
   font-size: 1.5rem;
   position: absolute;
   left: 0;
@@ -127,7 +127,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  color: #2563eb;
+  color: #676969;
   font-size: 18px;
   font-weight: bold;
   transition: all 0.3s ease;
@@ -157,12 +157,12 @@
 }
 
 .customBulletActive {
-  background: #2563eb !important;
+  background: #676969 !important;
   transform: scale(1.2);
 }
 
 .customBullet:hover {
-  background: rgba(37, 99, 235, 0.7) !important;
+  background: rgba(128, 128, 129, 0.7) !important;
 }
 
 .certificateSwiper :global(.swiper-pagination) {
@@ -242,11 +242,7 @@
   }
 
   .certificateBenefits li {
-    font-size: 0.95rem;
-  }
-
-  .swiperContainer {
-    width: 100%;
-    /* max-width: 320px; */
+    font-size: 1rem;
+    text-align: left;
   }
 }

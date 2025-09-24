@@ -1,3 +1,5 @@
+"use client";
+
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
@@ -5,37 +7,34 @@ import React, { useEffect, useState } from "react";
 import { FaBars, FaChevronDown, FaChevronUp } from "react-icons/fa";
 import styles from "./Navbar.module.css";
 import { menuItem } from "./NavbarData";
+
 const Button = dynamic(() => import("../Button/Button"));
 const Tabs = dynamic(() => import("../Tabs/Tabs"));
 
 const NavbarContent = ({ adPage, setPopups, DMD, careerportalbtn }) => {
   const [icon, setIcon] = useState(false);
   const [show, setShow] = useState(false);
-
-  const handleIcon = (data) => {
-    setIcon(data);
-  };
-  const showMenu = () => {
-    setShow(!show);
-  };
   const [mobile, setMobile] = useState(false);
+
+  const handleIcon = (data) => setIcon(data);
+
+  const showMenu = () => setShow(!show);
+
   useEffect(() => {
-    let width = window.innerWidth;
-    if (width < 481) {
-      setMobile(true);
-    }
-    if (width > 481) {
-      setMobile(false);
-    }
+    const width = window.innerWidth;
+    setMobile(width < 481);
   }, []);
-  const popupShow = () => {
-    setPopups(true);
-  };
+
+  const popupShow = () => setPopups?.(true);
+
+  // Helper to mark AI Co-lab
+  const isAICoLab = (name) => name?.trim().toLowerCase() === "ai co-lab";
+
   return (
     <nav
       className={`${styles.nav} flexBox flexJustSpaceBetween flexAlignCenter`}
     >
-      <div className={`${styles.left} flexBox flexAlignCenter `}>
+      <div className={`${styles.left} flexBox flexAlignCenter`}>
         {adPage ? (
           ""
         ) : (
@@ -49,15 +48,16 @@ const NavbarContent = ({ adPage, setPopups, DMD, careerportalbtn }) => {
             />
             <div className={show ? styles.mobileWrapper : styles.hide}>
               <div className={styles.mobileMenu}>
-                {" "}
-                {menuItem.map((data) => {
-                  const { id, name, url } = data;
-                  return (
-                    <span onClick={showMenu} key={id}>
-                      <Link href={url}>{name}</Link>
-                    </span>
-                  );
-                })}
+                {menuItem.map(({ id, name, url }) => (
+                  <span onClick={showMenu} key={id}>
+                    <Link
+                      href={url}
+                      className={isAICoLab(name) ? styles.highlightSquare : ""}
+                    >
+                      {name}
+                    </Link>
+                  </span>
+                ))}
               </div>
             </div>
           </>
@@ -70,44 +70,42 @@ const NavbarContent = ({ adPage, setPopups, DMD, careerportalbtn }) => {
             quality={100}
             priority
             style={{ objectFit: "contain" }}
-            width={mobile ? "135" : "230"}
+            width={mobile ? 135 : 230}
             height={60}
           />
         ) : (
           <Link href="/" className={styles.logo}>
-            <div className="imgWrapper ">
+            <div className="imgWrapper">
               <Image
                 src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
                 alt="Learnbay"
                 quality={100}
                 priority
-                width={mobile ? "135" : "230"}
+                width={mobile ? 135 : 230}
                 height={60}
               />
             </div>
           </Link>
         )}
 
-        <>
-          {adPage ? (
-            ""
-          ) : (
-            <div
-              onMouseEnter={() => setIcon(true)}
-              onMouseOver={() => setIcon(true)}
-              onClick={() => {
-                setIcon(!icon);
-                setShow(false);
-              }}
-              className="flexBox"
-            >
-              <Button
-                text="Courses"
-                passIcon={icon ? <FaChevronUp /> : <FaChevronDown />}
-              />
-            </div>
-          )}
-        </>
+        {adPage ? (
+          ""
+        ) : (
+          <div
+            onMouseEnter={() => setIcon(true)}
+            onMouseOver={() => setIcon(true)}
+            onClick={() => {
+              setIcon(!icon);
+              setShow(false);
+            }}
+            className="flexBox"
+          >
+            <Button
+              text="Courses"
+              passIcon={icon ? <FaChevronUp /> : <FaChevronDown />}
+            />
+          </div>
+        )}
 
         {icon ? (
           <div
@@ -121,6 +119,7 @@ const NavbarContent = ({ adPage, setPopups, DMD, careerportalbtn }) => {
           ""
         )}
       </div>
+
       {DMD ? (
         <div
           className={`${styles.righta} flexBox flexAlignCenter flexJustSpaceBetween`}
@@ -134,40 +133,37 @@ const NavbarContent = ({ adPage, setPopups, DMD, careerportalbtn }) => {
             </div>
           </Link>
         </div>
+      ) : adPage ? (
+        <div
+          className={`${styles.righta} flexBox flexAlignCenter flexJustSpaceBetween`}
+        >
+          <div onClick={popupShow}>
+            <Button text="Apply Now" outline={true} />
+          </div>
+        </div>
       ) : (
-        <>
-          {adPage ? (
-            <div
-              className={`${styles.righta} flexBox flexAlignCenter flexJustSpaceBetween`}
-            >
-              <div onClick={popupShow}>
-                <Button text="Apply Now" outline={true} />
-              </div>
-            </div>
-          ) : (
-            <div
-              className={`${styles.right} flexBox flexAlignCenter flexJustSpaceBetween`}
-            >
-              {adPage
-                ? ""
-                : menuItem.map((data) => {
-                    const { id, name, url } = data;
-                    return (
-                      <span key={id}>
-                        <Link href={url}>{name}</Link>
-                      </span>
-                    );
-                  })}
+        <div
+          className={`${styles.right} flexBox flexAlignCenter flexJustSpaceBetween`}
+        >
+          {menuItem.map(({ id, name, url }) => (
+            <span key={id}>
+              <Link
+                href={url}
+                className={isAICoLab(name) ? styles.highlightSquare : ""}
+              >
+                {name}
+              </Link>
+            </span>
+          ))}
 
-{careerportalbtn ? (""):(
-   <div onClick={popupShow}>
-   <Button text="Apply Now" outline={true} />
- </div>
-)}
-             
+          {careerportalbtn ? (
+            ""
+          ) : (
+            <div onClick={popupShow}>
+              <Button text="Apply Now" outline={true} />
             </div>
           )}
-        </>
+        </div>
       )}
     </nav>
   );
