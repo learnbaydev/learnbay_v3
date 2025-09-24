@@ -198,8 +198,40 @@
     height: 280px;
   }
 
-  .certificateTextSection {
-    max-width: 100%;
+  .certificateImage {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: contain;
+  }
+
+  /* Bullet points cleaner */
+  .certificateBenefits {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 25px 0;
+  }
+
+  .certificateBenefits li {
+    font-size: 1.05rem;
+    color: #374151;
+    margin-bottom: 14px;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .certificateBenefits li::before {
+    content: "●"; /* simple round dot */
+    color: #676969;
+    font-size: 0.8rem;
+    /* justify-content: left; */
+  }
+  .certificateSwiper :global(.swiper-button-next),
+  .certificateSwiper :global(.swiper-button-prev) {
+    display: none !important;
   }
 }
 
@@ -223,5 +255,6 @@
   .certificateBenefits li {
     font-size: 1rem;
     text-align: left;
+    justify-content: left;
   }
 }
