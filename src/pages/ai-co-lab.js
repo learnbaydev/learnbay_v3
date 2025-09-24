@@ -6,9 +6,8 @@ import Footer from "@/components/Global/Footer/Footer";
 import Form from "@/components/Global/Form/Form";
 import Navbar from "@/components/Global/Navbar/Navbar";
 import Popup from "@/components/Global/Popup/Popup";
-import FeeSection from "@/components/Seo/FeeSection/FeeSection";
 import styles from "@/styles/Home.module.css";
-import PopupContent from "@/components/Global/PopupContent/PopupContent";
+import NewSevenSection from "@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection";
 
 const LabFirst = dynamic(() => import("@/components/Seo/Co-lab/co-lab"));
 const Lbdifference = dynamic(() =>
@@ -116,17 +115,11 @@ export default function Home() {
           </div>
         </Popup>
         <LabFirst
-          // title1={NewDSAData[0].header[0].title1}
-          // orgTitle={NewDSAData[0].header[0].orgTitle}
           title={"Hello"}
-          // title2={NewDSAData[0].header[0].title2}
           spanTag={"hi"}
-          // spanIcon={NewDSAData[0].header[0].spanIcon}
           points={"points"}
           mentorText={"mentortext"}
           mentorFromImg={"mentorFromImg"}
-          // descrption={NewDSAData[0].header[0].descrption}
-          // svgDSA={NewDSAData[0].header[0].svgDSA}
           titleCourse="Data Structure Algorithms & System Design"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud+and+Devops+Engineering+Master+Certification_prog.pdf"
           brochurePdf={pdfUrl}
@@ -135,9 +128,14 @@ export default function Home() {
         <Lbdifference />
         <UnderstandingProcess />
         <Benefits />
-        <AchievementCertificate />
+        <AchievementCertificate
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud+and+Devops+Engineering+Master+Certification_prog.pdf"
+          brochurePdf={pdfUrl}
+          interstedInHide={true}
+        />
         <WisdomFromLeaders />
         <PieChart />
+        <NewSevenSection />
         <Footer />
         {/* {popupData.length == 0 ? "" : <OfferPopup popupData={popupData} />} */}
       </main>
