@@ -24,20 +24,16 @@
 }
 
 .mainHeading {
-  max-width: 100%; /* prevent overflow */
-  font-size: 2.9rem;
+  margin: 0 0 8px;
+  font-size: 37px;
+  line-height: 1.2;
   font-weight: 700;
-  line-height: 1.1;
-  margin: 0;
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
-  letter-spacing: -0.02em;
-
-  /* Gradient text effect */
-  background: linear-gradient(90deg, #0f7afb 0%, #4b4ae7 100%);
-  -webkit-background-clip: text;
+  background: linear-gradient(90deg, #0f7afb 40%, #4b4ae7 60%);
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: transparent;
+
+  /* Fallback for older browsers */
 }
 
 .subHeading {
@@ -106,7 +102,7 @@
   }
 
   .mainHeading {
-    font-size: 1.7rem;
+    font-size: 37px;
   }
 
   .subHeading {

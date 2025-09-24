@@ -30,20 +30,14 @@
   grid-column: 1;
 }
 .mainTitle {
+  margin: 0 0 8px;
   font-size: 37px;
+  line-height: 1.2;
   font-weight: 700;
-  margin: 0 0 24px 0;
-  line-height: 1.3;
-
-  /* Gradient text effect */
-  background: linear-gradient(90deg, #0f7afb 0%, #4b4ae7 100%);
-  -webkit-background-clip: text;
+  background: linear-gradient(90deg, #0f7afb 40%, #4b4ae7 60%);
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: transparent;
-
-  /* Fallback for older browsers */
-  background-color: #0f7afb;
 }
 .description p {
   font-size: 23px;
@@ -74,11 +68,14 @@
 }
 
 .secondaryTitle {
-  color: #1e40af;
-  font-size: 32px;
+  margin: 0 0 8px;
+  font-size: 37px;
+  line-height: 1.2;
   font-weight: 700;
-  margin: 0 0 24px 0;
-  line-height: 1.3;
+  background: linear-gradient(90deg, #0f7afb 40%, #4b4ae7 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .bottomImage {
@@ -190,7 +187,7 @@
 
   .mainTitle,
   .secondaryTitle {
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 16px;
   }
 
@@ -213,7 +210,7 @@
 
   .mainTitle,
   .secondaryTitle {
-    font-size: 18px;
+    font-size: 30px;
   }
 
   .description {
