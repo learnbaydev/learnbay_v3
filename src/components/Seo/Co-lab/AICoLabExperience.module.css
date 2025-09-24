@@ -74,8 +74,6 @@
 }
 
 .mainImage {
-  width: 470px;
-  height: 470px;
   border-radius: 50%;
   object-fit: cover;
   position: relative;
