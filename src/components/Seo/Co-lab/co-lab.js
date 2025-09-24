@@ -87,7 +87,10 @@ const AICoLabExperience = ({
 
             {/* /* Action Buttons */}
             <div className={styles.buttonGroup}>
-              <button onClick={popupShow} className={styles.primaryButton}>
+              <button
+                onClick={requestDemoShow}
+                className={styles.primaryButton}
+              >
                 Know More
               </button>
               <button

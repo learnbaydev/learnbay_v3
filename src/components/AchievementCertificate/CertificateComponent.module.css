@@ -110,7 +110,10 @@
   padding: 15px;
   background: transparent;
 }
-
+.certificateSlide img {
+  width: 385;
+  height: auto;
+}
 .certificateImage {
   max-width: 100%;
   max-height: 100%;

@@ -6,6 +6,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import styles from "./CertificateComponent.module.css";
 import PopupContent from "@/components/Global/PopupContent/PopupContent";
+import Image from "next/image";
 
 const CertificateComponent = ({
   interstedInHide,
@@ -31,12 +32,12 @@ const CertificateComponent = ({
   const certificates = [
     {
       id: 1,
-      url: "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/OUTSPOKEN+CERTIFICATE+1.webp",
+      url: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/OUTSPOKEN+CERTIFICATE+1.webp",
       alt: "Outspoken Certificate",
     },
     {
       id: 2,
-      url: "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/ELEVON+1.webp",
+      url: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/ELEVON+1.webp",
       alt: "Elevon Certificate",
     },
   ];
@@ -79,7 +80,7 @@ const CertificateComponent = ({
                 <li>Stand out in interviews</li>
                 <li>Build a portfolio recruiters love</li>
               </ul>
-              <button onClick={popupShow} className={styles.knowMoreBtn}>
+              <button onClick={requestDemoShow} className={styles.knowMoreBtn}>
                 Know More
               </button>
             </div>
@@ -104,11 +105,17 @@ const CertificateComponent = ({
                   {certificates.map((certificate) => (
                     <SwiperSlide key={certificate.id}>
                       <div className={styles.certificateSlide}>
-                        <img
-                          src={certificate.url}
-                          alt={certificate.alt}
-                          className={styles.certificateImage}
-                        />
+                        <div className={styles.certificateSlide}>
+                          <Image
+                            src={certificate.url}
+                            alt={certificate.alt}
+                            className={styles.certificateImage}
+                            width={385}
+                            height={300}
+                            loading="lazy"
+                            quality={40}
+                          />
+                        </div>
                       </div>
                     </SwiperSlide>
                   ))}
