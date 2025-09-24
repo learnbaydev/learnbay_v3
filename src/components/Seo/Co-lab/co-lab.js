@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from "react";
 import styles from "./AICoLabExperience.module.css";
-
+import Image from "next/image";
 import PopupContent from "@/components/Global/PopupContent/PopupContent";
 
 const AICoLabExperience = ({
@@ -105,10 +105,12 @@ const AICoLabExperience = ({
           </div>
           <div className={styles.imageContainer}>
             <div className={styles.imageWrapper}>
-              <img
-                src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Header.webp"
+              <Image
+                src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Header.webp"
                 alt="AI Co-Lab Experience"
                 className={styles.mainImage}
+                width={470}
+                height={470}
               />
               {/* Decorative elements */}
               <div className={styles.glowEffect}></div>
