@@ -100,11 +100,11 @@ export default function HeroSection() {
                   </span>
                 </h1>
                 <p className={styles.subheading}>
-                  Work directly with AI startups,{" "}
+                  Join India's #1{" "}
                   <span className={styles.greenGradientText}>
-                    solve live GenAI & Agentic AI challenges
+                    Project-Based Upskilling
                   </span>{" "}
-                  and get certified by industry.
+                  Platform for Working Professionals
                 </p>
               </div>
 
