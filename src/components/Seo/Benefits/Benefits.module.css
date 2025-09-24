@@ -12,13 +12,13 @@
 }
 
 .title {
-  font-size: 32px;
+  margin: 0 0 8px;
+  font-size: 37px;
   line-height: 1.2;
   font-weight: 700;
-  margin: 0 0 8px;
-  background: linear-gradient(90deg, #4b4ae7, #0f7afb);
-  -webkit-background-clip: text;
+  background: linear-gradient(90deg, #0f7afb 40%, #4b4ae7 60%);
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -133,7 +133,7 @@
     padding: 28px 12px;
   }
   .title {
-    font-size: 22px;
+    font-size: 30px;
   }
   .image {
     height: 140px;
