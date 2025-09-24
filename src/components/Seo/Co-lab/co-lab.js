@@ -29,10 +29,10 @@ const AICoLabExperience = () => {
 
             {/* Description Text */}
             <p className={styles.description}>
-              Work on live datasets and real problem statements
+              Work on live case studies and problem statements
               <br />
-              from <span className={styles.highlight}>30+ companies</span> using
-              AI & GenAI
+              from <span className={styles.highlight}>30+ companies</span> AI
+              startups
             </p>
 
             {/* Certificate Text */}
