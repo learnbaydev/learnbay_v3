@@ -54,10 +54,6 @@ export default function Benefits() {
     <section className={styles.wrapper}>
       <div className={`${styles.header} ${styles.headerResponsive}`}>
         <h2 className={styles.title}>What Benefits Can I Expect to Receive?</h2>
-        <p className={styles.subtitle}>
-          Gain insights from AI visionaries. Our podcast shares lessons and
-          predictions from leaders.
-        </p>
       </div>
 
       {/* Desktop / tablet (unchanged): grid cards */}
