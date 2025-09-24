@@ -44,7 +44,6 @@
 .stepRow {
   display: flex;
   width: 100%;
-  padding: 0px 71px 6px;
   position: relative;
   margin-bottom: -15px;
 }
@@ -129,9 +128,10 @@
 }
 
 .arrowImg {
-  width: 120px;
-  height: auto;
-  transform: translateY(-30px); /* adjust to align with card edge */
+  width: 279px;
+  height: 117px;
+  transform: translateY(-57px);
+  margin-top: -110px; /* adjust to align with card edge */
 }
 
 /* ---------- Responsive ---------- */
