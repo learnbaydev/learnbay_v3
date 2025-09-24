@@ -117,11 +117,15 @@
   .topContent {
     grid-template-columns: 60% 35%;
     gap: 24px;
+    display: flex;
+    flex-flow: column-reverse;
   }
 
   .bottomContent {
     grid-template-columns: 35% 60%;
     gap: 24px;
+    display: flex;
+    flex-flow: column;
   }
 
   .mainTitle,
