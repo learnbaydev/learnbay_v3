@@ -1,0 +1,448 @@
+/* Main Section Styles */
+.aiCoLabSection {
+  background: linear-gradient(98deg, #041d62 2.16%, #00081b 95.2%);
+  min-height: 435px;
+  padding: 60px 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  padding-top: 130px;
+}
+
+.aiCoLabSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.08) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+/* Main Content Layout */
+.mainContent {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.content {
+  max-width: 600px;
+  flex: 1;
+}
+
+/* Image Container Styles */
+.imageContainer {
+  flex: 0 0 500px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* 🎯 New: gentle floating animation on the wrapper (so hover transform on image doesn't cancel it) */
+  animation: float 7s ease-in-out infinite;
+  will-change: transform;
+  transform-style: preserve-3d;
+}
+
+.imageWrapper:hover {
+  /* slightly faster float on hover for a lively feel */
+  animation-duration: 5s;
+}
+
+.mainImage {
+  width: 470px;
+  height: 470px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+  z-index: 3;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+
+  /* 🎯 New: interactive hover */
+  transition: transform 0.4s ease, box-shadow 0.4s ease, filter 0.4s ease;
+  backface-visibility: hidden;
+  will-change: transform, box-shadow, filter;
+}
+
+.imageWrapper:hover .mainImage {
+  transform: scale(1.05) rotate(2deg);
+  box-shadow: 0 28px 60px rgba(0, 0, 0, 0.45);
+  filter: saturate(1.05);
+}
+
+.glowEffect {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 280px;
+  height: 280px;
+  background: radial-gradient(
+    circle,
+    rgba(33, 150, 243, 0.3) 0%,
+    rgba(33, 150, 243, 0.1) 50%,
+    transparent 70%
+  );
+  border-radius: 50%;
+  z-index: 1;
+
+  /* 🎯 New: subtle pulsing glow */
+  animation: pulse 3.2s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
+.orbitRing1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 370px;
+  height: 370px;
+  border: 2px solid rgba(101, 158, 204, 0.3);
+  border-radius: 50%;
+  border-top-color: #0968b5;
+  animation: spin 10s linear infinite;
+  z-index: 2;
+
+  /* 🎯 New: speed up slightly on hover */
+  transition: animation-duration 0.2s ease;
+}
+
+.orbitRing2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  height: 450px;
+  border: 1px solid rgba(16, 246, 161, 0.2);
+  border-radius: 50%;
+  border-right-color: #1e9970;
+  animation: spin 15s linear infinite reverse;
+  z-index: 1;
+  transition: animation-duration 0.2s ease;
+}
+
+.imageWrapper:hover .orbitRing1 {
+  animation-duration: 8s;
+}
+.imageWrapper:hover .orbitRing2 {
+  animation-duration: 12s;
+}
+
+/* Badge Styles */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 16px;
+  border-radius: 25px;
+  margin-bottom: 32px;
+  box-shadow: 0 2px 8px rgba(255, 215, 0, 0.4);
+  backdrop-filter: blur(4.636153697967529px);
+  border: 1px solid rgba(255, 255, 255, 0.41);
+}
+
+.badgeIcon {
+  font-size: 16px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badgeIconImage {
+  border-radius: 4px;
+}
+
+.badgeText {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.2px;
+  white-space: nowrap;
+}
+
+/* Typography Styles */
+.mainHeading {
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+  line-height: 1.2;
+  margin: 0 0 24px 0;
+  letter-spacing: -0.5px;
+}
+
+.description {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.6;
+  margin: 0 0 20px 0;
+  font-weight: 400;
+}
+
+.highlight {
+  color: #04c988;
+  font-weight: 600;
+}
+
+.certificateText {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.6;
+  margin: 0 0 36px 0;
+}
+
+.boldText {
+  font-weight: 600;
+  color: white;
+}
+
+/* Button Styles */
+.buttonGroup {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.primaryButton {
+  background: #2196f3;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(33, 150, 243, 0.3);
+}
+
+.primaryButton:hover {
+  background: #1976d2;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(33, 150, 243, 0.4);
+}
+
+.secondaryButton {
+  background: white;
+  color: #333;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.secondaryButton:hover {
+  background: #f5f5f5;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.playIcon {
+  width: 20px;
+  height: 20px;
+  background: #333;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  padding-left: 2px;
+}
+
+/* Animations */
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+/* 🎯 New keyframes */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.15);
+    opacity: 1;
+  }
+}
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .imageWrapper,
+  .glowEffect,
+  .orbitRing1,
+  .orbitRing2 {
+    animation: none !important;
+  }
+  .mainImage {
+    transition: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .aiCoLabSection {
+    padding: 40px 16px;
+    min-height: 380px;
+    padding-top: 110px;
+  }
+
+  .aiCoLabSection::before {
+    background-size: 30px 30px;
+  }
+
+  .mainContent {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .imageContainer {
+    flex: 0 0 400px;
+    justify-content: center;
+    order: 1; /* 👈 this ensures image goes BELOW text */
+  }
+
+  .imageWrapper {
+    width: 400px;
+    height: 400px;
+  }
+
+  .mainImage {
+    width: 280px;
+    height: 280px;
+  }
+
+  .glowEffect {
+    width: 300px;
+    height: 300px;
+  }
+
+  .orbitRing1 {
+    width: 320px;
+    height: 320px;
+  }
+
+  .orbitRing2 {
+    width: 350px;
+    height: 350px;
+  }
+
+  .mainHeading {
+    font-size: 36px;
+  }
+
+  .description,
+  .certificateText {
+    font-size: 16px;
+  }
+
+  .buttonGroup {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .primaryButton,
+  .secondaryButton {
+    padding: 12px 24px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 320px) {
+  .aiCoLabSection::before {
+    background-size: 25px 25px;
+  }
+
+  .imageContainer {
+    flex: 0 0 320px;
+    justify-content: center;
+  }
+
+  .imageWrapper {
+    width: 320px;
+    height: 320px;
+  }
+
+  .mainImage {
+    width: 220px;
+    height: 220px;
+  }
+
+  .glowEffect {
+    width: 240px;
+    height: 240px;
+  }
+
+  .orbitRing1 {
+    width: 260px;
+    height: 260px;
+  }
+
+  .orbitRing2 {
+    width: 290px;
+    height: 290px;
+  }
+
+  .mainHeading {
+    font-size: 32px;
+  }
+
+  .badge {
+    padding: 6px 14px;
+  }
+
+  .badgeText {
+    font-size: 13px;
+  }
+}
