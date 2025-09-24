@@ -1,6 +1,5 @@
 import React, { useCallback, useEffect, useState } from "react";
 import styles from "./AICoLabExperience.module.css";
-
 import PopupContent from "@/components/Global/PopupContent/PopupContent";
 
 const AICoLabExperience = ({
@@ -87,7 +86,10 @@ const AICoLabExperience = ({
 
             {/* /* Action Buttons */}
             <div className={styles.buttonGroup}>
-              <button onClick={popupShow} className={styles.primaryButton}>
+              <button
+                onClick={requestDemoShow}
+                className={styles.primaryButton}
+              >
                 Know More
               </button>
               <button

@@ -4,30 +4,28 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
+import Image from "next/image";
 
 const benefitsData = [
   {
     title: "What skills will I actually build?",
     description:
       "Problem-solving on real datasets, GenAI application, and end-to-end project execution.",
-    image:
-      "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Benefit-1.webp",
+    image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Benefit-1.webp",
     alt: "Stacking wooden blocks",
   },
   {
     title: "How does this help in jobs?",
     description:
       "Recruiters see validated, company-backed projects on your profile — which makes you job-ready faster.",
-    image:
-      "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Benefit-2.webp",
+    image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Benefit-2.webp",
     alt: "Candidate in an interview",
   },
   {
     title: "Do I get interview support after this?",
     description:
       "Yes, these projects strengthen your portfolio + interview prep sessions, improving hiring chance.",
-    image:
-      "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Benefit-3.webp",
+    image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Benefit-3.webp",
     alt: "Interview discussion at a table",
   },
 ];
@@ -72,11 +70,14 @@ export default function Benefits() {
                 <div className={styles.badge} aria-hidden="true">
                   ↗
                 </div>
-                <img
+                <Image
                   className={styles.image}
                   src={b.image}
                   alt={b.alt}
                   loading="lazy"
+                  quality={70}
+                  width={400}
+                  height={300}
                 />
               </div>
             </article>
@@ -103,11 +104,14 @@ export default function Benefits() {
                     <div className={styles.badge} aria-hidden="true">
                       ↗
                     </div>
-                    <img
+                    <Image
                       className={styles.image}
                       src={b.image}
                       alt={b.alt}
                       loading="lazy"
+                      quality={70}
+                      width={400}
+                      height={300}
                     />
                   </div>
                 </article>

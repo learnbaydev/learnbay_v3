@@ -26,7 +26,9 @@ const AchievementCertificate = dynamic(() =>
 const WisdomFromLeaders = dynamic(() =>
   import("@/components/WisdomFromLeaders/WisdomFromLeaders")
 );
-const PieChart = dynamic(() => import("@/components/piechart/piechart"));
+const PieChart = dynamic(() => import("@/components/piechart/piechart"), {
+  ssr: false,
+});
 
 // const OfferPopup = dynamic(() => import("@/components/Global/OfferPopup/OfferPopup"));
 // const popupData = DSABangaloreCourseData.popupData;
