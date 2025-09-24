@@ -1,5 +1,5 @@
 .processSection {
-  background: #fff;
+  background: #fafafa;
   padding: 60px 0;
   width: 100%;
 }
@@ -46,7 +46,7 @@
   width: 100%;
   padding: 0px 71px 6px;
   position: relative;
-  margin-bottom: -90px;
+  margin-bottom: -15px;
 }
 
 .left {
