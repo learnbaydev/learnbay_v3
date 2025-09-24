@@ -48,10 +48,6 @@ const UnderstandingProcess = () => (
     <div className={styles.container}>
       <div className={styles.header}>
         <h2 className={styles.mainTitle}>How does it work?</h2>
-        <p className={styles.subtitle}>
-          Gain insights from AI visionaries. Our podcast shares lessons and
-          predictions from leaders.
-        </p>
       </div>
 
       <div className={styles.stepsStack}>
