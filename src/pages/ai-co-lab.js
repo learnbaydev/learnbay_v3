@@ -41,7 +41,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Data Structures & Algorithms | DSA Course in Bangalore</title>
+        <title>AI Co-Lab</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"

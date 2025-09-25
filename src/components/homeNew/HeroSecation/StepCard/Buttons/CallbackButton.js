@@ -3,7 +3,7 @@ import { Loader2, Phone } from "lucide-react";
 import { apiRequest } from "@/lib/queryClient";
 import styles from "./buttons.module.css";
 import PopupContent from "@/components/Global/PopupContent/PopupContent";
-import { useRouter } from "next/router";
+
 /**
  * @param {{ toast: function }} props
  */
@@ -19,13 +19,8 @@ export default function CallbackButton({
 }) {
   const [loading, setLoading] = useState(false);
   const [popups, setPopups] = useState(false);
-  const router = useRouter();
   const popupShow = () => {
     setPopups(true);
-  };
-
-  const linkAiCoLab = () => {
-    router.push("/ai-co-lab");
   };
 
   return (
@@ -43,11 +38,16 @@ export default function CallbackButton({
         heading="Apply For Counselling"
       />
       <button
-        onClick={linkAiCoLab}
+        onClick={popupShow}
         disabled={loading}
         className={`${styles.button} ${styles.callbackButton}`}
       >
-        Explore AI Co-Lab
+        {loading ? (
+          <Loader2 className={`${styles.icon} ${styles.spin}`} />
+        ) : (
+          <Phone className={styles.icon} />
+        )}
+        Get Expert Callback
       </button>
     </>
   );

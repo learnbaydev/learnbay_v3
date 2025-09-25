@@ -97,7 +97,7 @@ const WisdomFromLeaders = () => {
                   alt={`${episode.name} logo`}
                   className={styles.companyLogo}
                   loading="lazy"
-                  quality={70}
+                  quality={100}
                   width={400}
                   height={300}
                 />

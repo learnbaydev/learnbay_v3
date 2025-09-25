@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./UnderstandingProcess.module.css";
+import Image from "next/image";
 
 const steps = [
   {
@@ -38,9 +39,9 @@ const steps = [
 
 // Define arrow sequence
 const arrows = [
-  "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Group+2985.webp", // 1 -> 2
-  "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Group+2986.webp", // 2 -> 3
-  "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Group+2985.webp", // 3 -> 4
+  "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Group+2985.webp", // 1 -> 2
+  "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Group+2986.webp", // 2 -> 3
+  "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Group+2985.webp", // 3 -> 4
 ];
 
 const UnderstandingProcess = () => (
@@ -75,10 +76,12 @@ const UnderstandingProcess = () => (
             {/* Add arrow image after step (but not after the last step)  */}
             {idx < steps.length - 1 && (
               <div className={styles.arrowWrapper}>
-                <img
+                <Image
                   src={arrows[idx]}
                   alt={`Arrow from step ${idx + 1} to ${idx + 2}`}
                   className={styles.arrowImg}
+                  height={130}
+                  width={240}
                 />
               </div>
             )}

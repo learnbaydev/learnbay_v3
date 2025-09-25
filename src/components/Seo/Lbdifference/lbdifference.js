@@ -32,8 +32,8 @@ const LearnbayDifference = () => {
               <Image
                 src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/ai_.webp"
                 alt="AI Co-Lab illustration"
-                width={160}
-                height={120}
+                width={500}
+                height={390}
                 loading="lazy"
                 quality={100}
                 className={styles.topImage}
@@ -47,8 +47,8 @@ const LearnbayDifference = () => {
               <Image
                 src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/ai_2.webp"
                 alt="Development illustration"
-                width={160}
-                height={120}
+                width={500}
+                height={390}
                 priority
                 quality={100}
                 className={styles.bottomImage}
