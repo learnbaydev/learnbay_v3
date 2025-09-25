@@ -75,8 +75,10 @@ const AICoLabExperience = ({
 
             {/* Description Text */}
             <p className={styles.description}>
-              Work on live case studies and problem statements
-              <br />
+              Work on live case studies and problem statements{" "}
+              <span className={styles.hideOnMobile}>
+                <br />
+              </span>{" "}
               from <span className={styles.highlight}>30+ companies</span> AI
               startups
             </p>
