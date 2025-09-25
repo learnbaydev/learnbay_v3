@@ -160,7 +160,7 @@ export default function Home() {
           ThirdTyped="Live Interactive Classes"
           cityParaCont=" Enroll in the best Job-ready full-stack software development course in Hyderabad. Take a 10-step step ahead of others towards the most lucrative salary package of product-based MNCs, which you deserve."
           titleCourse="Full-Stack Software Developer Course In Hyderabad To Achieve Your Dream Job"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressedv1.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full_Stack_Software_Development_Master_Certification_Program.pdf"
           brochurePdf={pdfUrl}
           dataScience={true}
           interstedInHide={true}

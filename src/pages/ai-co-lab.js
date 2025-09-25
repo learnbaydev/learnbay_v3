@@ -123,7 +123,7 @@ export default function Home() {
           mentorText={"mentortext"}
           mentorFromImg={"mentorFromImg"}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud+and+Devops+Engineering+Master+Certification_prog.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud_and_Devops_Master_Certification.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
@@ -131,7 +131,7 @@ export default function Home() {
         <UnderstandingProcess />
         <Benefits />
         <AchievementCertificate
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud+and+Devops+Engineering+Master+Certification_prog.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud_and_Devops_Master_Certification.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />

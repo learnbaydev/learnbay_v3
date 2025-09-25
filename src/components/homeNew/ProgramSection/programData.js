@@ -42,7 +42,7 @@ export const programCards = [
     secondeligibilitytitle: " Interview Preparation",
     readyfor: "Get Job Ready For",
     brochureUrl:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressedv1.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full_Stack_Software_Development_Master_Certification_Program.pdf",
     pdfUrl:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressed.pdf",
     theme: "purple",
@@ -69,7 +69,7 @@ export const programCards = [
     secondeligibilitytitle: "personalized job calls",
     readyfor: "Be an Expert Using",
     brochureUrl:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud+and+Devops+Engineering+Master+Certification_prog.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud_and_Devops_Master_Certification.pdf",
     pdfUrl:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud+and+Devops+Engineering+Master+Certification_p.pdf",
     projects: "Projects:",
@@ -95,7 +95,7 @@ export const programCards = [
     eligibilitytitle: " Program Certification :",
     eligibility: "From Learnbay and partnered companies",
     brochureUrl:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Master+Certification+Program_comprv1.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Analytics_and_Business_Analytics_with_GenAI_Master_Certification_Program.pdf",
     pdfUrl:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Master+Certification+Program_compr.pdf",
     projects: "Projects:",

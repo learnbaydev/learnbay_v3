@@ -166,7 +166,7 @@ export default function Home() {
           dataScience={true}
           interstedInHide={true}
           brochurePdf={pdfUrl}
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressedv1.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full_Stack_Software_Development_Master_Certification_Program.pdf"
           FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/head/W+Dev.png"
           firstHeading="Full-Stack Software Developer Course In Chennai "
           firstToparaImg="To Achieve Your Dream Job"

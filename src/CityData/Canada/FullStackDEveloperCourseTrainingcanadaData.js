@@ -776,7 +776,7 @@ export const FScanadaCourseData = [
     ModuleBot3:
       "Learnbay's Full-stack software developer course in Canada includes topics like complexity classes (P vs. NP problem), AVL tree, Best-average-worst case complexities hierarchy, recursion and graph, string, stack, array overview, backtracking algorithm, and many other trending tools.",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressedv1.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full_Stack_Software_Development_Master_Certification_Program.pdf",
     JobHead1:
       "'Mock interview sessions, preparing Learnbay alumni for their dream interviews.'",
     JobBot1:

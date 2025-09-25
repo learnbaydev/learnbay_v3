@@ -849,7 +849,7 @@ export const FullStackChennaiCourseData = [
     ModuleBot3:
       "Learnbay Full-stack software development course in Chennai covers String, Stack, array overview, binary research, Best, average, and worst case complexities hierarchy, Complexity classes (P vs. NP problem), AVL tree, backtracking algorithm, recursion and graph, and many more trending tools.",
     syllabussrc:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressedv1.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full_Stack_Software_Development_Master_Certification_Program.pdf",
     JobHead1:
       "'mock interview sessions, preparing Learnbay alumni for their dream interviews.'",
     JobBot1:
