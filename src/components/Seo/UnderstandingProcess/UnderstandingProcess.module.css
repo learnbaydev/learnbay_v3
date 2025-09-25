@@ -1,0 +1,161 @@
+.processSection {
+  background: #fafafa;
+  padding: 60px 0;
+  width: 100%;
+}
+
+/* optional wrapper to keep content centered and wide */
+.container {
+  max-width: 1136px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 81px;
+}
+
+.mainTitle {
+  margin: 0 0 8px;
+  font-size: 37px;
+  line-height: 1.2;
+  font-weight: 700;
+  background: linear-gradient(90deg, #0f7afb 40%, #4b4ae7 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  margin: 0 auto;
+  max-width: 720px;
+  color: #636363;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.stepsStack {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.stepRow {
+  display: flex;
+  width: 100%;
+  position: relative;
+  margin-bottom: -15px;
+}
+
+.left {
+  justify-content: flex-start;
+}
+
+.right {
+  justify-content: flex-end;
+}
+
+.stepContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 360px;
+  position: relative;
+  z-index: 2; /* keep cards above arrows */
+}
+
+.left .stepContent {
+  margin-left: 48px;
+  margin-right: 0;
+}
+
+.right .stepContent {
+  margin-right: 48px;
+  margin-left: 0;
+}
+
+.stepNumber {
+  font-size: 48px;
+  font-weight: 900;
+  color: #e5e7eb;
+  position: absolute;
+  left: -6px;
+  top: -46px;
+  user-select: none;
+}
+
+.iconWrapper {
+  width: 36px;
+  height: 36px;
+  background: var(--arrow-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-bottom: 8px;
+  position: relative;
+  z-index: 2;
+}
+
+.iconImg {
+  width: 55px;
+  height: 47px;
+}
+
+.stepTitle {
+  font-size: 28px;
+  font-weight: 700;
+  color: #181828;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.stepDescription {
+  font-size: 14px;
+  color: #5a5a5a;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Arrow container + image */
+.arrowWrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 60px; /* give some vertical space for arrow */
+  margin-top: -20px; /* pull closer to previous card */
+}
+
+.arrowImg {
+  width: 279px;
+  height: 117px;
+  transform: translateY(-57px);
+  margin-top: -110px; /* adjust to align with card edge */
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 720px) {
+  /* already present… */
+  .left .stepContent,
+  .right .stepContent {
+    margin-left: 8px;
+    margin-right: 8px;
+    max-width: 94vw;
+  }
+  .stepRow {
+    padding-bottom: 18px;
+    /* ✅ override the desktop negative spacing so cards don't overlap when arrows are hidden */
+    margin-bottom: 24px;
+  }
+  .stepNumber {
+    font-size: 32px;
+    top: -30px;
+    z-index: 2; /* ensure it stays visible above content */
+  }
+
+  /* ✅ hide arrows only on mobile */
+  .arrowWrapper {
+    display: none !important;
+  }
+}

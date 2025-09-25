@@ -1,0 +1,416 @@
+/* LearningToPlacement.module.css */
+.wrapper {
+  background: linear-gradient(125deg, #08093d 3.22%, #141414 84.06%);
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  padding: 4rem 1rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.header {
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: white;
+  line-height: 1.4;
+  display: grid;
+  grid-template-columns: 25% 30% 30%;
+  gap: 30px;
+  justify-content: center;
+  align-items: start;
+}
+.ul {
+  margin-top: 30px;
+}
+.li {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 24px;
+}
+.top h3 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.des {
+  color: #b0b0b0;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 126.5%;
+  margin-bottom: 5px;
+}
+
+.span {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.highlight {
+  background: linear-gradient(97deg, #edbb52 38.18%, #ca3942 79.54%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 126.5%;
+}
+/* 
+.underline {
+  width: 90px;
+  height: 3px;
+  background: #ffd500;
+  margin: 0.5rem auto 0;
+} */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.card {
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 160px;
+  align-items: center;
+  text-align: center;
+}
+
+.skills {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 126.5%;
+  margin: 10px 0;
+}
+
+.red {
+  border-radius: 15px;
+  background: linear-gradient(180deg, #0c0c30 0%, #ca3942 163.45%);
+}
+
+.teal {
+  border-radius: 15px;
+  background: linear-gradient(177deg, #04c988 -107.23%, #11111f 97.39%);
+}
+
+.purple {
+  border-radius: 15px;
+  background: linear-gradient(
+    181deg,
+    #6f1cc7 -19.06%,
+    rgba(12, 02, 2, 0) 122.7%
+  );
+}
+
+.dark {
+  background-color: #1e1e2f;
+}
+
+.support {
+  background: linear-gradient(90deg, #302d2d, #5d4e2f);
+}
+
+.videoCard {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 160px;
+}
+
+.green {
+  color: #14e884;
+  font-weight: 600;
+}
+
+.orange {
+  color: #ffc107;
+  font-weight: 600;
+}
+
+.bold {
+  font-size: 1.8rem;
+  margin: 10px 0;
+  color: #fff;
+  font-weight: 600;
+  line-height: 126.5%;
+}
+
+.boldYellow {
+  color: #ef0;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 126.5%;
+  margin-bottom: 10px;
+}
+
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  opacity: 0.9;
+  justify-content: center;
+}
+
+.logos span {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 30px;
+  justify-content: center;
+  padding: 30px;
+}
+
+.left {
+  border-radius: 15px;
+  background: linear-gradient(
+    181deg,
+    #6f1cc7 -19.06%,
+    rgba(16, 16, 34, 0) 122.7%
+  );
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.pTag {
+  color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 126.5%;
+  text-align: center;
+  margin: 15px 0 10px;
+}
+
+.green {
+  color: #04c988;
+}
+
+.nor {
+  color: #fff;
+  font-weight: 300;
+}
+
+.learn {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 126.5%;
+  padding: 0 40px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.capstoneBox {
+  display: flex;
+  padding: 1.5rem 2rem;
+  align-items: center;
+  background: linear-gradient(70deg, #af8104 -10%, #161617 18%);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  justify-content: space-around;
+}
+
+.capLeft {
+  background: linear-gradient(122deg, #ffc752 25.75%, #785202 60.79%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.capLeft span {
+  font-weight: 600;
+  font-size: 45px;
+  color: #fec008;
+}
+
+.capRight h5 {
+  color: #fff;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 126.5%;
+  margin-bottom: 10px;
+}
+
+.capRight p {
+  color: #fff;
+  font-size: 25.698px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 126.5%; /* 45.158px */
+  color: #ffffffcc;
+}
+
+.capRight strong {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.supportBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(70deg, #af8104 -10%, #161617 18%);
+  padding: 1.8rem 2rem;
+  border-radius: 15px;
+  gap: 20px;
+}
+
+.supportText {
+  padding: 31px 50px;
+}
+.supportText h5 {
+  color: #edbb52;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 126.5%; /* 50.6px */
+}
+
+.supportText h5 span {
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.supportText p {
+  font-size: 16px;
+  color: #ffffff;
+  max-width: 400px;
+  color: #fff;
+  font-size: 24.698px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 126.5%; /* 45.158px */
+}
+
+.supportVideo img {
+  border-radius: 10px;
+  width: 280px;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .header {
+    grid-template-columns: 100%;
+    padding: 0% 20px;
+  }
+  .top h3 {
+    font-size: 2rem;
+  }
+  .des {
+    font-size: 16px;
+  }
+  .mainGrid {
+    grid-template-columns: 100%;
+    padding: 0% 20px;
+  }
+  .left {
+    padding: 0% 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    padding: 2rem 0.5rem;
+  }
+  .header {
+    gap: 24px;
+  }
+  .supportBox {
+    flex-direction: column;
+  }
+  .top h3 {
+    font-size: 2.5rem;
+    line-height: 1.3;
+  }
+  .des {
+    font-size: 14px;
+  }
+  .card {
+    padding: 1rem;
+    min-height: auto;
+  }
+  .bold {
+    font-size: 1.25rem;
+  }
+  .boldYellow {
+    font-size: 1.8rem;
+  }
+  .skills {
+    font-size: 0.9rem;
+  }
+  .logos {
+    gap: 0.4rem;
+    font-size: 0.65rem;
+  }
+  .logos span {
+    padding: 0.2rem 0.4rem;
+  }
+  .mainGrid {
+    gap: 20px;
+    padding: 0 12px;
+  }
+  .pTag {
+    font-size: 1.4rem;
+  }
+  .learn {
+    font-size: 0.9rem;
+    padding: 4px 20px;
+  }
+  .capLeft {
+    font-size: 48px;
+  }
+  .capLeft span {
+    font-size: 32px;
+  }
+  .capRight h5 {
+    font-size: 1.1rem;
+  }
+  .capRight p {
+    font-size: 0.9rem;
+  }
+  .supportText {
+    padding: 0;
+  }
+  .supportText h5 {
+    font-size: 2rem;
+  }
+  .supportText p {
+    font-size: 0.85rem;
+  }
+  .left {
+    padding: 12px;
+  }
+}

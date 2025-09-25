@@ -1744,6 +1744,17 @@ const nextConfig = {
         destination: "/",
         permanent: true,
       },
+      {
+        source:
+          "/cloud&amp;devops/bangalore/online-cloud-computing-course-bangalore",
+        destination: "/cloud&devops/online-cloud-computing-course-bangalore",
+        permanent: true,
+      },
+      {
+        source: "/cloud&amp;devops/pune/online-cloud-computing-course-pune",
+        destination: "/cloud&devops/online-cloud-computing-course-pune",
+        permanent: true,
+      },
     ];
   },
 };

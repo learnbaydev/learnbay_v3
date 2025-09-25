@@ -4,7 +4,7 @@ export const NewDSAData = [
   {
     header: [
       {
-        spanTag: "Learn DSA + System Design + GenAI",
+        spanTag: "Integrated with AI Co-Lab Experience",
         spanIcon:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
         title: [
@@ -26,13 +26,13 @@ export const NewDSAData = [
             id: 1,
             img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/firstPoint.webp",
             imgAlt: "DSA First Point",
-            text1: "Integrated With Gen-AI for Software Developers",
+            text1: "Work on Startup-driven GenAI & Agentic AI projects.",
           },
           {
             id: 2,
             img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/secondPoint.webp",
             imgAlt: "DSA Second Point",
-            text1: "Practice 200+ DSA Problems & System Design",
+            text1: "Get directly certified from startups",
           },
         ],
         mentorText: "Earn Industry-Ready Certification from",

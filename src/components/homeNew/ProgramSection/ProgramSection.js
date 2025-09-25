@@ -68,9 +68,15 @@ const ProgramSection = () => {
                     />
                     <div className={styles.cardTitleGroup}>
                       <h3 className={styles.cardTitle}>{card.title}</h3>
-                      <p className={styles.cardDescription}>
+                      <div className={styles.skillsTags}>
+                        <span className={styles.skillTag}>
+                          Integrated with AI Co-Lab Experience
+                        </span>
+                      </div>
+
+                      {/* <p className={styles.cardDescription}>
                         {card.description}
-                      </p>
+                      </p> */}
                     </div>
                   </div>
 

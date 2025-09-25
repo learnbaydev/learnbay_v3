@@ -1,0 +1,253 @@
+.certificateContainer {
+  width: 100%;
+  padding: 50px 0;
+  background: #fff;
+}
+
+/* Background Box */
+.contentBox {
+  background: #fafafa; /* 👈 background applied */
+  border-radius: 20px;
+  padding: 50px 40px;
+}
+
+/* Grid Layout */
+.gridLayout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Text Section */
+.certificateTextSection {
+  width: 100%;
+  padding-left: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.certificateTitle {
+  font-size: 2.4rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #0f7afb 0%, #4b4ae7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 27px;
+  line-height: 1.2;
+}
+
+.certificateBenefits {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.certificateBenefits li {
+  font-size: 1.1rem;
+  color: #374151;
+  margin-bottom: 11px;
+  padding-left: 20px;
+  position: relative;
+  line-height: 1.5;
+}
+
+.certificateBenefits li::before {
+  content: "•";
+  color: #676969;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
+
+.knowMoreBtn {
+  background: linear-gradient(90deg, #0383ff 0%, #4e47e5 100%);
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: none;
+}
+
+.knowMoreBtn:hover {
+  background: linear-gradient(90deg, #0272e6 0%, #3d39cc 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(3, 131, 255, 0.3);
+}
+
+/* Certificate Slider */
+.certificateOverlay {
+  position: relative;
+  width: 100%;
+}
+
+.swiperContainer {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fafafa;
+}
+
+.certificateSwiper {
+  width: 77%;
+  height: 70%;
+}
+
+.certificateSlide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background: transparent;
+}
+.certificateSlide img {
+  width: 385;
+  height: auto;
+}
+.certificateImage {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* Swiper Navigation Buttons */
+.certificateSwiper :global(.swiper-button-next),
+.certificateSwiper :global(.swiper-button-prev) {
+  background: rgba(255, 255, 255, 0.95);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #676969;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.certificateSwiper :global(.swiper-button-next):hover,
+.certificateSwiper :global(.swiper-button-prev):hover {
+  background: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.certificateSwiper :global(.swiper-button-next):after,
+.certificateSwiper :global(.swiper-button-prev):after {
+  font-size: 16px;
+}
+
+/* Swiper Pagination Bullets */
+.customBullet {
+  width: 10px !important;
+  height: 10px !important;
+  background: rgba(37, 99, 235, 0.3) !important;
+  opacity: 1 !important;
+  transition: all 0.3s ease !important;
+  margin: 0 4px !important;
+}
+
+.customBulletActive {
+  background: #676969 !important;
+  transform: scale(1.2);
+}
+
+.customBullet:hover {
+  background: rgba(128, 128, 129, 0.7) !important;
+}
+
+.certificateSwiper :global(.swiper-pagination) {
+  bottom: 15px !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .gridLayout {
+    display: flex;
+    flex-direction: column; /* stack vertically */
+    align-items: center;
+    gap: 0;
+    text-align: center;
+  }
+
+  .certificateOverlay {
+    order: -1; /* 👈 moves certificate above text (remove if you want text first) */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .swiperContainer {
+    width: 90%;
+    max-width: 420px; /* larger on mobile */
+    height: auto;
+  }
+
+  .certificateImage {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: contain;
+  }
+
+  /* Bullet points cleaner */
+  .certificateBenefits {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 25px 0;
+  }
+
+  .certificateBenefits li {
+    font-size: 1.05rem;
+    color: #374151;
+    margin-bottom: 14px;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .certificateBenefits li::before {
+    content: "●"; /* simple round dot */
+    color: #676969;
+    font-size: 0.8rem;
+    /* justify-content: left; */
+  }
+  .certificateSwiper :global(.swiper-button-next),
+  .certificateSwiper :global(.swiper-button-prev) {
+    display: none !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .certificateContainer {
+    padding: 25px 10px;
+  }
+
+  .contentBox {
+    padding: 20px 15px;
+  }
+
+  .certificateTitle {
+    font-size: 1.6rem;
+  }
+
+  .certificateBenefits li {
+    font-size: 1rem;
+    text-align: left;
+    justify-content: left;
+  }
+}

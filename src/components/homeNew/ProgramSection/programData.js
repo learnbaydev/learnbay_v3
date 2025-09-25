@@ -19,9 +19,9 @@ export const programCards = [
     logo: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/ibm-microsoft+(1).webp",
     icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+2408.webp",
     brochureUrl:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/AI-Master-certificationv1.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Science_and_Generative_AI_Master_Certification_Program.pdf",
     pdfUrl:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/AI-Master-certification.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Science_and_Generative_AI_Master_Certification_Program_download.pdf",
     dataScience: true,
     dataScienceCounselling: true,
   },
@@ -42,9 +42,9 @@ export const programCards = [
     secondeligibilitytitle: " Interview Preparation",
     readyfor: "Get Job Ready For",
     brochureUrl:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressedv1.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full_Stack_Software_Development_Master_Certification_Program.pdf",
     pdfUrl:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressed.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full_Stack_Software_Development_Master_Certification_Program_download.pdf",
     theme: "purple",
     logo: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+2673.webp",
     icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+2369.webp",
@@ -69,9 +69,9 @@ export const programCards = [
     secondeligibilitytitle: "personalized job calls",
     readyfor: "Be an Expert Using",
     brochureUrl:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud+and+Devops+Engineering+Master+Certification_prog.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud_and_Devops_Master_Certification.pdf",
     pdfUrl:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud+and+Devops+Engineering+Master+Certification_p.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud_and_Devops_Master_Certification_download.pdf",
     projects: "Projects:",
     theme: "green",
     logo: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+2682+(1).webp",
@@ -95,9 +95,9 @@ export const programCards = [
     eligibilitytitle: " Program Certification :",
     eligibility: "From Learnbay and partnered companies",
     brochureUrl:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Master+Certification+Program_comprv1.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Analytics_and_Business_Analytics_with_GenAI_Master_Certification_Program.pdf",
     pdfUrl:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Master+Certification+Program_compr.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Analytics_and_Business_Analytics_with_GenAI_Master_Certification_Program_download.pdf",
     projects: "Projects:",
     readyfor: "Certification from Industry Leader",
     theme: "violet",

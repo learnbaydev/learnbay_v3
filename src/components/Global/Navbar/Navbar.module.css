@@ -10,7 +10,6 @@
   height: 80px;
   padding: 0px 140px 0px 125px;
   background: #fff;
-  /* box-shadow: 0px 1px 3px 0px #e8f1f5; */
 }
 
 .left {
@@ -19,6 +18,7 @@
 .logo {
   width: 230px;
 }
+
 .left button,
 .right button,
 .righta button {
@@ -76,12 +76,11 @@
 .hide {
   display: none;
 }
-
 .ham {
   display: none;
 }
 
-/* Dropdown Button */
+/* Dropdown */
 .dropbtn {
   background-color: #ff9562;
   color: #fff;
@@ -91,13 +90,11 @@
   box-shadow: #ff9562 0px 0px 4px 0px !important;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdownContent {
   display: none;
   position: absolute;
@@ -108,7 +105,6 @@
   font-size: 16px;
 }
 
-/* Links inside the dropdown */
 .dropdownContent a {
   color: black;
   padding: 12px 16px;
@@ -117,18 +113,15 @@
   width: 400px;
 }
 
-/* Change color of dropdown links on hover */
 .dropdownContent a:hover {
   background-color: #ff9562;
   color: #fff;
 }
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdownContent {
   display: block;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: #fff;
   color: #ff9562;
@@ -160,7 +153,6 @@
     width: 100%;
     height: 60px;
     background: #fff;
-    /* box-shadow: 0px 2px 4px 0px rgba(0, 114, 188, 0.15); */
   }
   .left button {
     padding: 8px 15px;
@@ -221,6 +213,7 @@
   .right span {
     display: none;
   }
+
   .mobileWrapper .mobileMenu {
     display: flex;
     align-items: center;
@@ -260,5 +253,101 @@
   }
   .nav {
     width: 100vw;
+  }
+}
+
+/* ============================= */
+/* 🔵 AI Co-lab Highlight Styles */
+/* ======= SQUARE VERSION ====== */
+/* ============================= */
+
+.highlightSquare {
+  position: relative;
+  display: inline-block;
+  font-weight: 700;
+  color: #0072bc;
+  text-shadow: 0 0 6px rgba(0, 114, 188, 0.2); /* subtle text glow */
+}
+
+/* Animated square border */
+.highlightSquare::after {
+  content: "";
+  position: absolute;
+  inset: -6px -10px; /* padding around the text */
+  border: 2px solid #0072bc; /* square outline */
+  border-radius: 4px; /* keep it squarish (small radius); set 0 for perfect square */
+  pointer-events: none;
+  animation: pulseSquare 2s infinite ease-in-out;
+}
+
+/* Soft background glow behind the square */
+.highlightSquare::before {
+  content: "";
+  position: absolute;
+  inset: -10px -14px; /* slightly larger than the border for glow */
+  border-radius: 6px;
+  background: radial-gradient(rgba(0, 114, 188, 0.18), transparent 60%);
+  filter: blur(2px);
+  animation: glowBlink 3.2s infinite ease-in-out;
+  pointer-events: none;
+  z-index: -1;
+}
+
+@keyframes pulseSquare {
+  0% {
+    opacity: 0.75;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.2;
+    transform: scale(1.08); /* slight grow */
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+@keyframes glowBlink {
+  0%,
+  100% {
+    opacity: 0.45;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+/* Mobile tuning (less aggressive animation) */
+@media (max-width: 801px) {
+  .highlightSquare::after {
+    inset: -4px -8px;
+    animation: pulseSquareMobile 2s infinite ease-in-out;
+  }
+  .highlightSquare::before {
+    inset: -8px -12px;
+  }
+
+  @keyframes pulseSquareMobile {
+    0% {
+      opacity: 0.85;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.25;
+      transform: scale(1.06);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1);
+    }
+  }
+}
+
+/* Respect user motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .highlightSquare::after,
+  .highlightSquare::before {
+    animation: none !important;
   }
 }

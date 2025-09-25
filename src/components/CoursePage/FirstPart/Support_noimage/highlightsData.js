@@ -53,12 +53,12 @@ const highlightsData = [
     tagColor: "#4D4FCD",
   },
   {
-    tag: "MOCK INTERVIEWS",
-    heading: "Get Ready with Real Time Feedback",
+    tag: "AI Co-lab",
+    heading: "Build Startup-Driven Projects",
     headingColor: "#583EDB",
     descColor: "#1C1C1C",
     description:
-      "Practice with mentors from top firms and receive actionable insights to sharpen your interview skills.",
+      "Unlike case studies, you’ll solve actual startup problems in GenAI & Agentic AI—impacting real products and users. Endorsed by startup collaborators.",
     image:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/img-4.webp",
     width: 260,
