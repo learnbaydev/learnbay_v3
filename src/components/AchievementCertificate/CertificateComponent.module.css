@@ -181,7 +181,9 @@
     gap: 0;
     text-align: center;
   }
-
+  .certificateTextSection {
+    margin-top: -35px;
+  }
   .certificateOverlay {
     order: -1; /* 👈 moves certificate above text (remove if you want text first) */
     width: 100%;
