@@ -44,7 +44,7 @@ export const programCards = [
     brochureUrl:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full_Stack_Software_Development_Master_Certification_Program.pdf",
     pdfUrl:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Full+Stack+Software+Development+Master+Certification+Program+(1)_compressed.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full_Stack_Software_Development_Master_Certification_Program_download.pdf",
     theme: "purple",
     logo: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+2673.webp",
     icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+2369.webp",
@@ -71,7 +71,7 @@ export const programCards = [
     brochureUrl:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud_and_Devops_Master_Certification.pdf",
     pdfUrl:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud+and+Devops+Engineering+Master+Certification_p.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud_and_Devops_Master_Certification_download.pdf",
     projects: "Projects:",
     theme: "green",
     logo: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+2682+(1).webp",
@@ -97,7 +97,7 @@ export const programCards = [
     brochureUrl:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Analytics_and_Business_Analytics_with_GenAI_Master_Certification_Program.pdf",
     pdfUrl:
-      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Master+Certification+Program_compr.pdf",
+      "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Analytics_and_Business_Analytics_with_GenAI_Master_Certification_Program_download.pdf",
     projects: "Projects:",
     readyfor: "Certification from Industry Leader",
     theme: "violet",
