@@ -118,7 +118,7 @@ const AICoLabExperience = ({
             <div className={styles.imageContainer}>
               <div className={styles.imageWrapper}>
                 <Image
-                  src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Header.webp"
+                  src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/heder.webp"
                   alt="AI Co-Lab Experience"
                   className={styles.mainImage}
                   width={470}

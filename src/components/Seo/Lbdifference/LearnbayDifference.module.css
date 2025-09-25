@@ -44,8 +44,8 @@
 }
 
 .topImage {
-  width: 100%;
-  height: auto;
+  /* width: 100%;
+  height: auto; */
   justify-self: center;
 }
 
@@ -79,8 +79,8 @@
 }
 
 .bottomImage {
-  width: 100%;
-  height: auto;
+  /* width: 100%; */
+  /* height: auto; */
 }
 
 /* Common Styles */
@@ -165,8 +165,10 @@
   }
 
   .topImage {
-    order: 1;
-    justify-self: center;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-width: 500px;
   }
 
   .bottomContent {

@@ -175,6 +175,11 @@
   height: 50px;
 }
 
+.companyLogosContainer .companyBadge:nth-child(3) .companyLogo {
+  width: 80px;
+  height: 30px;
+}
+
 .position {
   font-size: 14px;
   opacity: 0.9;
