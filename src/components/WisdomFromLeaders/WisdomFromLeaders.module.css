@@ -180,6 +180,16 @@
   height: 30px;
 }
 
+.episodeCard:nth-child(1) .companyLogo {
+  width: 130px; /* new width */
+  height: 40px; /* new height */
+}
+
+.episodeCard:nth-child(2) .companyLogo {
+  width: 117px; /* new width */
+  height: 40px; /* new height */
+}
+
 .position {
   font-size: 14px;
   opacity: 0.9;

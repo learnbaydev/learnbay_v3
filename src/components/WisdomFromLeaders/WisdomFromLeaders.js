@@ -10,8 +10,7 @@ const WisdomFromLeaders = () => {
       thumbnail: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/pod--1.webp",
       description:
         "It is so important to have a solid understanding of practical approach and upskilling at the same time.",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/vunomic_datalabs.webp",
+      image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/vnomic.webp",
       position: "Co-Founder and CEO",
       videoUrl: "https://youtu.be/EVJN6zCHISk?si=u-zmbr7y4XthR4Gz",
     },
@@ -21,7 +20,7 @@ const WisdomFromLeaders = () => {
       thumbnail: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/pod2.webp",
       description:
         "A blend of doing practical projects on the side so that you get exposure to real environments is very important.",
-      image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Moneyflow.webp",
+      image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/monfl.webp",
       position: "Co-Founder and CEO",
       videoUrl: "https://youtu.be/ecMDMS1Jzwo?si=k_ll9alAZueDwIdv",
     },
