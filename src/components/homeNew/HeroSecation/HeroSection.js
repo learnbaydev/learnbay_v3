@@ -89,13 +89,10 @@ export default function HeroSection() {
 
                 <h1 className={styles.heading}>
                   <span className={styles.headingLine1}>
-                    Advance Your Career With
+                    Advance Your Career With Real Industry Projects and
                     <span className={styles.headingLine2}>
-                      <span className={styles.gradientText}>
-                        {" "}
-                        AI Co-Lab Projects
-                      </span>
-                      <span className={styles.whiteText}> and Get Hired</span>
+                      <span className={styles.gradientText}> Get Hired</span>
+                      <span className={styles.whiteText}> </span>
                     </span>
                   </span>
                 </h1>
