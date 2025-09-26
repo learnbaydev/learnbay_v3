@@ -216,6 +216,13 @@
   }
 }
 
+.divCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
 @media (max-width: 640px) {
   .mainTitle {
     font-size: 28px;

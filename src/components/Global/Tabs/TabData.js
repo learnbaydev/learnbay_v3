@@ -122,11 +122,11 @@ export const TabData = [
         hours: "3-4 Months",
         url: "/cloud&devops/aws-cloud-computing-and-devOps",
       },
-      {
-        CName: "Executive Certification in Cloud and Devops",
-        hours: "10 Months",
-        url: "/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati",
-      },
+      // {
+      //   CName: "Executive Certification in Cloud and Devops",
+      //   hours: "10 Months",
+      //   url: "/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati",
+      // },
       {
         CName: "Cloud and DevOps Engineering Masters Certification",
         hours: "10 Months",

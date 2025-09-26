@@ -47,8 +47,6 @@ const WisdomFromLeaders = () => {
           <h2 className={styles.mainTitle}>
             Wisdom from Founders & AI Leaders
           </h2>
-
-          <button className={styles.ctaButton}>Watch All Episodes</button>
         </div>
 
         {/* Podcast Episodes Grid */}
@@ -104,6 +102,9 @@ const WisdomFromLeaders = () => {
               </div>
             </div>
           ))}
+        </div>
+        <div className={styles.divCenter}>
+          <button className={styles.ctaButton}>Watch All Episodes</button>
         </div>
       </div>
     </section>
