@@ -70,7 +70,8 @@ const ProgramSection = () => {
                       <h3 className={styles.cardTitle}>{card.title}</h3>
                       <div className={styles.skillsTags}>
                         <span className={styles.skillTag}>
-                          Integrated with AI Co-Lab Experience
+                          {/* Integrated with AI Co-Lab Experience */}
+                          Work on Real AI Startup Projects
                         </span>
                       </div>
 
