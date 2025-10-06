@@ -1699,6 +1699,16 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: "/cloud&amp;devops/online-cloud-computing-course-bangalore",
+        destination: "/cloud&devops/online-cloud-computing-course-bangalore",
+        permanent: true,
+      },
+      {
+        source: "/cloud&amp;devops/online-cloud-computing-course-pune",
+        destination: "/cloud&devops/online-cloud-computing-course-pune",
+        permanent: true,
+      },
+      {
         source: "/cloud&amp;devops/aws-cloud-computing-and-devOps",
         destination: "/cloud&devops/aws-cloud-computing-and-devOps",
         permanent: true,
