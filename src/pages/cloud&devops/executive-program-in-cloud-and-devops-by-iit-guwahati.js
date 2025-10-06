@@ -10,16 +10,22 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>Executive Course in Cloud & DevOps | IITG Certification</title>
+        <title>Executive Certification in Cloud and DevOps | Learnbay</title>
         <meta
           name="description"
-          content="Learn advanced skills in Cloud & DevOps with Learnbay's Executive Program. Learn cutting-edge tools and strategies to excel in the tech field."
+          content="Learn advanced Cloud & DevOps skills with Learnbay's Executive Program. Gain practical experience with the top tools and strategies to excel in the tech field."
         />
 
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="advanced certification in cloud computing & devops, advanced certification in devops & cloud computing, executive course in cloud & devops, executive cloud & devops course from iit guwahati, cloud & devops iit guwahati course, advanced cloud & devops course by iit guwahati"
+          content="cloud computing certification course,
+cloud computing and devops course,
+devops and cloud computing course,
+cloud and devops course,
+advanced certification in cloud computing & devops,
+executive course in cloud & devops,
+advanced cloud & devops course"
         />
 
         <link
@@ -37,17 +43,17 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
         <meta
           property="og:title"
-          content="Executive Course in Cloud & DevOps | IITG Certification"
+          content="Executive Course in Cloud & DevOps | Learnbay"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Learn advanced skills in Cloud & DevOps with Learnbay's Executive Program. Learn cutting-edge tools and strategies to excel in the tech field."
+          content="Learn advanced Cloud & DevOps skills with Learnbay's Executive Program. Gain practical experience with the top tools and strategies to excel in the tech field."
         />
         <meta
           property="og:image"
-          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
         />
         <meta property="og:image:height" content="100" />
         <meta property="og:image:width" content="256" />
@@ -55,20 +61,24 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Executive Course in Cloud & DevOps | IITG Certification"
+          content="Executive Course in Cloud & DevOps | Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           itemProp="description"
-          content="Learn advanced skills in Cloud & DevOps with Learnbay's Executive Program. Learn cutting-edge tools and strategies to excel in the tech field."
+          content="Learn advanced Cloud & DevOps skills with Learnbay's Executive Program. Gain practical experience with the top tools and strategies to excel in the tech field."
         />
         <meta
           name="twitter:description"
-          content="Learn advanced skills in Cloud & DevOps with Learnbay's Executive Program. Learn cutting-edge tools and strategies to excel in the tech field."
+          content="Learn advanced Cloud & DevOps skills with Learnbay's Executive Program. Gain practical experience with the top tools and strategies to excel in the tech field."
         />
         <meta
           name="twitter:image"
-          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
+        />
+        <link
+          rel="icon"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
 
         {/* <script
@@ -131,9 +141,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
           certificateNew={
             DataScienceCourseData.IITCloudDevopsData[0].certificateNew
           }
-          genAiData={
-            DataScienceCourseData.IITCloudDevopsData[0].genAiData
-          }
+          genAiData={DataScienceCourseData.IITCloudDevopsData[0].genAiData}
           FAQNewData={DataScienceCourseData.IITCloudDevopsData[0].faq}
         />
       </main>
