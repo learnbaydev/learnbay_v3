@@ -10,10 +10,13 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>Executive Certification in Cloud and DevOps | Learnbay</title>
+        <title>
+          Executive Certification in Cloud & DevOps Course - Learnbay
+        </title>
         <meta
           name="description"
-          content="Learn advanced Cloud & DevOps skills with Learnbay's Executive Program. Gain practical experience with the top tools and strategies to excel in the tech field."
+          content="
+Learn advanced Cloud & DevOps skills with Learnbay's Executive Program. Gain practical experience with the top tools and strategies to excel in the tech field."
         />
 
         <meta name="robots" content="index, follow" />
@@ -21,11 +24,14 @@ function Blockchain({ DataScienceCourseDataJson }) {
           name="keywords"
           content="cloud computing certification course,
 cloud computing and devops course,
-devops and cloud computing course,
 cloud and devops course,
 advanced certification in cloud computing & devops,
 executive course in cloud & devops,
-advanced cloud & devops course"
+advanced cloud & devops course,
+cloud computing training,
+devops training,
+cloud training
+"
         />
 
         <link
@@ -43,7 +49,7 @@ advanced cloud & devops course"
         />
         <meta
           property="og:title"
-          content="Executive Course in Cloud & DevOps | Learnbay"
+          content="Executive Certification in Cloud & DevOps Course - Learnbay"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="article" />
@@ -61,7 +67,7 @@ advanced cloud & devops course"
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Executive Course in Cloud & DevOps | Learnbay"
+          content="Executive Certification in Cloud & DevOps Course - Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
