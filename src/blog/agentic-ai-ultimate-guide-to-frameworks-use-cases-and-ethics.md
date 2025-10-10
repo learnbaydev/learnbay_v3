@@ -11,7 +11,7 @@ imagephone: "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/agentic-a
 alt: "An illustration of agentic AI concept with robotic hands holding digital brain on tech background."
 ---
 
-According to <a href="https://www.mordorintelligence.com/industry-reports/agentic-ai-market" target="_blank"> Mordor Intelligence reports</a>, the global Agentic AI market is expected to grow 41.48% by 2030. As digital innovation continues to grow, Agentic AI creates a new history. Unlike traditional AI systems, Agentic AI has revolutionized the tech industry with future-intelligent systems. The 21st Century’s splendid creation in the form of Agentic AI sets the basis for autonomous work practices and decision-making. Yet, the latest buzz spins around ‘<i><b>What is Agentic AI and how does it work in real-world settings?</b></i>’ This blog guides you through the <b>Agentic AI frameworks</b>, uses, key risks, and future trends. Also, career fanatics can follow the guide to redefine their careers via an Agentic AI course.
+According to <a href="https://www.mordorintelligence.com/industry-reports/agentic-ai-market" rel="nofollow" target="_blank"> Mordor Intelligence reports</a>, the global Agentic AI market is expected to grow 41.48% by 2030. As digital innovation continues to grow, Agentic AI creates a new history. Unlike traditional AI systems, Agentic AI has revolutionized the tech industry with future-intelligent systems. The 21st Century’s splendid creation in the form of Agentic AI sets the basis for autonomous work practices and decision-making. Yet, the latest buzz spins around ‘<i><b>What is Agentic AI and how does it work in real-world settings?</b></i>’ This blog guides you through the <b>Agentic AI frameworks</b>, uses, key risks, and future trends. Also, career fanatics can follow the guide to redefine their careers via an Agentic AI course.
 
 Let’s dive into a thoroughly curated <b>Agentic AI roadmap</b>, from a basic preface to unleashing future trends.
 
@@ -57,9 +57,9 @@ Microsoft presents an open-source Agentic AI framework termed ‘AutoGen’. It 
 
 <b>Core features: </b>
 
-- Scalable <b>Agentic AI architecture</b>
-- Hassle-free support agents via APIs
-- Able to prioritize tasks and provide logic for them
+<p style="font-size: 15px;margin: 0; padding: 0;">• Scalable <b>Agentic AI architecture</b> </p>
+<p style="font-size: 15px;margin: 0; padding: 0;">• Hassle-free support agents via APIs</p>
+<p style="font-size: 15px;margin: 0; padding: 0;">• Able to prioritize tasks and provide logic for them </p>
 
 ### LangGraph
 
@@ -67,9 +67,9 @@ Agentic AI is introduced to LangGraph, a well-known framework for managing state
 
 <b>Core features:</b>
 
-- A platform to have a graph-based workflow handling
-- Applies advanced logic to tackle complex systems
-- Flexible API integration
+<p style="font-size: 15px;margin: 0; padding: 0;">• A platform to have a graph-based workflow handling </p>
+<p style="font-size: 15px;margin: 0; padding: 0;">• Applies advanced logic to tackle complex systems </p>
+<p style="font-size: 15px;margin: 0; padding: 0;">• Flexible API integration </p>
 
 ### LangChain
 
@@ -77,9 +77,9 @@ Agentic AI is known for its flexible work settings, offering enticing benefits f
 
 <b>Core features:</b>
 
-- Autonomous workflow handling
-- Built-in memory features for stateful uses
-- Works flexibly with LLMs and APIs
+<p style="font-size: 15px;margin: 0; padding: 0;">• Autonomous workflow handling </p>
+<p style="font-size: 15px;margin: 0; padding: 0;">• Built-in memory features for stateful uses </p>
+<p style="font-size: 15px;margin: 0; padding: 0;">• Works flexibly with LLMs and APIs </p>
 
 ### Crew AI
 
@@ -87,10 +87,10 @@ Crew AI is a collaborative Agentic AI platform that gathers multiple agents to c
 
 <b>Core features:</b>
 
-- Teamwork and group tasks
-- Automated task planning functions
-- Seamless task delegation
-- Custom-fit modules
+<p style="font-size: 15px;margin: 0; padding: 0;">• Teamwork and group tasks </p>
+<p style="font-size: 15px;margin: 0; padding: 0;">• Automated task planning functions </p>
+<p style="font-size: 15px;margin: 0; padding: 0;">• Seamless task delegation </p>
+<p style="font-size: 15px;margin: 0; padding: 0;">• Custom-fit modules </p>
 
 ### Semantic Kernel (Microsoft)
 
@@ -98,19 +98,23 @@ Microsoft presents a semantic kernel framework that helps users to have a clear 
 
 <b>Core features:</b>
 
-- Aware of real-time contexts
-- In-depth knowledge of users
-- Pre-built systems to seamlessly integrate with business tools
+<p style="font-size: 15px;margin: 0; padding: 0;">• Aware of real-time contexts </p>
+<p style="font-size: 15px;margin: 0; padding: 0;">• In-depth knowledge of users </p>
+<p style="font-size: 15px;margin: 0; padding: 0;">• Pre-built systems to seamlessly integrate with business tools </p>
 
 ## Diving into Agentic AI Use Cases in 2025
 
 <b>Agentic AI use cases</b> reflect its wider applications across diverse sectors. Let’s explore them.
 
-- _<b>Agentic AI in automating workflows:</b>_ Work automation is viable with Agentic AI, where multiple agents can tackle a project or task with vital changes.
-- _<b>Agentic AI in energy management:</b>_ Agentic AI helps distribute energy channels and balance demand and supply levels in time- and cost-saving ways.
-- _<b>Agentic AI in healthcare:</b>_ <b>Agentic AI applications</b> in medical science help plan treatment options, arrange patient follow-ups, and connect with other departments.
-- _<b>Agentic AI as personal assistants:</b>_ Agentic AI works as agents, planning tasks, writing emails, booking trips, and sending reminders.
-- _<b>Agentic AI in logistics:</b>_ Automated agents help firms plan their supply channels, decide routes, and forecast demands.
+<p style="font-size: 15px;margin: 0; padding: 0;">• <i><b>Agentic AI in automating workflows:</b></i> Work automation is viable with Agentic AI, where multiple agents can tackle a project or task with vital changes. </p>
+
+<p style="font-size: 15px;margin: 0; padding: 0;">• <i><b>Agentic AI in energy management:</b></i> Agentic AI helps distribute energy channels and balance demand and supply levels in time- and cost-saving ways. </p>
+
+<p style="font-size: 15px;margin: 0; padding: 0;">• <i><b>Agentic AI in healthcare:</b></i> <b>Agentic AI applications</b> in medical science help plan treatment options, arrange patient follow-ups, and connect with other departments. </p>
+
+<p style="font-size: 15px;margin: 0; padding: 0;">• <i><b>Agentic AI as personal assistants:</b></i> Agentic AI works as agents, planning tasks, writing emails, booking trips, and sending reminders. </p>
+
+<p style="font-size: 15px;margin: 0; padding: 0;">• <i><b>Agentic AI in logistics:</b></i> Automated agents help firms plan their supply channels, decide routes, and forecast demands. </p>
 
 ## Ethical Issues with Agentic AI Applications
 
