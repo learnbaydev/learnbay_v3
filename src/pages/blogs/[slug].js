@@ -192,7 +192,7 @@ const Blog = ({ postData, nextPost }) => {
 
             {nextPost && (
               <div className={styles.nextPost}>
-                <Link href={`/blog/${nextPost.slug}`}>
+                <Link href={`/blogs/${nextPost.slug}`}>
                   Next Blog: {nextPost.title}
                 </Link>
               </div>
