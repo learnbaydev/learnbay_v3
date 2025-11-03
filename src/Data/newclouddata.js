@@ -7971,7 +7971,8 @@ export const NewDSAData = [
         width: 80,
         height: 80,
         title: "TERM 11",
-        toolsImg: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/ai.webp",
+        toolsImg:
+          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/gen-ai.webp",
         imageSizes: {
           vsm: { width: 40, height: 21 },
           sm: { width: 40, height: 23 },
