@@ -101,7 +101,7 @@ const NewDSA = ({ DSADataJson }) => {
         />
         <meta
           property="og:image"
-          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
 
         {/* <!-- Twitter Meta Tags --> */}
@@ -123,7 +123,7 @@ const NewDSA = ({ DSADataJson }) => {
         />
         <meta
           name="twitter:image"
-          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
         <link
           rel="icon"

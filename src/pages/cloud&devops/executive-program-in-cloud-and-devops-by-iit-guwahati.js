@@ -59,7 +59,7 @@ cloud training
         />
         <meta
           property="og:image"
-          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
         <meta property="og:image:height" content="100" />
         <meta property="og:image:width" content="256" />
@@ -80,7 +80,7 @@ cloud training
         />
         <meta
           name="twitter:image"
-          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
         <link
           rel="icon"

@@ -72,7 +72,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
         <meta
           property="og:image"
-          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
 
         {/* <!-- Twitter Meta Tags --> */}
@@ -94,7 +94,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
         <meta
           name="twitter:image"
-          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
         <link
           rel="icon"
@@ -146,24 +146,15 @@ function Blockchain({ DataScienceCourseDataJson }) {
       </Head>
       <main>
         <DABAFirstPart
-          SecondSectionData={
-            DataScienceCourseData.DABAData[0].secondSection
-          }
-          TestimonialData={
-            DataScienceCourseData.DABAData[0].testimonial
-          }
+          SecondSectionData={DataScienceCourseData.DABAData[0].secondSection}
+          TestimonialData={DataScienceCourseData.DABAData[0].testimonial}
         />
         <DABASecondPart
           masterSyllabusMobile={
-            DataScienceCourseData.DABAData[0]
-              .masterSyllabusMobile
+            DataScienceCourseData.DABAData[0].masterSyllabusMobile
           }
-          CertificateData={
-            DataScienceCourseData.DABAData[0].Certificate
-          }
-          projectSection={
-            DataScienceCourseData.DABAData[0].projectSection
-          }
+          CertificateData={DataScienceCourseData.DABAData[0].Certificate}
+          projectSection={DataScienceCourseData.DABAData[0].projectSection}
           toolsdynamic={true}
           FAQNewData={DataScienceCourseData.DABAData[0].faq}
         />

@@ -178,7 +178,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="learnbay.co" />
@@ -195,7 +195,7 @@ export default function Home() {
         />
         <meta
           name="twitter:image"
-          content="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/learnbay-logo.png"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
 
         <script
