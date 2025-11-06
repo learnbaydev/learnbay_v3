@@ -559,7 +559,7 @@ export const DSNigeriaCourseData = [
     Joblist51: "Experiential learning with live projects",
     Joblist52: "IBM & MS certifications",
     Joblist53:
-      "Master’s degree from Woolf University with 60+ Western countries' approval",
+      "Master’s degree from Woolf with 60+ Western countries' approval",
     Joblist54: "100% job and placement support (Career Service Pro)",
 
     JobHead22:

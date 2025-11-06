@@ -562,7 +562,7 @@ export const DSSingaporeCourseData = [
     Joblist51: "Leading edge portfolios with live projects",
     Joblist52: "IBM & MS certifications (with in-demand data science courses)",
     Joblist53:
-      "Master’s degree from Woolf University (with a Master’s program in data science)",
+      "Master’s degree from Woolf (with a Master’s program in data science)",
     Joblist54: "Career Service Pro (100% job and placement support)",
 
     JobHead22:

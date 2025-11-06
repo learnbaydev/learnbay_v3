@@ -55,8 +55,8 @@ const Accordion = () => {
             in-demand skills to thrive in today’s competitive career race.
             Working pros at early to senior career levels can enroll in the best
             data science courses to attain success. In addition, certificates
-            from IBM & Microsoft and a master’s degree (Woolf University) uplift
-            the career value.
+            from IBM & Microsoft and a master’s degree (Woolf) uplift the career
+            value.
           </p>
 
           <p>
@@ -221,7 +221,7 @@ const Accordion = () => {
             <li>
               Globally recognized certifications (1 IBM project certificate)
             </li>
-            <li>Globally accredited master’s degree from Woolf University</li>
+            <li>Globally accredited master’s degree from Woolf</li>
             <li>Effortless Immigration </li>
             <li>Career Service PRO (100% Job Support)</li>
             <li>Premium job offers from leading MNCs</li>
@@ -383,18 +383,16 @@ const Accordion = () => {
           />
           <br />
           <br />
-          <h4 style={{ fontSize: "20px" }}>
-            Master’s Degree from Woolf University
-          </h4>
+          <h4 style={{ fontSize: "20px" }}>Master’s Degree from Woolf</h4>
 
           <p>
             Apart from foundational and certification courses, we have expertise
             in data science master’s degree programs. Our comprehensively
             designed master’s in data science course validates your skills for
             global offers. Experts joining our master’s program will obtain a
-            degree from Woolf University. Learners can step into highly-paying
-            careers with their master’s degree. Our master’s degree has
-            impactful recognition across 60+ Western countries.{" "}
+            degree from Woolf. Learners can step into highly-paying careers with
+            their master’s degree. Our master’s degree has impactful recognition
+            across 60+ Western countries.{" "}
           </p>
           <br />
           <Image

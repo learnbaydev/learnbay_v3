@@ -69,7 +69,7 @@ export const courseDetails = [
             titleCourse: "Master's Degree in CS: Data Science and AI",
             para: [
               "18 months  |  3 Capstone Projects",
-              "Master’s Degree from Woolf University",
+              "Master’s Degree from Woolf",
               "Immigration Opportunity  ",
             ],
             newDesign: true,
@@ -855,7 +855,7 @@ export const courseDetails = [
             titleCourse: "Master's Degree in CS: Data Science and AI",
             para: [
               "18 months  |  3 Capstone Projects",
-              "Master’s Degree from Woolf University",
+              "Master’s Degree from Woolf",
               "Immigration Opportunity  ",
             ],
             newDesign: true,
@@ -1364,7 +1364,7 @@ export const courseDetails = [
             titleCourse: "Master's Degree in CS: Data Science and AI",
             para: [
               "18 months  |  3 Capstone Projects",
-              "Master’s Degree from Woolf University",
+              "Master’s Degree from Woolf",
               "Immigration Opportunity  ",
             ],
             newDesign: true,
@@ -1722,7 +1722,7 @@ export const courseDetails = [
             titleCourse: "Master's Degree in CS: Data Science and AI",
             para: [
               "18 months  |  3 Capstone Projects",
-              "Master’s Degree from Woolf University",
+              "Master’s Degree from Woolf",
               "Immigration Opportunity  ",
             ],
             newDesign: true,
@@ -2125,7 +2125,7 @@ export const courseDetails = [
             titleCourse: "Master's Degree in CS: Data Science and AI",
             para: [
               "18 months  |  3 Capstone Projects",
-              "Master’s Degree from Woolf University",
+              "Master’s Degree from Woolf",
               "Immigration Opportunity  ",
             ],
             newDesign: true,
@@ -2233,7 +2233,7 @@ export const courseDetailsM = [
             titleCourse: "Master's Degree in CS: Data Science and AI",
             para: [
               "18 months  |  3 Capstone Projects",
-              "Master’s Degree from Woolf University",
+              "Master’s Degree from Woolf",
               "Immigration Opportunity  ",
             ],
             newDesign: true,
@@ -3500,7 +3500,7 @@ export const courseDetailsM = [
             titleCourse: "Master's Degree in CS: Data Science and AI",
             para: [
               "18 months  |  3 Capstone Projects",
-              "Master’s Degree from Woolf University",
+              "Master’s Degree from Woolf",
               "Immigration Opportunity  ",
             ],
             newDesign: true,

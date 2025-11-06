@@ -600,7 +600,7 @@ export const DSDhakaCourseData = [
       "Our top-notch data science training institute in Dhaka attests globally recognized certifications to your career with better growth offers. Experts obtain IBM and Microsoft certifications with global-scale job offers and swift rises.         ",
 
     JobSpan1:
-      "Note: If you enroll in our online data science degree course, you will get 60+ countries-approved degrees from Woolf University. This degree is identical to any generic MSc in data science in Bangladesh, with financially reliable job offers.             ",
+      "Note: If you enroll in our online data science degree course, you will get 60+ countries-approved degrees from Woolf. This degree is identical to any generic MSc in data science in Bangladesh, with financially reliable job offers.             ",
 
     JobBot27:
       "Plus, our dedicated placement cell offers all possible support to get you placed across top-level job roles. Our data science training in Dhaka equips you with in-demand skills and abilities to deal with real-world issues effectively.             ",
