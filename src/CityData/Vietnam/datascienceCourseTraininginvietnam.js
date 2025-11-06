@@ -918,7 +918,7 @@ export const DSVietnamCourseData = [
     Joblist50: "GenAI-rich syllabus for realistic career development",
     Joblist51: "Real-time simulation projects for exclusive portfolios",
     Joblist52: "IBM & MS certifications (with premium data science programs)",
-    Joblist53: "Master’s degree from Woolf University",
+    Joblist53: "Master’s degree from Woolf",
     Joblist54: "Career Service Pro (100% job assistance)",
 
     JobHead22:

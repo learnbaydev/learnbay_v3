@@ -41,17 +41,24 @@ const FirstSectionContent = ({
           <div className={styles.firstDiv}>
             <p className={styles.ptopC}>Learnbay Excelvarsity</p>
             <h1 className={styles.h1}>
-              Master's in Computer Science:
+              <span style={{ color: "#FE7A36" }}>Master </span>
+              of Science in Computer Science with a Specialisation Certificate
+              in
               <br />
               <span style={{ color: "#FE7A36" }}>Data Science and AI</span>
             </h1>
             <div className={styles.paraCollab}>
               <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/coursePage/woolf-univer.webp"
+                src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/woolf_logo.webp"
                 alt="woolf-university"
                 priority
-                width="268"
-                height="28"
+                width="230"
+                height="50"
+                style={{
+                  backgroundColor: "white",
+                  padding: "8px",
+                  borderRadius: "4px",
+                }}
               />
             </div>
             <div className={styles.boxDivGreen}>

@@ -2748,7 +2748,7 @@ const CitiesRight = ({
           <div className={styles.CitiesRightInner}>
             <h4 style={{ fontSize: "20px" }}>
               Briefing Our Master’s Degree in Data Science in Germany [In
-              Alliance with IBM & Woolf University]
+              Alliance with IBM & Woolf]
             </h4>
             <p>
               Following the rising digital shifts, MNCs in Germany rely on data
@@ -2776,9 +2776,9 @@ const CitiesRight = ({
             </p>
             <p>
               Experts opting for an <b>MS in data science</b> will receive a
-              globally accredited master’s degree from Woolf University. Plus,
-              we also offer an IBM project certificate that justifies proven
-              skill sets across the globe.
+              globally accredited master’s degree from Woolf. Plus, we also
+              offer an IBM project certificate that justifies proven skill sets
+              across the globe.
             </p>
 
             <br />
@@ -3463,10 +3463,9 @@ const CitiesRight = ({
             <br />
             <p>
               <b>Note:</b> Our master’s program equips you with a globally
-              accredited degree from Woolf University. These credentials and
-              degrees unlock a favorable career path on a global scale. Thus,
-              enroll in our courses today and unleash your potential for faster
-              success.
+              accredited degree from Woolf. These credentials and degrees unlock
+              a favorable career path on a global scale. Thus, enroll in our
+              courses today and unleash your potential for faster success.
             </p>
           </div>
         ) : (
@@ -3813,10 +3812,10 @@ const CitiesRight = ({
               career as you can get exposure to real-world issues.
             </p>
             <p>
-              Our globally accredited master’s degree from Woolf University
-              unleashes global-scale job prospects. Plus, an IBM project
-              certificate enriches career values limitlessly to land a dream job
-              role in Australia and overseas.
+              Our globally accredited master’s degree from Woolf unleashes
+              global-scale job prospects. Plus, an IBM project certificate
+              enriches career values limitlessly to land a dream job role in
+              Australia and overseas.
             </p>
             <br />
             <h4 style={{ fontSize: "20px" }}>
@@ -3890,8 +3889,8 @@ const CitiesRight = ({
                   <i>Globally Accredited Master’s Degree:</i>
                 </b>{" "}
                 Our courses are trending in Australia as they offer a globally
-                approved degree (Woolf University). With 60+ countries approved,
-                learners can revamp their careers with lucrative offers.
+                approved degree (Woolf). With 60+ countries approved, learners
+                can revamp their careers with lucrative offers.
               </li>
               <br />
               <li>

@@ -3228,7 +3228,7 @@ function DataAnalytics({
                 Apart from these gains, this course offers a{" "}
                 <b>computer science master’s degree</b> from{" "}
                 <i>
-                  <b>Woolf University</b>
+                  <b>Woolf</b>
                 </i>{" "}
                 (Global Collegiate Higher Education Institution), followed by
                 globally recognized certifications from <i>IBM & Microsoft</i>{" "}
@@ -3282,13 +3282,13 @@ function DataAnalytics({
                   </li>
                   <li>
                     <i>
-                      <b>• Woolf University degree:</b>
+                      <b>• Woolf degree:</b>
                     </i>{" "}
                     Upskilling with a <b>Masters in Data Science and AI</b>{" "}
                     program by Learnbay offers you a globally accredited
-                    Master's Degree by Woolf University degree along with ample
-                    ECTS credits. This is well-recognized in the US, Canada,
-                    Europe, & 60+ Western countries).
+                    Master's Degree by Woolf degree along with ample ECTS
+                    credits. This is well-recognized in the US, Canada, Europe,
+                    & 60+ Western countries).
                   </li>
                   <li>
                     <i>
@@ -3408,12 +3408,12 @@ function DataAnalytics({
               </p>
 
               <h3>Degree and Certification Details</h3>
-              <h4>About Woolf University Master's Degree</h4>
+              <h4>About Woolf Master's Degree</h4>
               <p>
                 Learnbay's master's program offers a Master's Degree accredited
-                by <b>Woolf University</b> equivalent to a master's from the{" "}
+                by <b>Woolf</b> equivalent to a master's from the{" "}
                 <b>US, Canada, and Europee</b> with better jobs and hikes of
-                working pros. Woolf University's degree for a e{" "}
+                working pros. Woolf's degree for a e{" "}
                 <b>Master in CS Artificial Intelligence and Data Science</b> is
                 well recognized across{" "}
                 <b>

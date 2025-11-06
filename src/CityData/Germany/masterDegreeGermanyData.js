@@ -483,7 +483,7 @@ export const masterdegreeGermanyCourseData = [
       "Unleash Career Boundaries with a Globally Accredited Master’s Degree         ",
 
     CertificationBot3:
-      "Experts who enroll in our masters in data science will land their dream jobs with the leading MNCs in Germany. Here, you will get a globally accredited master’s degree with affiliation to Woolf University. This degree has approval from 60+ Western countries and is equivalent to MSC data science in Germany.         ",
+      "Experts who enroll in our masters in data science will land their dream jobs with the leading MNCs in Germany. Here, you will get a globally accredited master’s degree with affiliation to Woolf. This degree has approval from 60+ Western countries and is equivalent to MSC data science in Germany.         ",
     CertificationBot4: " ",
     ModuleMasterBot1: "  ",
     ModuleHead1: "Learning Outcomes     ",
@@ -587,7 +587,7 @@ export const masterdegreeGermanyCourseData = [
     JobBot22:
       "Our Master’s in CS: Data Science and AI Program is worth it for attaining global career success. Here, experts will develop skills to deal with GenAI tools and trends. Our live instructor-led data science masters in Germany will help you develop job-ready skills via real-time projects.         ",
     JobBotMasterBot5:
-      "Our master’s program is equivalent to an MSC in data science in Germany, with endless scopes for growth and success. It offers a globally accredited master’s degree (Woolf University) followed by an IBM project certificate.         ",
+      "Our master’s program is equivalent to an MSC in data science in Germany, with endless scopes for growth and success. It offers a globally accredited master’s degree (Woolf) followed by an IBM project certificate.         ",
     JobBotMasterBot6:
       "Thus, experts upskilling via our MS in data science in Germany are worth investing in for a lucrative career ahead on a global scale.",
     JobBot23: "   ",

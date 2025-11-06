@@ -334,7 +334,7 @@ export const masterdegreeUSACourseData = [
           {
             id: 0,
             ques: "What type of certification or degree will I receive upon completing the Master's in Data Science program in the USA?            ",
-            ans: `Learners enrolling in a master’s in data science program in the USA will get a globally accredited degree from Woolf University. Plus, completing courses and projects will attest to your career with IBM & Microsoft certifications.             `,
+            ans: `Learners enrolling in a master’s in data science program in the USA will get a globally accredited degree from Woolf. Plus, completing courses and projects will attest to your career with IBM & Microsoft certifications.             `,
             open: true,
           },
           {
@@ -538,7 +538,7 @@ export const masterdegreeUSACourseData = [
       " Leap Global Career Excellence with a Master’s Degree in Data Science ",
 
     CertificationBot2:
-      "Woolf University accredits our data science masters programs, unlocking global-scale job options.  It is equivalent to a master’s degree from an eminent global university across 60+ Western countries. Plus, learners can have swift career rises with better hikes across leading MNCs in the USA and overseas.       ",
+      "Woolf accredits our data science masters programs, unlocking global-scale job options.  It is equivalent to a master’s degree from an eminent global university across 60+ Western countries. Plus, learners can have swift career rises with better hikes across leading MNCs in the USA and overseas.       ",
     CertificationMasterHead2:
       "Step Into High-paying Job Roles with IBM Certification",
 
@@ -653,7 +653,7 @@ export const masterdegreeUSACourseData = [
     JobBot22:
       "Learnbay’s masters in data science help you understand the career trajectory with vital gains. We provide hassle-free career support for swift promotions and hikes in your dream roles. Learners gain an inclusive learning space with our live instructor-led sessions. Hands-on learning via live projects refines the pre-existing skill sets with validation from IBM.       ",
     JobBotMasterBot5:
-      "Plus, 60+ countries recognized Woolf University's master’s degree in data science unlocks a promising career path.       ",
+      "Plus, 60+ countries recognized Woolf's master’s degree in data science unlocks a promising career path.       ",
 
     JobBot23: "   ",
     Joblist50: "     ",

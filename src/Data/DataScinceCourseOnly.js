@@ -286,9 +286,9 @@ export const DataScienceCourseData = [
     CertificationHead31: "IBM Project Certificate",
     CertificationBot4:
       "Our alliance with tech giant IBM unlocks successive ways to establish a global-level career with better hikes. Learners will obtain an IBM project certificate once they complete the course. It validates your learned skills to crack down on premium job offers worldwide.         ",
-    CertificationHead32: "Master’s Degree from Woolf University     ",
+    CertificationHead32: "Master’s Degree from Woolf     ",
     CertificationBot5:
-      "Apart from foundational and certification courses, we have expertise in data science master’s degree programs. Our comprehensively designed master’s in data science course validates your skills for global offers. Experts joining our master’s program will obtain a degree from Woolf University. Learners can step into highly-paying careers with their master’s degree. Our master’s degree has impactful recognition across 60+ Western countries.      ",
+      "Apart from foundational and certification courses, we have expertise in data science master’s degree programs. Our comprehensively designed master’s in data science course validates your skills for global offers. Experts joining our master’s program will obtain a degree from Woolf. Learners can step into highly-paying careers with their master’s degree. Our master’s degree has impactful recognition across 60+ Western countries.      ",
     ModuleHead1: "Enlisting the Learning Outcomes         ",
     ModuleBot1:
       "US experts gain knowledge in their fields and achieve success in data science careers with many opportunities. You can learn everything from scratch – from programming languages to Generative AI trends.         ",

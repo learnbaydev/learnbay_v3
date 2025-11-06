@@ -785,7 +785,7 @@ export const courses = {
     {
       title: "Master's Degree in CS: Data Science and Generative AI",
       duration: "18 months | 3 Capstone Project",
-      certification: "Master Degree from Woolf University",
+      certification: "Master Degree from Woolf",
       description: "Project Certification from IBM",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/woolf_card.webp",
@@ -1015,7 +1015,7 @@ export const courses = {
 export const masterCourse = {
   title: "Master’s Degree in CS Data Science & Generative AI",
   duration: "Earn a Degree Without Pausing Your Career",
-  certification: "Master Degree from Woolf University",
+  certification: "Master Degree from Woolf",
   description: "Project Certification from IBM",
   image:
     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/master_card_longm.webp",

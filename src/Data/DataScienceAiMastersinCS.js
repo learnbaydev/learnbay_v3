@@ -820,7 +820,7 @@ export const DataScienceMastersinCS = [
             ques: "What are the additional benefits provided in this master's degree program?",
             ans: `This master’s degree program in Data Science and AI has everything that helps professionals rebuild their careers worldwide. Apart from an industry-driven course curriculum, this program offers extra benefits like – 
 
-            An accredited master’s degree from Woolf University
+            An accredited master’s degree from Woolf
             Globally recognized and equivalent to a master’s degree in the US, Canada, Europe, and 60+ Western countries
             Dual certification (IBM & Microsoft)
             Immigration Opportunities
@@ -906,7 +906,7 @@ export const DataScienceMastersinCS = [
           {
             id: 0,
             ques: "Is the degree globally recognized?            ",
-            ans: "Learners enrolling in a master’s degree program in Data Science and AI will get a globally recognized degree from Woolf University. The degree is similar to a master’s degree from the US, Canada, and Europe, but at an affordable cost.",
+            ans: "Yes, absolutely. Your master’s degree from Learnbay, awarded through Woolf, is a globally recognized master’s degree that opens doors to international opportunities across Europe, the US, Canada and other markets. The degree holds strong credibility among global employers, giving learners a competitive edge in the global job market.",
             open: true,
           },
           {

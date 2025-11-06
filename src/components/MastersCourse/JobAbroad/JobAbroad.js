@@ -85,7 +85,7 @@ const JobAbroad = ({
             ) : (
               <div className={Styles.consbtn1} onClick={popupShow}>
                 <button className={Styles.consbtn}>
-                Apply For Counselling
+                  Apply For Counselling
                 </button>
               </div>
             )}
@@ -95,9 +95,7 @@ const JobAbroad = ({
                 <p className={Styles.woolfText}>
                   Learnbay Excelversity is a constituent college affiliated with{" "}
                   <a href="https://woolf.university">
-                    <span className={Styles.spanWoolf}>
-                      Woolf University, EU
-                    </span>
+                    <span className={Styles.spanWoolf}>Woolf, EU</span>
                   </a>
                 </p>
               ) : (

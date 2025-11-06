@@ -79,7 +79,7 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
       "@context": "http://schema.org",
       "@type": "Course",
       "name": "Master in CS: Data Science and AI",
-      "description": "Upskill yourself with cutting edge Masters degree in Data Science and AI, earn global recognition from a Master's degree certification from WOOLF university.",
+      "description": "Upskill yourself with cutting edge Masters degree in Data Science and AI, earn global recognition from a Master's degree certification from Woolf.",
       "provider": {
         "@type": "Organization",
         "name": "Learnbay"
