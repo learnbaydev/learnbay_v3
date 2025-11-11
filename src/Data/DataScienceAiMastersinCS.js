@@ -171,8 +171,8 @@ export const DataScienceMastersinCS = [
           "ECE.org evaluated credits making it equivalent to a master’s degree from the United States. To Know More:",
         ],
         link: true,
-        linkText: "https://legal.woolf.university/accreditation",
-        linkUrl: "https://legal.woolf.university/accreditation",
+        linkText: "https://woolf.university/colleges/learnbay",
+        linkUrl: "https://woolf.university/colleges/learnbay",
       },
       projectCertificate: {
         id: 1,

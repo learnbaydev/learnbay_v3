@@ -172,8 +172,8 @@ export const ADAProgram = [
         ],
 
         link: false,
-        linkText: "https://legal.woolf.university/accreditation",
-        linkUrl: "https://legal.woolf.university/accreditation",
+        linkText: "https://woolf.university/colleges/learnbay",
+        linkUrl: "https://woolf.university/colleges/learnbay",
       },
       projectCertificate: {
         id: 1,
