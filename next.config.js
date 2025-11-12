@@ -1765,6 +1765,11 @@ const nextConfig = {
         destination: "/cloud&devops/online-cloud-computing-course-pune",
         permanent: true,
       },
+      {
+        source: "/llms.txt",
+        destination: "/",
+        permanent: true,
+      },
     ];
   },
 };
