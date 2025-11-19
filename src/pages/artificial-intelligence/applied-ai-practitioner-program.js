@@ -7,7 +7,7 @@ const HeroSection = dynamic(() =>
 );
 
 const WhoCanApply = dynamic(() =>
-  import("@/components/AppliedAIPractitionerProgram/WhoCanApply")
+  import("@/components/AppliedAIPractitionerProgram/WhoCanApply/WhoCanApply")
 );
 const WhyThisProgram = dynamic(() =>
   import(
@@ -16,11 +16,13 @@ const WhyThisProgram = dynamic(() =>
 );
 const HowThisProgramHelpYourDomain = dynamic(() =>
   import(
-    "@/components/AppliedAIPractitionerProgram/HowThisProgramHelpYourDomain"
+    "@/components/AppliedAIPractitionerProgram/HowThisProgramHelpYourDomain/HowThisProgramHelpYourDomain"
   )
 );
 const ToolsAndPlatforms = dynamic(() =>
-  import("@/components/AppliedAIPractitionerProgram/ToolsAndPlatforms")
+  import(
+    "@/components/AppliedAIPractitionerProgram/ToolsAndPlatforms/ToolsAndPlatforms"
+  )
 );
 const YourJourney = dynamic(() =>
   import("@/components/AppliedAIPractitionerProgram/YourJourney")
@@ -43,7 +45,7 @@ const AppliedAIPractitionerProgram = () => {
         <WhyThisProgram />
         <WhoCanApply />
         <HowThisProgramHelpYourDomain />
-        <YourJourney />
+        {/* <YourJourney /> */}
         <ToolsAndPlatforms />
         <ProgramSyllabus />
       </div>

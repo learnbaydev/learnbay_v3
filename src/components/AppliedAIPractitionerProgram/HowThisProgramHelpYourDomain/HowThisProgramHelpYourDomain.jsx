@@ -1,0 +1,166 @@
+"use client";
+
+import React from "react";
+import Image from "next/image";
+import styles from "./HowThisProgramHelpYourDomain.module.css";
+
+const DOMAIN_ROWS = [
+  {
+    id: "sales",
+    title: "Sales & Marketing Professionals",
+    challenges: [
+      "Repetitive campaign tasks",
+      "Slow content turnaround",
+      "Low personalization",
+      "Delayed customer insights",
+    ],
+    helps: [
+      "Generate campaigns instantly",
+      "Automate lead scoring & follow-ups",
+      "Produce on-brand visuals, scripts & videos with AI",
+    ],
+    imageAlt: "Team of sales and marketing professionals",
+  },
+  {
+    id: "bfsi",
+    title: "BFSI (Banking, Finance & Insurance)",
+    challenges: [
+      "Tedious reporting",
+      "High compliance workload",
+      "Repetitive analysis",
+      "Generic customer service",
+    ],
+    helps: [
+      "Automate forecasting",
+      "Build AI risk-analysis copilots",
+      "Run compliance checks using RAG",
+      "Improve customer insights",
+    ],
+    imageAlt: "Financial team in discussion",
+  },
+  {
+    id: "healthcare",
+    title: "Healthcare & Life Sciences",
+    challenges: [
+      "Complex documentation",
+      "High compliance workload",
+      "Repetitive patient queries",
+      "Fragmented medical data",
+    ],
+    helps: [
+      "Summarize medical records with AI",
+      "Assist clinicians with decision support",
+      "Automate routine patient communication",
+      "Improve operational efficiency & insights",
+    ],
+    imageAlt: "Healthcare professionals collaborating",
+  },
+  {
+    id: "supplychain",
+    title: "Manufacturing & Supply Chain",
+    challenges: [
+      "Repetitive campaign tasks",
+      " Slow content turnaround",
+      "Low personalization",
+      "Delayed customer insights",
+    ],
+    helps: [
+      "Generate campaigns instantly",
+      "Automate lead scoring & follow-ups",
+      "Produce on-brand visuals,scripts & videos with AI",
+    ],
+    imageAlt: "Manufacturing & Supply Chain collaborating",
+  },
+  {
+    id: "softwaredevelopment",
+    title: "Software Development Professionals",
+    challenges: [
+      "Tedious reporting",
+      "High compliance workload",
+      "Repetitive analysis",
+      "Generic customer service",
+    ],
+    helps: [
+      "Automate forecasting",
+      "Build AI risk-analysis copilots",
+      "Run compliance checks using RAG",
+      "Improve customer insights",
+    ],
+    imageAlt: "Software development collaborating",
+  },
+  {
+    id: "productmanagement",
+    title: "Product Management Professionals",
+    challenges: [
+      "Tedious reporting",
+      "High compliance workload",
+      "Repetitive analysis",
+      "Generic customer service",
+    ],
+    helps: [
+      "Automate forecasting",
+      "Build AI risk-analysis copilots",
+      "Run compliance checks using RAG",
+      "Improve customer insights",
+    ],
+    imageAlt: "Product Management collaborating",
+  },
+];
+
+export default function DomainHelpSection() {
+  return (
+    <section className={styles.wrapper}>
+      <div className={styles.header}>
+        <h2 className={styles.heading}>How This Program Helps Your Domain</h2>
+        <p className={styles.subheading}>
+          Choose our platform for project-based programs
+        </p>
+      </div>
+
+      <div className={styles.rows}>
+        {DOMAIN_ROWS.map((row) => (
+          <div key={row.id} className={styles.domainBlock}>
+            <h3 className={styles.domainTitle}>{row.title}</h3>
+
+            <div className={styles.domainCard}>
+              {/* Column 1 – Challenges */}
+              <div className={`${styles.cardCol} ${styles.challengesCol}`}>
+                <h4 className={styles.cardHeading}>Challenges Today</h4>
+                <ul className={styles.list}>
+                  {row.challenges.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* Column 2 – How AI Practitioner Helps */}
+              <div className={`${styles.cardCol} ${styles.helpsCol}`}>
+                <h4 className={styles.cardHeading}>
+                  How AI Practitioner Helps
+                </h4>
+                <ul className={styles.list}>
+                  {row.helps.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* Column 3 – Image */}
+              <div className={styles.imageCol}>
+                <div className={styles.imageWrapper}>
+                  {/* DUMMY IMAGE – replace src with your real image */}
+                  <Image
+                    src="/images/domain-placeholder.jpg"
+                    alt={row.imageAlt}
+                    fill
+                    className={styles.domainImage}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
