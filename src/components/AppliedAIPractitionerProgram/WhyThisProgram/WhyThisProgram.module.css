@@ -1,0 +1,128 @@
+/* --- Plain CSS Styles --- */
+/* :root {
+  --primary-blue: #2b4eff;
+  --dark-blue: #1a2b8f;
+  --text-dark: #333;
+  --text-grey: #666;
+  --bg-gradient: ;
+} */
+
+/* * {
+  box-sizing: border-box;
+} */
+
+.programSectionWrapper {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif;
+  padding: 4rem 2rem;
+  background-color: #f8f9fc;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header Styles */
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.mainTitle {
+  color: #2b4eff;
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0 0 0.5rem 0;
+}
+
+.subTitle {
+  color: #666;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+/* Grid Layout */
+.cardsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* Card Component */
+.card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  flex: 1;
+  min-width: 300px;
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.cardTop {
+  background: linear-gradient(135deg, #4c6fff 0%, #1a2b8f 100%);
+  padding: 2rem;
+  height: 180px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
+.cardNumber {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  font-size: 8rem;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.1);
+  line-height: 1;
+  pointer-events: none;
+}
+
+.cardTitle {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0;
+  z-index: 1; /* Ensure text sits above the number */
+  line-height: 1.4;
+}
+
+.cardBody {
+  padding: 2rem;
+  flex-grow: 1;
+}
+
+.cardText {
+  color: #666;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .programSectionWrapper {
+    padding: 2rem 1rem;
+  }
+
+  .cardsContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 100%;
+  }
+}

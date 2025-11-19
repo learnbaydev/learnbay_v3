@@ -10,7 +10,9 @@ const WhoCanApply = dynamic(() =>
   import("@/components/AppliedAIPractitionerProgram/WhoCanApply")
 );
 const WhyThisProgram = dynamic(() =>
-  import("@/components/AppliedAIPractitionerProgram/WhyThisProgram")
+  import(
+    "@/components/AppliedAIPractitionerProgram/WhyThisProgram/WhyThisProgram"
+  )
 );
 const HowThisProgramHelpYourDomain = dynamic(() =>
   import(
@@ -31,7 +33,7 @@ const AppliedAIPractitionerProgram = () => {
         dataScienceCounselling={true}
         interstedInHide={true}
       />
-      <div style={{ marginTop: "80px", backgroundColor: "purple" }}>
+      <div style={{ marginTop: "80px" }}>
         <HeroSection />
         <WhyThisProgram />
         <WhoCanApply />
