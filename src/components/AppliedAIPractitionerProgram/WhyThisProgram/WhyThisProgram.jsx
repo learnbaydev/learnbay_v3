@@ -32,13 +32,15 @@ const SectionHeader = ({ title, subtitle }) => (
 
 const ProgramCard = ({ item }) => {
   return (
-    <div className={style.card}>
-      <div className={style.cardTop}>
-        <span className={style.cardNumber}>{item.id}</span>
-        <h3 className={style.cardTitle}>{item.title}</h3>
-      </div>
-      <div className={style.cardBody}>
-        <p className={style.cardText}>{item.description}</p>
+    <div className={style.cardOuter}>
+      <div className={style.card}>
+        <div className={style.cardTop}>
+          <span className={style.cardNumber}>{item.id}</span>
+          <h3 className={style.cardTitle}>{item.title}</h3>
+        </div>
+        <div className={style.cardBody}>
+          <p className={style.cardText}>{item.description}</p>
+        </div>
       </div>
     </div>
   );

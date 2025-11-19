@@ -47,11 +47,16 @@
   justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
-  max-width: 1200px;
+  max-width: 1300px;
   width: 100%;
 }
 
 /* Card Component */
+.cardOuter {
+  border-radius: 20.65px;
+  background: #fff;
+}
+
 .card {
   background: white;
   border-radius: 20px;
