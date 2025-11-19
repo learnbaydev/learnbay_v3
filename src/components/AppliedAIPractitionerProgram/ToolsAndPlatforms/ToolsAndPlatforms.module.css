@@ -1,0 +1,166 @@
+.wrapper {
+  width: 100%;
+  padding: 60px 16px 80px;
+  box-sizing: border-box;
+  background: linear-gradient(96deg, #610de8 3.37%, #2a2981 90.36%);
+  box-shadow: 0 14.455px 41.712px 0 rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  position: relative; /* needed for arrow */
+  overflow: visible;
+}
+
+/* ▼ white downward arrow at top center */
+.arrowDown {
+  width: 50px;
+  height: 0;
+  border-left: 24px solid transparent;
+  border-right: 24px solid transparent;
+  border-top: 24px solid #ffffff; /* DOWNWARD triangle */
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 10;
+}
+
+.inner {
+  width: 100%;
+  max-width: 1080px;
+}
+
+/* Header */
+
+.header {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 36px;
+}
+
+.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin: 0 0 8px;
+  color: #ffffff;
+}
+
+.subheading {
+  margin: 0;
+  font-size: 0.95rem;
+  opacity: 0.9;
+  color: #ffffff;
+}
+
+/* Groups list */
+
+.groups {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Single group card with linear gradient + glow */
+
+.groupCard {
+  border-radius: 18px;
+  padding: 16px 20px 18px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(10px);
+
+  /* linear gradient inside the box */
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.24) 0%,
+    rgba(187, 133, 252, 0.85) 60%,
+    rgba(110, 72, 230, 0.95) 100%
+  );
+}
+
+.groupHeader {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #f9fafb;
+  margin-bottom: 12px;
+}
+
+/* Tool row */
+
+.toolRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* Tool pill (dummy logo + text) */
+
+.toolPill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #f9fafb;
+  color: #111827;
+  font-size: 0.8rem;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.35);
+}
+
+.toolLogo {
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #ffffff;
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  flex-shrink: 0;
+}
+
+.toolName {
+  white-space: nowrap;
+}
+
+/* ---------------------- */
+/* Responsive             */
+/* ---------------------- */
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 48px 12px 64px;
+  }
+
+  .heading {
+    font-size: 1.6rem;
+  }
+
+  .groupCard {
+    padding: 14px 14px 16px;
+  }
+
+  .toolRow {
+    gap: 8px;
+  }
+
+  .toolPill {
+    font-size: 0.78rem;
+    padding: 6px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 1.4rem;
+  }
+
+  .subheading {
+    font-size: 0.9rem;
+  }
+
+  .toolRow {
+    flex-direction: row;
+  }
+}
