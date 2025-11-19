@@ -85,7 +85,7 @@ const syllabusData = [
     termLabel: "Term 4",
     icon: "component",
     title: "No-Code App Development & Deployment",
-    weeks: "Weeks 6–7",
+    weeks: "Weeks 8–9",
     content: [
       {
         label: "Focus",
@@ -110,7 +110,7 @@ const syllabusData = [
     termLabel: "Term 5",
     icon: "airplay",
     title: " AIOps & Monitoring",
-    weeks: "Weeks 6–7",
+    weeks: "Weeks 10–11",
     content: [
       {
         label: "Focus",
@@ -135,7 +135,7 @@ const syllabusData = [
     termLabel: "Term 6",
     icon: "flaskConical",
     title: "AI CoLab Startup Capstone",
-    weeks: "Weeks 6–7",
+    weeks: "Weeks 12–14",
     content: [
       {
         label: "Focus",
