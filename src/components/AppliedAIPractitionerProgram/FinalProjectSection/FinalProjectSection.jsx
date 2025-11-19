@@ -1,22 +1,23 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import styles from "./FinalProjectSection.module.css";
 
 const STEPS = [
   {
     id: "build",
-    icon: "🛠️",
+    img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/construction.webp",
     title: "Build your AI product",
   },
   {
     id: "collab",
-    icon: "👥",
+    img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/group.webp",
     title: "Collaborate with AI Startups",
   },
   {
     id: "deploy",
-    icon: "👁️",
+    img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/eye_tracking.webp",
     title: "Deploy and showcase in your portfolio",
   },
 ];
@@ -42,12 +43,18 @@ export default function FinalProjectSection() {
               <div key={step.id} className={styles.stepBlock}>
                 <div className={styles.iconOuter}>
                   <div className={styles.iconInner}>
-                    <span className={styles.iconEmoji}>{step.icon}</span>
+                    <Image
+                      src={step.img}
+                      alt={step.title}
+                      width={40}
+                      height={40}
+                      className={styles.iconImage}
+                    />
                   </div>
                 </div>
+
                 <p className={styles.stepTitle}>{step.title}</p>
 
-                {/* Arrow after step, except last one */}
                 {index < STEPS.length - 1 && (
                   <div className={styles.arrow}>
                     <span className={styles.arrowLine} />
@@ -59,7 +66,6 @@ export default function FinalProjectSection() {
           </div>
         </div>
 
-        {/* Footer text */}
         <p className={styles.footerText}>
           This capstone is evaluated by our{" "}
           <span className={styles.boldText}>AI partner in the CoLab</span>,

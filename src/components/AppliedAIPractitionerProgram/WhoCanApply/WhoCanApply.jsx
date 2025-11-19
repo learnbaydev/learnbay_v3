@@ -13,17 +13,20 @@ export default function WhoCanApply() {
           <h2 className={styles.heading}>Who Can Apply?</h2>
           <p className={styles.description}>
             This program is for professionals looking to integrate AI into their
-            daily work, no coding experience needed.
+            <br />
+            daily work.
           </p>
+
+          <p className={styles.description}>*No coding experience needed</p>
 
           {/* PERSON + CIRCLE BACKGROUND */}
           <div className={styles.personArea}>
-            <div className={styles.circleLayerOuter} />
-            <div className={styles.circleLayerInner} />
+            {/* <div className={styles.circleLayerOuter} />
+            <div className={styles.circleLayerInner} /> */}
             <div className={styles.personImageWrapper}>
               {/* Replace src with your image path */}
               <Image
-                src="/images/who-can-apply-person.png"
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group121213.webp"
                 alt="Professional learner"
                 fill
                 className={styles.personImage}

@@ -19,6 +19,8 @@ const DOMAIN_ROWS = [
       "Automate lead scoring & follow-ups",
       "Produce on-brand visuals, scripts & videos with AI",
     ],
+    imageSrc:
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/meeting_discussion.webp",
     imageAlt: "Team of sales and marketing professionals",
   },
   {
@@ -36,6 +38,8 @@ const DOMAIN_ROWS = [
       "Run compliance checks using RAG",
       "Improve customer insights",
     ],
+    imageSrc:
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cropped-view-manager-making-online-payment.webp",
     imageAlt: "Financial team in discussion",
   },
   {
@@ -53,6 +57,8 @@ const DOMAIN_ROWS = [
       "Automate routine patient communication",
       "Improve operational efficiency & insights",
     ],
+    imageSrc:
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/male-working-as-paediatrician.webp",
     imageAlt: "Healthcare professionals collaborating",
   },
   {
@@ -60,16 +66,18 @@ const DOMAIN_ROWS = [
     title: "Manufacturing & Supply Chain",
     challenges: [
       "Repetitive campaign tasks",
-      " Slow content turnaround",
+      "Slow content turnaround",
       "Low personalization",
       "Delayed customer insights",
     ],
     helps: [
       "Generate campaigns instantly",
       "Automate lead scoring & follow-ups",
-      "Produce on-brand visuals,scripts & videos with AI",
+      "Produce on-brand visuals, scripts & videos with AI",
     ],
-    imageAlt: "Manufacturing & Supply Chain collaborating",
+    imageSrc:
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/factory-worker-packaging-boxes.webp",
+    imageAlt: "Manufacturing & supply chain professionals collaborating",
   },
   {
     id: "softwaredevelopment",
@@ -86,7 +94,9 @@ const DOMAIN_ROWS = [
       "Run compliance checks using RAG",
       "Improve customer insights",
     ],
-    imageAlt: "Software development collaborating",
+    imageSrc:
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/two-people-are-talking-front-computer-screen-that-says-start.webp",
+    imageAlt: "Software development team collaborating",
   },
   {
     id: "productmanagement",
@@ -103,7 +113,9 @@ const DOMAIN_ROWS = [
       "Run compliance checks using RAG",
       "Improve customer insights",
     ],
-    imageAlt: "Product Management collaborating",
+    imageSrc:
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/design-professionals-discussing-office.webp",
+    imageAlt: "Product managers in discussion",
   },
 ];
 
@@ -148,9 +160,8 @@ export default function DomainHelpSection() {
               {/* Column 3 – Image */}
               <div className={styles.imageCol}>
                 <div className={styles.imageWrapper}>
-                  {/* DUMMY IMAGE – replace src with your real image */}
                   <Image
-                    src="/images/domain-placeholder.jpg"
+                    src={row.imageSrc}
                     alt={row.imageAlt}
                     fill
                     className={styles.domainImage}
