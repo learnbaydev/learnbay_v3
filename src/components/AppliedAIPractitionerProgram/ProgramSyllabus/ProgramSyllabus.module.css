@@ -1,0 +1,206 @@
+/* Syllabus.module.css */
+
+.sectionWrapper {
+  font-family: "Inter", sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4rem 20px;
+  background: #fff;
+  /* CSS Variables for this module */
+  --primary-purple: #6366f1;
+  --bg-soft: #f8f9ff;
+  --text-dark: #1f2937;
+  --text-light: #6b7280;
+  --border-color: #e5e7eb;
+  --card-border: #c7d2fe;
+}
+
+/* Header Styles */
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.mainTitle {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  background: linear-gradient(90deg, #0881fd 0%, #9f57f5 80.33%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent; /* Fallback */
+}
+
+.subtitle {
+  color: var(--text-light);
+  font-size: 1.1rem;
+}
+
+/* Timeline Layout */
+.timelineContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.timelineRow {
+  display: flex;
+  gap: 3rem;
+}
+
+/* Left Column */
+.timelineLeft {
+  display: flex;
+  gap: 1rem;
+  min-width: 140px;
+  position: relative;
+}
+
+.iconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50px;
+}
+
+.iconCircle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 2px solid var(--card-border);
+  border-style: dashed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  z-index: 2;
+}
+
+.dottedLine {
+  width: 2px;
+  flex-grow: 1;
+  background-image: linear-gradient(
+    to bottom,
+    #3b82f6 33%,
+    rgba(255, 255, 255, 0) 0%
+  );
+  background-position: center;
+  background-size: 2px 10px;
+  background-repeat: repeat-y;
+  min-height: 150px;
+}
+
+.termLabel {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #9ca3af;
+  padding-top: 10px;
+}
+
+/* Right Column (Card) */
+.timelineRight {
+  flex-grow: 1;
+}
+
+.card {
+  border: 1px solid var(--card-border);
+  border-radius: 16px;
+  padding: 0;
+  background: #fff;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+}
+
+.cardHeader {
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #4b4ae7;
+  margin: 0;
+}
+
+.weeksBadge {
+  background: #6366f1;
+  color: white;
+  padding: 0.4rem 1.2rem;
+  font-size: 0.9rem;
+  border-radius: 43.367px;
+  background: linear-gradient(90deg, #8540ec 0%, #4e73f5 100%);
+  font-weight: 600;
+}
+
+.divider {
+  height: 1px;
+  background: #f3f4f6;
+  width: 100%;
+}
+
+.cardBody {
+  padding: 0 2rem 2rem 2rem;
+}
+
+.detailsList {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.detailItem {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-dark);
+}
+
+.detailLabel {
+  font-weight: 700;
+  color: #111;
+  margin-right: 0.5rem;
+}
+
+.detailText {
+  color: #4b5563;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .timelineRow {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .timelineLeft {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    min-width: auto;
+  }
+
+  .dottedLine {
+    display: none;
+  }
+
+  .cardHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .mainTitle {
+    font-size: 1.75rem;
+  }
+}

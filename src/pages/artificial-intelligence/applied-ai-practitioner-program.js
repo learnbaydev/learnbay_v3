@@ -25,6 +25,11 @@ const ToolsAndPlatforms = dynamic(() =>
 const YourJourney = dynamic(() =>
   import("@/components/AppliedAIPractitionerProgram/YourJourney")
 );
+const ProgramSyllabus = dynamic(() =>
+  import(
+    "@/components/AppliedAIPractitionerProgram/ProgramSyllabus/ProgramSyllabus"
+  )
+);
 const AppliedAIPractitionerProgram = () => {
   return (
     <main>
@@ -40,6 +45,7 @@ const AppliedAIPractitionerProgram = () => {
         <HowThisProgramHelpYourDomain />
         <YourJourney />
         <ToolsAndPlatforms />
+        <ProgramSyllabus />
       </div>
     </main>
   );
