@@ -3,7 +3,7 @@ import Navbar from "@/components/Global/Navbar/Navbar";
 import dynamic from "next/dynamic";
 
 const HeroSection = dynamic(() =>
-  import("@/components/AppliedAIPractitionerProgram/HeroSection")
+  import("@/components/AppliedAIPractitionerProgram/HeroSection/HeroSection")
 );
 
 const WhoCanApply = dynamic(() =>
