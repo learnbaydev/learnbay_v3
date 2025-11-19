@@ -1,0 +1,152 @@
+.heroWrapper {
+  width: 100%;
+  min-height: 420px;
+  padding: 80px 5%;
+  box-sizing: border-box;
+  background: radial-gradient(
+    circle at 0% 0%,
+    #5c19ff 0%,
+    #2b0d8a 35%,
+    #050814 100%
+  );
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.heroContent {
+  max-width: 640px;
+}
+
+.kicker {
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 0;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.title {
+  font-size: 2.8rem;
+  font-weight: 400;
+  margin: 10px 0 24px;
+}
+
+.subtitle {
+  max-width: 540px;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0 0 32px;
+  padding: 16px 18px;
+  border-radius: 8px;
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
+  /* background: rgba(6, 11, 40, 0.6); */
+  backdrop-filter: blur(6px);
+  color: #ffffff;
+}
+
+.highlight {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.buttonRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.primaryBtn,
+.secondaryBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  border-radius: 9px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease,
+    background-color 0.15s ease, color 0.15s ease;
+  border: none;
+  outline: none;
+}
+
+.primaryBtn {
+  background: #0a66c2;
+  color: #ffffff;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.primaryBtn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.3);
+  background: #0c74df;
+}
+
+.secondaryBtn {
+  background: #ffffff;
+  color: #0d1b3d;
+  border: 1px solid rgba(9, 30, 66, 0.12);
+}
+
+.secondaryBtn:hover {
+  background: #f3f4ff;
+  transform: translateY(-1px);
+}
+
+.iconCircle,
+.secondaryIconCircle {
+  width: 26px;
+  height: 26px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.iconCircle {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.secondaryIconCircle {
+  background: rgba(10, 102, 194, 0.08);
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .heroWrapper {
+    padding: 60px 20px;
+  }
+
+  .kicker {
+    font-size: 2.3rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+  }
+
+  .buttonRow {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .primaryBtn,
+  .secondaryBtn {
+    width: 100%;
+    justify-content: center;
+  }
+}
