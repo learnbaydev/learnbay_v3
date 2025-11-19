@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "@/components/Global/Navbar/Navbar";
 import dynamic from "next/dynamic";
-// import HeroSectionContent from "@/components/course/heroSection/HeroSectionContent";
 
 const HeroSection = dynamic(() =>
   import("@/components/AppliedAIPractitionerProgram/HeroSection")
@@ -32,12 +31,14 @@ const AppliedAIPractitionerProgram = () => {
         dataScienceCounselling={true}
         interstedInHide={true}
       />
-      <HeroSection />
-      <WhyThisProgram />
-      <WhoCanApply />
-      <HowThisProgramHelpYourDomain />
-      <YourJourney />
-      <ToolsAndPlatforms />
+      <div style={{ marginTop: "80px", backgroundColor: "purple" }}>
+        <HeroSection />
+        <WhyThisProgram />
+        <WhoCanApply />
+        <HowThisProgramHelpYourDomain />
+        <YourJourney />
+        <ToolsAndPlatforms />
+      </div>
     </main>
   );
 };
