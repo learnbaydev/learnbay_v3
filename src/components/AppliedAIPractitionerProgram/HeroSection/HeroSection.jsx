@@ -12,7 +12,7 @@ export default function AppliedAIHero() {
         <h1 className={styles.title}>Practitioner Program</h1>
 
         <p className={styles.subtitle}>
-          Build AI <span className={styles.highlight}>copilots</span>,{" "}
+          Build <span className={styles.highlight}>AI copilots</span>,{" "}
           <span className={styles.highlight}>automate workflows</span>, and
           create real AI products in 4 months with live mentoring and startup
           collaboration
