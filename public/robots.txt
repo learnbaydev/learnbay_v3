@@ -23,6 +23,8 @@ Disallow: /*?fbclid*
 Disallow: /*?gclid*
 Disallow: /*?trk*
 Disallow: /*?ref*
+Disallow: /*?s=*
+
 
 Allow: /
 
