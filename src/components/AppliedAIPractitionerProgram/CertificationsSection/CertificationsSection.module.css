@@ -1,0 +1,135 @@
+.wrapper {
+  width: 100%;
+  padding: 70px 6% 80px;
+  box-sizing: border-box;
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.heading {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #2563eb, #7c3aed);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.subheading {
+  margin: 8px 0 0;
+  font-size: 1rem;
+  color: #6b7280;
+}
+
+/* Main row */
+.contentRow {
+  max-width: 1100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+/* Left image column */
+.imageCol {
+  flex: 0 0 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.certificateFrame {
+  position: relative;
+  width: 100%;
+  max-width: 480px;
+  aspect-ratio: 4 / 3;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.18);
+}
+
+.certificateImage {
+  object-fit: cover;
+}
+
+/* Right text column */
+.textCol {
+  flex: 0 0 50%;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #7c3aed, #2563eb);
+  margin-bottom: 16px;
+}
+
+.badgeText {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.bodyText {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #4b5563;
+  max-width: 420px;
+}
+
+.highlightPrimary {
+  color: #059669; /* green accent like the design */
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .contentRow {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .textCol {
+    flex: 1 1 auto;
+  }
+
+  .bodyText {
+    max-width: none;
+  }
+
+  .imageCol {
+    width: 100%;
+  }
+
+  .certificateFrame {
+    max-width: 420px;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    padding: 50px 20px 60px;
+  }
+
+  .heading {
+    font-size: 1.6rem;
+  }
+
+  .subheading {
+    font-size: 0.95rem;
+  }
+}

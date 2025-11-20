@@ -1,15 +1,4 @@
 /* --- Plain CSS Styles --- */
-/* :root {
-  --primary-blue: #2b4eff;
-  --dark-blue: #1a2b8f;
-  --text-dark: #333;
-  --text-grey: #666;
-  --bg-gradient: ;
-} */
-
-/* * {
-  box-sizing: border-box;
-} */
 
 .programSectionWrapper {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -52,19 +41,29 @@
 }
 
 /* Card Component */
+
+/* Outer glow + soft shadow wrapper */
 .cardOuter {
-  border-radius: 20.65px;
-  background: #fff;
+  border-radius: 26px;
+  padding: 10px;
+  background: radial-gradient(
+    circle at 50% 0%,
+    rgba(98, 115, 255, 0.18),
+    rgba(255, 255, 255, 0.95)
+  );
+  box-shadow: 0 26px 60px rgba(15, 23, 42, 0.16);
 }
 
+/* Inner card with fixed height */
 .card {
-  background: white;
+  background: #ffffff;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
   flex: 1;
   min-width: 300px;
   max-width: 380px;
+  min-height: 340px; /* <- consistent height like design */
   display: flex;
   flex-direction: column;
   transition: transform 0.3s ease;
@@ -77,7 +76,7 @@
 .cardTop {
   background: linear-gradient(135deg, #4c6fff 0%, #1a2b8f 100%);
   padding: 2rem;
-  height: 180px;
+  height: 160px; /* slightly shorter so proportions match */
   position: relative;
   display: flex;
   align-items: flex-end;
@@ -106,6 +105,8 @@
 .cardBody {
   padding: 2rem;
   flex-grow: 1;
+  display: flex;
+  align-items: flex-start;
 }
 
 .cardText {

@@ -24,14 +24,43 @@ const ToolsAndPlatforms = dynamic(() =>
     "@/components/AppliedAIPractitionerProgram/ToolsAndPlatforms/ToolsAndPlatforms"
   )
 );
-const YourJourney = dynamic(() =>
-  import("@/components/AppliedAIPractitionerProgram/YourJourney")
-);
+
 const ProgramSyllabus = dynamic(() =>
   import(
     "@/components/AppliedAIPractitionerProgram/ProgramSyllabus/ProgramSyllabus"
   )
 );
+
+const FinalProjectSection = dynamic(() =>
+  import(
+    "@/components/AppliedAIPractitionerProgram/FinalProjectSection/FinalProjectSection"
+  )
+);
+
+const AiColabExperienceSection = dynamic(() =>
+  import(
+    "@/components/AppliedAIPractitionerProgram/AiColabExperienceSection/AiColabExperienceSection"
+  )
+);
+
+const CertificationsSection = dynamic(() =>
+  import(
+    "@/components/AppliedAIPractitionerProgram/CertificationsSection/CertificationsSection"
+  )
+);
+
+const StartupCertificateSection = dynamic(() =>
+  import(
+    "@/components/AppliedAIPractitionerProgram/StartupCertificateSection/StartupCertificateSection"
+  )
+);
+
+const ProgramSnapshotSection = dynamic(() =>
+  import(
+    "@/components/AppliedAIPractitionerProgram/ProgramSnapshotSection/ProgramSnapshotSection"
+  )
+);
+
 const AppliedAIPractitionerProgram = () => {
   return (
     <main>
@@ -45,9 +74,13 @@ const AppliedAIPractitionerProgram = () => {
         <WhyThisProgram />
         <WhoCanApply />
         <HowThisProgramHelpYourDomain />
-        {/* <YourJourney /> */}
         <ToolsAndPlatforms />
         <ProgramSyllabus />
+        <FinalProjectSection />
+        <AiColabExperienceSection />
+        <CertificationsSection />
+        <StartupCertificateSection />
+        <ProgramSnapshotSection />
       </div>
     </main>
   );
