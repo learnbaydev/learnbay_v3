@@ -1,0 +1,140 @@
+/* --- Plain CSS Styles --- */
+
+.programSectionWrapper {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif;
+  padding: 4rem 2rem;
+  background-color: #f8f9fc;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header Styles */
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.mainTitle {
+  background: linear-gradient(90deg, #0881fd 0.09%, #7536bf 88.61%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0 0 0.5rem 0;
+}
+
+.subTitle {
+  color: #676969;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+/* Grid Layout */
+.cardsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  width: 100%;
+}
+
+/* Card Component */
+
+/* Outer glow + soft shadow wrapper */
+.cardOuter {
+  border-radius: 26px;
+  padding: 10px;
+  background: radial-gradient(
+    circle at 50% 0%,
+    rgba(98, 115, 255, 0.18),
+    rgba(255, 255, 255, 0.95)
+  );
+  box-shadow: 0 26px 60px rgba(15, 23, 42, 0.16);
+}
+
+/* Inner card with fixed height */
+.card {
+  background: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  flex: 1;
+  min-width: 300px;
+  max-width: 380px;
+  min-height: 340px; /* <- consistent height like design */
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.cardTop {
+  /* background: linear-gradient(135deg, #4c6fff 0%, #1a2b8f 100%); */
+  border-radius: 26.994px 26.994px 0 0;
+  background: linear-gradient(96deg, #4b4ae7 3.37%, #2a2981 90.36%);
+  box-shadow: 0 14.455px 41.712px 0 rgba(0, 0, 0, 0.25);
+  padding: 2rem;
+  height: 160px; /* slightly shorter so proportions match */
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
+.cardNumber {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  font-size: 8rem;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.1);
+  line-height: 1;
+  pointer-events: none;
+}
+
+.cardTitle {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0;
+  z-index: 1; /* Ensure text sits above the number */
+  line-height: 1.4;
+}
+
+.cardBody {
+  padding: 2rem;
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-start;
+}
+
+.cardText {
+  color: #676969;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .programSectionWrapper {
+    padding: 2rem 1rem;
+  }
+
+  .cardsContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 100%;
+  }
+}

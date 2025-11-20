@@ -1,0 +1,177 @@
+/* SECTION BACKGROUND */
+.wrapper {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 88px 24px 96px; /* a bit more top space for arrow */
+  display: flex;
+  justify-content: center;
+  background: radial-gradient(circle at top left, #8a4cff 0, transparent 45%),
+    radial-gradient(circle at bottom right, #5224e9 0, transparent 50%),
+    linear-gradient(120deg, #5b10e5, #2b2a82);
+  position: relative; /* for arrow positioning */
+}
+
+.inner {
+  width: 100%;
+  max-width: 1180px;
+}
+
+/* ========================== */
+/*     TOP DOWN ARROW         */
+/* ========================== */
+
+.arrowDown {
+  width: 50px;
+  height: 0;
+  border-left: 24px solid transparent;
+  border-right: 24px solid transparent;
+  border-top: 24px solid #ffffff; /* DOWNWARD triangle */
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 10;
+}
+
+/* HEADER TEXT */
+
+.header {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.heading {
+  margin: 0 0 12px;
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.subheading {
+  margin: 0;
+  font-size: 0.98rem;
+  opacity: 0.9;
+  color: #ffffff;
+}
+
+/* GROUP CONTAINER */
+
+.groups {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.groupCard {
+  border-radius: 28px;
+  padding: 32px 56px 34px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: radial-gradient(
+      circle at 15% 0,
+      rgba(255, 255, 255, 0.18) 0,
+      transparent 42%
+    ),
+    radial-gradient(
+      circle at 85% 0,
+      rgba(255, 255, 255, 0.16) 0,
+      transparent 40%
+    ),
+    linear-gradient(120deg, #5b10e5, #2b2a82);
+  box-shadow: 0 22px 50px rgba(12, 10, 50, 0.55);
+}
+
+/* GROUP TITLE */
+
+.groupHeader {
+  margin: 0 0 28px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+/* TOOL ROW */
+
+.toolRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+/* WHITE PILLS (LOGO CARDS) */
+
+.toolPill {
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.25);
+  padding: 10px 20px; /* fixed units */
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* IMAGE INSIDE PILL */
+
+.toolImage {
+  max-height: 30px; /* logos stay inside pill */
+  width: auto;
+  height: auto;
+  max-width: 150px;
+  object-fit: contain;
+  display: block;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 960px) {
+  .wrapper {
+    padding: 72px 16px 80px;
+  }
+
+  .groupCard {
+    padding: 24px 24px 26px;
+  }
+
+  .groupHeader {
+    font-size: 1.25rem;
+    margin-bottom: 22px;
+  }
+
+  .toolRow {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .wrapper {
+    padding: 64px 14px 72px;
+  }
+
+  .heading {
+    font-size: 1.7rem;
+  }
+
+  .groupCard {
+    padding: 20px 18px 22px;
+  }
+
+  .toolPill {
+    box-shadow: 0 8px 18px rgba(15, 23, 42, 0.3);
+  }
+
+  .toolRow {
+    gap: 18px;
+  }
+
+  .arrowDown {
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+  }
+
+  .arrowIcon {
+    font-size: 16px;
+  }
+}

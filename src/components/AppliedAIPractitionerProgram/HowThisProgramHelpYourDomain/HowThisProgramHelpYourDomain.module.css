@@ -1,0 +1,166 @@
+.wrapper {
+  width: 100%;
+  padding: 60px 32px 80px;
+  box-sizing: border-box;
+  background: #ffffff;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #0881fd 0%, #9f57f5 80.33%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0 0 8px;
+}
+
+.subheading {
+  margin: 0;
+  font-size: 0.98rem;
+  color: #676969;
+}
+
+/* Outer container for all rows */
+.rows {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Each domain section */
+.domainBlock {
+  margin-bottom: 40px;
+}
+
+.domainTitle {
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: #626262;
+  margin: 0 0 14px;
+}
+
+/* Card layout */
+.domainCard {
+  display: grid;
+  grid-template-columns: 1.1fr 1.3fr 1.3fr;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.12);
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+}
+
+/* Card columns */
+.cardCol {
+  padding: 18px 20px;
+  border-right: 1px solid #e5e7eb;
+  background: #f9fafb;
+}
+
+.challengesCol {
+  background: #ffffff;
+}
+
+.helpsCol {
+  background: #e4e4ff;
+}
+
+.cardHeading {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0 0 10px;
+  color: #111827;
+}
+
+.list {
+  list-style: disc;
+  padding-left: 18px;
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #0f0f0f;
+}
+
+/* Image column */
+.imageCol {
+  background: #ffffff;
+  position: relative;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 170px;
+}
+
+.domainImage {
+  object-fit: cover;
+}
+
+/* --------------------------- */
+/* Responsive breakpoints      */
+/* --------------------------- */
+
+@media (max-width: 1024px) {
+  .wrapper {
+    padding: 50px 20px 70px;
+  }
+
+  .domainCard {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 200px;
+  }
+
+  .imageCol {
+    grid-column: 1 / span 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 40px 16px 60px;
+  }
+
+  .heading {
+    font-size: 1.7rem;
+  }
+
+  .domainCard {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 220px;
+  }
+
+  .cardCol {
+    border-right: none;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .imageCol {
+    grid-column: 1 / span 1;
+    border-top: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  .subheading {
+    font-size: 0.9rem;
+  }
+
+  .cardCol {
+    padding: 16px 16px;
+  }
+
+  .list {
+    font-size: 0.88rem;
+  }
+}

@@ -25,6 +25,11 @@ export const TabData = [
         hours: "4 Months",
         url: "/artificial-intelligence/generative-ai-for-managers",
       },
+      {
+        CName: "Applied AI Practitioner Program",
+        hours: "4 Months",
+        url: "/artificial-intelligence/applied-ai-practitioner-program",
+      },
 
       ,
     ],

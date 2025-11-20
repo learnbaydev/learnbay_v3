@@ -1,0 +1,313 @@
+.heroWrapper {
+  position: relative;
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  font-family: "Inter", sans-serif; /* Example font */
+  color: #ffffff;
+  background: linear-gradient(98deg, #650af1 12.15%, #11192c 73.63%);
+}
+
+/* container for left + right */
+.heroInner {
+  position: relative;
+  z-index: 10; /* Above overlay */
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 10px 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+/* ========================== */
+/*      TOP LOGO BADGE        */
+/* ========================== */
+
+.collabBadge {
+  position: absolute;
+  top: -28px; /* float above heading */
+  left: 0;
+  padding: 6px 14px;
+
+  display: inline-flex;
+  align-items: center;
+}
+
+.collabLogo {
+  width: 213px;
+  height: 77px;
+  margin-left: 73px;
+  margin-top: -41px;
+}
+
+/* ========================== */
+/*       LEFT CONTENT         */
+/* ========================== */
+
+.heroContent {
+  max-width: 640px;
+  z-index: 1; /* keeps text above gradients */
+}
+
+.kicker {
+  font-size: 4.4rem;
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 400;
+  margin: -6px 0 22px;
+}
+
+.subtitle {
+  max-width: 540px;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin: 0 0 18px;
+  padding: 14px 0px;
+  color: #ffffff;
+}
+
+.collabText {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #4ade80;
+  margin: 0 0 26px;
+}
+
+.collabText span {
+  font-weight: 700;
+}
+
+/* BUTTONS */
+
+.buttonRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.primaryBtn,
+.secondaryBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  border-radius: 999px;
+  font-size: 0.98rem;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease,
+    background-color 0.15s ease;
+}
+
+/* blue button */
+.primaryBtn {
+  background: linear-gradient(90deg, #0383ff 0%, #4e47e5 100%);
+  color: #ffffff;
+  box-shadow: 0 14px 34px rgba(37, 99, 235, 0.5);
+  border-radius: 8px;
+}
+
+.primaryBtn:hover {
+  transform: translateY(-1px);
+  background: linear-gradient(90deg, #0c74df 0%, #4338ca 100%);
+}
+
+/* white button */
+.secondaryBtn {
+  background: #ffffff;
+  color: #1a1919;
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.35);
+  border-radius: 8px;
+}
+
+.secondaryBtn:hover {
+  background: #f3f4ff;
+  transform: translateY(-1px);
+}
+
+.iconCircle,
+.secondaryIconCircle {
+  width: 26px;
+  height: 26px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.iconCircle {
+  background: rgba(255, 255, 255, 0.22);
+}
+
+.secondaryIconCircle {
+  background: rgba(10, 102, 194, 0.08);
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+}
+
+/* ========================== */
+/*       RIGHT HERO IMAGE     */
+/* ========================== */
+
+.heroImageWrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 65%; /* Covers the right 65% of the screen */
+  z-index: 0;
+}
+
+/* campus image */
+.heroImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* gradient overlay to blend with purple bg */
+.heroImageWrapper::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    rgba(37, 99, 235, 0.6) 0%,
+    rgba(17, 24, 39, 0.1) 45%,
+    rgba(17, 24, 39, 0) 100%
+  );
+  pointer-events: none;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0; /* Covers entire section */
+  z-index: 1;
+  background: linear-gradient(
+    98deg,
+    #650af1 38.15%,
+    #7c73ffcb 53.63%,
+    rgba(88, 5, 255, 0) 100%
+  );
+}
+
+/* ========================== */
+/*         RESPONSIVE         */
+/* ========================== */
+
+@media (max-width: 900px) {
+  .heroWrapper {
+    padding: 70px 5% 60px;
+  }
+
+  .heroInner {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .overlay {
+    display: none;
+  }
+
+  /* logo stays on left, but no weird negative margins on small screens */
+  .collabBadge {
+    position: static;
+    margin-bottom: 18px;
+    justify-content: flex-start;
+    padding-left: 0;
+  }
+
+  .collabLogo {
+    margin-left: 0;
+    margin-top: 0;
+    width: 190px; /* slightly smaller on tablets */
+    height: auto;
+  }
+
+  .heroContent {
+    max-width: 100%;
+  }
+
+  .heroImageWrapper {
+    /* width: 100%;
+    height: 260px;
+    border-radius: 14px; */
+    display: none;
+  }
+
+  .kicker {
+    font-size: 3rem;
+  }
+
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .subtitle {
+    font-size: 1.05rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .heroWrapper {
+    padding: 60px 5% 50px;
+  }
+
+  .heroImageWrapper {
+    height: 220px;
+  }
+
+  .kicker {
+    font-size: 2.4rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+  }
+
+  /* buttons full-width & same size on mobile */
+  .buttonRow {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .primaryBtn,
+  .secondaryBtn {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  /* logo a bit smaller on very small screens */
+  .collabLogo {
+    width: 200px;
+    margin-left: -177px;
+  }
+
+  .collabLogo {
+    width: 200px;
+    margin-left: -15px;
+  }
+}
