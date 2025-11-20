@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./ProgramSnapshotSection.module.css";
+import { ArrowRightToLine, Phone } from "lucide-react";
 
 export default function ProgramSnapshotSection() {
   return (
@@ -35,10 +36,10 @@ export default function ProgramSnapshotSection() {
 
           <div className={styles.collabRow}>
             <span className={styles.collabLabel}>In Collaboration With:</span>
+
             <div className={styles.collabLogoWrap}>
-              {/* Dummy collab logo – replace with your own */}
               <Image
-                src="/images/iit-patna-logo.png"
+                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+3212.webp"
                 alt="Vishlesan I-HUB Foundation IIT Patna"
                 fill
                 className={styles.collabLogo}
@@ -61,16 +62,14 @@ export default function ProgramSnapshotSection() {
           <div className={styles.actions}>
             <button className={styles.primaryBtn}>
               <span className={styles.btnIconBox}>
-                {/* simple square icon */}
-                <span className={styles.iconSquare} />
+                <ArrowRightToLine size={14} strokeWidth={2} />
               </span>
               Apply for the Next Cohort
             </button>
 
             <button className={styles.secondaryBtn}>
               <span className={styles.btnIconBox}>
-                {/* phone icon style dot */}
-                <span className={styles.iconCircle} />
+                <Phone size={14} strokeWidth={2} />
               </span>
               schedule a Call With a Counselor
             </button>
