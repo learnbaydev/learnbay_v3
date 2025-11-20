@@ -37,11 +37,11 @@ const FinalProjectSection = dynamic(() =>
   )
 );
 
-const AiColabExperienceSection = dynamic(() =>
-  import(
-    "@/components/AppliedAIPractitionerProgram/AiColabExperienceSection/AiColabExperienceSection"
-  )
-);
+// const AiColabExperienceSection = dynamic(() =>
+//   import(
+//     "@/components/AppliedAIPractitionerProgram/AiColabExperienceSection/AiColabExperienceSection"
+//   )
+// );
 
 const CertificationsSection = dynamic(() =>
   import(
@@ -59,6 +59,12 @@ const ProgramSnapshotSection = dynamic(() =>
   import(
     "@/components/AppliedAIPractitionerProgram/ProgramSnapshotSection/ProgramSnapshotSection"
   )
+);
+
+const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+const NewSevenSection = dynamic(() =>
+  import("@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection")
 );
 
 const AppliedAIPractitionerProgram = () => {
@@ -81,6 +87,9 @@ const AppliedAIPractitionerProgram = () => {
         <CertificationsSection />
         <StartupCertificateSection />
         <ProgramSnapshotSection />
+        <Footer />
+
+        <WhatsappFloat />
       </div>
     </main>
   );

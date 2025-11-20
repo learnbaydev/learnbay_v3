@@ -30,9 +30,8 @@
 .certificateTitle {
   font-size: 2.4rem;
   font-weight: 700;
-  background: linear-gradient(90deg, #0f7afb 0%, #4b4ae7 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  border-radius: 100px 100px 0 0;
+  background: linear-gradient(96deg, #7e3cea 3.37%, #2a2981 90.36%);
   background-clip: text;
   margin-bottom: 27px;
   line-height: 1.2;
