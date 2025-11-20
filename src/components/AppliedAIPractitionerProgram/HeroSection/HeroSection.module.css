@@ -220,15 +220,25 @@
 
   .heroInner {
     flex-direction: column;
-    gap: 32px;
+    gap: 0px;
   }
   .overlay {
     display: none;
   }
 
+  /* logo stays on left, but no weird negative margins on small screens */
   .collabBadge {
     position: static;
     margin-bottom: 18px;
+    justify-content: flex-start;
+    padding-left: 0;
+  }
+
+  .collabLogo {
+    margin-left: 0;
+    margin-top: 0;
+    width: 190px; /* slightly smaller on tablets */
+    height: auto;
   }
 
   .heroContent {
@@ -276,9 +286,24 @@
     font-size: 0.95rem;
   }
 
+  /* buttons full-width & same size on mobile */
   .buttonRow {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .primaryBtn,
+  .secondaryBtn {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  /* logo a bit smaller on very small screens */
+  .collabLogo {
+    width: 200px;
+    margin-left: -177px;
   }
 
   .collabLogo {
