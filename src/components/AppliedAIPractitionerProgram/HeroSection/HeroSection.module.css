@@ -1,23 +1,27 @@
 .heroWrapper {
-  width: 100vw; /* full screen width */
-  min-height: 420px;
-  padding: 80px 6%;
-  box-sizing: border-box;
-  background: linear-gradient(98deg, #650af1 2.15%, #11192c 73.63%);
-  color: #ffffff;
+  position: relative;
+  width: 100%;
+  min-height: 600px;
   display: flex;
   align-items: center;
+  overflow: hidden;
+  font-family: "Inter", sans-serif; /* Example font */
+  color: #ffffff;
+  background: linear-gradient(98deg, #650af1 2.15%, #11192c 73.63%);
 }
 
 /* container for left + right */
 .heroInner {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  z-index: 10; /* Above overlay */
   width: 100%;
   max-width: 1240px;
   margin: 0 auto;
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
 }
 
 /* ========================== */
@@ -37,7 +41,7 @@
 .collabLogo {
   width: 213px;
   height: 77px;
-  margin-left: -24px;
+  margin-left: 73px;
   margin-top: -41px;
 }
 
@@ -163,18 +167,20 @@
 /* ========================== */
 
 .heroImageWrapper {
-  position: relative;
-  width: 48%;
-  height: 360px;
-  border-radius: 16px 0 0 16px;
-  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 65%; /* Covers the right 65% of the screen */
+  z-index: 0;
 }
 
 /* campus image */
 .heroImage {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   object-position: center;
-  filter: brightness(0.94);
 }
 
 /* gradient overlay to blend with purple bg */
@@ -191,6 +197,18 @@
   pointer-events: none;
 }
 
+.overlay {
+  position: absolute;
+  inset: 0; /* Covers entire section */
+  z-index: 1;
+  background: linear-gradient(
+    98deg,
+    #650af1 32.15%,
+    #7c73ffcb 43.63%,
+    rgba(88, 5, 255, 0) 100%
+  );
+}
+
 /* ========================== */
 /*         RESPONSIVE         */
 /* ========================== */
@@ -204,6 +222,9 @@
     flex-direction: column;
     gap: 32px;
   }
+  .overlay {
+    display: none;
+  }
 
   .collabBadge {
     position: static;
@@ -215,9 +236,10 @@
   }
 
   .heroImageWrapper {
-    width: 100%;
+    /* width: 100%;
     height: 260px;
-    border-radius: 14px;
+    border-radius: 14px; */
+    display: none;
   }
 
   .kicker {
@@ -257,5 +279,10 @@
   .buttonRow {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .collabLogo {
+    width: 200px;
+    margin-left: -30px;
   }
 }
