@@ -18,7 +18,10 @@
   margin: 0;
   font-size: 2rem;
   font-weight: 700;
-  background: linear-gradient(90deg, #2563eb, #7c3aed);
+  background: linear-gradient(90deg, #0881fd 0.09%, #7536bf 88.61%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -27,7 +30,7 @@
 .subheading {
   margin: 8px 0 0;
   font-size: 1rem;
-  color: #6b7280;
+  color: #676969;
 }
 
 /* Main row */
@@ -86,12 +89,12 @@
   margin: 0;
   font-size: 1rem;
   line-height: 1.7;
-  color: #4b5563;
+  color: #676969;
   max-width: 420px;
 }
 
 .highlightPrimary {
-  color: #059669; /* green accent like the design */
+  color: #04c988; /* green accent like the design */
   font-weight: 600;
 }
 

@@ -19,16 +19,17 @@
   margin: 0;
   font-size: 2rem;
   font-weight: 700;
-  background: linear-gradient(90deg, #2563eb, #7c3aed);
-  -webkit-background-clip: text;
+  background: linear-gradient(90deg, #0881fd 0.09%, #7536bf 88.61%);
   background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
 }
 
 .subheading {
   margin: 8px 0 0;
   font-size: 1rem;
-  color: #6b7280;
+  color: #676969;
 }
 
 /* Main card */
@@ -63,7 +64,8 @@
   font-size: 0.85rem;
   font-weight: 600;
   color: #ffffff;
-  background: #4f46e5;
+  border-radius: 48.486px;
+  background: linear-gradient(90deg, #8540ec 0%, #4e73f5 100%);
   align-self: flex-start;
 }
 
@@ -87,7 +89,7 @@
   border-radius: 999px;
   border: 1px solid #d1d5db;
   background: #f9fafb;
-  color: #4b5563;
+  color: #141313;
 }
 
 .modeValue {
@@ -96,7 +98,7 @@
 }
 
 .liveTag {
-  color: #ef4444;
+  color: #ca3942;
   font-weight: 700;
 }
 
@@ -135,11 +137,13 @@
 .feePill {
   display: inline-block;
   padding: 8px 20px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.12);
+  border-radius: 50px;
+
+  border: 1.23px solid #d3e9ff;
+  background: rgba(255, 255, 255, 0.26);
   font-size: 0.88rem;
   font-weight: 600;
-  width: 131px;
+  width: 133px;
 }
 
 .priceBlock {
@@ -184,12 +188,12 @@
 }
 
 .primaryBtn {
-  background-color: #ffffff;
+  border-radius: 12.53px;
+  background: #fff;
   color: #111827;
   width: 266px;
   justify-content: center;
   align-items: center;
-  border-radius: 1px;
 }
 
 .primaryBtn:hover {
@@ -197,16 +201,13 @@
 }
 
 .secondaryBtn {
-  background: rgba(15, 23, 42, 0.18);
   color: #ffffff;
   width: 266px;
   justify-content: center;
   align-items: center;
   border-radius: 1px;
-}
-
-.secondaryBtn:hover {
-  background: rgba(15, 23, 42, 0.3);
+  border-radius: 12.613px;
+  background: linear-gradient(90deg, #0383ff 0%, #4e47e5 100%);
 }
 
 .btnIconBox {

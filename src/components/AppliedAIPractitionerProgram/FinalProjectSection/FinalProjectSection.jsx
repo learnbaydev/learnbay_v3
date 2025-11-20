@@ -8,17 +8,17 @@ const STEPS = [
   {
     id: "build",
     img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/construction.webp",
-    title: "Build your AI product",
+    title: "Build a Real AI Product",
   },
   {
     id: "collab",
     img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/group.webp",
-    title: "Collaborate with AI Startups",
+    title: "Work With a Startup",
   },
   {
     id: "deploy",
     img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/eye_tracking.webp",
-    title: "Deploy and showcase in your portfolio",
+    title: "Deploy & Showcase Your Work",
   },
 ];
 

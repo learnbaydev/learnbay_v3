@@ -125,7 +125,7 @@ export default function DomainHelpSection() {
       <div className={styles.header}>
         <h2 className={styles.heading}>How This Program Helps Your Domain</h2>
         <p className={styles.subheading}>
-          Choose our platform for project-based programs
+          Discover how your job becomes smarter and more automated with AI
         </p>
       </div>
 
