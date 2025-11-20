@@ -1,11 +1,28 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./HeroSection.module.css";
+import PopupContent from "@/components/Global/PopupContent/PopupContent";
 
 export default function AppliedAIHero() {
+  const [popups, setPopups] = useState(false);
+  const popupShow = () => {
+    setPopups(true);
+  };
+
+  const pdfUrl =
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/IITPatnaAppliedAIProgram.pdf";
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "IITPatnaAppliedAIProgram.pdf"; // filename for download
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section className={styles.heroWrapper}>
       <div className={styles.heroImageWrapper}>
@@ -50,7 +67,20 @@ export default function AppliedAIHero() {
             </p>
 
             <div className={styles.buttonRow}>
-              <Link href="#talk-to-advisor" className={styles.primaryBtn}>
+              <PopupContent
+                // dataScience={dataScience}
+                // radio={radio}
+                // dataScienceCounselling={dataScienceCounselling}
+                dataScienceGeneric={true}
+                popups={popups}
+                setPopups={setPopups}
+                // interstedInHide={interstedInHide}
+                // idss={idss}
+                // btnHide={btnHide}
+                brochurePdf={pdfUrl}
+                heading="Apply For Counselling"
+              />
+              <button onClick={popupShow} className={styles.primaryBtn}>
                 <span className={styles.iconCircle}>
                   {/* Phone icon */}
                   <svg
@@ -65,9 +95,9 @@ export default function AppliedAIHero() {
                   </svg>
                 </span>
                 Talk to a Program Advisor
-              </Link>
+              </button>
 
-              <Link href="#download-brochure" className={styles.secondaryBtn}>
+              <button onClick={handleDownload} className={styles.secondaryBtn}>
                 <span className={styles.secondaryIconCircle}>
                   {/* Download icon */}
                   <svg
@@ -82,7 +112,7 @@ export default function AppliedAIHero() {
                   </svg>
                 </span>
                 Download Program Brochure
-              </Link>
+              </button>
             </div>
           </div>
         </div>

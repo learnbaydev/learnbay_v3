@@ -9,9 +9,9 @@ export default function CertificationsSection() {
     <section className={styles.wrapper}>
       {/* Header */}
       <header className={styles.header}>
-        <h2 className={styles.heading}>Certifications Section</h2>
+        <h2 className={styles.heading}>Dual Certification</h2>
         <p className={styles.subheading}>
-          Choose our platform for project-based programs
+          Get certified in AI skills that recruiters trust
         </p>
       </header>
 

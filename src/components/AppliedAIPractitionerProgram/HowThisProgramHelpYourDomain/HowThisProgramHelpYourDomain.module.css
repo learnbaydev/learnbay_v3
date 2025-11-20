@@ -13,14 +13,17 @@
 .heading {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #2563eb; /* blue heading like design */
+  background: linear-gradient(90deg, #0881fd 0%, #9f57f5 80.33%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin: 0 0 8px;
 }
 
 .subheading {
   margin: 0;
   font-size: 0.98rem;
-  color: #6b7280;
+  color: #676969;
 }
 
 /* Outer container for all rows */
@@ -37,7 +40,7 @@
 .domainTitle {
   font-size: 0.98rem;
   font-weight: 600;
-  color: #374151;
+  color: #626262;
   margin: 0 0 14px;
 }
 
@@ -80,7 +83,7 @@
   margin: 0;
   font-size: 0.9rem;
   line-height: 1.6;
-  color: #4b5563;
+  color: #0f0f0f;
 }
 
 /* Image column */

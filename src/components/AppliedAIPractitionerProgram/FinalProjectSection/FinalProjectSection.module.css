@@ -21,13 +21,16 @@
   margin: 0 0 8px;
   font-size: 1.9rem;
   font-weight: 700;
-  color: #2563eb; /* blue like the design */
+  background: linear-gradient(90deg, #0881fd 0.09%, #7536bf 88.61%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .subheading {
   margin: 0;
   font-size: 0.98rem;
-  color: #6b7280;
+  color: #676969;
 }
 
 /* Gradient strip */
@@ -124,7 +127,7 @@
   margin: 22px auto 0;
   text-align: center;
   font-size: 0.96rem;
-  color: #6b7280;
+  color: #676969;
   max-width: 680px;
 }
 

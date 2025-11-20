@@ -7,7 +7,7 @@
   overflow: hidden;
   font-family: "Inter", sans-serif; /* Example font */
   color: #ffffff;
-  background: linear-gradient(98deg, #650af1 2.15%, #11192c 73.63%);
+  background: linear-gradient(98deg, #650af1 12.15%, #11192c 73.63%);
 }
 
 /* container for left + right */
@@ -17,7 +17,7 @@
   width: 100%;
   max-width: 1240px;
   margin: 0 auto;
-  padding: 0 5%;
+  padding: 10px 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -203,8 +203,8 @@
   z-index: 1;
   background: linear-gradient(
     98deg,
-    #650af1 32.15%,
-    #7c73ffcb 43.63%,
+    #650af1 38.15%,
+    #7c73ffcb 53.63%,
     rgba(88, 5, 255, 0) 100%
   );
 }
@@ -308,6 +308,6 @@
 
   .collabLogo {
     width: 200px;
-    margin-left: -30px;
+    margin-left: -15px;
   }
 }

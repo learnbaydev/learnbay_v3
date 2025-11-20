@@ -10,7 +10,7 @@ const TOOL_GROUPS = [
   {
     id: "llms",
     label: "LLMs",
-    logos: [1, 2, 3, 4, 5],
+    logos: [32, 1, 2, 3, 5],
   },
   {
     id: "frameworks",
@@ -20,22 +20,22 @@ const TOOL_GROUPS = [
   {
     id: "agents",
     label: "Automation & Agents",
-    logos: [11, 12, 13, 14, 15],
+    logos: [11, 12, 13, 15, 31],
   },
   {
     id: "creative",
     label: "Creative AI",
-    logos: [16, 17, 18, 19, 20],
+    logos: [16, 18, 19, 20],
   },
   {
     id: "nocode",
     label: "No-Code App & Dev Tools",
-    logos: [21, 22, 23, 24, 25],
+    logos: [21, 22, 23, 25],
   },
   {
     id: "cloud-mlops",
     label: "Cloud & AIOps",
-    logos: [26, 27, 28, 29, 30],
+    logos: [27, 28, 29, 30],
   },
 ];
 

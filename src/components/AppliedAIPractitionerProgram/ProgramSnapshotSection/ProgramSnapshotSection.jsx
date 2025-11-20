@@ -9,12 +9,12 @@ export default function ProgramSnapshotSection() {
   return (
     <section className={styles.wrapper}>
       {/* Header */}
-      <header className={styles.header}>
+      {/* <header className={styles.header}>
         <h2 className={styles.heading}>Program Snapshot</h2>
         <p className={styles.subheading}>
           Choose our platform for project-based programs
         </p>
-      </header>
+      </header> */}
 
       {/* Main card */}
       <div className={styles.card}>
