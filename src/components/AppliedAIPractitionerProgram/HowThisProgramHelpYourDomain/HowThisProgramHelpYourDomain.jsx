@@ -44,18 +44,18 @@ const DOMAIN_ROWS = [
   },
   {
     id: "healthcare",
-    title: "Healthcare & Life Sciences",
+    title: "Healthcare & Medical",
     challenges: [
-      "Complex documentation",
+      "Tedious reporting",
       "High compliance workload",
-      "Repetitive patient queries",
-      "Fragmented medical data",
+      "Repetitive analysis",
+      "Generic customer service",
     ],
     helps: [
-      "Summarize medical records with AI",
-      "Assist clinicians with decision support",
-      "Automate routine patient communication",
-      "Improve operational efficiency & insights",
+      "Automate forecasting",
+      "Build AI risk-analysis copilots",
+      "Run compliance checks using RAG",
+      "Improve customer insights",
     ],
     imageSrc:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/male-working-as-paediatrician.webp",
