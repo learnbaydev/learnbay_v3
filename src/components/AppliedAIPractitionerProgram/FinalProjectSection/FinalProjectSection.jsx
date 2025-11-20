@@ -28,11 +28,10 @@ export default function FinalProjectSection() {
       <div className={styles.inner}>
         {/* Heading */}
         <header className={styles.header}>
-          <h2 className={styles.heading}>
-            Final Project – Build Your AI Solution
-          </h2>
+          <h2 className={styles.heading}>From Prototype to Portfolio</h2>
           <p className={styles.subheading}>
-            Choose our platform for project-based programs
+            Build your AI solution, validate it with startup teams, and add a
+            verified project to your portfolio.
           </p>
         </header>
 

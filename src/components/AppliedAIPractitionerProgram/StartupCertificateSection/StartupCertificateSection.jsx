@@ -26,7 +26,7 @@ export default function StartupCertificateSection() {
           <div className={styles.certificateFrame}>
             {/* Dummy image – replace with your real certificate image */}
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IITPatnaAppliedAIProgram1.webp"
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IITPatnaAppliedAIProgram.webp"
               alt="AI Startup Certificate"
               fill
               className={styles.certificateImage}

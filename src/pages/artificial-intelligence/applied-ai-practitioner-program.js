@@ -77,7 +77,7 @@ const AppliedAIPractitionerProgram = () => {
         <ToolsAndPlatforms />
         <ProgramSyllabus />
         <FinalProjectSection />
-        <AiColabExperienceSection />
+        {/* <AiColabExperienceSection /> */}
         <CertificationsSection />
         <StartupCertificateSection />
         <ProgramSnapshotSection />

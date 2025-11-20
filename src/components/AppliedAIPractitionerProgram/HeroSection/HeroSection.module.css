@@ -1,7 +1,7 @@
 .heroWrapper {
-  width: 100%;
+  width: 100vw; /* full screen width */
   min-height: 420px;
-  padding: 80px 5%;
+  padding: 80px 6%;
   box-sizing: border-box;
   background: linear-gradient(98deg, #650af1 2.15%, #11192c 73.63%);
   color: #ffffff;
@@ -9,34 +9,49 @@
   align-items: center;
 }
 
-/* Flex wrapper for text + image */
+/* container for left + right */
 .heroInner {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
 }
 
-/* LOGO SECTION */
-.logoWrapper {
+/* ========================== */
+/*      TOP LOGO BADGE        */
+/* ========================== */
+
+.collabBadge {
   position: absolute;
-  top: -20px;
+  top: -28px; /* float above heading */
   left: 0;
-  transform: translateY(-50%);
+  padding: 6px 14px;
+
+  display: inline-flex;
+  align-items: center;
 }
 
-.logoImage {
-  width: auto;
-  height: 60px;
+.collabLogo {
+  width: 213px;
+  height: 77px;
+  margin-left: -24px;
+  margin-top: -41px;
 }
 
-/* LEFT CONTENT */
+/* ========================== */
+/*       LEFT CONTENT         */
+/* ========================== */
+
 .heroContent {
   max-width: 640px;
+  z-index: 1; /* keeps text above gradients */
 }
 
 .kicker {
-  font-size: 5rem;
+  font-size: 4.4rem;
   font-weight: 600;
   margin: 0;
   letter-spacing: 0.03em;
@@ -46,25 +61,30 @@
 .title {
   font-size: 3rem;
   font-weight: 400;
-  margin: 10px 0 24px;
-  margin-top: -5px;
+  margin: -6px 0 22px;
 }
 
 .subtitle {
   max-width: 540px;
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   line-height: 1.6;
-  margin: 0 0 32px;
-  padding: 16px 18px;
-  border-radius: 8px;
-  backdrop-filter: blur(6px);
+  margin: 0 0 18px;
+  padding: 14px 0px;
   color: #ffffff;
 }
 
-.highlight {
-  font-weight: 900;
-  color: #b3ffe6;
+.collabText {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #4ade80;
+  margin: 0 0 26px;
 }
+
+.collabText span {
+  font-weight: 700;
+}
+
+/* BUTTONS */
 
 .buttonRow {
   display: flex;
@@ -78,28 +98,35 @@
   align-items: center;
   gap: 10px;
   padding: 12px 20px;
-  border-radius: 9px;
-  font-size: 0.95rem;
+  border-radius: 999px;
+  font-size: 0.98rem;
   font-weight: 500;
   text-decoration: none;
   cursor: pointer;
-  transition: transform 0.15s ease, background-color 0.15s ease;
   border: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease,
+    background-color 0.15s ease;
 }
 
+/* blue button */
 .primaryBtn {
   background: linear-gradient(90deg, #0383ff 0%, #4e47e5 100%);
   color: #ffffff;
+  box-shadow: 0 14px 34px rgba(37, 99, 235, 0.5);
+  border-radius: 8px;
 }
 
 .primaryBtn:hover {
   transform: translateY(-1px);
-  background: #0c74df;
+  background: linear-gradient(90deg, #0c74df 0%, #4338ca 100%);
 }
 
+/* white button */
 .secondaryBtn {
   background: #ffffff;
   color: #1a1919;
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.35);
+  border-radius: 8px;
 }
 
 .secondaryBtn:hover {
@@ -119,7 +146,7 @@
 }
 
 .iconCircle {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.22);
 }
 
 .secondaryIconCircle {
@@ -139,14 +166,29 @@
   position: relative;
   width: 48%;
   height: 360px;
-  border-radius: 12px;
+  border-radius: 16px 0 0 16px;
   overflow: hidden;
 }
 
+/* campus image */
 .heroImage {
   object-fit: cover;
   object-position: center;
-  filter: brightness(0.95);
+  filter: brightness(0.94);
+}
+
+/* gradient overlay to blend with purple bg */
+.heroImageWrapper::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    rgba(37, 99, 235, 0.6) 0%,
+    rgba(17, 24, 39, 0.1) 45%,
+    rgba(17, 24, 39, 0) 100%
+  );
+  pointer-events: none;
 }
 
 /* ========================== */
@@ -154,15 +196,28 @@
 /* ========================== */
 
 @media (max-width: 900px) {
+  .heroWrapper {
+    padding: 70px 5% 60px;
+  }
+
   .heroInner {
     flex-direction: column;
-    text-align: left;
     gap: 32px;
+  }
+
+  .collabBadge {
+    position: static;
+    margin-bottom: 18px;
+  }
+
+  .heroContent {
+    max-width: 100%;
   }
 
   .heroImageWrapper {
     width: 100%;
     height: 260px;
+    border-radius: 14px;
   }
 
   .kicker {
@@ -174,17 +229,21 @@
   }
 
   .subtitle {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
   }
 }
 
 @media (max-width: 600px) {
+  .heroWrapper {
+    padding: 60px 5% 50px;
+  }
+
   .heroImageWrapper {
     height: 220px;
   }
 
   .kicker {
-    font-size: 2.3rem;
+    font-size: 2.4rem;
   }
 
   .title {
@@ -193,5 +252,10 @@
 
   .subtitle {
     font-size: 0.95rem;
+  }
+
+  .buttonRow {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }

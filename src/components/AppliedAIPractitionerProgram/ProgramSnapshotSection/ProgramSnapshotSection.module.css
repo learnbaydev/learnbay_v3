@@ -104,26 +104,14 @@
 
 .collabRow {
   display: flex;
-  flex-direction: column;
-  gap: 8px;
-  margin-top: 4px;
+  align-items: center; /* Align text + image vertically */
+  gap: 10px; /* Space between them */
 }
-
-.collabLabel {
-  font-size: 0.9rem;
-  color: #4b5563;
-}
-
 .collabLogoWrap {
   position: relative;
-  width: 220px;
-  height: 60px;
-  border-radius: 10px;
-  background-color: #ffffff;
-  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.12);
-  overflow: hidden;
+  width: 150px; /* or any width you prefer */
+  height: 90px; /* adjust depending on logo shape */
 }
-
 .collabLogo {
   object-fit: contain;
 }
@@ -133,12 +121,15 @@
 .rightPane {
   flex: 0.9;
   padding: 28px 36px;
-  background: linear-gradient(135deg, #7c3aed, #2563eb);
+  border-radius: 0 100px;
+  background: linear-gradient(96deg, #7e3cea 3.37%, #2a2981 90.36%);
   color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 22px;
+  justify-content: center;
+  align-items: center;
 }
 
 .feePill {
@@ -148,6 +139,7 @@
   background: rgba(255, 255, 255, 0.12);
   font-size: 0.88rem;
   font-weight: 600;
+  width: 131px;
 }
 
 .priceBlock {
@@ -173,6 +165,7 @@
   flex-direction: column;
   gap: 10px;
   margin-top: 8px;
+  align-items: center;
 }
 
 .primaryBtn,
@@ -193,6 +186,10 @@
 .primaryBtn {
   background-color: #ffffff;
   color: #111827;
+  width: 266px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1px;
 }
 
 .primaryBtn:hover {
@@ -202,6 +199,10 @@
 .secondaryBtn {
   background: rgba(15, 23, 42, 0.18);
   color: #ffffff;
+  width: 266px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1px;
 }
 
 .secondaryBtn:hover {
@@ -218,18 +219,18 @@
   justify-content: center;
 }
 
-.iconSquare {
+.iconarrowRightToLine {
   width: 10px;
   height: 10px;
   border-radius: 3px;
   background-color: #111827;
 }
 
-.iconCircle {
+.iconPhone {
   width: 10px;
   height: 10px;
   border-radius: 999px;
-  background-color: #22c55e;
+  background-color: #1ad041;
 }
 
 /* RESPONSIVE */

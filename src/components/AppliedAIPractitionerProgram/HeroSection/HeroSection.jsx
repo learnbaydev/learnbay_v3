@@ -2,24 +2,23 @@
 
 import React from "react";
 import Image from "next/image";
-import styles from "./HeroSection.module.css";
 import Link from "next/link";
+import styles from "./HeroSection.module.css";
 
 export default function AppliedAIHero() {
   return (
     <section className={styles.heroWrapper}>
       <div className={styles.heroInner}>
-        {/* LOGO BLOCK (Top Left) */}
-        <div className={styles.logoWrapper}>
+        {/* TOP FLOATING LOGO BADGE */}
+        <div className={styles.collabBadge}>
           <Image
-            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/"
-            alt="Vishlesan I-Hub Foundation IIT Patna Logo"
-            width={150}
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group+3212.webp"
+            alt="Vishlesan I-HUB Foundation IIT Patna"
+            width={210}
             height={60}
-            className={styles.logoImage}
+            className={styles.collabLogo}
           />
         </div>
-
         {/* LEFT CONTENT */}
         <div className={styles.heroContent}>
           <p className={styles.kicker}>Applied AI</p>
@@ -30,7 +29,7 @@ export default function AppliedAIHero() {
             startups — all in 4 months.
           </p>
 
-          <p className={styles.collabLine}>
+          <p className={styles.collabText}>
             In collaboration with <span>IIT Patna</span>
           </p>
 
@@ -70,8 +69,8 @@ export default function AppliedAIHero() {
             </Link>
           </div>
         </div>
-
         {/* RIGHT HERO IMAGE */}
+
         <div className={styles.heroImageWrapper}>
           <Image
             src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit-patna-campus.webp"
@@ -79,6 +78,8 @@ export default function AppliedAIHero() {
             fill
             priority
             className={styles.heroImage}
+            // ADD THIS inline style to guarantee object-fit: cover
+            style={{ objectFit: "cover" }}
           />
         </div>
       </div>
