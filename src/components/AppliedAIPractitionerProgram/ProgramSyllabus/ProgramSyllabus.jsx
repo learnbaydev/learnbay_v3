@@ -221,9 +221,10 @@ export default function SyllabusSection() {
   return (
     <section className={styles.sectionWrapper}>
       <div className={styles.header}>
-        <h2 className={styles.mainTitle}>Program Syllabus – Module Overview</h2>
+        <h2 className={styles.mainTitle}>Program Syllabus </h2>
         <p className={styles.subtitle}>
-          Choose our platform for project-based programs
+          A practical, outcome-driven syllabus built to transform how you work
+          with AI
         </p>
       </div>
 

@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import styles from "./FAQNew.module.css";
-import FAQ from "../FAQNew/FAQ";
+import FAQ from "../FAQNew/FAQApplied1";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper";
 
-function FAQNew({
+function FAQAppliedAINew({
   background,
-  FAQNewData,
+  faq1,
   dscoursefaq,
   toolsdynamic,
   DSAFresherFAQT,
@@ -19,16 +19,16 @@ function FAQNew({
     { title: "Course Related", value: true },
     { title: "Domain Electives", value: false },
     { title: "Payments and Scholarships", value: false },
-    { title: "Capstone and Real-Time Projects", value: false },
-    { title: "Certification", value: false },
+    { title: "PROJECTS & AI Co-Lab ", value: false },
+    { title: "Certifications", value: false },
     { title: "Job Assistance", value: false },
     { title: "Mentorship", value: false },
     { title: "Support", value: false },
-    { title: "Eligiblity Criteria", value: false },
-    { title: "Generic Queries", value: false },
+    // { title: "Eligiblity Criteria", value: false },
+    // { title: "Generic Queries", value: false },
   ]);
   {
-    console.log({ FAQNewData });
+    console.log({ faq1 });
   }
   const menuChange = (title, index) => {
     if (title === dataLoop[index].title) {
@@ -48,9 +48,7 @@ function FAQNew({
       {toolsdynamic ? (
         <>
           {" "}
-          <h4 className={styles.infop}>
-            Business Analyst Certification Course FAQs
-          </h4>
+          <h4 className={styles.infop}>Applied AI Practitioner Course FAQs</h4>
         </>
       ) : DSAFresherFAQT ? (
         <h4 className={styles.infop}>FAQs for DSA Course [Freshers]</h4>
@@ -68,7 +66,7 @@ function FAQNew({
       <div className={background ? styles.backgroundcolor : styles.courseM}>
         <div className={styles.courses}>
           <div className={styles.listPanel}>
-            {FAQNewData?.map((data, index) => {
+            {faq1?.map((data, index) => {
               return (
                 <span
                   onClick={() => {
@@ -90,11 +88,11 @@ function FAQNew({
               );
             })}
           </div>
-          {FAQNewData?.map((dataF, index) => {
+          {faq1?.map((dataF, index) => {
             const { data } = dataF;
             return dataLoop[index].value ? (
               <div className={styles.gridPanel} key={index}>
-                <FAQ FaqData={data} />
+                <FAQ FAQNewAIData={data} />
               </div>
             ) : (
               ""
@@ -119,7 +117,7 @@ function FAQNew({
             modules={[Autoplay, Navigation]}
             className="mySwiper"
           >
-            {FAQNewData?.map((data, index) => {
+            {faq1?.map((data, index) => {
               return (
                 <SwiperSlide className={styles.slide} key={index}>
                   <span
@@ -152,11 +150,11 @@ function FAQNew({
             })}
           </Swiper>
         </div>
-        {FAQNewData?.map((dataF, index) => {
+        {faq1?.map((dataF, index) => {
           const { data } = dataF;
           return dataLoop[index].value ? (
             <div className={styles.gridPanel} key={index}>
-              <FAQ FaqData={data} />
+              <FAQ FAQNewAIData={data} />
             </div>
           ) : (
             ""
@@ -167,4 +165,4 @@ function FAQNew({
   );
 }
 
-export default FAQNew;
+export default FAQAppliedAINew;
