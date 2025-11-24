@@ -695,4 +695,9 @@
 		<changefreq>daily</changefreq>
 		<priority>0.90</priority>
 	</url>
+	<url>
+		<loc>https://www.learnbay.co/artificial-intelligence/applied-ai-practitioner-program</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.90</priority>
+	</url>
 </urlset>
