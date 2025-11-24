@@ -140,7 +140,7 @@ export default function WhoCanApply() {
               </div>
               <h3 className={styles.cardTitle}>Leaders &amp; Entrepreneurs</h3>
               <ul className={styles.cardList}>
-                <li>Experience: 5–10+ years</li>
+                <li>Experience: 5+ years</li>
                 <li>Job roles: Managers, Founders, Product Owners</li>
               </ul>
               <div className={styles.cardOutcome}>
@@ -161,7 +161,7 @@ export default function WhoCanApply() {
                   Non-Tech &amp; Business Professionals
                 </h3>
                 <ul className={styles.cardList}>
-                  <li>Experience: 1–10+ years</li>
+                  <li>Experience: 1+ years</li>
                   <li>Job roles: Marketing, Sales, Operations, Trainers</li>
                 </ul>
                 <div className={styles.cardOutcome}>

@@ -64,7 +64,7 @@ const syllabusData = [
     content: [
       {
         label: "Focus",
-        text: "agents, automation logic, cross-tool workflowsTools",
+        text: "agents, automation logic, cross-tool workflows Tools",
       },
       {
         label: "Tools",
@@ -101,7 +101,7 @@ const syllabusData = [
       },
       {
         label: "Outcome",
-        text: "Able to ship working AI products accessible via the web",
+        text: "Ability to deliver functional AI web applications for business use",
       },
     ],
   },

@@ -54,12 +54,12 @@ export default function AppliedAIHero() {
 
           {/* LEFT CONTENT */}
           <div className={styles.heroContent}>
-            <p className={styles.kicker}>Applied AI</p>
+            <h1 className={styles.kicker}>Applied AI</h1>
             <h1 className={styles.title}>Practitioner Program</h1>
 
             <p className={styles.subtitle}>
-              Master 35+ AI tools, build real AI products, and work directly
-              with startups — all in 4 months.
+              Master 35+ AI tools, <b>build real AI products</b>, and work
+              directly with startups — all in 4 months.
             </p>
 
             <p className={styles.collabText}>

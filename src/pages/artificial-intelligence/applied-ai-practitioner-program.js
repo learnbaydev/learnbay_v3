@@ -1,4 +1,6 @@
 import React from "react";
+import Head from "next/head";
+import { parseJSONData } from "@/Util/JsonConvertor";
 import Navbar from "@/components/Global/Navbar/Navbar";
 import dynamic from "next/dynamic";
 
@@ -64,8 +66,8 @@ const ProgramSnapshotSection = dynamic(() =>
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 
-import { list } from "postcss";
-import FAQAppliedAINew from "@/components/CoursePage/FAQNew/FAQAppliedAINew";
+// import { list } from "postcss";
+// import FAQAppliedAINew from "@/components/CoursePage/FAQNew/FAQAppliedAINew";
 const NewSevenSection = dynamic(() =>
   import("@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection")
 );
@@ -200,7 +202,7 @@ const AppliedAIPractitionerProgram = () => {
     },
     {
       id: 3,
-      sectionName: "PROJECTS & AI Co-Lab ",
+      sectionName: "Projects & AI Co-Lab ",
       data: [
         {
           id: 0,
@@ -374,6 +376,141 @@ const AppliedAIPractitionerProgram = () => {
 
   return (
     <main>
+      <Head>
+        <title>
+          Applied AI Practitioner Program | IIT Patna | 35+ AI Tools
+        </title>
+
+        <meta
+          name="description"
+          content="Master 35+ AI tools with IIT Patna certification. 4-month applied AI practitioner program for professionals. Real startup projects, no coding required. Enroll now."
+        />
+
+        <meta
+          name="keywords"
+          content="applied AI practitioner program, AI certification, IIT Patna, AI course, generative AI training, no-code AI, LLM course, AI tools, professional AI course, AI practitioner certification"
+        />
+
+        <meta
+          property="og:url"
+          content="https://www.learnbay.co/artificial-intelligence/applied-ai-practitioner-program"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Applied AI Practitioner Program | IIT Patna | 35+ AI Tools"
+        />
+        <meta
+          property="og:description"
+          content="Master 35+ AI tools with IIT Patna certification. 4-month applied AI practitioner program for professionals. Real startup projects, no coding required. Enroll now"
+        />
+        <meta
+          property="og:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
+        <meta name="twitter:site" content="@Learnbay" />
+        <meta name="twitter:creator" content="@Learnbay" />
+        <meta
+          property="twitter:url"
+          content="https://www.learnbay.co/artificial-intelligence/genai-software-developers"
+        />
+        <meta
+          name="twitter:title"
+          content="Applied AI Practitioner Program | IIT Patna | 35+ AI Tools"
+        />
+        <meta
+          name="twitter:description"
+          content="Master 35+ AI tools with IIT Patna certification. 4-month applied AI practitioner program for professionals. Real startup projects, no coding required. Enroll now"
+        />
+
+        <meta
+          property="og:url"
+          content="https://www.learnbay.co/artificial-intelligence/applied-ai-practitioner-program"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Applied AI Practitioner Program | IIT Patna | 35+ AI Tools"
+        />
+        <meta
+          property="og:description"
+          content="Master 35+ AI tools with IIT Patna certification. 4-month applied AI practitioner program for professionals. Real startup projects, no coding required. Enroll now"
+        />
+        <meta
+          property="og:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
+        <meta name="twitter:site" content="@Learnbay" />
+        <meta name="twitter:creator" content="@Learnbay" />
+        <meta
+          property="twitter:url"
+          content="https://www.learnbay.co/artificial-intelligence/genai-software-developers"
+        />
+        <meta
+          name="twitter:title"
+          content="Applied AI Practitioner Program | IIT Patna | 35+ AI Tools"
+        />
+        <meta
+          name="twitter:description"
+          content="Master 35+ AI tools with IIT Patna certification. 4-month applied AI practitioner program for professionals. Real startup projects, no coding required. Enroll now"
+        />
+        <meta
+          name="twitter:image"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
+        />
+
+        <link
+          rel="icon"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
+        />
+
+        <link
+          rel="canonical"
+          href="https://www.learnbay.co/artificial-intelligence/applied-ai-practitioner-program "
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
+            "@context": "http://schema.org",
+      "@type": "Course",
+      "name": "Applied AI Practitioner Program | IIT Patna | 35+ AI Tools",
+      "description": "Master 35+ AI tools with IIT Patna certification. 4-month applied AI practitioner program for professionals. Real startup projects, no coding required. Enroll now.",
+      "url": "https://www.learnbay.co/artificial-intelligence/applied-ai-practitioner-program",
+      "offers": {
+        "@type": "offer",
+        "price": "₹ 95,000 + 18% GST",
+        "pricecurrency": "INR",
+        "category": "Educational"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Learnbay",
+        "Url": "https://www.learnbay.co/"
+      },
+      "coursePrerequisites": "You should know about Python, Machine Learning, & basic Deep Learning before joining the program.",
+      "hasCourseInstance": [
+        {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "courseWorkload": "P17W",
+          "courseFee": {
+            "@type": "PriceSpecification",
+            "price": "₹ 95,000 + 18% GST",
+            "priceCurrency": "INR"
+          }
+        }
+      ]
+    }`,
+          }}
+        />
+      </Head>
+
       <Navbar
         popup={true}
         dataScienceCounselling={true}

@@ -20,14 +20,14 @@ export default function ProgramSnapshotSection() {
       <div className={styles.card}>
         {/* LEFT SIDE */}
         <div className={styles.leftPane}>
-          <div className={styles.durationPill}>Duration: 4 Months</div>
+          <div className={styles.durationPill}>Duration: 4 months</div>
 
           <h3 className={styles.programTitle}>
             Applied AI Practitioner Program
           </h3>
 
           <div className={styles.modeRow}>
-            <span className={styles.modeLabel}>Mode</span>
+            <span className={styles.modeLabel}>Mode</span>:
             <span className={styles.modeValue}>
               <span className={styles.liveTag}>100% Live Online</span> + AI
               CoLab Experience
@@ -71,7 +71,7 @@ export default function ProgramSnapshotSection() {
               <span className={styles.btnIconBox}>
                 <Phone size={14} strokeWidth={2} />
               </span>
-              schedule a Call With a Counselor
+              Schedule a Call with a Counselor
             </button>
           </div>
         </div>

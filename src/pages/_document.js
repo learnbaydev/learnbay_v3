@@ -46,7 +46,7 @@ export default function Document() {
               ],
               "logo": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png",
               "name": "Learnbay",
-              "description": "Enhance your skills with Learnbay's comprehensive online courses and master programs and achieve your professional goals. Enroll Now!",
+              "description": "Master 35+ AI tools with IIT Patna certification. 4-month applied AI practitioner program for professionals. Real startup projects, no coding required. Enroll now",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "1090 , 1st floor, 18th cross road HSR layout sector 3",

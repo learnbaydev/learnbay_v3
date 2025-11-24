@@ -43,7 +43,7 @@ export default function CertificationsSection() {
             <span className={styles.highlightPrimary}>
               Vishlesan I-Hub Foundation, IIT Patna
             </span>{" "}
-            enabling hands-on innovation exposure and real-world AI
+            thereby enabling hands-on innovation exposure and real-world AI
             problem-solving.
           </p>
         </div>

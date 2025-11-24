@@ -4,7 +4,7 @@ import style from "./WhyThisProgram.module.css";
 const programData = [
   {
     id: 1,
-    title: "Build real AI products from scratch",
+    title: "Real-world AI Product",
     description:
       "Create and deploy your own AI-powered app or workflow using real industry methods.",
   },
@@ -18,7 +18,7 @@ const programData = [
     id: 3,
     title: "Work on real startup project",
     description:
-      "With AI Colab Experience work with AI startup and gain hands-on, portfolio-ready experience.",
+      "With AI CoLab Experience work with AI startup and gain hands-on, portfolio-ready experience.",
   },
 ];
 
@@ -35,21 +35,19 @@ const ProgramCard = ({ item }) => {
   const renderTitle = () => {
     // Card 1: "Build real AI" / "products from scratch"
     if (item.id === 1) {
-      return (
-        <>
-          Build real AI products
-          <br />
-          from scratch
-        </>
-      );
+      return <>Real AI products</>;
     }
     // Card 2: "Learn the tools top" / "companies use"
     if (item.id === 2) {
       return (
         <>
-          Learn the tools top
-          <br />
-          companies use
+          Learn the tools{" "}
+          <span style={{ color: "#4ade80;", fontWeight: "700" }}>
+            top
+            <br />
+            companies
+          </span>{" "}
+          use
         </>
       );
     }
@@ -58,9 +56,9 @@ const ProgramCard = ({ item }) => {
     if (item.id === 3) {
       return (
         <>
-          Work on real startup
+          Real startup
           <br />
-          project
+          projects.
         </>
       );
     }

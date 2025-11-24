@@ -15,7 +15,7 @@ export default function StartupCertificateSection() {
           <h3 className={styles.heading}>Why it matters:</h3>
 
           <p className={styles.text}>
-            This is your practical experience credential proof that you can{" "}
+            This serves as proof of your practical experience: you can{" "}
             <span className={styles.highlight}>use AI in the real world</span>{" "}
             to solve actual problems.
           </p>
