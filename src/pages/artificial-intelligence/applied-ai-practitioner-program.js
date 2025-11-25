@@ -189,7 +189,7 @@ const AppliedAIPractitionerProgram = () => {
         {
           id: 0,
           ques: "What is the course fee for the Applied AI Practitioner program? ",
-          ans: "Course fees is 95000 (excluding GST). ",
+          ans: "Course fee is ₹ 95,000 + 18% GST. ",
           open: true,
         },
         {
@@ -414,7 +414,7 @@ const AppliedAIPractitionerProgram = () => {
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/artificial-intelligence/genai-software-developers"
+          content="https://www.learnbay.co/artificial-intelligence/applied-ai-practitioner-program"
         />
         <meta
           name="twitter:title"
@@ -448,7 +448,7 @@ const AppliedAIPractitionerProgram = () => {
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/artificial-intelligence/genai-software-developers"
+          content="https://www.learnbay.co/artificial-intelligence/applied-ai-practitioner-program"
         />
         <meta
           name="twitter:title"
@@ -493,7 +493,7 @@ const AppliedAIPractitionerProgram = () => {
         "name": "Learnbay",
         "Url": "https://www.learnbay.co/"
       },
-      "coursePrerequisites": "You should know about Python, Machine Learning, & basic Deep Learning before joining the program.",
+      "coursePrerequisites": "No prior coding experience is needed.",
       "hasCourseInstance": [
         {
           "@type": "CourseInstance",

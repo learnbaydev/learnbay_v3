@@ -154,7 +154,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
         firstHeading="Certificate in"
         firstTopPara="Crack Interview in top MNCs "
         idss="gaQYhVPCudQ"
-        thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/IBM.png"
+        thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/cd-f.webp"
         // videoId="gaQYhVPCudQ"
         microsoftOnly={true}
         S3RightImage={S3RightImage}
