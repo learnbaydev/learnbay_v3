@@ -1799,7 +1799,7 @@ export const courseDetails = [
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
             brochurePdfs:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AWS.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/AWS+Cloud-and-Devops-Certification-Program_New_file.pdf",
             titleCourse: "Cloud Computing & DevOps Certification Program",
             para: [
               "3-4 months  |  4 Capstone Projects",
@@ -3176,7 +3176,7 @@ export const courseDetailsM = [
             brochureLinks:
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
             brochurePdfs:
-              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AWS.pdf",
+              "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/AWS+Cloud-and-Devops-Certification-Program_New_file.pdf",
             titleCourse: "Cloud Computing & DevOps Certification Program",
             para: [
               "3-4 months  |  4 Capstone Projects",
