@@ -173,7 +173,7 @@ export const courses = {
     //   link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
-    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AWS.pdf",
+    //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/AWS+Cloud-and-Devops-Certification-Program_New_file.pdf",
     // },
 
     // {
@@ -323,7 +323,7 @@ export const courses = {
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
     //   brochurePdfs:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AWS.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/AWS+Cloud-and-Devops-Certification-Program_New_file.pdf",
     // },
     // {
     //   title: "Software Development Certification",
@@ -593,7 +593,7 @@ export const courses = {
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
     //   brochurePdfs:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AWS.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/AWS+Cloud-and-Devops-Certification-Program_New_file.pdf",
     // },
 
     // {
@@ -853,7 +853,7 @@ export const courses = {
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/AWS-Cloud-and-Devops-Certification-Program.pdf",
     //   brochurePdfs:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AWS.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/AWS+Cloud-and-Devops-Certification-Program_New_file.pdf",
     // },
 
     // {

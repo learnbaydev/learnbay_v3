@@ -136,7 +136,7 @@ const FirstPart = ({ SecondSectionData, S3RightImage, adsHide }) => {
     },
   };
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/AWS.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/AWS+Cloud-and-Devops-Certification-Program_New_file.pdf";
 
   return (
     <>
