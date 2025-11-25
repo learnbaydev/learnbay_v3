@@ -1,11 +1,17 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import styles from "./ProgramSnapshotSection.module.css";
 import { ArrowRightToLine, Phone } from "lucide-react";
+import PopupContent from "@/components/Global/PopupContent/PopupContent";
 
 export default function ProgramSnapshotSection() {
+  const [popups, setPopups] = useState(false);
+  const popupShow = () => {
+    setPopups(true);
+  };
+
   return (
     <section className={styles.wrapper}>
       {/* Header */}
@@ -60,19 +66,24 @@ export default function ProgramSnapshotSection() {
           </div>
 
           <div className={styles.actions}>
-            <button className={styles.primaryBtn}>
+            <PopupContent
+              dataScienceGeneric={true}
+              popups={popups}
+              setPopups={setPopups}
+            />
+            <button onClick={popupShow} className={styles.primaryBtn}>
               <span className={styles.btnIconBox}>
                 <ArrowRightToLine size={14} strokeWidth={2} />
               </span>
               Apply for the Next Cohort
             </button>
 
-            <button className={styles.secondaryBtn}>
+            {/* <button className={styles.secondaryBtn}>
               <span className={styles.btnIconBox}>
                 <Phone size={14} strokeWidth={2} />
               </span>
               Schedule a Call with a Counselor
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
