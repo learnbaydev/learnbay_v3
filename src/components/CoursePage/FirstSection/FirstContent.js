@@ -158,14 +158,14 @@ const FirstContent = ({
             <>
               {microsoftOnly ? (
                 <div className={styles.microsoftDiv}>
-                  <p className={styles.ptop}>In Collaboration With</p>{" "}
+                  {/* <p className={styles.ptop}>In Collaboration With</p>{" "}
                   <Image
                     src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micrososfttss.webp"
                     width={190}
                     height={40}
                     priority
                     alt="data science course"
-                  />
+                  /> */}
                 </div>
               ) : DSAFresherHeadContent ? (
                 <div className={styles.listContent}>
@@ -448,7 +448,7 @@ const FirstContent = ({
             <div className={styles.Mobile}>
               {microsoftOnly ? (
                 <>
-                  <p className={styles.ptoptwo}>In Collaboration With</p>{" "}
+                  {/* <p className={styles.ptoptwo}>In Collaboration With</p>{" "}
                   <div className={styles.ImageBlock}>
                     <Image
                       src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micrososfttss.webp"
@@ -457,7 +457,7 @@ const FirstContent = ({
                       priority
                       alt="data science course"
                     />
-                  </div>
+                  </div> */}
                 </>
               ) : DSAFresherHeadContent ? (
                 <div className={styles.listContent}>

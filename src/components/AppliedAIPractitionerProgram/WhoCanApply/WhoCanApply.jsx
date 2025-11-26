@@ -179,7 +179,7 @@ export default function WhoCanApply() {
                 </div>
                 <h3 className={styles.cardTitle}>Tech Professionals</h3>
                 <ul className={styles.cardList}>
-                  <li>Experience: 1–10+ years</li>
+                  <li>Experience: 1+ years</li>
                   <li>Job roles: Developers, Data/ML, QA, Analysts</li>
                 </ul>
                 <div className={styles.cardOutcome}>

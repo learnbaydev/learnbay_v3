@@ -55,7 +55,7 @@ export default function AppliedAIHero() {
           {/* LEFT CONTENT */}
           <div className={styles.heroContent}>
             <h1 className={styles.title}>
-              <span className={styles.kicker}>Applied AI</span>
+              <span className={styles.kicker}>Applied AI </span>
               <br />
               Practitioner Program
             </h1>

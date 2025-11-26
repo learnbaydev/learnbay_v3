@@ -470,7 +470,7 @@ const AppliedAIPractitionerProgram = () => {
 
         <link
           rel="canonical"
-          href="https://www.learnbay.co/artificial-intelligence/applied-ai-practitioner-program "
+          href="https://www.learnbay.co/artificial-intelligence/applied-ai-practitioner-program"
         />
 
         <script
