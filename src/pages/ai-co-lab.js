@@ -41,60 +41,52 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>AI Co-Lab</title>
+        <title> AI Co-Lab – Live Gen-AI Startup Projects | Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Advance Your Coding Skills with Expert DSA Training in Bangalore. Learn Key Algorithms and Data Structures to Excel in Tech Careers and Coding Interviews."
+          content="Join AI Co-Lab by LearnBay — work on real AI startup projects, build GenAI and automation solutions, gain dual certification, and portfolio-ready experience."
         />
         <meta
           name="keywords"
-          content="dsa course in bangalore, data structures and algorithms training in bangalore, data structure training in bangalore, data structures and algorithms course in bangalore, best datastructures & algorithms training institute in bangalore, best institute for data structures and algorithms in bangalore, data structures and algorithms classes in bangalore, dsa courses in bangalore"
+          content="AI startup project experience, AI co-lab program india, work on real-world AI projects, AI automation & agentic AI projects, AI job-ready skills, GenAI projects, AI co-lab"
         />
 
-        <meta
-          property="og:url"
-          content="https://www.learnbay.co/fullstack/dsa-course-training-bangalore"
-        />
+        <meta property="og:url" content="https://www.learnbay.co/ai-co-lab" />
+        <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Data Structures & Algorithms | DSA Course in Bangalore"
+          content="AI Co-Lab – Live Gen-AI  Startup Projects | Learnbay"
         />
-        <meta property="og:site_name" content="learnbay.co" />
-        <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Level up your coding expertise via a DSA course in Bangalore and leap forward to craft a compelling tech career with leading MNCs/MAANG. Enroll in our job-enriched course to build data management, algorithmic optimization, and critical thinking skills. "
+          content="Join AI Co-Lab by LearnBay — work on real AI startup projects, build GenAI and automation solutions, gain dual certification, and portfolio-ready experience."
         />
         <meta
           property="og:image"
-          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
-        <meta property="og:image:height" content="100" />
-        <meta property="og:image:width" content="256" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="learnbay.co" />
         <meta name="twitter:site" content="@Learnbay" />
-        <meta
-          name="twitter:title"
-          content="Data Structures & Algorithms | DSA Course in Bangalore"
-        />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
-          itemProp="description"
-          content="Full stack software developer course Bangalore. We are Advanced Full stack software developer course Certification Training Institute in Bangalore. Full stack software developer course will enhance your career."
+          property="twitter:url"
+          content="https://www.learnbay.co/ai-co-lab"
+        />
+        <meta
+          name="twitter:title"
+          content="AI Co-Lab – Live Gen-AI  Startup Projects | Learnbay"
         />
         <meta
           name="twitter:description"
-          content="Full stack software developer course Bangalore. We are Advanced Full stack software developer course Certification Training Institute in Bangalore. Full stack software developer course will enhance your career."
+          content="Join AI Co-Lab by LearnBay — work on real AI startup projects, build GenAI and automation solutions, gain dual certification, and portfolio-ready experience."
         />
         <meta
           name="twitter:image"
-          content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
+          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
-        <link
-          rel="canonical"
-          href="https://www.learnbay.co/fullstack/dsa-course-training-bangalore"
-        />
+        <link rel="canonical" href="https://www.learnbay.co/ai-co-lab" />
         <meta
           name="copyright"
           content="Learnbay: Full-Stack Software Developer Courses Certification Training India"
@@ -102,6 +94,24 @@ export default function Home() {
         <link
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Course",
+              name: "AI Co-Lab",
+              description:
+                "Work on real AI startup projects, build GenAI and automation solutions, gain dual certification and portfolio-ready experience with LearnBay.",
+              url: "https://www.learnbay.co/ai-co-lab",
+              provider: {
+                "@type": "Organization",
+                name: "Learnbay",
+                url: "https://www.learnbay.co/",
+              },
+            }),
+          }}
         />
       </Head>
       <main>

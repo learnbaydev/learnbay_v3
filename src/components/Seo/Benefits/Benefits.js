@@ -51,7 +51,7 @@ export default function Benefits() {
   return (
     <section className={styles.wrapper}>
       <div className={`${styles.header} ${styles.headerResponsive}`}>
-        <h2 className={styles.title}>What Benefits Can I Expect to Receive?</h2>
+        <h3 className={styles.title}>What Benefits Can I Expect to Receive?</h3>
       </div>
 
       {/* Desktop / tablet (unchanged): grid cards */}
@@ -59,7 +59,7 @@ export default function Benefits() {
         <div className={styles.cards}>
           {benefitsData.map((b, i) => (
             <article className={styles.card} key={i}>
-              <h3 className={styles.cardTitle}>{b.title}</h3>
+              <h4 className={styles.cardTitle}>{b.title}</h4>
               <p className={styles.cardDesc}>{b.description}</p>
 
               <div className={styles.imageBlock}>
@@ -93,7 +93,7 @@ export default function Benefits() {
             {benefitsData.map((b, i) => (
               <SwiperSlide key={i}>
                 <article className={styles.card}>
-                  <h3 className={styles.cardTitle}>{b.title}</h3>
+                  <h4 className={styles.cardTitle}>{b.title}</h4>
                   <p className={styles.cardDesc}>{b.description}</p>
 
                   <div className={styles.imageBlock}>

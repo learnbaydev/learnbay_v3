@@ -9,11 +9,11 @@ const OutcomesSection = () => {
       <div className={styles.container}>
         <div className={styles.contentWrapper}>
           <div className={styles.textSection}>
-            <h1 className={styles.mainHeading}>
+            <h2 className={styles.mainHeading}>
               What Outcomes
               <br />
               Can I Expect?
-            </h1>
+            </h2>
             <p className={styles.subHeading}>
               What results do learners usually see?
             </p>

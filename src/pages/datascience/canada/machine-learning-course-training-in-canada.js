@@ -79,7 +79,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Best Machine Learning Course in Canada with Career Assistance
+          Machine Learning Certification Course in Canada - Learnbay
         </title>
         <meta name="robots" content="index, follow" />
         <meta

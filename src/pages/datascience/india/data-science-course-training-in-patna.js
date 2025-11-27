@@ -97,9 +97,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-          Best Data Science Course in Patna [IBM & Microsoft Certified]
-        </title>
+        <title>Top Data Science Training Course in Patna - Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"

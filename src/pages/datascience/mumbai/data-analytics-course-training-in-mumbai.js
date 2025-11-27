@@ -79,7 +79,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Best IBM Certified Data Analytics Course in Mumbai - Learnbay
+          Data Analytics Course in Mumbai | IBM Certified - Learnbay
         </title>
         <meta name="robots" content="index, follow" />
         <meta

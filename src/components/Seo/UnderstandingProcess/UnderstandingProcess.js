@@ -48,7 +48,7 @@ const UnderstandingProcess = () => (
   <section className={styles.processSection}>
     <div className={styles.container}>
       <div className={styles.header}>
-        <h2 className={styles.mainTitle}>How does it work?</h2>
+        <h3 className={styles.mainTitle}>How does it work?</h3>
       </div>
 
       <div className={styles.stepsStack}>
@@ -68,7 +68,7 @@ const UnderstandingProcess = () => (
                     className={styles.iconImg}
                   />
                 </div>
-                <h3 className={styles.stepTitle}>{step.title}</h3>
+                <h4 className={styles.stepTitle}>{step.title}</h4>
                 <p className={styles.stepDescription}>{step.description}</p>
               </div>
             </div>

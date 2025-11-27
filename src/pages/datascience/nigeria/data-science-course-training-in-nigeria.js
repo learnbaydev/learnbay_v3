@@ -79,7 +79,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Data Science Course Training with Certificate in Nigeria - Learnbay
+          Best Data Science Certification Course in Nigeria - Learnbay
         </title>
         <meta name="robots" content="index, follow" />
         <meta

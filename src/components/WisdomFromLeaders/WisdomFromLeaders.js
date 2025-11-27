@@ -43,9 +43,9 @@ const WisdomFromLeaders = () => {
       <div className={styles.container}>
         {/* Header */}
         <div className={styles.header}>
-          <h2 className={styles.mainTitle}>
+          <h3 className={styles.mainTitle}>
             Wisdom from Founders & AI Leaders
-          </h2>
+          </h3>
         </div>
 
         {/* Podcast Episodes Grid */}
@@ -77,7 +77,7 @@ const WisdomFromLeaders = () => {
 
               {/* Episode Content */}
               <div className={styles.episodeContent}>
-                <h3 className={styles.episodeName}>{episode.name}</h3>
+                <h4 className={styles.episodeName}>{episode.name}</h4>
                 <p className={styles.episodeDescription}>
                   {episode.description}
                 </p>
@@ -103,7 +103,17 @@ const WisdomFromLeaders = () => {
           ))}
         </div>
         <div className={styles.divCenter}>
-          <button className={styles.ctaButton}>Watch All Episodes</button>
+          <button
+            onClick={() =>
+              window.open(
+                "https://www.youtube.com/watch?v=h4cxDRlpLPw&list=PLl1gyDCKkiQSpaJhr35hvkFLNBQfMo1Th",
+                "_blank"
+              )
+            }
+            className={styles.ctaButton}
+          >
+            Watch All Episodes
+          </button>
         </div>
       </div>
     </section>

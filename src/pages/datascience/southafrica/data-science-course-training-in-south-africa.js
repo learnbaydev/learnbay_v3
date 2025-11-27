@@ -79,7 +79,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Best Data Science Certification Course Online in South Africa
+          Best Data Science Course Online in South Africa - Learnbay
         </title>
         <meta name="robots" content="index, follow" />
         <meta

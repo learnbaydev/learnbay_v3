@@ -79,9 +79,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-          Business Analyst Certification Course in Bangalore - Learnbay
-        </title>
+        <title>Business Analyst Course Training in Bangalore - Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"

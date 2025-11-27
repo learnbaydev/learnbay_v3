@@ -71,9 +71,9 @@ const CertificateComponent = ({
           <div className={styles.gridLayout}>
             {/* Left Side - Text */}
             <div className={styles.certificateTextSection}>
-              <h2 className={styles.certificateTitle}>
+              <h3 className={styles.certificateTitle}>
                 Certificate for professionals
-              </h2>
+              </h3>
               <ul className={styles.certificateBenefits}>
                 <li>Gain practical AI experience</li>
                 <li>Get startup-certified proof of work</li>

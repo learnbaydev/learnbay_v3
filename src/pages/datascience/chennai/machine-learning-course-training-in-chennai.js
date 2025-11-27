@@ -78,9 +78,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-          Best Machine Learning Course in Chennai with Career Assistance
-        </title>
+        <title>Machine Learning Course Chennai with Placement - Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"

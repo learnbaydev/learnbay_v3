@@ -96,9 +96,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-          Data Science Course in Kochi | Training & Certification | Learnbay
-        </title>
+        <title>Top Data Science Training Course in Kochi - Learnbay</title>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"

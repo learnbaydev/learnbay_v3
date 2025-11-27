@@ -13,7 +13,7 @@ const LearnbayDifference = () => {
           <div className={styles.topSection}>
             <div className={styles.topContent}>
               <div className={styles.topLeft}>
-                <h1 className={styles.mainTitle}>"What is AI Co-Lab?"</h1>
+                <h2 className={styles.mainTitle}>"What is AI Co-Lab?"</h2>
 
                 <div className={styles.description}>
                   <p>
@@ -55,9 +55,9 @@ const LearnbayDifference = () => {
               />
 
               <div className={styles.bottomRight}>
-                <h2 className={styles.secondaryTitle}>
+                <h3 className={styles.secondaryTitle}>
                   Why does this matter to me?
-                </h2>
+                </h3>
 
                 <div className={styles.description}>
                   <p>

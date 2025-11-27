@@ -67,9 +67,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>
-          HR Analytics Certification Program | HR Analytics Course - Learnbay
-        </title>
+        <title>Best HR Analytics Course for Professionals - Learnbay</title>
         <meta
           name="description"
           content="Advance your HR career with Learnbay's HR Analytics Certification Program. Master HR analytics skills and boost your expertise. Enroll now!"

@@ -14,7 +14,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
   return (
     <>
       <Head>
-        <title>Full Stack Web Developer Course with Job Assistance - Learnbay        </title>
+        <title>Best Full-Stack Web Development Course - Learnbay </title>
         <meta
           name="description"
           content="Upgrade your career with our comprehensive Full Stack Developer Course and become a highly skilled, successful Fullstack Developer."
@@ -33,10 +33,10 @@ function Blockchain({ DataScienceCourseDataJson }) {
           href="https://www.learnbay.co/fullstack/full-stack-web-development-program"
         />
 
-<script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: `{
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
       "@context": "http://schema.org",
       "@type": "Course",
       "name": "web Development Certification Program",
@@ -66,10 +66,9 @@ function Blockchain({ DataScienceCourseDataJson }) {
           }
         }
       ]
-    }`
-  }}
-/>
-
+    }`,
+          }}
+        />
       </Head>
       <main>
         <FullStackSoftwareDevelopmentFirstPart
