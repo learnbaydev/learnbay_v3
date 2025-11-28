@@ -96,13 +96,13 @@ export default function Home() {
         />
         <meta
           property="og:title"
-          content="Data Analytics Course in Mumbai | Data Science Training in Mumbai"
+          content="Data Analytics Course in Mumbai | IBM Certified - Learnbay"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Data Analytics Course in Mumbai. Learnbay is Advanced Data Analytics Course Training Institute in Mumbai. Data Analytics Course in Mumbai will enhance your career"
+          content="Join our comprehensive Data Analytics Training program in Mumbai to become a highly-skilled Data Analyst. Don't wait, Enroll Now."
         />
         <meta
           property="og:image"

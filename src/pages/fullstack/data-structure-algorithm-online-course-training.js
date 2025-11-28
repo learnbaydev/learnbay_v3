@@ -17,7 +17,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <title>DSA Course with Placement Prep. 2025 - Learnbay</title>
         <meta
           name="description"
-          content="Master DSA course & ace placements assistance with our expert-led training. Gain coding skills, interview prep, and job-ready expertise. Get into a Data Field Today."
+          content=" Master coding fundamentals with the Best DSA course for beginners. Learn live, solve exercises, and get job-ready skills. Start learning—Enroll now."
         />
         <meta name="robots" content="index, follow" />
         <meta
@@ -45,7 +45,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Master DSA course & ace placements assistance with our expert-led training. Gain coding skills, interview prep, and job-ready expertise. Get into a Data Field Today."
+          content=" Master coding fundamentals with the Best DSA course for beginners. Learn live, solve exercises, and get job-ready skills. Start learning—Enroll now."
         />
         <meta
           property="og:image"

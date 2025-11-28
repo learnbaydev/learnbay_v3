@@ -17,7 +17,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <title>Best Data Structure Algorithms & System Design Course</title>
         <meta
           name="description"
-          content="Enroll in Learnbay to comprehensively understand DSA and System Design. Learn the fundamental concepts of advanced DSA Courses and improve your competencies to enhance your technical proficiency."
+          content=" Advance with our DSA and System Design course featuring Gen AI add-on, and real projects. Build confidence with expert 1:1 mentorship—Enroll now."
         />
         <meta name="robots" content="index, follow" />
         <meta

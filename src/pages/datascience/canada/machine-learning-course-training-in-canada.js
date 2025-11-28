@@ -96,13 +96,13 @@ export default function Home() {
         />
         <meta
           property="og:title"
-          content="Machine Learning Course in Canada | Data Science Training in Canada"
+          content="Machine Learning Certification Course in Canada - Learnbay"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Machine Learning Course in Canada. Learnbay is Advanced Machine Learning Course Training Institute in Canada. Machine Learning Course in Canada will enhance your career"
+          content="Learnbay's Most Comprehensive Machine Learning Training Program in Canada specifically designed for working professionals. Enroll Now."
         />
         <meta
           property="og:image"

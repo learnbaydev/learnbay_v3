@@ -82,7 +82,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Best Artificial Intelligence Training Program in Pune with flexible schedules, IBM certification, job assistance, and more. Enhance your skills and advance your career. Enroll Now."
+          content="Join the Best Artificial Intelligence Training Course in Pune at Learnbay. Earn IBM Certification and job assistance to advance your career. Apply Now!"
         />
         <meta
           property="og:url"
@@ -90,13 +90,13 @@ export default function Home() {
         />
         <meta
           property="og:title"
-          content="Artificail Intelligence Course in pune | Data Science Training in pune"
+          content="Best Artificial Intelligence Course in Pune - Learnbay"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Artificail Intelligence Course in pune. Learnbay is Advanced Artificail Intelligence Course Training Institute in pune. Artificail Intelligence Course in pune will enhance your career"
+          content="Join the Best Artificial Intelligence Training Course in Pune at Learnbay. Earn IBM Certification and job assistance to advance your career. Apply Now!"
         />
         <meta
           property="og:image"

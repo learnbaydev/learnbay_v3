@@ -85,11 +85,11 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="HR Analytics Certification Program | HR Analytics Course - Learnbay"
+          content="Best HR Analytics Course for Professionals - Learnbay"
         />
         <meta
           property="og:description"
-          content="Advance your HR career with Learnbay's HR Analytics Certification Program. Master HR analytics skills and boost your expertise. Enroll now!"
+          content="HR analytics course, HR analytics certification course, HR analytics certification, HR Analytics training, hr analytics course, HR Analytics course online,  HR Analytics certification course, best HR Analytics course, best HR Analytics certification "
         />
         <meta
           property="og:image"

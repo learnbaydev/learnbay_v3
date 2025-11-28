@@ -117,13 +117,13 @@ export default function Home() {
         />
         <meta
           property="og:title"
-          content="Data Science Course in patna | Data Scientist Training In patna - Learnbay"
+          content="Top Data Science Training Course in Patna - Learnbay"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Best Data Science Courses in patna. Learnbay is the Best Data Scientist Certification Course Training Institute in patna with 100% Placement assistance and offers an advanced data scientist training in patna"
+          content=" Join the best Data Science course in Patna with Learnbay. Get certified by IBM & Microsoft, gain hands-on experience with AI tools. Enroll now!        "
         />
         <meta
           property="og:image"

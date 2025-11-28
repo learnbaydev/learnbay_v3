@@ -82,25 +82,26 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Enhance your skills with Learnbay's Data Analytics Training in Hyderabad. Designed for professionals seeking practical skills and industry insights. Sign-up Now."
+          content=" Upgrade your analytics skills with Learnbay’s Data Analytics Training in Hyderabad. Acquire practical, industry-ready skills from professionals. Apply Now!"
         />
         <meta
           name="keywords"
           content="Data Analytics course in Hyderabad, Data Analytics training in Hyderabad, Data Analytics institute in Hyderabad, best Data Analytics institute in Hyderabad, Data Analytics course in Hyderabad, Data Analytics certification in Hyderabad, Data Analytics training institute in Hyderabad, advanced Data Analytics course in Hyderabad, Data Analytics course with Placement Assistance, Data Analytics course"
         />
+
         <meta
           property="og:url"
           content="https://www.learnbay.co/datascience/hyderabad/data-analytics-course-training-in-hyderabad"
         />
         <meta
           property="og:title"
-          content="Data Science Course in Hyderabad | Data Science Training in Hyderabad"
+          content="Best IBM Certified Data Analytics Course in Hyderabad"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Data analytics course in Hyderabad. Learnbay is Data Analytics Course Training Institute in Hyderabad. Data analytics course in Hyderabad will enhance your career"
+          content=" Upgrade your analytics skills with Learnbay’s Data Analytics Training in Hyderabad. Acquire practical, industry-ready skills from professionals. Apply Now!"
         />
         <meta
           property="og:image"

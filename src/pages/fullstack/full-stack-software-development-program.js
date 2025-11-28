@@ -17,7 +17,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <title>Software Development Certification Program - Learnbay</title>
         <meta
           name="description"
-          content="Elevate your tech skills through our Software development Certification Program and switch from service-based to product-based companies. Earn globally recoganized IBM and Microsoft Certifications.          "
+          content="Learn Full-Stack Software Development With Learnbay. Get Hands-On Projects, Live Sessions, Mentorship, And Placement Support To Land Your Dream Job. "
         />
         <meta name="robots" content="index, follow" />
         <meta
@@ -33,10 +33,10 @@ function Blockchain({ DataScienceCourseDataJson }) {
           href="https://www.learnbay.co/fullstack/full-stack-software-development-program"
         />
 
-<script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: `{
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
       "@context": "http://schema.org",
       "@type": "Course",
       "name": "Software Development Certification Program",
@@ -66,10 +66,9 @@ function Blockchain({ DataScienceCourseDataJson }) {
           }
         }
       ]
-    }`
-  }}
-/>
-
+    }`,
+          }}
+        />
       </Head>
       <main>
         <FullStackSoftwareDevelopmentFirstPart

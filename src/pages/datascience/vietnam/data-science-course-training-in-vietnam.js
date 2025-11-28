@@ -82,7 +82,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content=" Best data science courses online with certifications in Vietnam. Learnbay provides comprehensive training for aspiring data scientists with industry recognition!          "
+          content=" Enhance your career with our Data Science Course Training in Vietnam. Get job-ready through real projects and interview support. Enroll today."
         />
         <meta
           name="keywords"
@@ -94,13 +94,13 @@ export default function Home() {
         />
         <meta
           property="og:title"
-          content="Data Science Course in Vietnam | Data Science Training in Vietnam"
+          content="Best Data Science Course Training in Vietnam - Learnbay"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Data science course in Vietnam. Learnbay is Advanced Data Science Course Training Institute in Vietnam. Data science course in Vietnam will enhance your career"
+          content=" Enhance your career with our Data Science Course Training in Vietnam. Get job-ready through real projects and interview support. Enroll today."
         />
         <meta
           property="og:image"
@@ -149,7 +149,7 @@ export default function Home() {
         />
         <meta
           property="og:title"
-          content="Data Science Course Training in Vietnam"
+          content="Best Data Science Course Training in Vietnam - Learnbay"
         />
         <meta
           property="og:url"
@@ -163,9 +163,9 @@ export default function Home() {
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Enroll for Data Science Course and Certification Training in Vietnam from Learnbay in association with IBM. This Data Scientist course in Vietnam will give you hands-on experience with technologies and job assistance.
-"
+          content=" Enhance your career with our Data Science Course Training in Vietnam. Get job-ready through real projects and interview support. Enroll today."
         />
+
         <meta
           property="og:image"
           content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"

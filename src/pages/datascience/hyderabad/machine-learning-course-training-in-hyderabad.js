@@ -90,13 +90,13 @@ export default function Home() {
         />
         <meta
           property="og:title"
-          content="Machine Learning Course in Hyderabad | Data Science Training in Hyderabad"
+          content="Best Machine Learning Course in Hyderabad - Learnbay"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Machine Learning Course in Chennai. Learnbay is Advanced Machine Learning Course Training Institute in Hyderabad. Machine Learning Course in Hyderabad will enhance your career"
+          content="Learnbay offers the Best Machine Learning Training program in Hyderabad with the highly-skilled industry experts and mentors. Enroll Now."
         />
         <meta
           property="og:image"

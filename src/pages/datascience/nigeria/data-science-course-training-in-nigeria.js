@@ -84,7 +84,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content=" Top-notch data science course training in Nigeria with Learnbay. Gain hands-on experience through live projects and become industry-ready. Enroll now!          "
+          content=" Top-notch data science course training in Nigeria with Learnbay. Gain hands-on experience through live projects and become industry-ready. Enroll now!  "
         />
         <meta
           name="keywords"
@@ -96,13 +96,13 @@ export default function Home() {
         />
         <meta
           property="og:title"
-          content="Data Science Course in Nigeria | Data Science Training in Nigeria"
+          content="Best Data Science Certification Course in Nigeria - Learnbay"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Data science course in Nigeria. Learnbay is Advanced Data Science Course Training Institute in Nigeria. Data science course in Nigeria will enhance your career"
+          content="Top-notch data science course training in Nigeria with Learnbay. Gain hands-on experience through live projects and become industry-ready. Enroll now!  "
         />
         <meta
           property="og:image"

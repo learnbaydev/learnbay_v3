@@ -82,7 +82,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Looking for Best Full Stack Training Program in Chennai? Become A Skilled Full Stack Developer with Learnbay's Advance Full Stack Curriculum Modules with Best Career Assistance."
+          content=" Searching For The Best Full-Stack Software Training In Chennai? Learnbay Provides Advanced Modules And Career Support To Boost Your Tech Career. Enrol Now!"
         />
         <meta
           name="keywords"
@@ -94,13 +94,13 @@ export default function Home() {
         />
         <meta
           property="og:title"
-          content="Full-Stack Software Developer Course in Chennai | Data Science Training in Chennai"
+          content="Full Stack Developer Course In Chennai - Learnbay"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Full-Stack Software Developer Course in Chennai. Learnbay is Advanced Full-Stack Software Developer Course Training Institute in Chennai. Full-Stack Software Developer Course in Chennai will enhance your career"
+          content="Searching For The Best Full-Stack Software Training In Chennai? Learnbay Provides Advanced Modules And Career Support To Boost Your Tech Career. Enrol Now!"
         />
         <meta
           property="og:image"

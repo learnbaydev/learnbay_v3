@@ -84,7 +84,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Enhance your Data Analytics skills with Learnbay's comprehensive course in Dubai. Gain practical knowledge from industry experts through live classes. Enroll Now."
+          content="Advance your career with Learnbay's Data Analytics Course in Dubai. Gain expert guidance and acquire practical skills to become job-ready. Enroll Now!"
         />
         <meta
           name="keywords"
@@ -96,13 +96,13 @@ export default function Home() {
         />
         <meta
           property="og:title"
-          content="Data Analytics Courese in Dubai | Data Science Training in Dubai"
+          content="Best IBM Certified Data Analytics Course in Dubai - Learnbay"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Data Analytics Courese in Dubai. Learnbay is Advanced Data Analytics Courese Training Institute in Dubai. Data Analytics Courese in Dubai will enhance your career"
+          content="Advance your career with Learnbay's Data Analytics Course in Dubai. Gain expert guidance and acquire practical skills to become job-ready. Enroll Now!"
         />
         <meta
           property="og:image"

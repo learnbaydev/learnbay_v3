@@ -94,13 +94,13 @@ export default function Home() {
         />
         <meta
           property="og:title"
-          content="machine Learning Course in Chennai | Data Science Training in Chennai"
+          content="Machine Learning Course Chennai with Placement - Learnbay"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="machine Learning Course in Chennai. Learnbay is Advanced machine Learning Course Training Institute in Chennai. machine Learning Course in Chennai will enhance your career"
+          content="Join-us The Learnbay's Extensive Machine Learning Training Course in Chennai. Get mentored by top industry experts, multiple batches available. Enroll Now."
         />
         <meta
           property="og:image"

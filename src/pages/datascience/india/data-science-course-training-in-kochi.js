@@ -116,13 +116,13 @@ export default function Home() {
         />
         <meta
           property="og:title"
-          content="Data Science Course in Kochi | Data Scientist Training In Kochi - Learnbay"
+          content="Top Data Science Training Course in Kochi - Learnbay"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Best Data Science Courses in Kochi. Learnbay is the Best Data Scientist Certification Course Training Institute in Kochi with 100% Placement assistance and offers an advanced data scientist training in Kochi"
+          content="Enroll in Kochi's best Data Science course with Learnbay. Get certified by IBM & Microsoft, and gain hands-on experience on live projects. Join now!   "
         />
         <meta
           property="og:image"

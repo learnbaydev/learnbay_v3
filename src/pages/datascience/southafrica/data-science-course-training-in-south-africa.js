@@ -84,7 +84,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Master data science skills with the top online certification course in South Africa. Learnbay offers comprehensive training for aspiring data scientists. Enroll Now!          "
+          content=" Master Your Skills With Learnbay’s Data Science Course In South Africa. Get IBM & MS certifications with job support to secure your future—Join today. "
         />
         <meta
           name="keywords"
@@ -96,14 +96,15 @@ export default function Home() {
         />
         <meta
           property="og:title"
-          content="Data Science Course in south-africa | Data Science Training in south-africa"
+          content="Best Data Science Course Online in South Africa - Learnbay"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="Learnbay_co:course" />
         <meta
           property="og:description"
-          content="Data science course in south-africa. Learnbay is Advanced Data Science Course Training Institute in south-africa. Data science course in south-africa will enhance your career"
+          content=" Master Your Skills With Learnbay’s Data Science Course In South Africa. Get IBM & MS certifications with job support to secure your future—Join today. "
         />
+
         <meta
           property="og:image"
           content="https://www.learnbay.co/_next/image?url=https%3A%2F%2Flearnbay-wb.s3.ap-south-1.amazonaws.com%2Fmain%2FLearnbay-Logo.webp&w=256&q=100"
@@ -159,14 +160,13 @@ export default function Home() {
         />
         <meta
           property="og:title"
-          content="Data Science Course south-africa | Data Scientist Course south-africa | Learnbay"
+          content="Best Data Science Course Online in South Africa - Learnbay"
         />
         <meta property="og:site_name" content="www.learnbay.co" />
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Enroll for Data Science Course and Certification Training in south-africa from Learnbay in association with IBM. This Data Scientist course in south-africa will give you hands-on experience with technologies and job assistance.
-"
+          content=" Master Your Skills With Learnbay’s Data Science Course In South Africa. Get IBM & MS certifications with job support to secure your future—Join today. "
         />
         <meta
           property="og:image"

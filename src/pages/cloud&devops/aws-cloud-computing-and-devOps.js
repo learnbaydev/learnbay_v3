@@ -16,7 +16,7 @@ function Blockchain({ AwsAndDevOpsCourseDataJson }) {
         </title>
         <meta
           name="description"
-          content="Elevate your skills with our Advanced Cloud Computing and DevOps Certification. Gain expertise in cutting-edge technologies to streamline development and enhance cloud-based solutions. Future-proof your career today!"
+          content=" Kickstart your tech career with job-ready AWS training course and certification. Includes IBM projects, interview prep, and 1:1 mentoring. Enroll now."
         />
         <meta name="robots" content="index, follow" />
         <meta

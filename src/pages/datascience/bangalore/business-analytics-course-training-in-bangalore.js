@@ -95,13 +95,13 @@ export default function Home() {
         />
         <meta
           property="og:title"
-          content="Business Analytics course Training In Bangalore with Placement Assistance"
+          content="Business Analyst Course Training in Bangalore - Learnbay"
         />
         <meta property="og:site_name" content="learnbay.co" />
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Business Analytics course in Bangalore. We are Advanced Business Analytics course Certification Training Institute in Bangalore. Business Analytics course will enhance your career."
+          content="Learnbay is providing Business Analytics in Bangalore along with live projects & IBM and Microsoft certifications. Enroll Now."
         />
         <meta
           property="og:image"
