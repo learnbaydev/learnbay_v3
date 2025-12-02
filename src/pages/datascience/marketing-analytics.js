@@ -111,7 +111,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
         <meta
           name="twitter:description"
-          content="Elevate your business acumen with our comprehensive Marketing Analytics Program. Gain valuable insights, enhance decision-making, and drive success through advanced analytics tools and strategies. Enroll today for a data-driven future."
+          content=" Learn to develop smarter marketing strategies with Learnbay's Marketing Analytics Certification. Gain practical skills through expert training. Join now!"
         />
         <meta
           name="twitter:image"

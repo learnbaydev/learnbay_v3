@@ -114,7 +114,7 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Machine Learning Course in Canada | Data Science Training in Canada"
+          content="Machine Learning Certification Course in Canada - Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
@@ -123,7 +123,7 @@ export default function Home() {
         />
         <meta
           name="twitter:description"
-          content="Machine Learning Course in Canada. Learnbay is Advanced Machine Learning Course Training Institute in Canada. Machine Learning Course in Canada will enhance your career"
+          content="Learnbay's Most Comprehensive Machine Learning Training Program in Canada specifically designed for working professionals. Enroll Now."
         />
         <meta
           name="twitter:image"

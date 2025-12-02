@@ -134,7 +134,7 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Data Science Course in Kochi | Data Scientist Training In Kochi - Learnbay"
+          content="Top Data Science Training Course in Kochi - Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
@@ -143,7 +143,7 @@ export default function Home() {
         />
         <meta
           name="twitter:description"
-          content="Best Data Science Courses in Kochi. Learnbay is the Best Data Scientist Certification Course Training Institute in Kochi with 100% Placement assistance and offers an advanced data scientist training in nagpur."
+          content="Enroll in Kochi's best Data Science course with Learnbay. Get certified by IBM & Microsoft, and gain hands-on experience on live projects. Join now!    "
         />
         <meta
           name="twitter:image"

@@ -112,7 +112,7 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Data Analytics course Training In Bangalore with Placement Assistance"
+          content="Best Data Analytics Course in Bangalore - Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
@@ -121,7 +121,7 @@ export default function Home() {
         />
         <meta
           name="twitter:description"
-          content="Data Analytics course Bangalore. We are Advanced Data Analytics course Certification Training Institute in Bangalore. Data Analytics course will enhance your career."
+          content="Join Learnbay's Data Analytics Training in Bangalore to boost your career. Experience the best mentorship from industry experts and gain practical skills."
         />
         <meta
           name="twitter:image"

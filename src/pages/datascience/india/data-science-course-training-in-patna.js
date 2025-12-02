@@ -135,7 +135,7 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Data Science Course in patna | Data Scientist Training In patna - Learnbay"
+          content="Top Data Science Training Course in Patna - Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
@@ -144,7 +144,7 @@ export default function Home() {
         />
         <meta
           name="twitter:description"
-          content="Best Data Science Courses in patna. Learnbay is the Best Data Scientist Certification Course Training Institute in patna with 100% Placement assistance and offers an advanced data scientist training in patna."
+          content=" Join the best Data Science course in Patna with Learnbay. Get certified by IBM & Microsoft, gain hands-on experience with AI tools. Enroll now!        "
         />
         <meta
           name="twitter:image"

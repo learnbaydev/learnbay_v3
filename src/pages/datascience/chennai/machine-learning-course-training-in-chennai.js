@@ -112,7 +112,7 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="machine Learning Course in Chennai | Data Science Training in Chennai"
+          content="Machine Learning Course Chennai with Placement - Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
@@ -121,7 +121,7 @@ export default function Home() {
         />
         <meta
           name="twitter:description"
-          content="machine Learning Course in Chennai. Learnbay is Advanced machine Learning Course Training Institute in Chennai. machine Learning Course in Chennai will enhance your career"
+          content="Join-us The Learnbay's Extensive Machine Learning Training Course in Chennai. Get mentored by top industry experts, multiple batches available. Enroll Now."
         />
         <meta
           name="twitter:image"

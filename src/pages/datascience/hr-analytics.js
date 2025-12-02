@@ -89,7 +89,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
         <meta
           property="og:description"
-          content="HR analytics course, HR analytics certification course, HR analytics certification, HR Analytics training, hr analytics course, HR Analytics course online,  HR Analytics certification course, best HR Analytics course, best HR Analytics certification "
+          content="Advance your HR career with Learnbay's HR Analytics Certification Program. Master HR analytics skills and boost your expertise. Enroll now!"
         />
         <meta
           property="og:image"
@@ -107,7 +107,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
         <meta
           name="twitter:title"
-          content="HR Analytics Certification Program | HR Analytics Course - Learnbay"
+          content="Best HR Analytics Course for Professionals - Learnbay"
         />
         <meta
           name="twitter:description"

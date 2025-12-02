@@ -114,16 +114,16 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Data Science Course in Nigeria | Data Science Training in Nigeria"
+          content="Best Data Science Certification Course in Nigeria - Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
-        <meta
+        {/* <meta
           itemProp="description"
-          content="Data science course in Nigeria. Learnbay is Advanced Data Science Course Training Institute in Nigeria. Data science course in Nigeria will enhance your career"
-        />
+          content=" Top-notch data science course training in Nigeria with Learnbay. Gain hands-on experience through live projects and become industry-ready. Enroll now!  "
+        /> */}
         <meta
           name="twitter:description"
-          content="Data science course in Nigeria. Learnbay is Advanced Data Science Course Training Institute in Nigeria. Data science course in Nigeria will enhance your career"
+          content=" Top-notch data science course training in Nigeria with Learnbay. Gain hands-on experience through live projects and become industry-ready. Enroll now!  "
         />
         <meta
           name="twitter:image"
@@ -159,14 +159,13 @@ export default function Home() {
         />
         <meta
           property="og:title"
-          content="Data Science Course Nigeria | Data Scientist Course Nigeria | Learnbay"
+          content="Best Data Science Certification Course in Nigeria - Learnbay"
         />
         <meta property="og:site_name" content="www.learnbay.co" />
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Enroll for Data Science Course and Certification Training in Nigeria from Learnbay in association with IBM. This Data Scientist course in Nigeria will give you hands-on experience with technologies and job assistance.
-"
+          content=" Top-notch data science course training in Nigeria with Learnbay. Gain hands-on experience through live projects and become industry-ready. Enroll now!  "
         />
         <meta
           property="og:image"
@@ -178,7 +177,7 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Data Science Course Nigeria | Data Scientist Course Nigeria | Learnbay"
+          content="Best Data Science Certification Course in Nigeria - Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
@@ -188,7 +187,7 @@ export default function Home() {
         />
         <meta
           name="twitter:description"
-          content="Enroll for Data Science Course and Certification Training in Nigeria from Learnbay in association with IBM. This Data Scientist course in Nigeria will give you hands-on experience with technologies and job assistance.
+          content=" Top-notch data science course training in Nigeria with Learnbay. Gain hands-on experience through live projects and become industry-ready. Enroll now! 
 "
         />
         <meta

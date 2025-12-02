@@ -112,7 +112,7 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Full-Stack Software Developer Course in Chennai | Data Science Training in Chennai"
+          content="Full Stack Developer Course In Chennai - Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
@@ -121,7 +121,7 @@ export default function Home() {
         />
         <meta
           name="twitter:description"
-          content="Full-Stack Software Developer Course in Chennai. Learnbay is Advanced Full-Stack Software Developer Course Training Institute in Chennai. Full-Stack Software Developer Course in Chennai will enhance your career"
+          content="Searching For The Best Full-Stack Software Training In Chennai? Learnbay Provides Advanced Modules And Career Support To Boost Your Tech Career. Enrol Now!"
         />
         <meta
           name="twitter:image"

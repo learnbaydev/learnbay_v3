@@ -108,7 +108,7 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Artificail Intelligence Course in Chennai | Data Science Training in Chennai"
+          content="Best Artificial Intelligence Course in Pune - Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
@@ -117,7 +117,7 @@ export default function Home() {
         />
         <meta
           name="twitter:description"
-          content="Artificail Intelligence Course in Chennai. Learnbay is Advanced Artificail Intelligence Course Training Institute in Chennai. Artificail Intelligence Course in Chennai will enhance your career"
+          content="Join the Best Artificial Intelligence Training Course in Pune at Learnbay. Earn IBM Certification and job assistance to advance your career. Apply Now!"
         />
         <meta
           name="twitter:image"

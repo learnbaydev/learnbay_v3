@@ -114,7 +114,7 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Data Analytics Courese in Dubai | Data Science Training in Dubai"
+          content="Best IBM Certified Data Analytics Course in Dubai - Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
@@ -123,7 +123,7 @@ export default function Home() {
         />
         <meta
           name="twitter:description"
-          content="Data Analytics Courese in Dubai. Learnbay is Advanced Data Analytics Courese Training Institute in Dubai. Data Analytics Courese in Dubai will enhance your career"
+          content="Advance your career with Learnbay's Data Analytics Course in Dubai. Gain expert guidance and acquire practical skills to become job-ready. Enroll Now!"
         />
         <meta
           name="twitter:image"

@@ -115,16 +115,16 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Data Science Course in south-africa | Data Science Training in south-africa"
+          content="Best Data Science Course Online in South Africa - Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
-        <meta
+        {/* <meta
           itemProp="description"
-          content="Data science course in south-africa. Learnbay is Advanced Data Science Course Training Institute in south-africa. Data science course in south-africa will enhance your career"
-        />
+          content=" Master Your Skills With Learnbay’s Data Science Course In South Africa. Get IBM & MS certifications with job support to secure your future—Join today. "
+        /> */}
         <meta
           name="twitter:description"
-          content="Data science course in south-africa. Learnbay is Advanced Data Science Course Training Institute in south-africa. Data science course in south-africa will enhance your career"
+          content=" Master Your Skills With Learnbay’s Data Science Course In South Africa. Get IBM & MS certifications with job support to secure your future—Join today. "
         />
         <meta
           name="twitter:image"
@@ -152,7 +152,7 @@ export default function Home() {
         />
         <meta
           property="og:title"
-          content="Data Science Course Training in south-africa"
+          content="Best Data Science Course Online in South Africa - Learnbay"
         />
         <meta
           property="og:url"
@@ -178,17 +178,16 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content=" Best Data Science Course Training in south-africa - Learnbay"
+          content="Best Data Science Course Online in South Africa - Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
-        <meta
+        {/* <meta
           itemProp="description"
           content=" data science course in south africa, data scientist courses in south africa, best data science courses in south africa, data science training in south africa, data science course, data science certificate, data science certification course, best data science certification          "
-        />
+        /> */}
         <meta
           name="twitter:description"
-          content="Enroll for Data Science Course and Certification Training in Southafrica from Learnbay in association with IBM. This Data Scientist course in Southafrica will give you hands-on experience with technologies and job assistance.
-"
+          content=" Master Your Skills With Learnbay’s Data Science Course In South Africa. Get IBM & MS certifications with job support to secure your future—Join today. "
         />
         <meta
           name="twitter:image"

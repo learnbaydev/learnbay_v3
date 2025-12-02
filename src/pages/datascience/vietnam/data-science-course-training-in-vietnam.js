@@ -112,16 +112,16 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Data Science Course in Chennai | Data Science Training in Chennai"
+          content="Best Data Science Course Training in Vietnam - Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
-        <meta
+        {/* <meta
           itemProp="description"
-          content="Data science course in Chennai. Learnbay is Advanced Data Science Course Training Institute in Chennai. Data science course in Chennai will enhance your career"
-        />
+          content=" Enhance your career with our Data Science Course Training in Vietnam. Get job-ready through real projects and interview support. Enroll today."
+        /> */}
         <meta
           name="twitter:description"
-          content="Data science course in Vietnam. Learnbay is Advanced Data Science Course Training Institute in Chennai. Data science course in Chennai will enhance your career"
+          content=" Enhance your career with our Data Science Course Training in Vietnam. Get job-ready through real projects and interview support. Enroll today."
         />
         <meta
           name="twitter:image"
@@ -157,7 +157,7 @@ export default function Home() {
         />
         <meta
           property="og:title"
-          content="Data Science Course Vietnam | Data Scientist Course Vietnam | Learnbay"
+          content="Best Data Science Course Training in Vietnam - Learnbay"
         />
         <meta property="og:site_name" content="www.learnbay.co" />
         <meta property="og:type" content="article" />
@@ -176,7 +176,7 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content=" Best Data Science Course Training in Vietnam - Learnbay"
+          content="Best Data Science Course Training in Vietnam - Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
@@ -185,8 +185,7 @@ export default function Home() {
         />
         <meta
           name="twitter:description"
-          content="Enroll for Data Science Course and Certification Training in Pune from Learnbay in association with IBM. This Data Scientist course in Pune will give you hands-on experience with technologies and job assistance.
-"
+          content=" Enhance your career with our Data Science Course Training in Vietnam. Get job-ready through real projects and interview support. Enroll today."
         />
         <meta
           name="twitter:image"

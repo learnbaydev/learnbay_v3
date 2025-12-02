@@ -45,7 +45,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
-          content="Enroll in Learnbay to comprehensively understand DSA and System Design. Learn the fundamental concepts of advanced DSA Courses and improve your competencies to enhance your technical proficiency."
+          content="Advance with our DSA and System Design course featuring Gen AI add-on, and real projects. Build confidence with expert 1:1 mentorship—Enroll now."
         />
         <meta
           property="og:image"
@@ -66,7 +66,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
         <meta
           name="twitter:description"
-          content="Enroll in Learnbay to comprehensively understand DSA and System Design. Learn the fundamental concepts of advanced DSA Courses and improve your competencies to enhance your technical proficiency."
+          content=" Advance with our DSA and System Design course featuring Gen AI add-on, and real projects. Build confidence with expert 1:1 mentorship—Enroll now."
         />
         <meta
           name="twitter:image"

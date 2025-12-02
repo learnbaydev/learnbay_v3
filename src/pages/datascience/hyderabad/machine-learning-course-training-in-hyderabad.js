@@ -108,7 +108,7 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Machine Learning Course in Hyderabad | Data Science Training in Hyderabad"
+          content="Best Machine Learning Course in Hyderabad - Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
@@ -117,7 +117,7 @@ export default function Home() {
         />
         <meta
           name="twitter:description"
-          content="Machine Learning Course in Hyderabad. Learnbay is Advanced Machine Learning Course Training Institute in Hyderabad. Machine Learning Course in Hyderabad will enhance your career"
+          content="Learnbay offers the Best Machine Learning Training program in Hyderabad with the highly-skilled industry experts and mentors. Enroll Now."
         />
         <meta
           name="twitter:image"

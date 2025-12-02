@@ -115,7 +115,7 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Data Science Course in Austrelia | Data Science Training in Austrelia"
+          content="Master's Degree in Data Science & AI in Australia - Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
@@ -124,7 +124,7 @@ export default function Home() {
         />
         <meta
           name="twitter:description"
-          content="Data science course in Austrelia. Learnbay is Advanced Data Science Course Training Institute in Austrelia. Data science course in Austrelia will enhance your career"
+          content="Explore our Master's Degree in Data Science and Artificial Intelligence in Australia. Dive into cutting-edge tech and unlock career opportunities. Enroll today!"
         />
         <meta
           name="twitter:image"
@@ -178,18 +178,16 @@ export default function Home() {
         <meta name="twitter:site" content="@Learnbay" />
         <meta
           name="twitter:title"
-          content="Data Science Course Austrelia | Data Scientist Course Austrelia | Learnbay"
+          content="Master's Degree in Data Science & AI in Australia - Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
-        <meta
+        {/* <meta
           itemProp="description"
-          content="Enroll for Data Science Course and Certification Training in Austrelia from Learnbay in association with IBM. This Data Scientist course in Austrelia will give you hands-on experience with technologies and job assistance.
-"
-        />
+          content="Explore our Master's Degree in Data Science and Artificial Intelligence in Australia. Dive into cutting-edge tech and unlock career opportunities. Enroll today!"
+        /> */}
         <meta
           name="twitter:description"
-          content="Enroll for Data Science Course and Certification Training in Austrelia from Learnbay in association with IBM. This Data Scientist course in Austrelia will give you hands-on experience with technologies and job assistance.
-"
+          content="Explore our Master's Degree in Data Science and Artificial Intelligence in Australia. Dive into cutting-edge tech and unlock career opportunities. Enroll today!"
         />
         <meta
           name="twitter:image"
