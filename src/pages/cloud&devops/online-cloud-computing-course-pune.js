@@ -80,10 +80,10 @@ export default function Home() {
           content="Online Cloud Computing Course in Pune - Learnbay"
         />
         <meta name="twitter:creator" content="@Learnbay" />
-        <meta
+        {/* <meta
           itemProp="description"
           content="Join Learnbay's Cloud Computing Course in Pune and Boost Your Career. Learn Core skills of Cloud Computing Modules with Expert Instructors. Start Your Cloud Career Today."
-        />
+        /> */}
         <meta
           name="twitter:description"
           content="Upskill Your Career With Learnbay's Cloud Computing Course Training In Pune. Gain Practical Skills, IBM Certifications, and dedicated placement Assistance."
