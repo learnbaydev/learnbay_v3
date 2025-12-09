@@ -1,7 +1,10 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import styles from "./BrochureDemoSection.module.css";
+import StrategyModal from "../StrategyModal/StrategyModal";
 
 function BrochureDemoSection() {
+  const [isModalOpen, setModalOpen] = useState(false);
   return (
     <section className={styles.section}>
       {/* Top gradient header */}
@@ -87,12 +90,16 @@ function BrochureDemoSection() {
           </div>
 
           {/* Button INSIDE the card */}
-          <button className={styles.ctaButton}>
+          <button
+            className={styles.ctaButton}
+            onClick={() => setModalOpen(true)}
+          >
             <span>Schedule Demo Class </span>
             <span className={styles.ctaArrow}>➜</span>
           </button>
         </div>
       </div>
+      <StrategyModal isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
     </section>
   );
 }
