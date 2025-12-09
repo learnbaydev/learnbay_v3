@@ -75,20 +75,20 @@ function BrochureDemoSection() {
           {/* Slots and duration row */}
           <div className={styles.infoRow}>
             <span className={styles.slotsText}>
-              <span className={styles.slotsHighlight}>4 Slots</span> Left Today
+              <span className={styles.slotsHighlight}>25 Slots</span> Left Today
             </span>
 
             {/* <div className={styles.infoDivider} /> */}
 
             <span className={styles.sessionInfo}>
               <span className={styles.timerCircle}>⏱</span>
-              45 min Session
+              Limited Seats
             </span>
           </div>
 
           {/* Button INSIDE the card */}
           <button className={styles.ctaButton}>
-            <span>Limited Seats</span>
+            <span>Schedule Demo Class </span>
             <span className={styles.ctaArrow}>➜</span>
           </button>
         </div>
