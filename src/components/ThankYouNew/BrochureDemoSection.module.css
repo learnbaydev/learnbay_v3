@@ -1,0 +1,303 @@
+.section {
+  width: 100%;
+}
+
+/* Top gradient area */
+.hero {
+  border: 1px solid #000;
+  background: linear-gradient(98deg, #041d62 2.16%, #00081b 95.2%);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  padding: 64px 16px 150px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.heroTitle {
+  margin: 0 0 10px;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.2;
+  background: linear-gradient(90deg, #04c988 0%, #0383ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heroSubtitle {
+  margin: 0;
+  font-size: 14px;
+  opacity: 0.9;
+  color: #ffffff;
+}
+
+/* Card that overlaps the gradient */
+.cardWrapper {
+  display: flex;
+  justify-content: center;
+  padding: 0 16px 60px;
+  margin-top: -70px; /* overlap effect */
+}
+
+.card {
+  width: 100%;
+  max-width: 960px;
+  background-color: #ffffff;
+  border-radius: 32px;
+  box-shadow: 0 26px 60px rgba(15, 23, 42, 0.15);
+  padding: 28px 32px 32px;
+  text-align: center;
+}
+
+/* Top text */
+.topText {
+  margin: 0 0 20px;
+  font-size: 20px;
+  color: #000;
+}
+
+.live {
+  font-weight: 700;
+  color: #ef4444; /* red */
+}
+
+.bold {
+  font-weight: 700;
+}
+
+/* Host strip */
+.hostStrip {
+  display: flex;
+  align-items: center;
+  gap: 76px;
+  max-width: 476px;
+  margin: 0 auto 26px;
+  padding: 14px 45px;
+  border-radius: 11px;
+  background-color: #e6fbff;
+}
+
+.hostLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.hostImageWrap {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  border-radius: 999px;
+  overflow: hidden;
+  /* border: 3px solid #2563eb; */
+}
+
+.hostImage {
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.micIcon {
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: #1d4ed8; /* same blue style as your badge */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.micSvg {
+  width: 12px;
+  height: 12px;
+  fill: #ffffff;
+}
+
+.hostBadge {
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  width: 20px;
+  height: 20px;
+  border-radius: 999px;
+  background: #1d4ed8;
+  color: #ffffff;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hostedBy {
+  font-size: 12px;
+  font-style: italic;
+  color: #000;
+}
+
+.hostRight {
+  flex: 1;
+  text-align: left;
+}
+
+.hostName {
+  margin: 0 0 4px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.hostRole {
+  margin: 0 0 8px;
+  font-size: 13px;
+  color: #000;
+}
+
+.hostTag {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background-color: #10b981;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+/* Middle heading & text */
+.demoHeading {
+  margin: 10px 0 8px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.demoHighlight {
+  background: linear-gradient(90deg, #6366f1, #f97316);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.demoDesc {
+  max-width: 720px;
+  margin: 0 auto 22px;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #000;
+}
+
+/* Slots + time row */
+.infoRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 54px;
+  margin-bottom: 18px;
+  font-size: 13px;
+}
+
+.slotsText {
+  color: #111827;
+}
+
+.slotsHighlight {
+  color: #ef4444;
+  font-weight: 700;
+}
+
+.infoDivider {
+  width: 4px;
+  height: 4px;
+  border-radius: 999px;
+  background-color: #9ca3af;
+}
+
+.sessionInfo {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #000;
+}
+
+.timerCircle {
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  border: 1px solid #d1d5db;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+/* CTA button inside card */
+.ctaButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 19px 71px;
+  margin-top: 4px;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 24.508px;
+  background: linear-gradient(90deg, #1163d2 0%, #414ee3 100%);
+}
+
+.ctaButton:hover {
+  transform: translateY(-1px);
+}
+
+.ctaArrow {
+  font-size: 18px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 26px;
+  }
+
+  .card {
+    padding: 22px 18px 28px;
+  }
+
+  .hostStrip {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hostRight {
+    text-align: left;
+  }
+
+  .demoHeading {
+    font-size: 22px;
+  }
+
+  .ctaButton {
+    width: 100%;
+    max-width: 360px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 52px 12px 100px;
+  }
+
+  .hostStrip {
+    align-items: center;
+    text-align: center;
+  }
+
+  .hostRight {
+    text-align: center;
+  }
+}

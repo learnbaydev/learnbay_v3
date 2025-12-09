@@ -1,0 +1,108 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 48px 20px;
+}
+
+.inner {
+  max-width: 1024px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+/* Image block */
+.imageWrapper {
+  position: relative;
+  flex: 1 1 48%;
+  min-height: 230px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.image {
+  object-fit: cover;
+}
+
+/* Text block */
+.content {
+  flex: 1 1 52%;
+  padding-right: 10px;
+  margin-bottom: -37px;
+}
+
+.heading {
+  font-size: 22px;
+  line-height: 1.4;
+  color: #111827;
+  margin: 0 0 18px;
+}
+
+.headingBold {
+  font-weight: 700;
+}
+
+/* List styles */
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.listItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #374151;
+}
+
+.icon {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 999px;
+  background-color: #22c55e;
+  color: #ffffff;
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3px;
+}
+
+/* Space where buttons would have been */
+.bottomSpacing {
+  margin-top: 28px;
+  height: 60px; /* adjust to match your design’s bottom margin */
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .inner {
+    flex-direction: column;
+    /* Let children stretch to full width instead of shrinking */
+    align-items: stretch;
+  }
+
+  .imageWrapper {
+    width: 100%; /* full width on mobile */
+    min-height: 230px; /* keep your height */
+  }
+
+  .content {
+    padding-right: 0;
+    margin-bottom: 0; /* optional: remove the negative margin */
+    margin-top: 16px; /* small gap below the image */
+  }
+
+  .wrapper {
+    padding: 32px 16px 40px;
+  }
+}
