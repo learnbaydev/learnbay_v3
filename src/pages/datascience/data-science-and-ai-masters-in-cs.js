@@ -76,38 +76,37 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `{
-      "@context": "http://schema.org",
-      "@type": "Course",
-      "name": "Master in CS: Data Science and AI",
-      "description": "Upskill yourself with cutting edge Masters degree in Data Science and AI, earn global recognition from a Master's degree certification from Woolf.",
-      "provider": {
-        "@type": "Organization",
-        "name": "Learnbay"
-      },
-      "occupationalCategory": [
-        "Data Science and Analytics",
-        "AI & Machine Learning"
-      ],
-      "url": "https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs",
-      "offers": {
-        "@type": "Offer",
-        "price": 250000,
-        "priceCurrency": "INR",
-        "category": "Educational"
-      },
-      "coursePrerequisites": "Bachelor's degree in Computer Science or related field",
-      "hasCourseInstance": {
-        "@type": "CourseInstance",
-        "courseMode": "Online",
-        "courseWorkload": "P10W",
-        "location": {
-          "@type": "VirtualLocation",
-          "name": "Online"
-        }
-      },
-      "courseCredential": "Master in CS: Data Science and AI",
-      "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png"
-    }`,
+  "@context": "http://schema.org",
+  "@type": "Course",
+  "name": "Master's Degree in CS: Data Science and Generative AI",
+  "description": "Advance with Learnbay’s Master's in Data Science & AI. Gain industry-ready skills and succeed in a data-driven world. Join today.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Learnbay"
+  },
+  "about": [
+    "Data Science and Analytics",
+    "AI & Machine Learning"
+  ],
+  "url": "https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs",
+  "offers": {
+    "@type": "Offer",
+    "price": 325000,
+    "priceCurrency": "INR",
+    "category": "Educational"
+  },
+  "coursePrerequisites": "Bachelor's degree in Computer Science or related field",
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "Online",
+    "courseWorkload": "P10W",
+    "location": {
+      "@type": "VirtualLocation",
+      "name": "Online"
+    }
+  },
+  "image": "https://learnbay-wb.s3.ap-south-1.amazonaws.com/main/learnbayMain/learnbay-logo.png"
+}`,
           }}
         />
       </Head>

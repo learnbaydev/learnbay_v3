@@ -678,12 +678,17 @@
 	<url>
 		<loc>https://www.learnbay.co/blogs/tech-non-tech-careers-bangalore-guide</loc>
 		<changefreq>daily</changefreq>
-		<priority>0.90</priority>
+		<priority>0.80</priority>
 	</url>
 	<url>
 		<loc>https://www.learnbay.co/blogs/top-ai-trends</loc>
 		<changefreq>daily</changefreq>
-		<priority>0.90</priority>
+		<priority>0.80</priority>
+	</url>
+	<url>
+	<loc>https://www.learnbay.co/blogs/latest-data-science-trends</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.80</priority>
 	</url>
 		<url>
 		<loc>https://www.learnbay.co/cloud&amp;devops/online-cloud-computing-course-bangalore</loc>
