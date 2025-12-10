@@ -1,14 +1,17 @@
 import React from "react";
 import styles from "./BrochureDemoSection.module.css";
 import Image from "next/image";
-function BrochureDemoSection() {
+
+function ApplyforCouncelling() {
   return (
     <section className={styles.section}>
       {/* Top gradient header */}
       <div className={styles.hero}>
-        <h1 className={styles.heroTitle}>Your Brochure Is Ready!</h1>
+        <h1 className={styles.heroTitle}>
+          Your Enquiry Is Successfully Registered
+        </h1>
         <p className={styles.heroSubtitle}>
-          You’re one step closer to upgrading your career
+          Before our expert calls you, get a head-start with a live demo.
         </p>
       </div>
 
@@ -17,10 +20,10 @@ function BrochureDemoSection() {
         <div className={styles.card}>
           {/* Top line */}
           <p className={styles.topText}>
-            Don’t just read about the program{" "}
-            <span className={styles.bold}>experience it </span>
-            <span className={styles.live}>LIVE</span> with an{" "}
-            <span className={styles.bold}>expert.</span>
+            You’ve shown interest, now see the{" "}
+            {/* <span className={styles.bold}>experience it </span> */}
+            <span className={styles.live}> REAL</span>{" "}
+            <span className={styles.bold}>impact.</span>
           </p>
 
           {/* Host strip */}
@@ -36,7 +39,6 @@ function BrochureDemoSection() {
                   height={100} // Explicitly define height
                   priority // Ensure the image loads as soon as possible and with full resolution
                 />
-
                 <div className={styles.hostImageWrap}>
                   {/* Mic icon near the image */}
                   <span className={styles.micIcon}>
@@ -71,9 +73,9 @@ function BrochureDemoSection() {
           </h2>
 
           <p className={styles.demoDesc}>
-            Join our 45-minute Expert Demo Session designed to show you exactly
-            how professionals from any background are transitioning into AI,
-            GenAI, and Agentic AI roles faster than ever.
+            Attend our Expert Demo Session to understand how people from diverse
+            backgrounds are making a smooth switch into AI, GenAI, ML & Agentic
+            AI roles.
           </p>
 
           {/* Slots and duration row */}
@@ -101,4 +103,4 @@ function BrochureDemoSection() {
   );
 }
 
-export default BrochureDemoSection;
+export default ApplyforCouncelling;
