@@ -10,6 +10,30 @@ const StrategyModal = ({ isOpen, onClose }) => {
     e.stopPropagation();
   };
 
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const response = await fetch("/api/book-calendly", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        name: "Jane Doe", // replace with state values
+        email: "jane@example.com",
+        phone: "1234567890",
+        jobRole: "Dev",
+        workExperience: "1-3",
+        timezone: Intl.DateTimeFormat().resolvedOptions().timeZone, // Automatically gets user timezone
+      }),
+    });
+
+    const result = await response.json();
+    if (result.success) {
+      alert("Booked! " + result.data.start_time_human);
+    } else {
+      alert("Error: " + result.message);
+    }
+  };
+
   return (
     <div className={styles.overlay} onClick={onClose}>
       <div className={styles.modal} onClick={handleModalClick}>
@@ -152,7 +176,11 @@ const StrategyModal = ({ isOpen, onClose }) => {
           </div>
 
           {/* Submit Button */}
-          <button type="submit" className={styles.submitButton}>
+          <button
+            type="submit"
+            className={styles.submitButton}
+            onClick={handleSubmit}
+          >
             Book My Slot
             <svg
               width="20"
