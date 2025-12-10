@@ -24,6 +24,7 @@ Disallow: /*?gclid*
 Disallow: /*?trk*
 Disallow: /*?ref*
 Disallow: /*?s=*
+Disallow: /_next/image
 
 
 Allow: /
