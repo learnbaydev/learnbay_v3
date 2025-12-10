@@ -91,11 +91,10 @@
   overflow: hidden;
   /* border: 3px solid #2563eb; */
 }
-
 .hostImage {
-  width: 70%;
-  height: 100%;
-  object-fit: cover;
+  width: 85%;
+  height: 105%;
+  object-fit: cover; /* Keeps aspect ratio intact */
 }
 
 .micIcon {

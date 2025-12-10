@@ -34,9 +34,9 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
       />
       <div style={{ marginTop: "80px" }}>
         <BrochureDemoSection />
+
         <SessionSection />
         <WhyChooseUsSection />
-
         <main
           style={{ padding: "32px", maxWidth: 1000, margin: "0 auto" }}
         ></main>
@@ -46,6 +46,7 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
     </>
   );
 };
+export default ThankYouDemo;
 //   const email = JSON.stringify(initialName);
 //   const phone = JSON.stringify(initialPhone);
 //   console.log(email); // Log the email to the console
@@ -137,4 +138,4 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
 //     initialPhone: cookies(ctx).CARDPHONE || "",
 //   };
 // };
-export default ThankYouDemo;
+// export default ThankYouDemo;
