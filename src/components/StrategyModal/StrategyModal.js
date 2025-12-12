@@ -1,4 +1,6 @@
-import React, { useEffect, useState } from "react";
+// components/StrategyModal.js
+import React, { useEffect, useState, useMemo } from "react";
+// Assuming this CSS file exists in your project structure
 import styles from "./StrategyModal.module.css";
 
 const StrategyModal = ({ isOpen, onClose }) => {
@@ -6,28 +8,58 @@ const StrategyModal = ({ isOpen, onClose }) => {
     name: "",
     email: "",
     phone: "",
+    // FIXED: Use jobRole and workExperience for consistency
     jobRole: "",
     workExperience: "",
   });
 
-  const [firstSlot, setFirstSlot] = useState(null);
-  const [loading, setLoading] = useState(false); // For checking slots
-  const [booking, setBooking] = useState(false); // For submitting form
-  const [success, setSuccess] = useState(false); // Success state
+  const [firstSlotUtc, setFirstSlotUtc] = useState(null);
+  const [loading, setLoading] = useState(true); // Start loading immediately on mount/open
+  const [isBooking, setIsBooking] = useState(false); // For form submission
+  const [success, setSuccess] = useState(false);
 
-  // Reset state when modal opens
+  // Memoize the human-readable slot time
+  const humanTime = useMemo(() => {
+    if (!firstSlotUtc) return null;
+    try {
+      const date = new Date(firstSlotUtc);
+      return `${date.toLocaleDateString()} ${date.toLocaleTimeString([], {
+        hour: "2-digit",
+        minute: "2-digit",
+        timeZoneName: "short",
+      })}`;
+    } catch (e) {
+      return "Invalid Time Slot";
+    }
+  }, [firstSlotUtc]);
+
+  // Effect to fetch the first available slot when the modal opens
   useEffect(() => {
-    if (!isOpen) return;
-    setSuccess(false);
+    if (!isOpen) {
+      // Reset state when closing
+      setLoading(true);
+      setSuccess(false);
+      setFirstSlotUtc(null);
+      return;
+    }
 
     const fetchSlot = async () => {
       setLoading(true);
       try {
+        // Updated API path
         const res = await fetch("/api/get-slot");
         const data = await res.json();
-        if (data.firstSlot) setFirstSlot(data.firstSlot);
+
+        if (data.firstSlotUtc) {
+          setFirstSlotUtc(data.firstSlotUtc);
+        } else {
+          // Handle case where API returns ok but no slots
+          setFirstSlotUtc(null);
+        }
       } catch (error) {
         console.error("Failed to load slots", error);
+        alert("Failed to check for available slots. Please check server logs.");
+        setFirstSlotUtc(null);
       } finally {
         setLoading(false);
       }
@@ -43,49 +75,45 @@ const StrategyModal = ({ isOpen, onClose }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!firstSlot) return alert("No time slots available right now.");
+    if (!firstSlotUtc)
+      return alert("No time slots available right now. Please reload.");
 
-    setBooking(true);
+    setIsBooking(true);
 
     try {
       // 1. Get user's timezone automatically
       const userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
 
-      // 2. Call our Next.js API
+      // 2. Call the booking API (Updated API path)
       const res = await fetch("/api/book-slot", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           ...formData,
-          startTimeUtc: firstSlot, // The slot we fetched earlier
+          // Fixed variable names passed to API
+          jobRole: formData.jobRole,
+          workExperience: formData.workExperience,
+          startTimeUtc: firstSlotUtc,
           timezone: userTimezone,
         }),
       });
 
       const data = await res.json();
 
-      if (!res.ok) throw new Error(data.error || "Booking failed");
+      if (!res.ok)
+        throw new Error(data.error || "Booking failed on the server.");
 
       // 3. Handle Success
-      console.log("Booking Successful:", data);
       setSuccess(true);
 
-      // Optional: Close modal after 2 seconds
+      // Optional: Close modal after 3 seconds
       setTimeout(() => {
         onClose();
-        setSuccess(false);
-        setFormData({
-          name: "",
-          email: "",
-          phone: "",
-          jobRole: "",
-          workExperience: "",
-        });
       }, 3000);
     } catch (error) {
       alert("Booking failed: " + error.message);
     } finally {
-      setBooking(false);
+      setIsBooking(false);
     }
   };
 
@@ -134,16 +162,9 @@ const StrategyModal = ({ isOpen, onClose }) => {
               <p className={styles.subtitle}>
                 {loading
                   ? "Checking availability..."
-                  : firstSlot
-                  ? `Next Available: ${new Date(
-                      firstSlot
-                    ).toLocaleDateString()} ${new Date(
-                      firstSlot
-                    ).toLocaleTimeString([], {
-                      hour: "2-digit",
-                      minute: "2-digit",
-                    })}`
-                  : "Cloud & DevOps Roadmap: 2026 Job Roles"}
+                  : firstSlotUtc
+                  ? `Next Available Slot: ${humanTime}`
+                  : "No slots available in the next 7 days. Please try again later."}
               </p>
             </div>
 
@@ -157,6 +178,7 @@ const StrategyModal = ({ isOpen, onClose }) => {
                   className={styles.input}
                   value={formData.name}
                   onChange={handleInputChange}
+                  disabled={loading || !firstSlotUtc || isBooking}
                 />
               </div>
 
@@ -169,6 +191,7 @@ const StrategyModal = ({ isOpen, onClose }) => {
                   className={styles.input}
                   value={formData.email}
                   onChange={handleInputChange}
+                  disabled={loading || !firstSlotUtc || isBooking}
                 />
               </div>
 
@@ -181,46 +204,53 @@ const StrategyModal = ({ isOpen, onClose }) => {
                   className={styles.input}
                   value={formData.phone}
                   onChange={handleInputChange}
+                  disabled={loading || !firstSlotUtc || isBooking}
                 />
               </div>
 
               <div className={styles.formGroup}>
                 <label className={styles.label}>Current Job Role</label>
                 <input
-                  name="jobRole"
+                  name="jobRole" // FIXED NAME
                   type="text"
                   required
                   className={styles.input}
                   value={formData.jobRole}
                   onChange={handleInputChange}
+                  disabled={loading || !firstSlotUtc || isBooking}
                 />
               </div>
 
               <div className={styles.formGroup}>
                 <label className={styles.label}>Work Experience</label>
                 <select
-                  name="workExperience"
+                  name="workExperience" // FIXED NAME
                   required
                   className={styles.select}
                   value={formData.workExperience}
                   onChange={handleInputChange}
+                  disabled={loading || !firstSlotUtc || isBooking}
                 >
                   <option value="" disabled>
                     Select experience
                   </option>
-                  <option value="Fresher">Fresher</option>
-                  <option value="1-3 Years of Experience">1 - 3 Years</option>
-                  <option value="3-7 Years of Experience">3 - 7 Years</option>
-                  <option value="7+ Years of Experience">7+ Years</option>
+                  <option value="Fresher / Student">Fresher / Student</option>
+                  <option value="1 - 3 Years">1 - 3 Years</option>
+                  <option value="4 - 6 Years">4 - 6 Years</option>
+                  <option value="7+ Years">7+ Years</option>
                 </select>
               </div>
 
               <button
                 type="submit"
                 className={styles.submitButton}
-                disabled={loading || booking || !firstSlot}
+                disabled={loading || isBooking || !firstSlotUtc} // Disable if loading, booking, or no slot is found
               >
-                {booking ? "Booking..." : "Confirm Booking"}
+                {loading
+                  ? "Checking Slots..."
+                  : isBooking
+                  ? "Booking..."
+                  : "Confirm Booking"}
               </button>
 
               <p className={styles.footerText}>
