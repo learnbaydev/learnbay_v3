@@ -1,7 +1,9 @@
-// pages/api/book-slot.js
+// pages/api/slots/book.js
+
 export default async function handler(req, res) {
   if (req.method !== "POST") {
-    return res.status(405).json({ message: "Method not allowed" });
+    res.setHeader("Allow", ["POST"]);
+    return res.status(405).end(`Method ${req.method} Not Allowed`);
   }
 
   const { CALENDLY_PAT, CALENDLY_EVENT_TYPE_URI } = process.env;
@@ -12,12 +14,22 @@ export default async function handler(req, res) {
       .json({ error: "Missing Calendly environment variables" });
   }
 
-  const { name, email, phone, role, experience, startTimeUtc, timezone } =
-    req.body;
+  // FIXED VARIABLE NAMES: jobRole and workExperience
+  const {
+    name,
+    email,
+    phone,
+    jobRole,
+    workExperience,
+    startTimeUtc,
+    timezone,
+  } = req.body;
 
   // Basic server-side validation
-  if (!name || !email || !startTimeUtc) {
-    return res.status(400).json({ error: "Missing required fields" });
+  if (!name || !email || !startTimeUtc || !timezone) {
+    return res.status(400).json({
+      error: "Missing required fields (name, email, startTimeUtc, timezone)",
+    });
   }
 
   const requestBody = {
@@ -30,21 +42,22 @@ export default async function handler(req, res) {
     },
     location: {
       kind: "custom",
-      location: "https://zoom.us/meeting/register/PH079oUGT_GqtPqozmYK4g",
+      location: "https://zoom.us/meeting/register/DXYhp98PQwaLA9qI79McaA",
     },
     questions_and_answers: [
       {
         question: "Current Job Role",
-        answer: role,
+        answer: jobRole, // FIXED
         position: 0,
       },
       {
         question: "Work Experience",
-        answer: experience,
+        answer: workExperience, // FIXED
         position: 1,
       },
+
       {
-        question: "Phone Number ", // Note: Ensure this matches your Calendly config exactly (including space if present)
+        question: "Phone Number",
         answer: phone,
         position: 2,
       },
@@ -52,11 +65,6 @@ export default async function handler(req, res) {
   };
 
   try {
-    console.log("Booking invitee...", JSON.stringify(requestBody, null, 2));
-
-    // NOTE: Ensure this endpoint matches your specific Calendly API use case.
-    // Standard V2 often uses POST /scheduled_events to create one-off events
-    // or requires specific UUIDs to add invitees.
     const response = await fetch("https://api.calendly.com/invitees", {
       method: "POST",
       headers: {
@@ -69,12 +77,11 @@ export default async function handler(req, res) {
     if (!response.ok) {
       const errorText = await response.text();
       console.error("Calendly booking error:", errorText);
-      throw new Error("Failed to book meeting");
+      throw new Error(`Failed to book meeting: ${response.statusText}`);
     }
 
     const data = await response.json();
 
-    // Return sanitized data to frontend
     return res.status(200).json({
       success: true,
       booking: {
