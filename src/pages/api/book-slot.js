@@ -12,8 +12,15 @@ export default async function handler(req, res) {
       .json({ error: "Missing Calendly environment variables" });
   }
 
-  const { name, email, phone, role, experience, startTimeUtc, timezone } =
-    req.body;
+  const {
+    name,
+    email,
+    phone,
+    jobRole,
+    workExperience,
+    startTimeUtc,
+    timezone, 
+  } = req.body;
 
   // Basic server-side validation
   if (!name || !email || !startTimeUtc) {
@@ -30,19 +37,20 @@ export default async function handler(req, res) {
     },
     location: {
       kind: "custom",
-      location: "https://zoom.us/meeting/register/PH079oUGT_GqtPqozmYK4g",
+      location: "https://zoom.us/meeting/register/DXYhp98PQwaLA9qI79McaA",
     },
     questions_and_answers: [
       {
-        question: "Current Job Role",
-        answer: role,
+        question: "Work Experience",
+        answer: workExperience,
         position: 0,
       },
       {
-        question: "Work Experience",
-        answer: experience,
+        question: "Current Job Role",
+        answer: jobRole,
         position: 1,
       },
+
       {
         question: "Phone Number ", // Note: Ensure this matches your Calendly config exactly (including space if present)
         answer: phone,

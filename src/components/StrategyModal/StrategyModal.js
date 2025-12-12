@@ -6,8 +6,8 @@ const StrategyModal = ({ isOpen, onClose }) => {
     name: "",
     email: "",
     phone: "",
-    role: "",
-    experience: "",
+    jobRole: "",
+    workExperience: "",
   });
 
   const [firstSlot, setFirstSlot] = useState(null);
@@ -78,8 +78,8 @@ const StrategyModal = ({ isOpen, onClose }) => {
           name: "",
           email: "",
           phone: "",
-          role: "",
-          experience: "",
+          jobRole: "",
+          workExperience: "",
         });
       }, 3000);
     } catch (error) {
@@ -187,11 +187,11 @@ const StrategyModal = ({ isOpen, onClose }) => {
               <div className={styles.formGroup}>
                 <label className={styles.label}>Current Job Role</label>
                 <input
-                  name="role"
+                  name="jobRole"
                   type="text"
                   required
                   className={styles.input}
-                  value={formData.role}
+                  value={formData.jobRole}
                   onChange={handleInputChange}
                 />
               </div>
@@ -199,19 +199,19 @@ const StrategyModal = ({ isOpen, onClose }) => {
               <div className={styles.formGroup}>
                 <label className={styles.label}>Work Experience</label>
                 <select
-                  name="experience"
+                  name="workExperience"
                   required
                   className={styles.select}
-                  value={formData.experience}
+                  value={formData.workExperience}
                   onChange={handleInputChange}
                 >
                   <option value="" disabled>
                     Select experience
                   </option>
-                  <option value="fresher">Fresher / Student</option>
-                  <option value="1-3">1 - 3 Years</option>
-                  <option value="4-6">4 - 6 Years</option>
-                  <option value="7+">7+ Years</option>
+                  <option value="Fresher">Fresher</option>
+                  <option value="1-3 Years of Experience">1 - 3 Years</option>
+                  <option value="3-7 Years of Experience">3 - 7 Years</option>
+                  <option value="7+ Years of Experience">7+ Years</option>
                 </select>
               </div>
 
