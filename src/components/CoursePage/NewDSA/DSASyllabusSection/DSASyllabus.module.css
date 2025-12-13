@@ -84,6 +84,35 @@
   margin: 0;
 }
 
+.elective {
+  border-radius: 36px;
+  background: rgba(4, 113, 255, 0.16);
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 8px;
+  gap: 4px;
+  border-color: #336ca8;
+}
+
+.elective p {
+  color: #336ca8;
+  font-size: 10px;
+  /* font-style: normal; */
+  font-weight: 500;
+  /* line-height: 126.5%; */
+  /* 31.625px */
+  /* margin: 0; */
+  margin: 0;
+}
+
+/* ToolsAndPlatforms.module.css or relevant file */
+.highlight {
+  color: var(--light-orange);
+  font-weight: 600;
+}
+
 .org {
   color: var(--light-orange);
   font-size: 20px;
@@ -901,8 +930,6 @@
   .popupbtn {
     font-size: 18px;
   }
-
-  
 }
 
 @media screen and (max-width: 361px) {

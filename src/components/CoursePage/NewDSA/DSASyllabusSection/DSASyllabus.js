@@ -49,6 +49,20 @@ const SyllabusSection = ({
     return sizes.lg; // Desktop
   };
 
+  function highlightText(text) {
+    const regex = /(Tools:|Capstone Projects 1\.|Capstone Projects 2\.)/g;
+
+    return text.split(regex).map((part, index) =>
+      regex.test(part) ? (
+        <span key={index} className={styles.highlight}>
+          {part}
+        </span>
+      ) : (
+        part
+      )
+    );
+  }
+
   return (
     <div className="width">
       <div className={styles.mainConteiner}>
@@ -95,21 +109,25 @@ const SyllabusSection = ({
                 <div className={styles.rytmain}>
                   <div className={styles.ryttop}>
                     <p>{section.description}</p>
-                    {/* <div className={styles.date}>
-                      <p>{section.duration}</p>
-                    </div> */}
+                    {section?.elective && (
+                      <div className={styles.elective}>
+                        <p>{section?.elective}</p>
+                      </div>
+                    )}
                   </div>
                   <div className={styles.content}>
                     <div className={styles.contentlist}>
                       <p className={styles.pline}>
-                        <span className={styles.org}>
-                          {section.contentModule}:{" "}
-                        </span>
+                        {section.contentModule && (
+                          <span className={styles.org}>
+                            {section.contentModule}:{" "}
+                          </span>
+                        )}
                         {section.contentDescription}
                       </p>
                       <ul className={styles.lists}>
                         {section.contentDetails.map((detail, idx) => (
-                          <li key={idx}>{detail}</li>
+                          <li key={idx}>{highlightText(detail)}</li>
                         ))}
                       </ul>
                       <div className={styles.popupbtn} onClick={popupShow}>
