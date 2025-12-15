@@ -52,6 +52,15 @@
   height: 350px;
 }
 
+.highlightBox {
+  border-radius: 20px;
+  border: 1px solid;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+}
+
 .contentWrapper {
   display: flex;
   justify-content: space-between;
@@ -145,6 +154,15 @@
     margin: 50px 0;
   }
   .box {
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+  }
+
+  .highlightBox {
     border-radius: 20px;
     border: 1px solid;
     padding: 20px;

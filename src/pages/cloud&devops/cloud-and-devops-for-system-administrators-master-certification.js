@@ -1,14 +1,26 @@
-import React from "react";
-import Head from "next/head";
-import dynamic from "next/dynamic";
+import { MasterAI } from "@/Data/Schema/DataScienceAndAIMasterSchema";
 import { parseJSONData } from "@/Util/JsonConvertor";
-import DSAHeader from "@/components/CoursePage/NewDSA/Header/NewDSAHeader";
-import Navbar from "@/components/Global/Navbar/Navbar";
+import {
+  getDSABookingLaterDate,
+  getDSABookingSoonDate,
+} from "@/Util/getDSABatchData";
+import HighlightsAdminSection from "@/components/CoursePage/FirstPart/Support_noimage/highlightcloudAdmin";
 import BookDemo from "@/components/CoursePage/NewDSA/BookDemo/BookDemo";
+import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/UpdatedCertificate";
+import GenAIProject from "@/components/CoursePage/genAiProject/GenAIProject";
+import Newheader from "@/components/CoursePage/newHeader/newHeader";
+import NewTools from "@/components/CoursePage/newTools/NewTools";
+import AlumniCompanies from "@/components/CoursePage/newUICourse/AlumniCompanies";
+import LearningToPlacement from "@/components/CoursePage/newUICourse/LearningToPlacement/LearningToPlacement";
+import BottomBar from "@/components/Global/BottomBar/BottomBar";
+import Navbar from "@/components/Global/Navbar/Navbar";
+import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
+import dynamic from "next/dynamic";
+import Head from "next/head";
+import React from "react";
 const ProgramSection = dynamic(() =>
   import("@/components/CoursePage/NewDSA/ProgramSection/ProgramSection")
 );
-import GenAIProject from "@/components/CoursePage/genAiProject/GenAIProject";
 
 const DSAPractical = dynamic(() =>
   import("@/components/CoursePage/NewDSA/Practical/DSAPractical")
@@ -32,7 +44,6 @@ const DSAFeeSection = dynamic(() =>
   import("@/components/CoursePage/dsaFee/DSAFeeSection")
 );
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
-import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 const NewSevenSection = dynamic(() =>
   import("@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection")
 );
@@ -45,24 +56,9 @@ const DSAProjectSection = dynamic(() =>
 const ReviewSlider = dynamic(() =>
   import("@/components/Home/newUI/reviewSlider/reviewSlider")
 );
-import Certificate from "@/components/CoursePage/Certificate/Certificate";
 const Content = dynamic(() =>
   import("@/components/CoursePage/Content/content")
 );
-import NewTools from "@/components/CoursePage/newTools/NewTools";
-import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import FAQNew from "@/components/CoursePage/FAQNew/FAQNew";
-import {
-  getDSABookingLaterDate,
-  getDSABookingSoonDate,
-} from "@/Util/getDSABatchData";
-import AlumniCompanies from "@/components/CoursePage/newUICourse/AlumniCompanies";
-import LearningToPlacement from "@/components/CoursePage/newUICourse/LearningToPlacement/LearningToPlacement";
-import Newheader from "@/components/CoursePage/newHeader/newHeader";
-import { MasterAI } from "@/Data/Schema/DataScienceAndAIMasterSchema";
-import FeeSection from "@/components/course/feeSection/FeeSectionCourse";
-import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/UpdatedCertificate";
-import HighlightsSection from "@/components/CoursePage/FirstPart/Support_noimage/highlightcloud";
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
@@ -221,7 +217,7 @@ Cloud and DevOps master certification"
           upSkillingHide={true}
         /> */}
         {/* <DSAPractical /> */}
-        <HighlightsSection cloud={true} />
+        <HighlightsAdminSection cloud={true} />
 
         <AnimationNew />
         <JobReadySection />
