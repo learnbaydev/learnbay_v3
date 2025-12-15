@@ -11,10 +11,10 @@ import LearningToPlacement from "@/components/CoursePage/newUICourse/LearningToP
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import Navbar from "@/components/Global/Navbar/Navbar";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-import highlightsData from "@/Data/HighlightsAdminSectionData";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import React from "react";
+import highlightsData from "@/Data/highlightsDataDA";
 const AnimationNew = dynamic(() =>
   import("@/components/Home/whyChooseSection/whylblimited")
 );
@@ -257,7 +257,7 @@ export default NewDSA;
 
 export async function getStaticProps() {
   const module = await import(
-    "../../Data/CloudAndDevOpsforSystemAdministratorsMasterCertificationData"
+    "../../Data/cloud-and-devops-for-database-administrators-data"
   );
   const data = module.default;
 

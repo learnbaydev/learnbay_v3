@@ -9,11 +9,11 @@ export const NewDSAData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
         title: [
           {
-            text: "Cloud and DevOps Engineering ",
+            text: "Cloud & DevOps for ",
             color: false,
           },
           {
-            text: "Masters Certification Program ",
+            text: "System Administrators ",
             color: true,
             gradient: "linear-gradient(90deg, #f2b7be, #eebdc6, #d7d1e5)",
           },

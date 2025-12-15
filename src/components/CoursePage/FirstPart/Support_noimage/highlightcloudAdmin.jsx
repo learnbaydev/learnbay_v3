@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./HighlightsSection.module.css";
 import Image from "next/image";
-import highlightsData from "./HighlightsAdminSectionData";
+// import highlightsData from "./HighlightsAdminSectionData";
 import { useState } from "react";
 import dynamic from "next/dynamic";
 const Popup = dynamic(() => import("@/components/Global/Popup/Popup"));
@@ -16,6 +16,7 @@ const HighlightsAdminSection = ({
   fullStack,
   dataScience,
   dataScienceGeneric,
+  highlightsData,
 }) => {
   const [popups, setPopups] = useState(false);
   const popupShow = () => {
