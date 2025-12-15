@@ -142,6 +142,11 @@ export const TabData = [
       //   hours: "11 Months",
       //   url: "/fullstack/full-stack-software-development-program",
       // },
+      {
+        CName: "Cloud & DevOps for System Administrators Master Certification",
+        hours: "10 Months",
+        url: "/cloud&devops/cloud-and-devops-for-system-administrators-master-certification",
+      },
     ],
   },
 
