@@ -1,9 +1,5 @@
 import { MasterAI } from "@/Data/Schema/DataScienceAndAIMasterSchema";
 import { parseJSONData } from "@/Util/JsonConvertor";
-import {
-  getDSABookingLaterDate,
-  getDSABookingSoonDate,
-} from "@/Util/getDSABatchData";
 import HighlightsAdminSection from "@/components/CoursePage/FirstPart/Support_noimage/highlightcloudAdmin";
 import BookDemo from "@/components/CoursePage/NewDSA/BookDemo/BookDemo";
 import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/UpdatedCertificate";
@@ -18,27 +14,14 @@ import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import React from "react";
-const ProgramSection = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/ProgramSection/ProgramSection")
-);
-
-const DSAPractical = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/Practical/DSAPractical")
-);
 const AnimationNew = dynamic(() =>
   import("@/components/Home/whyChooseSection/whylblimited")
-);
-const Other = dynamic(() =>
-  import("@/components/Home/newUI/OtherVS_updated/Other")
 );
 const JobReadySection = dynamic(() =>
   import("@/components/CoursePage/NewDSA/JobReadySection/JobReadySection")
 );
 const DSASyllabus = dynamic(() =>
   import("@/components/CoursePage/NewDSA/DSASyllabusSection/DSASyllabus")
-);
-const NewCertificateSection = dynamic(() =>
-  import("@/components/CoursePage/newCertificate/NewCertificate")
 );
 const DSAFeeSection = dynamic(() =>
   import("@/components/CoursePage/dsaFee/DSAFeeSection")
@@ -50,24 +33,13 @@ const NewSevenSection = dynamic(() =>
 const MentorsSection = dynamic(() =>
   import("@/components/course/MentorsSection/MentorsSection")
 );
-const DSAProjectSection = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/ProjectSection/cloudproject")
-);
 const ReviewSlider = dynamic(() =>
   import("@/components/Home/newUI/reviewSlider/reviewSlider")
-);
-const Content = dynamic(() =>
-  import("@/components/CoursePage/Content/content")
 );
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud_and_Devops_Master_Certification_download.pdf";
-
-  let soonDate = getDSABookingSoonDate();
-  let laterDate = getDSABookingLaterDate();
-  // console.log(getDSABookingSoonDate(new Date('2023-03-24')));
-  // console.log(getDSABookingLaterDate(new Date('2023-03-24')));
 
   return (
     <>
@@ -210,13 +182,6 @@ Cloud and DevOps master certification"
         />
         <LearningToPlacement time="380" guided="40" />
 
-        {/* <ProgramSection
-          programSectionData={NewDSAData[0].ProgramSection}
-          dataScienceCounselling={true}
-          interstedInHide={true}
-          upSkillingHide={true}
-        /> */}
-        {/* <DSAPractical /> */}
         <HighlightsAdminSection cloud={true} />
 
         <AnimationNew />
@@ -228,8 +193,6 @@ Cloud and DevOps master certification"
           GENAIMAN={true}
           noClud={true}
         />
-
-        {/* <Other  /> */}
         <DSASyllabus
           sections={NewDSAData[0].sections}
           dataScience={true}
@@ -241,13 +204,6 @@ Cloud and DevOps master certification"
         />
         <NewTools toolsData={NewDSAData[0].toolsData} />
         <UpdatedCertificate data={NewDSAData[0].Certificate} />
-        {/* <Certificate
-          noTabs={true}
-          data={NewDSAData[0].certificateNew}
-          DSAFresherCertHeading={true}
-        /> */}
-
-        {/* <NewCertificateSection certificateNew={NewDSAData[0].certificateNew} /> */}
         <DSAFeeSection
           Fee="₹ 1,59,000 "
           FeeEmi="₹ 13,250/ month"
@@ -282,15 +238,7 @@ Cloud and DevOps master certification"
           first="Evaluation Call"
           second="Screening Call"
           third="Block your seat"
-          // greenButton={true}
         />
-
-        {/* <FAQNew FAQNewData={NewDSAData[0].faq} background={true} /> */}
-        {/* <Content
-          dataScienceCounselling={true}
-          DSANewContent={true}
-          background={true}
-        /> */}
         <NewSevenSection
           dataScienceCounselling={true}
           interstedInHide={true}
