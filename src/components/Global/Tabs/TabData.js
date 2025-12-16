@@ -117,55 +117,55 @@ export const TabData = [
     id: "Cloud & DevOps",
     title: "Cloud & DevOps",
     courseName: [
-      {
-        CName: "Cloud Computing & DevOps Certification Program",
-        hours: "6 Months",
-        url: "/cloud&devops/cloud-computing-and-devOps-certification-program",
-      },
-      {
-        CName: "Certificate in AWS Cloud Computing & Devops",
-        hours: "3-4 Months",
-        url: "/cloud&devops/aws-cloud-computing-and-devOps",
-      },
+      // {
+      //   CName: "Cloud Computing & DevOps Certification Program",
+      //   hours: "6 Months",
+      //   url: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+      // },
+      // {
+      //   CName: "Certificate in AWS Cloud Computing & Devops",
+      //   hours: "3-4 Months",
+      //   url: "/cloud&devops/aws-cloud-computing-and-devOps",
+      // },
       // {
       //   CName: "Executive Certification in Cloud and Devops",
       //   hours: "10 Months",
       //   url: "/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati",
       // },
-      {
-        CName: "Cloud and DevOps Engineering Masters Certification",
-        hours: "10 Months",
-        url: "/cloud&devops/cloud-and-devops-engineering-masters",
-      },
+      // {
+      //   CName: "Cloud and DevOps Engineering Masters Certification",
+      //   hours: "10 Months",
+      //   url: "/cloud&devops/cloud-and-devops-engineering-masters",
+      // },
       // {
       //   CName: "Software Development Certification Program",
       //   hours: "11 Months",
       //   url: "/fullstack/full-stack-software-development-program",
       // },
       {
-        CName: "Cloud & DevOps for System Administrators Master Certification",
-        hours: "10 Months",
+        CName: "Cloud and DevOps Engineering Masters Certification",
+        hours: "8 Months",
         url: "/cloud&devops/cloud-and-devops-for-system-administrators-master-certification",
       },
 
       {
         CName: "Cloud & DevOps for Network Professionals",
-        hours: "10 Months",
+        hours: "5-6 Months",
         url: "/cloud&devops/cloud-devops-for-network-professionals",
       },
       {
         CName: "Cloud & DevOps for System Administrators",
-        hours: "10 Months",
+        hours: "5-6 Months",
         url: "/cloud&devops/cloud-and-devOps-for-system-administrators",
       },
       {
         CName: "Cloud & DevOps for IT Support & IT Operations",
-        hours: "10 Months",
+        hours: "5-6 Months",
         url: "/cloud&devops/cloud-and-devops-for-it-support-and-it-operations",
       },
       {
         CName: "Cloud & DevOps for Database Administrators",
-        hours: "10 Months",
+        hours: "5-6 Months",
         url: "/cloud&devops/cloud-and-devops-for-database-administrators",
       },
     ],

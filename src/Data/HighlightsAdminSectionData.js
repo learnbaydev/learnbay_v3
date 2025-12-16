@@ -24,7 +24,7 @@ const highlightsData = [
     descColor: "#1F4034",
     description:
       "System admins now run cloud at scale. Upgrade into a cloud-first infrastructure engineer with automation.",
-    image: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Frame.webp",
+    image: "",
     width: 330,
     height: 190,
     top: 171,
@@ -38,7 +38,7 @@ const highlightsData = [
 
   {
     tag: "SPECIALIZATION 3",
-    heading: "Cloud & DevOps for IT Support & IT Operations",
+    heading: "Cloud & DevOps for IT Support and IT Operations",
     headingColor: "#0071F2",
     descColor: "#1B1B1B",
     description:

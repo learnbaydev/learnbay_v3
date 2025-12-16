@@ -46,14 +46,40 @@ const HighlightsAdminSection = ({
             <div className={styles.contentWrapper}>
               <div className={styles.left}>
                 <div
-                  className={styles.top}
                   style={{
-                    borderColor: item.tagColor,
-                    background: `${item.tagColor}33`,
+                    display: "Flex",
+                    justifyContent: "space-between",
+                    // alignItems: "center",
                   }}
                 >
-                  <span style={{ color: item.tagColor }}>{item.tag}</span>
+                  <div
+                    className={styles.top}
+                    style={{
+                      borderColor: item.tagColor,
+                      background: `${item.tagColor}33`,
+                    }}
+                  >
+                    <div style={{ color: item.tagColor }}>{item.tag}</div>
+                  </div>
+                  <div
+                    style={{
+                      backgroundColor: item.headingColor,
+                      color: "#fff",
+                      fontWeight: 600,
+                      borderRadius: "20px",
+                      padding: "6px 15px",
+                      fontSize: "15px",
+                      whiteSpace: "nowrap",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      height: "40px",
+                    }}
+                  >
+                    {item.duaration}
+                  </div>
                 </div>
+
                 <div
                   style={{
                     display: "flex",
@@ -74,23 +100,6 @@ const HighlightsAdminSection = ({
                     >
                       {item.heading}
                     </h5>
-                  </div>
-
-                  <div
-                    style={{
-                      backgroundColor: item.headingColor,
-                      color: "#fff",
-                      fontWeight: 600,
-                      borderRadius: "20px",
-                      padding: "6px 12px",
-                      fontSize: "12px",
-                      whiteSpace: "nowrap",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                    }}
-                  >
-                    {item.duaration}
                   </div>
                 </div>
                 <p

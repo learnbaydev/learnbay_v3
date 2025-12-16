@@ -23,7 +23,7 @@ const highlightsData = [
     headingColor: "#048C5D",
     descColor: "#1F4034",
     description:
-      "Work closely with experienced Cloud Ops & DevOps mentors who guide you through real incidents, alert handling, and operational decision-making — exactly how it happens in production environments.",
+      "Work closely with experienced Cloud Ops & DevOps mentors who guide you through real incidents, alert handling, and operational decision-making.",
     image: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Frame.webp",
     width: 330,
     height: 190,
@@ -61,7 +61,7 @@ const highlightsData = [
     headingColor: "#583EDB",
     descColor: "#1C1C1C",
     description:
-      "Practice incident scenarios, monitoring use cases, root cause analysis, and on-call workflows with expert feedback — build confidence to step into Cloud Operations and DevOps roles.",
+      "Practice incident scenarios, monitoring use cases, root cause analysis, and on-call workflows with expert feedback.",
     image:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/img-4.webp",
     width: 260,

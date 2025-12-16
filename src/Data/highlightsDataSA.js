@@ -5,7 +5,7 @@ const highlightsData = [
     headingColor: "#873E18",
     descColor: "#525252",
     description:
-      "Modern system administrators don’t just manage servers — they engineer scalable cloud infrastructure.Upgrade your skills to design, secure, automate, and operate cloud systems used in real production environments.",
+      "Modern system administrators don’t just manage servers. Upgrade your skills to design, secure, automate, and operate cloud systems used in real production environments.",
     image: "",
     width: 550,
     height: 260,
@@ -23,7 +23,7 @@ const highlightsData = [
     headingColor: "#048C5D",
     descColor: "#1F4034",
     description:
-      "Work 1-on-1 with experienced System Architects and DevOps mentors who guide you through infrastructure design, automation workflows, and real-world troubleshooting — ensuring your projects meet industry standards.",
+      "Work 1-on-1 with experienced System Architects and DevOps mentors who guide you through infrastructure design, automation workflows, and real-world troubleshooting.",
     image: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Frame.webp",
     width: 330,
     height: 190,
@@ -61,7 +61,7 @@ const highlightsData = [
     headingColor: "#583EDB",
     descColor: "#1C1C1C",
     description:
-      "Practice infrastructure scenarios, automation challenges, and system design discussions with expert feedback — build the confidence to clear System Administrator, Cloud Engineer, and DevOps interviews.",
+      "Practice infrastructure scenarios, automation challenges, and system design discussions with expert feedback System Administrator, Cloud Engineer, and DevOps interviews.",
     image:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/img-4.webp",
     width: 260,

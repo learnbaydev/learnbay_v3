@@ -4,16 +4,16 @@ export const NewDSAData = [
   {
     header: [
       {
-        spanTag: "Integrated with AI Co-Lab Experience",
+        spanTag: "for Database Administrators ",
         spanIcon:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
         title: [
           {
-            text: "Cloud and DevOps For ",
+            text: "Cloud and DevOps Engineering Certification Program ",
             color: false,
           },
           {
-            text: "Database Administrators ",
+            text: "Certification Program ",
             color: true,
             gradient: "linear-gradient(90deg, #f2b7be, #eebdc6, #d7d1e5)",
           },
@@ -35,13 +35,13 @@ export const NewDSAData = [
         ],
         mentorText: "Earn Industry-Ready Certification from",
         mentorFromImg: [
-          {
-            id: 2,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
-            imgAlt: "IBM Logo",
-            width: "60",
-            height: "30",
-          },
+          // {
+          //   id: 2,
+          //   img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
+          //   imgAlt: "IBM Logo",
+          //   width: "60",
+          //   height: "30",
+          // },
           {
             id: 3,
             img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Microsoft.webp",
