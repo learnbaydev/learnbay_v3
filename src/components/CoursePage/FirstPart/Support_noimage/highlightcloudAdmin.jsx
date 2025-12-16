@@ -1,7 +1,6 @@
 import React from "react";
-import styles from "./HighlightsSection.module.css";
+import styles from "./HighlightsAdminSection.module.css";
 import Image from "next/image";
-// import highlightsData from "./HighlightsAdminSectionData";
 import { useState } from "react";
 import dynamic from "next/dynamic";
 const Popup = dynamic(() => import("@/components/Global/Popup/Popup"));
@@ -10,6 +9,7 @@ const FormCareer = dynamic(() =>
 );
 const Button = dynamic(() => import("@/components/Global/Button/Button"));
 const Form = dynamic(() => import("@/components/Global/Form/Form"));
+
 const HighlightsAdminSection = ({
   careerForm,
   radio,
@@ -54,27 +54,45 @@ const HighlightsAdminSection = ({
                 >
                   <span style={{ color: item.tagColor }}>{item.tag}</span>
                 </div>
-                <h5
-                  className={styles.h5}
+                <div
                   style={{
-                    color: item.headingColor,
-                    display: "inline-block",
-                    marginRight: "15px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    marginBottom: "15px",
                   }}
                 >
-                  {item.heading}
-                </h5>
-                <span
-                  style={{
-                    backgroundColor: item.headingColor,
-                    padding: "5px 15px",
-                    color: "#fff",
-                    fontWeight: 600,
-                    borderRadius: "15px",
-                  }}
-                >
-                  {item.duaration}
-                </span>
+                  <div>
+                    <h5
+                      className={styles.h5}
+                      style={{
+                        color: item.headingColor,
+                        margin: 0,
+                        lineHeight: "1.2",
+                        textTransform: "uppercase",
+                      }}
+                    >
+                      {item.heading}
+                    </h5>
+                  </div>
+
+                  <div
+                    style={{
+                      backgroundColor: item.headingColor,
+                      color: "#fff",
+                      fontWeight: 600,
+                      borderRadius: "20px",
+                      padding: "6px 12px",
+                      fontSize: "12px",
+                      whiteSpace: "nowrap",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    {item.duaration}
+                  </div>
+                </div>
                 <p
                   className={styles.desc}
                   style={{
@@ -109,7 +127,6 @@ const HighlightsAdminSection = ({
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          {/* <p>Fill the below details to get started</p> */}
           {careerForm ? (
             <FormCareer />
           ) : (
