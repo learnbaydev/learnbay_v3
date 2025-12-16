@@ -4,7 +4,7 @@ import HighlightsAdminSection from "@/components/CoursePage/FirstPart/Support_no
 import BookDemo from "@/components/CoursePage/NewDSA/BookDemo/BookDemo";
 import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/UpdatedCertificate";
 import GenAIProject from "@/components/CoursePage/genAiProject/GenAIProject";
-import Newheader from "@/components/CoursePage/newHeader/newHeader";
+import Newheader from "@/components/CoursePage/newHeaderCloudAndDevOps/newHeader";
 import NewTools from "@/components/CoursePage/newTools/NewTools";
 import AlumniCompanies from "@/components/CoursePage/newUICourse/AlumniCompanies";
 import LearningToPlacement from "@/components/CoursePage/newUICourse/LearningToPlacement/LearningToPlacement";

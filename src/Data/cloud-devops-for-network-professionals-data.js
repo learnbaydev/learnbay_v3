@@ -4,16 +4,16 @@ export const NewDSAData = [
   {
     header: [
       {
-        spanTag: "",
+        spanTag: "for Network Professionals",
         spanIcon:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
         title: [
           {
-            text: "Cloud & DevOps for ",
+            text: "Cloud and DevOps Engineering ",
             color: false,
           },
           {
-            text: "Network Professionals",
+            text: " Certification",
             color: true,
             gradient: "linear-gradient(90deg, #f2b7be, #eebdc6, #d7d1e5)",
           },
