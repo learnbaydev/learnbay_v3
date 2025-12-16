@@ -15,11 +15,15 @@ import highlightsData from "@/Data/HighlightsAdminSectionData";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import React from "react";
+// import newCloudAndDevopsSyllabus from "@/components/newCloudAndDevopsSyllabus/newCloudAndDevopsSyllabus";
 const AnimationNew = dynamic(() =>
   import("@/components/Home/whyChooseSection/whylblimited")
 );
 const JobReadySection = dynamic(() =>
   import("@/components/CoursePage/NewDSA/JobReadySection/JobReadySection")
+);
+const NewCloudAndDevopsSyllabus = dynamic(() =>
+  import("@/components/newCloudAndDevopsSyllabus/newCloudAndDevopsSyllabus")
 );
 const DSASyllabus = dynamic(() =>
   import("@/components/CoursePage/NewDSA/DSASyllabusSection/DSASyllabus")
@@ -182,9 +186,7 @@ Cloud and DevOps master certification"
           brochurePdf={pdfUrl}
         />
         <LearningToPlacement time="380" guided="40" />
-
         <HighlightsAdminSection cloud={true} highlightsData={highlightsData} />
-
         <AnimationNew />
         <JobReadySection />
         <ReviewSlider idss="eautK0odE7Q" showRealStories={false} />
