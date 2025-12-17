@@ -1,6 +1,4 @@
-// components/StrategyModal.js
 import React, { useEffect, useState, useMemo } from "react";
-// Assuming this CSS file exists in your project structure
 import styles from "./StrategyModal.module.css";
 
 const StrategyModal = ({ isOpen, onClose }) => {
@@ -8,17 +6,43 @@ const StrategyModal = ({ isOpen, onClose }) => {
     name: "",
     email: "",
     phone: "",
-    // FIXED: Use jobRole and workExperience for consistency
     jobRole: "",
     workExperience: "",
   });
 
   const [firstSlotUtc, setFirstSlotUtc] = useState(null);
-  const [loading, setLoading] = useState(true); // Start loading immediately on mount/open
-  const [isBooking, setIsBooking] = useState(false); // For form submission
+  const [loading, setLoading] = useState(true);
+  const [isBooking, setIsBooking] = useState(false);
   const [success, setSuccess] = useState(false);
+  const [errors, setErrors] = useState({
+    email: "",
+    phone: "",
+  });
 
-  // Memoize the human-readable slot time
+  // Email regex (simple & safe)
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  // Indian mobile number regex
+  const phoneRegex = /^(\+91[\-\s]?)?[6-9]\d{9}$/;
+
+  const validateField = (name, value) => {
+    let error = "";
+
+    if (name === "email") {
+      if (!emailRegex.test(value)) {
+        error = "Please enter a valid email address";
+      }
+    }
+
+    if (name === "phone") {
+      if (!phoneRegex.test(value)) {
+        error = "Enter a valid 10-digit mobile number";
+      }
+    }
+
+    setErrors((prev) => ({ ...prev, [name]: error }));
+  };
+
   const humanTime = useMemo(() => {
     if (!firstSlotUtc) return null;
     try {
@@ -33,10 +57,8 @@ const StrategyModal = ({ isOpen, onClose }) => {
     }
   }, [firstSlotUtc]);
 
-  // Effect to fetch the first available slot when the modal opens
   useEffect(() => {
     if (!isOpen) {
-      // Reset state when closing
       setLoading(true);
       setSuccess(false);
       setFirstSlotUtc(null);
@@ -46,14 +68,12 @@ const StrategyModal = ({ isOpen, onClose }) => {
     const fetchSlot = async () => {
       setLoading(true);
       try {
-        // Updated API path
         const res = await fetch("/api/get-slot");
         const data = await res.json();
 
         if (data.firstSlotUtc) {
           setFirstSlotUtc(data.firstSlotUtc);
         } else {
-          // Handle case where API returns ok but no slots
           setFirstSlotUtc(null);
         }
       } catch (error) {
@@ -67,30 +87,37 @@ const StrategyModal = ({ isOpen, onClose }) => {
 
     fetchSlot();
   }, [isOpen]);
-
   const handleInputChange = (e) => {
     const { name, value } = e.target;
+
     setFormData((prev) => ({ ...prev, [name]: value }));
+
+    // Run validation for email & phone
+    if (name === "email" || name === "phone") {
+      validateField(name, value);
+    }
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    // Final validation check
+    if (errors.email || errors.phone) {
+      return;
+    }
+
     if (!firstSlotUtc)
       return alert("No time slots available right now. Please reload.");
 
     setIsBooking(true);
 
     try {
-      // 1. Get user's timezone automatically
       const userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
 
-      // 2. Call the booking API (Updated API path)
       const res = await fetch("/api/book-slot", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           ...formData,
-          // Fixed variable names passed to API
           jobRole: formData.jobRole,
           workExperience: formData.workExperience,
           startTimeUtc: firstSlotUtc,
@@ -103,10 +130,8 @@ const StrategyModal = ({ isOpen, onClose }) => {
       if (!res.ok)
         throw new Error(data.error || "Booking failed on the server.");
 
-      // 3. Handle Success
       setSuccess(true);
 
-      // Optional: Close modal after 3 seconds
       setTimeout(() => {
         onClose();
       }, 3000);
@@ -122,7 +147,6 @@ const StrategyModal = ({ isOpen, onClose }) => {
   return (
     <div className={styles.overlay} onClick={onClose}>
       <div className={styles.modal} onClick={(e) => e.stopPropagation()}>
-        {/* Success Message View */}
         {success ? (
           <div className={styles.successWrapper}>
             <svg
@@ -158,7 +182,7 @@ const StrategyModal = ({ isOpen, onClose }) => {
                   <path d="M12 6v6l4 2" />
                 </svg>
               </div>
-              <h2 className={styles.title}>Book Your Strategy Call</h2>
+              <h2 className={styles.title}>Book Your Demo Call</h2>
               <p className={styles.subtitle}>
                 {loading
                   ? "Checking availability..."
@@ -181,7 +205,6 @@ const StrategyModal = ({ isOpen, onClose }) => {
                   disabled={loading || !firstSlotUtc || isBooking}
                 />
               </div>
-
               <div className={styles.formGroup}>
                 <label className={styles.label}>Email Address</label>
                 <input
@@ -193,25 +216,31 @@ const StrategyModal = ({ isOpen, onClose }) => {
                   onChange={handleInputChange}
                   disabled={loading || !firstSlotUtc || isBooking}
                 />
+                {errors.email && (
+                  <span className={styles.errorText}>{errors.email}</span>
+                )}
               </div>
-
               <div className={styles.formGroup}>
                 <label className={styles.label}>Phone Number</label>
                 <input
                   name="phone"
                   type="tel"
                   required
+                  placeholder="10-digit mobile number"
                   className={styles.input}
                   value={formData.phone}
                   onChange={handleInputChange}
                   disabled={loading || !firstSlotUtc || isBooking}
                 />
+                {errors.phone && (
+                  <span className={styles.errorText}>{errors.phone}</span>
+                )}
               </div>
 
               <div className={styles.formGroup}>
                 <label className={styles.label}>Current Job Role</label>
                 <input
-                  name="jobRole" // FIXED NAME
+                  name="jobRole"
                   type="text"
                   required
                   className={styles.input}
@@ -224,7 +253,7 @@ const StrategyModal = ({ isOpen, onClose }) => {
               <div className={styles.formGroup}>
                 <label className={styles.label}>Work Experience</label>
                 <select
-                  name="workExperience" // FIXED NAME
+                  name="workExperience"
                   required
                   className={styles.select}
                   value={formData.workExperience}
@@ -244,7 +273,13 @@ const StrategyModal = ({ isOpen, onClose }) => {
               <button
                 type="submit"
                 className={styles.submitButton}
-                disabled={loading || isBooking || !firstSlotUtc} // Disable if loading, booking, or no slot is found
+                disabled={
+                  loading ||
+                  isBooking ||
+                  !firstSlotUtc ||
+                  errors.email ||
+                  errors.phone
+                }
               >
                 {loading
                   ? "Checking Slots..."
