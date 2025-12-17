@@ -45,8 +45,8 @@ const LearningToPlacement = ({ time, guided }) => {
             </span>
             <div className={styles.logos}>
               <span>GitHub</span>
-              <span>OpenAI</span>
-              <span>Python</span>
+              <span> Python</span>
+              <span>Cloud Modules</span>
             </div>
           </div>
         </div>
@@ -75,8 +75,8 @@ const LearningToPlacement = ({ time, guided }) => {
               <div className={styles.capRight}>
                 <h5>
                   <strong>
-                    Solve real AI/GenAI challenges from startups and add
-                    industry-certified projects to your portfolio.
+                    Industry-certified projects built by solving real startup
+                    infrastructure and operations challenges.
                   </strong>
                 </h5>
               </div>

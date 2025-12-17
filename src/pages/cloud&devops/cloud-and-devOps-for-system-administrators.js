@@ -15,6 +15,7 @@ import dynamic from "next/dynamic";
 import Head from "next/head";
 import React from "react";
 import highlightsData from "@/Data/highlightsDataSA";
+import AlumniCompaniesCloudDevopsSystemAdministrator from "@/components/CoursePage/newUICourse/AluminiCompaniesCloudDevopsSystemAdministrator";
 const AnimationNew = dynamic(() =>
   import("@/components/Home/whyChooseSection/whylblimited")
 );
@@ -177,7 +178,7 @@ Cloud and DevOps master certification"
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
-        <AlumniCompanies
+        <AlumniCompaniesCloudDevopsSystemAdministrator
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud_and_Devops_Master_Certification.pdf"
           brochurePdf={pdfUrl}
         />
