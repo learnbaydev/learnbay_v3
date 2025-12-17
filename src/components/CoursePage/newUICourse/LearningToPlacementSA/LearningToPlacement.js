@@ -54,18 +54,22 @@ const LearningToPlacement = ({ time, guided }) => {
         <div className={styles.mainGrid}>
           <div className={styles.left}>
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/3d_sign.webp"
-              width={140}
-              height={160}
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/micro_ss1.webp"
+              width={300}
+              height={120}
               alt="Flexible subscription"
               loading="lazy"
             />
             <p className={styles.pTag}>
-              <span className={styles.green}>3 Years</span> Flexible{" "}
-              <span className={styles.nor}>Subscription</span>
+              <span className={styles.green}>
+                Become a Microsoft Certified System Administrator
+              </span>{" "}
+              <span className={styles.nor}></span>
             </p>
+            {/* Become a Microsoft Certified System Administrator Learn practical
+            system administration skills and achieve Microsoft certification. */}
             <span className={styles.learn}>
-              Learn at your pace with unlimited access.
+              Learn practical skills and earn certification.
             </span>
           </div>
 
@@ -75,8 +79,9 @@ const LearningToPlacement = ({ time, guided }) => {
               <div className={styles.capRight}>
                 <h5>
                   <strong>
-                    Industry-certified projects built by solving real startup
-                    infrastructure and operations challenges.
+                    Gain hands-on experience solving production-grade system
+                    challenges while earning industry-certified administration
+                    projects.
                   </strong>
                 </h5>
               </div>

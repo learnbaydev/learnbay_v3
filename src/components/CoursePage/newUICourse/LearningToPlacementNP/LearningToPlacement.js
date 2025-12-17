@@ -54,18 +54,21 @@ const LearningToPlacement = ({ time, guided }) => {
         <div className={styles.mainGrid}>
           <div className={styles.left}>
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/3d_sign.webp"
-              width={140}
-              height={160}
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/micro_ss1.webp"
+              width={250}
+              height={90}
               alt="Flexible subscription"
               loading="lazy"
             />
             <p className={styles.pTag}>
-              <span className={styles.green}>3 Years</span> Flexible{" "}
-              <span className={styles.nor}>Subscription</span>
+              <span className={styles.green}>
+                Become a Microsoft Certified Network Professional
+              </span>{" "}
+              {/* <span className={styles.nor}>Subscription</span> */}
             </p>
             <span className={styles.learn}>
-              Learn at your pace with unlimited access.
+              Learn practical system administration skills and achieve Microsoft
+              certification.
             </span>
           </div>
 
@@ -75,8 +78,9 @@ const LearningToPlacement = ({ time, guided }) => {
               <div className={styles.capRight}>
                 <h5>
                   <strong>
-                    Work on real-world challenges from partnered startups and
-                    build industry-certified portfolio projects
+                    Gain hands-on experience by solving real startup network
+                    challenges and earn industry-certified projects that
+                    demonstrate your operational expertise.
                   </strong>
                 </h5>
               </div>

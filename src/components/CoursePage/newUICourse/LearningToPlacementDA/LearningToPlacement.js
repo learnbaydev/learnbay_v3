@@ -44,9 +44,9 @@ const LearningToPlacement = ({ time, guided }) => {
               Hands-On Projects
             </span>
             <div className={styles.logos}>
-              <span>GitHub</span>
-              <span>OpenAI</span>
-              <span>Python</span>
+              <span>Database Administrator–Focused Modules</span>
+              {/* <span>Python</span>
+              <span>Cloud Modules</span> */}
             </div>
           </div>
         </div>
@@ -54,18 +54,21 @@ const LearningToPlacement = ({ time, guided }) => {
         <div className={styles.mainGrid}>
           <div className={styles.left}>
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/3d_sign.webp"
-              width={140}
-              height={160}
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/micro_ss1.webp"
+              width={250}
+              height={90}
               alt="Flexible subscription"
               loading="lazy"
             />
             <p className={styles.pTag}>
-              <span className={styles.green}>3 Years</span> Flexible{" "}
-              <span className={styles.nor}>Subscription</span>
+              <span className={styles.green}>
+                Become a Microsoft-Certified Database Administrators
+              </span>{" "}
+              {/* <span className={styles.nor}>Subscription</span> */}
             </p>
             <span className={styles.learn}>
-              Learn at your pace with unlimited access.
+              Learn with real database environments and earn a Microsoft
+              certification.
             </span>
           </div>
 
@@ -75,8 +78,9 @@ const LearningToPlacement = ({ time, guided }) => {
               <div className={styles.capRight}>
                 <h5>
                   <strong>
-                    Solve real AI/GenAI challenges from startups and add
-                    industry-certified projects to your portfolio.
+                    Work on real startup database problems—performance tuning,
+                    optimization, and scaling—and build industry-certified
+                    projects for your portfolio.
                   </strong>
                 </h5>
               </div>
