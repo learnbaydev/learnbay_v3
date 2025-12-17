@@ -24,13 +24,13 @@ export const NewDSAData = [
             id: 1,
             img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/firstPoint.webp",
             imgAlt: "DSA First Point",
-            text1: "Work on Startup-Driven IT Support & Operations Projects.",
+            text1: "Work on Startup-Driven Database Projects.",
           },
           {
             id: 2,
             img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/secondPoint.webp",
             imgAlt: "DSA Second Point",
-            text1: "Startup-Certified for IT Support & IT Operations",
+            text1: "Get directly certified from Microsoft",
           },
         ],
         mentorText: "Earn Industry-Ready Certification from",
@@ -132,10 +132,10 @@ export const NewDSAData = [
         src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/toolnine.webp",
         alt: "Tool 1",
       },
-      {
-        src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/toolseven.webp",
-        alt: "Tool 2",
-      },
+      // {
+      //   src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/toolseven.webp",
+      //   alt: "Tool 2",
+      // },
       {
         src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/tools/aws-tools.webp",
         alt: "Tool 3",
