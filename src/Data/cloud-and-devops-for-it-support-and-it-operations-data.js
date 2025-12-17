@@ -422,7 +422,7 @@ export const NewDSAData = [
         height: 80,
         title: "TERM 8",
         toolsImg: "",
-        elective: "Elective - 1",
+        elective: "Elective",
         imageSizes: {
           vsm: { width: 40, height: 21 },
           sm: { width: 40, height: 23 },
