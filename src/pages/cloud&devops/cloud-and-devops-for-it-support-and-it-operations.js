@@ -15,8 +15,8 @@ import dynamic from "next/dynamic";
 import Head from "next/head";
 import React from "react";
 import highlightsData from "@/Data/highlightsDataISIO";
-const AnimationNew = dynamic(() =>
-  import("@/components/Home/whyChooseSection/whylblimited")
+const AnimationNew3 = dynamic(() =>
+  import("@/components/Home/whyChooseSection/whylblimitedISIO")
 );
 const JobReadySection = dynamic(() =>
   import("@/components/CoursePage/NewDSA/JobReadySection/JobReadySection")
@@ -185,7 +185,7 @@ Cloud and DevOps master certification"
 
         <HighlightsAdminSection cloud={true} highlightsData={highlightsData} />
 
-        <AnimationNew />
+        <AnimationNew3 />
         <JobReadySection />
         <ReviewSlider idss="eautK0odE7Q" showRealStories={false} />
         <MentorsSection />

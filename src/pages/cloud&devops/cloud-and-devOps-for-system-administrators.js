@@ -16,8 +16,8 @@ import Head from "next/head";
 import React from "react";
 import highlightsData from "@/Data/highlightsDataSA";
 import AlumniCompaniesCloudDevopsSystemAdministrator from "@/components/CoursePage/newUICourse/AluminiCompaniesCloudDevopsSystemAdministrator";
-const AnimationNew = dynamic(() =>
-  import("@/components/Home/whyChooseSection/whylblimited")
+const AnimationNew2 = dynamic(() =>
+  import("@/components/Home/whyChooseSection/whylblimitedSA")
 );
 const JobReadySection = dynamic(() =>
   import("@/components/CoursePage/NewDSA/JobReadySection/JobReadySection")
@@ -186,7 +186,7 @@ Cloud and DevOps master certification"
 
         <HighlightsAdminSection cloud={true} highlightsData={highlightsData} />
 
-        <AnimationNew />
+        <AnimationNew2 />
         <JobReadySection />
         <ReviewSlider idss="eautK0odE7Q" showRealStories={false} />
         <MentorsSection />
