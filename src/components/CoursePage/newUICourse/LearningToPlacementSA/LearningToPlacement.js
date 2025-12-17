@@ -55,8 +55,8 @@ const LearningToPlacement = ({ time, guided }) => {
           <div className={styles.left}>
             <Image
               src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/micro_ss1.webp"
-              width={300}
-              height={120}
+              width={250}
+              height={90}
               alt="Flexible subscription"
               loading="lazy"
             />
