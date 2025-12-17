@@ -4,7 +4,7 @@ import styles from "./AlumniCompanies.module.css";
 import { lazy, Suspense, useState } from "react";
 import dynamic from "next/dynamic";
 import PopupContent from "@/components/Global/PopupContent/PopupContent";
-const Form = lazy(() => import("../../../components/Global/Form/Form"));
+const Form = lazy(() => import("../../Global/Form/Form"));
 const companyLogos = [
   {
     name: "Microsoft",
@@ -80,7 +80,7 @@ const companyLogos = [
   },
 ];
 
-const AlumniCompaniesCloudDevopsSystemAdministrator = ({
+const AlumniCompaniesCloudDevopsISIO = ({
   titleCourse,
   brochureLink,
   dataScience,
@@ -111,8 +111,7 @@ const AlumniCompaniesCloudDevopsSystemAdministrator = ({
       />
       <h2 className={styles.heading}>
         Alumni placed across <span className={styles.highlight}>350+</span>{" "}
-        Companies,{" "}
-        {/* <span className={styles.underline}>You're Next!</span> */}
+        Companies {/* <span className={styles.underline}></span> */}
       </h2>
 
       <div className={styles.logos}>
@@ -138,4 +137,4 @@ const AlumniCompaniesCloudDevopsSystemAdministrator = ({
   );
 };
 
-export default AlumniCompaniesCloudDevopsSystemAdministrator;
+export default AlumniCompaniesCloudDevopsISIO;
