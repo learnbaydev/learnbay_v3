@@ -62,7 +62,7 @@ const LearningToPlacement = ({ time, guided }) => {
             />
             <p className={styles.pTag}>
               <span className={styles.green}>
-                Become a Microsoft Certified Network Professional
+                Become a Microsoft Certified Cloud Professional
               </span>{" "}
               {/* <span className={styles.nor}>Subscription</span> */}
             </p>
