@@ -5,7 +5,7 @@ const highlightsData = [
     headingColor: "#873E18",
     descColor: "#525252",
     description:
-      "System admins now run cloud at scale. Upgrade into a cloud-first infrastructure engineer with automation.",
+      "Design and manage cloud networks at scale. Upgrade into a cloud-first infrastructure engineer with automation.",
     image: "",
     width: 550,
     height: 260,
@@ -23,7 +23,7 @@ const highlightsData = [
     headingColor: "#048C5D",
     descColor: "#1F4034",
     description:
-      "System admins now run cloud at scale. Upgrade into a cloud-first infrastructure engineer with automation.",
+      "System administrators now operate cloud platforms at scale. Evolve into a cloud-first DevOps professional with automation.",
     image: "",
     width: 330,
     height: 190,
