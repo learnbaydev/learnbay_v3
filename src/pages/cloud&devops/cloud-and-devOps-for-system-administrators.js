@@ -7,7 +7,7 @@ import GenAIProject from "@/components/CoursePage/genAiProject/GenAIProject";
 import Newheader from "@/components/CoursePage/newHeaderCloudAndDevOps/newHeader";
 import NewTools from "@/components/CoursePage/newTools/NewTools";
 import AlumniCompanies from "@/components/CoursePage/newUICourse/AlumniCompanies";
-import LearningToPlacement from "@/components/CoursePage/newUICourse/LearningToPlacement/LearningToPlacement";
+import LearningToPlacementSA from "@/components/CoursePage/newUICourse/LearningToPlacementSA/LearningToPlacement";
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import Navbar from "@/components/Global/Navbar/Navbar";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
@@ -182,7 +182,7 @@ Cloud and DevOps master certification"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud_and_Devops_Master_Certification.pdf"
           brochurePdf={pdfUrl}
         />
-        <LearningToPlacement time="380" guided="40" />
+        <LearningToPlacementSA time="380" guided="40" />
 
         <HighlightsAdminSection cloud={true} highlightsData={highlightsData} />
 
