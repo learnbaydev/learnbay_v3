@@ -5,7 +5,7 @@ const highlightsData = [
     headingColor: "#873E18",
     descColor: "#525252",
     description:
-      "IT Support is no longer just about fixing issues. Learn how modern teams run production cloud systems using monitoring, SLAs, automation, and reliability practices used by global tech companies.",
+      "Go beyond issue-fixing to operating production cloud systems.Learn monitoring, SLAs, automation, and reliability practices used by modern teams.",
     image: "",
     width: 550,
     height: 260,
@@ -23,7 +23,7 @@ const highlightsData = [
     headingColor: "#048C5D",
     descColor: "#1F4034",
     description:
-      "Work closely with experienced Cloud Ops & DevOps mentors who guide you through real incidents, alert handling, and operational decision-making.",
+      "Work with Cloud Ops & DevOps mentors on real incidents and alerts.Learn operational decision-making as it happens in production.",
     image: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Frame.webp",
     width: 330,
     height: 190,
@@ -42,7 +42,7 @@ const highlightsData = [
     headingColor: "#0071F2",
     descColor: "#1B1B1B",
     description:
-      "Gain hands-on experience with tools used by modern operations teams: AWS CloudWatch • Linux • Incident Automation • Python • Lambda • Log Analysis • Observability Dashboards • Alerting Systems",
+      "Get hands-on with tools used by modern operations teams:AWS CloudWatch • Linux • Python • Lambda • Log Analysis • Alerting & Observability",
     image:
       "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/docker_terraform.webp",
     width: 305,
@@ -61,7 +61,7 @@ const highlightsData = [
     headingColor: "#583EDB",
     descColor: "#1C1C1C",
     description:
-      "Practice incident scenarios, monitoring use cases, root cause analysis, and on-call workflows with expert feedback.",
+      "Practice incident handling, monitoring, and root cause analysis.Get expert feedback to confidently step into Cloud Ops & DevOps roles.",
     image:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/img-4.webp",
     width: 260,

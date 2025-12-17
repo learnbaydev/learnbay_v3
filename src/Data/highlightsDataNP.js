@@ -5,7 +5,7 @@ const highlightsData = [
     headingColor: "#873E18",
     descColor: "#525252",
     description:
-      "Design and operate production-grade cloud networks used by modern enterprises. Gain exposure to VPCs, hybrid connectivity, service mesh, and zero-trust designs followed by global tech teams.",
+      "Design and operate production-grade cloud networks used by enterprises.Work with VPCs, hybrid connectivity, service mesh, and zero-trust architectures.",
     image: "",
     width: 550,
     height: 260,
@@ -23,7 +23,7 @@ const highlightsData = [
     headingColor: "#048C5D",
     descColor: "#1F4034",
     description:
-      "Work 1-on-1 with experienced Cloud Network & DevOps mentors who help you design architectures, debug traffic flows, review configs, and ensure your projects meet real-world standards.",
+      "Get 1-on-1 guidance from Cloud & DevOps mentors.Design architectures, debug traffic, and review configs to industry standards.",
     image: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Frame.webp",
     width: 330,
     height: 190,
@@ -42,7 +42,7 @@ const highlightsData = [
     headingColor: "#0071F2",
     descColor: "#1B1B1B",
     description:
-      "Get hands-on with tools used in real production environments, including:AWS VPC • ALB/NLB • Route 53 • Transit Gateway • Terraform • Kubernetes Networking • Service Mesh • Observability Tools",
+      "Hands-on experience with real production tools:AWS VPC • ALB/NLB • Route 53 • Terraform • Kubernetes Networking • Observability",
     image:
       "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/docker_terraform.webp",
     width: 305,
@@ -61,7 +61,7 @@ const highlightsData = [
     headingColor: "#583EDB",
     descColor: "#1C1C1C",
     description:
-      "Practice architecture walkthroughs, troubleshooting scenarios, and design interviews with expert feedback to sharpen your cloud networking & DevOps engineering readiness.",
+      "Practice architecture walkthroughs and troubleshooting scenarios.Get expert feedback to prepare for real cloud networking & DevOps interviews.",
     width: 260,
     height: 360,
     top: 44,

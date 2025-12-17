@@ -5,7 +5,7 @@ const highlightsData = [
     headingColor: "#873E18",
     descColor: "#525252",
     description:
-      "Build and operate cloud-native database solutions that power scalable applications — including backup automation, high-availability architectures, performance optimization, and smooth migrations used in real enterprises",
+      "Build and manage cloud-native databases powering scalable applications.Work on HA setups, backups, performance tuning, and enterprise migrations.",
     image: "",
     width: 550,
     height: 260,
@@ -23,7 +23,7 @@ const highlightsData = [
     headingColor: "#048C5D",
     descColor: "#1F4034",
     description:
-      "Work closely with database and cloud mentors who guide your real projects, help debug configurations, review design choices, and make sure your skills align with industry expectations and hiring standards",
+      "Work closely with database and cloud mentors on real projects.Get guidance on configs, design decisions, and industry-ready practices.",
     image: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Frame.webp",
     width: 330,
     height: 190,
@@ -42,7 +42,7 @@ const highlightsData = [
     headingColor: "#0071F2",
     descColor: "#1B1B1B",
     description:
-      "Get practical experience with the tools professionals use every day: AWS RDS • DynamoDB • Aurora • Terraform • DMS • Performance Insights • Monitoring & Backup Tools • CI/CD for Database Deployments.",
+      "Gain practical experience with tools used in production environments:AWS RDS • DynamoDB • Aurora • Terraform • DMS • Monitoring & CI/CD Tools",
     image:
       "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/docker_terraform.webp",
     width: 305,
@@ -61,7 +61,7 @@ const highlightsData = [
     headingColor: "#583EDB",
     descColor: "#1C1C1C",
     description:
-      "Practice troubleshooting, performance tuning, schema automation, and end-to-end database DevOps scenarios with expert review and feedback — sharpen your database engineering edge for interviews and live gigs.",
+      "Practice real database troubleshooting and DevOps workflows.Get expert feedback to sharpen interview and on-the-job readiness.",
     image:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/img-4.webp",
     width: 260,
