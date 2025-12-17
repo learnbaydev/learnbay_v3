@@ -1,0 +1,77 @@
+const highlightsData = [
+  {
+    tag: "CAREER / INDUSTRY VALUE",
+    heading: "WORK WITH REAL CLOUD NETWORKING ARCHITECTURES",
+    headingColor: "#873E18",
+    descColor: "#525252",
+    description:
+      "Design and operate production-grade cloud networks used by enterprises.Work with VPCs, hybrid connectivity, service mesh, and zero-trust architectures.",
+    image: "",
+    width: 550,
+    height: 260,
+    top: 150,
+    right: -72,
+    bg: "linear-gradient(111deg, #FFF 3.66%, #FFE6DA 98.21%)",
+    border: "#FE7A36",
+    shadow: "rgba(239, 163, 125, 0.28)",
+    tagColor: "#CA3942",
+    duaration: "4 weeks",
+  },
+  {
+    tag: "MENTORSHIP / GUIDANCE",
+    heading: "GET GUIDED BY CLOUD & DEVOPS NETWORK EXPERTS",
+    headingColor: "#048C5D",
+    descColor: "#1F4034",
+    description:
+      "Get 1-on-1 guidance from Cloud & DevOps mentors.Design architectures, debug traffic, and review configs to industry standards.",
+    image: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Frame.webp",
+    width: 330,
+    height: 190,
+    top: 171,
+    right: -96,
+    bg: "linear-gradient(111deg, #E6FFFA 3.66%, #DAFFEF 98.21%)",
+    border: "#17C37B",
+    shadow: "rgba(23, 195, 123, 0.28)",
+    tagColor: "#17C37B",
+    duaration: "4 weeks",
+  },
+
+  {
+    tag: "HANDS-ON TOOLS / SKILLS",
+    heading: "BUILD WITH CLOUD-NATIVE NETWORKING & DEVOPS TOOLS",
+    headingColor: "#0071F2",
+    descColor: "#1B1B1B",
+    description:
+      "Hands-on experience with real production tools:AWS VPC • ALB/NLB • Route 53 • Terraform • Kubernetes Networking • Observability",
+    image:
+      "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/docker_terraform.webp",
+    width: 305,
+    height: 200,
+    top: 160,
+    right: 32,
+    bg: "linear-gradient(111deg, #F0F5FF 3.66%, #DAE6FF 98.21%)",
+    border: "#4D4FCD",
+    shadow: "rgba(77, 79, 205, 0.28)",
+    tagColor: "#4D4FCD",
+    duaration: "3 weeks",
+  },
+  {
+    tag: "CAREER READINESS / INTERVIEW PREP",
+    heading: "BECOME JOB-READY WITH REAL-WORLD FEEDBACK",
+    headingColor: "#583EDB",
+    descColor: "#1C1C1C",
+    description:
+      "Practice architecture walkthroughs and troubleshooting scenarios.Get expert feedback to prepare for real cloud networking & DevOps interviews.",
+    width: 260,
+    height: 360,
+    top: 44,
+    right: -4,
+    bg: "linear-gradient(111deg, #F3EFFF 3.66%, #DDD5FF 98.21%)",
+    border: "#A259FF",
+    shadow: "rgba(162, 89, 255, 0.28)",
+    tagColor: "#A259FF",
+    duaration: "3 weeks",
+  },
+];
+
+export default highlightsData;

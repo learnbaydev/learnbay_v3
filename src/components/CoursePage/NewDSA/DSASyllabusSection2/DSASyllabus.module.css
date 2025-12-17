@@ -91,14 +91,14 @@
   align-items: center;
   align-items: center;
   justify-content: center;
-  padding: 7px 14px;
+  padding: 5px 8px;
   gap: 4px;
   border-color: #336ca8;
 }
 
 .elective p {
   color: #336ca8;
-  font-size: 15px;
+  font-size: 10px;
   /* font-style: normal; */
   font-weight: 500;
   /* line-height: 126.5%; */
