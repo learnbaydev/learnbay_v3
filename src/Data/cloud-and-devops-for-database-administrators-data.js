@@ -30,7 +30,7 @@ export const NewDSAData = [
             id: 2,
             img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/secondPoint.webp",
             imgAlt: "DSA Second Point",
-            text1: "Get certified directly by partnered startups.",
+            text1: "Get directly certified from Microsoft",
           },
         ],
         mentorText: "Earn Industry-Ready Certification from",
@@ -132,10 +132,10 @@ export const NewDSAData = [
         src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/toolnine.webp",
         alt: "Tool 1",
       },
-      {
-        src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/toolseven.webp",
-        alt: "Tool 2",
-      },
+      // {
+      //   src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/toolseven.webp",
+      //   alt: "Tool 2",
+      // },
       {
         src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/tools/aws-tools.webp",
         alt: "Tool 3",
@@ -422,7 +422,7 @@ export const NewDSAData = [
         height: 80,
         title: "TERM 8",
         toolsImg: "",
-        elective: "Elective",
+        elective: "Elective - 1",
         imageSizes: {
           vsm: { width: 40, height: 21 },
           sm: { width: 40, height: 23 },
