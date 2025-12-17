@@ -45,8 +45,8 @@ const LearningToPlacement = ({ time, guided }) => {
             </span>
             <div className={styles.logos}>
               <span>GitHub</span>
-              <span>OpenAI</span>
               <span>Python</span>
+              <span>Cloud Modules</span>
             </div>
           </div>
         </div>
@@ -54,18 +54,20 @@ const LearningToPlacement = ({ time, guided }) => {
         <div className={styles.mainGrid}>
           <div className={styles.left}>
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/3d_sign.webp"
-              width={140}
-              height={160}
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/micro_ss1.webp"
+              width={250}
+              height={90}
               alt="Flexible subscription"
               loading="lazy"
             />
             <p className={styles.pTag}>
-              <span className={styles.green}>3 Years</span> Flexible{" "}
-              <span className={styles.nor}>Subscription</span>
+              <span className={styles.green}>
+                Become a Microsoft-Certified IT Support & Ops{" "}
+              </span>{" "}
             </p>
             <span className={styles.learn}>
-              Learn at your pace with unlimited access.
+              Build practical IT skills and get Microsoft-certified for
+              real-world environments.
             </span>
           </div>
 
@@ -75,8 +77,9 @@ const LearningToPlacement = ({ time, guided }) => {
               <div className={styles.capRight}>
                 <h5>
                   <strong>
-                    Solve real AI/GenAI challenges from startups and add
-                    industry-certified projects to your portfolio.
+                    Gain hands-on experience by solving real IT support and
+                    operations problems, and showcase certified projects in your
+                    portfolio.
                   </strong>
                 </h5>
               </div>

@@ -6,8 +6,8 @@ import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/Updat
 import GenAIProject from "@/components/CoursePage/genAiProject/GenAIProject";
 import Newheader from "@/components/CoursePage/newHeaderCloudAndDevOps/newHeader";
 import NewTools from "@/components/CoursePage/newTools/NewTools";
-import AlumniCompanies from "@/components/CoursePage/newUICourse/AlumniCompanies";
-import LearningToPlacement from "@/components/CoursePage/newUICourse/LearningToPlacement/LearningToPlacement";
+import AlumniCompaniesCloudDevopsSA from "@/components/CoursePage/newUICourse/AluminiCompaniesCloudDevopsSA";
+import LearningToPlacementSA from "@/components/CoursePage/newUICourse/LearningToPlacementSA/LearningToPlacement";
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import Navbar from "@/components/Global/Navbar/Navbar";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
@@ -15,8 +15,9 @@ import dynamic from "next/dynamic";
 import Head from "next/head";
 import React from "react";
 import highlightsData from "@/Data/highlightsDataSA";
-const AnimationNew = dynamic(() =>
-  import("@/components/Home/whyChooseSection/whylblimited")
+import AlumniCompaniesCloudDevopsSystemAdministrator from "@/components/CoursePage/newUICourse/AluminiCompaniesCloudDevopsSA";
+const AnimationNew2 = dynamic(() =>
+  import("@/components/Home/whyChooseSection/whylblimitedSA")
 );
 const JobReadySection = dynamic(() =>
   import("@/components/CoursePage/NewDSA/JobReadySection/JobReadySection")
@@ -177,15 +178,15 @@ Cloud and DevOps master certification"
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
-        <AlumniCompanies
+        <AlumniCompaniesCloudDevopsSA
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud_and_Devops_Master_Certification.pdf"
           brochurePdf={pdfUrl}
         />
-        <LearningToPlacement time="380" guided="40" />
+        <LearningToPlacementSA time="150" guided="10" />
 
         <HighlightsAdminSection cloud={true} highlightsData={highlightsData} />
 
-        <AnimationNew />
+        <AnimationNew2 />
         <JobReadySection />
         <ReviewSlider idss="eautK0odE7Q" showRealStories={false} />
         <MentorsSection />
