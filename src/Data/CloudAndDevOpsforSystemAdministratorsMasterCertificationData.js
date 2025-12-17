@@ -445,7 +445,7 @@ export const NewDSAData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/DSA-systemDesign.webp",
         width: 80,
         height: 80,
-        title: "TERM 11",
+        title: "TERM 9",
         toolsImg:
           "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/gen-ai.webp",
         imageSizes: {
@@ -470,7 +470,7 @@ export const NewDSAData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/DSA-systemDesign.webp",
         width: 80,
         height: 80,
-        title: "TERM 12",
+        title: "TERM 10",
         toolsImg: "",
         elective: "Elective - 1",
         imageSizes: {
@@ -496,7 +496,7 @@ export const NewDSAData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/DSA-systemDesign.webp",
         width: 80,
         height: 80,
-        title: "TERM 13",
+        title: "TERM 11",
         toolsImg: "",
         elective: "Elective - 2",
         imageSizes: {
@@ -522,7 +522,7 @@ export const NewDSAData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/DSA-systemDesign.webp",
         width: 80,
         height: 80,
-        title: "TERM 14",
+        title: "TERM 12",
         toolsImg: "",
         elective: "Elective - 3",
         imageSizes: {
@@ -548,7 +548,7 @@ export const NewDSAData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/DSA-systemDesign.webp",
         width: 80,
         height: 80,
-        title: "TERM 15",
+        title: "TERM 13",
         toolsImg: "",
         elective: "Elective - 4",
         imageSizes: {
