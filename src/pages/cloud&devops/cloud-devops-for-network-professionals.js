@@ -177,7 +177,7 @@ Cloud and DevOps master certification"
           interstedInHide={true}
         />
         <AlumniCompaniesCloudDevopsNP
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-Network-Professionals.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-Network-Professionalslink.pdf"
           brochurePdf={pdfUrl}
         />
         <LearningToPlacementNP time="150" guided="10" />
