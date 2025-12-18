@@ -800,17 +800,87 @@ export const courses = {
   ],
 
   CloudDevops: [
+    // {
+    //   title: "Full Stack Software Development Master Certification",
+    //   duration: "12 Months",
+    //   certification: "Certification form IBM",
+    //   description: "Gen-AI for Software Developers",
+    //   image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/fullstack.webp",
+    //   link: "/fullstack/full-stack-software-development",
+    //   brochureLinks:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full_Stack_Software_Development_Master_Certification_Program.pdf",
+    //   brochurePdfs:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full_Stack_Software_Development_Master_Certification_Program_download.pdf",
+    // },
+
     {
-      title: "Full Stack Software Development Master Certification",
-      duration: "12 Months",
-      certification: "Certification form IBM",
-      description: "Gen-AI for Software Developers",
-      image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/fullstack.webp",
-      link: "/fullstack/full-stack-software-development",
+      title: "AI-Powered Cloud DevOps Engineering Master Certification",
+      duration: "8 months",
+      certification: "Project Certification form IBM and Microsoft",
+      description: "For Cloud Professionals",
+      image:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Master.webp",
+      link: "/cloud&devops/cloud-and-devops-for-system-administrators-master-certification",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full_Stack_Software_Development_Master_Certification_Program.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud_and_Devops_Master_Certification.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Full_Stack_Software_Development_Master_Certification_Program_download.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud_and_Devops_Master_Certification_download.pdf",
+    },
+
+    {
+      title: "Cloud & DevOps for Network Professionals",
+      duration: "5-6 months",
+      certification: "Project Certification form Microsoft",
+      description: "For Network Professionals",
+      image:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/NP.webp",
+      link: "/cloud&devops/cloud-devops-for-network-professionals",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-Network-Professionalslink.pdf",
+      brochurePdfs:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-Network-Professionals.pdf",
+    },
+
+    {
+      title: "Cloud & DevOps for System Administrators",
+      duration: "5-6 months",
+      certification: "Project Certification form Microsoft",
+      description: "For System Administrators",
+      image:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SA.webp",
+      link: "/cloud&devops/cloud-and-devOps-for-system-administrators",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-System-Admin-Professionalslink.pdf",
+      brochurePdfs:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-System-Admin-Professionals+.pdf",
+    },
+
+    {
+      title: "Cloud & DevOps for IT Support & IT Operations",
+      duration: "5-6 months",
+      certification: "Project Certification form Microsoft",
+      description: "For IT Support & IT Operations",
+      image:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ISIO.webp",
+      link: "/cloud&devops/cloud-and-devops-for-it-support-and-it-operations",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-ITS-%26-ITOps-Professionalslink.pdf",
+      brochurePdfs:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-ITS-%26-ITOps-Professionals.pdf",
+    },
+
+    {
+      title: "Cloud & DevOps for Database Administrators",
+      duration: "5-6 months",
+      certification: "Project Certification form Microsoft",
+      description: "For Database Administrators",
+      image:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA.webp",
+      link: "/cloud&devops/cloud-and-devops-for-database-administrators",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-DBA-Professionalslink.pdf",
+      brochurePdfs:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-DBA-Professionals.pdf",
     },
 
     // {
@@ -826,20 +896,20 @@ export const courses = {
     //   brochurePdfs:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/IIT+cloud+and+devops__.pdf",
     // },
-    {
-      title: "Cloud Computing & DevOps Certification Program",
-      duration: "6 months | 3 Project",
-      certification: "Global Certification",
-      description: "Designed by industry experts",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws.webp",
+    // {
+    //   title: "Cloud Computing & DevOps Certification Program",
+    //   duration: "6 months | 3 Project",
+    //   certification: "Global Certification",
+    //   description: "Designed by industry experts",
+    //   image:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws.webp",
 
-      link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf",
-      brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf",
-    },
+    //   link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+    //   brochureLinks:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf",
+    //   brochurePdfs:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf",
+    // },
 
     // {
     //   title: "Professional Certificate in AWS Cloud Computing & Devops",
