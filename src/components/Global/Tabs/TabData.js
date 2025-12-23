@@ -16,7 +16,7 @@ export const TabData = [
       //   url: "/datascience/generative-ai-course-for-manager",
       // },
       {
-        CName: "GenAI Professional Developer Certification With IBM",
+        CName: "GenAI & AgenticAI Master Certification For Professionals",
         hours: "4 Months",
         url: "/artificial-intelligence/genai-software-developers",
       },
@@ -24,6 +24,26 @@ export const TabData = [
         CName: "GenAI Professional Certification for Managers With IBM",
         hours: "4 Months",
         url: "/artificial-intelligence/generative-ai-for-managers",
+      },
+      {
+        CName: "Genai & AgenticAI For BFSI Professionals",
+        hours: "4 Months",
+        url: "/artificial-intelligence/generative-ai-for-bsfi-professionals",
+      },
+      {
+        CName: "GenAI & AgenticAI For Healthcare & Pharma",
+        hours: "4 Months",
+        url: "/artificial-intelligence/generative-ai-for-healthcare-and-pharma",
+      },
+      {
+        CName: "GenAI & AgenticAI For Automotive/Manufacturing",
+        hours: "4 Months",
+        url: "/artificial-intelligence/generative-ai-for-automotive-and-manufacturing",
+      },
+      {
+        CName: "GenAI & AgenticAI For Retail & supplychain",
+        hours: "4 Months",
+        url: "/artificial-intelligence/generative-ai-for-retail-and-supplychain",
       },
       {
         CName: "Applied AI Practitioner Program",

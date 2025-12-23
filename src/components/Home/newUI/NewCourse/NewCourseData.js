@@ -1026,7 +1026,7 @@ export const courses = {
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/IIT+cloud+and+devops__.pdf",
     // },
     {
-      title: "Generative AI and Agentic AI for Software Developers",
+      title: "GenAI & AgenticAI Master Certification For Professionals",
       duration: "4 months",
       certification: "Get certified in GenAI from IBM",
       description: "Designed for developers & IT pros",
@@ -1044,6 +1044,57 @@ export const courses = {
       description: "Designed for senior managers & leaders",
       image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/genaisw.webp",
       link: "/artificial-intelligence/generative-ai-for-managers",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressedv1.pdf",
+      brochurePdfs:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressed.pdf",
+    },
+    {
+      title: "Genai & AgenticAI For BFSI Professionals",
+      duration: "4 months",
+      certification: "Get certified in GenAI from IBM",
+      description: "Designed for senior managers & leaders",
+      image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/genaisw.webp",
+      link: "/artificial-intelligence/generative-ai-for-bsfi-professionals",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressedv1.pdf",
+      brochurePdfs:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressed.pdf",
+    },
+
+    {
+      title: "GenAI & AgenticAI For Healthcare & Pharma",
+      duration: "4 months",
+      certification: "Get certified in GenAI from IBM",
+      description: "Designed for senior managers & leaders",
+      image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/genaisw.webp",
+      link: "/artificial-intelligence/generative-ai-for-healthcare-pharma",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressedv1.pdf",
+      brochurePdfs:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressed.pdf",
+    },
+
+    {
+      title: "GenAI & AgenticAI For Automotive/Manufacturing",
+      duration: "4 months",
+      certification: "Get certified in GenAI from IBM",
+      description: "Designed for senior managers & leaders",
+      image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/genaisw.webp",
+      link: "/artificial-intelligence/generative-ai-for-automotive-manufacturing",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressedv1.pdf",
+      brochurePdfs:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressed.pdf",
+    },
+
+    {
+      title: "GenAI & AgenticAI For Retail & supplychain",
+      duration: "4 months",
+      certification: "Get certified in GenAI from IBM",
+      description: "Designed for senior managers & leaders",
+      image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/genaisw.webp",
+      link: "/artificial-intelligence/generative-ai-for-retail-supplychain",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressedv1.pdf",
       brochurePdfs:

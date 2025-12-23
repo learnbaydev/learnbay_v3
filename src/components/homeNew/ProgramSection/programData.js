@@ -3,7 +3,8 @@
 export const programCards = [
   {
     id: 1,
-    title: "Data Science and GenAI Master Certification Program",
+    title:
+      "Data Science and GenAI Master Certification Program for Working Professional",
     description:
       "Master GenAI Expertise and Build Industry-Ready Projects using LangChain and AgenticAI.",
     why: ["Learn Full stack data science & AI", "Master GenAI & AgenticAI"],

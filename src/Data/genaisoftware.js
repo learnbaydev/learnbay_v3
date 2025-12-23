@@ -4,8 +4,7 @@ export const NewDSAData = [
   {
     header: [
       {
-        spanTag:
-          "Supercharge your coding with hands-on training in GenAI and Agentic AI",
+        spanTag: "Integrated with AI Co-Lab Experience and BYOP",
         spanIcon:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
         title: [
@@ -17,7 +16,7 @@ export const NewDSAData = [
               "linear-gradient(90deg, #7eb6f9 0%, #d1a4e8 50%, #f78dc7 100%)",
           },
           {
-            text: "Certification For Working Professionals ",
+            text: "Master Certification for Professionals ",
             color: false,
           },
         ],
@@ -27,25 +26,24 @@ export const NewDSAData = [
             id: 1,
             img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/firstPoint.webp",
             imgAlt: "DSA First Point",
-            text1:
-              "Learn to integrate GenAI into your existing software stack.",
+            text1: "Work on Startup-driven GenAI & Agentic AI projects.",
           },
           {
             id: 2,
             img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/secondPoint.webp",
             imgAlt: "DSA Second Point",
-            text1: "Build Autonomous AI Agents",
+            text1: "Get directly certified from startups",
           },
         ],
         mentorText: "Earn Industry-Ready Certification from",
         mentorFromImg: [
-          // {
-          //   id: 1,
-          //   img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Google.webp",
-          //   imgAlt: "Google Logo",
-          //   width: "80",
-          //   height: "30",
-          // },
+          {
+            id: 1,
+            img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Microsoft.webp",
+            imgAlt: "Microsoft Logo",
+            width: "150",
+            height: "30",
+          },
           {
             id: 2,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
@@ -6822,17 +6820,13 @@ export const NewDSAData = [
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/build_ups.webp",
-          points: "AI Basics",
+          points: "GenAI and Agentic AI Master Certification",
           content: [
             {
               chap: {
-                title: "",
+                title: "Induction + Orientation",
                 desc: [
-                  "Introduction to Artificial Intelligence, Generative AI, and Agentic AI",
-                  "Difference between traditional AI systems and modern foundation models",
-                  "Industry overview and real-world AI use cases",
-                  "LinkedIn profile optimization for AI careers",
-                  "Hands-on introduction to Python using Google Colab",
+                  "All about AI, GenAI, Linkedin Optimization, How to use Python Colab",
                 ],
               },
             },
@@ -6845,7 +6839,7 @@ export const NewDSAData = [
       {
         Module1: {
           title: "Term 1 – Python for GenAI",
-          hours: "(70+ Hours)",
+          hours: "(2 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -6856,154 +6850,136 @@ export const NewDSAData = [
           content: [
             {
               chap: {
-                title: "Core Python Fundamentals",
+                title: "Core Python",
                 desc: [
-                  "Understanding variables and memory allocation",
-                  "Storing values in multiple data types",
-                  "Dynamic variable assignment and reassignment",
-                  "Python naming conventions for readable and maintainable code",
-                  "Numeric data types: int, float, complex",
-                  "Text handling using str and built-in string methods",
-                  "Collections: list, tuple, set, dictionary",
-                  "Mutable vs immutable data behavior and performance implications",
+                  "Variables",
+                  "Store values in various data types",
+                  "Dynamic assign / reassign variables",
+                  "Python naming conventions for maintainable code",
+                  "Numeric types: int, float, complex.",
+                  "Text handling using str and string methods.",
+                  "Collections: list, tuple, set, dict.",
+                  "Mutable vs immutable data behavior.",
                 ],
               },
             },
             {
               chap: {
-                title: "Loops & Iterations",
+                title: "Loops",
                 desc: [
-                  "Iteration using for and while loops",
-                  "Sequence traversal using range(), enumerate(), zip()",
-                  "Nested loops and iteration patterns",
-                  "Optimizing iterations for large-scale data processing tasks",
-                  "Loop optimization techniques for AI pipelines",
+                  "Iteration using for and while loops.",
+                  "Sequence traversal with range(), enumerate(), zip().",
+                  "Optimizing iterations for data processing tasks.",
                 ],
               },
             },
             {
               chap: {
-                title: "Control Statements & Decision Logic",
+                title: "Control Statements",
                 desc: [
-                  "Conditional logic using if, elif, else",
-                  "Comparison operators: ==, !=, <, >, <=, >=",
-                  "Logical operators: and, or, not",
-                  "Flow control using break and continue",
-                  "Building decision trees for real-world logic handling",
-                  "Designing rule-based decision systems",
+                  "Conditional logic using if, elif, else.",
+                  "Comparison operators (==, !=, <, >, <=, >=).",
+                  "Logical operators (and, or, not).",
+                  "Flow control using break, continue.",
+                  "Building decision trees for real-world logic handling.",
                 ],
               },
             },
             {
               chap: {
-                title: "Functions & Code Reusability",
+                title: "Functions",
                 desc: [
-                  "Creating reusable logic blocks using def and return",
-                  "Passing parameters using positional arguments",
-                  "Keyword arguments and default values",
-                  "Function scope and lifetime",
-                  "Anonymous functions using lambda",
-                  "Functional programming basics for data workflows",
+                  "Creating reusable logic blocks using def and return.",
+                  "Passing parameters using positional and keyword arguments.",
+                  "Anonymous function with Lambda",
                 ],
               },
             },
             {
               chap: {
-                title: "Advanced Python – File Handling",
+                title: "Advanced Python",
                 desc: [
-                  "Reading and writing files using open(), read(), write()",
-                  "Handling text files for preprocessing tasks",
-                  "Working with CSV and JSON files for data pipelines",
-                  "Efficient file processing techniques",
-                  "Working with file paths using os and pathlib",
-                  "Managing directory structures in production systems",
+                  "File Handling",
+                  "Reading and writing files using open(), read(), write().",
+                  "Handling text, CSV, and JSON files for data pipelines.",
+                  "Working with file paths using os and pathlib.",
                 ],
               },
             },
             {
               chap: {
-                title: "Regular Expressions (Regex)",
+                title: "Regex",
                 desc: [
-                  "Pattern matching using re.search(), re.findall(), re.sub()",
-                  "Text cleaning and extraction from logs, emails, documents",
-                  "Using regex tokens: \\d, \\w, +, *, ^, $, groups",
-                  "Building robust text preprocessing pipelines",
-                  "Regex performance considerations in large datasets",
+                  "Pattern matching using re.search(), re.findall(), re.sub().",
+                  "Cleaning and extracting text data from logs, emails, and documents.",
+                  "Using regex tokens: \\d, \\w, +, *, ^, $, groups.",
                 ],
               },
             },
             {
               chap: {
-                title: "Exception Handling & Reliability",
+                title: "Exceptional Handling",
                 desc: [
-                  "Handling runtime errors using try, except, finally",
-                  "Understanding common Python exceptions",
-                  "Raising and handling custom exceptions",
-                  "Preventing pipeline failures in production code",
-                  "Designing fault-tolerant AI systems",
+                  "Custom exceptions handling using try, except, finally.",
+                  "Common exceptions.",
+                  "Preventing pipeline failures in production code.",
                 ],
               },
             },
             {
               chap: {
-                title: "Object-Oriented Programming (OOP)",
+                title: "OOP’s",
                 desc: [
-                  "Creating classes and objects using class and __init__",
-                  "Instance variables vs class variables",
-                  "Defining methods and modeling object behavior",
-                  "Inheritance and method overriding",
-                  "Designing reusable and scalable code architectures",
-                  "OOP best practices for AI and GenAI systems",
+                  "Creating classes and objects using class and __init__.",
+                  "Instance variables vs class variables.",
+                  "Methods and object behavior modeling.",
+                  "Inheritance and method overriding.",
                 ],
               },
             },
             {
               chap: {
-                title: "NumPy for Numerical Computing",
+                title: "NumPy",
                 desc: [
-                  "Creating arrays using array(), arange(), linspace()",
-                  "Array indexing, slicing, reshaping",
-                  "Vectorized computations for performance optimization",
-                  "Mathematical functions: mean, sum, std, dot",
-                  "Broadcasting techniques",
-                  "Handling multi-dimensional data for ML workloads",
+                  "Creating arrays using array, arange, linspace.",
+                  "Array operations: indexing, slicing, reshaping.",
+                  "Vectorized computations for performance.",
+                  "Mathematical functions: mean, sum, std, dot.",
+                  "Broadcasting and handling multi-dimensional data.",
                 ],
               },
             },
             {
               chap: {
-                title: "Pandas for Data Processing",
+                title: "Pandas",
                 desc: [
-                  "Working with Series and DataFrame objects",
-                  "Reading data from CSV, Excel, and JSON files",
-                  "Data cleaning: handling missing values and duplicates",
-                  "Type casting and data normalization",
-                  "Filtering, sorting, and conditional selections",
-                  "Grouping and aggregation using groupby",
-                  "Feature preparation for ML and GenAI pipelines",
+                  "Working with Series and DataFrame.",
+                  "Reading data from CSV, Excel, JSON.",
+                  "Data cleaning: missing values, duplicates, type casting.",
+                  "Filtering, sorting, and conditional selections.",
+                  "Grouping and aggregation using groupby.",
+                  "Feature preparation for ML and GenAI pipelines.",
                 ],
               },
             },
             {
               chap: {
-                title: "Matplotlib for Visualization",
+                title: "Matplotlib",
                 desc: [
-                  "Creating line, bar, scatter, histogram plots",
-                  "Customizing labels, titles, legends, and axes",
-                  "Visualizing trends and distributions in datasets",
-                  "Designing plots for analysis and reporting",
+                  "Creating line, bar, scatter, histogram plots etc.",
+                  "Customizing labels, titles, legends, and axes.",
+                  "Visualizing trends and distributions in datasets.",
                 ],
               },
             },
             {
               chap: {
-                title: "Seaborn for Statistical Visualization",
+                title: "Seaborn",
                 desc: [
-                  "Creating statistical plots: boxplot, violinplot, countplot",
-                  "Relationship analysis using pairplot",
-                  "Correlation analysis using heatmaps",
-                  "Visualizing feature importance",
-                  "Styling plots for professional reports and dashboards",
+                  "Statistical plots: boxplot, violinplot, countplot.",
+                  "Relationship analysis using pairplot and heatmap.",
+                  "Visualizing correlations and feature importance.",
+                  "Styling plots for reports and dashboards.",
                 ],
               },
             },
@@ -7016,52 +6992,47 @@ export const NewDSAData = [
       {
         Module2: {
           title: "Term 2 – Foundation for GenAI",
-          hours: "(60+ Hours)",
+          hours: "(2 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "ML & NLP Foundations for GenAI",
+          points: "ML & NLP Foundations",
           content: [
             {
               chap: {
-                title: "Machine Learning Fundamentals",
+                title: "ML Fundamentals",
                 desc: [
-                  "Basics of Machine Learning and real-world relevance",
-                  "Supervised vs Unsupervised learning paradigms",
-                  "Features, labels, and dataset structuring",
-                  "Training, validation, and test datasets",
-                  "Bias–variance trade-off and model generalization",
-                  "Overfitting and underfitting with real examples",
-                  "End-to-end ML workflow used in industry projects",
+                  "Basic of ML",
+                  "Supervised vs Unsupervised learning paradigms.",
+                  "Features, labels, training, validation, and test sets.",
+                  "Bias–variance trade-off and model generalization.",
+                  "Overfitting and underfitting with real examples.",
+                  "End-to-end ML workflow used in industry projects.",
                 ],
               },
             },
             {
               chap: {
-                title: "Regression Analysis (With Project)",
+                title: "Regression Analysis + 1 project",
                 desc: [
-                  "Introduction to Linear Regression",
-                  "Assumptions of linear regression models",
-                  "Multiple regression with feature interactions",
-                  "Feature scaling and normalization",
-                  "Model evaluation using RMSE, MAE, and R² score",
-                  "Project: Solving a regression problem using real business data",
+                  "Linear Regression",
+                  "Multiple Regression with feature interactions.",
+                  "Model evaluation using RMSE, MAE, R² score.",
+                  "Project: Regression problem with real business data.",
                 ],
               },
             },
             {
               chap: {
-                title: "Classification Analysis (With Project)",
+                title: "Classification Analysis + 1 project",
                 desc: [
-                  "Logistic regression for binary classification",
-                  "Understanding decision boundaries",
-                  "Handling class imbalance using sampling techniques",
-                  "Evaluation metrics: Precision, Recall, F1-Score, ROC-AUC",
-                  "Confusion matrix interpretation",
-                  "Project: Classification problem with real business data",
+                  "Logistic Regression for binary classification.",
+                  "Handling class imbalance using sampling techniques.",
+                  "Evaluation metrics: Precision, Recall, F1-Score, ROC-AUC.",
+                  "Project: Classification problem with real business data.",
                 ],
               },
             },
@@ -7069,61 +7040,39 @@ export const NewDSAData = [
               chap: {
                 title: "Deep Learning Fundamentals",
                 desc: [
-                  "Introduction to neural networks",
-                  "Perceptron model and activation functions",
-                  "Backpropagation algorithm",
-                  "Gradient descent and optimization techniques",
-                  "Attention mechanism fundamentals",
-                  "Project: Neural network solution using real business data",
+                  "Perceptron",
+                  "Backpropagation and Optimization",
+                  "Attention Mechanism",
+                  "Project: Neural Network problem with real business data.",
                 ],
               },
             },
             {
               chap: {
-                title: "NLP Fundamentals for GenAI",
+                title: "NLP Fundamentals",
                 desc: [
-                  "Text preprocessing techniques for GenAI",
-                  "Tokenization, stop-word removal, and normalization",
-                  "Text embedding techniques overview",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Text Embedding Techniques",
-                desc: [
-                  "Bag-of-Words (BoW) representation",
-                  "TF-IDF vectorization technique",
-                  "Word2Vec architecture overview",
-                  "CBOW and Skip-Gram models",
-                  "Embedding comparison and use cases",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Core NLP Tasks",
-                desc: [
+                  "Text Pre-Processing for Gen AI",
+                  "Bag-of-Words representation.",
+                  "TF-IDF vectorization.",
+                  "Word2Vec: CBOW and Skip-Gram.",
                   "Named Entity Recognition (NER)",
-                  "Topic modeling concepts and use cases",
-                  "Latent Dirichlet Allocation (LDA)",
-                  "Latent Semantic Analysis / Techniques (LSA/LST)",
-                  "Part-of-Speech (POS) tagging",
-                  "NLP evaluation metrics and benchmarking",
+                  "Topic Modeling",
+                  "Latent Dirichlet Allocation (LDA).",
+                  "Latent Semantic Techniques (LSA/LST).",
+                  "Part-of-Speech Tagging (POS)",
+                  "NLP Evaluation Metrics",
                 ],
               },
             },
             {
               chap: {
-                title: "Transformers & BERT Model",
+                title: "Transformer – BERT Model",
                 desc: [
-                  "Transformer architecture overview",
-                  "Encoder–Decoder blocks",
-                  "Multi-head self-attention mechanism",
-                  "Positional encoding concepts",
-                  "BERT pre-training objectives: MLM and NSP",
-                  "Fine-tuning BERT for downstream NLP tasks",
-                  "Real-world use cases of BERT in production systems",
+                  "Transformer architecture: Encoder–Decoder blocks.",
+                  "Multi-head self-attention mechanism.",
+                  "Positional encoding concepts.",
+                  "BERT pre-training objectives: MLM and NSP.",
+                  "Use cases of BERT in real NLP systems.",
                 ],
               },
             },
@@ -7136,36 +7085,36 @@ export const NewDSAData = [
       {
         Module3: {
           title: "Term 3 – Generative AI",
-          hours: "(80+ Hours)",
+          hours: "(3 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Generative AI, LLMs & RAG",
+          points: "Generative AI & LLMs",
           content: [
             {
               chap: {
-                title: "Fundamentals of Generative AI",
+                title: "Fundamentals of GenAI",
                 desc: [
-                  "Difference between Predictive AI and Generative AI",
-                  "Generative modeling concepts and probability distributions",
-                  "Pre-training vs fine-tuning paradigms",
-                  "Foundation models and their role in modern AI systems",
+                  "Difference Between Predictive AI And Generative AI.",
+                  "Generative Modeling Concepts And Probability Distributions.",
+                  "Pre-training vs Fine-tuning Paradigms.",
+                  "Foundation Models And Their Role In Modern AI Systems.",
                 ],
               },
             },
             {
               chap: {
-                title: "GenAI Use Cases",
+                title: "Use cases",
                 desc: [
-                  "Text generation for chatbots and assistants",
-                  "Document summarization and report automation",
-                  "Code generation and developer productivity tools",
-                  "Content generation for marketing and media",
-                  "Knowledge assistants for enterprises",
-                  "Search augmentation and question answering systems",
+                  "Text Generation For Chatbots And Assistants.",
+                  "Document Summarization And Report Automation.",
+                  "Code Generation And Developer Productivity Tools.",
+                  "Content Generation For Marketing And Media.",
+                  "Knowledge Assistants For Enterprises.",
+                  "Search Augmentation And Question Answering Systems.",
                 ],
               },
             },
@@ -7173,167 +7122,24 @@ export const NewDSAData = [
               chap: {
                 title: "Prompt Engineering",
                 desc: [
-                  "Zero-shot, one-shot, and few-shot prompting",
-                  "Instruction-based prompt design",
-                  "Chain-of-thought prompting techniques",
-                  "Prompt templates and reusability",
-                  "Prompt evaluation and iterative optimization",
+                  "Zero-shot, One-shot, And Few-shot Prompting.",
+                  "Instruction-based Prompt Design.",
+                  "Chain-of-Thought Prompting Techniques.",
+                  "Prompt Templates And Reusability.",
+                  "Prompt Evaluation And Iterative Optimization.",
                 ],
               },
             },
             {
               chap: {
-                title: "Large Language Models (LLMs)",
+                title: "LLM",
                 desc: [
-                  "GPT family: GPT-3.5, GPT-4, GPT-4o",
-                  "LLaMA, Claude, and open-source LLM ecosystem",
-                  "Tokenization and context windows",
-                  "Inference parameters: temperature, top-p, max tokens",
-                  "Hallucinations and limitations of LLMs",
-                  "Cost and latency considerations in production",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Hugging Face Ecosystem",
-                desc: [
-                  "Transformers library for NLP and GenAI",
-                  "Pre-trained models hub and model cards",
-                  "Tokenizers and pipeline APIs",
-                  "Fine-tuning models using Hugging Face Trainer",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Retrieval Augmented Generation (RAG)",
-                desc: [
-                  "RAG architecture and working principles",
-                  "Embedding generation using OpenAI and Hugging Face models",
-                  "Chunking strategies for optimal retrieval",
-                  "Similarity search and distance metrics",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Vector Databases",
-                desc: [
-                  "Vector stores: FAISS, Pinecone, ChromaDB, Weaviate, Qdrant",
-                  "Indexing and querying vector databases",
-                  "Storing and retrieving embeddings efficiently",
-                  "Production considerations for vector search systems",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Multimodal RAG",
-                desc: [
-                  "Text + image retrieval pipelines",
-                  "Multimodal embeddings using CLIP and Vision Transformers",
-                  "Use cases in document and media search",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Graph RAG",
-                desc: [
-                  "Knowledge graph construction from documents",
-                  "Entity and relationship extraction",
-                  "Relationship-based retrieval over vector search",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "RAG Evaluation",
-                desc: [
-                  "Context precision and recall",
-                  "Answer faithfulness and groundedness",
-                  "Latency and cost evaluation",
-                  "Human-in-the-loop evaluation methods",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "LangChain & LlamaIndex",
-                desc: [
-                  "Prompt templates and output parsers",
-                  "Chains and sequential workflows",
-                  "Agents and tool calling",
-                  "Integration with vector databases and external APIs",
-                  "Embedding and storing documents in vector databases",
-                  "Retrieving relevant chunks based on user queries",
-                  "Formatting retrieved context for LLM responses",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Fine-Tuning LLMs",
-                desc: [
-                  "Full fine-tuning vs parameter-efficient fine-tuning (PEFT)",
-                  "LoRA and QLoRA techniques",
-                  "Instruction fine-tuning strategies",
-                  "Dataset preparation and remote labeling",
-                  "Overfitting risks and mitigation strategies",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Generative Models – GAN & VAE",
-                desc: [
-                  "Generative Adversarial Networks architecture",
-                  "Variational Autoencoders and latent space learning",
-                  "Use cases in image and data generation",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Diffusion Models & Stable Diffusion",
-                desc: [
-                  "Diffusion model fundamentals",
-                  "Text-to-image generation pipelines",
-                  "Prompt control and image conditioning",
-                  "Fine-tuning diffusion models using DreamBooth and LoRA",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Flux Framework",
-                desc: [
-                  "Image and creative generation workflows",
-                  "High-quality diffusion-based outputs",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "LLMOps",
-                desc: [
-                  "Model versioning and prompt version control",
-                  "Monitoring LLM outputs in production",
-                  "Cost tracking and optimization",
-                  "Evaluation pipelines for LLM applications",
-                  "Deployment strategies for GenAI systems",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Azure OpenAI",
-                desc: [
-                  "Azure OpenAI service architecture",
-                  "Model deployment and endpoint management",
-                  "Enterprise security and compliance",
-                  "Integrating Azure OpenAI with applications",
+                  "GPT Family (GPT-3.5, GPT-4, GPT-4o).",
+                  "LLaMA, Claude and Open-Source LLM Ecosystem.",
+                  "Tokenization and Context Windows.",
+                  "Inference Parameters: Temperature, Top-p, Max Tokens.",
+                  "Hallucination And Limitations Of LLMs.",
+                  "Cost And Latency Considerations In Production.",
                 ],
               },
             },
@@ -7341,9 +7147,9 @@ export const NewDSAData = [
               chap: {
                 title: "Projects",
                 desc: [
-                  "End-to-end RAG-based knowledge assistant",
-                  "LLM-powered chatbot with memory and tools",
-                  "GenAI application deployed on cloud",
+                  "End-to-End RAG-Based Knowledge Assistant.",
+                  "LLM-Powered Chatbot With Memory And Tools.",
+                  "GenAI Application Deployed On Cloud.",
                 ],
               },
             },
@@ -7356,7 +7162,7 @@ export const NewDSAData = [
       {
         Module4: {
           title: "Term 4 – Agentic AI",
-          hours: "(70+ Hours)",
+          hours: "(1.5 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -7369,102 +7175,23 @@ export const NewDSAData = [
               chap: {
                 title: "Understanding Agentic AI",
                 desc: [
-                  "Difference between LLM applications and agent-based systems",
-                  "Autonomous decision-making and goal-oriented agents",
-                  "Single-agent vs multi-agent architectures",
-                  "Agentic AI use cases in enterprise automation",
+                  "Difference Between LLM Applications And Agent-Based Systems.",
+                  "Autonomous Decision-Making And Goal-Oriented Agents.",
+                  "Single-Agent vs Multi-Agent Architectures.",
+                  "Agentic AI Use Cases In Enterprise Automation.",
                 ],
               },
             },
             {
               chap: {
-                title: "Core Components of Agentic AI",
+                title: "Key components of Agentic AI",
                 desc: [
-                  "Agent roles, goals, and task decomposition",
-                  "Planning, reasoning, and execution loops",
-                  "Tool calling and external system integration",
-                  "Memory types: short-term, long-term, and episodic memory",
-                  "Feedback loops and self-reflection mechanisms",
-                  "Failure handling and recovery strategies",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "AutoGen Framework",
-                desc: [
-                  "Multi-agent conversation design",
-                  "Role-based agent collaboration",
-                  "Task delegation and message passing",
-                  "Use cases for autonomous workflows",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "CrewAI Framework",
-                desc: [
-                  "Team-based agent orchestration",
-                  "Role assignment and hierarchical agents",
-                  "Workflow automation using crews",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "LangGraph",
-                desc: [
-                  "State-based agent workflows",
-                  "Directed graph execution for agents",
-                  "Conditional routing and branching logic",
-                  "Multi-step planning and execution graphs",
-                  "Error handling and retry mechanisms",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Agent Communication Protocols",
-                desc: [
-                  "Model Context Protocol (MCP) fundamentals",
-                  "Agent Communication Protocol (ACP)",
-                  "Agent-to-Agent (A2A) interaction patterns",
-                  "Context sharing across distributed agents",
-                  "Secure context exchange between models",
-                  "Enterprise interoperability standards for agents",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Ethics & Safety in Agentic AI",
-                desc: [
-                  "Autonomous agent risk assessment",
-                  "Bias, hallucination, and decision transparency",
-                  "Human-in-the-loop control mechanisms",
-                  "Compliance and responsible AI guidelines",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "GuardRails for Agents",
-                desc: [
-                  "Input and output validation",
-                  "Policy enforcement and rule-based constraints",
-                  "Monitoring agent actions in production",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "AWS Bedrock for Agentic AI",
-                desc: [
-                  "Foundation models available in AWS Bedrock",
-                  "Building agents using Bedrock APIs",
-                  "Tool invocation and workflow automation",
-                  "Security, IAM, and enterprise controls",
-                  "Integrating Bedrock with AWS services",
+                  "Agent Roles, Goals, And Task Decomposition.",
+                  "Planning, Reasoning, And Execution Loops.",
+                  "Tool Calling And External System Integration.",
+                  "Memory Types: Short-Term, Long-Term, And Episodic Memory.",
+                  "Feedback Loops And Self-Reflection Mechanisms.",
+                  "Failure Handling And Recovery Strategies.",
                 ],
               },
             },
@@ -7472,10 +7199,10 @@ export const NewDSAData = [
               chap: {
                 title: "Projects",
                 desc: [
-                  "Multi-agent AI system for task automation",
-                  "Autonomous research and report generation agent",
-                  "Agent-based RAG system with decision logic",
-                  "Production-ready agent deployment on cloud",
+                  "Multi-Agent AI System For Task Automation.",
+                  "Autonomous Research And Report Generation Agent.",
+                  "Agent-Based RAG System With Decision Logic.",
+                  "Production-Ready Agent Deployment On Cloud.",
                 ],
               },
             },
