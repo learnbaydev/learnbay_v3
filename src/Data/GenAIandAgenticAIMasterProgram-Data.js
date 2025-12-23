@@ -6361,24 +6361,474 @@ export const NewDSAData = [
 
       // Add more data as needed
     ],
+    // masterSyllabusMobile: [
+    //   {
+    //     Module0: {
+    //       title: "Topic 1 :- Fundamentals of Generative AI",
+    //       hours: "(5 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
+    //       StartImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/build_ups.webp",
+    //       points: "Why Programming",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Overview of generative models and their real-world applications, highlighting differences from traditional AI.",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 0,
+    //       open: true,
+    //     },
+    //   },
+    //   {
+    //     Module0: {
+    //       title:
+    //         "Topic 2 :- Use Cases of GenAI in Various Industries and Domains",
+    //       hours: "(5 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+    //       StartImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+    //       points: "Functions & Recursion",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Finance: Fraud detection, automated report generation, and investment insights.",
+    //               "Healthcare: Drug discovery, medical image analysis, and personalized treatment,",
+    //               "Retail and E-commerce: Personalized recommendations, inventory",
+    //             ],
+    //           },
+    //         },
+
+    //         // {
+    //         //   chap: {
+    //         //     title: "Module 10 :- STL - 1",
+    //         //     desc: [
+    //         //       "Collections (Standard Template Library)",
+    //         //       "Vector",
+    //         //       "Set",
+    //         //       "Iterator",
+    //         //     ],
+    //         //   },
+    //         // },
+    //         // {
+    //         //   chap: {
+    //         //     title: "Module 11 :- STL - 2",
+    //         //     desc: [
+    //         //       "Collections (Standard Template Library)",
+    //         //       "Map",
+    //         //       "Iterator",
+    //         //     ],
+    //         //   },
+    //         // },
+    //         // {
+    //         //   chap: {
+    //         //     title: "Module 12 :- STL - 3",
+    //         //     desc: [
+    //         //       "Collections (Standard Template Library)",
+    //         //       "STL functions - Lower Bound",
+    //         //       "STL functions upperbound",
+    //         //       "Sort",
+    //         //     ],
+    //         //   },
+    //         // },
+    //       ],
+    //       id: 1,
+    //       open: false,
+    //     },
+    //   },
+    //   {
+    //     Module0: {
+    //       title: "Topic 3 :- Deep Learning Foundations for GenAI",
+    //       hours: "(5 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellows.webp",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_downs.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/hash_ups.webp",
+    //       points: "DBMS",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Neural networks and deep learning basics, Backpropagation and optimization techniques",
+    //               "Overview of popular deep learning frameworks (TensorFlow, PyTorch).",
+    //               "Hands-on Project: Build a basic image classifier using CNNs ",
+    //               "with TensorFlow or PyTorch, applying optimization techniques learned.",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 2,
+    //       open: false,
+    //     },
+    //   },
+    //   {
+    //     Module0: {
+    //       title: "Topic 4 :- Prompt Engineering and optimisation",
+    //       hours: "(5 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/hash_rounds.webp",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/hash_downs.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/deployment-color-ups.webp",
+    //       points: "Introduction to System Design",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "Overview of System Design",
+    //             desc: [
+    //               "Strategies for crafting effective prompts to optimize AI responses and improve user interaction",
+    //               "Techniques for prompt optimization and prompt chaining. ",
+    //               "Building Blocks of System Design: Introduction to core components like databases, servers, clients, APIs, and message queues.",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 3,
+    //       open: false,
+    //     },
+    //   },
+
+    //   {
+    //     Module0: {
+    //       title: "Topic 5 :- Transformers and Attention Mechanisms",
+    //       hours: "(5 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/deployment-colors.webp",
+    //       StartImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/deployment-color-downs.webp",
+    //       endImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/world-ups.webp",
+    //       points: "MERN (Full-Stack Specialization)",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Introduction to transformers and self-attention, BERT, GPT, and other transformer-based architectures, Hands-on exercise: Fine-tuning a transformer model for text generation.",
+    //               "Hands-on Project: Fine-tune a transformer model on a custom text dataset for a text classification or summarization task.",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 4,
+    //       open: false,
+    //     },
+    //   },
+    //   {
+    //     Module0: {
+    //       title: "Topic 6 :- Large Language Models (LLMs)",
+    //       hours: "(5 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/world-rounds.webp",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/world-downs.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/chat-ups.webp",
+    //       points: "Deep Learning",
+    //       points1: "(NLP)",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Overview of LLMs like GPT-3, ChatGPT, and LLaMA Fine-tuning LLMs for specific use cases, Applications in chatbots, summarization, and sentiment analysis.",
+    //               "Hands-on exercise: Design and deploy a conversational AI model that simulates a customer service assistant for a chosen domain (e.g., retail or tech support).",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 5,
+    //       open: false,
+    //     },
+    //   },
+
+    //   {
+    //     Module0: {
+    //       title: "Topic 7 :- Integration of OpenAI APIs",
+    //       hours: "(5 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/chat-rounds.webp",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/chat-downs.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/new-ups.webp",
+    //       points: "Deep Learning",
+    //       points1: "(NLP)",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Techniques for effectively integrating OpenAI APIs, including authentication and best practices for data handling. Rate limits and error handling.",
+    //               "Hands-on Project: Develop a web app that uses OpenAI’s API for content generation based on user inputs, including authentication and error handling.",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 6,
+    //       open: false,
+    //     },
+    //   },
+    //   {
+    //     Module0: {
+    //       title: "Topic 8 :- Building Applications with LangChain",
+    //       hours: "(5 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/new-rounds.webp",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/new-downs.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-up.webp",
+    //       points: "Deep Learning",
+    //       points1: "(NLP)",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Overview of LangChain’s functionality for large language models.",
+    //               "Chain concepts: sequential, memory, and conditional chains, Creating custom prompts and workflows.",
+    //               "Hands-on Project: Personalized Financial Advice - Based on customer profiles (age, income, risk appetite), offer tailored financial advice or investment recommendations.",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 7,
+    //       open: false,
+    //     },
+    //   },
+
+    //   {
+    //     Module0: {
+    //       title: "Topic 9 :- Utilizing Hugging Face",
+    //       hours: "(5 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-round.webp",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-down.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/mix-up.webp",
+    //       points: "Deep Learning",
+    //       points1: "(NLP)",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Accessing and deploying Hugging Face pre-trained models, Fine- tuning models on custom datasets, Using Hugging Face’s pipelines for rapid deployment, Introduction to Hugging Face's Model Hub and Transformers library.",
+    //               "Hands-on Project: Fine-tune a Hugging Face model for a sentiment analysis task and deploy it using the Hugging Face API.",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 8,
+    //       open: false,
+    //     },
+    //   },
+
+    //   {
+    //     Module0: {
+    //       title: "Topic 10 :- GANs (Generative Adversarial Networks)",
+    //       hours: "(5 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/mix-round.webp ",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/mix-down.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/slice-ups.webp",
+    //       points: "Deep Learning",
+    //       points1: "(NLP)",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Fundamentals of GANs and their components (Generator and Discriminator).",
+    //               "Variants of GANs (DCGAN, StyleGAN, CycleGAN). Applications of GANs in image synthesis, art creation, and more.",
+    //               "Hands-on exercise: Building a simple GAN for image generation.",
+    //               "Hands-on Project: Build and train a DCGAN to generate new images from a specific dataset, such as handwritten digits or facial images.",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 9,
+    //       open: false,
+    //     },
+    //   },
+
+    //   {
+    //     Module0: {
+    //       title: "Topic 11 :- Variational Autoencoders (VAEs)",
+    //       hours: "(6 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/slice-rounds.webp",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/slice-downs.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lap-ups.webp",
+    //       points: "Deep Learning",
+    //       points1: "(NLP)",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Introduction to VAEs and their architecture Comparison of VAEs with GANs, Applications in anomaly detection and data compression.",
+    //               "Hands-on exercise: Building a VAE for image reconstruction.",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 10,
+    //       open: false,
+    //     },
+    //   },
+
+    //   {
+    //     Module0: {
+    //       title: "Topic 12 :- Retrieval-Augmented Generation (RAG)",
+    //       hours: "(6 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lap-rounds.webp",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lap-downs.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/flow-ups.webp",
+    //       points: "Deep Learning",
+    //       points1: "(NLP)",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Introduction to RAG.",
+    //               "How RAG combines generative and retrieval-based techniques, Implementing a basic RAG model for a knowledge-based task.",
+    //               "Hands-on Project: Build a RAG-based FAQ Assistant to answer customer questions by retrieving information from a domain-specific FAQ dataset, merging retrieval and generation for clear, concise responses",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 11,
+    //       open: false,
+    //     },
+    //   },
+    //   {
+    //     Module0: {
+    //       title: "Topic 13 :- Model Deployment for Generative AI",
+    //       hours: "(6 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/flow-rounds.webp",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/flow-downs.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lazy-ups.webp",
+    //       points: "Deep Learning",
+    //       points1: "(NLP)",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Overview of model deployment techniques.",
+    //               "Best practices for deploying generative models in production.",
+    //               "Setting up APIs and scaling model infrastructure.",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 12,
+    //       open: false,
+    //     },
+    //   },
+    //   {
+    //     Module0: {
+    //       title: "Topic 14 :- GenAI Copilot Tools for Coding",
+    //       hours: "(6 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lazy-rounds.webp",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lazy-downs.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-ups.webp",
+    //       points: "Deep Learning",
+    //       points1: "(NLP)",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Overview of GenAI Copilot tools and their applications in coding.",
+    //               "Hands-on with GitHub Copilot, Tebnine, Amazon CodeWhisperer, Replit Ghostwriter, Codex (OpenAI)",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 13,
+    //       open: false,
+    //     },
+    //   },
+    //   {
+    //     Module0: {
+    //       title: "Topic 15 :- Ethical Considerations in AI",
+    //       hours: "(6 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-rounds.webp",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-downs.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-ups.webp",
+    //       points: "Deep Learning",
+    //       points1: "(NLP)",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Discussion of ethical issues in AI, including bias, privacy, and responsible usage in development.",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 14,
+    //       open: false,
+    //     },
+    //   },
+    // ],
+
     masterSyllabusMobile: [
       {
         Module0: {
-          title: "Topic 1 :- Fundamentals of Generative AI",
-          hours: "(5 Hours)",
+          title: "Induction & Orientation – AI Foundations",
+          hours: "(3 Days)",
           imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp",
           StartImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/build_ups.webp",
-          points: "Why Programming",
+          points: "GenAI and Agentic AI Master Certification",
           content: [
             {
               chap: {
-                title: "",
+                title: "Induction + Orientation",
                 desc: [
-                  "Overview of generative models and their real-world applications, highlighting differences from traditional AI.",
+                  "All about AI, GenAI, Linkedin Optimization, How to use Python Colab",
                 ],
               },
             },
@@ -6387,87 +6837,244 @@ export const NewDSAData = [
           open: true,
         },
       },
+
       {
-        Module0: {
-          title:
-            "Topic 2 :- Use Cases of GenAI in Various Industries and Domains",
-          hours: "(5 Hours)",
+        Module1: {
+          title: "Term 1 – Python for GenAI",
+          hours: "(2 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Functions & Recursion",
+          points: "Python for GenAI",
           content: [
             {
               chap: {
-                title: "",
+                title: "Core Python",
                 desc: [
-                  "Finance: Fraud detection, automated report generation, and investment insights.",
-                  "Healthcare: Drug discovery, medical image analysis, and personalized treatment,",
-                  "Retail and E-commerce: Personalized recommendations, inventory",
+                  "Variables",
+                  "Store values in various data types",
+                  "Dynamic assign / reassign variables",
+                  "Python naming conventions for maintainable code",
+                  "Numeric types: int, float, complex.",
+                  "Text handling using str and string methods.",
+                  "Collections: list, tuple, set, dict.",
+                  "Mutable vs immutable data behavior.",
                 ],
               },
             },
-
-            // {
-            //   chap: {
-            //     title: "Module 10 :- STL - 1",
-            //     desc: [
-            //       "Collections (Standard Template Library)",
-            //       "Vector",
-            //       "Set",
-            //       "Iterator",
-            //     ],
-            //   },
-            // },
-            // {
-            //   chap: {
-            //     title: "Module 11 :- STL - 2",
-            //     desc: [
-            //       "Collections (Standard Template Library)",
-            //       "Map",
-            //       "Iterator",
-            //     ],
-            //   },
-            // },
-            // {
-            //   chap: {
-            //     title: "Module 12 :- STL - 3",
-            //     desc: [
-            //       "Collections (Standard Template Library)",
-            //       "STL functions - Lower Bound",
-            //       "STL functions upperbound",
-            //       "Sort",
-            //     ],
-            //   },
-            // },
+            {
+              chap: {
+                title: "Loops",
+                desc: [
+                  "Iteration using for and while loops.",
+                  "Sequence traversal with range(), enumerate(), zip().",
+                  "Optimizing iterations for data processing tasks.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Control Statements",
+                desc: [
+                  "Conditional logic using if, elif, else.",
+                  "Comparison operators (==, !=, <, >, <=, >=).",
+                  "Logical operators (and, or, not).",
+                  "Flow control using break, continue.",
+                  "Building decision trees for real-world logic handling.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Functions",
+                desc: [
+                  "Creating reusable logic blocks using def and return.",
+                  "Passing parameters using positional and keyword arguments.",
+                  "Anonymous function with Lambda",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Advanced Python",
+                desc: [
+                  "File Handling",
+                  "Reading and writing files using open(), read(), write().",
+                  "Handling text, CSV, and JSON files for data pipelines.",
+                  "Working with file paths using os and pathlib.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Regex",
+                desc: [
+                  "Pattern matching using re.search(), re.findall(), re.sub().",
+                  "Cleaning and extracting text data from logs, emails, and documents.",
+                  "Using regex tokens: \\d, \\w, +, *, ^, $, groups.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Exceptional Handling",
+                desc: [
+                  "Custom exceptions handling using try, except, finally.",
+                  "Common exceptions.",
+                  "Preventing pipeline failures in production code.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "OOP’s",
+                desc: [
+                  "Creating classes and objects using class and __init__.",
+                  "Instance variables vs class variables.",
+                  "Methods and object behavior modeling.",
+                  "Inheritance and method overriding.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "NumPy",
+                desc: [
+                  "Creating arrays using array, arange, linspace.",
+                  "Array operations: indexing, slicing, reshaping.",
+                  "Vectorized computations for performance.",
+                  "Mathematical functions: mean, sum, std, dot.",
+                  "Broadcasting and handling multi-dimensional data.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Pandas",
+                desc: [
+                  "Working with Series and DataFrame.",
+                  "Reading data from CSV, Excel, JSON.",
+                  "Data cleaning: missing values, duplicates, type casting.",
+                  "Filtering, sorting, and conditional selections.",
+                  "Grouping and aggregation using groupby.",
+                  "Feature preparation for ML and GenAI pipelines.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Matplotlib",
+                desc: [
+                  "Creating line, bar, scatter, histogram plots etc.",
+                  "Customizing labels, titles, legends, and axes.",
+                  "Visualizing trends and distributions in datasets.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Seaborn",
+                desc: [
+                  "Statistical plots: boxplot, violinplot, countplot.",
+                  "Relationship analysis using pairplot and heatmap.",
+                  "Visualizing correlations and feature importance.",
+                  "Styling plots for reports and dashboards.",
+                ],
+              },
+            },
           ],
           id: 1,
           open: false,
         },
       },
+
       {
-        Module0: {
-          title: "Topic 3 :- Deep Learning Foundations for GenAI",
-          hours: "(5 Hours)",
+        Module2: {
+          title: "Term 2 – Foundation for GenAI",
+          hours: "(2 Months)",
           imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellows.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
-            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_downs.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
           endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/hash_ups.webp",
-          points: "DBMS",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "ML & NLP Foundations",
           content: [
             {
               chap: {
-                title: "",
+                title: "ML Fundamentals",
                 desc: [
-                  "Neural networks and deep learning basics, Backpropagation and optimization techniques",
-                  "Overview of popular deep learning frameworks (TensorFlow, PyTorch).",
-                  "Hands-on Project: Build a basic image classifier using CNNs ",
-                  "with TensorFlow or PyTorch, applying optimization techniques learned.",
+                  "Basic of ML",
+                  "Supervised vs Unsupervised learning paradigms.",
+                  "Features, labels, training, validation, and test sets.",
+                  "Bias–variance trade-off and model generalization.",
+                  "Overfitting and underfitting with real examples.",
+                  "End-to-end ML workflow used in industry projects.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Regression Analysis + 1 project",
+                desc: [
+                  "Linear Regression",
+                  "Multiple Regression with feature interactions.",
+                  "Model evaluation using RMSE, MAE, R² score.",
+                  "Project: Regression problem with real business data.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Classification Analysis + 1 project",
+                desc: [
+                  "Logistic Regression for binary classification.",
+                  "Handling class imbalance using sampling techniques.",
+                  "Evaluation metrics: Precision, Recall, F1-Score, ROC-AUC.",
+                  "Project: Classification problem with real business data.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Deep Learning Fundamentals",
+                desc: [
+                  "Perceptron",
+                  "Backpropagation and Optimization",
+                  "Attention Mechanism",
+                  "Project: Neural Network problem with real business data.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "NLP Fundamentals",
+                desc: [
+                  "Text Pre-Processing for Gen AI",
+                  "Bag-of-Words representation.",
+                  "TF-IDF vectorization.",
+                  "Word2Vec: CBOW and Skip-Gram.",
+                  "Named Entity Recognition (NER)",
+                  "Topic Modeling",
+                  "Latent Dirichlet Allocation (LDA).",
+                  "Latent Semantic Techniques (LSA/LST).",
+                  "Part-of-Speech Tagging (POS)",
+                  "NLP Evaluation Metrics",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Transformer – BERT Model",
+                desc: [
+                  "Transformer architecture: Encoder–Decoder blocks.",
+                  "Multi-head self-attention mechanism.",
+                  "Positional encoding concepts.",
+                  "BERT pre-training objectives: MLM and NSP.",
+                  "Use cases of BERT in real NLP systems.",
                 ],
               },
             },
@@ -6476,25 +7083,75 @@ export const NewDSAData = [
           open: false,
         },
       },
+
       {
-        Module0: {
-          title: "Topic 4 :- Prompt Engineering and optimisation",
-          hours: "(5 Hours)",
+        Module3: {
+          title: "Term 3 – Generative AI",
+          hours: "(3 Months)",
           imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/hash_rounds.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
-            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/hash_downs.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
           endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/deployment-color-ups.webp",
-          points: "Introduction to System Design",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Generative AI & LLMs",
           content: [
             {
               chap: {
-                title: "Overview of System Design",
+                title: "Fundamentals of GenAI",
                 desc: [
-                  "Strategies for crafting effective prompts to optimize AI responses and improve user interaction",
-                  "Techniques for prompt optimization and prompt chaining. ",
-                  "Building Blocks of System Design: Introduction to core components like databases, servers, clients, APIs, and message queues.",
+                  "Difference Between Predictive AI And Generative AI.",
+                  "Generative Modeling Concepts And Probability Distributions.",
+                  "Pre-training vs Fine-tuning Paradigms.",
+                  "Foundation Models And Their Role In Modern AI Systems.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Use cases",
+                desc: [
+                  "Text Generation For Chatbots And Assistants.",
+                  "Document Summarization And Report Automation.",
+                  "Code Generation And Developer Productivity Tools.",
+                  "Content Generation For Marketing And Media.",
+                  "Knowledge Assistants For Enterprises.",
+                  "Search Augmentation And Question Answering Systems.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Prompt Engineering",
+                desc: [
+                  "Zero-shot, One-shot, And Few-shot Prompting.",
+                  "Instruction-based Prompt Design.",
+                  "Chain-of-Thought Prompting Techniques.",
+                  "Prompt Templates And Reusability.",
+                  "Prompt Evaluation And Iterative Optimization.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "LLM",
+                desc: [
+                  "GPT Family (GPT-3.5, GPT-4, GPT-4o).",
+                  "LLaMA, Claude and Open-Source LLM Ecosystem.",
+                  "Tokenization and Context Windows.",
+                  "Inference Parameters: Temperature, Top-p, Max Tokens.",
+                  "Hallucination And Limitations Of LLMs.",
+                  "Cost And Latency Considerations In Production.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Projects",
+                desc: [
+                  "End-to-End RAG-Based Knowledge Assistant.",
+                  "LLM-Powered Chatbot With Memory And Tools.",
+                  "GenAI Application Deployed On Cloud.",
                 ],
               },
             },
@@ -6505,23 +7162,49 @@ export const NewDSAData = [
       },
 
       {
-        Module0: {
-          title: "Topic 5 :- Transformers and Attention Mechanisms",
-          hours: "(5 Hours)",
+        Module4: {
+          title: "Term 4 – Agentic AI",
+          hours: "(1.5 Months)",
           imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/deployment-colors.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/deployment-color-downs.webp",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
           endImageUrl:
-            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/world-ups.webp",
-          points: "MERN (Full-Stack Specialization)",
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Agentic AI & Autonomous Systems",
           content: [
             {
               chap: {
-                title: "",
+                title: "Understanding Agentic AI",
                 desc: [
-                  "Introduction to transformers and self-attention, BERT, GPT, and other transformer-based architectures, Hands-on exercise: Fine-tuning a transformer model for text generation.",
-                  "Hands-on Project: Fine-tune a transformer model on a custom text dataset for a text classification or summarization task.",
+                  "Difference Between LLM Applications And Agent-Based Systems.",
+                  "Autonomous Decision-Making And Goal-Oriented Agents.",
+                  "Single-Agent vs Multi-Agent Architectures.",
+                  "Agentic AI Use Cases In Enterprise Automation.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Key components of Agentic AI",
+                desc: [
+                  "Agent Roles, Goals, And Task Decomposition.",
+                  "Planning, Reasoning, And Execution Loops.",
+                  "Tool Calling And External System Integration.",
+                  "Memory Types: Short-Term, Long-Term, And Episodic Memory.",
+                  "Feedback Loops And Self-Reflection Mechanisms.",
+                  "Failure Handling And Recovery Strategies.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Projects",
+                desc: [
+                  "Multi-Agent AI System For Task Automation.",
+                  "Autonomous Research And Report Generation Agent.",
+                  "Agent-Based RAG System With Decision Logic.",
+                  "Production-Ready Agent Deployment On Cloud.",
                 ],
               },
             },
@@ -6530,286 +7213,8 @@ export const NewDSAData = [
           open: false,
         },
       },
-      {
-        Module0: {
-          title: "Topic 6 :- Large Language Models (LLMs)",
-          hours: "(5 Hours)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/world-rounds.webp",
-          StartImageUrl:
-            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/world-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/chat-ups.webp",
-          points: "Deep Learning",
-          points1: "(NLP)",
-          content: [
-            {
-              chap: {
-                title: "",
-                desc: [
-                  "Overview of LLMs like GPT-3, ChatGPT, and LLaMA Fine-tuning LLMs for specific use cases, Applications in chatbots, summarization, and sentiment analysis.",
-                  "Hands-on exercise: Design and deploy a conversational AI model that simulates a customer service assistant for a chosen domain (e.g., retail or tech support).",
-                ],
-              },
-            },
-          ],
-          id: 5,
-          open: false,
-        },
-      },
-
-      {
-        Module0: {
-          title: "Topic 7 :- Integration of OpenAI APIs",
-          hours: "(5 Hours)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/chat-rounds.webp",
-          StartImageUrl:
-            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/chat-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/new-ups.webp",
-          points: "Deep Learning",
-          points1: "(NLP)",
-          content: [
-            {
-              chap: {
-                title: "",
-                desc: [
-                  "Techniques for effectively integrating OpenAI APIs, including authentication and best practices for data handling. Rate limits and error handling.",
-                  "Hands-on Project: Develop a web app that uses OpenAI’s API for content generation based on user inputs, including authentication and error handling.",
-                ],
-              },
-            },
-          ],
-          id: 6,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "Topic 8 :- Building Applications with LangChain",
-          hours: "(5 Hours)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/new-rounds.webp",
-          StartImageUrl:
-            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/new-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-up.webp",
-          points: "Deep Learning",
-          points1: "(NLP)",
-          content: [
-            {
-              chap: {
-                title: "",
-                desc: [
-                  "Overview of LangChain’s functionality for large language models.",
-                  "Chain concepts: sequential, memory, and conditional chains, Creating custom prompts and workflows.",
-                  "Hands-on Project: Personalized Financial Advice - Based on customer profiles (age, income, risk appetite), offer tailored financial advice or investment recommendations.",
-                ],
-              },
-            },
-          ],
-          id: 7,
-          open: false,
-        },
-      },
-
-      {
-        Module0: {
-          title: "Topic 9 :- Utilizing Hugging Face",
-          hours: "(5 Hours)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-round.webp",
-          StartImageUrl:
-            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-down.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/mix-up.webp",
-          points: "Deep Learning",
-          points1: "(NLP)",
-          content: [
-            {
-              chap: {
-                title: "",
-                desc: [
-                  "Accessing and deploying Hugging Face pre-trained models, Fine- tuning models on custom datasets, Using Hugging Face’s pipelines for rapid deployment, Introduction to Hugging Face's Model Hub and Transformers library.",
-                  "Hands-on Project: Fine-tune a Hugging Face model for a sentiment analysis task and deploy it using the Hugging Face API.",
-                ],
-              },
-            },
-          ],
-          id: 8,
-          open: false,
-        },
-      },
-
-      {
-        Module0: {
-          title: "Topic 10 :- GANs (Generative Adversarial Networks)",
-          hours: "(5 Hours)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/mix-round.webp ",
-          StartImageUrl:
-            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/mix-down.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/slice-ups.webp",
-          points: "Deep Learning",
-          points1: "(NLP)",
-          content: [
-            {
-              chap: {
-                title: "",
-                desc: [
-                  "Fundamentals of GANs and their components (Generator and Discriminator).",
-                  "Variants of GANs (DCGAN, StyleGAN, CycleGAN). Applications of GANs in image synthesis, art creation, and more.",
-                  "Hands-on exercise: Building a simple GAN for image generation.",
-                  "Hands-on Project: Build and train a DCGAN to generate new images from a specific dataset, such as handwritten digits or facial images.",
-                ],
-              },
-            },
-          ],
-          id: 9,
-          open: false,
-        },
-      },
-
-      {
-        Module0: {
-          title: "Topic 11 :- Variational Autoencoders (VAEs)",
-          hours: "(6 Hours)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/slice-rounds.webp",
-          StartImageUrl:
-            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/slice-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lap-ups.webp",
-          points: "Deep Learning",
-          points1: "(NLP)",
-          content: [
-            {
-              chap: {
-                title: "",
-                desc: [
-                  "Introduction to VAEs and their architecture Comparison of VAEs with GANs, Applications in anomaly detection and data compression.",
-                  "Hands-on exercise: Building a VAE for image reconstruction.",
-                ],
-              },
-            },
-          ],
-          id: 10,
-          open: false,
-        },
-      },
-
-      {
-        Module0: {
-          title: "Topic 12 :- Retrieval-Augmented Generation (RAG)",
-          hours: "(6 Hours)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lap-rounds.webp",
-          StartImageUrl:
-            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lap-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/flow-ups.webp",
-          points: "Deep Learning",
-          points1: "(NLP)",
-          content: [
-            {
-              chap: {
-                title: "",
-                desc: [
-                  "Introduction to RAG.",
-                  "How RAG combines generative and retrieval-based techniques, Implementing a basic RAG model for a knowledge-based task.",
-                  "Hands-on Project: Build a RAG-based FAQ Assistant to answer customer questions by retrieving information from a domain-specific FAQ dataset, merging retrieval and generation for clear, concise responses",
-                ],
-              },
-            },
-          ],
-          id: 11,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "Topic 13 :- Model Deployment for Generative AI",
-          hours: "(6 Hours)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/flow-rounds.webp",
-          StartImageUrl:
-            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/flow-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lazy-ups.webp",
-          points: "Deep Learning",
-          points1: "(NLP)",
-          content: [
-            {
-              chap: {
-                title: "",
-                desc: [
-                  "Overview of model deployment techniques.",
-                  "Best practices for deploying generative models in production.",
-                  "Setting up APIs and scaling model infrastructure.",
-                ],
-              },
-            },
-          ],
-          id: 12,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "Topic 14 :- GenAI Copilot Tools for Coding",
-          hours: "(6 Hours)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lazy-rounds.webp",
-          StartImageUrl:
-            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lazy-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-ups.webp",
-          points: "Deep Learning",
-          points1: "(NLP)",
-          content: [
-            {
-              chap: {
-                title: "",
-                desc: [
-                  "Overview of GenAI Copilot tools and their applications in coding.",
-                  "Hands-on with GitHub Copilot, Tebnine, Amazon CodeWhisperer, Replit Ghostwriter, Codex (OpenAI)",
-                ],
-              },
-            },
-          ],
-          id: 13,
-          open: false,
-        },
-      },
-      {
-        Module0: {
-          title: "Topic 15 :- Ethical Considerations in AI",
-          hours: "(6 Hours)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-rounds.webp",
-          StartImageUrl:
-            " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-ups.webp",
-          points: "Deep Learning",
-          points1: "(NLP)",
-          content: [
-            {
-              chap: {
-                title: "",
-                desc: [
-                  "Discussion of ethical issues in AI, including bias, privacy, and responsible usage in development.",
-                ],
-              },
-            },
-          ],
-          id: 14,
-          open: false,
-        },
-      },
     ],
+
     certificateNew: [
       {
         id: 1,
