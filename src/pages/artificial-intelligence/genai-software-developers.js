@@ -312,7 +312,7 @@ Generative AI and Agentic AI course for working professionals
 export default NewDSA;
 
 export async function getStaticProps() {
-  const module = await import("../../Data/genaisoftware");
+  const module = await import("../../Data/GenAIandAgenticAIMasterProgram-Data");
   const data = module.default;
 
   const DSADataJson = JSON.stringify(data, (key, value) =>
