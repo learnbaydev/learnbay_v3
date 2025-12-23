@@ -215,7 +215,7 @@ Generative AI and Agentic AI course for working professionals
           brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+Developer+Master+Certification+Programv1.pdf"
           brochurePdf={pdfUrl}
         />
-        <LearningToPlacement time="130" guided="40" />
+        <LearningToPlacement time="300" guided="40" />
 
         {/* <ProgramSection
           programSectionData={NewDSAData[0].ProgramSection}
@@ -254,7 +254,7 @@ Generative AI and Agentic AI course for working professionals
 
         {/* <NewCertificateSection certificateNew={NewDSAData[0].certificateNew} /> */}
         <DSAFeeSection
-          Fee="₹ 95,000 "
+          Fee="₹ 1.59 Lacs"
           FeeEmi="₹ 7,916/ month"
           // Hybrid Classes
           hybridFee="₹ 1,55,000"
@@ -312,7 +312,7 @@ Generative AI and Agentic AI course for working professionals
 export default NewDSA;
 
 export async function getStaticProps() {
-  const module = await import("../../Data/GenAIandAgenticAIMasterProgram-Data");
+  const module = await import("../../Data/genaisoftware");
   const data = module.default;
 
   const DSADataJson = JSON.stringify(data, (key, value) =>
