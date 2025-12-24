@@ -572,8 +572,8 @@ export const NewDSAData = [
     masterSyllabusMobile: [
       {
         Module0: {
-          title: "Term 1 - Foundations of AI Reasoning & LLM Workflows",
-          hours: "(Week 1-3)",
+          title: "Term 1 - Cloud Basics and Linux Fundamentals",
+          hours: "20 Hours",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp",
           StartImageUrl:
@@ -585,14 +585,11 @@ export const NewDSAData = [
           content: [
             {
               chap: {
-                title: "Foundations of AI Reasoning & LLM Workflows",
+                title: "Cloud Basics and Linux Fundamentals",
                 desc: [
-                  "How modern AI models process, predict, and reason",
-                  "Prompt engineering for task control (role-based, fewshot, chain-of-thought)",
-                  "Tokenization, embeddings, and contextual memory for intelligent responses",
-                  "Retrieval-Augmented Generation (RAG):connecting private data to LLMs",
-                  "Ethics, safety, and bias mitigation in AI responses",
-                  "Evaluating AI outputs using qualitative and quantitative metrics",
+                  "Linux Basics and System Administration",
+                  "Practical Exercises and Assignments",
+                  "Introduction to Cloud Computing (AWS, Azure, GCP)",
                 ],
               },
             },
@@ -604,25 +601,25 @@ export const NewDSAData = [
 
       {
         Module1: {
-          title: "Term 2 – Generative & Multimodal AI for Real-World Content",
-          hours: "(Week 4-5)",
+          title: "Term 2 – Python Programming Essentials",
+          hours: "25 Hours",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Applied AI Practitioner Program Generative & Multimodal AI",
+          points: "Python Programming Essentials",
           content: [
             {
               chap: {
-                title: "Generative & Multimodal AI for Real-World Content",
+                title: "Python Programming Essentials",
                 desc: [
-                  "Text-to-image, text-to-video, and text-to-audiogeneration",
-                  "Understanding diffusion and multimodal creativity",
-                  "Building content workflows: ideation → generation→ feedback → iteration",
-                  "Using AI for brand assets, marketing visuals, andlearning design",
-                  "Applying AI ethics in synthetic media andresponsible creation",
+                  "Python Basics & Fundamentals",
+                  "Python Programming Foundations",
+                  "Data Handling and Structures",
+                  "Advanced Python Concepts",
+                  "Python for Cloud and DevOps",
                 ],
               },
             },
@@ -634,27 +631,24 @@ export const NewDSAData = [
 
       {
         Module2: {
-          title: "Term 3 – Agentic AI & Intelligent Automation",
-          hours: "(Week 6-7)",
+          title: "Term 3 – AWS Cloud Practitioner",
+          hours: " 20–25 Hours",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points:
-            "Applied AI Practitioner Program Agentic AI & Intelligent Automation",
+          points: "AWS Cloud Practitioner",
           content: [
             {
               chap: {
-                title: "Agentic AI & Intelligent Automation",
+                title: "AWS Cloud Practitioner",
                 desc: [
-                  " Fundamentals of autonomous agents and multiagent reasoning",
-                  "Task decomposition and tool calling for business workflows",
-                  "Connecting CRMs, spreadsheets, and communication platforms",
-                  "Using “Vibe Coding” to describe logic naturally for agents",
-                  "AI task chaining and feedback loop automation",
-                  "Integrating AI insights into daily business processes",
+                  "Cloud Computing and AWS Fundamentals",
+                  "AWS Core Services Overview",
+                  "AWS Security, Identity, and Access Management",
+                  "Monitoring, Pricing, and Basic Operations",
                 ],
               },
             },
@@ -666,26 +660,25 @@ export const NewDSAData = [
 
       {
         Module3: {
-          title: "Term 4 –No-Code App Development & AI Deployment",
-          hours: "(Week 8-9)",
+          title: "Term 4 – AWS Associate & ProfessionalSolutions Architect",
+          hours: "30 Hours",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points:
-            "Applied AI Practitioner Program No-Code App Development & AI Deployment",
+          points: "AWS Associate & Professional Solutions Architect",
           content: [
             {
               chap: {
-                title: "No-Code App Development & AI Deployment",
+                title: "AWS Associate & Professional Solutions Architect",
                 desc: [
-                  "Low-code and no-code app creation with AI integration",
-                  "Connecting APIs, embeddings, and vector stores to create user-ready products",
-                  "Designing front-end interfaces for chatbots and copilots",
-                  "Testing endpoints, debugging, and managing data securely",
-                  "Collecting user feedback and improving model performance",
+                  "AWS Compute and Networking Architecture",
+                  "Storage and Database Architecture",
+                  "Serverless and Advanced AWS Services",
+                  "High Availability, DR, and Migration",
+                  "Architecture Case Studies and CertificationPreparation",
                 ],
               },
             },
@@ -697,26 +690,24 @@ export const NewDSAData = [
 
       {
         Module4: {
-          title: "Term 5 – AIOps, Optimization & Observability",
-          hours: "(Week 10-11)",
+          title: "Term 5 – Microsoft Azure Proficiency (Optional)",
+          hours: " 40 Hours",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points:
-            "Applied AI Practitioner Program AIOps, Optimization & Observability",
+          points: "Microsoft Azure Proficiency (Optional)",
           content: [
             {
               chap: {
-                title: "AIOps, Optimization & Observability",
+                title: "Microsoft Azure Proficiencyy",
                 desc: [
-                  " AIOps essentials: monitoring, observability, and selfhealing pipelines",
-                  "Defining KPIs for AI performance (accuracy, latency, cost, drift)",
-                  "Automating alerts, testing, and continuous improvement",
-                  "Visualizing AI usage and cost with BI dashboards",
-                  "AI governance and compliance considerations in production",
+                  "Azure Administration & Identity Management",
+                  "Architecting Solutions on Azure",
+                  "Advanced Azure Specializations",
+                  "Certification Preparation for Azure",
                 ],
               },
             },
@@ -727,27 +718,568 @@ export const NewDSAData = [
       },
 
       {
-        Module4: {
-          title:
-            "Term 6 - Startup Collaboration Capstone: AI CoLab Experience ",
-          hours: "(Week 12-14)",
+        Module5: {
+          title: "Term 6 - Cloud System Design & Distributed Architecture ",
+          hours: "30 Hours",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points:
-            "Applied AI Practitioner Program Startup Collaboration Capstone: AI CoLab Experience",
+          points: "Cloud System Design & Distributed Architecture ",
           content: [
             {
               chap: {
-                title: "Startup Collaboration Capstone: AI CoLab Experience",
+                title: "Cloud System Design & Distributed Architecture ",
                 desc: [
-                  "Build your own AI product with startup companies",
-                  "Product thinking and end-user problem solving",
-                  "Cross-functional teamwork: business + tech +creative roles",
-                  "Documenting, presenting, and pitching your AI solution",
+                  "System Design Essentials",
+                  "Distributed System Fundamentals",
+                  "High Availability & Reliability Engineering",
+                  "Cloud-Native Architecture Design",
+                  "Data Architecture & Storage Solutions",
+                  "Cost-Efficient & Secure Architecture",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+      {
+        Module5: {
+          title: "Term 6 - Cloud System Design & Distributed Architecture ",
+          hours: "30 Hours",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Cloud System Design & Distributed Architecture ",
+          content: [
+            {
+              chap: {
+                title: "Cloud System Design & Distributed Architecture ",
+                desc: [
+                  "System Design Essentials",
+                  "Distributed System Fundamentals",
+                  "High Availability & Reliability Engineering",
+                  "Cloud-Native Architecture Design",
+                  "Data Architecture & Storage Solutions",
+                  "Cost-Efficient & Secure Architecture",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+      {
+        Module5: {
+          title: "Term 6 - Cloud System Design & Distributed Architecture ",
+          hours: "30 Hours",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Cloud System Design & Distributed Architecture ",
+          content: [
+            {
+              chap: {
+                title: "Cloud System Design & Distributed Architecture ",
+                desc: [
+                  "System Design Essentials",
+                  "Distributed System Fundamentals",
+                  "High Availability & Reliability Engineering",
+                  "Cloud-Native Architecture Design",
+                  "Data Architecture & Storage Solutions",
+                  "Cost-Efficient & Secure Architecture",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+      {
+        Module5: {
+          title: "Term 6 - Cloud System Design & Distributed Architecture ",
+          hours: "30 Hours",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Cloud System Design & Distributed Architecture ",
+          content: [
+            {
+              chap: {
+                title: "Cloud System Design & Distributed Architecture ",
+                desc: [
+                  "System Design Essentials",
+                  "Distributed System Fundamentals",
+                  "High Availability & Reliability Engineering",
+                  "Cloud-Native Architecture Design",
+                  "Data Architecture & Storage Solutions",
+                  "Cost-Efficient & Secure Architecture",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+      {
+        Module5: {
+          title: "Term 6 - Cloud System Design & Distributed Architecture ",
+          hours: "30 Hours",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Cloud System Design & Distributed Architecture ",
+          content: [
+            {
+              chap: {
+                title: "Cloud System Design & Distributed Architecture ",
+                desc: [
+                  "System Design Essentials",
+                  "Distributed System Fundamentals",
+                  "High Availability & Reliability Engineering",
+                  "Cloud-Native Architecture Design",
+                  "Data Architecture & Storage Solutions",
+                  "Cost-Efficient & Secure Architecture",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+      {
+        Module5: {
+          title: "Term 6 - Cloud System Design & Distributed Architecture ",
+          hours: "30 Hours",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Cloud System Design & Distributed Architecture ",
+          content: [
+            {
+              chap: {
+                title: "Cloud System Design & Distributed Architecture ",
+                desc: [
+                  "System Design Essentials",
+                  "Distributed System Fundamentals",
+                  "High Availability & Reliability Engineering",
+                  "Cloud-Native Architecture Design",
+                  "Data Architecture & Storage Solutions",
+                  "Cost-Efficient & Secure Architecture",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+      {
+        Module5: {
+          title: "Term 6 - Cloud System Design & Distributed Architecture ",
+          hours: "30 Hours",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Cloud System Design & Distributed Architecture ",
+          content: [
+            {
+              chap: {
+                title: "Cloud System Design & Distributed Architecture ",
+                desc: [
+                  "System Design Essentials",
+                  "Distributed System Fundamentals",
+                  "High Availability & Reliability Engineering",
+                  "Cloud-Native Architecture Design",
+                  "Data Architecture & Storage Solutions",
+                  "Cost-Efficient & Secure Architecture",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+      {
+        Module5: {
+          title: "Term 6 - Cloud System Design & Distributed Architecture ",
+          hours: "30 Hours",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Cloud System Design & Distributed Architecture ",
+          content: [
+            {
+              chap: {
+                title: "Cloud System Design & Distributed Architecture ",
+                desc: [
+                  "System Design Essentials",
+                  "Distributed System Fundamentals",
+                  "High Availability & Reliability Engineering",
+                  "Cloud-Native Architecture Design",
+                  "Data Architecture & Storage Solutions",
+                  "Cost-Efficient & Secure Architecture",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+      {
+        Module5: {
+          title: "Term 6 - Cloud System Design & Distributed Architecture ",
+          hours: "30 Hours",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Cloud System Design & Distributed Architecture ",
+          content: [
+            {
+              chap: {
+                title: "Cloud System Design & Distributed Architecture ",
+                desc: [
+                  "System Design Essentials",
+                  "Distributed System Fundamentals",
+                  "High Availability & Reliability Engineering",
+                  "Cloud-Native Architecture Design",
+                  "Data Architecture & Storage Solutions",
+                  "Cost-Efficient & Secure Architecture",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+      {
+        Module5: {
+          title: "Term 6 - Cloud System Design & Distributed Architecture ",
+          hours: "30 Hours",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Cloud System Design & Distributed Architecture ",
+          content: [
+            {
+              chap: {
+                title: "Cloud System Design & Distributed Architecture ",
+                desc: [
+                  "System Design Essentials",
+                  "Distributed System Fundamentals",
+                  "High Availability & Reliability Engineering",
+                  "Cloud-Native Architecture Design",
+                  "Data Architecture & Storage Solutions",
+                  "Cost-Efficient & Secure Architecture",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+      {
+        Module5: {
+          title: "Term 6 - Cloud System Design & Distributed Architecture ",
+          hours: "30 Hours",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Cloud System Design & Distributed Architecture ",
+          content: [
+            {
+              chap: {
+                title: "Cloud System Design & Distributed Architecture ",
+                desc: [
+                  "System Design Essentials",
+                  "Distributed System Fundamentals",
+                  "High Availability & Reliability Engineering",
+                  "Cloud-Native Architecture Design",
+                  "Data Architecture & Storage Solutions",
+                  "Cost-Efficient & Secure Architecture",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+
+      {
+        Module5: {
+          title: "Term 6 - Cloud System Design & Distributed Architecture ",
+          hours: "30 Hours",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Cloud System Design & Distributed Architecture ",
+          content: [
+            {
+              chap: {
+                title: "Cloud System Design & Distributed Architecture ",
+                desc: [
+                  "System Design Essentials",
+                  "Distributed System Fundamentals",
+                  "High Availability & Reliability Engineering",
+                  "Cloud-Native Architecture Design",
+                  "Data Architecture & Storage Solutions",
+                  "Cost-Efficient & Secure Architecture",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+      {
+        Module5: {
+          title: "Term 6 - Cloud System Design & Distributed Architecture ",
+          hours: "30 Hours",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Cloud System Design & Distributed Architecture ",
+          content: [
+            {
+              chap: {
+                title: "Cloud System Design & Distributed Architecture ",
+                desc: [
+                  "System Design Essentials",
+                  "Distributed System Fundamentals",
+                  "High Availability & Reliability Engineering",
+                  "Cloud-Native Architecture Design",
+                  "Data Architecture & Storage Solutions",
+                  "Cost-Efficient & Secure Architecture",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+      {
+        Module5: {
+          title: "Term 6 - Cloud System Design & Distributed Architecture ",
+          hours: "30 Hours",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Cloud System Design & Distributed Architecture ",
+          content: [
+            {
+              chap: {
+                title: "Cloud System Design & Distributed Architecture ",
+                desc: [
+                  "System Design Essentials",
+                  "Distributed System Fundamentals",
+                  "High Availability & Reliability Engineering",
+                  "Cloud-Native Architecture Design",
+                  "Data Architecture & Storage Solutions",
+                  "Cost-Efficient & Secure Architecture",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+      {
+        Module5: {
+          title: "Term 6 - Cloud System Design & Distributed Architecture ",
+          hours: "30 Hours",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Cloud System Design & Distributed Architecture ",
+          content: [
+            {
+              chap: {
+                title: "Cloud System Design & Distributed Architecture ",
+                desc: [
+                  "System Design Essentials",
+                  "Distributed System Fundamentals",
+                  "High Availability & Reliability Engineering",
+                  "Cloud-Native Architecture Design",
+                  "Data Architecture & Storage Solutions",
+                  "Cost-Efficient & Secure Architecture",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+      {
+        Module5: {
+          title: "Term 6 - Cloud System Design & Distributed Architecture ",
+          hours: "30 Hours",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Cloud System Design & Distributed Architecture ",
+          content: [
+            {
+              chap: {
+                title: "Cloud System Design & Distributed Architecture ",
+                desc: [
+                  "System Design Essentials",
+                  "Distributed System Fundamentals",
+                  "High Availability & Reliability Engineering",
+                  "Cloud-Native Architecture Design",
+                  "Data Architecture & Storage Solutions",
+                  "Cost-Efficient & Secure Architecture",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+      {
+        Module5: {
+          title: "Term 6 - Cloud System Design & Distributed Architecture ",
+          hours: "30 Hours",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Cloud System Design & Distributed Architecture ",
+          content: [
+            {
+              chap: {
+                title: "Cloud System Design & Distributed Architecture ",
+                desc: [
+                  "System Design Essentials",
+                  "Distributed System Fundamentals",
+                  "High Availability & Reliability Engineering",
+                  "Cloud-Native Architecture Design",
+                  "Data Architecture & Storage Solutions",
+                  "Cost-Efficient & Secure Architecture",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+      {
+        Module5: {
+          title: "Term 6 - Cloud System Design & Distributed Architecture ",
+          hours: "30 Hours",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Cloud System Design & Distributed Architecture ",
+          content: [
+            {
+              chap: {
+                title: "Cloud System Design & Distributed Architecture ",
+                desc: [
+                  "System Design Essentials",
+                  "Distributed System Fundamentals",
+                  "High Availability & Reliability Engineering",
+                  "Cloud-Native Architecture Design",
+                  "Data Architecture & Storage Solutions",
+                  "Cost-Efficient & Secure Architecture",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+      {
+        Module5: {
+          title: "Term 6 - Cloud System Design & Distributed Architecture ",
+          hours: "30 Hours",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Cloud System Design & Distributed Architecture ",
+          content: [
+            {
+              chap: {
+                title: "Cloud System Design & Distributed Architecture ",
+                desc: [
+                  "System Design Essentials",
+                  "Distributed System Fundamentals",
+                  "High Availability & Reliability Engineering",
+                  "Cloud-Native Architecture Design",
+                  "Data Architecture & Storage Solutions",
+                  "Cost-Efficient & Secure Architecture",
                 ],
               },
             },

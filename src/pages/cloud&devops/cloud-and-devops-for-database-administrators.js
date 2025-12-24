@@ -196,7 +196,7 @@ Cloud and DevOps master certification"
           GENAIMAN={true}
           noClud={true}
         />
-        <DSASyllabus
+        {/* <DSASyllabus
           sections={NewDSAData[0].sections}
           dataScience={true}
           interstedInHide={true}
@@ -204,7 +204,7 @@ Cloud and DevOps master certification"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-DBA-Professionalslink.pdf"
           brochurePdf={pdfUrl}
           downloadBrochure={true}
-        />
+        /> */}
         <div style={{ marginTop: "50px" }}>
           <SyllabusNew
             masterSyllabusMobile={NewDSAData[0].masterSyllabusMobile}
