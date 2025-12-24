@@ -7194,48 +7194,48 @@ export const NewDSAData = [
               },
             },
             // -----------------
-            {
-              chap: {
-                title: "Fundamental Generative Models: GAN And VAE",
-                desc: [
-                  "Generative Adversarial Networks Architecture",
-                  "Variational Autoencoders And Latent Space Learning",
-                  "Use Cases In Image And Data Generation",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Stable Defusion",
-                desc: [
-                  "Diffusion Model Fundamentals",
-                  "Text-to-Image Generation Pipelines",
-                  "Prompt Control And Image Conditioning",
-                  "Fine-Tuning Diffusion Models (DreamBooth, LoRA)",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Flux Framework",
-                desc: [
-                  "Image And Creative Generation Workflows",
-                  "High-quality Diffusion-based Outputs",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "LLMOp’s",
-                desc: [
-                  "Model Versioning And Prompt Version Control",
-                  "Monitoring LLM Outputs In Production",
-                  "Cost Tracking And Optimization",
-                  "Evaluation Pipelines For LLM Applications",
-                  "Deployment Strategies For GenAI Systems",
-                ],
-              },
-            },
+            // {
+            //   chap: {
+            //     title: "Fundamental Generative Models: GAN And VAE",
+            //     desc: [
+            //       "Generative Adversarial Networks Architecture",
+            //       "Variational Autoencoders And Latent Space Learning",
+            //       "Use Cases In Image And Data Generation",
+            //     ],
+            //   },
+            // },
+            // {
+            //   chap: {
+            //     title: "Stable Defusion",
+            //     desc: [
+            //       "Diffusion Model Fundamentals",
+            //       "Text-to-Image Generation Pipelines",
+            //       "Prompt Control And Image Conditioning",
+            //       "Fine-Tuning Diffusion Models (DreamBooth, LoRA)",
+            //     ],
+            //   },
+            // },
+            // {
+            //   chap: {
+            //     title: "Flux Framework",
+            //     desc: [
+            //       "Image And Creative Generation Workflows",
+            //       "High-quality Diffusion-based Outputs",
+            //     ],
+            //   },
+            // },
+            // {
+            //   chap: {
+            //     title: "LLMOp’s",
+            //     desc: [
+            //       "Model Versioning And Prompt Version Control",
+            //       "Monitoring LLM Outputs In Production",
+            //       "Cost Tracking And Optimization",
+            //       "Evaluation Pipelines For LLM Applications",
+            //       "Deployment Strategies For GenAI Systems",
+            //     ],
+            //   },
+            // },
             {
               chap: {
                 title: "Azure OpenAI",

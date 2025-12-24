@@ -189,7 +189,7 @@ const AppliedAIPractitionerProgram = () => {
         {
           id: 0,
           ques: "What is the course fee for the Applied AI Practitioner program? ",
-          ans: "Course fee is ₹ 95,000 + 18% GST. ",
+          ans: "Course fee is ₹ 1,10,000 + 18% GST. ",
           open: true,
         },
         {
@@ -484,7 +484,7 @@ const AppliedAIPractitionerProgram = () => {
       "url": "https://www.learnbay.co/artificial-intelligence/applied-ai-practitioner-program",
       "offers": {
         "@type": "offer",
-        "price": "₹ 95,000 + 18% GST",
+        "price": "₹ 1,10,000 + 18% GST",
         "pricecurrency": "INR",
         "category": "Educational"
       },
@@ -501,7 +501,7 @@ const AppliedAIPractitionerProgram = () => {
           "courseWorkload": "P17W",
           "courseFee": {
             "@type": "PriceSpecification",
-            "price": "₹ 95,000 + 18% GST",
+            "price": "₹ 1,10,000 + 18% GST",
             "priceCurrency": "INR"
           }
         }

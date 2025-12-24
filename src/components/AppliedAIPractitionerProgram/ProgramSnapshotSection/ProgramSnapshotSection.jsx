@@ -59,7 +59,7 @@ export default function ProgramSnapshotSection() {
           <div className={styles.feePill}>Program Fee</div>
 
           <div className={styles.priceBlock}>
-            <div className={styles.priceMain}>₹ 95,000 + 18% GST</div>
+            <div className={styles.priceMain}>₹ 1,10,000 + 18% GST</div>
             <div className={styles.priceSub}>
               EMI: Available for 3, 6 and 9 months
             </div>
