@@ -16,7 +16,7 @@ export const TabData = [
       //   url: "/datascience/generative-ai-course-for-manager",
       // },
       {
-        CName: "GenAI Professional Developer Certification With IBM",
+        CName: "GenAI and Agentic AI Master Program",
         hours: "4 Months",
         url: "/artificial-intelligence/genai-software-developers",
       },
