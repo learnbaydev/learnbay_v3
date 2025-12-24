@@ -52,7 +52,7 @@ import {
   getDSABookingSoonDate,
 } from "@/Util/getDSABatchData";
 import AlumniCompanies from "@/components/CoursePage/newUICourse/AlumniCompanies";
-import LearningToPlacement from "@/components/CoursePage/newUICourse/LearningToPlacementinfinity/LearningToPlacement";
+import LearningToPlacement from "@/components/CoursePage/newUICourse/LearningToPlacementChild/LearningToPlacement";
 import Newheader from "@/components/CoursePage/newHeader/newHeader";
 import { MasterAI } from "@/Data/Schema/DataScienceAndAIMasterSchema";
 import FeeSection from "@/components/course/feeSection/FeeSectionCourse";
@@ -215,7 +215,7 @@ Generative AI and Agentic AI course for working professionals
           brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+Developer+Master+Certification+Programv1.pdf"
           brochurePdf={pdfUrl}
         />
-        <LearningToPlacement time="300" guided="40" />
+        <LearningToPlacement time="150" guided="10" />
 
         {/* <ProgramSection
           programSectionData={NewDSAData[0].ProgramSection}
@@ -254,7 +254,7 @@ Generative AI and Agentic AI course for working professionals
 
         {/* <NewCertificateSection certificateNew={NewDSAData[0].certificateNew} /> */}
         <DSAFeeSection
-          Fee="₹ 1.59 Lacs"
+          Fee="₹ 1.10 Lacs"
           FeeEmi="₹ 7,916/ month"
           // Hybrid Classes
           hybridFee="₹ 1,55,000"

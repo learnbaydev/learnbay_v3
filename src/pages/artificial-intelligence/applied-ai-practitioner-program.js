@@ -77,6 +77,7 @@ const NewSevenSection = dynamic(() =>
 );
 import { NewDSAData } from "@/Data/applied-ai-practitioner-program-data";
 import FAQ from "@/components/AppliedAIPractitionerProgram/FAQs/FAQ";
+import { list } from "postcss";
 
 const AppliedAIPractitionerProgram = () => {
   const faqNewData = [
@@ -277,6 +278,7 @@ const AppliedAIPractitionerProgram = () => {
           ans: `Professionals enrolling in the AI practitioner certification program will earn two certificates, such as –`,
           list1: "IIT Patna Vishlesan I-Hub Foundation Certificate ",
           list2: "AI Startup Certificate",
+          list3: "IBM Certificate",
         },
         {
           id: 2,
