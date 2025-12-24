@@ -4,8 +4,7 @@ export const NewDSAData = [
   {
     header: [
       {
-        spanTag:
-          "Supercharge your coding with hands-on training in GenAI and Agentic AI",
+        spanTag: "Integrated with AI Co-Lab Experience and BYOP",
         spanIcon:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
         title: [
@@ -17,7 +16,7 @@ export const NewDSAData = [
               "linear-gradient(90deg, #7eb6f9 0%, #d1a4e8 50%, #f78dc7 100%)",
           },
           {
-            text: "Certification For Working Professionals ",
+            text: "Master Program for Tech Professionals",
             color: false,
           },
         ],
@@ -39,13 +38,13 @@ export const NewDSAData = [
         ],
         mentorText: "Earn Industry-Ready Certification from",
         mentorFromImg: [
-          // {
-          //   id: 1,
-          //   img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Google.webp",
-          //   imgAlt: "Google Logo",
-          //   width: "80",
-          //   height: "30",
-          // },
+          {
+            id: 1,
+            img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Microsoft.webp",
+            imgAlt: "Microsoft Logo",
+            width: "150",
+            height: "30",
+          },
           {
             id: 2,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
