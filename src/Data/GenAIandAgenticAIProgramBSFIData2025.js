@@ -7376,7 +7376,7 @@ export const NewDSAData = [
       },
 
       {
-        Module4: {
+        Module5: {
           title: "Term 5 – Gen AI Specialization for BFSI  Professionals",
           hours: "(1 Months)",
           imageUrl:

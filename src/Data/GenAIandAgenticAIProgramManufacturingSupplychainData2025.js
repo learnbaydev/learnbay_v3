@@ -7194,48 +7194,48 @@ export const NewDSAData = [
               },
             },
             // -----------------
-            {
-              chap: {
-                title: "Fundamental Generative Models: GAN And VAE",
-                desc: [
-                  "Generative Adversarial Networks Architecture",
-                  "Variational Autoencoders And Latent Space Learning",
-                  "Use Cases In Image And Data Generation",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Stable Defusion",
-                desc: [
-                  "Diffusion Model Fundamentals",
-                  "Text-to-Image Generation Pipelines",
-                  "Prompt Control And Image Conditioning",
-                  "Fine-Tuning Diffusion Models (DreamBooth, LoRA)",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Flux Framework",
-                desc: [
-                  "Image And Creative Generation Workflows",
-                  "High-quality Diffusion-based Outputs",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "LLMOp’s",
-                desc: [
-                  "Model Versioning And Prompt Version Control",
-                  "Monitoring LLM Outputs In Production",
-                  "Cost Tracking And Optimization",
-                  "Evaluation Pipelines For LLM Applications",
-                  "Deployment Strategies For GenAI Systems",
-                ],
-              },
-            },
+            // {
+            //   chap: {
+            //     title: "Fundamental Generative Models: GAN And VAE",
+            //     desc: [
+            //       "Generative Adversarial Networks Architecture",
+            //       "Variational Autoencoders And Latent Space Learning",
+            //       "Use Cases In Image And Data Generation",
+            //     ],
+            //   },
+            // },
+            // {
+            //   chap: {
+            //     title: "Stable Defusion",
+            //     desc: [
+            //       "Diffusion Model Fundamentals",
+            //       "Text-to-Image Generation Pipelines",
+            //       "Prompt Control And Image Conditioning",
+            //       "Fine-Tuning Diffusion Models (DreamBooth, LoRA)",
+            //     ],
+            //   },
+            // },
+            // {
+            //   chap: {
+            //     title: "Flux Framework",
+            //     desc: [
+            //       "Image And Creative Generation Workflows",
+            //       "High-quality Diffusion-based Outputs",
+            //     ],
+            //   },
+            // },
+            // {
+            //   chap: {
+            //     title: "LLMOp’s",
+            //     desc: [
+            //       "Model Versioning And Prompt Version Control",
+            //       "Monitoring LLM Outputs In Production",
+            //       "Cost Tracking And Optimization",
+            //       "Evaluation Pipelines For LLM Applications",
+            //       "Deployment Strategies For GenAI Systems",
+            //     ],
+            //   },
+            // },
             {
               chap: {
                 title: "Azure OpenAI",
@@ -7371,6 +7371,35 @@ export const NewDSAData = [
             },
           ],
           id: 4,
+          open: false,
+        },
+      },
+
+      {
+        Module5: {
+          title:
+            "Term 5 – Gen AI Specialization for Manufacturing & SupplyChain",
+          hours: "(1 Months)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Agentic AI & Manufacturing & Supplychain Fundamentals",
+          content: [
+            {
+              chap: {
+                title: "Manufacturing & Supplychain Fundamentals",
+                desc: [
+                  "Manufacturing workflows: production planning → machining → assembly → quality → packaging → maintenance",
+                  "Supply chain workflows: procurement → inventory → warehousing → shipping → logistics → last-mile",
+                  "Key metrics: OEE, MTBF, defect rate, cycle time, lead time, OTIF, fill rate",
+                ],
+              },
+            },
+          ],
+          id: 5,
           open: false,
         },
       },

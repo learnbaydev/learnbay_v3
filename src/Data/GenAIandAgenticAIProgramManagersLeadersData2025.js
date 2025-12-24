@@ -7086,8 +7086,8 @@ export const NewDSAData = [
 
       {
         Module3: {
-          title: "Term 3 – Generative AI",
-          hours: "(3 Months)",
+          title: "Term 3 – Generative AI For Managers",
+          hours: "(1.5 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -7122,7 +7122,7 @@ export const NewDSAData = [
             },
             {
               chap: {
-                title: "Prompt Engineering",
+                title: "Prompt Engineering For Managers",
                 desc: [
                   "Zero-shot, One-shot, And Few-shot Prompting.",
                   "Instruction-based Prompt Design.",
@@ -7194,48 +7194,48 @@ export const NewDSAData = [
               },
             },
             // -----------------
-            {
-              chap: {
-                title: "Fundamental Generative Models: GAN And VAE",
-                desc: [
-                  "Generative Adversarial Networks Architecture",
-                  "Variational Autoencoders And Latent Space Learning",
-                  "Use Cases In Image And Data Generation",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Stable Defusion",
-                desc: [
-                  "Diffusion Model Fundamentals",
-                  "Text-to-Image Generation Pipelines",
-                  "Prompt Control And Image Conditioning",
-                  "Fine-Tuning Diffusion Models (DreamBooth, LoRA)",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Flux Framework",
-                desc: [
-                  "Image And Creative Generation Workflows",
-                  "High-quality Diffusion-based Outputs",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "LLMOp’s",
-                desc: [
-                  "Model Versioning And Prompt Version Control",
-                  "Monitoring LLM Outputs In Production",
-                  "Cost Tracking And Optimization",
-                  "Evaluation Pipelines For LLM Applications",
-                  "Deployment Strategies For GenAI Systems",
-                ],
-              },
-            },
+            // {
+            //   chap: {
+            //     title: "Fundamental Generative Models: GAN And VAE",
+            //     desc: [
+            //       "Generative Adversarial Networks Architecture",
+            //       "Variational Autoencoders And Latent Space Learning",
+            //       "Use Cases In Image And Data Generation",
+            //     ],
+            //   },
+            // },
+            // {
+            //   chap: {
+            //     title: "Stable Defusion",
+            //     desc: [
+            //       "Diffusion Model Fundamentals",
+            //       "Text-to-Image Generation Pipelines",
+            //       "Prompt Control And Image Conditioning",
+            //       "Fine-Tuning Diffusion Models (DreamBooth, LoRA)",
+            //     ],
+            //   },
+            // },
+            // {
+            //   chap: {
+            //     title: "Flux Framework",
+            //     desc: [
+            //       "Image And Creative Generation Workflows",
+            //       "High-quality Diffusion-based Outputs",
+            //     ],
+            //   },
+            // },
+            // {
+            //   chap: {
+            //     title: "LLMOp’s",
+            //     desc: [
+            //       "Model Versioning And Prompt Version Control",
+            //       "Monitoring LLM Outputs In Production",
+            //       "Cost Tracking And Optimization",
+            //       "Evaluation Pipelines For LLM Applications",
+            //       "Deployment Strategies For GenAI Systems",
+            //     ],
+            //   },
+            // },
             {
               chap: {
                 title: "Azure OpenAI",
@@ -7256,7 +7256,7 @@ export const NewDSAData = [
       {
         Module4: {
           title: "Term 4 – Agentic AI",
-          hours: "(1.5 Months)",
+          hours: "(15 Days)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -7371,6 +7371,112 @@ export const NewDSAData = [
             },
           ],
           id: 4,
+          open: false,
+        },
+      },
+
+      {
+        Module5: {
+          title: "Term 5 – Gen AI for Digital Business Transformation",
+          hours: "(15 Days)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Agentic AI & AI-driven Decision Making",
+          content: [
+            {
+              chap: {
+                title: "AI-driven Decision Making",
+                desc: [
+                  "Understand how AI augments decision making process",
+                  "What is data-driven decision making in an organization",
+                  "How predictive analytics and integration of AI insights acts as catalyst in business decisions and strategies",
+                  "Strategic implementation of GenAI in business",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "GenAI in Sales and Marketing",
+                desc: [
+                  "Overview of Gen AI applications in sales and marketing",
+                  "Customer analysis",
+                  "Automated email responses",
+                  "Content creation",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "GenAI Customer Service and Operations",
+                desc: [
+                  "Overview of GenAI applications in customer service and operations",
+                  "Automated chatbots for customer support",
+                  "Customized response generation for each user",
+                  "Workflow automation",
+                  "Customer feedback analysis",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "GenAI in Data Analytics",
+                desc: [
+                  "Overview of GenAI in data analytics",
+                  "AI Enabled Data Analysis Platforms (PowerBI + Copilot integration, Luzmo/Polymer) for dashboard creation and AI integration",
+                  "GenAI integration with Sheets and Excel for data analysis",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+
+      {
+        Module6: {
+          title: "Term 6 – GenAI for Project Management",
+          hours: "(1 Months)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Agentic AI & Agile Foundations & Practices",
+          content: [
+            {
+              chap: {
+                title: "Agile Foundations & Practices",
+                desc: [
+                  "Scrum framework: roles, ceremonies & artifacts",
+                  "Sprint planning, daily standups, reviews & retrospectives",
+                  "Kanban boards, WIP limits & workflow optimization",
+                  "User stories, story points, estimation & backlog prioritization",
+                  "Agile metrics: velocity, burndown charts, cycle time & throughput",
+                  "Managing cross-functional AI/Data Science projects",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Tools & Practical Project Execution",
+                desc: [
+                  "Jira setup: projects, backlogs, sprints & issue tracking",
+                  "Scrum & Kanban boards, dashboards, filters & reports",
+                  "Collaboration features: comments, mentions, notifications & permissions",
+                  "Jira free-tier limitations & best practices",
+                  "Open-source PM tools: OpenProject, Taiga, iceScrum & Redmine",
+                  "Communication & team coordination tools (Slack, Teams, Confluence)",
+                ],
+              },
+            },
+          ],
+          id: 5,
           open: false,
         },
       },

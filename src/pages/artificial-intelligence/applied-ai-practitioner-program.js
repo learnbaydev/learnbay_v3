@@ -51,6 +51,12 @@ const CertificationsSection = dynamic(() =>
   )
 );
 
+const CertificationsSectionIBM = dynamic(() =>
+  import(
+    "@/components/AppliedAIPractitionerProgram/CertificationSectionIBM/CertificationSectionIBM"
+  )
+);
+
 const StartupCertificateSection = dynamic(() =>
   import(
     "@/components/AppliedAIPractitionerProgram/StartupCertificateSection/StartupCertificateSection"
@@ -526,6 +532,7 @@ const AppliedAIPractitionerProgram = () => {
         <FinalProjectSection />
         {/* <AiColabExperienceSection /> */}
         <CertificationsSection />
+        <CertificationsSectionIBM />
         <StartupCertificateSection />
         <ProgramSnapshotSection />
         {/* <FAQAppliedAINew /> */}
