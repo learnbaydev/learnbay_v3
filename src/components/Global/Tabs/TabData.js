@@ -21,6 +21,11 @@ export const TabData = [
         url: "/artificial-intelligence/genai-software-developers",
       },
       {
+        CName: "GenAI and Agentic AI Program",
+        hours: "5 Months",
+        url: "/artificial-intelligence/gen-ai-agentic-ai-program",
+      },
+      {
         CName: "GenAI and Agentic AI Program for BFSI",
         hours: "4 Months",
         url: "/artificial-intelligence/gen-ai-agentic-ai-program-for-bsfi",
