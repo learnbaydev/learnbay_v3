@@ -27,10 +27,8 @@ const ToolsAndPlatforms = dynamic(() =>
   )
 );
 
-const ProgramSyllabus = dynamic(() =>
-  import(
-    "@/components/AppliedAIPractitionerProgram/ProgramSyllabus/ProgramSyllabus"
-  )
+const SyllabusNew = dynamic(() =>
+  import("@/components/CoursePage/Syllabus/MasterSyllabus2025")
 );
 
 const FinalProjectSection = dynamic(() =>
@@ -77,7 +75,7 @@ import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 const NewSevenSection = dynamic(() =>
   import("@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection")
 );
-
+import { NewDSAData } from "@/Data/applied-ai-practitioner-program-data";
 import FAQ from "@/components/AppliedAIPractitionerProgram/FAQs/FAQ";
 
 const AppliedAIPractitionerProgram = () => {
@@ -528,7 +526,10 @@ const AppliedAIPractitionerProgram = () => {
         <WhoCanApply />
         <HowThisProgramHelpYourDomain />
         <ToolsAndPlatforms />
-        <ProgramSyllabus />
+        <SyllabusNew
+          masterSyllabusMobile={NewDSAData[0].masterSyllabusMobile}
+          onlyGENAIPage={true}
+        />
         <FinalProjectSection />
         {/* <AiColabExperienceSection /> */}
         <CertificationsSection />
@@ -538,7 +539,6 @@ const AppliedAIPractitionerProgram = () => {
         {/* <FAQAppliedAINew /> */}
         <FAQ FaqData={faqNewData} />
         <Footer />
-
         <WhatsappFloat />
       </div>
     </main>
