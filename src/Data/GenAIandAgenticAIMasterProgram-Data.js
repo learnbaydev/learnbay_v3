@@ -6814,7 +6814,7 @@ export const NewDSAData = [
     masterSyllabusMobile: [
       {
         Module0: {
-          title: "Induction & Orientation – AI Foundations",
+          title: "Induction & Orientation",
           hours: "(3 Days)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp",
@@ -6828,7 +6828,11 @@ export const NewDSAData = [
               chap: {
                 title: "Induction + Orientation",
                 desc: [
-                  "All about AI, GenAI, Linkedin Optimization, How to use Python Colab",
+                  "Overview Of AI, Generative AI, And Agentic AI",
+                  "Career Paths And Role Mapping For AI Professionals",
+                  "LinkedIn Profile Optimization For AI & Tech Hiring",
+                  "Using Python Colab For Hands-On Learning",
+                  "Learning Workflow, Tools, And Program Onboarding",
                 ],
               },
             },
@@ -7018,23 +7022,21 @@ export const NewDSAData = [
             },
             {
               chap: {
-                title: "Regression Analysis + 1 project",
+                title: "Regression Analysis",
                 desc: [
                   "Linear Regression",
                   "Multiple Regression with feature interactions.",
                   "Model evaluation using RMSE, MAE, R² score.",
-                  "Project: Regression problem with real business data.",
                 ],
               },
             },
             {
               chap: {
-                title: "Classification Analysis + 1 project",
+                title: "Classification Analysis",
                 desc: [
                   "Logistic Regression for binary classification.",
                   "Handling class imbalance using sampling techniques.",
                   "Evaluation metrics: Precision, Recall, F1-Score, ROC-AUC.",
-                  "Project: Classification problem with real business data.",
                 ],
               },
             },
@@ -7045,7 +7047,6 @@ export const NewDSAData = [
                   "Perceptron",
                   "Backpropagation and Optimization",
                   "Attention Mechanism",
-                  "Project: Neural Network problem with real business data.",
                 ],
               },
             },
@@ -7147,11 +7148,103 @@ export const NewDSAData = [
             },
             {
               chap: {
-                title: "Projects",
+                title: "Hugging Face",
                 desc: [
-                  "End-to-End RAG-Based Knowledge Assistant.",
-                  "LLM-Powered Chatbot With Memory And Tools.",
-                  "GenAI Application Deployed On Cloud.",
+                  "Transformers Library For NLP And GenAI",
+                  "Pre-trained Models Hub And Model Cards",
+                  "Tokenizers And Pipeline APIs",
+                  "Fine-tuning Models Using Hugging Face Trainer",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "RAG (Retrieval Augmented Generation)",
+                desc: [
+                  "Vector DB",
+                  "Multimodal RAG",
+                  "Graph RAG",
+                  "RAG Evaluation Metrics",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Langchain / Llama Index",
+                desc: [
+                  "Prompt Templates And Output Parsers",
+                  "Chains And Sequential Workflows",
+                  "Agents And Tool Calling",
+                  "Integration With Vector Databases And APIs",
+                  "Embed and store documents in vector DBs (Pinecone, FAISS,Chroma, etc.)",
+                  "Retrieve relevant chunks based on a user query",
+                  "Format the retrieved chunks as context for the LLM",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Fine tuning",
+                desc: [
+                  "Full Fine-Tuning vs Parameter-Efficient Fine-Tuning (PEFT)",
+                  "LoRA And QLoRA Techniques",
+                  "Instruction Fine-Tuning",
+                  "Dataset Preparation And Labeling Remotely",
+                  "Overfitting Risks And Mitigation Strategies",
+                ],
+              },
+            },
+            // -----------------
+            {
+              chap: {
+                title: "Fundamental Generative Models: GAN And VAE",
+                desc: [
+                  "Generative Adversarial Networks Architecture",
+                  "Variational Autoencoders And Latent Space Learning",
+                  "Use Cases In Image And Data Generation",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Stable Defusion",
+                desc: [
+                  "Diffusion Model Fundamentals",
+                  "Text-to-Image Generation Pipelines",
+                  "Prompt Control And Image Conditioning",
+                  "Fine-Tuning Diffusion Models (DreamBooth, LoRA)",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Flux Framework",
+                desc: [
+                  "Image And Creative Generation Workflows",
+                  "High-quality Diffusion-based Outputs",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "LLMOp’s",
+                desc: [
+                  "Model Versioning And Prompt Version Control",
+                  "Monitoring LLM Outputs In Production",
+                  "Cost Tracking And Optimization",
+                  "Evaluation Pipelines For LLM Applications",
+                  "Deployment Strategies For GenAI Systems",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Azure OpenAI",
+                desc: [
+                  "Azure OpenAI Service Architecture",
+                  "Model Deployment And Endpoint Management",
+                  "Enterprise Security And Compliance",
+                  "Integrating Azure OpenAI With Applications",
                 ],
               },
             },
@@ -7175,12 +7268,11 @@ export const NewDSAData = [
           content: [
             {
               chap: {
-                title: "Understanding Agentic AI",
+                title: " Understanding Agentic AI and Autonomous Agents ",
                 desc: [
-                  "Difference Between LLM Applications And Agent-Based Systems.",
-                  "Autonomous Decision-Making And Goal-Oriented Agents.",
-                  "Single-Agent vs Multi-Agent Architectures.",
-                  "Agentic AI Use Cases In Enterprise Automation.",
+                  "Difference Between LLM Applications And Agent-Based Systems",
+                  "Autonomous Decision-Making And Goal-Oriented Agents",
+                  "Single-Agent vs Multi-Agent Architectures",
                 ],
               },
             },
@@ -7188,23 +7280,93 @@ export const NewDSAData = [
               chap: {
                 title: "Key components of Agentic AI",
                 desc: [
-                  "Agent Roles, Goals, And Task Decomposition.",
-                  "Planning, Reasoning, And Execution Loops.",
-                  "Tool Calling And External System Integration.",
-                  "Memory Types: Short-Term, Long-Term, And Episodic Memory.",
-                  "Feedback Loops And Self-Reflection Mechanisms.",
-                  "Failure Handling And Recovery Strategies.",
+                  "Agent Roles, Goals, And Task Decomposition",
+                  "Planning, Reasoning, And Execution Loops",
+                  "Tool Calling And External System Integration",
+                  "Memory Types: Short-Term, Long-Term, And Episodic Memory",
+                  "Feedback Loops And Self-Reflection Mechanisms",
+                  "Failure Handling And Recovery Strategies",
                 ],
               },
             },
             {
               chap: {
-                title: "Projects",
+                title: "AutoGen",
                 desc: [
-                  "Multi-Agent AI System For Task Automation.",
-                  "Autonomous Research And Report Generation Agent.",
-                  "Agent-Based RAG System With Decision Logic.",
-                  "Production-Ready Agent Deployment On Cloud.",
+                  "Multi-Agent Conversation Design",
+                  "Role-Based Agent Collaboration",
+                  "Task Delegation And Message Passing",
+                  "Use Cases For Autonomous Workflows",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "CrewAI",
+                desc: [
+                  "Team-Based Agent Orchestration",
+                  "Role Assignment And Hierarchical Agents",
+                  "Workflow Automation Using Crews",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "LangGraph",
+                desc: [
+                  "State-Based Agent Workflows",
+                  "Directed Graph Execution For Agents",
+                  "Conditional Routing And Branching Logic",
+                  "Multi-Step Planning And Execution Graphs",
+                  "Error Handling And Retry Mechanisms",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "MCP (Model Context Protocol) / ACP / A2A",
+                desc: [
+                  "Model Context Protocol (MCP) Fundamentals",
+                  "Agent Communication Protocol (ACP)",
+                  "Agent-to-Agent (A2A) Interaction Patterns",
+                  "Context Sharing Across Distributed Agents",
+                  "Secure Context Exchange Between Models",
+                  "Enterprise Interoperability Standards For Agents",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "No-Code/Low-Code AI Agent Basics",
+                desc: [
+                  "Build AI agents using drag-and-drop workflow builders",
+                  "Automate tasks, approvals, and decision flows without coding",
+                  "Evaluate feasibility, cost, and business ROI of AI agents",
+                  "Work confidently with tech teams to scale AI faster",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Ethics And Safety In Agentic AI",
+                desc: [
+                  "Autonomous Agent Risk Assessment",
+                  "Bias, Hallucination, And Decision Transparency",
+                  "Human-in-the-Loop Control Mechanisms",
+                  "Compliance And Responsible AI Guidelines",
+                  "GuardRail",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "AWS Bedrock",
+                desc: [
+                  "Foundation Models Available In Bedrock",
+                  "Building Agents Using Bedrock APIs",
+                  "Tool Invocation And Workflow Automation",
+                  "Security, IAM, And Enterprise Controls",
+                  "Integrating Bedrock With AWS Services",
                 ],
               },
             },
