@@ -21,7 +21,7 @@ const JobReadySection = dynamic(() =>
   import("@/components/CoursePage/NewDSA/JobReadySection/JobReadySection")
 );
 const SyllabusNew = dynamic(() =>
-  import("@/components/CoursePage/Syllabus/MasterSyllabus")
+  import("@/components/CoursePage/Syllabus/MasterSyllabus2025")
 );
 const NewCertificateSection = dynamic(() =>
   import("@/components/CoursePage/newCertificate/NewCertificate")
@@ -312,7 +312,7 @@ Generative AI and Agentic AI course for working professionals
 export default NewDSA;
 
 export async function getStaticProps() {
-  const module = await import("../../Data/genaisoftware");
+  const module = await import("../../Data/GenAIandAgenticAIMasterProgram-Data");
   const data = module.default;
 
   const DSADataJson = JSON.stringify(data, (key, value) =>

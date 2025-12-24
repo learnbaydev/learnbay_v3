@@ -3,8 +3,8 @@ import { FaChevronUp, FaChevronDown } from "react-icons/fa";
 import styles from "./Syllabus.module.css";
 import Image from "next/image";
 
-const NewSyllabusMap = ({ masterSyllabusMobile, onlyGENAIPage }) => {
-  const [mSyllabus, setMSyllabus] = useState(masterSyllabusMobile);
+const NewSyllabusMap = ({ Syllabus, onlyGENAIPage }) => {
+  const [mSyllabus, setMSyllabus] = useState(Syllabus);
 
   const handleChangeMobile = (index) => {
     const updatedSyllabus = mSyllabus.map((item, i) => {
@@ -30,7 +30,7 @@ const NewSyllabusMap = ({ masterSyllabusMobile, onlyGENAIPage }) => {
     console.log(`Module "${moduleTitle}" expanded`);
   };
 
-  return mSyllabus.map((data, i) => {
+  return mSyllabus?.map((data, i) => {
     const moduleKey = Object.keys(data)[0];
     const Module = data[moduleKey]; // 👈 dynamic module
 
