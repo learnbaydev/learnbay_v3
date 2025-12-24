@@ -32,11 +32,7 @@ function SyllabusNew({
 
   return (
     <>
-      <div
-        id="curriculum"
-        className={styles.containerDiv}
-        style={{ border: "1px solid red" }}
-      >
+      <div id="curriculum" className={styles.containerDiv}>
         <PopupContent
           dataScience={dataScience}
           downloadBrochure
