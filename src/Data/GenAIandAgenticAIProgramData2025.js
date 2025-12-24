@@ -4,7 +4,8 @@ export const NewDSAData = [
   {
     header: [
       {
-        spanTag: "Integrated with AI Co-Lab Experience and BYOP",
+        spanTag:
+          "Use GenAI tools to analyze data, forecast trends, and guide strategic actions.",
         spanIcon:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
         title: [

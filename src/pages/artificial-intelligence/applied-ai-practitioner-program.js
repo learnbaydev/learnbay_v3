@@ -526,10 +526,12 @@ const AppliedAIPractitionerProgram = () => {
         <WhoCanApply />
         <HowThisProgramHelpYourDomain />
         <ToolsAndPlatforms />
-        <SyllabusNew
-          masterSyllabusMobile={NewDSAData[0].masterSyllabusMobile}
-          onlyGENAIPage={true}
-        />
+        <div style={{ marginTop: "50px" }}>
+          <SyllabusNew
+            masterSyllabusMobile={NewDSAData[0].masterSyllabusMobile}
+            onlyGENAIPage={true}
+          />
+        </div>
         <FinalProjectSection />
         {/* <AiColabExperienceSection /> */}
         <CertificationsSection />
