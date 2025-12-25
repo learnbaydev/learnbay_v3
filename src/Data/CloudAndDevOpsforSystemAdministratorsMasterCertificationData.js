@@ -845,7 +845,7 @@ export const NewDSAData = [
       {
         Module9: {
           title: "Term 10 - MLOps Engineering ",
-          hours: "4 Weeks",
+          hours: "40 Hours",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -904,26 +904,24 @@ export const NewDSAData = [
       },
       {
         Module11: {
-          title: "Term 12 - Cloud System Design & Distributed Architecture ",
-          hours: "30 Hours",
+          title: "Elective A - Cloud & DevOps for Network Professionals ",
+          hours: "4 Weeks",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Cloud System Design & Distributed Architecture ",
+          points: "Cloud & DevOps for Network Professionals ",
           content: [
             {
               chap: {
-                title: "Cloud System Design & Distributed Architecture ",
+                title: "Cloud & DevOps for Network Professionals ",
                 desc: [
-                  "System Design Essentials",
-                  "Distributed System Fundamentals",
-                  "High Availability & Reliability Engineering",
-                  "Cloud-Native Architecture Design",
-                  "Data Architecture & Storage Solutions",
-                  "Cost-Efficient & Secure Architecture",
+                  "Week 1: Cloud networking architecture, VPC design principles, CIDR planning, subnets, routing tables, gateways, and end-to-end traffic flow",
+                  "Week 2: Load balancing concepts, DNS routing strategies, traffic distribution, auto-scaling integration, and hybrid connectivity fundamentals",
+                  "Week 3: Network security controls, security groups vs NACLs, access rules, flow logs, monitoring, and network-level troubleshooting",
+                  "Week 4: Projects",
                 ],
               },
             },
@@ -934,26 +932,24 @@ export const NewDSAData = [
       },
       {
         Module12: {
-          title: "Term 13 - Cloud System Design & Distributed Architecture ",
-          hours: "30 Hours",
+          title: "Elective B - Cloud & DevOps for System Administrators ",
+          hours: "4 Weeks",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Cloud System Design & Distributed Architecture ",
+          points: "Cloud & DevOps for System Administrators ",
           content: [
             {
               chap: {
-                title: "Cloud System Design & Distributed Architecture ",
+                title: "Cloud & DevOps for System Administrators ",
                 desc: [
-                  "System Design Essentials",
-                  "Distributed System Fundamentals",
-                  "High Availability & Reliability Engineering",
-                  "Cloud-Native Architecture Design",
-                  "Data Architecture & Storage Solutions",
-                  "Cost-Efficient & Secure Architecture",
+                  "Week 1:Cloud-based system administration, OS hardening practices, user & access control, VM lifecycle management",
+                  "Week 2:Infrastructure automation concepts, configuration management, environment consistency, repeatable provisioning",
+                  "Week 3:Backup strategies, disaster recovery planning, high availability models, incident handling basics",
+                  "Week 4: Projects",
                 ],
               },
             },
@@ -965,26 +961,24 @@ export const NewDSAData = [
 
       {
         Module13: {
-          title: "Term 14 - Cloud System Design & Distributed Architecture ",
-          hours: "30 Hours",
+          title: "Elective C - Cloud & DevOps for IT Support & IT Operations ",
+          hours: "4 weeks",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Cloud System Design & Distributed Architecture ",
+          points: "Cloud & DevOps for IT Support & IT Operations",
           content: [
             {
               chap: {
-                title: "Cloud System Design & Distributed Architecture ",
+                title: "Cloud & DevOps for IT Support & IT Operations ",
                 desc: [
-                  "System Design Essentials",
-                  "Distributed System Fundamentals",
-                  "High Availability & Reliability Engineering",
-                  "Cloud-Native Architecture Design",
-                  "Data Architecture & Storage Solutions",
-                  "Cost-Efficient & Secure Architecture",
+                  "Week 1: Cloud operations fundamentals, shared responsibility model, SLAs, monitoring basics, understanding production systems",
+                  "Week 2: Alert handling workflows, incident management lifecycle, root cause analysis, operational automation concepts",
+                  "Week 3: AIOps foundations, AI-assisted monitoring, log analysis workflows, proactive operations mindset",
+                  "Week 4: Projects",
                 ],
               },
             },
@@ -996,26 +990,24 @@ export const NewDSAData = [
 
       {
         Module14: {
-          title: "Term 15 - Cloud System Design & Distributed Architecture ",
-          hours: "30 Hours",
+          title: "Elective D - Cloud & DevOps for Database Administrators ",
+          hours: "3 Weeks",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Cloud System Design & Distributed Architecture ",
+          points: "Cloud & DevOps for Database Administrators ",
           content: [
             {
               chap: {
-                title: "Cloud System Design & Distributed Architecture ",
+                title: "Cloud & DevOps for Database Administrators ",
                 desc: [
-                  "System Design Essentials",
-                  "Distributed System Fundamentals",
-                  "High Availability & Reliability Engineering",
-                  "Cloud-Native Architecture Design",
-                  "Data Architecture & Storage Solutions",
-                  "Cost-Efficient & Secure Architecture",
+                  "Week 1: Cloud database services, managed databases, backup strategies, recovery planning, HA concepts",
+                  "Week 2: Database deployment, scaling strategies, performance optimisation, access control and security basics",
+                  "Week 3: Resilient database architectures, monitoring, failover planning, operational best practices",
+                  "Week 4: Projects",
                 ],
               },
             },
