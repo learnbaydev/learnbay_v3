@@ -27,10 +27,8 @@ const ToolsAndPlatforms = dynamic(() =>
   )
 );
 
-const ProgramSyllabus = dynamic(() =>
-  import(
-    "@/components/AppliedAIPractitionerProgram/ProgramSyllabus/ProgramSyllabus"
-  )
+const SyllabusNew = dynamic(() =>
+  import("@/components/CoursePage/Syllabus/MasterSyllabus2025")
 );
 
 const FinalProjectSection = dynamic(() =>
@@ -48,6 +46,12 @@ const FinalProjectSection = dynamic(() =>
 const CertificationsSection = dynamic(() =>
   import(
     "@/components/AppliedAIPractitionerProgram/CertificationsSection/CertificationsSection"
+  )
+);
+
+const CertificationsSectionIBM = dynamic(() =>
+  import(
+    "@/components/AppliedAIPractitionerProgram/CertificationSectionIBM/CertificationSectionIBM"
   )
 );
 
@@ -71,7 +75,7 @@ import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 const NewSevenSection = dynamic(() =>
   import("@/components/CoursePage/NewDSA/NewSevenSection/NewSevenSection")
 );
-
+import { NewDSAData } from "@/Data/applied-ai-practitioner-program-data";
 import FAQ from "@/components/AppliedAIPractitionerProgram/FAQs/FAQ";
 
 const AppliedAIPractitionerProgram = () => {
@@ -189,7 +193,7 @@ const AppliedAIPractitionerProgram = () => {
         {
           id: 0,
           ques: "What is the course fee for the Applied AI Practitioner program? ",
-          ans: "Course fee is ₹ 95,000 + 18% GST. ",
+          ans: "Course fee is ₹ 1,10,000 + 18% GST. ",
           open: true,
         },
         {
@@ -484,7 +488,7 @@ const AppliedAIPractitionerProgram = () => {
       "url": "https://www.learnbay.co/artificial-intelligence/applied-ai-practitioner-program",
       "offers": {
         "@type": "offer",
-        "price": "₹ 95,000 + 18% GST",
+        "price": "₹ 1,10,000 + 18% GST",
         "pricecurrency": "INR",
         "category": "Educational"
       },
@@ -501,7 +505,7 @@ const AppliedAIPractitionerProgram = () => {
           "courseWorkload": "P17W",
           "courseFee": {
             "@type": "PriceSpecification",
-            "price": "₹ 95,000 + 18% GST",
+            "price": "₹ 1,10,000 + 18% GST",
             "priceCurrency": "INR"
           }
         }
@@ -522,16 +526,21 @@ const AppliedAIPractitionerProgram = () => {
         <WhoCanApply />
         <HowThisProgramHelpYourDomain />
         <ToolsAndPlatforms />
-        <ProgramSyllabus />
+        <div style={{ marginTop: "50px" }}>
+          <SyllabusNew
+            masterSyllabusMobile={NewDSAData[0].masterSyllabusMobile}
+            onlyGENAIPage={true}
+          />
+        </div>
         <FinalProjectSection />
         {/* <AiColabExperienceSection /> */}
         <CertificationsSection />
+        <CertificationsSectionIBM />
         <StartupCertificateSection />
         <ProgramSnapshotSection />
         {/* <FAQAppliedAINew /> */}
         <FAQ FaqData={faqNewData} />
         <Footer />
-
         <WhatsappFloat />
       </div>
     </main>

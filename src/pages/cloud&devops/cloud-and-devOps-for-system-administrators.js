@@ -38,6 +38,9 @@ const MentorsSection = dynamic(() =>
 const ReviewSlider = dynamic(() =>
   import("@/components/Home/newUI/reviewSlider/reviewSlider")
 );
+const SyllabusNew = dynamic(() =>
+  import("@/components/CoursePage/Syllabus/MasterSyllabus2025")
+);
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
@@ -194,7 +197,7 @@ Cloud and DevOps master certification"
           GENAIMAN={true}
           noClud={true}
         />
-        <DSASyllabus
+        {/* <DSASyllabus
           sections={NewDSAData[0].sections}
           dataScience={true}
           interstedInHide={true}
@@ -202,7 +205,13 @@ Cloud and DevOps master certification"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-System-Admin-Professionalslink.pdf"
           brochurePdf={pdfUrl}
           downloadBrochure={true}
-        />
+        /> */}
+        <div style={{ marginTop: "50px" }}>
+          <SyllabusNew
+            masterSyllabusMobile={NewDSAData[0].masterSyllabusMobile}
+            onlyGENAIPage={true}
+          />
+        </div>
         <NewTools toolsData={NewDSAData[0].toolsData} />
         <UpdatedCertificate data={NewDSAData[0].Certificate} />
         <DSAFeeSection
