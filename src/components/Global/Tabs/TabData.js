@@ -66,8 +66,11 @@ export const TabData = [
         hours: "4 Months",
         url: "/artificial-intelligence/applied-ai-practitioner-program",
       },
-
-      ,
+      {
+        CName: "SDE Master's Program in GenAI & Agentic AI ",
+        hours: "3 Months",
+        url: "/artificial-intelligence/sde-master-program-gen-ai-agentic-ai",
+      },
     ],
   },
   {
