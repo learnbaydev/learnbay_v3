@@ -7771,7 +7771,7 @@ export const NewDSAData = [
       {
         Module12: {
           title: "Elective F - GenAI & Agentic AI for Product Managers",
-          hours: "(40 Hours)",
+          hours: "(32 Hours)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:

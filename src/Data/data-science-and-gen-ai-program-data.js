@@ -13,7 +13,7 @@ export const NewDSAData = [
             color: false,
           },
           {
-            text: "GenAI Certification",
+            text: "GenAI Program",
             color: true,
             gradient: "linear-gradient(90deg, #E85868 58.95%, #8081FF 73.36%)",
           },
@@ -5574,7 +5574,7 @@ export const NewDSAData = [
       {
         Module1: {
           title: "Term 1 – Python for GenAI",
-          hours: "(2 Months)",
+          hours: "(1.5 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -5817,7 +5817,7 @@ export const NewDSAData = [
       {
         Module3: {
           title: "Term 3 – Generative AI",
-          hours: "(3 Months)",
+          hours: "(1.5 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -5986,7 +5986,7 @@ export const NewDSAData = [
       {
         Module4: {
           title: "Term 4 – Agentic AI",
-          hours: "(1.5 Months)",
+          hours: "(15 Days)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -6108,7 +6108,7 @@ export const NewDSAData = [
       {
         Module5: {
           title: "Term 5 – Statistics & Machine Learning",
-          hours: "(1 Months)",
+          hours: "(2 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -6540,7 +6540,7 @@ export const NewDSAData = [
       {
         Module9: {
           title: "Term 9 – Big Data Analytics",
-          hours: "(1.5 Months)",
+          hours: "(1 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:

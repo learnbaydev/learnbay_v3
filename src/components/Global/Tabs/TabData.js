@@ -23,38 +23,38 @@ export const TabData = [
       {
         CName: "GenAI and Agentic AI Program",
         hours: "5 Months",
-        url: "/artificial-intelligence/gen-ai-agentic-ai-program",
+        url: "/gen-ai-agentic-ai-program",
       },
       {
         CName: "GenAI and Agentic AI Program for BFSI",
         hours: "5 Months",
-        url: "/artificial-intelligence/gen-ai-agentic-ai-program-for-bsfi",
+        url: "/gen-ai-agentic-ai-program-for-bsfi",
       },
       {
         CName: "GenAI and Agentic AI Program for Healthcare",
         hours: "5 Months",
-        url: "/artificial-intelligence/gen-ai-agentic-ai-program-for-healthcare",
+        url: "/gen-ai-agentic-ai-program-for-healthcare",
       },
       {
         CName: "GenAI and Agentic AI Program for Retail and Ecommerce",
         hours: "5 Months",
-        url: "/artificial-intelligence/gen-ai-agentic-ai-program-for-retailer-ecommerce",
+        url: "/gen-ai-agentic-ai-program-for-retailer-ecommerce",
       },
 
       {
         CName: "GenAI and Agentic AI Program for Manufacturing and Supplychain",
         hours: "5 Months",
-        url: "/artificial-intelligence/gen-ai-agentic-ai-program-for-manufacturing-supplychain",
+        url: "/gen-ai-agentic-ai-program-for-manufacturing-supplychain",
       },
       {
         CName: "GenAI and Agentic AI Program or Automotive",
         hours: "5 Months",
-        url: "/artificial-intelligence/gen-ai-agentic-ai-program-for-automotive",
+        url: "/gen-ai-agentic-ai-program-for-automotive",
       },
       {
         CName: "GenAI and Agentic AI Program for Managers and Leaders",
         hours: "5 Months",
-        url: "/artificial-intelligence/gen-ai-agentic-ai-program-for-managers-leaders",
+        url: "/gen-ai-agentic-ai-program-for-managers-leaders",
       },
       {
         CName: "GenAI Professional Certification for Managers With IBM",
@@ -110,10 +110,14 @@ export const TabData = [
     courseName: [
       {
         CName: "Data Science and Generative AI Master Certification Program",
-        hours: "13 Months",
+        hours: "9 Months",
         url: "/datascience/data-science-and-ai-master-certification-program",
       },
-
+      {
+        CName: "Data Science and Generative AI  Program",
+        hours: "5 Months",
+        url: "data-science-and-genai-program",
+      },
       {
         CName: "Data Analytics and Business Analytics with Generative AI",
         hours: "8-9 Months",

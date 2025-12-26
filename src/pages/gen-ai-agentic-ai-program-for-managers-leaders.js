@@ -313,7 +313,7 @@ export default NewDSA;
 
 export async function getStaticProps() {
   const module = await import(
-    "../../Data/GenAIandAgenticAIProgramManagersLeadersData2025"
+    "../Data/GenAIandAgenticAIProgramManagersLeadersData2025"
   );
   const data = module.default;
 

@@ -17,7 +17,7 @@ export const NewDSAData = [
               "linear-gradient(90deg, #7eb6f9 0%, #d1a4e8 50%, #f78dc7 100%)",
           },
           {
-            text: " Program For BSFI Professionals",
+            text: " Program For BFSI Professionals",
             color: false,
           },
         ],

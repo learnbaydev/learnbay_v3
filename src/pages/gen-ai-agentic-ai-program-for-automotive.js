@@ -61,7 +61,7 @@ import HighlightsSection from "@/components/CoursePage/FirstPart/Support_noimage
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+and+Agentic+AI+Program2025_compressed.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Automotive+GenAI+and+Agentic+AI+Program2025_compressed.pdf";
 
   let soonDate = getDSABookingSoonDate();
   let laterDate = getDSABookingLaterDate();
@@ -207,12 +207,12 @@ Generative AI and Agentic AI course for working professionals
           descrption={NewDSAData[0].header[0].descrption}
           svgDSA={NewDSAData[0].header[0].svgDSA}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+and+Agentic+AI+Program2025_compressed.pdf"
+          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Automotive+GenAI+and+Agentic+AI+Program2025_compressed.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
         <AlumniCompanies
-          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+and+Agentic+AI+Program2025_compressed.pdf"
+          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Automotive+GenAI+and+Agentic+AI+Program2025_compressed.pdf"
           brochurePdf={pdfUrl}
         />
         <LearningToPlacement time="150" guided="10" />
@@ -238,7 +238,7 @@ Generative AI and Agentic AI course for working professionals
           dataScienceCounselling={true}
           dataScience={true}
           titleCourse=""
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI-Developer-Program.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Automotive+GenAI+and+Agentic+AI+Program2025_compressed.pdf"
           brochurePdf={pdfUrl}
           buttonHide={true}
           interstedInHide={true}
@@ -312,7 +312,9 @@ Generative AI and Agentic AI course for working professionals
 export default NewDSA;
 
 export async function getStaticProps() {
-  const module = await import("../../Data/GenAIandAgenticAIProgramData2025");
+  const module = await import(
+    "../Data/GenAIandAgenticAIProgramAutomotiveData2025"
+  );
   const data = module.default;
 
   const DSADataJson = JSON.stringify(data, (key, value) =>
