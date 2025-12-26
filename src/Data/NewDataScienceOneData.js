@@ -6246,110 +6246,250 @@ export const NewDSAData = [
           content: [
             {
               chap: {
-                title: " Introduction to Stats & Statistical Thinking ",
+                title: "  Advanced Clustering Techniques ",
                 desc: [
-                  "Types of variables: quantitative, and qualitative",
-                  "Role of descriptive vs inferential statistics.",
-                  "Understanding data distribution and variability",
-                  "Probability basics including experiments, outcomes, and events.",
+                  "Hierarchical approaches: agglomerative and divisive clustering strategies",
+                  "Linkage criteria: single, complete, and average linkage mathematical foundations",
+                  "Density-based clustering: DBSCAN algorithm and noise point handling",
+                  "Clustering comparison: K-means vs hierarchical vs DBSCAN",
+                  "Clustering evaluation: internal and external validation measures",
                 ],
               },
             },
             {
               chap: {
-                title: "Probability Concepts",
+                title: " Ensemble Learning Techniques (Bagging & Boosting)",
                 desc: [
-                  "Probability distribution function (PDF) and cumulative distribution function (CDF).",
-                  "Conditional probability and real-life applications.",
-                  "Bayes' Theorem and its use in classification problems.",
-                  "Mutually exclusive, joint, dependent, and independent events",
-                  "Problem-solving exercises to strengthen probability intuition.",
+                  "Bootstrap aggregation (bagging): concept, implementation",
+                  "Variance reduction through sampling diversity",
+                  "Random Forest: out-of-bag estimation and feature importance calculation",
+                  "Boosting foundations: sequential learning and error correction  mechanisms",
+                  "AdaBoost, gradient boosting",
+                  "Gradient boosting: loss function optimization and residual learning",
+                  "Advanced boosting: XGBoost, CatBoost, and LightGBM implementation strategies",
+                  "Bagging vs boosting: bias-variance implications",
                 ],
               },
             },
             {
               chap: {
-                title: "Population & Sampling Fundamentals",
+                title: "Support Vector Machine (SVMs)",
                 desc: [
-                  "Difference between population and sample in real-world studies.",
-                  "Importance of sample size and its effect on confidence.",
-                  "Sampling methods: simple random, systematic, cluster, stratified.",
-                  "Non-probability sampling: convenience, quota, snowball, judgment ssampling.",
+                  "Linear SVM: maximum margin principle and support vector identification",
+                  "Soft margin formulation: slack variables and regularization parameter tuning",
+                  "Kernel methods: polynomial, radial basis function, and kernel trick mathematics",
+                  "Multi-class extensions: one-vs-one and one-vs-rest strategies",
                 ],
               },
             },
             {
               chap: {
-                title: "Statistics",
+                title: "Model Optimization Strategies",
                 desc: [
-                  "Measures of central tendency: mean, median, mode.",
-                  "Measures of dispersion: variance, standard deviation, range, IQR.",
-                  "Shape analysis: skewness and kurtosis interpretation.",
-                  "ANOVA / ANCOVA for comparing model performance.",
-                  "Central Limit Theorem and sampling distribution behavior.",
-                  "Point estimates vs interval estimates.",
-                  "Characteristics of Z-distribution and T-distribution.",
-                  "Type I and Type II errors with practical meaning.",
+                  "Hyperparameter tuning: GridSearchCV, RandomSearchCV, and Bayesian approaches",
+                  "K-fold cross-validation for parameter selection: nested validation and unbiased estimation",
+                  "Performance curve analysis: learning curves and validation curves",
+                  "ROC curve optimization, threshold tuning",
+                  "Handling imbalanced datasets: SMOTE, resampling",
+                  "Model interpretation: feature importance, partial dependence, and SHAP values",
                 ],
               },
             },
             {
               chap: {
-                title: "Hypothesis Testing",
+                title: "Time Series Analysis",
                 desc: [
-                  "  Formulating null and alternative hypotheses.",
-                  "Z-test, t-test, chi-square test basics.",
-                  "Using the empirical rule and Z-table.",
-                  "Normal and binomial distributions with applications.",
+                  " Time series components: trend, seasonality, noise",
+                  "Stationarity tests: ADF, KPSS",
+                  "Autocorrelation & partial ACF plots",
+                  "Seasonal decomposition (additive, multiplicative)",
                 ],
               },
             },
             {
               chap: {
-                title: "Exploratory Data Analysis (EDA)",
+                title: " Classical Forecasting Methods",
                 desc: [
-                  "Five-point summary: min, Q1, median, Q3, max.",
-                  "Box plot construction and interpretation.",
-                  "Outliers: causes, impact, and detection.",
-                  "Outlier treatment using IQR and Z-score methods",
+                  "TMoving averages & exponential smoothing",
+                  "ARIMA modeling: identification, estimation, diagnostics",
+                  "SARIMA for seasonal data",
+                  "Model comparison using AIC/BIC & backtesting",
                 ],
               },
             },
             {
               chap: {
-                title: "Regression Analysis - Supervised Learning",
+                title: "Advanced Forecasting",
                 desc: [
-                  "Correlation & regression assumptions",
-                  "Linear regression mechanics (cost, optimization, gradient descent)",
-                  "Model training workflow (train–test split, prediction)",
-                  "Multiple regression & feature interactions",
-                  "Residual analysis & diagnostics",
-                  "Evaluation, generalization & regularization (RMSE, MAE, R², L1/L2)",
+                  "Prophet framework for business series",
+                  "Feature-based regression models (lags, rolling stats)",
+                  "Tree-based regressors (Random Forest, XGBoost) on time features",
+                  "Time series cross-validation & walk-forward validation",
                 ],
               },
             },
             {
               chap: {
-                title: "Classification Analysis - Supervised Learning",
+                title: "Text Preprocessing",
                 desc: [
-                  "Logistic Regression, sigmoid function & MLE",
-                  "Linear vs logistic comparison",
-                  "Class imbalance handling (sampling techniques)",
-                  "Decision Trees & Random Forests",
-                  "KNN: distance metrics, K-value selection & curse of dimensionality",
-                  "Naive Bayes: assumptions & likelihood",
-                  "Evaluation metrics: Precision, Recall, F1, ROC-AUC & cross validation",
-                  "Project: Classification problem with real business data.",
+                  " Tokenization, stopword removal, stemming, and lemmatization.",
+                  "Lowercasing, punctuation removal, and text normalization.",
+                  "Converting raw text into clean, usable form",
                 ],
               },
             },
             {
               chap: {
-                title: "Unsupervised Learning Introduction - Clustering",
+                title: "Word Embeddings",
                 desc: [
-                  "  K-means clustering: centroid optimization and within-cluster sum of squares",
-                  "Cluster validation: elbow method, silhouette analysis, and optimal selection",
-                  "Distance metrics: Euclidean, Manhattan, and domain-specific measures",
+                  "Represent words as dense vectors capturing meaning.",
+                  "Word2Vec for context-based learning.",
+                  "GloVe for global co-occurrence patterns.",
+                  "FastText for handling subword information.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Transformers & BERT",
+                desc: [
+                  "Attention-based architecture for understanding long text.",
+                  "BERT for bidirectional contextual embeddings.",
+                  "Fine-tuning BERT for NLP tasks like QA and classification",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Sequence-to-Sequence Models",
+                desc: [
+                  "Encoder-decoder setup for translating sequences.",
+                  "Used in translation, summarization, and dialogue.",
+                  "Attention improves sequence alignment.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Text Classification",
+                desc: [
+                  "Assign labels to text (spam, sentiment, categories).",
+                  "Use embeddings + neural networks or transformer models.",
+                  "Evaluate using accuracy, precision, recall, F1-score.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Topic Modeling",
+                desc: [
+                  " Discover hidden topics in text collections.",
+                  "LDA and embedding-based topic extraction.",
+                  "Group documents by common themes.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "NLP Evaluation Metrics",
+                desc: [
+                  " Accuracy and confusion matrix.",
+                  "Precision, Recall, and F1-Score.",
+                  "BLEU score for text generation.",
+                  "Perplexity for language models.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Computer Vision",
+                desc: [
+                  "Image Fundamentals",
+                  "Image representation using pixels, channels, and encoding.",
+                  "Histogram analysis to study brightness and contrast.",
+                  "Image transformations: resize, rotate, flip, crop.",
+                  "Image filtering: Gaussian, median, bilateral for smoothing and noise removal.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Convolutional Neural Networks (CNNs)",
+                desc: [
+                  "Convolution operation, padding, and stride basics.",
+                  "Pooling layers for reducing spatial size.",
+                  "CNN architectures",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Image Classification",
+                desc: [
+                  "Softmax classifier for predicting class probabilities.",
+                  "Transfer learning using pre-trained models.",
+                  "Data augmentation to improve generalization.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Object Detection & Localization",
+                desc: [
+                  "Traditional methods: HOG + SVM.",
+                  "Deep learning-based detectors",
+                  "R-CNN , Fast R-CNN, Faster R-CNN",
+                  "YOLO (v3–v8), SSD, RetinaNet",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Image Segmentation",
+                desc: [
+                  "Semantic segmentation – classify every pixel.",
+                  "FCN – fully convolutional networks.",
+                  "U-Net – encoder–decoder for medical images.",
+                  "DeepLab – atrous convolutions for better context.",
+                  "Instance segmentation – detect + segment each object.",
+                  "Mask R-CNN – adds mask prediction to Faster R-CNN.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Computer Vision with Transformers",
+                desc: [
+                  "Vision Transformers (ViT) – split image into patches, use attention.",
+                  "DETR – transformer-based end-to-end object detection.",
+                  "Swin Transformer – hierarchical vision transformer.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " RL Fundamentals & Core Method",
+                desc: [
+                  " Agent–environment interaction, rewards, actions, policies.",
+                  "Markov Decision Processes (MDP) and Bellman equations essentials.",
+                  "Exploration–exploitation strategies (ε-greedy, softmax).",
+                  "Monte Carlo, TD Learning, SARSA, Q-Learning basics.",
+                  "Policy Gradients and Actor–Critic (REINFORCE, A2C/A3C).",
+                  "Classic use cases: game-playing AI and simulation environments.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Deep RL & Advanced Algorithms",
+                desc: [
+                  "Convolution operation, padding, and stride basics.",
+                  "Deep Q-Networks (DQN) with neural networks + experience replay.",
+                  "Advanced Actor–Critic methods: PPO, DDPG, TD3, SAC.",
+                  "Continuous control with policy gradient deep models.",
+                  "Multi-Agent RL: cooperative, competitive, and mixed settings.",
+                  "Transfer learning, fine-tuning, and lifelong RL concepts.",
+                  "Applications: robotics, autonomous driving, finance, recommendation systems.",
                 ],
               },
             },
@@ -6361,7 +6501,7 @@ export const NewDSAData = [
 
       {
         Module7: {
-          title: "Term 7 – Advanced Data Science",
+          title: "Term 7 – Deployment & MLOps",
           hours: "(3 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -6369,114 +6509,351 @@ export const NewDSAData = [
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Advanced Data Science",
+          points: "",
           content: [
             {
               chap: {
-                title: " Introduction to Stats & Statistical Thinking ",
+                title: "Model Serving & Packaging",
                 desc: [
-                  "Types of variables: quantitative, and qualitative",
-                  "Role of descriptive vs inferential statistics.",
-                  "Understanding data distribution and variability",
-                  "Probability basics including experiments, outcomes, and events.",
+                  "FastAPI / Flask Serving: Build lightweight APIs to expose ML models.",
+                  "Model Packaging (BentoML / MLflow Models): Standardize models for easy deployment.",
+                  "Dockerization: Wrap the model + API into containers for consistent execution.",
+                  "Local Testing: Validate predictions, latency, and real-world behavior before cloud use.",
                 ],
               },
             },
             {
               chap: {
-                title: "Probability Concepts",
+                title: "Cloud Deployment Essentials",
                 desc: [
-                  "Probability distribution function (PDF) and cumulative distribution function (CDF).",
-                  "Conditional probability and real-life applications.",
-                  "Bayes' Theorem and its use in classification problems.",
-                  "Mutually exclusive, joint, dependent, and independent events",
-                  "Problem-solving exercises to strengthen probability intuition.",
+                  "AWS & Azure Basics: S3/Blob storage, compute instances, IAM essentials.",
+                  "Deployment Platforms: SageMaker / Azure ML for quick hosted endpoints.",
+                  "CI/CD for Deployment: Automate build → test → deploy workflows.",
+                  "Basic Monitoring: Track API uptime, latency, and failure rates.",
                 ],
               },
             },
             {
               chap: {
-                title: "Population & Sampling Fundamentals",
+                title: " Reproducible ML Workflow",
                 desc: [
-                  "Difference between population and sample in real-world studies.",
-                  "Importance of sample size and its effect on confidence.",
-                  "Sampling methods: simple random, systematic, cluster, stratified.",
-                  "Non-probability sampling: convenience, quota, snowball, judgment ssampling.",
+                  "Data & Model Versioning: Manage dataset changes using DVC; track models via MLflow Registry.",
+                  "Experiment Tracking: Log metrics, hyperparameters, artifacts using MLflow or Weights & Biases.",
+                  "Pipeline Automation: Build training & inference pipelines with Airflow, ZenML, or Kedro.",
                 ],
               },
             },
             {
               chap: {
-                title: "Statistics",
+                title: "Continuous Training, Deployment & Monitoring",
                 desc: [
-                  "Measures of central tendency: mean, median, mode.",
-                  "Measures of dispersion: variance, standard deviation, range, IQR.",
-                  "Shape analysis: skewness and kurtosis interpretation.",
-                  "ANOVA / ANCOVA for comparing model performance.",
-                  "Central Limit Theorem and sampling distribution behavior.",
-                  "Point estimates vs interval estimates.",
-                  "Characteristics of Z-distribution and T-distribution.",
-                  "Type I and Type II errors with practical meaning.",
+                  "CT Pipelines: Auto-trigger re-training when new data arrives or drift is detected.",
+                  "Automated Deployment: CI/CD pipelines using GitHub Actions, Jenkins, or GitLab CI.",
+                  "Model Monitoring: Detect drift, data issues, and performance degradation (Evidently, WhyLabs).",
+                  "Alerts & Rollbacks: Automatically promote or revert model versions using a registry.",
+                ],
+              },
+            },
+          ],
+          id: 7,
+          open: false,
+        },
+      },
+      {
+        Module8: {
+          title: "Term 8 – Data Analytics & VisualizationTools",
+          hours: "(1.5 Months)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Data Analytics & VisualizationTools",
+          content: [
+            {
+              chap: {
+                title: "Analytics Essentials with Excel",
+                desc: [
+                  " Excel Basics & Core Functions: Interface, data types, formulas",
+                  "Lookup functions, conditional functions, and text functions.",
+                  "Data Preparation & Cleaning: Import/export, missing data handling, validation, formatting",
+                  "Power Query for cleaning & automation.",
+                  "Statistical & Analytical Techniques: Descriptive statistics, exploratory analysis, filters/sorting, what-if analysis, goal seek.",
+                  "Pivot-Based Analysis: PivotTables for summarization, grouping, segmentation, slicers, and data-driven insights.",
                 ],
               },
             },
             {
               chap: {
-                title: "Hypothesis Testing",
+                title: " Visualization & Advanced Analytics",
                 desc: [
-                  "  Formulating null and alternative hypotheses.",
-                  "Z-test, t-test, chi-square test basics.",
-                  "Using the empirical rule and Z-table.",
-                  "Normal and binomial distributions with applications.",
+                  "Charts & Visualization Methods: Bar, line, pie, scatter, combo charts, advanced charting, conditional formatting for insights",
+                  "Interactive Dashboards: PivotCharts, KPI visuals, storytelling layouts, mini dashboard creation.",
+                  "Data Modeling & Power Tools: Power Pivot, relationships, basic DAX concepts, Excel add-ins for extended analytics.",
+                  "Projects & Applications: Business case studies, forecasting,reporting mini-projects, and real-world analytics workflows.",
                 ],
               },
             },
             {
               chap: {
-                title: "Exploratory Data Analysis (EDA)",
+                title: "Power BI Essentials",
                 desc: [
-                  "Five-point summary: min, Q1, median, Q3, max.",
-                  "Box plot construction and interpretation.",
-                  "Outliers: causes, impact, and detection.",
-                  "Outlier treatment using IQR and Z-score methods",
+                  "Data Prep with Power Query: Clean, transform, merge, unpivot, format text/date/number fields.",
+                  "Data Modeling: Relationships, granularity, aggregations, timeseries basics, calculated columns.",
+                  "Core Visuals & Interactivity: Bar, pie, line, maps, cards, slicers, filters, drill-down, bookmarks.",
+                  "Connecting & Working with Data: Load from Excel/SQL, model views, query editor, BI best practices.",
                 ],
               },
             },
             {
               chap: {
-                title: "Regression Analysis - Supervised Learning",
+                title: "Visuals, Dashboards & DAX Analytics",
                 desc: [
-                  "Correlation & regression assumptions",
-                  "Linear regression mechanics (cost, optimization, gradient descent)",
-                  "Model training workflow (train–test split, prediction)",
-                  "Multiple regression & feature interactions",
-                  "Residual analysis & diagnostics",
-                  "Evaluation, generalization & regularization (RMSE, MAE, R², L1/L2)",
+                  "Advanced Visuals: Funnel, ribbon, waterfall, treemap, gauge, scatter, KPIs & combos.",
+                  "DAX for Analytics: Measures, calculations, time-intelligence functions.",
+                  "Dashboard Design: Layouts, formatting, interactivity, storytelling, sharing & collaboration.",
+                  "Projects: Customer segmentation dashboard, exploratory BI reports, hands-on visual assignments.",
                 ],
               },
             },
             {
               chap: {
-                title: "Classification Analysis - Supervised Learning",
+                title: " Tableau Essentials & Data Preparation",
                 desc: [
-                  "Logistic Regression, sigmoid function & MLE",
-                  "Linear vs logistic comparison",
-                  "Class imbalance handling (sampling techniques)",
-                  "Decision Trees & Random Forests",
-                  "KNN: distance metrics, K-value selection & curse of dimensionality",
-                  "Naive Bayes: assumptions & likelihood",
-                  "Evaluation metrics: Precision, Recall, F1, ROC-AUC & cross validation",
-                  "Project: Classification problem with real business data.",
+                  "Connecting & Preparing Data: Data types, joins, blending, pivots, transformations, SQL connections.",
+                  "Core Visual Building: Bar, line, pie, scatter, bubble, maps (geo, custom geocoding, polygon, WMS).",
+                  "Data Exploration Tools: Filters, groups, sets, parameters, drill-down, marks, dimensions & measures.",
+                  "View & Layout Tools: Shelves, cards, sorting, formatting, captions, exporting, metadata management.",
                 ],
               },
             },
             {
               chap: {
-                title: "Unsupervised Learning Introduction - Clustering",
+                title: "Visual Analytics, Dashboards & Advanced Features",
                 desc: [
-                  "  K-means clustering: centroid optimization and within-cluster sum of squares",
-                  "Cluster validation: elbow method, silhouette analysis, and optimal selection",
-                  "Distance metrics: Euclidean, Manhattan, and domain-specific measures",
+                  "Advanced Visuals: Tree maps, heat maps, bump charts, funnel, waterfall, histogram, bullet & motion charts.",
+                  "Calculations & Analytics: Calculated fields, LOD expressions, trends, forecasting, predictive visuals.",
+                  "Dashboards & Storytelling: Interactive dashboards, stories, actions, design best practices, publishing & collaboration (Tableau Online).",
+                  "Projects & Applications: Build multi-chart dashboards, map-based visuals, predictive model integration.",
+                ],
+              },
+            },
+          ],
+          id: 7,
+          open: false,
+        },
+      },
+      {
+        Module9: {
+          title: "Term 9 – DATA BASE MANAGEMENT SYSTEM",
+          hours: "(1.5 Months)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "DATA BASE MANAGEMENT SYSTEM",
+          content: [
+            {
+              chap: {
+                title: " SQL Fundamentals",
+                desc: [
+                  "Core SQL & RDBMS Basics: Syntax, data types, tables, CRUD operations, querying single tables.",
+                  "Filtering & Retrieval: WHERE, ORDER BY, DISTINCT, logical operators, formatting results.",
+                  "Joins & Multi-Table Queries: INNER, LEFT, RIGHT, FULL, CROSS joins, UNION, subqueries, nested queries.",
+                  "Aggregations & Analytics: GROUP BY, HAVING, summary stats, ranking functions, Top-N analysis.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Advanced SQL for Analytics",
+                desc: [
+                  "Views & Modifications: INSERT/UPDATE/DELETE, creating views, inline views.",
+                  "Optimization: Indexes, execution plans, performance tuning.",
+                  "Advanced Database Concepts: Normalization, stored procedures, functions, triggers, user-defined objects.",
+                  "SQL in Practice: Integrating SQL with Python, advanced analytical queries for real datasets.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "MongoDB Essentials",
+                desc: [
+                  " MongoDB basics, data structures, and CRUD operations",
+                  "Querying data, indexing strategies, and performance tuning",
+                  "Schema design, aggregation workflows, and data processing",
+                  "NoSQL principles, transactions, replication, and scaling concepts",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " NoSQL with MongoDB",
+                desc: [
+                  "NoSQL basics and data models (key–value, document, columnar, graph)",
+                  "MongoDB vs RDBMS and schema flexibility for scalable systems",
+                  "Data modeling, consistency ideas (CAP), replication and sharding",
+                  "NoSQL applications in analytics, caching, and distributed systems",
+                ],
+              },
+            },
+          ],
+          id: 7,
+          open: false,
+        },
+      },
+      {
+        Module10: {
+          title: "Term 10 – Big Data Analytics ",
+          hours: "(1 Months)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Big Data Analytics ",
+          content: [
+            {
+              chap: {
+                title: "Hadoop Fundamentals",
+                desc: [
+                  "Big Data & Distributed Systems: Big Data concepts, distributed architecture, Hadoop master–slave structure.",
+                  "HDFS Operations: File storage model, directories, manipulation commands, permissions, quotas.",
+                  "MapReduce Framework: Mapper–reducer flow, shuffle/sort, architecture, real-world use cases.",
+                  "Core Hadoop Components: YARN resource management, Hadoop ecosystem overview (Hive, Pig, HBase, Sqoop).",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Hadoop Ecosystem",
+                desc: [
+                  "HDFS basics, architecture, and fault-tolerant storage.",
+                  "YARN & MapReduce job execution and resource management.",
+                  "Ecosystem integration: Hive, Sqoop, and SQL/NoSQL connectivity.",
+                  "Cluster setup, configuration, scaling, and performance tuning.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Spark Fundamentals",
+                desc: [
+                  "Spark Basics: Core features, architecture, RDDs, DAGs, transformations & actions.",
+                  "Spark Environment Setup: SparkSession, standalone mode, YARN/Mesos cluster management.",
+                  "RDD & DataFrame Operations: Creation, transformations, actions, interoperability.",
+                  "Spark SQL: Structured data processing, SQL queries, DataFrame APIs.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Spark Ecosystem & Advanced Tools",
+                desc: [
+                  "Spark Streaming: Real-time pipelines, DStreams/Structured Streaming, Kafka integration.",
+                  "Spark MLlib: Feature engineering, building & training ML models, model evaluation.",
+                  "Performance Optimization: Caching, partitioning, Tungsten & Catalyst optimizer basics.",
+                  "PySpark & Integration: Using Spark with Python, connecting Spark with external data sources.",
+                ],
+              },
+            },
+          ],
+          id: 7,
+          open: false,
+        },
+      },
+      {
+        Module11: {
+          title: "Term 11 – DSA (Optional)",
+          hours: "(1 Months)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "DSA (Optional)",
+          content: [
+            {
+              chap: {
+                title: "Core Concepts & Essential Data Structures",
+                desc: [
+                  "Time & Space Complexity, Big-O analysis",
+                  "Arrays & Strings: Sliding window, prefix/suffix, searching",
+                  "Linked Lists: Operations, fast–slow pointers, cycle detection",
+                  "Stacks & Queues: Implementations, monotonic stack/queue,deques",
+                  "Hashing: Hash maps/sets, frequency tables, efficient lookups",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Trees, Graphs & Fundamental Algorithms",
+                desc: [
+                  "Trees & BSTs: Traversals, patterns, tree-based problem solving",
+                  "Heaps & Priority Queues: Top-K, scheduling, optimization tasks",
+                  "Graphs: BFS/DFS, shortest paths (Dijkstra), connectivity, cycle detection",
+                  "Advanced Graphs: Topological sort, bipartite checks, MST basics",
+                  "Sorting & Searching: Merge sort, quicksort, binary search, searchon-answer",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Problem-Solving Techniques & Developer Applications",
+                desc: [
+                  "Recursion & Backtracking: Permutations, combinations, constraint solving",
+                  "Dynamic Programming: Memoization, tabulation, common DP patterns",
+                  "Greedy Algorithms: Interval scheduling, optimal selection strategies",
+                  "Real-World Use Cases: Caching logic, rate limiting, pathfinding, optimization",
+                  "Coding Interview Skills: Patterns, debugging, performance tuning",
+                ],
+              },
+            },
+          ],
+          id: 7,
+          open: false,
+        },
+      },
+      {
+        Module12: {
+          title: "Term 12 – Project Management (Skills & Tools)",
+          hours: "15 Days",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Project Management (Skills & Tools)",
+          content: [
+            {
+              chap: {
+                title: "Agile Foundations & Practices",
+                desc: [
+                  "Scrum framework: roles, ceremonies & artifacts",
+                  "Sprint planning, daily standups, reviews & retrospectives",
+                  "Kanban boards, WIP limits & workflow optimization",
+                  "User stories, story points, estimation & backlog prioritization",
+                  "Agile metrics: velocity, burndown charts, cycle time & throughput",
+                  "Managing cross-functional AI/Data Science projects",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Tools & Practical Project Execution",
+                desc: [
+                  "Jira setup: projects, backlogs, sprints & issue tracking",
+                  "Scrum & Kanban boards, dashboards, filters & reports",
+                  "Collaboration features: comments, mentions, notifications & permissions",
+                  "Jira free-tier limitations & best practices",
+                  "Open-source PM tools: OpenProject, Taiga, iceScrum & Redmine",
+                  "Communication & team coordination tools (Slack, Teams, Confluence)",
                 ],
               },
             },
