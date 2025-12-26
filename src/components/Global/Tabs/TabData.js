@@ -116,7 +116,7 @@ export const TabData = [
       {
         CName: "Data Science and Generative AI  Program",
         hours: "5 Months",
-        url: "data-science-and-genai-program",
+        url: "/data-science-and-genai-program",
       },
       {
         CName: "Data Analytics and Business Analytics with Generative AI",
