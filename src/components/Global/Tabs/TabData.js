@@ -187,29 +187,29 @@ export const TabData = [
       // },
       {
         CName: "Cloud and DevOps Engineering Masters Certification",
-        hours: "8 Months",
+        hours: "9 Months",
         url: "/cloud&devops/cloud-and-devops-for-system-administrators-master-certification",
       },
 
       {
         CName: "Cloud & DevOps for Network Professionals",
-        hours: "5-6 Months",
-        url: "/cloud&devops/cloud-devops-for-network-professionals",
+        hours: "5 Months",
+        url: "/cloud-devops-for-network-professionals",
       },
       {
         CName: "Cloud & DevOps for System Administrators",
-        hours: "5-6 Months",
-        url: "/cloud&devops/cloud-and-devOps-for-system-administrators",
+        hours: "5 Months",
+        url: "/cloud-and-devOps-for-system-administrators",
       },
       {
         CName: "Cloud & DevOps for IT Support & IT Operations",
-        hours: "5-6 Months",
-        url: "/cloud&devops/cloud-and-devops-for-it-support-and-it-operations",
+        hours: "5 Months",
+        url: "/cloud-and-devops-for-it-support-and-it-operations",
       },
       {
         CName: "Cloud & DevOps for Database Administrators",
-        hours: "5-6 Months",
-        url: "/cloud&devops/cloud-and-devops-for-database-administrators",
+        hours: "5 Months",
+        url: "/cloud-and-devops-for-database-administrators",
       },
     ],
   },

@@ -6235,7 +6235,7 @@ export const NewDSAData = [
       {
         Module6: {
           title: "Term 6 – Advanced Data Science",
-          hours: "(1 Months)",
+          hours: "(3 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -6502,7 +6502,7 @@ export const NewDSAData = [
       {
         Module7: {
           title: "Term 7 – Deployment & MLOps",
-          hours: "(3 Months)",
+          hours: "(1 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -6647,7 +6647,7 @@ export const NewDSAData = [
       {
         Module9: {
           title: "Term 9 – DATA BASE MANAGEMENT SYSTEM",
-          hours: "(1.5 Months)",
+          hours: "(2 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:

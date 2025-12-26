@@ -444,7 +444,7 @@ export const NewDSAData = [
     masterSyllabusMobile: [
       {
         Module0: {
-          title: "Term 1 - Cloud Basics and Linux Fundamentals",
+          title: "Module 1 - Cloud Basics and Linux Fundamentals",
           hours: "20 Hours",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp",
@@ -473,7 +473,7 @@ export const NewDSAData = [
 
       {
         Module1: {
-          title: "Term 2 – Python Programming Essentials",
+          title: "Module 2 – Python Programming Essentials",
           hours: "25 Hours",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -503,7 +503,7 @@ export const NewDSAData = [
 
       {
         Module2: {
-          title: "Term 3 – AWS Cloud Practitioner",
+          title: "Module 3 – AWS Cloud Practitioner",
           hours: " 20–25 Hours",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -532,7 +532,7 @@ export const NewDSAData = [
 
       {
         Module3: {
-          title: "Term 4 – AWS Associate & Professional Solutions Architect",
+          title: "Module 4 – AWS Associate & Professional Solutions Architect",
           hours: "30 Hours",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -561,7 +561,7 @@ export const NewDSAData = [
       },
       {
         Module6: {
-          title: "Term 5 - DevOps Mastery – Infrastructure & Automation ",
+          title: "Module 5 - DevOps Mastery – Infrastructure & Automation ",
           hours: "60 Hours",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -596,7 +596,7 @@ export const NewDSAData = [
       },
       {
         Module4: {
-          title: "Term 6 – Microsoft Azure Proficiency (Optional)",
+          title: "Module 6 – Microsoft Azure Proficiency (Optional)",
           hours: " 40 Hours",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -656,7 +656,7 @@ export const NewDSAData = [
 
       {
         Module9: {
-          title: "Term 7 - MLOps Engineering ",
+          title: "Module 7 - MLOps Engineering ",
           hours: "40 Hours",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",

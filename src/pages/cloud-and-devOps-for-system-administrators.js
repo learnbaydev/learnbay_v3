@@ -6,17 +6,18 @@ import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/Updat
 import GenAIProject from "@/components/CoursePage/genAiProject/GenAIProject";
 import Newheader from "@/components/CoursePage/newHeaderCloudAndDevOps/newHeader";
 import NewTools from "@/components/CoursePage/newTools/NewTools";
-import AlumniCompaniesCloudDevopsNP from "@/components/CoursePage/newUICourse/AlumniCompaniesCloudDevopsNP";
-import LearningToPlacementNP from "@/components/CoursePage/newUICourse/LearningToPlacementNP/LearningToPlacement";
+import AlumniCompaniesCloudDevopsSA from "@/components/CoursePage/newUICourse/AluminiCompaniesCloudDevopsSA";
+import LearningToPlacementSA from "@/components/CoursePage/newUICourse/LearningToPlacementSA/LearningToPlacement";
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import Navbar from "@/components/Global/Navbar/Navbar";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import React from "react";
-import highlightsData from "@/Data/highlightsDataNP";
-const AnimationNew1 = dynamic(() =>
-  import("@/components/Home/whyChooseSection/whylblimitedNP")
+import highlightsData from "@/Data/highlightsDataSA";
+import AlumniCompaniesCloudDevopsSystemAdministrator from "@/components/CoursePage/newUICourse/AluminiCompaniesCloudDevopsSA";
+const AnimationNew2 = dynamic(() =>
+  import("@/components/Home/whyChooseSection/whylblimitedSA")
 );
 const JobReadySection = dynamic(() =>
   import("@/components/CoursePage/NewDSA/JobReadySection/JobReadySection")
@@ -43,7 +44,7 @@ const SyllabusNew = dynamic(() =>
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-Network-Professionals.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-System-Admin-Professionals+.pdf";
   return (
     <>
       <Head>
@@ -175,19 +176,19 @@ Cloud and DevOps master certification"
           descrption={NewDSAData[0].header[0].descrption}
           svgDSA={NewDSAData[0].header[0].svgDSA}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-Network-Professionalslink.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-System-Admin-Professionalslink.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
-        <AlumniCompaniesCloudDevopsNP
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-Network-Professionalslink.pdf"
+        <AlumniCompaniesCloudDevopsSA
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-System-Admin-Professionalslink.pdf"
           brochurePdf={pdfUrl}
         />
-        <LearningToPlacementNP time="150" guided="10" />
+        <LearningToPlacementSA time="150" guided="10" />
 
         <HighlightsAdminSection cloud={true} highlightsData={highlightsData} />
 
-        <AnimationNew1 />
+        <AnimationNew2 />
         <JobReadySection />
         <ReviewSlider idss="eautK0odE7Q" showRealStories={false} />
         <MentorsSection />
@@ -201,7 +202,7 @@ Cloud and DevOps master certification"
           dataScience={true}
           interstedInHide={true}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-Network-Professionalslink.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-System-Admin-Professionalslink.pdf"
           brochurePdf={pdfUrl}
           downloadBrochure={true}
         /> */}
@@ -265,7 +266,7 @@ export default NewDSA;
 
 export async function getStaticProps() {
   const module = await import(
-    "../../Data/cloud-devops-for-network-professionals-data"
+    "../Data/cloud-and-devOps-for-system-administrators-data"
   );
   const data = module.default;
 

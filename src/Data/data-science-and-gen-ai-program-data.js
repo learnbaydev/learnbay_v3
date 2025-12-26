@@ -17,7 +17,6 @@ export const NewDSAData = [
             color: true,
             gradient: "linear-gradient(90deg, #E85868 58.95%, #8081FF 73.36%)",
           },
-          { text: " Program", color: false },
         ],
         points: [
           {
@@ -49,13 +48,13 @@ export const NewDSAData = [
             width: "60",
             height: "30",
           },
-          {
-            id: 3,
-            img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Microsoft.webp",
-            imgAlt: "image",
-            width: "130",
-            height: "30",
-          },
+          // {
+          //   id: 3,
+          //   img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Microsoft.webp",
+          //   imgAlt: "image",
+          //   width: "130",
+          //   height: "30",
+          // },
         ],
         descrption:
           "Successfully transition careers through our courses & real-time capstone projects. All while making your previous work experience count!",
