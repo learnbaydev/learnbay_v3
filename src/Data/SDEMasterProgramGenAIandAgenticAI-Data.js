@@ -9,8 +9,7 @@ export const NewDSAData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
         title: [
           {
-            text: "SDE Master Program",
-
+            text: "SDE Master Program\n",
             color: true,
             gradient:
               "linear-gradient(90deg, #7eb6f9 0%, #d1a4e8 50%, #f78dc7 100%)",
@@ -7087,7 +7086,7 @@ export const NewDSAData = [
       {
         Module3: {
           title: "Term 3 – Generative AI",
-          hours: "(3 Months)",
+          hours: "(1.5 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -7371,6 +7370,462 @@ export const NewDSAData = [
             },
           ],
           id: 4,
+          open: false,
+        },
+      },
+
+      {
+        Module5: {
+          title: "Term 5 – AI-Powered System Design & DSA",
+          hours: "(1 Months)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Agentic AI & Autonomous Systems",
+          content: [
+            {
+              chap: {
+                title: "  AI-Powered System Design Foundations ",
+                desc: [
+                  "Principles for designing scalable GenAI and agentic applications.",
+                  "Patterns for context routing, retrieval layers, and orchestration.",
+                  "Latency, cost, safety, and reliability considerations in AI systems.",
+                  "Architecture choices for multimodal, RAG, and multi-agent workflows.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Production Architecture & Infrastructure Patterns",
+                desc: [
+                  "Event-driven AI system patterns for enterprise workloads.",
+                  "Model gateways, inference routers, and distributed retrieval patterns.",
+                  "Monitoring, observability, fallback systems, and guardrail enforcement.",
+                  "Designing multi-environment deployments for regulated enterprises.",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+
+      {
+        Module6: {
+          title: "Term 6 – Applied DSA",
+          hours: "(1 Months)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Agentic AI & Autonomous Systems",
+          content: [
+            {
+              chap: {
+                title: "  Data Structures for AI Engineering ",
+                desc: [
+                  "Hashmaps, heaps, queues, and stacks for fast AI workflows.",
+                  "Graphs for reasoning agents, routing, and LangGraph structures.",
+                  "Trees, tries, and search structures supporting token-level operations.",
+                  "Optimized data pipelines and memory-efficient structures.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Algorithms for Retrieval, Ranking & Orchestration",
+                desc: [
+                  "Search, ranking, and scoring algorithms for retrieval pipelines.",
+                  "Scheduling patterns for orchestrating multi-step agent workflows.",
+                  "String, parsing, and sequence algorithms for preprocessing tasks.",
+                  "Time-space tradeoffs for scalable AI microservices.",
+                ],
+              },
+            },
+          ],
+          id: 6,
+          open: false,
+        },
+      },
+
+      {
+        Module7: {
+          title:
+            "Elective A - LLM-Powered Software Engineering & Developer Copilots",
+          hours: "(40 Hours)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Agentic AI & Autonomous Systems",
+          content: [
+            {
+              chap: {
+                title: "  AI-Augmented Coding & Software Productivity ",
+                desc: [
+                  "AI accelerates repetitive coding tasks with consistent patterns.",
+                  "Models generate clean boilerplate supporting rapid development cycles.",
+                  "Documentation tools convert source code into human-readable summaries.",
+                  "AI suggestions reduce coding effort across common workflows.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Intelligent Code Understanding, Search & Refactoring",
+                desc: [
+                  "Semantic models interpret large repositories with high accuracy.",
+                  "AI identifies hidden code issues using structural reasoning.",
+                  "Refactoring suggestions improve maintainability across codebases.",
+                  "Semantic search links related logic across distant files.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Automated Testing, Debugging & Quality Assurance",
+                desc: [
+                  "AI generates strong unit tests from contextual code understanding.",
+                  "Debugging agents detect failures using learned error patterns.",
+                  "Automated QA workflows enforce code consistency during releases.",
+                  "Intelligent testing reduces regressions across evolving features.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Developer Copilot & Engineering Automation Agents",
+                desc: [
+                  "Multi-agent copilots support complete development workflows autonomously.",
+                  "Memory systems maintain understanding across large repositories.",
+                  "Tool-calling enables automated refactoring and documentation generation.",
+                  "IDE plugins deliver real-time coding assistance with context.",
+                ],
+              },
+            },
+          ],
+          id: 7,
+          open: false,
+        },
+      },
+
+      {
+        Module8: {
+          title: "Elective B - Cloud, DevOps & LLM Infrastructure Engineering",
+          hours: "(40 Hours)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Agentic AI & Autonomous Systems",
+          content: [
+            {
+              chap: {
+                title: " Cloud Foundations for LLM Infrastructure  ",
+                desc: [
+                  "Cloud services provision scalable compute for heavy AI workloads.",
+                  "Storage layers handle embeddings, logs, and large model artifacts.",
+                  "Serverless functions trigger lightweight AI execution pipelines.",
+                  "Identity services protect sensitive model access endpoints.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Containerization & Deployment for AI Systems",
+                desc: [
+                  "Containers bundle AI runtimes into portable execution units.",
+                  "GPU-enabled images optimize inference throughput for models.",
+                  "Reverse proxies manage traffic for inference endpoints securely.",
+                  "CI pipelines automate container builds across multiple environments.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Observability, Monitoring & System Reliability",
+                desc: [
+                  "Distributed tracing reveals performance issues in AI microservices.",
+                  "Log pipelines capture events from inference and agent workflows.",
+                  "Metrics visualize latency, throughput, and performance trends.",
+                  "Alerts instantly detect multi-cloud failures.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Enterprise-Grade LLM Infrastructure & Governance",
+                desc: [
+                  "Infrastructure policies control access to deployed AI services.",
+                  "Cost governance monitors model usage across various workloads.",
+                  "Network policies secure vector stores, APIs, and inference gateways.",
+                  "Compliance workflows validate deployments against enterprise standards.",
+                ],
+              },
+            },
+          ],
+          id: 8,
+          open: false,
+        },
+      },
+      {
+        Module9: {
+          title:
+            "Elective C - Backend Engineering for LLM Applications & RAG Microservices",
+          hours: "(40 Hours)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Agentic AI & Autonomous Systems",
+          content: [
+            {
+              chap: {
+                title: " Backend Architecture for AI-Driven Applications ",
+                desc: [
+                  "Backend services orchestrate LLM workflows behind APIs.",
+                  "Routing layers manage dynamic prompt construction and responses.",
+                  "Middleware organizes context injection across pipelines.",
+                  "Modular design supports flexible AI integration.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "High-Performance API Engineering for LLM Services",
+                desc: [
+                  "Async servers handle concurrent AI requests efficiently.",
+                  "Request batching reduces model latency during peak load.",
+                  "Streaming responses improve perceived responsiveness significantly.",
+                  "API gateways unify authentication across all LLM endpoints.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Caching, Persistence & Storage for AI Microservices",
+                desc: [
+                  "Caches reduce repeated model computation for identical prompts.",
+                  "Persistent layers store structured outputs and audit trails.",
+                  "Feature stores retain embeddings and conversation context.",
+                  "Distributed storage supports multi-service AI architectures reliably.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Distributed RAG & AI Microservice Patterns",
+                desc: [
+                  "AI microservices collaborate through event-driven pipelines.",
+                  "Retrieval microservices expose optimized document search endpoints.",
+                  "Orchestration layers coordinate multi-step LLM tasks programmatically.",
+                  "Backend agents route tasks between independent functional services",
+                ],
+              },
+            },
+          ],
+          id: 9,
+          open: false,
+        },
+      },
+
+      {
+        Module10: {
+          title:
+            "Elective D - Distributed Systems & Microservices for AI Applications",
+          hours: "(40 Hours)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Agentic AI & Autonomous Systems",
+          content: [
+            {
+              chap: {
+                title: " Distributed Systems Fundamentals for AI Workloads ",
+                desc: [
+                  "Distributed systems handle large-scale AI traffic efficiently.",
+                  "Services communicate reliably using structured protocols and patterns.",
+                  "Replication improves availability across unpredictable workloads.",
+                  "Consensus mechanisms ensure consistency under pressure.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Microservices Design for AI-Driven Platforms",
+                desc: [
+                  "Microservices encapsulate isolated AI responsibilities cleanly.",
+                  "Communication patterns define service interactions across boundaries.",
+                  "Circuit breakers protect systems during failures.",
+                  "Service meshes manage traffic with advanced observability.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Scaling, Load Management & Fault Tolerance",
+                desc: [
+                  "Load balancers distribute traffic across multiple service replicas.",
+                  "Auto-scaling adapts deployments to fluctuating AI demand.",
+                  "Retry strategies reduce failure impact during transient issues.",
+                  "Fault tolerance improves reliability under distributed stress.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Distributed RAG & AI Microservice Patterns",
+                desc: [
+                  "Distributed Data, Messaging & Workflow Coordination",
+                  "Event systems coordinate asynchronous work across AI components.",
+                  "Distributed logs maintain ordered data streams for workflows.",
+                  "Coordination services manage worker states and distributed tasks.",
+                  "Message queues provide reliable delivery for background processing.",
+                ],
+              },
+            },
+          ],
+          id: 10,
+          open: false,
+        },
+      },
+
+      {
+        Module11: {
+          title:
+            "Elective E - Multi-Agent Systems, Workflow Automation & Enterprise Orchestration",
+          hours: "(40 Hours)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Agentic AI & Autonomous Systems",
+          content: [
+            {
+              chap: {
+                title: "  Advanced Multi-Agent Collaboration Patterns  ",
+                desc: [
+                  "Agents collaborate using structured communication roles and hierarchies.",
+                  "Workflows distribute tasks across specialized agents.",
+                  "Protocols ensure predictable agent interactions.",
+                  "Delegation improves multi-step autonomy.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Enterprise Workflow Automation with Agent Teams",
+                desc: [
+                  "Agents automate repetitive business workflows end-to-end reliably.",
+                  "Event triggers activate agent tasks across enterprise systems.",
+                  "Workflow guards enforce rules before executing critical actions.",
+                  "Cross-system automation reduces manual intervention for large operations.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Context Sharing, Memory, and Tool Ecosystems",
+                desc: [
+                  "Agents share contextual state for consistent multi-step reasoning.",
+                  "Memory layers persist results across long-running workflows.",
+                  "Tool ecosystems allow agents to act within real systems safely.",
+                  "Structured context routing improves decision accuracy.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Large-Scale Orchestration, Governance & Reliability",
+                desc: [
+                  "Enterprise orchestration frameworks manage thousands of parallel agents.",
+                  "Governance rules ensure compliant and traceable agent behavior.",
+                  "Monitoring dashboards visualize reasoning steps across agent workflows.",
+                  "Reliability patterns handle failures gracefully during complex automation.",
+                ],
+              },
+            },
+          ],
+          id: 11,
+          open: false,
+        },
+      },
+
+      {
+        Module12: {
+          title: "Elective F - GenAI & Agentic AI for Product Managers",
+          hours: "(40 Hours)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Agentic AI & Autonomous Systems",
+          content: [
+            {
+              chap: {
+                title: "  AI-Driven Product Thinking & Use-Case Design ",
+                desc: [
+                  "PMs identify impactful AI opportunities using structured frameworks.",
+                  "Problem discovery validates user needs before AI solutions.",
+                  "GenAI capability maps align features with model strengths.",
+                  "Prioritization frameworks guide AI roadmap decisions effectively.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Designing GenAI Experiences & User Workflows",
+                desc: [
+                  "AI products require clear interaction patterns for usability.",
+                  "Workflow blueprints define data flow and decision points.",
+                  "Guardrails protect users from harmful or incorrect outputs.",
+                  "UX patterns support transparent and intuitive AI experiences.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Agentic AI Product Architecture & Lifecycle Planning",
+                desc: [
+                  "Agent teams enable automated workflows for business users.",
+                  "Execution loops coordinate actions across complex tasks.",
+                  "PMs define agent roles and operational boundaries clearly.",
+                  "Lifecycle planning covers evaluation and deployment readiness.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "AI Governance, Risk, Evaluation & Success Metrics",
+                desc: [
+                  "PMs define evaluation metrics for accuracy, safety, and value.",
+                  "Governance ensures responsible behavior across AI features.",
+                  "Risk frameworks identify potential failures before deployment.",
+                  "Success metrics measure adoption, efficiency, and business impact.",
+                ],
+              },
+            },
+          ],
+          id: 12,
           open: false,
         },
       },
