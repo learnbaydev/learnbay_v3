@@ -7374,6 +7374,80 @@ export const NewDSAData = [
           open: false,
         },
       },
+
+      {
+        Module4: {
+          title: "Elective - (Choose Any 2)",
+          hours: "(1 Month)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Agentic AI & Autonomous Systems",
+          content: [
+            {
+              chap: {
+                title: " GenAI and Agentic AI for BFSI ",
+                desc: [
+                  "AI solutions for fraud detection, credit risk modeling, customer intelligence, underwriting automation, and financial copilots.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "GenAI for Retail",
+                desc: [
+                  "Build AI systems for demand forecasting, personalized recommendations, inventory optimization, and customer experience automation.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "GenAI for Manufacturing",
+                desc: [
+                  "Apply GenAI for predictive maintenance, quality inspection, supply chain intelligence, and factory optimization.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "GenAI for Healthcare",
+                desc: [
+                  "evelop AI use cases for clinical decision support, medical document analysis, diagnostics assistance, and patient data intelligence.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "GenAI for Cloud & Devops",
+                desc: [
+                  "Design autonomous agents, AI-driven CI/CD, monitoring agents, RAG pipelines, and production-grade MLOps systems.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "GenAI for Managers & Leaders",
+                desc: [
+                  "Learn Project Management uing AI, Gen AI for Digital Business Transformation , AI governance, agent-based decision systems.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "GenAI for Software Developers",
+                desc: [
+                  "Build LLM-powered applications, APIs, copilots, autonomous agents, and GenAI features using modern frameworks.",
+                ],
+              },
+            },
+          ],
+          id: 4,
+          open: false,
+        },
+      },
     ],
 
     certificateNew: [
