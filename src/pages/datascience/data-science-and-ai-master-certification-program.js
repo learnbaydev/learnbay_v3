@@ -61,6 +61,9 @@ import FeeSection from "@/components/course/feeSection/FeeSectionCourse";
 import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/UpdatedCertificate";
 import HighlightsSection from "@/components/CoursePage/newUICourse/Support/HighlightsSection";
 import ToolsCovered from "@/components/CoursePage/ToolsCovered/ToolsCovered";
+const SyllabusNew = dynamic(() =>
+  import("@/components/CoursePage/Syllabus/MasterSyllabus2025")
+);
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
@@ -227,8 +230,9 @@ const NewDSA = ({ DSADataJson }) => {
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Science_and_Generative_AI_Master_Certification%2BProgram.pdf"
           brochurePdf={pdfUrl}
         />
+
         <Other />
-        <DSASyllabus
+        {/*  <DSASyllabus
           sections={NewDSAData[0].sections}
           dataScience={true}
           interstedInHide={true}
@@ -236,6 +240,10 @@ const NewDSA = ({ DSADataJson }) => {
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Science_and_Generative_AI_Master_Certification%2BProgram.pdf"
           brochurePdf={pdfUrl}
           downloadBrochure={true}
+        />*/}
+        <SyllabusNew
+          masterSyllabusMobile={NewDSAData[0].masterSyllabusMobile}
+          onlyGENAIPage={true}
         />
 
         <ToolsCovered />
