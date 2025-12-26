@@ -1037,6 +1037,7 @@ export const courses = {
       brochurePdfs:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/GenAI+Developer+Master+Certification+Program.pdf",
     },
+
     {
       title: "Generative AI and Agentic AI for Managers & Leaders",
       duration: "4 months",

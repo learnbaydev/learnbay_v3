@@ -13,7 +13,7 @@ export default function AppliedAIHero() {
   };
 
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/IITPatnaAppliedAIProgram.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/IIT+Patna+Applied+AI+Program2025_compressed.pdf";
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = pdfUrl;

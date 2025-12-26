@@ -17,7 +17,7 @@ export const NewDSAData = [
               "linear-gradient(90deg, #7eb6f9 0%, #d1a4e8 50%, #f78dc7 100%)",
           },
           {
-            text: " Program For Automotive ",
+            text: " Program For Automotive Professionals",
             color: false,
           },
         ],
@@ -6845,7 +6845,7 @@ export const NewDSAData = [
       {
         Module1: {
           title: "Term 1 – Python for GenAI",
-          hours: "(2 Months)",
+          hours: "(1.5 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -6998,7 +6998,7 @@ export const NewDSAData = [
       {
         Module2: {
           title: "Term 2 – Foundation for GenAI",
-          hours: "(2 Months)",
+          hours: "(1 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -7088,7 +7088,7 @@ export const NewDSAData = [
       {
         Module3: {
           title: "Term 3 – Generative AI",
-          hours: "(3 Months)",
+          hours: "(1.5 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -7257,7 +7257,7 @@ export const NewDSAData = [
       {
         Module4: {
           title: "Term 4 – Agentic AI",
-          hours: "(1.5 Months)",
+          hours: "(15 Days)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -7377,8 +7377,8 @@ export const NewDSAData = [
       },
 
       {
-        Module4: {
-          title: "Term 5 Gen AI for Digital Business Transformation ",
+        Module5: {
+          title: "Term 5 - Gen AI for Digital Business Transformation ",
           hours: "(15 Days)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -7444,6 +7444,34 @@ export const NewDSAData = [
             },
           ],
           id: 5,
+          open: false,
+        },
+      },
+
+      {
+        Module6: {
+          title: "Term 6 - Gen AI Specialization for Automotive ",
+          hours: "(1 Month)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Agentic AI & AI-driven Decision Making",
+          content: [
+            {
+              chap: {
+                title: "Automotive Domain Fundamentals",
+                desc: [
+                  "End-to-end workflows: vehicle design,ECU development,testing,diagnostics,service,warranty",
+                  "Key technical layers: CAN logs, OBD-II signals, ECU architecture, ADAS sensors, telematics pipelines",
+                  "Industry KPIs: defect rate, warranty cost, diagnostic time, testing coverage, safety compliance",
+                ],
+              },
+            },
+          ],
+          id: 6,
           open: false,
         },
       },

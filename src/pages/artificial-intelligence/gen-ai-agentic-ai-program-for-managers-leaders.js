@@ -52,7 +52,7 @@ import {
   getDSABookingSoonDate,
 } from "@/Util/getDSABatchData";
 import AlumniCompanies from "@/components/CoursePage/newUICourse/AlumniCompanies";
-import LearningToPlacement from "@/components/CoursePage/newUICourse/LearningToPlacementinfinity/LearningToPlacement";
+import LearningToPlacement from "@/components/CoursePage/newUICourse/LearningToPlacementChild/LearningToPlacement";
 import Newheader from "@/components/CoursePage/newHeader/newHeader";
 import { MasterAI } from "@/Data/Schema/DataScienceAndAIMasterSchema";
 import FeeSection from "@/components/course/feeSection/FeeSectionCourse";
@@ -61,7 +61,7 @@ import HighlightsSection from "@/components/CoursePage/FirstPart/Support_noimage
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/GenAI+Developer+Master+Certification+Program.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Managers+and+Leaders+GenAI+and+Agentic+AI+Program2025_compressed.pdf";
 
   let soonDate = getDSABookingSoonDate();
   let laterDate = getDSABookingLaterDate();
@@ -207,15 +207,15 @@ Generative AI and Agentic AI course for working professionals
           descrption={NewDSAData[0].header[0].descrption}
           svgDSA={NewDSAData[0].header[0].svgDSA}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+Developer+Master+Certification+Programv1.pdf"
+          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Managers+and+Leaders+GenAI+and+Agentic+AI+Program2025_compressed.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
         <AlumniCompanies
-          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+Developer+Master+Certification+Programv1.pdf"
+          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Managers+and+Leaders+GenAI+and+Agentic+AI+Program2025_compressed.pdf"
           brochurePdf={pdfUrl}
         />
-        <LearningToPlacement time="300" guided="40" />
+        <LearningToPlacement time="150" guided="10" />
 
         {/* <ProgramSection
           programSectionData={NewDSAData[0].ProgramSection}
@@ -238,7 +238,7 @@ Generative AI and Agentic AI course for working professionals
           dataScienceCounselling={true}
           dataScience={true}
           titleCourse=""
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI-Developer-Program.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Managers+and+Leaders+GenAI+and+Agentic+AI+Program2025_compressed.pdf"
           brochurePdf={pdfUrl}
           buttonHide={true}
           interstedInHide={true}
@@ -254,7 +254,7 @@ Generative AI and Agentic AI course for working professionals
 
         {/* <NewCertificateSection certificateNew={NewDSAData[0].certificateNew} /> */}
         <DSAFeeSection
-          Fee="₹ 1.59 Lacs"
+          Fee="₹ 1.10 Lacs"
           FeeEmi="₹ 7,916/ month"
           // Hybrid Classes
           hybridFee="₹ 1,55,000"
