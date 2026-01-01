@@ -156,7 +156,7 @@
   z-index: 998;
   left: 5%;
 }
-.topicStyle{
+.topicStyle {
   font-size: 16px;
   font-weight: 600;
   color: #212121;
@@ -165,8 +165,8 @@
 .trackimgend {
   position: relative;
   z-index: 999;
-  right: 102px;
-  top: 70px;
+  right: 112px;
+  top: 75px;
 }
 
 .ques {
@@ -755,8 +755,9 @@
     margin: 0px 8px;
   }
   .trackimgend {
-    right: 75.6px;
-    top: 70px;
+    right: 97.6px;
+    top: 72px;
+    width: 50px;
   }
   .QOuter {
     padding-left: 35px;

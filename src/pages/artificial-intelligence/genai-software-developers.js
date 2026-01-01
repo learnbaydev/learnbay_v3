@@ -216,7 +216,6 @@ Generative AI and Agentic AI course for working professionals
           brochurePdf={pdfUrl}
         />
         <LearningToPlacement time="300" guided="40" />
-
         {/* <ProgramSection
           programSectionData={NewDSAData[0].ProgramSection}
           dataScienceCounselling={true}
@@ -225,7 +224,6 @@ Generative AI and Agentic AI course for working professionals
         /> */}
         {/* <DSAPractical /> */}
         <HighlightsSection />
-
         <AnimationNew />
         <JobReadySection />
         <ReviewSlider idss="eautK0odE7Q" showRealStories={true} />
@@ -244,14 +242,12 @@ Generative AI and Agentic AI course for working professionals
           interstedInHide={true}
           genAIIIT={true}
         />
-
         <UpdatedCertificate data={NewDSAData[0].Certificate} />
         {/* <Certificate
           noTabs={true}
           data={NewDSAData[0].certificateNew}
           DSAFresherCertHeading={true}
         /> */}
-
         {/* <NewCertificateSection certificateNew={NewDSAData[0].certificateNew} /> */}
         <DSAFeeSection
           Fee="₹ 1.59 Lacs"
@@ -289,7 +285,6 @@ Generative AI and Agentic AI course for working professionals
           third="Block your seat"
           // greenButton={true}
         />
-
         {/* <FAQNew FAQNewData={NewDSAData[0].faq} background={true} /> */}
         {/* <Content
           dataScienceCounselling={true}
