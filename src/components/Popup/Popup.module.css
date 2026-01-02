@@ -1,225 +1,450 @@
-/* Popup.module.css */
-
-/* --- Layout & Overlay --- */
 .popupOverlay {
   position: fixed;
-  top: 0;
+  bottom: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  backdrop-filter: blur(4px);
+  background-color: rgba(0, 0, 0, 0.7);
   display: flex;
-  align-items: center; /* Center vertically */
-  justify-content: center; /* Center horizontally */
+  align-items: flex-end;
+  justify-content: flex-start;
   z-index: 10000;
-  animation: fadeIn 0.3s ease-out;
 }
+.wrapper {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  text-align: center;
+}
+.violet {
+  color: #4d4fcd;
+  margin-top: 0;
+  font-size: 22px;
+  justify-content: center;
+  text-align: center;
+}
+.orange {
+  display: flex;
+  flex-flow: row;
+  color: #fe7a36;
+  font-size: 22px;
+  font-style: italic;
+  justify-content: center;
+  text-align: center;
+  gap: 8px;
+  margin-left: 10px;
+}
+/* @keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+} */
 
 .popupContainer {
   background-color: white;
-  width: 100%;
-  max-width: 450px;
-  position: relative;
-  border-radius: 20px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  width: max-content;
+  max-width: 90%;
   overflow: hidden;
-  margin: 16px;
-  display: flex;
-  flex-direction: column;
-  animation: zoomIn 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  position: relative;
+  border-radius: 24px;
+  /* background: #0a0b0b; */
+  margin: 20px;
 }
 
-/* --- Decorations --- */
-/* Candy Cane Stripe Bar at the very top */
-.candyCaneBar {
-  height: 12px;
-  width: 100%;
-  background: repeating-linear-gradient(
-    45deg,
-    #dc2626,
-    #dc2626 10px,
-    #ffffff 10px,
-    #ffffff 20px
-  );
-}
-
-/* Close Button */
 .close {
   position: absolute;
-  top: 15px;
+  top: 10px;
   right: 15px;
-  font-size: 28px;
-  color: rgba(255, 255, 255, 0.8);
+  font-size: 26px;
   cursor: pointer;
-  z-index: 10;
-  line-height: 1;
-  transition: color 0.2s;
+  z-index: 1;
 }
+
 .close:hover {
-  color: #ffffff;
+  color: #0383ff;
 }
 
-/* --- Header Section (Red) --- */
-.headerDiv {
-  background-color: #dc2626; /* Christmas Red */
-  padding: 35px 25px 25px 25px;
-  text-align: center;
-  color: white;
-  position: relative;
-  /* Snowflake Pattern Overlay */
-  background-image: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 0.15) 2px,
-    transparent 2.5px
-  );
-  background-size: 20px 20px;
-}
-
-.badge {
-  display: inline-block;
-  background: rgba(255, 255, 255, 0.2);
-  padding: 4px 12px;
-  border-radius: 50px;
-  font-size: 18px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-bottom: 12px;
-  letter-spacing: 1px;
-}
-
-.title {
-  font-size: 28px;
-  font-weight: 800;
-  line-height: 1.2;
-  margin: 0;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.subtitle {
-  margin-top: 10px;
-  font-size: 18px;
-  font-weight: 500;
-  color: #fee2e2;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-}
-
-/* --- Body Section (White) --- */
-.bodyDiv {
-  padding: 25px;
-  text-align: center;
-  background: white;
+.mainDiv {
   display: flex;
   flex-direction: column;
-  gap: 15px;
 }
 
-.mainText {
-  font-size: 18px;
-  color: #333;
-  line-height: 1.5;
-  margin: 0;
+.whiteDiv {
+  /* background-color: white; */
+  /* opacity: 0.06; */
+  background: rgba(3, 131, 255, 0.06);
+  padding: 35px 30px 0px 30px;
+  text-align: center;
+  /* border-bottom: 2px solid #e0e0e0; */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.starPop {
+  position: absolute;
+  top: 40%;
+  left: 12%;
 }
 
-.highlight {
-  color: #dc2626;
-  font-weight: 700;
-}
-
-.alertBox {
-  background-color: #fef2f2;
-  border: 1px solid #fee2e2;
-  color: #991b1b;
-  font-size: 13px;
+.vaildTag {
+  margin: 10px;
+  font-style: italic;
   font-weight: 600;
+}
+
+.whiteDiv h3 {
+  color: #353535;
+  text-align: center;
+  /* line-height: 160%; */
+  letter-spacing: -0.259px;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 35px */
+  letter-spacing: -0.35px;
+}
+
+.iitImg {
+  width: 110px;
+  height: auto;
+}
+
+.gradientDiv {
+  /* background: linear-gradient(45deg, #0071bc81, #fe793673); */
+
+  background: rgba(3, 131, 255, 0.06);
+  padding: 7px 50px 35px 50px;
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.iitDiv {
+  margin: auto;
+  background: white;
   padding: 10px;
   border-radius: 8px;
+  width: fit-content;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* --- Buttons --- */
-.buttonGroup {
+.tagLine {
+  position: absolute;
+  top: 33%;
+  left: 24%;
+  transform: translate(-50%, -50%);
+  padding: 8px 30px;
+  border-top: 3px solid #0072bc;
+  border-left: 3px solid #0072bc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transform: rotate(-9deg);
+  border-radius: 8px;
+  border-right: 3px solid #0072bc;
+  border-bottom: 3px solid #0072bc;
+  background: #022646;
+  box-shadow: 3px -5px 4.9px -3px rgba(0, 0, 0, 0.45);
+}
+
+.OFF {
+  color: #353535;
+  font-size: 40.804px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: -0.578px;
+}
+
+.buttonDiv {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* .buttonDiv button {
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 51px;
+  background: #0383FF;
+  font-size: 20px;
+} */
+.buttonDiv button {
+  color: white;
+  padding: 10px 90px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+  background: #0383ff;
+  font-size: 20px;
+}
+
+.buttonDiv button:hover {
+  background-color: #0381ffa9;
+}
+
+.offerText {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 126.5%;
+  /* 22.77px */
+  letter-spacing: -0.18px;
+}
+
+.offerText span {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 126.5%;
+  /* 27.83px */
+  letter-spacing: -0.22px;
+}
+
+.batch {
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 126.5%;
+  /* 27.83px */
+  letter-spacing: -0.22px;
+}
+
+.newbatch {
+  color: #4d4fcd;
+  background-color: rgba(77, 79, 205, 0.15);
+  padding: 3px 14px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 700;
+  /* font-weight: 400; */
+  line-height: 126.5%; /* 31.625px */
+  letter-spacing: -0.25px;
+}
+
+.popupPoints {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  margin-top: 5px;
+  gap: 10px;
+  text-align: left;
+  margin: 30px 0;
 }
-
-.primaryBtn {
-  width: 100%;
-  padding: 14px;
-  background-color: #dc2626;
-  color: white;
-  border: none;
-  border-radius: 12px;
-  font-size: 16px;
+.bold {
   font-weight: 700;
-  cursor: pointer;
-  transition: all 0.2s;
-  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.25);
+  font-size: 28px;
+  color: #fe7a36;
+  margin-top: 0;
+}
+.popPoint {
+  font-weight: 500;
+  display: flex;
+  gap: 4px;
+}
+.mpopupPoints {
+  display: none;
+}
+.mpopPoint {
+  display: none;
 }
 
-.primaryBtn:hover {
-  background-color: #b91c1c;
-  transform: translateY(-2px);
+.batchDiv {
+  display: flex;
+  flex-direction: column;
 }
 
-.secondaryBtn {
-  width: 100%;
-  padding: 14px;
-  background-color: white;
-  color: #1f2937;
-  border: 2px solid #e5e7eb;
-  border-radius: 12px;
-  font-size: 16px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.2s;
+.tagLine p {
+  color: #fff;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 126.5%;
+  /* 31.625px */
+  letter-spacing: -0.25px;
+  margin: 0;
 }
 
-.secondaryBtn:hover {
-  background-color: #f9fafb;
-  border-color: #d1d5db;
+.tagLine span {
+  color: #fff;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 126.5%;
+  letter-spacing: -0.25px;
 }
 
-.terms {
-  font-size: 11px;
-  color: #9ca3af;
-  margin-top: 10px;
+.popupTitle {
+  color: #353535;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.35px;
 }
-
-/* --- Animations --- */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
+.forTitle {
+  color: #353535;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.35px;
+}
+@media screen and (max-width: 641px) {
+  .popupOverlay {
+    align-items: center;
+    justify-content: center;
   }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes zoomIn {
-  from {
-    transform: scale(0.95);
-    opacity: 0;
-  }
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
-/* --- Mobile Responsive --- */
-@media screen and (max-width: 480px) {
   .popupContainer {
-    max-width: 90%;
+    width: 90%;
+    margin: 0;
+    border-radius: 16px;
   }
-  .title {
+  .whiteDiv {
+    padding: 25px 20px 0px 20px;
+    position: relative;
+  }
+  .gradientDiv {
+    padding: 7px 20px 35px 20px;
+  }
+  .starPop {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 48%;
+    left: 6%;
+  }
+  .orange {
+    font-size: 20px;
+    gap: 5px;
+    margin-left: 4px;
+    text-align: center;
+  }
+  .newbatch {
+    padding: 3px 8px;
+    font-size: 18px;
+    border-radius: 4px;
+    width: 170px;
+  }
+
+  .iitDiv {
+    margin-bottom: 24px;
+  }
+
+  .whiteDiv h3 {
+    font-size: 26px;
+  }
+  .mpopupPoints {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    margin: 30px 0;
+    padding-left: 15px;
+  }
+  .mpopPoint {
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    gap: 5px;
+  }
+  .popupPoints {
+    display: none;
+  }
+  .popPoint {
+    display: none;
+  }
+  .popupTitle {
+    font-size: 26px;
+  }
+  .forTitle {
+    font-size: 26px;
+  }
+  .tagLine p {
     font-size: 24px;
   }
-  .headerDiv {
-    padding: 30px 20px 20px;
+
+  .tagLine {
+    left: 15%;
+    top: 30%;
+  }
+
+  .offerText span {
+    font-size: 18px;
+  }
+
+  .offerText {
+    font-size: 18px;
+  }
+
+  .OFF {
+    font-size: 36px;
+  }
+
+  .buttonDiv button {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 361px) {
+  .whiteDiv h3 {
+    font-size: 23px;
+  }
+  .starPop {
+    height: 38px;
+    width: 36px;
+    position: absolute;
+    top: 52%;
+    left: 5%;
+  }
+
+  .popupTitle {
+    font-size: 23px;
+  }
+  .forTitle {
+    font-size: 23px;
+  }
+
+  .tagLine p {
+    font-size: 20px;
+  }
+
+  .tagLine {
+    left: 15%;
+    top: 34%;
+  }
+
+  .offerText span {
+    font-size: 14px;
+  }
+
+  .offerText {
+    font-size: 14px;
+  }
+
+  .OFF {
+    font-size: 36px;
+  }
+
+  .buttonDiv button {
+    font-size: 14px;
+  }
+  .newbatch {
+    padding: 3px 8px;
+    font-size: 15px;
+    border-radius: 4px;
   }
 }
