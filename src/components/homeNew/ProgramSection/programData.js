@@ -3,12 +3,12 @@
 export const programCards = [
   {
     id: 1,
-    title: "Data Science and GenAI Master Certification Program",
+    title: "GenAI and AgenticAI Master Certification Program",
     description:
       "Master GenAI Expertise and Build Industry-Ready Projects using LangChain and AgenticAI.",
-    why: ["Learn Full stack data science & AI", "Master GenAI & AgenticAI"],
-    keySkills: ["Data Science", "GenAI", "AgenticAI"],
-    duration: " 13 Months Live Classes",
+    why: ["Master GenAI & AgenticAI", "Domain Specialised in two industries"],
+    keySkills: ["GenAI", "AgenticAI", "LlMOps"],
+    duration: " 9 Months Live Classes",
     level: "10+ Real Domain Projects",
     eligibilitytitle: "Domain Specialised",
     eligibility: "Program with Industry  Project Certification",
