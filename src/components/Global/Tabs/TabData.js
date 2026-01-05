@@ -25,32 +25,32 @@ export const TabData = [
         hours: "5 Months",
         url: "/gen-ai-agentic-ai-program",
       },
-      {
-        CName: "GenAI and Agentic AI Program for BFSI",
-        hours: "5 Months",
-        url: "/gen-ai-agentic-ai-program-for-bsfi",
-      },
-      {
-        CName: "GenAI and Agentic AI Program for Healthcare",
-        hours: "5 Months",
-        url: "/gen-ai-agentic-ai-program-for-healthcare",
-      },
-      {
-        CName: "GenAI and Agentic AI Program for Retail and Ecommerce",
-        hours: "5 Months",
-        url: "/gen-ai-agentic-ai-program-for-retailer-ecommerce",
-      },
+      // {
+      //   CName: "GenAI and Agentic AI Program for BFSI",
+      //   hours: "5 Months",
+      //   url: "/gen-ai-agentic-ai-program-for-bsfi",
+      // },
+      // {
+      //   CName: "GenAI and Agentic AI Program for Healthcare",
+      //   hours: "5 Months",
+      //   url: "/gen-ai-agentic-ai-program-for-healthcare",
+      // },
+      // {
+      //   CName: "GenAI and Agentic AI Program for Retail and Ecommerce",
+      //   hours: "5 Months",
+      //   url: "/gen-ai-agentic-ai-program-for-retailer-ecommerce",
+      // },
 
-      {
-        CName: "GenAI and Agentic AI Program for Manufacturing and Supplychain",
-        hours: "5 Months",
-        url: "/gen-ai-agentic-ai-program-for-manufacturing-supplychain",
-      },
-      {
-        CName: "GenAI and Agentic AI Program or Automotive",
-        hours: "5 Months",
-        url: "/gen-ai-agentic-ai-program-for-automotive",
-      },
+      // {
+      //   CName: "GenAI and Agentic AI Program for Manufacturing and Supplychain",
+      //   hours: "5 Months",
+      //   url: "/gen-ai-agentic-ai-program-for-manufacturing-supplychain",
+      // },
+      // {
+      //   CName: "GenAI and Agentic AI Program or Automotive",
+      //   hours: "5 Months",
+      //   url: "/gen-ai-agentic-ai-program-for-automotive",
+      // },
       {
         CName: "GenAI and Agentic AI Program for Managers and Leaders",
         hours: "5 Months",
