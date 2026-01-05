@@ -492,49 +492,29 @@ const NewCourse = ({
                 <SvgArrow color={activeTab === "all" ? "white" : "black"} />
               </div>
               {}
+
               <div
                 className={`${styles.tabdiv} ${
-                  activeTab === "Certifications" ? styles.active : ""
+                  activeTab === "genai" ? styles.active : ""
                 }`}
-                onClick={() => handleTabClick("Certifications")}
-              >
-                <div className={styles.sliders}>
-                  <div className={styles.imgText}>
-                    <Image
-                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cer_side.webp"
-                      width={30}
-                      height={30}
-                      loading="lazy"
-                      alt="slide_icon"
-                    />
-                    <p>Certification Courses</p>
-                  </div>
-                </div>
-                <SvgArrow
-                  color={activeTab === "Certifications" ? "white" : "black"}
-                />
-              </div>
-              <div
-                className={`${styles.tabdiv} ${
-                  activeTab === "domainCourse" ? styles.active : ""
-                }`}
-                onClick={() => handleTabClick("domainCourse")}
+                onClick={() => handleTabClick("genai")}
               >
                 <div className={styles.sliders}>
                   <div className={styles.imgText}>
                     <Image
                       src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_side.webp"
-                      width={30}
-                      height={30}
+                      width={20}
+                      height={20}
                       loading="lazy"
                       alt="slide_icon"
                     />
-                    <p>Domain Certification </p>
+                    <div className={styles.tagGen}>
+                      <p>GEN AI & Agentic AI</p>
+                      <div className={styles.tagNew}>NEW</div>
+                    </div>
                   </div>
                 </div>
-                <SvgArrow
-                  color={activeTab === "domainCourse" ? "white" : "black"}
-                />
+                <SvgArrow color={activeTab === "genai" ? "white" : "black"} />
               </div>
 
               <div
@@ -546,17 +526,42 @@ const NewCourse = ({
                 <div className={styles.sliders}>
                   <div className={styles.imgText}>
                     <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_side.webp"
+                      width={30}
+                      height={30}
+                      loading="lazy"
+                      alt="slide_icon"
+                    />
+                    <p>Cloud & DevOps</p>
+                  </div>
+                </div>
+                <SvgArrow
+                  color={activeTab === "CloudDevops" ? "white" : "black"}
+                />
+              </div>
+
+              <div
+                className={`${styles.tabdiv} ${
+                  activeTab === "masterCertification" ? styles.active : ""
+                }`}
+                onClick={() => handleTabClick("masterCertification")}
+              >
+                <div className={styles.sliders}>
+                  <div className={styles.imgText}>
+                    <Image
                       src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cloud_DSA_icons.webp"
                       width={30}
                       height={30}
                       loading="lazy"
                       alt="slide_icon"
                     />
-                    <p>DSA / Cloud & DevOps</p>
+                    <p>Master Certification</p>
                   </div>
                 </div>
                 <SvgArrow
-                  color={activeTab === "CloudDevops" ? "white" : "black"}
+                  color={
+                    activeTab === "masterCertification" ? "white" : "black"
+                  }
                 />
               </div>
               {/* <div
@@ -584,9 +589,9 @@ const NewCourse = ({
 
               <div
                 className={`${styles.tabdiv} ${
-                  activeTab === "bfsi" ? styles.active : ""
+                  activeTab === "sde" ? styles.active : ""
                 }`}
-                onClick={() => handleTabClick("bfsi")}
+                onClick={() => handleTabClick("sde")}
               >
                 <div className={styles.sliders}>
                   <div className={styles.imgText}>
@@ -597,16 +602,17 @@ const NewCourse = ({
                       loading="lazy"
                       alt="slide_icon"
                     />
-                    <p> Managers / HR / BFSI </p>
+                    <p> SDE </p>
                   </div>
                 </div>
-                <SvgArrow color={activeTab === "bfsi" ? "white" : "black"} />
+                <SvgArrow color={activeTab === "sde" ? "white" : "black"} />
               </div>
+
               <div
                 className={`${styles.tabdiv} ${
-                  activeTab === "CyberSecurity" ? styles.active : ""
+                  activeTab === "masterDegree" ? styles.active : ""
                 }`}
-                onClick={() => handleTabClick("CyberSecurity")}
+                onClick={() => handleTabClick("masterDegree")}
               >
                 <div className={styles.sliders}>
                   <div className={styles.imgText}>
@@ -617,15 +623,15 @@ const NewCourse = ({
                       loading="lazy"
                       alt="slide_icon"
                     />
-                    <p>Cyber Security</p>
+                    <p>Master's Degree</p>
                   </div>
                 </div>
                 <SvgArrow
-                  color={activeTab === "CyberSecurity" ? "white" : "black"}
+                  color={activeTab === "masterDegree" ? "white" : "black"}
                 />
               </div>
 
-              <div
+              {/* <div
                 className={`${styles.tabdiv} ${
                   activeTab === "dsa" ? styles.active : ""
                 }`}
@@ -647,7 +653,7 @@ const NewCourse = ({
                   </div>
                 </div>
                 <SvgArrow color={activeTab === "dsa" ? "white" : "black"} />
-              </div>
+              </div> */}
               {/*            
               <div
                 className={`${styles.tabdiv} ${
@@ -688,7 +694,7 @@ const NewCourse = ({
           {/* Render the Master Course after the View More button */}
         </div>
 
-        {courses[activeTab].length > visibleCount && (
+        {courses[activeTab]?.length > visibleCount && (
           <div className={styles.viewMoreContainer}>
             <button onClick={handleViewMore} className={styles.viewMoreButton}>
               View More
