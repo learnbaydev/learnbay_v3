@@ -18,7 +18,7 @@ export const TabData = [
       {
         CName: "GenAI and Agentic AI Master Program",
         hours: "9 Months",
-        url: "/artificial-intelligence/genai-software-developers",
+        url: "/gen-ai-and-agentic-ai-master-program",
       },
       {
         CName: "GenAI and Agentic AI Program",
@@ -72,9 +72,9 @@ export const TabData = [
         url: "/artificial-intelligence/applied-ai-practitioner-program",
       },
       {
-        CName: "SDE Master's Program in GenAI & Agentic AI ",
+        CName: "GenAI & Agentic AI for SD",
         hours: "3 Months",
-        url: "/artificial-intelligence/sde-master-program-gen-ai-agentic-ai",
+        url: "/artificial-intelligence/genai-software-developers",
       },
     ],
   },

@@ -21,7 +21,7 @@ const JobReadySection = dynamic(() =>
   import("@/components/CoursePage/NewDSA/JobReadySection/JobReadySection")
 );
 const SyllabusNew = dynamic(() =>
-  import("@/components/CoursePage/Syllabus/MasterSyllabus")
+  import("@/components/CoursePage/Syllabus/MasterSyllabus2025")
 );
 const NewCertificateSection = dynamic(() =>
   import("@/components/CoursePage/newCertificate/NewCertificate")
@@ -61,7 +61,7 @@ import HighlightsSection from "@/components/CoursePage/FirstPart/Support_noimage
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/GenAI+Developer+Master+Certification+Program.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+%26+Agentic+AI+Master+Program+for+Tech+Professionals+2025_compressed+.pdf";
 
   let soonDate = getDSABookingSoonDate();
   let laterDate = getDSABookingLaterDate();
@@ -207,16 +207,15 @@ Generative AI and Agentic AI course for working professionals
           descrption={NewDSAData[0].header[0].descrption}
           svgDSA={NewDSAData[0].header[0].svgDSA}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+Developer+Master+Certification+Programv1.pdf"
+          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+%26+Agentic+AI+Master+Program+for+Tech+Professionals+2025_compressed+.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
         <AlumniCompanies
-          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+Developer+Master+Certification+Programv1.pdf"
+          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+%26+Agentic+AI+Master+Program+for+Tech+Professionals+2025_compressed+.pdf"
           brochurePdf={pdfUrl}
         />
-        <LearningToPlacement time="130" guided="40" />
-
+        <LearningToPlacement time="300" guided="40" />
         {/* <ProgramSection
           programSectionData={NewDSAData[0].ProgramSection}
           dataScienceCounselling={true}
@@ -225,7 +224,6 @@ Generative AI and Agentic AI course for working professionals
         /> */}
         {/* <DSAPractical /> */}
         <HighlightsSection />
-
         <AnimationNew />
         <JobReadySection />
         <ReviewSlider idss="eautK0odE7Q" showRealStories={true} />
@@ -238,23 +236,21 @@ Generative AI and Agentic AI course for working professionals
           dataScienceCounselling={true}
           dataScience={true}
           titleCourse=""
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI-Developer-Program.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI+%26+Agentic+AI+Master+Program+for+Tech+Professionals+2025_compressed+.pdf"
           brochurePdf={pdfUrl}
           buttonHide={true}
           interstedInHide={true}
           genAIIIT={true}
         />
-
         <UpdatedCertificate data={NewDSAData[0].Certificate} />
         {/* <Certificate
           noTabs={true}
           data={NewDSAData[0].certificateNew}
           DSAFresherCertHeading={true}
         /> */}
-
         {/* <NewCertificateSection certificateNew={NewDSAData[0].certificateNew} /> */}
         <DSAFeeSection
-          Fee="₹ 95,000 "
+          Fee="₹ 1.59 Lacs"
           FeeEmi="₹ 7,916/ month"
           // Hybrid Classes
           hybridFee="₹ 1,55,000"
@@ -289,7 +285,6 @@ Generative AI and Agentic AI course for working professionals
           third="Block your seat"
           // greenButton={true}
         />
-
         {/* <FAQNew FAQNewData={NewDSAData[0].faq} background={true} /> */}
         {/* <Content
           dataScienceCounselling={true}
@@ -312,7 +307,7 @@ Generative AI and Agentic AI course for working professionals
 export default NewDSA;
 
 export async function getStaticProps() {
-  const module = await import("../../Data/genaisoftware");
+  const module = await import("../Data/GenAIandAgenticAIMasterProgram-Data");
   const data = module.default;
 
   const DSADataJson = JSON.stringify(data, (key, value) =>
