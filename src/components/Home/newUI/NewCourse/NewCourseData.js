@@ -1281,7 +1281,7 @@ export const masterCourse = {
 };
 export const certificationCourses = [
   {
-    title: "GenAI & Agentic AI for Software Developers",
+    title: "GenAI & Agentic AI for Managers & Leaders",
     points: [
       {
         icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cer_icons.webp",
@@ -1306,7 +1306,7 @@ export const certificationCourses = [
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/GenAI+Developer+Master+Certification+Program.pdf",
   },
   {
-    title: "GenAI & Agentic AI for Mangers and Leaders",
+    title: "GenAI & Agentic AI for Cloud & Devops",
     points: [
       {
         icon: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cer_icons.webp",
