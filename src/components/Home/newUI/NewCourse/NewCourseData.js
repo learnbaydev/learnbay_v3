@@ -689,65 +689,65 @@ export const courses = {
     // },
   ],
 
-  domainCourse: [
-    {
-      title:
-        "Executive Program in Data Science & Generative AI for Managers & Leaders",
-      duration: "11 months | 3 Projects",
-      certification: "Project Certification form IBM",
-      description: "For Manager & Team leader",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cardss.webp",
-      link: "/datascience/data-science-ai-for-managers",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/DSAI_for_Managers_and_Leaders.pdf",
-      brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_comp.pdf",
-    },
+  // domainCourse: [
+  //   {
+  //     title:
+  //       "Executive Program in Data Science & Generative AI for Managers & Leaders",
+  //     duration: "11 months | 3 Projects",
+  //     certification: "Project Certification form IBM",
+  //     description: "For Manager & Team leader",
+  //     image:
+  //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cardss.webp",
+  //     link: "/datascience/data-science-ai-for-managers",
+  //     brochureLinks:
+  //       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/DSAI_for_Managers_and_Leaders.pdf",
+  //     brochurePdfs:
+  //       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_comp.pdf",
+  //   },
 
-    {
-      title: "HR Analytics Certification Program",
-      duration: "5 months | 2 capstone Projects",
-      certification: "Project Certification form IBM",
-      description: "For HR Professional",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/HR_cardssss.webp",
-      link: "datascience/hr-analytics",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
-      brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/hr-analytics.pdf",
-    },
-    {
-      title: "Data Science & Generative AI for BFSI Professionals",
-      duration: "7 months | 2 capstone Projects",
-      certification: "Project Certification form IBM",
-      description: "For BFSI Professional",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cards.webp",
-      link: "/datascience/data-science-for-bfsi-professional",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
-      brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_compr.pdf",
-    },
+  //   {
+  //     title: "HR Analytics Certification Program",
+  //     duration: "5 months | 2 capstone Projects",
+  //     certification: "Project Certification form IBM",
+  //     description: "For HR Professional",
+  //     image:
+  //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/HR_cardssss.webp",
+  //     link: "datascience/hr-analytics",
+  //     brochureLinks:
+  //       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
+  //     brochurePdfs:
+  //       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/hr-analytics.pdf",
+  //   },
+  //   {
+  //     title: "Data Science & Generative AI for BFSI Professionals",
+  //     duration: "7 months | 2 capstone Projects",
+  //     certification: "Project Certification form IBM",
+  //     description: "For BFSI Professional",
+  //     image:
+  //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cards.webp",
+  //     link: "/datascience/data-science-for-bfsi-professional",
+  //     brochureLinks:
+  //       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
+  //     brochurePdfs:
+  //       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_compr.pdf",
+  //   },
 
-    {
-      title: "Marketing Analytics Certification Program",
-      duration: "5 months | 2 capstone Projects",
-      certification: "Project Certification form IBM",
-      description: "For Marketing Professional",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/marketing_anaC.webp",
-      link: "/datascience/marketing-analytics ",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Marketing+Analytics+Certification+Program.pdf",
-      brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Healthcare-Pharma-and-Clinical-Research-domain.pdf",
-    },
+  //   {
+  //     title: "Marketing Analytics Certification Program",
+  //     duration: "5 months | 2 capstone Projects",
+  //     certification: "Project Certification form IBM",
+  //     description: "For Marketing Professional",
+  //     image:
+  //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/marketing_anaC.webp",
+  //     link: "/datascience/marketing-analytics ",
+  //     brochureLinks:
+  //       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Marketing+Analytics+Certification+Program.pdf",
+  //     brochurePdfs:
+  //       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Healthcare-Pharma-and-Clinical-Research-domain.pdf",
+  //   },
 
-    // Add more data science courses as needed
-  ],
+  //   // Add more data science courses as needed
+  // ],
 
   genai: [
     {
@@ -758,7 +758,7 @@ export const courses = {
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA_card+(1).webp",
 
-      link: "/datascience/data-analytics-certification-course",
+      link: "/pending",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
       brochurePdfs:
@@ -773,7 +773,7 @@ export const courses = {
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA_card+(1).webp",
 
-      link: "/datascience/data-analytics-certification-course",
+      link: "/gen-ai-agentic-ai-program-for-managers-leaders",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
       brochurePdfs:
@@ -788,7 +788,7 @@ export const courses = {
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA_card+(1).webp",
 
-      link: "/datascience/data-analytics-certification-course",
+      link: "/pending",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
       brochurePdfs:
@@ -803,7 +803,7 @@ export const courses = {
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA_card+(1).webp",
 
-      link: "/datascience/data-analytics-certification-course",
+      link: "/pending",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
       brochurePdfs:
@@ -818,7 +818,7 @@ export const courses = {
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA_card+(1).webp",
 
-      link: "/datascience/data-analytics-certification-course",
+      link: "/artificial-intelligence/genai-software-developers",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
       brochurePdfs:
@@ -833,7 +833,7 @@ export const courses = {
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA_card+(1).webp",
 
-      link: "/datascience/data-analytics-certification-course",
+      link: "/artificial-intelligence/applied-ai-practitioner-program",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
       brochurePdfs:
@@ -982,8 +982,8 @@ export const courses = {
     // },
 
     {
-      title: "AI-Powered Cloud DevOps Engineering Master Certification",
-      duration: "8 months",
+      title: "Cloud and DevOps Masters Program",
+      duration: "9 months",
       certification: "Project Certification form IBM and Microsoft",
       description: "For Cloud Professionals",
       image:
@@ -1017,6 +1017,20 @@ export const courses = {
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SA.webp",
       link: "/cloud&devops/cloud-and-devOps-for-system-administrators",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-System-Admin-Professionalslink.pdf",
+      brochurePdfs:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-System-Admin-Professionals+.pdf",
+    },
+
+    {
+      title: "GenAI & AgenticAI For Cloud & DevOps ",
+      duration: "5-6 months",
+      certification: "Project Certification form Microsoft",
+      description: "For System Administrators",
+      image:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SA.webp",
+      link: "/pending",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-System-Admin-Professionalslink.pdf",
       brochurePdfs:
