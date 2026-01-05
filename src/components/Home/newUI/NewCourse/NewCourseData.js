@@ -360,7 +360,7 @@ export const courses = {
       description: "For Working Professional",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Gen_aiII.webp",
-      link: "/datascience/data-science-and-ai-master-certification-program",
+      link: "/pending",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
       brochurePdfs:
@@ -373,7 +373,7 @@ export const courses = {
       description: "Designed by industry experts",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ai_ML_cardss.webp",
-      link: "/datascience/data-science-and-ai-master-certification-program",
+      link: "/cloud&devops/cloud-and-devops-for-system-administrators-master-certification",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
       brochurePdfs:
@@ -386,14 +386,14 @@ export const courses = {
       description: "For Working Professional",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Foundation_cards.webp",
-      link: "/datascience/data-science-and-ai-master-certification-program",
+      link: "/pending",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
       brochurePdfs:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Science-%26-AI-Master-Program.pdf",
     },
     {
-      title: "GenAI & AgenticAI Master for Cloud & DevOps ",
+      title: "GenAI & AgenticAI for Cloud & DevOps ",
       duration: "5 Months | 4 Capstone Projects",
       certification: "Project Certification from IBM",
       description: "For Working Professional",
@@ -406,13 +406,13 @@ export const courses = {
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Science-%26-AI-Master-Program.pdf",
     },
     {
-      title: "AppliedAI Practioner Program ",
+      title: "Applied AI Practioner Program ",
       duration: "9 Months | 4 Capstone Projects",
       certification: "Project Certification from IBM",
       description: "For Working Professional",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/HR_cardssss.webp",
-      link: "/datascience/data-science-and-ai-master-certification-program",
+      link: "/artificial-intelligence/applied-ai-practitioner-program",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
       brochurePdfs:
