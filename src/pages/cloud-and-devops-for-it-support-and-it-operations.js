@@ -214,7 +214,7 @@ Cloud and DevOps master certification"
         <NewTools toolsData={NewDSAData[0].toolsData} />
         <UpdatedCertificate data={NewDSAData[0].Certificate} />
         <DSAFeeSection
-          Fee="₹ 1,10,000 "
+          Fee="₹ 1,20,000 "
           FeeEmi="₹ 13,250/ month"
           // Hybrid Classes
           hybridFee="₹ 1,55,000"

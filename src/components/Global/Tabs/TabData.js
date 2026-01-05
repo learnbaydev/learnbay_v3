@@ -64,7 +64,7 @@ export const TabData = [
       {
         CName: "GenAI and Agentic AI Program for Cloud and DevOps",
         hours: "5 Months",
-        url: "/gen-ai-agentic-ai-program-for-cloud-devops",
+        url: "/genai-agenticai-for-cloud-devops",
       },
       {
         CName: "Applied AI Practitioner Program",
@@ -238,6 +238,12 @@ export const TabData = [
         CName: "DSA Course with Placement Prep",
         hours: "3-4 Months",
         url: "/fullstack/data-structure-algorithm-online-course-training",
+      },
+
+      {
+        CName: "SDE Master's Program in GenAI & Agentic AI ",
+        hours: "3 Months",
+        url: "/artificial-intelligence/sde-master-program-gen-ai-agentic-ai",
       },
     ],
   },
