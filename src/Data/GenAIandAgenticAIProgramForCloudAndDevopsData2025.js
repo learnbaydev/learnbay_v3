@@ -17,7 +17,7 @@ export const NewDSAData = [
               "linear-gradient(90deg, #7eb6f9 0%, #d1a4e8 50%, #f78dc7 100%)",
           },
           {
-            text: " Program  ",
+            text: "for Cloud & DevOps  ",
             color: false,
           },
         ],
@@ -6845,7 +6845,7 @@ export const NewDSAData = [
       {
         Module1: {
           title: "Term 1 – Python for GenAI",
-          hours: "(1.5 Month)",
+          hours: "(1.5 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -7087,7 +7087,7 @@ export const NewDSAData = [
 
       {
         Module3: {
-          title: "Term 3 – Generative AI",
+          title: "Term 3 – Advanced Generative AI",
           hours: "(1.5 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -7256,8 +7256,8 @@ export const NewDSAData = [
 
       {
         Module4: {
-          title: "Term 4 – Agentic AI",
-          hours: "(15 Days)",
+          title: "Term 4 – Agentic AI & AI Automation",
+          hours: "(1 Month)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:

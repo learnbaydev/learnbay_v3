@@ -6845,7 +6845,7 @@ export const NewDSAData = [
       {
         Module1: {
           title: "Term 1 – Python for GenAI",
-          hours: "(1.5 Month)",
+          hours: "(1.5 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -7087,7 +7087,7 @@ export const NewDSAData = [
 
       {
         Module3: {
-          title: "Term 3 – Generative AI",
+          title: "Term 3 – Advanced Generative AI",
           hours: "(1.5 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",

@@ -72,8 +72,8 @@ export const TabData = [
         url: "/artificial-intelligence/applied-ai-practitioner-program",
       },
       {
-        CName: "GenAI & Agentic AI for SD",
-        hours: "3 Months",
+        CName: "GenAI & Agentic AI for Software Developer",
+        hours: "5 Months",
         url: "/artificial-intelligence/genai-software-developers",
       },
     ],

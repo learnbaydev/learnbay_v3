@@ -53,7 +53,7 @@ export const NewDSAData = [
                   "Understanding diffusion and multimodal creativity",
                   "Building content workflows: ideation → generation→ feedback → iteration",
                   "Using AI for brand assets, marketing visuals, andlearning design",
-                  "Applying AI ethics in synthetic media andresponsible creation",
+                  "Applying AI ethics in synthetic media and responsible creation",
                 ],
               },
             },
@@ -143,7 +143,7 @@ export const NewDSAData = [
               chap: {
                 title: "AIOps, Optimization & Observability",
                 desc: [
-                  " AIOps essentials: monitoring, observability, and selfhealing pipelines",
+                  " AIOps essentials: monitoring, observability, and self-healing pipelines",
                   "Defining KPIs for AI performance (accuracy, latency, cost, drift)",
                   "Automating alerts, testing, and continuous improvement",
                   "Visualizing AI usage and cost with BI dashboards",
