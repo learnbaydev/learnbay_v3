@@ -610,6 +610,29 @@ const NewCourse = ({
 
               <div
                 className={`${styles.tabdiv} ${
+                  activeTab === "dsgenai" ? styles.active : ""
+                }`}
+                onClick={() => handleTabClick("dsgenai")}
+              >
+                <div className={styles.sliders}>
+                  <div className={styles.imgText}>
+                    <Image
+                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_side.webp"
+                      width={30}
+                      height={30}
+                      loading="lazy"
+                      alt="slide_icon"
+                    />
+                    <div className={styles.tagGen}>
+                      <p>DS & GenAI</p>
+                    </div>
+                  </div>
+                </div>
+                <SvgArrow color={activeTab === "dsgenai" ? "white" : "black"} />
+              </div>
+
+              <div
+                className={`${styles.tabdiv} ${
                   activeTab === "masterDegree" ? styles.active : ""
                 }`}
                 onClick={() => handleTabClick("masterDegree")}
@@ -631,29 +654,6 @@ const NewCourse = ({
                 />
               </div>
 
-              {/* <div
-                className={`${styles.tabdiv} ${
-                  activeTab === "dsa" ? styles.active : ""
-                }`}
-                onClick={() => handleTabClick("dsa")}
-              >
-                <div className={styles.sliders}>
-                  <div className={styles.imgText}>
-                    <Image
-                      src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/level_side.webp"
-                      width={30}
-                      height={30}
-                      loading="lazy"
-                      alt="slide_icon"
-                    />
-                    <div className={styles.tagGen}>
-                      <p>GEN AI</p>
-                      <div className={styles.tagNew}>NEW</div>
-                    </div>
-                  </div>
-                </div>
-                <SvgArrow color={activeTab === "dsa" ? "white" : "black"} />
-              </div> */}
               {/*            
               <div
                 className={`${styles.tabdiv} ${

@@ -949,23 +949,49 @@ export const courses = {
     // },
   ],
 
-  // MasterDegree: [
-  //   {
-  //     title: "Master's Degree in CS: Data Science and Generative AI",
-  //     duration: "1 months | 3 Capstone Project",
-  //     certification: "Master Degree from Woolf",
-  //     description: "Project Certification from IBM",
-  //     image:
-  //       "https://learnbay-s3.s3.us-east-2.amazonaws.com/web/s3_main/Course-home/woolf+2026.webp",
-  //     link: "/datascience/data-science-and-ai-masters-in-cs",
-  //     brochureLinks:
-  //       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf",
-  //     brochurePdfs:
-  //       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Masters-in-CS.pdf",
-  //   },
+  dsgenai: [
+    {
+      title: "Data Science and GenAI Master",
+      duration: "5 months | 3 Capstone Project",
+      certification: "Project Certification from IBM",
+      description: "For Tech Professionals",
+      image:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Gen_aiII.webp",
+      link: "/datascience/data-science-and-ai-master-certification-program",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf",
+      brochurePdfs:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Masters-in-CS.pdf",
+    },
 
-  //   // Add more data science courses as needed
-  // ],
+    {
+      title: "DS & Gen AI Program ",
+      duration: "5 months | 3 Capstone Project",
+      certification: "Project Certification from IBM",
+      description: "For Tech Professionals",
+      image:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ISIO.webp",
+      link: "/datascience/artificial-intelligence-certification-course",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf",
+      brochurePdfs:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Masters-in-CS.pdf",
+    },
+
+    {
+      title: "GenAI & Agentic AI Master Program",
+      duration: "5 months | 3 Capstone Project",
+      certification: "Project Certification from IBM",
+      description: "For Tech Professionals",
+      image:
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Master.webp",
+      link: "/gen-ai-and-agentic-ai-master-program",
+      brochureLinks:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf",
+      brochurePdfs:
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Masters-in-CS.pdf",
+    },
+  ],
 
   CloudDevops: [
     // {
