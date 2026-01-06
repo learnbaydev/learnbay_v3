@@ -7377,7 +7377,7 @@ export const NewDSAData = [
       {
         Module5: {
           title: "Module 5 – Data Structures & Algorithms",
-          hours: "(1 Months)",
+          hours: "(2 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
