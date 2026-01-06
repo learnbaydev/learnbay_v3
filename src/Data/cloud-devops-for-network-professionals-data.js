@@ -560,7 +560,7 @@ export const NewDSAData = [
         },
       },
       {
-        Module6: {
+        Module4: {
           title: "Module 5 - DevOps Mastery – Infrastructure & Automation ",
           hours: "60 Hours",
           imageUrl:
@@ -595,7 +595,7 @@ export const NewDSAData = [
         },
       },
       {
-        Module4: {
+        Module5: {
           title: "Module 6 – Microsoft Azure Proficiency (Optional)",
           hours: " 40 Hours",
           imageUrl:
@@ -623,39 +623,8 @@ export const NewDSAData = [
         },
       },
 
-      // {
-      //   Module5: {
-      //     title: "Term 6 - Cloud System Design & Distributed Architecture ",
-      //     hours: "30 Hours",
-      //     imageUrl:
-      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
-      //     StartImageUrl:
-      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
-      //     endImageUrl:
-      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-      //     points: "Cloud System Design & Distributed Architecture ",
-      //     content: [
-      //       {
-      //         chap: {
-      //           title: "Cloud System Design & Distributed Architecture ",
-      //           desc: [
-      //             "System Design Essentials",
-      //             "Distributed System Fundamentals",
-      //             "High Availability & Reliability Engineering",
-      //             "Cloud-Native Architecture Design",
-      //             "Data Architecture & Storage Solutions",
-      //             "Cost-Efficient & Secure Architecture",
-      //           ],
-      //         },
-      //       },
-      //     ],
-      //     id: 5,
-      //     open: false,
-      //   },
-      // },
-
       {
-        Module9: {
+        Module6: {
           title: "Module 7 - MLOps Engineering ",
           hours: "40 Hours",
           imageUrl:
