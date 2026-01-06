@@ -6842,7 +6842,7 @@ export const NewDSAData = [
 
       {
         Module1: {
-          title: "Term 1 – Python for GenAI",
+          title: "Module 1 – Python for GenAI",
           hours: "(2 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -6995,7 +6995,7 @@ export const NewDSAData = [
 
       {
         Module2: {
-          title: "Term 2 – Foundation for GenAI",
+          title: "Module 2 – Foundation for GenAI",
           hours: "(2 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -7085,7 +7085,7 @@ export const NewDSAData = [
 
       {
         Module3: {
-          title: "Term 3 – Generative AI",
+          title: "Module 3 – Advanced Generative AI",
           hours: "(1.5 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -7254,7 +7254,7 @@ export const NewDSAData = [
 
       {
         Module4: {
-          title: "Term 4 – Agentic AI",
+          title: "Module 4 – Agentic AI & AI Automation",
           hours: "(1.5 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -7376,7 +7376,7 @@ export const NewDSAData = [
 
       {
         Module5: {
-          title: "Term 5 – AI-Powered System Design & DSA",
+          title: "Module 5 – Data Structures & Algorithms",
           hours: "(1 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -7388,23 +7388,158 @@ export const NewDSAData = [
           content: [
             {
               chap: {
-                title: "  AI-Powered System Design Foundations ",
+                title: "Time and Space Complexity",
                 desc: [
-                  "Principles for designing scalable GenAI and agentic applications.",
-                  "Patterns for context routing, retrieval layers, and orchestration.",
-                  "Latency, cost, safety, and reliability considerations in AI systems.",
-                  "Architecture choices for multimodal, RAG, and multi-agent workflows.",
+                  "Understanding Performance: Importance of complexity analysis in interviews.",
+                  "Big O Notation: Common complexities and how to analyze them.",
+                  "Space Complexity: Optimizing memory usage in data structure choices.",
                 ],
               },
             },
             {
               chap: {
-                title: " Production Architecture & Infrastructure Patterns",
+                title: "Arrays",
                 desc: [
-                  "Event-driven AI system patterns for enterprise workloads.",
-                  "Model gateways, inference routers, and distributed retrieval patterns.",
-                  "Monitoring, observability, fallback systems, and guardrail enforcement.",
-                  "Designing multi-environment deployments for regulated enterprises.",
+                  "Array Fundamentals & Operations: Basics of arrays, insertion, deletion, searching, updating, and two-dimensional (matrix) manipulation.",
+                  "Common Array Problems: Maximum and minimum elements, reverse array, sorted check, count occurrences, rotation, merge sorted arrays, intersections, move zeroes, and pairs with a given sum.",
+                  "Advanced Array & DP Problems: Longest increasing subsequence, maximum subarray sum, longest common subsequence, minimum path sum, and maximum product subarray.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Linked Lists & Interview Problems",
+                desc: [
+                  "Linked List Types & Basics: Singly, doubly, and circular linked lists with creation, traversal, insertion, deletion, and use cases.",
+                  "Common Linked List Operations: Middle, length, palindrome check,reverse, rotate, merge, partition, split, remove N-th node, and loop detection.",
+                  "Advanced Linked List Problems: Add numbers, flatten multilevel doubly lists, reorder lists, and clone lists with next and random pointers.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Stacks and Queues",
+                desc: [
+                  "Concepts & Implementation: LIFO and FIFO fundamentals, stacks and queues using arrays and linked lists.",
+                  "Advanced Variants: Priority queues and deques with common interview applications.",
+                  "Practice Coverage: Balanced parentheses, stack/queue implementations, expression evaluation (infix, postfix), reverse queue, circular queue, binary number generation, and duplicate supporting stack.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Recursion and Backtracking",
+                desc: [
+                  "Mastering Recursion: Key concepts and base cases crucial for problem-solving",
+                  "Divide and Conquer: Understanding its application in interviews.",
+                  "Backtracking: N-Queens, Sudoku. Practice Problems:",
+                  "Calculate the factorial of a number, Fibonacci sequence using recursion, Tower of Hanoi.",
+                  "Generate all subsets of a set, Solve the N-Queens problem, Rat in a maze.",
+                  "Solve the Sudoku puzzle, Permutations of a string, Word search, Generate all valid parentheses, Subset sum problem.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Searching Algorithms",
+                desc: [
+                  "Linear vs Binary Search: Time complexities.",
+                  "Advanced Searches: Ternary search and applications.",
+                  "Practice Problems: Search Techniques: Linear vs. Binary Search with time complexity analysis.",
+                  "Advanced Searches: Ternary search and its practical applications.",
+                  "Practice Problems: Basic, intermediate, and advanced search problems covering array operations, binary search variants, order statistics, and optimization cases.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Sorting Algorithms",
+                desc: [
+                  "Simple Sorting Algorithms: Bubble, selection, insertion— understanding their performance.",
+                  "Advanced Sorting Algorithms: Merge sort, quick sort—key algorithms in interviews.",
+                  "Practice Problems: Sorting fundamentals (bubble, selection, insertion, 0s–1s–2s, merge arrays), advanced sorting algorithms (merge, quick, heap, counting), and applied problems like nearly sorted arrays, k-th largest element, and minimum difference pairs.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Hashing",
+                desc: [
+                  "Hash Tables and Hash Functions: Importance in optimizing search operations.",
+                  "Collision Handling Techniques: Techniques to handle collisions effectively.",
+                  "Hash Table Implementations",
+                  "Practice Problems:Frequency counting, two-sum, first non-repeating character,longest consecutive sequence, and grouping anagrams.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Mastering Trees for Problem Solving",
+                desc: [
+                  "Binary Trees: Understanding traversal techniques (inorder, preorder, postorder).",
+                  "Binary Search Trees (BSTs)",
+                  "Balanced Trees (AVL, Red-Black): Importance of balancing in interviews.",
+                  "Practice Problems: Binary Tree Basics: Implement tree traversals and count nodes.",
+                  "Tree Queries: Find lowest common ancestor in a binary tree.",
+                  "Tree Serialization: Serialize and deserialize a binary tree.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Understanding and Implementing Tries",
+                desc: [
+                  "Understanding Tries: Structure and its applications in string problems.",
+                  "Insertion and Search Operations",
+                  "Practice Problems: Insert and search in a trie, prefix-based word search, distinct substring counting, autocomplete system, and phone directory implementation.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Heap Structures and Their Applications",
+                desc: [
+                  "Max-Heaps and Min-Heaps: Key properties & operations. ",
+                  "Heap Applications",
+                  "Practice Problems:Build a max heap from an array, Find the maximum element in a heap.",
+                  "Implement heap sort, K-th largest element in a stream using a min heap.",
+                  "Merge k sorted linked lists, Top k frequent elements in an array.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Greedy Algorithms",
+                desc: [
+                  "Understanding Greedy Strategy: When to apply greedy methods in problem-solving.",
+                  "Practice Problems: Coin change problem (greedy version), Activity selection problem.",
+                  "Job sequencing problem, Fractional knapsack problem.",
+                  "Huffman coding, Minimum spanning tree using Prim's or Kruskal's algorithm.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Dynamic Programming (DP)",
+                desc: [
+                  "Introduction to DP: Recognizing overlapping subproblems and optimal substructure.",
+                  "Top-down vs. Bottom-up: Common DP Problems: Longest common subsequence, 0/1 knapsack",
+                  "Practice Problems: Calculate the nth Fibonacci number using DP.",
+                  "Longest increasing subsequence, Coin change problem.",
+                  "0/1 knapsack problem, Edit distance between two strings.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Graphs",
+                desc: [
+                  "Graph Representations: Adjacency matrix vs. adjacency list—pros and cons.",
+                  "Graph Traversal Algorithms: BFS and DFS—understanding their applications in problem-solving.",
+                  "Shortest Path Algorithms: Dijkstra's, Bellman-Ford; how to apply them in interviews.",
+                  "Practice Problems: Implement BFS and DFS for a graph.",
+                  "Detect cycles in an undirected graph, Find connected components.",
+                  "Dijkstra's algorithm for shortest path, Kruskal's or Prim's algorithm for minimum spanning tree.",
                 ],
               },
             },
@@ -7416,8 +7551,8 @@ export const NewDSAData = [
 
       {
         Module6: {
-          title: "Term 6 – Applied DSA",
-          hours: "(1 Months)",
+          title: "Module 6 – System Design",
+          hours: "(2 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -7428,23 +7563,191 @@ export const NewDSAData = [
           content: [
             {
               chap: {
-                title: "  Data Structures for AI Engineering ",
+                title: "AI-Powered System Design Foundations",
                 desc: [
-                  "Hashmaps, heaps, queues, and stacks for fast AI workflows.",
-                  "Graphs for reasoning agents, routing, and LangGraph structures.",
-                  "Trees, tries, and search structures supporting token-level operations.",
-                  "Optimized data pipelines and memory-efficient structures.",
+                  "Introduction to System Design: Core principles of scalability, reliability, performance, and security.",
+                  "System Design Components: High-level vs. low-level design and their role in building robust systems.",
+                  "System Design Building Blocks: Key elements—databases, servers, clients, APIs, and message queues.",
                 ],
               },
             },
             {
               chap: {
-                title: "Algorithms for Retrieval, Ranking & Orchestration",
+                title: "Fundamentals of Object-Oriented Programming (OOP)",
                 desc: [
-                  "Search, ranking, and scoring algorithms for retrieval pipelines.",
-                  "Scheduling patterns for orchestrating multi-step agent workflows.",
-                  "String, parsing, and sequence algorithms for preprocessing tasks.",
-                  "Time-space tradeoffs for scalable AI microservices.",
+                  "Core principles: Abstraction, Encapsulation, Inheritance, and Polymorphism.",
+                  "Practical applications with real-world examples to solidify understanding.",
+                  "Modular component design for ease of code maintenance.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "SOLID Principles for Effective Design",
+                desc: [
+                  "SOLID Principles Overview: In-depth understanding of Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion.",
+                  "Design Intent & Application: How each principle improves flexibility, maintainability, and code quality.",
+                  "Practical Exercises: Apply SOLID principles to real scenarios for clean, adaptable code.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Essential Design Patterns",
+                desc: [
+                  "Overview of major design patterns: Creational (Factory, Singleton), Structural (Adapter, Composite), Behavioral (Observer, Strategy).",
+                  "Identifying the right pattern based on requirements and scenarios.",
+                  "Practical examples to solve common challenges with design patterns.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "UML Diagrams for Visual Representation",
+                desc: [
+                  "Introduction to essential UML diagrams, including Class, Sequence, and Component diagrams.",
+                  "Exercises in creating visual maps for clear communication of design.",
+                  "Best practices for organized, understandable diagramming.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Designing Efficient Database Schemas",
+                desc: [
+                  "Overview of major design patterns: Creational (Factory, Singleton), Structural (Adapter, Composite), Behavioral (Observer, Strategy).",
+                  "Identifying the right pattern based on requirements and scenarios.",
+                  "Practical examples to solve common challenges with design patterns.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "API Design and Implementation Basics",
+                desc: [
+                  "RESTful API design principles: Structuring endpoints, managing errors, and versioning.",
+                  "Exercises for creating well-structured, scalable APIs with error handling.",
+                  "Best practices in API development for smooth integrations.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Multithreading and Concurrency Management",
+                desc: [
+                  "Introduction to multithreading and concurrency control basics.",
+                  "Managing issues like race conditions and deadlocks effectively.",
+                  "Practical examples to design systems handling concurrent tasks efficiently.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Basic Integration AI/ML in Software Design",
+                desc: [
+                  "Basics of embedding ML models and GenAI in systems for functionality enhancement.",
+                  "Setting up data flows for AI/ML and GenAI: Data preprocessing, model execution, and output integration.",
+                  "Model lifecycle management, including monitoring and updates for performance consistency.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Testing and Code Quality Best Practices",
+                desc: [
+                  "Overview of unit and integration testing to maintain design stability.",
+                  "Techniques for documenting and structuring code for clarity and maintenance.",
+                  "Continuous monitoring and refinement for long-term code and design quality.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Introduction to System Architecture and Design",
+                desc: [
+                  "System design fundamentals: Overview of monolithic, client-server, and microservices architectures.",
+                  "Principles of system design: Scalability, reliability, maintainability, and fault tolerance.",
+                  "Evaluating architecture choices: Choosing the right design patterns for different application needs.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Distributed Systems Overview",
+                desc: [
+                  "Key concepts: Data replication, data consistency, and distributed communication.",
+                  "Design challenges in distributed systems: Fault tolerance, data integrity, and managing distributed transactions.",
+                  "Use cases: Examining examples of distributed systems and architectures in action.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Network and Communication Protocols",
+                desc: [
+                  "Network fundamentals: How TCP/IP, DNS, and HTTP/HTTPS protocols function within HLD.",
+                  "Load balancing techniques: Understanding load balancers, DNSbased load balancing, and API gateways.",
+                  "Case studies: Implementing load balancing in distributed environments.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "ZooKeeper and Kafka (Distributed Messaging Queue)",
+                desc: [
+                  "ZooKeeper: Overview of distributed coordination, leader election, and configuration management.",
+                  "Apache Kafka: Introduction to message queuing, real-time data streaming, and event-driven architecture.",
+                  "Implementing a distributed messaging system: Practical applications and setup for reliable messaging.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Designing with Microservices and CAP Theorem",
+                desc: [
+                  "Microservices architecture: Benefits and challenges of service decomposition and design.",
+                  "CAP Theorem: Trade-offs between Consistency, Availability, and Partition tolerance.",
+                  "Data partitioning: Techniques like sharding, horizontal scaling, and load distribution.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Database Selection and Data Storage Models",
+                desc: [
+                  "Database types: SQL, NoSQL, and NewSQL, understanding their scalability and data integrity trade-offs.",
+                  "Choosing a database: ACID vs. BASE properties, and database selection based on application needs.",
+                  "Distributed databases: How they manage scalability, availability, and latency",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Caching and Content Delivery Networks (CDNs)",
+                desc: [
+                  "Caching & Data Optimization: Use Redis and Memcached with expiration strategies to improve data access efficiency.",
+                  "CDN Integration: Apply CDNs to reduce load and deliver images and videos with lower latency.",
+                  "Project – Instagram Feed System: Design a scalable image and video feed handling high read traffic using caching and CDN techniques for better user experience.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Scalability, Security, and Reliability",
+                desc: [
+                  "Security best practices: Authentication, data encryption, and secure API design.",
+                  "Reliability patterns.",
+                  "Scaling infrastructure: Vertical and horizontal scaling, auto-scaling, and designing for peak load handling.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " AI/ML Systems in High-Level Design",
+                desc: [
+                  "Integrating AI/ML: High-level considerations for data pipelines, model serving, and scalability for ML.",
+                  "Data infrastructure for ML: Handling large datasets, real-time processing, and model versioning.",
+                  "Real-world case studies: Examples of high-level AI/ML systems in production environments.",
                 ],
               },
             },
