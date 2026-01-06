@@ -21,7 +21,7 @@ const JobReadySection = dynamic(() =>
   import("@/components/CoursePage/NewDSA/JobReadySection/JobReadySection")
 );
 const SyllabusNew = dynamic(() =>
-  import("@/components/CoursePage/Syllabus/MasterSyllabus")
+  import("@/components/CoursePage/Syllabus/MasterSyllabus2025")
 );
 const NewCertificateSection = dynamic(() =>
   import("@/components/CoursePage/newCertificate/NewCertificate")
