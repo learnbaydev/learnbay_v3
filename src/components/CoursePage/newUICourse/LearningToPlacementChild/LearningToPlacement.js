@@ -85,7 +85,7 @@ const LearningToPlacementChild = ({ time, guided, fullstack }) => {
             />
             <p className={styles.pTag}>
               <span className={styles.green}>
-                Become a Microsoft Certified Cloud Professional
+                Become an IBM Certified AI Professional
               </span>{" "}
               <span className={styles.nor}></span>
             </p>

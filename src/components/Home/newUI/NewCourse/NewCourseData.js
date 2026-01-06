@@ -1251,7 +1251,7 @@ export const courses = {
       certification: "Get certified in GenAI from IBM",
       description: "Designed for senior managers & leaders",
       image: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/genaisw.webp",
-      link: "/artificial-intelligence/generative-ai-for-managers",
+      link: "/artificial-intelligence/generative-ai-for-manager",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressedv1.pdf",
       brochurePdfs:
@@ -1325,7 +1325,7 @@ export const certificationCourses = [
     imageSrc: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Part_I.webp",
     logoSrc:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
-    link: "/artificial-intelligence/generative-ai-for-managers",
+    link: "/gen-ai-agentic-ai-program-for-managers-leaders",
     brochureLinks:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+Developer+Master+Certification+Programv1.pdf",
     brochurePdfs:

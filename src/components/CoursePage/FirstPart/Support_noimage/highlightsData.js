@@ -58,7 +58,7 @@ const highlightsData = [
     headingColor: "#583EDB",
     descColor: "#1C1C1C",
     description:
-      "Practice real infrastructure and automation scenarios.Get expert feedback to confidently clear Cloud & DevOps interviews.",
+      "Practice real infrastructure and automation scenarios.Get expert feedback to confidently clear AI interviews.",
     image:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/img-4.webp",
     width: 330,
