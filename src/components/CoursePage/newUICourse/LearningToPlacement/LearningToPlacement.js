@@ -54,26 +54,36 @@ const LearningToPlacement = ({ time, guided }) => {
         <div className={styles.mainGrid}>
           <div className={styles.left}>
             <Image
-              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/3d_sign.webp"
-              width={140}
-              height={160}
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp"
+              width={150}
+              height={50}
               alt="Flexible subscription"
               loading="lazy"
             />
             <p className={styles.pTag}>
-              <span className={styles.green}>3 Years</span> Flexible{" "}
-              <span className={styles.nor}>Subscription</span>
+              <span className={styles.green}>
+                Become an IBM Certified AI Professional
+              </span>{" "}
+              <span className={styles.nor}></span>
             </p>
+            {/* Become a Microsoft Certified System Administrator Learn practical
+            system administration skills and achieve Microsoft certification. */}
             <span className={styles.learn}>
-              Learn at your pace with unlimited access.
+              Learn practical skills and earn certification.
             </span>
           </div>
 
           <div className={styles.right}>
             <div className={styles.capstoneBox}>
-              <div className={styles.capLeft}>{/* 6<span>+</span> */}</div>
-              <div className={styles.capRight}>
-                <h5>
+              {/* <div className={styles.capLeft}>
+                <img
+                  src="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Frame.webp"
+                  alt="Mock Interview Icon"
+                  className={styles.capImage} // optional: add this class if you want to control styling
+                />
+              </div> */}
+              <div className={styles.capRight} style={{ color: "white" }}>
+                <h5 style={{ color: "white" }}>
                   <strong>
                     Solve real AI/GenAI challenges from startups and add
                     industry-certified projects to your portfolio.

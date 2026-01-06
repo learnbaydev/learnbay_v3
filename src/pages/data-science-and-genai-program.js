@@ -208,7 +208,7 @@ const NewDSA = ({ DSADataJson }) => {
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Science_and_Generative_AI_Master_Certification%2BProgram.pdf"
           brochurePdf={pdfUrl}
         />
-        <LearningToPlacement time="370" guided="60" />
+        <LearningToPlacement time="250" guided="30" />
 
         {/* <ProgramSection
           programSectionData={NewDSAData[0].ProgramSection}
