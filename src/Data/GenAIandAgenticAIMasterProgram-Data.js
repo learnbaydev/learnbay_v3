@@ -6844,7 +6844,7 @@ export const NewDSAData = [
       {
         Module1: {
           title: "Term 1 – Python for GenAI",
-          hours: "(2 Months)",
+          hours: "(1.5 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -6997,7 +6997,7 @@ export const NewDSAData = [
       {
         Module2: {
           title: "Term 2 – Foundation for GenAI",
-          hours: "(2 Months)",
+          hours: "(1 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -7087,7 +7087,7 @@ export const NewDSAData = [
       {
         Module3: {
           title: "Term 3 – Generative AI",
-          hours: "(3 Months)",
+          hours: "(2 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
