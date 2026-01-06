@@ -398,7 +398,7 @@ export const courses = {
       certification: "Project Certification from IBM",
       description: "Designed For Tech Professionals",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Ai_master_cards.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/genai+cloud2026.webp",
       link: "/genai-agenticai-for-cloud-devops",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
@@ -411,7 +411,7 @@ export const courses = {
       certification: "Certification from IIT Patna",
       description: "For Non-Programmers",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/HR_cardssss.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IIT+Patna2026.png",
       link: "/artificial-intelligence/applied-ai-practitioner-program",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
@@ -756,7 +756,7 @@ export const courses = {
       certification: "Project Certification form IBM",
       description: "For Working Professionals",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA_card+(1).webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/genai+master2026.webp",
 
       link: "/gen-ai-and-agentic-ai-master-program",
       brochureLinks:
@@ -771,7 +771,7 @@ export const courses = {
       certification: "Project Certification form IBM",
       description: "For Manager & Leaders",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA_card+(1).webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/genai+manager2026.webp",
 
       link: "/gen-ai-agentic-ai-program-for-managers-leaders",
       brochureLinks:
@@ -786,7 +786,7 @@ export const courses = {
       certification: "Project Certification form IBM",
       description: "For Tech Professionals",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA_card+(1).webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/genai+cloud2026.webp",
 
       link: "/genai-agenticai-for-cloud-devops",
       brochureLinks:
@@ -801,7 +801,7 @@ export const courses = {
       certification: "Project Certification form IBM",
       description: "For Tech Professionals",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA_card+(1).webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/genai+sd2026.webp",
 
       link: "/artificial-intelligence/genai-software-developers",
       brochureLinks:
@@ -816,7 +816,7 @@ export const courses = {
       certification: "Project Certification form IBM",
       description: "For Non Programmers",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA_card+(1).webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/genai+program2026.webp",
 
       link: "/gen-ai-agentic-ai-program",
       brochureLinks:
@@ -831,7 +831,7 @@ export const courses = {
       certification: "Certification form IIT Patna",
       description: "For Non Programmers",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA_card+(1).webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IIT+Patna2026.png",
 
       link: "/artificial-intelligence/applied-ai-practitioner-program",
       brochureLinks:
@@ -970,7 +970,7 @@ export const courses = {
       certification: "Project Certification from IBM",
       description: "For Non Programmers",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ISIO.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/genai+cloud2026.webp",
       link: "/data-science-and-genai-program",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf",
@@ -984,7 +984,7 @@ export const courses = {
       certification: "Project Certification form IBM",
       description: "For Working Professionals",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cards.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/genai+master2026.webp",
       link: "gen-ai-and-agentic-ai-master-program",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
@@ -1170,7 +1170,7 @@ export const courses = {
       certification: "Project Certification form IBM",
       description: "For Tech Professionals",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/HR_cardssss.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/genai+sd2026.webp",
       link: "artificial-intelligence/genai-software-developers",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
@@ -1183,7 +1183,7 @@ export const courses = {
       certification: "Project Certification form IBM",
       description: "For Working Professionals",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cards.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/genai+master2026.webp",
       link: "gen-ai-and-agentic-ai-master-program",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
