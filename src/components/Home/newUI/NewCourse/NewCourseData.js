@@ -756,7 +756,7 @@ export const courses = {
       certification: "Project Certification form IBM",
       description: "For Working Professionals",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/genai+master2026.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cloud2026.webp",
 
       link: "/gen-ai-and-agentic-ai-master-program",
       brochureLinks:
@@ -1055,7 +1055,7 @@ export const courses = {
       certification: "Project Certification form IBM",
       description: "For Tech Professionals",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SA.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/genai+2026.webp",
       link: "/genai-agenticai-for-cloud-devops",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-System-Admin-Professionalslink.pdf",
@@ -1183,7 +1183,7 @@ export const courses = {
       certification: "Project Certification form IBM",
       description: "For Working Professionals",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/genai+master2026.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/cloud2026.webp",
       link: "gen-ai-and-agentic-ai-master-program",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
