@@ -224,7 +224,7 @@ Generative AI and Agentic AI course for working professionals
           upSkillingHide={true}
         /> */}
         {/* <DSAPractical /> */}
-        <HighlightsSection />
+        <HighlightsSection aiCloab={true} />
 
         <AnimationNew />
         <JobReadySection />

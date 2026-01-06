@@ -217,7 +217,7 @@ const NewDSA = ({ DSADataJson }) => {
           upSkillingHide={true}
         /> */}
         {/* <DSAPractical /> */}
-        <HighlightsSection />
+        <HighlightsSection aiCloab={true} />
 
         <AnimationNew />
         <JobReadySection />
