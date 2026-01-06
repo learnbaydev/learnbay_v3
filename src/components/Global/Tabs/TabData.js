@@ -216,6 +216,11 @@ export const TabData = [
         hours: "5 Months",
         url: "/cloud-and-devops-for-database-administrators",
       },
+      {
+        CName: "Advanced Cloud & DevOps Program",
+        hours: "5 Months",
+        url: "/advanced-cloud-and-devops-program",
+      },
     ],
   },
 
