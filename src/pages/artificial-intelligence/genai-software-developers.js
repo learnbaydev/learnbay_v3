@@ -171,7 +171,7 @@ Generative AI and Agentic AI course for working professionals
           "courseWorkload": "P13W",
           "courseFee": {
             "@type": "PriceSpecification",
-            "price": "₹ 95,000 + 18% GST",
+            "price": "₹ 1,20,000 + 18% GST",
             "priceCurrency": "INR"
           }
         }
@@ -254,7 +254,7 @@ Generative AI and Agentic AI course for working professionals
 
         {/* <NewCertificateSection certificateNew={NewDSAData[0].certificateNew} /> */}
         <DSAFeeSection
-          Fee="₹ 95,000 "
+          Fee="₹ 1,20,000 "
           FeeEmi="₹ 7,916/ month"
           // Hybrid Classes
           hybridFee="₹ 1,55,000"

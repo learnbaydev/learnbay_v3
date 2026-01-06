@@ -254,7 +254,7 @@ Generative AI and Agentic AI course for working professionals
 
         {/* <NewCertificateSection certificateNew={NewDSAData[0].certificateNew} /> */}
         <DSAFeeSection
-          Fee="₹ 1.10 Lacs"
+          Fee="₹1,20,000"
           FeeEmi="₹ 7,916/ month"
           // Hybrid Classes
           hybridFee="₹ 1,55,000"
