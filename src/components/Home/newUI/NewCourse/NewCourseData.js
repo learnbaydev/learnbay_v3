@@ -796,7 +796,7 @@ export const courses = {
     },
 
     {
-      title: "GenAI & AgenticAI For SDE ",
+      title: "GenAI & AgenticAI For SD ",
       duration: "9 months | 4 capstone Projects",
       certification: "Project Certification form IBM",
       description: "For Tech Professionals",
@@ -818,7 +818,7 @@ export const courses = {
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA_card+(1).webp",
 
-      link: "/artificial-intelligence/genai-software-developers",
+      link: "/gen-ai-agentic-ai-program",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
       brochurePdfs:
@@ -971,7 +971,7 @@ export const courses = {
       description: "For Tech Professionals",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ISIO.webp",
-      link: "/datascience/artificial-intelligence-certification-course",
+      link: "/data-science-and-genai-program",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf",
       brochurePdfs:
@@ -1325,7 +1325,7 @@ export const certificationCourses = [
     imageSrc: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Part_I.webp",
     logoSrc:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
-    link: "/artificial-intelligence/genai-software-developers",
+    link: "/artificial-intelligence/generative-ai-for-managers",
     brochureLinks:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+Developer+Master+Certification+Programv1.pdf",
     brochurePdfs:
@@ -1347,7 +1347,7 @@ export const certificationCourses = [
         text: "Designed for Senior Managers and Leaders",
       },
     ],
-    link: "/artificial-intelligence/generative-ai-for-managers",
+    link: "/genai-agenticai-for-cloud-devops",
     brochureLinks:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressed.pdf",
     brochurePdfs:
