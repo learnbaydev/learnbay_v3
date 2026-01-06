@@ -4,12 +4,12 @@ export const NewDSAData = [
   {
     header: [
       {
-        spanTag: "Integrated with AI Co-Lab Experience",
+        spanTag: "Integrated with AI Co-Lab Experience & BYOP",
         spanIcon:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
         title: [
           {
-            text: "Data Science and ",
+            text: "Advanced Data Science and ",
             color: false,
           },
           {
@@ -24,7 +24,7 @@ export const NewDSAData = [
             id: 1,
             img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/firstPoint.webp",
             imgAlt: "DSA First Point",
-            text1: "Work on Startup-driven GenAI & Agentic AI projects.",
+            text1: "Build what your Business needs - BYOP ",
           },
           {
             id: 2,

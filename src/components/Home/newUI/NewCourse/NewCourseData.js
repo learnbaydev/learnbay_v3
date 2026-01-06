@@ -342,11 +342,11 @@ export const courses = {
   all: [
     {
       title: "Advanced Data Science & GenAI Master Program ",
-      duration: "9 Months | 4 Capstone Projects",
+      duration: "13 Months | 4 Capstone Projects",
       certification: "Project Certification from IBM",
-      description: "For Working Professional",
+      description: "Designed For Tech Professionals",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws2.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/HR_cardssss.webp",
       link: "/datascience/data-science-and-ai-master-certification-program",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
@@ -354,10 +354,10 @@ export const courses = {
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Science-%26-AI-Master-Program.pdf",
     },
     {
-      title: " GenAI & AgenticAI Master Program ",
+      title: " GenAI & Agentic AI Master Program ",
       duration: "9 Months | 4 Capstone Projects",
       certification: "Project Certification from IBM",
-      description: "For Working Professional",
+      description: "For Working Professionals",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Gen_aiII.webp",
       link: "/gen-ai-and-agentic-ai-master-program",
@@ -367,7 +367,7 @@ export const courses = {
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Science-%26-AI-Master-Program.pdf",
     },
     {
-      title: "Cloud & DevOps Master Program ",
+      title: "AI-Powered Cloud & DevOps Master Program ",
       duration: "9 Months | 4 Capstone Projects",
       certification: "Project Certification from IBM",
       description: "Designed by industry experts",
@@ -380,10 +380,10 @@ export const courses = {
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Science-%26-AI-Master-Program.pdf",
     },
     {
-      title: "SDE Master Program With GenAI ",
-      duration: "9 Months | 4 Capstone Projects",
+      title: "SDE Master Program With GenAI & Agentic AI ",
+      duration: "11 Months | 4 Capstone Projects",
       certification: "Project Certification from IBM",
-      description: "For Working Professional",
+      description: "Designed For Tech Professionals",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Foundation_cards.webp",
       link: "/artificial-intelligence/sde-master-program-gen-ai-agentic-ai",
@@ -394,9 +394,9 @@ export const courses = {
     },
     {
       title: "GenAI & AgenticAI for Cloud & DevOps ",
-      duration: "5 Months | 4 Capstone Projects",
+      duration: "5 Months | 2 Capstone Projects",
       certification: "Project Certification from IBM",
-      description: "For Working Professional",
+      description: "Designed For Tech Professionals",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Ai_master_cards.webp",
       link: "/genai-agenticai-for-cloud-devops",
@@ -407,9 +407,9 @@ export const courses = {
     },
     {
       title: "Applied AI Practioner Program ",
-      duration: "9 Months | 4 Capstone Projects",
-      certification: "Project Certification from IBM",
-      description: "For Working Professional",
+      duration: "4 Months | 2 Capstone Projects",
+      certification: "Certification from IIT Patna",
+      description: "For Non-Programmers",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/HR_cardssss.webp",
       link: "/artificial-intelligence/applied-ai-practitioner-program",
@@ -691,10 +691,10 @@ export const courses = {
 
   masterCertification: [
     {
-      title: "GenAI & AgenticAI Master Certification Program ",
+      title: "GenAI & Agentic AI Master Certification Program ",
       duration: "9 months | 4 capstone Projects",
       certification: "Project Certification form IBM",
-      description: "For Tech Professionals",
+      description: "For Working Professionals",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA_card+(1).webp",
 
@@ -706,10 +706,10 @@ export const courses = {
     },
 
     {
-      title: "Cloud and DevOps Masters Program",
-      duration: "5 months | 2 capstone Projects",
+      title: "AI-Powered Cloud and DevOps Masters Program",
+      duration: "9 months | 4 capstone Projects",
       certification: "Project Certification form IBM",
-      description: "For HR Professional",
+      description: "For Tech Professionals",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/HR_cardssss.webp",
       link: "/cloud&devops/cloud-and-devops-for-system-administrators-master-certification",
@@ -719,12 +719,12 @@ export const courses = {
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/hr-analytics.pdf",
     },
     {
-      title: "SDE Master Program Generative AI and Agentic AI",
-      duration: "7 months | 2 capstone Projects",
+      title: "SDE Master Program With GenAI & Agentic AI",
+      duration: "11 months | 4 capstone Projects",
       certification: "Project Certification form IBM",
-      description: "For BFSI Professional",
+      description: "For Tech Professionals",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cards.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Foundation_cards.webp",
       link: "/artificial-intelligence/sde-master-program-gen-ai-agentic-ai",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
@@ -733,12 +733,12 @@ export const courses = {
     },
 
     {
-      title: "Advanced Data Science and GenAI Master Certification Program",
-      duration: "5 months | 2 capstone Projects",
+      title: "Advanced Data Science & GenAI Master Program",
+      duration: "13 months | 4 capstone Projects",
       certification: "Project Certification form IBM",
-      description: "For Marketing Professional",
+      description: "For Tech Professionals",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/marketing_anaC.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/HR_cardssss.webp",
       link: "/datascience/data-science-and-ai-master-certification-program ",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Marketing+Analytics+Certification+Program.pdf",
@@ -751,10 +751,10 @@ export const courses = {
 
   genai: [
     {
-      title: "GenAI & AgenticAI Master Certification Program ",
+      title: "GenAI & Agentic AI Master Certification Program ",
       duration: "9 months | 4 capstone Projects",
       certification: "Project Certification form IBM",
-      description: "For Tech Professionals",
+      description: "For Working Professionals",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA_card+(1).webp",
 
@@ -766,10 +766,10 @@ export const courses = {
     },
 
     {
-      title: "GenAI & AgenticAI Master For Manager & Leaders ",
-      duration: "9 months | 4 capstone Projects",
+      title: "GenAI & Agentic AI For Manager & Leaders ",
+      duration: "5 months | 2 capstone Projects",
       certification: "Project Certification form IBM",
-      description: "For Tech Professionals",
+      description: "For Manager & Leaders",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA_card+(1).webp",
 
@@ -781,8 +781,8 @@ export const courses = {
     },
 
     {
-      title: "GenAI & AgenticAI For Cloud & DevOps ",
-      duration: "9 months | 4 capstone Projects",
+      title: "GenAI & Agentic AI For Cloud & DevOps ",
+      duration: "5 months | 2 capstone Projects",
       certification: "Project Certification form IBM",
       description: "For Tech Professionals",
       image:
@@ -796,8 +796,8 @@ export const courses = {
     },
 
     {
-      title: "GenAI & AgenticAI For SD ",
-      duration: "9 months | 4 capstone Projects",
+      title: "GenAI & Agentic AI For Software Developer ",
+      duration: "5 months | 2 capstone Projects",
       certification: "Project Certification form IBM",
       description: "For Tech Professionals",
       image:
@@ -811,10 +811,10 @@ export const courses = {
     },
 
     {
-      title: "GenAI & AgenticAI Program ",
-      duration: "9 months | 4 capstone Projects",
+      title: "GenAI & Agentic AI Program ",
+      duration: "5 months | 2 capstone Projects",
       certification: "Project Certification form IBM",
-      description: "For Tech Professionals",
+      description: "For Non Programmers",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA_card+(1).webp",
 
@@ -827,9 +827,9 @@ export const courses = {
 
     {
       title: "Applied AI Practioner Program ",
-      duration: "9 months | 4 capstone Projects",
-      certification: "Project Certification form IBM",
-      description: "For Tech Professionals",
+      duration: "4 months | 2 capstone Projects",
+      certification: "Certification form IIT Patna",
+      description: "For Non Programmers",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA_card+(1).webp",
 
@@ -951,24 +951,24 @@ export const courses = {
 
   dsgenai: [
     {
-      title: "Data Science and GenAI Master",
-      duration: "5 months | 3 Capstone Project",
+      title: "Advanced Data Science & GenAI Master Program ",
+      duration: "13 Months | 4 Capstone Projects",
       certification: "Project Certification from IBM",
-      description: "For Tech Professionals",
+      description: "Designed For Tech Professionals",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Gen_aiII.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/HR_cardssss.webp",
       link: "/datascience/data-science-and-ai-master-certification-program",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Masters-in-CS.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Science-%26-AI-Master-Program.pdf",
     },
 
     {
-      title: "DS & Gen AI Program ",
-      duration: "5 months | 3 Capstone Project",
+      title: "Data Science & GenAI Program ",
+      duration: "9 months | 2 Capstone Project",
       certification: "Project Certification from IBM",
-      description: "For Tech Professionals",
+      description: "For Non Programmers",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ISIO.webp",
       link: "/data-science-and-genai-program",
@@ -979,17 +979,17 @@ export const courses = {
     },
 
     {
-      title: "GenAI & Agentic AI Master Program",
-      duration: "5 months | 3 Capstone Project",
-      certification: "Project Certification from IBM",
-      description: "For Tech Professionals",
+      title: "GenAI & Agentic AI Master Certification Program",
+      duration: "9 months | 4 capstone Projects",
+      certification: "Project Certification form IBM",
+      description: "For Working Professionals",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Master.webp",
-      link: "/gen-ai-and-agentic-ai-master-program",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cards.webp",
+      link: "gen-ai-and-agentic-ai-master-program",
       brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Masters-in-CS.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_compr.pdf",
     },
   ],
 
@@ -1008,10 +1008,10 @@ export const courses = {
     // },
 
     {
-      title: "Cloud and DevOps Masters Program",
+      title: "AI-Powered Cloud and DevOps Master Program",
       duration: "9 months",
-      certification: "Project Certification form IBM and Microsoft",
-      description: "For Cloud Professionals",
+      certification: "Project Certification form IBM",
+      description: "For Tech Professionals",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Master.webp",
       link: "/cloud&devops/cloud-and-devops-for-system-administrators-master-certification",
@@ -1023,8 +1023,8 @@ export const courses = {
 
     {
       title: "Cloud & DevOps for Network Professionals",
-      duration: "5-6 months",
-      certification: "Project Certification form Microsoft",
+      duration: "5 months",
+      certification: "Certification form Microsoft",
       description: "For Network Professionals",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/NP.webp",
@@ -1037,8 +1037,8 @@ export const courses = {
 
     {
       title: "Cloud & DevOps for System Administrators",
-      duration: "5-6 months",
-      certification: "Project Certification form Microsoft",
+      duration: "5 months",
+      certification: "Certification form Microsoft",
       description: "For System Administrators",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SA.webp",
@@ -1050,10 +1050,10 @@ export const courses = {
     },
 
     {
-      title: "GenAI & AgenticAI For Cloud & DevOps ",
-      duration: "5-6 months",
-      certification: "Project Certification form Microsoft",
-      description: "For System Administrators",
+      title: "GenAI & Agentic AI For Cloud & DevOps ",
+      duration: "5 months",
+      certification: "Project Certification form IBM",
+      description: "For Tech Professionals",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SA.webp",
       link: "/genai-agenticai-for-cloud-devops",
@@ -1065,8 +1065,8 @@ export const courses = {
 
     {
       title: "Cloud & DevOps for IT Support & IT Operations",
-      duration: "5-6 months",
-      certification: "Project Certification form Microsoft",
+      duration: "5 months",
+      certification: "Certification form Microsoft",
       description: "For IT Support & IT Operations",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ISIO.webp",
@@ -1079,8 +1079,8 @@ export const courses = {
 
     {
       title: "Cloud & DevOps for Database Administrators",
-      duration: "5-6 months",
-      certification: "Project Certification form Microsoft",
+      duration: "5 months",
+      certification: " Certification form Microsoft",
       description: "For Database Administrators",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DA.webp",
@@ -1151,12 +1151,12 @@ export const courses = {
 
   sde: [
     {
-      title: "SDE Master Program Generative AI and Agentic AI",
-      duration: "11 months | 3 Projects",
+      title: "SDE Master Program With GenAI & Agentic AI",
+      duration: "11 months | 4 Projects",
       certification: "Project Certification form IBM",
-      description: "For Manager & Team leader",
+      description: "For Tech Professionals",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Manager_cards.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/HR_cardssss.webp",
       link: "/artificial-intelligence/sde-master-program-gen-ai-agentic-ai",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSAI_for_Managers_and_Leaders.pdf",
@@ -1168,7 +1168,7 @@ export const courses = {
       title: "GenAI and Agentic AI for Software Developers",
       duration: "5 months | 2 capstone Projects",
       certification: "Project Certification form IBM",
-      description: "For HR Professional",
+      description: "For Tech Professionals",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/HR_cardssss.webp",
       link: "artificial-intelligence/genai-software-developers",
@@ -1178,10 +1178,10 @@ export const courses = {
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/hr-analytics.pdf",
     },
     {
-      title: "GenAI and Agentic AI for Master certification Program",
-      duration: "7 months | 2 capstone Projects",
+      title: "GenAI & Agentic AI Master Certification Program",
+      duration: "9 months | 4 capstone Projects",
       certification: "Project Certification form IBM",
-      description: "For BFSI Professional",
+      description: "For Working Professionals",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cards.webp",
       link: "gen-ai-and-agentic-ai-master-program",
@@ -1262,8 +1262,8 @@ export const courses = {
     {
       title: "Master's Degree in CS: Data Science and Generative AI",
       duration: "18 months",
-      certification: "EC Council Certified ethical hacker Certificate",
-      description: "For Working Professional",
+      certification: "Woolf | Globally Recognized Accredited Degree",
+      description: "For Global opportunity Seekers",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/woolf+2026.webp",
       link: "/datascience/data-science-and-ai-masters-in-cs",
