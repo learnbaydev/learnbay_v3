@@ -624,7 +624,7 @@ const NewCourse = ({
                       alt="slide_icon"
                     />
                     <div className={styles.tagGen}>
-                      <p>DS & GenAI</p>
+                      <p>Data Sci & GenAI</p>
                     </div>
                   </div>
                 </div>
