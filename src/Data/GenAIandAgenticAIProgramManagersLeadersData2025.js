@@ -6844,7 +6844,7 @@ export const NewDSAData = [
 
       {
         Module1: {
-          title: "Term 1 – Python for GenAI",
+          title: "Module 1 – Python for GenAI",
           hours: "(1.5 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -6997,7 +6997,7 @@ export const NewDSAData = [
 
       {
         Module2: {
-          title: "Term 2 – Foundation for GenAI",
+          title: "Module 2 – Foundation for GenAI",
           hours: "(1 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -7087,7 +7087,7 @@ export const NewDSAData = [
 
       {
         Module3: {
-          title: "Term 3 – Generative AI For Managers",
+          title: "Module 3 – Generative AI For Managers",
           hours: "(1.5 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -7256,7 +7256,7 @@ export const NewDSAData = [
 
       {
         Module4: {
-          title: "Term 4 – Agentic AI",
+          title: "Module 4 – Agentic AI",
           hours: "(15 Days)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -7378,7 +7378,7 @@ export const NewDSAData = [
 
       {
         Module5: {
-          title: "Term 5 – Gen AI for Digital Business Transformation",
+          title: "Module 5 – Gen AI for Digital Business Transformation",
           hours: "(15 Days)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -7440,7 +7440,7 @@ export const NewDSAData = [
 
       {
         Module6: {
-          title: "Term 6 – GenAI for Project Management",
+          title: "Module 6 – GenAI for Project Management",
           hours: "(1 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
