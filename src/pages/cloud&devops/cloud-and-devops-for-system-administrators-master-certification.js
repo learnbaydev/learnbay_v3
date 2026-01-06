@@ -51,7 +51,9 @@ const NewDSA = ({ DSADataJson }) => {
   return (
     <>
       <Head>
-        <title>Cloud and DevOps Engineering Masters Program - Learnbay</title>
+        <title>
+          AI Powered Cloud and DevOps Engineering Masters Program - Learnbay
+        </title>
         <meta
           name="description"
           content="Build a future-proof tech career with Learnbay's Cloud & DevOps Engineering Masters Program. Learn real-world tools, hands-on projects, and get career support."
@@ -187,7 +189,7 @@ Cloud and DevOps master certification"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/AI-PoweredCloudDevOpsEngineeringMasterProgram+-+dec2025_compressed.pdf"
           brochurePdf={pdfUrl}
         />
-        <LearningToPlacement time="250" guided="10" />
+        <LearningToPlacement time="250" guided="40" />
         <HighlightsAdminSection cloud={true} highlightsData={highlightsData} />
         <AnimationNew />
         <JobReadySection />

@@ -9,7 +9,7 @@ export const NewDSAData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
         title: [
           {
-            text: "Cloud and DevOps Engineering ",
+            text: "AI Powered Cloud and DevOps Engineering ",
             color: false,
           },
           {
