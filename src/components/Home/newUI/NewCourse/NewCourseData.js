@@ -975,7 +975,7 @@ export const courses = {
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Masters-in-CS.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data+Science+and+GenAI+Program+(3)_compressed.pdf",
     },
 
     {
