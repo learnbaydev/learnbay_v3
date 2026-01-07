@@ -189,7 +189,7 @@ Cloud and DevOps master certification"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/AI-PoweredCloudDevOpsEngineeringMasterProgram+-+dec2025_compressed.pdf"
           brochurePdf={pdfUrl}
         />
-        <LearningToPlacement time="250" guided="40" />
+        <LearningToPlacement time="250" guided="40" leftPart="3YEAR" />
         <HighlightsAdminSection cloud={true} highlightsData={highlightsData} />
         <AnimationNew />
         <JobReadySection />
