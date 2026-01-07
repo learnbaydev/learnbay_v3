@@ -169,9 +169,9 @@ export const TabData = [
         url: "/data-science-and-genai-program",
       },
       {
-        CName: "GenAI & Agentic AI Master Certification Program",
-        hours: "9 months",
-        url: "/gen-ai-and-agentic-ai-master-program",
+        CName: "Data Analytics and Business Analytics with Generative AI",
+        hours: "6 months",
+        url: "/artificial-intelligence/generative-ai-analytics-course",
       },
     ],
   },
