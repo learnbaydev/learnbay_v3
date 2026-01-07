@@ -979,13 +979,13 @@ export const courses = {
     },
 
     {
-      title: "GenAI & Agentic AI Master Certification Program",
+      title: "Data Analytics and Business Analytics with Generative AI",
       duration: "9 months | 4 capstone Projects",
       certification: "Project Certification form IBM",
       description: "For Working Professionals",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV42026.webp",
-      link: "gen-ai-and-agentic-ai-master-program",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IITPATNAIBM2026.webp",
+      link: "/artificial-intelligence/generative-ai-analytics-course",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
       brochurePdfs:
