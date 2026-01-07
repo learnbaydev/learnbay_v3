@@ -1043,7 +1043,7 @@ export const NewDSAData = [
     Certificate: [
       {
         id: 1,
-        topnav: "Gen-AI Certificate",
+        topnav: "IBM Gen-AI Certificate",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp",
         width: 300,
         height: 270,

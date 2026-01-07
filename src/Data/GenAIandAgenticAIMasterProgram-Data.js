@@ -7476,6 +7476,33 @@ export const NewDSAData = [
     Certificate: [
       {
         id: 1,
+        topnav: "IBM",
+        img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp",
+
+        width: 300,
+        height: 340,
+        title: "Course Completion Certificate from IBM",
+        para: [
+          "Complete your training with the internationally recognized certificate.",
+          "Validate your Data Science & AI skills with IBM Course Completion Certificate.",
+          "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
+        ],
+      },
+      {
+        id: 2,
+        topnav: "Microsoft",
+        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
+        width: 330,
+        height: 260,
+        title: "Certification in Collaboration with Microsoft",
+        para: [
+          "Earn an Industry-certified Microsoft certificate , validating your skills",
+          "Showcase your expertise & enhance your resume highlighting job ready skills",
+          "Boost job opportunities and earnings with Microsoft’s certification",
+        ],
+      },
+      {
+        id: 3,
         topnav: "Project Certificate",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp",
         width: 300,
@@ -7488,7 +7515,7 @@ export const NewDSAData = [
         ],
       },
       {
-        id: 2,
+        id: 4,
         topnav: "Gen-AI Certificate",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp",
         width: 300,
