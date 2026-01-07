@@ -1102,7 +1102,7 @@ export const courses = {
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-DBA-Professionalslink.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-DBA-Professionals.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Advanced+Cloud+and+Devops+Program+(2).pdf",
     },
 
     // {
