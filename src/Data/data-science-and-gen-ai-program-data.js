@@ -4,33 +4,32 @@ export const NewDSAData = [
   {
     header: [
       {
-        spanTag: "Integrated with AI Co-Lab Experience & BYOP",
+        spanTag: "Elevate your tech career with our programs",
         spanIcon:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
         title: [
           {
-            text: "Advanced Data Science and ",
+            text: "Data Science and ",
             color: false,
           },
           {
-            text: "GenAI Master ",
+            text: "GenAI Program",
             color: true,
             gradient: "linear-gradient(90deg, #E85868 58.95%, #8081FF 73.36%)",
           },
-          { text: "Certification Program", color: false },
         ],
         points: [
           {
             id: 1,
             img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/firstPoint.webp",
             imgAlt: "DSA First Point",
-            text1: "Build what your Business needs - BYOP ",
+            text1: "Learn to integrate GenAI into your existing software stack",
           },
           {
             id: 2,
             img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/secondPoint.webp",
             imgAlt: "DSA Second Point",
-            text1: "Get directly certified from startups",
+            text1: "Build Autonomous AI Agents",
           },
         ],
         mentorText: "Earn Industry-Ready Certification from",
@@ -49,13 +48,13 @@ export const NewDSAData = [
             width: "60",
             height: "30",
           },
-          {
-            id: 3,
-            img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Microsoft.webp",
-            imgAlt: "image",
-            width: "130",
-            height: "30",
-          },
+          // {
+          //   id: 3,
+          //   img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Microsoft.webp",
+          //   imgAlt: "image",
+          //   width: "130",
+          //   height: "30",
+          // },
         ],
         descrption:
           "Successfully transition careers through our courses & real-time capstone projects. All while making your previous work experience count!",
@@ -5574,7 +5573,7 @@ export const NewDSAData = [
       {
         Module1: {
           title: "Term 1 – Python for GenAI",
-          hours: "(2 Months)",
+          hours: "(1.5 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -5817,7 +5816,7 @@ export const NewDSAData = [
       {
         Module3: {
           title: "Term 3 – Generative AI",
-          hours: "(3 Months)",
+          hours: "(1.5 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -5986,7 +5985,7 @@ export const NewDSAData = [
       {
         Module4: {
           title: "Term 4 – Agentic AI",
-          hours: "(1.5 Months)",
+          hours: "(15 Days)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -6104,18 +6103,18 @@ export const NewDSAData = [
           open: false,
         },
       },
-
+      // --------------------
       {
         Module5: {
-          title: "Term 5 – Statistics & Foundation of DS",
-          hours: "(1 Months)",
+          title: "Term 5 – Statistics & Machine Learning",
+          hours: "(2 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Statistics & Foundation of DS",
+          points: "Statistics & Machine Learning",
           content: [
             {
               chap: {
@@ -6123,7 +6122,7 @@ export const NewDSAData = [
                 desc: [
                   "Types of variables: quantitative, and qualitative",
                   "Role of descriptive vs inferential statistics.",
-                  "Understanding data distribution and variability",
+                  "Understanding data distribution and variability.",
                   "Probability basics including experiments, outcomes, and events.",
                 ],
               },
@@ -6226,48 +6225,16 @@ export const NewDSAData = [
                 ],
               },
             },
-          ],
-          id: 4,
-          open: false,
-        },
-      },
-
-      {
-        Module6: {
-          title: "Term 6 – Advanced Data Science",
-          hours: "(3 Months)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
-          StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Advanced Data Science",
-          content: [
-            {
-              chap: {
-                title: "  Advanced Clustering Techniques ",
-                desc: [
-                  "Hierarchical approaches: agglomerative and divisive clustering strategies",
-                  "Linkage criteria: single, complete, and average linkage mathematical foundations",
-                  "Density-based clustering: DBSCAN algorithm and noise point handling",
-                  "Clustering comparison: K-means vs hierarchical vs DBSCAN",
-                  "Clustering evaluation: internal and external validation measures",
-                ],
-              },
-            },
             {
               chap: {
                 title: " Ensemble Learning Techniques (Bagging & Boosting)",
                 desc: [
-                  "Bootstrap aggregation (bagging): concept, implementation",
-                  "Variance reduction through sampling diversity",
+                  " Bootstrap aggregation (bagging): concept, implementation Variance reduction through sampling diversity",
                   "Random Forest: out-of-bag estimation and feature importance calculation",
-                  "Boosting foundations: sequential learning and error correction  mechanisms",
-                  "AdaBoost, gradient boosting",
+                  "Boosting foundations: sequential learning and error correction mechanisms AdaBoost, gradient boosting",
                   "Gradient boosting: loss function optimization and residual learning",
                   "Advanced boosting: XGBoost, CatBoost, and LightGBM implementation strategies",
-                  "Bagging vs boosting: bias-variance implications",
+                  "Bagging vs boosting: bias-variance implications ",
                 ],
               },
             },
@@ -6275,10 +6242,20 @@ export const NewDSAData = [
               chap: {
                 title: "Support Vector Machine (SVMs)",
                 desc: [
-                  "Linear SVM: maximum margin principle and support vector identification",
+                  " Linear SVM: maximum margin principle and support vector identification",
                   "Soft margin formulation: slack variables and regularization parameter tuning",
                   "Kernel methods: polynomial, radial basis function, and kernel trick mathematics",
                   "Multi-class extensions: one-vs-one and one-vs-rest strategies",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Dimensionality Reduction Methods",
+                desc: [
+                  "Principal Component Analysis: eigenvalue decomposition and variance explanation",
+                  "Component interpretation: loading analysis and dimensionality selection",
+                  "Feature selection comparison: filtering, wrapper, and embedded approaches",
                 ],
               },
             },
@@ -6297,9 +6274,9 @@ export const NewDSAData = [
             },
             {
               chap: {
-                title: "Time Series Analysis",
+                title: " Time Series Analysis",
                 desc: [
-                  " Time series components: trend, seasonality, noise",
+                  "Time series components: trend, seasonality, noise",
                   "Stationarity tests: ADF, KPSS",
                   "Autocorrelation & partial ACF plots",
                   "Seasonal decomposition (additive, multiplicative)",
@@ -6308,39 +6285,46 @@ export const NewDSAData = [
             },
             {
               chap: {
-                title: " Classical Forecasting Methods",
+                title: "Classical Forecasting Methods",
                 desc: [
-                  "TMoving averages & exponential smoothing",
+                  " TMoving averages & exponential smoothing",
                   "ARIMA modeling: identification, estimation, diagnostics",
                   "SARIMA for seasonal data",
                   "Model comparison using AIC/BIC & backtesting",
                 ],
               },
             },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+
+      {
+        Module6: {
+          title: "Term 6 – Advanced Machine Learning",
+          hours: "(1 Months)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Advanced Data Science",
+          content: [
             {
               chap: {
-                title: "Advanced Forecasting",
+                title: " Text Preprocessing ",
                 desc: [
-                  "Prophet framework for business series",
-                  "Feature-based regression models (lags, rolling stats)",
-                  "Tree-based regressors (Random Forest, XGBoost) on time features",
-                  "Time series cross-validation & walk-forward validation",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Text Preprocessing",
-                desc: [
-                  " Tokenization, stopword removal, stemming, and lemmatization.",
+                  "Tokenization, stopword removal, stemming, and lemmatization.",
                   "Lowercasing, punctuation removal, and text normalization.",
-                  "Converting raw text into clean, usable form",
+                  "Converting raw text into clean, usable form.",
                 ],
               },
             },
             {
               chap: {
-                title: "Word Embeddings",
+                title: "  Word Embeddings",
                 desc: [
                   "Represent words as dense vectors capturing meaning.",
                   "Word2Vec for context-based learning.",
@@ -6355,13 +6339,13 @@ export const NewDSAData = [
                 desc: [
                   "Attention-based architecture for understanding long text.",
                   "BERT for bidirectional contextual embeddings.",
-                  "Fine-tuning BERT for NLP tasks like QA and classification",
+                  "Fine-tuning BERT for NLP tasks like QA and classification.",
                 ],
               },
             },
             {
               chap: {
-                title: " Sequence-to-Sequence Models",
+                title: "Sequence-to-Sequence Models",
                 desc: [
                   "Encoder-decoder setup for translating sequences.",
                   "Used in translation, summarization, and dialogue.",
@@ -6371,9 +6355,9 @@ export const NewDSAData = [
             },
             {
               chap: {
-                title: "Text Classification",
+                title: " Text Classification",
                 desc: [
-                  "Assign labels to text (spam, sentiment, categories).",
+                  " Assign labels to text (spam, sentiment, categories).",
                   "Use embeddings + neural networks or transformer models.",
                   "Evaluate using accuracy, precision, recall, F1-score.",
                 ],
@@ -6383,7 +6367,7 @@ export const NewDSAData = [
               chap: {
                 title: " Topic Modeling",
                 desc: [
-                  " Discover hidden topics in text collections.",
+                  "Discover hidden topics in text collections.",
                   "LDA and embedding-based topic extraction.",
                   "Group documents by common themes.",
                 ],
@@ -6393,116 +6377,23 @@ export const NewDSAData = [
               chap: {
                 title: "NLP Evaluation Metrics",
                 desc: [
-                  " Accuracy and confusion matrix.",
+                  "Accuracy and confusion matrix.",
                   "Precision, Recall, and F1-Score.",
                   "BLEU score for text generation.",
                   "Perplexity for language models.",
                 ],
               },
             },
-            {
-              chap: {
-                title: "Computer Vision",
-                desc: [
-                  "Image Fundamentals",
-                  "Image representation using pixels, channels, and encoding.",
-                  "Histogram analysis to study brightness and contrast.",
-                  "Image transformations: resize, rotate, flip, crop.",
-                  "Image filtering: Gaussian, median, bilateral for smoothing and noise removal.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Convolutional Neural Networks (CNNs)",
-                desc: [
-                  "Convolution operation, padding, and stride basics.",
-                  "Pooling layers for reducing spatial size.",
-                  "CNN architectures",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Image Classification",
-                desc: [
-                  "Softmax classifier for predicting class probabilities.",
-                  "Transfer learning using pre-trained models.",
-                  "Data augmentation to improve generalization.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Object Detection & Localization",
-                desc: [
-                  "Traditional methods: HOG + SVM.",
-                  "Deep learning-based detectors",
-                  "R-CNN , Fast R-CNN, Faster R-CNN",
-                  "YOLO (v3–v8), SSD, RetinaNet",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Image Segmentation",
-                desc: [
-                  "Semantic segmentation – classify every pixel.",
-                  "FCN – fully convolutional networks.",
-                  "U-Net – encoder–decoder for medical images.",
-                  "DeepLab – atrous convolutions for better context.",
-                  "Instance segmentation – detect + segment each object.",
-                  "Mask R-CNN – adds mask prediction to Faster R-CNN.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Computer Vision with Transformers",
-                desc: [
-                  "Vision Transformers (ViT) – split image into patches, use attention.",
-                  "DETR – transformer-based end-to-end object detection.",
-                  "Swin Transformer – hierarchical vision transformer.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " RL Fundamentals & Core Method",
-                desc: [
-                  " Agent–environment interaction, rewards, actions, policies.",
-                  "Markov Decision Processes (MDP) and Bellman equations essentials.",
-                  "Exploration–exploitation strategies (ε-greedy, softmax).",
-                  "Monte Carlo, TD Learning, SARSA, Q-Learning basics.",
-                  "Policy Gradients and Actor–Critic (REINFORCE, A2C/A3C).",
-                  "Classic use cases: game-playing AI and simulation environments.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Deep RL & Advanced Algorithms",
-                desc: [
-                  "Convolution operation, padding, and stride basics.",
-                  "Deep Q-Networks (DQN) with neural networks + experience replay.",
-                  "Advanced Actor–Critic methods: PPO, DDPG, TD3, SAC.",
-                  "Continuous control with policy gradient deep models.",
-                  "Multi-Agent RL: cooperative, competitive, and mixed settings.",
-                  "Transfer learning, fine-tuning, and lifelong RL concepts.",
-                  "Applications: robotics, autonomous driving, finance, recommendation systems.",
-                ],
-              },
-            },
           ],
-          id: 5,
+          id: 6,
           open: false,
         },
       },
 
       {
         Module7: {
-          title: "Term 7 – Deployment & MLOps",
-          hours: "(1 Months)",
+          title: "Term 7 – Data Analytics & VisualizationTools",
+          hours: "(1.5 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -6513,69 +6404,9 @@ export const NewDSAData = [
           content: [
             {
               chap: {
-                title: "Model Serving & Packaging",
+                title: " Analytics Essentials",
                 desc: [
-                  "FastAPI / Flask Serving: Build lightweight APIs to expose ML models.",
-                  "Model Packaging (BentoML / MLflow Models): Standardize models for easy deployment.",
-                  "Dockerization: Wrap the model + API into containers for consistent execution.",
-                  "Local Testing: Validate predictions, latency, and real-world behavior before cloud use.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Cloud Deployment Essentials",
-                desc: [
-                  "AWS & Azure Basics: S3/Blob storage, compute instances, IAM essentials.",
-                  "Deployment Platforms: SageMaker / Azure ML for quick hosted endpoints.",
-                  "CI/CD for Deployment: Automate build → test → deploy workflows.",
-                  "Basic Monitoring: Track API uptime, latency, and failure rates.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Reproducible ML Workflow",
-                desc: [
-                  "Data & Model Versioning: Manage dataset changes using DVC; track models via MLflow Registry.",
-                  "Experiment Tracking: Log metrics, hyperparameters, artifacts using MLflow or Weights & Biases.",
-                  "Pipeline Automation: Build training & inference pipelines with Airflow, ZenML, or Kedro.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Continuous Training, Deployment & Monitoring",
-                desc: [
-                  "CT Pipelines: Auto-trigger re-training when new data arrives or drift is detected.",
-                  "Automated Deployment: CI/CD pipelines using GitHub Actions, Jenkins, or GitLab CI.",
-                  "Model Monitoring: Detect drift, data issues, and performance degradation (Evidently, WhyLabs).",
-                  "Alerts & Rollbacks: Automatically promote or revert model versions using a registry.",
-                ],
-              },
-            },
-          ],
-          id: 7,
-          open: false,
-        },
-      },
-      {
-        Module8: {
-          title: "Term 8 – Data Analytics & VisualizationTools",
-          hours: "(1.5 Months)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
-          StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Data Analytics & VisualizationTools",
-          content: [
-            {
-              chap: {
-                title: "Analytics Essentials with Excel",
-                desc: [
-                  " Excel Basics & Core Functions: Interface, data types, formulas",
+                  "Excel Basics & Core Functions: Interface, data types, formulas",
                   "Lookup functions, conditional functions, and text functions.",
                   "Data Preparation & Cleaning: Import/export, missing data handling, validation, formatting",
                   "Power Query for cleaning & automation.",
@@ -6586,12 +6417,12 @@ export const NewDSAData = [
             },
             {
               chap: {
-                title: " Visualization & Advanced Analytics",
+                title: "Visualization & Advanced Analytics",
                 desc: [
-                  "Charts & Visualization Methods: Bar, line, pie, scatter, combo charts, advanced charting, conditional formatting for insights",
+                  "Charts & Visualization Methods: Bar, line, pie, scatter, combo charts, advanced charting, conditional formatting for insights.",
                   "Interactive Dashboards: PivotCharts, KPI visuals, storytelling layouts, mini dashboard creation.",
                   "Data Modeling & Power Tools: Power Pivot, relationships, basic DAX concepts, Excel add-ins for extended analytics.",
-                  "Projects & Applications: Business case studies, forecasting,reporting mini-projects, and real-world analytics workflows.",
+                  "Projects & Applications: Business case studies, forecasting, reporting mini-projects, and real-world analytics workflows.",
                 ],
               },
             },
@@ -6599,7 +6430,7 @@ export const NewDSAData = [
               chap: {
                 title: "Power BI Essentials",
                 desc: [
-                  "Data Prep with Power Query: Clean, transform, merge, unpivot, format text/date/number fields.",
+                  "Data Prep with Power Query: Clean, transform, merge, unpivot,format text/date/number fields.",
                   "Data Modeling: Relationships, granularity, aggregations, timeseries basics, calculated columns.",
                   "Core Visuals & Interactivity: Bar, pie, line, maps, cards, slicers, filters, drill-down, bookmarks.",
                   "Connecting & Working with Data: Load from Excel/SQL, model views, query editor, BI best practices.",
@@ -6619,7 +6450,7 @@ export const NewDSAData = [
             },
             {
               chap: {
-                title: " Tableau Essentials & Data Preparation",
+                title: "Tableau Essentials & Data Preparation",
                 desc: [
                   "Connecting & Preparing Data: Data types, joins, blending, pivots, transformations, SQL connections.",
                   "Core Visual Building: Bar, line, pie, scatter, bubble, maps (geo, custom geocoding, polygon, WMS).",
@@ -6645,31 +6476,31 @@ export const NewDSAData = [
         },
       },
       {
-        Module9: {
-          title: "Term 9 – DATA BASE MANAGEMENT SYSTEM",
-          hours: "(2 Months)",
+        Module8: {
+          title: "Term 8 – DATABASE MANAGEMENT SYSTEM",
+          hours: "(1.5 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "DATA BASE MANAGEMENT SYSTEM",
+          points: "Data Analytics & VisualizationTools",
           content: [
             {
               chap: {
                 title: " SQL Fundamentals",
                 desc: [
-                  "Core SQL & RDBMS Basics: Syntax, data types, tables, CRUD operations, querying single tables.",
+                  "Core SQL & RDBMS Basics: Syntax, data types, tables, CRUD operations,querying single tables.",
                   "Filtering & Retrieval: WHERE, ORDER BY, DISTINCT, logical operators, formatting results.",
                   "Joins & Multi-Table Queries: INNER, LEFT, RIGHT, FULL, CROSS joins, UNION, subqueries, nested queries.",
-                  "Aggregations & Analytics: GROUP BY, HAVING, summary stats, ranking functions, Top-N analysis.",
+                  "Aggregations & Analytics: GROUP BY, HAVING, summary stats,ranking functions, Top-N analysis.",
                 ],
               },
             },
             {
               chap: {
-                title: "Advanced SQL for Analytics",
+                title: "  Advanced SQL for Analytics",
                 desc: [
                   "Views & Modifications: INSERT/UPDATE/DELETE, creating views, inline views.",
                   "Optimization: Indexes, execution plans, performance tuning.",
@@ -6682,7 +6513,7 @@ export const NewDSAData = [
               chap: {
                 title: "MongoDB Essentials",
                 desc: [
-                  " MongoDB basics, data structures, and CRUD operations",
+                  "MongoDB basics, data structures, and CRUD operations",
                   "Querying data, indexing strategies, and performance tuning",
                   "Schema design, aggregation workflows, and data processing",
                   "NoSQL principles, transactions, replication, and scaling concepts",
@@ -6691,7 +6522,7 @@ export const NewDSAData = [
             },
             {
               chap: {
-                title: " NoSQL with MongoDB",
+                title: "NoSQL with MongoDB",
                 desc: [
                   "NoSQL basics and data models (key–value, document, columnar, graph)",
                   "MongoDB vs RDBMS and schema flexibility for scalable systems",
@@ -6701,13 +6532,13 @@ export const NewDSAData = [
               },
             },
           ],
-          id: 7,
+          id: 8,
           open: false,
         },
       },
       {
-        Module10: {
-          title: "Term 10 – Big Data Analytics ",
+        Module9: {
+          title: "Term 9 – Big Data Analytics",
           hours: "(1 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -6715,11 +6546,11 @@ export const NewDSAData = [
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Big Data Analytics ",
+          points: "DATA BASE MANAGEMENT SYSTEM",
           content: [
             {
               chap: {
-                title: "Hadoop Fundamentals",
+                title: " Hadoop Fundamentals",
                 desc: [
                   "Big Data & Distributed Systems: Big Data concepts, distributed architecture, Hadoop master–slave structure.",
                   "HDFS Operations: File storage model, directories, manipulation commands, permissions, quotas.",
@@ -6730,7 +6561,7 @@ export const NewDSAData = [
             },
             {
               chap: {
-                title: " Hadoop Ecosystem",
+                title: "Hadoop Ecosystem",
                 desc: [
                   "HDFS basics, architecture, and fault-tolerant storage.",
                   "YARN & MapReduce job execution and resource management.",
@@ -6741,7 +6572,7 @@ export const NewDSAData = [
             },
             {
               chap: {
-                title: " Spark Fundamentals",
+                title: "Spark Fundamentals",
                 desc: [
                   "Spark Basics: Core features, architecture, RDDs, DAGs, transformations & actions.",
                   "Spark Environment Setup: SparkSession, standalone mode, YARN/Mesos cluster management.",
@@ -6752,7 +6583,7 @@ export const NewDSAData = [
             },
             {
               chap: {
-                title: "Spark Ecosystem & Advanced Tools",
+                title: " Spark Ecosystem & Advanced Tools",
                 desc: [
                   "Spark Streaming: Real-time pipelines, DStreams/Structured Streaming, Kafka integration.",
                   "Spark MLlib: Feature engineering, building & training ML models, model evaluation.",
@@ -6762,103 +6593,7 @@ export const NewDSAData = [
               },
             },
           ],
-          id: 7,
-          open: false,
-        },
-      },
-      {
-        Module11: {
-          title: "Term 11 – DSA (Optional)",
-          hours: "(1 Months)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
-          StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "DSA (Optional)",
-          content: [
-            {
-              chap: {
-                title: "Core Concepts & Essential Data Structures",
-                desc: [
-                  "Time & Space Complexity, Big-O analysis",
-                  "Arrays & Strings: Sliding window, prefix/suffix, searching",
-                  "Linked Lists: Operations, fast–slow pointers, cycle detection",
-                  "Stacks & Queues: Implementations, monotonic stack/queue,deques",
-                  "Hashing: Hash maps/sets, frequency tables, efficient lookups",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Trees, Graphs & Fundamental Algorithms",
-                desc: [
-                  "Trees & BSTs: Traversals, patterns, tree-based problem solving",
-                  "Heaps & Priority Queues: Top-K, scheduling, optimization tasks",
-                  "Graphs: BFS/DFS, shortest paths (Dijkstra), connectivity, cycle detection",
-                  "Advanced Graphs: Topological sort, bipartite checks, MST basics",
-                  "Sorting & Searching: Merge sort, quicksort, binary search, searchon-answer",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Problem-Solving Techniques & Developer Applications",
-                desc: [
-                  "Recursion & Backtracking: Permutations, combinations, constraint solving",
-                  "Dynamic Programming: Memoization, tabulation, common DP patterns",
-                  "Greedy Algorithms: Interval scheduling, optimal selection strategies",
-                  "Real-World Use Cases: Caching logic, rate limiting, pathfinding, optimization",
-                  "Coding Interview Skills: Patterns, debugging, performance tuning",
-                ],
-              },
-            },
-          ],
-          id: 7,
-          open: false,
-        },
-      },
-      {
-        Module12: {
-          title: "Term 12 – Project Management (Skills & Tools)",
-          hours: "15 Days",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
-          StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Project Management (Skills & Tools)",
-          content: [
-            {
-              chap: {
-                title: "Agile Foundations & Practices",
-                desc: [
-                  "Scrum framework: roles, ceremonies & artifacts",
-                  "Sprint planning, daily standups, reviews & retrospectives",
-                  "Kanban boards, WIP limits & workflow optimization",
-                  "User stories, story points, estimation & backlog prioritization",
-                  "Agile metrics: velocity, burndown charts, cycle time & throughput",
-                  "Managing cross-functional AI/Data Science projects",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Tools & Practical Project Execution",
-                desc: [
-                  "Jira setup: projects, backlogs, sprints & issue tracking",
-                  "Scrum & Kanban boards, dashboards, filters & reports",
-                  "Collaboration features: comments, mentions, notifications & permissions",
-                  "Jira free-tier limitations & best practices",
-                  "Open-source PM tools: OpenProject, Taiga, iceScrum & Redmine",
-                  "Communication & team coordination tools (Slack, Teams, Confluence)",
-                ],
-              },
-            },
-          ],
-          id: 7,
+          id: 9,
           open: false,
         },
       },
@@ -6889,7 +6624,7 @@ export const NewDSAData = [
     Certificate: [
       {
         id: 1,
-        topnav: "IBM",
+        topnav: "IBM Certificate",
         img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp",
 
         width: 300,
@@ -6901,19 +6636,19 @@ export const NewDSAData = [
           "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
         ],
       },
-      {
-        id: 2,
-        topnav: "Microsoft",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
-        width: 330,
-        height: 260,
-        title: "Certification in Collaboration with Microsoft",
-        para: [
-          "Earn an Industry-certified Microsoft certificate , validating your skills",
-          "Showcase your expertise & enhance your resume highlighting job ready skills",
-          "Boost job opportunities and earnings with Microsoft’s certification",
-        ],
-      },
+      // {
+      //   id: 2,
+      //   topnav: "Microsoft",
+      //   img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
+      //   width: 330,
+      //   height: 260,
+      //   title: "Certification in Collaboration with Microsoft",
+      //   para: [
+      //     "Earn an Industry-certified Microsoft certificate , validating your skills",
+      //     "Showcase your expertise & enhance your resume highlighting job ready skills",
+      //     "Boost job opportunities and earnings with Microsoft’s certification",
+      //   ],
+      // },
       {
         id: 3,
         topnav: "Project Certificate",
@@ -6927,19 +6662,19 @@ export const NewDSAData = [
           "Individualized project experience with easy access to premium job opportunities.",
         ],
       },
-      {
-        id: 4,
-        topnav: "Gen-AI Certificate",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp",
-        width: 300,
-        height: 270,
-        title: "Certification from IBM in Generative AI",
-        para: [
-          "Globally recognized certification directly from IBM.",
-          " Expertise in IBM Watsonx and GenAI frameworks.",
-          "Enhance your AI profile for leading tech employers worldwide.",
-        ],
-      },
+      // {
+      //   id: 4,
+      //   topnav: "Gen-AI Certificate",
+      //   img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp",
+      //   width: 300,
+      //   height: 270,
+      //   title: "Certification from IBM in Generative AI",
+      //   para: [
+      //     "Globally recognized certification directly from IBM.",
+      //     " Expertise in IBM Watsonx and GenAI frameworks.",
+      //     "Enhance your AI profile for leading tech employers worldwide.",
+      //   ],
+      // },
     ],
     faq: [
       {

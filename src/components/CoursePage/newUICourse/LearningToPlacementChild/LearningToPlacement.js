@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "./LearningToPlacement.module.css";
+import styles from "../LearningToPlacementChild/LearningToPlacement.module.css";
 import Image from "next/image";
 
-const LearningToPlacement = ({ time, guided, leftPart }) => {
+const LearningToPlacementChild = ({ time, guided, fullstack }) => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.container}>
@@ -38,82 +38,64 @@ const LearningToPlacement = ({ time, guided, leftPart }) => {
           </div>
 
           <div className={`${styles.card} ${styles.teal}`}>
-            <p className={styles.boldYellow}>{guided}+ Guided</p>
+            <p className={styles.boldYellow}>
+              {guided}+ {fullstack ? "DSA" : "Guided"}
+            </p>
             <span className={styles.skills}>
-              Skill focused <br />
-              Hands-On Projects
+              {fullstack ? (
+                <>
+                  Challenges & Real-world
+                  <br />
+                  System Design Projects
+                </>
+              ) : (
+                <>
+                  Skill focused <br />
+                  Hands-On Projects
+                </>
+              )}
             </span>
+
             <div className={styles.logos}>
-              <span>GitHub</span>
-              <span>OpenAI</span>
-              <span>Python</span>
+              {fullstack ? (
+                <>
+                  <span>DSA</span>
+                  <span>System Design</span>
+                  <span>GenAI</span>
+                </>
+              ) : (
+                <>
+                  <span>GitHub</span>
+                  <span>OpenAI</span>
+                  <span>Python</span>
+                </>
+              )}
             </div>
           </div>
         </div>
 
         <div className={styles.mainGrid}>
-          {leftPart === "IBM_AI" && (
-            <div className={styles.left}>
-              <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp"
-                width={150}
-                height={50}
-                alt="Flexible subscription"
-                loading="lazy"
-              />
-              <p className={styles.pTag}>
-                <span className={styles.green}>
-                  Become an IBM Certified AI Professional
-                </span>{" "}
-                <span className={styles.nor}></span>
-              </p>
-              {/* Become a Microsoft Certified System Administrator Learn practical
+          <div className={styles.left}>
+            <Image
+              src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp"
+              width={150}
+              height={50}
+              alt="Flexible subscription"
+              loading="lazy"
+            />
+            <p className={styles.pTag}>
+              <span className={styles.green}>
+                Become an IBM Certified AI Professional
+              </span>{" "}
+              <span className={styles.nor}></span>
+            </p>
+            {/* Become a Microsoft Certified System Administrator Learn practical
             system administration skills and achieve Microsoft certification. */}
-              <span className={styles.learn}>
-                Learn practical skills and earn certification.
-              </span>
-            </div>
-          )}
-          {leftPart === "MICROSOFT" && (
-            <div className={styles.left}>
-              <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp"
-                width={150}
-                height={50}
-                alt="Flexible subscription"
-                loading="lazy"
-              />
-              <p className={styles.pTag}>
-                <span className={styles.green}>
-                  Become an IBM Certified AI Professional
-                </span>{" "}
-                <span className={styles.nor}></span>
-              </p>
-              {/* Become a Microsoft Certified System Administrator Learn practical
-            system administration skills and achieve Microsoft certification. */}
-              <span className={styles.learn}>
-                Learn practical skills and earn certification.
-              </span>
-            </div>
-          )}{" "}
-          {leftPart === "3YEAR" && (
-            <div className={styles.left}>
-              <Image
-                src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/3d_sign.webp"
-                width={140}
-                height={160}
-                alt="Flexible subscription"
-                loading="lazy"
-              />
-              <p className={styles.pTag}>
-                <span className={styles.green}>3 Years</span> Flexible{" "}
-                <span className={styles.nor}>Subscription</span>
-              </p>
-              <span className={styles.learn}>
-                Learn at your pace with unlimited access.
-              </span>
-            </div>
-          )}
+            <span className={styles.learn}>
+              Learn practical skills and earn certification.
+            </span>
+          </div>
+
           <div className={styles.right}>
             <div className={styles.capstoneBox}>
               {/* <div className={styles.capLeft}>
@@ -157,4 +139,4 @@ const LearningToPlacement = ({ time, guided, leftPart }) => {
   );
 };
 
-export default LearningToPlacement;
+export default LearningToPlacementChild;

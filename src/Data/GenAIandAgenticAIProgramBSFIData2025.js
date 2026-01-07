@@ -4,56 +4,53 @@ export const NewDSAData = [
   {
     header: [
       {
-        spanTag: "Integrated with AI Co-Lab Experience & BYOP",
+        spanTag:
+          "Use GenAI tools to analyze data, forecast trends, and guide strategic actions.",
         spanIcon:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
         title: [
           {
-            text: "Advanced Data Science and ",
-            color: false,
+            text: "Generative AI and Agentic AI ",
+
+            color: true,
+            gradient:
+              "linear-gradient(90deg, #7eb6f9 0%, #d1a4e8 50%, #f78dc7 100%)",
           },
           {
-            text: "GenAI Master ",
-            color: true,
-            gradient: "linear-gradient(90deg, #E85868 58.95%, #8081FF 73.36%)",
+            text: " Program For BFSI Professionals",
+            color: false,
           },
-          { text: "Certification Program", color: false },
         ],
+
         points: [
           {
             id: 1,
             img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/firstPoint.webp",
             imgAlt: "DSA First Point",
-            text1: "Build what your Business needs - BYOP ",
+            text1:
+              "Learn to integrate GenAI into your existing software stack.",
           },
           {
             id: 2,
             img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/secondPoint.webp",
             imgAlt: "DSA Second Point",
-            text1: "Get directly certified from startups",
+            text1: "Build Autonomous AI Agents",
           },
         ],
         mentorText: "Earn Industry-Ready Certification from",
         mentorFromImg: [
-          // {
-          //   id: 1,
-          //   img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Google.webp",
-          //   imgAlt: "Google Logo",
-          //   width: "80",
-          //   height: "30",
-          // },
+          //   {
+          //     id: 1,
+          //     img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Microsoft.webp",
+          //     imgAlt: "Microsoft Logo",
+          //     width: "150",
+          //     height: "30",
+          //   },
           {
             id: 2,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
             imgAlt: "IBM Logo",
             width: "60",
-            height: "30",
-          },
-          {
-            id: 3,
-            img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Microsoft.webp",
-            imgAlt: "image",
-            width: "130",
             height: "30",
           },
         ],
@@ -143,21 +140,21 @@ export const NewDSAData = [
         height: 80,
         title: "Module 0",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/python+git_11zon.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/java_python.png",
         imageSizes: {
-          vsm: { width: 140, height: 44 },
-          sm: { width: 140, height: 44 },
-          md: { width: 170, height: 50 },
-          lg: { width: 190, height: 57 },
+          vsm: { width: 160, height: 38 },
+          sm: { width: 160, height: 38 },
+          md: { width: 160, height: 38 },
+          lg: { width: 160, height: 38 },
         },
-        description: "Python Bootcamp for Non-Programmers",
+        description: "Programming Fundamentals",
         duration: "2-3 weeks",
         contentModule: "Topics Covered",
         contentDescription: "",
         contentDetails: [
-          "Installation & Setup",
-          "Basic Syntax & I/O",
-          " Control Structures",
+          "Introduction to Programming",
+          "Object-Oriented Programming (OOP)",
+          "OOP practice problems (e.g., real-world object modeling)",
         ],
         popuplist: [
           {
@@ -923,14 +920,14 @@ export const NewDSAData = [
           md: { width: 170, height: 26 },
           lg: { width: 200, height: 32 },
         },
-        description: "Python for Data Science",
+        description: "Data Structures & Algorithms",
         duration: "3.5 Months",
         contentModule: "Topics Covered",
         contentDescription: "",
         contentDetails: [
-          "Core Python Basics",
-          "Python Syntax and Code Structure",
-          "Data Types and Control Flow",
+          "Foundations of Data Structures and Algorithms",
+          "Time and Space Complexity",
+          "Advanced Data Structures and Algorithms",
         ],
         popuplist: [
           {
@@ -1689,21 +1686,21 @@ export const NewDSAData = [
         height: 80,
         title: "TERM 2",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/numpy-matplotlib-seaborn.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/python+git_11zon.webp",
         imageSizes: {
-          vsm: { width: 210, height: 23 },
-          sm: { width: 210, height: 23 },
-          md: { width: 270, height: 26 },
-          lg: { width: 300, height: 32 },
+          vsm: { width: 140, height: 44 },
+          sm: { width: 140, height: 44 },
+          md: { width: 170, height: 50 },
+          lg: { width: 190, height: 57 },
         },
-        description: "Statistics and Machine Learning + GENAI",
+        description: "Computer Fundamentals",
         duration: "1 Month",
         contentModule: "Topics Covered",
         contentDescription: "",
         contentDetails: [
-          "Statistics",
-          "All about Population & Sample",
-          "Introduction to Statistics, Statistical Thinking",
+          "Networking Fundamentals(Network Security: Firewalls, NAT)",
+          "Programming Concepts and Problem-Solving(Complexity Analysis Basics)",
+          "Version Control Systems(Git and GitHub Essentials)",
         ],
         popuplist: [
           {
@@ -2462,21 +2459,21 @@ export const NewDSAData = [
         height: 80,
         title: "TERM 3",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/chatGpt-syntesia-githubCopilot.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/kafta+sql+mongodb_11zon.webp",
         imageSizes: {
-          vsm: { width: 190, height: 18 },
-          sm: { width: 210, height: 20 },
-          md: { width: 230, height: 24 },
-          lg: { width: 300, height: 30 },
+          vsm: { width: 160, height: 22 },
+          sm: { width: 180, height: 25 },
+          md: { width: 260, height: 32 },
+          lg: { width: 280, height: 36 },
         },
-        description: "Generative AI and Agentic AI",
+        description: "System Design : LLD + HLD",
         duration: "2.5 Months",
         contentModule: "Topics Covered",
         contentDescription: "",
         contentDetails: [
-          "Generative AI",
-          "Use Cases of GenAI in Various Industries and Domains",
-          "Deep Learning Foundations for GenAI",
+          "Low-Level Design (LLD) - 9 Chapters",
+          "SOLID Principles for Effective Design",
+          "Introduction to System Architecture and Design",
         ],
         popuplist: [
           {
@@ -3233,23 +3230,23 @@ export const NewDSAData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/brain-setting.webp",
         width: 80,
         height: 80,
-        title: "TERM 4",
+        title: "Elective 1",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/kafta+sql+mongodb_11zon.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/chatGpt-syntesia-githubCopilot.webp",
         imageSizes: {
-          vsm: { width: 160, height: 22 },
-          sm: { width: 180, height: 25 },
-          md: { width: 260, height: 32 },
-          lg: { width: 280, height: 36 },
+          vsm: { width: 190, height: 18 },
+          sm: { width: 210, height: 20 },
+          md: { width: 230, height: 24 },
+          lg: { width: 300, height: 30 },
         },
-        description: " Data Visualization & Data Analysis",
+        description: "GenAI for Software Developers",
         duration: "70-75 hrs",
         contentModule: "Topics Covered",
         contentDescription: "",
         contentDetails: [
-          "SQL and Databases",
-          "Advance SQL",
-          "NoSQL, HBase & MongoDB",
+          "GenAI for Software Developers",
+          "Integration of OpenAI APIs",
+          "Prompt Engineering",
         ],
         popuplist: [
           {
@@ -4006,24 +4003,23 @@ export const NewDSAData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/excel-icon.webp",
         width: 80,
         height: 80,
-        title: "TERM 5",
-
+        title: "Elective 2",
         toolsImg:
-          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/chatGpt-syntesia-githubCopilot.webp",
+          "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/powerbi+tableu+sql_11zon.webp",
         imageSizes: {
-          vsm: { width: 190, height: 18 },
-          sm: { width: 210, height: 20 },
-          md: { width: 230, height: 24 },
-          lg: { width: 300, height: 30 },
+          vsm: { width: 195, height: 34 },
+          sm: { width: 195, height: 31 },
+          md: { width: 220, height: 37 },
+          lg: { width: 230, height: 39 },
         },
-        description: "AI Tools and Deployment",
+        description: "Product Management for Tech Professionals",
         duration: "30-35 hrs",
         contentModule: "Topics Covered",
         contentDescription: "",
         contentDetails: [
-          "Deep Learning using TensorFlow",
-          "TensorFlow Classification Examples",
-          "Understanding Neural Networks With TensorFlow",
+          "Product Life Cycle & Development",
+          "Feature Prioritization Techniques",
+          "Product Design Basics for Engineers",
         ],
         popuplist: [
           {
@@ -4780,16 +4776,796 @@ export const NewDSAData = [
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/DSA-systemDesign.webp",
         width: 80,
         height: 80,
-        title: "TERM  6",
-
-        description: " Project Management",
+        title: "Elective 3",
+        toolsImg:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/numpy-matplotlib-seaborn.webp",
+        imageSizes: {
+          vsm: { width: 210, height: 23 },
+          sm: { width: 210, height: 23 },
+          md: { width: 270, height: 26 },
+          lg: { width: 300, height: 32 },
+        },
+        description: "Full Stack [MERN] for Software Developers",
         duration: "40-45 hrs",
         contentModule: "Topics Covered",
         contentDescription: "",
         contentDetails: [
-          "Agile and Scrum Methodologies",
-          "Risk Management",
-          "Stakeholder Management",
+          "Front-End Development with React",
+          "Back-End Development with Node.js and Express",
+          "Database Management with MongoDB",
+          "Connecting Front-End with Back-End",
+        ],
+        popuplist: [
+          {
+            term: "Module 0",
+            title: "Programming Fundamentals",
+            duration: "40-50 hrs",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: " Introduction to Programming",
+                moduleList: [
+                  "Basics of programming and Java installation (JDK, IDE like IntelliJ, Eclipse)",
+                  "Writing and running your first Java program (e.g., Hello World)",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Variables, Data Types, and Operators",
+                moduleList: [
+                  "Variables: Declaration, Initialization, Scope in Java",
+                  "Data types: int, float, double, char, boolean",
+                  "Operators: Arithmetic, Relational, Logical, Assignment,Increment/Decrement",
+                  "Input and output in Java: Scanner class and System.out.println",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Control Flow",
+                moduleList: [
+                  "Conditional statements: if, else if, else",
+                  "Switch-case in Java",
+                  "Loops: for, while, do-while",
+                  "Break and continue",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: " Functions (Methods)",
+                moduleList: [
+                  "Defining and calling methods in Java",
+                  "Method parameters, return types, and scope",
+                  "Method overloading",
+                  "Recursion in Java",
+                ],
+              },
+              {
+                moduleTitle: "Section 5",
+                moduleContent: "Arrays and Strings",
+                moduleList: [
+                  "Arrays: Declaration, initialization, and traversal",
+                  "Multidimensional arrays",
+                  "Strings: String class methods, concatenation, comparison, and manipulation",
+                ],
+              },
+              {
+                moduleTitle: "Section 6",
+                moduleContent: " Object-Oriented Programming (OOP)",
+                moduleList: [
+                  "Classes and Objects",
+                  "Constructors and destructors",
+                  "Encapsulation, Inheritance, Polymorphism, Abstraction",
+                  "Access modifiers: private, public, protected",
+                  "Static and non-static members",
+                  "OOP practice problems (e.g., real-world object modeling)",
+                ],
+              },
+            ],
+          },
+          {
+            term: "TERM 1",
+            title: " Data Structures & Algorithms",
+            duration: "3.5 Months",
+            modules: [
+              {
+                sectionTitle:
+                  "Part 2:-Foundations of Data Structures and Algorithms",
+                moduleTitle: "Section 1",
+                moduleContent: "Time and Space Complexity",
+                moduleList: [
+                  "Understanding Performance: Importance of complexity analysis in interviews",
+                  "Big O Notation: Common complexities and how to analyze them during coding interviews.",
+                  "Space Complexity: Optimizing memory usage in data structure choices.",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Arrays",
+                moduleList: [
+                  "Array Basics: Efficiently handling and manipulating arrays.",
+                  "Operations: Insertion, deletion, searching, and updating—focus on interview",
+                  "Two-Dimensional Arrays: Common problems like matrix manipulation.",
+                  "Sample Practice Problems:",
+                  "Maximum element in an array, Reverse an array, Minimum element in an array, Sorted array check, Count occurrences.",
+                  "Rotate an array, Merge sorted arrays, Intersection of arrays, Move zeroes, Pairs with given sum",
+                  "Longest increasing subsequence, Maximum subarray sum, Longest common subsequence, Minimum path sum, Maximum product subarray",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Linked Lists",
+                moduleList: [
+                  "Singly Linked List: Creation, traversal, insertion, and deletion.",
+
+                  "Doubly and Circular Linked Lists: Differences and use cases; related problems.",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Sample Practice Problems:",
+                moduleList: [
+                  "Middle element of a linked list, Detect a loop in a linked list, Length of a linked list, Check if a linked list is a palindrome,Merge two linked lists",
+                  "Reverse a linked list, Add two numbers represented by linked lists, Rotate a linked list, Find the start of the loop, Partition a linked list around a value.",
+                  "Remove the N-th node from the end, Flatten a multilevel doubly linked list, Reorder a linked list,Clone a linked list with next and random, pointers, Split a linked list into two halves",
+                ],
+              },
+              {
+                moduleTitle: "Section 5",
+                moduleContent: " Stacks and Queues",
+                moduleList: [
+                  "Understanding Concepts: LIFO and FIFO principles—common in problem statements.",
+                  "Operations: Implementing stacks and queues efficiently.",
+                  "Priority Queues and Dequeues: Applications in interview questions.",
+                ],
+              },
+              {
+                moduleTitle: "Section 6",
+                moduleContent: "Sample Practice Problems:",
+                moduleList: [
+                  "Check for balanced parentheses, Implement a stack using linked list, Implement a stack using an array,",
+                  "Implement a queue using stacks, Evaluate a postfix expression, Implement a double-ended queue (Deque), Generate binary numbers from 1 to N, Reverse a queue.",
+                  "Implement a queue using a circular array, Design a stack that supports duplicate elements, Evaluate infix expressions.",
+                ],
+              },
+              {
+                sectionTitle:
+                  "Part 2 :- Advanced Data Structures and Algorithms",
+                moduleTitle: "Section 7",
+                moduleContent: " Recursion and Backtracking",
+                moduleList: [
+                  "Mastering Recursion: Key concepts and base cases crucial for problem- solving",
+                  "Divide and Conquer: Understanding its application in interviews.",
+                  "Backtracking: Common problems like N-Queens, Sudoku.",
+                ],
+              },
+              {
+                moduleTitle: "Section 8",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Calculate the factorial of a number, Fibonacci sequence using recursion, Tower of Hanoi, Sum of digits of a number.",
+                  "Generate all subsets of a set, Solve the N-Queens problem, Generate permutations of a string, Rat in a maze.",
+                  "Solve the Sudoku puzzle, Permutations of a string, Word search, Generate all valid parentheses, Subset sum problem.",
+                ],
+              },
+              {
+                moduleTitle: "Section 9",
+                moduleContent: " Searching Algorithms",
+                moduleList: [
+                  "Linear vs Binary Search: Time complexities and when to use which.",
+                  "Advanced Searches: Ternary search and applications.",
+                  "Backtracking: Common problems like N-Queens, Sudoku.",
+                ],
+              },
+              {
+                moduleTitle: "Section 10",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Basic: Linear search in sorted array, Find minimum in array, Find maximum in array, Reverse an array, Find unique element in array",
+                  "Intermediate: Binary search in sorted array, Search in rotated sorted array, k-th smallest element in array",
+                  "Advanced: First and last position of element in sorted array, Square root using binary search, Median of two sorted arrays, Find smallest pair sum",
+                ],
+              },
+              {
+                moduleTitle: "Section 11",
+                moduleContent: " Sorting Algorithms",
+                moduleList: [
+                  "Simple Sorting Algorithms: Bubble, selection, insertion—understanding their performance.",
+                  "Advanced Sorting Algorithms: Merge sort, quick sort—key algorithms in interviews.",
+                  "Backtracking: Common problems like N-Queens, Sudoku.",
+                ],
+              },
+              {
+                moduleTitle: "Section 12",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Bubble sort, Selection sort, Insertion sort, Sort array of 0s, 1s, and 2s, Merge two sorted arrays",
+                  "Merge sort, Quick sort, Heap sort, Counting sort ",
+                  "Sort nearly sorted array, K-th largest element in unsorted array, Find median of two sorted arrays, Find minimum difference pair in array",
+                ],
+              },
+              {
+                moduleTitle: "Section 13",
+                moduleContent: " Hashing",
+                moduleList: [
+                  "Hash Tables and Hash Functions: Importance in optimizing search operations.",
+                  "Collision Handling Techniques: Techniques to handle collisions effectively. ",
+                  "Hash Table Implementations",
+                ],
+              },
+              {
+                moduleTitle: "Section 14",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Count frequencies of elements in an array.",
+                  "Two-sum problem, Find the first non-repeating character in a string. ",
+                  "Longest consecutive sequence, Group anagrams from a list of strings.",
+                ],
+              },
+              {
+                moduleTitle: "Section 15",
+                moduleContent: "Trees",
+                moduleList: [
+                  "Binary Trees: Understanding traversal techniques (inorder, preorder, postorder).",
+                  "Binary Search Trees (BSTs): Key operations and their complexities. ",
+                  "Balanced Trees (AVL, Red-Black): Importance of balancing in interviews.",
+                ],
+              },
+              {
+                moduleTitle: "Section 16",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Implement binary tree traversals, Count the number of nodes in a binary tree.",
+                  "Validate a binary search tree, Find the height of a binary tree.",
+                  "Lowest common ancestor in a binary tree, Serialize and deserialize a binary tree.",
+                ],
+              },
+              {
+                moduleTitle: "Section 17",
+                moduleContent: "Tries",
+                moduleList: [
+                  "Understanding Tries: Structure and its applications in string problems.",
+                  "Insertion and Search Operations: Common tasks to practice.",
+                ],
+              },
+              {
+                moduleTitle: "Section 18",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Insert and search in a trie.",
+                  "Find all words with a given prefix, Count distinct substrings.",
+                  "Implement autocomplete system, Implement a phone directory.",
+                ],
+              },
+              {
+                moduleTitle: "Section 19",
+                moduleContent: "Heaps",
+                moduleList: [
+                  "Max-Heaps and Min-Heaps: Key properties and operations.",
+                  "Heap Applications: Priority queues and their importance in algorithms.",
+                ],
+              },
+              {
+                moduleTitle: "Section 20",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Build a max heap from an array, Find the maximum element in a heap.",
+                  "Implement heap sort, K-th largest element in a stream using a min heap.",
+                  "Merge k sorted linked lists, Top k frequent elements in an array.",
+                ],
+              },
+              {
+                moduleTitle: "Section 21",
+                moduleContent: "Greedy Algorithms",
+                moduleList: [
+                  "Understanding Greedy Strategy: When to apply greedy methods in problem-solving.",
+                ],
+              },
+              {
+                moduleTitle: "Section 22",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Coin change problem (greedy version), Activity selection problem.",
+                  "Job sequencing problem, Fractional knapsack problem.",
+                  "Huffman coding, Minimum spanning tree using Prim's or Kruskal's algorithm.",
+                ],
+              },
+              {
+                moduleTitle: "Section 23",
+                moduleContent: "Dynamic Programming (DP)",
+                moduleList: [
+                  "Introduction to DP: Recognizing overlapping subproblems and optimal substructure.",
+                  "Top-down vs. Bottom-up: Techniques for solving DP problems.",
+                  "Common DP Problems: Longest common subsequence, 0/1 knapsack— key problems for interviews.",
+                ],
+              },
+              {
+                moduleTitle: "Section 24",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Calculate the nth Fibonacci number using DP.",
+                  "Longest increasing subsequence, Coin change problem.",
+                  "0/1 knapsack problem, Edit distance between two strings.",
+                ],
+              },
+              {
+                moduleTitle: "Section 25",
+                moduleContent: " Graphs",
+                moduleList: [
+                  "Graph Representations: Adjacency matrix vs. adjacency list—pros and cons.",
+                  "Graph Traversal Algorithms: BFS and DFS—understanding their applications in problem-solving.",
+                  "Shortest Path Algorithms: Dijkstra's, Bellman-Ford; how to apply them in interviews.",
+                ],
+              },
+              {
+                moduleTitle: "Section 26",
+                moduleContent: "Practice Problems:",
+                moduleList: [
+                  "Implement BFS and DFS for a graph.",
+                  "Detect cycles in an undirected graph, Find connected components.",
+                  "Dijkstra's algorithm for shortest path, Kruskal's or Prim's algorithm for minimum spanning tree.",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Term 2",
+            duration: "1 Month",
+            title: "Computer Fundamentals",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: " Introduction to Computer Systems",
+                moduleList: [
+                  "Overview of Computer Architecture",
+                  "Core Components: CPU, Memory, Storage Devices",
+                  "Memory Types: RAM, ROM, Cache",
+                  "Basics of Program Execution",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Operating Systems:",
+                moduleList: [
+                  "OS Functions and Resource Management",
+                  "Processes and Threads, Scheduling Basics",
+                  "Memory Management: Paging, Virtual Memory",
+                  "IP Addressing and Subnetting",
+                  "Concurrency Basics: Locks, Semaphores",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: " Data Representation and Number Systems:",
+                moduleList: [
+                  "Number Systems: Binary, Decimal, Hexadecimal",
+                  "Conversions between Number Systems",
+                  "Encoding Basics: ASCII, Unicode",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Networking Fundamentals:",
+                moduleList: [
+                  "Networking Basics: LAN, WAN, Internet",
+                  "OSI and TCP/IP Models, Key Protocols",
+                  "IP Addressing Basics, Routing Concepts",
+                  "Network Security: Firewalls, NAT",
+                ],
+              },
+              {
+                moduleTitle: "Section 5",
+                moduleContent: "Programming Concepts and Problem-Solving:",
+                moduleList: [
+                  "Programming Paradigms Overview",
+                  "Complexity Analysis Basics",
+                  "Core Data Structures: Arrays, Linked Lists",
+                  "Sorting and Searching Algorithms",
+                ],
+              },
+              {
+                moduleTitle: "Section 6",
+                moduleContent: " Version Control Systems:",
+                moduleList: [
+                  "Git and GitHub Essentials",
+                  "Basic Commands: Clone, Commit, Push",
+                  "Branching, Merging, Collaboration Practices",
+                ],
+              },
+              {
+                moduleTitle: "Section 7",
+                moduleContent: "Computer Security Basics:",
+                moduleList: [
+                  "Cybersecurity Fundamentals",
+                  "Encryption: Symmetric, Asymmetric",
+                  "Authentication and Common Security Threats",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Term 3",
+            duration: "2.5 Month",
+            title: "System Design : LLD + HLD",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Overview of System Design",
+                moduleList: [
+                  "Introduction to System Design: Explanation of key concepts in system design, including scalability, reliability, performance, and security.",
+                  "Components of System Design: Overview of high-level vs low-level design, explaining how each contributes to a well-architected system.",
+                  "Building Blocks of System Design: Introduction to core components like databases, servers, clients, APIs, and message queues.",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                sectionTitle: "Part 1 - Statistics",
+                sectionTitle2: "Low-Level Design (LLD) - 9 Chapters",
+                moduleContent:
+                  " Fundamentals of Object-Oriented Programming (OOP)",
+                moduleList: [
+                  "Core principles: Abstraction, Encapsulation, Inheritance, and Polymorphism.",
+                  "Practical applications with real-world examples to solidify understanding.",
+                  "Modular component design for ease of code maintenance. ",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: " SOLID Principles for Effective Design",
+                moduleList: [
+                  "Detailed coverage of each SOLID principle: Single Responsibility,",
+                  "Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion.",
+                  "Exercises for applying these principles to various scenarios to achieve adaptable and clean code.",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Essential Design Patterns",
+                moduleList: [
+                  "Overview of major design patterns: Creational (Factory, Singleton), Structural (Adapter, Composite), Behavioral (Observer, Strategy).",
+                  "Identifying the right pattern based on requirements and scenarios. ",
+                  "Practical examples to solve common challenges with design patterns.",
+                ],
+              },
+              {
+                moduleTitle: "Section 5",
+                moduleContent: " UML Diagrams for Visual Representation",
+                moduleList: [
+                  "Introduction to essential UML diagrams, including Class, Sequence, and Component diagrams.",
+                  "Exercises in creating visual maps for clear communication of design.",
+                  "Best practices for organized, understandable diagramming.",
+                  "Creating a Low-Level Design Document",
+                ],
+              },
+              {
+                moduleTitle: "Section 6",
+                moduleContent: "Designing Efficient Database Schemas)",
+                moduleList: [
+                  "Basics of schema design for efficient data management and retrieval.",
+                  "Creation of Entity-Relationship Diagrams (ERDs) and normalization techniques.",
+                  "Optimization methods for scalable schemas in high-volume databases. ",
+                ],
+              },
+              {
+                moduleTitle: "Section 7",
+                moduleContent: " API Design and Implementation Basics",
+                moduleList: [
+                  "RESTful API design principles: Structuring endpoints, managing errors, and versioning.",
+                  "Exercises for creating well-structured, scalable APIs with error handling.",
+                  "Best practices in API development for smooth integrations.",
+                ],
+              },
+              {
+                moduleTitle: "Section 8",
+                moduleContent: " Multithreading and Concurrency Management",
+                moduleList: [
+                  "Introduction to multithreading and concurrency control basics.",
+                  "Managing issues like race conditions and deadlocks effectively.",
+                  "Practical examples to design systems handling concurrent tasks efficiently.",
+                ],
+              },
+              {
+                moduleTitle: "Section 9",
+                moduleContent: " Basic Integration AI/ML in Software Design",
+                moduleList: [
+                  "Basics of embedding ML models and GenAI in systems for functionality enhancement.",
+                  "Setting up data flows for AI/ML and GenAI: Data preprocessing, model execution, and output integration.",
+                  "Model lifecycle management, including monitoring and updates for performance consistency.",
+                  "Microservices",
+                  "Containers",
+                ],
+              },
+              {
+                moduleTitle: "Section 10",
+                moduleContent: " Testing and Code Quality Best Practices",
+                moduleList: [
+                  "Overview of unit and integration testing to maintain design stability.",
+                  "Techniques for documenting and structuring code for clarity and maintenance.",
+                  "Continuous monitoring and refinement for long-term code and design quality.",
+                ],
+              },
+              {
+                moduleTitle: "Section 11",
+                moduleContent: "Topic 2:- High-Level Design (HLD) - 9 Chapters",
+                moduleList: [
+                  "Overview of unit and integration testing to maintain design stability.",
+                  "Techniques for documenting and structuring code for clarity and maintenance.",
+                  "Continuous monitoring and refinement for long-term code and design quality.",
+                ],
+              },
+              {
+                moduleTitle: "Section 12",
+                moduleContent: "Introduction to System Architecture and Design",
+                moduleList: [
+                  "System design fundamentals: Overview of monolithic, client-server, and microservices architectures.",
+                  "Principles of system design: Scalability, reliability, maintainability, and fault tolerance.",
+                  "Evaluating architecture choices: Choosing the right design patterns for different application needs.",
+                ],
+              },
+              {
+                moduleTitle: "Section 13",
+                moduleContent: "Distributed Systems Overview",
+                moduleList: [
+                  "Key concepts: Data replication, data consistency, and distributed communication.",
+                  "Design challenges in distributed systems: Fault tolerance, data integrity, and managing distributed transactions.",
+                  "Use cases: Examining examples of distributed systems and architectures in action.",
+                ],
+              },
+              {
+                moduleTitle: "Section 14",
+                moduleContent: "Network and Communication Protocols",
+                moduleList: [
+                  "Network fundamentals: How TCP/IP, DNS, and HTTP/HTTPS protocols function within HLD.",
+                  "Load balancing techniques: Understanding load balancers, DNS-based load balancing, and API gateways.",
+                  "Case studies: Implementing load balancing in distributed environments. ",
+                ],
+              },
+              {
+                moduleTitle: "Section 15",
+                moduleContent:
+                  "ZooKeeper and Kafka (Distributed Messaging Queue)",
+                moduleList: [
+                  "ZooKeeper: Overview of distributed coordination, leader election, and configuration management.",
+                  "Apache Kafka: Introduction to message queuing, real-time data streaming, and event-driven architecture.",
+                  "Implementing a distributed messaging system: Practical applications and setup for reliable messaging. ",
+                ],
+              },
+              {
+                moduleTitle: "Section 16",
+                moduleContent: "Designing with Microservices and CAP Theorem",
+                moduleList: [
+                  "Microservices architecture: Benefits and challenges of service decomposition and design.",
+                  "CAP Theorem: Trade-offs between Consistency, Availability, and Partition tolerance.",
+                  "Data partitioning: Techniques like sharding, horizontal scaling, and load distribution.",
+                ],
+              },
+              {
+                moduleTitle: "Section 17",
+                moduleContent: "Database Selection and Data Storage Models",
+                moduleList: [
+                  "Database types: SQL, NoSQL, and NewSQL, understanding their scalability and data integrity trade-offs.",
+                  "Choosing a database: ACID vs. BASE properties, and database selection based on application needs.",
+                  "Distributed databases: How they manage scalability, availability, and latency.",
+                ],
+              },
+              {
+                moduleTitle: "Section 18",
+                moduleContent: "Caching and Content Delivery Networks (CDNs)",
+                moduleList: [
+                  "Caching strategies: Implementing in-memory caching (Redis, Memcached) and cache expiration techniques.",
+                  "Content Delivery Networks (CDNs): Using CDNs for load reduction and latency improvements.",
+                  "Optimizing data access: Practical steps to build efficient caching strategies.",
+                  "Project: Instagram like Image and Video Feed System",
+                  "Objective: Design Instagram’s feed system to handle high-frequency data retrieval for photos and videos.",
+                  "Focus: Integrate caching and CDN strategies to reduce latency and improve user experience on a large scale.",
+                ],
+              },
+              {
+                moduleTitle: "Section 19",
+                moduleContent: " Scalability, Security, and Reliability",
+                moduleList: [
+                  "Security best practices: Authentication, data encryption, and secure API design in high-level architectures.",
+                  "Reliability patterns: Circuit breaker, retry mechanisms, and failover strategies.",
+                  "Scaling infrastructure: Vertical and horizontal scaling, auto-scaling, and designing for peak load handling.",
+                ],
+              },
+              {
+                moduleTitle: "Section 20",
+                moduleContent: "AI/ML Systems in High-Level Design",
+                moduleList: [
+                  "Integrating AI/ML: High-level considerations for data pipelines model serving, and scalability for ML.",
+                  "Data infrastructure for ML: Handling large datasets, real-time processing, and model versioning.",
+                  "Real-world case studies: Examples of high-level AI/ML systems in production environments.",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Elective 1 ",
+            duration: "1 Month",
+            title: "GenAI for Software Developers",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: "Objective:",
+                moduleList: [
+                  "Empower developers to leverage Generative AI for application development and workflow automation, emphasizing OpenAI APIs and LangChain integration.",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Recommended Experience:",
+                moduleList: [
+                  "2-4 years in software development, familiar with Python, APIs, and basic machine learning concepts. Ideal for those integrating AI into applications.machine learning concepts. Ideal for those integrating AI into applications. ",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: " Career Fit:",
+                moduleList: [
+                  "Perfect for developers interested in AI-driven development and enhancing user experiences or pursuing roles in AI application design",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Topics Covered:- GenAI for Software Developers",
+                moduleList: [
+                  "Fundamentals of Generative AI: Overview of generative models and their real-world applications, highlighting differences from traditional AI.",
+                  "Integration of OpenAI APIs: Techniques for effectively integrating OpenAI APIs, including authentication and best practices for data handling.",
+                  "Building Applications with LangChain: Utilizing LangChain to create intelligent applications that leverage large language models.",
+                  "Utilizing Hugging Face: Accessing and deploying Hugging Face pre-trained models, with a focus on fine-tuning for specific uses.",
+                  "Prompt Engineering: Strategies for crafting effective prompts to optimize AI responses and improve user interaction.",
+                  "Ethical Considerations in AI: Discussion of ethical issues in AI, including bias, privacy, and responsible usage in development.",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Elective 2",
+            duration: "1 Month",
+            title: " Product Management for Tech Professionals",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: " Objective",
+                moduleList: [
+                  "Equip developers with a product management mindset to align technical and business goals in tech products.",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Recommended Experience",
+                moduleList: [
+                  "3-5 years in software development, ideally in cross-functional settings with product managers. Suitable for senior developers or leads transitioning to product roles.",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Career Fit",
+                moduleList: [
+                  "Engineers aiming for product management or tech lead roles to navigate both technical and business needs effectively.",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Topics Covered:",
+                moduleList: [
+                  "Product Life Cycle & Development: Understanding phases from concept to launch and maintenance.",
+                  "Market Research for Tech Products: Conducting research to align product with user needs and market demands.",
+                  "Feature Prioritization Techniques: Balancing business and technical requirements to drive value. requirements to drive value.",
+                  "Technical Roadmapping: Creating roadmaps for technical execution aligned with business goals. ",
+                  "Stakeholder Communication: Translating complex tech concepts for business stakeholders.",
+                  "Data-Driven Decision Making: Leveraging metrics and KPIs to guide product strategy.",
+                  "Product Design Basics for Engineers: Fundamentals of UI/UX that impact product usability and satisfaction",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Elective 3",
+            duration: "1 Month",
+            title: "Full Stack [MERN] for Software Developers",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: " Objective",
+                moduleList: [
+                  "Equip software engineers with the essential skills to design, develop, and deploy full-stack web applications using the MERN (MongoDB, Express, React, Node.js) stack.",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Recommended Experience",
+                moduleList: [
+                  "1-4 years in software development with familiarity in JavaScript, web technologies, and basic software development practices. Ideal for developers interested in building end-to-end applications or pursuing full-stack roles.",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Career Fit",
+                moduleList: [
+                  "Perfect for engineers aiming to transition into full-stack development roles or expand their expertise in building complex, modern web applications using the MERN stack.",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Topics Covered:",
+                moduleList: [
+                  "Front-End Development with React: React fundamentals like components, Props, State, Functional vs. Class Components, JSX syntax and CSS and its frameworks",
+                  "Back-End Development with Node.js and Express: Setting up Node.js and NPM, Asynchronous programming: Callbacks, Promises,Async/Await; Setting up a basic Express server, Handling HTTP requests and responses, Middleware functions in Express,RESTful API design and implementation.",
+                  "Database Management with MongoDB: Overview of MongoDB vs. relational databases, CRUD operations in MongoDB, Defining collections and documents, MongoDB data types, Relationships and references in MongoDB.",
+                  "Connecting Front-End with Back-End: Designing RESTful routes and endpoints,HTTP methods (GET, POST, PUT, DELETE),Error handling and status code",
+                  "Testing and Debugging Full Stack Applications: Writing tests for React components,Writing API tests with Jest and Supertest",
+                  "Deployment and Version Control: Git basics: Commits, branches, merges,Working with GitHub repositories, Continuous Integration and Continuous Deployment, Setting up a simple CI pipeline",
+                ],
+              },
+            ],
+          },
+          {
+            term: "Elective 4",
+            duration: "1 Month",
+            title: " DevOps Essentials for Software Engineers",
+            modules: [
+              {
+                moduleTitle: "Section 1",
+                moduleContent: " Objective",
+                moduleList: [
+                  "Equip developers with DevOps skills for efficient, scalable code deployment by enhancing CI/CD, infrastructure, and automation workflows.",
+                ],
+              },
+              {
+                moduleTitle: "Section 2",
+                moduleContent: "Recommended Experience",
+                moduleList: [
+                  "2-4 years in software engineering with basic knowledge of scripting and cloud services; ideal for developers moving toward DevOps.",
+                ],
+              },
+              {
+                moduleTitle: "Section 3",
+                moduleContent: "Career Fit",
+                moduleList: [
+                  "Suited for developers interested in DevOps, cloud management, and automated deployment.",
+                ],
+              },
+              {
+                moduleTitle: "Section 4",
+                moduleContent: "Topics Covered:",
+                moduleList: [
+                  "Programming & Scripting for Automation: Python, Bash, and scripting for DevOps automation",
+                  "Linux & System Administration: Essential Linux commands, permissions, and troubleshooting",
+                  "Version Control with Git: Git workflows for collaborative DevOps and code management",
+                  "CI/CD Integration: Jenkins, GitHub Actions for automated deployment and testing ",
+                  "Containerization & Orchestration: Using Docker and Kubernetes for scalable deployment environments",
+                  "Infrastructure as Code (IaC): Terraform and Ansible for automated infrastructure setup",
+                  "Monitoring & Logging: Prometheus, Grafana, and ELK stack for real-time monitoring and troubleshooting",
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: "7",
+        trackIcon:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/DSA-systemDesign.webp",
+        width: 80,
+        height: 80,
+        title: "Elective 4",
+        toolsImg:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/java-networkX.webp",
+        imageSizes: {
+          vsm: { width: 150, height: 21 },
+          sm: { width: 160, height: 23 },
+          md: { width: 170, height: 26 },
+          lg: { width: 200, height: 32 },
+        },
+        description: "DevOps Essentials for Software Engineers",
+        duration: "40-45 hrs",
+        contentModule: "Topics Covered",
+        contentDescription: "",
+        contentDetails: [
+          "Programming & Scripting for Automation",
+          "CI/CD Integration",
+          "Containerization & Orchestration",
         ],
         popuplist: [
           {
@@ -5540,6 +6316,501 @@ export const NewDSAData = [
         ],
       },
     ],
+    genAiData: [
+      {
+        id: 1,
+        title: "Smart Hiring Tool for recruitment",
+        description:
+          "An AI tool to screen resumes, match candidates to jobs, and draft job descriptions. It uses LangChain to analyze resumes and Hugging Face for understanding job requirements, saving time in recruitment.",
+        iconUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-61.webp", // Provide the path to the icon image
+        rank: "#1",
+        duration: "8 hours",
+      },
+      {
+        id: 2,
+        title: "Financial Report Generator using GenAI tools",
+        description:
+          "Automatically create clear financial reports from raw data like balance sheets. LangChain summarizes key insights, while Hugging Face helps with data analysis and clarity.",
+        iconUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-21.webp", // Provide the path to the icon image
+        rank: "#2",
+        duration: "8 hours",
+      },
+      {
+        id: 3,
+        title: "Project Performance Dashboard",
+        description:
+          "Track and analyze the progress of projects in real time. This tool provides insights into timelines, budgets, and risks, enabling better decision-making and project management",
+        iconUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-31.webp", // Provide the path to the icon image
+        rank: "#3",
+        duration: "8 hours",
+      },
+
+      {
+        id: 4,
+        title: " Employee Feedback Insights ",
+        description:
+          "Analyze employee feedback and surveys for trends and sentiments. LangChain processes responses, and Hugging Face identifies sentiments, helping HR make better decisions.",
+        iconUrl:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/project-61.webp", // Provide the path to the icon image
+        rank: "#4",
+        duration: "8 hours",
+      },
+
+      // Add more data as needed
+    ],
+    // masterSyllabusMobile: [
+    //   {
+    //     Module0: {
+    //       title: "Topic 1 :- Fundamentals of Generative AI",
+    //       hours: "(5 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp ",
+    //       StartImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/build_ups.webp",
+    //       points: "Why Programming",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Overview of generative models and their real-world applications, highlighting differences from traditional AI.",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 0,
+    //       open: true,
+    //     },
+    //   },
+    //   {
+    //     Module0: {
+    //       title:
+    //         "Topic 2 :- Use Cases of GenAI in Various Industries and Domains",
+    //       hours: "(5 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+    //       StartImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+    //       points: "Functions & Recursion",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Finance: Fraud detection, automated report generation, and investment insights.",
+    //               "Healthcare: Drug discovery, medical image analysis, and personalized treatment,",
+    //               "Retail and E-commerce: Personalized recommendations, inventory",
+    //             ],
+    //           },
+    //         },
+
+    //         // {
+    //         //   chap: {
+    //         //     title: "Module 10 :- STL - 1",
+    //         //     desc: [
+    //         //       "Collections (Standard Template Library)",
+    //         //       "Vector",
+    //         //       "Set",
+    //         //       "Iterator",
+    //         //     ],
+    //         //   },
+    //         // },
+    //         // {
+    //         //   chap: {
+    //         //     title: "Module 11 :- STL - 2",
+    //         //     desc: [
+    //         //       "Collections (Standard Template Library)",
+    //         //       "Map",
+    //         //       "Iterator",
+    //         //     ],
+    //         //   },
+    //         // },
+    //         // {
+    //         //   chap: {
+    //         //     title: "Module 12 :- STL - 3",
+    //         //     desc: [
+    //         //       "Collections (Standard Template Library)",
+    //         //       "STL functions - Lower Bound",
+    //         //       "STL functions upperbound",
+    //         //       "Sort",
+    //         //     ],
+    //         //   },
+    //         // },
+    //       ],
+    //       id: 1,
+    //       open: false,
+    //     },
+    //   },
+    //   {
+    //     Module0: {
+    //       title: "Topic 3 :- Deep Learning Foundations for GenAI",
+    //       hours: "(5 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellows.webp",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_downs.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/hash_ups.webp",
+    //       points: "DBMS",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Neural networks and deep learning basics, Backpropagation and optimization techniques",
+    //               "Overview of popular deep learning frameworks (TensorFlow, PyTorch).",
+    //               "Hands-on Project: Build a basic image classifier using CNNs ",
+    //               "with TensorFlow or PyTorch, applying optimization techniques learned.",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 2,
+    //       open: false,
+    //     },
+    //   },
+    //   {
+    //     Module0: {
+    //       title: "Topic 4 :- Prompt Engineering and optimisation",
+    //       hours: "(5 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/hash_rounds.webp",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/hash_downs.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/deployment-color-ups.webp",
+    //       points: "Introduction to System Design",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "Overview of System Design",
+    //             desc: [
+    //               "Strategies for crafting effective prompts to optimize AI responses and improve user interaction",
+    //               "Techniques for prompt optimization and prompt chaining. ",
+    //               "Building Blocks of System Design: Introduction to core components like databases, servers, clients, APIs, and message queues.",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 3,
+    //       open: false,
+    //     },
+    //   },
+
+    //   {
+    //     Module0: {
+    //       title: "Topic 5 :- Transformers and Attention Mechanisms",
+    //       hours: "(5 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/deployment-colors.webp",
+    //       StartImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/deployment-color-downs.webp",
+    //       endImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/world-ups.webp",
+    //       points: "MERN (Full-Stack Specialization)",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Introduction to transformers and self-attention, BERT, GPT, and other transformer-based architectures, Hands-on exercise: Fine-tuning a transformer model for text generation.",
+    //               "Hands-on Project: Fine-tune a transformer model on a custom text dataset for a text classification or summarization task.",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 4,
+    //       open: false,
+    //     },
+    //   },
+    //   {
+    //     Module0: {
+    //       title: "Topic 6 :- Large Language Models (LLMs)",
+    //       hours: "(5 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/world-rounds.webp",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/world-downs.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/chat-ups.webp",
+    //       points: "Deep Learning",
+    //       points1: "(NLP)",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Overview of LLMs like GPT-3, ChatGPT, and LLaMA Fine-tuning LLMs for specific use cases, Applications in chatbots, summarization, and sentiment analysis.",
+    //               "Hands-on exercise: Design and deploy a conversational AI model that simulates a customer service assistant for a chosen domain (e.g., retail or tech support).",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 5,
+    //       open: false,
+    //     },
+    //   },
+
+    //   {
+    //     Module0: {
+    //       title: "Topic 7 :- Integration of OpenAI APIs",
+    //       hours: "(5 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/chat-rounds.webp",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/chat-downs.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/new-ups.webp",
+    //       points: "Deep Learning",
+    //       points1: "(NLP)",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Techniques for effectively integrating OpenAI APIs, including authentication and best practices for data handling. Rate limits and error handling.",
+    //               "Hands-on Project: Develop a web app that uses OpenAI’s API for content generation based on user inputs, including authentication and error handling.",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 6,
+    //       open: false,
+    //     },
+    //   },
+    //   {
+    //     Module0: {
+    //       title: "Topic 8 :- Building Applications with LangChain",
+    //       hours: "(5 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/new-rounds.webp",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/new-downs.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-up.webp",
+    //       points: "Deep Learning",
+    //       points1: "(NLP)",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Overview of LangChain’s functionality for large language models.",
+    //               "Chain concepts: sequential, memory, and conditional chains, Creating custom prompts and workflows.",
+    //               "Hands-on Project: Personalized Financial Advice - Based on customer profiles (age, income, risk appetite), offer tailored financial advice or investment recommendations.",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 7,
+    //       open: false,
+    //     },
+    //   },
+
+    //   {
+    //     Module0: {
+    //       title: "Topic 9 :- Utilizing Hugging Face",
+    //       hours: "(5 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-round.webp",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-down.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/mix-up.webp",
+    //       points: "Deep Learning",
+    //       points1: "(NLP)",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Accessing and deploying Hugging Face pre-trained models, Fine- tuning models on custom datasets, Using Hugging Face’s pipelines for rapid deployment, Introduction to Hugging Face's Model Hub and Transformers library.",
+    //               "Hands-on Project: Fine-tune a Hugging Face model for a sentiment analysis task and deploy it using the Hugging Face API.",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 8,
+    //       open: false,
+    //     },
+    //   },
+
+    //   {
+    //     Module0: {
+    //       title: "Topic 10 :- GANs (Generative Adversarial Networks)",
+    //       hours: "(5 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/mix-round.webp ",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/mix-down.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/slice-ups.webp",
+    //       points: "Deep Learning",
+    //       points1: "(NLP)",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Fundamentals of GANs and their components (Generator and Discriminator).",
+    //               "Variants of GANs (DCGAN, StyleGAN, CycleGAN). Applications of GANs in image synthesis, art creation, and more.",
+    //               "Hands-on exercise: Building a simple GAN for image generation.",
+    //               "Hands-on Project: Build and train a DCGAN to generate new images from a specific dataset, such as handwritten digits or facial images.",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 9,
+    //       open: false,
+    //     },
+    //   },
+
+    //   {
+    //     Module0: {
+    //       title: "Topic 11 :- Variational Autoencoders (VAEs)",
+    //       hours: "(6 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/slice-rounds.webp",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/slice-downs.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lap-ups.webp",
+    //       points: "Deep Learning",
+    //       points1: "(NLP)",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Introduction to VAEs and their architecture Comparison of VAEs with GANs, Applications in anomaly detection and data compression.",
+    //               "Hands-on exercise: Building a VAE for image reconstruction.",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 10,
+    //       open: false,
+    //     },
+    //   },
+
+    //   {
+    //     Module0: {
+    //       title: "Topic 12 :- Retrieval-Augmented Generation (RAG)",
+    //       hours: "(6 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lap-rounds.webp",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lap-downs.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/flow-ups.webp",
+    //       points: "Deep Learning",
+    //       points1: "(NLP)",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Introduction to RAG.",
+    //               "How RAG combines generative and retrieval-based techniques, Implementing a basic RAG model for a knowledge-based task.",
+    //               "Hands-on Project: Build a RAG-based FAQ Assistant to answer customer questions by retrieving information from a domain-specific FAQ dataset, merging retrieval and generation for clear, concise responses",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 11,
+    //       open: false,
+    //     },
+    //   },
+    //   {
+    //     Module0: {
+    //       title: "Topic 13 :- Model Deployment for Generative AI",
+    //       hours: "(6 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/flow-rounds.webp",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/flow-downs.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lazy-ups.webp",
+    //       points: "Deep Learning",
+    //       points1: "(NLP)",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Overview of model deployment techniques.",
+    //               "Best practices for deploying generative models in production.",
+    //               "Setting up APIs and scaling model infrastructure.",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 12,
+    //       open: false,
+    //     },
+    //   },
+    //   {
+    //     Module0: {
+    //       title: "Topic 14 :- GenAI Copilot Tools for Coding",
+    //       hours: "(6 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lazy-rounds.webp",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/lazy-downs.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-ups.webp",
+    //       points: "Deep Learning",
+    //       points1: "(NLP)",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Overview of GenAI Copilot tools and their applications in coding.",
+    //               "Hands-on with GitHub Copilot, Tebnine, Amazon CodeWhisperer, Replit Ghostwriter, Codex (OpenAI)",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 13,
+    //       open: false,
+    //     },
+    //   },
+    //   {
+    //     Module0: {
+    //       title: "Topic 15 :- Ethical Considerations in AI",
+    //       hours: "(6 Hours)",
+    //       imageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-rounds.webp",
+    //       StartImageUrl:
+    //         " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-downs.webp",
+    //       endImageUrl:
+    //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/face-ups.webp",
+    //       points: "Deep Learning",
+    //       points1: "(NLP)",
+    //       content: [
+    //         {
+    //           chap: {
+    //             title: "",
+    //             desc: [
+    //               "Discussion of ethical issues in AI, including bias, privacy, and responsible usage in development.",
+    //             ],
+    //           },
+    //         },
+    //       ],
+    //       id: 14,
+    //       open: false,
+    //     },
+    //   },
+    // ],
+
     masterSyllabusMobile: [
       {
         Module0: {
@@ -5574,7 +6845,7 @@ export const NewDSAData = [
       {
         Module1: {
           title: "Term 1 – Python for GenAI",
-          hours: "(2 Months)",
+          hours: "(1.5 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -5727,7 +6998,7 @@ export const NewDSAData = [
       {
         Module2: {
           title: "Term 2 – Foundation for GenAI",
-          hours: "(2 Months)",
+          hours: "(1 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -5817,7 +7088,7 @@ export const NewDSAData = [
       {
         Module3: {
           title: "Term 3 – Generative AI",
-          hours: "(3 Months)",
+          hours: "(1.5 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -5924,48 +7195,48 @@ export const NewDSAData = [
               },
             },
             // -----------------
-            {
-              chap: {
-                title: "Fundamental Generative Models: GAN And VAE",
-                desc: [
-                  "Generative Adversarial Networks Architecture",
-                  "Variational Autoencoders And Latent Space Learning",
-                  "Use Cases In Image And Data Generation",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Stable Defusion",
-                desc: [
-                  "Diffusion Model Fundamentals",
-                  "Text-to-Image Generation Pipelines",
-                  "Prompt Control And Image Conditioning",
-                  "Fine-Tuning Diffusion Models (DreamBooth, LoRA)",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Flux Framework",
-                desc: [
-                  "Image And Creative Generation Workflows",
-                  "High-quality Diffusion-based Outputs",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "LLMOp’s",
-                desc: [
-                  "Model Versioning And Prompt Version Control",
-                  "Monitoring LLM Outputs In Production",
-                  "Cost Tracking And Optimization",
-                  "Evaluation Pipelines For LLM Applications",
-                  "Deployment Strategies For GenAI Systems",
-                ],
-              },
-            },
+            // {
+            //   chap: {
+            //     title: "Fundamental Generative Models: GAN And VAE",
+            //     desc: [
+            //       "Generative Adversarial Networks Architecture",
+            //       "Variational Autoencoders And Latent Space Learning",
+            //       "Use Cases In Image And Data Generation",
+            //     ],
+            //   },
+            // },
+            // {
+            //   chap: {
+            //     title: "Stable Defusion",
+            //     desc: [
+            //       "Diffusion Model Fundamentals",
+            //       "Text-to-Image Generation Pipelines",
+            //       "Prompt Control And Image Conditioning",
+            //       "Fine-Tuning Diffusion Models (DreamBooth, LoRA)",
+            //     ],
+            //   },
+            // },
+            // {
+            //   chap: {
+            //     title: "Flux Framework",
+            //     desc: [
+            //       "Image And Creative Generation Workflows",
+            //       "High-quality Diffusion-based Outputs",
+            //     ],
+            //   },
+            // },
+            // {
+            //   chap: {
+            //     title: "LLMOp’s",
+            //     desc: [
+            //       "Model Versioning And Prompt Version Control",
+            //       "Monitoring LLM Outputs In Production",
+            //       "Cost Tracking And Optimization",
+            //       "Evaluation Pipelines For LLM Applications",
+            //       "Deployment Strategies For GenAI Systems",
+            //     ],
+            //   },
+            // },
             {
               chap: {
                 title: "Azure OpenAI",
@@ -5986,7 +7257,7 @@ export const NewDSAData = [
       {
         Module4: {
           title: "Term 4 – Agentic AI",
-          hours: "(1.5 Months)",
+          hours: "(15 Days)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
@@ -6107,7 +7378,7 @@ export const NewDSAData = [
 
       {
         Module5: {
-          title: "Term 5 – Statistics & Foundation of DS",
+          title: "Term 5 – Gen AI Specialization for BFSI  Professionals",
           hours: "(1 Months)",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -6115,381 +7386,16 @@ export const NewDSAData = [
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Statistics & Foundation of DS",
+          points: "Agentic AI & BFSI Domain Fundamentals",
           content: [
             {
               chap: {
-                title: " Introduction to Stats & Statistical Thinking ",
+                title: "BFSI Domain Fundamentals",
                 desc: [
-                  "Types of variables: quantitative, and qualitative",
-                  "Role of descriptive vs inferential statistics.",
-                  "Understanding data distribution and variability",
-                  "Probability basics including experiments, outcomes, and events.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Probability Concepts",
-                desc: [
-                  "Probability distribution function (PDF) and cumulative distribution function (CDF).",
-                  "Conditional probability and real-life applications.",
-                  "Bayes' Theorem and its use in classification problems.",
-                  "Mutually exclusive, joint, dependent, and independent events",
-                  "Problem-solving exercises to strengthen probability intuition.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Population & Sampling Fundamentals",
-                desc: [
-                  "Difference between population and sample in real-world studies.",
-                  "Importance of sample size and its effect on confidence.",
-                  "Sampling methods: simple random, systematic, cluster, stratified.",
-                  "Non-probability sampling: convenience, quota, snowball, judgment ssampling.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Statistics",
-                desc: [
-                  "Measures of central tendency: mean, median, mode.",
-                  "Measures of dispersion: variance, standard deviation, range, IQR.",
-                  "Shape analysis: skewness and kurtosis interpretation.",
-                  "ANOVA / ANCOVA for comparing model performance.",
-                  "Central Limit Theorem and sampling distribution behavior.",
-                  "Point estimates vs interval estimates.",
-                  "Characteristics of Z-distribution and T-distribution.",
-                  "Type I and Type II errors with practical meaning.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Hypothesis Testing",
-                desc: [
-                  "  Formulating null and alternative hypotheses.",
-                  "Z-test, t-test, chi-square test basics.",
-                  "Using the empirical rule and Z-table.",
-                  "Normal and binomial distributions with applications.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Exploratory Data Analysis (EDA)",
-                desc: [
-                  "Five-point summary: min, Q1, median, Q3, max.",
-                  "Box plot construction and interpretation.",
-                  "Outliers: causes, impact, and detection.",
-                  "Outlier treatment using IQR and Z-score methods",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Regression Analysis - Supervised Learning",
-                desc: [
-                  "Correlation & regression assumptions",
-                  "Linear regression mechanics (cost, optimization, gradient descent)",
-                  "Model training workflow (train–test split, prediction)",
-                  "Multiple regression & feature interactions",
-                  "Residual analysis & diagnostics",
-                  "Evaluation, generalization & regularization (RMSE, MAE, R², L1/L2)",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Classification Analysis - Supervised Learning",
-                desc: [
-                  "Logistic Regression, sigmoid function & MLE",
-                  "Linear vs logistic comparison",
-                  "Class imbalance handling (sampling techniques)",
-                  "Decision Trees & Random Forests",
-                  "KNN: distance metrics, K-value selection & curse of dimensionality",
-                  "Naive Bayes: assumptions & likelihood",
-                  "Evaluation metrics: Precision, Recall, F1, ROC-AUC & cross validation",
-                  "Project: Classification problem with real business data.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Unsupervised Learning Introduction - Clustering",
-                desc: [
-                  "  K-means clustering: centroid optimization and within-cluster sum of squares",
-                  "Cluster validation: elbow method, silhouette analysis, and optimal selection",
-                  "Distance metrics: Euclidean, Manhattan, and domain-specific measures",
-                ],
-              },
-            },
-          ],
-          id: 4,
-          open: false,
-        },
-      },
-
-      {
-        Module6: {
-          title: "Term 6 – Advanced Data Science",
-          hours: "(3 Months)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
-          StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Advanced Data Science",
-          content: [
-            {
-              chap: {
-                title: "  Advanced Clustering Techniques ",
-                desc: [
-                  "Hierarchical approaches: agglomerative and divisive clustering strategies",
-                  "Linkage criteria: single, complete, and average linkage mathematical foundations",
-                  "Density-based clustering: DBSCAN algorithm and noise point handling",
-                  "Clustering comparison: K-means vs hierarchical vs DBSCAN",
-                  "Clustering evaluation: internal and external validation measures",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Ensemble Learning Techniques (Bagging & Boosting)",
-                desc: [
-                  "Bootstrap aggregation (bagging): concept, implementation",
-                  "Variance reduction through sampling diversity",
-                  "Random Forest: out-of-bag estimation and feature importance calculation",
-                  "Boosting foundations: sequential learning and error correction  mechanisms",
-                  "AdaBoost, gradient boosting",
-                  "Gradient boosting: loss function optimization and residual learning",
-                  "Advanced boosting: XGBoost, CatBoost, and LightGBM implementation strategies",
-                  "Bagging vs boosting: bias-variance implications",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Support Vector Machine (SVMs)",
-                desc: [
-                  "Linear SVM: maximum margin principle and support vector identification",
-                  "Soft margin formulation: slack variables and regularization parameter tuning",
-                  "Kernel methods: polynomial, radial basis function, and kernel trick mathematics",
-                  "Multi-class extensions: one-vs-one and one-vs-rest strategies",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Model Optimization Strategies",
-                desc: [
-                  "Hyperparameter tuning: GridSearchCV, RandomSearchCV, and Bayesian approaches",
-                  "K-fold cross-validation for parameter selection: nested validation and unbiased estimation",
-                  "Performance curve analysis: learning curves and validation curves",
-                  "ROC curve optimization, threshold tuning",
-                  "Handling imbalanced datasets: SMOTE, resampling",
-                  "Model interpretation: feature importance, partial dependence, and SHAP values",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Time Series Analysis",
-                desc: [
-                  " Time series components: trend, seasonality, noise",
-                  "Stationarity tests: ADF, KPSS",
-                  "Autocorrelation & partial ACF plots",
-                  "Seasonal decomposition (additive, multiplicative)",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Classical Forecasting Methods",
-                desc: [
-                  "TMoving averages & exponential smoothing",
-                  "ARIMA modeling: identification, estimation, diagnostics",
-                  "SARIMA for seasonal data",
-                  "Model comparison using AIC/BIC & backtesting",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Advanced Forecasting",
-                desc: [
-                  "Prophet framework for business series",
-                  "Feature-based regression models (lags, rolling stats)",
-                  "Tree-based regressors (Random Forest, XGBoost) on time features",
-                  "Time series cross-validation & walk-forward validation",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Text Preprocessing",
-                desc: [
-                  " Tokenization, stopword removal, stemming, and lemmatization.",
-                  "Lowercasing, punctuation removal, and text normalization.",
-                  "Converting raw text into clean, usable form",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Word Embeddings",
-                desc: [
-                  "Represent words as dense vectors capturing meaning.",
-                  "Word2Vec for context-based learning.",
-                  "GloVe for global co-occurrence patterns.",
-                  "FastText for handling subword information.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Transformers & BERT",
-                desc: [
-                  "Attention-based architecture for understanding long text.",
-                  "BERT for bidirectional contextual embeddings.",
-                  "Fine-tuning BERT for NLP tasks like QA and classification",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Sequence-to-Sequence Models",
-                desc: [
-                  "Encoder-decoder setup for translating sequences.",
-                  "Used in translation, summarization, and dialogue.",
-                  "Attention improves sequence alignment.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Text Classification",
-                desc: [
-                  "Assign labels to text (spam, sentiment, categories).",
-                  "Use embeddings + neural networks or transformer models.",
-                  "Evaluate using accuracy, precision, recall, F1-score.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Topic Modeling",
-                desc: [
-                  " Discover hidden topics in text collections.",
-                  "LDA and embedding-based topic extraction.",
-                  "Group documents by common themes.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "NLP Evaluation Metrics",
-                desc: [
-                  " Accuracy and confusion matrix.",
-                  "Precision, Recall, and F1-Score.",
-                  "BLEU score for text generation.",
-                  "Perplexity for language models.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Computer Vision",
-                desc: [
-                  "Image Fundamentals",
-                  "Image representation using pixels, channels, and encoding.",
-                  "Histogram analysis to study brightness and contrast.",
-                  "Image transformations: resize, rotate, flip, crop.",
-                  "Image filtering: Gaussian, median, bilateral for smoothing and noise removal.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Convolutional Neural Networks (CNNs)",
-                desc: [
-                  "Convolution operation, padding, and stride basics.",
-                  "Pooling layers for reducing spatial size.",
-                  "CNN architectures",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Image Classification",
-                desc: [
-                  "Softmax classifier for predicting class probabilities.",
-                  "Transfer learning using pre-trained models.",
-                  "Data augmentation to improve generalization.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Object Detection & Localization",
-                desc: [
-                  "Traditional methods: HOG + SVM.",
-                  "Deep learning-based detectors",
-                  "R-CNN , Fast R-CNN, Faster R-CNN",
-                  "YOLO (v3–v8), SSD, RetinaNet",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Image Segmentation",
-                desc: [
-                  "Semantic segmentation – classify every pixel.",
-                  "FCN – fully convolutional networks.",
-                  "U-Net – encoder–decoder for medical images.",
-                  "DeepLab – atrous convolutions for better context.",
-                  "Instance segmentation – detect + segment each object.",
-                  "Mask R-CNN – adds mask prediction to Faster R-CNN.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Computer Vision with Transformers",
-                desc: [
-                  "Vision Transformers (ViT) – split image into patches, use attention.",
-                  "DETR – transformer-based end-to-end object detection.",
-                  "Swin Transformer – hierarchical vision transformer.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " RL Fundamentals & Core Method",
-                desc: [
-                  " Agent–environment interaction, rewards, actions, policies.",
-                  "Markov Decision Processes (MDP) and Bellman equations essentials.",
-                  "Exploration–exploitation strategies (ε-greedy, softmax).",
-                  "Monte Carlo, TD Learning, SARSA, Q-Learning basics.",
-                  "Policy Gradients and Actor–Critic (REINFORCE, A2C/A3C).",
-                  "Classic use cases: game-playing AI and simulation environments.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Deep RL & Advanced Algorithms",
-                desc: [
-                  "Convolution operation, padding, and stride basics.",
-                  "Deep Q-Networks (DQN) with neural networks + experience replay.",
-                  "Advanced Actor–Critic methods: PPO, DDPG, TD3, SAC.",
-                  "Continuous control with policy gradient deep models.",
-                  "Multi-Agent RL: cooperative, competitive, and mixed settings.",
-                  "Transfer learning, fine-tuning, and lifelong RL concepts.",
-                  "Applications: robotics, autonomous driving, finance, recommendation systems.",
+                  "KYC → onboarding → transactions → credit → servicing →collections",
+                  "Financial services workflows: portfolio advisory → compliance →fraud → risk scoring",
+                  "Insurance workflows: claims → underwriting → policy servicing →,grievance redressal",
+                  "Key BFSI metrics: default rate, fraud probability, risk score, NPAmetrics, claim turnaround, compliance accuracy",
                 ],
               },
             },
@@ -6498,371 +7404,8 @@ export const NewDSAData = [
           open: false,
         },
       },
-
-      {
-        Module7: {
-          title: "Term 7 – Deployment & MLOps",
-          hours: "(1 Months)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
-          StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "",
-          content: [
-            {
-              chap: {
-                title: "Model Serving & Packaging",
-                desc: [
-                  "FastAPI / Flask Serving: Build lightweight APIs to expose ML models.",
-                  "Model Packaging (BentoML / MLflow Models): Standardize models for easy deployment.",
-                  "Dockerization: Wrap the model + API into containers for consistent execution.",
-                  "Local Testing: Validate predictions, latency, and real-world behavior before cloud use.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Cloud Deployment Essentials",
-                desc: [
-                  "AWS & Azure Basics: S3/Blob storage, compute instances, IAM essentials.",
-                  "Deployment Platforms: SageMaker / Azure ML for quick hosted endpoints.",
-                  "CI/CD for Deployment: Automate build → test → deploy workflows.",
-                  "Basic Monitoring: Track API uptime, latency, and failure rates.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Reproducible ML Workflow",
-                desc: [
-                  "Data & Model Versioning: Manage dataset changes using DVC; track models via MLflow Registry.",
-                  "Experiment Tracking: Log metrics, hyperparameters, artifacts using MLflow or Weights & Biases.",
-                  "Pipeline Automation: Build training & inference pipelines with Airflow, ZenML, or Kedro.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Continuous Training, Deployment & Monitoring",
-                desc: [
-                  "CT Pipelines: Auto-trigger re-training when new data arrives or drift is detected.",
-                  "Automated Deployment: CI/CD pipelines using GitHub Actions, Jenkins, or GitLab CI.",
-                  "Model Monitoring: Detect drift, data issues, and performance degradation (Evidently, WhyLabs).",
-                  "Alerts & Rollbacks: Automatically promote or revert model versions using a registry.",
-                ],
-              },
-            },
-          ],
-          id: 7,
-          open: false,
-        },
-      },
-      {
-        Module8: {
-          title: "Term 8 – Data Analytics & VisualizationTools",
-          hours: "(1.5 Months)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
-          StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Data Analytics & VisualizationTools",
-          content: [
-            {
-              chap: {
-                title: "Analytics Essentials with Excel",
-                desc: [
-                  " Excel Basics & Core Functions: Interface, data types, formulas",
-                  "Lookup functions, conditional functions, and text functions.",
-                  "Data Preparation & Cleaning: Import/export, missing data handling, validation, formatting",
-                  "Power Query for cleaning & automation.",
-                  "Statistical & Analytical Techniques: Descriptive statistics, exploratory analysis, filters/sorting, what-if analysis, goal seek.",
-                  "Pivot-Based Analysis: PivotTables for summarization, grouping, segmentation, slicers, and data-driven insights.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Visualization & Advanced Analytics",
-                desc: [
-                  "Charts & Visualization Methods: Bar, line, pie, scatter, combo charts, advanced charting, conditional formatting for insights",
-                  "Interactive Dashboards: PivotCharts, KPI visuals, storytelling layouts, mini dashboard creation.",
-                  "Data Modeling & Power Tools: Power Pivot, relationships, basic DAX concepts, Excel add-ins for extended analytics.",
-                  "Projects & Applications: Business case studies, forecasting,reporting mini-projects, and real-world analytics workflows.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Power BI Essentials",
-                desc: [
-                  "Data Prep with Power Query: Clean, transform, merge, unpivot, format text/date/number fields.",
-                  "Data Modeling: Relationships, granularity, aggregations, timeseries basics, calculated columns.",
-                  "Core Visuals & Interactivity: Bar, pie, line, maps, cards, slicers, filters, drill-down, bookmarks.",
-                  "Connecting & Working with Data: Load from Excel/SQL, model views, query editor, BI best practices.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Visuals, Dashboards & DAX Analytics",
-                desc: [
-                  "Advanced Visuals: Funnel, ribbon, waterfall, treemap, gauge, scatter, KPIs & combos.",
-                  "DAX for Analytics: Measures, calculations, time-intelligence functions.",
-                  "Dashboard Design: Layouts, formatting, interactivity, storytelling, sharing & collaboration.",
-                  "Projects: Customer segmentation dashboard, exploratory BI reports, hands-on visual assignments.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Tableau Essentials & Data Preparation",
-                desc: [
-                  "Connecting & Preparing Data: Data types, joins, blending, pivots, transformations, SQL connections.",
-                  "Core Visual Building: Bar, line, pie, scatter, bubble, maps (geo, custom geocoding, polygon, WMS).",
-                  "Data Exploration Tools: Filters, groups, sets, parameters, drill-down, marks, dimensions & measures.",
-                  "View & Layout Tools: Shelves, cards, sorting, formatting, captions, exporting, metadata management.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Visual Analytics, Dashboards & Advanced Features",
-                desc: [
-                  "Advanced Visuals: Tree maps, heat maps, bump charts, funnel, waterfall, histogram, bullet & motion charts.",
-                  "Calculations & Analytics: Calculated fields, LOD expressions, trends, forecasting, predictive visuals.",
-                  "Dashboards & Storytelling: Interactive dashboards, stories, actions, design best practices, publishing & collaboration (Tableau Online).",
-                  "Projects & Applications: Build multi-chart dashboards, map-based visuals, predictive model integration.",
-                ],
-              },
-            },
-          ],
-          id: 7,
-          open: false,
-        },
-      },
-      {
-        Module9: {
-          title: "Term 9 – DATA BASE MANAGEMENT SYSTEM",
-          hours: "(2 Months)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
-          StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "DATA BASE MANAGEMENT SYSTEM",
-          content: [
-            {
-              chap: {
-                title: " SQL Fundamentals",
-                desc: [
-                  "Core SQL & RDBMS Basics: Syntax, data types, tables, CRUD operations, querying single tables.",
-                  "Filtering & Retrieval: WHERE, ORDER BY, DISTINCT, logical operators, formatting results.",
-                  "Joins & Multi-Table Queries: INNER, LEFT, RIGHT, FULL, CROSS joins, UNION, subqueries, nested queries.",
-                  "Aggregations & Analytics: GROUP BY, HAVING, summary stats, ranking functions, Top-N analysis.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Advanced SQL for Analytics",
-                desc: [
-                  "Views & Modifications: INSERT/UPDATE/DELETE, creating views, inline views.",
-                  "Optimization: Indexes, execution plans, performance tuning.",
-                  "Advanced Database Concepts: Normalization, stored procedures, functions, triggers, user-defined objects.",
-                  "SQL in Practice: Integrating SQL with Python, advanced analytical queries for real datasets.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "MongoDB Essentials",
-                desc: [
-                  " MongoDB basics, data structures, and CRUD operations",
-                  "Querying data, indexing strategies, and performance tuning",
-                  "Schema design, aggregation workflows, and data processing",
-                  "NoSQL principles, transactions, replication, and scaling concepts",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " NoSQL with MongoDB",
-                desc: [
-                  "NoSQL basics and data models (key–value, document, columnar, graph)",
-                  "MongoDB vs RDBMS and schema flexibility for scalable systems",
-                  "Data modeling, consistency ideas (CAP), replication and sharding",
-                  "NoSQL applications in analytics, caching, and distributed systems",
-                ],
-              },
-            },
-          ],
-          id: 7,
-          open: false,
-        },
-      },
-      {
-        Module10: {
-          title: "Term 10 – Big Data Analytics ",
-          hours: "(1 Months)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
-          StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Big Data Analytics ",
-          content: [
-            {
-              chap: {
-                title: "Hadoop Fundamentals",
-                desc: [
-                  "Big Data & Distributed Systems: Big Data concepts, distributed architecture, Hadoop master–slave structure.",
-                  "HDFS Operations: File storage model, directories, manipulation commands, permissions, quotas.",
-                  "MapReduce Framework: Mapper–reducer flow, shuffle/sort, architecture, real-world use cases.",
-                  "Core Hadoop Components: YARN resource management, Hadoop ecosystem overview (Hive, Pig, HBase, Sqoop).",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Hadoop Ecosystem",
-                desc: [
-                  "HDFS basics, architecture, and fault-tolerant storage.",
-                  "YARN & MapReduce job execution and resource management.",
-                  "Ecosystem integration: Hive, Sqoop, and SQL/NoSQL connectivity.",
-                  "Cluster setup, configuration, scaling, and performance tuning.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: " Spark Fundamentals",
-                desc: [
-                  "Spark Basics: Core features, architecture, RDDs, DAGs, transformations & actions.",
-                  "Spark Environment Setup: SparkSession, standalone mode, YARN/Mesos cluster management.",
-                  "RDD & DataFrame Operations: Creation, transformations, actions, interoperability.",
-                  "Spark SQL: Structured data processing, SQL queries, DataFrame APIs.",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Spark Ecosystem & Advanced Tools",
-                desc: [
-                  "Spark Streaming: Real-time pipelines, DStreams/Structured Streaming, Kafka integration.",
-                  "Spark MLlib: Feature engineering, building & training ML models, model evaluation.",
-                  "Performance Optimization: Caching, partitioning, Tungsten & Catalyst optimizer basics.",
-                  "PySpark & Integration: Using Spark with Python, connecting Spark with external data sources.",
-                ],
-              },
-            },
-          ],
-          id: 7,
-          open: false,
-        },
-      },
-      {
-        Module11: {
-          title: "Term 11 – DSA (Optional)",
-          hours: "(1 Months)",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
-          StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "DSA (Optional)",
-          content: [
-            {
-              chap: {
-                title: "Core Concepts & Essential Data Structures",
-                desc: [
-                  "Time & Space Complexity, Big-O analysis",
-                  "Arrays & Strings: Sliding window, prefix/suffix, searching",
-                  "Linked Lists: Operations, fast–slow pointers, cycle detection",
-                  "Stacks & Queues: Implementations, monotonic stack/queue,deques",
-                  "Hashing: Hash maps/sets, frequency tables, efficient lookups",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Trees, Graphs & Fundamental Algorithms",
-                desc: [
-                  "Trees & BSTs: Traversals, patterns, tree-based problem solving",
-                  "Heaps & Priority Queues: Top-K, scheduling, optimization tasks",
-                  "Graphs: BFS/DFS, shortest paths (Dijkstra), connectivity, cycle detection",
-                  "Advanced Graphs: Topological sort, bipartite checks, MST basics",
-                  "Sorting & Searching: Merge sort, quicksort, binary search, searchon-answer",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Problem-Solving Techniques & Developer Applications",
-                desc: [
-                  "Recursion & Backtracking: Permutations, combinations, constraint solving",
-                  "Dynamic Programming: Memoization, tabulation, common DP patterns",
-                  "Greedy Algorithms: Interval scheduling, optimal selection strategies",
-                  "Real-World Use Cases: Caching logic, rate limiting, pathfinding, optimization",
-                  "Coding Interview Skills: Patterns, debugging, performance tuning",
-                ],
-              },
-            },
-          ],
-          id: 7,
-          open: false,
-        },
-      },
-      {
-        Module12: {
-          title: "Term 12 – Project Management (Skills & Tools)",
-          hours: "15 Days",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
-          StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Project Management (Skills & Tools)",
-          content: [
-            {
-              chap: {
-                title: "Agile Foundations & Practices",
-                desc: [
-                  "Scrum framework: roles, ceremonies & artifacts",
-                  "Sprint planning, daily standups, reviews & retrospectives",
-                  "Kanban boards, WIP limits & workflow optimization",
-                  "User stories, story points, estimation & backlog prioritization",
-                  "Agile metrics: velocity, burndown charts, cycle time & throughput",
-                  "Managing cross-functional AI/Data Science projects",
-                ],
-              },
-            },
-            {
-              chap: {
-                title: "Tools & Practical Project Execution",
-                desc: [
-                  "Jira setup: projects, backlogs, sprints & issue tracking",
-                  "Scrum & Kanban boards, dashboards, filters & reports",
-                  "Collaboration features: comments, mentions, notifications & permissions",
-                  "Jira free-tier limitations & best practices",
-                  "Open-source PM tools: OpenProject, Taiga, iceScrum & Redmine",
-                  "Communication & team coordination tools (Slack, Teams, Confluence)",
-                ],
-              },
-            },
-          ],
-          id: 7,
-          open: false,
-        },
-      },
     ],
+
     certificateNew: [
       {
         id: 1,
@@ -6889,33 +7432,6 @@ export const NewDSAData = [
     Certificate: [
       {
         id: 1,
-        topnav: "IBM",
-        img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp",
-
-        width: 300,
-        height: 340,
-        title: "Course Completion Certificate from IBM",
-        para: [
-          "Complete your training with the internationally recognized certificate.",
-          "Validate your Data Science & AI skills with IBM Course Completion Certificate.",
-          "Get acknowledged in IT sector by adding IBM Certificate to your profile.",
-        ],
-      },
-      {
-        id: 2,
-        topnav: "Microsoft",
-        img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Azure%2BAI%2BFundamentals.png",
-        width: 330,
-        height: 260,
-        title: "Certification in Collaboration with Microsoft",
-        para: [
-          "Earn an Industry-certified Microsoft certificate , validating your skills",
-          "Showcase your expertise & enhance your resume highlighting job ready skills",
-          "Boost job opportunities and earnings with Microsoft’s certification",
-        ],
-      },
-      {
-        id: 3,
         topnav: "Project Certificate",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/new-project-cer-s.webp",
         width: 300,
@@ -6928,7 +7444,7 @@ export const NewDSAData = [
         ],
       },
       {
-        id: 4,
+        id: 2,
         topnav: "Gen-AI Certificate",
         img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/genai.webp",
         width: 300,

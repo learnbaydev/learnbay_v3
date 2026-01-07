@@ -56,24 +56,15 @@ const DABAFirstPart = ({ SecondSectionData, TestimonialData }) => {
   ];
 
   const BASecond = {
-    title1: "Domain Specialization",
-    image1:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ds-two.webp",
-    points: [
-      "Work in an industry like environment and gain practical hands-on experienc",
-      "12 Real-World + 4 Capstone Projects",
-    ],
-    image2:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/BA.webp",
     title2: "Job Roles You Can Target",
     jobRoles: [
+      { icon: <FaReact />, role: "AI Product Manager ", salary: " 38 LPA" },
       {
         icon: <TbBrandGoogleAnalytics />,
         role: "Business Analyst   ",
         salary: " 27 LPA",
       },
       { icon: <LuBrainCircuit />, role: "BI Engineer ", salary: "  20 LPA" },
-      { icon: <FaReact />, role: "Data Scientist ", salary: " 17 LPA" },
     ],
     image3:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group-768-min.webp",
@@ -81,9 +72,10 @@ const DABAFirstPart = ({ SecondSectionData, TestimonialData }) => {
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Mask+group+(10).webp",
     title3: "Dedicated Job Assistance",
     jobAssistance: [
-      { icon: <BsDisplay />, text: "Job-readiness with interview support" },
+      { icon: <BsDisplay />, text: "Job-readiness with Projects" },
       { icon: <AiOutlineContainer />, text: "Resume Building Session" },
       { icon: <FaLinkedinIn />, text: "LinkedIn Profile Review" },
+      { icon: <BsPeople />, text: "Mock Interview Sessions" },
     ],
     formbl: [{ icon: <BsPeople />, text: "Mock Interview Sessions" }],
     image5:
@@ -127,7 +119,7 @@ const DABAFirstPart = ({ SecondSectionData, TestimonialData }) => {
     },
   };
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_comp.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA+2026+(1)_compressed.pdf";
   return (
     <>
       <Navbar dataScienceCounselling={true} interstedInHide={true} />
@@ -137,7 +129,7 @@ const DABAFirstPart = ({ SecondSectionData, TestimonialData }) => {
         dataScience={true}
         ThirdTyped="Live Interactive Classes"
         titleCourse="Data Analytics and Business Analytics with Generative AI "
-        cityParaCont="Elevate your tech career with our programs"
+        cityParaCont="Elevate your tech career with our programs AI Co-Lab and BYOP"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_compv1.pdf"
         brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BA-min.webp"

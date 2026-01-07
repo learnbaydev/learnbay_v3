@@ -16,22 +16,66 @@ export const TabData = [
       //   url: "/datascience/generative-ai-course-for-manager",
       // },
       {
-        CName: "GenAI Professional Developer Certification With IBM",
-        hours: "4 Months",
-        url: "/artificial-intelligence/genai-software-developers",
+        CName: "GenAI and Agentic AI Master Program",
+        hours: "9 Months",
+        url: "/gen-ai-and-agentic-ai-master-program",
       },
       {
-        CName: "GenAI Professional Certification for Managers With IBM",
-        hours: "4 Months",
-        url: "/artificial-intelligence/generative-ai-for-managers",
+        CName: "GenAI and Agentic AI Program",
+        hours: "5 Months",
+        url: "/gen-ai-agentic-ai-program",
+      },
+      // {
+      //   CName: "GenAI and Agentic AI Program for BFSI",
+      //   hours: "5 Months",
+      //   url: "/gen-ai-agentic-ai-program-for-bsfi",
+      // },
+      // {
+      //   CName: "GenAI and Agentic AI Program for Healthcare",
+      //   hours: "5 Months",
+      //   url: "/gen-ai-agentic-ai-program-for-healthcare",
+      // },
+      // {
+      //   CName: "GenAI and Agentic AI Program for Retail and Ecommerce",
+      //   hours: "5 Months",
+      //   url: "/gen-ai-agentic-ai-program-for-retailer-ecommerce",
+      // },
+
+      // {
+      //   CName: "GenAI and Agentic AI Program for Manufacturing and Supplychain",
+      //   hours: "5 Months",
+      //   url: "/gen-ai-agentic-ai-program-for-manufacturing-supplychain",
+      // },
+      // {
+      //   CName: "GenAI and Agentic AI Program or Automotive",
+      //   hours: "5 Months",
+      //   url: "/gen-ai-agentic-ai-program-for-automotive",
+      // },
+      {
+        CName: "GenAI and Agentic AI Program for Managers and Leaders",
+        hours: "5 Months",
+        url: "/gen-ai-agentic-ai-program-for-managers-leaders",
+      },
+      // {
+      //   CName: "GenAI Professional Certification for Managers With IBM",
+      //   hours: "4 Months",
+      //   url: "/artificial-intelligence/generative-ai-for-managers",
+      // },
+      {
+        CName: "GenAI and Agentic AI Program for Cloud and DevOps",
+        hours: "5 Months",
+        url: "/genai-agenticai-for-cloud-devops",
       },
       {
         CName: "Applied AI Practitioner Program",
         hours: "4 Months",
         url: "/artificial-intelligence/applied-ai-practitioner-program",
       },
-
-      ,
+      {
+        CName: "GenAI & Agentic AI for Software Developer",
+        hours: "5 Months",
+        url: "/artificial-intelligence/genai-software-developers",
+      },
     ],
   },
   {
@@ -71,10 +115,14 @@ export const TabData = [
     courseName: [
       {
         CName: "Data Science and Generative AI Master Certification Program",
-        hours: "13 Months",
+        hours: "9 Months",
         url: "/datascience/data-science-and-ai-master-certification-program",
       },
-
+      {
+        CName: "Data Science and Generative AI  Program",
+        hours: "5 Months",
+        url: "/data-science-and-genai-program",
+      },
       {
         CName: "Data Analytics and Business Analytics with Generative AI",
         hours: "8-9 Months",
@@ -144,29 +192,34 @@ export const TabData = [
       // },
       {
         CName: "Cloud and DevOps Engineering Masters Certification",
-        hours: "8 Months",
+        hours: "9 Months",
         url: "/cloud&devops/cloud-and-devops-for-system-administrators-master-certification",
       },
 
       {
         CName: "Cloud & DevOps for Network Professionals",
-        hours: "5-6 Months",
-        url: "/cloud&devops/cloud-devops-for-network-professionals",
+        hours: "5 Months",
+        url: "/cloud-devops-for-network-professionals",
       },
       {
         CName: "Cloud & DevOps for System Administrators",
-        hours: "5-6 Months",
-        url: "/cloud&devops/cloud-and-devOps-for-system-administrators",
+        hours: "5 Months",
+        url: "/cloud-and-devOps-for-system-administrators",
       },
       {
         CName: "Cloud & DevOps for IT Support & IT Operations",
-        hours: "5-6 Months",
-        url: "/cloud&devops/cloud-and-devops-for-it-support-and-it-operations",
+        hours: "5 Months",
+        url: "/cloud-and-devops-for-it-support-and-it-operations",
       },
       {
         CName: "Cloud & DevOps for Database Administrators",
-        hours: "5-6 Months",
-        url: "/cloud&devops/cloud-and-devops-for-database-administrators",
+        hours: "5 Months",
+        url: "/cloud-and-devops-for-database-administrators",
+      },
+      {
+        CName: "Advanced Cloud & DevOps Program",
+        hours: "5 Months",
+        url: "/advanced-cloud-and-devops-program",
       },
     ],
   },
@@ -190,6 +243,12 @@ export const TabData = [
         CName: "DSA Course with Placement Prep",
         hours: "3-4 Months",
         url: "/fullstack/data-structure-algorithm-online-course-training",
+      },
+
+      {
+        CName: "SDE Master's Program in GenAI & Agentic AI ",
+        hours: "3 Months",
+        url: "/artificial-intelligence/sde-master-program-gen-ai-agentic-ai",
       },
     ],
   },

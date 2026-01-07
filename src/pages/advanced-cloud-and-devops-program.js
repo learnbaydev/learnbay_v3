@@ -4,26 +4,22 @@ import HighlightsAdminSection from "@/components/CoursePage/FirstPart/Support_no
 import BookDemo from "@/components/CoursePage/NewDSA/BookDemo/BookDemo";
 import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/UpdatedCertificate";
 import GenAIProject from "@/components/CoursePage/genAiProject/GenAIProject";
-import Newheader from "@/components/CoursePage/newHeader/newHeader";
+import Newheader from "@/components/CoursePage/newHeaderCloudAndDevOps/newHeader";
 import NewTools from "@/components/CoursePage/newTools/NewTools";
-import AlumniCompanies from "@/components/CoursePage/newUICourse/AlumniCompanies";
-import LearningToPlacement from "@/components/CoursePage/newUICourse/LearningToPlacement/LearningToPlacement";
+import AlumniCompaniesCloudDevopsDA from "@/components/CoursePage/newUICourse/AlumniCompaniesCloudDevopsDA";
+import LearningToPlacementDA from "@/components/CoursePage/newUICourse/LearningToPlacementDA/LearningToPlacement";
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import Navbar from "@/components/Global/Navbar/Navbar";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
-import highlightsData from "@/Data/HighlightsAdminSectionData";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import React from "react";
-// import newCloudAndDevopsSyllabus from "@/components/newCloudAndDevopsSyllabus/newCloudAndDevopsSyllabus";
-const AnimationNew = dynamic(() =>
-  import("@/components/Home/whyChooseSection/whylblimited")
+import highlightsData from "@/Data/highlightsDataDA";
+const AnimationNew4 = dynamic(() =>
+  import("@/components/Home/whyChooseSection/whylblimitedDA")
 );
 const JobReadySection = dynamic(() =>
   import("@/components/CoursePage/NewDSA/JobReadySection/JobReadySection")
-);
-const NewCloudAndDevopsSyllabus = dynamic(() =>
-  import("@/components/newCloudAndDevopsSyllabus/newCloudAndDevopsSyllabus")
 );
 const DSASyllabus = dynamic(() =>
   import("@/components/CoursePage/NewDSA/DSASyllabusSection/DSASyllabus")
@@ -47,13 +43,11 @@ const SyllabusNew = dynamic(() =>
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI-Powered+Cloud+DevOps+Engineering+Master+Program+(8)_compressed+.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Advanced%2BCloud%2Band%2BDevops%2BProgram%2B(2)_compressed.pdf";
   return (
     <>
       <Head>
-        <title>
-          AI Powered Cloud and DevOps Engineering Masters Program - Learnbay
-        </title>
+        <title>Cloud and DevOps Engineering Masters Program - Learnbay</title>
         <meta
           name="description"
           content="Build a future-proof tech career with Learnbay's Cloud & DevOps Engineering Masters Program. Learn real-world tools, hands-on projects, and get career support."
@@ -181,17 +175,19 @@ Cloud and DevOps master certification"
           descrption={NewDSAData[0].header[0].descrption}
           svgDSA={NewDSAData[0].header[0].svgDSA}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI-Powered+Cloud+DevOps+Engineering+Master+Program+(8)_compressed+.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-DBA-Professionalslink.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
-        <AlumniCompanies
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI-Powered+Cloud+DevOps+Engineering+Master+Program+(8)_compressed+.pdf"
+        <AlumniCompaniesCloudDevopsDA
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Advanced%2BCloud%2Band%2BDevops%2BProgram%2B(2)_compressed.pdf"
           brochurePdf={pdfUrl}
         />
-        <LearningToPlacement time="250" guided="40" leftPart="3YEAR" />
+        <LearningToPlacementDA time="150" guided="10" />
+
         <HighlightsAdminSection cloud={true} highlightsData={highlightsData} />
-        <AnimationNew />
+
+        <AnimationNew4 />
         <JobReadySection />
         <ReviewSlider idss="eautK0odE7Q" showRealStories={false} />
         <MentorsSection />
@@ -205,7 +201,7 @@ Cloud and DevOps master certification"
           dataScience={true}
           interstedInHide={true}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud%26DevOpsEngineeringMasterCertificationDec25.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-DBA-Professionalslink.pdf"
           brochurePdf={pdfUrl}
           downloadBrochure={true}
         /> */}
@@ -218,7 +214,7 @@ Cloud and DevOps master certification"
         <NewTools toolsData={NewDSAData[0].toolsData} />
         <UpdatedCertificate data={NewDSAData[0].Certificate} />
         <DSAFeeSection
-          Fee="₹ 1,59,000 "
+          Fee="₹ 1,20,000 "
           FeeEmi="₹ 13,250/ month"
           // Hybrid Classes
           hybridFee="₹ 1,55,000"
@@ -268,9 +264,7 @@ Cloud and DevOps master certification"
 export default NewDSA;
 
 export async function getStaticProps() {
-  const module = await import(
-    "../../Data/CloudAndDevOpsforSystemAdministratorsMasterCertificationData"
-  );
+  const module = await import("../Data/advanced-cloud-and-devops-program-data");
   const data = module.default;
 
   const DSADataJson = JSON.stringify(data, (key, value) =>

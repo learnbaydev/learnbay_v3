@@ -6,17 +6,17 @@ import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/Updat
 import GenAIProject from "@/components/CoursePage/genAiProject/GenAIProject";
 import Newheader from "@/components/CoursePage/newHeaderCloudAndDevOps/newHeader";
 import NewTools from "@/components/CoursePage/newTools/NewTools";
-import AlumniCompaniesCloudDevopsISIO from "@/components/CoursePage/newUICourse/AlumniCompaniesCloudDevopsISIO";
-import LearningToPlacementISIO from "@/components/CoursePage/newUICourse/LearningToPlacementISIO/LearningToPlacement";
+import AlumniCompaniesCloudDevopsNP from "@/components/CoursePage/newUICourse/AlumniCompaniesCloudDevopsNP";
+import LearningToPlacementNP from "@/components/CoursePage/newUICourse/LearningToPlacementNP/LearningToPlacement";
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import Navbar from "@/components/Global/Navbar/Navbar";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import React from "react";
-import highlightsData from "@/Data/highlightsDataISIO";
-const AnimationNew3 = dynamic(() =>
-  import("@/components/Home/whyChooseSection/whylblimitedISIO")
+import highlightsData from "@/Data/highlightsDataNP";
+const AnimationNew1 = dynamic(() =>
+  import("@/components/Home/whyChooseSection/whylblimitedNP")
 );
 const JobReadySection = dynamic(() =>
   import("@/components/CoursePage/NewDSA/JobReadySection/JobReadySection")
@@ -37,10 +37,13 @@ const MentorsSection = dynamic(() =>
 const ReviewSlider = dynamic(() =>
   import("@/components/Home/newUI/reviewSlider/reviewSlider")
 );
+const SyllabusNew = dynamic(() =>
+  import("@/components/CoursePage/Syllabus/MasterSyllabus2025")
+);
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-ITS-%26-ITOps-Professionals.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud+and+Devops+Engineering+For+Network+Professionals+_compressed.pdf";
   return (
     <>
       <Head>
@@ -172,19 +175,19 @@ Cloud and DevOps master certification"
           descrption={NewDSAData[0].header[0].descrption}
           svgDSA={NewDSAData[0].header[0].svgDSA}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-ITS-%26-ITOps-Professionalslink.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-Network-Professionalslink.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
-        <AlumniCompaniesCloudDevopsISIO
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-ITS-%26-ITOps-Professionals.pdf"
+        <AlumniCompaniesCloudDevopsNP
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-Network-Professionalslink.pdf"
           brochurePdf={pdfUrl}
         />
-        <LearningToPlacementISIO time="150" guided="10" />
+        <LearningToPlacementNP time="150" guided="10" />
 
         <HighlightsAdminSection cloud={true} highlightsData={highlightsData} />
 
-        <AnimationNew3 />
+        <AnimationNew1 />
         <JobReadySection />
         <ReviewSlider idss="eautK0odE7Q" showRealStories={false} />
         <MentorsSection />
@@ -193,19 +196,25 @@ Cloud and DevOps master certification"
           GENAIMAN={true}
           noClud={true}
         />
-        <DSASyllabus
+        {/* <DSASyllabus
           sections={NewDSAData[0].sections}
           dataScience={true}
           interstedInHide={true}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-ITS-%26-ITOps-Professionalslink.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-Network-Professionalslink.pdf"
           brochurePdf={pdfUrl}
           downloadBrochure={true}
-        />
+        /> */}
+        <div style={{ marginTop: "50px" }}>
+          <SyllabusNew
+            masterSyllabusMobile={NewDSAData[0].masterSyllabusMobile}
+            onlyGENAIPage={true}
+          />
+        </div>
         <NewTools toolsData={NewDSAData[0].toolsData} />
         <UpdatedCertificate data={NewDSAData[0].Certificate} />
         <DSAFeeSection
-          Fee="₹ 1,10,000 "
+          Fee="₹ 1,20,000 "
           FeeEmi="₹ 13,250/ month"
           // Hybrid Classes
           hybridFee="₹ 1,55,000"
@@ -256,7 +265,7 @@ export default NewDSA;
 
 export async function getStaticProps() {
   const module = await import(
-    "../../Data/cloud-and-devops-for-it-support-and-it-operations-data"
+    "../Data/cloud-devops-for-network-professionals-data"
   );
   const data = module.default;
 

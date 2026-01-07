@@ -349,6 +349,7 @@
   color: #fff;
   font-size: 12px;
   font-weight: 600;
+  height: 20px;
 }
 .box {
   display: flex;

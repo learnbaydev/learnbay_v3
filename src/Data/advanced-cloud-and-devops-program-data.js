@@ -4,16 +4,16 @@ export const NewDSAData = [
   {
     header: [
       {
-        spanTag: "for IT Support & IT Operations ",
+        spanTag: "for Working Professionals Across Domains ",
         spanIcon:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
         title: [
           {
-            text: "Cloud and DevOps Engineering ",
+            text: "Advanced Cloud & DevOps  ",
             color: false,
           },
           {
-            text: "Certification ",
+            text: "Program ",
             color: true,
             gradient: "linear-gradient(90deg, #f2b7be, #eebdc6, #d7d1e5)",
           },
@@ -415,14 +415,14 @@ export const NewDSAData = [
       },
 
       {
-        id: "13",
+        id: "14",
         trackIcon:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/DSA-systemDesign.webp",
         width: 80,
         height: 80,
         title: "TERM 8",
         toolsImg: "",
-        elective: "Elective",
+        elective: "Elective - 1",
         imageSizes: {
           vsm: { width: 40, height: 21 },
           sm: { width: 40, height: 23 },
@@ -430,14 +430,14 @@ export const NewDSAData = [
           lg: { width: 40, height: 32 },
         },
         // contentModule: "Topics Covered",
-        description: "Cloud & DevOps for IT Support & IT Operations",
+        description: "Cloud & DevOps for Database Administrators",
         duration: "40-45 hrs",
         contentDescription: "",
         contentDetails: [
-          "  Capstone Projects 1. Cloud Monitoring & Alerting System",
-          "  Tools: AWS CloudWatch, Linux",
-          "  Capstone Projects 2. Automated Incident Response Workflow",
-          "  Tools: Python, AWS Lambda, CloudWatch",
+          "  Capstone Projects 1. Cloud Database Deployment & Backup Automation",
+          "  Tools: AWS RDS, IAM, AWS Backup",
+          "  Capstone Projects 2. Scalable & Highly Available Database Architecture",
+          "  Tools: AWS RDS Multi-AZ, Monitoring Tools",
         ],
       },
     ],
@@ -559,9 +559,72 @@ export const NewDSAData = [
           open: false,
         },
       },
+      //   {
+      //     Module6: {
+      //       title: "Module 5 - DevOps Mastery – Infrastructure & Automation ",
+      //       hours: "60 Hours",
+      //       imageUrl:
+      //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+      //       StartImageUrl:
+      //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+      //       endImageUrl:
+      //         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+      //       points: "DevOps Mastery – Infrastructure & Automation ",
+      //       content: [
+      //         {
+      //           chap: {
+      //             title: "DevOps Mastery – Infrastructure & Automation ",
+      //             desc: [
+      //               "Introduction to DevOps",
+      //               "Server and Application Virtualization",
+      //               "Version Control",
+      //               "Continuous Integration (CI)",
+      //               "Containerization and Modern Virtualization",
+      //               "Build and Release Management",
+      //               " Data Migration in DevOps and Multi-Cloud Environments",
+      //               "Continuous Delivery (CD) & Deployment Automation",
+      //               "Container Orchestration Basics",
+      //               "Continuous Monitoring",
+      //               "Resilience, High Availability, and Disaster Recovery in DevOps",
+      //             ],
+      //           },
+      //         },
+      //       ],
+      //       id: 5,
+      //       open: false,
+      //     },
+      //   },
       {
         Module4: {
-          title: "Module 5 - DevOps Mastery – Infrastructure & Automation ",
+          title: "Module 5 – Microsoft Azure Proficiency (Optional)",
+          hours: " 40 Hours",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Microsoft Azure Proficiency (Optional)",
+          content: [
+            {
+              chap: {
+                title: "Microsoft Azure Proficiency",
+                desc: [
+                  "Azure Administration & Identity Management",
+                  "Architecting Solutions on Azure",
+                  "Advanced Azure Specializations",
+                  "Certification Preparation for Azure",
+                ],
+              },
+            },
+          ],
+          id: 4,
+          open: false,
+        },
+      },
+      {
+        Module6: {
+          title: "Module 6 - DevOps Mastery – Infrastructure & Automation ",
           hours: "60 Hours",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -595,37 +658,38 @@ export const NewDSAData = [
         },
       },
       {
-        Module5: {
-          title: "Module 6 – Microsoft Azure Proficiency (Optional)",
-          hours: " 40 Hours",
+        Module8: {
+          title: "Module 7 - Multicloud Strategy & Architecture",
+          hours: "30 Hours",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
           StartImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
           endImageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Microsoft Azure Proficiency (Optional)",
+          points: "Multicloud Strategy & Architecture ",
           content: [
             {
               chap: {
-                title: "Microsoft Azure Proficiency",
+                title: "Multicloud Strategy & Architecture ",
                 desc: [
-                  "Azure Administration & Identity Management",
-                  "Architecting Solutions on Azure",
-                  "Advanced Azure Specializations",
-                  "Certification Preparation for Azure",
+                  "Multicloud Foundations",
+                  "Multicloud Networking & Connectivity",
+                  "Multicloud Identity, Governance & Policies",
+                  "Multicloud Data & Application Mobility",
+                  "Multicloud Operations & Automation ",
+                  "Multicloud Disaster Recovery & Resilience",
                 ],
               },
             },
           ],
-          id: 4,
+          id: 5,
           open: false,
         },
       },
-
       {
-        Module6: {
-          title: "Module 7 - MLOps Engineering ",
+        Module9: {
+          title: "Module 8 - MLOps Engineering ",
           hours: "40 Hours",
           imageUrl:
             "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
@@ -651,41 +715,38 @@ export const NewDSAData = [
           open: false,
         },
       },
-
-      {
-        Module13: {
-          title: "Cloud & DevOps for IT Support & IT Operations ",
-          hours: "6 weeks",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
-          StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "Cloud & DevOps for IT Support & IT Operations",
-          content: [
-            {
-              chap: {
-                title: "Cloud & DevOps for IT Support & IT Operations ",
-                desc: [
-                  "Week 1: Cloud operations fundamentals, shared responsibility model, SLAs, monitoring basics, understanding production systems",
-                  "Week 2: Alert handling workflows, incident management lifecycle, root cause analysis, operational automation concepts",
-                  "Week 3: AIOps foundations, AI-assisted monitoring, log analysis workflows, proactive operations mindset",
-                  "Log pattern recognition, anomaly detection, predictive incident modelling, and AI-driven noise reduction techniques.",
-                  "Week 4: Production-readiness checks, change management processes, deployment hygiene, configuration baselines, and rollback strategies",
-                  "ITIL-aligned change workflows, maintenance window planning, and drift detection concepts.",
-                  "Week 5: Cloud Ops automation foundations, scripting for support workflows, automated remediations, and operational pipelines.",
-                  "Lambda-driven automation, Python for cloud operations, scheduled healing scripts, and policy-based remediation triggers.",
-                  "Week 6: Observability & SRE concepts, error budgets, SLIs/SLOs, reliability reviews, and operational performance dashboards.",
-                  "Golden signals monitoring, distributed tracing basics, SRE runbook creation, and operational KPIs for cloud systems.",
-                ],
-              },
-            },
-          ],
-          id: 5,
-          open: false,
-        },
-      },
+      // {
+      //   Module10: {
+      //     title: "Module 9 - GenAI Essentials for Cloud & Devops",
+      //     hours: "30 Hours",
+      //     imageUrl:
+      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+      //     StartImageUrl:
+      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+      //     endImageUrl:
+      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+      //     points: "GenAI Essentials for Cloud & Devops",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title: "GenAI Essentials for Cloud & Devops ",
+      //           desc: [
+      //             "Introduction to Generative AI in DevOps",
+      //             "Automating DevOps Workflows with Generative AI",
+      //             "AI-Powered Monitoring & Incident Resolution",
+      //             "Predictive Analytics and Resource Management",
+      //             "Generative AI for Container Orchestration",
+      //             "Cost Optimization and Budget Planning with AI",
+      //             "Disaster Recovery and Security Automation with AI",
+      //             "Customizing GenAI Tools for Cloud and DevOps Needs",
+      //           ],
+      //         },
+      //       },
+      //     ],
+      //     id: 5,
+      //     open: false,
+      //   },
+      // },
     ],
     certificateNew: [
       {
