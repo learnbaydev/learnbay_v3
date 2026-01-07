@@ -4,7 +4,7 @@ export const NewDSAData = [
   {
     header: [
       {
-        spanTag: "Integrated with AI Co-Lab Experience",
+        spanTag: "Integrated with AI Co-Lab Experience and BYOP ",
         spanIcon:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
         title: [

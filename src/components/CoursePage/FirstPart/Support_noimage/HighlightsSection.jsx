@@ -1,26 +1,39 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./HighlightsSection.module.css";
 import Image from "next/image";
 import highlightsData from "./highlightsData";
-import { useState } from "react";
 import dynamic from "next/dynamic";
+
 const Popup = dynamic(() => import("@/components/Global/Popup/Popup"));
 const FormCareer = dynamic(() =>
   import("@/components/Global/CareerPortal/Form/Form")
 );
 const Button = dynamic(() => import("@/components/Global/Button/Button"));
 const Form = dynamic(() => import("@/components/Global/Form/Form"));
+
 const HighlightsSection = ({
   careerForm,
   radio,
   fullStack,
   dataScience,
   dataScienceGeneric,
+  aiCloab = false,
 }) => {
   const [popups, setPopups] = useState(false);
-  const popupShow = () => {
-    setPopups(true);
-  };
+
+  const popupShow = () => setPopups(true);
+
+  // 🔹 Conditional card filtering logic
+  const filteredHighlights = highlightsData.filter((item) => {
+    if (item.tag === "JOB READINESS & INTERVIEW CONFIDENCE") {
+      return !aiCloab;
+    }
+    if (item.tag === "AI Co-lab") {
+      return aiCloab;
+    }
+    return true;
+  });
+
   return (
     <div className={styles.main}>
       <div className={styles.titleDiv}>
@@ -32,7 +45,7 @@ const HighlightsSection = ({
       </div>
 
       <div className={styles.container}>
-        {highlightsData.map((item, index) => (
+        {filteredHighlights.map((item, index) => (
           <div
             key={index}
             className={styles.box}
@@ -53,9 +66,11 @@ const HighlightsSection = ({
                 >
                   <span style={{ color: item.tagColor }}>{item.tag}</span>
                 </div>
+
                 <h5 className={styles.h5} style={{ color: item.headingColor }}>
                   {item.heading}
                 </h5>
+
                 <p
                   className={styles.desc}
                   style={{
@@ -81,7 +96,7 @@ const HighlightsSection = ({
 
               <div
                 className={styles.right}
-                style={{ top: `${item.top}px`, right: `${item.right}px` }}
+                style={{ top: item.top, right: item.right }}
               >
                 <Image
                   src={item.image}
@@ -96,13 +111,13 @@ const HighlightsSection = ({
           </div>
         ))}
       </div>
+
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
         <div className="leftPopup">
           <div className="whiteP" />
         </div>
         <div className="RightPopup">
           <h5>Apply For Counselling</h5>
-          {/* <p>Fill the below details to get started</p> */}
           {careerForm ? (
             <FormCareer />
           ) : (
@@ -120,8 +135,9 @@ const HighlightsSection = ({
           )}
         </div>
       </Popup>
+
       <div className={styles.applyButton} onClick={popupShow}>
-        <Button text="Start Your Application" outline={true} />
+        <Button text="Start Your Application" outline />
       </div>
     </div>
   );
