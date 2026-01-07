@@ -43,7 +43,7 @@ const SyllabusNew = dynamic(() =>
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-ITS-%26-ITOps-Professionals.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud+and+Devops+Engineering+For+ITS+%26+ITOps+Professionals++(3)_compressed.pdf";
   return (
     <>
       <Head>
@@ -180,7 +180,7 @@ Cloud and DevOps master certification"
           interstedInHide={true}
         />
         <AlumniCompaniesCloudDevopsISIO
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-ITS-%26-ITOps-Professionals.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud+and+Devops+Engineering+For+ITS+%26+ITOps+Professionals++(3)_compressed.pdf"
           brochurePdf={pdfUrl}
         />
         <LearningToPlacementISIO time="150" guided="10" />
