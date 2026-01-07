@@ -762,7 +762,7 @@ export const courses = {
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI+%26+Agentic+AI+Master+Program+for+Tech+Professionals+(4)_compressed.pdf",
     },
 
     {
