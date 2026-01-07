@@ -72,9 +72,10 @@ const DABAFirstPart = ({ SecondSectionData, TestimonialData }) => {
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Mask+group+(10).webp",
     title3: "Dedicated Job Assistance",
     jobAssistance: [
-      { icon: <BsDisplay />, text: "Job-readiness with interview support" },
+      { icon: <BsDisplay />, text: "Job-readiness with Projects" },
       { icon: <AiOutlineContainer />, text: "Resume Building Session" },
       { icon: <FaLinkedinIn />, text: "LinkedIn Profile Review" },
+      { icon: <BsPeople />, text: "Mock Interview Sessions" },
     ],
     formbl: [{ icon: <BsPeople />, text: "Mock Interview Sessions" }],
     image5:
