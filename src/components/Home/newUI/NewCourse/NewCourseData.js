@@ -351,7 +351,7 @@ export const courses = {
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Science-%26-AI-Master-Program.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data+Science+and+GenAI+Master+Program+(3)_compressed.pdf",
     },
     {
       title: " GenAI & Agentic AI Master Certification Program ",
@@ -364,7 +364,7 @@ export const courses = {
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Science-%26-AI-Master-Program.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI+%26+Agentic+AI+Master+Program+for+Tech+Professionals+(4)_compressed.pdf",
     },
     {
       title: "AI-Powered Cloud & DevOps Master Program ",
@@ -377,7 +377,7 @@ export const courses = {
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Science-%26-AI-Master-Program.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI-Powered+Cloud+DevOps+Engineering+Master+Program+(8)_compressed+.pdf",
     },
     {
       title: "SDE Master Program With GenAI & Agentic AI ",
@@ -390,7 +390,7 @@ export const courses = {
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Science-%26-AI-Master-Program.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE+Master+Program+for+Tech+Professionals_compressed.pdf",
     },
     {
       title: "GenAI & AgenticAI for Cloud & DevOps ",
@@ -403,7 +403,7 @@ export const courses = {
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Science-%26-AI-Master-Program.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Gen+AI+%26+Agentic+AI+for+Cloud+%26+DevOps+(4)_compressed.pdf",
     },
     {
       title: "Applied AI Practioner Program ",
@@ -416,7 +416,7 @@ export const courses = {
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Science-%26-AI-Master-Program.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/IIT+Patna+Applied+AI+Program+(4)_compressed.pdf",
     },
     // {
     //   title: "Data Science & AI Program For Freshers",
@@ -702,7 +702,7 @@ export const courses = {
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI+%26+Agentic+AI+Master+Program+for+Tech+Professionals+(4)_compressed.pdf",
     },
 
     {
@@ -716,7 +716,7 @@ export const courses = {
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/hr-analytics.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI-Powered+Cloud+DevOps+Engineering+Master+Program+(8)_compressed+.pdf",
     },
     {
       title: "SDE Master Program With GenAI & Agentic AI",
@@ -729,7 +729,7 @@ export const courses = {
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_compr.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE+Master+Program+for+Tech+Professionals_compressed.pdf",
     },
 
     {
@@ -743,7 +743,7 @@ export const courses = {
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Marketing+Analytics+Certification+Program.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Healthcare-Pharma-and-Clinical-Research-domain.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data+Science+and+GenAI+Master+Program+(3)_compressed.pdf",
     },
 
     // Add more data science courses as needed
@@ -988,7 +988,7 @@ export const courses = {
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_compr.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA+2026+(1)_compressed.pdf",
     },
   ],
 
@@ -1183,11 +1183,11 @@ export const courses = {
       description: "For Tech Professionals",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENIBM3.webp",
-      link: "artificial-intelligence/genai-software-developers",
+      link: "/artificial-intelligence/genai-software-developers",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/hr-analytics.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI+%26+Agentic+AI+for+Software+Developers+(2)_compressed.pdf",
     },
     {
       title: "GenAI & Agentic AI Master Certification Program",
@@ -1200,7 +1200,7 @@ export const courses = {
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_compr.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI+%26+Agentic+AI+Master+Program+for+Tech+Professionals+(4)_compressed.pdf",
     },
   ],
 
