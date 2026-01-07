@@ -43,7 +43,7 @@ const SyllabusNew = dynamic(() =>
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Advanced+Cloud+and+Devops+Program+(2).pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Advanced%2BCloud%2Band%2BDevops%2BProgram%2B(2)_compressed.pdf";
   return (
     <>
       <Head>
@@ -180,7 +180,7 @@ Cloud and DevOps master certification"
           interstedInHide={true}
         />
         <AlumniCompaniesCloudDevopsDA
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Advanced+Cloud+and+Devops+Program+(2).pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Advanced%2BCloud%2Band%2BDevops%2BProgram%2B(2)_compressed.pdf"
           brochurePdf={pdfUrl}
         />
         <LearningToPlacementDA time="150" guided="10" />
