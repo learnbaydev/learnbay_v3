@@ -137,7 +137,7 @@ const DABAFirstPart = ({ SecondSectionData, TestimonialData }) => {
         dataScience={true}
         ThirdTyped="Live Interactive Classes"
         titleCourse="Data Analytics and Business Analytics with Generative AI "
-        cityParaCont="Elevate your tech career with our programs"
+        cityParaCont="Elevate your tech career with our programs AI Co-Lab and BYOP"
         brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_compv1.pdf"
         brochurePdf={pdfUrl}
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/BA-min.webp"
