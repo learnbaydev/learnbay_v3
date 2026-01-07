@@ -36,8 +36,8 @@ export const TabData = [
     ],
   },
   {
-    id: "GEN AI & Agentic AI",
-    title: "GEN AI & Agentic AI",
+    id: "GenAI & Agentic AI",
+    title: "GenAI & Agentic AI",
     courseName: [
       {
         CName: "GenAI & Agentic AI Master Program",
@@ -135,7 +135,7 @@ export const TabData = [
   },
   {
     id: "SDE",
-    title: "SDE",
+    title: "Software Developer Program",
     courseName: [
       {
         CName: "SDE Master Program With GenAI & Agentic AI",
@@ -155,8 +155,8 @@ export const TabData = [
     ],
   },
   {
-    id: "Data Sci & GenAI",
-    title: "Data Sci & GenAI",
+    id: "Data Science & GenAI",
+    title: "Data Science & GenAI",
     courseName: [
       {
         CName: "Advanced Data Science & GenAI Master Program",
