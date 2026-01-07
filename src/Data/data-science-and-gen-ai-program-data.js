@@ -6624,7 +6624,7 @@ export const NewDSAData = [
     Certificate: [
       {
         id: 1,
-        topnav: "IBM",
+        topnav: "IBM Certificate",
         img: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/dsai.webp",
 
         width: 300,
