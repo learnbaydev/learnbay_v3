@@ -216,7 +216,7 @@ data and business analytics master certification"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Analytics_and_Business_Analytics_with_GenAI_Master_Certification_Program.pdf"
           brochurePdf={pdfUrl}
         />
-        <LearningToPlacement time="240" guided="40" />
+        <LearningToPlacement time="240" guided="40" leftPart="3YEAR" />
 
         {/* <ProgramSection
           programSectionData={NewDSAData[0].ProgramSection}
