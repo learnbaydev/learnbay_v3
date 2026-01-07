@@ -20,8 +20,8 @@ const Other = dynamic(() =>
 const JobReadySection = dynamic(() =>
   import("@/components/CoursePage/NewDSA/JobReadySection/JobReadySection")
 );
-const DSASyllabus = dynamic(() =>
-  import("@/components/CoursePage/NewDSA/DSASyllabusSection/DSASyllabus")
+const SyllabusNew = dynamic(() =>
+  import("@/components/CoursePage/Syllabus/MasterSyllabus2025")
 );
 const NewCertificateSection = dynamic(() =>
   import("@/components/CoursePage/newCertificate/NewCertificate")
@@ -37,9 +37,7 @@ const NewSevenSection = dynamic(() =>
 const MentorsSection = dynamic(() =>
   import("@/components/course/MentorsSection/MentorsSection")
 );
-const DSAProjectSection = dynamic(() =>
-  import("../../components/CoursePage/NewDSA/ProjectSection/daba")
-);
+import GenAIProject from "@/components/CoursePage/genAiProject/GenAIProject";
 const ReviewSlider = dynamic(() =>
   import("@/components/Home/newUI/reviewSlider/reviewSlider")
 );
@@ -54,16 +52,16 @@ import {
   getDSABookingSoonDate,
 } from "@/Util/getDSABatchData";
 import AlumniCompanies from "@/components/CoursePage/newUICourse/AlumniCompanies";
-import LearningToPlacement from "@/components/CoursePage/newUICourse/LearningToPlacement/LearningToPlacement";
+import LearningToPlacement from "@/components/CoursePage/newUICourse/LearningToPlacementinfinity/LearningToPlacement";
 import Newheader from "@/components/CoursePage/newHeader/newHeader";
 import { MasterAI } from "@/Data/Schema/DataScienceAndAIMasterSchema";
 import FeeSection from "@/components/course/feeSection/FeeSectionCourse";
 import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/UpdatedCertificate";
-import HighlightsSection from "@/components/CoursePage/newUICourse/Support/HighlightsSection";
+import HighlightsSection from "@/components/CoursePage/FirstPart/Support_noimage/HighlightsSection";
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Analytics_and_Business_Analytics_with_GenAI_Master_Certification_Program_download.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI+%26+Agentic+AI+Master+Program+for+Tech+Professionals+(4)_compressed.pdf";
 
   let soonDate = getDSABookingSoonDate();
   let laterDate = getDSABookingLaterDate();
@@ -73,65 +71,62 @@ const NewDSA = ({ DSADataJson }) => {
   return (
     <>
       <Head>
-        <title>
-          Data Analyst & Business Analytics Master Program - Learnbay
-        </title>
+        <title>GenAI Professional Developer Course Training - Learnbay</title>
         <meta
           name="description"
-          content="Advance your career with Learnbay’s Data & Business Analytics course. Build in-demand skills, work on live projects & get placement assistance. Join today!"
+          content="Get certified in GenAI & Agentic AI. Learn from experts, work on industry projects, and upgrade your AI skills designed for working professionals. Join now!
+"
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="data analytics master certification,
-business analytics master certification,
-data analytics and business analytics certification,
-data analytics master certification program,
-business analytics master certification program,
-data analytics and business analytics certification course,
-data analytics and business analytics master certification,
-data and business analytics master certification"
+          content="Generative AI and Agentic AI certification,
+Generative AI certification,
+Agentic AI certification,
+Generative AI certification for working professionals,
+Generative AI and Agentic AI course,
+Generative AI and Agentic AI courses,
+Generative AI and agentic AI,
+Agentic AI certification for working professionals,
+Generative AI and Agentic AI training,
+Generative AI and Agentic AI course for working professionals
+
+"
         />
         {/* <!-- Facebook Meta Tags --> */}
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/data-analytics-and-business-analytics-master"
+          content="https://www.learnbay.co/artificial-intelligence/genai-software-developers"
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Data Analyst & Business Analytics Master Program - Learnbay"
+          content="GenAI Professional Developer Course Training - Learnbay"
         />
         <meta
           property="og:description"
-          content="Advance your career with Learnbay’s Data & Business Analytics course. Build in-demand skills, work on live projects & get placement assistance. Join today!"
+          content="Get certified in GenAI & Agentic AI. Learn from experts, work on industry projects, and upgrade your AI skills designed for working professionals. Join now!"
         />
         <meta
           property="og:image"
           content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
-        {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="learnbay.co" />
         <meta name="twitter:site" content="@Learnbay" />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/datascience/data-analytics-and-business-analytics-master"
+          content="https://www.learnbay.co/artificial-intelligence/genai-software-developers"
         />
         <meta
           name="twitter:title"
-          content="Data Analyst & Business Analytics Master Program - Learnbay"
+          content="GenAI Professional Developer Course Training - Learnbay"
         />
         <meta
           name="twitter:description"
-          content="Advance your career with Learnbay’s Data & Business Analytics course. Build in-demand skills, work on live projects & get placement assistance. Join today!"
+          content="Get certified in GenAI & Agentic AI. Learn from experts, work on industry projects, and upgrade your AI skills designed for working professionals. Join now!"
         />
-        <meta
-          name="twitter:image"
-          content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
-        />
-
         <meta
           name="twitter:image"
           content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
@@ -141,44 +136,47 @@ data and business analytics master certification"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
         />
         <link
+          rel="icon"
+          href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
+        />
+        <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/data-analytics-and-business-analytics-master"
+          href="https://www.learnbay.co/artificial-intelligence/genai-software-developers"
         />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `{
       "@context": "http://schema.org",
-  "@type": "Course",
-  "name": "Data Analytics and Business Analytics Master Certification Program",
-  "description": "Advance your career with Learnbay’s Data & Business Analytics course. Build in-demand skills, work on live projects & get placement assistance. Join today!",
-  "url": "https://www.learnbay.co/datascience/data-analytics-and-business-analytics-master",
-  "offers": {
-    "@type": "offer",
-    "price": "159000",
-    "pricecurrency": "INR",
-    "category": "Educational"
-  },
-   "provider": {
+      "@type": "Course",
+      "name": "GenAI Professional Developer Course Training - Learnbay",
+      "description": "Get certified in GenAI & Agentic AI. Learn from experts, work on industry projects, and upgrade your AI skills designed for working professionals. Join now!",
+      "url": "https://www.learnbay.co/artificial-intelligence/genai-software-developers",
+      "offers": {
+        "@type": "offer",
+        "price": "95000",
+        "pricecurrency": "INR",
+        "category": "Educational"
+      },
+      "provider": {
         "@type": "Organization",
         "name": "Learnbay",
         "Url": "https://www.learnbay.co/"
       },
-  "coursePrerequisites": "There are no prerequisites for the Data Analytics and Business Analytics Master Certification Program, as all modules are beginner-friendly and are taught from scratch. We provide a special bootcamp for non-programmers with this course.",
-  "hasCourseInstance": [
-    {
-      "@type": "CourseInstance",
-      "courseMode": "Online",
-      "courseWorkload": "P9M",
-      "courseFee": {
-        "@type": "PriceSpecification",
-        "price": "₹ 1,59,000 + 18% GST",
-        "priceCurrency": "INR"
-      }
-    }
-  ]
-    }
-`,
+      "coursePrerequisites": "You should know about Python, Machine Learning, & basic Deep Learning before joining the program.",
+      "hasCourseInstance": [
+        {
+          "@type": "CourseInstance",
+          "courseMode": "Online",
+          "courseWorkload": "P13W",
+          "courseFee": {
+            "@type": "PriceSpecification",
+            "price": "₹ 95,000 + 18% GST",
+            "priceCurrency": "INR"
+          }
+        }
+      ]
+    }`,
           }}
         />
 
@@ -196,6 +194,7 @@ data and business analytics master certification"
           interstedInHide={true}
         />
         <Newheader
+          violet={true}
           title1={NewDSAData[0].header[0].title1}
           orgTitle={NewDSAData[0].header[0].orgTitle}
           title={NewDSAData[0].header[0].title}
@@ -208,16 +207,15 @@ data and business analytics master certification"
           descrption={NewDSAData[0].header[0].descrption}
           svgDSA={NewDSAData[0].header[0].svgDSA}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Analytics_and_Business_Analytics_with_GenAI_Master_Certification_Program.pdf"
+          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI+%26+Agentic+AI+Master+Program+for+Tech+Professionals+(4)_compressed.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
         <AlumniCompanies
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Analytics_and_Business_Analytics_with_GenAI_Master_Certification_Program.pdf"
+          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI+%26+Agentic+AI+Master+Program+for+Tech+Professionals+(4)_compressed.pdf"
           brochurePdf={pdfUrl}
         />
-        <LearningToPlacement time="240" guided="40" leftPart="3YEAR" />
-
+        <LearningToPlacement time="300" guided="40" />
         {/* <ProgramSection
           programSectionData={NewDSAData[0].ProgramSection}
           dataScienceCounselling={true}
@@ -225,42 +223,35 @@ data and business analytics master certification"
           upSkillingHide={true}
         /> */}
         {/* <DSAPractical /> */}
-        <HighlightsSection />
-
+        <HighlightsSection aiCloab={true} />
         <AnimationNew />
         <JobReadySection />
         <ReviewSlider idss="eautK0odE7Q" showRealStories={true} />
         <MentorsSection />
-        <DSAProjectSection
-          projectSection={NewDSAData[0].projectSection}
-          dataScience={true}
-          interstedInHide={true}
-          titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Analytics_and_Business_Analytics_with_GenAI_Master_Certification_Program.pdf"
-          brochurePdf={pdfUrl}
-        />
+        <GenAIProject genAiData={NewDSAData[0].genAiData} Duration={true} />
         <Other />
-        <DSASyllabus
-          sections={NewDSAData[0].sections}
+        <SyllabusNew
+          masterSyllabusMobile={NewDSAData[0].masterSyllabusMobile}
+          onlyGENAIPage={true}
+          dataScienceCounselling={true}
           dataScience={true}
-          interstedInHide={true}
-          titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Analytics_and_Business_Analytics_with_GenAI_Master_Certification_Program.pdf"
+          titleCourse=""
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/GenAI+%26+Agentic+AI+Master+Program+for+Tech+Professionals+2025_compressed+.pdf"
           brochurePdf={pdfUrl}
-          downloadBrochure={true}
+          buttonHide={true}
+          interstedInHide={true}
+          genAIIIT={true}
         />
-
         <UpdatedCertificate data={NewDSAData[0].Certificate} />
         {/* <Certificate
           noTabs={true}
           data={NewDSAData[0].certificateNew}
           DSAFresherCertHeading={true}
         /> */}
-
         {/* <NewCertificateSection certificateNew={NewDSAData[0].certificateNew} /> */}
         <DSAFeeSection
-          Fee="₹ 1,59,000 "
-          FeeEmi="₹ 13,250/ month"
+          Fee="₹ 1,59,000"
+          FeeEmi="₹ 7,916/ month"
           // Hybrid Classes
           hybridFee="₹ 1,55,000"
           hybridEmi="₹ 10,161/ month"
@@ -294,7 +285,6 @@ data and business analytics master certification"
           third="Block your seat"
           // greenButton={true}
         />
-
         {/* <FAQNew FAQNewData={NewDSAData[0].faq} background={true} /> */}
         {/* <Content
           dataScienceCounselling={true}
@@ -317,7 +307,7 @@ data and business analytics master certification"
 export default NewDSA;
 
 export async function getStaticProps() {
-  const module = await import("../../Data/datasbadata");
+  const module = await import("../Data/GenAIandAgenticAIMasterProgram-Data");
   const data = module.default;
 
   const DSADataJson = JSON.stringify(data, (key, value) =>

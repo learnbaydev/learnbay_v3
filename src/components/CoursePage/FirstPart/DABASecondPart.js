@@ -2,7 +2,7 @@ import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
 import LJourney from "../LJourney/LJourney";
-const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
+const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus2025"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
 const WhatsappFloat = dynamic(() =>
   import("@/components/Global/WhatappsFloat/WhatsappFloat")
@@ -29,6 +29,10 @@ const PlacementCall = dynamic(() =>
 
 const NewProjectSection = dynamic(() =>
   import("../../Global/NewProjectSection/NewProjectSection")
+);
+
+const DSAFeeSection = dynamic(() =>
+  import("@/components/CoursePage/dsaFee/DSAFeeSection")
 );
 
 const FAQNew = dynamic(() => import("../FAQNew/FAQNew"));
@@ -79,7 +83,7 @@ const DABASecondPart = ({
     fetchPopup();
   }, []);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_comp.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA+2026+(1)_compressed.pdf";
   return (
     <div>
       <LJourney />
@@ -92,10 +96,11 @@ const DABASecondPart = ({
         brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}
+        onlyGENAIPage={true}
       />
       <ToolsCovered toolsdynamic={toolsdynamic} />
       <Certificate data={CertificateData} />
-      <FeeSection
+      {/* <FeeSection
         Fee="₹ 95,000"
         FeeEmi="₹ 5,277/ month"
         // Hybrid Classes
@@ -105,6 +110,25 @@ const DABASecondPart = ({
         emiType="Live online classes"
         duration1="12 Months"
         totalAmount1="₹ 95,000"
+        monthlyPayment1="₹14,094"
+        greenDown1="Hybrid Classes"
+        duration2="12 Months"
+        totalAmount2="₹2,10,000"
+        monthlyPayment2="₹12,455"
+        dataScienceCounselling={true}
+        iitGuwatiGen={true}
+        interstedInHide={true}
+      /> */}
+      <DSAFeeSection
+        Fee="₹ 1,20,000 "
+        FeeEmi="₹ 13,250/ month"
+        // Hybrid Classes
+        hybridFee="₹ 1,55,000"
+        hybridEmi="₹ 10,161/ month"
+        // EMIPOPUP
+        emiType="Live online classes"
+        duration1="12 Months"
+        totalAmount1="₹1,90,000"
         monthlyPayment1="₹14,094"
         greenDown1="Hybrid Classes"
         duration2="12 Months"

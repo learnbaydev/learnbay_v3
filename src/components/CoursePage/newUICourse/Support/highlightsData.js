@@ -54,6 +54,25 @@ const highlightsData = [
     tagColor: "#4D4FCD",
   },
   {
+    tag: "JOB READINESS & INTERVIEW CONFIDENCE",
+    heading: "BECOME JOB-READY WITH PRACTICAL EXPERIENCE",
+    headingColor: "#583EDB",
+    descColor: "#1C1C1C",
+    description:
+      "Practice real infrastructure and automation scenarios.Get expert feedback to confidently clear Data Science interviews.",
+    image:
+      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/img-4.webp",
+    width: 330,
+    height: 190,
+    top: 171,
+    right: -90,
+    bg: "linear-gradient(111deg, #F3EFFF 3.66%, #DDD5FF 98.21%)",
+    border: "#A259FF",
+    shadow: "rgba(162, 89, 255, 0.28)",
+    tagColor: "#A259FF",
+    duaration: "3 weeks",
+  },
+  {
     tag: "AI Co-lab",
     heading: "Build Startup-Driven Projects",
     headingColor: "#583EDB",

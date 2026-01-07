@@ -8,37 +8,6 @@ import { BsCheckCircle } from "react-icons/bs";
 function Gethire({ data, showimg, shoimgtwo }) {
   return (
     <div className={styles.boxmain}>
-      <div className={styles.box1}>
-        <h4>{data.title1}</h4>
-        <div>
-          <div className={styles.box1img}>
-            <Image src={data.image1} width={350} height={100} loading="lazy" alt="Domain Specialization in BFSI, HR, Sales/Marketing"/>
-          </div>
-          <div className={styles.points}>
-            {data.points.map((point, index) => (
-              <div className={styles.cercle} key={index}>
-                <BsCheckCircle className={styles.checkmark} />
-                <p>{point}</p>
-              </div>
-            ))}
-          </div>
-
-          {/* <div className={styles.firstboxlastimg}>
-            {showimg ? (
-              <Image
-                src={data.image10}
-                width={120}
-                height={100}
-                loading="lazy"
-                alt="devops"
-              />
-            ) : (
-              <Image src={data.image2} width={85} height={75} loading="lazy" alt="Cloud-devops" />
-            )}
-          </div> */}
-        </div>
-      </div>
-
       <div className={styles.box2}>
         <h4>{data.title2}</h4>
         <div className={styles.dots}>
@@ -50,7 +19,13 @@ function Gethire({ data, showimg, shoimgtwo }) {
           ))}
         </div>
         <div className={styles.gamimg}>
-          <Image src={data.image3} width={360} height={40} loading="lazy" alt="devops" />
+          <Image
+            src={data.image3}
+            width={360}
+            height={40}
+            loading="lazy"
+            alt="devops"
+          />
         </div>
         <div>
           {/* <div className={styles.box3limg}>

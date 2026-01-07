@@ -441,6 +441,252 @@ export const NewDSAData = [
         ],
       },
     ],
+    masterSyllabusMobile: [
+      {
+        Module0: {
+          title: "Module 1 - Cloud Basics and Linux Fundamentals",
+          hours: "20 Hours",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Gen_AI_syll.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ARTIFICIAL+INTELLIGENCE_down.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/build_ups.webp",
+          points:
+            "Applied AI Practitioner Program Foundations of AI Reasoning & LLM Workflows",
+          content: [
+            {
+              chap: {
+                title: "Cloud Basics and Linux Fundamentals",
+                desc: [
+                  "Linux Basics and System Administration",
+                  "Practical Exercises and Assignments",
+                  "Introduction to Cloud Computing (AWS, Azure, GCP)",
+                ],
+              },
+            },
+          ],
+          id: 0,
+          open: true,
+        },
+      },
+
+      {
+        Module1: {
+          title: "Module 2 – Python Programming Essentials",
+          hours: "25 Hours",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Python Programming Essentials",
+          content: [
+            {
+              chap: {
+                title: "Python Programming Essentials",
+                desc: [
+                  "Python Basics & Fundamentals",
+                  "Python Programming Foundations",
+                  "Data Handling and Structures",
+                  "Advanced Python Concepts",
+                  "Python for Cloud and DevOps",
+                ],
+              },
+            },
+          ],
+          id: 1,
+          open: false,
+        },
+      },
+
+      {
+        Module2: {
+          title: "Module 3 – AWS Cloud Practitioner",
+          hours: " 20–25 Hours",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "AWS Cloud Practitioner",
+          content: [
+            {
+              chap: {
+                title: "AWS Cloud Practitioner",
+                desc: [
+                  "Cloud Computing and AWS Fundamentals",
+                  "AWS Core Services Overview",
+                  "AWS Security, Identity, and Access Management",
+                  "Monitoring, Pricing, and Basic Operations",
+                ],
+              },
+            },
+          ],
+          id: 2,
+          open: false,
+        },
+      },
+
+      {
+        Module3: {
+          title: "Module 4 – AWS Associate & Professional Solutions Architect",
+          hours: "30 Hours",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "AWS Associate & Professional Solutions Architect",
+          content: [
+            {
+              chap: {
+                title: "AWS Associate & Professional Solutions Architect",
+                desc: [
+                  "AWS Compute and Networking Architecture",
+                  "Storage and Database Architecture",
+                  "Serverless and Advanced AWS Services",
+                  "High Availability, DR, and Migration",
+                  "Architecture Case Studies and Certification Preparation",
+                ],
+              },
+            },
+          ],
+          id: 3,
+          open: false,
+        },
+      },
+      {
+        Module4: {
+          title: "Module 5 - DevOps Mastery – Infrastructure & Automation ",
+          hours: "60 Hours",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "DevOps Mastery – Infrastructure & Automation ",
+          content: [
+            {
+              chap: {
+                title: "DevOps Mastery – Infrastructure & Automation ",
+                desc: [
+                  "Introduction to DevOps",
+                  "Server and Application Virtualization",
+                  "Version Control",
+                  "Continuous Integration (CI)",
+                  "Containerization and Modern Virtualization",
+                  "Build and Release Management",
+                  " Data Migration in DevOps and Multi-Cloud Environments",
+                  "Continuous Delivery (CD) & Deployment Automation",
+                  "Container Orchestration Basics",
+                  "Continuous Monitoring",
+                  "Resilience, High Availability, and Disaster Recovery in DevOps",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+      {
+        Module5: {
+          title: "Module 6 – Microsoft Azure Proficiency (Optional)",
+          hours: " 40 Hours",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Microsoft Azure Proficiency (Optional)",
+          content: [
+            {
+              chap: {
+                title: "Microsoft Azure Proficiency",
+                desc: [
+                  "Azure Administration & Identity Management",
+                  "Architecting Solutions on Azure",
+                  "Advanced Azure Specializations",
+                  "Certification Preparation for Azure",
+                ],
+              },
+            },
+          ],
+          id: 4,
+          open: false,
+        },
+      },
+
+      {
+        Module6: {
+          title: "Module 7 - MLOps Engineering ",
+          hours: "40 Hours",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "MLOps Engineering ",
+          content: [
+            {
+              chap: {
+                title: "MLOps Engineering ",
+                desc: [
+                  "Foundations of MLOps & Production ML Systems",
+                  "Cloud & Kubernetes-Based ML Deployment and Scaling",
+                  "Monitoring, Observability & Reliability for ML Systems",
+                  "Model Governance, CI/CD & Production MLOps",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+
+      {
+        Module13: {
+          title: "Cloud & DevOps for Network Professionals ",
+          hours: "6 weeks",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Cloud & DevOps for Network Professionals",
+          content: [
+            {
+              chap: {
+                title: "Cloud & DevOps for Network Professionals ",
+                desc: [
+                  "Week 1: Cloud networking architecture, VPC design principles, CIDR planning, subnets, routing tables, gateways, and end-to-end traffic flow.",
+                  "IPv6 addressing and dual-stack VPC setups, NAT Gateway and egress traffic design, Transit Gateway fundamentals, and multi-VPC design patterns for scalable architectures.",
+                  "Week 2: Load balancing concepts, DNS routing strategies, traffic distribution, auto-scaling integration, and hybrid connectivity fundamentals.",
+                  "Global routing acceleration with CloudFront and Global Accelerator, PrivateLink and VPC Endpoints, redundant VPN/Direct Connect routing with BGP, and advanced health checks with intelligent DNS routing policies.",
+                  "Week 3: Network security controls, security groups vs NACLs, access rules, flow logs, monitoring, and network-level troubleshooting.",
+                  "AWS Network Firewall and WAF essentials, IAM-based network restriction models, GuardDuty and IDS/IPS threat detection, TLS termination and encryption-in-transit, and certificate-based secure communication.",
+                  "Week 4: Service mesh fundamentals, east–west vs north–south traffic, Envoy decars, zero-trust architecture principles, microservices networking, and distributed traffic observability.",
+                  "Week 5: Network automation using Infrastructure-as-Code (Terraform, CloudFormation basics), reusable modules, automated VPC deployments, managing multi-environment networking, and CI/CD pipelines for network configuration delivery.",
+
+                  "Week 6: Cloud-native firewalls, advanced routing (transit gateways, peering), multi-cloud networking design, performance optimisation, cost-efficient traffic routing, log analytics for optimisation, and hands-on troubleshooting of production-like distributed systems.",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
+    ],
     certificateNew: [
       {
         id: 1,

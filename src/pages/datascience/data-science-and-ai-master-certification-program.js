@@ -61,10 +61,13 @@ import FeeSection from "@/components/course/feeSection/FeeSectionCourse";
 import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/UpdatedCertificate";
 import HighlightsSection from "@/components/CoursePage/newUICourse/Support/HighlightsSection";
 import ToolsCovered from "@/components/CoursePage/ToolsCovered/ToolsCovered";
+const SyllabusNew = dynamic(() =>
+  import("@/components/CoursePage/Syllabus/MasterSyllabus2025")
+);
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Science_and_Generative_AI_Master_Certification_Program%2Bdownload.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data+Science+and+GenAI+Master+Program+(3)_compressed.pdf";
   let soonDate = getDSABookingSoonDate();
   let laterDate = getDSABookingLaterDate();
   // console.log(getDSABookingSoonDate(new Date('2023-03-24')));
@@ -205,7 +208,7 @@ const NewDSA = ({ DSADataJson }) => {
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Science_and_Generative_AI_Master_Certification%2BProgram.pdf"
           brochurePdf={pdfUrl}
         />
-        <LearningToPlacement time="370" guided="60" />
+        <LearningToPlacement time="370" guided="60" leftPart="3YEAR" />
 
         {/* <ProgramSection
           programSectionData={NewDSAData[0].ProgramSection}
@@ -214,7 +217,7 @@ const NewDSA = ({ DSADataJson }) => {
           upSkillingHide={true}
         /> */}
         {/* <DSAPractical /> */}
-        <HighlightsSection />
+        <HighlightsSection aiCloab={true} />
 
         <AnimationNew />
         <JobReadySection />
@@ -227,8 +230,9 @@ const NewDSA = ({ DSADataJson }) => {
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Science_and_Generative_AI_Master_Certification%2BProgram.pdf"
           brochurePdf={pdfUrl}
         />
+
         <Other />
-        <DSASyllabus
+        {/*  <DSASyllabus
           sections={NewDSAData[0].sections}
           dataScience={true}
           interstedInHide={true}
@@ -236,6 +240,10 @@ const NewDSA = ({ DSADataJson }) => {
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Science_and_Generative_AI_Master_Certification%2BProgram.pdf"
           brochurePdf={pdfUrl}
           downloadBrochure={true}
+        />*/}
+        <SyllabusNew
+          masterSyllabusMobile={NewDSAData[0].masterSyllabusMobile}
+          onlyGENAIPage={true}
         />
 
         <ToolsCovered />
