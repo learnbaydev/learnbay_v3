@@ -346,7 +346,7 @@ export const courses = {
       certification: "Project Certification from IBM",
       description: "Designed For Tech Professionals",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/HR_cardssss.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/genainew12026.webp",
       link: "/datascience/data-science-and-ai-master-certification-program",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",

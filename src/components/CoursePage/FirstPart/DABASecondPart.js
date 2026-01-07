@@ -2,7 +2,7 @@ import BottomBar from "@/components/Global/BottomBar/BottomBar";
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
 import LJourney from "../LJourney/LJourney";
-const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus"));
+const SyllabusNew = dynamic(() => import("../Syllabus/MasterSyllabus2025"));
 const ToolsCovered = dynamic(() => import("../ToolsCovered/ToolsCovered"));
 const WhatsappFloat = dynamic(() =>
   import("@/components/Global/WhatappsFloat/WhatsappFloat")
@@ -92,6 +92,7 @@ const DABASecondPart = ({
         brochurePdf={pdfUrl}
         buttonHide={true}
         interstedInHide={true}
+        onlyGENAIPage={true}
       />
       <ToolsCovered toolsdynamic={toolsdynamic} />
       <Certificate data={CertificateData} />
