@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { IoIosArrowForward } from "react-icons/io";
-import { TabData } from "./TabData";
+import { TabData } from "./TabData2026";
 import styles from "./Tabs.module.css";
 
 const Tabs = ({ handleIcon }) => {
