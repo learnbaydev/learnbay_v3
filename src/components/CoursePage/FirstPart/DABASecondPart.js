@@ -120,7 +120,7 @@ const DABASecondPart = ({
         interstedInHide={true}
       /> */}
       <DSAFeeSection
-        Fee="₹ 1,59,000 "
+        Fee="₹ 1,20,000 "
         FeeEmi="₹ 13,250/ month"
         // Hybrid Classes
         hybridFee="₹ 1,55,000"

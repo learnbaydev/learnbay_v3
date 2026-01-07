@@ -1,12 +1,12 @@
 .boxmain {
   display: grid;
-  grid-template-columns: 30% 30% 30%;
+  grid-template-columns: 50% 50%;
   /* align-content: stretch; */
   margin: 30px 120px;
   gap: 60px;
   padding: 10px;
 }
-.threemain{
+.threemain {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -18,22 +18,21 @@
 }
 .iconsss {
   font-size: 40px;
- color: #72BC00;
+  color: #72bc00;
 }
 
-
-.box1{
-/* display: flex; */
-    flex-direction: column;
-    justify-content: center;
-    /* border: solid 2px; */
-    align-items: center;
-    padding: 20px;
-    background-image: linear-gradient(#0080FF17, #0080FF0A);
-    border-radius: 60px;
+.box1 {
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  /* border: solid 2px; */
+  align-items: center;
+  padding: 20px;
+  background-image: linear-gradient(#0080ff17, #0080ff0a);
+  border-radius: 60px;
 }
 .box1 h4 {
-  color: #0072BC;
+  color: #0072bc;
   text-align: center;
   /* font-family: Open Sans; */
   font-size: 20px;
@@ -43,13 +42,12 @@
   margin: 10px 0px;
 }
 
-.cercle{
-display: grid;
-    grid-template-columns: 5% 94%;
-    align-items:baseline;
-    gap: 10px;
+.cercle {
+  display: grid;
+  grid-template-columns: 5% 94%;
+  align-items: baseline;
+  gap: 10px;
 }
-
 
 .box1img {
   text-align: center;
@@ -65,22 +63,20 @@ display: grid;
   /* margin-bottom: 24px; */
 }
 
-
 .firstboxlastimg {
   text-align: end;
 }
 
-.checkmark{
+.checkmark {
   color: white;
-  background-color: #20A898;
+  background-color: #20a898;
   border-radius: 50%;
 }
 
+.cercle p {
+  color: #706f6f;
+  margin-top: 0px;
 
-.cercle p{
-color: #706f6f;
-margin-top: 0px;
-  
   font-size: 14.492px;
   font-style: normal;
   font-weight: 400;
@@ -88,22 +84,24 @@ margin-top: 0px;
   list-style: none;
 }
 
-
 /* BOX@ 2? */
 .box2 {
   /* display: flex; */
-    flex-direction: column;
-    justify-content: center;
-    /* border: solid 2px; */
-    align-items: center;
-    padding: 20px;
-    border-radius: 60px;
-  
-  background: linear-gradient(180deg, rgba(249, 150, 0, 0.09) 0%, rgba(249, 150, 0, 0.04) 100%);
+  flex-direction: column;
+  justify-content: center;
+  /* border: solid 2px; */
+  align-items: center;
+  padding: 20px;
+  border-radius: 60px;
 
+  background: linear-gradient(
+    180deg,
+    rgba(249, 150, 0, 0.09) 0%,
+    rgba(249, 150, 0, 0.04) 100%
+  );
 }
-.box2  h4{
-  color: #FE7A36;
+.box2 h4 {
+  color: #fe7a36;
   text-align: center;
   /* font-family: Open Sans; */
   font-size: 20px;
@@ -123,29 +121,26 @@ margin-top: 0px;
 }
 .boxmbl {
   display: none;
-  
 }
 
-.boticon  {
+.boticon {
   display: flex;
-    align-items: center;
-    /* text-align: center; */
-    justify-content: center;
-    gap: 8px;
-    color: #FE7A36;
-    font-size: 22px;
-    
-   
+  align-items: center;
+  /* text-align: center; */
+  justify-content: center;
+  gap: 8px;
+  color: #fe7a36;
+  font-size: 22px;
 }
-.onlyicon{
-margin-top:10px;
+.onlyicon {
+  margin-top: 10px;
 }
 .boticon p {
-color: #1C1C1C;
-font-size: 15px;
-font-style: normal;
-font-weight: 700;
-line-height: 243%;/* 53.46px */
+  color: #1c1c1c;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 243%; /* 53.46px */
 }
 .gamimg {
   text-align: center;
@@ -156,30 +151,31 @@ line-height: 243%;/* 53.46px */
   text-align: end;
 }
 
-
-/* @BOX# 333 */ 
+/* @BOX# 333 */
 
 .box3 {
   /* display: flex; */
-    flex-direction: column;
-    justify-content: center;
-    /* border: solid 2px; */
-    align-items: center;
-    padding: 20px;
-    border-radius: 60px;
-background: linear-gradient(180deg, rgba(45, 182, 33, 0.09) 0%, rgba(45, 182, 33, 0.04) 100%);
+  flex-direction: column;
+  justify-content: center;
+  /* border: solid 2px; */
+  align-items: center;
+  padding: 20px;
+  border-radius: 60px;
+  background: linear-gradient(
+    180deg,
+    rgba(45, 182, 33, 0.09) 0%,
+    rgba(45, 182, 33, 0.04) 100%
+  );
 }
-.box3  h4 {
+.box3 h4 {
   text-align: center;
-  color: #2DB621;
+  color: #2db621;
   font-size: 20px;
   font-style: normal;
   font-weight: 800;
   line-height: 126.5%;
   margin: 10px 0px;
 }
-
-
 
 .box3icons {
   display: flex;
@@ -191,16 +187,16 @@ background: linear-gradient(180deg, rgba(45, 182, 33, 0.09) 0%, rgba(45, 182, 33
 
 .box3icons span {
   color: #353535;
-    text-align: center;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 120%;
-    font-size: 14px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  font-size: 14px;
 }
 .logo {
   font-size: 46px;
   margin-bottom: 10px;
-  color: #2DB621;
+  color: #2db621;
 }
 .lastimg {
   text-align: end;
@@ -208,13 +204,13 @@ background: linear-gradient(180deg, rgba(45, 182, 33, 0.09) 0%, rgba(45, 182, 33
 .mobile {
   display: none;
 }
-.box1img img, .gamimg img{
+.box1img img,
+.gamimg img {
   width: 100%;
-    height: auto;
+  height: auto;
 }
 
-@media only screen and (min-width: 1480px){
- 
+@media only screen and (min-width: 1480px) {
   .box1img img {
     width: 320px;
     height: auto;
@@ -226,18 +222,15 @@ background: linear-gradient(180deg, rgba(45, 182, 33, 0.09) 0%, rgba(45, 182, 33
   .dots {
     padding-left: 48px;
   }
-
 }
 
-
-@media only screen and (max-width: 1280px){
-  
+@media only screen and (max-width: 1280px) {
   .box1img img {
     width: 270px;
     height: auto;
   }
   .gamimg img {
-    width:250px;
+    width: 250px;
     height: auto;
     /* margin-left: 24px; */
     mix-blend-mode: color-burn;
@@ -247,41 +240,37 @@ background: linear-gradient(180deg, rgba(45, 182, 33, 0.09) 0%, rgba(45, 182, 33
   }
 
   .boticon p {
-    color: #1C1C1C;
+    color: #1c1c1c;
     font-size: 13px;
     font-style: normal;
     font-weight: 700;
-    line-height: 243%;/* 53.46px */
-    }
-
-    .box3icons span {
-      color: #353535;
-        text-align: center;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 120%;
-        font-size: 12px;
-    }
-
-    .threemain{
-      display: grid;
-      grid-template-columns: 36% 40%;
-      align-items: center;
-      text-align: center;
-
-margin: 19px 7px 3px 16px;  
-    justify-content: center;
-      gap: 31px;
-    }
-    .boxmain {
-
-      /* align-content: stretch; */
-      margin: 30px 70px;
-
-    }
-    
+    line-height: 243%; /* 53.46px */
   }
 
+  .box3icons span {
+    color: #353535;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    font-size: 12px;
+  }
+
+  .threemain {
+    display: grid;
+    grid-template-columns: 36% 40%;
+    align-items: center;
+    text-align: center;
+
+    margin: 19px 7px 3px 16px;
+    justify-content: center;
+    gap: 31px;
+  }
+  .boxmain {
+    /* align-content: stretch; */
+    margin: 30px 70px;
+  }
+}
 
 /* @media only screen and (min-width: 1280px){
 .box1img img {
@@ -294,7 +283,7 @@ margin: 19px 7px 3px 16px;
 }
   
 } */
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px) {
   .box1 {
     display: block;
   }
@@ -303,7 +292,7 @@ margin: 19px 7px 3px 16px;
     height: auto;
   }
   .gamimg img {
-    width:  230px;
+    width: 230px;
     height: auto;
   }
   .boxmain {
@@ -311,27 +300,17 @@ margin: 19px 7px 3px 16px;
   }
 
   .boticon p {
-
     font-size: 12px;
-   
-
-    }
-    .cercle p{
-      font-size: 13px;
-    }
-    .box3icons span {
-      font-size: 10px;
-    }
-    
   }
- 
+  .cercle p {
+    font-size: 13px;
+  }
+  .box3icons span {
+    font-size: 10px;
+  }
+}
 
-
-
-
-
-
-@media only screen and (max-width: 641px){
+@media only screen and (max-width: 641px) {
   .boxmain {
     display: flex;
     flex-direction: column;
@@ -339,28 +318,28 @@ margin: 19px 7px 3px 16px;
     gap: 20px;
   }
 
-  .threemain{
+  .threemain {
     margin: 20px 0px 0px 0px;
     grid-template-columns: 43% 43%;
   }
-  
+
   .box1img img {
-  width: 268px;
-      height: auto;
+    width: 268px;
+    height: auto;
   }
-  
+
   .firstboxlastimg {
     display: none;
   }
-  .boxmbl{
+  .boxmbl {
     display: block;
   }
   .gamimg img {
     width: 250px;
     height: auto;
   }
-  .gamimg{
-  margin-bottom: 10px;
+  .gamimg {
+    margin-bottom: 10px;
   }
   .box3limg {
     display: none;
@@ -372,14 +351,13 @@ margin: 19px 7px 3px 16px;
     margin: 0px;
     padding: 0px 0px 2px 0px;
   }
-  .mobile{
+  .mobile {
     display: flex;
   }
-  .boticon p  {
+  .boticon p {
     font-size: 14px;
   }
   .box1img img {
-
     width: 300px;
     height: auto;
   }
@@ -389,22 +367,15 @@ margin: 19px 7px 3px 16px;
   .gamimg img {
     margin-left: 0px;
   }
-.gamimg {
-  margin: 20px 33px 26px 3px;;
+  .gamimg {
+    margin: 20px 33px 26px 3px;
+  }
 }
-  
+@media only screen and (max-width: 400px) {
+  .box1img img {
+    width: 260px;
+    height: auto;
   }
-  @media only screen and (max-width: 400px){
-    .box1img img {
+}
 
-      width: 260px;
-      height: auto;
-    }
-
-
-
-  }
-
-
-  /* Define unique colors for each box */
- 
+/* Define unique colors for each box */

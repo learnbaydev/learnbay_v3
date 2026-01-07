@@ -715,38 +715,38 @@ export const NewDSAData = [
           open: false,
         },
       },
-      {
-        Module10: {
-          title: "Module 9 - GenAI Essentials for Cloud & Devops",
-          hours: "30 Hours",
-          imageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
-          StartImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
-          endImageUrl:
-            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
-          points: "GenAI Essentials for Cloud & Devops",
-          content: [
-            {
-              chap: {
-                title: "GenAI Essentials for Cloud & Devops ",
-                desc: [
-                  "Introduction to Generative AI in DevOps",
-                  "Automating DevOps Workflows with Generative AI",
-                  "AI-Powered Monitoring & Incident Resolution",
-                  "Predictive Analytics and Resource Management",
-                  "Generative AI for Container Orchestration",
-                  "Cost Optimization and Budget Planning with AI",
-                  "Disaster Recovery and Security Automation with AI",
-                  "Customizing GenAI Tools for Cloud and DevOps Needs",
-                ],
-              },
-            },
-          ],
-          id: 5,
-          open: false,
-        },
-      },
+      // {
+      //   Module10: {
+      //     title: "Module 9 - GenAI Essentials for Cloud & Devops",
+      //     hours: "30 Hours",
+      //     imageUrl:
+      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+      //     StartImageUrl:
+      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+      //     endImageUrl:
+      //       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+      //     points: "GenAI Essentials for Cloud & Devops",
+      //     content: [
+      //       {
+      //         chap: {
+      //           title: "GenAI Essentials for Cloud & Devops ",
+      //           desc: [
+      //             "Introduction to Generative AI in DevOps",
+      //             "Automating DevOps Workflows with Generative AI",
+      //             "AI-Powered Monitoring & Incident Resolution",
+      //             "Predictive Analytics and Resource Management",
+      //             "Generative AI for Container Orchestration",
+      //             "Cost Optimization and Budget Planning with AI",
+      //             "Disaster Recovery and Security Automation with AI",
+      //             "Customizing GenAI Tools for Cloud and DevOps Needs",
+      //           ],
+      //         },
+      //       },
+      //     ],
+      //     id: 5,
+      //     open: false,
+      //   },
+      // },
     ],
     certificateNew: [
       {

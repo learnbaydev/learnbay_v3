@@ -56,24 +56,15 @@ const DABAFirstPart = ({ SecondSectionData, TestimonialData }) => {
   ];
 
   const BASecond = {
-    title1: "Domain Specialization",
-    image1:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ds-two.webp",
-    points: [
-      "Work in an industry like environment and gain practical hands-on experienc",
-      "12 Real-World + 4 Capstone Projects",
-    ],
-    image2:
-      "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/BA.webp",
     title2: "Job Roles You Can Target",
     jobRoles: [
+      { icon: <FaReact />, role: "AI Product Manager ", salary: " 38 LPA" },
       {
         icon: <TbBrandGoogleAnalytics />,
         role: "Business Analyst   ",
         salary: " 27 LPA",
       },
       { icon: <LuBrainCircuit />, role: "BI Engineer ", salary: "  20 LPA" },
-      { icon: <FaReact />, role: "Data Scientist ", salary: " 17 LPA" },
     ],
     image3:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Group-768-min.webp",
