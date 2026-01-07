@@ -834,10 +834,9 @@ export const courses = {
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IITPATNAIBM2026.webp",
 
       link: "/artificial-intelligence/applied-ai-practitioner-program",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
+      brochureLinks: "",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/IIT+Patna+Applied+AI+Program+(4)_compressed.pdf",
     },
 
     // {
