@@ -1172,10 +1172,9 @@ export const courses = {
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV32026.webp",
       link: "/artificial-intelligence/sde-master-program-gen-ai-agentic-ai",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSAI_for_Managers_and_Leaders.pdf",
+      brochureLinks: "",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_comp.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE+Master+Program+for+Tech+Professionals_compressed.pdf",
     },
 
     {
