@@ -159,9 +159,19 @@ export const TabData = [
     title: "Data Sci & GenAI",
     courseName: [
       {
-        CName: "",
-        hours: "",
-        url: "",
+        CName: "Advanced Data Science & GenAI Master Program",
+        hours: "13 months",
+        url: "/datascience/data-science-and-ai-master-certification-program",
+      },
+      {
+        CName: "Data Science & GenAI Program ",
+        hours: "9 months ",
+        url: "/data-science-and-genai-program",
+      },
+      {
+        CName: "GenAI & Agentic AI Master Certification Program",
+        hours: "9 months",
+        url: "/gen-ai-and-agentic-ai-master-program",
       },
     ],
   },
@@ -170,9 +180,9 @@ export const TabData = [
     title: "Master's Degree",
     courseName: [
       {
-        CName: "",
-        hours: "",
-        url: "",
+        CName: "Master's Degree in CS: Data Science and Generative AI",
+        hours: "18 months",
+        url: "/datascience/data-science-and-ai-masters-in-cs",
       },
     ],
   },
