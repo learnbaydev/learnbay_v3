@@ -91,9 +91,9 @@ export const TabData = [
         url: "/cloud-and-devOps-for-system-administrators",
       },
       {
-        CName: "GenAI & Agentic AI For Cloud & DevOps ",
+        CName: "Advanced Cloud & DevOps Program ",
         hours: "5 months",
-        url: "/genai-agenticai-for-cloud-devops",
+        url: "/advanced-cloud-and-devops-program",
       },
       {
         CName: "Cloud & DevOps for IT Support & IT Operations",
