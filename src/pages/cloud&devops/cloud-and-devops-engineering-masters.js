@@ -212,7 +212,7 @@ Cloud and DevOps master certification"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud_and_Devops_Master_Certification.pdf"
           brochurePdf={pdfUrl}
         />
-        <LearningToPlacement time="380" guided="40" />
+        <LearningToPlacement time="380" guided="40" leftPart="3YEAR" />
 
         {/* <ProgramSection
           programSectionData={NewDSAData[0].ProgramSection}
