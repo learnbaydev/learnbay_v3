@@ -94,7 +94,7 @@ export const courses = {
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_compv1.pdf",
       brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_comp.pdf",
+        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA+2026+(1)_compressed.pdf",
     },
 
     //   {
@@ -643,7 +643,7 @@ export const courses = {
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_compv1.pdf",
     //   brochurePdfs:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_comp.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA+2026+(1)_compressed.pdf",
     // },
     // {
     //   title: "Data Science & Generative AI for BFSI Professionals",
@@ -875,7 +875,7 @@ export const courses = {
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_compv1.pdf",
     //   brochurePdfs:
-    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_comp.pdf",
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA+2026+(1)_compressed.pdf",
     // },
 
     // {

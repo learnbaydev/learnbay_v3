@@ -83,7 +83,7 @@ const DABASecondPart = ({
     fetchPopup();
   }, []);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Analytics+and+Business+Analytics+with+GenAI+Certification+Program_comp.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/DABA+2026+(1)_compressed.pdf";
   return (
     <div>
       <LJourney />
