@@ -107,6 +107,14 @@ const DABAFirstPart = ({ SecondSectionData, TestimonialData }) => {
         description:
           "Master the latest technologies, ensuring you stay ahead in the fast-evolving world of data and unlock new career opportunities.",
       },
+      {
+        imgSrc:
+          "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Technical+Support2026.webp",
+        imgAlt: "image",
+        title: "Interview Preparation and Career Support",
+        description:
+          "You will be guided through mock interviews and receive personalized career advice to help you land your dream job.",
+      },
     ],
     bannerImage: {
       src: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/guwati-job.webp",
