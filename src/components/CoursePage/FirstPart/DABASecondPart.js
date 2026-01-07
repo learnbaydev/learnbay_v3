@@ -31,6 +31,10 @@ const NewProjectSection = dynamic(() =>
   import("../../Global/NewProjectSection/NewProjectSection")
 );
 
+const DSAFeeSection = dynamic(() =>
+  import("@/components/CoursePage/dsaFee/DSAFeeSection")
+);
+
 const FAQNew = dynamic(() => import("../FAQNew/FAQNew"));
 const Footer = dynamic(() => import("@/components/Global/Footer/Footer"));
 const Content = dynamic(() => import("../Content/content"));
@@ -96,7 +100,7 @@ const DABASecondPart = ({
       />
       <ToolsCovered toolsdynamic={toolsdynamic} />
       <Certificate data={CertificateData} />
-      <FeeSection
+      {/* <FeeSection
         Fee="₹ 95,000"
         FeeEmi="₹ 5,277/ month"
         // Hybrid Classes
@@ -106,6 +110,25 @@ const DABASecondPart = ({
         emiType="Live online classes"
         duration1="12 Months"
         totalAmount1="₹ 95,000"
+        monthlyPayment1="₹14,094"
+        greenDown1="Hybrid Classes"
+        duration2="12 Months"
+        totalAmount2="₹2,10,000"
+        monthlyPayment2="₹12,455"
+        dataScienceCounselling={true}
+        iitGuwatiGen={true}
+        interstedInHide={true}
+      /> */}
+      <DSAFeeSection
+        Fee="₹ 1,59,000 "
+        FeeEmi="₹ 13,250/ month"
+        // Hybrid Classes
+        hybridFee="₹ 1,55,000"
+        hybridEmi="₹ 10,161/ month"
+        // EMIPOPUP
+        emiType="Live online classes"
+        duration1="12 Months"
+        totalAmount1="₹1,90,000"
         monthlyPayment1="₹14,094"
         greenDown1="Hybrid Classes"
         duration2="12 Months"
