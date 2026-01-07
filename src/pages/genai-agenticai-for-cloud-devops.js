@@ -61,7 +61,7 @@ import HighlightsSection from "@/components/CoursePage/FirstPart/Support_noimage
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Managers+and+Leaders+GenAI+and+Agentic+AI+Program2025_compressed.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Gen+AI+%26+Agentic+AI+for+Cloud+%26+DevOps+(4)_compressed.pdf";
 
   let soonDate = getDSABookingSoonDate();
   let laterDate = getDSABookingLaterDate();
@@ -207,12 +207,12 @@ Generative AI and Agentic AI course for working professionals
           descrption={NewDSAData[0].header[0].descrption}
           svgDSA={NewDSAData[0].header[0].svgDSA}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Managers+and+Leaders+GenAI+and+Agentic+AI+Program2025_compressed.pdf"
+          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Gen+AI+%26+Agentic+AI+for+Cloud+%26+DevOps+(4)_compressed.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
         <AlumniCompanies
-          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Managers+and+Leaders+GenAI+and+Agentic+AI+Program2025_compressed.pdf"
+          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Gen+AI+%26+Agentic+AI+for+Cloud+%26+DevOps+(4)_compressed.pdf"
           brochurePdf={pdfUrl}
         />
         <LearningToPlacement time="150" guided="10" />
