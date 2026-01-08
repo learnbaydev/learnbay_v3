@@ -77,7 +77,7 @@ const ThirdSection = ({
                     onClick={() => {
                       setTitleCourse(heading);
                       setBrochureLinks(brochureLink);
-                      setBrcohurepdfs(brochurePdf)
+                      setBrcohurepdfs(brochurePdf);
                       popupShow();
                     }}
                   >
