@@ -148,7 +148,7 @@ function SecondNavbar({
           />
         </Link>
         <div className={styles.innerP}>
-          <Link href="#alumni">
+          <Link href="/reviews">
             <p
               className={
                 activeSection === "alumni" ? styles.active : styles.inactive
