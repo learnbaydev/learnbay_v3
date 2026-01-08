@@ -21,7 +21,7 @@ const ThirdSection = ({
     setPopups(true);
   };
   return (
-    <div className={`${styles.program} wrapper`} id="eligibility">
+    <div className={`${styles.program}`} id="eligibility">
       <Popup
         trigger={popups}
         setTrigger={setPopups}
