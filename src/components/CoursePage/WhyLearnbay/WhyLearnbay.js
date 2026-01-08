@@ -392,17 +392,19 @@ function WhyLearnbay({
                   Work in an industry like environment and gain practical
                   hands-on experience
                 </p>
-                {CloudContent ? (<p className={Styles.para}>
-                  <FaCheckCircle className={Styles.checkCircle} />
-                  Gain the work experience of DevOps Engineer with dedicated
-                  project mentors from industry.
-                </p>) : (
-                <p className={Styles.para}>
-                  <FaCheckCircle className={Styles.checkCircle} />
-                  Gain the work experience of data scientist with dedicated
-                  project mentors from industry.
-                </p>
-                  )}
+                {CloudContent ? (
+                  <p className={Styles.para}>
+                    <FaCheckCircle className={Styles.checkCircle} />
+                    Gain the work experience of DevOps Engineer with dedicated
+                    project mentors from industry.
+                  </p>
+                ) : (
+                  <p className={Styles.para}>
+                    <FaCheckCircle className={Styles.checkCircle} />
+                    Gain the work experience of data scientist with dedicated
+                    project mentors from industry.
+                  </p>
+                )}
               </div>
             </div>
           </div>
@@ -431,7 +433,6 @@ function WhyLearnbay({
                     width="350"
                     height="212"
                     alt="profile-Img"
-            
                     style={{ boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px" }}
                   />
                 ) : (

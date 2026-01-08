@@ -1,6 +1,7 @@
 .program {
   text-align: center;
-  padding: 120px 100px 70px 100px;
+  /* padding: 120px 100px 70px 100px; */
+  /* border: "12px solid red"; */
 }
 .icons {
   font-size: 30px;
@@ -150,7 +151,7 @@
     font-size: 12px;
   }
   .boxWrap {
-    gap: 80px 90px ;
+    gap: 80px 90px;
   }
 }
 

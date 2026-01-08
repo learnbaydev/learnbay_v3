@@ -148,7 +148,7 @@ function SecondNavbar({
           />
         </Link>
         <div className={styles.innerP}>
-          <Link href="#alumni">
+          <Link href="/reviews">
             <p
               className={
                 activeSection === "alumni" ? styles.active : styles.inactive
@@ -157,7 +157,7 @@ function SecondNavbar({
               Alumni
             </p>
           </Link>
-          {hideProjectLab ? ("") : (
+          {/* {hideProjectLab ? ("") : (
           <Link href="#ProjectLab">
             <p
               className={
@@ -167,7 +167,7 @@ function SecondNavbar({
               Project Lab
             </p>
           </Link>
-          )}
+          )} */}
           <Link href="#curriculum">
             <p
               className={

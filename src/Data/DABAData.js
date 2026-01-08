@@ -860,7 +860,7 @@ export const DABAData = [
           {
             id: 0,
             ques: "What is the total Fee for the Business Analytics Program? ",
-            ans: "The total program fee for the Business Analytics with Domain Specialization is INR 95,000 + 18% GST.",
+            ans: "The total program fee for the Business Analytics with Domain Specialization is INR 1,20,000 + 18% GST.",
             open: true,
           },
           {

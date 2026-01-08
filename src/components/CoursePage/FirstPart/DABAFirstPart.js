@@ -14,7 +14,7 @@ const TrainerSection = dynamic(() =>
 );
 
 const WhoIsProgram = dynamic(() => import("../WhoIsProgram/WhoIsProgram"));
-const WhyLearnbay = dynamic(() => import("../WhyLearnbay/WhyLearnbay"));
+// const WhyLearnbay = dynamic(() => import("../WhyLearnbay/WhyLearnbay"));
 const GetHire = dynamic(() => import("../../Home/GetHire/GetHire"));
 const ContactConsellor = dynamic(() =>
   import("../ContactCounsellor/ContactCounsellor")
@@ -166,7 +166,7 @@ const DABAFirstPart = ({ SecondSectionData, TestimonialData }) => {
         third="Early to mid-career professionals interested in Business analytics"
         forth="Developing skills in Business analytics for future opportunities"
       />
-      <WhyLearnbay idss="ZPOTy4PEnNU" />
+      {/* <WhyLearnbay idss="ZPOTy4PEnNU" /> */}
       <GetHire />
       <ContactConsellor
         dataScience={true}

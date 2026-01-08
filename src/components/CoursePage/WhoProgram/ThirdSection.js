@@ -21,7 +21,7 @@ const ThirdSection = ({
     setPopups(true);
   };
   return (
-    <div className={`${styles.program} wrapper`} id="eligibility">
+    <div className={`${styles.program}`} id="eligibility">
       <Popup
         trigger={popups}
         setTrigger={setPopups}
@@ -49,7 +49,7 @@ const ThirdSection = ({
         </div>
       </Popup>
 
-      <h2 className={styles.h2}>Choose Your Domain Elective</h2>
+      {/* <h2 className={styles.h2}>Choose Your Domain Elective</h2>
       <div className={styles.programWrap}>
         <div className={styles.left}>
           <Image
@@ -77,7 +77,7 @@ const ThirdSection = ({
                     onClick={() => {
                       setTitleCourse(heading);
                       setBrochureLinks(brochureLink);
-                      setBrcohurepdfs(brochurePdf)
+                      setBrcohurepdfs(brochurePdf);
                       popupShow();
                     }}
                   >
@@ -91,7 +91,7 @@ const ThirdSection = ({
             })}
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
