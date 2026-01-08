@@ -77,7 +77,7 @@ const DABAFirstPart = ({ SecondSectionData, TestimonialData }) => {
       { icon: <FaLinkedinIn />, text: "LinkedIn Profile Review" },
       { icon: <BsPeople />, text: "Mock Interview Sessions" },
     ],
-    formbl: [{ icon: <BsPeople />, text: "Mock Interview Sessions" }],
+    formbl: [],
     image5:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/cloud-second-min.webp",
   };
