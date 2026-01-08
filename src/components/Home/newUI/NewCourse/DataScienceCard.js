@@ -276,17 +276,16 @@ const DataScienceCard = ({
         ? renderSwiper(courses.DABA, "Managers / HR / BFSI  ", styles.BADA)
         : renderDesktop(courses.DABA, "", styles.BADA)}
       {/* Cloud Computing & Software Development Section */}
-      {/*  {isMobile
-        ? renderSwiper(
-            courses.CloudS,
-            "Cloud Computing & Software Development",
-            styles.CloudS
-          )
+      {isMobile
+        ? renderSwiper(courses.CloudDevops, "Cloud & DevOps", styles.CloudS)
+        : renderDesktop(courses.CloudDevops, "Cloud & DevOps", styles.CloudS)}
+      {isMobile
+        ? renderSwiper(courses.sde, "Software Developer Program", styles.CloudS)
         : renderDesktop(
-            courses.CloudS,
-            "Cloud Computing & Software Development",
+            courses.sde,
+            "Software Developer Program",
             styles.CloudS
-          )} */}
+          )}
     </div>
   );
 };

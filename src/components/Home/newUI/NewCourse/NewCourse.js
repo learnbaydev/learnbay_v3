@@ -679,6 +679,7 @@ const NewCourse = ({
           </div>
 
           <div>
+            <div className={styles.CourseCardHead}>{renderCourses()}</div>
             {isMobile && activeTab === "all" && (
               <DataScienceCard
                 data={dataScience}
@@ -687,8 +688,6 @@ const NewCourse = ({
               />
             )}
             {/* Render DataScienceCard only on mobile */}
-
-            <div className={styles.CourseCardHead}>{renderCourses()}</div>
           </div>
 
           {/* Render the Master Course after the View More button */}

@@ -754,7 +754,7 @@ export const courses = {
       certification: "Project Certification form IBM",
       description: "For Working Professionals",
       image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV42026.webp",
+        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/gennew202608.webp",
 
       link: "/gen-ai-and-agentic-ai-master-program",
       brochureLinks:
