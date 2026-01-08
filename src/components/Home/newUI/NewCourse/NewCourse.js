@@ -56,9 +56,9 @@ const NewCourse = ({
     let selectedCourses = courses[activeTab] || [];
 
     // If it's mobile and 'all' tab is active, hide the 'all' courses
-    if (isMobile && activeTab === "all") {
-      selectedCourses = []; // Clear courses when 'all' is active in mobile
-    }
+    // if (isMobile && activeTab === "all") {
+    //   selectedCourses = []; // Clear courses when 'all' is active in mobile
+    // }
 
     // Slice the array to show only the number of visible courses
     const visibleCourses = selectedCourses.slice(0, visibleCount);
