@@ -27,35 +27,35 @@ export const courses = {
     //   brochurePdfs:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Executive-program-iit.pdf",
     // },
-    {
-      title: "Generative AI & Machine Learning Program",
-      duration: "9 months | 2 capstone Projects",
-      certification: "Project Certification form IBM",
-      description: "Inclusive of Generative AI",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ai_ML_cardss.webp",
+    // {
+    //   title: "Generative AI & Machine Learning Program",
+    //   duration: "9 months | 2 capstone Projects",
+    //   certification: "Project Certification form IBM",
+    //   description: "Inclusive of Generative AI",
+    //   image:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ai_ML_cardss.webp",
 
-      link: "/datascience/artificial-intelligence-certification-course",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf",
-      brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf",
-    },
+    //   link: "/datascience/artificial-intelligence-certification-course",
+    //   brochureLinks:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_compv1.pdf",
+    //   brochurePdfs:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/AIML+Program_comp.pdf",
+    // },
 
-    {
-      title:
-        "Executive Program in Data Science & Generative AI for Managers & Leaders",
-      duration: "11 months | 3 Projects",
-      certification: "Project Certification form IBM",
-      description: "For Manager & Team leaderS",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cardss.webp",
-      link: "/datascience/data-science-ai-for-managers",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_compv1.pdf",
-      brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_comp.pdf",
-    },
+    // {
+    //   title:
+    //     "Executive Program in Data Science & Generative AI for Managers & Leaders",
+    //   duration: "11 months | 3 Projects",
+    //   certification: "Project Certification form IBM",
+    //   description: "For Manager & Team leaderS",
+    //   image:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cardss.webp",
+    //   link: "/datascience/data-science-ai-for-managers",
+    //   brochureLinks:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_compv1.pdf",
+    //   brochurePdfs:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_comp.pdf",
+    // },
 
     // {
     //   title: "Data Analytics Certification Program",
@@ -228,90 +228,88 @@ export const courses = {
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
     //   brochurePdfs: "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/Data-Analytics-Certification.pdf",
     // },
-
-    {
-      title:
-        "Executive Program in Data Science & Generative AI for Managers & Leaders",
-      duration: "11 months | 3 Projects",
-      certification: "Project Certification form IBM",
-      description: "For Manager & Team leaderS",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cardss.webp",
-      link: "/datascience/data-science-ai-for-managers",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_compv1.pdf",
-      brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_comp.pdf",
-    },
-
-    {
-      title: "HR Analytics Certification Program",
-      duration: "5 months | 2 capstone Projects",
-      certification: "Project Certification form IBM",
-      description: "For HR Professional",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/HR_cardssss.webp",
-      link: "datascience/hr-analytics",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
-      brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/hr-analytics.pdf",
-    },
-    {
-      title: "Data Science & Generative AI for BFSI Professionals",
-      duration: "7 months | 2 capstone Projects",
-      certification: "Project Certification form IBM",
-      description: "For BFSI Professional",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cards.webp",
-      link: "/datascience/data-science-for-bfsi-professional",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
-      brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_compr.pdf",
-    },
+    // {
+    //   title:
+    //     "Executive Program in Data Science & Generative AI for Managers & Leaders",
+    //   duration: "11 months | 3 Projects",
+    //   certification: "Project Certification form IBM",
+    //   description: "For Manager & Team leaderS",
+    //   image:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cardss.webp",
+    //   link: "/datascience/data-science-ai-for-managers",
+    //   brochureLinks:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_compv1.pdf",
+    //   brochurePdfs:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Managers+%26+Leaders+Program_comp.pdf",
+    // },
+    // {
+    //   title: "HR Analytics Certification Program",
+    //   duration: "5 months | 2 capstone Projects",
+    //   certification: "Project Certification form IBM",
+    //   description: "For HR Professional",
+    //   image:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/HR_cardssss.webp",
+    //   link: "datascience/hr-analytics",
+    //   brochureLinks:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/HR+Analytics+Certification+Program.pdf",
+    //   brochurePdfs:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/hr-analytics.pdf",
+    // },
+    // {
+    //   title: "Data Science & Generative AI for BFSI Professionals",
+    //   duration: "7 months | 2 capstone Projects",
+    //   certification: "Project Certification form IBM",
+    //   description: "For BFSI Professional",
+    //   image:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/managers_cards.webp",
+    //   link: "/datascience/data-science-for-bfsi-professional",
+    //   brochureLinks:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
+    //   brochurePdfs:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_compr.pdf",
+    // },
   ],
 
   CloudS: [
-    {
-      title: "Data Structure Algorithms & System Design ",
-      duration: "9-10 Months",
-      certification: "Certification form Microsoft",
-      description: "with Gen-AI for Software Developers",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DSA-card_imgs.webp",
-      link: "/fullstack/dsa-system-design",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
-      brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf",
-    },
-    {
-      title: "Cloud Computing & DevOps Certification Program",
-      duration: "10 months | 3 Project",
-      certification: "Global Certification",
-      description: "Designed by industry experts",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cloud_Gens.webp",
-      link: "/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/IIT+cloud+and+devops_compressed.pdf",
-      brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/IIT+cloud+and+devops__.pdf",
-    },
-    {
-      title: "Cloud Computing & DevOps Certification Program",
-      duration: "6 months | 3 Project",
-      certification: "Global Certification",
-      description: "Designed by industry experts",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws.webp",
-      link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf",
-      brochurePdfs:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf",
-    },
+    // {
+    //   title: "Data Structure Algorithms & System Design ",
+    //   duration: "9-10 Months",
+    //   certification: "Certification form Microsoft",
+    //   description: "with Gen-AI for Software Developers",
+    //   image:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/DSA-card_imgs.webp",
+    //   link: "/fullstack/dsa-system-design",
+    //   brochureLinks:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/DSA.pdf",
+    //   brochurePdfs:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/downloadBrochure/data-dtructure-system-design.pdf",
+    // },
+    // {
+    //   title: "Cloud Computing & DevOps Certification Program",
+    //   duration: "10 months | 3 Project",
+    //   certification: "Global Certification",
+    //   description: "Designed by industry experts",
+    //   image:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Cloud_Gens.webp",
+    //   link: "/cloud&devops/executive-program-in-cloud-and-devops-by-iit-guwahati",
+    //   brochureLinks:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/IIT+cloud+and+devops_compressed.pdf",
+    //   brochurePdfs:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/IIT+cloud+and+devops__.pdf",
+    // },
+    // {
+    //   title: "Cloud Computing & DevOps Certification Program",
+    //   duration: "6 months | 3 Project",
+    //   certification: "Global Certification",
+    //   description: "Designed by industry experts",
+    //   image:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/micro_aws.webp",
+    //   link: "/cloud&devops/cloud-computing-and-devOps-certification-program",
+    //   brochureLinks:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-Prog.pdf",
+    //   brochurePdfs:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Certification-P.pdf",
+    // },
     // {
     //   title: "Professional Certificate in AWS Cloud Computing & Devops",
     //   duration: "18 months | 3 Capstone Project",
@@ -1286,19 +1284,19 @@ export const courses = {
     },
   ],
   manager: [
-    {
-      title:
-        "Executive Program in Data Science & Generative AI for Managers & Leaders",
-      duration: "11 months | 3 Projects",
-      certification: "Project Certification form IBM",
-      description: "For Manager & Team leader",
-      image:
-        "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Manager_cards.webp",
-      link: "/datascience/data-science-ai-for-managers",
-      brochureLinks:
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/DSAI_for_Managers_and_Leaders.pdf",
-      brochurePdfs: "/Brochure/DSAI_for_Managers_and_Leaders.pdf",
-    },
+    // {
+    //   title:
+    //     "Executive Program in Data Science & Generative AI for Managers & Leaders",
+    //   duration: "11 months | 3 Projects",
+    //   certification: "Project Certification form IBM",
+    //   description: "For Manager & Team leader",
+    //   image:
+    //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Manager_cards.webp",
+    //   link: "/datascience/data-science-ai-for-managers",
+    //   brochureLinks:
+    //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/UpdateBrochure/DSAI_for_Managers_and_Leaders.pdf",
+    //   brochurePdfs: "/Brochure/DSAI_for_Managers_and_Leaders.pdf",
+    // },
   ],
 };
 
