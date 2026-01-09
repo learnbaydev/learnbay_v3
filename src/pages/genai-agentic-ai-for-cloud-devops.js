@@ -71,41 +71,39 @@ const NewDSA = ({ DSADataJson }) => {
   return (
     <>
       <Head>
-        <title>GenAI Professional Developer Course Training - Learnbay</title>
+        <title>
+          GenAI and Agentic AI Program for Cloud & DevOps - Learnbay
+        </title>
         <meta
           name="description"
-          content="Get certified in GenAI & Agentic AI. Learn from experts, work on industry projects, and upgrade your AI skills designed for working professionals. Join now!
+          content="Become an AI-ready Cloud & DevOps engineer with Learnbay’s GenAI & Agentic AI program. Learn LLMs, agents, & build AI-powered CICD & ops workflows. Apply now.
 "
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="Generative AI and Agentic AI certification,
-Generative AI certification,
-Agentic AI certification,
-Generative AI certification for working professionals,
-Generative AI and Agentic AI course,
-Generative AI and Agentic AI courses,
-Generative AI and agentic AI,
-Agentic AI certification for working professionals,
-Generative AI and Agentic AI training,
-Generative AI and Agentic AI course for working professionals
+          content="genai and agentic ai course for cloud devops,
+generative ai certification for devops engineers,
+genai course for cloud and devops,
+agentic ai course for devops professionals,
+genai certification for cloud and devops
+
 
 "
         />
-        {/* <!-- Facebook Meta Tags --> */}
+
         <meta
           property="og:url"
-          content="https://www.learnbay.co/artificial-intelligence/genai-software-developers"
+          content="https://www.learnbay.co/genai-agentic-ai-for-cloud-devops"
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="GenAI Professional Developer Course Training - Learnbay"
+          content="GenAI and Agentic AI Program for Cloud & DevOps - Learnbay"
         />
         <meta
           property="og:description"
-          content="Get certified in GenAI & Agentic AI. Learn from experts, work on industry projects, and upgrade your AI skills designed for working professionals. Join now!"
+          content="Become an AI-ready Cloud & DevOps engineer with Learnbay’s GenAI & Agentic AI program. Learn LLMs, agents, & build AI-powered CICD & ops workflows. Apply now."
         />
         <meta
           property="og:image"
@@ -117,15 +115,15 @@ Generative AI and Agentic AI course for working professionals
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/artificial-intelligence/genai-software-developers"
+          content="https://www.learnbay.co/genai-agentic-ai-for-cloud-devops"
         />
         <meta
           name="twitter:title"
-          content="GenAI Professional Developer Course Training - Learnbay"
+          content="GenAI and Agentic AI Program for Cloud & DevOps - Learnbay"
         />
         <meta
           name="twitter:description"
-          content="Get certified in GenAI & Agentic AI. Learn from experts, work on industry projects, and upgrade your AI skills designed for working professionals. Join now!"
+          content="Become an AI-ready Cloud & DevOps engineer with Learnbay’s GenAI & Agentic AI program. Learn LLMs, agents, & build AI-powered CICD & ops workflows. Apply now."
         />
         <meta
           name="twitter:image"
@@ -141,20 +139,21 @@ Generative AI and Agentic AI course for working professionals
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/artificial-intelligence/genai-software-developers"
+          href="https://www.learnbay.co/genai-agentic-ai-for-cloud-devops"
         />
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `{
       "@context": "http://schema.org",
       "@type": "Course",
-      "name": "GenAI Professional Developer Course Training - Learnbay",
-      "description": "Get certified in GenAI & Agentic AI. Learn from experts, work on industry projects, and upgrade your AI skills designed for working professionals. Join now!",
-      "url": "https://www.learnbay.co/artificial-intelligence/genai-software-developers",
+      "name": "GenAI and Agentic AI Program for Cloud & DevOps - Learnbay",
+      "description": "Become an AI-ready Cloud & DevOps engineer with Learnbay’s GenAI & Agentic AI program. Learn LLMs, agents, & build AI-powered CICD & ops workflows. Apply now.",
+      "url": "https://www.learnbay.co/genai-agentic-ai-for-cloud-devops",
       "offers": {
         "@type": "offer",
-        "price": "95000",
+        "price": "120000",
         "pricecurrency": "INR",
         "category": "Educational"
       },
@@ -168,22 +167,15 @@ Generative AI and Agentic AI course for working professionals
         {
           "@type": "CourseInstance",
           "courseMode": "Online",
-          "courseWorkload": "P13W",
+          "courseWorkload": "P5M",
           "courseFee": {
             "@type": "PriceSpecification",
-            "price": "₹ 95,000 + 18% GST",
+            "price": "₹ 1,20,000 + 18% GST",
             "priceCurrency": "INR"
           }
         }
       ]
     }`,
-          }}
-        />
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(MasterAI),
           }}
         />
       </Head>

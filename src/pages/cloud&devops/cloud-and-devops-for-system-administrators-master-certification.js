@@ -51,58 +51,56 @@ const NewDSA = ({ DSADataJson }) => {
   return (
     <>
       <Head>
-        <title>
-          AI Powered Cloud and DevOps Engineering Masters Program - Learnbay
-        </title>
+        <title>AI-Powered Cloud And DevOps Engineering Course - Learnbay</title>
         <meta
           name="description"
-          content="Build a future-proof tech career with Learnbay's Cloud & DevOps Engineering Masters Program. Learn real-world tools, hands-on projects, and get career support."
+          content="Advance your career with Learnbay’s AI-Powered Cloud DevOps Master Certification Program. Attend live classes, projects, and multi-cloud training. Enrol now!"
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="Cloud and DevOps Engineering,
-Cloud and DevOps Engineering master certification,
+          content="Cloud and DevOps Engineering program,
+Cloud and DevOps Master certification,
+Cloud and DevOps certification,
+Cloud and DevOps Engineering Master certification,
 Cloud and DevOps Engineering certification program,
-Cloud Engineering master certification,
-DevOps Engineering master certification,
-Cloud and DevOps engineering program,
-Cloud and DevOps master certification"
+Cloud and DevOps engineering master program,
+Cloud and DevOps certification program,
+"
         />
-        {/* <!-- Facebook Meta Tags --> */}
+
         <meta
           property="og:url"
-          content="https://www.learnbay.co/cloud&amp;devops/cloud-and-devops-engineering-masters"
+          content="https://www.learnbay.co/cloud&devops/cloud-and-devops-for-system-administrators-master-certification"
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Cloud and DevOps Engineering Masters Program - Learnbay"
+          content="AI-Powered Cloud and DevOps Engineering Course - Learnbay"
         />
         <meta
           property="og:description"
-          content="Build a future-proof tech career with Learnbay's Cloud & DevOps Engineering Masters Program. Learn real-world tools, hands-on projects, and get career support."
+          content="Advance your career with Learnbay’s AI-Powered Cloud DevOps Master Certification Program. Attend live classes, projects, and multi-cloud training. Enrol now!"
         />
         <meta
           property="og:image"
           content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
-        {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="learnbay.co" />
         <meta name="twitter:site" content="@Learnbay" />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/cloud&amp;devops/cloud-and-devops-engineering-masters"
+          content="https://www.learnbay.co/cloud&devops/cloud-and-devops-for-system-administrators-master-certification"
         />
         <meta
           name="twitter:title"
-          content="Cloud and DevOps Engineering Masters Program - Learnbay"
+          content="AI-Powered Cloud and DevOps Engineering Course - Learnbay"
         />
         <meta
           name="twitter:description"
-          content="Build a future-proof tech career with Learnbay's Cloud & DevOps Engineering Masters Program. Learn real-world tools, hands-on projects, and get career support."
+          content="Advance your career with Learnbay’s AI-Powered Cloud DevOps Master Certification Program. Attend live classes, projects, and multi-cloud training. Enrol now!"
         />
         <meta
           name="twitter:image"
@@ -115,17 +113,17 @@ Cloud and DevOps master certification"
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/cloud&amp;devops/cloud-and-devops-engineering-masters"
+          href="https://www.learnbay.co/cloud&devops/cloud-and-devops-for-system-administrators-master-certification"
         />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `{
-      "@context": "http://schema.org",
+       "@context": "http://schema.org",
   "@type": "Course",
-  "name": "Cloud and DevOps Engineering Masters Certification Program",
-  "description": "Build a future-proof tech career with Learnbay's Cloud & DevOps Engineering Masters Program. Learn real-world tools, hands-on projects, and get career support.",
-  "url": "https://www.learnbay.co/cloud&devops/cloud-and-devops-engineering-masters",
+  "name": "AI-Powered Cloud And DevOps Engineering Course - Learnbay",
+  "description": "Advance your career with Learnbay’s AI-Powered Cloud DevOps Master Certification Program. Attend live classes, projects, and multi-cloud training. Enrol now!",
+  "url": "https://www.learnbay.co/cloud&devops/cloud-and-devops-for-system-administrators-master-certification",
   "offers": {
     "@type": "offer",
     "price": "159000",
@@ -137,7 +135,7 @@ Cloud and DevOps master certification"
         "name": "Learnbay",
         "Url": "https://www.learnbay.co/"
       },
-  "coursePrerequisites": "There are no prerequisites for the Cloud and DevOps Engineering Masters Certification Program, as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-Programmers.",
+  "coursePrerequisites": "This program is suitable for entry to mid-level IT professionals with a minimum of 1 year of work experience. Professionals such as system administrators, solution architects, support engineers, and IT experts are the most welcomed for this certification.",
   "hasCourseInstance": [
     {
       "@type": "CourseInstance",
@@ -150,15 +148,9 @@ Cloud and DevOps master certification"
       }
     }
   ]
+
     }
 `,
-          }}
-        />
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(MasterAI),
           }}
         />
       </Head>

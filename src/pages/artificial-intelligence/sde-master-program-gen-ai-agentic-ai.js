@@ -71,41 +71,38 @@ const NewDSA = ({ DSADataJson }) => {
   return (
     <>
       <Head>
-        <title>GenAI Professional Developer Course Training - Learnbay</title>
+        <title>SDE Master Program For Software Developers - Learnbay</title>
         <meta
           name="description"
-          content="Get certified in GenAI & Agentic AI. Learn from experts, work on industry projects, and upgrade your AI skills designed for working professionals. Join now!
+          content="Master GenAI, Agentic AI, DSA & system design to crack top SDE roles. Build real-world AI projects and become industry-ready. Enroll now!
 "
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="Generative AI and Agentic AI certification,
-Generative AI certification,
-Agentic AI certification,
-Generative AI certification for working professionals,
-Generative AI and Agentic AI course,
-Generative AI and Agentic AI courses,
-Generative AI and agentic AI,
-Agentic AI certification for working professionals,
-Generative AI and Agentic AI training,
-Generative AI and Agentic AI course for working professionals
+          content="SDE master program for software developer,
+SDE program for software developers,
+SDE master certification for software developers,
+SDE master program for developers,
+SDE program for developers,
+SDE master program,
+Software developer master program
 
 "
         />
-        {/* <!-- Facebook Meta Tags --> */}
+
         <meta
           property="og:url"
-          content="https://www.learnbay.co/artificial-intelligence/genai-software-developers"
+          content="https://www.learnbay.co/artificial-intelligence/sde-master-program-gen-ai-agentic-ai"
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="GenAI Professional Developer Course Training - Learnbay"
+          content="SDE Master Program For Software Developers - Learnbay"
         />
         <meta
           property="og:description"
-          content="Get certified in GenAI & Agentic AI. Learn from experts, work on industry projects, and upgrade your AI skills designed for working professionals. Join now!"
+          content="Master GenAI, Agentic AI, DSA & system design to crack top SDE roles. Build real-world AI projects and become industry-ready. Enroll now!"
         />
         <meta
           property="og:image"
@@ -117,20 +114,22 @@ Generative AI and Agentic AI course for working professionals
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/artificial-intelligence/genai-software-developers"
+          content="https://www.learnbay.co/artificial-intelligence/sde-master-program-gen-ai-agentic-ai"
         />
         <meta
           name="twitter:title"
-          content="GenAI Professional Developer Course Training - Learnbay"
+          content="SDE Master Program For Software Developers - Learnbay
+"
         />
         <meta
           name="twitter:description"
-          content="Get certified in GenAI & Agentic AI. Learn from experts, work on industry projects, and upgrade your AI skills designed for working professionals. Join now!"
+          content="Master GenAI, Agentic AI, DSA & system design to crack top SDE roles. Build real-world AI projects and become industry-ready. Enroll now!"
         />
         <meta
           name="twitter:image"
           content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
+
         <link
           rel="icon"
           href="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
@@ -141,20 +140,21 @@ Generative AI and Agentic AI course for working professionals
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/artificial-intelligence/genai-software-developers"
+          href="https://www.learnbay.co/artificial-intelligence/sde-master-program-gen-ai-agentic-ai"
         />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `{
-      "@context": "http://schema.org",
+       "@context": "http://schema.org",
       "@type": "Course",
-      "name": "GenAI Professional Developer Course Training - Learnbay",
-      "description": "Get certified in GenAI & Agentic AI. Learn from experts, work on industry projects, and upgrade your AI skills designed for working professionals. Join now!",
-      "url": "https://www.learnbay.co/artificial-intelligence/genai-software-developers",
+      "name": "SDE Master Program For Software Developers - Learnbay",
+      "description": "Master GenAI, Agentic AI, DSA & system design to crack top SDE roles. Build real-world AI projects and become industry-ready. Enroll now!
+",
+      "url": "https://www.learnbay.co/artificial-intelligence/sde-master-program-gen-ai-agentic-ai",
       "offers": {
         "@type": "offer",
-        "price": "95000",
+        "price": "159000",
         "pricecurrency": "INR",
         "category": "Educational"
       },
@@ -163,27 +163,21 @@ Generative AI and Agentic AI course for working professionals
         "name": "Learnbay",
         "Url": "https://www.learnbay.co/"
       },
-      "coursePrerequisites": "You should know about Python, Machine Learning, & basic Deep Learning before joining the program.",
+      "coursePrerequisites": "You should have knowledge of Python, Machine Learning, & Deep Learning.",
       "hasCourseInstance": [
         {
           "@type": "CourseInstance",
           "courseMode": "Online",
-          "courseWorkload": "P13W",
+          "courseWorkload": "P11M",
           "courseFee": {
             "@type": "PriceSpecification",
-            "price": "₹ 95,000 + 18% GST",
+            "price": "₹ 1,59,000 + 18% GST",
             "priceCurrency": "INR"
           }
         }
       ]
-    }`,
-          }}
-        />
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(MasterAI),
+    }`,
           }}
         />
       </Head>

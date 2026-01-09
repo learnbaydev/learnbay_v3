@@ -67,7 +67,7 @@ const SyllabusNew = dynamic(() =>
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Science_and_Generative_AI_Master_Certification_Program%2Bdownload.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Data+Science+and+GenAI+Program+(3)_compressed.pdf";
   let soonDate = getDSABookingSoonDate();
   let laterDate = getDSABookingLaterDate();
   // console.log(getDSABookingSoonDate(new Date('2023-03-24')));
@@ -76,53 +76,52 @@ const NewDSA = ({ DSADataJson }) => {
   return (
     <>
       <Head>
-        <title>
-          Data Science & GenAI Master Certification Program - Learnbay
-        </title>
+        <title>IBM Certified Data Science & GenAI Program - Learnbay</title>
         <meta
           name="description"
-          content="Enhance your career with Learnbay's Data Science & GenAI Master Certification. Develop your skills through live training, hands-on projects, and more. Join now!"
+          content="Upskill with Learnbay's IBM-certified Data Science & GenAI Program. Learn Python, ML, NLP, RAG, and Agents through industry projects with job assistance."
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="data science master certification, data science and genAI master certification program, data science and genAI master program, data science and generative AI master certification course, generative AI and data science master certification, data science and generative AI, generative ai and data science , data science and generative ai course"
+          content="ibm data science certification,
+data science and generative ai program,
+data science and gen ai certification,
+data science and gen ai training  program
+"
         />
-        {/* <!-- Facebook Meta Tags --> */}
         <meta
           property="og:url"
-          content="https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program"
+          content="https://www.learnbay.co/data-science-gen-ai-program"
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Data Science & GenAI Master Certification Program | Learnbay"
+          content="IBM Certified Data Science & GenAI Program  - Learnbay"
         />
         <meta
           property="og:description"
-          content="Enhance your career with Learnbay's Data Science & GenAI Master Certification. Develop your skills through live training, hands-on projects, and more. Join now!"
+          content="Upskill with Learnbay's IBM-certified Data Science & GenAI Program. Learn Python, ML, NLP, RAG, and Agents through industry projects with job assistance."
         />
         <meta
           property="og:image"
           content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
-
-        {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="learnbay.co" />
         <meta name="twitter:site" content="@Learnbay" />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program"
+          content="https://www.learnbay.co/data-science-gen-ai-program"
         />
         <meta
           name="twitter:title"
-          content="Data Science & GenAI Master Certification Program | Learnbay"
+          content="IBM Certified Data Science & GenAI Program  - Learnbay"
         />
         <meta
           name="twitter:description"
-          content="Enhance your career with Learnbay’s Data Science & GenAI Master Certification. Develop your skills through live training, hands-on projects, and more. Join now!"
+          content="Upskill with Learnbay's IBM-certified Data Science & GenAI Program. Learn Python, ML, NLP, RAG, and Agents through industry projects with job assistance."
         />
         <meta
           name="twitter:image"
@@ -134,20 +133,20 @@ const NewDSA = ({ DSADataJson }) => {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program"
+          href="https://www.learnbay.co/data-science-gen-ai-program"
         />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `{
-      "@context": "http://schema.org",
+       "@context": "http://schema.org",
   "@type": "Course",
-  "name": "Data Science and GenAI Master Certification Program",
-  "description": "The Data Science and Generative AI Master Certification Program equips you with in-demand skills in data science, machine learning, and GenAI to solve real-world business problems through hands-on projects and expert-led training.",
-"url": "https://www.learnbay.co/datascience/data-science-and-ai-master-certification-program",
+  "name": "IBM Certified Data Science & GenAI Program  - Learnbay",
+  "description": "Upskill with Learnbay's IBM-certified Data Science & GenAI Program. Learn Python, ML, NLP, RAG, and Agents through industry projects with job assistance.",
+  "url": "https://www.learnbay.co/data-science-gen-ai-program",
   "offers": {
     "@type": "offer",
-    "price": "159000",
+    "price": "120000",
     "pricecurrency": "INR",
     "category": "Educational"
   },
@@ -156,28 +155,22 @@ const NewDSA = ({ DSADataJson }) => {
         "name": "Learnbay",
         "Url": "https://www.learnbay.co/"
       },
-  "coursePrerequisites": "There are no prerequisites for the Data Science and GenAI Master Certification Program, as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-Programmers.",
+  "coursePrerequisites": "You should know about Python, Machine Learning, & basic Deep Learning before joining the program.",
   "hasCourseInstance": [
     {
       "@type": "CourseInstance",
       "courseMode": "Online",
-      "courseWorkload": "P13M",
+      "courseWorkload": "P9M",
       "courseFee": {
         "@type": "PriceSpecification",
-        "price": "₹ 1,59,000 + 18% GST",
+        "price": "₹ 1,20,000 + 18% GST",
         "priceCurrency": "INR"
       }
     }
   ]
+
           }}
 `,
-          }}
-        />
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(MasterAI),
           }}
         />
       </Head>
@@ -208,7 +201,7 @@ const NewDSA = ({ DSADataJson }) => {
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Science_and_Generative_AI_Master_Certification%2BProgram.pdf"
           brochurePdf={pdfUrl}
         />
-        <LearningToPlacement time="370" guided="60" leftPart="IBM_AI" />
+        <LearningToPlacement time="250" guided="30" leftPart="IBM_AI" />
 
         {/* <ProgramSection
           programSectionData={NewDSAData[0].ProgramSection}
@@ -315,9 +308,7 @@ const NewDSA = ({ DSADataJson }) => {
 export default NewDSA;
 
 export async function getStaticProps() {
-  const module = await import(
-    "../../Data/data-science-and-gen-ai-program-data"
-  );
+  const module = await import("../Data/data-science-and-gen-ai-program-data");
   const data = module.default;
 
   const DSADataJson = JSON.stringify(data, (key, value) =>

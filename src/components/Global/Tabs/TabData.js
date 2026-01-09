@@ -54,7 +54,7 @@ export const TabData = [
       {
         CName: "GenAI and Agentic AI Program for Managers and Leaders",
         hours: "5 Months",
-        url: "/gen-ai-agentic-ai-program-for-managers-leaders",
+        url: "/genai-agentic-ai-managers-leaders",
       },
       // {
       //   CName: "GenAI Professional Certification for Managers With IBM",
@@ -120,8 +120,8 @@ export const TabData = [
       },
       {
         CName: "Data Science and Generative AI  Program",
-        hours: "5 Months",
-        url: "/data-science-and-genai-program",
+        hours: "9 Months",
+        url: "/data-science-genai-program",
       },
       {
         CName: "Data Analytics and Business Analytics with Generative AI",

@@ -55,48 +55,46 @@ const NewDSA = ({ DSADataJson }) => {
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="Cloud and DevOps Engineering,
-Cloud and DevOps Engineering master certification,
-Cloud and DevOps Engineering certification program,
-Cloud Engineering master certification,
-DevOps Engineering master certification,
-Cloud and DevOps engineering program,
-Cloud and DevOps master certification"
+          content="Clouds and DevOps Network professionals certification,
+Clouds and DevOps Engineering Network professionals,
+DevOps certification for Network professionals,
+Cloud engineering for Network professionals,
+Clouds and DevOps Network professional program
+"
         />
-        {/* <!-- Facebook Meta Tags --> */}
+
         <meta
           property="og:url"
-          content="https://www.learnbay.co/cloud&amp;devops/cloud-and-devops-engineering-masters"
+          content="https://www.learnbay.co/cloud-devops-for-network-professionals"
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Cloud and DevOps Engineering Masters Program - Learnbay"
+          content="Cloud & DevOps training for Network Professionals - Learnbay"
         />
         <meta
           property="og:description"
-          content="Build a future-proof tech career with Learnbay's Cloud & DevOps Engineering Masters Program. Learn real-world tools, hands-on projects, and get career support."
+          content="Advance your networking career with Learnbay's cloud & DevOps training. Learn AWS, cloud security, automation, and DevOps through live classes. Enrol now!"
         />
         <meta
           property="og:image"
           content="https://d32and0ii3b8oy.cloudfront.net/adlearnbay/og-twitter-Learnbay_logo.webp"
         />
-        {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="learnbay.co" />
         <meta name="twitter:site" content="@Learnbay" />
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/cloud&amp;devops/cloud-and-devops-engineering-masters"
+          content="https://www.learnbay.co/cloud-devops-for-network-professionals"
         />
         <meta
           name="twitter:title"
-          content="Cloud and DevOps Engineering Masters Program - Learnbay"
+          content="Cloud & DevOps training for Network Professionals - Learnbay"
         />
         <meta
           name="twitter:description"
-          content="Build a future-proof tech career with Learnbay's Cloud & DevOps Engineering Masters Program. Learn real-world tools, hands-on projects, and get career support."
+          content="Advance your networking career with Learnbay's cloud & DevOps training. Learn AWS, cloud security, automation, and DevOps through live classes. Enrol now!"
         />
         <meta
           name="twitter:image"
@@ -109,20 +107,20 @@ Cloud and DevOps master certification"
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/cloud&amp;devops/cloud-and-devops-engineering-masters"
+          href="https://www.learnbay.co/cloud-devops-for-network-professionals"
         />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `{
-      "@context": "http://schema.org",
+   "@context": "http://schema.org",
   "@type": "Course",
-  "name": "Cloud and DevOps Engineering Masters Certification Program",
-  "description": "Build a future-proof tech career with Learnbay's Cloud & DevOps Engineering Masters Program. Learn real-world tools, hands-on projects, and get career support.",
-  "url": "https://www.learnbay.co/cloud&devops/cloud-and-devops-engineering-masters",
+  "name": "Cloud & DevOps training for Network Professionals - Learnbay",
+  "description": "Advance your networking career with Learnbay's cloud & DevOps training. Learn AWS, cloud security, automation, and DevOps through live classes. Enrol now!",
+  "url": "https://www.learnbay.co/cloud-devops-for-network-professionals",
   "offers": {
     "@type": "offer",
-    "price": "159000",
+    "price": "120000",
     "pricecurrency": "INR",
     "category": "Educational"
   },
@@ -131,28 +129,22 @@ Cloud and DevOps master certification"
         "name": "Learnbay",
         "Url": "https://www.learnbay.co/"
       },
-  "coursePrerequisites": "There are no prerequisites for the Cloud and DevOps Engineering Masters Certification Program, as all modules are beginner-friendly and are taught from scratch. We provide special classes and assistance for non-IT/Non-Programmers.",
+  "coursePrerequisites": "This program is suitable for entry to mid-level working professionals with a minimum of 1 year of work experience in the IT domain.",
   "hasCourseInstance": [
     {
       "@type": "CourseInstance",
       "courseMode": "Online",
-      "courseWorkload": "P8M",
+      "courseWorkload": "P5M",
       "courseFee": {
         "@type": "PriceSpecification",
-        "price": "₹ 1,59,000 + 18% GST",
+        "price": "₹ 1,20,000 + 18% GST",
         "priceCurrency": "INR"
       }
     }
   ]
+
     }
 `,
-          }}
-        />
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(MasterAI),
           }}
         />
       </Head>
