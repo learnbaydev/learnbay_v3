@@ -64,7 +64,7 @@ export const TabData = [
       {
         CName: "GenAI and Agentic AI Program for Cloud and DevOps",
         hours: "5 Months",
-        url: "/genai-agenticai-for-cloud-devops",
+        url: "/genai-agentic-ai-for-cloud-devops",
       },
       {
         CName: "Applied AI Practitioner Program",
