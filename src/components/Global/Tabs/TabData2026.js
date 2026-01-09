@@ -47,7 +47,7 @@ export const TabData = [
       {
         CName: "GenAI & Agentic AI For Manager & Leaders ",
         hours: "5 months ",
-        url: "/gen-ai-agentic-ai-program-for-managers-leaders",
+        url: "/genai-agentic-ai-managers-leaders",
       },
       {
         CName: "GenAI & Agentic AI For Cloud & DevOps",

@@ -71,32 +71,31 @@ const NewDSA = ({ DSADataJson }) => {
   return (
     <>
       <Head>
-        <title>GenAI Professional Developer Course Training - Learnbay</title>
+        <title>
+          GenAI & Agentic AI Master Program for Professionals - Learnbay
+        </title>
         <meta
           name="description"
-          content="Get certified in GenAI & Agentic AI. Learn from experts, work on industry projects, and upgrade your AI skills designed for working professionals. Join now!
+          content="Advance your career with Learnbay’s GenAI & Agentic AI Master Program for Working Professionals. Build AI agents, RAG, & LLMOps projects with career support.
 "
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="Generative AI and Agentic AI certification,
-Generative AI certification,
-Agentic AI certification,
-Generative AI certification for working professionals,
-Generative AI and Agentic AI course,
-Generative AI and Agentic AI courses,
-Generative AI and agentic AI,
-Agentic AI certification for working professionals,
-Generative AI and Agentic AI training,
-Generative AI and Agentic AI course for working professionals
+          content="generative ai master program for working professionals,
+generative ai certification for working professionals,
+genai and agentic ai for working professionals,
+genai agentic ai master program for working professionals,
+agentic ai certification for working professionals,
+generative ai and agentic ai course for working professionals
+
 
 "
         />
         {/* <!-- Facebook Meta Tags --> */}
         <meta
           property="og:url"
-          content="https://www.learnbay.co/artificial-intelligence/genai-software-developers"
+          content="https://www.learnbay.co/gen-ai-and-agentic-ai-master-program "
         />
         <meta property="og:type" content="website" />
         <meta
@@ -117,7 +116,7 @@ Generative AI and Agentic AI course for working professionals
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/artificial-intelligence/genai-software-developers"
+          content="https://www.learnbay.co/gen-ai-and-agentic-ai-master-program "
         />
         <meta
           name="twitter:title"
@@ -141,7 +140,7 @@ Generative AI and Agentic AI course for working professionals
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/artificial-intelligence/genai-software-developers"
+          href="https://www.learnbay.co/gen-ai-and-agentic-ai-master-program "
         />
         <script
           type="application/ld+json"
@@ -149,12 +148,12 @@ Generative AI and Agentic AI course for working professionals
             __html: `{
       "@context": "http://schema.org",
       "@type": "Course",
-      "name": "GenAI Professional Developer Course Training - Learnbay",
-      "description": "Get certified in GenAI & Agentic AI. Learn from experts, work on industry projects, and upgrade your AI skills designed for working professionals. Join now!",
-      "url": "https://www.learnbay.co/artificial-intelligence/genai-software-developers",
+      "name": "GenAI & Agentic AI Master Program for Professionals - Learnbay",
+      "description": "Advance your career with Learnbay’s GenAI & Agentic AI Master Program for Working Professionals. Build AI agents, RAG, & LLMOps projects with career support.",
+      "url": "https://www.learnbay.co/gen-ai-and-agentic-ai-master-program",
       "offers": {
         "@type": "offer",
-        "price": "95000",
+        "price": "159000",
         "pricecurrency": "INR",
         "category": "Educational"
       },
@@ -168,22 +167,15 @@ Generative AI and Agentic AI course for working professionals
         {
           "@type": "CourseInstance",
           "courseMode": "Online",
-          "courseWorkload": "P13W",
+          "courseWorkload": "P9M",
           "courseFee": {
             "@type": "PriceSpecification",
-            "price": "₹ 95,000 + 18% GST",
+            "price": "₹ 1,59,000 + 18% GST",
             "priceCurrency": "INR"
           }
         }
       ]
     }`,
-          }}
-        />
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(MasterAI),
           }}
         />
       </Head>

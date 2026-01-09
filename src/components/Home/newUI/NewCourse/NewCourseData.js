@@ -771,7 +771,7 @@ export const courses = {
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENIBM1.webp",
 
-      link: "/gen-ai-agentic-ai-program-for-managers-leaders",
+      link: "/genai-agentic-ai-managers-leaders",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
       brochurePdfs:
@@ -1335,7 +1335,7 @@ export const certificationCourses = [
     imageSrc: "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/Part_I.webp",
     logoSrc:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
-    link: "/gen-ai-agentic-ai-program-for-managers-leaders",
+    link: "/genai-agentic-ai-managers-leaders",
     brochureLinks:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+Developer+Master+Certification+Programv1.pdf",
     brochurePdfs:

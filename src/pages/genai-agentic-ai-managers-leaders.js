@@ -71,41 +71,39 @@ const NewDSA = ({ DSADataJson }) => {
   return (
     <>
       <Head>
-        <title>GenAI Professional Developer Course Training - Learnbay</title>
+        <title>
+          GenAI & Agentic AI Course for Managers & Leaders - Learnbay
+        </title>
         <meta
           name="description"
-          content="Get certified in GenAI & Agentic AI. Learn from experts, work on industry projects, and upgrade your AI skills designed for working professionals. Join now!
+          content="Advance your management career with GenAI & Agentic AI skills. Master business transformation, workflow automation & AI leadership with real projects. Join Now.
 "
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="Generative AI and Agentic AI certification,
-Generative AI certification,
-Agentic AI certification,
-Generative AI certification for working professionals,
-Generative AI and Agentic AI course,
-Generative AI and Agentic AI courses,
-Generative AI and agentic AI,
-Agentic AI certification for working professionals,
-Generative AI and Agentic AI training,
-Generative AI and Agentic AI course for working professionals
+          content="genai course for managers and leaders,
+agentic ai course for managers,
+generative ai training for business leaders,
+genai and agentic ai leadership program,
+ai course for managers
+
 
 "
         />
         {/* <!-- Facebook Meta Tags --> */}
         <meta
           property="og:url"
-          content="https://www.learnbay.co/artificial-intelligence/genai-software-developers"
+          content="https://www.learnbay.co/genai-agentic-ai-managers-leaders"
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="GenAI Professional Developer Course Training - Learnbay"
+          content="GenAI & Agentic AI Course for Managers & Leaders - Learnbay"
         />
         <meta
           property="og:description"
-          content="Get certified in GenAI & Agentic AI. Learn from experts, work on industry projects, and upgrade your AI skills designed for working professionals. Join now!"
+          content="Advance your management career with GenAI & Agentic AI skills. Master business transformation, workflow automation & AI leadership with real projects. Join Now."
         />
         <meta
           property="og:image"
@@ -117,15 +115,15 @@ Generative AI and Agentic AI course for working professionals
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/artificial-intelligence/genai-software-developers"
+          content="https://www.learnbay.co/genai-agentic-ai-managers-leaders"
         />
         <meta
           name="twitter:title"
-          content="GenAI Professional Developer Course Training - Learnbay"
+          content="GenAI & Agentic AI Course for Managers & Leaders - Learnbay"
         />
         <meta
           name="twitter:description"
-          content="Get certified in GenAI & Agentic AI. Learn from experts, work on industry projects, and upgrade your AI skills designed for working professionals. Join now!"
+          content="Advance your management career with GenAI & Agentic AI skills. Master business transformation, workflow automation & AI leadership with real projects. Join Now."
         />
         <meta
           name="twitter:image"
@@ -141,49 +139,42 @@ Generative AI and Agentic AI course for working professionals
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/artificial-intelligence/genai-software-developers"
+          href="https://www.learnbay.co/genai-agentic-ai-managers-leaders"
         />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `{
       "@context": "http://schema.org",
-      "@type": "Course",
-      "name": "GenAI Professional Developer Course Training - Learnbay",
-      "description": "Get certified in GenAI & Agentic AI. Learn from experts, work on industry projects, and upgrade your AI skills designed for working professionals. Join now!",
-      "url": "https://www.learnbay.co/artificial-intelligence/genai-software-developers",
-      "offers": {
-        "@type": "offer",
-        "price": "95000",
-        "pricecurrency": "INR",
-        "category": "Educational"
-      },
-      "provider": {
+  "@type": "Course",
+  "name": "GenAI & Agentic AI Course for Managers & Leaders - Learnbay",
+  "description": "Advance your management career with GenAI & Agentic AI skills. Master business transformation, workflow automation & AI leadership with real projects. Join Now.",
+  "url": "https://www.learnbay.co/genai-agentic-ai-managers-leaders",
+  "offers": {
+    "@type": "offer",
+    "price": "120000",
+    "pricecurrency": "INR",
+    "category": "Educational"
+  },
+   "provider": {
         "@type": "Organization",
         "name": "Learnbay",
         "Url": "https://www.learnbay.co/"
       },
-      "coursePrerequisites": "You should know about Python, Machine Learning, & basic Deep Learning before joining the program.",
-      "hasCourseInstance": [
-        {
-          "@type": "CourseInstance",
-          "courseMode": "Online",
-          "courseWorkload": "P13W",
-          "courseFee": {
-            "@type": "PriceSpecification",
-            "price": "₹ 95,000 + 18% GST",
-            "priceCurrency": "INR"
-          }
-        }
-      ]
+  "coursePrerequisites": "You should know about Python, Machine Learning, & basic Deep Learning before joining the program.",
+  "hasCourseInstance": [
+    {
+      "@type": "CourseInstance",
+      "courseMode": "Online",
+      "courseWorkload": "P5M",
+      "courseFee": {
+        "@type": "PriceSpecification",
+        "price": "₹ 1,20,000 + 18% GST",
+        "priceCurrency": "INR"
+      }
+    }
+  ]
     }`,
-          }}
-        />
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(MasterAI),
           }}
         />
       </Head>
