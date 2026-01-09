@@ -62,7 +62,7 @@ export const TabData = [
       {
         CName: "GenAI & Agentic AI Program ",
         hours: "5 months ",
-        url: "/gen-ai-agentic-ai-program",
+        url: "/genai-agentic-ai-program",
       },
       {
         CName: "Applied AI Practioner Program ",
@@ -166,7 +166,7 @@ export const TabData = [
       {
         CName: "Data Science & GenAI Program ",
         hours: "9 months ",
-        url: "/data-science-and-genai-program",
+        url: "/data-science-genai-program",
       },
       {
         CName: "Data Analytics and Business Analytics with Generative AI",

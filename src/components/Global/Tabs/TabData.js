@@ -120,8 +120,8 @@ export const TabData = [
       },
       {
         CName: "Data Science and Generative AI  Program",
-        hours: "5 Months",
-        url: "/data-science-and-genai-program",
+        hours: "9 Months",
+        url: "/data-science-genai-program",
       },
       {
         CName: "Data Analytics and Business Analytics with Generative AI",

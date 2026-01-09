@@ -816,7 +816,7 @@ export const courses = {
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENIBM4.webp",
 
-      link: "/gen-ai-agentic-ai-program",
+      link: "/genai-agentic-ai-program",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
       brochurePdfs:
@@ -968,7 +968,7 @@ export const courses = {
       description: "For Non Programmers",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENIBM4.webp",
-      link: "/data-science-and-genai-program",
+      link: "/data-science-genai-program",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Masters%2Bin%2BCS%2BData%2BScience%2B%2526%2BAI.pdf",
       brochurePdfs:
