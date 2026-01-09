@@ -397,7 +397,7 @@ export const courses = {
       description: "Designed For Tech Professionals",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV7IBM.webp",
-      link: "/genai-agenticai-for-cloud-devops",
+      link: "/genai-agentic-ai-for-cloud-devops",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
       brochurePdfs:
@@ -786,7 +786,7 @@ export const courses = {
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENIBM2.webp",
 
-      link: "/genai-agenticai-for-cloud-devops",
+      link: "/genai-agentic-ai-for-cloud-devops",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program+new.pdf",
       brochurePdfs:
@@ -1053,7 +1053,7 @@ export const courses = {
     //   description: "For Tech Professionals",
     //   image:
     //     "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENIBM1.webp",
-    //   link: "/genai-agenticai-for-cloud-devops",
+    //   link: "/genai-agentic-ai-for-cloud-devops",
     //   brochureLinks:
     //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-System-Admin-Professionalslink.pdf",
     //   brochurePdfs:
@@ -1357,7 +1357,7 @@ export const certificationCourses = [
         text: "Designed for Senior Managers and Leaders",
       },
     ],
-    link: "/genai-agenticai-for-cloud-devops",
+    link: "/genai-agentic-ai-for-cloud-devops",
     brochureLinks:
       "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Generative+AI+and+Agentic+AI+for+Managers+%26+Leaders_compressed.pdf",
     brochurePdfs:
