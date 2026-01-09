@@ -7375,6 +7375,101 @@ export const NewDSAData = [
           open: false,
         },
       },
+
+      {
+        Module5: {
+          title:
+            "Module 5 – Gen AI Specialization for Cloud & DevOps Professionals",
+          hours: "(1 Month)",
+          imageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data_science_tRound.webp",
+          StartImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/data-science-tools-downs.webp",
+          endImageUrl:
+            "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/round_yellow_ups.webp",
+          points: "Gen AI Specialization for Cloud & DevOps Professionals",
+          content: [
+            {
+              chap: {
+                title: " Introduction to Generative AI in DevOps",
+                desc: [
+                  "Generative AI overview.",
+                  "Use cases in DevOps automation.",
+                  "Introduction to Large Language Models (LLMs) like GPT.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: " Automating DevOps Workflows with Generative AI",
+                desc: [
+                  "AI for Infrastructure as Code (IaC) automation,AI-assisted CI/CD pipeline optimization",
+                  "Automated script generation.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "AI-Powered Monitoring & Incident Resolution",
+                desc: [
+                  "AI for real-time log analysis, Incident detection using Generative AI.",
+                  "Automated root cause analysis with AI insights.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Predictive Analytics and Resource Management",
+                desc: [
+                  "AI for cloud resource forecasting, Predicting workload trends.",
+                  "Automating resource scaling based on AI insights.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Generative AI for Container Orchestration",
+                desc: [
+                  "AI for Kubernetes manifest generation.",
+                  "Automated scaling of microservices.",
+                  "Dockerfile creation with AI tools.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Predictive Analytics and Resource Management",
+                desc: [
+                  "AI for cloud resource forecasting, Predicting workload trends.",
+                  "Automating resource scaling based on AI insights.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Disaster Recovery and Security Automation with AI",
+                desc: [
+                  "AI for generating disaster recovery plans.",
+                  "Automating backup configurations.",
+                  "Generative AI in cloud security workflows.",
+                ],
+              },
+            },
+            {
+              chap: {
+                title: "Customizing GenAI Tools for Cloud and DevOps Needs",
+                desc: [
+                  "Fine-tuning LLMs for DevOps tasks.",
+                  "Integrating OpenAI APIs with DevOps tools.",
+                  "Custom automation scripts with AI.",
+                ],
+              },
+            },
+          ],
+          id: 5,
+          open: false,
+        },
+      },
     ],
 
     certificateNew: [
