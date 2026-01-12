@@ -29,7 +29,7 @@ import { BsDisplay } from "react-icons/bs";
 import { AiOutlineContainer } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsPeople } from "react-icons/bs";
-const FirstPart = ({ TestimonialData, WolfLink, formbtn }) => {
+const FirstPart = ({ TestimonialData, WolfLink, formbtn, courseId }) => {
   const seconddata = [
     {
       boldText: "60+",
@@ -137,6 +137,7 @@ const FirstPart = ({ TestimonialData, WolfLink, formbtn }) => {
         FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/coursepageB.webp"
         firstToparaImg="with domain specialization"
         firstHeading="Advanced Data Science and AI Program"
+        courseId={courseId}
       />
       <MasterSecondSection data={seconddata} />
       <CloudDevopsecond data={DsSecond} />

@@ -31,6 +31,7 @@ const FormNew = ({
   Domain,
   DomainInput,
   brochurePdf,
+  courseId,
 }) => {
   const router = useRouter();
   const [formFields, setFormFields] = useState(
@@ -39,7 +40,6 @@ const FormNew = ({
   const [formField, setFormField] = useState(
     getFormFields(radio, google, referrals, interstedInHide)
   );
-  
 
   const [value, setValue] = useState();
   const [error, setError] = useState();
@@ -161,6 +161,7 @@ const FormNew = ({
           if (downloadBrochure) {
             downloadFileAtUrl(brochurePdf); // Download the brochure only after a successful submission
           }
+          sessionStorage.setItem("pending_syllabus", courseId);
           router.push(
             pushPath,
             dataScience
@@ -169,7 +170,6 @@ const FormNew = ({
                   query: {
                     titleCourse: titleCourse,
                     brochureLink: brochureLink,
-                    
                   },
                 }
               : {
@@ -184,12 +184,10 @@ const FormNew = ({
     }
   };
 
-
-
   const downloadFileAtUrl = (url) => {
-    const aTag = document.createElement('a');
+    const aTag = document.createElement("a");
     aTag.href = url;
-    aTag.download = url.split('/').pop();
+    aTag.download = url.split("/").pop();
     document.body.appendChild(aTag);
     aTag.click();
     document.body.removeChild(aTag);
@@ -239,7 +237,6 @@ const FormNew = ({
                       </label>
                       {field.type === "phone" ? (
                         <PhoneInput
-                        
                           inputStyle={field.inputStyle}
                           containerStyle={field.containerStyle}
                           name={field.name}
@@ -337,7 +334,6 @@ const FormNew = ({
                   )
               )}
         </>
-
         <input name="country" value={query.country} type="hidden" />
         <input name="region" value={query.region} type="hidden" />
         <input name="city" value={query.city} type="hidden" />
@@ -345,7 +341,8 @@ const FormNew = ({
           <p className={styles.errorMsg}>
             Please fill all the fields marked with *
           </p>
-        )}        {popup && (
+        )}{" "}
+        {popup && (
           <input type="hidden" id="url" name="url" value={router.asPath} />
         )}
         <div>{toggle ? "" : <p className={styles.alert}>{alertMSG}</p>}</div>
@@ -406,7 +403,6 @@ const FormNew = ({
         <p className={styles.formWrapper} style={{ color: "red" }}>
           {error}
         </p>
-        
       </form>
     </div>
   );

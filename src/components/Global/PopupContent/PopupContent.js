@@ -24,6 +24,7 @@ const PopupContent = ({
   dsaPopup,
   setDSAPopup,
   genAISelectOption,
+  courseId,
 }) => {
   return (
     <Popup
@@ -60,6 +61,7 @@ const PopupContent = ({
           dsaPopup={dsaPopup}
           setDSAPopup={setDSAPopup}
           genAISelectOption={genAISelectOption}
+          courseId={courseId}
         />
       </div>
     </Popup>

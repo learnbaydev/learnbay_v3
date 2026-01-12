@@ -40,6 +40,7 @@ const Newheader = ({
   brochureLink,
   brochurePdf,
   downloadBrochure,
+  courseId,
 }) => {
   const [popups, setPopups] = useState(false);
   const [requestDemoPopup, setRequestDemoPopup] = useState(false);
@@ -71,6 +72,7 @@ const Newheader = ({
           brochureLink={brochureLink}
           brochurePdf={brochurePdf}
           // DSADemoSession={true}
+          courseId={courseId}
         />
         <PopupContent
           popups={requestDemoPopup}

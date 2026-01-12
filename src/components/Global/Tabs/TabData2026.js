@@ -11,7 +11,7 @@ export const TabData = [
       {
         CName: "GenAI & Agentic AI Master Program",
         hours: "9 Months",
-        url: "/gen-ai-and-agentic-ai-master-program",
+        url: "/genai-and-agentic-ai-master-program",
       },
       {
         CName: "AI-Powered Cloud & DevOps Master Program ",
@@ -21,7 +21,7 @@ export const TabData = [
       {
         CName: "SDE Master Program With GenAI & Agentic AI ",
         hours: "11 Months",
-        url: "/artificial-intelligence/sde-master-program-gen-ai-agentic-ai",
+        url: "/artificial-intelligence/sde-master-program-genai-agentic-ai ",
       },
       {
         CName: "GenAI & AgenticAI for Cloud & DevOps",
@@ -42,7 +42,7 @@ export const TabData = [
       {
         CName: "GenAI & Agentic AI Master Program",
         hours: "9 Months",
-        url: "/gen-ai-and-agentic-ai-master-program",
+        url: "/genai-and-agentic-ai-master-program",
       },
       {
         CName: "GenAI & Agentic AI For Manager & Leaders ",
@@ -83,12 +83,12 @@ export const TabData = [
       {
         CName: "Cloud & DevOps for Network Professionals",
         hours: "5 months",
-        url: "/cloud-devops-for-network-professionals",
+        url: "/cloud-and-devops-for-network-professionals",
       },
       {
         CName: "Cloud & DevOps for System Administrators",
         hours: "5 months",
-        url: "/cloud-and-devOps-for-system-administrators",
+        url: "/cloud-and-devops-for-system-administrators",
       },
       {
         CName: "Advanced Cloud & DevOps Program ",
@@ -114,7 +114,7 @@ export const TabData = [
       {
         CName: "GenAI & Agentic AI Master Certification Program ",
         hours: "9 months",
-        url: "/gen-ai-and-agentic-ai-master-program",
+        url: "/genai-and-agentic-ai-master-program",
       },
       {
         CName: "AI-Powered Cloud and DevOps Masters Program",
@@ -124,7 +124,7 @@ export const TabData = [
       {
         CName: "SDE Master Program With GenAI & Agentic AI",
         hours: "11 months",
-        url: "/artificial-intelligence/sde-master-program-gen-ai-agentic-ai",
+        url: "/artificial-intelligence/sde-master-program-genai-agentic-ai ",
       },
       {
         CName: "Advanced Data Science & GenAI Master Program",
@@ -140,7 +140,7 @@ export const TabData = [
       {
         CName: "SDE Master Program With GenAI & Agentic AI",
         hours: "11 months",
-        url: "/artificial-intelligence/sde-master-program-gen-ai-agentic-ai",
+        url: "/artificial-intelligence/sde-master-program-genai-agentic-ai ",
       },
       {
         CName: "GenAI and Agentic AI for Software Developers",
@@ -150,7 +150,7 @@ export const TabData = [
       {
         CName: "GenAI & Agentic AI Master Certification Program",
         hours: "9 months",
-        url: "/gen-ai-and-agentic-ai-master-program",
+        url: "/genai-and-agentic-ai-master-program",
       },
     ],
   },

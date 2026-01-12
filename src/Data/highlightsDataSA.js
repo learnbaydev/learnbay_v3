@@ -5,7 +5,7 @@ const highlightsData = [
     headingColor: "#873E18",
     descColor: "#525252",
     description:
-      "Move beyond server management to engineering cloud infrastructure.Learn to design, secure, automate, and operate real production systems.",
+      "Move beyond server management to engineering cloud infrastructure. Learn to design, secure, automate, and operate real production systems.",
     image: "",
     width: 550,
     height: 260,
@@ -23,7 +23,7 @@ const highlightsData = [
     headingColor: "#048C5D",
     descColor: "#1F4034",
     description:
-      "Work 1-on-1 with Cloud & DevOps mentors on real projects.Get guided on design, automation, and production-grade troubleshooting.",
+      "Work 1-on-1 with Cloud & DevOps mentors on real projects. Get guided on design, automation, and production-grade troubleshooting.",
     image: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Frame.webp",
     width: 330,
     height: 190,
@@ -42,7 +42,7 @@ const highlightsData = [
     headingColor: "#0071F2",
     descColor: "#1B1B1B",
     description:
-      "Hands-on experience with enterprise infrastructure tools:Linux • AWS EC2 • IAM • Ansible • Terraform • Docker • CI/CD & Monitoring Tools",
+      "Hands-on experience with enterprise infrastructure tools: Linux • AWS EC2 • IAM • Ansible • Terraform • Docker • CI/CD & Monitoring Tools",
     image:
       "https://d32and0ii3b8oy.cloudfront.net/adlearnbay/docker_terraform.webp",
     width: 305,
@@ -61,7 +61,7 @@ const highlightsData = [
     headingColor: "#583EDB",
     descColor: "#1C1C1C",
     description:
-      "Practice real infrastructure and automation scenarios.Get expert feedback to confidently clear Cloud & DevOps interviews.",
+      "Practice real infrastructure and automation scenarios. Get expert feedback to confidently clear Cloud & DevOps interviews.",
     image:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/img-4.webp",
     width: 260,

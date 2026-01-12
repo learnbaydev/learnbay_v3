@@ -9,7 +9,8 @@ function FirstSection({
   titleCourse,
   brochureLink,
   interstedInHide,
-  brochurePdf
+  brochurePdf,
+  courseId,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -26,6 +27,7 @@ function FirstSection({
         interstedInHide={interstedInHide}
         upSkillingHide={true}
         heading="Download Syllabus"
+        courseId={courseId}
       />
 
       <FirstSectionContent

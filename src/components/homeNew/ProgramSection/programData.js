@@ -13,7 +13,7 @@ export const programCards = [
     eligibilitytitle: "Domain Specialised",
     eligibility: "Program with Industry  Project Certification",
     readyfor: "Industry-Ready Certification with",
-    detailsUrl: "/gen-ai-and-agentic-ai-master-program",
+    detailsUrl: "/genai-and-agentic-ai-master-program",
     projects: "Projects:",
     theme: "chocolateOrange",
     logo: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/ibm-microsoft+(1).webp",
