@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import styles from "./BrochureDemoSection.module.css";
 import Image from "next/image";
 import StrategyModal from "../StrategyModal/StrategyModal";
-function BrochureDemoSection() {
+function BrochureDemoSection({ pdfUrl }) {
   const [isModalOpen, setModalOpen] = useState(false);
   return (
     <section className={styles.section}>
@@ -13,6 +13,9 @@ function BrochureDemoSection() {
         <p className={styles.heroSubtitle}>
           You’re one step closer to upgrading your career
         </p>
+        <a href={pdfUrl} target="_blank" rel="noopener noreferrer">
+          <button className={styles.ctaButton1}>View Syllabus</button>
+        </a>
       </div>
       {/* Main card (overlapping the gradient) */}
       <div className={styles.cardWrapper}>
