@@ -117,6 +117,7 @@ const Blockchain = ({ DataScienceCourseDataJson }) => {
           TestimonialData={
             DataScienceCourseData.DataScienceMastersinCS[0].testimonial
           }
+          courseId={"masters-cs-ds-genai"}
         />
         <SecondPart
           masterSyllabusMobile={
