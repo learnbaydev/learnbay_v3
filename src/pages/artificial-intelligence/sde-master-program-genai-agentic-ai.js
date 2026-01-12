@@ -652,6 +652,7 @@ Job assistance"
           brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE_Master_Program_for_Tech_Professionals.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
+          courseId={"sde-genai-master"}
         />
         <AlumniCompanies
           brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE_Master_Program_for_Tech_Professionals.pdf"

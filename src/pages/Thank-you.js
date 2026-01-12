@@ -57,17 +57,25 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
   const router = useRouter();
   const [pdfUrl, setPdfUrl] = useState(null);
 
-  useEffect(() => {
-    if (router.isReady) {
-      const { course_id } = router.query;
+  // useEffect(() => {
+  //   if (router.isReady) {
+  //     const { course_id } = router.query;
 
-      // Select the syllabus or use a general fallback brochure
-      const selectedSyllabus =
-        SYLLABUS_MAP[course_id] ||
-        "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026_live/IIT_Patna_Applied_AI_Program.pdf";
-      setPdfUrl(selectedSyllabus);
+  //     // Select the syllabus or use a general fallback brochure
+  //     const selectedSyllabus = SYLLABUS_MAP[course_id] || null;
+  //     setPdfUrl(selectedSyllabus);
+  //     console.log({ course_id, selectedSyllabus });
+  //   }
+  // }, [router.isReady, router.query]);
+
+  useEffect(() => {
+    const courseId = sessionStorage.getItem("pending_syllabus");
+    console.log({ courseId, link: SYLLABUS_MAP[courseId], pdfUrl });
+    if (courseId && SYLLABUS_MAP[courseId] && pdfUrl === null) {
+      console.log({ courseId, link: SYLLABUS_MAP[courseId], pdfUrl });
+      setPdfUrl(SYLLABUS_MAP[courseId]);
     }
-  }, [router.isReady, router.query]);
+  }, []);
   return (
     <>
       <Head>

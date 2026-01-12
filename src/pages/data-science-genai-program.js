@@ -617,6 +617,7 @@ data science and gen ai training  program
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Science_and_Generative_AI_Master_Certification%2BProgram.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
+          courseId={"ds-genai-program"}
         />
         <AlumniCompanies
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Data_Science_and_Generative_AI_Master_Certification%2BProgram.pdf"

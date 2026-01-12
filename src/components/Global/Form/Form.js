@@ -35,6 +35,7 @@ const Form = ({
   brochurePdf,
   DSADemoSession,
   genAISelectOption,
+  courseId,
 }) => {
   const router = useRouter();
   const [formFields, setFormFields] = useState(
@@ -181,6 +182,7 @@ const Form = ({
           if (downloadBrochure) {
             downloadFileAtUrl(brochurePdf); // Download the brochure only after a successful submission
           }
+          sessionStorage.setItem("pending_syllabus", courseId);
           router.push(
             pushPath,
             dataScience

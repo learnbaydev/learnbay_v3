@@ -748,6 +748,7 @@ Job assistance"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI-Powered_Cloud_DevOps_Engineering_Master_Program.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
+          courseId={"cloud-devops-master"}
         />
         <AlumniCompanies
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI-Powered_Cloud_DevOps_Engineering_Master_Program.pdf"

@@ -688,6 +688,7 @@ generative ai and agentic ai course for working professionals
           brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_Master_Program_for_Tech_Professionals.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
+          courseId={"genai-agentic-master"}
         />
         <AlumniCompanies
           brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_Master_Program_for_Tech_Professionals.pdf"

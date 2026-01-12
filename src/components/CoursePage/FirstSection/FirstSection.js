@@ -38,6 +38,7 @@ function FirstSection({
   microsoftOnly,
   DSAFresherHeadContent,
   DSA,
+  courseId,
 }) {
   const [popups, setPopups] = useState(false);
   const [video, setVideo] = useState(false);
@@ -55,6 +56,7 @@ function FirstSection({
         titleCourse={titleCourse}
         brochureLink={brochureLink}
         brochurePdf={brochurePdf}
+        courseId={courseId}
       />
       <VideoPopup triggers={video} setTriggers={setVideo} ids={idss} />
       <FirstContent

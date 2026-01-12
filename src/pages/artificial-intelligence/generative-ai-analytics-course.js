@@ -385,6 +385,7 @@ Endless job calls from top MNCs"
         <DABAFirstPart
           SecondSectionData={DataScienceCourseData.DABAData[0].secondSection}
           TestimonialData={DataScienceCourseData.DABAData[0].testimonial}
+          courseId={"genai-analytics"}
         />
         <DABASecondPart
           masterSyllabusMobile={

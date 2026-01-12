@@ -643,6 +643,7 @@ ai course for managers
           brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Managers_and_Leaders_GenAI_and_Agentic_AI_Program.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
+          courseId={"genai-managers"}
         />
         <AlumniCompanies
           brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Managers_and_Leaders_GenAI_and_Agentic_AI_Program.pdf"

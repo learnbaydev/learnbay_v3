@@ -736,6 +736,7 @@ Career assistance (Job assistance)"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-DBA-Professionalslink.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
+          courseId={"adv-cloud-devops"}
         />
         <AlumniCompaniesCloudDevopsDA
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Advanced_Cloud_and_Devops_Program.pdf"

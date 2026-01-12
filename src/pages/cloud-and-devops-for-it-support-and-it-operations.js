@@ -689,6 +689,7 @@ Job assistance"
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-ITS-%26-ITOps-Professionalslink.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
+          courseId={"cloud-it-support"}
         />
         <AlumniCompaniesCloudDevopsISIO
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud_and_Devops_Engineering_For_ITS_and_ITOps_Professionals.pdf"

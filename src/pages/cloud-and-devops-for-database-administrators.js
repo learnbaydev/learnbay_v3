@@ -650,6 +650,7 @@ devops database administrator
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-DBA-Professionalslink.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
+          courseId={"cloud-db-admin"}
         />
         <AlumniCompaniesCloudDevopsDA
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud_and_Devops_Engineering_For_DBA_Professionals.pdf"

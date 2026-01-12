@@ -618,6 +618,7 @@ genai course for software developers
           brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+Developer+Master+Certification+Programv1.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
+          courseId={"genai-software-dev"}
         />
         <AlumniCompanies
           brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/GenAI+Developer+Master+Certification+Programv1.pdf"

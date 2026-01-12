@@ -634,6 +634,7 @@ Clouds and DevOps Network professional program
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-Network-Professionalslink.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
+          courseId={"cloud-network-pro"}
         />
         <AlumniCompaniesCloudDevopsNP
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-Network-Professionalslink.pdf"

@@ -651,6 +651,7 @@ DevOps engineering for system administrator
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-System-Admin-Professionalslink.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
+          courseId={"cloud-sys-admin"}
         />
         <AlumniCompaniesCloudDevopsSA
           brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-System-Admin-Professionalslink.pdf"

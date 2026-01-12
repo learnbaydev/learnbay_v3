@@ -624,6 +624,7 @@ genai certification for cloud and devops
           brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_for_Cloud_and_DevOps.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
+          courseId={"genai-cloud-devops"}
         />
         <AlumniCompanies
           brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_for_Cloud_and_DevOps.pdf"

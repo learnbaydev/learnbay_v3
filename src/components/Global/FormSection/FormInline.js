@@ -29,6 +29,7 @@ const Form = ({
   interstedInHide,
   Domain,
   DomainInput,
+  courseId,
 }) => {
   const router = useRouter();
   const [formFields, setFormFields] = useState(
@@ -154,6 +155,7 @@ const Form = ({
         }
 
         if (sendData.status === 200) {
+          sessionStorage.setItem("pending_syllabus", courseId);
           router.push(
             pushPath,
             dataScience
@@ -328,7 +330,9 @@ const Form = ({
           {popup && (
             <input type="hidden" id="url" name="url" value={router.asPath} />
           )}
-          <div className={styles.optMsg}>{toggle ? "" : <p className={styles.alert}>{alertMSG}</p>}</div>
+          <div className={styles.optMsg}>
+            {toggle ? "" : <p className={styles.alert}>{alertMSG}</p>}
+          </div>
           {syllabus ? (
             <div className={styles.bottomWrap}>
               <p className={styles.FormText}>

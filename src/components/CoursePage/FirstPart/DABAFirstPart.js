@@ -38,7 +38,7 @@ const JobAbroad = dynamic(() =>
   import("../../MastersCourse/JobAbroad/JobAbroad")
 );
 const Realstory = dynamic(() => import("../../Home/Realstory/Realstory"));
-const DABAFirstPart = ({ SecondSectionData, TestimonialData }) => {
+const DABAFirstPart = ({ SecondSectionData, TestimonialData, courseId }) => {
   const seconddata = [
     {
       boldText: "IBM",
@@ -139,6 +139,7 @@ const DABAFirstPart = ({ SecondSectionData, TestimonialData }) => {
         idss="DPrMXHkPx0M"
         thumbnailUrl="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ba-f.webp"
         videoId="DPrMXHkPx0M"
+        courseId={courseId}
       />
       <MasterSecondSection data={seconddata} />
 

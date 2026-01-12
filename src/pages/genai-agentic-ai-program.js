@@ -641,6 +641,7 @@ genai and agentic ai certification
           brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_Program.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
+          courseId={"genai-agentic-program"}
         />
         <AlumniCompanies
           brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_Program.pdf"
