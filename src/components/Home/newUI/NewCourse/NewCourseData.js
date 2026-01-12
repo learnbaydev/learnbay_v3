@@ -1025,7 +1025,7 @@ export const courses = {
       description: "For Network Professionals",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICRO1.webp",
-      link: "/cloud-devops-for-network-professionals",
+      link: "/cloud-and-devops-for-network-professionals",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-Network-Professionalslink.pdf",
       brochurePdfs:
@@ -1039,7 +1039,7 @@ export const courses = {
       description: "For System Administrators",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENMICRO2.webp",
-      link: "/cloud-and-devOps-for-system-administrators",
+      link: "/cloud-and-devops-for-system-administrators",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/Cloud-and-Devops-Engineering-For-System-Admin-Professionalslink.pdf",
       brochurePdfs:

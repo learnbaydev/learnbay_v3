@@ -199,12 +199,12 @@ export const TabData = [
       {
         CName: "Cloud & DevOps for Network Professionals",
         hours: "5 Months",
-        url: "/cloud-devops-for-network-professionals",
+        url: "/cloud-and-devops-for-network-professionals",
       },
       {
         CName: "Cloud & DevOps for System Administrators",
         hours: "5 Months",
-        url: "/cloud-and-devOps-for-system-administrators",
+        url: "/cloud-and-devops-for-system-administrators",
       },
       {
         CName: "Cloud & DevOps for IT Support & IT Operations",
@@ -248,7 +248,7 @@ export const TabData = [
       {
         CName: "SDE Master's Program in GenAI & Agentic AI ",
         hours: "3 Months",
-        url: "/artificial-intelligence/sde-master-program-gen-ai-agentic-ai",
+        url: "/artificial-intelligence/sde-master-program-genai-agentic-ai ",
       },
     ],
   },

@@ -302,7 +302,7 @@ DevOps engineering for system administrator
         />
         <meta
           property="og:url"
-          content="https://www.learnbay.co/cloud-and-devOps-for-system-administrators"
+          content="https://www.learnbay.co/cloud-and-devops-for-system-administrators"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -323,7 +323,7 @@ DevOps engineering for system administrator
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/cloud-and-devOps-for-system-administrators"
+          content="https://www.learnbay.co/cloud-and-devops-for-system-administrators"
         />
         <meta
           name="twitter:title"
@@ -343,7 +343,7 @@ DevOps engineering for system administrator
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/cloud-and-devOps-for-system-administrators"
+          href="https://www.learnbay.co/cloud-and-devops-for-system-administrators"
         />
         <script
           type="application/ld+json"
@@ -353,7 +353,7 @@ DevOps engineering for system administrator
   "@type": "Course",
   "name": "Cloud & DevOps Program For System Administrators - Learnbay",
   "description": "Grow your SysAdmin career with cloud & DevOps training.  Learn AWS, Azure, Linux, automation, and real projects with Microsoft certification. Enroll now!",
-  "url": "https://www.learnbay.co/cloud-and-devOps-for-system-administrators",
+  "url": "https://www.learnbay.co/cloud-and-devops-for-system-administrators",
   "offers": {
     "@type": "offer",
     "price": "120000",
@@ -739,7 +739,7 @@ export default NewDSA;
 
 export async function getStaticProps() {
   const module = await import(
-    "../Data/cloud-and-devOps-for-system-administrators-data"
+    "../Data/cloud-and-devops-for-system-administrators-data"
   );
   const data = module.default;
 
