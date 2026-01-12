@@ -5,8 +5,18 @@ import SessionSection from "@/components/ThankYouNew/SessionSection";
 import WhyChooseUsSection from "@/components/ThankYouNew/WhyChooseUsSection";
 import Footer from "../components/Global/Footer/Footer";
 import Head from "next/head";
+import { useEffect, useState } from "react";
 
 const ThankYouDemo = ({ initialName, initialPhone }) => {
+  const [pdfUrl, setPdfUrl] = useState("");
+
+  useEffect(() => {
+    const courseId = sessionStorage.getItem("pending_syllabus");
+    if (courseId) {
+      setPdfUrl(courseId);
+    }
+  }, []);
+
   return (
     <>
       <Head>
@@ -28,7 +38,7 @@ const ThankYouDemo = ({ initialName, initialPhone }) => {
         interstedInHide={true}
       />
       <div style={{ marginTop: "80px" }}>
-        <BrochureDemoSection />
+        <BrochureDemoSection pdfUrl={pdfUrl} />
 
         <SessionSection />
         <WhyChooseUsSection />

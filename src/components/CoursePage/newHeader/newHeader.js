@@ -54,6 +54,7 @@ const Newheader = ({
 
   useEffect(() => {
     // console.log(brochurePdf);
+    sessionStorage.setItem("pending_syllabus", brochureLink);
   }, []);
 
   return (
