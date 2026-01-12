@@ -83,12 +83,12 @@ export const TabData = [
       {
         CName: "Cloud & DevOps for Network Professionals",
         hours: "5 months",
-        url: "/cloud-devops-for-network-professionals",
+        url: "/cloud-and-devops-for-network-professionals",
       },
       {
         CName: "Cloud & DevOps for System Administrators",
         hours: "5 months",
-        url: "/cloud-and-devOps-for-system-administrators",
+        url: "/cloud-and-devops-for-system-administrators",
       },
       {
         CName: "Advanced Cloud & DevOps Program ",

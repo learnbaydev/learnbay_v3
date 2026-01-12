@@ -292,7 +292,7 @@ Clouds and DevOps Network professional program
 
         <meta
           property="og:url"
-          content="https://www.learnbay.co/cloud-devops-for-network-professionals"
+          content="https://www.learnbay.co/cloud-and-devops-for-network-professionals"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -313,7 +313,7 @@ Clouds and DevOps Network professional program
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/cloud-devops-for-network-professionals"
+          content="https://www.learnbay.co/cloud-and-devops-for-network-professionals"
         />
         <meta
           name="twitter:title"
@@ -334,7 +334,7 @@ Clouds and DevOps Network professional program
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/cloud-devops-for-network-professionals"
+          href="https://www.learnbay.co/cloud-and-devops-for-network-professionals"
         />
         <script
           type="application/ld+json"
@@ -344,7 +344,7 @@ Clouds and DevOps Network professional program
   "@type": "Course",
   "name": "Cloud & DevOps training for Network Professionals - Learnbay",
   "description": "Advance your networking career with Learnbay's cloud & DevOps training. Learn AWS, cloud security, automation, and DevOps through live classes. Enrol now!",
-  "url": "https://www.learnbay.co/cloud-devops-for-network-professionals",
+  "url": "https://www.learnbay.co/cloud-and-devops-for-network-professionals",
   "offers": {
     "@type": "offer",
     "price": "120000",
@@ -722,7 +722,7 @@ export default NewDSA;
 
 export async function getStaticProps() {
   const module = await import(
-    "../Data/cloud-devops-for-network-professionals-data"
+    "../Data/cloud-and-devops-for-network-professionals-data"
   );
   const data = module.default;
 
