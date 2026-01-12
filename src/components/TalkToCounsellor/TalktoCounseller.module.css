@@ -1,0 +1,173 @@
+/* styles/StrategyModal.module.css */
+
+/* The dark overlay behind the modal */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  backdrop-filter: blur(4px); /* Optional: nice blur effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  opacity: 0;
+  animation: fadeIn 0.3s forwards;
+}
+
+/* The actual white card */
+.modal {
+  background: #ffffff;
+  width: 90%;
+  max-width: 450px; /* Limits width on desktop */
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  position: relative;
+
+  /* Crucial for mobile responsiveness: ensures it doesn't get cut off */
+  max-height: 90vh;
+  overflow-y: auto;
+
+  transform: scale(0.95);
+  animation: scaleUp 0.3s forwards;
+}
+
+/* Header Section */
+.header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.iconWrapper {
+  width: 48px;
+  height: 48px;
+  background-color: #dbeafe; /* Light blue bg */
+  color: #2563eb; /* Blue icon */
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px auto;
+}
+
+.title {
+  font-size: 1.25rem; /* 20px */
+  font-weight: 700;
+  color: #111827;
+  margin: 0 0 8px 0;
+}
+
+.subtitle {
+  font-size: 0.875rem; /* 14px */
+  color: #6b7280;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Form Styles */
+.formGroup {
+  margin-bottom: 16px;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 8px;
+}
+
+.labelIcon {
+  width: 16px;
+  height: 16px;
+  color: #374151;
+}
+
+.input,
+.select {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 0.95rem;
+  color: #374151;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background-color: #f9fafb; /* Very light grey bg for input */
+  transition: border-color 0.2s, box-shadow 0.2s;
+  box-sizing: border-box; /* Ensures padding doesn't break width */
+}
+
+.input:focus,
+.select:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+  background-color: #fff;
+}
+
+.input::placeholder {
+  color: #9ca3af;
+}
+
+/* Submit Button */
+.submitButton {
+  width: 100%;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 8px;
+  transition: background-color 0.2s;
+}
+
+.submitButton:hover {
+  background-color: #1d4ed8;
+}
+
+/* Footer */
+.footerText {
+  font-size: 0.75rem;
+  color: #9ca3af;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.errorText {
+  color: #ef4444;
+  font-size: 12px;
+  margin-top: 4px;
+  display: block;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleUp {
+  to {
+    transform: scale(1);
+  }
+}
+
+/* Mobile Tweak: Reduce padding slightly on very small screens */
+@media (max-width: 480px) {
+  .modal {
+    padding: 24px 20px;
+    width: 95%;
+  }
+}

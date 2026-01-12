@@ -144,7 +144,14 @@ const ThankYouAds = () => {
   //   if (!isOpen) return null;
 
   return (
-    <div className={styles.overlay}>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        margin: "100px",
+      }}
+    >
       <div className={styles.modal} onClick={(e) => e.stopPropagation()}>
         {success ? (
           <div className={styles.successWrapper}>

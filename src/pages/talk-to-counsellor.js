@@ -2,6 +2,7 @@ import Navbar from "@/components/Global/Navbar/Navbar";
 import Head from "next/head";
 import WhatsappFloat from "@/components/Global/WhatappsFloat/WhatsappFloat";
 import Footer from "../components/Global/Footer/Footer";
+import TalktoCounseller from "../components/TalkToCounsellor/TalktoCounseller";
 const talktocounsellor = () => {
   return (
     <>
@@ -23,7 +24,7 @@ const talktocounsellor = () => {
         dataScienceCounselling={true}
         interstedInHide={true}
       />
-
+      <TalktoCounseller />
       <Footer />
       <WhatsappFloat />
     </>
