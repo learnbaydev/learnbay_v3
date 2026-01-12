@@ -345,16 +345,16 @@ generative ai and agentic ai course for working professionals
         {/* <!-- Facebook Meta Tags --> */}
         <meta
           property="og:url"
-          content="https://www.learnbay.co/gen-ai-and-agentic-ai-master-program "
+          content="https://www.learnbay.co/gen-ai-and-agentic-ai-master-program"
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="GenAI Professional Developer Course Training - Learnbay"
+          content="GenAI & Agentic AI Master Program for Professionals - Learnbay"
         />
         <meta
           property="og:description"
-          content="Get certified in GenAI & Agentic AI. Learn from experts, work on industry projects, and upgrade your AI skills designed for working professionals. Join now!"
+          content="Advance your career with Learnbay’s GenAI & Agentic AI Master Program for Working Professionals. Build AI agents, RAG, & LLMOps projects with career support."
         />
         <meta
           property="og:image"
@@ -366,15 +366,15 @@ generative ai and agentic ai course for working professionals
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/gen-ai-and-agentic-ai-master-program "
+          content="https://www.learnbay.co/gen-ai-and-agentic-ai-master-program"
         />
         <meta
           name="twitter:title"
-          content="GenAI Professional Developer Course Training - Learnbay"
+          content="GenAI & Agentic AI Master Program for Professionals - Learnbay"
         />
         <meta
           name="twitter:description"
-          content="Get certified in GenAI & Agentic AI. Learn from experts, work on industry projects, and upgrade your AI skills designed for working professionals. Join now!"
+          content="Advance your career with Learnbay’s GenAI & Agentic AI Master Program for Working Professionals. Build AI agents, RAG, & LLMOps projects with career support."
         />
         <meta
           name="twitter:image"
