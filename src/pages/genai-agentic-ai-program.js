@@ -115,7 +115,7 @@ const NewDSA = ({ DSADataJson }) => {
           ques: "What are the unique career perks delivered through a GenAI & Agentic AI program?",
           ans: "Learners joining our Data Science and Generative AI course online will receive proven career benefits. Apart from this, you will receive extra benefits like –",
           open: false,
-          list1: "3-year flexible subscription",
+          list1: "3-year flexi subscription",
           list2: "BYOP+Mentorship",
           list3: "AI CoLab experience",
           list4: "IBM Generative AI certification",
