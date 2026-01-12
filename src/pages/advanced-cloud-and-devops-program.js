@@ -409,6 +409,310 @@ Best certification for advanced cloud and DevOps
 `,
           }}
         />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
+             "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is the duration of the Cloud Computing and DevOps Certification Program?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You can become a certified DevOps Engineer in 150+ hours ( 5 months) of instructor-led training with flexible training sessions (weekdays & weekends)."
+    }
+  },{
+    "@type": "Question",
+    "name": "What prerequisites are required to enroll in this certification program?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The cloud technology course is beginner-friendly, and IT/non-IT experts can opt for this. You can join this program with a basic knowledge of statistics/mathematics and fundamental concepts of IT. It teaches technical skills with programming languages from scratch."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is this certification program suitable for beginners in IT?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, this certification is suitable for beginners in the IT domain. Freshers in IT can enroll in Cloud networking courses to learn in-demand tools. IT pros eager to learn promising DevOps practices and Cloud skills can opt for this program. You will get an open learning experience with renowned faculty and become job-ready."
+    }
+  },{
+    "@type": "Question",
+    "name": "What cloud platforms are covered in the program?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "During the cloud computing classes, we will cover Google Cloud Platform, Microsoft Azure, and Amazon AWS concepts and tools to craft an unbeatable Cloud and DevOps career."
+    }
+  },{
+    "@type": "Question",
+    "name": "Are there any real-world projects or case studies included in the program?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The Advanced Cloud Computing and DevOps Certification Program includes ten real-time projects and some case studies in different learning modules. Real-time projects help experts explore the practical use of learned tools and tackle issues well. Case studies and practical exercises help learners enrich their knowledge concerning the latest trends."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do I stay updated on course content and any changes in the program?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay has a customized application that enables learners to stay updated with recent developments. It also has an interface to chat online with the respective groups and mentors for further doubt clearance. Any updates in the course content or related things are communicated via the online app or sessions."
+    }
+  },{
+    "@type": "Question",
+    "name": "How does the program get updated with the recent developments in Cloud technology and DevOps practices?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay follows each significant industrial/job market incident across the global IT sector and its impacts on specific job roles. Quality industry research, networking with industry experts, and tie-ups with industry partners keep us updated with the latest trends in Cloud and DevOps practices. In the same way, our course syllabus has been revamped as per the recent developments with AWS, Microsoft Azure, and GCP."
+    }
+  },{
+    "@type": "Question",
+    "name": "How does this program prepare students for real-world cloud and DevOps challenges?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "This program prepares students to face real-world cloud computing and DevOps challenges. Its instructor-led training sessions by industry experts shall help you get versed in real-time issues linked to Cloud & DevOps practices. You gain real insights into your domain specializations that prepare you for the future."
+    }
+  },{
+    "@type": "Question",
+    "name": "How much does the Cloud Computing and DevOps Certification Program cost?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The DevOps & Cloud Computing course fee is INR 1,20,000 plus 18% GST."
+    }
+  },{
+    "@type": "Question",
+    "name": "Are there any installment options available for program payments?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we have an installment payment facility where you can pay in 6, 9, and 12 months of EMI. You can make payments through Credit card, UPI, or Internet banking."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I pay for the course using credit cards, and are there other payment methods accepted?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, you can pay for the course using credit cards. Some other payment options, like UPI or Internet banking, are also available."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is financial aid or scholarships available for the Cloud Computing and DevOps Certification Program?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay offers scholarships to eligible students after reviewing their profiles. Eligible learners will receive up to a 25% scholarship for the desired course."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can I apply for scholarships, and what are the eligibility criteria?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You must contact and book a counseling session with a career counselor to get details of the course and scholarship schemes. It will be a telephone discussion of 15 – 20 minutes."
+    }
+  },{
+    "@type": "Question",
+    "name": "Are there any discounts for early registration in the program?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we offer early bird discounts of 15% – 20% for learners registering in the program at first. Yet, a group discount is available for the learners who join with one or more friends. 
+
+Group of 2: 5% extra discount
+Group of 3: 8% additional discount
+Group of 4+: Max 10% discount"
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there a refund policy in case I need to withdraw from the program?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we offer an effortless refund or cancellation policy for those who need to withdraw from the program. For further details, refer to Learnbay’s Refund/Cancellation Policy."
+    }
+  },{
+    "@type": "Question",
+    "name": "Are there any additional costs for course materials, textbooks, or certification exams?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No, you don’t have to pay additionally for course materials, textbooks, or certification exams. With just payment of course fees, you can start upskilling."
+    }
+  },{
+    "@type": "Question",
+    "name": "How many real-time projects will there be?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You will get 50+ Hours of Industrial Projects and 12+ Hours of Capstone Projects with this program in different domains or areas of expertise."
+    }
+  },{
+    "@type": "Question",
+    "name": "How will the project be executed?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learners can choose the project based on their domain electives and learning goals. Mentors will guide you throughout the project tasks at the offline project innovation labs."
+    }
+  },{
+    "@type": "Question",
+    "name": "Could you elaborate on the capstone project and its significance in the certification program?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Capstone projects encompass the skills to see through real business scenarios and tackle them with proven expertise. It arms you with a set of skills that are valued by employers and expands your earning potential. It consists of stimulated projects that help you practice the in-demand tools. It helps to assess your skills and knowledge and makes room for improvement to sustain in the desired field. Plus, capstone projects have the significance of building an unbeatable project portfolio and validating your skills."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there any accredited certification after course completion?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. You will obtain globally accredited certifications from Microsoft once you complete the course and projects."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is the certification internationally recognized?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, the certification is globally recognized, which enriches your career and validates the learned skills for better job prospects."
+    }
+  },{
+    "@type": "Question",
+    "name": "What type of certification do I receive upon course completion?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Upon completion of the course, you will receive three course certificates from Microsoft and a Course Completion Certificate from Learnbay"
+    }
+  },{
+    "@type": "Question",
+    "name": "Are there any additional costs associated with the certification?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The certification has no other costs included apart from the course fees."
+    }
+  },{
+    "@type": "Question",
+    "name": "How does this program cater to individuals interested in pursuing a career as a DevOps engineer?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The Cloud Computing and DevOps Certification Program aims to support career-building with promising job roles. Working experts eager to pursue a career as a DevOps Engineer will get uninterrupted training sessions. Hands-on learning of tools helps learners future-proof their skills with assured job offers. It's 100% dedicated placement support helps experts crack promising job offers across MNCs/MAANG with better pay cheques."
+    }
+  },{
+    "@type": "Question",
+    "name": "What distinguishes this cloud computing course from others in the market?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay believes in real-time upskilling to enrich the existing skill sets and attain career success. Its Cloud Computing and DevOps Certification Program is different from others in the following ways –
+
+Industry-driven syllabus with AWS, Microsoft Azure, and GCP
+Guaranteed calls for Interviews from Industry partners 
+Globally recognized project certification from Microsoft
+Domain-specific training 
+100% 1:1 live interactions with industry experts
+On-demand video doubt-clearing support
+Customized resume preparation"
+    }
+  },{
+    "@type": "Question",
+    "name": "Can you provide details on the job assistance provided after completing the Cloud Computing and DevOps Certification Program?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "After completing the Cloud Computing and DevOps Certification Program, end-to-end job assistance is offered to learners. Learners with a minimum of 70% in assessments and completed projects are eligible to get job assistance from Learnbay. We have a Career assistance and job referral for eligible learners, where they will get benefits like – 
+
+Uninterrupted Job and Placement Support
+Complete access to course materials and resources
+1:1 Mock Interviews with any of 450+ Industry Experts 
+24/7 contact with Mentors
+Resume Building Session
+1:1 LinkedIn Review Session
+Dedicated Placement Team for soft skills training"
+    }
+  },{
+    "@type": "Question",
+    "name": "What resources or support systems are in place to help graduates secure positions in the field of cloud computing and DevOps?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay offers industry-paced training to help graduates secure a promising position in Cloud Computing and DevOps. Resources or support they offer are –
+
+360-degree knowledge-building training 
+Live projects for practical learning
+Training on in-demand Cloud & DevOps tools
+100% placement support 
+Globally recognized certifications ( Microsoft)"
+    }
+  },{
+    "@type": "Question",
+    "name": "Explain job referral and career assistance by Learnbay?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay’s job referral and career assistance aims to support a successful career transition in a preferred role. It has features like –
+
+AI-Optimized Resume, ATS-friendly, and Job-ready
+5 Mock Interviews with Industry Experts 
+1:1 LinkedIn Review Session
+Dedicated Placement Team
+
+You can opt for Career assistance for the Cloud and DevOps Program to crack in-demand jobs in the IT sector."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is there any support or mentorship provided during the course?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we believe in industry-driven mentorship to justify a career transition. We have renowned faculty from promising MNCs/MAANG who mentor our learners. Once you enroll in the course, we will assign you a mentor/instructor to guide you throughout the course. Mentors guide you with real work experiences so that you can tackle the issues with proven solutions."
+    }
+  },{
+    "@type": "Question",
+    "name": "Are there mentors available to help with coursework and projects?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our experienced mentors are there to help you with coursework, case studies, practical exercises, and fresh capstone projects. Learners will gain insights into real-world applications of Cloud and DevOps practices. Mentors help learners with 1:1 doubt-clearing, offline project handling, and coursework activities. Thus, you will get complete support from your mentor with valuable results."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can I connect with a mentor?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "An industry-specific mentor is assigned to learners, enrolling in the Cloud Computing and DevOps Program. You can contact your mentor 24/7 directly via the Learnbay app. You can contact them personally over the phone or via app chat sessions."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the typical response time for mentor support?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "After enrolling in the Cloud Computing and DevOps Program, you can get along with your mentor for each discussion or need. Our mentors are there to support your queries at any time (during and after the training sessions). So, within 10-15 minutes, you can get mentor support to resolve queries concerning coursework or live projects."
+    }
+  },{
+    "@type": "Question",
+    "name": "Are there dedicated support channels for addressing technical issues during the course?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Learnbay has a centralized technical support system to help learners with related issues during the course. This technical support is available 24/7 to solve all your queries as soon as possible. In case you face technical issues during login, logout, training sessions, attendance, or other issues, our dedicated experts are there to help."
+    }
+  },{
+    "@type": "Question",
+    "name": "What kind of support is available for students enrolled in the Cloud Computing and DevOps Certification Program?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "After enrolling in the Cloud Computing and DevOps Certification Program, learners will get support for –
+
+Technical/non-technical issues
+Contacting mentors 
+1:1 clarification
+Course materials
+Coursework and project handling help
+Career assistance (Job assistance)"
+    }
+  },{
+    "@type": "Question",
+    "name": "How can students get assistance with course materials or clarification on concepts related to cloud technology and DevOps?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Dedicated mentorship is an effective solution for clarification of concepts and 360-degree knowledge-building. You can directly reach your mentor in case of doubts or further clarifications on Cloud and DevOps concepts. The Learnbay app is the medium of contact where you can raise your doubts about course materials and training."
+    }
+  },{
+    "@type": "Question",
+    "name": "Are there specific support options for those preparing for DevOps certification exams?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Career assistance is an exclusively designed solution for learners preparing for DevOps certification exams or placement. It helps learners with 1:1 doubt clearing, mock interviews, mentorship, resume building, and soft skills training. Learners can reach their mentors at any time to get support in certification exams or appear in job interviews."
+    }
+  }]
+
+            }`,
+          }}
+        />
       </Head>
       <main>
         <Navbar

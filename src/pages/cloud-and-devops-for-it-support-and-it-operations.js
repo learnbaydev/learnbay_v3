@@ -391,6 +391,281 @@ cloud certification for it professionals
 `,
           }}
         />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
+            "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the duration of the Cloud and DevOps Engineering Program for IT Support & Operations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can become a certified DevOps and cloud professional by participating in 150+ hours of live online sessions. This DevOps training is instructor-led with flexible sessions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What prerequisites are required to enroll in this program?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This program is suitable for entry to mid-level IT professionals with a minimum of 1 year of work experience. Professionals working as IT support and IT Ops engineers are the most welcomed for this certification."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this Cloud Computing Course suitable for beginners in IT?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, this certification is not an ideal match for freshers, irrespective of the domain. It demands a minimum of 1 year of working experience in the IT domain."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What cloud platforms are covered in the Cloud and DevOps Engineering Program for IT support professionals?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "During the cloud computing classes, we will cover Google Cloud Platform, Microsoft Azure, and Amazon AWS concepts and tools with hands-on training."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there any real-world projects or case studies included in the program?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Google Cloud Course includes four real-time industrial projects. Real-time projects help experts explore the application-based learning of the relevant tools and tackle issues well."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I stay updated on course content and any changes in the Cloud Computing Course with Real-Time Projects?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Learnbay has a customized application that enables learners to stay updated with recent developments. It also has an interface to chat online with the respective groups and mentors for further doubt clearance. Any updates in the course content or related things are communicated via the online app or sessions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does the program get updated with the recent developments in cloud technology and DevOps practices?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Learnbay follows each significant industrial or latest developments worldwide and their impacts on specific job roles. Quality industry research, networking with industry experts, and tie-ups with industry partners keep us updated with the latest trends in these practices. In the same way, our course syllabi are continuously updated according to recent developments. This includes AWS, Microsoft Azure, and GCP."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does this program prepare students for real-world cloud and DevOps challenges?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The DevOps Training with Capstone Projects prepares students to face real-world challenges in IT support and operations. Its trainer-led training sessions by industry professionals help you get versed in real-time issues linked to Cloud & DevOps practices. You gain real insights into your domain specializations and generative AI that prepare you for the future."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does the Cloud Computing Course with Real-Time Projects for ITS and ITOps cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The course fee is INR 1,20,000 plus 18% GST."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there any payment instalment options available for the Cloud Computing Course for ITs and ITOps?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we have an instalment payment facility where you can make expenses through a Credit card, UPI, or Internet banking."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I pay for the course using credit cards, and are there other payment methods accepted?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can pay for the course using credit cards. Some other payment options, like UPI or Internet banking, are also available."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a refund policy in case I need to withdraw from the program?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we offer an effortless refund or cancellation policy for those who need to withdraw from the program. For further details, refer to Learnbay’s Refund/Cancellation Policy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there any additional costs for course materials, textbooks, or certification exams?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, you don’t have to pay additionally for course materials, textbooks, or certification exams. With just the payment of course fees, you can get started with the learning.
+"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many capstone projects will there be?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You will get four capstone projects with this program."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Could you elaborate on the capstone project and its significance in the Google Cloud Course?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Capstone projects encompass the proficiency to see through actual business scenarios and tackle them with proven expertise. It equips you with a set of skills that employers value. This helps in increasing your earning limits. It consists of stimulating projects that help you practice the in-demand tools. It helps to evaluate your skills and knowledge. Thus, making room for improvement to sustain in the desired field. Plus, the project work builds a project portfolio and validates your skills in the eyes of recruiters."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there any accredited certification after course completion?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you will obtain globally accredited certifications from Microsoft and Learnbay once you complete the course and projects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the certification internationally recognised?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the certification is globally recognised, which enriches your career and validates the learned skills for better job prospects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What type of certification do I receive upon course completion?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Upon completion of the course, you will receive three Microsoft certifications (Solution Architect Expert, Azure Fundamentals, Administrator Associate) and one course completion certificate from Learnbay."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there any additional costs associated with the course?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The certification has no other expenses included apart from the course fees."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does this program cater to individuals interested in pursuing a career as a certified cloud professional?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This program aims to support career-building with promising job roles. IT experts eager to pursue a career as a DevOps Engineer will get uninterrupted training sessions. Hands-on learning of tools helps learners future-proof their skills with assured job offers. It's 100% dedicated placement support helps experts crack promising job offers across MNCs and other reputed companies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What distinguishes this Cloud Engineering Course from others in the market?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Learnbay believes in real-time upskilling to enrich the existing skill sets and attain career success. Its DevOps Training for Working Professionals is different from others in the following ways –
+
+Industry-driven syllabus with AWS, Microsoft Azure, and GCP,
+Guaranteed calls for Interviews from Industry partners,
+Globally recognised project certification from Microsoft,
+Domain-specific training (IT Support & Operations),
+100%  live interactions with industry experts,
+On-demand 1:1 doubt-clearing support,
+Resume preparation "
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What resources or support systems are in place to help graduates secure positions in the field of cloud operations and DevOps?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Learnbay offers industry-paced training to help graduates secure a promising position in Cloud and DevOps. The resources or support they offer are –
+
+Comprehensive knowledge-building and practical training,
+Live projects for practical learning,
+Training on in-demand Cloud & DevOps tools,
+100% placement support,
+Industry recognised certifications from Microsoft & Learnbay"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there any support or mentorship provided during the course?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we believe in industry-driven mentorship to justify a career transition. We have renowned faculty from promising MNCs who mentor our aspirants. Once you enrol in the course, we will allocate you a mentor or instructor to guide you throughout the coursework. Mentors guide you with real-world experiences so that you can tackle the issues with proven solutions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there mentors available to help with coursework and projects?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our experienced mentors are there to help you with coursework, case studies, practical exercises, and fresh capstone projects. Learners will gain insights into real-world applications of cloud operations and DevOps tools. Mentors help learners with 1:1 doubt-clearing, project handling, and coursework activities. Thus, you will get complete support from your mentor with valuable results."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I connect with a mentor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An industry-specific mentor is assigned to learners enrolling in the program. You can contact your mentor 24/7 directly via the Learnbay app. You can contact them personally over the phone or via app chat sessions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the typical response time for mentor support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "After enrolling in the Cloud & DevOps Engineering Program, you can get along with your mentor for each discussion or need. Our mentors are there to support your queries at any time (during and after the training sessions). So, within 10-15 minutes, you can get mentor support to resolve queries concerning coursework or live projects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there dedicated support channels for addressing technical issues during the course?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Learnbay has a centralised technical support system to help learners with related issues during the course. This technical support is available 24/7 to solve all your queries as soon as possible. In case you face technical problems during login, logout, training sessions, attendance, or other activities, our dedicated experts are there to help."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What kind of support is available for students enrolled in the Cloud and DevOps Engineering for ITS & ITOps Professionals?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "After enrolling in the DevOps Training, learners will get support for–
+
+Technical/non-technical issues,
+Contacting mentors,
+1:1 clarification,
+Course materials,
+Coursework and project handling help
+Job assistance"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can students get assistance with course materials or clarification on concepts related to cloud technology and DevOps?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dedicated mentorship is an effective solution for clarification of concepts and holistic knowledge-building. You can directly reach your mentor in case of doubts or further clarification on Cloud and DevOps concepts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there specific support options for those preparing for Cloud & DevOps exams?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The placement service is an exclusively designed solution for learners preparing for DevOps certification exams or placement. It helps learners with 1:1 doubt clearing, mock interviews, mentorship, resume building, and soft skills training. Learners can reach their mentors at any time to get support in certification exams or to appear in job interviews."
+      }
+    }
+  ]
+
+            }`,
+          }}
+        />
       </Head>
       <main>
         <Navbar
