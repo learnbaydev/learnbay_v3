@@ -5,7 +5,7 @@ const highlightsData = [
     headingColor: "#873E18",
     descColor: "#525252",
     description:
-      "Go beyond issue-fixing to operating production cloud systems.Learn monitoring, SLAs, automation, and reliability practices used by modern teams.",
+      "Go beyond issue-fixing to operating production cloud systems. Learn monitoring, SLAs, automation, and reliability practices used by modern teams.",
     image: "",
     width: 550,
     height: 260,
@@ -23,7 +23,7 @@ const highlightsData = [
     headingColor: "#048C5D",
     descColor: "#1F4034",
     description:
-      "Work with Cloud Ops & DevOps mentors on real incidents and alerts.Learn operational decision-making as it happens in production.",
+      "Work with Cloud Ops & DevOps mentors on real incidents and alerts. Learn operational decision-making as it happens in production.",
     image: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Frame.webp",
     width: 330,
     height: 190,
@@ -61,7 +61,7 @@ const highlightsData = [
     headingColor: "#583EDB",
     descColor: "#1C1C1C",
     description:
-      "Practice incident handling, monitoring, and root cause analysis.Get expert feedback to confidently step into Cloud Ops & DevOps roles.",
+      "Practice incident handling, monitoring, and root cause analysis. Get expert feedback to confidently step into Cloud Ops & DevOps roles.",
     image:
       "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/new-UI/img-4.webp",
     width: 260,
