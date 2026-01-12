@@ -50,7 +50,268 @@ const NewDSA = ({ DSADataJson }) => {
   const pdfUrl =
     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI-Powered+Cloud+DevOps+Engineering+Master+Program+(8)_compressed+.pdf";
 
-  const faqNewData = [];
+  const faqNewData = [
+    {
+      id: 0,
+      sectionName: "Course Related",
+      data: [
+        {
+          id: 0,
+          ques: "What is the duration of the Cloud and DevOps Engineering Masters Program?",
+          ans: "You can become a certified DevOps and cloud professional by participating in 8 months of live online sessions. This DevOps training is instructor-led with flexible sessions.",
+          open: true,
+        },
+        {
+          id: 1,
+          ques: "What prerequisites are required to enroll in the DevOps Training with IBM Certification?",
+          ans: "This program is suitable for entry to mid-level IT professionals with a minimum of 1 year of work experience. Professionals such as system administrators, solution architects, support engineers, and IT experts are the most welcomed for this certification.",
+          open: false,
+        },
+        {
+          id: 2,
+          ques: "Is this Cloud Computing Course suitable for beginners in IT?",
+          ans: "No, this certification is not an ideal match for freshers, irrespective of the domain. It demands a minimum of 1 year of working experience in the IT domain. Thus, it can be said that it is a DevOps Training for Working Professionals.",
+          open: false,
+        },
+        {
+          id: 3,
+          ques: "What cloud platforms are covered in the Cloud and DevOps Engineering Masters Program?",
+          ans: "During the cloud computing classes, we will cover Google Cloud Platform, Microsoft Azure, and Amazon AWS concepts and tools with hands-on training.",
+          open: false,
+        },
+        {
+          id: 4,
+          ques: "Are there any real-world projects or case studies included in the program?",
+          ans: "The Google Cloud Course includes four real-time industrial projects. Real-time projects help experts explore the application-based learning of the relevant tools and tackle issues well.",
+          open: false,
+        },
+        {
+          id: 5,
+          ques: "How do I stay updated on course content and any changes in the Cloud Computing Course with Real-Time Projects?",
+          ans: "Learnbay has a customized application that enables learners to stay updated with recent developments. It also has an interface to chat online with the respective groups and mentors for further doubt clearance. Any updates in the course content or related things are communicated via the online app or sessions.",
+          open: false,
+        },
+        {
+          id: 6,
+          ques: "How does the program get updated with the recent developments in Cloud technology and DevOps practices?",
+          ans: "Learnbay follows each significant industrial or latest developments worldwide and their impacts on specific job roles. Quality industry research, networking with industry experts, and tie-ups with industry partners keep us updated with the latest trends in these practices. In the same way, our course syllabi are continuously updated according to recent developments. This includes AWS, Microsoft Azure, and GCP.",
+          open: false,
+        },
+        {
+          id: 7,
+          ques: "How does this program prepare students for real-world cloud and DevOps challenges?",
+          ans: "The DevOps Training with Capstone Projects prepares students to face real-world cloud computing and DevOps challenges. Its trainer-led training sessions by industry professionals help you get versed in real-time issues linked to Cloud & DevOps practices. You gain real insights into your domain specializations and generative AI that prepare you for the future.",
+          open: false,
+        },
+      ],
+    },
+    {
+      id: 1,
+      sectionName: "PAYMENTS & SCHOLARSHIPS",
+      data: [
+        {
+          id: 0,
+          ques: "How much does the Cloud Computing Course with Real-Time Projects cost?",
+          ans: "The DevOps & Cloud Computing course fee is INR 1,59,000 plus 18% GST.",
+          open: false,
+        },
+        {
+          id: 1,
+          ques: "Are there any payment installment options available for the Cloud Computing Course with Generative AI Integration?",
+          ans: "Yes, we have an installment payment facility where you can make expenses through a Credit card, UPI, or Internet banking.",
+          open: false,
+        },
+        {
+          id: 2,
+          ques: "Can I pay for the course using credit cards, and are there other payment methods accepted?",
+          ans: "Yes, you can pay for the course using credit cards. Some other payment options, like UPI or Internet banking, are also available.",
+          open: false,
+        },
+        {
+          id: 3,
+          ques: "Is there a refund policy in case I need to withdraw from the program?",
+          ans: "Yes, we offer an effortless refund or cancellation policy for those who need to withdraw from the program. For further details, refer to Learnbay’s Refund/Cancellation Policy.",
+          open: false,
+        },
+        {
+          id: 4,
+          ques: "Are there any additional costs for course materials, textbooks, or certification exams?",
+          ans: "No, you don’t have to pay additionally for course materials, textbooks, or certification exams. With just the payment of course fees, you can get started with the learning.",
+          open: false,
+        },
+      ],
+    },
+    {
+      id: 2,
+      sectionName: "CAPSTONE AND REAL-TIME PROJECTS",
+      data: [
+        {
+          id: 0,
+          ques: "How many real-time projects will there be?",
+          ans: "You will get four real-time industrial projects with this program in diverse domains or areas of specialization.",
+          open: false,
+        },
+        {
+          id: 1,
+          ques: "Could you elaborate on the capstone project and its significance in the Google Cloud Course?",
+          ans: "Capstone projects encompass the proficiency to see through actual business scenarios and tackle them with proven expertise. It equips you with a set of skills that are valued by employers. This helps in increasing your earning limits. It consists of stimulating projects that help you practice the in-demand tools. It helps to evaluate your skills and knowledge. Thus, making room for improvement to sustain in the desired field. Plus, the project work builds a project portfolio and validates your skills in the eyes of recruiters.",
+          open: false,
+        },
+      ],
+    },
+    {
+      id: 3,
+      sectionName: "CERTIFICATION",
+      data: [
+        {
+          id: 0,
+          ques: "Is there any accredited certification after course completion?",
+          ans: "Yes. You will obtain globally accredited certifications from IBM, Microsoft, and Learnbay once you complete the course and projects.",
+          open: false,
+        },
+        {
+          id: 1,
+          ques: "Is the DevOps Training with IBM Certification internationally recognized?",
+          ans: "Yes, the certification is globally recognized, which enriches your career and validates the learned skills for better job prospects.",
+          open: false,
+        },
+        {
+          id: 2,
+          ques: "What type of certification do I receive upon course completion?",
+          ans: "Upon completion of the course, you will receive –",
+          open: false,
+          dscoursefaq1: true,
+          list1: "One Generative AI Certification from IBM",
+          list2: "Cloud & DevOps certification from IBM",
+          list3: "Three Microsoft Azure certifications",
+          list4: "One AI Co-Lab Project Certification",
+        },
+        {
+          id: 3,
+          ques: "Are there any additional costs associated with the AWS Certification Azure Training?",
+          ans: "The certification has no other expenses included apart from the course fees.",
+          open: false,
+        },
+      ],
+    },
+    {
+      id: 4,
+      sectionName: "JOB ASSISTANCE",
+      data: [
+        {
+          id: 0,
+          ques: "How does this program cater to individuals interested in pursuing a career as a DevOps engineer?",
+          ans: "The Cloud Computing Course with Placement aims to support career-building with promising job roles. Working experts eager to pursue a career as a DevOps Engineer will get uninterrupted training sessions. Hands-on learning of tools helps learners future-proof their skills with assured job offers. It's 100% dedicated placement support helps experts crack promising job offers across MNCs and other reputed companies.",
+          open: false,
+        },
+        {
+          id: 1,
+          ques: "What distinguishes this Cloud Computing Course from others in the market?",
+          ans: "Learnbay believes in real-time upskilling to enrich the existing skill sets and attain career success. Its DevOps Training for Working Professionals is different from others in the following ways –",
+          open: false,
+          dscoursefaq1: true,
+          list1: "Industry-driven syllabus with AWS, Microsoft Azure, and GCP",
+          list2: "Guaranteed calls for Interviews from Industry partners",
+          list3: "Globally recognized project certification from IBM",
+          list4:
+            "Domain-specific training, AI Co-Lab experience, and 1:1 doubt-clearing",
+        },
+        {
+          id: 2,
+          ques: "Can you provide details on the job assistance provided after completing the Cloud Computing and DevOps Certification Program?",
+          ans: "After DevOps Training with Mock Interviews, end-to-end job assistance is offered to learners. We have a 3-year flexi pass deal for eligible learners, where they will get benefits like–",
+          open: false,
+          dscoursefaq1: true,
+          list1: "Uninterrupted Job and Placement Support",
+          list2: "1:1 Mock Interviews with 350+ Industry Experts",
+          list3: "Resume Building and LinkedIn Review Sessions",
+          list4: "24/7 contact with Mentors and soft skills training",
+        },
+        {
+          id: 3,
+          ques: "What resources or support systems are in place to help graduates secure positions in the field of cloud computing and DevOps?",
+          ans: "Learnbay offers industry-paced training to help graduates secure a promising position in Cloud Computing and DevOps. The resources or support they offer are –",
+          open: false,
+          dscoursefaq1: true,
+          list1: "Comprehensive knowledge-building and live projects",
+          list2: "Training on in-demand Cloud & DevOps tools",
+          list3: "100% placement support",
+          list4: "Globally recognized certifications from IBM & Microsoft",
+        },
+        {
+          id: 4,
+          ques: "Explain Learnbay's flexi pass. Can I opt for a flexi pass for the Cloud Computing Course with Real-Time Projects?",
+          ans: "Learnbay’s flexi pass aims to support a successful career transition into a preferred role. It has features like –",
+          open: false,
+          dscoursefaq1: true,
+          list1: "3 years of Job and Placement Support",
+          list2: "1:1 Mock Interviews with Industry Experts",
+          list3: "Resume Preparation and LinkedIn Review Sessions",
+          list4: "Dedicated Placement Team assistance",
+        },
+      ],
+    },
+    {
+      id: 5,
+      sectionName: "MENTORSHIPS",
+      data: [
+        {
+          id: 0,
+          ques: "Is there any support or mentorship provided during the course?",
+          ans: "Yes, we believe in industry-driven mentorship to justify a career transition. We have renowned faculty from promising MNCs who mentor our aspirants. Once you enroll in the course, we will allocate you a mentor or instructor to guide you throughout the coursework. Mentors guide you with real-world experiences so that you can tackle the issues with proven solutions.",
+          open: false,
+        },
+        {
+          id: 1,
+          ques: "Are there mentors available to help with coursework and projects?",
+          ans: "Our experienced mentors are there to help you with coursework, case studies, practical exercises, and fresh capstone projects. Learners will gain insights into real-world applications of Cloud and DevOps practices. Mentors help learners with 1:1 doubt-clearing, project handling, and coursework activities. Thus, you will get complete support from your mentor with valuable results.",
+          open: false,
+        },
+        {
+          id: 2,
+          ques: "How can I connect with a mentor?",
+          ans: "An industry-specific mentor is assigned to learners enrolling in the Cloud Computing and DevOps Program. You can contact your mentor 24/7 directly via the Learnbay app. You can contact them personally over the phone or via app chat sessions.",
+          open: false,
+        },
+        {
+          id: 3,
+          ques: "What is the typical response time for mentor support?",
+          ans: "After enrolling in the Cloud Computing and DevOps Program, you can get along with your mentor for each discussion or need. Our mentors are there to support your queries at any time (during and after the training sessions). So, within 10-15 minutes, you can get mentor support to resolve queries concerning coursework or live projects.",
+          open: false,
+        },
+      ],
+    },
+    {
+      id: 6,
+      sectionName: "SUPPORT",
+      data: [
+        {
+          id: 0,
+          ques: "Are there dedicated support channels for addressing technical issues during the course?",
+          ans: "Learnbay has a centralized technical support system to help learners with related issues during the course. This technical support is available 24/7 to solve all your queries as soon as possible. In case you face technical problems during login, logout, training sessions, attendance, or other activities, our dedicated experts are there to help.",
+          open: false,
+        },
+        {
+          id: 1,
+          ques: "What kind of support is available for students enrolled in the Cloud Computing and DevOps Master Certification Program?",
+          ans: "After enrolling in the DevOps Training, learners will get support for technical/non-technical issues, contacting mentors, 1:1 clarification, course materials, coursework, project handling, and job assistance.",
+          open: false,
+        },
+        {
+          id: 2,
+          ques: "How can students get assistance with course materials or clarification on concepts related to cloud technology and DevOps?",
+          ans: "Dedicated mentorship is an effective solution for clarification of concepts and 360-degree knowledge-building. You can directly reach your mentor in case of doubts or further clarification on Cloud and DevOps concepts.",
+          open: false,
+        },
+        {
+          id: 3,
+          ques: "Are there specific support options for those preparing for DevOps certification exams?",
+          ans: "The placement service is an exclusively designed solution for learners preparing for DevOps certification exams or placement. It helps learners with 1:1 doubt clearing, mock interviews, mentorship, resume building, and soft skills training. Learners can reach their mentors at any time to get support in certification exams or to appear in job interviews.",
+          open: false,
+        },
+      ],
+    },
+  ];
   return (
     <>
       <Head>
