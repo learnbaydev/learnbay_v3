@@ -11,7 +11,7 @@ export const TabData = [
       {
         CName: "GenAI & Agentic AI Master Program",
         hours: "9 Months",
-        url: "/gen-ai-and-agentic-ai-master-program",
+        url: "/genai-and-agentic-ai-master-program",
       },
       {
         CName: "AI-Powered Cloud & DevOps Master Program ",
@@ -42,7 +42,7 @@ export const TabData = [
       {
         CName: "GenAI & Agentic AI Master Program",
         hours: "9 Months",
-        url: "/gen-ai-and-agentic-ai-master-program",
+        url: "/genai-and-agentic-ai-master-program",
       },
       {
         CName: "GenAI & Agentic AI For Manager & Leaders ",
@@ -114,7 +114,7 @@ export const TabData = [
       {
         CName: "GenAI & Agentic AI Master Certification Program ",
         hours: "9 months",
-        url: "/gen-ai-and-agentic-ai-master-program",
+        url: "/genai-and-agentic-ai-master-program",
       },
       {
         CName: "AI-Powered Cloud and DevOps Masters Program",
@@ -150,7 +150,7 @@ export const TabData = [
       {
         CName: "GenAI & Agentic AI Master Certification Program",
         hours: "9 months",
-        url: "/gen-ai-and-agentic-ai-master-program",
+        url: "/genai-and-agentic-ai-master-programs",
       },
     ],
   },

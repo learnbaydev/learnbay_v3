@@ -345,7 +345,7 @@ generative ai and agentic ai course for working professionals
         {/* <!-- Facebook Meta Tags --> */}
         <meta
           property="og:url"
-          content="https://www.learnbay.co/gen-ai-and-agentic-ai-master-program"
+          content="https://www.learnbay.co/genai-and-agentic-ai-master-program"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -366,7 +366,7 @@ generative ai and agentic ai course for working professionals
         <meta name="twitter:creator" content="@Learnbay" />
         <meta
           property="twitter:url"
-          content="https://www.learnbay.co/gen-ai-and-agentic-ai-master-program"
+          content="https://www.learnbay.co/genai-and-agentic-ai-master-program"
         />
         <meta
           name="twitter:title"
@@ -390,7 +390,7 @@ generative ai and agentic ai course for working professionals
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/gen-ai-and-agentic-ai-master-program "
+          href="https://www.learnbay.co/genai-and-agentic-ai-master-program"
         />
         <script
           type="application/ld+json"
@@ -400,7 +400,7 @@ generative ai and agentic ai course for working professionals
       "@type": "Course",
       "name": "GenAI & Agentic AI Master Program for Professionals - Learnbay",
       "description": "Advance your career with Learnbay’s GenAI & Agentic AI Master Program for Working Professionals. Build AI agents, RAG, & LLMOps projects with career support.",
-      "url": "https://www.learnbay.co/gen-ai-and-agentic-ai-master-program",
+      "url": "https://www.learnbay.co/genai-and-agentic-ai-master-program",
       "offers": {
         "@type": "offer",
         "price": "159000",
