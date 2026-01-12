@@ -384,7 +384,7 @@ export const courses = {
       description: "Designed For Tech Professionals",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV32026.webp",
-      link: "/artificial-intelligence/sde-master-program-gen-ai-agentic-ai",
+      link: "/artificial-intelligence/sde-master-program-genai-agentic-ai ",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Science+%26+AI+Master+Program.pdf",
       brochurePdfs:
@@ -723,7 +723,7 @@ export const courses = {
       description: "For Tech Professionals",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV32026.webp",
-      link: "/artificial-intelligence/sde-master-program-gen-ai-agentic-ai",
+      link: "/artificial-intelligence/sde-master-program-genai-agentic-ai ",
       brochureLinks:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/New+Brochure/Data+Science+and+Generative+AI+for+BFSI+Professionals_comprv1.pdf",
       brochurePdfs:
@@ -1168,7 +1168,7 @@ export const courses = {
       description: "For Tech Professionals",
       image:
         "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/GENV32026.webp",
-      link: "/artificial-intelligence/sde-master-program-gen-ai-agentic-ai",
+      link: "/artificial-intelligence/sde-master-program-genai-agentic-ai ",
       brochureLinks: "",
       brochurePdfs:
         "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/SDE+Master+Program+for+Tech+Professionals_compressed.pdf",
