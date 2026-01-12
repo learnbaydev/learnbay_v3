@@ -16,6 +16,7 @@ import Head from "next/head";
 import React from "react";
 import highlightsData from "@/Data/highlightsDataSA";
 import AlumniCompaniesCloudDevopsSystemAdministrator from "@/components/CoursePage/newUICourse/AluminiCompaniesCloudDevopsSA";
+import FAQ from "@/components/AppliedAIPractitionerProgram/FAQs/FAQ";
 const AnimationNew2 = dynamic(() =>
   import("@/components/Home/whyChooseSection/whylblimitedSA")
 );
@@ -45,6 +46,8 @@ const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud+and+Devops+Engineering+For+System+Admin+Professionals++(3)_compressed.pdf";
+  const faqNewData = [];
+
   return (
     <>
       <Head>
@@ -248,6 +251,7 @@ DevOps engineering for system administrator
           interstedInHide={true}
           upSkillingHide={true}
         />
+        <FAQ FaqData={faqNewData} />
         <Footer />
         <BottomBar dataScienceCounselling={true} interstedInHide={true} />
         <WhatsappFloat />

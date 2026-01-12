@@ -15,6 +15,7 @@ import dynamic from "next/dynamic";
 import Head from "next/head";
 import React from "react";
 import highlightsData from "@/Data/highlightsDataISIO";
+import FAQ from "@/components/AppliedAIPractitionerProgram/FAQs/FAQ";
 const AnimationNew3 = dynamic(() =>
   import("@/components/Home/whyChooseSection/whylblimitedISIO")
 );
@@ -44,6 +45,8 @@ const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud+and+Devops+Engineering+For+ITS+%26+ITOps+Professionals++(3)_compressed.pdf";
+
+  const faqNewData = [];
   return (
     <>
       <Head>
@@ -248,6 +251,7 @@ cloud certification for it professionals
           interstedInHide={true}
           upSkillingHide={true}
         />
+        <FAQ FaqData={faqNewData} />
         <Footer />
         <BottomBar dataScienceCounselling={true} interstedInHide={true} />
         <WhatsappFloat />

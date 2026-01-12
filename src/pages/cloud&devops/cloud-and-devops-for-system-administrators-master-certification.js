@@ -15,6 +15,7 @@ import highlightsData from "@/Data/HighlightsAdminSectionData";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import React from "react";
+import FAQ from "@/components/AppliedAIPractitionerProgram/FAQs/FAQ";
 // import newCloudAndDevopsSyllabus from "@/components/newCloudAndDevopsSyllabus/newCloudAndDevopsSyllabus";
 const AnimationNew = dynamic(() =>
   import("@/components/Home/whyChooseSection/whylblimited")
@@ -48,6 +49,8 @@ const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI-Powered+Cloud+DevOps+Engineering+Master+Program+(8)_compressed+.pdf";
+
+  const faqNewData = [];
   return (
     <>
       <Head>
@@ -249,6 +252,7 @@ Cloud and DevOps certification program,
           interstedInHide={true}
           upSkillingHide={true}
         />
+        <FAQ FaqData={faqNewData} />
         <Footer />
         <BottomBar dataScienceCounselling={true} interstedInHide={true} />
         <WhatsappFloat />

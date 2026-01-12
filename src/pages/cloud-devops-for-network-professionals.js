@@ -15,6 +15,7 @@ import dynamic from "next/dynamic";
 import Head from "next/head";
 import React from "react";
 import highlightsData from "@/Data/highlightsDataNP";
+import FAQ from "@/components/AppliedAIPractitionerProgram/FAQs/FAQ";
 const AnimationNew1 = dynamic(() =>
   import("@/components/Home/whyChooseSection/whylblimitedNP")
 );
@@ -44,6 +45,9 @@ const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Cloud+and+Devops+Engineering+For+Network+Professionals+_compressed.pdf";
+
+  const faqNewData = [];
+
   return (
     <>
       <Head>
@@ -245,6 +249,7 @@ Clouds and DevOps Network professional program
           interstedInHide={true}
           upSkillingHide={true}
         />
+        <FAQ FaqData={faqNewData} />
         <Footer />
         <BottomBar dataScienceCounselling={true} interstedInHide={true} />
         <WhatsappFloat />

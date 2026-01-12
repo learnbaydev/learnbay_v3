@@ -15,6 +15,7 @@ import dynamic from "next/dynamic";
 import Head from "next/head";
 import React from "react";
 import highlightsData from "@/Data/highlightsDataDA";
+import FAQ from "@/components/AppliedAIPractitionerProgram/FAQs/FAQ";
 const AnimationNew4 = dynamic(() =>
   import("@/components/Home/whyChooseSection/whylblimitedDA")
 );
@@ -44,6 +45,9 @@ const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Complete+Final+of+Cloud+and+Devops+Engineering+For+DBA+Professionals++(5)_compressed.pdf";
+
+  const faqNewData = [];
+
   return (
     <>
       <Head>
@@ -250,6 +254,7 @@ devops database administrator
           interstedInHide={true}
           upSkillingHide={true}
         />
+        <FAQ FaqData={faqNewData} />
         <Footer />
         <BottomBar dataScienceCounselling={true} interstedInHide={true} />
         <WhatsappFloat />
