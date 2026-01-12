@@ -44,7 +44,7 @@ const SyllabusNew = dynamic(() =>
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Advanced%2BCloud%2Band%2BDevops%2BProgram%2B(2)_compressed.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Advanced_Cloud_and_Devops_Program.pdf";
 
   const faqNewData = [
     {
@@ -738,7 +738,7 @@ Career assistance (Job assistance)"
           interstedInHide={true}
         />
         <AlumniCompaniesCloudDevopsDA
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Advanced%2BCloud%2Band%2BDevops%2BProgram%2B(2)_compressed.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Advanced_Cloud_and_Devops_Program.pdf"
           brochurePdf={pdfUrl}
         />
         <LearningToPlacementDA time="150" guided="10" />

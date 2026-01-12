@@ -62,7 +62,7 @@ import FAQ from "@/components/AppliedAIPractitionerProgram/FAQs/FAQ";
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Gen+AI+%26+Agentic+AI+for+Cloud+%26+DevOps+(4)_compressed.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_for_Cloud_and_DevOps.pdf";
 
   let soonDate = getDSABookingSoonDate();
   let laterDate = getDSABookingLaterDate();
@@ -621,12 +621,12 @@ genai certification for cloud and devops
           descrption={NewDSAData[0].header[0].descrption}
           svgDSA={NewDSAData[0].header[0].svgDSA}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Gen+AI+%26+Agentic+AI+for+Cloud+%26+DevOps+(4)_compressed.pdf"
+          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_for_Cloud_and_DevOps.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
         <AlumniCompanies
-          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/Gen+AI+%26+Agentic+AI+for+Cloud+%26+DevOps+(4)_compressed.pdf"
+          brochureLinks="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/GenAI_and_Agentic_AI_for_Cloud_and_DevOps.pdf"
           brochurePdf={pdfUrl}
         />
         <LearningToPlacement time="150" guided="10" />

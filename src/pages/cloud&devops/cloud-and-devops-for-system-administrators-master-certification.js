@@ -48,7 +48,7 @@ const SyllabusNew = dynamic(() =>
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
-    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI-Powered+Cloud+DevOps+Engineering+Master+Program+(8)_compressed+.pdf";
+    "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI-Powered_Cloud_DevOps_Engineering_Master_Program.pdf";
 
   const faqNewData = [
     {
@@ -745,12 +745,12 @@ Job assistance"
           descrption={NewDSAData[0].header[0].descrption}
           svgDSA={NewDSAData[0].header[0].svgDSA}
           titleCourse="Data Structure Algorithms & System Design"
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI-Powered+Cloud+DevOps+Engineering+Master+Program+(8)_compressed+.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI-Powered_Cloud_DevOps_Engineering_Master_Program.pdf"
           brochurePdf={pdfUrl}
           interstedInHide={true}
         />
         <AlumniCompanies
-          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI-Powered+Cloud+DevOps+Engineering+Master+Program+(8)_compressed+.pdf"
+          brochureLink="https://brochureslearnbay.s3.ap-south-1.amazonaws.com/2026/AI-Powered_Cloud_DevOps_Engineering_Master_Program.pdf"
           brochurePdf={pdfUrl}
         />
         <LearningToPlacement time="250" guided="40" leftPart="3YEAR" />
