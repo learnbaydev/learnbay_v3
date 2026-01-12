@@ -46,7 +46,7 @@ const Content = dynamic(() =>
   import("@/components/CoursePage/Content/content")
 );
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import FAQNew from "@/components/CoursePage/FAQNew/FAQNew";
+import FAQ from "@/components/AppliedAIPractitionerProgram/FAQs/FAQ";
 import {
   getDSABookingLaterDate,
   getDSABookingSoonDate,
@@ -67,6 +67,229 @@ const NewDSA = ({ DSADataJson }) => {
   let laterDate = getDSABookingLaterDate();
   // console.log(getDSABookingSoonDate(new Date('2023-03-24')));
   // console.log(getDSABookingLaterDate(new Date('2023-03-24')));
+  const faqNewData = [
+    {
+      id: 0,
+      sectionName: "COURSE-RELATED",
+      data: [
+        {
+          id: 0,
+          ques: "Who is qualified for the SDE Master’s program with GenAI and Agentic AI at Learnbay?",
+          ans: "Software developers and engineers with a minimum of 1+ years of industry experience can pursue this master’s program.",
+          open: true,
+        },
+        {
+          id: 1,
+          ques: "What learning modules are covered in the Software Development Program at Learnbay?",
+          ans: "The learning modules with the SDE master’s program majorly include DSA, system design, GenAI, and Agentic AI concepts.",
+          open: false,
+        },
+        {
+          id: 2,
+          ques: "How long does it take to complete the SDE Master’s Program?",
+          ans: "The course duration is 7 – 8 months, including flexible training sessions.",
+          open: false,
+        },
+        {
+          id: 3,
+          ques: "How long can I have access to the course materials and resources?",
+          ans: "Professionals joining our SDE master’s program will have unlimited access to course materials and resources according to a 3-year flexi pass for live interactive classes.",
+          open: false,
+        },
+      ],
+    },
+    {
+      id: 1,
+      sectionName: "Domain Specialization",
+      data: [
+        {
+          id: 0,
+          ques: "What is domain specialization?",
+          ans: "Domain specialization refers to the process of gaining field expertise in a specific subject or area of interest related to an industry. Domain-specific learning is vital for experts who want to retain their careers with enriched benefits (hikes, bonuses, promotions, etc).",
+          open: true,
+        },
+        {
+          id: 1,
+          ques: "What are the available domain elective options?",
+          ans: "Our SDE master’s program with GenAI and Agentic AI promises a rewarding future. Here, you can choose any two domain electives to transition your role to GenAI & Agentic AI specialists. The available domain electives are –",
+          open: false,
+          list1: "GenAI for Software Development and SDE Roles",
+          list2: "AI for Cloud, DevOps, and LLM Infrastructure",
+          list3: "AI-Powered Backend Engineering for AI Systems",
+          list4: "Distributed Systems & Microservices for AI Applications",
+          list5: "Multi-Agent Systems & Workflow Automation with Agentic AI",
+          list6: "GenAI & Agentic AI for Product Managers",
+        },
+      ],
+    },
+    {
+      id: 2,
+      sectionName: "PAYMENTS & SCHOLARSHIPS",
+      data: [
+        {
+          id: 0,
+          ques: "What is the course fee for the Software Development Course?",
+          ans: "The course costs INR 1,59,000 plus 18% GST.",
+          open: true,
+        },
+        {
+          id: 1,
+          ques: "What financing options are open for the SDE Master’s program?",
+          ans: "Learnbay extends a pocket-friendly career switch with its flexible installment options, with a no-cost EMI for 6, 9, and 12 months.",
+          open: false,
+        },
+      ],
+    },
+    {
+      id: 3,
+      sectionName: "CAPSTONE PROJECTS",
+      data: [
+        {
+          id: 0,
+          ques: "How many real-time projects will there be?",
+          ans: "The SDE master’s program includes 29+ real-world GenAI and Agentic AI projects to refine your domain knowledge. Additionally, you will work on 4+ capstone projects (2 projects each per domain elective).",
+          open: true,
+        },
+        {
+          id: 1,
+          ques: "Are there opportunities to work on real industry projects?",
+          ans: "Yes. Experts enrolling in the GenAI-rich SDE master’s course will work on real-time AI projects to gain valuable insights. You will be assigned domain-specific GenAI and Agentic AI projects at AI Co-Labs to refine your skills with autonomous agents.",
+          open: false,
+        },
+        {
+          id: 2,
+          ques: "Can I choose my capstone project, or are projects assigned?",
+          ans: "Once you enroll in the master’s program, you can choose projects useful to your domain, career interests, and goals. Additionally, you will work on AI projects to tackle real-time GenAI & Agentic AI challenges.",
+          open: false,
+        },
+        {
+          id: 3,
+          ques: "How does Learnbay’s capstone project prep help learners?",
+          ans: "The SDE master’s program with Capstone Projects is essential in modern upskilling times. It helps you gain industry best practices and get structured learning for developing GenAI and Agentic AI-rich expertise. This helps to refine your problem-solving skills. Learners will work on capstone projects to confront LLMs and work collaboratively with autonomous agents in software development.",
+          open: false,
+        },
+      ],
+    },
+    {
+      id: 4,
+      sectionName: "CERTIFICATIONS",
+      data: [
+        {
+          id: 0,
+          ques: "Is certification essential for career transformation in software development?",
+          ans: "Certification is crucial to confirm your expertise with the latest GenAI-driven evolutions. Our SDE master’s program helps you master the GenAI and Agentic AI intricacies in the software development process at the front and backend, exhibiting a global-level career with massive progress.",
+          open: true,
+        },
+        {
+          id: 1,
+          ques: "Is there any accredited certification after course completion?",
+          ans: "Yes. Our SDE master’s course offers –",
+          open: false,
+          list1: "One IBM Generative AI Certification",
+          list2: "Three Microsoft Azure Certifications",
+          list3: "Two AI Co-Lab certifications",
+        },
+      ],
+    },
+    {
+      id: 5,
+      sectionName: "JOB ASSISTANCE",
+      data: [
+        {
+          id: 0,
+          ques: "What is dedicated placement assistance for working professionals at Learnbay?",
+          ans: "Learnbay offers the best SDE Master’s Program with placement. Our career-driven placement support assures you of hassle-free transitions and swift promotions in your domain. It includes mock interviews, resume optimization, and interview calls from reputed firms.",
+          open: true,
+        },
+        {
+          id: 1,
+          ques: "Who is eligible for the career assistance program at Learnbay?",
+          ans: "Working professionals (learners) who obtain at least 70% marks in tasks and projects become eligible for our placement assistance.",
+          open: false,
+        },
+        {
+          id: 2,
+          ques: "How is Learnbay's Career Services Pro different from others?",
+          ans: "You become eligible for our placement program when you get upskilled with our SDE Master’s program. It offers -",
+          open: false,
+          list1: "Technical mock interviews",
+          list2: "Resume building (ATS-friendly)",
+          list3: "Job referrals",
+        },
+      ],
+    },
+    {
+      id: 6,
+      sectionName: "MENTORSHIPS",
+      data: [
+        {
+          id: 0,
+          ques: "Who are the mentors at Learnbay?",
+          ans: "Our prestigious mentors are from top-tier MNCs such as IBM, Google, Microsoft, and Amazon. We appoint reliable industry experts as mentors to help you with live training, 1:1 doubt-clearing sessions, and comprehensive knowledge-building.",
+          open: true,
+        },
+        {
+          id: 1,
+          ques: "Can I reach out to my mentors to clear up any doubts regarding the course?",
+          ans: "Any learner pursuing the SDE master’s program will get hands-on learning (AI CoLab) and personalized doubt-clearing. Mentors are liable for helping aspirants find the ideal solutions to their doubts in coursework and projects.",
+          open: false,
+        },
+        {
+          id: 2,
+          ques: "Do the mentors take live classes or play recorded sessions during the training?",
+          ans: "Industry mentors at Learnbay take live online classes for the learners to teach them in-depth concepts. Recordings are also available after the sessions to help until the learner gets placed.",
+          open: false,
+        },
+        {
+          id: 3,
+          ques: "How long can I avail myself of the mentorship facility?",
+          ans: "Our mentors provide 100% live online training until the course is complete. During placement preparation, a learner can opt for 1:1 doubt-clearing and interview prep. Mentorship ends after completion of tasks, assessments, and projects.",
+          open: false,
+        },
+        {
+          id: 4,
+          ques: "Can learners choose to study with their desired mentors at Learnbay?",
+          ans: "Every batch has a distinct mentor. However, if you are not comfortable with your mentor's training strategy, management can help resolve it by replacing them with other desirable mentors.",
+          open: false,
+        },
+      ],
+    },
+    {
+      id: 7,
+      sectionName: "SUPPORT",
+      data: [
+        {
+          id: 0,
+          ques: "Are there dedicated support channels for addressing technical issues?",
+          ans: "Learnbay has a centralized technical support team available round-the-clock to help with login issues, training sessions, and project-related queries.",
+          open: true,
+        },
+        {
+          id: 1,
+          ques: "What types of support are available for learners joining the SDE Master Program?",
+          ans: "After enrolling in the course, learners will get support for –",
+          open: false,
+          list1: "Technical/non-technical concerns & Mentorship",
+          list2: "Domain-specific career guidance",
+          list3: "Personalized (1:1) doubt-clearing sessions",
+          list4: "Capstone project preparation & AI CoLab experience",
+          list5: "IBM & AI Startup certifications & Job assistance",
+        },
+        {
+          id: 2,
+          ques: "Is there a discussion forum or community for learners?",
+          ans: "Learners will get a customized Learnbay app with their mentors mentioned to directly communicate and discuss doubts with peers.",
+          open: false,
+        },
+        {
+          id: 3,
+          ques: "How long will I get job referrals?",
+          ans: "You can get job referrals until you successfully crack a promising job in the software industry.",
+          open: false,
+        },
+      ],
+    },
+  ];
 
   return (
     <>
@@ -295,6 +518,7 @@ Software developer master program
           interstedInHide={true}
           upSkillingHide={true}
         />
+        <FAQ FaqData={faqNewData} />
         <Footer />
         <BottomBar dataScienceCounselling={true} interstedInHide={true} />
         <WhatsappFloat />

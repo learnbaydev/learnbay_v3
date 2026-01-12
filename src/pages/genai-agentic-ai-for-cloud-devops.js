@@ -46,7 +46,7 @@ const Content = dynamic(() =>
   import("@/components/CoursePage/Content/content")
 );
 import BottomBar from "@/components/Global/BottomBar/BottomBar";
-import FAQNew from "@/components/CoursePage/FAQNew/FAQNew";
+
 import {
   getDSABookingLaterDate,
   getDSABookingSoonDate,
@@ -58,6 +58,7 @@ import { MasterAI } from "@/Data/Schema/DataScienceAndAIMasterSchema";
 import FeeSection from "@/components/course/feeSection/FeeSectionCourse";
 import UpdatedCertificate from "@/components/CoursePage/UpdatedCertificate/UpdatedCertificate";
 import HighlightsSection from "@/components/CoursePage/FirstPart/Support_noimage/HighlightsSection";
+import FAQ from "@/components/AppliedAIPractitionerProgram/FAQs/FAQ";
 const NewDSA = ({ DSADataJson }) => {
   const NewDSAData = parseJSONData(DSADataJson);
   const pdfUrl =
@@ -67,6 +68,213 @@ const NewDSA = ({ DSADataJson }) => {
   let laterDate = getDSABookingLaterDate();
   // console.log(getDSABookingSoonDate(new Date('2023-03-24')));
   // console.log(getDSABookingLaterDate(new Date('2023-03-24')));
+  const faqNewData = [
+    {
+      id: 0,
+      sectionName: "Course-Related",
+      data: [
+        {
+          id: 0,
+          ques: "Can I do a GenAI and Agentic AI Course for Cloud and DevOps professionals at Learnbay?",
+          ans: "Yes. Professionals with good knowledge in cloud and devops knowledge or with at least one year of work experience in the same field are eligible to join the course.",
+          open: true,
+        },
+        {
+          id: 1,
+          ques: "Can I pursue a Generative AI course while having a full-time job or from a different time zone?",
+          ans: "Cloud and devOps experts enrolling for this Generative AI course online can easily balance their work schedules and study goals. They will get the flexibility to choose their batches from multiple timings on both weekdays and weekends. Our 100% live online sessions allow professionals to optimize their domain expertise without giving up their current jobs.",
+          open: false,
+        },
+        {
+          id: 2,
+          ques: "Why should I join Learnbay’s MasterTrack Program?",
+          ans: "If you’re a cloud and devOps professional, enrolling in our MasterTrack program can be advantageous for you –",
+          open: false,
+          list1: "3-Year flexi subscription to upgrade your skills and evolve",
+          list2:
+            "AI CoLab experience in tackling trending GenAI and AI Devops projects.",
+          list3:
+            "BYOP+Mentorship to resolve your own issues under a mentor’s guidance",
+          list4: "IBM credentials to validate your AI skills",
+        },
+        {
+          id: 3,
+          ques: "Is a Gen AI course for Cloud and DevOps professionals worth it?",
+          ans: "Pursuing a Gen AI in DevOps course can be a beneficial career investment for Cloud professionals. It enables experts to enhance product designs, control quality issues, ensure predictive maintenance, and optimize supply chains. Lastly, adding IBM certificates can help you thrive globally.",
+          open: false,
+        },
+        {
+          id: 4,
+          ques: "What is the duration of the Gen AI course for DevOps professionals?",
+          ans: "The course duration is 5 months (flexible batches), including coursework and projects.",
+          open: false,
+        },
+      ],
+    },
+    {
+      id: 1,
+      sectionName: "Payments and Scholarships",
+      data: [
+        {
+          id: 0,
+          ques: "What is the cost of the Generative AI course online?",
+          ans: "The Agentic AI in DevOps course for the cloud and DevOps professionals costs ₹1,20,000 + 18% GST.",
+          open: true,
+        },
+        {
+          id: 1,
+          ques: "Can I pay in installments for the Generative AI Course?",
+          ans: "Yes, you can opt for an interest-free no-cost EMI plan with the necessary documents (Aadhaar card, PAN card, and salary slip).",
+          open: false,
+        },
+        {
+          id: 2,
+          ques: "Is there any scholarship/discount available for the Gen AI course online?",
+          ans: "Being an early bird, you can avail yourself of a 15% – 20% discount. Yet, learners who join with one or more friends can avail of group discounts per the following terms and conditions.",
+          open: false,
+          list1: "Group of 2: 5% extra discount",
+          list2: "Group of 3: 8% additional discount",
+          list3: "Group of 4+: Max 10% discount",
+          note: "Apart from discounts, experts can receive up to a 25% scholarship while enrolling in the course. You can contact our sales team at +91 7795687988 for further details on special offers.",
+        },
+        {
+          id: 3,
+          ques: "What is the refund policy for the Gen AI and Agentic AI Program at Learnbay?",
+          ans: "Experts joining our course can cancel anytime with a valid reason. For further details, refer to Learnbay’s Refund/Cancellation Policy.",
+          open: false,
+        },
+      ],
+    },
+    {
+      id: 2,
+      sectionName: "Capstone and Real-time Projects",
+      data: [
+        {
+          id: 0,
+          ques: "How many real-time projects will there be?",
+          ans: "The Generative AI course for Cloud professionals includes 26+ real-time industrial projects to refine your domain knowledge.",
+          open: true,
+        },
+        {
+          id: 1,
+          ques: "Are there opportunities to work on real industry projects?",
+          ans: "Yes. Experts enrolling in the Generative AI course for DevOps experts will work on real-time AI projects to gain valuable insights. You will be assigned domain-specific GenAI and Agentic AI projects at AI Co-Labs to refine your skills in LLM-powered Cloud and DevOps systems and autonomous agents.",
+          open: false,
+        },
+        {
+          id: 2,
+          ques: "Can I choose my capstone project, or are projects assigned?",
+          ans: "After enrolling in the GenAI and Agentic AI program for Cloud and DevOps professionals, you can choose projects useful to your domain, career interests, and goals. Additionally, you will work on AI startup projects to tackle real-time GenAI & Agentic AI challenges.",
+          open: false,
+        },
+      ],
+    },
+    {
+      id: 3,
+      sectionName: "Certifications",
+      data: [
+        {
+          id: 0,
+          ques: "Is there any accredited certification after course completion?",
+          ans: "Yes. Learners joining this course will receive certifications to stand out in the career competition. Once you complete the course and project tasks, you will receive a globally valued IBM Generative AI Certification.",
+          open: true,
+        },
+        {
+          id: 1,
+          ques: "How do I receive my certificate, and is it a digital or printed certificate?",
+          ans: "All eligible learners with at least 70% in course tasks and projects can earn globally recognized certificates. Your digitally available certificates will reach you within 7 days.",
+          open: false,
+        },
+      ],
+    },
+    {
+      id: 4,
+      sectionName: "Job Assistance",
+      data: [
+        {
+          id: 0,
+          ques: "What’s the eligibility for a job assistance program at Learnbay?",
+          ans: "Learners enrolling in this Generative AI course for DevOps professionals must complete the tasks and projects with a minimum score of 70% to unlock exciting career options through the placement program.",
+          open: true,
+        },
+        {
+          id: 1,
+          ques: "How many interview calls will I get at Learnbay?",
+          ans: "Learners from the Cloud and DevOps sector joining our Generative AI course online will get unlimited interview calls from our top allied partners.",
+          open: false,
+        },
+        {
+          id: 2,
+          ques: "Can I opt for the placement services?",
+          ans: "Anyone with a minimum score of 70% in course tasks and projects is eligible for the Career Services Pro. Under this feature, you will get –",
+          open: false,
+          list1: "1:1 mock interviews with allied partners",
+          list2: "Resume help",
+          list3: "Job referrals from top-ranked Cloud computing firms",
+        },
+        {
+          id: 3,
+          ques: "Do you offer job placement services after completing the course?",
+          ans: "Yes. We offer 100% job assistance services to learners opting for a Gen AI course online. The program supports learners with premium career-enrich perks – from 1:1 interview prep to updating CVs.",
+          open: false,
+        },
+      ],
+    },
+    {
+      id: 5,
+      sectionName: "Mentorships",
+      data: [
+        {
+          id: 0,
+          ques: "Until when will the students get the mentorship facility?",
+          ans: "The learners will get the mentorship until they complete the course. After completing the course tasks and projects, you can reach out to your mentors for doubt-clearing, placement support, and project guidance.",
+          open: true,
+        },
+        {
+          id: 1,
+          ques: "Can a Learnbay student choose to study with their desired mentor?",
+          ans: "Learnbay has a team of reliable mentors with relevant industry experience. Each learner is assigned a mentor who can justify upskilling and meet a learner’s career goals and interests. If a student does not find the mentor fit for training, he/she can request a new mentor. Learnbay supports quality upskilling; hence, students can change their mentors and study from the ones they desire.",
+          open: false,
+        },
+        {
+          id: 2,
+          ques: "Are mentors available for one-on-one or group sessions?",
+          ans: "Yes. Our reputable mentors are available for 1:1 or group sessions in respective projects or courses. If a learner opts for a 1:1 session for live training, doubt-clearing, or project queries, mentors are available for them.",
+          open: false,
+        },
+        {
+          id: 3,
+          ques: "Are there mentors available to help with coursework and projects?",
+          ans: "Learners enrolling in the course will get reliable industry training. Our mentors help each learner with course tasks and real-time GenAI and Agentic AI projects. So, yes, you will get hassle-free help from your mentor while working on capstone projects and course modules.",
+          open: false,
+        },
+      ],
+    },
+    {
+      id: 6,
+      sectionName: "Support",
+      data: [
+        {
+          id: 0,
+          ques: "How can I contact technical support if I face any problems with the course platform?",
+          ans: "Once you register for the course, you will get 24×7 learner support that resolves any learning queries. You can call our helpline number to reach the desired service providers who can help you with any technical issues (login, sessions, projects, chat, or course materials) with the course platform.",
+          open: true,
+        },
+        {
+          id: 1,
+          ques: "Is there a discussion forum or community for learners to communicate and seek support?",
+          ans: "Learners will get a customized Learnbay app with their mentors mentioned. They can directly communicate with their mentors to resolve queries and discuss doubts with peers.",
+          open: false,
+        },
+        {
+          id: 2,
+          ques: "How long will I get job referrals?",
+          ans: "You can get job referrals until you successfully crack a promising job in the Cloud and DevOps domain.",
+          open: false,
+        },
+      ],
+    },
+  ];
 
   return (
     <>
@@ -293,6 +501,7 @@ genai certification for cloud and devops
           interstedInHide={true}
           upSkillingHide={true}
         />
+        <FAQ FaqData={faqNewData} />
         <Footer />
         <BottomBar dataScienceCounselling={true} interstedInHide={true} />
         <WhatsappFloat />
