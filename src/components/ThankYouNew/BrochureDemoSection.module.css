@@ -311,12 +311,17 @@
   .hero {
     padding: 52px 12px 100px;
   }
-
   .hostStrip {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
     align-items: center;
-    text-align: center;
   }
 
+  .hostStrip > * {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
   .hostRight {
     text-align: center;
   }
