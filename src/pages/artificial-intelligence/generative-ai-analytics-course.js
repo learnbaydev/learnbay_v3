@@ -102,7 +102,7 @@ function Blockchain({ DataScienceCourseDataJson }) {
         />
         <link
           rel="canonical"
-          href="https://www.learnbay.co/artificial-intelligence//generative-ai-analytics-course"
+          href="https://www.learnbay.co/artificial-intelligence/generative-ai-analytics-course"
         />
         <script
           type="application/ld+json"
