@@ -140,7 +140,7 @@
   border-radius: 0px 0px 20px 20px;
   background: linear-gradient(0deg, #e1e1e1 0%, #e1e1e1 100%),
     linear-gradient(0deg, #f5f5f5 0%, #f5f5f5 100%), #f5f5f5;
-  padding:20px;
+  padding: 20px;
   display: flex;
 }
 .bookFreebtn {
@@ -255,7 +255,7 @@
   width: 100%;
   height: 690px;
   /* Default background image for desktop */
-  background: url("") no-repeat center center;
+  /* background: url("") no-repeat center center; */
   background-size: contain;
   background: linear-gradient(
     89deg,
@@ -495,7 +495,7 @@
   .btn {
     display: none;
   }
-  
+
   .spandiv {
     margin-top: 20px;
   }
@@ -534,10 +534,7 @@
     width: 100%;
     height: auto;
   }
-
- 
 }
-
 
 @media screen and (max-width: 481px) {
   .leftside {
@@ -547,11 +544,8 @@
   }
 
   .listryt span {
-
     font-size: 20px;
   }
-  
-
 }
 
 @media screen and (max-width: 416px) {
@@ -568,12 +562,10 @@
 }
 
 @media screen and (max-width: 376px) {
-.gridConteiner h1 {
-  font-size: 22px;
-  line-height: 38px;
-}
-
-
+  .gridConteiner h1 {
+    font-size: 22px;
+    line-height: 38px;
+  }
 }
 
 @media screen and (max-width: 360px) {
@@ -594,7 +586,7 @@
   .listryt span {
     font-size: 13px;
   }
-  .spandiv{
+  .spandiv {
     gap: 10px;
   }
 }

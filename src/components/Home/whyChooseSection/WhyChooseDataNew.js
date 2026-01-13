@@ -10,12 +10,16 @@ const whyChooseData = [
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/3dicons+(1).webp",
         imgAlt: "100% Live online classes",
+        width: "50",
+        height: "50",
       },
       {
         text: "Hybrid * projects",
         imgSrc:
           "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iconnN.webp",
         imgAlt: "Hybrid classes",
+        width: "50",
+        height: "50",
       },
     ],
     note: {
